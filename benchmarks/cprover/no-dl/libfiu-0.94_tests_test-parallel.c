@@ -1,34 +1,34 @@
-// tag-#anon#ST[*{cS8}$cS8$'dli_fname'|*{V}$V$'dli_fbase'|*{cS8}$cS8$'dli_sname'|*{V}$V$'dli_saddr']
+// tag-#anon#ST[*{cS8}_cS8_'dli_fname'|*{V}_V_'dli_fbase'|*{cS8}_cS8_'dli_sname'|*{V}_V_'dli_saddr']
 // file /usr/include/dlfcn.h line 88
 struct anonymous;
 
-// tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']
+// tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[U32'st_name'|U8'st_info'|U8'st_other'|U16'st_shndx'|U64'st_value'|U64'st_size']
 // file /usr/include/elf.h line 417
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[ARR8{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[F32'probability'|*{S32(*{cS8}$cS8$|*{S32}$S32$|*{*{V}$V$}$*{V}$V$$|*{U32}$U32$)->S32}$S32(*{cS8}$cS8$|*{S32}$S32$|*{*{V}$V$}$*{V}$V$$|*{U32}$U32$)->S32$'external_cb'|SYM#tag-stack#'stack']
+// tag-#anon#UN[F32'probability'|*{S32(*{cS8}_cS8_|*{S32}_S32_|*{*{V}_V_}_*{V}_V__|*{U32}_U32_)->S32}_S32(*{cS8}_cS8_|*{S32}_S32_|*{*{V}_V_}_*{V}_V__|*{U32}_U32_)->S32_'external_cb'|SYM#tag-stack#'stack']
 // file fiu.c line 50
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}$U8$'__pad1'|U64'__pad2'|U32'__flags'|U32'$pad0']#'__data'|ARR56{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__nr_readers'|U32'__readers_wakeup'|U32'__writer_wakeup'|U32'__nr_readers_queued'|U32'__nr_writers_queued'|S32'__writer'|S32'__shared'|S8'__rwelision'|ARR7{U8}_U8_'__pad1'|U64'__pad2'|U32'__flags'|U32'_pad0']#'__data'|ARR56{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -132,9 +132,9 @@ extern signed int backtrace(void **, signed int);
 // backtrace_works
 // file internal.h line 27
 signed int backtrace_works(void (*caller)());
-// backtrace_works::caller$object
+// backtrace_works::caller_object
 //
-void caller$object();
+void caller_object();
 // cache_create
 // file hash.h line 24
 struct cache * cache_create();
@@ -198,9 +198,9 @@ signed int fiu_enable(const char *name, signed int failnum, void *failinfo, unsi
 // fiu_enable_external
 // file fiu.c line 406
 signed int fiu_enable_external(const char *name, signed int failnum, void *failinfo, unsigned int flags, signed int (*external_cb)(const char *, signed int *, void **, unsigned int *));
-// fiu_enable_external::external_cb$object
+// fiu_enable_external::external_cb_object
 //
-signed int external_cb$object(const char *, signed int *, void **, unsigned int *);
+signed int external_cb_object(const char *, signed int *, void **, unsigned int *);
 // fiu_enable_random
 // file fiu.c line 392
 signed int fiu_enable_random(const char *name, signed int failnum, void *failinfo, unsigned int flags, float probability);
@@ -228,9 +228,9 @@ signed int fiu_rc_string(const char *cmd, char ** const error);
 // fp_to_voidp
 // file backtrace.c line 89
 static void * fp_to_voidp(void (*funcp)());
-// fp_to_voidp::funcp$object
+// fp_to_voidp::funcp_object
 //
-void funcp$object();
+void funcp_object();
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
@@ -261,9 +261,9 @@ extern signed int gettimeofday(struct timeval *, void *);
 // hash_create
 // file hash.h line 12
 struct hash * hash_create(void (*destructor)(void *));
-// hash_create::destructor$object
+// hash_create::destructor_object
 //
-void destructor$object(void *);
+void destructor_object(void *);
 // hash_del
 // file hash.h line 17
 _Bool hash_del(struct hash *h, const char *key);
@@ -338,31 +338,31 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 754
-extern signed int pthread_mutex_destroy(union anonymous$2 *);
+extern signed int pthread_mutex_destroy(union anonymous_2 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 893
-extern signed int pthread_rwlock_destroy(union anonymous$5 *);
+extern signed int pthread_rwlock_destroy(union anonymous_5 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 888
-extern signed int pthread_rwlock_init(union anonymous$5 *, const union anonymous$6 *);
+extern signed int pthread_rwlock_init(union anonymous_5 *, const union anonymous_6 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 897
-extern signed int pthread_rwlock_rdlock(union anonymous$5 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_5 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 927
-extern signed int pthread_rwlock_unlock(union anonymous$5 *);
+extern signed int pthread_rwlock_unlock(union anonymous_5 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 912
-extern signed int pthread_rwlock_wrlock(union anonymous$5 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_5 *);
 // pthread_setspecific
 // file /usr/include/pthread.h line 1122
 extern signed int pthread_setspecific(unsigned int, const void *);
@@ -390,9 +390,9 @@ static signed int read_line(signed int fd, char *buf);
 // resize_table
 // file wtable.c line 262
 static _Bool resize_table(struct wtable *t, unsigned long int new_size);
-// resize_table$link1
+// resize_table_link1
 // file hash.c line 195
-static _Bool resize_table$link1(struct hash *h, unsigned long int new_size$link1);
+static _Bool resize_table_link1(struct hash *h, unsigned long int new_size_link1);
 // should_stack_fail
 // file fiu.c line 159
 static signed int should_stack_fail(struct pf_info *pf);
@@ -441,9 +441,9 @@ static _Bool ws_matches_s(const char *ws, unsigned long int ws_len, const char *
 // wtable_create
 // file wtable.h line 16
 struct wtable * wtable_create(void (*destructor)(void *));
-// wtable_create::destructor$object
+// wtable_create::destructor_object
 //
-void destructor$object(void *);
+void destructor_object(void *);
 // wtable_del
 // file wtable.h line 21
 _Bool wtable_del(struct wtable *t, const char *key);
@@ -469,7 +469,7 @@ struct anonymous
   void *dli_saddr;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __lock
   signed int __lock;
@@ -497,7 +497,7 @@ struct anonymous$4
   unsigned int __flags;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // st_name
   unsigned int st_name;
@@ -513,7 +513,7 @@ struct anonymous$0
   unsigned long int st_size;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -521,7 +521,7 @@ union anonymous$3
   signed int __align;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[8l];
@@ -539,7 +539,7 @@ struct stack
   signed int func_pos_in_stack;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // probability
   float probability;
@@ -549,10 +549,10 @@ union anonymous$1
   struct stack stack;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
-  struct anonymous$4 __data;
+  struct anonymous_4 __data;
   // __size
   char __size[56l];
   // __align
@@ -587,7 +587,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -676,7 +676,7 @@ struct cache
   // size
   unsigned long int size;
   // lock
-  union anonymous$5 lock;
+  union anonymous_5 lock;
 };
 
 struct entry
@@ -714,13 +714,13 @@ struct pf_info
   // flags
   unsigned int flags;
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // failed_once
   _Bool failed_once;
   // method
   enum pf_method method;
   // minfo
-  union anonymous$1 minfo;
+  union anonymous_1 minfo;
 };
 
 union pthread_attr_t
@@ -779,7 +779,7 @@ _Bool enabled[10000l];
 struct wtable *enabled_fails = (struct wtable *)(void *)0;
 // enabled_fails_lock
 // file fiu.c line 112
-static union anonymous$5 enabled_fails_lock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
+static union anonymous_5 enabled_fails_lock = { .__data={ .__lock=0, .__nr_readers=(unsigned int)0, .__readers_wakeup=(unsigned int)0,
     .__writer_wakeup=(unsigned int)0, .__nr_readers_queued=(unsigned int)0,
     .__nr_writers_queued=(unsigned int)0,
     .__writer=0,
@@ -788,7 +788,7 @@ static union anonymous$5 enabled_fails_lock = { .__data={ .__lock=0, .__nr_reade
     .__flags=(unsigned int)0 } };
 // enabled_lock
 // file test-parallel.c line 60
-union anonymous$5 enabled_lock;
+union anonymous_5 enabled_lock;
 // enabler_count
 // file test-parallel.c line 96
 unsigned long long int enabler_count = (unsigned long long int)0;
@@ -836,14 +836,14 @@ static inline char * __strtok_r_1c(char *__s, char __sep, char **__nextp)
   __result = (char *)(void *)0;
   if(!((signed int)*__s == 0))
   {
-    char *tmp_post$1 = __s;
+    char *tmp_post_1 = __s;
     __s = __s + 1l;
-    __result = tmp_post$1;
+    __result = tmp_post_1;
     while(!((signed int)*__s == 0))
     {
-      char *tmp_post$2 = __s;
+      char *tmp_post_2 = __s;
       __s = __s + 1l;
-      if(*tmp_post$2 == __sep)
+      if(*tmp_post_2 == __sep)
       {
         __s[(signed long int)-1] = (char)0;
         break;
@@ -883,19 +883,19 @@ static signed int _fiu_rc_fifo(const char *basename)
 {
   unsigned long int thread;
   rec_count = rec_count + 1;
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  snprintf(npipe_path_in, (unsigned long int)4096, "%s-%d.in", basename, return_value_getpid$1);
-  signed int return_value_getpid$2;
-  return_value_getpid$2=getpid();
-  snprintf(npipe_path_out, (unsigned long int)4096, "%s-%d.out", basename, return_value_getpid$2);
-  signed int return_value_mkfifo$4;
-  return_value_mkfifo$4=mkfifo(npipe_path_in, (unsigned int)0600);
-  signed int *return_value___errno_location$3;
-  if(!(return_value_mkfifo$4 == 0))
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  snprintf(npipe_path_in, (unsigned long int)4096, "%s-%d.in", basename, return_value_getpid_1);
+  signed int return_value_getpid_2;
+  return_value_getpid_2=getpid();
+  snprintf(npipe_path_out, (unsigned long int)4096, "%s-%d.out", basename, return_value_getpid_2);
+  signed int return_value_mkfifo_4;
+  return_value_mkfifo_4=mkfifo(npipe_path_in, (unsigned int)0600);
+  signed int *return_value___errno_location_3;
+  if(!(return_value_mkfifo_4 == 0))
   {
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 17))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 17))
     {
       rec_count = rec_count - 1;
       return -1;
@@ -903,13 +903,13 @@ static signed int _fiu_rc_fifo(const char *basename)
 
   }
 
-  signed int return_value_mkfifo$6;
-  return_value_mkfifo$6=mkfifo(npipe_path_out, (unsigned int)0600);
-  signed int *return_value___errno_location$5;
-  if(!(return_value_mkfifo$6 == 0))
+  signed int return_value_mkfifo_6;
+  return_value_mkfifo_6=mkfifo(npipe_path_out, (unsigned int)0600);
+  signed int *return_value___errno_location_5;
+  if(!(return_value_mkfifo_6 == 0))
   {
-    return_value___errno_location$5=__errno_location();
-    if(!(*return_value___errno_location$5 == 17))
+    return_value___errno_location_5=__errno_location();
+    if(!(*return_value___errno_location_5 == 17))
     {
       unlink(npipe_path_in);
       rec_count = rec_count - 1;
@@ -918,9 +918,9 @@ static signed int _fiu_rc_fifo(const char *basename)
 
   }
 
-  signed int return_value_pthread_create$7;
-  return_value_pthread_create$7=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, rc_fifo_thread, (void *)0);
-  if(!(return_value_pthread_create$7 == 0))
+  signed int return_value_pthread_create_7;
+  return_value_pthread_create_7=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, rc_fifo_thread, (void *)0);
+  if(!(return_value_pthread_create_7 == 0))
   {
     unlink(npipe_path_in);
     unlink(npipe_path_out);
@@ -942,11 +942,11 @@ static _Bool _hash_set(struct hash *h, char *key, void *value)
 {
   unsigned long int pos;
   struct entry *entry;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  unsigned int return_value_murmurhash2$2;
-  return_value_murmurhash2$2=murmurhash2(key, return_value_strlen$1);
-  pos = (unsigned long int)return_value_murmurhash2$2 % h->table_size;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  unsigned int return_value_murmurhash2_2;
+  return_value_murmurhash2_2=murmurhash2(key, return_value_strlen_1);
+  pos = (unsigned long int)return_value_murmurhash2_2 % h->table_size;
   do
   {
     entry = h->entries + (signed long int)pos;
@@ -961,13 +961,13 @@ static _Bool _hash_set(struct hash *h, char *key, void *value)
 
     else
     {
-      signed int tmp_statement_expression$3;
+      signed int tmp_statement_expression_3;
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(key, entry->key);
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(key, entry->key);
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
       {
         h->destructor(entry->value);
         entry->value = value;
@@ -993,9 +993,9 @@ static void atfork_child(void)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // backtrace_works
@@ -1023,12 +1023,12 @@ signed int backtrace_works(void (*caller)())
 
     else
     {
-      void *return_value_fp_to_voidp$1;
-      return_value_fp_to_voidp$1=fp_to_voidp(caller);
-      start=get_func_start(return_value_fp_to_voidp$1);
-      void *return_value_fp_to_voidp$2;
-      return_value_fp_to_voidp$2=fp_to_voidp(caller);
-      end=get_func_end(return_value_fp_to_voidp$2);
+      void *return_value_fp_to_voidp_1;
+      return_value_fp_to_voidp_1=fp_to_voidp(caller);
+      start=get_func_start(return_value_fp_to_voidp_1);
+      void *return_value_fp_to_voidp_2;
+      return_value_fp_to_voidp_2=fp_to_voidp(caller);
+      end=get_func_end(return_value_fp_to_voidp_2);
       if(end == NULL && start == NULL)
       {
         works = 0;
@@ -1053,9 +1053,9 @@ signed int backtrace_works(void (*caller)())
 
           else
           {
-            void *return_value_get_func_start$3;
-            return_value_get_func_start$3=get_func_start(pc);
-            if(return_value_get_func_start$3 == start)
+            void *return_value_get_func_start_3;
+            return_value_get_func_start_3=get_func_start(pc);
+            if(return_value_get_func_start_3 == start)
             {
               works = 1;
               return works;
@@ -1075,9 +1075,9 @@ signed int backtrace_works(void (*caller)())
 struct cache * cache_create()
 {
   struct cache *c;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cache) /*72ul*/ );
-  c = (struct cache *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cache) /*72ul*/ );
+  c = (struct cache *)return_value_malloc_1;
   if(c == ((struct cache *)NULL))
     return (struct cache *)(void *)0;
 
@@ -1092,7 +1092,7 @@ struct cache * cache_create()
 
     else
     {
-      pthread_rwlock_init(&c->lock, (const union anonymous$6 *)(void *)0);
+      pthread_rwlock_init(&c->lock, (const union anonymous_6 *)(void *)0);
       return c;
     }
   }
@@ -1107,13 +1107,13 @@ _Bool cache_del(struct cache *c, const char *key)
   e=entry_for_key(c, key);
   if((signed int)e->in_use == IN_USE)
   {
-    signed int tmp_statement_expression$1;
+    signed int tmp_statement_expression_1;
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(e->key, key);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(e->key, key);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
     {
       free((void *)e->key);
       e->key = (char *)(void *)0;
@@ -1148,13 +1148,13 @@ _Bool cache_get(struct cache *c, const char *key, void **value)
   *value = (void *)0;
   if((signed int)e->in_use == IN_USE)
   {
-    signed int tmp_statement_expression$1;
+    signed int tmp_statement_expression_1;
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(key, e->key);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(key, e->key);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
     {
       *value = e->value;
       goto hit;
@@ -1196,9 +1196,9 @@ _Bool cache_resize(struct cache *c, unsigned long int new_size)
   pthread_rwlock_wrlock(&c->lock);
   if(!(c->size >= new_size))
   {
-    _Bool return_value_resize_table$1;
-    return_value_resize_table$1=resize_table$link1(c->hash, new_size);
-    if(!(return_value_resize_table$1 == (_Bool)0))
+    _Bool return_value_resize_table_1;
+    return_value_resize_table_1=resize_table_link1(c->hash, new_size);
+    if(!(return_value_resize_table_1 == (_Bool)0))
     {
       c->size = new_size;
       goto success;
@@ -1209,9 +1209,9 @@ _Bool cache_resize(struct cache *c, unsigned long int new_size)
   else
   {
     _cache_invalidate(c);
-    _Bool return_value_resize_table$2;
-    return_value_resize_table$2=resize_table$link1(c->hash, new_size);
-    if(!(return_value_resize_table$2 == (_Bool)0))
+    _Bool return_value_resize_table_2;
+    return_value_resize_table_2=resize_table_link1(c->hash, new_size);
+    if(!(return_value_resize_table_2 == (_Bool)0))
     {
       c->size = new_size;
       goto success;
@@ -1255,9 +1255,9 @@ void * checking_caller(void *unused)
     pthread_rwlock_rdlock(&enabled_lock);
     if(!(enabled[(signed long int)i] == (_Bool)0))
     {
-      signed int return_value_fiu_fail$1;
-      return_value_fiu_fail$1=fiu_fail(point_name[(signed long int)i]);
-      failed = (signed int)(return_value_fiu_fail$1 != 0);
+      signed int return_value_fiu_fail_1;
+      return_value_fiu_fail_1=fiu_fail(point_name[(signed long int)i]);
+      failed = (signed int)(return_value_fiu_fail_1 != 0);
       pthread_rwlock_unlock(&enabled_lock);
       if(failed == 0)
       {
@@ -1305,26 +1305,26 @@ void * enabler(void *unused)
   signed int i = 0;
   while(stop_threads == (_Bool)0)
   {
-    _Bool return_value_rand_bool$3;
-    return_value_rand_bool$3=rand_bool();
-    if(!(return_value_rand_bool$3 == (_Bool)0))
+    _Bool return_value_rand_bool_3;
+    return_value_rand_bool_3=rand_bool();
+    if(!(return_value_rand_bool_3 == (_Bool)0))
     {
       pthread_rwlock_wrlock(&enabled_lock);
       if(!(enabled[(signed long int)i] == (_Bool)0))
       {
-        signed int return_value_fiu_disable$1;
-        return_value_fiu_disable$1=fiu_disable(point_name[(signed long int)i]);
+        signed int return_value_fiu_disable_1;
+        return_value_fiu_disable_1=fiu_disable(point_name[(signed long int)i]);
         /* assertion fiu_disable(point_name[i]) == 0 */
-        assert(return_value_fiu_disable$1 == 0);
+        assert(return_value_fiu_disable_1 == 0);
         enabled[(signed long int)i] = (_Bool)0;
       }
 
       else
       {
-        signed int return_value_fiu_enable$2;
-        return_value_fiu_enable$2=fiu_enable(point_name[(signed long int)i], 1, (void *)0, (unsigned int)0);
+        signed int return_value_fiu_enable_2;
+        return_value_fiu_enable_2=fiu_enable(point_name[(signed long int)i], 1, (void *)0, (unsigned int)0);
         /* assertion fiu_enable(point_name[i], 1, ((void *)0), 0) == 0 */
-        assert(return_value_fiu_enable$2 == 0);
+        assert(return_value_fiu_enable_2 == 0);
         enabled[(signed long int)i] = (_Bool)1;
       }
       pthread_rwlock_unlock(&enabled_lock);
@@ -1345,11 +1345,11 @@ struct entry * entry_for_key(struct cache *c, const char *key)
 {
   unsigned long int pos;
   struct entry *entry;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  unsigned int return_value_murmurhash2$2;
-  return_value_murmurhash2$2=murmurhash2(key, return_value_strlen$1);
-  pos = (unsigned long int)return_value_murmurhash2$2 % c->hash->table_size;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  unsigned int return_value_murmurhash2_2;
+  return_value_murmurhash2_2=murmurhash2(key, return_value_strlen_1);
+  pos = (unsigned long int)return_value_murmurhash2_2 % c->hash->table_size;
   entry = c->hash->entries + (signed long int)pos;
   return entry;
 }
@@ -1397,9 +1397,9 @@ signed int fiu_enable(const char *name, signed int failnum, void *failinfo, unsi
 
   else
   {
-    signed int return_value_insert_pf$1;
-    return_value_insert_pf$1=insert_pf(pf);
-    return return_value_insert_pf$1;
+    signed int return_value_insert_pf_1;
+    return_value_insert_pf_1=insert_pf(pf);
+    return return_value_insert_pf_1;
   }
 }
 
@@ -1415,9 +1415,9 @@ signed int fiu_enable_external(const char *name, signed int failnum, void *faili
   else
   {
     pf->minfo.external_cb = external_cb;
-    signed int return_value_insert_pf$1;
-    return_value_insert_pf$1=insert_pf(pf);
-    return return_value_insert_pf$1;
+    signed int return_value_insert_pf_1;
+    return_value_insert_pf_1=insert_pf(pf);
+    return return_value_insert_pf_1;
   }
 }
 
@@ -1433,9 +1433,9 @@ signed int fiu_enable_random(const char *name, signed int failnum, void *failinf
   else
   {
     pf->minfo.probability = probability;
-    signed int return_value_insert_pf$1;
-    return_value_insert_pf$1=insert_pf(pf);
-    return return_value_insert_pf$1;
+    signed int return_value_insert_pf_1;
+    return_value_insert_pf_1=insert_pf(pf);
+    return return_value_insert_pf_1;
   }
 }
 
@@ -1449,9 +1449,9 @@ signed int fiu_enable_stack(const char *name, signed int failnum, void *failinfo
 
   else
   {
-    signed int return_value_backtrace_works$1;
-    return_value_backtrace_works$1=backtrace_works((void (*)())fiu_enable_stack);
-    if(return_value_backtrace_works$1 == 0)
+    signed int return_value_backtrace_works_1;
+    return_value_backtrace_works_1=backtrace_works((void (*)())fiu_enable_stack);
+    if(return_value_backtrace_works_1 == 0)
       return -1;
 
     else
@@ -1465,9 +1465,9 @@ signed int fiu_enable_stack(const char *name, signed int failnum, void *failinfo
         pf->minfo.stack.func_start = func;
         pf->minfo.stack.func_end=get_func_end(func);
         pf->minfo.stack.func_pos_in_stack = func_pos_in_stack;
-        signed int return_value_insert_pf$2;
-        return_value_insert_pf$2=insert_pf(pf);
-        return return_value_insert_pf$2;
+        signed int return_value_insert_pf_2;
+        return_value_insert_pf_2=insert_pf(pf);
+        return return_value_insert_pf_2;
       }
     }
   }
@@ -1478,9 +1478,9 @@ signed int fiu_enable_stack(const char *name, signed int failnum, void *failinfo
 signed int fiu_enable_stack_by_name(const char *name, signed int failnum, void *failinfo, unsigned int flags, const char *func_name, signed int func_pos_in_stack)
 {
   void *fp;
-  signed int return_value_backtrace_works$1;
-  return_value_backtrace_works$1=backtrace_works((void (*)())fiu_enable_stack_by_name);
-  if(return_value_backtrace_works$1 == 0)
+  signed int return_value_backtrace_works_1;
+  return_value_backtrace_works_1=backtrace_works((void (*)())fiu_enable_stack_by_name);
+  if(return_value_backtrace_works_1 == 0)
     return -1;
 
   else
@@ -1491,9 +1491,9 @@ signed int fiu_enable_stack_by_name(const char *name, signed int failnum, void *
 
     else
     {
-      signed int return_value_fiu_enable_stack$2;
-      return_value_fiu_enable_stack$2=fiu_enable_stack(name, failnum, failinfo, flags, fp, func_pos_in_stack);
-      return return_value_fiu_enable_stack$2;
+      signed int return_value_fiu_enable_stack_2;
+      return_value_fiu_enable_stack_2=fiu_enable_stack(name, failnum, failinfo, flags, fp, func_pos_in_stack);
+      return return_value_fiu_enable_stack_2;
     }
   }
 }
@@ -1505,10 +1505,10 @@ signed int fiu_fail(const char *name)
   struct pf_info *pf;
   signed int failnum;
   rec_count = rec_count + 1;
-  void *return_value_wtable_get$1;
-  double return_value_randd$2;
+  void *return_value_wtable_get_1;
+  double return_value_randd_2;
   signed int return_value;
-  signed int return_value_should_stack_fail$3;
+  signed int return_value_should_stack_fail_3;
   if(rec_count >= 2)
   {
     rec_count = rec_count - 1;
@@ -1522,8 +1522,8 @@ signed int fiu_fail(const char *name)
     while((_Bool)0);
     if(!(enabled_fails == ((struct wtable *)NULL)))
     {
-      return_value_wtable_get$1=wtable_get(enabled_fails, name);
-      pf = (struct pf_info *)return_value_wtable_get$1;
+      return_value_wtable_get_1=wtable_get(enabled_fails, name);
+      pf = (struct pf_info *)return_value_wtable_get_1;
       if(!(pf == ((struct pf_info *)NULL)))
       {
         if(!((1u & pf->flags) == 0u))
@@ -1546,8 +1546,8 @@ signed int fiu_fail(const char *name)
               goto exit_fail;
             case PF_PROB:
             {
-              return_value_randd$2=randd();
-              if((double)pf->minfo.probability > return_value_randd$2)
+              return_value_randd_2=randd();
+              if((double)pf->minfo.probability > return_value_randd_2)
                 goto exit_fail;
 
               break;
@@ -1556,8 +1556,8 @@ signed int fiu_fail(const char *name)
               return_value=pf->minfo.external_cb(pf->name, &pf->failnum, &pf->failinfo, &pf->flags);
             case PF_STACK:
             {
-              return_value_should_stack_fail$3=should_stack_fail(pf);
-              if(!(return_value_should_stack_fail$3 == 0))
+              return_value_should_stack_fail_3=should_stack_fail(pf);
+              if(!(return_value_should_stack_fail_3 == 0))
                 goto exit_fail;
 
               break;
@@ -1608,9 +1608,9 @@ signed int fiu_fail(const char *name)
 // file fiu.c line 352
 void * fiu_failinfo(void)
 {
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(last_failinfo_key);
-  return return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(last_failinfo_key);
+  return return_value_pthread_getspecific_1;
 }
 
 // fiu_init
@@ -1635,9 +1635,9 @@ signed int fiu_init(unsigned int flags)
   {
     pthread_key_create(&last_failinfo_key, (void (*)(void *))(void *)0);
     enabled_fails=wtable_create((void (*)(void *))pf_free);
-    signed int return_value_pthread_atfork$1;
-    return_value_pthread_atfork$1=pthread_atfork((void (*)(void))(void *)0, (void (*)(void))(void *)0, atfork_child);
-    if(!(return_value_pthread_atfork$1 == 0))
+    signed int return_value_pthread_atfork_1;
+    return_value_pthread_atfork_1=pthread_atfork((void (*)(void))(void *)0, (void (*)(void))(void *)0, atfork_child);
+    if(!(return_value_pthread_atfork_1 == 0))
     {
       do
         pthread_rwlock_unlock(&enabled_fails_lock);
@@ -1686,10 +1686,10 @@ signed int fiu_rc_string(const char *cmd, char ** const error)
   __builtin_strncpy(m_cmd, cmd, (unsigned long int)512);
   char *tok = (char *)(void *)0;
   char *state = (char *)(void *)0;
-  char *return_value___strtok_r$1;
-  return_value___strtok_r$1=__strtok_r(m_cmd, " \t", &state);
-  tok = return_value___strtok_r$1;
-  unsigned long int return_value_strtoul$4;
+  char *return_value___strtok_r_1;
+  return_value___strtok_r_1=__strtok_r(m_cmd, " \t", &state);
+  tok = return_value___strtok_r_1;
+  unsigned long int return_value_strtoul_4;
   if(tok == ((char *)NULL))
   {
     *error = "Cannot get command";
@@ -1699,9 +1699,9 @@ signed int fiu_rc_string(const char *cmd, char ** const error)
   else
   {
     __builtin_strncpy(command, tok, (unsigned long int)512);
-    char *return_value___strtok_r$2;
-    return_value___strtok_r$2=__strtok_r((char *)(void *)0, " \t", &state);
-    tok = return_value___strtok_r$2;
+    char *return_value___strtok_r_2;
+    return_value___strtok_r_2=__strtok_r((char *)(void *)0, " \t", &state);
+    tok = return_value___strtok_r_2;
     if(tok == ((char *)NULL))
     {
       *error = "Cannot get parameters";
@@ -1723,9 +1723,9 @@ signed int fiu_rc_string(const char *cmd, char ** const error)
       char *opts = parameters;
       while(!((signed int)*opts == 0))
       {
-        signed int return_value_getsubopt$3;
-        return_value_getsubopt$3=getsubopt(&opts, token, &value);
-        switch(return_value_getsubopt$3)
+        signed int return_value_getsubopt_3;
+        return_value_getsubopt_3=getsubopt(&opts, token, &value);
+        switch(return_value_getsubopt_3)
         {
           case 0:
           {
@@ -1739,8 +1739,8 @@ signed int fiu_rc_string(const char *cmd, char ** const error)
           }
           case 2:
           {
-            return_value_strtoul$4=strtoul(value, (char ** restrict )(void *)0, 10);
-            failinfo = (void *)return_value_strtoul$4;
+            return_value_strtoul_4=strtoul(value, (char ** restrict )(void *)0, 10);
+            failinfo = (void *)return_value_strtoul_4;
             break;
           }
           case 3:
@@ -1770,62 +1770,62 @@ signed int fiu_rc_string(const char *cmd, char ** const error)
           }
         }
       }
-      signed int tmp_statement_expression$15;
+      signed int tmp_statement_expression_15;
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$16;
-      return_value___builtin_strcmp$16=__builtin_strcmp(command, "disable");
-      tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-      if(tmp_statement_expression$15 == 0)
+      signed int return_value___builtin_strcmp_16;
+      return_value___builtin_strcmp_16=__builtin_strcmp(command, "disable");
+      tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+      if(tmp_statement_expression_15 == 0)
       {
-        signed int return_value_fiu_disable$5;
-        return_value_fiu_disable$5=fiu_disable(fp_name);
-        return return_value_fiu_disable$5;
+        signed int return_value_fiu_disable_5;
+        return_value_fiu_disable_5=fiu_disable(fp_name);
+        return return_value_fiu_disable_5;
       }
 
       else
       {
-        signed int tmp_statement_expression$13;
-        unsigned long int fiu_rc_string$$1$$5$$__s1_len;
-        unsigned long int fiu_rc_string$$1$$5$$__s2_len;
-        signed int return_value___builtin_strcmp$14;
-        return_value___builtin_strcmp$14=__builtin_strcmp(command, "enable");
-        tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-        if(tmp_statement_expression$13 == 0)
+        signed int tmp_statement_expression_13;
+        unsigned long int fiu_rc_string__1__5____s1_len;
+        unsigned long int fiu_rc_string__1__5____s2_len;
+        signed int return_value___builtin_strcmp_14;
+        return_value___builtin_strcmp_14=__builtin_strcmp(command, "enable");
+        tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+        if(tmp_statement_expression_13 == 0)
         {
-          signed int return_value_fiu_enable$6;
-          return_value_fiu_enable$6=fiu_enable(fp_name, failnum, failinfo, flags);
-          return return_value_fiu_enable$6;
+          signed int return_value_fiu_enable_6;
+          return_value_fiu_enable_6=fiu_enable(fp_name, failnum, failinfo, flags);
+          return return_value_fiu_enable_6;
         }
 
         else
         {
-          signed int tmp_statement_expression$11;
-          unsigned long int fiu_rc_string$$1$$7$$__s1_len;
-          unsigned long int fiu_rc_string$$1$$7$$__s2_len;
-          signed int return_value___builtin_strcmp$12;
-          return_value___builtin_strcmp$12=__builtin_strcmp(command, "enable_random");
-          tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-          if(tmp_statement_expression$11 == 0)
+          signed int tmp_statement_expression_11;
+          unsigned long int fiu_rc_string__1__7____s1_len;
+          unsigned long int fiu_rc_string__1__7____s2_len;
+          signed int return_value___builtin_strcmp_12;
+          return_value___builtin_strcmp_12=__builtin_strcmp(command, "enable_random");
+          tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+          if(tmp_statement_expression_11 == 0)
           {
-            signed int return_value_fiu_enable_random$7;
-            return_value_fiu_enable_random$7=fiu_enable_random(fp_name, failnum, failinfo, flags, (float)probability);
-            return return_value_fiu_enable_random$7;
+            signed int return_value_fiu_enable_random_7;
+            return_value_fiu_enable_random_7=fiu_enable_random(fp_name, failnum, failinfo, flags, (float)probability);
+            return return_value_fiu_enable_random_7;
           }
 
           else
           {
-            signed int tmp_statement_expression$9;
-            unsigned long int fiu_rc_string$$1$$9$$__s1_len;
-            unsigned long int fiu_rc_string$$1$$9$$__s2_len;
-            signed int return_value___builtin_strcmp$10;
-            return_value___builtin_strcmp$10=__builtin_strcmp(command, "enable_stack_by_name");
-            tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-            if(tmp_statement_expression$9 == 0)
+            signed int tmp_statement_expression_9;
+            unsigned long int fiu_rc_string__1__9____s1_len;
+            unsigned long int fiu_rc_string__1__9____s2_len;
+            signed int return_value___builtin_strcmp_10;
+            return_value___builtin_strcmp_10=__builtin_strcmp(command, "enable_stack_by_name");
+            tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+            if(tmp_statement_expression_9 == 0)
             {
-              signed int return_value_fiu_enable_stack_by_name$8;
-              return_value_fiu_enable_stack_by_name$8=fiu_enable_stack_by_name(fp_name, failnum, failinfo, flags, func_name, func_pos_in_stack);
-              return return_value_fiu_enable_stack_by_name$8;
+              signed int return_value_fiu_enable_stack_by_name_8;
+              return_value_fiu_enable_stack_by_name_8=fiu_enable_stack_by_name(fp_name, failnum, failinfo, flags, func_name, func_pos_in_stack);
+              return return_value_fiu_enable_stack_by_name_8;
             }
 
             else
@@ -1852,18 +1852,18 @@ static void * fp_to_voidp(void (*funcp)())
 // file internal.h line 13
 signed int get_backtrace(void *buffer, signed int size)
 {
-  signed int return_value_backtrace$1;
-  return_value_backtrace$1=backtrace((void **)buffer, size);
-  return return_value_backtrace$1;
+  signed int return_value_backtrace_1;
+  return_value_backtrace_1=backtrace((void **)buffer, size);
+  return return_value_backtrace_1;
 }
 
 // get_func_addr
 // file internal.h line 23
 void * get_func_addr(const char *func_name)
 {
-  void *return_value_dlsym$1;
-  return_value_dlsym$1=dlsym((void *)0, func_name);
-  return return_value_dlsym$1;
+  void *return_value_dlsym_1;
+  return_value_dlsym_1=dlsym((void *)0, func_name);
+  return return_value_dlsym_1;
 }
 
 // get_func_end
@@ -1872,13 +1872,13 @@ void * get_func_end(void *func)
 {
   signed int r;
   struct anonymous dl_info;
-  struct anonymous$0 *elf_info;
+  struct anonymous_0 *elf_info;
   r=dladdr1(func, &dl_info, (void **)&elf_info, 1);
   if(r == 0)
     return (void *)0;
 
   else
-    if(elf_info == ((struct anonymous$0 *)NULL))
+    if(elf_info == ((struct anonymous_0 *)NULL))
       return (void *)0;
 
     else
@@ -1908,17 +1908,17 @@ void * get_func_start(void *pc)
 struct hash * hash_create(void (*destructor)(void *))
 {
   struct hash *h;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hash) /*32ul*/ );
-  h = (struct hash *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hash) /*32ul*/ );
+  h = (struct hash *)return_value_malloc_1;
   if(h == ((struct hash *)NULL))
     return (struct hash *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct entry) /*24ul*/  * (unsigned long int)10);
-    h->entries = (struct entry *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct entry) /*24ul*/  * (unsigned long int)10);
+    h->entries = (struct entry *)return_value_malloc_2;
     if(h->entries == ((struct entry *)NULL))
     {
       free((void *)h);
@@ -1945,12 +1945,12 @@ _Bool hash_del(struct hash *h, const char *key)
 {
   unsigned long int pos;
   struct entry *entry;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  unsigned int return_value_murmurhash2$2;
-  return_value_murmurhash2$2=murmurhash2(key, return_value_strlen$1);
-  pos = (unsigned long int)return_value_murmurhash2$2 % h->table_size;
-  signed int tmp_statement_expression$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  unsigned int return_value_murmurhash2_2;
+  return_value_murmurhash2_2=murmurhash2(key, return_value_strlen_1);
+  pos = (unsigned long int)return_value_murmurhash2_2 % h->table_size;
+  signed int tmp_statement_expression_3;
   do
   {
     entry = h->entries + (signed long int)pos;
@@ -1959,20 +1959,20 @@ _Bool hash_del(struct hash *h, const char *key)
 
     else
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if((signed int)entry->in_use == IN_USE)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(key, entry->key);
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        tmp_if_expr$5 = tmp_statement_expression$3 == 0 ? (_Bool)1 : (_Bool)0;
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(key, entry->key);
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        tmp_if_expr_5 = tmp_statement_expression_3 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         free((void *)entry->key);
         h->destructor(entry->value);
@@ -1990,9 +1990,9 @@ _Bool hash_del(struct hash *h, const char *key)
   {
     if((float)h->nentries / (float)h->table_size < 5.000000e-1f)
     {
-      _Bool return_value_resize_table$6;
-      return_value_resize_table$6=resize_table$link1(h, (unsigned long int)((double)h->table_size * 0.8));
-      if(return_value_resize_table$6 == (_Bool)0)
+      _Bool return_value_resize_table_6;
+      return_value_resize_table_6=resize_table_link1(h, (unsigned long int)((double)h->table_size * 0.8));
+      if(return_value_resize_table_6 == (_Bool)0)
         return (_Bool)0;
 
     }
@@ -2029,12 +2029,12 @@ void * hash_get(struct hash *h, const char *key)
 {
   unsigned long int pos;
   struct entry *entry;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  unsigned int return_value_murmurhash2$2;
-  return_value_murmurhash2$2=murmurhash2(key, return_value_strlen$1);
-  pos = (unsigned long int)return_value_murmurhash2$2 % h->table_size;
-  signed int tmp_statement_expression$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  unsigned int return_value_murmurhash2_2;
+  return_value_murmurhash2_2=murmurhash2(key, return_value_strlen_1);
+  pos = (unsigned long int)return_value_murmurhash2_2 % h->table_size;
+  signed int tmp_statement_expression_3;
   do
   {
     entry = h->entries + (signed long int)pos;
@@ -2043,20 +2043,20 @@ void * hash_get(struct hash *h, const char *key)
 
     else
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if((signed int)entry->in_use == IN_USE)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(key, entry->key);
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        tmp_if_expr$5 = tmp_statement_expression$3 == 0 ? (_Bool)1 : (_Bool)0;
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(key, entry->key);
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        tmp_if_expr_5 = tmp_statement_expression_3 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         return entry->value;
 
       else
@@ -2073,18 +2073,18 @@ _Bool hash_set(struct hash *h, const char *key, void *value)
 {
   if((double)((float)h->nentries / (float)h->table_size) > 0.7)
   {
-    _Bool return_value_resize_table$1;
-    return_value_resize_table$1=resize_table$link1(h, (unsigned long int)((double)h->table_size * 1.3));
-    if(return_value_resize_table$1 == (_Bool)0)
+    _Bool return_value_resize_table_1;
+    return_value_resize_table_1=resize_table_link1(h, (unsigned long int)((double)h->table_size * 1.3));
+    if(return_value_resize_table_1 == (_Bool)0)
       return (_Bool)0;
 
   }
 
-  char *return_value_strdup$2;
-  return_value_strdup$2=strdup(key);
-  _Bool return_value__hash_set$3;
-  return_value__hash_set$3=_hash_set(h, return_value_strdup$2, value);
-  return return_value__hash_set$3;
+  char *return_value_strdup_2;
+  return_value_strdup_2=strdup(key);
+  _Bool return_value__hash_set_3;
+  return_value__hash_set_3=_hash_set(h, return_value_strdup_2, value);
+  return return_value__hash_set_3;
 }
 
 // insert_pf
@@ -2123,7 +2123,7 @@ signed int main(void)
   i = 0;
   for( ; !(i >= 10000); i = i + 1)
     make_point_name(point_name[(signed long int)i], i);
-  pthread_rwlock_init(&enabled_lock, (const union anonymous$6 *)(void *)0);
+  pthread_rwlock_init(&enabled_lock, (const union anonymous_6 *)(void *)0);
   pthread_create(&t1, (const union pthread_attr_t *)(void *)0, no_check_caller, (void *)0);
   pthread_create(&t2, (const union pthread_attr_t *)(void *)0, checking_caller, (void *)0);
   pthread_create(&t3, (const union pthread_attr_t *)(void *)0, enabler, (void *)0);
@@ -2206,20 +2206,20 @@ static signed int pc_in_func(struct pf_info *pf, void *pc)
 {
   if(!(pf->minfo.stack.func_end == NULL))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(pc >= pf->minfo.stack.func_start)
-      tmp_if_expr$1 = pc <= pf->minfo.stack.func_end ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = pc <= pf->minfo.stack.func_end ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    return (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    return (signed int)tmp_if_expr_1;
   }
 
   else
   {
-    void *return_value_get_func_start$2;
-    return_value_get_func_start$2=get_func_start(pc);
-    return (signed int)(pf->minfo.stack.func_start == return_value_get_func_start$2);
+    void *return_value_get_func_start_2;
+    return_value_get_func_start_2=get_func_start(pc);
+    return (signed int)(pf->minfo.stack.func_start == return_value_get_func_start_2);
   }
 }
 
@@ -2229,10 +2229,10 @@ static struct pf_info * pf_create(const char *name, signed int failnum, void *fa
 {
   struct pf_info *pf;
   rec_count = rec_count + 1;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pf_info) /*104ul*/ );
-  pf = (struct pf_info *)return_value_malloc$1;
-  unsigned long int return_value_strlen$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pf_info) /*104ul*/ );
+  pf = (struct pf_info *)return_value_malloc_1;
+  unsigned long int return_value_strlen_2;
   if(!(pf == ((struct pf_info *)NULL)))
   {
     pf->name=strdup(name);
@@ -2244,13 +2244,13 @@ static struct pf_info * pf_create(const char *name, signed int failnum, void *fa
 
     else
     {
-      return_value_strlen$2=strlen(name);
-      pf->namelen = (unsigned int)return_value_strlen$2;
+      return_value_strlen_2=strlen(name);
+      pf->namelen = (unsigned int)return_value_strlen_2;
       pf->failnum = failnum;
       pf->failinfo = failinfo;
       pf->flags = flags;
       pf->method = method;
-      pthread_mutex_init(&pf->lock, (const union anonymous$3 *)(void *)0);
+      pthread_mutex_init(&pf->lock, (const union anonymous_3 *)(void *)0);
       pf->failed_once = (_Bool)0;
     }
   }
@@ -2284,9 +2284,9 @@ static void prng_seed(void)
 // file test-parallel.c line 54
 _Bool rand_bool(void)
 {
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  return return_value_rand$1 % 2 == 0;
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  return return_value_rand_1 % 2 == 0;
 }
 
 // randd
@@ -2315,9 +2315,9 @@ static signed int rc_do_command(signed int fdr, signed int fdw)
   {
     r=fiu_rc_string(buf, &error);
     reply_len=snprintf(reply, (unsigned long int)512, "%d\n", r);
-    signed long int return_value_write$1;
-    return_value_write$1=write(fdw, (const void *)reply, (unsigned long int)reply_len);
-    r = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(fdw, (const void *)reply, (unsigned long int)reply_len);
+    r = (signed int)return_value_write_1;
     if(!(r >= 1))
       return r;
 
@@ -2339,11 +2339,11 @@ static void * rc_fifo_thread(void *unused)
 
 reopen:
   ;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   while((_Bool)1)
   {
     if(errcount >= 11)
@@ -2369,13 +2369,13 @@ reopen:
     r=rc_do_command(fdr, fdw);
     if(!(r >= 0))
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 != 32 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 != 32 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       perror("libfiu: Error reading from remote control");
       errcount = errcount + 1;
@@ -2385,21 +2385,21 @@ reopen:
     }
 
     if(r == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(!(r >= 0))
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 32 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 32 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       break;
 
     close(fdr);
@@ -2420,9 +2420,9 @@ static signed int read_line(signed int fd, char *buf)
   memset((void *)buf, 0, (unsigned long int)512);
   do
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)&c, (unsigned long int)1);
-    r = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)&c, (unsigned long int)1);
+    r = (signed int)return_value_read_1;
     if(!(r >= 0))
       return -1;
 
@@ -2458,9 +2458,9 @@ static _Bool resize_table(struct wtable *t, unsigned long int new_size)
   {
     old_wildcards = t->wildcards;
     old_size = t->ws_size;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct wentry) /*32ul*/  * new_size);
-    t->wildcards = (struct wentry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct wentry) /*32ul*/  * new_size);
+    t->wildcards = (struct wentry *)return_value_malloc_1;
     if(t->wildcards == ((struct wentry *)NULL))
       return (_Bool)0;
 
@@ -2484,38 +2484,38 @@ static _Bool resize_table(struct wtable *t, unsigned long int new_size)
   }
 }
 
-// resize_table$link1
+// resize_table_link1
 // file hash.c line 195
-static _Bool resize_table$link1(struct hash *h, unsigned long int new_size$link1)
+static _Bool resize_table_link1(struct hash *h, unsigned long int new_size_link1)
 {
-  unsigned long int i$link1;
+  unsigned long int i_link1;
   struct entry *old_entries;
-  struct entry *e$link1;
-  unsigned long int old_size$link1;
-  if(!(new_size$link1 >= 10ul))
+  struct entry *e_link1;
+  unsigned long int old_size_link1;
+  if(!(new_size_link1 >= 10ul))
     return (_Bool)1;
 
   else
   {
     old_entries = h->entries;
-    old_size$link1 = h->table_size;
-    void *return_value_malloc$1$link1;
-    return_value_malloc$1$link1=malloc(sizeof(struct entry) /*24ul*/  * new_size$link1);
-    h->entries = (struct entry *)return_value_malloc$1$link1;
+    old_size_link1 = h->table_size;
+    void *return_value_malloc_1_link1;
+    return_value_malloc_1_link1=malloc(sizeof(struct entry) /*24ul*/  * new_size_link1);
+    h->entries = (struct entry *)return_value_malloc_1_link1;
     if(h->entries == ((struct entry *)NULL))
       return (_Bool)0;
 
     else
     {
-      memset((void *)h->entries, 0, sizeof(struct entry) /*24ul*/  * new_size$link1);
-      h->table_size = new_size$link1;
+      memset((void *)h->entries, 0, sizeof(struct entry) /*24ul*/  * new_size_link1);
+      h->table_size = new_size_link1;
       h->nentries = (unsigned long int)0;
-      i$link1 = (unsigned long int)0;
-      for( ; !(i$link1 >= old_size$link1); i$link1 = i$link1 + 1ul)
+      i_link1 = (unsigned long int)0;
+      for( ; !(i_link1 >= old_size_link1); i_link1 = i_link1 + 1ul)
       {
-        e$link1 = old_entries + (signed long int)i$link1;
-        if((signed int)e$link1->in_use == IN_USE)
-          _hash_set(h, e$link1->key, e$link1->value);
+        e_link1 = old_entries + (signed long int)i_link1;
+        if((signed int)e_link1->in_use == IN_USE)
+          _hash_set(h, e_link1->key, e_link1->value);
 
       }
       free((void *)old_entries);
@@ -2535,17 +2535,17 @@ static signed int should_stack_fail(struct pf_info *pf)
   i = 0;
   for( ; !(i >= nptrs); i = i + 1)
   {
-    signed int return_value_pc_in_func$2;
-    return_value_pc_in_func$2=pc_in_func(pf, buffer[(signed long int)i]);
-    if(!(return_value_pc_in_func$2 == 0))
+    signed int return_value_pc_in_func_2;
+    return_value_pc_in_func_2=pc_in_func(pf, buffer[(signed long int)i]);
+    if(!(return_value_pc_in_func_2 == 0))
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(pf->minfo.stack.func_pos_in_stack == -1)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = i == pf->minfo.stack.func_pos_in_stack ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = i == pf->minfo.stack.func_pos_in_stack ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return 1;
 
     }
@@ -2583,7 +2583,7 @@ static struct wentry * wildcards_find_entry(struct wtable *t, const char *key, _
   _Bool found_free = (_Bool)0;
   key_len=strlen(key);
   pos = (unsigned long int)0;
-  _Bool return_value_ws_matches_s$1;
+  _Bool return_value_ws_matches_s_1;
   for( ; !(pos >= t->ws_size); pos = pos + 1ul)
   {
     entry = t->wildcards + (signed long int)pos;
@@ -2600,8 +2600,8 @@ static struct wentry * wildcards_find_entry(struct wtable *t, const char *key, _
 
     else
     {
-      return_value_ws_matches_s$1=ws_matches_s(entry->key, entry->key_len, key, key_len, exact);
-      if(!(return_value_ws_matches_s$1 == (_Bool)0))
+      return_value_ws_matches_s_1=ws_matches_s(entry->key, entry->key_len, key, key_len, exact);
+      if(!(return_value_ws_matches_s_1 == (_Bool)0))
         return entry;
 
     }
@@ -2646,40 +2646,40 @@ static _Bool wildcards_set(struct wtable *t, char *key, void *value)
 // file wtable.c line 145
 static _Bool ws_matches_s(const char *ws, unsigned long int ws_len, const char *s, unsigned long int s_len, _Bool exact)
 {
-  _Bool return_value_is_wildcard$4;
+  _Bool return_value_is_wildcard_4;
   if(s == ((const char *)NULL) || ws == ((const char *)NULL))
     return (_Bool)0;
 
   else
   {
-    _Bool tmp_if_expr$5;
+    _Bool tmp_if_expr_5;
     if(!(exact == (_Bool)0))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_is_wildcard$4=is_wildcard(ws, ws_len);
-      tmp_if_expr$5 = !(return_value_is_wildcard$4 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_is_wildcard_4=is_wildcard(ws, ws_len);
+      tmp_if_expr_5 = !(return_value_is_wildcard_4 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       if(!(ws_len == s_len))
         return (_Bool)0;
 
-      signed int tmp_statement_expression$1;
+      signed int tmp_statement_expression_1;
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(ws, s);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      return tmp_statement_expression$1 == 0;
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(ws, s);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      return tmp_statement_expression_1 == 0;
     }
 
     else
     {
-      unsigned int return_value_strlast$3;
-      return_value_strlast$3=strlast(ws, s);
-      return (unsigned long int)return_value_strlast$3 >= ws_len - (unsigned long int)1;
+      unsigned int return_value_strlast_3;
+      return_value_strlast_3=strlast(ws, s);
+      return (unsigned long int)return_value_strlast_3 >= ws_len - (unsigned long int)1;
     }
   }
 }
@@ -2689,10 +2689,10 @@ static _Bool ws_matches_s(const char *ws, unsigned long int ws_len, const char *
 struct wtable * wtable_create(void (*destructor)(void *))
 {
   struct wtable *t;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct wtable) /*48ul*/ );
-  t = (struct wtable *)return_value_malloc$1;
-  void *return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct wtable) /*48ul*/ );
+  t = (struct wtable *)return_value_malloc_1;
+  void *return_value_malloc_2;
   if(t == ((struct wtable *)NULL))
     return (struct wtable *)(void *)0;
 
@@ -2703,8 +2703,8 @@ struct wtable * wtable_create(void (*destructor)(void *))
     t->finals=hash_create(destructor);
     if(!(t->finals == ((struct hash *)NULL)))
     {
-      return_value_malloc$2=malloc(sizeof(struct wentry) /*32ul*/  * (unsigned long int)10);
-      t->wildcards = (struct wentry *)return_value_malloc$2;
+      return_value_malloc_2=malloc(sizeof(struct wentry) /*32ul*/  * (unsigned long int)10);
+      t->wildcards = (struct wentry *)return_value_malloc_2;
       if(t->wildcards == ((struct wentry *)NULL))
         goto error;
 
@@ -2742,11 +2742,11 @@ struct wtable * wtable_create(void (*destructor)(void *))
 _Bool wtable_del(struct wtable *t, const char *key)
 {
   struct wentry *entry;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(key);
-  _Bool return_value_is_wildcard$4;
-  return_value_is_wildcard$4=is_wildcard(key, return_value_strlen$3);
-  if(!(return_value_is_wildcard$4 == (_Bool)0))
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(key);
+  _Bool return_value_is_wildcard_4;
+  return_value_is_wildcard_4=is_wildcard(key, return_value_strlen_3);
+  if(!(return_value_is_wildcard_4 == (_Bool)0))
   {
     entry=wildcards_find_entry(t, key, (_Bool)1, (struct wentry **)(void *)0);
     if(entry == ((struct wentry *)NULL))
@@ -2763,9 +2763,9 @@ _Bool wtable_del(struct wtable *t, const char *key)
     {
       if((double)((float)t->ws_used_count / (float)t->ws_size) < 0.6)
       {
-        _Bool return_value_resize_table$1;
-        return_value_resize_table$1=resize_table(t, t->ws_used_count + (unsigned long int)3);
-        if(return_value_resize_table$1 == (_Bool)0)
+        _Bool return_value_resize_table_1;
+        return_value_resize_table_1=resize_table(t, t->ws_used_count + (unsigned long int)3);
+        if(return_value_resize_table_1 == (_Bool)0)
           return (_Bool)0;
 
       }
@@ -2778,9 +2778,9 @@ _Bool wtable_del(struct wtable *t, const char *key)
 
   else
   {
-    _Bool return_value_hash_del$2;
-    return_value_hash_del$2=hash_del(t->finals, key);
-    return return_value_hash_del$2;
+    _Bool return_value_hash_del_2;
+    return_value_hash_del_2=hash_del(t->finals, key);
+    return return_value_hash_del_2;
   }
 }
 
@@ -2819,9 +2819,9 @@ void * wtable_get(struct wtable *t, const char *key)
 
   else
   {
-    _Bool return_value_cache_get$1;
-    return_value_cache_get$1=cache_get(t->wcache, key, &value);
-    if(!(return_value_cache_get$1 == (_Bool)0))
+    _Bool return_value_cache_get_1;
+    return_value_cache_get_1=cache_get(t->wcache, key, &value);
+    if(!(return_value_cache_get_1 == (_Bool)0))
       return value;
 
     else
@@ -2846,34 +2846,34 @@ void * wtable_get(struct wtable *t, const char *key)
 // file wtable.h line 20
 _Bool wtable_set(struct wtable *t, const char *key, void *value)
 {
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(key);
-  _Bool return_value_is_wildcard$6;
-  return_value_is_wildcard$6=is_wildcard(key, return_value_strlen$5);
-  if(!(return_value_is_wildcard$6 == (_Bool)0))
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(key);
+  _Bool return_value_is_wildcard_6;
+  return_value_is_wildcard_6=is_wildcard(key, return_value_strlen_5);
+  if(!(return_value_is_wildcard_6 == (_Bool)0))
   {
     if(!(t->ws_size + -t->ws_used_count >= 2ul))
     {
-      _Bool return_value_resize_table$1;
-      return_value_resize_table$1=resize_table(t, (unsigned long int)((double)t->ws_size * 1.3 + (double)1));
-      if(return_value_resize_table$1 == (_Bool)0)
+      _Bool return_value_resize_table_1;
+      return_value_resize_table_1=resize_table(t, (unsigned long int)((double)t->ws_size * 1.3 + (double)1));
+      if(return_value_resize_table_1 == (_Bool)0)
         return (_Bool)0;
 
     }
 
     cache_invalidate(t->wcache);
-    char *return_value_strdup$2;
-    return_value_strdup$2=strdup(key);
-    _Bool return_value_wildcards_set$3;
-    return_value_wildcards_set$3=wildcards_set(t, return_value_strdup$2, value);
-    return return_value_wildcards_set$3;
+    char *return_value_strdup_2;
+    return_value_strdup_2=strdup(key);
+    _Bool return_value_wildcards_set_3;
+    return_value_wildcards_set_3=wildcards_set(t, return_value_strdup_2, value);
+    return return_value_wildcards_set_3;
   }
 
   else
   {
-    _Bool return_value_hash_set$4;
-    return_value_hash_set$4=hash_set(t->finals, key, value);
-    return return_value_hash_set$4;
+    _Bool return_value_hash_set_4;
+    return_value_hash_set_4=hash_set(t->finals, key, value);
+    return return_value_hash_set_4;
   }
 }
 

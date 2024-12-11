@@ -1,30 +1,30 @@
-// tag-#anon#ST[*{*{SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'$pad0'||U64'DatLen'||*{U8}$U8$'Buffer'|]#}$SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'$pad0'||U64'DatLen'||*{U8}$U8$'Buffer'|]#$}$*{SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'$pad0'||U64'DatLen'||*{U8}$U8$'Buffer'|]#}$SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'$pad0'||U64'DatLen'||*{U8}$U8$'Buffer'|]#$$'Fields'||U64'NumFields'||U64'NumAlloc'|]
+// tag-#anon#ST[*{*{SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'_pad0'||U64'DatLen'||*{U8}_U8_'Buffer'|]#}_SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'_pad0'||U64'DatLen'||*{U8}_U8_'Buffer'|]#_}_*{SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'_pad0'||U64'DatLen'||*{U8}_U8_'Buffer'|]#}_SYM#tag-#anon#ST[U16'LoID'||U16'HiID'||U32'_pad0'||U64'DatLen'||*{U8}_U8_'Buffer'|]#__'Fields'||U64'NumFields'||U64'NumAlloc'|]
 // file jamlib/jam.h line 230
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'HdrFile_PS'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'TxtFile_PS'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'IdxFile_PS'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'LrdFile_PS'||S32'Errno_I'||S32'Locked_I'||U64'LastUserPos_I'||U64'LastUserId_I'|]
+// tag-#anon#ST[*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'HdrFile_PS'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'TxtFile_PS'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'IdxFile_PS'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'LrdFile_PS'||S32'Errno_I'||S32'Locked_I'||U64'LastUserPos_I'||U64'LastUserId_I'|]
 // file jamlib/jam.h line 216
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR4{U8}$U8$'Signature'||U16'Revision'||U16'ReservedWord'||U64'SubfieldLen'||U64'TimesRead'||U64'MsgIdCRC'||U64'ReplyCRC'||U64'ReplyTo'||U64'Reply1st'||U64'ReplyNext'||U64'DateWritten'||U64'DateReceived'||U64'DateProcessed'||U64'MsgNum'||U64'Attribute'||U64'Attribute2'||U64'TxtOffset'||U64'TxtLen'||U64'PasswordCRC'||U64'Cost'|]
+// tag-#anon#ST[ARR4{U8}_U8_'Signature'||U16'Revision'||U16'ReservedWord'||U64'SubfieldLen'||U64'TimesRead'||U64'MsgIdCRC'||U64'ReplyCRC'||U64'ReplyTo'||U64'Reply1st'||U64'ReplyNext'||U64'DateWritten'||U64'DateReceived'||U64'DateProcessed'||U64'MsgNum'||U64'Attribute'||U64'Attribute2'||U64'TxtOffset'||U64'TxtLen'||U64'PasswordCRC'||U64'Cost'|]
 // file jamlib/jam.h line 131
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR4{U8}$U8$'Signature'||U32'$pad0'||U64'DateCreated'||U64'ModCounter'||U64'ActiveMsgs'||U64'PasswordCRC'||U64'BaseMsgNum'||ARR1000{U8}$U8$'RSRVD'|]
+// tag-#anon#ST[ARR4{U8}_U8_'Signature'||U32'_pad0'||U64'DateCreated'||U64'ModCounter'||U64'ActiveMsgs'||U64'PasswordCRC'||U64'BaseMsgNum'||ARR1000{U8}_U8_'RSRVD'|]
 // file jamlib/jam.h line 85
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[U16'LoID'||U16'HiID'||U32'$pad0'||U64'DatLen'|]
+// tag-#anon#ST[U16'LoID'||U16'HiID'||U32'_pad0'||U64'DatLen'|]
 // file jam.h line 189
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[U16'LoID'||U16'HiID'||U32'$pad0'||U64'DatLen'||*{U8}$U8$'Buffer'|]
+// tag-#anon#ST[U16'LoID'||U16'HiID'||U32'_pad0'||U64'DatLen'||*{U8}_U8_'Buffer'|]
 // file jamlib/jam.h line 182
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[U64'UserCRC'||U64'HdrOffset'|]
 // file jam.h line 198
@@ -32,11 +32,11 @@ struct anonymous;
 
 // tag-#anon#ST[U64'UserCRC'||U64'UserID'||U64'LastReadMsg'||U64'HighReadMsg'|]
 // file jam.h line 206
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -120,82 +120,82 @@ struct xlattab;
 
 // JAM_AddEmptyMessage
 // file message.c line 469
-signed int JAM_AddEmptyMessage(struct anonymous$7 *Base_PS);
+signed int JAM_AddEmptyMessage(struct anonymous_7 *Base_PS);
 // JAM_AddMessage
 // file jamlib/jam.h line 285
-signed int JAM_AddMessage(struct anonymous$7 *Base_PS, struct anonymous$5 *Header_PS, struct anonymous$8 *SubPack_PS, unsigned char *Text_PC, unsigned long int TextLen_I);
+signed int JAM_AddMessage(struct anonymous_7 *Base_PS, struct anonymous_5 *Header_PS, struct anonymous_8 *SubPack_PS, unsigned char *Text_PC, unsigned long int TextLen_I);
 // JAM_ChangeMsgHeader
 // file jamlib/jam.h line 296
-signed int JAM_ChangeMsgHeader(struct anonymous$7 *Base_PS, unsigned long int MsgNo_I, struct anonymous$5 *Header_PS);
+signed int JAM_ChangeMsgHeader(struct anonymous_7 *Base_PS, unsigned long int MsgNo_I, struct anonymous_5 *Header_PS);
 // JAM_ClearMsgHeader
 // file jamlib/jam.h line 300
-signed int JAM_ClearMsgHeader(struct anonymous$5 *Header_PS);
+signed int JAM_ClearMsgHeader(struct anonymous_5 *Header_PS);
 // JAM_CloseMB
 // file jamlib/jam.h line 245
-signed int JAM_CloseMB(struct anonymous$7 *Base_PS);
+signed int JAM_CloseMB(struct anonymous_7 *Base_PS);
 // JAM_Crc32
 // file jamlib/jam.h line 330
 unsigned long int JAM_Crc32(unsigned char *Buffer_PC, unsigned long int Length_I);
 // JAM_CreateMB
 // file mbase.c line 147
-signed int JAM_CreateMB(unsigned char *Basename_PC, unsigned long int BaseMsg_I, struct anonymous$7 **NewArea_PPS);
+signed int JAM_CreateMB(unsigned char *Basename_PC, unsigned long int BaseMsg_I, struct anonymous_7 **NewArea_PPS);
 // JAM_DelSubPacket
 // file jamlib/jam.h line 318
-signed int JAM_DelSubPacket(struct anonymous$8 *SubPack_PS);
+signed int JAM_DelSubPacket(struct anonymous_8 *SubPack_PS);
 // JAM_DeleteMessage
 // file message.c line 505
-signed int JAM_DeleteMessage(struct anonymous$7 *Base_PS, unsigned long int MsgNo_I);
+signed int JAM_DeleteMessage(struct anonymous_7 *Base_PS, unsigned long int MsgNo_I);
 // JAM_Errno
 // file message.c line 601
-signed int JAM_Errno(struct anonymous$7 *Base_PS);
+signed int JAM_Errno(struct anonymous_7 *Base_PS);
 // JAM_FindUser
 // file mbase.c line 404
-signed int JAM_FindUser(struct anonymous$7 *Base_PS, unsigned long int UserCrc_I, unsigned long int StartMsg_I, unsigned long int *MsgNo_PI);
+signed int JAM_FindUser(struct anonymous_7 *Base_PS, unsigned long int UserCrc_I, unsigned long int StartMsg_I, unsigned long int *MsgNo_PI);
 // JAM_GetMBSize
 // file jamlib/jam.h line 270
-signed int JAM_GetMBSize(struct anonymous$7 *Base_PS, unsigned long int *Messages_PI);
+signed int JAM_GetMBSize(struct anonymous_7 *Base_PS, unsigned long int *Messages_PI);
 // JAM_GetSubfield
 // file jam.h line 320
-struct anonymous$6 * JAM_GetSubfield(struct anonymous$8 *SubPack_PS);
+struct anonymous_6 * JAM_GetSubfield(struct anonymous_8 *SubPack_PS);
 // JAM_GetSubfield_R
 // file jamlib/jam.h line 322
-struct anonymous$6 * JAM_GetSubfield_R(struct anonymous$8 *SubPack_PS, unsigned long int *Count_PI);
+struct anonymous_6 * JAM_GetSubfield_R(struct anonymous_8 *SubPack_PS, unsigned long int *Count_PI);
 // JAM_LockMB
 // file jamlib/jam.h line 254
-signed int JAM_LockMB(struct anonymous$7 *Base_PS, signed int Timeout_I);
+signed int JAM_LockMB(struct anonymous_7 *Base_PS, signed int Timeout_I);
 // JAM_NewSubPacket
 // file jamlib/jam.h line 316
-struct anonymous$8 * JAM_NewSubPacket(void);
+struct anonymous_8 * JAM_NewSubPacket(void);
 // JAM_OpenMB
 // file jamlib/jam.h line 242
-signed int JAM_OpenMB(unsigned char *Basename_PC, struct anonymous$7 **NewArea_PPS);
+signed int JAM_OpenMB(unsigned char *Basename_PC, struct anonymous_7 **NewArea_PPS);
 // JAM_PutSubfield
 // file jamlib/jam.h line 325
-signed int JAM_PutSubfield(struct anonymous$8 *SubPack_PS, struct anonymous$6 *Field_PS);
+signed int JAM_PutSubfield(struct anonymous_8 *SubPack_PS, struct anonymous_6 *Field_PS);
 // JAM_ReadLastRead
 // file lastread.c line 49
-signed int JAM_ReadLastRead(struct anonymous$7 *Base_PS, unsigned long int User_I, struct anonymous$2 *Record_PS);
+signed int JAM_ReadLastRead(struct anonymous_7 *Base_PS, unsigned long int User_I, struct anonymous_2 *Record_PS);
 // JAM_ReadMBHeader
 // file jamlib/jam.h line 259
-signed int JAM_ReadMBHeader(struct anonymous$7 *Base_PS, struct anonymous$4 *Header_PS);
+signed int JAM_ReadMBHeader(struct anonymous_7 *Base_PS, struct anonymous_4 *Header_PS);
 // JAM_ReadMsgHeader
 // file jamlib/jam.h line 275
-signed int JAM_ReadMsgHeader(struct anonymous$7 *Base_PS, unsigned long int MsgNo_I, struct anonymous$5 *Header_PS, struct anonymous$8 **SubfieldPack_PPS);
+signed int JAM_ReadMsgHeader(struct anonymous_7 *Base_PS, unsigned long int MsgNo_I, struct anonymous_5 *Header_PS, struct anonymous_8 **SubfieldPack_PPS);
 // JAM_ReadMsgText
 // file jamlib/jam.h line 280
-signed int JAM_ReadMsgText(struct anonymous$7 *Base_PS, unsigned long int Offset_I, unsigned long int Length_I, unsigned char *Buffer_PC);
+signed int JAM_ReadMsgText(struct anonymous_7 *Base_PS, unsigned long int Offset_I, unsigned long int Length_I, unsigned char *Buffer_PC);
 // JAM_RemoveMB
 // file mbase.c line 222
-signed int JAM_RemoveMB(struct anonymous$7 *Base_PS, unsigned char *Basename_PC);
+signed int JAM_RemoveMB(struct anonymous_7 *Base_PS, unsigned char *Basename_PC);
 // JAM_UnlockMB
 // file jamlib/jam.h line 257
-signed int JAM_UnlockMB(struct anonymous$7 *Base_PS);
+signed int JAM_UnlockMB(struct anonymous_7 *Base_PS);
 // JAM_WriteLastRead
 // file lastread.c line 89
-signed int JAM_WriteLastRead(struct anonymous$7 *Base_PS, unsigned long int User_I, struct anonymous$2 *Record_PS);
+signed int JAM_WriteLastRead(struct anonymous_7 *Base_PS, unsigned long int User_I, struct anonymous_2 *Record_PS);
 // JAM_WriteMBHeader
 // file mbase.c line 372
-signed int JAM_WriteMBHeader(struct anonymous$7 *Base_PS, struct anonymous$4 *Header_PS);
+signed int JAM_WriteMBHeader(struct anonymous_7 *Base_PS, struct anonymous_4 *Header_PS);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -207,7 +207,7 @@ extern signed int * __errno_location(void);
 extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // addjamfield
 // file nntpserv.c line 1467
-void addjamfield(struct anonymous$8 *SubPacket_PS, unsigned long int fieldnum, unsigned char *fielddata);
+void addjamfield(struct anonymous_8 *SubPacket_PS, unsigned long int fieldnum, unsigned char *fielddata);
 // allocsockio
 // file sockio.h line 10
 struct sockio * allocsockio(signed int socket);
@@ -330,16 +330,16 @@ extern signed int fputs(const char *, struct _IO_FILE *);
 extern unsigned long int fread(void *, unsigned long int, unsigned long int, struct _IO_FILE *);
 // freadjambaseheader
 // file structrw.h line 71
-signed int freadjambaseheader(struct _IO_FILE *fp, struct anonymous$4 *s_JamBaseHeader);
+signed int freadjambaseheader(struct _IO_FILE *fp, struct anonymous_4 *s_JamBaseHeader);
 // freadjamindex
 // file structrw.h line 77
 signed int freadjamindex(struct _IO_FILE *fp, struct anonymous *s_JamIndex);
 // freadjamlastread
 // file structrw.h line 80
-signed int freadjamlastread(struct _IO_FILE *fp, struct anonymous$2 *s_JamLastRead);
+signed int freadjamlastread(struct _IO_FILE *fp, struct anonymous_2 *s_JamLastRead);
 // freadjammsgheader
 // file structrw.h line 74
-signed int freadjammsgheader(struct _IO_FILE *fp, struct anonymous$5 *s_JamMsgHeader);
+signed int freadjammsgheader(struct _IO_FILE *fp, struct anonymous_5 *s_JamMsgHeader);
 // free
 // file /usr/include/stdlib.h line 483
 extern void free(void *);
@@ -369,19 +369,19 @@ extern signed long int ftell(struct _IO_FILE *);
 extern unsigned long int fwrite(const void *, unsigned long int, unsigned long int, struct _IO_FILE *);
 // fwritejambaseheader
 // file structrw.h line 72
-signed int fwritejambaseheader(struct _IO_FILE *fp, struct anonymous$4 *s_JamBaseHeader);
+signed int fwritejambaseheader(struct _IO_FILE *fp, struct anonymous_4 *s_JamBaseHeader);
 // fwritejamindex
 // file structrw.h line 78
 signed int fwritejamindex(struct _IO_FILE *fp, struct anonymous *s_JamIndex);
 // fwritejamlastread
 // file structrw.h line 81
-signed int fwritejamlastread(struct _IO_FILE *fp, struct anonymous$2 *s_JamLastRead);
+signed int fwritejamlastread(struct _IO_FILE *fp, struct anonymous_2 *s_JamLastRead);
 // fwritejammsgheader
 // file structrw.h line 75
-signed int fwritejammsgheader(struct _IO_FILE *fp, struct anonymous$5 *s_JamMsgHeader);
+signed int fwritejammsgheader(struct _IO_FILE *fp, struct anonymous_5 *s_JamMsgHeader);
 // fwritejamsavesubfield
 // file structrw.h line 83
-signed int fwritejamsavesubfield(struct _IO_FILE *fp, struct anonymous$0 *s_JamSaveSubfield);
+signed int fwritejamsavesubfield(struct _IO_FILE *fp, struct anonymous_0 *s_JamSaveSubfield);
 // get_msgid_num
 // file nntpserv.c line 58
 unsigned long int get_msgid_num(void);
@@ -405,7 +405,7 @@ signed int getcontenttypepart(unsigned char *line, unsigned long int *pos, unsig
 extern struct hostent * gethostbyaddr(const void *, unsigned int, signed int);
 // getjamsubfield
 // file structrw.h line 84
-void getjamsubfield(unsigned char *buf, struct anonymous$6 *Subfield_S);
+void getjamsubfield(unsigned char *buf, struct anonymous_6 *Subfield_S);
 // getparentinfo
 // file nntpserv.c line 1480
 void getparentinfo(struct var *var, unsigned char *article, unsigned char *currentgroup, unsigned char *msgid, unsigned char *fromname, unsigned char *fromaddr, unsigned long int *msgnum, struct xlat *postxlat, signed int readorigin);
@@ -429,10 +429,10 @@ extern char * inet_ntoa(struct in_addr);
 signed int ispattern(unsigned char *pat);
 // jam_Lock
 // file mbase.c line 445
-signed int jam_Lock(struct anonymous$7 *Base_PS, signed int DoLock_I);
+signed int jam_Lock(struct anonymous_7 *Base_PS, signed int DoLock_I);
 // jam_Open
 // file mbase.c line 547
-signed int jam_Open(struct anonymous$7 *Base_PS, unsigned char *Basename_PC, char *Mode_PC);
+signed int jam_Open(struct anonymous_7 *Base_PS, unsigned char *Basename_PC, char *Mode_PC);
 // jamgetminmaxnum
 // file nntpserv.c line 127
 signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long int *min, unsigned long int *max, unsigned long int *num);
@@ -454,9 +454,9 @@ void jamputuword(unsigned char *buf, unsigned long int offset, unsigned short in
 // linux_serverstub
 // file os_linux.c line 29
 void * linux_serverstub(void *arglist);
-// linux_srv$object
+// linux_srv_object
 //
-void linux_srv$object(signed int);
+void linux_srv_object(signed int);
 // listen
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 233
 extern signed int listen(signed int, signed int);
@@ -529,9 +529,9 @@ void os_sleep(signed int x);
 // os_startserver
 // file os.h line 15
 void os_startserver(void (*srv)(signed int), signed int sock);
-// os_startserver::srv$object
+// os_startserver::srv_object
 //
-void srv$object(signed int);
+void srv_object(signed int);
 // os_stopexclusive
 // file os.h line 18
 void os_stopexclusive(void);
@@ -558,13 +558,13 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // puts
 // file /usr/include/stdio.h line 695
 extern signed int puts(const char *);
@@ -579,7 +579,7 @@ struct xlattab * readchs(struct var *var, unsigned char *filename);
 signed int readgroups(struct var *var);
 // readoriginaddr
 // file nntpserv.c line 256
-void readoriginaddr(struct anonymous$7 *mb, unsigned long int offset, unsigned long int len, unsigned char *addr);
+void readoriginaddr(struct anonymous_7 *mb, unsigned long int offset, unsigned long int len, unsigned char *addr);
 // readxlat
 // file xlat.h line 25
 signed int readxlat(struct var *var);
@@ -594,7 +594,7 @@ extern signed long int recv(signed int, void *, unsigned long int, signed int);
 extern signed int remove(const char *);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$1 *, struct anonymous$1 *, struct anonymous$1 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_1 *, struct anonymous_1 *, struct anonymous_1 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -731,17 +731,17 @@ extern signed int vsprintf(char *, const char *, void **);
 // file xlat.h line 24
 unsigned char * xlatstr(unsigned char *text, struct xlattab *xlattab);
 
-struct anonymous$8
+struct anonymous_8
 {
   // Fields
-  struct anonymous$6 **Fields;
+  struct anonymous_6 **Fields;
   // NumFields
   unsigned long int NumFields;
   // NumAlloc
   unsigned long int NumAlloc;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // HdrFile_PS
   struct _IO_FILE *HdrFile_PS;
@@ -761,13 +761,13 @@ struct anonymous$7
   unsigned long int LastUserId_I;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // Signature
   unsigned char Signature[4l];
@@ -811,7 +811,7 @@ struct anonymous$5
   unsigned long int Cost;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // Signature
   unsigned char Signature[4l];
@@ -829,7 +829,7 @@ struct anonymous$4
   unsigned char RSRVD[1000l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // LoID
   unsigned short int LoID;
@@ -839,7 +839,7 @@ struct anonymous$0
   unsigned long int DatLen;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // LoID
   unsigned short int LoID;
@@ -859,7 +859,7 @@ struct anonymous
   unsigned long int HdrOffset;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // UserCRC
   unsigned long int UserCRC;
@@ -899,7 +899,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1132,7 +1132,7 @@ struct var
   // opengroup
   struct group *opengroup;
   // openmb
-  struct anonymous$7 *openmb;
+  struct anonymous_7 *openmb;
   // inputpos
   unsigned long int inputpos;
   // input
@@ -1323,7 +1323,7 @@ char *fileargv[100l];
 unsigned long int lastmsgidnum;
 // linux_mutex
 // file os_linux.c line 5
-union anonymous$3 linux_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 linux_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // linux_srv
@@ -1338,10 +1338,10 @@ signed int server_quit;
 
 // JAM_AddEmptyMessage
 // file message.c line 469
-signed int JAM_AddEmptyMessage(struct anonymous$7 *Base_PS)
+signed int JAM_AddEmptyMessage(struct anonymous_7 *Base_PS)
 {
   struct anonymous Index_S;
-  if(Base_PS == ((struct anonymous$7 *)NULL))
+  if(Base_PS == ((struct anonymous_7 *)NULL))
     return 1;
 
   else
@@ -1350,25 +1350,25 @@ signed int JAM_AddEmptyMessage(struct anonymous$7 *Base_PS)
 
     else
     {
-      signed int return_value_fseek$2;
-      return_value_fseek$2=fseek(Base_PS->IdxFile_PS, (signed long int)0, 2);
-      if(!(return_value_fseek$2 == 0))
+      signed int return_value_fseek_2;
+      return_value_fseek_2=fseek(Base_PS->IdxFile_PS, (signed long int)0, 2);
+      if(!(return_value_fseek_2 == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_1;
         return 2;
       }
 
       Index_S.HdrOffset = (unsigned long int)0xffffffff;
       Index_S.UserCRC = (unsigned long int)0xffffffff;
-      signed int return_value_fwritejamindex$4;
-      return_value_fwritejamindex$4=fwritejamindex(Base_PS->IdxFile_PS, &Index_S);
-      if(!(return_value_fwritejamindex$4 >= 1))
+      signed int return_value_fwritejamindex_4;
+      return_value_fwritejamindex_4=fwritejamindex(Base_PS->IdxFile_PS, &Index_S);
+      if(!(return_value_fwritejamindex_4 >= 1))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_3;
         return 2;
       }
 
@@ -1378,15 +1378,15 @@ signed int JAM_AddEmptyMessage(struct anonymous$7 *Base_PS)
 
 // JAM_AddMessage
 // file jamlib/jam.h line 285
-signed int JAM_AddMessage(struct anonymous$7 *Base_PS, struct anonymous$5 *Header_PS, struct anonymous$8 *SubPack_PS, unsigned char *Text_PC, unsigned long int TextLen_I)
+signed int JAM_AddMessage(struct anonymous_7 *Base_PS, struct anonymous_5 *Header_PS, struct anonymous_8 *SubPack_PS, unsigned char *Text_PC, unsigned long int TextLen_I)
 {
-  struct anonymous$4 BaseHeader_S;
+  struct anonymous_4 BaseHeader_S;
   struct anonymous Index_S;
   signed long int Offset_I;
   signed int Status_I;
   unsigned long int TotLen_I;
-  unsigned long int return_value_strlen$20;
-  if(Base_PS == ((struct anonymous$7 *)NULL))
+  unsigned long int return_value_strlen_20;
+  if(Base_PS == ((struct anonymous_7 *)NULL))
     return 1;
 
   else
@@ -1405,158 +1405,158 @@ signed int JAM_AddMessage(struct anonymous$7 *Base_PS, struct anonymous$5 *Heade
         Header_PS->TxtLen = (unsigned long int)0;
         if(!(Text_PC == ((unsigned char *)NULL)) && !(TextLen_I == 0ul))
         {
-          signed int return_value_fseek$2;
-          return_value_fseek$2=fseek(Base_PS->TxtFile_PS, (signed long int)0, 2);
-          if(!(return_value_fseek$2 == 0))
+          signed int return_value_fseek_2;
+          return_value_fseek_2=fseek(Base_PS->TxtFile_PS, (signed long int)0, 2);
+          if(!(return_value_fseek_2 == 0))
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$1;
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_1;
             return 2;
           }
 
           Offset_I=ftell(Base_PS->TxtFile_PS);
           if(Offset_I == -1l)
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$3;
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_3;
             return 2;
           }
 
           Header_PS->TxtOffset = (unsigned long int)Offset_I;
           Header_PS->TxtLen = TextLen_I;
-          unsigned long int return_value_fwrite$5;
-          return_value_fwrite$5=fwrite((const void *)Text_PC, TextLen_I, (unsigned long int)1, Base_PS->TxtFile_PS);
-          if(!(return_value_fwrite$5 >= 1ul))
+          unsigned long int return_value_fwrite_5;
+          return_value_fwrite_5=fwrite((const void *)Text_PC, TextLen_I, (unsigned long int)1, Base_PS->TxtFile_PS);
+          if(!(return_value_fwrite_5 >= 1ul))
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$4;
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_4;
             return 2;
           }
 
         }
 
-        signed int return_value_fseek$7;
-        return_value_fseek$7=fseek(Base_PS->HdrFile_PS, (signed long int)0, 2);
-        if(!(return_value_fseek$7 == 0))
+        signed int return_value_fseek_7;
+        return_value_fseek_7=fseek(Base_PS->HdrFile_PS, (signed long int)0, 2);
+        if(!(return_value_fseek_7 == 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$6;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_6;
           return 2;
         }
 
         TotLen_I = (unsigned long int)0;
-        if(!(SubPack_PS == ((struct anonymous$8 *)NULL)))
+        if(!(SubPack_PS == ((struct anonymous_8 *)NULL)))
         {
-          struct anonymous$6 *Subfield_PS;
+          struct anonymous_6 *Subfield_PS;
           Subfield_PS=JAM_GetSubfield(SubPack_PS);
-          while(!(Subfield_PS == ((struct anonymous$6 *)NULL)))
+          while(!(Subfield_PS == ((struct anonymous_6 *)NULL)))
           {
-            TotLen_I = TotLen_I + sizeof(struct anonymous$0) /*16ul*/  + Subfield_PS->DatLen;
-            Subfield_PS=JAM_GetSubfield((struct anonymous$8 *)(void *)0);
+            TotLen_I = TotLen_I + sizeof(struct anonymous_0) /*16ul*/  + Subfield_PS->DatLen;
+            Subfield_PS=JAM_GetSubfield((struct anonymous_8 *)(void *)0);
           }
         }
 
         Header_PS->SubfieldLen = TotLen_I;
-        signed int return_value_fseek$9;
-        return_value_fseek$9=fseek(Base_PS->IdxFile_PS, (signed long int)0, 2);
-        if(!(return_value_fseek$9 == 0))
+        signed int return_value_fseek_9;
+        return_value_fseek_9=fseek(Base_PS->IdxFile_PS, (signed long int)0, 2);
+        if(!(return_value_fseek_9 == 0))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$8;
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_8;
           return 2;
         }
 
         Offset_I=ftell(Base_PS->IdxFile_PS);
         if(Offset_I == -1l)
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$10;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_10;
           return 2;
         }
 
         Header_PS->MsgNum = (unsigned long int)Offset_I / sizeof(struct anonymous) /*16ul*/  + BaseHeader_S.BaseMsgNum;
         memcpy((void *)Header_PS->Signature, (const void *)"JAM\0", (unsigned long int)4);
         Header_PS->Revision = (unsigned short int)1;
-        signed int return_value_fseek$12;
-        return_value_fseek$12=fseek(Base_PS->HdrFile_PS, (signed long int)0, 2);
-        if(!(return_value_fseek$12 == 0))
+        signed int return_value_fseek_12;
+        return_value_fseek_12=fseek(Base_PS->HdrFile_PS, (signed long int)0, 2);
+        if(!(return_value_fseek_12 == 0))
         {
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$11;
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_11;
           return 2;
         }
 
         Offset_I=ftell(Base_PS->HdrFile_PS);
         if(Offset_I == -1l)
         {
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$13;
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_13;
           return 2;
         }
 
         Index_S.HdrOffset = (unsigned long int)Offset_I;
-        signed int return_value_fwritejammsgheader$15;
-        return_value_fwritejammsgheader$15=fwritejammsgheader(Base_PS->HdrFile_PS, Header_PS);
-        if(!(return_value_fwritejammsgheader$15 >= 1))
+        signed int return_value_fwritejammsgheader_15;
+        return_value_fwritejammsgheader_15=fwritejammsgheader(Base_PS->HdrFile_PS, Header_PS);
+        if(!(return_value_fwritejammsgheader_15 >= 1))
         {
-          signed int *return_value___errno_location$14;
-          return_value___errno_location$14=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$14;
+          signed int *return_value___errno_location_14;
+          return_value___errno_location_14=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_14;
           return 2;
         }
 
-        if(!(SubPack_PS == ((struct anonymous$8 *)NULL)))
+        if(!(SubPack_PS == ((struct anonymous_8 *)NULL)))
         {
-          struct anonymous$6 *JAM_AddMessage$$1$$9$$Subfield_PS;
+          struct anonymous_6 *JAM_AddMessage__1__9__Subfield_PS;
           unsigned char User_AC[101l];
           User_AC[(signed long int)0] = (unsigned char)0;
-          JAM_AddMessage$$1$$9$$Subfield_PS=JAM_GetSubfield(SubPack_PS);
-          while(!(JAM_AddMessage$$1$$9$$Subfield_PS == ((struct anonymous$6 *)NULL)))
+          JAM_AddMessage__1__9__Subfield_PS=JAM_GetSubfield(SubPack_PS);
+          while(!(JAM_AddMessage__1__9__Subfield_PS == ((struct anonymous_6 *)NULL)))
           {
-            signed int return_value_fwritejamsavesubfield$17;
-            return_value_fwritejamsavesubfield$17=fwritejamsavesubfield(Base_PS->HdrFile_PS, (struct anonymous$0 *)JAM_AddMessage$$1$$9$$Subfield_PS);
-            if(!(return_value_fwritejamsavesubfield$17 >= 1))
+            signed int return_value_fwritejamsavesubfield_17;
+            return_value_fwritejamsavesubfield_17=fwritejamsavesubfield(Base_PS->HdrFile_PS, (struct anonymous_0 *)JAM_AddMessage__1__9__Subfield_PS);
+            if(!(return_value_fwritejamsavesubfield_17 >= 1))
             {
-              signed int *return_value___errno_location$16;
-              return_value___errno_location$16=__errno_location();
-              Base_PS->Errno_I = *return_value___errno_location$16;
+              signed int *return_value___errno_location_16;
+              return_value___errno_location_16=__errno_location();
+              Base_PS->Errno_I = *return_value___errno_location_16;
               return 2;
             }
 
-            if(!(JAM_AddMessage$$1$$9$$Subfield_PS->DatLen == 0ul))
+            if(!(JAM_AddMessage__1__9__Subfield_PS->DatLen == 0ul))
             {
-              unsigned long int return_value_fwrite$19;
-              return_value_fwrite$19=fwrite((const void *)JAM_AddMessage$$1$$9$$Subfield_PS->Buffer, JAM_AddMessage$$1$$9$$Subfield_PS->DatLen, (unsigned long int)1, Base_PS->HdrFile_PS);
-              if(!(return_value_fwrite$19 >= 1ul))
+              unsigned long int return_value_fwrite_19;
+              return_value_fwrite_19=fwrite((const void *)JAM_AddMessage__1__9__Subfield_PS->Buffer, JAM_AddMessage__1__9__Subfield_PS->DatLen, (unsigned long int)1, Base_PS->HdrFile_PS);
+              if(!(return_value_fwrite_19 >= 1ul))
               {
-                signed int *return_value___errno_location$18;
-                return_value___errno_location$18=__errno_location();
-                Base_PS->Errno_I = *return_value___errno_location$18;
+                signed int *return_value___errno_location_18;
+                return_value___errno_location_18=__errno_location();
+                Base_PS->Errno_I = *return_value___errno_location_18;
                 return 2;
               }
 
             }
 
-            if((signed int)JAM_AddMessage$$1$$9$$Subfield_PS->LoID == 3)
+            if((signed int)JAM_AddMessage__1__9__Subfield_PS->LoID == 3)
             {
-              memcpy((void *)User_AC, (const void *)JAM_AddMessage$$1$$9$$Subfield_PS->Buffer, JAM_AddMessage$$1$$9$$Subfield_PS->DatLen);
-              User_AC[(signed long int)JAM_AddMessage$$1$$9$$Subfield_PS->DatLen] = (unsigned char)0;
+              memcpy((void *)User_AC, (const void *)JAM_AddMessage__1__9__Subfield_PS->Buffer, JAM_AddMessage__1__9__Subfield_PS->DatLen);
+              User_AC[(signed long int)JAM_AddMessage__1__9__Subfield_PS->DatLen] = (unsigned char)0;
             }
 
-            JAM_AddMessage$$1$$9$$Subfield_PS=JAM_GetSubfield((struct anonymous$8 *)(void *)0);
+            JAM_AddMessage__1__9__Subfield_PS=JAM_GetSubfield((struct anonymous_8 *)(void *)0);
           }
           if(!(User_AC[0l] == 0))
           {
-            return_value_strlen$20=strlen((const char *)User_AC);
-            Index_S.UserCRC=JAM_Crc32(User_AC, return_value_strlen$20);
+            return_value_strlen_20=strlen((const char *)User_AC);
+            Index_S.UserCRC=JAM_Crc32(User_AC, return_value_strlen_20);
           }
 
           else
@@ -1565,13 +1565,13 @@ signed int JAM_AddMessage(struct anonymous$7 *Base_PS, struct anonymous$5 *Heade
 
         else
           Index_S.UserCRC = (unsigned long int)0xffffffff;
-        signed int return_value_fwritejamindex$22;
-        return_value_fwritejamindex$22=fwritejamindex(Base_PS->IdxFile_PS, &Index_S);
-        if(!(return_value_fwritejamindex$22 >= 1))
+        signed int return_value_fwritejamindex_22;
+        return_value_fwritejamindex_22=fwritejamindex(Base_PS->IdxFile_PS, &Index_S);
+        if(!(return_value_fwritejamindex_22 >= 1))
         {
-          signed int *return_value___errno_location$21;
-          return_value___errno_location$21=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$21;
+          signed int *return_value___errno_location_21;
+          return_value___errno_location_21=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_21;
           return 2;
         }
 
@@ -1590,13 +1590,13 @@ signed int JAM_AddMessage(struct anonymous$7 *Base_PS, struct anonymous$5 *Heade
 
 // JAM_ChangeMsgHeader
 // file jamlib/jam.h line 296
-signed int JAM_ChangeMsgHeader(struct anonymous$7 *Base_PS, unsigned long int MsgNo_I, struct anonymous$5 *Header_PS)
+signed int JAM_ChangeMsgHeader(struct anonymous_7 *Base_PS, unsigned long int MsgNo_I, struct anonymous_5 *Header_PS)
 {
-  struct anonymous$4 BaseHeader_S;
-  struct anonymous$5 OldHeader_S;
+  struct anonymous_4 BaseHeader_S;
+  struct anonymous_5 OldHeader_S;
   struct anonymous Index_S;
   signed int Status_I;
-  if(Base_PS == ((struct anonymous$7 *)NULL))
+  if(Base_PS == ((struct anonymous_7 *)NULL))
     return 1;
 
   else
@@ -1611,63 +1611,63 @@ signed int JAM_ChangeMsgHeader(struct anonymous$7 *Base_PS, unsigned long int Ms
 
       else
       {
-        signed int return_value_fseek$2;
-        return_value_fseek$2=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
-        if(!(return_value_fseek$2 == 0))
+        signed int return_value_fseek_2;
+        return_value_fseek_2=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
+        if(!(return_value_fseek_2 == 0))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$1;
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_1;
           return 2;
         }
 
-        signed int return_value_freadjamindex$4;
-        return_value_freadjamindex$4=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
-        if(!(return_value_freadjamindex$4 >= 1))
+        signed int return_value_freadjamindex_4;
+        return_value_freadjamindex_4=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
+        if(!(return_value_freadjamindex_4 >= 1))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$3;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_3;
           return 2;
         }
 
-        signed int return_value_fseek$6;
-        return_value_fseek$6=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
-        if(!(return_value_fseek$6 == 0))
+        signed int return_value_fseek_6;
+        return_value_fseek_6=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
+        if(!(return_value_fseek_6 == 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$5;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_5;
           return 2;
         }
 
-        signed int return_value_freadjammsgheader$8;
-        return_value_freadjammsgheader$8=freadjammsgheader(Base_PS->HdrFile_PS, &OldHeader_S);
-        if(!(return_value_freadjammsgheader$8 >= 1))
+        signed int return_value_freadjammsgheader_8;
+        return_value_freadjammsgheader_8=freadjammsgheader(Base_PS->HdrFile_PS, &OldHeader_S);
+        if(!(return_value_freadjammsgheader_8 >= 1))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$7;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_7;
           return 2;
         }
 
-        signed int return_value_fseek$10;
-        return_value_fseek$10=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
-        if(!(return_value_fseek$10 == 0))
+        signed int return_value_fseek_10;
+        return_value_fseek_10=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
+        if(!(return_value_fseek_10 == 0))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$9;
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_9;
           return 2;
         }
 
-        signed int return_value_fwritejammsgheader$12;
-        return_value_fwritejammsgheader$12=fwritejammsgheader(Base_PS->HdrFile_PS, Header_PS);
-        if(!(return_value_fwritejammsgheader$12 >= 1))
+        signed int return_value_fwritejammsgheader_12;
+        return_value_fwritejammsgheader_12=fwritejammsgheader(Base_PS->HdrFile_PS, Header_PS);
+        if(!(return_value_fwritejammsgheader_12 >= 1))
         {
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$11;
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_11;
           return 2;
         }
 
@@ -1690,14 +1690,14 @@ signed int JAM_ChangeMsgHeader(struct anonymous$7 *Base_PS, unsigned long int Ms
 
 // JAM_ClearMsgHeader
 // file jamlib/jam.h line 300
-signed int JAM_ClearMsgHeader(struct anonymous$5 *Header_PS)
+signed int JAM_ClearMsgHeader(struct anonymous_5 *Header_PS)
 {
-  if(Header_PS == ((struct anonymous$5 *)NULL))
+  if(Header_PS == ((struct anonymous_5 *)NULL))
     return 1;
 
   else
   {
-    memset((void *)Header_PS, 0, sizeof(struct anonymous$5) /*144ul*/ );
+    memset((void *)Header_PS, 0, sizeof(struct anonymous_5) /*144ul*/ );
     memcpy((void *)Header_PS->Signature, (const void *)"JAM\0", (unsigned long int)4);
     Header_PS->Revision = (unsigned short int)1;
     Header_PS->MsgIdCRC = (unsigned long int)0xffffffff;
@@ -1709,7 +1709,7 @@ signed int JAM_ClearMsgHeader(struct anonymous$5 *Header_PS)
 
 // JAM_CloseMB
 // file jamlib/jam.h line 245
-signed int JAM_CloseMB(struct anonymous$7 *Base_PS)
+signed int JAM_CloseMB(struct anonymous_7 *Base_PS)
 {
   if(!(Base_PS->Locked_I == 0))
   {
@@ -1744,32 +1744,32 @@ unsigned long int JAM_Crc32(unsigned char *Buffer_PC, unsigned long int Length_I
   unsigned long int c;
   Crc_I = (unsigned long int)0xffffffff;
   c = (unsigned long int)0;
-  signed int return_value_tolower$1;
+  signed int return_value_tolower_1;
   for( ; !(c >= Length_I); c = c + 1ul)
   {
-    return_value_tolower$1=tolower((signed int)Buffer_PC[(signed long int)c]);
-    Crc_I = Crc_I >> 8 ^ crc32tab[(signed long int)((signed int)(unsigned char)Crc_I ^ return_value_tolower$1)];
+    return_value_tolower_1=tolower((signed int)Buffer_PC[(signed long int)c]);
+    Crc_I = Crc_I >> 8 ^ crc32tab[(signed long int)((signed int)(unsigned char)Crc_I ^ return_value_tolower_1)];
   }
   return Crc_I;
 }
 
 // JAM_CreateMB
 // file mbase.c line 147
-signed int JAM_CreateMB(unsigned char *Basename_PC, unsigned long int BaseMsg_I, struct anonymous$7 **NewArea_PPS)
+signed int JAM_CreateMB(unsigned char *Basename_PC, unsigned long int BaseMsg_I, struct anonymous_7 **NewArea_PPS)
 {
-  struct anonymous$4 Base_S;
+  struct anonymous_4 Base_S;
   signed int Status_I;
-  struct anonymous$7 *Base_PS;
-  if(NewArea_PPS == ((struct anonymous$7 **)NULL) || BaseMsg_I == 0ul)
+  struct anonymous_7 *Base_PS;
+  if(NewArea_PPS == ((struct anonymous_7 **)NULL) || BaseMsg_I == 0ul)
     return 1;
 
   else
   {
-    *NewArea_PPS = (struct anonymous$7 *)(void *)0;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$7) /*56ul*/ );
-    Base_PS = (struct anonymous$7 *)return_value_calloc$1;
-    if(Base_PS == ((struct anonymous$7 *)NULL))
+    *NewArea_PPS = (struct anonymous_7 *)(void *)0;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_7) /*56ul*/ );
+    Base_PS = (struct anonymous_7 *)return_value_calloc_1;
+    if(Base_PS == ((struct anonymous_7 *)NULL))
       return 5;
 
     else
@@ -1781,9 +1781,9 @@ signed int JAM_CreateMB(unsigned char *Basename_PC, unsigned long int BaseMsg_I,
 
       else
       {
-        signed long int return_value_time$2;
-        return_value_time$2=time((signed long int *)(void *)0);
-        Base_S.DateCreated = (unsigned long int)return_value_time$2;
+        signed long int return_value_time_2;
+        return_value_time_2=time((signed long int *)(void *)0);
+        Base_S.DateCreated = (unsigned long int)return_value_time_2;
         Base_S.ModCounter = (unsigned long int)0;
         Base_S.ActiveMsgs = (unsigned long int)0;
         Base_S.PasswordCRC = (unsigned long int)0xffffffff;
@@ -1819,10 +1819,10 @@ signed int JAM_CreateMB(unsigned char *Basename_PC, unsigned long int BaseMsg_I,
 
 // JAM_DelSubPacket
 // file jamlib/jam.h line 318
-signed int JAM_DelSubPacket(struct anonymous$8 *SubPack_PS)
+signed int JAM_DelSubPacket(struct anonymous_8 *SubPack_PS)
 {
   unsigned long int i;
-  if(SubPack_PS == ((struct anonymous$8 *)NULL))
+  if(SubPack_PS == ((struct anonymous_8 *)NULL))
     return 1;
 
   else
@@ -1830,7 +1830,7 @@ signed int JAM_DelSubPacket(struct anonymous$8 *SubPack_PS)
     i = (unsigned long int)0;
     for( ; !(i >= SubPack_PS->NumFields); i = i + 1ul)
     {
-      struct anonymous$6 *Field_PS = SubPack_PS->Fields[(signed long int)i];
+      struct anonymous_6 *Field_PS = SubPack_PS->Fields[(signed long int)i];
       if(!(Field_PS->Buffer == ((unsigned char *)NULL)))
         free((void *)Field_PS->Buffer);
 
@@ -1844,14 +1844,14 @@ signed int JAM_DelSubPacket(struct anonymous$8 *SubPack_PS)
 
 // JAM_DeleteMessage
 // file message.c line 505
-signed int JAM_DeleteMessage(struct anonymous$7 *Base_PS, unsigned long int MsgNo_I)
+signed int JAM_DeleteMessage(struct anonymous_7 *Base_PS, unsigned long int MsgNo_I)
 {
-  struct anonymous$4 BaseHeader_S;
-  struct anonymous$5 Header_S;
+  struct anonymous_4 BaseHeader_S;
+  struct anonymous_5 Header_S;
   struct anonymous Index_S;
   signed int Status_I;
   unsigned long int OldAttribute_I;
-  if(Base_PS == ((struct anonymous$7 *)NULL))
+  if(Base_PS == ((struct anonymous_7 *)NULL))
     return 1;
 
   else
@@ -1866,23 +1866,23 @@ signed int JAM_DeleteMessage(struct anonymous$7 *Base_PS, unsigned long int MsgN
 
       else
       {
-        signed int return_value_fseek$2;
-        return_value_fseek$2=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
-        if(!(return_value_fseek$2 == 0))
+        signed int return_value_fseek_2;
+        return_value_fseek_2=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
+        if(!(return_value_fseek_2 == 0))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$1;
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_1;
           return 2;
         }
 
-        signed int return_value_freadjamindex$4;
-        return_value_freadjamindex$4=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
-        if(!(return_value_freadjamindex$4 >= 1))
+        signed int return_value_freadjamindex_4;
+        return_value_freadjamindex_4=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
+        if(!(return_value_freadjamindex_4 >= 1))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$3;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_3;
           return 2;
         }
 
@@ -1891,67 +1891,67 @@ signed int JAM_DeleteMessage(struct anonymous$7 *Base_PS, unsigned long int MsgN
 
         else
         {
-          signed int return_value_fseek$6;
-          return_value_fseek$6=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
-          if(!(return_value_fseek$6 == 0))
+          signed int return_value_fseek_6;
+          return_value_fseek_6=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
+          if(!(return_value_fseek_6 == 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$5;
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_5;
             return 2;
           }
 
-          signed int return_value_freadjammsgheader$8;
-          return_value_freadjammsgheader$8=freadjammsgheader(Base_PS->HdrFile_PS, &Header_S);
-          if(!(return_value_freadjammsgheader$8 >= 1))
+          signed int return_value_freadjammsgheader_8;
+          return_value_freadjammsgheader_8=freadjammsgheader(Base_PS->HdrFile_PS, &Header_S);
+          if(!(return_value_freadjammsgheader_8 >= 1))
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$7;
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_7;
             return 2;
           }
 
           OldAttribute_I = Header_S.Attribute;
           Header_S.Attribute = Header_S.Attribute | (unsigned long int)0x80000000L;
-          signed int return_value_fseek$10;
-          return_value_fseek$10=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
-          if(!(return_value_fseek$10 == 0))
+          signed int return_value_fseek_10;
+          return_value_fseek_10=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
+          if(!(return_value_fseek_10 == 0))
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$9;
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_9;
             return 2;
           }
 
-          signed int return_value_fwritejammsgheader$12;
-          return_value_fwritejammsgheader$12=fwritejammsgheader(Base_PS->HdrFile_PS, &Header_S);
-          if(!(return_value_fwritejammsgheader$12 >= 1))
+          signed int return_value_fwritejammsgheader_12;
+          return_value_fwritejammsgheader_12=fwritejammsgheader(Base_PS->HdrFile_PS, &Header_S);
+          if(!(return_value_fwritejammsgheader_12 >= 1))
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$11;
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_11;
             return 2;
           }
 
-          signed int return_value_fseek$14;
-          return_value_fseek$14=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
-          if(!(return_value_fseek$14 == 0))
+          signed int return_value_fseek_14;
+          return_value_fseek_14=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
+          if(!(return_value_fseek_14 == 0))
           {
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$13;
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_13;
             return 2;
           }
 
           Index_S.HdrOffset = (unsigned long int)0xffffffff;
           Index_S.UserCRC = (unsigned long int)0xffffffff;
-          signed int return_value_fwritejamindex$16;
-          return_value_fwritejamindex$16=fwritejamindex(Base_PS->IdxFile_PS, &Index_S);
-          if(!(return_value_fwritejamindex$16 >= 1))
+          signed int return_value_fwritejamindex_16;
+          return_value_fwritejamindex_16=fwritejamindex(Base_PS->IdxFile_PS, &Index_S);
+          if(!(return_value_fwritejamindex_16 >= 1))
           {
-            signed int *return_value___errno_location$15;
-            return_value___errno_location$15=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$15;
+            signed int *return_value___errno_location_15;
+            return_value___errno_location_15=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_15;
             return 2;
           }
 
@@ -1971,23 +1971,23 @@ signed int JAM_DeleteMessage(struct anonymous$7 *Base_PS, unsigned long int MsgN
 
 // JAM_Errno
 // file message.c line 601
-signed int JAM_Errno(struct anonymous$7 *Base_PS)
+signed int JAM_Errno(struct anonymous_7 *Base_PS)
 {
   return Base_PS->Errno_I;
 }
 
 // JAM_FindUser
 // file mbase.c line 404
-signed int JAM_FindUser(struct anonymous$7 *Base_PS, unsigned long int UserCrc_I, unsigned long int StartMsg_I, unsigned long int *MsgNo_PI)
+signed int JAM_FindUser(struct anonymous_7 *Base_PS, unsigned long int UserCrc_I, unsigned long int StartMsg_I, unsigned long int *MsgNo_PI)
 {
   unsigned long int MsgNo_I;
-  signed int return_value_fseek$2;
-  return_value_fseek$2=fseek(Base_PS->IdxFile_PS, (signed long int)(StartMsg_I * sizeof(struct anonymous) /*16ul*/ ), 0);
-  if(!(return_value_fseek$2 == 0))
+  signed int return_value_fseek_2;
+  return_value_fseek_2=fseek(Base_PS->IdxFile_PS, (signed long int)(StartMsg_I * sizeof(struct anonymous) /*16ul*/ ), 0);
+  if(!(return_value_fseek_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_1;
     return 2;
   }
 
@@ -1995,18 +1995,18 @@ signed int JAM_FindUser(struct anonymous$7 *Base_PS, unsigned long int UserCrc_I
   do
   {
     struct anonymous Index_S;
-    signed int return_value_freadjamindex$5;
-    return_value_freadjamindex$5=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
-    if(!(return_value_freadjamindex$5 >= 1))
+    signed int return_value_freadjamindex_5;
+    return_value_freadjamindex_5=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
+    if(!(return_value_freadjamindex_5 >= 1))
     {
-      signed int return_value_feof$3;
-      return_value_feof$3=feof(Base_PS->IdxFile_PS);
-      if(!(return_value_feof$3 == 0))
+      signed int return_value_feof_3;
+      return_value_feof_3=feof(Base_PS->IdxFile_PS);
+      if(!(return_value_feof_3 == 0))
         return 6;
 
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_4;
       return 2;
     }
 
@@ -2022,25 +2022,25 @@ signed int JAM_FindUser(struct anonymous$7 *Base_PS, unsigned long int UserCrc_I
 
 // JAM_GetMBSize
 // file jamlib/jam.h line 270
-signed int JAM_GetMBSize(struct anonymous$7 *Base_PS, unsigned long int *Messages_PI)
+signed int JAM_GetMBSize(struct anonymous_7 *Base_PS, unsigned long int *Messages_PI)
 {
   signed long int Offset_I;
-  signed int return_value_fseek$2;
-  return_value_fseek$2=fseek(Base_PS->IdxFile_PS, (signed long int)0, 2);
-  if(!(return_value_fseek$2 == 0))
+  signed int return_value_fseek_2;
+  return_value_fseek_2=fseek(Base_PS->IdxFile_PS, (signed long int)0, 2);
+  if(!(return_value_fseek_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_1;
     return 2;
   }
 
   Offset_I=ftell(Base_PS->IdxFile_PS);
   if(Offset_I == -1l)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_3;
     return 2;
   }
 
@@ -2050,51 +2050,51 @@ signed int JAM_GetMBSize(struct anonymous$7 *Base_PS, unsigned long int *Message
 
 // JAM_GetSubfield
 // file jam.h line 320
-struct anonymous$6 * JAM_GetSubfield(struct anonymous$8 *SubPack_PS)
+struct anonymous_6 * JAM_GetSubfield(struct anonymous_8 *SubPack_PS)
 {
   static unsigned long int NextIndex_I = (unsigned long int)0;
-  static struct anonymous$8 *LastPack_PS = (struct anonymous$8 *)(void *)0;
-  if(!(SubPack_PS == ((struct anonymous$8 *)NULL)))
+  static struct anonymous_8 *LastPack_PS = (struct anonymous_8 *)(void *)0;
+  if(!(SubPack_PS == ((struct anonymous_8 *)NULL)))
   {
     LastPack_PS = SubPack_PS;
     NextIndex_I = (unsigned long int)0;
   }
 
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   if(!(NextIndex_I >= LastPack_PS->NumFields))
   {
-    tmp_post$1 = NextIndex_I;
+    tmp_post_1 = NextIndex_I;
     NextIndex_I = NextIndex_I + 1ul;
-    return LastPack_PS->Fields[(signed long int)tmp_post$1];
+    return LastPack_PS->Fields[(signed long int)tmp_post_1];
   }
 
   else
-    return (struct anonymous$6 *)(void *)0;
+    return (struct anonymous_6 *)(void *)0;
 }
 
 // JAM_GetSubfield_R
 // file jamlib/jam.h line 322
-struct anonymous$6 * JAM_GetSubfield_R(struct anonymous$8 *SubPack_PS, unsigned long int *Count_PI)
+struct anonymous_6 * JAM_GetSubfield_R(struct anonymous_8 *SubPack_PS, unsigned long int *Count_PI)
 {
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   if(!(*Count_PI >= SubPack_PS->NumFields))
   {
-    tmp_post$1 = *Count_PI;
+    tmp_post_1 = *Count_PI;
     *Count_PI = *Count_PI + 1ul;
-    return SubPack_PS->Fields[(signed long int)tmp_post$1];
+    return SubPack_PS->Fields[(signed long int)tmp_post_1];
   }
 
   else
-    return (struct anonymous$6 *)(void *)0;
+    return (struct anonymous_6 *)(void *)0;
 }
 
 // JAM_LockMB
 // file jamlib/jam.h line 254
-signed int JAM_LockMB(struct anonymous$7 *Base_PS, signed int Timeout_I)
+signed int JAM_LockMB(struct anonymous_7 *Base_PS, signed int Timeout_I)
 {
-  signed int return_value_jam_Lock$1;
-  signed int return_value_jam_Lock$2;
-  signed long int return_value_time$4;
+  signed int return_value_jam_Lock_1;
+  signed int return_value_jam_Lock_2;
+  signed long int return_value_time_4;
   if(!(Base_PS->Locked_I == 0))
     return 0;
 
@@ -2111,8 +2111,8 @@ signed int JAM_LockMB(struct anonymous$7 *Base_PS, signed int Timeout_I)
     {
       do
       {
-        return_value_jam_Lock$1=jam_Lock(Base_PS, 1);
-        if(!(return_value_jam_Lock$1 == 3))
+        return_value_jam_Lock_1=jam_Lock(Base_PS, 1);
+        if(!(return_value_jam_Lock_1 == 3))
           break;
 
         sleep((unsigned int)1);
@@ -2122,17 +2122,17 @@ signed int JAM_LockMB(struct anonymous$7 *Base_PS, signed int Timeout_I)
 
     __CPROVER_DUMP_L4:
       ;
-      return_value_jam_Lock$2=jam_Lock(Base_PS, 1);
-      return return_value_jam_Lock$2;
+      return_value_jam_Lock_2=jam_Lock(Base_PS, 1);
+      return return_value_jam_Lock_2;
     }
     signed long int Time_I;
-    signed long int return_value_time$3;
-    return_value_time$3=time((signed long int *)(void *)0);
-    Time_I = return_value_time$3 + (signed long int)Timeout_I;
+    signed long int return_value_time_3;
+    return_value_time_3=time((signed long int *)(void *)0);
+    Time_I = return_value_time_3 + (signed long int)Timeout_I;
     do
     {
-      return_value_time$4=time((signed long int *)(void *)0);
-      if(return_value_time$4 >= Time_I)
+      return_value_time_4=time((signed long int *)(void *)0);
+      if(return_value_time_4 >= Time_I)
         break;
 
       signed int Result_I;
@@ -2150,26 +2150,26 @@ signed int JAM_LockMB(struct anonymous$7 *Base_PS, signed int Timeout_I)
 
 // JAM_NewSubPacket
 // file jamlib/jam.h line 316
-struct anonymous$8 * JAM_NewSubPacket(void)
+struct anonymous_8 * JAM_NewSubPacket(void)
 {
-  struct anonymous$8 *Sub_PS;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$8) /*24ul*/ );
-  Sub_PS = (struct anonymous$8 *)return_value_malloc$1;
-  if(Sub_PS == ((struct anonymous$8 *)NULL))
-    return (struct anonymous$8 *)(void *)0;
+  struct anonymous_8 *Sub_PS;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_8) /*24ul*/ );
+  Sub_PS = (struct anonymous_8 *)return_value_malloc_1;
+  if(Sub_PS == ((struct anonymous_8 *)NULL))
+    return (struct anonymous_8 *)(void *)0;
 
   else
   {
     Sub_PS->NumAlloc = (unsigned long int)20;
     Sub_PS->NumFields = (unsigned long int)0;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc(Sub_PS->NumAlloc, sizeof(struct anonymous$6 *) /*8ul*/ );
-    Sub_PS->Fields = (struct anonymous$6 **)return_value_calloc$2;
-    if(Sub_PS->Fields == ((struct anonymous$6 **)NULL))
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc(Sub_PS->NumAlloc, sizeof(struct anonymous_6 *) /*8ul*/ );
+    Sub_PS->Fields = (struct anonymous_6 **)return_value_calloc_2;
+    if(Sub_PS->Fields == ((struct anonymous_6 **)NULL))
     {
       free((void *)Sub_PS);
-      return (struct anonymous$8 *)(void *)0;
+      return (struct anonymous_8 *)(void *)0;
     }
 
     else
@@ -2179,20 +2179,20 @@ struct anonymous$8 * JAM_NewSubPacket(void)
 
 // JAM_OpenMB
 // file jamlib/jam.h line 242
-signed int JAM_OpenMB(unsigned char *Basename_PC, struct anonymous$7 **NewArea_PPS)
+signed int JAM_OpenMB(unsigned char *Basename_PC, struct anonymous_7 **NewArea_PPS)
 {
-  struct anonymous$7 *Base_PS;
+  struct anonymous_7 *Base_PS;
   signed int Status_I;
-  if(NewArea_PPS == ((struct anonymous$7 **)NULL))
+  if(NewArea_PPS == ((struct anonymous_7 **)NULL))
     return 1;
 
   else
   {
-    *NewArea_PPS = (struct anonymous$7 *)(void *)0;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$7) /*56ul*/ );
-    Base_PS = (struct anonymous$7 *)return_value_calloc$1;
-    if(Base_PS == ((struct anonymous$7 *)NULL))
+    *NewArea_PPS = (struct anonymous_7 *)(void *)0;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_7) /*56ul*/ );
+    Base_PS = (struct anonymous_7 *)return_value_calloc_1;
+    if(Base_PS == ((struct anonymous_7 *)NULL))
       return 5;
 
     else
@@ -2210,36 +2210,36 @@ signed int JAM_OpenMB(unsigned char *Basename_PC, struct anonymous$7 **NewArea_P
 
 // JAM_PutSubfield
 // file jamlib/jam.h line 325
-signed int JAM_PutSubfield(struct anonymous$8 *SubPack_PS, struct anonymous$6 *Field_PS)
+signed int JAM_PutSubfield(struct anonymous_8 *SubPack_PS, struct anonymous_6 *Field_PS)
 {
-  struct anonymous$6 *NewField_PS;
+  struct anonymous_6 *NewField_PS;
   unsigned char *NewBuf_PC;
   if(SubPack_PS->NumFields == SubPack_PS->NumAlloc)
   {
-    struct anonymous$6 **Fields_PPS;
+    struct anonymous_6 **Fields_PPS;
     SubPack_PS->NumAlloc = SubPack_PS->NumAlloc * (unsigned long int)2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)SubPack_PS->Fields, SubPack_PS->NumAlloc * sizeof(struct anonymous$6 *) /*8ul*/ );
-    Fields_PPS = (struct anonymous$6 **)return_value_realloc$1;
-    if(Fields_PPS == ((struct anonymous$6 **)NULL))
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)SubPack_PS->Fields, SubPack_PS->NumAlloc * sizeof(struct anonymous_6 *) /*8ul*/ );
+    Fields_PPS = (struct anonymous_6 **)return_value_realloc_1;
+    if(Fields_PPS == ((struct anonymous_6 **)NULL))
       return 5;
 
     SubPack_PS->Fields = Fields_PPS;
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct anonymous$6) /*24ul*/ );
-  NewField_PS = (struct anonymous$6 *)return_value_malloc$2;
-  if(NewField_PS == ((struct anonymous$6 *)NULL))
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct anonymous_6) /*24ul*/ );
+  NewField_PS = (struct anonymous_6 *)return_value_malloc_2;
+  if(NewField_PS == ((struct anonymous_6 *)NULL))
     return 5;
 
   else
   {
     if(!(Field_PS->DatLen == 0ul))
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(Field_PS->DatLen);
-      NewBuf_PC = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(Field_PS->DatLen);
+      NewBuf_PC = (unsigned char *)return_value_malloc_3;
       if(NewBuf_PC == ((unsigned char *)NULL))
       {
         free((void *)NewField_PS);
@@ -2263,40 +2263,40 @@ signed int JAM_PutSubfield(struct anonymous$8 *SubPack_PS, struct anonymous$6 *F
 
 // JAM_ReadLastRead
 // file lastread.c line 49
-signed int JAM_ReadLastRead(struct anonymous$7 *Base_PS, unsigned long int User_I, struct anonymous$2 *Record_PS)
+signed int JAM_ReadLastRead(struct anonymous_7 *Base_PS, unsigned long int User_I, struct anonymous_2 *Record_PS)
 {
-  struct anonymous$2 Record_S;
+  struct anonymous_2 Record_S;
   signed int Pos_I;
-  if(Record_PS == ((struct anonymous$2 *)NULL))
+  if(Record_PS == ((struct anonymous_2 *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_fseek$2;
-    return_value_fseek$2=fseek(Base_PS->LrdFile_PS, (signed long int)0, 0);
-    if(!(return_value_fseek$2 == 0))
+    signed int return_value_fseek_2;
+    return_value_fseek_2=fseek(Base_PS->LrdFile_PS, (signed long int)0, 0);
+    if(!(return_value_fseek_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_1;
       return 2;
     }
 
     Pos_I = 0;
     do
     {
-      signed int return_value_freadjamlastread$5;
-      return_value_freadjamlastread$5=freadjamlastread(Base_PS->LrdFile_PS, &Record_S);
-      if(!(return_value_freadjamlastread$5 >= 1))
+      signed int return_value_freadjamlastread_5;
+      return_value_freadjamlastread_5=freadjamlastread(Base_PS->LrdFile_PS, &Record_S);
+      if(!(return_value_freadjamlastread_5 >= 1))
       {
-        signed int return_value_feof$3;
-        return_value_feof$3=feof(Base_PS->LrdFile_PS);
-        if(!(return_value_feof$3 == 0))
+        signed int return_value_feof_3;
+        return_value_feof_3=feof(Base_PS->LrdFile_PS);
+        if(!(return_value_feof_3 == 0))
           return 6;
 
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$4;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_4;
         return 2;
       }
 
@@ -2317,30 +2317,30 @@ signed int JAM_ReadLastRead(struct anonymous$7 *Base_PS, unsigned long int User_
 
 // JAM_ReadMBHeader
 // file jamlib/jam.h line 259
-signed int JAM_ReadMBHeader(struct anonymous$7 *Base_PS, struct anonymous$4 *Header_PS)
+signed int JAM_ReadMBHeader(struct anonymous_7 *Base_PS, struct anonymous_4 *Header_PS)
 {
-  if(Base_PS == ((struct anonymous$7 *)NULL) || Header_PS == ((struct anonymous$4 *)NULL))
+  if(Base_PS == ((struct anonymous_7 *)NULL) || Header_PS == ((struct anonymous_4 *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_fseek$2;
-    return_value_fseek$2=fseek(Base_PS->HdrFile_PS, (signed long int)0, 0);
-    if(!(return_value_fseek$2 == 0))
+    signed int return_value_fseek_2;
+    return_value_fseek_2=fseek(Base_PS->HdrFile_PS, (signed long int)0, 0);
+    if(!(return_value_fseek_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_1;
       return 2;
     }
 
-    signed int return_value_freadjambaseheader$4;
-    return_value_freadjambaseheader$4=freadjambaseheader(Base_PS->HdrFile_PS, Header_PS);
-    if(!(return_value_freadjambaseheader$4 >= 1))
+    signed int return_value_freadjambaseheader_4;
+    return_value_freadjambaseheader_4=freadjambaseheader(Base_PS->HdrFile_PS, Header_PS);
+    if(!(return_value_freadjambaseheader_4 >= 1))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_3;
       return 2;
     }
 
@@ -2350,32 +2350,32 @@ signed int JAM_ReadMBHeader(struct anonymous$7 *Base_PS, struct anonymous$4 *Hea
 
 // JAM_ReadMsgHeader
 // file jamlib/jam.h line 275
-signed int JAM_ReadMsgHeader(struct anonymous$7 *Base_PS, unsigned long int MsgNo_I, struct anonymous$5 *Header_PS, struct anonymous$8 **SubfieldPack_PPS)
+signed int JAM_ReadMsgHeader(struct anonymous_7 *Base_PS, unsigned long int MsgNo_I, struct anonymous_5 *Header_PS, struct anonymous_8 **SubfieldPack_PPS)
 {
   struct anonymous Index_S;
-  _Bool tmp_if_expr$12;
-  if(Base_PS == ((struct anonymous$7 *)NULL) || Header_PS == ((struct anonymous$5 *)NULL))
+  _Bool tmp_if_expr_12;
+  if(Base_PS == ((struct anonymous_7 *)NULL) || Header_PS == ((struct anonymous_5 *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_fseek$2;
-    return_value_fseek$2=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
-    if(!(return_value_fseek$2 == 0))
+    signed int return_value_fseek_2;
+    return_value_fseek_2=fseek(Base_PS->IdxFile_PS, (signed long int)(MsgNo_I * sizeof(struct anonymous) /*16ul*/ ), 0);
+    if(!(return_value_fseek_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_1;
       return 2;
     }
 
-    signed int return_value_freadjamindex$4;
-    return_value_freadjamindex$4=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
-    if(!(return_value_freadjamindex$4 >= 1))
+    signed int return_value_freadjamindex_4;
+    return_value_freadjamindex_4=freadjamindex(Base_PS->IdxFile_PS, &Index_S);
+    if(!(return_value_freadjamindex_4 >= 1))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_3;
       return 2;
     }
 
@@ -2384,58 +2384,58 @@ signed int JAM_ReadMsgHeader(struct anonymous$7 *Base_PS, unsigned long int MsgN
 
     else
     {
-      signed int return_value_fseek$6;
-      return_value_fseek$6=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
-      if(!(return_value_fseek$6 == 0))
+      signed int return_value_fseek_6;
+      return_value_fseek_6=fseek(Base_PS->HdrFile_PS, (signed long int)Index_S.HdrOffset, 0);
+      if(!(return_value_fseek_6 == 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_5;
         return 2;
       }
 
-      signed int return_value_freadjammsgheader$8;
-      return_value_freadjammsgheader$8=freadjammsgheader(Base_PS->HdrFile_PS, Header_PS);
-      if(!(return_value_freadjammsgheader$8 >= 1))
+      signed int return_value_freadjammsgheader_8;
+      return_value_freadjammsgheader_8=freadjammsgheader(Base_PS->HdrFile_PS, Header_PS);
+      if(!(return_value_freadjammsgheader_8 >= 1))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$7;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_7;
         return 2;
       }
 
-      if(!(SubfieldPack_PPS == ((struct anonymous$8 **)NULL)))
-        tmp_if_expr$12 = Header_PS->SubfieldLen != 0ul ? (_Bool)1 : (_Bool)0;
+      if(!(SubfieldPack_PPS == ((struct anonymous_8 **)NULL)))
+        tmp_if_expr_12 = Header_PS->SubfieldLen != 0ul ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = (_Bool)0;
+      if(tmp_if_expr_12)
       {
-        struct anonymous$8 *SubPacket_PS;
-        struct anonymous$6 Subfield_S;
+        struct anonymous_8 *SubPacket_PS;
+        struct anonymous_6 Subfield_S;
         char *Buf_PC;
         char *Ptr_PC;
         char *Roof_PC;
         signed int BufSize_I = (signed int)Header_PS->SubfieldLen;
-        void *return_value_malloc$9;
-        return_value_malloc$9=malloc((unsigned long int)BufSize_I);
-        Buf_PC = (char *)(void *)return_value_malloc$9;
+        void *return_value_malloc_9;
+        return_value_malloc_9=malloc((unsigned long int)BufSize_I);
+        Buf_PC = (char *)(void *)return_value_malloc_9;
         if(Buf_PC == ((char *)NULL))
           return 5;
 
-        unsigned long int return_value_fread$11;
-        return_value_fread$11=fread((void *)Buf_PC, (unsigned long int)BufSize_I, (unsigned long int)1, Base_PS->HdrFile_PS);
-        if(!(return_value_fread$11 >= 1ul))
+        unsigned long int return_value_fread_11;
+        return_value_fread_11=fread((void *)Buf_PC, (unsigned long int)BufSize_I, (unsigned long int)1, Base_PS->HdrFile_PS);
+        if(!(return_value_fread_11 >= 1ul))
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$10;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_10;
           free((void *)Buf_PC);
           return 2;
         }
 
         SubPacket_PS=JAM_NewSubPacket();
-        if(SubPacket_PS == ((struct anonymous$8 *)NULL))
+        if(SubPacket_PS == ((struct anonymous_8 *)NULL))
         {
           free((void *)Buf_PC);
           return 5;
@@ -2468,7 +2468,7 @@ signed int JAM_ReadMsgHeader(struct anonymous$7 *Base_PS, unsigned long int MsgN
       }
 
       else
-        if(!(SubfieldPack_PPS == ((struct anonymous$8 **)NULL)))
+        if(!(SubfieldPack_PPS == ((struct anonymous_8 **)NULL)))
           *SubfieldPack_PPS=JAM_NewSubPacket();
 
       return 0;
@@ -2478,9 +2478,9 @@ signed int JAM_ReadMsgHeader(struct anonymous$7 *Base_PS, unsigned long int MsgN
 
 // JAM_ReadMsgText
 // file jamlib/jam.h line 280
-signed int JAM_ReadMsgText(struct anonymous$7 *Base_PS, unsigned long int Offset_I, unsigned long int Length_I, unsigned char *Buffer_PC)
+signed int JAM_ReadMsgText(struct anonymous_7 *Base_PS, unsigned long int Offset_I, unsigned long int Length_I, unsigned char *Buffer_PC)
 {
-  if(Base_PS == ((struct anonymous$7 *)NULL) || Buffer_PC == ((unsigned char *)NULL))
+  if(Base_PS == ((struct anonymous_7 *)NULL) || Buffer_PC == ((unsigned char *)NULL))
     return 1;
 
   else
@@ -2489,23 +2489,23 @@ signed int JAM_ReadMsgText(struct anonymous$7 *Base_PS, unsigned long int Offset
 
     else
     {
-      signed int return_value_fseek$2;
-      return_value_fseek$2=fseek(Base_PS->TxtFile_PS, (signed long int)Offset_I, 0);
-      if(!(return_value_fseek$2 == 0))
+      signed int return_value_fseek_2;
+      return_value_fseek_2=fseek(Base_PS->TxtFile_PS, (signed long int)Offset_I, 0);
+      if(!(return_value_fseek_2 == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_1;
         return 2;
       }
 
-      unsigned long int return_value_fread$4;
-      return_value_fread$4=fread((void *)Buffer_PC, Length_I, (unsigned long int)1, Base_PS->TxtFile_PS);
-      if(!(return_value_fread$4 >= 1ul))
+      unsigned long int return_value_fread_4;
+      return_value_fread_4=fread((void *)Buffer_PC, Length_I, (unsigned long int)1, Base_PS->TxtFile_PS);
+      if(!(return_value_fread_4 >= 1ul))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_3;
         return 2;
       }
 
@@ -2515,65 +2515,65 @@ signed int JAM_ReadMsgText(struct anonymous$7 *Base_PS, unsigned long int Offset
 
 // JAM_RemoveMB
 // file mbase.c line 222
-signed int JAM_RemoveMB(struct anonymous$7 *Base_PS, unsigned char *Basename_PC)
+signed int JAM_RemoveMB(struct anonymous_7 *Base_PS, unsigned char *Basename_PC)
 {
   unsigned char Filename_AC[250l];
   signed int Status_AI[4l];
   sprintf((char *)Filename_AC, "%s%s", Basename_PC, (const void *)".jhr");
   Status_AI[(signed long int)0]=remove((const char *)Filename_AC);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(Status_AI[0l] == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_1;
   }
 
   sprintf((char *)Filename_AC, "%s%s", Basename_PC, (const void *)".jdt");
   Status_AI[(signed long int)1]=remove((const char *)Filename_AC);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(Status_AI[1l] == 0))
   {
-    return_value___errno_location$2=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_2;
   }
 
   sprintf((char *)Filename_AC, "%s%s", Basename_PC, (const void *)".jdx");
   Status_AI[(signed long int)2]=remove((const char *)Filename_AC);
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(!(Status_AI[2l] == 0))
   {
-    return_value___errno_location$3=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$3;
+    return_value___errno_location_3=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_3;
   }
 
   sprintf((char *)Filename_AC, "%s%s", Basename_PC, (const void *)".jlr");
   Status_AI[(signed long int)3]=remove((const char *)Filename_AC);
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   if(!(Status_AI[3l] == 0))
   {
-    return_value___errno_location$4=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$4;
+    return_value___errno_location_4=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_4;
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(Status_AI[0l] == 0))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = Status_AI[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = Status_AI[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = Status_AI[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = Status_AI[(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = Status_AI[(signed long int)3] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = Status_AI[(signed long int)3] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_7)
     return 2;
 
   else
@@ -2582,70 +2582,70 @@ signed int JAM_RemoveMB(struct anonymous$7 *Base_PS, unsigned char *Basename_PC)
 
 // JAM_UnlockMB
 // file jamlib/jam.h line 257
-signed int JAM_UnlockMB(struct anonymous$7 *Base_PS)
+signed int JAM_UnlockMB(struct anonymous_7 *Base_PS)
 {
   fflush(Base_PS->HdrFile_PS);
   fflush(Base_PS->TxtFile_PS);
   fflush(Base_PS->IdxFile_PS);
   fflush(Base_PS->LrdFile_PS);
-  signed int return_value_jam_Lock$1;
-  return_value_jam_Lock$1=jam_Lock(Base_PS, 0);
-  return return_value_jam_Lock$1;
+  signed int return_value_jam_Lock_1;
+  return_value_jam_Lock_1=jam_Lock(Base_PS, 0);
+  return return_value_jam_Lock_1;
 }
 
 // JAM_WriteLastRead
 // file lastread.c line 89
-signed int JAM_WriteLastRead(struct anonymous$7 *Base_PS, unsigned long int User_I, struct anonymous$2 *Record_PS)
+signed int JAM_WriteLastRead(struct anonymous_7 *Base_PS, unsigned long int User_I, struct anonymous_2 *Record_PS)
 {
-  struct anonymous$2 Record_S;
+  struct anonymous_2 Record_S;
   signed int Pos_I;
-  if(Record_PS == ((struct anonymous$2 *)NULL))
+  if(Record_PS == ((struct anonymous_2 *)NULL))
     return 1;
 
   else
   {
     if(User_I == Base_PS->LastUserId_I)
     {
-      Pos_I = (signed int)(Base_PS->LastUserPos_I * sizeof(struct anonymous$2) /*32ul*/ );
-      signed int return_value_fseek$2;
-      return_value_fseek$2=fseek(Base_PS->LrdFile_PS, (signed long int)Pos_I, 0);
-      if(!(return_value_fseek$2 == 0))
+      Pos_I = (signed int)(Base_PS->LastUserPos_I * sizeof(struct anonymous_2) /*32ul*/ );
+      signed int return_value_fseek_2;
+      return_value_fseek_2=fseek(Base_PS->LrdFile_PS, (signed long int)Pos_I, 0);
+      if(!(return_value_fseek_2 == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_1;
         return 2;
       }
 
-      signed int return_value_freadjamlastread$4;
-      return_value_freadjamlastread$4=freadjamlastread(Base_PS->LrdFile_PS, &Record_S);
-      if(!(return_value_freadjamlastread$4 >= 1))
+      signed int return_value_freadjamlastread_4;
+      return_value_freadjamlastread_4=freadjamlastread(Base_PS->LrdFile_PS, &Record_S);
+      if(!(return_value_freadjamlastread_4 >= 1))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_3;
         return 2;
       }
 
       if(User_I == Record_S.UserID)
       {
-        signed int return_value_fseek$6;
-        return_value_fseek$6=fseek(Base_PS->LrdFile_PS, (signed long int)Pos_I, 0);
-        if(!(return_value_fseek$6 == 0))
+        signed int return_value_fseek_6;
+        return_value_fseek_6=fseek(Base_PS->LrdFile_PS, (signed long int)Pos_I, 0);
+        if(!(return_value_fseek_6 == 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$5;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_5;
           return 2;
         }
 
-        signed int return_value_fwritejamlastread$8;
-        return_value_fwritejamlastread$8=fwritejamlastread(Base_PS->LrdFile_PS, Record_PS);
-        if(!(return_value_fwritejamlastread$8 >= 1))
+        signed int return_value_fwritejamlastread_8;
+        return_value_fwritejamlastread_8=fwritejamlastread(Base_PS->LrdFile_PS, Record_PS);
+        if(!(return_value_fwritejamlastread_8 >= 1))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$7;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_7;
           return 2;
         }
 
@@ -2655,55 +2655,55 @@ signed int JAM_WriteLastRead(struct anonymous$7 *Base_PS, unsigned long int User
 
     }
 
-    signed int return_value_fseek$10;
-    return_value_fseek$10=fseek(Base_PS->LrdFile_PS, (signed long int)0, 0);
-    if(!(return_value_fseek$10 == 0))
+    signed int return_value_fseek_10;
+    return_value_fseek_10=fseek(Base_PS->LrdFile_PS, (signed long int)0, 0);
+    if(!(return_value_fseek_10 == 0))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$9;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_9;
       return 2;
     }
 
     Pos_I = 0;
     do
     {
-      signed int return_value_freadjamlastread$15;
-      return_value_freadjamlastread$15=freadjamlastread(Base_PS->LrdFile_PS, &Record_S);
-      if(!(return_value_freadjamlastread$15 >= 1))
+      signed int return_value_freadjamlastread_15;
+      return_value_freadjamlastread_15=freadjamlastread(Base_PS->LrdFile_PS, &Record_S);
+      if(!(return_value_freadjamlastread_15 >= 1))
       {
-        signed int return_value_feof$13;
-        return_value_feof$13=feof(Base_PS->LrdFile_PS);
-        if(!(return_value_feof$13 == 0))
+        signed int return_value_feof_13;
+        return_value_feof_13=feof(Base_PS->LrdFile_PS);
+        if(!(return_value_feof_13 == 0))
         {
-          signed int return_value_fseek$12;
-          return_value_fseek$12=fseek(Base_PS->LrdFile_PS, (signed long int)0, 2);
-          if(!(return_value_fseek$12 == 0))
+          signed int return_value_fseek_12;
+          return_value_fseek_12=fseek(Base_PS->LrdFile_PS, (signed long int)0, 2);
+          if(!(return_value_fseek_12 == 0))
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            Base_PS->Errno_I = *return_value___errno_location$11;
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            Base_PS->Errno_I = *return_value___errno_location_11;
             return 2;
           }
 
           break;
         }
 
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$14;
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_14;
         return 2;
       }
 
       if(Record_S.UserID == User_I)
       {
-        signed int return_value_fseek$17;
-        return_value_fseek$17=fseek(Base_PS->LrdFile_PS, (signed long int)((unsigned long int)Pos_I * sizeof(struct anonymous$2) /*32ul*/ ), 0);
-        if(!(return_value_fseek$17 == 0))
+        signed int return_value_fseek_17;
+        return_value_fseek_17=fseek(Base_PS->LrdFile_PS, (signed long int)((unsigned long int)Pos_I * sizeof(struct anonymous_2) /*32ul*/ ), 0);
+        if(!(return_value_fseek_17 == 0))
         {
-          signed int *return_value___errno_location$16;
-          return_value___errno_location$16=__errno_location();
-          Base_PS->Errno_I = *return_value___errno_location$16;
+          signed int *return_value___errno_location_16;
+          return_value___errno_location_16=__errno_location();
+          Base_PS->Errno_I = *return_value___errno_location_16;
           return 2;
         }
 
@@ -2713,13 +2713,13 @@ signed int JAM_WriteLastRead(struct anonymous$7 *Base_PS, unsigned long int User
       Pos_I = Pos_I + 1;
     }
     while((_Bool)1);
-    signed int return_value_fwritejamlastread$19;
-    return_value_fwritejamlastread$19=fwritejamlastread(Base_PS->LrdFile_PS, Record_PS);
-    if(!(return_value_fwritejamlastread$19 >= 1))
+    signed int return_value_fwritejamlastread_19;
+    return_value_fwritejamlastread_19=fwritejamlastread(Base_PS->LrdFile_PS, Record_PS);
+    if(!(return_value_fwritejamlastread_19 >= 1))
     {
-      signed int *return_value___errno_location$18;
-      return_value___errno_location$18=__errno_location();
-      Base_PS->Errno_I = *return_value___errno_location$18;
+      signed int *return_value___errno_location_18;
+      return_value___errno_location_18=__errno_location();
+      Base_PS->Errno_I = *return_value___errno_location_18;
       return 2;
     }
 
@@ -2730,9 +2730,9 @@ signed int JAM_WriteLastRead(struct anonymous$7 *Base_PS, unsigned long int User
 
 // JAM_WriteMBHeader
 // file mbase.c line 372
-signed int JAM_WriteMBHeader(struct anonymous$7 *Base_PS, struct anonymous$4 *Header_PS)
+signed int JAM_WriteMBHeader(struct anonymous_7 *Base_PS, struct anonymous_4 *Header_PS)
 {
-  if(Base_PS == ((struct anonymous$7 *)NULL) || Header_PS == ((struct anonymous$4 *)NULL))
+  if(Base_PS == ((struct anonymous_7 *)NULL) || Header_PS == ((struct anonymous_4 *)NULL))
     return 1;
 
   else
@@ -2741,25 +2741,25 @@ signed int JAM_WriteMBHeader(struct anonymous$7 *Base_PS, struct anonymous$4 *He
 
     else
     {
-      signed int return_value_fseek$2;
-      return_value_fseek$2=fseek(Base_PS->HdrFile_PS, (signed long int)0, 0);
-      if(!(return_value_fseek$2 == 0))
+      signed int return_value_fseek_2;
+      return_value_fseek_2=fseek(Base_PS->HdrFile_PS, (signed long int)0, 0);
+      if(!(return_value_fseek_2 == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_1;
         return 2;
       }
 
       memcpy((void *)Header_PS->Signature, (const void *)"JAM\0", (unsigned long int)4);
       Header_PS->ModCounter = Header_PS->ModCounter + 1ul;
-      signed int return_value_fwritejambaseheader$4;
-      return_value_fwritejambaseheader$4=fwritejambaseheader(Base_PS->HdrFile_PS, Header_PS);
-      if(!(return_value_fwritejambaseheader$4 >= 1))
+      signed int return_value_fwritejambaseheader_4;
+      return_value_fwritejambaseheader_4=fwritejambaseheader(Base_PS->HdrFile_PS, Header_PS);
+      if(!(return_value_fwritejambaseheader_4 >= 1))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        Base_PS->Errno_I = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        Base_PS->Errno_I = *return_value___errno_location_3;
         return 2;
       }
 
@@ -2770,9 +2770,9 @@ signed int JAM_WriteMBHeader(struct anonymous$7 *Base_PS, struct anonymous$4 *He
 
 // addjamfield
 // file nntpserv.c line 1467
-void addjamfield(struct anonymous$8 *SubPacket_PS, unsigned long int fieldnum, unsigned char *fielddata)
+void addjamfield(struct anonymous_8 *SubPacket_PS, unsigned long int fieldnum, unsigned char *fielddata)
 {
-  struct anonymous$6 Subfield_S;
+  struct anonymous_6 Subfield_S;
   Subfield_S.LoID = (unsigned short int)fieldnum;
   Subfield_S.HiID = (unsigned short int)0;
   Subfield_S.DatLen=strlen((const char *)fielddata);
@@ -2785,9 +2785,9 @@ void addjamfield(struct anonymous$8 *SubPacket_PS, unsigned long int fieldnum, u
 struct sockio * allocsockio(signed int socket)
 {
   struct sockio *sio;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct sockio) /*1036ul*/ );
-  sio = (struct sockio *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct sockio) /*1036ul*/ );
+  sio = (struct sockio *)return_value_malloc_1;
   if(sio == ((struct sockio *)NULL))
     return (struct sockio *)(void *)0;
 
@@ -2810,46 +2810,46 @@ void cancelmessage(struct var *var, unsigned char *article, struct xlat *postxla
   unsigned long int num;
   unsigned long int count;
   signed int res;
-  struct anonymous$4 baseheader;
-  struct anonymous$8 *subpack;
-  struct anonymous$5 header;
-  struct anonymous$6 *field;
+  struct anonymous_4 baseheader;
+  struct anonymous_8 *subpack;
+  struct anonymous_5 header;
+  struct anonymous_6 *field;
   struct xlat *xlat;
   unsigned char *xlatres;
   unsigned char buf[100l];
   unsigned char fromname[100l];
   unsigned char chrs[20l];
   unsigned char codepage[20l];
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!((signed int)*article == 60))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen((const char *)article);
-    tmp_if_expr$2 = (signed int)article[(signed long int)(return_value_strlen$1 - (unsigned long int)1)] != 62 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen((const char *)article);
+    tmp_if_expr_2 = (signed int)article[(signed long int)(return_value_strlen_1 - (unsigned long int)1)] != 62 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_matchgroup$8;
-  signed int return_value_strcasecmp$7;
-  unsigned long int tmp_if_expr$13;
-  unsigned long int tmp_if_expr$14;
-  char *return_value_strchr$15;
-  if(tmp_if_expr$2)
+  signed int return_value_matchgroup_8;
+  signed int return_value_strcasecmp_7;
+  unsigned long int tmp_if_expr_13;
+  unsigned long int tmp_if_expr_14;
+  char *return_value_strchr_15;
+  if(tmp_if_expr_2)
     socksendtext(var, (unsigned char *)"441 POST failed (Article to cancel not found)\r\n");
 
   else
   {
     strcpy((char *)article, (const char *)&article[(signed long int)1]);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen((const char *)article);
-    article[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (unsigned char)0;
-    char *return_value_strchr$4;
-    return_value_strchr$4=strchr((const char *)article, 64);
-    at = (unsigned char *)return_value_strchr$4;
-    char *return_value_strchr$5;
-    return_value_strchr$5=strchr((const char *)article, 36);
-    pc = (unsigned char *)return_value_strchr$5;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen((const char *)article);
+    article[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (unsigned char)0;
+    char *return_value_strchr_4;
+    return_value_strchr_4=strchr((const char *)article, 64);
+    at = (unsigned char *)return_value_strchr_4;
+    char *return_value_strchr_5;
+    return_value_strchr_5=strchr((const char *)article, 36);
+    pc = (unsigned char *)return_value_strchr_5;
     if(at == ((unsigned char *)NULL) || pc == ((unsigned char *)NULL))
       socksendtext(var, (unsigned char *)"441 POST failed (Article to cancel not found)\r\n");
 
@@ -2859,9 +2859,9 @@ void cancelmessage(struct var *var, unsigned char *article, struct xlat *postxla
       *pc = (unsigned char)0;
       at = at + 1l;
       pc = pc + 1l;
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp((const char *)at, "JamNNTPd");
-      if(!(return_value_strcmp$6 == 0))
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp((const char *)at, "JamNNTPd");
+      if(!(return_value_strcmp_6 == 0))
         socksendtext(var, (unsigned char *)"441 POST failed (Article to cancel not found)\r\n");
 
       else
@@ -2869,36 +2869,36 @@ void cancelmessage(struct var *var, unsigned char *article, struct xlat *postxla
         group = var->firstgroup;
         for( ; !(group == ((struct group *)NULL)); group = group->next)
         {
-          return_value_matchgroup$8=matchgroup(var->readgroups, group->group);
-          if(!(return_value_matchgroup$8 == 0))
+          return_value_matchgroup_8=matchgroup(var->readgroups, group->group);
+          if(!(return_value_matchgroup_8 == 0))
           {
-            return_value_strcasecmp$7=strcasecmp((const char *)pc, (const char *)group->tagname);
-            if(return_value_strcasecmp$7 == 0)
+            return_value_strcasecmp_7=strcasecmp((const char *)pc, (const char *)group->tagname);
+            if(return_value_strcasecmp_7 == 0)
               break;
 
           }
 
         }
-        signed int return_value_strcmp$9;
-        return_value_strcmp$9=strcmp((const char *)at, "JamNNTPd");
-        if(!(return_value_strcmp$9 == 0))
+        signed int return_value_strcmp_9;
+        return_value_strcmp_9=strcmp((const char *)at, "JamNNTPd");
+        if(!(return_value_strcmp_9 == 0))
           socksendtext(var, (unsigned char *)"441 POST failed (Article to cancel not found)\r\n");
 
         else
         {
-          signed long int return_value_atol$10;
-          return_value_atol$10=atol((const char *)article);
-          num = (unsigned long int)return_value_atol$10;
-          signed int return_value_jamopenarea$11;
-          return_value_jamopenarea$11=jamopenarea(var, group);
-          if(return_value_jamopenarea$11 == 0)
+          signed long int return_value_atol_10;
+          return_value_atol_10=atol((const char *)article);
+          num = (unsigned long int)return_value_atol_10;
+          signed int return_value_jamopenarea_11;
+          return_value_jamopenarea_11=jamopenarea(var, group);
+          if(return_value_jamopenarea_11 == 0)
             socksendtext(var, (unsigned char *)"441 POST failed (Article to cancel not found)\r\n");
 
           else
           {
-            signed int return_value_JAM_ReadMBHeader$12;
-            return_value_JAM_ReadMBHeader$12=JAM_ReadMBHeader(var->openmb, &baseheader);
-            if(!(return_value_JAM_ReadMBHeader$12 == 0))
+            signed int return_value_JAM_ReadMBHeader_12;
+            return_value_JAM_ReadMBHeader_12=JAM_ReadMBHeader(var->openmb, &baseheader);
+            if(!(return_value_JAM_ReadMBHeader_12 == 0))
             {
               os_logwrite((unsigned char *)"(%s) Could not read messagebase header of \"%s\"", (const void *)var->clientid, (const void *)group->jampath);
               socksendtext(var, (unsigned char *)"441 POST failed (Could not read message to cancel)\r\n");
@@ -2930,51 +2930,51 @@ void cancelmessage(struct var *var, unsigned char *article, struct xlat *postxla
                   do
                   {
                     field=JAM_GetSubfield_R(subpack, &count);
-                    if(field == ((struct anonymous$6 *)NULL))
+                    if(field == ((struct anonymous_6 *)NULL))
                       break;
 
                     if((signed int)field->LoID == 2)
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$13 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_13 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$13 = (unsigned long int)100;
-                      mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr$13);
+                        tmp_if_expr_13 = (unsigned long int)100;
+                      mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr_13);
                     }
 
                     if((signed int)field->LoID == 2000)
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$14 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_14 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$14 = (unsigned long int)100;
-                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$14);
-                      signed int return_value_strncasecmp$17;
-                      return_value_strncasecmp$17=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
-                      if(return_value_strncasecmp$17 == 0)
+                        tmp_if_expr_14 = (unsigned long int)100;
+                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_14);
+                      signed int return_value_strncasecmp_17;
+                      return_value_strncasecmp_17=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
+                      if(return_value_strncasecmp_17 == 0)
                       {
                         mystrncpy(chrs, &buf[(signed long int)6], (signed long int)20);
-                        char *return_value_strchr$16;
-                        return_value_strchr$16=strchr((const char *)chrs, 32);
-                        if(!(return_value_strchr$16 == ((char *)NULL)))
+                        char *return_value_strchr_16;
+                        return_value_strchr_16=strchr((const char *)chrs, 32);
+                        if(!(return_value_strchr_16 == ((char *)NULL)))
                         {
-                          return_value_strchr$15=strchr((const char *)chrs, 32);
-                          *return_value_strchr$15 = (char)0;
+                          return_value_strchr_15=strchr((const char *)chrs, 32);
+                          *return_value_strchr_15 = (char)0;
                         }
 
                         strip(chrs);
                       }
 
-                      signed int return_value_strncasecmp$18;
-                      return_value_strncasecmp$18=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
-                      if(return_value_strncasecmp$18 == 0)
+                      signed int return_value_strncasecmp_18;
+                      return_value_strncasecmp_18=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
+                      if(return_value_strncasecmp_18 == 0)
                         mystrncpy(chrs, &buf[(signed long int)9], (signed long int)20);
 
-                      signed int return_value_strncasecmp$19;
-                      return_value_strncasecmp$19=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
-                      if(return_value_strncasecmp$19 == 0)
+                      signed int return_value_strncasecmp_19;
+                      return_value_strncasecmp_19=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
+                      if(return_value_strncasecmp_19 == 0)
                         mystrncpy(codepage, &buf[(signed long int)10], (signed long int)20);
 
                     }
@@ -2997,9 +2997,9 @@ void cancelmessage(struct var *var, unsigned char *article, struct xlat *postxla
 
                   }
 
-                  signed int return_value_matchname$20;
-                  return_value_matchname$20=matchname(var->realnames, fromname);
-                  if(return_value_matchname$20 == 0)
+                  signed int return_value_matchname_20;
+                  return_value_matchname_20=matchname(var->realnames, fromname);
+                  if(return_value_matchname_20 == 0)
                   {
                     socksendtext(var, (unsigned char *)"441 POST failed (Cannot cancel, message not from you)\r\n");
                     JAM_DelSubPacket(subpack);
@@ -3028,9 +3028,9 @@ void cancelmessage(struct var *var, unsigned char *article, struct xlat *postxla
 
                         else
                         {
-                          signed int return_value_JAM_LockMB$21;
-                          return_value_JAM_LockMB$21=JAM_LockMB(var->openmb, 10);
-                          if(!(return_value_JAM_LockMB$21 == 0))
+                          signed int return_value_JAM_LockMB_21;
+                          return_value_JAM_LockMB_21=JAM_LockMB(var->openmb, 10);
+                          if(!(return_value_JAM_LockMB_21 == 0))
                           {
                             os_logwrite((unsigned char *)"(%s) Failed to lock JAM messagebase \"%s\"", (const void *)var->clientid, (const void *)group->jampath);
                             socksendtext(var, (unsigned char *)"441 Local error: Failed to lock messagebase\r\n");
@@ -3084,7 +3084,7 @@ signed int checkallow(struct var *var, unsigned char *ip)
   unsigned long int pos;
   unsigned long int line;
   fp=fopen((const char *)cfg_allowfile, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     os_logwrite((unsigned char *)"(%s) Can't read allow file %s", (const void *)var->clientid, cfg_allowfile);
@@ -3096,8 +3096,8 @@ signed int checkallow(struct var *var, unsigned char *ip)
     line = (unsigned long int)0;
     do
     {
-      return_value_fgets$1=fgets((char *)s, 999, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets((char *)s, 999, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       line = line + 1ul;
@@ -3112,9 +3112,9 @@ signed int checkallow(struct var *var, unsigned char *ip)
           res3=getcfgword(s, &pos, cfgpostgroups, (unsigned long int)50);
           if(!(res1 == 0))
           {
-            signed int return_value_matchpattern$2;
-            return_value_matchpattern$2=matchpattern(cfgip, ip);
-            if(!(return_value_matchpattern$2 == 0))
+            signed int return_value_matchpattern_2;
+            return_value_matchpattern_2=matchpattern(cfgip, ip);
+            if(!(return_value_matchpattern_2 == 0))
             {
               if(!(res2 == 0))
                 strcpy((char *)var->readgroups, (const char *)cfgreadgroups);
@@ -3160,9 +3160,9 @@ unsigned char chsgetbyte(struct var *var, unsigned char *filename, unsigned char
 
       if((signed int)buf[1l] == 100)
       {
-        signed int return_value_atoi$1;
-        return_value_atoi$1=atoi((const char *)&buf[(signed long int)2]);
-        return (unsigned char)return_value_atoi$1;
+        signed int return_value_atoi_1;
+        return_value_atoi_1=atoi((const char *)&buf[(signed long int)2]);
+        return (unsigned char)return_value_atoi_1;
       }
 
       if((signed int)buf[1l] == 120)
@@ -3177,9 +3177,9 @@ unsigned char chsgetbyte(struct var *var, unsigned char *filename, unsigned char
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen((const char *)buf);
-      if(return_value_strlen$2 >= 2ul)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen((const char *)buf);
+      if(return_value_strlen_2 >= 2ul)
         os_logwrite((unsigned char *)"(%s) Warning: Too long byte string %s in %s", (const void *)var->clientid, buf, filename);
 
       return buf[(signed long int)0];
@@ -3192,9 +3192,9 @@ signed int chsgetline(struct _IO_FILE *fp, unsigned char *str, unsigned long int
 {
   do
   {
-    char *return_value_fgets$1;
-    return_value_fgets$1=fgets((char *)str, (signed int)len, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    char *return_value_fgets_1;
+    return_value_fgets_1=fgets((char *)str, (signed int)len, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       return 0;
 
     if(!((signed int)*str == 59))
@@ -3209,11 +3209,11 @@ signed int chsgetline(struct _IO_FILE *fp, unsigned char *str, unsigned long int
 signed int chsgetword(unsigned char *line, unsigned long int *pos, unsigned char *dest, unsigned long int destlen)
 {
   unsigned long int begin;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0)
       break;
 
     if((signed int)line[(signed long int)*pos] == 0)
@@ -3222,7 +3222,7 @@ signed int chsgetword(unsigned char *line, unsigned long int *pos, unsigned char
     *pos = *pos + 1ul;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   if((signed int)line[(signed long int)*pos] == 0)
     return 0;
 
@@ -3231,8 +3231,8 @@ signed int chsgetword(unsigned char *line, unsigned long int *pos, unsigned char
     begin = *pos;
     for( ; !((signed int)line[(signed long int)*pos] == 0); *pos = *pos + 1ul)
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0))
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0))
         break;
 
     }
@@ -3257,7 +3257,7 @@ void command_abhs(struct var *var, unsigned char *cmd)
   unsigned long int min;
   unsigned long int max;
   unsigned long int num;
-  unsigned long int command_abhs$$1$$c;
+  unsigned long int command_abhs__1__c;
   unsigned long int d;
   unsigned char datebuf[50l];
   unsigned char jamfromaddr[100l];
@@ -3278,18 +3278,18 @@ void command_abhs(struct var *var, unsigned char *cmd)
   unsigned char *text;
   struct xlat *xlat;
   unsigned char *xlatres;
-  struct anonymous$4 baseheader;
-  struct anonymous$8 *subpack;
-  struct anonymous$5 header;
-  struct anonymous$6 *field;
+  struct anonymous_4 baseheader;
+  struct anonymous_8 *subpack;
+  struct anonymous_5 header;
+  struct anonymous_6 *field;
   signed int res;
   unsigned long int count;
   article=parseinput(var);
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_strlen$11;
-  signed int return_value_matchgroup$6;
-  signed int return_value_strcasecmp$5;
-  signed long int return_value_atol$10;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_strlen_11;
+  signed int return_value_matchgroup_6;
+  signed int return_value_strcasecmp_5;
+  signed long int return_value_atol_10;
   if(article == ((unsigned char *)NULL))
   {
     if(var->currentgroup == ((struct group *)NULL))
@@ -3312,24 +3312,24 @@ void command_abhs(struct var *var, unsigned char *cmd)
   {
     if((signed int)*article == 60)
     {
-      return_value_strlen$11=strlen((const char *)article);
-      tmp_if_expr$12 = (signed int)article[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] == 62 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_11=strlen((const char *)article);
+      tmp_if_expr_12 = (signed int)article[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] == 62 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
     {
       strcpy((char *)article, (const char *)&article[(signed long int)1]);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen((const char *)article);
-      article[(signed long int)(return_value_strlen$1 - (unsigned long int)1)] = (unsigned char)0;
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr((const char *)article, 64);
-      at = (unsigned char *)return_value_strchr$2;
-      char *return_value_strchr$3;
-      return_value_strchr$3=strchr((const char *)article, 36);
-      pc = (unsigned char *)return_value_strchr$3;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen((const char *)article);
+      article[(signed long int)(return_value_strlen_1 - (unsigned long int)1)] = (unsigned char)0;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr((const char *)article, 64);
+      at = (unsigned char *)return_value_strchr_2;
+      char *return_value_strchr_3;
+      return_value_strchr_3=strchr((const char *)article, 36);
+      pc = (unsigned char *)return_value_strchr_3;
       if(at == ((unsigned char *)NULL) || pc == ((unsigned char *)NULL))
       {
         socksendtext(var, (unsigned char *)"430 No such article found\r\n");
@@ -3340,9 +3340,9 @@ void command_abhs(struct var *var, unsigned char *cmd)
       *pc = (unsigned char)0;
       at = at + 1l;
       pc = pc + 1l;
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp((const char *)at, "JamNNTPd");
-      if(!(return_value_strcmp$4 == 0))
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp((const char *)at, "JamNNTPd");
+      if(!(return_value_strcmp_4 == 0))
       {
         socksendtext(var, (unsigned char *)"430 No such article found\r\n");
         goto __CPROVER_DUMP_L136;
@@ -3351,11 +3351,11 @@ void command_abhs(struct var *var, unsigned char *cmd)
       group = var->firstgroup;
       for( ; !(group == ((struct group *)NULL)); group = group->next)
       {
-        return_value_matchgroup$6=matchgroup(var->readgroups, group->group);
-        if(!(return_value_matchgroup$6 == 0))
+        return_value_matchgroup_6=matchgroup(var->readgroups, group->group);
+        if(!(return_value_matchgroup_6 == 0))
         {
-          return_value_strcasecmp$5=strcasecmp((const char *)pc, (const char *)group->tagname);
-          if(return_value_strcasecmp$5 == 0)
+          return_value_strcasecmp_5=strcasecmp((const char *)pc, (const char *)group->tagname);
+          if(return_value_strcasecmp_5 == 0)
             break;
 
         }
@@ -3367,9 +3367,9 @@ void command_abhs(struct var *var, unsigned char *cmd)
         goto __CPROVER_DUMP_L136;
       }
 
-      signed long int return_value_atol$7;
-      return_value_atol$7=atol((const char *)article);
-      articlenum = (unsigned long int)return_value_atol$7;
+      signed long int return_value_atol_7;
+      return_value_atol_7=atol((const char *)article);
+      articlenum = (unsigned long int)return_value_atol_7;
       jamgetminmaxnum(var, group, &min, &max, &num);
       if(!(articlenum >= min) || !(max >= articlenum))
       {
@@ -3381,8 +3381,8 @@ void command_abhs(struct var *var, unsigned char *cmd)
 
     else
     {
-      return_value_atol$10=atol((const char *)article);
-      if(return_value_atol$10 >= 1l)
+      return_value_atol_10=atol((const char *)article);
+      if(return_value_atol_10 >= 1l)
       {
         if(var->currentgroup == ((struct group *)NULL))
         {
@@ -3390,13 +3390,13 @@ void command_abhs(struct var *var, unsigned char *cmd)
           goto __CPROVER_DUMP_L136;
         }
 
-        signed long int return_value_atol$8;
-        return_value_atol$8=atol((const char *)article);
-        articlenum = (unsigned long int)return_value_atol$8;
+        signed long int return_value_atol_8;
+        return_value_atol_8=atol((const char *)article);
+        articlenum = (unsigned long int)return_value_atol_8;
         group = var->currentgroup;
-        signed int return_value_jamgetminmaxnum$9;
-        return_value_jamgetminmaxnum$9=jamgetminmaxnum(var, var->currentgroup, &min, &max, &num);
-        if(return_value_jamgetminmaxnum$9 == 0)
+        signed int return_value_jamgetminmaxnum_9;
+        return_value_jamgetminmaxnum_9=jamgetminmaxnum(var, var->currentgroup, &min, &max, &num);
+        if(return_value_jamgetminmaxnum_9 == 0)
         {
           socksendtext(var, (unsigned char *)"503 Local error: Could not get size of messagebase\r\n");
           goto __CPROVER_DUMP_L136;
@@ -3419,56 +3419,56 @@ void command_abhs(struct var *var, unsigned char *cmd)
       }
     }
   }
-  signed int return_value_strcasecmp$13;
-  return_value_strcasecmp$13=strcasecmp((const char *)cmd, "STAT");
-  unsigned long int tmp_if_expr$17;
-  unsigned long int tmp_if_expr$18;
-  unsigned long int tmp_if_expr$19;
-  unsigned long int tmp_if_expr$20;
-  unsigned long int tmp_if_expr$21;
-  unsigned long int tmp_if_expr$22;
-  unsigned long int tmp_if_expr$23;
-  signed int return_value_strncasecmp$24;
-  signed int return_value_strncasecmp$25;
-  signed int return_value_strncasecmp$26;
-  signed int return_value_strncasecmp$27;
-  signed int return_value_strncasecmp$30;
-  char *return_value_strchr$28;
-  signed int return_value_strncasecmp$31;
-  signed int return_value_strncasecmp$32;
-  signed int return_value_matchname$33;
-  _Bool tmp_if_expr$53;
-  signed int return_value_strcasecmp$52;
-  signed int return_value_sscanf$38;
-  _Bool tmp_if_expr$40;
-  unsigned long int tmp_if_expr$41;
-  unsigned long int tmp_if_expr$42;
-  unsigned long int tmp_if_expr$43;
-  unsigned long int tmp_if_expr$44;
-  unsigned long int tmp_if_expr$45;
-  unsigned long int tmp_if_expr$46;
-  unsigned long int tmp_if_expr$47;
-  unsigned long int tmp_if_expr$48;
-  unsigned long int tmp_if_expr$49;
-  _Bool tmp_if_expr$59;
-  signed int return_value_strcasecmp$58;
-  _Bool tmp_if_expr$56;
-  unsigned long int tmp_post$55;
-  if(return_value_strcasecmp$13 == 0)
-    sockprintf(var, (unsigned char *)"223 %lu <%lu$%s@JamNNTPd> Article retrieved\r\n", articlenum, articlenum, (const void *)group->tagname);
+  signed int return_value_strcasecmp_13;
+  return_value_strcasecmp_13=strcasecmp((const char *)cmd, "STAT");
+  unsigned long int tmp_if_expr_17;
+  unsigned long int tmp_if_expr_18;
+  unsigned long int tmp_if_expr_19;
+  unsigned long int tmp_if_expr_20;
+  unsigned long int tmp_if_expr_21;
+  unsigned long int tmp_if_expr_22;
+  unsigned long int tmp_if_expr_23;
+  signed int return_value_strncasecmp_24;
+  signed int return_value_strncasecmp_25;
+  signed int return_value_strncasecmp_26;
+  signed int return_value_strncasecmp_27;
+  signed int return_value_strncasecmp_30;
+  char *return_value_strchr_28;
+  signed int return_value_strncasecmp_31;
+  signed int return_value_strncasecmp_32;
+  signed int return_value_matchname_33;
+  _Bool tmp_if_expr_53;
+  signed int return_value_strcasecmp_52;
+  signed int return_value_sscanf_38;
+  _Bool tmp_if_expr_40;
+  unsigned long int tmp_if_expr_41;
+  unsigned long int tmp_if_expr_42;
+  unsigned long int tmp_if_expr_43;
+  unsigned long int tmp_if_expr_44;
+  unsigned long int tmp_if_expr_45;
+  unsigned long int tmp_if_expr_46;
+  unsigned long int tmp_if_expr_47;
+  unsigned long int tmp_if_expr_48;
+  unsigned long int tmp_if_expr_49;
+  _Bool tmp_if_expr_59;
+  signed int return_value_strcasecmp_58;
+  _Bool tmp_if_expr_56;
+  unsigned long int tmp_post_55;
+  if(return_value_strcasecmp_13 == 0)
+    sockprintf(var, (unsigned char *)"223 %lu <%lu_%s@JamNNTPd> Article retrieved\r\n", articlenum, articlenum, (const void *)group->tagname);
 
   else
   {
-    signed int return_value_jamopenarea$14;
-    return_value_jamopenarea$14=jamopenarea(var, group);
-    if(return_value_jamopenarea$14 == 0)
+    signed int return_value_jamopenarea_14;
+    return_value_jamopenarea_14=jamopenarea(var, group);
+    if(return_value_jamopenarea_14 == 0)
       socksendtext(var, (unsigned char *)"503 Local error: Could not open messagebase\r\n");
 
     else
     {
-      signed int return_value_JAM_ReadMBHeader$15;
-      return_value_JAM_ReadMBHeader$15=JAM_ReadMBHeader(var->openmb, &baseheader);
-      if(!(return_value_JAM_ReadMBHeader$15 == 0))
+      signed int return_value_JAM_ReadMBHeader_15;
+      return_value_JAM_ReadMBHeader_15=JAM_ReadMBHeader(var->openmb, &baseheader);
+      if(!(return_value_JAM_ReadMBHeader_15 == 0))
       {
         os_logwrite((unsigned char *)"(%s) Could not read messagebase header of \"%s\"", (const void *)var->clientid, (const void *)var->opengroup->jampath);
         socksendtext(var, (unsigned char *)"503 Local error: Could not read messagebase header\r\n");
@@ -3493,9 +3493,9 @@ void command_abhs(struct var *var, unsigned char *cmd)
 
           else
           {
-            void *return_value_malloc$16;
-            return_value_malloc$16=malloc(header.TxtLen + (unsigned long int)1);
-            text = (unsigned char *)return_value_malloc$16;
+            void *return_value_malloc_16;
+            return_value_malloc_16=malloc(header.TxtLen + (unsigned long int)1);
+            text = (unsigned char *)return_value_malloc_16;
             if(text == ((unsigned char *)NULL))
             {
               socksendtext(var, (unsigned char *)"503 Local error: Out of memory\r\n");
@@ -3533,7 +3533,7 @@ void command_abhs(struct var *var, unsigned char *cmd)
                 do
                 {
                   field=JAM_GetSubfield_R(subpack, &count);
-                  if(field == ((struct anonymous$6 *)NULL))
+                  if(field == ((struct anonymous_6 *)NULL))
                     break;
 
                   switch((signed int)field->LoID)
@@ -3541,111 +3541,111 @@ void command_abhs(struct var *var, unsigned char *cmd)
                     case 2:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$17 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_17 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$17 = (unsigned long int)100;
-                      mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr$17);
+                        tmp_if_expr_17 = (unsigned long int)100;
+                      mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr_17);
                       break;
                     }
                     case 3:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$18 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_18 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$18 = (unsigned long int)100;
-                      mystrncpy(toname, field->Buffer, (signed long int)tmp_if_expr$18);
+                        tmp_if_expr_18 = (unsigned long int)100;
+                      mystrncpy(toname, field->Buffer, (signed long int)tmp_if_expr_18);
                       break;
                     }
                     case 0:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$19 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_19 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$19 = (unsigned long int)100;
-                      mystrncpy(jamfromaddr, field->Buffer, (signed long int)tmp_if_expr$19);
+                        tmp_if_expr_19 = (unsigned long int)100;
+                      mystrncpy(jamfromaddr, field->Buffer, (signed long int)tmp_if_expr_19);
                       break;
                     }
                     case 1:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$20 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_20 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$20 = (unsigned long int)100;
-                      mystrncpy(jamtoaddr, field->Buffer, (signed long int)tmp_if_expr$20);
+                        tmp_if_expr_20 = (unsigned long int)100;
+                      mystrncpy(jamtoaddr, field->Buffer, (signed long int)tmp_if_expr_20);
                       break;
                     }
                     case 6:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$21 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_21 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$21 = (unsigned long int)100;
-                      mystrncpy(subject, field->Buffer, (signed long int)tmp_if_expr$21);
+                        tmp_if_expr_21 = (unsigned long int)100;
+                      mystrncpy(subject, field->Buffer, (signed long int)tmp_if_expr_21);
                       break;
                     }
                     case 2004:
                     {
                       if(!(1ul + field->DatLen >= 20ul))
-                        tmp_if_expr$22 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_22 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$22 = (unsigned long int)20;
-                      mystrncpy(timezone, field->Buffer, (signed long int)tmp_if_expr$22);
+                        tmp_if_expr_22 = (unsigned long int)20;
+                      mystrncpy(timezone, field->Buffer, (signed long int)tmp_if_expr_22);
                       break;
                     }
                     case 2000:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$23 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_23 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$23 = (unsigned long int)100;
-                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$23);
-                      return_value_strncasecmp$24=strncasecmp((const char *)buf, "REPLYADDR ", (unsigned long int)10);
-                      if(return_value_strncasecmp$24 == 0)
+                        tmp_if_expr_23 = (unsigned long int)100;
+                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_23);
+                      return_value_strncasecmp_24=strncasecmp((const char *)buf, "REPLYADDR ", (unsigned long int)10);
+                      if(return_value_strncasecmp_24 == 0)
                         mystrncpy(replyaddr, &buf[(signed long int)10], (signed long int)100);
 
-                      return_value_strncasecmp$25=strncasecmp((const char *)buf, "REPLYADDR: ", (unsigned long int)11);
-                      if(return_value_strncasecmp$25 == 0)
+                      return_value_strncasecmp_25=strncasecmp((const char *)buf, "REPLYADDR: ", (unsigned long int)11);
+                      if(return_value_strncasecmp_25 == 0)
                         mystrncpy(replyaddr, &buf[(signed long int)11], (signed long int)100);
 
-                      return_value_strncasecmp$26=strncasecmp((const char *)buf, "TZUTC: ", (unsigned long int)7);
-                      if(return_value_strncasecmp$26 == 0)
+                      return_value_strncasecmp_26=strncasecmp((const char *)buf, "TZUTC: ", (unsigned long int)7);
+                      if(return_value_strncasecmp_26 == 0)
                         mystrncpy(timezone, &buf[(signed long int)7], (signed long int)20);
 
-                      return_value_strncasecmp$27=strncasecmp((const char *)buf, "TZUTCINFO: ", (unsigned long int)11);
-                      if(return_value_strncasecmp$27 == 0)
+                      return_value_strncasecmp_27=strncasecmp((const char *)buf, "TZUTCINFO: ", (unsigned long int)11);
+                      if(return_value_strncasecmp_27 == 0)
                         mystrncpy(timezone, &buf[(signed long int)11], (signed long int)20);
 
-                      return_value_strncasecmp$30=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
-                      if(return_value_strncasecmp$30 == 0)
+                      return_value_strncasecmp_30=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
+                      if(return_value_strncasecmp_30 == 0)
                       {
                         mystrncpy(chrs, &buf[(signed long int)6], (signed long int)20);
-                        char *return_value_strchr$29;
-                        return_value_strchr$29=strchr((const char *)chrs, 32);
-                        if(!(return_value_strchr$29 == ((char *)NULL)))
+                        char *return_value_strchr_29;
+                        return_value_strchr_29=strchr((const char *)chrs, 32);
+                        if(!(return_value_strchr_29 == ((char *)NULL)))
                         {
-                          return_value_strchr$28=strchr((const char *)chrs, 32);
-                          *return_value_strchr$28 = (char)0;
+                          return_value_strchr_28=strchr((const char *)chrs, 32);
+                          *return_value_strchr_28 = (char)0;
                         }
 
                         strip(chrs);
                       }
 
-                      return_value_strncasecmp$31=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
-                      if(return_value_strncasecmp$31 == 0)
+                      return_value_strncasecmp_31=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
+                      if(return_value_strncasecmp_31 == 0)
                       {
                         mystrncpy(chrs, &buf[(signed long int)9], (signed long int)20);
                         strip(chrs);
                       }
 
-                      return_value_strncasecmp$32=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
-                      if(return_value_strncasecmp$32 == 0)
+                      return_value_strncasecmp_32=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
+                      if(return_value_strncasecmp_32 == 0)
                       {
                         mystrncpy(codepage, &buf[(signed long int)10], (signed long int)20);
                         strip(codepage);
@@ -3704,12 +3704,12 @@ void command_abhs(struct var *var, unsigned char *cmd)
 
                 if(!(group->netmail == 0))
                 {
-                  signed int return_value_matchname$34;
-                  return_value_matchname$34=matchname(var->realnames, fromname);
-                  if(return_value_matchname$34 == 0)
+                  signed int return_value_matchname_34;
+                  return_value_matchname_34=matchname(var->realnames, fromname);
+                  if(return_value_matchname_34 == 0)
                   {
-                    return_value_matchname$33=matchname(var->realnames, toname);
-                    if(return_value_matchname$33 == 0)
+                    return_value_matchname_33=matchname(var->realnames, toname);
+                    if(return_value_matchname_33 == 0)
                     {
                       socksendtext(var, (unsigned char *)"503 Access denied\r\n");
                       JAM_DelSubPacket(subpack);
@@ -3721,32 +3721,32 @@ void command_abhs(struct var *var, unsigned char *cmd)
 
                 }
 
-                signed int return_value_strcasecmp$35;
-                return_value_strcasecmp$35=strcasecmp((const char *)cmd, "ARTICLE");
-                if(return_value_strcasecmp$35 == 0)
-                  sockprintf(var, (unsigned char *)"220 %ld <%ld$%s@JamNNTPd> Article retrieved - Head and body follow\r\n", articlenum, articlenum, (const void *)group->tagname);
+                signed int return_value_strcasecmp_35;
+                return_value_strcasecmp_35=strcasecmp((const char *)cmd, "ARTICLE");
+                if(return_value_strcasecmp_35 == 0)
+                  sockprintf(var, (unsigned char *)"220 %ld <%ld_%s@JamNNTPd> Article retrieved - Head and body follow\r\n", articlenum, articlenum, (const void *)group->tagname);
 
-                signed int return_value_strcasecmp$36;
-                return_value_strcasecmp$36=strcasecmp((const char *)cmd, "HEAD");
-                if(return_value_strcasecmp$36 == 0)
-                  sockprintf(var, (unsigned char *)"221 %ld <%ld$%s@JamNNTPd> Article retrieved - Head follows\r\n", articlenum, articlenum, (const void *)group->tagname);
+                signed int return_value_strcasecmp_36;
+                return_value_strcasecmp_36=strcasecmp((const char *)cmd, "HEAD");
+                if(return_value_strcasecmp_36 == 0)
+                  sockprintf(var, (unsigned char *)"221 %ld <%ld_%s@JamNNTPd> Article retrieved - Head follows\r\n", articlenum, articlenum, (const void *)group->tagname);
 
-                signed int return_value_strcasecmp$37;
-                return_value_strcasecmp$37=strcasecmp((const char *)cmd, "BODY");
-                if(return_value_strcasecmp$37 == 0)
-                  sockprintf(var, (unsigned char *)"222 %ld <%ld$%s@JamNNTPd> Article retrieved - Body follows\r\n", articlenum, articlenum, (const void *)group->tagname);
+                signed int return_value_strcasecmp_37;
+                return_value_strcasecmp_37=strcasecmp((const char *)cmd, "BODY");
+                if(return_value_strcasecmp_37 == 0)
+                  sockprintf(var, (unsigned char *)"222 %ld <%ld_%s@JamNNTPd> Article retrieved - Body follows\r\n", articlenum, articlenum, (const void *)group->tagname);
 
-                signed int return_value_strcasecmp$51;
-                return_value_strcasecmp$51=strcasecmp((const char *)cmd, "ARTICLE");
-                if(return_value_strcasecmp$51 == 0)
-                  tmp_if_expr$53 = (_Bool)1;
+                signed int return_value_strcasecmp_51;
+                return_value_strcasecmp_51=strcasecmp((const char *)cmd, "ARTICLE");
+                if(return_value_strcasecmp_51 == 0)
+                  tmp_if_expr_53 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcasecmp$52=strcasecmp((const char *)cmd, "HEAD");
-                  tmp_if_expr$53 = return_value_strcasecmp$52 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcasecmp_52=strcasecmp((const char *)cmd, "HEAD");
+                  tmp_if_expr_53 = return_value_strcasecmp_52 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$53)
+                if(tmp_if_expr_53)
                 {
                   if(!(replyaddr[0l] == 0))
                     strcpy((char *)fromaddr, (const char *)replyaddr);
@@ -3773,15 +3773,15 @@ void command_abhs(struct var *var, unsigned char *cmd)
                   unsigned int net;
                   unsigned int node;
                   unsigned int point;
-                  signed int return_value_sscanf$39;
-                  return_value_sscanf$39=sscanf((const char *)fromaddr, "%u:%u/%u.%u", &zone, &net, &node, &point);
-                  if(return_value_sscanf$39 == 4)
+                  signed int return_value_sscanf_39;
+                  return_value_sscanf_39=sscanf((const char *)fromaddr, "%u:%u/%u.%u", &zone, &net, &node, &point);
+                  if(return_value_sscanf_39 == 4)
                     sprintf((char *)fromaddr, "%u@%u.%u.%u", point, node, net, zone);
 
                   else
                   {
-                    return_value_sscanf$38=sscanf((const char *)fromaddr, "%u:%u/%u", &zone, &net, &node);
-                    if(return_value_sscanf$38 == 3)
+                    return_value_sscanf_38=sscanf((const char *)fromaddr, "%u:%u/%u", &zone, &net, &node);
+                    if(return_value_sscanf_38 == 3)
                       sprintf((char *)fromaddr, "0@%u.%u.%u", node, net, zone);
 
                   }
@@ -3790,9 +3790,9 @@ void command_abhs(struct var *var, unsigned char *cmd)
                   sockprintf(var, (unsigned char *)"Newsgroups: %s\r\n", (const void *)group->tagname);
                   mimesendheaderline(var, (unsigned char *)"Subject", subject, chrs, (unsigned char *)(void *)0, cfg_noencode);
                   sockprintf(var, (unsigned char *)"Date: %s\r\n", (const void *)datebuf);
-                  sockprintf(var, (unsigned char *)"Message-ID: <%ld$%s@JamNNTPd>\r\n", articlenum, (const void *)group->tagname);
+                  sockprintf(var, (unsigned char *)"Message-ID: <%ld_%s@JamNNTPd>\r\n", articlenum, (const void *)group->tagname);
                   if(!(header.ReplyTo == 0ul))
-                    sockprintf(var, (unsigned char *)"References: <%ld$%s@JamNNTPd>\r\n", header.ReplyTo, (const void *)group->tagname);
+                    sockprintf(var, (unsigned char *)"References: <%ld_%s@JamNNTPd>\r\n", header.ReplyTo, (const void *)group->tagname);
 
                   if(!(jamfromaddr[0l] == 0))
                     sockprintf(var, (unsigned char *)"X-JAM-From: %s <%s>\r\n", (const void *)fromname, (const void *)jamfromaddr);
@@ -3800,11 +3800,11 @@ void command_abhs(struct var *var, unsigned char *cmd)
                   else
                     sockprintf(var, (unsigned char *)"X-JAM-From: %s\r\n", (const void *)fromname);
                   if(!(toname[0l] == 0))
-                    tmp_if_expr$40 = (_Bool)1;
+                    tmp_if_expr_40 = (_Bool)1;
 
                   else
-                    tmp_if_expr$40 = jamtoaddr[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$40)
+                    tmp_if_expr_40 = jamtoaddr[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_40)
                   {
                     if(!(jamtoaddr[0l] == 0))
                       sockprintf(var, (unsigned char *)"X-JAM-To: %s <%s>\r\n", (const void *)toname, (const void *)jamtoaddr);
@@ -3817,7 +3817,7 @@ void command_abhs(struct var *var, unsigned char *cmd)
                   do
                   {
                     field=JAM_GetSubfield_R(subpack, &count);
-                    if(field == ((struct anonymous$6 *)NULL))
+                    if(field == ((struct anonymous_6 *)NULL))
                       break;
 
                     switch((signed int)field->LoID)
@@ -3825,99 +3825,99 @@ void command_abhs(struct var *var, unsigned char *cmd)
                       case 4:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$41 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_41 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$41 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$41);
+                          tmp_if_expr_41 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_41);
                         sockprintf(var, (unsigned char *)"X-JAM-MSGID: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 5:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$42 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_42 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$42 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$42);
+                          tmp_if_expr_42 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_42);
                         sockprintf(var, (unsigned char *)"X-JAM-REPLYID: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 7:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$43 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_43 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$43 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$43);
+                          tmp_if_expr_43 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_43);
                         sockprintf(var, (unsigned char *)"X-JAM-PID: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 2003:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$44 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_44 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$44 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$44);
+                          tmp_if_expr_44 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_44);
                         sockprintf(var, (unsigned char *)"X-JAM-FLAGS: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 8:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$45 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_45 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$45 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$45);
+                          tmp_if_expr_45 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_45);
                         sockprintf(var, (unsigned char *)"X-JAM-TRACE: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 2004:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$46 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_46 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$46 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$46);
+                          tmp_if_expr_46 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_46);
                         sockprintf(var, (unsigned char *)"X-JAM-TZUTCINFO: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 2001:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$47 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_47 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$47 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$47);
+                          tmp_if_expr_47 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_47);
                         sockprintf(var, (unsigned char *)"X-JAM-SEENBY2D: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 2002:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$48 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_48 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$48 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$48);
+                          tmp_if_expr_48 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_48);
                         sockprintf(var, (unsigned char *)"X-JAM-PATH2D: %s\r\n", (const void *)buf);
                         break;
                       }
                       case 2000:
                       {
                         if(!(1ul + field->DatLen >= 200ul))
-                          tmp_if_expr$49 = field->DatLen + (unsigned long int)1;
+                          tmp_if_expr_49 = field->DatLen + (unsigned long int)1;
 
                         else
-                          tmp_if_expr$49 = (unsigned long int)200;
-                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$49);
+                          tmp_if_expr_49 = (unsigned long int)200;
+                        mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_49);
                         sockprintf(var, (unsigned char *)"X-JAM-FTSKLUDGE: %s\r\n", (const void *)buf);
                       }
                     }
@@ -3940,9 +3940,9 @@ void command_abhs(struct var *var, unsigned char *cmd)
                   }
 
                   socksendtext(var, (unsigned char *)"MIME-Version: 1.0\r\n");
-                  unsigned long int return_value_count8bit$50;
-                  return_value_count8bit$50=count8bit(text);
-                  if(!(return_value_count8bit$50 == 0ul))
+                  unsigned long int return_value_count8bit_50;
+                  return_value_count8bit_50=count8bit(text);
+                  if(!(return_value_count8bit_50 == 0ul))
                     strcpy((char *)encoding, "8bit");
 
                   else
@@ -3959,40 +3959,40 @@ void command_abhs(struct var *var, unsigned char *cmd)
                   sockprintf(var, (unsigned char *)"Content-Transfer-Encoding: %s\r\n", (const void *)encoding);
                 }
 
-                signed int return_value_strcasecmp$54;
-                return_value_strcasecmp$54=strcasecmp((const char *)cmd, "ARTICLE");
-                if(return_value_strcasecmp$54 == 0)
+                signed int return_value_strcasecmp_54;
+                return_value_strcasecmp_54=strcasecmp((const char *)cmd, "ARTICLE");
+                if(return_value_strcasecmp_54 == 0)
                   socksendtext(var, (unsigned char *)"\r\n");
 
-                signed int return_value_strcasecmp$57;
-                return_value_strcasecmp$57=strcasecmp((const char *)cmd, "ARTICLE");
-                if(return_value_strcasecmp$57 == 0)
-                  tmp_if_expr$59 = (_Bool)1;
+                signed int return_value_strcasecmp_57;
+                return_value_strcasecmp_57=strcasecmp((const char *)cmd, "ARTICLE");
+                if(return_value_strcasecmp_57 == 0)
+                  tmp_if_expr_59 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcasecmp$58=strcasecmp((const char *)cmd, "BODY");
-                  tmp_if_expr$59 = return_value_strcasecmp$58 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcasecmp_58=strcasecmp((const char *)cmd, "BODY");
+                  tmp_if_expr_59 = return_value_strcasecmp_58 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$59)
+                if(tmp_if_expr_59)
                 {
                   if(!(header.TxtLen == 0ul))
                   {
                     if(!(xlat == ((struct xlat *)NULL)))
-                      tmp_if_expr$56 = xlat->keepsoftcr != 0 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_56 = xlat->keepsoftcr != 0 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$56 = (_Bool)0;
-                    if(!tmp_if_expr$56)
+                      tmp_if_expr_56 = (_Bool)0;
+                    if(!tmp_if_expr_56)
                     {
                       d = (unsigned long int)0;
-                      command_abhs$$1$$c = (unsigned long int)0;
-                      for( ; !(text[(signed long int)command_abhs$$1$$c] == 0); command_abhs$$1$$c = command_abhs$$1$$c + 1ul)
-                        if(!((signed int)text[(signed long int)command_abhs$$1$$c] == 0x8d))
+                      command_abhs__1__c = (unsigned long int)0;
+                      for( ; !(text[(signed long int)command_abhs__1__c] == 0); command_abhs__1__c = command_abhs__1__c + 1ul)
+                        if(!((signed int)text[(signed long int)command_abhs__1__c] == 0x8d))
                         {
-                          tmp_post$55 = d;
+                          tmp_post_55 = d;
                           d = d + 1ul;
-                          text[(signed long int)tmp_post$55] = text[(signed long int)command_abhs$$1$$c];
+                          text[(signed long int)tmp_post_55] = text[(signed long int)command_abhs__1__c];
                         }
 
                       text[(signed long int)d] = (unsigned char)0;
@@ -4027,19 +4027,19 @@ void command_authinfo(struct var *var)
   signed int flowed;
   signed int showto;
   tmp=parseinput(var);
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strcasecmp$10;
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strcasecmp_10;
   if(tmp == ((unsigned char *)NULL))
     socksendtext(var, (unsigned char *)"501 Only AUTHINFO USER or AUTHINFO pass are understood\r\n");
 
   else
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp((const char *)tmp, "user");
-    if(!(return_value_strcasecmp$2 == 0))
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp((const char *)tmp, "user");
+    if(!(return_value_strcasecmp_2 == 0))
     {
-      return_value_strcasecmp$1=strcasecmp((const char *)tmp, "pass");
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp((const char *)tmp, "pass");
+      if(return_value_strcasecmp_1 == 0)
         goto __CPROVER_DUMP_L2;
 
       socksendtext(var, (unsigned char *)"501 Only AUTHINFO USER or AUTHINFO pass are understood\r\n");
@@ -4050,9 +4050,9 @@ void command_authinfo(struct var *var)
 
     __CPROVER_DUMP_L2:
       ;
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp((const char *)tmp, "user");
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp((const char *)tmp, "user");
+      if(return_value_strcasecmp_3 == 0)
       {
         tmp=parseinput(var);
         if(tmp == ((unsigned char *)NULL))
@@ -4081,31 +4081,31 @@ void command_authinfo(struct var *var)
             opt = (unsigned char *)(void *)0;
             flowed = var->opt_flowed;
             showto = var->opt_showto;
-            char *return_value_strchr$5;
-            return_value_strchr$5=strchr((const char *)var->loginname, 47);
-            if(!(return_value_strchr$5 == ((char *)NULL)))
+            char *return_value_strchr_5;
+            return_value_strchr_5=strchr((const char *)var->loginname, 47);
+            if(!(return_value_strchr_5 == ((char *)NULL)))
             {
-              char *return_value_strchr$4;
-              return_value_strchr$4=strchr((const char *)var->loginname, 47);
-              opt = (unsigned char *)return_value_strchr$4;
+              char *return_value_strchr_4;
+              return_value_strchr_4=strchr((const char *)var->loginname, 47);
+              opt = (unsigned char *)return_value_strchr_4;
               *opt = (unsigned char)0;
               opt = opt + 1l;
             }
 
             while(!(opt == ((unsigned char *)NULL)))
             {
-              char *return_value_strchr$6;
-              return_value_strchr$6=strchr((const char *)opt, 44);
-              next = (unsigned char *)return_value_strchr$6;
+              char *return_value_strchr_6;
+              return_value_strchr_6=strchr((const char *)opt, 44);
+              next = (unsigned char *)return_value_strchr_6;
               if(!(next == ((unsigned char *)NULL)))
               {
                 *next = (unsigned char)0;
                 next = next + 1l;
               }
 
-              char *return_value_strchr$7;
-              return_value_strchr$7=strchr((const char *)opt, 61);
-              equal = (unsigned char *)return_value_strchr$7;
+              char *return_value_strchr_7;
+              return_value_strchr_7=strchr((const char *)opt, 61);
+              equal = (unsigned char *)return_value_strchr_7;
               if(equal == ((unsigned char *)NULL))
               {
                 sockprintf(var, (unsigned char *)"482 Invalid option format %s, use option=on/off\r\n", opt);
@@ -4114,13 +4114,13 @@ void command_authinfo(struct var *var)
 
               *equal = (unsigned char)0;
               equal = equal + 1l;
-              signed int return_value_strcasecmp$11;
-              return_value_strcasecmp$11=strcasecmp((const char *)opt, "flowed");
-              if(return_value_strcasecmp$11 == 0)
+              signed int return_value_strcasecmp_11;
+              return_value_strcasecmp_11=strcasecmp((const char *)opt, "flowed");
+              if(return_value_strcasecmp_11 == 0)
               {
-                signed int return_value_setboolonoff$8;
-                return_value_setboolonoff$8=setboolonoff(equal, &flowed);
-                if(return_value_setboolonoff$8 == 0)
+                signed int return_value_setboolonoff_8;
+                return_value_setboolonoff_8=setboolonoff(equal, &flowed);
+                if(return_value_setboolonoff_8 == 0)
                 {
                   sockprintf(var, (unsigned char *)"482 Unknown setting %s for option %s, use on or off\r\n", equal, opt);
                   goto __CPROVER_DUMP_L19;
@@ -4130,12 +4130,12 @@ void command_authinfo(struct var *var)
 
               else
               {
-                return_value_strcasecmp$10=strcasecmp((const char *)opt, "showto");
-                if(return_value_strcasecmp$10 == 0)
+                return_value_strcasecmp_10=strcasecmp((const char *)opt, "showto");
+                if(return_value_strcasecmp_10 == 0)
                 {
-                  signed int return_value_setboolonoff$9;
-                  return_value_setboolonoff$9=setboolonoff(equal, &showto);
-                  if(return_value_setboolonoff$9 == 0)
+                  signed int return_value_setboolonoff_9;
+                  return_value_setboolonoff_9=setboolonoff(equal, &showto);
+                  if(return_value_setboolonoff_9 == 0)
                   {
                     sockprintf(var, (unsigned char *)"482 Unknown setting %s for option %s, use on or off\r\n", equal, opt);
                     goto __CPROVER_DUMP_L19;
@@ -4153,9 +4153,9 @@ void command_authinfo(struct var *var)
             }
             if(!(var->loginname[0l] == 0))
             {
-              signed int return_value_login$12;
-              return_value_login$12=login(var, var->loginname, var->password);
-              if(return_value_login$12 == 0)
+              signed int return_value_login_12;
+              return_value_login_12=login(var, var->loginname, var->password);
+              if(return_value_login_12 == 0)
               {
                 socksendtext(var, (unsigned char *)"481 Authentication rejected\r\n");
                 goto __CPROVER_DUMP_L19;
@@ -4188,8 +4188,8 @@ void command_group(struct var *var)
   unsigned long int max;
   unsigned long int num;
   groupname=parseinput(var);
-  signed int return_value_matchgroup$2;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_matchgroup_2;
+  signed int return_value_strcasecmp_1;
   if(groupname == ((unsigned char *)NULL))
     socksendtext(var, (unsigned char *)"501 No group specified\r\n");
 
@@ -4198,11 +4198,11 @@ void command_group(struct var *var)
     g = var->firstgroup;
     for( ; !(g == ((struct group *)NULL)); g = g->next)
     {
-      return_value_matchgroup$2=matchgroup(var->readgroups, g->group);
-      if(!(return_value_matchgroup$2 == 0))
+      return_value_matchgroup_2=matchgroup(var->readgroups, g->group);
+      if(!(return_value_matchgroup_2 == 0))
       {
-        return_value_strcasecmp$1=strcasecmp((const char *)g->tagname, (const char *)groupname);
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp((const char *)g->tagname, (const char *)groupname);
+        if(return_value_strcasecmp_1 == 0)
           break;
 
       }
@@ -4213,9 +4213,9 @@ void command_group(struct var *var)
 
     else
     {
-      signed int return_value_jamgetminmaxnum$3;
-      return_value_jamgetminmaxnum$3=jamgetminmaxnum(var, g, &min, &max, &num);
-      if(return_value_jamgetminmaxnum$3 == 0)
+      signed int return_value_jamgetminmaxnum_3;
+      return_value_jamgetminmaxnum_3=jamgetminmaxnum(var, g, &min, &max, &num);
+      if(return_value_jamgetminmaxnum_3 == 0)
         socksendtext(var, (unsigned char *)"503 Local error: Could not get size of messagebase\r\n");
 
       else
@@ -4244,9 +4244,9 @@ void command_last(struct var *var)
 
     else
     {
-      signed int return_value_jamgetminmaxnum$1;
-      return_value_jamgetminmaxnum$1=jamgetminmaxnum(var, var->currentgroup, &min, &max, &num);
-      if(return_value_jamgetminmaxnum$1 == 0)
+      signed int return_value_jamgetminmaxnum_1;
+      return_value_jamgetminmaxnum_1=jamgetminmaxnum(var, var->currentgroup, &min, &max, &num);
+      if(return_value_jamgetminmaxnum_1 == 0)
         socksendtext(var, (unsigned char *)"503 Local error: Could not get size of messagebase\r\n");
 
       else
@@ -4256,7 +4256,7 @@ void command_last(struct var *var)
         else
         {
           var->currentarticle = var->currentarticle - 1ul;
-          sockprintf(var, (unsigned char *)"223 %lu <%lu$%s@JamNNTPd> Article retrieved\r\n", var->currentarticle, var->currentarticle, (const void *)var->currentgroup->tagname);
+          sockprintf(var, (unsigned char *)"223 %lu <%lu_%s@JamNNTPd> Article retrieved\r\n", var->currentarticle, var->currentarticle, (const void *)var->currentgroup->tagname);
         }
     }
 }
@@ -4272,13 +4272,13 @@ void command_list(struct var *var)
   unsigned char *arg;
   signed int listnewsgroups = 0;
   arg=parseinput(var);
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
   if(!(arg == ((unsigned char *)NULL)))
   {
-    signed int return_value_strcasecmp$4;
-    return_value_strcasecmp$4=strcasecmp((const char *)arg, "overview.fmt");
-    if(return_value_strcasecmp$4 == 0)
+    signed int return_value_strcasecmp_4;
+    return_value_strcasecmp_4=strcasecmp((const char *)arg, "overview.fmt");
+    if(return_value_strcasecmp_4 == 0)
     {
       socksendtext(var, (unsigned char *)"215 List of fields in XOVER result\r\n");
       socksendtext(var, (unsigned char *)"Subject:\r\n");
@@ -4294,12 +4294,12 @@ void command_list(struct var *var)
 
     else
     {
-      return_value_strcasecmp$3=strcasecmp((const char *)arg, "newsgroups");
-      if(return_value_strcasecmp$3 == 0)
+      return_value_strcasecmp_3=strcasecmp((const char *)arg, "newsgroups");
+      if(return_value_strcasecmp_3 == 0)
       {
-        unsigned char *return_value_parseinput$1;
-        return_value_parseinput$1=parseinput(var);
-        if(!(return_value_parseinput$1 == ((unsigned char *)NULL)))
+        unsigned char *return_value_parseinput_1;
+        return_value_parseinput_1=parseinput(var);
+        if(!(return_value_parseinput_1 == ((unsigned char *)NULL)))
         {
           socksendtext(var, (unsigned char *)"501 Patterns not supported for LIST NEWSGROUPS\r\n");
           goto __CPROVER_DUMP_L17;
@@ -4310,8 +4310,8 @@ void command_list(struct var *var)
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp((const char *)arg, "active");
-        if(!(return_value_strcasecmp$2 == 0))
+        return_value_strcasecmp_2=strcasecmp((const char *)arg, "active");
+        if(!(return_value_strcasecmp_2 == 0))
         {
           socksendtext(var, (unsigned char *)"501 Unknown argument for LIST command\r\n");
           goto __CPROVER_DUMP_L17;
@@ -4323,48 +4323,48 @@ void command_list(struct var *var)
 
   socksendtext(var, (unsigned char *)"215 List of newsgroups follows\r\n");
   g = var->firstgroup;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_get_server_quit$6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_get_server_quit_6;
   do
   {
     if(!(g == ((struct group *)NULL)))
-      tmp_if_expr$5 = !(var->disconnect != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = !(var->disconnect != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      return_value_get_server_quit$6=get_server_quit();
-      tmp_if_expr$7 = !(return_value_get_server_quit$6 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_get_server_quit_6=get_server_quit();
+      tmp_if_expr_7 = !(return_value_get_server_quit_6 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(!tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(!tmp_if_expr_7)
       break;
 
-    signed int return_value_matchgroup$10;
-    return_value_matchgroup$10=matchgroup(var->readgroups, g->group);
-    if(!(return_value_matchgroup$10 == 0))
+    signed int return_value_matchgroup_10;
+    return_value_matchgroup_10=matchgroup(var->readgroups, g->group);
+    if(!(return_value_matchgroup_10 == 0))
     {
       if(!(listnewsgroups == 0))
         sockprintf(var, (unsigned char *)"%s\t\r\n", (const void *)g->tagname);
 
       else
       {
-        signed int return_value_jamgetminmaxnum$8;
-        return_value_jamgetminmaxnum$8=jamgetminmaxnum(var, g, &min, &max, &num);
-        if(return_value_jamgetminmaxnum$8 == 0)
+        signed int return_value_jamgetminmaxnum_8;
+        return_value_jamgetminmaxnum_8=jamgetminmaxnum(var, g, &min, &max, &num);
+        if(return_value_jamgetminmaxnum_8 == 0)
         {
           min = (unsigned long int)0;
           max = (unsigned long int)0;
           num = (unsigned long int)0;
         }
 
-        signed int return_value_matchgroup$9;
-        return_value_matchgroup$9=matchgroup(var->postgroups, g->group);
-        if(!(return_value_matchgroup$9 == 0))
+        signed int return_value_matchgroup_9;
+        return_value_matchgroup_9=matchgroup(var->postgroups, g->group);
+        if(!(return_value_matchgroup_9 == 0))
           sockprintf(var, (unsigned char *)"%s %lu %lu y\r\n", (const void *)g->tagname, min, max);
 
         else
@@ -4397,9 +4397,9 @@ void command_next(struct var *var)
 
     else
     {
-      signed int return_value_jamgetminmaxnum$1;
-      return_value_jamgetminmaxnum$1=jamgetminmaxnum(var, var->currentgroup, &min, &max, &num);
-      if(return_value_jamgetminmaxnum$1 == 0)
+      signed int return_value_jamgetminmaxnum_1;
+      return_value_jamgetminmaxnum_1=jamgetminmaxnum(var, var->currentgroup, &min, &max, &num);
+      if(return_value_jamgetminmaxnum_1 == 0)
         socksendtext(var, (unsigned char *)"503 Local error: Could not get size of messagebase\r\n");
 
       else
@@ -4409,7 +4409,7 @@ void command_next(struct var *var)
         else
         {
           var->currentarticle = var->currentarticle + 1ul;
-          sockprintf(var, (unsigned char *)"223 %lu <%lu$%s@JamNNTPd> Article retrieved\r\n", var->currentarticle, var->currentarticle, (const void *)var->currentgroup->tagname);
+          sockprintf(var, (unsigned char *)"223 %lu <%lu_%s@JamNNTPd> Article retrieved\r\n", var->currentarticle, var->currentarticle, (const void *)var->currentgroup->tagname);
         }
     }
 }
@@ -4457,8 +4457,8 @@ void command_post(struct var *var)
   unsigned char quotename[100l];
   struct group *g;
   struct xlat *xlat;
-  struct anonymous$8 *SubPacket_PS;
-  struct anonymous$5 Header_S;
+  struct anonymous_8 *SubPacket_PS;
+  struct anonymous_5 Header_S;
   signed long int t1;
   signed long int t2;
   struct tm *tp;
@@ -4469,57 +4469,57 @@ void command_post(struct var *var)
   signed int flowed;
   struct _IO_FILE *fp;
   allocsize = (unsigned long int)(20000 + 500);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(allocsize);
-  text = (unsigned char *)return_value_malloc$1;
-  signed int return_value_get_server_quit$2;
-  signed int return_value_sockreadline$3;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  unsigned long int tmp_post$10;
-  _Bool tmp_if_expr$25;
-  char *return_value_strchr$24;
-  unsigned long int return_value_strlen$20;
-  _Bool tmp_if_expr$22;
-  char *return_value_strchr$21;
-  unsigned long int return_value_strlen$27;
-  signed int return_value_strncasecmp$45;
-  signed int return_value_strncasecmp$44;
-  signed int return_value_strncasecmp$43;
-  signed int return_value_strncasecmp$42;
-  signed int return_value_getcontenttypepart$30;
-  signed int return_value_strcasecmp$31;
-  signed int return_value_strncasecmp$41;
-  signed int return_value_strncasecmp$40;
-  char *return_value_strrchr$34;
-  signed int return_value_strncasecmp$39;
-  signed int return_value_strncasecmp$38;
-  signed int return_value_strncasecmp$37;
-  signed int return_value_strncasecmp$36;
-  signed int return_value_strncmp$47;
-  _Bool tmp_if_expr$49;
-  signed int return_value_strcmp$48;
-  _Bool tmp_if_expr$50;
-  signed int return_value_strcasecmp$52;
-  signed int return_value_strcasecmp$55;
-  signed int return_value_strcasecmp$54;
-  signed int return_value_strcasecmp$53;
-  unsigned long int tmp_post$57;
-  _Bool tmp_if_expr$66;
-  _Bool tmp_if_expr$67;
-  _Bool tmp_if_expr$69;
-  signed int return_value_strncmp$68;
-  unsigned long int tmp_post$59;
-  unsigned long int tmp_post$61;
-  unsigned long int tmp_post$65;
-  unsigned long int tmp_post$70;
-  signed int return_value_strcasecmp$71;
-  _Bool tmp_if_expr$73;
-  unsigned long int tmp_post$76;
-  unsigned long int tmp_post$77;
-  signed int return_value_ispattern$90;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(allocsize);
+  text = (unsigned char *)return_value_malloc_1;
+  signed int return_value_get_server_quit_2;
+  signed int return_value_sockreadline_3;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  unsigned long int tmp_post_10;
+  _Bool tmp_if_expr_25;
+  char *return_value_strchr_24;
+  unsigned long int return_value_strlen_20;
+  _Bool tmp_if_expr_22;
+  char *return_value_strchr_21;
+  unsigned long int return_value_strlen_27;
+  signed int return_value_strncasecmp_45;
+  signed int return_value_strncasecmp_44;
+  signed int return_value_strncasecmp_43;
+  signed int return_value_strncasecmp_42;
+  signed int return_value_getcontenttypepart_30;
+  signed int return_value_strcasecmp_31;
+  signed int return_value_strncasecmp_41;
+  signed int return_value_strncasecmp_40;
+  char *return_value_strrchr_34;
+  signed int return_value_strncasecmp_39;
+  signed int return_value_strncasecmp_38;
+  signed int return_value_strncasecmp_37;
+  signed int return_value_strncasecmp_36;
+  signed int return_value_strncmp_47;
+  _Bool tmp_if_expr_49;
+  signed int return_value_strcmp_48;
+  _Bool tmp_if_expr_50;
+  signed int return_value_strcasecmp_52;
+  signed int return_value_strcasecmp_55;
+  signed int return_value_strcasecmp_54;
+  signed int return_value_strcasecmp_53;
+  unsigned long int tmp_post_57;
+  _Bool tmp_if_expr_66;
+  _Bool tmp_if_expr_67;
+  _Bool tmp_if_expr_69;
+  signed int return_value_strncmp_68;
+  unsigned long int tmp_post_59;
+  unsigned long int tmp_post_61;
+  unsigned long int tmp_post_65;
+  unsigned long int tmp_post_70;
+  signed int return_value_strcasecmp_71;
+  _Bool tmp_if_expr_73;
+  unsigned long int tmp_post_76;
+  unsigned long int tmp_post_77;
+  signed int return_value_ispattern_90;
   if(text == ((unsigned char *)NULL))
     socksendtext(var, (unsigned char *)"503 Out of memory\r\n");
 
@@ -4534,12 +4534,12 @@ void command_post(struct var *var)
       if(!(var->disconnect == 0))
         break;
 
-      return_value_get_server_quit$2=get_server_quit();
-      if(!(return_value_get_server_quit$2 == 0))
+      return_value_get_server_quit_2=get_server_quit();
+      if(!(return_value_get_server_quit_2 == 0))
         break;
 
-      return_value_sockreadline$3=sockreadline(var, line, 1000);
-      if(return_value_sockreadline$3 == 0)
+      return_value_sockreadline_3=sockreadline(var, line, 1000);
+      if(return_value_sockreadline_3 == 0)
         break;
 
       if(!(line[0l] == 0))
@@ -4549,31 +4549,31 @@ void command_post(struct var *var)
 
       }
 
-      signed int return_value_strcasecmp$6;
-      return_value_strcasecmp$6=strcasecmp((const char *)line, ".\r\n");
-      if(return_value_strcasecmp$6 == 0)
+      signed int return_value_strcasecmp_6;
+      return_value_strcasecmp_6=strcasecmp((const char *)line, ".\r\n");
+      if(return_value_strcasecmp_6 == 0)
         finished = 1;
 
       else
       {
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen((const char *)line);
-        if(return_value_strlen$5 + textpos >= 20000ul)
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen((const char *)line);
+        if(return_value_strlen_5 + textpos >= 20000ul)
           toobig = 1;
 
         else
         {
           strcpy((char *)&text[(signed long int)textpos], (const char *)line);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen((const char *)line);
-          textpos = textpos + return_value_strlen$4;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen((const char *)line);
+          textpos = textpos + return_value_strlen_4;
         }
       }
     }
     text[(signed long int)textpos] = (unsigned char)0;
-    signed int return_value_get_server_quit$7;
-    return_value_get_server_quit$7=get_server_quit();
-    if(!(return_value_get_server_quit$7 == 0))
+    signed int return_value_get_server_quit_7;
+    return_value_get_server_quit_7=get_server_quit();
+    if(!(return_value_get_server_quit_7 == 0))
       free((void *)text);
 
     else
@@ -4616,30 +4616,30 @@ void command_post(struct var *var)
             else
             {
               if(c >= 1ul)
-                tmp_if_expr$11 = (signed int)text[(signed long int)(textpos - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = (signed int)text[(signed long int)(textpos - (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              if(tmp_if_expr$11)
-                tmp_if_expr$12 = (signed int)text[(signed long int)textpos] == 10 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = (_Bool)0;
+              if(tmp_if_expr_11)
+                tmp_if_expr_12 = (signed int)text[(signed long int)textpos] == 10 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$12 = (_Bool)0;
-              if(tmp_if_expr$12)
+                tmp_if_expr_12 = (_Bool)0;
+              if(tmp_if_expr_12)
               {
                 if(c >= 2ul)
                 {
                   if((signed int)text[1l + (signed long int)textpos] == 32)
-                    tmp_if_expr$8 = (_Bool)1;
+                    tmp_if_expr_8 = (_Bool)1;
 
                   else
-                    tmp_if_expr$8 = (signed int)text[(signed long int)(textpos + (unsigned long int)1)] == 9 ? (_Bool)1 : (_Bool)0;
-                  tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_8 = (signed int)text[(signed long int)(textpos + (unsigned long int)1)] == 9 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$9 = (_Bool)0;
-                if(tmp_if_expr$9)
+                  tmp_if_expr_9 = (_Bool)0;
+                if(tmp_if_expr_9)
                 {
                   for( ; (_Bool)1; textpos = textpos + 1ul)
                     if(!((signed int)text[1l + (signed long int)textpos] == 32))
@@ -4666,9 +4666,9 @@ void command_post(struct var *var)
               else
                 if(!(c >= 999ul))
                 {
-                  tmp_post$10 = c;
+                  tmp_post_10 = c;
                   c = c + 1ul;
-                  line[(signed long int)tmp_post$10] = text[(signed long int)textpos];
+                  line[(signed long int)tmp_post_10] = text[(signed long int)textpos];
                 }
 
             }
@@ -4677,62 +4677,62 @@ void command_post(struct var *var)
           ;
           line[(signed long int)c] = (unsigned char)0;
           strip(line);
-          signed int return_value_strncasecmp$46;
-          return_value_strncasecmp$46=strncasecmp((const char *)line, "From: ", (unsigned long int)6);
-          if(return_value_strncasecmp$46 == 0)
+          signed int return_value_strncasecmp_46;
+          return_value_strncasecmp_46=strncasecmp((const char *)line, "From: ", (unsigned long int)6);
+          if(return_value_strncasecmp_46 == 0)
           {
-            unsigned long int return_value_strlen$23;
-            return_value_strlen$23=strlen((const char *)line);
-            if((signed int)line[-1l + (signed long int)return_value_strlen$23] == 62)
+            unsigned long int return_value_strlen_23;
+            return_value_strlen_23=strlen((const char *)line);
+            if((signed int)line[-1l + (signed long int)return_value_strlen_23] == 62)
             {
-              return_value_strchr$24=strchr((const char *)line, 60);
-              tmp_if_expr$25 = return_value_strchr$24 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+              return_value_strchr_24=strchr((const char *)line, 60);
+              tmp_if_expr_25 = return_value_strchr_24 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$25 = (_Bool)0;
-            if(tmp_if_expr$25)
+              tmp_if_expr_25 = (_Bool)0;
+            if(tmp_if_expr_25)
             {
-              unsigned long int return_value_strlen$13;
-              return_value_strlen$13=strlen((const char *)line);
-              line[(signed long int)(return_value_strlen$13 - (unsigned long int)1)] = (unsigned char)0;
-              char *return_value_strrchr$14;
-              return_value_strrchr$14=strrchr((const char *)line, 60);
-              unmimecpy(fromaddr, (unsigned char *)(return_value_strrchr$14 + (signed long int)1), (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
+              unsigned long int return_value_strlen_13;
+              return_value_strlen_13=strlen((const char *)line);
+              line[(signed long int)(return_value_strlen_13 - (unsigned long int)1)] = (unsigned char)0;
+              char *return_value_strrchr_14;
+              return_value_strrchr_14=strrchr((const char *)line, 60);
+              unmimecpy(fromaddr, (unsigned char *)(return_value_strrchr_14 + (signed long int)1), (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
               strip(fromaddr);
-              char *return_value_strchr$15;
-              return_value_strchr$15=strchr((const char *)line, 60);
-              *return_value_strchr$15 = (char)0;
+              char *return_value_strchr_15;
+              return_value_strchr_15=strchr((const char *)line, 60);
+              *return_value_strchr_15 = (char)0;
               unmimecpy(from, &line[(signed long int)6], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
               strip(from);
             }
 
             else
             {
-              return_value_strlen$20=strlen((const char *)line);
-              if((signed int)line[-1l + (signed long int)return_value_strlen$20] == 41)
+              return_value_strlen_20=strlen((const char *)line);
+              if((signed int)line[-1l + (signed long int)return_value_strlen_20] == 41)
               {
-                return_value_strchr$21=strchr((const char *)line, 40);
-                tmp_if_expr$22 = return_value_strchr$21 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                return_value_strchr_21=strchr((const char *)line, 40);
+                tmp_if_expr_22 = return_value_strchr_21 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$22 = (_Bool)0;
-              if(tmp_if_expr$22)
+                tmp_if_expr_22 = (_Bool)0;
+              if(tmp_if_expr_22)
               {
-                unsigned long int return_value_strlen$16;
-                return_value_strlen$16=strlen((const char *)line);
-                line[(signed long int)(return_value_strlen$16 - (unsigned long int)1)] = (unsigned char)0;
-                char *return_value_strrchr$17;
-                return_value_strrchr$17=strrchr((const char *)line, 40);
-                unbackslashquote((unsigned char *)(return_value_strrchr$17 + (signed long int)1));
-                char *return_value_strrchr$18;
-                return_value_strrchr$18=strrchr((const char *)line, 40);
-                unmimecpy(from, (unsigned char *)(return_value_strrchr$18 + (signed long int)1), (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
+                unsigned long int return_value_strlen_16;
+                return_value_strlen_16=strlen((const char *)line);
+                line[(signed long int)(return_value_strlen_16 - (unsigned long int)1)] = (unsigned char)0;
+                char *return_value_strrchr_17;
+                return_value_strrchr_17=strrchr((const char *)line, 40);
+                unbackslashquote((unsigned char *)(return_value_strrchr_17 + (signed long int)1));
+                char *return_value_strrchr_18;
+                return_value_strrchr_18=strrchr((const char *)line, 40);
+                unmimecpy(from, (unsigned char *)(return_value_strrchr_18 + (signed long int)1), (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
                 strip(from);
-                char *return_value_strrchr$19;
-                return_value_strrchr$19=strrchr((const char *)line, 40);
-                *return_value_strrchr$19 = (char)0;
+                char *return_value_strrchr_19;
+                return_value_strrchr_19=strrchr((const char *)line, 40);
+                *return_value_strrchr_19 = (char)0;
                 unmimecpy(fromaddr, &line[(signed long int)6], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
                 strip(fromaddr);
               }
@@ -4743,18 +4743,18 @@ void command_post(struct var *var)
                 unmimecpy(fromaddr, &line[(signed long int)6], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
               }
             }
-            unsigned long int return_value_strlen$28;
-            return_value_strlen$28=strlen((const char *)from);
-            if(return_value_strlen$28 >= 1ul)
+            unsigned long int return_value_strlen_28;
+            return_value_strlen_28=strlen((const char *)from);
+            if(return_value_strlen_28 >= 1ul)
             {
               if((signed int)from[0l] == 34)
               {
-                return_value_strlen$27=strlen((const char *)from);
-                if((signed int)from[-1l + (signed long int)return_value_strlen$27] == 34)
+                return_value_strlen_27=strlen((const char *)from);
+                if((signed int)from[-1l + (signed long int)return_value_strlen_27] == 34)
                 {
-                  unsigned long int return_value_strlen$26;
-                  return_value_strlen$26=strlen((const char *)from);
-                  from[(signed long int)(return_value_strlen$26 - (unsigned long int)1)] = (unsigned char)0;
+                  unsigned long int return_value_strlen_26;
+                  return_value_strlen_26=strlen((const char *)from);
+                  from[(signed long int)(return_value_strlen_26 - (unsigned long int)1)] = (unsigned char)0;
                   strcpy((char *)from, (const char *)&from[(signed long int)1]);
                   unbackslashquote(from);
                 }
@@ -4767,48 +4767,48 @@ void command_post(struct var *var)
 
           else
           {
-            return_value_strncasecmp$45=strncasecmp((const char *)line, "Newsgroups: ", (unsigned long int)12);
-            if(return_value_strncasecmp$45 == 0)
+            return_value_strncasecmp_45=strncasecmp((const char *)line, "Newsgroups: ", (unsigned long int)12);
+            if(return_value_strncasecmp_45 == 0)
               mystrncpy(newsgroup, &line[(signed long int)12], (signed long int)100);
 
             else
             {
-              return_value_strncasecmp$44=strncasecmp((const char *)line, "Subject: ", (unsigned long int)9);
-              if(return_value_strncasecmp$44 == 0)
+              return_value_strncasecmp_44=strncasecmp((const char *)line, "Subject: ", (unsigned long int)9);
+              if(return_value_strncasecmp_44 == 0)
                 unmimecpy(subject, &line[(signed long int)9], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
 
               else
               {
-                return_value_strncasecmp$43=strncasecmp((const char *)line, "Reply-To: ", (unsigned long int)10);
-                if(return_value_strncasecmp$43 == 0)
+                return_value_strncasecmp_43=strncasecmp((const char *)line, "Reply-To: ", (unsigned long int)10);
+                if(return_value_strncasecmp_43 == 0)
                   unmimecpy(replyto, &line[(signed long int)10], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
 
                 else
                 {
-                  return_value_strncasecmp$42=strncasecmp((const char *)line, "Content-Type: ", (unsigned long int)14);
-                  if(return_value_strncasecmp$42 == 0)
+                  return_value_strncasecmp_42=strncasecmp((const char *)line, "Content-Type: ", (unsigned long int)14);
+                  if(return_value_strncasecmp_42 == 0)
                   {
                     getctpos = (unsigned long int)14;
-                    signed int return_value_getcontenttypepart$29;
-                    return_value_getcontenttypepart$29=getcontenttypepart(line, &getctpos, contenttype, (unsigned long int)100);
-                    if(return_value_getcontenttypepart$29 == 0)
+                    signed int return_value_getcontenttypepart_29;
+                    return_value_getcontenttypepart_29=getcontenttypepart(line, &getctpos, contenttype, (unsigned long int)100);
+                    if(return_value_getcontenttypepart_29 == 0)
                       contenttype[(signed long int)0] = (unsigned char)0;
 
                     do
                     {
-                      return_value_getcontenttypepart$30=getcontenttypepart(line, &getctpos, buf, (unsigned long int)100);
-                      if(return_value_getcontenttypepart$30 == 0)
+                      return_value_getcontenttypepart_30=getcontenttypepart(line, &getctpos, buf, (unsigned long int)100);
+                      if(return_value_getcontenttypepart_30 == 0)
                         break;
 
-                      signed int return_value_strncasecmp$32;
-                      return_value_strncasecmp$32=strncasecmp((const char *)buf, "charset=", (unsigned long int)8);
-                      if(return_value_strncasecmp$32 == 0)
+                      signed int return_value_strncasecmp_32;
+                      return_value_strncasecmp_32=strncasecmp((const char *)buf, "charset=", (unsigned long int)8);
+                      if(return_value_strncasecmp_32 == 0)
                         setcharset(&buf[(signed long int)8], chrs, chrs2, (unsigned long int)20);
 
                       else
                       {
-                        return_value_strcasecmp$31=strcasecmp((const char *)buf, "format=flowed");
-                        if(return_value_strcasecmp$31 == 0)
+                        return_value_strcasecmp_31=strcasecmp((const char *)buf, "format=flowed");
+                        if(return_value_strcasecmp_31 == 0)
                           flowed = 1;
 
                       }
@@ -4818,54 +4818,54 @@ void command_post(struct var *var)
 
                   else
                   {
-                    return_value_strncasecmp$41=strncasecmp((const char *)line, "Content-Transfer-Encoding: ", (unsigned long int)27);
-                    if(return_value_strncasecmp$41 == 0)
+                    return_value_strncasecmp_41=strncasecmp((const char *)line, "Content-Transfer-Encoding: ", (unsigned long int)27);
+                    if(return_value_strncasecmp_41 == 0)
                     {
                       getctpos = (unsigned long int)27;
-                      signed int return_value_getcontenttypepart$33;
-                      return_value_getcontenttypepart$33=getcontenttypepart(line, &getctpos, contenttransferencoding, (unsigned long int)100);
-                      if(return_value_getcontenttypepart$33 == 0)
+                      signed int return_value_getcontenttypepart_33;
+                      return_value_getcontenttypepart_33=getcontenttypepart(line, &getctpos, contenttransferencoding, (unsigned long int)100);
+                      if(return_value_getcontenttypepart_33 == 0)
                         contenttransferencoding[(signed long int)0] = (unsigned char)0;
 
                     }
 
                     else
                     {
-                      return_value_strncasecmp$40=strncasecmp((const char *)line, "References: ", (unsigned long int)12);
-                      if(return_value_strncasecmp$40 == 0)
+                      return_value_strncasecmp_40=strncasecmp((const char *)line, "References: ", (unsigned long int)12);
+                      if(return_value_strncasecmp_40 == 0)
                       {
-                        char *return_value_strrchr$35;
-                        return_value_strrchr$35=strrchr((const char *)line, 60);
-                        if(!(return_value_strrchr$35 == ((char *)NULL)))
+                        char *return_value_strrchr_35;
+                        return_value_strrchr_35=strrchr((const char *)line, 60);
+                        if(!(return_value_strrchr_35 == ((char *)NULL)))
                         {
-                          return_value_strrchr$34=strrchr((const char *)line, 60);
-                          mystrncpy(reference, (unsigned char *)return_value_strrchr$34, (signed long int)100);
+                          return_value_strrchr_34=strrchr((const char *)line, 60);
+                          mystrncpy(reference, (unsigned char *)return_value_strrchr_34, (signed long int)100);
                         }
 
                       }
 
                       else
                       {
-                        return_value_strncasecmp$39=strncasecmp((const char *)line, "Organization: ", (unsigned long int)14);
-                        if(return_value_strncasecmp$39 == 0)
+                        return_value_strncasecmp_39=strncasecmp((const char *)line, "Organization: ", (unsigned long int)14);
+                        if(return_value_strncasecmp_39 == 0)
                           unmimecpy(organization, &line[(signed long int)14], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
 
                         else
                         {
-                          return_value_strncasecmp$38=strncasecmp((const char *)line, "X-Newsreader: ", (unsigned long int)14);
-                          if(return_value_strncasecmp$38 == 0)
+                          return_value_strncasecmp_38=strncasecmp((const char *)line, "X-Newsreader: ", (unsigned long int)14);
+                          if(return_value_strncasecmp_38 == 0)
                             unmimecpy(newsreader, &line[(signed long int)14], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
 
                           else
                           {
-                            return_value_strncasecmp$37=strncasecmp((const char *)line, "User-Agent: ", (unsigned long int)12);
-                            if(return_value_strncasecmp$37 == 0)
+                            return_value_strncasecmp_37=strncasecmp((const char *)line, "User-Agent: ", (unsigned long int)12);
+                            if(return_value_strncasecmp_37 == 0)
                               unmimecpy(newsreader, &line[(signed long int)12], (unsigned long int)100, chrs, chrs2, (unsigned long int)20);
 
                             else
                             {
-                              return_value_strncasecmp$36=strncasecmp((const char *)line, "Control: ", (unsigned long int)9);
-                              if(return_value_strncasecmp$36 == 0)
+                              return_value_strncasecmp_36=strncasecmp((const char *)line, "Control: ", (unsigned long int)9);
+                              if(return_value_strncasecmp_36 == 0)
                                 mystrncpy(control, &line[(signed long int)9], (signed long int)100);
 
                               else
@@ -4885,16 +4885,16 @@ void command_post(struct var *var)
         }
         if(cfg_nostripre == 0)
         {
-          return_value_strncmp$47=strncmp((const char *)subject, "Re: ", (unsigned long int)4);
-          if(return_value_strncmp$47 == 0)
-            tmp_if_expr$49 = (_Bool)1;
+          return_value_strncmp_47=strncmp((const char *)subject, "Re: ", (unsigned long int)4);
+          if(return_value_strncmp_47 == 0)
+            tmp_if_expr_49 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$48=strcmp((const char *)subject, "Re:");
-            tmp_if_expr$49 = return_value_strcmp$48 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_48=strcmp((const char *)subject, "Re:");
+            tmp_if_expr_49 = return_value_strcmp_48 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$49)
+          if(tmp_if_expr_49)
             strcpy((char *)subject, (const char *)&subject[(signed long int)4]);
 
         }
@@ -4913,11 +4913,11 @@ void command_post(struct var *var)
         else
         {
           if((signed int)from[0l] == 0)
-            tmp_if_expr$50 = (_Bool)1;
+            tmp_if_expr_50 = (_Bool)1;
 
           else
-            tmp_if_expr$50 = (signed int)fromaddr[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$50)
+            tmp_if_expr_50 = (signed int)fromaddr[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_50)
           {
             sockprintf(var, (unsigned char *)"441 Posting failed (No valid From line found)\r\n");
             os_logwrite((unsigned char *)"(%s) POST failed (No valid From line found)", (const void *)var->clientid);
@@ -4926,9 +4926,9 @@ void command_post(struct var *var)
 
           else
           {
-            char *return_value_strchr$51;
-            return_value_strchr$51=strchr((const char *)newsgroup, 44);
-            if(!(return_value_strchr$51 == ((char *)NULL)))
+            char *return_value_strchr_51;
+            return_value_strchr_51=strchr((const char *)newsgroup, 44);
+            if(!(return_value_strchr_51 == ((char *)NULL)))
             {
               sockprintf(var, (unsigned char *)"441 Posting failed (Crossposts are not allowed)\r\n");
               os_logwrite((unsigned char *)"(%s) POST failed (Crossposts are not allowed)", (const void *)var->clientid);
@@ -4938,8 +4938,8 @@ void command_post(struct var *var)
             else
               if(!(contenttype[0l] == 0))
               {
-                return_value_strcasecmp$52=strcasecmp((const char *)contenttype, "text/plain");
-                if(return_value_strcasecmp$52 == 0)
+                return_value_strcasecmp_52=strcasecmp((const char *)contenttype, "text/plain");
+                if(return_value_strcasecmp_52 == 0)
                   goto __CPROVER_DUMP_L66;
 
                 sockprintf(var, (unsigned char *)"441 Posting failed (Content-Type \"%s\" not allowed, please use text/plain)\r\n", (const void *)contenttype);
@@ -4952,25 +4952,25 @@ void command_post(struct var *var)
 
               __CPROVER_DUMP_L66:
                 ;
-                signed int return_value_strcasecmp$56;
-                return_value_strcasecmp$56=strcasecmp((const char *)contenttransferencoding, "quoted-printable");
-                if(return_value_strcasecmp$56 == 0)
+                signed int return_value_strcasecmp_56;
+                return_value_strcasecmp_56=strcasecmp((const char *)contenttransferencoding, "quoted-printable");
+                if(return_value_strcasecmp_56 == 0)
                   decodeqpbody(&text[(signed long int)textpos], &text[(signed long int)textpos]);
 
                 else
                 {
-                  return_value_strcasecmp$55=strcasecmp((const char *)contenttransferencoding, "base64");
-                  if(return_value_strcasecmp$55 == 0)
+                  return_value_strcasecmp_55=strcasecmp((const char *)contenttransferencoding, "base64");
+                  if(return_value_strcasecmp_55 == 0)
                     decodeb64(&text[(signed long int)textpos], &text[(signed long int)textpos]);
 
                   else
                     if(!(contenttransferencoding[0l] == 0))
                     {
-                      return_value_strcasecmp$54=strcasecmp((const char *)contenttransferencoding, "8bit");
-                      if(!(return_value_strcasecmp$54 == 0))
+                      return_value_strcasecmp_54=strcasecmp((const char *)contenttransferencoding, "8bit");
+                      if(!(return_value_strcasecmp_54 == 0))
                       {
-                        return_value_strcasecmp$53=strcasecmp((const char *)contenttransferencoding, "7bit");
-                        if(!(return_value_strcasecmp$53 == 0))
+                        return_value_strcasecmp_53=strcasecmp((const char *)contenttransferencoding, "7bit");
+                        if(!(return_value_strcasecmp_53 == 0))
                         {
                           sockprintf(var, (unsigned char *)"441 Posting failed (unknown Content-Transfer-Encoding \"%s\")\r\n", (const void *)contenttransferencoding);
                           os_logwrite((unsigned char *)"(%s) POST failed (Content-Transfer-Encoding \"%s\" not allowed)", (const void *)var->clientid, (const void *)contenttransferencoding);
@@ -5002,9 +5002,9 @@ void command_post(struct var *var)
                       {
                         if(!((signed int)text[(signed long int)textpos] == 10))
                         {
-                          tmp_post$57 = c;
+                          tmp_post_57 = c;
                           c = c + 1ul;
-                          line[(signed long int)tmp_post$57] = text[(signed long int)textpos];
+                          line[(signed long int)tmp_post_57] = text[(signed long int)textpos];
                         }
 
                         textpos = textpos + 1ul;
@@ -5014,69 +5014,69 @@ void command_post(struct var *var)
                   ;
                   line[(signed long int)c] = (unsigned char)0;
                   if(!(flowed == 0))
-                    tmp_if_expr$66 = (signed int)line[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_66 = (signed int)line[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$66 = (_Bool)0;
-                  if(tmp_if_expr$66)
-                    tmp_if_expr$67 = (signed int)line[(signed long int)0] != 62 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_66 = (_Bool)0;
+                  if(tmp_if_expr_66)
+                    tmp_if_expr_67 = (signed int)line[(signed long int)0] != 62 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$67 = (_Bool)0;
-                  if(tmp_if_expr$67)
+                    tmp_if_expr_67 = (_Bool)0;
+                  if(tmp_if_expr_67)
                   {
-                    return_value_strncmp$68=strncmp((const char *)line, "-- ", (unsigned long int)3);
-                    tmp_if_expr$69 = return_value_strncmp$68 != 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strncmp_68=strncmp((const char *)line, "-- ", (unsigned long int)3);
+                    tmp_if_expr_69 = return_value_strncmp_68 != 0 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$69 = (_Bool)0;
-                  if(tmp_if_expr$69)
+                    tmp_if_expr_69 = (_Bool)0;
+                  if(tmp_if_expr_69)
                   {
                     if((signed int)line[0l] == 32)
                       strcpy((char *)line, (const char *)&line[(signed long int)1]);
 
-                    unsigned long int return_value_strlen$62;
-                    return_value_strlen$62=strlen((const char *)line);
-                    if((signed int)line[-1l + (signed long int)return_value_strlen$62] == 32)
+                    unsigned long int return_value_strlen_62;
+                    return_value_strlen_62=strlen((const char *)line);
+                    if((signed int)line[-1l + (signed long int)return_value_strlen_62] == 32)
                     {
                       strip(line);
                       strcpy((char *)&text[(signed long int)d], (const char *)line);
-                      unsigned long int return_value_strlen$58;
-                      return_value_strlen$58=strlen((const char *)line);
-                      d = d + return_value_strlen$58;
-                      tmp_post$59 = d;
+                      unsigned long int return_value_strlen_58;
+                      return_value_strlen_58=strlen((const char *)line);
+                      d = d + return_value_strlen_58;
+                      tmp_post_59 = d;
                       d = d + 1ul;
-                      text[(signed long int)tmp_post$59] = (unsigned char)32;
+                      text[(signed long int)tmp_post_59] = (unsigned char)32;
                     }
 
                     else
                     {
                       strip(line);
                       strcpy((char *)&text[(signed long int)d], (const char *)line);
-                      unsigned long int return_value_strlen$60;
-                      return_value_strlen$60=strlen((const char *)line);
-                      d = d + return_value_strlen$60;
-                      tmp_post$61 = d;
+                      unsigned long int return_value_strlen_60;
+                      return_value_strlen_60=strlen((const char *)line);
+                      d = d + return_value_strlen_60;
+                      tmp_post_61 = d;
                       d = d + 1ul;
-                      text[(signed long int)tmp_post$61] = (unsigned char)13;
+                      text[(signed long int)tmp_post_61] = (unsigned char)13;
                     }
                   }
 
                   else
                   {
-                    signed int return_value_strncmp$63;
-                    return_value_strncmp$63=strncmp((const char *)line, "-- ", (unsigned long int)3);
-                    if(!(return_value_strncmp$63 == 0))
+                    signed int return_value_strncmp_63;
+                    return_value_strncmp_63=strncmp((const char *)line, "-- ", (unsigned long int)3);
+                    if(!(return_value_strncmp_63 == 0))
                       strip(line);
 
                     strcpy((char *)&text[(signed long int)d], (const char *)line);
-                    unsigned long int return_value_strlen$64;
-                    return_value_strlen$64=strlen((const char *)line);
-                    d = d + return_value_strlen$64;
-                    tmp_post$65 = d;
+                    unsigned long int return_value_strlen_64;
+                    return_value_strlen_64=strlen((const char *)line);
+                    d = d + return_value_strlen_64;
+                    tmp_post_65 = d;
                     d = d + 1ul;
-                    text[(signed long int)tmp_post$65] = (unsigned char)13;
+                    text[(signed long int)tmp_post_65] = (unsigned char)13;
                   }
                 }
                 for( ; d >= 1ul; d = d - 1ul)
@@ -5085,17 +5085,17 @@ void command_post(struct var *var)
 
                 if(d >= 1ul && !(d >= 19998ul))
                 {
-                  tmp_post$70 = d;
+                  tmp_post_70 = d;
                   d = d + 1ul;
-                  text[(signed long int)tmp_post$70] = (unsigned char)13;
+                  text[(signed long int)tmp_post_70] = (unsigned char)13;
                 }
 
                 text[(signed long int)d] = (unsigned char)0;
                 g = var->firstgroup;
                 for( ; !(g == ((struct group *)NULL)); g = g->next)
                 {
-                  return_value_strcasecmp$71=strcasecmp((const char *)newsgroup, (const char *)g->tagname);
-                  if(return_value_strcasecmp$71 == 0)
+                  return_value_strcasecmp_71=strcasecmp((const char *)newsgroup, (const char *)g->tagname);
+                  if(return_value_strcasecmp_71 == 0)
                     break;
 
                 }
@@ -5108,9 +5108,9 @@ void command_post(struct var *var)
 
                 else
                 {
-                  signed int return_value_matchgroup$72;
-                  return_value_matchgroup$72=matchgroup(var->postgroups, g->group);
-                  if(return_value_matchgroup$72 == 0)
+                  signed int return_value_matchgroup_72;
+                  return_value_matchgroup_72=matchgroup(var->postgroups, g->group);
+                  if(return_value_matchgroup_72 == 0)
                   {
                     sockprintf(var, (unsigned char *)"441 Posting failed (Posting access denied to %s)\r\n", (const void *)newsgroup);
                     os_logwrite((unsigned char *)"(%s) POST failed (Posting access denied to %s)", (const void *)var->clientid, (const void *)newsgroup);
@@ -5128,11 +5128,11 @@ void command_post(struct var *var)
                     else
                     {
                       if((signed int)g->defaultchrs[0l] == 33)
-                        tmp_if_expr$73 = (_Bool)1;
+                        tmp_if_expr_73 = (_Bool)1;
 
                       else
-                        tmp_if_expr$73 = (signed int)var->defaultreadchrs[(signed long int)0] == 33 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$73)
+                        tmp_if_expr_73 = (signed int)var->defaultreadchrs[(signed long int)0] == 33 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_73)
                       {
                         if((signed int)g->defaultchrs[0l] == 33)
                           xlat=findpostxlat(var, chrs, &g->defaultchrs[(signed long int)1]);
@@ -5161,9 +5161,9 @@ void command_post(struct var *var)
                         }
 
                       }
-                      signed int return_value_strncasecmp$74;
-                      return_value_strncasecmp$74=strncasecmp((const char *)control, "cancel ", (unsigned long int)7);
-                      if(return_value_strncasecmp$74 == 0)
+                      signed int return_value_strncasecmp_74;
+                      return_value_strncasecmp_74=strncasecmp((const char *)control, "cancel ", (unsigned long int)7);
+                      if(return_value_strncasecmp_74 == 0)
                       {
                         if(cfg_nocancel == 0)
                         {
@@ -5183,9 +5183,9 @@ void command_post(struct var *var)
                         toaddr[(signed long int)0] = (unsigned char)0;
                         parentmsg = (unsigned long int)0;
                         quotename[(signed long int)0] = (unsigned char)0;
-                        unsigned long int return_value_get_msgid_num$75;
-                        return_value_get_msgid_num$75=get_msgid_num();
-                        sprintf((char *)msgid, "%s %08lx", (const void *)g->aka, return_value_get_msgid_num$75);
+                        unsigned long int return_value_get_msgid_num_75;
+                        return_value_get_msgid_num_75=get_msgid_num();
+                        sprintf((char *)msgid, "%s %08lx", (const void *)g->aka, return_value_get_msgid_num_75);
                         if(!(reference[0l] == 0))
                         {
                           if(!(g->netmail == 0))
@@ -5199,9 +5199,9 @@ void command_post(struct var *var)
 
                         else
                           strcpy((char *)toname, "All");
-                        signed int return_value_strncasecmp$79;
-                        return_value_strncasecmp$79=strncasecmp((const char *)text, "To:", (unsigned long int)3);
-                        if(return_value_strncasecmp$79 == 0)
+                        signed int return_value_strncasecmp_79;
+                        return_value_strncasecmp_79=strncasecmp((const char *)text, "To:", (unsigned long int)3);
+                        if(return_value_strncasecmp_79 == 0)
                         {
                           if((signed int)text[3l] == 32)
                             c = (unsigned long int)4;
@@ -5216,11 +5216,11 @@ void command_post(struct var *var)
 
                             if(!(d >= 99ul))
                             {
-                              tmp_post$76 = d;
+                              tmp_post_76 = d;
                               d = d + 1ul;
-                              tmp_post$77 = c;
+                              tmp_post_77 = c;
                               c = c + 1ul;
-                              line[(signed long int)tmp_post$76] = text[(signed long int)tmp_post$77];
+                              line[(signed long int)tmp_post_76] = text[(signed long int)tmp_post_77];
                             }
 
                             else
@@ -5234,9 +5234,9 @@ void command_post(struct var *var)
                             c = c + 1ul;
 
                           strcpy((char *)text, (const char *)&text[(signed long int)c]);
-                          char *return_value_strchr$78;
-                          return_value_strchr$78=strchr((const char *)line, 44);
-                          ch = (unsigned char *)return_value_strchr$78;
+                          char *return_value_strchr_78;
+                          return_value_strchr_78=strchr((const char *)line, 44);
+                          ch = (unsigned char *)return_value_strchr_78;
                           if(!(ch == ((unsigned char *)NULL)))
                           {
                             *ch = (unsigned char)0;
@@ -5288,9 +5288,9 @@ void command_post(struct var *var)
                             goto __CPROVER_DUMP_L162;
                           }
 
-                          signed int return_value_validateaddr$80;
-                          return_value_validateaddr$80=validateaddr(toaddr);
-                          if(return_value_validateaddr$80 == 0)
+                          signed int return_value_validateaddr_80;
+                          return_value_validateaddr_80=validateaddr(toaddr);
+                          if(return_value_validateaddr_80 == 0)
                           {
                             sockprintf(var, (unsigned char *)"441 Posting failed (Invalid address %s)\r\n", (const void *)toaddr);
                             free((void *)text);
@@ -5316,7 +5316,7 @@ void command_post(struct var *var)
 
                         JAM_ClearMsgHeader(&Header_S);
                         SubPacket_PS=JAM_NewSubPacket();
-                        if(SubPacket_PS == ((struct anonymous$8 *)NULL))
+                        if(SubPacket_PS == ((struct anonymous_8 *)NULL))
                         {
                           socksendtext(var, (unsigned char *)"503 Local error: JAM_NewSubPacket() failed\r\n");
                           free((void *)text);
@@ -5331,25 +5331,25 @@ void command_post(struct var *var)
                           timeofs = (signed int)((t1 - t2) / (signed long int)60);
                           timesign = timeofs < 0 ? -1 : 1;
                           sprintf((char *)timezone, "TZUTC: %s%02d%02d", t1 < t2 ? "-" : "", (timesign * timeofs) / 60, (timesign * timeofs) % 60);
-                          signed long int return_value_time$81;
-                          return_value_time$81=time((signed long int *)(void *)0);
-                          Header_S.DateWritten = (unsigned long int)((return_value_time$81 - t2) + t1);
-                          signed long int return_value_time$82;
-                          return_value_time$82=time((signed long int *)(void *)0);
-                          Header_S.DateReceived = (unsigned long int)((return_value_time$82 - t2) + t1);
-                          signed long int return_value_time$83;
-                          return_value_time$83=time((signed long int *)(void *)0);
-                          Header_S.DateProcessed = (unsigned long int)((return_value_time$83 - t2) + t1);
+                          signed long int return_value_time_81;
+                          return_value_time_81=time((signed long int *)(void *)0);
+                          Header_S.DateWritten = (unsigned long int)((return_value_time_81 - t2) + t1);
+                          signed long int return_value_time_82;
+                          return_value_time_82=time((signed long int *)(void *)0);
+                          Header_S.DateReceived = (unsigned long int)((return_value_time_82 - t2) + t1);
+                          signed long int return_value_time_83;
+                          return_value_time_83=time((signed long int *)(void *)0);
+                          Header_S.DateProcessed = (unsigned long int)((return_value_time_83 - t2) + t1);
                           addjamfield(SubPacket_PS, (unsigned long int)4, msgid);
                           if(!(replyid[0l] == 0))
                             addjamfield(SubPacket_PS, (unsigned long int)5, replyid);
 
-                          unsigned long int return_value_strlen$84;
-                          return_value_strlen$84=strlen((const char *)msgid);
-                          Header_S.MsgIdCRC=JAM_Crc32(msgid, return_value_strlen$84);
-                          unsigned long int return_value_strlen$85;
-                          return_value_strlen$85=strlen((const char *)replyid);
-                          Header_S.ReplyCRC=JAM_Crc32(replyid, return_value_strlen$85);
+                          unsigned long int return_value_strlen_84;
+                          return_value_strlen_84=strlen((const char *)msgid);
+                          Header_S.MsgIdCRC=JAM_Crc32(msgid, return_value_strlen_84);
+                          unsigned long int return_value_strlen_85;
+                          return_value_strlen_85=strlen((const char *)replyid);
+                          Header_S.ReplyCRC=JAM_Crc32(replyid, return_value_strlen_85);
                           Header_S.ReplyTo = parentmsg;
                           if(g->netmail == 0)
                           {
@@ -5360,11 +5360,11 @@ void command_post(struct var *var)
 
                               else
                                 sprintf((char *)line, "\r--- %s\r", (const void *)newsreader);
-                              unsigned long int return_value_strlen$86;
-                              return_value_strlen$86=strlen((const char *)text);
-                              unsigned long int return_value_strlen$87;
-                              return_value_strlen$87=strlen((const char *)line);
-                              if(!(return_value_strlen$86 + return_value_strlen$87 >= allocsize + 18446744073709551615ul))
+                              unsigned long int return_value_strlen_86;
+                              return_value_strlen_86=strlen((const char *)text);
+                              unsigned long int return_value_strlen_87;
+                              return_value_strlen_87=strlen((const char *)line);
+                              if(!(return_value_strlen_86 + return_value_strlen_87 >= allocsize + 18446744073709551615ul))
                                 strcat((char *)text, (const char *)line);
 
                               if(!(cfg_origin == ((unsigned char *)NULL)))
@@ -5372,11 +5372,11 @@ void command_post(struct var *var)
 
                               else
                                 sprintf((char *)line, " * Origin: %s (%s)\r", (const void *)organization, (const void *)g->aka);
-                              unsigned long int return_value_strlen$88;
-                              return_value_strlen$88=strlen((const char *)text);
-                              unsigned long int return_value_strlen$89;
-                              return_value_strlen$89=strlen((const char *)line);
-                              if(!(return_value_strlen$88 + return_value_strlen$89 >= allocsize + 18446744073709551615ul))
+                              unsigned long int return_value_strlen_88;
+                              return_value_strlen_88=strlen((const char *)text);
+                              unsigned long int return_value_strlen_89;
+                              return_value_strlen_89=strlen((const char *)line);
+                              if(!(return_value_strlen_88 + return_value_strlen_89 >= allocsize + 18446744073709551615ul))
                                 strcat((char *)text, (const char *)line);
 
                             }
@@ -5384,12 +5384,12 @@ void command_post(struct var *var)
                           }
 
                           count = (unsigned long int)0;
-                          signed int return_value_getcomma$91;
-                          return_value_getcomma$91=getcomma(var->realnames, &count, dispname, (unsigned long int)100);
-                          if(!(return_value_getcomma$91 == 0))
+                          signed int return_value_getcomma_91;
+                          return_value_getcomma_91=getcomma(var->realnames, &count, dispname, (unsigned long int)100);
+                          if(!(return_value_getcomma_91 == 0))
                           {
-                            return_value_ispattern$90=ispattern(dispname);
-                            if(return_value_ispattern$90 == 0)
+                            return_value_ispattern_90=ispattern(dispname);
+                            if(return_value_ispattern_90 == 0)
                               mystrncpy(from, dispname, (signed long int)36);
 
                           }
@@ -5398,9 +5398,9 @@ void command_post(struct var *var)
                           {
                             if(!(cfg_guestsuffix == ((unsigned char *)NULL)))
                             {
-                              unsigned long int return_value_strlen$92;
-                              return_value_strlen$92=strlen((const char *)cfg_guestsuffix);
-                              tr = (signed int)(((unsigned long int)36 - return_value_strlen$92) - (unsigned long int)1);
+                              unsigned long int return_value_strlen_92;
+                              return_value_strlen_92=strlen((const char *)cfg_guestsuffix);
+                              tr = (signed int)(((unsigned long int)36 - return_value_strlen_92) - (unsigned long int)1);
                               if(!(tr >= 0))
                                 tr = 0;
 
@@ -5489,9 +5489,9 @@ void command_post(struct var *var)
 
                             else
                               Header_S.Attribute = (unsigned long int)(0x00000001L | 0x01000000L);
-                          signed int return_value_jamopenarea$93;
-                          return_value_jamopenarea$93=jamopenarea(var, g);
-                          if(return_value_jamopenarea$93 == 0)
+                          signed int return_value_jamopenarea_93;
+                          return_value_jamopenarea_93=jamopenarea(var, g);
+                          if(return_value_jamopenarea_93 == 0)
                           {
                             socksendtext(var, (unsigned char *)"503 Local error: Could not open messagebase\r\n");
                             free((void *)text);
@@ -5500,9 +5500,9 @@ void command_post(struct var *var)
 
                           else
                           {
-                            signed int return_value_JAM_LockMB$94;
-                            return_value_JAM_LockMB$94=JAM_LockMB(var->openmb, 10);
-                            if(!(return_value_JAM_LockMB$94 == 0))
+                            signed int return_value_JAM_LockMB_94;
+                            return_value_JAM_LockMB_94=JAM_LockMB(var->openmb, 10);
+                            if(!(return_value_JAM_LockMB_94 == 0))
                             {
                               os_logwrite((unsigned char *)"(%s) Failed to lock JAM messagebase \"%s\"", (const void *)var->clientid, (const void *)g->jampath);
                               socksendtext(var, (unsigned char *)"503 Local error: Failed to lock messagebase\r\n");
@@ -5512,9 +5512,9 @@ void command_post(struct var *var)
 
                             else
                             {
-                              unsigned long int return_value_strlen$95;
-                              return_value_strlen$95=strlen((const char *)text);
-                              res=JAM_AddMessage(var->openmb, &Header_S, SubPacket_PS, text, return_value_strlen$95);
+                              unsigned long int return_value_strlen_95;
+                              return_value_strlen_95=strlen((const char *)text);
+                              res=JAM_AddMessage(var->openmb, &Header_S, SubPacket_PS, text, return_value_strlen_95);
                               if(!(res == 0))
                               {
                                 socksendtext(var, (unsigned char *)"503 Local error: Failed to write to messagebase\r\n");
@@ -5590,26 +5590,26 @@ void command_xover(struct var *var)
   unsigned char xoverres[2500l];
   struct xlat *xlat;
   unsigned char *xlatres;
-  struct anonymous$4 baseheader;
-  struct anonymous$8 *subpack;
-  struct anonymous$5 header;
-  struct anonymous$6 *field;
+  struct anonymous_4 baseheader;
+  struct anonymous_8 *subpack;
+  struct anonymous_5 header;
+  struct anonymous_6 *field;
   signed int res;
   unsigned long int count;
   signed int access;
-  signed long int return_value_atol$3;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  signed int return_value_get_server_quit$9;
-  unsigned long int tmp_if_expr$11;
-  unsigned long int tmp_if_expr$12;
-  unsigned long int tmp_if_expr$13;
-  unsigned long int tmp_if_expr$14;
-  unsigned long int tmp_if_expr$15;
-  unsigned long int tmp_if_expr$16;
-  char *return_value_strchr$17;
-  signed int return_value_matchname$26;
-  signed int return_value_sscanf$28;
+  signed long int return_value_atol_3;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  signed int return_value_get_server_quit_9;
+  unsigned long int tmp_if_expr_11;
+  unsigned long int tmp_if_expr_12;
+  unsigned long int tmp_if_expr_13;
+  unsigned long int tmp_if_expr_14;
+  unsigned long int tmp_if_expr_15;
+  unsigned long int tmp_if_expr_16;
+  char *return_value_strchr_17;
+  signed int return_value_matchname_26;
+  signed int return_value_sscanf_28;
   if(var->currentgroup == ((struct group *)NULL))
     socksendtext(var, (unsigned char *)"412 No newsgroup selected\r\n");
 
@@ -5631,34 +5631,34 @@ void command_xover(struct var *var)
 
     else
     {
-      char *return_value_strchr$1;
-      return_value_strchr$1=strchr((const char *)article, 45);
-      dash = (unsigned char *)return_value_strchr$1;
+      char *return_value_strchr_1;
+      return_value_strchr_1=strchr((const char *)article, 45);
+      dash = (unsigned char *)return_value_strchr_1;
       if(!(dash == ((unsigned char *)NULL)))
       {
         *dash = (unsigned char)0;
         dash = dash + 1l;
-        signed long int return_value_atol$2;
-        return_value_atol$2=atol((const char *)article);
-        first = (unsigned long int)return_value_atol$2;
+        signed long int return_value_atol_2;
+        return_value_atol_2=atol((const char *)article);
+        first = (unsigned long int)return_value_atol_2;
         if((signed int)*dash == 0)
           last = max;
 
         else
         {
-          return_value_atol$3=atol((const char *)dash);
-          last = (unsigned long int)return_value_atol$3;
+          return_value_atol_3=atol((const char *)dash);
+          last = (unsigned long int)return_value_atol_3;
         }
       }
 
       else
       {
-        signed long int return_value_atol$4;
-        return_value_atol$4=atol((const char *)article);
-        first = (unsigned long int)return_value_atol$4;
-        signed long int return_value_atol$5;
-        return_value_atol$5=atol((const char *)article);
-        last = (unsigned long int)return_value_atol$5;
+        signed long int return_value_atol_4;
+        return_value_atol_4=atol((const char *)article);
+        first = (unsigned long int)return_value_atol_4;
+        signed long int return_value_atol_5;
+        return_value_atol_5=atol((const char *)article);
+        last = (unsigned long int)return_value_atol_5;
       }
     }
     if(!(first >= min))
@@ -5672,16 +5672,16 @@ void command_xover(struct var *var)
 
     else
     {
-      signed int return_value_jamopenarea$6;
-      return_value_jamopenarea$6=jamopenarea(var, var->currentgroup);
-      if(return_value_jamopenarea$6 == 0)
+      signed int return_value_jamopenarea_6;
+      return_value_jamopenarea_6=jamopenarea(var, var->currentgroup);
+      if(return_value_jamopenarea_6 == 0)
         socksendtext(var, (unsigned char *)"503 Local error: Could not open messagebase\r\n");
 
       else
       {
-        signed int return_value_JAM_ReadMBHeader$7;
-        return_value_JAM_ReadMBHeader$7=JAM_ReadMBHeader(var->openmb, &baseheader);
-        if(!(return_value_JAM_ReadMBHeader$7 == 0))
+        signed int return_value_JAM_ReadMBHeader_7;
+        return_value_JAM_ReadMBHeader_7=JAM_ReadMBHeader(var->openmb, &baseheader);
+        if(!(return_value_JAM_ReadMBHeader_7 == 0))
         {
           os_logwrite((unsigned char *)"(%s) Could not read messagebase header of \"%s\"", (const void *)var->clientid, (const void *)var->opengroup->jampath);
           socksendtext(var, (unsigned char *)"503 Local error: Could not read messagebase header\r\n");
@@ -5694,19 +5694,19 @@ void command_xover(struct var *var)
           do
           {
             if(last >= c)
-              tmp_if_expr$8 = !(var->disconnect != 0) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_8 = !(var->disconnect != 0) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(tmp_if_expr_8)
             {
-              return_value_get_server_quit$9=get_server_quit();
-              tmp_if_expr$10 = !(return_value_get_server_quit$9 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_get_server_quit_9=get_server_quit();
+              tmp_if_expr_10 = !(return_value_get_server_quit_9 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$10 = (_Bool)0;
-            if(!tmp_if_expr$10)
+              tmp_if_expr_10 = (_Bool)0;
+            if(!tmp_if_expr_10)
               break;
 
             res=JAM_ReadMsgHeader(var->openmb, c - baseheader.BaseMsgNum, &header, &subpack);
@@ -5726,7 +5726,7 @@ void command_xover(struct var *var)
                 do
                 {
                   field=JAM_GetSubfield_R(subpack, &count);
-                  if(field == ((struct anonymous$6 *)NULL))
+                  if(field == ((struct anonymous_6 *)NULL))
                     break;
 
                   switch((signed int)field->LoID)
@@ -5734,105 +5734,105 @@ void command_xover(struct var *var)
                     case 0:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$11 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_11 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$11 = (unsigned long int)100;
-                      mystrncpy(fromaddr, field->Buffer, (signed long int)tmp_if_expr$11);
+                        tmp_if_expr_11 = (unsigned long int)100;
+                      mystrncpy(fromaddr, field->Buffer, (signed long int)tmp_if_expr_11);
                       break;
                     }
                     case 2:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$12 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_12 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$12 = (unsigned long int)100;
-                      mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr$12);
+                        tmp_if_expr_12 = (unsigned long int)100;
+                      mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr_12);
                       break;
                     }
                     case 3:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$13 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_13 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$13 = (unsigned long int)100;
-                      mystrncpy(toname, field->Buffer, (signed long int)tmp_if_expr$13);
+                        tmp_if_expr_13 = (unsigned long int)100;
+                      mystrncpy(toname, field->Buffer, (signed long int)tmp_if_expr_13);
                       break;
                     }
                     case 6:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$14 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_14 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$14 = (unsigned long int)100;
-                      mystrncpy(subject, field->Buffer, (signed long int)tmp_if_expr$14);
+                        tmp_if_expr_14 = (unsigned long int)100;
+                      mystrncpy(subject, field->Buffer, (signed long int)tmp_if_expr_14);
                       break;
                     }
                     case 2004:
                     {
                       if(!(1ul + field->DatLen >= 20ul))
-                        tmp_if_expr$15 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_15 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$15 = (unsigned long int)20;
-                      mystrncpy(timezone, field->Buffer, (signed long int)tmp_if_expr$15);
+                        tmp_if_expr_15 = (unsigned long int)20;
+                      mystrncpy(timezone, field->Buffer, (signed long int)tmp_if_expr_15);
                       break;
                     }
                     case 2000:
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$16 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_16 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$16 = (unsigned long int)100;
-                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$16);
-                      signed int return_value_strncasecmp$19;
-                      return_value_strncasecmp$19=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
-                      if(return_value_strncasecmp$19 == 0)
+                        tmp_if_expr_16 = (unsigned long int)100;
+                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_16);
+                      signed int return_value_strncasecmp_19;
+                      return_value_strncasecmp_19=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
+                      if(return_value_strncasecmp_19 == 0)
                       {
                         mystrncpy(chrs, &buf[(signed long int)6], (signed long int)20);
-                        char *return_value_strchr$18;
-                        return_value_strchr$18=strchr((const char *)chrs, 32);
-                        if(!(return_value_strchr$18 == ((char *)NULL)))
+                        char *return_value_strchr_18;
+                        return_value_strchr_18=strchr((const char *)chrs, 32);
+                        if(!(return_value_strchr_18 == ((char *)NULL)))
                         {
-                          return_value_strchr$17=strchr((const char *)chrs, 32);
-                          *return_value_strchr$17 = (char)0;
+                          return_value_strchr_17=strchr((const char *)chrs, 32);
+                          *return_value_strchr_17 = (char)0;
                         }
 
                         strip(chrs);
                       }
 
-                      signed int return_value_strncasecmp$20;
-                      return_value_strncasecmp$20=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
-                      if(return_value_strncasecmp$20 == 0)
+                      signed int return_value_strncasecmp_20;
+                      return_value_strncasecmp_20=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
+                      if(return_value_strncasecmp_20 == 0)
                         mystrncpy(chrs, &buf[(signed long int)9], (signed long int)20);
 
-                      signed int return_value_strncasecmp$21;
-                      return_value_strncasecmp$21=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
-                      if(return_value_strncasecmp$21 == 0)
+                      signed int return_value_strncasecmp_21;
+                      return_value_strncasecmp_21=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
+                      if(return_value_strncasecmp_21 == 0)
                         mystrncpy(codepage, &buf[(signed long int)10], (signed long int)20);
 
-                      signed int return_value_strncasecmp$22;
-                      return_value_strncasecmp$22=strncasecmp((const char *)buf, "REPLYADDR ", (unsigned long int)10);
-                      if(return_value_strncasecmp$22 == 0)
+                      signed int return_value_strncasecmp_22;
+                      return_value_strncasecmp_22=strncasecmp((const char *)buf, "REPLYADDR ", (unsigned long int)10);
+                      if(return_value_strncasecmp_22 == 0)
                         mystrncpy(replyaddr, &buf[(signed long int)10], (signed long int)100);
 
-                      signed int return_value_strncasecmp$23;
-                      return_value_strncasecmp$23=strncasecmp((const char *)buf, "REPLYADDR: ", (unsigned long int)11);
-                      if(return_value_strncasecmp$23 == 0)
+                      signed int return_value_strncasecmp_23;
+                      return_value_strncasecmp_23=strncasecmp((const char *)buf, "REPLYADDR: ", (unsigned long int)11);
+                      if(return_value_strncasecmp_23 == 0)
                         mystrncpy(replyaddr, &buf[(signed long int)11], (signed long int)100);
 
-                      signed int return_value_strncasecmp$24;
-                      return_value_strncasecmp$24=strncasecmp((const char *)buf, "TZUTC: ", (unsigned long int)7);
-                      if(return_value_strncasecmp$24 == 0)
+                      signed int return_value_strncasecmp_24;
+                      return_value_strncasecmp_24=strncasecmp((const char *)buf, "TZUTC: ", (unsigned long int)7);
+                      if(return_value_strncasecmp_24 == 0)
                         mystrncpy(timezone, &buf[(signed long int)7], (signed long int)20);
 
-                      signed int return_value_strncasecmp$25;
-                      return_value_strncasecmp$25=strncasecmp((const char *)buf, "TZUTCINFO: ", (unsigned long int)11);
-                      if(return_value_strncasecmp$25 == 0)
+                      signed int return_value_strncasecmp_25;
+                      return_value_strncasecmp_25=strncasecmp((const char *)buf, "TZUTCINFO: ", (unsigned long int)11);
+                      if(return_value_strncasecmp_25 == 0)
                         mystrncpy(timezone, &buf[(signed long int)11], (signed long int)20);
 
                     }
@@ -5889,12 +5889,12 @@ void command_xover(struct var *var)
                 access = 1;
                 if(!(var->currentgroup->netmail == 0))
                 {
-                  signed int return_value_matchname$27;
-                  return_value_matchname$27=matchname(var->realnames, fromname);
-                  if(return_value_matchname$27 == 0)
+                  signed int return_value_matchname_27;
+                  return_value_matchname_27=matchname(var->realnames, fromname);
+                  if(return_value_matchname_27 == 0)
                   {
-                    return_value_matchname$26=matchname(var->realnames, toname);
-                    if(return_value_matchname$26 == 0)
+                    return_value_matchname_26=matchname(var->realnames, toname);
+                    if(return_value_matchname_26 == 0)
                       access = 0;
 
                   }
@@ -5913,10 +5913,10 @@ void command_xover(struct var *var)
                     strcpy((char *)toname, "(none)");
 
                   makedate((signed long int)header.DateWritten, datebuf, timezone);
-                  sprintf((char *)msgid, "<%ld$%s@JamNNTPd>", c, (const void *)var->currentgroup->tagname);
+                  sprintf((char *)msgid, "<%ld_%s@JamNNTPd>", c, (const void *)var->currentgroup->tagname);
                   reply[(signed long int)0] = (unsigned char)0;
                   if(!(header.ReplyTo == 0ul))
-                    sprintf((char *)reply, "<%ld$%s@JamNNTPd>", header.ReplyTo, (const void *)var->currentgroup->tagname);
+                    sprintf((char *)reply, "<%ld_%s@JamNNTPd>", header.ReplyTo, (const void *)var->currentgroup->tagname);
 
                   if(!(var->opt_showto == 0))
                   {
@@ -5928,15 +5928,15 @@ void command_xover(struct var *var)
                   unsigned int net;
                   unsigned int node;
                   unsigned int point;
-                  signed int return_value_sscanf$29;
-                  return_value_sscanf$29=sscanf((const char *)fromaddr, "%u:%u/%u.%u", &zone, &net, &node, &point);
-                  if(return_value_sscanf$29 == 4)
+                  signed int return_value_sscanf_29;
+                  return_value_sscanf_29=sscanf((const char *)fromaddr, "%u:%u/%u.%u", &zone, &net, &node, &point);
+                  if(return_value_sscanf_29 == 4)
                     sprintf((char *)fromaddr, "%u@%u.%u.%u", point, node, net, zone);
 
                   else
                   {
-                    return_value_sscanf$28=sscanf((const char *)fromaddr, "%u:%u/%u", &zone, &net, &node);
-                    if(return_value_sscanf$28 == 3)
+                    return_value_sscanf_28=sscanf((const char *)fromaddr, "%u:%u/%u", &zone, &net, &node);
+                    if(return_value_sscanf_28 == 3)
                       sprintf((char *)fromaddr, "0@%u.%u.%u", node, net, zone);
 
                   }
@@ -5980,13 +5980,13 @@ void copyline(unsigned char *dest, unsigned char *src, signed long int len)
   signed int c;
   d = 0;
   c = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !((signed long int)c >= len); c = c + 1)
     if(!((signed int)src[(signed long int)c] == 10))
     {
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1;
-      dest[(signed long int)tmp_post$1] = src[(signed long int)c];
+      dest[(signed long int)tmp_post_1] = src[(signed long int)c];
     }
 
   dest[(signed long int)d] = (unsigned char)0;
@@ -6071,15 +6071,15 @@ void decodeb64(unsigned char *in, unsigned char *out)
   d = 0;
   num = (unsigned long int)0;
   count = 0;
-  _Bool tmp_if_expr$5;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  _Bool tmp_if_expr_5;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   while(!(in[(signed long int)c] == 0))
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr((const char *)b64, (signed int)in[(signed long int)c]);
-    found = (unsigned char *)return_value_strchr$1;
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr((const char *)b64, (signed int)in[(signed long int)c]);
+    found = (unsigned char *)return_value_strchr_1;
     if(!(found == ((unsigned char *)NULL)))
     {
       num = num << 6;
@@ -6088,11 +6088,11 @@ void decodeb64(unsigned char *in, unsigned char *out)
     }
 
     if(count == 4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)in[(signed long int)c] == 61 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)in[(signed long int)c] == 61 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(count == 3)
         num = num << 6;
@@ -6102,23 +6102,23 @@ void decodeb64(unsigned char *in, unsigned char *out)
 
       if(count >= 2)
       {
-        tmp_post$2 = d;
+        tmp_post_2 = d;
         d = d + 1;
-        out[(signed long int)tmp_post$2] = (unsigned char)(num >> 16 & (unsigned long int)0xff);
+        out[(signed long int)tmp_post_2] = (unsigned char)(num >> 16 & (unsigned long int)0xff);
       }
 
       if(count >= 3)
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1;
-        out[(signed long int)tmp_post$3] = (unsigned char)(num >> 8 & (unsigned long int)0xff);
+        out[(signed long int)tmp_post_3] = (unsigned char)(num >> 8 & (unsigned long int)0xff);
       }
 
       if(count == 4)
       {
-        tmp_post$4 = d;
+        tmp_post_4 = d;
         d = d + 1;
-        out[(signed long int)tmp_post$4] = (unsigned char)(num & (unsigned long int)0xff);
+        out[(signed long int)tmp_post_4] = (unsigned char)(num & (unsigned long int)0xff);
       }
 
       count = 0;
@@ -6141,9 +6141,9 @@ void decodeqpbody(unsigned char *in, unsigned char *out)
   unsigned char *hex = (unsigned char *)"0123456789ABCDEF";
   c = 0;
   d = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  for( ; !(in[(signed long int)c] == 0); out[(signed long int)tmp_post$1] = in[(signed long int)tmp_post$2])
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  for( ; !(in[(signed long int)c] == 0); out[(signed long int)tmp_post_1] = in[(signed long int)tmp_post_2])
   {
     if((signed int)in[(signed long int)c] == 13)
       for( ; d >= 1; d = d - 1)
@@ -6155,28 +6155,28 @@ void decodeqpbody(unsigned char *in, unsigned char *out)
         }
 
 
-    tmp_post$1 = d;
+    tmp_post_1 = d;
     d = d + 1;
-    tmp_post$2 = c;
+    tmp_post_2 = c;
     c = c + 1;
   }
   c = 0;
   d = 0;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
   while(!(out[(signed long int)c] == 0))
   {
     if((signed int)out[(signed long int)c] == 61)
-      tmp_if_expr$11 = (signed int)out[(signed long int)(c + 1)] == 13 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_11 = (signed int)out[(signed long int)(c + 1)] == 13 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = (_Bool)0;
+    if(tmp_if_expr_11)
     {
       c = c + 2;
       if((signed int)out[(signed long int)c] == 10)
@@ -6187,46 +6187,46 @@ void decodeqpbody(unsigned char *in, unsigned char *out)
     else
     {
       if((signed int)out[(signed long int)c] == 61)
-        tmp_if_expr$9 = out[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = out[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = out[(signed long int)(c + 2)] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = out[(signed long int)(c + 2)] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
       {
-        char *return_value_strchr$3;
-        return_value_strchr$3=strchr((const char *)hex, (signed int)out[(signed long int)(c + 1)]);
-        f1 = (unsigned char *)return_value_strchr$3;
-        char *return_value_strchr$4;
-        return_value_strchr$4=strchr((const char *)hex, (signed int)out[(signed long int)(c + 2)]);
-        f2 = (unsigned char *)return_value_strchr$4;
+        char *return_value_strchr_3;
+        return_value_strchr_3=strchr((const char *)hex, (signed int)out[(signed long int)(c + 1)]);
+        f1 = (unsigned char *)return_value_strchr_3;
+        char *return_value_strchr_4;
+        return_value_strchr_4=strchr((const char *)hex, (signed int)out[(signed long int)(c + 2)]);
+        f2 = (unsigned char *)return_value_strchr_4;
         if(f1 == ((unsigned char *)NULL) || f2 == ((unsigned char *)NULL))
         {
-          tmp_post$5 = d;
+          tmp_post_5 = d;
           d = d + 1;
-          out[(signed long int)tmp_post$5] = (unsigned char)63;
+          out[(signed long int)tmp_post_5] = (unsigned char)63;
         }
 
         else
         {
-          tmp_post$6 = d;
+          tmp_post_6 = d;
           d = d + 1;
-          out[(signed long int)tmp_post$6] = (unsigned char)((f1 - hex) * (signed long int)16 + (f2 - hex));
+          out[(signed long int)tmp_post_6] = (unsigned char)((f1 - hex) * (signed long int)16 + (f2 - hex));
         }
         c = c + 3;
       }
 
       else
       {
-        tmp_post$7 = d;
+        tmp_post_7 = d;
         d = d + 1;
-        tmp_post$8 = c;
+        tmp_post_8 = c;
         c = c + 1;
-        out[(signed long int)tmp_post$7] = out[(signed long int)tmp_post$8];
+        out[(signed long int)tmp_post_7] = out[(signed long int)tmp_post_8];
       }
     }
   }
@@ -6244,45 +6244,45 @@ void decodeqpheader(unsigned char *in, unsigned char *out)
   unsigned char *hex = (unsigned char *)"0123456789ABCDEF";
   c = 0;
   d = 0;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
   while(!(in[(signed long int)c] == 0))
   {
     if((signed int)in[(signed long int)c] == 61)
-      tmp_if_expr$8 = in[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = in[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = in[(signed long int)(c + 2)] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = in[(signed long int)(c + 2)] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
     {
-      char *return_value_strchr$1;
-      return_value_strchr$1=strchr((const char *)hex, (signed int)in[(signed long int)(c + 1)]);
-      f1 = (unsigned char *)return_value_strchr$1;
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr((const char *)hex, (signed int)in[(signed long int)(c + 2)]);
-      f2 = (unsigned char *)return_value_strchr$2;
+      char *return_value_strchr_1;
+      return_value_strchr_1=strchr((const char *)hex, (signed int)in[(signed long int)(c + 1)]);
+      f1 = (unsigned char *)return_value_strchr_1;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr((const char *)hex, (signed int)in[(signed long int)(c + 2)]);
+      f2 = (unsigned char *)return_value_strchr_2;
       if(f1 == ((unsigned char *)NULL) || f2 == ((unsigned char *)NULL))
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1;
-        out[(signed long int)tmp_post$3] = (unsigned char)63;
+        out[(signed long int)tmp_post_3] = (unsigned char)63;
       }
 
       else
       {
-        tmp_post$4 = d;
+        tmp_post_4 = d;
         d = d + 1;
-        out[(signed long int)tmp_post$4] = (unsigned char)((f1 - hex) * (signed long int)16 + (f2 - hex));
+        out[(signed long int)tmp_post_4] = (unsigned char)((f1 - hex) * (signed long int)16 + (f2 - hex));
       }
       c = c + 3;
     }
@@ -6290,19 +6290,19 @@ void decodeqpheader(unsigned char *in, unsigned char *out)
     else
       if((signed int)in[(signed long int)c] == 95)
       {
-        tmp_post$5 = d;
+        tmp_post_5 = d;
         d = d + 1;
-        out[(signed long int)tmp_post$5] = (unsigned char)32;
+        out[(signed long int)tmp_post_5] = (unsigned char)32;
         c = c + 1;
       }
 
       else
       {
-        tmp_post$6 = d;
+        tmp_post_6 = d;
         d = d + 1;
-        tmp_post$7 = c;
+        tmp_post_7 = c;
         c = c + 1;
-        out[(signed long int)tmp_post$6] = in[(signed long int)tmp_post$7];
+        out[(signed long int)tmp_post_6] = in[(signed long int)tmp_post_7];
       }
   }
   out[(signed long int)d] = (unsigned char)0;
@@ -6318,25 +6318,25 @@ signed int encodeb64(unsigned char *data, unsigned char *dest, unsigned char *sp
   unsigned char *b64 = (unsigned char *)"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
   c = 0;
   d = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
   while(!(data[(signed long int)c] == 0))
   {
     if(!(maxdestlen >= 4 + d))
       return c;
 
     if(!(data[(signed long int)c] == 0))
-      tmp_if_expr$2 = data[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = data[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = data[(signed long int)(c + 2)] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = data[(signed long int)(c + 2)] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       num = (unsigned long int)(((signed int)data[(signed long int)c] << 16) + ((signed int)data[(signed long int)(c + 1)] << 8) + (signed int)data[(signed long int)(c + 2)]);
       dest[(signed long int)d] = b64[(signed long int)(num >> 18 & (unsigned long int)63)];
@@ -6351,11 +6351,11 @@ signed int encodeb64(unsigned char *data, unsigned char *dest, unsigned char *sp
     else
     {
       if(!(data[(signed long int)c] == 0))
-        tmp_if_expr$1 = data[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = data[(signed long int)(c + 1)] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         num = (unsigned long int)(((signed int)data[(signed long int)c] << 16) + ((signed int)data[(signed long int)(c + 1)] << 8));
         dest[(signed long int)d] = b64[(signed long int)(num >> 18 & (unsigned long int)63)];
@@ -6392,38 +6392,38 @@ signed int encodeqp(unsigned char *data, unsigned char *dest, unsigned char *spe
   unsigned char buf[10l];
   c = 0;
   d = 0;
-  _Bool tmp_if_expr$7;
-  char *return_value_strchr$6;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  _Bool tmp_if_expr_7;
+  char *return_value_strchr_6;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   while(!(data[(signed long int)c] == 0))
   {
     if((signed int)data[(signed long int)c] >= 128)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strchr$6=strchr((const char *)specials, (signed int)data[(signed long int)c]);
-      tmp_if_expr$7 = return_value_strchr$6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_6=strchr((const char *)specials, (signed int)data[(signed long int)c]);
+      tmp_if_expr_7 = return_value_strchr_6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
       if(!(maxdestlen >= 3 + d))
         return c;
 
       sprintf((char *)buf, "%02X", data[(signed long int)c]);
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1;
-      dest[(signed long int)tmp_post$1] = (unsigned char)61;
-      tmp_post$2 = d;
+      dest[(signed long int)tmp_post_1] = (unsigned char)61;
+      tmp_post_2 = d;
       d = d + 1;
-      dest[(signed long int)tmp_post$2] = buf[(signed long int)0];
-      tmp_post$3 = d;
+      dest[(signed long int)tmp_post_2] = buf[(signed long int)0];
+      tmp_post_3 = d;
       d = d + 1;
-      dest[(signed long int)tmp_post$3] = buf[(signed long int)1];
+      dest[(signed long int)tmp_post_3] = buf[(signed long int)1];
       dest[(signed long int)d] = (unsigned char)0;
     }
 
@@ -6434,16 +6434,16 @@ signed int encodeqp(unsigned char *data, unsigned char *dest, unsigned char *spe
 
       if((signed int)data[(signed long int)c] == 32)
       {
-        tmp_post$4 = d;
+        tmp_post_4 = d;
         d = d + 1;
-        dest[(signed long int)tmp_post$4] = (unsigned char)95;
+        dest[(signed long int)tmp_post_4] = (unsigned char)95;
       }
 
       else
       {
-        tmp_post$5 = d;
+        tmp_post_5 = d;
         d = d + 1;
-        dest[(signed long int)tmp_post$5] = data[(signed long int)c];
+        dest[(signed long int)tmp_post_5] = data[(signed long int)c];
       }
       dest[(signed long int)d] = (unsigned char)0;
     }
@@ -6468,30 +6468,30 @@ struct xlat * findpostxlat(struct var *var, unsigned char *ichrs, unsigned char 
   }
 
   xlatalias = var->firstpostalias;
-  signed int return_value_matchpattern$1;
+  signed int return_value_matchpattern_1;
   for( ; !(xlatalias == ((struct xlatalias *)NULL)); xlatalias = xlatalias->next)
   {
-    return_value_matchpattern$1=matchpattern(xlatalias->pattern, chrs);
-    if(!(return_value_matchpattern$1 == 0))
+    return_value_matchpattern_1=matchpattern(xlatalias->pattern, chrs);
+    if(!(return_value_matchpattern_1 == 0))
       break;
 
   }
   if(!(xlatalias == ((struct xlatalias *)NULL)))
     mystrncpy(chrs, xlatalias->replace, (signed long int)20);
 
-  signed int return_value_matchpattern$3;
-  signed int return_value_matchpattern$2;
-  signed int return_value_matchpattern$4;
+  signed int return_value_matchpattern_3;
+  signed int return_value_matchpattern_2;
+  signed int return_value_matchpattern_4;
   if(!(destpat == ((unsigned char *)NULL)))
   {
     xlat = var->firstpostxlat;
     for( ; !(xlat == ((struct xlat *)NULL)); xlat = xlat->next)
     {
-      return_value_matchpattern$3=matchpattern(xlat->fromchrs, chrs);
-      if(!(return_value_matchpattern$3 == 0))
+      return_value_matchpattern_3=matchpattern(xlat->fromchrs, chrs);
+      if(!(return_value_matchpattern_3 == 0))
       {
-        return_value_matchpattern$2=matchpattern(destpat, xlat->tochrs);
-        if(!(return_value_matchpattern$2 == 0))
+        return_value_matchpattern_2=matchpattern(destpat, xlat->tochrs);
+        if(!(return_value_matchpattern_2 == 0))
           break;
 
       }
@@ -6504,8 +6504,8 @@ struct xlat * findpostxlat(struct var *var, unsigned char *ichrs, unsigned char 
     xlat = var->firstpostxlat;
     for( ; !(xlat == ((struct xlat *)NULL)); xlat = xlat->next)
     {
-      return_value_matchpattern$4=matchpattern(xlat->fromchrs, chrs);
-      if(!(return_value_matchpattern$4 == 0))
+      return_value_matchpattern_4=matchpattern(xlat->fromchrs, chrs);
+      if(!(return_value_matchpattern_4 == 0))
         break;
 
     }
@@ -6553,30 +6553,30 @@ struct xlat * findreadxlat(struct var *var, struct group *group, unsigned char *
   }
 
   xlatalias = var->firstreadalias;
-  signed int return_value_matchcharset$1;
+  signed int return_value_matchcharset_1;
   for( ; !(xlatalias == ((struct xlatalias *)NULL)); xlatalias = xlatalias->next)
   {
-    return_value_matchcharset$1=matchcharset(xlatalias->pattern, chrs, codepage);
-    if(!(return_value_matchcharset$1 == 0))
+    return_value_matchcharset_1=matchcharset(xlatalias->pattern, chrs, codepage);
+    if(!(return_value_matchcharset_1 == 0))
       break;
 
   }
   if(!(xlatalias == ((struct xlatalias *)NULL)))
     setchrscodepage(chrs, codepage, xlatalias->replace);
 
-  signed int return_value_matchcharset$3;
-  signed int return_value_matchpattern$2;
-  signed int return_value_matchcharset$4;
+  signed int return_value_matchcharset_3;
+  signed int return_value_matchpattern_2;
+  signed int return_value_matchcharset_4;
   if(!(destpat == ((unsigned char *)NULL)))
   {
     xlat = var->firstreadxlat;
     for( ; !(xlat == ((struct xlat *)NULL)); xlat = xlat->next)
     {
-      return_value_matchcharset$3=matchcharset(xlat->fromchrs, chrs, codepage);
-      if(!(return_value_matchcharset$3 == 0))
+      return_value_matchcharset_3=matchcharset(xlat->fromchrs, chrs, codepage);
+      if(!(return_value_matchcharset_3 == 0))
       {
-        return_value_matchpattern$2=matchpattern(destpat, xlat->tochrs);
-        if(!(return_value_matchpattern$2 == 0))
+        return_value_matchpattern_2=matchpattern(destpat, xlat->tochrs);
+        if(!(return_value_matchpattern_2 == 0))
           break;
 
       }
@@ -6589,8 +6589,8 @@ struct xlat * findreadxlat(struct var *var, struct group *group, unsigned char *
     xlat = var->firstreadxlat;
     for( ; !(xlat == ((struct xlat *)NULL)); xlat = xlat->next)
     {
-      return_value_matchcharset$4=matchcharset(xlat->fromchrs, chrs, codepage);
-      if(!(return_value_matchcharset$4 == 0))
+      return_value_matchcharset_4=matchcharset(xlat->fromchrs, chrs, codepage);
+      if(!(return_value_matchcharset_4 == 0))
         break;
 
     }
@@ -6600,12 +6600,12 @@ struct xlat * findreadxlat(struct var *var, struct group *group, unsigned char *
 
 // freadjambaseheader
 // file structrw.h line 71
-signed int freadjambaseheader(struct _IO_FILE *fp, struct anonymous$4 *s_JamBaseHeader)
+signed int freadjambaseheader(struct _IO_FILE *fp, struct anonymous_4 *s_JamBaseHeader)
 {
   unsigned char buf[1024l];
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)buf, (unsigned long int)1024, (unsigned long int)1, fp);
-  if(!(return_value_fread$1 == 1ul))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)buf, (unsigned long int)1024, (unsigned long int)1, fp);
+  if(!(return_value_fread_1 == 1ul))
     return 0;
 
   else
@@ -6626,9 +6626,9 @@ signed int freadjambaseheader(struct _IO_FILE *fp, struct anonymous$4 *s_JamBase
 signed int freadjamindex(struct _IO_FILE *fp, struct anonymous *s_JamIndex)
 {
   unsigned char buf[8l];
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)buf, (unsigned long int)8, (unsigned long int)1, fp);
-  if(!(return_value_fread$1 == 1ul))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)buf, (unsigned long int)8, (unsigned long int)1, fp);
+  if(!(return_value_fread_1 == 1ul))
     return 0;
 
   else
@@ -6641,12 +6641,12 @@ signed int freadjamindex(struct _IO_FILE *fp, struct anonymous *s_JamIndex)
 
 // freadjamlastread
 // file structrw.h line 80
-signed int freadjamlastread(struct _IO_FILE *fp, struct anonymous$2 *s_JamLastRead)
+signed int freadjamlastread(struct _IO_FILE *fp, struct anonymous_2 *s_JamLastRead)
 {
   unsigned char buf[16l];
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)buf, (unsigned long int)16, (unsigned long int)1, fp);
-  if(!(return_value_fread$1 == 1ul))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)buf, (unsigned long int)16, (unsigned long int)1, fp);
+  if(!(return_value_fread_1 == 1ul))
     return 0;
 
   else
@@ -6661,12 +6661,12 @@ signed int freadjamlastread(struct _IO_FILE *fp, struct anonymous$2 *s_JamLastRe
 
 // freadjammsgheader
 // file structrw.h line 74
-signed int freadjammsgheader(struct _IO_FILE *fp, struct anonymous$5 *s_JamMsgHeader)
+signed int freadjammsgheader(struct _IO_FILE *fp, struct anonymous_5 *s_JamMsgHeader)
 {
   unsigned char buf[76l];
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)buf, (unsigned long int)76, (unsigned long int)1, fp);
-  if(!(return_value_fread$1 == 1ul))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)buf, (unsigned long int)76, (unsigned long int)1, fp);
+  if(!(return_value_fread_1 == 1ul))
     return 0;
 
   else
@@ -6751,7 +6751,7 @@ void freexlat(struct var *var)
 
 // fwritejambaseheader
 // file structrw.h line 72
-signed int fwritejambaseheader(struct _IO_FILE *fp, struct anonymous$4 *s_JamBaseHeader)
+signed int fwritejambaseheader(struct _IO_FILE *fp, struct anonymous_4 *s_JamBaseHeader)
 {
   unsigned char buf[1024l];
   memcpy((void *)&buf[(signed long int)0], (const void *)s_JamBaseHeader->Signature, (unsigned long int)4);
@@ -6761,9 +6761,9 @@ signed int fwritejambaseheader(struct _IO_FILE *fp, struct anonymous$4 *s_JamBas
   jamputulong(buf, (unsigned long int)16, s_JamBaseHeader->PasswordCRC);
   jamputulong(buf, (unsigned long int)20, s_JamBaseHeader->BaseMsgNum);
   memcpy((void *)&buf[(signed long int)24], (const void *)s_JamBaseHeader->RSRVD, (unsigned long int)1000);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)1024, (unsigned long int)1, fp);
-  if(!(return_value_fwrite$1 == 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)1024, (unsigned long int)1, fp);
+  if(!(return_value_fwrite_1 == 1ul))
     return 0;
 
   else
@@ -6777,9 +6777,9 @@ signed int fwritejamindex(struct _IO_FILE *fp, struct anonymous *s_JamIndex)
   unsigned char buf[8l];
   jamputulong(buf, (unsigned long int)0, s_JamIndex->UserCRC);
   jamputulong(buf, (unsigned long int)4, s_JamIndex->HdrOffset);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)8, (unsigned long int)1, fp);
-  if(!(return_value_fwrite$1 == 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)8, (unsigned long int)1, fp);
+  if(!(return_value_fwrite_1 == 1ul))
     return 0;
 
   else
@@ -6788,16 +6788,16 @@ signed int fwritejamindex(struct _IO_FILE *fp, struct anonymous *s_JamIndex)
 
 // fwritejamlastread
 // file structrw.h line 81
-signed int fwritejamlastread(struct _IO_FILE *fp, struct anonymous$2 *s_JamLastRead)
+signed int fwritejamlastread(struct _IO_FILE *fp, struct anonymous_2 *s_JamLastRead)
 {
   unsigned char buf[16l];
   jamputulong(buf, (unsigned long int)0, s_JamLastRead->UserCRC);
   jamputulong(buf, (unsigned long int)4, s_JamLastRead->UserID);
   jamputulong(buf, (unsigned long int)8, s_JamLastRead->LastReadMsg);
   jamputulong(buf, (unsigned long int)12, s_JamLastRead->HighReadMsg);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)16, (unsigned long int)1, fp);
-  if(!(return_value_fwrite$1 == 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)16, (unsigned long int)1, fp);
+  if(!(return_value_fwrite_1 == 1ul))
     return 0;
 
   else
@@ -6806,7 +6806,7 @@ signed int fwritejamlastread(struct _IO_FILE *fp, struct anonymous$2 *s_JamLastR
 
 // fwritejammsgheader
 // file structrw.h line 75
-signed int fwritejammsgheader(struct _IO_FILE *fp, struct anonymous$5 *s_JamMsgHeader)
+signed int fwritejammsgheader(struct _IO_FILE *fp, struct anonymous_5 *s_JamMsgHeader)
 {
   unsigned char buf[76l];
   memcpy((void *)&buf[(signed long int)0], (const void *)s_JamMsgHeader->Signature, (unsigned long int)4);
@@ -6829,9 +6829,9 @@ signed int fwritejammsgheader(struct _IO_FILE *fp, struct anonymous$5 *s_JamMsgH
   jamputulong(buf, (unsigned long int)64, s_JamMsgHeader->TxtLen);
   jamputulong(buf, (unsigned long int)68, s_JamMsgHeader->PasswordCRC);
   jamputulong(buf, (unsigned long int)72, s_JamMsgHeader->Cost);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)76, (unsigned long int)1, fp);
-  if(!(return_value_fwrite$1 == 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)76, (unsigned long int)1, fp);
+  if(!(return_value_fwrite_1 == 1ul))
     return 0;
 
   else
@@ -6840,15 +6840,15 @@ signed int fwritejammsgheader(struct _IO_FILE *fp, struct anonymous$5 *s_JamMsgH
 
 // fwritejamsavesubfield
 // file structrw.h line 83
-signed int fwritejamsavesubfield(struct _IO_FILE *fp, struct anonymous$0 *s_JamSaveSubfield)
+signed int fwritejamsavesubfield(struct _IO_FILE *fp, struct anonymous_0 *s_JamSaveSubfield)
 {
   unsigned char buf[16l];
   jamputuword(buf, (unsigned long int)0, s_JamSaveSubfield->LoID);
   jamputuword(buf, (unsigned long int)2, s_JamSaveSubfield->HiID);
   jamputulong(buf, (unsigned long int)4, s_JamSaveSubfield->DatLen);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)8, (unsigned long int)1, fp);
-  if(!(return_value_fwrite$1 == 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)8, (unsigned long int)1, fp);
+  if(!(return_value_fwrite_1 == 1ul))
     return 0;
 
   else
@@ -6861,9 +6861,9 @@ unsigned long int get_msgid_num(void)
 {
   unsigned long int msgidnum;
   os_getexclusive();
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  msgidnum = (unsigned long int)((return_value_time$1 / (signed long int)10) * (signed long int)10);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  msgidnum = (unsigned long int)((return_value_time_1 / (signed long int)10) * (signed long int)10);
   if(lastmsgidnum >= msgidnum)
     msgidnum = lastmsgidnum + (unsigned long int)1;
 
@@ -6901,11 +6901,11 @@ signed int getcfgword(unsigned char *line, unsigned long int *pos, unsigned char
   signed int quote;
   unsigned long int begin;
   quote = 0;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0)
       break;
 
     if((signed int)line[(signed long int)*pos] == 0)
@@ -6914,7 +6914,7 @@ signed int getcfgword(unsigned char *line, unsigned long int *pos, unsigned char
     *pos = *pos + 1ul;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   if((signed int)line[(signed long int)*pos] == 0)
     return 0;
 
@@ -6929,8 +6929,8 @@ signed int getcfgword(unsigned char *line, unsigned long int *pos, unsigned char
     begin = *pos;
     for( ; !((signed int)line[(signed long int)*pos] == 0); *pos = *pos + 1ul)
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0))
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)line[(signed long int)*pos]]) == 0))
       {
         if(quote == 0)
           break;
@@ -6964,16 +6964,16 @@ signed int getcomma(unsigned char *line, unsigned long int *pos, unsigned char *
   unsigned long int d;
   c = *pos;
   d = (unsigned long int)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int tmp_post$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int tmp_post_1;
   do
   {
     if((signed int)line[(signed long int)c] == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)line[(signed long int)c] == 44 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)line[(signed long int)c] == 44 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!((signed int)line[(signed long int)c] == 0))
         c = c + 1ul;
@@ -6990,9 +6990,9 @@ signed int getcomma(unsigned char *line, unsigned long int *pos, unsigned char *
     else
       if(!(d >= destlen + 18446744073709551615ul))
       {
-        tmp_post$1 = d;
+        tmp_post_1 = d;
         d = d + 1ul;
-        dest[(signed long int)tmp_post$1] = line[(signed long int)c];
+        dest[(signed long int)tmp_post_1] = line[(signed long int)c];
       }
 
     c = c + 1ul;
@@ -7010,20 +7010,20 @@ signed int getcontenttypepart(unsigned char *line, unsigned long int *pos, unsig
   quote = 0;
   c = *pos;
   d = (unsigned long int)0;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)line[(signed long int)c]]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)line[(signed long int)c]]) == 0)
       break;
 
     c = c + 1ul;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  unsigned long int tmp_post$2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  unsigned long int tmp_post_2;
   if((signed int)line[(signed long int)c] == 0)
   {
     *pos = c;
@@ -7045,11 +7045,11 @@ signed int getcontenttypepart(unsigned char *line, unsigned long int *pos, unsig
       else
       {
         if((signed int)line[(signed long int)c] == 0)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = ((signed int)line[(signed long int)c] == 59 ? (!(quote != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = ((signed int)line[(signed long int)c] == 59 ? (!(quote != 0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           if(!((signed int)line[(signed long int)c] == 0))
             c = c + 1ul;
@@ -7062,20 +7062,20 @@ signed int getcontenttypepart(unsigned char *line, unsigned long int *pos, unsig
         else
         {
           if(!(quote == 0))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$3=__ctype_b_loc();
-            tmp_if_expr$4 = !(((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)line[(signed long int)c]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_3=__ctype_b_loc();
+            tmp_if_expr_4 = !(((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)line[(signed long int)c]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
           {
             if(!(d >= destlen + 18446744073709551615ul))
             {
-              tmp_post$2 = d;
+              tmp_post_2 = d;
               d = d + 1ul;
-              dest[(signed long int)tmp_post$2] = line[(signed long int)c];
+              dest[(signed long int)tmp_post_2] = line[(signed long int)c];
             }
 
           }
@@ -7088,7 +7088,7 @@ signed int getcontenttypepart(unsigned char *line, unsigned long int *pos, unsig
 
 // getjamsubfield
 // file structrw.h line 84
-void getjamsubfield(unsigned char *buf, struct anonymous$6 *Subfield_S)
+void getjamsubfield(unsigned char *buf, struct anonymous_6 *Subfield_S)
 {
   Subfield_S->LoID=jamgetuword(buf, (unsigned long int)0);
   Subfield_S->HiID=jamgetuword(buf, (unsigned long int)2);
@@ -7104,10 +7104,10 @@ void getparentinfo(struct var *var, unsigned char *article, unsigned char *curre
   unsigned char *pc;
   struct group *group;
   unsigned long int articlenum;
-  struct anonymous$4 baseheader;
-  struct anonymous$8 *subpack;
-  struct anonymous$5 header;
-  struct anonymous$6 *field;
+  struct anonymous_4 baseheader;
+  struct anonymous_8 *subpack;
+  struct anonymous_5 header;
+  struct anonymous_6 *field;
   signed int res;
   unsigned long int count;
   unsigned char buf[100l];
@@ -7123,55 +7123,55 @@ void getparentinfo(struct var *var, unsigned char *article, unsigned char *curre
   fromname[(signed long int)0] = (unsigned char)0;
   fromaddr[(signed long int)0] = (unsigned char)0;
   *msgnum = (unsigned long int)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!((signed int)*article == 60))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen((const char *)article);
-    tmp_if_expr$2 = (signed int)article[(signed long int)(return_value_strlen$1 - (unsigned long int)1)] != 62 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen((const char *)article);
+    tmp_if_expr_2 = (signed int)article[(signed long int)(return_value_strlen_1 - (unsigned long int)1)] != 62 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_matchgroup$8;
-  signed int return_value_strcasecmp$7;
-  unsigned long int tmp_if_expr$13;
-  unsigned long int tmp_if_expr$14;
-  unsigned long int tmp_if_expr$15;
-  unsigned long int tmp_if_expr$16;
-  unsigned long int tmp_if_expr$17;
-  char *return_value_strchr$18;
-  signed int return_value_matchname$23;
-  if(!tmp_if_expr$2)
+  signed int return_value_matchgroup_8;
+  signed int return_value_strcasecmp_7;
+  unsigned long int tmp_if_expr_13;
+  unsigned long int tmp_if_expr_14;
+  unsigned long int tmp_if_expr_15;
+  unsigned long int tmp_if_expr_16;
+  unsigned long int tmp_if_expr_17;
+  char *return_value_strchr_18;
+  signed int return_value_matchname_23;
+  if(!tmp_if_expr_2)
   {
     strcpy((char *)article, (const char *)&article[(signed long int)1]);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen((const char *)article);
-    article[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (unsigned char)0;
-    char *return_value_strchr$4;
-    return_value_strchr$4=strchr((const char *)article, 64);
-    at = (unsigned char *)return_value_strchr$4;
-    char *return_value_strchr$5;
-    return_value_strchr$5=strchr((const char *)article, 36);
-    pc = (unsigned char *)return_value_strchr$5;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen((const char *)article);
+    article[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (unsigned char)0;
+    char *return_value_strchr_4;
+    return_value_strchr_4=strchr((const char *)article, 64);
+    at = (unsigned char *)return_value_strchr_4;
+    char *return_value_strchr_5;
+    return_value_strchr_5=strchr((const char *)article, 36);
+    pc = (unsigned char *)return_value_strchr_5;
     if(!(at == ((unsigned char *)NULL)) && !(pc == ((unsigned char *)NULL)))
     {
       *at = (unsigned char)0;
       *pc = (unsigned char)0;
       at = at + 1l;
       pc = pc + 1l;
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp((const char *)at, "JamNNTPd");
-      if(return_value_strcmp$6 == 0)
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp((const char *)at, "JamNNTPd");
+      if(return_value_strcmp_6 == 0)
       {
         group = var->firstgroup;
         for( ; !(group == ((struct group *)NULL)); group = group->next)
         {
-          return_value_matchgroup$8=matchgroup(var->readgroups, group->group);
-          if(!(return_value_matchgroup$8 == 0))
+          return_value_matchgroup_8=matchgroup(var->readgroups, group->group);
+          if(!(return_value_matchgroup_8 == 0))
           {
-            return_value_strcasecmp$7=strcasecmp((const char *)pc, (const char *)group->tagname);
-            if(return_value_strcasecmp$7 == 0)
+            return_value_strcasecmp_7=strcasecmp((const char *)pc, (const char *)group->tagname);
+            if(return_value_strcasecmp_7 == 0)
               break;
 
           }
@@ -7179,21 +7179,21 @@ void getparentinfo(struct var *var, unsigned char *article, unsigned char *curre
         }
         if(!(group == ((struct group *)NULL)))
         {
-          signed long int return_value_atol$9;
-          return_value_atol$9=atol((const char *)article);
-          articlenum = (unsigned long int)return_value_atol$9;
-          signed int return_value_strcasecmp$10;
-          return_value_strcasecmp$10=strcasecmp((const char *)pc, (const char *)currentgroup);
-          if(return_value_strcasecmp$10 == 0)
+          signed long int return_value_atol_9;
+          return_value_atol_9=atol((const char *)article);
+          articlenum = (unsigned long int)return_value_atol_9;
+          signed int return_value_strcasecmp_10;
+          return_value_strcasecmp_10=strcasecmp((const char *)pc, (const char *)currentgroup);
+          if(return_value_strcasecmp_10 == 0)
             *msgnum = articlenum;
 
-          signed int return_value_jamopenarea$11;
-          return_value_jamopenarea$11=jamopenarea(var, group);
-          if(!(return_value_jamopenarea$11 == 0))
+          signed int return_value_jamopenarea_11;
+          return_value_jamopenarea_11=jamopenarea(var, group);
+          if(!(return_value_jamopenarea_11 == 0))
           {
-            signed int return_value_JAM_ReadMBHeader$12;
-            return_value_JAM_ReadMBHeader$12=JAM_ReadMBHeader(var->openmb, &baseheader);
-            if(!(return_value_JAM_ReadMBHeader$12 == 0))
+            signed int return_value_JAM_ReadMBHeader_12;
+            return_value_JAM_ReadMBHeader_12=JAM_ReadMBHeader(var->openmb, &baseheader);
+            if(!(return_value_JAM_ReadMBHeader_12 == 0))
               os_logwrite((unsigned char *)"(%s) Could not read messagebase header of \"%s\"", (const void *)var->clientid, (const void *)var->opengroup->jampath);
 
             else
@@ -7221,81 +7221,81 @@ void getparentinfo(struct var *var, unsigned char *article, unsigned char *curre
                   do
                   {
                     field=JAM_GetSubfield_R(subpack, &count);
-                    if(field == ((struct anonymous$6 *)NULL))
+                    if(field == ((struct anonymous_6 *)NULL))
                       break;
 
                     if((signed int)field->LoID == 4)
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$13 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_13 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$13 = (unsigned long int)100;
-                      mystrncpy(jam_msgid, field->Buffer, (signed long int)tmp_if_expr$13);
+                        tmp_if_expr_13 = (unsigned long int)100;
+                      mystrncpy(jam_msgid, field->Buffer, (signed long int)tmp_if_expr_13);
                     }
 
                     if((signed int)field->LoID == 2)
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$14 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_14 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$14 = (unsigned long int)100;
-                      mystrncpy(jam_fromname, field->Buffer, (signed long int)tmp_if_expr$14);
+                        tmp_if_expr_14 = (unsigned long int)100;
+                      mystrncpy(jam_fromname, field->Buffer, (signed long int)tmp_if_expr_14);
                     }
 
                     if((signed int)field->LoID == 0)
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$15 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_15 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$15 = (unsigned long int)100;
-                      mystrncpy(jam_fromaddr, field->Buffer, (signed long int)tmp_if_expr$15);
+                        tmp_if_expr_15 = (unsigned long int)100;
+                      mystrncpy(jam_fromaddr, field->Buffer, (signed long int)tmp_if_expr_15);
                     }
 
                     if((signed int)field->LoID == 3)
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$16 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_16 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$16 = (unsigned long int)100;
-                      mystrncpy(jam_toname, field->Buffer, (signed long int)tmp_if_expr$16);
+                        tmp_if_expr_16 = (unsigned long int)100;
+                      mystrncpy(jam_toname, field->Buffer, (signed long int)tmp_if_expr_16);
                     }
 
                     if((signed int)field->LoID == 2000)
                     {
                       if(!(1ul + field->DatLen >= 100ul))
-                        tmp_if_expr$17 = field->DatLen + (unsigned long int)1;
+                        tmp_if_expr_17 = field->DatLen + (unsigned long int)1;
 
                       else
-                        tmp_if_expr$17 = (unsigned long int)100;
-                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$17);
-                      signed int return_value_strncasecmp$20;
-                      return_value_strncasecmp$20=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
-                      if(return_value_strncasecmp$20 == 0)
+                        tmp_if_expr_17 = (unsigned long int)100;
+                      mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_17);
+                      signed int return_value_strncasecmp_20;
+                      return_value_strncasecmp_20=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
+                      if(return_value_strncasecmp_20 == 0)
                       {
                         mystrncpy(jam_chrs, &buf[(signed long int)6], (signed long int)20);
-                        char *return_value_strchr$19;
-                        return_value_strchr$19=strchr((const char *)jam_chrs, 32);
-                        if(!(return_value_strchr$19 == ((char *)NULL)))
+                        char *return_value_strchr_19;
+                        return_value_strchr_19=strchr((const char *)jam_chrs, 32);
+                        if(!(return_value_strchr_19 == ((char *)NULL)))
                         {
-                          return_value_strchr$18=strchr((const char *)jam_chrs, 32);
-                          *return_value_strchr$18 = (char)0;
+                          return_value_strchr_18=strchr((const char *)jam_chrs, 32);
+                          *return_value_strchr_18 = (char)0;
                         }
 
                         strip(jam_chrs);
                       }
 
-                      signed int return_value_strncasecmp$21;
-                      return_value_strncasecmp$21=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
-                      if(return_value_strncasecmp$21 == 0)
+                      signed int return_value_strncasecmp_21;
+                      return_value_strncasecmp_21=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
+                      if(return_value_strncasecmp_21 == 0)
                         mystrncpy(jam_chrs, &buf[(signed long int)9], (signed long int)20);
 
-                      signed int return_value_strncasecmp$22;
-                      return_value_strncasecmp$22=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
-                      if(return_value_strncasecmp$22 == 0)
+                      signed int return_value_strncasecmp_22;
+                      return_value_strncasecmp_22=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
+                      if(return_value_strncasecmp_22 == 0)
                         mystrncpy(jam_codepage, &buf[(signed long int)10], (signed long int)20);
 
                     }
@@ -7327,12 +7327,12 @@ void getparentinfo(struct var *var, unsigned char *article, unsigned char *curre
 
                   if(!(group->netmail == 0))
                   {
-                    signed int return_value_matchname$24;
-                    return_value_matchname$24=matchname(var->realnames, jam_fromname);
-                    if(return_value_matchname$24 == 0)
+                    signed int return_value_matchname_24;
+                    return_value_matchname_24=matchname(var->realnames, jam_fromname);
+                    if(return_value_matchname_24 == 0)
                     {
-                      return_value_matchname$23=matchname(var->realnames, jam_toname);
-                      if(return_value_matchname$23 == 0)
+                      return_value_matchname_23=matchname(var->realnames, jam_toname);
+                      if(return_value_matchname_23 == 0)
                       {
                         JAM_DelSubPacket(subpack);
                         goto __CPROVER_DUMP_L42;
@@ -7398,9 +7398,9 @@ __CPROVER_DUMP_L42:
 // file misc.h line 11
 signed int ispattern(unsigned char *pat)
 {
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr((const char *)pat, 42);
-  if(!(return_value_strchr$1 == ((char *)NULL)))
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr((const char *)pat, 42);
+  if(!(return_value_strchr_1 == ((char *)NULL)))
     return 1;
 
   else
@@ -7409,7 +7409,7 @@ signed int ispattern(unsigned char *pat)
 
 // jam_Lock
 // file mbase.c line 445
-signed int jam_Lock(struct anonymous$7 *Base_PS, signed int DoLock_I)
+signed int jam_Lock(struct anonymous_7 *Base_PS, signed int DoLock_I)
 {
   signed int Handle_I;
   signed int Status_I;
@@ -7418,9 +7418,9 @@ signed int jam_Lock(struct anonymous$7 *Base_PS, signed int DoLock_I)
   Handle_I=fileno(Base_PS->HdrFile_PS);
   if(Handle_I == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_1;
     return 2;
   }
 
@@ -7436,9 +7436,9 @@ signed int jam_Lock(struct anonymous$7 *Base_PS, signed int DoLock_I)
   Status_I=fcntl(Handle_I, 6, &fl);
   if(!(Status_I == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_2;
     return 3;
   }
 
@@ -7452,16 +7452,16 @@ signed int jam_Lock(struct anonymous$7 *Base_PS, signed int DoLock_I)
 
 // jam_Open
 // file mbase.c line 547
-signed int jam_Open(struct anonymous$7 *Base_PS, unsigned char *Basename_PC, char *Mode_PC)
+signed int jam_Open(struct anonymous_7 *Base_PS, unsigned char *Basename_PC, char *Mode_PC)
 {
   unsigned char Filename_AC[250l];
   sprintf((char *)Filename_AC, "%s%s", Basename_PC, (const void *)".jhr");
   Base_PS->HdrFile_PS=fopen((const char *)Filename_AC, Mode_PC);
   if(Base_PS->HdrFile_PS == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_1;
     return 2;
   }
 
@@ -7469,9 +7469,9 @@ signed int jam_Open(struct anonymous$7 *Base_PS, unsigned char *Basename_PC, cha
   Base_PS->TxtFile_PS=fopen((const char *)Filename_AC, Mode_PC);
   if(Base_PS->TxtFile_PS == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_2;
     fclose(Base_PS->HdrFile_PS);
     Base_PS->HdrFile_PS = (struct _IO_FILE *)(void *)0;
     return 2;
@@ -7481,9 +7481,9 @@ signed int jam_Open(struct anonymous$7 *Base_PS, unsigned char *Basename_PC, cha
   Base_PS->IdxFile_PS=fopen((const char *)Filename_AC, Mode_PC);
   if(Base_PS->IdxFile_PS == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_3;
     fclose(Base_PS->HdrFile_PS);
     Base_PS->HdrFile_PS = (struct _IO_FILE *)(void *)0;
     fclose(Base_PS->TxtFile_PS);
@@ -7495,9 +7495,9 @@ signed int jam_Open(struct anonymous$7 *Base_PS, unsigned char *Basename_PC, cha
   Base_PS->LrdFile_PS=fopen((const char *)Filename_AC, Mode_PC);
   if(Base_PS->LrdFile_PS == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    Base_PS->Errno_I = *return_value___errno_location$4;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    Base_PS->Errno_I = *return_value___errno_location_4;
     fclose(Base_PS->HdrFile_PS);
     Base_PS->HdrFile_PS = (struct _IO_FILE *)(void *)0;
     fclose(Base_PS->TxtFile_PS);
@@ -7514,26 +7514,26 @@ signed int jam_Open(struct anonymous$7 *Base_PS, unsigned char *Basename_PC, cha
 // file nntpserv.c line 127
 signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long int *min, unsigned long int *max, unsigned long int *num)
 {
-  struct anonymous$4 baseheader;
-  signed int return_value_jamopenarea$1;
-  return_value_jamopenarea$1=jamopenarea(var, group);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_get_server_quit$5;
-  unsigned long int tmp_if_expr$7;
-  unsigned long int tmp_if_expr$8;
-  unsigned long int tmp_if_expr$9;
-  char *return_value_strchr$10;
-  _Bool tmp_if_expr$17;
-  signed int return_value_matchname$16;
-  if(return_value_jamopenarea$1 == 0)
+  struct anonymous_4 baseheader;
+  signed int return_value_jamopenarea_1;
+  return_value_jamopenarea_1=jamopenarea(var, group);
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_get_server_quit_5;
+  unsigned long int tmp_if_expr_7;
+  unsigned long int tmp_if_expr_8;
+  unsigned long int tmp_if_expr_9;
+  char *return_value_strchr_10;
+  _Bool tmp_if_expr_17;
+  signed int return_value_matchname_16;
+  if(return_value_jamopenarea_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_JAM_GetMBSize$2;
-    return_value_JAM_GetMBSize$2=JAM_GetMBSize(var->openmb, num);
-    if(!(return_value_JAM_GetMBSize$2 == 0))
+    signed int return_value_JAM_GetMBSize_2;
+    return_value_JAM_GetMBSize_2=JAM_GetMBSize(var->openmb, num);
+    if(!(return_value_JAM_GetMBSize_2 == 0))
     {
       os_logwrite((unsigned char *)"(%s) Failed to get size of JAM area \"%s\"", (const void *)var->clientid, (const void *)group->jampath);
       return 0;
@@ -7549,9 +7549,9 @@ signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long i
 
       else
       {
-        signed int return_value_JAM_ReadMBHeader$3;
-        return_value_JAM_ReadMBHeader$3=JAM_ReadMBHeader(var->openmb, &baseheader);
-        if(!(return_value_JAM_ReadMBHeader$3 == 0))
+        signed int return_value_JAM_ReadMBHeader_3;
+        return_value_JAM_ReadMBHeader_3=JAM_ReadMBHeader(var->openmb, &baseheader);
+        if(!(return_value_JAM_ReadMBHeader_3 == 0))
         {
           os_logwrite((unsigned char *)"(%s) Failed to read header of JAM area \"%s\"", (const void *)var->clientid, (const void *)group->jampath);
           return 0;
@@ -7578,9 +7578,9 @@ signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long i
               unsigned long int count;
               unsigned long int c;
               signed int res;
-              struct anonymous$8 *subpack;
-              struct anonymous$5 header;
-              struct anonymous$6 *field;
+              struct anonymous_8 *subpack;
+              struct anonymous_5 header;
+              struct anonymous_6 *field;
               netmin = (unsigned long int)0;
               netmax = (unsigned long int)0;
               netnum = (unsigned long int)0;
@@ -7588,19 +7588,19 @@ signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long i
               do
               {
                 if(*max >= c)
-                  tmp_if_expr$4 = !(var->disconnect != 0) ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_4 = !(var->disconnect != 0) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$4 = (_Bool)0;
-                if(tmp_if_expr$4)
+                  tmp_if_expr_4 = (_Bool)0;
+                if(tmp_if_expr_4)
                 {
-                  return_value_get_server_quit$5=get_server_quit();
-                  tmp_if_expr$6 = !(return_value_get_server_quit$5 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_get_server_quit_5=get_server_quit();
+                  tmp_if_expr_6 = !(return_value_get_server_quit_5 != 0) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$6 = (_Bool)0;
-                if(!tmp_if_expr$6)
+                  tmp_if_expr_6 = (_Bool)0;
+                if(!tmp_if_expr_6)
                   break;
 
                 res=JAM_ReadMsgHeader(var->openmb, c - baseheader.BaseMsgNum, &header, &subpack);
@@ -7616,7 +7616,7 @@ signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long i
                     do
                     {
                       field=JAM_GetSubfield_R(subpack, &count);
-                      if(field == ((struct anonymous$6 *)NULL))
+                      if(field == ((struct anonymous_6 *)NULL))
                         break;
 
                       switch((signed int)field->LoID)
@@ -7624,55 +7624,55 @@ signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long i
                         case 2:
                         {
                           if(!(1ul + field->DatLen >= 100ul))
-                            tmp_if_expr$7 = field->DatLen + (unsigned long int)1;
+                            tmp_if_expr_7 = field->DatLen + (unsigned long int)1;
 
                           else
-                            tmp_if_expr$7 = (unsigned long int)100;
-                          mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr$7);
+                            tmp_if_expr_7 = (unsigned long int)100;
+                          mystrncpy(fromname, field->Buffer, (signed long int)tmp_if_expr_7);
                           break;
                         }
                         case 3:
                         {
                           if(!(1ul + field->DatLen >= 100ul))
-                            tmp_if_expr$8 = field->DatLen + (unsigned long int)1;
+                            tmp_if_expr_8 = field->DatLen + (unsigned long int)1;
 
                           else
-                            tmp_if_expr$8 = (unsigned long int)100;
-                          mystrncpy(toname, field->Buffer, (signed long int)tmp_if_expr$8);
+                            tmp_if_expr_8 = (unsigned long int)100;
+                          mystrncpy(toname, field->Buffer, (signed long int)tmp_if_expr_8);
                           break;
                         }
                         case 2000:
                         {
                           if(!(1ul + field->DatLen >= 100ul))
-                            tmp_if_expr$9 = field->DatLen + (unsigned long int)1;
+                            tmp_if_expr_9 = field->DatLen + (unsigned long int)1;
 
                           else
-                            tmp_if_expr$9 = (unsigned long int)100;
-                          mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr$9);
-                          signed int return_value_strncasecmp$12;
-                          return_value_strncasecmp$12=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
-                          if(return_value_strncasecmp$12 == 0)
+                            tmp_if_expr_9 = (unsigned long int)100;
+                          mystrncpy(buf, field->Buffer, (signed long int)tmp_if_expr_9);
+                          signed int return_value_strncasecmp_12;
+                          return_value_strncasecmp_12=strncasecmp((const char *)buf, "CHRS: ", (unsigned long int)6);
+                          if(return_value_strncasecmp_12 == 0)
                           {
                             mystrncpy(chrs, &buf[(signed long int)6], (signed long int)20);
-                            char *return_value_strchr$11;
-                            return_value_strchr$11=strchr((const char *)chrs, 32);
-                            if(!(return_value_strchr$11 == ((char *)NULL)))
+                            char *return_value_strchr_11;
+                            return_value_strchr_11=strchr((const char *)chrs, 32);
+                            if(!(return_value_strchr_11 == ((char *)NULL)))
                             {
-                              return_value_strchr$10=strchr((const char *)chrs, 32);
-                              *return_value_strchr$10 = (char)0;
+                              return_value_strchr_10=strchr((const char *)chrs, 32);
+                              *return_value_strchr_10 = (char)0;
                             }
 
                             strip(chrs);
                           }
 
-                          signed int return_value_strncasecmp$13;
-                          return_value_strncasecmp$13=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
-                          if(return_value_strncasecmp$13 == 0)
+                          signed int return_value_strncasecmp_13;
+                          return_value_strncasecmp_13=strncasecmp((const char *)buf, "CHARSET: ", (unsigned long int)9);
+                          if(return_value_strncasecmp_13 == 0)
                             mystrncpy(chrs, &buf[(signed long int)9], (signed long int)20);
 
-                          signed int return_value_strncasecmp$14;
-                          return_value_strncasecmp$14=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
-                          if(return_value_strncasecmp$14 == 0)
+                          signed int return_value_strncasecmp_14;
+                          return_value_strncasecmp_14=strncasecmp((const char *)buf, "CODEPAGE: ", (unsigned long int)10);
+                          if(return_value_strncasecmp_14 == 0)
                             mystrncpy(codepage, &buf[(signed long int)10], (signed long int)20);
 
                         }
@@ -7702,17 +7702,17 @@ signed int jamgetminmaxnum(struct var *var, struct group *group, unsigned long i
 
                     }
 
-                    signed int return_value_matchname$15;
-                    return_value_matchname$15=matchname(var->realnames, fromname);
-                    if(!(return_value_matchname$15 == 0))
-                      tmp_if_expr$17 = (_Bool)1;
+                    signed int return_value_matchname_15;
+                    return_value_matchname_15=matchname(var->realnames, fromname);
+                    if(!(return_value_matchname_15 == 0))
+                      tmp_if_expr_17 = (_Bool)1;
 
                     else
                     {
-                      return_value_matchname$16=matchname(var->realnames, toname);
-                      tmp_if_expr$17 = return_value_matchname$16 != 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_matchname_16=matchname(var->realnames, toname);
+                      tmp_if_expr_17 = return_value_matchname_16 != 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$17)
+                    if(tmp_if_expr_17)
                     {
                       if(netmin == 0ul)
                         netmin = c;
@@ -7765,22 +7765,22 @@ signed int jamopenarea(struct var *var, struct group *group)
 
   else
   {
-    if(!(var->openmb == ((struct anonymous$7 *)NULL)))
+    if(!(var->openmb == ((struct anonymous_7 *)NULL)))
     {
       JAM_CloseMB(var->openmb);
       free((void *)var->openmb);
-      var->openmb = (struct anonymous$7 *)(void *)0;
+      var->openmb = (struct anonymous_7 *)(void *)0;
       var->opengroup = (struct group *)(void *)0;
     }
 
-    signed int return_value_JAM_OpenMB$1;
-    return_value_JAM_OpenMB$1=JAM_OpenMB(group->jampath, &var->openmb);
-    if(!(return_value_JAM_OpenMB$1 == 0))
+    signed int return_value_JAM_OpenMB_1;
+    return_value_JAM_OpenMB_1=JAM_OpenMB(group->jampath, &var->openmb);
+    if(!(return_value_JAM_OpenMB_1 == 0))
     {
-      if(!(var->openmb == ((struct anonymous$7 *)NULL)))
+      if(!(var->openmb == ((struct anonymous_7 *)NULL)))
         free((void *)var->openmb);
 
-      var->openmb = (struct anonymous$7 *)(void *)0;
+      var->openmb = (struct anonymous_7 *)(void *)0;
       var->opengroup = (struct group *)(void *)0;
       os_logwrite((unsigned char *)"(%s) Failed to open JAM messagebase \"%s\"", (const void *)var->clientid, (const void *)group->jampath);
       return 0;
@@ -7840,7 +7840,7 @@ signed int login(struct var *var, unsigned char *user, unsigned char *pass)
   unsigned long int pos;
   unsigned long int line;
   fp=fopen((const char *)cfg_usersfile, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     os_logwrite((unsigned char *)"(%s) Can't read users file %s", (const void *)var->clientid, cfg_usersfile);
@@ -7851,8 +7851,8 @@ signed int login(struct var *var, unsigned char *user, unsigned char *pass)
   {
     do
     {
-      return_value_fgets$1=fgets((char *)s, 999, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets((char *)s, 999, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       strip(s);
@@ -7868,13 +7868,13 @@ signed int login(struct var *var, unsigned char *user, unsigned char *pass)
           res5=getcfgword(s, &pos, realnames, (unsigned long int)100);
           if(!(res1 == 0) && !(res2 == 0) && !(res3 == 0) && !(res4 == 0))
           {
-            signed int return_value_strcasecmp$3;
-            return_value_strcasecmp$3=strcasecmp((const char *)cfguser, (const char *)user);
-            if(return_value_strcasecmp$3 == 0)
+            signed int return_value_strcasecmp_3;
+            return_value_strcasecmp_3=strcasecmp((const char *)cfguser, (const char *)user);
+            if(return_value_strcasecmp_3 == 0)
             {
-              signed int return_value_strcmp$2;
-              return_value_strcmp$2=strcmp((const char *)cfgpass, (const char *)pass);
-              if(!(return_value_strcmp$2 == 0))
+              signed int return_value_strcmp_2;
+              return_value_strcmp_2=strcmp((const char *)cfgpass, (const char *)pass);
+              if(!(return_value_strcmp_2 == 0))
               {
                 os_logwrite((unsigned char *)"(%s) Wrong password for %s", (const void *)var->clientid, user);
                 fclose(fp);
@@ -7916,36 +7916,36 @@ signed int main(signed int argc, char **argv)
   signed int error;
   signed int res;
   struct sockaddr_in local;
-  struct anonymous$1 fds;
+  struct anonymous_1 fds;
   struct timeval tv;
   struct _IO_FILE *fp;
-  signed int return_value_strcasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_get_server_quit$15;
-  signed int return_value_get_server_openconnections$19;
+  signed int return_value_strcasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_get_server_quit_15;
+  signed int return_value_get_server_openconnections_19;
   if(argc == 2)
   {
-    return_value_strcasecmp$1=strcasecmp(argv[(signed long int)1], "?");
-    if(return_value_strcasecmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value_strcasecmp_1=strcasecmp(argv[(signed long int)1], "?");
+    if(return_value_strcasecmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp(argv[(signed long int)1], "-h");
-      tmp_if_expr$3 = return_value_strcasecmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_2=strcasecmp(argv[(signed long int)1], "-h");
+      tmp_if_expr_3 = return_value_strcasecmp_2 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$4=strcasecmp(argv[(signed long int)1], "--help");
-      tmp_if_expr$5 = return_value_strcasecmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_4=strcasecmp(argv[(signed long int)1], "--help");
+      tmp_if_expr_5 = return_value_strcasecmp_4 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
       goto __CPROVER_DUMP_L5;
 
     printf("\nUsage: jamnntpd [<options>]\n\n General options:\n\n -p[ort] <port>         Port number for JamNNTPd (default: 5000)\n -m[ax] <maxconn>       Maximum number of simultaneous connections (default: 5)\n -g[roups] <groupsfile> Read this file instead of /etc/jamnntpd.groups\n -a[llow] <allowfile>   Read this file instead of /etc/jamnntpd.allow\n -u[sers] <usersfile>   Read this file instead of /etc/jamnntpd.users\n -x[lat] <xlatfile>     Read this file instead of /etc/jamnntpd.xlat\n -l[ogfile] <logfile>   Log to this file instead of /var/log/jamnntpd.log\n -noecholog             Do not write log messages to console\n -debug                 Write all network communication to console\n\n Options for displaying messages:\n\n -readorigin           Get addresses from the origin line instead of JAM header\n -noencode             Do not MIME encode headers with 8-bit characters\n -strictnetmail        Use strict article counters in netmail areas\n -def_flowed on/off    Default setting for format=flowed (RFC 2646)\n -def_showto on/off    Default setting for the display of recipient on from line\n\n Options for posting messages:\n\n -nostripre            Do not remove \"Re:\" from subject line\n -notearline           Do not put X-Newsreader/User-Agent string on tearline\n -noreplyaddr          Do not create REPLYADDR kludges\n -notzutc              Do not create TZUTC kludges\n -nocancel             Do not allow cancelling of messages\n -smartquote           Reformat quoted text to fidonet style\n -origin <origin>      Origin to use instead of contents of Organization line\n -guestsuffix <suffix> Suffix added to from name of unauthenticated users\n -echomailjam <file>   Create echomail.jam file for CrashMail and other tossers\n\n Options for configuration files:\n\n -config <file>        Read options from this file\n -create <file>        Create a configuration file with the default options\n\nIf no options are specified on the commandline, JamNNTPd will attempt to read\noptions from /etc/jamnntpd.config (if it exists).\n\n");
@@ -7963,9 +7963,9 @@ signed int main(signed int argc, char **argv)
       if(!(fp == ((struct _IO_FILE *)NULL)))
       {
         fclose(fp);
-        signed int return_value_readargs$6;
-        return_value_readargs$6=readargs((unsigned char *)"/etc/jamnntpd.config");
-        if(return_value_readargs$6 == 0)
+        signed int return_value_readargs_6;
+        return_value_readargs_6=readargs((unsigned char *)"/etc/jamnntpd.config");
+        if(return_value_readargs_6 == 0)
         {
           freeargs();
           exit(0);
@@ -7977,18 +7977,18 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_parseargs$7;
-      return_value_parseargs$7=parseargs(argc - 1, &argv[(signed long int)1], (unsigned char *)(void *)0, (unsigned long int)0);
-      if(return_value_parseargs$7 == 0)
+      signed int return_value_parseargs_7;
+      return_value_parseargs_7=parseargs(argc - 1, &argv[(signed long int)1], (unsigned char *)(void *)0, (unsigned long int)0);
+      if(return_value_parseargs_7 == 0)
       {
         freeargs();
         exit(0);
       }
 
     }
-    signed int return_value_os_init$8;
-    return_value_os_init$8=os_init();
-    if(return_value_os_init$8 == 0)
+    signed int return_value_os_init_8;
+    return_value_os_init_8=os_init();
+    if(return_value_os_init_8 == 0)
     {
       freeargs();
       exit(10);
@@ -7998,11 +7998,11 @@ signed int main(signed int argc, char **argv)
     if(sock == -1)
     {
       unsigned char err[200l];
-      signed int return_value_os_errno$9;
-      return_value_os_errno$9=os_errno();
-      unsigned char *return_value_os_strerr$10;
-      return_value_os_strerr$10=os_strerr(return_value_os_errno$9, err, (unsigned long int)200);
-      os_showerror((unsigned char *)"Failed to create socket: %s", return_value_os_strerr$10);
+      signed int return_value_os_errno_9;
+      return_value_os_errno_9=os_errno();
+      unsigned char *return_value_os_strerr_10;
+      return_value_os_strerr_10=os_strerr(return_value_os_errno_9, err, (unsigned long int)200);
+      os_showerror((unsigned char *)"Failed to create socket: %s", return_value_os_strerr_10);
       os_free();
       freeargs();
       exit(10);
@@ -8015,12 +8015,12 @@ signed int main(signed int argc, char **argv)
     error=bind(sock, (struct sockaddr *)&local, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
     if(error == -1)
     {
-      unsigned char main$$1$$6$$err[200l];
-      signed int return_value_os_errno$11;
-      return_value_os_errno$11=os_errno();
-      unsigned char *return_value_os_strerr$12;
-      return_value_os_strerr$12=os_strerr(return_value_os_errno$11, main$$1$$6$$err, (unsigned long int)200);
-      os_showerror((unsigned char *)"Could not bind to port (server already running?): %s", return_value_os_strerr$12);
+      unsigned char main__1__6__err[200l];
+      signed int return_value_os_errno_11;
+      return_value_os_errno_11=os_errno();
+      unsigned char *return_value_os_strerr_12;
+      return_value_os_strerr_12=os_strerr(return_value_os_errno_11, main__1__6__err, (unsigned long int)200);
+      os_showerror((unsigned char *)"Could not bind to port (server already running?): %s", return_value_os_strerr_12);
       close(sock);
       os_free();
       freeargs();
@@ -8030,12 +8030,12 @@ signed int main(signed int argc, char **argv)
     error=listen(sock, 5);
     if(error == -1)
     {
-      unsigned char main$$1$$7$$err[200l];
-      signed int return_value_os_errno$13;
-      return_value_os_errno$13=os_errno();
-      unsigned char *return_value_os_strerr$14;
-      return_value_os_strerr$14=os_strerr(return_value_os_errno$13, main$$1$$7$$err, (unsigned long int)200);
-      os_showerror((unsigned char *)"Could not listen to socket: %s", return_value_os_strerr$14);
+      unsigned char main__1__7__err[200l];
+      signed int return_value_os_errno_13;
+      return_value_os_errno_13=os_errno();
+      unsigned char *return_value_os_strerr_14;
+      return_value_os_strerr_14=os_strerr(return_value_os_errno_13, main__1__7__err, (unsigned long int)200);
+      os_showerror((unsigned char *)"Could not listen to socket: %s", return_value_os_strerr_14);
       close(sock);
       os_free();
       freeargs();
@@ -8048,21 +8048,21 @@ signed int main(signed int argc, char **argv)
 
     do
     {
-      return_value_get_server_quit$15=get_server_quit();
-      if(!(return_value_get_server_quit$15 == 0))
+      return_value_get_server_quit_15=get_server_quit();
+      if(!(return_value_get_server_quit_15 == 0))
         break;
 
       do
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&fds)->__fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       tv.tv_sec = (signed long int)1;
       tv.tv_usec = (signed long int)0;
-      res=select(sock + 1, &fds, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, &tv);
+      res=select(sock + 1, &fds, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, &tv);
       if(!(res == 0) && !(res == -1))
       {
         signed int active_sock;
@@ -8071,12 +8071,12 @@ signed int main(signed int argc, char **argv)
         active_sock=accept(sock, (struct sockaddr *)&from, (unsigned int *)&fromlen);
         if(active_sock == -1)
         {
-          unsigned char main$$1$$8$$2$$1$$err[200l];
-          signed int return_value_os_errno$16;
-          return_value_os_errno$16=os_errno();
-          unsigned char *return_value_os_strerr$17;
-          return_value_os_strerr$17=os_strerr(return_value_os_errno$16, main$$1$$8$$2$$1$$err, (unsigned long int)200);
-          os_showerror((unsigned char *)"Failed to accept incoming connection: %s", return_value_os_strerr$17);
+          unsigned char main__1__8__2__1__err[200l];
+          signed int return_value_os_errno_16;
+          return_value_os_errno_16=os_errno();
+          unsigned char *return_value_os_strerr_17;
+          return_value_os_strerr_17=os_strerr(return_value_os_errno_16, main__1__8__2__1__err, (unsigned long int)200);
+          os_showerror((unsigned char *)"Failed to accept incoming connection: %s", return_value_os_strerr_17);
           break;
         }
 
@@ -8085,17 +8085,17 @@ signed int main(signed int argc, char **argv)
 
     }
     while((_Bool)1);
-    signed int return_value_get_server_openconnections$20;
-    return_value_get_server_openconnections$20=get_server_openconnections();
-    if(!(return_value_get_server_openconnections$20 == 0))
+    signed int return_value_get_server_openconnections_20;
+    return_value_get_server_openconnections_20=get_server_openconnections();
+    if(!(return_value_get_server_openconnections_20 == 0))
     {
-      signed int return_value_get_server_openconnections$18;
-      return_value_get_server_openconnections$18=get_server_openconnections();
-      os_logwrite((unsigned char *)"Exiting. %ld connection(s) are active, waiting for them to quit", return_value_get_server_openconnections$18);
+      signed int return_value_get_server_openconnections_18;
+      return_value_get_server_openconnections_18=get_server_openconnections();
+      os_logwrite((unsigned char *)"Exiting. %ld connection(s) are active, waiting for them to quit", return_value_get_server_openconnections_18);
       do
       {
-        return_value_get_server_openconnections$19=get_server_openconnections();
-        if(return_value_get_server_openconnections$19 == 0)
+        return_value_get_server_openconnections_19=get_server_openconnections();
+        if(return_value_get_server_openconnections_19 == 0)
           break;
 
         os_sleep(1);
@@ -8152,30 +8152,30 @@ signed int matchcharset(unsigned char *pat, unsigned char *chrs, unsigned char *
 {
   unsigned char buf[20l];
   unsigned char buf2[20l];
-  char *return_value_strchr$7;
-  return_value_strchr$7=strchr((const char *)pat, 44);
-  char *return_value_strchr$1;
-  signed int return_value_matchpattern$4;
-  if(!(return_value_strchr$7 == ((char *)NULL)))
+  char *return_value_strchr_7;
+  return_value_strchr_7=strchr((const char *)pat, 44);
+  char *return_value_strchr_1;
+  signed int return_value_matchpattern_4;
+  if(!(return_value_strchr_7 == ((char *)NULL)))
   {
     mystrncpy(buf, pat, (signed long int)20);
-    char *return_value_strchr$2;
-    return_value_strchr$2=strchr((const char *)buf, 44);
-    if(!(return_value_strchr$2 == ((char *)NULL)))
+    char *return_value_strchr_2;
+    return_value_strchr_2=strchr((const char *)buf, 44);
+    if(!(return_value_strchr_2 == ((char *)NULL)))
     {
-      return_value_strchr$1=strchr((const char *)buf, 44);
-      *return_value_strchr$1 = (char)0;
+      return_value_strchr_1=strchr((const char *)buf, 44);
+      *return_value_strchr_1 = (char)0;
     }
 
-    char *return_value_strchr$3;
-    return_value_strchr$3=strchr((const char *)pat, 44);
-    mystrncpy(buf2, (unsigned char *)(return_value_strchr$3 + (signed long int)1), (signed long int)20);
-    signed int return_value_matchpattern$5;
-    return_value_matchpattern$5=matchpattern(buf, chrs);
-    if(!(return_value_matchpattern$5 == 0))
+    char *return_value_strchr_3;
+    return_value_strchr_3=strchr((const char *)pat, 44);
+    mystrncpy(buf2, (unsigned char *)(return_value_strchr_3 + (signed long int)1), (signed long int)20);
+    signed int return_value_matchpattern_5;
+    return_value_matchpattern_5=matchpattern(buf, chrs);
+    if(!(return_value_matchpattern_5 == 0))
     {
-      return_value_matchpattern$4=matchpattern(buf2, codepage);
-      if(!(return_value_matchpattern$4 == 0))
+      return_value_matchpattern_4=matchpattern(buf2, codepage);
+      if(!(return_value_matchpattern_4 == 0))
         return 1;
 
     }
@@ -8185,9 +8185,9 @@ signed int matchcharset(unsigned char *pat, unsigned char *chrs, unsigned char *
 
   else
   {
-    signed int return_value_matchpattern$6;
-    return_value_matchpattern$6=matchpattern(pat, chrs);
-    return return_value_matchpattern$6;
+    signed int return_value_matchpattern_6;
+    return_value_matchpattern_6=matchpattern(pat, chrs);
+    return return_value_matchpattern_6;
   }
 }
 
@@ -8196,18 +8196,18 @@ signed int matchcharset(unsigned char *pat, unsigned char *chrs, unsigned char *
 signed int matchgroup(unsigned char *groups, unsigned char group)
 {
   signed int c;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp((const char *)groups, "*");
-  signed int return_value_tolower$3;
-  signed int return_value_tolower$4;
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp((const char *)groups, "*");
+  signed int return_value_tolower_3;
+  signed int return_value_tolower_4;
+  if(return_value_strcmp_1 == 0)
     return 1;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp((const char *)groups, "-");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp((const char *)groups, "-");
+    if(return_value_strcmp_2 == 0)
       return 0;
 
     else
@@ -8215,9 +8215,9 @@ signed int matchgroup(unsigned char *groups, unsigned char group)
       c = 0;
       for( ; !(groups[(signed long int)c] == 0); c = c + 1)
       {
-        return_value_tolower$3=tolower((signed int)groups[(signed long int)c]);
-        return_value_tolower$4=tolower((signed int)group);
-        if(return_value_tolower$3 == return_value_tolower$4)
+        return_value_tolower_3=tolower((signed int)groups[(signed long int)c]);
+        return_value_tolower_4=tolower((signed int)group);
+        if(return_value_tolower_3 == return_value_tolower_4)
           return 1;
 
       }
@@ -8232,16 +8232,16 @@ signed int matchname(unsigned char *namelist, unsigned char *name)
 {
   unsigned char namepat[100l];
   unsigned long int count = (unsigned long int)0;
-  signed int return_value_getcomma$1;
-  signed int return_value_matchpattern$2;
+  signed int return_value_getcomma_1;
+  signed int return_value_matchpattern_2;
   do
   {
-    return_value_getcomma$1=getcomma(namelist, &count, namepat, (unsigned long int)100);
-    if(return_value_getcomma$1 == 0)
+    return_value_getcomma_1=getcomma(namelist, &count, namepat, (unsigned long int)100);
+    if(return_value_getcomma_1 == 0)
       break;
 
-    return_value_matchpattern$2=matchpattern(namepat, name);
-    if(!(return_value_matchpattern$2 == 0))
+    return_value_matchpattern_2=matchpattern(namepat, name);
+    if(!(return_value_matchpattern_2 == 0))
       return 1;
 
   }
@@ -8261,11 +8261,11 @@ signed int matchpattern(unsigned char *pat, unsigned char *str)
 
     if(!((signed int)pat[(signed long int)c] == 63))
     {
-      signed int return_value_tolower$1;
-      return_value_tolower$1=tolower((signed int)str[(signed long int)c]);
-      signed int return_value_tolower$2;
-      return_value_tolower$2=tolower((signed int)pat[(signed long int)c]);
-      if(!(return_value_tolower$1 == return_value_tolower$2))
+      signed int return_value_tolower_1;
+      return_value_tolower_1=tolower((signed int)str[(signed long int)c]);
+      signed int return_value_tolower_2;
+      return_value_tolower_2=tolower((signed int)pat[(signed long int)c]);
+      if(!(return_value_tolower_1 == return_value_tolower_2))
         return 0;
 
     }
@@ -8300,28 +8300,28 @@ void mimemakeheaderline(unsigned char *dest, unsigned long int destlen, unsigned
 
   else
     mime = 0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(num8bit >= 6ul)
   {
-    return_value_strlen$1=strlen((const char *)data);
-    tmp_if_expr$2 = num8bit > return_value_strlen$1 / (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen((const char *)data);
+    tmp_if_expr_2 = num8bit > return_value_strlen_1 / (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     method = (unsigned char)98;
 
   else
     method = (unsigned char)113;
-  char *return_value_strchr$3;
-  unsigned long int tmp_post$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$8;
-  unsigned long int tmp_post$9;
+  char *return_value_strchr_3;
+  unsigned long int tmp_post_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_8;
+  unsigned long int tmp_post_9;
   if(mime == 0 || !(noencode == 0))
   {
     if(!(fromaddr == ((unsigned char *)NULL)))
@@ -8329,44 +8329,44 @@ void mimemakeheaderline(unsigned char *dest, unsigned long int destlen, unsigned
       c = (unsigned long int)0;
       for( ; !(data[(signed long int)c] == 0); c = c + 1ul)
       {
-        return_value_strchr$3=strchr((const char *)fromspecials, (signed int)data[(signed long int)c]);
-        if(!(return_value_strchr$3 == ((char *)NULL)))
+        return_value_strchr_3=strchr((const char *)fromspecials, (signed int)data[(signed long int)c]);
+        if(!(return_value_strchr_3 == ((char *)NULL)))
           break;
 
       }
       if(!(data[(signed long int)c] == 0))
       {
         d = (unsigned long int)0;
-        tmp_post$4 = d;
+        tmp_post_4 = d;
         d = d + 1ul;
-        quoted[(signed long int)tmp_post$4] = (unsigned char)34;
+        quoted[(signed long int)tmp_post_4] = (unsigned char)34;
         c = (unsigned long int)0;
         for( ; !(data[(signed long int)c] == 0); c = c + 1ul)
         {
           if((signed int)data[(signed long int)c] == 34)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)data[(signed long int)c] == 92 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_6 = (signed int)data[(signed long int)c] == 92 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = (signed int)data[(signed long int)c] == 13 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (signed int)data[(signed long int)c] == 13 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
           {
-            tmp_post$5 = d;
+            tmp_post_5 = d;
             d = d + 1ul;
-            quoted[(signed long int)tmp_post$5] = (unsigned char)92;
+            quoted[(signed long int)tmp_post_5] = (unsigned char)92;
           }
 
-          tmp_post$8 = d;
+          tmp_post_8 = d;
           d = d + 1ul;
-          quoted[(signed long int)tmp_post$8] = data[(signed long int)c];
+          quoted[(signed long int)tmp_post_8] = data[(signed long int)c];
         }
-        tmp_post$9 = d;
+        tmp_post_9 = d;
         d = d + 1ul;
-        quoted[(signed long int)tmp_post$9] = (unsigned char)34;
+        quoted[(signed long int)tmp_post_9] = (unsigned char)34;
         quoted[(signed long int)d] = (unsigned char)0;
       }
 
@@ -8377,9 +8377,9 @@ void mimemakeheaderline(unsigned char *dest, unsigned long int destlen, unsigned
 
     else
       sprintf((char *)line, "%s: %s\r\n", keyword, data);
-    unsigned long int return_value_strlen$10;
-    return_value_strlen$10=strlen((const char *)line);
-    if(!(return_value_strlen$10 >= destlen))
+    unsigned long int return_value_strlen_10;
+    return_value_strlen_10=strlen((const char *)line);
+    if(!(return_value_strlen_10 >= destlen))
       strcpy((char *)dest, (const char *)line);
 
     goto __CPROVER_DUMP_L37;
@@ -8394,30 +8394,30 @@ void mimemakeheaderline(unsigned char *dest, unsigned long int destlen, unsigned
   c = (unsigned long int)0;
   sprintf((char *)line, "%s: %s", keyword, (const void *)prefix);
   d=strlen((const char *)line);
-  signed int return_value_encodeb64$11;
-  signed int return_value_encodeqp$12;
+  signed int return_value_encodeb64_11;
+  signed int return_value_encodeqp_12;
   while(!(data[(signed long int)c] == 0))
   {
     if((signed int)method == 98)
     {
-      return_value_encodeb64$11=encodeb64(&data[(signed long int)c], &line[(signed long int)d], specials, (signed int)(((unsigned long int)76 - d) - (unsigned long int)2));
-      c = c + (unsigned long int)return_value_encodeb64$11;
+      return_value_encodeb64_11=encodeb64(&data[(signed long int)c], &line[(signed long int)d], specials, (signed int)(((unsigned long int)76 - d) - (unsigned long int)2));
+      c = c + (unsigned long int)return_value_encodeb64_11;
     }
 
     if((signed int)method == 113)
     {
-      return_value_encodeqp$12=encodeqp(&data[(signed long int)c], &line[(signed long int)d], specials, (signed int)(((unsigned long int)76 - d) - (unsigned long int)2));
-      c = c + (unsigned long int)return_value_encodeqp$12;
+      return_value_encodeqp_12=encodeqp(&data[(signed long int)c], &line[(signed long int)d], specials, (signed int)(((unsigned long int)76 - d) - (unsigned long int)2));
+      c = c + (unsigned long int)return_value_encodeqp_12;
     }
 
     if(!(data[(signed long int)c] == 0))
     {
       strcat((char *)line, "?=\r\n");
-      unsigned long int return_value_strlen$13;
-      return_value_strlen$13=strlen((const char *)dest);
-      unsigned long int return_value_strlen$14;
-      return_value_strlen$14=strlen((const char *)line);
-      if(!(return_value_strlen$13 + return_value_strlen$14 >= destlen))
+      unsigned long int return_value_strlen_13;
+      return_value_strlen_13=strlen((const char *)dest);
+      unsigned long int return_value_strlen_14;
+      return_value_strlen_14=strlen((const char *)line);
+      if(!(return_value_strlen_13 + return_value_strlen_14 >= destlen))
         strcat((char *)dest, (const char *)line);
 
       else
@@ -8430,18 +8430,18 @@ void mimemakeheaderline(unsigned char *dest, unsigned long int destlen, unsigned
   strcat((char *)line, "?=");
   if(!(fromaddr == ((unsigned char *)NULL)))
   {
-    unsigned long int return_value_strlen$17;
-    return_value_strlen$17=strlen((const char *)line);
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen((const char *)fromaddr);
-    if(3ul + return_value_strlen$17 + return_value_strlen$18 >= 77ul)
+    unsigned long int return_value_strlen_17;
+    return_value_strlen_17=strlen((const char *)line);
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen((const char *)fromaddr);
+    if(3ul + return_value_strlen_17 + return_value_strlen_18 >= 77ul)
     {
       strcat((char *)line, "\r\n");
-      unsigned long int return_value_strlen$15;
-      return_value_strlen$15=strlen((const char *)dest);
-      unsigned long int return_value_strlen$16;
-      return_value_strlen$16=strlen((const char *)line);
-      if(!(return_value_strlen$15 + return_value_strlen$16 >= destlen))
+      unsigned long int return_value_strlen_15;
+      return_value_strlen_15=strlen((const char *)dest);
+      unsigned long int return_value_strlen_16;
+      return_value_strlen_16=strlen((const char *)line);
+      if(!(return_value_strlen_15 + return_value_strlen_16 >= destlen))
         strcat((char *)dest, (const char *)line);
 
       else
@@ -8458,11 +8458,11 @@ void mimemakeheaderline(unsigned char *dest, unsigned long int destlen, unsigned
   }
 
   strcat((char *)line, "\r\n");
-  unsigned long int return_value_strlen$19;
-  return_value_strlen$19=strlen((const char *)dest);
-  unsigned long int return_value_strlen$20;
-  return_value_strlen$20=strlen((const char *)line);
-  if(!(return_value_strlen$19 + return_value_strlen$20 >= destlen))
+  unsigned long int return_value_strlen_19;
+  return_value_strlen_19=strlen((const char *)dest);
+  unsigned long int return_value_strlen_20;
+  return_value_strlen_20=strlen((const char *)line);
+  if(!(return_value_strlen_19 + return_value_strlen_20 >= destlen))
     strcat((char *)dest, (const char *)line);
 
 
@@ -8481,15 +8481,15 @@ void mimesendheaderline(struct var *var, unsigned char *keyword, unsigned char *
   mimemakeheaderline(destbuf, (unsigned long int)1000, keyword, data, chrs, fromaddr, noencode);
   c = (unsigned long int)0;
   lastline = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(destbuf[(signed long int)c] == 0))
   {
     if((signed int)destbuf[(signed long int)c] == 13)
-      tmp_if_expr$1 = (signed int)destbuf[(signed long int)(c + (unsigned long int)1)] == 10 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)destbuf[(signed long int)(c + (unsigned long int)1)] == 10 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       bak = destbuf[(signed long int)(c + (unsigned long int)2)];
       destbuf[(signed long int)(c + (unsigned long int)2)] = (unsigned char)0;
@@ -8520,9 +8520,9 @@ void mystrncpy(unsigned char *dest, unsigned char *src, signed long int len)
 // file os.h line 21
 signed int os_errno(void)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  return *return_value___errno_location_1;
 }
 
 // os_free
@@ -8562,9 +8562,9 @@ void os_logwrite(unsigned char *fmt, ...)
   tp=localtime(&t);
   sprintf((char *)logline, "%02d-%s-%02d %02d:%02d:%02d ", tp->tm_mday, monthnames[(signed long int)tp->tm_mon], tp->tm_year % 100, tp->tm_hour, tp->tm_min, tp->tm_sec);
   args = (void **)&fmt;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((const char *)logline);
-  vsprintf((char *)&logline[(signed long int)return_value_strlen$1], (const char *)fmt, args);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((const char *)logline);
+  vsprintf((char *)&logline[(signed long int)return_value_strlen_1], (const char *)fmt, args);
   args = ((void **)NULL);
   if(cfg_noecholog == 0)
     puts((const char *)logline);
@@ -8621,9 +8621,9 @@ void os_stopexclusive(void)
 // file os.h line 22
 unsigned char * os_strerr(signed int err, unsigned char *str, unsigned long int len)
 {
-  char *return_value_strerror$1;
-  return_value_strerror$1=strerror(err);
-  mystrncpy(str, (unsigned char *)return_value_strerror$1, (signed long int)len);
+  char *return_value_strerror_1;
+  return_value_strerror_1=strerror(err);
+  mystrncpy(str, (unsigned char *)return_value_strerror_1, (signed long int)len);
   return str;
 }
 
@@ -8640,44 +8640,44 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
     sprintf((char *)src, " (%.95s line %ld)", filename, line);
 
   c = 0;
-  signed int return_value_strcasecmp$43;
-  signed int return_value_strcasecmp$42;
-  signed int return_value_strcasecmp$41;
-  signed int return_value_strcasecmp$40;
-  signed int return_value_strcasecmp$39;
-  signed int return_value_strcasecmp$38;
-  signed int return_value_strcasecmp$37;
-  signed int return_value_strcasecmp$36;
-  signed int return_value_strcasecmp$35;
-  signed int return_value_strcasecmp$34;
-  signed int return_value_strcasecmp$31;
-  _Bool tmp_if_expr$33;
-  signed int return_value_strcasecmp$32;
-  signed int return_value_strcasecmp$28;
-  _Bool tmp_if_expr$30;
-  signed int return_value_strcasecmp$29;
-  signed int return_value_strcasecmp$27;
-  signed int return_value_strcasecmp$26;
-  signed int return_value_strcasecmp$25;
-  signed int return_value_strcasecmp$24;
-  signed int return_value_strcasecmp$23;
-  signed int return_value_strcasecmp$20;
-  _Bool tmp_if_expr$22;
-  signed int return_value_strcasecmp$21;
-  signed int return_value_strcasecmp$17;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strcasecmp$18;
-  signed int return_value_strcasecmp$14;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strcasecmp$15;
-  signed int return_value_strcasecmp$11;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$8;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
+  signed int return_value_strcasecmp_43;
+  signed int return_value_strcasecmp_42;
+  signed int return_value_strcasecmp_41;
+  signed int return_value_strcasecmp_40;
+  signed int return_value_strcasecmp_39;
+  signed int return_value_strcasecmp_38;
+  signed int return_value_strcasecmp_37;
+  signed int return_value_strcasecmp_36;
+  signed int return_value_strcasecmp_35;
+  signed int return_value_strcasecmp_34;
+  signed int return_value_strcasecmp_31;
+  _Bool tmp_if_expr_33;
+  signed int return_value_strcasecmp_32;
+  signed int return_value_strcasecmp_28;
+  _Bool tmp_if_expr_30;
+  signed int return_value_strcasecmp_29;
+  signed int return_value_strcasecmp_27;
+  signed int return_value_strcasecmp_26;
+  signed int return_value_strcasecmp_25;
+  signed int return_value_strcasecmp_24;
+  signed int return_value_strcasecmp_23;
+  signed int return_value_strcasecmp_20;
+  _Bool tmp_if_expr_22;
+  signed int return_value_strcasecmp_21;
+  signed int return_value_strcasecmp_17;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strcasecmp_18;
+  signed int return_value_strcasecmp_14;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strcasecmp_15;
+  signed int return_value_strcasecmp_11;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_8;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
   for( ; !(c >= argc); c = c + 1)
   {
     arg = (unsigned char *)argv[(signed long int)c];
@@ -8703,83 +8703,83 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
     }
 
-    signed int return_value_strcasecmp$44;
-    return_value_strcasecmp$44=strcasecmp((const char *)arg, "-debug");
-    if(return_value_strcasecmp$44 == 0)
+    signed int return_value_strcasecmp_44;
+    return_value_strcasecmp_44=strcasecmp((const char *)arg, "-debug");
+    if(return_value_strcasecmp_44 == 0)
       cfg_debug = 1;
 
     else
     {
-      return_value_strcasecmp$43=strcasecmp((const char *)arg, "-noecholog");
-      if(return_value_strcasecmp$43 == 0)
+      return_value_strcasecmp_43=strcasecmp((const char *)arg, "-noecholog");
+      if(return_value_strcasecmp_43 == 0)
         cfg_noecholog = 1;
 
       else
       {
-        return_value_strcasecmp$42=strcasecmp((const char *)arg, "-nostripre");
-        if(return_value_strcasecmp$42 == 0)
+        return_value_strcasecmp_42=strcasecmp((const char *)arg, "-nostripre");
+        if(return_value_strcasecmp_42 == 0)
           cfg_nostripre = 1;
 
         else
         {
-          return_value_strcasecmp$41=strcasecmp((const char *)arg, "-notearline");
-          if(return_value_strcasecmp$41 == 0)
+          return_value_strcasecmp_41=strcasecmp((const char *)arg, "-notearline");
+          if(return_value_strcasecmp_41 == 0)
             cfg_notearline = 1;
 
           else
           {
-            return_value_strcasecmp$40=strcasecmp((const char *)arg, "-nocancel");
-            if(return_value_strcasecmp$40 == 0)
+            return_value_strcasecmp_40=strcasecmp((const char *)arg, "-nocancel");
+            if(return_value_strcasecmp_40 == 0)
               cfg_nocancel = 1;
 
             else
             {
-              return_value_strcasecmp$39=strcasecmp((const char *)arg, "-strictnetmail");
-              if(return_value_strcasecmp$39 == 0)
+              return_value_strcasecmp_39=strcasecmp((const char *)arg, "-strictnetmail");
+              if(return_value_strcasecmp_39 == 0)
                 cfg_strictnetmail = 1;
 
               else
               {
-                return_value_strcasecmp$38=strcasecmp((const char *)arg, "-readorigin");
-                if(return_value_strcasecmp$38 == 0)
+                return_value_strcasecmp_38=strcasecmp((const char *)arg, "-readorigin");
+                if(return_value_strcasecmp_38 == 0)
                   cfg_readorigin = 1;
 
                 else
                 {
-                  return_value_strcasecmp$37=strcasecmp((const char *)arg, "-noreplyaddr");
-                  if(return_value_strcasecmp$37 == 0)
+                  return_value_strcasecmp_37=strcasecmp((const char *)arg, "-noreplyaddr");
+                  if(return_value_strcasecmp_37 == 0)
                     cfg_noreplyaddr = 1;
 
                   else
                   {
-                    return_value_strcasecmp$36=strcasecmp((const char *)arg, "-smartquote");
-                    if(return_value_strcasecmp$36 == 0)
+                    return_value_strcasecmp_36=strcasecmp((const char *)arg, "-smartquote");
+                    if(return_value_strcasecmp_36 == 0)
                       cfg_smartquote = 1;
 
                     else
                     {
-                      return_value_strcasecmp$35=strcasecmp((const char *)arg, "-noencode");
-                      if(return_value_strcasecmp$35 == 0)
+                      return_value_strcasecmp_35=strcasecmp((const char *)arg, "-noencode");
+                      if(return_value_strcasecmp_35 == 0)
                         cfg_noencode = 1;
 
                       else
                       {
-                        return_value_strcasecmp$34=strcasecmp((const char *)arg, "-notzutc");
-                        if(return_value_strcasecmp$34 == 0)
+                        return_value_strcasecmp_34=strcasecmp((const char *)arg, "-notzutc");
+                        if(return_value_strcasecmp_34 == 0)
                           cfg_notzutc = 1;
 
                         else
                         {
-                          return_value_strcasecmp$31=strcasecmp((const char *)arg, "-p");
-                          if(return_value_strcasecmp$31 == 0)
-                            tmp_if_expr$33 = (_Bool)1;
+                          return_value_strcasecmp_31=strcasecmp((const char *)arg, "-p");
+                          if(return_value_strcasecmp_31 == 0)
+                            tmp_if_expr_33 = (_Bool)1;
 
                           else
                           {
-                            return_value_strcasecmp$32=strcasecmp((const char *)arg, "-port");
-                            tmp_if_expr$33 = return_value_strcasecmp$32 == 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_strcasecmp_32=strcasecmp((const char *)arg, "-port");
+                            tmp_if_expr_33 = return_value_strcasecmp_32 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$33)
+                          if(tmp_if_expr_33)
                           {
                             if(1 + c == argc)
                             {
@@ -8788,23 +8788,23 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
                             }
 
                             c = c + 1;
-                            signed int return_value_atoi$1;
-                            return_value_atoi$1=atoi(argv[(signed long int)c]);
-                            cfg_port = (unsigned long int)return_value_atoi$1;
+                            signed int return_value_atoi_1;
+                            return_value_atoi_1=atoi(argv[(signed long int)c]);
+                            cfg_port = (unsigned long int)return_value_atoi_1;
                           }
 
                           else
                           {
-                            return_value_strcasecmp$28=strcasecmp((const char *)arg, "-m");
-                            if(return_value_strcasecmp$28 == 0)
-                              tmp_if_expr$30 = (_Bool)1;
+                            return_value_strcasecmp_28=strcasecmp((const char *)arg, "-m");
+                            if(return_value_strcasecmp_28 == 0)
+                              tmp_if_expr_30 = (_Bool)1;
 
                             else
                             {
-                              return_value_strcasecmp$29=strcasecmp((const char *)arg, "-max");
-                              tmp_if_expr$30 = return_value_strcasecmp$29 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_strcasecmp_29=strcasecmp((const char *)arg, "-max");
+                              tmp_if_expr_30 = return_value_strcasecmp_29 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$30)
+                            if(tmp_if_expr_30)
                             {
                               if(1 + c == argc)
                               {
@@ -8813,15 +8813,15 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
                               }
 
                               c = c + 1;
-                              signed int return_value_atoi$2;
-                              return_value_atoi$2=atoi(argv[(signed long int)c]);
-                              cfg_maxconn = (unsigned long int)return_value_atoi$2;
+                              signed int return_value_atoi_2;
+                              return_value_atoi_2=atoi(argv[(signed long int)c]);
+                              cfg_maxconn = (unsigned long int)return_value_atoi_2;
                             }
 
                             else
                             {
-                              return_value_strcasecmp$27=strcasecmp((const char *)arg, "-def_flowed");
-                              if(return_value_strcasecmp$27 == 0)
+                              return_value_strcasecmp_27=strcasecmp((const char *)arg, "-def_flowed");
+                              if(return_value_strcasecmp_27 == 0)
                               {
                                 if(1 + c == argc)
                                 {
@@ -8829,9 +8829,9 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
                                   return 0;
                                 }
 
-                                signed int return_value_setboolonoff$3;
-                                return_value_setboolonoff$3=setboolonoff((unsigned char *)argv[(signed long int)(c + 1)], &cfg_def_flowed);
-                                if(return_value_setboolonoff$3 == 0)
+                                signed int return_value_setboolonoff_3;
+                                return_value_setboolonoff_3=setboolonoff((unsigned char *)argv[(signed long int)(c + 1)], &cfg_def_flowed);
+                                if(return_value_setboolonoff_3 == 0)
                                 {
                                   printf("Invalid setting %s for %s, must be on or off%s\n", argv[(signed long int)(c + 1)], argv[(signed long int)c], (const void *)src);
                                   return 0;
@@ -8842,8 +8842,8 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                               else
                               {
-                                return_value_strcasecmp$26=strcasecmp((const char *)arg, "-def_showto");
-                                if(return_value_strcasecmp$26 == 0)
+                                return_value_strcasecmp_26=strcasecmp((const char *)arg, "-def_showto");
+                                if(return_value_strcasecmp_26 == 0)
                                 {
                                   if(1 + c == argc)
                                   {
@@ -8851,9 +8851,9 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
                                     return 0;
                                   }
 
-                                  signed int return_value_setboolonoff$4;
-                                  return_value_setboolonoff$4=setboolonoff((unsigned char *)argv[(signed long int)(c + 1)], &cfg_def_showto);
-                                  if(return_value_setboolonoff$4 == 0)
+                                  signed int return_value_setboolonoff_4;
+                                  return_value_setboolonoff_4=setboolonoff((unsigned char *)argv[(signed long int)(c + 1)], &cfg_def_showto);
+                                  if(return_value_setboolonoff_4 == 0)
                                   {
                                     printf("Invalid setting %s for %s, must be on or off%s\n", argv[(signed long int)(c + 1)], argv[(signed long int)c], (const void *)src);
                                     return 0;
@@ -8864,8 +8864,8 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                 else
                                 {
-                                  return_value_strcasecmp$25=strcasecmp((const char *)arg, "-origin");
-                                  if(return_value_strcasecmp$25 == 0)
+                                  return_value_strcasecmp_25=strcasecmp((const char *)arg, "-origin");
+                                  if(return_value_strcasecmp_25 == 0)
                                   {
                                     if(1 + c == argc)
                                     {
@@ -8879,8 +8879,8 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                   else
                                   {
-                                    return_value_strcasecmp$24=strcasecmp((const char *)arg, "-guestsuffix");
-                                    if(return_value_strcasecmp$24 == 0)
+                                    return_value_strcasecmp_24=strcasecmp((const char *)arg, "-guestsuffix");
+                                    if(return_value_strcasecmp_24 == 0)
                                     {
                                       if(1 + c == argc)
                                       {
@@ -8894,8 +8894,8 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                     else
                                     {
-                                      return_value_strcasecmp$23=strcasecmp((const char *)arg, "-echomailjam");
-                                      if(return_value_strcasecmp$23 == 0)
+                                      return_value_strcasecmp_23=strcasecmp((const char *)arg, "-echomailjam");
+                                      if(return_value_strcasecmp_23 == 0)
                                       {
                                         if(1 + c == argc)
                                         {
@@ -8909,16 +8909,16 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                       else
                                       {
-                                        return_value_strcasecmp$20=strcasecmp((const char *)arg, "-g");
-                                        if(return_value_strcasecmp$20 == 0)
-                                          tmp_if_expr$22 = (_Bool)1;
+                                        return_value_strcasecmp_20=strcasecmp((const char *)arg, "-g");
+                                        if(return_value_strcasecmp_20 == 0)
+                                          tmp_if_expr_22 = (_Bool)1;
 
                                         else
                                         {
-                                          return_value_strcasecmp$21=strcasecmp((const char *)arg, "-groups");
-                                          tmp_if_expr$22 = return_value_strcasecmp$21 == 0 ? (_Bool)1 : (_Bool)0;
+                                          return_value_strcasecmp_21=strcasecmp((const char *)arg, "-groups");
+                                          tmp_if_expr_22 = return_value_strcasecmp_21 == 0 ? (_Bool)1 : (_Bool)0;
                                         }
-                                        if(tmp_if_expr$22)
+                                        if(tmp_if_expr_22)
                                         {
                                           if(1 + c == argc)
                                           {
@@ -8932,16 +8932,16 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                         else
                                         {
-                                          return_value_strcasecmp$17=strcasecmp((const char *)arg, "-a");
-                                          if(return_value_strcasecmp$17 == 0)
-                                            tmp_if_expr$19 = (_Bool)1;
+                                          return_value_strcasecmp_17=strcasecmp((const char *)arg, "-a");
+                                          if(return_value_strcasecmp_17 == 0)
+                                            tmp_if_expr_19 = (_Bool)1;
 
                                           else
                                           {
-                                            return_value_strcasecmp$18=strcasecmp((const char *)arg, "-allow");
-                                            tmp_if_expr$19 = return_value_strcasecmp$18 == 0 ? (_Bool)1 : (_Bool)0;
+                                            return_value_strcasecmp_18=strcasecmp((const char *)arg, "-allow");
+                                            tmp_if_expr_19 = return_value_strcasecmp_18 == 0 ? (_Bool)1 : (_Bool)0;
                                           }
-                                          if(tmp_if_expr$19)
+                                          if(tmp_if_expr_19)
                                           {
                                             if(1 + c == argc)
                                             {
@@ -8955,16 +8955,16 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                           else
                                           {
-                                            return_value_strcasecmp$14=strcasecmp((const char *)arg, "-u");
-                                            if(return_value_strcasecmp$14 == 0)
-                                              tmp_if_expr$16 = (_Bool)1;
+                                            return_value_strcasecmp_14=strcasecmp((const char *)arg, "-u");
+                                            if(return_value_strcasecmp_14 == 0)
+                                              tmp_if_expr_16 = (_Bool)1;
 
                                             else
                                             {
-                                              return_value_strcasecmp$15=strcasecmp((const char *)arg, "-users");
-                                              tmp_if_expr$16 = return_value_strcasecmp$15 == 0 ? (_Bool)1 : (_Bool)0;
+                                              return_value_strcasecmp_15=strcasecmp((const char *)arg, "-users");
+                                              tmp_if_expr_16 = return_value_strcasecmp_15 == 0 ? (_Bool)1 : (_Bool)0;
                                             }
-                                            if(tmp_if_expr$16)
+                                            if(tmp_if_expr_16)
                                             {
                                               if(1 + c == argc)
                                               {
@@ -8978,16 +8978,16 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                             else
                                             {
-                                              return_value_strcasecmp$11=strcasecmp((const char *)arg, "-x");
-                                              if(return_value_strcasecmp$11 == 0)
-                                                tmp_if_expr$13 = (_Bool)1;
+                                              return_value_strcasecmp_11=strcasecmp((const char *)arg, "-x");
+                                              if(return_value_strcasecmp_11 == 0)
+                                                tmp_if_expr_13 = (_Bool)1;
 
                                               else
                                               {
-                                                return_value_strcasecmp$12=strcasecmp((const char *)arg, "-xlat");
-                                                tmp_if_expr$13 = return_value_strcasecmp$12 == 0 ? (_Bool)1 : (_Bool)0;
+                                                return_value_strcasecmp_12=strcasecmp((const char *)arg, "-xlat");
+                                                tmp_if_expr_13 = return_value_strcasecmp_12 == 0 ? (_Bool)1 : (_Bool)0;
                                               }
-                                              if(tmp_if_expr$13)
+                                              if(tmp_if_expr_13)
                                               {
                                                 if(1 + c == argc)
                                                 {
@@ -9001,16 +9001,16 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                               else
                                               {
-                                                return_value_strcasecmp$8=strcasecmp((const char *)arg, "-l");
-                                                if(return_value_strcasecmp$8 == 0)
-                                                  tmp_if_expr$10 = (_Bool)1;
+                                                return_value_strcasecmp_8=strcasecmp((const char *)arg, "-l");
+                                                if(return_value_strcasecmp_8 == 0)
+                                                  tmp_if_expr_10 = (_Bool)1;
 
                                                 else
                                                 {
-                                                  return_value_strcasecmp$9=strcasecmp((const char *)arg, "-logfile");
-                                                  tmp_if_expr$10 = return_value_strcasecmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+                                                  return_value_strcasecmp_9=strcasecmp((const char *)arg, "-logfile");
+                                                  tmp_if_expr_10 = return_value_strcasecmp_9 == 0 ? (_Bool)1 : (_Bool)0;
                                                 }
-                                                if(tmp_if_expr$10)
+                                                if(tmp_if_expr_10)
                                                 {
                                                   if(1 + c == argc)
                                                   {
@@ -9024,8 +9024,8 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
 
                                                 else
                                                 {
-                                                  return_value_strcasecmp$7=strcasecmp((const char *)arg, "-config");
-                                                  if(return_value_strcasecmp$7 == 0)
+                                                  return_value_strcasecmp_7=strcasecmp((const char *)arg, "-config");
+                                                  if(return_value_strcasecmp_7 == 0)
                                                   {
                                                     if(!(filename == ((unsigned char *)NULL)))
                                                     {
@@ -9041,17 +9041,17 @@ signed int parseargs(signed int argc, char **argv, unsigned char *filename, unsi
                                                       }
 
                                                     c = c + 1;
-                                                    signed int return_value_readargs$5;
-                                                    return_value_readargs$5=readargs((unsigned char *)argv[(signed long int)c]);
-                                                    if(return_value_readargs$5 == 0)
+                                                    signed int return_value_readargs_5;
+                                                    return_value_readargs_5=readargs((unsigned char *)argv[(signed long int)c]);
+                                                    if(return_value_readargs_5 == 0)
                                                       return 0;
 
                                                   }
 
                                                   else
                                                   {
-                                                    return_value_strcasecmp$6=strcasecmp((const char *)arg, "-create");
-                                                    if(return_value_strcasecmp$6 == 0)
+                                                    return_value_strcasecmp_6=strcasecmp((const char *)arg, "-create");
+                                                    if(return_value_strcasecmp_6 == 0)
                                                     {
                                                       if(!(filename == ((unsigned char *)NULL)))
                                                       {
@@ -9112,7 +9112,7 @@ unsigned char * parseinput(struct var *var)
   for( ; (signed int)var->input[(signed long int)var->inputpos] == 32; var->inputpos = var->inputpos + 1ul)
     ;
   s = (signed long int)var->inputpos;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   if((signed int)var->input[(signed long int)var->inputpos] == 0)
     return (unsigned char *)(void *)0;
 
@@ -9124,9 +9124,9 @@ unsigned char * parseinput(struct var *var)
 
     if((signed int)var->input[(signed long int)var->inputpos] == 32)
     {
-      tmp_post$1 = var->inputpos;
+      tmp_post_1 = var->inputpos;
       var->inputpos = var->inputpos + 1ul;
-      var->input[(signed long int)tmp_post$1] = (unsigned char)0;
+      var->input[(signed long int)tmp_post_1] = (unsigned char)0;
     }
 
     return &var->input[s];
@@ -9145,9 +9145,9 @@ signed int readargs(unsigned char *file)
   unsigned char s[1000l];
   unsigned char w[200l];
   fp=fopen((const char *)file, "r");
-  char *return_value_fgets$1;
-  signed int return_value_getcfgword$2;
-  signed int tmp_post$3;
+  char *return_value_fgets_1;
+  signed int return_value_getcfgword_2;
+  signed int tmp_post_3;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     printf("Failed to open %s\n", file);
@@ -9159,8 +9159,8 @@ signed int readargs(unsigned char *file)
     line = (unsigned long int)0;
     do
     {
-      return_value_fgets$1=fgets((char *)s, 999, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets((char *)s, 999, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       line = line + 1ul;
@@ -9172,8 +9172,8 @@ signed int readargs(unsigned char *file)
         pos = (unsigned long int)0;
         do
         {
-          return_value_getcfgword$2=getcfgword(s, &pos, w, (unsigned long int)200);
-          if(return_value_getcfgword$2 == 0)
+          return_value_getcfgword_2=getcfgword(s, &pos, w, (unsigned long int)200);
+          if(return_value_getcfgword_2 == 0)
             break;
 
           if(fileargc == 100)
@@ -9183,10 +9183,10 @@ signed int readargs(unsigned char *file)
             return 0;
           }
 
-          tmp_post$3 = fileargc;
+          tmp_post_3 = fileargc;
           fileargc = fileargc + 1;
-          fileargv[(signed long int)tmp_post$3]=strdup((const char *)w);
-          if(fileargv[(signed long int)tmp_post$3] == ((char *)NULL))
+          fileargv[(signed long int)tmp_post_3]=strdup((const char *)w);
+          if(fileargv[(signed long int)tmp_post_3] == ((char *)NULL))
           {
             fclose(fp);
             return 0;
@@ -9197,9 +9197,9 @@ signed int readargs(unsigned char *file)
         while((_Bool)1);
         if(!(newargs == 0ul))
         {
-          signed int return_value_parseargs$4;
-          return_value_parseargs$4=parseargs((signed int)newargs, &fileargv[(signed long int)firstarg], file, line);
-          if(return_value_parseargs$4 == 0)
+          signed int return_value_parseargs_4;
+          return_value_parseargs_4=parseargs((signed int)newargs, &fileargv[(signed long int)firstarg], file, line);
+          if(return_value_parseargs_4 == 0)
             return 0;
 
         }
@@ -9243,7 +9243,7 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
   signed int res5;
   unsigned char table[1024l];
   fp=fopen((const char *)filename, "r");
-  char *return_value_strchr$8;
+  char *return_value_strchr_8;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     os_logwrite((unsigned char *)"(%s) Warning: Could not open charset file %s, translation disabled", (const void *)var->clientid, filename);
@@ -9252,9 +9252,9 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
 
   else
   {
-    signed int return_value_chsgetline$1;
-    return_value_chsgetline$1=chsgetline(fp, buf, (unsigned long int)100);
-    if(return_value_chsgetline$1 == 0)
+    signed int return_value_chsgetline_1;
+    return_value_chsgetline_1=chsgetline(fp, buf, (unsigned long int)100);
+    if(return_value_chsgetline_1 == 0)
     {
       os_logwrite((unsigned char *)"(%s) Warning: Unexpected EOF in %s when reading ID number, translation disabled", (const void *)var->clientid, filename);
       fclose(fp);
@@ -9263,16 +9263,16 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
 
     else
     {
-      signed int return_value_atoi$2;
-      return_value_atoi$2=atoi((const char *)buf);
-      if(return_value_atoi$2 >= 65536)
+      signed int return_value_atoi_2;
+      return_value_atoi_2=atoi((const char *)buf);
+      if(return_value_atoi_2 >= 65536)
         extended = 1;
 
       else
         extended = 0;
-      signed int return_value_chsgetline$3;
-      return_value_chsgetline$3=chsgetline(fp, buf, (unsigned long int)100);
-      if(return_value_chsgetline$3 == 0)
+      signed int return_value_chsgetline_3;
+      return_value_chsgetline_3=chsgetline(fp, buf, (unsigned long int)100);
+      if(return_value_chsgetline_3 == 0)
       {
         os_logwrite((unsigned char *)"(%s) Warning: Unexpected EOF in %s when reading version number, translation disabled", (const void *)var->clientid, filename);
         fclose(fp);
@@ -9281,9 +9281,9 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
 
       else
       {
-        signed int return_value_chsgetline$4;
-        return_value_chsgetline$4=chsgetline(fp, buf, (unsigned long int)100);
-        if(return_value_chsgetline$4 == 0)
+        signed int return_value_chsgetline_4;
+        return_value_chsgetline_4=chsgetline(fp, buf, (unsigned long int)100);
+        if(return_value_chsgetline_4 == 0)
         {
           os_logwrite((unsigned char *)"(%s) Warning: Unexpected EOF in %s when reading level number, translation disabled", (const void *)var->clientid, filename);
           fclose(fp);
@@ -9293,9 +9293,9 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
         else
         {
           level=atoi((const char *)buf);
-          signed int return_value_chsgetline$5;
-          return_value_chsgetline$5=chsgetline(fp, buf, (unsigned long int)100);
-          if(return_value_chsgetline$5 == 0)
+          signed int return_value_chsgetline_5;
+          return_value_chsgetline_5=chsgetline(fp, buf, (unsigned long int)100);
+          if(return_value_chsgetline_5 == 0)
           {
             os_logwrite((unsigned char *)"(%s) Warning: Unexpected EOF in %s when reading source charset, translation disabled", (const void *)var->clientid, filename);
             fclose(fp);
@@ -9304,9 +9304,9 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
 
           else
           {
-            signed int return_value_chsgetline$6;
-            return_value_chsgetline$6=chsgetline(fp, buf, (unsigned long int)100);
-            if(return_value_chsgetline$6 == 0)
+            signed int return_value_chsgetline_6;
+            return_value_chsgetline_6=chsgetline(fp, buf, (unsigned long int)100);
+            if(return_value_chsgetline_6 == 0)
             {
               os_logwrite((unsigned char *)"(%s) Warning: Unexpected EOF in %s when reading destination charset, translation disabled", (const void *)var->clientid, filename);
               fclose(fp);
@@ -9350,21 +9350,21 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
                 c = 0;
                 for( ; !(c >= readnum); c = c + 1)
                 {
-                  signed int return_value_chsgetline$7;
-                  return_value_chsgetline$7=chsgetline(fp, buf, (unsigned long int)100);
-                  if(return_value_chsgetline$7 == 0)
+                  signed int return_value_chsgetline_7;
+                  return_value_chsgetline_7=chsgetline(fp, buf, (unsigned long int)100);
+                  if(return_value_chsgetline_7 == 0)
                   {
                     os_logwrite((unsigned char *)"(%s) Warning: Unexpected EOF in %s when reading translation for %d, translation disabled", (const void *)var->clientid, filename, basenum + c);
                     fclose(fp);
                     return (struct xlattab *)(void *)0;
                   }
 
-                  char *return_value_strchr$9;
-                  return_value_strchr$9=strchr((const char *)buf, 59);
-                  if(!(return_value_strchr$9 == ((char *)NULL)))
+                  char *return_value_strchr_9;
+                  return_value_strchr_9=strchr((const char *)buf, 59);
+                  if(!(return_value_strchr_9 == ((char *)NULL)))
                   {
-                    return_value_strchr$8=strchr((const char *)buf, 59);
-                    *return_value_strchr$8 = (char)0;
+                    return_value_strchr_8=strchr((const char *)buf, 59);
+                    *return_value_strchr_8 = (char)0;
                   }
 
                   strip(buf);
@@ -9399,9 +9399,9 @@ struct xlattab * readchs(struct var *var, unsigned char *filename)
                   table[(signed long int)((basenum + c) * 4 + 3)] = ch4;
                 }
                 fclose(fp);
-                void *return_value_malloc$10;
-                return_value_malloc$10=malloc(sizeof(struct xlattab) /*1136ul*/ );
-                newxlattab = (struct xlattab *)return_value_malloc$10;
+                void *return_value_malloc_10;
+                return_value_malloc_10=malloc(sizeof(struct xlattab) /*1136ul*/ );
+                newxlattab = (struct xlattab *)return_value_malloc_10;
                 if(newxlattab == ((struct xlattab *)NULL))
                   return ((struct xlattab *)NULL);
 
@@ -9451,9 +9451,9 @@ signed int readgroups(struct var *var)
   struct group *newgroup;
   struct group *lastgroup;
   fp=fopen((const char *)cfg_groupsfile, "r");
-  char *return_value_fgets$1;
-  signed int return_value_getcfgword$3;
-  _Bool tmp_if_expr$4;
+  char *return_value_fgets_1;
+  signed int return_value_getcfgword_3;
+  _Bool tmp_if_expr_4;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     os_logwrite((unsigned char *)"(%s) Failed to read group configuration file %s", (const void *)var->clientid, cfg_groupsfile);
@@ -9467,8 +9467,8 @@ signed int readgroups(struct var *var)
     line = (unsigned long int)0;
     do
     {
-      return_value_fgets$1=fgets((char *)s, 999, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets((char *)s, 999, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       line = line + 1ul;
@@ -9484,9 +9484,9 @@ signed int readgroups(struct var *var)
           res4=getcfgword(s, &pos, jampath, (unsigned long int)100);
           if(!(res1 == 0) && !(res2 == 0) && !(res3 == 0) && !(res4 == 0))
           {
-            void *return_value_malloc$2;
-            return_value_malloc$2=malloc(sizeof(struct group) /*288ul*/ );
-            newgroup = (struct group *)return_value_malloc$2;
+            void *return_value_malloc_2;
+            return_value_malloc_2=malloc(sizeof(struct group) /*288ul*/ );
+            newgroup = (struct group *)return_value_malloc_2;
             if(newgroup == ((struct group *)NULL))
             {
               fclose(fp);
@@ -9525,23 +9525,23 @@ signed int readgroups(struct var *var)
             newgroup->defaultchrs[(signed long int)0] = (unsigned char)0;
             do
             {
-              return_value_getcfgword$3=getcfgword(s, &pos, option, (unsigned long int)100);
-              if(return_value_getcfgword$3 == 0)
+              return_value_getcfgword_3=getcfgword(s, &pos, option, (unsigned long int)100);
+              if(return_value_getcfgword_3 == 0)
                 break;
 
-              signed int return_value_strcasecmp$5;
-              return_value_strcasecmp$5=strcasecmp((const char *)option, "-nochrs");
-              if(return_value_strcasecmp$5 == 0)
+              signed int return_value_strcasecmp_5;
+              return_value_strcasecmp_5=strcasecmp((const char *)option, "-nochrs");
+              if(return_value_strcasecmp_5 == 0)
                 newgroup->nochrs = 1;
 
               else
               {
                 if(!((signed int)option[0l] == 45))
-                  tmp_if_expr$4 = (signed int)newgroup->defaultchrs[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_4 = (signed int)newgroup->defaultchrs[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$4 = (_Bool)0;
-                if(tmp_if_expr$4)
+                  tmp_if_expr_4 = (_Bool)0;
+                if(tmp_if_expr_4)
                   mystrncpy(newgroup->defaultchrs, option, (signed long int)20);
 
                 else
@@ -9573,22 +9573,22 @@ signed int readgroups(struct var *var)
 
 // readoriginaddr
 // file nntpserv.c line 256
-void readoriginaddr(struct anonymous$7 *mb, unsigned long int offset, unsigned long int len, unsigned char *addr)
+void readoriginaddr(struct anonymous_7 *mb, unsigned long int offset, unsigned long int len, unsigned char *addr)
 {
   unsigned long int d;
   unsigned long int textpos;
   unsigned char originbuf[100l];
   unsigned char *text;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len + (unsigned long int)1);
-  text = (unsigned char *)return_value_malloc$1;
-  signed int return_value_strncmp$3;
-  char *return_value_strchr$4;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len + (unsigned long int)1);
+  text = (unsigned char *)return_value_malloc_1;
+  signed int return_value_strncmp_3;
+  char *return_value_strchr_4;
   if(!(text == ((unsigned char *)NULL)))
   {
-    signed int return_value_JAM_ReadMsgText$2;
-    return_value_JAM_ReadMsgText$2=JAM_ReadMsgText(mb, offset, len, text);
-    if(return_value_JAM_ReadMsgText$2 == 0)
+    signed int return_value_JAM_ReadMsgText_2;
+    return_value_JAM_ReadMsgText_2=JAM_ReadMsgText(mb, offset, len, text);
+    if(return_value_JAM_ReadMsgText_2 == 0)
     {
       text[(signed long int)len] = (unsigned char)0;
       textpos = (unsigned long int)0;
@@ -9605,8 +9605,8 @@ void readoriginaddr(struct anonymous$7 *mb, unsigned long int offset, unsigned l
 
         if(d + -textpos >= 12ul)
         {
-          return_value_strncmp$3=strncmp((const char *)&text[(signed long int)textpos], " * Origin: ", (unsigned long int)11);
-          if(return_value_strncmp$3 == 0)
+          return_value_strncmp_3=strncmp((const char *)&text[(signed long int)textpos], " * Origin: ", (unsigned long int)11);
+          if(return_value_strncmp_3 == 0)
             mystrncpy(originbuf, &text[(signed long int)textpos], (signed long int)(d - textpos < (unsigned long int)100 ? d - textpos : (unsigned long int)100));
 
         }
@@ -9623,12 +9623,12 @@ void readoriginaddr(struct anonymous$7 *mb, unsigned long int offset, unsigned l
         if((signed int)originbuf[(signed long int)d] == 40)
         {
           strcpy((char *)addr, (const char *)&originbuf[(signed long int)(d + (unsigned long int)1)]);
-          char *return_value_strchr$5;
-          return_value_strchr$5=strchr((const char *)addr, 41);
-          if(!(return_value_strchr$5 == ((char *)NULL)))
+          char *return_value_strchr_5;
+          return_value_strchr_5=strchr((const char *)addr, 41);
+          if(!(return_value_strchr_5 == ((char *)NULL)))
           {
-            return_value_strchr$4=strchr((const char *)addr, 41);
-            *return_value_strchr$4 = (char)0;
+            return_value_strchr_4=strchr((const char *)addr, 41);
+            *return_value_strchr_4 = (char)0;
           }
 
         }
@@ -9667,18 +9667,18 @@ signed int readxlat(struct var *var)
   struct xlatalias *lastpostalias;
   struct xlattab *xlattab;
   fp=fopen((const char *)cfg_xlatfile, "r");
-  char *return_value_fgets$1;
-  signed int return_value_strcasecmp$19;
-  signed int return_value_strcasecmp$18;
-  signed int return_value_strcasecmp$17;
-  signed int return_value_strcasecmp$16;
-  signed int return_value_strcasecmp$13;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_getcfgword$6;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strlen$7;
-  signed int return_value_strcmp$10;
+  char *return_value_fgets_1;
+  signed int return_value_strcasecmp_19;
+  signed int return_value_strcasecmp_18;
+  signed int return_value_strcasecmp_17;
+  signed int return_value_strcasecmp_16;
+  signed int return_value_strcasecmp_13;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_getcfgword_6;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strlen_7;
+  signed int return_value_strcmp_10;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     os_logwrite((unsigned char *)"(%s) Can't read xlat configuration file %s", (const void *)var->clientid, cfg_xlatfile);
@@ -9700,8 +9700,8 @@ signed int readxlat(struct var *var)
     line = (unsigned long int)0;
     do
     {
-      return_value_fgets$1=fgets((char *)s, 999, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets((char *)s, 999, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       line = line + 1ul;
@@ -9714,31 +9714,31 @@ signed int readxlat(struct var *var)
           res1=getcfgword(s, &pos, type, (unsigned long int)20);
           res2=getcfgword(s, &pos, fromchrs, (unsigned long int)100);
           res3=getcfgword(s, &pos, tochrs, (unsigned long int)100);
-          signed int return_value_strcasecmp$20;
-          return_value_strcasecmp$20=strcasecmp((const char *)type, "chsdir");
-          if(return_value_strcasecmp$20 == 0 && !(res2 == 0))
+          signed int return_value_strcasecmp_20;
+          return_value_strcasecmp_20=strcasecmp((const char *)type, "chsdir");
+          if(return_value_strcasecmp_20 == 0 && !(res2 == 0))
             mystrncpy(basename, fromchrs, (signed long int)100);
 
           else
           {
-            return_value_strcasecmp$19=strcasecmp((const char *)type, "defaultpost");
-            if(return_value_strcasecmp$19 == 0 && !(res2 == 0))
+            return_value_strcasecmp_19=strcasecmp((const char *)type, "defaultpost");
+            if(return_value_strcasecmp_19 == 0 && !(res2 == 0))
               mystrncpy(var->defaultpostchrs, fromchrs, (signed long int)20);
 
             else
             {
-              return_value_strcasecmp$18=strcasecmp((const char *)type, "defaultread");
-              if(return_value_strcasecmp$18 == 0 && !(res2 == 0))
+              return_value_strcasecmp_18=strcasecmp((const char *)type, "defaultread");
+              if(return_value_strcasecmp_18 == 0 && !(res2 == 0))
                 mystrncpy(var->defaultreadchrs, fromchrs, (signed long int)20);
 
               else
               {
-                return_value_strcasecmp$17=strcasecmp((const char *)type, "readalias");
-                if(return_value_strcasecmp$17 == 0 && !(res2 == 0) && !(res3 == 0))
+                return_value_strcasecmp_17=strcasecmp((const char *)type, "readalias");
+                if(return_value_strcasecmp_17 == 0 && !(res2 == 0) && !(res3 == 0))
                 {
-                  void *return_value_malloc$2;
-                  return_value_malloc$2=malloc(sizeof(struct xlatalias) /*48ul*/ );
-                  newxlatalias = (struct xlatalias *)return_value_malloc$2;
+                  void *return_value_malloc_2;
+                  return_value_malloc_2=malloc(sizeof(struct xlatalias) /*48ul*/ );
+                  newxlatalias = (struct xlatalias *)return_value_malloc_2;
                   if(newxlatalias == ((struct xlatalias *)NULL))
                   {
                     fclose(fp);
@@ -9759,12 +9759,12 @@ signed int readxlat(struct var *var)
 
                 else
                 {
-                  return_value_strcasecmp$16=strcasecmp((const char *)type, "postalias");
-                  if(return_value_strcasecmp$16 == 0 && !(res2 == 0) && !(res3 == 0))
+                  return_value_strcasecmp_16=strcasecmp((const char *)type, "postalias");
+                  if(return_value_strcasecmp_16 == 0 && !(res2 == 0) && !(res3 == 0))
                   {
-                    void *return_value_malloc$3;
-                    return_value_malloc$3=malloc(sizeof(struct xlatalias) /*48ul*/ );
-                    newxlatalias = (struct xlatalias *)return_value_malloc$3;
+                    void *return_value_malloc_3;
+                    return_value_malloc_3=malloc(sizeof(struct xlatalias) /*48ul*/ );
+                    newxlatalias = (struct xlatalias *)return_value_malloc_3;
                     if(newxlatalias == ((struct xlatalias *)NULL))
                     {
                       fclose(fp);
@@ -9785,20 +9785,20 @@ signed int readxlat(struct var *var)
 
                   else
                   {
-                    return_value_strcasecmp$13=strcasecmp((const char *)type, "post");
-                    if(return_value_strcasecmp$13 == 0)
-                      tmp_if_expr$15 = (_Bool)1;
+                    return_value_strcasecmp_13=strcasecmp((const char *)type, "post");
+                    if(return_value_strcasecmp_13 == 0)
+                      tmp_if_expr_15 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcasecmp$14=strcasecmp((const char *)type, "read");
-                      tmp_if_expr$15 = return_value_strcasecmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_strcasecmp_14=strcasecmp((const char *)type, "read");
+                      tmp_if_expr_15 = return_value_strcasecmp_14 == 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$15)
+                    if(tmp_if_expr_15)
                     {
-                      void *return_value_malloc$4;
-                      return_value_malloc$4=malloc(sizeof(struct xlat) /*64ul*/ );
-                      newxlat = (struct xlat *)return_value_malloc$4;
+                      void *return_value_malloc_4;
+                      return_value_malloc_4=malloc(sizeof(struct xlat) /*64ul*/ );
+                      newxlat = (struct xlat *)return_value_malloc_4;
                       if(newxlat == ((struct xlat *)NULL))
                       {
                         fclose(fp);
@@ -9806,9 +9806,9 @@ signed int readxlat(struct var *var)
                       }
 
                       newxlat->next = (struct xlat *)(void *)0;
-                      signed int return_value_strcasecmp$5;
-                      return_value_strcasecmp$5=strcasecmp((const char *)type, "post");
-                      if(return_value_strcasecmp$5 == 0)
+                      signed int return_value_strcasecmp_5;
+                      return_value_strcasecmp_5=strcasecmp((const char *)type, "post");
+                      if(return_value_strcasecmp_5 == 0)
                       {
                         if(var->firstpostxlat == ((struct xlat *)NULL))
                           var->firstpostxlat = newxlat;
@@ -9835,35 +9835,35 @@ signed int readxlat(struct var *var)
                       newxlat->keepsoftcr = 0;
                       do
                       {
-                        return_value_getcfgword$6=getcfgword(s, &pos, option, (unsigned long int)100);
-                        if(return_value_getcfgword$6 == 0)
+                        return_value_getcfgword_6=getcfgword(s, &pos, option, (unsigned long int)100);
+                        if(return_value_getcfgword_6 == 0)
                           break;
 
-                        signed int return_value_strcasecmp$12;
-                        return_value_strcasecmp$12=strcasecmp((const char *)option, "-keepsoftcr");
-                        if(return_value_strcasecmp$12 == 0)
+                        signed int return_value_strcasecmp_12;
+                        return_value_strcasecmp_12=strcasecmp((const char *)option, "-keepsoftcr");
+                        if(return_value_strcasecmp_12 == 0)
                           newxlat->keepsoftcr = 1;
 
                         else
                         {
                           if(!((signed int)option[0l] == 45))
-                            tmp_if_expr$11 = !(newxlat->xlattab != ((struct xlattab *)NULL)) ? (_Bool)1 : (_Bool)0;
+                            tmp_if_expr_11 = !(newxlat->xlattab != ((struct xlattab *)NULL)) ? (_Bool)1 : (_Bool)0;
 
                           else
-                            tmp_if_expr$11 = (_Bool)0;
-                          if(tmp_if_expr$11)
+                            tmp_if_expr_11 = (_Bool)0;
+                          if(tmp_if_expr_11)
                           {
                             strcpy((char *)fullfilename, (const char *)basename);
-                            unsigned long int return_value_strlen$9;
-                            return_value_strlen$9=strlen((const char *)fullfilename);
-                            if(!(return_value_strlen$9 == 0ul))
+                            unsigned long int return_value_strlen_9;
+                            return_value_strlen_9=strlen((const char *)fullfilename);
+                            if(!(return_value_strlen_9 == 0ul))
                             {
-                              unsigned long int return_value_strlen$8;
-                              return_value_strlen$8=strlen((const char *)fullfilename);
-                              if(!((signed int)fullfilename[-1l + (signed long int)return_value_strlen$8] == 47))
+                              unsigned long int return_value_strlen_8;
+                              return_value_strlen_8=strlen((const char *)fullfilename);
+                              if(!((signed int)fullfilename[-1l + (signed long int)return_value_strlen_8] == 47))
                               {
-                                return_value_strlen$7=strlen((const char *)fullfilename);
-                                if(!((signed int)fullfilename[-1l + (signed long int)return_value_strlen$7] == 92))
+                                return_value_strlen_7=strlen((const char *)fullfilename);
+                                if(!((signed int)fullfilename[-1l + (signed long int)return_value_strlen_7] == 92))
                                   strcat((char *)fullfilename, "/");
 
                               }
@@ -9874,8 +9874,8 @@ signed int readxlat(struct var *var)
                             xlattab = var->firstxlattab;
                             for( ; !(xlattab == ((struct xlattab *)NULL)); xlattab = xlattab->next)
                             {
-                              return_value_strcmp$10=strcmp((const char *)xlattab->filename, (const char *)fullfilename);
-                              if(return_value_strcmp$10 == 0)
+                              return_value_strcmp_10=strcmp((const char *)xlattab->filename, (const char *)fullfilename);
+                              if(return_value_strcmp_10 == 0)
                                 break;
 
                             }
@@ -9931,21 +9931,21 @@ void sendtextblock(struct var *var, unsigned char *text, struct xlat *xlat)
   unsigned char *xlatres;
   signed int wrapped;
   textpos = (signed long int)0;
-  signed int return_value_get_server_quit$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$9;
+  signed int return_value_get_server_quit_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_9;
   while(!((signed int)text[textpos] == 0))
   {
     if(!(var->disconnect == 0))
       break;
 
-    return_value_get_server_quit$1=get_server_quit();
-    if(!(return_value_get_server_quit$1 == 0))
+    return_value_get_server_quit_1=get_server_quit();
+    if(!(return_value_get_server_quit_1 == 0))
       break;
 
     lastspace = (signed long int)0;
@@ -9978,11 +9978,11 @@ void sendtextblock(struct var *var, unsigned char *text, struct xlat *xlat)
 
         }
         if((signed int)text[d + textpos] == 13)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)text[textpos + d] == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)text[textpos + d] == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           c = d;
 
       }
@@ -9990,11 +9990,11 @@ void sendtextblock(struct var *var, unsigned char *text, struct xlat *xlat)
     }
 
     if((signed int)text[c + textpos] == 13)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)text[textpos + c] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)text[textpos + c] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       copyline(buf, &text[textpos], c);
       if((signed int)text[c + textpos] == 13)
@@ -10030,19 +10030,19 @@ void sendtextblock(struct var *var, unsigned char *text, struct xlat *xlat)
           wrapped = 1;
 
         if((signed int)text[c + textpos] == 32)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)text[textpos + c] == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)text[textpos + c] == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           c = c + 1l;
 
         textpos = textpos + c;
       }
     if(!(var->opt_flowed == 0))
     {
-      return_value_strcmp$7=strcmp((const char *)buf, "-- ");
-      if(!(return_value_strcmp$7 == 0))
+      return_value_strcmp_7=strcmp((const char *)buf, "-- ");
+      if(!(return_value_strcmp_7 == 0))
       {
         if(!(wrapped == 0))
           strcat((char *)buf, " ");
@@ -10050,14 +10050,14 @@ void sendtextblock(struct var *var, unsigned char *text, struct xlat *xlat)
         else
           strip(buf);
         if((signed int)buf[0l] == 32)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_strncmp$5=strncmp((const char *)buf, "From ", (unsigned long int)5);
-          tmp_if_expr$6 = return_value_strncmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_5=strncmp((const char *)buf, "From ", (unsigned long int)5);
+          tmp_if_expr_6 = return_value_strncmp_5 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
         {
           strcpy((char *)buf2, (const char *)buf);
           strcpy((char *)buf, " ");
@@ -10068,18 +10068,18 @@ void sendtextblock(struct var *var, unsigned char *text, struct xlat *xlat)
 
     }
 
-    signed int return_value_strcasecmp$8;
-    return_value_strcasecmp$8=strcasecmp((const char *)buf, ".");
-    if(return_value_strcasecmp$8 == 0)
+    signed int return_value_strcasecmp_8;
+    return_value_strcasecmp_8=strcasecmp((const char *)buf, ".");
+    if(return_value_strcasecmp_8 == 0)
       strcpy((char *)buf, "..");
 
     strcat((char *)buf, "\r\n");
     if(!(xlat == ((struct xlat *)NULL)))
-      tmp_if_expr$9 = xlat->xlattab != ((struct xlattab *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = xlat->xlattab != ((struct xlattab *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
     {
       xlatres=xlatstr(buf, xlat->xlattab);
       if(!(xlatres == ((unsigned char *)NULL)))
@@ -10112,7 +10112,7 @@ void server(signed int s)
   var.disconnect = 0;
   var.currentgroup = (struct group *)(void *)0;
   var.currentarticle = (unsigned long int)0;
-  var.openmb = (struct anonymous$7 *)(void *)0;
+  var.openmb = (struct anonymous_7 *)(void *)0;
   var.opengroup = (struct group *)(void *)0;
   var.firstgroup = (struct group *)(void *)0;
   var.firstreadxlat = (struct xlat *)(void *)0;
@@ -10127,27 +10127,27 @@ void server(signed int s)
   var.realnames[(signed long int)0] = (unsigned char)0;
   var.opt_flowed = cfg_def_flowed;
   var.opt_showto = cfg_def_showto;
-  signed int return_value_getpeername$1;
-  return_value_getpeername$1=getpeername(s, (struct sockaddr *)&fromsa, (unsigned int *)&fromsa_len);
-  signed int return_value_get_server_quit$10;
-  signed int return_value_sockreadline$11;
-  signed int return_value_strcasecmp$27;
-  signed int return_value_strcasecmp$26;
-  signed int return_value_strcasecmp$25;
-  signed int return_value_strcasecmp$24;
-  signed int return_value_strcasecmp$23;
-  signed int return_value_strcasecmp$22;
-  signed int return_value_strcasecmp$21;
-  signed int return_value_strcasecmp$20;
-  signed int return_value_strcasecmp$19;
-  signed int return_value_strcasecmp$18;
-  signed int return_value_strcasecmp$17;
-  signed int return_value_strcasecmp$16;
-  signed int return_value_strcasecmp$15;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$12;
-  if(return_value_getpeername$1 == -1)
+  signed int return_value_getpeername_1;
+  return_value_getpeername_1=getpeername(s, (struct sockaddr *)&fromsa, (unsigned int *)&fromsa_len);
+  signed int return_value_get_server_quit_10;
+  signed int return_value_sockreadline_11;
+  signed int return_value_strcasecmp_27;
+  signed int return_value_strcasecmp_26;
+  signed int return_value_strcasecmp_25;
+  signed int return_value_strcasecmp_24;
+  signed int return_value_strcasecmp_23;
+  signed int return_value_strcasecmp_22;
+  signed int return_value_strcasecmp_21;
+  signed int return_value_strcasecmp_20;
+  signed int return_value_strcasecmp_19;
+  signed int return_value_strcasecmp_18;
+  signed int return_value_strcasecmp_17;
+  signed int return_value_strcasecmp_16;
+  signed int return_value_strcasecmp_15;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_12;
+  if(return_value_getpeername_1 == -1)
   {
     os_showerror((unsigned char *)"getpeername() failed");
     shutdown(s, 2);
@@ -10172,24 +10172,24 @@ void server(signed int s)
 
     else
     {
-      char *return_value_inet_ntoa$2;
-      return_value_inet_ntoa$2=inet_ntoa(fromsa.sin_addr);
-      unsigned short int return_value_ntohs$3;
-      return_value_ntohs$3=ntohs(fromsa.sin_port);
-      sprintf((char *)var.clientid, "%s:%u", return_value_inet_ntoa$2, return_value_ntohs$3);
-      char *return_value_inet_ntoa$4;
-      return_value_inet_ntoa$4=inet_ntoa(fromsa.sin_addr);
-      mystrncpy(lookup, (unsigned char *)return_value_inet_ntoa$4, (signed long int)200);
+      char *return_value_inet_ntoa_2;
+      return_value_inet_ntoa_2=inet_ntoa(fromsa.sin_addr);
+      unsigned short int return_value_ntohs_3;
+      return_value_ntohs_3=ntohs(fromsa.sin_port);
+      sprintf((char *)var.clientid, "%s:%u", return_value_inet_ntoa_2, return_value_ntohs_3);
+      char *return_value_inet_ntoa_4;
+      return_value_inet_ntoa_4=inet_ntoa(fromsa.sin_addr);
+      mystrncpy(lookup, (unsigned char *)return_value_inet_ntoa_4, (signed long int)200);
       hostent=gethostbyaddr((const void *)(char *)&fromsa.sin_addr, (unsigned int)sizeof(struct in_addr) /*4ul*/ , 2);
       if(!(hostent == ((struct hostent *)NULL)))
         mystrncpy(lookup, (unsigned char *)hostent->h_name, (signed long int)200);
 
       os_logwrite((unsigned char *)"(%s) Connection established to %s", (const void *)var.clientid, (const void *)lookup);
-      char *return_value_inet_ntoa$5;
-      return_value_inet_ntoa$5=inet_ntoa(fromsa.sin_addr);
-      signed int return_value_checkallow$6;
-      return_value_checkallow$6=checkallow(&var, (unsigned char *)return_value_inet_ntoa$5);
-      if(return_value_checkallow$6 == 0)
+      char *return_value_inet_ntoa_5;
+      return_value_inet_ntoa_5=inet_ntoa(fromsa.sin_addr);
+      signed int return_value_checkallow_6;
+      return_value_checkallow_6=checkallow(&var, (unsigned char *)return_value_inet_ntoa_5);
+      if(return_value_checkallow_6 == 0)
       {
         socksendtext(&var, (unsigned char *)"502 Access denied.\r\n");
         os_logwrite((unsigned char *)"(%s) Access denied (not in allow list)", (const void *)var.clientid);
@@ -10203,9 +10203,9 @@ void server(signed int s)
 
       else
       {
-        signed int return_value_get_server_openconnections$7;
-        return_value_get_server_openconnections$7=get_server_openconnections();
-        if(!(cfg_maxconn >= (unsigned long int)return_value_get_server_openconnections$7))
+        signed int return_value_get_server_openconnections_7;
+        return_value_get_server_openconnections_7=get_server_openconnections();
+        if(!(cfg_maxconn >= (unsigned long int)return_value_get_server_openconnections_7))
         {
           os_logwrite((unsigned char *)"(%s) Access denied (server full)", (const void *)var.clientid);
           socksendtext(&var, (unsigned char *)"502 Maximum number of connections reached, please try again later\r\n");
@@ -10219,9 +10219,9 @@ void server(signed int s)
 
         else
         {
-          signed int return_value_readgroups$8;
-          return_value_readgroups$8=readgroups(&var);
-          if(return_value_readgroups$8 == 0)
+          signed int return_value_readgroups_8;
+          return_value_readgroups_8=readgroups(&var);
+          if(return_value_readgroups_8 == 0)
           {
             socksendtext(&var, (unsigned char *)"503 Failed to read group configuration file\r\n");
             shutdown(s, 2);
@@ -10234,9 +10234,9 @@ void server(signed int s)
 
           else
           {
-            signed int return_value_readxlat$9;
-            return_value_readxlat$9=readxlat(&var);
-            if(return_value_readxlat$9 == 0)
+            signed int return_value_readxlat_9;
+            return_value_readxlat_9=readxlat(&var);
+            if(return_value_readxlat_9 == 0)
             {
               socksendtext(&var, (unsigned char *)"503 Failed to read xlat configuration file\r\n");
               shutdown(s, 2);
@@ -10253,12 +10253,12 @@ void server(signed int s)
               socksendtext(&var, (unsigned char *)"200 Welcome to JamNNTPd/Linux 1.2 (posting may or may not be allowed, try your luck)\r\n");
               while(var.disconnect == 0)
               {
-                return_value_get_server_quit$10=get_server_quit();
-                if(!(return_value_get_server_quit$10 == 0))
+                return_value_get_server_quit_10=get_server_quit();
+                if(!(return_value_get_server_quit_10 == 0))
                   break;
 
-                return_value_sockreadline$11=sockreadline(&var, line, 1000);
-                if(return_value_sockreadline$11 == 0)
+                return_value_sockreadline_11=sockreadline(&var, line, 1000);
+                if(return_value_sockreadline_11 == 0)
                   break;
 
                 strip(line);
@@ -10274,45 +10274,45 @@ void server(signed int s)
                 cmd=parseinput(&var);
                 if(!(cmd == ((unsigned char *)NULL)))
                 {
-                  signed int return_value_strcasecmp$28;
-                  return_value_strcasecmp$28=strcasecmp((const char *)cmd, "ARTICLE");
-                  if(return_value_strcasecmp$28 == 0)
+                  signed int return_value_strcasecmp_28;
+                  return_value_strcasecmp_28=strcasecmp((const char *)cmd, "ARTICLE");
+                  if(return_value_strcasecmp_28 == 0)
                     command_abhs(&var, cmd);
 
                   else
                   {
-                    return_value_strcasecmp$27=strcasecmp((const char *)cmd, "AUTHINFO");
-                    if(return_value_strcasecmp$27 == 0)
+                    return_value_strcasecmp_27=strcasecmp((const char *)cmd, "AUTHINFO");
+                    if(return_value_strcasecmp_27 == 0)
                       command_authinfo(&var);
 
                     else
                     {
-                      return_value_strcasecmp$26=strcasecmp((const char *)cmd, "BODY");
-                      if(return_value_strcasecmp$26 == 0)
+                      return_value_strcasecmp_26=strcasecmp((const char *)cmd, "BODY");
+                      if(return_value_strcasecmp_26 == 0)
                         command_abhs(&var, cmd);
 
                       else
                       {
-                        return_value_strcasecmp$25=strcasecmp((const char *)cmd, "HEAD");
-                        if(return_value_strcasecmp$25 == 0)
+                        return_value_strcasecmp_25=strcasecmp((const char *)cmd, "HEAD");
+                        if(return_value_strcasecmp_25 == 0)
                           command_abhs(&var, cmd);
 
                         else
                         {
-                          return_value_strcasecmp$24=strcasecmp((const char *)cmd, "STAT");
-                          if(return_value_strcasecmp$24 == 0)
+                          return_value_strcasecmp_24=strcasecmp((const char *)cmd, "STAT");
+                          if(return_value_strcasecmp_24 == 0)
                             command_abhs(&var, cmd);
 
                           else
                           {
-                            return_value_strcasecmp$23=strcasecmp((const char *)cmd, "GROUP");
-                            if(return_value_strcasecmp$23 == 0)
+                            return_value_strcasecmp_23=strcasecmp((const char *)cmd, "GROUP");
+                            if(return_value_strcasecmp_23 == 0)
                               command_group(&var);
 
                             else
                             {
-                              return_value_strcasecmp$22=strcasecmp((const char *)cmd, "HELP");
-                              if(return_value_strcasecmp$22 == 0)
+                              return_value_strcasecmp_22=strcasecmp((const char *)cmd, "HELP");
+                              if(return_value_strcasecmp_22 == 0)
                               {
                                 socksendtext(&var, (unsigned char *)"100 Help text follows\r\n");
                                 socksendtext(&var, (unsigned char *)"Recognized commands:\r\n");
@@ -10341,26 +10341,26 @@ void server(signed int s)
 
                               else
                               {
-                                return_value_strcasecmp$21=strcasecmp((const char *)cmd, "IHAVE");
-                                if(return_value_strcasecmp$21 == 0)
+                                return_value_strcasecmp_21=strcasecmp((const char *)cmd, "IHAVE");
+                                if(return_value_strcasecmp_21 == 0)
                                   socksendtext(&var, (unsigned char *)"435 Article not wanted - do not send it\r\n");
 
                                 else
                                 {
-                                  return_value_strcasecmp$20=strcasecmp((const char *)cmd, "LAST");
-                                  if(return_value_strcasecmp$20 == 0)
+                                  return_value_strcasecmp_20=strcasecmp((const char *)cmd, "LAST");
+                                  if(return_value_strcasecmp_20 == 0)
                                     command_last(&var);
 
                                   else
                                   {
-                                    return_value_strcasecmp$19=strcasecmp((const char *)cmd, "LIST");
-                                    if(return_value_strcasecmp$19 == 0)
+                                    return_value_strcasecmp_19=strcasecmp((const char *)cmd, "LIST");
+                                    if(return_value_strcasecmp_19 == 0)
                                       command_list(&var);
 
                                     else
                                     {
-                                      return_value_strcasecmp$18=strcasecmp((const char *)cmd, "NEWGROUPS");
-                                      if(return_value_strcasecmp$18 == 0)
+                                      return_value_strcasecmp_18=strcasecmp((const char *)cmd, "NEWGROUPS");
+                                      if(return_value_strcasecmp_18 == 0)
                                       {
                                         socksendtext(&var, (unsigned char *)"231 Warning: NEWGROUPS not implemented, returning empty list\r\n");
                                         socksendtext(&var, (unsigned char *)".\r\n");
@@ -10368,8 +10368,8 @@ void server(signed int s)
 
                                       else
                                       {
-                                        return_value_strcasecmp$17=strcasecmp((const char *)cmd, "NEWNEWS");
-                                        if(return_value_strcasecmp$17 == 0)
+                                        return_value_strcasecmp_17=strcasecmp((const char *)cmd, "NEWNEWS");
+                                        if(return_value_strcasecmp_17 == 0)
                                         {
                                           socksendtext(&var, (unsigned char *)"230 Warning: NEWNEWS not implemented, returning empty list\r\n");
                                           socksendtext(&var, (unsigned char *)".\r\n");
@@ -10377,26 +10377,26 @@ void server(signed int s)
 
                                         else
                                         {
-                                          return_value_strcasecmp$16=strcasecmp((const char *)cmd, "NEXT");
-                                          if(return_value_strcasecmp$16 == 0)
+                                          return_value_strcasecmp_16=strcasecmp((const char *)cmd, "NEXT");
+                                          if(return_value_strcasecmp_16 == 0)
                                             command_next(&var);
 
                                           else
                                           {
-                                            return_value_strcasecmp$15=strcasecmp((const char *)cmd, "POST");
-                                            if(return_value_strcasecmp$15 == 0)
+                                            return_value_strcasecmp_15=strcasecmp((const char *)cmd, "POST");
+                                            if(return_value_strcasecmp_15 == 0)
                                               command_post(&var);
 
                                             else
                                             {
-                                              return_value_strcasecmp$14=strcasecmp((const char *)cmd, "SLAVE");
-                                              if(return_value_strcasecmp$14 == 0)
+                                              return_value_strcasecmp_14=strcasecmp((const char *)cmd, "SLAVE");
+                                              if(return_value_strcasecmp_14 == 0)
                                                 socksendtext(&var, (unsigned char *)"202 Slave status noted (but ignored)\r\n");
 
                                               else
                                               {
-                                                return_value_strcasecmp$13=strcasecmp((const char *)cmd, "QUIT");
-                                                if(return_value_strcasecmp$13 == 0)
+                                                return_value_strcasecmp_13=strcasecmp((const char *)cmd, "QUIT");
+                                                if(return_value_strcasecmp_13 == 0)
                                                 {
                                                   socksendtext(&var, (unsigned char *)"205 Goodbye\r\n");
                                                   var.disconnect = 1;
@@ -10404,8 +10404,8 @@ void server(signed int s)
 
                                                 else
                                                 {
-                                                  return_value_strcasecmp$12=strcasecmp((const char *)cmd, "XOVER");
-                                                  if(return_value_strcasecmp$12 == 0)
+                                                  return_value_strcasecmp_12=strcasecmp((const char *)cmd, "XOVER");
+                                                  if(return_value_strcasecmp_12 == 0)
                                                     command_xover(&var);
 
                                                   else
@@ -10430,7 +10430,7 @@ void server(signed int s)
 
               }
               os_logwrite((unsigned char *)"(%s) Connection closed", (const void *)var.clientid);
-              if(!(var.openmb == ((struct anonymous$7 *)NULL)))
+              if(!(var.openmb == ((struct anonymous_7 *)NULL)))
               {
                 JAM_CloseMB(var.openmb);
                 free((void *)var.openmb);
@@ -10456,9 +10456,9 @@ void server(signed int s)
 // file misc.h line 4
 signed int setboolonoff(unsigned char *opt, signed int *var)
 {
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp((const char *)opt, "on");
-  if(return_value_strcasecmp$1 == 0)
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp((const char *)opt, "on");
+  if(return_value_strcasecmp_1 == 0)
   {
     *var = 1;
     return 1;
@@ -10466,9 +10466,9 @@ signed int setboolonoff(unsigned char *opt, signed int *var)
 
   else
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp((const char *)opt, "off");
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp((const char *)opt, "off");
+    if(return_value_strcasecmp_2 == 0)
     {
       *var = 0;
       return 1;
@@ -10483,27 +10483,27 @@ signed int setboolonoff(unsigned char *opt, signed int *var)
 // file mime.h line 2
 void setcharset(unsigned char *newchrs, unsigned char *chrs, unsigned char *chrs2, unsigned long int chrslen)
 {
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
   if(!((signed int)*newchrs == 0))
   {
-    return_value_strcasecmp$3=strcasecmp((const char *)chrs, (const char *)newchrs);
-    if(!(return_value_strcasecmp$3 == 0))
+    return_value_strcasecmp_3=strcasecmp((const char *)chrs, (const char *)newchrs);
+    if(!(return_value_strcasecmp_3 == 0))
     {
       if((signed int)*chrs == 0)
         mystrncpy(chrs, newchrs, (signed long int)chrslen);
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp((const char *)chrs, "us-ascii");
-        if(return_value_strcasecmp$2 == 0)
+        return_value_strcasecmp_2=strcasecmp((const char *)chrs, "us-ascii");
+        if(return_value_strcasecmp_2 == 0)
           mystrncpy(chrs, newchrs, (signed long int)chrslen);
 
         else
         {
-          return_value_strcasecmp$1=strcasecmp((const char *)newchrs, "us-ascii");
-          if(!(return_value_strcasecmp$1 == 0))
+          return_value_strcasecmp_1=strcasecmp((const char *)newchrs, "us-ascii");
+          if(!(return_value_strcasecmp_1 == 0))
             mystrncpy(chrs2, newchrs, (signed long int)chrslen);
 
         }
@@ -10518,23 +10518,23 @@ void setcharset(unsigned char *newchrs, unsigned char *chrs, unsigned char *chrs
 // file xlat.h line 28
 void setchrscodepage(unsigned char *chrs, unsigned char *codepage, unsigned char *str)
 {
-  char *return_value_strchr$4;
-  return_value_strchr$4=strchr((const char *)str, 44);
-  char *return_value_strchr$1;
-  if(!(return_value_strchr$4 == ((char *)NULL)))
+  char *return_value_strchr_4;
+  return_value_strchr_4=strchr((const char *)str, 44);
+  char *return_value_strchr_1;
+  if(!(return_value_strchr_4 == ((char *)NULL)))
   {
     mystrncpy(chrs, str, (signed long int)20);
-    char *return_value_strchr$2;
-    return_value_strchr$2=strchr((const char *)chrs, 44);
-    if(!(return_value_strchr$2 == ((char *)NULL)))
+    char *return_value_strchr_2;
+    return_value_strchr_2=strchr((const char *)chrs, 44);
+    if(!(return_value_strchr_2 == ((char *)NULL)))
     {
-      return_value_strchr$1=strchr((const char *)chrs, 44);
-      *return_value_strchr$1 = (char)0;
+      return_value_strchr_1=strchr((const char *)chrs, 44);
+      *return_value_strchr_1 = (char)0;
     }
 
-    char *return_value_strchr$3;
-    return_value_strchr$3=strchr((const char *)str, 44);
-    mystrncpy(codepage, (unsigned char *)(return_value_strchr$3 + (signed long int)1), (signed long int)20);
+    char *return_value_strchr_3;
+    return_value_strchr_3=strchr((const char *)str, 44);
+    mystrncpy(codepage, (unsigned char *)(return_value_strchr_3 + (signed long int)1), (signed long int)20);
   }
 
   else
@@ -10548,19 +10548,19 @@ void setchrscodepage(unsigned char *chrs, unsigned char *codepage, unsigned char
 // file nntpserv.c line 1984
 void setreply(struct var *var, unsigned long int parentmsg, unsigned long int newmsg)
 {
-  struct anonymous$4 baseheader;
-  struct anonymous$5 header;
+  struct anonymous_4 baseheader;
+  struct anonymous_5 header;
   signed int res;
   unsigned long int nextreply;
   unsigned long int msg;
-  signed int return_value_JAM_ReadMBHeader$1;
-  return_value_JAM_ReadMBHeader$1=JAM_ReadMBHeader(var->openmb, &baseheader);
-  if(!(return_value_JAM_ReadMBHeader$1 == 0))
+  signed int return_value_JAM_ReadMBHeader_1;
+  return_value_JAM_ReadMBHeader_1=JAM_ReadMBHeader(var->openmb, &baseheader);
+  if(!(return_value_JAM_ReadMBHeader_1 == 0))
     os_logwrite((unsigned char *)"(%s) Could not read messagebase header of \"%s\"", (const void *)var->clientid, (const void *)var->opengroup->jampath);
 
   else
   {
-    res=JAM_ReadMsgHeader(var->openmb, parentmsg - baseheader.BaseMsgNum, &header, (struct anonymous$8 **)(void *)0);
+    res=JAM_ReadMsgHeader(var->openmb, parentmsg - baseheader.BaseMsgNum, &header, (struct anonymous_8 **)(void *)0);
     if(res == 0)
     {
       if(header.Reply1st == 0ul)
@@ -10575,7 +10575,7 @@ void setreply(struct var *var, unsigned long int parentmsg, unsigned long int ne
         msg = (unsigned long int)0;
         for( ; !(nextreply == 0ul); nextreply = header.ReplyNext)
         {
-          res=JAM_ReadMsgHeader(var->openmb, nextreply - baseheader.BaseMsgNum, &header, (struct anonymous$8 **)(void *)0);
+          res=JAM_ReadMsgHeader(var->openmb, nextreply - baseheader.BaseMsgNum, &header, (struct anonymous_8 **)(void *)0);
           if(!(res == 0))
             goto __CPROVER_DUMP_L7;
 
@@ -10611,12 +10611,12 @@ unsigned char * smartquote(unsigned char *oldtext, unsigned long int maxlen, uns
   signed int c;
   signed int d;
   signed int linebegins;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(maxlen);
-  newtext = (unsigned char *)return_value_malloc$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(maxlen);
+  newtext = (unsigned char *)return_value_malloc_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_2;
   if(newtext == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -10627,22 +10627,22 @@ unsigned char * smartquote(unsigned char *oldtext, unsigned long int maxlen, uns
     for( ; !(fromname[(signed long int)c] == 0); c = c + 1)
     {
       if(c == 0)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(!(c == 0))
-          tmp_if_expr$3 = (signed int)fromname[(signed long int)(c - 1)] == 32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)fromname[(signed long int)(c - 1)] == 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
-        tmp_post$2 = d;
+        tmp_post_2 = d;
         d = d + 1;
-        mark[(signed long int)tmp_post$2] = fromname[(signed long int)c];
+        mark[(signed long int)tmp_post_2] = fromname[(signed long int)c];
       }
 
     }
@@ -10668,18 +10668,18 @@ unsigned char * smartquote(unsigned char *oldtext, unsigned long int maxlen, uns
 
         strncat((char *)line, (const char *)&oldtext[(signed long int)(linebegins + 1)], (unsigned long int)((c - linebegins) - 1));
         tidyquote((char *)line);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen((const char *)line);
-        if(!(maxlen >= 1ul + return_value_strlen$5 + (unsigned long int)d))
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen((const char *)line);
+        if(!(maxlen >= 1ul + return_value_strlen_5 + (unsigned long int)d))
         {
           free((void *)newtext);
           return (unsigned char *)(void *)0;
         }
 
         strcpy((char *)&newtext[(signed long int)d], (const char *)line);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen((const char *)line);
-        d = d + (signed int)return_value_strlen$6;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen((const char *)line);
+        d = d + (signed int)return_value_strlen_6;
       }
 
       else
@@ -10715,25 +10715,25 @@ void sockprintf(struct var *var, unsigned char *fmt, ...)
 // file sockio.c line 23
 signed int sockreadchar(struct sockio *sio)
 {
-  struct anonymous$1 fds;
+  struct anonymous_1 fds;
   struct timeval tv;
   signed int res;
   signed int num;
-  signed int return_value_get_server_quit$1;
-  return_value_get_server_quit$1=get_server_quit();
-  signed int tmp_post$2;
-  signed int tmp_post$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_get_server_quit$5;
-  if(!(return_value_get_server_quit$1 == 0))
+  signed int return_value_get_server_quit_1;
+  return_value_get_server_quit_1=get_server_quit();
+  signed int tmp_post_2;
+  signed int tmp_post_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_get_server_quit_5;
+  if(!(return_value_get_server_quit_1 == 0))
     return -1;
 
   else
     if(!(sio->bufpos >= sio->buflen))
     {
-      tmp_post$2 = sio->bufpos;
+      tmp_post_2 = sio->bufpos;
       sio->bufpos = sio->bufpos + 1;
-      return (signed int)sio->buf[(signed long int)tmp_post$2];
+      return (signed int)sio->buf[(signed long int)tmp_post_2];
     }
 
     else
@@ -10746,40 +10746,40 @@ signed int sockreadchar(struct sockio *sio)
         ;
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
         (&fds)->__fds_bits[(signed long int)(sio->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)(sio->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sio->socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
         tv.tv_sec = (signed long int)1;
         tv.tv_usec = (signed long int)0;
         num = num + 1;
-        res=select(sio->socket + 1, &fds, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, &tv);
+        res=select(sio->socket + 1, &fds, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, &tv);
         if(res == -1)
           return -1;
 
         else
           if(!(res == 0))
           {
-            signed long int return_value_recv$3;
-            return_value_recv$3=recv(sio->socket, (void *)sio->buf, (unsigned long int)1024, 0);
-            res = (signed int)return_value_recv$3;
+            signed long int return_value_recv_3;
+            return_value_recv_3=recv(sio->socket, (void *)sio->buf, (unsigned long int)1024, 0);
+            res = (signed int)return_value_recv_3;
             if(!(res >= 1))
               return -1;
 
             sio->buflen = res;
             sio->bufpos = 0;
-            tmp_post$4 = sio->bufpos;
+            tmp_post_4 = sio->bufpos;
             sio->bufpos = sio->bufpos + 1;
-            return (signed int)sio->buf[(signed long int)tmp_post$4];
+            return (signed int)sio->buf[(signed long int)tmp_post_4];
           }
 
         if(num == 5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_get_server_quit$5=get_server_quit();
-          tmp_if_expr$6 = return_value_get_server_quit$5 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_get_server_quit_5=get_server_quit();
+          tmp_if_expr_6 = return_value_get_server_quit_5 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
           return -1;
 
       }
@@ -10793,7 +10793,7 @@ signed int sockreadline(struct var *var, unsigned char *buf, signed int len)
 {
   signed int ch;
   signed int d = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     ch=sockreadchar(var->sio);
@@ -10803,9 +10803,9 @@ signed int sockreadline(struct var *var, unsigned char *buf, signed int len)
       return 0;
     }
 
-    tmp_post$1 = d;
+    tmp_post_1 = d;
     d = d + 1;
-    buf[(signed long int)tmp_post$1] = (unsigned char)ch;
+    buf[(signed long int)tmp_post_1] = (unsigned char)ch;
     if(ch == 10 || d == len + -1)
     {
       buf[(signed long int)d] = (unsigned char)0;
@@ -10825,19 +10825,19 @@ void socksendtext(struct var *var, unsigned char *buf)
     if(!(cfg_debug == 0))
       printf("(%s) > %s", (const void *)var->clientid, buf);
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen((const char *)buf);
-    signed long int return_value_send$4;
-    return_value_send$4=send(var->sio->socket, (const void *)buf, return_value_strlen$3, 0);
-    if(return_value_send$4 == -1l)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen((const char *)buf);
+    signed long int return_value_send_4;
+    return_value_send_4=send(var->sio->socket, (const void *)buf, return_value_strlen_3, 0);
+    if(return_value_send_4 == -1l)
     {
       unsigned char err[200l];
-      signed int return_value_os_errno$1;
-      return_value_os_errno$1=os_errno();
-      os_strerr(return_value_os_errno$1, err, (unsigned long int)200);
-      signed int return_value_os_errno$2;
-      return_value_os_errno$2=os_errno();
-      os_logwrite((unsigned char *)"(%s) Socket error \"%s\" (%lu), disconnecting", (const void *)var->clientid, (const void *)err, return_value_os_errno$2);
+      signed int return_value_os_errno_1;
+      return_value_os_errno_1=os_errno();
+      os_strerr(return_value_os_errno_1, err, (unsigned long int)200);
+      signed int return_value_os_errno_2;
+      return_value_os_errno_2=os_errno();
+      os_logwrite((unsigned char *)"(%s) Socket error \"%s\" (%lu), disconnecting", (const void *)var->clientid, (const void *)err, return_value_os_errno_2);
       var->disconnect = 1;
     }
 
@@ -10850,9 +10850,9 @@ void socksendtext(struct var *var, unsigned char *buf)
 void strip(unsigned char *str)
 {
   signed int c;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((const char *)str);
-  c = (signed int)(return_value_strlen$1 - (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((const char *)str);
+  c = (signed int)(return_value_strlen_1 - (unsigned long int)1);
   for( ; c >= 0 && !((signed int)str[(signed long int)c] >= 33); c = c - 1)
     str[(signed long int)c] = (unsigned char)0;
 }
@@ -10865,13 +10865,13 @@ void stripctrl(unsigned char *str)
   signed int d;
   c = 0;
   d = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(str[(signed long int)c] == 0); c = c + 1)
     if((signed int)str[(signed long int)c] >= 32)
     {
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1;
-      str[(signed long int)tmp_post$1] = str[(signed long int)c];
+      str[(signed long int)tmp_post_1] = str[(signed long int)c];
     }
 
   str[(signed long int)d] = (unsigned char)0;
@@ -10882,15 +10882,15 @@ void stripctrl(unsigned char *str)
 void stripreplyaddr(unsigned char *str)
 {
   unsigned char *ch;
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr((const char *)str, 60);
-  ch = (unsigned char *)return_value_strchr$2;
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr((const char *)str, 60);
+  ch = (unsigned char *)return_value_strchr_2;
   if(!(ch == ((unsigned char *)NULL)))
   {
     strcpy((char *)str, (const char *)(ch + (signed long int)1));
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr((const char *)str, 62);
-    ch = (unsigned char *)return_value_strchr$1;
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr((const char *)str, 62);
+    ch = (unsigned char *)return_value_strchr_1;
     if(!(ch == ((unsigned char *)NULL)))
       *ch = (unsigned char)0;
 
@@ -10908,7 +10908,7 @@ void tidyquote(char *line)
   char *input;
   char *initials;
   input=strdup(line);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(input == ((char *)NULL)))
   {
     strip((unsigned char *)input);
@@ -10955,11 +10955,11 @@ void tidyquote(char *line)
 
         }
         if((signed int)input[(signed long int)c] == 32)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)input[(signed long int)c] == 62 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)input[(signed long int)c] == 62 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           initials = &input[(signed long int)(c + 1)];
 
         else
@@ -10998,7 +10998,7 @@ void unbackslashquote(unsigned char *text)
   signed int c;
   signed int d = 0;
   c = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(text[(signed long int)c] == 0); c = c + 1)
   {
     if((signed int)text[(signed long int)c] == 92)
@@ -11008,9 +11008,9 @@ void unbackslashquote(unsigned char *text)
 
     }
 
-    tmp_post$1 = d;
+    tmp_post_1 = d;
     d = d + 1;
-    text[(signed long int)tmp_post$1] = text[(signed long int)c];
+    text[(signed long int)tmp_post_1] = text[(signed long int)c];
   }
   text[(signed long int)d] = (unsigned char)0;
 }
@@ -11026,20 +11026,20 @@ void unmime(unsigned char *text, unsigned char *chrs, unsigned char *chrs2, unsi
   unsigned char *encoding;
   c = 0;
   d = 0;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcasecmp$4;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcasecmp_4;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
   while(!(text[(signed long int)c] == 0))
   {
     if((signed int)text[(signed long int)c] == 61)
-      tmp_if_expr$10 = (signed int)text[(signed long int)(c + 1)] == 63 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = (signed int)text[(signed long int)(c + 1)] == 63 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
       begin = c + 2;
       end = begin;
@@ -11082,33 +11082,33 @@ void unmime(unsigned char *text, unsigned char *chrs, unsigned char *chrs2, unsi
       }
 
       text[(signed long int)end] = (unsigned char)0;
-      signed int return_value_strcasecmp$5;
-      return_value_strcasecmp$5=strcasecmp((const char *)encoding, "q");
-      if(return_value_strcasecmp$5 == 0)
+      signed int return_value_strcasecmp_5;
+      return_value_strcasecmp_5=strcasecmp((const char *)encoding, "q");
+      if(return_value_strcasecmp_5 == 0)
       {
         decodeqpheader(&text[(signed long int)begin], &text[(signed long int)d]);
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen((const char *)text);
-        d = (signed int)return_value_strlen$1;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen((const char *)text);
+        d = (signed int)return_value_strlen_1;
       }
 
       else
       {
-        return_value_strcasecmp$4=strcasecmp((const char *)encoding, "b");
-        if(return_value_strcasecmp$4 == 0)
+        return_value_strcasecmp_4=strcasecmp((const char *)encoding, "b");
+        if(return_value_strcasecmp_4 == 0)
         {
           decodeb64(&text[(signed long int)begin], &text[(signed long int)d]);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen((const char *)text);
-          d = (signed int)return_value_strlen$2;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen((const char *)text);
+          d = (signed int)return_value_strlen_2;
         }
 
         else
         {
           strcpy((char *)&text[(signed long int)d], (const char *)&text[(signed long int)begin]);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen((const char *)text);
-          d = (signed int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen((const char *)text);
+          d = (signed int)return_value_strlen_3;
         }
       }
       if((signed int)text[(signed long int)(1 + end)] == 61)
@@ -11136,7 +11136,7 @@ void unmime(unsigned char *text, unsigned char *chrs, unsigned char *chrs2, unsi
 
     else
     {
-      for( ; !((signed int)text[(signed long int)c] == 0); text[(signed long int)tmp_post$6] = text[(signed long int)tmp_post$7])
+      for( ; !((signed int)text[(signed long int)c] == 0); text[(signed long int)tmp_post_6] = text[(signed long int)tmp_post_7])
       {
         if((signed int)text[(signed long int)c] == 32)
           break;
@@ -11144,18 +11144,18 @@ void unmime(unsigned char *text, unsigned char *chrs, unsigned char *chrs2, unsi
         if((signed int)text[(signed long int)c] == 9)
           break;
 
-        tmp_post$6 = d;
+        tmp_post_6 = d;
         d = d + 1;
-        tmp_post$7 = c;
+        tmp_post_7 = c;
         c = c + 1;
       }
       if(!((signed int)text[(signed long int)c] == 0))
       {
-        tmp_post$8 = d;
+        tmp_post_8 = d;
         d = d + 1;
-        tmp_post$9 = c;
+        tmp_post_9 = c;
         c = c + 1;
-        text[(signed long int)tmp_post$8] = text[(signed long int)tmp_post$9];
+        text[(signed long int)tmp_post_8] = text[(signed long int)tmp_post_9];
       }
 
     }
@@ -11183,23 +11183,23 @@ signed int validateaddr(unsigned char *str)
   unsigned int node;
   unsigned int point;
   char ch;
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr((const char *)str, 64);
-  char *return_value_strchr$1;
-  if(!(return_value_strchr$2 == ((char *)NULL)))
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr((const char *)str, 64);
+  char *return_value_strchr_1;
+  if(!(return_value_strchr_2 == ((char *)NULL)))
   {
-    return_value_strchr$1=strchr((const char *)str, 64);
-    *return_value_strchr$1 = (char)0;
+    return_value_strchr_1=strchr((const char *)str, 64);
+    *return_value_strchr_1 = (char)0;
   }
 
-  signed int return_value_sscanf$4;
-  return_value_sscanf$4=sscanf((const char *)str, "%u:%u/%u.%u%c", &zone, &net, &node, &point, &ch);
-  if(!(return_value_sscanf$4 == 4))
+  signed int return_value_sscanf_4;
+  return_value_sscanf_4=sscanf((const char *)str, "%u:%u/%u.%u%c", &zone, &net, &node, &point, &ch);
+  if(!(return_value_sscanf_4 == 4))
   {
     point = (unsigned int)0;
-    signed int return_value_sscanf$3;
-    return_value_sscanf$3=sscanf((const char *)str, "%u:%u/%u%c", &zone, &net, &node, &ch);
-    if(!(return_value_sscanf$3 == 3))
+    signed int return_value_sscanf_3;
+    return_value_sscanf_3=sscanf((const char *)str, "%u:%u/%u%c", &zone, &net, &node, &ch);
+    if(!(return_value_sscanf_3 == 3))
       return 0;
 
   }
@@ -11237,13 +11237,13 @@ unsigned char * xlatstr(unsigned char *text, struct xlattab *xlattab)
 
   }
   newlen = newlen + 1l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)newlen);
-  newtext = (unsigned char *)return_value_malloc$1;
-  signed long int tmp_post$2;
-  signed long int tmp_post$3;
-  signed long int tmp_post$4;
-  signed long int tmp_post$5;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)newlen);
+  newtext = (unsigned char *)return_value_malloc_1;
+  signed long int tmp_post_2;
+  signed long int tmp_post_3;
+  signed long int tmp_post_4;
+  signed long int tmp_post_5;
   if(newtext == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -11255,30 +11255,30 @@ unsigned char * xlatstr(unsigned char *text, struct xlattab *xlattab)
     {
       if(!(xlattab->table[(signed long int)(4 * (signed int)text[c])] == 0))
       {
-        tmp_post$2 = d;
+        tmp_post_2 = d;
         d = d + 1l;
-        newtext[tmp_post$2] = xlattab->table[(signed long int)((signed int)text[c] * 4)];
+        newtext[tmp_post_2] = xlattab->table[(signed long int)((signed int)text[c] * 4)];
       }
 
       if(!(xlattab->table[(signed long int)(4 * (signed int)text[c] + 1)] == 0))
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1l;
-        newtext[tmp_post$3] = xlattab->table[(signed long int)((signed int)text[c] * 4 + 1)];
+        newtext[tmp_post_3] = xlattab->table[(signed long int)((signed int)text[c] * 4 + 1)];
       }
 
       if(!(xlattab->table[(signed long int)(4 * (signed int)text[c] + 2)] == 0))
       {
-        tmp_post$4 = d;
+        tmp_post_4 = d;
         d = d + 1l;
-        newtext[tmp_post$4] = xlattab->table[(signed long int)((signed int)text[c] * 4 + 2)];
+        newtext[tmp_post_4] = xlattab->table[(signed long int)((signed int)text[c] * 4 + 2)];
       }
 
       if(!(xlattab->table[(signed long int)(4 * (signed int)text[c] + 3)] == 0))
       {
-        tmp_post$5 = d;
+        tmp_post_5 = d;
         d = d + 1l;
-        newtext[tmp_post$5] = xlattab->table[(signed long int)((signed int)text[c] * 4 + 3)];
+        newtext[tmp_post_5] = xlattab->table[(signed long int)((signed int)text[c] * 4 + 3)];
       }
 
     }

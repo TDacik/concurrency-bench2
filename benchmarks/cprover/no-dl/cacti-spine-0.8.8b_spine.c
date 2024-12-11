@@ -1,94 +1,94 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{cS8}$cS8$'opt'||*{cS8}$cS8$'val'|]
+// tag-#anon#ST[*{cS8}_cS8_'opt'||*{cS8}_cS8_'val'|]
 // file util.c line 49
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[SYM#tag-ip#'idi_ip'|]
 // file /usr/include/netinet/ip_icmp.h line 185
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]
 // file /usr/include/netinet/ip_icmp.h line 179
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#UN[*{S64}$S64$'integer'||*{U8}$U8$'string'||*{U64}$U64$'objid'||*{U8}$U8$'bitstring'||*{SYM#tag-counter64#}$SYM#tag-counter64#$'counter64'||*{F32}$F32$'floatVal'||*{F64}$F64$'doubleVal'|]
+// tag-#anon#UN[*{S64}_S64_'integer'||*{U8}_U8_'string'||*{U64}_U64_'objid'||*{U8}_U8_'bitstring'||*{SYM#tag-counter64#}_SYM#tag-counter64#_'counter64'||*{F32}_F32_'floatVal'||*{F64}_F64_'doubleVal'|]
 // file /usr/include/net-snmp/types.h line 114
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[*{S8}$S8$'client_ip'||*{S8}$S8$'bind_address'|]
+// tag-#anon#UN[*{S8}_S8_'client_ip'||*{S8}_S8_'bind_address'|]
 // file /usr/include/mysql/mysql.h line 208
 union anonymous;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]#'id_ts'||SYM#tag-#anon#ST[SYM#tag-ip#'idi_ip'|]#'id_ip'||SYM#tag-icmp_ra_addr#'id_radv'||U32'id_mask'||ARR1{U8}$U8$'id_data'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U32'its_otime'||U32'its_rtime'||U32'its_ttime'|]#'id_ts'||SYM#tag-#anon#ST[SYM#tag-ip#'idi_ip'|]#'id_ip'||SYM#tag-icmp_ra_addr#'id_radv'||U32'id_mask'||ARR1{U8}_U8_'id_data'|]
 // file /usr/include/netinet/ip_icmp.h line 177
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$9;
+union anonymous_9;
 
 // tag-#anon#UN[U8'ih_pptr'||SYM#tag-in_addr#'ih_gwaddr'||SYM#tag-ih_idseq#'ih_idseq'||U32'ih_void'||SYM#tag-ih_pmtu#'ih_pmtu'||SYM#tag-ih_rtradv#'ih_rtradv'|]
 // file /usr/include/netinet/ip_icmp.h line 142
-union anonymous$4;
+union anonymous_4;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -354,13 +354,13 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$2 *);
+extern void __pthread_register_cancel(struct anonymous_2 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$2 *);
+extern void __pthread_unregister_cancel(struct anonymous_2 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$2 *);
+extern void __pthread_unwind_next(struct anonymous_2 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -495,7 +495,7 @@ extern unsigned short int get_checksum(void *buf, signed int len);
 extern char * get_host_poll_time(void);
 // get_lock
 // file locks.c line 89
-extern union anonymous$9 * get_lock(signed int lock);
+extern union anonymous_9 * get_lock(signed int lock);
 // get_time_as_double
 // file util.h line 74
 extern double get_time_as_double(void);
@@ -598,9 +598,9 @@ static void init_thread_lock(void);
 // install_spine_signal_handler
 // file error.h line 34
 extern void install_spine_signal_handler(void);
-// install_spine_signal_handler::1::ohandler$object
+// install_spine_signal_handler::1::ohandler_object
 //
-void ohandler$object(signed int);
+void ohandler_object(signed int);
 // is_hexadecimal
 // file util.c line 858
 extern signed int is_hexadecimal(const char *str, const signed short int ignore_space);
@@ -691,9 +691,9 @@ extern signed int nft_pchild(signed int fd);
 // nft_pclose
 // file nft_popen.h line 70
 extern signed int nft_pclose(signed int fd);
-// nft_pclose::1::3::__cancel_routine$object
+// nft_pclose::1::3::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // nft_popen
 // file nft_popen.h line 45
 extern signed int nft_popen(const char *command, const char *type);
@@ -777,16 +777,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern void pthread_exit(void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$9 *, const union anonymous$10 *);
+extern signed int pthread_mutex_init(union anonymous_9 *, const union anonymous_10 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$9 *);
+extern signed int pthread_mutex_lock(union anonymous_9 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$9 *);
+extern signed int pthread_mutex_trylock(union anonymous_9 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$9 *);
+extern signed int pthread_mutex_unlock(union anonymous_9 *);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -825,7 +825,7 @@ extern double rint(double);
 extern char * rtrim(char *str);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$8 *, struct anonymous$8 *, struct anonymous$8 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_8 *, struct anonymous_8 *, struct anonymous_8 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1006,9 +1006,9 @@ extern char * trim(char *str);
 // uninstall_spine_signal_handler
 // file error.h line 35
 extern void uninstall_spine_signal_handler(void);
-// uninstall_spine_signal_handler::1::ohandler$object
+// uninstall_spine_signal_handler::1::ohandler_object
 //
-void ohandler$object(signed int);
+void ohandler_object(signed int);
 // update_host_status
 // file ping.h line 143
 extern void update_host_status(signed int status, struct host_struct *host, struct ping_results *ping, signed int availability_method);
@@ -1031,7 +1031,7 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$20
+struct anonymous_20
 {
   // _call_addr
   void *_call_addr;
@@ -1041,7 +1041,7 @@ struct anonymous$20
   unsigned int _arch;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_addr
   void *si_addr;
@@ -1049,7 +1049,7 @@ struct anonymous$17
   signed short int si_addr_lsb;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // opt
   const char *opt;
@@ -1057,19 +1057,19 @@ struct anonymous$0
   const char *val;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -1077,15 +1077,15 @@ struct anonymous$1
   signed int __mask_was_saved;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __cancel_jmp_buf
-  struct anonymous$1 __cancel_jmp_buf[1l];
+  struct anonymous_1 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -1093,7 +1093,7 @@ struct anonymous$13
   unsigned int si_uid;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -1115,7 +1115,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_pid
   signed int si_pid;
@@ -1125,7 +1125,7 @@ struct anonymous$15
   union sigval si_sigval;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_tid
   signed int si_tid;
@@ -1135,7 +1135,7 @@ struct anonymous$14
   union sigval si_sigval;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_band
   signed long int si_band;
@@ -1143,27 +1143,27 @@ struct anonymous$18
   signed int si_fd;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$13 _kill;
+  struct anonymous_13 _kill;
   // _timer
-  struct anonymous$14 _timer;
+  struct anonymous_14 _timer;
   // _rt
-  struct anonymous$15 _rt;
+  struct anonymous_15 _rt;
   // _sigchld
-  struct anonymous$16 _sigchld;
+  struct anonymous_16 _sigchld;
   // _sigfault
-  struct anonymous$17 _sigfault;
+  struct anonymous_17 _sigfault;
   // _sigpoll
-  struct anonymous$18 _sigpoll;
+  struct anonymous_18 _sigpoll;
   // _sigsys
-  struct anonymous$20 _sigsys;
+  struct anonymous_20 _sigsys;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_signo
   signed int si_signo;
@@ -1172,7 +1172,7 @@ struct anonymous$19
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$21 _sifields;
+  union anonymous_21 _sifields;
 };
 
 struct in_addr
@@ -1207,13 +1207,13 @@ struct ip
   struct in_addr ip_dst;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // idi_ip
   struct ip idi_ip;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // its_otime
   unsigned int its_otime;
@@ -1223,7 +1223,7 @@ struct anonymous$5
   unsigned int its_ttime;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // integer
   signed long int *integer;
@@ -1249,15 +1249,15 @@ union anonymous
   char *bind_address;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$19 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_19 *, void *);
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __size
   char __size[4l];
@@ -1273,12 +1273,12 @@ struct icmp_ra_addr
   unsigned int ira_preference;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // id_ts
-  struct anonymous$5 id_ts;
+  struct anonymous_5 id_ts;
   // id_ip
-  struct anonymous$6 id_ip;
+  struct anonymous_6 id_ip;
   // id_radv
   struct icmp_ra_addr id_radv;
   // id_mask
@@ -1315,7 +1315,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1351,7 +1351,7 @@ struct ih_rtradv
   unsigned short int irt_lifetime;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // ih_pptr
   unsigned char ih_pptr;
@@ -1666,9 +1666,9 @@ struct icmp
   // icmp_cksum
   unsigned short int icmp_cksum;
   // icmp_hun
-  union anonymous$4 icmp_hun;
+  union anonymous_4 icmp_hun;
   // icmp_dun
-  union anonymous$7 icmp_dun;
+  union anonymous_7 icmp_dun;
 };
 
 struct keyword
@@ -1822,9 +1822,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$11 __sigaction_handler;
+  union anonymous_11 __sigaction_handler;
   // sa_mask
-  struct anonymous$12 sa_mask;
+  struct anonymous_12 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2580,7 +2580,7 @@ struct variable_list
   // type
   unsigned char type;
   // val
-  union anonymous$3 val;
+  union anonymous_3 val;
   // val_len
   unsigned long int val_len;
   // name_loc
@@ -2598,7 +2598,7 @@ struct variable_list
 
 // ListMutex
 // file nft_popen.c line 76
-static union anonymous$9 ListMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_9 ListMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // PidList
@@ -2624,7 +2624,7 @@ signed int entries = 0;
 extern char **environ;
 // ghbn_lock
 // file locks.c line 54
-static union anonymous$9 ghbn_lock;
+static union anonymous_9 ghbn_lock;
 // ghbn_lock_o
 // file locks.c line 54
 static signed int ghbn_lock_o = 0;
@@ -2642,70 +2642,70 @@ static signed int nopts = 0;
 signed int num_hosts = 0;
 // opttable
 // file util.c line 52
-static struct anonymous$0 opttable[256l];
+static struct anonymous_0 opttable[256l];
 // php_lock
 // file locks.c line 57
-static union anonymous$9 php_lock;
+static union anonymous_9 php_lock;
 // php_lock_o
 // file locks.c line 57
 static signed int php_lock_o = 0;
 // php_proc_0_lock
 // file locks.c line 58
-static union anonymous$9 php_proc_0_lock;
+static union anonymous_9 php_proc_0_lock;
 // php_proc_0_lock_o
 // file locks.c line 58
 static signed int php_proc_0_lock_o = 0;
 // php_proc_1_lock
 // file locks.c line 59
-static union anonymous$9 php_proc_1_lock;
+static union anonymous_9 php_proc_1_lock;
 // php_proc_1_lock_o
 // file locks.c line 59
 static signed int php_proc_1_lock_o = 0;
 // php_proc_2_lock
 // file locks.c line 60
-static union anonymous$9 php_proc_2_lock;
+static union anonymous_9 php_proc_2_lock;
 // php_proc_2_lock_o
 // file locks.c line 60
 static signed int php_proc_2_lock_o = 0;
 // php_proc_3_lock
 // file locks.c line 61
-static union anonymous$9 php_proc_3_lock;
+static union anonymous_9 php_proc_3_lock;
 // php_proc_3_lock_o
 // file locks.c line 61
 static signed int php_proc_3_lock_o = 0;
 // php_proc_4_lock
 // file locks.c line 62
-static union anonymous$9 php_proc_4_lock;
+static union anonymous_9 php_proc_4_lock;
 // php_proc_4_lock_o
 // file locks.c line 62
 static signed int php_proc_4_lock_o = 0;
 // php_proc_5_lock
 // file locks.c line 63
-static union anonymous$9 php_proc_5_lock;
+static union anonymous_9 php_proc_5_lock;
 // php_proc_5_lock_o
 // file locks.c line 63
 static signed int php_proc_5_lock_o = 0;
 // php_proc_6_lock
 // file locks.c line 64
-static union anonymous$9 php_proc_6_lock;
+static union anonymous_9 php_proc_6_lock;
 // php_proc_6_lock_o
 // file locks.c line 64
 static signed int php_proc_6_lock_o = 0;
 // php_proc_7_lock
 // file locks.c line 65
-static union anonymous$9 php_proc_7_lock;
+static union anonymous_9 php_proc_7_lock;
 // php_proc_7_lock_o
 // file locks.c line 65
 static signed int php_proc_7_lock_o = 0;
 // php_proc_8_lock
 // file locks.c line 66
-static union anonymous$9 php_proc_8_lock;
+static union anonymous_9 php_proc_8_lock;
 // php_proc_8_lock_o
 // file locks.c line 66
 static signed int php_proc_8_lock_o = 0;
 // php_proc_9_lock
 // file locks.c line 67
-static union anonymous$9 php_proc_9_lock;
+static union anonymous_9 php_proc_9_lock;
 // php_proc_9_lock_o
 // file locks.c line 67
 static signed int php_proc_9_lock_o = 0;
@@ -2714,7 +2714,7 @@ static signed int php_proc_9_lock_o = 0;
 struct php_processes *php_processes = ((struct php_processes *)NULL);
 // pipe_lock
 // file locks.c line 55
-static union anonymous$9 pipe_lock;
+static union anonymous_9 pipe_lock;
 // pipe_lock_o
 // file locks.c line 55
 static signed int pipe_lock_o = 0;
@@ -2723,13 +2723,13 @@ static signed int pipe_lock_o = 0;
 struct config_struct set;
 // seteuid_lock
 // file locks.c line 53
-static union anonymous$9 seteuid_lock;
+static union anonymous_9 seteuid_lock;
 // seteuid_lock_o
 // file locks.c line 53
 static signed int seteuid_lock_o = 0;
 // snmp_lock
 // file locks.c line 51
-static union anonymous$9 snmp_lock;
+static union anonymous_9 snmp_lock;
 // snmp_lock_o
 // file locks.c line 51
 static signed int snmp_lock_o = 0;
@@ -2744,13 +2744,13 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdout;
 // syslog_lock
 // file locks.c line 56
-static union anonymous$9 syslog_lock;
+static union anonymous_9 syslog_lock;
 // syslog_lock_o
 // file locks.c line 56
 static signed int syslog_lock_o = 0;
 // thread_lock
 // file locks.c line 52
-static union anonymous$9 thread_lock;
+static union anonymous_9 thread_lock;
 // thread_lock_o
 // file locks.c line 52
 static signed int thread_lock_o = 0;
@@ -2781,16 +2781,16 @@ extern char * add_slashes(char *string)
   signed int position;
   signed int new_position;
   char *return_str;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1024);
-  return_str = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1024);
+  return_str = (char *)return_value_malloc_1;
   if(return_str == ((char *)NULL))
     die("ERROR: Fatal malloc error: util.c add_slashes!");
 
   return_str[(signed long int)0] = (char)0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(string);
-  length = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(string);
+  length = (signed int)return_value_strlen_2;
   position = 0;
   new_position = 0;
   if(length == 0)
@@ -2820,7 +2820,7 @@ extern char * add_slashes(char *string)
 // file util.h line 53
 extern signed int all_digits(const char *string)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if((signed int)*string == 0)
     return 0;
 
@@ -2828,8 +2828,8 @@ extern signed int all_digits(const char *string)
   {
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*string]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*string]) == 0)
         break;
 
       string = string + 1l;
@@ -2845,9 +2845,9 @@ extern signed int append_hostrange(char *obuf, const char *colname)
 {
   if(set.end_host_id >= 0 && set.start_host_id >= 0)
   {
-    signed int return_value_sprintf$1;
-    return_value_sprintf$1=sprintf(obuf, " AND %s BETWEEN %d AND %d", colname, set.start_host_id, set.end_host_id);
-    return return_value_sprintf$1;
+    signed int return_value_sprintf_1;
+    return_value_sprintf_1=sprintf(obuf, " AND %s BETWEEN %d AND %d", colname, set.start_host_id, set.end_host_id);
+    return return_value_sprintf_1;
   }
 
   else
@@ -2861,7 +2861,7 @@ extern signed int char_count(const char *str, signed int chr)
   const unsigned char *my_str = (const unsigned char *)str;
   const unsigned char my_chr = (const unsigned char)chr;
   signed int count = 0;
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   if(my_chr == 0)
     return 1;
 
@@ -2869,9 +2869,9 @@ extern signed int char_count(const char *str, signed int chr)
   {
     while(!(*my_str == 0))
     {
-      tmp_post$1 = my_str;
+      tmp_post_1 = my_str;
       my_str = my_str + 1l;
-      if(*tmp_post$1 == my_chr)
+      if(*tmp_post_1 == my_chr)
         count = count + 1;
 
     }
@@ -2883,22 +2883,22 @@ extern signed int char_count(const char *str, signed int chr)
 // file util.h line 84
 extern void checkAsRoot()
 {
-  signed int return_value_hasCaps$6;
-  return_value_hasCaps$6=hasCaps();
-  signed int return_value_spine_log$1;
-  signed int return_value_spine_log$2;
-  signed int return_value_spine_log$5;
-  if(!(return_value_hasCaps$6 == 1))
+  signed int return_value_hasCaps_6;
+  return_value_hasCaps_6=hasCaps();
+  signed int return_value_spine_log_1;
+  signed int return_value_spine_log_2;
+  signed int return_value_spine_log_5;
+  if(!(return_value_hasCaps_6 == 1))
   {
     seteuid((unsigned int)0);
-    unsigned int return_value_geteuid$4;
-    return_value_geteuid$4=geteuid();
-    if(!(return_value_geteuid$4 == 0u))
+    unsigned int return_value_geteuid_4;
+    return_value_geteuid_4=geteuid();
+    if(!(return_value_geteuid_4 == 0u))
     {
       if(set.log_level >= 5)
       {
-        return_value_spine_log$1=spine_log("WARNING: Spine NOT running asroot.  This is required if using ICMP.  Please run \"chmod +s;chown root:root spine\" to resolve.");
-        if(!(return_value_spine_log$1 == 0))
+        return_value_spine_log_1=spine_log("WARNING: Spine NOT running asroot.  This is required if using ICMP.  Please run \"chmod +s;chown root:root spine\" to resolve.");
+        if(!(return_value_spine_log_1 == 0))
           (_Bool)1;
 
         else
@@ -2914,8 +2914,8 @@ extern void checkAsRoot()
     {
       if(set.log_level >= 5)
       {
-        return_value_spine_log$2=spine_log("DEBUG: Spine is running asroot.");
-        if(!(return_value_spine_log$2 == 0))
+        return_value_spine_log_2=spine_log("DEBUG: Spine is running asroot.");
+        if(!(return_value_spine_log_2 == 0))
           (_Bool)1;
 
         else
@@ -2925,9 +2925,9 @@ extern void checkAsRoot()
       else
         (_Bool)0;
       set.icmp_avail = 1;
-      unsigned int return_value_getuid$3;
-      return_value_getuid$3=getuid();
-      seteuid(return_value_getuid$3);
+      unsigned int return_value_getuid_3;
+      return_value_getuid_3=getuid();
+      seteuid(return_value_getuid_3);
     }
   }
 
@@ -2935,8 +2935,8 @@ extern void checkAsRoot()
   {
     if(set.log_level >= 5)
     {
-      return_value_spine_log$5=spine_log("DEBUG: Spine has cap_net_raw capability.");
-      if(!(return_value_spine_log$5 == 0))
+      return_value_spine_log_5=spine_log("DEBUG: Spine has cap_net_raw capability.");
+      if(!(return_value_spine_log_5 == 0))
         (_Bool)1;
 
       else
@@ -2966,11 +2966,11 @@ extern void * child(void *arg)
   snprintf(host_time, (unsigned long int)256, "%s", poller_details.host_time);
   free(arg);
   thread_ready = 1;
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$1=spine_log("DEBUG: In Poller, About to Start Polling of Host");
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("DEBUG: In Poller, About to Start Polling of Host");
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -2982,9 +2982,9 @@ extern void * child(void *arg)
   poll_host(host_id, host_thread, last_host_thread, host_data_ids, host_time);
   while((_Bool)1)
   {
-    signed int return_value_thread_mutex_trylock$2;
-    return_value_thread_mutex_trylock$2=thread_mutex_trylock(1);
-    if(return_value_thread_mutex_trylock$2 == 0)
+    signed int return_value_thread_mutex_trylock_2;
+    return_value_thread_mutex_trylock_2=thread_mutex_trylock(1);
+    if(return_value_thread_mutex_trylock_2 == 0)
     {
       active_threads = active_threads - 1;
       thread_mutex_unlock(1);
@@ -2993,11 +2993,11 @@ extern void * child(void *arg)
 
     usleep((unsigned int)100);
   }
-  signed int return_value_spine_log$3;
+  signed int return_value_spine_log_3;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$3=spine_log("DEBUG: The Value of Active Threads is %i", active_threads);
-    if(!(return_value_spine_log$3 == 0))
+    return_value_spine_log_3=spine_log("DEBUG: The Value of Active Threads is %i", active_threads);
+    if(!(return_value_spine_log_3 == 0))
       (_Bool)1;
 
     else
@@ -3069,20 +3069,20 @@ extern void db_connect(const char *database, struct st_mysql *mysql)
   signed int options_error;
   signed int success;
   char *hostname;
-  char *db_connect$$1$$socket = (char *)(void *)0;
+  char *db_connect__1__socket = (char *)(void *)0;
   struct stat socket_stat;
   hostname=strdup(set.dbhost);
   if(hostname == ((char *)NULL))
     die("FATAL: malloc(): strdup() failed");
 
-  signed int return_value_stat$2;
-  return_value_stat$2=stat(hostname, &socket_stat);
-  char *tmp_post$1;
-  if(return_value_stat$2 == 0)
+  signed int return_value_stat_2;
+  return_value_stat_2=stat(hostname, &socket_stat);
+  char *tmp_post_1;
+  if(return_value_stat_2 == 0)
   {
     if(!((49152u & socket_stat.st_mode) == 0u))
     {
-      db_connect$$1$$socket=strdup(set.dbhost);
+      db_connect__1__socket=strdup(set.dbhost);
       hostname = (char *)(void *)0;
     }
 
@@ -3090,12 +3090,12 @@ extern void db_connect(const char *database, struct st_mysql *mysql)
 
   else
   {
-    db_connect$$1$$socket=strstr(hostname, ":");
-    if(!(db_connect$$1$$socket == ((char *)NULL)))
+    db_connect__1__socket=strstr(hostname, ":");
+    if(!(db_connect__1__socket == ((char *)NULL)))
     {
-      tmp_post$1 = db_connect$$1$$socket;
-      db_connect$$1$$socket = db_connect$$1$$socket + 1l;
-      *tmp_post$1 = (char)0x0;
+      tmp_post_1 = db_connect__1__socket;
+      db_connect__1__socket = db_connect__1__socket + 1l;
+      *tmp_post_1 = (char)0x0;
     }
 
   }
@@ -3120,42 +3120,42 @@ extern void db_connect(const char *database, struct st_mysql *mysql)
   if(!(options_error >= 0))
     die("FATAL: MySQL options unable to set timeout value");
 
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_mysql_errno$6;
-  _Bool tmp_if_expr$9;
-  unsigned int return_value_mysql_errno$8;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_mysql_errno_6;
+  _Bool tmp_if_expr_9;
+  unsigned int return_value_mysql_errno_8;
   while(tries >= 1)
   {
     tries = tries - 1;
-    struct st_mysql *return_value_mysql_real_connect$10;
-    return_value_mysql_real_connect$10=mysql_real_connect(mysql, hostname, set.dbuser, set.dbpass, database, set.dbport, db_connect$$1$$socket, (unsigned long int)0);
-    if(return_value_mysql_real_connect$10 == ((struct st_mysql *)NULL))
+    struct st_mysql *return_value_mysql_real_connect_10;
+    return_value_mysql_real_connect_10=mysql_real_connect(mysql, hostname, set.dbuser, set.dbpass, database, set.dbport, db_connect__1__socket, (unsigned long int)0);
+    if(return_value_mysql_real_connect_10 == ((struct st_mysql *)NULL))
     {
-      unsigned int return_value_mysql_errno$5;
-      return_value_mysql_errno$5=mysql_errno(mysql);
-      if(!(return_value_mysql_errno$5 == 1049u))
+      unsigned int return_value_mysql_errno_5;
+      return_value_mysql_errno_5=mysql_errno(mysql);
+      if(!(return_value_mysql_errno_5 == 1049u))
       {
-        return_value_mysql_errno$6=mysql_errno(mysql);
-        tmp_if_expr$7 = return_value_mysql_errno$6 != (unsigned int)2005 ? (_Bool)1 : (_Bool)0;
+        return_value_mysql_errno_6=mysql_errno(mysql);
+        tmp_if_expr_7 = return_value_mysql_errno_6 != (unsigned int)2005 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        return_value_mysql_errno$8=mysql_errno(mysql);
-        tmp_if_expr$9 = return_value_mysql_errno$8 != (unsigned int)1045 ? (_Bool)1 : (_Bool)0;
+        return_value_mysql_errno_8=mysql_errno(mysql);
+        tmp_if_expr_9 = return_value_mysql_errno_8 != (unsigned int)1045 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
       {
-        unsigned int return_value_mysql_errno$3;
-        return_value_mysql_errno$3=mysql_errno(mysql);
-        const char *return_value_mysql_error$4;
-        return_value_mysql_error$4=mysql_error(mysql);
-        printf("MYSQL: Connection Failed: Error:'%u', Message:'%s'\n", return_value_mysql_errno$3, return_value_mysql_error$4);
+        unsigned int return_value_mysql_errno_3;
+        return_value_mysql_errno_3=mysql_errno(mysql);
+        const char *return_value_mysql_error_4;
+        return_value_mysql_error_4=mysql_error(mysql);
+        printf("MYSQL: Connection Failed: Error:'%u', Message:'%s'\n", return_value_mysql_errno_3, return_value_mysql_error_4);
         success = 0;
         usleep((unsigned int)2000);
       }
@@ -3176,11 +3176,11 @@ extern void db_connect(const char *database, struct st_mysql *mysql)
   free((void *)hostname);
   if(success == 0)
   {
-    unsigned int return_value_mysql_errno$11;
-    return_value_mysql_errno$11=mysql_errno(mysql);
-    const char *return_value_mysql_error$12;
-    return_value_mysql_error$12=mysql_error(mysql);
-    die("FATAL: Connection Failed, Error:'%i', Message:'%s'", return_value_mysql_errno$11, return_value_mysql_error$12);
+    unsigned int return_value_mysql_errno_11;
+    return_value_mysql_errno_11=mysql_errno(mysql);
+    const char *return_value_mysql_error_12;
+    return_value_mysql_error_12=mysql_error(mysql);
+    die("FATAL: Connection Failed, Error:'%i', Message:'%s'", return_value_mysql_errno_11, return_value_mysql_error_12);
   }
 
 }
@@ -3199,9 +3199,9 @@ extern void db_escape(struct st_mysql *mysql, char *output, const char *input)
   if(!(input == ((const char *)NULL)))
   {
     output[(signed long int)0] = (char)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(input);
-    mysql_real_escape_string(mysql, output, input, return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(input);
+    mysql_real_escape_string(mysql, output, input, return_value_strlen_1);
   }
 
 }
@@ -3214,11 +3214,11 @@ extern signed int db_insert(struct st_mysql *mysql, const char *query)
   signed int error_count = 0;
   char query_frag[1024l];
   snprintf(query_frag, (unsigned long int)1024, "%s", query);
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 6)
   {
-    return_value_spine_log$1=spine_log("DEVDBG: SQL:'%s'", (const void *)query_frag);
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("DEVDBG: SQL:'%s'", (const void *)query_frag);
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -3230,13 +3230,13 @@ extern signed int db_insert(struct st_mysql *mysql, const char *query)
   while((_Bool)1)
     if(set.SQL_readonly == 0)
     {
-      signed int return_value_mysql_query$5;
-      return_value_mysql_query$5=mysql_query(mysql, query);
-      if(!(return_value_mysql_query$5 == 0))
+      signed int return_value_mysql_query_5;
+      return_value_mysql_query_5=mysql_query(mysql, query);
+      if(!(return_value_mysql_query_5 == 0))
       {
-        unsigned int return_value_mysql_errno$2;
-        return_value_mysql_errno$2=mysql_errno(mysql);
-        error = (signed int)return_value_mysql_errno$2;
+        unsigned int return_value_mysql_errno_2;
+        return_value_mysql_errno_2=mysql_errno(mysql);
+        error = (signed int)return_value_mysql_errno_2;
         if(error == 1205 || error == 1213)
         {
           usleep((unsigned int)50000);
@@ -3253,9 +3253,9 @@ extern signed int db_insert(struct st_mysql *mysql, const char *query)
         else
           if(error == 2006)
           {
-            const char *return_value_mysql_error$3;
-            return_value_mysql_error$3=mysql_error(mysql);
-            spine_log("WARNING: SQL Failed! Error:'%i', Message:'%s', Attempting to Reconnect", error, return_value_mysql_error$3);
+            const char *return_value_mysql_error_3;
+            return_value_mysql_error_3=mysql_error(mysql);
+            spine_log("WARNING: SQL Failed! Error:'%i', Message:'%s', Attempting to Reconnect", error, return_value_mysql_error_3);
             db_disconnect(mysql);
             usleep((unsigned int)50000);
             db_connect(set.dbdb, mysql);
@@ -3268,9 +3268,9 @@ extern signed int db_insert(struct st_mysql *mysql, const char *query)
 
           else
           {
-            const char *return_value_mysql_error$4;
-            return_value_mysql_error$4=mysql_error(mysql);
-            spine_log("ERROR: SQL Failed! Error:'%i', Message:'%s', SQL Fragment:'%s'", error, return_value_mysql_error$4, (const void *)query_frag);
+            const char *return_value_mysql_error_4;
+            return_value_mysql_error_4=mysql_error(mysql);
+            spine_log("ERROR: SQL Failed! Error:'%i', Message:'%s', SQL Fragment:'%s'", error, return_value_mysql_error_4, (const void *)query_frag);
             return 0;
           }
       }
@@ -3292,11 +3292,11 @@ extern struct st_mysql_res * db_query(struct st_mysql *mysql, const char *query)
   signed int error_count = 0;
   char query_frag[1024l];
   snprintf(query_frag, (unsigned long int)1024, "%s", query);
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 6)
   {
-    return_value_spine_log$1=spine_log("DEVDBG: SQL:'%s'", (const void *)query_frag);
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("DEVDBG: SQL:'%s'", (const void *)query_frag);
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -3307,13 +3307,13 @@ extern struct st_mysql_res * db_query(struct st_mysql *mysql, const char *query)
     (_Bool)0;
   while((_Bool)1)
   {
-    signed int return_value_mysql_query$5;
-    return_value_mysql_query$5=mysql_query(mysql, query);
-    if(!(return_value_mysql_query$5 == 0))
+    signed int return_value_mysql_query_5;
+    return_value_mysql_query_5=mysql_query(mysql, query);
+    if(!(return_value_mysql_query_5 == 0))
     {
-      unsigned int return_value_mysql_errno$2;
-      return_value_mysql_errno$2=mysql_errno(mysql);
-      error = (signed int)return_value_mysql_errno$2;
+      unsigned int return_value_mysql_errno_2;
+      return_value_mysql_errno_2=mysql_errno(mysql);
+      error = (signed int)return_value_mysql_errno_2;
       if(error == 1205 || error == 1213)
       {
         usleep((unsigned int)50000);
@@ -3327,9 +3327,9 @@ extern struct st_mysql_res * db_query(struct st_mysql *mysql, const char *query)
       else
         if(error == 2006)
         {
-          const char *return_value_mysql_error$3;
-          return_value_mysql_error$3=mysql_error(mysql);
-          spine_log("WARNING: SQL Failed! Error:'%i', Message:'%s', Attempting to Reconnect", error, return_value_mysql_error$3);
+          const char *return_value_mysql_error_3;
+          return_value_mysql_error_3=mysql_error(mysql);
+          spine_log("WARNING: SQL Failed! Error:'%i', Message:'%s', Attempting to Reconnect", error, return_value_mysql_error_3);
           db_disconnect(mysql);
           usleep((unsigned int)50000);
           db_connect(set.dbdb, mysql);
@@ -3342,9 +3342,9 @@ extern struct st_mysql_res * db_query(struct st_mysql *mysql, const char *query)
 
         else
         {
-          const char *return_value_mysql_error$4;
-          return_value_mysql_error$4=mysql_error(mysql);
-          die("FATAL: MySQL Error:'%i', Message:'%s'", error, return_value_mysql_error$4);
+          const char *return_value_mysql_error_4;
+          return_value_mysql_error_4=mysql_error(mysql);
+          die("FATAL: MySQL Error:'%i', Message:'%s'", error, return_value_mysql_error_4);
         }
     }
 
@@ -3430,7 +3430,7 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
   signed int pid;
   signed int close_fd = 1;
   signed int bytes_read;
-  struct anonymous$8 fds;
+  struct anonymous_8 fds;
   double begin_time = (double)0;
   double end_time = (double)0;
   double script_timeout;
@@ -3438,9 +3438,9 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
   char *proc_command;
   char *result_string;
   proc_command = command;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1024);
-  result_string = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1024);
+  result_string = (char *)return_value_malloc_1;
   if(result_string == ((char *)NULL))
     die("ERROR: Fatal malloc error: poller.c exec_poll!");
 
@@ -3466,11 +3466,11 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
     }
   }
   cmd_fd=nft_popen((char *)proc_command, "r");
-  signed int return_value_spine_log$2;
+  signed int return_value_spine_log_2;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$2=spine_log("Host[%i] DEBUG: The NIFTY POPEN returned the following File Descriptor %i", current_host->id, cmd_fd);
-    if(!(return_value_spine_log$2 == 0))
+    return_value_spine_log_2=spine_log("Host[%i] DEBUG: The NIFTY POPEN returned the following File Descriptor %i", current_host->id, cmd_fd);
+    if(!(return_value_spine_log_2 == 0))
       (_Bool)1;
 
     else
@@ -3479,11 +3479,11 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
 
   else
     (_Bool)0;
-  signed int return_value_select$3;
-  signed int *return_value___errno_location$4;
-  double return_value_floor$5;
-  double return_value_rint$6;
-  double return_value_rint$7;
+  signed int return_value_select_3;
+  signed int *return_value___errno_location_4;
+  double return_value_floor_5;
+  double return_value_rint_6;
+  double return_value_rint_7;
   if(cmd_fd >= 1)
   {
     do
@@ -3493,24 +3493,24 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
       ;
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
       (&fds)->__fds_bits[(signed long int)(cmd_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)(cmd_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << cmd_fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-      return_value_select$3=select(1024, &fds, (struct anonymous$8 *)(void *)0, (struct anonymous$8 *)(void *)0, &timeout);
-      if(!(return_value_select$3 == -1))
+      return_value_select_3=select(1024, &fds, (struct anonymous_8 *)(void *)0, (struct anonymous_8 *)(void *)0, &timeout);
+      if(!(return_value_select_3 == -1))
       {
-        if(return_value_select$3 == 0)
+        if(return_value_select_3 == 0)
           goto __CPROVER_DUMP_L18;
 
         goto __CPROVER_DUMP_L19;
       }
 
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 9))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 9))
       {
-        if(*return_value___errno_location$4 == 4)
+        if(*return_value___errno_location_4 == 4)
           goto __CPROVER_DUMP_L13;
 
-        if(*return_value___errno_location$4 == 22)
+        if(*return_value___errno_location_4 == 22)
           goto __CPROVER_DUMP_L16;
 
         goto __CPROVER_DUMP_L17;
@@ -3526,11 +3526,11 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
       ;
       usleep((unsigned int)2000);
       end_time=get_time_as_double();
-      return_value_floor$5=floor(script_timeout - (end_time - begin_time));
-      return_value_rint$6=rint(return_value_floor$5);
-      timeout.tv_sec = (signed long int)return_value_rint$6;
-      return_value_rint$7=rint(((script_timeout - (end_time - begin_time)) - (double)timeout.tv_sec) * (double)1000000);
-      timeout.tv_usec = (signed long int)return_value_rint$7;
+      return_value_floor_5=floor(script_timeout - (end_time - begin_time));
+      return_value_rint_6=rint(return_value_floor_5);
+      timeout.tv_sec = (signed long int)return_value_rint_6;
+      return_value_rint_7=rint(((script_timeout - (end_time - begin_time)) - (double)timeout.tv_sec) * (double)1000000);
+      timeout.tv_usec = (signed long int)return_value_rint_7;
       if(!(end_time + -begin_time < (double)set.script_timeout))
         break;
 
@@ -3569,9 +3569,9 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
 
   __CPROVER_DUMP_L19:
     ;
-    signed long int return_value_read$8;
-    return_value_read$8=read(cmd_fd, (void *)result_string, (unsigned long int)(1024 - 1));
-    bytes_read = (signed int)return_value_read$8;
+    signed long int return_value_read_8;
+    return_value_read_8=read(cmd_fd, (void *)result_string, (unsigned long int)(1024 - 1));
+    bytes_read = (signed int)return_value_read_8;
     if(bytes_read >= 1)
       result_string[(signed long int)bytes_read] = (char)0;
 
@@ -3604,9 +3604,9 @@ extern char * exec_poll(struct host_struct *current_host, char *command)
 extern signed int file_exists(const char *filename)
 {
   struct stat file_stat;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &file_stat);
-  if(!(return_value_stat$1 == 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &file_stat);
+  if(!(return_value_stat_1 == 0))
     return 0;
 
   else
@@ -3634,20 +3634,20 @@ static signed int find_keyword_by_word(struct keyword *tbl, const char *word, si
   assert(tbl != ((struct keyword *)NULL));
   /* assertion word != 0 */
   assert(word != ((const char *)NULL));
-  signed int return_value_all_digits$2;
-  return_value_all_digits$2=all_digits(word);
-  if(!(return_value_all_digits$2 == 0))
+  signed int return_value_all_digits_2;
+  return_value_all_digits_2=all_digits(word);
+  if(!(return_value_all_digits_2 == 0))
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(word);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(word);
+    return return_value_atoi_1;
   }
 
   for( ; !(tbl->word == ((const char *)NULL)); tbl = tbl + 1l)
   {
-    signed int return_value_strcasecmp$3;
-    return_value_strcasecmp$3=strcasecmp(word, tbl->word);
-    if(return_value_strcasecmp$3 == 0)
+    signed int return_value_strcasecmp_3;
+    return_value_strcasecmp_3=strcasecmp(word, tbl->word);
+    if(return_value_strcasecmp_3 == 0)
       return tbl->value;
 
   }
@@ -3756,12 +3756,12 @@ extern unsigned short int get_checksum(void *buf, signed int len)
   unsigned short int answer;
   unsigned short int *w = (unsigned short int *)buf;
   unsigned short int odd_byte = (unsigned short int)0;
-  unsigned short int *tmp_post$1;
+  unsigned short int *tmp_post_1;
   for( ; nleft >= 2; nleft = nleft - 2)
   {
-    tmp_post$1 = w;
+    tmp_post_1 = w;
     w = w + 1l;
-    sum = sum + (signed int)*tmp_post$1;
+    sum = sum + (signed int)*tmp_post_1;
   }
   if(nleft == 1)
   {
@@ -3783,23 +3783,23 @@ extern char * get_host_poll_time(void)
   struct tm now_time;
   struct tm *now_ptr;
   char *host_time;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)20);
-  host_time = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)20);
+  host_time = (char *)return_value_malloc_1;
   if(host_time == ((char *)NULL))
     die("ERROR: Fatal malloc error: util.c host_time");
 
   host_time[(signed long int)0] = (char)0;
-  signed long int return_value_time$2;
-  return_value_time$2=time(&nowbin);
-  if(return_value_time$2 == -1l)
+  signed long int return_value_time_2;
+  return_value_time_2=time(&nowbin);
+  if(return_value_time_2 == -1l)
     die("ERROR: Could not get time of day from time() util.c get_host_poll_time()");
 
   localtime_r(&nowbin, &now_time);
   now_ptr = &now_time;
-  unsigned long int return_value_strftime$3;
-  return_value_strftime$3=strftime(host_time, (unsigned long int)20, "%Y-%m-%d %H:%M:%S", now_ptr);
-  if(return_value_strftime$3 == 0ul)
+  unsigned long int return_value_strftime_3;
+  return_value_strftime_3=strftime(host_time, (unsigned long int)20, "%Y-%m-%d %H:%M:%S", now_ptr);
+  if(return_value_strftime_3 == 0ul)
     die("ERROR: Could not get string from strftime() util.c get_host_poll_time()");
 
   return host_time;
@@ -3807,9 +3807,9 @@ extern char * get_host_poll_time(void)
 
 // get_lock
 // file locks.c line 89
-extern union anonymous$9 * get_lock(signed int lock)
+extern union anonymous_9 * get_lock(signed int lock)
 {
-  union anonymous$9 *ret_val = (union anonymous$9 *)(void *)0;
+  union anonymous_9 *ret_val = (union anonymous_9 *)(void *)0;
   switch(lock)
   {
     case 0:
@@ -3937,81 +3937,81 @@ static signed int getboolsetting(struct st_mysql *psql, const char *setting, sig
   /* assertion setting != 0 */
   assert(setting != ((const char *)NULL));
   rc=getsetting(psql, setting);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcasecmp$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcasecmp$6;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcasecmp$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcasecmp$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcasecmp$13;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcasecmp_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcasecmp_6;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcasecmp_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcasecmp_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcasecmp_13;
   if(rc == ((const char *)NULL))
     return dflt;
 
   else
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(rc, "on");
-    if(return_value_strcasecmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(rc, "on");
+    if(return_value_strcasecmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp(rc, "yes");
-      tmp_if_expr$3 = return_value_strcasecmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_2=strcasecmp(rc, "yes");
+      tmp_if_expr_3 = return_value_strcasecmp_2 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$4=strcasecmp(rc, "true");
-      tmp_if_expr$5 = return_value_strcasecmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_4=strcasecmp(rc, "true");
+      tmp_if_expr_5 = return_value_strcasecmp_4 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$6=strcasecmp(rc, "1");
-      tmp_if_expr$7 = return_value_strcasecmp$6 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_6=strcasecmp(rc, "1");
+      tmp_if_expr_7 = return_value_strcasecmp_6 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       return 1;
 
     else
     {
-      signed int return_value_strcasecmp$8;
-      return_value_strcasecmp$8=strcasecmp(rc, "off");
-      if(return_value_strcasecmp$8 == 0)
-        tmp_if_expr$10 = (_Bool)1;
+      signed int return_value_strcasecmp_8;
+      return_value_strcasecmp_8=strcasecmp(rc, "off");
+      if(return_value_strcasecmp_8 == 0)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$9=strcasecmp(rc, "no");
-        tmp_if_expr$10 = return_value_strcasecmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_9=strcasecmp(rc, "no");
+        tmp_if_expr_10 = return_value_strcasecmp_9 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
-        tmp_if_expr$12 = (_Bool)1;
+      if(tmp_if_expr_10)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$11=strcasecmp(rc, "false");
-        tmp_if_expr$12 = return_value_strcasecmp$11 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_11=strcasecmp(rc, "false");
+        tmp_if_expr_12 = return_value_strcasecmp_11 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
-        tmp_if_expr$14 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$13=strcasecmp(rc, "0");
-        tmp_if_expr$14 = return_value_strcasecmp$13 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_13=strcasecmp(rc, "0");
+        tmp_if_expr_14 = return_value_strcasecmp_13 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
+      if(tmp_if_expr_14)
         return 0;
 
       else
@@ -4035,26 +4035,26 @@ static const char * getglobalvariable(struct st_mysql *psql, const char *setting
   i = 0;
   for( ; !(i >= nopts); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(setting, opttable[(signed long int)i].opt);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(setting, opttable[(signed long int)i].opt);
+    if(return_value_strcasecmp_1 == 0)
       return opttable[(signed long int)i].val;
 
   }
   sprintf(qstring, "SHOW GLOBAL VARIABLES LIKE '%s'", setting);
   result=db_query(psql, qstring);
-  unsigned long long int return_value_mysql_num_rows$2;
-  return_value_mysql_num_rows$2=mysql_num_rows(result);
-  _Bool tmp_if_expr$3;
-  if(return_value_mysql_num_rows$2 >= 1ul)
+  unsigned long long int return_value_mysql_num_rows_2;
+  return_value_mysql_num_rows_2=mysql_num_rows(result);
+  _Bool tmp_if_expr_3;
+  if(return_value_mysql_num_rows_2 >= 1ul)
   {
     mysql_row=mysql_fetch_row(result);
-    tmp_if_expr$3 = mysql_row != ((char **)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = mysql_row != ((char **)NULL) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
     return mysql_row[(signed long int)1];
 
   else
@@ -4076,26 +4076,26 @@ static const char * getsetting(struct st_mysql *psql, const char *setting)
   i = 0;
   for( ; !(i >= nopts); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(setting, opttable[(signed long int)i].opt);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(setting, opttable[(signed long int)i].opt);
+    if(return_value_strcasecmp_1 == 0)
       return opttable[(signed long int)i].val;
 
   }
   sprintf(qstring, "SELECT value FROM settings WHERE name = '%s'", setting);
   result=db_query(psql, qstring);
-  unsigned long long int return_value_mysql_num_rows$2;
-  return_value_mysql_num_rows$2=mysql_num_rows(result);
-  _Bool tmp_if_expr$3;
-  if(return_value_mysql_num_rows$2 >= 1ul)
+  unsigned long long int return_value_mysql_num_rows_2;
+  return_value_mysql_num_rows_2=mysql_num_rows(result);
+  _Bool tmp_if_expr_3;
+  if(return_value_mysql_num_rows_2 >= 1ul)
   {
     mysql_row=mysql_fetch_row(result);
-    tmp_if_expr$3 = mysql_row != ((char **)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = mysql_row != ((char **)NULL) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
     return mysql_row[(signed long int)0];
 
   else
@@ -4115,21 +4115,21 @@ unsigned long long int hex2dec(char *str)
 {
   signed int i = 0;
   unsigned long long int number = (unsigned long long int)0;
-  double return_value_pow$1;
-  double return_value_pow$2;
-  double return_value_pow$3;
-  double return_value_pow$4;
-  double return_value_pow$5;
-  double return_value_pow$6;
-  double return_value_pow$7;
-  double return_value_pow$8;
-  double return_value_pow$9;
-  double return_value_pow$10;
-  double return_value_pow$11;
-  double return_value_pow$12;
-  double return_value_pow$13;
-  double return_value_pow$14;
-  double return_value_pow$15;
+  double return_value_pow_1;
+  double return_value_pow_2;
+  double return_value_pow_3;
+  double return_value_pow_4;
+  double return_value_pow_5;
+  double return_value_pow_6;
+  double return_value_pow_7;
+  double return_value_pow_8;
+  double return_value_pow_9;
+  double return_value_pow_10;
+  double return_value_pow_11;
+  double return_value_pow_12;
+  double return_value_pow_13;
+  double return_value_pow_14;
+  double return_value_pow_15;
   if(str == ((char *)NULL))
     return (unsigned long long int)0;
 
@@ -4146,64 +4146,64 @@ unsigned long long int hex2dec(char *str)
         }
         case 49:
         {
-          return_value_pow$1=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$1 * (double)1);
+          return_value_pow_1=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_1 * (double)1);
           i = i + 1;
           break;
         }
         case 50:
         {
-          return_value_pow$2=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$2 * (double)2);
+          return_value_pow_2=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_2 * (double)2);
           i = i + 1;
           break;
         }
         case 51:
         {
-          return_value_pow$3=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$3 * (double)3);
+          return_value_pow_3=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_3 * (double)3);
           i = i + 1;
           break;
         }
         case 52:
         {
-          return_value_pow$4=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$4 * (double)4);
+          return_value_pow_4=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_4 * (double)4);
           i = i + 1;
           break;
         }
         case 53:
         {
-          return_value_pow$5=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$5 * (double)5);
+          return_value_pow_5=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_5 * (double)5);
           i = i + 1;
           break;
         }
         case 54:
         {
-          return_value_pow$6=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$6 * (double)6);
+          return_value_pow_6=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_6 * (double)6);
           i = i + 1;
           break;
         }
         case 55:
         {
-          return_value_pow$7=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$7 * (double)7);
+          return_value_pow_7=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_7 * (double)7);
           i = i + 1;
           break;
         }
         case 56:
         {
-          return_value_pow$8=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$8 * (double)8);
+          return_value_pow_8=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_8 * (double)8);
           i = i + 1;
           break;
         }
         case 57:
         {
-          return_value_pow$9=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$9 * (double)9);
+          return_value_pow_9=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_9 * (double)9);
           i = i + 1;
           break;
         }
@@ -4211,8 +4211,8 @@ unsigned long long int hex2dec(char *str)
 
         case 65:
         {
-          return_value_pow$10=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$10 * (double)10);
+          return_value_pow_10=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_10 * (double)10);
           i = i + 1;
           break;
         }
@@ -4220,8 +4220,8 @@ unsigned long long int hex2dec(char *str)
 
         case 66:
         {
-          return_value_pow$11=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$11 * (double)11);
+          return_value_pow_11=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_11 * (double)11);
           i = i + 1;
           break;
         }
@@ -4229,8 +4229,8 @@ unsigned long long int hex2dec(char *str)
 
         case 67:
         {
-          return_value_pow$12=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$12 * (double)12);
+          return_value_pow_12=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_12 * (double)12);
           i = i + 1;
           break;
         }
@@ -4238,8 +4238,8 @@ unsigned long long int hex2dec(char *str)
 
         case 68:
         {
-          return_value_pow$13=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$13 * (double)13);
+          return_value_pow_13=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_13 * (double)13);
           i = i + 1;
           break;
         }
@@ -4247,8 +4247,8 @@ unsigned long long int hex2dec(char *str)
 
         case 69:
         {
-          return_value_pow$14=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$14 * (double)14);
+          return_value_pow_14=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_14 * (double)14);
           i = i + 1;
           break;
         }
@@ -4256,8 +4256,8 @@ unsigned long long int hex2dec(char *str)
 
         case 70:
         {
-          return_value_pow$15=pow((double)16, (double)i);
-          number = number + (unsigned long long int)(return_value_pow$15 * (double)15);
+          return_value_pow_15=pow((double)16, (double)i);
+          number = number + (unsigned long long int)(return_value_pow_15 * (double)15);
           i = i + 1;
           break;
         }
@@ -4278,162 +4278,162 @@ unsigned long long int hex2dec(char *str)
 // file locks.c line 54
 static void init_ghbn_lock(void)
 {
-  pthread_mutex_init(&ghbn_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&ghbn_lock, (union anonymous_10 *)0);
 }
 
 // init_mutexes
 // file locks.h line 34
 extern void init_mutexes(void)
 {
-  signed int *return_value_get_attr$1;
-  return_value_get_attr$1=get_attr(0);
-  pthread_once((signed int *)return_value_get_attr$1, init_snmp_lock);
-  signed int *return_value_get_attr$2;
-  return_value_get_attr$2=get_attr(1);
-  pthread_once((signed int *)return_value_get_attr$2, init_thread_lock);
-  signed int *return_value_get_attr$3;
-  return_value_get_attr$3=get_attr(2);
-  pthread_once((signed int *)return_value_get_attr$3, init_seteuid_lock);
-  signed int *return_value_get_attr$4;
-  return_value_get_attr$4=get_attr(3);
-  pthread_once((signed int *)return_value_get_attr$4, init_ghbn_lock);
-  signed int *return_value_get_attr$5;
-  return_value_get_attr$5=get_attr(4);
-  pthread_once((signed int *)return_value_get_attr$5, init_pipe_lock);
-  signed int *return_value_get_attr$6;
-  return_value_get_attr$6=get_attr(5);
-  pthread_once((signed int *)return_value_get_attr$6, init_syslog_lock);
-  signed int *return_value_get_attr$7;
-  return_value_get_attr$7=get_attr(6);
-  pthread_once((signed int *)return_value_get_attr$7, init_php_lock);
-  signed int *return_value_get_attr$8;
-  return_value_get_attr$8=get_attr(7);
-  pthread_once((signed int *)return_value_get_attr$8, init_php_proc_0_lock);
-  signed int *return_value_get_attr$9;
-  return_value_get_attr$9=get_attr(8);
-  pthread_once((signed int *)return_value_get_attr$9, init_php_proc_1_lock);
-  signed int *return_value_get_attr$10;
-  return_value_get_attr$10=get_attr(9);
-  pthread_once((signed int *)return_value_get_attr$10, init_php_proc_2_lock);
-  signed int *return_value_get_attr$11;
-  return_value_get_attr$11=get_attr(10);
-  pthread_once((signed int *)return_value_get_attr$11, init_php_proc_3_lock);
-  signed int *return_value_get_attr$12;
-  return_value_get_attr$12=get_attr(11);
-  pthread_once((signed int *)return_value_get_attr$12, init_php_proc_4_lock);
-  signed int *return_value_get_attr$13;
-  return_value_get_attr$13=get_attr(12);
-  pthread_once((signed int *)return_value_get_attr$13, init_php_proc_5_lock);
-  signed int *return_value_get_attr$14;
-  return_value_get_attr$14=get_attr(13);
-  pthread_once((signed int *)return_value_get_attr$14, init_php_proc_6_lock);
-  signed int *return_value_get_attr$15;
-  return_value_get_attr$15=get_attr(14);
-  pthread_once((signed int *)return_value_get_attr$15, init_php_proc_7_lock);
-  signed int *return_value_get_attr$16;
-  return_value_get_attr$16=get_attr(15);
-  pthread_once((signed int *)return_value_get_attr$16, init_php_proc_8_lock);
-  signed int *return_value_get_attr$17;
-  return_value_get_attr$17=get_attr(16);
-  pthread_once((signed int *)return_value_get_attr$17, init_php_proc_9_lock);
+  signed int *return_value_get_attr_1;
+  return_value_get_attr_1=get_attr(0);
+  pthread_once((signed int *)return_value_get_attr_1, init_snmp_lock);
+  signed int *return_value_get_attr_2;
+  return_value_get_attr_2=get_attr(1);
+  pthread_once((signed int *)return_value_get_attr_2, init_thread_lock);
+  signed int *return_value_get_attr_3;
+  return_value_get_attr_3=get_attr(2);
+  pthread_once((signed int *)return_value_get_attr_3, init_seteuid_lock);
+  signed int *return_value_get_attr_4;
+  return_value_get_attr_4=get_attr(3);
+  pthread_once((signed int *)return_value_get_attr_4, init_ghbn_lock);
+  signed int *return_value_get_attr_5;
+  return_value_get_attr_5=get_attr(4);
+  pthread_once((signed int *)return_value_get_attr_5, init_pipe_lock);
+  signed int *return_value_get_attr_6;
+  return_value_get_attr_6=get_attr(5);
+  pthread_once((signed int *)return_value_get_attr_6, init_syslog_lock);
+  signed int *return_value_get_attr_7;
+  return_value_get_attr_7=get_attr(6);
+  pthread_once((signed int *)return_value_get_attr_7, init_php_lock);
+  signed int *return_value_get_attr_8;
+  return_value_get_attr_8=get_attr(7);
+  pthread_once((signed int *)return_value_get_attr_8, init_php_proc_0_lock);
+  signed int *return_value_get_attr_9;
+  return_value_get_attr_9=get_attr(8);
+  pthread_once((signed int *)return_value_get_attr_9, init_php_proc_1_lock);
+  signed int *return_value_get_attr_10;
+  return_value_get_attr_10=get_attr(9);
+  pthread_once((signed int *)return_value_get_attr_10, init_php_proc_2_lock);
+  signed int *return_value_get_attr_11;
+  return_value_get_attr_11=get_attr(10);
+  pthread_once((signed int *)return_value_get_attr_11, init_php_proc_3_lock);
+  signed int *return_value_get_attr_12;
+  return_value_get_attr_12=get_attr(11);
+  pthread_once((signed int *)return_value_get_attr_12, init_php_proc_4_lock);
+  signed int *return_value_get_attr_13;
+  return_value_get_attr_13=get_attr(12);
+  pthread_once((signed int *)return_value_get_attr_13, init_php_proc_5_lock);
+  signed int *return_value_get_attr_14;
+  return_value_get_attr_14=get_attr(13);
+  pthread_once((signed int *)return_value_get_attr_14, init_php_proc_6_lock);
+  signed int *return_value_get_attr_15;
+  return_value_get_attr_15=get_attr(14);
+  pthread_once((signed int *)return_value_get_attr_15, init_php_proc_7_lock);
+  signed int *return_value_get_attr_16;
+  return_value_get_attr_16=get_attr(15);
+  pthread_once((signed int *)return_value_get_attr_16, init_php_proc_8_lock);
+  signed int *return_value_get_attr_17;
+  return_value_get_attr_17=get_attr(16);
+  pthread_once((signed int *)return_value_get_attr_17, init_php_proc_9_lock);
 }
 
 // init_php_lock
 // file locks.c line 57
 static void init_php_lock(void)
 {
-  pthread_mutex_init(&php_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_0_lock
 // file locks.c line 58
 static void init_php_proc_0_lock(void)
 {
-  pthread_mutex_init(&php_proc_0_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_0_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_1_lock
 // file locks.c line 59
 static void init_php_proc_1_lock(void)
 {
-  pthread_mutex_init(&php_proc_1_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_1_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_2_lock
 // file locks.c line 60
 static void init_php_proc_2_lock(void)
 {
-  pthread_mutex_init(&php_proc_2_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_2_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_3_lock
 // file locks.c line 61
 static void init_php_proc_3_lock(void)
 {
-  pthread_mutex_init(&php_proc_3_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_3_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_4_lock
 // file locks.c line 62
 static void init_php_proc_4_lock(void)
 {
-  pthread_mutex_init(&php_proc_4_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_4_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_5_lock
 // file locks.c line 63
 static void init_php_proc_5_lock(void)
 {
-  pthread_mutex_init(&php_proc_5_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_5_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_6_lock
 // file locks.c line 64
 static void init_php_proc_6_lock(void)
 {
-  pthread_mutex_init(&php_proc_6_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_6_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_7_lock
 // file locks.c line 65
 static void init_php_proc_7_lock(void)
 {
-  pthread_mutex_init(&php_proc_7_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_7_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_8_lock
 // file locks.c line 66
 static void init_php_proc_8_lock(void)
 {
-  pthread_mutex_init(&php_proc_8_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_8_lock, (union anonymous_10 *)0);
 }
 
 // init_php_proc_9_lock
 // file locks.c line 67
 static void init_php_proc_9_lock(void)
 {
-  pthread_mutex_init(&php_proc_9_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&php_proc_9_lock, (union anonymous_10 *)0);
 }
 
 // init_pipe_lock
 // file locks.c line 55
 static void init_pipe_lock(void)
 {
-  pthread_mutex_init(&pipe_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&pipe_lock, (union anonymous_10 *)0);
 }
 
 // init_seteuid_lock
 // file locks.c line 53
 static void init_seteuid_lock(void)
 {
-  pthread_mutex_init(&seteuid_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&seteuid_lock, (union anonymous_10 *)0);
 }
 
 // init_snmp_lock
 // file locks.c line 51
 static void init_snmp_lock(void)
 {
-  pthread_mutex_init(&snmp_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&snmp_lock, (union anonymous_10 *)0);
 }
 
 // init_sockaddr
@@ -4450,9 +4450,9 @@ extern signed int init_sockaddr(struct sockaddr_in *name, const char *hostname, 
   char *buf;
   signed int herr;
   signed int rv;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len * sizeof(char) /*1ul*/ );
-  buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len * sizeof(char) /*1ul*/ );
+  buf = (char *)return_value_malloc_1;
   memset((void *)buf, 0, sizeof(char *) /*8ul*/ );
   while((_Bool)1)
   {
@@ -4462,9 +4462,9 @@ extern signed int init_sockaddr(struct sockaddr_in *name, const char *hostname, 
       if(rv == 34)
       {
         len = len * (unsigned long int)2;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)buf, len * sizeof(char) /*1ul*/ );
-        buf = (char *)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)buf, len * sizeof(char) /*1ul*/ );
+        buf = (char *)return_value_realloc_2;
         continue;
       }
 
@@ -4502,14 +4502,14 @@ extern signed int init_sockaddr(struct sockaddr_in *name, const char *hostname, 
 // file locks.c line 56
 static void init_syslog_lock(void)
 {
-  pthread_mutex_init(&syslog_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&syslog_lock, (union anonymous_10 *)0);
 }
 
 // init_thread_lock
 // file locks.c line 52
 static void init_thread_lock(void)
 {
-  pthread_mutex_init(&thread_lock, (union anonymous$10 *)0);
+  pthread_mutex_init(&thread_lock, (union anonymous_10 *)0);
 }
 
 // install_spine_signal_handler
@@ -4627,23 +4627,23 @@ extern signed int is_hexadecimal(const char *str, const signed short int ignore_
 // file util.c line 774
 extern signed int is_ipaddress(const char *string)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   while(!(*string == 0))
   {
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*string]) == 0))
-      tmp_if_expr$2 = (_Bool)1;
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*string]) == 0))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*string == 46 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)*string == 46 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*string == 58 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)*string == 58 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       string = string + 1l;
 
     else
@@ -4659,43 +4659,43 @@ extern signed int is_multipart_output(char *result)
   signed int space_cnt = 0;
   signed int delim_cnt = 0;
   signed int i;
-  _Bool tmp_if_expr$6;
-  char *return_value_strstr$5;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_6;
+  char *return_value_strstr_5;
+  _Bool tmp_if_expr_2;
   if(!(result == ((char *)NULL)))
   {
-    char *return_value_strstr$4;
-    return_value_strstr$4=strstr(result, ":");
-    if(!(return_value_strstr$4 == ((char *)NULL)))
-      tmp_if_expr$6 = (_Bool)1;
+    char *return_value_strstr_4;
+    return_value_strstr_4=strstr(result, ":");
+    if(!(return_value_strstr_4 == ((char *)NULL)))
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strstr$5=strstr(result, "!");
-      tmp_if_expr$6 = return_value_strstr$5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_5=strstr(result, "!");
+      tmp_if_expr_6 = return_value_strstr_5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
-      char *return_value_strstr$3;
-      return_value_strstr$3=strstr(result, " ");
-      if(return_value_strstr$3 == ((char *)NULL))
+      char *return_value_strstr_3;
+      return_value_strstr_3=strstr(result, " ");
+      if(return_value_strstr_3 == ((char *)NULL))
         return 1;
 
       else
       {
         signed int len;
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(result);
-        len = (const signed int)return_value_strlen$1;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(result);
+        len = (const signed int)return_value_strlen_1;
         i = 0;
         for( ; !(i >= len); i = i + 1)
         {
           if((signed int)result[(signed long int)i] == 58)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = (signed int)result[(signed long int)i] == 33 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (signed int)result[(signed long int)i] == 33 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
             delim_cnt = delim_cnt + 1;
 
           else
@@ -4726,21 +4726,21 @@ extern signed int is_numeric(const char *string)
   char *end_ptr_double;
   signed int conv_base = 10;
   signed int length;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  length = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  length = (signed int)return_value_strlen_1;
   if(length == 0)
     return 0;
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 0;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 0;
     local_lval=strtol(string, &end_ptr_long, conv_base);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 34))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 34))
     {
       if(end_ptr_long == string + (signed long int)length)
         return 1;
@@ -4769,13 +4769,13 @@ extern signed int is_numeric(const char *string)
 
     else
       end_ptr_long = (char *)(void *)0;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 0;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 0;
     local_dval=strtod(string, &end_ptr_double);
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    if(!(*return_value___errno_location$5 == 34))
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    if(!(*return_value___errno_location_5 == 34))
     {
       if(end_ptr_double == string + (signed long int)length)
         return 1;
@@ -4784,13 +4784,13 @@ extern signed int is_numeric(const char *string)
 
     else
       end_ptr_double = (char *)(void *)0;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    if(*return_value___errno_location$7 == 0)
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    if(*return_value___errno_location_7 == 0)
     {
-      signed int return_value_strcasecmp$6;
-      return_value_strcasecmp$6=strcasecmp(string, " ");
-      if(return_value_strcasecmp$6 == 0)
+      signed int return_value_strcasecmp_6;
+      return_value_strcasecmp_6=strcasecmp(string, " ");
+      if(return_value_strcasecmp_6 == 0)
         return 0;
 
       else
@@ -4806,7 +4806,7 @@ extern signed int is_numeric(const char *string)
 // file util.c line 1077
 extern char * ltrim(char *str)
 {
-  char *ltrim$$1$$trim = " \"'\\\t\n\r";
+  char *ltrim__1__trim = " \"'\\\t\n\r";
   if(str == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -4814,9 +4814,9 @@ extern char * ltrim(char *str)
   {
     while(!(*str == 0))
     {
-      char *return_value_strchr$1;
-      return_value_strchr$1=strchr(ltrim$$1$$trim, (signed int)*str);
-      if(return_value_strchr$1 == ((char *)NULL))
+      char *return_value_strchr_1;
+      return_value_strchr_1=strchr(ltrim__1__trim, (signed int)*str);
+      if(return_value_strchr_1 == ((char *)NULL))
         return str;
 
       str = str + 1l;
@@ -4863,27 +4863,27 @@ signed int main(signed int argc, char **argv)
   signed int current_thread;
   (void)argc;
   install_spine_signal_handler();
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)10, sizeof(struct php_processes) /*16ul*/ );
-  php_processes = (struct php_processes *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)10, sizeof(struct php_processes) /*16ul*/ );
+  php_processes = (struct php_processes *)return_value_calloc_1;
   i = 0;
   for( ; !(i >= 10); i = i + 1)
     (php_processes + (signed long int)i)->php_state = 1;
   set.icmp_avail = 1;
-  signed int return_value_fileno$2;
-  return_value_fileno$2=fileno(stdout);
-  signed int return_value_isatty$3;
-  return_value_isatty$3=isatty(return_value_fileno$2);
-  if(return_value_isatty$3 == 0)
+  signed int return_value_fileno_2;
+  return_value_fileno_2=fileno(stdout);
+  signed int return_value_isatty_3;
+  return_value_isatty_3=isatty(return_value_fileno_2);
+  if(return_value_isatty_3 == 0)
     set.stdout_notty = 1;
 
   else
     set.stdout_notty = 0;
-  signed int return_value_fileno$4;
-  return_value_fileno$4=fileno(stderr);
-  signed int return_value_isatty$5;
-  return_value_isatty$5=isatty(return_value_fileno$4);
-  if(return_value_isatty$5 == 0)
+  signed int return_value_fileno_4;
+  return_value_fileno_4=fileno(stderr);
+  signed int return_value_isatty_5;
+  return_value_isatty_5=isatty(return_value_fileno_4);
+  if(return_value_isatty_5 == 0)
     set.stderr_notty = 1;
 
   else
@@ -4900,53 +4900,53 @@ signed int main(signed int argc, char **argv)
   set.logfile_processed = 0;
   set.parent_fork = 1;
   argv = argv + 1l;
-  char *tmp_post$6;
-  _Bool tmp_if_expr$58;
-  signed int return_value_strcmp$57;
-  signed int return_value_strcmp$53;
-  _Bool tmp_if_expr$55;
-  signed int return_value_strcasecmp$54;
-  signed int return_value_strcmp$50;
-  _Bool tmp_if_expr$52;
-  signed int return_value_strcasecmp$51;
-  signed int return_value_strcmp$47;
-  _Bool tmp_if_expr$49;
-  signed int return_value_strcasecmp$48;
-  signed int return_value_strcmp$40;
-  _Bool tmp_if_expr$42;
-  signed int return_value_strcmp$41;
-  _Bool tmp_if_expr$44;
-  signed int return_value_strcmp$43;
-  _Bool tmp_if_expr$46;
-  signed int return_value_strcmp$45;
-  signed int return_value_strcmp$37;
-  _Bool tmp_if_expr$39;
-  signed int return_value_strcasecmp$38;
-  char *tmp_post$9;
-  signed int return_value_strcmp$32;
-  _Bool tmp_if_expr$34;
-  signed int return_value_strcmp$33;
-  _Bool tmp_if_expr$36;
-  signed int return_value_strcmp$35;
-  signed int return_value_strcmp$29;
-  _Bool tmp_if_expr$31;
-  signed int return_value_strcmp$30;
-  signed int return_value_strcmp$26;
-  _Bool tmp_if_expr$28;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$23;
-  _Bool tmp_if_expr$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$20;
-  _Bool tmp_if_expr$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$17;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strcmp$18;
-  _Bool tmp_if_expr$16;
-  signed int return_value_all_digits$15;
-  _Bool tmp_if_expr$14;
-  signed int return_value_all_digits$13;
+  char *tmp_post_6;
+  _Bool tmp_if_expr_58;
+  signed int return_value_strcmp_57;
+  signed int return_value_strcmp_53;
+  _Bool tmp_if_expr_55;
+  signed int return_value_strcasecmp_54;
+  signed int return_value_strcmp_50;
+  _Bool tmp_if_expr_52;
+  signed int return_value_strcasecmp_51;
+  signed int return_value_strcmp_47;
+  _Bool tmp_if_expr_49;
+  signed int return_value_strcasecmp_48;
+  signed int return_value_strcmp_40;
+  _Bool tmp_if_expr_42;
+  signed int return_value_strcmp_41;
+  _Bool tmp_if_expr_44;
+  signed int return_value_strcmp_43;
+  _Bool tmp_if_expr_46;
+  signed int return_value_strcmp_45;
+  signed int return_value_strcmp_37;
+  _Bool tmp_if_expr_39;
+  signed int return_value_strcasecmp_38;
+  char *tmp_post_9;
+  signed int return_value_strcmp_32;
+  _Bool tmp_if_expr_34;
+  signed int return_value_strcmp_33;
+  _Bool tmp_if_expr_36;
+  signed int return_value_strcmp_35;
+  signed int return_value_strcmp_29;
+  _Bool tmp_if_expr_31;
+  signed int return_value_strcmp_30;
+  signed int return_value_strcmp_26;
+  _Bool tmp_if_expr_28;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_23;
+  _Bool tmp_if_expr_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_20;
+  _Bool tmp_if_expr_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_17;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strcmp_18;
+  _Bool tmp_if_expr_16;
+  signed int return_value_all_digits_15;
+  _Bool tmp_if_expr_14;
+  signed int return_value_all_digits_13;
   for( ; !(*argv == ((char *)NULL)); argv = argv + 1l)
   {
     char *arg = *argv;
@@ -4954,22 +4954,22 @@ signed int main(signed int argc, char **argv)
     opt=strchr(arg, 61);
     if(!(opt == ((char *)NULL)))
     {
-      tmp_post$6 = opt;
+      tmp_post_6 = opt;
       opt = opt + 1l;
-      *tmp_post$6 = (char)0;
+      *tmp_post_6 = (char)0;
     }
 
-    signed int return_value_strcmp$56;
-    return_value_strcmp$56=strcmp(arg, "-f");
-    if(return_value_strcmp$56 == 0)
-      tmp_if_expr$58 = (_Bool)1;
+    signed int return_value_strcmp_56;
+    return_value_strcmp_56=strcmp(arg, "-f");
+    if(return_value_strcmp_56 == 0)
+      tmp_if_expr_58 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$57=strcmp(arg, "--first");
-      tmp_if_expr$58 = return_value_strcmp$57 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_57=strcmp(arg, "--first");
+      tmp_if_expr_58 = return_value_strcmp_57 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$58)
+    if(tmp_if_expr_58)
     {
       if(set.start_host_id >= 0)
         die("ERROR: %s can only be used once", arg);
@@ -4983,16 +4983,16 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$53=strcmp(arg, "-l");
-      if(return_value_strcmp$53 == 0)
-        tmp_if_expr$55 = (_Bool)1;
+      return_value_strcmp_53=strcmp(arg, "-l");
+      if(return_value_strcmp_53 == 0)
+        tmp_if_expr_55 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$54=strcasecmp(arg, "--last");
-        tmp_if_expr$55 = return_value_strcasecmp$54 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_54=strcasecmp(arg, "--last");
+        tmp_if_expr_55 = return_value_strcasecmp_54 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$55)
+      if(tmp_if_expr_55)
       {
         if(set.end_host_id >= 0)
           die("ERROR: %s can only be used once", arg);
@@ -5006,68 +5006,68 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        return_value_strcmp$50=strcmp(arg, "-p");
-        if(return_value_strcmp$50 == 0)
-          tmp_if_expr$52 = (_Bool)1;
+        return_value_strcmp_50=strcmp(arg, "-p");
+        if(return_value_strcmp_50 == 0)
+          tmp_if_expr_52 = (_Bool)1;
 
         else
         {
-          return_value_strcasecmp$51=strcasecmp(arg, "--poller");
-          tmp_if_expr$52 = return_value_strcasecmp$51 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_51=strcasecmp(arg, "--poller");
+          tmp_if_expr_52 = return_value_strcasecmp_51 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$52)
+        if(tmp_if_expr_52)
         {
-          char *return_value_getarg$7;
-          return_value_getarg$7=getarg(opt, &argv);
-          set.poller_id=atoi(return_value_getarg$7);
+          char *return_value_getarg_7;
+          return_value_getarg_7=getarg(opt, &argv);
+          set.poller_id=atoi(return_value_getarg_7);
         }
 
         else
         {
-          return_value_strcmp$47=strcmp(arg, "-H");
-          if(return_value_strcmp$47 == 0)
-            tmp_if_expr$49 = (_Bool)1;
+          return_value_strcmp_47=strcmp(arg, "-H");
+          if(return_value_strcmp_47 == 0)
+            tmp_if_expr_49 = (_Bool)1;
 
           else
           {
-            return_value_strcasecmp$48=strcasecmp(arg, "--hostlist");
-            tmp_if_expr$49 = return_value_strcasecmp$48 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_48=strcasecmp(arg, "--hostlist");
+            tmp_if_expr_49 = return_value_strcasecmp_48 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$49)
+          if(tmp_if_expr_49)
           {
-            char *return_value_getarg$8;
-            return_value_getarg$8=getarg(opt, &argv);
-            snprintf(set.host_id_list, (unsigned long int)65535, "%s", return_value_getarg$8);
+            char *return_value_getarg_8;
+            return_value_getarg_8=getarg(opt, &argv);
+            snprintf(set.host_id_list, (unsigned long int)65535, "%s", return_value_getarg_8);
           }
 
           else
           {
-            return_value_strcmp$40=strcmp(arg, "-h");
-            if(return_value_strcmp$40 == 0)
-              tmp_if_expr$42 = (_Bool)1;
+            return_value_strcmp_40=strcmp(arg, "-h");
+            if(return_value_strcmp_40 == 0)
+              tmp_if_expr_42 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$41=strcmp(arg, "-v");
-              tmp_if_expr$42 = return_value_strcmp$41 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_41=strcmp(arg, "-v");
+              tmp_if_expr_42 = return_value_strcmp_41 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$42)
-              tmp_if_expr$44 = (_Bool)1;
+            if(tmp_if_expr_42)
+              tmp_if_expr_44 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$43=strcmp(arg, "--help");
-              tmp_if_expr$44 = return_value_strcmp$43 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_43=strcmp(arg, "--help");
+              tmp_if_expr_44 = return_value_strcmp_43 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$44)
-              tmp_if_expr$46 = (_Bool)1;
+            if(tmp_if_expr_44)
+              tmp_if_expr_46 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$45=strcmp(arg, "--version");
-              tmp_if_expr$46 = return_value_strcmp$45 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_45=strcmp(arg, "--version");
+              tmp_if_expr_46 = return_value_strcmp_45 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$46)
+            if(tmp_if_expr_46)
             {
               display_help();
               exit(0);
@@ -5075,16 +5075,16 @@ signed int main(signed int argc, char **argv)
 
             else
             {
-              return_value_strcmp$37=strcmp(arg, "-O");
-              if(return_value_strcmp$37 == 0)
-                tmp_if_expr$39 = (_Bool)1;
+              return_value_strcmp_37=strcmp(arg, "-O");
+              if(return_value_strcmp_37 == 0)
+                tmp_if_expr_39 = (_Bool)1;
 
               else
               {
-                return_value_strcasecmp$38=strcasecmp(arg, "--option");
-                tmp_if_expr$39 = return_value_strcasecmp$38 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_strcasecmp_38=strcasecmp(arg, "--option");
+                tmp_if_expr_39 = return_value_strcasecmp_38 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$39)
+              if(tmp_if_expr_39)
               {
                 char *setting;
                 setting=getarg(opt, &argv);
@@ -5092,9 +5092,9 @@ signed int main(signed int argc, char **argv)
                 value=strchr(setting, 58);
                 if(!(*value == 0))
                 {
-                  tmp_post$9 = value;
+                  tmp_post_9 = value;
                   value = value + 1l;
-                  *tmp_post$9 = (char)0;
+                  *tmp_post_9 = (char)0;
                 }
 
                 else
@@ -5104,132 +5104,132 @@ signed int main(signed int argc, char **argv)
 
               else
               {
-                return_value_strcmp$32=strcmp(arg, "-R");
-                if(return_value_strcmp$32 == 0)
-                  tmp_if_expr$34 = (_Bool)1;
+                return_value_strcmp_32=strcmp(arg, "-R");
+                if(return_value_strcmp_32 == 0)
+                  tmp_if_expr_34 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$33=strcmp(arg, "--readonly");
-                  tmp_if_expr$34 = return_value_strcmp$33 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_33=strcmp(arg, "--readonly");
+                  tmp_if_expr_34 = return_value_strcmp_33 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$34)
-                  tmp_if_expr$36 = (_Bool)1;
+                if(tmp_if_expr_34)
+                  tmp_if_expr_36 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$35=strcmp(arg, "--read-only");
-                  tmp_if_expr$36 = return_value_strcmp$35 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_35=strcmp(arg, "--read-only");
+                  tmp_if_expr_36 = return_value_strcmp_35 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$36)
+                if(tmp_if_expr_36)
                   set.SQL_readonly = 1;
 
                 else
                 {
-                  return_value_strcmp$29=strcmp(arg, "-C");
-                  if(return_value_strcmp$29 == 0)
-                    tmp_if_expr$31 = (_Bool)1;
+                  return_value_strcmp_29=strcmp(arg, "-C");
+                  if(return_value_strcmp_29 == 0)
+                    tmp_if_expr_31 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$30=strcmp(arg, "--conf");
-                    tmp_if_expr$31 = return_value_strcmp$30 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcmp_30=strcmp(arg, "--conf");
+                    tmp_if_expr_31 = return_value_strcmp_30 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$31)
+                  if(tmp_if_expr_31)
                   {
-                    char *return_value_getarg$10;
-                    return_value_getarg$10=getarg(opt, &argv);
-                    conf_file=strdup(return_value_getarg$10);
+                    char *return_value_getarg_10;
+                    return_value_getarg_10=getarg(opt, &argv);
+                    conf_file=strdup(return_value_getarg_10);
                   }
 
                   else
                   {
-                    return_value_strcmp$26=strcmp(arg, "-S");
-                    if(return_value_strcmp$26 == 0)
-                      tmp_if_expr$28 = (_Bool)1;
+                    return_value_strcmp_26=strcmp(arg, "-S");
+                    if(return_value_strcmp_26 == 0)
+                      tmp_if_expr_28 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcmp$27=strcmp(arg, "--stdout");
-                      tmp_if_expr$28 = return_value_strcmp$27 == 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_27=strcmp(arg, "--stdout");
+                      tmp_if_expr_28 = return_value_strcmp_27 == 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$28)
+                    if(tmp_if_expr_28)
                       set_option("log_destination", "STDOUT");
 
                     else
                     {
-                      return_value_strcmp$23=strcmp(arg, "-L");
-                      if(return_value_strcmp$23 == 0)
-                        tmp_if_expr$25 = (_Bool)1;
+                      return_value_strcmp_23=strcmp(arg, "-L");
+                      if(return_value_strcmp_23 == 0)
+                        tmp_if_expr_25 = (_Bool)1;
 
                       else
                       {
-                        return_value_strcmp$24=strcmp(arg, "--log");
-                        tmp_if_expr$25 = return_value_strcmp$24 == 0 ? (_Bool)1 : (_Bool)0;
+                        return_value_strcmp_24=strcmp(arg, "--log");
+                        tmp_if_expr_25 = return_value_strcmp_24 == 0 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$25)
+                      if(tmp_if_expr_25)
                       {
-                        char *return_value_getarg$11;
-                        return_value_getarg$11=getarg(opt, &argv);
-                        set_option("log_destination", return_value_getarg$11);
+                        char *return_value_getarg_11;
+                        return_value_getarg_11=getarg(opt, &argv);
+                        set_option("log_destination", return_value_getarg_11);
                       }
 
                       else
                       {
-                        return_value_strcmp$20=strcmp(arg, "-V");
-                        if(return_value_strcmp$20 == 0)
-                          tmp_if_expr$22 = (_Bool)1;
+                        return_value_strcmp_20=strcmp(arg, "-V");
+                        if(return_value_strcmp_20 == 0)
+                          tmp_if_expr_22 = (_Bool)1;
 
                         else
                         {
-                          return_value_strcmp$21=strcmp(arg, "--verbosity");
-                          tmp_if_expr$22 = return_value_strcmp$21 == 0 ? (_Bool)1 : (_Bool)0;
+                          return_value_strcmp_21=strcmp(arg, "--verbosity");
+                          tmp_if_expr_22 = return_value_strcmp_21 == 0 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$22)
+                        if(tmp_if_expr_22)
                         {
-                          char *return_value_getarg$12;
-                          return_value_getarg$12=getarg(opt, &argv);
-                          set_option("log_verbosity", return_value_getarg$12);
+                          char *return_value_getarg_12;
+                          return_value_getarg_12=getarg(opt, &argv);
+                          set_option("log_verbosity", return_value_getarg_12);
                         }
 
                         else
                         {
-                          return_value_strcmp$17=strcmp(arg, "--snmponly");
-                          if(return_value_strcmp$17 == 0)
-                            tmp_if_expr$19 = (_Bool)1;
+                          return_value_strcmp_17=strcmp(arg, "--snmponly");
+                          if(return_value_strcmp_17 == 0)
+                            tmp_if_expr_19 = (_Bool)1;
 
                           else
                           {
-                            return_value_strcmp$18=strcmp(arg, "--snmp-only");
-                            tmp_if_expr$19 = return_value_strcmp$18 == 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_strcmp_18=strcmp(arg, "--snmp-only");
+                            tmp_if_expr_19 = return_value_strcmp_18 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$19)
+                          if(tmp_if_expr_19)
                             set.snmponly = 1;
 
                           else
                           {
                             if(!(set.start_host_id >= 0))
                             {
-                              return_value_all_digits$15=all_digits(arg);
-                              tmp_if_expr$16 = return_value_all_digits$15 != 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_all_digits_15=all_digits(arg);
+                              tmp_if_expr_16 = return_value_all_digits_15 != 0 ? (_Bool)1 : (_Bool)0;
                             }
 
                             else
-                              tmp_if_expr$16 = (_Bool)0;
-                            if(tmp_if_expr$16)
+                              tmp_if_expr_16 = (_Bool)0;
+                            if(tmp_if_expr_16)
                               set.start_host_id=atoi(arg);
 
                             else
                             {
                               if(!(set.end_host_id >= 0))
                               {
-                                return_value_all_digits$13=all_digits(arg);
-                                tmp_if_expr$14 = return_value_all_digits$13 != 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_all_digits_13=all_digits(arg);
+                                tmp_if_expr_14 = return_value_all_digits_13 != 0 ? (_Bool)1 : (_Bool)0;
                               }
 
                               else
-                                tmp_if_expr$14 = (_Bool)0;
-                              if(tmp_if_expr$14)
+                                tmp_if_expr_14 = (_Bool)0;
+                              if(tmp_if_expr_14)
                                 set.end_host_id=atoi(arg);
 
                               else
@@ -5248,11 +5248,11 @@ signed int main(signed int argc, char **argv)
       }
     }
   }
-  unsigned long int return_value_strlen$59;
+  unsigned long int return_value_strlen_59;
   if(!(set.start_host_id >= 0 == set.end_host_id >= 0))
   {
-    return_value_strlen$59=strlen(set.host_id_list);
-    if(return_value_strlen$59 == 0ul)
+    return_value_strlen_59=strlen(set.host_id_list);
+    if(return_value_strlen_59 == 0ul)
       die("ERROR: must provide both -f/-l, a hostlist (-H/--hostlist), or neither");
 
   }
@@ -5262,9 +5262,9 @@ signed int main(signed int argc, char **argv)
 
   if(!(conf_file == ((char *)NULL)))
   {
-    signed int return_value_read_spine_config$60;
-    return_value_read_spine_config$60=read_spine_config(conf_file);
-    if(!(return_value_read_spine_config$60 >= 0))
+    signed int return_value_read_spine_config_60;
+    return_value_read_spine_config_60=read_spine_config(conf_file);
+    if(!(return_value_read_spine_config_60 >= 0))
       die("ERROR: Could not read config file: %s", conf_file);
 
     else
@@ -5273,9 +5273,9 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    void *return_value_calloc$61;
-    return_value_calloc$61=calloc((unsigned long int)4, (unsigned long int)1024);
-    conf_file = (char *)return_value_calloc$61;
+    void *return_value_calloc_61;
+    return_value_calloc_61=calloc((unsigned long int)4, (unsigned long int)1024);
+    conf_file = (char *)return_value_calloc_61;
     if(conf_file == ((char *)NULL))
       die("ERROR: Fatal malloc error: spine.c conf_file!");
 
@@ -5283,9 +5283,9 @@ signed int main(signed int argc, char **argv)
     for( ; !(i >= 4); i = i + 1)
     {
       snprintf(conf_file, (unsigned long int)1024, "%s%s", (const void *)config_paths[(signed long int)i], (const void *)"spine.conf");
-      signed int return_value_read_spine_config$62;
-      return_value_read_spine_config$62=read_spine_config(conf_file);
-      if(return_value_read_spine_config$62 >= 0)
+      signed int return_value_read_spine_config_62;
+      return_value_read_spine_config_62=read_spine_config(conf_file);
+      if(return_value_read_spine_config_62 >= 0)
       {
         valid_conf_file = 1;
         break;
@@ -5306,13 +5306,13 @@ signed int main(signed int argc, char **argv)
 
   internal_thread_sleep = (EXTERNAL_THREAD_SLEEP * (signed long int)set.num_parent_processes) / (signed long int)50;
   db_connect(set.dbdb, &mysql);
-  signed int return_value_spine_log$63;
+  signed int return_value_spine_log_63;
   if(set.log_level == 5)
   {
     if(set.log_level >= 5)
     {
-      return_value_spine_log$63=spine_log("Version %s starting", (const void *)"0.8.8b");
-      if(!(return_value_spine_log$63 == 0))
+      return_value_spine_log_63=spine_log("Version %s starting", (const void *)"0.8.8b");
+      if(!(return_value_spine_log_63 == 0))
         (_Bool)1;
 
       else
@@ -5327,9 +5327,9 @@ signed int main(signed int argc, char **argv)
     if(set.stdout_notty == 0)
       printf("SPINE: Version %s starting\n", (const void *)"0.8.8b");
 
-  unsigned int return_value_mysql_thread_safe$64;
-  return_value_mysql_thread_safe$64=mysql_thread_safe();
-  if(!(return_value_mysql_thread_safe$64 == 0u))
+  unsigned int return_value_mysql_thread_safe_64;
+  return_value_mysql_thread_safe_64=mysql_thread_safe();
+  if(!(return_value_mysql_thread_safe_64 == 0u))
   {
     if(set.log_level == 5)
       spine_log("DEBUG: MySQL is Thread Safe!");
@@ -5339,11 +5339,11 @@ signed int main(signed int argc, char **argv)
   else
     spine_log("WARNING: MySQL is NOT Thread Safe!");
   checkAsRoot();
-  signed int return_value_spine_log$65;
+  signed int return_value_spine_log_65;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$65=spine_log("SPINE: Initializing Net-SNMP API");
-    if(!(return_value_spine_log$65 == 0))
+    return_value_spine_log_65=spine_log("SPINE: Initializing Net-SNMP API");
+    if(!(return_value_spine_log_65 == 0))
       (_Bool)1;
 
     else
@@ -5353,11 +5353,11 @@ signed int main(signed int argc, char **argv)
   else
     (_Bool)0;
   snmp_spine_init();
-  signed int return_value_spine_log$66;
+  signed int return_value_spine_log_66;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$66=spine_log("SPINE: Initializing PHP Script Server(s)");
-    if(!(return_value_spine_log$66 == 0))
+    return_value_spine_log_66=spine_log("SPINE: Initializing PHP Script Server(s)");
+    if(!(return_value_spine_log_66 == 0))
       (_Bool)1;
 
     else
@@ -5375,9 +5375,9 @@ signed int main(signed int argc, char **argv)
   }
 
   result=db_query(&mysql, "SHOW COLUMNS FROM host LIKE 'poller_id'");
-  unsigned long long int return_value_mysql_num_rows$67;
-  return_value_mysql_num_rows$67=mysql_num_rows(result);
-  if(!(return_value_mysql_num_rows$67 == 0ull))
+  unsigned long long int return_value_mysql_num_rows_67;
+  return_value_mysql_num_rows_67=mysql_num_rows(result);
+  if(!(return_value_mysql_num_rows_67 == 0ull))
     set.poller_id_exists = 1;
 
   else
@@ -5388,21 +5388,21 @@ signed int main(signed int argc, char **argv)
 
   }
   result=db_query(&mysql, "SHOW COLUMNS FROM host LIKE 'device_threads'");
-  unsigned long long int return_value_mysql_num_rows$68;
-  return_value_mysql_num_rows$68=mysql_num_rows(result);
-  if(!(return_value_mysql_num_rows$68 == 0ull))
+  unsigned long long int return_value_mysql_num_rows_68;
+  return_value_mysql_num_rows_68=mysql_num_rows(result);
+  if(!(return_value_mysql_num_rows_68 == 0ull))
     set.device_threads_exists = 1;
 
   else
     set.device_threads_exists = 0;
-  signed int return_value_spine_log$69;
-  signed int return_value_spine_log$70;
+  signed int return_value_spine_log_69;
+  signed int return_value_spine_log_70;
   if(!(set.device_threads_exists == 0))
   {
     if(set.log_level >= 3)
     {
-      return_value_spine_log$69=spine_log("NOTE: Spine will support multithread device polling.");
-      if(!(return_value_spine_log$69 == 0))
+      return_value_spine_log_69=spine_log("NOTE: Spine will support multithread device polling.");
+      if(!(return_value_spine_log_69 == 0))
         (_Bool)1;
 
       else
@@ -5416,8 +5416,8 @@ signed int main(signed int argc, char **argv)
   else
     if(set.log_level >= 3)
     {
-      return_value_spine_log$70=spine_log("NOTE: Spine did not detect multithreaded device polling.");
-      if(!(return_value_spine_log$70 == 0))
+      return_value_spine_log_70=spine_log("NOTE: Spine did not detect multithreaded device polling.");
+      if(!(return_value_spine_log_70 == 0))
         (_Bool)1;
 
       else
@@ -5428,79 +5428,79 @@ signed int main(signed int argc, char **argv)
       (_Bool)0;
   if(!(set.device_threads_exists == 0))
   {
-    signed int return_value_sprintf$71;
-    return_value_sprintf$71=sprintf(qp, "SELECT id, device_threads FROM host");
-    qp = qp + (signed long int)return_value_sprintf$71;
+    signed int return_value_sprintf_71;
+    return_value_sprintf_71=sprintf(qp, "SELECT id, device_threads FROM host");
+    qp = qp + (signed long int)return_value_sprintf_71;
   }
 
   else
   {
-    signed int return_value_sprintf$72;
-    return_value_sprintf$72=sprintf(qp, "SELECT id, '1' as device_threads FROM host");
-    qp = qp + (signed long int)return_value_sprintf$72;
+    signed int return_value_sprintf_72;
+    return_value_sprintf_72=sprintf(qp, "SELECT id, '1' as device_threads FROM host");
+    qp = qp + (signed long int)return_value_sprintf_72;
   }
-  signed int return_value_sprintf$73;
-  return_value_sprintf$73=sprintf(qp, " WHERE disabled=''");
-  qp = qp + (signed long int)return_value_sprintf$73;
-  unsigned long int return_value_strlen$76;
-  return_value_strlen$76=strlen(set.host_id_list);
-  if(return_value_strlen$76 == 0ul)
+  signed int return_value_sprintf_73;
+  return_value_sprintf_73=sprintf(qp, " WHERE disabled=''");
+  qp = qp + (signed long int)return_value_sprintf_73;
+  unsigned long int return_value_strlen_76;
+  return_value_strlen_76=strlen(set.host_id_list);
+  if(return_value_strlen_76 == 0ul)
   {
-    signed int return_value_append_hostrange$74;
-    return_value_append_hostrange$74=append_hostrange(qp, "id");
-    qp = qp + (signed long int)return_value_append_hostrange$74;
+    signed int return_value_append_hostrange_74;
+    return_value_append_hostrange_74=append_hostrange(qp, "id");
+    qp = qp + (signed long int)return_value_append_hostrange_74;
   }
 
   else
   {
-    signed int return_value_sprintf$75;
-    return_value_sprintf$75=sprintf(qp, " AND id IN(%s)", (const void *)set.host_id_list);
-    qp = qp + (signed long int)return_value_sprintf$75;
+    signed int return_value_sprintf_75;
+    return_value_sprintf_75=sprintf(qp, " AND id IN(%s)", (const void *)set.host_id_list);
+    qp = qp + (signed long int)return_value_sprintf_75;
   }
   if(!(set.poller_id_exists == 0))
   {
-    signed int return_value_sprintf$77;
-    return_value_sprintf$77=sprintf(qp, " AND host.poller_id=%i", set.poller_id);
-    qp = qp + (signed long int)return_value_sprintf$77;
+    signed int return_value_sprintf_77;
+    return_value_sprintf_77=sprintf(qp, " AND host.poller_id=%i", set.poller_id);
+    qp = qp + (signed long int)return_value_sprintf_77;
   }
 
-  signed int return_value_sprintf$78;
-  return_value_sprintf$78=sprintf(qp, " ORDER BY id");
-  qp = qp + (signed long int)return_value_sprintf$78;
+  signed int return_value_sprintf_78;
+  return_value_sprintf_78=sprintf(qp, " ORDER BY id");
+  qp = qp + (signed long int)return_value_sprintf_78;
   result=db_query(&mysql, querybuf);
   if(set.poller_id == 0)
   {
-    unsigned long long int return_value_mysql_num_rows$79;
-    return_value_mysql_num_rows$79=mysql_num_rows(result);
-    num_rows = (signed int)(return_value_mysql_num_rows$79 + (unsigned long int)1);
+    unsigned long long int return_value_mysql_num_rows_79;
+    return_value_mysql_num_rows_79=mysql_num_rows(result);
+    num_rows = (signed int)(return_value_mysql_num_rows_79 + (unsigned long int)1);
   }
 
   else
   {
-    unsigned long long int return_value_mysql_num_rows$80;
-    return_value_mysql_num_rows$80=mysql_num_rows(result);
-    num_rows = (signed int)return_value_mysql_num_rows$80;
+    unsigned long long int return_value_mysql_num_rows_80;
+    return_value_mysql_num_rows_80=mysql_num_rows(result);
+    num_rows = (signed int)return_value_mysql_num_rows_80;
   }
-  void *return_value_malloc$81;
-  return_value_malloc$81=malloc((unsigned long int)num_rows * sizeof(unsigned long int) /*8ul*/ );
-  threads = (unsigned long int *)return_value_malloc$81;
+  void *return_value_malloc_81;
+  return_value_malloc_81=malloc((unsigned long int)num_rows * sizeof(unsigned long int) /*8ul*/ );
+  threads = (unsigned long int *)return_value_malloc_81;
   if(threads == ((unsigned long int *)NULL))
     die("ERROR: Fatal malloc error: spine.c threads!");
 
-  void *return_value_malloc$82;
-  return_value_malloc$82=malloc((unsigned long int)num_rows * sizeof(signed int) /*4ul*/ );
-  ids = (signed int *)return_value_malloc$82;
+  void *return_value_malloc_82;
+  return_value_malloc_82=malloc((unsigned long int)num_rows * sizeof(signed int) /*4ul*/ );
+  ids = (signed int *)return_value_malloc_82;
   if(ids == ((signed int *)NULL))
     die("ERROR: Fatal malloc error: spine.c host id's!");
 
-  signed int return_value_spine_log$83;
-  signed int return_value_spine_log$85;
+  signed int return_value_spine_log_83;
+  signed int return_value_spine_log_85;
   if(set.pre087g == 0u)
   {
     if(set.log_level >= 3)
     {
-      return_value_spine_log$83=spine_log("NOTE: Spine is behaving in a 0.8.7g+ manner");
-      if(!(return_value_spine_log$83 == 0))
+      return_value_spine_log_83=spine_log("NOTE: Spine is behaving in a 0.8.7g+ manner");
+      if(!(return_value_spine_log_83 == 0))
         (_Bool)1;
 
       else
@@ -5509,17 +5509,17 @@ signed int main(signed int argc, char **argv)
 
     else
       (_Bool)0;
-    signed int return_value_getpid$84;
-    return_value_getpid$84=getpid();
-    snprintf(querybuf, (unsigned long int)65535, "INSERT INTO poller_time (poller_id, pid, start_time, end_time) VALUES (%i, %i, NOW(), '0000-00-00 00:00:00')", set.poller_id, return_value_getpid$84);
+    signed int return_value_getpid_84;
+    return_value_getpid_84=getpid();
+    snprintf(querybuf, (unsigned long int)65535, "INSERT INTO poller_time (poller_id, pid, start_time, end_time) VALUES (%i, %i, NOW(), '0000-00-00 00:00:00')", set.poller_id, return_value_getpid_84);
     db_insert(&mysql, querybuf);
   }
 
   else
     if(set.log_level >= 3)
     {
-      return_value_spine_log$85=spine_log("NOTE: Spine is behaving in a PRE 0.8.7g manner");
-      if(!(return_value_spine_log$85 == 0))
+      return_value_spine_log_85=spine_log("NOTE: Spine is behaving in a PRE 0.8.7g manner");
+      if(!(return_value_spine_log_85 == 0))
         (_Bool)1;
 
       else
@@ -5531,11 +5531,11 @@ signed int main(signed int argc, char **argv)
   pthread_attr_init(&attr);
   pthread_attr_setdetachstate(&attr, 1);
   init_mutexes();
-  signed int return_value_spine_log$86;
+  signed int return_value_spine_log_86;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$86=spine_log("DEBUG: Initial Value of Active Threads is %i", active_threads);
-    if(!(return_value_spine_log$86 == 0))
+    return_value_spine_log_86=spine_log("DEBUG: Initial Value of Active Threads is %i", active_threads);
+    if(!(return_value_spine_log_86 == 0))
       (_Bool)1;
 
     else
@@ -5555,9 +5555,9 @@ signed int main(signed int argc, char **argv)
 
   else
     change_host = 1;
-  void *return_value_malloc$87;
-  signed int return_value_spine_log$88;
-  signed int return_value_spine_log$89;
+  void *return_value_malloc_87;
+  signed int return_value_spine_log_88;
+  signed int return_value_spine_log_89;
   while(canexit == 0 && !(device_counter >= num_rows))
   {
     while(canexit == 0 && !(active_threads >= set.threads) && !(device_counter >= num_rows))
@@ -5607,8 +5607,8 @@ signed int main(signed int argc, char **argv)
 
             host_time=get_host_poll_time();
           }
-          return_value_malloc$87=malloc(sizeof(struct poller_thread) /*24ul*/ );
-          poller_details = (struct poller_thread *)return_value_malloc$87;
+          return_value_malloc_87=malloc(sizeof(struct poller_thread) /*24ul*/ );
+          poller_details = (struct poller_thread *)return_value_malloc_87;
           if(poller_details == ((struct poller_thread *)NULL))
             die("ERROR: Fatal malloc error: spine.c poller_details!");
 
@@ -5625,8 +5625,8 @@ signed int main(signed int argc, char **argv)
             {
               if(set.log_level >= 5)
               {
-                return_value_spine_log$88=spine_log("DEBUG: Valid Thread to be Created");
-                if(!(return_value_spine_log$88 == 0))
+                return_value_spine_log_88=spine_log("DEBUG: Valid Thread to be Created");
+                if(!(return_value_spine_log_88 == 0))
                   (_Bool)1;
 
                 else
@@ -5643,8 +5643,8 @@ signed int main(signed int argc, char **argv)
                 usleep((unsigned int)internal_thread_sleep);
               if(set.log_level >= 5)
               {
-                return_value_spine_log$89=spine_log("DEBUG: The Value of Active Threads is %i", active_threads);
-                if(!(return_value_spine_log$89 == 0))
+                return_value_spine_log_89=spine_log("DEBUG: The Value of Active Threads is %i", active_threads);
+                if(!(return_value_spine_log_89 == 0))
                   (_Bool)1;
 
                 else
@@ -5731,9 +5731,9 @@ signed int main(signed int argc, char **argv)
   }
   while(canexit == 0)
   {
-    signed int return_value_thread_mutex_trylock$90;
-    return_value_thread_mutex_trylock$90=thread_mutex_trylock(1);
-    if(return_value_thread_mutex_trylock$90 == 0)
+    signed int return_value_thread_mutex_trylock_90;
+    return_value_thread_mutex_trylock_90=thread_mutex_trylock(1);
+    if(return_value_thread_mutex_trylock_90 == 0)
     {
       last_active_threads = active_threads;
       if(active_threads == 0)
@@ -5764,24 +5764,24 @@ signed int main(signed int argc, char **argv)
   db_insert(&mysql, "replace into settings (name,value) values ('date',NOW())");
   if(!(set.pre087g == 0u))
   {
-    signed int return_value_getpid$91;
-    return_value_getpid$91=getpid();
-    snprintf(querybuf, (unsigned long int)65535, "INSERT INTO poller_time (poller_id, pid, start_time, end_time) VALUES (%i, %i, NOW(), NOW())", set.poller_id, return_value_getpid$91);
+    signed int return_value_getpid_91;
+    return_value_getpid_91=getpid();
+    snprintf(querybuf, (unsigned long int)65535, "INSERT INTO poller_time (poller_id, pid, start_time, end_time) VALUES (%i, %i, NOW(), NOW())", set.poller_id, return_value_getpid_91);
   }
 
   else
   {
-    signed int return_value_getpid$92;
-    return_value_getpid$92=getpid();
-    snprintf(querybuf, (unsigned long int)65535, "UPDATE poller_time SET end_time=NOW() WHERE poller_id=%i AND pid=%i", set.poller_id, return_value_getpid$92);
+    signed int return_value_getpid_92;
+    return_value_getpid_92=getpid();
+    snprintf(querybuf, (unsigned long int)65535, "UPDATE poller_time SET end_time=NOW() WHERE poller_id=%i AND pid=%i", set.poller_id, return_value_getpid_92);
   }
   db_insert(&mysql, querybuf);
   pthread_attr_destroy(&attr);
-  signed int return_value_spine_log$93;
+  signed int return_value_spine_log_93;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$93=spine_log("DEBUG: Thread Cleanup Complete");
-    if(!(return_value_spine_log$93 == 0))
+    return_value_spine_log_93=spine_log("DEBUG: Thread Cleanup Complete");
+    if(!(return_value_spine_log_93 == 0))
       (_Bool)1;
 
     else
@@ -5793,11 +5793,11 @@ signed int main(signed int argc, char **argv)
   if(!(set.php_required == 0))
     php_close(999);
 
-  signed int return_value_spine_log$94;
+  signed int return_value_spine_log_94;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$94=spine_log("DEBUG: PHP Script Server Pipes Closed");
-    if(!(return_value_spine_log$94 == 0))
+    return_value_spine_log_94=spine_log("DEBUG: PHP Script Server Pipes Closed");
+    if(!(return_value_spine_log_94 == 0))
       (_Bool)1;
 
     else
@@ -5809,11 +5809,11 @@ signed int main(signed int argc, char **argv)
   free((void *)threads);
   free((void *)ids);
   free((void *)conf_file);
-  signed int return_value_spine_log$95;
+  signed int return_value_spine_log_95;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$95=spine_log("DEBUG: Allocated Variable Memory Freed");
-    if(!(return_value_spine_log$95 == 0))
+    return_value_spine_log_95=spine_log("DEBUG: Allocated Variable Memory Freed");
+    if(!(return_value_spine_log_95 == 0))
       (_Bool)1;
 
     else
@@ -5824,11 +5824,11 @@ signed int main(signed int argc, char **argv)
     (_Bool)0;
   mysql_free_result(result);
   mysql_close(&mysql);
-  signed int return_value_spine_log$96;
+  signed int return_value_spine_log_96;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$96=spine_log("DEBUG: MYSQL Free & Close Completed");
-    if(!(return_value_spine_log$96 == 0))
+    return_value_spine_log_96=spine_log("DEBUG: MYSQL Free & Close Completed");
+    if(!(return_value_spine_log_96 == 0))
       (_Bool)1;
 
     else
@@ -5838,11 +5838,11 @@ signed int main(signed int argc, char **argv)
   else
     (_Bool)0;
   snmp_spine_close();
-  signed int return_value_spine_log$97;
+  signed int return_value_spine_log_97;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$97=spine_log("DEBUG: Net-SNMP Close Completed");
-    if(!(return_value_spine_log$97 == 0))
+    return_value_spine_log_97=spine_log("DEBUG: Net-SNMP Close Completed");
+    if(!(return_value_spine_log_97 == 0))
       (_Bool)1;
 
     else
@@ -5881,9 +5881,9 @@ extern signed int nft_pchild(signed int fd)
   pthread_mutex_unlock(&ListMutex);
   if(cur == ((struct pid *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 9;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 9;
     return -1;
   }
 
@@ -5906,17 +5906,17 @@ extern signed int nft_pclose(signed int fd)
   pthread_mutex_unlock(&ListMutex);
   if(cur == ((struct pid *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 9;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 9;
     return -1;
   }
 
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
-    struct anonymous$2 __cancel_buf;
+    struct anonymous_2 __cancel_buf;
     void (*__cancel_routine)(void *) = close_cleanup;
     void *__cancel_arg = (void *)cur;
     signed int __not_first_call;
@@ -5937,14 +5937,14 @@ extern signed int nft_pclose(signed int fd)
         pid=waitpid(cur->pid, &pstat, 0);
         if(pid == -1)
         {
-          return_value___errno_location$2=__errno_location();
-          tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_2=__errno_location();
+          tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
       }
-      while(tmp_if_expr$3);
+      while(tmp_if_expr_3);
 
     __CPROVER_DUMP_L9:
       ;
@@ -5970,11 +5970,11 @@ extern signed int nft_popen(const char *command, const char *type)
   char *argv[4l];
   signed int cancel_state;
   signed int retry_count = 0;
-  char *return_value_strchr$4;
-  return_value_strchr$4=strchr(type, 43);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(!(return_value_strchr$4 == ((char *)NULL)))
+  char *return_value_strchr_4;
+  return_value_strchr_4=strchr(type, 43);
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(!(return_value_strchr_4 == ((char *)NULL)))
   {
     twoway = 1;
     type = "r+";
@@ -5984,36 +5984,36 @@ extern signed int nft_popen(const char *command, const char *type)
   {
     twoway = 0;
     if(!((signed int)*type == 114))
-      tmp_if_expr$2 = (signed int)*type != 119 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*type != 119 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = type[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = type[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 22;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 22;
       return -1;
     }
 
   }
-  signed int return_value_pipe$5;
-  return_value_pipe$5=pipe(pdes);
-  signed int *return_value___errno_location$7;
-  if(!(return_value_pipe$5 >= 0))
+  signed int return_value_pipe_5;
+  return_value_pipe_5=pipe(pdes);
+  signed int *return_value___errno_location_7;
+  if(!(return_value_pipe_5 >= 0))
     return -1;
 
   else
   {
     pthread_setcancelstate(1, &cancel_state);
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(sizeof(struct pid) /*16ul*/ );
-    cur = (struct pid *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(sizeof(struct pid) /*16ul*/ );
+    cur = (struct pid *)return_value_malloc_6;
     if(cur == ((struct pid *)NULL))
     {
       close(pdes[(signed long int)0]);
@@ -6043,10 +6043,10 @@ extern signed int nft_popen(const char *command, const char *type)
           goto __CPROVER_DUMP_L25;
         }
 
-        return_value___errno_location$7=__errno_location();
-        if(!(*return_value___errno_location$7 == 11))
+        return_value___errno_location_7=__errno_location();
+        if(!(*return_value___errno_location_7 == 11))
         {
-          if(*return_value___errno_location$7 == 12)
+          if(*return_value___errno_location_7 == 12)
             goto __CPROVER_DUMP_L13;
 
           goto __CPROVER_DUMP_L15;
@@ -6150,27 +6150,27 @@ extern signed int nft_popen(const char *command, const char *type)
 // file keywords.c line 188
 extern signed int parse_action(const char *word, signed int dflt)
 {
-  signed int return_value_find_keyword_by_word$1;
-  return_value_find_keyword_by_word$1=find_keyword_by_word(actions, word, dflt);
-  return return_value_find_keyword_by_word$1;
+  signed int return_value_find_keyword_by_word_1;
+  return_value_find_keyword_by_word_1=find_keyword_by_word(actions, word, dflt);
+  return return_value_find_keyword_by_word_1;
 }
 
 // parse_log_level
 // file keywords.c line 172
 extern signed int parse_log_level(const char *word, signed int dflt)
 {
-  signed int return_value_find_keyword_by_word$1;
-  return_value_find_keyword_by_word$1=find_keyword_by_word(log_level, word, dflt);
-  return return_value_find_keyword_by_word$1;
+  signed int return_value_find_keyword_by_word_1;
+  return_value_find_keyword_by_word_1=find_keyword_by_word(log_level, word, dflt);
+  return return_value_find_keyword_by_word_1;
 }
 
 // parse_logdest
 // file keywords.h line 38
 extern signed int parse_logdest(const char *word, signed int dflt)
 {
-  signed int return_value_find_keyword_by_word$1;
-  return_value_find_keyword_by_word$1=find_keyword_by_word(logdest, word, dflt);
-  return return_value_find_keyword_by_word$1;
+  signed int return_value_find_keyword_by_word_1;
+  return_value_find_keyword_by_word_1=find_keyword_by_word(logdest, word, dflt);
+  return return_value_find_keyword_by_word_1;
 }
 
 // php_close
@@ -6186,14 +6186,14 @@ extern void php_close(signed int php_process)
   else
     num_processes = 1;
   i = 0;
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   for( ; !(i >= num_processes); i = i + 1)
   {
     struct php_processes *phpp;
     if(set.log_level >= 5)
     {
-      return_value_spine_log$1=spine_log("DEBUG: SS[%i] Script Server Shutdown Started", i);
-      if(!(return_value_spine_log$1 == 0))
+      return_value_spine_log_1=spine_log("DEBUG: SS[%i] Script Server Shutdown Started", i);
+      if(!(return_value_spine_log_1 == 0))
         (_Bool)1;
 
       else
@@ -6209,10 +6209,10 @@ extern void php_close(signed int php_process)
       phpp = &php_processes[(signed long int)php_process];
     if(phpp->php_write_fd >= 0)
     {
-      unsigned long int return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
       static const char quit[7l] = { 'q', 'u', 'i', 't', '\r', '\n', 0 };
-      return_value_strlen$2=strlen(quit);
-      bytes=write(phpp->php_write_fd, (const void *)quit, return_value_strlen$2);
+      return_value_strlen_2=strlen(quit);
+      bytes=write(phpp->php_write_fd, (const void *)quit, return_value_strlen_2);
       close(phpp->php_write_fd);
       phpp->php_write_fd = -1;
       usleep((unsigned int)50000);
@@ -6287,14 +6287,14 @@ extern char * php_cmd(const char *php_command, signed int php_process)
     case 9:
       thread_mutex_lock(16);
   }
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   do
   {
 
   retry:
     ;
-    return_value_strlen$1=strlen(command);
-    bytes=write((php_processes + (signed long int)php_process)->php_write_fd, (const void *)command, return_value_strlen$1);
+    return_value_strlen_1=strlen(command);
+    bytes=write((php_processes + (signed long int)php_process)->php_write_fd, (const void *)command, return_value_strlen_1);
     if(bytes >= 1l)
       goto __CPROVER_DUMP_L12;
 
@@ -6310,9 +6310,9 @@ extern char * php_cmd(const char *php_command, signed int php_process)
 __CPROVER_DUMP_L12:
   ;
   result_string=php_readpipe(php_process);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(result_string);
-  if(return_value_strlen$2 == 0ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(result_string);
+  if(return_value_strlen_2 == 0ul)
   {
     result_string[(signed long int)0] = (char)85;
     result_string[(signed long int)1] = (char)0;
@@ -6409,18 +6409,18 @@ extern signed int php_init(signed int php_process)
   else
     num_processes = 1;
   i = 0;
-  signed int return_value_spine_log$1;
-  signed int return_value_spine_log$4;
-  signed int *return_value___errno_location$5;
-  signed int return_value_spine_log$6;
-  signed int return_value_spine_log$7;
-  signed int return_value_spine_log$8;
+  signed int return_value_spine_log_1;
+  signed int return_value_spine_log_4;
+  signed int *return_value___errno_location_5;
+  signed int return_value_spine_log_6;
+  signed int return_value_spine_log_7;
+  signed int return_value_spine_log_8;
   for( ; !(i >= num_processes); i = i + 1)
   {
     if(set.log_level >= 5)
     {
-      return_value_spine_log$1=spine_log("DEBUG: SS[%i] PHP Script Server Routine Starting", i);
-      if(!(return_value_spine_log$1 == 0))
+      return_value_spine_log_1=spine_log("DEBUG: SS[%i] PHP Script Server Routine Starting", i);
+      if(!(return_value_spine_log_1 == 0))
         (_Bool)1;
 
       else
@@ -6429,17 +6429,17 @@ extern signed int php_init(signed int php_process)
 
     else
       (_Bool)0;
-    signed int return_value_pipe$2;
-    return_value_pipe$2=pipe(cacti2php_pdes);
-    if(!(return_value_pipe$2 >= 0))
+    signed int return_value_pipe_2;
+    return_value_pipe_2=pipe(cacti2php_pdes);
+    if(!(return_value_pipe_2 >= 0))
     {
       spine_log("ERROR: SS[%i] Could not allocate php server pipes", i);
       return 0;
     }
 
-    signed int return_value_pipe$3;
-    return_value_pipe$3=pipe(php2cacti_pdes);
-    if(!(return_value_pipe$3 >= 0))
+    signed int return_value_pipe_3;
+    return_value_pipe_3=pipe(php2cacti_pdes);
+    if(!(return_value_pipe_3 >= 0))
     {
       spine_log("ERROR: SS[%i] Could not allocate php server pipes", i);
       return 0;
@@ -6455,8 +6455,8 @@ extern signed int php_init(signed int php_process)
     argv[(signed long int)5] = (char *)(void *)0;
     if(set.log_level >= 5)
     {
-      return_value_spine_log$4=spine_log("DEBUG: SS[%i] PHP Script Server About to FORK Child Process", i);
-      if(!(return_value_spine_log$4 == 0))
+      return_value_spine_log_4=spine_log("DEBUG: SS[%i] PHP Script Server About to FORK Child Process", i);
+      if(!(return_value_spine_log_4 == 0))
         (_Bool)1;
 
       else
@@ -6479,10 +6479,10 @@ extern signed int php_init(signed int php_process)
         goto __CPROVER_DUMP_L21;
       }
 
-      return_value___errno_location$5=__errno_location();
-      if(!(*return_value___errno_location$5 == 11))
+      return_value___errno_location_5=__errno_location();
+      if(!(*return_value___errno_location_5 == 11))
       {
-        if(*return_value___errno_location$5 == 12)
+        if(*return_value___errno_location_5 == 12)
           goto __CPROVER_DUMP_L17;
 
         goto __CPROVER_DUMP_L19;
@@ -6535,8 +6535,8 @@ extern signed int php_init(signed int php_process)
     ;
     if(set.log_level >= 5)
     {
-      return_value_spine_log$6=spine_log("DEBUG: SS[%i] PHP Script Server Child FORK Success", i);
-      if(!(return_value_spine_log$6 == 0))
+      return_value_spine_log_6=spine_log("DEBUG: SS[%i] PHP Script Server Child FORK Success", i);
+      if(!(return_value_spine_log_6 == 0))
         (_Bool)1;
 
       else
@@ -6566,16 +6566,16 @@ extern signed int php_init(signed int php_process)
 
     else
       result_string=php_readpipe(php_process);
-    char *return_value_strstr$9;
-    return_value_strstr$9=strstr(result_string, "Started");
-    if(!(return_value_strstr$9 == ((char *)NULL)))
+    char *return_value_strstr_9;
+    return_value_strstr_9=strstr(result_string, "Started");
+    if(!(return_value_strstr_9 == ((char *)NULL)))
     {
       if(php_process == 999)
       {
         if(set.log_level >= 5)
         {
-          return_value_spine_log$7=spine_log("DEBUG: SS[%i] Confirmed PHP Script Server running using readfd[%i], writefd[%i]", i, php2cacti_pdes[(signed long int)0], cacti2php_pdes[(signed long int)1]);
-          if(!(return_value_spine_log$7 == 0))
+          return_value_spine_log_7=spine_log("DEBUG: SS[%i] Confirmed PHP Script Server running using readfd[%i], writefd[%i]", i, php2cacti_pdes[(signed long int)0], cacti2php_pdes[(signed long int)1]);
+          if(!(return_value_spine_log_7 == 0))
             (_Bool)1;
 
           else
@@ -6591,8 +6591,8 @@ extern signed int php_init(signed int php_process)
       {
         if(set.log_level >= 5)
         {
-          return_value_spine_log$8=spine_log("DEBUG: SS[%i] Confirmed PHP Script Server running using readfd[%i], writefd[%i]", php_process, php2cacti_pdes[(signed long int)0], cacti2php_pdes[(signed long int)1]);
-          if(!(return_value_spine_log$8 == 0))
+          return_value_spine_log_8=spine_log("DEBUG: SS[%i] Confirmed PHP Script Server running using readfd[%i], writefd[%i]", php_process, php2cacti_pdes[(signed long int)0], cacti2php_pdes[(signed long int)1]);
+          if(!(return_value_spine_log_8 == 0))
             (_Bool)1;
 
           else
@@ -6623,7 +6623,7 @@ extern signed int php_init(signed int php_process)
 // file php.c line 151
 extern char * php_readpipe(signed int php_process)
 {
-  struct anonymous$8 fds;
+  struct anonymous_8 fds;
   struct timeval timeout;
   double begin_time = (double)0;
   double end_time = (double)0;
@@ -6631,9 +6631,9 @@ extern char * php_readpipe(signed int php_process)
   signed int i;
   char *cp;
   char *bptr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1024);
-  result_string = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1024);
+  result_string = (char *)return_value_malloc_1;
   if(result_string == ((char *)NULL))
     die("ERROR: Fatal malloc error: php.c php_readpipe!");
 
@@ -6641,11 +6641,11 @@ extern char * php_readpipe(signed int php_process)
   begin_time=get_time_as_double();
   timeout.tv_sec = (signed long int)set.script_timeout;
   timeout.tv_usec = (signed long int)0;
-  signed int return_value_select$2;
-  signed int *return_value___errno_location$3;
-  double return_value_floor$4;
-  double return_value_rint$5;
-  double return_value_rint$6;
+  signed int return_value_select_2;
+  signed int *return_value___errno_location_3;
+  double return_value_floor_4;
+  double return_value_rint_5;
+  double return_value_rint_6;
   do
   {
 
@@ -6653,27 +6653,27 @@ extern char * php_readpipe(signed int php_process)
     ;
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
     (&fds)->__fds_bits[(signed long int)((php_processes + (signed long int)php_process)->php_read_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)((php_processes + (signed long int)php_process)->php_read_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << (php_processes + (signed long int)php_process)->php_read_fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    return_value_select$2=select((php_processes + (signed long int)php_process)->php_read_fd + 1, &fds, (struct anonymous$8 *)(void *)0, (struct anonymous$8 *)(void *)0, &timeout);
-    if(!(return_value_select$2 == -1))
+    return_value_select_2=select((php_processes + (signed long int)php_process)->php_read_fd + 1, &fds, (struct anonymous_8 *)(void *)0, (struct anonymous_8 *)(void *)0, &timeout);
+    if(!(return_value_select_2 == -1))
     {
-      if(return_value_select$2 == 0)
+      if(return_value_select_2 == 0)
         goto __CPROVER_DUMP_L12;
 
       goto __CPROVER_DUMP_L13;
     }
 
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 9))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 9))
     {
-      if(*return_value___errno_location$3 == 4)
+      if(*return_value___errno_location_3 == 4)
         goto __CPROVER_DUMP_L5;
 
-      if(*return_value___errno_location$3 == 22)
+      if(*return_value___errno_location_3 == 22)
         goto __CPROVER_DUMP_L8;
 
-      if(*return_value___errno_location$3 == 12)
+      if(*return_value___errno_location_3 == 12)
         goto __CPROVER_DUMP_L9;
 
       goto __CPROVER_DUMP_L10;
@@ -6686,11 +6686,11 @@ extern char * php_readpipe(signed int php_process)
     ;
     usleep((unsigned int)2000);
     end_time=get_time_as_double();
-    return_value_floor$4=floor((double)set.script_timeout - (end_time - begin_time));
-    return_value_rint$5=rint(return_value_floor$4);
-    timeout.tv_sec = (signed long int)return_value_rint$5;
-    return_value_rint$6=rint((((double)set.script_timeout - (end_time - begin_time)) - (double)timeout.tv_sec) * (double)1000000);
-    timeout.tv_usec = (signed long int)return_value_rint$6;
+    return_value_floor_4=floor((double)set.script_timeout - (end_time - begin_time));
+    return_value_rint_5=rint(return_value_floor_4);
+    timeout.tv_sec = (signed long int)return_value_rint_5;
+    return_value_rint_6=rint((((double)set.script_timeout - (end_time - begin_time)) - (double)timeout.tv_sec) * (double)1000000);
+    timeout.tv_usec = (signed long int)return_value_rint_6;
     if(!(end_time + -begin_time < (double)set.script_timeout))
       break;
 
@@ -6738,9 +6738,9 @@ __CPROVER_DUMP_L13:
     bptr = result_string;
     while((_Bool)1)
     {
-      signed long int return_value_read$7;
-      return_value_read$7=read((php_processes + (signed long int)php_process)->php_read_fd, (void *)bptr, (unsigned long int)((signed long int)1024 - (bptr - result_string)));
-      i = (signed int)return_value_read$7;
+      signed long int return_value_read_7;
+      return_value_read_7=read((php_processes + (signed long int)php_process)->php_read_fd, (void *)bptr, (unsigned long int)((signed long int)1024 - (bptr - result_string)));
+      i = (signed int)return_value_read_7;
       if(!(i >= 1))
       {
         result_string[(signed long int)0] = (char)85;
@@ -6785,20 +6785,20 @@ extern signed int ping_host(struct host_struct *host, struct ping_results *ping)
   signed int snmp_result;
   ping_result = 0;
   snmp_result = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(host->availability_method == 1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = host->availability_method == 3 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = host->availability_method == 3 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = host->availability_method == 4 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_spine_log$1;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = host->availability_method == 4 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_spine_log_1;
+  if(tmp_if_expr_4)
   {
     if(host->ping_method == 1)
     {
@@ -6806,8 +6806,8 @@ extern signed int ping_host(struct host_struct *host, struct ping_results *ping)
       {
         if(set.log_level >= 5)
         {
-          return_value_spine_log$1=spine_log("Host[%i] DEBUG Falling back to UDP Ping Due to SetUID Issues", host->id);
-          if(!(return_value_spine_log$1 == 0))
+          return_value_spine_log_1=spine_log("Host[%i] DEBUG Falling back to UDP Ping Due to SetUID Issues", host->id);
+          if(!(return_value_spine_log_1 == 0))
             (_Bool)1;
 
           else
@@ -6821,9 +6821,9 @@ extern signed int ping_host(struct host_struct *host, struct ping_results *ping)
 
     }
 
-    char *return_value_strstr$2;
-    return_value_strstr$2=strstr(host->hostname, "localhost");
-    if(return_value_strstr$2 == ((char *)NULL))
+    char *return_value_strstr_2;
+    return_value_strstr_2=strstr(host->hostname, "localhost");
+    if(return_value_strstr_2 == ((char *)NULL))
     {
       if(host->ping_method == 1)
         ping_result=ping_icmp(host, ping);
@@ -6846,41 +6846,41 @@ extern signed int ping_host(struct host_struct *host, struct ping_results *ping)
     }
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(host->availability_method == 2)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = host->availability_method == 5 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = host->availability_method == 5 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = host->availability_method == 6 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = host->availability_method == 6 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = host->availability_method == 1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_7 = host->availability_method == 1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = (host->availability_method == 4 ? (ping_result != 3 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (host->availability_method == 4 ? (ping_result != 3 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_8)
     snmp_result=ping_snmp(host, ping);
 
-  unsigned long int return_value_strlen$9;
-  unsigned long int return_value_strlen$10;
+  unsigned long int return_value_strlen_9;
+  unsigned long int return_value_strlen_10;
   switch(host->availability_method)
   {
     case 1:
     {
-      return_value_strlen$9=strlen(host->snmp_community);
-      if(return_value_strlen$9 == 0ul)
+      return_value_strlen_9=strlen(host->snmp_community);
+      if(return_value_strlen_9 == 0ul)
       {
         if(!(host->snmp_version >= 3))
         {
@@ -6901,8 +6901,8 @@ extern signed int ping_host(struct host_struct *host, struct ping_results *ping)
     }
     case 4:
     {
-      return_value_strlen$10=strlen(host->snmp_community);
-      if(return_value_strlen$10 == 0ul)
+      return_value_strlen_10=strlen(host->snmp_community);
+      if(return_value_strlen_10 == 0ul)
       {
         if(!(host->snmp_version >= 3))
         {
@@ -6966,17 +6966,17 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
   signed int packet_len;
   unsigned int fromlen;
   signed long int return_code;
-  struct anonymous$8 socket_fds;
+  struct anonymous_8 socket_fds;
   struct icmp *icmp;
   struct ip *ip;
   struct icmp *pkt;
   unsigned char *packet;
   char *new_hostname;
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$1=spine_log("Host[%i] DEBUG: Entering ICMP Ping", host->id);
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("Host[%i] DEBUG: Entering ICMP Ping", host->id);
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -6989,9 +6989,9 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
   retry_count = 0;
   while((_Bool)1)
   {
-    signed int return_value_hasCaps$2;
-    return_value_hasCaps$2=hasCaps();
-    if(!(return_value_hasCaps$2 == 1))
+    signed int return_value_hasCaps_2;
+    return_value_hasCaps_2=hasCaps();
+    if(!(return_value_hasCaps_2 == 1))
     {
       thread_mutex_lock(2);
       seteuid((unsigned int)0);
@@ -7007,13 +7007,13 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
         snprintf(ping->ping_response, (unsigned long int)256, "ICMP: Ping unable to create ICMP Socket");
         snprintf(ping->ping_status, (unsigned long int)50, "down");
         free((void *)new_hostname);
-        signed int return_value_hasCaps$4;
-        return_value_hasCaps$4=hasCaps();
-        if(!(return_value_hasCaps$4 == 1))
+        signed int return_value_hasCaps_4;
+        return_value_hasCaps_4=hasCaps();
+        if(!(return_value_hasCaps_4 == 1))
         {
-          unsigned int return_value_getuid$3;
-          return_value_getuid$3=getuid();
-          seteuid(return_value_getuid$3);
+          unsigned int return_value_getuid_3;
+          return_value_getuid_3=getuid();
+          seteuid(return_value_getuid_3);
           thread_mutex_unlock(2);
         }
 
@@ -7026,23 +7026,23 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
     else
       break;
   }
-  signed int return_value_hasCaps$6;
-  return_value_hasCaps$6=hasCaps();
-  if(!(return_value_hasCaps$6 == 1))
+  signed int return_value_hasCaps_6;
+  return_value_hasCaps_6=hasCaps();
+  if(!(return_value_hasCaps_6 == 1))
   {
-    unsigned int return_value_getuid$5;
-    return_value_getuid$5=getuid();
-    seteuid(return_value_getuid$5);
+    unsigned int return_value_getuid_5;
+    return_value_getuid_5=getuid();
+    seteuid(return_value_getuid_5);
     thread_mutex_unlock(2);
   }
 
   host_timeout = (double)host->ping_timeout;
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(cacti_msg);
-  packet_len = (signed int)((unsigned long int)8 + return_value_strlen$7);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc((unsigned long int)packet_len);
-  packet = (unsigned char *)return_value_malloc$8;
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(cacti_msg);
+  packet_len = (signed int)((unsigned long int)8 + return_value_strlen_7);
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc((unsigned long int)packet_len);
+  packet = (unsigned char *)return_value_malloc_8;
   if(packet == ((unsigned char *)NULL))
     die("ERROR: Fatal malloc error: ping.c ping_icmp!");
 
@@ -7052,33 +7052,33 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
   icmp = (struct icmp *)packet;
   icmp->icmp_type = (unsigned char)8;
   icmp->icmp_code = (unsigned char)0;
-  signed int return_value_getpid$9;
-  return_value_getpid$9=getpid();
-  icmp->icmp_hun.ih_idseq.icd_id = (unsigned short int)(return_value_getpid$9 & 0xFFFF);
+  signed int return_value_getpid_9;
+  return_value_getpid_9=getpid();
+  icmp->icmp_hun.ih_idseq.icd_id = (unsigned short int)(return_value_getpid_9 & 0xFFFF);
   thread_mutex_lock(3);
   static unsigned int seq = (unsigned int)0;
-  unsigned int tmp_post$10 = seq;
+  unsigned int tmp_post_10 = seq;
   seq = seq + 1u;
-  icmp->icmp_hun.ih_idseq.icd_seq = (unsigned short int)tmp_post$10;
+  icmp->icmp_hun.ih_idseq.icd_seq = (unsigned short int)tmp_post_10;
   thread_mutex_unlock(3);
   icmp->icmp_cksum = (unsigned short int)0;
-  unsigned long int return_value_strlen$11;
-  return_value_strlen$11=strlen(cacti_msg);
-  memcpy((void *)(packet + (signed long int)8), (const void *)cacti_msg, return_value_strlen$11);
+  unsigned long int return_value_strlen_11;
+  return_value_strlen_11=strlen(cacti_msg);
+  memcpy((void *)(packet + (signed long int)8), (const void *)cacti_msg, return_value_strlen_11);
   icmp->icmp_cksum=get_checksum((void *)packet, packet_len);
-  unsigned long int return_value_strlen$27;
-  return_value_strlen$27=strlen(host->hostname);
-  signed int return_value_select$12;
-  signed int return_value_spine_log$13;
-  signed int return_value_spine_log$15;
-  signed int return_value_spine_log$19;
-  if(!(icmp_socket == -1) && !(return_value_strlen$27 == 0ul))
+  unsigned long int return_value_strlen_27;
+  return_value_strlen_27=strlen(host->hostname);
+  signed int return_value_select_12;
+  signed int return_value_spine_log_13;
+  signed int return_value_spine_log_15;
+  signed int return_value_spine_log_19;
+  if(!(icmp_socket == -1) && !(return_value_strlen_27 == 0ul))
   {
     snprintf(ping->ping_status, (unsigned long int)50, "down");
     snprintf(ping->ping_response, (unsigned long int)256, "default");
-    signed int return_value_init_sockaddr$23;
-    return_value_init_sockaddr$23=init_sockaddr(&fromname, new_hostname, (unsigned short int)7);
-    if(!(return_value_init_sockaddr$23 == 0))
+    signed int return_value_init_sockaddr_23;
+    return_value_init_sockaddr_23=init_sockaddr(&fromname, new_hostname, (unsigned short int)7);
+    if(!(return_value_init_sockaddr_23 == 0))
     {
       retry_count = 0;
       total_time = (double)0;
@@ -7087,7 +7087,7 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&socket_fds)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&socket_fds)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&socket_fds)->__fds_bits[(signed long int)(icmp_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&socket_fds)->__fds_bits[(signed long int)(icmp_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << icmp_socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -7121,8 +7121,8 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
 
         keep_listening:
           ;
-          return_value_select$12=select(1024, &socket_fds, (struct anonymous$8 *)(void *)0, (struct anonymous$8 *)(void *)0, &timeout);
-          return_code = (signed long int)return_value_select$12;
+          return_value_select_12=select(1024, &socket_fds, (struct anonymous_8 *)(void *)0, (struct anonymous_8 *)(void *)0, &timeout);
+          return_code = (signed long int)return_value_select_12;
           end_time=get_time_as_double();
           total_time = (end_time - begin_time) * one_thousand;
           if(!(total_time < host_timeout))
@@ -7131,14 +7131,14 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
           return_code=recvfrom(icmp_socket, (void *)socket_reply, (unsigned long int)1024, 256, (struct sockaddr *)&recvname, &fromlen);
           if(!(return_code >= 0l))
           {
-            signed int *return_value___errno_location$14;
-            return_value___errno_location$14=__errno_location();
-            if(*return_value___errno_location$14 == 4)
+            signed int *return_value___errno_location_14;
+            return_value___errno_location_14=__errno_location();
+            if(*return_value___errno_location_14 == 4)
             {
               if(set.log_level >= 5)
               {
-                return_value_spine_log$13=spine_log("Host[%i] DEBUG: Received EINTR", host->id);
-                if(!(return_value_spine_log$13 == 0))
+                return_value_spine_log_13=spine_log("Host[%i] DEBUG: Received EINTR", host->id);
+                if(!(return_value_spine_log_13 == 0))
                   (_Bool)1;
 
                 else
@@ -7161,8 +7161,8 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
             {
               if(set.log_level >= 5)
               {
-                return_value_spine_log$15=spine_log("Host[%i] DEBUG: ICMP Host Alive, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
-                if(!(return_value_spine_log$15 == 0))
+                return_value_spine_log_15=spine_log("Host[%i] DEBUG: ICMP Host Alive, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
+                if(!(return_value_spine_log_15 == 0))
                   (_Bool)1;
 
                 else
@@ -7175,22 +7175,22 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
               snprintf(ping->ping_status, (unsigned long int)50, "%.5f", total_time);
               free((void *)new_hostname);
               free((void *)packet);
-              signed int return_value_hasCaps$16;
-              return_value_hasCaps$16=hasCaps();
-              if(!(return_value_hasCaps$16 == 1))
+              signed int return_value_hasCaps_16;
+              return_value_hasCaps_16=hasCaps();
+              if(!(return_value_hasCaps_16 == 1))
               {
                 thread_mutex_lock(2);
                 seteuid((unsigned int)0);
               }
 
               close(icmp_socket);
-              signed int return_value_hasCaps$18;
-              return_value_hasCaps$18=hasCaps();
-              if(!(return_value_hasCaps$18 == 1))
+              signed int return_value_hasCaps_18;
+              return_value_hasCaps_18=hasCaps();
+              if(!(return_value_hasCaps_18 == 1))
               {
-                unsigned int return_value_getuid$17;
-                return_value_getuid$17=getuid();
-                seteuid(return_value_getuid$17);
+                unsigned int return_value_getuid_17;
+                return_value_getuid_17=getuid();
+                seteuid(return_value_getuid_17);
                 thread_mutex_unlock(2);
               }
 
@@ -7218,8 +7218,8 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
         ;
         if(set.log_level >= 5)
         {
-          return_value_spine_log$19=spine_log("Host[%i] DEBUG: Exceeded Host Timeout, Retrying", host->id);
-          if(!(return_value_spine_log$19 == 0))
+          return_value_spine_log_19=spine_log("Host[%i] DEBUG: Exceeded Host Timeout, Retrying", host->id);
+          if(!(return_value_spine_log_19 == 0))
             (_Bool)1;
 
           else
@@ -7246,22 +7246,22 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
       snprintf(ping->ping_status, (unsigned long int)50, "down");
       free((void *)new_hostname);
       free((void *)packet);
-      signed int return_value_hasCaps$20;
-      return_value_hasCaps$20=hasCaps();
-      if(!(return_value_hasCaps$20 == 1))
+      signed int return_value_hasCaps_20;
+      return_value_hasCaps_20=hasCaps();
+      if(!(return_value_hasCaps_20 == 1))
       {
         thread_mutex_lock(2);
         seteuid((unsigned int)0);
       }
 
       close(icmp_socket);
-      signed int return_value_hasCaps$22;
-      return_value_hasCaps$22=hasCaps();
-      if(!(return_value_hasCaps$22 == 1))
+      signed int return_value_hasCaps_22;
+      return_value_hasCaps_22=hasCaps();
+      if(!(return_value_hasCaps_22 == 1))
       {
-        unsigned int return_value_getuid$21;
-        return_value_getuid$21=getuid();
-        seteuid(return_value_getuid$21);
+        unsigned int return_value_getuid_21;
+        return_value_getuid_21=getuid();
+        seteuid(return_value_getuid_21);
         thread_mutex_unlock(2);
       }
 
@@ -7277,22 +7277,22 @@ extern signed int ping_icmp(struct host_struct *host, struct ping_results *ping)
     free((void *)packet);
     if(!(icmp_socket == -1))
     {
-      signed int return_value_hasCaps$24;
-      return_value_hasCaps$24=hasCaps();
-      if(!(return_value_hasCaps$24 == 1))
+      signed int return_value_hasCaps_24;
+      return_value_hasCaps_24=hasCaps();
+      if(!(return_value_hasCaps_24 == 1))
       {
         thread_mutex_lock(2);
         seteuid((unsigned int)0);
       }
 
       close(icmp_socket);
-      signed int return_value_hasCaps$26;
-      return_value_hasCaps$26=hasCaps();
-      if(!(return_value_hasCaps$26 == 1))
+      signed int return_value_hasCaps_26;
+      return_value_hasCaps_26=hasCaps();
+      if(!(return_value_hasCaps_26 == 1))
       {
-        unsigned int return_value_getuid$25;
-        return_value_getuid$25=getuid();
-        seteuid(return_value_getuid$25);
+        unsigned int return_value_getuid_25;
+        return_value_getuid_25=getuid();
+        seteuid(return_value_getuid_25);
         thread_mutex_unlock(2);
       }
 
@@ -7313,11 +7313,11 @@ extern signed int ping_snmp(struct host_struct *host, struct ping_results *ping)
   double end_time;
   double total_time;
   double one_thousand = 1000.00;
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$1=spine_log("Host[%i] DEBUG: Entering SNMP Ping", host->id);
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("Host[%i] DEBUG: Entering SNMP Ping", host->id);
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -7326,19 +7326,19 @@ extern signed int ping_snmp(struct host_struct *host, struct ping_results *ping)
 
   else
     (_Bool)0;
-  _Bool tmp_if_expr$5;
-  const char *return_value_snmp_api_errstring$2;
-  signed int return_value_spine_log$3;
+  _Bool tmp_if_expr_5;
+  const char *return_value_snmp_api_errstring_2;
+  signed int return_value_spine_log_3;
   if(!(host->snmp_session == NULL))
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(host->snmp_community);
-    if(!(return_value_strlen$4 == 0ul))
-      tmp_if_expr$5 = (_Bool)1;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(host->snmp_community);
+    if(!(return_value_strlen_4 == 0ul))
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = host->snmp_version == 3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = host->snmp_version == 3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(host->availability_method == 6)
         oid=strdup(".1.3");
@@ -7374,9 +7374,9 @@ extern signed int ping_snmp(struct host_struct *host, struct ping_results *ping)
         {
           if(set.log_level >= 3)
           {
-            return_value_snmp_api_errstring$2=snmp_api_errstring(host->snmp_status);
-            return_value_spine_log$3=spine_log("Host[%i] SNMP Ping Error: %s", host->id, return_value_snmp_api_errstring$2);
-            if(!(return_value_spine_log$3 == 0))
+            return_value_snmp_api_errstring_2=snmp_api_errstring(host->snmp_status);
+            return_value_spine_log_3=spine_log("Host[%i] SNMP Ping Error: %s", host->id, return_value_snmp_api_errstring_2);
+            if(!(return_value_spine_log_3 == 0))
               (_Bool)1;
 
             else
@@ -7430,11 +7430,11 @@ extern signed int ping_tcp(struct host_struct *host, struct ping_results *ping)
   signed int retry_count;
   signed int return_code;
   char *new_hostname;
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$1=spine_log("Host[%i] DEBUG: Entering TCP Ping", host->id);
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("Host[%i] DEBUG: Entering TCP Ping", host->id);
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -7447,11 +7447,11 @@ extern signed int ping_tcp(struct host_struct *host, struct ping_results *ping)
   host_timeout = (double)host->ping_timeout;
   if(host->ping_timeout >= 1000)
   {
-    double return_value_floor$2;
-    return_value_floor$2=floor(host_timeout / (double)1000);
-    double return_value_rint$3;
-    return_value_rint$3=rint(return_value_floor$2);
-    timeout.tv_sec = (signed long int)return_value_rint$3;
+    double return_value_floor_2;
+    return_value_floor_2=floor(host_timeout / (double)1000);
+    double return_value_rint_3;
+    return_value_rint_3=rint(return_value_floor_2);
+    timeout.tv_sec = (signed long int)return_value_rint_3;
     timeout.tv_usec = timeout.tv_sec * (signed long int)1000000 - (signed long int)(host->ping_timeout * 1000);
   }
 
@@ -7461,20 +7461,20 @@ extern signed int ping_tcp(struct host_struct *host, struct ping_results *ping)
     timeout.tv_usec = (signed long int)(host->ping_timeout * 1000);
   }
   tcp_socket=socket(2, 1, 6);
-  unsigned long int return_value_strlen$8;
-  return_value_strlen$8=strlen(host->hostname);
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
-  signed int return_value_spine_log$4;
-  if(!(tcp_socket == -1) && !(return_value_strlen$8 == 0ul))
+  unsigned long int return_value_strlen_8;
+  return_value_strlen_8=strlen(host->hostname);
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
+  signed int return_value_spine_log_4;
+  if(!(tcp_socket == -1) && !(return_value_strlen_8 == 0ul))
   {
     snprintf(ping->ping_status, (unsigned long int)50, "down");
     snprintf(ping->ping_response, (unsigned long int)256, "default");
     setsockopt(tcp_socket, 1, 20, (const void *)(char *)&timeout, (unsigned int)sizeof(struct timeval) /*16ul*/ );
     setsockopt(tcp_socket, 1, 21, (const void *)(char *)&timeout, (unsigned int)sizeof(struct timeval) /*16ul*/ );
-    signed int return_value_init_sockaddr$7;
-    return_value_init_sockaddr$7=init_sockaddr(&servername, new_hostname, (unsigned short int)host->ping_port);
-    if(!(return_value_init_sockaddr$7 == 0))
+    signed int return_value_init_sockaddr_7;
+    return_value_init_sockaddr_7=init_sockaddr(&servername, new_hostname, (unsigned short int)host->ping_port);
+    if(!(return_value_init_sockaddr_7 == 0))
     {
       retry_count = 0;
       while((_Bool)1)
@@ -7485,18 +7485,18 @@ extern signed int ping_tcp(struct host_struct *host, struct ping_results *ping)
         total_time = (end_time - begin_time) * one_thousand;
         if(return_code == -1)
         {
-          return_value___errno_location$5=__errno_location();
-          tmp_if_expr$6 = *return_value___errno_location$5 == 111 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_5=__errno_location();
+          tmp_if_expr_6 = *return_value___errno_location_5 == 111 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(return_code == 0 || tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(return_code == 0 || tmp_if_expr_6)
         {
           if(set.log_level >= 5)
           {
-            return_value_spine_log$4=spine_log("Host[%i] DEBUG: TCP Host Alive, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
-            if(!(return_value_spine_log$4 == 0))
+            return_value_spine_log_4=spine_log("Host[%i] DEBUG: TCP Host Alive, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
+            if(!(return_value_spine_log_4 == 0))
               (_Bool)1;
 
             else
@@ -7566,13 +7566,13 @@ extern signed int ping_udp(struct host_struct *host, struct ping_results *ping)
   char request[1024l];
   signed int request_len;
   signed int return_code;
-  struct anonymous$8 socket_fds;
+  struct anonymous_8 socket_fds;
   char *new_hostname;
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$1=spine_log("Host[%i] DEBUG: Entering UDP Ping", host->id);
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("Host[%i] DEBUG: Entering UDP Ping", host->id);
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -7585,27 +7585,27 @@ extern signed int ping_udp(struct host_struct *host, struct ping_results *ping)
   new_hostname=remove_tcp_udp_from_hostname(host->hostname);
   host_timeout = (double)host->ping_timeout;
   udp_socket=socket(2, 2, 17);
-  unsigned long int return_value_strlen$14;
-  return_value_strlen$14=strlen(host->hostname);
-  signed int *return_value___errno_location$8;
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
-  signed int return_value_spine_log$7;
-  signed int *return_value___errno_location$11;
-  signed int return_value_spine_log$12;
-  if(!(udp_socket == -1) && !(return_value_strlen$14 == 0ul))
+  unsigned long int return_value_strlen_14;
+  return_value_strlen_14=strlen(host->hostname);
+  signed int *return_value___errno_location_8;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
+  signed int return_value_spine_log_7;
+  signed int *return_value___errno_location_11;
+  signed int return_value_spine_log_12;
+  if(!(udp_socket == -1) && !(return_value_strlen_14 == 0ul))
   {
     snprintf(ping->ping_status, (unsigned long int)50, "down");
     snprintf(ping->ping_response, (unsigned long int)256, "default");
     setsockopt(udp_socket, 1, 20, (const void *)(char *)&timeout, (unsigned int)sizeof(struct timeval) /*16ul*/ );
     setsockopt(udp_socket, 1, 21, (const void *)(char *)&timeout, (unsigned int)sizeof(struct timeval) /*16ul*/ );
-    signed int return_value_init_sockaddr$13;
-    return_value_init_sockaddr$13=init_sockaddr(&servername, new_hostname, (unsigned short int)host->ping_port);
-    if(!(return_value_init_sockaddr$13 == 0))
+    signed int return_value_init_sockaddr_13;
+    return_value_init_sockaddr_13=init_sockaddr(&servername, new_hostname, (unsigned short int)host->ping_port);
+    if(!(return_value_init_sockaddr_13 == 0))
     {
-      signed int return_value_connect$2;
-      return_value_connect$2=connect(udp_socket, (struct sockaddr *)&servername, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_connect$2 >= 0))
+      signed int return_value_connect_2;
+      return_value_connect_2=connect(udp_socket, (struct sockaddr *)&servername, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_connect_2 >= 0))
       {
         snprintf(ping->ping_status, (unsigned long int)50, "down");
         snprintf(ping->ping_response, (unsigned long int)256, "UDP: Cannot connect to host");
@@ -7615,15 +7615,15 @@ extern signed int ping_udp(struct host_struct *host, struct ping_results *ping)
       }
 
       snprintf(request, (unsigned long int)1024, "cacti-monitoring-system");
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(request);
-      request_len = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(request);
+      request_len = (signed int)return_value_strlen_3;
       retry_count = 0;
       do
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&socket_fds)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_8) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&socket_fds)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&socket_fds)->__fds_bits[(signed long int)(udp_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&socket_fds)->__fds_bits[(signed long int)(udp_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << udp_socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -7641,11 +7641,11 @@ extern signed int ping_udp(struct host_struct *host, struct ping_results *ping)
         begin_time=get_time_as_double();
         if(host->ping_timeout >= 1000)
         {
-          double return_value_floor$4;
-          return_value_floor$4=floor(host_timeout / (double)1000);
-          double return_value_rint$5;
-          return_value_rint$5=rint(return_value_floor$4);
-          timeout.tv_sec = (signed long int)return_value_rint$5;
+          double return_value_floor_4;
+          return_value_floor_4=floor(host_timeout / (double)1000);
+          double return_value_rint_5;
+          return_value_rint_5=rint(return_value_floor_4);
+          timeout.tv_sec = (signed long int)return_value_rint_5;
           timeout.tv_usec = timeout.tv_sec * (signed long int)1000000 - (signed long int)(host->ping_timeout * 1000);
         }
 
@@ -7660,33 +7660,33 @@ extern signed int ping_udp(struct host_struct *host, struct ping_results *ping)
 
         wait_more:
           ;
-          return_code=select(1024, &socket_fds, (struct anonymous$8 *)(void *)0, (struct anonymous$8 *)(void *)0, &timeout);
+          return_code=select(1024, &socket_fds, (struct anonymous_8 *)(void *)0, (struct anonymous_8 *)(void *)0, &timeout);
           end_time=get_time_as_double();
           total_time = (end_time - begin_time) * one_thousand;
           if(return_code >= 1)
           {
             if(!((socket_fds.__fds_bits[(signed long int)(udp_socket / 8)] & (signed long int)(1UL << udp_socket % 8)) == 0l))
             {
-              signed long int return_value_read$6;
-              return_value_read$6=read(udp_socket, (void *)socket_reply, (unsigned long int)1024);
-              return_code = (signed int)return_value_read$6;
+              signed long int return_value_read_6;
+              return_value_read_6=read(udp_socket, (void *)socket_reply, (unsigned long int)1024);
+              return_code = (signed int)return_value_read_6;
               if(return_code == -1)
               {
-                return_value___errno_location$8=__errno_location();
-                if(*return_value___errno_location$8 == 104)
-                  tmp_if_expr$10 = (_Bool)1;
+                return_value___errno_location_8=__errno_location();
+                if(*return_value___errno_location_8 == 104)
+                  tmp_if_expr_10 = (_Bool)1;
 
                 else
                 {
-                  return_value___errno_location$9=__errno_location();
-                  tmp_if_expr$10 = *return_value___errno_location$9 == 111 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_9=__errno_location();
+                  tmp_if_expr_10 = *return_value___errno_location_9 == 111 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$10)
+                if(tmp_if_expr_10)
                 {
                   if(set.log_level >= 5)
                   {
-                    return_value_spine_log$7=spine_log("Host[%i] DEBUG: UDP Host Alive, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
-                    if(!(return_value_spine_log$7 == 0))
+                    return_value_spine_log_7=spine_log("Host[%i] DEBUG: UDP Host Alive, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
+                    if(!(return_value_spine_log_7 == 0))
                       (_Bool)1;
 
                     else
@@ -7712,8 +7712,8 @@ extern signed int ping_udp(struct host_struct *host, struct ping_results *ping)
           if(!(return_code == -1))
             goto __CPROVER_DUMP_L23;
 
-          return_value___errno_location$11=__errno_location();
-          if(!(*return_value___errno_location$11 == 4))
+          return_value___errno_location_11=__errno_location();
+          if(!(*return_value___errno_location_11 == 4))
             break;
 
         }
@@ -7728,8 +7728,8 @@ extern signed int ping_udp(struct host_struct *host, struct ping_results *ping)
         ;
         if(set.log_level >= 5)
         {
-          return_value_spine_log$12=spine_log("Host[%i] DEBUG: UDP Timeout, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
-          if(!(return_value_spine_log$12 == 0))
+          return_value_spine_log_12=spine_log("Host[%i] DEBUG: UDP Timeout, Try Count:%i, Time:%.4f ms", host->id, retry_count + 1, total_time);
+          if(!(return_value_spine_log_12 == 0))
             (_Bool)1;
 
           else
@@ -7825,23 +7825,23 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
   struct st_mysql_res *result;
   char **row;
   db_connect(set.dbdb, &mysql);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct host_struct) /*1192ul*/ );
-  host = (struct host_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct host_struct) /*1192ul*/ );
+  host = (struct host_struct *)return_value_malloc_1;
   if(host == ((struct host_struct *)NULL))
     die("ERROR: Fatal malloc error: poller.c host struct!");
 
   memset((void *)host, 0, sizeof(struct host_struct) /*1192ul*/ );
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct ping_results) /*868ul*/ );
-  ping = (struct ping_results *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct ping_results) /*868ul*/ );
+  ping = (struct ping_results *)return_value_malloc_2;
   if(ping == ((struct ping_results *)NULL))
     die("ERROR: Fatal malloc error: poller.c ping struct!");
 
   memset((void *)ping, 0, sizeof(struct ping_results) /*868ul*/ );
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct host_reindex_struct) /*624ul*/ );
-  reindex = (struct host_reindex_struct *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct host_reindex_struct) /*624ul*/ );
+  reindex = (struct host_reindex_struct *)return_value_malloc_3;
   if(reindex == ((struct host_reindex_struct *)NULL))
     die("ERROR: Fatal malloc error: poller.c reindex poll!");
 
@@ -7882,23 +7882,23 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
   snprintf(ping->ping_response, (unsigned long int)256, "Ping not performed due to setting.");
   snprintf(ping->snmp_status, (unsigned long int)50, "down");
   snprintf(ping->snmp_response, (unsigned long int)256, "SNMP not performed due to setting or ping result");
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  unsigned long int return_value_strlen$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$13;
-  unsigned long int return_value_strlen$12;
-  _Bool tmp_if_expr$14;
-  signed int return_value_spine_log$10;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  unsigned long int return_value_strlen_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_13;
+  unsigned long int return_value_strlen_12;
+  _Bool tmp_if_expr_14;
+  signed int return_value_spine_log_10;
   if(!(host_id == 0))
   {
     result=db_query(&mysql, query2);
     if(!(result == ((struct st_mysql_res *)NULL)))
     {
-      unsigned long long int return_value_mysql_num_rows$4;
-      return_value_mysql_num_rows$4=mysql_num_rows(result);
-      num_rows = (signed int)return_value_mysql_num_rows$4;
+      unsigned long long int return_value_mysql_num_rows_4;
+      return_value_mysql_num_rows_4=mysql_num_rows(result);
+      num_rows = (signed int)return_value_mysql_num_rows_4;
       if(!(num_rows == 1))
       {
         spine_log("Host[%i] TH[%i] ERROR: Multiple Hosts with Host ID", host_id, host_thread);
@@ -8035,11 +8035,11 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
           host->availability=atof(row[(signed long int)29]);
 
         if(host->max_oids == 0)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = host->max_oids > 100 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = host->max_oids > 100 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           spine_log("Host[%i] TH[%i] WARNING: Max OIDS is out of range with value of '%i'.  Resetting to default of 5", host_id, host_thread, host->max_oids);
           host->max_oids = 5;
@@ -8047,49 +8047,49 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
         mysql_free_result(result);
         if(host->snmp_version >= 1)
-          tmp_if_expr$6 = host->snmp_version <= 2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = host->snmp_version <= 2 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          return_value_strlen$7=strlen(host->snmp_community);
-          tmp_if_expr$8 = return_value_strlen$7 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_7=strlen(host->snmp_community);
+          tmp_if_expr_8 = return_value_strlen_7 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = host->snmp_version == 3 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = host->snmp_version == 3 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
           host->snmp_session=snmp_host_init(host->id, host->hostname, host->snmp_version, host->snmp_community, host->snmp_username, host->snmp_password, host->snmp_auth_protocol, host->snmp_priv_passphrase, host->snmp_priv_protocol, host->snmp_context, host->snmp_port, host->snmp_timeout);
 
         else
           host->snmp_session = (void *)0;
         if(host->availability_method == 2)
         {
-          return_value_strlen$12=strlen(host->snmp_community);
-          tmp_if_expr$13 = return_value_strlen$12 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_12=strlen(host->snmp_community);
+          tmp_if_expr_13 = return_value_strlen_12 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
-          tmp_if_expr$14 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
+          tmp_if_expr_14 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
         {
           host->ignore_host = 0;
           update_host_status(3, host, ping, host->availability_method);
           if(set.log_level >= 3)
           {
-            return_value_spine_log$10=spine_log("Host[%i] TH[%i] No host availability check possible for '%s'", host->id, host_thread, (const void *)host->hostname);
-            if(!(return_value_spine_log$10 == 0))
+            return_value_spine_log_10=spine_log("Host[%i] TH[%i] No host availability check possible for '%s'", host->id, host_thread, (const void *)host->hostname);
+            if(!(return_value_spine_log_10 == 0))
               (_Bool)1;
 
             else
@@ -8102,9 +8102,9 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
         else
         {
-          signed int return_value_ping_host$11;
-          return_value_ping_host$11=ping_host(host, ping);
-          if(return_value_ping_host$11 == 3)
+          signed int return_value_ping_host_11;
+          return_value_ping_host_11=ping_host(host, ping);
+          if(return_value_ping_host_11 == 3)
           {
             host->ignore_host = 0;
             if(host_thread == 1)
@@ -8150,47 +8150,47 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
     host->snmp_session = (void *)0;
     host->ignore_host = 0;
   }
-  signed int return_value_spine_log$16;
-  signed int return_value_spine_log$18;
-  signed int return_value_spine_log$19;
-  signed int return_value_spine_log$21;
-  char *return_value_exec_poll$23;
-  signed int return_value_spine_log$24;
-  char *return_value_php_cmd$25;
-  signed int return_value_spine_log$26;
-  void *return_value_malloc$27;
-  signed int return_value_snmp_count$28;
-  signed int return_value_spine_log$29;
-  void *return_value_malloc$30;
-  char *return_value_exec_poll$31;
-  signed int return_value_char_count$32;
-  signed int return_value_spine_log$33;
-  void *return_value_malloc$34;
-  _Bool tmp_if_expr$50;
-  _Bool tmp_if_expr$52;
-  signed int return_value_strcasecmp$51;
-  signed int return_value_strcmp$47;
-  _Bool tmp_if_expr$49;
-  signed int return_value_strcmp$48;
-  signed int return_value_spine_log$36;
-  signed int return_value_strcmp$43;
-  _Bool tmp_if_expr$46;
-  signed long long int return_value_strtoll$44;
-  signed long long int return_value_strtoll$45;
-  signed int return_value_spine_log$37;
-  signed int return_value_strcmp$42;
-  signed long long int return_value_strtoll$39;
-  signed long long int return_value_strtoll$40;
-  signed int return_value_spine_log$38;
-  _Bool tmp_if_expr$58;
-  signed int return_value_strcmp$57;
-  _Bool tmp_if_expr$60;
-  signed int return_value_strcmp$59;
-  signed int return_value_strcmp$54;
-  _Bool tmp_if_expr$56;
-  signed int return_value_strcmp$55;
-  signed int return_value_spine_log$53;
-  signed int return_value_spine_log$61;
+  signed int return_value_spine_log_16;
+  signed int return_value_spine_log_18;
+  signed int return_value_spine_log_19;
+  signed int return_value_spine_log_21;
+  char *return_value_exec_poll_23;
+  signed int return_value_spine_log_24;
+  char *return_value_php_cmd_25;
+  signed int return_value_spine_log_26;
+  void *return_value_malloc_27;
+  signed int return_value_snmp_count_28;
+  signed int return_value_spine_log_29;
+  void *return_value_malloc_30;
+  char *return_value_exec_poll_31;
+  signed int return_value_char_count_32;
+  signed int return_value_spine_log_33;
+  void *return_value_malloc_34;
+  _Bool tmp_if_expr_50;
+  _Bool tmp_if_expr_52;
+  signed int return_value_strcasecmp_51;
+  signed int return_value_strcmp_47;
+  _Bool tmp_if_expr_49;
+  signed int return_value_strcmp_48;
+  signed int return_value_spine_log_36;
+  signed int return_value_strcmp_43;
+  _Bool tmp_if_expr_46;
+  signed long long int return_value_strtoll_44;
+  signed long long int return_value_strtoll_45;
+  signed int return_value_spine_log_37;
+  signed int return_value_strcmp_42;
+  signed long long int return_value_strtoll_39;
+  signed long long int return_value_strtoll_40;
+  signed int return_value_spine_log_38;
+  _Bool tmp_if_expr_58;
+  signed int return_value_strcmp_57;
+  _Bool tmp_if_expr_60;
+  signed int return_value_strcmp_59;
+  signed int return_value_strcmp_54;
+  _Bool tmp_if_expr_56;
+  signed int return_value_strcmp_55;
+  signed int return_value_spine_log_53;
+  signed int return_value_spine_log_61;
   if(host->ignore_host == 0)
   {
     if(!(host_id == 0))
@@ -8198,15 +8198,15 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
       result=db_query(&mysql, query4);
       if(!(result == ((struct st_mysql_res *)NULL)))
       {
-        unsigned long long int return_value_mysql_num_rows$15;
-        return_value_mysql_num_rows$15=mysql_num_rows(result);
-        num_rows = (signed int)return_value_mysql_num_rows$15;
+        unsigned long long int return_value_mysql_num_rows_15;
+        return_value_mysql_num_rows_15=mysql_num_rows(result);
+        num_rows = (signed int)return_value_mysql_num_rows_15;
         if(num_rows >= 1)
         {
           if(set.log_level >= 5)
           {
-            return_value_spine_log$16=spine_log("Host[%i] TH[%i] RECACHE: Processing %i items in the auto reindex cache for '%s'", host->id, host_thread, num_rows, (const void *)host->hostname);
-            if(!(return_value_spine_log$16 == 0))
+            return_value_spine_log_16=spine_log("Host[%i] TH[%i] RECACHE: Processing %i items in the auto reindex cache for '%s'", host->id, host_thread, num_rows, (const void *)host->hostname);
+            if(!(return_value_spine_log_16 == 0))
               (_Bool)1;
 
             else
@@ -8267,17 +8267,17 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
                   if(reindex_err == 0)
                   {
-                    char *return_value_strstr$22;
-                    return_value_strstr$22=strstr(reindex->arg1, ".1.3.6.1.2.1.1.3.0");
-                    if(!(return_value_strstr$22 == ((char *)NULL)))
+                    char *return_value_strstr_22;
+                    return_value_strstr_22=strstr(reindex->arg1, ".1.3.6.1.2.1.1.3.0");
+                    if(!(return_value_strstr_22 == ((char *)NULL)))
                     {
-                      unsigned long int return_value_strlen$20;
-                      return_value_strlen$20=strlen(sysUptime);
-                      if(return_value_strlen$20 >= 1ul)
+                      unsigned long int return_value_strlen_20;
+                      return_value_strlen_20=strlen(sysUptime);
+                      if(return_value_strlen_20 >= 1ul)
                       {
-                        void *return_value_malloc$17;
-                        return_value_malloc$17=malloc((unsigned long int)1024);
-                        poll_result = (char *)return_value_malloc$17;
+                        void *return_value_malloc_17;
+                        return_value_malloc_17=malloc((unsigned long int)1024);
+                        poll_result = (char *)return_value_malloc_17;
                         if(poll_result == ((char *)NULL))
                           die("ERROR: Fatal malloc error: poller.c poll_result");
 
@@ -8285,8 +8285,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                         snprintf(poll_result, (unsigned long int)1024, "%s", (const void *)sysUptime);
                         if(set.log_level >= 3)
                         {
-                          return_value_spine_log$18=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] OID: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
-                          if(!(return_value_spine_log$18 == 0))
+                          return_value_spine_log_18=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] OID: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
+                          if(!(return_value_spine_log_18 == 0))
                             (_Bool)1;
 
                           else
@@ -8303,8 +8303,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                         snprintf(sysUptime, (unsigned long int)1024, "%s", poll_result);
                         if(set.log_level >= 3)
                         {
-                          return_value_spine_log$19=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] OID: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
-                          if(!(return_value_spine_log$19 == 0))
+                          return_value_spine_log_19=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] OID: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
+                          if(!(return_value_spine_log_19 == 0))
                             (_Bool)1;
 
                           else
@@ -8321,8 +8321,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                       poll_result=snmp_get(host, reindex->arg1);
                       if(set.log_level >= 3)
                       {
-                        return_value_spine_log$21=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] OID: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
-                        if(!(return_value_spine_log$21 == 0))
+                        return_value_spine_log_21=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] OID: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
+                        if(!(return_value_spine_log_21 == 0))
                           (_Bool)1;
 
                         else
@@ -8340,12 +8340,12 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 }
                 case 1:
                 {
-                  return_value_exec_poll$23=exec_poll(host, reindex->arg1);
-                  poll_result=trim(return_value_exec_poll$23);
+                  return_value_exec_poll_23=exec_poll(host, reindex->arg1);
+                  poll_result=trim(return_value_exec_poll_23);
                   if(set.log_level >= 3)
                   {
-                    return_value_spine_log$24=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] CMD: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
-                    if(!(return_value_spine_log$24 == 0))
+                    return_value_spine_log_24=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] CMD: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
+                    if(!(return_value_spine_log_24 == 0))
                       (_Bool)1;
 
                     else
@@ -8359,12 +8359,12 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 case 2:
                 {
                   php_process=php_get_process();
-                  return_value_php_cmd$25=php_cmd(reindex->arg1, php_process);
-                  poll_result=trim(return_value_php_cmd$25);
+                  return_value_php_cmd_25=php_cmd(reindex->arg1, php_process);
+                  poll_result=trim(return_value_php_cmd_25);
                   if(set.log_level >= 3)
                   {
-                    return_value_spine_log$26=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] SERVER: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
-                    if(!(return_value_spine_log$26 == 0))
+                    return_value_spine_log_26=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] SERVER: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
+                    if(!(return_value_spine_log_26 == 0))
                       (_Bool)1;
 
                     else
@@ -8377,18 +8377,18 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 }
                 case 10:
                 {
-                  return_value_malloc$27=malloc((unsigned long int)1024);
-                  poll_result = (char *)return_value_malloc$27;
+                  return_value_malloc_27=malloc((unsigned long int)1024);
+                  poll_result = (char *)return_value_malloc_27;
                   if(poll_result == ((char *)NULL))
                     die("ERROR: Fatal malloc error: poller.c poll_result");
 
                   poll_result[(signed long int)0] = (char)0;
-                  return_value_snmp_count$28=snmp_count(host, reindex->arg1);
-                  snprintf(poll_result, (unsigned long int)1024, "%d", return_value_snmp_count$28);
+                  return_value_snmp_count_28=snmp_count(host, reindex->arg1);
+                  snprintf(poll_result, (unsigned long int)1024, "%d", return_value_snmp_count_28);
                   if(set.log_level >= 3)
                   {
-                    return_value_spine_log$29=spine_log("Host[%i] TH[%i] Recache DataQuery[%i]: OID_COUNT: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
-                    if(!(return_value_spine_log$29 == 0))
+                    return_value_spine_log_29=spine_log("Host[%i] TH[%i] Recache DataQuery[%i]: OID_COUNT: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
+                    if(!(return_value_spine_log_29 == 0))
                       (_Bool)1;
 
                     else
@@ -8401,19 +8401,19 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 }
                 case 11:
                 {
-                  return_value_malloc$30=malloc((unsigned long int)1024);
-                  poll_result = (char *)return_value_malloc$30;
+                  return_value_malloc_30=malloc((unsigned long int)1024);
+                  poll_result = (char *)return_value_malloc_30;
                   if(poll_result == ((char *)NULL))
                     die("ERROR: Fatal malloc error: poller.c poll_result");
 
                   poll_result[(signed long int)0] = (char)0;
-                  return_value_exec_poll$31=exec_poll(host, reindex->arg1);
-                  return_value_char_count$32=char_count(return_value_exec_poll$31, 10);
-                  snprintf(poll_result, (unsigned long int)1024, "%d", return_value_char_count$32);
+                  return_value_exec_poll_31=exec_poll(host, reindex->arg1);
+                  return_value_char_count_32=char_count(return_value_exec_poll_31, 10);
+                  snprintf(poll_result, (unsigned long int)1024, "%d", return_value_char_count_32);
                   if(set.log_level >= 3)
                   {
-                    return_value_spine_log$33=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] CMD Count: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
-                    if(!(return_value_spine_log$33 == 0))
+                    return_value_spine_log_33=spine_log("Host[%i] TH[%i] Recache DataQuery[%i] CMD Count: %s, output: %s", host->id, host_thread, reindex->data_query_id, (const void *)reindex->arg1, poll_result);
+                    if(!(return_value_spine_log_33 == 0))
                       (_Bool)1;
 
                     else
@@ -8426,8 +8426,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 }
                 case 12:
                 {
-                  return_value_malloc$34=malloc((unsigned long int)1024);
-                  poll_result = (char *)return_value_malloc$34;
+                  return_value_malloc_34=malloc((unsigned long int)1024);
+                  poll_result = (char *)return_value_malloc_34;
                   if(poll_result == ((char *)NULL))
                     die("ERROR: Fatal malloc error: poller.c poll_result");
 
@@ -8440,46 +8440,46 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
               }
               if(reindex_err == 0)
               {
-                void *return_value_malloc$35;
-                return_value_malloc$35=malloc((unsigned long int)1024);
-                query3 = (char *)return_value_malloc$35;
+                void *return_value_malloc_35;
+                return_value_malloc_35=malloc((unsigned long int)1024);
+                query3 = (char *)return_value_malloc_35;
                 if(query3 == ((char *)NULL))
                   die("ERROR: Fatal malloc error: poller.c reindex insert!");
 
                 query3[(signed long int)0] = (char)0;
                 if((signed int)*poll_result == 85)
-                  tmp_if_expr$50 = (signed int)poll_result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_50 = (signed int)poll_result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$50 = (_Bool)0;
-                if(tmp_if_expr$50)
-                  tmp_if_expr$52 = (_Bool)1;
+                  tmp_if_expr_50 = (_Bool)0;
+                if(tmp_if_expr_50)
+                  tmp_if_expr_52 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcasecmp$51=strcasecmp(poll_result, "No Such Instance");
-                  tmp_if_expr$52 = return_value_strcasecmp$51 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcasecmp_51=strcasecmp(poll_result, "No Such Instance");
+                  tmp_if_expr_52 = return_value_strcasecmp_51 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$52)
+                if(tmp_if_expr_52)
                   assert_fail = 0;
 
                 else
                 {
-                  return_value_strcmp$47=strcmp(reindex->op, "=");
-                  if(return_value_strcmp$47 == 0)
+                  return_value_strcmp_47=strcmp(reindex->op, "=");
+                  if(return_value_strcmp_47 == 0)
                   {
-                    return_value_strcmp$48=strcmp(reindex->assert_value, poll_result);
-                    tmp_if_expr$49 = return_value_strcmp$48 != 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcmp_48=strcmp(reindex->assert_value, poll_result);
+                    tmp_if_expr_49 = return_value_strcmp_48 != 0 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$49 = (_Bool)0;
-                  if(tmp_if_expr$49)
+                    tmp_if_expr_49 = (_Bool)0;
+                  if(tmp_if_expr_49)
                   {
                     if(set.log_level >= 4)
                     {
-                      return_value_spine_log$36=spine_log("Host[%i] TH[%i] ASSERT: '%s' .eq. '%s' failed. Recaching host '%s', data query #%i", host->id, host_thread, (const void *)reindex->assert_value, poll_result, (const void *)host->hostname, reindex->data_query_id);
-                      if(!(return_value_spine_log$36 == 0))
+                      return_value_spine_log_36=spine_log("Host[%i] TH[%i] ASSERT: '%s' .eq. '%s' failed. Recaching host '%s', data query #%i", host->id, host_thread, (const void *)reindex->assert_value, poll_result, (const void *)host->hostname, reindex->data_query_id);
+                      if(!(return_value_spine_log_36 == 0))
                         (_Bool)1;
 
                       else
@@ -8500,22 +8500,22 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
                   else
                   {
-                    return_value_strcmp$43=strcmp(reindex->op, ">");
-                    if(return_value_strcmp$43 == 0)
+                    return_value_strcmp_43=strcmp(reindex->op, ">");
+                    if(return_value_strcmp_43 == 0)
                     {
-                      return_value_strtoll$44=strtoll(reindex->assert_value, (char **)(void *)0, 10);
-                      return_value_strtoll$45=strtoll(poll_result, (char **)(void *)0, 10);
-                      tmp_if_expr$46 = return_value_strtoll$44 < return_value_strtoll$45 ? (_Bool)1 : (_Bool)0;
+                      return_value_strtoll_44=strtoll(reindex->assert_value, (char **)(void *)0, 10);
+                      return_value_strtoll_45=strtoll(poll_result, (char **)(void *)0, 10);
+                      tmp_if_expr_46 = return_value_strtoll_44 < return_value_strtoll_45 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$46 = (_Bool)0;
-                    if(tmp_if_expr$46)
+                      tmp_if_expr_46 = (_Bool)0;
+                    if(tmp_if_expr_46)
                     {
                       if(set.log_level >= 4)
                       {
-                        return_value_spine_log$37=spine_log("Host[%i] TH[%i] ASSERT: '%s' .gt. '%s' failed. Recaching host '%s', data query #%i", host->id, host_thread, (const void *)reindex->assert_value, poll_result, (const void *)host->hostname, reindex->data_query_id);
-                        if(!(return_value_spine_log$37 == 0))
+                        return_value_spine_log_37=spine_log("Host[%i] TH[%i] ASSERT: '%s' .gt. '%s' failed. Recaching host '%s', data query #%i", host->id, host_thread, (const void *)reindex->assert_value, poll_result, (const void *)host->hostname, reindex->data_query_id);
+                        if(!(return_value_spine_log_37 == 0))
                           (_Bool)1;
 
                         else
@@ -8536,21 +8536,21 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
                     else
                     {
-                      return_value_strcmp$42=strcmp(reindex->assert_value, "0");
-                      if(!(return_value_strcmp$42 == 0))
+                      return_value_strcmp_42=strcmp(reindex->assert_value, "0");
+                      if(!(return_value_strcmp_42 == 0))
                       {
-                        signed int return_value_strcmp$41;
-                        return_value_strcmp$41=strcmp(reindex->op, "<");
-                        if(return_value_strcmp$41 == 0)
+                        signed int return_value_strcmp_41;
+                        return_value_strcmp_41=strcmp(reindex->op, "<");
+                        if(return_value_strcmp_41 == 0)
                         {
-                          return_value_strtoll$39=strtoll(reindex->assert_value, (char **)(void *)0, 10);
-                          return_value_strtoll$40=strtoll(poll_result, (char **)(void *)0, 10);
-                          if(!(return_value_strtoll$40 >= return_value_strtoll$39))
+                          return_value_strtoll_39=strtoll(reindex->assert_value, (char **)(void *)0, 10);
+                          return_value_strtoll_40=strtoll(poll_result, (char **)(void *)0, 10);
+                          if(!(return_value_strtoll_40 >= return_value_strtoll_39))
                           {
                             if(set.log_level >= 4)
                             {
-                              return_value_spine_log$38=spine_log("Host[%i] TH[%i] ASSERT: '%s' .lt. '%s' failed. Recaching host '%s', data query #%i", host->id, host_thread, (const void *)reindex->assert_value, poll_result, (const void *)host->hostname, reindex->data_query_id);
-                              if(!(return_value_spine_log$38 == 0))
+                              return_value_spine_log_38=spine_log("Host[%i] TH[%i] ASSERT: '%s' .lt. '%s' failed. Recaching host '%s', data query #%i", host->id, host_thread, (const void *)reindex->assert_value, poll_result, (const void *)host->hostname, reindex->data_query_id);
+                              if(!(return_value_spine_log_38 == 0))
                                 (_Bool)1;
 
                               else
@@ -8577,22 +8577,22 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                   }
                 }
                 if(!(assert_fail == 0))
-                  tmp_if_expr$58 = (_Bool)1;
+                  tmp_if_expr_58 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$57=strcmp(reindex->op, ">");
-                  tmp_if_expr$58 = !(return_value_strcmp$57 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_57=strcmp(reindex->op, ">");
+                  tmp_if_expr_58 = !(return_value_strcmp_57 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$58)
-                  tmp_if_expr$60 = (_Bool)1;
+                if(tmp_if_expr_58)
+                  tmp_if_expr_60 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$59=strcmp(reindex->op, "<");
-                  tmp_if_expr$60 = !(return_value_strcmp$59 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_59=strcmp(reindex->op, "<");
+                  tmp_if_expr_60 = !(return_value_strcmp_59 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$60)
+                if(tmp_if_expr_60)
                 {
                   if(host_thread == 1)
                   {
@@ -8602,22 +8602,22 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
                   if(!(assert_fail == 0))
                   {
-                    return_value_strcmp$54=strcmp(reindex->op, "<");
-                    if(return_value_strcmp$54 == 0)
-                      tmp_if_expr$56 = (_Bool)1;
+                    return_value_strcmp_54=strcmp(reindex->op, "<");
+                    if(return_value_strcmp_54 == 0)
+                      tmp_if_expr_56 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcmp$55=strcmp(reindex->arg1, ".1.3.6.1.2.1.1.3.0");
-                      tmp_if_expr$56 = !(return_value_strcmp$55 != 0) ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_55=strcmp(reindex->arg1, ".1.3.6.1.2.1.1.3.0");
+                      tmp_if_expr_56 = !(return_value_strcmp_55 != 0) ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$56)
+                    if(tmp_if_expr_56)
                     {
                       spike_kill = 1;
                       if(set.log_level >= 3)
                       {
-                        return_value_spine_log$53=spine_log("Host[%i] TH[%i] NOTICE: Spike Kill in Effect for '%s'", host_id, host_thread, (const void *)host->hostname);
-                        if(!(return_value_spine_log$53 == 0))
+                        return_value_spine_log_53=spine_log("Host[%i] TH[%i] NOTICE: Spike Kill in Effect for '%s'", host_id, host_thread, (const void *)host->hostname);
+                        if(!(return_value_spine_log_53 == 0))
                           (_Bool)1;
 
                         else
@@ -8645,8 +8645,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
         else
           if(set.log_level >= 4)
           {
-            return_value_spine_log$61=spine_log("Host[%i] TH[%i] Host has no information for recache.", host->id, host_thread);
-            if(!(return_value_spine_log$61 == 0))
+            return_value_spine_log_61=spine_log("Host[%i] TH[%i] Host has no information for recache.", host->id, host_thread);
+            if(!(return_value_spine_log_61 == 0))
               (_Bool)1;
 
             else
@@ -8676,16 +8676,16 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
     result=db_query(&mysql, query9);
     if(!(result == ((struct st_mysql_res *)NULL)))
     {
-      unsigned long long int return_value_mysql_num_rows$62;
-      return_value_mysql_num_rows$62=mysql_num_rows(result);
-      num_snmp_agents = (signed int)return_value_mysql_num_rows$62;
+      unsigned long long int return_value_mysql_num_rows_62;
+      return_value_mysql_num_rows_62=mysql_num_rows(result);
+      num_snmp_agents = (signed int)return_value_mysql_num_rows_62;
       mysql_free_result(result);
       result=db_query(&mysql, query1);
       if(!(result == ((struct st_mysql_res *)NULL)))
       {
-        unsigned long long int return_value_mysql_num_rows$63;
-        return_value_mysql_num_rows$63=mysql_num_rows(result);
-        num_rows = (signed int)return_value_mysql_num_rows$63;
+        unsigned long long int return_value_mysql_num_rows_63;
+        return_value_mysql_num_rows_63=mysql_num_rows(result);
+        num_rows = (signed int)return_value_mysql_num_rows_63;
       }
 
       else
@@ -8701,16 +8701,16 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
     result=db_query(&mysql, query10);
     if(!(result == ((struct st_mysql_res *)NULL)))
     {
-      unsigned long long int return_value_mysql_num_rows$64;
-      return_value_mysql_num_rows$64=mysql_num_rows(result);
-      num_snmp_agents = (signed int)return_value_mysql_num_rows$64;
+      unsigned long long int return_value_mysql_num_rows_64;
+      return_value_mysql_num_rows_64=mysql_num_rows(result);
+      num_snmp_agents = (signed int)return_value_mysql_num_rows_64;
       mysql_free_result(result);
       result=db_query(&mysql, query5);
       if(!(result == ((struct st_mysql_res *)NULL)))
       {
-        unsigned long long int return_value_mysql_num_rows$65;
-        return_value_mysql_num_rows$65=mysql_num_rows(result);
-        num_rows = (signed int)return_value_mysql_num_rows$65;
+        unsigned long long int return_value_mysql_num_rows_65;
+        return_value_mysql_num_rows_65=mysql_num_rows(result);
+        num_rows = (signed int)return_value_mysql_num_rows_65;
       }
 
       else
@@ -8720,74 +8720,74 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
     else
       spine_log("Host[%i] TH[%i] ERROR: Agent Count Query Returned Null Result!", host->id, host_thread);
   }
-  signed int return_value_spine_log$68;
-  _Bool tmp_if_expr$82;
-  _Bool tmp_if_expr$85;
-  _Bool tmp_if_expr$84;
-  signed int return_value_strcmp$83;
-  _Bool tmp_if_expr$98;
-  _Bool tmp_if_expr$87;
-  signed int return_value_strcmp$86;
-  _Bool tmp_if_expr$89;
-  signed int return_value_strcmp$88;
-  _Bool tmp_if_expr$91;
-  signed int return_value_strcmp$90;
-  _Bool tmp_if_expr$93;
-  signed int return_value_strcmp$92;
-  _Bool tmp_if_expr$95;
-  signed int return_value_strcmp$94;
-  _Bool tmp_if_expr$97;
-  signed int return_value_strcmp$96;
-  _Bool tmp_if_expr$80;
-  signed int return_value_is_numeric$77;
-  _Bool tmp_if_expr$79;
-  signed int return_value_is_multipart_output$78;
-  signed int return_value_is_hexadecimal$76;
-  signed int return_value_strcasecmp$73;
-  _Bool tmp_if_expr$75;
-  signed int return_value_strcasecmp$74;
-  signed int return_value_spine_log$81;
-  _Bool tmp_if_expr$110;
-  signed int return_value_is_numeric$107;
-  _Bool tmp_if_expr$109;
-  signed int return_value_is_multipart_output$108;
-  signed int return_value_is_hexadecimal$106;
-  signed int return_value_strcasecmp$103;
-  _Bool tmp_if_expr$105;
-  signed int return_value_strcasecmp$104;
-  signed int return_value_spine_log$111;
-  char *return_value_strstr$112;
-  _Bool tmp_if_expr$122;
-  signed int return_value_is_numeric$118;
-  _Bool tmp_if_expr$121;
-  char *return_value_trim$119;
-  signed int return_value_is_multipart_output$120;
-  signed int return_value_is_hexadecimal$117;
-  signed int return_value_spine_log$123;
-  char *return_value_strstr$124;
-  _Bool tmp_if_expr$134;
-  signed int return_value_is_numeric$130;
-  _Bool tmp_if_expr$133;
-  char *return_value_trim$131;
-  signed int return_value_is_multipart_output$132;
-  signed int return_value_is_hexadecimal$129;
-  signed int return_value_spine_log$135;
-  signed int return_value_strcasecmp$136;
-  _Bool tmp_if_expr$148;
-  signed int return_value_is_numeric$145;
-  _Bool tmp_if_expr$147;
-  signed int return_value_is_multipart_output$146;
-  signed int return_value_is_hexadecimal$144;
-  signed int return_value_strcasecmp$141;
-  _Bool tmp_if_expr$143;
-  signed int return_value_strcasecmp$142;
-  signed int return_value_spine_log$149;
-  char *return_value_strstr$150;
+  signed int return_value_spine_log_68;
+  _Bool tmp_if_expr_82;
+  _Bool tmp_if_expr_85;
+  _Bool tmp_if_expr_84;
+  signed int return_value_strcmp_83;
+  _Bool tmp_if_expr_98;
+  _Bool tmp_if_expr_87;
+  signed int return_value_strcmp_86;
+  _Bool tmp_if_expr_89;
+  signed int return_value_strcmp_88;
+  _Bool tmp_if_expr_91;
+  signed int return_value_strcmp_90;
+  _Bool tmp_if_expr_93;
+  signed int return_value_strcmp_92;
+  _Bool tmp_if_expr_95;
+  signed int return_value_strcmp_94;
+  _Bool tmp_if_expr_97;
+  signed int return_value_strcmp_96;
+  _Bool tmp_if_expr_80;
+  signed int return_value_is_numeric_77;
+  _Bool tmp_if_expr_79;
+  signed int return_value_is_multipart_output_78;
+  signed int return_value_is_hexadecimal_76;
+  signed int return_value_strcasecmp_73;
+  _Bool tmp_if_expr_75;
+  signed int return_value_strcasecmp_74;
+  signed int return_value_spine_log_81;
+  _Bool tmp_if_expr_110;
+  signed int return_value_is_numeric_107;
+  _Bool tmp_if_expr_109;
+  signed int return_value_is_multipart_output_108;
+  signed int return_value_is_hexadecimal_106;
+  signed int return_value_strcasecmp_103;
+  _Bool tmp_if_expr_105;
+  signed int return_value_strcasecmp_104;
+  signed int return_value_spine_log_111;
+  char *return_value_strstr_112;
+  _Bool tmp_if_expr_122;
+  signed int return_value_is_numeric_118;
+  _Bool tmp_if_expr_121;
+  char *return_value_trim_119;
+  signed int return_value_is_multipart_output_120;
+  signed int return_value_is_hexadecimal_117;
+  signed int return_value_spine_log_123;
+  char *return_value_strstr_124;
+  _Bool tmp_if_expr_134;
+  signed int return_value_is_numeric_130;
+  _Bool tmp_if_expr_133;
+  char *return_value_trim_131;
+  signed int return_value_is_multipart_output_132;
+  signed int return_value_is_hexadecimal_129;
+  signed int return_value_spine_log_135;
+  signed int return_value_strcasecmp_136;
+  _Bool tmp_if_expr_148;
+  signed int return_value_is_numeric_145;
+  _Bool tmp_if_expr_147;
+  signed int return_value_is_multipart_output_146;
+  signed int return_value_is_hexadecimal_144;
+  signed int return_value_strcasecmp_141;
+  _Bool tmp_if_expr_143;
+  signed int return_value_strcasecmp_142;
+  signed int return_value_spine_log_149;
+  char *return_value_strstr_150;
   if(num_rows >= 1)
   {
-    void *return_value_calloc$66;
-    return_value_calloc$66=calloc((unsigned long int)num_rows, sizeof(struct target_struct) /*3372ul*/ );
-    poller_items = (struct target_struct *)return_value_calloc$66;
+    void *return_value_calloc_66;
+    return_value_calloc_66=calloc((unsigned long int)num_rows, sizeof(struct target_struct) /*3372ul*/ );
+    poller_items = (struct target_struct *)return_value_calloc_66;
     i = 0;
     do
     {
@@ -8881,14 +8881,14 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
     }
     while((_Bool)1);
     mysql_free_result(result);
-    void *return_value_calloc$67;
-    return_value_calloc$67=calloc((unsigned long int)host->max_oids, sizeof(struct snmp_oids) /*1540ul*/ );
-    snmp_oids = (struct snmp_oids *)return_value_calloc$67;
+    void *return_value_calloc_67;
+    return_value_calloc_67=calloc((unsigned long int)host->max_oids, sizeof(struct snmp_oids) /*1540ul*/ );
+    snmp_oids = (struct snmp_oids *)return_value_calloc_67;
     memset((void *)snmp_oids, 0, sizeof(struct snmp_oids) /*1540ul*/  * (unsigned long int)host->max_oids);
     if(set.log_level >= 3)
     {
-      return_value_spine_log$68=spine_log("Host[%i] TH[%i] NOTE: There are '%i' Polling Items for this Host", host_id, host_thread, num_rows);
-      if(!(return_value_spine_log$68 == 0))
+      return_value_spine_log_68=spine_log("Host[%i] TH[%i] NOTE: There are '%i' Polling Items for this Host", host_id, host_thread, num_rows);
+      if(!(return_value_spine_log_68 == 0))
         (_Bool)1;
 
       else
@@ -8930,81 +8930,81 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
           }
 
           if(!(last_snmp_port == (poller_items + (signed long int)i)->snmp_port))
-            tmp_if_expr$82 = (_Bool)1;
+            tmp_if_expr_82 = (_Bool)1;
 
           else
-            tmp_if_expr$82 = last_snmp_version != (poller_items + (signed long int)i)->snmp_version ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$82)
-            tmp_if_expr$85 = (_Bool)1;
+            tmp_if_expr_82 = last_snmp_version != (poller_items + (signed long int)i)->snmp_version ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_82)
+            tmp_if_expr_85 = (_Bool)1;
 
           else
           {
             if(!((poller_items + (signed long int)i)->snmp_version >= 3))
             {
-              return_value_strcmp$83=strcmp(last_snmp_community, (poller_items + (signed long int)i)->snmp_community);
-              tmp_if_expr$84 = !(return_value_strcmp$83 == 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_83=strcmp(last_snmp_community, (poller_items + (signed long int)i)->snmp_community);
+              tmp_if_expr_84 = !(return_value_strcmp_83 == 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$84 = (_Bool)0;
-            tmp_if_expr$85 = tmp_if_expr$84 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_84 = (_Bool)0;
+            tmp_if_expr_85 = tmp_if_expr_84 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$85)
-            tmp_if_expr$98 = (_Bool)1;
+          if(tmp_if_expr_85)
+            tmp_if_expr_98 = (_Bool)1;
 
           else
           {
             if((poller_items + (signed long int)i)->snmp_version >= 3)
             {
-              return_value_strcmp$86=strcmp(last_snmp_username, (poller_items + (signed long int)i)->snmp_username);
-              tmp_if_expr$87 = !(return_value_strcmp$86 == 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_86=strcmp(last_snmp_username, (poller_items + (signed long int)i)->snmp_username);
+              tmp_if_expr_87 = !(return_value_strcmp_86 == 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$87 = (_Bool)0;
-            if(tmp_if_expr$87)
-              tmp_if_expr$89 = (_Bool)1;
-
-            else
-            {
-              return_value_strcmp$88=strcmp(last_snmp_password, (poller_items + (signed long int)i)->snmp_password);
-              tmp_if_expr$89 = !(return_value_strcmp$88 == 0) ? (_Bool)1 : (_Bool)0;
-            }
-            if(tmp_if_expr$89)
-              tmp_if_expr$91 = (_Bool)1;
+              tmp_if_expr_87 = (_Bool)0;
+            if(tmp_if_expr_87)
+              tmp_if_expr_89 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$90=strcmp(last_snmp_auth_protocol, (poller_items + (signed long int)i)->snmp_auth_protocol);
-              tmp_if_expr$91 = !(return_value_strcmp$90 == 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_88=strcmp(last_snmp_password, (poller_items + (signed long int)i)->snmp_password);
+              tmp_if_expr_89 = !(return_value_strcmp_88 == 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$91)
-              tmp_if_expr$93 = (_Bool)1;
+            if(tmp_if_expr_89)
+              tmp_if_expr_91 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$92=strcmp(last_snmp_priv_passphrase, (poller_items + (signed long int)i)->snmp_priv_passphrase);
-              tmp_if_expr$93 = !(return_value_strcmp$92 == 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_90=strcmp(last_snmp_auth_protocol, (poller_items + (signed long int)i)->snmp_auth_protocol);
+              tmp_if_expr_91 = !(return_value_strcmp_90 == 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$93)
-              tmp_if_expr$95 = (_Bool)1;
+            if(tmp_if_expr_91)
+              tmp_if_expr_93 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$94=strcmp(last_snmp_priv_protocol, (poller_items + (signed long int)i)->snmp_priv_protocol);
-              tmp_if_expr$95 = !(return_value_strcmp$94 == 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_92=strcmp(last_snmp_priv_passphrase, (poller_items + (signed long int)i)->snmp_priv_passphrase);
+              tmp_if_expr_93 = !(return_value_strcmp_92 == 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$95)
-              tmp_if_expr$97 = (_Bool)1;
+            if(tmp_if_expr_93)
+              tmp_if_expr_95 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$96=strcmp(last_snmp_context, (poller_items + (signed long int)i)->snmp_context);
-              tmp_if_expr$97 = !(return_value_strcmp$96 == 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_94=strcmp(last_snmp_priv_protocol, (poller_items + (signed long int)i)->snmp_priv_protocol);
+              tmp_if_expr_95 = !(return_value_strcmp_94 == 0) ? (_Bool)1 : (_Bool)0;
             }
-            tmp_if_expr$98 = tmp_if_expr$97 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_95)
+              tmp_if_expr_97 = (_Bool)1;
+
+            else
+            {
+              return_value_strcmp_96=strcmp(last_snmp_context, (poller_items + (signed long int)i)->snmp_context);
+              tmp_if_expr_97 = !(return_value_strcmp_96 == 0) ? (_Bool)1 : (_Bool)0;
+            }
+            tmp_if_expr_98 = tmp_if_expr_97 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$98)
+          if(tmp_if_expr_98)
           {
             if(num_oids >= 1)
             {
@@ -9022,53 +9022,53 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 else
                 {
                   if((signed int)(snmp_oids + (signed long int)j)->result[0l] == 85)
-                    tmp_if_expr$80 = (signed int)(snmp_oids + (signed long int)j)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_80 = (signed int)(snmp_oids + (signed long int)j)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$80 = (_Bool)0;
-                  if(!tmp_if_expr$80)
+                    tmp_if_expr_80 = (_Bool)0;
+                  if(!tmp_if_expr_80)
                   {
-                    return_value_is_numeric$77=is_numeric((snmp_oids + (signed long int)j)->result);
-                    if(!(return_value_is_numeric$77 == 0))
-                      tmp_if_expr$79 = (_Bool)1;
+                    return_value_is_numeric_77=is_numeric((snmp_oids + (signed long int)j)->result);
+                    if(!(return_value_is_numeric_77 == 0))
+                      tmp_if_expr_79 = (_Bool)1;
 
                     else
                     {
-                      return_value_is_multipart_output$78=is_multipart_output((snmp_oids + (signed long int)j)->result);
-                      tmp_if_expr$79 = return_value_is_multipart_output$78 != 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_is_multipart_output_78=is_multipart_output((snmp_oids + (signed long int)j)->result);
+                      tmp_if_expr_79 = return_value_is_multipart_output_78 != 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(!tmp_if_expr$79)
+                    if(!tmp_if_expr_79)
                     {
-                      return_value_is_hexadecimal$76=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
-                      if(!(return_value_is_hexadecimal$76 == 0))
+                      return_value_is_hexadecimal_76=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
+                      if(!(return_value_is_hexadecimal_76 == 0))
                       {
-                        unsigned long long int return_value_hex2dec$69;
-                        return_value_hex2dec$69=hex2dec((snmp_oids + (signed long int)j)->result);
-                        snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%lld", return_value_hex2dec$69);
+                        unsigned long long int return_value_hex2dec_69;
+                        return_value_hex2dec_69=hex2dec((snmp_oids + (signed long int)j)->result);
+                        snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%lld", return_value_hex2dec_69);
                       }
 
                       else
                       {
-                        return_value_strcasecmp$73=strcasecmp((snmp_oids + (signed long int)j)->result, "U");
-                        if(return_value_strcasecmp$73 == 0)
-                          tmp_if_expr$75 = (_Bool)1;
+                        return_value_strcasecmp_73=strcasecmp((snmp_oids + (signed long int)j)->result, "U");
+                        if(return_value_strcasecmp_73 == 0)
+                          tmp_if_expr_75 = (_Bool)1;
 
                         else
                         {
-                          return_value_strcasecmp$74=strcasecmp((snmp_oids + (signed long int)j)->result, "Nan");
-                          tmp_if_expr$75 = return_value_strcasecmp$74 == 0 ? (_Bool)1 : (_Bool)0;
+                          return_value_strcasecmp_74=strcasecmp((snmp_oids + (signed long int)j)->result, "Nan");
+                          tmp_if_expr_75 = return_value_strcasecmp_74 == 0 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(!tmp_if_expr$75)
+                        if(!tmp_if_expr_75)
                         {
-                          char *return_value_trim$70;
-                          return_value_trim$70=trim((snmp_oids + (signed long int)j)->result);
-                          char *return_value_strip_alpha$71;
-                          return_value_strip_alpha$71=strip_alpha(return_value_trim$70);
-                          snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha$71);
+                          char *return_value_trim_70;
+                          return_value_trim_70=trim((snmp_oids + (signed long int)j)->result);
+                          char *return_value_strip_alpha_71;
+                          return_value_strip_alpha_71=strip_alpha(return_value_trim_70);
+                          snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha_71);
                           snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%s", (const void *)temp_result);
-                          signed int return_value_validate_result$72;
-                          return_value_validate_result$72=validate_result((snmp_oids + (signed long int)j)->result);
-                          if(return_value_validate_result$72 == 0)
+                          signed int return_value_validate_result_72;
+                          return_value_validate_result_72=validate_result((snmp_oids + (signed long int)j)->result);
+                          if(return_value_validate_result_72 == 0)
                           {
                             (snmp_oids + (signed long int)j)->result[(signed long int)0] = (char)85;
                             (snmp_oids + (signed long int)j)->result[(signed long int)1] = (char)0;
@@ -9085,8 +9085,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 snprintf((poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result, (unsigned long int)1024, "%s", (const void *)(snmp_oids + (signed long int)j)->result);
                 if(set.log_level >= 3)
                 {
-                  return_value_spine_log$81=spine_log("Host[%i] TH[%i] DS[%i] SNMP: v%i: %s, dsname: %s, oid: %s, value: %s", host_id, host_thread, (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->local_data_id, host->snmp_version, (const void *)host->hostname, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->rrd_name, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->arg1, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result);
-                  if(!(return_value_spine_log$81 == 0))
+                  return_value_spine_log_81=spine_log("Host[%i] TH[%i] DS[%i] SNMP: v%i: %s, dsname: %s, oid: %s, value: %s", host_id, host_thread, (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->local_data_id, host->snmp_version, (const void *)host->hostname, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->rrd_name, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->arg1, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result);
+                  if(!(return_value_spine_log_81 == 0))
                     (_Bool)1;
 
                   else
@@ -9129,53 +9129,53 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
               else
               {
                 if((signed int)(snmp_oids + (signed long int)j)->result[0l] == 85)
-                  tmp_if_expr$110 = (signed int)(snmp_oids + (signed long int)j)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_110 = (signed int)(snmp_oids + (signed long int)j)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$110 = (_Bool)0;
-                if(!tmp_if_expr$110)
+                  tmp_if_expr_110 = (_Bool)0;
+                if(!tmp_if_expr_110)
                 {
-                  return_value_is_numeric$107=is_numeric((snmp_oids + (signed long int)j)->result);
-                  if(!(return_value_is_numeric$107 == 0))
-                    tmp_if_expr$109 = (_Bool)1;
+                  return_value_is_numeric_107=is_numeric((snmp_oids + (signed long int)j)->result);
+                  if(!(return_value_is_numeric_107 == 0))
+                    tmp_if_expr_109 = (_Bool)1;
 
                   else
                   {
-                    return_value_is_multipart_output$108=is_multipart_output((snmp_oids + (signed long int)j)->result);
-                    tmp_if_expr$109 = return_value_is_multipart_output$108 != 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_is_multipart_output_108=is_multipart_output((snmp_oids + (signed long int)j)->result);
+                    tmp_if_expr_109 = return_value_is_multipart_output_108 != 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(!tmp_if_expr$109)
+                  if(!tmp_if_expr_109)
                   {
-                    return_value_is_hexadecimal$106=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
-                    if(!(return_value_is_hexadecimal$106 == 0))
+                    return_value_is_hexadecimal_106=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
+                    if(!(return_value_is_hexadecimal_106 == 0))
                     {
-                      unsigned long long int return_value_hex2dec$99;
-                      return_value_hex2dec$99=hex2dec((snmp_oids + (signed long int)j)->result);
-                      snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%lld", return_value_hex2dec$99);
+                      unsigned long long int return_value_hex2dec_99;
+                      return_value_hex2dec_99=hex2dec((snmp_oids + (signed long int)j)->result);
+                      snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%lld", return_value_hex2dec_99);
                     }
 
                     else
                     {
-                      return_value_strcasecmp$103=strcasecmp((snmp_oids + (signed long int)j)->result, "U");
-                      if(return_value_strcasecmp$103 == 0)
-                        tmp_if_expr$105 = (_Bool)1;
+                      return_value_strcasecmp_103=strcasecmp((snmp_oids + (signed long int)j)->result, "U");
+                      if(return_value_strcasecmp_103 == 0)
+                        tmp_if_expr_105 = (_Bool)1;
 
                       else
                       {
-                        return_value_strcasecmp$104=strcasecmp((snmp_oids + (signed long int)j)->result, "Nan");
-                        tmp_if_expr$105 = return_value_strcasecmp$104 == 0 ? (_Bool)1 : (_Bool)0;
+                        return_value_strcasecmp_104=strcasecmp((snmp_oids + (signed long int)j)->result, "Nan");
+                        tmp_if_expr_105 = return_value_strcasecmp_104 == 0 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(!tmp_if_expr$105)
+                      if(!tmp_if_expr_105)
                       {
-                        char *return_value_trim$100;
-                        return_value_trim$100=trim((snmp_oids + (signed long int)j)->result);
-                        char *return_value_strip_alpha$101;
-                        return_value_strip_alpha$101=strip_alpha(return_value_trim$100);
-                        snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha$101);
+                        char *return_value_trim_100;
+                        return_value_trim_100=trim((snmp_oids + (signed long int)j)->result);
+                        char *return_value_strip_alpha_101;
+                        return_value_strip_alpha_101=strip_alpha(return_value_trim_100);
+                        snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha_101);
                         snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%s", (const void *)temp_result);
-                        signed int return_value_validate_result$102;
-                        return_value_validate_result$102=validate_result((snmp_oids + (signed long int)j)->result);
-                        if(return_value_validate_result$102 == 0)
+                        signed int return_value_validate_result_102;
+                        return_value_validate_result_102=validate_result((snmp_oids + (signed long int)j)->result);
+                        if(return_value_validate_result_102 == 0)
                         {
                           (snmp_oids + (signed long int)j)->result[(signed long int)0] = (char)85;
                           (snmp_oids + (signed long int)j)->result[(signed long int)1] = (char)0;
@@ -9192,8 +9192,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
               snprintf((poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result, (unsigned long int)1024, "%s", (const void *)(snmp_oids + (signed long int)j)->result);
               if(set.log_level >= 3)
               {
-                return_value_spine_log$111=spine_log("Host[%i] TH[%i] DS[%i] SNMP: v%i: %s, dsname: %s, oid: %s, value: %s", host_id, host_thread, (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->local_data_id, host->snmp_version, (const void *)host->hostname, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->rrd_name, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->arg1, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result);
-                if(!(return_value_spine_log$111 == 0))
+                return_value_spine_log_111=spine_log("Host[%i] TH[%i] DS[%i] SNMP: v%i: %s, dsname: %s, oid: %s, value: %s", host_id, host_thread, (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->local_data_id, host->snmp_version, (const void *)host->hostname, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->rrd_name, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->arg1, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result);
+                if(!(return_value_spine_log_111 == 0))
                   (_Bool)1;
 
                 else
@@ -9204,8 +9204,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
                 (_Bool)0;
               if(!(spike_kill == 0))
               {
-                return_value_strstr$112=strstr((poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result, ":");
-                if(return_value_strstr$112 == ((char *)NULL))
+                return_value_strstr_112=strstr((poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result, ":");
+                if(return_value_strstr_112 == ((char *)NULL))
                 {
                   (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result[(signed long int)0] = (char)85;
                   (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result[(signed long int)1] = (char)0;
@@ -9227,11 +9227,11 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
         {
           poll_result=exec_poll(host, (poller_items + (signed long int)i)->arg1);
           if((signed int)*poll_result == 85)
-            tmp_if_expr$122 = (signed int)poll_result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_122 = (signed int)poll_result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$122 = (_Bool)0;
-          if(tmp_if_expr$122)
+            tmp_if_expr_122 = (_Bool)0;
+          if(tmp_if_expr_122)
           {
             (poller_items + (signed long int)i)->result[(signed long int)0] = (char)85;
             (poller_items + (signed long int)i)->result[(signed long int)1] = (char)0;
@@ -9239,40 +9239,40 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
           else
           {
-            return_value_is_numeric$118=is_numeric(poll_result);
-            if(!(return_value_is_numeric$118 == 0))
-              tmp_if_expr$121 = (_Bool)1;
+            return_value_is_numeric_118=is_numeric(poll_result);
+            if(!(return_value_is_numeric_118 == 0))
+              tmp_if_expr_121 = (_Bool)1;
 
             else
             {
-              return_value_trim$119=trim(poll_result);
-              return_value_is_multipart_output$120=is_multipart_output(return_value_trim$119);
-              tmp_if_expr$121 = return_value_is_multipart_output$120 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_trim_119=trim(poll_result);
+              return_value_is_multipart_output_120=is_multipart_output(return_value_trim_119);
+              tmp_if_expr_121 = return_value_is_multipart_output_120 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$121)
+            if(tmp_if_expr_121)
               snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%s", poll_result);
 
             else
             {
-              return_value_is_hexadecimal$117=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
-              if(!(return_value_is_hexadecimal$117 == 0))
+              return_value_is_hexadecimal_117=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
+              if(!(return_value_is_hexadecimal_117 == 0))
               {
-                unsigned long long int return_value_hex2dec$113;
-                return_value_hex2dec$113=hex2dec(poll_result);
-                snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%lld", return_value_hex2dec$113);
+                unsigned long long int return_value_hex2dec_113;
+                return_value_hex2dec_113=hex2dec(poll_result);
+                snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%lld", return_value_hex2dec_113);
               }
 
               else
               {
-                char *return_value_trim$114;
-                return_value_trim$114=trim(poll_result);
-                char *return_value_strip_alpha$115;
-                return_value_strip_alpha$115=strip_alpha(return_value_trim$114);
-                snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha$115);
+                char *return_value_trim_114;
+                return_value_trim_114=trim(poll_result);
+                char *return_value_strip_alpha_115;
+                return_value_strip_alpha_115=strip_alpha(return_value_trim_114);
+                snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha_115);
                 snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%s", (const void *)temp_result);
-                signed int return_value_validate_result$116;
-                return_value_validate_result$116=validate_result((poller_items + (signed long int)i)->result);
-                if(return_value_validate_result$116 == 0)
+                signed int return_value_validate_result_116;
+                return_value_validate_result_116=validate_result((poller_items + (signed long int)i)->result);
+                if(return_value_validate_result_116 == 0)
                 {
                   (poller_items + (signed long int)i)->result[(signed long int)0] = (char)85;
                   (poller_items + (signed long int)i)->result[(signed long int)1] = (char)0;
@@ -9286,8 +9286,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
           if(set.log_level >= 3)
           {
-            return_value_spine_log$123=spine_log("Host[%i] TH[%i] DS[%i] SCRIPT: %s, output: %s", host_id, host_thread, (poller_items + (signed long int)i)->local_data_id, (const void *)(poller_items + (signed long int)i)->arg1, (const void *)(poller_items + (signed long int)i)->result);
-            if(!(return_value_spine_log$123 == 0))
+            return_value_spine_log_123=spine_log("Host[%i] TH[%i] DS[%i] SCRIPT: %s, output: %s", host_id, host_thread, (poller_items + (signed long int)i)->local_data_id, (const void *)(poller_items + (signed long int)i)->arg1, (const void *)(poller_items + (signed long int)i)->result);
+            if(!(return_value_spine_log_123 == 0))
               (_Bool)1;
 
             else
@@ -9298,8 +9298,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
             (_Bool)0;
           if(!(spike_kill == 0))
           {
-            return_value_strstr$124=strstr((poller_items + (signed long int)i)->result, ":");
-            if(return_value_strstr$124 == ((char *)NULL))
+            return_value_strstr_124=strstr((poller_items + (signed long int)i)->result, ":");
+            if(return_value_strstr_124 == ((char *)NULL))
             {
               (poller_items + (signed long int)i)->result[(signed long int)0] = (char)85;
               (poller_items + (signed long int)i)->result[(signed long int)1] = (char)0;
@@ -9314,11 +9314,11 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
           php_process=php_get_process();
           poll_result=php_cmd((poller_items + (signed long int)i)->arg1, php_process);
           if((signed int)*poll_result == 85)
-            tmp_if_expr$134 = (signed int)poll_result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_134 = (signed int)poll_result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$134 = (_Bool)0;
-          if(tmp_if_expr$134)
+            tmp_if_expr_134 = (_Bool)0;
+          if(tmp_if_expr_134)
           {
             (poller_items + (signed long int)i)->result[(signed long int)0] = (char)85;
             (poller_items + (signed long int)i)->result[(signed long int)1] = (char)0;
@@ -9326,40 +9326,40 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
           else
           {
-            return_value_is_numeric$130=is_numeric(poll_result);
-            if(!(return_value_is_numeric$130 == 0))
-              tmp_if_expr$133 = (_Bool)1;
+            return_value_is_numeric_130=is_numeric(poll_result);
+            if(!(return_value_is_numeric_130 == 0))
+              tmp_if_expr_133 = (_Bool)1;
 
             else
             {
-              return_value_trim$131=trim(poll_result);
-              return_value_is_multipart_output$132=is_multipart_output(return_value_trim$131);
-              tmp_if_expr$133 = return_value_is_multipart_output$132 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_trim_131=trim(poll_result);
+              return_value_is_multipart_output_132=is_multipart_output(return_value_trim_131);
+              tmp_if_expr_133 = return_value_is_multipart_output_132 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$133)
+            if(tmp_if_expr_133)
               snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%s", poll_result);
 
             else
             {
-              return_value_is_hexadecimal$129=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
-              if(!(return_value_is_hexadecimal$129 == 0))
+              return_value_is_hexadecimal_129=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
+              if(!(return_value_is_hexadecimal_129 == 0))
               {
-                unsigned long long int return_value_hex2dec$125;
-                return_value_hex2dec$125=hex2dec(poll_result);
-                snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%lld", return_value_hex2dec$125);
+                unsigned long long int return_value_hex2dec_125;
+                return_value_hex2dec_125=hex2dec(poll_result);
+                snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%lld", return_value_hex2dec_125);
               }
 
               else
               {
-                char *return_value_trim$126;
-                return_value_trim$126=trim(poll_result);
-                char *return_value_strip_alpha$127;
-                return_value_strip_alpha$127=strip_alpha(return_value_trim$126);
-                snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha$127);
+                char *return_value_trim_126;
+                return_value_trim_126=trim(poll_result);
+                char *return_value_strip_alpha_127;
+                return_value_strip_alpha_127=strip_alpha(return_value_trim_126);
+                snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha_127);
                 snprintf((poller_items + (signed long int)i)->result, (unsigned long int)1024, "%s", (const void *)temp_result);
-                signed int return_value_validate_result$128;
-                return_value_validate_result$128=validate_result((poller_items + (signed long int)i)->result);
-                if(return_value_validate_result$128 == 0)
+                signed int return_value_validate_result_128;
+                return_value_validate_result_128=validate_result((poller_items + (signed long int)i)->result);
+                if(return_value_validate_result_128 == 0)
                 {
                   (poller_items + (signed long int)i)->result[(signed long int)0] = (char)85;
                   (poller_items + (signed long int)i)->result[(signed long int)1] = (char)0;
@@ -9373,8 +9373,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
           if(set.log_level >= 3)
           {
-            return_value_spine_log$135=spine_log("Host[%i] TH[%i] DS[%i] SS[%i] SERVER: %s, output: %s", host_id, host_thread, (poller_items + (signed long int)i)->local_data_id, php_process, (const void *)(poller_items + (signed long int)i)->arg1, (const void *)(poller_items + (signed long int)i)->result);
-            if(!(return_value_spine_log$135 == 0))
+            return_value_spine_log_135=spine_log("Host[%i] TH[%i] DS[%i] SS[%i] SERVER: %s, output: %s", host_id, host_thread, (poller_items + (signed long int)i)->local_data_id, php_process, (const void *)(poller_items + (signed long int)i)->arg1, (const void *)(poller_items + (signed long int)i)->result);
+            if(!(return_value_spine_log_135 == 0))
               (_Bool)1;
 
             else
@@ -9385,8 +9385,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
             (_Bool)0;
           if(!(spike_kill == 0))
           {
-            return_value_strcasecmp$136=strcasecmp((poller_items + (signed long int)i)->result, ":");
-            if(!(return_value_strcasecmp$136 == 0))
+            return_value_strcasecmp_136=strcasecmp((poller_items + (signed long int)i)->result, ":");
+            if(!(return_value_strcasecmp_136 == 0))
             {
               (poller_items + (signed long int)i)->result[(signed long int)0] = (char)85;
               (poller_items + (signed long int)i)->result[(signed long int)1] = (char)0;
@@ -9417,53 +9417,53 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
         else
         {
           if((signed int)(snmp_oids + (signed long int)j)->result[0l] == 85)
-            tmp_if_expr$148 = (signed int)(snmp_oids + (signed long int)j)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_148 = (signed int)(snmp_oids + (signed long int)j)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$148 = (_Bool)0;
-          if(!tmp_if_expr$148)
+            tmp_if_expr_148 = (_Bool)0;
+          if(!tmp_if_expr_148)
           {
-            return_value_is_numeric$145=is_numeric((snmp_oids + (signed long int)j)->result);
-            if(!(return_value_is_numeric$145 == 0))
-              tmp_if_expr$147 = (_Bool)1;
+            return_value_is_numeric_145=is_numeric((snmp_oids + (signed long int)j)->result);
+            if(!(return_value_is_numeric_145 == 0))
+              tmp_if_expr_147 = (_Bool)1;
 
             else
             {
-              return_value_is_multipart_output$146=is_multipart_output((snmp_oids + (signed long int)j)->result);
-              tmp_if_expr$147 = return_value_is_multipart_output$146 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_is_multipart_output_146=is_multipart_output((snmp_oids + (signed long int)j)->result);
+              tmp_if_expr_147 = return_value_is_multipart_output_146 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(!tmp_if_expr$147)
+            if(!tmp_if_expr_147)
             {
-              return_value_is_hexadecimal$144=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
-              if(!(return_value_is_hexadecimal$144 == 0))
+              return_value_is_hexadecimal_144=is_hexadecimal((snmp_oids + (signed long int)j)->result, (const signed short int)1);
+              if(!(return_value_is_hexadecimal_144 == 0))
               {
-                unsigned long long int return_value_hex2dec$137;
-                return_value_hex2dec$137=hex2dec((snmp_oids + (signed long int)j)->result);
-                snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%lld", return_value_hex2dec$137);
+                unsigned long long int return_value_hex2dec_137;
+                return_value_hex2dec_137=hex2dec((snmp_oids + (signed long int)j)->result);
+                snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%lld", return_value_hex2dec_137);
               }
 
               else
               {
-                return_value_strcasecmp$141=strcasecmp((snmp_oids + (signed long int)j)->result, "U");
-                if(return_value_strcasecmp$141 == 0)
-                  tmp_if_expr$143 = (_Bool)1;
+                return_value_strcasecmp_141=strcasecmp((snmp_oids + (signed long int)j)->result, "U");
+                if(return_value_strcasecmp_141 == 0)
+                  tmp_if_expr_143 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcasecmp$142=strcasecmp((snmp_oids + (signed long int)j)->result, "Nan");
-                  tmp_if_expr$143 = return_value_strcasecmp$142 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcasecmp_142=strcasecmp((snmp_oids + (signed long int)j)->result, "Nan");
+                  tmp_if_expr_143 = return_value_strcasecmp_142 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(!tmp_if_expr$143)
+                if(!tmp_if_expr_143)
                 {
-                  char *return_value_trim$138;
-                  return_value_trim$138=trim((snmp_oids + (signed long int)j)->result);
-                  char *return_value_strip_alpha$139;
-                  return_value_strip_alpha$139=strip_alpha(return_value_trim$138);
-                  snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha$139);
+                  char *return_value_trim_138;
+                  return_value_trim_138=trim((snmp_oids + (signed long int)j)->result);
+                  char *return_value_strip_alpha_139;
+                  return_value_strip_alpha_139=strip_alpha(return_value_trim_138);
+                  snprintf(temp_result, (unsigned long int)1024, "%s", return_value_strip_alpha_139);
                   snprintf((snmp_oids + (signed long int)j)->result, (unsigned long int)1024, "%s", (const void *)temp_result);
-                  signed int return_value_validate_result$140;
-                  return_value_validate_result$140=validate_result((snmp_oids + (signed long int)j)->result);
-                  if(return_value_validate_result$140 == 0)
+                  signed int return_value_validate_result_140;
+                  return_value_validate_result_140=validate_result((snmp_oids + (signed long int)j)->result);
+                  if(return_value_validate_result_140 == 0)
                   {
                     (snmp_oids + (signed long int)j)->result[(signed long int)0] = (char)85;
                     (snmp_oids + (signed long int)j)->result[(signed long int)1] = (char)0;
@@ -9480,8 +9480,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
         snprintf((poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result, (unsigned long int)1024, "%s", (const void *)(snmp_oids + (signed long int)j)->result);
         if(set.log_level >= 3)
         {
-          return_value_spine_log$149=spine_log("Host[%i] TH[%i] DS[%i] SNMP: v%i: %s, dsname: %s, oid: %s, value: %s", host_id, host_thread, (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->local_data_id, host->snmp_version, (const void *)host->hostname, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->rrd_name, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->arg1, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result);
-          if(!(return_value_spine_log$149 == 0))
+          return_value_spine_log_149=spine_log("Host[%i] TH[%i] DS[%i] SNMP: v%i: %s, dsname: %s, oid: %s, value: %s", host_id, host_thread, (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->local_data_id, host->snmp_version, (const void *)host->hostname, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->rrd_name, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->arg1, (const void *)(poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result);
+          if(!(return_value_spine_log_149 == 0))
             (_Bool)1;
 
           else
@@ -9492,8 +9492,8 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
           (_Bool)0;
         if(!(spike_kill == 0))
         {
-          return_value_strstr$150=strstr((poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result, ":");
-          if(return_value_strstr$150 == ((char *)NULL))
+          return_value_strstr_150=strstr((poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result, ":");
+          if(return_value_strstr_150 == ((char *)NULL))
           {
             (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result[(signed long int)0] = (char)85;
             (poller_items + (signed long int)(snmp_oids + (signed long int)j)->array_position)->result[(signed long int)1] = (char)0;
@@ -9504,58 +9504,58 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
       }
     }
 
-    void *return_value_malloc$151;
-    return_value_malloc$151=malloc((unsigned long int)(65536 + 1024));
-    query3 = (char *)return_value_malloc$151;
+    void *return_value_malloc_151;
+    return_value_malloc_151=malloc((unsigned long int)(65536 + 1024));
+    query3 = (char *)return_value_malloc_151;
     if(query3 == ((char *)NULL))
       die("ERROR: Fatal malloc error: poller.c query3 output buffer!");
 
     query3[(signed long int)0] = (char)0;
-    unsigned long int return_value_strlen$152;
-    return_value_strlen$152=strlen(query8);
-    strncat(query3, query8, return_value_strlen$152);
+    unsigned long int return_value_strlen_152;
+    return_value_strlen_152=strlen(query8);
+    strncat(query3, query8, return_value_strlen_152);
     out_buffer=strlen(query3);
     if(!(set.boost_redirect == 0))
     {
-      void *return_value_malloc$153;
-      return_value_malloc$153=malloc((unsigned long int)(65536 + 1024));
-      query12 = (char *)return_value_malloc$153;
+      void *return_value_malloc_153;
+      return_value_malloc_153=malloc((unsigned long int)(65536 + 1024));
+      query12 = (char *)return_value_malloc_153;
       if(query12 == ((char *)NULL))
         die("ERROR: Fatal malloc error: poller.c query12 boost output buffer!");
 
       query12[(signed long int)0] = (char)0;
-      unsigned long int return_value_strlen$154;
-      return_value_strlen$154=strlen(query11);
-      strncat(query12, query11, return_value_strlen$154);
+      unsigned long int return_value_strlen_154;
+      return_value_strlen_154=strlen(query11);
+      strncat(query12, query11, return_value_strlen_154);
     }
 
     i = 0;
     while(!(i >= rows_processed))
     {
       snprintf(result_string, (unsigned long int)(1024 + 256), " (%i,'%s','%s','%s')", (poller_items + (signed long int)i)->local_data_id, (const void *)(poller_items + (signed long int)i)->rrd_name, host_time, (const void *)(poller_items + (signed long int)i)->result);
-      unsigned long int return_value_strlen$155;
-      return_value_strlen$155=strlen(result_string);
-      result_length = (signed int)return_value_strlen$155;
+      unsigned long int return_value_strlen_155;
+      return_value_strlen_155=strlen(result_string);
+      result_length = (signed int)return_value_strlen_155;
       if(out_buffer + (unsigned long int)result_length >= 65536ul)
       {
-        unsigned long int return_value_strlen$156;
-        return_value_strlen$156=strlen(posuffix);
-        strncat(query3, posuffix, return_value_strlen$156);
+        unsigned long int return_value_strlen_156;
+        return_value_strlen_156=strlen(posuffix);
+        strncat(query3, posuffix, return_value_strlen_156);
         db_insert(&mysql, query3);
         query3[(signed long int)0] = (char)0;
-        unsigned long int return_value_strlen$157;
-        return_value_strlen$157=strlen(query8);
-        strncat(query3, query8, return_value_strlen$157);
+        unsigned long int return_value_strlen_157;
+        return_value_strlen_157=strlen(query8);
+        strncat(query3, query8, return_value_strlen_157);
         if(!(set.boost_redirect == 0))
         {
-          unsigned long int return_value_strlen$158;
-          return_value_strlen$158=strlen(posuffix);
-          strncat(query12, posuffix, return_value_strlen$158);
+          unsigned long int return_value_strlen_158;
+          return_value_strlen_158=strlen(posuffix);
+          strncat(query12, posuffix, return_value_strlen_158);
           db_insert(&mysql, query12);
           query12[(signed long int)0] = (char)0;
-          unsigned long int return_value_strlen$159;
-          return_value_strlen$159=strlen(query11);
-          strncat(query12, query11, return_value_strlen$159);
+          unsigned long int return_value_strlen_159;
+          return_value_strlen_159=strlen(query11);
+          strncat(query12, query11, return_value_strlen_159);
         }
 
         out_buffer=strlen(query3);
@@ -9567,35 +9567,35 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
 
       else
         result_string[(signed long int)0] = (char)44;
-      unsigned long int return_value_strlen$160;
-      return_value_strlen$160=strlen(result_string);
-      strncat(query3, result_string, return_value_strlen$160);
+      unsigned long int return_value_strlen_160;
+      return_value_strlen_160=strlen(result_string);
+      strncat(query3, result_string, return_value_strlen_160);
       if(!(set.boost_redirect == 0))
       {
-        unsigned long int return_value_strlen$161;
-        return_value_strlen$161=strlen(result_string);
-        strncat(query12, result_string, return_value_strlen$161);
+        unsigned long int return_value_strlen_161;
+        return_value_strlen_161=strlen(result_string);
+        strncat(query12, result_string, return_value_strlen_161);
       }
 
-      unsigned long int return_value_strlen$162;
-      return_value_strlen$162=strlen(result_string);
-      out_buffer = out_buffer + return_value_strlen$162;
+      unsigned long int return_value_strlen_162;
+      return_value_strlen_162=strlen(result_string);
+      out_buffer = out_buffer + return_value_strlen_162;
       new_buffer = 0;
       i = i + 1;
     }
-    unsigned long int return_value_strlen$165;
-    return_value_strlen$165=strlen(query8);
-    if(!(return_value_strlen$165 >= out_buffer))
+    unsigned long int return_value_strlen_165;
+    return_value_strlen_165=strlen(query8);
+    if(!(return_value_strlen_165 >= out_buffer))
     {
-      unsigned long int return_value_strlen$163;
-      return_value_strlen$163=strlen(posuffix);
-      strncat(query3, posuffix, return_value_strlen$163);
+      unsigned long int return_value_strlen_163;
+      return_value_strlen_163=strlen(posuffix);
+      strncat(query3, posuffix, return_value_strlen_163);
       db_insert(&mysql, query3);
       if(!(set.boost_redirect == 0))
       {
-        unsigned long int return_value_strlen$164;
-        return_value_strlen$164=strlen(posuffix);
-        strncat(query12, posuffix, return_value_strlen$164);
+        unsigned long int return_value_strlen_164;
+        return_value_strlen_164=strlen(posuffix);
+        strncat(query12, posuffix, return_value_strlen_164);
         db_insert(&mysql, query12);
       }
 
@@ -9620,14 +9620,14 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
   if(host_thread == last_host_thread)
     db_query(&mysql, query6);
 
-  double return_value_get_time_as_double$166;
-  return_value_get_time_as_double$166=get_time_as_double();
-  poll_time = return_value_get_time_as_double$166 - poll_time;
-  signed int return_value_spine_log$167;
+  double return_value_get_time_as_double_166;
+  return_value_get_time_as_double_166=get_time_as_double();
+  poll_time = return_value_get_time_as_double_166 - poll_time;
+  signed int return_value_spine_log_167;
   if(set.log_level >= 3)
   {
-    return_value_spine_log$167=spine_log("Host[%i] TH[%i] Total Time: %5.2g Seconds", host_id, host_thread, poll_time);
-    if(!(return_value_spine_log$167 == 0))
+    return_value_spine_log_167=spine_log("Host[%i] TH[%i] Total Time: %5.2g Seconds", host_id, host_thread, poll_time);
+    if(!(return_value_spine_log_167 == 0))
       (_Bool)1;
 
     else
@@ -9638,11 +9638,11 @@ extern void poll_host(signed int host_id, signed int host_thread, signed int las
     (_Bool)0;
   mysql_close(&mysql);
   mysql_thread_end();
-  signed int return_value_spine_log$168;
+  signed int return_value_spine_log_168;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$168=spine_log("Host[%i] TH[%i] DEBUG: HOST COMPLETE: About to Exit Host Polling Thread Function", host_id, host_thread);
-    if(!(return_value_spine_log$168 == 0))
+    return_value_spine_log_168=spine_log("Host[%i] TH[%i] DEBUG: HOST COMPLETE: About to Exit Host Polling Thread Function", host_id, host_thread);
+    if(!(return_value_spine_log_168 == 0))
       (_Bool)1;
 
     else
@@ -9660,27 +9660,27 @@ __CPROVER_DUMP_L358:
 // file keywords.c line 184
 extern const char * printable_action(signed int token)
 {
-  const char *return_value_find_keyword_by_value$1;
-  return_value_find_keyword_by_value$1=find_keyword_by_value(actions, token, "-unknown-");
-  return return_value_find_keyword_by_value$1;
+  const char *return_value_find_keyword_by_value_1;
+  return_value_find_keyword_by_value_1=find_keyword_by_value(actions, token, "-unknown-");
+  return return_value_find_keyword_by_value_1;
 }
 
 // printable_log_level
 // file keywords.c line 168
 extern const char * printable_log_level(signed int token)
 {
-  const char *return_value_find_keyword_by_value$1;
-  return_value_find_keyword_by_value$1=find_keyword_by_value(log_level, token, "-unknown-");
-  return return_value_find_keyword_by_value$1;
+  const char *return_value_find_keyword_by_value_1;
+  return_value_find_keyword_by_value_1=find_keyword_by_value(log_level, token, "-unknown-");
+  return return_value_find_keyword_by_value_1;
 }
 
 // printable_logdest
 // file keywords.h line 37
 extern const char * printable_logdest(signed int token)
 {
-  const char *return_value_find_keyword_by_value$1;
-  return_value_find_keyword_by_value$1=find_keyword_by_value(logdest, token, "-unknown-");
-  return return_value_find_keyword_by_value$1;
+  const char *return_value_find_keyword_by_value_1;
+  return_value_find_keyword_by_value_1=find_keyword_by_value(logdest, token, "-unknown-");
+  return return_value_find_keyword_by_value_1;
 }
 
 // read_config_options
@@ -9720,16 +9720,16 @@ extern void read_config_options(void)
   res=getsetting(&mysql, "path_cactilog");
   if(!(res == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(res);
-    if(!(return_value_strlen$2 == 0ul))
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(res);
+    if(!(return_value_strlen_2 == 0ul))
       snprintf(set.path_logfile, (unsigned long int)256, "%s", res);
 
     else
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(web_root);
-      if(!(return_value_strlen$1 == 0ul))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(web_root);
+      if(!(return_value_strlen_1 == 0ul))
         snprintf(set.path_logfile, (unsigned long int)256, "%s/log/cacti.log", (const void *)web_root);
 
       else
@@ -9739,11 +9739,11 @@ extern void read_config_options(void)
 
   else
     snprintf(set.path_logfile, (unsigned long int)256, "%s/log/cacti.log", (const void *)web_root);
-  signed int return_value_spine_log$3;
+  signed int return_value_spine_log_3;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$3=spine_log("DEBUG: The path_php_server variable is %s", (const void *)set.path_php_server);
-    if(!(return_value_spine_log$3 == 0))
+    return_value_spine_log_3=spine_log("DEBUG: The path_php_server variable is %s", (const void *)set.path_php_server);
+    if(!(return_value_spine_log_3 == 0))
       (_Bool)1;
 
     else
@@ -9752,11 +9752,11 @@ extern void read_config_options(void)
 
   else
     (_Bool)0;
-  signed int return_value_spine_log$4;
+  signed int return_value_spine_log_4;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$4=spine_log("DEBUG: The path_cactilog variable is %s", (const void *)set.path_logfile);
-    if(!(return_value_spine_log$4 == 0))
+    return_value_spine_log_4=spine_log("DEBUG: The path_cactilog variable is %s", (const void *)set.path_logfile);
+    if(!(return_value_spine_log_4 == 0))
       (_Bool)1;
 
     else
@@ -9771,13 +9771,13 @@ extern void read_config_options(void)
 
   else
     set.log_destination = 1;
-  const char *return_value_printable_logdest$5;
-  signed int return_value_spine_log$6;
+  const char *return_value_printable_logdest_5;
+  signed int return_value_spine_log_6;
   if(set.log_level >= 5)
   {
-    return_value_printable_logdest$5=printable_logdest(set.log_destination);
-    return_value_spine_log$6=spine_log("DEBUG: The log_destination variable is %i (%s)", set.log_destination, return_value_printable_logdest$5);
-    if(!(return_value_spine_log$6 == 0))
+    return_value_printable_logdest_5=printable_logdest(set.log_destination);
+    return_value_spine_log_6=spine_log("DEBUG: The log_destination variable is %i (%s)", set.log_destination, return_value_printable_logdest_5);
+    if(!(return_value_spine_log_6 == 0))
       (_Bool)1;
 
     else
@@ -9791,11 +9791,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     strncopy(set.path_php, res, sizeof(char [256l]) /*256ul*/ );
 
-  signed int return_value_spine_log$7;
+  signed int return_value_spine_log_7;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$7=spine_log("DEBUG: The path_php variable is %s", (const void *)set.path_php);
-    if(!(return_value_spine_log$7 == 0))
+    return_value_spine_log_7=spine_log("DEBUG: The path_php variable is %s", (const void *)set.path_php);
+    if(!(return_value_spine_log_7 == 0))
       (_Bool)1;
 
     else
@@ -9808,11 +9808,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     set.availability_method=atoi(res);
 
-  signed int return_value_spine_log$8;
+  signed int return_value_spine_log_8;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$8=spine_log("DEBUG: The availability_method variable is %i", set.availability_method);
-    if(!(return_value_spine_log$8 == 0))
+    return_value_spine_log_8=spine_log("DEBUG: The availability_method variable is %i", set.availability_method);
+    if(!(return_value_spine_log_8 == 0))
       (_Bool)1;
 
     else
@@ -9825,11 +9825,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     set.ping_recovery_count=atoi(res);
 
-  signed int return_value_spine_log$9;
+  signed int return_value_spine_log_9;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$9=spine_log("DEBUG: The ping_recovery_count variable is %i", set.ping_recovery_count);
-    if(!(return_value_spine_log$9 == 0))
+    return_value_spine_log_9=spine_log("DEBUG: The ping_recovery_count variable is %i", set.ping_recovery_count);
+    if(!(return_value_spine_log_9 == 0))
       (_Bool)1;
 
     else
@@ -9842,11 +9842,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     set.ping_failure_count=atoi(res);
 
-  signed int return_value_spine_log$10;
+  signed int return_value_spine_log_10;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$10=spine_log("DEBUG: The ping_failure_count variable is %i", set.ping_failure_count);
-    if(!(return_value_spine_log$10 == 0))
+    return_value_spine_log_10=spine_log("DEBUG: The ping_failure_count variable is %i", set.ping_failure_count);
+    if(!(return_value_spine_log_10 == 0))
       (_Bool)1;
 
     else
@@ -9859,11 +9859,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     set.ping_method=atoi(res);
 
-  signed int return_value_spine_log$11;
+  signed int return_value_spine_log_11;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$11=spine_log("DEBUG: The ping_method variable is %i", set.ping_method);
-    if(!(return_value_spine_log$11 == 0))
+    return_value_spine_log_11=spine_log("DEBUG: The ping_method variable is %i", set.ping_method);
+    if(!(return_value_spine_log_11 == 0))
       (_Bool)1;
 
     else
@@ -9876,11 +9876,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     set.ping_retries=atoi(res);
 
-  signed int return_value_spine_log$12;
+  signed int return_value_spine_log_12;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$12=spine_log("DEBUG: The ping_retries variable is %i", set.ping_retries);
-    if(!(return_value_spine_log$12 == 0))
+    return_value_spine_log_12=spine_log("DEBUG: The ping_retries variable is %i", set.ping_retries);
+    if(!(return_value_spine_log_12 == 0))
       (_Bool)1;
 
     else
@@ -9893,11 +9893,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     set.ping_timeout=atoi(res);
 
-  signed int return_value_spine_log$13;
+  signed int return_value_spine_log_13;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$13=spine_log("DEBUG: The ping_timeout variable is %i", set.ping_timeout);
-    if(!(return_value_spine_log$13 == 0))
+    return_value_spine_log_13=spine_log("DEBUG: The ping_timeout variable is %i", set.ping_timeout);
+    if(!(return_value_spine_log_13 == 0))
       (_Bool)1;
 
     else
@@ -9910,11 +9910,11 @@ extern void read_config_options(void)
   if(!(res == ((const char *)NULL)))
     set.snmp_retries=atoi(res);
 
-  signed int return_value_spine_log$14;
+  signed int return_value_spine_log_14;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$14=spine_log("DEBUG: The snmp_retries variable is %i", set.snmp_retries);
-    if(!(return_value_spine_log$14 == 0))
+    return_value_spine_log_14=spine_log("DEBUG: The snmp_retries variable is %i", set.snmp_retries);
+    if(!(return_value_spine_log_14 == 0))
       (_Bool)1;
 
     else
@@ -9924,11 +9924,11 @@ extern void read_config_options(void)
   else
     (_Bool)0;
   set.log_perror=getboolsetting(&mysql, "log_perror", 0);
-  signed int return_value_spine_log$15;
+  signed int return_value_spine_log_15;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$15=spine_log("DEBUG: The log_perror variable is %i", set.log_perror);
-    if(!(return_value_spine_log$15 == 0))
+    return_value_spine_log_15=spine_log("DEBUG: The log_perror variable is %i", set.log_perror);
+    if(!(return_value_spine_log_15 == 0))
       (_Bool)1;
 
     else
@@ -9938,11 +9938,11 @@ extern void read_config_options(void)
   else
     (_Bool)0;
   set.log_pwarn=getboolsetting(&mysql, "log_pwarn", 0);
-  signed int return_value_spine_log$16;
+  signed int return_value_spine_log_16;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$16=spine_log("DEBUG: The log_pwarn variable is %i", set.log_pwarn);
-    if(!(return_value_spine_log$16 == 0))
+    return_value_spine_log_16=spine_log("DEBUG: The log_pwarn variable is %i", set.log_pwarn);
+    if(!(return_value_spine_log_16 == 0))
       (_Bool)1;
 
     else
@@ -9952,11 +9952,11 @@ extern void read_config_options(void)
   else
     (_Bool)0;
   set.boost_redirect=getboolsetting(&mysql, "boost_redirect", 0);
-  signed int return_value_spine_log$17;
+  signed int return_value_spine_log_17;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$17=spine_log("DEBUG: The boost_redirect variable is %i", set.boost_redirect);
-    if(!(return_value_spine_log$17 == 0))
+    return_value_spine_log_17=spine_log("DEBUG: The boost_redirect variable is %i", set.boost_redirect);
+    if(!(return_value_spine_log_17 == 0))
       (_Bool)1;
 
     else
@@ -9966,11 +9966,11 @@ extern void read_config_options(void)
   else
     (_Bool)0;
   set.log_pstats=getboolsetting(&mysql, "log_pstats", 0);
-  signed int return_value_spine_log$18;
+  signed int return_value_spine_log_18;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$18=spine_log("DEBUG: The log_pstats variable is %i", set.log_pstats);
-    if(!(return_value_spine_log$18 == 0))
+    return_value_spine_log_18=spine_log("DEBUG: The log_pstats variable is %i", set.log_pstats);
+    if(!(return_value_spine_log_18 == 0))
       (_Bool)1;
 
     else
@@ -9988,11 +9988,11 @@ extern void read_config_options(void)
 
   }
 
-  signed int return_value_spine_log$19;
+  signed int return_value_spine_log_19;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$19=spine_log("DEBUG: The threads variable is %i", set.threads);
-    if(!(return_value_spine_log$19 == 0))
+    return_value_spine_log_19=spine_log("DEBUG: The threads variable is %i", set.threads);
+    if(!(return_value_spine_log_19 == 0))
       (_Bool)1;
 
     else
@@ -10007,14 +10007,14 @@ extern void read_config_options(void)
 
   else
     set.poller_interval = 0;
-  signed int return_value_spine_log$20;
-  signed int return_value_spine_log$21;
+  signed int return_value_spine_log_20;
+  signed int return_value_spine_log_21;
   if(set.poller_interval == 0)
   {
     if(set.log_level >= 5)
     {
-      return_value_spine_log$20=spine_log("DEBUG: The polling interval is the system default");
-      if(!(return_value_spine_log$20 == 0))
+      return_value_spine_log_20=spine_log("DEBUG: The polling interval is the system default");
+      if(!(return_value_spine_log_20 == 0))
         (_Bool)1;
 
       else
@@ -10028,8 +10028,8 @@ extern void read_config_options(void)
   else
     if(set.log_level >= 5)
     {
-      return_value_spine_log$21=spine_log("DEBUG: The polling interval is %i seconds", set.poller_interval);
-      if(!(return_value_spine_log$21 == 0))
+      return_value_spine_log_21=spine_log("DEBUG: The polling interval is %i seconds", set.poller_interval);
+      if(!(return_value_spine_log_21 == 0))
         (_Bool)1;
 
       else
@@ -10044,11 +10044,11 @@ extern void read_config_options(void)
 
   else
     set.num_parent_processes = 1;
-  signed int return_value_spine_log$22;
+  signed int return_value_spine_log_22;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$22=spine_log("DEBUG: The number of concurrent processes is %i", set.num_parent_processes);
-    if(!(return_value_spine_log$22 == 0))
+    return_value_spine_log_22=spine_log("DEBUG: The number of concurrent processes is %i", set.num_parent_processes);
+    if(!(return_value_spine_log_22 == 0))
       (_Bool)1;
 
     else
@@ -10068,11 +10068,11 @@ extern void read_config_options(void)
 
   else
     set.script_timeout = 25;
-  signed int return_value_spine_log$23;
+  signed int return_value_spine_log_23;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$23=spine_log("DEBUG: The script timeout is %i", set.script_timeout);
-    if(!(return_value_spine_log$23 == 0))
+    return_value_spine_log_23=spine_log("DEBUG: The script timeout is %i", set.script_timeout);
+    if(!(return_value_spine_log_23 == 0))
       (_Bool)1;
 
     else
@@ -10095,11 +10095,11 @@ extern void read_config_options(void)
 
   else
     set.php_servers = 2;
-  signed int return_value_spine_log$24;
+  signed int return_value_spine_log_24;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$24=spine_log("DEBUG: The number of php script servers to run is %i", set.php_servers);
-    if(!(return_value_spine_log$24 == 0))
+    return_value_spine_log_24=spine_log("DEBUG: The number of php script servers to run is %i", set.php_servers);
+    if(!(return_value_spine_log_24 == 0))
       (_Bool)1;
 
     else
@@ -10109,43 +10109,43 @@ extern void read_config_options(void)
   else
     (_Bool)0;
   set.php_required = 0;
-  unsigned long int return_value_strlen$39;
-  return_value_strlen$39=strlen(set.host_id_list);
-  signed int return_value_spine_log$31;
-  signed int return_value_spine_log$38;
-  if(return_value_strlen$39 == 0ul)
+  unsigned long int return_value_strlen_39;
+  return_value_strlen_39=strlen(set.host_id_list);
+  signed int return_value_spine_log_31;
+  signed int return_value_spine_log_38;
+  if(return_value_strlen_39 == 0ul)
   {
     sqlp = sqlbuf;
-    signed int return_value_sprintf$25;
-    return_value_sprintf$25=sprintf(sqlp, "SELECT action FROM poller_item");
-    sqlp = sqlp + (signed long int)return_value_sprintf$25;
-    signed int return_value_sprintf$26;
-    return_value_sprintf$26=sprintf(sqlp, " WHERE action=%d", 2);
-    sqlp = sqlp + (signed long int)return_value_sprintf$26;
-    signed int return_value_append_hostrange$27;
-    return_value_append_hostrange$27=append_hostrange(sqlp, "host_id");
-    sqlp = sqlp + (signed long int)return_value_append_hostrange$27;
+    signed int return_value_sprintf_25;
+    return_value_sprintf_25=sprintf(sqlp, "SELECT action FROM poller_item");
+    sqlp = sqlp + (signed long int)return_value_sprintf_25;
+    signed int return_value_sprintf_26;
+    return_value_sprintf_26=sprintf(sqlp, " WHERE action=%d", 2);
+    sqlp = sqlp + (signed long int)return_value_sprintf_26;
+    signed int return_value_append_hostrange_27;
+    return_value_append_hostrange_27=append_hostrange(sqlp, "host_id");
+    sqlp = sqlp + (signed long int)return_value_append_hostrange_27;
     if(!(set.poller_id_exists == 0))
     {
-      signed int return_value_sprintf$28;
-      return_value_sprintf$28=sprintf(sqlp, " AND poller_id=%i", set.poller_id);
-      sqlp = sqlp + (signed long int)return_value_sprintf$28;
+      signed int return_value_sprintf_28;
+      return_value_sprintf_28=sprintf(sqlp, " AND poller_id=%i", set.poller_id);
+      sqlp = sqlp + (signed long int)return_value_sprintf_28;
     }
 
-    signed int return_value_sprintf$29;
-    return_value_sprintf$29=sprintf(sqlp, " LIMIT 1");
-    sqlp = sqlp + (signed long int)return_value_sprintf$29;
+    signed int return_value_sprintf_29;
+    return_value_sprintf_29=sprintf(sqlp, " LIMIT 1");
+    sqlp = sqlp + (signed long int)return_value_sprintf_29;
     result=db_query(&mysql, sqlbuf);
-    unsigned long long int return_value_mysql_num_rows$30;
-    return_value_mysql_num_rows$30=mysql_num_rows(result);
-    num_rows = (signed int)return_value_mysql_num_rows$30;
+    unsigned long long int return_value_mysql_num_rows_30;
+    return_value_mysql_num_rows_30=mysql_num_rows(result);
+    num_rows = (signed int)return_value_mysql_num_rows_30;
     if(num_rows >= 1)
       set.php_required = 1;
 
     if(set.log_level >= 5)
     {
-      return_value_spine_log$31=spine_log("DEBUG: StartHost='%i', EndHost='%i', TotalPHPScripts='%i'", set.start_host_id, set.end_host_id, num_rows);
-      if(!(return_value_spine_log$31 == 0))
+      return_value_spine_log_31=spine_log("DEBUG: StartHost='%i', EndHost='%i', TotalPHPScripts='%i'", set.start_host_id, set.end_host_id, num_rows);
+      if(!(return_value_spine_log_31 == 0))
         (_Bool)1;
 
       else
@@ -10159,36 +10159,36 @@ extern void read_config_options(void)
   else
   {
     sqlp = sqlbuf;
-    signed int return_value_sprintf$32;
-    return_value_sprintf$32=sprintf(sqlp, "SELECT action FROM poller_item");
-    sqlp = sqlp + (signed long int)return_value_sprintf$32;
-    signed int return_value_sprintf$33;
-    return_value_sprintf$33=sprintf(sqlp, " WHERE action=%d", 2);
-    sqlp = sqlp + (signed long int)return_value_sprintf$33;
-    signed int return_value_sprintf$34;
-    return_value_sprintf$34=sprintf(sqlp, " AND host_id IN(%s)", (const void *)set.host_id_list);
-    sqlp = sqlp + (signed long int)return_value_sprintf$34;
+    signed int return_value_sprintf_32;
+    return_value_sprintf_32=sprintf(sqlp, "SELECT action FROM poller_item");
+    sqlp = sqlp + (signed long int)return_value_sprintf_32;
+    signed int return_value_sprintf_33;
+    return_value_sprintf_33=sprintf(sqlp, " WHERE action=%d", 2);
+    sqlp = sqlp + (signed long int)return_value_sprintf_33;
+    signed int return_value_sprintf_34;
+    return_value_sprintf_34=sprintf(sqlp, " AND host_id IN(%s)", (const void *)set.host_id_list);
+    sqlp = sqlp + (signed long int)return_value_sprintf_34;
     if(!(set.poller_id_exists == 0))
     {
-      signed int return_value_sprintf$35;
-      return_value_sprintf$35=sprintf(sqlp, " AND poller_id=%i", set.poller_id);
-      sqlp = sqlp + (signed long int)return_value_sprintf$35;
+      signed int return_value_sprintf_35;
+      return_value_sprintf_35=sprintf(sqlp, " AND poller_id=%i", set.poller_id);
+      sqlp = sqlp + (signed long int)return_value_sprintf_35;
     }
 
-    signed int return_value_sprintf$36;
-    return_value_sprintf$36=sprintf(sqlp, " LIMIT 1");
-    sqlp = sqlp + (signed long int)return_value_sprintf$36;
+    signed int return_value_sprintf_36;
+    return_value_sprintf_36=sprintf(sqlp, " LIMIT 1");
+    sqlp = sqlp + (signed long int)return_value_sprintf_36;
     result=db_query(&mysql, sqlbuf);
-    unsigned long long int return_value_mysql_num_rows$37;
-    return_value_mysql_num_rows$37=mysql_num_rows(result);
-    num_rows = (signed int)return_value_mysql_num_rows$37;
+    unsigned long long int return_value_mysql_num_rows_37;
+    return_value_mysql_num_rows_37=mysql_num_rows(result);
+    num_rows = (signed int)return_value_mysql_num_rows_37;
     if(num_rows >= 1)
       set.php_required = 1;
 
     if(set.log_level >= 5)
     {
-      return_value_spine_log$38=spine_log("DEBUG: Host List to be polled='%s', TotalPHPScripts='%i'", (const void *)set.host_id_list, num_rows);
-      if(!(return_value_spine_log$38 == 0))
+      return_value_spine_log_38=spine_log("DEBUG: Host List to be polled='%s', TotalPHPScripts='%i'", (const void *)set.host_id_list, num_rows);
+      if(!(return_value_spine_log_38 == 0))
         (_Bool)1;
 
       else
@@ -10198,11 +10198,11 @@ extern void read_config_options(void)
     else
       (_Bool)0;
   }
-  signed int return_value_spine_log$40;
+  signed int return_value_spine_log_40;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$40=spine_log("DEBUG: The PHP Script Server is %sRequired", set.php_required != 0 ? "" : "Not ");
-    if(!(return_value_spine_log$40 == 0))
+    return_value_spine_log_40=spine_log("DEBUG: The PHP Script Server is %sRequired", set.php_required != 0 ? "" : "Not ");
+    if(!(return_value_spine_log_40 == 0))
       (_Bool)1;
 
     else
@@ -10222,11 +10222,11 @@ extern void read_config_options(void)
 
   else
     set.snmp_max_get_size = 25;
-  signed int return_value_spine_log$41;
+  signed int return_value_spine_log_41;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$41=spine_log("DEBUG: The Maximum SNMP OID Get Size is %i", set.snmp_max_get_size);
-    if(!(return_value_spine_log$41 == 0))
+    return_value_spine_log_41=spine_log("DEBUG: The Maximum SNMP OID Get Size is %i", set.snmp_max_get_size);
+    if(!(return_value_spine_log_41 == 0))
       (_Bool)1;
 
     else
@@ -10249,16 +10249,16 @@ extern signed int read_spine_config(char *file)
   char p1[1024l];
   char p2[1024l];
   fp=fopen(file, "rb");
-  signed int return_value_feof$1;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_atoi$2;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_atoi$3;
-  signed int return_value_strcasecmp$4;
+  signed int return_value_feof_1;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_atoi_2;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_atoi_3;
+  signed int return_value_strcasecmp_4;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     if(set.log_level == 5)
@@ -10278,14 +10278,14 @@ extern signed int read_spine_config(char *file)
 
     do
     {
-      return_value_feof$1=feof(fp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fp);
+      if(!(return_value_feof_1 == 0))
         break;
 
       buffer=fgets(buff, 1024, fp);
-      signed int return_value_feof$12;
-      return_value_feof$12=feof(fp);
-      if(return_value_feof$12 == 0)
+      signed int return_value_feof_12;
+      return_value_feof_12=feof(fp);
+      if(return_value_feof_12 == 0)
       {
         if(!((signed int)buff[0l] == 35))
         {
@@ -10294,57 +10294,57 @@ extern signed int read_spine_config(char *file)
             if(!((signed int)buff[0l] == 10))
             {
               sscanf(buff, "%15s %255s", (const void *)p1, (const void *)p2);
-              signed int return_value_strcasecmp$11;
-              return_value_strcasecmp$11=strcasecmp(p1, "DB_Host");
-              if(return_value_strcasecmp$11 == 0)
+              signed int return_value_strcasecmp_11;
+              return_value_strcasecmp_11=strcasecmp(p1, "DB_Host");
+              if(return_value_strcasecmp_11 == 0)
                 strncopy(set.dbhost, p2, sizeof(char [256l]) /*256ul*/ );
 
               else
               {
-                return_value_strcasecmp$10=strcasecmp(p1, "DB_Database");
-                if(return_value_strcasecmp$10 == 0)
+                return_value_strcasecmp_10=strcasecmp(p1, "DB_Database");
+                if(return_value_strcasecmp_10 == 0)
                   strncopy(set.dbdb, p2, sizeof(char [256l]) /*256ul*/ );
 
                 else
                 {
-                  return_value_strcasecmp$9=strcasecmp(p1, "DB_User");
-                  if(return_value_strcasecmp$9 == 0)
+                  return_value_strcasecmp_9=strcasecmp(p1, "DB_User");
+                  if(return_value_strcasecmp_9 == 0)
                     strncopy(set.dbuser, p2, sizeof(char [256l]) /*256ul*/ );
 
                   else
                   {
-                    return_value_strcasecmp$8=strcasecmp(p1, "DB_Pass");
-                    if(return_value_strcasecmp$8 == 0)
+                    return_value_strcasecmp_8=strcasecmp(p1, "DB_Pass");
+                    if(return_value_strcasecmp_8 == 0)
                       strncopy(set.dbpass, p2, sizeof(char [256l]) /*256ul*/ );
 
                     else
                     {
-                      return_value_strcasecmp$7=strcasecmp(p1, "DB_Port");
-                      if(return_value_strcasecmp$7 == 0)
+                      return_value_strcasecmp_7=strcasecmp(p1, "DB_Port");
+                      if(return_value_strcasecmp_7 == 0)
                       {
-                        return_value_atoi$2=atoi(p2);
-                        set.dbport = (unsigned int)return_value_atoi$2;
+                        return_value_atoi_2=atoi(p2);
+                        set.dbport = (unsigned int)return_value_atoi_2;
                       }
 
                       else
                       {
-                        return_value_strcasecmp$6=strcasecmp(p1, "Poller");
-                        if(return_value_strcasecmp$6 == 0)
+                        return_value_strcasecmp_6=strcasecmp(p1, "Poller");
+                        if(return_value_strcasecmp_6 == 0)
                           set.poller_id=atoi(p2);
 
                         else
                         {
-                          return_value_strcasecmp$5=strcasecmp(p1, "DB_PreG");
-                          if(return_value_strcasecmp$5 == 0)
+                          return_value_strcasecmp_5=strcasecmp(p1, "DB_PreG");
+                          if(return_value_strcasecmp_5 == 0)
                           {
-                            return_value_atoi$3=atoi(p2);
-                            set.pre087g = (unsigned int)return_value_atoi$3;
+                            return_value_atoi_3=atoi(p2);
+                            set.pre087g = (unsigned int)return_value_atoi_3;
                           }
 
                           else
                           {
-                            return_value_strcasecmp$4=strcasecmp(p1, "SNMP_Clientaddr");
-                            if(return_value_strcasecmp$4 == 0)
+                            return_value_strcasecmp_4=strcasecmp(p1, "SNMP_Clientaddr");
+                            if(return_value_strcasecmp_4 == 0)
                               strncopy(set.snmp_clientaddr, p2, sizeof(char [256l]) /*256ul*/ );
 
                             else
@@ -10370,9 +10370,9 @@ extern signed int read_spine_config(char *file)
 
     }
     while((_Bool)1);
-    unsigned long int return_value_strlen$13;
-    return_value_strlen$13=strlen(set.dbpass);
-    if(return_value_strlen$13 == 0ul)
+    unsigned long int return_value_strlen_13;
+    return_value_strlen_13=strlen(set.dbpass);
+    if(return_value_strlen_13 == 0ul)
       set.dbpass[0l] = (char)0;
 
     return 0;
@@ -10384,34 +10384,34 @@ extern signed int read_spine_config(char *file)
 extern char * remove_tcp_udp_from_hostname(char *hostname)
 {
   char *cleaned_hostname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(hostname);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  cleaned_hostname = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(hostname);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  cleaned_hostname = (char *)return_value_malloc_2;
   if(cleaned_hostname == ((char *)NULL))
     die("ERROR: Fatal malloc error: ping.c remove_tcp_udp_from_hostname");
 
-  signed int return_value_strncasecmp$5;
-  return_value_strncasecmp$5=strncasecmp(hostname, "TCP:", (unsigned long int)4);
-  _Bool tmp_if_expr$7;
-  signed int return_value_strncasecmp$6;
-  if(return_value_strncasecmp$5 == 0)
-    tmp_if_expr$7 = (_Bool)1;
+  signed int return_value_strncasecmp_5;
+  return_value_strncasecmp_5=strncasecmp(hostname, "TCP:", (unsigned long int)4);
+  _Bool tmp_if_expr_7;
+  signed int return_value_strncasecmp_6;
+  if(return_value_strncasecmp_5 == 0)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_strncasecmp$6=strncasecmp(hostname, "UDP:", (unsigned long int)4);
-    tmp_if_expr$7 = !(return_value_strncasecmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strncasecmp_6=strncasecmp(hostname, "UDP:", (unsigned long int)4);
+    tmp_if_expr_7 = !(return_value_strncasecmp_6 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(hostname);
-    memcpy((void *)cleaned_hostname, (const void *)(hostname + (signed long int)4), return_value_strlen$3 - (unsigned long int)4);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(hostname);
-    cleaned_hostname[(signed long int)(return_value_strlen$4 - (unsigned long int)4)] = (char)0;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(hostname);
+    memcpy((void *)cleaned_hostname, (const void *)(hostname + (signed long int)4), return_value_strlen_3 - (unsigned long int)4);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(hostname);
+    cleaned_hostname[(signed long int)(return_value_strlen_4 - (unsigned long int)4)] = (char)0;
   }
 
   else
@@ -10424,9 +10424,9 @@ extern char * remove_tcp_udp_from_hostname(char *hostname)
 extern char * reverse(char *str)
 {
   signed int end;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  end = (signed int)(return_value_strlen$1 - (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  end = (signed int)(return_value_strlen_1 - (unsigned long int)1);
   signed int start = 0;
   for( ; !(start >= end); end = end - 1)
   {
@@ -10443,26 +10443,26 @@ extern char * reverse(char *str)
 extern char * rtrim(char *str)
 {
   char *end;
-  char *rtrim$$1$$trim = " \"'\\\t\n\r";
-  char *tmp_post$2;
+  char *rtrim__1__trim = " \"'\\\t\n\r";
+  char *tmp_post_2;
   if(str == ((char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    end = str + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    end = str + (signed long int)return_value_strlen_1;
     do
     {
-      tmp_post$2 = end;
+      tmp_post_2 = end;
       end = end - 1l;
-      if(str >= tmp_post$2)
+      if(str >= tmp_post_2)
         break;
 
-      char *return_value_strchr$3;
-      return_value_strchr$3=strchr(rtrim$$1$$trim, (signed int)*end);
-      if(return_value_strchr$3 == ((char *)NULL))
+      char *return_value_strchr_3;
+      return_value_strchr_3=strchr(rtrim__1__trim, (signed int)*end);
+      if(return_value_strchr_3 == ((char *)NULL))
         return str;
 
       *end = (char)0;
@@ -10477,9 +10477,9 @@ extern char * rtrim(char *str)
 extern void set_option(const char *option, const char *value)
 {
   opttable[(signed long int)nopts].opt = option;
-  signed int tmp_post$1 = nopts;
+  signed int tmp_post_1 = nopts;
   nopts = nopts + 1;
-  opttable[(signed long int)tmp_post$1].val = value;
+  opttable[(signed long int)tmp_post_1].val = value;
 }
 
 // snmp_count
@@ -10499,11 +10499,11 @@ extern signed int snmp_count(struct host_struct *current_host, char *snmp_oid)
   signed int count = 0;
   char temp_result[1024l];
   status = 99;
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$1=spine_log("NOTE: walk starts at OID %s", snmp_oid);
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("NOTE: walk starts at OID %s", snmp_oid);
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -10512,16 +10512,16 @@ extern signed int snmp_count(struct host_struct *current_host, char *snmp_oid)
 
   else
     (_Bool)0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_memcmp$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_4;
+  signed int return_value_memcmp_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(!(current_host->snmp_session == NULL))
   {
     rootlen = (unsigned long int)128;
-    unsigned long int *return_value_snmp_parse_oid$2;
-    return_value_snmp_parse_oid$2=snmp_parse_oid(snmp_oid, root, &rootlen);
-    if(return_value_snmp_parse_oid$2 == ((unsigned long int *)NULL))
+    unsigned long int *return_value_snmp_parse_oid_2;
+    return_value_snmp_parse_oid_2=snmp_parse_oid(snmp_oid, root, &rootlen);
+    if(return_value_snmp_parse_oid_2 == ((unsigned long int *)NULL))
     {
       spine_log("Host[%i] ERROR: SNMP Count Problems parsing SNMP OID %s", current_host->id, snmp_oid);
       return count;
@@ -10543,34 +10543,34 @@ extern signed int snmp_count(struct host_struct *current_host, char *snmp_oid)
           for( ; !(vars == ((struct variable_list *)NULL)); vars = vars->next_variable)
           {
             if(!(vars->name_length >= rootlen))
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
             {
-              return_value_memcmp$3=memcmp((const void *)root, (const void *)vars->name, rootlen * sizeof(unsigned long int) /*8ul*/ );
-              tmp_if_expr$4 = return_value_memcmp$3 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_memcmp_3=memcmp((const void *)root, (const void *)vars->name, rootlen * sizeof(unsigned long int) /*8ul*/ );
+              tmp_if_expr_4 = return_value_memcmp_3 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$4)
+            if(tmp_if_expr_4)
               ok = 0;
 
             else
             {
               count = count + 1;
               if(!((signed int)vars->type == 130))
-                tmp_if_expr$6 = (signed int)vars->type != ((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x00 | 0x0) ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_6 = (signed int)vars->type != ((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x00 | 0x0) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
-                tmp_if_expr$7 = (signed int)vars->type != ((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x00 | 0x1) ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
+                tmp_if_expr_7 = (signed int)vars->type != ((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x00 | 0x1) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(tmp_if_expr_7)
               {
-                signed int return_value_snmp_oid_compare$5;
-                return_value_snmp_oid_compare$5=snmp_oid_compare(anOID, anOID_len, vars->name, vars->name_length);
-                if(return_value_snmp_oid_compare$5 >= 0)
+                signed int return_value_snmp_oid_compare_5;
+                return_value_snmp_oid_compare_5=snmp_oid_compare(anOID, anOID_len, vars->name, vars->name_length);
+                if(return_value_snmp_oid_compare_5 >= 0)
                 {
                   spine_log("ERROR: OID not increasing");
                   ok = 0;
@@ -10631,9 +10631,9 @@ extern char * snmp_get(struct host_struct *current_host, char *snmp_oid)
   signed int status;
   char *result_string;
   char temp_result[1024l];
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1024);
-  result_string = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1024);
+  result_string = (char *)return_value_malloc_1;
   if(result_string == ((char *)NULL))
     die("ERROR: Fatal malloc error: snmp.c snmp_get!");
 
@@ -10643,9 +10643,9 @@ extern char * snmp_get(struct host_struct *current_host, char *snmp_oid)
   {
     anOID_len = (unsigned long int)128;
     pdu=snmp_pdu_create((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x20 | 0x0);
-    unsigned long int *return_value_snmp_parse_oid$2;
-    return_value_snmp_parse_oid$2=snmp_parse_oid(snmp_oid, anOID, &anOID_len);
-    if(return_value_snmp_parse_oid$2 == ((unsigned long int *)NULL))
+    unsigned long int *return_value_snmp_parse_oid_2;
+    return_value_snmp_parse_oid_2=snmp_parse_oid(snmp_oid, anOID, &anOID_len);
+    if(return_value_snmp_parse_oid_2 == ((unsigned long int *)NULL))
     {
       spine_log("Host[%i] ERROR: SNMP Get Problems parsing SNMP OID %s", current_host->id, snmp_oid);
       result_string[(signed long int)0] = (char)85;
@@ -10672,9 +10672,9 @@ extern char * snmp_get(struct host_struct *current_host, char *snmp_oid)
         {
           vars = response->variables;
           snmp_snprint_value(temp_result, (unsigned long int)1024, vars->name, vars->name_length, vars);
-          char *return_value_trim$3;
-          return_value_trim$3=trim(temp_result);
-          snprintf(result_string, (unsigned long int)1024, "%s", return_value_trim$3);
+          char *return_value_trim_3;
+          return_value_trim_3=trim(temp_result);
+          snprintf(result_string, (unsigned long int)1024, "%s", return_value_trim_3);
         }
 
     }
@@ -10724,18 +10724,18 @@ struct nameStruct
   ;
   struct nameStruct *name;
   struct nameStruct *namep;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)num_oids, sizeof(struct nameStruct) /*1032ul*/ );
-  name = (struct nameStruct *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)num_oids, sizeof(struct nameStruct) /*1032ul*/ );
+  name = (struct nameStruct *)return_value_calloc_1;
   namep = name;
   pdu=snmp_pdu_create((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x20 | 0x0);
   i = 0;
   for( ; !(i >= num_oids); i = i + 1)
   {
     namep->name_len = (unsigned long int)128;
-    unsigned long int *return_value_snmp_parse_oid$2;
-    return_value_snmp_parse_oid$2=snmp_parse_oid((snmp_oids + (signed long int)i)->oid, namep->name, &namep->name_len);
-    if(return_value_snmp_parse_oid$2 == ((unsigned long int *)NULL))
+    unsigned long int *return_value_snmp_parse_oid_2;
+    return_value_snmp_parse_oid_2=snmp_parse_oid((snmp_oids + (signed long int)i)->oid, namep->name, &namep->name_len);
+    if(return_value_snmp_parse_oid_2 == ((unsigned long int *)NULL))
     {
       spine_log("Host[%i] ERROR: Problems parsing Multi SNMP OID! (oid: %s), Set MAX_OIDS to 1 for this host to isolate bad OID", current_host->id, (const void *)(snmp_oids + (signed long int)i)->oid);
       (snmp_oids + (signed long int)i)->result[(signed long int)0] = (char)85;
@@ -10747,8 +10747,8 @@ struct nameStruct
     namep = namep + 1l;
   }
   status = 99;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   do
   {
 
@@ -10773,16 +10773,16 @@ struct nameStruct
       for( ; !(vars == ((struct variable_list *)NULL)) && !(i >= num_oids); i = i + 1)
       {
         if((signed int)(snmp_oids + (signed long int)i)->result[0l] == 85)
-          tmp_if_expr$4 = (signed int)(snmp_oids + (signed long int)i)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)(snmp_oids + (signed long int)i)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
         {
           snmp_snprint_value(temp_result, (unsigned long int)1024, vars->name, vars->name_length, vars);
-          char *return_value_trim$3;
-          return_value_trim$3=trim(temp_result);
-          snprintf((snmp_oids + (signed long int)i)->result, (unsigned long int)1024, "%s", return_value_trim$3);
+          char *return_value_trim_3;
+          return_value_trim_3=trim(temp_result);
+          snprintf((snmp_oids + (signed long int)i)->result, (unsigned long int)1024, "%s", return_value_trim_3);
           vars = vars->next_variable;
         }
 
@@ -10798,11 +10798,11 @@ struct nameStruct
     while(!(array_count >= num_oids))
     {
       if((signed int)(snmp_oids + (signed long int)array_count)->result[0l] == 85)
-        tmp_if_expr$5 = (signed int)(snmp_oids + (signed long int)array_count)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)(snmp_oids + (signed long int)array_count)->result[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         array_count = array_count + 1;
 
       else
@@ -10863,9 +10863,9 @@ extern char * snmp_getnext(struct host_struct *current_host, char *snmp_oid)
   signed int status;
   char *result_string;
   char temp_result[1024l];
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1024);
-  result_string = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1024);
+  result_string = (char *)return_value_malloc_1;
   if(result_string == ((char *)NULL))
     die("ERROR: Fatal malloc error: snmp.c snmp_get!");
 
@@ -10875,9 +10875,9 @@ extern char * snmp_getnext(struct host_struct *current_host, char *snmp_oid)
   {
     anOID_len = (unsigned long int)128;
     pdu=snmp_pdu_create((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x20 | 0x1);
-    unsigned long int *return_value_snmp_parse_oid$2;
-    return_value_snmp_parse_oid$2=snmp_parse_oid(snmp_oid, anOID, &anOID_len);
-    if(return_value_snmp_parse_oid$2 == ((unsigned long int *)NULL))
+    unsigned long int *return_value_snmp_parse_oid_2;
+    return_value_snmp_parse_oid_2=snmp_parse_oid(snmp_oid, anOID, &anOID_len);
+    if(return_value_snmp_parse_oid_2 == ((unsigned long int *)NULL))
     {
       spine_log("Host[%i] ERROR: SNMP Getnext Problems parsing SNMP OID %s", current_host->id, snmp_oid);
       result_string[(signed long int)0] = (char)85;
@@ -10906,9 +10906,9 @@ extern char * snmp_getnext(struct host_struct *current_host, char *snmp_oid)
           if(!(vars == ((struct variable_list *)NULL)))
           {
             snmp_snprint_value(temp_result, (unsigned long int)1024, vars->name, vars->name_length, vars);
-            char *return_value_trim$3;
-            return_value_trim$3=trim(temp_result);
-            snprintf(result_string, (unsigned long int)1024, "%s", return_value_trim$3);
+            char *return_value_trim_3;
+            return_value_trim_3=trim(temp_result);
+            snprintf(result_string, (unsigned long int)1024, "%s", return_value_trim_3);
           }
 
           else
@@ -10958,9 +10958,9 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
   struct snmp_session session;
   char hostnameport[1024l];
   snmp_sess_init(&session);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(set.snmp_clientaddr);
-  if(return_value_strlen$1 >= 1ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(set.snmp_clientaddr);
+  if(return_value_strlen_1 >= 1ul)
     session.localname=strdup(set.snmp_clientaddr);
 
   netsnmp_ds_set_boolean(0, 32, 1);
@@ -11008,9 +11008,9 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
   session.retries = 3;
   session.remote_port = (unsigned short int)snmp_port;
   session.timeout = (signed long int)(snmp_timeout * 1000);
-  unsigned long int return_value_strlen$2;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strlen$10;
+  unsigned long int return_value_strlen_2;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strlen_10;
   if(snmp_version == 1 || snmp_version == 2)
   {
     session.community = (unsigned char *)snmp_community;
@@ -11023,8 +11023,8 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
     session.securityNameLen=strlen(session.securityName);
     if(!(snmp_context == ((char *)NULL)))
     {
-      return_value_strlen$2=strlen(snmp_context);
-      if(!(return_value_strlen$2 == 0ul))
+      return_value_strlen_2=strlen(snmp_context);
+      if(!(return_value_strlen_2 == 0ul))
       {
         session.contextName = snmp_context;
         session.contextNameLen=strlen(session.contextName);
@@ -11033,9 +11033,9 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
     }
 
     session.securityAuthKeyLen = (unsigned long int)32;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(snmp_auth_protocol, "MD5");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(snmp_auth_protocol, "MD5");
+    if(return_value_strcmp_3 == 0)
     {
       session.securityAuthProto=snmp_duplicate_objid(usmHMACMD5AuthProtocol, (unsigned long int)10);
       session.securityAuthProtoLen = (unsigned long int)10;
@@ -11046,24 +11046,24 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
       session.securityAuthProto=snmp_duplicate_objid(usmHMACSHA1AuthProtocol, (unsigned long int)10);
       session.securityAuthProtoLen = (unsigned long int)10;
     }
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(snmp_password);
-    signed int return_value_generate_Ku$5;
-    return_value_generate_Ku$5=generate_Ku(session.securityAuthProto, (unsigned int)session.securityAuthProtoLen, (unsigned char *)snmp_password, return_value_strlen$4, session.securityAuthKey, &session.securityAuthKeyLen);
-    if(!(return_value_generate_Ku$5 == 0))
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(snmp_password);
+    signed int return_value_generate_Ku_5;
+    return_value_generate_Ku_5=generate_Ku(session.securityAuthProto, (unsigned int)session.securityAuthProtoLen, (unsigned char *)snmp_password, return_value_strlen_4, session.securityAuthKey, &session.securityAuthKeyLen);
+    if(!(return_value_generate_Ku_5 == 0))
       spine_log("SNMP: Error generating SNMPv3 Ku from authentication pass phrase.");
 
-    signed int return_value_strcmp$9;
-    return_value_strcmp$9=strcmp(snmp_priv_protocol, "[None]");
-    if(return_value_strcmp$9 == 0)
-      tmp_if_expr$11 = (_Bool)1;
+    signed int return_value_strcmp_9;
+    return_value_strcmp_9=strcmp(snmp_priv_protocol, "[None]");
+    if(return_value_strcmp_9 == 0)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      return_value_strlen$10=strlen(snmp_priv_passphrase);
-      tmp_if_expr$11 = return_value_strlen$10 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_10=strlen(snmp_priv_passphrase);
+      tmp_if_expr_11 = return_value_strlen_10 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$11)
+    if(tmp_if_expr_11)
     {
       session.securityPrivProto=snmp_duplicate_objid(usmNoPrivProtocol, sizeof(unsigned long int [10l]) /*80ul*/  / sizeof(unsigned long int) /*8ul*/ );
       session.securityPrivProtoLen = sizeof(unsigned long int [10l]) /*80ul*/  / sizeof(unsigned long int) /*8ul*/ ;
@@ -11073,9 +11073,9 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
 
     else
     {
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp(snmp_priv_protocol, "DES");
-      if(return_value_strcmp$6 == 0)
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp(snmp_priv_protocol, "DES");
+      if(return_value_strcmp_6 == 0)
       {
         session.securityPrivProto=snmp_duplicate_objid(usmDESPrivProtocol, (unsigned long int)10);
         session.securityPrivProtoLen = (unsigned long int)10;
@@ -11090,11 +11090,11 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
         session.securityPrivKeyLen = (unsigned long int)32;
         session.securityLevel = 3;
       }
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(snmp_priv_passphrase);
-      signed int return_value_generate_Ku$8;
-      return_value_generate_Ku$8=generate_Ku(session.securityAuthProto, (unsigned int)session.securityAuthProtoLen, (unsigned char *)snmp_priv_passphrase, return_value_strlen$7, session.securityPrivKey, &session.securityPrivKeyLen);
-      if(!(return_value_generate_Ku$8 == 0))
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(snmp_priv_passphrase);
+      signed int return_value_generate_Ku_8;
+      return_value_generate_Ku_8=generate_Ku(session.securityAuthProto, (unsigned int)session.securityAuthProtoLen, (unsigned char *)snmp_priv_passphrase, return_value_strlen_7, session.securityPrivKey, &session.securityPrivKeyLen);
+      if(!(return_value_generate_Ku_8 == 0))
         spine_log("SNMP: Error generating SNMPv3 Ku from privacy pass phrase.");
 
     }
@@ -11102,13 +11102,13 @@ extern void * snmp_host_init(signed int host_id, char *hostname, signed int snmp
   thread_mutex_lock(0);
   sessp=snmp_sess_open(&session);
   thread_mutex_unlock(0);
-  signed int return_value_spine_log$12;
+  signed int return_value_spine_log_12;
   if(sessp == NULL)
   {
     if(set.log_level >= 3)
     {
-      return_value_spine_log$12=spine_log("ERROR: Problem initializing SNMP session '%s'", hostname);
-      if(!(return_value_spine_log$12 == 0))
+      return_value_spine_log_12=spine_log("ERROR: Problem initializing SNMP session '%s'", hostname);
+      if(!(return_value_spine_log_12 == 0))
         (_Bool)1;
 
       else
@@ -11130,9 +11130,9 @@ extern void snmp_snprint_value(char *obuf, unsigned long int buf_len, const unsi
   unsigned long int out_len = (unsigned long int)0;
   if(buf_len >= 1ul)
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(buf_len, (unsigned long int)1);
-    buf = (unsigned char *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(buf_len, (unsigned long int)1);
+    buf = (unsigned char *)return_value_calloc_1;
     if(!(buf == ((unsigned char *)NULL)))
     {
       sprint_realloc_by_type(&buf, &buf_len, &out_len, 1, variable, (struct enum_list *)(void *)0, (const char *)(void *)0, (const char *)(void *)0);
@@ -11173,11 +11173,11 @@ extern void snmp_spine_init(void)
   netsnmp_ds_set_boolean(0, 28, 1);
   netsnmp_ds_set_boolean(0, 21, 1);
   netsnmp_ds_set_boolean(0, 18, 1);
-  signed int return_value_spine_log$1;
+  signed int return_value_spine_log_1;
   if(set.log_level >= 5)
   {
-    return_value_spine_log$1=spine_log("DEBUG: Issues with SNMP Header Version information, assuming old version of Net-SNMP.");
-    if(!(return_value_spine_log$1 == 0))
+    return_value_spine_log_1=spine_log("DEBUG: Issues with SNMP Header Version information, assuming old version of Net-SNMP.");
+    if(!(return_value_spine_log_1 == 0))
       (_Bool)1;
 
     else
@@ -11208,24 +11208,24 @@ extern signed int spine_log(const char *format, ...)
   fp = stdout;
   if(set.log_destination == 4)
   {
-    char *return_value_trim$1;
-    return_value_trim$1=trim(ulogmessage);
-    puts(return_value_trim$1);
+    char *return_value_trim_1;
+    return_value_trim_1=trim(ulogmessage);
+    puts(return_value_trim_1);
     return 1;
   }
 
-  char *return_value_strstr$2;
-  return_value_strstr$2=strstr(ulogmessage, "\n");
-  if(return_value_strstr$2 == ((char *)NULL))
+  char *return_value_strstr_2;
+  return_value_strstr_2=strstr(ulogmessage, "\n");
+  if(return_value_strstr_2 == ((char *)NULL))
     strncat(ulogmessage, "\n", (unsigned long int)1);
 
   snprintf(logprefix, (unsigned long int)256, "SPINE: Poller[%i] ", set.poller_id);
   nowbin=time(&nowbin);
   localtime_r(&nowbin, &now_time);
   now_ptr = &now_time;
-  unsigned long int return_value_strftime$3;
-  return_value_strftime$3=strftime(flogmessage, (unsigned long int)50, "%m/%d/%Y %I:%M:%S %p - ", now_ptr);
-  if(return_value_strftime$3 == 0ul)
+  unsigned long int return_value_strftime_3;
+  return_value_strftime_3=strftime(flogmessage, (unsigned long int)50, "%m/%d/%Y %I:%M:%S %p - ", now_ptr);
+  if(return_value_strftime_3 == 0ul)
   {
     fp = stderr;
     if(!(fp == stderr) || set.stderr_notty == 0)
@@ -11239,17 +11239,17 @@ extern signed int spine_log(const char *format, ...)
 
   strncat(flogmessage, logprefix, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
   strncat(flogmessage, ulogmessage, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
-  unsigned long int return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
   if(!(set.log_level == 1) && (set.log_destination == 1 || set.log_destination == 2))
   {
-    return_value_strlen$5=strlen(set.path_logfile);
-    if(!(return_value_strlen$5 == 0ul))
+    return_value_strlen_5=strlen(set.path_logfile);
+    if(!(return_value_strlen_5 == 0ul))
     {
       if(!(set.logfile_processed == 0))
       {
-        signed int return_value_file_exists$4;
-        return_value_file_exists$4=file_exists(set.path_logfile);
-        if(return_value_file_exists$4 == 0)
+        signed int return_value_file_exists_4;
+        return_value_file_exists_4=file_exists(set.path_logfile);
+        if(return_value_file_exists_4 == 0)
           log_file=fopen(set.path_logfile, "w");
 
         else
@@ -11274,41 +11274,41 @@ extern signed int spine_log(const char *format, ...)
 
   }
 
-  _Bool tmp_if_expr$8;
-  char *return_value_strstr$7;
+  _Bool tmp_if_expr_8;
+  char *return_value_strstr_7;
   if(set.log_destination == 2 || set.log_destination == 3)
   {
     thread_mutex_lock(5);
     openlog("Cacti", 0x08 | 0x01, 5 << 3);
-    char *return_value_strstr$6;
-    return_value_strstr$6=strstr(flogmessage, "ERROR");
-    if(!(return_value_strstr$6 == ((char *)NULL)))
-      tmp_if_expr$8 = (_Bool)1;
+    char *return_value_strstr_6;
+    return_value_strstr_6=strstr(flogmessage, "ERROR");
+    if(!(return_value_strstr_6 == ((char *)NULL)))
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_strstr$7=strstr(flogmessage, "FATAL");
-      tmp_if_expr$8 = return_value_strstr$7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_7=strstr(flogmessage, "FATAL");
+      tmp_if_expr_8 = return_value_strstr_7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
       if(!(set.log_perror == 0))
         syslog(2, "%s\n", (const void *)flogmessage);
 
     }
 
-    char *return_value_strstr$9;
-    return_value_strstr$9=strstr(flogmessage, "WARNING");
-    if(!(return_value_strstr$9 == ((char *)NULL)))
+    char *return_value_strstr_9;
+    return_value_strstr_9=strstr(flogmessage, "WARNING");
+    if(!(return_value_strstr_9 == ((char *)NULL)))
     {
       if(!(set.log_pwarn == 0))
         syslog(4, "%s\n", (const void *)flogmessage);
 
     }
 
-    char *return_value_strstr$10;
-    return_value_strstr$10=strstr(flogmessage, "STATS");
-    if(!(return_value_strstr$10 == ((char *)NULL)))
+    char *return_value_strstr_10;
+    return_value_strstr_10=strstr(flogmessage, "STATS");
+    if(!(return_value_strstr_10 == ((char *)NULL)))
     {
       if(!(set.log_pstats == 0))
         syslog(5, "%s\n", (const void *)flogmessage);
@@ -11319,31 +11319,31 @@ extern signed int spine_log(const char *format, ...)
     thread_mutex_unlock(5);
   }
 
-  _Bool tmp_if_expr$13;
-  char *return_value_strstr$12;
-  _Bool tmp_if_expr$15;
-  char *return_value_strstr$14;
+  _Bool tmp_if_expr_13;
+  char *return_value_strstr_12;
+  _Bool tmp_if_expr_15;
+  char *return_value_strstr_14;
   if(set.log_level >= 1)
   {
-    char *return_value_strstr$11;
-    return_value_strstr$11=strstr(flogmessage, "ERROR");
-    if(!(return_value_strstr$11 == ((char *)NULL)))
-      tmp_if_expr$13 = (_Bool)1;
+    char *return_value_strstr_11;
+    return_value_strstr_11=strstr(flogmessage, "ERROR");
+    if(!(return_value_strstr_11 == ((char *)NULL)))
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_strstr$12=strstr(flogmessage, "WARNING");
-      tmp_if_expr$13 = return_value_strstr$12 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_12=strstr(flogmessage, "WARNING");
+      tmp_if_expr_13 = return_value_strstr_12 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
-      tmp_if_expr$15 = (_Bool)1;
+    if(tmp_if_expr_13)
+      tmp_if_expr_15 = (_Bool)1;
 
     else
     {
-      return_value_strstr$14=strstr(flogmessage, "FATAL");
-      tmp_if_expr$15 = return_value_strstr$14 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_14=strstr(flogmessage, "FATAL");
+      tmp_if_expr_15 = return_value_strstr_14 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$15)
+    if(tmp_if_expr_15)
       fp = stderr;
 
     if(!(fp == stderr) || set.stderr_notty == 0)
@@ -11406,14 +11406,14 @@ static void spine_signal_handler(signed int spine_signal)
 extern char * strip_alpha(char *string)
 {
   signed int i;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  i = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  i = (signed int)return_value_strlen_1;
   while(i >= 0)
   {
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)string[(signed long int)i]]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)string[(signed long int)i]]) == 0))
       break;
 
     else
@@ -11456,40 +11456,40 @@ extern char * strncopy(char *dst, const char *src, unsigned long int obuf)
 // file locks.h line 35
 extern void thread_mutex_lock(signed int mutex)
 {
-  union anonymous$9 *return_value_get_lock$1;
-  return_value_get_lock$1=get_lock(mutex);
-  pthread_mutex_lock(return_value_get_lock$1);
+  union anonymous_9 *return_value_get_lock_1;
+  return_value_get_lock_1=get_lock(mutex);
+  pthread_mutex_lock(return_value_get_lock_1);
 }
 
 // thread_mutex_trylock
 // file locks.h line 37
 extern signed int thread_mutex_trylock(signed int mutex)
 {
-  union anonymous$9 *return_value_get_lock$1;
-  return_value_get_lock$1=get_lock(mutex);
-  signed int return_value_pthread_mutex_trylock$2;
-  return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(return_value_get_lock$1);
-  return return_value_pthread_mutex_trylock$2;
+  union anonymous_9 *return_value_get_lock_1;
+  return_value_get_lock_1=get_lock(mutex);
+  signed int return_value_pthread_mutex_trylock_2;
+  return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(return_value_get_lock_1);
+  return return_value_pthread_mutex_trylock_2;
 }
 
 // thread_mutex_unlock
 // file locks.h line 36
 extern void thread_mutex_unlock(signed int mutex)
 {
-  union anonymous$9 *return_value_get_lock$1;
-  return_value_get_lock$1=get_lock(mutex);
-  pthread_mutex_unlock(return_value_get_lock$1);
+  union anonymous_9 *return_value_get_lock_1;
+  return_value_get_lock_1=get_lock(mutex);
+  pthread_mutex_unlock(return_value_get_lock_1);
 }
 
 // trim
 // file util.c line 1044
 extern char * trim(char *str)
 {
-  char *return_value_rtrim$1;
-  return_value_rtrim$1=rtrim(str);
-  char *return_value_ltrim$2;
-  return_value_ltrim$2=ltrim(return_value_rtrim$1);
-  return return_value_ltrim$2;
+  char *return_value_rtrim_1;
+  return_value_rtrim_1=rtrim(str);
+  char *return_value_ltrim_2;
+  return_value_ltrim_2=ltrim(return_value_rtrim_1);
+  return return_value_ltrim_2;
 }
 
 // uninstall_spine_signal_handler
@@ -11531,19 +11531,19 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
   signed long int nowbin;
   struct tm now_time;
   struct tm *now_ptr;
-  signed long int return_value_time$1;
-  return_value_time$1=time(&nowbin);
-  if(return_value_time$1 == -1l)
+  signed long int return_value_time_1;
+  return_value_time_1=time(&nowbin);
+  if(return_value_time_1 == -1l)
     die("ERROR: Could not get time of day from time()");
 
   localtime_r(&nowbin, &now_time);
   now_ptr = &now_time;
   strftime(current_date, (unsigned long int)40, "%Y-%m-%d %H:%M", now_ptr);
-  unsigned long int return_value_strlen$2;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$10;
+  unsigned long int return_value_strlen_2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_10;
   if(status == 1)
   {
     host->failed_polls = host->failed_polls + 1;
@@ -11555,13 +11555,13 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
 
       case 1:
       {
-        return_value_strlen$2=strlen(host->snmp_community);
-        if(return_value_strlen$2 == 0ul)
-          tmp_if_expr$3 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_2=strlen(host->snmp_community);
+        if(return_value_strlen_2 == 0ul)
+          tmp_if_expr_3 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
           snprintf(host->status_last_error, (unsigned long int)256, "%s", (const void *)ping->ping_response);
 
         else
@@ -11570,13 +11570,13 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
       }
       case 2:
       {
-        return_value_strlen$4=strlen(host->snmp_community);
-        if(return_value_strlen$4 == 0ul)
-          tmp_if_expr$5 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_4=strlen(host->snmp_community);
+        if(return_value_strlen_4 == 0ul)
+          tmp_if_expr_5 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
           snprintf(host->status_last_error, (unsigned long int)256, "%s", (const void *)"Device does not require SNMP");
 
         else
@@ -11628,27 +11628,27 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
     host->availability = (hundred_percent * (double)(host->total_polls - host->failed_polls)) / (double)host->total_polls;
     if(availability_method == 1)
     {
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(host->snmp_community);
-      if(return_value_strlen$8 == 0ul)
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(host->snmp_community);
+      if(return_value_strlen_8 == 0ul)
         ping_time=atof(ping->ping_status);
 
       else
       {
-        double return_value_atof$6;
-        return_value_atof$6=atof(ping->snmp_status);
-        double return_value_atof$7;
-        return_value_atof$7=atof(ping->ping_status);
-        ping_time = (return_value_atof$6 + return_value_atof$7) / (double)2;
+        double return_value_atof_6;
+        return_value_atof_6=atof(ping->snmp_status);
+        double return_value_atof_7;
+        return_value_atof_7=atof(ping->ping_status);
+        ping_time = (return_value_atof_6 + return_value_atof_7) / (double)2;
       }
     }
 
     else
       if(availability_method == 2)
       {
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(host->snmp_community);
-        if(return_value_strlen$9 == 0ul)
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(host->snmp_community);
+        if(return_value_strlen_9 == 0ul)
           ping_time = 0.000;
 
         else
@@ -11670,11 +11670,11 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
 
     host->avg_time = ((double)((host->total_polls - 1) - host->failed_polls) * host->avg_time + ping_time) / (double)(host->total_polls - host->failed_polls);
     if(host->status == 1)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = host->status == 2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = host->status == 2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
     {
       if(host->status == 1)
       {
@@ -11706,36 +11706,36 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
       host->status_event_count = 0;
     }
   }
-  _Bool tmp_if_expr$26;
-  signed int return_value_spine_log$11;
-  signed int return_value_spine_log$12;
-  signed int return_value_spine_log$13;
-  signed int return_value_spine_log$14;
-  _Bool tmp_if_expr$18;
-  signed int return_value_spine_log$15;
-  signed int return_value_spine_log$16;
-  signed int return_value_spine_log$19;
-  signed int return_value_spine_log$20;
-  signed int return_value_spine_log$21;
-  signed int return_value_spine_log$22;
-  signed int return_value_spine_log$23;
-  signed int return_value_spine_log$24;
-  signed int return_value_spine_log$25;
+  _Bool tmp_if_expr_26;
+  signed int return_value_spine_log_11;
+  signed int return_value_spine_log_12;
+  signed int return_value_spine_log_13;
+  signed int return_value_spine_log_14;
+  _Bool tmp_if_expr_18;
+  signed int return_value_spine_log_15;
+  signed int return_value_spine_log_16;
+  signed int return_value_spine_log_19;
+  signed int return_value_spine_log_20;
+  signed int return_value_spine_log_21;
+  signed int return_value_spine_log_22;
+  signed int return_value_spine_log_23;
+  signed int return_value_spine_log_24;
+  signed int return_value_spine_log_25;
   if(set.log_level >= 4)
   {
     if(host->status == 3)
-      tmp_if_expr$26 = (_Bool)1;
+      tmp_if_expr_26 = (_Bool)1;
 
     else
-      tmp_if_expr$26 = host->status == 2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$26)
+      tmp_if_expr_26 = host->status == 2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_26)
     {
       if(availability_method == 1)
       {
         if(set.log_level >= 4)
         {
-          return_value_spine_log$11=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
-          if(!(return_value_spine_log$11 == 0))
+          return_value_spine_log_11=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
+          if(!(return_value_spine_log_11 == 0))
             (_Bool)1;
 
           else
@@ -11746,8 +11746,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
           (_Bool)0;
         if(set.log_level >= 4)
         {
-          return_value_spine_log$12=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
-          if(!(return_value_spine_log$12 == 0))
+          return_value_spine_log_12=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
+          if(!(return_value_spine_log_12 == 0))
             (_Bool)1;
 
           else
@@ -11763,8 +11763,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
         {
           if(set.log_level >= 4)
           {
-            return_value_spine_log$13=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
-            if(!(return_value_spine_log$13 == 0))
+            return_value_spine_log_13=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
+            if(!(return_value_spine_log_13 == 0))
               (_Bool)1;
 
             else
@@ -11775,8 +11775,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
             (_Bool)0;
           if(set.log_level >= 4)
           {
-            return_value_spine_log$14=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
-            if(!(return_value_spine_log$14 == 0))
+            return_value_spine_log_14=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
+            if(!(return_value_spine_log_14 == 0))
               (_Bool)1;
 
             else
@@ -11790,19 +11790,19 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
         else
           if(availability_method == 2)
           {
-            unsigned long int return_value_strlen$17;
-            return_value_strlen$17=strlen(host->snmp_community);
-            if(return_value_strlen$17 == 0ul)
-              tmp_if_expr$18 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
+            unsigned long int return_value_strlen_17;
+            return_value_strlen_17=strlen(host->snmp_community);
+            if(return_value_strlen_17 == 0ul)
+              tmp_if_expr_18 = host->snmp_version < 3 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$18 = (_Bool)0;
-            if(tmp_if_expr$18)
+              tmp_if_expr_18 = (_Bool)0;
+            if(tmp_if_expr_18)
             {
               if(set.log_level >= 4)
               {
-                return_value_spine_log$15=spine_log("Host[%i] SNMP Result: Device does not require SNMP", host->id);
-                if(!(return_value_spine_log$15 == 0))
+                return_value_spine_log_15=spine_log("Host[%i] SNMP Result: Device does not require SNMP", host->id);
+                if(!(return_value_spine_log_15 == 0))
                   (_Bool)1;
 
                 else
@@ -11816,8 +11816,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
             else
               if(set.log_level >= 4)
               {
-                return_value_spine_log$16=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
-                if(!(return_value_spine_log$16 == 0))
+                return_value_spine_log_16=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
+                if(!(return_value_spine_log_16 == 0))
                   (_Bool)1;
 
                 else
@@ -11833,8 +11833,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
             {
               if(set.log_level >= 4)
               {
-                return_value_spine_log$19=spine_log("Host[%i] No Host Availability Method Selected", host->id);
-                if(!(return_value_spine_log$19 == 0))
+                return_value_spine_log_19=spine_log("Host[%i] No Host Availability Method Selected", host->id);
+                if(!(return_value_spine_log_19 == 0))
                   (_Bool)1;
 
                 else
@@ -11848,8 +11848,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
             else
               if(set.log_level >= 4)
               {
-                return_value_spine_log$20=spine_log("Host[%i] PING: Result %s", host->id, (const void *)ping->ping_response);
-                if(!(return_value_spine_log$20 == 0))
+                return_value_spine_log_20=spine_log("Host[%i] PING: Result %s", host->id, (const void *)ping->ping_response);
+                if(!(return_value_spine_log_20 == 0))
                   (_Bool)1;
 
                 else
@@ -11865,8 +11865,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
       {
         if(set.log_level >= 4)
         {
-          return_value_spine_log$21=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
-          if(!(return_value_spine_log$21 == 0))
+          return_value_spine_log_21=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
+          if(!(return_value_spine_log_21 == 0))
             (_Bool)1;
 
           else
@@ -11877,8 +11877,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
           (_Bool)0;
         if(set.log_level >= 4)
         {
-          return_value_spine_log$22=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
-          if(!(return_value_spine_log$22 == 0))
+          return_value_spine_log_22=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
+          if(!(return_value_spine_log_22 == 0))
             (_Bool)1;
 
           else
@@ -11894,8 +11894,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
         {
           if(set.log_level >= 4)
           {
-            return_value_spine_log$23=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
-            if(!(return_value_spine_log$23 == 0))
+            return_value_spine_log_23=spine_log("Host[%i] SNMP Result: %s", host->id, (const void *)ping->snmp_response);
+            if(!(return_value_spine_log_23 == 0))
               (_Bool)1;
 
             else
@@ -11911,8 +11911,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
           {
             if(set.log_level >= 4)
             {
-              return_value_spine_log$24=spine_log("Host[%i] No Host Availability Method Selected", host->id);
-              if(!(return_value_spine_log$24 == 0))
+              return_value_spine_log_24=spine_log("Host[%i] No Host Availability Method Selected", host->id);
+              if(!(return_value_spine_log_24 == 0))
                 (_Bool)1;
 
               else
@@ -11926,8 +11926,8 @@ extern void update_host_status(signed int status, struct host_struct *host, stru
           else
             if(set.log_level >= 4)
             {
-              return_value_spine_log$25=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
-              if(!(return_value_spine_log$25 == 0))
+              return_value_spine_log_25=spine_log("Host[%i] PING Result: %s", host->id, (const void *)ping->ping_response);
+              if(!(return_value_spine_log_25 == 0))
                 (_Bool)1;
 
               else
@@ -11955,18 +11955,18 @@ extern signed int validate_result(char *result)
 {
   if(!(result == ((char *)NULL)))
   {
-    signed int return_value_is_numeric$3;
-    return_value_is_numeric$3=is_numeric(result);
-    if(!(return_value_is_numeric$3 == 0))
+    signed int return_value_is_numeric_3;
+    return_value_is_numeric_3=is_numeric(result);
+    if(!(return_value_is_numeric_3 == 0))
       return 1;
 
     else
     {
-      char *return_value_trim$1;
-      return_value_trim$1=trim(result);
-      signed int return_value_is_multipart_output$2;
-      return_value_is_multipart_output$2=is_multipart_output(return_value_trim$1);
-      if(!(return_value_is_multipart_output$2 == 0))
+      char *return_value_trim_1;
+      return_value_trim_1=trim(result);
+      signed int return_value_is_multipart_output_2;
+      return_value_is_multipart_output_2=is_multipart_output(return_value_trim_1);
+      if(!(return_value_is_multipart_output_2 == 0))
         return 1;
 
       else

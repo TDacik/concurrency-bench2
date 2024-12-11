@@ -1,38 +1,38 @@
-// #anon_enum$DBUS_BUS_SESSION=0$DBUS_BUS_SYSTEM=1$DBUS_BUS_STARTER=2
+// #anon_enum_DBUS_BUS_SESSION=0_DBUS_BUS_SYSTEM=1_DBUS_BUS_STARTER=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 56
-enum anonymous$2 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
+enum anonymous_2 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
 
-// #anon_enum$DBUS_DISPATCH_DATA_REMAINS=0$DBUS_DISPATCH_COMPLETE=1$DBUS_DISPATCH_NEED_MEMORY=2
+// #anon_enum_DBUS_DISPATCH_DATA_REMAINS=0_DBUS_DISPATCH_COMPLETE=1_DBUS_DISPATCH_NEED_MEMORY=2
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 79
-enum anonymous$1 { DBUS_DISPATCH_DATA_REMAINS=0, DBUS_DISPATCH_COMPLETE=1, DBUS_DISPATCH_NEED_MEMORY=2 };
+enum anonymous_1 { DBUS_DISPATCH_DATA_REMAINS=0, DBUS_DISPATCH_COMPLETE=1, DBUS_DISPATCH_NEED_MEMORY=2 };
 
-// #anon_enum$DBUS_HANDLER_RESULT_HANDLED=0$DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1$DBUS_HANDLER_RESULT_NEED_MEMORY=2
+// #anon_enum_DBUS_HANDLER_RESULT_HANDLED=0_DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1_DBUS_HANDLER_RESULT_NEED_MEMORY=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 66
 enum anonymous { DBUS_HANDLER_RESULT_HANDLED=0, DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1, DBUS_HANDLER_RESULT_NEED_MEMORY=2 };
 
-// #anon_enum$MACHINE_ERROR=-3$MACHINE_UNKNOWN=-2$MACHINE_MAC_UNKNOWN=-1$MACHINE_MACBOOKPRO_1=0$MACHINE_MACBOOKPRO_2=1$MACHINE_MACBOOKPRO_3=2$MACHINE_MACBOOKPRO_4=3$MACHINE_MACBOOKPRO_5=4$MACHINE_MACBOOKPRO_6=5$MACHINE_MACBOOKPRO_7=6$MACHINE_MACBOOKPRO_8=7$MACHINE_MACBOOKPRO_9=8$MACHINE_MACBOOK_1=9$MACHINE_MACBOOK_2=10$MACHINE_MACBOOK_3=11$MACHINE_MACBOOK_4=12$MACHINE_MACBOOK_5=13$MACHINE_MACBOOK_6=14$MACHINE_MACBOOK_7=15$MACHINE_MACBOOKAIR_1=16$MACHINE_MACBOOKAIR_2=17$MACHINE_MACBOOKAIR_3=18$MACHINE_LAST=19
+// #anon_enum_MACHINE_ERROR=-3_MACHINE_UNKNOWN=-2_MACHINE_MAC_UNKNOWN=-1_MACHINE_MACBOOKPRO_1=0_MACHINE_MACBOOKPRO_2=1_MACHINE_MACBOOKPRO_3=2_MACHINE_MACBOOKPRO_4=3_MACHINE_MACBOOKPRO_5=4_MACHINE_MACBOOKPRO_6=5_MACHINE_MACBOOKPRO_7=6_MACHINE_MACBOOKPRO_8=7_MACHINE_MACBOOKPRO_9=8_MACHINE_MACBOOK_1=9_MACHINE_MACBOOK_2=10_MACHINE_MACBOOK_3=11_MACHINE_MACBOOK_4=12_MACHINE_MACBOOK_5=13_MACHINE_MACBOOK_6=14_MACHINE_MACBOOK_7=15_MACHINE_MACBOOKAIR_1=16_MACHINE_MACBOOKAIR_2=17_MACHINE_MACBOOKAIR_3=18_MACHINE_LAST=19
 // file pommed.h line 27
-enum anonymous$3 { MACHINE_ERROR=-3, MACHINE_UNKNOWN=-2, MACHINE_MAC_UNKNOWN=-1, MACHINE_MACBOOKPRO_1=0, MACHINE_MACBOOKPRO_2=1, MACHINE_MACBOOKPRO_3=2, MACHINE_MACBOOKPRO_4=3, MACHINE_MACBOOKPRO_5=4, MACHINE_MACBOOKPRO_6=5, MACHINE_MACBOOKPRO_7=6, MACHINE_MACBOOKPRO_8=7, MACHINE_MACBOOKPRO_9=8, MACHINE_MACBOOK_1=9, MACHINE_MACBOOK_2=10, MACHINE_MACBOOK_3=11, MACHINE_MACBOOK_4=12, MACHINE_MACBOOK_5=13, MACHINE_MACBOOK_6=14, MACHINE_MACBOOK_7=15, MACHINE_MACBOOKAIR_1=16, MACHINE_MACBOOKAIR_2=17, MACHINE_MACBOOKAIR_3=18, MACHINE_LAST=19 };
+enum anonymous_3 { MACHINE_ERROR=-3, MACHINE_UNKNOWN=-2, MACHINE_MAC_UNKNOWN=-1, MACHINE_MACBOOKPRO_1=0, MACHINE_MACBOOKPRO_2=1, MACHINE_MACBOOKPRO_3=2, MACHINE_MACBOOKPRO_4=3, MACHINE_MACBOOKPRO_5=4, MACHINE_MACBOOKPRO_6=5, MACHINE_MACBOOKPRO_7=6, MACHINE_MACBOOKPRO_8=7, MACHINE_MACBOOKPRO_9=8, MACHINE_MACBOOK_1=9, MACHINE_MACBOOK_2=10, MACHINE_MACBOOK_3=11, MACHINE_MACBOOK_4=12, MACHINE_MACBOOK_5=13, MACHINE_MACBOOK_6=14, MACHINE_MACBOOK_7=15, MACHINE_MACBOOKAIR_1=16, MACHINE_MACBOOKAIR_2=17, MACHINE_MACBOOKAIR_3=18, MACHINE_LAST=19 };
 
-// #anon_enum$cfg_false=0$cfg_true=1
+// #anon_enum_cfg_false=0_cfg_true=1
 // file /usr/include/confuse.h line 205
-enum anonymous$8 { cfg_false=0, cfg_true=1 };
+enum anonymous_8 { cfg_false=0, cfg_true=1 };
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-DBusConnection
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 51
@@ -381,12 +381,12 @@ void ambient_init(signed int *r, signed int *l);
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
-// atoi$link2
+static inline signed int atoi_link1(const char *__nptr_link1);
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2);
+static inline signed int atoi_link2(const char *__nptr_link2);
 // audio_cleanup
 // file audio.c line 272
 void audio_cleanup(void);
@@ -464,7 +464,7 @@ void cfg_error(struct cfg_t *, const char *, ...);
 void cfg_free(struct cfg_t *);
 // cfg_getbool
 // file /usr/include/confuse.h line 704
-enum anonymous$8 cfg_getbool(struct cfg_t *, const char *);
+enum anonymous_8 cfg_getbool(struct cfg_t *, const char *);
 // cfg_getint
 // file /usr/include/confuse.h line 625
 signed long int cfg_getint(struct cfg_t *, const char *);
@@ -497,7 +497,7 @@ signed int (*cfg_set_validate_func(struct cfg_t *, const char *, signed int (*)(
 static signed int check_ac_state(void);
 // check_machine_dmi
 // file pommed.c line 649
-static enum anonymous$3 check_machine_dmi(void);
+static enum anonymous_3 check_machine_dmi(void);
 // clock_gettime
 // file /usr/include/time.h line 342
 extern signed int clock_gettime(signed int, struct timespec *);
@@ -530,7 +530,7 @@ static signed int config_validate_string(struct cfg_t *cfg, struct cfg_opt_t *op
 extern signed int daemon(signed int, signed int);
 // dbus_bus_get
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 40
-struct DBusConnection * dbus_bus_get(enum anonymous$2, struct DBusError *);
+struct DBusConnection * dbus_bus_get(enum anonymous_2, struct DBusError *);
 // dbus_bus_request_name
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 62
 signed int dbus_bus_request_name(struct DBusConnection *, const char *, unsigned int, struct DBusError *);
@@ -539,7 +539,7 @@ signed int dbus_bus_request_name(struct DBusConnection *, const char *, unsigned
 unsigned int dbus_connection_add_filter(struct DBusConnection *, enum anonymous (*)(struct DBusConnection *, struct DBusMessage *, void *), void *, void (*)(void *));
 // dbus_connection_dispatch
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 220
-enum anonymous$1 dbus_connection_dispatch(struct DBusConnection *);
+enum anonymous_1 dbus_connection_dispatch(struct DBusConnection *);
 // dbus_connection_flush
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 200
 void dbus_connection_flush(struct DBusConnection *);
@@ -708,15 +708,15 @@ static signed int evdev_try_add(signed int fd);
 // evloop_add
 // file evloop.h line 41
 signed int evloop_add(signed int fd, unsigned int events, void (*cb)(signed int, unsigned int));
-// evloop_add::cb$object
+// evloop_add::cb_object
 //
-void cb$object(signed int, unsigned int);
+void cb_object(signed int, unsigned int);
 // evloop_add_timer
 // file evloop.c line 218
 signed int evloop_add_timer(signed int timeout, void (*cb)(signed int, unsigned long int));
-// evloop_add_timer::cb$object
+// evloop_add_timer::cb_object
 //
-void cb$object(signed int, unsigned long int);
+void cb_object(signed int, unsigned long int);
 // evloop_cleanup
 // file evloop.h line 62
 void evloop_cleanup(void);
@@ -813,9 +813,9 @@ static void gma950_backlight_unmap(void);
 // has_kbd_backlight
 // file kbd_backlight.h line 64
 static inline signed int has_kbd_backlight(void);
-// has_kbd_backlight$link1
+// has_kbd_backlight_link1
 // file mactel/../kbd_backlight.h line 64
-static inline signed int has_kbd_backlight$link1(void);
+static inline signed int has_kbd_backlight_link1(void);
 // inb
 // file /usr/include/x86_64-linux-gnu/sys/io.h line 43
 static inline unsigned char inb(unsigned short int __port);
@@ -1061,16 +1061,16 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$7 *);
+extern signed int pthread_cond_destroy(union anonymous_7 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$7 *, const union anonymous$5 *);
+extern signed int pthread_cond_init(union anonymous_7 *, const union anonymous_5 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$7 *);
+extern signed int pthread_cond_signal(union anonymous_7 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$7 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_7 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1079,16 +1079,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern void pthread_exit(void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -1098,9 +1098,9 @@ extern struct dirent * readdir(struct __dirstream *);
 // readl
 // file mactel/x1600_backlight.c line 56
 static inline unsigned int readl(const volatile void *addr);
-// readl$link1
+// readl_link1
 // file mactel/gma950_backlight.c line 87
-static inline unsigned int readl$link1(const volatile void *addr$link1);
+static inline unsigned int readl_link1(const volatile void *addr_link1);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -1221,9 +1221,9 @@ extern signed int snprintf(char *, unsigned long int, const char *, ...);
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf);
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1);
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1);
 // strcat
 // file /usr/include/string.h line 137
 extern char * strcat(char *, const char *);
@@ -1311,9 +1311,9 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // writel
 // file mactel/x1600_backlight.c line 62
 static inline void writel(unsigned int b, volatile void *addr);
-// writel$link1
+// writel_link1
 // file mactel/gma950_backlight.c line 93
-static inline void writel$link1(unsigned int b$link1, volatile void *addr$link1);
+static inline void writel_link1(unsigned int b_link1, volatile void *addr_link1);
 // x1600_backlight_fix_config
 // file lcd_backlight.h line 41
 void x1600_backlight_fix_config(void);
@@ -1339,7 +1339,7 @@ void x1600_backlight_toggle(signed int lvl);
 // file mactel/x1600_backlight.c line 124
 static void x1600_backlight_unmap(void);
 
-struct anonymous$6
+struct anonymous_6
 {
   // __lock
   signed int __lock;
@@ -1359,7 +1359,7 @@ struct anonymous$6
   unsigned int __broadcast_seq;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -1367,10 +1367,10 @@ union anonymous$5
   signed int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
-  struct anonymous$6 __data;
+  struct anonymous_6 __data;
   // __size
   char __size[48l];
   // __align
@@ -1405,7 +1405,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1704,7 +1704,7 @@ struct cfg_defvalue_t
   // fpnumber
   double fpnumber;
   // boolean
-  enum anonymous$8 boolean;
+  enum anonymous_8 boolean;
   // string
   char *string;
   // parsed
@@ -1766,7 +1766,7 @@ union cfg_value_t
   // fpnumber
   double fpnumber;
   // boolean
-  enum anonymous$8 boolean;
+  enum anonymous_8 boolean;
   // string
   char *string;
   // section
@@ -1816,9 +1816,9 @@ struct dspdata
   // command
   signed int command;
   // mutex
-  union anonymous$4 mutex;
+  union anonymous_4 mutex;
   // cond
-  union anonymous$7 cond;
+  union anonymous_7 cond;
   // thread
   unsigned long int thread;
   // sample
@@ -1910,7 +1910,7 @@ struct itimerspec
 struct machine_ops
 {
   // type
-  enum anonymous$3 type;
+  enum anonymous_3 type;
   // lcd_backlight_probe
   signed int (*lcd_backlight_probe)(void);
   // lcd_backlight_step
@@ -2222,7 +2222,7 @@ struct _appleir_cfg appleir_cfg;
 // file conffile.c line 136
 static struct cfg_opt_t appleir_opts[2l] = { { .name="enabled", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2231,7 +2231,7 @@ static struct cfg_opt_t appleir_opts[2l] = { { .name="enabled", .type=(enum cfg_
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2249,7 +2249,7 @@ struct _audio_info audio_info;
 // file conffile.c line 96
 static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2258,7 +2258,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="card", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string="default",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2268,7 +2268,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="init", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2278,7 +2278,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="step", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)10, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)10, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2288,7 +2288,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="beep", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2297,7 +2297,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="volume", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string="PCM",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2307,7 +2307,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="speakers", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string="Front",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2317,7 +2317,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="headphones", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string="Headphone",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2327,7 +2327,7 @@ static struct cfg_opt_t audio_opts[9l] = { { .name="disabled", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2348,7 +2348,7 @@ static signed int beep_fd;
 // file conffile.c line 128
 static struct cfg_opt_t beep_opts[3l] = { { .name="enabled", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)0,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)0,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2357,7 +2357,7 @@ static struct cfg_opt_t beep_opts[3l] = { { .name="enabled", .type=(enum cfg_typ
     .freecb=((void (*)(void *))NULL) },
     { .name="beepfile", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string="/usr/share/pommed/goutte.wav",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2367,7 +2367,7 @@ static struct cfg_opt_t beep_opts[3l] = { { .name="enabled", .type=(enum cfg_typ
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2408,7 +2408,7 @@ struct _eject_cfg eject_cfg;
 // file conffile.c line 121
 static struct cfg_opt_t eject_opts[3l] = { { .name="enabled", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2417,7 +2417,7 @@ static struct cfg_opt_t eject_opts[3l] = { { .name="enabled", .type=(enum cfg_ty
     .freecb=((void (*)(void *))NULL) },
     { .name="device", .type=(enum cfg_type_t)3, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string="/dev/dvd",
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2427,7 +2427,7 @@ static struct cfg_opt_t eject_opts[3l] = { { .name="enabled", .type=(enum cfg_ty
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2444,9 +2444,9 @@ static struct DBusError err;
 // fd
 // file mactel/x1600_backlight.c line 50
 static signed int fd = -1;
-// fd$link1
+// fd_link1
 // file mactel/gma950_backlight.c line 73
-static signed int fd$link1 = -1;
+static signed int fd_link1 = -1;
 // general_cfg
 // file conffile.c line 37
 struct _general_cfg general_cfg;
@@ -2454,7 +2454,7 @@ struct _general_cfg general_cfg;
 // file conffile.c line 54
 static struct cfg_opt_t general_opts[2l] = { { .name="fnmode", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2464,7 +2464,7 @@ static struct cfg_opt_t general_opts[2l] = { { .name="fnmode", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2488,7 +2488,7 @@ struct _kbd_cfg kbd_cfg;
 // file conffile.c line 109
 static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)100, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)100, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2498,7 +2498,7 @@ static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="step", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)10, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)10, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2508,7 +2508,7 @@ static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="on_threshold", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)20, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)20, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2518,7 +2518,7 @@ static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="off_threshold", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)40, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)40, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2528,7 +2528,7 @@ static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="auto", .type=(enum cfg_type_t)4, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)1,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)1,
     .string=((char *)NULL), .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2537,7 +2537,7 @@ static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="idle_timer", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)60, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)60, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2547,7 +2547,7 @@ static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name="idle_level", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2557,7 +2557,7 @@ static struct cfg_opt_t kbd_opts[8l] = { { .name="default", .type=(enum cfg_type
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2578,7 +2578,7 @@ struct _lcd_gma950_cfg lcd_gma950_cfg;
 // file conffile.c line 78
 static struct cfg_opt_t lcd_gma950_opts[4l] = { { .name="init", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2588,7 +2588,7 @@ static struct cfg_opt_t lcd_gma950_opts[4l] = { { .name="init", .type=(enum cfg_
     .freecb=((void (*)(void *))NULL) },
     { .name="step", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0x0f, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0x0f, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2598,7 +2598,7 @@ static struct cfg_opt_t lcd_gma950_opts[4l] = { { .name="init", .type=(enum cfg_
     .freecb=((void (*)(void *))NULL) },
     { .name="on_batt", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2608,7 +2608,7 @@ static struct cfg_opt_t lcd_gma950_opts[4l] = { { .name="init", .type=(enum cfg_
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2623,7 +2623,7 @@ struct _lcd_nv8600mgt_cfg lcd_nv8600mgt_cfg;
 // file conffile.c line 86
 static struct cfg_opt_t lcd_nv8600mgt_opts[4l] = { { .name="init", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2633,7 +2633,7 @@ static struct cfg_opt_t lcd_nv8600mgt_opts[4l] = { { .name="init", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="step", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)1, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2643,7 +2643,7 @@ static struct cfg_opt_t lcd_nv8600mgt_opts[4l] = { { .name="init", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name="on_batt", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2653,7 +2653,7 @@ static struct cfg_opt_t lcd_nv8600mgt_opts[4l] = { { .name="init", .type=(enum c
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2668,7 +2668,7 @@ struct _lcd_sysfs_cfg lcd_sysfs_cfg;
 // file conffile.c line 60
 static struct cfg_opt_t lcd_sysfs_opts[4l] = { { .name="init", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2678,7 +2678,7 @@ static struct cfg_opt_t lcd_sysfs_opts[4l] = { { .name="init", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="step", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)8, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)8, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2688,7 +2688,7 @@ static struct cfg_opt_t lcd_sysfs_opts[4l] = { { .name="init", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="on_batt", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2698,7 +2698,7 @@ static struct cfg_opt_t lcd_sysfs_opts[4l] = { { .name="init", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2713,7 +2713,7 @@ struct _lcd_x1600_cfg lcd_x1600_cfg;
 // file conffile.c line 70
 static struct cfg_opt_t lcd_x1600_opts[4l] = { { .name="init", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)-1, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2723,7 +2723,7 @@ static struct cfg_opt_t lcd_x1600_opts[4l] = { { .name="init", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="step", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)10, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)10, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2733,7 +2733,7 @@ static struct cfg_opt_t lcd_x1600_opts[4l] = { { .name="init", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name="on_batt", .type=(enum cfg_type_t)1, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2743,7 +2743,7 @@ static struct cfg_opt_t lcd_x1600_opts[4l] = { { .name="init", .type=(enum cfg_t
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2754,9 +2754,9 @@ static struct cfg_opt_t lcd_x1600_opts[4l] = { { .name="init", .type=(enum cfg_t
 // length
 // file mactel/x1600_backlight.c line 53
 static signed long int length = (signed long int)0;
-// length$link1
+// length_link1
 // file mactel/gma950_backlight.c line 76
-static signed long int length$link1 = (signed long int)0;
+static signed long int length_link1 = (signed long int)0;
 // max_brightness
 // file sysfs_backlight.c line 98
 static char *max_brightness[7l] = { "/dev/null", "/sys/class/backlight/mbp_backlight/max_brightness",
@@ -2770,69 +2770,69 @@ static char *max_brightness[7l] = { "/dev/null", "/sys/class/backlight/mbp_backl
 struct machine_ops mb_mops[19l];
 // mb_mops
 // file pommed.c line 243
-struct machine_ops mb_mops[19l] = { { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_1, .lcd_backlight_probe=x1600_backlight_probe,
+struct machine_ops mb_mops[19l] = { { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_1, .lcd_backlight_probe=x1600_backlight_probe,
     .lcd_backlight_step=x1600_backlight_step,
     .lcd_backlight_toggle=x1600_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_2, .lcd_backlight_probe=x1600_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_2, .lcd_backlight_probe=x1600_backlight_probe,
     .lcd_backlight_step=x1600_backlight_step,
     .lcd_backlight_toggle=x1600_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_3, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_3, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_4, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_4, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_5, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_5, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_6, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_6, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_7, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_7, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_8, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_8, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKPRO_9, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKPRO_9, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOK_1, .lcd_backlight_probe=gma950_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOK_1, .lcd_backlight_probe=gma950_backlight_probe,
     .lcd_backlight_step=gma950_backlight_step,
     .lcd_backlight_toggle=gma950_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOK_2, .lcd_backlight_probe=gma950_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOK_2, .lcd_backlight_probe=gma950_backlight_probe,
     .lcd_backlight_step=gma950_backlight_step,
     .lcd_backlight_toggle=gma950_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOK_3, .lcd_backlight_probe=gma950_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOK_3, .lcd_backlight_probe=gma950_backlight_probe,
     .lcd_backlight_step=gma950_backlight_step,
     .lcd_backlight_toggle=gma950_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOK_4, .lcd_backlight_probe=gma950_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOK_4, .lcd_backlight_probe=gma950_backlight_probe,
     .lcd_backlight_step=gma950_backlight_step,
     .lcd_backlight_toggle=gma950_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOK_5, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOK_5, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOK_6, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOK_6, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOK_7, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOK_7, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKAIR_1, .lcd_backlight_probe=gma950_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKAIR_1, .lcd_backlight_probe=gma950_backlight_probe,
     .lcd_backlight_step=gma950_backlight_step,
     .lcd_backlight_toggle=gma950_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKAIR_2, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKAIR_2, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle },
-    { .type=(enum anonymous$3)MACHINE_MACBOOKAIR_3, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
+    { .type=(enum anonymous_3)MACHINE_MACBOOKAIR_3, .lcd_backlight_probe=mbp_sysfs_backlight_probe,
     .lcd_backlight_step=sysfs_backlight_step,
     .lcd_backlight_toggle=sysfs_backlight_toggle } };
 // memory
 // file mactel/x1600_backlight.c line 51
 static char *memory = (char *)(void *)0;
-// memory$link1
+// memory_link1
 // file mactel/gma950_backlight.c line 74
-static char *memory$link1 = (char *)(void *)0;
+static char *memory_link1 = (char *)(void *)0;
 // mixer_hdl
 // file audio.c line 36
 static struct _snd_mixer *mixer_hdl;
@@ -2849,7 +2849,7 @@ static struct cfg_opt_t opts[11l];
 // file conffile.c line 143
 static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=general_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=general_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2858,7 +2858,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="lcd_sysfs", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=lcd_sysfs_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=lcd_sysfs_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2867,7 +2867,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="lcd_x1600", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=lcd_x1600_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=lcd_x1600_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2876,7 +2876,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="lcd_gma950", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=lcd_gma950_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=lcd_gma950_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2885,7 +2885,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="lcd_nv8600mgt", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=lcd_nv8600mgt_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=lcd_nv8600mgt_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2895,7 +2895,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="audio", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=audio_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=audio_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2904,7 +2904,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="kbd", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=kbd_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=kbd_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2913,7 +2913,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="eject", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=eject_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=eject_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2922,7 +2922,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="beep", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=beep_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=beep_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2931,7 +2931,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name="appleir", .type=(enum cfg_type_t)5, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=appleir_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=appleir_opts, .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) }, .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
     .simple_value=NULL,
@@ -2940,7 +2940,7 @@ static struct cfg_opt_t opts[11l] = { { .name="general", .type=(enum cfg_type_t)
     .freecb=((void (*)(void *))NULL) },
     { .name=((char *)NULL), .type=(enum cfg_type_t)0, .nvalues=(unsigned int)0,
     .values=((union cfg_value_t **)NULL), .flags=0,
-    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous$8)cfg_false,
+    .subopts=((struct cfg_opt_t *)NULL), .def={ .number=(signed long int)0, .fpnumber=(double)0, .boolean=(enum anonymous_8)cfg_false,
     .string=((char *)NULL),
     .parsed=((char *)NULL) },
     .func=((signed int (*)(struct cfg_t *, struct cfg_opt_t *, signed int, const char **))NULL),
@@ -2978,9 +2978,9 @@ extern struct _IO_FILE *stdout;
 // sysfs_resource
 // file mactel/x1600_backlight.c line 52
 static char sysfs_resource[64l];
-// sysfs_resource$link1
+// sysfs_resource_link1
 // file mactel/gma950_backlight.c line 75
-static char sysfs_resource$link1[64l];
+static char sysfs_resource_link1[64l];
 // timer_job_id
 // file evloop.c line 52
 static signed int timer_job_id;
@@ -3007,36 +3007,36 @@ static struct pommed_watch *watches;
 // file mactel/../ambient.h line 40
 void ambient_get(signed int *r, signed int *l)
 {
-  signed int ambient_get$$1$$fd;
+  signed int ambient_get__1__fd;
   signed int ret;
   char buf[16l];
   char *p;
-  signed long int return_value_read$1;
-  unsigned long int return_value_strlen$2;
-  char *return_value___builtin_strchr$3;
-  char *tmp_post$4;
+  signed long int return_value_read_1;
+  unsigned long int return_value_strlen_2;
+  char *return_value___builtin_strchr_3;
+  char *tmp_post_4;
   if(!(smcpath == ((char *)NULL)))
   {
-    ambient_get$$1$$fd=open(smcpath, 00);
-    if(!(ambient_get$$1$$fd >= 0))
+    ambient_get__1__fd=open(smcpath, 00);
+    if(!(ambient_get__1__fd >= 0))
       goto out_error;
 
-    return_value_read$1=read(ambient_get$$1$$fd, (void *)buf, (unsigned long int)16);
-    ret = (signed int)return_value_read$1;
-    close(ambient_get$$1$$fd);
+    return_value_read_1=read(ambient_get__1__fd, (void *)buf, (unsigned long int)16);
+    ret = (signed int)return_value_read_1;
+    close(ambient_get__1__fd);
     if(ret >= 16 || !(ret >= 1))
       goto out_error;
 
-    return_value_strlen$2=strlen(buf);
-    buf[(signed long int)return_value_strlen$2] = (char)0;
-    return_value___builtin_strchr$3=__builtin_strchr(buf, 44);
-    p = return_value___builtin_strchr$3;
-    tmp_post$4 = p;
+    return_value_strlen_2=strlen(buf);
+    buf[(signed long int)return_value_strlen_2] = (char)0;
+    return_value___builtin_strchr_3=__builtin_strchr(buf, 44);
+    p = return_value___builtin_strchr_3;
+    tmp_post_4 = p;
     p = p + 1l;
-    *tmp_post$4 = (char)0;
-    *r=atoi$link2(p);
+    *tmp_post_4 = (char)0;
+    *r=atoi_link2(p);
     p = buf + (signed long int)1;
-    *l=atoi$link2(p);
+    *l=atoi_link2(p);
     logdebug("Ambient light: right %d, left %d\n", *r, *l);
     ambient_info.right = *r;
     ambient_info.left = *l;
@@ -3063,11 +3063,11 @@ void ambient_init(signed int *r, signed int *l)
   char *p;
   struct __dirstream *pdev;
   struct dirent *pdevent;
-  signed int ambient_init$$1$$fd;
+  signed int ambient_init__1__fd;
   signed int ret;
   smcpath = (char *)(void *)0;
   pdev=opendir("/sys/class/hwmon");
-  signed int tmp_statement_expression$8;
+  signed int tmp_statement_expression_8;
   if(!(pdev == ((struct __dirstream *)NULL)))
   {
     do
@@ -3084,30 +3084,30 @@ void ambient_init(signed int *r, signed int *l)
 
         else
         {
-          ambient_init$$1$$fd=open(devpath, 00);
-          if(!(ambient_init$$1$$fd >= 0))
+          ambient_init__1__fd=open(devpath, 00);
+          if(!(ambient_init__1__fd >= 0))
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            char *return_value_strerror$2;
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            logmsg(3, "Could not open %s: %s", (const void *)devpath, return_value_strerror$2);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            char *return_value_strerror_2;
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            logmsg(3, "Could not open %s: %s", (const void *)devpath, return_value_strerror_2);
             continue;
           }
 
           memset((void *)devname, 0, sizeof(char [9l]) /*9ul*/ );
-          signed long int return_value_read$3;
-          return_value_read$3=read(ambient_init$$1$$fd, (void *)devname, sizeof(char [9l]) /*9ul*/  - (unsigned long int)1);
-          ret = (signed int)return_value_read$3;
-          close(ambient_init$$1$$fd);
+          signed long int return_value_read_3;
+          return_value_read_3=read(ambient_init__1__fd, (void *)devname, sizeof(char [9l]) /*9ul*/  - (unsigned long int)1);
+          ret = (signed int)return_value_read_3;
+          close(ambient_init__1__fd);
           if((unsigned long int)ret == 8ul)
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$9;
-            return_value___builtin_strcmp$9=__builtin_strcmp(devname, "applesmc");
-            tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-            if(tmp_statement_expression$8 == 0)
+            signed int return_value___builtin_strcmp_9;
+            return_value___builtin_strcmp_9=__builtin_strcmp(devname, "applesmc");
+            tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+            if(tmp_statement_expression_8 == 0)
             {
               p=strrchr(devpath, 47);
               *p = (char)0;
@@ -3115,20 +3115,20 @@ void ambient_init(signed int *r, signed int *l)
               smcpath=realpath(devpath, (char *)(void *)0);
               if(smcpath == ((char *)NULL))
               {
-                signed int *return_value___errno_location$4;
-                return_value___errno_location$4=__errno_location();
-                char *return_value_strerror$5;
-                return_value_strerror$5=strerror(*return_value___errno_location$4);
-                logmsg(3, "Could not dereference applesmc device path: %s\n", return_value_strerror$5);
+                signed int *return_value___errno_location_4;
+                return_value___errno_location_4=__errno_location();
+                char *return_value_strerror_5;
+                return_value_strerror_5=strerror(*return_value___errno_location_4);
+                logmsg(3, "Could not dereference applesmc device path: %s\n", return_value_strerror_5);
                 break;
               }
 
               logmsg(6, "Dereferenced applesmc to %s", smcpath);
-              unsigned long int return_value_strlen$6;
-              return_value_strlen$6=strlen(smcpath);
-              void *return_value_realloc$7;
-              return_value_realloc$7=realloc((void *)smcpath, return_value_strlen$6 + (unsigned long int)1 + (unsigned long int)6);
-              smcpath = (char *)return_value_realloc$7;
+              unsigned long int return_value_strlen_6;
+              return_value_strlen_6=strlen(smcpath);
+              void *return_value_realloc_7;
+              return_value_realloc_7=realloc((void *)smcpath, return_value_strlen_6 + (unsigned long int)1 + (unsigned long int)6);
+              smcpath = (char *)return_value_realloc_7;
               if(smcpath == ((char *)NULL))
                 break;
 
@@ -3156,27 +3156,27 @@ void ambient_init(signed int *r, signed int *l)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
-// atoi$link2
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2)
+static inline signed int atoi_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link2;
 }
 
 // audio_cleanup
@@ -3222,9 +3222,9 @@ signed int audio_init(void)
   vol_elem = (struct _snd_mixer_elem *)(void *)0;
   spkr_elem = (struct _snd_mixer_elem *)(void *)0;
   head_elem = (struct _snd_mixer_elem *)(void *)0;
-  signed int tmp_statement_expression$8;
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$14;
+  signed int tmp_statement_expression_8;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_14;
   if(!(audio_cfg.disabled == 0))
   {
     audio_info.level = 0;
@@ -3239,9 +3239,9 @@ signed int audio_init(void)
     ret=snd_mixer_open(&mixer_hdl, 0);
     if(!(ret >= 0))
     {
-      const char *return_value_snd_strerror$1;
-      return_value_snd_strerror$1=snd_strerror(ret);
-      logdebug("Failed to open mixer: %s\n", return_value_snd_strerror$1);
+      const char *return_value_snd_strerror_1;
+      return_value_snd_strerror_1=snd_strerror(ret);
+      logdebug("Failed to open mixer: %s\n", return_value_snd_strerror_1);
       mixer_hdl = (struct _snd_mixer *)(void *)0;
       return -1;
     }
@@ -3249,9 +3249,9 @@ signed int audio_init(void)
     ret=snd_mixer_attach(mixer_hdl, audio_cfg.card);
     if(!(ret >= 0))
     {
-      const char *return_value_snd_strerror$2;
-      return_value_snd_strerror$2=snd_strerror(ret);
-      logdebug("Failed to attach mixer: %s\n", return_value_snd_strerror$2);
+      const char *return_value_snd_strerror_2;
+      return_value_snd_strerror_2=snd_strerror(ret);
+      logdebug("Failed to attach mixer: %s\n", return_value_snd_strerror_2);
       snd_mixer_close(mixer_hdl);
       return -1;
     }
@@ -3259,9 +3259,9 @@ signed int audio_init(void)
     ret=snd_mixer_selem_register(mixer_hdl, (struct snd_mixer_selem_regopt *)(void *)0, (struct _snd_mixer_class **)(void *)0);
     if(!(ret >= 0))
     {
-      const char *return_value_snd_strerror$3;
-      return_value_snd_strerror$3=snd_strerror(ret);
-      logdebug("Failed to register mixer: %s\n", return_value_snd_strerror$3);
+      const char *return_value_snd_strerror_3;
+      return_value_snd_strerror_3=snd_strerror(ret);
+      logdebug("Failed to register mixer: %s\n", return_value_snd_strerror_3);
       snd_mixer_detach(mixer_hdl, audio_cfg.card);
       snd_mixer_close(mixer_hdl);
       return -1;
@@ -3270,9 +3270,9 @@ signed int audio_init(void)
     ret=snd_mixer_load(mixer_hdl);
     if(!(ret >= 0))
     {
-      const char *return_value_snd_strerror$4;
-      return_value_snd_strerror$4=snd_strerror(ret);
-      logdebug("Failed to load mixer: %s\n", return_value_snd_strerror$4);
+      const char *return_value_snd_strerror_4;
+      return_value_snd_strerror_4=snd_strerror(ret);
+      logdebug("Failed to load mixer: %s\n", return_value_snd_strerror_4);
       snd_mixer_detach(mixer_hdl, audio_cfg.card);
       snd_mixer_close(mixer_hdl);
       return -1;
@@ -3280,48 +3280,48 @@ signed int audio_init(void)
 
     do
     {
-      unsigned long int return_value_snd_mixer_selem_id_sizeof$5;
-      return_value_snd_mixer_selem_id_sizeof$5=snd_mixer_selem_id_sizeof();
-      void *return_value___builtin_alloca$6;
-      return_value___builtin_alloca$6=__builtin_alloca(return_value_snd_mixer_selem_id_sizeof$5);
-      *(&sid) = (struct _snd_mixer_selem_id *)return_value___builtin_alloca$6;
-      unsigned long int return_value_snd_mixer_selem_id_sizeof$7;
-      return_value_snd_mixer_selem_id_sizeof$7=snd_mixer_selem_id_sizeof();
-      memset((void *)*(&sid), 0, return_value_snd_mixer_selem_id_sizeof$7);
+      unsigned long int return_value_snd_mixer_selem_id_sizeof_5;
+      return_value_snd_mixer_selem_id_sizeof_5=snd_mixer_selem_id_sizeof();
+      void *return_value___builtin_alloca_6;
+      return_value___builtin_alloca_6=__builtin_alloca(return_value_snd_mixer_selem_id_sizeof_5);
+      *(&sid) = (struct _snd_mixer_selem_id *)return_value___builtin_alloca_6;
+      unsigned long int return_value_snd_mixer_selem_id_sizeof_7;
+      return_value_snd_mixer_selem_id_sizeof_7=snd_mixer_selem_id_sizeof();
+      memset((void *)*(&sid), 0, return_value_snd_mixer_selem_id_sizeof_7);
     }
     while((_Bool)0);
     elem=snd_mixer_first_elem(mixer_hdl);
     while(!(elem == ((struct _snd_mixer_elem *)NULL)))
     {
       snd_mixer_selem_get_id(elem, sid);
-      unsigned long int audio_init$$1$$7$$1$$1$$__s1_len;
-      unsigned long int audio_init$$1$$7$$1$$1$$__s2_len;
-      const char *return_value_snd_mixer_selem_id_get_name$9;
-      return_value_snd_mixer_selem_id_get_name$9=snd_mixer_selem_id_get_name(sid);
-      signed int return_value___builtin_strcmp$10;
-      return_value___builtin_strcmp$10=__builtin_strcmp(return_value_snd_mixer_selem_id_get_name$9, audio_cfg.vol);
-      tmp_statement_expression$8 = return_value___builtin_strcmp$10;
-      if(tmp_statement_expression$8 == 0)
+      unsigned long int audio_init__1__7__1__1____s1_len;
+      unsigned long int audio_init__1__7__1__1____s2_len;
+      const char *return_value_snd_mixer_selem_id_get_name_9;
+      return_value_snd_mixer_selem_id_get_name_9=snd_mixer_selem_id_get_name(sid);
+      signed int return_value___builtin_strcmp_10;
+      return_value___builtin_strcmp_10=__builtin_strcmp(return_value_snd_mixer_selem_id_get_name_9, audio_cfg.vol);
+      tmp_statement_expression_8 = return_value___builtin_strcmp_10;
+      if(tmp_statement_expression_8 == 0)
         vol_elem = elem;
 
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      const char *return_value_snd_mixer_selem_id_get_name$12;
-      return_value_snd_mixer_selem_id_get_name$12=snd_mixer_selem_id_get_name(sid);
-      signed int return_value___builtin_strcmp$13;
-      return_value___builtin_strcmp$13=__builtin_strcmp(return_value_snd_mixer_selem_id_get_name$12, audio_cfg.spkr);
-      tmp_statement_expression$11 = return_value___builtin_strcmp$13;
-      if(tmp_statement_expression$11 == 0)
+      const char *return_value_snd_mixer_selem_id_get_name_12;
+      return_value_snd_mixer_selem_id_get_name_12=snd_mixer_selem_id_get_name(sid);
+      signed int return_value___builtin_strcmp_13;
+      return_value___builtin_strcmp_13=__builtin_strcmp(return_value_snd_mixer_selem_id_get_name_12, audio_cfg.spkr);
+      tmp_statement_expression_11 = return_value___builtin_strcmp_13;
+      if(tmp_statement_expression_11 == 0)
         spkr_elem = elem;
 
-      unsigned long int audio_init$$1$$7$$1$$3$$__s1_len;
-      unsigned long int audio_init$$1$$7$$1$$3$$__s2_len;
-      const char *return_value_snd_mixer_selem_id_get_name$15;
-      return_value_snd_mixer_selem_id_get_name$15=snd_mixer_selem_id_get_name(sid);
-      signed int return_value___builtin_strcmp$16;
-      return_value___builtin_strcmp$16=__builtin_strcmp(return_value_snd_mixer_selem_id_get_name$15, audio_cfg.head);
-      tmp_statement_expression$14 = return_value___builtin_strcmp$16;
-      if(tmp_statement_expression$14 == 0)
+      unsigned long int audio_init__1__7__1__3____s1_len;
+      unsigned long int audio_init__1__7__1__3____s2_len;
+      const char *return_value_snd_mixer_selem_id_get_name_15;
+      return_value_snd_mixer_selem_id_get_name_15=snd_mixer_selem_id_get_name(sid);
+      signed int return_value___builtin_strcmp_16;
+      return_value___builtin_strcmp_16=__builtin_strcmp(return_value_snd_mixer_selem_id_get_name_15, audio_cfg.head);
+      tmp_statement_expression_14 = return_value___builtin_strcmp_16;
+      if(tmp_statement_expression_14 == 0)
         head_elem = elem;
 
       elem=snd_mixer_elem_next(elem);
@@ -3348,9 +3348,9 @@ signed int audio_init(void)
           vol = vol_max;
 
         snd_mixer_selem_set_playback_volume(vol_elem, (enum _snd_mixer_selem_channel_id)0, vol);
-        signed int return_value_snd_mixer_selem_is_playback_mono$17;
-        return_value_snd_mixer_selem_is_playback_mono$17=snd_mixer_selem_is_playback_mono(vol_elem);
-        if(return_value_snd_mixer_selem_is_playback_mono$17 == 0)
+        signed int return_value_snd_mixer_selem_is_playback_mono_17;
+        return_value_snd_mixer_selem_is_playback_mono_17=snd_mixer_selem_is_playback_mono(vol_elem);
+        if(return_value_snd_mixer_selem_is_playback_mono_17 == 0)
           snd_mixer_selem_set_playback_volume(vol_elem, (enum _snd_mixer_selem_channel_id)1, vol);
 
       }
@@ -3369,18 +3369,18 @@ signed int audio_init(void)
 // file audio.c line 104
 static void audio_set_mute_elem(struct _snd_mixer_elem *elem)
 {
-  signed int return_value_snd_mixer_selem_is_active$3;
-  return_value_snd_mixer_selem_is_active$3=snd_mixer_selem_is_active(elem);
-  signed int return_value_snd_mixer_selem_has_playback_switch$2;
-  if(!(return_value_snd_mixer_selem_is_active$3 == 0))
+  signed int return_value_snd_mixer_selem_is_active_3;
+  return_value_snd_mixer_selem_is_active_3=snd_mixer_selem_is_active(elem);
+  signed int return_value_snd_mixer_selem_has_playback_switch_2;
+  if(!(return_value_snd_mixer_selem_is_active_3 == 0))
   {
-    return_value_snd_mixer_selem_has_playback_switch$2=snd_mixer_selem_has_playback_switch(elem);
-    if(!(return_value_snd_mixer_selem_has_playback_switch$2 == 0))
+    return_value_snd_mixer_selem_has_playback_switch_2=snd_mixer_selem_has_playback_switch(elem);
+    if(!(return_value_snd_mixer_selem_has_playback_switch_2 == 0))
     {
       snd_mixer_selem_set_playback_switch(elem, (enum _snd_mixer_selem_channel_id)0, play);
-      signed int return_value_snd_mixer_selem_is_playback_mono$1;
-      return_value_snd_mixer_selem_is_playback_mono$1=snd_mixer_selem_is_playback_mono(elem);
-      if(return_value_snd_mixer_selem_is_playback_mono$1 == 0)
+      signed int return_value_snd_mixer_selem_is_playback_mono_1;
+      return_value_snd_mixer_selem_is_playback_mono_1=snd_mixer_selem_is_playback_mono(elem);
+      if(return_value_snd_mixer_selem_is_playback_mono_1 == 0)
         snd_mixer_selem_set_playback_switch(elem, (enum _snd_mixer_selem_channel_id)1, play);
 
     }
@@ -3400,9 +3400,9 @@ void audio_step(signed int dir)
     if(!(vol_elem == ((struct _snd_mixer_elem *)NULL)))
     {
       snd_mixer_handle_events(mixer_hdl);
-      signed int return_value_snd_mixer_selem_is_active$1;
-      return_value_snd_mixer_selem_is_active$1=snd_mixer_selem_is_active(vol_elem);
-      if(!(return_value_snd_mixer_selem_is_active$1 == 0))
+      signed int return_value_snd_mixer_selem_is_active_1;
+      return_value_snd_mixer_selem_is_active_1=snd_mixer_selem_is_active(vol_elem);
+      if(!(return_value_snd_mixer_selem_is_active_1 == 0))
       {
         snd_mixer_selem_get_playback_volume(vol_elem, (enum _snd_mixer_selem_channel_id)0, &vol);
         logdebug("Mixer volume: %ld\n", vol);
@@ -3428,9 +3428,9 @@ void audio_step(signed int dir)
           else
             goto __CPROVER_DUMP_L11;
         snd_mixer_selem_set_playback_volume(vol_elem, (enum _snd_mixer_selem_channel_id)0, newvol);
-        signed int return_value_snd_mixer_selem_is_playback_mono$2;
-        return_value_snd_mixer_selem_is_playback_mono$2=snd_mixer_selem_is_playback_mono(vol_elem);
-        if(return_value_snd_mixer_selem_is_playback_mono$2 == 0)
+        signed int return_value_snd_mixer_selem_is_playback_mono_2;
+        return_value_snd_mixer_selem_is_playback_mono_2=snd_mixer_selem_is_playback_mono(vol_elem);
+        if(return_value_snd_mixer_selem_is_playback_mono_2 == 0)
           snd_mixer_selem_set_playback_volume(vol_elem, (enum _snd_mixer_selem_channel_id)1, newvol);
 
         if(!(audio_cfg.beep == 0))
@@ -3522,42 +3522,42 @@ static void beep_close_device(void)
 // file beep.h line 22
 void beep_fix_config(void)
 {
-  char *return_value___strdup$1;
+  char *return_value___strdup_1;
   if(!(beep_cfg.enabled == 0))
   {
     if(beep_cfg.beepfile == ((char *)NULL))
     {
-      return_value___strdup$1=__strdup("/usr/share/pommed/goutte.wav");
-      beep_cfg.beepfile = return_value___strdup$1;
+      return_value___strdup_1=__strdup("/usr/share/pommed/goutte.wav");
+      beep_cfg.beepfile = return_value___strdup_1;
     }
 
-    signed int return_value_access$8;
-    return_value_access$8=access(beep_cfg.beepfile, 4);
-    if(!(return_value_access$8 == 0))
+    signed int return_value_access_8;
+    return_value_access_8=access(beep_cfg.beepfile, 4);
+    if(!(return_value_access_8 == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      logmsg(4, "beep: cannot access WAV file %s: %s", beep_cfg.beepfile, return_value_strerror$3);
-      signed int return_value_access$7;
-      return_value_access$7=access("/usr/share/pommed/goutte.wav", 4);
-      if(return_value_access$7 == 0)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      logmsg(4, "beep: cannot access WAV file %s: %s", beep_cfg.beepfile, return_value_strerror_3);
+      signed int return_value_access_7;
+      return_value_access_7=access("/usr/share/pommed/goutte.wav", 4);
+      if(return_value_access_7 == 0)
       {
         logmsg(4, "beep: falling back to default file %s", (const void *)"/usr/share/pommed/goutte.wav");
         free((void *)beep_cfg.beepfile);
-        char *return_value___strdup$4;
-        return_value___strdup$4=__strdup("/usr/share/pommed/goutte.wav");
-        beep_cfg.beepfile = return_value___strdup$4;
+        char *return_value___strdup_4;
+        return_value___strdup_4=__strdup("/usr/share/pommed/goutte.wav");
+        beep_cfg.beepfile = return_value___strdup_4;
       }
 
       else
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        logmsg(3, "beep: cannot access default file %s: %s", (const void *)"/usr/share/pommed/goutte.wav", return_value_strerror$6);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        logmsg(3, "beep: cannot access default file %s: %s", (const void *)"/usr/share/pommed/goutte.wav", return_value_strerror_6);
         logmsg(3, "beep: disabling beeper");
         beep_cfg.enabled = 0;
       }
@@ -3618,9 +3618,9 @@ static struct sample * beep_load_sample(char *filename)
   signed int precision;
   struct sample *sample;
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct sample) /*48ul*/ );
-  sample = (struct sample *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct sample) /*48ul*/ );
+  sample = (struct sample *)return_value_malloc_1;
   if(sample == ((struct sample *)NULL))
     return (struct sample *)(void *)0;
 
@@ -3638,13 +3638,13 @@ static struct sample * beep_load_sample(char *filename)
       afGetSampleFormat(affd, 1001, &dummy, &precision);
       channels=afGetChannels(affd, 1001);
       byteorder=afGetVirtualByteOrder(affd, 1001);
-      float return_value_afGetFrameSize$2;
-      return_value_afGetFrameSize$2=afGetFrameSize(affd, 1001, 0);
-      framesize = (signed int)return_value_afGetFrameSize$2;
+      float return_value_afGetFrameSize_2;
+      return_value_afGetFrameSize_2=afGetFrameSize(affd, 1001, 0);
+      framesize = (signed int)return_value_afGetFrameSize_2;
       framecount=afGetFrameCount(affd, 1001);
-      double return_value_afGetRate$3;
-      return_value_afGetRate$3=afGetRate(affd, 1001);
-      sample->speed = (unsigned int)(signed int)return_value_afGetRate$3;
+      double return_value_afGetRate_3;
+      return_value_afGetRate_3=afGetRate(affd, 1001);
+      sample->speed = (unsigned int)(signed int)return_value_afGetRate_3;
       if(!(channels >= 3))
         sample->channels = (unsigned int)channels;
 
@@ -3674,9 +3674,9 @@ static struct sample * beep_load_sample(char *filename)
       sample->buffersize = (unsigned long int)(sample->periods * (unsigned int)8192 >> 2);
       sample->framecount = (signed int)framecount;
       sample->audiodatalen = (signed int)(framecount * (signed long int)framesize);
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)sample->audiodatalen);
-      sample->audiodata = (char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)sample->audiodatalen);
+      sample->audiodata = (char *)return_value_malloc_4;
       if(!(sample->audiodata == ((char *)NULL)))
       {
         ret=afReadFrames(affd, 1001, (void *)sample->audiodata, (signed int)framecount);
@@ -3708,7 +3708,7 @@ static signed int beep_open_device(void)
 {
   char *uinput_dev[3l] = { "/dev/input/uinput", "/dev/uinput", "/dev/misc/uinput" };
   struct uinput_user_dev dv;
-  signed int beep_open_device$$1$$fd;
+  signed int beep_open_device__1__fd;
   signed int i;
   signed int ret;
   if(beep_cfg.enabled == 0)
@@ -3719,18 +3719,18 @@ static signed int beep_open_device(void)
     i = 0;
     for( ; !((unsigned long int)i >= 3ul); i = i + 1)
     {
-      beep_open_device$$1$$fd=open(uinput_dev[(signed long int)i], 02, 0);
-      if(beep_open_device$$1$$fd >= 0)
+      beep_open_device__1__fd=open(uinput_dev[(signed long int)i], 02, 0);
+      if(beep_open_device__1__fd >= 0)
         break;
 
     }
-    if(!(beep_open_device$$1$$fd >= 0))
+    if(!(beep_open_device__1__fd >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(3, "beep: could not open uinput: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(3, "beep: could not open uinput: %s", return_value_strerror_2);
       logmsg(3, "beep: Do you have the uinput module loaded?");
       return -1;
     }
@@ -3741,69 +3741,69 @@ static signed int beep_open_device(void)
     dv.id.vendor = (unsigned short int)0;
     dv.id.product = (unsigned short int)0;
     dv.id.version = (unsigned short int)1;
-    signed long int return_value_write$3;
-    return_value_write$3=write(beep_open_device$$1$$fd, (const void *)&dv, sizeof(struct uinput_user_dev) /*1116ul*/ );
-    ret = (signed int)return_value_write$3;
+    signed long int return_value_write_3;
+    return_value_write_3=write(beep_open_device__1__fd, (const void *)&dv, sizeof(struct uinput_user_dev) /*1116ul*/ );
+    ret = (signed int)return_value_write_3;
     if(!((unsigned long int)ret == sizeof(struct uinput_user_dev) /*1116ul*/ ))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      logmsg(3, "beep: could not set device name: %s", return_value_strerror$5);
-      close(beep_open_device$$1$$fd);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      logmsg(3, "beep: could not set device name: %s", return_value_strerror_5);
+      close(beep_open_device__1__fd);
       return -1;
     }
 
-    ret=ioctl(beep_open_device$$1$$fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x12);
+    ret=ioctl(beep_open_device__1__fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x12);
     if(!(ret == 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      logmsg(3, "beep: could not request EV_SND: %s", return_value_strerror$7);
-      close(beep_open_device$$1$$fd);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      logmsg(3, "beep: could not request EV_SND: %s", return_value_strerror_7);
+      close(beep_open_device__1__fd);
       return -1;
     }
 
-    ret=ioctl(beep_open_device$$1$$fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(106 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x01);
+    ret=ioctl(beep_open_device__1__fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(106 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x01);
     if(!(ret == 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      char *return_value_strerror$9;
-      return_value_strerror$9=strerror(*return_value___errno_location$8);
-      logmsg(3, "beep: could not request SND_BELL: %s", return_value_strerror$9);
-      close(beep_open_device$$1$$fd);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      char *return_value_strerror_9;
+      return_value_strerror_9=strerror(*return_value___errno_location_8);
+      logmsg(3, "beep: could not request SND_BELL: %s", return_value_strerror_9);
+      close(beep_open_device__1__fd);
       return -1;
     }
 
-    ret=ioctl(beep_open_device$$1$$fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(106 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x02);
+    ret=ioctl(beep_open_device__1__fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(106 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x02);
     if(!(ret == 0))
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      char *return_value_strerror$11;
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      logmsg(3, "beep: could not request SND_TONE: %s", return_value_strerror$11);
-      close(beep_open_device$$1$$fd);
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      char *return_value_strerror_11;
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      logmsg(3, "beep: could not request SND_TONE: %s", return_value_strerror_11);
+      close(beep_open_device__1__fd);
       return -1;
     }
 
-    ret=ioctl(beep_open_device$$1$$fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(1 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
+    ret=ioctl(beep_open_device__1__fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(1 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
     if(!(ret == 0))
     {
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      char *return_value_strerror$13;
-      return_value_strerror$13=strerror(*return_value___errno_location$12);
-      logmsg(3, "beep: could not create uinput device: %s", return_value_strerror$13);
-      close(beep_open_device$$1$$fd);
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      char *return_value_strerror_13;
+      return_value_strerror_13=strerror(*return_value___errno_location_12);
+      logmsg(3, "beep: could not create uinput device: %s", return_value_strerror_13);
+      close(beep_open_device__1__fd);
       return -1;
     }
 
-    beep_fd = beep_open_device$$1$$fd;
+    beep_fd = beep_open_device__1__fd;
     return 0;
   }
 }
@@ -3818,76 +3818,76 @@ static void beep_play_sample(struct dspdata *dsp, signed int cmd)
   struct sample *s = dsp->sample[(signed long int)cmd];
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$1;
-    return_value_snd_pcm_hw_params_sizeof$1=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$2;
-    return_value___builtin_alloca$2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$1);
-    *(&hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$2;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$3;
-    return_value_snd_pcm_hw_params_sizeof$3=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&hwparams), 0, return_value_snd_pcm_hw_params_sizeof$3);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_1;
+    return_value_snd_pcm_hw_params_sizeof_1=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_2;
+    return_value___builtin_alloca_2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_1);
+    *(&hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_2;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_3;
+    return_value_snd_pcm_hw_params_sizeof_3=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&hwparams), 0, return_value_snd_pcm_hw_params_sizeof_3);
   }
   while((_Bool)0);
-  signed int return_value_snd_pcm_open$4;
-  return_value_snd_pcm_open$4=snd_pcm_open(&pcm_handle, pcm_name, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, 0);
-  signed long int return_value_snd_pcm_writei$13;
-  if(!(return_value_snd_pcm_open$4 >= 0))
+  signed int return_value_snd_pcm_open_4;
+  return_value_snd_pcm_open_4=snd_pcm_open(&pcm_handle, pcm_name, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, 0);
+  signed long int return_value_snd_pcm_writei_13;
+  if(!(return_value_snd_pcm_open_4 >= 0))
     logmsg(4, "beep: error opening PCM device %s", pcm_name);
 
   else
   {
-    signed int return_value_snd_pcm_hw_params_any$5;
-    return_value_snd_pcm_hw_params_any$5=snd_pcm_hw_params_any(pcm_handle, hwparams);
-    if(!(return_value_snd_pcm_hw_params_any$5 >= 0))
+    signed int return_value_snd_pcm_hw_params_any_5;
+    return_value_snd_pcm_hw_params_any_5=snd_pcm_hw_params_any(pcm_handle, hwparams);
+    if(!(return_value_snd_pcm_hw_params_any_5 >= 0))
       logmsg(4, "beep: cannot configure PCM device");
 
     else
     {
-      signed int return_value_snd_pcm_hw_params_set_access$6;
-      return_value_snd_pcm_hw_params_set_access$6=snd_pcm_hw_params_set_access(pcm_handle, hwparams, (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED);
-      if(!(return_value_snd_pcm_hw_params_set_access$6 >= 0))
+      signed int return_value_snd_pcm_hw_params_set_access_6;
+      return_value_snd_pcm_hw_params_set_access_6=snd_pcm_hw_params_set_access(pcm_handle, hwparams, (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED);
+      if(!(return_value_snd_pcm_hw_params_set_access_6 >= 0))
         logmsg(4, "beep: error setting access");
 
       else
       {
-        signed int return_value_snd_pcm_hw_params_set_format$7;
-        return_value_snd_pcm_hw_params_set_format$7=snd_pcm_hw_params_set_format(pcm_handle, hwparams, (enum _snd_pcm_format)s->format);
-        if(!(return_value_snd_pcm_hw_params_set_format$7 >= 0))
+        signed int return_value_snd_pcm_hw_params_set_format_7;
+        return_value_snd_pcm_hw_params_set_format_7=snd_pcm_hw_params_set_format(pcm_handle, hwparams, (enum _snd_pcm_format)s->format);
+        if(!(return_value_snd_pcm_hw_params_set_format_7 >= 0))
           logmsg(4, "beep: error setting format");
 
         else
         {
-          signed int return_value_snd_pcm_hw_params_set_rate_near$8;
-          return_value_snd_pcm_hw_params_set_rate_near$8=snd_pcm_hw_params_set_rate_near(pcm_handle, hwparams, &s->speed, ((signed int *)NULL));
-          if(!(return_value_snd_pcm_hw_params_set_rate_near$8 >= 0))
+          signed int return_value_snd_pcm_hw_params_set_rate_near_8;
+          return_value_snd_pcm_hw_params_set_rate_near_8=snd_pcm_hw_params_set_rate_near(pcm_handle, hwparams, &s->speed, ((signed int *)NULL));
+          if(!(return_value_snd_pcm_hw_params_set_rate_near_8 >= 0))
             logmsg(4, "beep: error setting rate");
 
           else
           {
-            signed int return_value_snd_pcm_hw_params_set_channels_near$9;
-            return_value_snd_pcm_hw_params_set_channels_near$9=snd_pcm_hw_params_set_channels_near(pcm_handle, hwparams, &s->channels);
-            if(!(return_value_snd_pcm_hw_params_set_channels_near$9 >= 0))
+            signed int return_value_snd_pcm_hw_params_set_channels_near_9;
+            return_value_snd_pcm_hw_params_set_channels_near_9=snd_pcm_hw_params_set_channels_near(pcm_handle, hwparams, &s->channels);
+            if(!(return_value_snd_pcm_hw_params_set_channels_near_9 >= 0))
               logmsg(4, "beep: error setting channels");
 
             else
             {
-              signed int return_value_snd_pcm_hw_params_set_periods_near$10;
-              return_value_snd_pcm_hw_params_set_periods_near$10=snd_pcm_hw_params_set_periods_near(pcm_handle, hwparams, &s->periods, ((signed int *)NULL));
-              if(!(return_value_snd_pcm_hw_params_set_periods_near$10 >= 0))
+              signed int return_value_snd_pcm_hw_params_set_periods_near_10;
+              return_value_snd_pcm_hw_params_set_periods_near_10=snd_pcm_hw_params_set_periods_near(pcm_handle, hwparams, &s->periods, ((signed int *)NULL));
+              if(!(return_value_snd_pcm_hw_params_set_periods_near_10 >= 0))
                 logmsg(4, "beep: error setting periods");
 
               else
               {
-                signed int return_value_snd_pcm_hw_params_set_buffer_size_near$11;
-                return_value_snd_pcm_hw_params_set_buffer_size_near$11=snd_pcm_hw_params_set_buffer_size_near(pcm_handle, hwparams, &s->buffersize);
-                if(!(return_value_snd_pcm_hw_params_set_buffer_size_near$11 >= 0))
+                signed int return_value_snd_pcm_hw_params_set_buffer_size_near_11;
+                return_value_snd_pcm_hw_params_set_buffer_size_near_11=snd_pcm_hw_params_set_buffer_size_near(pcm_handle, hwparams, &s->buffersize);
+                if(!(return_value_snd_pcm_hw_params_set_buffer_size_near_11 >= 0))
                   logmsg(4, "beep: error setting buffersize");
 
                 else
                 {
-                  signed int return_value_snd_pcm_hw_params$12;
-                  return_value_snd_pcm_hw_params$12=snd_pcm_hw_params(pcm_handle, hwparams);
-                  if(!(return_value_snd_pcm_hw_params$12 >= 0))
+                  signed int return_value_snd_pcm_hw_params_12;
+                  return_value_snd_pcm_hw_params_12=snd_pcm_hw_params(pcm_handle, hwparams);
+                  if(!(return_value_snd_pcm_hw_params_12 >= 0))
                     logmsg(4, "beep: error setting HW params");
 
                   else
@@ -3895,8 +3895,8 @@ static void beep_play_sample(struct dspdata *dsp, signed int cmd)
                     signed int pcmreturn;
                     do
                     {
-                      return_value_snd_pcm_writei$13=snd_pcm_writei(pcm_handle, (const void *)s->audiodata, (unsigned long int)s->framecount);
-                      pcmreturn = (signed int)return_value_snd_pcm_writei$13;
+                      return_value_snd_pcm_writei_13=snd_pcm_writei(pcm_handle, (const void *)s->audiodata, (unsigned long int)s->framecount);
+                      pcmreturn = (signed int)return_value_snd_pcm_writei_13;
                       if(pcmreturn >= 0)
                         break;
 
@@ -3934,9 +3934,9 @@ void beep_process_events(signed int fd, unsigned int events)
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)&ev, sizeof(struct input_event) /*24ul*/ );
-    ret = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)&ev, sizeof(struct input_event) /*24ul*/ );
+    ret = (signed int)return_value_read_1;
     if((unsigned long int)ret == sizeof(struct input_event) /*24ul*/ )
     {
       if((signed int)ev.type == 0x12)
@@ -4029,8 +4029,8 @@ static signed int beep_thread_init(void)
   else
   {
     _dsp.thread = (unsigned long int)0;
-    pthread_mutex_init(&_dsp.mutex, (const union anonymous$5 *)(void *)0);
-    pthread_cond_init(&_dsp.cond, (const union anonymous$5 *)(void *)0);
+    pthread_mutex_init(&_dsp.mutex, (const union anonymous_5 *)(void *)0);
+    pthread_cond_init(&_dsp.cond, (const union anonymous_5 *)(void *)0);
     pthread_attr_init(&attr);
     pthread_attr_setdetachstate(&attr, 0);
     ret=pthread_create(&_dsp.thread, &attr, beep_thread, (void *)&_dsp);
@@ -4052,26 +4052,26 @@ void cd_eject(void)
   char *eject_argv[3l] = { "eject", eject_cfg.device, (char *)(void *)0 };
   char *eject_envp[1l] = { (char *)(void *)0 };
   signed long int max_fd;
-  signed int cd_eject$$1$$fd;
+  signed int cd_eject__1__fd;
   signed int ret;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  _Bool tmp_if_expr$9;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  _Bool tmp_if_expr_9;
   if(!(eject_cfg.enabled == 0))
   {
-    cd_eject$$1$$fd=open(eject_cfg.device, 00 | 04000);
-    if(!(cd_eject$$1$$fd >= 0))
+    cd_eject__1__fd=open(eject_cfg.device, 00 | 04000);
+    if(!(cd_eject__1__fd >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(3, "Could not open CD/DVD device: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(3, "Could not open CD/DVD device: %s", return_value_strerror_2);
       goto __CPROVER_DUMP_L18;
     }
 
-    ret=ioctl(cd_eject$$1$$fd, (unsigned long int)0x5326);
-    close(cd_eject$$1$$fd);
+    ret=ioctl(cd_eject__1__fd, (unsigned long int)0x5326);
+    close(cd_eject__1__fd);
     switch(ret)
     {
       case 0:
@@ -4095,9 +4095,9 @@ void cd_eject(void)
       }
       default:
       {
-        return_value___errno_location$3=__errno_location();
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        logmsg(6, "CDROM_DRIVE_STATUS returned %d (%s)", ret, return_value_strerror$4);
+        return_value___errno_location_3=__errno_location();
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        logmsg(6, "CDROM_DRIVE_STATUS returned %d (%s)", ret, return_value_strerror_4);
         goto __CPROVER_DUMP_L18;
       }
     }
@@ -4108,26 +4108,26 @@ void cd_eject(void)
       if(max_fd >= 2147483648l)
         max_fd = (signed long int)0x7fffffff;
 
-      cd_eject$$1$$fd = 3;
-      for( ; !((signed long int)cd_eject$$1$$fd >= max_fd); cd_eject$$1$$fd = cd_eject$$1$$fd + 1)
-        close(cd_eject$$1$$fd);
+      cd_eject__1__fd = 3;
+      for( ; !((signed long int)cd_eject__1__fd >= max_fd); cd_eject__1__fd = cd_eject__1__fd + 1)
+        close(cd_eject__1__fd);
       execve("/usr/bin/eject", eject_argv, eject_envp);
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      logmsg(3, "Could not execute eject: %s", return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      logmsg(3, "Could not execute eject: %s", return_value_strerror_6);
       exit(1);
     }
 
     else
       if(ret == -1)
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        logmsg(3, "Could not fork: %s", return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        logmsg(3, "Could not fork: %s", return_value_strerror_8);
         goto __CPROVER_DUMP_L18;
       }
 
@@ -4136,7 +4136,7 @@ void cd_eject(void)
         mbpdbus_send_cd_eject();
         waitpid(ret, &ret, 0);
         /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$0
+union anonymous_0
 {
   // __in
   signed int __in;
@@ -4147,11 +4147,11 @@ union anonymous$0
 /* */
         ;
         if(!((0x7f & ret) == 0))
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = (((union anonymous$0){ .__in=ret }).__i & 0xff00) >> 8 != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (((union anonymous_0){ .__in=ret }).__i & 0xff00) >> 8 != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
         {
           logmsg(6, "eject failed");
           goto __CPROVER_DUMP_L18;
@@ -4180,11 +4180,11 @@ static signed int check_ac_state(void)
 {
   signed int ret;
   ret=sysfs_check_ac_state();
-  signed int return_value_procfs_check_ac_state$1;
+  signed int return_value_procfs_check_ac_state_1;
   if(ret == -1)
   {
-    return_value_procfs_check_ac_state$1=procfs_check_ac_state();
-    return return_value_procfs_check_ac_state$1;
+    return_value_procfs_check_ac_state_1=procfs_check_ac_state();
+    return return_value_procfs_check_ac_state_1;
   }
 
   else
@@ -4193,115 +4193,115 @@ static signed int check_ac_state(void)
 
 // check_machine_dmi
 // file pommed.c line 649
-static enum anonymous$3 check_machine_dmi(void)
+static enum anonymous_3 check_machine_dmi(void)
 {
   signed int ret;
-  signed int check_machine_dmi$$1$$fd;
+  signed int check_machine_dmi__1__fd;
   char buf[32l];
   signed int i;
   char *vendor_node[4l] = { "/sys/class/dmi/id/sys_vendor", "/sys/class/dmi/id/board_vendor", "/sys/class/dmi/id/chassis_vendor", "/sys/class/dmi/id/bios_vendor" };
   i = 0;
   for( ; !((unsigned long int)i >= 4ul); i = i + 1)
   {
-    check_machine_dmi$$1$$fd=open(vendor_node[(signed long int)i], 00);
-    if(check_machine_dmi$$1$$fd >= 1)
+    check_machine_dmi__1__fd=open(vendor_node[(signed long int)i], 00);
+    if(check_machine_dmi__1__fd >= 1)
       break;
 
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    logmsg(6, "Could not open %s: %s", vendor_node[(signed long int)i], return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    logmsg(6, "Could not open %s: %s", vendor_node[(signed long int)i], return_value_strerror_2);
   }
-  signed int tmp_statement_expression$8;
-  signed int tmp_statement_expression$6;
-  signed int tmp_statement_expression$84;
-  _Bool tmp_if_expr$88;
-  signed int tmp_statement_expression$86;
-  signed int tmp_statement_expression$79;
-  _Bool tmp_if_expr$83;
-  signed int tmp_statement_expression$81;
-  signed int tmp_statement_expression$77;
-  signed int tmp_statement_expression$75;
-  signed int tmp_statement_expression$61;
-  _Bool tmp_if_expr$65;
-  signed int tmp_statement_expression$63;
-  _Bool tmp_if_expr$68;
-  signed int tmp_statement_expression$66;
-  _Bool tmp_if_expr$71;
-  signed int tmp_statement_expression$69;
-  _Bool tmp_if_expr$74;
-  signed int tmp_statement_expression$72;
-  signed int tmp_statement_expression$56;
-  _Bool tmp_if_expr$60;
-  signed int tmp_statement_expression$58;
-  signed int tmp_statement_expression$54;
-  signed int tmp_statement_expression$46;
-  _Bool tmp_if_expr$50;
-  signed int tmp_statement_expression$48;
-  _Bool tmp_if_expr$53;
-  signed int tmp_statement_expression$51;
-  signed int tmp_statement_expression$41;
-  _Bool tmp_if_expr$45;
-  signed int tmp_statement_expression$43;
-  signed int tmp_statement_expression$39;
-  signed int tmp_statement_expression$37;
-  signed int tmp_statement_expression$35;
-  signed int tmp_statement_expression$33;
-  signed int tmp_statement_expression$28;
-  _Bool tmp_if_expr$32;
-  signed int tmp_statement_expression$30;
-  signed int tmp_statement_expression$26;
-  signed int tmp_statement_expression$24;
-  signed int tmp_statement_expression$22;
-  signed int tmp_statement_expression$20;
-  signed int tmp_statement_expression$15;
-  _Bool tmp_if_expr$19;
-  signed int tmp_statement_expression$17;
-  if(!(check_machine_dmi$$1$$fd >= 0))
+  signed int tmp_statement_expression_8;
+  signed int tmp_statement_expression_6;
+  signed int tmp_statement_expression_84;
+  _Bool tmp_if_expr_88;
+  signed int tmp_statement_expression_86;
+  signed int tmp_statement_expression_79;
+  _Bool tmp_if_expr_83;
+  signed int tmp_statement_expression_81;
+  signed int tmp_statement_expression_77;
+  signed int tmp_statement_expression_75;
+  signed int tmp_statement_expression_61;
+  _Bool tmp_if_expr_65;
+  signed int tmp_statement_expression_63;
+  _Bool tmp_if_expr_68;
+  signed int tmp_statement_expression_66;
+  _Bool tmp_if_expr_71;
+  signed int tmp_statement_expression_69;
+  _Bool tmp_if_expr_74;
+  signed int tmp_statement_expression_72;
+  signed int tmp_statement_expression_56;
+  _Bool tmp_if_expr_60;
+  signed int tmp_statement_expression_58;
+  signed int tmp_statement_expression_54;
+  signed int tmp_statement_expression_46;
+  _Bool tmp_if_expr_50;
+  signed int tmp_statement_expression_48;
+  _Bool tmp_if_expr_53;
+  signed int tmp_statement_expression_51;
+  signed int tmp_statement_expression_41;
+  _Bool tmp_if_expr_45;
+  signed int tmp_statement_expression_43;
+  signed int tmp_statement_expression_39;
+  signed int tmp_statement_expression_37;
+  signed int tmp_statement_expression_35;
+  signed int tmp_statement_expression_33;
+  signed int tmp_statement_expression_28;
+  _Bool tmp_if_expr_32;
+  signed int tmp_statement_expression_30;
+  signed int tmp_statement_expression_26;
+  signed int tmp_statement_expression_24;
+  signed int tmp_statement_expression_22;
+  signed int tmp_statement_expression_20;
+  signed int tmp_statement_expression_15;
+  _Bool tmp_if_expr_19;
+  signed int tmp_statement_expression_17;
+  if(!(check_machine_dmi__1__fd >= 0))
   {
     logmsg(3, "Could not determine vendor name");
-    return (enum anonymous$3)MACHINE_ERROR;
+    return (enum anonymous_3)MACHINE_ERROR;
   }
 
   else
   {
     memset((void *)buf, 0, sizeof(char [32l]) /*32ul*/ );
-    signed long int return_value_read$3;
-    return_value_read$3=read(check_machine_dmi$$1$$fd, (void *)buf, sizeof(char [32l]) /*32ul*/  - (unsigned long int)1);
-    ret = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(check_machine_dmi__1__fd, (void *)buf, sizeof(char [32l]) /*32ul*/  - (unsigned long int)1);
+    ret = (signed int)return_value_read_3;
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      logmsg(3, "Could not read from %s: %s", vendor_node[(signed long int)i], return_value_strerror$5);
-      close(check_machine_dmi$$1$$fd);
-      return (enum anonymous$3)MACHINE_ERROR;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      logmsg(3, "Could not read from %s: %s", vendor_node[(signed long int)i], return_value_strerror_5);
+      close(check_machine_dmi__1__fd);
+      return (enum anonymous_3)MACHINE_ERROR;
     }
 
-    close(check_machine_dmi$$1$$fd);
+    close(check_machine_dmi__1__fd);
     if((signed int)buf[(signed long int)(ret + -1)] == 10)
       buf[(signed long int)(ret - 1)] = (char)0;
 
     logdebug("DMI vendor name: [%s]\n", (const void *)buf);
-    unsigned long int check_machine_dmi$$1$$4$$__s1_len;
+    unsigned long int check_machine_dmi__1__4____s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$9;
-    return_value___builtin_strcmp$9=__builtin_strcmp(buf, "Apple Computer, Inc.");
-    tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-    if(!(tmp_statement_expression$8 == 0))
+    signed int return_value___builtin_strcmp_9;
+    return_value___builtin_strcmp_9=__builtin_strcmp(buf, "Apple Computer, Inc.");
+    tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+    if(!(tmp_statement_expression_8 == 0))
     {
-      unsigned long int check_machine_dmi$$1$$5$$__s1_len;
-      unsigned long int check_machine_dmi$$1$$5$$__s2_len;
-      signed int return_value___builtin_strcmp$7;
-      return_value___builtin_strcmp$7=__builtin_strcmp(buf, "Apple Inc.");
-      tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-      if(tmp_statement_expression$6 == 0)
+      unsigned long int check_machine_dmi__1__5____s1_len;
+      unsigned long int check_machine_dmi__1__5____s2_len;
+      signed int return_value___builtin_strcmp_7;
+      return_value___builtin_strcmp_7=__builtin_strcmp(buf, "Apple Inc.");
+      tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+      if(tmp_statement_expression_6 == 0)
         goto __CPROVER_DUMP_L6;
 
-      return (enum anonymous$3)MACHINE_UNKNOWN;
+      return (enum anonymous_3)MACHINE_UNKNOWN;
     }
 
     else
@@ -4309,368 +4309,368 @@ static enum anonymous$3 check_machine_dmi(void)
 
     __CPROVER_DUMP_L6:
       ;
-      check_machine_dmi$$1$$fd=open("/sys/class/dmi/id/product_name", 00);
-      if(!(check_machine_dmi$$1$$fd >= 0))
+      check_machine_dmi__1__fd=open("/sys/class/dmi/id/product_name", 00);
+      if(!(check_machine_dmi__1__fd >= 0))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        char *return_value_strerror$11;
-        return_value_strerror$11=strerror(*return_value___errno_location$10);
-        logmsg(6, "Could not open /sys/class/dmi/id/product_name: %s", return_value_strerror$11);
-        return (enum anonymous$3)MACHINE_MAC_UNKNOWN;
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        char *return_value_strerror_11;
+        return_value_strerror_11=strerror(*return_value___errno_location_10);
+        logmsg(6, "Could not open /sys/class/dmi/id/product_name: %s", return_value_strerror_11);
+        return (enum anonymous_3)MACHINE_MAC_UNKNOWN;
       }
 
       memset((void *)buf, 0, sizeof(char [32l]) /*32ul*/ );
-      signed long int return_value_read$12;
-      return_value_read$12=read(check_machine_dmi$$1$$fd, (void *)buf, sizeof(char [32l]) /*32ul*/  - (unsigned long int)1);
-      ret = (signed int)return_value_read$12;
+      signed long int return_value_read_12;
+      return_value_read_12=read(check_machine_dmi__1__fd, (void *)buf, sizeof(char [32l]) /*32ul*/  - (unsigned long int)1);
+      ret = (signed int)return_value_read_12;
       if(!(ret >= 0))
       {
-        signed int *return_value___errno_location$13;
-        return_value___errno_location$13=__errno_location();
-        char *return_value_strerror$14;
-        return_value_strerror$14=strerror(*return_value___errno_location$13);
-        logmsg(3, "Could not read from /sys/class/dmi/id/product_name: %s", return_value_strerror$14);
-        close(check_machine_dmi$$1$$fd);
-        return (enum anonymous$3)MACHINE_MAC_UNKNOWN;
+        signed int *return_value___errno_location_13;
+        return_value___errno_location_13=__errno_location();
+        char *return_value_strerror_14;
+        return_value_strerror_14=strerror(*return_value___errno_location_13);
+        logmsg(3, "Could not read from /sys/class/dmi/id/product_name: %s", return_value_strerror_14);
+        close(check_machine_dmi__1__fd);
+        return (enum anonymous_3)MACHINE_MAC_UNKNOWN;
       }
 
-      close(check_machine_dmi$$1$$fd);
+      close(check_machine_dmi__1__fd);
       if((signed int)buf[(signed long int)(ret + -1)] == 10)
         buf[(signed long int)(ret - 1)] = (char)0;
 
       logdebug("DMI product name: [%s]\n", (const void *)buf);
       ret = MACHINE_MAC_UNKNOWN;
-      unsigned long int check_machine_dmi$$1$$8$$__s1_len;
-      unsigned long int check_machine_dmi$$1$$8$$__s2_len;
-      signed int return_value___builtin_strcmp$85;
-      return_value___builtin_strcmp$85=__builtin_strcmp(buf, "MacBookPro1,1");
-      tmp_statement_expression$84 = return_value___builtin_strcmp$85;
-      if(tmp_statement_expression$84 == 0)
-        tmp_if_expr$88 = (_Bool)1;
+      unsigned long int check_machine_dmi__1__8____s1_len;
+      unsigned long int check_machine_dmi__1__8____s2_len;
+      signed int return_value___builtin_strcmp_85;
+      return_value___builtin_strcmp_85=__builtin_strcmp(buf, "MacBookPro1,1");
+      tmp_statement_expression_84 = return_value___builtin_strcmp_85;
+      if(tmp_statement_expression_84 == 0)
+        tmp_if_expr_88 = (_Bool)1;
 
       else
       {
-        unsigned long int check_machine_dmi$$1$$9$$__s1_len;
-        unsigned long int check_machine_dmi$$1$$9$$__s2_len;
-        signed int return_value___builtin_strcmp$87;
-        return_value___builtin_strcmp$87=__builtin_strcmp(buf, "MacBookPro1,2");
-        tmp_statement_expression$86 = return_value___builtin_strcmp$87;
-        tmp_if_expr$88 = tmp_statement_expression$86 == 0 ? (_Bool)1 : (_Bool)0;
+        unsigned long int check_machine_dmi__1__9____s1_len;
+        unsigned long int check_machine_dmi__1__9____s2_len;
+        signed int return_value___builtin_strcmp_87;
+        return_value___builtin_strcmp_87=__builtin_strcmp(buf, "MacBookPro1,2");
+        tmp_statement_expression_86 = return_value___builtin_strcmp_87;
+        tmp_if_expr_88 = tmp_statement_expression_86 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$88)
+      if(tmp_if_expr_88)
         ret = MACHINE_MACBOOKPRO_1;
 
       else
       {
-        unsigned long int check_machine_dmi$$1$$10$$__s1_len;
-        unsigned long int check_machine_dmi$$1$$10$$__s2_len;
-        signed int return_value___builtin_strcmp$80;
-        return_value___builtin_strcmp$80=__builtin_strcmp(buf, "MacBookPro2,1");
-        tmp_statement_expression$79 = return_value___builtin_strcmp$80;
-        if(tmp_statement_expression$79 == 0)
-          tmp_if_expr$83 = (_Bool)1;
+        unsigned long int check_machine_dmi__1__10____s1_len;
+        unsigned long int check_machine_dmi__1__10____s2_len;
+        signed int return_value___builtin_strcmp_80;
+        return_value___builtin_strcmp_80=__builtin_strcmp(buf, "MacBookPro2,1");
+        tmp_statement_expression_79 = return_value___builtin_strcmp_80;
+        if(tmp_statement_expression_79 == 0)
+          tmp_if_expr_83 = (_Bool)1;
 
         else
         {
-          unsigned long int check_machine_dmi$$1$$11$$__s1_len;
-          unsigned long int check_machine_dmi$$1$$11$$__s2_len;
-          signed int return_value___builtin_strcmp$82;
-          return_value___builtin_strcmp$82=__builtin_strcmp(buf, "MacBookPro2,2");
-          tmp_statement_expression$81 = return_value___builtin_strcmp$82;
-          tmp_if_expr$83 = tmp_statement_expression$81 == 0 ? (_Bool)1 : (_Bool)0;
+          unsigned long int check_machine_dmi__1__11____s1_len;
+          unsigned long int check_machine_dmi__1__11____s2_len;
+          signed int return_value___builtin_strcmp_82;
+          return_value___builtin_strcmp_82=__builtin_strcmp(buf, "MacBookPro2,2");
+          tmp_statement_expression_81 = return_value___builtin_strcmp_82;
+          tmp_if_expr_83 = tmp_statement_expression_81 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$83)
+        if(tmp_if_expr_83)
           ret = MACHINE_MACBOOKPRO_2;
 
         else
         {
-          unsigned long int check_machine_dmi$$1$$12$$__s1_len;
-          unsigned long int check_machine_dmi$$1$$12$$__s2_len;
-          signed int return_value___builtin_strcmp$78;
-          return_value___builtin_strcmp$78=__builtin_strcmp(buf, "MacBookPro3,1");
-          tmp_statement_expression$77 = return_value___builtin_strcmp$78;
-          if(tmp_statement_expression$77 == 0)
+          unsigned long int check_machine_dmi__1__12____s1_len;
+          unsigned long int check_machine_dmi__1__12____s2_len;
+          signed int return_value___builtin_strcmp_78;
+          return_value___builtin_strcmp_78=__builtin_strcmp(buf, "MacBookPro3,1");
+          tmp_statement_expression_77 = return_value___builtin_strcmp_78;
+          if(tmp_statement_expression_77 == 0)
             ret = MACHINE_MACBOOKPRO_3;
 
           else
           {
-            unsigned long int check_machine_dmi$$1$$13$$__s1_len;
-            unsigned long int check_machine_dmi$$1$$13$$__s2_len;
-            signed int return_value___builtin_strcmp$76;
-            return_value___builtin_strcmp$76=__builtin_strcmp(buf, "MacBookPro4,1");
-            tmp_statement_expression$75 = return_value___builtin_strcmp$76;
-            if(tmp_statement_expression$75 == 0)
+            unsigned long int check_machine_dmi__1__13____s1_len;
+            unsigned long int check_machine_dmi__1__13____s2_len;
+            signed int return_value___builtin_strcmp_76;
+            return_value___builtin_strcmp_76=__builtin_strcmp(buf, "MacBookPro4,1");
+            tmp_statement_expression_75 = return_value___builtin_strcmp_76;
+            if(tmp_statement_expression_75 == 0)
               ret = MACHINE_MACBOOKPRO_4;
 
             else
             {
-              unsigned long int check_machine_dmi$$1$$14$$__s1_len;
-              unsigned long int check_machine_dmi$$1$$14$$__s2_len;
-              signed int return_value___builtin_strcmp$62;
-              return_value___builtin_strcmp$62=__builtin_strcmp(buf, "MacBookPro5,1");
-              tmp_statement_expression$61 = return_value___builtin_strcmp$62;
-              if(tmp_statement_expression$61 == 0)
-                tmp_if_expr$65 = (_Bool)1;
+              unsigned long int check_machine_dmi__1__14____s1_len;
+              unsigned long int check_machine_dmi__1__14____s2_len;
+              signed int return_value___builtin_strcmp_62;
+              return_value___builtin_strcmp_62=__builtin_strcmp(buf, "MacBookPro5,1");
+              tmp_statement_expression_61 = return_value___builtin_strcmp_62;
+              if(tmp_statement_expression_61 == 0)
+                tmp_if_expr_65 = (_Bool)1;
 
               else
               {
-                unsigned long int check_machine_dmi$$1$$15$$__s1_len;
-                unsigned long int check_machine_dmi$$1$$15$$__s2_len;
-                signed int return_value___builtin_strcmp$64;
-                return_value___builtin_strcmp$64=__builtin_strcmp(buf, "MacBookPro5,2");
-                tmp_statement_expression$63 = return_value___builtin_strcmp$64;
-                tmp_if_expr$65 = tmp_statement_expression$63 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int check_machine_dmi__1__15____s1_len;
+                unsigned long int check_machine_dmi__1__15____s2_len;
+                signed int return_value___builtin_strcmp_64;
+                return_value___builtin_strcmp_64=__builtin_strcmp(buf, "MacBookPro5,2");
+                tmp_statement_expression_63 = return_value___builtin_strcmp_64;
+                tmp_if_expr_65 = tmp_statement_expression_63 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$65)
-                tmp_if_expr$68 = (_Bool)1;
+              if(tmp_if_expr_65)
+                tmp_if_expr_68 = (_Bool)1;
 
               else
               {
-                unsigned long int check_machine_dmi$$1$$16$$__s1_len;
-                unsigned long int check_machine_dmi$$1$$16$$__s2_len;
-                signed int return_value___builtin_strcmp$67;
-                return_value___builtin_strcmp$67=__builtin_strcmp(buf, "MacBookPro5,3");
-                tmp_statement_expression$66 = return_value___builtin_strcmp$67;
-                tmp_if_expr$68 = tmp_statement_expression$66 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int check_machine_dmi__1__16____s1_len;
+                unsigned long int check_machine_dmi__1__16____s2_len;
+                signed int return_value___builtin_strcmp_67;
+                return_value___builtin_strcmp_67=__builtin_strcmp(buf, "MacBookPro5,3");
+                tmp_statement_expression_66 = return_value___builtin_strcmp_67;
+                tmp_if_expr_68 = tmp_statement_expression_66 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$68)
-                tmp_if_expr$71 = (_Bool)1;
+              if(tmp_if_expr_68)
+                tmp_if_expr_71 = (_Bool)1;
 
               else
               {
-                unsigned long int check_machine_dmi$$1$$17$$__s1_len;
-                unsigned long int check_machine_dmi$$1$$17$$__s2_len;
-                signed int return_value___builtin_strcmp$70;
-                return_value___builtin_strcmp$70=__builtin_strcmp(buf, "MacBookPro5,4");
-                tmp_statement_expression$69 = return_value___builtin_strcmp$70;
-                tmp_if_expr$71 = tmp_statement_expression$69 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int check_machine_dmi__1__17____s1_len;
+                unsigned long int check_machine_dmi__1__17____s2_len;
+                signed int return_value___builtin_strcmp_70;
+                return_value___builtin_strcmp_70=__builtin_strcmp(buf, "MacBookPro5,4");
+                tmp_statement_expression_69 = return_value___builtin_strcmp_70;
+                tmp_if_expr_71 = tmp_statement_expression_69 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$71)
-                tmp_if_expr$74 = (_Bool)1;
+              if(tmp_if_expr_71)
+                tmp_if_expr_74 = (_Bool)1;
 
               else
               {
-                unsigned long int check_machine_dmi$$1$$18$$__s1_len;
-                unsigned long int check_machine_dmi$$1$$18$$__s2_len;
-                signed int return_value___builtin_strcmp$73;
-                return_value___builtin_strcmp$73=__builtin_strcmp(buf, "MacBookPro5,5");
-                tmp_statement_expression$72 = return_value___builtin_strcmp$73;
-                tmp_if_expr$74 = tmp_statement_expression$72 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int check_machine_dmi__1__18____s1_len;
+                unsigned long int check_machine_dmi__1__18____s2_len;
+                signed int return_value___builtin_strcmp_73;
+                return_value___builtin_strcmp_73=__builtin_strcmp(buf, "MacBookPro5,5");
+                tmp_statement_expression_72 = return_value___builtin_strcmp_73;
+                tmp_if_expr_74 = tmp_statement_expression_72 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$74)
+              if(tmp_if_expr_74)
                 ret = MACHINE_MACBOOKPRO_5;
 
               else
               {
-                unsigned long int check_machine_dmi$$1$$19$$__s1_len;
-                unsigned long int check_machine_dmi$$1$$19$$__s2_len;
-                signed int return_value___builtin_strcmp$57;
-                return_value___builtin_strcmp$57=__builtin_strcmp(buf, "MacBookPro6,1");
-                tmp_statement_expression$56 = return_value___builtin_strcmp$57;
-                if(tmp_statement_expression$56 == 0)
-                  tmp_if_expr$60 = (_Bool)1;
+                unsigned long int check_machine_dmi__1__19____s1_len;
+                unsigned long int check_machine_dmi__1__19____s2_len;
+                signed int return_value___builtin_strcmp_57;
+                return_value___builtin_strcmp_57=__builtin_strcmp(buf, "MacBookPro6,1");
+                tmp_statement_expression_56 = return_value___builtin_strcmp_57;
+                if(tmp_statement_expression_56 == 0)
+                  tmp_if_expr_60 = (_Bool)1;
 
                 else
                 {
-                  unsigned long int check_machine_dmi$$1$$20$$__s1_len;
-                  unsigned long int check_machine_dmi$$1$$20$$__s2_len;
-                  signed int return_value___builtin_strcmp$59;
-                  return_value___builtin_strcmp$59=__builtin_strcmp(buf, "MacBookPro6,2");
-                  tmp_statement_expression$58 = return_value___builtin_strcmp$59;
-                  tmp_if_expr$60 = tmp_statement_expression$58 == 0 ? (_Bool)1 : (_Bool)0;
+                  unsigned long int check_machine_dmi__1__20____s1_len;
+                  unsigned long int check_machine_dmi__1__20____s2_len;
+                  signed int return_value___builtin_strcmp_59;
+                  return_value___builtin_strcmp_59=__builtin_strcmp(buf, "MacBookPro6,2");
+                  tmp_statement_expression_58 = return_value___builtin_strcmp_59;
+                  tmp_if_expr_60 = tmp_statement_expression_58 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$60)
+                if(tmp_if_expr_60)
                   ret = MACHINE_MACBOOKPRO_6;
 
                 else
                 {
-                  unsigned long int check_machine_dmi$$1$$21$$__s1_len;
-                  unsigned long int check_machine_dmi$$1$$21$$__s2_len;
-                  signed int return_value___builtin_strcmp$55;
-                  return_value___builtin_strcmp$55=__builtin_strcmp(buf, "MacBookPro7,1");
-                  tmp_statement_expression$54 = return_value___builtin_strcmp$55;
-                  if(tmp_statement_expression$54 == 0)
+                  unsigned long int check_machine_dmi__1__21____s1_len;
+                  unsigned long int check_machine_dmi__1__21____s2_len;
+                  signed int return_value___builtin_strcmp_55;
+                  return_value___builtin_strcmp_55=__builtin_strcmp(buf, "MacBookPro7,1");
+                  tmp_statement_expression_54 = return_value___builtin_strcmp_55;
+                  if(tmp_statement_expression_54 == 0)
                     ret = MACHINE_MACBOOKPRO_7;
 
                   else
                   {
-                    unsigned long int check_machine_dmi$$1$$22$$__s1_len;
-                    unsigned long int check_machine_dmi$$1$$22$$__s2_len;
-                    signed int return_value___builtin_strcmp$47;
-                    return_value___builtin_strcmp$47=__builtin_strcmp(buf, "MacBookPro8,1");
-                    tmp_statement_expression$46 = return_value___builtin_strcmp$47;
-                    if(tmp_statement_expression$46 == 0)
-                      tmp_if_expr$50 = (_Bool)1;
+                    unsigned long int check_machine_dmi__1__22____s1_len;
+                    unsigned long int check_machine_dmi__1__22____s2_len;
+                    signed int return_value___builtin_strcmp_47;
+                    return_value___builtin_strcmp_47=__builtin_strcmp(buf, "MacBookPro8,1");
+                    tmp_statement_expression_46 = return_value___builtin_strcmp_47;
+                    if(tmp_statement_expression_46 == 0)
+                      tmp_if_expr_50 = (_Bool)1;
 
                     else
                     {
-                      unsigned long int check_machine_dmi$$1$$23$$__s1_len;
-                      unsigned long int check_machine_dmi$$1$$23$$__s2_len;
-                      signed int return_value___builtin_strcmp$49;
-                      return_value___builtin_strcmp$49=__builtin_strcmp(buf, "MacBookPro8,2");
-                      tmp_statement_expression$48 = return_value___builtin_strcmp$49;
-                      tmp_if_expr$50 = tmp_statement_expression$48 == 0 ? (_Bool)1 : (_Bool)0;
+                      unsigned long int check_machine_dmi__1__23____s1_len;
+                      unsigned long int check_machine_dmi__1__23____s2_len;
+                      signed int return_value___builtin_strcmp_49;
+                      return_value___builtin_strcmp_49=__builtin_strcmp(buf, "MacBookPro8,2");
+                      tmp_statement_expression_48 = return_value___builtin_strcmp_49;
+                      tmp_if_expr_50 = tmp_statement_expression_48 == 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$50)
-                      tmp_if_expr$53 = (_Bool)1;
+                    if(tmp_if_expr_50)
+                      tmp_if_expr_53 = (_Bool)1;
 
                     else
                     {
-                      unsigned long int check_machine_dmi$$1$$24$$__s1_len;
-                      unsigned long int check_machine_dmi$$1$$24$$__s2_len;
-                      signed int return_value___builtin_strcmp$52;
-                      return_value___builtin_strcmp$52=__builtin_strcmp(buf, "MacBookPro8,3");
-                      tmp_statement_expression$51 = return_value___builtin_strcmp$52;
-                      tmp_if_expr$53 = tmp_statement_expression$51 == 0 ? (_Bool)1 : (_Bool)0;
+                      unsigned long int check_machine_dmi__1__24____s1_len;
+                      unsigned long int check_machine_dmi__1__24____s2_len;
+                      signed int return_value___builtin_strcmp_52;
+                      return_value___builtin_strcmp_52=__builtin_strcmp(buf, "MacBookPro8,3");
+                      tmp_statement_expression_51 = return_value___builtin_strcmp_52;
+                      tmp_if_expr_53 = tmp_statement_expression_51 == 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$53)
+                    if(tmp_if_expr_53)
                       ret = MACHINE_MACBOOKPRO_8;
 
                     else
                     {
-                      unsigned long int check_machine_dmi$$1$$25$$__s1_len;
-                      unsigned long int check_machine_dmi$$1$$25$$__s2_len;
-                      signed int return_value___builtin_strcmp$42;
-                      return_value___builtin_strcmp$42=__builtin_strcmp(buf, "MacBookPro9,1");
-                      tmp_statement_expression$41 = return_value___builtin_strcmp$42;
-                      if(tmp_statement_expression$41 == 0)
-                        tmp_if_expr$45 = (_Bool)1;
+                      unsigned long int check_machine_dmi__1__25____s1_len;
+                      unsigned long int check_machine_dmi__1__25____s2_len;
+                      signed int return_value___builtin_strcmp_42;
+                      return_value___builtin_strcmp_42=__builtin_strcmp(buf, "MacBookPro9,1");
+                      tmp_statement_expression_41 = return_value___builtin_strcmp_42;
+                      if(tmp_statement_expression_41 == 0)
+                        tmp_if_expr_45 = (_Bool)1;
 
                       else
                       {
-                        unsigned long int check_machine_dmi$$1$$26$$__s1_len;
-                        unsigned long int check_machine_dmi$$1$$26$$__s2_len;
-                        signed int return_value___builtin_strcmp$44;
-                        return_value___builtin_strcmp$44=__builtin_strcmp(buf, "MacBookPro9,2");
-                        tmp_statement_expression$43 = return_value___builtin_strcmp$44;
-                        tmp_if_expr$45 = tmp_statement_expression$43 == 0 ? (_Bool)1 : (_Bool)0;
+                        unsigned long int check_machine_dmi__1__26____s1_len;
+                        unsigned long int check_machine_dmi__1__26____s2_len;
+                        signed int return_value___builtin_strcmp_44;
+                        return_value___builtin_strcmp_44=__builtin_strcmp(buf, "MacBookPro9,2");
+                        tmp_statement_expression_43 = return_value___builtin_strcmp_44;
+                        tmp_if_expr_45 = tmp_statement_expression_43 == 0 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$45)
+                      if(tmp_if_expr_45)
                         ret = MACHINE_MACBOOKPRO_9;
 
                       else
                       {
-                        unsigned long int check_machine_dmi$$1$$27$$__s1_len;
-                        unsigned long int check_machine_dmi$$1$$27$$__s2_len;
-                        signed int return_value___builtin_strcmp$40;
-                        return_value___builtin_strcmp$40=__builtin_strcmp(buf, "MacBook1,1");
-                        tmp_statement_expression$39 = return_value___builtin_strcmp$40;
-                        if(tmp_statement_expression$39 == 0)
+                        unsigned long int check_machine_dmi__1__27____s1_len;
+                        unsigned long int check_machine_dmi__1__27____s2_len;
+                        signed int return_value___builtin_strcmp_40;
+                        return_value___builtin_strcmp_40=__builtin_strcmp(buf, "MacBook1,1");
+                        tmp_statement_expression_39 = return_value___builtin_strcmp_40;
+                        if(tmp_statement_expression_39 == 0)
                           ret = MACHINE_MACBOOK_1;
 
                         else
                         {
-                          unsigned long int check_machine_dmi$$1$$28$$__s1_len;
-                          unsigned long int check_machine_dmi$$1$$28$$__s2_len;
-                          signed int return_value___builtin_strcmp$38;
-                          return_value___builtin_strcmp$38=__builtin_strcmp(buf, "MacBook2,1");
-                          tmp_statement_expression$37 = return_value___builtin_strcmp$38;
-                          if(tmp_statement_expression$37 == 0)
+                          unsigned long int check_machine_dmi__1__28____s1_len;
+                          unsigned long int check_machine_dmi__1__28____s2_len;
+                          signed int return_value___builtin_strcmp_38;
+                          return_value___builtin_strcmp_38=__builtin_strcmp(buf, "MacBook2,1");
+                          tmp_statement_expression_37 = return_value___builtin_strcmp_38;
+                          if(tmp_statement_expression_37 == 0)
                             ret = MACHINE_MACBOOK_2;
 
                           else
                           {
-                            unsigned long int check_machine_dmi$$1$$29$$__s1_len;
-                            unsigned long int check_machine_dmi$$1$$29$$__s2_len;
-                            signed int return_value___builtin_strcmp$36;
-                            return_value___builtin_strcmp$36=__builtin_strcmp(buf, "MacBook3,1");
-                            tmp_statement_expression$35 = return_value___builtin_strcmp$36;
-                            if(tmp_statement_expression$35 == 0)
+                            unsigned long int check_machine_dmi__1__29____s1_len;
+                            unsigned long int check_machine_dmi__1__29____s2_len;
+                            signed int return_value___builtin_strcmp_36;
+                            return_value___builtin_strcmp_36=__builtin_strcmp(buf, "MacBook3,1");
+                            tmp_statement_expression_35 = return_value___builtin_strcmp_36;
+                            if(tmp_statement_expression_35 == 0)
                               ret = MACHINE_MACBOOK_3;
 
                             else
                             {
-                              unsigned long int check_machine_dmi$$1$$30$$__s1_len;
-                              unsigned long int check_machine_dmi$$1$$30$$__s2_len;
-                              signed int return_value___builtin_strcmp$34;
-                              return_value___builtin_strcmp$34=__builtin_strcmp(buf, "MacBook4,1");
-                              tmp_statement_expression$33 = return_value___builtin_strcmp$34;
-                              if(tmp_statement_expression$33 == 0)
+                              unsigned long int check_machine_dmi__1__30____s1_len;
+                              unsigned long int check_machine_dmi__1__30____s2_len;
+                              signed int return_value___builtin_strcmp_34;
+                              return_value___builtin_strcmp_34=__builtin_strcmp(buf, "MacBook4,1");
+                              tmp_statement_expression_33 = return_value___builtin_strcmp_34;
+                              if(tmp_statement_expression_33 == 0)
                                 ret = MACHINE_MACBOOK_4;
 
                               else
                               {
-                                unsigned long int check_machine_dmi$$1$$31$$__s1_len;
-                                unsigned long int check_machine_dmi$$1$$31$$__s2_len;
-                                signed int return_value___builtin_strcmp$29;
-                                return_value___builtin_strcmp$29=__builtin_strcmp(buf, "MacBook5,1");
-                                tmp_statement_expression$28 = return_value___builtin_strcmp$29;
-                                if(tmp_statement_expression$28 == 0)
-                                  tmp_if_expr$32 = (_Bool)1;
+                                unsigned long int check_machine_dmi__1__31____s1_len;
+                                unsigned long int check_machine_dmi__1__31____s2_len;
+                                signed int return_value___builtin_strcmp_29;
+                                return_value___builtin_strcmp_29=__builtin_strcmp(buf, "MacBook5,1");
+                                tmp_statement_expression_28 = return_value___builtin_strcmp_29;
+                                if(tmp_statement_expression_28 == 0)
+                                  tmp_if_expr_32 = (_Bool)1;
 
                                 else
                                 {
-                                  unsigned long int check_machine_dmi$$1$$32$$__s1_len;
-                                  unsigned long int check_machine_dmi$$1$$32$$__s2_len;
-                                  signed int return_value___builtin_strcmp$31;
-                                  return_value___builtin_strcmp$31=__builtin_strcmp(buf, "MacBook5,2");
-                                  tmp_statement_expression$30 = return_value___builtin_strcmp$31;
-                                  tmp_if_expr$32 = tmp_statement_expression$30 == 0 ? (_Bool)1 : (_Bool)0;
+                                  unsigned long int check_machine_dmi__1__32____s1_len;
+                                  unsigned long int check_machine_dmi__1__32____s2_len;
+                                  signed int return_value___builtin_strcmp_31;
+                                  return_value___builtin_strcmp_31=__builtin_strcmp(buf, "MacBook5,2");
+                                  tmp_statement_expression_30 = return_value___builtin_strcmp_31;
+                                  tmp_if_expr_32 = tmp_statement_expression_30 == 0 ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$32)
+                                if(tmp_if_expr_32)
                                   ret = MACHINE_MACBOOK_5;
 
                                 else
                                 {
-                                  unsigned long int check_machine_dmi$$1$$33$$__s1_len;
-                                  unsigned long int check_machine_dmi$$1$$33$$__s2_len;
-                                  signed int return_value___builtin_strcmp$27;
-                                  return_value___builtin_strcmp$27=__builtin_strcmp(buf, "MacBook6,1");
-                                  tmp_statement_expression$26 = return_value___builtin_strcmp$27;
-                                  if(tmp_statement_expression$26 == 0)
+                                  unsigned long int check_machine_dmi__1__33____s1_len;
+                                  unsigned long int check_machine_dmi__1__33____s2_len;
+                                  signed int return_value___builtin_strcmp_27;
+                                  return_value___builtin_strcmp_27=__builtin_strcmp(buf, "MacBook6,1");
+                                  tmp_statement_expression_26 = return_value___builtin_strcmp_27;
+                                  if(tmp_statement_expression_26 == 0)
                                     ret = MACHINE_MACBOOK_6;
 
                                   else
                                   {
                                     unsigned long int __s1_len;
-                                    unsigned long int check_machine_dmi$$1$$34$$__s2_len;
-                                    signed int return_value___builtin_strcmp$25;
-                                    return_value___builtin_strcmp$25=__builtin_strcmp(buf, "MacBook7,1");
-                                    tmp_statement_expression$24 = return_value___builtin_strcmp$25;
-                                    if(tmp_statement_expression$24 == 0)
+                                    unsigned long int check_machine_dmi__1__34____s2_len;
+                                    signed int return_value___builtin_strcmp_25;
+                                    return_value___builtin_strcmp_25=__builtin_strcmp(buf, "MacBook7,1");
+                                    tmp_statement_expression_24 = return_value___builtin_strcmp_25;
+                                    if(tmp_statement_expression_24 == 0)
                                       ret = MACHINE_MACBOOK_7;
 
                                     else
                                     {
-                                      unsigned long int check_machine_dmi$$1$$35$$__s1_len;
-                                      unsigned long int check_machine_dmi$$1$$35$$__s2_len;
-                                      signed int return_value___builtin_strcmp$23;
-                                      return_value___builtin_strcmp$23=__builtin_strcmp(buf, "MacBookAir1,1");
-                                      tmp_statement_expression$22 = return_value___builtin_strcmp$23;
-                                      if(tmp_statement_expression$22 == 0)
+                                      unsigned long int check_machine_dmi__1__35____s1_len;
+                                      unsigned long int check_machine_dmi__1__35____s2_len;
+                                      signed int return_value___builtin_strcmp_23;
+                                      return_value___builtin_strcmp_23=__builtin_strcmp(buf, "MacBookAir1,1");
+                                      tmp_statement_expression_22 = return_value___builtin_strcmp_23;
+                                      if(tmp_statement_expression_22 == 0)
                                         ret = MACHINE_MACBOOKAIR_1;
 
                                       else
                                       {
-                                        unsigned long int check_machine_dmi$$1$$36$$__s1_len;
-                                        unsigned long int check_machine_dmi$$1$$36$$__s2_len;
-                                        signed int return_value___builtin_strcmp$21;
-                                        return_value___builtin_strcmp$21=__builtin_strcmp(buf, "MacBookAir2,1");
-                                        tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-                                        if(tmp_statement_expression$20 == 0)
+                                        unsigned long int check_machine_dmi__1__36____s1_len;
+                                        unsigned long int check_machine_dmi__1__36____s2_len;
+                                        signed int return_value___builtin_strcmp_21;
+                                        return_value___builtin_strcmp_21=__builtin_strcmp(buf, "MacBookAir2,1");
+                                        tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+                                        if(tmp_statement_expression_20 == 0)
                                           ret = MACHINE_MACBOOKAIR_2;
 
                                         else
                                         {
-                                          unsigned long int check_machine_dmi$$1$$37$$__s1_len;
-                                          unsigned long int check_machine_dmi$$1$$37$$__s2_len;
-                                          signed int return_value___builtin_strcmp$16;
-                                          return_value___builtin_strcmp$16=__builtin_strcmp(buf, "MacBookAir3,1");
-                                          tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-                                          if(tmp_statement_expression$15 == 0)
-                                            tmp_if_expr$19 = (_Bool)1;
+                                          unsigned long int check_machine_dmi__1__37____s1_len;
+                                          unsigned long int check_machine_dmi__1__37____s2_len;
+                                          signed int return_value___builtin_strcmp_16;
+                                          return_value___builtin_strcmp_16=__builtin_strcmp(buf, "MacBookAir3,1");
+                                          tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+                                          if(tmp_statement_expression_15 == 0)
+                                            tmp_if_expr_19 = (_Bool)1;
 
                                           else
                                           {
-                                            unsigned long int check_machine_dmi$$1$$38$$__s1_len;
-                                            unsigned long int check_machine_dmi$$1$$38$$__s2_len;
-                                            signed int return_value___builtin_strcmp$18;
-                                            return_value___builtin_strcmp$18=__builtin_strcmp(buf, "MacBookAir3,2");
-                                            tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-                                            tmp_if_expr$19 = tmp_statement_expression$17 == 0 ? (_Bool)1 : (_Bool)0;
+                                            unsigned long int check_machine_dmi__1__38____s1_len;
+                                            unsigned long int check_machine_dmi__1__38____s2_len;
+                                            signed int return_value___builtin_strcmp_18;
+                                            return_value___builtin_strcmp_18=__builtin_strcmp(buf, "MacBookAir3,2");
+                                            tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+                                            tmp_if_expr_19 = tmp_statement_expression_17 == 0 ? (_Bool)1 : (_Bool)0;
                                           }
-                                          if(tmp_if_expr$19)
+                                          if(tmp_if_expr_19)
                                             ret = MACHINE_MACBOOKAIR_3;
 
                                           else
@@ -4696,7 +4696,7 @@ static enum anonymous$3 check_machine_dmi(void)
       if(!(ret == MACHINE_MAC_UNKNOWN))
         logmsg(6, "DMI machine check: running on a %s", (const void *)buf);
 
-      return (enum anonymous$3)ret;
+      return (enum anonymous_3)ret;
     }
   }
 }
@@ -4721,7 +4721,7 @@ signed int config_load(void)
   struct cfg_t *sec;
   signed int ret;
   cfg=cfg_init(opts, 0);
-  enum anonymous$8 return_value_cfg_getbool$36;
+  enum anonymous_8 return_value_cfg_getbool_36;
   if(cfg == ((struct cfg_t *)NULL))
   {
     logmsg(3, "Failed to initialize configuration parser");
@@ -4770,117 +4770,117 @@ signed int config_load(void)
     __CPROVER_DUMP_L3:
       ;
       sec=cfg_getsec(cfg, "general");
-      signed long int return_value_cfg_getint$1;
-      return_value_cfg_getint$1=cfg_getint(sec, "fnmode");
-      general_cfg.fnmode = (signed int)return_value_cfg_getint$1;
+      signed long int return_value_cfg_getint_1;
+      return_value_cfg_getint_1=cfg_getint(sec, "fnmode");
+      general_cfg.fnmode = (signed int)return_value_cfg_getint_1;
       sec=cfg_getsec(cfg, "lcd_sysfs");
-      signed long int return_value_cfg_getint$2;
-      return_value_cfg_getint$2=cfg_getint(sec, "init");
-      lcd_sysfs_cfg.init = (signed int)return_value_cfg_getint$2;
-      signed long int return_value_cfg_getint$3;
-      return_value_cfg_getint$3=cfg_getint(sec, "step");
-      lcd_sysfs_cfg.step = (signed int)return_value_cfg_getint$3;
-      signed long int return_value_cfg_getint$4;
-      return_value_cfg_getint$4=cfg_getint(sec, "on_batt");
-      lcd_sysfs_cfg.on_batt = (signed int)return_value_cfg_getint$4;
+      signed long int return_value_cfg_getint_2;
+      return_value_cfg_getint_2=cfg_getint(sec, "init");
+      lcd_sysfs_cfg.init = (signed int)return_value_cfg_getint_2;
+      signed long int return_value_cfg_getint_3;
+      return_value_cfg_getint_3=cfg_getint(sec, "step");
+      lcd_sysfs_cfg.step = (signed int)return_value_cfg_getint_3;
+      signed long int return_value_cfg_getint_4;
+      return_value_cfg_getint_4=cfg_getint(sec, "on_batt");
+      lcd_sysfs_cfg.on_batt = (signed int)return_value_cfg_getint_4;
       sec=cfg_getsec(cfg, "lcd_x1600");
-      signed long int return_value_cfg_getint$5;
-      return_value_cfg_getint$5=cfg_getint(sec, "init");
-      lcd_x1600_cfg.init = (signed int)return_value_cfg_getint$5;
-      signed long int return_value_cfg_getint$6;
-      return_value_cfg_getint$6=cfg_getint(sec, "step");
-      lcd_x1600_cfg.step = (signed int)return_value_cfg_getint$6;
-      signed long int return_value_cfg_getint$7;
-      return_value_cfg_getint$7=cfg_getint(sec, "on_batt");
-      lcd_x1600_cfg.on_batt = (signed int)return_value_cfg_getint$7;
+      signed long int return_value_cfg_getint_5;
+      return_value_cfg_getint_5=cfg_getint(sec, "init");
+      lcd_x1600_cfg.init = (signed int)return_value_cfg_getint_5;
+      signed long int return_value_cfg_getint_6;
+      return_value_cfg_getint_6=cfg_getint(sec, "step");
+      lcd_x1600_cfg.step = (signed int)return_value_cfg_getint_6;
+      signed long int return_value_cfg_getint_7;
+      return_value_cfg_getint_7=cfg_getint(sec, "on_batt");
+      lcd_x1600_cfg.on_batt = (signed int)return_value_cfg_getint_7;
       x1600_backlight_fix_config();
       sec=cfg_getsec(cfg, "lcd_gma950");
-      signed long int return_value_cfg_getint$8;
-      return_value_cfg_getint$8=cfg_getint(sec, "init");
-      lcd_gma950_cfg.init = (unsigned int)return_value_cfg_getint$8;
-      signed long int return_value_cfg_getint$9;
-      return_value_cfg_getint$9=cfg_getint(sec, "step");
-      lcd_gma950_cfg.step = (unsigned int)return_value_cfg_getint$9;
-      signed long int return_value_cfg_getint$10;
-      return_value_cfg_getint$10=cfg_getint(sec, "on_batt");
-      lcd_gma950_cfg.on_batt = (unsigned int)return_value_cfg_getint$10;
+      signed long int return_value_cfg_getint_8;
+      return_value_cfg_getint_8=cfg_getint(sec, "init");
+      lcd_gma950_cfg.init = (unsigned int)return_value_cfg_getint_8;
+      signed long int return_value_cfg_getint_9;
+      return_value_cfg_getint_9=cfg_getint(sec, "step");
+      lcd_gma950_cfg.step = (unsigned int)return_value_cfg_getint_9;
+      signed long int return_value_cfg_getint_10;
+      return_value_cfg_getint_10=cfg_getint(sec, "on_batt");
+      lcd_gma950_cfg.on_batt = (unsigned int)return_value_cfg_getint_10;
       sec=cfg_getsec(cfg, "lcd_nv8600mgt");
-      signed long int return_value_cfg_getint$11;
-      return_value_cfg_getint$11=cfg_getint(sec, "init");
-      lcd_nv8600mgt_cfg.init = (signed int)return_value_cfg_getint$11;
-      signed long int return_value_cfg_getint$12;
-      return_value_cfg_getint$12=cfg_getint(sec, "step");
-      lcd_nv8600mgt_cfg.step = (signed int)return_value_cfg_getint$12;
-      signed long int return_value_cfg_getint$13;
-      return_value_cfg_getint$13=cfg_getint(sec, "on_batt");
-      lcd_nv8600mgt_cfg.on_batt = (signed int)return_value_cfg_getint$13;
+      signed long int return_value_cfg_getint_11;
+      return_value_cfg_getint_11=cfg_getint(sec, "init");
+      lcd_nv8600mgt_cfg.init = (signed int)return_value_cfg_getint_11;
+      signed long int return_value_cfg_getint_12;
+      return_value_cfg_getint_12=cfg_getint(sec, "step");
+      lcd_nv8600mgt_cfg.step = (signed int)return_value_cfg_getint_12;
+      signed long int return_value_cfg_getint_13;
+      return_value_cfg_getint_13=cfg_getint(sec, "on_batt");
+      lcd_nv8600mgt_cfg.on_batt = (signed int)return_value_cfg_getint_13;
       nv8600mgt_backlight_fix_config();
       sec=cfg_getsec(cfg, "audio");
-      enum anonymous$8 return_value_cfg_getbool$14;
-      return_value_cfg_getbool$14=cfg_getbool(sec, "disabled");
-      audio_cfg.disabled = (signed int)return_value_cfg_getbool$14;
-      char *return_value_cfg_getstr$15;
-      return_value_cfg_getstr$15=cfg_getstr(sec, "card");
-      char *return_value___strdup$16;
-      return_value___strdup$16=__strdup(return_value_cfg_getstr$15);
-      audio_cfg.card = return_value___strdup$16;
-      signed long int return_value_cfg_getint$17;
-      return_value_cfg_getint$17=cfg_getint(sec, "init");
-      audio_cfg.init = (signed int)return_value_cfg_getint$17;
-      signed long int return_value_cfg_getint$18;
-      return_value_cfg_getint$18=cfg_getint(sec, "step");
-      audio_cfg.step = (signed int)return_value_cfg_getint$18;
-      enum anonymous$8 return_value_cfg_getbool$19;
-      return_value_cfg_getbool$19=cfg_getbool(sec, "beep");
-      audio_cfg.beep = (signed int)return_value_cfg_getbool$19;
-      char *return_value_cfg_getstr$20;
-      return_value_cfg_getstr$20=cfg_getstr(sec, "volume");
-      char *return_value___strdup$21;
-      return_value___strdup$21=__strdup(return_value_cfg_getstr$20);
-      audio_cfg.vol = return_value___strdup$21;
-      char *return_value_cfg_getstr$22;
-      return_value_cfg_getstr$22=cfg_getstr(sec, "speakers");
-      char *return_value___strdup$23;
-      return_value___strdup$23=__strdup(return_value_cfg_getstr$22);
-      audio_cfg.spkr = return_value___strdup$23;
-      char *return_value_cfg_getstr$24;
-      return_value_cfg_getstr$24=cfg_getstr(sec, "headphones");
-      char *return_value___strdup$25;
-      return_value___strdup$25=__strdup(return_value_cfg_getstr$24);
-      audio_cfg.head = return_value___strdup$25;
+      enum anonymous_8 return_value_cfg_getbool_14;
+      return_value_cfg_getbool_14=cfg_getbool(sec, "disabled");
+      audio_cfg.disabled = (signed int)return_value_cfg_getbool_14;
+      char *return_value_cfg_getstr_15;
+      return_value_cfg_getstr_15=cfg_getstr(sec, "card");
+      char *return_value___strdup_16;
+      return_value___strdup_16=__strdup(return_value_cfg_getstr_15);
+      audio_cfg.card = return_value___strdup_16;
+      signed long int return_value_cfg_getint_17;
+      return_value_cfg_getint_17=cfg_getint(sec, "init");
+      audio_cfg.init = (signed int)return_value_cfg_getint_17;
+      signed long int return_value_cfg_getint_18;
+      return_value_cfg_getint_18=cfg_getint(sec, "step");
+      audio_cfg.step = (signed int)return_value_cfg_getint_18;
+      enum anonymous_8 return_value_cfg_getbool_19;
+      return_value_cfg_getbool_19=cfg_getbool(sec, "beep");
+      audio_cfg.beep = (signed int)return_value_cfg_getbool_19;
+      char *return_value_cfg_getstr_20;
+      return_value_cfg_getstr_20=cfg_getstr(sec, "volume");
+      char *return_value___strdup_21;
+      return_value___strdup_21=__strdup(return_value_cfg_getstr_20);
+      audio_cfg.vol = return_value___strdup_21;
+      char *return_value_cfg_getstr_22;
+      return_value_cfg_getstr_22=cfg_getstr(sec, "speakers");
+      char *return_value___strdup_23;
+      return_value___strdup_23=__strdup(return_value_cfg_getstr_22);
+      audio_cfg.spkr = return_value___strdup_23;
+      char *return_value_cfg_getstr_24;
+      return_value_cfg_getstr_24=cfg_getstr(sec, "headphones");
+      char *return_value___strdup_25;
+      return_value___strdup_25=__strdup(return_value_cfg_getstr_24);
+      audio_cfg.head = return_value___strdup_25;
       audio_fix_config();
       sec=cfg_getsec(cfg, "kbd");
-      signed long int return_value_cfg_getint$26;
-      return_value_cfg_getint$26=cfg_getint(sec, "default");
-      kbd_cfg.auto_lvl = (signed int)return_value_cfg_getint$26;
-      signed long int return_value_cfg_getint$27;
-      return_value_cfg_getint$27=cfg_getint(sec, "step");
-      kbd_cfg.step = (signed int)return_value_cfg_getint$27;
-      signed long int return_value_cfg_getint$28;
-      return_value_cfg_getint$28=cfg_getint(sec, "on_threshold");
-      kbd_cfg.on_thresh = (signed int)return_value_cfg_getint$28;
-      signed long int return_value_cfg_getint$29;
-      return_value_cfg_getint$29=cfg_getint(sec, "off_threshold");
-      kbd_cfg.off_thresh = (signed int)return_value_cfg_getint$29;
-      enum anonymous$8 return_value_cfg_getbool$30;
-      return_value_cfg_getbool$30=cfg_getbool(sec, "auto");
-      kbd_cfg.auto_on = (signed int)return_value_cfg_getbool$30;
-      signed long int return_value_cfg_getint$31;
-      return_value_cfg_getint$31=cfg_getint(sec, "idle_timer");
-      kbd_cfg.idle = (signed int)return_value_cfg_getint$31;
-      signed long int return_value_cfg_getint$32;
-      return_value_cfg_getint$32=cfg_getint(sec, "idle_level");
-      kbd_cfg.idle_lvl = (signed int)return_value_cfg_getint$32;
+      signed long int return_value_cfg_getint_26;
+      return_value_cfg_getint_26=cfg_getint(sec, "default");
+      kbd_cfg.auto_lvl = (signed int)return_value_cfg_getint_26;
+      signed long int return_value_cfg_getint_27;
+      return_value_cfg_getint_27=cfg_getint(sec, "step");
+      kbd_cfg.step = (signed int)return_value_cfg_getint_27;
+      signed long int return_value_cfg_getint_28;
+      return_value_cfg_getint_28=cfg_getint(sec, "on_threshold");
+      kbd_cfg.on_thresh = (signed int)return_value_cfg_getint_28;
+      signed long int return_value_cfg_getint_29;
+      return_value_cfg_getint_29=cfg_getint(sec, "off_threshold");
+      kbd_cfg.off_thresh = (signed int)return_value_cfg_getint_29;
+      enum anonymous_8 return_value_cfg_getbool_30;
+      return_value_cfg_getbool_30=cfg_getbool(sec, "auto");
+      kbd_cfg.auto_on = (signed int)return_value_cfg_getbool_30;
+      signed long int return_value_cfg_getint_31;
+      return_value_cfg_getint_31=cfg_getint(sec, "idle_timer");
+      kbd_cfg.idle = (signed int)return_value_cfg_getint_31;
+      signed long int return_value_cfg_getint_32;
+      return_value_cfg_getint_32=cfg_getint(sec, "idle_level");
+      kbd_cfg.idle_lvl = (signed int)return_value_cfg_getint_32;
       kbd_backlight_fix_config();
       sec=cfg_getsec(cfg, "eject");
-      enum anonymous$8 return_value_cfg_getbool$33;
-      return_value_cfg_getbool$33=cfg_getbool(sec, "enabled");
-      eject_cfg.enabled = (signed int)return_value_cfg_getbool$33;
-      char *return_value_cfg_getstr$34;
-      return_value_cfg_getstr$34=cfg_getstr(sec, "device");
-      char *return_value___strdup$35;
-      return_value___strdup$35=__strdup(return_value_cfg_getstr$34);
-      eject_cfg.device = return_value___strdup$35;
+      enum anonymous_8 return_value_cfg_getbool_33;
+      return_value_cfg_getbool_33=cfg_getbool(sec, "enabled");
+      eject_cfg.enabled = (signed int)return_value_cfg_getbool_33;
+      char *return_value_cfg_getstr_34;
+      return_value_cfg_getstr_34=cfg_getstr(sec, "device");
+      char *return_value___strdup_35;
+      return_value___strdup_35=__strdup(return_value_cfg_getstr_34);
+      eject_cfg.device = return_value___strdup_35;
       cd_eject_fix_config();
       sec=cfg_getsec(cfg, "beep");
       if(!(audio_cfg.disabled == 0))
@@ -4888,19 +4888,19 @@ signed int config_load(void)
 
       else
       {
-        return_value_cfg_getbool$36=cfg_getbool(sec, "enabled");
-        beep_cfg.enabled = (signed int)return_value_cfg_getbool$36;
+        return_value_cfg_getbool_36=cfg_getbool(sec, "enabled");
+        beep_cfg.enabled = (signed int)return_value_cfg_getbool_36;
       }
-      char *return_value_cfg_getstr$37;
-      return_value_cfg_getstr$37=cfg_getstr(sec, "beepfile");
-      char *return_value___strdup$38;
-      return_value___strdup$38=__strdup(return_value_cfg_getstr$37);
-      beep_cfg.beepfile = return_value___strdup$38;
+      char *return_value_cfg_getstr_37;
+      return_value_cfg_getstr_37=cfg_getstr(sec, "beepfile");
+      char *return_value___strdup_38;
+      return_value___strdup_38=__strdup(return_value_cfg_getstr_37);
+      beep_cfg.beepfile = return_value___strdup_38;
       beep_fix_config();
       sec=cfg_getsec(cfg, "appleir");
-      enum anonymous$8 return_value_cfg_getbool$39;
-      return_value_cfg_getbool$39=cfg_getbool(sec, "enabled");
-      appleir_cfg.enabled = (signed int)return_value_cfg_getbool$39;
+      enum anonymous_8 return_value_cfg_getbool_39;
+      return_value_cfg_getbool_39=cfg_getbool(sec, "enabled");
+      appleir_cfg.enabled = (signed int)return_value_cfg_getbool_39;
       cfg_free(cfg);
       if(!(console == 0))
         config_print();
@@ -4970,11 +4970,11 @@ static void config_print(void)
 static signed int config_validate_positive_integer(struct cfg_t *cfg, struct cfg_opt_t *opt)
 {
   signed int value;
-  unsigned int return_value_cfg_opt_size$1;
-  return_value_cfg_opt_size$1=cfg_opt_size(opt);
-  signed long int return_value_cfg_opt_getnint$2;
-  return_value_cfg_opt_getnint$2=cfg_opt_getnint(opt, return_value_cfg_opt_size$1 - (unsigned int)1);
-  value = (signed int)return_value_cfg_opt_getnint$2;
+  unsigned int return_value_cfg_opt_size_1;
+  return_value_cfg_opt_size_1=cfg_opt_size(opt);
+  signed long int return_value_cfg_opt_getnint_2;
+  return_value_cfg_opt_getnint_2=cfg_opt_getnint(opt, return_value_cfg_opt_size_1 - (unsigned int)1);
+  value = (signed int)return_value_cfg_opt_getnint_2;
   if(!(value >= 0))
   {
     cfg_error(cfg, "Error: Value for '%s/%s' must be positive", cfg->name, opt->name);
@@ -4990,12 +4990,12 @@ static signed int config_validate_positive_integer(struct cfg_t *cfg, struct cfg
 static signed int config_validate_string(struct cfg_t *cfg, struct cfg_opt_t *opt)
 {
   char *value;
-  unsigned int return_value_cfg_opt_size$1;
-  return_value_cfg_opt_size$1=cfg_opt_size(opt);
-  value=cfg_opt_getnstr(opt, return_value_cfg_opt_size$1 - (unsigned int)1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(value);
-  if(return_value_strlen$2 == 0ul)
+  unsigned int return_value_cfg_opt_size_1;
+  return_value_cfg_opt_size_1=cfg_opt_size(opt);
+  value=cfg_opt_getnstr(opt, return_value_cfg_opt_size_1 - (unsigned int)1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(value);
+  if(return_value_strlen_2 == 0ul)
   {
     cfg_error(cfg, "Error: Value for '%s/%s' must be a non-zero string", cfg->name, opt->name);
     return -1;
@@ -5054,36 +5054,36 @@ signed int evdev_init(void)
   signed int i;
   char evdev[32l];
   signed int ndevs;
-  signed int evdev_init$$1$$fd;
+  signed int evdev_init__1__fd;
   internal_kbd_fd = -1;
   ndevs = 0;
   i = 0;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   for( ; !(i >= 32); i = i + 1)
   {
     ret=snprintf(evdev, (unsigned long int)32, "%s%d", (const void *)"/dev/input/event", i);
     if(ret >= 32 || !(ret >= 1))
       return -1;
 
-    evdev_init$$1$$fd=open(evdev, 02);
-    if(!(evdev_init$$1$$fd >= 0))
+    evdev_init__1__fd=open(evdev, 02);
+    if(!(evdev_init__1__fd >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 2))
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 2))
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        logmsg(4, "Could not open %s: %s", (const void *)evdev, return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        logmsg(4, "Could not open %s: %s", (const void *)evdev, return_value_strerror_2);
       }
 
       goto __CPROVER_DUMP_L6;
     }
 
-    signed int return_value_evdev_try_add$4;
-    return_value_evdev_try_add$4=evdev_try_add(evdev_init$$1$$fd);
-    if(return_value_evdev_try_add$4 == 0)
+    signed int return_value_evdev_try_add_4;
+    return_value_evdev_try_add_4=evdev_try_add(evdev_init__1__fd);
+    if(return_value_evdev_try_add_4 == 0)
       ndevs = ndevs + 1;
 
 
@@ -5100,36 +5100,36 @@ signed int evdev_init(void)
 static signed int evdev_inotify_init(void)
 {
   signed int ret;
-  signed int evdev_inotify_init$$1$$fd;
-  evdev_inotify_init$$1$$fd=inotify_init();
-  if(!(evdev_inotify_init$$1$$fd >= 0))
+  signed int evdev_inotify_init__1__fd;
+  evdev_inotify_init__1__fd=inotify_init();
+  if(!(evdev_inotify_init__1__fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    logmsg(3, "Failed to initialize inotify: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    logmsg(3, "Failed to initialize inotify: %s", return_value_strerror_2);
     return -1;
   }
 
-  ret=inotify_add_watch(evdev_inotify_init$$1$$fd, "/dev/input", (unsigned int)(0x00000100 | 0x01000000));
+  ret=inotify_add_watch(evdev_inotify_init__1__fd, "/dev/input", (unsigned int)(0x00000100 | 0x01000000));
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    logmsg(3, "Failed to add inotify watch for %s: %s", (const void *)"/dev/input", return_value_strerror$4);
-    close(evdev_inotify_init$$1$$fd);
-    evdev_inotify_init$$1$$fd = -1;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    logmsg(3, "Failed to add inotify watch for %s: %s", (const void *)"/dev/input", return_value_strerror_4);
+    close(evdev_inotify_init__1__fd);
+    evdev_inotify_init__1__fd = -1;
     return -1;
   }
 
-  ret=evloop_add(evdev_inotify_init$$1$$fd, (unsigned int)1, evdev_inotify_process);
+  ret=evloop_add(evdev_inotify_init__1__fd, (unsigned int)1, evdev_inotify_process);
   if(!(ret >= 0))
   {
     logmsg(3, "Failed to add inotify fd to event loop");
-    close(evdev_inotify_init$$1$$fd);
+    close(evdev_inotify_init__1__fd);
     return -1;
   }
 
@@ -5147,9 +5147,9 @@ void evdev_inotify_process(signed int fd, unsigned int events)
   struct inotify_event *all_ie;
   struct inotify_event *ie;
   char evdev[32l];
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   if(!((24u & events) == 0u))
   {
     logmsg(4, "inotify fd lost; this should not happen");
@@ -5165,32 +5165,32 @@ void evdev_inotify_process(signed int fd, unsigned int events)
     ret=ioctl(fd, (unsigned long int)0x541B, &qsize);
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(3, "Could not determine inotify queue size: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(3, "Could not determine inotify queue size: %s", return_value_strerror_2);
       goto __CPROVER_DUMP_L16;
     }
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)qsize);
-    all_ie = (struct inotify_event *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)qsize);
+    all_ie = (struct inotify_event *)return_value_malloc_3;
     if(all_ie == ((struct inotify_event *)NULL))
       logmsg(3, "Could not allocate %d bytes for inotify events", qsize);
 
     else
     {
-      signed long int return_value_read$4;
-      return_value_read$4=read(fd, (void *)all_ie, (unsigned long int)qsize);
-      ret = (signed int)return_value_read$4;
+      signed long int return_value_read_4;
+      return_value_read_4=read(fd, (void *)all_ie, (unsigned long int)qsize);
+      ret = (signed int)return_value_read_4;
       if(!(ret >= 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        logmsg(4, "inotify read failed: %s", return_value_strerror$6);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        logmsg(4, "inotify read failed: %s", return_value_strerror_6);
         free((void *)all_ie);
         goto __CPROVER_DUMP_L16;
       }
@@ -5200,19 +5200,19 @@ void evdev_inotify_process(signed int fd, unsigned int events)
       for( ; !(ie - all_ie >= (signed long int)qsize); ie = ie + (signed long int)((unsigned long int)1 + (unsigned long int)ie->len / sizeof(struct inotify_event) /*16ul*/ ))
       {
         if(ie->len == 0u)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = ie->name == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = ie->name == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
           logdebug("inotify event with no name\n");
 
         else
         {
           logdebug("Found new event device %s/%s\n", (const void *)"/dev/input", (const void *)ie->name);
-          signed int return_value_strncmp$8;
-          return_value_strncmp$8=strncmp("event", ie->name, (unsigned long int)5);
-          if(!(return_value_strncmp$8 == 0))
+          signed int return_value_strncmp_8;
+          return_value_strncmp_8=strncmp("event", ie->name, (unsigned long int)5);
+          if(!(return_value_strncmp_8 == 0))
             logdebug("Discarding %s/%s\n", (const void *)"/dev/input", (const void *)ie->name);
 
           else
@@ -5223,13 +5223,13 @@ void evdev_inotify_process(signed int fd, unsigned int events)
               efd=open(evdev, 02);
               if(!(efd >= 0))
               {
-                signed int *return_value___errno_location$11;
-                return_value___errno_location$11=__errno_location();
-                if(!(*return_value___errno_location$11 == 2))
+                signed int *return_value___errno_location_11;
+                return_value___errno_location_11=__errno_location();
+                if(!(*return_value___errno_location_11 == 2))
                 {
-                  return_value___errno_location$9=__errno_location();
-                  return_value_strerror$10=strerror(*return_value___errno_location$9);
-                  logmsg(4, "Could not open %s: %s", (const void *)evdev, return_value_strerror$10);
+                  return_value___errno_location_9=__errno_location();
+                  return_value_strerror_10=strerror(*return_value___errno_location_9);
+                  logmsg(4, "Could not open %s: %s", (const void *)evdev, return_value_strerror_10);
                 }
 
                 goto __CPROVER_DUMP_L14;
@@ -5279,49 +5279,49 @@ static signed int evdev_is_appleir(unsigned short int *id)
 // file evdev.c line 1014
 static signed int evdev_is_extkbd(unsigned short int *id)
 {
-  signed int return_value_evdev_is_extkbd_white$1;
-  return_value_evdev_is_extkbd_white$1=evdev_is_extkbd_white(id);
-  _Bool tmp_if_expr$3;
-  signed int return_value_evdev_is_extkbd_mini_alu$2;
-  if(!(return_value_evdev_is_extkbd_white$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_evdev_is_extkbd_white_1;
+  return_value_evdev_is_extkbd_white_1=evdev_is_extkbd_white(id);
+  _Bool tmp_if_expr_3;
+  signed int return_value_evdev_is_extkbd_mini_alu_2;
+  if(!(return_value_evdev_is_extkbd_white_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_extkbd_mini_alu$2=evdev_is_extkbd_mini_alu(id);
-    tmp_if_expr$3 = return_value_evdev_is_extkbd_mini_alu$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_extkbd_mini_alu_2=evdev_is_extkbd_mini_alu(id);
+    tmp_if_expr_3 = return_value_evdev_is_extkbd_mini_alu_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_evdev_is_extkbd_alu$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_evdev_is_extkbd_alu_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_extkbd_alu$4=evdev_is_extkbd_alu(id);
-    tmp_if_expr$5 = return_value_evdev_is_extkbd_alu$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_extkbd_alu_4=evdev_is_extkbd_alu(id);
+    tmp_if_expr_5 = return_value_evdev_is_extkbd_alu_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_evdev_is_extkbd_alu_wl$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_evdev_is_extkbd_alu_wl_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_extkbd_alu_wl$6=evdev_is_extkbd_alu_wl(id);
-    tmp_if_expr$7 = return_value_evdev_is_extkbd_alu_wl$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_extkbd_alu_wl_6=evdev_is_extkbd_alu_wl(id);
+    tmp_if_expr_7 = return_value_evdev_is_extkbd_alu_wl_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_evdev_is_extkbd_alu_wl_2$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_evdev_is_extkbd_alu_wl_2_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_extkbd_alu_wl_2$8=evdev_is_extkbd_alu_wl_2(id);
-    tmp_if_expr$9 = return_value_evdev_is_extkbd_alu_wl_2$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_extkbd_alu_wl_2_8=evdev_is_extkbd_alu_wl_2(id);
+    tmp_if_expr_9 = return_value_evdev_is_extkbd_alu_wl_2_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$9;
+  return (signed int)tmp_if_expr_9;
 }
 
 // evdev_is_extkbd_alu
@@ -5520,139 +5520,139 @@ static signed int evdev_is_geyser4hf(unsigned short int *id)
 // file evdev.c line 819
 static signed int evdev_is_internal(unsigned short int *id)
 {
-  signed int return_value_evdev_is_geyser3$1;
-  return_value_evdev_is_geyser3$1=evdev_is_geyser3(id);
-  _Bool tmp_if_expr$3;
-  signed int return_value_evdev_is_geyser4$2;
-  if(!(return_value_evdev_is_geyser3$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_evdev_is_geyser3_1;
+  return_value_evdev_is_geyser3_1=evdev_is_geyser3(id);
+  _Bool tmp_if_expr_3;
+  signed int return_value_evdev_is_geyser4_2;
+  if(!(return_value_evdev_is_geyser3_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_geyser4$2=evdev_is_geyser4(id);
-    tmp_if_expr$3 = return_value_evdev_is_geyser4$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_geyser4_2=evdev_is_geyser4(id);
+    tmp_if_expr_3 = return_value_evdev_is_geyser4_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_evdev_is_geyser4hf$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_evdev_is_geyser4hf_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_geyser4hf$4=evdev_is_geyser4hf(id);
-    tmp_if_expr$5 = return_value_evdev_is_geyser4hf$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_geyser4hf_4=evdev_is_geyser4hf(id);
+    tmp_if_expr_5 = return_value_evdev_is_geyser4hf_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_evdev_is_wellspring$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_evdev_is_wellspring_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring$6=evdev_is_wellspring(id);
-    tmp_if_expr$7 = return_value_evdev_is_wellspring$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring_6=evdev_is_wellspring(id);
+    tmp_if_expr_7 = return_value_evdev_is_wellspring_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_evdev_is_wellspring2$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_evdev_is_wellspring2_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring2$8=evdev_is_wellspring2(id);
-    tmp_if_expr$9 = return_value_evdev_is_wellspring2$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring2_8=evdev_is_wellspring2(id);
+    tmp_if_expr_9 = return_value_evdev_is_wellspring2_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_evdev_is_wellspring3$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_evdev_is_wellspring3_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring3$10=evdev_is_wellspring3(id);
-    tmp_if_expr$11 = return_value_evdev_is_wellspring3$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring3_10=evdev_is_wellspring3(id);
+    tmp_if_expr_11 = return_value_evdev_is_wellspring3_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_evdev_is_wellspring4$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed int return_value_evdev_is_wellspring4_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring4$12=evdev_is_wellspring4(id);
-    tmp_if_expr$13 = return_value_evdev_is_wellspring4$12 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring4_12=evdev_is_wellspring4(id);
+    tmp_if_expr_13 = return_value_evdev_is_wellspring4_12 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_evdev_is_wellspring4a$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_evdev_is_wellspring4a_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring4a$14=evdev_is_wellspring4a(id);
-    tmp_if_expr$15 = return_value_evdev_is_wellspring4a$14 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring4a_14=evdev_is_wellspring4a(id);
+    tmp_if_expr_15 = return_value_evdev_is_wellspring4a_14 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed int return_value_evdev_is_wellspring5$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed int return_value_evdev_is_wellspring5_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring5$16=evdev_is_wellspring5(id);
-    tmp_if_expr$17 = return_value_evdev_is_wellspring5$16 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring5_16=evdev_is_wellspring5(id);
+    tmp_if_expr_17 = return_value_evdev_is_wellspring5_16 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed int return_value_evdev_is_wellspring5a$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed int return_value_evdev_is_wellspring5a_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring5a$18=evdev_is_wellspring5a(id);
-    tmp_if_expr$19 = return_value_evdev_is_wellspring5a$18 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring5a_18=evdev_is_wellspring5a(id);
+    tmp_if_expr_19 = return_value_evdev_is_wellspring5a_18 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed int return_value_evdev_is_wellspring6$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed int return_value_evdev_is_wellspring6_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring6$20=evdev_is_wellspring6(id);
-    tmp_if_expr$21 = return_value_evdev_is_wellspring6$20 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring6_20=evdev_is_wellspring6(id);
+    tmp_if_expr_21 = return_value_evdev_is_wellspring6_20 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed int return_value_evdev_is_wellspring6a$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed int return_value_evdev_is_wellspring6a_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring6a$22=evdev_is_wellspring6a(id);
-    tmp_if_expr$23 = return_value_evdev_is_wellspring6a$22 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring6a_22=evdev_is_wellspring6a(id);
+    tmp_if_expr_23 = return_value_evdev_is_wellspring6a_22 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed int return_value_evdev_is_wellspring7$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed int return_value_evdev_is_wellspring7_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring7$24=evdev_is_wellspring7(id);
-    tmp_if_expr$25 = return_value_evdev_is_wellspring7$24 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring7_24=evdev_is_wellspring7(id);
+    tmp_if_expr_25 = return_value_evdev_is_wellspring7_24 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed int return_value_evdev_is_wellspring7a$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed int return_value_evdev_is_wellspring7a_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value_evdev_is_wellspring7a$26=evdev_is_wellspring7a(id);
-    tmp_if_expr$27 = return_value_evdev_is_wellspring7a$26 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_evdev_is_wellspring7a_26=evdev_is_wellspring7a(id);
+    tmp_if_expr_27 = return_value_evdev_is_wellspring7a_26 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$27;
+  return (signed int)tmp_if_expr_27;
 }
 
 // evdev_is_lidswitch
@@ -5971,9 +5971,9 @@ void evdev_process_events(signed int fd, unsigned int events)
 {
   signed int ret;
   struct input_event ev;
-  signed int return_value_has_kbd_backlight$2;
-  signed int return_value_has_kbd_backlight$3;
-  signed int return_value_has_kbd_backlight$4;
+  signed int return_value_has_kbd_backlight_2;
+  signed int return_value_has_kbd_backlight_3;
+  signed int return_value_has_kbd_backlight_4;
   if(!((24u & events) == 0u))
   {
     logmsg(6, "Error condition signaled on event device");
@@ -5989,9 +5989,9 @@ void evdev_process_events(signed int fd, unsigned int events)
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)&ev, sizeof(struct input_event) /*24ul*/ );
-    ret = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)&ev, sizeof(struct input_event) /*24ul*/ );
+    ret = (signed int)return_value_read_1;
     if((unsigned long int)ret == sizeof(struct input_event) /*24ul*/ )
     {
       if((signed int)ev.type == 0x01)
@@ -6044,8 +6044,8 @@ void evdev_process_events(signed int fd, unsigned int events)
           case 228:
           {
             logdebug("\nKEY: keyboard backlight off\n");
-            return_value_has_kbd_backlight$2=has_kbd_backlight();
-            if(return_value_has_kbd_backlight$2 == 0)
+            return_value_has_kbd_backlight_2=has_kbd_backlight();
+            if(return_value_has_kbd_backlight_2 == 0)
               break;
 
             if(!(kbd_cfg.auto_on == 0))
@@ -6058,8 +6058,8 @@ void evdev_process_events(signed int fd, unsigned int events)
           case 229:
           {
             logdebug("\nKEY: keyboard backlight down\n");
-            return_value_has_kbd_backlight$3=has_kbd_backlight();
-            if(return_value_has_kbd_backlight$3 == 0)
+            return_value_has_kbd_backlight_3=has_kbd_backlight();
+            if(return_value_has_kbd_backlight_3 == 0)
               break;
 
             kbd_backlight_step(-1);
@@ -6071,8 +6071,8 @@ void evdev_process_events(signed int fd, unsigned int events)
           case 230:
           {
             logdebug("\nKEY: keyboard backlight up\n");
-            return_value_has_kbd_backlight$4=has_kbd_backlight();
-            if(return_value_has_kbd_backlight$4 == 0)
+            return_value_has_kbd_backlight_4=has_kbd_backlight();
+            if(return_value_has_kbd_backlight_4 == 0)
               break;
 
             kbd_backlight_inhibit_clear(1 << 0);
@@ -6150,48 +6150,48 @@ static signed int evdev_try_add(signed int fd)
   ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(69 << 0 + 8) | (unsigned int)(0x06 << 0)) | sizeof(char [256l]) /*256ul*/  << 0 + 8 + 8, (const void *)devname);
   logdebug("\nInvestigating evdev [%s]\n", (const void *)devname);
   ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(69 << 0 + 8) | (unsigned int)(0x02 << 0)) | sizeof(struct input_id) /*8ul*/  << 0 + 8 + 8, (const void *)id);
-  signed int return_value_evdev_is_internal$8;
-  return_value_evdev_is_internal$8=evdev_is_internal(id);
-  _Bool tmp_if_expr$7;
-  signed int return_value_evdev_is_appleir$6;
-  signed int return_value_has_kbd_backlight$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_evdev_is_lidswitch$4;
-  signed int return_value_evdev_is_mouseemu$2;
-  signed int return_value_evdev_is_extkbd$1;
-  signed int return_value_evdev_is_extkbd_alu_wl$9;
-  signed int return_value_evdev_is_internal$10;
-  if(return_value_evdev_is_internal$8 == 0)
+  signed int return_value_evdev_is_internal_8;
+  return_value_evdev_is_internal_8=evdev_is_internal(id);
+  _Bool tmp_if_expr_7;
+  signed int return_value_evdev_is_appleir_6;
+  signed int return_value_has_kbd_backlight_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_evdev_is_lidswitch_4;
+  signed int return_value_evdev_is_mouseemu_2;
+  signed int return_value_evdev_is_extkbd_1;
+  signed int return_value_evdev_is_extkbd_alu_wl_9;
+  signed int return_value_evdev_is_internal_10;
+  if(return_value_evdev_is_internal_8 == 0)
   {
     if(!(appleir_cfg.enabled == 0))
     {
-      return_value_evdev_is_appleir$6=evdev_is_appleir(id);
-      tmp_if_expr$7 = return_value_evdev_is_appleir$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_evdev_is_appleir_6=evdev_is_appleir(id);
+      tmp_if_expr_7 = return_value_evdev_is_appleir_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
       goto __CPROVER_DUMP_L5;
 
-    return_value_has_kbd_backlight$3=has_kbd_backlight();
-    if(!(return_value_has_kbd_backlight$3 == 0))
+    return_value_has_kbd_backlight_3=has_kbd_backlight();
+    if(!(return_value_has_kbd_backlight_3 == 0))
     {
-      return_value_evdev_is_lidswitch$4=evdev_is_lidswitch(id);
-      tmp_if_expr$5 = return_value_evdev_is_lidswitch$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_evdev_is_lidswitch_4=evdev_is_lidswitch(id);
+      tmp_if_expr_5 = return_value_evdev_is_lidswitch_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       goto __CPROVER_DUMP_L5;
 
-    return_value_evdev_is_mouseemu$2=evdev_is_mouseemu(id);
-    if(!(return_value_evdev_is_mouseemu$2 == 0))
+    return_value_evdev_is_mouseemu_2=evdev_is_mouseemu(id);
+    if(!(return_value_evdev_is_mouseemu_2 == 0))
       goto __CPROVER_DUMP_L5;
 
-    return_value_evdev_is_extkbd$1=evdev_is_extkbd(id);
-    if(!(return_value_evdev_is_extkbd$1 == 0))
+    return_value_evdev_is_extkbd_1=evdev_is_extkbd(id);
+    if(!(return_value_evdev_is_extkbd_1 == 0))
       goto __CPROVER_DUMP_L5;
 
     logdebug("Discarding evdev: bus 0x%04x, vid 0x%04x, pid 0x%04x\n", id[(signed long int)0], id[(signed long int)1], id[(signed long int)2]);
@@ -6221,8 +6221,8 @@ static signed int evdev_try_add(signed int fd)
     else
       if(!((1ul & bit[0l][0l] >> 3ul) == 0ul))
       {
-        return_value_evdev_is_extkbd_alu_wl$9=evdev_is_extkbd_alu_wl(id);
-        if(return_value_evdev_is_extkbd_alu_wl$9 == 0)
+        return_value_evdev_is_extkbd_alu_wl_9=evdev_is_extkbd_alu_wl(id);
+        if(return_value_evdev_is_extkbd_alu_wl_9 == 0)
         {
           logdebug("Discarding evdev with EV_ABS event type (mouse/trackpad)\n");
           close(fd);
@@ -6233,8 +6233,8 @@ static signed int evdev_try_add(signed int fd)
 
     if(!((1ul & bit[0l][0l] >> 17ul) == 0ul))
     {
-      return_value_evdev_is_internal$10=evdev_is_internal(id);
-      if(!(return_value_evdev_is_internal$10 == 0))
+      return_value_evdev_is_internal_10=evdev_is_internal(id);
+      if(!(return_value_evdev_is_internal_10 == 0))
       {
         logdebug(" -> Internal keyboard\n");
         internal_kbd_fd = fd;
@@ -6265,9 +6265,9 @@ signed int evloop_add(signed int fd, unsigned int events, void (*cb)(signed int,
   signed int ret;
   struct epoll_event epoll_ev;
   struct pommed_event *pommed_ev;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pommed_event) /*24ul*/ );
-  pommed_ev = (struct pommed_event *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pommed_event) /*24ul*/ );
+  pommed_ev = (struct pommed_event *)return_value_malloc_1;
   if(pommed_ev == ((struct pommed_event *)NULL))
   {
     logmsg(3, "Could not allocate memory for new source");
@@ -6284,11 +6284,11 @@ signed int evloop_add(signed int fd, unsigned int events, void (*cb)(signed int,
     ret=epoll_ctl(epfd, 1, fd, &epoll_ev);
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      logmsg(3, "Could not add source to epoll: %s", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      logmsg(3, "Could not add source to epoll: %s", return_value_strerror_3);
       free((void *)pommed_ev);
       return -1;
     }
@@ -6302,12 +6302,12 @@ signed int evloop_add(signed int fd, unsigned int events, void (*cb)(signed int,
 // file evloop.c line 218
 signed int evloop_add_timer(signed int timeout, void (*cb)(signed int, unsigned long int))
 {
-  signed int evloop_add_timer$$1$$fd;
+  signed int evloop_add_timer__1__fd;
   struct pommed_timer *t;
   struct pommed_timer_job *j;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pommed_timer_job) /*24ul*/ );
-  j = (struct pommed_timer_job *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pommed_timer_job) /*24ul*/ );
+  j = (struct pommed_timer_job *)return_value_malloc_1;
   if(j == ((struct pommed_timer_job *)NULL))
   {
     logmsg(3, "Could not allocate memory for timer job");
@@ -6326,23 +6326,23 @@ signed int evloop_add_timer(signed int timeout, void (*cb)(signed int, unsigned 
 
     if(t == ((struct pommed_timer *)NULL))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct pommed_timer) /*24ul*/ );
-      t = (struct pommed_timer *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct pommed_timer) /*24ul*/ );
+      t = (struct pommed_timer *)return_value_malloc_2;
       if(t == ((struct pommed_timer *)NULL))
       {
         logmsg(3, "Could not allocate memory for timer");
         return -1;
       }
 
-      evloop_add_timer$$1$$fd=evloop_create_timer(timeout);
-      if(!(evloop_add_timer$$1$$fd >= 0))
+      evloop_add_timer__1__fd=evloop_create_timer(timeout);
+      if(!(evloop_add_timer__1__fd >= 0))
       {
         free((void *)t);
         return -1;
       }
 
-      t->fd = evloop_add_timer$$1$$fd;
+      t->fd = evloop_add_timer__1__fd;
       t->timeout = timeout;
       t->jobs = (struct pommed_timer_job *)(void *)0;
       t->next = timers;
@@ -6390,17 +6390,17 @@ void evloop_cleanup(void)
 // file evloop.c line 163
 static signed int evloop_create_timer(signed int timeout)
 {
-  signed int evloop_create_timer$$1$$fd;
+  signed int evloop_create_timer__1__fd;
   signed int ret;
   struct itimerspec timing;
-  evloop_create_timer$$1$$fd=timerfd_create(1, 0);
-  if(!(evloop_create_timer$$1$$fd >= 0))
+  evloop_create_timer__1__fd=timerfd_create(1, 0);
+  if(!(evloop_create_timer__1__fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    logmsg(3, "Could not create timer: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    logmsg(3, "Could not create timer: %s", return_value_strerror_2);
     return -1;
   }
 
@@ -6409,12 +6409,12 @@ static signed int evloop_create_timer(signed int timeout)
   ret=clock_gettime(1, &timing.it_value);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    logmsg(3, "Could not get current time: %s", return_value_strerror$4);
-    close(evloop_create_timer$$1$$fd);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    logmsg(3, "Could not get current time: %s", return_value_strerror_4);
+    close(evloop_create_timer__1__fd);
     return -1;
   }
 
@@ -6426,27 +6426,27 @@ static signed int evloop_create_timer(signed int timeout)
     timing.it_value.tv_nsec = timing.it_value.tv_nsec - (signed long int)1000000000;
   }
 
-  ret=timerfd_settime(evloop_create_timer$$1$$fd, 1, &timing, (struct itimerspec *)(void *)0);
+  ret=timerfd_settime(evloop_create_timer__1__fd, 1, &timing, (struct itimerspec *)(void *)0);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    logmsg(3, "Could not setup timer: %s", return_value_strerror$6);
-    close(evloop_create_timer$$1$$fd);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    logmsg(3, "Could not setup timer: %s", return_value_strerror_6);
+    close(evloop_create_timer__1__fd);
     return -1;
   }
 
-  ret=evloop_add(evloop_create_timer$$1$$fd, (unsigned int)1, evloop_timer_callback);
+  ret=evloop_add(evloop_create_timer__1__fd, (unsigned int)1, evloop_timer_callback);
   if(!(ret >= 0))
   {
-    close(evloop_create_timer$$1$$fd);
+    close(evloop_create_timer__1__fd);
     return -1;
   }
 
   else
-    return evloop_create_timer$$1$$fd;
+    return evloop_create_timer__1__fd;
 }
 
 // evloop_init
@@ -6460,11 +6460,11 @@ signed int evloop_init(void)
   epfd=epoll_create(8);
   if(!(epfd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    logmsg(3, "Could not create epoll fd: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    logmsg(3, "Could not create epoll fd: %s", return_value_strerror_2);
     return -1;
   }
 
@@ -6487,18 +6487,18 @@ signed int evloop_iteration(void)
     nfds=epoll_wait(epfd, epoll_ev, 8, -1);
     if(!(nfds >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 4)
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 4)
         return 0;
 
       else
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        logmsg(3, "epoll_wait() error: %s", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        logmsg(3, "epoll_wait() error: %s", return_value_strerror_2);
         return -1;
       }
     }
@@ -6525,11 +6525,11 @@ signed int evloop_remove(signed int fd)
   ret=epoll_ctl(epfd, 2, fd, (struct epoll_event *)(void *)0);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    logmsg(3, "Could not remove source from epoll: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    logmsg(3, "Could not remove source from epoll: %s", return_value_strerror_2);
     return -1;
   }
 
@@ -6672,25 +6672,25 @@ static void gma950_backlight_fix_config(void)
 // file mactel/gma950_backlight.c line 103
 static unsigned int gma950_backlight_get(void)
 {
-  unsigned int return_value_readl$1;
-  return_value_readl$1=readl$link1((const volatile void *)(memory$link1 + (signed long int)0x00061254));
-  return return_value_readl$1 >> 1 & (unsigned int)0x7fff;
+  unsigned int return_value_readl_1;
+  return_value_readl_1=readl_link1((const volatile void *)(memory_link1 + (signed long int)0x00061254));
+  return return_value_readl_1 >> 1 & (unsigned int)0x7fff;
 }
 
 // gma950_backlight_get_max
 // file mactel/gma950_backlight.c line 109
 static unsigned int gma950_backlight_get_max(void)
 {
-  unsigned int return_value_readl$1;
-  return_value_readl$1=readl$link1((const volatile void *)(memory$link1 + (signed long int)0x00061254));
-  return return_value_readl$1 >> 17;
+  unsigned int return_value_readl_1;
+  return_value_readl_1=readl_link1((const volatile void *)(memory_link1 + (signed long int)0x00061254));
+  return return_value_readl_1 >> 17;
 }
 
 // gma950_backlight_map
 // file mactel/gma950_backlight.c line 122
 static signed int gma950_backlight_map(void)
 {
-  if(length$link1 == 0l)
+  if(length_link1 == 0l)
   {
     logdebug("No probing done !\n");
     return -1;
@@ -6698,29 +6698,29 @@ static signed int gma950_backlight_map(void)
 
   else
   {
-    fd$link1=open(sysfs_resource$link1, 02);
-    if(!(fd$link1 >= 0))
+    fd_link1=open(sysfs_resource_link1, 02);
+    if(!(fd_link1 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(4, "Cannot open %s: %s", (const void *)sysfs_resource$link1, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(4, "Cannot open %s: %s", (const void *)sysfs_resource_link1, return_value_strerror_2);
       return -1;
     }
 
-    void *return_value_mmap$3;
-    return_value_mmap$3=mmap((void *)0, (unsigned long int)length$link1, 0x1 | 0x2, 0x01, fd$link1, (signed long int)0);
-    memory$link1 = (char *)return_value_mmap$3;
-    if(memory$link1 == (char *)-1)
+    void *return_value_mmap_3;
+    return_value_mmap_3=mmap((void *)0, (unsigned long int)length_link1, 0x1 | 0x2, 0x01, fd_link1, (signed long int)0);
+    memory_link1 = (char *)return_value_mmap_3;
+    if(memory_link1 == (char *)-1)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      logmsg(3, "mmap failed: %s", return_value_strerror$5);
-      close(fd$link1);
-      fd$link1 = -1;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      logmsg(3, "mmap failed: %s", return_value_strerror_5);
+      close(fd_link1);
+      fd_link1 = -1;
       return -1;
     }
 
@@ -6738,7 +6738,7 @@ signed int gma950_backlight_probe(void)
   signed int card;
   signed int ret;
   pacc=pci_alloc();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pacc == ((struct pci_access *)NULL))
   {
     logmsg(3, "Could not allocate PCI structs");
@@ -6757,14 +6757,14 @@ signed int gma950_backlight_probe(void)
       if((signed int)dev->vendor_id == 0x8086)
       {
         if((signed int)dev->device_id == 0x27A2)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)dev->device_id == 0x2A02 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)dev->device_id == 0x2A02 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           card = (signed int)dev->device_id;
-          ret=snprintf(sysfs_resource$link1, sizeof(char [64l]) /*64ul*/ , "/sys/bus/pci/devices/%04x:%02x:%02x.%1x/resource0", dev->domain, dev->bus, dev->dev, dev->func);
+          ret=snprintf(sysfs_resource_link1, sizeof(char [64l]) /*64ul*/ , "/sys/bus/pci/devices/%04x:%02x:%02x.%1x/resource0", dev->domain, dev->bus, dev->dev, dev->func);
           break;
         }
 
@@ -6787,19 +6787,19 @@ signed int gma950_backlight_probe(void)
 
       else
       {
-        ret=stat$link1(sysfs_resource$link1, &stbuf);
+        ret=stat_link1(sysfs_resource_link1, &stbuf);
         if(!(ret >= 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          logmsg(3, "Could not determine PCI resource length: %s", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          logmsg(3, "Could not determine PCI resource length: %s", return_value_strerror_3);
           return -1;
         }
 
-        length$link1 = stbuf.st_size;
-        logdebug("GMA950/GMA965 PCI resource: [%s], length %ldK\n", (const void *)sysfs_resource$link1, length$link1 / (signed long int)1024);
+        length_link1 = stbuf.st_size;
+        logdebug("GMA950/GMA965 PCI resource: [%s], length %ldK\n", (const void *)sysfs_resource_link1, length_link1 / (signed long int)1024);
         ret=gma950_backlight_map();
         if(!(ret >= 0))
         {
@@ -6811,9 +6811,9 @@ signed int gma950_backlight_probe(void)
         {
           if(card == 0x27A2)
           {
-            unsigned int return_value_readl$4;
-            return_value_readl$4=readl$link1((const volatile void *)(memory$link1 + (signed long int)0x00061254));
-            if(!((65536u & return_value_readl$4) == 0u))
+            unsigned int return_value_readl_4;
+            return_value_readl_4=readl_link1((const volatile void *)(memory_link1 + (signed long int)0x00061254));
+            if(!((65536u & return_value_readl_4) == 0u))
             {
               logdebug("GMA950 is in legacy backlight control mode, unsupported\n");
               gma950_backlight_unmap();
@@ -6825,9 +6825,9 @@ signed int gma950_backlight_probe(void)
           else
             if(card == 0x2A02)
             {
-              unsigned int return_value_readl$5;
-              return_value_readl$5=readl$link1((const volatile void *)(memory$link1 + (signed long int)0x00061250));
-              if(!((1073741824u & return_value_readl$5) == 0u))
+              unsigned int return_value_readl_5;
+              return_value_readl_5=readl_link1((const volatile void *)(memory_link1 + (signed long int)0x00061250));
+              if(!((1073741824u & return_value_readl_5) == 0u))
               {
                 logdebug("GMA965 is in legacy backlight control mode, unsupported\n");
                 gma950_backlight_unmap();
@@ -6840,9 +6840,9 @@ signed int gma950_backlight_probe(void)
           logdebug("Max LCD backlight value is 0x%x\n", GMA950_BACKLIGHT_MAX);
           gma950_backlight_fix_config();
           lcd_bck_info.max = (signed int)GMA950_BACKLIGHT_MAX;
-          unsigned int return_value_gma950_backlight_get$6;
-          return_value_gma950_backlight_get$6=gma950_backlight_get();
-          lcd_bck_info.level = (signed int)return_value_gma950_backlight_get$6;
+          unsigned int return_value_gma950_backlight_get_6;
+          return_value_gma950_backlight_get_6=gma950_backlight_get();
+          lcd_bck_info.level = (signed int)return_value_gma950_backlight_get_6;
           lcd_bck_info.ac_lvl = lcd_bck_info.level;
           gma950_backlight_unmap();
           return 0;
@@ -6855,7 +6855,7 @@ signed int gma950_backlight_probe(void)
 // file mactel/gma950_backlight.c line 115
 static void gma950_backlight_set(unsigned int value)
 {
-  writel$link1(GMA950_BACKLIGHT_MAX << 17 | value << 1, (volatile void *)(memory$link1 + (signed long int)0x00061254));
+  writel_link1(GMA950_BACKLIGHT_MAX << 17 | value << 1, (volatile void *)(memory_link1 + (signed long int)0x00061254));
 }
 
 // gma950_backlight_step
@@ -6917,9 +6917,9 @@ void gma950_backlight_toggle(signed int lvl)
     ret=gma950_backlight_map();
     if(ret >= 0)
     {
-      unsigned int return_value_gma950_backlight_get$1;
-      return_value_gma950_backlight_get$1=gma950_backlight_get();
-      val = (signed int)return_value_gma950_backlight_get$1;
+      unsigned int return_value_gma950_backlight_get_1;
+      return_value_gma950_backlight_get_1=gma950_backlight_get();
+      val = (signed int)return_value_gma950_backlight_get_1;
       if(!(val == lcd_bck_info.level))
       {
         mbpdbus_send_lcd_backlight(val, lcd_bck_info.level, 1);
@@ -6967,156 +6967,156 @@ void gma950_backlight_toggle(signed int lvl)
 // file mactel/gma950_backlight.c line 154
 static void gma950_backlight_unmap(void)
 {
-  munmap((void *)memory$link1, (unsigned long int)length$link1);
-  memory$link1 = (char *)(void *)0;
-  close(fd$link1);
-  fd$link1 = -1;
+  munmap((void *)memory_link1, (unsigned long int)length_link1);
+  memory_link1 = (char *)(void *)0;
+  close(fd_link1);
+  fd_link1 = -1;
 }
 
 // has_kbd_backlight
 // file kbd_backlight.h line 64
 static inline signed int has_kbd_backlight(void)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)mops->type == MACHINE_MACBOOKPRO_1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)mops->type == MACHINE_MACBOOKPRO_2 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)mops->type == MACHINE_MACBOOKPRO_2 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)mops->type == MACHINE_MACBOOKPRO_3 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = (signed int)mops->type == MACHINE_MACBOOKPRO_3 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)mops->type == MACHINE_MACBOOKPRO_4 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (signed int)mops->type == MACHINE_MACBOOKPRO_4 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)mops->type == MACHINE_MACBOOKPRO_5 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = (signed int)mops->type == MACHINE_MACBOOKPRO_5 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (signed int)mops->type == MACHINE_MACBOOKPRO_6 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = (signed int)mops->type == MACHINE_MACBOOKPRO_6 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = (signed int)mops->type == MACHINE_MACBOOKPRO_7 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = (signed int)mops->type == MACHINE_MACBOOKPRO_7 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = (signed int)mops->type == MACHINE_MACBOOKPRO_8 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_7 = (signed int)mops->type == MACHINE_MACBOOKPRO_8 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = (signed int)mops->type == MACHINE_MACBOOKPRO_9 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_8 = (signed int)mops->type == MACHINE_MACBOOKPRO_9 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = (signed int)mops->type == MACHINE_MACBOOK_5 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_9 = (signed int)mops->type == MACHINE_MACBOOK_5 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = (signed int)mops->type == MACHINE_MACBOOKAIR_1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$11 = (_Bool)1;
+    tmp_if_expr_10 = (signed int)mops->type == MACHINE_MACBOOKAIR_1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
-    tmp_if_expr$11 = (signed int)mops->type == MACHINE_MACBOOKAIR_2 ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$11;
+    tmp_if_expr_11 = (signed int)mops->type == MACHINE_MACBOOKAIR_2 ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_11;
 }
 
-// has_kbd_backlight$link1
+// has_kbd_backlight_link1
 // file mactel/../kbd_backlight.h line 64
-static inline signed int has_kbd_backlight$link1(void)
+static inline signed int has_kbd_backlight_link1(void)
 {
-  _Bool tmp_if_expr$1$link1;
+  _Bool tmp_if_expr_1_link1;
   if((signed int)mops->type == MACHINE_MACBOOKPRO_1)
-    tmp_if_expr$1$link1 = (_Bool)1;
+    tmp_if_expr_1_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$1$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_2 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2$link1;
-  if(tmp_if_expr$1$link1)
-    tmp_if_expr$2$link1 = (_Bool)1;
+    tmp_if_expr_1_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_2 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2_link1;
+  if(tmp_if_expr_1_link1)
+    tmp_if_expr_2_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$2$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_3 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3$link1;
-  if(tmp_if_expr$2$link1)
-    tmp_if_expr$3$link1 = (_Bool)1;
+    tmp_if_expr_2_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_3 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3_link1;
+  if(tmp_if_expr_2_link1)
+    tmp_if_expr_3_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$3$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_4 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4$link1;
-  if(tmp_if_expr$3$link1)
-    tmp_if_expr$4$link1 = (_Bool)1;
+    tmp_if_expr_3_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_4 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4_link1;
+  if(tmp_if_expr_3_link1)
+    tmp_if_expr_4_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$4$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_5 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5$link1;
-  if(tmp_if_expr$4$link1)
-    tmp_if_expr$5$link1 = (_Bool)1;
+    tmp_if_expr_4_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_5 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5_link1;
+  if(tmp_if_expr_4_link1)
+    tmp_if_expr_5_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$5$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_6 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6$link1;
-  if(tmp_if_expr$5$link1)
-    tmp_if_expr$6$link1 = (_Bool)1;
+    tmp_if_expr_5_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_6 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6_link1;
+  if(tmp_if_expr_5_link1)
+    tmp_if_expr_6_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$6$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_7 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7$link1;
-  if(tmp_if_expr$6$link1)
-    tmp_if_expr$7$link1 = (_Bool)1;
+    tmp_if_expr_6_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_7 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7_link1;
+  if(tmp_if_expr_6_link1)
+    tmp_if_expr_7_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$7$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_8 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8$link1;
-  if(tmp_if_expr$7$link1)
-    tmp_if_expr$8$link1 = (_Bool)1;
+    tmp_if_expr_7_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_8 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8_link1;
+  if(tmp_if_expr_7_link1)
+    tmp_if_expr_8_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$8$link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_9 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$9$link1;
-  if(tmp_if_expr$8$link1)
-    tmp_if_expr$9$link1 = (_Bool)1;
+    tmp_if_expr_8_link1 = (signed int)mops->type == MACHINE_MACBOOKPRO_9 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_9_link1;
+  if(tmp_if_expr_8_link1)
+    tmp_if_expr_9_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$9$link1 = (signed int)mops->type == MACHINE_MACBOOK_5 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$10$link1;
-  if(tmp_if_expr$9$link1)
-    tmp_if_expr$10$link1 = (_Bool)1;
+    tmp_if_expr_9_link1 = (signed int)mops->type == MACHINE_MACBOOK_5 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_10_link1;
+  if(tmp_if_expr_9_link1)
+    tmp_if_expr_10_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$10$link1 = (signed int)mops->type == MACHINE_MACBOOKAIR_1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$11$link1;
-  if(tmp_if_expr$10$link1)
-    tmp_if_expr$11$link1 = (_Bool)1;
+    tmp_if_expr_10_link1 = (signed int)mops->type == MACHINE_MACBOOKAIR_1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_11_link1;
+  if(tmp_if_expr_10_link1)
+    tmp_if_expr_11_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$11$link1 = (signed int)mops->type == MACHINE_MACBOOKAIR_2 ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$11$link1;
+    tmp_if_expr_11_link1 = (signed int)mops->type == MACHINE_MACBOOKAIR_2 ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_11_link1;
 }
 
 // inb
@@ -7177,9 +7177,9 @@ void kbd_backlight_ambient_check(void)
       if(!(amb_l >= kbd_cfg.on_thresh) && !(amb_r >= kbd_cfg.on_thresh))
       {
         logdebug("Ambient light lower threshold reached\n");
-        signed int return_value_kbd_backlight_get$1;
-        return_value_kbd_backlight_get$1=kbd_backlight_get();
-        if(return_value_kbd_backlight_get$1 >= 1)
+        signed int return_value_kbd_backlight_get_1;
+        return_value_kbd_backlight_get_1=kbd_backlight_get();
+        if(return_value_kbd_backlight_get_1 >= 1)
           goto __CPROVER_DUMP_L6;
 
         kbd_bck_info.auto_on = 1;
@@ -7211,9 +7211,9 @@ __CPROVER_DUMP_L6:
 // file kbd_backlight.h line 89
 void kbd_backlight_cleanup(void)
 {
-  signed int return_value_has_kbd_backlight$1;
-  return_value_has_kbd_backlight$1=has_kbd_backlight$link1();
-  if(!(return_value_has_kbd_backlight$1 == 0))
+  signed int return_value_has_kbd_backlight_1;
+  return_value_has_kbd_backlight_1=has_kbd_backlight_link1();
+  if(!(return_value_has_kbd_backlight_1 == 0))
     kbd_auto_cleanup();
 
 }
@@ -7237,26 +7237,26 @@ void kbd_backlight_fix_config(void)
 // file mactel/kbd_backlight.c line 76
 static signed int kbd_backlight_get(void)
 {
-  signed int kbd_backlight_get$$1$$fd;
+  signed int kbd_backlight_get__1__fd;
   signed int ret;
   char buf[8l];
-  kbd_backlight_get$$1$$fd=kbd_backlight_open(00);
-  if(!(kbd_backlight_get$$1$$fd >= 0))
+  kbd_backlight_get__1__fd=kbd_backlight_open(00);
+  if(!(kbd_backlight_get__1__fd >= 0))
     return -1;
 
   else
   {
     memset((void *)buf, 0, (unsigned long int)8);
-    signed long int return_value_read$1;
-    return_value_read$1=read(kbd_backlight_get$$1$$fd, (void *)buf, (unsigned long int)8);
-    ret = (signed int)return_value_read$1;
-    close(kbd_backlight_get$$1$$fd);
+    signed long int return_value_read_1;
+    return_value_read_1=read(kbd_backlight_get__1__fd, (void *)buf, (unsigned long int)8);
+    ret = (signed int)return_value_read_1;
+    close(kbd_backlight_get__1__fd);
     if(ret >= 8 || !(ret >= 1))
       return -1;
 
     else
     {
-      ret=atoi$link1(buf);
+      ret=atoi_link1(buf);
       logdebug("KBD backlight value is %d\n", ret);
       if(ret >= 256 || !(ret >= 0))
         ret = -1;
@@ -7327,9 +7327,9 @@ void kbd_backlight_init(void)
   kbd_bck_info.toggle_lvl = kbd_cfg.auto_lvl;
   kbd_bck_info.inhibit_lvl = 0;
   kbd_bck_info.auto_on = 0;
-  signed int return_value_has_kbd_backlight$1;
-  return_value_has_kbd_backlight$1=has_kbd_backlight$link1();
-  if(return_value_has_kbd_backlight$1 == 0)
+  signed int return_value_has_kbd_backlight_1;
+  return_value_has_kbd_backlight_1=has_kbd_backlight_link1();
+  if(return_value_has_kbd_backlight_1 == 0)
   {
     kbd_bck_info.r_sens = 0;
     kbd_bck_info.l_sens = 0;
@@ -7357,24 +7357,24 @@ static signed int kbd_backlight_open(signed int flags)
 {
   char *kbdbck_node[2l] = { "/sys/class/leds/smc::kbd_backlight/brightness",
     "/sys/class/leds/smc:kbd_backlight/brightness" };
-  signed int kbd_backlight_open$$1$$fd;
+  signed int kbd_backlight_open__1__fd;
   signed int i = 0;
   for( ; !((unsigned long int)i >= 2ul); i = i + 1)
   {
     logdebug("Trying %s\n", kbdbck_node[(signed long int)i]);
-    kbd_backlight_open$$1$$fd=open(kbdbck_node[(signed long int)i], flags);
-    if(kbd_backlight_open$$1$$fd >= 0)
-      return kbd_backlight_open$$1$$fd;
+    kbd_backlight_open__1__fd=open(kbdbck_node[(signed long int)i], flags);
+    if(kbd_backlight_open__1__fd >= 0)
+      return kbd_backlight_open__1__fd;
 
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 2))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 2))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      logmsg(4, "Could not open %s: %s", kbdbck_node[(signed long int)i], return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      logmsg(4, "Could not open %s: %s", kbdbck_node[(signed long int)i], return_value_strerror_3);
       return -1;
     }
 
@@ -7391,7 +7391,7 @@ static void kbd_backlight_set(signed int val, signed int who)
   float fadeval;
   float step;
   struct timespec fade_step;
-  signed int kbd_backlight_set$$1$$fd;
+  signed int kbd_backlight_set__1__fd;
   struct _IO_FILE *fp;
   if((-5 & kbd_bck_info.inhibit) == 0)
   {
@@ -7410,18 +7410,18 @@ static void kbd_backlight_set(signed int val, signed int who)
           for( ; !(i >= 20); i = i + 1)
           {
             fadeval = fadeval + step;
-            kbd_backlight_set$$1$$fd=kbd_backlight_open(01);
-            if(kbd_backlight_set$$1$$fd >= 0)
+            kbd_backlight_set__1__fd=kbd_backlight_open(01);
+            if(kbd_backlight_set__1__fd >= 0)
             {
-              fp=fdopen(kbd_backlight_set$$1$$fd, "a");
+              fp=fdopen(kbd_backlight_set__1__fd, "a");
               if(fp == ((struct _IO_FILE *)NULL))
               {
-                signed int *return_value___errno_location$1;
-                return_value___errno_location$1=__errno_location();
-                char *return_value_strerror$2;
-                return_value_strerror$2=strerror(*return_value___errno_location$1);
-                logmsg(4, "Could not fdopen backlight fd: %s", return_value_strerror$2);
-                close(kbd_backlight_set$$1$$fd);
+                signed int *return_value___errno_location_1;
+                return_value___errno_location_1=__errno_location();
+                char *return_value_strerror_2;
+                return_value_strerror_2=strerror(*return_value___errno_location_1);
+                logmsg(4, "Could not fdopen backlight fd: %s", return_value_strerror_2);
+                close(kbd_backlight_set__1__fd);
                 goto __CPROVER_DUMP_L6;
               }
 
@@ -7437,18 +7437,18 @@ static void kbd_backlight_set(signed int val, signed int who)
           }
         }
 
-        kbd_backlight_set$$1$$fd=kbd_backlight_open(01);
-        if(kbd_backlight_set$$1$$fd >= 0)
+        kbd_backlight_set__1__fd=kbd_backlight_open(01);
+        if(kbd_backlight_set__1__fd >= 0)
         {
-          fp=fdopen(kbd_backlight_set$$1$$fd, "a");
+          fp=fdopen(kbd_backlight_set__1__fd, "a");
           if(fp == ((struct _IO_FILE *)NULL))
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            char *return_value_strerror$4;
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            logmsg(4, "Could not fdopen backlight fd %d: %s", kbd_backlight_set$$1$$fd, return_value_strerror$4);
-            close(kbd_backlight_set$$1$$fd);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            char *return_value_strerror_4;
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            logmsg(4, "Could not fdopen backlight fd %d: %s", kbd_backlight_set__1__fd, return_value_strerror_4);
+            close(kbd_backlight_set__1__fd);
             goto __CPROVER_DUMP_L10;
           }
 
@@ -7552,15 +7552,15 @@ void kbd_set_fnmode(void)
     if(!(fp == ((struct _IO_FILE *)NULL)))
       break;
 
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 2))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 2))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      logmsg(6, "Could not open %s: %s", fnmode_node[(signed long int)i], return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      logmsg(6, "Could not open %s: %s", fnmode_node[(signed long int)i], return_value_strerror_3);
       goto __CPROVER_DUMP_L6;
     }
 
@@ -7633,7 +7633,7 @@ signed int main(signed int argc, char **argv)
   signed int c;
   struct _IO_FILE *pidfile;
   struct utsname sysinfo;
-  enum anonymous$3 machine;
+  enum anonymous_3 machine;
   do
   {
     c=getopt(argc, argv, "fdv");
@@ -7668,9 +7668,9 @@ signed int main(signed int argc, char **argv)
     }
   }
   while((_Bool)1);
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  if(!(return_value_geteuid$1 == 0u))
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  if(!(return_value_geteuid_1 == 0u))
   {
     logmsg(3, "pommed needs root privileges to operate");
     exit(1);
@@ -7716,16 +7716,16 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(debug == 0))
   {
     ret=uname(&sysinfo);
     if(!(ret >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      logmsg(3, "uname() failed: %s", return_value_strerror$3);
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      logmsg(3, "uname() failed: %s", return_value_strerror_3);
     }
 
     else
@@ -7765,15 +7765,15 @@ signed int main(signed int argc, char **argv)
   power_init();
   if(console == 0)
   {
-    signed int return_value_daemon$6;
-    return_value_daemon$6=daemon(0, 0);
-    if(!(return_value_daemon$6 == 0))
+    signed int return_value_daemon_6;
+    return_value_daemon_6=daemon(0, 0);
+    if(!(return_value_daemon_6 == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      logmsg(3, "daemon() failed: %s", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      logmsg(3, "daemon() failed: %s", return_value_strerror_5);
       evdev_cleanup();
       exit(1);
     }
@@ -7783,18 +7783,18 @@ signed int main(signed int argc, char **argv)
   pidfile=fopen("/var/run/pommed.pid", "w");
   if(pidfile == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    logmsg(4, "Could not open pidfile %s: %s", (const void *)"/var/run/pommed.pid", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    logmsg(4, "Could not open pidfile %s: %s", (const void *)"/var/run/pommed.pid", return_value_strerror_8);
     evdev_cleanup();
     exit(1);
   }
 
-  signed int return_value_getpid$9;
-  return_value_getpid$9=getpid();
-  fprintf(pidfile, "%d\n", return_value_getpid$9);
+  signed int return_value_getpid_9;
+  return_value_getpid_9=getpid();
+  fprintf(pidfile, "%d\n", return_value_getpid_9);
   fclose(pidfile);
   beep_init();
   signal(2, sig_int_term_handler);
@@ -7852,24 +7852,24 @@ signed int mbp_sysfs_backlight_probe(void)
 static unsigned int mbpdbus_add_watch(struct DBusWatch *watch, void *data)
 {
   unsigned int events;
-  signed int mbpdbus_add_watch$$1$$fd;
+  signed int mbpdbus_add_watch__1__fd;
   signed int ret;
   struct pommed_watch *w;
   logdebug("DBus add watch\n");
-  mbpdbus_add_watch$$1$$fd=dbus_watch_get_unix_fd(watch);
+  mbpdbus_add_watch__1__fd=dbus_watch_get_unix_fd(watch);
   events = (unsigned int)0;
   w = watches;
   for( ; !(w == ((struct pommed_watch *)NULL)); w = w->next)
     if(!(w->enabled == 0))
     {
-      if(w->fd == mbpdbus_add_watch$$1$$fd)
+      if(w->fd == mbpdbus_add_watch__1__fd)
         events = events | w->events;
 
     }
 
   if(!(events == 0u))
   {
-    ret=evloop_remove(mbpdbus_add_watch$$1$$fd);
+    ret=evloop_remove(mbpdbus_add_watch__1__fd);
     if(ret >= 0)
       goto __CPROVER_DUMP_L4;
 
@@ -7882,9 +7882,9 @@ static unsigned int mbpdbus_add_watch(struct DBusWatch *watch, void *data)
 
   __CPROVER_DUMP_L4:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct pommed_watch) /*32ul*/ );
-    w = (struct pommed_watch *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct pommed_watch) /*32ul*/ );
+    w = (struct pommed_watch *)return_value_malloc_1;
     if(w == ((struct pommed_watch *)NULL))
     {
       logmsg(3, "Could not allocate memory for a new DBus watch");
@@ -7894,14 +7894,14 @@ static unsigned int mbpdbus_add_watch(struct DBusWatch *watch, void *data)
     else
     {
       w->watch = watch;
-      w->fd = mbpdbus_add_watch$$1$$fd;
+      w->fd = mbpdbus_add_watch__1__fd;
       w->enabled = 1;
-      unsigned int return_value_dbus_watch_get_flags$2;
-      return_value_dbus_watch_get_flags$2=dbus_watch_get_flags(watch);
-      w->events=dbus_to_epoll((signed int)return_value_dbus_watch_get_flags$2);
+      unsigned int return_value_dbus_watch_get_flags_2;
+      return_value_dbus_watch_get_flags_2=dbus_watch_get_flags(watch);
+      w->events=dbus_to_epoll((signed int)return_value_dbus_watch_get_flags_2);
       w->events = w->events | (unsigned int)(8 | 16);
       events = events | w->events;
-      ret=evloop_add(mbpdbus_add_watch$$1$$fd, events, mbpdbus_process_watch);
+      ret=evloop_add(mbpdbus_add_watch__1__fd, events, mbpdbus_process_watch);
       if(!(ret >= 0))
       {
         free((void *)w);
@@ -7949,12 +7949,12 @@ signed int mbpdbus_init(void)
   watches = (struct pommed_watch *)(void *)0;
   dbus_timer = -1;
   dbus_error_init(&err);
-  conn=dbus_bus_get((enum anonymous$2)DBUS_BUS_SYSTEM, &err);
-  unsigned int return_value_dbus_error_is_set$1;
-  return_value_dbus_error_is_set$1=dbus_error_is_set(&err);
-  unsigned int return_value_dbus_error_is_set$2;
-  unsigned int return_value_dbus_connection_set_watch_functions$3;
-  if(!(return_value_dbus_error_is_set$1 == 0u))
+  conn=dbus_bus_get((enum anonymous_2)DBUS_BUS_SYSTEM, &err);
+  unsigned int return_value_dbus_error_is_set_1;
+  return_value_dbus_error_is_set_1=dbus_error_is_set(&err);
+  unsigned int return_value_dbus_error_is_set_2;
+  unsigned int return_value_dbus_connection_set_watch_functions_3;
+  if(!(return_value_dbus_error_is_set_1 == 0u))
   {
     logmsg(3, "DBus system bus connection failed: %s", err.message);
     dbus_error_free(&err);
@@ -7965,8 +7965,8 @@ signed int mbpdbus_init(void)
   {
     dbus_connection_set_exit_on_disconnect(conn, (unsigned int)0);
     ret=dbus_bus_request_name(conn, "org.pommed", (unsigned int)0, &err);
-    return_value_dbus_error_is_set$2=dbus_error_is_set(&err);
-    if(!(return_value_dbus_error_is_set$2 == 0u))
+    return_value_dbus_error_is_set_2=dbus_error_is_set(&err);
+    if(!(return_value_dbus_error_is_set_2 == 0u))
     {
       logmsg(3, "Failed to request DBus name: %s", err.message);
       mbpdbus_cleanup();
@@ -7981,8 +7981,8 @@ signed int mbpdbus_init(void)
 
       else
       {
-        return_value_dbus_connection_set_watch_functions$3=dbus_connection_set_watch_functions(conn, mbpdbus_add_watch, mbpdbus_remove_watch, mbpdbus_toggle_watch, (void *)0, mbpdbus_data_free);
-        ret = (signed int)return_value_dbus_connection_set_watch_functions$3;
+        return_value_dbus_connection_set_watch_functions_3=dbus_connection_set_watch_functions(conn, mbpdbus_add_watch, mbpdbus_remove_watch, mbpdbus_toggle_watch, (void *)0, mbpdbus_data_free);
+        ret = (signed int)return_value_dbus_connection_set_watch_functions_3;
         if(ret == 0)
           mbpdbus_cleanup();
 
@@ -8017,107 +8017,107 @@ init_reconnect:
 // file dbus.c line 805
 static enum anonymous mbpdbus_process_requests(struct DBusConnection *lconn, struct DBusMessage *msg, void *data)
 {
-  unsigned int return_value_dbus_message_is_method_call$15;
-  return_value_dbus_message_is_method_call$15=dbus_message_is_method_call(msg, "org.pommed.lcdBacklight", "getLevel");
-  unsigned int return_value_dbus_message_is_method_call$14;
-  unsigned int return_value_dbus_message_is_method_call$13;
-  unsigned int return_value_dbus_message_is_method_call$12;
-  unsigned int return_value_dbus_message_is_method_call$11;
-  unsigned int return_value_dbus_message_is_method_call$10;
-  unsigned int return_value_dbus_message_is_method_call$9;
-  unsigned int return_value_dbus_message_is_method_call$8;
-  unsigned int return_value_dbus_message_is_method_call$7;
-  unsigned int return_value_dbus_message_is_method_call$6;
-  unsigned int return_value_dbus_message_is_method_call$5;
-  unsigned int return_value_dbus_message_is_method_call$4;
-  unsigned int return_value_dbus_message_is_method_call$3;
-  unsigned int return_value_dbus_message_is_method_call$2;
-  unsigned int return_value_dbus_message_is_signal$1;
-  if(!(return_value_dbus_message_is_method_call$15 == 0u))
+  unsigned int return_value_dbus_message_is_method_call_15;
+  return_value_dbus_message_is_method_call_15=dbus_message_is_method_call(msg, "org.pommed.lcdBacklight", "getLevel");
+  unsigned int return_value_dbus_message_is_method_call_14;
+  unsigned int return_value_dbus_message_is_method_call_13;
+  unsigned int return_value_dbus_message_is_method_call_12;
+  unsigned int return_value_dbus_message_is_method_call_11;
+  unsigned int return_value_dbus_message_is_method_call_10;
+  unsigned int return_value_dbus_message_is_method_call_9;
+  unsigned int return_value_dbus_message_is_method_call_8;
+  unsigned int return_value_dbus_message_is_method_call_7;
+  unsigned int return_value_dbus_message_is_method_call_6;
+  unsigned int return_value_dbus_message_is_method_call_5;
+  unsigned int return_value_dbus_message_is_method_call_4;
+  unsigned int return_value_dbus_message_is_method_call_3;
+  unsigned int return_value_dbus_message_is_method_call_2;
+  unsigned int return_value_dbus_message_is_signal_1;
+  if(!(return_value_dbus_message_is_method_call_15 == 0u))
     process_lcd_getlevel_call(msg);
 
   else
   {
-    return_value_dbus_message_is_method_call$14=dbus_message_is_method_call(msg, "org.pommed.kbdBacklight", "getLevel");
-    if(!(return_value_dbus_message_is_method_call$14 == 0u))
+    return_value_dbus_message_is_method_call_14=dbus_message_is_method_call(msg, "org.pommed.kbdBacklight", "getLevel");
+    if(!(return_value_dbus_message_is_method_call_14 == 0u))
       process_kbd_getlevel_call(msg);
 
     else
     {
-      return_value_dbus_message_is_method_call$13=dbus_message_is_method_call(msg, "org.pommed.ambient", "getLevel");
-      if(!(return_value_dbus_message_is_method_call$13 == 0u))
+      return_value_dbus_message_is_method_call_13=dbus_message_is_method_call(msg, "org.pommed.ambient", "getLevel");
+      if(!(return_value_dbus_message_is_method_call_13 == 0u))
         process_ambient_getlevel_call(msg);
 
       else
       {
-        return_value_dbus_message_is_method_call$12=dbus_message_is_method_call(msg, "org.pommed.audio", "getVolume");
-        if(!(return_value_dbus_message_is_method_call$12 == 0u))
+        return_value_dbus_message_is_method_call_12=dbus_message_is_method_call(msg, "org.pommed.audio", "getVolume");
+        if(!(return_value_dbus_message_is_method_call_12 == 0u))
           process_audio_getvolume_call(msg);
 
         else
         {
-          return_value_dbus_message_is_method_call$11=dbus_message_is_method_call(msg, "org.pommed.audio", "getMute");
-          if(!(return_value_dbus_message_is_method_call$11 == 0u))
+          return_value_dbus_message_is_method_call_11=dbus_message_is_method_call(msg, "org.pommed.audio", "getMute");
+          if(!(return_value_dbus_message_is_method_call_11 == 0u))
             process_audio_getmute_call(msg);
 
           else
           {
-            return_value_dbus_message_is_method_call$10=dbus_message_is_method_call(msg, "org.pommed.video", "getVTState");
-            if(!(return_value_dbus_message_is_method_call$10 == 0u))
+            return_value_dbus_message_is_method_call_10=dbus_message_is_method_call(msg, "org.pommed.video", "getVTState");
+            if(!(return_value_dbus_message_is_method_call_10 == 0u))
               process_video_getvtstate_call(msg);
 
             else
             {
-              return_value_dbus_message_is_method_call$9=dbus_message_is_method_call(msg, "org.pommed.lcdBacklight", "levelUp");
-              if(!(return_value_dbus_message_is_method_call$9 == 0u))
+              return_value_dbus_message_is_method_call_9=dbus_message_is_method_call(msg, "org.pommed.lcdBacklight", "levelUp");
+              if(!(return_value_dbus_message_is_method_call_9 == 0u))
                 process_lcd_backlight_step_call(msg, 1);
 
               else
               {
-                return_value_dbus_message_is_method_call$8=dbus_message_is_method_call(msg, "org.pommed.lcdBacklight", "levelDown");
-                if(!(return_value_dbus_message_is_method_call$8 == 0u))
+                return_value_dbus_message_is_method_call_8=dbus_message_is_method_call(msg, "org.pommed.lcdBacklight", "levelDown");
+                if(!(return_value_dbus_message_is_method_call_8 == 0u))
                   process_lcd_backlight_step_call(msg, -1);
 
                 else
                 {
-                  return_value_dbus_message_is_method_call$7=dbus_message_is_method_call(msg, "org.pommed.kbdBacklight", "inhibit");
-                  if(!(return_value_dbus_message_is_method_call$7 == 0u))
+                  return_value_dbus_message_is_method_call_7=dbus_message_is_method_call(msg, "org.pommed.kbdBacklight", "inhibit");
+                  if(!(return_value_dbus_message_is_method_call_7 == 0u))
                     process_kbd_backlight_inhibit_call(msg, 1);
 
                   else
                   {
-                    return_value_dbus_message_is_method_call$6=dbus_message_is_method_call(msg, "org.pommed.kbdBacklight", "disinhibit");
-                    if(!(return_value_dbus_message_is_method_call$6 == 0u))
+                    return_value_dbus_message_is_method_call_6=dbus_message_is_method_call(msg, "org.pommed.kbdBacklight", "disinhibit");
+                    if(!(return_value_dbus_message_is_method_call_6 == 0u))
                       process_kbd_backlight_inhibit_call(msg, 0);
 
                     else
                     {
-                      return_value_dbus_message_is_method_call$5=dbus_message_is_method_call(msg, "org.pommed.audio", "volumeUp");
-                      if(!(return_value_dbus_message_is_method_call$5 == 0u))
+                      return_value_dbus_message_is_method_call_5=dbus_message_is_method_call(msg, "org.pommed.audio", "volumeUp");
+                      if(!(return_value_dbus_message_is_method_call_5 == 0u))
                         process_audio_volume_step_call(msg, 1);
 
                       else
                       {
-                        return_value_dbus_message_is_method_call$4=dbus_message_is_method_call(msg, "org.pommed.audio", "volumeDown");
-                        if(!(return_value_dbus_message_is_method_call$4 == 0u))
+                        return_value_dbus_message_is_method_call_4=dbus_message_is_method_call(msg, "org.pommed.audio", "volumeDown");
+                        if(!(return_value_dbus_message_is_method_call_4 == 0u))
                           process_audio_volume_step_call(msg, -1);
 
                         else
                         {
-                          return_value_dbus_message_is_method_call$3=dbus_message_is_method_call(msg, "org.pommed.audio", "toggleMute");
-                          if(!(return_value_dbus_message_is_method_call$3 == 0u))
+                          return_value_dbus_message_is_method_call_3=dbus_message_is_method_call(msg, "org.pommed.audio", "toggleMute");
+                          if(!(return_value_dbus_message_is_method_call_3 == 0u))
                             process_audio_toggle_mute_call(msg);
 
                           else
                           {
-                            return_value_dbus_message_is_method_call$2=dbus_message_is_method_call(msg, "org.pommed.cd", "eject");
-                            if(!(return_value_dbus_message_is_method_call$2 == 0u))
+                            return_value_dbus_message_is_method_call_2=dbus_message_is_method_call(msg, "org.pommed.cd", "eject");
+                            if(!(return_value_dbus_message_is_method_call_2 == 0u))
                               process_cd_eject_call(msg);
 
                             else
                             {
-                              return_value_dbus_message_is_signal$1=dbus_message_is_signal(msg, "org.freedesktop.DBus.Local", "Disconnected");
-                              if(!(return_value_dbus_message_is_signal$1 == 0u))
+                              return_value_dbus_message_is_signal_1=dbus_message_is_signal(msg, "org.freedesktop.DBus.Local", "Disconnected");
+                              if(!(return_value_dbus_message_is_signal_1 == 0u))
                               {
                                 logmsg(6, "DBus disconnected");
                                 mbpdbus_cleanup();
@@ -8152,7 +8152,7 @@ static void mbpdbus_process_watch(signed int fd, unsigned int events)
 {
   signed int flags;
   unsigned int wanted;
-  enum anonymous$1 ds;
+  enum anonymous_1 ds;
   struct pommed_watch *w;
   logdebug("DBus process watch\n");
   w = watches;
@@ -8199,12 +8199,12 @@ static void mbpdbus_reconnect(signed int id, unsigned long int ticks)
 static void mbpdbus_remove_watch(struct DBusWatch *watch, void *data)
 {
   unsigned int events;
-  signed int mbpdbus_remove_watch$$1$$fd;
+  signed int mbpdbus_remove_watch__1__fd;
   signed int ret;
   struct pommed_watch *w;
   struct pommed_watch *p;
   logdebug("DBus remove watch %p\n", watch);
-  mbpdbus_remove_watch$$1$$fd=dbus_watch_get_unix_fd(watch);
+  mbpdbus_remove_watch__1__fd=dbus_watch_get_unix_fd(watch);
   events = (unsigned int)0;
   p = (struct pommed_watch *)(void *)0;
   w = watches;
@@ -8223,19 +8223,19 @@ static void mbpdbus_remove_watch(struct DBusWatch *watch, void *data)
     else
       if(!(w->enabled == 0))
       {
-        if(w->fd == mbpdbus_remove_watch$$1$$fd)
+        if(w->fd == mbpdbus_remove_watch__1__fd)
           events = events | w->events;
 
       }
 
     p = w;
   }
-  ret=evloop_remove(mbpdbus_remove_watch$$1$$fd);
+  ret=evloop_remove(mbpdbus_remove_watch__1__fd);
   if(ret >= 0)
   {
     if(!(events == 0u))
     {
-      ret=evloop_add(mbpdbus_remove_watch$$1$$fd, events, mbpdbus_process_watch);
+      ret=evloop_add(mbpdbus_remove_watch__1__fd, events, mbpdbus_process_watch);
       if(!(ret >= 0))
         logmsg(4, "Could not re-add watch");
 
@@ -8260,9 +8260,9 @@ void mbpdbus_send_ambient_light(signed int l, signed int l_prev, signed int r, s
 
     else
     {
-      unsigned int return_value_dbus_message_append_args$1;
-      return_value_dbus_message_append_args$1=dbus_message_append_args(msg, (signed int)117, &l, (signed int)117, &l_prev, (signed int)117, &r, (signed int)117, &r_prev, (signed int)117, &ambient_info.max, (signed int)0);
-      ret = (signed int)return_value_dbus_message_append_args$1;
+      unsigned int return_value_dbus_message_append_args_1;
+      return_value_dbus_message_append_args_1=dbus_message_append_args(msg, (signed int)117, &l, (signed int)117, &l_prev, (signed int)117, &r, (signed int)117, &r_prev, (signed int)117, &ambient_info.max, (signed int)0);
+      ret = (signed int)return_value_dbus_message_append_args_1;
       if(ret == 0)
       {
         logdebug("Failed to add arguments\n");
@@ -8271,9 +8271,9 @@ void mbpdbus_send_ambient_light(signed int l, signed int l_prev, signed int r, s
 
       else
       {
-        unsigned int return_value_dbus_connection_send$2;
-        return_value_dbus_connection_send$2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-        ret = (signed int)return_value_dbus_connection_send$2;
+        unsigned int return_value_dbus_connection_send_2;
+        return_value_dbus_connection_send_2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+        ret = (signed int)return_value_dbus_connection_send_2;
         if(ret == 0)
         {
           logdebug("Could not send kbdBacklight signal\n");
@@ -8306,9 +8306,9 @@ void mbpdbus_send_audio_mute(signed int mute)
 
     else
     {
-      unsigned int return_value_dbus_message_append_args$1;
-      return_value_dbus_message_append_args$1=dbus_message_append_args(msg, (signed int)98, &mute, (signed int)0);
-      ret = (signed int)return_value_dbus_message_append_args$1;
+      unsigned int return_value_dbus_message_append_args_1;
+      return_value_dbus_message_append_args_1=dbus_message_append_args(msg, (signed int)98, &mute, (signed int)0);
+      ret = (signed int)return_value_dbus_message_append_args_1;
       if(ret == 0)
       {
         logdebug("Failed to add arguments\n");
@@ -8317,9 +8317,9 @@ void mbpdbus_send_audio_mute(signed int mute)
 
       else
       {
-        unsigned int return_value_dbus_connection_send$2;
-        return_value_dbus_connection_send$2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-        ret = (signed int)return_value_dbus_connection_send$2;
+        unsigned int return_value_dbus_connection_send_2;
+        return_value_dbus_connection_send_2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+        ret = (signed int)return_value_dbus_connection_send_2;
         if(ret == 0)
         {
           logdebug("Could not send audioMute signal\n");
@@ -8352,9 +8352,9 @@ void mbpdbus_send_audio_volume(signed int cur, signed int prev)
 
     else
     {
-      unsigned int return_value_dbus_message_append_args$1;
-      return_value_dbus_message_append_args$1=dbus_message_append_args(msg, (signed int)117, &cur, (signed int)117, &prev, (signed int)117, &audio_info.max, (signed int)0);
-      ret = (signed int)return_value_dbus_message_append_args$1;
+      unsigned int return_value_dbus_message_append_args_1;
+      return_value_dbus_message_append_args_1=dbus_message_append_args(msg, (signed int)117, &cur, (signed int)117, &prev, (signed int)117, &audio_info.max, (signed int)0);
+      ret = (signed int)return_value_dbus_message_append_args_1;
       if(ret == 0)
       {
         logdebug("Failed to add arguments\n");
@@ -8363,9 +8363,9 @@ void mbpdbus_send_audio_volume(signed int cur, signed int prev)
 
       else
       {
-        unsigned int return_value_dbus_connection_send$2;
-        return_value_dbus_connection_send$2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-        ret = (signed int)return_value_dbus_connection_send$2;
+        unsigned int return_value_dbus_connection_send_2;
+        return_value_dbus_connection_send_2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+        ret = (signed int)return_value_dbus_connection_send_2;
         if(ret == 0)
         {
           logdebug("Could not send audioVolume signal\n");
@@ -8398,9 +8398,9 @@ void mbpdbus_send_cd_eject(void)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$1;
-      return_value_dbus_connection_send$1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$1;
+      unsigned int return_value_dbus_connection_send_1;
+      return_value_dbus_connection_send_1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_1;
       if(ret == 0)
       {
         logdebug("Could not send cdEject signal\n");
@@ -8432,9 +8432,9 @@ void mbpdbus_send_kbd_backlight(signed int cur, signed int prev, signed int who)
 
     else
     {
-      unsigned int return_value_dbus_message_append_args$1;
-      return_value_dbus_message_append_args$1=dbus_message_append_args(msg, (signed int)117, &cur, (signed int)117, &prev, (signed int)117, &kbd_bck_info.max, (signed int)117, &who, (signed int)0);
-      ret = (signed int)return_value_dbus_message_append_args$1;
+      unsigned int return_value_dbus_message_append_args_1;
+      return_value_dbus_message_append_args_1=dbus_message_append_args(msg, (signed int)117, &cur, (signed int)117, &prev, (signed int)117, &kbd_bck_info.max, (signed int)117, &who, (signed int)0);
+      ret = (signed int)return_value_dbus_message_append_args_1;
       if(ret == 0)
       {
         logdebug("Failed to add arguments\n");
@@ -8443,9 +8443,9 @@ void mbpdbus_send_kbd_backlight(signed int cur, signed int prev, signed int who)
 
       else
       {
-        unsigned int return_value_dbus_connection_send$2;
-        return_value_dbus_connection_send$2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-        ret = (signed int)return_value_dbus_connection_send$2;
+        unsigned int return_value_dbus_connection_send_2;
+        return_value_dbus_connection_send_2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+        ret = (signed int)return_value_dbus_connection_send_2;
         if(ret == 0)
         {
           logdebug("Could not send kbdBacklight signal\n");
@@ -8478,9 +8478,9 @@ void mbpdbus_send_lcd_backlight(signed int cur, signed int prev, signed int who)
 
     else
     {
-      unsigned int return_value_dbus_message_append_args$1;
-      return_value_dbus_message_append_args$1=dbus_message_append_args(msg, (signed int)117, &cur, (signed int)117, &prev, (signed int)117, &lcd_bck_info.max, (signed int)117, &who, (signed int)0);
-      ret = (signed int)return_value_dbus_message_append_args$1;
+      unsigned int return_value_dbus_message_append_args_1;
+      return_value_dbus_message_append_args_1=dbus_message_append_args(msg, (signed int)117, &cur, (signed int)117, &prev, (signed int)117, &lcd_bck_info.max, (signed int)117, &who, (signed int)0);
+      ret = (signed int)return_value_dbus_message_append_args_1;
       if(ret == 0)
       {
         logdebug("Failed to add arguments\n");
@@ -8489,9 +8489,9 @@ void mbpdbus_send_lcd_backlight(signed int cur, signed int prev, signed int who)
 
       else
       {
-        unsigned int return_value_dbus_connection_send$2;
-        return_value_dbus_connection_send$2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-        ret = (signed int)return_value_dbus_connection_send$2;
+        unsigned int return_value_dbus_connection_send_2;
+        return_value_dbus_connection_send_2=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+        ret = (signed int)return_value_dbus_connection_send_2;
         if(ret == 0)
         {
           logdebug("Could not send lcdBacklight signal\n");
@@ -8524,9 +8524,9 @@ void mbpdbus_send_video_switch(void)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$1;
-      return_value_dbus_connection_send$1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$1;
+      unsigned int return_value_dbus_connection_send_1;
+      return_value_dbus_connection_send_1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_1;
       if(ret == 0)
       {
         logdebug("Could not send videoSwitch signal\n");
@@ -8548,20 +8548,20 @@ void mbpdbus_send_video_switch(void)
 static void mbpdbus_toggle_watch(struct DBusWatch *watch, void *data)
 {
   unsigned int events;
-  signed int mbpdbus_toggle_watch$$1$$fd;
+  signed int mbpdbus_toggle_watch__1__fd;
   signed int ret;
   struct pommed_watch *w;
   logdebug("DBus toggle watch\n");
-  mbpdbus_toggle_watch$$1$$fd=dbus_watch_get_unix_fd(watch);
+  mbpdbus_toggle_watch__1__fd=dbus_watch_get_unix_fd(watch);
   events = (unsigned int)0;
   w = watches;
   for( ; !(w == ((struct pommed_watch *)NULL)); w = w->next)
   {
     if(w->watch == watch)
     {
-      unsigned int return_value_dbus_watch_get_enabled$1;
-      return_value_dbus_watch_get_enabled$1=dbus_watch_get_enabled(watch);
-      if(return_value_dbus_watch_get_enabled$1 == 0u)
+      unsigned int return_value_dbus_watch_get_enabled_1;
+      return_value_dbus_watch_get_enabled_1=dbus_watch_get_enabled(watch);
+      if(return_value_dbus_watch_get_enabled_1 == 0u)
         w->enabled = 0;
 
       else
@@ -8574,7 +8574,7 @@ static void mbpdbus_toggle_watch(struct DBusWatch *watch, void *data)
 
     if(!(w->enabled == 0))
     {
-      if(w->fd == mbpdbus_toggle_watch$$1$$fd)
+      if(w->fd == mbpdbus_toggle_watch__1__fd)
         events = events | events;
 
     }
@@ -8583,12 +8583,12 @@ static void mbpdbus_toggle_watch(struct DBusWatch *watch, void *data)
   __CPROVER_DUMP_L5:
     ;
   }
-  ret=evloop_remove(mbpdbus_toggle_watch$$1$$fd);
+  ret=evloop_remove(mbpdbus_toggle_watch__1__fd);
   if(ret >= 0)
   {
     if(!(events == 0u))
     {
-      ret=evloop_add(mbpdbus_toggle_watch$$1$$fd, events, mbpdbus_process_watch);
+      ret=evloop_add(mbpdbus_toggle_watch__1__fd, events, mbpdbus_process_watch);
       if(!(ret >= 0))
         logmsg(4, "Could not re-add watch");
 
@@ -8631,9 +8631,9 @@ static unsigned char nv8600mgt_backlight_get()
   {
     outb((unsigned char)0x03, (unsigned short int)(bl_port + (unsigned int)1));
     outb((unsigned char)0xbf, (unsigned short int)bl_port);
-    unsigned char return_value_inb$1;
-    return_value_inb$1=inb((unsigned short int)(bl_port + (unsigned int)1));
-    value = (unsigned char)((signed int)return_value_inb$1 >> 4);
+    unsigned char return_value_inb_1;
+    return_value_inb_1=inb((unsigned short int)(bl_port + (unsigned int)1));
+    value = (unsigned char)((signed int)return_value_inb_1 >> 4);
     return value;
   }
 }
@@ -8677,11 +8677,11 @@ signed int nv8600mgt_backlight_probe(void)
   ret=iopl(3);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    logmsg(3, "iopl() failed: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    logmsg(3, "iopl() failed: %s", return_value_strerror_2);
     lcd_bck_info.level = 0;
     return -1;
   }
@@ -8690,9 +8690,9 @@ signed int nv8600mgt_backlight_probe(void)
   if(lcd_nv8600mgt_cfg.init >= 0)
     nv8600mgt_backlight_set((unsigned char)lcd_nv8600mgt_cfg.init);
 
-  unsigned char return_value_nv8600mgt_backlight_get$3;
-  return_value_nv8600mgt_backlight_get$3=nv8600mgt_backlight_get();
-  lcd_bck_info.level = (signed int)return_value_nv8600mgt_backlight_get$3;
+  unsigned char return_value_nv8600mgt_backlight_get_3;
+  return_value_nv8600mgt_backlight_get_3=nv8600mgt_backlight_get();
+  lcd_bck_info.level = (signed int)return_value_nv8600mgt_backlight_get_3;
   lcd_bck_info.ac_lvl = lcd_bck_info.level;
   return 0;
 }
@@ -8717,9 +8717,9 @@ void nv8600mgt_backlight_step(signed int dir)
   signed int newval;
   if(!(nv8600mgt_inited == 0))
   {
-    unsigned char return_value_nv8600mgt_backlight_get$1;
-    return_value_nv8600mgt_backlight_get$1=nv8600mgt_backlight_get();
-    val = (signed int)return_value_nv8600mgt_backlight_get$1;
+    unsigned char return_value_nv8600mgt_backlight_get_1;
+    return_value_nv8600mgt_backlight_get_1=nv8600mgt_backlight_get();
+    val = (signed int)return_value_nv8600mgt_backlight_get_1;
     if(dir == 1)
     {
       newval = val + lcd_nv8600mgt_cfg.step;
@@ -8760,9 +8760,9 @@ void nv8600mgt_backlight_toggle(signed int lvl)
   {
     if(!(nv8600mgt_inited == 0))
     {
-      unsigned char return_value_nv8600mgt_backlight_get$1;
-      return_value_nv8600mgt_backlight_get$1=nv8600mgt_backlight_get();
-      val = (signed int)return_value_nv8600mgt_backlight_get$1;
+      unsigned char return_value_nv8600mgt_backlight_get_1;
+      return_value_nv8600mgt_backlight_get_1=nv8600mgt_backlight_get();
+      val = (signed int)return_value_nv8600mgt_backlight_get_1;
       if(!(val == lcd_bck_info.level))
       {
         mbpdbus_send_lcd_backlight(val, lcd_bck_info.level, 1);
@@ -8884,17 +8884,17 @@ static void process_ambient_getlevel_call(struct DBusMessage *req)
   struct DBusMessageIter args;
   signed int ret;
   logdebug("Got ambient getLevel call\n");
-  unsigned int return_value_dbus_message_iter_init$1;
-  return_value_dbus_message_iter_init$1=dbus_message_iter_init(req, &args);
-  if(!(return_value_dbus_message_iter_init$1 == 0u))
+  unsigned int return_value_dbus_message_iter_init_1;
+  return_value_dbus_message_iter_init_1=dbus_message_iter_init(req, &args);
+  if(!(return_value_dbus_message_iter_init_1 == 0u))
     logdebug("ambient getLevel call with arguments ?!\n");
 
   else
   {
     msg=dbus_message_new_method_return(req);
-    unsigned int return_value_dbus_message_append_args$2;
-    return_value_dbus_message_append_args$2=dbus_message_append_args(msg, (signed int)117, &ambient_info.left, (signed int)117, &ambient_info.right, (signed int)117, &ambient_info.max, (signed int)0);
-    ret = (signed int)return_value_dbus_message_append_args$2;
+    unsigned int return_value_dbus_message_append_args_2;
+    return_value_dbus_message_append_args_2=dbus_message_append_args(msg, (signed int)117, &ambient_info.left, (signed int)117, &ambient_info.right, (signed int)117, &ambient_info.max, (signed int)0);
+    ret = (signed int)return_value_dbus_message_append_args_2;
     if(ret == 0)
     {
       logdebug("Failed to add arguments\n");
@@ -8903,9 +8903,9 @@ static void process_ambient_getlevel_call(struct DBusMessage *req)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$3;
-      return_value_dbus_connection_send$3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$3;
+      unsigned int return_value_dbus_connection_send_3;
+      return_value_dbus_connection_send_3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_3;
       if(ret == 0)
       {
         logdebug("Could not send ambient getLevel reply\n");
@@ -8926,17 +8926,17 @@ static void process_audio_getmute_call(struct DBusMessage *req)
   struct DBusMessageIter args;
   signed int ret;
   logdebug("Got audio getMute call\n");
-  unsigned int return_value_dbus_message_iter_init$1;
-  return_value_dbus_message_iter_init$1=dbus_message_iter_init(req, &args);
-  if(!(return_value_dbus_message_iter_init$1 == 0u))
+  unsigned int return_value_dbus_message_iter_init_1;
+  return_value_dbus_message_iter_init_1=dbus_message_iter_init(req, &args);
+  if(!(return_value_dbus_message_iter_init_1 == 0u))
     logdebug("audio getMute call with arguments ?!\n");
 
   else
   {
     msg=dbus_message_new_method_return(req);
-    unsigned int return_value_dbus_message_append_args$2;
-    return_value_dbus_message_append_args$2=dbus_message_append_args(msg, (signed int)98, &audio_info.muted, (signed int)0);
-    ret = (signed int)return_value_dbus_message_append_args$2;
+    unsigned int return_value_dbus_message_append_args_2;
+    return_value_dbus_message_append_args_2=dbus_message_append_args(msg, (signed int)98, &audio_info.muted, (signed int)0);
+    ret = (signed int)return_value_dbus_message_append_args_2;
     if(ret == 0)
     {
       logdebug("Failed to add arguments\n");
@@ -8945,9 +8945,9 @@ static void process_audio_getmute_call(struct DBusMessage *req)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$3;
-      return_value_dbus_connection_send$3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$3;
+      unsigned int return_value_dbus_connection_send_3;
+      return_value_dbus_connection_send_3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_3;
       if(ret == 0)
       {
         logdebug("Could not send audio getMute reply\n");
@@ -8968,17 +8968,17 @@ static void process_audio_getvolume_call(struct DBusMessage *req)
   struct DBusMessageIter args;
   signed int ret;
   logdebug("Got audio getVolume call\n");
-  unsigned int return_value_dbus_message_iter_init$1;
-  return_value_dbus_message_iter_init$1=dbus_message_iter_init(req, &args);
-  if(!(return_value_dbus_message_iter_init$1 == 0u))
+  unsigned int return_value_dbus_message_iter_init_1;
+  return_value_dbus_message_iter_init_1=dbus_message_iter_init(req, &args);
+  if(!(return_value_dbus_message_iter_init_1 == 0u))
     logdebug("audio getVolume call with arguments ?!\n");
 
   else
   {
     msg=dbus_message_new_method_return(req);
-    unsigned int return_value_dbus_message_append_args$2;
-    return_value_dbus_message_append_args$2=dbus_message_append_args(msg, (signed int)117, &audio_info.level, (signed int)117, &audio_info.max, (signed int)0);
-    ret = (signed int)return_value_dbus_message_append_args$2;
+    unsigned int return_value_dbus_message_append_args_2;
+    return_value_dbus_message_append_args_2=dbus_message_append_args(msg, (signed int)117, &audio_info.level, (signed int)117, &audio_info.max, (signed int)0);
+    ret = (signed int)return_value_dbus_message_append_args_2;
     if(ret == 0)
     {
       logdebug("Failed to add arguments\n");
@@ -8987,9 +8987,9 @@ static void process_audio_getvolume_call(struct DBusMessage *req)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$3;
-      return_value_dbus_connection_send$3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$3;
+      unsigned int return_value_dbus_connection_send_3;
+      return_value_dbus_connection_send_3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_3;
       if(ret == 0)
       {
         logdebug("Could not send audio getVolume reply\n");
@@ -9011,9 +9011,9 @@ static void process_audio_toggle_mute_call(struct DBusMessage *req)
   logdebug("Got audio toggleMute call\n");
   audio_toggle_mute();
   msg=dbus_message_new_method_return(req);
-  unsigned int return_value_dbus_connection_send$1;
-  return_value_dbus_connection_send$1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-  ret = (signed int)return_value_dbus_connection_send$1;
+  unsigned int return_value_dbus_connection_send_1;
+  return_value_dbus_connection_send_1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+  ret = (signed int)return_value_dbus_connection_send_1;
   if(ret == 0)
   {
     logdebug("Could not send audio toggleMute reply\n");
@@ -9033,9 +9033,9 @@ static void process_audio_volume_step_call(struct DBusMessage *req, signed int d
   logdebug("Got audio volumeUp/volumeDown call\n");
   audio_step(dir);
   msg=dbus_message_new_method_return(req);
-  unsigned int return_value_dbus_connection_send$1;
-  return_value_dbus_connection_send$1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-  ret = (signed int)return_value_dbus_connection_send$1;
+  unsigned int return_value_dbus_connection_send_1;
+  return_value_dbus_connection_send_1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+  ret = (signed int)return_value_dbus_connection_send_1;
   if(ret == 0)
   {
     logdebug("Could not send audio volumeUp/volumeDown reply\n");
@@ -9055,9 +9055,9 @@ static void process_cd_eject_call(struct DBusMessage *req)
   logdebug("Got cd eject call\n");
   cd_eject();
   msg=dbus_message_new_method_return(req);
-  unsigned int return_value_dbus_connection_send$1;
-  return_value_dbus_connection_send$1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-  ret = (signed int)return_value_dbus_connection_send$1;
+  unsigned int return_value_dbus_connection_send_1;
+  return_value_dbus_connection_send_1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+  ret = (signed int)return_value_dbus_connection_send_1;
   if(ret == 0)
   {
     logdebug("Could not send cd eject reply\n");
@@ -9081,9 +9081,9 @@ static void process_kbd_backlight_inhibit_call(struct DBusMessage *req, signed i
   else
     kbd_backlight_inhibit_clear(1 << 0);
   msg=dbus_message_new_method_return(req);
-  unsigned int return_value_dbus_connection_send$1;
-  return_value_dbus_connection_send$1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-  ret = (signed int)return_value_dbus_connection_send$1;
+  unsigned int return_value_dbus_connection_send_1;
+  return_value_dbus_connection_send_1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+  ret = (signed int)return_value_dbus_connection_send_1;
   if(ret == 0)
   {
     logdebug("Could not send kbdBacklight inhibit reply\n");
@@ -9102,17 +9102,17 @@ static void process_kbd_getlevel_call(struct DBusMessage *req)
   struct DBusMessageIter args;
   signed int ret;
   logdebug("Got kbdBacklight getLevel call\n");
-  unsigned int return_value_dbus_message_iter_init$1;
-  return_value_dbus_message_iter_init$1=dbus_message_iter_init(req, &args);
-  if(!(return_value_dbus_message_iter_init$1 == 0u))
+  unsigned int return_value_dbus_message_iter_init_1;
+  return_value_dbus_message_iter_init_1=dbus_message_iter_init(req, &args);
+  if(!(return_value_dbus_message_iter_init_1 == 0u))
     logdebug("kbdBacklight getLevel call with arguments ?!\n");
 
   else
   {
     msg=dbus_message_new_method_return(req);
-    unsigned int return_value_dbus_message_append_args$2;
-    return_value_dbus_message_append_args$2=dbus_message_append_args(msg, (signed int)117, &kbd_bck_info.level, (signed int)117, &kbd_bck_info.max, (signed int)0);
-    ret = (signed int)return_value_dbus_message_append_args$2;
+    unsigned int return_value_dbus_message_append_args_2;
+    return_value_dbus_message_append_args_2=dbus_message_append_args(msg, (signed int)117, &kbd_bck_info.level, (signed int)117, &kbd_bck_info.max, (signed int)0);
+    ret = (signed int)return_value_dbus_message_append_args_2;
     if(ret == 0)
     {
       logdebug("Failed to add arguments\n");
@@ -9121,9 +9121,9 @@ static void process_kbd_getlevel_call(struct DBusMessage *req)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$3;
-      return_value_dbus_connection_send$3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$3;
+      unsigned int return_value_dbus_connection_send_3;
+      return_value_dbus_connection_send_3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_3;
       if(ret == 0)
       {
         logdebug("Could not send kbdBacklight getLevel reply\n");
@@ -9145,9 +9145,9 @@ static void process_lcd_backlight_step_call(struct DBusMessage *req, signed int 
   logdebug("Got lcdBacklight levelUp/levelDown call\n");
   mops->lcd_backlight_step(dir);
   msg=dbus_message_new_method_return(req);
-  unsigned int return_value_dbus_connection_send$1;
-  return_value_dbus_connection_send$1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-  ret = (signed int)return_value_dbus_connection_send$1;
+  unsigned int return_value_dbus_connection_send_1;
+  return_value_dbus_connection_send_1=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+  ret = (signed int)return_value_dbus_connection_send_1;
   if(ret == 0)
   {
     logdebug("Could not send lcdBacklight levelUp/levelDown reply\n");
@@ -9166,17 +9166,17 @@ static void process_lcd_getlevel_call(struct DBusMessage *req)
   struct DBusMessageIter args;
   signed int ret;
   logdebug("Got lcdBacklight getLevel call\n");
-  unsigned int return_value_dbus_message_iter_init$1;
-  return_value_dbus_message_iter_init$1=dbus_message_iter_init(req, &args);
-  if(!(return_value_dbus_message_iter_init$1 == 0u))
+  unsigned int return_value_dbus_message_iter_init_1;
+  return_value_dbus_message_iter_init_1=dbus_message_iter_init(req, &args);
+  if(!(return_value_dbus_message_iter_init_1 == 0u))
     logdebug("lcdBacklight getLevel call with arguments ?!\n");
 
   else
   {
     msg=dbus_message_new_method_return(req);
-    unsigned int return_value_dbus_message_append_args$2;
-    return_value_dbus_message_append_args$2=dbus_message_append_args(msg, (signed int)117, &lcd_bck_info.level, (signed int)117, &lcd_bck_info.max, (signed int)0);
-    ret = (signed int)return_value_dbus_message_append_args$2;
+    unsigned int return_value_dbus_message_append_args_2;
+    return_value_dbus_message_append_args_2=dbus_message_append_args(msg, (signed int)117, &lcd_bck_info.level, (signed int)117, &lcd_bck_info.max, (signed int)0);
+    ret = (signed int)return_value_dbus_message_append_args_2;
     if(ret == 0)
     {
       logdebug("Failed to add arguments\n");
@@ -9185,9 +9185,9 @@ static void process_lcd_getlevel_call(struct DBusMessage *req)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$3;
-      return_value_dbus_connection_send$3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$3;
+      unsigned int return_value_dbus_connection_send_3;
+      return_value_dbus_connection_send_3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_3;
       if(ret == 0)
       {
         logdebug("Could not send lcdBacklight getLevel reply\n");
@@ -9209,9 +9209,9 @@ static void process_video_getvtstate_call(struct DBusMessage *req)
   signed int vtstate;
   signed int ret;
   logdebug("Got video getVTState call\n");
-  unsigned int return_value_dbus_message_get_args$1;
-  return_value_dbus_message_get_args$1=dbus_message_get_args(req, &err, (signed int)117, &vtnum, (signed int)0);
-  ret = (signed int)return_value_dbus_message_get_args$1;
+  unsigned int return_value_dbus_message_get_args_1;
+  return_value_dbus_message_get_args_1=dbus_message_get_args(req, &err, (signed int)117, &vtnum, (signed int)0);
+  ret = (signed int)return_value_dbus_message_get_args_1;
   if(ret == 0)
     logdebug("video getVTState call with no/inappropriate arguments ?!\n");
 
@@ -9219,9 +9219,9 @@ static void process_video_getvtstate_call(struct DBusMessage *req)
   {
     vtstate=video_vt_active(vtnum);
     msg=dbus_message_new_method_return(req);
-    unsigned int return_value_dbus_message_append_args$2;
-    return_value_dbus_message_append_args$2=dbus_message_append_args(msg, (signed int)98, &vtstate, (signed int)0);
-    ret = (signed int)return_value_dbus_message_append_args$2;
+    unsigned int return_value_dbus_message_append_args_2;
+    return_value_dbus_message_append_args_2=dbus_message_append_args(msg, (signed int)98, &vtstate, (signed int)0);
+    ret = (signed int)return_value_dbus_message_append_args_2;
     if(ret == 0)
     {
       logdebug("Failed to add arguments\n");
@@ -9230,9 +9230,9 @@ static void process_video_getvtstate_call(struct DBusMessage *req)
 
     else
     {
-      unsigned int return_value_dbus_connection_send$3;
-      return_value_dbus_connection_send$3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
-      ret = (signed int)return_value_dbus_connection_send$3;
+      unsigned int return_value_dbus_connection_send_3;
+      return_value_dbus_connection_send_3=dbus_connection_send(conn, msg, (unsigned int *)(void *)0);
+      ret = (signed int)return_value_dbus_connection_send_3;
       if(ret == 0)
       {
         logdebug("Could not send video getVTState reply\n");
@@ -9258,24 +9258,24 @@ signed int procfs_check_ac_state(void)
 
   else
   {
-    unsigned long int return_value_fread$1;
-    return_value_fread$1=fread((void *)buf, (unsigned long int)1, (unsigned long int)127, fp);
-    ret = (signed int)return_value_fread$1;
-    signed int return_value_ferror$4;
-    return_value_ferror$4=ferror(fp);
-    if(!(return_value_ferror$4 == 0))
+    unsigned long int return_value_fread_1;
+    return_value_fread_1=fread((void *)buf, (unsigned long int)1, (unsigned long int)127, fp);
+    ret = (signed int)return_value_fread_1;
+    signed int return_value_ferror_4;
+    return_value_ferror_4=ferror(fp);
+    if(!(return_value_ferror_4 == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      logdebug("acpi: Error reading proc AC state: %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      logdebug("acpi: Error reading proc AC state: %s\n", return_value_strerror_3);
       return -1;
     }
 
-    signed int return_value_feof$5;
-    return_value_feof$5=feof(fp);
-    if(return_value_feof$5 == 0)
+    signed int return_value_feof_5;
+    return_value_feof_5=feof(fp);
+    if(return_value_feof_5 == 0)
     {
       logdebug("acpi: Error reading proc AC state: buffer too small\n");
       return -1;
@@ -9285,16 +9285,16 @@ signed int procfs_check_ac_state(void)
     {
       fclose(fp);
       buf[(signed long int)ret] = (char)0;
-      char *return_value_strstr$6;
-      return_value_strstr$6=strstr(buf, "on-line\n");
-      if(!(return_value_strstr$6 == ((char *)NULL)))
+      char *return_value_strstr_6;
+      return_value_strstr_6=strstr(buf, "on-line\n");
+      if(!(return_value_strstr_6 == ((char *)NULL)))
         return 1;
 
       else
       {
-        char *return_value_strstr$7;
-        return_value_strstr$7=strstr(buf, "off-line\n");
-        if(!(return_value_strstr$7 == ((char *)NULL)))
+        char *return_value_strstr_7;
+        return_value_strstr_7=strstr(buf, "off-line\n");
+        if(!(return_value_strstr_7 == ((char *)NULL)))
           return 0;
 
         else
@@ -9311,11 +9311,11 @@ static inline unsigned int readl(const volatile void *addr)
   return *((volatile unsigned int *)addr);
 }
 
-// readl$link1
+// readl_link1
 // file mactel/gma950_backlight.c line 87
-static inline unsigned int readl$link1(const volatile void *addr$link1)
+static inline unsigned int readl_link1(const volatile void *addr_link1)
 {
-  return *((volatile unsigned int *)addr$link1);
+  return *((volatile unsigned int *)addr_link1);
 }
 
 // sig_int_term_handler
@@ -9329,18 +9329,18 @@ void sig_int_term_handler(signed int signal)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___xstat$1$link1;
-  return_value___xstat$1$link1=__xstat(1, __path$link1, __statbuf$link1);
-  return return_value___xstat$1$link1;
+  signed int return_value___xstat_1_link1;
+  return_value___xstat_1_link1=__xstat(1, __path_link1, __statbuf_link1);
+  return return_value___xstat_1_link1;
 }
 
 // sysfs_backlight_fix_config
@@ -9368,7 +9368,7 @@ static void sysfs_backlight_fix_config(void)
 // file sysfs_backlight.c line 121
 static signed int sysfs_backlight_get(void)
 {
-  signed int sysfs_backlight_get$$1$$fd;
+  signed int sysfs_backlight_get__1__fd;
   signed int n;
   char buffer[8l];
   if(bck_driver == 0)
@@ -9376,34 +9376,34 @@ static signed int sysfs_backlight_get(void)
 
   else
   {
-    sysfs_backlight_get$$1$$fd=open(actual_brightness[(signed long int)bck_driver], 00);
-    if(!(sysfs_backlight_get$$1$$fd >= 0))
+    sysfs_backlight_get__1__fd=open(actual_brightness[(signed long int)bck_driver], 00);
+    if(!(sysfs_backlight_get__1__fd >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(4, "Could not open sysfs actual_brightness node: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(4, "Could not open sysfs actual_brightness node: %s", return_value_strerror_2);
       return 0;
     }
 
     memset((void *)buffer, 0, sizeof(char [8l]) /*8ul*/ );
-    signed long int return_value_read$3;
-    return_value_read$3=read(sysfs_backlight_get$$1$$fd, (void *)buffer, sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
-    n = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(sysfs_backlight_get__1__fd, (void *)buffer, sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
+    n = (signed int)return_value_read_3;
     if(!(n >= 1))
     {
       logmsg(4, "Could not read sysfs actual_brightness node");
-      close(sysfs_backlight_get$$1$$fd);
+      close(sysfs_backlight_get__1__fd);
       return 0;
     }
 
     else
     {
-      close(sysfs_backlight_get$$1$$fd);
-      signed int return_value_atoi$4;
-      return_value_atoi$4=atoi(buffer);
-      return return_value_atoi$4;
+      close(sysfs_backlight_get__1__fd);
+      signed int return_value_atoi_4;
+      return_value_atoi_4=atoi(buffer);
+      return return_value_atoi_4;
     }
   }
 }
@@ -9412,7 +9412,7 @@ static signed int sysfs_backlight_get(void)
 // file sysfs_backlight.c line 153
 static signed int sysfs_backlight_get_max(void)
 {
-  signed int sysfs_backlight_get_max$$1$$fd;
+  signed int sysfs_backlight_get_max__1__fd;
   signed int n;
   char buffer[8l];
   if(bck_driver == 0)
@@ -9420,34 +9420,34 @@ static signed int sysfs_backlight_get_max(void)
 
   else
   {
-    sysfs_backlight_get_max$$1$$fd=open(max_brightness[(signed long int)bck_driver], 00);
-    if(!(sysfs_backlight_get_max$$1$$fd >= 0))
+    sysfs_backlight_get_max__1__fd=open(max_brightness[(signed long int)bck_driver], 00);
+    if(!(sysfs_backlight_get_max__1__fd >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(4, "Could not open sysfs max_brightness node: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(4, "Could not open sysfs max_brightness node: %s", return_value_strerror_2);
       return 0;
     }
 
     memset((void *)buffer, 0, sizeof(char [8l]) /*8ul*/ );
-    signed long int return_value_read$3;
-    return_value_read$3=read(sysfs_backlight_get_max$$1$$fd, (void *)buffer, sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
-    n = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(sysfs_backlight_get_max__1__fd, (void *)buffer, sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
+    n = (signed int)return_value_read_3;
     if(!(n >= 1))
     {
       logmsg(4, "Could not read sysfs max_brightness node");
-      close(sysfs_backlight_get_max$$1$$fd);
+      close(sysfs_backlight_get_max__1__fd);
       return 0;
     }
 
     else
     {
-      close(sysfs_backlight_get_max$$1$$fd);
-      signed int return_value_atoi$4;
-      return_value_atoi$4=atoi(buffer);
-      return return_value_atoi$4;
+      close(sysfs_backlight_get_max__1__fd);
+      signed int return_value_atoi_4;
+      return_value_atoi_4=atoi(buffer);
+      return return_value_atoi_4;
     }
   }
 }
@@ -9456,39 +9456,39 @@ static signed int sysfs_backlight_get_max(void)
 // file sysfs_backlight.c line 352
 static signed int sysfs_backlight_probe(signed int driver)
 {
-  signed int return_value_access$3;
-  return_value_access$3=access(brightness[(signed long int)driver], 2);
-  if(!(return_value_access$3 == 0))
+  signed int return_value_access_3;
+  return_value_access_3=access(brightness[(signed long int)driver], 2);
+  if(!(return_value_access_3 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    logdebug("Failed to access brightness node: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    logdebug("Failed to access brightness node: %s\n", return_value_strerror_2);
     return -1;
   }
 
-  signed int return_value_access$6;
-  return_value_access$6=access(actual_brightness[(signed long int)driver], 4);
-  if(!(return_value_access$6 == 0))
+  signed int return_value_access_6;
+  return_value_access_6=access(actual_brightness[(signed long int)driver], 4);
+  if(!(return_value_access_6 == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    logdebug("Failed to access actual_brightness node: %s\n", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    logdebug("Failed to access actual_brightness node: %s\n", return_value_strerror_5);
     return -1;
   }
 
-  signed int return_value_access$9;
-  return_value_access$9=access(max_brightness[(signed long int)driver], 4);
-  if(!(return_value_access$9 == 0))
+  signed int return_value_access_9;
+  return_value_access_9=access(max_brightness[(signed long int)driver], 4);
+  if(!(return_value_access_9 == 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    logdebug("Failed to access max_brightness node: %s\n", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    logdebug("Failed to access max_brightness node: %s\n", return_value_strerror_8);
     return -1;
   }
 
@@ -9513,11 +9513,11 @@ static void sysfs_backlight_set(signed int value)
     fp=fopen(brightness[(signed long int)bck_driver], "a");
     if(fp == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(4, "Could not open sysfs brightness node: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(4, "Could not open sysfs brightness node: %s", return_value_strerror_2);
       goto __CPROVER_DUMP_L3;
     }
 
@@ -9631,15 +9631,15 @@ static signed int sysfs_check_ac_state(void)
   else
   {
     fread((void *)&ac_state, (unsigned long int)1, (unsigned long int)1, fp);
-    signed int return_value_ferror$3;
-    return_value_ferror$3=ferror(fp);
-    if(!(return_value_ferror$3 == 0))
+    signed int return_value_ferror_3;
+    return_value_ferror_3=ferror(fp);
+    if(!(return_value_ferror_3 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logdebug("power: Error reading sysfs AC state: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logdebug("power: Error reading sysfs AC state: %s\n", return_value_strerror_2);
       return -1;
     }
 
@@ -9680,52 +9680,52 @@ void video_switch(void)
 // file video.h line 13
 signed int video_vt_active(signed int vt)
 {
-  signed int video_vt_active$$1$$fd;
+  signed int video_vt_active__1__fd;
   char buf[16l];
   struct vt_stat vtstat;
   signed int ret;
   ret=snprintf(buf, sizeof(char [16l]) /*16ul*/ , "/dev/tty%d", vt);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
   if((unsigned long int)ret >= sizeof(char [16l]) /*16ul*/  || !(ret >= 0))
     return 1;
 
   else
   {
-    video_vt_active$$1$$fd=open(buf, 02);
-    if(!(video_vt_active$$1$$fd >= 0))
+    video_vt_active__1__fd=open(buf, 02);
+    if(!(video_vt_active__1__fd >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 13)
-        video_vt_active$$1$$fd=open(buf, 00);
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 13)
+        video_vt_active__1__fd=open(buf, 00);
 
     }
 
-    if(!(video_vt_active$$1$$fd >= 0))
+    if(!(video_vt_active__1__fd >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 13)
-        video_vt_active$$1$$fd=open(buf, 01);
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 13)
+        video_vt_active__1__fd=open(buf, 01);
 
     }
 
-    if(!(video_vt_active$$1$$fd >= 0))
+    if(!(video_vt_active__1__fd >= 0))
       return 0;
 
     else
     {
-      signed int return_value_isatty$3;
-      return_value_isatty$3=isatty(video_vt_active$$1$$fd);
-      if(return_value_isatty$3 == 0)
+      signed int return_value_isatty_3;
+      return_value_isatty_3=isatty(video_vt_active__1__fd);
+      if(return_value_isatty_3 == 0)
       {
-        close(video_vt_active$$1$$fd);
+        close(video_vt_active__1__fd);
         return 0;
       }
 
       else
       {
-        ret=ioctl(video_vt_active$$1$$fd, (unsigned long int)0x5603, &vtstat);
-        close(video_vt_active$$1$$fd);
+        ret=ioctl(video_vt_active__1__fd, (unsigned long int)0x5603, &vtstat);
+        close(video_vt_active__1__fd);
         if(!(ret >= 0))
           return 1;
 
@@ -9743,11 +9743,11 @@ static inline void writel(unsigned int b, volatile void *addr)
   *((volatile unsigned int *)addr) = b;
 }
 
-// writel$link1
+// writel_link1
 // file mactel/gma950_backlight.c line 93
-static inline void writel$link1(unsigned int b$link1, volatile void *addr$link1)
+static inline void writel_link1(unsigned int b_link1, volatile void *addr_link1)
 {
-  *((volatile unsigned int *)addr$link1) = b$link1;
+  *((volatile unsigned int *)addr_link1) = b_link1;
 }
 
 // x1600_backlight_fix_config
@@ -9775,9 +9775,9 @@ void x1600_backlight_fix_config(void)
 // file mactel/x1600_backlight.c line 72
 static unsigned char x1600_backlight_get()
 {
-  unsigned int return_value_readl$1;
-  return_value_readl$1=readl((const volatile void *)(memory + (signed long int)0x7af8));
-  return (unsigned char)(return_value_readl$1 >> 8);
+  unsigned int return_value_readl_1;
+  return_value_readl_1=readl((const volatile void *)(memory + (signed long int)0x7af8));
+  return (unsigned char)(return_value_readl_1 >> 8);
 }
 
 // x1600_backlight_map
@@ -9796,26 +9796,26 @@ static signed int x1600_backlight_map(void)
     fd=open(sysfs_resource, 02);
     if(!(fd >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      logmsg(4, "Cannot open %s: %s", (const void *)sysfs_resource, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      logmsg(4, "Cannot open %s: %s", (const void *)sysfs_resource, return_value_strerror_2);
       close(fd);
       fd = -1;
       return -1;
     }
 
-    void *return_value_mmap$3;
-    return_value_mmap$3=mmap((void *)0, (unsigned long int)length, 0x1 | 0x2, 0x01, fd, (signed long int)0);
-    memory = (char *)return_value_mmap$3;
+    void *return_value_mmap_3;
+    return_value_mmap_3=mmap((void *)0, (unsigned long int)length, 0x1 | 0x2, 0x01, fd, (signed long int)0);
+    memory = (char *)return_value_mmap_3;
     if(memory == (char *)-1)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      logmsg(3, "mmap failed: %s", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      logmsg(3, "mmap failed: %s", return_value_strerror_5);
       return -1;
     }
 
@@ -9879,11 +9879,11 @@ signed int x1600_backlight_probe(void)
         ret=stat(sysfs_resource, &stbuf);
         if(!(ret >= 0))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          logmsg(3, "Could not determine PCI resource length: %s", return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          logmsg(3, "Could not determine PCI resource length: %s", return_value_strerror_2);
           return -1;
         }
 
@@ -9902,9 +9902,9 @@ signed int x1600_backlight_probe(void)
           if(lcd_x1600_cfg.init >= 0)
             x1600_backlight_set((unsigned char)lcd_x1600_cfg.init);
 
-          unsigned char return_value_x1600_backlight_get$3;
-          return_value_x1600_backlight_get$3=x1600_backlight_get();
-          lcd_bck_info.level = (signed int)return_value_x1600_backlight_get$3;
+          unsigned char return_value_x1600_backlight_get_3;
+          return_value_x1600_backlight_get_3=x1600_backlight_get();
+          lcd_bck_info.level = (signed int)return_value_x1600_backlight_get_3;
           lcd_bck_info.ac_lvl = lcd_bck_info.level;
           x1600_backlight_unmap();
           return 0;
@@ -9930,9 +9930,9 @@ void x1600_backlight_step(signed int dir)
   ret=x1600_backlight_map();
   if(ret >= 0)
   {
-    unsigned char return_value_x1600_backlight_get$1;
-    return_value_x1600_backlight_get$1=x1600_backlight_get();
-    val = (signed int)return_value_x1600_backlight_get$1;
+    unsigned char return_value_x1600_backlight_get_1;
+    return_value_x1600_backlight_get_1=x1600_backlight_get();
+    val = (signed int)return_value_x1600_backlight_get_1;
     if(dir == 1)
     {
       newval = val + lcd_x1600_cfg.step;
@@ -9976,9 +9976,9 @@ void x1600_backlight_toggle(signed int lvl)
     ret=x1600_backlight_map();
     if(ret >= 0)
     {
-      unsigned char return_value_x1600_backlight_get$1;
-      return_value_x1600_backlight_get$1=x1600_backlight_get();
-      val = (signed int)return_value_x1600_backlight_get$1;
+      unsigned char return_value_x1600_backlight_get_1;
+      return_value_x1600_backlight_get_1=x1600_backlight_get();
+      val = (signed int)return_value_x1600_backlight_get_1;
       if(!(val == lcd_bck_info.level))
       {
         mbpdbus_send_lcd_backlight(val, lcd_bck_info.level, 1);

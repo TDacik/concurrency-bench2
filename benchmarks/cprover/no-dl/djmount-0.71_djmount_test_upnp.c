@@ -1,54 +1,54 @@
-// #anon_enum$NOT_INITIALIZED=0$INITIALIZED_UTF8=1$INITIALIZED_NOT_UTF8=2
+// #anon_enum_NOT_INITIALIZED=0_INITIALIZED_UTF8=1_INITIALIZED_NOT_UTF8=2
 // file charset.c line 53
-enum anonymous$6 { NOT_INITIALIZED=0, INITIALIZED_UTF8=1, INITIALIZED_NOT_UTF8=2 };
+enum anonymous_6 { NOT_INITIALIZED=0, INITIALIZED_UTF8=1, INITIALIZED_NOT_UTF8=2 };
 
-// #anon_enum$eINVALID_NODE=0$eELEMENT_NODE=1$eATTRIBUTE_NODE=2$eTEXT_NODE=3$eCDATA_SECTION_NODE=4$eENTITY_REFERENCE_NODE=5$eENTITY_NODE=6$ePROCESSING_INSTRUCTION_NODE=7$eCOMMENT_NODE=8$eDOCUMENT_NODE=9$eDOCUMENT_TYPE_NODE=10$eDOCUMENT_FRAGMENT_NODE=11$eNOTATION_NODE=12
+// #anon_enum_eINVALID_NODE=0_eELEMENT_NODE=1_eATTRIBUTE_NODE=2_eTEXT_NODE=3_eCDATA_SECTION_NODE=4_eENTITY_REFERENCE_NODE=5_eENTITY_NODE=6_ePROCESSING_INSTRUCTION_NODE=7_eCOMMENT_NODE=8_eDOCUMENT_NODE=9_eDOCUMENT_TYPE_NODE=10_eDOCUMENT_FRAGMENT_NODE=11_eNOTATION_NODE=12
 // file /usr/include/upnp/ixml.h line 103
-enum anonymous$9 { eINVALID_NODE=0, eELEMENT_NODE=1, eATTRIBUTE_NODE=2, eTEXT_NODE=3, eCDATA_SECTION_NODE=4, eENTITY_REFERENCE_NODE=5, eENTITY_NODE=6, ePROCESSING_INSTRUCTION_NODE=7, eCOMMENT_NODE=8, eDOCUMENT_NODE=9, eDOCUMENT_TYPE_NODE=10, eDOCUMENT_FRAGMENT_NODE=11, eNOTATION_NODE=12 };
+enum anonymous_9 { eINVALID_NODE=0, eELEMENT_NODE=1, eATTRIBUTE_NODE=2, eTEXT_NODE=3, eCDATA_SECTION_NODE=4, eENTITY_REFERENCE_NODE=5, eENTITY_NODE=6, ePROCESSING_INSTRUCTION_NODE=7, eCOMMENT_NODE=8, eDOCUMENT_NODE=9, eDOCUMENT_TYPE_NODE=10, eDOCUMENT_FRAGMENT_NODE=11, eNOTATION_NODE=12 };
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#UN[*{SYM#tag-_Object_Class#}$SYM#tag-_Object_Class#$'baseclass'||*{SYM#tag-_ContentDir_Class#}$SYM#tag-_ContentDir_Class#$'isa'||SYM#tag-_Service#'super'|]
+// tag-#anon#UN[*{SYM#tag-_Object_Class#}_SYM#tag-_Object_Class#_'baseclass'||*{SYM#tag-_ContentDir_Class#}_SYM#tag-_ContentDir_Class#_'isa'||SYM#tag-_Service#'super'|]
 // file content_dir_p.h line 43
 union anonymous;
 
-// tag-#anon#UN[*{SYM#tag-_Object_Class#}$SYM#tag-_Object_Class#$'baseclass'||*{SYM#tag-_DJFS_Class#}$SYM#tag-_DJFS_Class#$'isa'||SYM#tag-_VFS#'super'|]
+// tag-#anon#UN[*{SYM#tag-_Object_Class#}_SYM#tag-_Object_Class#_'baseclass'||*{SYM#tag-_DJFS_Class#}_SYM#tag-_DJFS_Class#_'isa'||SYM#tag-_VFS#'super'|]
 // file djfs_p.h line 41
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[*{SYM#tag-_Object_Class#}$SYM#tag-_Object_Class#$'baseclass'||*{SYM#tag-_Service_Class#}$SYM#tag-_Service_Class#$'isa'||SYM#tag-_Object#'super'|]
+// tag-#anon#UN[*{SYM#tag-_Object_Class#}_SYM#tag-_Object_Class#_'baseclass'||*{SYM#tag-_Service_Class#}_SYM#tag-_Service_Class#_'isa'||SYM#tag-_Object#'super'|]
 // file service_p.h line 40
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[*{SYM#tag-_Object_Class#}$SYM#tag-_Object_Class#$'baseclass'||*{SYM#tag-_VFS_Class#}$SYM#tag-_VFS_Class#$'isa'||SYM#tag-_Object#'super'|]
+// tag-#anon#UN[*{SYM#tag-_Object_Class#}_SYM#tag-_Object_Class#_'baseclass'||*{SYM#tag-_VFS_Class#}_SYM#tag-_VFS_Class#_'isa'||SYM#tag-_Object#'super'|]
 // file vfs_p.h line 46
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[*{cSYM#tag-_Object_Class#}$cSYM#tag-_Object_Class#$'baseclass'||*{cSYM#tag-_Object_Class#}$cSYM#tag-_Object_Class#$'isa'|]
+// tag-#anon#UN[*{cSYM#tag-_Object_Class#}_cSYM#tag-_Object_Class#_'baseclass'||*{cSYM#tag-_Object_Class#}_cSYM#tag-_Object_Class#_'isa'|]
 // file object_p.h line 67
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
 // tag-#anon#UN[SYM#tag-_Object_Class#'base'||SYM#tag-_Object_Class#'super'|]
 // file service_p.h line 60
-union anonymous$11;
+union anonymous_11;
 
 // tag-#anon#UN[SYM#tag-_Object_Class#'base'||SYM#tag-_Service_Class#'super'|]
 // file content_dir_p.h line 38
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[SYM#tag-_Object_Class#'base'||SYM#tag-_VFS_Class#'super'|]
 // file djfs_p.h line 54
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-CommandStruct
 // file test_upnp.c line 89
@@ -340,27 +340,27 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
 // BrowseDebug
 // file vfs.c line 229
 static struct _VFS_BrowseStatus BrowseDebug(struct _VFS * const self, const char * const sub_path, const struct _VFS_Query * const query, void * const tmp_ctx);
-// BrowseDebug$link1
+// BrowseDebug_link1
 // file djfs.c line 431
-static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const char * const sub_path$link1, const struct _VFS_Query * const query$link1, void * const tmp_ctx$link1);
-// BrowseDebug::1::2::1::func$object
+static struct _VFS_BrowseStatus BrowseDebug_link1(struct _VFS * const vfs, const char * const sub_path_link1, const struct _VFS_Query * const query_link1, void * const tmp_ctx_link1);
+// BrowseDebug::1::2::1::func_object
 //
-struct _VFS_BrowseStatus func$object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+struct _VFS_BrowseStatus func_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
 // BrowseOrSearchAction
 // file content_dir.c line 124
 static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_context, const char *objectId, const char *criteria, unsigned long int starting_index, unsigned long int requested_count, unsigned long int *nb_matched, unsigned long int *nb_returned, struct _PtrArray *objects);
 // BrowseOrSearchAll
 // file content_dir.c line 255
 static struct _ContentDir_Children * BrowseOrSearchAll(struct _ContentDir *cds, void *result_context, const char *objectId, const char * const criteria);
-// BrowseOrSearchAll::1::1::_talloc_destructor_fn$object
+// BrowseOrSearchAll::1::1::_talloc_destructor_fn_object
 //
-signed int _talloc_destructor_fn$object(struct _ContentDir_Children *);
+signed int _talloc_destructor_fn_object(struct _ContentDir_Children *);
 // BrowseOrSearchWithCache
 // file content_dir.c line 383
 static const struct _ContentDir_BrowseResult * BrowseOrSearchWithCache(struct _ContentDir *cds, void *result_context, const char *objectId, const char * const criteria);
-// BrowseOrSearchWithCache::1::2::4::1::_talloc_destructor_fn$object
+// BrowseOrSearchWithCache::1::2::4::1::_talloc_destructor_fn_object
 //
-signed int _talloc_destructor_fn$object(struct _ContentDir_BrowseResult *);
+signed int _talloc_destructor_fn_object(struct _ContentDir_BrowseResult *);
 // BrowseRoot
 // file djfs.c line 350
 static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char * const sub_path, const struct _VFS_Query * const query, void * const tmp_ctx);
@@ -370,12 +370,12 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
 // Cache_Create
 // file cache.h line 66
 struct _Cache * Cache_Create(void *talloc_context, unsigned long int size, signed long int max_age, void (*free_expired_data)(const char *, void *));
-// Cache_Create::1::3::_talloc_destructor_fn$object
+// Cache_Create::1::3::_talloc_destructor_fn_object
 //
-signed int _talloc_destructor_fn$object(struct _Cache *);
-// Cache_Create::free_expired_data$object
+signed int _talloc_destructor_fn_object(struct _Cache *);
+// Cache_Create::free_expired_data_object
 //
-void free_expired_data$object(const char *, void *);
+void free_expired_data_object(const char *, void *);
 // Cache_Get
 // file cache.h line 79
 void ** Cache_Get(struct _Cache *cache, const char *key);
@@ -424,9 +424,9 @@ static inline struct _Service * ContentDir_ToService(struct _ContentDir *obj);
 // DIDLObject_Create
 // file didl_object.c line 56
 struct _DIDLObject * DIDLObject_Create(void *talloc_context, struct _IXML_Element *elem, _Bool is_container);
-// DIDLObject_Create::1::2::4::_talloc_destructor_fn$object
+// DIDLObject_Create::1::2::4::_talloc_destructor_fn_object
 //
-signed int _talloc_destructor_fn$object(struct _DIDLObject *);
+signed int _talloc_destructor_fn_object(struct _DIDLObject *);
 // DIDLObject_GetElementString
 // file didl_object.c line 137
 char * DIDLObject_GetElementString(const struct _DIDLObject *o, void *result_context);
@@ -472,18 +472,18 @@ signed int DeviceList_SendActionAsync(const char *deviceName, const char *servic
 // DeviceList_Start
 // file device_list.c line 946
 signed int DeviceList_Start(const char *ssdp_target, void (*eventCallback)(enum DeviceList_EventType, const char *));
-// DeviceList_Start::eventCallback$object
+// DeviceList_Start::eventCallback_object
 //
-void eventCallback$object(enum DeviceList_EventType, const char *);
+void eventCallback_object(enum DeviceList_EventType, const char *);
 // DeviceList_Stop
 // file device_list.c line 1019
 signed int DeviceList_Stop(void);
 // Device_Create
 // file device.c line 191
 struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, const char * const descDocURL, const char * const deviceId, const char * const descDocText);
-// Device_Create::1::8::_talloc_destructor_fn$object
+// Device_Create::1::8::_talloc_destructor_fn_object
 //
-signed int _talloc_destructor_fn$object(struct _Device *);
+signed int _talloc_destructor_fn_object(struct _Device *);
 // Device_GetDescDocItem
 // file device.c line 314
 const char * Device_GetDescDocItem(const struct _Device *dev, const char *tagname, _Bool log_error);
@@ -571,9 +571,9 @@ signed int Log_Finish(void);
 // Log_Initialize
 // file log.c line 85
 signed int Log_Initialize(void (*print_function)(enum Log_Level, const char *));
-// Log_Initialize::print_function$object
+// Log_Initialize::print_function_object
 //
-void print_function$object(enum Log_Level, const char *);
+void print_function_object(enum Log_Level, const char *);
 // Log_IsActivated
 // file log.c line 121
 _Bool Log_IsActivated(enum Log_Level level);
@@ -628,15 +628,15 @@ signed long int PtrArray_GetElementIndex(const struct _PtrArray *self, void *ele
 // PtrArray_GetHead
 // file ptr_array.h line 132
 static inline void * PtrArray_GetHead(const struct _PtrArray * const self);
-// PtrArray_GetHead$link1
+// PtrArray_GetHead_link1
 // file ptr_array.h line 132
-static inline void * PtrArray_GetHead$link1(const struct _PtrArray * const self$link1);
+static inline void * PtrArray_GetHead_link1(const struct _PtrArray * const self_link1);
 // PtrArray_GetSize
 // file ptr_array.h line 108
 static inline unsigned long int PtrArray_GetSize(const struct _PtrArray *self);
-// PtrArray_GetSize$link1
+// PtrArray_GetSize_link1
 // file ptr_array.h line 108
-static inline unsigned long int PtrArray_GetSize$link1(const struct _PtrArray *self$link1);
+static inline unsigned long int PtrArray_GetSize_link1(const struct _PtrArray *self_link1);
 // PtrArray_InsertAt
 // file ptr_array.c line 120
 _Bool PtrArray_InsertAt(struct _PtrArray *self, void *element, unsigned long int i);
@@ -646,21 +646,21 @@ static inline _Bool PtrArray_IsEmpty(const struct _PtrArray *self);
 // PtrArray_IteratorGetElement
 // file ptr_array.h line 230
 static inline void * PtrArray_IteratorGetElement(const struct _PtrArray_Iterator *iter);
-// PtrArray_IteratorGetElement$link1
+// PtrArray_IteratorGetElement_link1
 // file ptr_array.h line 230
-static inline void * PtrArray_IteratorGetElement$link1(const struct _PtrArray_Iterator *iter$link1);
+static inline void * PtrArray_IteratorGetElement_link1(const struct _PtrArray_Iterator *iter_link1);
 // PtrArray_IteratorLoop
 // file ptr_array.h line 222
 static inline _Bool PtrArray_IteratorLoop(struct _PtrArray_Iterator *iter);
-// PtrArray_IteratorLoop$link1
+// PtrArray_IteratorLoop_link1
 // file ptr_array.h line 222
-static inline _Bool PtrArray_IteratorLoop$link1(struct _PtrArray_Iterator *iter$link1);
+static inline _Bool PtrArray_IteratorLoop_link1(struct _PtrArray_Iterator *iter_link1);
 // PtrArray_IteratorStart
 // file ptr_array.h line 215
 static inline struct _PtrArray_Iterator PtrArray_IteratorStart(const struct _PtrArray *array);
-// PtrArray_IteratorStart$link1
+// PtrArray_IteratorStart_link1
 // file ptr_array.h line 215
-static inline struct _PtrArray_Iterator PtrArray_IteratorStart$link1(const struct _PtrArray *array$link1);
+static inline struct _PtrArray_Iterator PtrArray_IteratorStart_link1(const struct _PtrArray *array_link1);
 // PtrArray_RemoveAt
 // file ptr_array.h line 174
 void * PtrArray_RemoveAt(struct _PtrArray *self, unsigned long int i);
@@ -691,27 +691,27 @@ const char * Service_GetSid(const struct _Service *serv);
 // Service_GetStatusString
 // file service.c line 523
 char * Service_GetStatusString(const struct _Service *serv, void *result_context, _Bool debug, const char *spacer);
-// Service_GetStatusString::$tmp::tmp_if_expr$2$object
+// Service_GetStatusString::_tmp::tmp_if_expr_2_object
 //
-char * tmp_if_expr$2$object(const struct _Service *, void *, _Bool, const char *);
-// Service_GetStatusString::$tmp::tmp_if_expr$4$object
+char * tmp_if_expr_2_object(const struct _Service *, void *, _Bool, const char *);
+// Service_GetStatusString::_tmp::tmp_if_expr_4_object
 //
-char * tmp_if_expr$4$object(const struct _Service *, void *, _Bool, const char *);
+char * tmp_if_expr_4_object(const struct _Service *, void *, _Bool, const char *);
 // Service_SendAction
 // file service.c line 413
 signed int Service_SendAction(struct _Service *serv, struct _IXML_Document **response, const char *actionName, signed int nb_params, const struct _StringPair *params);
 // Service_SendActionAsync
 // file service.c line 353
 signed int Service_SendActionAsync(const struct _Service *serv, signed int (*callback)(enum Upnp_EventType_e, void *, void *), const char *actionName, signed int nb_params, const struct _StringPair *params);
-// Service_SendActionAsync::callback$object
+// Service_SendActionAsync::callback_object
 //
-signed int callback$object(enum Upnp_EventType_e, void *, void *);
+signed int callback_object(enum Upnp_EventType_e, void *, void *);
 // Service_SendActionAsyncVa
 // file service.c line 389
 signed int Service_SendActionAsyncVa(const struct _Service *serv, signed int (*callback)(enum Upnp_EventType_e, void *, void *), const char *actionName, ...);
-// Service_SendActionAsyncVa::callback$object
+// Service_SendActionAsyncVa::callback_object
 //
-signed int callback$object(enum Upnp_EventType_e, void *, void *);
+signed int callback_object(enum Upnp_EventType_e, void *, void *);
 // Service_SendActionVa
 // file service.c line 452
 signed int Service_SendActionVa(struct _Service *serv, struct _IXML_Document **response, const char *actionName, ...);
@@ -727,18 +727,18 @@ signed int Service_UnsubscribeEventURL(struct _Service *serv);
 // Service_UpdateState
 // file service.c line 191
 signed int Service_UpdateState(struct _Service *serv, struct _IXML_Document *changedVariables);
-// Service_UpdateState::$tmp::tmp_if_expr$10$object
+// Service_UpdateState::_tmp::tmp_if_expr_10_object
 //
-void tmp_if_expr$10$object(struct _Service *, const char *, const char *);
-// Service_UpdateState::$tmp::tmp_if_expr$8$object
+void tmp_if_expr_10_object(struct _Service *, const char *, const char *);
+// Service_UpdateState::_tmp::tmp_if_expr_8_object
 //
-void tmp_if_expr$8$object(struct _Service *, const char *, const char *);
+void tmp_if_expr_8_object(struct _Service *, const char *, const char *);
 // StringStream_Create
 // file string_util.h line 155
 struct _StringStream * StringStream_Create(void *parent_context);
-// StringStream_Create::1::1::2::1::_talloc_destructor_fn$object
+// StringStream_Create::1::1::2::1::_talloc_destructor_fn_object
 //
-signed int _talloc_destructor_fn$object(struct _StringStream *);
+signed int _talloc_destructor_fn_object(struct _StringStream *);
 // StringStream_GetFile
 // file string_util.h line 163
 struct _IO_FILE * StringStream_GetFile(const struct _StringStream *ss);
@@ -832,15 +832,15 @@ char * UpnpUtil_ResolveURL(void *talloc_context, const char *base, const char *r
 // VFS_Browse
 // file vfs.c line 282
 signed int VFS_Browse(struct _VFS * const self, const struct _VFS_Query *q);
-// VFS_Browse::$tmp::tmp_if_expr$4$object
+// VFS_Browse::_tmp::tmp_if_expr_4_object
 //
-struct _VFS_BrowseStatus tmp_if_expr$4$object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
-// VFS_Browse::$tmp::tmp_if_expr$6$object
+struct _VFS_BrowseStatus tmp_if_expr_4_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+// VFS_Browse::_tmp::tmp_if_expr_6_object
 //
-struct _VFS_BrowseStatus tmp_if_expr$6$object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
-// VFS_Browse::1::2::1::1::2::1::2::func$object
+struct _VFS_BrowseStatus tmp_if_expr_6_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+// VFS_Browse::1::2::1::1::2::1::2::func_object
 //
-struct _VFS_BrowseStatus func$object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+struct _VFS_BrowseStatus func_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
 // VFS_Create
 // file vfs.c line 361
 struct _VFS * VFS_Create(void *talloc_context, _Bool show_debug_dir);
@@ -907,9 +907,9 @@ extern _Bool _Object_IsA(const void * const objptr, const struct _Object_Class *
 // _Object_check_alloc
 // file object.c line 188
 struct _Object * _Object_check_alloc(void *talloc_context, const struct _Object_Class *isa);
-// _Object_check_alloc::1::4::_talloc_destructor_fn$object
+// _Object_check_alloc::1::4::_talloc_destructor_fn_object
 //
-signed int _talloc_destructor_fn$object(struct _Object *);
+signed int _talloc_destructor_fn_object(struct _Object *);
 // _Service_GetBaseClass
 // file service.c line 575
 extern const struct _Object_Class * _Service_GetBaseClass();
@@ -985,9 +985,9 @@ extern char * ctime(const signed long int *);
 // destroy
 // file object.c line 61
 static signed int destroy(struct _Object * const obj);
-// destroy$link1
+// destroy_link1
 // file device.c line 161
-static signed int destroy$link1(struct _Device * const dev);
+static signed int destroy_link1(struct _Device * const dev);
 // error
 // file error.h line 43
 extern void error(signed int, signed int, const char *, ...);
@@ -1009,12 +1009,12 @@ extern signed int fileno(struct _IO_FILE *);
 // finalize
 // file service.c line 127
 static void finalize(struct _Object *obj);
-// finalize$link1
+// finalize_link1
 // file content_dir.c line 551
-static void finalize$link1(struct _Object *obj$link1);
-// finalize$link2
+static void finalize_link1(struct _Object *obj_link1);
+// finalize_link2
 // file djfs.c line 521
-static void finalize$link2(struct _Object *obj$link2);
+static void finalize_link2(struct _Object *obj_link2);
 // findDeviceNode
 // file device.c line 113
 static const struct _IXML_Node * findDeviceNode(const char * const deviceId, struct _IXML_Document * const descDoc);
@@ -1039,18 +1039,18 @@ static signed int fuse_dirfil_for_ls(struct fuse_dirhandle *h, const char *name,
 // fwrite
 // file /usr/include/stdio.h line 715
 extern unsigned long int fwrite(const void *, unsigned long int, unsigned long int, struct _IO_FILE *);
-// gPrintFun$object
+// gPrintFun_object
 //
-void gPrintFun$object(enum Log_Level, const char *);
-// gStateUpdateFun$object
+void gPrintFun_object(enum Log_Level, const char *);
+// gStateUpdateFun_object
 //
-void gStateUpdateFun$object(enum DeviceList_EventType, const char *);
+void gStateUpdateFun_object(enum DeviceList_EventType, const char *);
 // get_status_string
 // file service.c line 476
 static char * get_status_string(const struct _Service *serv, void *result_context, _Bool debug, const char *spacer);
-// get_status_string$link1
+// get_status_string_link1
 // file content_dir.c line 514
-static char * get_status_string$link1(const struct _Service *serv$link1, void *result_context$link1, _Bool debug$link1, const char *spacer$link1);
+static char * get_status_string_link1(const struct _Service *serv_link1, void *result_context_link1, _Bool debug_link1, const char *spacer_link1);
 // getenv
 // file /usr/include/stdlib.h line 564
 extern char * getenv(const char *);
@@ -1063,9 +1063,9 @@ void * hash_delete(struct hash_table *table, const void *entry);
 // hash_do_for_each
 // file hash.c line 358
 unsigned long int hash_do_for_each(const struct hash_table *table, _Bool (*processor)(void *, void *), void *processor_data);
-// hash_do_for_each::processor$object
+// hash_do_for_each::processor_object
 //
-_Bool processor$object(void *, void *);
+_Bool processor_object(void *, void *);
 // hash_find_entry
 // file hash.c line 744
 static void * hash_find_entry(struct hash_table *table, const void *entry, struct hash_entry **bucket_head, _Bool delete);
@@ -1096,15 +1096,15 @@ void * hash_get_next(const struct hash_table *table, const void *entry);
 // hash_initialize
 // file ../gl/hash.h line 77
 struct hash_table * hash_initialize(unsigned long int candidate, const struct hash_tuning *tuning, unsigned long int (*hasher)(const void *, unsigned long int), _Bool (*comparator)(const void *, const void *), void (*data_freer)(void *));
-// hash_initialize::comparator$object
+// hash_initialize::comparator_object
 //
-_Bool comparator$object(const void *, const void *);
-// hash_initialize::data_freer$object
+_Bool comparator_object(const void *, const void *);
+// hash_initialize::data_freer_object
 //
-void data_freer$object(void *);
-// hash_initialize::hasher$object
+void data_freer_object(void *);
+// hash_initialize::hasher_object
 //
-unsigned long int hasher$object(const void *, unsigned long int);
+unsigned long int hasher_object(const void *, unsigned long int);
 // hash_insert
 // file ../gl/hash.h line 85
 void * hash_insert(struct hash_table *table, const void *entry);
@@ -1138,15 +1138,15 @@ extern void * iconv_open(const char *, const char *);
 // init_class
 // file service.c line 568
 static void init_class(struct _Service_Class * const isa);
-// init_class$link1
+// init_class_link1
 // file content_dir.c line 570
-static void init_class$link1(struct _ContentDir_Class * const isa$link1);
-// init_class$link2
+static void init_class_link1(struct _ContentDir_Class * const isa_link1);
+// init_class_link2
 // file vfs.c line 348
-static void init_class$link2(struct _VFS_Class * const isa$link2);
-// init_class$link3
+static void init_class_link2(struct _VFS_Class * const isa_link2);
+// init_class_link3
 // file djfs.c line 540
-static void init_class$link3(struct _DJFS_Class * const isa$link3);
+static void init_class_link3(struct _DJFS_Class * const isa_link3);
 // int_to_string
 // file content_dir.c line 109
 static const char * int_to_string(void *result_context, signed long int val);
@@ -1269,25 +1269,25 @@ extern signed int pthread_cancel(unsigned long int);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$5 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_5 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$5 *);
+extern signed int pthread_mutexattr_init(union anonymous_5 *);
 // pthread_mutexattr_setkind_np
 // file /usr/include/upnp/ithread.h line 938
-signed int pthread_mutexattr_setkind_np(union anonymous$5 *, signed int);
+signed int pthread_mutexattr_setkind_np(union anonymous_5 *, signed int);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -1296,13 +1296,13 @@ extern void * realloc(void *, unsigned long int);
 extern char * setlocale(signed int, const char *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$10 *, signed int);
+extern signed int sigaddset(struct anonymous_10 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$10 *);
+extern signed int sigemptyset(struct anonymous_10 *);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$10 *, signed int *);
+extern signed int sigwait(const struct anonymous_10 *, signed int *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1408,9 +1408,9 @@ extern signed int uname(struct utsname *);
 // vfs_dir_add_entry
 // file vfs_p.h line 107
 static inline signed int vfs_dir_add_entry(const char * const name, const signed int d_type, const struct _VFS_Query * const q);
-// vfs_dir_add_entry$link1
+// vfs_dir_add_entry_link1
 // file vfs_p.h line 107
-static inline signed int vfs_dir_add_entry$link1(const char * const name$link1, const signed int d_type$link1, const struct _VFS_Query * const q$link1);
+static inline signed int vfs_dir_add_entry_link1(const char * const name_link1, const signed int d_type_link1, const struct _VFS_Query * const q_link1);
 // vfs_dir_begin
 // file vfs.c line 77
 extern signed int vfs_dir_begin(const struct _VFS_Query * const q);
@@ -1478,13 +1478,13 @@ char * xstrdup(const char *string);
 // file xmalloc.c line 203
 void * xzalloc(unsigned long int s);
 
-struct anonymous$10
+struct anonymous_10
 {
   // __val
   unsigned long int __val[16l];
 };
 
-union anonymous$8
+union anonymous_8
 {
   // baseclass
   const struct _Object_Class *baseclass;
@@ -1495,10 +1495,10 @@ union anonymous$8
 struct _Object
 {
   // _
-  union anonymous$8 _;
+  union anonymous_8 _;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // baseclass
   struct _Object_Class *baseclass;
@@ -1549,7 +1549,7 @@ struct LINKEDLIST
 struct _Service
 {
   // _
-  union anonymous$12 _;
+  union anonymous_12 _;
   // serviceId
   char *serviceId;
   // serviceType
@@ -1584,7 +1584,7 @@ union anonymous
   struct _Service super;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // baseclass
   struct _Object_Class *baseclass;
@@ -1597,12 +1597,12 @@ union anonymous$4
 struct _VFS
 {
   // _
-  union anonymous$4 _;
+  union anonymous_4 _;
   // show_debug_dir
   _Bool show_debug_dir;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // baseclass
   struct _Object_Class *baseclass;
@@ -1612,7 +1612,7 @@ union anonymous$2
   struct _VFS super;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -1636,7 +1636,7 @@ struct _Object_Class
   void (*finalize)(struct _Object *);
 };
 
-union anonymous$11
+union anonymous_11
 {
   // base
   struct _Object_Class base;
@@ -1647,14 +1647,14 @@ union anonymous$11
 struct _Service_Class
 {
   // _
-  union anonymous$11 _;
+  union anonymous_11 _;
   // update_variable
   void (*update_variable)(struct _Service *, const char *, const char *);
   // get_status_string
   char * (*get_status_string)(const struct _Service *, void *, _Bool, const char *);
 };
 
-union anonymous$0
+union anonymous_0
 {
   // base
   struct _Object_Class base;
@@ -1665,14 +1665,14 @@ union anonymous$0
 struct _VFS_Class
 {
   // _
-  union anonymous$11 _;
+  union anonymous_11 _;
   // browse_root
   struct _VFS_BrowseStatus (*browse_root)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
   // browse_debug
   struct _VFS_BrowseStatus (*browse_debug)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
 };
 
-union anonymous$1
+union anonymous_1
 {
   // base
   struct _Object_Class base;
@@ -1708,7 +1708,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1901,7 +1901,7 @@ struct _ContentDir
   // cache
   struct _Cache *cache;
   // cache_mutex
-  union anonymous$3 cache_mutex;
+  union anonymous_3 cache_mutex;
 };
 
 struct _ContentDir_BrowseResult
@@ -1921,7 +1921,7 @@ struct _ContentDir_Children
 struct _ContentDir_Class
 {
   // _
-  union anonymous$0 _;
+  union anonymous_0 _;
 };
 
 struct _Converter
@@ -1929,7 +1929,7 @@ struct _Converter
   // cd
   void *cd;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // to_utf8
   const _Bool to_utf8;
 };
@@ -1955,7 +1955,7 @@ struct _DIDLObject
 struct _DJFS
 {
   // _
-  union anonymous$2 _;
+  union anonymous_2 _;
   // flags
   enum _DJFS_Flags flags;
   // search_hist_size
@@ -1965,13 +1965,13 @@ struct _DJFS
   // search_hist
   struct _PtrArray *search_hist;
   // search_hist_mutex
-  union anonymous$3 search_hist_mutex;
+  union anonymous_3 search_hist_mutex;
 };
 
 struct _DJFS_Class
 {
   // _
-  union anonymous$1 _;
+  union anonymous_1 _;
 };
 
 struct _Device
@@ -2111,7 +2111,7 @@ struct _IXML_Node
   // nodeValue
   char *nodeValue;
   // nodeType
-  enum anonymous$9 nodeType;
+  enum anonymous_9 nodeType;
   // namespaceURI
   char *namespaceURI;
   // prefix
@@ -2432,7 +2432,7 @@ static const signed long int DEFAULT_SIZE = (const signed long int)0;
 static const signed long int DEFAULT_TIME = (const signed long int)946724400;
 // DeviceListMutex
 // file device_list.c line 65
-static union anonymous$3 DeviceListMutex;
+static union anonymous_3 DeviceListMutex;
 // GlobalDeviceList
 // file device_list.c line 85
 static struct LINKEDLIST GlobalDeviceList;
@@ -2502,7 +2502,7 @@ static void (*gPrintFun)(enum Log_Level, const char *) = (void (*)(enum Log_Leve
 static void (*gStateUpdateFun)(enum DeviceList_EventType, const char *) = ((void (*)(enum DeviceList_EventType, const char *))NULL);
 // g_class_mutex
 // file object.c line 46
-static union anonymous$3 g_class_mutex;
+static union anonymous_3 g_class_mutex;
 // g_colorize
 // file log.c line 55
 static _Bool g_colorize = (_Bool)0;
@@ -2520,7 +2520,7 @@ static signed int g_ctrlpt_handle = -1;
 static _Bool g_initialized = (_Bool)0;
 // g_log_mutex
 // file log.c line 43
-static union anonymous$3 g_log_mutex;
+static union anonymous_3 g_log_mutex;
 // g_max_level
 // file log.c line 49
 static enum Log_Level g_max_level = (enum Log_Level)2;
@@ -2532,7 +2532,7 @@ static _Bool g_mutex_initialized = (_Bool)0;
 static char *g_ssdp_target = (char *)(void *)0;
 // g_state
 // file charset.c line 58
-static enum anonymous$6 g_state = (enum anonymous$6)NOT_INITIALIZED;
+static enum anonymous_6 g_state = (enum anonymous_6)NOT_INITIALIZED;
 // g_timer_thread
 // file device_list.c line 54
 static unsigned long int g_timer_thread;
@@ -2556,9 +2556,9 @@ static void ActionError(struct _Service *serv, const char *actionName, signed in
   serv->la_error_code = serv->la_error_desc;
   if(!(rc == 0))
   {
-    const char *return_value_UpnpGetErrorMessage$1;
-    return_value_UpnpGetErrorMessage$1=UpnpGetErrorMessage(rc);
-    Log_Printf((enum Log_Level)LOG_ERROR, "Error in UpnpSendAction '%s' -- %d (%s)", actionName, rc, return_value_UpnpGetErrorMessage$1);
+    const char *return_value_UpnpGetErrorMessage_1;
+    return_value_UpnpGetErrorMessage_1=UpnpGetErrorMessage(rc);
+    Log_Printf((enum Log_Level)LOG_ERROR, "Error in UpnpSendAction '%s' -- %d (%s)", actionName, rc, return_value_UpnpGetErrorMessage_1);
     if(!(response == ((struct _IXML_Document **)NULL)))
     {
       if(!(*response == ((struct _IXML_Document *)NULL)))
@@ -2567,12 +2567,12 @@ static void ActionError(struct _Service *serv, const char *actionName, signed in
         s=ixmlDocumenttoString(*response);
         Log_Printf((enum Log_Level)LOG_DEBUG, "Error in UpnpSendAction, response = %s", s);
         ixmlFreeDOMString(s);
-        const char *return_value_XMLUtil_FindFirstElementValue$2;
-        return_value_XMLUtil_FindFirstElementValue$2=XMLUtil_FindFirstElementValue(&(*response)->n, "errorCode", (const _Bool)1, (const _Bool)1);
-        serv->la_error_code=talloc_strdup((const void *)serv, return_value_XMLUtil_FindFirstElementValue$2);
-        const char *return_value_XMLUtil_FindFirstElementValue$3;
-        return_value_XMLUtil_FindFirstElementValue$3=XMLUtil_FindFirstElementValue(&(*response)->n, "errorDescription", (const _Bool)1, (const _Bool)1);
-        serv->la_error_desc=talloc_strdup((const void *)serv, return_value_XMLUtil_FindFirstElementValue$3);
+        const char *return_value_XMLUtil_FindFirstElementValue_2;
+        return_value_XMLUtil_FindFirstElementValue_2=XMLUtil_FindFirstElementValue(&(*response)->n, "errorCode", (const _Bool)1, (const _Bool)1);
+        serv->la_error_code=talloc_strdup((const void *)serv, return_value_XMLUtil_FindFirstElementValue_2);
+        const char *return_value_XMLUtil_FindFirstElementValue_3;
+        return_value_XMLUtil_FindFirstElementValue_3=XMLUtil_FindFirstElementValue(&(*response)->n, "errorDescription", (const _Bool)1, (const _Bool)1);
+        serv->la_error_desc=talloc_strdup((const void *)serv, return_value_XMLUtil_FindFirstElementValue_3);
         Log_Printf((enum Log_Level)LOG_ERROR, "Error SOAP in UpnpSendAction -- %s (%s)", serv->la_error_code, serv->la_error_desc);
         ixmlDocument_free(*response);
         *response = (struct _IXML_Document *)(void *)0;
@@ -2595,8 +2595,8 @@ static void AddDevice(const char *deviceId, const char *descLocation, signed int
   if(!(node == ((struct LISTNODE *)NULL)))
     devnode = (struct _DeviceNode *)node->item;
 
-  const char *tmp_if_expr$7;
-  const char *return_value_talloc_get_name$6;
+  const char *tmp_if_expr_7;
+  const char *return_value_talloc_get_name_6;
   if(!(devnode == ((struct _DeviceNode *)NULL)))
   {
     Log_Printf((enum Log_Level)LOG_DEBUG, "AddDevice Id=%s already exists, update only", deviceId != ((const char *)NULL) ? deviceId : "(null)");
@@ -2619,24 +2619,24 @@ static void AddDevice(const char *deviceId, const char *descLocation, signed int
     rc=UpnpDownloadUrlItem(descLocation, &descDocText, content_type);
     if(!(rc == 0))
     {
-      const char *return_value_UpnpGetErrorMessage$1;
-      return_value_UpnpGetErrorMessage$1=UpnpGetErrorMessage(rc);
-      Log_Printf((enum Log_Level)LOG_ERROR, "Error obtaining device description from url '%s' : %d (%s)", descLocation, rc, return_value_UpnpGetErrorMessage$1);
+      const char *return_value_UpnpGetErrorMessage_1;
+      return_value_UpnpGetErrorMessage_1=UpnpGetErrorMessage(rc);
+      Log_Printf((enum Log_Level)LOG_ERROR, "Error obtaining device description from url '%s' : %d (%s)", descLocation, rc, return_value_UpnpGetErrorMessage_1);
       if(rc / 100 == -2)
         Log_Printf((enum Log_Level)LOG_ERROR, "Check device network configuration (firewall ?)");
 
       goto __CPROVER_DUMP_L16;
     }
 
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp(content_type, "text/xml", (unsigned long int)8);
-    if(!(return_value_strncasecmp$2 == 0))
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp(content_type, "text/xml", (unsigned long int)8);
+    if(!(return_value_strncasecmp_2 == 0))
       Log_Printf((enum Log_Level)LOG_ERROR, "Device description at url '%s' has MIME '%s' instead of XML ! Trying to parse anyway ...", descLocation, (const void *)content_type);
 
     void *context = (void *)0;
-    void *return_value_talloc_named_const$3;
-    return_value_talloc_named_const$3=talloc_named_const(context, sizeof(struct _DeviceNode) /*24ul*/ , "DeviceNode");
-    devnode = (struct _DeviceNode *)return_value_talloc_named_const$3;
+    void *return_value_talloc_named_const_3;
+    return_value_talloc_named_const_3=talloc_named_const(context, sizeof(struct _DeviceNode) /*24ul*/ , "DeviceNode");
+    devnode = (struct _DeviceNode *)return_value_talloc_named_const_3;
     *devnode = (struct _DeviceNode){ .deviceId=((char *)NULL), .d=((struct _Device *)NULL), .expires=0 };
     devnode->d=Device_Create((void *)devnode, g_ctrlpt_handle, descLocation, deviceId, descDocText);
     free((void *)descDocText);
@@ -2650,9 +2650,9 @@ static void AddDevice(const char *deviceId, const char *descLocation, signed int
 
     else
     {
-      char *return_value_strstr$4;
-      return_value_strstr$4=strstr(g_ssdp_target, ":service:");
-      if(!(return_value_strstr$4 == ((char *)NULL)))
+      char *return_value_strstr_4;
+      return_value_strstr_4=strstr(g_ssdp_target, ":service:");
+      if(!(return_value_strstr_4 == ((char *)NULL)))
       {
         const struct _Service *serv;
         serv=Device_GetServiceFrom(devnode->d, g_ssdp_target, (enum GetFrom)FROM_SERVICE_TYPE, (_Bool)0);
@@ -2683,17 +2683,17 @@ static void AddDevice(const char *deviceId, const char *descLocation, signed int
         name=make_device_name((void *)0, base);
         talloc_set_name((const void *)devnode->d, "%s", name);
         _talloc_free((void *)name, "device_list.c:468");
-        const char *return_value_talloc_get_name$5;
-        return_value_talloc_get_name$5=talloc_get_name((const void *)devnode->d);
-        if(!(return_value_talloc_get_name$5 == ((const char *)NULL)))
+        const char *return_value_talloc_get_name_5;
+        return_value_talloc_get_name_5=talloc_get_name((const void *)devnode->d);
+        if(!(return_value_talloc_get_name_5 == ((const char *)NULL)))
         {
-          return_value_talloc_get_name$6=talloc_get_name((const void *)devnode->d);
-          tmp_if_expr$7 = return_value_talloc_get_name$6;
+          return_value_talloc_get_name_6=talloc_get_name((const void *)devnode->d);
+          tmp_if_expr_7 = return_value_talloc_get_name_6;
         }
 
         else
-          tmp_if_expr$7 = "(null)";
-        Log_Printf((enum Log_Level)LOG_INFO, "Add new device : Name='%s' Id='%s' descURL='%s'", tmp_if_expr$7, deviceId != ((const char *)NULL) ? deviceId : "(null)", descLocation);
+          tmp_if_expr_7 = "(null)";
+        Log_Printf((enum Log_Level)LOG_INFO, "Add new device : Name='%s' Id='%s' descURL='%s'", tmp_if_expr_7, deviceId != ((const char *)NULL) ? deviceId : "(null)", descLocation);
         ListAddTail(&GlobalDeviceList, (void *)devnode);
         Device_SusbcribeAllEvents(devnode->d);
         NotifyUpdate((enum DeviceList_EventType)E_DEVICE_ADDED, devnode);
@@ -2710,13 +2710,13 @@ __CPROVER_DUMP_L16:
 // file djfs.c line 235
 static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const char * const sub_path, const struct _VFS_Query * const query, void * const tmp_ctx, const char * const devName, const struct _DIDLObject * const parent, const _Bool searchable, const char * const search_criteria, struct _ContentDir_Children * const children)
 {
-  union anonymous$3 *lock = (union anonymous$3 *)(void *)0;
+  union anonymous_3 *lock = (union anonymous_3 *)(void *)0;
   struct _VFS_BrowseStatus _s = { .rc=0, .ptr=sub_path };
   const struct _VFS_Query * const _q = query;
-  _Bool return_value_PtrArray_IteratorLoop$1;
-  _Bool tmp_if_expr$5;
-  _Bool return_value_PtrArray_IsEmpty$10;
-  _Bool return_value_PtrArray_IteratorLoop$7;
+  _Bool return_value_PtrArray_IteratorLoop_1;
+  _Bool tmp_if_expr_5;
+  _Bool return_value_PtrArray_IsEmpty_10;
+  _Bool return_value_PtrArray_IteratorLoop_7;
   if(_s.ptr == ((const char *)NULL) || _q == ((const struct _VFS_Query *)NULL))
     _s.rc = -14;
 
@@ -2733,13 +2733,13 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
           __itero=PtrArray_IteratorStart(children->objects);
           do
           {
-            return_value_PtrArray_IteratorLoop$1=PtrArray_IteratorLoop(&__itero);
-            if(return_value_PtrArray_IteratorLoop$1 == (_Bool)0)
+            return_value_PtrArray_IteratorLoop_1=PtrArray_IteratorLoop(&__itero);
+            if(return_value_PtrArray_IteratorLoop_1 == (_Bool)0)
               break;
 
-            void *return_value_PtrArray_IteratorGetElement$2;
-            return_value_PtrArray_IteratorGetElement$2=PtrArray_IteratorGetElement(&__itero);
-            o = (struct _DIDLObject *)return_value_PtrArray_IteratorGetElement$2;
+            void *return_value_PtrArray_IteratorGetElement_2;
+            return_value_PtrArray_IteratorGetElement_2=PtrArray_IteratorGetElement(&__itero);
+            o = (struct _DIDLObject *)return_value_PtrArray_IteratorGetElement_2;
             if(!(o->is_container == (_Bool)0))
             {
               _p = o->basename;
@@ -2749,7 +2749,7 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
                 {
                   if((signed int)*_s.ptr == 0)
                   {
-                    _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                    _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                     if(!(_s.rc == 0))
                       goto cleanup;
 
@@ -2774,11 +2774,11 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
                       {
                         struct _Service *__serv;
                         __serv=_DeviceList_LockService(devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
-                        const struct _Object_Class *return_value__ContentDir_GetBaseClass$3;
-                        return_value__ContentDir_GetBaseClass$3=_ContentDir_GetBaseClass();
-                        _Bool return_value__Object_IsA$4;
-                        return_value__Object_IsA$4=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass$3);
-                        res=ContentDir_Browse(return_value__Object_IsA$4 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, o->id, (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_DIRECT_CHILDREN);
+                        const struct _Object_Class *return_value__ContentDir_GetBaseClass_3;
+                        return_value__ContentDir_GetBaseClass_3=_ContentDir_GetBaseClass();
+                        _Bool return_value__Object_IsA_4;
+                        return_value__Object_IsA_4=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass_3);
+                        res=ContentDir_Browse(return_value__Object_IsA_4 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, o->id, (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_DIRECT_CHILDREN);
                         _DeviceList_UnlockService(__serv);
                       }
                       while((_Bool)0);
@@ -2828,18 +2828,18 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
               struct _MediaFile file = { .o=(const struct _DIDLObject *)(void *)0, .extension={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     .playlist=((const char *)NULL),
     .uri=((const char *)NULL), .res=((struct _IXML_Element *)NULL) };
-              _Bool return_value_MediaFile_GetPreferred$6;
-              return_value_MediaFile_GetPreferred$6=MediaFile_GetPreferred(o, &file);
-              if(!(return_value_MediaFile_GetPreferred$6 == (_Bool)0))
+              _Bool return_value_MediaFile_GetPreferred_6;
+              return_value_MediaFile_GetPreferred_6=MediaFile_GetPreferred(o, &file);
+              if(!(return_value_MediaFile_GetPreferred_6 == (_Bool)0))
               {
                 signed long int res_size;
                 res_size=MediaFile_GetResSize(&file);
                 if(!(file.playlist == ((const char *)NULL)))
-                  tmp_if_expr$5 = ((((signed int)self->flags & DJFS_USE_PLAYLISTS) != 0 ? (_Bool)1 : (res_size < (signed long int)0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : ((unsigned long int)res_size > (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_5 = ((((signed int)self->flags & DJFS_USE_PLAYLISTS) != 0 ? (_Bool)1 : (res_size < (signed long int)0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : ((unsigned long int)res_size > (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(tmp_if_expr_5)
                 {
                   char *name;
                   name=MediaFile_GetName(tmp_ctx, o, file.playlist);
@@ -2849,7 +2849,7 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
                     if(!(*_p == 0))
                     {
                       if((signed int)*_s.ptr == 0)
-                        _s.rc=vfs_dir_add_entry$link1(_p, 8, _q);
+                        _s.rc=vfs_dir_add_entry_link1(_p, 8, _q);
 
                       else
                       {
@@ -2882,15 +2882,15 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
 
                 else
                 {
-                  char *BrowseChildren$$1$$2$$1$$1$$1$$1$$1$$1$$2$$1$$2$$name;
-                  BrowseChildren$$1$$2$$1$$1$$1$$1$$1$$1$$2$$1$$2$$name=MediaFile_GetName(tmp_ctx, o, file.extension);
-                  _p = BrowseChildren$$1$$2$$1$$1$$1$$1$$1$$1$$2$$1$$2$$name;
+                  char *BrowseChildren__1__2__1__1__1__1__1__1__2__1__2__name;
+                  BrowseChildren__1__2__1__1__1__1__1__1__2__1__2__name=MediaFile_GetName(tmp_ctx, o, file.extension);
+                  _p = BrowseChildren__1__2__1__1__1__1__1__1__2__1__2__name;
                   if(!(_p == ((const char *)NULL)))
                   {
                     if(!(*_p == 0))
                     {
                       if((signed int)*_s.ptr == 0)
-                        _s.rc=vfs_dir_add_entry$link1(_p, 8, _q);
+                        _s.rc=vfs_dir_add_entry_link1(_p, 8, _q);
 
                       else
                       {
@@ -2928,8 +2928,8 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
       while((_Bool)0);
       if(!((DJFS_SHOW_METADATA & (signed int)self->flags) == 0))
       {
-        return_value_PtrArray_IsEmpty$10=PtrArray_IsEmpty(children->objects);
-        if(return_value_PtrArray_IsEmpty$10 == (_Bool)0)
+        return_value_PtrArray_IsEmpty_10=PtrArray_IsEmpty(children->objects);
+        if(return_value_PtrArray_IsEmpty_10 == (_Bool)0)
         {
           _p = ".metadata";
           if(!(_p == ((const char *)NULL)))
@@ -2938,7 +2938,7 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
             {
               if((signed int)*_s.ptr == 0)
               {
-                _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                 if(!(_s.rc == 0))
                   goto cleanup;
 
@@ -2961,26 +2961,26 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
                   do
                     if(!(children->objects == ((struct _PtrArray *)NULL)))
                     {
-                      struct _PtrArray_Iterator BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$__itero;
-                      BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$__itero=PtrArray_IteratorStart(children->objects);
+                      struct _PtrArray_Iterator BrowseChildren__1__2__1__1__2__1__2__1__2__1__1____itero;
+                      BrowseChildren__1__2__1__1__2__1__2__1__2__1__1____itero=PtrArray_IteratorStart(children->objects);
                       do
                       {
-                        return_value_PtrArray_IteratorLoop$7=PtrArray_IteratorLoop(&BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$__itero);
-                        if(return_value_PtrArray_IteratorLoop$7 == (_Bool)0)
+                        return_value_PtrArray_IteratorLoop_7=PtrArray_IteratorLoop(&BrowseChildren__1__2__1__1__2__1__2__1__2__1__1____itero);
+                        if(return_value_PtrArray_IteratorLoop_7 == (_Bool)0)
                           break;
 
-                        void *return_value_PtrArray_IteratorGetElement$8;
-                        return_value_PtrArray_IteratorGetElement$8=PtrArray_IteratorGetElement(&BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$__itero);
-                        o = (struct _DIDLObject *)return_value_PtrArray_IteratorGetElement$8;
-                        char *BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$1$$1$$name;
-                        BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$1$$1$$name=MediaFile_GetName(tmp_ctx, o, "xml");
-                        _p = BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$1$$1$$name;
+                        void *return_value_PtrArray_IteratorGetElement_8;
+                        return_value_PtrArray_IteratorGetElement_8=PtrArray_IteratorGetElement(&BrowseChildren__1__2__1__1__2__1__2__1__2__1__1____itero);
+                        o = (struct _DIDLObject *)return_value_PtrArray_IteratorGetElement_8;
+                        char *BrowseChildren__1__2__1__1__2__1__2__1__2__1__1__1__1__name;
+                        BrowseChildren__1__2__1__1__2__1__2__1__2__1__1__1__1__name=MediaFile_GetName(tmp_ctx, o, "xml");
+                        _p = BrowseChildren__1__2__1__1__2__1__2__1__2__1__1__1__1__name;
                         if(!(_p == ((const char *)NULL)))
                         {
                           if(!(*_p == 0))
                           {
                             if((signed int)*_s.ptr == 0)
-                              _s.rc=vfs_dir_add_entry$link1(_p, 8, _q);
+                              _s.rc=vfs_dir_add_entry_link1(_p, 8, _q);
 
                             else
                             {
@@ -2996,11 +2996,11 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
                                 if(!(_s.rc == 0))
                                   goto cleanup;
 
-                                const char *BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$1$$1$$1$$2$$1$$1$$str;
-                                char *return_value_DIDLObject_GetElementString$9;
-                                return_value_DIDLObject_GetElementString$9=DIDLObject_GetElementString(o, tmp_ctx);
-                                BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$1$$1$$1$$2$$1$$1$$str=talloc_asprintf(tmp_ctx, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n%s", return_value_DIDLObject_GetElementString$9);
-                                vfs_file_set_string(BrowseChildren$$1$$2$$1$$1$$2$$1$$2$$1$$2$$1$$1$$1$$1$$1$$2$$1$$1$$str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:305", _q);
+                                const char *BrowseChildren__1__2__1__1__2__1__2__1__2__1__1__1__1__1__2__1__1__str;
+                                char *return_value_DIDLObject_GetElementString_9;
+                                return_value_DIDLObject_GetElementString_9=DIDLObject_GetElementString(o, tmp_ctx);
+                                BrowseChildren__1__2__1__1__2__1__2__1__2__1__1__1__1__1__2__1__1__str=talloc_asprintf(tmp_ctx, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n%s", return_value_DIDLObject_GetElementString_9);
+                                vfs_file_set_string(BrowseChildren__1__2__1__1__2__1__2__1__2__1__1__1__1__1__2__1__1__str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:305", _q);
                               }
 
                               if((signed int)*_s.ptr == 0)
@@ -3051,7 +3051,7 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
             {
               if((signed int)*_s.ptr == 0)
               {
-                _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                 if(!(_s.rc == 0))
                   goto cleanup;
 
@@ -3106,11 +3106,11 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
 
         else
         {
-          signed long int str$array_size0;
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(search_criteria);
-          str$array_size0 = (signed long int)(return_value_strlen$11 + (unsigned long int)9);
-          char criteria_start[str$array_size0];
+          signed long int str_array_size0;
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(search_criteria);
+          str_array_size0 = (signed long int)(return_value_strlen_11 + (unsigned long int)9);
+          char criteria_start[str_array_size0];
           _p = "_and";
           if(!(_p == ((const char *)NULL)))
           {
@@ -3118,7 +3118,7 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
             {
               if((signed int)*_s.ptr == 0)
               {
-                _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                 if(!(_s.rc == 0))
                   goto cleanup;
 
@@ -3177,7 +3177,7 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
             {
               if((signed int)*_s.ptr == 0)
               {
-                _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                 if(!(_s.rc == 0))
                   goto cleanup;
 
@@ -3238,7 +3238,7 @@ static struct _VFS_BrowseStatus BrowseChildren(struct _DJFS * const self, const 
 
 cleanup:
   ;
-  if(!(lock == ((union anonymous$3 *)NULL)))
+  if(!(lock == ((union anonymous_3 *)NULL)))
     pthread_mutex_unlock(lock);
 
   return _s;
@@ -3250,9 +3250,9 @@ static struct _VFS_BrowseStatus BrowseDebug(struct _VFS * const self, const char
 {
   struct _VFS_BrowseStatus _s = { .rc=0, .ptr=sub_path };
   const struct _VFS_Query * const _q = query;
-  char *tmp_if_expr$1;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$3;
+  char *tmp_if_expr_1;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_3;
   if(_s.ptr == ((const char *)NULL) || _q == ((const struct _VFS_Query *)NULL))
     _s.rc = -14;
 
@@ -3283,24 +3283,24 @@ static struct _VFS_BrowseStatus BrowseDebug(struct _VFS * const self, const char
             struct utsname ubuf;
             signed int rc;
             rc=uname(&ubuf);
-            const char *BrowseDebug$$1$$2$$1$$1$$2$$1$$1$$str;
+            const char *BrowseDebug__1__2__1__1__2__1__1__str;
             if(!(rc == 0))
-              tmp_if_expr$1 = "*unknown kernel*";
+              tmp_if_expr_1 = "*unknown kernel*";
 
             else
-              tmp_if_expr$1 = ubuf.sysname;
+              tmp_if_expr_1 = ubuf.sysname;
             if(!(rc == 0))
-              tmp_if_expr$2 = "*unknown release*";
+              tmp_if_expr_2 = "*unknown release*";
 
             else
-              tmp_if_expr$2 = ubuf.release;
+              tmp_if_expr_2 = ubuf.release;
             if(!(rc == 0))
-              tmp_if_expr$3 = "*unknown machine*";
+              tmp_if_expr_3 = "*unknown machine*";
 
             else
-              tmp_if_expr$3 = ubuf.machine;
-            BrowseDebug$$1$$2$$1$$1$$2$$1$$1$$str=talloc_asprintf(tmp_ctx, "%s %s\nhardware type %s\n", tmp_if_expr$1, tmp_if_expr$2, tmp_if_expr$3);
-            vfs_file_set_string(BrowseDebug$$1$$2$$1$$1$$2$$1$$1$$str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "vfs.c:242", _q);
+              tmp_if_expr_3 = ubuf.machine;
+            BrowseDebug__1__2__1__1__2__1__1__str=talloc_asprintf(tmp_ctx, "%s %s\nhardware type %s\n", tmp_if_expr_1, tmp_if_expr_2, tmp_if_expr_3);
+            vfs_file_set_string(BrowseDebug__1__2__1__1__2__1__1__str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "vfs.c:242", _q);
           }
 
           if((signed int)*_s.ptr == 0)
@@ -3334,9 +3334,9 @@ static struct _VFS_BrowseStatus BrowseDebug(struct _VFS * const self, const char
               goto cleanup;
 
             const char *str;
-            unsigned long int return_value_talloc_total_size$4;
-            return_value_talloc_total_size$4=talloc_total_size((void *)0);
-            str=talloc_asprintf(tmp_ctx, "%ld bytes\n", (signed long int)return_value_talloc_total_size$4);
+            unsigned long int return_value_talloc_total_size_4;
+            return_value_talloc_total_size_4=talloc_total_size((void *)0);
+            str=talloc_asprintf(tmp_ctx, "%ld bytes\n", (signed long int)return_value_talloc_total_size_4);
             vfs_file_set_string(str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "vfs.c:251", _q);
           }
 
@@ -3375,9 +3375,9 @@ static struct _VFS_BrowseStatus BrowseDebug(struct _VFS * const self, const char
             struct _IO_FILE *file;
             file=StringStream_GetFile(ss);
             talloc_report((void *)0, file);
-            const char *BrowseDebug$$1$$2$$1$$3$$2$$1$$1$$str;
-            BrowseDebug$$1$$2$$1$$3$$2$$1$$1$$str=StringStream_GetSnapshot(ss, tmp_ctx, (unsigned long int *)(void *)0);
-            vfs_file_set_string(BrowseDebug$$1$$2$$1$$3$$2$$1$$1$$str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "vfs.c:260", _q);
+            const char *BrowseDebug__1__2__1__3__2__1__1__str;
+            BrowseDebug__1__2__1__3__2__1__1__str=StringStream_GetSnapshot(ss, tmp_ctx, (unsigned long int *)(void *)0);
+            vfs_file_set_string(BrowseDebug__1__2__1__3__2__1__1__str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "vfs.c:260", _q);
           }
 
           if((signed int)*_s.ptr == 0)
@@ -3410,14 +3410,14 @@ static struct _VFS_BrowseStatus BrowseDebug(struct _VFS * const self, const char
             if(!(_s.rc == 0))
               goto cleanup;
 
-            struct _StringStream *BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$ss;
-            BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$ss=StringStream_Create(tmp_ctx);
-            struct _IO_FILE *BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$file;
-            BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$file=StringStream_GetFile(BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$ss);
-            talloc_report_full((void *)0, BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$file);
-            const char *BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$str;
-            BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$str=StringStream_GetSnapshot(BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$ss, tmp_ctx, (unsigned long int *)(void *)0);
-            vfs_file_set_string(BrowseDebug$$1$$2$$1$$4$$2$$1$$1$$str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "vfs.c:269", _q);
+            struct _StringStream *BrowseDebug__1__2__1__4__2__1__1__ss;
+            BrowseDebug__1__2__1__4__2__1__1__ss=StringStream_Create(tmp_ctx);
+            struct _IO_FILE *BrowseDebug__1__2__1__4__2__1__1__file;
+            BrowseDebug__1__2__1__4__2__1__1__file=StringStream_GetFile(BrowseDebug__1__2__1__4__2__1__1__ss);
+            talloc_report_full((void *)0, BrowseDebug__1__2__1__4__2__1__1__file);
+            const char *BrowseDebug__1__2__1__4__2__1__1__str;
+            BrowseDebug__1__2__1__4__2__1__1__str=StringStream_GetSnapshot(BrowseDebug__1__2__1__4__2__1__1__ss, tmp_ctx, (unsigned long int *)(void *)0);
+            vfs_file_set_string(BrowseDebug__1__2__1__4__2__1__1__str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "vfs.c:269", _q);
           }
 
           if((signed int)*_s.ptr == 0)
@@ -3435,48 +3435,48 @@ cleanup:
   return _s;
 }
 
-// BrowseDebug$link1
+// BrowseDebug_link1
 // file djfs.c line 431
-static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const char * const sub_path$link1, const struct _VFS_Query * const query$link1, void * const tmp_ctx$link1)
+static struct _VFS_BrowseStatus BrowseDebug_link1(struct _VFS * const vfs, const char * const sub_path_link1, const struct _VFS_Query * const query_link1, void * const tmp_ctx_link1)
 {
   struct _DJFS * const self = (struct _DJFS *)vfs;
-  union anonymous$3 *lock = (union anonymous$3 *)(void *)0;
-  struct _VFS_BrowseStatus _s$link1 = { .rc=0, .ptr=sub_path$link1 };
-  const struct _VFS_Query * const _q$link1 = query$link1;
-  _Bool return_value_PtrArray_IteratorLoop$1;
-  _Bool return_value_PtrArray_IteratorLoop$3;
-  if(_s$link1.ptr == ((const char *)NULL) || _q$link1 == ((const struct _VFS_Query *)NULL))
-    _s$link1.rc = -14;
+  union anonymous_3 *lock = (union anonymous_3 *)(void *)0;
+  struct _VFS_BrowseStatus _s_link1 = { .rc=0, .ptr=sub_path_link1 };
+  const struct _VFS_Query * const _q_link1 = query_link1;
+  _Bool return_value_PtrArray_IteratorLoop_1;
+  _Bool return_value_PtrArray_IteratorLoop_3;
+  if(_s_link1.ptr == ((const char *)NULL) || _q_link1 == ((const struct _VFS_Query *)NULL))
+    _s_link1.rc = -14;
 
   else
   {
-    const char *_p$link1 = "versions";
-    if(!(_p$link1 == ((const char *)NULL)))
+    const char *_p_link1 = "versions";
+    if(!(_p_link1 == ((const char *)NULL)))
     {
-      if(!(*_p$link1 == 0))
+      if(!(*_p_link1 == 0))
       {
-        if((signed int)*_s$link1.ptr == 0)
-          _s$link1.rc=vfs_dir_add_entry$link1(_p$link1, 8, _q$link1);
+        if((signed int)*_s_link1.ptr == 0)
+          _s_link1.rc=vfs_dir_add_entry_link1(_p_link1, 8, _q_link1);
 
         else
         {
-          _p$link1=vfs_match_start_of_path(_s$link1.ptr, _p$link1);
-          if(!(_p$link1 == ((const char *)NULL)))
+          _p_link1=vfs_match_start_of_path(_s_link1.ptr, _p_link1);
+          if(!(_p_link1 == ((const char *)NULL)))
           {
-            _s$link1.ptr = _p$link1;
-            if(!((signed int)*_s$link1.ptr == 0))
-              _s$link1.rc = -20;
+            _s_link1.ptr = _p_link1;
+            if(!((signed int)*_s_link1.ptr == 0))
+              _s_link1.rc = -20;
 
             else
-              _s$link1.rc=vfs_file_begin(8, _q$link1);
-            if(!(_s$link1.rc == 0))
+              _s_link1.rc=vfs_file_begin(8, _q_link1);
+            if(!(_s_link1.rc == 0))
               goto cleanup;
 
-            static const char * const str$link1 = "djmount 0.71\nlibupnp 1.6.19+git20160116\nFUSE 2.4\n";
-            vfs_file_set_string(str$link1, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_EXTERN, "djfs.c:450", _q$link1);
+            static const char * const str_link1 = "djmount 0.71\nlibupnp 1.6.19+git20160116\nFUSE 2.4\n";
+            vfs_file_set_string(str_link1, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_EXTERN, "djfs.c:450", _q_link1);
           }
 
-          if((signed int)*_s$link1.ptr == 0)
+          if((signed int)*_s_link1.ptr == 0)
             goto cleanup;
 
         }
@@ -3485,7 +3485,7 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
     }
 
     const struct _PtrArray *names;
-    names=DeviceList_GetDevicesNames(tmp_ctx$link1);
+    names=DeviceList_GetDevicesNames(tmp_ctx_link1);
     const char *devName;
     do
       if(!(names == ((const struct _PtrArray *)NULL)))
@@ -3494,68 +3494,68 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
         __iterdevName=PtrArray_IteratorStart(names);
         do
         {
-          return_value_PtrArray_IteratorLoop$1=PtrArray_IteratorLoop(&__iterdevName);
-          if(return_value_PtrArray_IteratorLoop$1 == (_Bool)0)
+          return_value_PtrArray_IteratorLoop_1=PtrArray_IteratorLoop(&__iterdevName);
+          if(return_value_PtrArray_IteratorLoop_1 == (_Bool)0)
             break;
 
-          void *return_value_PtrArray_IteratorGetElement$2;
-          return_value_PtrArray_IteratorGetElement$2=PtrArray_IteratorGetElement(&__iterdevName);
-          devName = (const char *)return_value_PtrArray_IteratorGetElement$2;
-          _p$link1 = devName;
-          if(!(_p$link1 == ((const char *)NULL)))
+          void *return_value_PtrArray_IteratorGetElement_2;
+          return_value_PtrArray_IteratorGetElement_2=PtrArray_IteratorGetElement(&__iterdevName);
+          devName = (const char *)return_value_PtrArray_IteratorGetElement_2;
+          _p_link1 = devName;
+          if(!(_p_link1 == ((const char *)NULL)))
           {
-            if(!(*_p$link1 == 0))
+            if(!(*_p_link1 == 0))
             {
-              if((signed int)*_s$link1.ptr == 0)
+              if((signed int)*_s_link1.ptr == 0)
               {
-                _s$link1.rc=vfs_dir_add_entry$link1(_p$link1, 4, _q$link1);
-                if(!(_s$link1.rc == 0))
+                _s_link1.rc=vfs_dir_add_entry_link1(_p_link1, 4, _q_link1);
+                if(!(_s_link1.rc == 0))
                   goto cleanup;
 
               }
 
               else
               {
-                _p$link1=vfs_match_start_of_path(_s$link1.ptr, _p$link1);
-                if(!(_p$link1 == ((const char *)NULL)))
+                _p_link1=vfs_match_start_of_path(_s_link1.ptr, _p_link1);
+                if(!(_p_link1 == ((const char *)NULL)))
                 {
-                  _s$link1.ptr = _p$link1;
-                  if((signed int)*_s$link1.ptr == 0)
+                  _s_link1.ptr = _p_link1;
+                  if((signed int)*_s_link1.ptr == 0)
                   {
-                    _s$link1.rc=vfs_dir_begin(_q$link1);
-                    if(!(_s$link1.rc == 0))
+                    _s_link1.rc=vfs_dir_begin(_q_link1);
+                    if(!(_s_link1.rc == 0))
                       goto cleanup;
 
                   }
 
-                  _p$link1 = "status";
-                  if(!(_p$link1 == ((const char *)NULL)))
+                  _p_link1 = "status";
+                  if(!(_p_link1 == ((const char *)NULL)))
                   {
-                    if(!(*_p$link1 == 0))
+                    if(!(*_p_link1 == 0))
                     {
-                      if((signed int)*_s$link1.ptr == 0)
-                        _s$link1.rc=vfs_dir_add_entry$link1(_p$link1, 8, _q$link1);
+                      if((signed int)*_s_link1.ptr == 0)
+                        _s_link1.rc=vfs_dir_add_entry_link1(_p_link1, 8, _q_link1);
 
                       else
                       {
-                        _p$link1=vfs_match_start_of_path(_s$link1.ptr, _p$link1);
-                        if(!(_p$link1 == ((const char *)NULL)))
+                        _p_link1=vfs_match_start_of_path(_s_link1.ptr, _p_link1);
+                        if(!(_p_link1 == ((const char *)NULL)))
                         {
-                          _s$link1.ptr = _p$link1;
-                          if(!((signed int)*_s$link1.ptr == 0))
-                            _s$link1.rc = -20;
+                          _s_link1.ptr = _p_link1;
+                          if(!((signed int)*_s_link1.ptr == 0))
+                            _s_link1.rc = -20;
 
                           else
-                            _s$link1.rc=vfs_file_begin(8, _q$link1);
-                          if(!(_s$link1.rc == 0))
+                            _s_link1.rc=vfs_file_begin(8, _q_link1);
+                          if(!(_s_link1.rc == 0))
                             goto cleanup;
 
-                          const char *BrowseDebug$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$1$$2$$1$$1$$str;
-                          BrowseDebug$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$1$$2$$1$$1$$str=DeviceList_GetDeviceStatusString(tmp_ctx$link1, devName, (_Bool)1);
-                          vfs_file_set_string(BrowseDebug$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$1$$2$$1$$1$$str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:461", _q$link1);
+                          const char *BrowseDebug__1__2__1__2__1__1__1__1__2__1__2__1__2__1__1__str;
+                          BrowseDebug__1__2__1__2__1__1__1__1__2__1__2__1__2__1__1__str=DeviceList_GetDeviceStatusString(tmp_ctx_link1, devName, (_Bool)1);
+                          vfs_file_set_string(BrowseDebug__1__2__1__2__1__1__1__1__2__1__2__1__2__1__1__str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:461", _q_link1);
                         }
 
-                        if((signed int)*_s$link1.ptr == 0)
+                        if((signed int)*_s_link1.ptr == 0)
                           goto cleanup;
 
                       }
@@ -3563,41 +3563,41 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
 
                   }
 
-                  _p$link1 = "device_description.xml";
-                  if(!(_p$link1 == ((const char *)NULL)))
+                  _p_link1 = "device_description.xml";
+                  if(!(_p_link1 == ((const char *)NULL)))
                   {
-                    if(!(*_p$link1 == 0))
+                    if(!(*_p_link1 == 0))
                     {
-                      if((signed int)*_s$link1.ptr == 0)
-                        _s$link1.rc=vfs_dir_add_entry$link1(_p$link1, 8, _q$link1);
+                      if((signed int)*_s_link1.ptr == 0)
+                        _s_link1.rc=vfs_dir_add_entry_link1(_p_link1, 8, _q_link1);
 
                       else
                       {
-                        _p$link1=vfs_match_start_of_path(_s$link1.ptr, _p$link1);
-                        if(!(_p$link1 == ((const char *)NULL)))
+                        _p_link1=vfs_match_start_of_path(_s_link1.ptr, _p_link1);
+                        if(!(_p_link1 == ((const char *)NULL)))
                         {
-                          _s$link1.ptr = _p$link1;
-                          if(!((signed int)*_s$link1.ptr == 0))
-                            _s$link1.rc = -20;
+                          _s_link1.ptr = _p_link1;
+                          if(!((signed int)*_s_link1.ptr == 0))
+                            _s_link1.rc = -20;
 
                           else
-                            _s$link1.rc=vfs_file_begin(8, _q$link1);
-                          if(!(_s$link1.rc == 0))
+                            _s_link1.rc=vfs_file_begin(8, _q_link1);
+                          if(!(_s_link1.rc == 0))
                             goto cleanup;
 
-                          const char *BrowseDebug$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$2$$2$$1$$1$$str;
+                          const char *BrowseDebug__1__2__1__2__1__1__1__1__2__1__2__2__2__1__1__str;
                           do
                           {
                             struct _Device *__dev;
                             __dev=_DeviceList_LockDevice(devName);
-                            BrowseDebug$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$2$$2$$1$$1$$str=Device_GetDescDocTextCopy(__dev, tmp_ctx$link1);
+                            BrowseDebug__1__2__1__2__1__1__1__1__2__1__2__2__2__1__1__str=Device_GetDescDocTextCopy(__dev, tmp_ctx_link1);
                             _DeviceList_UnlockDevice(__dev);
                           }
                           while((_Bool)0);
-                          vfs_file_set_string(BrowseDebug$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$2$$2$$1$$1$$str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:472", _q$link1);
+                          vfs_file_set_string(BrowseDebug__1__2__1__2__1__1__1__1__2__1__2__2__2__1__1__str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:472", _q_link1);
                         }
 
-                        if((signed int)*_s$link1.ptr == 0)
+                        if((signed int)*_s_link1.ptr == 0)
                           goto cleanup;
 
                       }
@@ -3605,15 +3605,15 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
 
                   }
 
-                  if(!((signed int)*_s$link1.ptr == 0))
+                  if(!((signed int)*_s_link1.ptr == 0))
                   {
-                    _s$link1.rc = -2;
+                    _s_link1.rc = -2;
                     goto cleanup;
                   }
 
                 }
 
-                if((signed int)*_s$link1.ptr == 0)
+                if((signed int)*_s_link1.ptr == 0)
                   goto cleanup;
 
               }
@@ -3628,29 +3628,29 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
     while((_Bool)0);
     if(!(self->search_hist == ((struct _PtrArray *)NULL)))
     {
-      _p$link1 = "search_history";
-      if(!(_p$link1 == ((const char *)NULL)))
+      _p_link1 = "search_history";
+      if(!(_p_link1 == ((const char *)NULL)))
       {
-        if(!(*_p$link1 == 0))
+        if(!(*_p_link1 == 0))
         {
-          if((signed int)*_s$link1.ptr == 0)
+          if((signed int)*_s_link1.ptr == 0)
           {
-            _s$link1.rc=vfs_dir_add_entry$link1(_p$link1, 4, _q$link1);
-            if(!(_s$link1.rc == 0))
+            _s_link1.rc=vfs_dir_add_entry_link1(_p_link1, 4, _q_link1);
+            if(!(_s_link1.rc == 0))
               goto cleanup;
 
           }
 
           else
           {
-            _p$link1=vfs_match_start_of_path(_s$link1.ptr, _p$link1);
-            if(!(_p$link1 == ((const char *)NULL)))
+            _p_link1=vfs_match_start_of_path(_s_link1.ptr, _p_link1);
+            if(!(_p_link1 == ((const char *)NULL)))
             {
-              _s$link1.ptr = _p$link1;
-              if((signed int)*_s$link1.ptr == 0)
+              _s_link1.ptr = _p_link1;
+              if((signed int)*_s_link1.ptr == 0)
               {
-                _s$link1.rc=vfs_dir_begin(_q$link1);
-                if(!(_s$link1.rc == 0))
+                _s_link1.rc=vfs_dir_begin(_q_link1);
+                if(!(_s_link1.rc == 0))
                   goto cleanup;
 
               }
@@ -3665,44 +3665,44 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
                   __iterh=PtrArray_IteratorStart(self->search_hist);
                   do
                   {
-                    return_value_PtrArray_IteratorLoop$3=PtrArray_IteratorLoop(&__iterh);
-                    if(return_value_PtrArray_IteratorLoop$3 == (_Bool)0)
+                    return_value_PtrArray_IteratorLoop_3=PtrArray_IteratorLoop(&__iterh);
+                    if(return_value_PtrArray_IteratorLoop_3 == (_Bool)0)
                       break;
 
-                    void *return_value_PtrArray_IteratorGetElement$4;
-                    return_value_PtrArray_IteratorGetElement$4=PtrArray_IteratorGetElement(&__iterh);
-                    h = (struct _SearchHistory *)return_value_PtrArray_IteratorGetElement$4;
+                    void *return_value_PtrArray_IteratorGetElement_4;
+                    return_value_PtrArray_IteratorGetElement_4=PtrArray_IteratorGetElement(&__iterh);
+                    h = (struct _SearchHistory *)return_value_PtrArray_IteratorGetElement_4;
                     char link_name[33l];
                     sprintf(link_name, "%d", h->serial);
-                    _p$link1 = link_name;
-                    if(!(_p$link1 == ((const char *)NULL)))
+                    _p_link1 = link_name;
+                    if(!(_p_link1 == ((const char *)NULL)))
                     {
-                      if(!(*_p$link1 == 0))
+                      if(!(*_p_link1 == 0))
                       {
-                        if((signed int)*_s$link1.ptr == 0)
-                          _s$link1.rc=vfs_dir_add_entry$link1(_p$link1, 10, _q$link1);
+                        if((signed int)*_s_link1.ptr == 0)
+                          _s_link1.rc=vfs_dir_add_entry_link1(_p_link1, 10, _q_link1);
 
                         else
                         {
-                          _p$link1=vfs_match_start_of_path(_s$link1.ptr, _p$link1);
-                          if(!(_p$link1 == ((const char *)NULL)))
+                          _p_link1=vfs_match_start_of_path(_s_link1.ptr, _p_link1);
+                          if(!(_p_link1 == ((const char *)NULL)))
                           {
-                            _s$link1.ptr = _p$link1;
-                            if(!((signed int)*_s$link1.ptr == 0))
-                              _s$link1.rc = -20;
+                            _s_link1.ptr = _p_link1;
+                            if(!((signed int)*_s_link1.ptr == 0))
+                              _s_link1.rc = -20;
 
                             else
-                              _s$link1.rc=vfs_file_begin(10, _q$link1);
-                            if(!(_s$link1.rc == 0))
+                              _s_link1.rc=vfs_file_begin(10, _q_link1);
+                            if(!(_s_link1.rc == 0))
                               goto cleanup;
 
                             const char *str;
-                            str=talloc_asprintf(tmp_ctx$link1, "../..%s/%s", h->parent_path, h->basename);
-                            vfs_symlink_set_path(str, _q$link1);
-                            vfs_set_time(h->time, _q$link1);
+                            str=talloc_asprintf(tmp_ctx_link1, "../..%s/%s", h->parent_path, h->basename);
+                            vfs_symlink_set_path(str, _q_link1);
+                            vfs_set_time(h->time, _q_link1);
                           }
 
-                          if((signed int)*_s$link1.ptr == 0)
+                          if((signed int)*_s_link1.ptr == 0)
                             goto cleanup;
 
                         }
@@ -3715,15 +3715,15 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
                 }
 
               while((_Bool)0);
-              if(!((signed int)*_s$link1.ptr == 0))
+              if(!((signed int)*_s_link1.ptr == 0))
               {
-                _s$link1.rc = -2;
+                _s_link1.rc = -2;
                 goto cleanup;
               }
 
             }
 
-            if((signed int)*_s$link1.ptr == 0)
+            if((signed int)*_s_link1.ptr == 0)
               goto cleanup;
 
           }
@@ -3734,35 +3734,35 @@ static struct _VFS_BrowseStatus BrowseDebug$link1(struct _VFS * const vfs, const
     }
 
     struct _VFS_BrowseStatus (*func)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
-    const struct _VFS_Class *return_value__VFS_GetClass$5;
-    return_value__VFS_GetClass$5=_VFS_GetClass();
-    func = return_value__VFS_GetClass$5->browse_debug;
+    const struct _VFS_Class *return_value__VFS_GetClass_5;
+    return_value__VFS_GetClass_5=_VFS_GetClass();
+    func = return_value__VFS_GetClass_5->browse_debug;
     if(!(func == ((struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))NULL)))
     {
-      if((signed int)*_s$link1.ptr == 0)
-        _s$link1=func(vfs, _s$link1.ptr, query$link1, tmp_ctx$link1);
+      if((signed int)*_s_link1.ptr == 0)
+        _s_link1=func(vfs, _s_link1.ptr, query_link1, tmp_ctx_link1);
 
       else
-        _s$link1=func(vfs, _s$link1.ptr, query$link1, tmp_ctx$link1);
+        _s_link1=func(vfs, _s_link1.ptr, query_link1, tmp_ctx_link1);
     }
 
   }
 
 cleanup:
   ;
-  if(!(lock == ((union anonymous$3 *)NULL)))
+  if(!(lock == ((union anonymous_3 *)NULL)))
     pthread_mutex_unlock(lock);
 
-  return _s$link1;
+  return _s_link1;
 }
 
 // BrowseOrSearchAction
 // file content_dir.c line 124
 static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_context, const char *objectId, const char *criteria, unsigned long int starting_index, unsigned long int requested_count, unsigned long int *nb_matched, unsigned long int *nb_returned, struct _PtrArray *objects)
 {
-  struct _Service *tmp_if_expr$1;
+  struct _Service *tmp_if_expr_1;
   const char *s;
-  char *return_value_XMLUtil_GetDocumentString$4;
+  char *return_value_XMLUtil_GetDocumentString_4;
   const char *resstr;
   struct _IXML_Document *subdoc;
   if(criteria == ((const char *)NULL) || objectId == ((const char *)NULL) || cds == ((struct _ContentDir *)NULL))
@@ -3780,15 +3780,15 @@ static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_con
     struct _IXML_Document *doc = (struct _IXML_Document *)(void *)0;
     signed int rc;
     if(!(cds == ((struct _ContentDir *)NULL)))
-      tmp_if_expr$1 = &cds->_.super;
+      tmp_if_expr_1 = &cds->_.super;
 
     else
-      tmp_if_expr$1 = (struct _Service *)(void *)0;
-    const char *return_value_int_to_string$2;
-    return_value_int_to_string$2=int_to_string(tmp_ctx, (signed long int)starting_index);
-    const char *return_value_int_to_string$3;
-    return_value_int_to_string$3=int_to_string(tmp_ctx, (signed long int)requested_count);
-    rc=Service_SendActionVa(tmp_if_expr$1, &doc, browse != (_Bool)0 ? "Browse" : "Search", browse != (_Bool)0 ? "ObjectID" : "ContainerID", objectId, browse != (_Bool)0 ? "BrowseFlag" : "SearchCriteria", criteria, (const void *)"Filter", (const void *)"*", (const void *)"StartingIndex", return_value_int_to_string$2, (const void *)"RequestedCount", return_value_int_to_string$3, (const void *)"SortCriteria", (const void *)"", (void *)0, (void *)0);
+      tmp_if_expr_1 = (struct _Service *)(void *)0;
+    const char *return_value_int_to_string_2;
+    return_value_int_to_string_2=int_to_string(tmp_ctx, (signed long int)starting_index);
+    const char *return_value_int_to_string_3;
+    return_value_int_to_string_3=int_to_string(tmp_ctx, (signed long int)requested_count);
+    rc=Service_SendActionVa(tmp_if_expr_1, &doc, browse != (_Bool)0 ? "Browse" : "Search", browse != (_Bool)0 ? "ObjectID" : "ContainerID", objectId, browse != (_Bool)0 ? "BrowseFlag" : "SearchCriteria", criteria, (const void *)"Filter", (const void *)"*", (const void *)"StartingIndex", return_value_int_to_string_2, (const void *)"RequestedCount", return_value_int_to_string_3, (const void *)"SortCriteria", (const void *)"", (void *)0, (void *)0);
     if(doc == ((struct _IXML_Document *)NULL) && rc == 0)
       rc = -113;
 
@@ -3811,22 +3811,22 @@ static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_con
       s=XMLUtil_FindFirstElementValue(&doc->n, "NumberReturned", (const _Bool)1, (const _Bool)1);
       do
       {
-        signed long int BrowseOrSearchAction$$1$$4$$__temp_s2i_var;
-        BrowseOrSearchAction$$1$$4$$__temp_s2i_var=_String_ToInteger(s, (signed long int)0);
-        *nb_returned = (unsigned long int)BrowseOrSearchAction$$1$$4$$__temp_s2i_var;
-        if(!(*nb_returned == (unsigned long int)BrowseOrSearchAction$$1$$4$$__temp_s2i_var))
+        signed long int BrowseOrSearchAction__1__4____temp_s2i_var;
+        BrowseOrSearchAction__1__4____temp_s2i_var=_String_ToInteger(s, (signed long int)0);
+        *nb_returned = (unsigned long int)BrowseOrSearchAction__1__4____temp_s2i_var;
+        if(!(*nb_returned == (unsigned long int)BrowseOrSearchAction__1__4____temp_s2i_var))
           *nb_returned = (unsigned long int)0;
 
       }
       while((_Bool)0);
-      return_value_XMLUtil_GetDocumentString$4=XMLUtil_GetDocumentString(tmp_ctx, doc);
-      Log_Printf((enum Log_Level)LOG_DEBUG, "+++BROWSE RESULT+++\n%s\n", return_value_XMLUtil_GetDocumentString$4);
+      return_value_XMLUtil_GetDocumentString_4=XMLUtil_GetDocumentString(tmp_ctx, doc);
+      Log_Printf((enum Log_Level)LOG_DEBUG, "+++BROWSE RESULT+++\n%s\n", return_value_XMLUtil_GetDocumentString_4);
       resstr=XMLUtil_FindFirstElementValue(&doc->n, "Result", (const _Bool)1, (const _Bool)1);
       if(resstr == ((const char *)NULL))
       {
-        char *return_value_XMLUtil_GetDocumentString$5;
-        return_value_XMLUtil_GetDocumentString$5=XMLUtil_GetDocumentString(tmp_ctx, doc);
-        Log_Printf((enum Log_Level)LOG_ERROR, "BrowseOrSearchAction ObjectId=%s : can't get 'Result' in doc=%s", objectId, return_value_XMLUtil_GetDocumentString$5);
+        char *return_value_XMLUtil_GetDocumentString_5;
+        return_value_XMLUtil_GetDocumentString_5=XMLUtil_GetDocumentString(tmp_ctx, doc);
+        Log_Printf((enum Log_Level)LOG_ERROR, "BrowseOrSearchAction ObjectId=%s : can't get 'Result' in doc=%s", objectId, return_value_XMLUtil_GetDocumentString_5);
         rc = -113;
         goto cleanup;
       }
@@ -3866,9 +3866,9 @@ static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_con
         {
           const _Bool is_container = i < nb_containers;
           struct _IXML_Element *elem;
-          struct _IXML_Node *return_value_ixmlNodeList_item$6;
-          return_value_ixmlNodeList_item$6=ixmlNodeList_item(is_container != (_Bool)0 ? containers : items, is_container != (_Bool)0 ? i : i - nb_containers);
-          elem = (struct _IXML_Element *)return_value_ixmlNodeList_item$6;
+          struct _IXML_Node *return_value_ixmlNodeList_item_6;
+          return_value_ixmlNodeList_item_6=ixmlNodeList_item(is_container != (_Bool)0 ? containers : items, is_container != (_Bool)0 ? i : i - nb_containers);
+          elem = (struct _IXML_Element *)return_value_ixmlNodeList_item_6;
           struct _DIDLObject *o;
           o=DIDLObject_Create(result_context, elem, is_container);
           if(!(o == ((struct _DIDLObject *)NULL)))
@@ -3906,15 +3906,15 @@ static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_con
 static struct _ContentDir_Children * BrowseOrSearchAll(struct _ContentDir *cds, void *result_context, const char *objectId, const char * const criteria)
 {
   struct _ContentDir_Children *result;
-  void *return_value_talloc_named_const$1;
-  return_value_talloc_named_const$1=talloc_named_const(result_context, sizeof(struct _ContentDir_Children) /*8ul*/ , "ContentDir_Children");
-  result = (struct _ContentDir_Children *)return_value_talloc_named_const$1;
+  void *return_value_talloc_named_const_1;
+  return_value_talloc_named_const_1=talloc_named_const(result_context, sizeof(struct _ContentDir_Children) /*8ul*/ , "ContentDir_Children");
+  result = (struct _ContentDir_Children *)return_value_talloc_named_const_1;
   unsigned long int nb_matched;
   unsigned long int nb_returned;
   signed int rc;
   signed int nb_retry;
-  unsigned long int return_value_PtrArray_GetSize$2;
-  signed int tmp_post$3;
+  unsigned long int return_value_PtrArray_GetSize_2;
+  signed int tmp_post_3;
   if(result == ((struct _ContentDir_Children *)NULL))
     return (struct _ContentDir_Children *)(void *)0;
 
@@ -3940,23 +3940,23 @@ static struct _ContentDir_Children * BrowseOrSearchAll(struct _ContentDir *cds, 
       nb_retry = 0;
       do
       {
-        return_value_PtrArray_GetSize$2=PtrArray_GetSize(objects);
-        if(return_value_PtrArray_GetSize$2 >= nb_matched)
+        return_value_PtrArray_GetSize_2=PtrArray_GetSize(objects);
+        if(return_value_PtrArray_GetSize_2 >= nb_matched)
           break;
 
-        tmp_post$3 = nb_retry;
+        tmp_post_3 = nb_retry;
         nb_retry = nb_retry + 1;
-        if(tmp_post$3 >= 2)
+        if(tmp_post_3 >= 2)
           break;
 
-        unsigned long int return_value_PtrArray_GetSize$4;
-        return_value_PtrArray_GetSize$4=PtrArray_GetSize(objects);
-        Log_Printf((enum Log_Level)LOG_WARNING, "ContentDir_BrowseId ObjectId=%s : got %d results, expected %d. Retry %d ...", objectId, (signed int)return_value_PtrArray_GetSize$4, (signed int)nb_matched, nb_retry);
-        unsigned long int return_value_PtrArray_GetSize$5;
-        return_value_PtrArray_GetSize$5=PtrArray_GetSize(objects);
-        unsigned long int return_value_PtrArray_GetSize$6;
-        return_value_PtrArray_GetSize$6=PtrArray_GetSize(objects);
-        rc=BrowseOrSearchAction(cds, (void *)objects, objectId, criteria, return_value_PtrArray_GetSize$5, nb_matched - return_value_PtrArray_GetSize$6, &nb_matched, &nb_returned, objects);
+        unsigned long int return_value_PtrArray_GetSize_4;
+        return_value_PtrArray_GetSize_4=PtrArray_GetSize(objects);
+        Log_Printf((enum Log_Level)LOG_WARNING, "ContentDir_BrowseId ObjectId=%s : got %d results, expected %d. Retry %d ...", objectId, (signed int)return_value_PtrArray_GetSize_4, (signed int)nb_matched, nb_retry);
+        unsigned long int return_value_PtrArray_GetSize_5;
+        return_value_PtrArray_GetSize_5=PtrArray_GetSize(objects);
+        unsigned long int return_value_PtrArray_GetSize_6;
+        return_value_PtrArray_GetSize_6=PtrArray_GetSize(objects);
+        rc=BrowseOrSearchAction(cds, (void *)objects, objectId, criteria, return_value_PtrArray_GetSize_5, nb_matched - return_value_PtrArray_GetSize_6, &nb_matched, &nb_returned, objects);
         if(nb_returned == 0ul || !(rc == 0))
           break;
 
@@ -3986,9 +3986,9 @@ static const struct _ContentDir_BrowseResult * BrowseOrSearchWithCache(struct _C
   else
   {
     struct _ContentDir_BrowseResult *br;
-    void *return_value_talloc_named_const$1;
-    return_value_talloc_named_const$1=talloc_named_const(result_context, sizeof(struct _ContentDir_BrowseResult) /*16ul*/ , "BrowseResult");
-    br = (struct _ContentDir_BrowseResult *)return_value_talloc_named_const$1;
+    void *return_value_talloc_named_const_1;
+    return_value_talloc_named_const_1=talloc_named_const(result_context, sizeof(struct _ContentDir_BrowseResult) /*16ul*/ , "BrowseResult");
+    br = (struct _ContentDir_BrowseResult *)return_value_talloc_named_const_1;
     if(br == ((struct _ContentDir_BrowseResult *)NULL))
       return (const struct _ContentDir_BrowseResult *)(void *)0;
 
@@ -4001,13 +4001,13 @@ static const struct _ContentDir_BrowseResult * BrowseOrSearchWithCache(struct _C
       else
       {
         pthread_mutex_lock(&cds->cache_mutex);
-        signed long int br$array_size0;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(objectId);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(criteria);
-        br$array_size0 = (signed long int)(return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)2);
-        char key_buffer[br$array_size0];
+        signed long int br_array_size0;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(objectId);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(criteria);
+        br_array_size0 = (signed long int)(return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)2);
+        char key_buffer[br_array_size0];
         const char *key;
         if(criteria == CRITERIA_BROWSE_CHILDREN)
           key = objectId;
@@ -4018,9 +4018,9 @@ static const struct _ContentDir_BrowseResult * BrowseOrSearchWithCache(struct _C
           key = key_buffer;
         }
         struct _ContentDir_Children **cp;
-        void **return_value_Cache_Get$4;
-        return_value_Cache_Get$4=Cache_Get(cds->cache, key);
-        cp = (struct _ContentDir_Children **)return_value_Cache_Get$4;
+        void **return_value_Cache_Get_4;
+        return_value_Cache_Get_4=Cache_Get(cds->cache, key);
+        cp = (struct _ContentDir_Children **)return_value_Cache_Get_4;
         if(!(cp == ((struct _ContentDir_Children **)NULL)))
         {
           if(!(*cp == ((struct _ContentDir_Children *)NULL)))
@@ -4064,9 +4064,9 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
   struct _DJFS * const self = (struct _DJFS *)vfs;
   struct _VFS_BrowseStatus _s = { .rc=0, .ptr=sub_path };
   const struct _VFS_Query * const _q = query;
-  _Bool return_value_PtrArray_IteratorLoop$1;
-  _Bool return_value_PtrArray_IteratorLoop$3;
-  _Bool tmp_if_expr$12;
+  _Bool return_value_PtrArray_IteratorLoop_1;
+  _Bool return_value_PtrArray_IteratorLoop_3;
+  _Bool tmp_if_expr_12;
   if(_s.ptr == ((const char *)NULL) || _q == ((const struct _VFS_Query *)NULL))
     _s.rc = -14;
 
@@ -4081,7 +4081,7 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
       if(!(*_p == 0))
       {
         if((signed int)*_s.ptr == 0)
-          _s.rc=vfs_dir_add_entry$link1(_p, 8, _q);
+          _s.rc=vfs_dir_add_entry_link1(_p, 8, _q);
 
         else
         {
@@ -4109,13 +4109,13 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
                   __iterdevName=PtrArray_IteratorStart(names);
                   do
                   {
-                    return_value_PtrArray_IteratorLoop$1=PtrArray_IteratorLoop(&__iterdevName);
-                    if(return_value_PtrArray_IteratorLoop$1 == (_Bool)0)
+                    return_value_PtrArray_IteratorLoop_1=PtrArray_IteratorLoop(&__iterdevName);
+                    if(return_value_PtrArray_IteratorLoop_1 == (_Bool)0)
                       break;
 
-                    void *return_value_PtrArray_IteratorGetElement$2;
-                    return_value_PtrArray_IteratorGetElement$2=PtrArray_IteratorGetElement(&__iterdevName);
-                    devName = (const char *)return_value_PtrArray_IteratorGetElement$2;
+                    void *return_value_PtrArray_IteratorGetElement_2;
+                    return_value_PtrArray_IteratorGetElement_2=PtrArray_IteratorGetElement(&__iterdevName);
+                    devName = (const char *)return_value_PtrArray_IteratorGetElement_2;
                     str=talloc_asprintf_append(str, "%s\n", devName);
                   }
                   while((_Bool)1);
@@ -4135,29 +4135,29 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
 
     }
 
-    const char *BrowseRoot$$1$$2$$1$$devName;
+    const char *BrowseRoot__1__2__1__devName;
     do
       if(!(names == ((const struct _PtrArray *)NULL)))
       {
-        struct _PtrArray_Iterator BrowseRoot$$1$$2$$1$$2$$1$$__iterdevName;
-        BrowseRoot$$1$$2$$1$$2$$1$$__iterdevName=PtrArray_IteratorStart(names);
+        struct _PtrArray_Iterator BrowseRoot__1__2__1__2__1____iterdevName;
+        BrowseRoot__1__2__1__2__1____iterdevName=PtrArray_IteratorStart(names);
         do
         {
-          return_value_PtrArray_IteratorLoop$3=PtrArray_IteratorLoop(&BrowseRoot$$1$$2$$1$$2$$1$$__iterdevName);
-          if(return_value_PtrArray_IteratorLoop$3 == (_Bool)0)
+          return_value_PtrArray_IteratorLoop_3=PtrArray_IteratorLoop(&BrowseRoot__1__2__1__2__1____iterdevName);
+          if(return_value_PtrArray_IteratorLoop_3 == (_Bool)0)
             break;
 
-          void *return_value_PtrArray_IteratorGetElement$4;
-          return_value_PtrArray_IteratorGetElement$4=PtrArray_IteratorGetElement(&BrowseRoot$$1$$2$$1$$2$$1$$__iterdevName);
-          BrowseRoot$$1$$2$$1$$devName = (const char *)return_value_PtrArray_IteratorGetElement$4;
-          _p = BrowseRoot$$1$$2$$1$$devName;
+          void *return_value_PtrArray_IteratorGetElement_4;
+          return_value_PtrArray_IteratorGetElement_4=PtrArray_IteratorGetElement(&BrowseRoot__1__2__1__2__1____iterdevName);
+          BrowseRoot__1__2__1__devName = (const char *)return_value_PtrArray_IteratorGetElement_4;
+          _p = BrowseRoot__1__2__1__devName;
           if(!(_p == ((const char *)NULL)))
           {
             if(!(*_p == 0))
             {
               if((signed int)*_s.ptr == 0)
               {
-                _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                 if(!(_s.rc == 0))
                   goto cleanup;
 
@@ -4185,7 +4185,7 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
                       if(!(*_p == 0))
                       {
                         if((signed int)*_s.ptr == 0)
-                          _s.rc=vfs_dir_add_entry$link1(_p, 10, _q);
+                          _s.rc=vfs_dir_add_entry_link1(_p, 10, _q);
 
                         else
                         {
@@ -4201,9 +4201,9 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
                             if(!(_s.rc == 0))
                               goto cleanup;
 
-                            const char *BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$1$$1$$2$$1$$1$$str;
-                            BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$1$$1$$2$$1$$1$$str=talloc_asprintf(tmp_ctx, "../%s/%s/status", (const void *)".debug", BrowseRoot$$1$$2$$1$$devName);
-                            vfs_symlink_set_path(BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$1$$1$$2$$1$$1$$str, _q);
+                            const char *BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__1__1__2__1__1__str;
+                            BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__1__1__2__1__1__str=talloc_asprintf(tmp_ctx, "../%s/%s/status", (const void *)".debug", BrowseRoot__1__2__1__devName);
+                            vfs_symlink_set_path(BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__1__1__2__1__1__str, _q);
                           }
 
                           if((signed int)*_s.ptr == 0)
@@ -4220,12 +4220,12 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
                   do
                   {
                     struct _Service *__serv;
-                    __serv=_DeviceList_LockService(BrowseRoot$$1$$2$$1$$devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
-                    const struct _Object_Class *return_value__ContentDir_GetBaseClass$5;
-                    return_value__ContentDir_GetBaseClass$5=_ContentDir_GetBaseClass();
-                    _Bool return_value__Object_IsA$6;
-                    return_value__Object_IsA$6=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass$5);
-                    current=ContentDir_Browse(return_value__Object_IsA$6 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, "0", (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_METADATA);
+                    __serv=_DeviceList_LockService(BrowseRoot__1__2__1__devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
+                    const struct _Object_Class *return_value__ContentDir_GetBaseClass_5;
+                    return_value__ContentDir_GetBaseClass_5=_ContentDir_GetBaseClass();
+                    _Bool return_value__Object_IsA_6;
+                    return_value__Object_IsA_6=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass_5);
+                    current=ContentDir_Browse(return_value__Object_IsA_6 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, "0", (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_METADATA);
                     _DeviceList_UnlockService(__serv);
                   }
                   while((_Bool)0);
@@ -4234,21 +4234,21 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
                     if(!(current->children == ((struct _ContentDir_Children *)NULL)))
                     {
                       const struct _DIDLObject *root;
-                      void *return_value_PtrArray_GetHead$7;
-                      return_value_PtrArray_GetHead$7=PtrArray_GetHead(current->children->objects);
-                      root = (const struct _DIDLObject *)return_value_PtrArray_GetHead$7;
+                      void *return_value_PtrArray_GetHead_7;
+                      return_value_PtrArray_GetHead_7=PtrArray_GetHead(current->children->objects);
+                      root = (const struct _DIDLObject *)return_value_PtrArray_GetHead_7;
                       if(!(root == ((const struct _DIDLObject *)NULL)))
                       {
                         do
                         {
-                          struct _Service *BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$1$$__serv;
-                          BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$1$$__serv=_DeviceList_LockService(BrowseRoot$$1$$2$$1$$devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
-                          const struct _Object_Class *return_value__ContentDir_GetBaseClass$8;
-                          return_value__ContentDir_GetBaseClass$8=_ContentDir_GetBaseClass();
-                          _Bool return_value__Object_IsA$9;
-                          return_value__Object_IsA$9=_Object_IsA((const void *)BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$1$$__serv, return_value__ContentDir_GetBaseClass$8);
-                          current=ContentDir_Browse(return_value__Object_IsA$9 != (_Bool)0 ? (struct _ContentDir *)BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$1$$__serv : (struct _ContentDir *)(void *)0, tmp_ctx, "0", (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_DIRECT_CHILDREN);
-                          _DeviceList_UnlockService(BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$1$$__serv);
+                          struct _Service *BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__1____serv;
+                          BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__1____serv=_DeviceList_LockService(BrowseRoot__1__2__1__devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
+                          const struct _Object_Class *return_value__ContentDir_GetBaseClass_8;
+                          return_value__ContentDir_GetBaseClass_8=_ContentDir_GetBaseClass();
+                          _Bool return_value__Object_IsA_9;
+                          return_value__Object_IsA_9=_Object_IsA((const void *)BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__1____serv, return_value__ContentDir_GetBaseClass_8);
+                          current=ContentDir_Browse(return_value__Object_IsA_9 != (_Bool)0 ? (struct _ContentDir *)BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__1____serv : (struct _ContentDir *)(void *)0, tmp_ctx, "0", (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_DIRECT_CHILDREN);
+                          _DeviceList_UnlockService(BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__1____serv);
                         }
                         while((_Bool)0);
                         _Bool searchable = self->search_hist != (struct _PtrArray *)(void *)0;
@@ -4259,22 +4259,22 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
                             const char *caps = (const char *)(void *)0;
                             do
                             {
-                              struct _Service *BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$2$$1$$__serv;
-                              BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$2$$1$$__serv=_DeviceList_LockService(BrowseRoot$$1$$2$$1$$devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
-                              const struct _Object_Class *return_value__ContentDir_GetBaseClass$10;
-                              return_value__ContentDir_GetBaseClass$10=_ContentDir_GetBaseClass();
-                              _Bool return_value__Object_IsA$11;
-                              return_value__Object_IsA$11=_Object_IsA((const void *)BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$2$$1$$__serv, return_value__ContentDir_GetBaseClass$10);
-                              caps=ContentDir_GetSearchCapabilities(return_value__Object_IsA$11 != (_Bool)0 ? (struct _ContentDir *)BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$2$$1$$__serv : (struct _ContentDir *)(void *)0, (void *)0);
-                              _DeviceList_UnlockService(BrowseRoot$$1$$2$$1$$2$$1$$1$$1$$1$$2$$1$$2$$3$$1$$2$$1$$__serv);
+                              struct _Service *BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__2__1____serv;
+                              BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__2__1____serv=_DeviceList_LockService(BrowseRoot__1__2__1__devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
+                              const struct _Object_Class *return_value__ContentDir_GetBaseClass_10;
+                              return_value__ContentDir_GetBaseClass_10=_ContentDir_GetBaseClass();
+                              _Bool return_value__Object_IsA_11;
+                              return_value__Object_IsA_11=_Object_IsA((const void *)BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__2__1____serv, return_value__ContentDir_GetBaseClass_10);
+                              caps=ContentDir_GetSearchCapabilities(return_value__Object_IsA_11 != (_Bool)0 ? (struct _ContentDir *)BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__2__1____serv : (struct _ContentDir *)(void *)0, (void *)0);
+                              _DeviceList_UnlockService(BrowseRoot__1__2__1__2__1__1__1__1__2__1__2__3__1__2__1____serv);
                             }
                             while((_Bool)0);
                             if(!(caps == ((const char *)NULL)) && !(searchable == (_Bool)0))
-                              tmp_if_expr$12 = *caps != 0 ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_12 = *caps != 0 ? (_Bool)1 : (_Bool)0;
 
                             else
-                              tmp_if_expr$12 = (_Bool)0;
-                            searchable = tmp_if_expr$12;
+                              tmp_if_expr_12 = (_Bool)0;
+                            searchable = tmp_if_expr_12;
                           }
 
                         }
@@ -4285,7 +4285,7 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
                           {
                             if((signed int)*_s.ptr == 0)
                             {
-                              _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, BrowseRoot$$1$$2$$1$$devName, root, searchable, (const char *)(void *)0, current->children);
+                              _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, BrowseRoot__1__2__1__devName, root, searchable, (const char *)(void *)0, current->children);
                               if(!(_s.rc == 0))
                                 goto cleanup;
 
@@ -4293,7 +4293,7 @@ static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char *
 
                             else
                             {
-                              _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, BrowseRoot$$1$$2$$1$$devName, root, searchable, (const char *)(void *)0, current->children);
+                              _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, BrowseRoot__1__2__1__devName, root, searchable, (const char *)(void *)0, current->children);
                               if((signed int)*_s.ptr == 0 || !(_s.rc == 0))
                                 goto cleanup;
 
@@ -4340,25 +4340,25 @@ cleanup:
 // file djfs.c line 90
 static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const char * const sub_path, const struct _VFS_Query * const query, void * const tmp_ctx, const char * const devName, const struct _DIDLObject * const parent, const char * const criteria_start)
 {
-  union anonymous$3 *lock = (union anonymous$3 *)(void *)0;
+  union anonymous_3 *lock = (union anonymous_3 *)(void *)0;
   struct _VFS_BrowseStatus _s = { .rc=0, .ptr=sub_path };
   const struct _VFS_Query * const _q = query;
-  char *tmp_post$3;
-  _Bool return_value_PtrArray_IteratorLoop$4;
-  char *tmp_if_expr$7;
-  char *return_value_talloc_asprintf$6;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  char *tmp_if_expr$16;
-  char *return_value_talloc_asprintf$15;
-  char *tmp_if_expr$18;
-  char *return_value_talloc_asprintf$17;
-  unsigned long int return_value_PtrArray_GetSize$32;
-  char *tmp_statement_expression$23;
-  char *tmp_statement_expression$25;
-  const char *tmp_if_expr$29;
-  char *tmp_statement_expression$27;
+  char *tmp_post_3;
+  _Bool return_value_PtrArray_IteratorLoop_4;
+  char *tmp_if_expr_7;
+  char *return_value_talloc_asprintf_6;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  char *tmp_if_expr_16;
+  char *return_value_talloc_asprintf_15;
+  char *tmp_if_expr_18;
+  char *return_value_talloc_asprintf_17;
+  unsigned long int return_value_PtrArray_GetSize_32;
+  char *tmp_statement_expression_23;
+  char *tmp_statement_expression_25;
+  const char *tmp_if_expr_29;
+  char *tmp_statement_expression_27;
   if(_s.ptr == ((const char *)NULL) || _q == ((const struct _VFS_Query *)NULL))
     _s.rc = -14;
 
@@ -4370,7 +4370,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
       if(!(*_p == 0))
       {
         if((signed int)*_s.ptr == 0)
-          _s.rc=vfs_dir_add_entry$link1(_p, 8, _q);
+          _s.rc=vfs_dir_add_entry_link1(_p, 8, _q);
 
         else
         {
@@ -4386,7 +4386,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
             if(!(_s.rc == 0))
               goto cleanup;
 
-            static const char * const str = "\nSearching\n+++++++++\n\nWhen a \"_search\" directory is present, it indicates that the UPnP device \nsupports some kind of searching.\n\nSearching is done in \"_search\" by entering a sub-directory name with\na specific search syntax : see \"Basic search\" and \"Advanced search\" below.\n\nEach search (basic or advanced) can be refined using the sub-directories \n\"_and\" and \"_or\" found in results. These are equivalent to a single search \ngrouping the previous search and the new search using the 'and' and 'or' \nlogical operators.\nFor example:\n\t$ cd 's1'\n\t$ cd _and\n\t$ cd 's2'\nis equivalent to searching for both criteria 's1' and 's2'.\n\nWhen a search returns no result, no sub-directory is created :\n   $ cd _search/non_existant_criteria\ncd: _search/non_existant_criteria: No such file or directory\n\n\n\nA) Basic search\n===============\n\nSearching is done in \"_search\" by entering a sub-directory name with only\n*one* word. This word is searched in common properties for the objects \n(title, creator name, artists names, album name). It is ok to match only \na part of these strings, and the match is case-insensitive.\n\nFor example, to search for all objects where the title, creator, artist or\nalbum names contain the string \"head\" :\n   $ cd _search\n   $ cd head\n\nThis would match for example any track by group \"Motorhead\", or a track named \n\"Can't Get You Out Of My Head\", or any track from album \"Head First\".\n\nTo further refine the search, it is possible to use the \"_and\" and \"_or\"\nsub-directories, as explained above.\n\nStarting from the preceding example, to keep only only the \"Motorhead\" tracks,\none could do :\n   $ cd _and\n   $ cd mot\n\n\n\nB) Advanced search\n==================\n\nSearching is done in \"_search\" by entering a sub-directory name with\na specific search syntax : see \"Search criteria\" below.\n\nFor example, to search for all objects where the title contains the string \"by\"\n(note the single-quote around the criteria necessary for the shell) :\n   $ cd _search\n   $ ls 'dc:title contains \"by\"'\n\nSee more examples at the end of this document.\n\n\nAdvanced search criteria syntax \n-------------------------------\n\nSearchCriteria directory names shall follow the following pseudo-grammar\n(this grammar follows the SearchCriteria defined in the UPnP AV standard, \nas defined in the \"ContentDirectory:1 Service Template Version 1.01\" document).\n\nCharacters between 'single quote' must appear literally.\n\n\nsearchCriteria\t::= searchExp | '*'\nsearchExp    \t::= relExp | \n\t\t    searchExp space+ logicalOp space+ searchExp | \n\t\t    '(' space* searchExp space* ')' \nlogicalOp\t::= 'and' | 'or' \nrelExp\t     \t::= property space+ binOp space+ quotedString | \n\t\t    property space+ existsOp space+ boolean \nbinOp\t    \t::= relOp | stringOp \nrelOp\t\t::= '=' | '!=' | '<' | '<=' | '>' | '>=' \nstringOp\t::= 'contains' | 'doesNotContain' | 'derivedfrom' \nexistsOp\t::= 'exists' \nboolean\t\t::= 'true' | 'false' \nspace\t\t::= ' '\nquotedString\t::= (1)\nproperty\t::= (2)\n\n\n(1) a \"quotedString\" is a string enclosed within double-quotes '\"'. Inside such\n    strings, double-quote themselves shall be escaped e.g. represented as \\\" .\n\n(2) a \"property\" represents a characteristic of an UPnP object. \n    Standard property names are normally defined, but are not necessarily \n    implemented by all devices (also, non-standard properties can be added) :\n    see \"Search capabilities\" below for examples of standard properties.\n\n\nNotes on search criteria\n------------------------\n\n- Search criteria expressions contain special characters that shall be quoted\n  when used on the shell command line (e.g. '*', '<', '(', '\"', ...). The\n  easiest method is to enclose the whole criteria within 'single quote',\n  as in the example in this document.\n\n- double-quote (\") shall be escaped within quotedString e.g. represented as \\\"\n\n- Operator precedence, highest to lowest, is: \n\tdouble quoting \n\t( ) \n\tbinOp, existsOp \n\t'and' \n\t'or' \n  For example,\n\t$ cd 's1 and s2 or s3 or s4 and s5' \n  is equivalent to\n\t$ cd '((s1 and s2) or s3) or (s4 and s5)'\n\n- Return all : the special criteria '*' means \"find everything\", or \n  \"return all objects that exist beneath the selected starting directory\"\n  (beware of performances on large collections). \n\n- Property existence is queried for by using the 'exists' binary operator. \n  The criteria \"actor exists true\" is true for every object that has at least \n  one occurrence of the actor property. It is false for any object that has no\n  actor property. Similarly, the criteria \"actor exists false\" is false for \n  every object that has at least one occurrence of the actor property. It is \n  true for any object that has no actor property. \n\n- Property omission : any property value query (as distinct from an existence \n  query) applied to an object that does not have that property, evaluates \n  to false. \n\n- Class derivation (see \"Class hierarchy\" below) : the 'derivedfrom' operator\n  allows to query the existence of objects whose class is derived from some \n  base class specification. For example 'upnp:class derivedfrom \"object.item\"'\n  is true for all objects whose class is, or begins with, \"object.item\".\n\n- Numeric comparisons : when an operator in a criteria is a relOp ('=', '<',\n  '<=', ...), the quotedString can be a decimal integer (sequence of decimal\n  digits with an optional leading sign '+' or '-'). The comparison will be\n  done numerically if the actual property is also a decimal integer. In all \n  other cases, the comparison is done by treating both values as strings.\n\n- String comparisons : all operators when applied to strings use \n  case-insensitive comparisons. \n\n\nAdvanced search capabilities\n----------------------------\n\nThe \"search_capabilities\" file is a list of property names that can be used \nin search criteria. A wild-card ('*') indicates that the device supports \nsearch queries using all tags present in the device.\n\nSome common properties are (not necessarily supported by all UPnP devices) :\n\ndc:title \tName of the object\ndc:creator\tPrimary content creator or owner of the object \nupnp:artist\tName of an artist\nupnp:genre\tName of the genre to which an object belongs \nupnp:album\tTitle of the album to which the object belongs\ndc:date\t\tDate of the object, of the form \"YYYY-MM-DD\" (ISO 8601 format) \nupnp:class\tClass of the object\n@id\t\tAn identifier for the object, unique within the UPnP device.\n\n\nAdvanced class hierarchy\n------------------------\n\nA class is used to assign a type to an object in an UPnP device, and identifies\nthe set of properties present on that object. Classes are organized in a \nhierarchy with certain classes being derived from others as in a typical object\noriented system. At the root of the class hierarchy is the 'object' base class.\n\nEach class is named using a string in \"dotted\" notation:\n     derivedName ::= ( 'object' | derivedName ) '.' shortName \nSome example are 'object', 'object.item', 'object.container', \n'object.item.audioItem.musicTrack' and 'object.container.album.musicAlbum'.\n\nThe UPnP AV standard defines a number of class descriptions that are derived \nfrom either the 'item' or 'container' classes : see figure below (only \nshortNames are displayed in the tree).\nDevice vendors are free to extend this list with other classes or properties.\n \n \n  object\n    |___ item\n    |     |___ audioItem\n    |     |      |___ musicTrack\n    |     |      |___ audioBroadcast\n    |     |      \\___ audioBook\n    |     |\n    |     |___ videoItem\n    |     |      |___ movie\n    |     |      |___ videoBroadcast\n    |     |      \\___ musicVideoClip\n    |     |\n    |     |___ imageItem\n    |     |      \\___ photo\n    |     |\n    |     |___ playlistItem\n    |     |\n    |     \\___ textItem\n    |\n    \\___ container\n          |___ album\n          |      |___ musicAlbum\n          |      \\___ photoAlbum\n          |\n          |___ genre\n          |      |___ musicGenre\n          |      \\___ movieGenre\n          |\n          |___ playlistContainer\n          |\n          |___ person\n          |      \\___ musicArtist\n          |\n          |___ storageSystem\n          |___ storageVolume\n          \\___ storageFolder\n \n\n\nNotes on these standard classes :\n\n- 'item' : a derived class of 'object' used to represent \"atomic\" \n  content objects, i.e. object that don't contain other objects, for example, \n  a music track on an audio CD\n\n- 'container' : a derived class of 'object' used to represent \n  containers e.g. a music album. In djmount, each container is mapped to a \n  directory.\n  \n- 'audioItem' : a piece of content that, when rendered, generates some audio. \n  Note that movies, TV broadcasts, etc., that also contain an audio track \n  are excluded from this definition : those objects should be classified \n  under 'videoItem' (see below).\n  Standard derived classes are 'musicTrack' (audio that should be interpreted  \n  as music e.g. a song), 'audioBroadcast' (a continuous stream of audio that \n  should be interpreted as an audio broadcast) and 'audioBook' (audio that\n  should be interpreted as a book).\n\n- 'videoItem' : a piece of content that, when rendered, generates some video. \n  Standard derived classes are 'movie' (video that should be interpreted \n  as a movie), 'videoBroadcast' (a continuous stream of video that should be \n  interpreted as a broadcast e.g. a conventional TV channel or a Webcast),\n  and 'musicVideoClip' (video that should be interpreted as a clip supporting \n  a song).\n\n- 'imageItem' : a piece of content that, when rendered, generates some still \n  image. A standard derived class is 'photo' (image that should be interpreted \n  as a photo, as opposed to, for example, an icon).\n\n- 'playlistItem' : a playable sequence of resources. It is different from \n  'musicAlbum' in the sense that a 'playlistItem' may contain a mix \n  of audio, video and images and is typically created by a user, while an \n  'album' is typically a fixed published sequence of songs (e.g. an audio CD).\n  A 'playlistItem' item is typically a reference to a playlist file \n  (e.g. an external M3U file). \n\n- 'textItem' : a piece of content that, when rendered, is readable as text.\n\n- 'album' : an ordered collection of 'objects'. \n  Standard derived classes are 'musicAlbum' (which contains items of class \n  'musicTrack', or 'sub'-albums of class 'musicAlbum', e.g. an audio-CD) \n  and 'photoAlbum' (which contains items of class 'photo', or 'sub'-albums \n  of class 'photoAlbum').\n\n- 'genre' : an unordered collection of 'objects' that \"belong\" to the genre,\n  in a loose sense. \n  Standard derived classes are 'musicGenre' (genre which should be interpreted\n  as a \"style of music\" e.g. \"Rock\") and 'movieGenre' (genre which should be \n  interpreted as a \"style of movies\" e.g. \"Western\").\n\n- 'playlistContainer' : a collection of 'objects'. It is different from \n  'musicAlbum' in the sense that a 'playlistContainer' may contain a mix \n  of audio, video and images and is typically created by a user, while an\n  'album' is typically a fixed published sequence of songs (e.g. an audio CD).\n  \n- 'person' : an unordered collection of 'objects' that \"belong\" to some people,\n  in a loose sense. A standard derived class is 'musicArtist' (a music artist).\n\n- 'storageSystem' : a potentially heterogeneous collection of storage media. \n  An example is a CD Jukebox.\n\n- 'storageVolume' : some physical storage unit of a single type. Examples are \n  a Hard Disk Drive, a CD-Audio disc, or a Flash memory card.\n\n- 'storageFolder' : a collection of objects stored on some storage medium. \n  Examples are a directory on a Hard Disk Drive, or a directory on CD-Rom.\n\n\n\nAdvanced search examples \n------------------------\n\na) Search for all content by singer Renaud\n   i.e. search for all objects where 'dc:creator' is Renaud\n\n   $ cd _search\n   $ ls 'dc:creator = \"Renaud\"'\n\n   Note that this is equivalent to 'dc:creator = \"renaud\"' because comparisons\n   are case-insensitive.\n\n \nb) Search for all photos taken during October 2005\n   i.e. search for all photo objects whose 'dc:date' is in October 2005\n\n   $ cd _search\n   $ ls 'upnp:class = \"object.item.imageItem.photo\" and ( dc:date >= \"2005-10-01\" and dc:date <= \"2005-10-31\" )'\n\n   Note that this is equivalent to the following breakdown, using \"_and\"\n   sub-directories :\n\n   $ cd _search\n   $ cd 'upnp:class = \"object.item.imageItem.photo\"'\n   $ cd _and\n   $ ls 'dc:date >= \"2005-10-01\"/_and/dc:date <= \"2005-10-31\"'\n\n\nc) Search for all objects in the My Photos folder containing the word Paris\n   i.e. search for all objects where the 'dc:title' contains Paris under the \n   \"My Photos\" directory.\n\n   $ cd \"My Photos/_search\"\n   $ ls 'dc:title contains \"Paris\"'\n\n\nd) Search for all album objects in the device\n   i.e. search for all objects that are derived from object.container.album. \n\n   $ cd _search\n   $ ls 'upnp:class derivedfrom \"object.container.album\"'\n\n\n\n";
+            static const char * const str = "\nSearching\n+++++++++\n\nWhen a \"_search\" directory is present, it indicates that the UPnP device \nsupports some kind of searching.\n\nSearching is done in \"_search\" by entering a sub-directory name with\na specific search syntax : see \"Basic search\" and \"Advanced search\" below.\n\nEach search (basic or advanced) can be refined using the sub-directories \n\"_and\" and \"_or\" found in results. These are equivalent to a single search \ngrouping the previous search and the new search using the 'and' and 'or' \nlogical operators.\nFor example:\n\t_ cd 's1'\n\t_ cd _and\n\t_ cd 's2'\nis equivalent to searching for both criteria 's1' and 's2'.\n\nWhen a search returns no result, no sub-directory is created :\n   _ cd _search/non_existant_criteria\ncd: _search/non_existant_criteria: No such file or directory\n\n\n\nA) Basic search\n===============\n\nSearching is done in \"_search\" by entering a sub-directory name with only\n*one* word. This word is searched in common properties for the objects \n(title, creator name, artists names, album name). It is ok to match only \na part of these strings, and the match is case-insensitive.\n\nFor example, to search for all objects where the title, creator, artist or\nalbum names contain the string \"head\" :\n   _ cd _search\n   _ cd head\n\nThis would match for example any track by group \"Motorhead\", or a track named \n\"Can't Get You Out Of My Head\", or any track from album \"Head First\".\n\nTo further refine the search, it is possible to use the \"_and\" and \"_or\"\nsub-directories, as explained above.\n\nStarting from the preceding example, to keep only only the \"Motorhead\" tracks,\none could do :\n   _ cd _and\n   _ cd mot\n\n\n\nB) Advanced search\n==================\n\nSearching is done in \"_search\" by entering a sub-directory name with\na specific search syntax : see \"Search criteria\" below.\n\nFor example, to search for all objects where the title contains the string \"by\"\n(note the single-quote around the criteria necessary for the shell) :\n   _ cd _search\n   _ ls 'dc:title contains \"by\"'\n\nSee more examples at the end of this document.\n\n\nAdvanced search criteria syntax \n-------------------------------\n\nSearchCriteria directory names shall follow the following pseudo-grammar\n(this grammar follows the SearchCriteria defined in the UPnP AV standard, \nas defined in the \"ContentDirectory:1 Service Template Version 1.01\" document).\n\nCharacters between 'single quote' must appear literally.\n\n\nsearchCriteria\t::= searchExp | '*'\nsearchExp    \t::= relExp | \n\t\t    searchExp space+ logicalOp space+ searchExp | \n\t\t    '(' space* searchExp space* ')' \nlogicalOp\t::= 'and' | 'or' \nrelExp\t     \t::= property space+ binOp space+ quotedString | \n\t\t    property space+ existsOp space+ boolean \nbinOp\t    \t::= relOp | stringOp \nrelOp\t\t::= '=' | '!=' | '<' | '<=' | '>' | '>=' \nstringOp\t::= 'contains' | 'doesNotContain' | 'derivedfrom' \nexistsOp\t::= 'exists' \nboolean\t\t::= 'true' | 'false' \nspace\t\t::= ' '\nquotedString\t::= (1)\nproperty\t::= (2)\n\n\n(1) a \"quotedString\" is a string enclosed within double-quotes '\"'. Inside such\n    strings, double-quote themselves shall be escaped e.g. represented as \\\" .\n\n(2) a \"property\" represents a characteristic of an UPnP object. \n    Standard property names are normally defined, but are not necessarily \n    implemented by all devices (also, non-standard properties can be added) :\n    see \"Search capabilities\" below for examples of standard properties.\n\n\nNotes on search criteria\n------------------------\n\n- Search criteria expressions contain special characters that shall be quoted\n  when used on the shell command line (e.g. '*', '<', '(', '\"', ...). The\n  easiest method is to enclose the whole criteria within 'single quote',\n  as in the example in this document.\n\n- double-quote (\") shall be escaped within quotedString e.g. represented as \\\"\n\n- Operator precedence, highest to lowest, is: \n\tdouble quoting \n\t( ) \n\tbinOp, existsOp \n\t'and' \n\t'or' \n  For example,\n\t_ cd 's1 and s2 or s3 or s4 and s5' \n  is equivalent to\n\t_ cd '((s1 and s2) or s3) or (s4 and s5)'\n\n- Return all : the special criteria '*' means \"find everything\", or \n  \"return all objects that exist beneath the selected starting directory\"\n  (beware of performances on large collections). \n\n- Property existence is queried for by using the 'exists' binary operator. \n  The criteria \"actor exists true\" is true for every object that has at least \n  one occurrence of the actor property. It is false for any object that has no\n  actor property. Similarly, the criteria \"actor exists false\" is false for \n  every object that has at least one occurrence of the actor property. It is \n  true for any object that has no actor property. \n\n- Property omission : any property value query (as distinct from an existence \n  query) applied to an object that does not have that property, evaluates \n  to false. \n\n- Class derivation (see \"Class hierarchy\" below) : the 'derivedfrom' operator\n  allows to query the existence of objects whose class is derived from some \n  base class specification. For example 'upnp:class derivedfrom \"object.item\"'\n  is true for all objects whose class is, or begins with, \"object.item\".\n\n- Numeric comparisons : when an operator in a criteria is a relOp ('=', '<',\n  '<=', ...), the quotedString can be a decimal integer (sequence of decimal\n  digits with an optional leading sign '+' or '-'). The comparison will be\n  done numerically if the actual property is also a decimal integer. In all \n  other cases, the comparison is done by treating both values as strings.\n\n- String comparisons : all operators when applied to strings use \n  case-insensitive comparisons. \n\n\nAdvanced search capabilities\n----------------------------\n\nThe \"search_capabilities\" file is a list of property names that can be used \nin search criteria. A wild-card ('*') indicates that the device supports \nsearch queries using all tags present in the device.\n\nSome common properties are (not necessarily supported by all UPnP devices) :\n\ndc:title \tName of the object\ndc:creator\tPrimary content creator or owner of the object \nupnp:artist\tName of an artist\nupnp:genre\tName of the genre to which an object belongs \nupnp:album\tTitle of the album to which the object belongs\ndc:date\t\tDate of the object, of the form \"YYYY-MM-DD\" (ISO 8601 format) \nupnp:class\tClass of the object\n@id\t\tAn identifier for the object, unique within the UPnP device.\n\n\nAdvanced class hierarchy\n------------------------\n\nA class is used to assign a type to an object in an UPnP device, and identifies\nthe set of properties present on that object. Classes are organized in a \nhierarchy with certain classes being derived from others as in a typical object\noriented system. At the root of the class hierarchy is the 'object' base class.\n\nEach class is named using a string in \"dotted\" notation:\n     derivedName ::= ( 'object' | derivedName ) '.' shortName \nSome example are 'object', 'object.item', 'object.container', \n'object.item.audioItem.musicTrack' and 'object.container.album.musicAlbum'.\n\nThe UPnP AV standard defines a number of class descriptions that are derived \nfrom either the 'item' or 'container' classes : see figure below (only \nshortNames are displayed in the tree).\nDevice vendors are free to extend this list with other classes or properties.\n \n \n  object\n    |___ item\n    |     |___ audioItem\n    |     |      |___ musicTrack\n    |     |      |___ audioBroadcast\n    |     |      \\___ audioBook\n    |     |\n    |     |___ videoItem\n    |     |      |___ movie\n    |     |      |___ videoBroadcast\n    |     |      \\___ musicVideoClip\n    |     |\n    |     |___ imageItem\n    |     |      \\___ photo\n    |     |\n    |     |___ playlistItem\n    |     |\n    |     \\___ textItem\n    |\n    \\___ container\n          |___ album\n          |      |___ musicAlbum\n          |      \\___ photoAlbum\n          |\n          |___ genre\n          |      |___ musicGenre\n          |      \\___ movieGenre\n          |\n          |___ playlistContainer\n          |\n          |___ person\n          |      \\___ musicArtist\n          |\n          |___ storageSystem\n          |___ storageVolume\n          \\___ storageFolder\n \n\n\nNotes on these standard classes :\n\n- 'item' : a derived class of 'object' used to represent \"atomic\" \n  content objects, i.e. object that don't contain other objects, for example, \n  a music track on an audio CD\n\n- 'container' : a derived class of 'object' used to represent \n  containers e.g. a music album. In djmount, each container is mapped to a \n  directory.\n  \n- 'audioItem' : a piece of content that, when rendered, generates some audio. \n  Note that movies, TV broadcasts, etc., that also contain an audio track \n  are excluded from this definition : those objects should be classified \n  under 'videoItem' (see below).\n  Standard derived classes are 'musicTrack' (audio that should be interpreted  \n  as music e.g. a song), 'audioBroadcast' (a continuous stream of audio that \n  should be interpreted as an audio broadcast) and 'audioBook' (audio that\n  should be interpreted as a book).\n\n- 'videoItem' : a piece of content that, when rendered, generates some video. \n  Standard derived classes are 'movie' (video that should be interpreted \n  as a movie), 'videoBroadcast' (a continuous stream of video that should be \n  interpreted as a broadcast e.g. a conventional TV channel or a Webcast),\n  and 'musicVideoClip' (video that should be interpreted as a clip supporting \n  a song).\n\n- 'imageItem' : a piece of content that, when rendered, generates some still \n  image. A standard derived class is 'photo' (image that should be interpreted \n  as a photo, as opposed to, for example, an icon).\n\n- 'playlistItem' : a playable sequence of resources. It is different from \n  'musicAlbum' in the sense that a 'playlistItem' may contain a mix \n  of audio, video and images and is typically created by a user, while an \n  'album' is typically a fixed published sequence of songs (e.g. an audio CD).\n  A 'playlistItem' item is typically a reference to a playlist file \n  (e.g. an external M3U file). \n\n- 'textItem' : a piece of content that, when rendered, is readable as text.\n\n- 'album' : an ordered collection of 'objects'. \n  Standard derived classes are 'musicAlbum' (which contains items of class \n  'musicTrack', or 'sub'-albums of class 'musicAlbum', e.g. an audio-CD) \n  and 'photoAlbum' (which contains items of class 'photo', or 'sub'-albums \n  of class 'photoAlbum').\n\n- 'genre' : an unordered collection of 'objects' that \"belong\" to the genre,\n  in a loose sense. \n  Standard derived classes are 'musicGenre' (genre which should be interpreted\n  as a \"style of music\" e.g. \"Rock\") and 'movieGenre' (genre which should be \n  interpreted as a \"style of movies\" e.g. \"Western\").\n\n- 'playlistContainer' : a collection of 'objects'. It is different from \n  'musicAlbum' in the sense that a 'playlistContainer' may contain a mix \n  of audio, video and images and is typically created by a user, while an\n  'album' is typically a fixed published sequence of songs (e.g. an audio CD).\n  \n- 'person' : an unordered collection of 'objects' that \"belong\" to some people,\n  in a loose sense. A standard derived class is 'musicArtist' (a music artist).\n\n- 'storageSystem' : a potentially heterogeneous collection of storage media. \n  An example is a CD Jukebox.\n\n- 'storageVolume' : some physical storage unit of a single type. Examples are \n  a Hard Disk Drive, a CD-Audio disc, or a Flash memory card.\n\n- 'storageFolder' : a collection of objects stored on some storage medium. \n  Examples are a directory on a Hard Disk Drive, or a directory on CD-Rom.\n\n\n\nAdvanced search examples \n------------------------\n\na) Search for all content by singer Renaud\n   i.e. search for all objects where 'dc:creator' is Renaud\n\n   _ cd _search\n   _ ls 'dc:creator = \"Renaud\"'\n\n   Note that this is equivalent to 'dc:creator = \"renaud\"' because comparisons\n   are case-insensitive.\n\n \nb) Search for all photos taken during October 2005\n   i.e. search for all photo objects whose 'dc:date' is in October 2005\n\n   _ cd _search\n   _ ls 'upnp:class = \"object.item.imageItem.photo\" and ( dc:date >= \"2005-10-01\" and dc:date <= \"2005-10-31\" )'\n\n   Note that this is equivalent to the following breakdown, using \"_and\"\n   sub-directories :\n\n   _ cd _search\n   _ cd 'upnp:class = \"object.item.imageItem.photo\"'\n   _ cd _and\n   _ ls 'dc:date >= \"2005-10-01\"/_and/dc:date <= \"2005-10-31\"'\n\n\nc) Search for all objects in the My Photos folder containing the word Paris\n   i.e. search for all objects where the 'dc:title' contains Paris under the \n   \"My Photos\" directory.\n\n   _ cd \"My Photos/_search\"\n   _ ls 'dc:title contains \"Paris\"'\n\n\nd) Search for all album objects in the device\n   i.e. search for all objects that are derived from object.container.album. \n\n   _ cd _search\n   _ ls 'upnp:class derivedfrom \"object.container.album\"'\n\n\n\n";
             vfs_file_set_string(str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_EXTERN, "djfs.c:102", _q);
           }
 
@@ -4404,7 +4404,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
       if(!(*_p == 0))
       {
         if((signed int)*_s.ptr == 0)
-          _s.rc=vfs_dir_add_entry$link1(_p, 8, _q);
+          _s.rc=vfs_dir_add_entry_link1(_p, 8, _q);
 
         else
         {
@@ -4423,28 +4423,28 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
             const char *caps = (const char *)(void *)0;
             do
             {
-              struct _Service *BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$1$$__serv;
-              BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$1$$__serv=_DeviceList_LockService(devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
-              const struct _Object_Class *return_value__ContentDir_GetBaseClass$1;
-              return_value__ContentDir_GetBaseClass$1=_ContentDir_GetBaseClass();
-              _Bool return_value__Object_IsA$2;
-              return_value__Object_IsA$2=_Object_IsA((const void *)BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$1$$__serv, return_value__ContentDir_GetBaseClass$1);
-              caps=ContentDir_GetSearchCapabilities(return_value__Object_IsA$2 != (_Bool)0 ? (struct _ContentDir *)BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$1$$__serv : (struct _ContentDir *)(void *)0, (void *)0);
-              _DeviceList_UnlockService(BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$1$$__serv);
+              struct _Service *BrowseSearchDir__1__2__1__2__2__1__1__1____serv;
+              BrowseSearchDir__1__2__1__2__2__1__1__1____serv=_DeviceList_LockService(devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
+              const struct _Object_Class *return_value__ContentDir_GetBaseClass_1;
+              return_value__ContentDir_GetBaseClass_1=_ContentDir_GetBaseClass();
+              _Bool return_value__Object_IsA_2;
+              return_value__Object_IsA_2=_Object_IsA((const void *)BrowseSearchDir__1__2__1__2__2__1__1__1____serv, return_value__ContentDir_GetBaseClass_1);
+              caps=ContentDir_GetSearchCapabilities(return_value__Object_IsA_2 != (_Bool)0 ? (struct _ContentDir *)BrowseSearchDir__1__2__1__2__2__1__1__1____serv : (struct _ContentDir *)(void *)0, (void *)0);
+              _DeviceList_UnlockService(BrowseSearchDir__1__2__1__2__2__1__1__1____serv);
             }
             while((_Bool)0);
             if(!(caps == ((const char *)NULL)))
             {
               if(!(*caps == 0))
               {
-                char *BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$2$$str;
-                BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$2$$str=talloc_asprintf(tmp_ctx, "%s\n", caps);
-                char *s = BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$2$$str;
+                char *BrowseSearchDir__1__2__1__2__2__1__1__2__str;
+                BrowseSearchDir__1__2__1__2__2__1__1__2__str=talloc_asprintf(tmp_ctx, "%s\n", caps);
+                char *s = BrowseSearchDir__1__2__1__2__2__1__1__2__str;
                 for( ; !((signed int)*s == 0); s = s + 1l)
                   if((signed int)*s == 44)
                     *s = (char)10;
 
-                vfs_file_set_string(BrowseSearchDir$$1$$2$$1$$2$$2$$1$$1$$2$$str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:117", _q);
+                vfs_file_set_string(BrowseSearchDir__1__2__1__2__2__1__1__2__str, (enum _FileBuffer_StringAlloc)FILE_BUFFER_STRING_STEAL, "djfs.c:117", _q);
               }
 
             }
@@ -4464,12 +4464,12 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
     char *pp = parent_path + (_s.ptr - query->path);
     do
     {
-      tmp_post$3 = pp;
+      tmp_post_3 = pp;
       pp = pp - 1l;
-      *tmp_post$3 = (char)0;
+      *tmp_post_3 = (char)0;
     }
     while((signed int)*pp == 47);
-    struct _SearchHistory *BrowseSearchDir$$1$$2$$1$$h;
+    struct _SearchHistory *BrowseSearchDir__1__2__1__h;
     pthread_mutex_lock(&self->search_hist_mutex);
     lock = &self->search_hist_mutex;
     do
@@ -4479,25 +4479,25 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
         __iterh=PtrArray_IteratorStart(self->search_hist);
         do
         {
-          return_value_PtrArray_IteratorLoop$4=PtrArray_IteratorLoop(&__iterh);
-          if(return_value_PtrArray_IteratorLoop$4 == (_Bool)0)
+          return_value_PtrArray_IteratorLoop_4=PtrArray_IteratorLoop(&__iterh);
+          if(return_value_PtrArray_IteratorLoop_4 == (_Bool)0)
             break;
 
-          void *return_value_PtrArray_IteratorGetElement$5;
-          return_value_PtrArray_IteratorGetElement$5=PtrArray_IteratorGetElement(&__iterh);
-          BrowseSearchDir$$1$$2$$1$$h = (struct _SearchHistory *)return_value_PtrArray_IteratorGetElement$5;
-          signed int return_value_strcmp$10;
-          return_value_strcmp$10=strcmp(parent_path, BrowseSearchDir$$1$$2$$1$$h->parent_path);
-          if(return_value_strcmp$10 == 0)
+          void *return_value_PtrArray_IteratorGetElement_5;
+          return_value_PtrArray_IteratorGetElement_5=PtrArray_IteratorGetElement(&__iterh);
+          BrowseSearchDir__1__2__1__h = (struct _SearchHistory *)return_value_PtrArray_IteratorGetElement_5;
+          signed int return_value_strcmp_10;
+          return_value_strcmp_10=strcmp(parent_path, BrowseSearchDir__1__2__1__h->parent_path);
+          if(return_value_strcmp_10 == 0)
           {
-            _p = BrowseSearchDir$$1$$2$$1$$h->basename;
+            _p = BrowseSearchDir__1__2__1__h->basename;
             if(!(_p == ((const char *)NULL)))
             {
               if(!(*_p == 0))
               {
                 if((signed int)*_s.ptr == 0)
                 {
-                  _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                  _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                   if(!(_s.rc == 0))
                     goto cleanup;
 
@@ -4517,27 +4517,27 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
 
                     }
 
-                    vfs_set_time(BrowseSearchDir$$1$$2$$1$$h->time, _q);
-                    const char *BrowseSearchDir$$1$$2$$1$$4$$1$$1$$1$$1$$1$$2$$1$$2$$full_criteria;
+                    vfs_set_time(BrowseSearchDir__1__2__1__h->time, _q);
+                    const char *BrowseSearchDir__1__2__1__4__1__1__1__1__1__2__1__2__full_criteria;
                     if(!(criteria_start == ((const char *)NULL)))
                     {
-                      return_value_talloc_asprintf$6=talloc_asprintf(tmp_ctx, "%s%s)", criteria_start, BrowseSearchDir$$1$$2$$1$$h->criteria);
-                      tmp_if_expr$7 = return_value_talloc_asprintf$6;
+                      return_value_talloc_asprintf_6=talloc_asprintf(tmp_ctx, "%s%s)", criteria_start, BrowseSearchDir__1__2__1__h->criteria);
+                      tmp_if_expr_7 = return_value_talloc_asprintf_6;
                     }
 
                     else
-                      tmp_if_expr$7 = BrowseSearchDir$$1$$2$$1$$h->criteria;
-                    BrowseSearchDir$$1$$2$$1$$4$$1$$1$$1$$1$$1$$2$$1$$2$$full_criteria = tmp_if_expr$7;
+                      tmp_if_expr_7 = BrowseSearchDir__1__2__1__h->criteria;
+                    BrowseSearchDir__1__2__1__4__1__1__1__1__1__2__1__2__full_criteria = tmp_if_expr_7;
                     const struct _ContentDir_BrowseResult *res;
                     do
                     {
                       struct _Service *__serv;
                       __serv=_DeviceList_LockService(devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
-                      const struct _Object_Class *return_value__ContentDir_GetBaseClass$8;
-                      return_value__ContentDir_GetBaseClass$8=_ContentDir_GetBaseClass();
-                      _Bool return_value__Object_IsA$9;
-                      return_value__Object_IsA$9=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass$8);
-                      res=ContentDir_Search(return_value__Object_IsA$9 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, parent->id, BrowseSearchDir$$1$$2$$1$$4$$1$$1$$1$$1$$1$$2$$1$$2$$full_criteria);
+                      const struct _Object_Class *return_value__ContentDir_GetBaseClass_8;
+                      return_value__ContentDir_GetBaseClass_8=_ContentDir_GetBaseClass();
+                      _Bool return_value__Object_IsA_9;
+                      return_value__Object_IsA_9=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass_8);
+                      res=ContentDir_Search(return_value__Object_IsA_9 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, parent->id, BrowseSearchDir__1__2__1__4__1__1__1__1__1__2__1__2__full_criteria);
                       _DeviceList_UnlockService(__serv);
                     }
                     while((_Bool)0);
@@ -4545,7 +4545,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
                     {
                       if((signed int)*_s.ptr == 0)
                       {
-                        _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, BrowseSearchDir$$1$$2$$1$$4$$1$$1$$1$$1$$1$$2$$1$$2$$full_criteria, res->children);
+                        _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, BrowseSearchDir__1__2__1__4__1__1__1__1__1__2__1__2__full_criteria, res->children);
                         if(!(_s.rc == 0))
                           goto cleanup;
 
@@ -4553,7 +4553,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
 
                       else
                       {
-                        _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, BrowseSearchDir$$1$$2$$1$$4$$1$$1$$1$$1$$1$$2$$1$$2$$full_criteria, res->children);
+                        _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, BrowseSearchDir__1__2__1__4__1__1__1__1__1__2__1__2__full_criteria, res->children);
                         if((signed int)*_s.ptr == 0 || !(_s.rc == 0))
                           goto cleanup;
 
@@ -4594,26 +4594,26 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
         do
         {
           if(!((signed int)*t == 0))
-            tmp_if_expr$11 = (signed int)*t != 47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_11 = (signed int)*t != 47 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          if(!tmp_if_expr$11)
+            tmp_if_expr_11 = (_Bool)0;
+          if(!tmp_if_expr_11)
             break;
 
-          const unsigned short int **return_value___ctype_b_loc$12;
-          return_value___ctype_b_loc$12=__ctype_b_loc();
-          if(!((8192 & (signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)*t]) == 0))
-            tmp_if_expr$13 = (_Bool)1;
+          const unsigned short int **return_value___ctype_b_loc_12;
+          return_value___ctype_b_loc_12=__ctype_b_loc();
+          if(!((8192 & (signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)*t]) == 0))
+            tmp_if_expr_13 = (_Bool)1;
 
           else
-            tmp_if_expr$13 = (signed int)*t == 42 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$13)
-            tmp_if_expr$14 = (_Bool)1;
+            tmp_if_expr_13 = (signed int)*t == 42 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_13)
+            tmp_if_expr_14 = (_Bool)1;
 
           else
-            tmp_if_expr$14 = (signed int)*t == 34 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$14)
+            tmp_if_expr_14 = (signed int)*t == 34 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_14)
             simplified = (_Bool)0;
 
           t = t + 1l;
@@ -4623,88 +4623,88 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
         char *new_criteria;
         if(!(simplified == (_Bool)0))
         {
-          return_value_talloc_asprintf$15=talloc_asprintf(tmp_ctx, "(dc:title contains \"%s\") or (dc:creator contains \"%s\") or (upnp:artist contains \"%s\") or (upnp:album contains \"%s\")", new_basename, new_basename, new_basename, new_basename);
-          tmp_if_expr$16 = return_value_talloc_asprintf$15;
+          return_value_talloc_asprintf_15=talloc_asprintf(tmp_ctx, "(dc:title contains \"%s\") or (dc:creator contains \"%s\") or (upnp:artist contains \"%s\") or (upnp:album contains \"%s\")", new_basename, new_basename, new_basename, new_basename);
+          tmp_if_expr_16 = return_value_talloc_asprintf_15;
         }
 
         else
-          tmp_if_expr$16 = new_basename;
-        new_criteria = tmp_if_expr$16;
+          tmp_if_expr_16 = new_basename;
+        new_criteria = tmp_if_expr_16;
         Log_Printf((enum Log_Level)LOG_DEBUG, "new search criteria '%s' (inside '%s')", new_criteria, criteria_start != ((const char *)NULL) ? criteria_start : "(null)");
         const char *full_criteria;
         if(!(criteria_start == ((const char *)NULL)))
         {
-          return_value_talloc_asprintf$17=talloc_asprintf(tmp_ctx, "%s%s)", criteria_start, new_criteria);
-          tmp_if_expr$18 = return_value_talloc_asprintf$17;
+          return_value_talloc_asprintf_17=talloc_asprintf(tmp_ctx, "%s%s)", criteria_start, new_criteria);
+          tmp_if_expr_18 = return_value_talloc_asprintf_17;
         }
 
         else
-          tmp_if_expr$18 = new_criteria;
-        full_criteria = tmp_if_expr$18;
-        const struct _ContentDir_BrowseResult *BrowseSearchDir$$1$$2$$1$$5$$res;
+          tmp_if_expr_18 = new_criteria;
+        full_criteria = tmp_if_expr_18;
+        const struct _ContentDir_BrowseResult *BrowseSearchDir__1__2__1__5__res;
         do
         {
-          struct _Service *BrowseSearchDir$$1$$2$$1$$5$$2$$__serv;
-          BrowseSearchDir$$1$$2$$1$$5$$2$$__serv=_DeviceList_LockService(devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
-          const struct _Object_Class *return_value__ContentDir_GetBaseClass$19;
-          return_value__ContentDir_GetBaseClass$19=_ContentDir_GetBaseClass();
-          _Bool return_value__Object_IsA$20;
-          return_value__Object_IsA$20=_Object_IsA((const void *)BrowseSearchDir$$1$$2$$1$$5$$2$$__serv, return_value__ContentDir_GetBaseClass$19);
-          BrowseSearchDir$$1$$2$$1$$5$$res=ContentDir_Search(return_value__Object_IsA$20 != (_Bool)0 ? (struct _ContentDir *)BrowseSearchDir$$1$$2$$1$$5$$2$$__serv : (struct _ContentDir *)(void *)0, tmp_ctx, parent->id, full_criteria);
-          _DeviceList_UnlockService(BrowseSearchDir$$1$$2$$1$$5$$2$$__serv);
+          struct _Service *BrowseSearchDir__1__2__1__5__2____serv;
+          BrowseSearchDir__1__2__1__5__2____serv=_DeviceList_LockService(devName, "urn:schemas-upnp-org:service:ContentDirectory:1");
+          const struct _Object_Class *return_value__ContentDir_GetBaseClass_19;
+          return_value__ContentDir_GetBaseClass_19=_ContentDir_GetBaseClass();
+          _Bool return_value__Object_IsA_20;
+          return_value__Object_IsA_20=_Object_IsA((const void *)BrowseSearchDir__1__2__1__5__2____serv, return_value__ContentDir_GetBaseClass_19);
+          BrowseSearchDir__1__2__1__5__res=ContentDir_Search(return_value__Object_IsA_20 != (_Bool)0 ? (struct _ContentDir *)BrowseSearchDir__1__2__1__5__2____serv : (struct _ContentDir *)(void *)0, tmp_ctx, parent->id, full_criteria);
+          _DeviceList_UnlockService(BrowseSearchDir__1__2__1__5__2____serv);
         }
         while((_Bool)0);
-        if(!(BrowseSearchDir$$1$$2$$1$$5$$res == ((const struct _ContentDir_BrowseResult *)NULL)))
+        if(!(BrowseSearchDir__1__2__1__5__res == ((const struct _ContentDir_BrowseResult *)NULL)))
         {
-          if(!(BrowseSearchDir$$1$$2$$1$$5$$res->children == ((struct _ContentDir_Children *)NULL)))
+          if(!(BrowseSearchDir__1__2__1__5__res->children == ((struct _ContentDir_Children *)NULL)))
           {
-            return_value_PtrArray_GetSize$32=PtrArray_GetSize$link1(BrowseSearchDir$$1$$2$$1$$5$$res->children->objects);
-            if(return_value_PtrArray_GetSize$32 >= 1ul)
+            return_value_PtrArray_GetSize_32=PtrArray_GetSize_link1(BrowseSearchDir__1__2__1__5__res->children->objects);
+            if(return_value_PtrArray_GetSize_32 >= 1ul)
             {
               struct _SearchHistory *h;
-              void *return_value_talloc_named_const$21;
-              return_value_talloc_named_const$21=talloc_named_const((const void *)self->search_hist, sizeof(struct _SearchHistory) /*40ul*/ , "SearchHistory");
-              h = (struct _SearchHistory *)return_value_talloc_named_const$21;
+              void *return_value_talloc_named_const_21;
+              return_value_talloc_named_const_21=talloc_named_const((const void *)self->search_hist, sizeof(struct _SearchHistory) /*40ul*/ , "SearchHistory");
+              h = (struct _SearchHistory *)return_value_talloc_named_const_21;
               if(!(h == ((struct _SearchHistory *)NULL)))
               {
                 self->search_hist_serial = self->search_hist_serial + 1u;
-                signed long int return_value_time$22;
-                return_value_time$22=time((signed long int *)(void *)0);
+                signed long int return_value_time_22;
+                return_value_time_22=time((signed long int *)(void *)0);
                 char *__talloc_steal_ret;
-                void *return_value__talloc_steal_loc$24;
-                return_value__talloc_steal_loc$24=_talloc_steal_loc((const void *)h, (const void *)parent_path, "djfs.c:197");
-                __talloc_steal_ret = (char *)return_value__talloc_steal_loc$24;
-                tmp_statement_expression$23 = __talloc_steal_ret;
-                char *BrowseSearchDir$$1$$2$$1$$5$$3$$1$$2$$__talloc_steal_ret;
-                void *return_value__talloc_steal_loc$26;
-                return_value__talloc_steal_loc$26=_talloc_steal_loc((const void *)h, (const void *)new_basename, "djfs.c:198");
-                BrowseSearchDir$$1$$2$$1$$5$$3$$1$$2$$__talloc_steal_ret = (char *)return_value__talloc_steal_loc$26;
-                tmp_statement_expression$25 = BrowseSearchDir$$1$$2$$1$$5$$3$$1$$2$$__talloc_steal_ret;
-                *h = (struct _SearchHistory){ .serial=self->search_hist_serial, .time=return_value_time$22, .parent_path=tmp_statement_expression$23,
-    .basename=tmp_statement_expression$25,
+                void *return_value__talloc_steal_loc_24;
+                return_value__talloc_steal_loc_24=_talloc_steal_loc((const void *)h, (const void *)parent_path, "djfs.c:197");
+                __talloc_steal_ret = (char *)return_value__talloc_steal_loc_24;
+                tmp_statement_expression_23 = __talloc_steal_ret;
+                char *BrowseSearchDir__1__2__1__5__3__1__2____talloc_steal_ret;
+                void *return_value__talloc_steal_loc_26;
+                return_value__talloc_steal_loc_26=_talloc_steal_loc((const void *)h, (const void *)new_basename, "djfs.c:198");
+                BrowseSearchDir__1__2__1__5__3__1__2____talloc_steal_ret = (char *)return_value__talloc_steal_loc_26;
+                tmp_statement_expression_25 = BrowseSearchDir__1__2__1__5__3__1__2____talloc_steal_ret;
+                *h = (struct _SearchHistory){ .serial=self->search_hist_serial, .time=return_value_time_22, .parent_path=tmp_statement_expression_23,
+    .basename=tmp_statement_expression_25,
     .criteria=((const char *)NULL) };
                 if(new_criteria == new_basename)
-                  tmp_if_expr$29 = h->basename;
+                  tmp_if_expr_29 = h->basename;
 
                 else
                 {
-                  char *BrowseSearchDir$$1$$2$$1$$5$$3$$1$$3$$__talloc_steal_ret;
-                  void *return_value__talloc_steal_loc$28;
-                  return_value__talloc_steal_loc$28=_talloc_steal_loc((const void *)h, (const void *)new_criteria, "djfs.c:201");
-                  BrowseSearchDir$$1$$2$$1$$5$$3$$1$$3$$__talloc_steal_ret = (char *)return_value__talloc_steal_loc$28;
-                  tmp_statement_expression$27 = BrowseSearchDir$$1$$2$$1$$5$$3$$1$$3$$__talloc_steal_ret;
-                  tmp_if_expr$29 = tmp_statement_expression$27;
+                  char *BrowseSearchDir__1__2__1__5__3__1__3____talloc_steal_ret;
+                  void *return_value__talloc_steal_loc_28;
+                  return_value__talloc_steal_loc_28=_talloc_steal_loc((const void *)h, (const void *)new_criteria, "djfs.c:201");
+                  BrowseSearchDir__1__2__1__5__3__1__3____talloc_steal_ret = (char *)return_value__talloc_steal_loc_28;
+                  tmp_statement_expression_27 = BrowseSearchDir__1__2__1__5__3__1__3____talloc_steal_ret;
+                  tmp_if_expr_29 = tmp_statement_expression_27;
                 }
-                h->criteria = tmp_if_expr$29;
+                h->criteria = tmp_if_expr_29;
                 PtrArray_Append(self->search_hist, (void *)h);
-                unsigned long int return_value_PtrArray_GetSize$31;
-                return_value_PtrArray_GetSize$31=PtrArray_GetSize$link1(self->search_hist);
-                if(!(self->search_hist_size >= return_value_PtrArray_GetSize$31))
+                unsigned long int return_value_PtrArray_GetSize_31;
+                return_value_PtrArray_GetSize_31=PtrArray_GetSize_link1(self->search_hist);
+                if(!(self->search_hist_size >= return_value_PtrArray_GetSize_31))
                 {
                   struct _SearchHistory *oldest;
-                  void *return_value_PtrArray_RemoveAt$30;
-                  return_value_PtrArray_RemoveAt$30=PtrArray_RemoveAt(self->search_hist, (unsigned long int)0);
-                  oldest = (struct _SearchHistory *)return_value_PtrArray_RemoveAt$30;
+                  void *return_value_PtrArray_RemoveAt_30;
+                  return_value_PtrArray_RemoveAt_30=PtrArray_RemoveAt(self->search_hist, (unsigned long int)0);
+                  oldest = (struct _SearchHistory *)return_value_PtrArray_RemoveAt_30;
                   _talloc_free((void *)oldest, "djfs.c:207");
                 }
 
@@ -4715,7 +4715,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
                   {
                     if((signed int)*_s.ptr == 0)
                     {
-                      _s.rc=vfs_dir_add_entry$link1(_p, 4, _q);
+                      _s.rc=vfs_dir_add_entry_link1(_p, 4, _q);
                       if(!(_s.rc == 0))
                         goto cleanup;
 
@@ -4738,7 +4738,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
                         vfs_set_time(h->time, _q);
                         if((signed int)*_s.ptr == 0)
                         {
-                          _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, full_criteria, BrowseSearchDir$$1$$2$$1$$5$$res->children);
+                          _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, full_criteria, BrowseSearchDir__1__2__1__5__res->children);
                           if(!(_s.rc == 0))
                             goto cleanup;
 
@@ -4746,7 +4746,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
 
                         else
                         {
-                          _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, full_criteria, BrowseSearchDir$$1$$2$$1$$5$$res->children);
+                          _s=BrowseChildren(self, _s.ptr, query, tmp_ctx, devName, parent, (const _Bool)1, full_criteria, BrowseSearchDir__1__2__1__5__res->children);
                           if((signed int)*_s.ptr == 0 || !(_s.rc == 0))
                             goto cleanup;
 
@@ -4783,7 +4783,7 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
 
 cleanup:
   ;
-  if(!(lock == ((union anonymous$3 *)NULL)))
+  if(!(lock == ((union anonymous_3 *)NULL)))
     pthread_mutex_unlock(lock);
 
   return _s;
@@ -4802,9 +4802,9 @@ struct _Cache * Cache_Create(void *talloc_context, unsigned long int size, signe
   else
   {
     struct _Cache *cache;
-    void *return_value_talloc_named_const$1;
-    return_value_talloc_named_const$1=talloc_named_const(talloc_context, sizeof(struct _Cache) /*56ul*/ , "Cache");
-    cache = (struct _Cache *)return_value_talloc_named_const$1;
+    void *return_value_talloc_named_const_1;
+    return_value_talloc_named_const_1=talloc_named_const(talloc_context, sizeof(struct _Cache) /*56ul*/ , "Cache");
+    cache = (struct _Cache *)return_value_talloc_named_const_1;
     if(cache == ((struct _Cache *)NULL))
       return (struct _Cache *)(void *)0;
 
@@ -4839,7 +4839,7 @@ struct _Cache * Cache_Create(void *talloc_context, unsigned long int size, signe
 // file cache.h line 79
 void ** Cache_Get(struct _Cache *cache, const char *key)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(key == ((const char *)NULL) || cache == ((struct _Cache *)NULL))
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "Cache_Get NULL key or cache");
@@ -4865,11 +4865,11 @@ void ** Cache_Get(struct _Cache *cache, const char *key)
       if(!(hit == (_Bool)0))
       {
         if(cache->max_age == 0l)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = now <= ce->rip ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = now <= ce->rip ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           Log_Printf((enum Log_Level)LOG_DEBUG, "CACHE_HIT (key='%s')", key);
           cache->nr_hit = cache->nr_hit + 1;
@@ -4908,9 +4908,9 @@ inline signed long int Cache_GetNrEntries(const struct _Cache * const cache)
 
   else
   {
-    unsigned long int return_value_hash_get_n_entries$1;
-    return_value_hash_get_n_entries$1=hash_get_n_entries(cache->table);
-    return (signed long int)return_value_hash_get_n_entries$1;
+    unsigned long int return_value_hash_get_n_entries_1;
+    return_value_hash_get_n_entries_1=hash_get_n_entries(cache->table);
+    return (signed long int)return_value_hash_get_n_entries_1;
   }
 }
 
@@ -4979,9 +4979,9 @@ char * Charset_ConvertString(enum _Charset_Direction dir, const char * const str
         if(buffer == ((char *)NULL))
         {
           bufsize = needed_size;
-          void *return_value_talloc_named_const$1;
-          return_value_talloc_named_const$1=talloc_named_const(talloc_context, bufsize, "charset.c:339");
-          result = (char *)return_value_talloc_named_const$1;
+          void *return_value_talloc_named_const_1;
+          return_value_talloc_named_const_1=talloc_named_const(talloc_context, bufsize, "charset.c:339");
+          result = (char *)return_value_talloc_named_const_1;
           if(result == ((char *)NULL))
             goto FAIL;
 
@@ -5010,22 +5010,22 @@ char * Charset_ConvertString(enum _Charset_Direction dir, const char * const str
             if(result == buffer)
             {
               char *ptr;
-              void *return_value_talloc_named_const$2;
-              return_value_talloc_named_const$2=talloc_named_const(talloc_context, bufsize, "charset.c:365");
-              ptr = (char *)return_value_talloc_named_const$2;
+              void *return_value_talloc_named_const_2;
+              return_value_talloc_named_const_2=talloc_named_const(talloc_context, bufsize, "charset.c:365");
+              ptr = (char *)return_value_talloc_named_const_2;
               if(ptr == ((char *)NULL))
                 goto FAIL;
 
-              void *return_value_memcpy$3;
-              return_value_memcpy$3=memcpy((void *)ptr, (const void *)result, converted);
-              result = (char *)return_value_memcpy$3;
+              void *return_value_memcpy_3;
+              return_value_memcpy_3=memcpy((void *)ptr, (const void *)result, converted);
+              result = (char *)return_value_memcpy_3;
             }
 
             else
             {
-              void *return_value__talloc_realloc$4;
-              return_value__talloc_realloc$4=_talloc_realloc(talloc_context, (void *)result, bufsize, "charset.c:371");
-              result = (char *)return_value__talloc_realloc$4;
+              void *return_value__talloc_realloc_4;
+              return_value__talloc_realloc_4=_talloc_realloc(talloc_context, (void *)result, bufsize, "charset.c:371");
+              result = (char *)return_value__talloc_realloc_4;
             }
             if(result == ((char *)NULL))
               goto FAIL;
@@ -5048,9 +5048,9 @@ char * Charset_ConvertString(enum _Charset_Direction dir, const char * const str
         }
         if(outbytesleft >= 33ul && !(result == buffer))
         {
-          void *return_value__talloc_realloc$5;
-          return_value__talloc_realloc$5=_talloc_realloc(talloc_context, (void *)result, (unsigned long int)(outbuf - result), "charset.c:402");
-          result = (char *)return_value__talloc_realloc$5;
+          void *return_value__talloc_realloc_5;
+          return_value__talloc_realloc_5=_talloc_realloc(talloc_context, (void *)result, (unsigned long int)(outbuf - result), "charset.c:402");
+          result = (char *)return_value__talloc_realloc_5;
         }
 
 
@@ -5065,7 +5065,7 @@ char * Charset_ConvertString(enum _Charset_Direction dir, const char * const str
 // file charset.c line 483
 signed int Charset_Finish()
 {
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if((signed int)g_state == NOT_INITIALIZED)
     return 114;
 
@@ -5077,17 +5077,17 @@ signed int Charset_Finish()
     {
       struct _Converter * const cvt = g_converters + (signed long int)i;
       pthread_mutex_destroy(&cvt->mutex);
-      signed int return_value_iconv_close$2;
-      return_value_iconv_close$2=iconv_close(cvt->cd);
-      if(!(return_value_iconv_close$2 == 0))
+      signed int return_value_iconv_close_2;
+      return_value_iconv_close_2=iconv_close(cvt->cd);
+      if(!(return_value_iconv_close_2 == 0))
       {
-        return_value___errno_location$1=__errno_location();
-        rc = *return_value___errno_location$1;
+        return_value___errno_location_1=__errno_location();
+        rc = *return_value___errno_location_1;
       }
 
       cvt->cd = (void *)-1;
     }
-    g_state = (enum anonymous$6)NOT_INITIALIZED;
+    g_state = (enum anonymous_6)NOT_INITIALIZED;
     return rc;
   }
 }
@@ -5096,11 +5096,11 @@ signed int Charset_Finish()
 // file charset.c line 96
 signed int Charset_Initialize(const char *charset)
 {
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
   if(!((signed int)g_state == NOT_INITIALIZED))
     return 114;
 
@@ -5108,11 +5108,11 @@ signed int Charset_Initialize(const char *charset)
   {
     char buffer[128l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     if(charset == ((const char *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*charset == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)*charset == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       char *s;
       s=getenv("KDE_UTF8_FILENAMES");
@@ -5126,12 +5126,12 @@ signed int Charset_Initialize(const char *charset)
         {
           strncpy(s, buffer, sizeof(char [128l]) /*128ul*/  - (unsigned long int)1);
           buffer[(signed long int)(sizeof(char [128l]) /*128ul*/  - (unsigned long int)1)] = (char)0;
-          unsigned long int return_value_strcspn$1;
-          return_value_strcspn$1=strcspn(buffer, ",;:");
-          buffer[(signed long int)return_value_strcspn$1] = (char)0;
-          signed int return_value_strcmp$2;
-          return_value_strcmp$2=strcmp(buffer, "@locale");
-          if(!(return_value_strcmp$2 == 0))
+          unsigned long int return_value_strcspn_1;
+          return_value_strcspn_1=strcspn(buffer, ",;:");
+          buffer[(signed long int)return_value_strcspn_1] = (char)0;
+          signed int return_value_strcmp_2;
+          return_value_strcmp_2=strcmp(buffer, "@locale");
+          if(!(return_value_strcmp_2 == 0))
             charset = buffer;
 
         }
@@ -5140,32 +5140,32 @@ signed int Charset_Initialize(const char *charset)
     }
 
     if(charset == ((const char *)NULL))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)*charset == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)*charset == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       setlocale(6, "");
-      char *return_value_nl_langinfo$4;
-      return_value_nl_langinfo$4=nl_langinfo(14);
-      strncpy(buffer, return_value_nl_langinfo$4, sizeof(char [128l]) /*128ul*/  - (unsigned long int)1);
+      char *return_value_nl_langinfo_4;
+      return_value_nl_langinfo_4=nl_langinfo(14);
+      strncpy(buffer, return_value_nl_langinfo_4, sizeof(char [128l]) /*128ul*/  - (unsigned long int)1);
       buffer[(signed long int)(sizeof(char [128l]) /*128ul*/  - (unsigned long int)1)] = (char)0;
       charset = buffer;
     }
 
     if(charset == ((const char *)NULL))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*charset == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)*charset == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
       charset = "UTF-8";
 
     _Bool utf8;
-    signed int return_value_strcasecmp$7;
-    return_value_strcasecmp$7=strcasecmp(charset, "UTF-8");
-    utf8 = return_value_strcasecmp$7 == 0;
+    signed int return_value_strcasecmp_7;
+    return_value_strcasecmp_7=strcasecmp(charset, "UTF-8");
+    utf8 = return_value_strcasecmp_7 == 0;
     signed int rc = 0;
     if(utf8 == (_Bool)0)
     {
@@ -5184,26 +5184,26 @@ signed int Charset_Initialize(const char *charset)
             rc = 38;
         if(cvt->cd == (void *)-1)
         {
-          return_value___errno_location$8=__errno_location();
-          rc = *return_value___errno_location$8;
+          return_value___errno_location_8=__errno_location();
+          rc = *return_value___errno_location_8;
         }
 
         if(rc == 0)
-          pthread_mutex_init(&cvt->mutex, (const union anonymous$5 *)(void *)0);
+          pthread_mutex_init(&cvt->mutex, (const union anonymous_5 *)(void *)0);
 
       }
     }
 
     if(!(rc == 0))
     {
-      return_value_strerror$9=strerror(rc);
-      Log_Printf((enum Log_Level)LOG_ERROR, "Charset : error initialising charset='%s' : %s", charset != ((const char *)NULL) ? charset : "(null)", return_value_strerror$9);
+      return_value_strerror_9=strerror(rc);
+      Log_Printf((enum Log_Level)LOG_ERROR, "Charset : error initialising charset='%s' : %s", charset != ((const char *)NULL) ? charset : "(null)", return_value_strerror_9);
     }
 
     else
     {
       Log_Printf((enum Log_Level)LOG_INFO, "Charset : successfully initialised charset='%s'", charset != ((const char *)NULL) ? charset : "(null)");
-      g_state = (enum anonymous$6)(utf8 != (_Bool)0 ? INITIALIZED_UTF8 : INITIALIZED_NOT_UTF8);
+      g_state = (enum anonymous_6)(utf8 != (_Bool)0 ? INITIALIZED_UTF8 : INITIALIZED_NOT_UTF8);
     }
     return rc;
   }
@@ -5220,15 +5220,15 @@ _Bool Charset_IsConverting()
 // file charset.c line 416
 signed int Charset_PrintString(enum _Charset_Direction dir, const char * const str, struct _IO_FILE * const stream)
 {
-  signed int return_value_fputs$1;
+  signed int return_value_fputs_1;
   if(str == ((const char *)NULL) || stream == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
     if(!((signed int)g_state == INITIALIZED_NOT_UTF8))
     {
-      return_value_fputs$1=fputs(str, stream);
-      return return_value_fputs$1;
+      return_value_fputs_1=fputs(str, stream);
+      return return_value_fputs_1;
     }
 
     else
@@ -5244,8 +5244,8 @@ signed int Charset_PrintString(enum _Charset_Direction dir, const char * const s
         const char *inbuf = str;
         unsigned long int inbytesleft;
         inbytesleft=strlen(str);
-        /* tag-#anon#lUN[S64'_align'||lARR8192{S8}$S8$'bytes'|] */
-union anonymous$7
+        /* tag-#anon#lUN[S64'_align'||lARR8192{S8}_S8_'bytes'|] */
+union anonymous_7
 {
   // _align
   signed long int _align;
@@ -5255,7 +5255,7 @@ union anonymous$7
 
 /* */
         ;
-        union anonymous$7 buffer;
+        union anonymous_7 buffer;
         while(inbytesleft >= 1ul)
         {
           char *outbuf = buffer.bytes;
@@ -5264,9 +5264,9 @@ union anonymous$7
           save_errno=convert(cvt, &inbuf, &inbytesleft, &outbuf, &outbytesleft);
           if(!(buffer.bytes >= outbuf))
           {
-            unsigned long int return_value_fwrite$2;
-            return_value_fwrite$2=fwrite((const void *)buffer.bytes, (unsigned long int)(outbuf - buffer.bytes), (unsigned long int)1, stream);
-            rc = (signed int)return_value_fwrite$2;
+            unsigned long int return_value_fwrite_2;
+            return_value_fwrite_2=fwrite((const void *)buffer.bytes, (unsigned long int)(outbuf - buffer.bytes), (unsigned long int)1, stream);
+            rc = (signed int)return_value_fwrite_2;
             if(!(rc >= 1))
             {
               rc = -1;
@@ -5284,14 +5284,14 @@ union anonymous$7
         }
         if(rc >= 0)
         {
-          char *Charset_PrintString$$1$$2$$outbuf = buffer.bytes;
-          unsigned long int Charset_PrintString$$1$$2$$outbytesleft = sizeof(char [8192l]) /*8192ul*/ ;
-          iconv(cvt->cd, (char ** restrict )(void *)0, (unsigned long int *)(void *)0, &Charset_PrintString$$1$$2$$outbuf, &Charset_PrintString$$1$$2$$outbytesleft);
-          if(!(buffer.bytes >= Charset_PrintString$$1$$2$$outbuf))
+          char *Charset_PrintString__1__2__outbuf = buffer.bytes;
+          unsigned long int Charset_PrintString__1__2__outbytesleft = sizeof(char [8192l]) /*8192ul*/ ;
+          iconv(cvt->cd, (char ** restrict )(void *)0, (unsigned long int *)(void *)0, &Charset_PrintString__1__2__outbuf, &Charset_PrintString__1__2__outbytesleft);
+          if(!(buffer.bytes >= Charset_PrintString__1__2__outbuf))
           {
-            unsigned long int return_value_fwrite$3;
-            return_value_fwrite$3=fwrite((const void *)buffer.bytes, (unsigned long int)(Charset_PrintString$$1$$2$$outbuf - buffer.bytes), (unsigned long int)1, stream);
-            rc = (signed int)return_value_fwrite$3;
+            unsigned long int return_value_fwrite_3;
+            return_value_fwrite_3=fwrite((const void *)buffer.bytes, (unsigned long int)(Charset_PrintString__1__2__outbuf - buffer.bytes), (unsigned long int)1, stream);
+            rc = (signed int)return_value_fwrite_3;
             if(!(rc >= 1))
               rc = -1;
 
@@ -5335,9 +5335,9 @@ static void * CommandLoop(void *arg)
 // file content_dir.c line 453
 const struct _ContentDir_BrowseResult * ContentDir_Browse(struct _ContentDir *cds, void *result_context, const char *objectId, enum _ContentDir_BrowseFlag browse_flag)
 {
-  const struct _ContentDir_BrowseResult *return_value_BrowseOrSearchWithCache$1;
-  return_value_BrowseOrSearchWithCache$1=BrowseOrSearchWithCache(cds, result_context, objectId, (signed int)browse_flag == CONTENT_DIR_BROWSE_METADATA ? CRITERIA_BROWSE_METADATA : CRITERIA_BROWSE_CHILDREN);
-  return return_value_BrowseOrSearchWithCache$1;
+  const struct _ContentDir_BrowseResult *return_value_BrowseOrSearchWithCache_1;
+  return_value_BrowseOrSearchWithCache_1=BrowseOrSearchWithCache(cds, result_context, objectId, (signed int)browse_flag == CONTENT_DIR_BROWSE_METADATA ? CRITERIA_BROWSE_METADATA : CRITERIA_BROWSE_CHILDREN);
+  return return_value_BrowseOrSearchWithCache_1;
 }
 
 // ContentDir_Create
@@ -5345,11 +5345,11 @@ const struct _ContentDir_BrowseResult * ContentDir_Browse(struct _ContentDir *cd
 struct _ContentDir * ContentDir_Create(void *talloc_context, signed int ctrlpt_handle, struct _IXML_Element *serviceDesc, const char *base_url)
 {
   struct _ContentDir *self;
-  const struct _Object_Class *return_value__ContentDir_GetBaseClass$1;
-  return_value__ContentDir_GetBaseClass$1=_ContentDir_GetBaseClass();
-  struct _Object *return_value__Object_check_alloc$2;
-  return_value__Object_check_alloc$2=_Object_check_alloc(talloc_context, return_value__ContentDir_GetBaseClass$1);
-  self = (struct _ContentDir *)return_value__Object_check_alloc$2;
+  const struct _Object_Class *return_value__ContentDir_GetBaseClass_1;
+  return_value__ContentDir_GetBaseClass_1=_ContentDir_GetBaseClass();
+  struct _Object *return_value__Object_check_alloc_2;
+  return_value__Object_check_alloc_2=_Object_check_alloc(talloc_context, return_value__ContentDir_GetBaseClass_1);
+  self = (struct _ContentDir *)return_value__Object_check_alloc_2;
   if(!(self == ((struct _ContentDir *)NULL)))
   {
     struct _Service *__super;
@@ -5369,7 +5369,7 @@ struct _ContentDir * ContentDir_Create(void *talloc_context, signed int ctrlpt_h
     if(self->cache == ((struct _Cache *)NULL))
       goto error;
 
-    pthread_mutex_init(&self->cache_mutex, (const union anonymous$5 *)(void *)0);
+    pthread_mutex_init(&self->cache_mutex, (const union anonymous_5 *)(void *)0);
     return self;
   }
 
@@ -5390,8 +5390,8 @@ struct _ContentDir * ContentDir_Create(void *talloc_context, signed int ctrlpt_h
 // file content_dir.c line 467
 const char * ContentDir_GetSearchCapabilities(struct _ContentDir *self, void *unused)
 {
-  struct _Service *tmp_if_expr$1;
-  const char *tmp_if_expr$3;
+  struct _Service *tmp_if_expr_1;
+  const char *tmp_if_expr_3;
   if(self == ((struct _ContentDir *)NULL))
     return (const char *)(void *)0;
 
@@ -5402,22 +5402,22 @@ const char * ContentDir_GetSearchCapabilities(struct _ContentDir *self, void *un
       struct _IXML_Document *doc = (struct _IXML_Document *)(void *)0;
       signed int rc;
       if(!(self == ((struct _ContentDir *)NULL)))
-        tmp_if_expr$1 = &self->_.super;
+        tmp_if_expr_1 = &self->_.super;
 
       else
-        tmp_if_expr$1 = (struct _Service *)(void *)0;
-      rc=Service_SendActionVa(tmp_if_expr$1, &doc, "GetSearchCapabilities", (void *)0, (void *)0);
+        tmp_if_expr_1 = (struct _Service *)(void *)0;
+      rc=Service_SendActionVa(tmp_if_expr_1, &doc, "GetSearchCapabilities", (void *)0, (void *)0);
       if(rc == 0 && !(doc == ((struct _IXML_Document *)NULL)))
       {
-        const char *return_value_XMLUtil_FindFirstElementValue$2;
-        return_value_XMLUtil_FindFirstElementValue$2=XMLUtil_FindFirstElementValue(&doc->n, "SearchCaps", (const _Bool)1, (const _Bool)1);
-        self->search_caps=talloc_strdup((const void *)self, return_value_XMLUtil_FindFirstElementValue$2);
+        const char *return_value_XMLUtil_FindFirstElementValue_2;
+        return_value_XMLUtil_FindFirstElementValue_2=XMLUtil_FindFirstElementValue(&doc->n, "SearchCaps", (const _Bool)1, (const _Bool)1);
+        self->search_caps=talloc_strdup((const void *)self, return_value_XMLUtil_FindFirstElementValue_2);
         if(!(self->search_caps == ((const char *)NULL)))
-          tmp_if_expr$3 = self->search_caps;
+          tmp_if_expr_3 = self->search_caps;
 
         else
-          tmp_if_expr$3 = "(null)";
-        Log_Printf((enum Log_Level)LOG_DEBUG, "ContentDir_GetSearchCapabilities = '%s'", tmp_if_expr$3);
+          tmp_if_expr_3 = "(null)";
+        Log_Printf((enum Log_Level)LOG_DEBUG, "ContentDir_GetSearchCapabilities = '%s'", tmp_if_expr_3);
       }
 
       ixmlDocument_free(doc);
@@ -5432,9 +5432,9 @@ const char * ContentDir_GetSearchCapabilities(struct _ContentDir *self, void *un
 const struct _ContentDir_BrowseResult * ContentDir_Search(struct _ContentDir *cds, void *result_context, const char *objectId, const char *criteria)
 {
   Log_Printf((enum Log_Level)LOG_DEBUG, "ContentDir_Search objectId='%s' criteria='%s'", objectId != ((const char *)NULL) ? objectId : "(null)", criteria != ((const char *)NULL) ? criteria : "(null)");
-  const struct _ContentDir_BrowseResult *return_value_BrowseOrSearchWithCache$1;
-  return_value_BrowseOrSearchWithCache$1=BrowseOrSearchWithCache(cds, result_context, objectId, criteria);
-  return return_value_BrowseOrSearchWithCache$1;
+  const struct _ContentDir_BrowseResult *return_value_BrowseOrSearchWithCache_1;
+  return_value_BrowseOrSearchWithCache_1=BrowseOrSearchWithCache(cds, result_context, objectId, criteria);
+  return return_value_BrowseOrSearchWithCache_1;
 }
 
 // ContentDir_ToService
@@ -5448,8 +5448,8 @@ static inline struct _Service * ContentDir_ToService(struct _ContentDir *obj)
 // file didl_object.c line 56
 struct _DIDLObject * DIDLObject_Create(void *talloc_context, struct _IXML_Element *elem, _Bool is_container)
 {
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(elem == ((struct _IXML_Element *)NULL))
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "DIDLObject can't create from NULL XML Element");
@@ -5459,28 +5459,28 @@ struct _DIDLObject * DIDLObject_Create(void *talloc_context, struct _IXML_Elemen
   else
   {
     struct _DIDLObject *o;
-    void *return_value_talloc_named_const$1;
-    return_value_talloc_named_const$1=talloc_named_const(talloc_context, sizeof(struct _DIDLObject) /*56ul*/ , "DIDLObject");
-    o = (struct _DIDLObject *)return_value_talloc_named_const$1;
+    void *return_value_talloc_named_const_1;
+    return_value_talloc_named_const_1=talloc_named_const(talloc_context, sizeof(struct _DIDLObject) /*56ul*/ , "DIDLObject");
+    o = (struct _DIDLObject *)return_value_talloc_named_const_1;
     if(!(o == ((struct _DIDLObject *)NULL)))
     {
       *o = (struct _DIDLObject){ .is_container=is_container, .id=((char *)NULL), .title=((const char *)NULL),
     .cds_class=((char *)NULL), .searchable=(_Bool)0,
     .element=((struct _IXML_Element *)NULL), .basename=((char *)NULL) };
       struct _IXML_Node *node = (struct _IXML_Node *)(void *)0;
-      struct _IXML_Node *return_value_ixmlNode_getParentNode$2;
-      return_value_ixmlNode_getParentNode$2=ixmlNode_getParentNode(&elem->n);
-      ixmlNode_removeChild(return_value_ixmlNode_getParentNode$2, &elem->n, &node);
+      struct _IXML_Node *return_value_ixmlNode_getParentNode_2;
+      return_value_ixmlNode_getParentNode_2=ixmlNode_getParentNode(&elem->n);
+      ixmlNode_removeChild(return_value_ixmlNode_getParentNode_2, &elem->n, &node);
       o->element = (struct _IXML_Element *)node;
-      const char *return_value_ixmlElement_getAttribute$3;
-      return_value_ixmlElement_getAttribute$3=ixmlElement_getAttribute(o->element, "id");
-      o->id=talloc_strdup((const void *)o, return_value_ixmlElement_getAttribute$3);
+      const char *return_value_ixmlElement_getAttribute_3;
+      return_value_ixmlElement_getAttribute_3=ixmlElement_getAttribute(o->element, "id");
+      o->id=talloc_strdup((const void *)o, return_value_ixmlElement_getAttribute_3);
       if(o->id == ((char *)NULL))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)o->id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)o->id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         char *s;
         s=DIDLObject_GetElementString(o, (void *)0);
@@ -5497,10 +5497,10 @@ struct _DIDLObject * DIDLObject_Create(void *talloc_context, struct _IXML_Elemen
       o->basename=String_CleanFileName((void *)o, o->title);
       if((signed int)*o->basename == 0)
       {
-        char *DIDLObject_Create$$1$$2$$2$$s;
-        DIDLObject_Create$$1$$2$$2$$s=DIDLObject_GetElementString(o, (void *)0);
-        Log_Printf((enum Log_Level)LOG_WARNING, "DIDLObject NULL or empty <dc:title>, XML = %s", DIDLObject_Create$$1$$2$$2$$s);
-        _talloc_free((void *)DIDLObject_Create$$1$$2$$2$$s, "didl_object.c:104");
+        char *DIDLObject_Create__1__2__2__s;
+        DIDLObject_Create__1__2__2__s=DIDLObject_GetElementString(o, (void *)0);
+        Log_Printf((enum Log_Level)LOG_WARNING, "DIDLObject NULL or empty <dc:title>, XML = %s", DIDLObject_Create__1__2__2__s);
+        _talloc_free((void *)DIDLObject_Create__1__2__2__s, "didl_object.c:104");
         _talloc_free((void *)o->basename, "didl_object.c:105");
         o->basename=talloc_asprintf((const void *)o, "-id-%s", o->id);
       }
@@ -5508,23 +5508,23 @@ struct _DIDLObject * DIDLObject_Create(void *talloc_context, struct _IXML_Elemen
       else
       {
         if((signed int)*o->basename == 46)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (signed int)o->basename[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (signed int)o->basename[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
           o->basename[(signed long int)0] = (char)45;
 
       }
-      const char *return_value_XMLUtil_FindFirstElementValue$6;
-      return_value_XMLUtil_FindFirstElementValue$6=XMLUtil_FindFirstElementValue(node, "upnp:class", (const _Bool)0, (const _Bool)1);
-      o->cds_class=String_StripSpaces((void *)o, return_value_XMLUtil_FindFirstElementValue$6);
+      const char *return_value_XMLUtil_FindFirstElementValue_6;
+      return_value_XMLUtil_FindFirstElementValue_6=XMLUtil_FindFirstElementValue(node, "upnp:class", (const _Bool)0, (const _Bool)1);
+      o->cds_class=String_StripSpaces((void *)o, return_value_XMLUtil_FindFirstElementValue_6);
       if(o->cds_class == ((char *)NULL))
         o->cds_class = "";
 
-      char *DIDLObject_Create$$1$$2$$s;
-      DIDLObject_Create$$1$$2$$s=ixmlElement_getAttribute(o->element, "searchable");
-      o->searchable=String_ToBoolean(DIDLObject_Create$$1$$2$$s, (_Bool)0);
+      char *DIDLObject_Create__1__2__s;
+      DIDLObject_Create__1__2__s=ixmlElement_getAttribute(o->element, "searchable");
+      o->searchable=String_ToBoolean(DIDLObject_Create__1__2__s, (_Bool)0);
       Log_Printf((enum Log_Level)LOG_DEBUG, "new DIDLObject : %s : id='%s' title='%s' class='%s'", is_container != (_Bool)0 ? "container" : "item", o->id, o->title, o->cds_class);
       do
       {
@@ -5554,11 +5554,11 @@ char * DIDLObject_GetElementString(const struct _DIDLObject *o, void *result_con
 struct _DJFS * DJFS_Create(void *talloc_context, enum _DJFS_Flags flags, unsigned long int search_history_size)
 {
   struct _DJFS *self;
-  const struct _Object_Class *return_value__DJFS_GetBaseClass$1;
-  return_value__DJFS_GetBaseClass$1=_DJFS_GetBaseClass();
-  struct _Object *return_value__Object_check_alloc$2;
-  return_value__Object_check_alloc$2=_Object_check_alloc(talloc_context, return_value__DJFS_GetBaseClass$1);
-  self = (struct _DJFS *)return_value__Object_check_alloc$2;
+  const struct _Object_Class *return_value__DJFS_GetBaseClass_1;
+  return_value__DJFS_GetBaseClass_1=_DJFS_GetBaseClass();
+  struct _Object *return_value__Object_check_alloc_2;
+  return_value__Object_check_alloc_2=_Object_check_alloc(talloc_context, return_value__DJFS_GetBaseClass_1);
+  self = (struct _DJFS *)return_value__Object_check_alloc_2;
   if(!(self == ((struct _DJFS *)NULL)))
   {
     struct _VFS *__super;
@@ -5588,7 +5588,7 @@ struct _DJFS * DJFS_Create(void *talloc_context, enum _DJFS_Flags flags, unsigne
 
       else
       {
-        union anonymous$5 attr;
+        union anonymous_5 attr;
         pthread_mutexattr_init(&attr);
         pthread_mutexattr_setkind_np(&attr, 1);
         pthread_mutex_init(&self->search_hist_mutex, &attr);
@@ -5638,9 +5638,9 @@ static signed int DestroyResult(struct _ContentDir_BrowseResult * const br)
 
     }
 
-    signed int return_value__talloc_free$1;
-    return_value__talloc_free$1=_talloc_free((void *)br->children, "content_dir.c:366");
-    if(return_value__talloc_free$1 == 0)
+    signed int return_value__talloc_free_1;
+    return_value__talloc_free_1=_talloc_free((void *)br->children, "content_dir.c:366");
+    if(return_value__talloc_free_1 == 0)
       Log_Printf((enum Log_Level)LOG_DEBUG, "ContentDir CACHE_FREE");
 
     if(!(br->cds == ((struct _ContentDir *)NULL)))
@@ -5683,11 +5683,11 @@ struct _PtrArray * DeviceList_GetDevicesNames(void *context)
   pthread_mutex_lock(&DeviceListMutex);
   Log_Printf((enum Log_Level)LOG_DEBUG, "GetDevicesNames");
   struct _PtrArray *a;
-  signed long int return_value_ListSize$1;
-  return_value_ListSize$1=ListSize(&GlobalDeviceList);
-  a=PtrArray_CreateWithCapacity(context, (unsigned long int)return_value_ListSize$1);
-  const char *tmp_if_expr$3;
-  const char *return_value_talloc_get_name$2;
+  signed long int return_value_ListSize_1;
+  return_value_ListSize_1=ListSize(&GlobalDeviceList);
+  a=PtrArray_CreateWithCapacity(context, (unsigned long int)return_value_ListSize_1);
+  const char *tmp_if_expr_3;
+  const char *return_value_talloc_get_name_2;
   if(!(a == ((struct _PtrArray *)NULL)))
   {
     struct LISTNODE *node;
@@ -5700,13 +5700,13 @@ struct _PtrArray * DeviceList_GetDevicesNames(void *context)
         const char *name;
         if(!(devnode->d == ((struct _Device *)NULL)))
         {
-          return_value_talloc_get_name$2=talloc_get_name((const void *)devnode->d);
-          tmp_if_expr$3 = return_value_talloc_get_name$2;
+          return_value_talloc_get_name_2=talloc_get_name((const void *)devnode->d);
+          tmp_if_expr_3 = return_value_talloc_get_name_2;
         }
 
         else
-          tmp_if_expr$3 = (const char *)(void *)0;
-        name = tmp_if_expr$3;
+          tmp_if_expr_3 = (const char *)(void *)0;
+        name = tmp_if_expr_3;
         PtrArray_Append(a, (void *)(char *)(name != ((const char *)NULL) ? name : "(null)"));
       }
 
@@ -5724,9 +5724,9 @@ char * DeviceList_GetStatusString(void *context)
 {
   char *ret;
   ret=talloc_strdup(context, "");
-  const char *tmp_if_expr$2;
-  const char *return_value_talloc_get_name$1;
-  char *tmp_if_expr$3;
+  const char *tmp_if_expr_2;
+  const char *return_value_talloc_get_name_1;
+  char *tmp_if_expr_3;
   if(!(ret == ((char *)NULL)))
   {
     pthread_mutex_lock(&DeviceListMutex);
@@ -5740,19 +5740,19 @@ char * DeviceList_GetStatusString(void *context)
         const char *name;
         if(!(devnode->d == ((struct _Device *)NULL)))
         {
-          return_value_talloc_get_name$1=talloc_get_name((const void *)devnode->d);
-          tmp_if_expr$2 = return_value_talloc_get_name$1;
+          return_value_talloc_get_name_1=talloc_get_name((const void *)devnode->d);
+          tmp_if_expr_2 = return_value_talloc_get_name_1;
         }
 
         else
-          tmp_if_expr$2 = ((const char *)NULL);
-        name = tmp_if_expr$2;
+          tmp_if_expr_2 = ((const char *)NULL);
+        name = tmp_if_expr_2;
         if(!(devnode->deviceId == ((char *)NULL)))
-          tmp_if_expr$3 = devnode->deviceId;
+          tmp_if_expr_3 = devnode->deviceId;
 
         else
-          tmp_if_expr$3 = "(null)";
-        ret=talloc_asprintf_append(ret, " %-20s -- %s\n", name != ((const char *)NULL) ? name : "(null)", tmp_if_expr$3);
+          tmp_if_expr_3 = "(null)";
+        ret=talloc_asprintf_append(ret, " %-20s -- %s\n", name != ((const char *)NULL) ? name : "(null)", tmp_if_expr_3);
       }
 
       node=ListNext(&GlobalDeviceList, node);
@@ -5863,27 +5863,27 @@ signed int DeviceList_SendActionAsync(const char *deviceName, const char *servic
 // file device_list.c line 946
 signed int DeviceList_Start(const char *ssdp_target, void (*eventCallback)(enum DeviceList_EventType, const char *))
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$1;
-  _Bool tmp_if_expr$3;
-  char *return_value_strstr$2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_1;
+  _Bool tmp_if_expr_3;
+  char *return_value_strstr_2;
   if(ssdp_target == ((const char *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$1=strcmp(ssdp_target, "ssdp:all");
-    if(!(return_value_strcmp$1 == 0))
+    return_value_strcmp_1=strcmp(ssdp_target, "ssdp:all");
+    if(!(return_value_strcmp_1 == 0))
     {
-      return_value_strstr$2=strstr(ssdp_target, ":service:");
-      tmp_if_expr$3 = return_value_strstr$2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_2=strstr(ssdp_target, ":service:");
+      tmp_if_expr_3 = return_value_strstr_2 == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "DeviceList : invalid or not implemented SSDP target '%s", ssdp_target != ((const char *)NULL) ? ssdp_target : "(null)");
     return -101;
@@ -5895,7 +5895,7 @@ signed int DeviceList_Start(const char *ssdp_target, void (*eventCallback)(enum 
     unsigned short int port = (unsigned short int)0;
     char *ip_address = (char *)(void *)0;
     gStateUpdateFun = eventCallback;
-    pthread_mutex_init(&DeviceListMutex, (const union anonymous$5 *)(void *)0);
+    pthread_mutex_init(&DeviceListMutex, (const union anonymous_5 *)(void *)0);
     ListInit(&GlobalDeviceList, ((signed int (*)(void *, void *))NULL), ((void (*)(void *))NULL));
     ixmlRelaxParser((char)63);
     Log_Printf((enum Log_Level)LOG_DEBUG, "Intializing UPnP with ipaddress=%s port=%d", ip_address != ((char *)NULL) ? ip_address : "(null)", port);
@@ -5961,16 +5961,16 @@ signed int DeviceList_Stop(void)
 // file device.c line 191
 struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, const char * const descDocURL, const char * const deviceId, const char * const descDocText)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(descDocURL == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*descDocURL == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  const char *tmp_if_expr$7;
-  unsigned long int return_value_ixmlNodeList_length$11;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*descDocURL == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  const char *tmp_if_expr_7;
+  unsigned long int return_value_ixmlNodeList_length_11;
+  if(tmp_if_expr_1)
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "NULL or empty description document URL");
     return (struct _Device *)(void *)0;
@@ -6009,9 +6009,9 @@ struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, c
         else
         {
           struct _Device *dev;
-          void *return_value_talloc_named_const$2;
-          return_value_talloc_named_const$2=talloc_named_const(parent_context, sizeof(struct _Device) /*176ul*/ , "Device");
-          dev = (struct _Device *)return_value_talloc_named_const$2;
+          void *return_value_talloc_named_const_2;
+          return_value_talloc_named_const_2=talloc_named_const(parent_context, sizeof(struct _Device) /*176ul*/ , "Device");
+          dev = (struct _Device *)return_value_talloc_named_const_2;
           if(dev == ((struct _Device *)NULL))
           {
             Log_Print((enum Log_Level)LOG_ERROR, "Device_Create Out of Memory");
@@ -6021,14 +6021,14 @@ struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, c
 
           else
           {
-            signed long int return_value_time$3;
-            return_value_time$3=time((signed long int *)(void *)0);
-            char *return_value_talloc_strdup$4;
-            return_value_talloc_strdup$4=talloc_strdup((const void *)dev, descDocURL);
-            char *return_value_talloc_strdup$5;
-            return_value_talloc_strdup$5=talloc_strdup((const void *)dev, descDocText);
-            *dev = (struct _Device){ .creation_time=return_value_time$3, .descDoc=descDoc, .descDocURL=return_value_talloc_strdup$4,
-    .descDocText=return_value_talloc_strdup$5,
+            signed long int return_value_time_3;
+            return_value_time_3=time((signed long int *)(void *)0);
+            char *return_value_talloc_strdup_4;
+            return_value_talloc_strdup_4=talloc_strdup((const void *)dev, descDocURL);
+            char *return_value_talloc_strdup_5;
+            return_value_talloc_strdup_5=talloc_strdup((const void *)dev, descDocText);
+            *dev = (struct _Device){ .creation_time=return_value_time_3, .descDoc=descDoc, .descDocURL=return_value_talloc_strdup_4,
+    .descDocText=return_value_talloc_strdup_5,
     .baseURL=((const char *)NULL),
     .descDocNode=descDocNode, .udn=((const char *)NULL),
     .deviceType=((const char *)NULL), .friendlyName=((const char *)NULL),
@@ -6040,27 +6040,27 @@ struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, c
             const char *baseURL;
             baseURL=XMLUtil_FindFirstElementValue(&dev->descDoc->n, "URLBase", (const _Bool)1, (const _Bool)0);
             if(!(baseURL == ((const char *)NULL)))
-              tmp_if_expr$6 = baseURL[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = baseURL[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(tmp_if_expr$6)
-              tmp_if_expr$7 = baseURL;
+              tmp_if_expr_6 = (_Bool)0;
+            if(tmp_if_expr_6)
+              tmp_if_expr_7 = baseURL;
 
             else
-              tmp_if_expr$7 = dev->descDocURL;
-            dev->baseURL = tmp_if_expr$7;
-            const char *return_value_Device_GetDescDocItem$8;
-            return_value_Device_GetDescDocItem$8=Device_GetDescDocItem(dev, "UDN", (_Bool)1);
-            dev->udn=talloc_strdup((const void *)dev, return_value_Device_GetDescDocItem$8);
+              tmp_if_expr_7 = dev->descDocURL;
+            dev->baseURL = tmp_if_expr_7;
+            const char *return_value_Device_GetDescDocItem_8;
+            return_value_Device_GetDescDocItem_8=Device_GetDescDocItem(dev, "UDN", (_Bool)1);
+            dev->udn=talloc_strdup((const void *)dev, return_value_Device_GetDescDocItem_8);
             Log_Printf((enum Log_Level)LOG_DEBUG, "Device_Create : UDN = %s", dev->udn);
-            const char *return_value_Device_GetDescDocItem$9;
-            return_value_Device_GetDescDocItem$9=Device_GetDescDocItem(dev, "deviceType", (_Bool)1);
-            dev->deviceType=talloc_strdup((const void *)dev, return_value_Device_GetDescDocItem$9);
+            const char *return_value_Device_GetDescDocItem_9;
+            return_value_Device_GetDescDocItem_9=Device_GetDescDocItem(dev, "deviceType", (_Bool)1);
+            dev->deviceType=talloc_strdup((const void *)dev, return_value_Device_GetDescDocItem_9);
             Log_Printf((enum Log_Level)LOG_DEBUG, "Device_Create : type = %s", dev->deviceType);
-            const char *return_value_Device_GetDescDocItem$10;
-            return_value_Device_GetDescDocItem$10=Device_GetDescDocItem(dev, "friendlyName", (_Bool)1);
-            dev->friendlyName=talloc_strdup((const void *)dev, return_value_Device_GetDescDocItem$10);
+            const char *return_value_Device_GetDescDocItem_10;
+            return_value_Device_GetDescDocItem_10=Device_GetDescDocItem(dev, "friendlyName", (_Bool)1);
+            dev->friendlyName=talloc_strdup((const void *)dev, return_value_Device_GetDescDocItem_10);
             const char *relURL;
             relURL=Device_GetDescDocItem(dev, "presentationURL", (_Bool)0);
             dev->presURL=UpnpUtil_ResolveURL((void *)dev, dev->baseURL, relURL);
@@ -6072,14 +6072,14 @@ struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, c
             signed int i = 0;
             do
             {
-              return_value_ixmlNodeList_length$11=ixmlNodeList_length(services);
-              if((unsigned long int)i >= return_value_ixmlNodeList_length$11)
+              return_value_ixmlNodeList_length_11=ixmlNodeList_length(services);
+              if((unsigned long int)i >= return_value_ixmlNodeList_length_11)
                 break;
 
               struct _IXML_Element *serviceDesc;
-              struct _IXML_Node *return_value_ixmlNodeList_item$12;
-              return_value_ixmlNodeList_item$12=ixmlNodeList_item(services, (unsigned long int)i);
-              serviceDesc = (struct _IXML_Element *)return_value_ixmlNodeList_item$12;
+              struct _IXML_Node *return_value_ixmlNodeList_item_12;
+              return_value_ixmlNodeList_item_12=ixmlNodeList_item(services, (unsigned long int)i);
+              serviceDesc = (struct _IXML_Element *)return_value_ixmlNodeList_item_12;
               struct _Service *serv;
               serv=ServiceFactory(dev, ctrlpt_handle, serviceDesc, dev->baseURL);
               if(!(serv == ((struct _Service *)NULL)))
@@ -6096,7 +6096,7 @@ struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, c
 
             do
             {
-              signed int (*_talloc_destructor_fn)(struct _Device *) = destroy$link1;
+              signed int (*_talloc_destructor_fn)(struct _Device *) = destroy_link1;
               _talloc_set_destructor((const void *)dev, (signed int (*)(void *))_talloc_destructor_fn);
             }
             while((_Bool)0);
@@ -6111,11 +6111,11 @@ struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, c
 // file device.c line 314
 const char * Device_GetDescDocItem(const struct _Device *dev, const char *tagname, _Bool log_error)
 {
-  const char *return_value_XMLUtil_FindFirstElementValue$1;
+  const char *return_value_XMLUtil_FindFirstElementValue_1;
   if(!(dev == ((const struct _Device *)NULL)))
   {
-    return_value_XMLUtil_FindFirstElementValue$1=XMLUtil_FindFirstElementValue(dev->descDocNode, tagname, (const _Bool)0, log_error);
-    return return_value_XMLUtil_FindFirstElementValue$1;
+    return_value_XMLUtil_FindFirstElementValue_1=XMLUtil_FindFirstElementValue(dev->descDocNode, tagname, (const _Bool)0, log_error);
+    return return_value_XMLUtil_FindFirstElementValue_1;
   }
 
   else
@@ -6126,24 +6126,24 @@ const char * Device_GetDescDocItem(const struct _Device *dev, const char *tagnam
 // file device.c line 328
 char * Device_GetDescDocTextCopy(const struct _Device *dev, void *result_context)
 {
-  char *tmp_if_expr$2;
-  char *return_value_talloc_strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value_talloc_strdup_1;
   if(!(dev == ((const struct _Device *)NULL)))
   {
-    return_value_talloc_strdup$1=talloc_strdup(result_context, dev->descDocText);
-    tmp_if_expr$2 = return_value_talloc_strdup$1;
+    return_value_talloc_strdup_1=talloc_strdup(result_context, dev->descDocText);
+    tmp_if_expr_2 = return_value_talloc_strdup_1;
   }
 
   else
-    tmp_if_expr$2 = (char *)(void *)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (char *)(void *)0;
+  return tmp_if_expr_2;
 }
 
 // Device_GetServiceFrom
 // file device.c line 367
 struct _Service * Device_GetServiceFrom(const struct _Device *dev, const char *servname, enum GetFrom from, _Bool log_error)
 {
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(servname == ((const char *)NULL)))
   {
     struct LISTNODE *node;
@@ -6174,8 +6174,8 @@ struct _Service * Device_GetServiceFrom(const struct _Device *dev, const char *s
       }
       if(!(s == ((const char *)NULL)))
       {
-        return_value_strcmp$1=strcmp(servname, s);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(servname, s);
+        if(return_value_strcmp_1 == 0)
           return (struct _Service *)node->item;
 
       }
@@ -6184,15 +6184,15 @@ struct _Service * Device_GetServiceFrom(const struct _Device *dev, const char *s
     }
   }
 
-  const char *tmp_if_expr$2;
+  const char *tmp_if_expr_2;
   if(!(log_error == (_Bool)0))
   {
     if(!(dev->friendlyName == ((const char *)NULL)))
-      tmp_if_expr$2 = dev->friendlyName;
+      tmp_if_expr_2 = dev->friendlyName;
 
     else
-      tmp_if_expr$2 = "(null)";
-    Log_Printf((enum Log_Level)LOG_ERROR, "Device '%s' : error finding Service '%s'", tmp_if_expr$2, servname != ((const char *)NULL) ? servname : "(null)");
+      tmp_if_expr_2 = "(null)";
+    Log_Printf((enum Log_Level)LOG_ERROR, "Device '%s' : error finding Service '%s'", tmp_if_expr_2, servname != ((const char *)NULL) ? servname : "(null)");
   }
 
   return (struct _Service *)(void *)0;
@@ -6214,12 +6214,12 @@ char * Device_GetStatusString(const struct _Device *dev, void *result_context, _
     tpr(&p, "  | \n");
     signed long int now;
     now=time((signed long int *)(void *)0);
-    char *return_value_ctime$1;
-    return_value_ctime$1=ctime(&dev->creation_time);
-    tpr(&p, "  +- Discovered on  = %s", return_value_ctime$1);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(p);
-    p[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)32;
+    char *return_value_ctime_1;
+    return_value_ctime_1=ctime(&dev->creation_time);
+    tpr(&p, "  +- Discovered on  = %s", return_value_ctime_1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(p);
+    p[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)32;
     tpr(&p, "(%ld seconds ago)\n", (signed long int)(now - dev->creation_time));
     tpr(&p, "  +- UDN            = %s\n", dev->udn);
     tpr(&p, "  +- DeviceType     = %s\n", dev->deviceType);
@@ -6228,11 +6228,11 @@ char * Device_GetStatusString(const struct _Device *dev, void *result_context, _
     tpr(&p, "  +- PresURL        = %s\n", dev->presURL);
     if(!(debug == (_Bool)0))
     {
-      unsigned long int return_value_talloc_total_blocks$3;
-      return_value_talloc_total_blocks$3=talloc_total_blocks((const void *)dev);
-      unsigned long int return_value_talloc_total_size$4;
-      return_value_talloc_total_size$4=talloc_total_size((const void *)dev);
-      tpr(&p, "  +- talloc memory  = %ld blocks / %ld bytes\n", (signed long int)return_value_talloc_total_blocks$3, (signed long int)return_value_talloc_total_size$4);
+      unsigned long int return_value_talloc_total_blocks_3;
+      return_value_talloc_total_blocks_3=talloc_total_blocks((const void *)dev);
+      unsigned long int return_value_talloc_total_size_4;
+      return_value_talloc_total_size_4=talloc_total_size((const void *)dev);
+      tpr(&p, "  +- talloc memory  = %ld blocks / %ld bytes\n", (signed long int)return_value_talloc_total_blocks_3, (signed long int)return_value_talloc_total_size_4);
     }
 
     struct LISTNODE *node;
@@ -6242,9 +6242,9 @@ char * Device_GetStatusString(const struct _Device *dev, void *result_context, _
     {
       const struct _Service * const serv = (const struct _Service *)node->item;
       _Bool last;
-      struct LISTNODE *return_value_ListTail$5;
-      return_value_ListTail$5=ListTail(services);
-      last = node == return_value_ListTail$5;
+      struct LISTNODE *return_value_ListTail_5;
+      return_value_ListTail_5=ListTail(services);
+      last = node == return_value_ListTail_5;
       tpr(&p, "  | \n");
       if(serv == ((const struct _Service *)NULL))
         tpr(&p, "  +- **ERROR** NULL Service\n");
@@ -6252,9 +6252,9 @@ char * Device_GetStatusString(const struct _Device *dev, void *result_context, _
       else
       {
         tpr(&p, "  +- Service\n");
-        char *return_value_Service_GetStatusString$6;
-        return_value_Service_GetStatusString$6=Service_GetStatusString(serv, tmp_ctx, debug, last != (_Bool)0 ? "      " : "  |   ");
-        tpr(&p, "%s", return_value_Service_GetStatusString$6);
+        char *return_value_Service_GetStatusString_6;
+        return_value_Service_GetStatusString_6=Service_GetStatusString(serv, tmp_ctx, debug, last != (_Bool)0 ? "      " : "  |   ");
+        tpr(&p, "%s", return_value_Service_GetStatusString_6);
       }
       node=ListNext(services, node);
     }
@@ -6267,18 +6267,18 @@ char * Device_GetStatusString(const struct _Device *dev, void *result_context, _
 // file device.c line 339
 signed int Device_SusbcribeAllEvents(const struct _Device *dev)
 {
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(dev == ((const struct _Device *)NULL))
     return -110;
 
   else
   {
     if(!(dev->friendlyName == ((const char *)NULL)))
-      tmp_if_expr$1 = dev->friendlyName;
+      tmp_if_expr_1 = dev->friendlyName;
 
     else
-      tmp_if_expr$1 = "(null)";
-    Log_Printf((enum Log_Level)LOG_DEBUG, "Device_SusbcribeAllEvents %s", tmp_if_expr$1);
+      tmp_if_expr_1 = "(null)";
+    Log_Printf((enum Log_Level)LOG_DEBUG, "Device_SusbcribeAllEvents %s", tmp_if_expr_1);
     signed int rc = 0;
     struct LISTNODE *node;
     struct LINKEDLIST * const services = (struct LINKEDLIST *)&dev->services;
@@ -6302,18 +6302,18 @@ static signed int EventHandlerCallback(enum Upnp_EventType_e event_type, void *e
 {
   void *tmp_ctx;
   tmp_ctx=talloc_named_const((void *)0, (unsigned long int)0, "talloc_new: device_list.c:511");
-  char *return_value_UpnpUtil_GetEventString$1;
-  return_value_UpnpUtil_GetEventString$1=UpnpUtil_GetEventString(tmp_ctx, event_type, event);
-  Log_Print((enum Log_Level)LOG_DEBUG, return_value_UpnpUtil_GetEventString$1);
+  char *return_value_UpnpUtil_GetEventString_1;
+  return_value_UpnpUtil_GetEventString_1=UpnpUtil_GetEventString(tmp_ctx, event_type, event);
+  Log_Print((enum Log_Level)LOG_DEBUG, return_value_UpnpUtil_GetEventString_1);
   struct Upnp_Discovery *e;
-  struct Upnp_Discovery *EventHandlerCallback$$1$$1$$2$$e;
-  char *return_value_DeviceList_GetStatusString$3;
-  struct Upnp_Action_Complete *EventHandlerCallback$$1$$1$$3$$e;
-  struct Upnp_Event *EventHandlerCallback$$1$$1$$4$$e;
-  struct Upnp_Event_Subscribe *EventHandlerCallback$$1$$1$$5$$e;
-  void *tmp_if_expr$4;
-  struct Upnp_Event_Subscribe *EventHandlerCallback$$1$$1$$6$$e;
-  void *tmp_if_expr$5;
+  struct Upnp_Discovery *EventHandlerCallback__1__1__2__e;
+  char *return_value_DeviceList_GetStatusString_3;
+  struct Upnp_Action_Complete *EventHandlerCallback__1__1__3__e;
+  struct Upnp_Event *EventHandlerCallback__1__1__4__e;
+  struct Upnp_Event_Subscribe *EventHandlerCallback__1__1__5__e;
+  void *tmp_if_expr_4;
+  struct Upnp_Event_Subscribe *EventHandlerCallback__1__1__6__e;
+  void *tmp_if_expr_5;
   struct _Service *serv;
   switch((signed int)event_type)
   {
@@ -6329,9 +6329,9 @@ static signed int EventHandlerCallback(enum Upnp_EventType_e event_type, void *e
       {
         Log_Printf((enum Log_Level)LOG_DEBUG, "Discovery : device type '%s' OS '%s' at URL '%s'", e->DeviceType, e->Os, e->Location);
         AddDevice(e->DeviceId, e->Location, e->Expires);
-        char *return_value_DeviceList_GetStatusString$2;
-        return_value_DeviceList_GetStatusString$2=DeviceList_GetStatusString(tmp_ctx);
-        Log_Printf((enum Log_Level)LOG_DEBUG, "Discovery: DeviceList after AddDevice = \n%s", return_value_DeviceList_GetStatusString$2);
+        char *return_value_DeviceList_GetStatusString_2;
+        return_value_DeviceList_GetStatusString_2=DeviceList_GetStatusString(tmp_ctx);
+        Log_Printf((enum Log_Level)LOG_DEBUG, "Discovery: DeviceList after AddDevice = \n%s", return_value_DeviceList_GetStatusString_2);
       }
 
       goto __CPROVER_DUMP_L22;
@@ -6340,21 +6340,21 @@ static signed int EventHandlerCallback(enum Upnp_EventType_e event_type, void *e
       goto __CPROVER_DUMP_L22;
     case UPNP_DISCOVERY_ADVERTISEMENT_BYEBYE:
     {
-      EventHandlerCallback$$1$$1$$2$$e = (struct Upnp_Discovery *)event;
-      if(!(EventHandlerCallback$$1$$1$$2$$e->ErrCode == 0))
-        Log_Printf((enum Log_Level)LOG_ERROR, "Error in Discovery ByeBye Callback -- %d", EventHandlerCallback$$1$$1$$2$$e->ErrCode);
+      EventHandlerCallback__1__1__2__e = (struct Upnp_Discovery *)event;
+      if(!(EventHandlerCallback__1__1__2__e->ErrCode == 0))
+        Log_Printf((enum Log_Level)LOG_ERROR, "Error in Discovery ByeBye Callback -- %d", EventHandlerCallback__1__1__2__e->ErrCode);
 
-      Log_Printf((enum Log_Level)LOG_DEBUG, "Received ByeBye for Device: %s", (const void *)EventHandlerCallback$$1$$1$$2$$e->DeviceId);
-      DeviceList_RemoveDevice(EventHandlerCallback$$1$$1$$2$$e->DeviceId);
-      return_value_DeviceList_GetStatusString$3=DeviceList_GetStatusString(tmp_ctx);
-      Log_Printf((enum Log_Level)LOG_DEBUG, "DeviceList after byebye: \n%s", return_value_DeviceList_GetStatusString$3);
+      Log_Printf((enum Log_Level)LOG_DEBUG, "Received ByeBye for Device: %s", (const void *)EventHandlerCallback__1__1__2__e->DeviceId);
+      DeviceList_RemoveDevice(EventHandlerCallback__1__1__2__e->DeviceId);
+      return_value_DeviceList_GetStatusString_3=DeviceList_GetStatusString(tmp_ctx);
+      Log_Printf((enum Log_Level)LOG_DEBUG, "DeviceList after byebye: \n%s", return_value_DeviceList_GetStatusString_3);
       goto __CPROVER_DUMP_L22;
     }
     case UPNP_CONTROL_ACTION_COMPLETE:
     {
-      EventHandlerCallback$$1$$1$$3$$e = (struct Upnp_Action_Complete *)event;
-      if(!(EventHandlerCallback$$1$$1$$3$$e->ErrCode == 0))
-        Log_Printf((enum Log_Level)LOG_ERROR, "Error in  Action Complete Callback -- %d", EventHandlerCallback$$1$$1$$3$$e->ErrCode);
+      EventHandlerCallback__1__1__3__e = (struct Upnp_Action_Complete *)event;
+      if(!(EventHandlerCallback__1__1__3__e->ErrCode == 0))
+        Log_Printf((enum Log_Level)LOG_ERROR, "Error in  Action Complete Callback -- %d", EventHandlerCallback__1__1__3__e->ErrCode);
 
       goto __CPROVER_DUMP_L22;
     }
@@ -6365,8 +6365,8 @@ static signed int EventHandlerCallback(enum Upnp_EventType_e event_type, void *e
     }
     case UPNP_EVENT_RECEIVED:
     {
-      EventHandlerCallback$$1$$1$$4$$e = (struct Upnp_Event *)event;
-      HandleEvent(EventHandlerCallback$$1$$1$$4$$e->Sid, EventHandlerCallback$$1$$1$$4$$e->EventKey, EventHandlerCallback$$1$$1$$4$$e->ChangedVariables);
+      EventHandlerCallback__1__1__4__e = (struct Upnp_Event *)event;
+      HandleEvent(EventHandlerCallback__1__1__4__e->Sid, EventHandlerCallback__1__1__4__e->EventKey, EventHandlerCallback__1__1__4__e->ChangedVariables);
       goto __CPROVER_DUMP_L22;
     }
     case UPNP_EVENT_SUBSCRIBE_COMPLETE:
@@ -6375,28 +6375,28 @@ static signed int EventHandlerCallback(enum Upnp_EventType_e event_type, void *e
 
     case UPNP_EVENT_RENEWAL_COMPLETE:
     {
-      EventHandlerCallback$$1$$1$$5$$e = (struct Upnp_Event_Subscribe *)event;
-      if(!(EventHandlerCallback$$1$$1$$5$$e->ErrCode == 0))
-        Log_Printf((enum Log_Level)LOG_ERROR, "Error in Event Subscribe Callback -- %d", EventHandlerCallback$$1$$1$$5$$e->ErrCode);
+      EventHandlerCallback__1__1__5__e = (struct Upnp_Event_Subscribe *)event;
+      if(!(EventHandlerCallback__1__1__5__e->ErrCode == 0))
+        Log_Printf((enum Log_Level)LOG_ERROR, "Error in Event Subscribe Callback -- %d", EventHandlerCallback__1__1__5__e->ErrCode);
 
       else
       {
-        if(!(EventHandlerCallback$$1$$1$$5$$e->PublisherUrl == ((struct s_UpnpString *)NULL)))
-          tmp_if_expr$4 = (void *)EventHandlerCallback$$1$$1$$5$$e->PublisherUrl;
+        if(!(EventHandlerCallback__1__1__5__e->PublisherUrl == ((struct s_UpnpString *)NULL)))
+          tmp_if_expr_4 = (void *)EventHandlerCallback__1__1__5__e->PublisherUrl;
 
         else
-          tmp_if_expr$4 = (void *)"(null)";
-        Log_Printf((enum Log_Level)LOG_DEBUG, "Received Event Renewal for eventURL %s", tmp_if_expr$4);
+          tmp_if_expr_4 = (void *)"(null)";
+        Log_Printf((enum Log_Level)LOG_DEBUG, "Received Event Renewal for eventURL %s", tmp_if_expr_4);
         pthread_mutex_lock(&DeviceListMutex);
-        struct _Service *EventHandlerCallback$$1$$1$$5$$2$$serv;
-        EventHandlerCallback$$1$$1$$5$$2$$serv=GetService((const char *)EventHandlerCallback$$1$$1$$5$$e->PublisherUrl, (enum GetFrom)FROM_EVENT_URL);
-        if(!(EventHandlerCallback$$1$$1$$5$$2$$serv == ((struct _Service *)NULL)))
+        struct _Service *EventHandlerCallback__1__1__5__2__serv;
+        EventHandlerCallback__1__1__5__2__serv=GetService((const char *)EventHandlerCallback__1__1__5__e->PublisherUrl, (enum GetFrom)FROM_EVENT_URL);
+        if(!(EventHandlerCallback__1__1__5__2__serv == ((struct _Service *)NULL)))
         {
           if((signed int)event_type == UPNP_EVENT_UNSUBSCRIBE_COMPLETE)
-            Service_SetSid(EventHandlerCallback$$1$$1$$5$$2$$serv, (char *)(void *)0);
+            Service_SetSid(EventHandlerCallback__1__1__5__2__serv, (char *)(void *)0);
 
           else
-            Service_SetSid(EventHandlerCallback$$1$$1$$5$$2$$serv, EventHandlerCallback$$1$$1$$5$$e->Sid);
+            Service_SetSid(EventHandlerCallback__1__1__5__2__serv, EventHandlerCallback__1__1__5__e->Sid);
         }
 
         pthread_mutex_unlock(&DeviceListMutex);
@@ -6407,15 +6407,15 @@ static signed int EventHandlerCallback(enum Upnp_EventType_e event_type, void *e
 
     case UPNP_EVENT_SUBSCRIPTION_EXPIRED:
     {
-      EventHandlerCallback$$1$$1$$6$$e = (struct Upnp_Event_Subscribe *)event;
-      if(!(EventHandlerCallback$$1$$1$$6$$e->PublisherUrl == ((struct s_UpnpString *)NULL)))
-        tmp_if_expr$5 = (void *)EventHandlerCallback$$1$$1$$6$$e->PublisherUrl;
+      EventHandlerCallback__1__1__6__e = (struct Upnp_Event_Subscribe *)event;
+      if(!(EventHandlerCallback__1__1__6__e->PublisherUrl == ((struct s_UpnpString *)NULL)))
+        tmp_if_expr_5 = (void *)EventHandlerCallback__1__1__6__e->PublisherUrl;
 
       else
-        tmp_if_expr$5 = (void *)"(null)";
-      Log_Printf((enum Log_Level)LOG_DEBUG, "Renewing subscription for eventURL %s", tmp_if_expr$5);
+        tmp_if_expr_5 = (void *)"(null)";
+      Log_Printf((enum Log_Level)LOG_DEBUG, "Renewing subscription for eventURL %s", tmp_if_expr_5);
       pthread_mutex_lock(&DeviceListMutex);
-      serv=GetService((const char *)EventHandlerCallback$$1$$1$$6$$e->PublisherUrl, (enum GetFrom)FROM_EVENT_URL);
+      serv=GetService((const char *)EventHandlerCallback__1__1__6__e->PublisherUrl, (enum GetFrom)FROM_EVENT_URL);
       if(!(serv == ((struct _Service *)NULL)))
         Service_SubscribeEventURL(serv);
 
@@ -6443,10 +6443,10 @@ static signed int EventHandlerCallback(enum Upnp_EventType_e event_type, void *e
 struct _FileBuffer * FileBuffer_CreateFromString(void *talloc_context, const char *content, enum _FileBuffer_StringAlloc alloc)
 {
   struct _FileBuffer *file;
-  void *return_value_talloc_named_const$1;
-  return_value_talloc_named_const$1=talloc_named_const(talloc_context, sizeof(struct _FileBuffer) /*32ul*/ , "FileBuffer");
-  file = (struct _FileBuffer *)return_value_talloc_named_const$1;
-  const char *tmp_statement_expression$2;
+  void *return_value_talloc_named_const_1;
+  return_value_talloc_named_const_1=talloc_named_const(talloc_context, sizeof(struct _FileBuffer) /*32ul*/ , "FileBuffer");
+  file = (struct _FileBuffer *)return_value_talloc_named_const_1;
+  const char *tmp_statement_expression_2;
   if(!(file == ((struct _FileBuffer *)NULL)))
   {
     *file = (struct _FileBuffer){ .exact_read=(_Bool)1, .file_size=(signed long int)0, .url=(const char *)(void *)0,
@@ -6458,11 +6458,11 @@ struct _FileBuffer * FileBuffer_CreateFromString(void *talloc_context, const cha
         case FILE_BUFFER_STRING_STEAL:
         {
           const char *__talloc_steal_ret;
-          void *return_value__talloc_steal_loc$3;
-          return_value__talloc_steal_loc$3=_talloc_steal_loc((const void *)file, (const void *)content, "file_buffer.c:73");
-          __talloc_steal_ret = (const char *)return_value__talloc_steal_loc$3;
-          tmp_statement_expression$2 = __talloc_steal_ret;
-          file->content = tmp_statement_expression$2;
+          void *return_value__talloc_steal_loc_3;
+          return_value__talloc_steal_loc_3=_talloc_steal_loc((const void *)file, (const void *)content, "file_buffer.c:73");
+          __talloc_steal_ret = (const char *)return_value__talloc_steal_loc_3;
+          tmp_statement_expression_2 = __talloc_steal_ret;
+          file->content = tmp_statement_expression_2;
           break;
         }
         case FILE_BUFFER_STRING_EXTERN:
@@ -6475,9 +6475,9 @@ struct _FileBuffer * FileBuffer_CreateFromString(void *talloc_context, const cha
         default:
           file->content=talloc_strdup((const void *)file, content);
       }
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(content);
-      file->file_size = (signed long int)return_value_strlen$4;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(content);
+      file->file_size = (signed long int)return_value_strlen_4;
     }
 
   }
@@ -6490,9 +6490,9 @@ struct _FileBuffer * FileBuffer_CreateFromString(void *talloc_context, const cha
 struct _FileBuffer * FileBuffer_CreateFromURL(void *talloc_context, const char *url, signed long int file_size)
 {
   struct _FileBuffer *file;
-  void *return_value_talloc_named_const$1;
-  return_value_talloc_named_const$1=talloc_named_const(talloc_context, sizeof(struct _FileBuffer) /*32ul*/ , "FileBuffer");
-  file = (struct _FileBuffer *)return_value_talloc_named_const$1;
+  void *return_value_talloc_named_const_1;
+  return_value_talloc_named_const_1=talloc_named_const(talloc_context, sizeof(struct _FileBuffer) /*32ul*/ , "FileBuffer");
+  file = (struct _FileBuffer *)return_value_talloc_named_const_1;
   if(!(file == ((struct _FileBuffer *)NULL)))
   {
     *file = (struct _FileBuffer){ .exact_read=file_size >= (signed long int)0, .file_size=file_size,
@@ -6509,26 +6509,26 @@ struct _FileBuffer * FileBuffer_CreateFromURL(void *talloc_context, const char *
 // file file_buffer.c line 117
 signed long int FileBuffer_GetSize(const struct _FileBuffer *file)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(file == ((const struct _FileBuffer *)NULL)))
-    tmp_if_expr$1 = file->file_size != 0l ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = file->file_size != 0l ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed long int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed long int)tmp_if_expr_1;
 }
 
 // FileBuffer_HasExactRead
 // file file_buffer.c line 127
 _Bool FileBuffer_HasExactRead(const struct _FileBuffer *file)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(file == ((const struct _FileBuffer *)NULL)))
-    tmp_if_expr$1 = file->exact_read != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = file->exact_read != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return tmp_if_expr_1;
 }
 
 // FileBuffer_Read
@@ -6536,8 +6536,8 @@ _Bool FileBuffer_HasExactRead(const struct _FileBuffer *file)
 signed long int FileBuffer_Read(struct _FileBuffer *file, char *buffer, unsigned long int size, const signed long int offset)
 {
   signed long int n = (signed long int)0;
-  unsigned long int tmp_if_expr$1;
-  signed long int tmp_if_expr$2;
+  unsigned long int tmp_if_expr_1;
+  signed long int tmp_if_expr_2;
   if(file == ((struct _FileBuffer *)NULL))
     n = (signed long int)-22;
 
@@ -6553,11 +6553,11 @@ signed long int FileBuffer_Read(struct _FileBuffer *file, char *buffer, unsigned
           if(!(offset >= file->file_size))
           {
             if(!(size >= (unsigned long int)file->file_size + -((unsigned long int)offset)))
-              tmp_if_expr$1 = size;
+              tmp_if_expr_1 = size;
 
             else
-              tmp_if_expr$1 = (unsigned long int)(file->file_size - offset);
-            n = (signed long int)tmp_if_expr$1;
+              tmp_if_expr_1 = (unsigned long int)(file->file_size - offset);
+            n = (signed long int)tmp_if_expr_1;
             if(n >= 1l)
               memcpy((void *)buffer, (const void *)(file->content + offset), (unsigned long int)n);
 
@@ -6582,11 +6582,11 @@ signed long int FileBuffer_Read(struct _FileBuffer *file, char *buffer, unsigned
             if(!((unsigned long int)file->file_size + -size >= (unsigned long int)offset))
             {
               if(!(file->file_size + -offset >= 0l))
-                tmp_if_expr$2 = (signed long int)0;
+                tmp_if_expr_2 = (signed long int)0;
 
               else
-                tmp_if_expr$2 = file->file_size - offset;
-              size = (unsigned long int)tmp_if_expr$2;
+                tmp_if_expr_2 = file->file_size - offset;
+              size = (unsigned long int)tmp_if_expr_2;
               Log_Printf((enum Log_Level)LOG_DEBUG, "GetHttp truncate to size %ld", (signed long int)size);
             }
 
@@ -6627,9 +6627,9 @@ signed long int FileBuffer_Read(struct _FileBuffer *file, char *buffer, unsigned
           ;
           if(!(rc == 0))
           {
-            const char *return_value_UpnpGetErrorMessage$3;
-            return_value_UpnpGetErrorMessage$3=UpnpGetErrorMessage(rc);
-            Log_Printf((enum Log_Level)LOG_ERROR, "GetHttp url '%s' (size %ld, offset %ld, file_size %ld) : error %d (%s)", file->url, (signed long int)size, (signed long int)offset, (signed long int)file->file_size, rc, return_value_UpnpGetErrorMessage$3);
+            const char *return_value_UpnpGetErrorMessage_3;
+            return_value_UpnpGetErrorMessage_3=UpnpGetErrorMessage(rc);
+            Log_Printf((enum Log_Level)LOG_ERROR, "GetHttp url '%s' (size %ld, offset %ld, file_size %ld) : error %d (%s)", file->url, (signed long int)size, (signed long int)offset, (signed long int)file->file_size, rc, return_value_UpnpGetErrorMessage_3);
             if(rc == -104)
             {
               n = (signed long int)-12;
@@ -6651,7 +6651,7 @@ __CPROVER_DUMP_L19:
 // file device_list.c line 145
 static struct LISTNODE * GetDeviceListNodeFromId(const char *deviceId)
 {
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(deviceId == ((const char *)NULL)))
   {
     struct LISTNODE *node;
@@ -6663,8 +6663,8 @@ static struct LISTNODE * GetDeviceListNodeFromId(const char *deviceId)
       {
         if(!(devnode->deviceId == ((char *)NULL)))
         {
-          return_value_strcmp$1=strcmp(devnode->deviceId, deviceId);
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(devnode->deviceId, deviceId);
+          if(return_value_strcmp_1 == 0)
             return node;
 
         }
@@ -6682,8 +6682,8 @@ static struct LISTNODE * GetDeviceListNodeFromId(const char *deviceId)
 // file device_list.c line 126
 static struct _DeviceNode * GetDeviceNodeFromName(const char *name, _Bool log_error)
 {
-  const char *return_value_talloc_get_name$1;
-  signed int return_value_strcmp$2;
+  const char *return_value_talloc_get_name_1;
+  signed int return_value_strcmp_2;
   if(!(name == ((const char *)NULL)))
   {
     struct LISTNODE *node;
@@ -6695,9 +6695,9 @@ static struct _DeviceNode * GetDeviceNodeFromName(const char *name, _Bool log_er
       {
         if(!(devnode->d == ((struct _Device *)NULL)))
         {
-          return_value_talloc_get_name$1=talloc_get_name((const void *)devnode->d);
-          return_value_strcmp$2=strcmp(return_value_talloc_get_name$1, name);
-          if(return_value_strcmp$2 == 0)
+          return_value_talloc_get_name_1=talloc_get_name((const void *)devnode->d);
+          return_value_strcmp_2=strcmp(return_value_talloc_get_name_1, name);
+          if(return_value_strcmp_2 == 0)
             return devnode;
 
         }
@@ -6742,7 +6742,7 @@ static struct _Service * GetService(const char *s, enum GetFrom from)
 // file service.c line 170
 static struct LISTNODE * GetVariable(const struct _Service *serv, const char *name)
 {
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(name == ((const char *)NULL)) && !(serv == ((const struct _Service *)NULL)))
   {
     struct LISTNODE *node;
@@ -6755,8 +6755,8 @@ static struct LISTNODE * GetVariable(const struct _Service *serv, const char *na
       {
         if(!(var->name == ((char *)NULL)))
         {
-          return_value_strcmp$1=strcmp(var->name, name);
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(var->name, name);
+          if(return_value_strcmp_1 == 0)
             return node;
 
         }
@@ -6788,35 +6788,35 @@ static void HandleEvent(char *sid, signed int eventkey, struct _IXML_Document *c
 // file log.c line 205
 void Log_BeginColor(enum Log_Level level, struct _IO_FILE *stream)
 {
-  _Bool return_value_Log_IsActivated$5;
-  return_value_Log_IsActivated$5=Log_IsActivated(level);
-  _Bool tmp_if_expr$3;
-  signed int return_value_fileno$1;
-  signed int return_value_isatty$2;
-  _Bool tmp_if_expr$4;
-  if(!(return_value_Log_IsActivated$5 == (_Bool)0))
+  _Bool return_value_Log_IsActivated_5;
+  return_value_Log_IsActivated_5=Log_IsActivated(level);
+  _Bool tmp_if_expr_3;
+  signed int return_value_fileno_1;
+  signed int return_value_isatty_2;
+  _Bool tmp_if_expr_4;
+  if(!(return_value_Log_IsActivated_5 == (_Bool)0))
   {
     if(!(stream == ((struct _IO_FILE *)NULL)))
     {
       _Bool colorize;
       if(!(g_colorize == (_Bool)0))
       {
-        return_value_fileno$1=fileno(stream);
-        return_value_isatty$2=isatty(return_value_fileno$1);
-        tmp_if_expr$3 = return_value_isatty$2 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_fileno_1=fileno(stream);
+        return_value_isatty_2=isatty(return_value_fileno_1);
+        tmp_if_expr_3 = return_value_isatty_2 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      colorize = tmp_if_expr$3;
+        tmp_if_expr_3 = (_Bool)0;
+      colorize = tmp_if_expr_3;
       if(!(colorize == (_Bool)0))
       {
         if(NB_COLORS >= (signed int)level && (signed int)level >= 0)
-          tmp_if_expr$4 = COLORS[(signed long int)level] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = COLORS[(signed long int)level] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
           fputs(COLORS[(signed long int)level], stream);
 
         else
@@ -6840,26 +6840,26 @@ void Log_Colorize(_Bool colorize)
 // file log.c line 220
 void Log_EndColor(enum Log_Level level, struct _IO_FILE *stream)
 {
-  _Bool return_value_Log_IsActivated$4;
-  return_value_Log_IsActivated$4=Log_IsActivated(level);
-  _Bool tmp_if_expr$3;
-  signed int return_value_fileno$1;
-  signed int return_value_isatty$2;
-  if(!(return_value_Log_IsActivated$4 == (_Bool)0))
+  _Bool return_value_Log_IsActivated_4;
+  return_value_Log_IsActivated_4=Log_IsActivated(level);
+  _Bool tmp_if_expr_3;
+  signed int return_value_fileno_1;
+  signed int return_value_isatty_2;
+  if(!(return_value_Log_IsActivated_4 == (_Bool)0))
   {
     if(!(stream == ((struct _IO_FILE *)NULL)))
     {
       _Bool colorize;
       if(!(g_colorize == (_Bool)0))
       {
-        return_value_fileno$1=fileno(stream);
-        return_value_isatty$2=isatty(return_value_fileno$1);
-        tmp_if_expr$3 = return_value_isatty$2 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_fileno_1=fileno(stream);
+        return_value_isatty_2=isatty(return_value_fileno_1);
+        tmp_if_expr_3 = return_value_isatty_2 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      colorize = tmp_if_expr$3;
+        tmp_if_expr_3 = (_Bool)0;
+      colorize = tmp_if_expr_3;
       if(!(colorize == (_Bool)0))
         fputs("\033[0m", stream);
 
@@ -6889,7 +6889,7 @@ signed int Log_Initialize(void (*print_function)(enum Log_Level, const char *))
 {
   if(g_initialized == (_Bool)0)
   {
-    union anonymous$5 attr;
+    union anonymous_5 attr;
     pthread_mutexattr_init(&attr);
     pthread_mutexattr_setkind_np(&attr, 1);
     pthread_mutex_init(&g_log_mutex, &attr);
@@ -6912,18 +6912,18 @@ _Bool Log_IsActivated(enum Log_Level level)
 // file log.c line 183
 signed int Log_Lock(void)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&g_log_mutex);
-  return return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&g_log_mutex);
+  return return_value_pthread_mutex_lock_1;
 }
 
 // Log_Print
 // file log.c line 131
 signed int Log_Print(enum Log_Level level, const char *msg)
 {
-  _Bool return_value_Log_IsActivated$1;
-  return_value_Log_IsActivated$1=Log_IsActivated(level);
-  if(!(return_value_Log_IsActivated$1 == (_Bool)0))
+  _Bool return_value_Log_IsActivated_1;
+  return_value_Log_IsActivated_1=Log_IsActivated(level);
+  if(!(return_value_Log_IsActivated_1 == (_Bool)0))
   {
     if(!(msg == ((const char *)NULL)))
     {
@@ -6941,9 +6941,9 @@ signed int Log_Print(enum Log_Level level, const char *msg)
 // file log.c line 146
 signed int Log_Printf(enum Log_Level level, const char *fmt, ...)
 {
-  _Bool return_value_Log_IsActivated$1;
-  return_value_Log_IsActivated$1=Log_IsActivated(level);
-  if(!(return_value_Log_IsActivated$1 == (_Bool)0))
+  _Bool return_value_Log_IsActivated_1;
+  return_value_Log_IsActivated_1=Log_IsActivated(level);
+  if(!(return_value_Log_IsActivated_1 == (_Bool)0))
   {
     if(!(fmt == ((const char *)NULL)))
     {
@@ -6979,9 +6979,9 @@ void Log_SetMaxLevel(enum Log_Level max_level)
 // file log.c line 189
 signed int Log_Unlock(void)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&g_log_mutex);
-  return return_value_pthread_mutex_unlock$1;
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&g_log_mutex);
+  return return_value_pthread_mutex_unlock_1;
 }
 
 // MakeAction
@@ -6989,8 +6989,8 @@ signed int Log_Unlock(void)
 static struct _IXML_Document * MakeAction(const char *actionName, const char *serviceType, signed int nb_params, const struct _StringPair *params)
 {
   struct _IXML_Document *res = (struct _IXML_Document *)(void *)0;
-  char *tmp_if_expr$1;
-  char *tmp_if_expr$2;
+  char *tmp_if_expr_1;
+  char *tmp_if_expr_2;
   if(params == ((const struct _StringPair *)NULL) && nb_params >= 1)
     return (struct _IXML_Document *)(void *)0;
 
@@ -7004,16 +7004,16 @@ static struct _IXML_Document * MakeAction(const char *actionName, const char *se
       if(!(rc == 0))
       {
         if(!((params + (signed long int)i)->name == ((char *)NULL)))
-          tmp_if_expr$1 = (params + (signed long int)i)->name;
+          tmp_if_expr_1 = (params + (signed long int)i)->name;
 
         else
-          tmp_if_expr$1 = "(null)";
+          tmp_if_expr_1 = "(null)";
         if(!((params + (signed long int)i)->value == ((char *)NULL)))
-          tmp_if_expr$2 = (params + (signed long int)i)->value;
+          tmp_if_expr_2 = (params + (signed long int)i)->value;
 
         else
-          tmp_if_expr$2 = "(null)";
-        Log_Printf((enum Log_Level)LOG_ERROR, "Service MakeAction: can't add action %s=%s", tmp_if_expr$1, tmp_if_expr$2);
+          tmp_if_expr_2 = "(null)";
+        Log_Printf((enum Log_Level)LOG_ERROR, "Service MakeAction: can't add action %s=%s", tmp_if_expr_1, tmp_if_expr_2);
         if(!(res == ((struct _IXML_Document *)NULL)))
           ixmlDocument_free(res);
 
@@ -7033,8 +7033,8 @@ static struct _IXML_Document * MakeAction(const char *actionName, const char *se
 char * MediaFile_GetName(void *result_context, const struct _DIDLObject *o, const char *extension)
 {
   char *name = (char *)(void *)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(!(o == ((const struct _DIDLObject *)NULL)))
   {
     if(!(o->basename == ((char *)NULL)))
@@ -7046,14 +7046,14 @@ char * MediaFile_GetName(void *result_context, const struct _DIDLObject *o, cons
           const char *ptr;
           ptr=strrchr(o->basename, 46);
           if(ptr == ((const char *)NULL))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$1=strcmp(ptr + (signed long int)1, extension);
-            tmp_if_expr$2 = return_value_strcmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_1=strcmp(ptr + (signed long int)1, extension);
+            tmp_if_expr_2 = return_value_strcmp_1 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$2)
+          if(tmp_if_expr_2)
             name=talloc_asprintf(result_context, "%s.%s", o->basename, extension);
 
         }
@@ -7074,22 +7074,22 @@ char * MediaFile_GetName(void *result_context, const struct _DIDLObject *o, cons
 // file media_file.c line 232
 char * MediaFile_GetPlaylistContent(const struct _MediaFile * const file, void *result_context)
 {
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   if(file == ((const struct _MediaFile *)NULL))
     return (char *)(void *)0;
 
   else
   {
     char *str = (char *)(void *)0;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(file->playlist, "ram");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(file->playlist, "ram");
+    if(return_value_strcmp_3 == 0)
       str=talloc_asprintf(result_context, "%s?title=%s\n", file->uri, file->o->title);
 
     else
     {
-      return_value_strcmp$2=strcmp(file->playlist, "m3u");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(file->playlist, "m3u");
+      if(return_value_strcmp_2 == 0)
       {
         const char *duration;
         duration=ixmlElement_getAttribute(file->res, "duration");
@@ -7099,9 +7099,9 @@ char * MediaFile_GetPlaylistContent(const struct _MediaFile * const file, void *
           signed int hh = 0;
           unsigned int mm = (unsigned int)0;
           unsigned int ss = (unsigned int)0;
-          signed int return_value_sscanf$1;
-          return_value_sscanf$1=sscanf(duration, "%d:%u:%u", &hh, &mm, &ss);
-          if(return_value_sscanf$1 == 3)
+          signed int return_value_sscanf_1;
+          return_value_sscanf_1=sscanf(duration, "%d:%u:%u", &hh, &mm, &ss);
+          if(return_value_sscanf_1 == 3)
           {
             if(hh >= 0)
               seconds = (signed int)(ss + (unsigned int)60 * (mm + (unsigned int)(60 * hh)));
@@ -7122,10 +7122,10 @@ char * MediaFile_GetPlaylistContent(const struct _MediaFile * const file, void *
 // file media_file.c line 140
 _Bool MediaFile_GetPreferred(const struct _DIDLObject * const o, struct _MediaFile *file)
 {
-  unsigned long int return_value_ixmlNodeList_length$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_sscanf$3;
-  _Bool tmp_if_expr$6;
+  unsigned long int return_value_ixmlNodeList_length_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_sscanf_3;
+  _Bool tmp_if_expr_6;
   if(o == ((const struct _DIDLObject *)NULL))
     return (_Bool)0;
 
@@ -7143,28 +7143,28 @@ _Bool MediaFile_GetPreferred(const struct _DIDLObject * const o, struct _MediaFi
       i = 0;
       do
       {
-        return_value_ixmlNodeList_length$1=ixmlNodeList_length(reslist);
-        if(!(found == (_Bool)0) || (unsigned long int)i >= return_value_ixmlNodeList_length$1)
+        return_value_ixmlNodeList_length_1=ixmlNodeList_length(reslist);
+        if(!(found == (_Bool)0) || (unsigned long int)i >= return_value_ixmlNodeList_length_1)
           break;
 
         struct _IXML_Element *res;
-        struct _IXML_Node *return_value_ixmlNodeList_item$2;
-        return_value_ixmlNodeList_item$2=ixmlNodeList_item(reslist, (unsigned long int)i);
-        res = (struct _IXML_Element *)return_value_ixmlNodeList_item$2;
+        struct _IXML_Node *return_value_ixmlNodeList_item_2;
+        return_value_ixmlNodeList_item_2=ixmlNodeList_item(reslist, (unsigned long int)i);
+        res = (struct _IXML_Element *)return_value_ixmlNodeList_item_2;
         const char *protocol;
         protocol=ixmlElement_getAttribute(res, "protocolInfo");
         const char *uri;
         uri=XMLUtil_GetElementValue(res);
         char mimetype[64l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         if(protocol == ((const char *)NULL) || uri == ((const char *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_sscanf$3=sscanf(protocol, "http-get:*:%63[^:;]", (const void *)mimetype);
-          tmp_if_expr$4 = return_value_sscanf$3 != 1 ? (_Bool)1 : (_Bool)0;
+          return_value_sscanf_3=sscanf(protocol, "http-get:*:%63[^:;]", (const void *)mimetype);
+          tmp_if_expr_4 = return_value_sscanf_3 != 1 ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$4)
+        if(!tmp_if_expr_4)
         {
           const struct _MimeType *format = MIMES;
           while(!(format->mimetype == ((const char *)NULL)))
@@ -7172,30 +7172,30 @@ _Bool MediaFile_GetPreferred(const struct _DIDLObject * const o, struct _MediaFi
             if(found != (_Bool)0)
               break;
 
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(format->mimetype);
-            signed int return_value_strncmp$8;
-            return_value_strncmp$8=strncmp(mimetype, format->mimetype, return_value_strlen$7);
-            if(return_value_strncmp$8 == 0)
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(format->mimetype);
+            signed int return_value_strncmp_8;
+            return_value_strncmp_8=strncmp(mimetype, format->mimetype, return_value_strlen_7);
+            if(return_value_strncmp_8 == 0)
             {
               *file = (struct _MediaFile){ .o=o, .extension={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .playlist=format->playlist,
     .uri=uri, .res=res };
               const char *ext = format->extension;
               if(ext == ((const char *)NULL))
               {
-                unsigned long int return_value_strlen$5;
-                return_value_strlen$5=strlen(mimetype);
-                ext = mimetype + (signed long int)return_value_strlen$5;
+                unsigned long int return_value_strlen_5;
+                return_value_strlen_5=strlen(mimetype);
+                ext = mimetype + (signed long int)return_value_strlen_5;
                 do
                 {
                   ext = ext - 1l;
                   if(!((signed int)*ext == 47))
-                    tmp_if_expr$6 = (signed int)*ext != 45 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_6 = (signed int)*ext != 45 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$6 = (_Bool)0;
+                    tmp_if_expr_6 = (_Bool)0;
                 }
-                while(tmp_if_expr$6);
+                while(tmp_if_expr_6);
                 ext = ext + 1l;
               }
 
@@ -7241,13 +7241,13 @@ signed long int MediaFile_GetResSize(const struct _MediaFile * const file)
 // file device_list.c line 102
 static void NotifyUpdate(enum DeviceList_EventType type, const struct _DeviceNode *devnode)
 {
-  const char *return_value_talloc_get_name$1;
+  const char *return_value_talloc_get_name_1;
   if(!(gStateUpdateFun == ((void (*)(enum DeviceList_EventType, const char *))NULL)) && !(devnode == ((const struct _DeviceNode *)NULL)))
   {
     if(!(devnode->d == ((struct _Device *)NULL)))
     {
-      return_value_talloc_get_name$1=talloc_get_name((const void *)devnode->d);
-      gStateUpdateFun(type, return_value_talloc_get_name$1);
+      return_value_talloc_get_name_1=talloc_get_name((const void *)devnode->d);
+      gStateUpdateFun(type, return_value_talloc_get_name_1);
     }
 
   }
@@ -7260,24 +7260,24 @@ struct _Object * Object_Create(void *parent_context, void *unused)
 {
   (void)unused;
   struct _Object *self;
-  const struct _Object_Class *return_value__Object_GetBaseClass$1;
-  return_value__Object_GetBaseClass$1=_Object_GetBaseClass();
-  self=_Object_check_alloc(parent_context, return_value__Object_GetBaseClass$1);
-  _Bool tmp_if_expr$2;
-  const char *tmp_if_expr$3;
+  const struct _Object_Class *return_value__Object_GetBaseClass_1;
+  return_value__Object_GetBaseClass_1=_Object_GetBaseClass();
+  self=_Object_check_alloc(parent_context, return_value__Object_GetBaseClass_1);
+  _Bool tmp_if_expr_2;
+  const char *tmp_if_expr_3;
   if(!(self == ((struct _Object *)NULL)))
   {
     if(!(self == ((struct _Object *)NULL)))
-      tmp_if_expr$2 = self->_.baseclass != ((const struct _Object_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = self->_.baseclass != ((const struct _Object_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = self->_.baseclass->name;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = self->_.baseclass->name;
 
     else
-      tmp_if_expr$3 = (const char *)(void *)0;
-    talloc_set_name_const((const void *)self, tmp_if_expr$3);
+      tmp_if_expr_3 = (const char *)(void *)0;
+    talloc_set_name_const((const void *)self, tmp_if_expr_3);
   }
 
   return self;
@@ -7287,14 +7287,14 @@ struct _Object * Object_Create(void *parent_context, void *unused)
 // file ptr_array.h line 123
 _Bool PtrArray_Append(struct _PtrArray *self, void *element)
 {
-  _Bool return_value_PtrArray_ReserveExtraSize$2;
-  return_value_PtrArray_ReserveExtraSize$2=PtrArray_ReserveExtraSize(self, (unsigned long int)1);
-  unsigned long int tmp_post$1;
-  if(!(return_value_PtrArray_ReserveExtraSize$2 == (_Bool)0))
+  _Bool return_value_PtrArray_ReserveExtraSize_2;
+  return_value_PtrArray_ReserveExtraSize_2=PtrArray_ReserveExtraSize(self, (unsigned long int)1);
+  unsigned long int tmp_post_1;
+  if(!(return_value_PtrArray_ReserveExtraSize_2 == (_Bool)0))
   {
-    tmp_post$1 = self->_size;
+    tmp_post_1 = self->_size;
     self->_size = self->_size + 1ul;
-    self->_array[(signed long int)tmp_post$1] = element;
+    self->_array[(signed long int)tmp_post_1] = element;
     return (_Bool)1;
   }
 
@@ -7307,9 +7307,9 @@ _Bool PtrArray_Append(struct _PtrArray *self, void *element)
 struct _PtrArray * PtrArray_Create(void *context)
 {
   struct _PtrArray *self;
-  void *return_value_talloc_named_const$1;
-  return_value_talloc_named_const$1=talloc_named_const(context, sizeof(struct _PtrArray) /*24ul*/ , "PtrArray");
-  self = (struct _PtrArray *)return_value_talloc_named_const$1;
+  void *return_value_talloc_named_const_1;
+  return_value_talloc_named_const_1=talloc_named_const(context, sizeof(struct _PtrArray) /*24ul*/ , "PtrArray");
+  self = (struct _PtrArray *)return_value_talloc_named_const_1;
   if(!(self == ((struct _PtrArray *)NULL)))
     *self = (struct _PtrArray){ ._array=(void **)(void *)0, ._capacity=(unsigned long int)0, ._size=(unsigned long int)0 };
 
@@ -7346,86 +7346,86 @@ signed long int PtrArray_GetElementIndex(const struct _PtrArray *self, void *ele
 // file ptr_array.h line 132
 static inline void * PtrArray_GetHead(const struct _PtrArray * const self)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(self == ((const struct _PtrArray *)NULL)))
-    tmp_if_expr$1 = self->_size > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = self->_size > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  void *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = self->_array[(signed long int)0];
+    tmp_if_expr_1 = (_Bool)0;
+  void *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = self->_array[(signed long int)0];
 
   else
-    tmp_if_expr$2 = (void *)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (void *)0;
+  return tmp_if_expr_2;
 }
 
-// PtrArray_GetHead$link1
+// PtrArray_GetHead_link1
 // file ptr_array.h line 132
-static inline void * PtrArray_GetHead$link1(const struct _PtrArray * const self$link1)
+static inline void * PtrArray_GetHead_link1(const struct _PtrArray * const self_link1)
 {
-  _Bool tmp_if_expr$1$link1;
-  if(!(self$link1 == ((const struct _PtrArray *)NULL)))
-    tmp_if_expr$1$link1 = self$link1->_size > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1_link1;
+  if(!(self_link1 == ((const struct _PtrArray *)NULL)))
+    tmp_if_expr_1_link1 = self_link1->_size > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1$link1 = (_Bool)0;
-  void *tmp_if_expr$2$link1;
-  if(tmp_if_expr$1$link1)
-    tmp_if_expr$2$link1 = self$link1->_array[(signed long int)0];
+    tmp_if_expr_1_link1 = (_Bool)0;
+  void *tmp_if_expr_2_link1;
+  if(tmp_if_expr_1_link1)
+    tmp_if_expr_2_link1 = self_link1->_array[(signed long int)0];
 
   else
-    tmp_if_expr$2$link1 = (void *)0;
-  return tmp_if_expr$2$link1;
+    tmp_if_expr_2_link1 = (void *)0;
+  return tmp_if_expr_2_link1;
 }
 
 // PtrArray_GetSize
 // file ptr_array.h line 108
 static inline unsigned long int PtrArray_GetSize(const struct _PtrArray *self)
 {
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(self == ((const struct _PtrArray *)NULL)))
-    tmp_if_expr$1 = self->_size;
+    tmp_if_expr_1 = self->_size;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
-// PtrArray_GetSize$link1
+// PtrArray_GetSize_link1
 // file ptr_array.h line 108
-static inline unsigned long int PtrArray_GetSize$link1(const struct _PtrArray *self$link1)
+static inline unsigned long int PtrArray_GetSize_link1(const struct _PtrArray *self_link1)
 {
-  unsigned long int tmp_if_expr$1$link1;
-  if(!(self$link1 == ((const struct _PtrArray *)NULL)))
-    tmp_if_expr$1$link1 = self$link1->_size;
+  unsigned long int tmp_if_expr_1_link1;
+  if(!(self_link1 == ((const struct _PtrArray *)NULL)))
+    tmp_if_expr_1_link1 = self_link1->_size;
 
   else
-    tmp_if_expr$1$link1 = (unsigned long int)0;
-  return tmp_if_expr$1$link1;
+    tmp_if_expr_1_link1 = (unsigned long int)0;
+  return tmp_if_expr_1_link1;
 }
 
 // PtrArray_InsertAt
 // file ptr_array.c line 120
 _Bool PtrArray_InsertAt(struct _PtrArray *self, void *element, unsigned long int i)
 {
-  _Bool return_value_PtrArray_Append$1;
+  _Bool return_value_PtrArray_Append_1;
   if(self == ((struct _PtrArray *)NULL))
     return (_Bool)0;
 
   else
     if(i >= self->_size)
     {
-      return_value_PtrArray_Append$1=PtrArray_Append(self, element);
-      return return_value_PtrArray_Append$1;
+      return_value_PtrArray_Append_1=PtrArray_Append(self, element);
+      return return_value_PtrArray_Append_1;
     }
 
     else
     {
-      _Bool return_value_PtrArray_ReserveExtraSize$2;
-      return_value_PtrArray_ReserveExtraSize$2=PtrArray_ReserveExtraSize(self, (unsigned long int)1);
-      if(return_value_PtrArray_ReserveExtraSize$2 == (_Bool)0)
+      _Bool return_value_PtrArray_ReserveExtraSize_2;
+      return_value_PtrArray_ReserveExtraSize_2=PtrArray_ReserveExtraSize(self, (unsigned long int)1);
+      if(return_value_PtrArray_ReserveExtraSize_2 == (_Bool)0)
         return (_Bool)0;
 
       else
@@ -7442,13 +7442,13 @@ _Bool PtrArray_InsertAt(struct _PtrArray *self, void *element, unsigned long int
 // file ptr_array.h line 96
 static inline _Bool PtrArray_IsEmpty(const struct _PtrArray *self)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(self == ((const struct _PtrArray *)NULL)))
-    tmp_if_expr$1 = (signed int)(self->_size < (unsigned long int)1);
+    tmp_if_expr_1 = (signed int)(self->_size < (unsigned long int)1);
 
   else
-    tmp_if_expr$1 = 1;
-  return (_Bool)tmp_if_expr$1;
+    tmp_if_expr_1 = 1;
+  return (_Bool)tmp_if_expr_1;
 }
 
 // PtrArray_IteratorGetElement
@@ -7458,43 +7458,43 @@ static inline void * PtrArray_IteratorGetElement(const struct _PtrArray_Iterator
   return iter->_array->_array[iter->_index];
 }
 
-// PtrArray_IteratorGetElement$link1
+// PtrArray_IteratorGetElement_link1
 // file ptr_array.h line 230
-static inline void * PtrArray_IteratorGetElement$link1(const struct _PtrArray_Iterator *iter$link1)
+static inline void * PtrArray_IteratorGetElement_link1(const struct _PtrArray_Iterator *iter_link1)
 {
-  return iter$link1->_array->_array[iter$link1->_index];
+  return iter_link1->_array->_array[iter_link1->_index];
 }
 
 // PtrArray_IteratorLoop
 // file ptr_array.h line 222
 static inline _Bool PtrArray_IteratorLoop(struct _PtrArray_Iterator *iter)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(iter->_array == ((const struct _PtrArray *)NULL)))
   {
     iter->_index = iter->_index + 1l;
-    tmp_if_expr$1 = (unsigned long int)iter->_index < iter->_array->_size ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (unsigned long int)iter->_index < iter->_array->_size ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return tmp_if_expr_1;
 }
 
-// PtrArray_IteratorLoop$link1
+// PtrArray_IteratorLoop_link1
 // file ptr_array.h line 222
-static inline _Bool PtrArray_IteratorLoop$link1(struct _PtrArray_Iterator *iter$link1)
+static inline _Bool PtrArray_IteratorLoop_link1(struct _PtrArray_Iterator *iter_link1)
 {
-  _Bool tmp_if_expr$1$link1;
-  if(!(iter$link1->_array == ((const struct _PtrArray *)NULL)))
+  _Bool tmp_if_expr_1_link1;
+  if(!(iter_link1->_array == ((const struct _PtrArray *)NULL)))
   {
-    iter$link1->_index = iter$link1->_index + 1l;
-    tmp_if_expr$1$link1 = (unsigned long int)iter$link1->_index < iter$link1->_array->_size ? (_Bool)1 : (_Bool)0;
+    iter_link1->_index = iter_link1->_index + 1l;
+    tmp_if_expr_1_link1 = (unsigned long int)iter_link1->_index < iter_link1->_array->_size ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$1$link1 = (_Bool)0;
-  return tmp_if_expr$1$link1;
+    tmp_if_expr_1_link1 = (_Bool)0;
+  return tmp_if_expr_1_link1;
 }
 
 // PtrArray_IteratorStart
@@ -7504,24 +7504,24 @@ static inline struct _PtrArray_Iterator PtrArray_IteratorStart(const struct _Ptr
   return (struct _PtrArray_Iterator){ ._array=array, ._index=(signed long int)-1 };
 }
 
-// PtrArray_IteratorStart$link1
+// PtrArray_IteratorStart_link1
 // file ptr_array.h line 215
-static inline struct _PtrArray_Iterator PtrArray_IteratorStart$link1(const struct _PtrArray *array$link1)
+static inline struct _PtrArray_Iterator PtrArray_IteratorStart_link1(const struct _PtrArray *array_link1)
 {
-  return (struct _PtrArray_Iterator){ ._array=array$link1, ._index=(signed long int)-1 };
+  return (struct _PtrArray_Iterator){ ._array=array_link1, ._index=(signed long int)-1 };
 }
 
 // PtrArray_RemoveAt
 // file ptr_array.h line 174
 void * PtrArray_RemoveAt(struct _PtrArray *self, unsigned long int i)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(self == ((struct _PtrArray *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = i >= self->_size ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = i >= self->_size ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (void *)0;
 
   else
@@ -7540,13 +7540,13 @@ void * PtrArray_RemoveAt(struct _PtrArray *self, unsigned long int i)
 // file ptr_array.c line 184
 void * PtrArray_RemoveAtReorder(struct _PtrArray *self, unsigned long int i)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(self == ((struct _PtrArray *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = i >= self->_size ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = i >= self->_size ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (void *)0;
 
   else
@@ -7562,7 +7562,7 @@ void * PtrArray_RemoveAtReorder(struct _PtrArray *self, unsigned long int i)
 // file ptr_array.c line 76
 _Bool PtrArray_ReserveExtraSize(struct _PtrArray *self, unsigned long int extra_size)
 {
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(self == ((struct _PtrArray *)NULL))
     return (_Bool)0;
 
@@ -7573,17 +7573,17 @@ _Bool PtrArray_ReserveExtraSize(struct _PtrArray *self, unsigned long int extra_
     {
       unsigned long int capacity;
       if(self->_capacity >= 1ul)
-        tmp_if_expr$1 = self->_capacity * (unsigned long int)2;
+        tmp_if_expr_1 = self->_capacity * (unsigned long int)2;
 
       else
-        tmp_if_expr$1 = (unsigned long int)16;
-      capacity = tmp_if_expr$1;
+        tmp_if_expr_1 = (unsigned long int)16;
+      capacity = tmp_if_expr_1;
       if(!(capacity >= size))
         capacity = size;
 
-      void *return_value__talloc_realloc_array$2;
-      return_value__talloc_realloc_array$2=_talloc_realloc_array((const void *)self, (void *)self->_array, sizeof(void *) /*8ul*/ , (unsigned int)capacity, "PtrArray_Element");
-      self->_array = (void **)return_value__talloc_realloc_array$2;
+      void *return_value__talloc_realloc_array_2;
+      return_value__talloc_realloc_array_2=_talloc_realloc_array((const void *)self, (void *)self->_array, sizeof(void *) /*8ul*/ , (unsigned int)capacity, "PtrArray_Element");
+      self->_array = (void **)return_value__talloc_realloc_array_2;
       if(self->_array == ((void **)NULL))
       {
         self->_size = (unsigned long int)0;
@@ -7605,21 +7605,21 @@ static struct _Service * ServiceFactory(struct _Device *dev, signed int ctrlpt_h
   struct _Service *serv = (struct _Service *)(void *)0;
   const char *serviceType;
   serviceType=XMLUtil_FindFirstElementValue(&serviceDesc->n, "serviceType", (const _Bool)0, (const _Bool)1);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   if(!(serviceType == ((const char *)NULL)))
   {
-    return_value_strcmp$2=strcmp(serviceType, "urn:schemas-upnp-org:service:ContentDirectory:1");
-    tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(serviceType, "urn:schemas-upnp-org:service:ContentDirectory:1");
+    tmp_if_expr_3 = return_value_strcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    struct _ContentDir *return_value_ContentDir_Create$1;
-    return_value_ContentDir_Create$1=ContentDir_Create((void *)dev, ctrlpt_handle, serviceDesc, base_url);
-    serv=ContentDir_ToService(return_value_ContentDir_Create$1);
+    struct _ContentDir *return_value_ContentDir_Create_1;
+    return_value_ContentDir_Create_1=ContentDir_Create((void *)dev, ctrlpt_handle, serviceDesc, base_url);
+    serv=ContentDir_ToService(return_value_ContentDir_Create_1);
   }
 
   else
@@ -7635,11 +7635,11 @@ static struct _Service * ServiceFactory(struct _Device *dev, signed int ctrlpt_h
 struct _Service * Service_Create(void *talloc_context, signed int ctrlpt_handle, struct _IXML_Element *serviceDesc, const char *base_url)
 {
   struct _Service *self;
-  const struct _Object_Class *return_value__Service_GetBaseClass$1;
-  return_value__Service_GetBaseClass$1=_Service_GetBaseClass();
-  struct _Object *return_value__Object_check_alloc$2;
-  return_value__Object_check_alloc$2=_Object_check_alloc(talloc_context, return_value__Service_GetBaseClass$1);
-  self = (struct _Service *)return_value__Object_check_alloc$2;
+  const struct _Object_Class *return_value__Service_GetBaseClass_1;
+  return_value__Service_GetBaseClass_1=_Service_GetBaseClass();
+  struct _Object *return_value__Object_check_alloc_2;
+  return_value__Object_check_alloc_2=_Object_check_alloc(talloc_context, return_value__Service_GetBaseClass_1);
+  self = (struct _Service *)return_value__Object_check_alloc_2;
   if(!(self == ((struct _Service *)NULL)))
   {
     struct _Object *__super;
@@ -7653,8 +7653,8 @@ struct _Service * Service_Create(void *talloc_context, signed int ctrlpt_handle,
   }
 
   (void)self;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$6;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_6;
   if(self == ((struct _Service *)NULL))
     return (struct _Service *)(void *)0;
 
@@ -7662,24 +7662,24 @@ struct _Service * Service_Create(void *talloc_context, signed int ctrlpt_handle,
   {
     self->ctrlpt_handle = ctrlpt_handle;
     const struct _IXML_Node * const node = &serviceDesc->n;
-    const char *return_value_XMLUtil_FindFirstElementValue$3;
-    return_value_XMLUtil_FindFirstElementValue$3=XMLUtil_FindFirstElementValue(node, "serviceType", (const _Bool)0, (const _Bool)1);
-    self->serviceType=talloc_strdup((const void *)self, return_value_XMLUtil_FindFirstElementValue$3);
+    const char *return_value_XMLUtil_FindFirstElementValue_3;
+    return_value_XMLUtil_FindFirstElementValue_3=XMLUtil_FindFirstElementValue(node, "serviceType", (const _Bool)0, (const _Bool)1);
+    self->serviceType=talloc_strdup((const void *)self, return_value_XMLUtil_FindFirstElementValue_3);
     if(!(self->serviceType == ((char *)NULL)))
-      tmp_if_expr$4 = self->serviceType;
+      tmp_if_expr_4 = self->serviceType;
 
     else
-      tmp_if_expr$4 = "(null)";
-    Log_Printf((enum Log_Level)LOG_DEBUG, "Service_Create: %s", tmp_if_expr$4);
-    const char *return_value_XMLUtil_FindFirstElementValue$5;
-    return_value_XMLUtil_FindFirstElementValue$5=XMLUtil_FindFirstElementValue(node, "serviceId", (const _Bool)0, (const _Bool)1);
-    self->serviceId=talloc_strdup((const void *)self, return_value_XMLUtil_FindFirstElementValue$5);
+      tmp_if_expr_4 = "(null)";
+    Log_Printf((enum Log_Level)LOG_DEBUG, "Service_Create: %s", tmp_if_expr_4);
+    const char *return_value_XMLUtil_FindFirstElementValue_5;
+    return_value_XMLUtil_FindFirstElementValue_5=XMLUtil_FindFirstElementValue(node, "serviceId", (const _Bool)0, (const _Bool)1);
+    self->serviceId=talloc_strdup((const void *)self, return_value_XMLUtil_FindFirstElementValue_5);
     if(!(self->serviceId == ((char *)NULL)))
-      tmp_if_expr$6 = self->serviceId;
+      tmp_if_expr_6 = self->serviceId;
 
     else
-      tmp_if_expr$6 = "(null)";
-    Log_Printf((enum Log_Level)LOG_DEBUG, "serviceId: %s", tmp_if_expr$6);
+      tmp_if_expr_6 = "(null)";
+    Log_Printf((enum Log_Level)LOG_DEBUG, "serviceId: %s", tmp_if_expr_6);
     const char *relcontrolURL;
     relcontrolURL=XMLUtil_FindFirstElementValue(node, "controlURL", (const _Bool)0, (const _Bool)1);
     self->controlURL=UpnpUtil_ResolveURL((void *)self, base_url, relcontrolURL);
@@ -7700,86 +7700,86 @@ struct _Service * Service_Create(void *talloc_context, signed int ctrlpt_handle,
 // file service.c line 550
 const char * Service_GetControlURL(const struct _Service *serv)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(serv == ((const struct _Service *)NULL)))
-    tmp_if_expr$1 = serv->controlURL;
+    tmp_if_expr_1 = serv->controlURL;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // Service_GetEventURL
 // file service.c line 544
 const char * Service_GetEventURL(const struct _Service *serv)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(serv == ((const struct _Service *)NULL)))
-    tmp_if_expr$1 = serv->eventURL;
+    tmp_if_expr_1 = serv->eventURL;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // Service_GetServiceType
 // file service.c line 556
 const char * Service_GetServiceType(const struct _Service *serv)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(serv == ((const struct _Service *)NULL)))
-    tmp_if_expr$1 = serv->serviceType;
+    tmp_if_expr_1 = serv->serviceType;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // Service_GetSid
 // file service.c line 538
 const char * Service_GetSid(const struct _Service *serv)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(serv == ((const struct _Service *)NULL)))
-    tmp_if_expr$1 = serv->sid;
+    tmp_if_expr_1 = serv->sid;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // Service_GetStatusString
 // file service.c line 523
 char * Service_GetStatusString(const struct _Service *serv, void *result_context, _Bool debug, const char *spacer)
 {
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(serv == ((const struct _Service *)NULL)))
-    tmp_if_expr$3 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  char * (*tmp_if_expr$4)(const struct _Service *, void *, _Bool, const char *);
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = serv->_.isa->get_status_string;
+    tmp_if_expr_3 = (_Bool)0;
+  char * (*tmp_if_expr_4)(const struct _Service *, void *, _Bool, const char *);
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = serv->_.isa->get_status_string;
 
   else
-    tmp_if_expr$4 = (char * (*)(const struct _Service *, void *, _Bool, const char *))(void *)0;
-  _Bool tmp_if_expr$1;
-  char * (*tmp_if_expr$2)(const struct _Service *, void *, _Bool, const char *);
+    tmp_if_expr_4 = (char * (*)(const struct _Service *, void *, _Bool, const char *))(void *)0;
+  _Bool tmp_if_expr_1;
+  char * (*tmp_if_expr_2)(const struct _Service *, void *, _Bool, const char *);
   char *return_value;
-  if(!(tmp_if_expr$4 == ((char * (*)(const struct _Service *, void *, _Bool, const char *))NULL)))
+  if(!(tmp_if_expr_4 == ((char * (*)(const struct _Service *, void *, _Bool, const char *))NULL)))
   {
     if(!(serv == ((const struct _Service *)NULL)))
-      tmp_if_expr$1 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = serv->_.isa->get_status_string;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = serv->_.isa->get_status_string;
 
     else
-      tmp_if_expr$2 = (char * (*)(const struct _Service *, void *, _Bool, const char *))(void *)0;
-    return_value=tmp_if_expr$2(serv, result_context, debug, spacer);
+      tmp_if_expr_2 = (char * (*)(const struct _Service *, void *, _Bool, const char *))(void *)0;
+    return_value=tmp_if_expr_2(serv, result_context, debug, spacer);
     return return_value;
   }
 
@@ -7880,9 +7880,9 @@ signed int Service_SendActionAsyncVa(const struct _Service *serv, signed int (*c
   while((_Bool)1);
   va_end(ap);
   Log_Printf((enum Log_Level)LOG_DEBUG, "Service_SendActionAsyncVa : %d pairs found", nb);
-  signed int return_value_Service_SendActionAsync$1;
-  return_value_Service_SendActionAsync$1=Service_SendActionAsync(serv, callback, actionName, nb, params);
-  return return_value_Service_SendActionAsync$1;
+  signed int return_value_Service_SendActionAsync_1;
+  return_value_Service_SendActionAsync_1=Service_SendActionAsync(serv, callback, actionName, nb, params);
+  return return_value_Service_SendActionAsync_1;
 }
 
 // Service_SendActionVa
@@ -7908,9 +7908,9 @@ signed int Service_SendActionVa(struct _Service *serv, struct _IXML_Document **r
   while((_Bool)1);
   va_end(ap);
   Log_Printf((enum Log_Level)LOG_DEBUG, "Service_SendActionVa : %d pairs found", nb);
-  signed int return_value_Service_SendAction$1;
-  return_value_Service_SendAction$1=Service_SendAction(serv, response, actionName, nb, params);
-  return return_value_Service_SendAction$1;
+  signed int return_value_Service_SendAction_1;
+  return_value_Service_SendAction_1=Service_SendAction(serv, response, actionName, nb, params);
+  return return_value_Service_SendAction_1;
 }
 
 // Service_SetSid
@@ -7918,8 +7918,8 @@ signed int Service_SendActionVa(struct _Service *serv, struct _IXML_Document **r
 signed int Service_SetSid(struct _Service *serv, char *sid)
 {
   signed int rc = 0;
-  char *tmp_if_expr$2;
-  char *return_value_talloc_strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value_talloc_strdup_1;
   if(serv == ((struct _Service *)NULL))
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "Service_SetSid NULL Service");
@@ -7931,13 +7931,13 @@ signed int Service_SetSid(struct _Service *serv, char *sid)
     _talloc_free((void *)serv->sid, "service.c:159");
     if(!(sid == ((char *)NULL)))
     {
-      return_value_talloc_strdup$1=talloc_strdup((const void *)serv, sid);
-      tmp_if_expr$2 = return_value_talloc_strdup$1;
+      return_value_talloc_strdup_1=talloc_strdup((const void *)serv, sid);
+      tmp_if_expr_2 = return_value_talloc_strdup_1;
     }
 
     else
-      tmp_if_expr$2 = (char *)(void *)0;
-    serv->sid = tmp_if_expr$2;
+      tmp_if_expr_2 = (char *)(void *)0;
+    serv->sid = tmp_if_expr_2;
   }
   return rc;
 }
@@ -7947,7 +7947,7 @@ signed int Service_SetSid(struct _Service *serv, char *sid)
 signed int Service_SubscribeEventURL(struct _Service *serv)
 {
   signed int rc;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(serv == ((struct _Service *)NULL))
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "Service_SubscribeEventURL NULL Service");
@@ -7957,11 +7957,11 @@ signed int Service_SubscribeEventURL(struct _Service *serv)
   else
   {
     if(!(serv->eventURL == ((char *)NULL)))
-      tmp_if_expr$1 = serv->eventURL;
+      tmp_if_expr_1 = serv->eventURL;
 
     else
-      tmp_if_expr$1 = "(null)";
-    Log_Printf((enum Log_Level)LOG_DEBUG, "Subscribing to EventURL %s", tmp_if_expr$1);
+      tmp_if_expr_1 = "(null)";
+    Log_Printf((enum Log_Level)LOG_DEBUG, "Subscribing to EventURL %s", tmp_if_expr_1);
     signed int timeout = 1801;
     char sid[44l];
     rc=UpnpSubscribe(serv->ctrlpt_handle, serv->eventURL, &timeout, sid);
@@ -7969,17 +7969,17 @@ signed int Service_SubscribeEventURL(struct _Service *serv)
     if(rc == 0)
     {
       serv->sid=talloc_strdup((const void *)serv, sid);
-      const char *return_value_talloc_get_name$2;
-      return_value_talloc_get_name$2=talloc_get_name((const void *)serv);
-      Log_Printf((enum Log_Level)LOG_DEBUG, "Subscribed to %s EventURL with SID=%s", return_value_talloc_get_name$2, serv->sid);
+      const char *return_value_talloc_get_name_2;
+      return_value_talloc_get_name_2=talloc_get_name((const void *)serv);
+      Log_Printf((enum Log_Level)LOG_DEBUG, "Subscribed to %s EventURL with SID=%s", return_value_talloc_get_name_2, serv->sid);
     }
 
     else
     {
       serv->sid = (char *)(void *)0;
-      const char *return_value_talloc_get_name$3;
-      return_value_talloc_get_name$3=talloc_get_name((const void *)serv);
-      Log_Printf((enum Log_Level)LOG_ERROR, "Error Subscribing to %s EventURL -- %d", return_value_talloc_get_name$3, rc);
+      const char *return_value_talloc_get_name_3;
+      return_value_talloc_get_name_3=talloc_get_name((const void *)serv);
+      Log_Printf((enum Log_Level)LOG_ERROR, "Error Subscribing to %s EventURL -- %d", return_value_talloc_get_name_3, rc);
     }
   }
   return rc;
@@ -8005,16 +8005,16 @@ signed int Service_UnsubscribeEventURL(struct _Service *serv)
       rc=UpnpUnSubscribe(serv->ctrlpt_handle, serv->sid);
       if(rc == 0)
       {
-        const char *return_value_talloc_get_name$1;
-        return_value_talloc_get_name$1=talloc_get_name((const void *)serv);
-        Log_Printf((enum Log_Level)LOG_DEBUG, "Unsubscribed from %s EventURL with SID=%s", return_value_talloc_get_name$1, serv->sid);
+        const char *return_value_talloc_get_name_1;
+        return_value_talloc_get_name_1=talloc_get_name((const void *)serv);
+        Log_Printf((enum Log_Level)LOG_DEBUG, "Unsubscribed from %s EventURL with SID=%s", return_value_talloc_get_name_1, serv->sid);
       }
 
       else
       {
-        const char *return_value_talloc_get_name$2;
-        return_value_talloc_get_name$2=talloc_get_name((const void *)serv);
-        Log_Printf((enum Log_Level)LOG_ERROR, "Error unsubscribing to %s EventURL -- %d", return_value_talloc_get_name$2, rc);
+        const char *return_value_talloc_get_name_2;
+        return_value_talloc_get_name_2=talloc_get_name((const void *)serv);
+        Log_Printf((enum Log_Level)LOG_ERROR, "Error unsubscribing to %s EventURL -- %d", return_value_talloc_get_name_2, rc);
       }
     }
   return rc;
@@ -8025,11 +8025,11 @@ signed int Service_UnsubscribeEventURL(struct _Service *serv)
 signed int Service_UpdateState(struct _Service *serv, struct _IXML_Document *changedVariables)
 {
   signed int rc = 0;
-  signed int return_value_strcmp$11;
-  _Bool tmp_if_expr$9;
-  void (*tmp_if_expr$10)(struct _Service *, const char *, const char *);
-  _Bool tmp_if_expr$7;
-  void (*tmp_if_expr$8)(struct _Service *, const char *, const char *);
+  signed int return_value_strcmp_11;
+  _Bool tmp_if_expr_9;
+  void (*tmp_if_expr_10)(struct _Service *, const char *, const char *);
+  _Bool tmp_if_expr_7;
+  void (*tmp_if_expr_8)(struct _Service *, const char *, const char *);
   if(serv == ((struct _Service *)NULL))
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "Service_UpdateState NULL Service");
@@ -8038,47 +8038,47 @@ signed int Service_UpdateState(struct _Service *serv, struct _IXML_Document *cha
 
   else
   {
-    const char *return_value_talloc_get_name$1;
-    return_value_talloc_get_name$1=talloc_get_name((const void *)serv);
-    Log_Printf((enum Log_Level)LOG_DEBUG, "State Update for service %s", return_value_talloc_get_name$1);
+    const char *return_value_talloc_get_name_1;
+    return_value_talloc_get_name_1=talloc_get_name((const void *)serv);
+    Log_Printf((enum Log_Level)LOG_DEBUG, "State Update for service %s", return_value_talloc_get_name_1);
     struct _IXML_NodeList *properties;
     properties=ixmlDocument_getElementsByTagName(changedVariables, "e:property");
     if(!(properties == ((struct _IXML_NodeList *)NULL)))
     {
       signed int i;
       signed int length;
-      unsigned long int return_value_ixmlNodeList_length$2;
-      return_value_ixmlNodeList_length$2=ixmlNodeList_length(properties);
-      length = (signed int)return_value_ixmlNodeList_length$2;
+      unsigned long int return_value_ixmlNodeList_length_2;
+      return_value_ixmlNodeList_length_2=ixmlNodeList_length(properties);
+      length = (signed int)return_value_ixmlNodeList_length_2;
       i = 0;
       for( ; !(i >= length); i = i + 1)
       {
         struct _IXML_Element *property;
-        struct _IXML_Node *return_value_ixmlNodeList_item$3;
-        return_value_ixmlNodeList_item$3=ixmlNodeList_item(properties, (unsigned long int)i);
-        property = (struct _IXML_Element *)return_value_ixmlNodeList_item$3;
+        struct _IXML_Node *return_value_ixmlNodeList_item_3;
+        return_value_ixmlNodeList_item_3=ixmlNodeList_item(properties, (unsigned long int)i);
+        property = (struct _IXML_Element *)return_value_ixmlNodeList_item_3;
         struct _IXML_NodeList *variables;
         variables=ixmlElement_getElementsByTagName(property, "*");
         if(!(variables == ((struct _IXML_NodeList *)NULL)))
         {
           signed int j;
           signed int length1;
-          unsigned long int return_value_ixmlNodeList_length$4;
-          return_value_ixmlNodeList_length$4=ixmlNodeList_length(variables);
-          length1 = (signed int)return_value_ixmlNodeList_length$4;
+          unsigned long int return_value_ixmlNodeList_length_4;
+          return_value_ixmlNodeList_length_4=ixmlNodeList_length(variables);
+          length1 = (signed int)return_value_ixmlNodeList_length_4;
           j = 0;
           for( ; !(j >= length1); j = j + 1)
           {
             struct _IXML_Element *variable;
-            struct _IXML_Node *return_value_ixmlNodeList_item$5;
-            return_value_ixmlNodeList_item$5=ixmlNodeList_item(variables, (unsigned long int)j);
-            variable = (struct _IXML_Element *)return_value_ixmlNodeList_item$5;
+            struct _IXML_Node *return_value_ixmlNodeList_item_5;
+            return_value_ixmlNodeList_item_5=ixmlNodeList_item(variables, (unsigned long int)j);
+            variable = (struct _IXML_Element *)return_value_ixmlNodeList_item_5;
             const char *name;
             name=ixmlElement_getTagName(variable);
             if(!(name == ((const char *)NULL)))
             {
-              return_value_strcmp$11=strcmp(name, "e:property");
-              if(!(return_value_strcmp$11 == 0))
+              return_value_strcmp_11=strcmp(name, "e:property");
+              if(!(return_value_strcmp_11 == 0))
               {
                 const char *value;
                 value=XMLUtil_GetElementValue(variable);
@@ -8095,36 +8095,36 @@ signed int Service_UpdateState(struct _Service *serv, struct _IXML_Document *cha
 
                 else
                 {
-                  void *return_value_talloc_named_const$6;
-                  return_value_talloc_named_const$6=talloc_named_const((const void *)serv, sizeof(struct _StringPair) /*16ul*/ , "StringPair");
-                  var = (struct _StringPair *)return_value_talloc_named_const$6;
+                  void *return_value_talloc_named_const_6;
+                  return_value_talloc_named_const_6=talloc_named_const((const void *)serv, sizeof(struct _StringPair) /*16ul*/ , "StringPair");
+                  var = (struct _StringPair *)return_value_talloc_named_const_6;
                   var->name=talloc_strdup((const void *)var, name);
                   var->value=talloc_strdup((const void *)var, value);
                   ListAddTail(&serv->variables, (void *)var);
                 }
                 if(!(serv == ((struct _Service *)NULL)))
-                  tmp_if_expr$9 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_9 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$9 = (_Bool)0;
-                if(tmp_if_expr$9)
-                  tmp_if_expr$10 = serv->_.isa->update_variable;
+                  tmp_if_expr_9 = (_Bool)0;
+                if(tmp_if_expr_9)
+                  tmp_if_expr_10 = serv->_.isa->update_variable;
 
                 else
-                  tmp_if_expr$10 = (void (*)(struct _Service *, const char *, const char *))(void *)0;
-                if(!(tmp_if_expr$10 == ((void (*)(struct _Service *, const char *, const char *))NULL)))
+                  tmp_if_expr_10 = (void (*)(struct _Service *, const char *, const char *))(void *)0;
+                if(!(tmp_if_expr_10 == ((void (*)(struct _Service *, const char *, const char *))NULL)))
                 {
                   if(!(serv == ((struct _Service *)NULL)))
-                    tmp_if_expr$7 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_7 = serv->_.isa != ((struct _Service_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$7 = (_Bool)0;
-                  if(tmp_if_expr$7)
-                    tmp_if_expr$8 = serv->_.isa->update_variable;
+                    tmp_if_expr_7 = (_Bool)0;
+                  if(tmp_if_expr_7)
+                    tmp_if_expr_8 = serv->_.isa->update_variable;
 
                   else
-                    tmp_if_expr$8 = (void (*)(struct _Service *, const char *, const char *))(void *)0;
-                  tmp_if_expr$8(serv, var->name, var->value);
+                    tmp_if_expr_8 = (void (*)(struct _Service *, const char *, const char *))(void *)0;
+                  tmp_if_expr_8(serv, var->name, var->value);
                 }
 
               }
@@ -8150,9 +8150,9 @@ signed int Service_UpdateState(struct _Service *serv, struct _IXML_Document *cha
 struct _StringStream * StringStream_Create(void *parent_context)
 {
   struct _StringStream *ss;
-  void *return_value_talloc_named_const$1;
-  return_value_talloc_named_const$1=talloc_named_const(parent_context, sizeof(struct _StringStream) /*24ul*/ , "StringStream");
-  ss = (struct _StringStream *)return_value_talloc_named_const$1;
+  void *return_value_talloc_named_const_1;
+  return_value_talloc_named_const_1=talloc_named_const(parent_context, sizeof(struct _StringStream) /*24ul*/ , "StringStream");
+  ss = (struct _StringStream *)return_value_talloc_named_const_1;
   if(!(ss == ((struct _StringStream *)NULL)))
   {
     *ss = (struct _StringStream){ .file=((struct _IO_FILE *)NULL), .ptr=(char *)(void *)0, .size=(unsigned long int)0 };
@@ -8179,13 +8179,13 @@ struct _StringStream * StringStream_Create(void *parent_context)
 // file string_util.h line 163
 struct _IO_FILE * StringStream_GetFile(const struct _StringStream *ss)
 {
-  struct _IO_FILE *tmp_if_expr$1;
+  struct _IO_FILE *tmp_if_expr_1;
   if(!(ss == ((const struct _StringStream *)NULL)))
-    tmp_if_expr$1 = ss->file;
+    tmp_if_expr_1 = ss->file;
 
   else
-    tmp_if_expr$1 = (struct _IO_FILE *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (struct _IO_FILE *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // StringStream_GetSnapshot
@@ -8256,12 +8256,12 @@ unsigned int String_Hash(const char *str)
 {
   unsigned int hash = (unsigned int)5381;
   unsigned char c;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   do
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    c = (unsigned char)*tmp_post$1;
+    c = (unsigned char)*tmp_post_1;
     if(c == 0)
       break;
 
@@ -8276,15 +8276,15 @@ unsigned int String_Hash(const char *str)
 char * String_StripSpaces(void *talloc_context, const char *s)
 {
   char *r = ((char *)NULL);
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  char *tmp_post$4;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  char *tmp_post_4;
   if(!(s == ((const char *)NULL)))
   {
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*s]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*s]) == 0)
         break;
 
       s = s + 1l;
@@ -8294,18 +8294,18 @@ char * String_StripSpaces(void *talloc_context, const char *s)
     if(!((signed int)*r == 0))
     {
       char *p;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(r);
-      p = (r + (signed long int)return_value_strlen$2) - (signed long int)1;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(r);
+      p = (r + (signed long int)return_value_strlen_2) - (signed long int)1;
       do
       {
-        return_value___ctype_b_loc$3=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*p]) == 0)
+        return_value___ctype_b_loc_3=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*p]) == 0)
           break;
 
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p - 1l;
-        *tmp_post$4 = (char)0;
+        *tmp_post_4 = (char)0;
       }
       while((_Bool)1);
     }
@@ -8320,23 +8320,23 @@ char * String_StripSpaces(void *talloc_context, const char *s)
 _Bool String_ToBoolean(const char *s, _Bool default_value)
 {
   _Bool ret = default_value;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(!(s == ((const char *)NULL)))
   {
     if(!(*s == 0))
     {
       do
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*s]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*s]) == 0)
           break;
 
         s = s + 1l;
       }
       while((_Bool)1);
-      signed int return_value_tolower$2;
-      return_value_tolower$2=tolower((signed int)*s);
-      switch(return_value_tolower$2)
+      signed int return_value_tolower_2;
+      return_value_tolower_2=tolower((signed int)*s);
+      switch(return_value_tolower_2)
       {
         case 49:
 
@@ -8381,14 +8381,14 @@ char * UpnpUtil_GetEventString(void *talloc_context, enum Upnp_EventType_e event
 
   else
     tpr(&p, "** unknown Upnp_EventType %d **\n", (signed int)eventType);
-  void *tmp_if_expr$3;
-  char *tmp_if_expr$6;
-  void *tmp_if_expr$7;
-  char *tmp_if_expr$8;
-  char *tmp_if_expr$9;
-  char *tmp_if_expr$10;
-  void *tmp_if_expr$12;
-  void *tmp_if_expr$13;
+  void *tmp_if_expr_3;
+  char *tmp_if_expr_6;
+  void *tmp_if_expr_7;
+  char *tmp_if_expr_8;
+  char *tmp_if_expr_9;
+  char *tmp_if_expr_10;
+  void *tmp_if_expr_12;
+  void *tmp_if_expr_13;
   if(event == NULL)
     tpr(&p, "(NULL EVENT BODY)\n");
 
@@ -8401,35 +8401,35 @@ char * UpnpUtil_GetEventString(void *talloc_context, enum Upnp_EventType_e event
 
       case UPNP_DISCOVERY_SEARCH_RESULT:
       {
-        struct Upnp_Discovery * const UpnpUtil_GetEventString$$1$$2$$1$$1$$e = (struct Upnp_Discovery *)event;
-        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->ErrCode);
-        tpr(&p, "Expires     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->Expires);
-        tpr(&p, "DeviceId    =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->DeviceId);
-        tpr(&p, "DeviceType  =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->DeviceType);
-        tpr(&p, "ServiceType =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->ServiceType);
-        tpr(&p, "ServiceVer  =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->ServiceVer);
-        tpr(&p, "Location    =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->Location);
-        tpr(&p, "OS          =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->Os);
-        tpr(&p, "Date        =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->Date);
-        tpr(&p, "Ext         =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$1$$e->Ext);
+        struct Upnp_Discovery * const UpnpUtil_GetEventString__1__2__1__1__e = (struct Upnp_Discovery *)event;
+        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString__1__2__1__1__e->ErrCode);
+        tpr(&p, "Expires     =  %d\n", UpnpUtil_GetEventString__1__2__1__1__e->Expires);
+        tpr(&p, "DeviceId    =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->DeviceId);
+        tpr(&p, "DeviceType  =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->DeviceType);
+        tpr(&p, "ServiceType =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->ServiceType);
+        tpr(&p, "ServiceVer  =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->ServiceVer);
+        tpr(&p, "Location    =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->Location);
+        tpr(&p, "OS          =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->Os);
+        tpr(&p, "Date        =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->Date);
+        tpr(&p, "Ext         =  %s\n", UpnpUtil_GetEventString__1__2__1__1__e->Ext);
         break;
       }
       case UPNP_DISCOVERY_SEARCH_TIMEOUT:
         break;
       case UPNP_CONTROL_ACTION_REQUEST:
       {
-        struct Upnp_Action_Request * const UpnpUtil_GetEventString$$1$$2$$1$$2$$e = (struct Upnp_Action_Request *)event;
-        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$2$$e->ErrCode);
-        tpr(&p, "ErrStr      =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$2$$e->ErrStr);
-        tpr(&p, "ActionName  =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$2$$e->ActionName);
-        tpr(&p, "DevUDN      =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$2$$e->DevUDN);
-        tpr(&p, "ServiceID   =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$2$$e->ServiceID);
-        char *return_value_XMLUtil_GetDocumentString$1;
-        return_value_XMLUtil_GetDocumentString$1=XMLUtil_GetDocumentString(tmp_ctx, UpnpUtil_GetEventString$$1$$2$$1$$2$$e->ActionRequest);
-        tpr(&p, "ActRequest  =  %s\n", return_value_XMLUtil_GetDocumentString$1);
-        char *return_value_XMLUtil_GetDocumentString$2;
-        return_value_XMLUtil_GetDocumentString$2=XMLUtil_GetDocumentString(tmp_ctx, UpnpUtil_GetEventString$$1$$2$$1$$2$$e->ActionResult);
-        tpr(&p, "ActResult   =  %s\n", return_value_XMLUtil_GetDocumentString$2);
+        struct Upnp_Action_Request * const UpnpUtil_GetEventString__1__2__1__2__e = (struct Upnp_Action_Request *)event;
+        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString__1__2__1__2__e->ErrCode);
+        tpr(&p, "ErrStr      =  %s\n", UpnpUtil_GetEventString__1__2__1__2__e->ErrStr);
+        tpr(&p, "ActionName  =  %s\n", UpnpUtil_GetEventString__1__2__1__2__e->ActionName);
+        tpr(&p, "DevUDN      =  %s\n", UpnpUtil_GetEventString__1__2__1__2__e->DevUDN);
+        tpr(&p, "ServiceID   =  %s\n", UpnpUtil_GetEventString__1__2__1__2__e->ServiceID);
+        char *return_value_XMLUtil_GetDocumentString_1;
+        return_value_XMLUtil_GetDocumentString_1=XMLUtil_GetDocumentString(tmp_ctx, UpnpUtil_GetEventString__1__2__1__2__e->ActionRequest);
+        tpr(&p, "ActRequest  =  %s\n", return_value_XMLUtil_GetDocumentString_1);
+        char *return_value_XMLUtil_GetDocumentString_2;
+        return_value_XMLUtil_GetDocumentString_2=XMLUtil_GetDocumentString(tmp_ctx, UpnpUtil_GetEventString__1__2__1__2__e->ActionResult);
+        tpr(&p, "ActResult   =  %s\n", return_value_XMLUtil_GetDocumentString_2);
         break;
       }
       case UPNP_CONTROL_ACTION_COMPLETE:
@@ -8437,120 +8437,120 @@ char * UpnpUtil_GetEventString(void *talloc_context, enum Upnp_EventType_e event
         struct Upnp_Action_Complete * const e = (struct Upnp_Action_Complete *)event;
         tpr(&p, "ErrCode     =  %d\n", e->ErrCode);
         if(!(e->CtrlUrl == ((struct s_UpnpString *)NULL)))
-          tmp_if_expr$3 = (void *)e->CtrlUrl;
+          tmp_if_expr_3 = (void *)e->CtrlUrl;
 
         else
-          tmp_if_expr$3 = (void *)"(null)";
-        tpr(&p, "CtrlUrl     =  %s\n", tmp_if_expr$3);
-        char *return_value_XMLUtil_GetDocumentString$4;
-        return_value_XMLUtil_GetDocumentString$4=XMLUtil_GetDocumentString(tmp_ctx, e->ActionRequest);
-        tpr(&p, "ActRequest  =  %s\n", return_value_XMLUtil_GetDocumentString$4);
-        char *return_value_XMLUtil_GetDocumentString$5;
-        return_value_XMLUtil_GetDocumentString$5=XMLUtil_GetDocumentString(tmp_ctx, e->ActionResult);
-        tpr(&p, "ActResult   =  %s\n", return_value_XMLUtil_GetDocumentString$5);
+          tmp_if_expr_3 = (void *)"(null)";
+        tpr(&p, "CtrlUrl     =  %s\n", tmp_if_expr_3);
+        char *return_value_XMLUtil_GetDocumentString_4;
+        return_value_XMLUtil_GetDocumentString_4=XMLUtil_GetDocumentString(tmp_ctx, e->ActionRequest);
+        tpr(&p, "ActRequest  =  %s\n", return_value_XMLUtil_GetDocumentString_4);
+        char *return_value_XMLUtil_GetDocumentString_5;
+        return_value_XMLUtil_GetDocumentString_5=XMLUtil_GetDocumentString(tmp_ctx, e->ActionResult);
+        tpr(&p, "ActResult   =  %s\n", return_value_XMLUtil_GetDocumentString_5);
         break;
       }
       case UPNP_CONTROL_GET_VAR_REQUEST:
       {
-        struct Upnp_State_Var_Request * const UpnpUtil_GetEventString$$1$$2$$1$$4$$e = (struct Upnp_State_Var_Request *)event;
-        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$4$$e->ErrCode);
-        tpr(&p, "ErrStr      =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$4$$e->ErrStr);
-        tpr(&p, "DevUDN      =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$4$$e->DevUDN);
-        tpr(&p, "ServiceID   =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$4$$e->ServiceID);
-        tpr(&p, "StateVarName=  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$4$$e->StateVarName);
-        if(!(UpnpUtil_GetEventString$$1$$2$$1$$4$$e->CurrentVal == ((char *)NULL)))
-          tmp_if_expr$6 = UpnpUtil_GetEventString$$1$$2$$1$$4$$e->CurrentVal;
+        struct Upnp_State_Var_Request * const UpnpUtil_GetEventString__1__2__1__4__e = (struct Upnp_State_Var_Request *)event;
+        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString__1__2__1__4__e->ErrCode);
+        tpr(&p, "ErrStr      =  %s\n", UpnpUtil_GetEventString__1__2__1__4__e->ErrStr);
+        tpr(&p, "DevUDN      =  %s\n", UpnpUtil_GetEventString__1__2__1__4__e->DevUDN);
+        tpr(&p, "ServiceID   =  %s\n", UpnpUtil_GetEventString__1__2__1__4__e->ServiceID);
+        tpr(&p, "StateVarName=  %s\n", UpnpUtil_GetEventString__1__2__1__4__e->StateVarName);
+        if(!(UpnpUtil_GetEventString__1__2__1__4__e->CurrentVal == ((char *)NULL)))
+          tmp_if_expr_6 = UpnpUtil_GetEventString__1__2__1__4__e->CurrentVal;
 
         else
-          tmp_if_expr$6 = "(null)";
-        tpr(&p, "CurrentVal  =  %s\n", tmp_if_expr$6);
+          tmp_if_expr_6 = "(null)";
+        tpr(&p, "CurrentVal  =  %s\n", tmp_if_expr_6);
         break;
       }
       case UPNP_CONTROL_GET_VAR_COMPLETE:
       {
-        struct Upnp_State_Var_Complete * const UpnpUtil_GetEventString$$1$$2$$1$$5$$e = (struct Upnp_State_Var_Complete *)event;
-        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$5$$e->ErrCode);
-        if(!(UpnpUtil_GetEventString$$1$$2$$1$$5$$e->CtrlUrl == ((struct s_UpnpString *)NULL)))
-          tmp_if_expr$7 = (void *)UpnpUtil_GetEventString$$1$$2$$1$$5$$e->CtrlUrl;
+        struct Upnp_State_Var_Complete * const UpnpUtil_GetEventString__1__2__1__5__e = (struct Upnp_State_Var_Complete *)event;
+        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString__1__2__1__5__e->ErrCode);
+        if(!(UpnpUtil_GetEventString__1__2__1__5__e->CtrlUrl == ((struct s_UpnpString *)NULL)))
+          tmp_if_expr_7 = (void *)UpnpUtil_GetEventString__1__2__1__5__e->CtrlUrl;
 
         else
-          tmp_if_expr$7 = (void *)"(null)";
-        tpr(&p, "CtrlUrl     =  %s\n", tmp_if_expr$7);
-        tpr(&p, "StateVarName=  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$5$$e->StateVarName);
-        if(!(UpnpUtil_GetEventString$$1$$2$$1$$5$$e->CurrentVal == ((char *)NULL)))
-          tmp_if_expr$8 = UpnpUtil_GetEventString$$1$$2$$1$$5$$e->CurrentVal;
+          tmp_if_expr_7 = (void *)"(null)";
+        tpr(&p, "CtrlUrl     =  %s\n", tmp_if_expr_7);
+        tpr(&p, "StateVarName=  %s\n", UpnpUtil_GetEventString__1__2__1__5__e->StateVarName);
+        if(!(UpnpUtil_GetEventString__1__2__1__5__e->CurrentVal == ((char *)NULL)))
+          tmp_if_expr_8 = UpnpUtil_GetEventString__1__2__1__5__e->CurrentVal;
 
         else
-          tmp_if_expr$8 = "(null)";
-        tpr(&p, "CurrentVal  =  %s\n", tmp_if_expr$8);
+          tmp_if_expr_8 = "(null)";
+        tpr(&p, "CurrentVal  =  %s\n", tmp_if_expr_8);
         break;
       }
       case UPNP_EVENT_SUBSCRIPTION_REQUEST:
       {
-        struct Upnp_Subscription_Request * const UpnpUtil_GetEventString$$1$$2$$1$$6$$e = (struct Upnp_Subscription_Request *)event;
-        if(!(UpnpUtil_GetEventString$$1$$2$$1$$6$$e->ServiceId == ((char *)NULL)))
-          tmp_if_expr$9 = UpnpUtil_GetEventString$$1$$2$$1$$6$$e->ServiceId;
+        struct Upnp_Subscription_Request * const UpnpUtil_GetEventString__1__2__1__6__e = (struct Upnp_Subscription_Request *)event;
+        if(!(UpnpUtil_GetEventString__1__2__1__6__e->ServiceId == ((char *)NULL)))
+          tmp_if_expr_9 = UpnpUtil_GetEventString__1__2__1__6__e->ServiceId;
 
         else
-          tmp_if_expr$9 = "(null)";
-        tpr(&p, "ServiceID   =  %s\n", tmp_if_expr$9);
-        if(!(UpnpUtil_GetEventString$$1$$2$$1$$6$$e->UDN == ((char *)NULL)))
-          tmp_if_expr$10 = UpnpUtil_GetEventString$$1$$2$$1$$6$$e->UDN;
+          tmp_if_expr_9 = "(null)";
+        tpr(&p, "ServiceID   =  %s\n", tmp_if_expr_9);
+        if(!(UpnpUtil_GetEventString__1__2__1__6__e->UDN == ((char *)NULL)))
+          tmp_if_expr_10 = UpnpUtil_GetEventString__1__2__1__6__e->UDN;
 
         else
-          tmp_if_expr$10 = "(null)";
-        tpr(&p, "UDN         =  %s\n", tmp_if_expr$10);
-        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$6$$e->Sid);
+          tmp_if_expr_10 = "(null)";
+        tpr(&p, "UDN         =  %s\n", tmp_if_expr_10);
+        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString__1__2__1__6__e->Sid);
         break;
       }
       case UPNP_EVENT_RECEIVED:
       {
-        struct Upnp_Event * const UpnpUtil_GetEventString$$1$$2$$1$$7$$e = (struct Upnp_Event *)event;
-        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$7$$e->Sid);
-        tpr(&p, "EventKey    =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$7$$e->EventKey);
-        char *return_value_XMLUtil_GetDocumentString$11;
-        return_value_XMLUtil_GetDocumentString$11=XMLUtil_GetDocumentString(tmp_ctx, UpnpUtil_GetEventString$$1$$2$$1$$7$$e->ChangedVariables);
-        tpr(&p, "ChangedVars =  %s\n", return_value_XMLUtil_GetDocumentString$11);
+        struct Upnp_Event * const UpnpUtil_GetEventString__1__2__1__7__e = (struct Upnp_Event *)event;
+        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString__1__2__1__7__e->Sid);
+        tpr(&p, "EventKey    =  %d\n", UpnpUtil_GetEventString__1__2__1__7__e->EventKey);
+        char *return_value_XMLUtil_GetDocumentString_11;
+        return_value_XMLUtil_GetDocumentString_11=XMLUtil_GetDocumentString(tmp_ctx, UpnpUtil_GetEventString__1__2__1__7__e->ChangedVariables);
+        tpr(&p, "ChangedVars =  %s\n", return_value_XMLUtil_GetDocumentString_11);
         break;
       }
       case UPNP_EVENT_RENEWAL_COMPLETE:
       {
-        struct Upnp_Event_Subscribe * const UpnpUtil_GetEventString$$1$$2$$1$$8$$e = (struct Upnp_Event_Subscribe *)event;
-        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$8$$e->ErrCode);
-        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$8$$e->Sid);
-        tpr(&p, "TimeOut     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$8$$e->TimeOut);
+        struct Upnp_Event_Subscribe * const UpnpUtil_GetEventString__1__2__1__8__e = (struct Upnp_Event_Subscribe *)event;
+        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString__1__2__1__8__e->ErrCode);
+        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString__1__2__1__8__e->Sid);
+        tpr(&p, "TimeOut     =  %d\n", UpnpUtil_GetEventString__1__2__1__8__e->TimeOut);
         break;
       }
       case UPNP_EVENT_SUBSCRIBE_COMPLETE:
 
       case UPNP_EVENT_UNSUBSCRIBE_COMPLETE:
       {
-        struct Upnp_Event_Subscribe * const UpnpUtil_GetEventString$$1$$2$$1$$9$$e = (struct Upnp_Event_Subscribe *)event;
-        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$9$$e->ErrCode);
-        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$9$$e->Sid);
-        if(!(UpnpUtil_GetEventString$$1$$2$$1$$9$$e->PublisherUrl == ((struct s_UpnpString *)NULL)))
-          tmp_if_expr$12 = (void *)UpnpUtil_GetEventString$$1$$2$$1$$9$$e->PublisherUrl;
+        struct Upnp_Event_Subscribe * const UpnpUtil_GetEventString__1__2__1__9__e = (struct Upnp_Event_Subscribe *)event;
+        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString__1__2__1__9__e->ErrCode);
+        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString__1__2__1__9__e->Sid);
+        if(!(UpnpUtil_GetEventString__1__2__1__9__e->PublisherUrl == ((struct s_UpnpString *)NULL)))
+          tmp_if_expr_12 = (void *)UpnpUtil_GetEventString__1__2__1__9__e->PublisherUrl;
 
         else
-          tmp_if_expr$12 = (void *)"(null)";
-        tpr(&p, "PublisherURL=  %s\n", tmp_if_expr$12);
-        tpr(&p, "TimeOut     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$9$$e->TimeOut);
+          tmp_if_expr_12 = (void *)"(null)";
+        tpr(&p, "PublisherURL=  %s\n", tmp_if_expr_12);
+        tpr(&p, "TimeOut     =  %d\n", UpnpUtil_GetEventString__1__2__1__9__e->TimeOut);
         break;
       }
       case UPNP_EVENT_AUTORENEWAL_FAILED:
 
       case UPNP_EVENT_SUBSCRIPTION_EXPIRED:
       {
-        struct Upnp_Event_Subscribe * const UpnpUtil_GetEventString$$1$$2$$1$$10$$e = (struct Upnp_Event_Subscribe *)event;
-        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$10$$e->ErrCode);
-        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString$$1$$2$$1$$10$$e->Sid);
-        if(!(UpnpUtil_GetEventString$$1$$2$$1$$10$$e->PublisherUrl == ((struct s_UpnpString *)NULL)))
-          tmp_if_expr$13 = (void *)UpnpUtil_GetEventString$$1$$2$$1$$10$$e->PublisherUrl;
+        struct Upnp_Event_Subscribe * const UpnpUtil_GetEventString__1__2__1__10__e = (struct Upnp_Event_Subscribe *)event;
+        tpr(&p, "ErrCode     =  %d\n", UpnpUtil_GetEventString__1__2__1__10__e->ErrCode);
+        tpr(&p, "SID         =  %s\n", UpnpUtil_GetEventString__1__2__1__10__e->Sid);
+        if(!(UpnpUtil_GetEventString__1__2__1__10__e->PublisherUrl == ((struct s_UpnpString *)NULL)))
+          tmp_if_expr_13 = (void *)UpnpUtil_GetEventString__1__2__1__10__e->PublisherUrl;
 
         else
-          tmp_if_expr$13 = (void *)"(null)";
-        tpr(&p, "PublisherURL=  %s\n", tmp_if_expr$13);
-        tpr(&p, "TimeOut     =  %d\n", UpnpUtil_GetEventString$$1$$2$$1$$10$$e->TimeOut);
+          tmp_if_expr_13 = (void *)"(null)";
+        tpr(&p, "PublisherURL=  %s\n", tmp_if_expr_13);
+        tpr(&p, "TimeOut     =  %d\n", UpnpUtil_GetEventString__1__2__1__10__e->TimeOut);
       }
       default:
         ;
@@ -8647,29 +8647,29 @@ const char * UpnpUtil_GetEventTypeString(enum Upnp_EventType_e e)
 // file upnp_util.h line 74
 char * UpnpUtil_ResolveURL(void *talloc_context, const char *base, const char *rel)
 {
-  signed long int UpnpUtil_ResolveURL$array_size0;
-  signed int tmp_if_expr$2;
-  signed int return_value_strlen$1;
+  signed long int UpnpUtil_ResolveURL_array_size0;
+  signed int tmp_if_expr_2;
+  signed int return_value_strlen_1;
   if(!(base == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(base);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(base);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = 0;
-  signed int tmp_if_expr$4;
-  signed int return_value_strlen$3;
+    tmp_if_expr_2 = 0;
+  signed int tmp_if_expr_4;
+  signed int return_value_strlen_3;
   if(!(rel == ((const char *)NULL)))
   {
-    return_value_strlen$3=strlen(rel);
-    tmp_if_expr$4 = return_value_strlen$3;
+    return_value_strlen_3=strlen(rel);
+    tmp_if_expr_4 = return_value_strlen_3;
   }
 
   else
-    tmp_if_expr$4 = 0;
-  UpnpUtil_ResolveURL$array_size0 = (signed long int)(tmp_if_expr$2 + tmp_if_expr$4 + 2);
-  char resolved[UpnpUtil_ResolveURL$array_size0];
+    tmp_if_expr_4 = 0;
+  UpnpUtil_ResolveURL_array_size0 = (signed long int)(tmp_if_expr_2 + tmp_if_expr_4 + 2);
+  char resolved[UpnpUtil_ResolveURL_array_size0];
   resolved[(signed long int)0] = (char)0;
   if(!(rel == ((const char *)NULL)))
   {
@@ -8687,33 +8687,33 @@ char * UpnpUtil_ResolveURL(void *talloc_context, const char *base, const char *r
 
   }
 
-  char *return_value_talloc_strdup$5;
-  return_value_talloc_strdup$5=talloc_strdup(talloc_context, resolved);
-  return return_value_talloc_strdup$5;
+  char *return_value_talloc_strdup_5;
+  return_value_talloc_strdup_5=talloc_strdup(talloc_context, resolved);
+  return return_value_talloc_strdup_5;
 }
 
 // VFS_Browse
 // file vfs.c line 282
 signed int VFS_Browse(struct _VFS * const self, const struct _VFS_Query *q)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(q == ((const struct _VFS_Query *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = q->path == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = q->path == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)*q->path == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  struct _VFS_BrowseStatus (*tmp_if_expr$4)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
-  _Bool tmp_if_expr$5;
-  struct _VFS_BrowseStatus (*tmp_if_expr$6)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
-  char *return_value_strerror$7;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)*q->path == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  struct _VFS_BrowseStatus (*tmp_if_expr_4)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+  _Bool tmp_if_expr_5;
+  struct _VFS_BrowseStatus (*tmp_if_expr_6)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+  char *return_value_strerror_7;
+  if(tmp_if_expr_2)
     return -14;
 
   else
@@ -8755,16 +8755,16 @@ signed int VFS_Browse(struct _VFS * const self, const struct _VFS_Query *q)
 
             struct _VFS_BrowseStatus (*func)(struct _VFS *, const char *, const struct _VFS_Query *, void *);
             if(!(self == ((struct _VFS *)NULL)))
-              tmp_if_expr$3 = self->_.isa != ((struct _VFS_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = self->_.isa != ((struct _VFS_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
-              tmp_if_expr$4 = self->_.isa->browse_root;
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
+              tmp_if_expr_4 = self->_.isa->browse_root;
 
             else
-              tmp_if_expr$4 = (struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))(void *)0;
-            func = tmp_if_expr$4;
+              tmp_if_expr_4 = (struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))(void *)0;
+            func = tmp_if_expr_4;
             if(!(func == ((struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))NULL)))
             {
               if((signed int)*_s.ptr == 0)
@@ -8804,16 +8804,16 @@ signed int VFS_Browse(struct _VFS * const self, const struct _VFS_Query *q)
                       }
 
                       if(!(self == ((struct _VFS *)NULL)))
-                        tmp_if_expr$5 = self->_.isa != ((struct _VFS_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_5 = self->_.isa != ((struct _VFS_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$5 = (_Bool)0;
-                      if(tmp_if_expr$5)
-                        tmp_if_expr$6 = self->_.isa->browse_debug;
+                        tmp_if_expr_5 = (_Bool)0;
+                      if(tmp_if_expr_5)
+                        tmp_if_expr_6 = self->_.isa->browse_debug;
 
                       else
-                        tmp_if_expr$6 = (struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))(void *)0;
-                      func = tmp_if_expr$6;
+                        tmp_if_expr_6 = (struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))(void *)0;
+                      func = tmp_if_expr_6;
                       if(!(func == ((struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))NULL)))
                       {
                         if((signed int)*_s.ptr == 0)
@@ -8881,8 +8881,8 @@ signed int VFS_Browse(struct _VFS * const self, const struct _VFS_Query *q)
 
     if(!(s.rc == 0))
     {
-      return_value_strerror$7=strerror(-s.rc);
-      Log_Printf((enum Log_Level)LOG_DEBUG, "fuse browse => error %d (%s) : path='%s', stops at='%s'", s.rc, return_value_strerror$7, q->path, s.ptr);
+      return_value_strerror_7=strerror(-s.rc);
+      Log_Printf((enum Log_Level)LOG_DEBUG, "fuse browse => error %d (%s) : path='%s', stops at='%s'", s.rc, return_value_strerror_7, q->path, s.ptr);
     }
 
     return s.rc;
@@ -8894,11 +8894,11 @@ signed int VFS_Browse(struct _VFS * const self, const struct _VFS_Query *q)
 struct _VFS * VFS_Create(void *talloc_context, _Bool show_debug_dir)
 {
   struct _VFS *self;
-  const struct _Object_Class *return_value__VFS_GetBaseClass$1;
-  return_value__VFS_GetBaseClass$1=_VFS_GetBaseClass();
-  struct _Object *return_value__Object_check_alloc$2;
-  return_value__Object_check_alloc$2=_Object_check_alloc(talloc_context, return_value__VFS_GetBaseClass$1);
-  self = (struct _VFS *)return_value__Object_check_alloc$2;
+  const struct _Object_Class *return_value__VFS_GetBaseClass_1;
+  return_value__VFS_GetBaseClass_1=_VFS_GetBaseClass();
+  struct _Object *return_value__Object_check_alloc_2;
+  return_value__Object_check_alloc_2=_Object_check_alloc(talloc_context, return_value__VFS_GetBaseClass_1);
+  self = (struct _VFS *)return_value__Object_check_alloc_2;
   if(!(self == ((struct _VFS *)NULL)))
   {
     struct _Object *__super;
@@ -8949,23 +8949,23 @@ static void VerifyTimeouts(signed int incr)
 struct _IXML_Element * XMLUtil_FindFirstElement(const struct _IXML_Node * const node, const char * const tagname, const _Bool deep, const _Bool log_error)
 {
   struct _IXML_Element *res = (struct _IXML_Element *)(void *)0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(tagname == ((const char *)NULL) || node == ((const struct _IXML_Node *)NULL))
     Log_Printf((enum Log_Level)LOG_ERROR, "GetFirstElementByTagName invalid NULL parameter");
 
   else
   {
     struct _IXML_Node * const n = (struct _IXML_Node *)node;
-    unsigned short int return_value_ixmlNode_getNodeType$2;
-    return_value_ixmlNode_getNodeType$2=ixmlNode_getNodeType(n);
-    if((signed int)return_value_ixmlNode_getNodeType$2 == eELEMENT_NODE)
+    unsigned short int return_value_ixmlNode_getNodeType_2;
+    return_value_ixmlNode_getNodeType_2=ixmlNode_getNodeType(n);
+    if((signed int)return_value_ixmlNode_getNodeType_2 == eELEMENT_NODE)
     {
       const char *name;
       name=ixmlNode_getNodeName(n);
       if(!(name == ((const char *)NULL)))
       {
-        return_value_strcmp$1=strcmp(tagname, name);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(tagname, name);
+        if(return_value_strcmp_1 == 0)
           res = (struct _IXML_Element *)n;
 
       }
@@ -8988,17 +8988,17 @@ const char * XMLUtil_FindFirstElementValue(const struct _IXML_Node * const node,
 {
   struct _IXML_Element *element;
   element=XMLUtil_FindFirstElement(node, tagname, deep, log_error);
-  const char *tmp_if_expr$2;
-  const char *return_value_XMLUtil_GetElementValue$1;
+  const char *tmp_if_expr_2;
+  const char *return_value_XMLUtil_GetElementValue_1;
   if(!(element == ((struct _IXML_Element *)NULL)))
   {
-    return_value_XMLUtil_GetElementValue$1=XMLUtil_GetElementValue(element);
-    tmp_if_expr$2 = return_value_XMLUtil_GetElementValue$1;
+    return_value_XMLUtil_GetElementValue_1=XMLUtil_GetElementValue(element);
+    tmp_if_expr_2 = return_value_XMLUtil_GetElementValue_1;
   }
 
   else
-    tmp_if_expr$2 = (const char *)(void *)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (const char *)(void *)0;
+  return tmp_if_expr_2;
 }
 
 // XMLUtil_GetDocumentString
@@ -9034,9 +9034,9 @@ const char * XMLUtil_GetElementValue(const struct _IXML_Element *element)
   child=ixmlNode_getFirstChild((struct _IXML_Node *)&element->n);
   while(res == ((char *)NULL) && !(child == ((struct _IXML_Node *)NULL)))
   {
-    unsigned short int return_value_ixmlNode_getNodeType$1;
-    return_value_ixmlNode_getNodeType$1=ixmlNode_getNodeType(child);
-    if((signed int)return_value_ixmlNode_getNodeType$1 == eTEXT_NODE)
+    unsigned short int return_value_ixmlNode_getNodeType_1;
+    return_value_ixmlNode_getNodeType_1=ixmlNode_getNodeType(child);
+    if((signed int)return_value_ixmlNode_getNodeType_1 == eTEXT_NODE)
       res=ixmlNode_getNodeValue(child);
 
     child=ixmlNode_getNextSibling(child);
@@ -9086,9 +9086,9 @@ void _Cache_PurgeExpiredEntries(struct _Cache *cache)
 // file content_dir.c line 582
 extern const struct _Object_Class * _ContentDir_GetBaseClass()
 {
-  const struct _ContentDir_Class *return_value__ContentDir_GetClass$1;
-  return_value__ContentDir_GetClass$1=_ContentDir_GetClass();
-  return &return_value__ContentDir_GetClass$1->_.base;
+  const struct _ContentDir_Class *return_value__ContentDir_GetClass_1;
+  return_value__ContentDir_GetClass_1=_ContentDir_GetClass();
+  return &return_value__ContentDir_GetClass_1->_.base;
 }
 
 // _ContentDir_GetClass
@@ -9114,7 +9114,7 @@ extern const struct _ContentDir_Class * _ContentDir_GetClass()
     .__spins=0, .__elision=0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } } };
       the_class._.base.initializer = (const void *)&the_default_object;
       the_class._.base.finalize = (void (*)(struct _Object *))(void *)0;
-      init_class$link1(&the_class);
+      init_class_link1(&the_class);
     }
 
     _ObjectClass_Unlock();
@@ -9127,9 +9127,9 @@ extern const struct _ContentDir_Class * _ContentDir_GetClass()
 // file djfs.c line 547
 extern const struct _Object_Class * _DJFS_GetBaseClass()
 {
-  const struct _DJFS_Class *return_value__DJFS_GetClass$1;
-  return_value__DJFS_GetClass$1=_DJFS_GetClass();
-  return &return_value__DJFS_GetClass$1->_.base;
+  const struct _DJFS_Class *return_value__DJFS_GetClass_1;
+  return_value__DJFS_GetClass_1=_DJFS_GetClass();
+  return &return_value__DJFS_GetClass_1->_.base;
 }
 
 // _DJFS_GetClass
@@ -9156,7 +9156,7 @@ extern const struct _DJFS_Class * _DJFS_GetClass()
     .__spins=0, .__elision=0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } } };
       the_class._.base.initializer = (const void *)&the_default_object;
       the_class._.base.finalize = (void (*)(struct _Object *))(void *)0;
-      init_class$link3(&the_class);
+      init_class_link3(&the_class);
     }
 
     _ObjectClass_Unlock();
@@ -9225,7 +9225,7 @@ signed int _ObjectClass_Lock()
 {
   if(g_mutex_initialized == (_Bool)0)
   {
-    union anonymous$5 attr;
+    union anonymous_5 attr;
     pthread_mutexattr_init(&attr);
     pthread_mutexattr_setkind_np(&attr, 1);
     pthread_mutex_init(&g_class_mutex, &attr);
@@ -9233,27 +9233,27 @@ signed int _ObjectClass_Lock()
     g_mutex_initialized = (_Bool)1;
   }
 
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&g_class_mutex);
-  return return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&g_class_mutex);
+  return return_value_pthread_mutex_lock_1;
 }
 
 // _ObjectClass_Unlock
 // file object.c line 108
 inline signed int _ObjectClass_Unlock()
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&g_class_mutex);
-  return return_value_pthread_mutex_unlock$1;
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&g_class_mutex);
+  return return_value_pthread_mutex_unlock_1;
 }
 
 // _Object_GetBaseClass
 // file object.c line 174
 extern const struct _Object_Class * _Object_GetBaseClass()
 {
-  const struct _Object_Class *return_value__Object_GetClass$1;
-  return_value__Object_GetClass$1=_Object_GetClass();
-  return return_value__Object_GetClass$1;
+  const struct _Object_Class *return_value__Object_GetClass_1;
+  return_value__Object_GetClass_1=_Object_GetClass();
+  return return_value__Object_GetClass_1;
 }
 
 // _Object_GetClass
@@ -9279,19 +9279,19 @@ extern const struct _Object_Class * _Object_GetClass()
 // file object.c line 118
 extern _Bool _Object_IsA(const void * const objptr, const struct _Object_Class *searched_class)
 {
-  _Bool tmp_if_expr$1;
-  const char *tmp_if_expr$2;
-  const char *tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  const char *tmp_if_expr_2;
+  const char *tmp_if_expr_3;
   if(!(objptr == NULL) && !(searched_class == ((const struct _Object_Class *)NULL)))
   {
     const struct _Object * const obj = (const struct _Object *)objptr;
     const struct _Object_Class * const objclass = obj->_.isa;
     if(objclass == ((const struct _Object_Class *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = objclass->magic != (unsigned int)0xacebabe ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = objclass->magic != (unsigned int)0xacebabe ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       Log_Printf((enum Log_Level)LOG_ERROR, "Object_IsA : not an object ; memory might be corrupted !!");
       return (_Bool)0;
@@ -9303,16 +9303,16 @@ extern _Bool _Object_IsA(const void * const objptr, const struct _Object_Class *
         return (_Bool)1;
 
     if(!(objclass->name == ((const char *)NULL)))
-      tmp_if_expr$2 = objclass->name;
+      tmp_if_expr_2 = objclass->name;
 
     else
-      tmp_if_expr$2 = "(null)";
+      tmp_if_expr_2 = "(null)";
     if(!(searched_class->name == ((const char *)NULL)))
-      tmp_if_expr$3 = searched_class->name;
+      tmp_if_expr_3 = searched_class->name;
 
     else
-      tmp_if_expr$3 = "(null)";
-    Log_Printf((enum Log_Level)LOG_ERROR, "Object_IsA : '%s' is not a '%s' ", tmp_if_expr$2, tmp_if_expr$3);
+      tmp_if_expr_3 = "(null)";
+    Log_Printf((enum Log_Level)LOG_ERROR, "Object_IsA : '%s' is not a '%s' ", tmp_if_expr_2, tmp_if_expr_3);
   }
 
   return (_Bool)0;
@@ -9322,9 +9322,9 @@ extern _Bool _Object_IsA(const void * const objptr, const struct _Object_Class *
 // file object.c line 188
 struct _Object * _Object_check_alloc(void *talloc_context, const struct _Object_Class *isa)
 {
-  const char *return_value_talloc_get_name$1;
-  return_value_talloc_get_name$1=talloc_get_name(talloc_context);
-  if(return_value_talloc_get_name$1 == NAME_UNDER_CONSTRUCTION)
+  const char *return_value_talloc_get_name_1;
+  return_value_talloc_get_name_1=talloc_get_name(talloc_context);
+  if(return_value_talloc_get_name_1 == NAME_UNDER_CONSTRUCTION)
     return (struct _Object *)talloc_context;
 
   else
@@ -9337,9 +9337,9 @@ struct _Object * _Object_check_alloc(void *talloc_context, const struct _Object_
     else
     {
       struct _Object *obj;
-      void *return_value_talloc_named_const$2;
-      return_value_talloc_named_const$2=talloc_named_const(talloc_context, isa->size, NAME_UNDER_CONSTRUCTION);
-      obj = (struct _Object *)return_value_talloc_named_const$2;
+      void *return_value_talloc_named_const_2;
+      return_value_talloc_named_const_2=talloc_named_const(talloc_context, isa->size, NAME_UNDER_CONSTRUCTION);
+      obj = (struct _Object *)return_value_talloc_named_const_2;
       if(obj == ((struct _Object *)NULL))
       {
         Log_Print((enum Log_Level)LOG_ERROR, "Object CreateBase Out of Memory");
@@ -9367,9 +9367,9 @@ struct _Object * _Object_check_alloc(void *talloc_context, const struct _Object_
 // file service.c line 575
 extern const struct _Object_Class * _Service_GetBaseClass()
 {
-  const struct _Service_Class *return_value__Service_GetClass$1;
-  return_value__Service_GetClass$1=_Service_GetClass();
-  return &return_value__Service_GetClass$1->_.base;
+  const struct _Service_Class *return_value__Service_GetClass_1;
+  return_value__Service_GetClass_1=_Service_GetClass();
+  return &return_value__Service_GetClass_1->_.base;
 }
 
 // _Service_GetClass
@@ -9417,7 +9417,7 @@ extern const struct _Service_Class * _Service_GetClass()
 signed long int _String_ToInteger(const char *s, signed long int error_value)
 {
   signed long int ret = error_value;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(!(s == ((const char *)NULL)))
   {
     if(!(*s == 0))
@@ -9429,8 +9429,8 @@ signed long int _String_ToInteger(const char *s, signed long int error_value)
       {
         do
         {
-          return_value___ctype_b_loc$1=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*endptr]) == 0)
+          return_value___ctype_b_loc_1=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*endptr]) == 0)
             break;
 
           endptr = endptr + 1l;
@@ -9452,9 +9452,9 @@ signed long int _String_ToInteger(const char *s, signed long int error_value)
 // file vfs.c line 354
 extern const struct _Object_Class * _VFS_GetBaseClass()
 {
-  const struct _VFS_Class *return_value__VFS_GetClass$1;
-  return_value__VFS_GetClass$1=_VFS_GetClass();
-  return &return_value__VFS_GetClass$1->_.base;
+  const struct _VFS_Class *return_value__VFS_GetClass_1;
+  return_value__VFS_GetClass_1=_VFS_GetClass();
+  return &return_value__VFS_GetClass_1->_.base;
 }
 
 // _VFS_GetClass
@@ -9479,7 +9479,7 @@ extern const struct _VFS_Class * _VFS_GetClass()
       static const struct _VFS the_default_object = { ._={ .isa=&the_class }, .show_debug_dir=(_Bool)0 };
       the_class._.base.initializer = (const void *)&the_default_object;
       the_class._.base.finalize = (void (*)(struct _Object *))(void *)0;
-      init_class$link2(&the_class);
+      init_class_link2(&the_class);
     }
 
     _ObjectClass_Unlock();
@@ -9501,9 +9501,9 @@ static struct hash_entry * allocate_entry(struct hash_table *table)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct hash_entry) /*16ul*/ );
-    new = (struct hash_entry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct hash_entry) /*16ul*/ );
+    new = (struct hash_entry *)return_value_malloc_1;
   }
   return new;
 }
@@ -9514,9 +9514,9 @@ static _Bool cache_comparator(const void *e1, const void *e2)
 {
   const struct _Entry * const ce1 = (const struct _Entry *)e1;
   const struct _Entry * const ce2 = (const struct _Entry *)e2;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(ce1->key, ce2->key);
-  return return_value_strcmp$1 == 0;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(ce1->key, ce2->key);
+  return return_value_strcmp_1 == 0;
 }
 
 // cache_destroy
@@ -9543,8 +9543,8 @@ static void cache_expire_entries(struct _Cache *cache, const signed long int now
       signed int i;
       unsigned long int n;
       n=hash_get_n_entries(cache->table);
-      const signed long int n$array_size0 = (signed long int)n;
-      void *entries[n$array_size0];
+      const signed long int n_array_size0 = (signed long int)n;
+      void *entries[n_array_size0];
       unsigned long int nn;
       nn=hash_get_entries(cache->table, entries, n);
       i = 0;
@@ -9554,9 +9554,9 @@ static void cache_expire_entries(struct _Cache *cache, const signed long int now
         if(!(ce->rip >= now))
         {
           Log_Printf((enum Log_Level)LOG_DEBUG, "CACHE_CLEAN (key='%s')", ce->key);
-          void *return_value_hash_delete$1;
-          return_value_hash_delete$1=hash_delete(cache->table, (const void *)ce);
-          ce = (struct _Entry *)return_value_hash_delete$1;
+          void *return_value_hash_delete_1;
+          return_value_hash_delete_1=hash_delete(cache->table, (const void *)ce);
+          ce = (struct _Entry *)return_value_hash_delete_1;
           if(!(ce == ((struct _Entry *)NULL)))
           {
             if(!(cache->free_expired_data == ((void (*)(const char *, void *))NULL)))
@@ -9581,9 +9581,9 @@ static void cache_expire_entries(struct _Cache *cache, const signed long int now
 static void cache_free_expired_data(const char *key, void *data)
 {
   struct _ContentDir_Children * const children = (struct _ContentDir_Children *)data;
-  signed int return_value__talloc_free$1;
-  return_value__talloc_free$1=_talloc_free((void *)children, "content_dir.c:347");
-  if(return_value__talloc_free$1 == 0)
+  signed int return_value__talloc_free_1;
+  return_value__talloc_free_1=_talloc_free((void *)children, "content_dir.c:347");
+  if(return_value__talloc_free_1 == 0)
     Log_Printf((enum Log_Level)LOG_DEBUG, "ContentDir CACHE_FREE (key='%s')", key);
 
 }
@@ -9594,27 +9594,27 @@ static struct _Entry * cache_get(struct _Cache *cache, const char *key, _Bool *h
 {
   const struct _Entry searched = { .key=key, .rip=0l, .data=NULL };
   struct _Entry *ce;
-  void *return_value_hash_lookup$1;
-  return_value_hash_lookup$1=hash_lookup(cache->table, (const void *)&searched);
-  ce = (struct _Entry *)return_value_hash_lookup$1;
+  void *return_value_hash_lookup_1;
+  return_value_hash_lookup_1=hash_lookup(cache->table, (const void *)&searched);
+  ce = (struct _Entry *)return_value_hash_lookup_1;
   if(!(ce == ((struct _Entry *)NULL)))
     *hit = (_Bool)1;
 
   else
   {
     *hit = (_Bool)0;
-    void *return_value_talloc_named_const$2;
-    return_value_talloc_named_const$2=talloc_named_const((const void *)cache, sizeof(struct _Entry) /*24ul*/ , "Entry");
-    ce = (struct _Entry *)return_value_talloc_named_const$2;
+    void *return_value_talloc_named_const_2;
+    return_value_talloc_named_const_2=talloc_named_const((const void *)cache, sizeof(struct _Entry) /*24ul*/ , "Entry");
+    ce = (struct _Entry *)return_value_talloc_named_const_2;
     if(!(ce == ((struct _Entry *)NULL)))
     {
       ce->key=talloc_strdup((const void *)ce, key);
       if(ce->key == ((const char *)NULL))
         return (struct _Entry *)(void *)0;
 
-      void *return_value_hash_insert$3;
-      return_value_hash_insert$3=hash_insert(cache->table, (const void *)ce);
-      ce = (struct _Entry *)return_value_hash_insert$3;
+      void *return_value_hash_insert_3;
+      return_value_hash_insert_3=hash_insert(cache->table, (const void *)ce);
+      ce = (struct _Entry *)return_value_hash_insert_3;
     }
 
   }
@@ -9627,9 +9627,9 @@ static unsigned long int cache_hasher(const void *entry, unsigned long int table
 {
   const struct _Entry * const ce = (const struct _Entry *)entry;
   unsigned long int h;
-  unsigned int return_value_String_Hash$1;
-  return_value_String_Hash$1=String_Hash(ce->key);
-  h = (unsigned long int)return_value_String_Hash$1 % table_size;
+  unsigned int return_value_String_Hash_1;
+  return_value_String_Hash_1=String_Hash(ce->key);
+  h = (unsigned long int)return_value_String_Hash_1 % table_size;
   return h;
 }
 
@@ -9676,30 +9676,30 @@ static _Bool check_tuning(struct hash_table *table)
 // file charset.c line 239
 static signed int convert(struct _Converter * const cvt, const char ** const inbuf, unsigned long int * const inbytesleft, char ** const outbuf, unsigned long int * const outbytesleft)
 {
-  unsigned long int return_value_iconv$1;
-  return_value_iconv$1=iconv(cvt->cd, (char **)inbuf, inbytesleft, outbuf, outbytesleft);
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  _Bool tmp_if_expr$10;
-  char *tmp_post$11;
-  if(!(return_value_iconv$1 == 18446744073709551615ul))
+  unsigned long int return_value_iconv_1;
+  return_value_iconv_1=iconv(cvt->cd, (char **)inbuf, inbytesleft, outbuf, outbytesleft);
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  _Bool tmp_if_expr_10;
+  char *tmp_post_11;
+  if(!(return_value_iconv_1 == 18446744073709551615ul))
     return 0;
 
   else
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(!(*return_value___errno_location$4 == 84))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(!(*return_value___errno_location_4 == 84))
     {
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 22)
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 22)
         goto __CPROVER_DUMP_L2;
 
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
     else
@@ -9708,23 +9708,23 @@ static signed int convert(struct _Converter * const cvt, const char ** const inb
     __CPROVER_DUMP_L2:
       ;
       signed int save_errno;
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      save_errno = *return_value___errno_location$5;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      save_errno = *return_value___errno_location_5;
       if(!(cvt->to_utf8 == (_Bool)0))
       {
         if(!(*outbytesleft >= 3ul))
           return 7;
 
-        tmp_post$6 = *outbuf;
+        tmp_post_6 = *outbuf;
         *outbuf = *outbuf + 1l;
-        *tmp_post$6 = (char)0xEF;
-        tmp_post$7 = *outbuf;
+        *tmp_post_6 = (char)0xEF;
+        tmp_post_7 = *outbuf;
         *outbuf = *outbuf + 1l;
-        *tmp_post$7 = (char)0xBF;
-        tmp_post$8 = *outbuf;
+        *tmp_post_7 = (char)0xBF;
+        tmp_post_8 = *outbuf;
         *outbuf = *outbuf + 1l;
-        *tmp_post$8 = (char)0xBD;
+        *tmp_post_8 = (char)0xBD;
         *outbytesleft = *outbytesleft - (unsigned long int)3;
       }
 
@@ -9733,23 +9733,23 @@ static signed int convert(struct _Converter * const cvt, const char ** const inb
         const char ERROR_CHAR = (const char)63;
         const char *ibuf = &ERROR_CHAR;
         unsigned long int ileft = (unsigned long int)1;
-        unsigned long int return_value_iconv$12;
-        return_value_iconv$12=iconv(cvt->cd, (char **)&ibuf, &ileft, outbuf, outbytesleft);
-        if(return_value_iconv$12 == 18446744073709551615ul || ileft >= 1ul)
+        unsigned long int return_value_iconv_12;
+        return_value_iconv_12=iconv(cvt->cd, (char **)&ibuf, &ileft, outbuf, outbytesleft);
+        if(return_value_iconv_12 == 18446744073709551615ul || ileft >= 1ul)
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(*return_value___errno_location$9 == 7)
-            tmp_if_expr$10 = (_Bool)1;
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(*return_value___errno_location_9 == 7)
+            tmp_if_expr_10 = (_Bool)1;
 
           else
-            tmp_if_expr$10 = *outbytesleft < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = *outbytesleft < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_10)
             return 7;
 
-          tmp_post$11 = *outbuf;
+          tmp_post_11 = *outbuf;
           *outbuf = *outbuf + 1l;
-          *tmp_post$11 = ERROR_CHAR;
+          *tmp_post_11 = ERROR_CHAR;
           *outbytesleft = *outbytesleft - 1ul;
         }
 
@@ -9799,9 +9799,9 @@ static signed int destroy(struct _Object * const obj)
   return 0;
 }
 
-// destroy$link1
+// destroy_link1
 // file device.c line 161
-static signed int destroy$link1(struct _Device * const dev)
+static signed int destroy_link1(struct _Device * const dev)
 {
   if(!(dev == ((struct _Device *)NULL)))
   {
@@ -9839,11 +9839,11 @@ static void finalize(struct _Object *obj)
 
 }
 
-// finalize$link1
+// finalize_link1
 // file content_dir.c line 551
-static void finalize$link1(struct _Object *obj$link1)
+static void finalize_link1(struct _Object *obj_link1)
 {
-  struct _ContentDir * const cds = (struct _ContentDir *)obj$link1;
+  struct _ContentDir * const cds = (struct _ContentDir *)obj_link1;
   if(!(cds == ((struct _ContentDir *)NULL)))
   {
     if(!(cds->cache == ((struct _Cache *)NULL)))
@@ -9853,11 +9853,11 @@ static void finalize$link1(struct _Object *obj$link1)
 
 }
 
-// finalize$link2
+// finalize_link2
 // file djfs.c line 521
-static void finalize$link2(struct _Object *obj$link2)
+static void finalize_link2(struct _Object *obj_link2)
 {
-  struct _DJFS * const self = (struct _DJFS *)obj$link2;
+  struct _DJFS * const self = (struct _DJFS *)obj_link2;
   if(!(self == ((struct _DJFS *)NULL)))
   {
     if(!(self->search_hist == ((struct _PtrArray *)NULL)))
@@ -9873,11 +9873,11 @@ static const struct _IXML_Node * findDeviceNode(const char * const deviceId, str
 {
   struct _IXML_NodeList *devicesList;
   devicesList=ixmlDocument_getElementsByTagName(descDoc, "device");
-  unsigned long int return_value_ixmlNodeList_length$1;
-  return_value_ixmlNodeList_length$1=ixmlNodeList_length(devicesList);
-  unsigned long int return_value_ixmlNodeList_length$2;
-  signed int return_value_strcmp$3;
-  if(!(return_value_ixmlNodeList_length$1 >= 1ul))
+  unsigned long int return_value_ixmlNodeList_length_1;
+  return_value_ixmlNodeList_length_1=ixmlNodeList_length(devicesList);
+  unsigned long int return_value_ixmlNodeList_length_2;
+  signed int return_value_strcmp_3;
+  if(!(return_value_ixmlNodeList_length_1 >= 1ul))
   {
     ixmlNodeList_free(devicesList);
     return (const struct _IXML_Node *)(void *)0;
@@ -9891,8 +9891,8 @@ static const struct _IXML_Node * findDeviceNode(const char * const deviceId, str
       signed int i = 0;
       do
       {
-        return_value_ixmlNodeList_length$2=ixmlNodeList_length(devicesList);
-        if((unsigned long int)i >= return_value_ixmlNodeList_length$2)
+        return_value_ixmlNodeList_length_2=ixmlNodeList_length(devicesList);
+        if((unsigned long int)i >= return_value_ixmlNodeList_length_2)
           break;
 
         struct _IXML_Node *node;
@@ -9901,8 +9901,8 @@ static const struct _IXML_Node * findDeviceNode(const char * const deviceId, str
         udn=XMLUtil_FindFirstElementValue(node, "UDN", (const _Bool)0, (const _Bool)1);
         if(!(udn == ((const char *)NULL)))
         {
-          return_value_strcmp$3=strcmp(udn, deviceId);
-          if(return_value_strcmp$3 == 0)
+          return_value_strcmp_3=strcmp(udn, deviceId);
+          if(return_value_strcmp_3 == 0)
           {
             descDocNode = node;
             break;
@@ -9933,19 +9933,19 @@ static struct _IXML_Element * findFirstElementRecursive(const struct _IXML_Node 
   struct _IXML_Element *res = (struct _IXML_Element *)(void *)0;
   struct _IXML_Node *n;
   n=ixmlNode_getFirstChild((struct _IXML_Node *)node);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   while(res == ((struct _IXML_Element *)NULL) && !(n == ((struct _IXML_Node *)NULL)))
   {
-    unsigned short int return_value_ixmlNode_getNodeType$2;
-    return_value_ixmlNode_getNodeType$2=ixmlNode_getNodeType(n);
-    if((signed int)return_value_ixmlNode_getNodeType$2 == eELEMENT_NODE)
+    unsigned short int return_value_ixmlNode_getNodeType_2;
+    return_value_ixmlNode_getNodeType_2=ixmlNode_getNodeType(n);
+    if((signed int)return_value_ixmlNode_getNodeType_2 == eELEMENT_NODE)
     {
       const char *name;
       name=ixmlNode_getNodeName(n);
       if(!(name == ((const char *)NULL)))
       {
-        return_value_strcmp$1=strcmp(tagname, name);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(tagname, name);
+        if(return_value_strcmp_1 == 0)
           res = (struct _IXML_Element *)n;
 
       }
@@ -9988,152 +9988,152 @@ static char * get_status_string(const struct _Service *serv, void *result_contex
   p=talloc_strdup(result_context, "");
   tpr(&p, "%s| \n", spacer);
   const char *n;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(serv == ((const struct _Service *)NULL)))
-    tmp_if_expr$1 = serv->_.baseclass != ((struct _Object_Class *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = serv->_.baseclass != ((struct _Object_Class *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  const char *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = serv->_.baseclass->name;
+    tmp_if_expr_1 = (_Bool)0;
+  const char *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = serv->_.baseclass->name;
 
   else
-    tmp_if_expr$2 = (const char *)(void *)0;
-  n = tmp_if_expr$2;
+    tmp_if_expr_2 = (const char *)(void *)0;
+  n = tmp_if_expr_2;
   tpr(&p, "%s+- Class           = %s\n", spacer, n != ((const char *)NULL) ? n : "**ERROR** NO CLASS");
-  const char *return_value_talloc_get_name$3;
-  return_value_talloc_get_name$3=talloc_get_name((const void *)serv);
-  tpr(&p, "%s+- Object Name     = %s\n", spacer, return_value_talloc_get_name$3);
-  char *tmp_if_expr$4;
+  const char *return_value_talloc_get_name_3;
+  return_value_talloc_get_name_3=talloc_get_name((const void *)serv);
+  tpr(&p, "%s+- Object Name     = %s\n", spacer, return_value_talloc_get_name_3);
+  char *tmp_if_expr_4;
   if(!(serv->serviceType == ((char *)NULL)))
-    tmp_if_expr$4 = serv->serviceType;
+    tmp_if_expr_4 = serv->serviceType;
 
   else
-    tmp_if_expr$4 = "(null)";
-  tpr(&p, "%s+- ServiceType     = %s\n", spacer, tmp_if_expr$4);
-  char *tmp_if_expr$5;
+    tmp_if_expr_4 = "(null)";
+  tpr(&p, "%s+- ServiceType     = %s\n", spacer, tmp_if_expr_4);
+  char *tmp_if_expr_5;
   if(!(serv->serviceId == ((char *)NULL)))
-    tmp_if_expr$5 = serv->serviceId;
+    tmp_if_expr_5 = serv->serviceId;
 
   else
-    tmp_if_expr$5 = "(null)";
-  tpr(&p, "%s+- ServiceId       = %s\n", spacer, tmp_if_expr$5);
-  char *tmp_if_expr$6;
+    tmp_if_expr_5 = "(null)";
+  tpr(&p, "%s+- ServiceId       = %s\n", spacer, tmp_if_expr_5);
+  char *tmp_if_expr_6;
   if(!(serv->eventURL == ((char *)NULL)))
-    tmp_if_expr$6 = serv->eventURL;
+    tmp_if_expr_6 = serv->eventURL;
 
   else
-    tmp_if_expr$6 = "(null)";
-  tpr(&p, "%s+- EventURL        = %s\n", spacer, tmp_if_expr$6);
-  char *tmp_if_expr$7;
+    tmp_if_expr_6 = "(null)";
+  tpr(&p, "%s+- EventURL        = %s\n", spacer, tmp_if_expr_6);
+  char *tmp_if_expr_7;
   if(!(serv->controlURL == ((char *)NULL)))
-    tmp_if_expr$7 = serv->controlURL;
+    tmp_if_expr_7 = serv->controlURL;
 
   else
-    tmp_if_expr$7 = "(null)";
-  tpr(&p, "%s+- ControlURL      = %s\n", spacer, tmp_if_expr$7);
+    tmp_if_expr_7 = "(null)";
+  tpr(&p, "%s+- ControlURL      = %s\n", spacer, tmp_if_expr_7);
   tpr(&p, "%s+- ServiceStateTable\n", spacer);
   struct LISTNODE *node;
   struct LINKEDLIST * const variables = (struct LINKEDLIST *)&serv->variables;
   node=ListHead(variables);
-  char *tmp_if_expr$8;
-  char *tmp_if_expr$9;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strlen$10;
+  char *tmp_if_expr_8;
+  char *tmp_if_expr_9;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strlen_10;
   while(!(node == ((struct LISTNODE *)NULL)))
   {
     struct _StringPair * const var = (struct _StringPair *)node->item;
     if(!(var->name == ((char *)NULL)))
-      tmp_if_expr$8 = var->name;
+      tmp_if_expr_8 = var->name;
 
     else
-      tmp_if_expr$8 = "(null)";
+      tmp_if_expr_8 = "(null)";
     if(!(var->value == ((char *)NULL)))
-      tmp_if_expr$9 = var->value;
+      tmp_if_expr_9 = var->value;
 
     else
-      tmp_if_expr$9 = "(null)";
+      tmp_if_expr_9 = "(null)";
     if(!(var->value == ((char *)NULL)))
     {
-      return_value_strlen$10=strlen(var->value);
-      tmp_if_expr$11 = return_value_strlen$10 > (unsigned long int)150 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_10=strlen(var->value);
+      tmp_if_expr_11 = return_value_strlen_10 > (unsigned long int)150 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    tpr(&p, "%s|    +- %-10s = %.150s%s\n", spacer, tmp_if_expr$8, tmp_if_expr$9, tmp_if_expr$11 ? "..." : "");
+      tmp_if_expr_11 = (_Bool)0;
+    tpr(&p, "%s|    +- %-10s = %.150s%s\n", spacer, tmp_if_expr_8, tmp_if_expr_9, tmp_if_expr_11 ? "..." : "");
     node=ListNext(variables, node);
   }
-  char *tmp_if_expr$12;
+  char *tmp_if_expr_12;
   if(!(serv->la_name == ((char *)NULL)))
-    tmp_if_expr$12 = serv->la_name;
+    tmp_if_expr_12 = serv->la_name;
 
   else
-    tmp_if_expr$12 = "(null)";
-  tpr(&p, "%s+- Last Action     = %s\n", spacer, tmp_if_expr$12);
-  const char *return_value_UpnpGetErrorMessage$13;
+    tmp_if_expr_12 = "(null)";
+  tpr(&p, "%s+- Last Action     = %s\n", spacer, tmp_if_expr_12);
+  const char *return_value_UpnpGetErrorMessage_13;
   if(!(serv->la_name == ((char *)NULL)))
   {
-    return_value_UpnpGetErrorMessage$13=UpnpGetErrorMessage(serv->la_result);
-    tpr(&p, "%s|    +- Result     = %d (%s)\n", spacer, serv->la_result, return_value_UpnpGetErrorMessage$13);
+    return_value_UpnpGetErrorMessage_13=UpnpGetErrorMessage(serv->la_result);
+    tpr(&p, "%s|    +- Result     = %d (%s)\n", spacer, serv->la_result, return_value_UpnpGetErrorMessage_13);
   }
 
-  _Bool tmp_if_expr$16;
+  _Bool tmp_if_expr_16;
   if(!(serv->la_error_code == ((char *)NULL)))
-    tmp_if_expr$16 = (_Bool)1;
+    tmp_if_expr_16 = (_Bool)1;
 
   else
-    tmp_if_expr$16 = serv->la_error_desc != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-  char *tmp_if_expr$14;
-  char *tmp_if_expr$15;
-  if(tmp_if_expr$16)
+    tmp_if_expr_16 = serv->la_error_desc != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+  char *tmp_if_expr_14;
+  char *tmp_if_expr_15;
+  if(tmp_if_expr_16)
   {
     if(!(serv->la_error_code == ((char *)NULL)))
-      tmp_if_expr$14 = serv->la_error_code;
+      tmp_if_expr_14 = serv->la_error_code;
 
     else
-      tmp_if_expr$14 = "(null)";
+      tmp_if_expr_14 = "(null)";
     if(!(serv->la_error_desc == ((char *)NULL)))
-      tmp_if_expr$15 = serv->la_error_desc;
+      tmp_if_expr_15 = serv->la_error_desc;
 
     else
-      tmp_if_expr$15 = "(null)";
-    tpr(&p, "%s|    +- SOAP Error = %s (%s)\n", spacer, tmp_if_expr$14, tmp_if_expr$15);
+      tmp_if_expr_15 = "(null)";
+    tpr(&p, "%s|    +- SOAP Error = %s (%s)\n", spacer, tmp_if_expr_14, tmp_if_expr_15);
   }
 
-  char *tmp_if_expr$17;
+  char *tmp_if_expr_17;
   if(!(serv->sid == ((char *)NULL)))
-    tmp_if_expr$17 = serv->sid;
+    tmp_if_expr_17 = serv->sid;
 
   else
-    tmp_if_expr$17 = "(null)";
-  tpr(&p, "%s+- SID             = %s\n", spacer, tmp_if_expr$17);
+    tmp_if_expr_17 = "(null)";
+  tpr(&p, "%s+- SID             = %s\n", spacer, tmp_if_expr_17);
   return p;
 }
 
-// get_status_string$link1
+// get_status_string_link1
 // file content_dir.c line 514
-static char * get_status_string$link1(const struct _Service *serv$link1, void *result_context$link1, _Bool debug$link1, const char *spacer$link1)
+static char * get_status_string_link1(const struct _Service *serv_link1, void *result_context_link1, _Bool debug_link1, const char *spacer_link1)
 {
-  struct _ContentDir * const cds = (struct _ContentDir *)serv$link1;
-  char *p$link1;
-  const struct _Service_Class *return_value__Service_GetClass$1;
-  return_value__Service_GetClass$1=_Service_GetClass();
-  p$link1=return_value__Service_GetClass$1->get_status_string(serv$link1, result_context$link1, debug$link1, spacer$link1);
-  if(spacer$link1 == ((const char *)NULL))
-    spacer$link1 = "";
+  struct _ContentDir * const cds = (struct _ContentDir *)serv_link1;
+  char *p_link1;
+  const struct _Service_Class *return_value__Service_GetClass_1;
+  return_value__Service_GetClass_1=_Service_GetClass();
+  p_link1=return_value__Service_GetClass_1->get_status_string(serv_link1, result_context_link1, debug_link1, spacer_link1);
+  if(spacer_link1 == ((const char *)NULL))
+    spacer_link1 = "";
 
   void *tmp_ctx;
   tmp_ctx=talloc_named_const((void *)0, (unsigned long int)0, "talloc_new: content_dir.c:528");
-  tpr(&p$link1, "%s+- Browse Cache\n", spacer$link1);
-  char *return_value_talloc_asprintf$2;
-  return_value_talloc_asprintf$2=talloc_asprintf(tmp_ctx, "%s      ", spacer$link1);
-  char *return_value_Cache_GetStatusString$3;
-  return_value_Cache_GetStatusString$3=Cache_GetStatusString(cds->cache, tmp_ctx, return_value_talloc_asprintf$2);
-  tpr(&p$link1, "%s", return_value_Cache_GetStatusString$3);
+  tpr(&p_link1, "%s+- Browse Cache\n", spacer_link1);
+  char *return_value_talloc_asprintf_2;
+  return_value_talloc_asprintf_2=talloc_asprintf(tmp_ctx, "%s      ", spacer_link1);
+  char *return_value_Cache_GetStatusString_3;
+  return_value_Cache_GetStatusString_3=Cache_GetStatusString(cds->cache, tmp_ctx, return_value_talloc_asprintf_2);
+  tpr(&p_link1, "%s", return_value_Cache_GetStatusString_3);
   _talloc_free(tmp_ctx, "content_dir.c:536");
-  return p$link1;
+  return p_link1;
 }
 
 // hash_clear
@@ -10175,7 +10175,7 @@ void * hash_delete(struct hash_table *table, const void *entry)
   void *data;
   struct hash_entry *bucket;
   data=hash_find_entry(table, entry, &bucket, (_Bool)1);
-  float tmp_if_expr$1;
+  float tmp_if_expr_1;
   if(data == NULL)
     return (void *)0;
 
@@ -10193,11 +10193,11 @@ void * hash_delete(struct hash_table *table, const void *entry)
           const struct hash_tuning *tuning = table->tuning;
           unsigned long int candidate;
           if(!(tuning->is_n_buckets == (_Bool)0))
-            tmp_if_expr$1 = (float)table->n_buckets * tuning->shrink_factor;
+            tmp_if_expr_1 = (float)table->n_buckets * tuning->shrink_factor;
 
           else
-            tmp_if_expr$1 = (float)table->n_buckets * tuning->shrink_factor * tuning->growth_threshold;
-          candidate = (unsigned long int)tmp_if_expr$1;
+            tmp_if_expr_1 = (float)table->n_buckets * tuning->shrink_factor * tuning->growth_threshold;
+          candidate = (unsigned long int)tmp_if_expr_1;
           hash_rehash(table, candidate);
         }
 
@@ -10259,7 +10259,7 @@ static void * hash_find_entry(struct hash_table *table, const void *entry, struc
     return_value_1=table->comparator(entry, bucket->data);
     if(!(return_value_1 == (_Bool)0))
     {
-      void *hash_find_entry$$1$$1$$data = bucket->data;
+      void *hash_find_entry__1__1__data = bucket->data;
       if(!(delete == (_Bool)0))
       {
         if(!(bucket->next == ((struct hash_entry *)NULL)))
@@ -10273,7 +10273,7 @@ static void * hash_find_entry(struct hash_table *table, const void *entry, struc
           bucket->data = (void *)0;
       }
 
-      return hash_find_entry$$1$$1$$data;
+      return hash_find_entry__1__1__data;
     }
 
     cursor = bucket;
@@ -10286,9 +10286,9 @@ static void * hash_find_entry(struct hash_table *table, const void *entry, struc
         void *data = cursor->next->data;
         if(!(delete == (_Bool)0))
         {
-          struct hash_entry *hash_find_entry$$1$$2$$1$$1$$1$$next = cursor->next;
-          cursor->next = hash_find_entry$$1$$2$$1$$1$$1$$next->next;
-          free_entry(table, hash_find_entry$$1$$2$$1$$1$$1$$next);
+          struct hash_entry *hash_find_entry__1__2__1__1__1__next = cursor->next;
+          cursor->next = hash_find_entry__1__2__1__1__1__next->next;
+          free_entry(table, hash_find_entry__1__2__1__1__1__next);
         }
 
         return data;
@@ -10357,7 +10357,7 @@ unsigned long int hash_get_entries(const struct hash_table *table, void **buffer
   struct hash_entry *bucket;
   struct hash_entry *cursor;
   bucket = table->bucket;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   for( ; !(bucket >= table->bucket_limit); bucket = bucket + 1l)
     if(!(bucket->data == NULL))
     {
@@ -10367,9 +10367,9 @@ unsigned long int hash_get_entries(const struct hash_table *table, void **buffer
         if(counter >= buffer_size)
           return counter;
 
-        tmp_post$1 = counter;
+        tmp_post_1 = counter;
         counter = counter + 1ul;
-        buffer[(signed long int)tmp_post$1] = cursor->data;
+        buffer[(signed long int)tmp_post_1] = cursor->data;
       }
     }
 
@@ -10489,15 +10489,15 @@ void * hash_get_next(const struct hash_table *table, const void *entry)
 struct hash_table * hash_initialize(unsigned long int candidate, const struct hash_tuning *tuning, unsigned long int (*hasher)(const void *, unsigned long int), _Bool (*comparator)(const void *, const void *), void (*data_freer)(void *))
 {
   struct hash_table *table;
-  void *return_value_calloc$3;
+  void *return_value_calloc_3;
   if(comparator == ((_Bool (*)(const void *, const void *))NULL) || hasher == ((unsigned long int (*)(const void *, unsigned long int))NULL))
     return (struct hash_table *)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct hash_table) /*80ul*/ );
-    table = (struct hash_table *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct hash_table) /*80ul*/ );
+    table = (struct hash_table *)return_value_malloc_1;
     if(table == ((struct hash_table *)NULL))
       return (struct hash_table *)(void *)0;
 
@@ -10507,9 +10507,9 @@ struct hash_table * hash_initialize(unsigned long int candidate, const struct ha
         tuning = &default_tuning;
 
       table->tuning = tuning;
-      _Bool return_value_check_tuning$2;
-      return_value_check_tuning$2=check_tuning(table);
-      if(!(return_value_check_tuning$2 == (_Bool)0))
+      _Bool return_value_check_tuning_2;
+      return_value_check_tuning_2=check_tuning(table);
+      if(!(return_value_check_tuning_2 == (_Bool)0))
       {
         if(tuning->is_n_buckets == (_Bool)0)
         {
@@ -10527,8 +10527,8 @@ struct hash_table * hash_initialize(unsigned long int candidate, const struct ha
         if(table->n_buckets >= 1152921504606846976ul)
           goto fail;
 
-        return_value_calloc$3=calloc(table->n_buckets, sizeof(struct hash_entry) /*16ul*/ );
-        table->bucket = (struct hash_entry *)return_value_calloc$3;
+        return_value_calloc_3=calloc(table->n_buckets, sizeof(struct hash_entry) /*16ul*/ );
+        table->bucket = (struct hash_entry *)return_value_calloc_3;
         table->bucket_limit = table->bucket + (signed long int)table->n_buckets;
         table->n_buckets_used = (unsigned long int)0;
         table->n_entries = (unsigned long int)0;
@@ -10561,7 +10561,7 @@ void * hash_insert(struct hash_table *table, const void *entry)
     abort();
 
   data=hash_find_entry(table, entry, &bucket, (_Bool)0);
-  float tmp_if_expr$1;
+  float tmp_if_expr_1;
   if(!(data == NULL))
     return data;
 
@@ -10592,17 +10592,17 @@ void * hash_insert(struct hash_table *table, const void *entry)
         const struct hash_tuning *tuning = table->tuning;
         float candidate;
         if(!(tuning->is_n_buckets == (_Bool)0))
-          tmp_if_expr$1 = (float)table->n_buckets * tuning->growth_factor;
+          tmp_if_expr_1 = (float)table->n_buckets * tuning->growth_factor;
 
         else
-          tmp_if_expr$1 = (float)table->n_buckets * tuning->growth_factor * tuning->growth_threshold;
-        candidate = tmp_if_expr$1;
+          tmp_if_expr_1 = (float)table->n_buckets * tuning->growth_factor * tuning->growth_threshold;
+        candidate = tmp_if_expr_1;
         if(candidate >= 1.844674e+19f)
           return (void *)0;
 
-        _Bool return_value_hash_rehash$2;
-        return_value_hash_rehash$2=hash_rehash(table, (unsigned long int)candidate);
-        if(return_value_hash_rehash$2 == (_Bool)0)
+        _Bool return_value_hash_rehash_2;
+        return_value_hash_rehash_2=hash_rehash(table, (unsigned long int)candidate);
+        if(return_value_hash_rehash_2 == (_Bool)0)
           entry = (void *)0;
 
       }
@@ -10816,37 +10816,37 @@ static void init_class(struct _Service_Class * const isa)
   isa->get_status_string = get_status_string;
 }
 
-// init_class$link1
+// init_class_link1
 // file content_dir.c line 570
-static void init_class$link1(struct _ContentDir_Class * const isa$link1)
+static void init_class_link1(struct _ContentDir_Class * const isa_link1)
 {
-  (&isa$link1->_.base)->finalize = finalize$link1;
-  (&isa$link1->_.super)->get_status_string = get_status_string$link1;
+  (&isa_link1->_.base)->finalize = finalize_link1;
+  (&isa_link1->_.super)->get_status_string = get_status_string_link1;
   UpnpSetMaxContentLength((unsigned long int)(1024 * 1024));
 }
 
-// init_class$link2
+// init_class_link2
 // file vfs.c line 348
-static void init_class$link2(struct _VFS_Class * const isa$link2)
+static void init_class_link2(struct _VFS_Class * const isa_link2)
 {
-  isa$link2->browse_root = (struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))(void *)0;
-  isa$link2->browse_debug = BrowseDebug;
+  isa_link2->browse_root = (struct _VFS_BrowseStatus (*)(struct _VFS *, const char *, const struct _VFS_Query *, void *))(void *)0;
+  isa_link2->browse_debug = BrowseDebug;
 }
 
-// init_class$link3
+// init_class_link3
 // file djfs.c line 540
-static void init_class$link3(struct _DJFS_Class * const isa$link3)
+static void init_class_link3(struct _DJFS_Class * const isa_link3)
 {
-  (&isa$link3->_.base)->finalize = finalize$link2;
-  (&isa$link3->_.super)->browse_root = BrowseRoot;
-  (&isa$link3->_.super)->browse_debug = BrowseDebug$link1;
+  (&isa_link3->_.base)->finalize = finalize_link2;
+  (&isa_link3->_.super)->browse_root = BrowseRoot;
+  (&isa_link3->_.super)->browse_debug = BrowseDebug_link1;
 }
 
 // int_to_string
 // file content_dir.c line 109
 static const char * int_to_string(void *result_context, signed long int val)
 {
-  char *return_value_talloc_asprintf$1;
+  char *return_value_talloc_asprintf_1;
   switch(val)
   {
     case (signed long int)0:
@@ -10855,8 +10855,8 @@ static const char * int_to_string(void *result_context, signed long int val)
       return "1";
     default:
     {
-      return_value_talloc_asprintf$1=talloc_asprintf(result_context, "%ld", val);
-      return return_value_talloc_asprintf$1;
+      return_value_talloc_asprintf_1=talloc_asprintf(result_context, "%ld", val);
+      return return_value_talloc_asprintf_1;
     }
   }
 }
@@ -10911,7 +10911,7 @@ signed int main(signed int argc, char **argv)
   }
 
   rc=pthread_create(&cmdloop_thread, (const union pthread_attr_t *)(void *)0, CommandLoop, (void *)0);
-  struct anonymous$10 sigs_to_catch;
+  struct anonymous_10 sigs_to_catch;
   sigemptyset(&sigs_to_catch);
   sigaddset(&sigs_to_catch, 2);
   sigwait(&sigs_to_catch, &sig);
@@ -10926,24 +10926,24 @@ signed int main(signed int argc, char **argv)
 // file device_list.c line 189
 static char * make_device_name(void *talloc_context, const char *base)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(base == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*base == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*base == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     base = "unnamed";
 
   char *name;
   name=String_CleanFileName(talloc_context, base);
   char *res = name;
   signed int i = 1;
-  struct _DeviceNode *return_value_GetDeviceNodeFromName$2;
+  struct _DeviceNode *return_value_GetDeviceNodeFromName_2;
   do
   {
-    return_value_GetDeviceNodeFromName$2=GetDeviceNodeFromName(res, (_Bool)0);
-    if(return_value_GetDeviceNodeFromName$2 == ((struct _DeviceNode *)NULL))
+    return_value_GetDeviceNodeFromName_2=GetDeviceNodeFromName(res, (_Bool)0);
+    if(return_value_GetDeviceNodeFromName_2 == ((struct _DeviceNode *)NULL))
       break;
 
     if(!(res == name))
@@ -10967,11 +10967,11 @@ static unsigned long int next_prime(unsigned long int candidate)
     candidate = (unsigned long int)10;
 
   candidate = candidate | (unsigned long int)1;
-  _Bool return_value_is_prime$1;
+  _Bool return_value_is_prime_1;
   do
   {
-    return_value_is_prime$1=is_prime(candidate);
-    if(return_value_is_prime$1 != (_Bool)0)
+    return_value_is_prime_1=is_prime(candidate);
+    if(return_value_is_prime_1 != (_Bool)0)
       break;
 
     candidate = candidate + (unsigned long int)2;
@@ -10998,47 +10998,47 @@ static void print_commands()
 // file test_upnp.c line 200
 static signed int process_command(const char *cmdline)
 {
-  signed int process_command$$1$$rc = 0;
+  signed int process_command__1__rc = 0;
   void *tmp_ctx;
   tmp_ctx=talloc_named_const((void *)0, (unsigned long int)0, "talloc_new: test_upnp.c:207");
   cmdline=Charset_ConvertString((enum _Charset_Direction)CHARSET_TO_UTF8, cmdline, (char *)(void *)0, (unsigned long int)0, tmp_ctx);
   char *strarg[100l] = { (char *)(void *)0, ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL) };
-  signed long int strarg$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cmdline);
-  strarg$array_size0 = (signed long int)(return_value_strlen$1 + (unsigned long int)1);
-  char buffer[strarg$array_size0];
+  signed long int strarg_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cmdline);
+  strarg_array_size0 = (signed long int)(return_value_strlen_1 + (unsigned long int)1);
+  char buffer[strarg_array_size0];
   strcpy(buffer, cmdline);
   signed int validargs = 0;
   signed int invalidargs = 0;
   const char *cmd = (const char *)(void *)0;
   signed int cmdnum = -1;
   char *p = buffer;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$9;
-  char *tmp_post$3;
-  signed int tmp_post$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  char *tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_9;
+  char *tmp_post_3;
+  signed int tmp_post_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  char *tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
   while(!(*p == 0))
   {
     do
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
         break;
 
       p = p + 1l;
     }
     while((_Bool)1);
     if((signed int)*p == 34)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (signed int)*p == 39 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (signed int)*p == 39 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
       const char delim = *p;
       char *begin;
@@ -11050,12 +11050,12 @@ static signed int process_command(const char *cmdline)
 
       if(!(*p == 0))
       {
-        tmp_post$3 = p;
+        tmp_post_3 = p;
         p = p + 1l;
-        *tmp_post$3 = (char)0;
-        tmp_post$4 = validargs;
+        *tmp_post_3 = (char)0;
+        tmp_post_4 = validargs;
         validargs = validargs + 1;
-        strarg[(signed long int)tmp_post$4] = begin;
+        strarg[(signed long int)tmp_post_4] = begin;
       }
 
       else
@@ -11067,47 +11067,47 @@ static signed int process_command(const char *cmdline)
 
     else
     {
-      char * const process_command$$1$$1$$2$$begin = p;
+      char * const process_command__1__1__2__begin = p;
       for( ; !(*p == 0); p = p + 1l)
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*p]) == 0))
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*p]) == 0))
           break;
 
       }
       if(!(*p == 0))
       {
-        tmp_post$6 = p;
+        tmp_post_6 = p;
         p = p + 1l;
-        *tmp_post$6 = (char)0;
-        tmp_post$7 = validargs;
+        *tmp_post_6 = (char)0;
+        tmp_post_7 = validargs;
         validargs = validargs + 1;
-        strarg[(signed long int)tmp_post$7] = process_command$$1$$1$$2$$begin;
+        strarg[(signed long int)tmp_post_7] = process_command__1__1__2__begin;
       }
 
       else
-        if(!(p == process_command$$1$$1$$2$$begin))
+        if(!(p == process_command__1__1__2__begin))
         {
-          tmp_post$8 = validargs;
+          tmp_post_8 = validargs;
           validargs = validargs + 1;
-          strarg[(signed long int)tmp_post$8] = process_command$$1$$1$$2$$begin;
+          strarg[(signed long int)tmp_post_8] = process_command__1__1__2__begin;
         }
 
     }
   }
   cmd = strarg[(signed long int)0];
   signed int i;
-  _Bool return_value_PtrArray_IteratorLoop$14;
-  char *tmp_if_expr$16;
-  char *tmp_if_expr$17;
-  const struct _ContentDir_BrowseResult *process_command$$1$$4$$3$$res;
+  _Bool return_value_PtrArray_IteratorLoop_14;
+  char *tmp_if_expr_16;
+  char *tmp_if_expr_17;
+  const struct _ContentDir_BrowseResult *process_command__1__4__3__res;
   struct _VFS *vfs;
-  struct _DJFS *return_value_DJFS_Create$22;
+  struct _DJFS *return_value_DJFS_Create_22;
   const char *s;
-  const struct _ContentDir_BrowseResult *process_command$$1$$4$$6$$res;
-  _Bool return_value_PtrArray_IteratorLoop$28;
-  char *tmp_if_expr$30;
-  char *process_command$$1$$4$$8$$s;
+  const struct _ContentDir_BrowseResult *process_command__1__4__6__res;
+  _Bool return_value_PtrArray_IteratorLoop_28;
+  char *tmp_if_expr_30;
+  char *process_command__1__4__8__s;
   if(cmd == ((const char *)NULL))
     invalidargs = invalidargs + 1;
 
@@ -11116,9 +11116,9 @@ static signed int process_command(const char *cmdline)
     i = 0;
     for( ; !(i >= CMDNUM); i = i + 1)
     {
-      signed int return_value_strcasecmp$10;
-      return_value_strcasecmp$10=strcasecmp(cmd, CMDLIST[(signed long int)i].str);
-      if(return_value_strcasecmp$10 == 0)
+      signed int return_value_strcasecmp_10;
+      return_value_strcasecmp_10=strcasecmp(cmd, CMDLIST[(signed long int)i].str);
+      if(return_value_strcasecmp_10 == 0)
       {
         cmdnum = (signed int)CMDLIST[(signed long int)i].cmdnum;
         if(!(validargs == CMDLIST[(signed long int)i].numargs))
@@ -11140,9 +11140,9 @@ static signed int process_command(const char *cmdline)
       case CMD_LOGLEVEL:
       {
         signed int level;
-        signed int return_value_sscanf$11;
-        return_value_sscanf$11=sscanf(strarg[(signed long int)1], "%d", &level);
-        if(return_value_sscanf$11 == 1)
+        signed int return_value_sscanf_11;
+        return_value_sscanf_11=sscanf(strarg[(signed long int)1], "%d", &level);
+        if(return_value_sscanf_11 == 1)
           Log_SetMaxLevel((enum Log_Level)level);
 
         else
@@ -11166,11 +11166,11 @@ static signed int process_command(const char *cmdline)
         {
           struct _Service *__serv;
           __serv=_DeviceList_LockService(strarg[(signed long int)1], "urn:schemas-upnp-org:service:ContentDirectory:1");
-          const struct _Object_Class *return_value__ContentDir_GetBaseClass$12;
-          return_value__ContentDir_GetBaseClass$12=_ContentDir_GetBaseClass();
-          _Bool return_value__Object_IsA$13;
-          return_value__Object_IsA$13=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass$12);
-          res=ContentDir_Browse(return_value__Object_IsA$13 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, strarg[(signed long int)2], (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_DIRECT_CHILDREN);
+          const struct _Object_Class *return_value__ContentDir_GetBaseClass_12;
+          return_value__ContentDir_GetBaseClass_12=_ContentDir_GetBaseClass();
+          _Bool return_value__Object_IsA_13;
+          return_value__Object_IsA_13=_Object_IsA((const void *)__serv, return_value__ContentDir_GetBaseClass_12);
+          res=ContentDir_Browse(return_value__Object_IsA_13 != (_Bool)0 ? (struct _ContentDir *)__serv : (struct _ContentDir *)(void *)0, tmp_ctx, strarg[(signed long int)2], (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_DIRECT_CHILDREN);
           _DeviceList_UnlockService(__serv);
         }
         while((_Bool)0);
@@ -11181,27 +11181,27 @@ static signed int process_command(const char *cmdline)
             if(!(res->children->objects == ((struct _PtrArray *)NULL)))
             {
               struct _PtrArray_Iterator __itero;
-              __itero=PtrArray_IteratorStart$link1(res->children->objects);
+              __itero=PtrArray_IteratorStart_link1(res->children->objects);
               do
               {
-                return_value_PtrArray_IteratorLoop$14=PtrArray_IteratorLoop$link1(&__itero);
-                if(return_value_PtrArray_IteratorLoop$14 == (_Bool)0)
+                return_value_PtrArray_IteratorLoop_14=PtrArray_IteratorLoop_link1(&__itero);
+                if(return_value_PtrArray_IteratorLoop_14 == (_Bool)0)
                   break;
 
-                void *return_value_PtrArray_IteratorGetElement$15;
-                return_value_PtrArray_IteratorGetElement$15=PtrArray_IteratorGetElement$link1(&__itero);
-                o = (const struct _DIDLObject *)return_value_PtrArray_IteratorGetElement$15;
+                void *return_value_PtrArray_IteratorGetElement_15;
+                return_value_PtrArray_IteratorGetElement_15=PtrArray_IteratorGetElement_link1(&__itero);
+                o = (const struct _DIDLObject *)return_value_PtrArray_IteratorGetElement_15;
                 if(!(o->id == ((char *)NULL)))
-                  tmp_if_expr$16 = o->id;
+                  tmp_if_expr_16 = o->id;
 
                 else
-                  tmp_if_expr$16 = "(null)";
+                  tmp_if_expr_16 = "(null)";
                 if(!(o->basename == ((char *)NULL)))
-                  tmp_if_expr$17 = o->basename;
+                  tmp_if_expr_17 = o->basename;
 
                 else
-                  tmp_if_expr$17 = "(null)";
-                Log_Printf((enum Log_Level)LOG_RESERVED, "%6s \"%s\"", tmp_if_expr$16, tmp_if_expr$17);
+                  tmp_if_expr_17 = "(null)";
+                Log_Printf((enum Log_Level)LOG_RESERVED, "%6s \"%s\"", tmp_if_expr_16, tmp_if_expr_17);
               }
               while((_Bool)1);
             }
@@ -11213,32 +11213,32 @@ static signed int process_command(const char *cmdline)
       }
       case CMD_METADATA:
       {
-        process_command$$1$$4$$3$$res = (const struct _ContentDir_BrowseResult *)(void *)0;
+        process_command__1__4__3__res = (const struct _ContentDir_BrowseResult *)(void *)0;
         do
         {
-          struct _Service *process_command$$1$$4$$3$$1$$__serv;
-          process_command$$1$$4$$3$$1$$__serv=_DeviceList_LockService(strarg[(signed long int)1], "urn:schemas-upnp-org:service:ContentDirectory:1");
-          const struct _Object_Class *return_value__ContentDir_GetBaseClass$18;
-          return_value__ContentDir_GetBaseClass$18=_ContentDir_GetBaseClass();
-          _Bool return_value__Object_IsA$19;
-          return_value__Object_IsA$19=_Object_IsA((const void *)process_command$$1$$4$$3$$1$$__serv, return_value__ContentDir_GetBaseClass$18);
-          process_command$$1$$4$$3$$res=ContentDir_Browse(return_value__Object_IsA$19 != (_Bool)0 ? (struct _ContentDir *)process_command$$1$$4$$3$$1$$__serv : (struct _ContentDir *)(void *)0, tmp_ctx, strarg[(signed long int)2], (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_METADATA);
-          _DeviceList_UnlockService(process_command$$1$$4$$3$$1$$__serv);
+          struct _Service *process_command__1__4__3__1____serv;
+          process_command__1__4__3__1____serv=_DeviceList_LockService(strarg[(signed long int)1], "urn:schemas-upnp-org:service:ContentDirectory:1");
+          const struct _Object_Class *return_value__ContentDir_GetBaseClass_18;
+          return_value__ContentDir_GetBaseClass_18=_ContentDir_GetBaseClass();
+          _Bool return_value__Object_IsA_19;
+          return_value__Object_IsA_19=_Object_IsA((const void *)process_command__1__4__3__1____serv, return_value__ContentDir_GetBaseClass_18);
+          process_command__1__4__3__res=ContentDir_Browse(return_value__Object_IsA_19 != (_Bool)0 ? (struct _ContentDir *)process_command__1__4__3__1____serv : (struct _ContentDir *)(void *)0, tmp_ctx, strarg[(signed long int)2], (enum _ContentDir_BrowseFlag)CONTENT_DIR_BROWSE_METADATA);
+          _DeviceList_UnlockService(process_command__1__4__3__1____serv);
         }
         while((_Bool)0);
-        if(!(process_command$$1$$4$$3$$res == ((const struct _ContentDir_BrowseResult *)NULL)))
+        if(!(process_command__1__4__3__res == ((const struct _ContentDir_BrowseResult *)NULL)))
         {
-          if(!(process_command$$1$$4$$3$$res->children == ((struct _ContentDir_Children *)NULL)))
+          if(!(process_command__1__4__3__res->children == ((struct _ContentDir_Children *)NULL)))
           {
-            const struct _DIDLObject *process_command$$1$$4$$3$$2$$o;
-            void *return_value_PtrArray_GetHead$20;
-            return_value_PtrArray_GetHead$20=PtrArray_GetHead$link1(process_command$$1$$4$$3$$res->children->objects);
-            process_command$$1$$4$$3$$2$$o = (const struct _DIDLObject *)return_value_PtrArray_GetHead$20;
-            if(!(process_command$$1$$4$$3$$2$$o == ((const struct _DIDLObject *)NULL)))
+            const struct _DIDLObject *process_command__1__4__3__2__o;
+            void *return_value_PtrArray_GetHead_20;
+            return_value_PtrArray_GetHead_20=PtrArray_GetHead_link1(process_command__1__4__3__res->children->objects);
+            process_command__1__4__3__2__o = (const struct _DIDLObject *)return_value_PtrArray_GetHead_20;
+            if(!(process_command__1__4__3__2__o == ((const struct _DIDLObject *)NULL)))
             {
-              char *return_value_DIDLObject_GetElementString$21;
-              return_value_DIDLObject_GetElementString$21=DIDLObject_GetElementString(process_command$$1$$4$$3$$2$$o, tmp_ctx);
-              Log_Printf((enum Log_Level)LOG_RESERVED, "metadata = %s", return_value_DIDLObject_GetElementString$21);
+              char *return_value_DIDLObject_GetElementString_21;
+              return_value_DIDLObject_GetElementString_21=DIDLObject_GetElementString(process_command__1__4__3__2__o, tmp_ctx);
+              Log_Printf((enum Log_Level)LOG_RESERVED, "metadata = %s", return_value_DIDLObject_GetElementString_21);
             }
 
           }
@@ -11250,8 +11250,8 @@ static signed int process_command(const char *cmdline)
       case CMD_LS:
       {
         Log_Printf((enum Log_Level)LOG_RESERVED, "ls '%s' :", strarg[(signed long int)1]);
-        return_value_DJFS_Create$22=DJFS_Create(tmp_ctx, (enum _DJFS_Flags)077, (unsigned long int)100);
-        vfs=DJFS_ToVFS(return_value_DJFS_Create$22);
+        return_value_DJFS_Create_22=DJFS_Create(tmp_ctx, (enum _DJFS_Flags)077, (unsigned long int)100);
+        vfs=DJFS_ToVFS(return_value_DJFS_Create_22);
         if(vfs == ((struct _VFS *)NULL))
           Log_Printf((enum Log_Level)LOG_RESERVED, "** Failed to create virtual file system");
 
@@ -11265,9 +11265,9 @@ static signed int process_command(const char *cmdline)
           rc=VFS_Browse(vfs, &q);
           if(!(rc == 0))
           {
-            char *return_value_strerror$23;
-            return_value_strerror$23=strerror(-rc);
-            Log_Printf((enum Log_Level)LOG_RESERVED, "** error %d (%s)", rc, return_value_strerror$23);
+            char *return_value_strerror_23;
+            return_value_strerror_23=strerror(-rc);
+            Log_Printf((enum Log_Level)LOG_RESERVED, "** error %d (%s)", rc, return_value_strerror_23);
           }
 
         }
@@ -11277,14 +11277,14 @@ static signed int process_command(const char *cmdline)
       {
         do
         {
-          struct _Service *process_command$$1$$4$$5$$1$$__serv;
-          process_command$$1$$4$$5$$1$$__serv=_DeviceList_LockService(strarg[(signed long int)1], "urn:schemas-upnp-org:service:ContentDirectory:1");
-          const struct _Object_Class *return_value__ContentDir_GetBaseClass$24;
-          return_value__ContentDir_GetBaseClass$24=_ContentDir_GetBaseClass();
-          _Bool return_value__Object_IsA$25;
-          return_value__Object_IsA$25=_Object_IsA((const void *)process_command$$1$$4$$5$$1$$__serv, return_value__ContentDir_GetBaseClass$24);
-          s=ContentDir_GetSearchCapabilities(return_value__Object_IsA$25 != (_Bool)0 ? (struct _ContentDir *)process_command$$1$$4$$5$$1$$__serv : (struct _ContentDir *)(void *)0, (void *)0);
-          _DeviceList_UnlockService(process_command$$1$$4$$5$$1$$__serv);
+          struct _Service *process_command__1__4__5__1____serv;
+          process_command__1__4__5__1____serv=_DeviceList_LockService(strarg[(signed long int)1], "urn:schemas-upnp-org:service:ContentDirectory:1");
+          const struct _Object_Class *return_value__ContentDir_GetBaseClass_24;
+          return_value__ContentDir_GetBaseClass_24=_ContentDir_GetBaseClass();
+          _Bool return_value__Object_IsA_25;
+          return_value__Object_IsA_25=_Object_IsA((const void *)process_command__1__4__5__1____serv, return_value__ContentDir_GetBaseClass_24);
+          s=ContentDir_GetSearchCapabilities(return_value__Object_IsA_25 != (_Bool)0 ? (struct _ContentDir *)process_command__1__4__5__1____serv : (struct _ContentDir *)(void *)0, (void *)0);
+          _DeviceList_UnlockService(process_command__1__4__5__1____serv);
         }
         while((_Bool)0);
         Log_Printf((enum Log_Level)LOG_RESERVED, "SearchCapabilities='%s'", s != ((const char *)NULL) ? s : "(null)");
@@ -11292,42 +11292,42 @@ static signed int process_command(const char *cmdline)
       }
       case CMD_SEARCH:
       {
-        process_command$$1$$4$$6$$res = (const struct _ContentDir_BrowseResult *)(void *)0;
+        process_command__1__4__6__res = (const struct _ContentDir_BrowseResult *)(void *)0;
         do
         {
-          struct _Service *process_command$$1$$4$$6$$1$$__serv;
-          process_command$$1$$4$$6$$1$$__serv=_DeviceList_LockService(strarg[(signed long int)1], "urn:schemas-upnp-org:service:ContentDirectory:1");
-          const struct _Object_Class *return_value__ContentDir_GetBaseClass$26;
-          return_value__ContentDir_GetBaseClass$26=_ContentDir_GetBaseClass();
-          _Bool return_value__Object_IsA$27;
-          return_value__Object_IsA$27=_Object_IsA((const void *)process_command$$1$$4$$6$$1$$__serv, return_value__ContentDir_GetBaseClass$26);
-          process_command$$1$$4$$6$$res=ContentDir_Search(return_value__Object_IsA$27 != (_Bool)0 ? (struct _ContentDir *)process_command$$1$$4$$6$$1$$__serv : (struct _ContentDir *)(void *)0, tmp_ctx, strarg[(signed long int)2], strarg[(signed long int)3]);
-          _DeviceList_UnlockService(process_command$$1$$4$$6$$1$$__serv);
+          struct _Service *process_command__1__4__6__1____serv;
+          process_command__1__4__6__1____serv=_DeviceList_LockService(strarg[(signed long int)1], "urn:schemas-upnp-org:service:ContentDirectory:1");
+          const struct _Object_Class *return_value__ContentDir_GetBaseClass_26;
+          return_value__ContentDir_GetBaseClass_26=_ContentDir_GetBaseClass();
+          _Bool return_value__Object_IsA_27;
+          return_value__Object_IsA_27=_Object_IsA((const void *)process_command__1__4__6__1____serv, return_value__ContentDir_GetBaseClass_26);
+          process_command__1__4__6__res=ContentDir_Search(return_value__Object_IsA_27 != (_Bool)0 ? (struct _ContentDir *)process_command__1__4__6__1____serv : (struct _ContentDir *)(void *)0, tmp_ctx, strarg[(signed long int)2], strarg[(signed long int)3]);
+          _DeviceList_UnlockService(process_command__1__4__6__1____serv);
         }
         while((_Bool)0);
-        if(!(process_command$$1$$4$$6$$res == ((const struct _ContentDir_BrowseResult *)NULL)))
+        if(!(process_command__1__4__6__res == ((const struct _ContentDir_BrowseResult *)NULL)))
         {
-          const struct _DIDLObject *process_command$$1$$4$$6$$2$$o = (const struct _DIDLObject *)(void *)0;
+          const struct _DIDLObject *process_command__1__4__6__2__o = (const struct _DIDLObject *)(void *)0;
           do
-            if(!(process_command$$1$$4$$6$$res->children->objects == ((struct _PtrArray *)NULL)))
+            if(!(process_command__1__4__6__res->children->objects == ((struct _PtrArray *)NULL)))
             {
-              struct _PtrArray_Iterator process_command$$1$$4$$6$$2$$1$$1$$__itero;
-              process_command$$1$$4$$6$$2$$1$$1$$__itero=PtrArray_IteratorStart$link1(process_command$$1$$4$$6$$res->children->objects);
+              struct _PtrArray_Iterator process_command__1__4__6__2__1__1____itero;
+              process_command__1__4__6__2__1__1____itero=PtrArray_IteratorStart_link1(process_command__1__4__6__res->children->objects);
               do
               {
-                return_value_PtrArray_IteratorLoop$28=PtrArray_IteratorLoop$link1(&process_command$$1$$4$$6$$2$$1$$1$$__itero);
-                if(return_value_PtrArray_IteratorLoop$28 == (_Bool)0)
+                return_value_PtrArray_IteratorLoop_28=PtrArray_IteratorLoop_link1(&process_command__1__4__6__2__1__1____itero);
+                if(return_value_PtrArray_IteratorLoop_28 == (_Bool)0)
                   break;
 
-                void *return_value_PtrArray_IteratorGetElement$29;
-                return_value_PtrArray_IteratorGetElement$29=PtrArray_IteratorGetElement$link1(&process_command$$1$$4$$6$$2$$1$$1$$__itero);
-                process_command$$1$$4$$6$$2$$o = (const struct _DIDLObject *)return_value_PtrArray_IteratorGetElement$29;
-                if(!(process_command$$1$$4$$6$$2$$o->basename == ((char *)NULL)))
-                  tmp_if_expr$30 = process_command$$1$$4$$6$$2$$o->basename;
+                void *return_value_PtrArray_IteratorGetElement_29;
+                return_value_PtrArray_IteratorGetElement_29=PtrArray_IteratorGetElement_link1(&process_command__1__4__6__2__1__1____itero);
+                process_command__1__4__6__2__o = (const struct _DIDLObject *)return_value_PtrArray_IteratorGetElement_29;
+                if(!(process_command__1__4__6__2__o->basename == ((char *)NULL)))
+                  tmp_if_expr_30 = process_command__1__4__6__2__o->basename;
 
                 else
-                  tmp_if_expr$30 = "(null)";
-                Log_Printf((enum Log_Level)LOG_RESERVED, "  %s", tmp_if_expr$30);
+                  tmp_if_expr_30 = "(null)";
+                Log_Printf((enum Log_Level)LOG_RESERVED, "  %s", tmp_if_expr_30);
               }
               while((_Bool)1);
             }
@@ -11339,33 +11339,33 @@ static signed int process_command(const char *cmdline)
       }
       case CMD_ACTION:
       {
-        process_command$$1$$rc=DeviceList_SendActionAsync(strarg[(signed long int)1], strarg[(signed long int)2], strarg[(signed long int)3], 0, (const struct _StringPair *)(void *)0);
+        process_command__1__rc=DeviceList_SendActionAsync(strarg[(signed long int)1], strarg[(signed long int)2], strarg[(signed long int)3], 0, (const struct _StringPair *)(void *)0);
         break;
       }
       case CMD_PRINTDEV:
       {
-        process_command$$1$$4$$8$$s=DeviceList_GetDeviceStatusString(tmp_ctx, strarg[(signed long int)1], (_Bool)1);
-        Log_Print((enum Log_Level)LOG_RESERVED, process_command$$1$$4$$8$$s);
+        process_command__1__4__8__s=DeviceList_GetDeviceStatusString(tmp_ctx, strarg[(signed long int)1], (_Bool)1);
+        Log_Print((enum Log_Level)LOG_RESERVED, process_command__1__4__8__s);
         break;
       }
       case CMD_LISTDEV:
       {
-        char *process_command$$1$$4$$9$$s;
-        process_command$$1$$4$$9$$s=DeviceList_GetStatusString(tmp_ctx);
-        Log_Printf((enum Log_Level)LOG_RESERVED, "DeviceList:\n%s", process_command$$1$$4$$9$$s != ((char *)NULL) ? process_command$$1$$4$$9$$s : "(null)");
+        char *process_command__1__4__9__s;
+        process_command__1__4__9__s=DeviceList_GetStatusString(tmp_ctx);
+        Log_Printf((enum Log_Level)LOG_RESERVED, "DeviceList:\n%s", process_command__1__4__9__s != ((char *)NULL) ? process_command__1__4__9__s : "(null)");
         break;
       }
       case CMD_REFRESH:
       {
-        process_command$$1$$rc=DeviceList_RefreshAll((_Bool)1);
+        process_command__1__rc=DeviceList_RefreshAll((_Bool)1);
         break;
       }
       case CMD_WCAT:
       {
         char *outbuf = (char *)(void *)0;
         char contentType[180l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-        process_command$$1$$rc=UpnpDownloadUrlItem(strarg[(signed long int)1], &outbuf, contentType);
-        if(process_command$$1$$rc == 0)
+        process_command__1__rc=UpnpDownloadUrlItem(strarg[(signed long int)1], &outbuf, contentType);
+        if(process_command__1__rc == 0)
         {
           Log_Printf((enum Log_Level)LOG_RESERVED, "URL '%s' MIME='%s' :", strarg[(signed long int)1], (const void *)contentType);
           Log_Printf((enum Log_Level)LOG_RESERVED, "%s", outbuf != ((char *)NULL) ? outbuf : "(null)");
@@ -11376,8 +11376,8 @@ static signed int process_command(const char *cmdline)
       }
       case CMD_EXIT:
       {
-        process_command$$1$$rc=DeviceList_Stop();
-        exit(process_command$$1$$rc);
+        process_command__1__rc=DeviceList_Stop();
+        exit(process_command__1__rc);
         break;
       }
       default:
@@ -11390,34 +11390,34 @@ cleanup:
   if(cmd == ((const char *)NULL))
   {
     Log_Printf((enum Log_Level)LOG_ERROR, "Can't parse command; try 'help'");
-    process_command$$1$$rc = -101;
+    process_command__1__rc = -101;
   }
 
   else
     if(!(cmdnum >= 0))
     {
       Log_Printf((enum Log_Level)LOG_ERROR, "Command not found: '%s' ; try 'help'", cmd);
-      process_command$$1$$rc = -101;
+      process_command__1__rc = -101;
     }
 
     else
       if(!(invalidargs == 0))
       {
         Log_Printf((enum Log_Level)LOG_ERROR, "Invalid args in command; see 'help'");
-        process_command$$1$$rc = -101;
+        process_command__1__rc = -101;
       }
 
       else
-        if(!(process_command$$1$$rc == 0))
+        if(!(process_command__1__rc == 0))
         {
-          const char *return_value_UpnpGetErrorMessage$31;
-          return_value_UpnpGetErrorMessage$31=UpnpGetErrorMessage(process_command$$1$$rc);
-          Log_Printf((enum Log_Level)LOG_ERROR, "Error executing '%s' : %d (%s)", cmd, process_command$$1$$rc, return_value_UpnpGetErrorMessage$31);
+          const char *return_value_UpnpGetErrorMessage_31;
+          return_value_UpnpGetErrorMessage_31=UpnpGetErrorMessage(process_command__1__rc);
+          Log_Printf((enum Log_Level)LOG_ERROR, "Error executing '%s' : %d (%s)", cmd, process_command__1__rc, return_value_UpnpGetErrorMessage_31);
         }
 
   _talloc_free(tmp_ctx, "test_upnp.c:443");
   tmp_ctx = (void *)0;
-  return process_command$$1$$rc;
+  return process_command__1__rc;
 }
 
 // stdout_print
@@ -11495,22 +11495,22 @@ static inline signed int vfs_dir_add_entry(const char * const name, const signed
   return rc;
 }
 
-// vfs_dir_add_entry$link1
+// vfs_dir_add_entry_link1
 // file vfs_p.h line 107
-static inline signed int vfs_dir_add_entry$link1(const char * const name$link1, const signed int d_type$link1, const struct _VFS_Query * const q$link1)
+static inline signed int vfs_dir_add_entry_link1(const char * const name_link1, const signed int d_type_link1, const struct _VFS_Query * const q_link1)
 {
-  signed int rc$link1 = 0;
-  if(!(q$link1->stbuf == ((struct stat *)NULL)))
+  signed int rc_link1 = 0;
+  if(!(q_link1->stbuf == ((struct stat *)NULL)))
   {
-    if(d_type$link1 == 4)
-      q$link1->stbuf->st_nlink = q$link1->stbuf->st_nlink + 1ul;
+    if(d_type_link1 == 4)
+      q_link1->stbuf->st_nlink = q_link1->stbuf->st_nlink + 1ul;
 
   }
 
-  if(!(q$link1->filler == ((signed int (*)(struct fuse_dirhandle *, const char *, signed int, unsigned long int))NULL)))
-    rc$link1=q$link1->filler((struct fuse_dirhandle *)q$link1->h, name$link1, d_type$link1, (unsigned long int)0);
+  if(!(q_link1->filler == ((signed int (*)(struct fuse_dirhandle *, const char *, signed int, unsigned long int))NULL)))
+    rc_link1=q_link1->filler((struct fuse_dirhandle *)q_link1->h, name_link1, d_type_link1, (unsigned long int)0);
 
-  return rc$link1;
+  return rc_link1;
 }
 
 // vfs_dir_begin
@@ -11597,19 +11597,19 @@ extern void vfs_file_set_string(const char * const str, enum _FileBuffer_StringA
 
   }
 
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(q->stbuf == ((struct stat *)NULL)))
   {
     if(!(str == ((const char *)NULL)))
     {
-      return_value_strlen$1=strlen(str);
-      tmp_if_expr$2 = return_value_strlen$1;
+      return_value_strlen_1=strlen(str);
+      tmp_if_expr_2 = return_value_strlen_1;
     }
 
     else
-      tmp_if_expr$2 = (unsigned long int)0;
-    q->stbuf->st_size = (signed long int)tmp_if_expr$2;
+      tmp_if_expr_2 = (unsigned long int)0;
+    q->stbuf->st_size = (signed long int)tmp_if_expr_2;
   }
 
 }
@@ -11644,17 +11644,17 @@ const char * vfs_match_start_of_path(const char *path, const char *name)
 {
   unsigned long int len;
   len=strlen(name);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(path, name, len);
-  _Bool tmp_if_expr$1;
-  if(return_value_strncmp$2 == 0)
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(path, name, len);
+  _Bool tmp_if_expr_1;
+  if(return_value_strncmp_2 == 0)
   {
     if((signed int)path[(signed long int)len] == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)path[(signed long int)len] == 47 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)path[(signed long int)len] == 47 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       goto __CPROVER_DUMP_L5;
 
     path = path + (signed long int)len;
@@ -11704,19 +11704,19 @@ extern void vfs_symlink_set_path(const char * const p, const struct _VFS_Query *
 
   }
 
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(q->stbuf == ((struct stat *)NULL)))
   {
     if(!(p == ((const char *)NULL)))
     {
-      return_value_strlen$1=strlen(p);
-      tmp_if_expr$2 = return_value_strlen$1;
+      return_value_strlen_1=strlen(p);
+      tmp_if_expr_2 = return_value_strlen_1;
     }
 
     else
-      tmp_if_expr$2 = (unsigned long int)0;
-    q->stbuf->st_size = (signed long int)tmp_if_expr$2;
+      tmp_if_expr_2 = (unsigned long int)0;
+    q->stbuf->st_size = (signed long int)tmp_if_expr_2;
   }
 
 }
@@ -11725,9 +11725,9 @@ extern void vfs_symlink_set_path(const char * const p, const struct _VFS_Query *
 // file xmalloc.c line 181
 void * x2nrealloc(void *p, unsigned long int *pn, unsigned long int s)
 {
-  void *return_value_x2nrealloc_inline$1;
-  return_value_x2nrealloc_inline$1=x2nrealloc_inline(p, pn, s);
-  return return_value_x2nrealloc_inline$1;
+  void *return_value_x2nrealloc_inline_1;
+  return_value_x2nrealloc_inline_1=x2nrealloc_inline(p, pn, s);
+  return return_value_x2nrealloc_inline_1;
 }
 
 // x2nrealloc_inline
@@ -11753,18 +11753,18 @@ static inline void * x2nrealloc_inline(void *p, unsigned long int *pn, unsigned 
     n = n * (unsigned long int)2;
   }
   *pn = n;
-  void *return_value_xrealloc$1;
-  return_value_xrealloc$1=xrealloc(p, n * s);
-  return return_value_xrealloc$1;
+  void *return_value_xrealloc_1;
+  return_value_xrealloc_1=xrealloc(p, n * s);
+  return return_value_xrealloc_1;
 }
 
 // x2realloc
 // file xmalloc.c line 193
 void * x2realloc(void *p, unsigned long int *pn)
 {
-  void *return_value_x2nrealloc_inline$1;
-  return_value_x2nrealloc_inline$1=x2nrealloc_inline(p, pn, (unsigned long int)1);
-  return return_value_x2nrealloc_inline$1;
+  void *return_value_x2nrealloc_inline_1;
+  return_value_x2nrealloc_inline_1=x2nrealloc_inline(p, pn, (unsigned long int)1);
+  return return_value_x2nrealloc_inline_1;
 }
 
 // xalloc_die
@@ -11791,29 +11791,29 @@ void * xcalloc(unsigned long int n, unsigned long int s)
 // file xmalloc.c line 63
 void * xmalloc(unsigned long int n)
 {
-  void *return_value_xnmalloc_inline$1;
-  return_value_xnmalloc_inline$1=xnmalloc_inline(n, (unsigned long int)1);
-  return return_value_xnmalloc_inline$1;
+  void *return_value_xnmalloc_inline_1;
+  return_value_xnmalloc_inline_1=xnmalloc_inline(n, (unsigned long int)1);
+  return return_value_xnmalloc_inline_1;
 }
 
 // xmemdup
 // file xmalloc.c line 230
 void * xmemdup(const void *p, unsigned long int s)
 {
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(s);
-  void *return_value_memcpy$2;
-  return_value_memcpy$2=memcpy(return_value_xmalloc$1, p, s);
-  return return_value_memcpy$2;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(s);
+  void *return_value_memcpy_2;
+  return_value_memcpy_2=memcpy(return_value_xmalloc_1, p, s);
+  return return_value_memcpy_2;
 }
 
 // xnmalloc
 // file xmalloc.c line 55
 void * xnmalloc(unsigned long int n, unsigned long int s)
 {
-  void *return_value_xnmalloc_inline$1;
-  return_value_xnmalloc_inline$1=xnmalloc_inline(n, s);
-  return return_value_xnmalloc_inline$1;
+  void *return_value_xnmalloc_inline_1;
+  return_value_xnmalloc_inline_1=xnmalloc_inline(n, s);
+  return return_value_xnmalloc_inline_1;
 }
 
 // xnmalloc_inline
@@ -11821,16 +11821,16 @@ void * xnmalloc(unsigned long int n, unsigned long int s)
 static inline void * xnmalloc_inline(unsigned long int n, unsigned long int s)
 {
   void *p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(18446744073709551615ul / s >= n))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     p=malloc(n * s);
-    tmp_if_expr$1 = (!(p != NULL) ? (n != (unsigned long int)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (!(p != NULL) ? (n != (unsigned long int)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
     xalloc_die();
 
   return p;
@@ -11840,25 +11840,25 @@ static inline void * xnmalloc_inline(unsigned long int n, unsigned long int s)
 // file xmalloc.c line 80
 void * xnrealloc(void *p, unsigned long int n, unsigned long int s)
 {
-  void *return_value_xnrealloc_inline$1;
-  return_value_xnrealloc_inline$1=xnrealloc_inline(p, n, s);
-  return return_value_xnrealloc_inline$1;
+  void *return_value_xnrealloc_inline_1;
+  return_value_xnrealloc_inline_1=xnrealloc_inline(p, n, s);
+  return return_value_xnrealloc_inline_1;
 }
 
 // xnrealloc_inline
 // file xmalloc.c line 72
 static inline void * xnrealloc_inline(void *p, unsigned long int n, unsigned long int s)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(18446744073709551615ul / s >= n))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     p=realloc(p, n * s);
-    tmp_if_expr$1 = (!(p != NULL) ? (n != (unsigned long int)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (!(p != NULL) ? (n != (unsigned long int)0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
     xalloc_die();
 
   return p;
@@ -11868,30 +11868,30 @@ static inline void * xnrealloc_inline(void *p, unsigned long int n, unsigned lon
 // file xmalloc.c line 89
 void * xrealloc(void *p, unsigned long int n)
 {
-  void *return_value_xnrealloc_inline$1;
-  return_value_xnrealloc_inline$1=xnrealloc_inline(p, n, (unsigned long int)1);
-  return return_value_xnrealloc_inline$1;
+  void *return_value_xnrealloc_inline_1;
+  return_value_xnrealloc_inline_1=xnrealloc_inline(p, n, (unsigned long int)1);
+  return return_value_xnrealloc_inline_1;
 }
 
 // xstrdup
 // file xmalloc.c line 238
 char * xstrdup(const char *string)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  void *return_value_xmemdup$2;
-  return_value_xmemdup$2=xmemdup((const void *)string, return_value_strlen$1 + (unsigned long int)1);
-  return (char *)return_value_xmemdup$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  void *return_value_xmemdup_2;
+  return_value_xmemdup_2=xmemdup((const void *)string, return_value_strlen_1 + (unsigned long int)1);
+  return (char *)return_value_xmemdup_2;
 }
 
 // xzalloc
 // file xmalloc.c line 203
 void * xzalloc(unsigned long int s)
 {
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(s);
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_xmalloc$1, 0, s);
-  return return_value_memset$2;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(s);
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_xmalloc_1, 0, s);
+  return return_value_memset_2;
 }
 

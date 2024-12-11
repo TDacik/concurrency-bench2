@@ -1,154 +1,154 @@
-// #anon_enum$ARRAY=0$OBJECT=1
+// #anon_enum_ARRAY=0_OBJECT=1
 // file dbjson.c line 82
-enum anonymous$2 { ARRAY=0, OBJECT=1 };
+enum anonymous_2 { ARRAY=0, OBJECT=1 };
 
-// #anon_enum$yajl_allow_comments=1$yajl_dont_validate_strings=2$yajl_allow_trailing_garbage=4$yajl_allow_multiple_values=8$yajl_allow_partial_values=16
+// #anon_enum_yajl_allow_comments=1_yajl_dont_validate_strings=2_yajl_allow_trailing_garbage=4_yajl_allow_multiple_values=8_yajl_allow_partial_values=16
 // file ../json/yajl_api.h line 144
-enum anonymous$4 { yajl_allow_comments=1, yajl_dont_validate_strings=2, yajl_allow_trailing_garbage=4, yajl_allow_multiple_values=8, yajl_allow_partial_values=16 };
+enum anonymous_4 { yajl_allow_comments=1, yajl_dont_validate_strings=2, yajl_allow_trailing_garbage=4, yajl_allow_multiple_values=8, yajl_allow_partial_values=16 };
 
-// #anon_enum$yajl_gen_beautify=1$yajl_gen_indent_string=2$yajl_gen_print_callback=4$yajl_gen_validate_utf8=8$yajl_gen_escape_solidus=16
+// #anon_enum_yajl_gen_beautify=1_yajl_gen_indent_string=2_yajl_gen_print_callback=4_yajl_gen_validate_utf8=8_yajl_gen_escape_solidus=16
 // file ../json/yajl_api.h line 294
-enum anonymous$32 { yajl_gen_beautify=1, yajl_gen_indent_string=2, yajl_gen_print_callback=4, yajl_gen_validate_utf8=8, yajl_gen_escape_solidus=16 };
+enum anonymous_32 { yajl_gen_beautify=1, yajl_gen_indent_string=2, yajl_gen_print_callback=4, yajl_gen_validate_utf8=8, yajl_gen_escape_solidus=16 };
 
-// #anon_enum$yajl_gen_start=0$yajl_gen_map_start=1$yajl_gen_map_key=2$yajl_gen_map_val=3$yajl_gen_array_start=4$yajl_gen_in_array=5$yajl_gen_complete=6$yajl_gen_error=7
+// #anon_enum_yajl_gen_start=0_yajl_gen_map_start=1_yajl_gen_map_key=2_yajl_gen_map_val=3_yajl_gen_array_start=4_yajl_gen_in_array=5_yajl_gen_complete=6_yajl_gen_error=7
 // file yajl_all.c line 52
-enum anonymous$31 { yajl_gen_start=0, yajl_gen_map_start=1, yajl_gen_map_key=2, yajl_gen_map_val=3, yajl_gen_array_start=4, yajl_gen_in_array=5, yajl_gen_complete=6, yajl_gen_error=7 };
+enum anonymous_31 { yajl_gen_start=0, yajl_gen_map_start=1, yajl_gen_map_key=2, yajl_gen_map_val=3, yajl_gen_array_start=4, yajl_gen_in_array=5, yajl_gen_complete=6, yajl_gen_error=7 };
 
-// #anon_enum$yajl_gen_status_ok=0$yajl_gen_keys_must_be_strings=1$yajl_max_depth_exceeded=2$yajl_gen_in_error_state=3$yajl_gen_generation_complete=4$yajl_gen_invalid_number=5$yajl_gen_no_buf=6$yajl_gen_invalid_string=7
+// #anon_enum_yajl_gen_status_ok=0_yajl_gen_keys_must_be_strings=1_yajl_max_depth_exceeded=2_yajl_gen_in_error_state=3_yajl_gen_generation_complete=4_yajl_gen_invalid_number=5_yajl_gen_no_buf=6_yajl_gen_invalid_string=7
 // file ../json/yajl_api.h line 257
-enum anonymous$33 { yajl_gen_status_ok=0, yajl_gen_keys_must_be_strings=1, yajl_max_depth_exceeded=2, yajl_gen_in_error_state=3, yajl_gen_generation_complete=4, yajl_gen_invalid_number=5, yajl_gen_no_buf=6, yajl_gen_invalid_string=7 };
+enum anonymous_33 { yajl_gen_status_ok=0, yajl_gen_keys_must_be_strings=1, yajl_max_depth_exceeded=2, yajl_gen_in_error_state=3, yajl_gen_generation_complete=4, yajl_gen_invalid_number=5, yajl_gen_no_buf=6, yajl_gen_invalid_string=7 };
 
-// #anon_enum$yajl_lex_e_ok=0$yajl_lex_string_invalid_utf8=1$yajl_lex_string_invalid_escaped_char=2$yajl_lex_string_invalid_json_char=3$yajl_lex_string_invalid_hex_char=4$yajl_lex_invalid_char=5$yajl_lex_invalid_string=6$yajl_lex_missing_integer_after_decimal=7$yajl_lex_missing_integer_after_exponent=8$yajl_lex_missing_integer_after_minus=9$yajl_lex_unallowed_comment=10
+// #anon_enum_yajl_lex_e_ok=0_yajl_lex_string_invalid_utf8=1_yajl_lex_string_invalid_escaped_char=2_yajl_lex_string_invalid_json_char=3_yajl_lex_string_invalid_hex_char=4_yajl_lex_invalid_char=5_yajl_lex_invalid_string=6_yajl_lex_missing_integer_after_decimal=7_yajl_lex_missing_integer_after_exponent=8_yajl_lex_missing_integer_after_minus=9_yajl_lex_unallowed_comment=10
 // file yajl_all.h line 188
-enum anonymous$28 { yajl_lex_e_ok=0, yajl_lex_string_invalid_utf8=1, yajl_lex_string_invalid_escaped_char=2, yajl_lex_string_invalid_json_char=3, yajl_lex_string_invalid_hex_char=4, yajl_lex_invalid_char=5, yajl_lex_invalid_string=6, yajl_lex_missing_integer_after_decimal=7, yajl_lex_missing_integer_after_exponent=8, yajl_lex_missing_integer_after_minus=9, yajl_lex_unallowed_comment=10 };
+enum anonymous_28 { yajl_lex_e_ok=0, yajl_lex_string_invalid_utf8=1, yajl_lex_string_invalid_escaped_char=2, yajl_lex_string_invalid_json_char=3, yajl_lex_string_invalid_hex_char=4, yajl_lex_invalid_char=5, yajl_lex_invalid_string=6, yajl_lex_missing_integer_after_decimal=7, yajl_lex_missing_integer_after_exponent=8, yajl_lex_missing_integer_after_minus=9, yajl_lex_unallowed_comment=10 };
 
-// #anon_enum$yajl_state_start=0$yajl_state_parse_complete=1$yajl_state_parse_error=2$yajl_state_lexical_error=3$yajl_state_map_start=4$yajl_state_map_sep=5$yajl_state_map_need_val=6$yajl_state_map_got_val=7$yajl_state_map_need_key=8$yajl_state_array_start=9$yajl_state_array_got_val=10$yajl_state_array_need_val=11$yajl_state_got_value=12
+// #anon_enum_yajl_state_start=0_yajl_state_parse_complete=1_yajl_state_parse_error=2_yajl_state_lexical_error=3_yajl_state_map_start=4_yajl_state_map_sep=5_yajl_state_map_need_val=6_yajl_state_map_got_val=7_yajl_state_map_need_key=8_yajl_state_array_start=9_yajl_state_array_got_val=10_yajl_state_array_need_val=11_yajl_state_got_value=12
 // file yajl_all.h line 209
-enum anonymous$30 { yajl_state_start=0, yajl_state_parse_complete=1, yajl_state_parse_error=2, yajl_state_lexical_error=3, yajl_state_map_start=4, yajl_state_map_sep=5, yajl_state_map_need_val=6, yajl_state_map_got_val=7, yajl_state_map_need_key=8, yajl_state_array_start=9, yajl_state_array_got_val=10, yajl_state_array_need_val=11, yajl_state_got_value=12 };
+enum anonymous_30 { yajl_state_start=0, yajl_state_parse_complete=1, yajl_state_parse_error=2, yajl_state_lexical_error=3, yajl_state_map_start=4, yajl_state_map_sep=5, yajl_state_map_need_val=6, yajl_state_map_got_val=7, yajl_state_map_need_key=8, yajl_state_array_start=9, yajl_state_array_got_val=10, yajl_state_array_need_val=11, yajl_state_got_value=12 };
 
-// #anon_enum$yajl_status_ok=0$yajl_status_client_canceled=1$yajl_status_error=2
+// #anon_enum_yajl_status_ok=0_yajl_status_client_canceled=1_yajl_status_error=2
 // file ../json/yajl_api.h line 62
-enum anonymous$27 { yajl_status_ok=0, yajl_status_client_canceled=1, yajl_status_error=2 };
+enum anonymous_27 { yajl_status_ok=0, yajl_status_client_canceled=1, yajl_status_error=2 };
 
-// #anon_enum$yajl_tok_bool=0$yajl_tok_colon=1$yajl_tok_comma=2$yajl_tok_eof=3$yajl_tok_error=4$yajl_tok_left_brace=5$yajl_tok_left_bracket=6$yajl_tok_null=7$yajl_tok_right_brace=8$yajl_tok_right_bracket=9$yajl_tok_integer=10$yajl_tok_double=11$yajl_tok_string=12$yajl_tok_string_with_escapes=13$yajl_tok_comment=14
+// #anon_enum_yajl_tok_bool=0_yajl_tok_colon=1_yajl_tok_comma=2_yajl_tok_eof=3_yajl_tok_error=4_yajl_tok_left_brace=5_yajl_tok_left_bracket=6_yajl_tok_null=7_yajl_tok_right_brace=8_yajl_tok_right_bracket=9_yajl_tok_integer=10_yajl_tok_double=11_yajl_tok_string=12_yajl_tok_string_with_escapes=13_yajl_tok_comment=14
 // file yajl_all.h line 128
-enum anonymous$29 { yajl_tok_bool=0, yajl_tok_colon=1, yajl_tok_comma=2, yajl_tok_eof=3, yajl_tok_error=4, yajl_tok_left_brace=5, yajl_tok_left_bracket=6, yajl_tok_null=7, yajl_tok_right_brace=8, yajl_tok_right_bracket=9, yajl_tok_integer=10, yajl_tok_double=11, yajl_tok_string=12, yajl_tok_string_with_escapes=13, yajl_tok_comment=14 };
+enum anonymous_29 { yajl_tok_bool=0, yajl_tok_colon=1, yajl_tok_comma=2, yajl_tok_eof=3, yajl_tok_error=4, yajl_tok_left_brace=5, yajl_tok_left_bracket=6, yajl_tok_null=7, yajl_tok_right_brace=8, yajl_tok_right_bracket=9, yajl_tok_integer=10, yajl_tok_double=11, yajl_tok_string=12, yajl_tok_string_with_escapes=13, yajl_tok_comment=14 };
 
-// tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64)->*{V}$V$$'malloc'||*{*{V}$V$(*{V}$V$|*{V}$V$|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|*{V}$V$|U64)->*{V}$V$$'realloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'ctx'|]
+// tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64)->*{V}_V__'malloc'||*{*{V}_V_(*{V}_V_|*{V}_V_|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|*{V}_V_|U64)->*{V}_V__'realloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'ctx'|]
 // file ../json/yajl_api.h line 43
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'yajl_null'||*{S32(*{V}$V$|S32)->S32}$S32(*{V}$V$|S32)->S32$'yajl_boolean'||*{S32(*{V}$V$|S64)->S32}$S32(*{V}$V$|S64)->S32$'yajl_integer'||*{S32(*{V}$V$|F64)->S32}$S32(*{V}$V$|F64)->S32$'yajl_double'||*{S32(*{V}$V$|*{cS8}$cS8$|U64)->S32}$S32(*{V}$V$|*{cS8}$cS8$|U64)->S32$'yajl_number'||*{S32(*{V}$V$|*{cU8}$cU8$|U64)->S32}$S32(*{V}$V$|*{cU8}$cU8$|U64)->S32$'yajl_string'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'yajl_start_map'||*{S32(*{V}$V$|*{cU8}$cU8$|U64)->S32}$S32(*{V}$V$|*{cU8}$cU8$|U64)->S32$'yajl_map_key'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'yajl_end_map'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'yajl_start_array'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'yajl_end_array'|]
+// tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'yajl_null'||*{S32(*{V}_V_|S32)->S32}_S32(*{V}_V_|S32)->S32_'yajl_boolean'||*{S32(*{V}_V_|S64)->S32}_S32(*{V}_V_|S64)->S32_'yajl_integer'||*{S32(*{V}_V_|F64)->S32}_S32(*{V}_V_|F64)->S32_'yajl_double'||*{S32(*{V}_V_|*{cS8}_cS8_|U64)->S32}_S32(*{V}_V_|*{cS8}_cS8_|U64)->S32_'yajl_number'||*{S32(*{V}_V_|*{cU8}_cU8_|U64)->S32}_S32(*{V}_V_|*{cU8}_cU8_|U64)->S32_'yajl_string'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'yajl_start_map'||*{S32(*{V}_V_|*{cU8}_cU8_|U64)->S32}_S32(*{V}_V_|*{cU8}_cU8_|U64)->S32_'yajl_map_key'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'yajl_end_map'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'yajl_start_array'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'yajl_end_array'|]
 // file ../json/yajl_api.h line 103
 struct anonymous;
 
-// tag-#anon#ST[*{SYM#tag-__query_result_page#}$SYM#tag-__query_result_page#$'page'||S64'pidx'|]
+// tag-#anon#ST[*{SYM#tag-__query_result_page#}_SYM#tag-__query_result_page#_'page'||S64'pidx'|]
 // file dbquery.c line 75
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{SYM#tag-_db_memsegment_header#}$SYM#tag-_db_memsegment_header#$'db'||*{V}$V$'logdata'|]
+// tag-#anon#ST[*{SYM#tag-_db_memsegment_header#}_SYM#tag-_db_memsegment_header#_'db'||*{V}_V_'logdata'|]
 // file dballoc.h line 511
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{V}$V$'freeptr'||S32'cur_subarea'||S32'nrof_subareas'||ARR100{SYM#tag-_wg_mpoolsubarea_header#}$SYM#tag-_wg_mpoolsubarea_header#$'subarea_table'|]
+// tag-#anon#ST[*{V}_V_'freeptr'||S32'cur_subarea'||S32'nrof_subareas'||ARR100{SYM#tag-_wg_mpoolsubarea_header#}_SYM#tag-_wg_mpoolsubarea_header#_'subarea_table'|]
 // file dbmpool.c line 85
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{V}$V$'mpool'||*{SYM#tag-__query_result_page#}$SYM#tag-__query_result_page#$'first_page'||SYM#tag-#anon#ST[*{SYM#tag-__query_result_page#}$SYM#tag-__query_result_page#$'page'||S64'pidx'|]#'wcursor'||SYM#tag-#anon#ST[*{SYM#tag-__query_result_page#}$SYM#tag-__query_result_page#$'page'||S64'pidx'|]#'rcursor'||S64'res_count'|]
+// tag-#anon#ST[*{V}_V_'mpool'||*{SYM#tag-__query_result_page#}_SYM#tag-__query_result_page#_'first_page'||SYM#tag-#anon#ST[*{SYM#tag-__query_result_page#}_SYM#tag-__query_result_page#_'page'||S64'pidx'|]#'wcursor'||SYM#tag-#anon#ST[*{SYM#tag-__query_result_page#}_SYM#tag-__query_result_page#_'page'||S64'pidx'|]#'rcursor'||S64'res_count'|]
 // file dbquery.c line 80
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[EN#anon_enum$ARRAY=0$OBJECT=1#{U32}$U32$'type'||U32'$pad0'||*{SYM#tag-__stack_entry_elem#}$SYM#tag-__stack_entry_elem#$'head'||*{SYM#tag-__stack_entry_elem#}$SYM#tag-__stack_entry_elem#$'tail'||ARR80{S8}$S8$'last_key'||S32'size'||U32'$pad1'|]
+// tag-#anon#ST[EN#anon_enum_ARRAY=0_OBJECT=1#{U32}_U32_'type'||U32'_pad0'||*{SYM#tag-__stack_entry_elem#}_SYM#tag-__stack_entry_elem#_'head'||*{SYM#tag-__stack_entry_elem#}_SYM#tag-__stack_entry_elem#_'tail'||ARR80{S8}_S8_'last_key'||S32'size'||U32'_pad1'|]
 // file dbjson.c line 91
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'state'||U32'$pad0'||ARR7{SYM#tag-#anon#ST[EN#anon_enum$ARRAY=0$OBJECT=1#{U32}$U32$'type'||U32'$pad0'||*{SYM#tag-__stack_entry_elem#}$SYM#tag-__stack_entry_elem#$'head'||*{SYM#tag-__stack_entry_elem#}$SYM#tag-__stack_entry_elem#$'tail'||ARR80{S8}$S8$'last_key'||S32'size'||U32'$pad1'|]#}$SYM#tag-#anon#ST[EN#anon_enum$ARRAY=0$OBJECT=1#{U32}$U32$'type'||U32'$pad0'||*{SYM#tag-__stack_entry_elem#}$SYM#tag-__stack_entry_elem#$'head'||*{SYM#tag-__stack_entry_elem#}$SYM#tag-__stack_entry_elem#$'tail'||ARR80{S8}$S8$'last_key'||S32'size'||U32'$pad1'|]#$'stack'||S32'stack_ptr'||U32'$pad1'||*{V}$V$'db'||S32'isparam'||S32'isdocument'||*{*{V}$V$}$*{V}$V$$'document'|]
+// tag-#anon#ST[S32'state'||U32'_pad0'||ARR7{SYM#tag-#anon#ST[EN#anon_enum_ARRAY=0_OBJECT=1#{U32}_U32_'type'||U32'_pad0'||*{SYM#tag-__stack_entry_elem#}_SYM#tag-__stack_entry_elem#_'head'||*{SYM#tag-__stack_entry_elem#}_SYM#tag-__stack_entry_elem#_'tail'||ARR80{S8}_S8_'last_key'||S32'size'||U32'_pad1'|]#}_SYM#tag-#anon#ST[EN#anon_enum_ARRAY=0_OBJECT=1#{U32}_U32_'type'||U32'_pad0'||*{SYM#tag-__stack_entry_elem#}_SYM#tag-__stack_entry_elem#_'head'||*{SYM#tag-__stack_entry_elem#}_SYM#tag-__stack_entry_elem#_'tail'||ARR80{S8}_S8_'last_key'||S32'size'||U32'_pad1'|]#_'stack'||S32'stack_ptr'||U32'_pad1'||*{V}_V_'db'||S32'isparam'||S32'isdocument'||*{*{V}_V_}_*{V}_V__'document'|]
 // file dbjson.c line 99
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'threadid'||U32'$pad0'||*{V}$V$'db'||U64'pth'|]
+// tag-#anon#ST[S32'threadid'||U32'_pad0'||*{V}_V_'db'||U64'pth'|]
 // file stresstest.c line 75
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[S64'active'||S64'dirty'||S64'serial'|]
 // file dballoc.h line 432
-struct anonymous$24;
+struct anonymous_24;
 
 // tag-#anon#ST[S64'car'||S64'cdr'|]
 // file dballoc.h line 247
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[S64'column'||S64'cond'||S64'value'|]
 // file dbquery.h line 56
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S64'count'||ARR20{S64}$S64$'offset'||ARR20{S64}$S64$'size'|]
+// tag-#anon#ST[S64'count'||ARR20{S64}_S64_'offset'||ARR20{S64}_S64_'size'|]
 // file dballoc.h line 422
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[S64'fixed_columns'||S64'offset_matchrec'||S64'refcount'|]
 // file dballoc.h line 396
-struct anonymous$22;
+struct anonymous_22;
 
 // tag-#anon#ST[S64'key'||S64'value'|]
 // file dbquery.h line 62
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S64'level'||*{*{SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}$S64$'key'||ARR8{S64}$S64$'value'|]#}$SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}$S64$'key'||ARR8{S64}$S64$'value'|]#$}$*{SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}$S64$'key'||ARR8{S64}$S64$'value'|]#}$SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}$S64$'key'||ARR8{S64}$S64$'value'|]#$$'directory'||*{V}$V$'mpool'|]
+// tag-#anon#ST[S64'level'||*{*{SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}_S64_'key'||ARR8{S64}_S64_'value'|]#}_SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}_S64_'key'||ARR8{S64}_S64_'value'|]#_}_*{SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}_S64_'key'||ARR8{S64}_S64_'value'|]#}_SYM#tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}_S64_'key'||ARR8{S64}_S64_'value'|]#__'directory'||*{V}_V_'mpool'|]
 // file dbhash.c line 83
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}$S64$'key'||ARR8{S64}$S64$'value'|]
+// tag-#anon#ST[S64'level'||S64'fill'||ARR8{S64}_S64_'key'||ARR8{S64}_S64_'value'|]
 // file dbhash.c line 72
-struct anonymous$34;
+struct anonymous_34;
 
 // tag-#anon#ST[S64'next_cell'||S64'class'||vS64'waiting'||vS64'next'||vS64'prev'|]
 // file dblock.h line 56
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S64'number_of_indexes'||S64'index_list'||ARR128{S64}$S64$'index_table'||S64'index_template_list'||ARR128{S64}$S64$'index_template_table'|]
+// tag-#anon#ST[S64'number_of_indexes'||S64'index_list'||ARR128{S64}_S64_'index_table'||S64'index_template_list'||ARR128{S64}_S64_'index_template_table'|]
 // file dballoc.h line 407
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S64'offset'||S64'size'|]
 // file dballoc.h line 443
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S64'qtype'||*{SYM#tag-#anon#ST[S64'column'||S64'cond'||S64'value'|]#}$SYM#tag-#anon#ST[S64'column'||S64'cond'||S64'value'|]#$'arglist'||S64'argc'||S64'column'||S64'curr_offset'||S64'end_offset'||S64'curr_slot'||S64'end_slot'||S64'direction'||S64'curr_record'||*{V}$V$'mpool'||*{V}$V$'curr_page'||S64'curr_pidx'||U64'res_count'|]
+// tag-#anon#ST[S64'qtype'||*{SYM#tag-#anon#ST[S64'column'||S64'cond'||S64'value'|]#}_SYM#tag-#anon#ST[S64'column'||S64'cond'||S64'value'|]#_'arglist'||S64'argc'||S64'column'||S64'curr_offset'||S64'end_offset'||S64'curr_slot'||S64'end_slot'||S64'direction'||S64'curr_record'||*{V}_V_'mpool'||*{V}_V_'curr_page'||S64'curr_pidx'||U64'res_count'|]
 // file dbquery.h line 68
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[S64'tail'||S64'queue_lock'||S64'storage'||S64'max_nodes'||S64'freelist'|]
 // file dballoc.h line 331
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S64'type'||S64'fields'||ARR10{S64}$S64$'rec_field_index'||SYM#tag-#anon#UN[SYM#tag-__wg_ttree_header#'t'||SYM#tag-__wg_hashidx_header#'h'|]#'ctl'||S64'template_offset'|]
+// tag-#anon#ST[S64'type'||S64'fields'||ARR10{S64}_S64_'rec_field_index'||SYM#tag-#anon#UN[SYM#tag-__wg_ttree_header#'t'||SYM#tag-__wg_hashidx_header#'h'|]#'ctl'||S64'template_offset'|]
 // file dballoc.h line 380
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[U64'dhash_size'||*{S64}$S64$'keys'|]
+// tag-#anon#ST[U64'dhash_size'||*{S64}_S64_'keys'|]
 // file dbhash.c line 90
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$10;
+union anonymous_10;
 
 // tag-#anon#UN[SYM#tag-__wg_ttree_header#'t'||SYM#tag-__wg_hashidx_header#'h'|]
 // file dballoc.h line 384
-union anonymous$26;
+union anonymous_26;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -318,19 +318,19 @@ _Bool __sync_bool_compare_and_swap();
 extern void abort(void);
 // add_elem
 // file dbjson.c line 525
-static signed int add_elem(struct anonymous$0 *ctx, signed long int enc);
+static signed int add_elem(struct anonymous_0 *ctx, signed long int enc);
 // add_index_template
 // file dbindex.c line 1757
 static signed long int add_index_template(void *db, signed long int *matchrec, signed long int reclen);
 // add_key
 // file dbjson.c line 553
-static signed int add_key(struct anonymous$0 *ctx, char *key);
+static signed int add_key(struct anonymous_0 *ctx, char *key);
 // add_literal
 // file dbjson.c line 571
-static signed int add_literal(struct anonymous$0 *ctx, signed long int val);
+static signed int add_literal(struct anonymous_0 *ctx, signed long int val);
 // add_to_bucket
 // file dbhash.c line 803
-static signed long int add_to_bucket(struct anonymous$34 *bucket, signed long int key, signed long int value);
+static signed long int add_to_bucket(struct anonymous_34 *bucket, signed long int key, signed long int value);
 // alloc_db_segmentchunk
 // file dballoc.c line 305
 static signed long int alloc_db_segmentchunk(void *db, signed long int size);
@@ -339,7 +339,7 @@ static signed long int alloc_db_segmentchunk(void *db, signed long int size);
 static signed long int alloc_lock(void *db);
 // append_resultset
 // file dbquery.c line 1388
-static signed long int append_resultset(void *db, struct anonymous$17 *set, signed long int offset);
+static signed long int append_resultset(void *db, struct anonymous_17 *set, signed long int offset);
 // array_begin_cb
 // file dbjson.c line 597
 static signed int array_begin_cb(void *cb_ctx);
@@ -354,16 +354,16 @@ extern signed long int atol(const char *);
 extern void * calloc(unsigned long int, unsigned long int);
 // check_and_merge_by_key
 // file dbquery.c line 1684
-static signed long int check_and_merge_by_key(void *db, void *rec, struct anonymous$18 *arg, struct anonymous$17 *next_set);
+static signed long int check_and_merge_by_key(void *db, void *rec, struct anonymous_18 *arg, struct anonymous_17 *next_set);
 // check_and_merge_by_kv
 // file dbquery.c line 1645
-static signed long int check_and_merge_by_kv(void *db, void *rec, struct anonymous$18 *arg, struct anonymous$17 *next_set);
+static signed long int check_and_merge_by_kv(void *db, void *rec, struct anonymous_18 *arg, struct anonymous_17 *next_set);
 // check_and_merge_recursively
 // file dbquery.c line 1718
-static signed long int check_and_merge_recursively(void *db, void *rec, struct anonymous$18 *arg, struct anonymous$17 *next_set, signed int depth);
+static signed long int check_and_merge_recursively(void *db, void *rec, struct anonymous_18 *arg, struct anonymous_17 *next_set, signed int depth);
 // check_arglist
 // file dbquery.c line 285
-static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *arglist, signed long int argc);
+static signed long int check_arglist(void *db, void *rec, struct anonymous_12 *arglist, signed long int argc);
 // check_data
 // file stresstest.c line 201
 void check_data(void *db, signed int wcnt);
@@ -378,7 +378,7 @@ static signed int check_push_cb(void *cb_ctx);
 static signed long int create_hash_index(void *db, signed long int index_id);
 // create_resultset
 // file dbquery.c line 1341
-static struct anonymous$17 * create_resultset(void *db);
+static struct anonymous_17 * create_resultset(void *db);
 // create_shared_memory
 // file dbmem.c line 723
 static void * create_shared_memory(signed int key, signed long int size, signed int mode);
@@ -417,7 +417,7 @@ static signed long int delete_record_recursive(void *db, void *rec, signed int d
 static signed int detach_shared_memory(void *shmptr);
 // dhash_lookup
 // file dbhash.c line 878
-static signed long int * dhash_lookup(struct anonymous$36 *tbl, signed long int key);
+static signed long int * dhash_lookup(struct anonymous_36 *tbl, signed long int key);
 // dhash_size
 // file dbhash.c line 844
 static unsigned long int dhash_size(unsigned long int entries);
@@ -459,7 +459,7 @@ extern signed int fclose(struct _IO_FILE *);
 extern signed int feof(struct _IO_FILE *);
 // fetch_resultset
 // file dbquery.c line 1419
-static signed long int fetch_resultset(void *db, struct anonymous$17 *set);
+static signed long int fetch_resultset(void *db, struct anonymous_17 *set);
 // fflush
 // file /usr/include/stdio.h line 242
 extern signed int fflush(struct _IO_FILE *);
@@ -507,7 +507,7 @@ static signed long int free_field_encoffset(void *db, signed long int encoffset)
 static void free_lock(void *db, signed long int node);
 // free_resultset
 // file dbquery.c line 1368
-static void free_resultset(void *db, struct anonymous$17 *set);
+static void free_resultset(void *db, struct anonymous_17 *set);
 // free_shared_memory
 // file dbmem.c line 801
 static signed int free_shared_memory(signed int key);
@@ -537,13 +537,13 @@ extern signed int gettimeofday(struct timeval *, struct timezone *);
 extern unsigned int getuid(void);
 // ginthash_newbucket
 // file dbhash.c line 721
-static struct anonymous$34 * ginthash_newbucket(void *db, struct anonymous$35 *tbl);
+static struct anonymous_34 * ginthash_newbucket(void *db, struct anonymous_35 *tbl);
 // ginthash_splitbucket
 // file dbhash.c line 735
-static struct anonymous$34 * ginthash_splitbucket(void *db, struct anonymous$35 *tbl, struct anonymous$34 *bucket);
+static struct anonymous_34 * ginthash_splitbucket(void *db, struct anonymous_35 *tbl, struct anonymous_34 *bucket);
 // grow_ginthash
 // file dbhash.c line 685
-static signed long int grow_ginthash(void *db, struct anonymous$35 *tbl);
+static signed long int grow_ginthash(void *db, struct anonymous_35 *tbl);
 // hash_add_row
 // file dbindex.c line 1473
 static signed long int hash_add_row(void *db, signed long int index_id, void *rec);
@@ -552,10 +552,10 @@ static signed long int hash_add_row(void *db, signed long int index_id, void *re
 static unsigned long int hash_bytes(void *db, char *data, signed long int length, signed long int hashsz);
 // hash_extend_prefix
 // file dbindex.c line 1565
-static signed long int hash_extend_prefix(void *db, struct anonymous$21 *hdr, char *prefix, signed long int prefixlen, signed long int nextval, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand);
+static signed long int hash_extend_prefix(void *db, struct anonymous_21 *hdr, char *prefix, signed long int prefixlen, signed long int nextval, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand);
 // hash_recurse
 // file dbindex.c line 1514
-static signed long int hash_recurse(void *db, struct anonymous$21 *hdr, char *prefix, signed long int prefixlen, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand);
+static signed long int hash_recurse(void *db, struct anonymous_21 *hdr, char *prefix, signed long int prefixlen, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand);
 // hash_remove_row
 // file dbindex.c line 1490
 static signed long int hash_remove_row(void *db, signed long int index_id, void *rec);
@@ -600,10 +600,10 @@ static signed long int init_syn_vars(void *db);
 static signed long int insert_into_list(void *db, signed long int *head, signed long int value);
 // internal_build_query
 // file dbquery.c line 668
-static struct anonymous$15 * internal_build_query(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc, signed long int flags, unsigned long int rowlimit);
+static struct anonymous_15 * internal_build_query(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc, signed long int flags, unsigned long int rowlimit);
 // intersect_resultset
 // file dbquery.c line 1449
-static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *seta, struct anonymous$17 *setb);
+static struct anonymous_17 * intersect_resultset(void *db, struct anonymous_17 *seta, struct anonymous_17 *setb);
 // isleap
 // file dbdata.c line 2890
 static signed int isleap(unsigned int yr);
@@ -639,7 +639,7 @@ extern void * memset(void *, signed int, unsigned long int);
 static unsigned int months_to_days(unsigned int month);
 // most_restricting_column
 // file dbquery.c line 137
-static signed long int most_restricting_column(void *db, struct anonymous$12 *arglist, signed long int argc, signed long int *index_id);
+static signed long int most_restricting_column(void *db, struct anonymous_12 *arglist, signed long int argc, signed long int *index_id);
 // nanosleep
 // file /usr/include/time.h line 334
 extern signed int nanosleep(struct timespec *, struct timespec *);
@@ -660,16 +660,16 @@ static signed int object_key_cb(void *cb_ctx, const unsigned char *strval, unsig
 static signed long int parse_input_type(void *db, char *buf, signed long int *intdata, double *doubledata, signed long int *datetime);
 // pop
 // file dbjson.c line 462
-static signed int pop(struct anonymous$0 *ctx);
+static signed int pop(struct anonymous_0 *ctx);
 // prepare_data
 // file stresstest.c line 178
 signed int prepare_data(void *db);
 // prepare_json_arglist
 // file dbquery.c line 1755
-static signed long int prepare_json_arglist(void *db, struct anonymous$18 *arglist, struct anonymous$18 **sorted_arglist, signed long int argc, signed long int *index_id, signed long int *vindex_id, signed long int *kindex_id);
+static signed long int prepare_json_arglist(void *db, struct anonymous_18 *arglist, struct anonymous_18 **sorted_arglist, signed long int argc, signed long int *index_id, signed long int *vindex_id, signed long int *kindex_id);
 // prepare_params
 // file dbquery.c line 350
-static signed long int prepare_params(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc, struct anonymous$12 **farglist, signed long int *fargc);
+static signed long int prepare_params(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc, struct anonymous_12 **farglist, signed long int *fargc);
 // pretty_print_json
 // file dbjson.c line 756
 static signed int pretty_print_json(void *db, struct yajl_gen_t **g, void *rec);
@@ -693,16 +693,16 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$14 *);
+extern signed int pthread_cond_broadcast(union anonymous_14 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$14 *);
+extern signed int pthread_cond_destroy(union anonymous_14 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$14 *, const union anonymous$11 *);
+extern signed int pthread_cond_init(union anonymous_14 *, const union anonymous_11 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$14 *, union anonymous$10 *);
+extern signed int pthread_cond_wait(union anonymous_14 *, union anonymous_10 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -714,19 +714,19 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$10 *);
+extern signed int pthread_mutex_destroy(union anonymous_10 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$10 *, const union anonymous$11 *);
+extern signed int pthread_mutex_init(union anonymous_10 *, const union anonymous_11 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$10 *);
+extern signed int pthread_mutex_lock(union anonymous_10 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$10 *);
+extern signed int pthread_mutex_unlock(union anonymous_10 *);
 // push
 // file dbjson.c line 444
-static signed int push(struct anonymous$0 *ctx, enum anonymous$2 type);
+static signed int push(struct anonymous_0 *ctx, enum anonymous_2 type);
 // reader_thread
 // file stresstest.c line 474
 void * reader_thread(void *threadarg);
@@ -741,7 +741,7 @@ static signed long int rehash_gint(signed long int val);
 static signed long int remove_backlink_index_entries(void *db, signed long int *record, signed long int value, signed long int depth);
 // remove_from_bucket
 // file dbhash.c line 820
-static signed long int remove_from_bucket(struct anonymous$34 *bucket, signed int idx);
+static signed long int remove_from_bucket(struct anonymous_34 *bucket, signed int idx);
 // remove_index_template
 // file dbindex.c line 1924
 static signed long int remove_index_template(void *db, signed long int template_offset);
@@ -750,7 +750,7 @@ static signed long int remove_index_template(void *db, signed long int template_
 static signed long int restore_backlink_index_entries(void *db, signed long int *record, signed long int value, signed long int depth);
 // rewind_resultset
 // file dbquery.c line 1378
-static void rewind_resultset(void *db, struct anonymous$17 *set);
+static void rewind_resultset(void *db, struct anonymous_17 *set);
 // round
 // file dbdata.h line 44
 extern double round(double);
@@ -912,7 +912,7 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
 extern signed int ungetc(signed int, struct _IO_FILE *);
 // unique_resultset
 // file dbquery.c line 1528
-static struct anonymous$17 * unique_resultset(void *db, struct anonymous$17 *set);
+static struct anonymous_17 * unique_resultset(void *db, struct anonymous_17 *set);
 // unlock_queue
 // file dblock.c line 970
 static void unlock_queue(void *db);
@@ -1287,7 +1287,7 @@ signed long int wg_end_write(void *db, signed long int lock);
 void wg_export_db_csv(void *db, char *filename);
 // wg_fetch
 // file dbquery.c line 976
-void * wg_fetch(void *db, struct anonymous$15 *query);
+void * wg_fetch(void *db, struct anonymous_15 *query);
 // wg_find_document
 // file dbschema.h line 48
 void * wg_find_document(void *db, void *rec);
@@ -1359,7 +1359,7 @@ void wg_free_mpool(void *db, void *mpool);
 signed long int wg_free_object(void *db, void *area_header, signed long int object);
 // wg_free_query
 // file dbquery.c line 1108
-void wg_free_query(void *db, struct anonymous$15 *query);
+void wg_free_query(void *db, struct anonymous_15 *query);
 // wg_free_query_param
 // file dbquery.c line 1294
 signed long int wg_free_query_param(void *db, signed long int data);
@@ -1512,16 +1512,16 @@ signed long int wg_log_set_meta(void *db, void *rec, signed long int meta);
 signed int wg_log_umask(void *db, signed int cmask);
 // wg_make_json_query
 // file dbquery.c line 1830
-struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist, signed long int argc);
+struct anonymous_15 * wg_make_json_query(void *db, struct anonymous_18 *arglist, signed long int argc);
 // wg_make_query
 // file dbquery.c line 953
-struct anonymous$15 * wg_make_query(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc);
+struct anonymous_15 * wg_make_query(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc);
 // wg_make_query_rc
 // file dbquery.c line 965
-struct anonymous$15 * wg_make_query_rc(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc, unsigned long int rowlimit);
+struct anonymous_15 * wg_make_query_rc(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc, unsigned long int rowlimit);
 // wg_match_template
 // file dbindex.c line 1958
-signed long int wg_match_template(void *db, struct anonymous$22 *tmpl, void *rec);
+signed long int wg_match_template(void *db, struct anonymous_22 *tmpl, void *rec);
 // wg_memgroup
 // file dbmem.c line 646
 signed int wg_memgroup(void *db);
@@ -1674,10 +1674,10 @@ signed int wg_ymd_to_date(void *db, signed int yr, signed int mo, signed int day
 void * writer_thread(void *threadarg);
 // yajl_alloc
 // file ../json/yajl_api.h line 136
-struct yajl_handle_t * yajl_alloc(const struct anonymous *callbacks, struct anonymous$3 *afs, void *ctx);
+struct yajl_handle_t * yajl_alloc(const struct anonymous *callbacks, struct anonymous_3 *afs, void *ctx);
 // yajl_buf_alloc
 // file yajl_all.c line 155
-static struct yajl_buf_t * yajl_buf_alloc(struct anonymous$3 *alloc);
+static struct yajl_buf_t * yajl_buf_alloc(struct anonymous_3 *alloc);
 // yajl_buf_append
 // file yajl_all.c line 170
 static void yajl_buf_append(struct yajl_buf_t *buf, const void *data, unsigned long int len);
@@ -1698,16 +1698,16 @@ static void yajl_buf_free(struct yajl_buf_t *buf);
 static unsigned long int yajl_buf_len(struct yajl_buf_t *buf);
 // yajl_complete_parse
 // file ../json/yajl_api.h line 218
-enum anonymous$27 yajl_complete_parse(struct yajl_handle_t *hand);
+enum anonymous_27 yajl_complete_parse(struct yajl_handle_t *hand);
 // yajl_config
 // file ../json/yajl_api.h line 195
-signed int yajl_config(struct yajl_handle_t *h, enum anonymous$4 opt, ...);
+signed int yajl_config(struct yajl_handle_t *h, enum anonymous_4 opt, ...);
 // yajl_do_finish
 // file yajl_all.c line 1684
-static enum anonymous$27 yajl_do_finish(struct yajl_handle_t *hand);
+static enum anonymous_27 yajl_do_finish(struct yajl_handle_t *hand);
 // yajl_do_parse
 // file yajl_all.c line 1711
-static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen);
+static enum anonymous_27 yajl_do_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen);
 // yajl_free
 // file ../json/yajl_api.h line 198
 void yajl_free(struct yajl_handle_t *handle);
@@ -1716,49 +1716,49 @@ void yajl_free(struct yajl_handle_t *handle);
 void yajl_free_error(struct yajl_handle_t *hand, unsigned char *str);
 // yajl_gen_alloc
 // file ../json/yajl_api.h line 342
-struct yajl_gen_t * yajl_gen_alloc(const struct anonymous$3 *afs);
+struct yajl_gen_t * yajl_gen_alloc(const struct anonymous_3 *afs);
 // yajl_gen_array_close
 // file ../json/yajl_api.h line 363
-enum anonymous$33 yajl_gen_array_close(struct yajl_gen_t *g);
+enum anonymous_33 yajl_gen_array_close(struct yajl_gen_t *g);
 // yajl_gen_array_open
 // file ../json/yajl_api.h line 362
-enum anonymous$33 yajl_gen_array_open(struct yajl_gen_t *g);
+enum anonymous_33 yajl_gen_array_open(struct yajl_gen_t *g);
 // yajl_gen_bool
 // file yajl_all.c line 776
-enum anonymous$33 yajl_gen_bool(struct yajl_gen_t *g, signed int boolean);
+enum anonymous_33 yajl_gen_bool(struct yajl_gen_t *g, signed int boolean);
 // yajl_gen_clear
 // file yajl_all.c line 850
 void yajl_gen_clear(struct yajl_gen_t *g);
 // yajl_gen_config
 // file ../json/yajl_api.h line 332
-signed int yajl_gen_config(struct yajl_gen_t *g, enum anonymous$32 opt, ...);
+signed int yajl_gen_config(struct yajl_gen_t *g, enum anonymous_32 opt, ...);
 // yajl_gen_double
 // file yajl_all.c line 714
-enum anonymous$33 yajl_gen_double(struct yajl_gen_t *g, double number);
+enum anonymous_33 yajl_gen_double(struct yajl_gen_t *g, double number);
 // yajl_gen_free
 // file ../json/yajl_api.h line 345
 void yajl_gen_free(struct yajl_gen_t *g);
 // yajl_gen_get_buf
 // file yajl_all.c line 840
-enum anonymous$33 yajl_gen_get_buf(struct yajl_gen_t *g, const unsigned char **buf, unsigned long int *len);
+enum anonymous_33 yajl_gen_get_buf(struct yajl_gen_t *g, const unsigned char **buf, unsigned long int *len);
 // yajl_gen_integer
 // file yajl_all.c line 696
-enum anonymous$33 yajl_gen_integer(struct yajl_gen_t *g, signed long long int number);
+enum anonymous_33 yajl_gen_integer(struct yajl_gen_t *g, signed long long int number);
 // yajl_gen_map_close
 // file ../json/yajl_api.h line 361
-enum anonymous$33 yajl_gen_map_close(struct yajl_gen_t *g);
+enum anonymous_33 yajl_gen_map_close(struct yajl_gen_t *g);
 // yajl_gen_map_open
 // file ../json/yajl_api.h line 360
-enum anonymous$33 yajl_gen_map_open(struct yajl_gen_t *g);
+enum anonymous_33 yajl_gen_map_open(struct yajl_gen_t *g);
 // yajl_gen_null
 // file yajl_all.c line 766
-enum anonymous$33 yajl_gen_null(struct yajl_gen_t *g);
+enum anonymous_33 yajl_gen_null(struct yajl_gen_t *g);
 // yajl_gen_number
 // file ../json/yajl_api.h line 352
-enum anonymous$33 yajl_gen_number(struct yajl_gen_t *g, const char *s, unsigned long int l);
+enum anonymous_33 yajl_gen_number(struct yajl_gen_t *g, const char *s, unsigned long int l);
 // yajl_gen_string
 // file ../json/yajl_api.h line 355
-enum anonymous$33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str, unsigned long int len);
+enum anonymous_33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str, unsigned long int len);
 // yajl_get_bytes_consumed
 // file yajl_all.c line 331
 unsigned long int yajl_get_bytes_consumed(struct yajl_handle_t *hand);
@@ -1776,34 +1776,34 @@ static void * yajl_internal_malloc(void *ctx, unsigned long int sz);
 static void * yajl_internal_realloc(void *ctx, void *previous, unsigned long int sz);
 // yajl_lex_alloc
 // file yajl_all.c line 906
-static struct yajl_lexer_t * yajl_lex_alloc(struct anonymous$3 *alloc, unsigned int allowComments, unsigned int validateUTF8);
+static struct yajl_lexer_t * yajl_lex_alloc(struct anonymous_3 *alloc, unsigned int allowComments, unsigned int validateUTF8);
 // yajl_lex_comment
 // file yajl_all.c line 1260
-static enum anonymous$29 yajl_lex_comment(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset);
+static enum anonymous_29 yajl_lex_comment(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset);
 // yajl_lex_error_to_string
 // file yajl_all.c line 1493
-static const char * yajl_lex_error_to_string(enum anonymous$28 error);
+static const char * yajl_lex_error_to_string(enum anonymous_28 error);
 // yajl_lex_free
 // file yajl_all.c line 919
 static void yajl_lex_free(struct yajl_lexer_t *lxr);
 // yajl_lex_get_error
 // file yajl_all.c line 1531
-static enum anonymous$28 yajl_lex_get_error(struct yajl_lexer_t *lexer);
+static enum anonymous_28 yajl_lex_get_error(struct yajl_lexer_t *lexer);
 // yajl_lex_lex
 // file yajl_all.c line 1301
-static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, const unsigned char **outBuf, unsigned long int *outLen);
+static enum anonymous_29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, const unsigned char **outBuf, unsigned long int *outLen);
 // yajl_lex_number
 // file yajl_all.c line 1173
-static enum anonymous$29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset);
+static enum anonymous_29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset);
 // yajl_lex_string
 // file yajl_all.c line 1070
-static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset);
+static enum anonymous_29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset);
 // yajl_lex_utf8_char
 // file yajl_all.c line 997
-static enum anonymous$29 yajl_lex_utf8_char(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, unsigned char curChar);
+static enum anonymous_29 yajl_lex_utf8_char(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, unsigned char curChar);
 // yajl_parse
 // file ../json/yajl_api.h line 205
-enum anonymous$27 yajl_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen);
+enum anonymous_27 yajl_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen);
 // yajl_parse_integer
 // file yajl_all.c line 1541
 static signed long long int yajl_parse_integer(const unsigned char *number, unsigned int length);
@@ -1812,19 +1812,19 @@ static signed long long int yajl_parse_integer(const unsigned char *number, unsi
 static unsigned char * yajl_render_error_string(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen, signed int verbose);
 // yajl_set_default_alloc_funcs
 // file yajl_all.c line 123
-static void yajl_set_default_alloc_funcs(struct anonymous$3 *yaf);
+static void yajl_set_default_alloc_funcs(struct anonymous_3 *yaf);
 // yajl_status_to_string
 // file yajl_all.c line 198
-const char * yajl_status_to_string(enum anonymous$27 stat);
+const char * yajl_status_to_string(enum anonymous_27 stat);
 // yajl_string_decode
 // file yajl_all.c line 438
 static void yajl_string_decode(struct yajl_buf_t *buf, const unsigned char *str, unsigned long int len);
 // yajl_string_encode
 // file yajl_all.c line 354
 static void yajl_string_encode(void (* const print)(void *, const char *, unsigned long int), void *ctx, const unsigned char *str, unsigned long int len, signed int escape_solidus);
-// yajl_string_encode::print$object
+// yajl_string_encode::print_object
 //
-void print$object(void *, const char *, unsigned long int);
+void print_object(void *, const char *, unsigned long int);
 // yajl_string_scan
 // file yajl_all.c line 1057
 static unsigned long int yajl_string_scan(const unsigned char *buf, unsigned long int len, signed int utf8check);
@@ -1838,7 +1838,7 @@ static signed long int years_to_days(unsigned int yr);
 // file dbdata.c line 2902
 static signed long int ymd_to_scalar(unsigned int yr, unsigned int mo, unsigned int day);
 
-struct anonymous$3
+struct anonymous_3
 {
   // malloc
   void * (*malloc)(void *, unsigned long int);
@@ -1876,7 +1876,7 @@ struct anonymous
   signed int (*yajl_end_array)(void *);
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // page
   struct __query_result_page *page;
@@ -1884,7 +1884,7 @@ struct anonymous$16
   signed long int pidx;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // db
   struct _db_memsegment_header *db;
@@ -1902,7 +1902,7 @@ struct _wg_mpoolsubarea_header
   void *area_end;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // freeptr
   void *freeptr;
@@ -1914,24 +1914,24 @@ struct anonymous$8
   struct _wg_mpoolsubarea_header subarea_table[100l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // mpool
   void *mpool;
   // first_page
   struct __query_result_page *first_page;
   // wcursor
-  struct anonymous$16 wcursor;
+  struct anonymous_16 wcursor;
   // rcursor
-  struct anonymous$16 rcursor;
+  struct anonymous_16 rcursor;
   // res_count
   signed long int res_count;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // type
-  enum anonymous$2 type;
+  enum anonymous_2 type;
   // head
   struct __stack_entry_elem *head;
   // tail
@@ -1942,7 +1942,7 @@ struct anonymous$1
   signed int size;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __lock
   signed int __lock;
@@ -1962,12 +1962,12 @@ struct anonymous$13
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // state
   signed int state;
   // stack
-  struct anonymous$1 stack[7l];
+  struct anonymous_1 stack[7l];
   // stack_ptr
   signed int stack_ptr;
   // db
@@ -1980,7 +1980,7 @@ struct anonymous$0
   void **document;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // threadid
   signed int threadid;
@@ -1990,7 +1990,7 @@ struct anonymous$9
   unsigned long int pth;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // active
   signed long int active;
@@ -2000,7 +2000,7 @@ struct anonymous$24
   signed long int serial;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // car
   signed long int car;
@@ -2008,7 +2008,7 @@ struct anonymous$20
   signed long int cdr;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // column
   signed long int column;
@@ -2018,7 +2018,7 @@ struct anonymous$12
   signed long int value;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // count
   signed long int count;
@@ -2028,7 +2028,7 @@ struct anonymous$23
   signed long int size[20l];
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // fixed_columns
   signed long int fixed_columns;
@@ -2038,7 +2038,7 @@ struct anonymous$22
   signed long int refcount;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // key
   signed long int key;
@@ -2046,17 +2046,17 @@ struct anonymous$18
   signed long int value;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // level
   signed long int level;
   // directory
-  struct anonymous$34 **directory;
+  struct anonymous_34 **directory;
   // mpool
   void *mpool;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // level
   signed long int level;
@@ -2068,7 +2068,7 @@ struct anonymous$34
   signed long int value[8l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // next_cell
   signed long int next_cell;
@@ -2082,7 +2082,7 @@ struct anonymous$5
   volatile signed long int prev;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // number_of_indexes
   signed long int number_of_indexes;
@@ -2096,7 +2096,7 @@ struct anonymous$19
   signed long int index_template_table[128l];
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // offset
   signed long int offset;
@@ -2104,12 +2104,12 @@ struct anonymous$25
   signed long int size;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // qtype
   signed long int qtype;
   // arglist
-  struct anonymous$12 *arglist;
+  struct anonymous_12 *arglist;
   // argc
   signed long int argc;
   // column
@@ -2136,7 +2136,7 @@ struct anonymous$15
   unsigned long int res_count;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // tail
   signed long int tail;
@@ -2180,7 +2180,7 @@ struct __wg_hashidx_header
   struct _db_hash_area_header hasharea;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // t
   struct __wg_ttree_header t;
@@ -2188,7 +2188,7 @@ union anonymous$26
   struct __wg_hashidx_header h;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // type
   signed long int type;
@@ -2197,12 +2197,12 @@ struct anonymous$21
   // rec_field_index
   signed long int rec_field_index[10l];
   // ctl
-  union anonymous$26 ctl;
+  union anonymous_26 ctl;
   // template_offset
   signed long int template_offset;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // dhash_size
   unsigned long int dhash_size;
@@ -2210,7 +2210,7 @@ struct anonymous$36
   signed long int *keys;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __size
   char __size[4l];
@@ -2218,10 +2218,10 @@ union anonymous$11
   signed int __align;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __data
-  struct anonymous$13 __data;
+  struct anonymous_13 __data;
   // __size
   char __size[48l];
   // __align
@@ -2256,7 +2256,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2415,7 +2415,7 @@ struct _db_memsegment_header
   // strhash_area_header
   struct _db_hash_area_header strhash_area_header;
   // index_control_area_header
-  struct anonymous$19 index_control_area_header;
+  struct anonymous_19 index_control_area_header;
   // tnode_area_header
   struct _db_area_header tnode_area_header;
   // indexhdr_area_header
@@ -2425,13 +2425,13 @@ struct _db_memsegment_header
   // indexhash_area_header
   struct _db_area_header indexhash_area_header;
   // logging
-  struct anonymous$24 logging;
+  struct anonymous_24 logging;
   // recptr_bitmap
-  struct anonymous$25 recptr_bitmap;
+  struct anonymous_25 recptr_bitmap;
   // locks
-  struct anonymous$7 locks;
+  struct anonymous_7 locks;
   // extdbs
-  struct anonymous$23 extdbs;
+  struct anonymous_23 extdbs;
 };
 
 struct ipc_perm
@@ -2597,7 +2597,7 @@ struct yajl_buf_t
   // data
   unsigned char *data;
   // alloc
-  struct anonymous$3 *alloc;
+  struct anonymous_3 *alloc;
 };
 
 struct yajl_bytestack_t
@@ -2609,7 +2609,7 @@ struct yajl_bytestack_t
   // used
   unsigned long int used;
   // yaf
-  struct anonymous$3 *yaf;
+  struct anonymous_3 *yaf;
 };
 
 struct yajl_gen_t
@@ -2621,13 +2621,13 @@ struct yajl_gen_t
   // indentString
   const char *indentString;
   // state
-  enum anonymous$31 state[128l];
+  enum anonymous_31 state[128l];
   // print
   void (*print)(void *, const char *, unsigned long int);
   // ctx
   void *ctx;
   // alloc
-  struct anonymous$3 alloc;
+  struct anonymous_3 alloc;
 };
 
 struct yajl_handle_t
@@ -2647,7 +2647,7 @@ struct yajl_handle_t
   // stateStack
   struct yajl_bytestack_t stateStack;
   // alloc
-  struct anonymous$3 alloc;
+  struct anonymous_3 alloc;
   // flags
   unsigned int flags;
 };
@@ -2659,7 +2659,7 @@ struct yajl_lexer_t
   // charOff
   unsigned long int charOff;
   // error
-  enum anonymous$28 error;
+  enum anonymous_28 error;
   // buf
   struct yajl_buf_t *buf;
   // bufOff
@@ -2671,7 +2671,7 @@ struct yajl_lexer_t
   // validateUTF8
   unsigned int validateUTF8;
   // alloc
-  struct anonymous$3 *alloc;
+  struct anonymous_3 *alloc;
 };
 
 
@@ -2707,10 +2707,10 @@ extern struct _IO_FILE *stdout;
 volatile signed int twait_cnt;
 // twait_cv
 // file stresstest.c line 105
-union anonymous$14 twait_cv;
+union anonymous_14 twait_cv;
 // twait_mutex
 // file stresstest.c line 104
-union anonymous$10 twait_mutex;
+union anonymous_10 twait_mutex;
 // uri_scheme_table
 // file dbutil.c line 77
 struct uri_scheme_info uri_scheme_table[6l] = { { .prefix="urn:", .length=4 }, { .prefix="file:", .length=5 }, { .prefix="http://", .length=7 }, { .prefix="https://", .length=8 }, { .prefix="mailto:", .length=7 }, { .prefix=(char *)(void *)0, .length=0 } };
@@ -2783,25 +2783,25 @@ static void Utf32toUtf8(unsigned int codepoint, char *utf8Buf)
 
 // add_elem
 // file dbjson.c line 525
-static signed int add_elem(struct anonymous$0 *ctx, signed long int enc)
+static signed int add_elem(struct anonymous_0 *ctx, signed long int enc)
 {
-  struct anonymous$1 *e;
+  struct anonymous_1 *e;
   struct __stack_entry_elem *tmp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ctx->stack_ptr >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ctx->stack_ptr >= 7 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ctx->stack_ptr >= 7 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     e = &ctx->stack[(signed long int)ctx->stack_ptr];
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct __stack_entry_elem) /*16ul*/ );
-    tmp = (struct __stack_entry_elem *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct __stack_entry_elem) /*16ul*/ );
+    tmp = (struct __stack_entry_elem *)return_value_malloc_2;
     if(tmp == ((struct __stack_entry_elem *)NULL))
       return 0;
 
@@ -2828,8 +2828,8 @@ static signed long int add_index_template(void *db, signed long int *matchrec, s
   signed long int *ilist;
   signed long int *meta;
   void *rec;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  struct anonymous$22 *tmpl;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  struct anonymous_22 *tmpl;
   signed long int fixed_columns = (signed long int)0;
   signed long int template_offset = (signed long int)0;
   signed long int last_fixed = (signed long int)0;
@@ -2851,9 +2851,9 @@ static signed long int add_index_template(void *db, signed long int *matchrec, s
     }
 
   }
-  signed long int tmp_if_expr$5;
-  signed long int return_value_wg_get_field$3;
-  signed long int return_value_wg_compare$4;
+  signed long int tmp_if_expr_5;
+  signed long int return_value_wg_get_field_3;
+  signed long int return_value_wg_compare_4;
   if(fixed_columns == 0l)
     return (signed long int)0;
 
@@ -2863,41 +2863,41 @@ static signed long int add_index_template(void *db, signed long int *matchrec, s
     ilist = &dbh->index_control_area_header.index_template_list;
     while(!(*ilist == 0l))
     {
-      struct anonymous$20 *ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+      struct anonymous_20 *ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
       if(ilistelem->car == 0l)
       {
         show_index_error(db, "Invalid header in index tempate list");
         return (signed long int)0;
       }
 
-      tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+      tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
       if(tmpl->fixed_columns == fixed_columns)
       {
-        rec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
-        signed long int return_value_wg_get_record_len$1;
-        return_value_wg_get_record_len$1=wg_get_record_len(db, rec);
-        if(!(reclen == return_value_wg_get_record_len$1))
+        rec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
+        signed long int return_value_wg_get_record_len_1;
+        return_value_wg_get_record_len_1=wg_get_record_len(db, rec);
+        if(!(reclen == return_value_wg_get_record_len_1))
           goto nextelem;
 
         i = 0;
         for( ; !((signed long int)i >= reclen); i = i + 1)
         {
-          signed long int return_value_wg_get_encoded_type$6;
-          return_value_wg_get_encoded_type$6=wg_get_encoded_type(db, matchrec[(signed long int)i]);
-          if(!(return_value_wg_get_encoded_type$6 == 14l))
+          signed long int return_value_wg_get_encoded_type_6;
+          return_value_wg_get_encoded_type_6=wg_get_encoded_type(db, matchrec[(signed long int)i]);
+          if(!(return_value_wg_get_encoded_type_6 == 14l))
           {
-            signed long int return_value_wg_get_field$2;
-            return_value_wg_get_field$2=wg_get_field(db, rec, (signed long int)i);
-            if(matchrec[(signed long int)i] == return_value_wg_get_field$2)
-              tmp_if_expr$5 = (signed long int)0;
+            signed long int return_value_wg_get_field_2;
+            return_value_wg_get_field_2=wg_get_field(db, rec, (signed long int)i);
+            if(matchrec[(signed long int)i] == return_value_wg_get_field_2)
+              tmp_if_expr_5 = (signed long int)0;
 
             else
             {
-              return_value_wg_get_field$3=wg_get_field(db, rec, (signed long int)i);
-              return_value_wg_compare$4=wg_compare(db, matchrec[(signed long int)i], return_value_wg_get_field$3, 7);
-              tmp_if_expr$5 = return_value_wg_compare$4;
+              return_value_wg_get_field_3=wg_get_field(db, rec, (signed long int)i);
+              return_value_wg_compare_4=wg_compare(db, matchrec[(signed long int)i], return_value_wg_get_field_3, 7);
+              tmp_if_expr_5 = return_value_wg_compare_4;
             }
-            if(!(tmp_if_expr$5 == 0l))
+            if(!(tmp_if_expr_5 == 0l))
               goto nextelem;
 
           }
@@ -2924,21 +2924,21 @@ static signed long int add_index_template(void *db, signed long int *matchrec, s
       i = 0;
       for( ; !((signed long int)i >= reclen); i = i + 1)
       {
-        signed long int return_value_wg_set_new_field$7;
-        return_value_wg_set_new_field$7=wg_set_new_field(db, rec, (signed long int)i, matchrec[(signed long int)i]);
-        if(!(return_value_wg_set_new_field$7 >= 0l))
+        signed long int return_value_wg_set_new_field_7;
+        return_value_wg_set_new_field_7=wg_set_new_field(db, rec, (signed long int)i, matchrec[(signed long int)i]);
+        if(!(return_value_wg_set_new_field_7 >= 0l))
           return (signed long int)0;
 
       }
       meta = (signed long int *)rec + (signed long int)1;
       *meta = *meta | (signed long int)(0x1 | 0x2);
       template_offset=wg_alloc_fixlen_object(db, (void *)&dbh->indextmpl_area_header);
-      tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + template_offset);
-      tmpl->offset_matchrec = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
+      tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + template_offset);
+      tmpl->offset_matchrec = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
       tmpl->fixed_columns = fixed_columns;
-      signed long int return_value_insert_into_list$8;
-      return_value_insert_into_list$8=insert_into_list(db, ilist, template_offset);
-      if(return_value_insert_into_list$8 == 0l)
+      signed long int return_value_insert_into_list_8;
+      return_value_insert_into_list_8=insert_into_list(db, ilist, template_offset);
+      if(return_value_insert_into_list_8 == 0l)
         return (signed long int)0;
 
       else
@@ -2949,16 +2949,16 @@ static signed long int add_index_template(void *db, signed long int *matchrec, s
 
 // add_key
 // file dbjson.c line 553
-static signed int add_key(struct anonymous$0 *ctx, char *key)
+static signed int add_key(struct anonymous_0 *ctx, char *key)
 {
-  struct anonymous$1 *e;
-  _Bool tmp_if_expr$1;
+  struct anonymous_1 *e;
+  _Bool tmp_if_expr_1;
   if(!(ctx->stack_ptr >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ctx->stack_ptr >= 7 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ctx->stack_ptr >= 7 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -2972,16 +2972,16 @@ static signed int add_key(struct anonymous$0 *ctx, char *key)
 
 // add_literal
 // file dbjson.c line 571
-static signed int add_literal(struct anonymous$0 *ctx, signed long int val)
+static signed int add_literal(struct anonymous_0 *ctx, signed long int val)
 {
-  struct anonymous$1 *e;
-  _Bool tmp_if_expr$1;
+  struct anonymous_1 *e;
+  _Bool tmp_if_expr_1;
   if(!(ctx->stack_ptr >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ctx->stack_ptr >= 7 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ctx->stack_ptr >= 7 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -2989,9 +2989,9 @@ static signed int add_literal(struct anonymous$0 *ctx, signed long int val)
     e = &ctx->stack[(signed long int)ctx->stack_ptr];
     if((signed int)e->type == ARRAY)
     {
-      signed int return_value_add_elem$2;
-      return_value_add_elem$2=add_elem(ctx, val);
-      return return_value_add_elem$2;
+      signed int return_value_add_elem_2;
+      return_value_add_elem_2=add_elem(ctx, val);
+      return return_value_add_elem_2;
     }
 
     else
@@ -3006,18 +3006,18 @@ static signed int add_literal(struct anonymous$0 *ctx, signed long int val)
       if(rec == NULL)
         return 0;
 
-      signed long int return_value_wg_encode_record$3;
-      return_value_wg_encode_record$3=wg_encode_record(ctx->db, rec);
-      signed int return_value_add_elem$4;
-      return_value_add_elem$4=add_elem(ctx, return_value_wg_encode_record$3);
-      return return_value_add_elem$4;
+      signed long int return_value_wg_encode_record_3;
+      return_value_wg_encode_record_3=wg_encode_record(ctx->db, rec);
+      signed int return_value_add_elem_4;
+      return_value_add_elem_4=add_elem(ctx, return_value_wg_encode_record_3);
+      return return_value_add_elem_4;
     }
   }
 }
 
 // add_to_bucket
 // file dbhash.c line 803
-static signed long int add_to_bucket(struct anonymous$34 *bucket, signed long int key, signed long int value)
+static signed long int add_to_bucket(struct anonymous_34 *bucket, signed long int key, signed long int value)
 {
   if(bucket->fill >= 8l)
     return bucket->fill + (signed long int)1;
@@ -3035,7 +3035,7 @@ static signed long int add_to_bucket(struct anonymous$34 *bucket, signed long in
 // file dballoc.c line 305
 static signed long int alloc_db_segmentchunk(void *db, signed long int size)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int lastfree;
   signed long int nextfree;
   signed long int i;
@@ -3069,15 +3069,15 @@ static signed long int alloc_db_segmentchunk(void *db, signed long int size)
 // file dblock.c line 1379
 static signed long int alloc_lock(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int t = dbh->locks.freelist;
-  struct anonymous$5 *tmp;
+  struct anonymous_5 *tmp;
   if(t == 0l)
     return (signed long int)0;
 
   else
   {
-    tmp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + t);
+    tmp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + t);
     dbh->locks.freelist = tmp->next_cell;
     return t;
   }
@@ -3085,19 +3085,19 @@ static signed long int alloc_lock(void *db)
 
 // append_resultset
 // file dbquery.c line 1388
-static signed long int append_resultset(void *db, struct anonymous$17 *set, signed long int offset)
+static signed long int append_resultset(void *db, struct anonymous_17 *set, signed long int offset)
 {
   if(set->wcursor.pidx >= 63l)
   {
     struct __query_result_page *newpage;
-    void *return_value_wg_alloc_mpool$1;
-    return_value_wg_alloc_mpool$1=wg_alloc_mpool(db, set->mpool, (signed int)sizeof(struct __query_result_page) /*512ul*/ );
-    newpage = (struct __query_result_page *)return_value_wg_alloc_mpool$1;
+    void *return_value_wg_alloc_mpool_1;
+    return_value_wg_alloc_mpool_1=wg_alloc_mpool(db, set->mpool, (signed int)sizeof(struct __query_result_page) /*512ul*/ );
+    newpage = (struct __query_result_page *)return_value_wg_alloc_mpool_1;
     if(newpage == ((struct __query_result_page *)NULL))
     {
-      signed long int return_value_show_query_error$2;
-      return_value_show_query_error$2=show_query_error(db, "Failed to allocate a resultset page");
-      return return_value_show_query_error$2;
+      signed long int return_value_show_query_error_2;
+      return_value_show_query_error_2=show_query_error(db, "Failed to allocate a resultset page");
+      return return_value_show_query_error_2;
     }
 
     memset((void *)newpage->rows, 0, sizeof(signed long int) /*8ul*/  * (unsigned long int)63);
@@ -3114,9 +3114,9 @@ static signed long int append_resultset(void *db, struct anonymous$17 *set, sign
     set->wcursor.pidx = (signed long int)0;
   }
 
-  signed long int tmp_post$3 = set->wcursor.pidx;
+  signed long int tmp_post_3 = set->wcursor.pidx;
   set->wcursor.pidx = set->wcursor.pidx + 1l;
-  set->wcursor.page->rows[tmp_post$3] = offset;
+  set->wcursor.page->rows[tmp_post_3] = offset;
   set->res_count = set->res_count + 1l;
   return (signed long int)0;
 }
@@ -3125,10 +3125,10 @@ static signed long int append_resultset(void *db, struct anonymous$17 *set, sign
 // file dbjson.c line 597
 static signed int array_begin_cb(void *cb_ctx)
 {
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
-  signed int return_value_push$1;
-  return_value_push$1=push(ctx, (enum anonymous$2)ARRAY);
-  if(return_value_push$1 == 0)
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
+  signed int return_value_push_1;
+  return_value_push_1=push(ctx, (enum anonymous_2)ARRAY);
+  if(return_value_push_1 == 0)
     return 0;
 
   else
@@ -3139,10 +3139,10 @@ static signed int array_begin_cb(void *cb_ctx)
 // file dbjson.c line 608
 static signed int array_end_cb(void *cb_ctx)
 {
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
-  signed int return_value_pop$1;
-  return_value_pop$1=pop(ctx);
-  if(return_value_pop$1 == 0)
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
+  signed int return_value_pop_1;
+  return_value_pop_1=pop(ctx);
+  if(return_value_pop_1 == 0)
     return 0;
 
   else
@@ -3151,38 +3151,38 @@ static signed int array_end_cb(void *cb_ctx)
 
 // check_and_merge_by_key
 // file dbquery.c line 1684
-static signed long int check_and_merge_by_key(void *db, void *rec, struct anonymous$18 *arg, struct anonymous$17 *next_set)
+static signed long int check_and_merge_by_key(void *db, void *rec, struct anonymous_18 *arg, struct anonymous_17 *next_set)
 {
   signed long int rc = (signed long int)0;
   signed long int reclen;
   reclen=wg_get_record_len(db, rec);
-  signed long int tmp_if_expr$9;
-  signed long int return_value_wg_compare$8;
-  signed long int return_value_wg_get_encoded_type$7;
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_get_field$4;
-  signed long int return_value_wg_compare$5;
+  signed long int tmp_if_expr_9;
+  signed long int return_value_wg_compare_8;
+  signed long int return_value_wg_get_encoded_type_7;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_get_field_4;
+  signed long int return_value_wg_compare_5;
   if(reclen >= 3l)
   {
     signed long int k;
     k=wg_get_field(db, rec, (signed long int)(0 + 2));
     if(k == arg->value)
-      tmp_if_expr$9 = (signed long int)0;
+      tmp_if_expr_9 = (signed long int)0;
 
     else
     {
-      return_value_wg_compare$8=wg_compare(db, k, arg->value, 7);
-      tmp_if_expr$9 = return_value_wg_compare$8;
+      return_value_wg_compare_8=wg_compare(db, k, arg->value, 7);
+      tmp_if_expr_9 = return_value_wg_compare_8;
     }
-    if(tmp_if_expr$9 == 0l)
+    if(tmp_if_expr_9 == 0l)
     {
       void *doc;
       doc=wg_find_document(db, rec);
       if(!(doc == NULL))
       {
-        signed long int return_value_append_resultset$1;
-        return_value_append_resultset$1=append_resultset(db, next_set, (signed long int)((char *)doc - (char *)((struct anonymous$6 *)db)->db));
-        if(return_value_append_resultset$1 == 0l)
+        signed long int return_value_append_resultset_1;
+        return_value_append_resultset_1=append_resultset(db, next_set, (signed long int)((char *)doc - (char *)((struct anonymous_6 *)db)->db));
+        if(return_value_append_resultset_1 == 0l)
           rc = (signed long int)1;
 
         else
@@ -3195,8 +3195,8 @@ static signed long int check_and_merge_by_key(void *db, void *rec, struct anonym
 
     else
     {
-      return_value_wg_get_encoded_type$7=wg_get_encoded_type(db, k);
-      if(return_value_wg_get_encoded_type$7 == 2l)
+      return_value_wg_get_encoded_type_7=wg_get_encoded_type(db, k);
+      if(return_value_wg_get_encoded_type_7 == 2l)
       {
         void *arec;
         arec=wg_decode_record(db, k);
@@ -3207,26 +3207,26 @@ static signed long int check_and_merge_by_key(void *db, void *rec, struct anonym
           signed int j = 0;
           for( ; !((signed long int)j >= areclen); j = j + 1)
           {
-            signed long int return_value_wg_get_field$3;
-            return_value_wg_get_field$3=wg_get_field(db, arec, (signed long int)j);
-            if(return_value_wg_get_field$3 == arg->value)
-              tmp_if_expr$6 = (signed long int)0;
+            signed long int return_value_wg_get_field_3;
+            return_value_wg_get_field_3=wg_get_field(db, arec, (signed long int)j);
+            if(return_value_wg_get_field_3 == arg->value)
+              tmp_if_expr_6 = (signed long int)0;
 
             else
             {
-              return_value_wg_get_field$4=wg_get_field(db, arec, (signed long int)j);
-              return_value_wg_compare$5=wg_compare(db, return_value_wg_get_field$4, arg->value, 7);
-              tmp_if_expr$6 = return_value_wg_compare$5;
+              return_value_wg_get_field_4=wg_get_field(db, arec, (signed long int)j);
+              return_value_wg_compare_5=wg_compare(db, return_value_wg_get_field_4, arg->value, 7);
+              tmp_if_expr_6 = return_value_wg_compare_5;
             }
-            if(tmp_if_expr$6 == 0l)
+            if(tmp_if_expr_6 == 0l)
             {
-              void *check_and_merge_by_key$$1$$1$$2$$1$$1$$1$$1$$doc;
-              check_and_merge_by_key$$1$$1$$2$$1$$1$$1$$1$$doc=wg_find_document(db, rec);
-              if(!(check_and_merge_by_key$$1$$1$$2$$1$$1$$1$$1$$doc == NULL))
+              void *check_and_merge_by_key__1__1__2__1__1__1__1__doc;
+              check_and_merge_by_key__1__1__2__1__1__1__1__doc=wg_find_document(db, rec);
+              if(!(check_and_merge_by_key__1__1__2__1__1__1__1__doc == NULL))
               {
-                signed long int return_value_append_resultset$2;
-                return_value_append_resultset$2=append_resultset(db, next_set, (signed long int)((char *)check_and_merge_by_key$$1$$1$$2$$1$$1$$1$$1$$doc - (char *)((struct anonymous$6 *)db)->db));
-                if(return_value_append_resultset$2 == 0l)
+                signed long int return_value_append_resultset_2;
+                return_value_append_resultset_2=append_resultset(db, next_set, (signed long int)((char *)check_and_merge_by_key__1__1__2__1__1__1__1__doc - (char *)((struct anonymous_6 *)db)->db));
+                if(return_value_append_resultset_2 == 0l)
                   rc = (signed long int)1;
 
                 else
@@ -3251,54 +3251,54 @@ static signed long int check_and_merge_by_key(void *db, void *rec, struct anonym
 
 // check_and_merge_by_kv
 // file dbquery.c line 1645
-static signed long int check_and_merge_by_kv(void *db, void *rec, struct anonymous$18 *arg, struct anonymous$17 *next_set)
+static signed long int check_and_merge_by_kv(void *db, void *rec, struct anonymous_18 *arg, struct anonymous_17 *next_set)
 {
   signed long int rc = (signed long int)0;
   signed long int reclen;
   reclen=wg_get_record_len(db, rec);
-  signed long int tmp_if_expr$13;
-  signed long int return_value_wg_get_field$11;
-  signed long int return_value_wg_compare$12;
-  signed long int tmp_if_expr$9;
-  signed long int return_value_wg_compare$8;
-  signed long int return_value_wg_get_encoded_type$7;
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_get_field$4;
-  signed long int return_value_wg_compare$5;
+  signed long int tmp_if_expr_13;
+  signed long int return_value_wg_get_field_11;
+  signed long int return_value_wg_compare_12;
+  signed long int tmp_if_expr_9;
+  signed long int return_value_wg_compare_8;
+  signed long int return_value_wg_get_encoded_type_7;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_get_field_4;
+  signed long int return_value_wg_compare_5;
   if(reclen >= 3l)
   {
-    signed long int return_value_wg_get_field$10;
-    return_value_wg_get_field$10=wg_get_field(db, rec, (signed long int)(0 + 1));
-    if(return_value_wg_get_field$10 == arg->key)
-      tmp_if_expr$13 = (signed long int)0;
+    signed long int return_value_wg_get_field_10;
+    return_value_wg_get_field_10=wg_get_field(db, rec, (signed long int)(0 + 1));
+    if(return_value_wg_get_field_10 == arg->key)
+      tmp_if_expr_13 = (signed long int)0;
 
     else
     {
-      return_value_wg_get_field$11=wg_get_field(db, rec, (signed long int)(0 + 1));
-      return_value_wg_compare$12=wg_compare(db, return_value_wg_get_field$11, arg->key, 7);
-      tmp_if_expr$13 = return_value_wg_compare$12;
+      return_value_wg_get_field_11=wg_get_field(db, rec, (signed long int)(0 + 1));
+      return_value_wg_compare_12=wg_compare(db, return_value_wg_get_field_11, arg->key, 7);
+      tmp_if_expr_13 = return_value_wg_compare_12;
     }
-    if(tmp_if_expr$13 == 0l)
+    if(tmp_if_expr_13 == 0l)
     {
       signed long int k;
       k=wg_get_field(db, rec, (signed long int)(0 + 2));
       if(k == arg->value)
-        tmp_if_expr$9 = (signed long int)0;
+        tmp_if_expr_9 = (signed long int)0;
 
       else
       {
-        return_value_wg_compare$8=wg_compare(db, k, arg->value, 7);
-        tmp_if_expr$9 = return_value_wg_compare$8;
+        return_value_wg_compare_8=wg_compare(db, k, arg->value, 7);
+        tmp_if_expr_9 = return_value_wg_compare_8;
       }
-      if(tmp_if_expr$9 == 0l)
+      if(tmp_if_expr_9 == 0l)
       {
         void *doc;
         doc=wg_find_document(db, rec);
         if(!(doc == NULL))
         {
-          signed long int return_value_append_resultset$1;
-          return_value_append_resultset$1=append_resultset(db, next_set, (signed long int)((char *)doc - (char *)((struct anonymous$6 *)db)->db));
-          if(return_value_append_resultset$1 == 0l)
+          signed long int return_value_append_resultset_1;
+          return_value_append_resultset_1=append_resultset(db, next_set, (signed long int)((char *)doc - (char *)((struct anonymous_6 *)db)->db));
+          if(return_value_append_resultset_1 == 0l)
             rc = (signed long int)1;
 
           else
@@ -3311,8 +3311,8 @@ static signed long int check_and_merge_by_kv(void *db, void *rec, struct anonymo
 
       else
       {
-        return_value_wg_get_encoded_type$7=wg_get_encoded_type(db, k);
-        if(return_value_wg_get_encoded_type$7 == 2l)
+        return_value_wg_get_encoded_type_7=wg_get_encoded_type(db, k);
+        if(return_value_wg_get_encoded_type_7 == 2l)
         {
           void *arec;
           arec=wg_decode_record(db, k);
@@ -3323,26 +3323,26 @@ static signed long int check_and_merge_by_kv(void *db, void *rec, struct anonymo
             signed int j = 0;
             for( ; !((signed long int)j >= areclen); j = j + 1)
             {
-              signed long int return_value_wg_get_field$3;
-              return_value_wg_get_field$3=wg_get_field(db, arec, (signed long int)j);
-              if(return_value_wg_get_field$3 == arg->value)
-                tmp_if_expr$6 = (signed long int)0;
+              signed long int return_value_wg_get_field_3;
+              return_value_wg_get_field_3=wg_get_field(db, arec, (signed long int)j);
+              if(return_value_wg_get_field_3 == arg->value)
+                tmp_if_expr_6 = (signed long int)0;
 
               else
               {
-                return_value_wg_get_field$4=wg_get_field(db, arec, (signed long int)j);
-                return_value_wg_compare$5=wg_compare(db, return_value_wg_get_field$4, arg->value, 7);
-                tmp_if_expr$6 = return_value_wg_compare$5;
+                return_value_wg_get_field_4=wg_get_field(db, arec, (signed long int)j);
+                return_value_wg_compare_5=wg_compare(db, return_value_wg_get_field_4, arg->value, 7);
+                tmp_if_expr_6 = return_value_wg_compare_5;
               }
-              if(tmp_if_expr$6 == 0l)
+              if(tmp_if_expr_6 == 0l)
               {
-                void *check_and_merge_by_kv$$1$$1$$1$$2$$1$$1$$1$$1$$doc;
-                check_and_merge_by_kv$$1$$1$$1$$2$$1$$1$$1$$1$$doc=wg_find_document(db, rec);
-                if(!(check_and_merge_by_kv$$1$$1$$1$$2$$1$$1$$1$$1$$doc == NULL))
+                void *check_and_merge_by_kv__1__1__1__2__1__1__1__1__doc;
+                check_and_merge_by_kv__1__1__1__2__1__1__1__1__doc=wg_find_document(db, rec);
+                if(!(check_and_merge_by_kv__1__1__1__2__1__1__1__1__doc == NULL))
                 {
-                  signed long int return_value_append_resultset$2;
-                  return_value_append_resultset$2=append_resultset(db, next_set, (signed long int)((char *)check_and_merge_by_kv$$1$$1$$1$$2$$1$$1$$1$$1$$doc - (char *)((struct anonymous$6 *)db)->db));
-                  if(return_value_append_resultset$2 == 0l)
+                  signed long int return_value_append_resultset_2;
+                  return_value_append_resultset_2=append_resultset(db, next_set, (signed long int)((char *)check_and_merge_by_kv__1__1__1__2__1__1__1__1__doc - (char *)((struct anonymous_6 *)db)->db));
+                  if(return_value_append_resultset_2 == 0l)
                     rc = (signed long int)1;
 
                   else
@@ -3369,7 +3369,7 @@ static signed long int check_and_merge_by_kv(void *db, void *rec, struct anonymo
 
 // check_and_merge_recursively
 // file dbquery.c line 1718
-static signed long int check_and_merge_recursively(void *db, void *rec, struct anonymous$18 *arg, struct anonymous$17 *next_set, signed int depth)
+static signed long int check_and_merge_recursively(void *db, void *rec, struct anonymous_18 *arg, struct anonymous_17 *next_set, signed int depth)
 {
   signed long int i;
   signed long int reclen;
@@ -3382,9 +3382,9 @@ static signed long int check_and_merge_recursively(void *db, void *rec, struct a
   {
     if(!(depth >= 1))
     {
-      signed long int return_value_show_query_error$1;
-      return_value_show_query_error$1=show_query_error(db, "scanning document: recursion too deep");
-      return return_value_show_query_error$1;
+      signed long int return_value_show_query_error_1;
+      return_value_show_query_error_1=show_query_error(db, "scanning document: recursion too deep");
+      return return_value_show_query_error_1;
     }
 
     reclen=wg_get_record_len(db, rec);
@@ -3397,9 +3397,9 @@ static signed long int check_and_merge_recursively(void *db, void *rec, struct a
       type=wg_get_encoded_type(db, enc);
       if(type == 2l)
       {
-        void *return_value_wg_decode_record$2;
-        return_value_wg_decode_record$2=wg_decode_record(db, enc);
-        rc=check_and_merge_recursively(db, return_value_wg_decode_record$2, arg, next_set, depth - 1);
+        void *return_value_wg_decode_record_2;
+        return_value_wg_decode_record_2=wg_decode_record(db, enc);
+        rc=check_and_merge_recursively(db, return_value_wg_decode_record_2, arg, next_set, depth - 1);
         if(!(rc == 0l))
           return rc;
 
@@ -3412,26 +3412,26 @@ static signed long int check_and_merge_recursively(void *db, void *rec, struct a
 
 // check_arglist
 // file dbquery.c line 285
-static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *arglist, signed long int argc)
+static signed long int check_arglist(void *db, void *rec, struct anonymous_12 *arglist, signed long int argc)
 {
   signed int i;
   signed int reclen;
-  signed long int return_value_wg_get_record_len$1;
-  return_value_wg_get_record_len$1=wg_get_record_len(db, rec);
-  reclen = (signed int)return_value_wg_get_record_len$1;
+  signed long int return_value_wg_get_record_len_1;
+  return_value_wg_get_record_len_1=wg_get_record_len(db, rec);
+  reclen = (signed int)return_value_wg_get_record_len_1;
   i = 0;
-  signed long int tmp_if_expr$3;
-  signed long int return_value_wg_compare$2;
-  signed long int tmp_if_expr$5;
-  signed long int return_value_wg_compare$4;
-  signed long int tmp_if_expr$7;
-  signed long int return_value_wg_compare$6;
-  signed long int tmp_if_expr$9;
-  signed long int return_value_wg_compare$8;
-  signed long int tmp_if_expr$11;
-  signed long int return_value_wg_compare$10;
-  signed long int tmp_if_expr$13;
-  signed long int return_value_wg_compare$12;
+  signed long int tmp_if_expr_3;
+  signed long int return_value_wg_compare_2;
+  signed long int tmp_if_expr_5;
+  signed long int return_value_wg_compare_4;
+  signed long int tmp_if_expr_7;
+  signed long int return_value_wg_compare_6;
+  signed long int tmp_if_expr_9;
+  signed long int return_value_wg_compare_8;
+  signed long int tmp_if_expr_11;
+  signed long int return_value_wg_compare_10;
+  signed long int tmp_if_expr_13;
+  signed long int return_value_wg_compare_12;
   for( ; !((signed long int)i >= argc); i = i + 1)
   {
     signed long int encoded;
@@ -3445,14 +3445,14 @@ static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *a
       case (signed long int)0x0001:
       {
         if(encoded == (arglist + (signed long int)i)->value)
-          tmp_if_expr$3 = (signed long int)0;
+          tmp_if_expr_3 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$2=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
-          tmp_if_expr$3 = return_value_wg_compare$2;
+          return_value_wg_compare_2=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
+          tmp_if_expr_3 = return_value_wg_compare_2;
         }
-        if(!(tmp_if_expr$3 == 0l))
+        if(!(tmp_if_expr_3 == 0l))
           return (signed long int)0;
 
         break;
@@ -3460,14 +3460,14 @@ static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *a
       case (signed long int)0x0004:
       {
         if(encoded == (arglist + (signed long int)i)->value)
-          tmp_if_expr$5 = (signed long int)0;
+          tmp_if_expr_5 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$4=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
-          tmp_if_expr$5 = return_value_wg_compare$4;
+          return_value_wg_compare_4=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
+          tmp_if_expr_5 = return_value_wg_compare_4;
         }
-        if(!(tmp_if_expr$5 == -1l))
+        if(!(tmp_if_expr_5 == -1l))
           return (signed long int)0;
 
         break;
@@ -3475,14 +3475,14 @@ static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *a
       case (signed long int)0x0008:
       {
         if(encoded == (arglist + (signed long int)i)->value)
-          tmp_if_expr$7 = (signed long int)0;
+          tmp_if_expr_7 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$6=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
-          tmp_if_expr$7 = return_value_wg_compare$6;
+          return_value_wg_compare_6=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
+          tmp_if_expr_7 = return_value_wg_compare_6;
         }
-        if(!(tmp_if_expr$7 == 1l))
+        if(!(tmp_if_expr_7 == 1l))
           return (signed long int)0;
 
         break;
@@ -3490,14 +3490,14 @@ static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *a
       case (signed long int)0x0010:
       {
         if(encoded == (arglist + (signed long int)i)->value)
-          tmp_if_expr$9 = (signed long int)0;
+          tmp_if_expr_9 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$8=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
-          tmp_if_expr$9 = return_value_wg_compare$8;
+          return_value_wg_compare_8=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
+          tmp_if_expr_9 = return_value_wg_compare_8;
         }
-        if(tmp_if_expr$9 == 1l)
+        if(tmp_if_expr_9 == 1l)
           return (signed long int)0;
 
         break;
@@ -3505,14 +3505,14 @@ static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *a
       case (signed long int)0x0020:
       {
         if(encoded == (arglist + (signed long int)i)->value)
-          tmp_if_expr$11 = (signed long int)0;
+          tmp_if_expr_11 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$10=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
-          tmp_if_expr$11 = return_value_wg_compare$10;
+          return_value_wg_compare_10=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
+          tmp_if_expr_11 = return_value_wg_compare_10;
         }
-        if(tmp_if_expr$11 == -1l)
+        if(tmp_if_expr_11 == -1l)
           return (signed long int)0;
 
         break;
@@ -3520,14 +3520,14 @@ static signed long int check_arglist(void *db, void *rec, struct anonymous$12 *a
       case (signed long int)0x0002:
       {
         if(encoded == (arglist + (signed long int)i)->value)
-          tmp_if_expr$13 = (signed long int)0;
+          tmp_if_expr_13 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$12=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
-          tmp_if_expr$13 = return_value_wg_compare$12;
+          return_value_wg_compare_12=wg_compare(db, encoded, (arglist + (signed long int)i)->value, 7);
+          tmp_if_expr_13 = return_value_wg_compare_12;
         }
-        if(tmp_if_expr$13 == 0l)
+        if(tmp_if_expr_13 == 0l)
           return (signed long int)0;
 
         break;
@@ -3551,11 +3551,11 @@ void check_data(void *db, signed int wcnt)
 
   else
   {
-    signed long int return_value_wg_get_field$1;
-    return_value_wg_get_field$1=wg_get_field(db, rec, (signed long int)0);
-    signed long int return_value_wg_decode_int$2;
-    return_value_wg_decode_int$2=wg_decode_int(db, return_value_wg_get_field$1);
-    cksum = (signed int)return_value_wg_decode_int$2;
+    signed long int return_value_wg_get_field_1;
+    return_value_wg_get_field_1=wg_get_field(db, rec, (signed long int)0);
+    signed long int return_value_wg_decode_int_2;
+    return_value_wg_decode_int_2=wg_decode_int(db, return_value_wg_get_field_1);
+    cksum = (signed int)return_value_wg_decode_int_2;
     if(!(cksum == 100000 * wcnt))
       fprintf(stderr, "Database check failed: bad checksum (%d != %d).\n", cksum, wcnt * 100000);
 
@@ -3593,15 +3593,15 @@ static signed long int create_hash_index(void *db, signed long int index_id)
 {
   unsigned int rowsprocessed;
   void *rec;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   signed long int type = hdr->type;
   signed long int firstcol = hdr->rec_field_index[(signed long int)0];
   signed long int i;
-  signed long int return_value_wg_create_hash$1;
-  return_value_wg_create_hash$1=wg_create_hash(db, &hdr->ctl.h.hasharea, (signed long int)0);
-  signed long int tmp_if_expr$4;
-  signed long int return_value_wg_match_template$3;
-  if(!(return_value_wg_create_hash$1 == 0l))
+  signed long int return_value_wg_create_hash_1;
+  return_value_wg_create_hash_1=wg_create_hash(db, &hdr->ctl.h.hasharea, (signed long int)0);
+  signed long int tmp_if_expr_4;
+  signed long int return_value_wg_match_template_3;
+  if(!(return_value_wg_create_hash_1 == 0l))
     return (signed long int)-1;
 
   else
@@ -3610,22 +3610,22 @@ static signed long int create_hash_index(void *db, signed long int index_id)
     rowsprocessed = (unsigned int)0;
     while(!(rec == NULL))
     {
-      signed long int return_value_wg_get_record_len$2;
-      return_value_wg_get_record_len$2=wg_get_record_len(db, rec);
-      if(firstcol >= return_value_wg_get_record_len$2)
+      signed long int return_value_wg_get_record_len_2;
+      return_value_wg_get_record_len_2=wg_get_record_len(db, rec);
+      if(firstcol >= return_value_wg_get_record_len_2)
         rec=wg_get_next_record(db, rec);
 
       else
       {
         if(!(hdr->template_offset == 0l))
         {
-          return_value_wg_match_template$3=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset), rec);
-          tmp_if_expr$4 = return_value_wg_match_template$3;
+          return_value_wg_match_template_3=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset), rec);
+          tmp_if_expr_4 = return_value_wg_match_template_3;
         }
 
         else
-          tmp_if_expr$4 = (signed long int)1;
-        if(!(tmp_if_expr$4 == 0l))
+          tmp_if_expr_4 = (signed long int)1;
+        if(!(tmp_if_expr_4 == 0l))
         {
           if(type == 61l)
           {
@@ -3658,16 +3658,16 @@ static signed long int create_hash_index(void *db, signed long int index_id)
 
 // create_resultset
 // file dbquery.c line 1341
-static struct anonymous$17 * create_resultset(void *db)
+static struct anonymous_17 * create_resultset(void *db)
 {
-  struct anonymous$17 *set;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$17) /*56ul*/ );
-  set = (struct anonymous$17 *)return_value_malloc$1;
-  if(set == ((struct anonymous$17 *)NULL))
+  struct anonymous_17 *set;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_17) /*56ul*/ );
+  set = (struct anonymous_17 *)return_value_malloc_1;
+  if(set == ((struct anonymous_17 *)NULL))
   {
     show_query_error(db, "Failed to allocate result set");
-    return (struct anonymous$17 *)(void *)0;
+    return (struct anonymous_17 *)(void *)0;
   }
 
   else
@@ -3683,7 +3683,7 @@ static struct anonymous$17 * create_resultset(void *db)
     {
       show_query_error(db, "Failed to allocate result memory pool");
       free((void *)set);
-      return (struct anonymous$17 *)(void *)0;
+      return (struct anonymous_17 *)(void *)0;
     }
 
     else
@@ -3702,9 +3702,9 @@ static void * create_shared_memory(signed int key, signed long int size, signed 
   shmid=shmget((signed int)key, (unsigned long int)size, shmflg);
   if(!(shmid >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    switch(*return_value___errno_location$1)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    switch(*return_value___errno_location_1)
     {
       case 17:
       {
@@ -3746,11 +3746,11 @@ static signed long int create_ttree_index(void *db, signed long int index_id)
   unsigned int rowsprocessed;
   struct wg_tnode *nodest;
   void *rec;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   signed long int column = hdr->rec_field_index[(signed long int)0];
   node=wg_alloc_fixlen_object(db, (void *)&dbh->tnode_area_header);
-  nodest = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node);
+  nodest = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node);
   nodest->parent_offset = (signed long int)0;
   nodest->left_subtree_height = (unsigned char)0;
   nodest->right_subtree_height = (unsigned char)0;
@@ -3766,26 +3766,26 @@ static signed long int create_ttree_index(void *db, signed long int index_id)
   hdr->ctl.t.offset_max_node = node;
   rec=wg_get_first_record(db);
   rowsprocessed = (unsigned int)0;
-  signed long int tmp_if_expr$3;
-  signed long int return_value_wg_match_template$2;
+  signed long int tmp_if_expr_3;
+  signed long int return_value_wg_match_template_2;
   while(!(rec == NULL))
   {
-    signed long int return_value_wg_get_record_len$1;
-    return_value_wg_get_record_len$1=wg_get_record_len(db, rec);
-    if(column >= return_value_wg_get_record_len$1)
+    signed long int return_value_wg_get_record_len_1;
+    return_value_wg_get_record_len_1=wg_get_record_len(db, rec);
+    if(column >= return_value_wg_get_record_len_1)
       rec=wg_get_next_record(db, rec);
 
     else
     {
       if(!(hdr->template_offset == 0l))
       {
-        return_value_wg_match_template$2=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset), rec);
-        tmp_if_expr$3 = return_value_wg_match_template$2;
+        return_value_wg_match_template_2=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset), rec);
+        tmp_if_expr_3 = return_value_wg_match_template_2;
       }
 
       else
-        tmp_if_expr$3 = (signed long int)1;
-      if(!(tmp_if_expr$3 == 0l))
+        tmp_if_expr_3 = (signed long int)1;
+      if(!(tmp_if_expr_3 == 0l))
       {
         ttree_add_row(db, index_id, rec);
         rowsprocessed = rowsprocessed + 1u;
@@ -3803,20 +3803,20 @@ static signed long int create_ttree_index(void *db, signed long int index_id)
 static void csv_escaped_str(void *db, char *iptr, char *buf, signed int buflen)
 {
   char *optr;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$4;
-  char *tmp_post$3;
-  char *tmp_post$5;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_4;
+  char *tmp_post_3;
+  char *tmp_post_5;
   if(!(buflen >= 3))
     show_io_error(db, "CSV field buffer too small");
 
   else
   {
     optr = buf;
-    tmp_post$1 = optr;
+    tmp_post_1 = optr;
     optr = optr + 1l;
-    *tmp_post$1 = (char)34;
+    *tmp_post_1 = (char)34;
     buflen = buflen - 1;
     while(!(*iptr == 0))
     {
@@ -3826,16 +3826,16 @@ static void csv_escaped_str(void *db, char *iptr, char *buf, signed int buflen)
 
       if(!((signed long int)optr + (signed long int)nextsz + -((signed long int)buf) >= (signed long int)buflen))
       {
-        tmp_post$2 = optr;
+        tmp_post_2 = optr;
         optr = optr + 1l;
-        *tmp_post$2 = *iptr;
-        tmp_post$4 = iptr;
+        *tmp_post_2 = *iptr;
+        tmp_post_4 = iptr;
         iptr = iptr + 1l;
-        if((signed int)*tmp_post$4 == 34)
+        if((signed int)*tmp_post_4 == 34)
         {
-          tmp_post$3 = optr;
+          tmp_post_3 = optr;
           optr = optr + 1l;
-          *tmp_post$3 = (char)34;
+          *tmp_post_3 = (char)34;
         }
 
       }
@@ -3843,9 +3843,9 @@ static void csv_escaped_str(void *db, char *iptr, char *buf, signed int buflen)
       else
         break;
     }
-    tmp_post$5 = optr;
+    tmp_post_5 = optr;
     optr = optr + 1l;
-    *tmp_post$5 = (char)34;
+    *tmp_post_5 = (char)34;
     *optr = (char)0;
   }
 }
@@ -3855,58 +3855,58 @@ static void csv_escaped_str(void *db, char *iptr, char *buf, signed int buflen)
 static signed int db_rotate_ttree(void *db, signed long int index_id, struct wg_tnode *root, signed int overw)
 {
   signed long int grandparent = root->parent_offset;
-  signed long int initialrootoffset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+  signed long int initialrootoffset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
   struct wg_tnode *r = (struct wg_tnode *)(void *)0;
-  struct wg_tnode *g = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + grandparent);
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct wg_tnode *g = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + grandparent);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   signed long int column = hdr->rec_field_index[(signed long int)0];
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
   if(overw == 0)
   {
     signed long int offset_left_child = root->left_child_offset;
-    signed long int offset_right_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_left_child))->right_child_offset;
-    signed long int right_grandchild_height = (signed long int)((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_left_child))->right_subtree_height;
+    signed long int offset_right_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_left_child))->right_child_offset;
+    signed long int right_grandchild_height = (signed long int)((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_left_child))->right_subtree_height;
     root->left_child_offset = offset_right_grandchild;
     root->left_subtree_height = (unsigned char)right_grandchild_height;
     if(!(offset_right_grandchild == 0l))
-      ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_right_grandchild))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+      ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_right_grandchild))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
 
-    ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_left_child))->right_child_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+    ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_left_child))->right_child_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
     if(!((signed int)root->right_subtree_height >= (signed int)root->left_subtree_height))
-      tmp_if_expr$1 = (signed int)root->left_subtree_height;
+      tmp_if_expr_1 = (signed int)root->left_subtree_height;
 
     else
-      tmp_if_expr$1 = (signed int)root->right_subtree_height;
-    ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_left_child))->right_subtree_height = (unsigned char)(tmp_if_expr$1 + 1);
+      tmp_if_expr_1 = (signed int)root->right_subtree_height;
+    ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_left_child))->right_subtree_height = (unsigned char)(tmp_if_expr_1 + 1);
     root->parent_offset = offset_left_child;
-    r = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_left_child);
+    r = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_left_child);
   }
 
   else
     if(overw == 3)
     {
-      signed long int db_rotate_ttree$$1$$2$$offset_right_child = root->right_child_offset;
-      signed long int db_rotate_ttree$$1$$2$$offset_left_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$2$$offset_right_child))->left_child_offset;
-      signed long int left_grandchild_height = (signed long int)((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$2$$offset_right_child))->left_subtree_height;
-      root->right_child_offset = db_rotate_ttree$$1$$2$$offset_left_grandchild;
+      signed long int db_rotate_ttree__1__2__offset_right_child = root->right_child_offset;
+      signed long int db_rotate_ttree__1__2__offset_left_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__2__offset_right_child))->left_child_offset;
+      signed long int left_grandchild_height = (signed long int)((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__2__offset_right_child))->left_subtree_height;
+      root->right_child_offset = db_rotate_ttree__1__2__offset_left_grandchild;
       root->right_subtree_height = (unsigned char)left_grandchild_height;
-      if(!(db_rotate_ttree$$1$$2$$offset_left_grandchild == 0l))
-        ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$2$$offset_left_grandchild))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+      if(!(db_rotate_ttree__1__2__offset_left_grandchild == 0l))
+        ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__2__offset_left_grandchild))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
 
-      ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$2$$offset_right_child))->left_child_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+      ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__2__offset_right_child))->left_child_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
       if(!((signed int)root->left_subtree_height >= (signed int)root->right_subtree_height))
-        tmp_if_expr$2 = (signed int)root->right_subtree_height;
+        tmp_if_expr_2 = (signed int)root->right_subtree_height;
 
       else
-        tmp_if_expr$2 = (signed int)root->left_subtree_height;
-      ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$2$$offset_right_child))->left_subtree_height = (unsigned char)(tmp_if_expr$2 + 1);
-      root->parent_offset = db_rotate_ttree$$1$$2$$offset_right_child;
-      r = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$2$$offset_right_child);
+        tmp_if_expr_2 = (signed int)root->left_subtree_height;
+      ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__2__offset_right_child))->left_subtree_height = (unsigned char)(tmp_if_expr_2 + 1);
+      root->parent_offset = db_rotate_ttree__1__2__offset_right_child;
+      r = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__2__offset_right_child);
     }
 
     else
@@ -3914,19 +3914,19 @@ static signed int db_rotate_ttree(void *db, signed long int index_id, struct wg_
       {
         struct wg_tnode *bb;
         struct wg_tnode *ee;
-        signed long int db_rotate_ttree$$1$$3$$offset_left_child = root->left_child_offset;
-        signed long int db_rotate_ttree$$1$$3$$offset_right_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$3$$offset_left_child))->right_child_offset;
-        ee = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$3$$offset_right_grandchild);
+        signed long int db_rotate_ttree__1__3__offset_left_child = root->left_child_offset;
+        signed long int db_rotate_ttree__1__3__offset_right_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__3__offset_left_child))->right_child_offset;
+        ee = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__3__offset_right_grandchild);
         root->left_child_offset = ee->right_child_offset;
         root->left_subtree_height = ee->right_subtree_height;
         if(!(ee->right_child_offset == 0l))
-          ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + ee->right_child_offset))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+          ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + ee->right_child_offset))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
 
-        bb = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$3$$offset_left_child);
+        bb = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__3__offset_left_child);
         bb->right_child_offset = ee->left_child_offset;
         bb->right_subtree_height = ee->left_subtree_height;
         if(!(ee->left_child_offset == 0l))
-          ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + ee->left_child_offset))->parent_offset = db_rotate_ttree$$1$$3$$offset_left_child;
+          ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + ee->left_child_offset))->parent_offset = db_rotate_ttree__1__3__offset_left_child;
 
         if((signed int)ee->number_of_elements == 1)
         {
@@ -3936,13 +3936,13 @@ static signed int db_rotate_ttree(void *db, signed long int index_id, struct wg_
             {
               if((signed int)bb->number_of_elements == 8)
               {
-                signed int db_rotate_ttree$$1$$3$$3$$i;
+                signed int db_rotate_ttree__1__3__3__i;
                 ee->array_of_values[(signed long int)((signed int)bb->number_of_elements - 1)] = ee->array_of_values[(signed long int)0];
-                db_rotate_ttree$$1$$3$$3$$i = 1;
-                for( ; !(db_rotate_ttree$$1$$3$$3$$i >= (signed int)bb->number_of_elements); db_rotate_ttree$$1$$3$$3$$i = db_rotate_ttree$$1$$3$$3$$i + 1)
-                  ee->array_of_values[(signed long int)(db_rotate_ttree$$1$$3$$3$$i - 1)] = bb->array_of_values[(signed long int)db_rotate_ttree$$1$$3$$3$$i];
+                db_rotate_ttree__1__3__3__i = 1;
+                for( ; !(db_rotate_ttree__1__3__3__i >= (signed int)bb->number_of_elements); db_rotate_ttree__1__3__3__i = db_rotate_ttree__1__3__3__i + 1)
+                  ee->array_of_values[(signed long int)(db_rotate_ttree__1__3__3__i - 1)] = bb->array_of_values[(signed long int)db_rotate_ttree__1__3__3__i];
                 ee->number_of_elements = bb->number_of_elements;
-                ee->current_min=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + ee->array_of_values[(signed long int)0]), column);
+                ee->current_min=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + ee->array_of_values[(signed long int)0]), column);
                 bb->number_of_elements = (signed short int)1;
                 bb->current_max = bb->current_min;
               }
@@ -3953,60 +3953,60 @@ static signed int db_rotate_ttree(void *db, signed long int index_id, struct wg_
 
         }
 
-        ee->left_child_offset = db_rotate_ttree$$1$$3$$offset_left_child;
+        ee->left_child_offset = db_rotate_ttree__1__3__offset_left_child;
         if(!((signed int)bb->left_subtree_height >= (signed int)bb->right_subtree_height))
-          tmp_if_expr$3 = (signed int)bb->right_subtree_height;
+          tmp_if_expr_3 = (signed int)bb->right_subtree_height;
 
         else
-          tmp_if_expr$3 = (signed int)bb->left_subtree_height;
-        ee->left_subtree_height = (unsigned char)(tmp_if_expr$3 + 1);
-        bb->parent_offset = db_rotate_ttree$$1$$3$$offset_right_grandchild;
-        ee->right_child_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+          tmp_if_expr_3 = (signed int)bb->left_subtree_height;
+        ee->left_subtree_height = (unsigned char)(tmp_if_expr_3 + 1);
+        bb->parent_offset = db_rotate_ttree__1__3__offset_right_grandchild;
+        ee->right_child_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
         if(!((signed int)root->left_subtree_height >= (signed int)root->right_subtree_height))
-          tmp_if_expr$4 = (signed int)root->right_subtree_height;
+          tmp_if_expr_4 = (signed int)root->right_subtree_height;
 
         else
-          tmp_if_expr$4 = (signed int)root->left_subtree_height;
-        ee->right_subtree_height = (unsigned char)(tmp_if_expr$4 + 1);
-        root->parent_offset = db_rotate_ttree$$1$$3$$offset_right_grandchild;
+          tmp_if_expr_4 = (signed int)root->left_subtree_height;
+        ee->right_subtree_height = (unsigned char)(tmp_if_expr_4 + 1);
+        root->parent_offset = db_rotate_ttree__1__3__offset_right_grandchild;
         r = ee;
       }
 
       else
         if(overw == 2)
         {
-          struct wg_tnode *db_rotate_ttree$$1$$4$$bb;
-          struct wg_tnode *db_rotate_ttree$$1$$4$$ee;
+          struct wg_tnode *db_rotate_ttree__1__4__bb;
+          struct wg_tnode *db_rotate_ttree__1__4__ee;
           signed long int offset_right_child = root->right_child_offset;
-          signed long int offset_left_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_right_child))->left_child_offset;
-          db_rotate_ttree$$1$$4$$ee = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_left_grandchild);
-          root->right_child_offset = db_rotate_ttree$$1$$4$$ee->left_child_offset;
-          root->right_subtree_height = db_rotate_ttree$$1$$4$$ee->left_subtree_height;
-          if(!(db_rotate_ttree$$1$$4$$ee->left_child_offset == 0l))
-            ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$4$$ee->left_child_offset))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+          signed long int offset_left_grandchild = ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_right_child))->left_child_offset;
+          db_rotate_ttree__1__4__ee = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_left_grandchild);
+          root->right_child_offset = db_rotate_ttree__1__4__ee->left_child_offset;
+          root->right_subtree_height = db_rotate_ttree__1__4__ee->left_subtree_height;
+          if(!(db_rotate_ttree__1__4__ee->left_child_offset == 0l))
+            ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__4__ee->left_child_offset))->parent_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
 
-          db_rotate_ttree$$1$$4$$bb = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + offset_right_child);
-          db_rotate_ttree$$1$$4$$bb->left_child_offset = db_rotate_ttree$$1$$4$$ee->right_child_offset;
-          db_rotate_ttree$$1$$4$$bb->left_subtree_height = db_rotate_ttree$$1$$4$$ee->right_subtree_height;
-          if(!(db_rotate_ttree$$1$$4$$ee->right_child_offset == 0l))
-            ((struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$4$$ee->right_child_offset))->parent_offset = offset_right_child;
+          db_rotate_ttree__1__4__bb = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + offset_right_child);
+          db_rotate_ttree__1__4__bb->left_child_offset = db_rotate_ttree__1__4__ee->right_child_offset;
+          db_rotate_ttree__1__4__bb->left_subtree_height = db_rotate_ttree__1__4__ee->right_subtree_height;
+          if(!(db_rotate_ttree__1__4__ee->right_child_offset == 0l))
+            ((struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__4__ee->right_child_offset))->parent_offset = offset_right_child;
 
-          if((signed int)db_rotate_ttree$$1$$4$$ee->number_of_elements == 1)
+          if((signed int)db_rotate_ttree__1__4__ee->number_of_elements == 1)
           {
-            if(db_rotate_ttree$$1$$4$$ee->right_child_offset == 0l)
+            if(db_rotate_ttree__1__4__ee->right_child_offset == 0l)
             {
-              if(db_rotate_ttree$$1$$4$$ee->left_child_offset == 0l)
+              if(db_rotate_ttree__1__4__ee->left_child_offset == 0l)
               {
-                if((signed int)db_rotate_ttree$$1$$4$$bb->number_of_elements == 8)
+                if((signed int)db_rotate_ttree__1__4__bb->number_of_elements == 8)
                 {
                   signed int i = 1;
-                  for( ; !(i >= (signed int)db_rotate_ttree$$1$$4$$bb->number_of_elements); i = i + 1)
-                    db_rotate_ttree$$1$$4$$ee->array_of_values[(signed long int)i] = db_rotate_ttree$$1$$4$$bb->array_of_values[(signed long int)(i - 1)];
-                  db_rotate_ttree$$1$$4$$ee->number_of_elements = db_rotate_ttree$$1$$4$$bb->number_of_elements;
-                  db_rotate_ttree$$1$$4$$ee->current_max=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + db_rotate_ttree$$1$$4$$ee->array_of_values[(signed long int)((signed int)db_rotate_ttree$$1$$4$$ee->number_of_elements - 1)]), column);
-                  db_rotate_ttree$$1$$4$$bb->array_of_values[(signed long int)0] = db_rotate_ttree$$1$$4$$bb->array_of_values[(signed long int)((signed int)db_rotate_ttree$$1$$4$$bb->number_of_elements - 1)];
-                  db_rotate_ttree$$1$$4$$bb->number_of_elements = (signed short int)1;
-                  db_rotate_ttree$$1$$4$$bb->current_min = db_rotate_ttree$$1$$4$$bb->current_max;
+                  for( ; !(i >= (signed int)db_rotate_ttree__1__4__bb->number_of_elements); i = i + 1)
+                    db_rotate_ttree__1__4__ee->array_of_values[(signed long int)i] = db_rotate_ttree__1__4__bb->array_of_values[(signed long int)(i - 1)];
+                  db_rotate_ttree__1__4__ee->number_of_elements = db_rotate_ttree__1__4__bb->number_of_elements;
+                  db_rotate_ttree__1__4__ee->current_max=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + db_rotate_ttree__1__4__ee->array_of_values[(signed long int)((signed int)db_rotate_ttree__1__4__ee->number_of_elements - 1)]), column);
+                  db_rotate_ttree__1__4__bb->array_of_values[(signed long int)0] = db_rotate_ttree__1__4__bb->array_of_values[(signed long int)((signed int)db_rotate_ttree__1__4__bb->number_of_elements - 1)];
+                  db_rotate_ttree__1__4__bb->number_of_elements = (signed short int)1;
+                  db_rotate_ttree__1__4__bb->current_min = db_rotate_ttree__1__4__bb->current_max;
                 }
 
               }
@@ -4015,23 +4015,23 @@ static signed int db_rotate_ttree(void *db, signed long int index_id, struct wg_
 
           }
 
-          db_rotate_ttree$$1$$4$$ee->right_child_offset = offset_right_child;
-          if(!((signed int)db_rotate_ttree$$1$$4$$bb->left_subtree_height >= (signed int)db_rotate_ttree$$1$$4$$bb->right_subtree_height))
-            tmp_if_expr$5 = (signed int)db_rotate_ttree$$1$$4$$bb->right_subtree_height;
+          db_rotate_ttree__1__4__ee->right_child_offset = offset_right_child;
+          if(!((signed int)db_rotate_ttree__1__4__bb->left_subtree_height >= (signed int)db_rotate_ttree__1__4__bb->right_subtree_height))
+            tmp_if_expr_5 = (signed int)db_rotate_ttree__1__4__bb->right_subtree_height;
 
           else
-            tmp_if_expr$5 = (signed int)db_rotate_ttree$$1$$4$$bb->left_subtree_height;
-          db_rotate_ttree$$1$$4$$ee->right_subtree_height = (unsigned char)(tmp_if_expr$5 + 1);
-          db_rotate_ttree$$1$$4$$bb->parent_offset = offset_left_grandchild;
-          db_rotate_ttree$$1$$4$$ee->left_child_offset = (signed long int)((char *)root - (char *)((struct anonymous$6 *)db)->db);
+            tmp_if_expr_5 = (signed int)db_rotate_ttree__1__4__bb->left_subtree_height;
+          db_rotate_ttree__1__4__ee->right_subtree_height = (unsigned char)(tmp_if_expr_5 + 1);
+          db_rotate_ttree__1__4__bb->parent_offset = offset_left_grandchild;
+          db_rotate_ttree__1__4__ee->left_child_offset = (signed long int)((char *)root - (char *)((struct anonymous_6 *)db)->db);
           if(!((signed int)root->left_subtree_height >= (signed int)root->right_subtree_height))
-            tmp_if_expr$6 = (signed int)root->right_subtree_height;
+            tmp_if_expr_6 = (signed int)root->right_subtree_height;
 
           else
-            tmp_if_expr$6 = (signed int)root->left_subtree_height;
-          db_rotate_ttree$$1$$4$$ee->left_subtree_height = (unsigned char)(tmp_if_expr$6 + 1);
+            tmp_if_expr_6 = (signed int)root->left_subtree_height;
+          db_rotate_ttree__1__4__ee->left_subtree_height = (unsigned char)(tmp_if_expr_6 + 1);
           root->parent_offset = offset_left_grandchild;
-          r = db_rotate_ttree$$1$$4$$ee;
+          r = db_rotate_ttree__1__4__ee;
         }
 
         else
@@ -4039,12 +4039,12 @@ static signed int db_rotate_ttree(void *db, signed long int index_id, struct wg_
           show_index_error(db, "tree rotate called with invalid argument, index may have become corrupt");
           return -1;
         }
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
   if(grandparent == 0l)
   {
     r->parent_offset = (signed long int)0;
-    hdr->ctl.t.offset_root_node = (signed long int)((char *)r - (char *)((struct anonymous$6 *)db)->db);
+    hdr->ctl.t.offset_root_node = (signed long int)((char *)r - (char *)((struct anonymous_6 *)db)->db);
   }
 
   else
@@ -4052,24 +4052,24 @@ static signed int db_rotate_ttree(void *db, signed long int index_id, struct wg_
     r->parent_offset = grandparent;
     if(g->left_child_offset == initialrootoffset)
     {
-      g->left_child_offset = (signed long int)((char *)r - (char *)((struct anonymous$6 *)db)->db);
+      g->left_child_offset = (signed long int)((char *)r - (char *)((struct anonymous_6 *)db)->db);
       if(!((signed int)r->right_subtree_height >= (signed int)r->left_subtree_height))
-        tmp_if_expr$7 = (signed int)r->left_subtree_height;
+        tmp_if_expr_7 = (signed int)r->left_subtree_height;
 
       else
-        tmp_if_expr$7 = (signed int)r->right_subtree_height;
-      g->left_subtree_height = (unsigned char)(tmp_if_expr$7 + 1);
+        tmp_if_expr_7 = (signed int)r->right_subtree_height;
+      g->left_subtree_height = (unsigned char)(tmp_if_expr_7 + 1);
     }
 
     else
     {
-      g->right_child_offset = (signed long int)((char *)r - (char *)((struct anonymous$6 *)db)->db);
+      g->right_child_offset = (signed long int)((char *)r - (char *)((struct anonymous_6 *)db)->db);
       if(!((signed int)r->right_subtree_height >= (signed int)r->left_subtree_height))
-        tmp_if_expr$8 = (signed int)r->left_subtree_height;
+        tmp_if_expr_8 = (signed int)r->left_subtree_height;
 
       else
-        tmp_if_expr$8 = (signed int)r->right_subtree_height;
-      g->right_subtree_height = (unsigned char)(tmp_if_expr$8 + 1);
+        tmp_if_expr_8 = (signed int)r->right_subtree_height;
+      g->right_subtree_height = (unsigned char)(tmp_if_expr_8 + 1);
     }
   }
   return 0;
@@ -4082,16 +4082,16 @@ signed long int db_tfqueue_rlock(void *db, signed long int timeout)
   struct timespec ts;
   signed long int lock;
   signed long int prev;
-  struct anonymous$5 *lockp;
+  struct anonymous_5 *lockp;
   struct _db_memsegment_header *dbh;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     show_lock_error(db, "Invalid database pointer in db_rlock");
     return (signed long int)0;
@@ -4099,7 +4099,7 @@ signed long int db_tfqueue_rlock(void *db, signed long int timeout)
 
   else
   {
-    dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+    dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
     lock_queue(db);
     lock=alloc_lock(db);
     if(lock == 0l)
@@ -4113,20 +4113,20 @@ signed long int db_tfqueue_rlock(void *db, signed long int timeout)
     {
       prev = dbh->locks.tail;
       dbh->locks.tail = lock;
-      lockp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lock);
+      lockp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lock);
       lockp->class = (signed long int)0x02;
       lockp->prev = prev;
       lockp->next = (volatile signed long int)0;
       if(!(prev == 0l))
       {
-        struct anonymous$5 *prevp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + prev);
+        struct anonymous_5 *prevp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + prev);
         prevp->next = lock;
         if(prevp->class == 2l)
-          tmp_if_expr$2 = prevp->waiting == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = prevp->waiting == (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           lockp->waiting = (volatile signed long int)0;
 
         else
@@ -4141,20 +4141,20 @@ signed long int db_tfqueue_rlock(void *db, signed long int timeout)
         volatile signed long int *syn_addr = (volatile signed long int *)(void *)0;
         ts.tv_sec = timeout / (signed long int)1000;
         ts.tv_nsec = timeout % (signed long int)1000;
-        signed int return_value_futex_trywait$3;
-        return_value_futex_trywait$3=futex_trywait(&lockp->waiting, 1, &ts);
-        if(return_value_futex_trywait$3 == 110)
+        signed int return_value_futex_trywait_3;
+        return_value_futex_trywait_3=futex_trywait(&lockp->waiting, 1, &ts);
+        if(return_value_futex_trywait_3 == 110)
         {
           lock_queue(db);
           if(!(lockp->prev == 0l))
           {
-            struct anonymous$5 *pp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->prev);
+            struct anonymous_5 *pp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->prev);
             pp->next = lockp->next;
           }
 
           if(!(lockp->next == 0l))
           {
-            struct anonymous$5 *np = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->next);
+            struct anonymous_5 *np = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->next);
             np->prev = lockp->prev;
           }
 
@@ -4170,7 +4170,7 @@ signed long int db_tfqueue_rlock(void *db, signed long int timeout)
         lock_queue(db);
         if(!(lockp->next == 0l))
         {
-          struct anonymous$5 *nextp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->next);
+          struct anonymous_5 *nextp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->next);
           if(nextp->class == 2l)
           {
             if(!(nextp->waiting == 0l))
@@ -4198,17 +4198,17 @@ signed long int db_tfqueue_rlock(void *db, signed long int timeout)
 // file dblock.h line 143
 signed long int db_tfqueue_rulock(void *db, signed long int lock)
 {
-  struct anonymous$5 *lockp;
+  struct anonymous_5 *lockp;
   struct _db_memsegment_header *dbh;
   volatile signed long int *syn_addr = (volatile signed long int *)(void *)0;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     show_lock_error(db, "Invalid database pointer in db_rulock");
     return (signed long int)0;
@@ -4216,27 +4216,27 @@ signed long int db_tfqueue_rulock(void *db, signed long int lock)
 
   else
   {
-    dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-    lockp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lock);
+    dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+    lockp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lock);
     lock_queue(db);
     if(!(lockp->prev == 0l))
     {
-      struct anonymous$5 *prevp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->prev);
+      struct anonymous_5 *prevp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->prev);
       prevp->next = lockp->next;
     }
 
     if(!(lockp->next == 0l))
     {
-      struct anonymous$5 *nextp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->next);
+      struct anonymous_5 *nextp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->next);
       nextp->prev = lockp->prev;
       if(!(nextp->waiting == 0l))
       {
         if(lockp->prev == 0l)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = nextp->class == (signed long int)0x02 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = nextp->class == (signed long int)0x02 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           nextp->waiting = (volatile signed long int)0;
           syn_addr = &nextp->waiting;
@@ -4266,15 +4266,15 @@ signed long int db_tfqueue_wlock(void *db, signed long int timeout)
   struct timespec ts;
   signed long int lock;
   signed long int prev;
-  struct anonymous$5 *lockp;
+  struct anonymous_5 *lockp;
   struct _db_memsegment_header *dbh;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_lock_error(db, "Invalid database pointer in db_wlock");
     return (signed long int)0;
@@ -4282,7 +4282,7 @@ signed long int db_tfqueue_wlock(void *db, signed long int timeout)
 
   else
   {
-    dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+    dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
     lock_queue(db);
     lock=alloc_lock(db);
     if(lock == 0l)
@@ -4296,13 +4296,13 @@ signed long int db_tfqueue_wlock(void *db, signed long int timeout)
     {
       prev = dbh->locks.tail;
       dbh->locks.tail = lock;
-      lockp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lock);
+      lockp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lock);
       lockp->class = (signed long int)0x04;
       lockp->prev = prev;
       lockp->next = (volatile signed long int)0;
       if(!(prev == 0l))
       {
-        struct anonymous$5 *prevp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + prev);
+        struct anonymous_5 *prevp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + prev);
         prevp->next = lock;
         lockp->waiting = (volatile signed long int)1;
       }
@@ -4314,20 +4314,20 @@ signed long int db_tfqueue_wlock(void *db, signed long int timeout)
       {
         ts.tv_sec = timeout / (signed long int)1000;
         ts.tv_nsec = timeout % (signed long int)1000;
-        signed int return_value_futex_trywait$2;
-        return_value_futex_trywait$2=futex_trywait(&lockp->waiting, 1, &ts);
-        if(return_value_futex_trywait$2 == 110)
+        signed int return_value_futex_trywait_2;
+        return_value_futex_trywait_2=futex_trywait(&lockp->waiting, 1, &ts);
+        if(return_value_futex_trywait_2 == 110)
         {
           lock_queue(db);
           if(!(lockp->prev == 0l))
           {
-            struct anonymous$5 *pp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->prev);
+            struct anonymous_5 *pp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->prev);
             pp->next = lockp->next;
           }
 
           if(!(lockp->next == 0l))
           {
-            struct anonymous$5 *np = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->next);
+            struct anonymous_5 *np = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->next);
             np->prev = lockp->prev;
           }
 
@@ -4351,16 +4351,16 @@ signed long int db_tfqueue_wlock(void *db, signed long int timeout)
 // file dblock.c line 1053
 signed long int db_tfqueue_wulock(void *db, signed long int lock)
 {
-  struct anonymous$5 *lockp;
+  struct anonymous_5 *lockp;
   struct _db_memsegment_header *dbh;
   volatile signed long int *syn_addr = (volatile signed long int *)(void *)0;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_lock_error(db, "Invalid database pointer in db_wulock");
     return (signed long int)0;
@@ -4368,12 +4368,12 @@ signed long int db_tfqueue_wulock(void *db, signed long int lock)
 
   else
   {
-    dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-    lockp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lock);
+    dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+    lockp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lock);
     lock_queue(db);
     if(!(lockp->next == 0l))
     {
-      struct anonymous$5 *nextp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + lockp->next);
+      struct anonymous_5 *nextp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + lockp->next);
       nextp->waiting = (volatile signed long int)0;
       nextp->prev = (volatile signed long int)0;
       syn_addr = &nextp->waiting;
@@ -4399,7 +4399,7 @@ static signed int db_which_branch_causes_overweight(void *db, struct wg_tnode *r
   struct wg_tnode *child;
   if(!((signed int)root->right_subtree_height >= (signed int)root->left_subtree_height))
   {
-    child = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + root->left_child_offset);
+    child = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + root->left_child_offset);
     if((signed int)child->left_subtree_height >= (signed int)child->right_subtree_height)
       return 0;
 
@@ -4409,7 +4409,7 @@ static signed int db_which_branch_causes_overweight(void *db, struct wg_tnode *r
 
   else
   {
-    child = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + root->right_child_offset);
+    child = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + root->right_child_offset);
     if(!((signed int)child->right_subtree_height >= (signed int)child->left_subtree_height))
       return 2;
 
@@ -4422,10 +4422,10 @@ static signed int db_which_branch_causes_overweight(void *db, struct wg_tnode *r
 // file dbindex.c line 1736
 static void delete_from_list(void *db, signed long int *head)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  struct anonymous$20 *listelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *head);
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  struct anonymous_20 *listelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *head);
   *head = listelem->cdr;
-  wg_free_fixlen_object(db, &dbh->listcell_area_header, (signed long int)((char *)listelem - (char *)((struct anonymous$6 *)db)->db));
+  wg_free_fixlen_object(db, &dbh->listcell_area_header, (signed long int)((char *)listelem - (char *)((struct anonymous_6 *)db)->db));
 }
 
 // delete_record_recursive
@@ -4436,9 +4436,9 @@ static signed long int delete_record_recursive(void *db, void *rec, signed int d
   signed long int reclen;
   if(!(depth >= 1))
   {
-    signed long int return_value_show_schema_error$1;
-    return_value_show_schema_error$1=show_schema_error(db, "deleting record: recursion too deep");
-    return return_value_show_schema_error$1;
+    signed long int return_value_show_schema_error_1;
+    return_value_show_schema_error_1=show_schema_error(db, "deleting record: recursion too deep");
+    return return_value_show_schema_error_1;
   }
 
   reclen=wg_get_record_len(db, rec);
@@ -4451,24 +4451,24 @@ static signed long int delete_record_recursive(void *db, void *rec, signed int d
     type=wg_get_encoded_type(db, enc);
     if(type == 2l)
     {
-      signed long int return_value_wg_set_field$2;
-      return_value_wg_set_field$2=wg_set_field(db, rec, i, (signed long int)0);
-      if(!(return_value_wg_set_field$2 == 0l))
+      signed long int return_value_wg_set_field_2;
+      return_value_wg_set_field_2=wg_set_field(db, rec, i, (signed long int)0);
+      if(!(return_value_wg_set_field_2 == 0l))
         return (signed long int)-1;
 
-      void *return_value_wg_decode_record$3;
-      return_value_wg_decode_record$3=wg_decode_record(db, enc);
-      signed long int return_value_delete_record_recursive$4;
-      return_value_delete_record_recursive$4=delete_record_recursive(db, return_value_wg_decode_record$3, depth - 1);
-      if(!(return_value_delete_record_recursive$4 == 0l))
+      void *return_value_wg_decode_record_3;
+      return_value_wg_decode_record_3=wg_decode_record(db, enc);
+      signed long int return_value_delete_record_recursive_4;
+      return_value_delete_record_recursive_4=delete_record_recursive(db, return_value_wg_decode_record_3, depth - 1);
+      if(!(return_value_delete_record_recursive_4 == 0l))
         return (signed long int)-1;
 
     }
 
   }
-  signed long int return_value_wg_delete_record$5;
-  return_value_wg_delete_record$5=wg_delete_record(db, rec);
-  if(!(return_value_wg_delete_record$5 == 0l))
+  signed long int return_value_wg_delete_record_5;
+  return_value_wg_delete_record_5=wg_delete_record(db, rec);
+  if(!(return_value_wg_delete_record_5 == 0l))
     return (signed long int)-1;
 
   else
@@ -4493,7 +4493,7 @@ static signed int detach_shared_memory(void *shmptr)
 
 // dhash_lookup
 // file dbhash.c line 878
-static signed long int * dhash_lookup(struct anonymous$36 *tbl, signed long int key)
+static signed long int * dhash_lookup(struct anonymous_36 *tbl, signed long int key)
 {
   signed long int h;
   h=rehash_gint(key);
@@ -4503,14 +4503,14 @@ static signed long int * dhash_lookup(struct anonymous$36 *tbl, signed long int 
   unsigned long int i;
   signed long int *bb = tbl->keys;
   signed long int *b = bb + (signed long int)h1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*b == key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *b == (signed long int)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = *b == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return b;
 
   else
@@ -4521,11 +4521,11 @@ static signed long int * dhash_lookup(struct anonymous$36 *tbl, signed long int 
     {
       b = bb + (signed long int)((h1 + i * h2) % sz);
       if(*b == key)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *b == (signed long int)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = *b == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         break;
 
     }
@@ -4568,20 +4568,20 @@ static signed long int drop_hash_index(void *db, signed long int index_id)
 static signed long int drop_ttree_index(void *db, signed long int index_id)
 {
   struct wg_tnode *node;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   node = (struct wg_tnode *)(void *)0;
   if(!(hdr->ctl.t.offset_min_node == 0l))
-    node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->ctl.t.offset_min_node);
+    node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->ctl.t.offset_min_node);
 
   else
     if(!(hdr->ctl.t.offset_root_node == 0l))
-      node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->ctl.t.offset_root_node);
+      node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->ctl.t.offset_root_node);
 
   while(!(node == ((struct wg_tnode *)NULL)))
   {
-    signed long int deleteme = (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db);
+    signed long int deleteme = (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db);
     if(!(node->succ_offset == 0l))
-      node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->succ_offset);
+      node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->succ_offset);
 
     else
       node = (struct wg_tnode *)(void *)0;
@@ -4595,16 +4595,16 @@ static signed long int drop_ttree_index(void *db, signed long int index_id)
 static signed int elem_double_cb(void *cb_ctx, double doubleval)
 {
   signed long int val;
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
   val=wg_encode_double(ctx->db, doubleval);
   if(val == 255l)
     return 0;
 
   else
   {
-    signed int return_value_add_literal$1;
-    return_value_add_literal$1=add_literal(ctx, val);
-    if(return_value_add_literal$1 == 0)
+    signed int return_value_add_literal_1;
+    return_value_add_literal_1=add_literal(ctx, val);
+    if(return_value_add_literal_1 == 0)
       return 0;
 
     else
@@ -4617,16 +4617,16 @@ static signed int elem_double_cb(void *cb_ctx, double doubleval)
 static signed int elem_integer_cb(void *cb_ctx, signed long long int intval)
 {
   signed long int val;
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
   val=wg_encode_int(ctx->db, (signed long int)intval);
   if(val == 255l)
     return 0;
 
   else
   {
-    signed int return_value_add_literal$1;
-    return_value_add_literal$1=add_literal(ctx, val);
-    if(return_value_add_literal$1 == 0)
+    signed int return_value_add_literal_1;
+    return_value_add_literal_1=add_literal(ctx, val);
+    if(return_value_add_literal_1 == 0)
       return 0;
 
     else
@@ -4640,12 +4640,12 @@ static signed int elem_string_cb(void *cb_ctx, const unsigned char *strval, unsi
 {
   signed int res = 1;
   signed long int val;
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
   char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(strl + (unsigned long int)1);
-  buf = (char *)return_value_malloc$1;
-  signed int return_value_add_literal$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(strl + (unsigned long int)1);
+  buf = (char *)return_value_malloc_1;
+  signed int return_value_add_literal_2;
   if(buf == ((char *)NULL))
     return 0;
 
@@ -4659,8 +4659,8 @@ static signed int elem_string_cb(void *cb_ctx, const unsigned char *strval, unsi
 
     else
     {
-      return_value_add_literal$2=add_literal(ctx, val);
-      if(return_value_add_literal$2 == 0)
+      return_value_add_literal_2=add_literal(ctx, val);
+      if(return_value_add_literal_2 == 0)
         res = 0;
 
     }
@@ -4685,7 +4685,7 @@ static signed long int encode_query_param_unistr(void *db, char *data, signed lo
 
     memcpy((void *)(char *)dptr, (const void *)data, (unsigned long int)length);
     ((char *)dptr)[(signed long int)length] = (char)0;
-    return (signed long int)((char *)dptr - (char *)((struct anonymous$6 *)db)->db) | (signed long int)0x6;
+    return (signed long int)((char *)dptr - (char *)((struct anonymous_6 *)db)->db) | (signed long int)0x6;
   }
 
   else
@@ -4714,9 +4714,9 @@ static signed long int encode_query_param_unistr(void *db, char *data, signed lo
 
     if(!(extdata == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(extdata);
-      extlen = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(extdata);
+      extlen = (signed int)return_value_strlen_1;
     }
 
     dptr=malloc((unsigned long int)(dlen + (extdata != ((char *)NULL) ? extlen + 1 : 0)));
@@ -4726,7 +4726,7 @@ static signed long int encode_query_param_unistr(void *db, char *data, signed lo
       return (signed long int)0xff;
     }
 
-    offset = (signed long int)((char *)dptr - (char *)((struct anonymous$6 *)db)->db);
+    offset = (signed long int)((char *)dptr - (char *)((struct anonymous_6 *)db)->db);
     memcpy((void *)((char *)dptr + (signed long int)((unsigned long int)6 * sizeof(signed long int) /*8ul*/ )), (const void *)data, (unsigned long int)length);
     i = (unsigned long int)0;
     for( ; !(lenrest == 0) && !(i >= sizeof(signed long int) /*8ul*/  + -((unsigned long int)lenrest)); i = i + 1ul)
@@ -4737,19 +4737,19 @@ static signed long int encode_query_param_unistr(void *db, char *data, signed lo
       void *extptr = (void *)((char *)dptr + (signed long int)dlen);
       memcpy(extptr, (const void *)extdata, (unsigned long int)extlen);
       ((char *)extptr)[(signed long int)extlen] = (char)0;
-      extenc = (signed long int)((char *)extptr - (char *)((struct anonymous$6 *)db)->db) | (signed long int)0x6;
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = extenc;
+      extenc = (signed long int)((char *)extptr - (char *)((struct anonymous_6 *)db)->db) | (signed long int)0x6;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = extenc;
     }
 
     else
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = (signed long int)dlen;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = (signed long int)dlen;
     meta = (signed long int)(dlen - length << 8);
     meta = meta | type;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = meta;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = meta;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
     return offset | (signed long int)0x4;
   }
 }
@@ -4776,9 +4776,9 @@ static signed long int extend_fixedlen_area(void *db, void *area_header)
     newsize = size << 1;
     while(newsize >= 8192l)
     {
-      signed long int return_value_init_db_subarea$1;
-      return_value_init_db_subarea$1=init_db_subarea(db, (void *)areah, i + (signed long int)1, newsize);
-      if(return_value_init_db_subarea$1 == 0l)
+      signed long int return_value_init_db_subarea_1;
+      return_value_init_db_subarea_1=init_db_subarea(db, (void *)areah, i + (signed long int)1, newsize);
+      if(return_value_init_db_subarea_1 == 0l)
         goto done;
 
       newsize = newsize >> 1;
@@ -4807,10 +4807,10 @@ static signed int extend_mpool(void *db, void *mpool, signed int minbytes)
   signed int cursize;
   signed int bytes;
   void *subarea;
-  struct anonymous$8 *mpoolh;
+  struct anonymous_8 *mpoolh;
   signed int i;
   void *nextptr;
-  mpoolh = (struct anonymous$8 *)mpool;
+  mpoolh = (struct anonymous_8 *)mpool;
   cursize = mpoolh->subarea_table[(signed long int)mpoolh->cur_subarea].size;
   bytes = cursize;
   i = 0;
@@ -4882,9 +4882,9 @@ static signed long int extend_varlen_area(void *db, void *area_header, signed lo
         ;
       while(newsize >= minsize)
       {
-        signed long int return_value_init_db_subarea$1;
-        return_value_init_db_subarea$1=init_db_subarea(db, (void *)areah, i + (signed long int)1, newsize);
-        if(return_value_init_db_subarea$1 == 0l)
+        signed long int return_value_init_db_subarea_1;
+        return_value_init_db_subarea_1=init_db_subarea(db, (void *)areah, i + (signed long int)1, newsize);
+        if(return_value_init_db_subarea_1 == 0l)
           goto done;
 
         newsize = newsize >> 1;
@@ -4909,15 +4909,15 @@ static signed long int extend_varlen_area(void *db, void *area_header, signed lo
 
 // fetch_resultset
 // file dbquery.c line 1419
-static signed long int fetch_resultset(void *db, struct anonymous$17 *set)
+static signed long int fetch_resultset(void *db, struct anonymous_17 *set)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   if(!(set->rcursor.page == ((struct __query_result_page *)NULL)))
   {
     signed long int offset;
-    tmp_post$1 = set->rcursor.pidx;
+    tmp_post_1 = set->rcursor.pidx;
     set->rcursor.pidx = set->rcursor.pidx + 1l;
-    offset = set->rcursor.page->rows[tmp_post$1];
+    offset = set->rcursor.page->rows[tmp_post_1];
     if(offset == 0l)
       set->rcursor.page = (struct __query_result_page *)(void *)0;
 
@@ -4938,7 +4938,7 @@ static signed long int fetch_resultset(void *db, struct anonymous$17 *set)
 // file dbdata.c line 2579
 static signed long int find_create_longstr(void *db, char *data, char *extrastr, signed long int type, signed long int length)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int offset;
   unsigned long int i;
   signed long int tmp;
@@ -4949,10 +4949,10 @@ static signed long int find_create_longstr(void *db, char *data, char *extrastr,
   signed int hash;
   signed long int hasharrel;
   signed long int res;
-  signed long int tmp_if_expr$2;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_2;
+  signed long int tmp_if_expr_1;
   hash=wg_hash_typedstr(db, data, extrastr, type, length);
-  hasharrel = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)dbh->strhash_area_header.arraystart + sizeof(signed long int) /*8ul*/  * (unsigned long int)hash)));
+  hasharrel = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)dbh->strhash_area_header.arraystart + sizeof(signed long int) /*8ul*/  * (unsigned long int)hash)));
   if(!(hasharrel == 0l))
     old=wg_find_strhash_bucket(db, data, extrastr, type, length, hasharrel);
 
@@ -4964,11 +4964,11 @@ static signed long int find_create_longstr(void *db, char *data, char *extrastr,
   if(!(lenrest == 0l))
     lengints = lengints + 1l;
 
-  offset=wg_alloc_gints(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->longstr_area_header, lengints + (signed long int)6);
+  offset=wg_alloc_gints(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->longstr_area_header, lengints + (signed long int)6);
   if(offset == 0l)
     return (signed long int)0;
 
-  lstrptr = (char *)(void *)((char *)((struct anonymous$6 *)db)->db + offset);
+  lstrptr = (char *)(void *)((char *)((struct anonymous_6 *)db)->db + offset);
   memcpy((void *)(lstrptr + (signed long int)((unsigned long int)6 * sizeof(signed long int) /*8ul*/ )), (const void *)data, (unsigned long int)length);
   i = (unsigned long int)0;
   for( ; !(lenrest == 0l) && !(i >= sizeof(signed long int) /*8ul*/  + -((unsigned long int)lenrest)); i = i + 1ul)
@@ -4979,37 +4979,37 @@ static signed long int find_create_longstr(void *db, char *data, char *extrastr,
     if(tmp == 255l)
       return (signed long int)0;
 
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = tmp;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = tmp;
     if((7l & tmp) == 4l)
     {
-      signed long int *strptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (tmp & (signed long int)~0x7));
+      signed long int *strptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (tmp & (signed long int)~0x7));
       strptr[(signed long int)2] = strptr[(signed long int)2] + 1l;
     }
 
   }
 
   else
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)5 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
   if(!((-4l & *((signed long int *)lstrptr)) >= 33l))
-    tmp_if_expr$2 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
+    tmp_if_expr_2 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
 
   else
   {
     if(!((-4l & *((signed long int *)lstrptr)) % 8l == 0l))
-      tmp_if_expr$1 = (*((signed long int *)lstrptr) & (signed long int)~3) + (signed long int)4;
+      tmp_if_expr_1 = (*((signed long int *)lstrptr) & (signed long int)~3) + (signed long int)4;
 
     else
-      tmp_if_expr$1 = *((signed long int *)lstrptr) & (signed long int)~3;
-    tmp_if_expr$2 = tmp_if_expr$1;
+      tmp_if_expr_1 = *((signed long int *)lstrptr) & (signed long int)~3;
+    tmp_if_expr_2 = tmp_if_expr_1;
   }
-  tmp = tmp_if_expr$2 - length << 8;
+  tmp = tmp_if_expr_2 - length << 8;
   tmp = tmp | type;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = tmp;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = tmp;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
   res = offset | (signed long int)0x4;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)dbh->strhash_area_header.arraystart + sizeof(signed long int) /*8ul*/  * (unsigned long int)hash))) = res;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ))) = hasharrel;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)dbh->strhash_area_header.arraystart + sizeof(signed long int) /*8ul*/  * (unsigned long int)hash))) = res;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ))) = hasharrel;
   return res;
 }
 
@@ -5027,18 +5027,18 @@ static void * find_document_recursive(void *db, signed long int *rec, signed int
       signed long int backlink_list = rec[(signed long int)2];
       if(!(backlink_list == 0l))
       {
-        struct anonymous$20 *next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
+        struct anonymous_20 *next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
         do
         {
           void *res;
-          res=find_document_recursive(db, (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + next->car), depth - 1);
+          res=find_document_recursive(db, (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + next->car), depth - 1);
           if(!(res == NULL))
             return res;
 
           if(next->cdr == 0l)
             break;
 
-          next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + next->cdr);
+          next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + next->cdr);
         }
         while((_Bool)1);
       }
@@ -5053,22 +5053,22 @@ static void * find_document_recursive(void *db, signed long int *rec, signed int
 // file dbhash.c line 407
 static signed long int find_idxhash_bucket(void *db, char *data, signed long int length, signed long int *chainoffset)
 {
-  signed long int bucket = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + *chainoffset));
+  signed long int bucket = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + *chainoffset));
   while(!(bucket == 0l))
   {
-    signed long int meta = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ )));
+    signed long int meta = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ )));
     if(meta == length)
     {
-      char *bucket_data = (char *)(void *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ));
-      signed int return_value_memcmp$1;
-      return_value_memcmp$1=memcmp((const void *)bucket_data, (const void *)data, (unsigned long int)length);
-      if(return_value_memcmp$1 == 0)
+      char *bucket_data = (char *)(void *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ));
+      signed int return_value_memcmp_1;
+      return_value_memcmp_1=memcmp((const void *)bucket_data, (const void *)data, (unsigned long int)length);
+      if(return_value_memcmp_1 == 0)
         return bucket;
 
     }
 
     *chainoffset = (signed long int)((unsigned long int)bucket + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ );
-    bucket = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + *chainoffset));
+    bucket = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + *chainoffset));
   }
   return (signed long int)0;
 }
@@ -5079,8 +5079,8 @@ static signed long int find_index_template(void *db, signed long int *matchrec, 
 {
   signed long int *ilist;
   void *rec;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  struct anonymous$22 *tmpl;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  struct anonymous_22 *tmpl;
   signed long int fixed_columns = (signed long int)0;
   signed long int last_fixed = (signed long int)0;
   signed int i = 0;
@@ -5101,9 +5101,9 @@ static signed long int find_index_template(void *db, signed long int *matchrec, 
     }
 
   }
-  signed long int tmp_if_expr$5;
-  signed long int return_value_wg_get_field$3;
-  signed long int return_value_wg_compare$4;
+  signed long int tmp_if_expr_5;
+  signed long int return_value_wg_get_field_3;
+  signed long int return_value_wg_compare_4;
   if(fixed_columns == 0l)
   {
     show_index_error(db, "not a legal match record");
@@ -5116,41 +5116,41 @@ static signed long int find_index_template(void *db, signed long int *matchrec, 
     ilist = &dbh->index_control_area_header.index_template_list;
     while(!(*ilist == 0l))
     {
-      struct anonymous$20 *ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+      struct anonymous_20 *ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
       if(ilistelem->car == 0l)
       {
         show_index_error(db, "Invalid header in index tempate list");
         return (signed long int)0;
       }
 
-      tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+      tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
       if(tmpl->fixed_columns == fixed_columns)
       {
-        rec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
-        signed long int return_value_wg_get_record_len$1;
-        return_value_wg_get_record_len$1=wg_get_record_len(db, rec);
-        if(!(reclen == return_value_wg_get_record_len$1))
+        rec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
+        signed long int return_value_wg_get_record_len_1;
+        return_value_wg_get_record_len_1=wg_get_record_len(db, rec);
+        if(!(reclen == return_value_wg_get_record_len_1))
           goto nextelem;
 
         i = 0;
         for( ; !((signed long int)i >= reclen); i = i + 1)
         {
-          signed long int return_value_wg_get_encoded_type$6;
-          return_value_wg_get_encoded_type$6=wg_get_encoded_type(db, matchrec[(signed long int)i]);
-          if(!(return_value_wg_get_encoded_type$6 == 14l))
+          signed long int return_value_wg_get_encoded_type_6;
+          return_value_wg_get_encoded_type_6=wg_get_encoded_type(db, matchrec[(signed long int)i]);
+          if(!(return_value_wg_get_encoded_type_6 == 14l))
           {
-            signed long int return_value_wg_get_field$2;
-            return_value_wg_get_field$2=wg_get_field(db, rec, (signed long int)i);
-            if(matchrec[(signed long int)i] == return_value_wg_get_field$2)
-              tmp_if_expr$5 = (signed long int)0;
+            signed long int return_value_wg_get_field_2;
+            return_value_wg_get_field_2=wg_get_field(db, rec, (signed long int)i);
+            if(matchrec[(signed long int)i] == return_value_wg_get_field_2)
+              tmp_if_expr_5 = (signed long int)0;
 
             else
             {
-              return_value_wg_get_field$3=wg_get_field(db, rec, (signed long int)i);
-              return_value_wg_compare$4=wg_compare(db, matchrec[(signed long int)i], return_value_wg_get_field$3, 7);
-              tmp_if_expr$5 = return_value_wg_compare$4;
+              return_value_wg_get_field_3=wg_get_field(db, rec, (signed long int)i);
+              return_value_wg_compare_4=wg_compare(db, matchrec[(signed long int)i], return_value_wg_get_field_3, 7);
+              tmp_if_expr_5 = return_value_wg_compare_4;
             }
-            if(!(tmp_if_expr$5 == 0l))
+            if(!(tmp_if_expr_5 == 0l))
               goto nextelem;
 
           }
@@ -5180,7 +5180,7 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
   signed long int cs = *curr_slot;
   signed long int eo = *end_offset;
   signed long int es = *end_slot;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   struct wg_tnode *node;
   if(start_bound == 255l)
   {
@@ -5208,7 +5208,7 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
       else
         if(boundtype == 2l)
         {
-          node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + co);
+          node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + co);
           co = node->succ_offset;
           cs = (signed long int)0;
         }
@@ -5232,7 +5232,7 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
         }
 
         cs = cs + 1l;
-        node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + co);
+        node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + co);
         if(cs >= (signed long int)node->number_of_elements)
         {
           co = node->succ_offset;
@@ -5244,7 +5244,7 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
       else
         if(boundtype == 2l)
         {
-          node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + co);
+          node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + co);
           co = node->succ_offset;
           cs = (signed long int)0;
         }
@@ -5260,7 +5260,7 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
     eo = hdr->ctl.t.offset_max_node;
     if(!(eo == 0l))
     {
-      node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+      node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
       es = (signed long int)((signed int)node->number_of_elements - 1);
     }
 
@@ -5268,11 +5268,11 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
 
   else
   {
-    signed long int find_ttree_bounds$$1$$4$$boundtype;
+    signed long int find_ttree_bounds__1__4__boundtype;
     if(!(end_inclusive == 0l))
     {
-      eo=wg_search_ttree_rightmost(db, hdr->ctl.t.offset_root_node, end_bound, &find_ttree_bounds$$1$$4$$boundtype, (struct wg_tnode *)(void *)0);
-      if(find_ttree_bounds$$1$$4$$boundtype == 0l)
+      eo=wg_search_ttree_rightmost(db, hdr->ctl.t.offset_root_node, end_bound, &find_ttree_bounds__1__4__boundtype, (struct wg_tnode *)(void *)0);
+      if(find_ttree_bounds__1__4__boundtype == 0l)
       {
         es=wg_search_tnode_last(db, eo, end_bound, col);
         if(es == -1l)
@@ -5284,20 +5284,20 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
       }
 
       else
-        if(find_ttree_bounds$$1$$4$$boundtype == 2l)
+        if(find_ttree_bounds__1__4__boundtype == 2l)
         {
-          node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+          node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
           es = (signed long int)((signed int)node->number_of_elements - 1);
         }
 
         else
-          if(find_ttree_bounds$$1$$4$$boundtype == 1l)
+          if(find_ttree_bounds__1__4__boundtype == 1l)
           {
-            node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+            node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
             eo = node->pred_offset;
             if(!(eo == 0l))
             {
-              node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+              node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
               es = (signed long int)((signed int)node->number_of_elements - 1);
             }
 
@@ -5307,8 +5307,8 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
 
     else
     {
-      eo=wg_search_ttree_leftmost(db, hdr->ctl.t.offset_root_node, end_bound, &find_ttree_bounds$$1$$4$$boundtype, (struct wg_tnode *)(void *)0);
-      if(find_ttree_bounds$$1$$4$$boundtype == 0l)
+      eo=wg_search_ttree_leftmost(db, hdr->ctl.t.offset_root_node, end_bound, &find_ttree_bounds__1__4__boundtype, (struct wg_tnode *)(void *)0);
+      if(find_ttree_bounds__1__4__boundtype == 0l)
       {
         es=wg_search_tnode_first(db, eo, end_bound, col);
         if(es == -1l)
@@ -5320,11 +5320,11 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
         es = es - 1l;
         if(!(es >= 0l))
         {
-          node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+          node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
           eo = node->pred_offset;
           if(!(eo == 0l))
           {
-            node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+            node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
             es = (signed long int)((signed int)node->number_of_elements - 1);
           }
 
@@ -5333,20 +5333,20 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
       }
 
       else
-        if(find_ttree_bounds$$1$$4$$boundtype == 2l)
+        if(find_ttree_bounds__1__4__boundtype == 2l)
         {
-          node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+          node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
           es = (signed long int)((signed int)node->number_of_elements - 1);
         }
 
         else
-          if(find_ttree_bounds$$1$$4$$boundtype == 1l)
+          if(find_ttree_bounds__1__4__boundtype == 1l)
           {
-            node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+            node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
             eo = node->pred_offset;
             if(!(eo == 0l))
             {
-              node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + eo);
+              node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + eo);
               es = (signed long int)((signed int)node->number_of_elements - 1);
             }
 
@@ -5368,7 +5368,7 @@ static signed long int find_ttree_bounds(void *db, signed long int index_id, sig
 
       else
       {
-        node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + co);
+        node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + co);
         if(eo == node->pred_offset)
         {
           co = (signed long int)0;
@@ -5403,14 +5403,14 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
   signed long int commit_record;
   signed long int reclen;
   signed long int encdata_sz = (signed long int)10;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)4096);
-  strbuf = (char *)return_value_malloc$1;
-  signed int return_value_feof$3;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  signed long int tmp_post$10;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)4096);
+  strbuf = (char *)return_value_malloc_1;
+  signed int return_value_feof_3;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  signed long int tmp_post_10;
   if(strbuf == ((char *)NULL))
   {
     show_io_error(db, "Failed to allocate memory");
@@ -5419,9 +5419,9 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)encdata_sz);
-    encdata = (signed long int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)encdata_sz);
+    encdata = (signed long int *)return_value_malloc_2;
     if(strbuf == ((char *)NULL))
     {
       free((void *)strbuf);
@@ -5441,22 +5441,22 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
       ptr = strbuf;
       do
       {
-        return_value_feof$3=feof(f);
-        if(!(return_value_feof$3 == 0))
+        return_value_feof_3=feof(f);
+        if(!(return_value_feof_3 == 0))
           break;
 
         char c;
-        signed int return_value_fgetc$4;
-        return_value_fgetc$4=fgetc(f);
-        c = (char)return_value_fgetc$4;
+        signed int return_value_fgetc_4;
+        return_value_fgetc_4=fgetc(f);
+        c = (char)return_value_fgetc_4;
         if(!(quoted_field == 0l))
         {
           if(esc_quote == 0l && (signed int)c == 34)
           {
             char nextc;
-            signed int return_value_fgetc$5;
-            return_value_fgetc$5=fgetc(f);
-            nextc = (char)return_value_fgetc$5;
+            signed int return_value_fgetc_5;
+            return_value_fgetc_5=fgetc(f);
+            nextc = (char)return_value_fgetc_5;
             ungetc((signed int)nextc, f);
             if(!((signed int)nextc == 34))
             {
@@ -5474,9 +5474,9 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
             esc_quote = (signed long int)0;
             if(!((signed long int)ptr + -((signed long int)strbuf) >= 4095l))
             {
-              tmp_post$6 = ptr;
+              tmp_post_6 = ptr;
               ptr = ptr + 1l;
-              *tmp_post$6 = c;
+              *tmp_post_6 = c;
             }
 
           }
@@ -5506,9 +5506,9 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
                 else
                   if(!((signed long int)ptr + -((signed long int)strbuf) >= 4095l))
                   {
-                    tmp_post$7 = ptr;
+                    tmp_post_7 = ptr;
                     ptr = ptr + 1l;
-                    *tmp_post$7 = c;
+                    *tmp_post_7 = c;
                   }
 
           }
@@ -5550,9 +5550,9 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
                   else
                   {
                     uq_field = (signed long int)1;
-                    tmp_post$8 = ptr;
+                    tmp_post_8 = ptr;
                     ptr = ptr + 1l;
-                    *tmp_post$8 = c;
+                    *tmp_post_8 = c;
                   }
         if(!(commit_strbuf == 0l))
         {
@@ -5564,9 +5564,9 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
           {
             signed long int *tmp;
             encdata_sz = encdata_sz + (signed long int)10;
-            void *return_value_realloc$9;
-            return_value_realloc$9=realloc((void *)encdata, sizeof(signed long int) /*8ul*/  * (unsigned long int)encdata_sz);
-            tmp = (signed long int *)return_value_realloc$9;
+            void *return_value_realloc_9;
+            return_value_realloc_9=realloc((void *)encdata, sizeof(signed long int) /*8ul*/  * (unsigned long int)encdata_sz);
+            tmp = (signed long int *)return_value_realloc_9;
             if(tmp == ((signed long int *)NULL))
             {
               err = (signed long int)-3;
@@ -5585,9 +5585,9 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
             enc = (signed long int)0;
           }
 
-          tmp_post$10 = reclen;
+          tmp_post_10 = reclen;
           reclen = reclen + 1l;
-          encdata[tmp_post$10] = enc;
+          encdata[tmp_post_10] = enc;
         }
 
         if(!(commit_record == 0l))
@@ -5609,9 +5609,9 @@ static signed long int fread_csv(void *db, struct _IO_FILE *f)
           i = 0;
           for( ; !((signed long int)i >= reclen); i = i + 1)
           {
-            signed long int return_value_wg_set_field$11;
-            return_value_wg_set_field$11=wg_set_field(db, rec, (signed long int)i, encdata[(signed long int)i]);
-            if(!(return_value_wg_set_field$11 == 0l))
+            signed long int return_value_wg_set_field_11;
+            return_value_wg_set_field_11=wg_set_field(db, rec, (signed long int)i, encdata[(signed long int)i]);
+            if(!(return_value_wg_set_field_11 == 0l))
             {
               err = (signed long int)-2;
               show_io_error(db, "Failed to save field data");
@@ -5653,14 +5653,14 @@ static signed long int free_field_encoffset(void *db, signed long int encoffset)
     case (signed long int)0x4:
     {
       offset = encoffset & (signed long int)~0x7;
-      tmp = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + sizeof(signed long int) /*8ul*/  * (unsigned long int)2)));
+      tmp = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + sizeof(signed long int) /*8ul*/  * (unsigned long int)2)));
       tmp = tmp - 1l;
       if(tmp >= 1l)
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + sizeof(signed long int) /*8ul*/  * (unsigned long int)2))) = tmp;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + sizeof(signed long int) /*8ul*/  * (unsigned long int)2))) = tmp;
 
       else
       {
-        objptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + offset);
+        objptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + offset);
         extrastr = (signed long int *)((char *)objptr + (signed long int)(sizeof(signed long int) /*8ul*/  * (unsigned long int)5));
         tmp = *extrastr;
         wg_remove_from_strhash(db, encoffset);
@@ -5668,7 +5668,7 @@ static signed long int free_field_encoffset(void *db, signed long int encoffset)
           free_field_encoffset(db, tmp);
 
         *extrastr = (signed long int)0;
-        wg_free_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->longstr_area_header, offset);
+        wg_free_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->longstr_area_header, offset);
       }
       break;
     }
@@ -5697,15 +5697,15 @@ static signed long int free_field_encoffset(void *db, signed long int encoffset)
 // file dblock.c line 1392
 static void free_lock(void *db, signed long int node)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  struct anonymous$5 *tmp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + node);
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  struct anonymous_5 *tmp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + node);
   tmp->next_cell = dbh->locks.freelist;
   dbh->locks.freelist = node;
 }
 
 // free_resultset
 // file dbquery.c line 1368
-static void free_resultset(void *db, struct anonymous$17 *set)
+static void free_resultset(void *db, struct anonymous_17 *set)
 {
   if(!(set->mpool == NULL))
     wg_free_mpool(db, set->mpool);
@@ -5720,16 +5720,16 @@ static signed int free_shared_memory(signed int key)
   signed int shmflg;
   signed int shmid;
   signed int tmp;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   shmflg = 0666;
   shmid=shmget((signed int)key, (unsigned long int)0, shmflg);
   if(!(shmid >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    switch(*return_value___errno_location$2)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    switch(*return_value___errno_location_2)
     {
       case 13:
       {
@@ -5750,9 +5750,9 @@ static signed int free_shared_memory(signed int key)
   tmp=shmctl(shmid, 0, (struct shmid_ds *)(void *)0);
   if(tmp == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 1)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 1)
     {
       show_memory_error("freeing shared memory segment: Permission denied");
       goto __CPROVER_DUMP_L8;
@@ -5772,13 +5772,13 @@ static signed int free_shared_memory(signed int key)
 // file dblock.c line 1411
 static signed int futex_trywait(volatile signed long int *addr1, signed int val1, struct timespec *timeout)
 {
-  signed long int return_value_syscall$2;
-  return_value_syscall$2=syscall((signed long int)202, (void *)addr1, 0, val1, timeout);
-  signed int *return_value___errno_location$1;
-  if(return_value_syscall$2 == -1l)
+  signed long int return_value_syscall_2;
+  return_value_syscall_2=syscall((signed long int)202, (void *)addr1, 0, val1, timeout);
+  signed int *return_value___errno_location_1;
+  if(return_value_syscall_2 == -1l)
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -5794,13 +5794,13 @@ static void futex_wake(volatile signed long int *addr1, signed int val1)
 
 // ginthash_newbucket
 // file dbhash.c line 721
-static struct anonymous$34 * ginthash_newbucket(void *db, struct anonymous$35 *tbl)
+static struct anonymous_34 * ginthash_newbucket(void *db, struct anonymous_35 *tbl)
 {
-  struct anonymous$34 *bucket;
-  void *return_value_wg_alloc_mpool$1;
-  return_value_wg_alloc_mpool$1=wg_alloc_mpool(db, tbl->mpool, (signed int)sizeof(struct anonymous$34) /*144ul*/ );
-  bucket = (struct anonymous$34 *)return_value_wg_alloc_mpool$1;
-  if(!(bucket == ((struct anonymous$34 *)NULL)))
+  struct anonymous_34 *bucket;
+  void *return_value_wg_alloc_mpool_1;
+  return_value_wg_alloc_mpool_1=wg_alloc_mpool(db, tbl->mpool, (signed int)sizeof(struct anonymous_34) /*144ul*/ );
+  bucket = (struct anonymous_34 *)return_value_wg_alloc_mpool_1;
+  if(!(bucket == ((struct anonymous_34 *)NULL)))
     bucket->fill = (signed long int)0;
 
   return bucket;
@@ -5808,30 +5808,30 @@ static struct anonymous$34 * ginthash_newbucket(void *db, struct anonymous$35 *t
 
 // ginthash_splitbucket
 // file dbhash.c line 735
-static struct anonymous$34 * ginthash_splitbucket(void *db, struct anonymous$35 *tbl, struct anonymous$34 *bucket)
+static struct anonymous_34 * ginthash_splitbucket(void *db, struct anonymous_35 *tbl, struct anonymous_34 *bucket)
 {
   signed long int msbmask;
   signed long int lowbits;
   signed int i;
-  struct anonymous$34 *newbucket;
+  struct anonymous_34 *newbucket;
   if(bucket->level == tbl->level)
   {
-    signed long int return_value_grow_ginthash$1;
-    return_value_grow_ginthash$1=grow_ginthash(db, (struct anonymous$35 *)tbl);
-    if(!(return_value_grow_ginthash$1 == 0l))
-      return (struct anonymous$34 *)(void *)0;
+    signed long int return_value_grow_ginthash_1;
+    return_value_grow_ginthash_1=grow_ginthash(db, (struct anonymous_35 *)tbl);
+    if(!(return_value_grow_ginthash_1 == 0l))
+      return (struct anonymous_34 *)(void *)0;
 
   }
 
-  signed long int tmp_post$2 = bucket->level;
+  signed long int tmp_post_2 = bucket->level;
   bucket->level = bucket->level + 1l;
-  msbmask = (signed long int)(1 << tmp_post$2);
-  signed long int return_value_rehash_gint$3;
-  return_value_rehash_gint$3=rehash_gint(bucket->key[(signed long int)0]);
-  lowbits = return_value_rehash_gint$3 & msbmask - (signed long int)1;
+  msbmask = (signed long int)(1 << tmp_post_2);
+  signed long int return_value_rehash_gint_3;
+  return_value_rehash_gint_3=rehash_gint(bucket->key[(signed long int)0]);
+  lowbits = return_value_rehash_gint_3 & msbmask - (signed long int)1;
   newbucket=ginthash_newbucket(db, tbl);
-  if(newbucket == ((struct anonymous$34 *)NULL))
-    return (struct anonymous$34 *)(void *)0;
+  if(newbucket == ((struct anonymous_34 *)NULL))
+    return (struct anonymous_34 *)(void *)0;
 
   else
   {
@@ -5840,13 +5840,13 @@ static struct anonymous$34 * ginthash_splitbucket(void *db, struct anonymous$35 
     for( ; i >= 0; i = i - 1)
     {
       signed long int k_i = bucket->key[(signed long int)i];
-      signed long int return_value_rehash_gint$5;
-      return_value_rehash_gint$5=rehash_gint(k_i);
-      if(!((return_value_rehash_gint$5 & msbmask) == 0l))
+      signed long int return_value_rehash_gint_5;
+      return_value_rehash_gint_5=rehash_gint(k_i);
+      if(!((return_value_rehash_gint_5 & msbmask) == 0l))
       {
-        signed long int return_value_remove_from_bucket$4;
-        return_value_remove_from_bucket$4=remove_from_bucket(bucket, i);
-        add_to_bucket(newbucket, k_i, return_value_remove_from_bucket$4);
+        signed long int return_value_remove_from_bucket_4;
+        return_value_remove_from_bucket_4=remove_from_bucket(bucket, i);
+        add_to_bucket(newbucket, k_i, return_value_remove_from_bucket_4);
       }
 
     }
@@ -5861,7 +5861,7 @@ static struct anonymous$34 * ginthash_splitbucket(void *db, struct anonymous$35 
       {
         unsigned long int k = j << bucket->level | (unsigned long int)msbmask | (unsigned long int)lowbits;
         if(!(tbl->directory[(signed long int)k] == bucket))
-          return (struct anonymous$34 *)(void *)0;
+          return (struct anonymous_34 *)(void *)0;
 
         tbl->directory[(signed long int)k] = newbucket;
       }
@@ -5872,23 +5872,23 @@ static struct anonymous$34 * ginthash_splitbucket(void *db, struct anonymous$35 
 
 // grow_ginthash
 // file dbhash.c line 685
-static signed long int grow_ginthash(void *db, struct anonymous$35 *tbl)
+static signed long int grow_ginthash(void *db, struct anonymous_35 *tbl)
 {
   void *tmp;
   signed long int newlevel = tbl->level + (signed long int)1;
-  signed long int return_value_show_ginthash_error$1;
+  signed long int return_value_show_ginthash_error_1;
   if(newlevel >= 23l)
   {
-    return_value_show_ginthash_error$1=show_ginthash_error(db, "Maximum level exceeded.");
-    return return_value_show_ginthash_error$1;
+    return_value_show_ginthash_error_1=show_ginthash_error(db, "Maximum level exceeded.");
+    return return_value_show_ginthash_error_1;
   }
 
   else
   {
-    tmp=realloc((void *)tbl->directory, (unsigned long int)(1 << newlevel) * sizeof(struct anonymous$34 *) /*8ul*/ );
+    tmp=realloc((void *)tbl->directory, (unsigned long int)(1 << newlevel) * sizeof(struct anonymous_34 *) /*8ul*/ );
     if(!(tmp == NULL))
     {
-      tbl->directory = (struct anonymous$34 **)tmp;
+      tbl->directory = (struct anonymous_34 **)tmp;
       if(!(tbl->level == 0l))
       {
         unsigned long int i;
@@ -5900,27 +5900,27 @@ static signed long int grow_ginthash(void *db, struct anonymous$35 *tbl)
 
       else
       {
-        tmp=wg_create_mpool(db, (signed int)((unsigned long int)2 * sizeof(struct anonymous$34) /*144ul*/ ));
+        tmp=wg_create_mpool(db, (signed int)((unsigned long int)2 * sizeof(struct anonymous_34) /*144ul*/ ));
         if(!(tmp == NULL))
         {
           tbl->mpool = tmp;
-          memset((void *)tbl->directory, 0, (unsigned long int)2 * sizeof(struct anonymous$34 *) /*8ul*/ );
+          memset((void *)tbl->directory, 0, (unsigned long int)2 * sizeof(struct anonymous_34 *) /*8ul*/ );
         }
 
         else
         {
-          signed long int return_value_show_ginthash_error$2;
-          return_value_show_ginthash_error$2=show_ginthash_error(db, "Failed to allocate bucket pool.");
-          return return_value_show_ginthash_error$2;
+          signed long int return_value_show_ginthash_error_2;
+          return_value_show_ginthash_error_2=show_ginthash_error(db, "Failed to allocate bucket pool.");
+          return return_value_show_ginthash_error_2;
         }
       }
     }
 
     else
     {
-      signed long int return_value_show_ginthash_error$3;
-      return_value_show_ginthash_error$3=show_ginthash_error(db, "Failed to reallocate directory.");
-      return return_value_show_ginthash_error$3;
+      signed long int return_value_show_ginthash_error_3;
+      return_value_show_ginthash_error_3=show_ginthash_error(db, "Failed to reallocate directory.");
+      return return_value_show_ginthash_error_3;
     }
     tbl->level = newlevel;
     return (signed long int)0;
@@ -5931,15 +5931,15 @@ static signed long int grow_ginthash(void *db, struct anonymous$35 *tbl)
 // file dbindex.c line 1473
 static signed long int hash_add_row(void *db, signed long int index_id, void *rec)
 {
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   signed long int i;
   signed long int values[10l];
   i = (signed long int)0;
   for( ; !(i >= hdr->fields); i = i + 1l)
     values[i]=wg_get_field(db, rec, hdr->rec_field_index[i]);
-  signed long int return_value_hash_recurse$1;
-  return_value_hash_recurse$1=hash_recurse(db, hdr, (char *)(void *)0, (signed long int)0, values, hdr->fields, rec, (signed long int)1, (signed long int)(hdr->type == (signed long int)61));
-  return return_value_hash_recurse$1;
+  signed long int return_value_hash_recurse_1;
+  return_value_hash_recurse_1=hash_recurse(db, hdr, (char *)(void *)0, (signed long int)0, values, hdr->fields, rec, (signed long int)1, (signed long int)(hdr->type == (signed long int)61));
+  return return_value_hash_recurse_1;
 }
 
 // hash_bytes
@@ -5960,7 +5960,7 @@ static unsigned long int hash_bytes(void *db, char *data, signed long int length
 
 // hash_extend_prefix
 // file dbindex.c line 1565
-static signed long int hash_extend_prefix(void *db, struct anonymous$21 *hdr, char *prefix, signed long int prefixlen, signed long int nextval, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand)
+static signed long int hash_extend_prefix(void *db, struct anonymous_21 *hdr, char *prefix, signed long int prefixlen, signed long int nextval, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand)
 {
   char *fldbytes;
   char *newprefix;
@@ -5981,9 +5981,9 @@ static signed long int hash_extend_prefix(void *db, struct anonymous$21 *hdr, ch
 
     else
       newlen = fldlen;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)newlen);
-    newprefix = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)newlen);
+    newprefix = (char *)return_value_malloc_1;
     if(newprefix == ((char *)NULL))
     {
       free((void *)fldbytes);
@@ -6010,16 +6010,16 @@ static signed long int hash_extend_prefix(void *db, struct anonymous$21 *hdr, ch
 
 // hash_recurse
 // file dbindex.c line 1514
-static signed long int hash_recurse(void *db, struct anonymous$21 *hdr, char *prefix, signed long int prefixlen, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand)
+static signed long int hash_recurse(void *db, struct anonymous_21 *hdr, char *prefix, signed long int prefixlen, signed long int *values, signed long int count, void *rec, signed long int op, signed long int expand)
 {
   if(!(count == 0l))
   {
     signed long int nextvalue = values[(signed long int)0];
     if(!(expand == 0l))
     {
-      signed long int return_value_wg_get_encoded_type$2;
-      return_value_wg_get_encoded_type$2=wg_get_encoded_type(db, nextvalue);
-      if(return_value_wg_get_encoded_type$2 == 2l)
+      signed long int return_value_wg_get_encoded_type_2;
+      return_value_wg_get_encoded_type_2=wg_get_encoded_type(db, nextvalue);
+      if(return_value_wg_get_encoded_type_2 == 2l)
       {
         void *valrec;
         valrec=wg_decode_record(db, nextvalue);
@@ -6032,9 +6032,9 @@ static signed long int hash_recurse(void *db, struct anonymous$21 *hdr, char *pr
           i = (signed long int)0;
           for( ; !(i >= reclen); i = i + 1l)
           {
-            signed long int return_value_wg_get_field$1;
-            return_value_wg_get_field$1=wg_get_field(db, valrec, i);
-            retv=hash_extend_prefix(db, hdr, prefix, prefixlen, return_value_wg_get_field$1, &values[(signed long int)1], count - (signed long int)1, rec, op, expand);
+            signed long int return_value_wg_get_field_1;
+            return_value_wg_get_field_1=wg_get_field(db, valrec, i);
+            retv=hash_extend_prefix(db, hdr, prefix, prefixlen, return_value_wg_get_field_1, &values[(signed long int)1], count - (signed long int)1, rec, op, expand);
             if(!(retv == 0l))
               break;
 
@@ -6046,32 +6046,32 @@ static signed long int hash_recurse(void *db, struct anonymous$21 *hdr, char *pr
 
     }
 
-    signed long int return_value_hash_extend_prefix$3;
-    return_value_hash_extend_prefix$3=hash_extend_prefix(db, hdr, prefix, prefixlen, nextvalue, &values[(signed long int)1], count - (signed long int)1, rec, op, expand);
-    return return_value_hash_extend_prefix$3;
+    signed long int return_value_hash_extend_prefix_3;
+    return_value_hash_extend_prefix_3=hash_extend_prefix(db, hdr, prefix, prefixlen, nextvalue, &values[(signed long int)1], count - (signed long int)1, rec, op, expand);
+    return return_value_hash_extend_prefix_3;
   }
 
   else
     if(op == 1l)
     {
-      signed long int return_value_wg_idxhash_store$4;
-      return_value_wg_idxhash_store$4=wg_idxhash_store(db, &hdr->ctl.h.hasharea, prefix, prefixlen, (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db));
-      return return_value_wg_idxhash_store$4;
+      signed long int return_value_wg_idxhash_store_4;
+      return_value_wg_idxhash_store_4=wg_idxhash_store(db, &hdr->ctl.h.hasharea, prefix, prefixlen, (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db));
+      return return_value_wg_idxhash_store_4;
     }
 
     else
       if(op == 2l)
       {
-        signed long int return_value_wg_idxhash_remove$5;
-        return_value_wg_idxhash_remove$5=wg_idxhash_remove(db, &hdr->ctl.h.hasharea, prefix, prefixlen, (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db));
-        return return_value_wg_idxhash_remove$5;
+        signed long int return_value_wg_idxhash_remove_5;
+        return_value_wg_idxhash_remove_5=wg_idxhash_remove(db, &hdr->ctl.h.hasharea, prefix, prefixlen, (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db));
+        return return_value_wg_idxhash_remove_5;
       }
 
       else
       {
-        signed long int return_value_wg_idxhash_find$6;
-        return_value_wg_idxhash_find$6=wg_idxhash_find(db, &hdr->ctl.h.hasharea, prefix, prefixlen);
-        return return_value_wg_idxhash_find$6;
+        signed long int return_value_wg_idxhash_find_6;
+        return_value_wg_idxhash_find_6=wg_idxhash_find(db, &hdr->ctl.h.hasharea, prefix, prefixlen);
+        return return_value_wg_idxhash_find_6;
       }
   return (signed long int)0;
 }
@@ -6080,15 +6080,15 @@ static signed long int hash_recurse(void *db, struct anonymous$21 *hdr, char *pr
 // file dbindex.c line 1490
 static signed long int hash_remove_row(void *db, signed long int index_id, void *rec)
 {
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   signed long int i;
   signed long int values[10l];
   i = (signed long int)0;
   for( ; !(i >= hdr->fields); i = i + 1l)
     values[i]=wg_get_field(db, rec, hdr->rec_field_index[i]);
-  signed long int return_value_hash_recurse$1;
-  return_value_hash_recurse$1=hash_recurse(db, hdr, (char *)(void *)0, (signed long int)0, values, hdr->fields, rec, (signed long int)2, (signed long int)(hdr->type == (signed long int)61));
-  return return_value_hash_recurse$1;
+  signed long int return_value_hash_recurse_1;
+  return_value_hash_recurse_1=hash_recurse(db, hdr, (char *)(void *)0, (signed long int)0, values, hdr->fields, rec, (signed long int)2, (signed long int)(hdr->type == (signed long int)61));
+  return return_value_hash_recurse_1;
 }
 
 // hexToDigit
@@ -6128,7 +6128,7 @@ static signed long int init_area_buckets(void *db, void *area_header)
 // file dballoc.c line 386
 static signed long int init_db_index_area_header(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   dbh->index_control_area_header.number_of_indexes = (signed long int)0;
   memset((void *)dbh->index_control_area_header.index_table, 0, (unsigned long int)(127 + 1) * sizeof(signed long int) /*8ul*/ );
   dbh->index_control_area_header.index_list = (signed long int)0;
@@ -6141,7 +6141,7 @@ static signed long int init_db_index_area_header(void *db)
 // file dballoc.c line 456
 static signed long int init_db_recptr_bitmap(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   dbh->recptr_bitmap.offset = (signed long int)0;
   dbh->recptr_bitmap.size = (signed long int)0;
   return (signed long int)0;
@@ -6189,7 +6189,7 @@ static signed long int init_db_subarea(void *db, void *area_header, signed long 
 static void * init_dbhandle(void)
 {
   void *dbhandle;
-  dbhandle=malloc(sizeof(struct anonymous$6) /*16ul*/ );
+  dbhandle=malloc(sizeof(struct anonymous_6) /*16ul*/ );
   if(dbhandle == NULL)
   {
     show_memory_error("Failed to allocate the db handle");
@@ -6197,7 +6197,7 @@ static void * init_dbhandle(void)
   }
 
   else
-    memset(dbhandle, 0, sizeof(struct anonymous$6) /*16ul*/ );
+    memset(dbhandle, 0, sizeof(struct anonymous_6) /*16ul*/ );
   return dbhandle;
 }
 
@@ -6205,7 +6205,7 @@ static void * init_dbhandle(void)
 // file dballoc.c line 369
 static signed long int init_extdb(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed int i;
   dbh->extdbs.count = (signed long int)0;
   i = 0;
@@ -6243,7 +6243,7 @@ static signed long int init_hash_subarea(void *db, struct _db_hash_area_header *
     i = areah->arraystart;
     j = (signed long int)0;
     for( ; !(j >= arraylength); j = j + 1l)
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)i + (unsigned long int)j * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)i + (unsigned long int)j * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
     return (signed long int)0;
   }
 }
@@ -6252,7 +6252,7 @@ static signed long int init_hash_subarea(void *db, struct _db_hash_area_header *
 // file dballoc.c line 403
 static signed long int init_logging(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   dbh->logging.active = (signed long int)0;
   dbh->logging.dirty = (signed long int)0;
   dbh->logging.serial = (signed long int)1;
@@ -6263,12 +6263,12 @@ static signed long int init_logging(void *db)
 // file dballoc.c line 415
 static signed long int init_strhash_area(void *db, struct _db_hash_area_header *areah)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int arraylength;
   arraylength = (signed long int)((unsigned long int)(signed long int)((double)(dbh->size + (signed long int)1) * ((double)2 / 100.0)) / sizeof(signed long int) /*8ul*/ );
-  signed long int return_value_init_hash_subarea$1;
-  return_value_init_hash_subarea$1=init_hash_subarea(db, areah, arraylength);
-  return return_value_init_hash_subarea$1;
+  signed long int return_value_init_hash_subarea_1;
+  return_value_init_hash_subarea_1=init_hash_subarea(db, areah, arraylength);
+  return return_value_init_hash_subarea_1;
 }
 
 // init_subarea_freespace
@@ -6296,33 +6296,33 @@ static signed long int init_subarea_freespace(void *db, void *area_header, signe
     dvsize = freebuckets[(signed long int)(256 + 32 + 1)];
     if(dvsize >= (signed long int)(sizeof(signed long int) * 4) /*32l*/  && !(dv == 0l))
     {
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + dv)) = dvsize & (signed long int)~3 | (signed long int)1;
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(dv + dvsize) - sizeof(signed long int) /*8ul*/ ))) = dvsize & (signed long int)~3 | (signed long int)1;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + dv)) = dvsize & (signed long int)~3 | (signed long int)1;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(dv + dvsize) - sizeof(signed long int) /*8ul*/ ))) = dvsize & (signed long int)~3 | (signed long int)1;
       dvindex=wg_freebuckets_index(db, dvsize);
       freelist = freebuckets[dvindex];
       if(!(freelist == 0l))
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)freelist + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = dv;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)freelist + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = dv;
 
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)dv + sizeof(signed long int) /*8ul*/ ))) = freelist;
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)dv + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[dvindex] - (char *)((struct anonymous$6 *)db)->db);
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)dv + sizeof(signed long int) /*8ul*/ ))) = freelist;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)dv + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[dvindex] - (char *)((struct anonymous_6 *)db)->db);
       freebuckets[dvindex] = dv;
     }
 
   }
 
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/  | (signed long int)3;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(offset + (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ) - sizeof(signed long int) /*8ul*/ ))) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/  | (signed long int)3;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(offset + (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ) - sizeof(signed long int) /*8ul*/ ))) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
   endmarkobj = (offset + size) - (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + endmarkobj)) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/  | (signed long int)3;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)endmarkobj + sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)endmarkobj + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(endmarkobj + (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ) - sizeof(signed long int) /*8ul*/ ))) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + endmarkobj)) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/  | (signed long int)3;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)endmarkobj + sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)endmarkobj + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(endmarkobj + (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ) - sizeof(signed long int) /*8ul*/ ))) = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
   freeoffset = offset + (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
   freesize = size - (signed long int)2 * (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + freeoffset)) = freesize | (signed long int)3;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)freeoffset + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + freeoffset)) = freesize | (signed long int)3;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)freeoffset + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
   freebuckets[(signed long int)(256 + 32)] = freeoffset;
   freebuckets[(signed long int)(256 + 32 + 1)] = freesize;
   return (signed long int)0;
@@ -6332,7 +6332,7 @@ static signed long int init_subarea_freespace(void *db, void *area_header, signe
 // file dballoc.c line 338
 static signed long int init_syn_vars(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int i;
   i=alloc_db_segmentchunk(db, (signed long int)(128 * (64 + 2)));
   if(i == 0l)
@@ -6345,9 +6345,9 @@ static signed long int init_syn_vars(void *db)
     dbh->locks.storage = i + (signed long int)128;
     dbh->locks.max_nodes = (signed long int)64;
     dbh->locks.freelist = dbh->locks.storage;
-    signed long int return_value_wg_init_locks$1;
-    return_value_wg_init_locks$1=wg_init_locks(db);
-    return return_value_wg_init_locks$1;
+    signed long int return_value_wg_init_locks_1;
+    return_value_wg_init_locks_1=wg_init_locks(db);
+    return return_value_wg_init_locks_1;
   }
 }
 
@@ -6355,12 +6355,12 @@ static signed long int init_syn_vars(void *db)
 // file dbindex.c line 1718
 static signed long int insert_into_list(void *db, signed long int *head, signed long int value)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int old = *head;
   *head=wg_alloc_fixlen_object(db, (void *)&dbh->listcell_area_header);
   if(!(*head == 0l))
   {
-    struct anonymous$20 *listelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *head);
+    struct anonymous_20 *listelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *head);
     listelem->car = value;
     listelem->cdr = old;
   }
@@ -6370,67 +6370,67 @@ static signed long int insert_into_list(void *db, signed long int *head, signed 
 
 // internal_build_query
 // file dbquery.c line 668
-static struct anonymous$15 * internal_build_query(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc, signed long int flags, unsigned long int rowlimit)
+static struct anonymous_15 * internal_build_query(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc, signed long int flags, unsigned long int rowlimit)
 {
-  struct anonymous$15 *query;
-  struct anonymous$12 *full_arglist;
+  struct anonymous_15 *query;
+  struct anonymous_12 *full_arglist;
   signed long int fargc = (signed long int)0;
   signed long int col;
   signed long int index_id = (signed long int)-1;
   signed int i;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$6;
-  signed long int tmp_if_expr$5;
-  signed long int return_value_wg_compare$4;
-  _Bool tmp_if_expr$9;
-  signed long int tmp_if_expr$8;
-  signed long int return_value_wg_compare$7;
-  _Bool tmp_if_expr$12;
-  signed long int tmp_if_expr$11;
-  signed long int return_value_wg_compare$10;
-  _Bool tmp_if_expr$15;
-  signed long int tmp_if_expr$14;
-  signed long int return_value_wg_compare$13;
-  _Bool tmp_if_expr$18;
-  signed long int tmp_if_expr$17;
-  signed long int return_value_wg_compare$16;
-  _Bool tmp_if_expr$21;
-  signed long int tmp_if_expr$20;
-  signed long int return_value_wg_compare$19;
-  signed long int tmp_if_expr$23;
-  signed long int return_value_wg_compare$22;
-  signed int tmp_post$26;
-  signed int tmp_post$28;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_6;
+  signed long int tmp_if_expr_5;
+  signed long int return_value_wg_compare_4;
+  _Bool tmp_if_expr_9;
+  signed long int tmp_if_expr_8;
+  signed long int return_value_wg_compare_7;
+  _Bool tmp_if_expr_12;
+  signed long int tmp_if_expr_11;
+  signed long int return_value_wg_compare_10;
+  _Bool tmp_if_expr_15;
+  signed long int tmp_if_expr_14;
+  signed long int return_value_wg_compare_13;
+  _Bool tmp_if_expr_18;
+  signed long int tmp_if_expr_17;
+  signed long int return_value_wg_compare_16;
+  _Bool tmp_if_expr_21;
+  signed long int tmp_if_expr_20;
+  signed long int return_value_wg_compare_19;
+  signed long int tmp_if_expr_23;
+  signed long int return_value_wg_compare_22;
+  signed int tmp_post_26;
+  signed int tmp_post_28;
+  if(!tmp_if_expr_1)
   {
     fprintf(stderr, "Invalid database pointer in wg_make_query.\n");
-    return (struct anonymous$15 *)(void *)0;
+    return (struct anonymous_15 *)(void *)0;
   }
 
   else
   {
-    signed long int return_value_prepare_params$2;
-    return_value_prepare_params$2=prepare_params(db, matchrec, reclen, arglist, argc, &full_arglist, &fargc);
-    if(!(return_value_prepare_params$2 == 0l))
-      return (struct anonymous$15 *)(void *)0;
+    signed long int return_value_prepare_params_2;
+    return_value_prepare_params_2=prepare_params(db, matchrec, reclen, arglist, argc, &full_arglist, &fargc);
+    if(!(return_value_prepare_params_2 == 0l))
+      return (struct anonymous_15 *)(void *)0;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct anonymous$15) /*112ul*/ );
-      query = (struct anonymous$15 *)return_value_malloc$3;
-      if(query == ((struct anonymous$15 *)NULL))
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct anonymous_15) /*112ul*/ );
+      query = (struct anonymous_15 *)return_value_malloc_3;
+      if(query == ((struct anonymous_15 *)NULL))
       {
         show_query_error(db, "Failed to allocate memory");
-        if(!(full_arglist == ((struct anonymous$12 *)NULL)))
+        if(!(full_arglist == ((struct anonymous_12 *)NULL)))
           free((void *)full_arglist);
 
-        return (struct anonymous$15 *)(void *)0;
+        return (struct anonymous_15 *)(void *)0;
       }
 
       else
@@ -6441,7 +6441,7 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
         else
         {
           index_id = (signed long int)-1;
-          full_arglist = (struct anonymous$12 *)(void *)0;
+          full_arglist = (struct anonymous_12 *)(void *)0;
         }
         if(index_id >= 1l)
         {
@@ -6464,42 +6464,42 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
                 case (signed long int)0x0001:
                 {
                   if(start_bound == 255l)
-                    tmp_if_expr$6 = (_Bool)1;
+                    tmp_if_expr_6 = (_Bool)1;
 
                   else
                   {
                     if(start_bound == (full_arglist + (signed long int)i)->value)
-                      tmp_if_expr$5 = (signed long int)0;
+                      tmp_if_expr_5 = (signed long int)0;
 
                     else
                     {
-                      return_value_wg_compare$4=wg_compare(db, start_bound, (full_arglist + (signed long int)i)->value, 7);
-                      tmp_if_expr$5 = return_value_wg_compare$4;
+                      return_value_wg_compare_4=wg_compare(db, start_bound, (full_arglist + (signed long int)i)->value, 7);
+                      tmp_if_expr_5 = return_value_wg_compare_4;
                     }
-                    tmp_if_expr$6 = tmp_if_expr$5 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_6 = tmp_if_expr_5 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$6)
+                  if(tmp_if_expr_6)
                   {
                     start_bound = (full_arglist + (signed long int)i)->value;
                     start_inclusive = 1;
                   }
 
                   if(end_bound == 255l)
-                    tmp_if_expr$9 = (_Bool)1;
+                    tmp_if_expr_9 = (_Bool)1;
 
                   else
                   {
                     if(end_bound == (full_arglist + (signed long int)i)->value)
-                      tmp_if_expr$8 = (signed long int)0;
+                      tmp_if_expr_8 = (signed long int)0;
 
                     else
                     {
-                      return_value_wg_compare$7=wg_compare(db, end_bound, (full_arglist + (signed long int)i)->value, 7);
-                      tmp_if_expr$8 = return_value_wg_compare$7;
+                      return_value_wg_compare_7=wg_compare(db, end_bound, (full_arglist + (signed long int)i)->value, 7);
+                      tmp_if_expr_8 = return_value_wg_compare_7;
                     }
-                    tmp_if_expr$9 = tmp_if_expr$8 == (signed long int)1 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_9 = tmp_if_expr_8 == (signed long int)1 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$9)
+                  if(tmp_if_expr_9)
                   {
                     end_bound = (full_arglist + (signed long int)i)->value;
                     end_inclusive = 1;
@@ -6510,21 +6510,21 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
                 case (signed long int)0x0004:
                 {
                   if(end_bound == 255l)
-                    tmp_if_expr$12 = (_Bool)1;
+                    tmp_if_expr_12 = (_Bool)1;
 
                   else
                   {
                     if(end_bound == (full_arglist + (signed long int)i)->value)
-                      tmp_if_expr$11 = (signed long int)0;
+                      tmp_if_expr_11 = (signed long int)0;
 
                     else
                     {
-                      return_value_wg_compare$10=wg_compare(db, end_bound, (full_arglist + (signed long int)i)->value, 7);
-                      tmp_if_expr$11 = return_value_wg_compare$10;
+                      return_value_wg_compare_10=wg_compare(db, end_bound, (full_arglist + (signed long int)i)->value, 7);
+                      tmp_if_expr_11 = return_value_wg_compare_10;
                     }
-                    tmp_if_expr$12 = tmp_if_expr$11 != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_12 = tmp_if_expr_11 != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$12)
+                  if(tmp_if_expr_12)
                   {
                     end_bound = (full_arglist + (signed long int)i)->value;
                     end_inclusive = 0;
@@ -6535,21 +6535,21 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
                 case (signed long int)0x0008:
                 {
                   if(start_bound == 255l)
-                    tmp_if_expr$15 = (_Bool)1;
+                    tmp_if_expr_15 = (_Bool)1;
 
                   else
                   {
                     if(start_bound == (full_arglist + (signed long int)i)->value)
-                      tmp_if_expr$14 = (signed long int)0;
+                      tmp_if_expr_14 = (signed long int)0;
 
                     else
                     {
-                      return_value_wg_compare$13=wg_compare(db, start_bound, (full_arglist + (signed long int)i)->value, 7);
-                      tmp_if_expr$14 = return_value_wg_compare$13;
+                      return_value_wg_compare_13=wg_compare(db, start_bound, (full_arglist + (signed long int)i)->value, 7);
+                      tmp_if_expr_14 = return_value_wg_compare_13;
                     }
-                    tmp_if_expr$15 = tmp_if_expr$14 != (signed long int)1 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_15 = tmp_if_expr_14 != (signed long int)1 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$15)
+                  if(tmp_if_expr_15)
                   {
                     start_bound = (full_arglist + (signed long int)i)->value;
                     start_inclusive = 0;
@@ -6560,21 +6560,21 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
                 case (signed long int)0x0010:
                 {
                   if(end_bound == 255l)
-                    tmp_if_expr$18 = (_Bool)1;
+                    tmp_if_expr_18 = (_Bool)1;
 
                   else
                   {
                     if(end_bound == (full_arglist + (signed long int)i)->value)
-                      tmp_if_expr$17 = (signed long int)0;
+                      tmp_if_expr_17 = (signed long int)0;
 
                     else
                     {
-                      return_value_wg_compare$16=wg_compare(db, end_bound, (full_arglist + (signed long int)i)->value, 7);
-                      tmp_if_expr$17 = return_value_wg_compare$16;
+                      return_value_wg_compare_16=wg_compare(db, end_bound, (full_arglist + (signed long int)i)->value, 7);
+                      tmp_if_expr_17 = return_value_wg_compare_16;
                     }
-                    tmp_if_expr$18 = tmp_if_expr$17 == (signed long int)1 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_18 = tmp_if_expr_17 == (signed long int)1 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$18)
+                  if(tmp_if_expr_18)
                   {
                     end_bound = (full_arglist + (signed long int)i)->value;
                     end_inclusive = 1;
@@ -6585,21 +6585,21 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
                 case (signed long int)0x0020:
                 {
                   if(start_bound == 255l)
-                    tmp_if_expr$21 = (_Bool)1;
+                    tmp_if_expr_21 = (_Bool)1;
 
                   else
                   {
                     if(start_bound == (full_arglist + (signed long int)i)->value)
-                      tmp_if_expr$20 = (signed long int)0;
+                      tmp_if_expr_20 = (signed long int)0;
 
                     else
                     {
-                      return_value_wg_compare$19=wg_compare(db, start_bound, (full_arglist + (signed long int)i)->value, 7);
-                      tmp_if_expr$20 = return_value_wg_compare$19;
+                      return_value_wg_compare_19=wg_compare(db, start_bound, (full_arglist + (signed long int)i)->value, 7);
+                      tmp_if_expr_20 = return_value_wg_compare_19;
                     }
-                    tmp_if_expr$21 = tmp_if_expr$20 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_21 = tmp_if_expr_20 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$21)
+                  if(tmp_if_expr_21)
                   {
                     start_bound = (full_arglist + (signed long int)i)->value;
                     start_inclusive = 1;
@@ -6619,42 +6619,42 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
           if(!(end_bound == 255l) && !(start_bound == 255l))
           {
             if(start_bound == end_bound)
-              tmp_if_expr$23 = (signed long int)0;
+              tmp_if_expr_23 = (signed long int)0;
 
             else
             {
-              return_value_wg_compare$22=wg_compare(db, start_bound, end_bound, 7);
-              tmp_if_expr$23 = return_value_wg_compare$22;
+              return_value_wg_compare_22=wg_compare(db, start_bound, end_bound, 7);
+              tmp_if_expr_23 = return_value_wg_compare_22;
             }
-            if(tmp_if_expr$23 == 1l)
+            if(tmp_if_expr_23 == 1l)
             {
               query->argc = (signed long int)0;
-              query->arglist = (struct anonymous$12 *)(void *)0;
+              query->arglist = (struct anonymous_12 *)(void *)0;
               free((void *)full_arglist);
               return query;
             }
 
           }
 
-          signed long int return_value_find_ttree_bounds$24;
-          return_value_find_ttree_bounds$24=find_ttree_bounds(db, index_id, col, start_bound, end_bound, (signed long int)start_inclusive, (signed long int)end_inclusive, &query->curr_offset, &query->curr_slot, &query->end_offset, &query->end_slot);
-          if(!(return_value_find_ttree_bounds$24 == 0l))
+          signed long int return_value_find_ttree_bounds_24;
+          return_value_find_ttree_bounds_24=find_ttree_bounds(db, index_id, col, start_bound, end_bound, (signed long int)start_inclusive, (signed long int)end_inclusive, &query->curr_offset, &query->curr_slot, &query->end_offset, &query->end_slot);
+          if(!(return_value_find_ttree_bounds_24 == 0l))
           {
             free((void *)query);
             free((void *)full_arglist);
-            return (struct anonymous$15 *)(void *)0;
+            return (struct anonymous_15 *)(void *)0;
           }
 
         }
 
         else
         {
-          void *internal_build_query$$1$$7$$rec;
+          void *internal_build_query__1__7__rec;
           query->qtype = (signed long int)0x04;
           query->column = (signed long int)-1;
-          internal_build_query$$1$$7$$rec=wg_get_first_record(db);
-          if(!(internal_build_query$$1$$7$$rec == NULL))
-            query->curr_record = (signed long int)((char *)internal_build_query$$1$$7$$rec - (char *)((struct anonymous$6 *)db)->db);
+          internal_build_query__1__7__rec=wg_get_first_record(db);
+          if(!(internal_build_query__1__7__rec == NULL))
+            query->curr_record = (signed long int)((char *)internal_build_query__1__7__rec - (char *)((struct anonymous_6 *)db)->db);
 
           else
             query->curr_record = (signed long int)0;
@@ -6676,15 +6676,15 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
           if(!(cnt == 0))
           {
             signed int j;
-            void *return_value_malloc$25;
-            return_value_malloc$25=malloc((unsigned long int)cnt * sizeof(struct anonymous$12) /*24ul*/ );
-            query->arglist = (struct anonymous$12 *)return_value_malloc$25;
-            if(query->arglist == ((struct anonymous$12 *)NULL))
+            void *return_value_malloc_25;
+            return_value_malloc_25=malloc((unsigned long int)cnt * sizeof(struct anonymous_12) /*24ul*/ );
+            query->arglist = (struct anonymous_12 *)return_value_malloc_25;
+            if(query->arglist == ((struct anonymous_12 *)NULL))
             {
               show_query_error(db, "Failed to allocate memory");
               free((void *)query);
               free((void *)full_arglist);
-              return (struct anonymous$15 *)(void *)0;
+              return (struct anonymous_15 *)(void *)0;
             }
 
             i = 0;
@@ -6694,15 +6694,15 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
               {
                 (query->arglist + (signed long int)j)->column = (full_arglist + (signed long int)i)->column;
                 (query->arglist + (signed long int)j)->cond = (full_arglist + (signed long int)i)->cond;
-                tmp_post$26 = j;
+                tmp_post_26 = j;
                 j = j + 1;
-                (query->arglist + (signed long int)tmp_post$26)->value = (full_arglist + (signed long int)i)->value;
+                (query->arglist + (signed long int)tmp_post_26)->value = (full_arglist + (signed long int)i)->value;
               }
 
           }
 
           else
-            query->arglist = (struct anonymous$12 *)(void *)0;
+            query->arglist = (struct anonymous_12 *)(void *)0;
           query->argc = (signed long int)cnt;
           free((void *)full_arglist);
         }
@@ -6719,7 +6719,7 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
           {
             show_query_error(db, "Failed to allocate result memory pool");
             wg_free_query(db, query);
-            return (struct anonymous$15 *)(void *)0;
+            return (struct anonymous_15 *)(void *)0;
           }
 
           i = 63;
@@ -6732,14 +6732,14 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
 
             if(i >= 63)
             {
-              void *return_value_wg_alloc_mpool$27;
-              return_value_wg_alloc_mpool$27=wg_alloc_mpool(db, query->mpool, (signed int)sizeof(struct __query_result_page) /*512ul*/ );
-              currpage = (struct __query_result_page *)return_value_wg_alloc_mpool$27;
+              void *return_value_wg_alloc_mpool_27;
+              return_value_wg_alloc_mpool_27=wg_alloc_mpool(db, query->mpool, (signed int)sizeof(struct __query_result_page) /*512ul*/ );
+              currpage = (struct __query_result_page *)return_value_wg_alloc_mpool_27;
               if(currpage == ((struct __query_result_page *)NULL))
               {
                 show_query_error(db, "Failed to allocate a resultset row");
                 wg_free_query(db, query);
-                return (struct anonymous$15 *)(void *)0;
+                return (struct anonymous_15 *)(void *)0;
               }
 
               memset((void *)currpage->rows, 0, sizeof(signed long int) /*8ul*/  * (unsigned long int)63);
@@ -6749,9 +6749,9 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
               i = 0;
             }
 
-            tmp_post$28 = i;
+            tmp_post_28 = i;
             i = i + 1;
-            currpage->rows[(signed long int)tmp_post$28] = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
+            currpage->rows[(signed long int)tmp_post_28] = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
             query->res_count = query->res_count + 1ul;
             if(!(rowlimit == 0ul))
             {
@@ -6773,13 +6773,13 @@ static struct anonymous$15 * internal_build_query(void *db, void *matchrec, sign
 
 // intersect_resultset
 // file dbquery.c line 1449
-static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *seta, struct anonymous$17 *setb)
+static struct anonymous_17 * intersect_resultset(void *db, struct anonymous_17 *seta, struct anonymous_17 *setb)
 {
-  struct anonymous$17 *intersection;
+  struct anonymous_17 *intersection;
   signed int strategy = 1;
   intersection=create_resultset(db);
-  if(intersection == ((struct anonymous$17 *)NULL))
-    return (struct anonymous$17 *)(void *)0;
+  if(intersection == ((struct anonymous_17 *)NULL))
+    return (struct anonymous_17 *)(void *)0;
 
   else
   {
@@ -6792,7 +6792,7 @@ static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *
       signed long int offset;
       if(!(setb->res_count >= seta->res_count))
       {
-        struct anonymous$17 *tmp = seta;
+        struct anonymous_17 *tmp = seta;
         seta = setb;
         setb = tmp;
       }
@@ -6801,7 +6801,7 @@ static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *
       if(hasht == NULL)
       {
         free_resultset(db, intersection);
-        return (struct anonymous$17 *)(void *)0;
+        return (struct anonymous_17 *)(void *)0;
       }
 
       rewind_resultset(db, seta);
@@ -6811,13 +6811,13 @@ static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *
         if(offset == 0l)
           break;
 
-        signed long int return_value_wg_dhash_addkey$1;
-        return_value_wg_dhash_addkey$1=wg_dhash_addkey(db, hasht, offset);
-        if(!(return_value_wg_dhash_addkey$1 == 0l))
+        signed long int return_value_wg_dhash_addkey_1;
+        return_value_wg_dhash_addkey_1=wg_dhash_addkey(db, hasht, offset);
+        if(!(return_value_wg_dhash_addkey_1 == 0l))
         {
           free_resultset(db, intersection);
           wg_dhash_free(db, hasht);
-          return (struct anonymous$17 *)(void *)0;
+          return (struct anonymous_17 *)(void *)0;
         }
 
       }
@@ -6829,9 +6829,9 @@ static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *
         if(offset == 0l)
           break;
 
-        signed long int return_value_wg_dhash_haskey$2;
-        return_value_wg_dhash_haskey$2=wg_dhash_haskey(db, hasht, offset);
-        if(!(return_value_wg_dhash_haskey$2 == 0l))
+        signed long int return_value_wg_dhash_haskey_2;
+        return_value_wg_dhash_haskey_2=wg_dhash_haskey(db, hasht, offset);
+        if(!(return_value_wg_dhash_haskey_2 == 0l))
         {
           signed long int err;
           err=append_resultset(db, intersection, offset);
@@ -6839,7 +6839,7 @@ static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *
           {
             free_resultset(db, intersection);
             wg_dhash_free(db, hasht);
-            return (struct anonymous$17 *)(void *)0;
+            return (struct anonymous_17 *)(void *)0;
           }
 
         }
@@ -6869,12 +6869,12 @@ static struct anonymous$17 * intersect_resultset(void *db, struct anonymous$17 *
 
           if(offseta == offsetb)
           {
-            signed long int intersect_resultset$$1$$4$$1$$1$$1$$err;
-            intersect_resultset$$1$$4$$1$$1$$1$$err=append_resultset(db, intersection, offseta);
-            if(!(intersect_resultset$$1$$4$$1$$1$$1$$err == 0l))
+            signed long int intersect_resultset__1__4__1__1__1__err;
+            intersect_resultset__1__4__1__1__1__err=append_resultset(db, intersection, offseta);
+            if(!(intersect_resultset__1__4__1__1__1__err == 0l))
             {
               free_resultset(db, intersection);
-              return (struct anonymous$17 *)(void *)0;
+              return (struct anonymous_17 *)(void *)0;
             }
 
             break;
@@ -6902,9 +6902,9 @@ static void * link_shared_memory(signed int key, signed int *errcode)
 {
   void *shm;
   signed int shmid;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   *errcode = 0;
   shmid=shmget((signed int)key, (unsigned long int)0, 0);
   if(!(shmid >= 0))
@@ -6915,9 +6915,9 @@ static void * link_shared_memory(signed int key, signed int *errcode)
     shm=shmat(shmid, (void *)0, 0);
     if((char *)shm == (char *)-1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *errcode = *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *errcode = *return_value___errno_location_2;
       if(*errcode == 13)
       {
         show_memory_error("cannot attach to shared memory (No permission)");
@@ -6941,11 +6941,11 @@ static void lock_queue(void *db)
 {
   signed int i;
   struct timespec ts;
-  volatile signed long int *gl = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->locks.queue_lock);
-  signed long int return_value_wg_compare_and_swap$1;
-  return_value_wg_compare_and_swap$1=wg_compare_and_swap(gl, (signed long int)0, (signed long int)1);
-  signed long int return_value_wg_compare_and_swap$2;
-  if(return_value_wg_compare_and_swap$1 == 0l)
+  volatile signed long int *gl = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->locks.queue_lock);
+  signed long int return_value_wg_compare_and_swap_1;
+  return_value_wg_compare_and_swap_1=wg_compare_and_swap(gl, (signed long int)0, (signed long int)1);
+  signed long int return_value_wg_compare_and_swap_2;
+  if(return_value_wg_compare_and_swap_1 == 0l)
   {
     ts.tv_sec = (signed long int)0;
     ts.tv_nsec = (signed long int)500000;
@@ -6957,8 +6957,8 @@ static void lock_queue(void *db)
         asm("pause;\n");
         if(*gl == 0l)
         {
-          return_value_wg_compare_and_swap$2=wg_compare_and_swap(gl, (signed long int)0, (signed long int)1);
-          if(!(return_value_wg_compare_and_swap$2 == 0l))
+          return_value_wg_compare_and_swap_2=wg_compare_and_swap(gl, (signed long int)0, (signed long int)1);
+          if(!(return_value_wg_compare_and_swap_2 == 0l))
             goto __CPROVER_DUMP_L6;
 
         }
@@ -6989,12 +6989,12 @@ signed int main(signed int argc, char **argv)
   if(argc == 4)
   {
     shmname = argv[(signed long int)1];
-    signed long int return_value_atol$1;
-    return_value_atol$1=atol(argv[(signed long int)2]);
-    rcnt = (signed int)return_value_atol$1;
-    signed long int return_value_atol$2;
-    return_value_atol$2=atol(argv[(signed long int)3]);
-    wcnt = (signed int)return_value_atol$2;
+    signed long int return_value_atol_1;
+    return_value_atol_1=atol(argv[(signed long int)2]);
+    rcnt = (signed int)return_value_atol_1;
+    signed long int return_value_atol_2;
+    return_value_atol_2=atol(argv[(signed long int)3]);
+    wcnt = (signed int)return_value_atol_2;
   }
 
   if(!(rcnt >= 0) || !(wcnt >= 0))
@@ -7007,9 +7007,9 @@ signed int main(signed int argc, char **argv)
   if(shmptr == NULL)
     exit(2);
 
-  signed int return_value_prepare_data$3;
-  return_value_prepare_data$3=prepare_data(shmptr);
-  if(!(return_value_prepare_data$3 == 0))
+  signed int return_value_prepare_data_3;
+  return_value_prepare_data_3=prepare_data(shmptr);
+  if(!(return_value_prepare_data_3 == 0))
   {
     wg_delete_database(shmname);
     exit(3);
@@ -7043,8 +7043,8 @@ static signed long int make_subarea_freelist(void *db, void *area_header, signed
   max = (offset + size) - (signed long int)2 * objlength;
   i = offset;
   for( ; max >= i; i = i + objlength)
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + i)) = i + objlength;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + i)) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + i)) = i + objlength;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + i)) = (signed long int)0;
   areah->freelist = offset;
   return (signed long int)0;
 }
@@ -7053,7 +7053,7 @@ static signed long int make_subarea_freelist(void *db, void *area_header, signed
 // file dbmem.c line 583
 static signed int memory_stats(void *db, struct shmid_ds *buf)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   if(!(dbh->key == 0l))
   {
     signed int shmid;
@@ -7091,7 +7091,7 @@ static unsigned int months_to_days(unsigned int month)
 
 // most_restricting_column
 // file dbquery.c line 137
-static signed long int most_restricting_column(void *db, struct anonymous$12 *arglist, signed long int argc, signed long int *index_id)
+static signed long int most_restricting_column(void *db, struct anonymous_12 *arglist, signed long int argc, signed long int *index_id)
 {
   /* most_restricting_column::1::tag-column_score */
 struct column_score
@@ -7111,13 +7111,13 @@ struct column_score
   signed int j;
   signed int mrc_score = -1;
   signed long int mrc = (signed long int)-1;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)argc * sizeof(struct column_score) /*16ul*/ );
-  sc = (struct column_score *)return_value_malloc$1;
-  _Bool tmp_if_expr$4;
-  signed long int tmp_if_expr$3;
-  signed long int return_value_wg_compare$2;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)argc * sizeof(struct column_score) /*16ul*/ );
+  sc = (struct column_score *)return_value_malloc_1;
+  _Bool tmp_if_expr_4;
+  signed long int tmp_if_expr_3;
+  signed long int return_value_wg_compare_2;
   if(sc == ((struct column_score *)NULL))
   {
     show_query_error(db, "Failed to allocate memory");
@@ -7183,16 +7183,16 @@ struct column_score
         signed long int *ilist = &dbh->index_control_area_header.index_table[(sc + (signed long int)i)->column];
         while(!(*ilist == 0l))
         {
-          struct anonymous$20 *ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+          struct anonymous_20 *ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
           if(!(ilistelem->car == 0l))
           {
-            struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+            struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
             if(hdr->type == 50l)
             {
               if(!(hdr->template_offset == 0l))
               {
-                struct anonymous$22 *tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset);
-                void *matchrec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
+                struct anonymous_22 *tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset);
+                void *matchrec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
                 signed long int reclen;
                 reclen=wg_get_record_len(db, matchrec);
                 j = 0;
@@ -7200,9 +7200,9 @@ struct column_score
                 {
                   signed long int enc;
                   enc=wg_get_field(db, matchrec, (signed long int)j);
-                  signed long int return_value_wg_get_encoded_type$5;
-                  return_value_wg_get_encoded_type$5=wg_get_encoded_type(db, enc);
-                  if(!(return_value_wg_get_encoded_type$5 == 14l))
+                  signed long int return_value_wg_get_encoded_type_5;
+                  return_value_wg_get_encoded_type_5=wg_get_encoded_type(db, enc);
+                  if(!(return_value_wg_get_encoded_type_5 == 14l))
                   {
                     signed int match = 0;
                     signed int k = 0;
@@ -7212,19 +7212,19 @@ struct column_score
                         if((arglist + (signed long int)k)->cond == 1l)
                         {
                           if(enc == (arglist + (signed long int)k)->value)
-                            tmp_if_expr$3 = (signed long int)0;
+                            tmp_if_expr_3 = (signed long int)0;
 
                           else
                           {
-                            return_value_wg_compare$2=wg_compare(db, enc, (arglist + (signed long int)k)->value, 7);
-                            tmp_if_expr$3 = return_value_wg_compare$2;
+                            return_value_wg_compare_2=wg_compare(db, enc, (arglist + (signed long int)k)->value, 7);
+                            tmp_if_expr_3 = return_value_wg_compare_2;
                           }
-                          tmp_if_expr$4 = tmp_if_expr$3 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_4 = tmp_if_expr_3 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$4 = (_Bool)0;
-                        if(tmp_if_expr$4)
+                          tmp_if_expr_4 = (_Bool)0;
+                        if(tmp_if_expr_4)
                           match = 1;
 
                         else
@@ -7294,10 +7294,10 @@ static signed int normalize_perms(signed int mode)
 // file dbjson.c line 619
 static signed int object_begin_cb(void *cb_ctx)
 {
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
-  signed int return_value_push$1;
-  return_value_push$1=push(ctx, (enum anonymous$2)OBJECT);
-  if(return_value_push$1 == 0)
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
+  signed int return_value_push_1;
+  return_value_push_1=push(ctx, (enum anonymous_2)OBJECT);
+  if(return_value_push_1 == 0)
     return 0;
 
   else
@@ -7308,10 +7308,10 @@ static signed int object_begin_cb(void *cb_ctx)
 // file dbjson.c line 630
 static signed int object_end_cb(void *cb_ctx)
 {
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
-  signed int return_value_pop$1;
-  return_value_pop$1=pop(ctx);
-  if(return_value_pop$1 == 0)
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
+  signed int return_value_pop_1;
+  return_value_pop_1=pop(ctx);
+  if(return_value_pop_1 == 0)
     return 0;
 
   else
@@ -7323,11 +7323,11 @@ static signed int object_end_cb(void *cb_ctx)
 static signed int object_key_cb(void *cb_ctx, const unsigned char *strval, unsigned long int strl)
 {
   signed int res = 1;
-  struct anonymous$0 *ctx = (struct anonymous$0 *)cb_ctx;
+  struct anonymous_0 *ctx = (struct anonymous_0 *)cb_ctx;
   char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(strl + (unsigned long int)1);
-  buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(strl + (unsigned long int)1);
+  buf = (char *)return_value_malloc_1;
   if(buf == ((char *)NULL))
     return 0;
 
@@ -7335,9 +7335,9 @@ static signed int object_key_cb(void *cb_ctx, const unsigned char *strval, unsig
   {
     strncpy(buf, (char *)strval, strl);
     buf[(signed long int)strl] = (char)0;
-    signed int return_value_add_key$2;
-    return_value_add_key$2=add_key(ctx, buf);
-    if(return_value_add_key$2 == 0)
+    signed int return_value_add_key_2;
+    return_value_add_key_2=add_key(ctx, buf);
+    if(return_value_add_key_2 == 0)
       res = 0;
 
     free((void *)buf);
@@ -7351,68 +7351,68 @@ static signed long int parse_input_type(void *db, char *buf, signed long int *in
 {
   signed long int type = (signed long int)0;
   char c = buf[(signed long int)0];
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$15;
-  signed int return_value_wg_strp_iso_date$14;
-  _Bool tmp_if_expr$13;
-  signed int return_value_wg_strp_iso_time$12;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$11;
-  signed int *return_value___errno_location$10;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_15;
+  signed int return_value_wg_strp_iso_date_14;
+  _Bool tmp_if_expr_13;
+  signed int return_value_wg_strp_iso_time_12;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_11;
+  signed int *return_value___errno_location_10;
   if((signed int)c == 0)
     type = (signed long int)1;
 
   else
   {
     if((signed int)c >= 48 && !((signed int)c >= 58))
-      tmp_if_expr$18 = (_Bool)1;
+      tmp_if_expr_18 = (_Bool)1;
 
     else
     {
       if((signed int)c == 45)
-        tmp_if_expr$16 = (signed int)buf[(signed long int)1] >= 48 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (signed int)buf[(signed long int)1] >= 48 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$16 = (_Bool)0;
-      if(tmp_if_expr$16)
-        tmp_if_expr$17 = (signed int)buf[(signed long int)1] <= 57 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (_Bool)0;
+      if(tmp_if_expr_16)
+        tmp_if_expr_17 = (signed int)buf[(signed long int)1] <= 57 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$17 = (_Bool)0;
-      tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_17 = (_Bool)0;
+      tmp_if_expr_18 = tmp_if_expr_17 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$18)
+    if(tmp_if_expr_18)
     {
       if(!((signed int)c == 45))
       {
-        return_value_wg_strp_iso_date$14=wg_strp_iso_date(db, buf);
-        *datetime = (signed long int)return_value_wg_strp_iso_date$14;
-        tmp_if_expr$15 = *datetime >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
+        return_value_wg_strp_iso_date_14=wg_strp_iso_date(db, buf);
+        *datetime = (signed long int)return_value_wg_strp_iso_date_14;
+        tmp_if_expr_15 = *datetime >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$15 = (_Bool)0;
-      if(tmp_if_expr$15)
+        tmp_if_expr_15 = (_Bool)0;
+      if(tmp_if_expr_15)
         type = (signed long int)11;
 
       else
       {
         if(!((signed int)c == 45))
         {
-          return_value_wg_strp_iso_time$12=wg_strp_iso_time(db, buf);
-          *datetime = (signed long int)return_value_wg_strp_iso_time$12;
-          tmp_if_expr$13 = *datetime >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_wg_strp_iso_time_12=wg_strp_iso_time(db, buf);
+          *datetime = (signed long int)return_value_wg_strp_iso_time_12;
+          tmp_if_expr_13 = *datetime >= (signed long int)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
           type = (signed long int)12;
 
         else
@@ -7433,11 +7433,11 @@ static signed long int parse_input_type(void *db, char *buf, signed long int *in
             else
             {
               if(!((signed int)*ptr >= 48))
-                tmp_if_expr$1 = (_Bool)1;
+                tmp_if_expr_1 = (_Bool)1;
 
               else
-                tmp_if_expr$1 = (signed int)*ptr > 57 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$1)
+                tmp_if_expr_1 = (signed int)*ptr > 57 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_1)
               {
                 if(!(ptr == buf))
                 {
@@ -7448,11 +7448,11 @@ static signed long int parse_input_type(void *db, char *buf, signed long int *in
               }
 
             }
-            tmp_post$2 = wptr;
+            tmp_post_2 = wptr;
             wptr = wptr + 1l;
-            tmp_post$3 = ptr;
+            tmp_post_3 = ptr;
             ptr = ptr + 1l;
-            *tmp_post$2 = *tmp_post$3;
+            *tmp_post_2 = *tmp_post_3;
             if((signed int)(wptr - numbuf) >= 79)
               break;
 
@@ -7463,24 +7463,24 @@ static signed long int parse_input_type(void *db, char *buf, signed long int *in
             char tmp = *decptr;
             *decptr = (char)46;
             *doubledata=strtod(numbuf, (char ** restrict )(void *)0);
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            if(!(*return_value___errno_location$5 == 34))
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            if(!(*return_value___errno_location_5 == 34))
             {
-              return_value___errno_location$6=__errno_location();
-              tmp_if_expr$7 = *return_value___errno_location$6 != 22 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_6=__errno_location();
+              tmp_if_expr_7 = *return_value___errno_location_6 != 22 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
               type = (signed long int)4;
 
             else
             {
-              signed int *return_value___errno_location$4;
-              return_value___errno_location$4=__errno_location();
-              *return_value___errno_location$4 = 0;
+              signed int *return_value___errno_location_4;
+              return_value___errno_location_4=__errno_location();
+              *return_value___errno_location_4 = 0;
             }
             *decptr = tmp;
           }
@@ -7489,24 +7489,24 @@ static signed long int parse_input_type(void *db, char *buf, signed long int *in
             if(decsep == 0)
             {
               *intdata=strtol(numbuf, (char ** restrict )(void *)0, 10);
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              if(!(*return_value___errno_location$9 == 34))
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              if(!(*return_value___errno_location_9 == 34))
               {
-                return_value___errno_location$10=__errno_location();
-                tmp_if_expr$11 = *return_value___errno_location$10 != 22 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_10=__errno_location();
+                tmp_if_expr_11 = *return_value___errno_location_10 != 22 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              if(tmp_if_expr$11)
+                tmp_if_expr_11 = (_Bool)0;
+              if(tmp_if_expr_11)
                 type = (signed long int)3;
 
               else
               {
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                *return_value___errno_location$8 = 0;
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                *return_value___errno_location_8 = 0;
               }
             }
 
@@ -7523,24 +7523,24 @@ static signed long int parse_input_type(void *db, char *buf, signed long int *in
 
 // pop
 // file dbjson.c line 462
-static signed int pop(struct anonymous$0 *ctx)
+static signed int pop(struct anonymous_0 *ctx)
 {
-  struct anonymous$1 *e;
+  struct anonymous_1 *e;
   void *rec;
   signed int ret;
   signed int istoplevel;
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$4;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_4;
   if(!(ctx->stack_ptr >= 0))
     return 0;
 
   else
   {
-    tmp_post$1 = ctx->stack_ptr;
+    tmp_post_1 = ctx->stack_ptr;
     ctx->stack_ptr = ctx->stack_ptr - 1;
-    e = &ctx->stack[(signed long int)tmp_post$1];
+    e = &ctx->stack[(signed long int)tmp_post_1];
     if(!(ctx->stack_ptr >= 0))
       istoplevel = 1;
 
@@ -7549,21 +7549,21 @@ static signed int pop(struct anonymous$0 *ctx)
     if((signed int)e->type == ARRAY)
     {
       if(!(istoplevel == 0))
-        tmp_if_expr$2 = ctx->isdocument != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = ctx->isdocument != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      rec=wg_create_array(ctx->db, (signed long int)e->size, (signed long int)tmp_if_expr$2, (signed long int)ctx->isparam);
+        tmp_if_expr_2 = (_Bool)0;
+      rec=wg_create_array(ctx->db, (signed long int)e->size, (signed long int)tmp_if_expr_2, (signed long int)ctx->isparam);
     }
 
     else
     {
       if(!(istoplevel == 0))
-        tmp_if_expr$3 = ctx->isdocument != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ctx->isdocument != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      rec=wg_create_object(ctx->db, (signed long int)e->size, (signed long int)tmp_if_expr$3, (signed long int)ctx->isparam);
+        tmp_if_expr_3 = (_Bool)0;
+      rec=wg_create_object(ctx->db, (signed long int)e->size, (signed long int)tmp_if_expr_3, (signed long int)ctx->isparam);
     }
     if(!(rec == NULL))
     {
@@ -7572,11 +7572,11 @@ static signed int pop(struct anonymous$0 *ctx)
       ret = 1;
       while(!(curr == ((struct __stack_entry_elem *)NULL)))
       {
-        tmp_post$4 = i;
+        tmp_post_4 = i;
         i = i + 1;
-        signed long int return_value_wg_set_field$5;
-        return_value_wg_set_field$5=wg_set_field(ctx->db, rec, (signed long int)tmp_post$4, curr->enc);
-        if(!(return_value_wg_set_field$5 == 0l))
+        signed long int return_value_wg_set_field_5;
+        return_value_wg_set_field_5=wg_set_field(ctx->db, rec, (signed long int)tmp_post_4, curr->enc);
+        if(!(return_value_wg_set_field_5 == 0l))
         {
           ret = 0;
           break;
@@ -7629,9 +7629,9 @@ signed int prepare_data(void *db)
     j = 0;
     for( ; !(j >= 5); j = j + 1)
     {
-      signed long int return_value_wg_set_int_field$1;
-      return_value_wg_set_int_field$1=wg_set_int_field(db, rec, (signed long int)j, (signed long int)0);
-      if(!(return_value_wg_set_int_field$1 == 0l))
+      signed long int return_value_wg_set_int_field_1;
+      return_value_wg_set_int_field_1=wg_set_int_field(db, rec, (signed long int)j, (signed long int)0);
+      if(!(return_value_wg_set_int_field_1 == 0l))
       {
         fprintf(stderr, "Failed to create data record #%d: skipping tests.\n", i);
         return -1;
@@ -7644,44 +7644,44 @@ signed int prepare_data(void *db)
 
 // prepare_json_arglist
 // file dbquery.c line 1755
-static signed long int prepare_json_arglist(void *db, struct anonymous$18 *arglist, struct anonymous$18 **sorted_arglist, signed long int argc, signed long int *index_id, signed long int *vindex_id, signed long int *kindex_id)
+static signed long int prepare_json_arglist(void *db, struct anonymous_18 *arglist, struct anonymous_18 **sorted_arglist, signed long int argc, signed long int *index_id, signed long int *vindex_id, signed long int *kindex_id)
 {
   signed long int icols[2l];
   signed long int need_ttree = (signed long int)0;
-  struct anonymous$18 *tmp = (struct anonymous$18 *)(void *)0;
+  struct anonymous_18 *tmp = (struct anonymous_18 *)(void *)0;
   icols[(signed long int)0] = (signed long int)(0 + 1);
   icols[(signed long int)1] = (signed long int)(0 + 2);
   *index_id=wg_multi_column_to_index_id(db, icols, (signed long int)2, (signed long int)61, (signed long int *)(void *)0, (signed long int)0);
   *kindex_id = (signed long int)-1;
   *vindex_id = *kindex_id;
-  signed long int tmp_post$3;
-  signed long int tmp_post$5;
+  signed long int tmp_post_3;
+  signed long int tmp_post_5;
   if(argc >= 2l)
   {
     signed long int i;
     signed long int j;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct anonymous$18) /*16ul*/  * (unsigned long int)argc);
-    tmp = (struct anonymous$18 *)return_value_malloc$1;
-    if(tmp == ((struct anonymous$18 *)NULL))
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct anonymous_18) /*16ul*/  * (unsigned long int)argc);
+    tmp = (struct anonymous_18 *)return_value_malloc_1;
+    if(tmp == ((struct anonymous_18 *)NULL))
     {
-      signed long int return_value_show_query_error$2;
-      return_value_show_query_error$2=show_query_error(db, "Failed to prepare query arguments");
-      return return_value_show_query_error$2;
+      signed long int return_value_show_query_error_2;
+      return_value_show_query_error_2=show_query_error(db, "Failed to prepare query arguments");
+      return return_value_show_query_error_2;
     }
 
     i = (signed long int)0;
     j = (signed long int)0;
     for( ; !(i >= argc); i = i + 1l)
     {
-      signed long int return_value_wg_get_encoded_type$4;
-      return_value_wg_get_encoded_type$4=wg_get_encoded_type(db, (arglist + i)->value);
-      if(!(return_value_wg_get_encoded_type$4 == 2l))
+      signed long int return_value_wg_get_encoded_type_4;
+      return_value_wg_get_encoded_type_4=wg_get_encoded_type(db, (arglist + i)->value);
+      if(!(return_value_wg_get_encoded_type_4 == 2l))
       {
         (tmp + j)->key = (arglist + i)->key;
-        tmp_post$3 = j;
+        tmp_post_3 = j;
         j = j + 1l;
-        (tmp + tmp_post$3)->value = (arglist + i)->value;
+        (tmp + tmp_post_3)->value = (arglist + i)->value;
       }
 
     }
@@ -7691,14 +7691,14 @@ static signed long int prepare_json_arglist(void *db, struct anonymous$18 *argli
     i = (signed long int)0;
     for( ; !(i >= argc); i = i + 1l)
     {
-      signed long int return_value_wg_get_encoded_type$6;
-      return_value_wg_get_encoded_type$6=wg_get_encoded_type(db, (arglist + i)->value);
-      if(return_value_wg_get_encoded_type$6 == 2l)
+      signed long int return_value_wg_get_encoded_type_6;
+      return_value_wg_get_encoded_type_6=wg_get_encoded_type(db, (arglist + i)->value);
+      if(return_value_wg_get_encoded_type_6 == 2l)
       {
         (tmp + j)->key = (arglist + i)->key;
-        tmp_post$5 = j;
+        tmp_post_5 = j;
         j = j + 1l;
-        (tmp + tmp_post$5)->value = (arglist + i)->value;
+        (tmp + tmp_post_5)->value = (arglist + i)->value;
       }
 
     }
@@ -7706,9 +7706,9 @@ static signed long int prepare_json_arglist(void *db, struct anonymous$18 *argli
 
   else
   {
-    signed long int return_value_wg_get_encoded_type$7;
-    return_value_wg_get_encoded_type$7=wg_get_encoded_type(db, (arglist + (signed long int)0)->value);
-    if(return_value_wg_get_encoded_type$7 == 2l)
+    signed long int return_value_wg_get_encoded_type_7;
+    return_value_wg_get_encoded_type_7=wg_get_encoded_type(db, (arglist + (signed long int)0)->value);
+    if(return_value_wg_get_encoded_type_7 == 2l)
       need_ttree = (signed long int)1;
 
   }
@@ -7726,18 +7726,18 @@ static signed long int prepare_json_arglist(void *db, struct anonymous$18 *argli
 
 // prepare_params
 // file dbquery.c line 350
-static signed long int prepare_params(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc, struct anonymous$12 **farglist, signed long int *fargc)
+static signed long int prepare_params(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc, struct anonymous_12 **farglist, signed long int *fargc)
 {
   signed int i;
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(!(matchrec == NULL))
   {
     if(reclen == 0l)
     {
       reclen=wg_get_record_len(db, matchrec);
-      signed long int *return_value_wg_get_record_dataarray$1;
-      return_value_wg_get_record_dataarray$1=wg_get_record_dataarray(db, matchrec);
-      matchrec = (void *)return_value_wg_get_record_dataarray$1;
+      signed long int *return_value_wg_get_record_dataarray_1;
+      return_value_wg_get_record_dataarray_1=wg_get_record_dataarray(db, matchrec);
+      matchrec = (void *)return_value_wg_get_record_dataarray_1;
     }
 
     if(!(reclen == 0l))
@@ -7752,14 +7752,14 @@ static signed long int prepare_params(void *db, void *matchrec, signed long int 
 
   __CPROVER_DUMP_L2:
     ;
-    if(argc == 0l && !(arglist == ((struct anonymous$12 *)NULL)))
+    if(argc == 0l && !(arglist == ((struct anonymous_12 *)NULL)))
     {
       show_query_error(db, "Zero-length argument list");
       return (signed long int)-1;
     }
 
     else
-      if(arglist == ((struct anonymous$12 *)NULL) && !(argc == 0l))
+      if(arglist == ((struct anonymous_12 *)NULL) && !(argc == 0l))
       {
         show_query_error(db, "Invalid argument list (NULL)");
         return (signed long int)-1;
@@ -7773,9 +7773,9 @@ static signed long int prepare_params(void *db, void *matchrec, signed long int 
           i = 0;
           for( ; !((signed long int)i >= reclen); i = i + 1)
           {
-            signed long int return_value_wg_get_encoded_type$2;
-            return_value_wg_get_encoded_type$2=wg_get_encoded_type(db, ((signed long int *)matchrec)[(signed long int)i]);
-            if(!(return_value_wg_get_encoded_type$2 == 14l))
+            signed long int return_value_wg_get_encoded_type_2;
+            return_value_wg_get_encoded_type_2=wg_get_encoded_type(db, ((signed long int *)matchrec)[(signed long int)i]);
+            if(!(return_value_wg_get_encoded_type_2 == 14l))
               *fargc = *fargc + 1l;
 
           }
@@ -7783,11 +7783,11 @@ static signed long int prepare_params(void *db, void *matchrec, signed long int 
 
         if(!(*fargc == 0l))
         {
-          struct anonymous$12 *tmp = (struct anonymous$12 *)(void *)0;
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc((unsigned long int)*fargc * sizeof(struct anonymous$12) /*24ul*/ );
-          tmp = (struct anonymous$12 *)return_value_malloc$3;
-          if(tmp == ((struct anonymous$12 *)NULL))
+          struct anonymous_12 *tmp = (struct anonymous_12 *)(void *)0;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc((unsigned long int)*fargc * sizeof(struct anonymous_12) /*24ul*/ );
+          tmp = (struct anonymous_12 *)return_value_malloc_3;
+          if(tmp == ((struct anonymous_12 *)NULL))
           {
             show_query_error(db, "Failed to allocate memory");
             return (signed long int)-2;
@@ -7807,15 +7807,15 @@ static signed long int prepare_params(void *db, void *matchrec, signed long int 
             j = (signed int)argc;
             for( ; !((signed long int)i >= reclen); i = i + 1)
             {
-              signed long int return_value_wg_get_encoded_type$5;
-              return_value_wg_get_encoded_type$5=wg_get_encoded_type(db, ((signed long int *)matchrec)[(signed long int)i]);
-              if(!(return_value_wg_get_encoded_type$5 == 14l))
+              signed long int return_value_wg_get_encoded_type_5;
+              return_value_wg_get_encoded_type_5=wg_get_encoded_type(db, ((signed long int *)matchrec)[(signed long int)i]);
+              if(!(return_value_wg_get_encoded_type_5 == 14l))
               {
                 (tmp + (signed long int)j)->column = (signed long int)i;
                 (tmp + (signed long int)j)->cond = (signed long int)0x0001;
-                tmp_post$4 = j;
+                tmp_post_4 = j;
                 j = j + 1;
-                (tmp + (signed long int)tmp_post$4)->value = ((signed long int *)matchrec)[(signed long int)i];
+                (tmp + (signed long int)tmp_post_4)->value = ((signed long int *)matchrec)[(signed long int)i];
               }
 
             }
@@ -7825,7 +7825,7 @@ static signed long int prepare_params(void *db, void *matchrec, signed long int 
         }
 
         else
-          *farglist = (struct anonymous$12 *)(void *)0;
+          *farglist = (struct anonymous_12 *)(void *)0;
         return (signed long int)0;
       }
   }
@@ -7839,13 +7839,13 @@ static signed int pretty_print_json(void *db, struct yajl_gen_t **g, void *rec)
   {
     signed long int i;
     signed long int reclen;
-    enum anonymous$33 return_value_yajl_gen_map_open$2;
-    return_value_yajl_gen_map_open$2=yajl_gen_map_open(*g);
-    if(!((signed int)return_value_yajl_gen_map_open$2 == yajl_gen_status_ok))
+    enum anonymous_33 return_value_yajl_gen_map_open_2;
+    return_value_yajl_gen_map_open_2=yajl_gen_map_open(*g);
+    if(!((signed int)return_value_yajl_gen_map_open_2 == yajl_gen_status_ok))
     {
-      signed long int return_value_show_json_error$1;
-      return_value_show_json_error$1=show_json_error(db, "Formatter failure");
-      return (signed int)return_value_show_json_error$1;
+      signed long int return_value_show_json_error_1;
+      return_value_show_json_error_1=show_json_error(db, "Formatter failure");
+      return (signed int)return_value_show_json_error_1;
     }
 
     reclen=wg_get_record_len(db, rec);
@@ -7854,30 +7854,30 @@ static signed int pretty_print_json(void *db, struct yajl_gen_t **g, void *rec)
     {
       signed long int enc;
       enc=wg_get_field(db, rec, i);
-      signed long int return_value_wg_get_encoded_type$4;
-      return_value_wg_get_encoded_type$4=wg_get_encoded_type(db, enc);
-      if(!(return_value_wg_get_encoded_type$4 == 2l))
+      signed long int return_value_wg_get_encoded_type_4;
+      return_value_wg_get_encoded_type_4=wg_get_encoded_type(db, enc);
+      if(!(return_value_wg_get_encoded_type_4 == 2l))
       {
-        signed long int return_value_show_json_error$3;
-        return_value_show_json_error$3=show_json_error(db, "Object had an element of invalid type");
-        return (signed int)return_value_show_json_error$3;
+        signed long int return_value_show_json_error_3;
+        return_value_show_json_error_3=show_json_error(db, "Object had an element of invalid type");
+        return (signed int)return_value_show_json_error_3;
       }
 
-      void *return_value_wg_decode_record$5;
-      return_value_wg_decode_record$5=wg_decode_record(db, enc);
-      signed int return_value_pretty_print_json$6;
-      return_value_pretty_print_json$6=pretty_print_json(db, g, return_value_wg_decode_record$5);
-      if(!(return_value_pretty_print_json$6 == 0))
+      void *return_value_wg_decode_record_5;
+      return_value_wg_decode_record_5=wg_decode_record(db, enc);
+      signed int return_value_pretty_print_json_6;
+      return_value_pretty_print_json_6=pretty_print_json(db, g, return_value_wg_decode_record_5);
+      if(!(return_value_pretty_print_json_6 == 0))
         return -1;
 
     }
-    enum anonymous$33 return_value_yajl_gen_map_close$8;
-    return_value_yajl_gen_map_close$8=yajl_gen_map_close(*g);
-    if(!((signed int)return_value_yajl_gen_map_close$8 == yajl_gen_status_ok))
+    enum anonymous_33 return_value_yajl_gen_map_close_8;
+    return_value_yajl_gen_map_close_8=yajl_gen_map_close(*g);
+    if(!((signed int)return_value_yajl_gen_map_close_8 == yajl_gen_status_ok))
     {
-      signed long int return_value_show_json_error$7;
-      return_value_show_json_error$7=show_json_error(db, "Formatter failure");
-      return (signed int)return_value_show_json_error$7;
+      signed long int return_value_show_json_error_7;
+      return_value_show_json_error_7=show_json_error(db, "Formatter failure");
+      return (signed int)return_value_show_json_error_7;
     }
 
   }
@@ -7885,36 +7885,36 @@ static signed int pretty_print_json(void *db, struct yajl_gen_t **g, void *rec)
   else
     if(!((64l & ((signed long int *)rec)[1l]) == 0l))
     {
-      signed long int pretty_print_json$$1$$2$$i;
-      signed long int pretty_print_json$$1$$2$$reclen;
-      enum anonymous$33 return_value_yajl_gen_array_open$10;
-      return_value_yajl_gen_array_open$10=yajl_gen_array_open(*g);
-      if(!((signed int)return_value_yajl_gen_array_open$10 == yajl_gen_status_ok))
+      signed long int pretty_print_json__1__2__i;
+      signed long int pretty_print_json__1__2__reclen;
+      enum anonymous_33 return_value_yajl_gen_array_open_10;
+      return_value_yajl_gen_array_open_10=yajl_gen_array_open(*g);
+      if(!((signed int)return_value_yajl_gen_array_open_10 == yajl_gen_status_ok))
       {
-        signed long int return_value_show_json_error$9;
-        return_value_show_json_error$9=show_json_error(db, "Formatter failure");
-        return (signed int)return_value_show_json_error$9;
+        signed long int return_value_show_json_error_9;
+        return_value_show_json_error_9=show_json_error(db, "Formatter failure");
+        return (signed int)return_value_show_json_error_9;
       }
 
-      pretty_print_json$$1$$2$$reclen=wg_get_record_len(db, rec);
-      pretty_print_json$$1$$2$$i = (signed long int)0;
-      for( ; !(pretty_print_json$$1$$2$$i >= pretty_print_json$$1$$2$$reclen); pretty_print_json$$1$$2$$i = pretty_print_json$$1$$2$$i + 1l)
+      pretty_print_json__1__2__reclen=wg_get_record_len(db, rec);
+      pretty_print_json__1__2__i = (signed long int)0;
+      for( ; !(pretty_print_json__1__2__i >= pretty_print_json__1__2__reclen); pretty_print_json__1__2__i = pretty_print_json__1__2__i + 1l)
       {
-        signed long int pretty_print_json$$1$$2$$2$$1$$enc;
-        pretty_print_json$$1$$2$$2$$1$$enc=wg_get_field(db, rec, pretty_print_json$$1$$2$$i);
-        signed int return_value_pretty_print_jsonval$11;
-        return_value_pretty_print_jsonval$11=pretty_print_jsonval(db, g, pretty_print_json$$1$$2$$2$$1$$enc);
-        if(!(return_value_pretty_print_jsonval$11 == 0))
+        signed long int pretty_print_json__1__2__2__1__enc;
+        pretty_print_json__1__2__2__1__enc=wg_get_field(db, rec, pretty_print_json__1__2__i);
+        signed int return_value_pretty_print_jsonval_11;
+        return_value_pretty_print_jsonval_11=pretty_print_jsonval(db, g, pretty_print_json__1__2__2__1__enc);
+        if(!(return_value_pretty_print_jsonval_11 == 0))
           return -1;
 
       }
-      enum anonymous$33 return_value_yajl_gen_array_close$13;
-      return_value_yajl_gen_array_close$13=yajl_gen_array_close(*g);
-      if(!((signed int)return_value_yajl_gen_array_close$13 == yajl_gen_status_ok))
+      enum anonymous_33 return_value_yajl_gen_array_close_13;
+      return_value_yajl_gen_array_close_13=yajl_gen_array_close(*g);
+      if(!((signed int)return_value_yajl_gen_array_close_13 == yajl_gen_status_ok))
       {
-        signed long int return_value_show_json_error$12;
-        return_value_show_json_error$12=show_json_error(db, "Formatter failure");
-        return (signed int)return_value_show_json_error$12;
+        signed long int return_value_show_json_error_12;
+        return_value_show_json_error_12=show_json_error(db, "Formatter failure");
+        return (signed int)return_value_show_json_error_12;
       }
 
     }
@@ -7925,40 +7925,40 @@ static signed int pretty_print_json(void *db, struct yajl_gen_t **g, void *rec)
       signed long int value;
       key=wg_get_field(db, rec, (signed long int)(0 + 1));
       value=wg_get_field(db, rec, (signed long int)(0 + 2));
-      signed long int return_value_wg_get_encoded_type$18;
-      return_value_wg_get_encoded_type$18=wg_get_encoded_type(db, key);
-      if(!(return_value_wg_get_encoded_type$18 == 5l))
+      signed long int return_value_wg_get_encoded_type_18;
+      return_value_wg_get_encoded_type_18=wg_get_encoded_type(db, key);
+      if(!(return_value_wg_get_encoded_type_18 == 5l))
       {
-        signed long int return_value_show_json_error$14;
-        return_value_show_json_error$14=show_json_error(db, "Key is of invalid type");
-        return (signed int)return_value_show_json_error$14;
+        signed long int return_value_show_json_error_14;
+        return_value_show_json_error_14=show_json_error(db, "Key is of invalid type");
+        return (signed int)return_value_show_json_error_14;
       }
 
       else
       {
         signed int len;
-        signed long int return_value_wg_decode_str_len$15;
-        return_value_wg_decode_str_len$15=wg_decode_str_len(db, key);
-        len = (signed int)return_value_wg_decode_str_len$15;
+        signed long int return_value_wg_decode_str_len_15;
+        return_value_wg_decode_str_len_15=wg_decode_str_len(db, key);
+        len = (signed int)return_value_wg_decode_str_len_15;
         char *buf;
         buf=wg_decode_str(db, key);
         if(!(buf == ((char *)NULL)))
         {
-          enum anonymous$33 return_value_yajl_gen_string$17;
-          return_value_yajl_gen_string$17=yajl_gen_string(*g, (unsigned char *)buf, (unsigned long int)len);
-          if(!((signed int)return_value_yajl_gen_string$17 == yajl_gen_status_ok))
+          enum anonymous_33 return_value_yajl_gen_string_17;
+          return_value_yajl_gen_string_17=yajl_gen_string(*g, (unsigned char *)buf, (unsigned long int)len);
+          if(!((signed int)return_value_yajl_gen_string_17 == yajl_gen_status_ok))
           {
-            signed long int return_value_show_json_error$16;
-            return_value_show_json_error$16=show_json_error(db, "Formatter failure");
-            return (signed int)return_value_show_json_error$16;
+            signed long int return_value_show_json_error_16;
+            return_value_show_json_error_16=show_json_error(db, "Formatter failure");
+            return (signed int)return_value_show_json_error_16;
           }
 
         }
 
       }
-      signed int return_value_pretty_print_jsonval$19;
-      return_value_pretty_print_jsonval$19=pretty_print_jsonval(db, g, value);
-      if(!(return_value_pretty_print_jsonval$19 == 0))
+      signed int return_value_pretty_print_jsonval_19;
+      return_value_pretty_print_jsonval_19=pretty_print_jsonval(db, g, value);
+      if(!(return_value_pretty_print_jsonval_19 == 0))
         return -1;
 
     }
@@ -7973,11 +7973,11 @@ static signed int pretty_print_jsonval(void *db, struct yajl_gen_t **g, signed l
   type=wg_get_encoded_type(db, enc);
   if(type == 2l)
   {
-    void *return_value_wg_decode_record$1;
-    return_value_wg_decode_record$1=wg_decode_record(db, enc);
-    signed int return_value_pretty_print_json$2;
-    return_value_pretty_print_json$2=pretty_print_json(db, g, return_value_wg_decode_record$1);
-    if(!(return_value_pretty_print_json$2 == 0))
+    void *return_value_wg_decode_record_1;
+    return_value_wg_decode_record_1=wg_decode_record(db, enc);
+    signed int return_value_pretty_print_json_2;
+    return_value_pretty_print_json_2=pretty_print_json(db, g, return_value_wg_decode_record_1);
+    if(!(return_value_pretty_print_json_2 == 0))
       return -1;
 
   }
@@ -7986,20 +7986,20 @@ static signed int pretty_print_jsonval(void *db, struct yajl_gen_t **g, signed l
     if(type == 5l)
     {
       signed int len;
-      signed long int return_value_wg_decode_str_len$3;
-      return_value_wg_decode_str_len$3=wg_decode_str_len(db, enc);
-      len = (signed int)return_value_wg_decode_str_len$3;
+      signed long int return_value_wg_decode_str_len_3;
+      return_value_wg_decode_str_len_3=wg_decode_str_len(db, enc);
+      len = (signed int)return_value_wg_decode_str_len_3;
       char *buf;
       buf=wg_decode_str(db, enc);
       if(!(buf == ((char *)NULL)))
       {
-        enum anonymous$33 return_value_yajl_gen_string$5;
-        return_value_yajl_gen_string$5=yajl_gen_string(*g, (unsigned char *)buf, (unsigned long int)len);
-        if(!((signed int)return_value_yajl_gen_string$5 == yajl_gen_status_ok))
+        enum anonymous_33 return_value_yajl_gen_string_5;
+        return_value_yajl_gen_string_5=yajl_gen_string(*g, (unsigned char *)buf, (unsigned long int)len);
+        if(!((signed int)return_value_yajl_gen_string_5 == yajl_gen_status_ok))
         {
-          signed long int return_value_show_json_error$4;
-          return_value_show_json_error$4=show_json_error(db, "Formatter failure");
-          return (signed int)return_value_show_json_error$4;
+          signed long int return_value_show_json_error_4;
+          return_value_show_json_error_4=show_json_error(db, "Formatter failure");
+          return (signed int)return_value_show_json_error_4;
         }
 
       }
@@ -8008,32 +8008,32 @@ static signed int pretty_print_jsonval(void *db, struct yajl_gen_t **g, signed l
 
     else
     {
-      unsigned long int pretty_print_jsonval$$1$$3$$len;
-      char pretty_print_jsonval$$1$$3$$buf[80l];
-      wg_snprint_value(db, enc, pretty_print_jsonval$$1$$3$$buf, 79);
-      pretty_print_jsonval$$1$$3$$len=strlen(pretty_print_jsonval$$1$$3$$buf);
+      unsigned long int pretty_print_jsonval__1__3__len;
+      char pretty_print_jsonval__1__3__buf[80l];
+      wg_snprint_value(db, enc, pretty_print_jsonval__1__3__buf, 79);
+      pretty_print_jsonval__1__3__len=strlen(pretty_print_jsonval__1__3__buf);
       if(type == 3l || type == 4l || type == 10l)
       {
-        enum anonymous$33 return_value_yajl_gen_number$7;
-        return_value_yajl_gen_number$7=yajl_gen_number(*g, pretty_print_jsonval$$1$$3$$buf, pretty_print_jsonval$$1$$3$$len);
-        if(!((signed int)return_value_yajl_gen_number$7 == yajl_gen_status_ok))
+        enum anonymous_33 return_value_yajl_gen_number_7;
+        return_value_yajl_gen_number_7=yajl_gen_number(*g, pretty_print_jsonval__1__3__buf, pretty_print_jsonval__1__3__len);
+        if(!((signed int)return_value_yajl_gen_number_7 == yajl_gen_status_ok))
         {
-          signed long int return_value_show_json_error$6;
-          return_value_show_json_error$6=show_json_error(db, "Formatter failure");
-          return (signed int)return_value_show_json_error$6;
+          signed long int return_value_show_json_error_6;
+          return_value_show_json_error_6=show_json_error(db, "Formatter failure");
+          return (signed int)return_value_show_json_error_6;
         }
 
       }
 
       else
       {
-        enum anonymous$33 return_value_yajl_gen_string$9;
-        return_value_yajl_gen_string$9=yajl_gen_string(*g, (unsigned char *)pretty_print_jsonval$$1$$3$$buf, pretty_print_jsonval$$1$$3$$len);
-        if(!((signed int)return_value_yajl_gen_string$9 == yajl_gen_status_ok))
+        enum anonymous_33 return_value_yajl_gen_string_9;
+        return_value_yajl_gen_string_9=yajl_gen_string(*g, (unsigned char *)pretty_print_jsonval__1__3__buf, pretty_print_jsonval__1__3__len);
+        if(!((signed int)return_value_yajl_gen_string_9 == yajl_gen_status_ok))
         {
-          signed long int return_value_show_json_error$8;
-          return_value_show_json_error$8=show_json_error(db, "Formatter failure");
-          return (signed int)return_value_show_json_error$8;
+          signed long int return_value_show_json_error_8;
+          return_value_show_json_error_8=show_json_error(db, "Formatter failure");
+          return (signed int)return_value_show_json_error_8;
         }
 
       }
@@ -8051,9 +8051,9 @@ static void print_cb(void *cb_ctx, const char *str, unsigned long int len)
 
 // push
 // file dbjson.c line 444
-static signed int push(struct anonymous$0 *ctx, enum anonymous$2 type)
+static signed int push(struct anonymous_0 *ctx, enum anonymous_2 type)
 {
-  struct anonymous$1 *e;
+  struct anonymous_1 *e;
   ctx->stack_ptr = ctx->stack_ptr + 1;
   if(ctx->stack_ptr >= 7)
     return 0;
@@ -8078,8 +8078,8 @@ void * reader_thread(void *threadarg)
   signed int i;
   signed int j;
   void *rec = (void *)0;
-  db = ((struct anonymous$9 *)threadarg)->db;
-  threadid = ((struct anonymous$9 *)threadarg)->threadid;
+  db = ((struct anonymous_9 *)threadarg)->db;
+  threadid = ((struct anonymous_9 *)threadarg)->threadid;
   fprintf(stdout, "Reader thread %d started.\n", threadid);
   pthread_mutex_lock(&twait_mutex);
   twait_cnt = twait_cnt + 1;
@@ -8123,9 +8123,9 @@ void * reader_thread(void *threadarg)
       wg_get_field(db, rec, (signed long int)j);
       wg_get_field_type(db, rec, (signed long int)j);
     }
-    signed long int return_value_wg_end_read$1;
-    return_value_wg_end_read$1=wg_end_read(db, lock_id);
-    if(return_value_wg_end_read$1 == 0l)
+    signed long int return_value_wg_end_read_1;
+    return_value_wg_end_read_1=wg_end_read(db, lock_id);
+    if(return_value_wg_end_read_1 == 0l)
     {
       fprintf(stderr, "Reader thread %d: wg_end_read failed.\n", threadid);
       goto reader_done;
@@ -8161,7 +8161,7 @@ static signed long int remove_backlink_index_entries(void *db, signed long int *
   signed long int col;
   signed long int length;
   signed long int err = (signed long int)0;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   if((1l & record[1l]) == 0l)
   {
     length = ((*record & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3)) - (signed long int)3;
@@ -8174,9 +8174,9 @@ static signed long int remove_backlink_index_entries(void *db, signed long int *
       {
         if(!(dbh->index_control_area_header.index_table[col] == 0l))
         {
-          signed long int return_value_wg_index_del_field$1;
-          return_value_wg_index_del_field$1=wg_index_del_field(db, (void *)record, col);
-          if(!(return_value_wg_index_del_field$1 >= -1l))
+          signed long int return_value_wg_index_del_field_1;
+          return_value_wg_index_del_field_1=wg_index_del_field(db, (void *)record, col);
+          if(!(return_value_wg_index_del_field_1 >= -1l))
             return (signed long int)-1;
 
         }
@@ -8190,19 +8190,19 @@ static signed long int remove_backlink_index_entries(void *db, signed long int *
     signed long int backlink_list = record[(signed long int)2];
     if(!(backlink_list == 0l))
     {
-      struct anonymous$20 *next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
+      struct anonymous_20 *next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
       do
       {
-        signed long int return_value_wg_encode_record$2;
-        return_value_wg_encode_record$2=wg_encode_record(db, (void *)record);
-        err=remove_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + next->car), return_value_wg_encode_record$2, depth - (signed long int)1);
+        signed long int return_value_wg_encode_record_2;
+        return_value_wg_encode_record_2=wg_encode_record(db, (void *)record);
+        err=remove_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + next->car), return_value_wg_encode_record_2, depth - (signed long int)1);
         if(!(err == 0l))
           return err;
 
         if(next->cdr == 0l)
           break;
 
-        next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + next->cdr);
+        next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + next->cdr);
       }
       while((_Bool)1);
     }
@@ -8214,7 +8214,7 @@ static signed long int remove_backlink_index_entries(void *db, signed long int *
 
 // remove_from_bucket
 // file dbhash.c line 820
-static signed long int remove_from_bucket(struct anonymous$34 *bucket, signed int idx)
+static signed long int remove_from_bucket(struct anonymous_34 *bucket, signed int idx)
 {
   signed int i;
   signed long int val = bucket->value[(signed long int)idx];
@@ -8234,14 +8234,14 @@ static signed long int remove_index_template(void *db, signed long int template_
 {
   signed long int *ilist;
   void *rec;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  struct anonymous$22 *tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + template_offset);
-  rec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  struct anonymous_22 *tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + template_offset);
+  rec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
   wg_delete_record(db, rec);
   ilist = &dbh->index_control_area_header.index_template_list;
   while(!(*ilist == 0l))
   {
-    struct anonymous$20 *ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+    struct anonymous_20 *ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
     if(ilistelem->car == template_offset)
     {
       delete_from_list(db, ilist);
@@ -8261,7 +8261,7 @@ static signed long int restore_backlink_index_entries(void *db, signed long int 
   signed long int col;
   signed long int length;
   signed long int err = (signed long int)0;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   if((1l & record[1l]) == 0l)
   {
     length = ((*record & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3)) - (signed long int)3;
@@ -8274,9 +8274,9 @@ static signed long int restore_backlink_index_entries(void *db, signed long int 
       {
         if(!(dbh->index_control_area_header.index_table[col] == 0l))
         {
-          signed long int return_value_wg_index_add_field$1;
-          return_value_wg_index_add_field$1=wg_index_add_field(db, (void *)record, col);
-          if(!(return_value_wg_index_add_field$1 >= -1l))
+          signed long int return_value_wg_index_add_field_1;
+          return_value_wg_index_add_field_1=wg_index_add_field(db, (void *)record, col);
+          if(!(return_value_wg_index_add_field_1 >= -1l))
             return (signed long int)-1;
 
         }
@@ -8290,19 +8290,19 @@ static signed long int restore_backlink_index_entries(void *db, signed long int 
     signed long int backlink_list = record[(signed long int)2];
     if(!(backlink_list == 0l))
     {
-      struct anonymous$20 *next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
+      struct anonymous_20 *next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
       do
       {
-        signed long int return_value_wg_encode_record$2;
-        return_value_wg_encode_record$2=wg_encode_record(db, (void *)record);
-        err=restore_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + next->car), return_value_wg_encode_record$2, depth - (signed long int)1);
+        signed long int return_value_wg_encode_record_2;
+        return_value_wg_encode_record_2=wg_encode_record(db, (void *)record);
+        err=restore_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + next->car), return_value_wg_encode_record_2, depth - (signed long int)1);
         if(!(err == 0l))
           return err;
 
         if(next->cdr == 0l)
           break;
 
-        next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + next->cdr);
+        next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + next->cdr);
       }
       while((_Bool)1);
     }
@@ -8314,7 +8314,7 @@ static signed long int restore_backlink_index_entries(void *db, signed long int 
 
 // rewind_resultset
 // file dbquery.c line 1378
-static void rewind_resultset(void *db, struct anonymous$17 *set)
+static void rewind_resultset(void *db, struct anonymous_17 *set)
 {
   set->rcursor.page = set->first_page;
   set->rcursor.pidx = (signed long int)0;
@@ -8328,26 +8328,26 @@ static signed long int run_json_parser(void *db, char *buf, struct anonymous *cb
   signed int result = 0;
   struct yajl_handle_t *hand = (struct yajl_handle_t *)(void *)0;
   char *iptr = buf;
-  struct anonymous$0 ctx;
+  struct anonymous_0 ctx;
   ctx.state = 0;
   ctx.stack_ptr = -1;
   ctx.db = db;
   ctx.isparam = isparam;
   ctx.isdocument = isdocument;
   ctx.document = document;
-  hand=yajl_alloc(cb, (struct anonymous$3 *)(void *)0, (void *)&ctx);
-  yajl_config(hand, (enum anonymous$4)yajl_allow_comments, 1);
-  unsigned long int return_value_strnlen$1;
+  hand=yajl_alloc(cb, (struct anonymous_3 *)(void *)0, (void *)&ctx);
+  yajl_config(hand, (enum anonymous_4)yajl_allow_comments, 1);
+  unsigned long int return_value_strnlen_1;
   do
   {
-    return_value_strnlen$1=strnlen(iptr, (unsigned long int)16384);
-    count = (signed int)return_value_strnlen$1;
+    return_value_strnlen_1=strnlen(iptr, (unsigned long int)16384);
+    count = (signed int)return_value_strnlen_1;
     if(!(count >= 1))
       break;
 
-    enum anonymous$27 return_value_yajl_parse$2;
-    return_value_yajl_parse$2=yajl_parse(hand, (unsigned char *)iptr, (unsigned long int)count);
-    if(!((signed int)return_value_yajl_parse$2 == yajl_status_ok))
+    enum anonymous_27 return_value_yajl_parse_2;
+    return_value_yajl_parse_2=yajl_parse(hand, (unsigned char *)iptr, (unsigned long int)count);
+    if(!((signed int)return_value_yajl_parse_2 == yajl_status_ok))
     {
       show_json_error(db, "JSON parsing failed");
       result = -2;
@@ -8357,9 +8357,9 @@ static signed long int run_json_parser(void *db, char *buf, struct anonymous *cb
     iptr = iptr + (signed long int)count;
   }
   while((_Bool)1);
-  enum anonymous$27 return_value_yajl_complete_parse$3;
-  return_value_yajl_complete_parse$3=yajl_complete_parse(hand);
-  if(!((signed int)return_value_yajl_complete_parse$3 == yajl_status_ok))
+  enum anonymous_27 return_value_yajl_complete_parse_3;
+  return_value_yajl_complete_parse_3=yajl_complete_parse(hand);
+  if(!((signed int)return_value_yajl_complete_parse_3 == yajl_status_ok))
   {
     show_json_error(db, "JSON parsing failed");
     result = -2;
@@ -8378,7 +8378,7 @@ done:
 // file stresstest.c line 222
 void run_workers(void *db, signed int rcnt, signed int wcnt)
 {
-  struct anonymous$9 *pt_table;
+  struct anonymous_9 *pt_table;
   signed int i;
   signed int tcnt;
   signed int err;
@@ -8386,13 +8386,13 @@ void run_workers(void *db, signed int rcnt, signed int wcnt)
   union pthread_attr_t attr;
   pthread_attr_init(&attr);
   pthread_attr_setdetachstate(&attr, 0);
-  pthread_mutex_init(&twait_mutex, (const union anonymous$11 *)(void *)0);
-  pthread_cond_init(&twait_cv, (const union anonymous$11 *)(void *)0);
+  pthread_mutex_init(&twait_mutex, (const union anonymous_11 *)(void *)0);
+  pthread_cond_init(&twait_cv, (const union anonymous_11 *)(void *)0);
   tcnt = rcnt + wcnt;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)tcnt * sizeof(struct anonymous$9) /*24ul*/ );
-  pt_table = (struct anonymous$9 *)return_value_malloc$1;
-  if(pt_table == ((struct anonymous$9 *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)tcnt * sizeof(struct anonymous_9) /*24ul*/ );
+  pt_table = (struct anonymous_9 *)return_value_malloc_1;
+  if(pt_table == ((struct anonymous_9 *)NULL))
     fprintf(stderr, "Failed to allocate thread table: skipping tests.\n");
 
   else
@@ -8452,34 +8452,34 @@ void run_workers(void *db, signed int rcnt, signed int wcnt)
 static void scalar_to_ymd(signed long int scalar, unsigned int *yr, unsigned int *mo, unsigned int *day)
 {
   unsigned int n = (unsigned int)((scalar * 400L) / 146097L);
-  signed long int return_value_years_to_days$1;
+  signed long int return_value_years_to_days_1;
   do
   {
-    return_value_years_to_days$1=years_to_days(n);
-    if(return_value_years_to_days$1 >= scalar)
+    return_value_years_to_days_1=years_to_days(n);
+    if(return_value_years_to_days_1 >= scalar)
       break;
 
     n = n + 1u;
   }
   while((_Bool)1);
   *yr = n;
-  signed long int return_value_years_to_days$2;
-  return_value_years_to_days$2=years_to_days(n - (unsigned int)1);
-  n = (unsigned int)(scalar - return_value_years_to_days$2);
+  signed long int return_value_years_to_days_2;
+  return_value_years_to_days_2=years_to_days(n - (unsigned int)1);
+  n = (unsigned int)(scalar - return_value_years_to_days_2);
   if(n >= 60u)
   {
     n = n + (unsigned int)2;
-    signed int return_value_isleap$3;
-    return_value_isleap$3=isleap(*yr);
-    if(!(return_value_isleap$3 == 0))
+    signed int return_value_isleap_3;
+    return_value_isleap_3=isleap(*yr);
+    if(!(return_value_isleap_3 == 0))
       n = n - (unsigned int)(n > (unsigned int)62 ? 1 : 2);
 
   }
 
   *mo = (n * (unsigned int)100 + (unsigned int)3007) / (unsigned int)3057;
-  unsigned int return_value_months_to_days$4;
-  return_value_months_to_days$4=months_to_days(*mo);
-  *day = n - return_value_months_to_days$4;
+  unsigned int return_value_months_to_days_4;
+  return_value_months_to_days_4=months_to_days(*mo);
+  *day = n - return_value_months_to_days_4;
 }
 
 // show_consistency_error_nr
@@ -8687,22 +8687,22 @@ static signed long int show_schema_error(void *db, char *errmsg)
 static void snprint_record(void *db, signed long int *rec, char *buf, signed int buflen)
 {
   char *strbuf;
-  char *tmp_post$1;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  char *tmp_post_1;
+  char *tmp_post_4;
+  char *tmp_post_5;
   if(rec == ((signed long int *)NULL))
     snprintf(buf, (unsigned long int)buflen, "<null rec pointer>\n");
 
   else
     if(buflen >= 2)
     {
-      tmp_post$1 = buf;
+      tmp_post_1 = buf;
       buf = buf + 1l;
-      *tmp_post$1 = (char)91;
+      *tmp_post_1 = (char)91;
       buflen = buflen - 1;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)buflen);
-      strbuf = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)buflen);
+      strbuf = (char *)return_value_malloc_2;
       if(!(strbuf == ((char *)NULL)))
       {
         signed int i;
@@ -8715,17 +8715,17 @@ static void snprint_record(void *db, signed long int *rec, char *buf, signed int
         {
           enc=wg_get_field(db, (void *)rec, (signed long int)i);
           wg_snprint_value(db, enc, strbuf, buflen);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(strbuf);
-          strbuflen = (signed int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(strbuf);
+          strbuflen = (signed int)return_value_strlen_3;
           if(!(buflen >= 2 + strbuflen))
             break;
 
           if(!(i == 0))
           {
-            tmp_post$4 = buf;
+            tmp_post_4 = buf;
             buf = buf + 1l;
-            *tmp_post$4 = (char)44;
+            *tmp_post_4 = (char)44;
             buflen = buflen - 1;
           }
 
@@ -8741,9 +8741,9 @@ static void snprint_record(void *db, signed long int *rec, char *buf, signed int
 
       if(buflen >= 2)
       {
-        tmp_post$5 = buf;
+        tmp_post_5 = buf;
         buf = buf + 1l;
-        *tmp_post$5 = (char)93;
+        *tmp_post_5 = (char)93;
       }
 
       *buf = (char)0;
@@ -8761,19 +8761,19 @@ static void snprint_value_csv(void *db, signed long int enc, char *buf, signed i
   char strbuf[80l];
   char *ibuf;
   buflen = buflen - 1;
-  signed long int return_value_wg_get_encoded_type$1;
-  return_value_wg_get_encoded_type$1=wg_get_encoded_type(db, enc);
-  void *return_value_wg_decode_record$2;
-  signed long int return_value_wg_decode_int$3;
-  char *return_value_wg_decode_str$4;
-  char *return_value_wg_decode_xmlliteral$5;
-  signed long int return_value_wg_decode_uri_len$6;
-  signed long int return_value_wg_decode_uri_prefix_len$7;
-  void *return_value_malloc$8;
-  char *return_value_wg_decode_uri_prefix$9;
-  char *return_value_wg_decode_uri$10;
-  char return_value_wg_decode_char$11;
-  switch(return_value_wg_get_encoded_type$1)
+  signed long int return_value_wg_get_encoded_type_1;
+  return_value_wg_get_encoded_type_1=wg_get_encoded_type(db, enc);
+  void *return_value_wg_decode_record_2;
+  signed long int return_value_wg_decode_int_3;
+  char *return_value_wg_decode_str_4;
+  char *return_value_wg_decode_xmlliteral_5;
+  signed long int return_value_wg_decode_uri_len_6;
+  signed long int return_value_wg_decode_uri_prefix_len_7;
+  void *return_value_malloc_8;
+  char *return_value_wg_decode_uri_prefix_9;
+  char *return_value_wg_decode_uri_10;
+  char return_value_wg_decode_char_11;
+  switch(return_value_wg_get_encoded_type_1)
   {
     case (signed long int)1:
     {
@@ -8782,15 +8782,15 @@ static void snprint_value_csv(void *db, signed long int enc, char *buf, signed i
     }
     case (signed long int)2:
     {
-      return_value_wg_decode_record$2=wg_decode_record(db, enc);
-      intdata = (signed int)(signed long int)((char *)return_value_wg_decode_record$2 - (char *)((struct anonymous$6 *)db)->db);
+      return_value_wg_decode_record_2=wg_decode_record(db, enc);
+      intdata = (signed int)(signed long int)((char *)return_value_wg_decode_record_2 - (char *)((struct anonymous_6 *)db)->db);
       snprintf(buf, (unsigned long int)buflen, "\"<record offset %d>\"", intdata);
       break;
     }
     case (signed long int)3:
     {
-      return_value_wg_decode_int$3=wg_decode_int(db, enc);
-      intdata = (signed int)return_value_wg_decode_int$3;
+      return_value_wg_decode_int_3=wg_decode_int(db, enc);
+      intdata = (signed int)return_value_wg_decode_int_3;
       snprintf(buf, (unsigned long int)buflen, "%d", intdata);
       break;
     }
@@ -8808,41 +8808,41 @@ static void snprint_value_csv(void *db, signed long int enc, char *buf, signed i
     }
     case (signed long int)5:
     {
-      return_value_wg_decode_str$4=wg_decode_str(db, enc);
-      csv_escaped_str(db, return_value_wg_decode_str$4, buf, buflen);
+      return_value_wg_decode_str_4=wg_decode_str(db, enc);
+      csv_escaped_str(db, return_value_wg_decode_str_4, buf, buflen);
       break;
     }
     case (signed long int)6:
     {
-      return_value_wg_decode_xmlliteral$5=wg_decode_xmlliteral(db, enc);
-      csv_escaped_str(db, return_value_wg_decode_xmlliteral$5, buf, buflen);
+      return_value_wg_decode_xmlliteral_5=wg_decode_xmlliteral(db, enc);
+      csv_escaped_str(db, return_value_wg_decode_xmlliteral_5, buf, buflen);
       break;
     }
     case (signed long int)7:
     {
-      return_value_wg_decode_uri_len$6=wg_decode_uri_len(db, enc);
-      ilen = (signed int)return_value_wg_decode_uri_len$6;
-      return_value_wg_decode_uri_prefix_len$7=wg_decode_uri_prefix_len(db, enc);
-      ilen = ilen + (signed int)return_value_wg_decode_uri_prefix_len$7;
-      return_value_malloc$8=malloc((unsigned long int)(ilen + 1));
-      ibuf = (char *)return_value_malloc$8;
+      return_value_wg_decode_uri_len_6=wg_decode_uri_len(db, enc);
+      ilen = (signed int)return_value_wg_decode_uri_len_6;
+      return_value_wg_decode_uri_prefix_len_7=wg_decode_uri_prefix_len(db, enc);
+      ilen = ilen + (signed int)return_value_wg_decode_uri_prefix_len_7;
+      return_value_malloc_8=malloc((unsigned long int)(ilen + 1));
+      ibuf = (char *)return_value_malloc_8;
       if(ibuf == ((char *)NULL))
       {
         show_io_error(db, "Failed to allocate memory");
         goto __CPROVER_DUMP_L15;
       }
 
-      return_value_wg_decode_uri_prefix$9=wg_decode_uri_prefix(db, enc);
-      return_value_wg_decode_uri$10=wg_decode_uri(db, enc);
-      snprintf(ibuf, (unsigned long int)(ilen + 1), "%s%s", return_value_wg_decode_uri_prefix$9, return_value_wg_decode_uri$10);
+      return_value_wg_decode_uri_prefix_9=wg_decode_uri_prefix(db, enc);
+      return_value_wg_decode_uri_10=wg_decode_uri(db, enc);
+      snprintf(ibuf, (unsigned long int)(ilen + 1), "%s%s", return_value_wg_decode_uri_prefix_9, return_value_wg_decode_uri_10);
       csv_escaped_str(db, ibuf, buf, buflen);
       free((void *)ibuf);
       break;
     }
     case (signed long int)9:
     {
-      return_value_wg_decode_char$11=wg_decode_char(db, enc);
-      intdata = (signed int)return_value_wg_decode_char$11;
+      return_value_wg_decode_char_11=wg_decode_char(db, enc);
+      intdata = (signed int)return_value_wg_decode_char_11;
       snprintf(buf, (unsigned long int)buflen, "%c", (char)intdata);
       break;
     }
@@ -8875,7 +8875,7 @@ static signed long int sort_columns(signed long int *sorted_cols, signed long in
 {
   signed long int i = (signed long int)0;
   signed long int prev = (signed long int)-1;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   while(!(i >= col_count))
   {
     signed long int lowest = (signed long int)(127 + 1);
@@ -8891,9 +8891,9 @@ static signed long int sort_columns(signed long int *sorted_cols, signed long in
     if(lowest == 128l)
       break;
 
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1l;
-    sorted_cols[tmp_post$1] = lowest;
+    sorted_cols[tmp_post_1] = lowest;
     prev = lowest;
   }
   return i;
@@ -8914,31 +8914,31 @@ static signed long int split_free(void *db, void *area_header, signed long int n
   signed long int dvsize;
   signed long int dvindex;
   object = freebuckets[i];
-  oldsize = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + object));
+  oldsize = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + object));
   if(!((3l & oldsize) == 1l))
     return (signed long int)-1;
 
   else
   {
     oldsize = oldsize & (signed long int)~3;
-    oldnextptr = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ )));
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + object)) = nr & (signed long int)~3;
+    oldnextptr = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ )));
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + object)) = nr & (signed long int)~3;
     freebuckets[i] = oldnextptr;
     splitsize = oldsize - nr;
     splitobject = object + nr;
     dvsize = freebuckets[(signed long int)(256 + 32 + 1)];
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + splitobject)) = splitsize & (signed long int)~3 | (signed long int)1;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(splitobject + splitsize) - sizeof(signed long int) /*8ul*/ ))) = splitsize & (signed long int)~3 | (signed long int)1;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + splitobject)) = splitsize & (signed long int)~3 | (signed long int)1;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(splitobject + splitsize) - sizeof(signed long int) /*8ul*/ ))) = splitsize & (signed long int)~3 | (signed long int)1;
     splitindex=wg_freebuckets_index(db, splitsize);
     if(!(splitindex >= 0l))
       return splitindex;
 
     freelist = freebuckets[splitindex];
     if(!(freelist == 0l))
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)freelist + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = splitobject;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)freelist + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = splitobject;
 
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)splitobject + sizeof(signed long int) /*8ul*/ ))) = freelist;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)splitobject + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[splitindex] - (char *)((struct anonymous$6 *)db)->db);
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)splitobject + sizeof(signed long int) /*8ul*/ ))) = freelist;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)splitobject + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[splitindex] - (char *)((struct anonymous_6 *)db)->db);
     freebuckets[splitindex] = splitobject;
     return (signed long int)0;
   }
@@ -8955,15 +8955,15 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
   signed long int bnodeoffset;
   signed long int newoffset;
   struct wg_tnode *node;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   rootoffset = hdr->ctl.t.offset_root_node;
-  signed long int tmp_if_expr$4;
-  signed long int return_value_wg_get_field$2;
-  signed long int return_value_wg_compare$3;
-  signed long int tmp_if_expr$8;
-  signed long int return_value_wg_get_field$6;
-  signed long int return_value_wg_compare$7;
+  signed long int tmp_if_expr_4;
+  signed long int return_value_wg_get_field_2;
+  signed long int return_value_wg_compare_3;
+  signed long int tmp_if_expr_8;
+  signed long int return_value_wg_get_field_6;
+  signed long int return_value_wg_compare_7;
   if(rootoffset == 0l)
   {
     fprintf(stderr, "index at offset %d does not exist\n", (signed int)index_id);
@@ -8975,7 +8975,7 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
     column = hdr->rec_field_index[(signed long int)0];
     newvalue=wg_get_field(db, rec, column);
     bnodeoffset=wg_search_ttree_rightmost(db, rootoffset, newvalue, &boundtype, (struct wg_tnode *)(void *)0);
-    node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + bnodeoffset);
+    node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + bnodeoffset);
     newoffset = (signed long int)0;
     if(boundtype == 0l)
     {
@@ -8987,18 +8987,18 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
         i = 0;
         for( ; !(i >= (signed int)node->number_of_elements); i = i + 1)
         {
-          signed long int return_value_wg_get_field$1;
-          return_value_wg_get_field$1=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[(signed long int)i]), column);
-          if(return_value_wg_get_field$1 == newvalue)
-            tmp_if_expr$4 = (signed long int)0;
+          signed long int return_value_wg_get_field_1;
+          return_value_wg_get_field_1=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[(signed long int)i]), column);
+          if(return_value_wg_get_field_1 == newvalue)
+            tmp_if_expr_4 = (signed long int)0;
 
           else
           {
-            return_value_wg_get_field$2=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[(signed long int)i]), column);
-            return_value_wg_compare$3=wg_compare(db, return_value_wg_get_field$2, newvalue, 7);
-            tmp_if_expr$4 = return_value_wg_compare$3;
+            return_value_wg_get_field_2=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[(signed long int)i]), column);
+            return_value_wg_compare_3=wg_compare(db, return_value_wg_get_field_2, newvalue, 7);
+            tmp_if_expr_4 = return_value_wg_compare_3;
           }
-          cr = tmp_if_expr$4;
+          cr = tmp_if_expr_4;
           if(!(cr == -1l))
           {
             j = (signed int)node->number_of_elements;
@@ -9008,7 +9008,7 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
           }
 
         }
-        node->array_of_values[(signed long int)i] = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
+        node->array_of_values[(signed long int)i] = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
         node->number_of_elements = node->number_of_elements + 1;
         if(i == 0)
           node->current_min = newvalue;
@@ -9017,52 +9017,52 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
 
       else
       {
-        signed int ttree_add_row$$1$$2$$2$$i;
-        signed int ttree_add_row$$1$$2$$2$$j;
-        signed long int ttree_add_row$$1$$2$$2$$cr;
+        signed int ttree_add_row__1__2__2__i;
+        signed int ttree_add_row__1__2__2__j;
+        signed long int ttree_add_row__1__2__2__cr;
         signed long int minvalue;
         signed long int minvaluerowoffset;
         minvalue = node->current_min;
         minvaluerowoffset = node->array_of_values[(signed long int)0];
-        ttree_add_row$$1$$2$$2$$i = 8 - 1;
-        for( ; ttree_add_row$$1$$2$$2$$i >= 1; ttree_add_row$$1$$2$$2$$i = ttree_add_row$$1$$2$$2$$i - 1)
+        ttree_add_row__1__2__2__i = 8 - 1;
+        for( ; ttree_add_row__1__2__2__i >= 1; ttree_add_row__1__2__2__i = ttree_add_row__1__2__2__i - 1)
         {
-          signed long int return_value_wg_get_field$5;
-          return_value_wg_get_field$5=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[(signed long int)ttree_add_row$$1$$2$$2$$i]), column);
-          if(return_value_wg_get_field$5 == newvalue)
-            tmp_if_expr$8 = (signed long int)0;
+          signed long int return_value_wg_get_field_5;
+          return_value_wg_get_field_5=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[(signed long int)ttree_add_row__1__2__2__i]), column);
+          if(return_value_wg_get_field_5 == newvalue)
+            tmp_if_expr_8 = (signed long int)0;
 
           else
           {
-            return_value_wg_get_field$6=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[(signed long int)ttree_add_row$$1$$2$$2$$i]), column);
-            return_value_wg_compare$7=wg_compare(db, return_value_wg_get_field$6, newvalue, 7);
-            tmp_if_expr$8 = return_value_wg_compare$7;
+            return_value_wg_get_field_6=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[(signed long int)ttree_add_row__1__2__2__i]), column);
+            return_value_wg_compare_7=wg_compare(db, return_value_wg_get_field_6, newvalue, 7);
+            tmp_if_expr_8 = return_value_wg_compare_7;
           }
-          ttree_add_row$$1$$2$$2$$cr = tmp_if_expr$8;
-          if(!(ttree_add_row$$1$$2$$2$$cr == 1l))
+          ttree_add_row__1__2__2__cr = tmp_if_expr_8;
+          if(!(ttree_add_row__1__2__2__cr == 1l))
           {
-            ttree_add_row$$1$$2$$2$$j = 0;
-            for( ; !(ttree_add_row$$1$$2$$2$$j >= ttree_add_row$$1$$2$$2$$i); ttree_add_row$$1$$2$$2$$j = ttree_add_row$$1$$2$$2$$j + 1)
-              node->array_of_values[(signed long int)ttree_add_row$$1$$2$$2$$j] = node->array_of_values[(signed long int)(ttree_add_row$$1$$2$$2$$j + 1)];
+            ttree_add_row__1__2__2__j = 0;
+            for( ; !(ttree_add_row__1__2__2__j >= ttree_add_row__1__2__2__i); ttree_add_row__1__2__2__j = ttree_add_row__1__2__2__j + 1)
+              node->array_of_values[(signed long int)ttree_add_row__1__2__2__j] = node->array_of_values[(signed long int)(ttree_add_row__1__2__2__j + 1)];
             break;
           }
 
         }
-        node->array_of_values[(signed long int)ttree_add_row$$1$$2$$2$$i] = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
-        if(ttree_add_row$$1$$2$$2$$i == 0)
+        node->array_of_values[(signed long int)ttree_add_row__1__2__2__i] = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
+        if(ttree_add_row__1__2__2__i == 0)
           node->current_min = newvalue;
 
         else
         {
-          node->current_min=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[(signed long int)0]), column);
-          if(ttree_add_row$$1$$2$$2$$i == 8)
+          node->current_min=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[(signed long int)0]), column);
+          if(ttree_add_row__1__2__2__i == 8)
             node->current_max = newvalue;
 
         }
         if(!(node->left_child_offset == 0l))
         {
           signed long int greatestlb = node->pred_offset;
-          node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + greatestlb);
+          node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + greatestlb);
         }
 
         if(!((signed int)node->number_of_elements >= 8))
@@ -9080,8 +9080,8 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
           if(newnode == 0l)
             return (signed long int)-1;
 
-          leaf = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + newnode);
-          leaf->parent_offset = (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db);
+          leaf = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + newnode);
+          leaf->parent_offset = (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db);
           leaf->left_subtree_height = (unsigned char)0;
           leaf->right_subtree_height = (unsigned char)0;
           leaf->current_max = minvalue;
@@ -9090,14 +9090,14 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
           leaf->left_child_offset = (signed long int)0;
           leaf->right_child_offset = (signed long int)0;
           leaf->array_of_values[(signed long int)0] = minvaluerowoffset;
-          if(bnodeoffset == (char *)node - (char *)((struct anonymous$6 *)db)->db)
+          if(bnodeoffset == (char *)node - (char *)((struct anonymous_6 *)db)->db)
           {
             node->left_child_offset = newnode;
-            leaf->succ_offset = (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db);
+            leaf->succ_offset = (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db);
             leaf->pred_offset = node->pred_offset;
             if(!(node->pred_offset == 0l))
             {
-              struct wg_tnode *pred = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->pred_offset);
+              struct wg_tnode *pred = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->pred_offset);
               pred->succ_offset = newnode;
             }
 
@@ -9111,7 +9111,7 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
             struct wg_tnode *succ;
             node->right_child_offset = newnode;
             leaf->succ_offset = node->succ_offset;
-            leaf->pred_offset = (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db);
+            leaf->pred_offset = (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db);
             if(node->succ_offset == 0l)
             {
               show_index_error(db, "GLB with no successor, panic");
@@ -9120,7 +9120,7 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
 
             else
             {
-              succ = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + leaf->succ_offset);
+              succ = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + leaf->succ_offset);
               succ->pred_offset = newnode;
             }
             node->succ_offset = newnode;
@@ -9133,19 +9133,19 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
     else
       if(!((signed int)node->number_of_elements >= 8))
       {
-        signed int ttree_add_row$$1$$3$$1$$i;
+        signed int ttree_add_row__1__3__1__i;
         if(boundtype == 1l)
         {
-          ttree_add_row$$1$$3$$1$$i = (signed int)node->number_of_elements;
-          for( ; ttree_add_row$$1$$3$$1$$i >= 1; ttree_add_row$$1$$3$$1$$i = ttree_add_row$$1$$3$$1$$i - 1)
-            node->array_of_values[(signed long int)ttree_add_row$$1$$3$$1$$i] = node->array_of_values[(signed long int)(ttree_add_row$$1$$3$$1$$i - 1)];
-          node->array_of_values[(signed long int)0] = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
+          ttree_add_row__1__3__1__i = (signed int)node->number_of_elements;
+          for( ; ttree_add_row__1__3__1__i >= 1; ttree_add_row__1__3__1__i = ttree_add_row__1__3__1__i - 1)
+            node->array_of_values[(signed long int)ttree_add_row__1__3__1__i] = node->array_of_values[(signed long int)(ttree_add_row__1__3__1__i - 1)];
+          node->array_of_values[(signed long int)0] = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
           node->current_min = newvalue;
         }
 
         else
         {
-          node->array_of_values[(signed long int)node->number_of_elements] = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
+          node->array_of_values[(signed long int)node->number_of_elements] = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
           node->current_max = newvalue;
         }
         node->number_of_elements = node->number_of_elements + 1;
@@ -9159,67 +9159,67 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
 
       else
       {
-        struct wg_tnode *ttree_add_row$$1$$3$$2$$leaf;
-        signed long int ttree_add_row$$1$$3$$2$$newnode;
-        ttree_add_row$$1$$3$$2$$newnode=wg_alloc_fixlen_object(db, (void *)&dbh->tnode_area_header);
-        if(ttree_add_row$$1$$3$$2$$newnode == 0l)
+        struct wg_tnode *ttree_add_row__1__3__2__leaf;
+        signed long int ttree_add_row__1__3__2__newnode;
+        ttree_add_row__1__3__2__newnode=wg_alloc_fixlen_object(db, (void *)&dbh->tnode_area_header);
+        if(ttree_add_row__1__3__2__newnode == 0l)
           return (signed long int)-1;
 
-        ttree_add_row$$1$$3$$2$$leaf = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + ttree_add_row$$1$$3$$2$$newnode);
-        ttree_add_row$$1$$3$$2$$leaf->parent_offset = (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db);
-        ttree_add_row$$1$$3$$2$$leaf->left_subtree_height = (unsigned char)0;
-        ttree_add_row$$1$$3$$2$$leaf->right_subtree_height = (unsigned char)0;
-        ttree_add_row$$1$$3$$2$$leaf->current_max = newvalue;
-        ttree_add_row$$1$$3$$2$$leaf->current_min = newvalue;
-        ttree_add_row$$1$$3$$2$$leaf->number_of_elements = (signed short int)1;
-        ttree_add_row$$1$$3$$2$$leaf->left_child_offset = (signed long int)0;
-        ttree_add_row$$1$$3$$2$$leaf->right_child_offset = (signed long int)0;
-        ttree_add_row$$1$$3$$2$$leaf->array_of_values[(signed long int)0] = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
-        newoffset = ttree_add_row$$1$$3$$2$$newnode;
+        ttree_add_row__1__3__2__leaf = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + ttree_add_row__1__3__2__newnode);
+        ttree_add_row__1__3__2__leaf->parent_offset = (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db);
+        ttree_add_row__1__3__2__leaf->left_subtree_height = (unsigned char)0;
+        ttree_add_row__1__3__2__leaf->right_subtree_height = (unsigned char)0;
+        ttree_add_row__1__3__2__leaf->current_max = newvalue;
+        ttree_add_row__1__3__2__leaf->current_min = newvalue;
+        ttree_add_row__1__3__2__leaf->number_of_elements = (signed short int)1;
+        ttree_add_row__1__3__2__leaf->left_child_offset = (signed long int)0;
+        ttree_add_row__1__3__2__leaf->right_child_offset = (signed long int)0;
+        ttree_add_row__1__3__2__leaf->array_of_values[(signed long int)0] = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
+        newoffset = ttree_add_row__1__3__2__newnode;
         if(boundtype == 1l)
         {
-          node->left_child_offset = ttree_add_row$$1$$3$$2$$newnode;
-          ttree_add_row$$1$$3$$2$$leaf->succ_offset = (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db);
-          ttree_add_row$$1$$3$$2$$leaf->pred_offset = node->pred_offset;
+          node->left_child_offset = ttree_add_row__1__3__2__newnode;
+          ttree_add_row__1__3__2__leaf->succ_offset = (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db);
+          ttree_add_row__1__3__2__leaf->pred_offset = node->pred_offset;
           if(!(node->pred_offset == 0l))
           {
-            struct wg_tnode *ttree_add_row$$1$$3$$2$$1$$1$$pred = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->pred_offset);
-            ttree_add_row$$1$$3$$2$$1$$1$$pred->succ_offset = ttree_add_row$$1$$3$$2$$newnode;
+            struct wg_tnode *ttree_add_row__1__3__2__1__1__pred = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->pred_offset);
+            ttree_add_row__1__3__2__1__1__pred->succ_offset = ttree_add_row__1__3__2__newnode;
           }
 
           else
-            hdr->ctl.t.offset_min_node = ttree_add_row$$1$$3$$2$$newnode;
-          node->pred_offset = ttree_add_row$$1$$3$$2$$newnode;
+            hdr->ctl.t.offset_min_node = ttree_add_row__1__3__2__newnode;
+          node->pred_offset = ttree_add_row__1__3__2__newnode;
         }
 
         else
           if(boundtype == 2l)
           {
-            node->right_child_offset = ttree_add_row$$1$$3$$2$$newnode;
-            ttree_add_row$$1$$3$$2$$leaf->succ_offset = node->succ_offset;
-            ttree_add_row$$1$$3$$2$$leaf->pred_offset = (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db);
+            node->right_child_offset = ttree_add_row__1__3__2__newnode;
+            ttree_add_row__1__3__2__leaf->succ_offset = node->succ_offset;
+            ttree_add_row__1__3__2__leaf->pred_offset = (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db);
             if(!(node->succ_offset == 0l))
             {
-              struct wg_tnode *ttree_add_row$$1$$3$$2$$2$$1$$succ = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->succ_offset);
-              ttree_add_row$$1$$3$$2$$2$$1$$succ->pred_offset = ttree_add_row$$1$$3$$2$$newnode;
+              struct wg_tnode *ttree_add_row__1__3__2__2__1__succ = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->succ_offset);
+              ttree_add_row__1__3__2__2__1__succ->pred_offset = ttree_add_row__1__3__2__newnode;
             }
 
             else
-              hdr->ctl.t.offset_max_node = ttree_add_row$$1$$3$$2$$newnode;
-            node->succ_offset = ttree_add_row$$1$$3$$2$$newnode;
+              hdr->ctl.t.offset_max_node = ttree_add_row__1__3__2__newnode;
+            node->succ_offset = ttree_add_row__1__3__2__newnode;
           }
 
       }
     if(!(newoffset == 0l))
     {
-      struct wg_tnode *child = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + newoffset);
+      struct wg_tnode *child = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + newoffset);
       struct wg_tnode *parent;
       signed int left = 0;
       while(!(child->parent_offset == 0l))
       {
         signed int balance;
-        parent = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + child->parent_offset);
-        if(parent->left_child_offset == (char *)child - (char *)((struct anonymous$6 *)db)->db)
+        parent = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + child->parent_offset);
+        if(parent->left_child_offset == (char *)child - (char *)((struct anonymous_6 *)db)->db)
           left = 1;
 
         else
@@ -9254,7 +9254,7 @@ static signed long int ttree_add_row(void *db, signed long int index_id, void *r
 // file dbindex.c line 762
 static signed long int ttree_remove_row(void *db, signed long int index_id, void *rec)
 {
-  signed int ttree_remove_row$$1$$i;
+  signed int ttree_remove_row__1__i;
   signed int found;
   signed long int key;
   signed long int rootoffset;
@@ -9264,16 +9264,16 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
   signed long int rowoffset;
   struct wg_tnode *node;
   struct wg_tnode *parent;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   rootoffset = hdr->ctl.t.offset_root_node;
-  signed long int tmp_if_expr$2;
-  signed long int return_value_wg_compare$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$8;
+  signed long int tmp_if_expr_2;
+  signed long int return_value_wg_compare_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_8;
   if(rootoffset == 0l)
   {
     fprintf(stderr, "index at offset %d does not exist\n", (signed int)index_id);
@@ -9284,9 +9284,9 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
   {
     column = hdr->rec_field_index[(signed long int)0];
     key=wg_get_field(db, rec, column);
-    rowoffset = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
+    rowoffset = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
     bnodeoffset=wg_search_ttree_leftmost(db, rootoffset, key, &boundtype, (struct wg_tnode *)(void *)0);
-    node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + bnodeoffset);
+    node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + bnodeoffset);
     if(!(boundtype == 0l))
       return (signed long int)-2;
 
@@ -9295,11 +9295,11 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
       found = -1;
       do
       {
-        ttree_remove_row$$1$$i = 0;
-        for( ; !(ttree_remove_row$$1$$i >= (signed int)node->number_of_elements); ttree_remove_row$$1$$i = ttree_remove_row$$1$$i + 1)
-          if(node->array_of_values[(signed long int)ttree_remove_row$$1$$i] == rowoffset)
+        ttree_remove_row__1__i = 0;
+        for( ; !(ttree_remove_row__1__i >= (signed int)node->number_of_elements); ttree_remove_row__1__i = ttree_remove_row__1__i + 1)
+          if(node->array_of_values[(signed long int)ttree_remove_row__1__i] == rowoffset)
           {
-            found = ttree_remove_row$$1$$i;
+            found = ttree_remove_row__1__i;
             goto found_row;
           }
 
@@ -9307,16 +9307,16 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
         if(bnodeoffset == 0l)
           break;
 
-        node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + bnodeoffset);
+        node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + bnodeoffset);
         if(node->current_min == key)
-          tmp_if_expr$2 = (signed long int)0;
+          tmp_if_expr_2 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$1=wg_compare(db, node->current_min, key, 7);
-          tmp_if_expr$2 = return_value_wg_compare$1;
+          return_value_wg_compare_1=wg_compare(db, node->current_min, key, 7);
+          tmp_if_expr_2 = return_value_wg_compare_1;
         }
-        if(tmp_if_expr$2 == 1l)
+        if(tmp_if_expr_2 == 1l)
           break;
 
       }
@@ -9332,24 +9332,24 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
         node->number_of_elements = node->number_of_elements - 1;
         if(!(found >= (signed int)node->number_of_elements))
         {
-          ttree_remove_row$$1$$i = found;
-          for( ; !(ttree_remove_row$$1$$i >= (signed int)node->number_of_elements); ttree_remove_row$$1$$i = ttree_remove_row$$1$$i + 1)
-            node->array_of_values[(signed long int)ttree_remove_row$$1$$i] = node->array_of_values[(signed long int)(ttree_remove_row$$1$$i + 1)];
+          ttree_remove_row__1__i = found;
+          for( ; !(ttree_remove_row__1__i >= (signed int)node->number_of_elements); ttree_remove_row__1__i = ttree_remove_row__1__i + 1)
+            node->array_of_values[(signed long int)ttree_remove_row__1__i] = node->array_of_values[(signed long int)(ttree_remove_row__1__i + 1)];
         }
 
         if(found == (signed int)node->number_of_elements)
-          tmp_if_expr$3 = (signed int)node->number_of_elements != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)node->number_of_elements != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          node->current_max=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[(signed long int)((signed int)node->number_of_elements - 1)]), column);
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          node->current_max=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[(signed long int)((signed int)node->number_of_elements - 1)]), column);
 
         else
           if(found == 0)
           {
             if(!((signed int)node->number_of_elements == 0))
-              node->current_min=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[(signed long int)0]), column);
+              node->current_min=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[(signed long int)0]), column);
 
           }
 
@@ -9360,10 +9360,10 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
             if(!(node->right_child_offset == 0l))
             {
               signed long int greatestlb = node->pred_offset;
-              struct wg_tnode *glbnode = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + greatestlb);
-              ttree_remove_row$$1$$i = (signed int)node->number_of_elements;
-              for( ; ttree_remove_row$$1$$i >= 1; ttree_remove_row$$1$$i = ttree_remove_row$$1$$i - 1)
-                node->array_of_values[(signed long int)ttree_remove_row$$1$$i] = node->array_of_values[(signed long int)(ttree_remove_row$$1$$i - 1)];
+              struct wg_tnode *glbnode = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + greatestlb);
+              ttree_remove_row__1__i = (signed int)node->number_of_elements;
+              for( ; ttree_remove_row__1__i >= 1; ttree_remove_row__1__i = ttree_remove_row__1__i - 1)
+                node->array_of_values[(signed long int)ttree_remove_row__1__i] = node->array_of_values[(signed long int)(ttree_remove_row__1__i - 1)];
               node->array_of_values[(signed long int)0] = glbnode->array_of_values[(signed long int)((signed int)glbnode->number_of_elements - 1)];
               node->number_of_elements = node->number_of_elements + 1;
               node->current_min = glbnode->current_max;
@@ -9372,7 +9372,7 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
 
               glbnode->number_of_elements = glbnode->number_of_elements - 1;
               if(!((signed int)glbnode->number_of_elements == 0))
-                glbnode->current_max=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + glbnode->array_of_values[(signed long int)((signed int)glbnode->number_of_elements - 1)]), column);
+                glbnode->current_max=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + glbnode->array_of_values[(signed long int)((signed int)glbnode->number_of_elements - 1)]), column);
 
               node = glbnode;
             }
@@ -9390,8 +9390,8 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
             {
               if(!(node->parent_offset == 0l))
               {
-                parent = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->parent_offset);
-                if(parent->left_child_offset == (char *)node - (char *)((struct anonymous$6 *)db)->db)
+                parent = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->parent_offset);
+                if(parent->left_child_offset == (char *)node - (char *)((struct anonymous_6 *)db)->db)
                 {
                   parent->left_child_offset = (signed long int)0;
                   parent->left_subtree_height = (unsigned char)0;
@@ -9406,7 +9406,7 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
 
               if(!(node->succ_offset == 0l))
               {
-                struct wg_tnode *succ = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->succ_offset);
+                struct wg_tnode *succ = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->succ_offset);
                 succ->pred_offset = node->pred_offset;
               }
 
@@ -9414,14 +9414,14 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
                 hdr->ctl.t.offset_max_node = node->pred_offset;
               if(!(node->pred_offset == 0l))
               {
-                struct wg_tnode *pred = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->pred_offset);
+                struct wg_tnode *pred = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->pred_offset);
                 pred->succ_offset = node->succ_offset;
               }
 
               else
                 hdr->ctl.t.offset_min_node = node->succ_offset;
-              if(!(node == (struct wg_tnode *)((char *)((struct anonymous$6 *)db)->db + hdr->ctl.t.offset_root_node)))
-                wg_free_tnode(db, (signed long int)((char *)node - (char *)((struct anonymous$6 *)db)->db));
+              if(!(node == (struct wg_tnode *)((char *)((struct anonymous_6 *)db)->db + hdr->ctl.t.offset_root_node)))
+                wg_free_tnode(db, (signed long int)((char *)node - (char *)((struct anonymous_6 *)db)->db));
 
               else
               {
@@ -9437,45 +9437,45 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
         }
 
         if(node->left_child_offset == 0l)
-          tmp_if_expr$5 = node->right_child_offset != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = node->right_child_offset != (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           if(!(node->left_child_offset == 0l))
-            tmp_if_expr$6 = node->right_child_offset == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = node->right_child_offset == (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           signed int elements = (signed int)node->number_of_elements;
           signed int left;
           struct wg_tnode *child;
           if(!(node->left_child_offset == 0l))
           {
-            child = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->left_child_offset);
+            child = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->left_child_offset);
             left = 1;
           }
 
           else
           {
-            child = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->right_child_offset);
+            child = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->right_child_offset);
             left = 0;
           }
           elements = elements + (signed int)child->number_of_elements;
           if((signed int)child->left_subtree_height == 0)
-            tmp_if_expr$4 = (signed int)child->right_subtree_height == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (signed int)child->right_subtree_height == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
           {
             show_index_error(db, "index tree is not balanced, deleting algorithm doesn't work");
             return (signed long int)-4;
@@ -9516,25 +9516,25 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
             }
             if(!(child->succ_offset == 0l))
             {
-              struct wg_tnode *ttree_remove_row$$1$$8$$4$$3$$succ = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + child->succ_offset);
-              ttree_remove_row$$1$$8$$4$$3$$succ->pred_offset = child->pred_offset;
+              struct wg_tnode *ttree_remove_row__1__8__4__3__succ = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + child->succ_offset);
+              ttree_remove_row__1__8__4__3__succ->pred_offset = child->pred_offset;
             }
 
             else
               hdr->ctl.t.offset_max_node = child->pred_offset;
             if(!(child->pred_offset == 0l))
             {
-              struct wg_tnode *ttree_remove_row$$1$$8$$4$$5$$pred = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + child->pred_offset);
-              ttree_remove_row$$1$$8$$4$$5$$pred->succ_offset = child->succ_offset;
+              struct wg_tnode *ttree_remove_row__1__8__4__5__pred = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + child->pred_offset);
+              ttree_remove_row__1__8__4__5__pred->succ_offset = child->succ_offset;
             }
 
             else
               hdr->ctl.t.offset_min_node = child->succ_offset;
-            wg_free_tnode(db, (signed long int)((char *)child - (char *)((struct anonymous$6 *)db)->db));
+            wg_free_tnode(db, (signed long int)((char *)child - (char *)((struct anonymous_6 *)db)->db));
             if(!(node->parent_offset == 0l))
             {
-              parent = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + node->parent_offset);
-              if(parent->left_child_offset == (char *)node - (char *)((struct anonymous$6 *)db)->db)
+              parent = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + node->parent_offset);
+              if(parent->left_child_offset == (char *)node - (char *)((struct anonymous_6 *)db)->db)
                 parent->left_subtree_height = (unsigned char)1;
 
               else
@@ -9564,13 +9564,13 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
               {
                 struct wg_tnode *gp;
                 if(!((signed int)parent->right_subtree_height >= (signed int)parent->left_subtree_height))
-                  tmp_if_expr$8 = (signed int)parent->left_subtree_height;
+                  tmp_if_expr_8 = (signed int)parent->left_subtree_height;
 
                 else
-                  tmp_if_expr$8 = (signed int)parent->right_subtree_height;
-                height = tmp_if_expr$8;
-                gp = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + parent->parent_offset);
-                if(gp->left_child_offset == (char *)parent - (char *)((struct anonymous$6 *)db)->db)
+                  tmp_if_expr_8 = (signed int)parent->right_subtree_height;
+                height = tmp_if_expr_8;
+                gp = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + parent->parent_offset);
+                if(gp->left_child_offset == (char *)parent - (char *)((struct anonymous_6 *)db)->db)
                   gp->left_subtree_height = (unsigned char)(1 + height);
 
                 else
@@ -9580,7 +9580,7 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
             if(parent->parent_offset == 0l)
               break;
 
-            parent = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + parent->parent_offset);
+            parent = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + parent->parent_offset);
           }
           while((_Bool)1);
         }
@@ -9593,14 +9593,14 @@ static signed long int ttree_remove_row(void *db, signed long int index_id, void
 
 // unique_resultset
 // file dbquery.c line 1528
-static struct anonymous$17 * unique_resultset(void *db, struct anonymous$17 *set)
+static struct anonymous_17 * unique_resultset(void *db, struct anonymous_17 *set)
 {
   signed long int offset;
-  struct anonymous$17 *unique;
+  struct anonymous_17 *unique;
   signed int strategy = 1;
   unique=create_resultset(db);
-  if(unique == ((struct anonymous$17 *)NULL))
-    return (struct anonymous$17 *)(void *)0;
+  if(unique == ((struct anonymous_17 *)NULL))
+    return (struct anonymous_17 *)(void *)0;
 
   else
   {
@@ -9615,7 +9615,7 @@ static struct anonymous$17 * unique_resultset(void *db, struct anonymous$17 *set
       if(hasht == NULL)
       {
         free_resultset(db, unique);
-        return (struct anonymous$17 *)(void *)0;
+        return (struct anonymous_17 *)(void *)0;
       }
 
       do
@@ -9624,20 +9624,20 @@ static struct anonymous$17 * unique_resultset(void *db, struct anonymous$17 *set
         if(offset == 0l)
           break;
 
-        signed long int return_value_wg_dhash_haskey$1;
-        return_value_wg_dhash_haskey$1=wg_dhash_haskey(db, hasht, offset);
-        if(return_value_wg_dhash_haskey$1 == 0l)
+        signed long int return_value_wg_dhash_haskey_1;
+        return_value_wg_dhash_haskey_1=wg_dhash_haskey(db, hasht, offset);
+        if(return_value_wg_dhash_haskey_1 == 0l)
         {
-          signed long int unique_resultset$$1$$3$$2$$1$$err;
-          unique_resultset$$1$$3$$2$$1$$err=append_resultset(db, unique, offset);
-          if(unique_resultset$$1$$3$$2$$1$$err == 0l)
-            unique_resultset$$1$$3$$2$$1$$err=wg_dhash_addkey(db, hasht, offset);
+          signed long int unique_resultset__1__3__2__1__err;
+          unique_resultset__1__3__2__1__err=append_resultset(db, unique, offset);
+          if(unique_resultset__1__3__2__1__err == 0l)
+            unique_resultset__1__3__2__1__err=wg_dhash_addkey(db, hasht, offset);
 
-          if(!(unique_resultset$$1$$3$$2$$1$$err == 0l))
+          if(!(unique_resultset__1__3__2__1__err == 0l))
           {
             free_resultset(db, unique);
             wg_dhash_free(db, hasht);
-            return (struct anonymous$17 *)(void *)0;
+            return (struct anonymous_17 *)(void *)0;
           }
 
         }
@@ -9678,7 +9678,7 @@ static struct anonymous$17 * unique_resultset(void *db, struct anonymous$17 *set
           if(!(err == 0l))
           {
             free_resultset(db, unique);
-            return (struct anonymous$17 *)(void *)0;
+            return (struct anonymous_17 *)(void *)0;
           }
 
         }
@@ -9693,7 +9693,7 @@ static struct anonymous$17 * unique_resultset(void *db, struct anonymous$17 *set
 // file dblock.c line 970
 static void unlock_queue(void *db)
 {
-  volatile signed long int *gl = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->locks.queue_lock);
+  volatile signed long int *gl = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->locks.queue_lock);
   *gl = (volatile signed long int)0;
 }
 
@@ -9721,14 +9721,14 @@ signed long int wg_add_int_atomic_field(void *db, void *record, signed long int 
   signed int i;
   signed int sum;
   struct timespec ts;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     show_data_error_str(db, "wrong database pointer given to ", "wg_add_int_atomic_field");
     return (signed long int)-1;
@@ -9737,11 +9737,11 @@ signed long int wg_add_int_atomic_field(void *db, void *record, signed long int 
   else
   {
     if(!(fieldnr >= 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       show_data_error_str(db, "wrong field number given to ", "wg_add_int_atomic_field");
       return (signed long int)-2;
@@ -9757,9 +9757,9 @@ signed long int wg_add_int_atomic_field(void *db, void *record, signed long int 
         if(!((7l & old) == 3l))
           return (signed long int)-11;
 
-        signed long int return_value_wg_decode_int$3;
-        return_value_wg_decode_int$3=wg_decode_int(db, (signed long int)old);
-        sum = (signed int)(return_value_wg_decode_int$3 + (signed long int)data);
+        signed long int return_value_wg_decode_int_3;
+        return_value_wg_decode_int_3=wg_decode_int(db, (signed long int)old);
+        sum = (signed int)(return_value_wg_decode_int_3 + (signed long int)data);
         if(!((sum << 3) >> 3 == sum))
           return (signed long int)-16;
 
@@ -9799,9 +9799,9 @@ signed long int wg_alloc_fixlen_object(void *db, void *area_header)
   freelist = areah->freelist;
   if(freelist == 0l)
   {
-    signed long int return_value_extend_fixedlen_area$1;
-    return_value_extend_fixedlen_area$1=extend_fixedlen_area(db, (void *)areah);
-    if(return_value_extend_fixedlen_area$1 == 0l)
+    signed long int return_value_extend_fixedlen_area_1;
+    return_value_extend_fixedlen_area_1=extend_fixedlen_area(db, (void *)areah);
+    if(return_value_extend_fixedlen_area_1 == 0l)
     {
       show_dballoc_error_nr(db, "cannot extend fixed length object area for size ", areah->objlength);
       return (signed long int)0;
@@ -9816,14 +9816,14 @@ signed long int wg_alloc_fixlen_object(void *db, void *area_header)
 
     else
     {
-      areah->freelist = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + freelist));
+      areah->freelist = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + freelist));
       return freelist;
     }
   }
 
   else
   {
-    areah->freelist = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + freelist));
+    areah->freelist = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + freelist));
     return freelist;
   }
 }
@@ -9865,16 +9865,16 @@ signed long int wg_alloc_gints(void *db, void *area_header, signed long int nr)
         goto __CPROVER_DUMP_L7;
 
       res = freebuckets[usedbytes];
-      nextel = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)res + sizeof(signed long int) /*8ul*/ )));
+      nextel = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)res + sizeof(signed long int) /*8ul*/ )));
       freebuckets[usedbytes] = nextel;
       if(!(nextel == 0l))
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)nextel + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[usedbytes] - (char *)((struct anonymous$6 *)db)->db);
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)nextel + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[usedbytes] - (char *)((struct anonymous_6 *)db)->db);
 
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
       nextobject = res + usedbytes;
-      tmp = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject));
+      tmp = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject));
       if((1l & tmp) == 0l)
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject)) = tmp & (signed long int)~3;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject)) = tmp & (signed long int)~3;
 
       return res;
     }
@@ -9890,14 +9890,14 @@ signed long int wg_alloc_gints(void *db, void *area_header, signed long int nr)
       {
         if(!(freebuckets[i] == 0l))
         {
-          if((-4l & *((signed long int *)((char *)((struct anonymous$6 *)db)->db + freebuckets[i]))) >= (signed long int)(sizeof(signed long int) * 4) /*32l*/  + usedbytes)
+          if((-4l & *((signed long int *)((char *)((struct anonymous_6 *)db)->db + freebuckets[i]))) >= (signed long int)(sizeof(signed long int) * 4) /*32l*/  + usedbytes)
           {
             res = freebuckets[i];
             tmp=split_free(db, (void *)areah, usedbytes, freebuckets, i);
             if(!(tmp >= 0l))
               return (signed long int)0;
 
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
             return res;
           }
 
@@ -9916,18 +9916,18 @@ signed long int wg_alloc_gints(void *db, void *area_header, signed long int nr)
         {
           freebuckets[(signed long int)(256 + 32)] = (signed long int)0;
           freebuckets[(signed long int)(256 + 32 + 1)] = (signed long int)0;
-          *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
+          *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
           return res;
         }
 
         if(!(size >= (signed long int)(sizeof(signed long int) * 4) /*32l*/  + usedbytes))
           goto __CPROVER_DUMP_L13;
 
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res + usedbytes)) = size - usedbytes | (signed long int)3;
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(res + usedbytes) + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res + usedbytes)) = size - usedbytes | (signed long int)3;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(res + usedbytes) + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
         freebuckets[(signed long int)(256 + 32)] = res + usedbytes;
         freebuckets[(signed long int)(256 + 32 + 1)] = size - usedbytes;
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
         return res;
       }
 
@@ -9940,14 +9940,14 @@ signed long int wg_alloc_gints(void *db, void *area_header, signed long int nr)
         for( ; !(i >= 256l); i = i + 1l)
           if(!(freebuckets[i] == 0l))
           {
-            if((-4l & *((signed long int *)((char *)((struct anonymous$6 *)db)->db + freebuckets[i]))) >= (signed long int)(sizeof(signed long int) * 4) /*32l*/  + usedbytes)
+            if((-4l & *((signed long int *)((char *)((struct anonymous_6 *)db)->db + freebuckets[i]))) >= (signed long int)(sizeof(signed long int) * 4) /*32l*/  + usedbytes)
             {
               res = freebuckets[i];
               tmp=split_free(db, (void *)areah, usedbytes, freebuckets, i);
               if(!(tmp >= 0l))
                 return (signed long int)0;
 
-              *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
+              *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
               return res;
             }
 
@@ -9957,16 +9957,16 @@ signed long int wg_alloc_gints(void *db, void *area_header, signed long int nr)
         for( ; !(i >= 288l); i = i + 1l)
           if(!(freebuckets[i] == 0l))
           {
-            size = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + freebuckets[i])) & (signed long int)~3;
+            size = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + freebuckets[i])) & (signed long int)~3;
             if(size == usedbytes)
             {
               res = freebuckets[i];
-              nextel = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)res + sizeof(signed long int) /*8ul*/ )));
+              nextel = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)res + sizeof(signed long int) /*8ul*/ )));
               freebuckets[i] = nextel;
               if(!(nextel == 0l))
-                *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)nextel + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[i] - (char *)((struct anonymous$6 *)db)->db);
+                *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)nextel + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[i] - (char *)((struct anonymous_6 *)db)->db);
 
-              *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
+              *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
               return res;
             }
 
@@ -9978,7 +9978,7 @@ signed long int wg_alloc_gints(void *db, void *area_header, signed long int nr)
                 if(!(tmp >= 0l))
                   return (signed long int)0;
 
-                *((signed long int *)((char *)((struct anonymous$6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
+                *((signed long int *)((char *)((struct anonymous_6 *)db)->db + res)) = wantedbytes & (signed long int)~3;
                 return res;
               }
 
@@ -10007,7 +10007,7 @@ void * wg_alloc_mpool(void *db, void *mpool, signed int bytes)
 {
   void *curptr;
   void *nextptr;
-  struct anonymous$8 *mpoolh;
+  struct anonymous_8 *mpoolh;
   void *curend;
   signed int tmp;
   signed int i;
@@ -10026,7 +10026,7 @@ void * wg_alloc_mpool(void *db, void *mpool, signed int bytes)
 
     else
     {
-      mpoolh = (struct anonymous$8 *)mpool;
+      mpoolh = (struct anonymous_8 *)mpool;
       nextptr = (void *)((char *)mpoolh->freeptr + (signed long int)bytes);
       curend = mpoolh->subarea_table[(signed long int)mpoolh->cur_subarea].area_end;
       if(!(curend >= nextptr))
@@ -10075,9 +10075,9 @@ char * wg_atomstr2(void *db, void *ptr)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((char *)ptr);
-    ptr = (void *)((char *)ptr + (signed long int)return_value_strlen$1 + (signed long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((char *)ptr);
+    ptr = (void *)((char *)ptr + (signed long int)return_value_strlen_1 + (signed long int)1);
     if(((char *)ptr)[1l] == 0)
       return (char *)(void *)0;
 
@@ -10105,17 +10105,17 @@ void * wg_attach_database(char *dbasename, signed long int size)
   shm=wg_attach_memsegment(dbasename, size, size, 1, 0, 0);
   if(!(shm == NULL))
   {
-    if(!(((struct anonymous$6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
+    if(!(((struct anonymous_6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
     {
       signed int err;
-      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db);
+      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db);
       if(!(err == 0))
       {
         if(!(err >= -1))
         {
           show_memory_error("Existing segment header is incompatible");
           wg_print_code_version();
-          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db, 1);
+          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db, 1);
         }
 
         return (void *)0;
@@ -10136,17 +10136,17 @@ void * wg_attach_database_mode(char *dbasename, signed long int size, signed int
   shm=wg_attach_memsegment(dbasename, size, size, 1, 0, mode);
   if(!(shm == NULL))
   {
-    if(!(((struct anonymous$6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
+    if(!(((struct anonymous_6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
     {
       signed int err;
-      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db);
+      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db);
       if(!(err == 0))
       {
         if(!(err >= -1))
         {
           show_memory_error("Existing segment header is incompatible");
           wg_print_code_version();
-          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db, 1);
+          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db, 1);
         }
 
         return (void *)0;
@@ -10167,17 +10167,17 @@ void * wg_attach_existing_database(char *dbasename)
   shm=wg_attach_memsegment(dbasename, (signed long int)0, (signed long int)0, 0, 0, 0);
   if(!(shm == NULL))
   {
-    if(!(((struct anonymous$6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
+    if(!(((struct anonymous_6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
     {
       signed int err;
-      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db);
+      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db);
       if(!(err == 0))
       {
         if(!(err >= -1))
         {
           show_memory_error("Existing segment header is incompatible");
           wg_print_code_version();
-          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db, 1);
+          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db, 1);
         }
 
         return (void *)0;
@@ -10205,9 +10205,9 @@ void * wg_attach_local_database(signed long int size)
     if(!(size >= 1l))
       size = (signed long int)10000000;
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)size);
-    shm = (void *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)size);
+    shm = (void *)return_value_malloc_1;
     if(shm == NULL)
     {
       show_memory_error("malloc failed");
@@ -10216,10 +10216,10 @@ void * wg_attach_local_database(signed long int size)
 
     else
     {
-      ((struct anonymous$6 *)dbhandle)->db = (struct _db_memsegment_header *)shm;
-      signed long int return_value_wg_init_db_memsegment$2;
-      return_value_wg_init_db_memsegment$2=wg_init_db_memsegment(dbhandle, (signed long int)0, size);
-      if(!(return_value_wg_init_db_memsegment$2 == 0l))
+      ((struct anonymous_6 *)dbhandle)->db = (struct _db_memsegment_header *)shm;
+      signed long int return_value_wg_init_db_memsegment_2;
+      return_value_wg_init_db_memsegment_2=wg_init_db_memsegment(dbhandle, (signed long int)0, size);
+      if(!(return_value_wg_init_db_memsegment_2 == 0l))
       {
         show_memory_error("Database initialization failed");
         free(shm);
@@ -10240,17 +10240,17 @@ void * wg_attach_logged_database(char *dbasename, signed long int size)
   shm=wg_attach_memsegment(dbasename, size, size, 1, 1, 0);
   if(!(shm == NULL))
   {
-    if(!(((struct anonymous$6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
+    if(!(((struct anonymous_6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
     {
       signed int err;
-      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db);
+      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db);
       if(!(err == 0))
       {
         if(!(err >= -1))
         {
           show_memory_error("Existing segment header is incompatible");
           wg_print_code_version();
-          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db, 1);
+          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db, 1);
         }
 
         return (void *)0;
@@ -10271,17 +10271,17 @@ void * wg_attach_logged_database_mode(char *dbasename, signed long int size, sig
   shm=wg_attach_memsegment(dbasename, size, size, 1, 1, mode);
   if(!(shm == NULL))
   {
-    if(!(((struct anonymous$6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
+    if(!(((struct anonymous_6 *)shm)->db == ((struct _db_memsegment_header *)NULL)))
     {
       signed int err;
-      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db);
+      err=wg_check_header_compat((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db);
       if(!(err == 0))
       {
         if(!(err >= -1))
         {
           show_memory_error("Existing segment header is incompatible");
           wg_print_code_version();
-          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous$6 *)shm)->db, 1);
+          wg_print_header_version((struct _db_memsegment_header *)((struct anonymous_6 *)shm)->db, 1);
         }
 
         return (void *)0;
@@ -10303,8 +10303,8 @@ void * wg_attach_memsegment(char *dbasename, signed long int minsize, signed lon
   signed int err;
   signed int key = 0;
   dbhandle=init_dbhandle();
-  signed long int return_value_strtol$1;
-  _Bool tmp_if_expr$2;
+  signed long int return_value_strtol_1;
+  _Bool tmp_if_expr_2;
   if(dbhandle == NULL)
     return (void *)0;
 
@@ -10312,8 +10312,8 @@ void * wg_attach_memsegment(char *dbasename, signed long int minsize, signed lon
   {
     if(!(dbasename == ((char *)NULL)))
     {
-      return_value_strtol$1=strtol(dbasename, (char ** restrict )(void *)0, 10);
-      key = (signed int)return_value_strtol$1;
+      return_value_strtol_1=strtol(dbasename, (char ** restrict )(void *)0, 10);
+      key = (signed int)return_value_strtol_1;
     }
 
     if(key == 0x7fffffff || key == -2147483648 || !(key >= 1))
@@ -10329,11 +10329,11 @@ void * wg_attach_memsegment(char *dbasename, signed long int minsize, signed lon
     if(!(shm == NULL))
     {
       if(!(shm == NULL))
-        tmp_if_expr$2 = *((signed int *)shm) == 1232319011 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = *((signed int *)shm) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
       {
         show_memory_error("Existing segment header is invalid");
         free_dbhandle(dbhandle);
@@ -10351,7 +10351,7 @@ void * wg_attach_memsegment(char *dbasename, signed long int minsize, signed lon
 
       }
 
-      ((struct anonymous$6 *)dbhandle)->db = (struct _db_memsegment_header *)shm;
+      ((struct anonymous_6 *)dbhandle)->db = (struct _db_memsegment_header *)shm;
     }
 
     else
@@ -10383,10 +10383,10 @@ void * wg_attach_memsegment(char *dbasename, signed long int minsize, signed lon
 
         else
         {
-          ((struct anonymous$6 *)dbhandle)->db = (struct _db_memsegment_header *)shm;
-          signed long int return_value_wg_init_db_memsegment$3;
-          return_value_wg_init_db_memsegment$3=wg_init_db_memsegment(dbhandle, (signed long int)key, size);
-          err = (signed int)return_value_wg_init_db_memsegment$3;
+          ((struct anonymous_6 *)dbhandle)->db = (struct _db_memsegment_header *)shm;
+          signed long int return_value_wg_init_db_memsegment_3;
+          return_value_wg_init_db_memsegment_3=wg_init_db_memsegment(dbhandle, (signed long int)key, size);
+          err = (signed int)return_value_wg_init_db_memsegment_3;
           if(!(err == 0))
           {
             show_memory_error("Database initialization failed");
@@ -10413,9 +10413,9 @@ signed long int wg_check_dump(void *db, char *fileName, signed long int *minsize
   signed int dump_crc;
   signed long int err = (signed long int)-1;
   f=fopen(fileName, "rb");
-  unsigned long int return_value_fread$2;
-  signed int return_value_wg_check_header_compat$3;
-  unsigned long int return_value_fread$4;
+  unsigned long int return_value_fread_2;
+  signed int return_value_wg_check_header_compat_3;
+  unsigned long int return_value_fread_4;
   if(f == ((struct _IO_FILE *)NULL))
   {
     show_dump_error(db, "Error opening file");
@@ -10424,22 +10424,22 @@ signed long int wg_check_dump(void *db, char *fileName, signed long int *minsize
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)8192);
-    buf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)8192);
+    buf = (char *)return_value_malloc_1;
     if(buf == ((char *)NULL))
       show_dump_error(db, "malloc error in wg_import_dump");
 
     else
     {
-      return_value_fread$2=fread((void *)buf, (unsigned long int)8192, (unsigned long int)1, f);
-      if(!(return_value_fread$2 == 1ul))
+      return_value_fread_2=fread((void *)buf, (unsigned long int)8192, (unsigned long int)1, f);
+      if(!(return_value_fread_2 == 1ul))
         show_dump_error(db, "Error reading dump header");
 
       else
       {
-        return_value_wg_check_header_compat$3=wg_check_header_compat((struct _db_memsegment_header *)buf);
-        if(!(return_value_wg_check_header_compat$3 == 0))
+        return_value_wg_check_header_compat_3=wg_check_header_compat((struct _db_memsegment_header *)buf);
+        if(!(return_value_wg_check_header_compat_3 == 0))
         {
           show_dump_error_str(db, "Incompatible dump file", fileName);
           wg_print_code_version();
@@ -10460,8 +10460,8 @@ signed long int wg_check_dump(void *db, char *fileName, signed long int *minsize
           {
             filesize = filesize + len;
             crc=update_crc32(buf, len, crc);
-            return_value_fread$4=fread((void *)buf, (unsigned long int)1, (unsigned long int)8192, f);
-            len = (signed long int)return_value_fread$4;
+            return_value_fread_4=fread((void *)buf, (unsigned long int)1, (unsigned long int)8192, f);
+            len = (signed long int)return_value_fread_4;
           }
           while(len >= 1l);
           if(!(filesize == *minsize))
@@ -10498,36 +10498,36 @@ signed long int wg_check_dump(void *db, char *fileName, signed long int *minsize
 // file dbmem.h line 62
 signed int wg_check_header_compat(struct _db_memsegment_header *dbh)
 {
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(dbh == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$4 = *((signed int *)dbh) == 1232319011 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = *((signed int *)dbh) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(!tmp_if_expr_4)
   {
     signed int magic = 1232319011;
     char *magic_bytes = (char *)&magic;
     char *header_bytes = (char *)dbh;
     if(*magic_bytes == header_bytes[3l])
-      tmp_if_expr$1 = magic_bytes[(signed long int)1] == header_bytes[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = magic_bytes[(signed long int)1] == header_bytes[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = magic_bytes[(signed long int)2] == header_bytes[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = magic_bytes[(signed long int)2] == header_bytes[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = magic_bytes[(signed long int)3] == header_bytes[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = magic_bytes[(signed long int)3] == header_bytes[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
       return -2;
 
     else
@@ -10554,28 +10554,28 @@ signed long int wg_check_json(void *db, char *buf)
   signed int depth = -1;
   char *iptr = buf;
   struct yajl_handle_t *hand = (struct yajl_handle_t *)(void *)0;
-  signed long int return_value_show_json_error$1;
-  unsigned long int return_value_strnlen$2;
+  signed long int return_value_show_json_error_1;
+  unsigned long int return_value_strnlen_2;
   if(buf == ((char *)NULL))
   {
-    return_value_show_json_error$1=show_json_error(db, "Invalid input buffer");
-    return return_value_show_json_error$1;
+    return_value_show_json_error_1=show_json_error(db, "Invalid input buffer");
+    return return_value_show_json_error_1;
   }
 
   else
   {
-    hand=yajl_alloc(&validate_cb, (struct anonymous$3 *)(void *)0, (void *)&depth);
-    yajl_config(hand, (enum anonymous$4)yajl_allow_comments, 1);
+    hand=yajl_alloc(&validate_cb, (struct anonymous_3 *)(void *)0, (void *)&depth);
+    yajl_config(hand, (enum anonymous_4)yajl_allow_comments, 1);
     do
     {
-      return_value_strnlen$2=strnlen(iptr, (unsigned long int)16384);
-      count = (signed int)return_value_strnlen$2;
+      return_value_strnlen_2=strnlen(iptr, (unsigned long int)16384);
+      count = (signed int)return_value_strnlen_2;
       if(!(count >= 1))
         break;
 
-      enum anonymous$27 return_value_yajl_parse$3;
-      return_value_yajl_parse$3=yajl_parse(hand, (unsigned char *)iptr, (unsigned long int)count);
-      if(!((signed int)return_value_yajl_parse$3 == yajl_status_ok))
+      enum anonymous_27 return_value_yajl_parse_3;
+      return_value_yajl_parse_3=yajl_parse(hand, (unsigned char *)iptr, (unsigned long int)count);
+      if(!((signed int)return_value_yajl_parse_3 == yajl_status_ok))
       {
         show_json_error(db, "JSON parsing failed");
         result = -1;
@@ -10585,9 +10585,9 @@ signed long int wg_check_json(void *db, char *buf)
       iptr = iptr + (signed long int)count;
     }
     while((_Bool)1);
-    enum anonymous$27 return_value_yajl_complete_parse$4;
-    return_value_yajl_complete_parse$4=yajl_complete_parse(hand);
-    if(!((signed int)return_value_yajl_complete_parse$4 == yajl_status_ok))
+    enum anonymous_27 return_value_yajl_complete_parse_4;
+    return_value_yajl_complete_parse_4=yajl_complete_parse(hand);
+    if(!((signed int)return_value_yajl_complete_parse_4 == yajl_status_ok))
     {
       show_json_error(db, "JSON parsing failed");
       result = -1;
@@ -10621,9 +10621,9 @@ void wg_cleanup_handle_logdata(void *db)
 // file dbindex.c line 2377
 signed long int wg_column_to_index_id(void *db, signed long int column, signed long int type, signed long int *matchrec, signed long int reclen)
 {
-  signed long int return_value_wg_multi_column_to_index_id$1;
-  return_value_wg_multi_column_to_index_id$1=wg_multi_column_to_index_id(db, &column, (signed long int)1, type, matchrec, reclen);
-  return return_value_wg_multi_column_to_index_id$1;
+  signed long int return_value_wg_multi_column_to_index_id_1;
+  return_value_wg_multi_column_to_index_id_1=wg_multi_column_to_index_id(db, &column, (signed long int)1, type, matchrec, reclen);
+  return return_value_wg_multi_column_to_index_id_1;
 }
 
 // wg_compare
@@ -10641,47 +10641,47 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
       if(typea >= 11l)
       {
         signed long int deca;
-        signed long int wg_compare$$1$$1$$1$$1$$decb;
+        signed long int wg_compare__1__1__1__1__decb;
         if(typea == 11l)
         {
-          signed int return_value_wg_decode_date$1;
-          return_value_wg_decode_date$1=wg_decode_date(db, a);
-          deca = (signed long int)return_value_wg_decode_date$1;
-          signed int return_value_wg_decode_date$2;
-          return_value_wg_decode_date$2=wg_decode_date(db, b);
-          wg_compare$$1$$1$$1$$1$$decb = (signed long int)return_value_wg_decode_date$2;
+          signed int return_value_wg_decode_date_1;
+          return_value_wg_decode_date_1=wg_decode_date(db, a);
+          deca = (signed long int)return_value_wg_decode_date_1;
+          signed int return_value_wg_decode_date_2;
+          return_value_wg_decode_date_2=wg_decode_date(db, b);
+          wg_compare__1__1__1__1__decb = (signed long int)return_value_wg_decode_date_2;
         }
 
         else
           if(typea == 12l)
           {
-            signed int return_value_wg_decode_time$3;
-            return_value_wg_decode_time$3=wg_decode_time(db, a);
-            deca = (signed long int)return_value_wg_decode_time$3;
-            signed int return_value_wg_decode_time$4;
-            return_value_wg_decode_time$4=wg_decode_time(db, b);
-            wg_compare$$1$$1$$1$$1$$decb = (signed long int)return_value_wg_decode_time$4;
+            signed int return_value_wg_decode_time_3;
+            return_value_wg_decode_time_3=wg_decode_time(db, a);
+            deca = (signed long int)return_value_wg_decode_time_3;
+            signed int return_value_wg_decode_time_4;
+            return_value_wg_decode_time_4=wg_decode_time(db, b);
+            wg_compare__1__1__1__1__decb = (signed long int)return_value_wg_decode_time_4;
           }
 
           else
             if(typea == 14l)
             {
               deca=wg_decode_var(db, a);
-              wg_compare$$1$$1$$1$$1$$decb=wg_decode_var(db, b);
+              wg_compare__1__1__1__1__decb=wg_decode_var(db, b);
             }
 
             else
               return (signed long int)(a > b ? 1 : -1);
-        return (signed long int)(deca > wg_compare$$1$$1$$1$$1$$decb ? 1 : -1);
+        return (signed long int)(deca > wg_compare__1__1__1__1__decb ? 1 : -1);
       }
 
       else
       {
-        double wg_compare$$1$$1$$1$$2$$deca;
-        double wg_compare$$1$$1$$1$$2$$decb;
-        wg_compare$$1$$1$$1$$2$$deca=wg_decode_fixpoint(db, a);
-        wg_compare$$1$$1$$1$$2$$decb=wg_decode_fixpoint(db, b);
-        return (signed long int)(wg_compare$$1$$1$$1$$2$$deca > wg_compare$$1$$1$$1$$2$$decb ? 1 : -1);
+        double wg_compare__1__1__1__2__deca;
+        double wg_compare__1__1__1__2__decb;
+        wg_compare__1__1__1__2__deca=wg_decode_fixpoint(db, a);
+        wg_compare__1__1__1__2__decb=wg_decode_fixpoint(db, b);
+        return (signed long int)(wg_compare__1__1__1__2__deca > wg_compare__1__1__1__2__decb ? 1 : -1);
       }
     }
 
@@ -10690,24 +10690,24 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
       {
         if(typea == 2l)
         {
-          void *wg_compare$$1$$1$$2$$1$$deca;
+          void *wg_compare__1__1__2__1__deca;
           void *decb;
-          wg_compare$$1$$1$$2$$1$$deca=wg_decode_record(db, a);
+          wg_compare__1__1__2__1__deca=wg_decode_record(db, a);
           decb=wg_decode_record(db, b);
           if(depth == 0)
-            return (signed long int)((signed long int)wg_compare$$1$$1$$2$$1$$deca > (signed long int)decb ? 1 : -1);
+            return (signed long int)((signed long int)wg_compare__1__1__2__1__deca > (signed long int)decb ? 1 : -1);
 
           else
           {
             signed int i;
             signed int lena;
-            signed long int return_value_wg_get_record_len$5;
-            return_value_wg_get_record_len$5=wg_get_record_len(db, wg_compare$$1$$1$$2$$1$$deca);
-            lena = (signed int)return_value_wg_get_record_len$5;
+            signed long int return_value_wg_get_record_len_5;
+            return_value_wg_get_record_len_5=wg_get_record_len(db, wg_compare__1__1__2__1__deca);
+            lena = (signed int)return_value_wg_get_record_len_5;
             signed int lenb;
-            signed long int return_value_wg_get_record_len$6;
-            return_value_wg_get_record_len$6=wg_get_record_len(db, decb);
-            lenb = (signed int)return_value_wg_get_record_len$6;
+            signed long int return_value_wg_get_record_len_6;
+            return_value_wg_get_record_len_6=wg_get_record_len(db, decb);
+            lenb = (signed int)return_value_wg_get_record_len_6;
             if(!(lena == lenb))
               return (signed long int)(lena > lenb ? 1 : -1);
 
@@ -10715,7 +10715,7 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
             for( ; !(i >= lena); i = i + 1)
             {
               signed long int elema;
-              elema=wg_get_field(db, wg_compare$$1$$1$$2$$1$$deca, (signed long int)i);
+              elema=wg_get_field(db, wg_compare__1__1__2__1__deca, (signed long int)i);
               signed long int elemb;
               elemb=wg_get_field(db, decb, (signed long int)i);
               if(!(elema == elemb))
@@ -10735,41 +10735,41 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
         else
           if(typea == 3l)
           {
-            signed long int wg_compare$$1$$1$$2$$2$$deca;
-            signed long int wg_compare$$1$$1$$2$$2$$decb;
-            wg_compare$$1$$1$$2$$2$$deca=wg_decode_int(db, a);
-            wg_compare$$1$$1$$2$$2$$decb=wg_decode_int(db, b);
-            if(wg_compare$$1$$1$$2$$2$$deca == wg_compare$$1$$1$$2$$2$$decb)
+            signed long int wg_compare__1__1__2__2__deca;
+            signed long int wg_compare__1__1__2__2__decb;
+            wg_compare__1__1__2__2__deca=wg_decode_int(db, a);
+            wg_compare__1__1__2__2__decb=wg_decode_int(db, b);
+            if(wg_compare__1__1__2__2__deca == wg_compare__1__1__2__2__decb)
               return (signed long int)0;
 
-            return (signed long int)(wg_compare$$1$$1$$2$$2$$deca > wg_compare$$1$$1$$2$$2$$decb ? 1 : -1);
+            return (signed long int)(wg_compare__1__1__2__2__deca > wg_compare__1__1__2__2__decb ? 1 : -1);
           }
 
           else
           {
-            double wg_compare$$1$$1$$2$$3$$deca;
-            double wg_compare$$1$$1$$2$$3$$decb;
-            wg_compare$$1$$1$$2$$3$$deca=wg_decode_double(db, a);
-            wg_compare$$1$$1$$2$$3$$decb=wg_decode_double(db, b);
-            if(IEEE_FLOAT_EQUAL(wg_compare$$1$$1$$2$$3$$deca, wg_compare$$1$$1$$2$$3$$decb))
+            double wg_compare__1__1__2__3__deca;
+            double wg_compare__1__1__2__3__decb;
+            wg_compare__1__1__2__3__deca=wg_decode_double(db, a);
+            wg_compare__1__1__2__3__decb=wg_decode_double(db, b);
+            if(IEEE_FLOAT_EQUAL(wg_compare__1__1__2__3__deca, wg_compare__1__1__2__3__decb))
               return (signed long int)0;
 
-            return (signed long int)(wg_compare$$1$$1$$2$$3$$deca > wg_compare$$1$$1$$2$$3$$decb ? 1 : -1);
+            return (signed long int)(wg_compare__1__1__2__3__deca > wg_compare__1__1__2__3__decb ? 1 : -1);
           }
       }
 
       else
       {
-        char *wg_compare$$1$$1$$3$$deca;
-        char *wg_compare$$1$$1$$3$$decb;
+        char *wg_compare__1__1__3__deca;
+        char *wg_compare__1__1__3__decb;
         char *exa = (char *)(void *)0;
         char *exb = (char *)(void *)0;
         char buf[4l];
         signed long int res;
         if(typea == 5l)
         {
-          wg_compare$$1$$1$$3$$deca=wg_decode_str(db, a);
-          wg_compare$$1$$1$$3$$decb=wg_decode_str(db, b);
+          wg_compare__1__1__3__deca=wg_decode_str(db, a);
+          wg_compare__1__1__3__decb=wg_decode_str(db, b);
         }
 
         else
@@ -10777,8 +10777,8 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
           {
             exa=wg_decode_uri_prefix(db, a);
             exb=wg_decode_uri_prefix(db, b);
-            wg_compare$$1$$1$$3$$deca=wg_decode_uri(db, a);
-            wg_compare$$1$$1$$3$$decb=wg_decode_uri(db, b);
+            wg_compare__1__1__3__deca=wg_decode_uri(db, a);
+            wg_compare__1__1__3__decb=wg_decode_uri(db, b);
           }
 
           else
@@ -10786,8 +10786,8 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
             {
               exa=wg_decode_xmlliteral_xsdtype(db, a);
               exb=wg_decode_xmlliteral_xsdtype(db, b);
-              wg_compare$$1$$1$$3$$deca=wg_decode_xmlliteral(db, a);
-              wg_compare$$1$$1$$3$$decb=wg_decode_xmlliteral(db, b);
+              wg_compare__1__1__3__deca=wg_decode_xmlliteral(db, a);
+              wg_compare__1__1__3__decb=wg_decode_xmlliteral(db, b);
             }
 
             else
@@ -10797,14 +10797,14 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
                 buf[(signed long int)1] = (char)0;
                 buf[(signed long int)2]=wg_decode_char(db, b);
                 buf[(signed long int)3] = (char)0;
-                wg_compare$$1$$1$$3$$deca = buf;
-                wg_compare$$1$$1$$3$$decb = &buf[(signed long int)2];
+                wg_compare__1__1__3__deca = buf;
+                wg_compare__1__1__3__decb = &buf[(signed long int)2];
               }
 
               else
               {
-                wg_compare$$1$$1$$3$$deca=wg_decode_blob(db, a);
-                wg_compare$$1$$1$$3$$decb=wg_decode_blob(db, b);
+                wg_compare__1__1__3__deca=wg_decode_blob(db, a);
+                wg_compare__1__1__3__decb=wg_decode_blob(db, b);
               }
         if(!(exa == ((char *)NULL)) || !(exb == ((char *)NULL)))
         {
@@ -10825,9 +10825,9 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
 
             else
             {
-              signed int return_value_strcmp$7;
-              return_value_strcmp$7=strcmp(exa, exb);
-              res = (signed long int)return_value_strcmp$7;
+              signed int return_value_strcmp_7;
+              return_value_strcmp_7=strcmp(exa, exb);
+              res = (signed long int)return_value_strcmp_7;
               if(res >= 1l)
                 return (signed long int)1;
 
@@ -10840,27 +10840,27 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
 
         if(typea == 8l)
         {
-          signed int wg_compare$$1$$1$$3$$7$$lena;
-          signed long int return_value_wg_decode_blob_len$8;
-          return_value_wg_decode_blob_len$8=wg_decode_blob_len(db, a);
-          wg_compare$$1$$1$$3$$7$$lena = (signed int)return_value_wg_decode_blob_len$8;
-          signed int wg_compare$$1$$1$$3$$7$$lenb;
-          signed long int return_value_wg_decode_blob_len$9;
-          return_value_wg_decode_blob_len$9=wg_decode_blob_len(db, b);
-          wg_compare$$1$$1$$3$$7$$lenb = (signed int)return_value_wg_decode_blob_len$9;
-          signed int return_value_memcmp$10;
-          return_value_memcmp$10=memcmp((const void *)wg_compare$$1$$1$$3$$deca, (const void *)wg_compare$$1$$1$$3$$decb, (unsigned long int)(wg_compare$$1$$1$$3$$7$$lena < wg_compare$$1$$1$$3$$7$$lenb ? wg_compare$$1$$1$$3$$7$$lena : wg_compare$$1$$1$$3$$7$$lenb));
-          res = (signed long int)return_value_memcmp$10;
+          signed int wg_compare__1__1__3__7__lena;
+          signed long int return_value_wg_decode_blob_len_8;
+          return_value_wg_decode_blob_len_8=wg_decode_blob_len(db, a);
+          wg_compare__1__1__3__7__lena = (signed int)return_value_wg_decode_blob_len_8;
+          signed int wg_compare__1__1__3__7__lenb;
+          signed long int return_value_wg_decode_blob_len_9;
+          return_value_wg_decode_blob_len_9=wg_decode_blob_len(db, b);
+          wg_compare__1__1__3__7__lenb = (signed int)return_value_wg_decode_blob_len_9;
+          signed int return_value_memcmp_10;
+          return_value_memcmp_10=memcmp((const void *)wg_compare__1__1__3__deca, (const void *)wg_compare__1__1__3__decb, (unsigned long int)(wg_compare__1__1__3__7__lena < wg_compare__1__1__3__7__lenb ? wg_compare__1__1__3__7__lena : wg_compare__1__1__3__7__lenb));
+          res = (signed long int)return_value_memcmp_10;
           if(res == 0l)
-            res = (signed long int)(wg_compare$$1$$1$$3$$7$$lena - wg_compare$$1$$1$$3$$7$$lenb);
+            res = (signed long int)(wg_compare__1__1__3__7__lena - wg_compare__1__1__3__7__lenb);
 
         }
 
         else
         {
-          signed int return_value_strcmp$11;
-          return_value_strcmp$11=strcmp(wg_compare$$1$$1$$3$$deca, wg_compare$$1$$1$$3$$decb);
-          res = (signed long int)return_value_strcmp$11;
+          signed int return_value_strcmp_11;
+          return_value_strcmp_11=strcmp(wg_compare__1__1__3__deca, wg_compare__1__1__3__decb);
+          res = (signed long int)return_value_strcmp_11;
         }
         if(res >= 1l)
           return (signed long int)1;
@@ -10882,13 +10882,13 @@ signed long int wg_compare(void *db, signed long int a, signed long int b, signe
 // file dblock.h line 80
 signed long int wg_compare_and_swap(volatile signed long int *ptr, signed long int oldv, signed long int newv)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1;
+  _Bool return_value___sync_bool_compare_and_swap_1;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1 = *ptr == oldv;
+  return_value___sync_bool_compare_and_swap_1 = *ptr == oldv;
   *ptr = *ptr == oldv ? newv : *ptr;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed long int)return_value___sync_bool_compare_and_swap$1;
+  return (signed long int)return_value___sync_bool_compare_and_swap_1;
 }
 
 // wg_create_array
@@ -10913,9 +10913,9 @@ void * wg_create_array(void *db, signed long int size, signed long int isdocumen
     *metap = meta;
     if(isparam == 0l)
     {
-      signed long int return_value_wg_index_add_rec$1;
-      return_value_wg_index_add_rec$1=wg_index_add_rec(db, rec);
-      if(!(return_value_wg_index_add_rec$1 >= -1l))
+      signed long int return_value_wg_index_add_rec_1;
+      return_value_wg_index_add_rec_1=wg_index_add_rec(db, rec);
+      if(!(return_value_wg_index_add_rec_1 >= -1l))
         return (void *)0;
 
     }
@@ -10932,13 +10932,13 @@ signed long int wg_create_hash(void *db, struct _db_hash_area_header *areah, sig
   if(!(size >= 1l))
     size = (signed long int)10000;
 
-  signed long int return_value_init_hash_subarea$2;
-  return_value_init_hash_subarea$2=init_hash_subarea(db, areah, size);
-  if(!(return_value_init_hash_subarea$2 == 0l))
+  signed long int return_value_init_hash_subarea_2;
+  return_value_init_hash_subarea_2=init_hash_subarea(db, areah, size);
+  if(!(return_value_init_hash_subarea_2 == 0l))
   {
-    signed long int return_value_show_dballoc_error$1;
-    return_value_show_dballoc_error$1=show_dballoc_error(db, " cannot create strhash array area");
-    return return_value_show_dballoc_error$1;
+    signed long int return_value_show_dballoc_error_1;
+    return_value_show_dballoc_error_1=show_dballoc_error(db, " cannot create strhash array area");
+    return return_value_show_dballoc_error_1;
   }
 
   return (signed long int)0;
@@ -10948,9 +10948,9 @@ signed long int wg_create_hash(void *db, struct _db_hash_area_header *areah, sig
 // file dbindex.c line 2024
 signed long int wg_create_index(void *db, signed long int column, signed long int type, signed long int *matchrec, signed long int reclen)
 {
-  signed long int return_value_wg_create_multi_index$1;
-  return_value_wg_create_multi_index$1=wg_create_multi_index(db, &column, (signed long int)1, type, matchrec, reclen);
-  return return_value_wg_create_multi_index$1;
+  signed long int return_value_wg_create_multi_index_1;
+  return_value_wg_create_multi_index_1=wg_create_multi_index(db, &column, (signed long int)1, type, matchrec, reclen);
+  return return_value_wg_create_multi_index_1;
 }
 
 // wg_create_mpool
@@ -10959,16 +10959,16 @@ void * wg_create_mpool(void *db, signed int origbytes)
 {
   signed int bytes;
   void *mpool;
-  struct anonymous$8 *mpoolh;
+  struct anonymous_8 *mpoolh;
   signed int puresize;
   void *nextptr;
   signed int i;
   if(!(origbytes >= 4))
-    bytes = (signed int)(sizeof(struct anonymous$8) /*2416ul*/  + (unsigned long int)1024 + (unsigned long int)4);
+    bytes = (signed int)(sizeof(struct anonymous_8) /*2416ul*/  + (unsigned long int)1024 + (unsigned long int)4);
 
   else
-    bytes = (signed int)(sizeof(struct anonymous$8) /*2416ul*/  + (unsigned long int)origbytes + (unsigned long int)4);
-  puresize = (signed int)((unsigned long int)bytes - sizeof(struct anonymous$8) /*2416ul*/ );
+    bytes = (signed int)(sizeof(struct anonymous_8) /*2416ul*/  + (unsigned long int)origbytes + (unsigned long int)4);
+  puresize = (signed int)((unsigned long int)bytes - sizeof(struct anonymous_8) /*2416ul*/ );
   mpool=malloc((unsigned long int)bytes);
   if(mpool == NULL)
   {
@@ -10978,8 +10978,8 @@ void * wg_create_mpool(void *db, signed int origbytes)
 
   else
   {
-    mpoolh = (struct anonymous$8 *)mpool;
-    nextptr = (void *)((char *)mpool + (signed long int)sizeof(struct anonymous$8) /*2416ul*/ );
+    mpoolh = (struct anonymous_8 *)mpool;
+    nextptr = (void *)((char *)mpool + (signed long int)sizeof(struct anonymous_8) /*2416ul*/ );
     i = (signed int)((unsigned long int)nextptr % (unsigned long int)4);
     if(!(i == 0))
       nextptr = (void *)((char *)nextptr + (signed long int)(4 - i));
@@ -10999,22 +10999,22 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
 {
   signed long int index_id;
   signed long int template_offset = (signed long int)0;
-  signed long int wg_create_multi_index$$1$$i;
-  struct anonymous$21 *hdr;
-  struct anonymous$22 *tmpl = (struct anonymous$22 *)(void *)0;
+  signed long int wg_create_multi_index__1__i;
+  struct anonymous_21 *hdr;
+  struct anonymous_22 *tmpl = (struct anonymous_22 *)(void *)0;
   signed long int fixed_columns = (signed long int)0;
   signed long int *ilist[10l];
   signed long int sorted_cols[10l];
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  signed long int return_value_wg_get_encoded_type$3;
-  signed long int return_value_create_hash_index$5;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  signed long int return_value_wg_get_encoded_type_3;
+  signed long int return_value_create_hash_index_5;
+  if(!tmp_if_expr_1)
   {
     show_index_error(db, "Invalid database pointer in wg_create_multi_index");
     return (signed long int)-1;
@@ -11049,9 +11049,9 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
             return (signed long int)-1;
           }
 
-      signed long int return_value_sort_columns$2;
-      return_value_sort_columns$2=sort_columns(sorted_cols, columns, col_count);
-      if(!(return_value_sort_columns$2 >= col_count))
+      signed long int return_value_sort_columns_2;
+      return_value_sort_columns_2=sort_columns(sorted_cols, columns, col_count);
+      if(!(return_value_sort_columns_2 >= col_count))
       {
         show_index_error(db, "Duplicate columns not allowed");
         return (signed long int)-1;
@@ -11059,9 +11059,9 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
 
       else
       {
-        wg_create_multi_index$$1$$i = (signed long int)0;
-        for( ; !(wg_create_multi_index$$1$$i >= col_count); wg_create_multi_index$$1$$i = wg_create_multi_index$$1$$i + 1l)
-          if(sorted_cols[wg_create_multi_index$$1$$i] >= 128l)
+        wg_create_multi_index__1__i = (signed long int)0;
+        for( ; !(wg_create_multi_index__1__i >= col_count); wg_create_multi_index__1__i = wg_create_multi_index__1__i + 1l)
+          if(sorted_cols[wg_create_multi_index__1__i] >= 128l)
           {
             show_index_error_nr(db, "Max allowed column number", (signed long int)127);
             return (signed long int)-1;
@@ -11081,12 +11081,12 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
             return (signed long int)-1;
           }
 
-          wg_create_multi_index$$1$$i = (signed long int)0;
-          for( ; !(wg_create_multi_index$$1$$i >= col_count); wg_create_multi_index$$1$$i = wg_create_multi_index$$1$$i + 1l)
-            if(!(sorted_cols[wg_create_multi_index$$1$$i] >= reclen))
+          wg_create_multi_index__1__i = (signed long int)0;
+          for( ; !(wg_create_multi_index__1__i >= col_count); wg_create_multi_index__1__i = wg_create_multi_index__1__i + 1l)
+            if(!(sorted_cols[wg_create_multi_index__1__i] >= reclen))
             {
-              return_value_wg_get_encoded_type$3=wg_get_encoded_type(db, matchrec[sorted_cols[wg_create_multi_index$$1$$i]]);
-              if(!(return_value_wg_get_encoded_type$3 == 14l))
+              return_value_wg_get_encoded_type_3=wg_get_encoded_type(db, matchrec[sorted_cols[wg_create_multi_index__1__i]]);
+              if(!(return_value_wg_get_encoded_type_3 == 14l))
               {
                 show_index_error(db, "Indexed column not allowed in template");
                 return (signed long int)-1;
@@ -11101,26 +11101,26 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
             return (signed long int)-1;
           }
 
-          tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + template_offset);
+          tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + template_offset);
           fixed_columns = tmpl->fixed_columns;
         }
 
-        wg_create_multi_index$$1$$i = (signed long int)0;
-        for( ; !(wg_create_multi_index$$1$$i >= col_count); wg_create_multi_index$$1$$i = wg_create_multi_index$$1$$i + 1l)
+        wg_create_multi_index__1__i = (signed long int)0;
+        for( ; !(wg_create_multi_index__1__i >= col_count); wg_create_multi_index__1__i = wg_create_multi_index__1__i + 1l)
         {
-          signed long int column = sorted_cols[wg_create_multi_index$$1$$i];
-          ilist[wg_create_multi_index$$1$$i] = &dbh->index_control_area_header.index_table[column];
-          while(!(*ilist[wg_create_multi_index$$1$$i] == 0l))
+          signed long int column = sorted_cols[wg_create_multi_index__1__i];
+          ilist[wg_create_multi_index__1__i] = &dbh->index_control_area_header.index_table[column];
+          while(!(*ilist[wg_create_multi_index__1__i] == 0l))
           {
-            struct anonymous$20 *ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist[wg_create_multi_index$$1$$i]);
+            struct anonymous_20 *ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist[wg_create_multi_index__1__i]);
             if(ilistelem->car == 0l)
             {
               show_index_error(db, "Invalid header in index list");
               return (signed long int)-1;
             }
 
-            hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
-            if(wg_create_multi_index$$1$$i == 0l)
+            hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
+            if(wg_create_multi_index__1__i == 0l)
             {
               if(hdr->type == type)
               {
@@ -11154,7 +11154,7 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
 
             if(!(hdr->template_offset == 0l))
             {
-              struct anonymous$22 *t = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset);
+              struct anonymous_22 *t = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset);
               if(!(t->fixed_columns >= fixed_columns))
                 break;
 
@@ -11164,18 +11164,18 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
               if(!(fixed_columns == 0l))
                 break;
 
-            ilist[wg_create_multi_index$$1$$i] = &ilistelem->cdr;
+            ilist[wg_create_multi_index__1__i] = &ilistelem->cdr;
           }
         }
         index_id=wg_alloc_fixlen_object(db, (void *)&dbh->indexhdr_area_header);
-        wg_create_multi_index$$1$$i = (signed long int)0;
-        for( ; !(wg_create_multi_index$$1$$i >= col_count); wg_create_multi_index$$1$$i = wg_create_multi_index$$1$$i + 1l)
+        wg_create_multi_index__1__i = (signed long int)0;
+        for( ; !(wg_create_multi_index__1__i >= col_count); wg_create_multi_index__1__i = wg_create_multi_index__1__i + 1l)
         {
-          signed long int return_value_insert_into_list$4;
-          return_value_insert_into_list$4=insert_into_list(db, ilist[wg_create_multi_index$$1$$i], index_id);
-          if(return_value_insert_into_list$4 == 0l)
+          signed long int return_value_insert_into_list_4;
+          return_value_insert_into_list_4=insert_into_list(db, ilist[wg_create_multi_index__1__i], index_id);
+          if(return_value_insert_into_list_4 == 0l)
           {
-            if(!(wg_create_multi_index$$1$$i == 0l))
+            if(!(wg_create_multi_index__1__i == 0l))
               return (signed long int)-1;
 
             else
@@ -11183,12 +11183,12 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
           }
 
         }
-        hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+        hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
         hdr->type = type;
         hdr->fields = col_count;
-        wg_create_multi_index$$1$$i = (signed long int)0;
-        for( ; !(wg_create_multi_index$$1$$i >= col_count); wg_create_multi_index$$1$$i = wg_create_multi_index$$1$$i + 1l)
-          hdr->rec_field_index[wg_create_multi_index$$1$$i] = sorted_cols[wg_create_multi_index$$1$$i];
+        wg_create_multi_index__1__i = (signed long int)0;
+        for( ; !(wg_create_multi_index__1__i >= col_count); wg_create_multi_index__1__i = wg_create_multi_index__1__i + 1l)
+          hdr->rec_field_index[wg_create_multi_index__1__i] = sorted_cols[wg_create_multi_index__1__i];
         hdr->template_offset = template_offset;
         switch(hdr->type)
         {
@@ -11201,8 +11201,8 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
 
           case (signed long int)61:
           {
-            return_value_create_hash_index$5=create_hash_index(db, index_id);
-            if(!(return_value_create_hash_index$5 == 0l))
+            return_value_create_hash_index_5=create_hash_index(db, index_id);
+            if(!(return_value_create_hash_index_5 == 0l))
               return (signed long int)-1;
 
             break;
@@ -11215,9 +11215,9 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
             return (signed long int)-1;
           }
         }
-        signed long int return_value_insert_into_list$6;
-        return_value_insert_into_list$6=insert_into_list(db, &dbh->index_control_area_header.index_list, index_id);
-        if(return_value_insert_into_list$6 == 0l)
+        signed long int return_value_insert_into_list_6;
+        return_value_insert_into_list_6=insert_into_list(db, &dbh->index_control_area_header.index_list, index_id);
+        if(return_value_insert_into_list_6 == 0l)
           return (signed long int)-1;
 
         else
@@ -11227,13 +11227,13 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
             signed int i = 0;
             for( ; !((signed long int)i >= reclen); i = i + 1)
             {
-              signed long int return_value_wg_get_encoded_type$8;
-              return_value_wg_get_encoded_type$8=wg_get_encoded_type(db, matchrec[(signed long int)i]);
-              if(!(return_value_wg_get_encoded_type$8 == 14l))
+              signed long int return_value_wg_get_encoded_type_8;
+              return_value_wg_get_encoded_type_8=wg_get_encoded_type(db, matchrec[(signed long int)i]);
+              if(!(return_value_wg_get_encoded_type_8 == 14l))
               {
-                signed long int return_value_insert_into_list$7;
-                return_value_insert_into_list$7=insert_into_list(db, &dbh->index_control_area_header.index_template_table[(signed long int)i], index_id);
-                if(return_value_insert_into_list$7 == 0l)
+                signed long int return_value_insert_into_list_7;
+                return_value_insert_into_list_7=insert_into_list(db, &dbh->index_control_area_header.index_template_table[(signed long int)i], index_id);
+                if(return_value_insert_into_list_7 == 0l)
                   return (signed long int)0;
 
               }
@@ -11242,7 +11242,7 @@ signed long int wg_create_multi_index(void *db, signed long int *columns, signed
           }
 
           dbh->index_control_area_header.number_of_indexes = dbh->index_control_area_header.number_of_indexes + 1l;
-          if(!(tmpl == ((struct anonymous$22 *)NULL)))
+          if(!(tmpl == ((struct anonymous_22 *)NULL)))
             tmpl->refcount = tmpl->refcount + 1l;
 
           return (signed long int)0;
@@ -11273,9 +11273,9 @@ void * wg_create_object(void *db, signed long int size, signed long int isdocume
     *metap = meta;
     if(isparam == 0l)
     {
-      signed long int return_value_wg_index_add_rec$1;
-      return_value_wg_index_add_rec$1=wg_index_add_rec(db, rec);
-      if(!(return_value_wg_index_add_rec$1 >= -1l))
+      signed long int return_value_wg_index_add_rec_1;
+      return_value_wg_index_add_rec_1=wg_index_add_rec(db, rec);
+      if(!(return_value_wg_index_add_rec_1 >= -1l))
         return (void *)0;
 
     }
@@ -11291,13 +11291,13 @@ void * wg_create_raw_record(void *db, signed long int length)
 {
   signed long int offset;
   signed long int i;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error_nr(db, "wrong database pointer given to wg_create_record with length ", length);
     return NULL;
@@ -11312,7 +11312,7 @@ void * wg_create_raw_record(void *db, signed long int length)
 
     else
     {
-      offset=wg_alloc_gints(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->datarec_area_header, length + (signed long int)3);
+      offset=wg_alloc_gints(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->datarec_area_header, length + (signed long int)3);
       if(offset == 0l)
       {
         show_data_error_nr(db, "cannot create a record of size ", length);
@@ -11321,12 +11321,12 @@ void * wg_create_raw_record(void *db, signed long int length)
 
       else
       {
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
         i = (signed long int)3;
         for( ; !(i >= 3l + length); i = i + 1l)
-          *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)i * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-        return (void *)((char *)((struct anonymous$6 *)db)->db + offset);
+          *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)offset + (unsigned long int)i * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+        return (void *)((char *)((struct anonymous_6 *)db)->db + offset);
       }
     }
 }
@@ -11339,9 +11339,9 @@ void * wg_create_record(void *db, signed long int length)
   rec=wg_create_raw_record(db, length);
   if(!(rec == NULL))
   {
-    signed long int return_value_wg_index_add_rec$1;
-    return_value_wg_index_add_rec$1=wg_index_add_rec(db, rec);
-    if(!(return_value_wg_index_add_rec$1 >= -1l))
+    signed long int return_value_wg_index_add_rec_1;
+    return_value_wg_index_add_rec_1=wg_index_add_rec(db, rec);
+    if(!(return_value_wg_index_add_rec_1 >= -1l))
       return (void *)0;
 
   }
@@ -11356,7 +11356,7 @@ void * wg_create_triple(void *db, signed long int subj, signed long int prop, si
   void *rec;
   rec=wg_create_raw_record(db, (signed long int)3);
   signed long int *meta;
-  signed long int return_value_wg_index_add_rec$1;
+  signed long int return_value_wg_index_add_rec_1;
   if(!(rec == NULL))
   {
     meta = (signed long int *)rec + (signed long int)1;
@@ -11365,24 +11365,24 @@ void * wg_create_triple(void *db, signed long int subj, signed long int prop, si
 
     else
     {
-      return_value_wg_index_add_rec$1=wg_index_add_rec(db, rec);
-      if(!(return_value_wg_index_add_rec$1 >= -1l))
+      return_value_wg_index_add_rec_1=wg_index_add_rec(db, rec);
+      if(!(return_value_wg_index_add_rec_1 >= -1l))
         return (void *)0;
 
     }
-    signed long int return_value_wg_set_field$2;
-    return_value_wg_set_field$2=wg_set_field(db, rec, (signed long int)0, subj);
-    if(!(return_value_wg_set_field$2 == 0l))
+    signed long int return_value_wg_set_field_2;
+    return_value_wg_set_field_2=wg_set_field(db, rec, (signed long int)0, subj);
+    if(!(return_value_wg_set_field_2 == 0l))
       return (void *)0;
 
-    signed long int return_value_wg_set_field$3;
-    return_value_wg_set_field$3=wg_set_field(db, rec, (signed long int)(0 + 1), prop);
-    if(!(return_value_wg_set_field$3 == 0l))
+    signed long int return_value_wg_set_field_3;
+    return_value_wg_set_field_3=wg_set_field(db, rec, (signed long int)(0 + 1), prop);
+    if(!(return_value_wg_set_field_3 == 0l))
       return (void *)0;
 
-    signed long int return_value_wg_set_field$4;
-    return_value_wg_set_field$4=wg_set_field(db, rec, (signed long int)(0 + 2), ob);
-    if(!(return_value_wg_set_field$4 == 0l))
+    signed long int return_value_wg_set_field_4;
+    return_value_wg_set_field_4=wg_set_field(db, rec, (signed long int)(0 + 2), ob);
+    if(!(return_value_wg_set_field_4 == 0l))
       return (void *)0;
 
   }
@@ -11399,9 +11399,9 @@ signed int wg_current_localdate(void *db)
   struct tm ctime;
   esecs=time((signed long int *)(void *)0);
   localtime_r(&esecs, &ctime);
-  signed long int return_value_ymd_to_scalar$1;
-  return_value_ymd_to_scalar$1=ymd_to_scalar((unsigned int)(ctime.tm_year + 1900), (unsigned int)(ctime.tm_mon + 1), (unsigned int)ctime.tm_mday);
-  res = (signed int)return_value_ymd_to_scalar$1;
+  signed long int return_value_ymd_to_scalar_1;
+  return_value_ymd_to_scalar_1=ymd_to_scalar((unsigned int)(ctime.tm_year + 1900), (unsigned int)(ctime.tm_mon + 1), (unsigned int)ctime.tm_mday);
+  res = (signed int)return_value_ymd_to_scalar_1;
   return res;
 }
 
@@ -11454,7 +11454,7 @@ signed int wg_current_utctime(void *db)
 // file dballoc.c line 1404
 signed long int wg_database_freesize(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int freesize = dbh->size - dbh->free;
   return freesize < (signed long int)8192 ? (signed long int)0 : freesize;
 }
@@ -11463,7 +11463,7 @@ signed long int wg_database_freesize(void *db)
 // file dballoc.c line 1413
 signed long int wg_database_size(void *db)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   return dbh->size;
 }
 
@@ -11484,13 +11484,13 @@ void wg_date_to_ymd(void *db, signed int date, signed int *yr, signed int *mo, s
 // file dbdata.c line 2410
 char * wg_decode_anonconst(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_anonconst");
     return (char *)(void *)0;
@@ -11505,9 +11505,9 @@ char * wg_decode_anonconst(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr$2;
-      return_value_wg_decode_unistr$2=wg_decode_unistr(db, data, (signed long int)7);
-      return return_value_wg_decode_unistr$2;
+      char *return_value_wg_decode_unistr_2;
+      return_value_wg_decode_unistr_2=wg_decode_unistr(db, data, (signed long int)7);
+      return return_value_wg_decode_unistr_2;
     }
 }
 
@@ -11515,13 +11515,13 @@ char * wg_decode_anonconst(void *db, signed long int data)
 // file dbdata.h line 231
 char * wg_decode_blob(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_blob");
     return (char *)(void *)0;
@@ -11536,9 +11536,9 @@ char * wg_decode_blob(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr$2;
-      return_value_wg_decode_unistr$2=wg_decode_unistr(db, data, (signed long int)8);
-      return return_value_wg_decode_unistr$2;
+      char *return_value_wg_decode_unistr_2;
+      return_value_wg_decode_unistr_2=wg_decode_unistr(db, data, (signed long int)8);
+      return return_value_wg_decode_unistr_2;
     }
 }
 
@@ -11546,13 +11546,13 @@ char * wg_decode_blob(void *db, signed long int data)
 // file dbdata.c line 2313
 signed long int wg_decode_blob_copy(void *db, signed long int data, char *strbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_blob_copy");
     return (signed long int)-1;
@@ -11581,9 +11581,9 @@ signed long int wg_decode_blob_copy(void *db, signed long int data, char *strbuf
 
         else
         {
-          signed long int return_value_wg_decode_unistr_copy$2;
-          return_value_wg_decode_unistr_copy$2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)8);
-          return return_value_wg_decode_unistr_copy$2;
+          signed long int return_value_wg_decode_unistr_copy_2;
+          return_value_wg_decode_unistr_copy_2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)8);
+          return return_value_wg_decode_unistr_copy_2;
         }
 }
 
@@ -11591,13 +11591,13 @@ signed long int wg_decode_blob_copy(void *db, signed long int data, char *strbuf
 // file dbdata.h line 234
 signed long int wg_decode_blob_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_blob_len");
     return (signed long int)-1;
@@ -11612,9 +11612,9 @@ signed long int wg_decode_blob_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_len$2;
-      return_value_wg_decode_unistr_len$2=wg_decode_unistr_len(db, data, (signed long int)8);
-      return return_value_wg_decode_unistr_len$2 + (signed long int)1;
+      signed long int return_value_wg_decode_unistr_len_2;
+      return_value_wg_decode_unistr_len_2=wg_decode_unistr_len(db, data, (signed long int)8);
+      return return_value_wg_decode_unistr_len_2 + (signed long int)1;
     }
 }
 
@@ -11622,13 +11622,13 @@ signed long int wg_decode_blob_len(void *db, signed long int data)
 // file dbdata.c line 2336
 char * wg_decode_blob_type(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_blob_type");
     return (char *)(void *)0;
@@ -11643,9 +11643,9 @@ char * wg_decode_blob_type(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr_lang$2;
-      return_value_wg_decode_unistr_lang$2=wg_decode_unistr_lang(db, data, (signed long int)8);
-      return return_value_wg_decode_unistr_lang$2;
+      char *return_value_wg_decode_unistr_lang_2;
+      return_value_wg_decode_unistr_lang_2=wg_decode_unistr_lang(db, data, (signed long int)8);
+      return return_value_wg_decode_unistr_lang_2;
     }
 }
 
@@ -11653,13 +11653,13 @@ char * wg_decode_blob_type(void *db, signed long int data)
 // file dbdata.c line 2367
 signed long int wg_decode_blob_type_copy(void *db, signed long int data, char *langbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_blob_type_copy");
     return (signed long int)-1;
@@ -11688,9 +11688,9 @@ signed long int wg_decode_blob_type_copy(void *db, signed long int data, char *l
 
         else
         {
-          signed long int return_value_wg_decode_unistr_lang_copy$2;
-          return_value_wg_decode_unistr_lang_copy$2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)8);
-          return return_value_wg_decode_unistr_lang_copy$2;
+          signed long int return_value_wg_decode_unistr_lang_copy_2;
+          return_value_wg_decode_unistr_lang_copy_2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)8);
+          return return_value_wg_decode_unistr_lang_copy_2;
         }
 }
 
@@ -11698,13 +11698,13 @@ signed long int wg_decode_blob_type_copy(void *db, signed long int data, char *l
 // file dbdata.c line 2351
 signed long int wg_decode_blob_type_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_blob_type_len");
     return (signed long int)-1;
@@ -11719,9 +11719,9 @@ signed long int wg_decode_blob_type_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_lang_len$2;
-      return_value_wg_decode_unistr_lang_len$2=wg_decode_unistr_lang_len(db, data, (signed long int)8);
-      return return_value_wg_decode_unistr_lang_len$2;
+      signed long int return_value_wg_decode_unistr_lang_len_2;
+      return_value_wg_decode_unistr_lang_len_2=wg_decode_unistr_lang_len(db, data, (signed long int)8);
+      return return_value_wg_decode_unistr_lang_len_2;
     }
 }
 
@@ -11729,13 +11729,13 @@ signed long int wg_decode_blob_type_len(void *db, signed long int data)
 // file dbdata.h line 144
 char wg_decode_char(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_char");
     return (char)0;
@@ -11749,13 +11749,13 @@ char wg_decode_char(void *db, signed long int data)
 // file dbdata.h line 160
 signed int wg_decode_date(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_date");
     return 0;
@@ -11776,13 +11776,13 @@ signed int wg_decode_date(void *db, signed long int data)
 // file dbdata.h line 150
 double wg_decode_double(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_double");
     return (double)0;
@@ -11790,7 +11790,7 @@ double wg_decode_double(void *db, signed long int data)
 
   else
     if((7l & data) == 2l)
-      return *((double *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7)));
+      return *((double *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7)));
 
     else
     {
@@ -11803,13 +11803,13 @@ double wg_decode_double(void *db, signed long int data)
 // file dbdata.h line 155
 double wg_decode_fixpoint(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_double");
     return (double)0;
@@ -11840,9 +11840,9 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
   char *buf = (char *)(void *)0;
   char *outbuf;
   type=wg_get_encoded_type(db, enc);
-  signed long int return_value_wg_decode_int$1;
-  char return_value_wg_decode_char$4;
-  signed long int return_value_wg_decode_var$5;
+  signed long int return_value_wg_decode_int_1;
+  char return_value_wg_decode_char_4;
+  signed long int return_value_wg_decode_var_5;
   switch(type)
   {
     case (signed long int)1:
@@ -11862,8 +11862,8 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
     case (signed long int)3:
     {
       len = (signed long int)sizeof(signed int) /*4ul*/ ;
-      return_value_wg_decode_int$1=wg_decode_int(db, enc);
-      intdata = (signed int)return_value_wg_decode_int$1;
+      return_value_wg_decode_int_1=wg_decode_int(db, enc);
+      intdata = (signed int)return_value_wg_decode_int_1;
       bytedata = (char *)&intdata;
       break;
     }
@@ -11896,9 +11896,9 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
       {
         signed long int xl;
         xl=wg_decode_xmlliteral_xsdtype_len(db, enc);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)(xl + len + (signed long int)1));
-        buf = (char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)(xl + len + (signed long int)1));
+        buf = (char *)return_value_malloc_2;
         if(buf == ((char *)NULL))
           return (signed long int)0;
 
@@ -11918,19 +11918,19 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
       exdata=wg_decode_xmlliteral_xsdtype(db, enc);
       if(!(exdata == ((char *)NULL)))
       {
-        signed long int wg_decode_for_hashing$$1$$1$$2$$xl;
-        wg_decode_for_hashing$$1$$1$$2$$xl=wg_decode_xmlliteral_xsdtype_len(db, enc);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)(wg_decode_for_hashing$$1$$1$$2$$xl + len + (signed long int)1));
-        buf = (char *)return_value_malloc$3;
+        signed long int wg_decode_for_hashing__1__1__2__xl;
+        wg_decode_for_hashing__1__1__2__xl=wg_decode_xmlliteral_xsdtype_len(db, enc);
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)(wg_decode_for_hashing__1__1__2__xl + len + (signed long int)1));
+        buf = (char *)return_value_malloc_3;
         if(buf == ((char *)NULL))
           return (signed long int)0;
 
-        memcpy((void *)buf, (const void *)exdata, (unsigned long int)wg_decode_for_hashing$$1$$1$$2$$xl);
-        buf[wg_decode_for_hashing$$1$$1$$2$$xl] = (char)0;
-        memcpy((void *)(buf + wg_decode_for_hashing$$1$$1$$2$$xl + (signed long int)1), (const void *)bytedata, (unsigned long int)len);
+        memcpy((void *)buf, (const void *)exdata, (unsigned long int)wg_decode_for_hashing__1__1__2__xl);
+        buf[wg_decode_for_hashing__1__1__2__xl] = (char)0;
+        memcpy((void *)(buf + wg_decode_for_hashing__1__1__2__xl + (signed long int)1), (const void *)bytedata, (unsigned long int)len);
         bytedata = buf;
-        len = len + wg_decode_for_hashing$$1$$1$$2$$xl + (signed long int)1;
+        len = len + wg_decode_for_hashing__1__1__2__xl + (signed long int)1;
       }
 
       break;
@@ -11938,8 +11938,8 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
     case (signed long int)9:
     {
       len = (signed long int)sizeof(signed int) /*4ul*/ ;
-      return_value_wg_decode_char$4=wg_decode_char(db, enc);
-      intdata = (signed int)return_value_wg_decode_char$4;
+      return_value_wg_decode_char_4=wg_decode_char(db, enc);
+      intdata = (signed int)return_value_wg_decode_char_4;
       bytedata = (char *)&intdata;
       break;
     }
@@ -11960,8 +11960,8 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
     case (signed long int)14:
     {
       len = (signed long int)sizeof(signed int) /*4ul*/ ;
-      return_value_wg_decode_var$5=wg_decode_var(db, enc);
-      intdata = (signed int)return_value_wg_decode_var$5;
+      return_value_wg_decode_var_5=wg_decode_var(db, enc);
+      intdata = (signed int)return_value_wg_decode_var_5;
       bytedata = (char *)&intdata;
       break;
     }
@@ -11970,16 +11970,16 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
     default:
       return (signed long int)0;
   }
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc((unsigned long int)(len + (signed long int)1));
-  outbuf = (char *)return_value_malloc$6;
-  signed long int tmp_post$7;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc((unsigned long int)(len + (signed long int)1));
+  outbuf = (char *)return_value_malloc_6;
+  signed long int tmp_post_7;
   if(!(outbuf == ((char *)NULL)))
   {
     outbuf[(signed long int)0] = (char)type;
-    tmp_post$7 = len;
+    tmp_post_7 = len;
     len = len + 1l;
-    memcpy((void *)(outbuf + (signed long int)1), (const void *)bytedata, (unsigned long int)tmp_post$7);
+    memcpy((void *)(outbuf + (signed long int)1), (const void *)bytedata, (unsigned long int)tmp_post_7);
     *decbytes = outbuf;
   }
 
@@ -11995,13 +11995,13 @@ signed long int wg_decode_for_hashing(void *db, signed long int enc, char **decb
 // file ../Db/dbdata.h line 139
 signed long int wg_decode_int(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_int");
     return (signed long int)0;
@@ -12013,7 +12013,7 @@ signed long int wg_decode_int(void *db, signed long int data)
 
     else
       if((3l & data) == 1l)
-        return *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x3)));
+        return *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x3)));
 
       else
       {
@@ -12026,13 +12026,13 @@ signed long int wg_decode_int(void *db, signed long int data)
 // file dbdata.c line 1443
 char * wg_decode_null(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_null");
     return (char *)(void *)0;
@@ -12053,33 +12053,33 @@ char * wg_decode_null(void *db, signed long int data)
 // file dbdata.h line 182
 void * wg_decode_record(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_char");
     return NULL;
   }
 
   else
-    return (void *)((char *)((struct anonymous$6 *)db)->db + data);
+    return (void *)((char *)((struct anonymous_6 *)db)->db + data);
 }
 
 // wg_decode_str
 // file dbdata.h line 189
 char * wg_decode_str(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_str");
     return (char *)(void *)0;
@@ -12094,9 +12094,9 @@ char * wg_decode_str(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr$2;
-      return_value_wg_decode_unistr$2=wg_decode_unistr(db, data, (signed long int)5);
-      return return_value_wg_decode_unistr$2;
+      char *return_value_wg_decode_unistr_2;
+      return_value_wg_decode_unistr_2=wg_decode_unistr(db, data, (signed long int)5);
+      return return_value_wg_decode_unistr_2;
     }
 }
 
@@ -12104,13 +12104,13 @@ char * wg_decode_str(void *db, signed long int data)
 // file dbdata.c line 1929
 signed long int wg_decode_str_copy(void *db, signed long int data, char *strbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_str_copy");
     return (signed long int)-1;
@@ -12139,9 +12139,9 @@ signed long int wg_decode_str_copy(void *db, signed long int data, char *strbuf,
 
         else
         {
-          signed long int return_value_wg_decode_unistr_copy$2;
-          return_value_wg_decode_unistr_copy$2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)5);
-          return return_value_wg_decode_unistr_copy$2;
+          signed long int return_value_wg_decode_unistr_copy_2;
+          return_value_wg_decode_unistr_copy_2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)5);
+          return return_value_wg_decode_unistr_copy_2;
         }
 }
 
@@ -12149,13 +12149,13 @@ signed long int wg_decode_str_copy(void *db, signed long int data, char *strbuf,
 // file dbdata.c line 1952
 char * wg_decode_str_lang(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_str");
     return (char *)(void *)0;
@@ -12170,9 +12170,9 @@ char * wg_decode_str_lang(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr_lang$2;
-      return_value_wg_decode_unistr_lang$2=wg_decode_unistr_lang(db, data, (signed long int)5);
-      return return_value_wg_decode_unistr_lang$2;
+      char *return_value_wg_decode_unistr_lang_2;
+      return_value_wg_decode_unistr_lang_2=wg_decode_unistr_lang(db, data, (signed long int)5);
+      return return_value_wg_decode_unistr_lang_2;
     }
 }
 
@@ -12180,13 +12180,13 @@ char * wg_decode_str_lang(void *db, signed long int data)
 // file dbdata.c line 1983
 signed long int wg_decode_str_lang_copy(void *db, signed long int data, char *langbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_str_lang_copy");
     return (signed long int)-1;
@@ -12215,9 +12215,9 @@ signed long int wg_decode_str_lang_copy(void *db, signed long int data, char *la
 
         else
         {
-          signed long int return_value_wg_decode_unistr_lang_copy$2;
-          return_value_wg_decode_unistr_lang_copy$2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)5);
-          return return_value_wg_decode_unistr_lang_copy$2;
+          signed long int return_value_wg_decode_unistr_lang_copy_2;
+          return_value_wg_decode_unistr_lang_copy_2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)5);
+          return return_value_wg_decode_unistr_lang_copy_2;
         }
 }
 
@@ -12225,13 +12225,13 @@ signed long int wg_decode_str_lang_copy(void *db, signed long int data, char *la
 // file dbdata.c line 1967
 signed long int wg_decode_str_lang_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_str_lang_len");
     return (signed long int)-1;
@@ -12246,9 +12246,9 @@ signed long int wg_decode_str_lang_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_lang_len$2;
-      return_value_wg_decode_unistr_lang_len$2=wg_decode_unistr_lang_len(db, data, (signed long int)5);
-      return return_value_wg_decode_unistr_lang_len$2;
+      signed long int return_value_wg_decode_unistr_lang_len_2;
+      return_value_wg_decode_unistr_lang_len_2=wg_decode_unistr_lang_len(db, data, (signed long int)5);
+      return return_value_wg_decode_unistr_lang_len_2;
     }
 }
 
@@ -12256,13 +12256,13 @@ signed long int wg_decode_str_lang_len(void *db, signed long int data)
 // file dbdata.c line 1913
 signed long int wg_decode_str_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_str_len");
     return (signed long int)-1;
@@ -12277,9 +12277,9 @@ signed long int wg_decode_str_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_len$2;
-      return_value_wg_decode_unistr_len$2=wg_decode_unistr_len(db, data, (signed long int)5);
-      return return_value_wg_decode_unistr_len$2;
+      signed long int return_value_wg_decode_unistr_len_2;
+      return_value_wg_decode_unistr_len_2=wg_decode_unistr_len(db, data, (signed long int)5);
+      return return_value_wg_decode_unistr_len_2;
     }
 }
 
@@ -12287,13 +12287,13 @@ signed long int wg_decode_str_len(void *db, signed long int data)
 // file dbdata.h line 163
 signed int wg_decode_time(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_time");
     return 0;
@@ -12318,14 +12318,14 @@ char * wg_decode_unistr(void *db, signed long int data, signed long int type)
   char *dataptr;
   if((7l & data) == 6l)
   {
-    dataptr = (char *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+    dataptr = (char *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
     return dataptr;
   }
 
   else
     if((7l & data) == 4l)
     {
-      objptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+      objptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
       dataptr = (char *)objptr + (signed long int)((unsigned long int)6 * sizeof(signed long int) /*8ul*/ );
       return dataptr;
     }
@@ -12346,21 +12346,21 @@ signed long int wg_decode_unistr_copy(void *db, signed long int data, char *strb
   char *dataptr;
   signed long int objsize;
   signed long int strsize;
-  _Bool tmp_if_expr$1;
-  signed long int tmp_if_expr$3;
-  signed long int tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  signed long int tmp_if_expr_3;
+  signed long int tmp_if_expr_2;
   if((7l & data) == 6l && type == 5l)
   {
-    dataptr = (char *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+    dataptr = (char *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
     i = (signed long int)1;
     do
     {
       if(!(i >= 32l))
-        tmp_if_expr$1 = (signed int)*dataptr != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*dataptr != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       if(i >= buflen)
@@ -12382,20 +12382,20 @@ signed long int wg_decode_unistr_copy(void *db, signed long int data, char *strb
   else
     if((7l & data) == 4l)
     {
-      objptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+      objptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
       if(!((-4l & *objptr) >= 33l))
-        tmp_if_expr$3 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
+        tmp_if_expr_3 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
 
       else
       {
         if(!((-4l & *objptr) % 8l == 0l))
-          tmp_if_expr$2 = (*objptr & (signed long int)~3) + (signed long int)4;
+          tmp_if_expr_2 = (*objptr & (signed long int)~3) + (signed long int)4;
 
         else
-          tmp_if_expr$2 = *objptr & (signed long int)~3;
-        tmp_if_expr$3 = tmp_if_expr$2;
+          tmp_if_expr_2 = *objptr & (signed long int)~3;
+        tmp_if_expr_3 = tmp_if_expr_2;
       }
-      objsize = tmp_if_expr$3;
+      objsize = tmp_if_expr_3;
       dataptr = (char *)objptr + (signed long int)((unsigned long int)6 * sizeof(signed long int) /*8ul*/ );
       strsize = objsize - ((objptr[(signed long int)1] & (signed long int)0xFF00) >> 8);
       if(!(buflen >= strsize))
@@ -12432,7 +12432,7 @@ char * wg_decode_unistr_lang(void *db, signed long int data, signed long int typ
   else
     if((7l & data) == 4l)
     {
-      objptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+      objptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
       fldptr = (signed long int *)objptr + (signed long int)5;
       fldval = *fldptr;
       if(fldval == 0l)
@@ -12464,9 +12464,9 @@ signed long int wg_decode_unistr_lang_copy(void *db, signed long int data, char 
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(langptr);
-    len = (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(langptr);
+    len = (signed long int)return_value_strlen_1;
     if(len >= buflen)
     {
       show_data_error_nr(db, "insufficient buffer length given to wg_decode_unistr_lang_copy:", buflen);
@@ -12493,9 +12493,9 @@ signed long int wg_decode_unistr_lang_len(void *db, signed long int data, signed
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(langptr);
-    len = (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(langptr);
+    len = (signed long int)return_value_strlen_1;
     return len;
   }
 }
@@ -12510,31 +12510,31 @@ signed long int wg_decode_unistr_len(void *db, signed long int data, signed long
   signed long int strsize;
   if((7l & data) == 6l)
   {
-    dataptr = (char *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(dataptr);
-    strsize = (signed long int)return_value_strlen$1;
+    dataptr = (char *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(dataptr);
+    strsize = (signed long int)return_value_strlen_1;
     return strsize;
   }
 
-  signed long int tmp_if_expr$3;
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_3;
+  signed long int tmp_if_expr_2;
   if((7l & data) == 4l)
   {
-    objptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+    objptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
     if(!((-4l & *objptr) >= 33l))
-      tmp_if_expr$3 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
+      tmp_if_expr_3 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
 
     else
     {
       if(!((-4l & *objptr) % 8l == 0l))
-        tmp_if_expr$2 = (*objptr & (signed long int)~3) + (signed long int)4;
+        tmp_if_expr_2 = (*objptr & (signed long int)~3) + (signed long int)4;
 
       else
-        tmp_if_expr$2 = *objptr & (signed long int)~3;
-      tmp_if_expr$3 = tmp_if_expr$2;
+        tmp_if_expr_2 = *objptr & (signed long int)~3;
+      tmp_if_expr_3 = tmp_if_expr_2;
     }
-    objsize = tmp_if_expr$3;
+    objsize = tmp_if_expr_3;
     dataptr = (char *)objptr + (signed long int)((unsigned long int)6 * sizeof(signed long int) /*8ul*/ );
     strsize = objsize - ((objptr[(signed long int)1] & (signed long int)0xFF00) >> 8);
     return strsize - (signed long int)1;
@@ -12551,13 +12551,13 @@ signed long int wg_decode_unistr_len(void *db, signed long int data, signed long
 // file dbdata.h line 216
 char * wg_decode_uri(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_uri");
     return (char *)(void *)0;
@@ -12572,9 +12572,9 @@ char * wg_decode_uri(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr$2;
-      return_value_wg_decode_unistr$2=wg_decode_unistr(db, data, (signed long int)7);
-      return return_value_wg_decode_unistr$2;
+      char *return_value_wg_decode_unistr_2;
+      return_value_wg_decode_unistr_2=wg_decode_unistr(db, data, (signed long int)7);
+      return return_value_wg_decode_unistr_2;
     }
 }
 
@@ -12582,13 +12582,13 @@ char * wg_decode_uri(void *db, signed long int data)
 // file dbdata.c line 2187
 signed long int wg_decode_uri_copy(void *db, signed long int data, char *strbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_uri_copy");
     return (signed long int)-1;
@@ -12617,9 +12617,9 @@ signed long int wg_decode_uri_copy(void *db, signed long int data, char *strbuf,
 
         else
         {
-          signed long int return_value_wg_decode_unistr_copy$2;
-          return_value_wg_decode_unistr_copy$2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)7);
-          return return_value_wg_decode_unistr_copy$2;
+          signed long int return_value_wg_decode_unistr_copy_2;
+          return_value_wg_decode_unistr_copy_2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)7);
+          return return_value_wg_decode_unistr_copy_2;
         }
 }
 
@@ -12627,13 +12627,13 @@ signed long int wg_decode_uri_copy(void *db, signed long int data, char *strbuf,
 // file dbdata.c line 2171
 signed long int wg_decode_uri_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_uri_len");
     return (signed long int)-1;
@@ -12648,9 +12648,9 @@ signed long int wg_decode_uri_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_len$2;
-      return_value_wg_decode_unistr_len$2=wg_decode_unistr_len(db, data, (signed long int)7);
-      return return_value_wg_decode_unistr_len$2;
+      signed long int return_value_wg_decode_unistr_len_2;
+      return_value_wg_decode_unistr_len_2=wg_decode_unistr_len(db, data, (signed long int)7);
+      return return_value_wg_decode_unistr_len_2;
     }
 }
 
@@ -12658,13 +12658,13 @@ signed long int wg_decode_uri_len(void *db, signed long int data)
 // file dbdata.h line 217
 char * wg_decode_uri_prefix(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_uri_prefix");
     return (char *)(void *)0;
@@ -12679,9 +12679,9 @@ char * wg_decode_uri_prefix(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr_lang$2;
-      return_value_wg_decode_unistr_lang$2=wg_decode_unistr_lang(db, data, (signed long int)7);
-      return return_value_wg_decode_unistr_lang$2;
+      char *return_value_wg_decode_unistr_lang_2;
+      return_value_wg_decode_unistr_lang_2=wg_decode_unistr_lang(db, data, (signed long int)7);
+      return return_value_wg_decode_unistr_lang_2;
     }
 }
 
@@ -12689,13 +12689,13 @@ char * wg_decode_uri_prefix(void *db, signed long int data)
 // file dbdata.c line 2241
 signed long int wg_decode_uri_prefix_copy(void *db, signed long int data, char *langbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_uri_prefix_copy");
     return (signed long int)-1;
@@ -12724,9 +12724,9 @@ signed long int wg_decode_uri_prefix_copy(void *db, signed long int data, char *
 
         else
         {
-          signed long int return_value_wg_decode_unistr_lang_copy$2;
-          return_value_wg_decode_unistr_lang_copy$2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)7);
-          return return_value_wg_decode_unistr_lang_copy$2;
+          signed long int return_value_wg_decode_unistr_lang_copy_2;
+          return_value_wg_decode_unistr_lang_copy_2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)7);
+          return return_value_wg_decode_unistr_lang_copy_2;
         }
 }
 
@@ -12734,13 +12734,13 @@ signed long int wg_decode_uri_prefix_copy(void *db, signed long int data, char *
 // file dbdata.c line 2225
 signed long int wg_decode_uri_prefix_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_uri_prefix_len");
     return (signed long int)-1;
@@ -12755,9 +12755,9 @@ signed long int wg_decode_uri_prefix_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_lang_len$2;
-      return_value_wg_decode_unistr_lang_len$2=wg_decode_unistr_lang_len(db, data, (signed long int)7);
-      return return_value_wg_decode_unistr_lang_len$2;
+      signed long int return_value_wg_decode_unistr_lang_len_2;
+      return_value_wg_decode_unistr_lang_len_2=wg_decode_unistr_lang_len(db, data, (signed long int)7);
+      return return_value_wg_decode_unistr_lang_len_2;
     }
 }
 
@@ -12765,13 +12765,13 @@ signed long int wg_decode_uri_prefix_len(void *db, signed long int data)
 // file dbdata.h line 247
 signed long int wg_decode_var(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_var");
     return (signed long int)-1;
@@ -12792,13 +12792,13 @@ signed long int wg_decode_var(void *db, signed long int data)
 // file dbdata.h line 202
 char * wg_decode_xmlliteral(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_xmlliteral");
     return (char *)(void *)0;
@@ -12813,9 +12813,9 @@ char * wg_decode_xmlliteral(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr$2;
-      return_value_wg_decode_unistr$2=wg_decode_unistr(db, data, (signed long int)6);
-      return return_value_wg_decode_unistr$2;
+      char *return_value_wg_decode_unistr_2;
+      return_value_wg_decode_unistr_2=wg_decode_unistr(db, data, (signed long int)6);
+      return return_value_wg_decode_unistr_2;
     }
 }
 
@@ -12823,13 +12823,13 @@ char * wg_decode_xmlliteral(void *db, signed long int data)
 // file dbdata.c line 2060
 signed long int wg_decode_xmlliteral_copy(void *db, signed long int data, char *strbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_xmlliteral_copy");
     return (signed long int)-1;
@@ -12858,9 +12858,9 @@ signed long int wg_decode_xmlliteral_copy(void *db, signed long int data, char *
 
         else
         {
-          signed long int return_value_wg_decode_unistr_copy$2;
-          return_value_wg_decode_unistr_copy$2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)6);
-          return return_value_wg_decode_unistr_copy$2;
+          signed long int return_value_wg_decode_unistr_copy_2;
+          return_value_wg_decode_unistr_copy_2=wg_decode_unistr_copy(db, data, strbuf, buflen, (signed long int)6);
+          return return_value_wg_decode_unistr_copy_2;
         }
 }
 
@@ -12868,13 +12868,13 @@ signed long int wg_decode_xmlliteral_copy(void *db, signed long int data, char *
 // file dbdata.c line 2044
 signed long int wg_decode_xmlliteral_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_xmlliteral_len");
     return (signed long int)-1;
@@ -12889,9 +12889,9 @@ signed long int wg_decode_xmlliteral_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_len$2;
-      return_value_wg_decode_unistr_len$2=wg_decode_unistr_len(db, data, (signed long int)6);
-      return return_value_wg_decode_unistr_len$2;
+      signed long int return_value_wg_decode_unistr_len_2;
+      return_value_wg_decode_unistr_len_2=wg_decode_unistr_len(db, data, (signed long int)6);
+      return return_value_wg_decode_unistr_len_2;
     }
 }
 
@@ -12899,13 +12899,13 @@ signed long int wg_decode_xmlliteral_len(void *db, signed long int data)
 // file dbdata.h line 203
 char * wg_decode_xmlliteral_xsdtype(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_xmlliteral");
     return (char *)(void *)0;
@@ -12920,9 +12920,9 @@ char * wg_decode_xmlliteral_xsdtype(void *db, signed long int data)
 
     else
     {
-      char *return_value_wg_decode_unistr_lang$2;
-      return_value_wg_decode_unistr_lang$2=wg_decode_unistr_lang(db, data, (signed long int)6);
-      return return_value_wg_decode_unistr_lang$2;
+      char *return_value_wg_decode_unistr_lang_2;
+      return_value_wg_decode_unistr_lang_2=wg_decode_unistr_lang(db, data, (signed long int)6);
+      return return_value_wg_decode_unistr_lang_2;
     }
 }
 
@@ -12930,13 +12930,13 @@ char * wg_decode_xmlliteral_xsdtype(void *db, signed long int data)
 // file dbdata.c line 2114
 signed long int wg_decode_xmlliteral_xsdtype_copy(void *db, signed long int data, char *langbuf, signed long int buflen)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_xmlliteral_xsdtype_copy");
     return (signed long int)-1;
@@ -12965,9 +12965,9 @@ signed long int wg_decode_xmlliteral_xsdtype_copy(void *db, signed long int data
 
         else
         {
-          signed long int return_value_wg_decode_unistr_lang_copy$2;
-          return_value_wg_decode_unistr_lang_copy$2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)6);
-          return return_value_wg_decode_unistr_lang_copy$2;
+          signed long int return_value_wg_decode_unistr_lang_copy_2;
+          return_value_wg_decode_unistr_lang_copy_2=wg_decode_unistr_lang_copy(db, data, langbuf, buflen, (signed long int)6);
+          return return_value_wg_decode_unistr_lang_copy_2;
         }
 }
 
@@ -12975,13 +12975,13 @@ signed long int wg_decode_xmlliteral_xsdtype_copy(void *db, signed long int data
 // file dbdata.c line 2098
 signed long int wg_decode_xmlliteral_xsdtype_len(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_decode_xmlliteral_xsdtype_len");
     return (signed long int)-1;
@@ -12996,9 +12996,9 @@ signed long int wg_decode_xmlliteral_xsdtype_len(void *db, signed long int data)
 
     else
     {
-      signed long int return_value_wg_decode_unistr_lang_len$2;
-      return_value_wg_decode_unistr_lang_len$2=wg_decode_unistr_lang_len(db, data, (signed long int)6);
-      return return_value_wg_decode_unistr_lang_len$2;
+      signed long int return_value_wg_decode_unistr_lang_len_2;
+      return_value_wg_decode_unistr_lang_len_2=wg_decode_unistr_lang_len(db, data, (signed long int)6);
+      return return_value_wg_decode_unistr_lang_len_2;
     }
 }
 
@@ -13007,19 +13007,19 @@ signed long int wg_decode_xmlliteral_xsdtype_len(void *db, signed long int data)
 signed int wg_delete_database(char *dbasename)
 {
   signed int key = 0;
-  signed long int return_value_strtol$1;
+  signed long int return_value_strtol_1;
   if(!(dbasename == ((char *)NULL)))
   {
-    return_value_strtol$1=strtol(dbasename, (char ** restrict )(void *)0, 10);
-    key = (signed int)return_value_strtol$1;
+    return_value_strtol_1=strtol(dbasename, (char ** restrict )(void *)0, 10);
+    key = (signed int)return_value_strtol_1;
   }
 
   if(key == 0x7fffffff || key == -2147483648 || !(key >= 1))
     key = 1000;
 
-  signed int return_value_free_shared_memory$2;
-  return_value_free_shared_memory$2=free_shared_memory(key);
-  return return_value_free_shared_memory$2;
+  signed int return_value_free_shared_memory_2;
+  return_value_free_shared_memory_2=free_shared_memory(key);
+  return return_value_free_shared_memory_2;
 }
 
 // wg_delete_document
@@ -13028,14 +13028,14 @@ signed long int wg_delete_document(void *db, void *document)
 {
   if((16l & ((signed long int *)document)[1l]) == 0l)
   {
-    signed long int return_value_show_schema_error$1;
-    return_value_show_schema_error$1=show_schema_error(db, "wg_delete_document: not a document");
-    return return_value_show_schema_error$1;
+    signed long int return_value_show_schema_error_1;
+    return_value_show_schema_error_1=show_schema_error(db, "wg_delete_document: not a document");
+    return return_value_show_schema_error_1;
   }
 
-  signed long int return_value_delete_record_recursive$2;
-  return_value_delete_record_recursive$2=delete_record_recursive(db, document, 7);
-  return return_value_delete_record_recursive$2;
+  signed long int return_value_delete_record_recursive_2;
+  return_value_delete_record_recursive_2=delete_record_recursive(db, document, 7);
+  return return_value_delete_record_recursive_2;
 }
 
 // wg_delete_local_database
@@ -13044,7 +13044,7 @@ void wg_delete_local_database(void *dbase)
 {
   if(!(dbase == NULL))
   {
-    void *localmem = (void *)((struct anonymous$6 *)dbase)->db;
+    void *localmem = (void *)((struct anonymous_6 *)dbase)->db;
     if(!(localmem == NULL))
       free(localmem);
 
@@ -13061,13 +13061,13 @@ signed long int wg_delete_record(void *db, void *rec)
   signed long int *dptr;
   signed long int *dendptr;
   signed long int data;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_delete_record");
     return (signed long int)-2;
@@ -13081,32 +13081,32 @@ signed long int wg_delete_record(void *db, void *rec)
     {
       if((1l & ((signed long int *)rec)[1l]) == 0l)
       {
-        signed long int return_value_wg_index_del_rec$2;
-        return_value_wg_index_del_rec$2=wg_index_del_rec(db, rec);
-        if(!(return_value_wg_index_del_rec$2 >= -1l))
+        signed long int return_value_wg_index_del_rec_2;
+        return_value_wg_index_del_rec_2=wg_index_del_rec(db, rec);
+        if(!(return_value_wg_index_del_rec_2 >= -1l))
           return (signed long int)-3;
 
       }
 
-      offset = (signed long int)((char *)rec - (char *)((struct anonymous$6 *)db)->db);
+      offset = (signed long int)((char *)rec - (char *)((struct anonymous_6 *)db)->db);
       dendptr = (signed long int *)((char *)rec + (*((signed long int *)rec) & (signed long int)~3));
       dptr = (signed long int *)rec + (signed long int)3;
       for( ; !(dptr >= dendptr); dptr = dptr + 1l)
       {
         data = *dptr;
-        signed long int return_value_wg_get_encoded_type$4;
-        return_value_wg_get_encoded_type$4=wg_get_encoded_type(db, data);
-        if(return_value_wg_get_encoded_type$4 == 2l)
+        signed long int return_value_wg_get_encoded_type_4;
+        return_value_wg_get_encoded_type_4=wg_get_encoded_type(db, data);
+        if(return_value_wg_get_encoded_type_4 == 2l)
         {
           signed long int *child;
-          void *return_value_wg_decode_record$3;
-          return_value_wg_decode_record$3=wg_decode_record(db, data);
-          child = (signed long int *)return_value_wg_decode_record$3;
+          void *return_value_wg_decode_record_3;
+          return_value_wg_decode_record_3=wg_decode_record(db, data);
+          child = (signed long int *)return_value_wg_decode_record_3;
           signed long int *next_offset = child + (signed long int)2;
-          struct anonymous$20 *old = (struct anonymous$20 *)(void *)0;
+          struct anonymous_20 *old = (struct anonymous_20 *)(void *)0;
           for( ; !(*next_offset == 0l); next_offset = &old->cdr)
           {
-            old = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *next_offset);
+            old = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *next_offset);
             if(old->car == offset)
             {
               signed long int old_offset = *next_offset;
@@ -13127,7 +13127,7 @@ signed long int wg_delete_record(void *db, void *rec)
           free_field_encoffset(db, data);
 
       }
-      wg_free_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->datarec_area_header, offset);
+      wg_free_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->datarec_area_header, offset);
       return (signed long int)0;
     }
 }
@@ -13137,7 +13137,7 @@ signed long int wg_delete_record(void *db, void *rec)
 signed int wg_detach_database(void *dbase)
 {
   signed int err;
-  err=detach_shared_memory((void *)((struct anonymous$6 *)dbase)->db);
+  err=detach_shared_memory((void *)((struct anonymous_6 *)dbase)->db);
   if(err == 0)
     free_dbhandle(dbase);
 
@@ -13149,7 +13149,7 @@ signed int wg_detach_database(void *dbase)
 signed long int wg_dhash_addkey(void *db, void *tbl, signed long int key)
 {
   signed long int *b;
-  b=dhash_lookup((struct anonymous$36 *)tbl, key);
+  b=dhash_lookup((struct anonymous_36 *)tbl, key);
   if(*b == 0l)
     *b = key;
 
@@ -13166,8 +13166,8 @@ void wg_dhash_free(void *db, void *tbl)
 {
   if(!(tbl == NULL))
   {
-    if(!(((struct anonymous$36 *)tbl)->keys == ((signed long int *)NULL)))
-      free((void *)((struct anonymous$36 *)tbl)->keys);
+    if(!(((struct anonymous_36 *)tbl)->keys == ((signed long int *)NULL)))
+      free((void *)((struct anonymous_36 *)tbl)->keys);
 
     free(tbl);
   }
@@ -13179,7 +13179,7 @@ void wg_dhash_free(void *db, void *tbl)
 signed long int wg_dhash_haskey(void *db, void *tbl, signed long int key)
 {
   signed long int *b;
-  b=dhash_lookup((struct anonymous$36 *)tbl, key);
+  b=dhash_lookup((struct anonymous_36 *)tbl, key);
   return (signed long int)(*b == key);
 }
 
@@ -13187,26 +13187,26 @@ signed long int wg_dhash_haskey(void *db, void *tbl, signed long int key)
 // file dbhash.c line 903
 void * wg_dhash_init(void *db, unsigned long int entries)
 {
-  struct anonymous$36 *tbl;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$36) /*16ul*/ );
-  tbl = (struct anonymous$36 *)return_value_malloc$1;
-  _Bool tmp_if_expr$3;
-  if(!(tbl == ((struct anonymous$36 *)NULL)))
+  struct anonymous_36 *tbl;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_36) /*16ul*/ );
+  tbl = (struct anonymous_36 *)return_value_malloc_1;
+  _Bool tmp_if_expr_3;
+  if(!(tbl == ((struct anonymous_36 *)NULL)))
   {
     tbl->dhash_size=dhash_size(entries);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc(tbl->dhash_size, sizeof(signed long int) /*8ul*/ );
-    tbl->keys = (signed long int *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc(tbl->dhash_size, sizeof(signed long int) /*8ul*/ );
+    tbl->keys = (signed long int *)return_value_calloc_2;
     if(tbl->keys == ((signed long int *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !(tbl->dhash_size != 0ul) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = !(tbl->dhash_size != 0ul) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       free((void *)tbl);
-      tbl = (struct anonymous$36 *)(void *)0;
+      tbl = (struct anonymous_36 *)(void *)0;
     }
 
   }
@@ -13219,25 +13219,25 @@ void * wg_dhash_init(void *db, unsigned long int entries)
 signed long int wg_drop_index(void *db, signed long int index_id)
 {
   signed int i;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)0;
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)0;
   signed long int *ilist;
-  struct anonymous$20 *ilistelem;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct anonymous_20 *ilistelem;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   ilist = &dbh->index_control_area_header.index_list;
   for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
   {
-    ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+    ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
     if(ilistelem->car == index_id)
     {
-      hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+      hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
       delete_from_list(db, ilist);
       break;
     }
 
   }
-  signed long int return_value_drop_ttree_index$3;
-  signed long int return_value_drop_hash_index$4;
-  if(hdr == ((struct anonymous$21 *)NULL))
+  signed long int return_value_drop_ttree_index_3;
+  signed long int return_value_drop_hash_index_4;
+  if(hdr == ((struct anonymous_21 *)NULL))
   {
     show_index_error_nr(db, "Invalid index for delete", index_id);
     return (signed long int)-1;
@@ -13252,7 +13252,7 @@ signed long int wg_drop_index(void *db, signed long int index_id)
       ilist = &dbh->index_control_area_header.index_table[(signed long int)column];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(ilistelem->car == index_id)
         {
           delete_from_list(db, ilist);
@@ -13263,23 +13263,23 @@ signed long int wg_drop_index(void *db, signed long int index_id)
     }
     if(!(hdr->template_offset == 0l))
     {
-      struct anonymous$22 *wg_drop_index$$1$$4$$tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset);
-      void *matchrec = (void *)((char *)((struct anonymous$6 *)db)->db + wg_drop_index$$1$$4$$tmpl->offset_matchrec);
+      struct anonymous_22 *wg_drop_index__1__4__tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset);
+      void *matchrec = (void *)((char *)((struct anonymous_6 *)db)->db + wg_drop_index__1__4__tmpl->offset_matchrec);
       signed long int reclen;
       reclen=wg_get_record_len(db, matchrec);
       i = 0;
       for( ; !((signed long int)i >= reclen); i = i + 1)
       {
-        signed long int return_value_wg_get_field$1;
-        return_value_wg_get_field$1=wg_get_field(db, matchrec, (signed long int)i);
-        signed long int return_value_wg_get_encoded_type$2;
-        return_value_wg_get_encoded_type$2=wg_get_encoded_type(db, return_value_wg_get_field$1);
-        if(!(return_value_wg_get_encoded_type$2 == 14l))
+        signed long int return_value_wg_get_field_1;
+        return_value_wg_get_field_1=wg_get_field(db, matchrec, (signed long int)i);
+        signed long int return_value_wg_get_encoded_type_2;
+        return_value_wg_get_encoded_type_2=wg_get_encoded_type(db, return_value_wg_get_field_1);
+        if(!(return_value_wg_get_encoded_type_2 == 14l))
         {
           ilist = &dbh->index_control_area_header.index_template_table[(signed long int)i];
           for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
           {
-            ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+            ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
             if(ilistelem->car == index_id)
             {
               delete_from_list(db, ilist);
@@ -13298,8 +13298,8 @@ signed long int wg_drop_index(void *db, signed long int index_id)
 
       case (signed long int)51:
       {
-        return_value_drop_ttree_index$3=drop_ttree_index(db, index_id);
-        if(!(return_value_drop_ttree_index$3 == 0l))
+        return_value_drop_ttree_index_3=drop_ttree_index(db, index_id);
+        if(!(return_value_drop_ttree_index_3 == 0l))
           return (signed long int)-1;
 
         break;
@@ -13308,8 +13308,8 @@ signed long int wg_drop_index(void *db, signed long int index_id)
 
       case (signed long int)61:
       {
-        return_value_drop_hash_index$4=drop_hash_index(db, index_id);
-        if(!(return_value_drop_hash_index$4 == 0l))
+        return_value_drop_hash_index_4=drop_hash_index(db, index_id);
+        if(!(return_value_drop_hash_index_4 == 0l))
           return (signed long int)-1;
 
         break;
@@ -13322,7 +13322,7 @@ signed long int wg_drop_index(void *db, signed long int index_id)
     }
     if(!(hdr->template_offset == 0l))
     {
-      struct anonymous$22 *tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset);
+      struct anonymous_22 *tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset);
       tmpl->refcount = tmpl->refcount - 1l;
       if(tmpl->refcount == 0l)
         remove_index_template(db, hdr->template_offset);
@@ -13339,9 +13339,9 @@ signed long int wg_drop_index(void *db, signed long int index_id)
 // file dbdump.c line 76
 signed long int wg_dump(void *db, char *fileName)
 {
-  signed long int return_value_wg_dump_internal$1;
-  return_value_wg_dump_internal$1=wg_dump_internal(db, fileName, 1);
-  return return_value_wg_dump_internal$1;
+  signed long int return_value_wg_dump_internal_1;
+  return_value_wg_dump_internal_1=wg_dump_internal(db, fileName, 1);
+  return return_value_wg_dump_internal_1;
 }
 
 // wg_dump_internal
@@ -13349,7 +13349,7 @@ signed long int wg_dump(void *db, char *fileName)
 signed long int wg_dump_internal(void *db, char *fileName, signed int locking)
 {
   struct _IO_FILE *f;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int dbsize = dbh->free;
   signed long int err = (signed long int)-1;
   signed long int lock_id = (signed long int)0;
@@ -13380,15 +13380,15 @@ signed long int wg_dump_internal(void *db, char *fileName, signed int locking)
 
     __CPROVER_DUMP_L3:
       ;
-      crc=update_crc32((char *)((struct anonymous$6 *)db)->db, dbsize, 0x0);
-      unsigned long int return_value_fwrite$2;
-      return_value_fwrite$2=fwrite((void *)((struct anonymous$6 *)db)->db, (unsigned long int)dbsize, (unsigned long int)1, f);
-      if(return_value_fwrite$2 == 1ul)
+      crc=update_crc32((char *)((struct anonymous_6 *)db)->db, dbsize, 0x0);
+      unsigned long int return_value_fwrite_2;
+      return_value_fwrite_2=fwrite((void *)((struct anonymous_6 *)db)->db, (unsigned long int)dbsize, (unsigned long int)1, f);
+      if(return_value_fwrite_2 == 1ul)
       {
-        fseek(f, (signed long int)((char *)&dbh->checksum - (char *)((struct anonymous$6 *)db)->db), 0);
-        unsigned long int return_value_fwrite$1;
-        return_value_fwrite$1=fwrite((const void *)&crc, sizeof(signed int) /*4ul*/ , (unsigned long int)1, f);
-        if(return_value_fwrite$1 == 1ul)
+        fseek(f, (signed long int)((char *)&dbh->checksum - (char *)((struct anonymous_6 *)db)->db), 0);
+        unsigned long int return_value_fwrite_1;
+        return_value_fwrite_1=fwrite((const void *)&crc, sizeof(signed int) /*4ul*/ , (unsigned long int)1, f);
+        if(return_value_fwrite_1 == 1ul)
           err = (signed long int)0;
 
       }
@@ -13398,9 +13398,9 @@ signed long int wg_dump_internal(void *db, char *fileName, signed int locking)
 
       if(!(locking == 0))
       {
-        signed long int return_value_db_tfqueue_rulock$3;
-        return_value_db_tfqueue_rulock$3=db_tfqueue_rulock(db, lock_id);
-        if(return_value_db_tfqueue_rulock$3 == 0l)
+        signed long int return_value_db_tfqueue_rulock_3;
+        return_value_db_tfqueue_rulock_3=db_tfqueue_rulock(db, lock_id);
+        if(return_value_db_tfqueue_rulock_3 == 0l)
         {
           show_dump_error(db, "Failed to unlock the database");
           err = (signed long int)-2;
@@ -13418,13 +13418,13 @@ signed long int wg_dump_internal(void *db, char *fileName, signed int locking)
 // file dbdata.c line 2393
 signed long int wg_encode_anonconst(void *db, char *str)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_anonconst");
     return (signed long int)0xff;
@@ -13439,9 +13439,9 @@ signed long int wg_encode_anonconst(void *db, char *str)
 
     else
     {
-      signed long int return_value_wg_encode_unistr$2;
-      return_value_wg_encode_unistr$2=wg_encode_unistr(db, str, (char *)(void *)0, (signed long int)7);
-      return return_value_wg_encode_unistr$2;
+      signed long int return_value_wg_encode_unistr_2;
+      return_value_wg_encode_unistr_2=wg_encode_unistr(db, str, (char *)(void *)0, (signed long int)7);
+      return return_value_wg_encode_unistr_2;
     }
 }
 
@@ -13449,13 +13449,13 @@ signed long int wg_encode_anonconst(void *db, char *str)
 // file dbdata.c line 2267
 signed long int wg_encode_blob(void *db, char *str, char *type, signed long int len)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_blob");
     return (signed long int)0xff;
@@ -13470,9 +13470,9 @@ signed long int wg_encode_blob(void *db, char *str, char *type, signed long int 
 
     else
     {
-      signed long int return_value_wg_encode_uniblob$2;
-      return_value_wg_encode_uniblob$2=wg_encode_uniblob(db, str, type, (signed long int)8, len);
-      return return_value_wg_encode_uniblob$2;
+      signed long int return_value_wg_encode_uniblob_2;
+      return_value_wg_encode_uniblob_2=wg_encode_uniblob(db, str, type, (signed long int)8, len);
+      return return_value_wg_encode_uniblob_2;
     }
 }
 
@@ -13480,13 +13480,13 @@ signed long int wg_encode_blob(void *db, char *str, char *type, signed long int 
 // file dbdata.c line 1513
 signed long int wg_encode_char(void *db, char data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_char");
     return (signed long int)0xff;
@@ -13500,13 +13500,13 @@ signed long int wg_encode_char(void *db, char data)
 // file dbdata.c line 1634
 signed long int wg_encode_date(void *db, signed int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_date");
     return (signed long int)0xff;
@@ -13528,13 +13528,13 @@ signed long int wg_encode_date(void *db, signed int data)
 signed long int wg_encode_double(void *db, double data)
 {
   signed long int offset;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_double");
     return (signed long int)0xff;
@@ -13542,14 +13542,14 @@ signed long int wg_encode_double(void *db, double data)
 
   else
   {
-    offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->doubleword_area_header);
+    offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->doubleword_area_header);
     if(offset == 0l)
     {
       show_data_error_double(db, "cannot store a double in wg_set_double_field: ", data);
       return (signed long int)0xff;
     }
 
-    *((double *)(void *)((char *)((struct anonymous$6 *)db)->db + offset)) = data;
+    *((double *)(void *)((char *)((struct anonymous_6 *)db)->db + offset)) = data;
     return offset | (signed long int)0x2;
   }
 }
@@ -13566,13 +13566,13 @@ signed long int wg_encode_external_data(void *db, void *extdb, signed long int e
 // file dbdata.c line 1597
 signed long int wg_encode_fixpoint(void *db, double data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_fixpoint");
     return (signed long int)0xff;
@@ -13587,9 +13587,9 @@ signed long int wg_encode_fixpoint(void *db, double data)
 
     else
     {
-      double return_value_round$2;
-      return_value_round$2=round(data * (double)10000.0);
-      return (signed long int)((signed int)return_value_round$2 << 8 | 0xf);
+      double return_value_round_2;
+      return_value_round_2=round(data * (double)10000.0);
+      return (signed long int)((signed int)return_value_round_2 << 8 | 0xf);
     }
 }
 
@@ -13598,13 +13598,13 @@ signed long int wg_encode_fixpoint(void *db, double data)
 signed long int wg_encode_int(void *db, signed long int data)
 {
   signed long int offset;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_int");
     return (signed long int)0xff;
@@ -13616,14 +13616,14 @@ signed long int wg_encode_int(void *db, signed long int data)
 
     else
     {
-      offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->word_area_header);
+      offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->word_area_header);
       if(offset == 0l)
       {
         show_data_error_nr(db, "cannot store an integer in wg_set_int_field: ", data);
         return (signed long int)0xff;
       }
 
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = data;
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = data;
       return offset | (signed long int)0x1;
     }
 }
@@ -13632,13 +13632,13 @@ signed long int wg_encode_int(void *db, signed long int data)
 // file dbdata.c line 1421
 signed long int wg_encode_null(void *db, char *data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_null");
     return (signed long int)0xff;
@@ -13659,18 +13659,18 @@ signed long int wg_encode_null(void *db, char *data)
 // file dbquery.c line 1130
 signed long int wg_encode_query_param_char(void *db, char data)
 {
-  signed long int return_value_wg_encode_char$1;
-  return_value_wg_encode_char$1=wg_encode_char(db, data);
-  return return_value_wg_encode_char$1;
+  signed long int return_value_wg_encode_char_1;
+  return_value_wg_encode_char_1=wg_encode_char(db, data);
+  return return_value_wg_encode_char_1;
 }
 
 // wg_encode_query_param_date
 // file dbquery.c line 1138
 signed long int wg_encode_query_param_date(void *db, signed int data)
 {
-  signed long int return_value_wg_encode_date$1;
-  return_value_wg_encode_date$1=wg_encode_date(db, data);
-  return return_value_wg_encode_date$1;
+  signed long int return_value_wg_encode_date_1;
+  return_value_wg_encode_date_1=wg_encode_date(db, data);
+  return return_value_wg_encode_date_1;
 }
 
 // wg_encode_query_param_double
@@ -13688,7 +13688,7 @@ signed long int wg_encode_query_param_double(void *db, double data)
   else
   {
     *((double *)dptr) = data;
-    return (signed long int)((char *)dptr - (char *)((struct anonymous$6 *)db)->db) | (signed long int)0x2;
+    return (signed long int)((char *)dptr - (char *)((struct anonymous_6 *)db)->db) | (signed long int)0x2;
   }
 }
 
@@ -13696,9 +13696,9 @@ signed long int wg_encode_query_param_double(void *db, double data)
 // file dbquery.c line 1134
 signed long int wg_encode_query_param_fixpoint(void *db, double data)
 {
-  signed long int return_value_wg_encode_fixpoint$1;
-  return_value_wg_encode_fixpoint$1=wg_encode_fixpoint(db, data);
-  return return_value_wg_encode_fixpoint$1;
+  signed long int return_value_wg_encode_fixpoint_1;
+  return_value_wg_encode_fixpoint_1=wg_encode_fixpoint(db, data);
+  return return_value_wg_encode_fixpoint_1;
 }
 
 // wg_encode_query_param_int
@@ -13719,7 +13719,7 @@ signed long int wg_encode_query_param_int(void *db, signed long int data)
     }
 
     *((signed long int *)dptr) = data;
-    return (signed long int)((char *)dptr - (char *)((struct anonymous$6 *)db)->db) | (signed long int)0x1;
+    return (signed long int)((char *)dptr - (char *)((struct anonymous_6 *)db)->db) | (signed long int)0x1;
   }
 }
 
@@ -13727,18 +13727,18 @@ signed long int wg_encode_query_param_int(void *db, signed long int data)
 // file dbquery.c line 1122
 signed long int wg_encode_query_param_null(void *db, char *data)
 {
-  signed long int return_value_wg_encode_null$1;
-  return_value_wg_encode_null$1=wg_encode_null(db, data);
-  return return_value_wg_encode_null$1;
+  signed long int return_value_wg_encode_null_1;
+  return_value_wg_encode_null_1=wg_encode_null(db, data);
+  return return_value_wg_encode_null_1;
 }
 
 // wg_encode_query_param_record
 // file dbquery.c line 1126
 signed long int wg_encode_query_param_record(void *db, void *data)
 {
-  signed long int return_value_wg_encode_record$1;
-  return_value_wg_encode_record$1=wg_encode_record(db, data);
-  return return_value_wg_encode_record$1;
+  signed long int return_value_wg_encode_record_1;
+  return_value_wg_encode_record_1=wg_encode_record(db, data);
+  return return_value_wg_encode_record_1;
 }
 
 // wg_encode_query_param_str
@@ -13747,11 +13747,11 @@ signed long int wg_encode_query_param_str(void *db, char *data, char *lang)
 {
   if(!(data == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(data);
-    signed long int return_value_encode_query_param_unistr$2;
-    return_value_encode_query_param_unistr$2=encode_query_param_unistr(db, data, (signed long int)5, lang, (signed int)return_value_strlen$1);
-    return return_value_encode_query_param_unistr$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(data);
+    signed long int return_value_encode_query_param_unistr_2;
+    return_value_encode_query_param_unistr_2=encode_query_param_unistr(db, data, (signed long int)5, lang, (signed int)return_value_strlen_1);
+    return return_value_encode_query_param_unistr_2;
   }
 
   else
@@ -13765,9 +13765,9 @@ signed long int wg_encode_query_param_str(void *db, char *data, char *lang)
 // file dbquery.c line 1142
 signed long int wg_encode_query_param_time(void *db, signed int data)
 {
-  signed long int return_value_wg_encode_time$1;
-  return_value_wg_encode_time$1=wg_encode_time(db, data);
-  return return_value_wg_encode_time$1;
+  signed long int return_value_wg_encode_time_1;
+  return_value_wg_encode_time_1=wg_encode_time(db, data);
+  return return_value_wg_encode_time_1;
 }
 
 // wg_encode_query_param_uri
@@ -13776,11 +13776,11 @@ signed long int wg_encode_query_param_uri(void *db, char *data, char *prefix)
 {
   if(!(data == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(data);
-    signed long int return_value_encode_query_param_unistr$2;
-    return_value_encode_query_param_unistr$2=encode_query_param_unistr(db, data, (signed long int)7, prefix, (signed int)return_value_strlen$1);
-    return return_value_encode_query_param_unistr$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(data);
+    signed long int return_value_encode_query_param_unistr_2;
+    return_value_encode_query_param_unistr_2=encode_query_param_unistr(db, data, (signed long int)7, prefix, (signed int)return_value_strlen_1);
+    return return_value_encode_query_param_unistr_2;
   }
 
   else
@@ -13794,9 +13794,9 @@ signed long int wg_encode_query_param_uri(void *db, char *data, char *prefix)
 // file dbquery.c line 1146
 signed long int wg_encode_query_param_var(void *db, signed long int data)
 {
-  signed long int return_value_wg_encode_var$1;
-  return_value_wg_encode_var$1=wg_encode_var(db, data);
-  return return_value_wg_encode_var$1;
+  signed long int return_value_wg_encode_var_1;
+  return_value_wg_encode_var_1=wg_encode_var(db, data);
+  return return_value_wg_encode_var_1;
 }
 
 // wg_encode_query_param_xmlliteral
@@ -13805,11 +13805,11 @@ signed long int wg_encode_query_param_xmlliteral(void *db, char *data, char *xsd
 {
   if(!(data == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(data);
-    signed long int return_value_encode_query_param_unistr$2;
-    return_value_encode_query_param_unistr$2=encode_query_param_unistr(db, data, (signed long int)6, xsdtype, (signed int)return_value_strlen$1);
-    return return_value_encode_query_param_unistr$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(data);
+    signed long int return_value_encode_query_param_unistr_2;
+    return_value_encode_query_param_unistr_2=encode_query_param_unistr(db, data, (signed long int)6, xsdtype, (signed int)return_value_strlen_1);
+    return return_value_encode_query_param_unistr_2;
   }
 
   else
@@ -13823,33 +13823,33 @@ signed long int wg_encode_query_param_xmlliteral(void *db, char *data, char *xsd
 // file dbdata.c line 1840
 signed long int wg_encode_record(void *db, void *data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_char");
     return (signed long int)0xff;
   }
 
   else
-    return (signed long int)((char *)data - (char *)((struct anonymous$6 *)db)->db);
+    return (signed long int)((char *)data - (char *)((struct anonymous_6 *)db)->db);
 }
 
 // wg_encode_str
 // file dbdata.c line 1882
 signed long int wg_encode_str(void *db, char *str, char *lang)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_str");
     return (signed long int)0xff;
@@ -13864,9 +13864,9 @@ signed long int wg_encode_str(void *db, char *str, char *lang)
 
     else
     {
-      signed long int return_value_wg_encode_unistr$2;
-      return_value_wg_encode_unistr$2=wg_encode_unistr(db, str, lang, (signed long int)5);
-      return return_value_wg_encode_unistr$2;
+      signed long int return_value_wg_encode_unistr_2;
+      return_value_wg_encode_unistr_2=wg_encode_unistr(db, str, lang, (signed long int)5);
+      return return_value_wg_encode_unistr_2;
     }
 }
 
@@ -13874,13 +13874,13 @@ signed long int wg_encode_str(void *db, char *str, char *lang)
 // file dbdata.c line 1670
 signed long int wg_encode_time(void *db, signed int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_time");
     return (signed long int)0xff;
@@ -13921,19 +13921,19 @@ signed long int wg_encode_unistr(void *db, char *str, char *lang, signed long in
   char *dptr;
   char *sptr;
   char *dendptr;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed long int)return_value_strlen_1;
   if(lang == ((char *)NULL) && type == 5l && !(len >= 32l))
   {
-    offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->shortstr_area_header);
+    offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->shortstr_area_header);
     if(offset == 0l)
     {
       show_data_error_str(db, "cannot store a string in wg_encode_unistr", str);
       return (signed long int)0xff;
     }
 
-    dptr = (char *)(void *)((char *)((struct anonymous$6 *)db)->db + offset);
+    dptr = (char *)(void *)((char *)((struct anonymous_6 *)db)->db + offset);
     dendptr = dptr + (signed long int)32;
     sptr = str;
     do
@@ -13969,13 +13969,13 @@ signed long int wg_encode_unistr(void *db, char *str, char *lang, signed long in
 // file dbdata.c line 2140
 signed long int wg_encode_uri(void *db, char *str, char *prefix)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_uri");
     return (signed long int)0xff;
@@ -13990,9 +13990,9 @@ signed long int wg_encode_uri(void *db, char *str, char *prefix)
 
     else
     {
-      signed long int return_value_wg_encode_unistr$2;
-      return_value_wg_encode_unistr$2=wg_encode_unistr(db, str, prefix, (signed long int)7);
-      return return_value_wg_encode_unistr$2;
+      signed long int return_value_wg_encode_unistr_2;
+      return_value_wg_encode_unistr_2=wg_encode_unistr(db, str, prefix, (signed long int)7);
+      return return_value_wg_encode_unistr_2;
     }
 }
 
@@ -14000,13 +14000,13 @@ signed long int wg_encode_uri(void *db, char *str, char *prefix)
 // file dbdata.c line 2429
 signed long int wg_encode_var(void *db, signed long int varnr)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_var");
     return (signed long int)0xff;
@@ -14027,13 +14027,13 @@ signed long int wg_encode_var(void *db, signed long int varnr)
 // file dbdata.c line 2009
 signed long int wg_encode_xmlliteral(void *db, char *str, char *xsdtype)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_encode_xmlliteral");
     return (signed long int)0xff;
@@ -14055,9 +14055,9 @@ signed long int wg_encode_xmlliteral(void *db, char *str, char *xsdtype)
 
       else
       {
-        signed long int return_value_wg_encode_unistr$2;
-        return_value_wg_encode_unistr$2=wg_encode_unistr(db, str, xsdtype, (signed long int)6);
-        return return_value_wg_encode_unistr$2;
+        signed long int return_value_wg_encode_unistr_2;
+        return_value_wg_encode_unistr_2=wg_encode_unistr(db, str, xsdtype, (signed long int)6);
+        return return_value_wg_encode_unistr_2;
       }
 }
 
@@ -14065,18 +14065,18 @@ signed long int wg_encode_xmlliteral(void *db, char *str, char *xsdtype)
 // file ../Db/dblock.h line 76
 signed long int wg_end_read(void *db, signed long int lock)
 {
-  signed long int return_value_db_tfqueue_rulock$1;
-  return_value_db_tfqueue_rulock$1=db_tfqueue_rulock(db, lock);
-  return return_value_db_tfqueue_rulock$1;
+  signed long int return_value_db_tfqueue_rulock_1;
+  return_value_db_tfqueue_rulock_1=db_tfqueue_rulock(db, lock);
+  return return_value_db_tfqueue_rulock_1;
 }
 
 // wg_end_write
 // file ../Db/dblock.h line 74
 signed long int wg_end_write(void *db, signed long int lock)
 {
-  signed long int return_value_db_tfqueue_wulock$1;
-  return_value_db_tfqueue_wulock$1=db_tfqueue_wulock(db, lock);
-  return return_value_db_tfqueue_wulock$1;
+  signed long int return_value_db_tfqueue_wulock_1;
+  return_value_db_tfqueue_wulock_1=db_tfqueue_wulock(db, lock);
+  return return_value_db_tfqueue_wulock_1;
 }
 
 // wg_export_db_csv
@@ -14104,29 +14104,29 @@ void wg_export_db_csv(void *db, char *filename)
 
 // wg_fetch
 // file dbquery.c line 976
-void * wg_fetch(void *db, struct anonymous$15 *query)
+void * wg_fetch(void *db, struct anonymous_15 *query)
 {
   void *rec;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed long int return_value_check_arglist$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  signed long int return_value_check_arglist$5;
-  signed long int tmp_post$7;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed long int return_value_check_arglist_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  signed long int return_value_check_arglist_5;
+  signed long int tmp_post_7;
+  if(!tmp_if_expr_1)
   {
     fprintf(stderr, "Invalid database pointer in wg_fetch.\n");
     return (void *)0;
   }
 
   else
-    if(query == ((struct anonymous$15 *)NULL))
+    if(query == ((struct anonymous_15 *)NULL))
     {
       show_query_error(db, "Invalid query object");
       return (void *)0;
@@ -14141,22 +14141,22 @@ void * wg_fetch(void *db, struct anonymous$15 *query)
           if(query->curr_record == 0l)
             return (void *)0;
 
-          rec = (void *)((char *)((struct anonymous$6 *)db)->db + query->curr_record);
+          rec = (void *)((char *)((struct anonymous_6 *)db)->db + query->curr_record);
           next=wg_get_next_record(db, rec);
           if(!(next == NULL))
-            query->curr_record = (signed long int)((char *)next - (char *)((struct anonymous$6 *)db)->db);
+            query->curr_record = (signed long int)((char *)next - (char *)((struct anonymous_6 *)db)->db);
 
           else
             query->curr_record = (signed long int)0;
-          if(query->arglist == ((struct anonymous$12 *)NULL))
-            tmp_if_expr$3 = (_Bool)1;
+          if(query->arglist == ((struct anonymous_12 *)NULL))
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
-            return_value_check_arglist$2=check_arglist(db, rec, query->arglist, query->argc);
-            tmp_if_expr$3 = return_value_check_arglist$2 != 0l ? (_Bool)1 : (_Bool)0;
+            return_value_check_arglist_2=check_arglist(db, rec, query->arglist, query->argc);
+            tmp_if_expr_3 = return_value_check_arglist_2 != 0l ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
             return rec;
 
         }
@@ -14171,14 +14171,14 @@ void * wg_fetch(void *db, struct anonymous$15 *query)
             if(query->curr_offset == 0l)
               return (void *)0;
 
-            node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + query->curr_offset);
-            rec = (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[query->curr_slot]);
+            node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + query->curr_offset);
+            rec = (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[query->curr_slot]);
             if(query->curr_offset == query->end_offset)
-              tmp_if_expr$4 = query->curr_slot == query->end_slot ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = query->curr_slot == query->end_slot ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
               query->curr_offset = (signed long int)0;
 
             else
@@ -14197,7 +14197,7 @@ void * wg_fetch(void *db, struct anonymous$15 *query)
                   query->curr_offset = node->pred_offset;
                   if(!(query->curr_offset == 0l))
                   {
-                    node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + query->curr_offset);
+                    node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + query->curr_offset);
                     query->curr_slot = (signed long int)((signed int)node->number_of_elements - 1);
                   }
 
@@ -14221,15 +14221,15 @@ void * wg_fetch(void *db, struct anonymous$15 *query)
                 }
 
             }
-            if(query->arglist == ((struct anonymous$12 *)NULL))
-              tmp_if_expr$6 = (_Bool)1;
+            if(query->arglist == ((struct anonymous_12 *)NULL))
+              tmp_if_expr_6 = (_Bool)1;
 
             else
             {
-              return_value_check_arglist$5=check_arglist(db, rec, query->arglist, query->argc);
-              tmp_if_expr$6 = return_value_check_arglist$5 != 0l ? (_Bool)1 : (_Bool)0;
+              return_value_check_arglist_5=check_arglist(db, rec, query->arglist, query->argc);
+              tmp_if_expr_6 = return_value_check_arglist_5 != 0l ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$6)
+            if(tmp_if_expr_6)
               return rec;
 
           }
@@ -14241,9 +14241,9 @@ void * wg_fetch(void *db, struct anonymous$15 *query)
         {
           struct __query_result_page *currpage = (struct __query_result_page *)query->curr_page;
           signed long int offset;
-          tmp_post$7 = query->curr_pidx;
+          tmp_post_7 = query->curr_pidx;
           query->curr_pidx = query->curr_pidx + 1l;
-          offset = currpage->rows[tmp_post$7];
+          offset = currpage->rows[tmp_post_7];
           if(offset == 0l)
           {
             query->curr_page = (void *)0;
@@ -14257,7 +14257,7 @@ void * wg_fetch(void *db, struct anonymous$15 *query)
               query->curr_pidx = (signed long int)0;
             }
 
-          return (void *)((char *)((struct anonymous$6 *)db)->db + offset);
+          return (void *)((char *)((struct anonymous_6 *)db)->db + offset);
         }
 
         else
@@ -14276,9 +14276,9 @@ void * wg_fetch(void *db, struct anonymous$15 *query)
 // file dbschema.h line 48
 void * wg_find_document(void *db, void *rec)
 {
-  void *return_value_find_document_recursive$1;
-  return_value_find_document_recursive$1=find_document_recursive(db, (signed long int *)rec, 7 - 1);
-  return return_value_find_document_recursive$1;
+  void *return_value_find_document_recursive_1;
+  return_value_find_document_recursive_1=find_document_recursive(db, (signed long int *)rec, 7 - 1);
+  return return_value_find_document_recursive_1;
 }
 
 // wg_find_record
@@ -14336,19 +14336,19 @@ void * wg_find_record(void *db, signed long int fieldnr, signed long int cond, s
         return (void *)0;
       }
     }
-    signed long int return_value_find_ttree_bounds$1;
-    return_value_find_ttree_bounds$1=find_ttree_bounds(db, index_id, fieldnr, start_bound, end_bound, (signed long int)start_inclusive, (signed long int)end_inclusive, &curr_offset, &curr_slot, &end_offset, &end_slot);
-    if(!(return_value_find_ttree_bounds$1 == 0l))
+    signed long int return_value_find_ttree_bounds_1;
+    return_value_find_ttree_bounds_1=find_ttree_bounds(db, index_id, fieldnr, start_bound, end_bound, (signed long int)start_inclusive, (signed long int)end_inclusive, &curr_offset, &curr_slot, &end_offset, &end_slot);
+    if(!(return_value_find_ttree_bounds_1 == 0l))
       return (void *)0;
 
     while(!(curr_offset == 0l))
     {
-      struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + curr_offset);
-      void *wg_find_record$$1$$2$$3$$rec = (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[curr_slot]);
+      struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + curr_offset);
+      void *wg_find_record__1__2__3__rec = (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[curr_slot]);
       if(prev == lastrecord)
-        return wg_find_record$$1$$2$$3$$rec;
+        return wg_find_record__1__2__3__rec;
 
-      prev = wg_find_record$$1$$2$$3$$rec;
+      prev = wg_find_record__1__2__3__rec;
       if(curr_offset == end_offset && curr_slot == end_slot)
         break;
 
@@ -14376,7 +14376,7 @@ void * wg_find_record(void *db, signed long int fieldnr, signed long int cond, s
 
   else
   {
-    struct anonymous$12 arg;
+    struct anonymous_12 arg;
     void *rec;
     if(!(lastrecord == NULL))
       rec=wg_get_next_record(db, lastrecord);
@@ -14388,9 +14388,9 @@ void * wg_find_record(void *db, signed long int fieldnr, signed long int cond, s
     arg.value = data;
     while(!(rec == NULL))
     {
-      signed long int return_value_check_arglist$2;
-      return_value_check_arglist$2=check_arglist(db, rec, &arg, (signed long int)1);
-      if(!(return_value_check_arglist$2 == 0l))
+      signed long int return_value_check_arglist_2;
+      return_value_check_arglist_2=check_arglist(db, rec, &arg, (signed long int)1);
+      if(!(return_value_check_arglist_2 == 0l))
         return rec;
 
       rec=wg_get_next_record(db, rec);
@@ -14540,11 +14540,11 @@ void * wg_find_record_xmlliteral(void *db, signed long int fieldnr, signed long 
 // file dbhash.h line 51
 signed long int wg_find_strhash_bucket(void *db, char *data, char *extrastr, signed long int type, signed long int size, signed long int hashchain)
 {
-  for( ; !(hashchain == 0l); hashchain = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(hashchain & (signed long int)~0x7) + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ))))
+  for( ; !(hashchain == 0l); hashchain = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(hashchain & (signed long int)~0x7) + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ))))
   {
-    signed int return_value_wg_right_strhash_bucket$1;
-    return_value_wg_right_strhash_bucket$1=wg_right_strhash_bucket(db, hashchain, data, extrastr, type, size);
-    if(!(return_value_wg_right_strhash_bucket$1 == 0))
+    signed int return_value_wg_right_strhash_bucket_1;
+    return_value_wg_right_strhash_bucket_1=wg_right_strhash_bucket(db, hashchain, data, extrastr, type, size);
+    if(!(return_value_wg_right_strhash_bucket_1 == 0))
       return hashchain;
 
   }
@@ -14571,9 +14571,9 @@ void wg_fprint_record_csv(void *db, signed long int *rec, struct _IO_FILE *f)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)4096);
-    strbuf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)4096);
+    strbuf = (char *)return_value_malloc_1;
     if(strbuf == ((char *)NULL))
       show_io_error(db, "Failed to allocate memory");
 
@@ -14599,21 +14599,21 @@ void wg_fprint_record_csv(void *db, signed long int *rec, struct _IO_FILE *f)
 // file dballoc.c line 830
 void wg_free_doubleword(void *db, signed long int offset)
 {
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->doubleword_area_header.freelist;
-  ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->doubleword_area_header.freelist = offset;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->doubleword_area_header.freelist;
+  ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->doubleword_area_header.freelist = offset;
 }
 
 // wg_free_encoded
 // file dbdata.c line 1178
 signed long int wg_free_encoded(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_free_encoded");
     return (signed long int)0;
@@ -14626,13 +14626,13 @@ signed long int wg_free_encoded(void *db, signed long int data)
       signed long int *strptr;
       if((7l & data) == 4l)
       {
-        strptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+        strptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
         strptr[(signed long int)2] = strptr[(signed long int)2] + 1l;
       }
 
-      signed long int return_value_free_field_encoffset$2;
-      return_value_free_field_encoffset$2=free_field_encoffset(db, data);
-      return return_value_free_field_encoffset$2;
+      signed long int return_value_free_field_encoffset_2;
+      return_value_free_field_encoffset_2=free_field_encoffset(db, data);
+      return return_value_free_field_encoffset_2;
     }
 
     return (signed long int)0;
@@ -14643,7 +14643,7 @@ signed long int wg_free_encoded(void *db, signed long int data)
 // file dballoc.c line 852
 void wg_free_fixlen_object(void *db, struct _db_area_header *hdr, signed long int offset)
 {
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = hdr->freelist;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = hdr->freelist;
   hdr->freelist = offset;
 }
 
@@ -14651,8 +14651,8 @@ void wg_free_fixlen_object(void *db, struct _db_area_header *hdr, signed long in
 // file dballoc.c line 794
 void wg_free_listcell(void *db, signed long int offset)
 {
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->listcell_area_header.freelist;
-  ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->listcell_area_header.freelist = offset;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->listcell_area_header.freelist;
+  ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->listcell_area_header.freelist = offset;
 }
 
 // wg_free_mpool
@@ -14660,7 +14660,7 @@ void wg_free_listcell(void *db, signed long int offset)
 void wg_free_mpool(void *db, void *mpool)
 {
   signed int i;
-  struct anonymous$8 *mpoolh = (struct anonymous$8 *)mpool;
+  struct anonymous_8 *mpoolh = (struct anonymous_8 *)mpool;
   i = mpoolh->cur_subarea;
   for( ; i >= 1; i = i - 1)
     free(mpoolh->subarea_table[(signed long int)i].area_start);
@@ -14693,14 +14693,14 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
   signed long int dvsize;
   signed long int tmp;
   areah = (struct _db_area_header *)area_header;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     show_dballoc_error(db, "wg_free_object first arg is not a db address");
     return (signed long int)-1;
@@ -14708,7 +14708,7 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
 
   else
   {
-    objecthead = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + object));
+    objecthead = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + object));
     if((3l & objecthead) == 1l)
     {
       show_dballoc_error(db, "wg_free_object second arg is already a free object");
@@ -14729,32 +14729,32 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
         freebuckets = areah->freebuckets;
         if((3l & objecthead) == 2l)
         {
-          prevobjectsize = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)object - sizeof(signed long int) /*8ul*/ ))) & (signed long int)~3;
+          prevobjectsize = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)object - sizeof(signed long int) /*8ul*/ ))) & (signed long int)~3;
           prevobject = object - prevobjectsize;
-          prevobjecthead = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + prevobject));
+          prevobjecthead = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + prevobject));
           if((signed long int)((-4l & prevobject) == 0l) == prevobjectsize || !((3l & prevobjecthead) == 1l))
           {
             show_dballoc_error(db, "wg_free_object notices corruption: previous object is not ok free object");
             return (signed long int)-4;
           }
 
-          prevnextptr = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)prevobject + sizeof(signed long int) /*8ul*/ )));
-          prevprevptr = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)prevobject + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
+          prevnextptr = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)prevobject + sizeof(signed long int) /*8ul*/ )));
+          prevprevptr = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)prevobject + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
           previndex=wg_freebuckets_index(db, prevobjectsize);
           freelist = freebuckets[previndex];
           if(freelist == prevobject)
           {
             freebuckets[previndex] = prevnextptr;
             if(!(prevnextptr == 0l))
-              *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)prevnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = prevprevptr;
+              *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)prevnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = prevprevptr;
 
           }
 
           else
           {
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)prevprevptr + sizeof(signed long int) /*8ul*/ ))) = prevnextptr;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)prevprevptr + sizeof(signed long int) /*8ul*/ ))) = prevnextptr;
             if(!(prevnextptr == 0l))
-              *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)prevnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = prevprevptr;
+              *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)prevnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = prevprevptr;
 
           }
           object = prevobject;
@@ -14767,33 +14767,33 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
             object = freebuckets[(signed long int)(256 + 32)];
             size = size + freebuckets[(signed long int)(256 + 32 + 1)];
             freebuckets[(signed long int)(256 + 32 + 1)] = size;
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + object)) = size | (signed long int)3;
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + object)) = size | (signed long int)3;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
             return (signed long int)0;
           }
 
         nextobject = object + size;
-        nextobjecthead = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject));
+        nextobjecthead = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject));
         if((3l & nextobjecthead) == 1l)
         {
           size = size + (nextobjecthead & (signed long int)~3);
-          nextnextptr = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)nextobject + sizeof(signed long int) /*8ul*/ )));
-          nextprevptr = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)nextobject + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
+          nextnextptr = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)nextobject + sizeof(signed long int) /*8ul*/ )));
+          nextprevptr = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)nextobject + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
           nextindex=wg_freebuckets_index(db, nextobjecthead & (signed long int)~3);
           freelist = freebuckets[nextindex];
           if(freelist == nextobject)
           {
             freebuckets[nextindex] = nextnextptr;
             if(!(nextnextptr == 0l))
-              *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)nextnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = nextprevptr;
+              *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)nextnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = nextprevptr;
 
           }
 
           else
           {
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)nextprevptr + sizeof(signed long int) /*8ul*/ ))) = nextnextptr;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)nextprevptr + sizeof(signed long int) /*8ul*/ ))) = nextnextptr;
             if(!(nextnextptr == 0l))
-              *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)nextnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = nextprevptr;
+              *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)nextnextptr + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = nextprevptr;
 
           }
         }
@@ -14801,23 +14801,23 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
         else
         {
           if((3l & nextobjecthead) == 3l)
-            tmp_if_expr$2 = nextobject == freebuckets[(signed long int)(256 + 32)] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = nextobject == freebuckets[(signed long int)(256 + 32)] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
           {
             size = size + freebuckets[(signed long int)(256 + 32 + 1)];
             freebuckets[(signed long int)(256 + 32)] = object;
             freebuckets[(signed long int)(256 + 32 + 1)] = size;
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + object)) = size | (signed long int)3;
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + object)) = size | (signed long int)3;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
             return (signed long int)0;
           }
 
           else
             if((1l & nextobjecthead) == 0l)
-              *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject)) = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject)) & (signed long int)~3 | (signed long int)2;
+              *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject)) = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject)) & (signed long int)~3 | (signed long int)2;
 
         }
         if(!(freebuckets[289l] >= size))
@@ -14826,20 +14826,20 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
           dvsize = freebuckets[(signed long int)(256 + 32 + 1)];
           freebuckets[(signed long int)(256 + 32)] = object;
           freebuckets[(signed long int)(256 + 32 + 1)] = size;
-          *((signed long int *)((char *)((struct anonymous$6 *)db)->db + object)) = size | (signed long int)3;
-          *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
+          *((signed long int *)((char *)((struct anonymous_6 *)db)->db + object)) = size | (signed long int)3;
+          *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = (signed long int)1;
           nextobject = object + size;
-          tmp = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject));
+          tmp = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject));
           if((1l & tmp) == 0l)
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject)) = tmp & (signed long int)~3;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject)) = tmp & (signed long int)~3;
 
           if(dv == 0l)
             return (signed long int)0;
 
           nextobject = dv + dvsize;
-          tmp = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject));
+          tmp = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject));
           if((1l & tmp) == 0l)
-            *((signed long int *)((char *)((struct anonymous$6 *)db)->db + nextobject)) = tmp & (signed long int)~3 | (signed long int)2;
+            *((signed long int *)((char *)((struct anonymous_6 *)db)->db + nextobject)) = tmp & (signed long int)~3 | (signed long int)2;
 
           object = dv;
           size = dvsize;
@@ -14848,12 +14848,12 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
         i=wg_freebuckets_index(db, size);
         bucketfreelist = freebuckets[i];
         if(!(bucketfreelist == 0l))
-          *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucketfreelist + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = object;
+          *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucketfreelist + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = object;
 
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + object)) = size & (signed long int)~3 | (signed long int)1;
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(object + size) - sizeof(signed long int) /*8ul*/ ))) = size & (signed long int)~3 | (signed long int)1;
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = bucketfreelist;
-        *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)object + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[i] - (char *)((struct anonymous$6 *)db)->db);
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + object)) = size & (signed long int)~3 | (signed long int)1;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(object + size) - sizeof(signed long int) /*8ul*/ ))) = size & (signed long int)~3 | (signed long int)1;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)object + sizeof(signed long int) /*8ul*/ ))) = bucketfreelist;
+        *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)object + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)((char *)&freebuckets[i] - (char *)((struct anonymous_6 *)db)->db);
         freebuckets[i] = object;
         return (signed long int)0;
       }
@@ -14863,9 +14863,9 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
 
 // wg_free_query
 // file dbquery.c line 1108
-void wg_free_query(void *db, struct anonymous$15 *query)
+void wg_free_query(void *db, struct anonymous_15 *query)
 {
-  if(!(query->arglist == ((struct anonymous$12 *)NULL)))
+  if(!(query->arglist == ((struct anonymous_12 *)NULL)))
     free((void *)query->arglist);
 
   if(query->qtype == 128l)
@@ -14882,13 +14882,13 @@ void wg_free_query(void *db, struct anonymous$15 *query)
 // file dbquery.c line 1294
 signed long int wg_free_query_param(void *db, signed long int data)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_query_error(db, "wrong database pointer given to wg_free_query_param");
     return (signed long int)0;
@@ -14906,19 +14906,19 @@ signed long int wg_free_query_param(void *db, signed long int data)
         case (signed long int)0x6:
         {
           offset = data & (signed long int)~0x7;
-          free((void *)((char *)((struct anonymous$6 *)db)->db + offset));
+          free((void *)((char *)((struct anonymous_6 *)db)->db + offset));
           break;
         }
         case (signed long int)0x4:
         {
           offset = data & (signed long int)~0x7;
-          free((void *)((char *)((struct anonymous$6 *)db)->db + offset));
+          free((void *)((char *)((struct anonymous_6 *)db)->db + offset));
           break;
         }
         case (signed long int)0x2:
         {
           offset = data & (signed long int)~0x7;
-          free((void *)((char *)((struct anonymous$6 *)db)->db + offset));
+          free((void *)((char *)((struct anonymous_6 *)db)->db + offset));
           break;
         }
         case (signed long int)0x1:
@@ -14926,7 +14926,7 @@ signed long int wg_free_query_param(void *db, signed long int data)
         case (signed long int)0x5:
         {
           offset = data & (signed long int)~0x3;
-          free((void *)((char *)((struct anonymous$6 *)db)->db + offset));
+          free((void *)((char *)((struct anonymous_6 *)db)->db + offset));
           break;
         }
         default:
@@ -14942,24 +14942,24 @@ signed long int wg_free_query_param(void *db, signed long int data)
 // file dballoc.c line 806
 void wg_free_shortstr(void *db, signed long int offset)
 {
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->shortstr_area_header.freelist;
-  ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->shortstr_area_header.freelist = offset;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->shortstr_area_header.freelist;
+  ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->shortstr_area_header.freelist = offset;
 }
 
 // wg_free_tnode
 // file dballoc.c line 841
 void wg_free_tnode(void *db, signed long int offset)
 {
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->tnode_area_header.freelist;
-  ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->tnode_area_header.freelist = offset;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->tnode_area_header.freelist;
+  ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->tnode_area_header.freelist = offset;
 }
 
 // wg_free_word
 // file dballoc.c line 817
 void wg_free_word(void *db, signed long int offset)
 {
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->word_area_header.freelist;
-  ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->word_area_header.freelist = offset;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + offset)) = ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->word_area_header.freelist;
+  ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->word_area_header.freelist = offset;
 }
 
 // wg_freebuckets_index
@@ -14991,19 +14991,19 @@ signed long int wg_freebuckets_index(void *db, signed long int size)
 void * wg_get_all_indexes(void *db, signed long int *count)
 {
   signed int column;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int *ilist;
   signed long int *res;
   *count = (signed long int)0;
-  signed long int tmp_post$2;
+  signed long int tmp_post_2;
   if(dbh->index_control_area_header.number_of_indexes == 0l)
     return (void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)dbh->index_control_area_header.number_of_indexes * sizeof(signed long int) /*8ul*/ );
-    res = (signed long int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)dbh->index_control_area_header.number_of_indexes * sizeof(signed long int) /*8ul*/ );
+    res = (signed long int *)return_value_malloc_1;
     if(res == ((signed long int *)NULL))
     {
       show_index_error(db, "Memory allocation failed");
@@ -15018,12 +15018,12 @@ void * wg_get_all_indexes(void *db, signed long int *count)
         ilist = &dbh->index_control_area_header.index_table[(signed long int)column];
         while(!(*ilist == 0l))
         {
-          struct anonymous$20 *ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+          struct anonymous_20 *ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
           if(!(ilistelem->car == 0l))
           {
-            tmp_post$2 = *count;
+            tmp_post_2 = *count;
             *count = *count + 1l;
-            res[tmp_post$2] = ilistelem->car;
+            res[tmp_post_2] = ilistelem->car;
           }
 
           ilist = &ilistelem->cdr;
@@ -15048,13 +15048,13 @@ signed long int wg_get_encoded_type(void *db, signed long int data)
 {
   signed long int fieldoffset;
   signed long int tmp;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_get_encoded_type");
     return (signed long int)0;
@@ -15103,7 +15103,7 @@ signed long int wg_get_encoded_type(void *db, signed long int data)
           case (signed long int)0x4:
           {
             fieldoffset = (signed long int)((unsigned long int)(data & (signed long int)~0x7) + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ );
-            tmp = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + fieldoffset));
+            tmp = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + fieldoffset));
             return tmp & (signed long int)0xFF;
           }
           case (signed long int)0x6:
@@ -15125,14 +15125,14 @@ signed long int wg_get_encoded_type(void *db, signed long int data)
 // file ../Db/dbdata.h line 118
 signed long int wg_get_field(void *db, void *record, signed long int fieldnr)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     show_data_error_nr(db, "wrong database pointer given to wg_get_field", fieldnr);
     return (signed long int)0xff;
@@ -15141,11 +15141,11 @@ signed long int wg_get_field(void *db, void *record, signed long int fieldnr)
   else
   {
     if(!(fieldnr >= 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       show_data_error_nr(db, "wrong field number given to wg_get_field", fieldnr);
       return (signed long int)0xff;
@@ -15160,14 +15160,14 @@ signed long int wg_get_field(void *db, void *record, signed long int fieldnr)
 // file ../Db/dbdata.h line 119
 signed long int wg_get_field_type(void *db, void *record, signed long int fieldnr)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     show_data_error_nr(db, "wrong database pointer given to wg_get_field_type", fieldnr);
     return (signed long int)0;
@@ -15176,11 +15176,11 @@ signed long int wg_get_field_type(void *db, void *record, signed long int fieldn
   else
   {
     if(!(fieldnr >= 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       show_data_error_nr(db, "wrong field number given to wg_get_field_type", fieldnr);
       return (signed long int)0;
@@ -15188,9 +15188,9 @@ signed long int wg_get_field_type(void *db, void *record, signed long int fieldn
 
     else
     {
-      signed long int return_value_wg_get_encoded_type$3;
-      return_value_wg_get_encoded_type$3=wg_get_encoded_type(db, ((signed long int *)record + (signed long int)3)[fieldnr]);
-      return return_value_wg_get_encoded_type$3;
+      signed long int return_value_wg_get_encoded_type_3;
+      return_value_wg_get_encoded_type_3=wg_get_encoded_type(db, ((signed long int *)record + (signed long int)3)[fieldnr]);
+      return return_value_wg_get_encoded_type_3;
     }
   }
 }
@@ -15200,13 +15200,13 @@ signed long int wg_get_field_type(void *db, void *record, signed long int fieldn
 void * wg_get_first_parent(void *db, void *record)
 {
   signed long int backlink_list;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "invalid database pointer given to wg_get_first_parent");
     return (void *)0;
@@ -15217,8 +15217,8 @@ void * wg_get_first_parent(void *db, void *record)
     backlink_list = ((signed long int *)record)[(signed long int)2];
     if(!(backlink_list == 0l))
     {
-      struct anonymous$20 *cell = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
-      return (void *)((char *)((struct anonymous$6 *)db)->db + cell->car);
+      struct anonymous_20 *cell = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
+      return (void *)((char *)((struct anonymous_6 *)db)->db + cell->car);
     }
 
     return (void *)0;
@@ -15232,13 +15232,13 @@ void * wg_get_first_raw_record(void *db)
   struct _db_subarea_header *arrayadr;
   signed long int firstoffset;
   void *res;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_get_first_record");
     return (void *)0;
@@ -15246,9 +15246,9 @@ void * wg_get_first_raw_record(void *db)
 
   else
   {
-    arrayadr = &((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->datarec_area_header.subarea_array[(signed long int)0];
+    arrayadr = &((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->datarec_area_header.subarea_array[(signed long int)0];
     firstoffset = (arrayadr + (signed long int)0)->alignedoffset;
-    res=wg_get_next_raw_record(db, (void *)((char *)((struct anonymous$6 *)db)->db + firstoffset));
+    res=wg_get_next_raw_record(db, (void *)((char *)((struct anonymous_6 *)db)->db + firstoffset));
     return res;
   }
 }
@@ -15259,14 +15259,14 @@ void * wg_get_first_record(void *db)
 {
   void *res;
   res=wg_get_first_raw_record(db);
-  void *return_value_wg_get_next_record$1;
+  void *return_value_wg_get_next_record_1;
   if(!(res == NULL))
   {
     if((1l & ((signed long int *)res)[1l]) == 0l)
       goto __CPROVER_DUMP_L1;
 
-    return_value_wg_get_next_record$1=wg_get_next_record(db, res);
-    return return_value_wg_get_next_record$1;
+    return_value_wg_get_next_record_1=wg_get_next_record(db, res);
+    return return_value_wg_get_next_record_1;
   }
 
   else
@@ -15282,24 +15282,24 @@ void * wg_get_first_record(void *db)
 // file dbindex.c line 2524
 void * wg_get_index_template(void *db, signed long int index_id, signed long int *reclen)
 {
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)0;
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)0;
   signed long int *ilist;
-  struct anonymous$20 *ilistelem;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  struct anonymous$22 *tmpl = (struct anonymous$22 *)(void *)0;
+  struct anonymous_20 *ilistelem;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  struct anonymous_22 *tmpl = (struct anonymous_22 *)(void *)0;
   void *matchrec;
   ilist = &dbh->index_control_area_header.index_list;
   for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
   {
-    ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+    ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
     if(ilistelem->car == index_id)
     {
-      hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+      hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
       break;
     }
 
   }
-  if(hdr == ((struct anonymous$21 *)NULL))
+  if(hdr == ((struct anonymous_21 *)NULL))
   {
     show_index_error_nr(db, "Invalid index_id", index_id);
     return (void *)0;
@@ -15311,7 +15311,7 @@ void * wg_get_index_template(void *db, signed long int index_id, signed long int
 
     else
     {
-      tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset);
+      tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset);
       if(tmpl->offset_matchrec == 0l)
       {
         show_index_error(db, "Invalid match record template");
@@ -15320,11 +15320,11 @@ void * wg_get_index_template(void *db, signed long int index_id, signed long int
 
       else
       {
-        matchrec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
+        matchrec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
         *reclen=wg_get_record_len(db, matchrec);
-        signed long int *return_value_wg_get_record_dataarray$1;
-        return_value_wg_get_record_dataarray$1=wg_get_record_dataarray(db, matchrec);
-        return (void *)return_value_wg_get_record_dataarray$1;
+        signed long int *return_value_wg_get_record_dataarray_1;
+        return_value_wg_get_record_dataarray_1=wg_get_record_dataarray(db, matchrec);
+        return (void *)return_value_wg_get_record_dataarray_1;
       }
     }
 }
@@ -15333,22 +15333,22 @@ void * wg_get_index_template(void *db, signed long int index_id, signed long int
 // file dbindex.c line 2490
 signed long int wg_get_index_type(void *db, signed long int index_id)
 {
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)0;
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)0;
   signed long int *ilist;
-  struct anonymous$20 *ilistelem;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct anonymous_20 *ilistelem;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   ilist = &dbh->index_control_area_header.index_list;
   for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
   {
-    ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+    ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
     if(ilistelem->car == index_id)
     {
-      hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+      hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
       break;
     }
 
   }
-  if(hdr == ((struct anonymous$21 *)NULL))
+  if(hdr == ((struct anonymous_21 *)NULL))
   {
     show_index_error_nr(db, "Invalid index_id", index_id);
     return (signed long int)-1;
@@ -15363,13 +15363,13 @@ signed long int wg_get_index_type(void *db, signed long int index_id)
 void * wg_get_next_parent(void *db, void *record, void *parent)
 {
   signed long int backlink_list;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "invalid database pointer given to wg_get_next_parent");
     return (void *)0;
@@ -15380,15 +15380,15 @@ void * wg_get_next_parent(void *db, void *record, void *parent)
     backlink_list = ((signed long int *)record)[(signed long int)2];
     if(!(backlink_list == 0l))
     {
-      struct anonymous$20 *next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
+      struct anonymous_20 *next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
       while(!(next->cdr == 0l))
       {
-        void *pp = (void *)((char *)((struct anonymous$6 *)db)->db + next->car);
-        next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + next->cdr);
+        void *pp = (void *)((char *)((struct anonymous_6 *)db)->db + next->car);
+        next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + next->cdr);
         if(pp == parent)
         {
           if(!(next->car == 0l))
-            return (void *)((char *)((struct anonymous$6 *)db)->db + next->car);
+            return (void *)((char *)((struct anonymous_6 *)db)->db + next->car);
 
         }
 
@@ -15412,14 +15412,14 @@ void * wg_get_next_raw_record(void *db, void *record)
   signed long int subareastart;
   signed long int subareaend;
   signed long int freemarker;
-  curoffset = (signed long int)((char *)record - (char *)((struct anonymous$6 *)db)->db);
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  curoffset = (signed long int)((char *)record - (char *)((struct anonymous_6 *)db)->db);
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_get_first_record");
     return (void *)0;
@@ -15427,7 +15427,7 @@ void * wg_get_next_raw_record(void *db, void *record)
 
   else
   {
-    head = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + curoffset));
+    head = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + curoffset));
     if((3l & head) == 1l)
     {
       show_data_error(db, "wrong record pointer (free) given to wg_get_next_record");
@@ -15437,13 +15437,13 @@ void * wg_get_next_raw_record(void *db, void *record)
     else
     {
       freemarker = (signed long int)0;
-      head = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + curoffset));
+      head = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + curoffset));
       while((_Bool)1)
       {
         curoffset = curoffset + (freemarker != 0l ? head & (signed long int)~3 : ((head & (signed long int)~3) <= (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/  ? (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/  : ((head & (signed long int)~3) % (signed long int)8 != 0l ? (head & (signed long int)~3) + (signed long int)4 : head & (signed long int)~3)));
-        head = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + curoffset));
+        head = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + curoffset));
         if((1l & head) == 0l)
-          return (void *)((char *)((struct anonymous$6 *)db)->db + curoffset);
+          return (void *)((char *)((struct anonymous_6 *)db)->db + curoffset);
 
         if((3l & head) == 1l)
           freemarker = (signed long int)1;
@@ -15451,13 +15451,13 @@ void * wg_get_next_raw_record(void *db, void *record)
         else
         {
           freemarker = (signed long int)0;
-          if(*((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)sizeof(signed long int) /*8l*/  + (signed long int)(unsigned long int)curoffset)) == 1l)
+          if(*((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)sizeof(signed long int) /*8l*/  + (signed long int)(unsigned long int)curoffset)) == 1l)
             continue;
 
           else
           {
-            arrayadr = &((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->datarec_area_header.subarea_array[(signed long int)0];
-            last_subarea_index = ((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->datarec_area_header.last_subarea_index;
+            arrayadr = &((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->datarec_area_header.subarea_array[(signed long int)0];
+            last_subarea_index = ((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->datarec_area_header.last_subarea_index;
             found = (signed long int)0;
             i = (signed long int)0;
             for( ; last_subarea_index >= i && !(i >= 64l); i = i + 1l)
@@ -15482,7 +15482,7 @@ void * wg_get_next_raw_record(void *db, void *record)
               return (void *)0;
 
             curoffset = (arrayadr + i)->alignedoffset;
-            head = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + curoffset));
+            head = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + curoffset));
           }
         }
       }
@@ -15495,17 +15495,17 @@ void * wg_get_next_raw_record(void *db, void *record)
 void * wg_get_next_record(void *db, void *record)
 {
   void *res = record;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     res=wg_get_next_raw_record(db, res);
     if(!(res == NULL))
-      tmp_if_expr$1 = (((signed long int *)res)[(signed long int)1] & (signed long int)0x1) != 0l ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (((signed long int *)res)[(signed long int)1] & (signed long int)0x1) != 0l ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   return res;
 }
 
@@ -15514,19 +15514,19 @@ void * wg_get_next_record(void *db, void *record)
 void * wg_get_rec_owner(void *db, void *rec)
 {
   signed int i;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  if(!((signed long int)(unsigned long int)((struct anonymous$6 *)db)->db >= (signed long int)rec))
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  if(!((signed long int)(unsigned long int)((struct anonymous_6 *)db)->db >= (signed long int)rec))
   {
-    void *wg_get_rec_owner$$1$$1$$eodb = (void *)((char *)((struct anonymous$6 *)db)->db + dbh->size);
-    if(!((signed long int)rec >= (signed long int)wg_get_rec_owner$$1$$1$$eodb))
-      return (void *)((struct anonymous$6 *)db)->db;
+    void *wg_get_rec_owner__1__1__eodb = (void *)((char *)((struct anonymous_6 *)db)->db + dbh->size);
+    if(!((signed long int)rec >= (signed long int)wg_get_rec_owner__1__1__eodb))
+      return (void *)((struct anonymous_6 *)db)->db;
 
   }
 
   i = 0;
   for( ; !((signed long int)i >= dbh->extdbs.count); i = i + 1)
   {
-    void *base = (void *)((char *)((struct anonymous$6 *)db)->db + dbh->extdbs.offset[(signed long int)i]);
+    void *base = (void *)((char *)((struct anonymous_6 *)db)->db + dbh->extdbs.offset[(signed long int)i]);
     void *eodb = (void *)((char *)base + dbh->extdbs.size[(signed long int)i]);
     if(!((signed long int)base >= (signed long int)rec) && !((signed long int)rec >= (signed long int)eodb))
       return base;
@@ -15540,13 +15540,13 @@ void * wg_get_rec_owner(void *db, void *rec)
 // file dbdata.c line 590
 signed long int * wg_get_record_dataarray(void *db, void *record)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_get_record_dataarray");
     return (signed long int *)(void *)0;
@@ -15560,13 +15560,13 @@ signed long int * wg_get_record_dataarray(void *db, void *record)
 // file ../Db/dbdata.h line 103
 signed long int wg_get_record_len(void *db, void *record)
 {
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     show_data_error(db, "wrong database pointer given to wg_get_record_len");
     return (signed long int)-1;
@@ -15619,21 +15619,21 @@ char * wg_get_type_name(void *db, signed long int type)
 // file dbhash.c line 600
 signed long int wg_ginthash_addkey(void *db, void *tbl, signed long int key, signed long int val)
 {
-  unsigned long int dirsize = (unsigned long int)(1 << ((struct anonymous$35 *)tbl)->level);
+  unsigned long int dirsize = (unsigned long int)(1 << ((struct anonymous_35 *)tbl)->level);
   unsigned long int hash;
-  signed long int return_value_rehash_gint$1;
-  return_value_rehash_gint$1=rehash_gint(key);
-  hash = (unsigned long int)return_value_rehash_gint$1 & dirsize - (unsigned long int)1;
-  struct anonymous$34 *bucket = ((struct anonymous$35 *)tbl)->directory[(signed long int)hash];
-  if(bucket == ((struct anonymous$34 *)NULL))
+  signed long int return_value_rehash_gint_1;
+  return_value_rehash_gint_1=rehash_gint(key);
+  hash = (unsigned long int)return_value_rehash_gint_1 & dirsize - (unsigned long int)1;
+  struct anonymous_34 *bucket = ((struct anonymous_35 *)tbl)->directory[(signed long int)hash];
+  if(bucket == ((struct anonymous_34 *)NULL))
   {
-    bucket=ginthash_newbucket(db, (struct anonymous$35 *)tbl);
-    if(bucket == ((struct anonymous$34 *)NULL))
+    bucket=ginthash_newbucket(db, (struct anonymous_35 *)tbl);
+    if(bucket == ((struct anonymous_34 *)NULL))
       return (signed long int)-1;
 
-    bucket->level = ((struct anonymous$35 *)tbl)->level;
+    bucket->level = ((struct anonymous_35 *)tbl)->level;
     add_to_bucket(bucket, key, val);
-    ((struct anonymous$35 *)tbl)->directory[(signed long int)hash] = bucket;
+    ((struct anonymous_35 *)tbl)->directory[(signed long int)hash] = bucket;
   }
 
   else
@@ -15641,9 +15641,9 @@ signed long int wg_ginthash_addkey(void *db, void *tbl, signed long int key, sig
     add_to_bucket(bucket, key, val);
     while(bucket->fill >= 8l)
     {
-      struct anonymous$34 *newb;
-      newb=ginthash_splitbucket(db, (struct anonymous$35 *)tbl, bucket);
-      if(newb == ((struct anonymous$34 *)NULL))
+      struct anonymous_34 *newb;
+      newb=ginthash_splitbucket(db, (struct anonymous_35 *)tbl, bucket);
+      if(newb == ((struct anonymous_34 *)NULL))
         return (signed long int)-1;
 
       if(newb->fill >= 8l)
@@ -15660,11 +15660,11 @@ void wg_ginthash_free(void *db, void *tbl)
 {
   if(!(tbl == NULL))
   {
-    if(!(((struct anonymous$35 *)tbl)->directory == ((struct anonymous$34 **)NULL)))
-      free((void *)((struct anonymous$35 *)tbl)->directory);
+    if(!(((struct anonymous_35 *)tbl)->directory == ((struct anonymous_34 **)NULL)))
+      free((void *)((struct anonymous_35 *)tbl)->directory);
 
-    if(!(((struct anonymous$35 *)tbl)->mpool == NULL))
-      wg_free_mpool(db, ((struct anonymous$35 *)tbl)->mpool);
+    if(!(((struct anonymous_35 *)tbl)->mpool == NULL))
+      wg_free_mpool(db, ((struct anonymous_35 *)tbl)->mpool);
 
     free(tbl);
   }
@@ -15675,13 +15675,13 @@ void wg_ginthash_free(void *db, void *tbl)
 // file dbhash.c line 636
 signed long int wg_ginthash_getkey(void *db, void *tbl, signed long int key, signed long int *val)
 {
-  unsigned long int dirsize = (unsigned long int)(1 << ((struct anonymous$35 *)tbl)->level);
+  unsigned long int dirsize = (unsigned long int)(1 << ((struct anonymous_35 *)tbl)->level);
   unsigned long int hash;
-  signed long int return_value_rehash_gint$1;
-  return_value_rehash_gint$1=rehash_gint(key);
-  hash = (unsigned long int)return_value_rehash_gint$1 & dirsize - (unsigned long int)1;
-  struct anonymous$34 *bucket = ((struct anonymous$35 *)tbl)->directory[(signed long int)hash];
-  if(!(bucket == ((struct anonymous$34 *)NULL)))
+  signed long int return_value_rehash_gint_1;
+  return_value_rehash_gint_1=rehash_gint(key);
+  hash = (unsigned long int)return_value_rehash_gint_1 & dirsize - (unsigned long int)1;
+  struct anonymous_34 *bucket = ((struct anonymous_35 *)tbl)->directory[(signed long int)hash];
+  if(!(bucket == ((struct anonymous_34 *)NULL)))
   {
     signed int i = 0;
     for( ; !((signed long int)i >= bucket->fill); i = i + 1)
@@ -15700,11 +15700,11 @@ signed long int wg_ginthash_getkey(void *db, void *tbl, signed long int key, sig
 // file dbhash.c line 580
 void * wg_ginthash_init(void *db)
 {
-  struct anonymous$35 *tbl;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$35) /*24ul*/ );
-  tbl = (struct anonymous$35 *)return_value_malloc$1;
-  if(tbl == ((struct anonymous$35 *)NULL))
+  struct anonymous_35 *tbl;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_35) /*24ul*/ );
+  tbl = (struct anonymous_35 *)return_value_malloc_1;
+  if(tbl == ((struct anonymous_35 *)NULL))
   {
     show_ginthash_error(db, "Failed to allocate table.");
     return (void *)0;
@@ -15712,10 +15712,10 @@ void * wg_ginthash_init(void *db)
 
   else
   {
-    memset((void *)tbl, 0, sizeof(struct anonymous$35) /*24ul*/ );
-    signed long int return_value_grow_ginthash$2;
-    return_value_grow_ginthash$2=grow_ginthash(db, tbl);
-    if(!(return_value_grow_ginthash$2 == 0l))
+    memset((void *)tbl, 0, sizeof(struct anonymous_35) /*24ul*/ );
+    signed long int return_value_grow_ginthash_2;
+    return_value_grow_ginthash_2=grow_ginthash(db, tbl);
+    if(!(return_value_grow_ginthash_2 == 0l))
     {
       free((void *)tbl);
       return (void *)0;
@@ -15743,13 +15743,13 @@ signed int wg_hash_typedstr(void *db, char *data, char *extrastr, signed long in
     }
   }
 
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(extrastr == ((char *)NULL)))
     do
     {
-      tmp_post$1 = extrastr;
+      tmp_post_1 = extrastr;
       extrastr = extrastr + 1l;
-      c = (signed int)*tmp_post$1;
+      c = (signed int)*tmp_post_1;
       if(c == 0)
         break;
 
@@ -15757,7 +15757,7 @@ signed int wg_hash_typedstr(void *db, char *data, char *extrastr, signed long in
     }
     while((_Bool)1);
 
-  return (signed int)(hash % (unsigned long int)((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->strhash_area_header.arraylength);
+  return (signed int)(hash % (unsigned long int)((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->strhash_area_header.arraylength);
 }
 
 // wg_hms_to_time
@@ -15785,7 +15785,7 @@ signed long int wg_idxhash_find(void *db, struct _db_hash_area_header *ha, char 
     return (signed long int)0;
 
   else
-    return *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
+    return *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
 }
 
 // wg_idxhash_remove
@@ -15802,16 +15802,16 @@ signed long int wg_idxhash_remove(void *db, struct _db_hash_area_header *ha, cha
   bucket=find_idxhash_bucket(db, data, length, &bucket_offset);
   if(bucket == 0l)
   {
-    signed long int return_value_show_hash_error$1;
-    return_value_show_hash_error$1=show_hash_error(db, "wg_idxhash_remove: Hash value not found.");
-    return return_value_show_hash_error$1;
+    signed long int return_value_show_hash_error_1;
+    return_value_show_hash_error_1=show_hash_error(db, "wg_idxhash_remove: Hash value not found.");
+    return return_value_show_hash_error_1;
   }
 
-  reclist_offset = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ));
+  reclist_offset = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ));
   next_offset = reclist_offset;
   while(!(*next_offset == 0l))
   {
-    struct anonymous$20 *rec_cell = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *next_offset);
+    struct anonymous_20 *rec_cell = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *next_offset);
     if(rec_cell->car == offset)
     {
       signed long int rec_offset = *next_offset;
@@ -15822,17 +15822,17 @@ signed long int wg_idxhash_remove(void *db, struct _db_hash_area_header *ha, cha
 
     next_offset = &rec_cell->cdr;
   }
-  signed long int return_value_show_hash_error$2;
-  return_value_show_hash_error$2=show_hash_error(db, "wg_idxhash_remove: Offset not found");
-  return return_value_show_hash_error$2;
+  signed long int return_value_show_hash_error_2;
+  return_value_show_hash_error_2=show_hash_error(db, "wg_idxhash_remove: Offset not found");
+  return return_value_show_hash_error_2;
 
 is_bucket_empty:
   ;
   if(*reclist_offset == 0l)
   {
-    signed long int nextchain = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ )));
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + bucket_offset)) = nextchain;
-    wg_free_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->indexhash_area_header, bucket);
+    signed long int nextchain = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ )));
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + bucket_offset)) = nextchain;
+    wg_free_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->indexhash_area_header, bucket);
   }
 
   return (signed long int)0;
@@ -15842,17 +15842,17 @@ is_bucket_empty:
 // file dbhash.c line 433
 signed long int wg_idxhash_store(void *db, struct _db_hash_area_header *ha, char *data, signed long int length, signed long int offset)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   unsigned long int hash;
   signed long int head_offset;
   signed long int head;
   signed long int bucket;
   signed long int rec_head;
   signed long int rec_offset;
-  struct anonymous$20 *rec_cell;
+  struct anonymous_20 *rec_cell;
   hash=hash_bytes(db, data, length, ha->arraylength);
   head_offset = (signed long int)((unsigned long int)ha->arraystart + sizeof(signed long int) /*8ul*/  * hash);
-  head = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + head_offset));
+  head = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + head_offset));
   bucket=find_idxhash_bucket(db, data, length, &head_offset);
   if(bucket == 0l)
   {
@@ -15869,23 +15869,23 @@ signed long int wg_idxhash_store(void *db, struct _db_hash_area_header *ha, char
     if(bucket == 0l)
       return (signed long int)-1;
 
-    dptr = (char *)(void *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ));
+    dptr = (char *)(void *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ ));
     memcpy((void *)dptr, (const void *)data, (unsigned long int)length);
     i = (unsigned long int)0;
     for( ; !(lenrest == 0l) && !(i >= sizeof(signed long int) /*8ul*/  + -((unsigned long int)lenrest)); i = i + 1ul)
       (dptr + length)[(signed long int)i] = (char)0;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = length;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)ha->arraystart + sizeof(signed long int) /*8ul*/  * hash))) = bucket;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ ))) = head;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)1 * sizeof(signed long int) /*8ul*/ ))) = length;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)ha->arraystart + sizeof(signed long int) /*8ul*/  * hash))) = bucket;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)3 * sizeof(signed long int) /*8ul*/ ))) = head;
   }
 
-  rec_head = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
+  rec_head = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ )));
   rec_offset=wg_alloc_fixlen_object(db, (void *)&dbh->listcell_area_header);
-  rec_cell = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + rec_offset);
+  rec_cell = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + rec_offset);
   rec_cell->car = offset;
   rec_cell->cdr = rec_head;
-  *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = rec_offset;
+  *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)bucket + (unsigned long int)2 * sizeof(signed long int) /*8ul*/ ))) = rec_offset;
   return (signed long int)0;
 }
 
@@ -15916,12 +15916,12 @@ signed long int wg_import_dump(void *db, char *fileName)
 {
   struct _db_memsegment_header *dumph;
   struct _IO_FILE *f;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int dbsize = (signed long int)-1;
   signed long int newsize;
   signed long int err = (signed long int)-1;
   f=fopen(fileName, "rb");
-  unsigned long int return_value_fread$2;
+  unsigned long int return_value_fread_2;
   if(f == ((struct _IO_FILE *)NULL))
   {
     show_dump_error(db, "Error opening file");
@@ -15930,16 +15930,16 @@ signed long int wg_import_dump(void *db, char *fileName)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _db_memsegment_header) /*46568ul*/ );
-    dumph = (struct _db_memsegment_header *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _db_memsegment_header) /*46568ul*/ );
+    dumph = (struct _db_memsegment_header *)return_value_malloc_1;
     if(dumph == ((struct _db_memsegment_header *)NULL))
       show_dump_error(db, "malloc error in wg_import_dump");
 
     else
     {
-      return_value_fread$2=fread((void *)dumph, sizeof(struct _db_memsegment_header) /*46568ul*/ , (unsigned long int)1, f);
-      if(!(return_value_fread$2 == 1ul))
+      return_value_fread_2=fread((void *)dumph, sizeof(struct _db_memsegment_header) /*46568ul*/ , (unsigned long int)1, f);
+      if(!(return_value_fread_2 == 1ul))
         show_dump_error(db, "Error reading dump header");
 
       else
@@ -15964,9 +15964,9 @@ signed long int wg_import_dump(void *db, char *fileName)
       {
         newsize = dbh->size;
         fseek(f, (signed long int)0, 0);
-        unsigned long int return_value_fread$3;
-        return_value_fread$3=fread((void *)((struct anonymous$6 *)db)->db, (unsigned long int)dbsize, (unsigned long int)1, f);
-        if(!(return_value_fread$3 == 1ul))
+        unsigned long int return_value_fread_3;
+        return_value_fread_3=fread((void *)((struct anonymous_6 *)db)->db, (unsigned long int)dbsize, (unsigned long int)1, f);
+        if(!(return_value_fread_3 == 1ul))
         {
           show_dump_error(db, "Error reading dump file");
           err = (signed long int)-2;
@@ -15989,9 +15989,9 @@ signed long int wg_import_dump(void *db, char *fileName)
 
     else
     {
-      signed long int return_value_wg_init_locks$4;
-      return_value_wg_init_locks$4=wg_init_locks(db);
-      return return_value_wg_init_locks$4;
+      signed long int return_value_wg_init_locks_4;
+      return_value_wg_init_locks_4=wg_init_locks(db);
+      return return_value_wg_init_locks_4;
     }
   }
 }
@@ -16001,18 +16001,18 @@ signed long int wg_import_dump(void *db, char *fileName)
 signed long int wg_index_add_field(void *db, void *rec, signed long int column)
 {
   signed long int *ilist;
-  struct anonymous$20 *ilistelem;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct anonymous_20 *ilistelem;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int reclen;
   reclen=wg_get_record_len(db, rec);
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_match_template$5;
-  signed long int return_value_ttree_add_row$1;
-  signed long int return_value_hash_add_row$3;
-  signed long int tmp_if_expr$12;
-  signed long int return_value_wg_match_template$11;
-  signed long int return_value_ttree_add_row$7;
-  signed long int return_value_hash_add_row$9;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_match_template_5;
+  signed long int return_value_ttree_add_row_1;
+  signed long int return_value_hash_add_row_3;
+  signed long int tmp_if_expr_12;
+  signed long int return_value_wg_match_template_11;
+  signed long int return_value_ttree_add_row_7;
+  signed long int return_value_hash_add_row_9;
   if(column >= 128l || column >= reclen)
     return (signed long int)-1;
 
@@ -16025,27 +16025,27 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
       ilist = &dbh->index_control_area_header.index_table[column];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *wg_index_add_field$$1$$1$$1$$hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
-          if(!(wg_index_add_field$$1$$1$$1$$hdr->rec_field_index[wg_index_add_field$$1$$1$$1$$hdr->fields + -1l] >= reclen))
+          struct anonymous_21 *wg_index_add_field__1__1__1__hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
+          if(!(wg_index_add_field__1__1__1__hdr->rec_field_index[wg_index_add_field__1__1__1__hdr->fields + -1l] >= reclen))
           {
-            if(!(wg_index_add_field$$1$$1$$1$$hdr->template_offset == 0l))
+            if(!(wg_index_add_field__1__1__1__hdr->template_offset == 0l))
             {
-              return_value_wg_match_template$5=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + wg_index_add_field$$1$$1$$1$$hdr->template_offset), rec);
-              tmp_if_expr$6 = return_value_wg_match_template$5;
+              return_value_wg_match_template_5=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + wg_index_add_field__1__1__1__hdr->template_offset), rec);
+              tmp_if_expr_6 = return_value_wg_match_template_5;
             }
 
             else
-              tmp_if_expr$6 = (signed long int)1;
-            if(!(tmp_if_expr$6 == 0l))
-              switch(wg_index_add_field$$1$$1$$1$$hdr->type)
+              tmp_if_expr_6 = (signed long int)1;
+            if(!(tmp_if_expr_6 == 0l))
+              switch(wg_index_add_field__1__1__1__hdr->type)
               {
                 case (signed long int)50:
                 {
-                  return_value_ttree_add_row$1=ttree_add_row(db, ilistelem->car, rec);
-                  if(!(return_value_ttree_add_row$1 == 0l))
+                  return_value_ttree_add_row_1=ttree_add_row(db, ilistelem->car, rec);
+                  if(!(return_value_ttree_add_row_1 == 0l))
                     return (signed long int)-2;
 
                   break;
@@ -16054,9 +16054,9 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_ttree_add_row$2;
-                    return_value_ttree_add_row$2=ttree_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_add_row$2 == 0l))
+                    signed long int return_value_ttree_add_row_2;
+                    return_value_ttree_add_row_2=ttree_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_add_row_2 == 0l))
                       return (signed long int)-2;
 
                   }
@@ -16065,8 +16065,8 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
                 }
                 case (signed long int)60:
                 {
-                  return_value_hash_add_row$3=hash_add_row(db, ilistelem->car, rec);
-                  if(!(return_value_hash_add_row$3 == 0l))
+                  return_value_hash_add_row_3=hash_add_row(db, ilistelem->car, rec);
+                  if(!(return_value_hash_add_row_3 == 0l))
                     return (signed long int)-2;
 
                   break;
@@ -16075,9 +16075,9 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_hash_add_row$4;
-                    return_value_hash_add_row$4=hash_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_add_row$4 == 0l))
+                    signed long int return_value_hash_add_row_4;
+                    return_value_hash_add_row_4=hash_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_add_row_4 == 0l))
                       return (signed long int)-2;
 
                   }
@@ -16096,27 +16096,27 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
       ilist = &dbh->index_control_area_header.index_template_table[column];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+          struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
           if(!(hdr->rec_field_index[hdr->fields + -1l] >= reclen))
           {
             if(!(hdr->template_offset == 0l))
             {
-              return_value_wg_match_template$11=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset), rec);
-              tmp_if_expr$12 = return_value_wg_match_template$11;
+              return_value_wg_match_template_11=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset), rec);
+              tmp_if_expr_12 = return_value_wg_match_template_11;
             }
 
             else
-              tmp_if_expr$12 = (signed long int)1;
-            if(!(tmp_if_expr$12 == 0l))
+              tmp_if_expr_12 = (signed long int)1;
+            if(!(tmp_if_expr_12 == 0l))
               switch(hdr->type)
               {
                 case (signed long int)50:
                 {
-                  return_value_ttree_add_row$7=ttree_add_row(db, ilistelem->car, rec);
-                  if(!(return_value_ttree_add_row$7 == 0l))
+                  return_value_ttree_add_row_7=ttree_add_row(db, ilistelem->car, rec);
+                  if(!(return_value_ttree_add_row_7 == 0l))
                     return (signed long int)-2;
 
                   break;
@@ -16125,9 +16125,9 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_ttree_add_row$8;
-                    return_value_ttree_add_row$8=ttree_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_add_row$8 == 0l))
+                    signed long int return_value_ttree_add_row_8;
+                    return_value_ttree_add_row_8=ttree_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_add_row_8 == 0l))
                       return (signed long int)-2;
 
                   }
@@ -16136,8 +16136,8 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
                 }
                 case (signed long int)60:
                 {
-                  return_value_hash_add_row$9=hash_add_row(db, ilistelem->car, rec);
-                  if(!(return_value_hash_add_row$9 == 0l))
+                  return_value_hash_add_row_9=hash_add_row(db, ilistelem->car, rec);
+                  if(!(return_value_hash_add_row_9 == 0l))
                     return (signed long int)-2;
 
                   break;
@@ -16146,9 +16146,9 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_hash_add_row$10;
-                    return_value_hash_add_row$10=hash_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_add_row$10 == 0l))
+                    signed long int return_value_hash_add_row_10;
+                    return_value_hash_add_row_10=hash_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_add_row_10 == 0l))
                       return (signed long int)-2;
 
                   }
@@ -16173,18 +16173,18 @@ signed long int wg_index_add_field(void *db, void *rec, signed long int column)
 signed long int wg_index_add_rec(void *db, void *rec)
 {
   signed long int i;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int reclen;
   reclen=wg_get_record_len(db, rec);
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_match_template$5;
-  signed long int return_value_ttree_add_row$1;
-  signed long int return_value_hash_add_row$3;
-  signed long int tmp_if_expr$10;
-  signed long int return_value_wg_get_field$8;
-  signed long int return_value_wg_compare$9;
-  signed long int return_value_ttree_add_row$12;
-  signed long int return_value_hash_add_row$14;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_match_template_5;
+  signed long int return_value_ttree_add_row_1;
+  signed long int return_value_hash_add_row_3;
+  signed long int tmp_if_expr_10;
+  signed long int return_value_wg_get_field_8;
+  signed long int return_value_wg_compare_9;
+  signed long int return_value_ttree_add_row_12;
+  signed long int return_value_hash_add_row_14;
   if(!((1l & ((signed long int *)rec)[1l]) == 0l))
     return (signed long int)-1;
 
@@ -16197,31 +16197,31 @@ signed long int wg_index_add_rec(void *db, void *rec)
     for( ; !(i >= reclen); i = i + 1l)
     {
       signed long int *ilist;
-      struct anonymous$20 *ilistelem;
+      struct anonymous_20 *ilistelem;
       ilist = &dbh->index_control_area_header.index_table[i];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+          struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
           if(hdr->rec_field_index[hdr->fields + -1l] == i)
           {
             if(!(hdr->template_offset == 0l))
             {
-              return_value_wg_match_template$5=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset), rec);
-              tmp_if_expr$6 = return_value_wg_match_template$5;
+              return_value_wg_match_template_5=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset), rec);
+              tmp_if_expr_6 = return_value_wg_match_template_5;
             }
 
             else
-              tmp_if_expr$6 = (signed long int)1;
-            if(!(tmp_if_expr$6 == 0l))
+              tmp_if_expr_6 = (signed long int)1;
+            if(!(tmp_if_expr_6 == 0l))
               switch(hdr->type)
               {
                 case (signed long int)50:
                 {
-                  return_value_ttree_add_row$1=ttree_add_row(db, ilistelem->car, rec);
-                  if(!(return_value_ttree_add_row$1 == 0l))
+                  return_value_ttree_add_row_1=ttree_add_row(db, ilistelem->car, rec);
+                  if(!(return_value_ttree_add_row_1 == 0l))
                     return (signed long int)-2;
 
                   break;
@@ -16230,9 +16230,9 @@ signed long int wg_index_add_rec(void *db, void *rec)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_ttree_add_row$2;
-                    return_value_ttree_add_row$2=ttree_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_add_row$2 == 0l))
+                    signed long int return_value_ttree_add_row_2;
+                    return_value_ttree_add_row_2=ttree_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_add_row_2 == 0l))
                       return (signed long int)-2;
 
                   }
@@ -16241,8 +16241,8 @@ signed long int wg_index_add_rec(void *db, void *rec)
                 }
                 case (signed long int)60:
                 {
-                  return_value_hash_add_row$3=hash_add_row(db, ilistelem->car, rec);
-                  if(!(return_value_hash_add_row$3 == 0l))
+                  return_value_hash_add_row_3=hash_add_row(db, ilistelem->car, rec);
+                  if(!(return_value_hash_add_row_3 == 0l))
                     return (signed long int)-2;
 
                   break;
@@ -16251,9 +16251,9 @@ signed long int wg_index_add_rec(void *db, void *rec)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_hash_add_row$4;
-                    return_value_hash_add_row$4=hash_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_add_row$4 == 0l))
+                    signed long int return_value_hash_add_row_4;
+                    return_value_hash_add_row_4=hash_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_add_row_4 == 0l))
                       return (signed long int)-2;
 
                   }
@@ -16272,16 +16272,16 @@ signed long int wg_index_add_rec(void *db, void *rec)
       ilist = &dbh->index_control_area_header.index_template_table[i];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *wg_index_add_rec$$1$$1$$1$$2$$1$$hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
-          struct anonymous$22 *tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + wg_index_add_rec$$1$$1$$1$$2$$1$$hdr->template_offset);
+          struct anonymous_21 *wg_index_add_rec__1__1__1__2__1__hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
+          struct anonymous_22 *tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + wg_index_add_rec__1__1__1__2__1__hdr->template_offset);
           void *matchrec;
           signed long int mreclen;
           signed int j;
           signed int firstmatch = -1;
-          matchrec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
+          matchrec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
           mreclen=wg_get_record_len(db, matchrec);
           if(reclen >= mreclen)
           {
@@ -16290,22 +16290,22 @@ signed long int wg_index_add_rec(void *db, void *rec)
             {
               signed long int enc;
               enc=wg_get_field(db, matchrec, (signed long int)j);
-              signed long int return_value_wg_get_encoded_type$11;
-              return_value_wg_get_encoded_type$11=wg_get_encoded_type(db, enc);
-              if(!(return_value_wg_get_encoded_type$11 == 14l))
+              signed long int return_value_wg_get_encoded_type_11;
+              return_value_wg_get_encoded_type_11=wg_get_encoded_type(db, enc);
+              if(!(return_value_wg_get_encoded_type_11 == 14l))
               {
-                signed long int return_value_wg_get_field$7;
-                return_value_wg_get_field$7=wg_get_field(db, rec, (signed long int)j);
-                if(enc == return_value_wg_get_field$7)
-                  tmp_if_expr$10 = (signed long int)0;
+                signed long int return_value_wg_get_field_7;
+                return_value_wg_get_field_7=wg_get_field(db, rec, (signed long int)j);
+                if(enc == return_value_wg_get_field_7)
+                  tmp_if_expr_10 = (signed long int)0;
 
                 else
                 {
-                  return_value_wg_get_field$8=wg_get_field(db, rec, (signed long int)j);
-                  return_value_wg_compare$9=wg_compare(db, enc, return_value_wg_get_field$8, 7);
-                  tmp_if_expr$10 = return_value_wg_compare$9;
+                  return_value_wg_get_field_8=wg_get_field(db, rec, (signed long int)j);
+                  return_value_wg_compare_9=wg_compare(db, enc, return_value_wg_get_field_8, 7);
+                  tmp_if_expr_10 = return_value_wg_compare_9;
                 }
-                if(!(tmp_if_expr$10 == 0l))
+                if(!(tmp_if_expr_10 == 0l))
                   goto nexttmpl1;
 
                 if(!(firstmatch >= 0))
@@ -16316,13 +16316,13 @@ signed long int wg_index_add_rec(void *db, void *rec)
             }
             if((signed long int)firstmatch == i)
             {
-              if(!(wg_index_add_rec$$1$$1$$1$$2$$1$$hdr->rec_field_index[wg_index_add_rec$$1$$1$$1$$2$$1$$hdr->fields + -1l] >= reclen))
-                switch(wg_index_add_rec$$1$$1$$1$$2$$1$$hdr->type)
+              if(!(wg_index_add_rec__1__1__1__2__1__hdr->rec_field_index[wg_index_add_rec__1__1__1__2__1__hdr->fields + -1l] >= reclen))
+                switch(wg_index_add_rec__1__1__1__2__1__hdr->type)
                 {
                   case (signed long int)50:
                   {
-                    return_value_ttree_add_row$12=ttree_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_add_row$12 == 0l))
+                    return_value_ttree_add_row_12=ttree_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_add_row_12 == 0l))
                       return (signed long int)-2;
 
                     break;
@@ -16331,9 +16331,9 @@ signed long int wg_index_add_rec(void *db, void *rec)
                   {
                     if(((signed long int *)rec)[1l] == 0l)
                     {
-                      signed long int return_value_ttree_add_row$13;
-                      return_value_ttree_add_row$13=ttree_add_row(db, ilistelem->car, rec);
-                      if(!(return_value_ttree_add_row$13 == 0l))
+                      signed long int return_value_ttree_add_row_13;
+                      return_value_ttree_add_row_13=ttree_add_row(db, ilistelem->car, rec);
+                      if(!(return_value_ttree_add_row_13 == 0l))
                         return (signed long int)-2;
 
                     }
@@ -16342,8 +16342,8 @@ signed long int wg_index_add_rec(void *db, void *rec)
                   }
                   case (signed long int)60:
                   {
-                    return_value_hash_add_row$14=hash_add_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_add_row$14 == 0l))
+                    return_value_hash_add_row_14=hash_add_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_add_row_14 == 0l))
                       return (signed long int)-2;
 
                     break;
@@ -16352,9 +16352,9 @@ signed long int wg_index_add_rec(void *db, void *rec)
                   {
                     if(((signed long int *)rec)[1l] == 0l)
                     {
-                      signed long int return_value_hash_add_row$15;
-                      return_value_hash_add_row$15=hash_add_row(db, ilistelem->car, rec);
-                      if(!(return_value_hash_add_row$15 == 0l))
+                      signed long int return_value_hash_add_row_15;
+                      return_value_hash_add_row_15=hash_add_row(db, ilistelem->car, rec);
+                      if(!(return_value_hash_add_row_15 == 0l))
                         return (signed long int)-2;
 
                     }
@@ -16385,18 +16385,18 @@ signed long int wg_index_add_rec(void *db, void *rec)
 signed long int wg_index_del_field(void *db, void *rec, signed long int column)
 {
   signed long int *ilist;
-  struct anonymous$20 *ilistelem;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct anonymous_20 *ilistelem;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int reclen;
   reclen=wg_get_record_len(db, rec);
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_match_template$5;
-  signed long int return_value_ttree_remove_row$1;
-  signed long int return_value_hash_remove_row$3;
-  signed long int tmp_if_expr$12;
-  signed long int return_value_wg_match_template$11;
-  signed long int return_value_ttree_remove_row$7;
-  signed long int return_value_hash_remove_row$9;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_match_template_5;
+  signed long int return_value_ttree_remove_row_1;
+  signed long int return_value_hash_remove_row_3;
+  signed long int tmp_if_expr_12;
+  signed long int return_value_wg_match_template_11;
+  signed long int return_value_ttree_remove_row_7;
+  signed long int return_value_hash_remove_row_9;
   if(column >= 128l || column >= reclen)
     return (signed long int)-1;
 
@@ -16409,27 +16409,27 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
       ilist = &dbh->index_control_area_header.index_table[column];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *wg_index_del_field$$1$$1$$1$$hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
-          if(!(wg_index_del_field$$1$$1$$1$$hdr->rec_field_index[wg_index_del_field$$1$$1$$1$$hdr->fields + -1l] >= reclen))
+          struct anonymous_21 *wg_index_del_field__1__1__1__hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
+          if(!(wg_index_del_field__1__1__1__hdr->rec_field_index[wg_index_del_field__1__1__1__hdr->fields + -1l] >= reclen))
           {
-            if(!(wg_index_del_field$$1$$1$$1$$hdr->template_offset == 0l))
+            if(!(wg_index_del_field__1__1__1__hdr->template_offset == 0l))
             {
-              return_value_wg_match_template$5=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + wg_index_del_field$$1$$1$$1$$hdr->template_offset), rec);
-              tmp_if_expr$6 = return_value_wg_match_template$5;
+              return_value_wg_match_template_5=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + wg_index_del_field__1__1__1__hdr->template_offset), rec);
+              tmp_if_expr_6 = return_value_wg_match_template_5;
             }
 
             else
-              tmp_if_expr$6 = (signed long int)1;
-            if(!(tmp_if_expr$6 == 0l))
-              switch(wg_index_del_field$$1$$1$$1$$hdr->type)
+              tmp_if_expr_6 = (signed long int)1;
+            if(!(tmp_if_expr_6 == 0l))
+              switch(wg_index_del_field__1__1__1__hdr->type)
               {
                 case (signed long int)50:
                 {
-                  return_value_ttree_remove_row$1=ttree_remove_row(db, ilistelem->car, rec);
-                  if(!(return_value_ttree_remove_row$1 >= -2l))
+                  return_value_ttree_remove_row_1=ttree_remove_row(db, ilistelem->car, rec);
+                  if(!(return_value_ttree_remove_row_1 >= -2l))
                     return (signed long int)-2;
 
                   break;
@@ -16438,9 +16438,9 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_ttree_remove_row$2;
-                    return_value_ttree_remove_row$2=ttree_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_remove_row$2 >= -2l))
+                    signed long int return_value_ttree_remove_row_2;
+                    return_value_ttree_remove_row_2=ttree_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_remove_row_2 >= -2l))
                       return (signed long int)-2;
 
                   }
@@ -16449,8 +16449,8 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
                 }
                 case (signed long int)60:
                 {
-                  return_value_hash_remove_row$3=hash_remove_row(db, ilistelem->car, rec);
-                  if(!(return_value_hash_remove_row$3 >= -2l))
+                  return_value_hash_remove_row_3=hash_remove_row(db, ilistelem->car, rec);
+                  if(!(return_value_hash_remove_row_3 >= -2l))
                     return (signed long int)-2;
 
                   break;
@@ -16459,9 +16459,9 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_hash_remove_row$4;
-                    return_value_hash_remove_row$4=hash_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_remove_row$4 >= -2l))
+                    signed long int return_value_hash_remove_row_4;
+                    return_value_hash_remove_row_4=hash_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_remove_row_4 >= -2l))
                       return (signed long int)-2;
 
                   }
@@ -16480,27 +16480,27 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
       ilist = &dbh->index_control_area_header.index_template_table[column];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+          struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
           if(!(hdr->rec_field_index[hdr->fields + -1l] >= reclen))
           {
             if(!(hdr->template_offset == 0l))
             {
-              return_value_wg_match_template$11=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset), rec);
-              tmp_if_expr$12 = return_value_wg_match_template$11;
+              return_value_wg_match_template_11=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset), rec);
+              tmp_if_expr_12 = return_value_wg_match_template_11;
             }
 
             else
-              tmp_if_expr$12 = (signed long int)1;
-            if(!(tmp_if_expr$12 == 0l))
+              tmp_if_expr_12 = (signed long int)1;
+            if(!(tmp_if_expr_12 == 0l))
               switch(hdr->type)
               {
                 case (signed long int)50:
                 {
-                  return_value_ttree_remove_row$7=ttree_remove_row(db, ilistelem->car, rec);
-                  if(!(return_value_ttree_remove_row$7 >= -2l))
+                  return_value_ttree_remove_row_7=ttree_remove_row(db, ilistelem->car, rec);
+                  if(!(return_value_ttree_remove_row_7 >= -2l))
                     return (signed long int)-2;
 
                   break;
@@ -16509,9 +16509,9 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_ttree_remove_row$8;
-                    return_value_ttree_remove_row$8=ttree_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_remove_row$8 >= -2l))
+                    signed long int return_value_ttree_remove_row_8;
+                    return_value_ttree_remove_row_8=ttree_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_remove_row_8 >= -2l))
                       return (signed long int)-2;
 
                   }
@@ -16520,8 +16520,8 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
                 }
                 case (signed long int)60:
                 {
-                  return_value_hash_remove_row$9=hash_remove_row(db, ilistelem->car, rec);
-                  if(!(return_value_hash_remove_row$9 >= -2l))
+                  return_value_hash_remove_row_9=hash_remove_row(db, ilistelem->car, rec);
+                  if(!(return_value_hash_remove_row_9 >= -2l))
                     return (signed long int)-2;
 
                   break;
@@ -16530,9 +16530,9 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_hash_remove_row$10;
-                    return_value_hash_remove_row$10=hash_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_remove_row$10 >= -2l))
+                    signed long int return_value_hash_remove_row_10;
+                    return_value_hash_remove_row_10=hash_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_remove_row_10 >= -2l))
                       return (signed long int)-2;
 
                   }
@@ -16557,18 +16557,18 @@ signed long int wg_index_del_field(void *db, void *rec, signed long int column)
 signed long int wg_index_del_rec(void *db, void *rec)
 {
   signed long int i;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int reclen;
   reclen=wg_get_record_len(db, rec);
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_match_template$5;
-  signed long int return_value_ttree_remove_row$1;
-  signed long int return_value_hash_remove_row$3;
-  signed long int tmp_if_expr$10;
-  signed long int return_value_wg_get_field$8;
-  signed long int return_value_wg_compare$9;
-  signed long int return_value_ttree_remove_row$12;
-  signed long int return_value_hash_remove_row$14;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_match_template_5;
+  signed long int return_value_ttree_remove_row_1;
+  signed long int return_value_hash_remove_row_3;
+  signed long int tmp_if_expr_10;
+  signed long int return_value_wg_get_field_8;
+  signed long int return_value_wg_compare_9;
+  signed long int return_value_ttree_remove_row_12;
+  signed long int return_value_hash_remove_row_14;
   if(!((1l & ((signed long int *)rec)[1l]) == 0l))
     return (signed long int)-1;
 
@@ -16581,31 +16581,31 @@ signed long int wg_index_del_rec(void *db, void *rec)
     for( ; !(i >= reclen); i = i + 1l)
     {
       signed long int *ilist;
-      struct anonymous$20 *ilistelem;
+      struct anonymous_20 *ilistelem;
       ilist = &dbh->index_control_area_header.index_table[i];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+          struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
           if(hdr->rec_field_index[hdr->fields + -1l] == i)
           {
             if(!(hdr->template_offset == 0l))
             {
-              return_value_wg_match_template$5=wg_match_template(db, (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + hdr->template_offset), rec);
-              tmp_if_expr$6 = return_value_wg_match_template$5;
+              return_value_wg_match_template_5=wg_match_template(db, (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + hdr->template_offset), rec);
+              tmp_if_expr_6 = return_value_wg_match_template_5;
             }
 
             else
-              tmp_if_expr$6 = (signed long int)1;
-            if(!(tmp_if_expr$6 == 0l))
+              tmp_if_expr_6 = (signed long int)1;
+            if(!(tmp_if_expr_6 == 0l))
               switch(hdr->type)
               {
                 case (signed long int)50:
                 {
-                  return_value_ttree_remove_row$1=ttree_remove_row(db, ilistelem->car, rec);
-                  if(!(return_value_ttree_remove_row$1 >= -2l))
+                  return_value_ttree_remove_row_1=ttree_remove_row(db, ilistelem->car, rec);
+                  if(!(return_value_ttree_remove_row_1 >= -2l))
                     return (signed long int)-2;
 
                   break;
@@ -16614,9 +16614,9 @@ signed long int wg_index_del_rec(void *db, void *rec)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_ttree_remove_row$2;
-                    return_value_ttree_remove_row$2=ttree_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_remove_row$2 >= -2l))
+                    signed long int return_value_ttree_remove_row_2;
+                    return_value_ttree_remove_row_2=ttree_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_remove_row_2 >= -2l))
                       return (signed long int)-2;
 
                   }
@@ -16625,8 +16625,8 @@ signed long int wg_index_del_rec(void *db, void *rec)
                 }
                 case (signed long int)60:
                 {
-                  return_value_hash_remove_row$3=hash_remove_row(db, ilistelem->car, rec);
-                  if(!(return_value_hash_remove_row$3 >= -2l))
+                  return_value_hash_remove_row_3=hash_remove_row(db, ilistelem->car, rec);
+                  if(!(return_value_hash_remove_row_3 >= -2l))
                     return (signed long int)-2;
 
                   break;
@@ -16635,9 +16635,9 @@ signed long int wg_index_del_rec(void *db, void *rec)
                 {
                   if(((signed long int *)rec)[1l] == 0l)
                   {
-                    signed long int return_value_hash_remove_row$4;
-                    return_value_hash_remove_row$4=hash_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_remove_row$4 >= -2l))
+                    signed long int return_value_hash_remove_row_4;
+                    return_value_hash_remove_row_4=hash_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_remove_row_4 >= -2l))
                       return (signed long int)-2;
 
                   }
@@ -16656,16 +16656,16 @@ signed long int wg_index_del_rec(void *db, void *rec)
       ilist = &dbh->index_control_area_header.index_template_table[i];
       for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
       {
-        ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+        ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
         if(!(ilistelem->car == 0l))
         {
-          struct anonymous$21 *wg_index_del_rec$$1$$1$$1$$2$$1$$hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
-          struct anonymous$22 *tmpl = (struct anonymous$22 *)(void *)((char *)((struct anonymous$6 *)db)->db + wg_index_del_rec$$1$$1$$1$$2$$1$$hdr->template_offset);
+          struct anonymous_21 *wg_index_del_rec__1__1__1__2__1__hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
+          struct anonymous_22 *tmpl = (struct anonymous_22 *)(void *)((char *)((struct anonymous_6 *)db)->db + wg_index_del_rec__1__1__1__2__1__hdr->template_offset);
           void *matchrec;
           signed long int mreclen;
           signed int j;
           signed int firstmatch = -1;
-          matchrec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
+          matchrec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
           mreclen=wg_get_record_len(db, matchrec);
           if(reclen >= mreclen)
           {
@@ -16674,22 +16674,22 @@ signed long int wg_index_del_rec(void *db, void *rec)
             {
               signed long int enc;
               enc=wg_get_field(db, matchrec, (signed long int)j);
-              signed long int return_value_wg_get_encoded_type$11;
-              return_value_wg_get_encoded_type$11=wg_get_encoded_type(db, enc);
-              if(!(return_value_wg_get_encoded_type$11 == 14l))
+              signed long int return_value_wg_get_encoded_type_11;
+              return_value_wg_get_encoded_type_11=wg_get_encoded_type(db, enc);
+              if(!(return_value_wg_get_encoded_type_11 == 14l))
               {
-                signed long int return_value_wg_get_field$7;
-                return_value_wg_get_field$7=wg_get_field(db, rec, (signed long int)j);
-                if(enc == return_value_wg_get_field$7)
-                  tmp_if_expr$10 = (signed long int)0;
+                signed long int return_value_wg_get_field_7;
+                return_value_wg_get_field_7=wg_get_field(db, rec, (signed long int)j);
+                if(enc == return_value_wg_get_field_7)
+                  tmp_if_expr_10 = (signed long int)0;
 
                 else
                 {
-                  return_value_wg_get_field$8=wg_get_field(db, rec, (signed long int)j);
-                  return_value_wg_compare$9=wg_compare(db, enc, return_value_wg_get_field$8, 7);
-                  tmp_if_expr$10 = return_value_wg_compare$9;
+                  return_value_wg_get_field_8=wg_get_field(db, rec, (signed long int)j);
+                  return_value_wg_compare_9=wg_compare(db, enc, return_value_wg_get_field_8, 7);
+                  tmp_if_expr_10 = return_value_wg_compare_9;
                 }
-                if(!(tmp_if_expr$10 == 0l))
+                if(!(tmp_if_expr_10 == 0l))
                   goto nexttmpl2;
 
                 if(!(firstmatch >= 0))
@@ -16700,13 +16700,13 @@ signed long int wg_index_del_rec(void *db, void *rec)
             }
             if((signed long int)firstmatch == i)
             {
-              if(!(wg_index_del_rec$$1$$1$$1$$2$$1$$hdr->rec_field_index[wg_index_del_rec$$1$$1$$1$$2$$1$$hdr->fields + -1l] >= reclen))
-                switch(wg_index_del_rec$$1$$1$$1$$2$$1$$hdr->type)
+              if(!(wg_index_del_rec__1__1__1__2__1__hdr->rec_field_index[wg_index_del_rec__1__1__1__2__1__hdr->fields + -1l] >= reclen))
+                switch(wg_index_del_rec__1__1__1__2__1__hdr->type)
                 {
                   case (signed long int)50:
                   {
-                    return_value_ttree_remove_row$12=ttree_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_ttree_remove_row$12 >= -2l))
+                    return_value_ttree_remove_row_12=ttree_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_ttree_remove_row_12 >= -2l))
                       return (signed long int)-2;
 
                     break;
@@ -16715,9 +16715,9 @@ signed long int wg_index_del_rec(void *db, void *rec)
                   {
                     if(((signed long int *)rec)[1l] == 0l)
                     {
-                      signed long int return_value_ttree_remove_row$13;
-                      return_value_ttree_remove_row$13=ttree_remove_row(db, ilistelem->car, rec);
-                      if(!(return_value_ttree_remove_row$13 >= -2l))
+                      signed long int return_value_ttree_remove_row_13;
+                      return_value_ttree_remove_row_13=ttree_remove_row(db, ilistelem->car, rec);
+                      if(!(return_value_ttree_remove_row_13 >= -2l))
                         return (signed long int)-2;
 
                     }
@@ -16726,8 +16726,8 @@ signed long int wg_index_del_rec(void *db, void *rec)
                   }
                   case (signed long int)60:
                   {
-                    return_value_hash_remove_row$14=hash_remove_row(db, ilistelem->car, rec);
-                    if(!(return_value_hash_remove_row$14 >= -2l))
+                    return_value_hash_remove_row_14=hash_remove_row(db, ilistelem->car, rec);
+                    if(!(return_value_hash_remove_row_14 >= -2l))
                       return (signed long int)-2;
 
                     break;
@@ -16736,9 +16736,9 @@ signed long int wg_index_del_rec(void *db, void *rec)
                   {
                     if(((signed long int *)rec)[1l] == 0l)
                     {
-                      signed long int return_value_hash_remove_row$15;
-                      return_value_hash_remove_row$15=hash_remove_row(db, ilistelem->car, rec);
-                      if(!(return_value_hash_remove_row$15 >= -2l))
+                      signed long int return_value_hash_remove_row_15;
+                      return_value_hash_remove_row_15=hash_remove_row(db, ilistelem->car, rec);
+                      if(!(return_value_hash_remove_row_15 >= -2l))
                         return (signed long int)-2;
 
                     }
@@ -16768,9 +16768,9 @@ signed long int wg_index_del_rec(void *db, void *rec)
 // file dballoc.c line 99
 signed long int wg_init_db_memsegment(void *db, signed long int key, signed long int size)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int tmp;
-  signed long int wg_init_db_memsegment$$1$$free;
+  signed long int wg_init_db_memsegment__1__free;
   signed long int i;
   dbh->mark = (signed int)1916950123;
   dbh->version = (signed int)(3 << 16 | 7 << 8 | 0);
@@ -16782,12 +16782,12 @@ signed long int wg_init_db_memsegment(void *db, signed long int key, signed long
   if(!((signed long int)dbh % 8l == 0l))
     show_dballoc_error((void *)dbh, "db base pointer has bad alignment (ignoring)");
 
-  wg_init_db_memsegment$$1$$free = (signed long int)sizeof(struct _db_memsegment_header) /*46568ul*/ ;
-  i = (signed long int)8 - wg_init_db_memsegment$$1$$free % (signed long int)8;
+  wg_init_db_memsegment__1__free = (signed long int)sizeof(struct _db_memsegment_header) /*46568ul*/ ;
+  i = (signed long int)8 - wg_init_db_memsegment__1__free % (signed long int)8;
   if(i == 8l)
     i = (signed long int)0;
 
-  dbh->free = wg_init_db_memsegment$$1$$free + i;
+  dbh->free = wg_init_db_memsegment__1__free + i;
   tmp=init_db_subarea(db, (void *)&dbh->datarec_area_header, (signed long int)0, (signed long int)8192);
   if(!(tmp == 0l))
   {
@@ -16854,7 +16854,7 @@ signed long int wg_init_db_memsegment(void *db, signed long int key, signed long
               else
               {
                 dbh->listcell_area_header.fixedlength = (signed long int)1;
-                dbh->listcell_area_header.objlength = (signed long int)sizeof(struct anonymous$20) /*16ul*/ ;
+                dbh->listcell_area_header.objlength = (signed long int)sizeof(struct anonymous_20) /*16ul*/ ;
                 tmp=make_subarea_freelist(db, (void *)&dbh->listcell_area_header, (signed long int)0);
                 if(!(tmp == 0l))
                 {
@@ -16954,7 +16954,7 @@ signed long int wg_init_db_memsegment(void *db, signed long int key, signed long
                                   else
                                   {
                                     dbh->indexhdr_area_header.fixedlength = (signed long int)1;
-                                    dbh->indexhdr_area_header.objlength = (signed long int)sizeof(struct anonymous$21) /*144ul*/ ;
+                                    dbh->indexhdr_area_header.objlength = (signed long int)sizeof(struct anonymous_21) /*144ul*/ ;
                                     tmp=make_subarea_freelist(db, (void *)&dbh->indexhdr_area_header, (signed long int)0);
                                     if(!(tmp == 0l))
                                     {
@@ -16974,7 +16974,7 @@ signed long int wg_init_db_memsegment(void *db, signed long int key, signed long
                                       else
                                       {
                                         dbh->indextmpl_area_header.fixedlength = (signed long int)1;
-                                        dbh->indextmpl_area_header.objlength = (signed long int)sizeof(struct anonymous$22) /*24ul*/ ;
+                                        dbh->indextmpl_area_header.objlength = (signed long int)sizeof(struct anonymous_22) /*24ul*/ ;
                                         tmp=make_subarea_freelist(db, (void *)&dbh->indextmpl_area_header, (signed long int)0);
                                         if(!(tmp == 0l))
                                         {
@@ -17103,23 +17103,23 @@ signed long int wg_init_locks(void *db)
 {
   signed long int i;
   signed long int chunk_wall;
-  struct anonymous$5 *tmp = (struct anonymous$5 *)(void *)0;
+  struct anonymous_5 *tmp = (struct anonymous_5 *)(void *)0;
   struct _db_memsegment_header *dbh;
-  _Bool tmp_if_expr$2;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$2 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_2 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!tmp_if_expr_2)
   {
-    if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-      tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1916950123 ? (_Bool)1 : (_Bool)0;
+    if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+      tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1916950123 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       goto __CPROVER_DUMP_L5;
 
     show_lock_error(db, "Invalid database pointer in wg_init_locks");
@@ -17131,18 +17131,18 @@ signed long int wg_init_locks(void *db)
 
   __CPROVER_DUMP_L5:
     ;
-    dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+    dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
     chunk_wall = dbh->locks.storage + dbh->locks.max_nodes * (signed long int)128;
     i = dbh->locks.storage;
     for( ; !(i >= chunk_wall); tmp->next_cell = i)
     {
-      tmp = (struct anonymous$5 *)(void *)((char *)((struct anonymous$6 *)db)->db + i);
+      tmp = (struct anonymous_5 *)(void *)((char *)((struct anonymous_6 *)db)->db + i);
       i = i + (signed long int)128;
     }
     tmp->next_cell = (signed long int)0;
     dbh->locks.freelist = dbh->locks.storage;
     dbh->locks.tail = (signed long int)0;
-    *((signed long int *)((char *)((struct anonymous$6 *)db)->db + dbh->locks.queue_lock)) = (signed long int)0;
+    *((signed long int *)((char *)((struct anonymous_6 *)db)->db + dbh->locks.queue_lock)) = (signed long int)0;
     return (signed long int)0;
   }
 }
@@ -17172,19 +17172,19 @@ void wg_journal_filename(void *db, char *buf, unsigned long int buflen)
 // file dbmpool.c line 326
 signed int wg_listtreecount(void *db, void *ptr)
 {
-  signed int return_value_wg_ispair$5;
-  return_value_wg_ispair$5=wg_ispair(db, ptr);
-  void *return_value_wg_first$1;
-  signed int return_value_wg_listtreecount$2;
-  void *return_value_wg_rest$3;
-  signed int return_value_wg_listtreecount$4;
-  if(!(return_value_wg_ispair$5 == 0))
+  signed int return_value_wg_ispair_5;
+  return_value_wg_ispair_5=wg_ispair(db, ptr);
+  void *return_value_wg_first_1;
+  signed int return_value_wg_listtreecount_2;
+  void *return_value_wg_rest_3;
+  signed int return_value_wg_listtreecount_4;
+  if(!(return_value_wg_ispair_5 == 0))
   {
-    return_value_wg_first$1=wg_first(db, ptr);
-    return_value_wg_listtreecount$2=wg_listtreecount(db, return_value_wg_first$1);
-    return_value_wg_rest$3=wg_rest(db, ptr);
-    return_value_wg_listtreecount$4=wg_listtreecount(db, return_value_wg_rest$3);
-    return return_value_wg_listtreecount$2 + return_value_wg_listtreecount$4;
+    return_value_wg_first_1=wg_first(db, ptr);
+    return_value_wg_listtreecount_2=wg_listtreecount(db, return_value_wg_first_1);
+    return_value_wg_rest_3=wg_rest(db, ptr);
+    return_value_wg_listtreecount_4=wg_listtreecount(db, return_value_wg_rest_3);
+    return return_value_wg_listtreecount_2 + return_value_wg_listtreecount_4;
   }
 
   else
@@ -17195,54 +17195,54 @@ signed int wg_listtreecount(void *db, void *ptr)
 // file dblog.c line 1012
 signed long int wg_log_create_record(void *db, signed long int length)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_log_delete_record
 // file dblog.c line 1028
 signed long int wg_log_delete_record(void *db, signed long int enc)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_log_encode
 // file dblog.c line 1062
 signed long int wg_log_encode(void *db, signed long int type, void *data, signed long int length, void *extdata, signed long int extlength)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_log_encval
 // file dblog.c line 1046
 signed long int wg_log_encval(void *db, signed long int enc)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_log_set_field
 // file dblog.c line 1143
 signed long int wg_log_set_field(void *db, void *rec, signed long int col, signed long int data)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_log_set_meta
 // file dblog.c line 1162
 signed long int wg_log_set_meta(void *db, void *rec, signed long int meta)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_log_umask
@@ -17255,66 +17255,66 @@ signed int wg_log_umask(void *db, signed int cmask)
 
 // wg_make_json_query
 // file dbquery.c line 1830
-struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist, signed long int argc)
+struct anonymous_15 * wg_make_json_query(void *db, struct anonymous_18 *arglist, signed long int argc)
 {
-  struct anonymous$15 *query = (struct anonymous$15 *)(void *)0;
-  struct anonymous$17 *curr_res = (struct anonymous$17 *)(void *)0;
-  struct anonymous$18 *sorted_arglist = (struct anonymous$18 *)(void *)0;
+  struct anonymous_15 *query = (struct anonymous_15 *)(void *)0;
+  struct anonymous_17 *curr_res = (struct anonymous_17 *)(void *)0;
+  struct anonymous_18 *sorted_arglist = (struct anonymous_18 *)(void *)0;
   signed long int index_id = (signed long int)-1;
   signed long int vindex_id = (signed long int)-1;
   signed long int kindex_id = (signed long int)-1;
   signed long int i;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$7;
-  signed long int return_value_wg_get_encoded_type$6;
-  if(arglist == ((struct anonymous$18 *)NULL) || !(argc >= 1l))
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value_wg_get_encoded_type_6;
+  if(arglist == ((struct anonymous_18 *)NULL) || !(argc >= 1l))
   {
     show_query_error(db, "Not enough parameters");
-    return (struct anonymous$15 *)(void *)0;
+    return (struct anonymous_15 *)(void *)0;
   }
 
   else
   {
-    if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-      tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+    if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+      tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       fprintf(stderr, "Invalid database pointer in wg_make_json_query.\n");
-      return (struct anonymous$15 *)(void *)0;
+      return (struct anonymous_15 *)(void *)0;
     }
 
     else
     {
       prepare_json_arglist(db, arglist, &sorted_arglist, argc, &index_id, &vindex_id, &kindex_id);
-      if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+      if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
         arglist = sorted_arglist;
 
       i = (signed long int)0;
       for( ; !(i >= argc); i = i + 1l)
       {
-        struct anonymous$17 *next_set;
-        struct anonymous$17 *tmp_set;
+        struct anonymous_17 *next_set;
+        struct anonymous_17 *tmp_set;
         next_set=create_resultset(db);
-        if(next_set == ((struct anonymous$17 *)NULL))
+        if(next_set == ((struct anonymous_17 *)NULL))
         {
-          if(!(curr_res == ((struct anonymous$17 *)NULL)))
+          if(!(curr_res == ((struct anonymous_17 *)NULL)))
             free_resultset(db, curr_res);
 
-          return (struct anonymous$15 *)(void *)0;
+          return (struct anonymous_15 *)(void *)0;
         }
 
         if(index_id >= 1l)
         {
-          return_value_wg_get_encoded_type$6=wg_get_encoded_type(db, (arglist + i)->value);
-          tmp_if_expr$7 = return_value_wg_get_encoded_type$6 != (signed long int)2 ? (_Bool)1 : (_Bool)0;
+          return_value_wg_get_encoded_type_6=wg_get_encoded_type(db, (arglist + i)->value);
+          tmp_if_expr_7 = return_value_wg_get_encoded_type_6 != (signed long int)2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
           signed long int values[2l];
           signed long int reclist_offset;
@@ -17326,33 +17326,33 @@ struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist,
             signed long int *nextoffset = &reclist_offset;
             while(!(*nextoffset == 0l))
             {
-              struct anonymous$20 *rec_cell = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *nextoffset);
-              signed long int wg_make_json_query$$1$$3$$1$$2$$1$$1$$rc = (signed long int)-1;
+              struct anonymous_20 *rec_cell = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *nextoffset);
+              signed long int wg_make_json_query__1__3__1__2__1__1__rc = (signed long int)-1;
               void *doc;
-              doc=wg_find_document(db, (void *)((char *)((struct anonymous$6 *)db)->db + rec_cell->car));
+              doc=wg_find_document(db, (void *)((char *)((struct anonymous_6 *)db)->db + rec_cell->car));
               if(!(doc == NULL))
               {
-                signed long int return_value_append_resultset$2;
-                return_value_append_resultset$2=append_resultset(db, next_set, (signed long int)((char *)doc - (char *)((struct anonymous$6 *)db)->db));
-                if(return_value_append_resultset$2 == 0l)
-                  wg_make_json_query$$1$$3$$1$$2$$1$$1$$rc = (signed long int)1;
+                signed long int return_value_append_resultset_2;
+                return_value_append_resultset_2=append_resultset(db, next_set, (signed long int)((char *)doc - (char *)((struct anonymous_6 *)db)->db));
+                if(return_value_append_resultset_2 == 0l)
+                  wg_make_json_query__1__3__1__2__1__1__rc = (signed long int)1;
 
                 else
-                  wg_make_json_query$$1$$3$$1$$2$$1$$1$$rc = (signed long int)-1;
+                  wg_make_json_query__1__3__1__2__1__1__rc = (signed long int)-1;
               }
 
               else
-                wg_make_json_query$$1$$3$$1$$2$$1$$1$$rc=show_query_error(db, "Failed to retrieve the document");
-              if(!(wg_make_json_query$$1$$3$$1$$2$$1$$1$$rc >= 0l))
+                wg_make_json_query__1__3__1__2__1__1__rc=show_query_error(db, "Failed to retrieve the document");
+              if(!(wg_make_json_query__1__3__1__2__1__1__rc >= 0l))
               {
                 free_resultset(db, next_set);
-                if(!(curr_res == ((struct anonymous$17 *)NULL)))
+                if(!(curr_res == ((struct anonymous_17 *)NULL)))
                   free_resultset(db, curr_res);
 
-                if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+                if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
                   free((void *)sorted_arglist);
 
-                return (struct anonymous$15 *)(void *)0;
+                return (struct anonymous_15 *)(void *)0;
               }
 
               nextoffset = &rec_cell->cdr;
@@ -17368,27 +17368,27 @@ struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist,
             signed long int curr_slot = (signed long int)-1;
             signed long int end_offset = (signed long int)0;
             signed long int end_slot = (signed long int)-1;
-            signed long int return_value_find_ttree_bounds$3;
-            return_value_find_ttree_bounds$3=find_ttree_bounds(db, kindex_id, (signed long int)(0 + 1), (arglist + i)->key, (arglist + i)->key, (signed long int)1, (signed long int)1, &curr_offset, &curr_slot, &end_offset, &end_slot);
-            if(!(return_value_find_ttree_bounds$3 == 0l))
+            signed long int return_value_find_ttree_bounds_3;
+            return_value_find_ttree_bounds_3=find_ttree_bounds(db, kindex_id, (signed long int)(0 + 1), (arglist + i)->key, (arglist + i)->key, (signed long int)1, (signed long int)1, &curr_offset, &curr_slot, &end_offset, &end_slot);
+            if(!(return_value_find_ttree_bounds_3 == 0l))
               curr_offset = (signed long int)0;
 
             while(!(curr_offset == 0l))
             {
-              signed long int wg_make_json_query$$1$$3$$1$$3$$2$$rc;
-              struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + curr_offset);
-              void *wg_make_json_query$$1$$3$$1$$3$$2$$rec = (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[curr_slot]);
-              wg_make_json_query$$1$$3$$1$$3$$2$$rc=check_and_merge_by_key(db, wg_make_json_query$$1$$3$$1$$3$$2$$rec, &arglist[i], next_set);
-              if(!(wg_make_json_query$$1$$3$$1$$3$$2$$rc >= 0l))
+              signed long int wg_make_json_query__1__3__1__3__2__rc;
+              struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + curr_offset);
+              void *wg_make_json_query__1__3__1__3__2__rec = (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[curr_slot]);
+              wg_make_json_query__1__3__1__3__2__rc=check_and_merge_by_key(db, wg_make_json_query__1__3__1__3__2__rec, &arglist[i], next_set);
+              if(!(wg_make_json_query__1__3__1__3__2__rc >= 0l))
               {
                 free_resultset(db, next_set);
-                if(!(curr_res == ((struct anonymous$17 *)NULL)))
+                if(!(curr_res == ((struct anonymous_17 *)NULL)))
                   free_resultset(db, curr_res);
 
-                if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+                if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
                   free((void *)sorted_arglist);
 
-                return (struct anonymous$15 *)(void *)0;
+                return (struct anonymous_15 *)(void *)0;
               }
 
               if(curr_offset == end_offset && curr_slot == end_slot)
@@ -17417,7 +17417,7 @@ struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist,
           }
 
           else
-            if(!(curr_res == ((struct anonymous$17 *)NULL)))
+            if(!(curr_res == ((struct anonymous_17 *)NULL)))
             {
               signed long int offset;
               rewind_resultset(db, curr_res);
@@ -17427,80 +17427,80 @@ struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist,
                 if(offset == 0l)
                   break;
 
-                signed long int *rec = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + offset);
+                signed long int *rec = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + offset);
                 signed long int rc;
                 rc=check_and_merge_recursively(db, (void *)rec, &arglist[i], next_set, 7);
                 if(!(rc >= 0l))
                 {
                   free_resultset(db, next_set);
-                  if(!(curr_res == ((struct anonymous$17 *)NULL)))
+                  if(!(curr_res == ((struct anonymous_17 *)NULL)))
                     free_resultset(db, curr_res);
 
-                  if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+                  if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
                     free((void *)sorted_arglist);
 
-                  return (struct anonymous$15 *)(void *)0;
+                  return (struct anonymous_15 *)(void *)0;
                 }
 
               }
               while((_Bool)1);
               free_resultset(db, curr_res);
-              curr_res = (struct anonymous$17 *)(void *)0;
+              curr_res = (struct anonymous_17 *)(void *)0;
             }
 
             else
             {
-              signed long int *wg_make_json_query$$1$$3$$1$$5$$rec;
-              void *return_value_wg_get_first_record$4;
-              return_value_wg_get_first_record$4=wg_get_first_record(db);
-              wg_make_json_query$$1$$3$$1$$5$$rec = (signed long int *)return_value_wg_get_first_record$4;
-              while(!(wg_make_json_query$$1$$3$$1$$5$$rec == ((signed long int *)NULL)))
+              signed long int *wg_make_json_query__1__3__1__5__rec;
+              void *return_value_wg_get_first_record_4;
+              return_value_wg_get_first_record_4=wg_get_first_record(db);
+              wg_make_json_query__1__3__1__5__rec = (signed long int *)return_value_wg_get_first_record_4;
+              while(!(wg_make_json_query__1__3__1__5__rec == ((signed long int *)NULL)))
               {
-                signed long int wg_make_json_query$$1$$3$$1$$5$$1$$rc;
-                wg_make_json_query$$1$$3$$1$$5$$1$$rc=check_and_merge_by_kv(db, (void *)wg_make_json_query$$1$$3$$1$$5$$rec, &arglist[i], next_set);
-                if(!(wg_make_json_query$$1$$3$$1$$5$$1$$rc >= 0l))
+                signed long int wg_make_json_query__1__3__1__5__1__rc;
+                wg_make_json_query__1__3__1__5__1__rc=check_and_merge_by_kv(db, (void *)wg_make_json_query__1__3__1__5__rec, &arglist[i], next_set);
+                if(!(wg_make_json_query__1__3__1__5__1__rc >= 0l))
                 {
                   free_resultset(db, next_set);
-                  if(!(curr_res == ((struct anonymous$17 *)NULL)))
+                  if(!(curr_res == ((struct anonymous_17 *)NULL)))
                     free_resultset(db, curr_res);
 
-                  if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+                  if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
                     free((void *)sorted_arglist);
 
-                  return (struct anonymous$15 *)(void *)0;
+                  return (struct anonymous_15 *)(void *)0;
                 }
 
-                void *return_value_wg_get_next_record$5;
-                return_value_wg_get_next_record$5=wg_get_next_record(db, (void *)wg_make_json_query$$1$$3$$1$$5$$rec);
-                wg_make_json_query$$1$$3$$1$$5$$rec = (signed long int *)return_value_wg_get_next_record$5;
+                void *return_value_wg_get_next_record_5;
+                return_value_wg_get_next_record_5=wg_get_next_record(db, (void *)wg_make_json_query__1__3__1__5__rec);
+                wg_make_json_query__1__3__1__5__rec = (signed long int *)return_value_wg_get_next_record_5;
               }
             }
         tmp_set=unique_resultset(db, next_set);
         free_resultset(db, next_set);
-        if(tmp_set == ((struct anonymous$17 *)NULL))
+        if(tmp_set == ((struct anonymous_17 *)NULL))
         {
-          if(!(curr_res == ((struct anonymous$17 *)NULL)))
+          if(!(curr_res == ((struct anonymous_17 *)NULL)))
             free_resultset(db, curr_res);
 
-          if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+          if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
             free((void *)sorted_arglist);
 
-          return (struct anonymous$15 *)(void *)0;
+          return (struct anonymous_15 *)(void *)0;
         }
 
         else
           next_set = tmp_set;
-        if(!(curr_res == ((struct anonymous$17 *)NULL)))
+        if(!(curr_res == ((struct anonymous_17 *)NULL)))
         {
           tmp_set=intersect_resultset(db, curr_res, next_set);
           free_resultset(db, curr_res);
           free_resultset(db, next_set);
-          if(tmp_set == ((struct anonymous$17 *)NULL))
+          if(tmp_set == ((struct anonymous_17 *)NULL))
           {
-            if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+            if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
               free((void *)sorted_arglist);
 
-            return (struct anonymous$15 *)(void *)0;
+            return (struct anonymous_15 *)(void *)0;
           }
 
           else
@@ -17510,23 +17510,23 @@ struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist,
         else
           curr_res = next_set;
       }
-      if(!(sorted_arglist == ((struct anonymous$18 *)NULL)))
+      if(!(sorted_arglist == ((struct anonymous_18 *)NULL)))
         free((void *)sorted_arglist);
 
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc(sizeof(struct anonymous$15) /*112ul*/ );
-      query = (struct anonymous$15 *)return_value_malloc$8;
-      if(query == ((struct anonymous$15 *)NULL))
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc(sizeof(struct anonymous_15) /*112ul*/ );
+      query = (struct anonymous_15 *)return_value_malloc_8;
+      if(query == ((struct anonymous_15 *)NULL))
       {
         free_resultset(db, curr_res);
         show_query_error(db, "Failed to allocate memory");
-        return (struct anonymous$15 *)(void *)0;
+        return (struct anonymous_15 *)(void *)0;
       }
 
       else
       {
         query->qtype = (signed long int)0x80;
-        query->arglist = (struct anonymous$12 *)(void *)0;
+        query->arglist = (struct anonymous_12 *)(void *)0;
         query->argc = (signed long int)0;
         query->column = (signed long int)-1;
         query->curr_page = (void *)curr_res->first_page;
@@ -17542,33 +17542,33 @@ struct anonymous$15 * wg_make_json_query(void *db, struct anonymous$18 *arglist,
 
 // wg_make_query
 // file dbquery.c line 953
-struct anonymous$15 * wg_make_query(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc)
+struct anonymous_15 * wg_make_query(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc)
 {
-  struct anonymous$15 *return_value_internal_build_query$1;
-  return_value_internal_build_query$1=internal_build_query(db, matchrec, reclen, arglist, argc, (signed long int)0x1000, (unsigned long int)0);
-  return return_value_internal_build_query$1;
+  struct anonymous_15 *return_value_internal_build_query_1;
+  return_value_internal_build_query_1=internal_build_query(db, matchrec, reclen, arglist, argc, (signed long int)0x1000, (unsigned long int)0);
+  return return_value_internal_build_query_1;
 }
 
 // wg_make_query_rc
 // file dbquery.c line 965
-struct anonymous$15 * wg_make_query_rc(void *db, void *matchrec, signed long int reclen, struct anonymous$12 *arglist, signed long int argc, unsigned long int rowlimit)
+struct anonymous_15 * wg_make_query_rc(void *db, void *matchrec, signed long int reclen, struct anonymous_12 *arglist, signed long int argc, unsigned long int rowlimit)
 {
-  struct anonymous$15 *return_value_internal_build_query$1;
-  return_value_internal_build_query$1=internal_build_query(db, matchrec, reclen, arglist, argc, (signed long int)0x1000, rowlimit);
-  return return_value_internal_build_query$1;
+  struct anonymous_15 *return_value_internal_build_query_1;
+  return_value_internal_build_query_1=internal_build_query(db, matchrec, reclen, arglist, argc, (signed long int)0x1000, rowlimit);
+  return return_value_internal_build_query_1;
 }
 
 // wg_match_template
 // file dbindex.c line 1958
-signed long int wg_match_template(void *db, struct anonymous$22 *tmpl, void *rec)
+signed long int wg_match_template(void *db, struct anonymous_22 *tmpl, void *rec)
 {
   void *matchrec;
   signed long int reclen;
   signed long int mreclen;
   signed int i;
-  signed long int tmp_if_expr$4;
-  signed long int return_value_wg_get_field$2;
-  signed long int return_value_wg_compare$3;
+  signed long int tmp_if_expr_4;
+  signed long int return_value_wg_get_field_2;
+  signed long int return_value_wg_compare_3;
   if(tmpl->offset_matchrec == 0l)
   {
     show_index_error(db, "Invalid match record template");
@@ -17577,7 +17577,7 @@ signed long int wg_match_template(void *db, struct anonymous$22 *tmpl, void *rec
 
   else
   {
-    matchrec = (void *)((char *)((struct anonymous$6 *)db)->db + tmpl->offset_matchrec);
+    matchrec = (void *)((char *)((struct anonymous_6 *)db)->db + tmpl->offset_matchrec);
     mreclen=wg_get_record_len(db, matchrec);
     reclen=wg_get_record_len(db, rec);
     if(!(reclen >= mreclen))
@@ -17592,22 +17592,22 @@ signed long int wg_match_template(void *db, struct anonymous$22 *tmpl, void *rec
     {
       signed long int enc;
       enc=wg_get_field(db, matchrec, (signed long int)i);
-      signed long int return_value_wg_get_encoded_type$5;
-      return_value_wg_get_encoded_type$5=wg_get_encoded_type(db, enc);
-      if(!(return_value_wg_get_encoded_type$5 == 14l))
+      signed long int return_value_wg_get_encoded_type_5;
+      return_value_wg_get_encoded_type_5=wg_get_encoded_type(db, enc);
+      if(!(return_value_wg_get_encoded_type_5 == 14l))
       {
-        signed long int return_value_wg_get_field$1;
-        return_value_wg_get_field$1=wg_get_field(db, rec, (signed long int)i);
-        if(enc == return_value_wg_get_field$1)
-          tmp_if_expr$4 = (signed long int)0;
+        signed long int return_value_wg_get_field_1;
+        return_value_wg_get_field_1=wg_get_field(db, rec, (signed long int)i);
+        if(enc == return_value_wg_get_field_1)
+          tmp_if_expr_4 = (signed long int)0;
 
         else
         {
-          return_value_wg_get_field$2=wg_get_field(db, rec, (signed long int)i);
-          return_value_wg_compare$3=wg_compare(db, enc, return_value_wg_get_field$2, 7);
-          tmp_if_expr$4 = return_value_wg_compare$3;
+          return_value_wg_get_field_2=wg_get_field(db, rec, (signed long int)i);
+          return_value_wg_compare_3=wg_compare(db, enc, return_value_wg_get_field_2, 7);
+          tmp_if_expr_4 = return_value_wg_compare_3;
         }
-        if(!(tmp_if_expr$4 == 0l))
+        if(!(tmp_if_expr_4 == 0l))
           return (signed long int)0;
 
       }
@@ -17622,9 +17622,9 @@ signed long int wg_match_template(void *db, struct anonymous$22 *tmpl, void *rec
 signed int wg_memgroup(void *db)
 {
   signed int gid;
-  unsigned int return_value_getgid$1;
-  return_value_getgid$1=getgid();
-  gid = (signed int)return_value_getgid$1;
+  unsigned int return_value_getgid_1;
+  return_value_getgid_1=getgid();
+  gid = (signed int)return_value_getgid_1;
   struct shmid_ds buf;
   signed int err;
   err=memory_stats(db, &buf);
@@ -17661,9 +17661,9 @@ signed int wg_memmode(void *db)
 signed int wg_memowner(void *db)
 {
   signed int uid;
-  unsigned int return_value_getuid$1;
-  return_value_getuid$1=getuid();
-  uid = (signed int)return_value_getuid$1;
+  unsigned int return_value_getuid_1;
+  return_value_getuid_1=getuid();
+  uid = (signed int)return_value_getuid_1;
   struct shmid_ds buf;
   signed int err;
   err=memory_stats(db, &buf);
@@ -17684,29 +17684,29 @@ void * wg_mkatom(void *db, void *mpool, signed int type, char *str1, char *str2)
   char *ptr;
   char *curptr;
   signed int size = 2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(str1 == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(str1);
-    size = (signed int)((unsigned long int)size + return_value_strlen$1);
+    return_value_strlen_1=strlen(str1);
+    size = (signed int)((unsigned long int)size + return_value_strlen_1);
   }
 
   size = size + 1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(str2 == ((char *)NULL)))
   {
-    return_value_strlen$2=strlen(str2);
-    size = (signed int)((unsigned long int)size + return_value_strlen$2);
+    return_value_strlen_2=strlen(str2);
+    size = (signed int)((unsigned long int)size + return_value_strlen_2);
   }
 
   size = size + 1;
-  void *return_value_wg_alloc_mpool$3;
-  return_value_wg_alloc_mpool$3=wg_alloc_mpool(db, mpool, size);
-  ptr = (char *)return_value_wg_alloc_mpool$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
+  void *return_value_wg_alloc_mpool_3;
+  return_value_wg_alloc_mpool_3=wg_alloc_mpool(db, mpool, size);
+  ptr = (char *)return_value_wg_alloc_mpool_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
   if(ptr == ((char *)NULL))
   {
     show_mpool_error(db, "cannot create an atom in mpool");
@@ -17722,12 +17722,12 @@ void * wg_mkatom(void *db, void *mpool, signed int type, char *str1, char *str2)
     if(!(str1 == ((char *)NULL)))
       do
       {
-        tmp_post$4 = curptr;
+        tmp_post_4 = curptr;
         curptr = curptr + 1l;
-        tmp_post$5 = str1;
+        tmp_post_5 = str1;
         str1 = str1 + 1l;
-        *tmp_post$4 = *tmp_post$5;
-        if(*tmp_post$4 == 0)
+        *tmp_post_4 = *tmp_post_5;
+        if(*tmp_post_4 == 0)
           break;
 
       }
@@ -17741,12 +17741,12 @@ void * wg_mkatom(void *db, void *mpool, signed int type, char *str1, char *str2)
     if(!(str2 == ((char *)NULL)))
       do
       {
-        tmp_post$6 = curptr;
+        tmp_post_6 = curptr;
         curptr = curptr + 1l;
-        tmp_post$7 = str2;
+        tmp_post_7 = str2;
         str2 = str2 + 1l;
-        *tmp_post$6 = *tmp_post$7;
-        if(*tmp_post$6 == 0)
+        *tmp_post_6 = *tmp_post_7;
+        if(*tmp_post_6 == 0)
           break;
 
       }
@@ -17798,25 +17798,25 @@ static void wg_mpool_print_aux(void *db, void *ptr, signed int depth, signed int
   signed int ppflag = 0;
   signed int i;
   void *curptr;
-  signed int return_value_wg_isatom$16;
-  _Bool tmp_if_expr$3;
-  char *return_value_strchr$2;
-  _Bool tmp_if_expr$5;
-  char *return_value_strchr$4;
-  _Bool tmp_if_expr$8;
-  char *return_value_strchr$7;
-  _Bool tmp_if_expr$10;
-  char *return_value_strchr$9;
-  signed int return_value_wg_listtreecount$11;
-  _Bool tmp_if_expr$13;
-  signed int return_value_wg_isatom$12;
+  signed int return_value_wg_isatom_16;
+  _Bool tmp_if_expr_3;
+  char *return_value_strchr_2;
+  _Bool tmp_if_expr_5;
+  char *return_value_strchr_4;
+  _Bool tmp_if_expr_8;
+  char *return_value_strchr_7;
+  _Bool tmp_if_expr_10;
+  char *return_value_strchr_9;
+  signed int return_value_wg_listtreecount_11;
+  _Bool tmp_if_expr_13;
+  signed int return_value_wg_isatom_12;
   if(ptr == NULL)
     printf("()");
 
   else
   {
-    return_value_wg_isatom$16=wg_isatom(db, ptr);
-    if(!(return_value_wg_isatom$16 == 0))
+    return_value_wg_isatom_16=wg_isatom(db, ptr);
+    if(!(return_value_wg_isatom_16 == 0))
     {
       type=wg_atomtype(db, ptr);
       switch(type)
@@ -17902,25 +17902,25 @@ static void wg_mpool_print_aux(void *db, void *ptr, signed int depth, signed int
       p=wg_atomstr1(db, ptr);
       if(!(p == ((char *)NULL)))
       {
-        char *return_value_strchr$1;
-        return_value_strchr$1=strchr(p, 32);
-        if(!(return_value_strchr$1 == ((char *)NULL)))
-          tmp_if_expr$3 = (_Bool)1;
+        char *return_value_strchr_1;
+        return_value_strchr_1=strchr(p, 32);
+        if(!(return_value_strchr_1 == ((char *)NULL)))
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_strchr$2=strchr(p, 10);
-          tmp_if_expr$3 = return_value_strchr$2 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_2=strchr(p, 10);
+          tmp_if_expr_3 = return_value_strchr_2 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
-          tmp_if_expr$5 = (_Bool)1;
+        if(tmp_if_expr_3)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_strchr$4=strchr(p, 9);
-          tmp_if_expr$5 = return_value_strchr$4 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_4=strchr(p, 9);
+          tmp_if_expr_5 = return_value_strchr_4 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           printf("\"%s\"", p);
 
         else
@@ -17932,25 +17932,25 @@ static void wg_mpool_print_aux(void *db, void *ptr, signed int depth, signed int
       p=wg_atomstr2(db, ptr);
       if(!(p == ((char *)NULL)))
       {
-        char *return_value_strchr$6;
-        return_value_strchr$6=strchr(p, 32);
-        if(!(return_value_strchr$6 == ((char *)NULL)))
-          tmp_if_expr$8 = (_Bool)1;
+        char *return_value_strchr_6;
+        return_value_strchr_6=strchr(p, 32);
+        if(!(return_value_strchr_6 == ((char *)NULL)))
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_strchr$7=strchr(p, 10);
-          tmp_if_expr$8 = return_value_strchr$7 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_7=strchr(p, 10);
+          tmp_if_expr_8 = return_value_strchr_7 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
-          tmp_if_expr$10 = (_Bool)1;
+        if(tmp_if_expr_8)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
         {
-          return_value_strchr$9=strchr(p, 9);
-          tmp_if_expr$10 = return_value_strchr$9 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_9=strchr(p, 9);
+          tmp_if_expr_10 = return_value_strchr_9 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$10)
+        if(tmp_if_expr_10)
           printf("^^\"%s\"", p);
 
         else
@@ -17963,8 +17963,8 @@ static void wg_mpool_print_aux(void *db, void *ptr, signed int depth, signed int
     {
       if(!(pflag == 0))
       {
-        return_value_wg_listtreecount$11=wg_listtreecount(db, ptr);
-        if(return_value_wg_listtreecount$11 >= 11)
+        return_value_wg_listtreecount_11=wg_listtreecount(db, ptr);
+        if(return_value_wg_listtreecount_11 >= 11)
           ppflag = 1;
 
       }
@@ -17976,13 +17976,13 @@ static void wg_mpool_print_aux(void *db, void *ptr, signed int depth, signed int
       {
         if(!(curptr == NULL))
         {
-          return_value_wg_isatom$12=wg_isatom(db, curptr);
-          tmp_if_expr$13 = !(return_value_wg_isatom$12 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_wg_isatom_12=wg_isatom(db, curptr);
+          tmp_if_expr_13 = !(return_value_wg_isatom_12 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(!tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(!tmp_if_expr_13)
           break;
 
         if(count >= 1)
@@ -17998,16 +17998,16 @@ static void wg_mpool_print_aux(void *db, void *ptr, signed int depth, signed int
           printf(" ");
         }
 
-        void *return_value_wg_first$14;
-        return_value_wg_first$14=wg_first(db, curptr);
-        wg_mpool_print_aux(db, return_value_wg_first$14, depth + 1, 0);
+        void *return_value_wg_first_14;
+        return_value_wg_first_14=wg_first(db, curptr);
+        wg_mpool_print_aux(db, return_value_wg_first_14, depth + 1, 0);
         curptr=wg_rest(db, curptr);
         count = count + 1;
       }
       while((_Bool)1);
-      signed int return_value_wg_isatom$15;
-      return_value_wg_isatom$15=wg_isatom(db, curptr);
-      if(!(return_value_wg_isatom$15 == 0))
+      signed int return_value_wg_isatom_15;
+      return_value_wg_isatom_15=wg_isatom(db, curptr);
+      if(!(return_value_wg_isatom_15 == 0))
       {
         printf(" . ");
         wg_mpool_print_aux(db, curptr, depth + 1, ppflag);
@@ -18027,11 +18027,11 @@ signed long int wg_multi_column_to_index_id(void *db, signed long int *columns, 
 {
   signed int i;
   signed long int template_offset = (signed long int)0;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int *ilist;
-  struct anonymous$20 *ilistelem;
+  struct anonymous_20 *ilistelem;
   signed long int sorted_cols[10l];
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(matchrec == ((signed long int *)NULL)))
   {
     if(reclen == 0l)
@@ -18073,9 +18073,9 @@ signed long int wg_multi_column_to_index_id(void *db, signed long int *columns, 
 
     if(col_count >= 2l)
     {
-      signed long int return_value_sort_columns$1;
-      return_value_sort_columns$1=sort_columns(sorted_cols, columns, col_count);
-      if(!(return_value_sort_columns$1 >= col_count))
+      signed long int return_value_sort_columns_1;
+      return_value_sort_columns_1=sort_columns(sorted_cols, columns, col_count);
+      if(!(return_value_sort_columns_1 >= col_count))
       {
         show_index_error(db, "Duplicate columns not allowed");
         return (signed long int)-1;
@@ -18096,16 +18096,16 @@ signed long int wg_multi_column_to_index_id(void *db, signed long int *columns, 
     ilist = &dbh->index_control_area_header.index_table[sorted_cols[(signed long int)0]];
     for( ; !(*ilist == 0l); ilist = &ilistelem->cdr)
     {
-      ilistelem = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *ilist);
+      ilistelem = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *ilist);
       if(!(ilistelem->car == 0l))
       {
-        struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + ilistelem->car);
+        struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + ilistelem->car);
         if(type == 0l)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = type == hdr->type ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = type == hdr->type ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           if(hdr->template_offset == template_offset)
           {
@@ -18141,9 +18141,9 @@ signed long int wg_parse_and_encode(void *db, char *buf)
   double doubledata = (double)0;
   signed long int encoded = (signed long int)0xff;
   signed long int res = (signed long int)0;
-  signed long int return_value_parse_input_type$1;
-  return_value_parse_input_type$1=parse_input_type(db, buf, &intdata, &doubledata, &res);
-  switch(return_value_parse_input_type$1)
+  signed long int return_value_parse_input_type_1;
+  return_value_parse_input_type_1=parse_input_type(db, buf, &intdata, &doubledata, &res);
+  switch(return_value_parse_input_type_1)
   {
     case (signed long int)1:
     {
@@ -18184,9 +18184,9 @@ signed long int wg_parse_and_encode_param(void *db, char *buf)
   double doubledata = (double)0;
   signed long int encoded = (signed long int)0xff;
   signed long int res = (signed long int)0;
-  signed long int return_value_parse_input_type$1;
-  return_value_parse_input_type$1=parse_input_type(db, buf, &intdata, &doubledata, &res);
-  switch(return_value_parse_input_type$1)
+  signed long int return_value_parse_input_type_1;
+  return_value_parse_input_type_1=parse_input_type(db, buf, &intdata, &doubledata, &res);
+  switch(return_value_parse_input_type_1)
   {
     case (signed long int)1:
     {
@@ -18243,14 +18243,14 @@ signed long int wg_parse_json_file(void *db, char *filename)
   signed int bufsize = 0;
   signed int depth = -1;
   struct yajl_handle_t *hand = (struct yajl_handle_t *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)16384);
-  buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)16384);
+  buf = (char *)return_value_malloc_1;
   if(buf == ((char *)NULL))
   {
-    signed long int return_value_show_json_error$2;
-    return_value_show_json_error$2=show_json_error(db, "Failed to allocate memory");
-    return return_value_show_json_error$2;
+    signed long int return_value_show_json_error_2;
+    return_value_show_json_error_2=show_json_error(db, "Failed to allocate memory");
+    return return_value_show_json_error_2;
   }
 
   bufsize = 16384;
@@ -18272,24 +18272,24 @@ signed long int wg_parse_json_file(void *db, char *filename)
     }
 
   }
-  hand=yajl_alloc(&validate_cb, (struct anonymous$3 *)(void *)0, (void *)&depth);
-  yajl_config(hand, (enum anonymous$4)yajl_allow_comments, 1);
-  signed int return_value_feof$3;
+  hand=yajl_alloc(&validate_cb, (struct anonymous_3 *)(void *)0, (void *)&depth);
+  yajl_config(hand, (enum anonymous_4)yajl_allow_comments, 1);
+  signed int return_value_feof_3;
   do
   {
-    return_value_feof$3=feof(f);
-    if(!(return_value_feof$3 == 0))
+    return_value_feof_3=feof(f);
+    if(!(return_value_feof_3 == 0))
       break;
 
     signed int rd;
-    unsigned long int return_value_fread$4;
-    return_value_fread$4=fread((void *)&buf[(signed long int)count], (unsigned long int)1, (unsigned long int)16384, f);
-    rd = (signed int)return_value_fread$4;
+    unsigned long int return_value_fread_4;
+    return_value_fread_4=fread((void *)&buf[(signed long int)count], (unsigned long int)1, (unsigned long int)16384, f);
+    rd = (signed int)return_value_fread_4;
     if(rd == 0)
     {
-      signed int return_value_feof$5;
-      return_value_feof$5=feof(f);
-      if(return_value_feof$5 == 0)
+      signed int return_value_feof_5;
+      return_value_feof_5=feof(f);
+      if(return_value_feof_5 == 0)
       {
         show_json_error_byte(db, "Read error", count);
         result = -1;
@@ -18298,9 +18298,9 @@ signed long int wg_parse_json_file(void *db, char *filename)
       goto done;
     }
 
-    enum anonymous$27 return_value_yajl_parse$6;
-    return_value_yajl_parse$6=yajl_parse(hand, (unsigned char *)&buf[(signed long int)count], (unsigned long int)rd);
-    if(!((signed int)return_value_yajl_parse$6 == yajl_status_ok))
+    enum anonymous_27 return_value_yajl_parse_6;
+    return_value_yajl_parse_6=yajl_parse(hand, (unsigned char *)&buf[(signed long int)count], (unsigned long int)rd);
+    if(!((signed int)return_value_yajl_parse_6 == yajl_status_ok))
     {
       unsigned char *errtxt;
       errtxt=yajl_get_error(hand, 1, (unsigned char *)&buf[(signed long int)count], (unsigned long int)rd);
@@ -18328,10 +18328,10 @@ signed long int wg_parse_json_file(void *db, char *filename)
 
   }
   while((_Bool)1);
-  enum anonymous$27 return_value_yajl_complete_parse$7;
-  return_value_yajl_complete_parse$7=yajl_complete_parse(hand);
-  signed long int return_value_wg_parse_json_document$8;
-  if(!((signed int)return_value_yajl_complete_parse$7 == yajl_status_ok))
+  enum anonymous_27 return_value_yajl_complete_parse_7;
+  return_value_yajl_complete_parse_7=yajl_complete_parse(hand);
+  signed long int return_value_wg_parse_json_document_8;
+  if(!((signed int)return_value_yajl_complete_parse_7 == yajl_status_ok))
   {
     show_json_error(db, "Syntax error (JSON not properly terminated?)");
     result = -1;
@@ -18347,8 +18347,8 @@ signed long int wg_parse_json_file(void *db, char *filename)
     else
     {
       buf[(signed long int)count] = (char)0;
-      return_value_wg_parse_json_document$8=wg_parse_json_document(db, buf, (void **)(void *)0);
-      result = (signed int)return_value_wg_parse_json_document$8;
+      return_value_wg_parse_json_document_8=wg_parse_json_document(db, buf, (void **)(void *)0);
+      result = (signed int)return_value_wg_parse_json_document_8;
     }
 
 done:
@@ -18384,14 +18384,14 @@ signed long int wg_parse_json_param(void *db, char *buf, void **document)
 {
   if(document == ((void **)NULL))
   {
-    signed long int return_value_show_json_error$1;
-    return_value_show_json_error$1=show_json_error(db, "wg_parse_json_param: arg 3 cannot be NULL");
-    return return_value_show_json_error$1;
+    signed long int return_value_show_json_error_1;
+    return_value_show_json_error_1=show_json_error(db, "wg_parse_json_param: arg 3 cannot be NULL");
+    return return_value_show_json_error_1;
   }
 
-  signed long int return_value_run_json_parser$2;
-  return_value_run_json_parser$2=run_json_parser(db, buf, &input_cb, 1, 1, document);
-  return return_value_run_json_parser$2;
+  signed long int return_value_run_json_parser_2;
+  return_value_run_json_parser_2=run_json_parser(db, buf, &input_cb, 1, 1, document);
+  return return_value_run_json_parser_2;
 }
 
 // wg_pretty_print_memsize
@@ -18449,25 +18449,25 @@ void wg_print_header_version(struct _db_memsegment_header *dbh, signed int verbo
   char *magic_bytes = (char *)&magic;
   char *header_bytes = (char *)dbh;
   char magic_lsb = (char)(1232319011 & 0xff);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*magic_bytes == header_bytes[3l])
-    tmp_if_expr$1 = magic_bytes[(signed long int)1] == header_bytes[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = magic_bytes[(signed long int)1] == header_bytes[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = magic_bytes[(signed long int)2] == header_bytes[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = magic_bytes[(signed long int)2] == header_bytes[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = magic_bytes[(signed long int)3] == header_bytes[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = magic_bytes[(signed long int)3] == header_bytes[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     char *f1 = (char *)&dbh->version;
     char *t1 = (char *)&version;
@@ -18507,13 +18507,13 @@ void wg_print_json_document(void *db, void *cb, void *cb_ctx, void *document)
 
   else
   {
-    g=yajl_gen_alloc((const struct anonymous$3 *)(void *)0);
-    yajl_gen_config(g, (enum anonymous$32)yajl_gen_beautify, 1);
+    g=yajl_gen_alloc((const struct anonymous_3 *)(void *)0);
+    yajl_gen_config(g, (enum anonymous_32)yajl_gen_beautify, 1);
     if(!(cb == NULL))
-      yajl_gen_config(g, (enum anonymous$32)yajl_gen_print_callback, (void (**)(void *, const char *, unsigned long int))cb, cb_ctx);
+      yajl_gen_config(g, (enum anonymous_32)yajl_gen_print_callback, (void (**)(void *, const char *, unsigned long int))cb, cb_ctx);
 
     else
-      yajl_gen_config(g, (enum anonymous$32)yajl_gen_print_callback, print_cb, (void *)stdout);
+      yajl_gen_config(g, (enum anonymous_32)yajl_gen_print_callback, print_cb, (void *)stdout);
     pretty_print_json(db, &g, document);
     yajl_gen_free(g);
   }
@@ -18560,7 +18560,7 @@ signed long int wg_register_external_db(void *db, void *extdb)
 // file dbhash.h line 54
 signed long int wg_remove_from_strhash(void *db, signed long int longstr)
 {
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int type;
   signed long int *extrastrptr;
   char *extrastr;
@@ -18577,7 +18577,7 @@ signed long int wg_remove_from_strhash(void *db, signed long int longstr)
   signed long int strsize;
   signed long int *typeptr;
   offset = longstr & (signed long int)~0x7;
-  objptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + offset);
+  objptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + offset);
   extrastrptr = (signed long int *)((char *)objptr + (signed long int)((unsigned long int)5 * sizeof(signed long int) /*8ul*/ ));
   fldval = *extrastrptr;
   if(fldval == 0l)
@@ -18586,36 +18586,36 @@ signed long int wg_remove_from_strhash(void *db, signed long int longstr)
   else
     extrastr=wg_decode_str(db, fldval);
   data = (char *)objptr + (signed long int)((unsigned long int)6 * sizeof(signed long int) /*8ul*/ );
-  signed long int tmp_if_expr$2;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_2;
+  signed long int tmp_if_expr_1;
   if(!((-4l & *objptr) >= 33l))
-    tmp_if_expr$2 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
+    tmp_if_expr_2 = (signed long int)4 * (signed long int)sizeof(signed long int) /*8ul*/ ;
 
   else
   {
     if(!((-4l & *objptr) % 8l == 0l))
-      tmp_if_expr$1 = (*objptr & (signed long int)~3) + (signed long int)4;
+      tmp_if_expr_1 = (*objptr & (signed long int)~3) + (signed long int)4;
 
     else
-      tmp_if_expr$1 = *objptr & (signed long int)~3;
-    tmp_if_expr$2 = tmp_if_expr$1;
+      tmp_if_expr_1 = *objptr & (signed long int)~3;
+    tmp_if_expr_2 = tmp_if_expr_1;
   }
-  objsize = tmp_if_expr$2;
+  objsize = tmp_if_expr_2;
   strsize = objsize - ((objptr[(signed long int)1] & (signed long int)0xFF00) >> 8);
   length = strsize;
   typeptr = (signed long int *)((char *)objptr + (signed long int)((unsigned long int)+1 * sizeof(signed long int) /*8ul*/ ));
   type = *typeptr & (signed long int)0xFF;
-  signed int return_value_wg_hash_typedstr$3;
-  return_value_wg_hash_typedstr$3=wg_hash_typedstr(db, data, extrastr, type, length);
-  hash = (signed long int)return_value_wg_hash_typedstr$3;
+  signed int return_value_wg_hash_typedstr_3;
+  return_value_wg_hash_typedstr_3=wg_hash_typedstr(db, data, extrastr, type, length);
+  hash = (signed long int)return_value_wg_hash_typedstr_3;
   chainoffset = (signed long int)((unsigned long int)dbh->strhash_area_header.arraystart + sizeof(signed long int) /*8ul*/  * (unsigned long int)hash);
-  hashchain = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + chainoffset));
-  for( ; !(hashchain == 0l); hashchain = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + chainoffset)))
+  hashchain = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + chainoffset));
+  for( ; !(hashchain == 0l); hashchain = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + chainoffset)))
   {
     if(hashchain == longstr)
     {
-      nextchain = *((signed long int *)((char *)((struct anonymous$6 *)db)->db + (signed long int)((unsigned long int)(hashchain & (signed long int)~0x7) + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ )));
-      *((signed long int *)((char *)((struct anonymous$6 *)db)->db + chainoffset)) = nextchain;
+      nextchain = *((signed long int *)((char *)((struct anonymous_6 *)db)->db + (signed long int)((unsigned long int)(hashchain & (signed long int)~0x7) + (unsigned long int)4 * sizeof(signed long int) /*8ul*/ )));
+      *((signed long int *)((char *)((struct anonymous_6 *)db)->db + chainoffset)) = nextchain;
       return (signed long int)0;
     }
 
@@ -18629,9 +18629,9 @@ signed long int wg_remove_from_strhash(void *db, signed long int longstr)
 // file dblog.c line 870
 signed long int wg_replay_log(void *db, char *filename)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_rest
@@ -18650,16 +18650,16 @@ signed int wg_right_strhash_bucket(void *db, signed long int longstr, char *cstr
   signed int strsize;
   signed long int type;
   type=wg_get_encoded_type(db, longstr);
-  signed int return_value_memcmp$2;
-  signed int return_value_strcmp$3;
+  signed int return_value_memcmp_2;
+  signed int return_value_strcmp_3;
   if(!(type == ctype))
     return 0;
 
   else
   {
-    signed long int return_value_wg_decode_str_len$1;
-    return_value_wg_decode_str_len$1=wg_decode_str_len(db, longstr);
-    strsize = (signed int)(return_value_wg_decode_str_len$1 + (signed long int)1);
+    signed long int return_value_wg_decode_str_len_1;
+    return_value_wg_decode_str_len_1=wg_decode_str_len(db, longstr);
+    strsize = (signed int)(return_value_wg_decode_str_len_1 + (signed long int)1);
     if(!((signed long int)strsize == cstrsize))
       return 0;
 
@@ -18672,8 +18672,8 @@ signed int wg_right_strhash_bucket(void *db, signed long int longstr, char *cstr
       else
         if(!(cstr == ((char *)NULL)))
         {
-          return_value_memcmp$2=memcmp((const void *)str, (const void *)cstr, (unsigned long int)cstrsize);
-          if(return_value_memcmp$2 == 0)
+          return_value_memcmp_2=memcmp((const void *)str, (const void *)cstr, (unsigned long int)cstrsize);
+          if(return_value_memcmp_2 == 0)
             goto __CPROVER_DUMP_L4;
 
           return 0;
@@ -18691,8 +18691,8 @@ signed int wg_right_strhash_bucket(void *db, signed long int longstr, char *cstr
           else
             if(!(cextrastr == ((char *)NULL)))
             {
-              return_value_strcmp$3=strcmp(extrastr, cextrastr);
-              if(return_value_strcmp$3 == 0)
+              return_value_strcmp_3=strcmp(extrastr, cextrastr);
+              if(return_value_strcmp_3 == 0)
                 goto __CPROVER_DUMP_L6;
 
               return 0;
@@ -18714,18 +18714,18 @@ signed int wg_right_strhash_bucket(void *db, signed long int longstr, char *cstr
 // file dbindex.c line 1692
 signed long int wg_search_hash(void *db, signed long int index_id, signed long int *values, signed long int count)
 {
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   signed long int type;
   type=wg_get_index_type(db, index_id);
-  signed long int return_value_show_index_error$1;
+  signed long int return_value_show_index_error_1;
   if(!(type >= 0l))
     return type;
 
   else
     if(!(type == 60l) && !(type == 61l))
     {
-      return_value_show_index_error$1=show_index_error(db, "wg_search_hash: Not a hash index");
-      return return_value_show_index_error$1;
+      return_value_show_index_error_1=show_index_error(db, "wg_search_hash: Not a hash index");
+      return return_value_show_index_error_1;
     }
 
     else
@@ -18737,9 +18737,9 @@ signed long int wg_search_hash(void *db, signed long int index_id, signed long i
 
       else
       {
-        signed long int return_value_hash_recurse$2;
-        return_value_hash_recurse$2=hash_recurse(db, hdr, (char *)(void *)0, (signed long int)0, values, count, (void *)0, (signed long int)3, (signed long int)0);
-        return return_value_hash_recurse$2;
+        signed long int return_value_hash_recurse_2;
+        return_value_hash_recurse_2=hash_recurse(db, hdr, (char *)(void *)0, (signed long int)0, values, count, (void *)0, (signed long int)3, (signed long int)0);
+        return return_value_hash_recurse_2;
       }
 }
 
@@ -18749,22 +18749,22 @@ signed long int wg_search_tnode_first(void *db, signed long int nodeoffset, sign
 {
   signed long int i;
   signed long int encoded;
-  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + nodeoffset);
+  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + nodeoffset);
   i = (signed long int)0;
-  signed long int tmp_if_expr$2;
-  signed long int return_value_wg_compare$1;
+  signed long int tmp_if_expr_2;
+  signed long int return_value_wg_compare_1;
   for( ; !(i >= (signed long int)node->number_of_elements); i = i + 1l)
   {
-    encoded=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[i]), column);
+    encoded=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[i]), column);
     if(encoded == key)
-      tmp_if_expr$2 = (signed long int)0;
+      tmp_if_expr_2 = (signed long int)0;
 
     else
     {
-      return_value_wg_compare$1=wg_compare(db, encoded, key, 7);
-      tmp_if_expr$2 = return_value_wg_compare$1;
+      return_value_wg_compare_1=wg_compare(db, encoded, key, 7);
+      tmp_if_expr_2 = return_value_wg_compare_1;
     }
-    if(!(tmp_if_expr$2 == -1l))
+    if(!(tmp_if_expr_2 == -1l))
       return i;
 
   }
@@ -18777,22 +18777,22 @@ signed long int wg_search_tnode_last(void *db, signed long int nodeoffset, signe
 {
   signed long int i;
   signed long int encoded;
-  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + nodeoffset);
+  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + nodeoffset);
   i = (signed long int)((signed int)node->number_of_elements - 1);
-  signed long int tmp_if_expr$2;
-  signed long int return_value_wg_compare$1;
+  signed long int tmp_if_expr_2;
+  signed long int return_value_wg_compare_1;
   for( ; i >= 0l; i = i - 1l)
   {
-    encoded=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + node->array_of_values[i]), column);
+    encoded=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + node->array_of_values[i]), column);
     if(encoded == key)
-      tmp_if_expr$2 = (signed long int)0;
+      tmp_if_expr_2 = (signed long int)0;
 
     else
     {
-      return_value_wg_compare$1=wg_compare(db, encoded, key, 7);
-      tmp_if_expr$2 = return_value_wg_compare$1;
+      return_value_wg_compare_1=wg_compare(db, encoded, key, 7);
+      tmp_if_expr_2 = return_value_wg_compare_1;
     }
-    if(!(tmp_if_expr$2 == 1l))
+    if(!(tmp_if_expr_2 == 1l))
       return i;
 
   }
@@ -18810,13 +18810,13 @@ signed long int wg_search_ttree_index(void *db, signed long int index_id, signed
   signed long int rowoffset;
   signed long int column;
   struct wg_tnode *node;
-  struct anonymous$21 *hdr = (struct anonymous$21 *)(void *)((char *)((struct anonymous$6 *)db)->db + index_id);
+  struct anonymous_21 *hdr = (struct anonymous_21 *)(void *)((char *)((struct anonymous_6 *)db)->db + index_id);
   rootoffset = hdr->ctl.t.offset_root_node;
-  signed long int tmp_if_expr$4;
-  signed long int return_value_wg_get_field$2;
-  signed long int return_value_wg_compare$3;
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_compare$5;
+  signed long int tmp_if_expr_4;
+  signed long int return_value_wg_get_field_2;
+  signed long int return_value_wg_compare_3;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_compare_5;
   if(rootoffset == 0l)
   {
     fprintf(stderr, "index at offset %d does not exist\n", (signed int)index_id);
@@ -18826,7 +18826,7 @@ signed long int wg_search_ttree_index(void *db, signed long int index_id, signed
   else
   {
     bnodeoffset=wg_search_ttree_leftmost(db, rootoffset, key, &bnodetype, (struct wg_tnode *)(void *)0);
-    node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + bnodeoffset);
+    node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + bnodeoffset);
     if(!(bnodetype == 0l))
       return (signed long int)0;
 
@@ -18839,18 +18839,18 @@ signed long int wg_search_ttree_index(void *db, signed long int index_id, signed
         for( ; !(i >= (signed int)node->number_of_elements); i = i + 1)
         {
           rowoffset = node->array_of_values[(signed long int)i];
-          signed long int return_value_wg_get_field$1;
-          return_value_wg_get_field$1=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + rowoffset), column);
-          if(return_value_wg_get_field$1 == key)
-            tmp_if_expr$4 = (signed long int)0;
+          signed long int return_value_wg_get_field_1;
+          return_value_wg_get_field_1=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + rowoffset), column);
+          if(return_value_wg_get_field_1 == key)
+            tmp_if_expr_4 = (signed long int)0;
 
           else
           {
-            return_value_wg_get_field$2=wg_get_field(db, (void *)((char *)((struct anonymous$6 *)db)->db + rowoffset), column);
-            return_value_wg_compare$3=wg_compare(db, return_value_wg_get_field$2, key, 7);
-            tmp_if_expr$4 = return_value_wg_compare$3;
+            return_value_wg_get_field_2=wg_get_field(db, (void *)((char *)((struct anonymous_6 *)db)->db + rowoffset), column);
+            return_value_wg_compare_3=wg_compare(db, return_value_wg_get_field_2, key, 7);
+            tmp_if_expr_4 = return_value_wg_compare_3;
           }
-          if(tmp_if_expr$4 == 0l)
+          if(tmp_if_expr_4 == 0l)
             return rowoffset;
 
         }
@@ -18858,16 +18858,16 @@ signed long int wg_search_ttree_index(void *db, signed long int index_id, signed
         if(bnodeoffset == 0l)
           break;
 
-        node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + bnodeoffset);
+        node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + bnodeoffset);
         if(node->current_min == key)
-          tmp_if_expr$6 = (signed long int)0;
+          tmp_if_expr_6 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$5=wg_compare(db, node->current_min, key, 7);
-          tmp_if_expr$6 = return_value_wg_compare$5;
+          return_value_wg_compare_5=wg_compare(db, node->current_min, key, 7);
+          tmp_if_expr_6 = return_value_wg_compare_5;
         }
-        if(tmp_if_expr$6 == 1l)
+        if(tmp_if_expr_6 == 1l)
           break;
 
       }
@@ -18881,45 +18881,45 @@ signed long int wg_search_ttree_index(void *db, signed long int index_id, signed
 // file dbindex.c line 1257
 signed long int wg_search_ttree_leftmost(void *db, signed long int rootoffset, signed long int key, signed long int *result, struct wg_tnode *lb_node)
 {
-  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + rootoffset);
-  signed long int tmp_if_expr$8;
-  signed long int return_value_wg_compare$7;
+  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + rootoffset);
+  signed long int tmp_if_expr_8;
+  signed long int return_value_wg_compare_7;
   if(key == node->current_max)
-    tmp_if_expr$8 = (signed long int)0;
+    tmp_if_expr_8 = (signed long int)0;
 
   else
   {
-    return_value_wg_compare$7=wg_compare(db, key, node->current_max, 7);
-    tmp_if_expr$8 = return_value_wg_compare$7;
+    return_value_wg_compare_7=wg_compare(db, key, node->current_max, 7);
+    tmp_if_expr_8 = return_value_wg_compare_7;
   }
-  signed long int tmp_if_expr$3;
-  signed long int return_value_wg_compare$2;
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_compare$5;
-  if(tmp_if_expr$8 == 1l)
+  signed long int tmp_if_expr_3;
+  signed long int return_value_wg_compare_2;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_compare_5;
+  if(tmp_if_expr_8 == 1l)
   {
     if(!(node->right_child_offset == 0l))
     {
-      signed long int return_value_wg_search_ttree_leftmost$1;
-      return_value_wg_search_ttree_leftmost$1=wg_search_ttree_leftmost(db, node->right_child_offset, key, result, lb_node);
-      return return_value_wg_search_ttree_leftmost$1;
+      signed long int return_value_wg_search_ttree_leftmost_1;
+      return_value_wg_search_ttree_leftmost_1=wg_search_ttree_leftmost(db, node->right_child_offset, key, result, lb_node);
+      return return_value_wg_search_ttree_leftmost_1;
     }
 
     else
       if(!(lb_node == ((struct wg_tnode *)NULL)))
       {
         if(key == lb_node->current_min)
-          tmp_if_expr$3 = (signed long int)0;
+          tmp_if_expr_3 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$2=wg_compare(db, key, lb_node->current_min, 7);
-          tmp_if_expr$3 = return_value_wg_compare$2;
+          return_value_wg_compare_2=wg_compare(db, key, lb_node->current_min, 7);
+          tmp_if_expr_3 = return_value_wg_compare_2;
         }
-        if(!(tmp_if_expr$3 == -1l))
+        if(!(tmp_if_expr_3 == -1l))
         {
           *result = (signed long int)0;
-          return (signed long int)((char *)lb_node - (char *)((struct anonymous$6 *)db)->db);
+          return (signed long int)((char *)lb_node - (char *)((struct anonymous_6 *)db)->db);
         }
 
       }
@@ -18932,22 +18932,22 @@ signed long int wg_search_ttree_leftmost(void *db, signed long int rootoffset, s
   {
     if(!(node->left_child_offset == 0l))
     {
-      signed long int return_value_wg_search_ttree_leftmost$4;
-      return_value_wg_search_ttree_leftmost$4=wg_search_ttree_leftmost(db, node->left_child_offset, key, result, node);
-      return return_value_wg_search_ttree_leftmost$4;
+      signed long int return_value_wg_search_ttree_leftmost_4;
+      return_value_wg_search_ttree_leftmost_4=wg_search_ttree_leftmost(db, node->left_child_offset, key, result, node);
+      return return_value_wg_search_ttree_leftmost_4;
     }
 
     else
     {
       if(key == node->current_min)
-        tmp_if_expr$6 = (signed long int)0;
+        tmp_if_expr_6 = (signed long int)0;
 
       else
       {
-        return_value_wg_compare$5=wg_compare(db, key, node->current_min, 7);
-        tmp_if_expr$6 = return_value_wg_compare$5;
+        return_value_wg_compare_5=wg_compare(db, key, node->current_min, 7);
+        tmp_if_expr_6 = return_value_wg_compare_5;
       }
-      if(!(tmp_if_expr$6 == -1l))
+      if(!(tmp_if_expr_6 == -1l))
       {
         *result = (signed long int)0;
         return rootoffset;
@@ -18963,45 +18963,45 @@ signed long int wg_search_ttree_leftmost(void *db, signed long int rootoffset, s
 // file dbindex.c line 1180
 signed long int wg_search_ttree_rightmost(void *db, signed long int rootoffset, signed long int key, signed long int *result, struct wg_tnode *rb_node)
 {
-  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous$6 *)db)->db + rootoffset);
-  signed long int tmp_if_expr$8;
-  signed long int return_value_wg_compare$7;
+  struct wg_tnode *node = (struct wg_tnode *)(void *)((char *)((struct anonymous_6 *)db)->db + rootoffset);
+  signed long int tmp_if_expr_8;
+  signed long int return_value_wg_compare_7;
   if(key == node->current_min)
-    tmp_if_expr$8 = (signed long int)0;
+    tmp_if_expr_8 = (signed long int)0;
 
   else
   {
-    return_value_wg_compare$7=wg_compare(db, key, node->current_min, 7);
-    tmp_if_expr$8 = return_value_wg_compare$7;
+    return_value_wg_compare_7=wg_compare(db, key, node->current_min, 7);
+    tmp_if_expr_8 = return_value_wg_compare_7;
   }
-  signed long int tmp_if_expr$3;
-  signed long int return_value_wg_compare$2;
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wg_compare$5;
-  if(tmp_if_expr$8 == -1l)
+  signed long int tmp_if_expr_3;
+  signed long int return_value_wg_compare_2;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wg_compare_5;
+  if(tmp_if_expr_8 == -1l)
   {
     if(!(node->left_child_offset == 0l))
     {
-      signed long int return_value_wg_search_ttree_rightmost$1;
-      return_value_wg_search_ttree_rightmost$1=wg_search_ttree_rightmost(db, node->left_child_offset, key, result, rb_node);
-      return return_value_wg_search_ttree_rightmost$1;
+      signed long int return_value_wg_search_ttree_rightmost_1;
+      return_value_wg_search_ttree_rightmost_1=wg_search_ttree_rightmost(db, node->left_child_offset, key, result, rb_node);
+      return return_value_wg_search_ttree_rightmost_1;
     }
 
     else
       if(!(rb_node == ((struct wg_tnode *)NULL)))
       {
         if(key == rb_node->current_max)
-          tmp_if_expr$3 = (signed long int)0;
+          tmp_if_expr_3 = (signed long int)0;
 
         else
         {
-          return_value_wg_compare$2=wg_compare(db, key, rb_node->current_max, 7);
-          tmp_if_expr$3 = return_value_wg_compare$2;
+          return_value_wg_compare_2=wg_compare(db, key, rb_node->current_max, 7);
+          tmp_if_expr_3 = return_value_wg_compare_2;
         }
-        if(!(tmp_if_expr$3 == 1l))
+        if(!(tmp_if_expr_3 == 1l))
         {
           *result = (signed long int)0;
-          return (signed long int)((char *)rb_node - (char *)((struct anonymous$6 *)db)->db);
+          return (signed long int)((char *)rb_node - (char *)((struct anonymous_6 *)db)->db);
         }
 
       }
@@ -19014,22 +19014,22 @@ signed long int wg_search_ttree_rightmost(void *db, signed long int rootoffset, 
   {
     if(!(node->right_child_offset == 0l))
     {
-      signed long int return_value_wg_search_ttree_rightmost$4;
-      return_value_wg_search_ttree_rightmost$4=wg_search_ttree_rightmost(db, node->right_child_offset, key, result, node);
-      return return_value_wg_search_ttree_rightmost$4;
+      signed long int return_value_wg_search_ttree_rightmost_4;
+      return_value_wg_search_ttree_rightmost_4=wg_search_ttree_rightmost(db, node->right_child_offset, key, result, node);
+      return return_value_wg_search_ttree_rightmost_4;
     }
 
     else
     {
       if(key == node->current_max)
-        tmp_if_expr$6 = (signed long int)0;
+        tmp_if_expr_6 = (signed long int)0;
 
       else
       {
-        return_value_wg_compare$5=wg_compare(db, key, node->current_max, 7);
-        tmp_if_expr$6 = return_value_wg_compare$5;
+        return_value_wg_compare_5=wg_compare(db, key, node->current_max, 7);
+        tmp_if_expr_6 = return_value_wg_compare_5;
       }
-      if(!(tmp_if_expr$6 == 1l))
+      if(!(tmp_if_expr_6 == 1l))
       {
         *result = (signed long int)0;
         return rootoffset;
@@ -19050,14 +19050,14 @@ signed long int wg_set_atomic_field(void *db, void *record, signed long int fiel
   signed long int r;
   signed int i;
   struct timespec ts;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     show_data_error_str(db, "wrong database pointer given to ", "wg_set_atomic_field");
     return (signed long int)-1;
@@ -19066,11 +19066,11 @@ signed long int wg_set_atomic_field(void *db, void *record, signed long int fiel
   else
   {
     if(!(fieldnr >= 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       show_data_error_str(db, "wrong field number given to ", "wg_set_atomic_field");
       return (signed long int)-2;
@@ -19119,9 +19119,9 @@ signed long int wg_set_double_field(void *db, void *record, signed long int fiel
 
   else
   {
-    signed long int return_value_wg_set_field$1;
-    return_value_wg_set_field$1=wg_set_field(db, record, fieldnr, fielddata);
-    return return_value_wg_set_field$1;
+    signed long int return_value_wg_set_field_1;
+    return_value_wg_set_field_1=wg_set_field(db, record, fieldnr, fielddata);
+    return return_value_wg_set_field_1;
   }
 }
 
@@ -19134,17 +19134,17 @@ signed long int wg_set_field(void *db, void *record, signed long int fieldnr, si
   signed long int *strptr;
   signed long int backlink_list;
   signed long int rec_enc = (signed long int)0xff;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$8;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_8;
+  if(!tmp_if_expr_1)
   {
     show_data_error_str(db, "wrong database pointer given to ", "wg_set_field");
     return (signed long int)-1;
@@ -19153,11 +19153,11 @@ signed long int wg_set_field(void *db, void *record, signed long int fieldnr, si
   else
   {
     if(!(fieldnr >= 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       show_data_error_str(db, "wrong field number given to ", "wg_set_field");
       return (signed long int)-2;
@@ -19172,15 +19172,15 @@ signed long int wg_set_field(void *db, void *record, signed long int fieldnr, si
         if(!(fieldnr >= 128l))
         {
           if(!(dbh->index_control_area_header.index_table[fieldnr] == 0l))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
           {
-            signed long int return_value_wg_index_del_field$3;
-            return_value_wg_index_del_field$3=wg_index_del_field(db, record, fieldnr);
-            if(!(return_value_wg_index_del_field$3 >= -1l))
+            signed long int return_value_wg_index_del_field_3;
+            return_value_wg_index_del_field_3=wg_index_del_field(db, record, fieldnr);
+            if(!(return_value_wg_index_del_field_3 >= -1l))
               return (signed long int)-3;
 
           }
@@ -19193,36 +19193,36 @@ signed long int wg_set_field(void *db, void *record, signed long int fieldnr, si
       if(!(backlink_list == 0l))
       {
         signed long int err;
-        struct anonymous$20 *next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
+        struct anonymous_20 *next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
         rec_enc=wg_encode_record(db, record);
         do
         {
-          err=remove_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + next->car), rec_enc, (signed long int)(7 - 1));
+          err=remove_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + next->car), rec_enc, (signed long int)(7 - 1));
           if(!(err == 0l))
             return (signed long int)-4;
 
           if(next->cdr == 0l)
             break;
 
-          next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + next->cdr);
+          next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + next->cdr);
         }
         while((_Bool)1);
       }
 
-      signed long int return_value_wg_get_encoded_type$6;
-      return_value_wg_get_encoded_type$6=wg_get_encoded_type(db, fielddata);
-      if(return_value_wg_get_encoded_type$6 == 2l)
+      signed long int return_value_wg_get_encoded_type_6;
+      return_value_wg_get_encoded_type_6=wg_get_encoded_type(db, fielddata);
+      if(return_value_wg_get_encoded_type_6 == 2l)
       {
         signed long int *rec;
-        void *return_value_wg_decode_record$5;
-        return_value_wg_decode_record$5=wg_decode_record(db, fielddata);
-        rec = (signed long int *)return_value_wg_decode_record$5;
+        void *return_value_wg_decode_record_5;
+        return_value_wg_decode_record_5=wg_decode_record(db, fielddata);
+        rec = (signed long int *)return_value_wg_decode_record_5;
         signed long int *next_offset = rec + (signed long int)2;
-        signed long int parent_offset = (signed long int)((char *)record - (char *)((struct anonymous$6 *)db)->db);
-        struct anonymous$20 *old = (struct anonymous$20 *)(void *)0;
+        signed long int parent_offset = (signed long int)((char *)record - (char *)((struct anonymous_6 *)db)->db);
+        struct anonymous_20 *old = (struct anonymous_20 *)(void *)0;
         for( ; !(*next_offset == 0l); next_offset = &old->cdr)
         {
-          old = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *next_offset);
+          old = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *next_offset);
           if(old->car == parent_offset)
           {
             signed long int old_offset = *next_offset;
@@ -19245,7 +19245,7 @@ signed long int wg_set_field(void *db, void *record, signed long int fieldnr, si
       *fieldadr = data;
       if((7l & data) == 4l)
       {
-        strptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+        strptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
         strptr[(signed long int)2] = strptr[(signed long int)2] + 1l;
       }
 
@@ -19254,15 +19254,15 @@ signed long int wg_set_field(void *db, void *record, signed long int fieldnr, si
         if(!(fieldnr >= 128l))
         {
           if(!(dbh->index_control_area_header.index_table[fieldnr] == 0l))
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
           {
-            signed long int return_value_wg_index_add_field$7;
-            return_value_wg_index_add_field$7=wg_index_add_field(db, record, fieldnr);
-            if(!(return_value_wg_index_add_field$7 >= -1l))
+            signed long int return_value_wg_index_add_field_7;
+            return_value_wg_index_add_field_7=wg_index_add_field(db, record, fieldnr);
+            if(!(return_value_wg_index_add_field_7 >= -1l))
               return (signed long int)-3;
 
           }
@@ -19271,39 +19271,39 @@ signed long int wg_set_field(void *db, void *record, signed long int fieldnr, si
 
       }
 
-      signed long int return_value_wg_get_encoded_type$10;
-      return_value_wg_get_encoded_type$10=wg_get_encoded_type(db, data);
-      if(return_value_wg_get_encoded_type$10 == 2l)
+      signed long int return_value_wg_get_encoded_type_10;
+      return_value_wg_get_encoded_type_10=wg_get_encoded_type(db, data);
+      if(return_value_wg_get_encoded_type_10 == 2l)
       {
-        signed long int *wg_set_field$$1$$8$$rec;
-        void *return_value_wg_decode_record$9;
-        return_value_wg_decode_record$9=wg_decode_record(db, data);
-        wg_set_field$$1$$8$$rec = (signed long int *)return_value_wg_decode_record$9;
-        signed long int *wg_set_field$$1$$8$$next_offset = wg_set_field$$1$$8$$rec + (signed long int)2;
+        signed long int *wg_set_field__1__8__rec;
+        void *return_value_wg_decode_record_9;
+        return_value_wg_decode_record_9=wg_decode_record(db, data);
+        wg_set_field__1__8__rec = (signed long int *)return_value_wg_decode_record_9;
+        signed long int *wg_set_field__1__8__next_offset = wg_set_field__1__8__rec + (signed long int)2;
         signed long int new_offset;
-        new_offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->listcell_area_header);
-        struct anonymous$20 *new_cell = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + new_offset);
-        for( ; !(*wg_set_field$$1$$8$$next_offset == 0l); wg_set_field$$1$$8$$next_offset = &((struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *wg_set_field$$1$$8$$next_offset))->cdr)
+        new_offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->listcell_area_header);
+        struct anonymous_20 *new_cell = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + new_offset);
+        for( ; !(*wg_set_field__1__8__next_offset == 0l); wg_set_field__1__8__next_offset = &((struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *wg_set_field__1__8__next_offset))->cdr)
           ;
-        new_cell->car = (signed long int)((char *)record - (char *)((struct anonymous$6 *)db)->db);
+        new_cell->car = (signed long int)((char *)record - (char *)((struct anonymous_6 *)db)->db);
         new_cell->cdr = (signed long int)0;
-        *wg_set_field$$1$$8$$next_offset = new_offset;
+        *wg_set_field__1__8__next_offset = new_offset;
       }
 
       if(!(backlink_list == 0l))
       {
-        signed long int wg_set_field$$1$$9$$err;
-        struct anonymous$20 *wg_set_field$$1$$9$$next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
+        signed long int wg_set_field__1__9__err;
+        struct anonymous_20 *wg_set_field__1__9__next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
         do
         {
-          wg_set_field$$1$$9$$err=restore_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + wg_set_field$$1$$9$$next->car), rec_enc, (signed long int)(7 - 1));
-          if(!(wg_set_field$$1$$9$$err == 0l))
+          wg_set_field__1__9__err=restore_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + wg_set_field__1__9__next->car), rec_enc, (signed long int)(7 - 1));
+          if(!(wg_set_field__1__9__err == 0l))
             return (signed long int)-4;
 
-          if(wg_set_field$$1$$9$$next->cdr == 0l)
+          if(wg_set_field__1__9__next->cdr == 0l)
             break;
 
-          wg_set_field$$1$$9$$next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + wg_set_field$$1$$9$$next->cdr);
+          wg_set_field__1__9__next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + wg_set_field__1__9__next->cdr);
         }
         while((_Bool)1);
       }
@@ -19324,9 +19324,9 @@ signed long int wg_set_int_field(void *db, void *record, signed long int fieldnr
 
   else
   {
-    signed long int return_value_wg_set_field$1;
-    return_value_wg_set_field$1=wg_set_field(db, record, fieldnr, fielddata);
-    return return_value_wg_set_field$1;
+    signed long int return_value_wg_set_field_1;
+    return_value_wg_set_field_1=wg_set_field(db, record, fieldnr, fielddata);
+    return return_value_wg_set_field_1;
   }
 }
 
@@ -19337,16 +19337,16 @@ signed long int wg_set_new_field(void *db, void *record, signed long int fieldnr
   signed long int *fieldadr;
   signed long int *strptr;
   signed long int backlink_list;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_1)
   {
     show_data_error_str(db, "wrong database pointer given to ", "wg_set_field");
     return (signed long int)-1;
@@ -19355,11 +19355,11 @@ signed long int wg_set_new_field(void *db, void *record, signed long int fieldnr
   else
   {
     if(!(fieldnr >= 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       show_data_error_str(db, "wrong field number given to ", "wg_set_field");
       return (signed long int)-2;
@@ -19379,7 +19379,7 @@ signed long int wg_set_new_field(void *db, void *record, signed long int fieldnr
         *fieldadr = data;
         if((7l & data) == 4l)
         {
-          strptr = (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + (data & (signed long int)~0x7));
+          strptr = (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + (data & (signed long int)~0x7));
           strptr[(signed long int)2] = strptr[(signed long int)2] + 1l;
         }
 
@@ -19388,15 +19388,15 @@ signed long int wg_set_new_field(void *db, void *record, signed long int fieldnr
           if(!(fieldnr >= 128l))
           {
             if(!(dbh->index_control_area_header.index_table[fieldnr] == 0l))
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
             {
-              signed long int return_value_wg_index_add_field$3;
-              return_value_wg_index_add_field$3=wg_index_add_field(db, record, fieldnr);
-              if(!(return_value_wg_index_add_field$3 >= -1l))
+              signed long int return_value_wg_index_add_field_3;
+              return_value_wg_index_add_field_3=wg_index_add_field(db, record, fieldnr);
+              if(!(return_value_wg_index_add_field_3 >= -1l))
                 return (signed long int)-3;
 
             }
@@ -19405,21 +19405,21 @@ signed long int wg_set_new_field(void *db, void *record, signed long int fieldnr
 
         }
 
-        signed long int return_value_wg_get_encoded_type$6;
-        return_value_wg_get_encoded_type$6=wg_get_encoded_type(db, data);
-        if(return_value_wg_get_encoded_type$6 == 2l)
+        signed long int return_value_wg_get_encoded_type_6;
+        return_value_wg_get_encoded_type_6=wg_get_encoded_type(db, data);
+        if(return_value_wg_get_encoded_type_6 == 2l)
         {
           signed long int *rec;
-          void *return_value_wg_decode_record$5;
-          return_value_wg_decode_record$5=wg_decode_record(db, data);
-          rec = (signed long int *)return_value_wg_decode_record$5;
+          void *return_value_wg_decode_record_5;
+          return_value_wg_decode_record_5=wg_decode_record(db, data);
+          rec = (signed long int *)return_value_wg_decode_record_5;
           signed long int *next_offset = rec + (signed long int)2;
           signed long int new_offset;
-          new_offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous$6 *)db)->db)->listcell_area_header);
-          struct anonymous$20 *new_cell = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + new_offset);
-          for( ; !(*next_offset == 0l); next_offset = &((struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + *next_offset))->cdr)
+          new_offset=wg_alloc_fixlen_object(db, (void *)&((struct _db_memsegment_header *)((struct anonymous_6 *)db)->db)->listcell_area_header);
+          struct anonymous_20 *new_cell = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + new_offset);
+          for( ; !(*next_offset == 0l); next_offset = &((struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + *next_offset))->cdr)
             ;
-          new_cell->car = (signed long int)((char *)record - (char *)((struct anonymous$6 *)db)->db);
+          new_cell->car = (signed long int)((char *)record - (char *)((struct anonymous_6 *)db)->db);
           new_cell->cdr = (signed long int)0;
           *next_offset = new_offset;
         }
@@ -19428,19 +19428,19 @@ signed long int wg_set_new_field(void *db, void *record, signed long int fieldnr
         if(!(backlink_list == 0l))
         {
           signed long int err;
-          struct anonymous$20 *next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + backlink_list);
+          struct anonymous_20 *next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + backlink_list);
           signed long int rec_enc;
           rec_enc=wg_encode_record(db, record);
           do
           {
-            err=restore_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous$6 *)db)->db + next->car), rec_enc, (signed long int)(7 - 1));
+            err=restore_backlink_index_entries(db, (signed long int *)(void *)((char *)((struct anonymous_6 *)db)->db + next->car), rec_enc, (signed long int)(7 - 1));
             if(!(err == 0l))
               return (signed long int)-4;
 
             if(next->cdr == 0l)
               break;
 
-            next = (struct anonymous$20 *)(void *)((char *)((struct anonymous$6 *)db)->db + next->cdr);
+            next = (struct anonymous_20 *)(void *)((char *)((struct anonymous_6 *)db)->db + next->cdr);
           }
           while((_Bool)1);
         }
@@ -19462,9 +19462,9 @@ signed long int wg_set_rec_field(void *db, void *record, signed long int fieldnr
 
   else
   {
-    signed long int return_value_wg_set_field$1;
-    return_value_wg_set_field$1=wg_set_field(db, record, fieldnr, fielddata);
-    return return_value_wg_set_field$1;
+    signed long int return_value_wg_set_field_1;
+    return_value_wg_set_field_1=wg_set_field(db, record, fieldnr, fielddata);
+    return return_value_wg_set_field_1;
   }
 }
 
@@ -19479,9 +19479,9 @@ signed long int wg_set_str_field(void *db, void *record, signed long int fieldnr
 
   else
   {
-    signed long int return_value_wg_set_field$1;
-    return_value_wg_set_field$1=wg_set_field(db, record, fieldnr, fielddata);
-    return return_value_wg_set_field$1;
+    signed long int return_value_wg_set_field_1;
+    return_value_wg_set_field_1=wg_set_field(db, record, fieldnr, fielddata);
+    return return_value_wg_set_field_1;
   }
 }
 
@@ -19497,14 +19497,14 @@ void wg_snprint_value(void *db, signed long int enc, char *buf, signed int bufle
   double doubledata;
   char strbuf[80l];
   buflen = buflen - 1;
-  signed long int return_value_wg_get_encoded_type$1;
-  return_value_wg_get_encoded_type$1=wg_get_encoded_type(db, enc);
-  void *return_value_wg_decode_record$2;
-  unsigned long int return_value_strlen$3;
-  signed long int return_value_wg_decode_int$4;
-  char return_value_wg_decode_char$5;
-  signed long int return_value_wg_decode_var$6;
-  switch(return_value_wg_get_encoded_type$1)
+  signed long int return_value_wg_get_encoded_type_1;
+  return_value_wg_get_encoded_type_1=wg_get_encoded_type(db, enc);
+  void *return_value_wg_decode_record_2;
+  unsigned long int return_value_strlen_3;
+  signed long int return_value_wg_decode_int_4;
+  char return_value_wg_decode_char_5;
+  signed long int return_value_wg_decode_var_6;
+  switch(return_value_wg_get_encoded_type_1)
   {
     case (signed long int)1:
     {
@@ -19513,11 +19513,11 @@ void wg_snprint_value(void *db, signed long int enc, char *buf, signed int bufle
     }
     case (signed long int)2:
     {
-      return_value_wg_decode_record$2=wg_decode_record(db, enc);
-      ptrdata = (signed long int)return_value_wg_decode_record$2;
+      return_value_wg_decode_record_2=wg_decode_record(db, enc);
+      ptrdata = (signed long int)return_value_wg_decode_record_2;
       snprintf(buf, (unsigned long int)buflen, "<rec %x>", (signed int)ptrdata);
-      return_value_strlen$3=strlen(buf);
-      len = (signed int)return_value_strlen$3;
+      return_value_strlen_3=strlen(buf);
+      len = (signed int)return_value_strlen_3;
       if(buflen + -len >= 2)
         snprint_record(db, (signed long int *)ptrdata, buf + (signed long int)len, buflen - len);
 
@@ -19525,8 +19525,8 @@ void wg_snprint_value(void *db, signed long int enc, char *buf, signed int bufle
     }
     case (signed long int)3:
     {
-      return_value_wg_decode_int$4=wg_decode_int(db, enc);
-      intdata = (signed int)return_value_wg_decode_int$4;
+      return_value_wg_decode_int_4=wg_decode_int(db, enc);
+      intdata = (signed int)return_value_wg_decode_int_4;
       snprintf(buf, (unsigned long int)buflen, "%d", intdata);
       break;
     }
@@ -19568,8 +19568,8 @@ void wg_snprint_value(void *db, signed long int enc, char *buf, signed int bufle
     }
     case (signed long int)9:
     {
-      return_value_wg_decode_char$5=wg_decode_char(db, enc);
-      intdata = (signed int)return_value_wg_decode_char$5;
+      return_value_wg_decode_char_5=wg_decode_char(db, enc);
+      intdata = (signed int)return_value_wg_decode_char_5;
       snprintf(buf, (unsigned long int)buflen, "%c", (char)intdata);
       break;
     }
@@ -19590,8 +19590,8 @@ void wg_snprint_value(void *db, signed long int enc, char *buf, signed int bufle
     }
     case (signed long int)14:
     {
-      return_value_wg_decode_var$6=wg_decode_var(db, enc);
-      intdata = (signed int)return_value_wg_decode_var$6;
+      return_value_wg_decode_var_6=wg_decode_var(db, enc);
+      intdata = (signed int)return_value_wg_decode_var_6;
       snprintf(buf, (unsigned long int)buflen, "?%d", intdata);
       break;
     }
@@ -19610,36 +19610,36 @@ void wg_snprint_value(void *db, signed long int enc, char *buf, signed int bufle
 // file dblog.c line 780
 signed long int wg_start_logging(void *db)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_start_read
 // file ../Db/dblock.h line 75
 signed long int wg_start_read(void *db)
 {
-  signed long int return_value_db_tfqueue_rlock$1;
-  return_value_db_tfqueue_rlock$1=db_tfqueue_rlock(db, (signed long int)2000);
-  return return_value_db_tfqueue_rlock$1;
+  signed long int return_value_db_tfqueue_rlock_1;
+  return_value_db_tfqueue_rlock_1=db_tfqueue_rlock(db, (signed long int)2000);
+  return return_value_db_tfqueue_rlock_1;
 }
 
 // wg_start_write
 // file ../Db/dblock.h line 73
 signed long int wg_start_write(void *db)
 {
-  signed long int return_value_db_tfqueue_wlock$1;
-  return_value_db_tfqueue_wlock$1=db_tfqueue_wlock(db, (signed long int)2000);
-  return return_value_db_tfqueue_wlock$1;
+  signed long int return_value_db_tfqueue_wlock_1;
+  return_value_db_tfqueue_wlock_1=db_tfqueue_wlock(db, (signed long int)2000);
+  return return_value_db_tfqueue_wlock_1;
 }
 
 // wg_stop_logging
 // file dblog.c line 843
 signed long int wg_stop_logging(void *db)
 {
-  signed long int return_value_show_log_error$1;
-  return_value_show_log_error$1=show_log_error(db, "Logging is disabled");
-  return return_value_show_log_error$1;
+  signed long int return_value_show_log_error_1;
+  return_value_show_log_error_1=show_log_error(db, "Logging is disabled");
+  return return_value_show_log_error_1;
 }
 
 // wg_strf_iso_datetime
@@ -19682,9 +19682,9 @@ signed int wg_strp_iso_date(void *db, char *inbuf)
 
   else
   {
-    signed long int return_value_ymd_to_scalar$1;
-    return_value_ymd_to_scalar$1=ymd_to_scalar((unsigned int)yr, (unsigned int)mo, (unsigned int)day);
-    res = (signed int)return_value_ymd_to_scalar$1;
+    signed long int return_value_ymd_to_scalar_1;
+    return_value_ymd_to_scalar_1=ymd_to_scalar((unsigned int)yr, (unsigned int)mo, (unsigned int)day);
+    res = (signed int)return_value_ymd_to_scalar_1;
     return res;
   }
 }
@@ -19725,17 +19725,17 @@ void wg_time_to_hms(void *db, signed int time, signed int *hr, signed int *min, 
 signed long int wg_update_atomic_field(void *db, void *record, signed long int fieldnr, signed long int data, signed long int old_data)
 {
   signed long int *fieldadr;
-  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous$6 *)db)->db;
+  struct _db_memsegment_header *dbh = (struct _db_memsegment_header *)((struct anonymous_6 *)db)->db;
   signed long int tmp;
-  _Bool tmp_if_expr$1;
-  if(!(((struct anonymous$6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
-    tmp_if_expr$1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous$6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(((struct anonymous_6 *)db)->db == ((struct _db_memsegment_header *)NULL)))
+    tmp_if_expr_1 = *((signed int *)(struct _db_memsegment_header *)((struct anonymous_6 *)db)->db) == 1232319011 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(!tmp_if_expr_1)
   {
     show_data_error_str(db, "wrong database pointer given to ", "wg_update_atomic_field");
     return (signed long int)-1;
@@ -19744,11 +19744,11 @@ signed long int wg_update_atomic_field(void *db, void *record, signed long int f
   else
   {
     if(!(fieldnr >= 0l))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (*((signed long int *)record) & (signed long int)~3) >> (sizeof(signed long int) /*8ul*/  == (unsigned long int)4 ? 2 : 3) <= fieldnr + (signed long int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       show_data_error_str(db, "wrong field number given to ", "wg_update_atomic_field");
       return (signed long int)-2;
@@ -19769,11 +19769,11 @@ signed long int wg_update_atomic_field(void *db, void *record, signed long int f
               goto __CPROVER_DUMP_L11;
 
             if(!(dbh->index_control_area_header.index_table[fieldnr] == 0l))
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$3)
+              tmp_if_expr_3 = dbh->index_control_area_header.index_template_table[fieldnr] != 0l ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_3)
               goto __CPROVER_DUMP_L11;
 
             return (signed long int)-13;
@@ -19804,9 +19804,9 @@ signed int wg_ymd_to_date(void *db, signed int yr, signed int mo, signed int day
 
   else
   {
-    signed long int return_value_ymd_to_scalar$1;
-    return_value_ymd_to_scalar$1=ymd_to_scalar((unsigned int)yr, (unsigned int)mo, (unsigned int)day);
-    return (signed int)return_value_ymd_to_scalar$1;
+    signed long int return_value_ymd_to_scalar_1;
+    return_value_ymd_to_scalar_1=ymd_to_scalar((unsigned int)yr, (unsigned int)mo, (unsigned int)day);
+    return (signed int)return_value_ymd_to_scalar_1;
   }
 }
 
@@ -19821,8 +19821,8 @@ void * writer_thread(void *threadarg)
   signed int cksum;
   void *rec = (void *)0;
   void *frec = (void *)0;
-  db = ((struct anonymous$9 *)threadarg)->db;
-  threadid = ((struct anonymous$9 *)threadarg)->threadid;
+  db = ((struct anonymous_9 *)threadarg)->db;
+  threadid = ((struct anonymous_9 *)threadarg)->threadid;
   fprintf(stdout, "Writer thread %d started.\n", threadid);
   pthread_mutex_lock(&twait_mutex);
   twait_cnt = twait_cnt + 1;
@@ -19830,7 +19830,7 @@ void * writer_thread(void *threadarg)
   pthread_mutex_unlock(&twait_mutex);
   frec=wg_get_first_record(db);
   i = 0;
-  signed long int tmp_post$3;
+  signed long int tmp_post_3;
   for( ; !(i >= 100000); i = i + 1)
   {
     signed long int c = (signed long int)-1;
@@ -19842,11 +19842,11 @@ void * writer_thread(void *threadarg)
       goto writer_done;
     }
 
-    signed long int return_value_wg_get_field$1;
-    return_value_wg_get_field$1=wg_get_field(db, frec, (signed long int)0);
-    signed long int return_value_wg_decode_int$2;
-    return_value_wg_decode_int$2=wg_decode_int(db, return_value_wg_get_field$1);
-    cksum = (signed int)return_value_wg_decode_int$2;
+    signed long int return_value_wg_get_field_1;
+    return_value_wg_get_field_1=wg_get_field(db, frec, (signed long int)0);
+    signed long int return_value_wg_decode_int_2;
+    return_value_wg_decode_int_2=wg_decode_int(db, return_value_wg_get_field_1);
+    cksum = (signed int)return_value_wg_decode_int_2;
     if(!(i == 0))
       rec=wg_get_next_record(db, rec);
 
@@ -19866,11 +19866,11 @@ void * writer_thread(void *threadarg)
       j = 1;
     for( ; !(j >= 5); j = j + 1)
     {
-      tmp_post$3 = c;
+      tmp_post_3 = c;
       c = c - 1l;
-      signed long int return_value_wg_set_int_field$4;
-      return_value_wg_set_int_field$4=wg_set_int_field(db, rec, (signed long int)j, tmp_post$3);
-      if(!(return_value_wg_set_int_field$4 == 0l))
+      signed long int return_value_wg_set_int_field_4;
+      return_value_wg_set_int_field_4=wg_set_int_field(db, rec, (signed long int)j, tmp_post_3);
+      if(!(return_value_wg_set_int_field_4 == 0l))
       {
         fprintf(stderr, "Writer thread %d: int storage error.\n", threadid);
         wg_end_write(db, lock_id);
@@ -19880,9 +19880,9 @@ void * writer_thread(void *threadarg)
     }
     cksum = cksum + 1;
     wg_set_int_field(db, frec, (signed long int)0, (signed long int)cksum);
-    signed long int return_value_wg_end_write$5;
-    return_value_wg_end_write$5=wg_end_write(db, lock_id);
-    if(return_value_wg_end_write$5 == 0l)
+    signed long int return_value_wg_end_write_5;
+    return_value_wg_end_write_5=wg_end_write(db, lock_id);
+    if(return_value_wg_end_write_5 == 0l)
     {
       fprintf(stderr, "Writer thread %d: wg_end_write failed.\n", threadid);
       goto writer_done;
@@ -19898,25 +19898,25 @@ writer_done:
 
 // yajl_alloc
 // file ../json/yajl_api.h line 136
-struct yajl_handle_t * yajl_alloc(const struct anonymous *callbacks, struct anonymous$3 *afs, void *ctx)
+struct yajl_handle_t * yajl_alloc(const struct anonymous *callbacks, struct anonymous_3 *afs, void *ctx)
 {
   struct yajl_handle_t *hand = (struct yajl_handle_t *)(void *)0;
-  struct anonymous$3 afsBuffer;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  if(!(afs == ((struct anonymous$3 *)NULL)))
+  struct anonymous_3 afsBuffer;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  if(!(afs == ((struct anonymous_3 *)NULL)))
   {
     if(afs->malloc == ((void * (*)(void *, unsigned long int))NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = afs->realloc == (void * (*)(void *, void *, unsigned long int))(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = afs->realloc == (void * (*)(void *, void *, unsigned long int))(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = afs->free == (void (*)(void *, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = afs->free == (void (*)(void *, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return (struct yajl_handle_t *)(void *)0;
 
   }
@@ -19929,7 +19929,7 @@ struct yajl_handle_t * yajl_alloc(const struct anonymous *callbacks, struct anon
   void *return_value;
   return_value=afs->malloc(afs->ctx, sizeof(struct yajl_handle_t) /*120ul*/ );
   hand = (struct yajl_handle_t *)return_value;
-  memcpy((void *)&hand->alloc, (void *)afs, sizeof(struct anonymous$3) /*32ul*/ );
+  memcpy((void *)&hand->alloc, (void *)afs, sizeof(struct anonymous_3) /*32ul*/ );
   hand->callbacks = callbacks;
   hand->ctx = ctx;
   hand->lexer = (struct yajl_lexer_t *)(void *)0;
@@ -19948,15 +19948,15 @@ struct yajl_handle_t * yajl_alloc(const struct anonymous *callbacks, struct anon
     hand->stateStack.stack = (unsigned char *)return_value_1;
   }
 
-  unsigned long int tmp_post$3 = hand->stateStack.used;
+  unsigned long int tmp_post_3 = hand->stateStack.used;
   hand->stateStack.used = hand->stateStack.used + 1ul;
-  hand->stateStack.stack[(signed long int)tmp_post$3] = (unsigned char)yajl_state_start;
+  hand->stateStack.stack[(signed long int)tmp_post_3] = (unsigned char)yajl_state_start;
   return hand;
 }
 
 // yajl_buf_alloc
 // file yajl_all.c line 155
-static struct yajl_buf_t * yajl_buf_alloc(struct anonymous$3 *alloc)
+static struct yajl_buf_t * yajl_buf_alloc(struct anonymous_3 *alloc)
 {
   struct yajl_buf_t *b;
   void *return_value;
@@ -20050,28 +20050,28 @@ static unsigned long int yajl_buf_len(struct yajl_buf_t *buf)
 
 // yajl_complete_parse
 // file ../json/yajl_api.h line 218
-enum anonymous$27 yajl_complete_parse(struct yajl_handle_t *hand)
+enum anonymous_27 yajl_complete_parse(struct yajl_handle_t *hand)
 {
   if(hand->lexer == ((struct yajl_lexer_t *)NULL))
     hand->lexer=yajl_lex_alloc(&hand->alloc, hand->flags & (unsigned int)yajl_allow_comments, (unsigned int)!((hand->flags & (unsigned int)yajl_dont_validate_strings) != 0u));
 
-  enum anonymous$27 return_value_yajl_do_finish$1;
-  return_value_yajl_do_finish$1=yajl_do_finish(hand);
-  return return_value_yajl_do_finish$1;
+  enum anonymous_27 return_value_yajl_do_finish_1;
+  return_value_yajl_do_finish_1=yajl_do_finish(hand);
+  return return_value_yajl_do_finish_1;
 }
 
 // yajl_config
 // file ../json/yajl_api.h line 195
-signed int yajl_config(struct yajl_handle_t *h, enum anonymous$4 opt, ...)
+signed int yajl_config(struct yajl_handle_t *h, enum anonymous_4 opt, ...)
 {
   signed int rv = 1;
   __builtin_va_list ap;
   va_start(ap, opt);
-  signed int return_value_gcc_builtin_va_arg$1;
+  signed int return_value_gcc_builtin_va_arg_1;
   if((signed int)opt == yajl_allow_comments || (signed int)opt == yajl_dont_validate_strings || (signed int)opt == yajl_allow_trailing_garbage || (signed int)opt == yajl_allow_multiple_values || (signed int)opt == yajl_allow_partial_values)
   {
-    return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-    if(!(return_value_gcc_builtin_va_arg$1 == 0))
+    return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+    if(!(return_value_gcc_builtin_va_arg_1 == 0))
       h->flags = h->flags | (unsigned int)opt;
 
     else
@@ -20089,9 +20089,9 @@ __CPROVER_DUMP_L5:
 
 // yajl_do_finish
 // file yajl_all.c line 1684
-static enum anonymous$27 yajl_do_finish(struct yajl_handle_t *hand)
+static enum anonymous_27 yajl_do_finish(struct yajl_handle_t *hand)
 {
-  enum anonymous$27 stat;
+  enum anonymous_27 stat;
   stat=yajl_do_parse(hand, (const unsigned char *)" ", (unsigned long int)1);
   if(!((signed int)stat == yajl_status_ok))
     return stat;
@@ -20105,21 +20105,21 @@ static enum anonymous$27 yajl_do_finish(struct yajl_handle_t *hand)
       case yajl_state_parse_error:
 
       case yajl_state_lexical_error:
-        return (enum anonymous$27)yajl_status_error;
+        return (enum anonymous_27)yajl_status_error;
       case yajl_state_got_value:
 
       case yajl_state_parse_complete:
-        return (enum anonymous$27)yajl_status_ok;
+        return (enum anonymous_27)yajl_status_ok;
       default:
       {
         if((16u & hand->flags) == 0u)
         {
           hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
           hand->parseError = "premature EOF";
-          return (enum anonymous$27)yajl_status_error;
+          return (enum anonymous_27)yajl_status_error;
         }
 
-        return (enum anonymous$27)yajl_status_ok;
+        return (enum anonymous_27)yajl_status_ok;
       }
     }
   }
@@ -20127,18 +20127,18 @@ static enum anonymous$27 yajl_do_finish(struct yajl_handle_t *hand)
 
 // yajl_do_parse
 // file yajl_all.c line 1711
-static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen)
+static enum anonymous_27 yajl_do_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen)
 {
-  enum anonymous$29 tok;
+  enum anonymous_29 tok;
   const unsigned char *buf;
   unsigned long int bufLen;
   unsigned long int *offset = &hand->bytesConsumed;
   *offset = (unsigned long int)0;
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$9;
-  double return_value___builtin_huge_val$8;
-  signed int *return_value___errno_location$6;
-  unsigned long int tmp_post$10;
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_9;
+  double return_value___builtin_huge_val_8;
+  signed int *return_value___errno_location_6;
+  unsigned long int tmp_post_10;
   do
   {
   /* assertion (hand->stateStack).used > 0 */
@@ -20192,20 +20192,20 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
 
     }
 
-    return (enum anonymous$27)yajl_status_ok;
+    return (enum anonymous_27)yajl_status_ok;
 
   __CPROVER_DUMP_L6:
     ;
-    return (enum anonymous$27)yajl_status_error;
+    return (enum anonymous_27)yajl_status_error;
 
   __CPROVER_DUMP_L7:
     ;
-    enum anonymous$30 stateToPush = (enum anonymous$30)yajl_state_start;
+    enum anonymous_30 stateToPush = (enum anonymous_30)yajl_state_start;
     tok=yajl_lex_lex(hand->lexer, jsonText, jsonTextLen, offset, &buf, &bufLen);
     switch((signed int)tok)
     {
       case yajl_tok_eof:
-        return (enum anonymous$27)yajl_status_ok;
+        return (enum anonymous_27)yajl_status_ok;
       case yajl_tok_error:
       {
         hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_lexical_error;
@@ -20223,7 +20223,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20240,17 +20240,17 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
           {
             yajl_buf_clear(hand->decodeBuf);
             yajl_string_decode(hand->decodeBuf, buf, bufLen);
-            const unsigned char *return_value_yajl_buf_data$1;
-            return_value_yajl_buf_data$1=yajl_buf_data(hand->decodeBuf);
-            unsigned long int return_value_yajl_buf_len$2;
-            return_value_yajl_buf_len$2=yajl_buf_len(hand->decodeBuf);
+            const unsigned char *return_value_yajl_buf_data_1;
+            return_value_yajl_buf_data_1=yajl_buf_data(hand->decodeBuf);
+            unsigned long int return_value_yajl_buf_len_2;
+            return_value_yajl_buf_len_2=yajl_buf_len(hand->decodeBuf);
             signed int return_value_1;
-            return_value_1=hand->callbacks->yajl_string(hand->ctx, return_value_yajl_buf_data$1, return_value_yajl_buf_len$2);
+            return_value_1=hand->callbacks->yajl_string(hand->ctx, return_value_yajl_buf_data_1, return_value_yajl_buf_len_2);
             if(return_value_1 == 0)
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20271,7 +20271,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20292,7 +20292,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20313,14 +20313,14 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
 
         }
 
-        stateToPush = (enum anonymous$30)yajl_state_map_start;
+        stateToPush = (enum anonymous_30)yajl_state_map_start;
         break;
       }
       case yajl_tok_left_brace:
@@ -20335,14 +20335,14 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
 
         }
 
-        stateToPush = (enum anonymous$30)yajl_state_array_start;
+        stateToPush = (enum anonymous_30)yajl_state_array_start;
         break;
       }
       case yajl_tok_integer:
@@ -20357,7 +20357,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20366,14 +20366,14 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             if(!(hand->callbacks->yajl_integer == ((signed int (*)(void *, signed long long int))NULL)))
             {
               signed long long int i = (signed long long int)0;
-              signed int *return_value___errno_location$3;
-              return_value___errno_location$3=__errno_location();
-              *return_value___errno_location$3 = 0;
+              signed int *return_value___errno_location_3;
+              return_value___errno_location_3=__errno_location();
+              *return_value___errno_location_3 = 0;
               i=yajl_parse_integer(buf, (unsigned int)bufLen);
               if(i == 0x7fffffffffffffffLL || i == -9223372036854775808ll)
               {
-                return_value___errno_location$4=__errno_location();
-                if(*return_value___errno_location$4 == 34)
+                return_value___errno_location_4=__errno_location();
+                if(*return_value___errno_location_4 == 34)
                 {
                   hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
                   hand->parseError = "integer overflow";
@@ -20393,7 +20393,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
               {
                 hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
                 hand->parseError = "client cancelled parse via callback return value";
-                return (enum anonymous$27)yajl_status_client_canceled;
+                return (enum anonymous_27)yajl_status_client_canceled;
               }
 
             }
@@ -20414,7 +20414,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20426,24 +20426,24 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
               yajl_buf_clear(hand->decodeBuf);
               yajl_buf_append(hand->decodeBuf, (const void *)buf, bufLen);
               buf=yajl_buf_data(hand->decodeBuf);
-              signed int *return_value___errno_location$5;
-              return_value___errno_location$5=__errno_location();
-              *return_value___errno_location$5 = 0;
+              signed int *return_value___errno_location_5;
+              return_value___errno_location_5=__errno_location();
+              *return_value___errno_location_5 = 0;
               d=strtod((char *)buf, (char ** restrict )(void *)0);
-              double return_value___builtin_huge_val$7;
-              return_value___builtin_huge_val$7=__builtin_huge_val();
-              if(IEEE_FLOAT_EQUAL(d, return_value___builtin_huge_val$7))
-                tmp_if_expr$9 = (_Bool)1;
+              double return_value___builtin_huge_val_7;
+              return_value___builtin_huge_val_7=__builtin_huge_val();
+              if(IEEE_FLOAT_EQUAL(d, return_value___builtin_huge_val_7))
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value___builtin_huge_val$8=__builtin_huge_val();
-                tmp_if_expr$9 = IEEE_FLOAT_EQUAL(d, -return_value___builtin_huge_val$8) ? (_Bool)1 : (_Bool)0;
+                return_value___builtin_huge_val_8=__builtin_huge_val();
+                tmp_if_expr_9 = IEEE_FLOAT_EQUAL(d, -return_value___builtin_huge_val_8) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$9)
+              if(tmp_if_expr_9)
               {
-                return_value___errno_location$6=__errno_location();
-                if(*return_value___errno_location$6 == 34)
+                return_value___errno_location_6=__errno_location();
+                if(*return_value___errno_location_6 == 34)
                 {
                   hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
                   hand->parseError = "numeric (floating point) overflow";
@@ -20463,7 +20463,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
               {
                 hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
                 hand->parseError = "client cancelled parse via callback return value";
-                return (enum anonymous$27)yajl_status_client_canceled;
+                return (enum anonymous_27)yajl_status_client_canceled;
               }
 
             }
@@ -20488,7 +20488,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
               {
                 hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
                 hand->parseError = "client cancelled parse via callback return value";
-                return (enum anonymous$27)yajl_status_client_canceled;
+                return (enum anonymous_27)yajl_status_client_canceled;
               }
 
             }
@@ -20517,10 +20517,10 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
         goto around_again;
       }
     }
-    enum anonymous$30 s;
+    enum anonymous_30 s;
     /* assertion (hand->stateStack).used > 0 */
     assert(hand->stateStack.used > (unsigned long int)0);
-    s = (enum anonymous$30)hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)];
+    s = (enum anonymous_30)hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)];
     if((signed int)s == yajl_state_start || (signed int)s == yajl_state_got_value)
       hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_complete;
 
@@ -20540,9 +20540,9 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
         hand->stateStack.stack = (unsigned char *)return_value_11;
       }
 
-      tmp_post$10 = hand->stateStack.used;
+      tmp_post_10 = hand->stateStack.used;
       hand->stateStack.used = hand->stateStack.used + 1ul;
-      hand->stateStack.stack[(signed long int)tmp_post$10] = (unsigned char)stateToPush;
+      hand->stateStack.stack[(signed long int)tmp_post_10] = (unsigned char)stateToPush;
     }
 
     goto around_again;
@@ -20553,7 +20553,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
     switch((signed int)tok)
     {
       case yajl_tok_eof:
-        return (enum anonymous$27)yajl_status_ok;
+        return (enum anonymous_27)yajl_status_ok;
       case yajl_tok_error:
       {
         hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_lexical_error;
@@ -20584,7 +20584,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20610,7 +20610,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
               {
                 hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
                 hand->parseError = "client cancelled parse via callback return value";
-                return (enum anonymous$27)yajl_status_client_canceled;
+                return (enum anonymous_27)yajl_status_client_canceled;
               }
 
             }
@@ -20641,7 +20641,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
         goto around_again;
       }
       case yajl_tok_eof:
-        return (enum anonymous$27)yajl_status_ok;
+        return (enum anonymous_27)yajl_status_ok;
       case yajl_tok_error:
       {
         hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_lexical_error;
@@ -20672,7 +20672,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20688,7 +20688,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
         goto around_again;
       }
       case yajl_tok_eof:
-        return (enum anonymous$27)yajl_status_ok;
+        return (enum anonymous_27)yajl_status_ok;
       case yajl_tok_error:
       {
         hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_lexical_error;
@@ -20724,7 +20724,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
             {
               hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_parse_error;
               hand->parseError = "client cancelled parse via callback return value";
-              return (enum anonymous$27)yajl_status_client_canceled;
+              return (enum anonymous_27)yajl_status_client_canceled;
             }
 
           }
@@ -20740,7 +20740,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
         goto around_again;
       }
       case yajl_tok_eof:
-        return (enum anonymous$27)yajl_status_ok;
+        return (enum anonymous_27)yajl_status_ok;
       case yajl_tok_error:
       {
         hand->stateStack.stack[(signed long int)(hand->stateStack.used - (unsigned long int)1)] = (unsigned char)yajl_state_lexical_error;
@@ -20755,7 +20755,7 @@ static enum anonymous$27 yajl_do_parse(struct yajl_handle_t *hand, const unsigne
   }
   while((_Bool)1);
   abort();
-  return (enum anonymous$27)yajl_status_error;
+  return (enum anonymous_27)yajl_status_error;
 }
 
 // yajl_free
@@ -20784,25 +20784,25 @@ void yajl_free_error(struct yajl_handle_t *hand, unsigned char *str)
 
 // yajl_gen_alloc
 // file ../json/yajl_api.h line 342
-struct yajl_gen_t * yajl_gen_alloc(const struct anonymous$3 *afs)
+struct yajl_gen_t * yajl_gen_alloc(const struct anonymous_3 *afs)
 {
   struct yajl_gen_t *g = (struct yajl_gen_t *)(void *)0;
-  struct anonymous$3 afsBuffer;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  if(!(afs == ((const struct anonymous$3 *)NULL)))
+  struct anonymous_3 afsBuffer;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  if(!(afs == ((const struct anonymous_3 *)NULL)))
   {
     if(afs->malloc == ((void * (*)(void *, unsigned long int))NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = afs->realloc == (void * (*)(void *, void *, unsigned long int))(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = afs->realloc == (void * (*)(void *, void *, unsigned long int))(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = afs->free == (void (*)(void *, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = afs->free == (void (*)(void *, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return (struct yajl_gen_t *)(void *)0;
 
   }
@@ -20821,11 +20821,11 @@ struct yajl_gen_t * yajl_gen_alloc(const struct anonymous$3 *afs)
   else
   {
     memset((void *)g, 0, sizeof(struct yajl_gen_t) /*576ul*/ );
-    memcpy((void *)&g->alloc, (void *)afs, sizeof(struct anonymous$3) /*32ul*/ );
+    memcpy((void *)&g->alloc, (void *)afs, sizeof(struct anonymous_3) /*32ul*/ );
     g->print = (void (*)(void *, const char *, unsigned long int))yajl_buf_append;
-    struct yajl_buf_t *return_value_yajl_buf_alloc$3;
-    return_value_yajl_buf_alloc$3=yajl_buf_alloc(&g->alloc);
-    g->ctx = (void *)return_value_yajl_buf_alloc$3;
+    struct yajl_buf_t *return_value_yajl_buf_alloc_3;
+    return_value_yajl_buf_alloc_3=yajl_buf_alloc(&g->alloc);
+    g->ctx = (void *)return_value_yajl_buf_alloc_3;
     g->indentString = "    ";
     return g;
   }
@@ -20833,19 +20833,19 @@ struct yajl_gen_t * yajl_gen_alloc(const struct anonymous$3 *afs)
 
 // yajl_gen_array_close
 // file ../json/yajl_api.h line 363
-enum anonymous$33 yajl_gen_array_close(struct yajl_gen_t *g)
+enum anonymous_33 yajl_gen_array_close(struct yajl_gen_t *g)
 {
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
   g->depth = g->depth - 1u;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(g->depth >= 128u)
-    return (enum anonymous$33)yajl_max_depth_exceeded;
+    return (enum anonymous_33)yajl_max_depth_exceeded;
 
   else
   {
@@ -20856,23 +20856,23 @@ enum anonymous$33 yajl_gen_array_close(struct yajl_gen_t *g)
     {
       case yajl_gen_start:
       {
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
         break;
       }
       case yajl_gen_map_start:
 
       case yajl_gen_map_key:
       {
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
         break;
       }
       case yajl_gen_array_start:
       {
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
         break;
       }
       case yajl_gen_map_val:
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
     }
     if(!((1u & g->flags) == 0u))
     {
@@ -20881,8 +20881,8 @@ enum anonymous$33 yajl_gen_array_close(struct yajl_gen_t *g)
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$1=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$1);
+          return_value_strlen_1=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_1);
           _i = _i + 1u;
         }
 
@@ -20898,40 +20898,40 @@ enum anonymous$33 yajl_gen_array_close(struct yajl_gen_t *g)
 
     }
 
-    return (enum anonymous$33)yajl_gen_status_ok;
+    return (enum anonymous_33)yajl_gen_status_ok;
   }
 }
 
 // yajl_gen_array_open
 // file ../json/yajl_api.h line 362
-enum anonymous$33 yajl_gen_array_open(struct yajl_gen_t *g)
+enum anonymous_33 yajl_gen_array_open(struct yajl_gen_t *g)
 {
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$1)
-    return (enum anonymous$33)yajl_gen_keys_must_be_strings;
+    tmp_if_expr_1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_1)
+    return (enum anonymous_33)yajl_gen_keys_must_be_strings;
 
   else
   {
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       g->print(g->ctx, ",", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
@@ -20955,8 +20955,8 @@ enum anonymous$33 yajl_gen_array_open(struct yajl_gen_t *g)
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$3=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$3);
+          return_value_strlen_3=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_3);
           _i = _i + 1u;
         }
 
@@ -20966,11 +20966,11 @@ enum anonymous$33 yajl_gen_array_open(struct yajl_gen_t *g)
 
     g->depth = g->depth + 1u;
     if(g->depth >= 128u)
-      return (enum anonymous$33)yajl_max_depth_exceeded;
+      return (enum anonymous_33)yajl_max_depth_exceeded;
 
     else
     {
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_array_start;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_array_start;
       g->print(g->ctx, "[", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
         g->print(g->ctx, "\n", (unsigned long int)1);
@@ -20982,42 +20982,42 @@ enum anonymous$33 yajl_gen_array_open(struct yajl_gen_t *g)
 
       }
 
-      return (enum anonymous$33)yajl_gen_status_ok;
+      return (enum anonymous_33)yajl_gen_status_ok;
     }
   }
 }
 
 // yajl_gen_bool
 // file yajl_all.c line 776
-enum anonymous$33 yajl_gen_bool(struct yajl_gen_t *g, signed int boolean)
+enum anonymous_33 yajl_gen_bool(struct yajl_gen_t *g, signed int boolean)
 {
   const char *val = boolean != 0 ? "true" : "false";
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$1)
-    return (enum anonymous$33)yajl_gen_keys_must_be_strings;
+    tmp_if_expr_1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_1)
+    return (enum anonymous_33)yajl_gen_keys_must_be_strings;
 
   else
   {
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       g->print(g->ctx, ",", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
@@ -21041,8 +21041,8 @@ enum anonymous$33 yajl_gen_bool(struct yajl_gen_t *g, signed int boolean)
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$3=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$3);
+          return_value_strlen_3=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_3);
           _i = _i + 1u;
         }
 
@@ -21050,15 +21050,15 @@ enum anonymous$33 yajl_gen_bool(struct yajl_gen_t *g, signed int boolean)
 
     }
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(val);
-    g->print(g->ctx, val, (unsigned long int)(unsigned int)return_value_strlen$4);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(val);
+    g->print(g->ctx, val, (unsigned long int)(unsigned int)return_value_strlen_4);
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_start)
     {
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
     }
 
     if(!((1u & g->flags) == 0u))
@@ -21068,7 +21068,7 @@ enum anonymous$33 yajl_gen_bool(struct yajl_gen_t *g, signed int boolean)
 
     }
 
-    return (enum anonymous$33)yajl_gen_status_ok;
+    return (enum anonymous_33)yajl_gen_status_ok;
   }
 }
 
@@ -21083,12 +21083,12 @@ void yajl_gen_clear(struct yajl_gen_t *g)
 
 // yajl_gen_config
 // file ../json/yajl_api.h line 332
-signed int yajl_gen_config(struct yajl_gen_t *g, enum anonymous$32 opt, ...)
+signed int yajl_gen_config(struct yajl_gen_t *g, enum anonymous_32 opt, ...)
 {
   signed int rv = 1;
   __builtin_va_list ap;
   va_start(ap, opt);
-  signed int return_value_gcc_builtin_va_arg$1;
+  signed int return_value_gcc_builtin_va_arg_1;
   const char *indent;
   switch((signed int)opt)
   {
@@ -21098,8 +21098,8 @@ signed int yajl_gen_config(struct yajl_gen_t *g, enum anonymous$32 opt, ...)
 
     case yajl_gen_escape_solidus:
     {
-      return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-      if(!(return_value_gcc_builtin_va_arg$1 == 0))
+      return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+      if(!(return_value_gcc_builtin_va_arg_1 == 0))
         g->flags = g->flags | (unsigned int)opt;
 
       else
@@ -21155,52 +21155,52 @@ signed int yajl_gen_config(struct yajl_gen_t *g, enum anonymous$32 opt, ...)
 
 // yajl_gen_double
 // file yajl_all.c line 714
-enum anonymous$33 yajl_gen_double(struct yajl_gen_t *g, double number)
+enum anonymous_33 yajl_gen_double(struct yajl_gen_t *g, double number)
 {
   char i[32l];
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  signed int return_value___isinf$3;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$6;
-  if(tmp_if_expr$1)
-    return (enum anonymous$33)yajl_gen_keys_must_be_strings;
+    tmp_if_expr_1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  signed int return_value___isinf_3;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_6;
+  if(tmp_if_expr_1)
+    return (enum anonymous_33)yajl_gen_keys_must_be_strings;
 
   else
   {
-    signed int return_value___isnan$2;
-    return_value___isnan$2=__isnan(number);
-    if(!(return_value___isnan$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value___isnan_2;
+    return_value___isnan_2=__isnan(number);
+    if(!(return_value___isnan_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value___isinf$3=__isinf(number);
-      tmp_if_expr$4 = return_value___isinf$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___isinf_3=__isinf(number);
+      tmp_if_expr_4 = return_value___isinf_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      return (enum anonymous$33)yajl_gen_invalid_number;
+    if(tmp_if_expr_4)
+      return (enum anonymous_33)yajl_gen_invalid_number;
 
     else
     {
       if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         g->print(g->ctx, ",", (unsigned long int)1);
         if(!((1u & g->flags) == 0u))
@@ -21224,8 +21224,8 @@ enum anonymous$33 yajl_gen_double(struct yajl_gen_t *g, double number)
           unsigned int _i = (unsigned int)0;
           if(!(_i >= g->depth))
           {
-            return_value_strlen$6=strlen(g->indentString);
-            g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$6);
+            return_value_strlen_6=strlen(g->indentString);
+            g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_6);
             _i = _i + 1u;
           }
 
@@ -21234,22 +21234,22 @@ enum anonymous$33 yajl_gen_double(struct yajl_gen_t *g, double number)
       }
 
       snprintf(i, (unsigned long int)31, "%.20g", number);
-      unsigned long int return_value_strspn$7;
-      return_value_strspn$7=strspn(i, "0123456789-");
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(i);
-      if(return_value_strspn$7 == return_value_strlen$8)
+      unsigned long int return_value_strspn_7;
+      return_value_strspn_7=strspn(i, "0123456789-");
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(i);
+      if(return_value_strspn_7 == return_value_strlen_8)
         strcat(i, ".0");
 
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(i);
-      g->print(g->ctx, i, (unsigned long int)(unsigned int)return_value_strlen$9);
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(i);
+      g->print(g->ctx, i, (unsigned long int)(unsigned int)return_value_strlen_9);
       if((signed int)g->state[(signed long int)g->depth] == yajl_gen_start)
       {
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
       }
 
       if(!((1u & g->flags) == 0u))
@@ -21259,7 +21259,7 @@ enum anonymous$33 yajl_gen_double(struct yajl_gen_t *g, double number)
 
       }
 
-      return (enum anonymous$33)yajl_gen_status_ok;
+      return (enum anonymous_33)yajl_gen_status_ok;
     }
   }
 }
@@ -21276,50 +21276,50 @@ void yajl_gen_free(struct yajl_gen_t *g)
 
 // yajl_gen_get_buf
 // file yajl_all.c line 840
-enum anonymous$33 yajl_gen_get_buf(struct yajl_gen_t *g, const unsigned char **buf, unsigned long int *len)
+enum anonymous_33 yajl_gen_get_buf(struct yajl_gen_t *g, const unsigned char **buf, unsigned long int *len)
 {
   if(!(g->print == (void (*)(void *, const char *, unsigned long int))yajl_buf_append))
-    return (enum anonymous$33)yajl_gen_no_buf;
+    return (enum anonymous_33)yajl_gen_no_buf;
 
   else
   {
     *buf=yajl_buf_data((struct yajl_buf_t *)g->ctx);
     *len=yajl_buf_len((struct yajl_buf_t *)g->ctx);
-    return (enum anonymous$33)yajl_gen_status_ok;
+    return (enum anonymous_33)yajl_gen_status_ok;
   }
 }
 
 // yajl_gen_integer
 // file yajl_all.c line 696
-enum anonymous$33 yajl_gen_integer(struct yajl_gen_t *g, signed long long int number)
+enum anonymous_33 yajl_gen_integer(struct yajl_gen_t *g, signed long long int number)
 {
   char i[32l];
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$1)
-    return (enum anonymous$33)yajl_gen_keys_must_be_strings;
+    tmp_if_expr_1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_1)
+    return (enum anonymous_33)yajl_gen_keys_must_be_strings;
 
   else
   {
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       g->print(g->ctx, ",", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
@@ -21343,8 +21343,8 @@ enum anonymous$33 yajl_gen_integer(struct yajl_gen_t *g, signed long long int nu
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$3=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$3);
+          return_value_strlen_3=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_3);
           _i = _i + 1u;
         }
 
@@ -21353,15 +21353,15 @@ enum anonymous$33 yajl_gen_integer(struct yajl_gen_t *g, signed long long int nu
     }
 
     snprintf(i, (unsigned long int)31, "%lld", number);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(i);
-    g->print(g->ctx, i, (unsigned long int)(unsigned int)return_value_strlen$4);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(i);
+    g->print(g->ctx, i, (unsigned long int)(unsigned int)return_value_strlen_4);
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_start)
     {
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
     }
 
     if(!((1u & g->flags) == 0u))
@@ -21371,25 +21371,25 @@ enum anonymous$33 yajl_gen_integer(struct yajl_gen_t *g, signed long long int nu
 
     }
 
-    return (enum anonymous$33)yajl_gen_status_ok;
+    return (enum anonymous_33)yajl_gen_status_ok;
   }
 }
 
 // yajl_gen_map_close
 // file ../json/yajl_api.h line 361
-enum anonymous$33 yajl_gen_map_close(struct yajl_gen_t *g)
+enum anonymous_33 yajl_gen_map_close(struct yajl_gen_t *g)
 {
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
   g->depth = g->depth - 1u;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(g->depth >= 128u)
-    return (enum anonymous$33)yajl_max_depth_exceeded;
+    return (enum anonymous_33)yajl_max_depth_exceeded;
 
   else
   {
@@ -21400,23 +21400,23 @@ enum anonymous$33 yajl_gen_map_close(struct yajl_gen_t *g)
     {
       case yajl_gen_start:
       {
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
         break;
       }
       case yajl_gen_map_start:
 
       case yajl_gen_map_key:
       {
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
         break;
       }
       case yajl_gen_array_start:
       {
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
         break;
       }
       case yajl_gen_map_val:
-        g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+        g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
     }
     if(!((1u & g->flags) == 0u))
     {
@@ -21425,8 +21425,8 @@ enum anonymous$33 yajl_gen_map_close(struct yajl_gen_t *g)
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$1=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$1);
+          return_value_strlen_1=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_1);
           _i = _i + 1u;
         }
 
@@ -21442,40 +21442,40 @@ enum anonymous$33 yajl_gen_map_close(struct yajl_gen_t *g)
 
     }
 
-    return (enum anonymous$33)yajl_gen_status_ok;
+    return (enum anonymous_33)yajl_gen_status_ok;
   }
 }
 
 // yajl_gen_map_open
 // file ../json/yajl_api.h line 360
-enum anonymous$33 yajl_gen_map_open(struct yajl_gen_t *g)
+enum anonymous_33 yajl_gen_map_open(struct yajl_gen_t *g)
 {
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$1)
-    return (enum anonymous$33)yajl_gen_keys_must_be_strings;
+    tmp_if_expr_1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_1)
+    return (enum anonymous_33)yajl_gen_keys_must_be_strings;
 
   else
   {
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       g->print(g->ctx, ",", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
@@ -21499,8 +21499,8 @@ enum anonymous$33 yajl_gen_map_open(struct yajl_gen_t *g)
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$3=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$3);
+          return_value_strlen_3=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_3);
           _i = _i + 1u;
         }
 
@@ -21510,11 +21510,11 @@ enum anonymous$33 yajl_gen_map_open(struct yajl_gen_t *g)
 
     g->depth = g->depth + 1u;
     if(g->depth >= 128u)
-      return (enum anonymous$33)yajl_max_depth_exceeded;
+      return (enum anonymous_33)yajl_max_depth_exceeded;
 
     else
     {
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_start;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_start;
       g->print(g->ctx, "{", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
         g->print(g->ctx, "\n", (unsigned long int)1);
@@ -21526,41 +21526,41 @@ enum anonymous$33 yajl_gen_map_open(struct yajl_gen_t *g)
 
       }
 
-      return (enum anonymous$33)yajl_gen_status_ok;
+      return (enum anonymous_33)yajl_gen_status_ok;
     }
   }
 }
 
 // yajl_gen_null
 // file yajl_all.c line 766
-enum anonymous$33 yajl_gen_null(struct yajl_gen_t *g)
+enum anonymous_33 yajl_gen_null(struct yajl_gen_t *g)
 {
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$1)
-    return (enum anonymous$33)yajl_gen_keys_must_be_strings;
+    tmp_if_expr_1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_1)
+    return (enum anonymous_33)yajl_gen_keys_must_be_strings;
 
   else
   {
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       g->print(g->ctx, ",", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
@@ -21584,8 +21584,8 @@ enum anonymous$33 yajl_gen_null(struct yajl_gen_t *g)
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$3=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$3);
+          return_value_strlen_3=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_3);
           _i = _i + 1u;
         }
 
@@ -21593,15 +21593,15 @@ enum anonymous$33 yajl_gen_null(struct yajl_gen_t *g)
 
     }
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen("null");
-    g->print(g->ctx, "null", return_value_strlen$4);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen("null");
+    g->print(g->ctx, "null", return_value_strlen_4);
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_start)
     {
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
     }
 
     if(!((1u & g->flags) == 0u))
@@ -21611,40 +21611,40 @@ enum anonymous$33 yajl_gen_null(struct yajl_gen_t *g)
 
     }
 
-    return (enum anonymous$33)yajl_gen_status_ok;
+    return (enum anonymous_33)yajl_gen_status_ok;
   }
 }
 
 // yajl_gen_number
 // file ../json/yajl_api.h line 352
-enum anonymous$33 yajl_gen_number(struct yajl_gen_t *g, const char *s, unsigned long int l)
+enum anonymous_33 yajl_gen_number(struct yajl_gen_t *g, const char *s, unsigned long int l)
 {
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$1)
-    return (enum anonymous$33)yajl_gen_keys_must_be_strings;
+    tmp_if_expr_1 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_map_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_1)
+    return (enum anonymous_33)yajl_gen_keys_must_be_strings;
 
   else
   {
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       g->print(g->ctx, ",", (unsigned long int)1);
       if(!((1u & g->flags) == 0u))
@@ -21668,8 +21668,8 @@ enum anonymous$33 yajl_gen_number(struct yajl_gen_t *g, const char *s, unsigned 
         unsigned int _i = (unsigned int)0;
         if(!(_i >= g->depth))
         {
-          return_value_strlen$3=strlen(g->indentString);
-          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$3);
+          return_value_strlen_3=strlen(g->indentString);
+          g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_3);
           _i = _i + 1u;
         }
 
@@ -21680,10 +21680,10 @@ enum anonymous$33 yajl_gen_number(struct yajl_gen_t *g, const char *s, unsigned 
     g->print(g->ctx, s, l);
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_start)
     {
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
-      g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
+      g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
     }
 
     if(!((1u & g->flags) == 0u))
@@ -21693,37 +21693,37 @@ enum anonymous$33 yajl_gen_number(struct yajl_gen_t *g, const char *s, unsigned 
 
     }
 
-    return (enum anonymous$33)yajl_gen_status_ok;
+    return (enum anonymous_33)yajl_gen_status_ok;
   }
 }
 
 // yajl_gen_string
 // file ../json/yajl_api.h line 355
-enum anonymous$33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str, unsigned long int len)
+enum anonymous_33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str, unsigned long int len)
 {
   if(!((8u & g->flags) == 0u))
   {
-    signed int return_value_yajl_string_validate_utf8$1;
-    return_value_yajl_string_validate_utf8$1=yajl_string_validate_utf8(str, len);
-    if(return_value_yajl_string_validate_utf8$1 == 0)
-      return (enum anonymous$33)yajl_gen_invalid_string;
+    signed int return_value_yajl_string_validate_utf8_1;
+    return_value_yajl_string_validate_utf8_1=yajl_string_validate_utf8(str, len);
+    if(return_value_yajl_string_validate_utf8_1 == 0)
+      return (enum anonymous_33)yajl_gen_invalid_string;
 
   }
 
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_error)
-    return (enum anonymous$33)yajl_gen_in_error_state;
+    return (enum anonymous_33)yajl_gen_in_error_state;
 
   else
     if((signed int)g->state[(signed long int)g->depth] == yajl_gen_complete)
-      return (enum anonymous$33)yajl_gen_generation_complete;
+      return (enum anonymous_33)yajl_gen_generation_complete;
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_key)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)g->state[(signed long int)g->depth] == yajl_gen_in_array ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     g->print(g->ctx, ",", (unsigned long int)1);
     if(!((1u & g->flags) == 0u))
@@ -21740,7 +21740,7 @@ enum anonymous$33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str
 
     }
 
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!((1u & g->flags) == 0u))
   {
     if(!((signed int)g->state[(signed long int)g->depth] == yajl_gen_map_val))
@@ -21748,8 +21748,8 @@ enum anonymous$33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str
       unsigned int _i = (unsigned int)0;
       if(!(_i >= g->depth))
       {
-        return_value_strlen$3=strlen(g->indentString);
-        g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen$3);
+        return_value_strlen_3=strlen(g->indentString);
+        g->print(g->ctx, g->indentString, (unsigned long int)(unsigned int)return_value_strlen_3);
         _i = _i + 1u;
       }
 
@@ -21762,10 +21762,10 @@ enum anonymous$33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str
   g->print(g->ctx, "\"", (unsigned long int)1);
   if((signed int)g->state[(signed long int)g->depth] == yajl_gen_start)
   {
-    g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_complete;
-    g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_val;
-    g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_in_array;
-    g->state[(signed long int)g->depth] = (enum anonymous$31)yajl_gen_map_key;
+    g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_complete;
+    g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_val;
+    g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_in_array;
+    g->state[(signed long int)g->depth] = (enum anonymous_31)yajl_gen_map_key;
   }
 
   if(!((1u & g->flags) == 0u))
@@ -21775,7 +21775,7 @@ enum anonymous$33 yajl_gen_string(struct yajl_gen_t *g, const unsigned char *str
 
   }
 
-  return (enum anonymous$33)yajl_gen_status_ok;
+  return (enum anonymous_33)yajl_gen_status_ok;
 }
 
 // yajl_get_bytes_consumed
@@ -21793,9 +21793,9 @@ unsigned long int yajl_get_bytes_consumed(struct yajl_handle_t *hand)
 // file ../json/yajl_api.h line 230
 unsigned char * yajl_get_error(struct yajl_handle_t *hand, signed int verbose, const unsigned char *jsonText, unsigned long int jsonTextLen)
 {
-  unsigned char *return_value_yajl_render_error_string$1;
-  return_value_yajl_render_error_string$1=yajl_render_error_string(hand, jsonText, jsonTextLen, verbose);
-  return return_value_yajl_render_error_string$1;
+  unsigned char *return_value_yajl_render_error_string_1;
+  return_value_yajl_render_error_string_1=yajl_render_error_string(hand, jsonText, jsonTextLen, verbose);
+  return return_value_yajl_render_error_string_1;
 }
 
 // yajl_internal_free
@@ -21811,9 +21811,9 @@ static void yajl_internal_free(void *ctx, void *ptr)
 static void * yajl_internal_malloc(void *ctx, unsigned long int sz)
 {
   (void)ctx;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sz);
-  return return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sz);
+  return return_value_malloc_1;
 }
 
 // yajl_internal_realloc
@@ -21821,14 +21821,14 @@ static void * yajl_internal_malloc(void *ctx, unsigned long int sz)
 static void * yajl_internal_realloc(void *ctx, void *previous, unsigned long int sz)
 {
   (void)ctx;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc(previous, sz);
-  return return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc(previous, sz);
+  return return_value_realloc_1;
 }
 
 // yajl_lex_alloc
 // file yajl_all.c line 906
-static struct yajl_lexer_t * yajl_lex_alloc(struct anonymous$3 *alloc, unsigned int allowComments, unsigned int validateUTF8)
+static struct yajl_lexer_t * yajl_lex_alloc(struct anonymous_3 *alloc, unsigned int allowComments, unsigned int validateUTF8)
 {
   struct yajl_lexer_t *lxr;
   void *return_value;
@@ -21844,115 +21844,115 @@ static struct yajl_lexer_t * yajl_lex_alloc(struct anonymous$3 *alloc, unsigned 
 
 // yajl_lex_comment
 // file yajl_all.c line 1260
-static enum anonymous$29 yajl_lex_comment(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset)
+static enum anonymous_29 yajl_lex_comment(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset)
 {
   unsigned char c;
-  enum anonymous$29 tok = (enum anonymous$29)yajl_tok_comment;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_yajl_buf_len$1;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_yajl_buf_len$3;
-  signed int tmp_if_expr$8;
-  const unsigned char *return_value_yajl_buf_data$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_yajl_buf_len$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_yajl_buf_len$11;
-  signed int tmp_if_expr$16;
-  const unsigned char *return_value_yajl_buf_data$13;
-  unsigned long int tmp_post$14;
-  unsigned long int tmp_post$15;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_yajl_buf_len$17;
-  _Bool tmp_if_expr$20;
-  unsigned long int return_value_yajl_buf_len$19;
-  signed int tmp_if_expr$24;
-  const unsigned char *return_value_yajl_buf_data$21;
-  unsigned long int tmp_post$22;
-  unsigned long int tmp_post$23;
-  _Bool tmp_if_expr$26;
-  unsigned long int return_value_yajl_buf_len$25;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_yajl_buf_len$27;
-  signed int tmp_if_expr$32;
-  const unsigned char *return_value_yajl_buf_data$29;
-  unsigned long int tmp_post$30;
-  unsigned long int tmp_post$31;
+  enum anonymous_29 tok = (enum anonymous_29)yajl_tok_comment;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_yajl_buf_len_1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_yajl_buf_len_3;
+  signed int tmp_if_expr_8;
+  const unsigned char *return_value_yajl_buf_data_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_yajl_buf_len_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_yajl_buf_len_11;
+  signed int tmp_if_expr_16;
+  const unsigned char *return_value_yajl_buf_data_13;
+  unsigned long int tmp_post_14;
+  unsigned long int tmp_post_15;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_yajl_buf_len_17;
+  _Bool tmp_if_expr_20;
+  unsigned long int return_value_yajl_buf_len_19;
+  signed int tmp_if_expr_24;
+  const unsigned char *return_value_yajl_buf_data_21;
+  unsigned long int tmp_post_22;
+  unsigned long int tmp_post_23;
+  _Bool tmp_if_expr_26;
+  unsigned long int return_value_yajl_buf_len_25;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_yajl_buf_len_27;
+  signed int tmp_if_expr_32;
+  const unsigned char *return_value_yajl_buf_data_29;
+  unsigned long int tmp_post_30;
+  unsigned long int tmp_post_31;
   if(*offset >= jsonTextLen)
-    return (enum anonymous$29)yajl_tok_eof;
+    return (enum anonymous_29)yajl_tok_eof;
 
   else
   {
     if(!(lexer->bufInUse == 0u))
     {
-      return_value_yajl_buf_len$1=yajl_buf_len(lexer->buf);
-      tmp_if_expr$2 = return_value_yajl_buf_len$1 != 0ul ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_1=yajl_buf_len(lexer->buf);
+      tmp_if_expr_2 = return_value_yajl_buf_len_1 != 0ul ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_yajl_buf_len$3=yajl_buf_len(lexer->buf);
-      tmp_if_expr$4 = lexer->bufOff < return_value_yajl_buf_len$3 ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_3=yajl_buf_len(lexer->buf);
+      tmp_if_expr_4 = lexer->bufOff < return_value_yajl_buf_len_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      return_value_yajl_buf_data$5=yajl_buf_data(lexer->buf);
-      tmp_post$6 = lexer->bufOff;
+      return_value_yajl_buf_data_5=yajl_buf_data(lexer->buf);
+      tmp_post_6 = lexer->bufOff;
       lexer->bufOff = lexer->bufOff + 1ul;
-      tmp_if_expr$8 = (signed int)((const unsigned char *)return_value_yajl_buf_data$5)[(signed long int)tmp_post$6];
+      tmp_if_expr_8 = (signed int)((const unsigned char *)return_value_yajl_buf_data_5)[(signed long int)tmp_post_6];
     }
 
     else
     {
-      tmp_post$7 = *offset;
+      tmp_post_7 = *offset;
       *offset = *offset + 1ul;
-      tmp_if_expr$8 = (signed int)jsonText[(signed long int)tmp_post$7];
+      tmp_if_expr_8 = (signed int)jsonText[(signed long int)tmp_post_7];
     }
-    c = (unsigned char)tmp_if_expr$8;
+    c = (unsigned char)tmp_if_expr_8;
     if((signed int)c == 47)
       while((_Bool)1)
       {
         if(*offset >= jsonTextLen)
-          return (enum anonymous$29)yajl_tok_eof;
+          return (enum anonymous_29)yajl_tok_eof;
 
         if(!(lexer->bufInUse == 0u))
         {
-          return_value_yajl_buf_len$9=yajl_buf_len(lexer->buf);
-          tmp_if_expr$10 = return_value_yajl_buf_len$9 != 0ul ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_9=yajl_buf_len(lexer->buf);
+          tmp_if_expr_10 = return_value_yajl_buf_len_9 != 0ul ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
         {
-          return_value_yajl_buf_len$11=yajl_buf_len(lexer->buf);
-          tmp_if_expr$12 = lexer->bufOff < return_value_yajl_buf_len$11 ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_11=yajl_buf_len(lexer->buf);
+          tmp_if_expr_12 = lexer->bufOff < return_value_yajl_buf_len_11 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = (_Bool)0;
+        if(tmp_if_expr_12)
         {
-          return_value_yajl_buf_data$13=yajl_buf_data(lexer->buf);
-          tmp_post$14 = lexer->bufOff;
+          return_value_yajl_buf_data_13=yajl_buf_data(lexer->buf);
+          tmp_post_14 = lexer->bufOff;
           lexer->bufOff = lexer->bufOff + 1ul;
-          tmp_if_expr$16 = (signed int)((const unsigned char *)return_value_yajl_buf_data$13)[(signed long int)tmp_post$14];
+          tmp_if_expr_16 = (signed int)((const unsigned char *)return_value_yajl_buf_data_13)[(signed long int)tmp_post_14];
         }
 
         else
         {
-          tmp_post$15 = *offset;
+          tmp_post_15 = *offset;
           *offset = *offset + 1ul;
-          tmp_if_expr$16 = (signed int)jsonText[(signed long int)tmp_post$15];
+          tmp_if_expr_16 = (signed int)jsonText[(signed long int)tmp_post_15];
         }
-        c = (unsigned char)tmp_if_expr$16;
+        c = (unsigned char)tmp_if_expr_16;
         if((signed int)c == 10)
           break;
 
@@ -21963,75 +21963,75 @@ static enum anonymous$29 yajl_lex_comment(struct yajl_lexer_t *lexer, const unsi
         while((_Bool)1)
         {
           if(*offset >= jsonTextLen)
-            return (enum anonymous$29)yajl_tok_eof;
+            return (enum anonymous_29)yajl_tok_eof;
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$17=yajl_buf_len(lexer->buf);
-            tmp_if_expr$18 = return_value_yajl_buf_len$17 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_17=yajl_buf_len(lexer->buf);
+            tmp_if_expr_18 = return_value_yajl_buf_len_17 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(tmp_if_expr_18)
           {
-            return_value_yajl_buf_len$19=yajl_buf_len(lexer->buf);
-            tmp_if_expr$20 = lexer->bufOff < return_value_yajl_buf_len$19 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_19=yajl_buf_len(lexer->buf);
+            tmp_if_expr_20 = lexer->bufOff < return_value_yajl_buf_len_19 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$20 = (_Bool)0;
-          if(tmp_if_expr$20)
+            tmp_if_expr_20 = (_Bool)0;
+          if(tmp_if_expr_20)
           {
-            return_value_yajl_buf_data$21=yajl_buf_data(lexer->buf);
-            tmp_post$22 = lexer->bufOff;
+            return_value_yajl_buf_data_21=yajl_buf_data(lexer->buf);
+            tmp_post_22 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$24 = (signed int)((const unsigned char *)return_value_yajl_buf_data$21)[(signed long int)tmp_post$22];
+            tmp_if_expr_24 = (signed int)((const unsigned char *)return_value_yajl_buf_data_21)[(signed long int)tmp_post_22];
           }
 
           else
           {
-            tmp_post$23 = *offset;
+            tmp_post_23 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$24 = (signed int)jsonText[(signed long int)tmp_post$23];
+            tmp_if_expr_24 = (signed int)jsonText[(signed long int)tmp_post_23];
           }
-          c = (unsigned char)tmp_if_expr$24;
+          c = (unsigned char)tmp_if_expr_24;
           if((signed int)c == 42)
           {
             if(*offset >= jsonTextLen)
-              return (enum anonymous$29)yajl_tok_eof;
+              return (enum anonymous_29)yajl_tok_eof;
 
             if(!(lexer->bufInUse == 0u))
             {
-              return_value_yajl_buf_len$25=yajl_buf_len(lexer->buf);
-              tmp_if_expr$26 = return_value_yajl_buf_len$25 != 0ul ? (_Bool)1 : (_Bool)0;
+              return_value_yajl_buf_len_25=yajl_buf_len(lexer->buf);
+              tmp_if_expr_26 = return_value_yajl_buf_len_25 != 0ul ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$26 = (_Bool)0;
-            if(tmp_if_expr$26)
+              tmp_if_expr_26 = (_Bool)0;
+            if(tmp_if_expr_26)
             {
-              return_value_yajl_buf_len$27=yajl_buf_len(lexer->buf);
-              tmp_if_expr$28 = lexer->bufOff < return_value_yajl_buf_len$27 ? (_Bool)1 : (_Bool)0;
+              return_value_yajl_buf_len_27=yajl_buf_len(lexer->buf);
+              tmp_if_expr_28 = lexer->bufOff < return_value_yajl_buf_len_27 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$28 = (_Bool)0;
-            if(tmp_if_expr$28)
+              tmp_if_expr_28 = (_Bool)0;
+            if(tmp_if_expr_28)
             {
-              return_value_yajl_buf_data$29=yajl_buf_data(lexer->buf);
-              tmp_post$30 = lexer->bufOff;
+              return_value_yajl_buf_data_29=yajl_buf_data(lexer->buf);
+              tmp_post_30 = lexer->bufOff;
               lexer->bufOff = lexer->bufOff + 1ul;
-              tmp_if_expr$32 = (signed int)((const unsigned char *)return_value_yajl_buf_data$29)[(signed long int)tmp_post$30];
+              tmp_if_expr_32 = (signed int)((const unsigned char *)return_value_yajl_buf_data_29)[(signed long int)tmp_post_30];
             }
 
             else
             {
-              tmp_post$31 = *offset;
+              tmp_post_31 = *offset;
               *offset = *offset + 1ul;
-              tmp_if_expr$32 = (signed int)jsonText[(signed long int)tmp_post$31];
+              tmp_if_expr_32 = (signed int)jsonText[(signed long int)tmp_post_31];
             }
-            c = (unsigned char)tmp_if_expr$32;
+            c = (unsigned char)tmp_if_expr_32;
             if((signed int)c == 47)
               break;
 
@@ -22047,8 +22047,8 @@ static enum anonymous$29 yajl_lex_comment(struct yajl_lexer_t *lexer, const unsi
 
       else
       {
-        lexer->error = (enum anonymous$28)yajl_lex_invalid_char;
-        tok = (enum anonymous$29)yajl_tok_error;
+        lexer->error = (enum anonymous_28)yajl_lex_invalid_char;
+        tok = (enum anonymous_29)yajl_tok_error;
       }
     return tok;
   }
@@ -22056,7 +22056,7 @@ static enum anonymous$29 yajl_lex_comment(struct yajl_lexer_t *lexer, const unsi
 
 // yajl_lex_error_to_string
 // file yajl_all.c line 1493
-static const char * yajl_lex_error_to_string(enum anonymous$28 error)
+static const char * yajl_lex_error_to_string(enum anonymous_28 error)
 {
   switch((signed int)error)
   {
@@ -22097,10 +22097,10 @@ static void yajl_lex_free(struct yajl_lexer_t *lxr)
 
 // yajl_lex_get_error
 // file yajl_all.c line 1531
-static enum anonymous$28 yajl_lex_get_error(struct yajl_lexer_t *lexer)
+static enum anonymous_28 yajl_lex_get_error(struct yajl_lexer_t *lexer)
 {
   if(lexer == ((struct yajl_lexer_t *)NULL))
-    return (enum anonymous$28)-1;
+    return (enum anonymous_28)-1;
 
   else
     return lexer->error;
@@ -22108,119 +22108,119 @@ static enum anonymous$28 yajl_lex_get_error(struct yajl_lexer_t *lexer)
 
 // yajl_lex_lex
 // file yajl_all.c line 1301
-static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, const unsigned char **outBuf, unsigned long int *outLen)
+static enum anonymous_29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, const unsigned char **outBuf, unsigned long int *outLen)
 {
-  enum anonymous$29 tok = (enum anonymous$29)yajl_tok_error;
+  enum anonymous_29 tok = (enum anonymous_29)yajl_tok_error;
   unsigned char c;
   unsigned long int startOffset = *offset;
   *outBuf = (const unsigned char *)(void *)0;
   *outLen = (unsigned long int)0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_yajl_buf_len$1;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_yajl_buf_len$3;
-  signed int tmp_if_expr$8;
-  const unsigned char *return_value_yajl_buf_data$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_yajl_buf_len_1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_yajl_buf_len_3;
+  signed int tmp_if_expr_8;
+  const unsigned char *return_value_yajl_buf_data_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
   const char *want;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_yajl_buf_len$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_yajl_buf_len$11;
-  signed int tmp_if_expr$16;
-  const unsigned char *return_value_yajl_buf_data$13;
-  unsigned long int tmp_post$14;
-  unsigned long int tmp_post$15;
-  const char *yajl_lex_lex$$1$$1$$1$$2$$2$$want;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_yajl_buf_len$17;
-  _Bool tmp_if_expr$20;
-  unsigned long int return_value_yajl_buf_len$19;
-  signed int tmp_if_expr$24;
-  const unsigned char *return_value_yajl_buf_data$21;
-  unsigned long int tmp_post$22;
-  unsigned long int tmp_post$23;
-  const char *yajl_lex_lex$$1$$1$$1$$2$$3$$want;
-  _Bool tmp_if_expr$26;
-  unsigned long int return_value_yajl_buf_len$25;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_yajl_buf_len$27;
-  signed int tmp_if_expr$32;
-  const unsigned char *return_value_yajl_buf_data$29;
-  unsigned long int tmp_post$30;
-  unsigned long int tmp_post$31;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_yajl_buf_len_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_yajl_buf_len_11;
+  signed int tmp_if_expr_16;
+  const unsigned char *return_value_yajl_buf_data_13;
+  unsigned long int tmp_post_14;
+  unsigned long int tmp_post_15;
+  const char *yajl_lex_lex__1__1__1__2__2__want;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_yajl_buf_len_17;
+  _Bool tmp_if_expr_20;
+  unsigned long int return_value_yajl_buf_len_19;
+  signed int tmp_if_expr_24;
+  const unsigned char *return_value_yajl_buf_data_21;
+  unsigned long int tmp_post_22;
+  unsigned long int tmp_post_23;
+  const char *yajl_lex_lex__1__1__1__2__3__want;
+  _Bool tmp_if_expr_26;
+  unsigned long int return_value_yajl_buf_len_25;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_yajl_buf_len_27;
+  signed int tmp_if_expr_32;
+  const unsigned char *return_value_yajl_buf_data_29;
+  unsigned long int tmp_post_30;
+  unsigned long int tmp_post_31;
   do
   {
     /* assertion *offset <= jsonTextLen */
     assert(*offset <= jsonTextLen);
     if(*offset >= jsonTextLen)
     {
-      tok = (enum anonymous$29)yajl_tok_eof;
+      tok = (enum anonymous_29)yajl_tok_eof;
       break;
     }
 
     if(!(lexer->bufInUse == 0u))
     {
-      return_value_yajl_buf_len$1=yajl_buf_len(lexer->buf);
-      tmp_if_expr$2 = return_value_yajl_buf_len$1 != 0ul ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_1=yajl_buf_len(lexer->buf);
+      tmp_if_expr_2 = return_value_yajl_buf_len_1 != 0ul ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_yajl_buf_len$3=yajl_buf_len(lexer->buf);
-      tmp_if_expr$4 = lexer->bufOff < return_value_yajl_buf_len$3 ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_3=yajl_buf_len(lexer->buf);
+      tmp_if_expr_4 = lexer->bufOff < return_value_yajl_buf_len_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      return_value_yajl_buf_data$5=yajl_buf_data(lexer->buf);
-      tmp_post$6 = lexer->bufOff;
+      return_value_yajl_buf_data_5=yajl_buf_data(lexer->buf);
+      tmp_post_6 = lexer->bufOff;
       lexer->bufOff = lexer->bufOff + 1ul;
-      tmp_if_expr$8 = (signed int)((const unsigned char *)return_value_yajl_buf_data$5)[(signed long int)tmp_post$6];
+      tmp_if_expr_8 = (signed int)((const unsigned char *)return_value_yajl_buf_data_5)[(signed long int)tmp_post_6];
     }
 
     else
     {
-      tmp_post$7 = *offset;
+      tmp_post_7 = *offset;
       *offset = *offset + 1ul;
-      tmp_if_expr$8 = (signed int)jsonText[(signed long int)tmp_post$7];
+      tmp_if_expr_8 = (signed int)jsonText[(signed long int)tmp_post_7];
     }
-    c = (unsigned char)tmp_if_expr$8;
+    c = (unsigned char)tmp_if_expr_8;
     switch((signed int)c)
     {
       case 123:
       {
-        tok = (enum anonymous$29)yajl_tok_left_bracket;
+        tok = (enum anonymous_29)yajl_tok_left_bracket;
         goto lexed;
       }
       case 125:
       {
-        tok = (enum anonymous$29)yajl_tok_right_bracket;
+        tok = (enum anonymous_29)yajl_tok_right_bracket;
         goto lexed;
       }
       case 91:
       {
-        tok = (enum anonymous$29)yajl_tok_left_brace;
+        tok = (enum anonymous_29)yajl_tok_left_brace;
         goto lexed;
       }
       case 93:
       {
-        tok = (enum anonymous$29)yajl_tok_right_brace;
+        tok = (enum anonymous_29)yajl_tok_right_brace;
         goto lexed;
       }
       case 44:
       {
-        tok = (enum anonymous$29)yajl_tok_comma;
+        tok = (enum anonymous_29)yajl_tok_comma;
         goto lexed;
       }
       case 58:
       {
-        tok = (enum anonymous$29)yajl_tok_colon;
+        tok = (enum anonymous_29)yajl_tok_colon;
         goto lexed;
       }
       case 9:
@@ -22245,41 +22245,41 @@ static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned
         {
           if(*offset >= jsonTextLen)
           {
-            tok = (enum anonymous$29)yajl_tok_eof;
+            tok = (enum anonymous_29)yajl_tok_eof;
             goto lexed;
           }
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$9=yajl_buf_len(lexer->buf);
-            tmp_if_expr$10 = return_value_yajl_buf_len$9 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_9=yajl_buf_len(lexer->buf);
+            tmp_if_expr_10 = return_value_yajl_buf_len_9 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
           {
-            return_value_yajl_buf_len$11=yajl_buf_len(lexer->buf);
-            tmp_if_expr$12 = lexer->bufOff < return_value_yajl_buf_len$11 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_11=yajl_buf_len(lexer->buf);
+            tmp_if_expr_12 = lexer->bufOff < return_value_yajl_buf_len_11 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          if(tmp_if_expr$12)
+            tmp_if_expr_12 = (_Bool)0;
+          if(tmp_if_expr_12)
           {
-            return_value_yajl_buf_data$13=yajl_buf_data(lexer->buf);
-            tmp_post$14 = lexer->bufOff;
+            return_value_yajl_buf_data_13=yajl_buf_data(lexer->buf);
+            tmp_post_14 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$16 = (signed int)((const unsigned char *)return_value_yajl_buf_data$13)[(signed long int)tmp_post$14];
+            tmp_if_expr_16 = (signed int)((const unsigned char *)return_value_yajl_buf_data_13)[(signed long int)tmp_post_14];
           }
 
           else
           {
-            tmp_post$15 = *offset;
+            tmp_post_15 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$16 = (signed int)jsonText[(signed long int)tmp_post$15];
+            tmp_if_expr_16 = (signed int)jsonText[(signed long int)tmp_post_15];
           }
-          c = (unsigned char)tmp_if_expr$16;
+          c = (unsigned char)tmp_if_expr_16;
           if(!((signed int)c == (signed int)*want))
           {
             if(*offset >= 1ul)
@@ -22287,8 +22287,8 @@ static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned
 
             else
               lexer->bufOff = lexer->bufOff - 1ul;
-            lexer->error = (enum anonymous$28)yajl_lex_invalid_string;
-            tok = (enum anonymous$29)yajl_tok_error;
+            lexer->error = (enum anonymous_28)yajl_lex_invalid_string;
+            tok = (enum anonymous_29)yajl_tok_error;
             goto lexed;
           }
 
@@ -22297,131 +22297,131 @@ static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned
             break;
 
         }
-        tok = (enum anonymous$29)yajl_tok_bool;
+        tok = (enum anonymous_29)yajl_tok_bool;
         goto lexed;
       }
       case 102:
       {
-        yajl_lex_lex$$1$$1$$1$$2$$2$$want = "alse";
+        yajl_lex_lex__1__1__1__2__2__want = "alse";
         while((_Bool)1)
         {
           if(*offset >= jsonTextLen)
           {
-            tok = (enum anonymous$29)yajl_tok_eof;
+            tok = (enum anonymous_29)yajl_tok_eof;
             goto lexed;
           }
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$17=yajl_buf_len(lexer->buf);
-            tmp_if_expr$18 = return_value_yajl_buf_len$17 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_17=yajl_buf_len(lexer->buf);
+            tmp_if_expr_18 = return_value_yajl_buf_len_17 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(tmp_if_expr_18)
           {
-            return_value_yajl_buf_len$19=yajl_buf_len(lexer->buf);
-            tmp_if_expr$20 = lexer->bufOff < return_value_yajl_buf_len$19 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_19=yajl_buf_len(lexer->buf);
+            tmp_if_expr_20 = lexer->bufOff < return_value_yajl_buf_len_19 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$20 = (_Bool)0;
-          if(tmp_if_expr$20)
+            tmp_if_expr_20 = (_Bool)0;
+          if(tmp_if_expr_20)
           {
-            return_value_yajl_buf_data$21=yajl_buf_data(lexer->buf);
-            tmp_post$22 = lexer->bufOff;
+            return_value_yajl_buf_data_21=yajl_buf_data(lexer->buf);
+            tmp_post_22 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$24 = (signed int)((const unsigned char *)return_value_yajl_buf_data$21)[(signed long int)tmp_post$22];
+            tmp_if_expr_24 = (signed int)((const unsigned char *)return_value_yajl_buf_data_21)[(signed long int)tmp_post_22];
           }
 
           else
           {
-            tmp_post$23 = *offset;
+            tmp_post_23 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$24 = (signed int)jsonText[(signed long int)tmp_post$23];
+            tmp_if_expr_24 = (signed int)jsonText[(signed long int)tmp_post_23];
           }
-          c = (unsigned char)tmp_if_expr$24;
-          if(!((signed int)c == (signed int)*yajl_lex_lex$$1$$1$$1$$2$$2$$want))
+          c = (unsigned char)tmp_if_expr_24;
+          if(!((signed int)c == (signed int)*yajl_lex_lex__1__1__1__2__2__want))
           {
             if(*offset >= 1ul)
               *offset = *offset - 1ul;
 
             else
               lexer->bufOff = lexer->bufOff - 1ul;
-            lexer->error = (enum anonymous$28)yajl_lex_invalid_string;
-            tok = (enum anonymous$29)yajl_tok_error;
+            lexer->error = (enum anonymous_28)yajl_lex_invalid_string;
+            tok = (enum anonymous_29)yajl_tok_error;
             goto lexed;
           }
 
-          yajl_lex_lex$$1$$1$$1$$2$$2$$want = yajl_lex_lex$$1$$1$$1$$2$$2$$want + 1l;
-          if(*yajl_lex_lex$$1$$1$$1$$2$$2$$want == 0)
+          yajl_lex_lex__1__1__1__2__2__want = yajl_lex_lex__1__1__1__2__2__want + 1l;
+          if(*yajl_lex_lex__1__1__1__2__2__want == 0)
             break;
 
         }
-        tok = (enum anonymous$29)yajl_tok_bool;
+        tok = (enum anonymous_29)yajl_tok_bool;
         goto lexed;
       }
       case 110:
       {
-        yajl_lex_lex$$1$$1$$1$$2$$3$$want = "ull";
+        yajl_lex_lex__1__1__1__2__3__want = "ull";
         while((_Bool)1)
         {
           if(*offset >= jsonTextLen)
           {
-            tok = (enum anonymous$29)yajl_tok_eof;
+            tok = (enum anonymous_29)yajl_tok_eof;
             goto lexed;
           }
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$25=yajl_buf_len(lexer->buf);
-            tmp_if_expr$26 = return_value_yajl_buf_len$25 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_25=yajl_buf_len(lexer->buf);
+            tmp_if_expr_26 = return_value_yajl_buf_len_25 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$26 = (_Bool)0;
-          if(tmp_if_expr$26)
+            tmp_if_expr_26 = (_Bool)0;
+          if(tmp_if_expr_26)
           {
-            return_value_yajl_buf_len$27=yajl_buf_len(lexer->buf);
-            tmp_if_expr$28 = lexer->bufOff < return_value_yajl_buf_len$27 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_27=yajl_buf_len(lexer->buf);
+            tmp_if_expr_28 = lexer->bufOff < return_value_yajl_buf_len_27 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$28 = (_Bool)0;
-          if(tmp_if_expr$28)
+            tmp_if_expr_28 = (_Bool)0;
+          if(tmp_if_expr_28)
           {
-            return_value_yajl_buf_data$29=yajl_buf_data(lexer->buf);
-            tmp_post$30 = lexer->bufOff;
+            return_value_yajl_buf_data_29=yajl_buf_data(lexer->buf);
+            tmp_post_30 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$32 = (signed int)((const unsigned char *)return_value_yajl_buf_data$29)[(signed long int)tmp_post$30];
+            tmp_if_expr_32 = (signed int)((const unsigned char *)return_value_yajl_buf_data_29)[(signed long int)tmp_post_30];
           }
 
           else
           {
-            tmp_post$31 = *offset;
+            tmp_post_31 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$32 = (signed int)jsonText[(signed long int)tmp_post$31];
+            tmp_if_expr_32 = (signed int)jsonText[(signed long int)tmp_post_31];
           }
-          c = (unsigned char)tmp_if_expr$32;
-          if(!((signed int)c == (signed int)*yajl_lex_lex$$1$$1$$1$$2$$3$$want))
+          c = (unsigned char)tmp_if_expr_32;
+          if(!((signed int)c == (signed int)*yajl_lex_lex__1__1__1__2__3__want))
           {
             if(*offset >= 1ul)
               *offset = *offset - 1ul;
 
             else
               lexer->bufOff = lexer->bufOff - 1ul;
-            lexer->error = (enum anonymous$28)yajl_lex_invalid_string;
-            tok = (enum anonymous$29)yajl_tok_error;
+            lexer->error = (enum anonymous_28)yajl_lex_invalid_string;
+            tok = (enum anonymous_29)yajl_tok_error;
             goto lexed;
           }
 
-          yajl_lex_lex$$1$$1$$1$$2$$3$$want = yajl_lex_lex$$1$$1$$1$$2$$3$$want + 1l;
-          if(*yajl_lex_lex$$1$$1$$1$$2$$3$$want == 0)
+          yajl_lex_lex__1__1__1__2__3__want = yajl_lex_lex__1__1__1__2__3__want + 1l;
+          if(*yajl_lex_lex__1__1__1__2__3__want == 0)
             break;
 
         }
-        tok = (enum anonymous$29)yajl_tok_null;
+        tok = (enum anonymous_29)yajl_tok_null;
         goto lexed;
       }
       case 34:
@@ -22468,15 +22468,15 @@ static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned
 
           else
             lexer->bufOff = lexer->bufOff - 1ul;
-          lexer->error = (enum anonymous$28)yajl_lex_unallowed_comment;
-          tok = (enum anonymous$29)yajl_tok_error;
+          lexer->error = (enum anonymous_28)yajl_lex_unallowed_comment;
+          tok = (enum anonymous_29)yajl_tok_error;
           goto lexed;
         }
 
         tok=yajl_lex_comment(lexer, (const unsigned char *)jsonText, jsonTextLen, offset);
         if((signed int)tok == yajl_tok_comment)
         {
-          tok = (enum anonymous$29)yajl_tok_error;
+          tok = (enum anonymous_29)yajl_tok_error;
           yajl_buf_clear(lexer->buf);
           lexer->bufInUse = (unsigned int)0;
           startOffset = *offset;
@@ -22487,8 +22487,8 @@ static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned
       }
       default:
       {
-        lexer->error = (enum anonymous$28)yajl_lex_invalid_char;
-        tok = (enum anonymous$29)yajl_tok_error;
+        lexer->error = (enum anonymous_28)yajl_lex_invalid_char;
+        tok = (enum anonymous_29)yajl_tok_error;
         goto lexed;
       }
     }
@@ -22497,13 +22497,13 @@ static enum anonymous$29 yajl_lex_lex(struct yajl_lexer_t *lexer, const unsigned
 
 lexed:
   ;
-  _Bool tmp_if_expr$33;
+  _Bool tmp_if_expr_33;
   if((signed int)tok == yajl_tok_eof)
-    tmp_if_expr$33 = (_Bool)1;
+    tmp_if_expr_33 = (_Bool)1;
 
   else
-    tmp_if_expr$33 = lexer->bufInUse != 0u ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$33)
+    tmp_if_expr_33 = lexer->bufInUse != 0u ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_33)
   {
     if(lexer->bufInUse == 0u)
       yajl_buf_clear(lexer->buf);
@@ -22540,192 +22540,192 @@ lexed:
 
 // yajl_lex_number
 // file yajl_all.c line 1173
-static enum anonymous$29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset)
+static enum anonymous_29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset)
 {
   unsigned char c;
-  enum anonymous$29 tok = (enum anonymous$29)yajl_tok_integer;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_yajl_buf_len$1;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_yajl_buf_len$3;
-  signed int tmp_if_expr$8;
-  const unsigned char *return_value_yajl_buf_data$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_yajl_buf_len$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_yajl_buf_len$11;
-  signed int tmp_if_expr$16;
-  const unsigned char *return_value_yajl_buf_data$13;
-  unsigned long int tmp_post$14;
-  unsigned long int tmp_post$15;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_yajl_buf_len$17;
-  _Bool tmp_if_expr$20;
-  unsigned long int return_value_yajl_buf_len$19;
-  signed int tmp_if_expr$24;
-  const unsigned char *return_value_yajl_buf_data$21;
-  unsigned long int tmp_post$22;
-  unsigned long int tmp_post$23;
-  _Bool tmp_if_expr$26;
-  unsigned long int return_value_yajl_buf_len$25;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_yajl_buf_len$27;
-  signed int tmp_if_expr$32;
-  const unsigned char *return_value_yajl_buf_data$29;
-  unsigned long int tmp_post$30;
-  unsigned long int tmp_post$31;
-  _Bool tmp_if_expr$34;
-  unsigned long int return_value_yajl_buf_len$33;
-  _Bool tmp_if_expr$36;
-  unsigned long int return_value_yajl_buf_len$35;
-  signed int tmp_if_expr$40;
-  const unsigned char *return_value_yajl_buf_data$37;
-  unsigned long int tmp_post$38;
-  unsigned long int tmp_post$39;
-  _Bool tmp_if_expr$42;
-  unsigned long int return_value_yajl_buf_len$41;
-  _Bool tmp_if_expr$44;
-  unsigned long int return_value_yajl_buf_len$43;
-  signed int tmp_if_expr$48;
-  const unsigned char *return_value_yajl_buf_data$45;
-  unsigned long int tmp_post$46;
-  unsigned long int tmp_post$47;
-  _Bool tmp_if_expr$50;
-  unsigned long int return_value_yajl_buf_len$49;
-  _Bool tmp_if_expr$52;
-  unsigned long int return_value_yajl_buf_len$51;
-  signed int tmp_if_expr$56;
-  const unsigned char *return_value_yajl_buf_data$53;
-  unsigned long int tmp_post$54;
-  unsigned long int tmp_post$55;
-  _Bool tmp_if_expr$58;
-  unsigned long int return_value_yajl_buf_len$57;
-  _Bool tmp_if_expr$60;
-  unsigned long int return_value_yajl_buf_len$59;
-  signed int tmp_if_expr$64;
-  const unsigned char *return_value_yajl_buf_data$61;
-  unsigned long int tmp_post$62;
-  unsigned long int tmp_post$63;
-  _Bool tmp_if_expr$66;
-  unsigned long int return_value_yajl_buf_len$65;
-  _Bool tmp_if_expr$68;
-  unsigned long int return_value_yajl_buf_len$67;
-  signed int tmp_if_expr$72;
-  const unsigned char *return_value_yajl_buf_data$69;
-  unsigned long int tmp_post$70;
-  unsigned long int tmp_post$71;
+  enum anonymous_29 tok = (enum anonymous_29)yajl_tok_integer;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_yajl_buf_len_1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_yajl_buf_len_3;
+  signed int tmp_if_expr_8;
+  const unsigned char *return_value_yajl_buf_data_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_yajl_buf_len_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_yajl_buf_len_11;
+  signed int tmp_if_expr_16;
+  const unsigned char *return_value_yajl_buf_data_13;
+  unsigned long int tmp_post_14;
+  unsigned long int tmp_post_15;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_yajl_buf_len_17;
+  _Bool tmp_if_expr_20;
+  unsigned long int return_value_yajl_buf_len_19;
+  signed int tmp_if_expr_24;
+  const unsigned char *return_value_yajl_buf_data_21;
+  unsigned long int tmp_post_22;
+  unsigned long int tmp_post_23;
+  _Bool tmp_if_expr_26;
+  unsigned long int return_value_yajl_buf_len_25;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_yajl_buf_len_27;
+  signed int tmp_if_expr_32;
+  const unsigned char *return_value_yajl_buf_data_29;
+  unsigned long int tmp_post_30;
+  unsigned long int tmp_post_31;
+  _Bool tmp_if_expr_34;
+  unsigned long int return_value_yajl_buf_len_33;
+  _Bool tmp_if_expr_36;
+  unsigned long int return_value_yajl_buf_len_35;
+  signed int tmp_if_expr_40;
+  const unsigned char *return_value_yajl_buf_data_37;
+  unsigned long int tmp_post_38;
+  unsigned long int tmp_post_39;
+  _Bool tmp_if_expr_42;
+  unsigned long int return_value_yajl_buf_len_41;
+  _Bool tmp_if_expr_44;
+  unsigned long int return_value_yajl_buf_len_43;
+  signed int tmp_if_expr_48;
+  const unsigned char *return_value_yajl_buf_data_45;
+  unsigned long int tmp_post_46;
+  unsigned long int tmp_post_47;
+  _Bool tmp_if_expr_50;
+  unsigned long int return_value_yajl_buf_len_49;
+  _Bool tmp_if_expr_52;
+  unsigned long int return_value_yajl_buf_len_51;
+  signed int tmp_if_expr_56;
+  const unsigned char *return_value_yajl_buf_data_53;
+  unsigned long int tmp_post_54;
+  unsigned long int tmp_post_55;
+  _Bool tmp_if_expr_58;
+  unsigned long int return_value_yajl_buf_len_57;
+  _Bool tmp_if_expr_60;
+  unsigned long int return_value_yajl_buf_len_59;
+  signed int tmp_if_expr_64;
+  const unsigned char *return_value_yajl_buf_data_61;
+  unsigned long int tmp_post_62;
+  unsigned long int tmp_post_63;
+  _Bool tmp_if_expr_66;
+  unsigned long int return_value_yajl_buf_len_65;
+  _Bool tmp_if_expr_68;
+  unsigned long int return_value_yajl_buf_len_67;
+  signed int tmp_if_expr_72;
+  const unsigned char *return_value_yajl_buf_data_69;
+  unsigned long int tmp_post_70;
+  unsigned long int tmp_post_71;
   if(*offset >= jsonTextLen)
-    return (enum anonymous$29)yajl_tok_eof;
+    return (enum anonymous_29)yajl_tok_eof;
 
   else
   {
     if(!(lexer->bufInUse == 0u))
     {
-      return_value_yajl_buf_len$1=yajl_buf_len(lexer->buf);
-      tmp_if_expr$2 = return_value_yajl_buf_len$1 != 0ul ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_1=yajl_buf_len(lexer->buf);
+      tmp_if_expr_2 = return_value_yajl_buf_len_1 != 0ul ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_yajl_buf_len$3=yajl_buf_len(lexer->buf);
-      tmp_if_expr$4 = lexer->bufOff < return_value_yajl_buf_len$3 ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_3=yajl_buf_len(lexer->buf);
+      tmp_if_expr_4 = lexer->bufOff < return_value_yajl_buf_len_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      return_value_yajl_buf_data$5=yajl_buf_data(lexer->buf);
-      tmp_post$6 = lexer->bufOff;
+      return_value_yajl_buf_data_5=yajl_buf_data(lexer->buf);
+      tmp_post_6 = lexer->bufOff;
       lexer->bufOff = lexer->bufOff + 1ul;
-      tmp_if_expr$8 = (signed int)((const unsigned char *)return_value_yajl_buf_data$5)[(signed long int)tmp_post$6];
+      tmp_if_expr_8 = (signed int)((const unsigned char *)return_value_yajl_buf_data_5)[(signed long int)tmp_post_6];
     }
 
     else
     {
-      tmp_post$7 = *offset;
+      tmp_post_7 = *offset;
       *offset = *offset + 1ul;
-      tmp_if_expr$8 = (signed int)jsonText[(signed long int)tmp_post$7];
+      tmp_if_expr_8 = (signed int)jsonText[(signed long int)tmp_post_7];
     }
-    c = (unsigned char)tmp_if_expr$8;
+    c = (unsigned char)tmp_if_expr_8;
     if((signed int)c == 45)
     {
       if(*offset >= jsonTextLen)
-        return (enum anonymous$29)yajl_tok_eof;
+        return (enum anonymous_29)yajl_tok_eof;
 
       if(!(lexer->bufInUse == 0u))
       {
-        return_value_yajl_buf_len$9=yajl_buf_len(lexer->buf);
-        tmp_if_expr$10 = return_value_yajl_buf_len$9 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_9=yajl_buf_len(lexer->buf);
+        tmp_if_expr_10 = return_value_yajl_buf_len_9 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
       {
-        return_value_yajl_buf_len$11=yajl_buf_len(lexer->buf);
-        tmp_if_expr$12 = lexer->bufOff < return_value_yajl_buf_len$11 ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_11=yajl_buf_len(lexer->buf);
+        tmp_if_expr_12 = lexer->bufOff < return_value_yajl_buf_len_11 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = (_Bool)0;
+      if(tmp_if_expr_12)
       {
-        return_value_yajl_buf_data$13=yajl_buf_data(lexer->buf);
-        tmp_post$14 = lexer->bufOff;
+        return_value_yajl_buf_data_13=yajl_buf_data(lexer->buf);
+        tmp_post_14 = lexer->bufOff;
         lexer->bufOff = lexer->bufOff + 1ul;
-        tmp_if_expr$16 = (signed int)((const unsigned char *)return_value_yajl_buf_data$13)[(signed long int)tmp_post$14];
+        tmp_if_expr_16 = (signed int)((const unsigned char *)return_value_yajl_buf_data_13)[(signed long int)tmp_post_14];
       }
 
       else
       {
-        tmp_post$15 = *offset;
+        tmp_post_15 = *offset;
         *offset = *offset + 1ul;
-        tmp_if_expr$16 = (signed int)jsonText[(signed long int)tmp_post$15];
+        tmp_if_expr_16 = (signed int)jsonText[(signed long int)tmp_post_15];
       }
-      c = (unsigned char)tmp_if_expr$16;
+      c = (unsigned char)tmp_if_expr_16;
     }
 
     if((signed int)c == 48)
     {
       if(*offset >= jsonTextLen)
-        return (enum anonymous$29)yajl_tok_eof;
+        return (enum anonymous_29)yajl_tok_eof;
 
       if(!(lexer->bufInUse == 0u))
       {
-        return_value_yajl_buf_len$17=yajl_buf_len(lexer->buf);
-        tmp_if_expr$18 = return_value_yajl_buf_len$17 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_17=yajl_buf_len(lexer->buf);
+        tmp_if_expr_18 = return_value_yajl_buf_len_17 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$18 = (_Bool)0;
-      if(tmp_if_expr$18)
+        tmp_if_expr_18 = (_Bool)0;
+      if(tmp_if_expr_18)
       {
-        return_value_yajl_buf_len$19=yajl_buf_len(lexer->buf);
-        tmp_if_expr$20 = lexer->bufOff < return_value_yajl_buf_len$19 ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_19=yajl_buf_len(lexer->buf);
+        tmp_if_expr_20 = lexer->bufOff < return_value_yajl_buf_len_19 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$20 = (_Bool)0;
-      if(tmp_if_expr$20)
+        tmp_if_expr_20 = (_Bool)0;
+      if(tmp_if_expr_20)
       {
-        return_value_yajl_buf_data$21=yajl_buf_data(lexer->buf);
-        tmp_post$22 = lexer->bufOff;
+        return_value_yajl_buf_data_21=yajl_buf_data(lexer->buf);
+        tmp_post_22 = lexer->bufOff;
         lexer->bufOff = lexer->bufOff + 1ul;
-        tmp_if_expr$24 = (signed int)((const unsigned char *)return_value_yajl_buf_data$21)[(signed long int)tmp_post$22];
+        tmp_if_expr_24 = (signed int)((const unsigned char *)return_value_yajl_buf_data_21)[(signed long int)tmp_post_22];
       }
 
       else
       {
-        tmp_post$23 = *offset;
+        tmp_post_23 = *offset;
         *offset = *offset + 1ul;
-        tmp_if_expr$24 = (signed int)jsonText[(signed long int)tmp_post$23];
+        tmp_if_expr_24 = (signed int)jsonText[(signed long int)tmp_post_23];
       }
-      c = (unsigned char)tmp_if_expr$24;
+      c = (unsigned char)tmp_if_expr_24;
     }
 
     else
@@ -22733,39 +22733,39 @@ static enum anonymous$29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsig
         while((_Bool)1)
         {
           if(*offset >= jsonTextLen)
-            return (enum anonymous$29)yajl_tok_eof;
+            return (enum anonymous_29)yajl_tok_eof;
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$25=yajl_buf_len(lexer->buf);
-            tmp_if_expr$26 = return_value_yajl_buf_len$25 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_25=yajl_buf_len(lexer->buf);
+            tmp_if_expr_26 = return_value_yajl_buf_len_25 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$26 = (_Bool)0;
-          if(tmp_if_expr$26)
+            tmp_if_expr_26 = (_Bool)0;
+          if(tmp_if_expr_26)
           {
-            return_value_yajl_buf_len$27=yajl_buf_len(lexer->buf);
-            tmp_if_expr$28 = lexer->bufOff < return_value_yajl_buf_len$27 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_27=yajl_buf_len(lexer->buf);
+            tmp_if_expr_28 = lexer->bufOff < return_value_yajl_buf_len_27 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$28 = (_Bool)0;
-          if(tmp_if_expr$28)
+            tmp_if_expr_28 = (_Bool)0;
+          if(tmp_if_expr_28)
           {
-            return_value_yajl_buf_data$29=yajl_buf_data(lexer->buf);
-            tmp_post$30 = lexer->bufOff;
+            return_value_yajl_buf_data_29=yajl_buf_data(lexer->buf);
+            tmp_post_30 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$32 = (signed int)((const unsigned char *)return_value_yajl_buf_data$29)[(signed long int)tmp_post$30];
+            tmp_if_expr_32 = (signed int)((const unsigned char *)return_value_yajl_buf_data_29)[(signed long int)tmp_post_30];
           }
 
           else
           {
-            tmp_post$31 = *offset;
+            tmp_post_31 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$32 = (signed int)jsonText[(signed long int)tmp_post$31];
+            tmp_if_expr_32 = (signed int)jsonText[(signed long int)tmp_post_31];
           }
-          c = (unsigned char)tmp_if_expr$32;
+          c = (unsigned char)tmp_if_expr_32;
           if(!((signed int)c >= 48) || (signed int)c >= 58)
             break;
 
@@ -22778,83 +22778,83 @@ static enum anonymous$29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsig
 
         else
           lexer->bufOff = lexer->bufOff - 1ul;
-        lexer->error = (enum anonymous$28)yajl_lex_missing_integer_after_minus;
-        return (enum anonymous$29)yajl_tok_error;
+        lexer->error = (enum anonymous_28)yajl_lex_missing_integer_after_minus;
+        return (enum anonymous_29)yajl_tok_error;
       }
     if((signed int)c == 46)
     {
       signed int numRd = 0;
       if(*offset >= jsonTextLen)
-        return (enum anonymous$29)yajl_tok_eof;
+        return (enum anonymous_29)yajl_tok_eof;
 
       if(!(lexer->bufInUse == 0u))
       {
-        return_value_yajl_buf_len$33=yajl_buf_len(lexer->buf);
-        tmp_if_expr$34 = return_value_yajl_buf_len$33 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_33=yajl_buf_len(lexer->buf);
+        tmp_if_expr_34 = return_value_yajl_buf_len_33 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$34 = (_Bool)0;
-      if(tmp_if_expr$34)
+        tmp_if_expr_34 = (_Bool)0;
+      if(tmp_if_expr_34)
       {
-        return_value_yajl_buf_len$35=yajl_buf_len(lexer->buf);
-        tmp_if_expr$36 = lexer->bufOff < return_value_yajl_buf_len$35 ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_35=yajl_buf_len(lexer->buf);
+        tmp_if_expr_36 = lexer->bufOff < return_value_yajl_buf_len_35 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$36 = (_Bool)0;
-      if(tmp_if_expr$36)
+        tmp_if_expr_36 = (_Bool)0;
+      if(tmp_if_expr_36)
       {
-        return_value_yajl_buf_data$37=yajl_buf_data(lexer->buf);
-        tmp_post$38 = lexer->bufOff;
+        return_value_yajl_buf_data_37=yajl_buf_data(lexer->buf);
+        tmp_post_38 = lexer->bufOff;
         lexer->bufOff = lexer->bufOff + 1ul;
-        tmp_if_expr$40 = (signed int)((const unsigned char *)return_value_yajl_buf_data$37)[(signed long int)tmp_post$38];
+        tmp_if_expr_40 = (signed int)((const unsigned char *)return_value_yajl_buf_data_37)[(signed long int)tmp_post_38];
       }
 
       else
       {
-        tmp_post$39 = *offset;
+        tmp_post_39 = *offset;
         *offset = *offset + 1ul;
-        tmp_if_expr$40 = (signed int)jsonText[(signed long int)tmp_post$39];
+        tmp_if_expr_40 = (signed int)jsonText[(signed long int)tmp_post_39];
       }
-      c = (unsigned char)tmp_if_expr$40;
+      c = (unsigned char)tmp_if_expr_40;
       while((signed int)c >= 48 && !((signed int)c >= 58))
       {
         numRd = numRd + 1;
         if(*offset >= jsonTextLen)
-          return (enum anonymous$29)yajl_tok_eof;
+          return (enum anonymous_29)yajl_tok_eof;
 
         if(!(lexer->bufInUse == 0u))
         {
-          return_value_yajl_buf_len$41=yajl_buf_len(lexer->buf);
-          tmp_if_expr$42 = return_value_yajl_buf_len$41 != 0ul ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_41=yajl_buf_len(lexer->buf);
+          tmp_if_expr_42 = return_value_yajl_buf_len_41 != 0ul ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$42 = (_Bool)0;
-        if(tmp_if_expr$42)
+          tmp_if_expr_42 = (_Bool)0;
+        if(tmp_if_expr_42)
         {
-          return_value_yajl_buf_len$43=yajl_buf_len(lexer->buf);
-          tmp_if_expr$44 = lexer->bufOff < return_value_yajl_buf_len$43 ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_43=yajl_buf_len(lexer->buf);
+          tmp_if_expr_44 = lexer->bufOff < return_value_yajl_buf_len_43 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$44 = (_Bool)0;
-        if(tmp_if_expr$44)
+          tmp_if_expr_44 = (_Bool)0;
+        if(tmp_if_expr_44)
         {
-          return_value_yajl_buf_data$45=yajl_buf_data(lexer->buf);
-          tmp_post$46 = lexer->bufOff;
+          return_value_yajl_buf_data_45=yajl_buf_data(lexer->buf);
+          tmp_post_46 = lexer->bufOff;
           lexer->bufOff = lexer->bufOff + 1ul;
-          tmp_if_expr$48 = (signed int)((const unsigned char *)return_value_yajl_buf_data$45)[(signed long int)tmp_post$46];
+          tmp_if_expr_48 = (signed int)((const unsigned char *)return_value_yajl_buf_data_45)[(signed long int)tmp_post_46];
         }
 
         else
         {
-          tmp_post$47 = *offset;
+          tmp_post_47 = *offset;
           *offset = *offset + 1ul;
-          tmp_if_expr$48 = (signed int)jsonText[(signed long int)tmp_post$47];
+          tmp_if_expr_48 = (signed int)jsonText[(signed long int)tmp_post_47];
         }
-        c = (unsigned char)tmp_if_expr$48;
+        c = (unsigned char)tmp_if_expr_48;
       }
       if(numRd == 0)
       {
@@ -22863,124 +22863,124 @@ static enum anonymous$29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsig
 
         else
           lexer->bufOff = lexer->bufOff - 1ul;
-        lexer->error = (enum anonymous$28)yajl_lex_missing_integer_after_decimal;
-        return (enum anonymous$29)yajl_tok_error;
+        lexer->error = (enum anonymous_28)yajl_lex_missing_integer_after_decimal;
+        return (enum anonymous_29)yajl_tok_error;
       }
 
-      tok = (enum anonymous$29)yajl_tok_double;
+      tok = (enum anonymous_29)yajl_tok_double;
     }
 
     if((signed int)c == 69 || (signed int)c == 101)
     {
       if(*offset >= jsonTextLen)
-        return (enum anonymous$29)yajl_tok_eof;
+        return (enum anonymous_29)yajl_tok_eof;
 
       if(!(lexer->bufInUse == 0u))
       {
-        return_value_yajl_buf_len$49=yajl_buf_len(lexer->buf);
-        tmp_if_expr$50 = return_value_yajl_buf_len$49 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_49=yajl_buf_len(lexer->buf);
+        tmp_if_expr_50 = return_value_yajl_buf_len_49 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$50 = (_Bool)0;
-      if(tmp_if_expr$50)
+        tmp_if_expr_50 = (_Bool)0;
+      if(tmp_if_expr_50)
       {
-        return_value_yajl_buf_len$51=yajl_buf_len(lexer->buf);
-        tmp_if_expr$52 = lexer->bufOff < return_value_yajl_buf_len$51 ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_51=yajl_buf_len(lexer->buf);
+        tmp_if_expr_52 = lexer->bufOff < return_value_yajl_buf_len_51 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$52 = (_Bool)0;
-      if(tmp_if_expr$52)
+        tmp_if_expr_52 = (_Bool)0;
+      if(tmp_if_expr_52)
       {
-        return_value_yajl_buf_data$53=yajl_buf_data(lexer->buf);
-        tmp_post$54 = lexer->bufOff;
+        return_value_yajl_buf_data_53=yajl_buf_data(lexer->buf);
+        tmp_post_54 = lexer->bufOff;
         lexer->bufOff = lexer->bufOff + 1ul;
-        tmp_if_expr$56 = (signed int)((const unsigned char *)return_value_yajl_buf_data$53)[(signed long int)tmp_post$54];
+        tmp_if_expr_56 = (signed int)((const unsigned char *)return_value_yajl_buf_data_53)[(signed long int)tmp_post_54];
       }
 
       else
       {
-        tmp_post$55 = *offset;
+        tmp_post_55 = *offset;
         *offset = *offset + 1ul;
-        tmp_if_expr$56 = (signed int)jsonText[(signed long int)tmp_post$55];
+        tmp_if_expr_56 = (signed int)jsonText[(signed long int)tmp_post_55];
       }
-      c = (unsigned char)tmp_if_expr$56;
+      c = (unsigned char)tmp_if_expr_56;
       if((signed int)c == 43 || (signed int)c == 45)
       {
         if(*offset >= jsonTextLen)
-          return (enum anonymous$29)yajl_tok_eof;
+          return (enum anonymous_29)yajl_tok_eof;
 
         if(!(lexer->bufInUse == 0u))
         {
-          return_value_yajl_buf_len$57=yajl_buf_len(lexer->buf);
-          tmp_if_expr$58 = return_value_yajl_buf_len$57 != 0ul ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_57=yajl_buf_len(lexer->buf);
+          tmp_if_expr_58 = return_value_yajl_buf_len_57 != 0ul ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$58 = (_Bool)0;
-        if(tmp_if_expr$58)
+          tmp_if_expr_58 = (_Bool)0;
+        if(tmp_if_expr_58)
         {
-          return_value_yajl_buf_len$59=yajl_buf_len(lexer->buf);
-          tmp_if_expr$60 = lexer->bufOff < return_value_yajl_buf_len$59 ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_59=yajl_buf_len(lexer->buf);
+          tmp_if_expr_60 = lexer->bufOff < return_value_yajl_buf_len_59 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$60 = (_Bool)0;
-        if(tmp_if_expr$60)
+          tmp_if_expr_60 = (_Bool)0;
+        if(tmp_if_expr_60)
         {
-          return_value_yajl_buf_data$61=yajl_buf_data(lexer->buf);
-          tmp_post$62 = lexer->bufOff;
+          return_value_yajl_buf_data_61=yajl_buf_data(lexer->buf);
+          tmp_post_62 = lexer->bufOff;
           lexer->bufOff = lexer->bufOff + 1ul;
-          tmp_if_expr$64 = (signed int)((const unsigned char *)return_value_yajl_buf_data$61)[(signed long int)tmp_post$62];
+          tmp_if_expr_64 = (signed int)((const unsigned char *)return_value_yajl_buf_data_61)[(signed long int)tmp_post_62];
         }
 
         else
         {
-          tmp_post$63 = *offset;
+          tmp_post_63 = *offset;
           *offset = *offset + 1ul;
-          tmp_if_expr$64 = (signed int)jsonText[(signed long int)tmp_post$63];
+          tmp_if_expr_64 = (signed int)jsonText[(signed long int)tmp_post_63];
         }
-        c = (unsigned char)tmp_if_expr$64;
+        c = (unsigned char)tmp_if_expr_64;
       }
 
       if((signed int)c >= 48 && !((signed int)c >= 58))
         while((_Bool)1)
         {
           if(*offset >= jsonTextLen)
-            return (enum anonymous$29)yajl_tok_eof;
+            return (enum anonymous_29)yajl_tok_eof;
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$65=yajl_buf_len(lexer->buf);
-            tmp_if_expr$66 = return_value_yajl_buf_len$65 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_65=yajl_buf_len(lexer->buf);
+            tmp_if_expr_66 = return_value_yajl_buf_len_65 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$66 = (_Bool)0;
-          if(tmp_if_expr$66)
+            tmp_if_expr_66 = (_Bool)0;
+          if(tmp_if_expr_66)
           {
-            return_value_yajl_buf_len$67=yajl_buf_len(lexer->buf);
-            tmp_if_expr$68 = lexer->bufOff < return_value_yajl_buf_len$67 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_67=yajl_buf_len(lexer->buf);
+            tmp_if_expr_68 = lexer->bufOff < return_value_yajl_buf_len_67 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$68 = (_Bool)0;
-          if(tmp_if_expr$68)
+            tmp_if_expr_68 = (_Bool)0;
+          if(tmp_if_expr_68)
           {
-            return_value_yajl_buf_data$69=yajl_buf_data(lexer->buf);
-            tmp_post$70 = lexer->bufOff;
+            return_value_yajl_buf_data_69=yajl_buf_data(lexer->buf);
+            tmp_post_70 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$72 = (signed int)((const unsigned char *)return_value_yajl_buf_data$69)[(signed long int)tmp_post$70];
+            tmp_if_expr_72 = (signed int)((const unsigned char *)return_value_yajl_buf_data_69)[(signed long int)tmp_post_70];
           }
 
           else
           {
-            tmp_post$71 = *offset;
+            tmp_post_71 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$72 = (signed int)jsonText[(signed long int)tmp_post$71];
+            tmp_if_expr_72 = (signed int)jsonText[(signed long int)tmp_post_71];
           }
-          c = (unsigned char)tmp_if_expr$72;
+          c = (unsigned char)tmp_if_expr_72;
           if(!((signed int)c >= 48) || (signed int)c >= 58)
             break;
 
@@ -22993,10 +22993,10 @@ static enum anonymous$29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsig
 
         else
           lexer->bufOff = lexer->bufOff - 1ul;
-        lexer->error = (enum anonymous$28)yajl_lex_missing_integer_after_exponent;
-        return (enum anonymous$29)yajl_tok_error;
+        lexer->error = (enum anonymous_28)yajl_lex_missing_integer_after_exponent;
+        return (enum anonymous_29)yajl_tok_error;
       }
-      tok = (enum anonymous$29)yajl_tok_double;
+      tok = (enum anonymous_29)yajl_tok_double;
     }
 
     if(*offset >= 1ul)
@@ -23010,38 +23010,38 @@ static enum anonymous$29 yajl_lex_number(struct yajl_lexer_t *lexer, const unsig
 
 // yajl_lex_string
 // file yajl_all.c line 1070
-static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset)
+static enum anonymous_29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset)
 {
-  enum anonymous$29 tok = (enum anonymous$29)yajl_tok_error;
+  enum anonymous_29 tok = (enum anonymous_29)yajl_tok_error;
   signed int hasEscapes = 0;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_yajl_buf_len$5;
-  _Bool tmp_if_expr$8;
-  unsigned long int return_value_yajl_buf_len$7;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_yajl_buf_len$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_yajl_buf_len$11;
-  signed int tmp_if_expr$16;
-  const unsigned char *return_value_yajl_buf_data$13;
-  unsigned long int tmp_post$14;
-  unsigned long int tmp_post$15;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_yajl_buf_len$17;
-  _Bool tmp_if_expr$20;
-  unsigned long int return_value_yajl_buf_len$19;
-  signed int tmp_if_expr$24;
-  const unsigned char *return_value_yajl_buf_data$21;
-  unsigned long int tmp_post$22;
-  unsigned long int tmp_post$23;
-  _Bool tmp_if_expr$26;
-  unsigned long int return_value_yajl_buf_len$25;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_yajl_buf_len$27;
-  signed int tmp_if_expr$32;
-  const unsigned char *return_value_yajl_buf_data$29;
-  unsigned long int tmp_post$30;
-  unsigned long int tmp_post$31;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_yajl_buf_len_5;
+  _Bool tmp_if_expr_8;
+  unsigned long int return_value_yajl_buf_len_7;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_yajl_buf_len_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_yajl_buf_len_11;
+  signed int tmp_if_expr_16;
+  const unsigned char *return_value_yajl_buf_data_13;
+  unsigned long int tmp_post_14;
+  unsigned long int tmp_post_15;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_yajl_buf_len_17;
+  _Bool tmp_if_expr_20;
+  unsigned long int return_value_yajl_buf_len_19;
+  signed int tmp_if_expr_24;
+  const unsigned char *return_value_yajl_buf_data_21;
+  unsigned long int tmp_post_22;
+  unsigned long int tmp_post_23;
+  _Bool tmp_if_expr_26;
+  unsigned long int return_value_yajl_buf_len_25;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_yajl_buf_len_27;
+  signed int tmp_if_expr_32;
+  const unsigned char *return_value_yajl_buf_data_29;
+  unsigned long int tmp_post_30;
+  unsigned long int tmp_post_31;
   do
   {
     unsigned char curChar;
@@ -23049,31 +23049,31 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
     unsigned long int len;
     if(!(lexer->bufInUse == 0u))
     {
-      return_value_yajl_buf_len$5=yajl_buf_len(lexer->buf);
-      tmp_if_expr$6 = return_value_yajl_buf_len$5 != 0ul ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_5=yajl_buf_len(lexer->buf);
+      tmp_if_expr_6 = return_value_yajl_buf_len_5 != 0ul ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      return_value_yajl_buf_len$7=yajl_buf_len(lexer->buf);
-      tmp_if_expr$8 = lexer->bufOff < return_value_yajl_buf_len$7 ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_7=yajl_buf_len(lexer->buf);
+      tmp_if_expr_8 = lexer->bufOff < return_value_yajl_buf_len_7 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
     {
-      const unsigned char *return_value_yajl_buf_data$1;
-      return_value_yajl_buf_data$1=yajl_buf_data(lexer->buf);
-      p = (const unsigned char *)return_value_yajl_buf_data$1 + (signed long int)lexer->bufOff;
-      unsigned long int return_value_yajl_buf_len$2;
-      return_value_yajl_buf_len$2=yajl_buf_len(lexer->buf);
-      len = return_value_yajl_buf_len$2 - lexer->bufOff;
-      unsigned long int return_value_yajl_string_scan$3;
-      return_value_yajl_string_scan$3=yajl_string_scan(p, len, (signed int)lexer->validateUTF8);
-      lexer->bufOff = lexer->bufOff + return_value_yajl_string_scan$3;
+      const unsigned char *return_value_yajl_buf_data_1;
+      return_value_yajl_buf_data_1=yajl_buf_data(lexer->buf);
+      p = (const unsigned char *)return_value_yajl_buf_data_1 + (signed long int)lexer->bufOff;
+      unsigned long int return_value_yajl_buf_len_2;
+      return_value_yajl_buf_len_2=yajl_buf_len(lexer->buf);
+      len = return_value_yajl_buf_len_2 - lexer->bufOff;
+      unsigned long int return_value_yajl_string_scan_3;
+      return_value_yajl_string_scan_3=yajl_string_scan(p, len, (signed int)lexer->validateUTF8);
+      lexer->bufOff = lexer->bufOff + return_value_yajl_string_scan_3;
     }
 
     else
@@ -23081,51 +23081,51 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
       {
         p = jsonText + (signed long int)*offset;
         len = jsonTextLen - *offset;
-        unsigned long int return_value_yajl_string_scan$4;
-        return_value_yajl_string_scan$4=yajl_string_scan(p, len, (signed int)lexer->validateUTF8);
-        *offset = *offset + return_value_yajl_string_scan$4;
+        unsigned long int return_value_yajl_string_scan_4;
+        return_value_yajl_string_scan_4=yajl_string_scan(p, len, (signed int)lexer->validateUTF8);
+        *offset = *offset + return_value_yajl_string_scan_4;
       }
 
     if(*offset >= jsonTextLen)
     {
-      tok = (enum anonymous$29)yajl_tok_eof;
+      tok = (enum anonymous_29)yajl_tok_eof;
       break;
     }
 
     if(!(lexer->bufInUse == 0u))
     {
-      return_value_yajl_buf_len$9=yajl_buf_len(lexer->buf);
-      tmp_if_expr$10 = return_value_yajl_buf_len$9 != 0ul ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_9=yajl_buf_len(lexer->buf);
+      tmp_if_expr_10 = return_value_yajl_buf_len_9 != 0ul ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
-      return_value_yajl_buf_len$11=yajl_buf_len(lexer->buf);
-      tmp_if_expr$12 = lexer->bufOff < return_value_yajl_buf_len$11 ? (_Bool)1 : (_Bool)0;
+      return_value_yajl_buf_len_11=yajl_buf_len(lexer->buf);
+      tmp_if_expr_12 = lexer->bufOff < return_value_yajl_buf_len_11 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
     {
-      return_value_yajl_buf_data$13=yajl_buf_data(lexer->buf);
-      tmp_post$14 = lexer->bufOff;
+      return_value_yajl_buf_data_13=yajl_buf_data(lexer->buf);
+      tmp_post_14 = lexer->bufOff;
       lexer->bufOff = lexer->bufOff + 1ul;
-      tmp_if_expr$16 = (signed int)((const unsigned char *)return_value_yajl_buf_data$13)[(signed long int)tmp_post$14];
+      tmp_if_expr_16 = (signed int)((const unsigned char *)return_value_yajl_buf_data_13)[(signed long int)tmp_post_14];
     }
 
     else
     {
-      tmp_post$15 = *offset;
+      tmp_post_15 = *offset;
       *offset = *offset + 1ul;
-      tmp_if_expr$16 = (signed int)jsonText[(signed long int)tmp_post$15];
+      tmp_if_expr_16 = (signed int)jsonText[(signed long int)tmp_post_15];
     }
-    curChar = (unsigned char)tmp_if_expr$16;
+    curChar = (unsigned char)tmp_if_expr_16;
     if((signed int)curChar == 34)
     {
-      tok = (enum anonymous$29)yajl_tok_string;
+      tok = (enum anonymous_29)yajl_tok_string;
       break;
     }
 
@@ -23135,41 +23135,41 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
         hasEscapes = 1;
         if(*offset >= jsonTextLen)
         {
-          tok = (enum anonymous$29)yajl_tok_eof;
+          tok = (enum anonymous_29)yajl_tok_eof;
           break;
         }
 
         if(!(lexer->bufInUse == 0u))
         {
-          return_value_yajl_buf_len$17=yajl_buf_len(lexer->buf);
-          tmp_if_expr$18 = return_value_yajl_buf_len$17 != 0ul ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_17=yajl_buf_len(lexer->buf);
+          tmp_if_expr_18 = return_value_yajl_buf_len_17 != 0ul ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(tmp_if_expr$18)
+          tmp_if_expr_18 = (_Bool)0;
+        if(tmp_if_expr_18)
         {
-          return_value_yajl_buf_len$19=yajl_buf_len(lexer->buf);
-          tmp_if_expr$20 = lexer->bufOff < return_value_yajl_buf_len$19 ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_19=yajl_buf_len(lexer->buf);
+          tmp_if_expr_20 = lexer->bufOff < return_value_yajl_buf_len_19 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$20 = (_Bool)0;
-        if(tmp_if_expr$20)
+          tmp_if_expr_20 = (_Bool)0;
+        if(tmp_if_expr_20)
         {
-          return_value_yajl_buf_data$21=yajl_buf_data(lexer->buf);
-          tmp_post$22 = lexer->bufOff;
+          return_value_yajl_buf_data_21=yajl_buf_data(lexer->buf);
+          tmp_post_22 = lexer->bufOff;
           lexer->bufOff = lexer->bufOff + 1ul;
-          tmp_if_expr$24 = (signed int)((const unsigned char *)return_value_yajl_buf_data$21)[(signed long int)tmp_post$22];
+          tmp_if_expr_24 = (signed int)((const unsigned char *)return_value_yajl_buf_data_21)[(signed long int)tmp_post_22];
         }
 
         else
         {
-          tmp_post$23 = *offset;
+          tmp_post_23 = *offset;
           *offset = *offset + 1ul;
-          tmp_if_expr$24 = (signed int)jsonText[(signed long int)tmp_post$23];
+          tmp_if_expr_24 = (signed int)jsonText[(signed long int)tmp_post_23];
         }
-        curChar = (unsigned char)tmp_if_expr$24;
+        curChar = (unsigned char)tmp_if_expr_24;
         if((signed int)curChar == 117)
         {
           unsigned int i = (unsigned int)0;
@@ -23178,41 +23178,41 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
           {
             if(*offset >= jsonTextLen)
             {
-              tok = (enum anonymous$29)yajl_tok_eof;
+              tok = (enum anonymous_29)yajl_tok_eof;
               goto finish_string_lex;
             }
 
             if(!(lexer->bufInUse == 0u))
             {
-              return_value_yajl_buf_len$25=yajl_buf_len(lexer->buf);
-              tmp_if_expr$26 = return_value_yajl_buf_len$25 != 0ul ? (_Bool)1 : (_Bool)0;
+              return_value_yajl_buf_len_25=yajl_buf_len(lexer->buf);
+              tmp_if_expr_26 = return_value_yajl_buf_len_25 != 0ul ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$26 = (_Bool)0;
-            if(tmp_if_expr$26)
+              tmp_if_expr_26 = (_Bool)0;
+            if(tmp_if_expr_26)
             {
-              return_value_yajl_buf_len$27=yajl_buf_len(lexer->buf);
-              tmp_if_expr$28 = lexer->bufOff < return_value_yajl_buf_len$27 ? (_Bool)1 : (_Bool)0;
+              return_value_yajl_buf_len_27=yajl_buf_len(lexer->buf);
+              tmp_if_expr_28 = lexer->bufOff < return_value_yajl_buf_len_27 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$28 = (_Bool)0;
-            if(tmp_if_expr$28)
+              tmp_if_expr_28 = (_Bool)0;
+            if(tmp_if_expr_28)
             {
-              return_value_yajl_buf_data$29=yajl_buf_data(lexer->buf);
-              tmp_post$30 = lexer->bufOff;
+              return_value_yajl_buf_data_29=yajl_buf_data(lexer->buf);
+              tmp_post_30 = lexer->bufOff;
               lexer->bufOff = lexer->bufOff + 1ul;
-              tmp_if_expr$32 = (signed int)((const unsigned char *)return_value_yajl_buf_data$29)[(signed long int)tmp_post$30];
+              tmp_if_expr_32 = (signed int)((const unsigned char *)return_value_yajl_buf_data_29)[(signed long int)tmp_post_30];
             }
 
             else
             {
-              tmp_post$31 = *offset;
+              tmp_post_31 = *offset;
               *offset = *offset + 1ul;
-              tmp_if_expr$32 = (signed int)jsonText[(signed long int)tmp_post$31];
+              tmp_if_expr_32 = (signed int)jsonText[(signed long int)tmp_post_31];
             }
-            curChar = (unsigned char)tmp_if_expr$32;
+            curChar = (unsigned char)tmp_if_expr_32;
             if((0x04 & (signed int)charLookupTable[(signed long int)curChar]) == 0)
             {
               if(*offset >= 1ul)
@@ -23220,7 +23220,7 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
 
               else
                 lexer->bufOff = lexer->bufOff - 1ul;
-              lexer->error = (enum anonymous$28)yajl_lex_string_invalid_hex_char;
+              lexer->error = (enum anonymous_28)yajl_lex_string_invalid_hex_char;
               goto finish_string_lex;
             }
 
@@ -23235,7 +23235,7 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
 
             else
               lexer->bufOff = lexer->bufOff - 1ul;
-            lexer->error = (enum anonymous$28)yajl_lex_string_invalid_escaped_char;
+            lexer->error = (enum anonymous_28)yajl_lex_string_invalid_escaped_char;
             break;
           }
 
@@ -23249,25 +23249,25 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
 
           else
             lexer->bufOff = lexer->bufOff - 1ul;
-          lexer->error = (enum anonymous$28)yajl_lex_string_invalid_json_char;
+          lexer->error = (enum anonymous_28)yajl_lex_string_invalid_json_char;
           break;
         }
 
         else
           if(!(lexer->validateUTF8 == 0u))
           {
-            enum anonymous$29 t;
+            enum anonymous_29 t;
             t=yajl_lex_utf8_char(lexer, jsonText, jsonTextLen, offset, curChar);
             if((signed int)t == yajl_tok_eof)
             {
-              tok = (enum anonymous$29)yajl_tok_eof;
+              tok = (enum anonymous_29)yajl_tok_eof;
               break;
             }
 
             else
               if((signed int)t == yajl_tok_error)
               {
-                lexer->error = (enum anonymous$28)yajl_lex_string_invalid_utf8;
+                lexer->error = (enum anonymous_28)yajl_lex_string_invalid_utf8;
                 break;
               }
 
@@ -23279,105 +23279,105 @@ static enum anonymous$29 yajl_lex_string(struct yajl_lexer_t *lexer, const unsig
 finish_string_lex:
   ;
   if((signed int)tok == yajl_tok_string && !(hasEscapes == 0))
-    tok = (enum anonymous$29)yajl_tok_string_with_escapes;
+    tok = (enum anonymous_29)yajl_tok_string_with_escapes;
 
   return tok;
 }
 
 // yajl_lex_utf8_char
 // file yajl_all.c line 997
-static enum anonymous$29 yajl_lex_utf8_char(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, unsigned char curChar)
+static enum anonymous_29 yajl_lex_utf8_char(struct yajl_lexer_t *lexer, const unsigned char *jsonText, unsigned long int jsonTextLen, unsigned long int *offset, unsigned char curChar)
 {
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_yajl_buf_len$1;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_yajl_buf_len$3;
-  signed int tmp_if_expr$8;
-  const unsigned char *return_value_yajl_buf_data$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_yajl_buf_len$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_yajl_buf_len$11;
-  signed int tmp_if_expr$16;
-  const unsigned char *return_value_yajl_buf_data$13;
-  unsigned long int tmp_post$14;
-  unsigned long int tmp_post$15;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_yajl_buf_len$17;
-  _Bool tmp_if_expr$20;
-  unsigned long int return_value_yajl_buf_len$19;
-  signed int tmp_if_expr$24;
-  const unsigned char *return_value_yajl_buf_data$21;
-  unsigned long int tmp_post$22;
-  unsigned long int tmp_post$23;
-  _Bool tmp_if_expr$26;
-  unsigned long int return_value_yajl_buf_len$25;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_yajl_buf_len$27;
-  signed int tmp_if_expr$32;
-  const unsigned char *return_value_yajl_buf_data$29;
-  unsigned long int tmp_post$30;
-  unsigned long int tmp_post$31;
-  _Bool tmp_if_expr$34;
-  unsigned long int return_value_yajl_buf_len$33;
-  _Bool tmp_if_expr$36;
-  unsigned long int return_value_yajl_buf_len$35;
-  signed int tmp_if_expr$40;
-  const unsigned char *return_value_yajl_buf_data$37;
-  unsigned long int tmp_post$38;
-  unsigned long int tmp_post$39;
-  _Bool tmp_if_expr$42;
-  unsigned long int return_value_yajl_buf_len$41;
-  _Bool tmp_if_expr$44;
-  unsigned long int return_value_yajl_buf_len$43;
-  signed int tmp_if_expr$48;
-  const unsigned char *return_value_yajl_buf_data$45;
-  unsigned long int tmp_post$46;
-  unsigned long int tmp_post$47;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_yajl_buf_len_1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_yajl_buf_len_3;
+  signed int tmp_if_expr_8;
+  const unsigned char *return_value_yajl_buf_data_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_yajl_buf_len_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_yajl_buf_len_11;
+  signed int tmp_if_expr_16;
+  const unsigned char *return_value_yajl_buf_data_13;
+  unsigned long int tmp_post_14;
+  unsigned long int tmp_post_15;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_yajl_buf_len_17;
+  _Bool tmp_if_expr_20;
+  unsigned long int return_value_yajl_buf_len_19;
+  signed int tmp_if_expr_24;
+  const unsigned char *return_value_yajl_buf_data_21;
+  unsigned long int tmp_post_22;
+  unsigned long int tmp_post_23;
+  _Bool tmp_if_expr_26;
+  unsigned long int return_value_yajl_buf_len_25;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_yajl_buf_len_27;
+  signed int tmp_if_expr_32;
+  const unsigned char *return_value_yajl_buf_data_29;
+  unsigned long int tmp_post_30;
+  unsigned long int tmp_post_31;
+  _Bool tmp_if_expr_34;
+  unsigned long int return_value_yajl_buf_len_33;
+  _Bool tmp_if_expr_36;
+  unsigned long int return_value_yajl_buf_len_35;
+  signed int tmp_if_expr_40;
+  const unsigned char *return_value_yajl_buf_data_37;
+  unsigned long int tmp_post_38;
+  unsigned long int tmp_post_39;
+  _Bool tmp_if_expr_42;
+  unsigned long int return_value_yajl_buf_len_41;
+  _Bool tmp_if_expr_44;
+  unsigned long int return_value_yajl_buf_len_43;
+  signed int tmp_if_expr_48;
+  const unsigned char *return_value_yajl_buf_data_45;
+  unsigned long int tmp_post_46;
+  unsigned long int tmp_post_47;
   if(!((signed int)curChar >= 128))
-    return (enum anonymous$29)yajl_tok_string;
+    return (enum anonymous_29)yajl_tok_string;
 
   else
     if((signed int)curChar >> 5 == 0x6)
     {
       if(*offset >= jsonTextLen)
-        return (enum anonymous$29)yajl_tok_eof;
+        return (enum anonymous_29)yajl_tok_eof;
 
       if(!(lexer->bufInUse == 0u))
       {
-        return_value_yajl_buf_len$1=yajl_buf_len(lexer->buf);
-        tmp_if_expr$2 = return_value_yajl_buf_len$1 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_1=yajl_buf_len(lexer->buf);
+        tmp_if_expr_2 = return_value_yajl_buf_len_1 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        return_value_yajl_buf_len$3=yajl_buf_len(lexer->buf);
-        tmp_if_expr$4 = lexer->bufOff < return_value_yajl_buf_len$3 ? (_Bool)1 : (_Bool)0;
+        return_value_yajl_buf_len_3=yajl_buf_len(lexer->buf);
+        tmp_if_expr_4 = lexer->bufOff < return_value_yajl_buf_len_3 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        return_value_yajl_buf_data$5=yajl_buf_data(lexer->buf);
-        tmp_post$6 = lexer->bufOff;
+        return_value_yajl_buf_data_5=yajl_buf_data(lexer->buf);
+        tmp_post_6 = lexer->bufOff;
         lexer->bufOff = lexer->bufOff + 1ul;
-        tmp_if_expr$8 = (signed int)((const unsigned char *)return_value_yajl_buf_data$5)[(signed long int)tmp_post$6];
+        tmp_if_expr_8 = (signed int)((const unsigned char *)return_value_yajl_buf_data_5)[(signed long int)tmp_post_6];
       }
 
       else
       {
-        tmp_post$7 = *offset;
+        tmp_post_7 = *offset;
         *offset = *offset + 1ul;
-        tmp_if_expr$8 = (signed int)jsonText[(signed long int)tmp_post$7];
+        tmp_if_expr_8 = (signed int)jsonText[(signed long int)tmp_post_7];
       }
-      curChar = (unsigned char)tmp_if_expr$8;
+      curChar = (unsigned char)tmp_if_expr_8;
       if((signed int)curChar >> 6 == 0x2)
-        return (enum anonymous$29)yajl_tok_string;
+        return (enum anonymous_29)yajl_tok_string;
 
     }
 
@@ -23385,77 +23385,77 @@ static enum anonymous$29 yajl_lex_utf8_char(struct yajl_lexer_t *lexer, const un
       if((signed int)curChar >> 4 == 0x0e)
       {
         if(*offset >= jsonTextLen)
-          return (enum anonymous$29)yajl_tok_eof;
+          return (enum anonymous_29)yajl_tok_eof;
 
         if(!(lexer->bufInUse == 0u))
         {
-          return_value_yajl_buf_len$9=yajl_buf_len(lexer->buf);
-          tmp_if_expr$10 = return_value_yajl_buf_len$9 != 0ul ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_9=yajl_buf_len(lexer->buf);
+          tmp_if_expr_10 = return_value_yajl_buf_len_9 != 0ul ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
         {
-          return_value_yajl_buf_len$11=yajl_buf_len(lexer->buf);
-          tmp_if_expr$12 = lexer->bufOff < return_value_yajl_buf_len$11 ? (_Bool)1 : (_Bool)0;
+          return_value_yajl_buf_len_11=yajl_buf_len(lexer->buf);
+          tmp_if_expr_12 = lexer->bufOff < return_value_yajl_buf_len_11 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = (_Bool)0;
+        if(tmp_if_expr_12)
         {
-          return_value_yajl_buf_data$13=yajl_buf_data(lexer->buf);
-          tmp_post$14 = lexer->bufOff;
+          return_value_yajl_buf_data_13=yajl_buf_data(lexer->buf);
+          tmp_post_14 = lexer->bufOff;
           lexer->bufOff = lexer->bufOff + 1ul;
-          tmp_if_expr$16 = (signed int)((const unsigned char *)return_value_yajl_buf_data$13)[(signed long int)tmp_post$14];
+          tmp_if_expr_16 = (signed int)((const unsigned char *)return_value_yajl_buf_data_13)[(signed long int)tmp_post_14];
         }
 
         else
         {
-          tmp_post$15 = *offset;
+          tmp_post_15 = *offset;
           *offset = *offset + 1ul;
-          tmp_if_expr$16 = (signed int)jsonText[(signed long int)tmp_post$15];
+          tmp_if_expr_16 = (signed int)jsonText[(signed long int)tmp_post_15];
         }
-        curChar = (unsigned char)tmp_if_expr$16;
+        curChar = (unsigned char)tmp_if_expr_16;
         if((signed int)curChar >> 6 == 0x2)
         {
           if(*offset >= jsonTextLen)
-            return (enum anonymous$29)yajl_tok_eof;
+            return (enum anonymous_29)yajl_tok_eof;
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$17=yajl_buf_len(lexer->buf);
-            tmp_if_expr$18 = return_value_yajl_buf_len$17 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_17=yajl_buf_len(lexer->buf);
+            tmp_if_expr_18 = return_value_yajl_buf_len_17 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(tmp_if_expr_18)
           {
-            return_value_yajl_buf_len$19=yajl_buf_len(lexer->buf);
-            tmp_if_expr$20 = lexer->bufOff < return_value_yajl_buf_len$19 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_19=yajl_buf_len(lexer->buf);
+            tmp_if_expr_20 = lexer->bufOff < return_value_yajl_buf_len_19 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$20 = (_Bool)0;
-          if(tmp_if_expr$20)
+            tmp_if_expr_20 = (_Bool)0;
+          if(tmp_if_expr_20)
           {
-            return_value_yajl_buf_data$21=yajl_buf_data(lexer->buf);
-            tmp_post$22 = lexer->bufOff;
+            return_value_yajl_buf_data_21=yajl_buf_data(lexer->buf);
+            tmp_post_22 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$24 = (signed int)((const unsigned char *)return_value_yajl_buf_data$21)[(signed long int)tmp_post$22];
+            tmp_if_expr_24 = (signed int)((const unsigned char *)return_value_yajl_buf_data_21)[(signed long int)tmp_post_22];
           }
 
           else
           {
-            tmp_post$23 = *offset;
+            tmp_post_23 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$24 = (signed int)jsonText[(signed long int)tmp_post$23];
+            tmp_if_expr_24 = (signed int)jsonText[(signed long int)tmp_post_23];
           }
-          curChar = (unsigned char)tmp_if_expr$24;
+          curChar = (unsigned char)tmp_if_expr_24;
           if((signed int)curChar >> 6 == 0x2)
-            return (enum anonymous$29)yajl_tok_string;
+            return (enum anonymous_29)yajl_tok_string;
 
         }
 
@@ -23465,113 +23465,113 @@ static enum anonymous$29 yajl_lex_utf8_char(struct yajl_lexer_t *lexer, const un
         if((signed int)curChar >> 3 == 0x1e)
         {
           if(*offset >= jsonTextLen)
-            return (enum anonymous$29)yajl_tok_eof;
+            return (enum anonymous_29)yajl_tok_eof;
 
           if(!(lexer->bufInUse == 0u))
           {
-            return_value_yajl_buf_len$25=yajl_buf_len(lexer->buf);
-            tmp_if_expr$26 = return_value_yajl_buf_len$25 != 0ul ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_25=yajl_buf_len(lexer->buf);
+            tmp_if_expr_26 = return_value_yajl_buf_len_25 != 0ul ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$26 = (_Bool)0;
-          if(tmp_if_expr$26)
+            tmp_if_expr_26 = (_Bool)0;
+          if(tmp_if_expr_26)
           {
-            return_value_yajl_buf_len$27=yajl_buf_len(lexer->buf);
-            tmp_if_expr$28 = lexer->bufOff < return_value_yajl_buf_len$27 ? (_Bool)1 : (_Bool)0;
+            return_value_yajl_buf_len_27=yajl_buf_len(lexer->buf);
+            tmp_if_expr_28 = lexer->bufOff < return_value_yajl_buf_len_27 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$28 = (_Bool)0;
-          if(tmp_if_expr$28)
+            tmp_if_expr_28 = (_Bool)0;
+          if(tmp_if_expr_28)
           {
-            return_value_yajl_buf_data$29=yajl_buf_data(lexer->buf);
-            tmp_post$30 = lexer->bufOff;
+            return_value_yajl_buf_data_29=yajl_buf_data(lexer->buf);
+            tmp_post_30 = lexer->bufOff;
             lexer->bufOff = lexer->bufOff + 1ul;
-            tmp_if_expr$32 = (signed int)((const unsigned char *)return_value_yajl_buf_data$29)[(signed long int)tmp_post$30];
+            tmp_if_expr_32 = (signed int)((const unsigned char *)return_value_yajl_buf_data_29)[(signed long int)tmp_post_30];
           }
 
           else
           {
-            tmp_post$31 = *offset;
+            tmp_post_31 = *offset;
             *offset = *offset + 1ul;
-            tmp_if_expr$32 = (signed int)jsonText[(signed long int)tmp_post$31];
+            tmp_if_expr_32 = (signed int)jsonText[(signed long int)tmp_post_31];
           }
-          curChar = (unsigned char)tmp_if_expr$32;
+          curChar = (unsigned char)tmp_if_expr_32;
           if((signed int)curChar >> 6 == 0x2)
           {
             if(*offset >= jsonTextLen)
-              return (enum anonymous$29)yajl_tok_eof;
+              return (enum anonymous_29)yajl_tok_eof;
 
             if(!(lexer->bufInUse == 0u))
             {
-              return_value_yajl_buf_len$33=yajl_buf_len(lexer->buf);
-              tmp_if_expr$34 = return_value_yajl_buf_len$33 != 0ul ? (_Bool)1 : (_Bool)0;
+              return_value_yajl_buf_len_33=yajl_buf_len(lexer->buf);
+              tmp_if_expr_34 = return_value_yajl_buf_len_33 != 0ul ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$34 = (_Bool)0;
-            if(tmp_if_expr$34)
+              tmp_if_expr_34 = (_Bool)0;
+            if(tmp_if_expr_34)
             {
-              return_value_yajl_buf_len$35=yajl_buf_len(lexer->buf);
-              tmp_if_expr$36 = lexer->bufOff < return_value_yajl_buf_len$35 ? (_Bool)1 : (_Bool)0;
+              return_value_yajl_buf_len_35=yajl_buf_len(lexer->buf);
+              tmp_if_expr_36 = lexer->bufOff < return_value_yajl_buf_len_35 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$36 = (_Bool)0;
-            if(tmp_if_expr$36)
+              tmp_if_expr_36 = (_Bool)0;
+            if(tmp_if_expr_36)
             {
-              return_value_yajl_buf_data$37=yajl_buf_data(lexer->buf);
-              tmp_post$38 = lexer->bufOff;
+              return_value_yajl_buf_data_37=yajl_buf_data(lexer->buf);
+              tmp_post_38 = lexer->bufOff;
               lexer->bufOff = lexer->bufOff + 1ul;
-              tmp_if_expr$40 = (signed int)((const unsigned char *)return_value_yajl_buf_data$37)[(signed long int)tmp_post$38];
+              tmp_if_expr_40 = (signed int)((const unsigned char *)return_value_yajl_buf_data_37)[(signed long int)tmp_post_38];
             }
 
             else
             {
-              tmp_post$39 = *offset;
+              tmp_post_39 = *offset;
               *offset = *offset + 1ul;
-              tmp_if_expr$40 = (signed int)jsonText[(signed long int)tmp_post$39];
+              tmp_if_expr_40 = (signed int)jsonText[(signed long int)tmp_post_39];
             }
-            curChar = (unsigned char)tmp_if_expr$40;
+            curChar = (unsigned char)tmp_if_expr_40;
             if((signed int)curChar >> 6 == 0x2)
             {
               if(*offset >= jsonTextLen)
-                return (enum anonymous$29)yajl_tok_eof;
+                return (enum anonymous_29)yajl_tok_eof;
 
               if(!(lexer->bufInUse == 0u))
               {
-                return_value_yajl_buf_len$41=yajl_buf_len(lexer->buf);
-                tmp_if_expr$42 = return_value_yajl_buf_len$41 != 0ul ? (_Bool)1 : (_Bool)0;
+                return_value_yajl_buf_len_41=yajl_buf_len(lexer->buf);
+                tmp_if_expr_42 = return_value_yajl_buf_len_41 != 0ul ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$42 = (_Bool)0;
-              if(tmp_if_expr$42)
+                tmp_if_expr_42 = (_Bool)0;
+              if(tmp_if_expr_42)
               {
-                return_value_yajl_buf_len$43=yajl_buf_len(lexer->buf);
-                tmp_if_expr$44 = lexer->bufOff < return_value_yajl_buf_len$43 ? (_Bool)1 : (_Bool)0;
+                return_value_yajl_buf_len_43=yajl_buf_len(lexer->buf);
+                tmp_if_expr_44 = lexer->bufOff < return_value_yajl_buf_len_43 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$44 = (_Bool)0;
-              if(tmp_if_expr$44)
+                tmp_if_expr_44 = (_Bool)0;
+              if(tmp_if_expr_44)
               {
-                return_value_yajl_buf_data$45=yajl_buf_data(lexer->buf);
-                tmp_post$46 = lexer->bufOff;
+                return_value_yajl_buf_data_45=yajl_buf_data(lexer->buf);
+                tmp_post_46 = lexer->bufOff;
                 lexer->bufOff = lexer->bufOff + 1ul;
-                tmp_if_expr$48 = (signed int)((const unsigned char *)return_value_yajl_buf_data$45)[(signed long int)tmp_post$46];
+                tmp_if_expr_48 = (signed int)((const unsigned char *)return_value_yajl_buf_data_45)[(signed long int)tmp_post_46];
               }
 
               else
               {
-                tmp_post$47 = *offset;
+                tmp_post_47 = *offset;
                 *offset = *offset + 1ul;
-                tmp_if_expr$48 = (signed int)jsonText[(signed long int)tmp_post$47];
+                tmp_if_expr_48 = (signed int)jsonText[(signed long int)tmp_post_47];
               }
-              curChar = (unsigned char)tmp_if_expr$48;
+              curChar = (unsigned char)tmp_if_expr_48;
               if((signed int)curChar >> 6 == 0x2)
-                return (enum anonymous$29)yajl_tok_string;
+                return (enum anonymous_29)yajl_tok_string;
 
             }
 
@@ -23579,14 +23579,14 @@ static enum anonymous$29 yajl_lex_utf8_char(struct yajl_lexer_t *lexer, const un
 
         }
 
-  return (enum anonymous$29)yajl_tok_error;
+  return (enum anonymous_29)yajl_tok_error;
 }
 
 // yajl_parse
 // file ../json/yajl_api.h line 205
-enum anonymous$27 yajl_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen)
+enum anonymous_27 yajl_parse(struct yajl_handle_t *hand, const unsigned char *jsonText, unsigned long int jsonTextLen)
 {
-  enum anonymous$27 status;
+  enum anonymous_27 status;
   if(hand->lexer == ((struct yajl_lexer_t *)NULL))
     hand->lexer=yajl_lex_alloc(&hand->alloc, hand->flags & (unsigned int)yajl_allow_comments, (unsigned int)!((hand->flags & (unsigned int)yajl_dont_validate_strings) != 0u));
 
@@ -23610,41 +23610,41 @@ static signed long long int yajl_parse_integer(const unsigned char *number, unsi
   if((signed int)*pos == 43)
     pos = pos + 1l;
 
-  _Bool tmp_if_expr$4;
-  const unsigned char *tmp_post$5;
-  for( ; !(pos >= number + (signed long int)length); ret = ret + (signed long long int)((signed int)*tmp_post$5 - 48))
+  _Bool tmp_if_expr_4;
+  const unsigned char *tmp_post_5;
+  for( ; !(pos >= number + (signed long int)length); ret = ret + (signed long long int)((signed int)*tmp_post_5 - 48))
   {
     if(ret >= 922337203685477588ll)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 34;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 34;
       return sign == (signed long int)1 ? 0x7fffffffffffffffLL : -0x7fffffffffffffffLL - 1LL;
     }
 
     ret = ret * (signed long long int)10;
     if(!(0x7fffffffffffffffLL + -ret >= (signed long int)((signed int)*pos + -48)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 34;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 34;
       return sign == (signed long int)1 ? 0x7fffffffffffffffLL : -0x7fffffffffffffffLL - 1LL;
     }
 
     if(!((signed int)*pos >= 48))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*pos > 57 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*pos > 57 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 34;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 34;
       return sign == (signed long int)1 ? 0x7fffffffffffffffLL : -0x7fffffffffffffffLL - 1LL;
     }
 
-    tmp_post$5 = pos;
+    tmp_post_5 = pos;
     pos = pos + 1l;
   }
   return sign * ret;
@@ -23675,36 +23675,36 @@ static unsigned char * yajl_render_error_string(struct yajl_handle_t *hand, cons
     if((signed int)hand->stateStack.stack[-1l + (signed long int)hand->stateStack.used] == yajl_state_lexical_error)
     {
       errorType = "lexical";
-      enum anonymous$28 return_value_yajl_lex_get_error$1;
-      return_value_yajl_lex_get_error$1=yajl_lex_get_error(hand->lexer);
-      errorText=yajl_lex_error_to_string(return_value_yajl_lex_get_error$1);
+      enum anonymous_28 return_value_yajl_lex_get_error_1;
+      return_value_yajl_lex_get_error_1=yajl_lex_get_error(hand->lexer);
+      errorText=yajl_lex_error_to_string(return_value_yajl_lex_get_error_1);
     }
 
     else
       errorType = "unknown";
   }
-  unsigned long int yajl_render_error_string$$1$$4$$memneeded = (unsigned long int)0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(errorType);
-  yajl_render_error_string$$1$$4$$memneeded = yajl_render_error_string$$1$$4$$memneeded + return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(" error");
-  yajl_render_error_string$$1$$4$$memneeded = yajl_render_error_string$$1$$4$$memneeded + return_value_strlen$3;
+  unsigned long int yajl_render_error_string__1__4__memneeded = (unsigned long int)0;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(errorType);
+  yajl_render_error_string__1__4__memneeded = yajl_render_error_string__1__4__memneeded + return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(" error");
+  yajl_render_error_string__1__4__memneeded = yajl_render_error_string__1__4__memneeded + return_value_strlen_3;
   if(!(errorText == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(": ");
-    yajl_render_error_string$$1$$4$$memneeded = yajl_render_error_string$$1$$4$$memneeded + return_value_strlen$4;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(errorText);
-    yajl_render_error_string$$1$$4$$memneeded = yajl_render_error_string$$1$$4$$memneeded + return_value_strlen$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(": ");
+    yajl_render_error_string__1__4__memneeded = yajl_render_error_string__1__4__memneeded + return_value_strlen_4;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(errorText);
+    yajl_render_error_string__1__4__memneeded = yajl_render_error_string__1__4__memneeded + return_value_strlen_5;
   }
 
   void *return_value;
-  return_value=(&hand->alloc)->malloc((&hand->alloc)->ctx, yajl_render_error_string$$1$$4$$memneeded + (unsigned long int)2);
+  return_value=(&hand->alloc)->malloc((&hand->alloc)->ctx, yajl_render_error_string__1__4__memneeded + (unsigned long int)2);
   str = (unsigned char *)return_value;
-  _Bool tmp_if_expr$6;
-  unsigned long int tmp_post$7;
+  _Bool tmp_if_expr_6;
+  unsigned long int tmp_post_7;
   if(str == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -23738,11 +23738,11 @@ static unsigned char * yajl_render_error_string(struct yajl_handle_t *hand, cons
       if(!(start >= end))
       {
         if(!((signed int)jsonText[(signed long int)start] == 10))
-          tmp_if_expr$6 = (signed int)jsonText[(signed long int)start] != 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)jsonText[(signed long int)start] != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
           text[(signed long int)i] = (char)jsonText[(signed long int)start];
 
         else
@@ -23753,18 +23753,18 @@ static unsigned char * yajl_render_error_string(struct yajl_handle_t *hand, cons
 
       /* assertion i <= 71 */
       assert(i <= (unsigned long int)71);
-      tmp_post$7 = i;
+      tmp_post_7 = i;
       i = i + 1ul;
-      text[(signed long int)tmp_post$7] = (char)10;
+      text[(signed long int)tmp_post_7] = (char)10;
       text[(signed long int)i] = (char)0;
       unsigned long int memneeded;
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen((char *)str);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen((char *)text);
-      unsigned long int return_value_strlen$10;
-      return_value_strlen$10=strlen(arrow);
-      memneeded = (unsigned long int)(unsigned int)(return_value_strlen$8 + return_value_strlen$9 + return_value_strlen$10 + (unsigned long int)1);
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen((char *)str);
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen((char *)text);
+      unsigned long int return_value_strlen_10;
+      return_value_strlen_10=strlen(arrow);
+      memneeded = (unsigned long int)(unsigned int)(return_value_strlen_8 + return_value_strlen_9 + return_value_strlen_10 + (unsigned long int)1);
       char *newStr;
       void *return_value_1;
       return_value_1=(&hand->alloc)->malloc((&hand->alloc)->ctx, memneeded);
@@ -23787,7 +23787,7 @@ static unsigned char * yajl_render_error_string(struct yajl_handle_t *hand, cons
 
 // yajl_set_default_alloc_funcs
 // file yajl_all.c line 123
-static void yajl_set_default_alloc_funcs(struct anonymous$3 *yaf)
+static void yajl_set_default_alloc_funcs(struct anonymous_3 *yaf)
 {
   yaf->malloc = yajl_internal_malloc;
   yaf->free = yajl_internal_free;
@@ -23797,7 +23797,7 @@ static void yajl_set_default_alloc_funcs(struct anonymous$3 *yaf)
 
 // yajl_status_to_string
 // file yajl_all.c line 198
-const char * yajl_status_to_string(enum anonymous$27 stat)
+const char * yajl_status_to_string(enum anonymous_27 stat)
 {
   const char *statStr = "unknown";
   switch((signed int)stat)
@@ -23825,7 +23825,7 @@ static void yajl_string_decode(struct yajl_buf_t *buf, const unsigned char *str,
   unsigned long int beg = (unsigned long int)0;
   unsigned long int end = (unsigned long int)0;
   unsigned int codepoint;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(end >= len))
   {
     if((signed int)str[(signed long int)end] == 92)
@@ -23886,11 +23886,11 @@ static void yajl_string_decode(struct yajl_buf_t *buf, const unsigned char *str,
           {
             end = end + 1ul;
             if((signed int)str[(signed long int)end] == 92)
-              tmp_if_expr$1 = (signed int)str[(signed long int)(end + (unsigned long int)1)] == 117 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = (signed int)str[(signed long int)(end + (unsigned long int)1)] == 117 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = (_Bool)0;
+            if(tmp_if_expr_1)
             {
               unsigned int surrogate = (unsigned int)0;
               hexToDigit(&surrogate, str + (signed long int)end + (signed long int)2);
@@ -23921,9 +23921,9 @@ static void yajl_string_decode(struct yajl_buf_t *buf, const unsigned char *str,
           /* assertion "this should never happen" == ((void *)0) */
           assert("this should never happen" == (char *)(void *)0);
       }
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(unescaped);
-      yajl_buf_append(buf, (const void *)unescaped, (unsigned long int)(unsigned int)return_value_strlen$2);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(unescaped);
+      yajl_buf_append(buf, (const void *)unescaped, (unsigned long int)(unsigned int)return_value_strlen_2);
       end = end + 1ul;
       beg = end;
     }
@@ -24007,9 +24007,9 @@ static void yajl_string_encode(void (* const print)(void *, const char *, unsign
     if(!(escaped == ((const char *)NULL)))
     {
       print(ctx, (const char *)(str + (signed long int)beg), end - beg);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(escaped);
-      print(ctx, escaped, (unsigned long int)(unsigned int)return_value_strlen$1);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(escaped);
+      print(ctx, escaped, (unsigned long int)(unsigned int)return_value_strlen_1);
       end = end + 1ul;
       beg = end;
     }
@@ -24040,13 +24040,13 @@ static unsigned long int yajl_string_scan(const unsigned char *buf, unsigned lon
 // file yajl_all.c line 504
 static signed int yajl_string_validate_utf8(const unsigned char *s, unsigned long int len)
 {
-  unsigned long int tmp_post$1;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
+  unsigned long int tmp_post_1;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
   if(len == 0ul)
     return 1;
 
@@ -24058,9 +24058,9 @@ static signed int yajl_string_validate_utf8(const unsigned char *s, unsigned lon
     {
       do
       {
-        tmp_post$1 = len;
+        tmp_post_1 = len;
         len = len - 1ul;
-        if(tmp_post$1 == 0ul)
+        if(tmp_post_1 == 0ul)
           break;
 
         if((signed int)*s >= 128)
@@ -24068,9 +24068,9 @@ static signed int yajl_string_validate_utf8(const unsigned char *s, unsigned lon
           if((signed int)*s >> 5 == 0x6)
           {
             s = s + 1l;
-            tmp_post$2 = len;
+            tmp_post_2 = len;
             len = len - 1ul;
-            if(tmp_post$2 == 0ul)
+            if(tmp_post_2 == 0ul)
               return 0;
 
             if(!((signed int)*s >> 6 == 0x2))
@@ -24082,18 +24082,18 @@ static signed int yajl_string_validate_utf8(const unsigned char *s, unsigned lon
             if((signed int)*s >> 4 == 0x0e)
             {
               s = s + 1l;
-              tmp_post$3 = len;
+              tmp_post_3 = len;
               len = len - 1ul;
-              if(tmp_post$3 == 0ul)
+              if(tmp_post_3 == 0ul)
                 return 0;
 
               if(!((signed int)*s >> 6 == 0x2))
                 return 0;
 
               s = s + 1l;
-              tmp_post$4 = len;
+              tmp_post_4 = len;
               len = len - 1ul;
-              if(tmp_post$4 == 0ul)
+              if(tmp_post_4 == 0ul)
                 return 0;
 
               if(!((signed int)*s >> 6 == 0x2))
@@ -24105,27 +24105,27 @@ static signed int yajl_string_validate_utf8(const unsigned char *s, unsigned lon
               if((signed int)*s >> 3 == 0x1e)
               {
                 s = s + 1l;
-                tmp_post$5 = len;
+                tmp_post_5 = len;
                 len = len - 1ul;
-                if(tmp_post$5 == 0ul)
+                if(tmp_post_5 == 0ul)
                   return 0;
 
                 if(!((signed int)*s >> 6 == 0x2))
                   return 0;
 
                 s = s + 1l;
-                tmp_post$6 = len;
+                tmp_post_6 = len;
                 len = len - 1ul;
-                if(tmp_post$6 == 0ul)
+                if(tmp_post_6 == 0ul)
                   return 0;
 
                 if(!((signed int)*s >> 6 == 0x2))
                   return 0;
 
                 s = s + 1l;
-                tmp_post$7 = len;
+                tmp_post_7 = len;
                 len = len - 1ul;
-                if(tmp_post$7 == 0ul)
+                if(tmp_post_7 == 0ul)
                   return 0;
 
                 if(!((signed int)*s >> 6 == 0x2))
@@ -24156,20 +24156,20 @@ static signed long int years_to_days(unsigned int yr)
 static signed long int ymd_to_scalar(unsigned int yr, unsigned int mo, unsigned int day)
 {
   signed long int scalar;
-  unsigned int return_value_months_to_days$1;
-  return_value_months_to_days$1=months_to_days(mo);
-  scalar = (signed long int)(day + return_value_months_to_days$1);
-  signed int return_value_isleap$2;
+  unsigned int return_value_months_to_days_1;
+  return_value_months_to_days_1=months_to_days(mo);
+  scalar = (signed long int)(day + return_value_months_to_days_1);
+  signed int return_value_isleap_2;
   if(mo >= 3u)
   {
-    return_value_isleap$2=isleap(yr);
-    scalar = scalar - (signed long int)(return_value_isleap$2 != 0 ? 1 : 2);
+    return_value_isleap_2=isleap(yr);
+    scalar = scalar - (signed long int)(return_value_isleap_2 != 0 ? 1 : 2);
   }
 
   yr = yr - 1u;
-  signed long int return_value_years_to_days$3;
-  return_value_years_to_days$3=years_to_days(yr);
-  scalar = scalar + return_value_years_to_days$3;
+  signed long int return_value_years_to_days_3;
+  return_value_years_to_days_3=years_to_days(yr);
+  scalar = scalar + return_value_years_to_days_3;
   return scalar;
 }
 

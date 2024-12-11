@@ -1,90 +1,90 @@
-// #anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10
+// #anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10
 // file /usr/include/lzma/check.h line 27
-enum anonymous$14 { LZMA_CHECK_NONE=0, LZMA_CHECK_CRC32=1, LZMA_CHECK_CRC64=4, LZMA_CHECK_SHA256=10 };
+enum anonymous_14 { LZMA_CHECK_NONE=0, LZMA_CHECK_CRC32=1, LZMA_CHECK_CRC64=4, LZMA_CHECK_SHA256=10 };
 
-// #anon_enum$LZMA_OK=0$LZMA_STREAM_END=1$LZMA_NO_CHECK=2$LZMA_UNSUPPORTED_CHECK=3$LZMA_GET_CHECK=4$LZMA_MEM_ERROR=5$LZMA_MEMLIMIT_ERROR=6$LZMA_FORMAT_ERROR=7$LZMA_OPTIONS_ERROR=8$LZMA_DATA_ERROR=9$LZMA_BUF_ERROR=10$LZMA_PROG_ERROR=11
+// #anon_enum_LZMA_OK=0_LZMA_STREAM_END=1_LZMA_NO_CHECK=2_LZMA_UNSUPPORTED_CHECK=3_LZMA_GET_CHECK=4_LZMA_MEM_ERROR=5_LZMA_MEMLIMIT_ERROR=6_LZMA_FORMAT_ERROR=7_LZMA_OPTIONS_ERROR=8_LZMA_DATA_ERROR=9_LZMA_BUF_ERROR=10_LZMA_PROG_ERROR=11
 // file /usr/include/lzma/base.h line 57
-enum anonymous$10 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
+enum anonymous_10 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
 
-// #anon_enum$LZMA_RESERVED_ENUM=0
+// #anon_enum_LZMA_RESERVED_ENUM=0
 // file /usr/include/lzma/base.h line 44
-enum anonymous$9 { LZMA_RESERVED_ENUM=0 };
+enum anonymous_9 { LZMA_RESERVED_ENUM=0 };
 
-// #anon_enum$LZMA_RUN=0$LZMA_SYNC_FLUSH=1$LZMA_FULL_FLUSH=2$LZMA_FINISH=3
+// #anon_enum_LZMA_RUN=0_LZMA_SYNC_FLUSH=1_LZMA_FULL_FLUSH=2_LZMA_FINISH=3
 // file /usr/include/lzma/base.h line 250
-enum anonymous$11 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
+enum anonymous_11 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
 
-// ST[S32'devtype'|ARR256{S8}$S8$'devname'|ARR256{S8}$S8$'longname'|ARR512{S8}$S8$'label'|ARR128{S8}$S8$'uuid'|ARR128{S8}$S8$'fsname'|ARR512{S8}$S8$'name'|ARR64{S8}$S8$'txtsize'|U32'$pad0'|U64'devsize'|S32'minor'|S32'major'|U64'rdev']
+// ST[S32'devtype'|ARR256{S8}_S8_'devname'|ARR256{S8}_S8_'longname'|ARR512{S8}_S8_'label'|ARR128{S8}_S8_'uuid'|ARR128{S8}_S8_'fsname'|ARR512{S8}_S8_'name'|ARR64{S8}_S8_'txtsize'|U32'_pad0'|U64'devsize'|S32'minor'|S32'major'|U64'rdev']
 // file devinfo.h line 23
 struct s_devinfo;
 
-// tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'|*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'|*{V}$V$'opaque']
+// tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'|*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'|*{V}_V_'opaque']
 // file /usr/include/lzma/base.h line 349
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{cU8}$cU8$'next_in'|U64'avail_in'|U64'total_in'|*{U8}$U8$'next_out'|U64'avail_out'|U64'total_out'|*{SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'|*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'|*{V}$V$'opaque']#}$SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'|*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'|*{V}$V$'opaque']#$'allocator'|*{SYM#tag-lzma_internal_s#}$SYM#tag-lzma_internal_s#$'internal'|*{V}$V$'reserved_ptr1'|*{V}$V$'reserved_ptr2'|*{V}$V$'reserved_ptr3'|*{V}$V$'reserved_ptr4'|U64'reserved_int1'|U64'reserved_int2'|U64'reserved_int3'|U64'reserved_int4'|SYM##anon_enum$LZMA_RESERVED_ENUM=0#'reserved_enum1'|SYM##anon_enum$LZMA_RESERVED_ENUM=0#'reserved_enum2']
+// tag-#anon#ST[*{cU8}_cU8_'next_in'|U64'avail_in'|U64'total_in'|*{U8}_U8_'next_out'|U64'avail_out'|U64'total_out'|*{SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'|*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'|*{V}_V_'opaque']#}_SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'|*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'|*{V}_V_'opaque']#_'allocator'|*{SYM#tag-lzma_internal_s#}_SYM#tag-lzma_internal_s#_'internal'|*{V}_V_'reserved_ptr1'|*{V}_V_'reserved_ptr2'|*{V}_V_'reserved_ptr3'|*{V}_V_'reserved_ptr4'|U64'reserved_int1'|U64'reserved_int2'|U64'reserved_int3'|U64'reserved_int4'|SYM##anon_enum_LZMA_RESERVED_ENUM=0#'reserved_enum1'|SYM##anon_enum_LZMA_RESERVED_ENUM=0#'reserved_enum2']
 // file /usr/include/lzma/base.h line 461
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[ARR2{S32}$S32$'__val']
+// tag-#anon#ST[ARR2{S32}_S32_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/types.h line 134
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[BF{U32}$U32$'len'|BF{U32}$U32$'addr1'|U32'addr2']
+// tag-#anon#ST[BF{U32}_U32_'len'|BF{U32}_U32_'addr1'|U32'addr2']
 // file fs_jfs.h line 39
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[U16'l_i_blocks_hi'|U16'l_i_file_acl_high'|U16'l_i_uid_high'|U16'l_i_gid_high'|U16'l_i_checksum_lo'|U16'l_i_reserved']
 // file /usr/include/ext2fs/ext2_fs.h line 387
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[U32'h_i_translator']
 // file /usr/include/ext2fs/ext2_fs.h line 377
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[U32'l_i_version']
 // file /usr/include/ext2fs/ext2_fs.h line 374
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[U64'we_wordc'|*{*{S8}$S8$}$*{S8}$S8$$'we_wordv'|U64'we_offs']
+// tag-#anon#ST[U64'we_wordc'|*{*{S8}_S8_}_*{S8}_S8__'we_wordv'|U64'we_offs']
 // file /usr/include/wordexp.h line 41
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[U8'h_i_frag'|U8'h_i_fsize'|U16'h_i_mode_high'|U16'h_i_uid_high'|U16'h_i_gid_high'|U32'h_i_author']
 // file /usr/include/ext2fs/ext2_fs.h line 395
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[vS32'counter']
 // file types.h line 68
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U16'l_i_blocks_hi'|U16'l_i_file_acl_high'|U16'l_i_uid_high'|U16'l_i_gid_high'|U16'l_i_checksum_lo'|U16'l_i_reserved']#'linux2'|SYM#tag-#anon#ST[U8'h_i_frag'|U8'h_i_fsize'|U16'h_i_mode_high'|U16'h_i_uid_high'|U16'h_i_gid_high'|U32'h_i_author']#'hurd2']
 // file /usr/include/ext2fs/ext2_fs.h line 386
-union anonymous$16;
+union anonymous_16;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U32'l_i_version']#'linux1'|SYM#tag-#anon#ST[U32'h_i_translator']#'hurd1']
 // file /usr/include/ext2fs/ext2_fs.h line 373
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -240,7 +240,7 @@ struct s_datafile;
 
 // tag-s_devinfo
 // file oper_save.c line 73
-struct s_devinfo$0;
+struct s_devinfo_0;
 
 // tag-s_dichl
 // file dichl.h line 23
@@ -638,7 +638,7 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
 signed int createar_oper_savedir(struct s_savear *save, char *rootdir);
 // createar_oper_savefs
 // file oper_save.c line 1097
-signed int createar_oper_savefs(struct s_savear *save, struct s_devinfo$0 *devinfo);
+signed int createar_oper_savefs(struct s_savear *save, struct s_devinfo_0 *devinfo);
 // createar_save_directory
 // file oper_save.c line 735
 signed int createar_save_directory(struct s_savear *save, char *root, char *path, unsigned long int *costeval);
@@ -1175,7 +1175,7 @@ extern signed int fflush(struct _IO_FILE *);
 extern signed int fgetc(struct _IO_FILE *);
 // filesystem_mount_partition
 // file oper_save.c line 909
-signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico *dicofsinfo, unsigned short int fsid);
+signed int filesystem_mount_partition(struct s_devinfo_0 *devinfo, struct s_dico *dicofsinfo, unsigned short int fsid);
 // fletcher32
 // file common.h line 44
 unsigned int fletcher32(unsigned char *data, unsigned int len);
@@ -1427,19 +1427,19 @@ extern signed int lstat64(const char *, struct stat64 *);
 extern signed int lutimes(const char *, struct timeval *);
 // lzma_auto_decoder
 // file /usr/include/lzma/container.h line 361
-extern enum anonymous$10 lzma_auto_decoder(struct anonymous$13 *, unsigned long int, unsigned int);
+extern enum anonymous_10 lzma_auto_decoder(struct anonymous_13 *, unsigned long int, unsigned int);
 // lzma_code
 // file /usr/include/lzma/base.h line 537
-extern enum anonymous$10 lzma_code(struct anonymous$13 *, enum anonymous$11);
+extern enum anonymous_10 lzma_code(struct anonymous_13 *, enum anonymous_11);
 // lzma_easy_encoder
 // file /usr/include/lzma/container.h line 133
-extern enum anonymous$10 lzma_easy_encoder(struct anonymous$13 *, unsigned int, enum anonymous$14);
+extern enum anonymous_10 lzma_easy_encoder(struct anonymous_13 *, unsigned int, enum anonymous_14);
 // lzma_end
 // file /usr/include/lzma/base.h line 554
-extern void lzma_end(struct anonymous$13 *);
+extern void lzma_end(struct anonymous_13 *);
 // lzma_memlimit_set
 // file /usr/include/lzma/base.h line 608
-extern enum anonymous$10 lzma_memlimit_set(struct anonymous$13 *, unsigned long int);
+extern enum anonymous_10 lzma_memlimit_set(struct anonymous_13 *, unsigned long int);
 // lzo1x_1_compress
 // file /usr/include/lzo/lzo1x.h line 74
 extern signed int lzo1x_1_compress(const unsigned char *, unsigned long int, unsigned char *, unsigned long int *, void *);
@@ -1538,16 +1538,16 @@ extern signed int printf(const char *, ...);
 signed int process_cmdline(signed int argc, char **argv);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$2 *);
+extern signed int pthread_cond_broadcast(union anonymous_2 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$2 *);
+extern signed int pthread_cond_destroy(union anonymous_2 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous$6 *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous_6 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$2 *, union anonymous$1 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_2 *, union anonymous_1 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1556,22 +1556,22 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$1 *);
+extern signed int pthread_mutex_destroy(union anonymous_1 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$6 *);
+extern signed int pthread_mutexattr_init(union anonymous_6 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$6 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_6 *, signed int);
 // queue_add_block
 // file queue.h line 96
 signed long int queue_add_block(struct s_queue *q, struct s_blockinfo *blkinfo, signed int status);
@@ -1925,10 +1925,10 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 extern signed int waitpid(signed int, signed int *, signed int);
 // wordexp
 // file /usr/include/wordexp.h line 62
-extern signed int wordexp(const char *, struct anonymous$4 *, signed int);
+extern signed int wordexp(const char *, struct anonymous_4 *, signed int);
 // wordfree
 // file /usr/include/wordexp.h line 66
-extern void wordfree(struct anonymous$4 *);
+extern void wordfree(struct anonymous_4 *);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -2000,7 +2000,7 @@ struct s_devinfo
   unsigned long int rdev;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // alloc
   void * (*alloc)(void *, unsigned long int, unsigned long int);
@@ -2010,7 +2010,7 @@ struct anonymous$12
   void *opaque;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // next_in
   const unsigned char *next_in;
@@ -2025,7 +2025,7 @@ struct anonymous$13
   // total_out
   unsigned long int total_out;
   // allocator
-  struct anonymous$12 *allocator;
+  struct anonymous_12 *allocator;
   // internal
   struct lzma_internal_s *internal;
   // reserved_ptr1
@@ -2045,9 +2045,9 @@ struct anonymous$13
   // reserved_int4
   unsigned long int reserved_int4;
   // reserved_enum1
-  enum anonymous$9 reserved_enum1;
+  enum anonymous_9 reserved_enum1;
   // reserved_enum2
-  enum anonymous$9 reserved_enum2;
+  enum anonymous_9 reserved_enum2;
 };
 
 struct anonymous
@@ -2056,13 +2056,13 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __val
   signed int __val[2l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // len
   unsigned int len : 24;
@@ -2072,7 +2072,7 @@ struct anonymous$0
   unsigned int addr2;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -2092,7 +2092,7 @@ struct anonymous$5
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // l_i_blocks_hi
   unsigned short int l_i_blocks_hi;
@@ -2108,19 +2108,19 @@ struct anonymous$19
   unsigned short int l_i_reserved;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // h_i_translator
   unsigned int h_i_translator;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // l_i_version
   unsigned int l_i_version;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // we_wordc
   unsigned long int we_wordc;
@@ -2130,7 +2130,7 @@ struct anonymous$4
   unsigned long int we_offs;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // h_i_frag
   unsigned char h_i_frag;
@@ -2146,13 +2146,13 @@ struct anonymous$20
   unsigned int h_i_author;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // counter
   volatile signed int counter;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -2160,30 +2160,30 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // linux2
-  struct anonymous$19 linux2;
+  struct anonymous_19 linux2;
   // hurd2
-  struct anonymous$20 hurd2;
+  struct anonymous_20 hurd2;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // linux1
-  struct anonymous$17 linux1;
+  struct anonymous_17 linux1;
   // hurd1
-  struct anonymous$18 hurd1;
+  struct anonymous_18 hurd1;
 };
 
 struct __pthread_internal_list
@@ -2214,7 +2214,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2433,7 +2433,7 @@ struct ext2_inode
   // i_flags
   unsigned int i_flags;
   // osd1
-  union anonymous$15 osd1;
+  union anonymous_15 osd1;
   // i_block
   unsigned int i_block[15l];
   // i_generation
@@ -2445,7 +2445,7 @@ struct ext2_inode
   // i_faddr
   unsigned int i_faddr;
   // osd2
-  union anonymous$16 osd2;
+  union anonymous_16 osd2;
 };
 
 struct ext2_super_block
@@ -2811,17 +2811,17 @@ struct jfs_superblock
   // s_compress
   unsigned int s_compress;
   // s_ait2
-  struct anonymous$0 s_ait2;
+  struct anonymous_0 s_ait2;
   // s_aim2
-  struct anonymous$0 s_aim2;
+  struct anonymous_0 s_aim2;
   // s_logdev
   unsigned int s_logdev;
   // s_logserial
   unsigned int s_logserial;
   // s_logpxd
-  struct anonymous$0 s_logpxd;
+  struct anonymous_0 s_logpxd;
   // s_fsckpxd
-  struct anonymous$0 s_fsckpxd;
+  struct anonymous_0 s_fsckpxd;
   // s_time
   struct timestruc_t s_time;
   // s_fsckloglen
@@ -2833,9 +2833,9 @@ struct jfs_superblock
   // s_xsize
   unsigned long int s_xsize;
   // s_xfsckpxd
-  struct anonymous$0 s_xfsckpxd;
+  struct anonymous_0 s_xfsckpxd;
   // s_xlogpxd
-  struct anonymous$0 s_xlogpxd;
+  struct anonymous_0 s_xlogpxd;
   // s_uuid
   char s_uuid[16l];
   // s_label
@@ -3066,7 +3066,7 @@ struct s_datafile
   struct gcry_md_handle *md5ctx;
 };
 
-struct s_devinfo$0
+struct s_devinfo_0
 {
   // devpath
   char devpath[4096l];
@@ -3269,9 +3269,9 @@ struct s_queue
   // head
   struct s_queueitem *head;
   // mutex
-  union anonymous$1 mutex;
+  union anonymous_1 mutex;
   // cond
-  union anonymous$2 cond;
+  union anonymous_2 cond;
   // curitemnum
   signed long int curitemnum;
   // itemcount
@@ -3465,7 +3465,7 @@ struct statfs
   // f_ffree
   unsigned long int f_ffree;
   // f_fsid
-  struct anonymous$8 f_fsid;
+  struct anonymous_8 f_fsid;
   // f_namelen
   signed long int f_namelen;
   // f_frsize
@@ -3896,7 +3896,7 @@ struct s_filesys filesys[10l] = { { .name="ext2", .mount=extfs_mount, .umount=ex
     .savesymtargettype=(_Bool)0 } };
 // g_aborted
 // file syncthread.c line 39
-struct anonymous$7 g_aborted = { .counter=0 };
+struct anonymous_7 g_aborted = { .counter=0 };
 // g_fsbitmap
 // file syncthread.c line 34
 unsigned char g_fsbitmap[128l];
@@ -3911,10 +3911,10 @@ struct s_options g_options;
 struct s_queue g_queue;
 // g_secthreads
 // file syncthread.c line 52
-struct anonymous$7 g_secthreads = { .counter=0 };
+struct anonymous_7 g_secthreads = { .counter=0 };
 // g_stopfillqueue
 // file syncthread.c line 38
-struct anonymous$7 g_stopfillqueue = { .counter=0 };
+struct anonymous_7 g_stopfillqueue = { .counter=0 };
 // gcry_threads_pthread
 // file crypto.c line 34
 static struct gcry_thread_cbs gcry_threads_pthread = { .option=(unsigned int)(3 | 1 << 8) };
@@ -4007,9 +4007,9 @@ char *valid_magic[11l] = { "ArCh", "FsA0", "FsAE", "FsIn", "FsYs", "DaEn", "ObJt
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // archinfo_show_fshead
@@ -4026,8 +4026,8 @@ signed int archinfo_show_fshead(struct s_dico *dicofshead, signed int fsid)
   char fsuuid[256l];
   char fsorigdev[256l];
   memset((void *)magic, 0, sizeof(char [5l]) /*5ul*/ );
-  signed int return_value_dico_get_string$7;
-  unsigned long int return_value_strlen$6;
+  signed int return_value_dico_get_string_7;
+  unsigned long int return_value_strlen_6;
   if(dicofshead == ((struct s_dico *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "archinfo.c", "archinfo_show_fshead", 98, "dicofshead is null\n");
@@ -4036,9 +4036,9 @@ signed int archinfo_show_fshead(struct s_dico *dicofshead, signed int fsid)
 
   else
   {
-    signed int return_value_dico_get_data$1;
-    return_value_dico_get_data$1=dico_get_data(dicofshead, (unsigned char)0, (unsigned short int)1, (void *)fsbuf, (unsigned short int)sizeof(char [128l]) /*128ul*/ , (unsigned short int *)(void *)0);
-    if(!(return_value_dico_get_data$1 == 0))
+    signed int return_value_dico_get_data_1;
+    return_value_dico_get_data_1=dico_get_data(dicofshead, (unsigned char)0, (unsigned short int)1, (void *)fsbuf, (unsigned short int)sizeof(char [128l]) /*128ul*/ , (unsigned short int *)(void *)0);
+    if(!(return_value_dico_get_data_1 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "archinfo.c", "archinfo_show_fshead", 103, "cannot find FSYSHEADKEY_FILESYSTEM in filesystem-header\n");
       return -1;
@@ -4046,9 +4046,9 @@ signed int archinfo_show_fshead(struct s_dico *dicofshead, signed int fsid)
 
     else
     {
-      signed int return_value_dico_get_u64$2;
-      return_value_dico_get_u64$2=dico_get_u64(dicofshead, (unsigned char)0, (unsigned short int)3, &fsbytestotal);
-      if(!(return_value_dico_get_u64$2 == 0))
+      signed int return_value_dico_get_u64_2;
+      return_value_dico_get_u64_2=dico_get_u64(dicofshead, (unsigned char)0, (unsigned short int)3, &fsbytestotal);
+      if(!(return_value_dico_get_u64_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "archinfo.c", "archinfo_show_fshead", 108, "cannot find FSYSHEADKEY_BYTESTOTAL in filesystem-header\n");
         return -1;
@@ -4056,9 +4056,9 @@ signed int archinfo_show_fshead(struct s_dico *dicofshead, signed int fsid)
 
       else
       {
-        signed int return_value_dico_get_u64$3;
-        return_value_dico_get_u64$3=dico_get_u64(dicofshead, (unsigned char)0, (unsigned short int)4, &fsbytesused);
-        if(!(return_value_dico_get_u64$3 == 0))
+        signed int return_value_dico_get_u64_3;
+        return_value_dico_get_u64_3=dico_get_u64(dicofshead, (unsigned char)0, (unsigned short int)4, &fsbytesused);
+        if(!(return_value_dico_get_u64_3 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "archinfo.c", "archinfo_show_fshead", 113, "cannot find FSYSHEADKEY_BYTESUSED in filesystem-header\n");
           return -1;
@@ -4066,29 +4066,29 @@ signed int archinfo_show_fshead(struct s_dico *dicofshead, signed int fsid)
 
         else
         {
-          signed int return_value_dico_get_string$4;
-          return_value_dico_get_string$4=dico_get_string(dicofshead, (unsigned char)0, (unsigned short int)5, fslabel, (unsigned short int)sizeof(char [256l]) /*256ul*/ );
-          if(!(return_value_dico_get_string$4 >= 0))
+          signed int return_value_dico_get_string_4;
+          return_value_dico_get_string_4=dico_get_string(dicofshead, (unsigned char)0, (unsigned short int)5, fslabel, (unsigned short int)sizeof(char [256l]) /*256ul*/ );
+          if(!(return_value_dico_get_string_4 >= 0))
             snprintf(fslabel, sizeof(char [256l]) /*256ul*/ , "<none>");
 
-          signed int return_value_dico_get_string$5;
-          return_value_dico_get_string$5=dico_get_string(dicofshead, (unsigned char)0, (unsigned short int)27, fsorigdev, (unsigned short int)sizeof(char [256l]) /*256ul*/ );
-          if(!(return_value_dico_get_string$5 >= 0))
+          signed int return_value_dico_get_string_5;
+          return_value_dico_get_string_5=dico_get_string(dicofshead, (unsigned char)0, (unsigned short int)27, fsorigdev, (unsigned short int)sizeof(char [256l]) /*256ul*/ );
+          if(!(return_value_dico_get_string_5 >= 0))
             snprintf(fsorigdev, sizeof(char [256l]) /*256ul*/ , "<unknown>");
 
           snprintf(fsuuid, sizeof(char [256l]) /*256ul*/ , "<none>");
-          signed int return_value_dico_get_u64$8;
-          return_value_dico_get_u64$8=dico_get_u64(dicofshead, (unsigned char)0, (unsigned short int)24, &temp64);
-          if(return_value_dico_get_u64$8 == 0)
+          signed int return_value_dico_get_u64_8;
+          return_value_dico_get_u64_8=dico_get_u64(dicofshead, (unsigned char)0, (unsigned short int)24, &temp64);
+          if(return_value_dico_get_u64_8 == 0)
             snprintf(fsuuid, sizeof(char [256l]) /*256ul*/ , "%016llX", (unsigned long long int)temp64);
 
           else
           {
-            return_value_dico_get_string$7=dico_get_string(dicofshead, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [256l]) /*256ul*/ );
-            if(return_value_dico_get_string$7 == 0)
+            return_value_dico_get_string_7=dico_get_string(dicofshead, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [256l]) /*256ul*/ );
+            if(return_value_dico_get_string_7 == 0)
             {
-              return_value_strlen$6=strlen(buffer);
-              if(return_value_strlen$6 == 36ul)
+              return_value_strlen_6=strlen(buffer);
+              if(return_value_strlen_6 == 36ul)
                 snprintf(fsuuid, sizeof(char [256l]) /*256ul*/ , "%s", (const void *)buffer);
 
             }
@@ -4100,12 +4100,12 @@ signed int archinfo_show_fshead(struct s_dico *dicofshead, signed int fsid)
           fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 133, "Filesystem label: \t\t%s\n", (const void *)fslabel);
           fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 134, "Filesystem uuid: \t\t%s\n", (const void *)fsuuid);
           fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 135, "Original device: \t\t%s\n", (const void *)fsorigdev);
-          char *return_value_format_size$9;
-          return_value_format_size$9=format_size(fsbytestotal, buffer, (signed int)sizeof(char [256l]) /*256ul*/ , (char)104);
-          fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 136, "Original filesystem size: \t%s (%lld bytes)\n", return_value_format_size$9, (signed long long int)fsbytestotal);
-          char *return_value_format_size$10;
-          return_value_format_size$10=format_size(fsbytesused, buffer, (signed int)sizeof(char [256l]) /*256ul*/ , (char)104);
-          fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 137, "Space used in filesystem: \t%s (%lld bytes)\n", return_value_format_size$10, (signed long long int)fsbytesused);
+          char *return_value_format_size_9;
+          return_value_format_size_9=format_size(fsbytestotal, buffer, (signed int)sizeof(char [256l]) /*256ul*/ , (char)104);
+          fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 136, "Original filesystem size: \t%s (%lld bytes)\n", return_value_format_size_9, (signed long long int)fsbytestotal);
+          char *return_value_format_size_10;
+          return_value_format_size_10=format_size(fsbytesused, buffer, (signed int)sizeof(char [256l]) /*256ul*/ , (char)104);
+          fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 137, "Space used in filesystem: \t%s (%lld bytes)\n", return_value_format_size_10, (signed long long int)fsbytesused);
           fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_fshead", 138, "\n");
           return 0;
         }
@@ -4135,19 +4135,19 @@ signed int archinfo_show_mainhead(struct s_archreader *ai, struct s_dico *dicoma
     fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 67, "Archive id: \t\t\t%.8x\n", (unsigned int)ai->archid);
     fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 68, "Archive file format: \t\t%s\n", (const void *)ai->filefmt);
     fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 69, "Archive created with: \t\t%s\n", (const void *)ai->creatver);
-    char *return_value_format_time$1;
-    return_value_format_time$1=format_time(buffer, (signed int)sizeof(char [256l]) /*256ul*/ , ai->creattime);
-    fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 70, "Archive creation date: \t\t%s\n", return_value_format_time$1);
+    char *return_value_format_time_1;
+    return_value_format_time_1=format_time(buffer, (signed int)sizeof(char [256l]) /*256ul*/ , ai->creattime);
+    fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 70, "Archive creation date: \t\t%s\n", return_value_format_time_1);
     fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 71, "Archive label: \t\t\t%s\n", (const void *)ai->label);
     if(ai->minfsaver >= 1ul)
       fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 74, "Minimum fsarchiver version:\t%d.%d.%d.%d\n", (signed int)((unsigned long int)ai->minfsaver >> 48 & (unsigned long int)0xFFFF), (signed int)((unsigned long int)ai->minfsaver >> 32 & (unsigned long int)0xFFFF), (signed int)((unsigned long int)ai->minfsaver >> 16 & (unsigned long int)0xFFFF), (signed int)((unsigned long int)ai->minfsaver >> 0 & (unsigned long int)0xFFFF));
 
-    char *return_value_compalgostr$2;
-    return_value_compalgostr$2=compalgostr((signed int)ai->compalgo);
-    fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 75, "Compression level: \t\t%d (%s level %d)\n", ai->fsacomp, return_value_compalgostr$2, ai->complevel);
-    char *return_value_cryptalgostr$3;
-    return_value_cryptalgostr$3=cryptalgostr((signed int)ai->cryptalgo);
-    fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 76, "Encryption algorithm: \t\t%s\n", return_value_cryptalgostr$3);
+    char *return_value_compalgostr_2;
+    return_value_compalgostr_2=compalgostr((signed int)ai->compalgo);
+    fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 75, "Compression level: \t\t%d (%s level %d)\n", ai->fsacomp, return_value_compalgostr_2, ai->complevel);
+    char *return_value_cryptalgostr_3;
+    return_value_cryptalgostr_3=cryptalgostr((signed int)ai->cryptalgo);
+    fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 76, "Encryption algorithm: \t\t%s\n", return_value_cryptalgostr_3);
     fsaprintf(0, (_Bool)0, 0 >= 3, "archinfo.c", "archinfo_show_mainhead", 77, "\n");
     return 0;
   }
@@ -4187,9 +4187,9 @@ signed int archreader_incvolume(struct s_archreader *ai, _Bool waitkeypress)
   /* assertion ai */
   assert(ai != ((struct s_archreader *)NULL));
   ai->curvol = ai->curvol + 1u;
-  signed int return_value_archreader_volpath$1;
-  return_value_archreader_volpath$1=archreader_volpath(ai);
-  return return_value_archreader_volpath$1;
+  signed int return_value_archreader_volpath_1;
+  return_value_archreader_volpath_1=archreader_volpath(ai);
+  return return_value_archreader_volpath_1;
 }
 
 // archreader_init
@@ -4221,8 +4221,8 @@ signed int archreader_open(struct s_archreader *ai)
   /* assertion ai */
   assert(ai != ((struct s_archreader *)NULL));
   ai->archfd=open64(ai->volpath, 00 | 0);
-  signed int return_value_memcmp$7;
-  signed int return_value_memcmp$5;
+  signed int return_value_memcmp_7;
+  signed int return_value_memcmp_5;
   if(!(ai->archfd >= 0))
   {
     fsaprintf(0, (_Bool)1, (_Bool)1, "archreader.c", "archreader_open", 73, "cannot open archive %s\n", (const void *)ai->volpath);
@@ -4231,9 +4231,9 @@ signed int archreader_open(struct s_archreader *ai)
 
   else
   {
-    signed int return_value_fstat64$1;
-    return_value_fstat64$1=fstat64(ai->archfd, &st);
-    if(!(return_value_fstat64$1 == 0))
+    signed int return_value_fstat64_1;
+    return_value_fstat64_1=fstat64(ai->archfd, &st);
+    if(!(return_value_fstat64_1 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "archreader.c", "archreader_open", 79, "fstat64(%s) failed\n", (const void *)ai->volpath);
       return -1;
@@ -4249,9 +4249,9 @@ signed int archreader_open(struct s_archreader *ai)
 
       else
       {
-        signed long int return_value_read$2;
-        return_value_read$2=read(ai->archfd, (void *)volhead, sizeof(char [64l]) /*64ul*/ );
-        if(!((unsigned long int)return_value_read$2 == sizeof(char [64l]) /*64ul*/ ))
+        signed long int return_value_read_2;
+        return_value_read_2=read(ai->archfd, (void *)volhead, sizeof(char [64l]) /*64ul*/ );
+        if(!((unsigned long int)return_value_read_2 == sizeof(char [64l]) /*64ul*/ ))
         {
           fsaprintf(0, (_Bool)1, (_Bool)1, "archreader.c", "archreader_open", 90, "cannot read magic from %s\n", (const void *)ai->volpath);
           close(ai->archfd);
@@ -4260,9 +4260,9 @@ signed int archreader_open(struct s_archreader *ai)
 
         else
         {
-          signed long int return_value_lseek64$3;
-          return_value_lseek64$3=lseek64(ai->archfd, (signed long int)0, 0);
-          if(!(return_value_lseek64$3 == 0l))
+          signed long int return_value_lseek64_3;
+          return_value_lseek64_3=lseek64(ai->archfd, (signed long int)0, 0);
+          if(!(return_value_lseek64_3 == 0l))
           {
             fsaprintf(0, (_Bool)1, (_Bool)1, "archreader.c", "archreader_open", 95, "cannot rewind volume %s\n", (const void *)ai->volpath);
             close(ai->archfd);
@@ -4271,27 +4271,27 @@ signed int archreader_open(struct s_archreader *ai)
 
           else
           {
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen("FsArCh_002");
-            magiclen = (signed int)return_value_strlen$4;
-            signed int return_value_memcmp$6;
-            return_value_memcmp$6=memcmp((const void *)(volhead + (signed long int)40), (const void *)"FsArCh_001", (unsigned long int)magiclen);
-            _Bool tmp_if_expr$8;
-            if(return_value_memcmp$6 == 0)
-              tmp_if_expr$8 = (_Bool)1;
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen("FsArCh_002");
+            magiclen = (signed int)return_value_strlen_4;
+            signed int return_value_memcmp_6;
+            return_value_memcmp_6=memcmp((const void *)(volhead + (signed long int)40), (const void *)"FsArCh_001", (unsigned long int)magiclen);
+            _Bool tmp_if_expr_8;
+            if(return_value_memcmp_6 == 0)
+              tmp_if_expr_8 = (_Bool)1;
 
             else
             {
-              return_value_memcmp$7=memcmp((const void *)(volhead + (signed long int)40), (const void *)"FsArCh_00Y", (unsigned long int)magiclen);
-              tmp_if_expr$8 = return_value_memcmp$7 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_memcmp_7=memcmp((const void *)(volhead + (signed long int)40), (const void *)"FsArCh_00Y", (unsigned long int)magiclen);
+              tmp_if_expr_8 = return_value_memcmp_7 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$8)
+            if(tmp_if_expr_8)
               ai->filefmtver = 1;
 
             else
             {
-              return_value_memcmp$5=memcmp((const void *)(volhead + (signed long int)42), (const void *)"FsArCh_002", (unsigned long int)magiclen);
-              if(return_value_memcmp$5 == 0)
+              return_value_memcmp_5=memcmp((const void *)(volhead + (signed long int)42), (const void *)"FsArCh_002", (unsigned long int)magiclen);
+              if(return_value_memcmp_5 == 0)
                 ai->filefmtver = 2;
 
               else
@@ -4332,9 +4332,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
   assert(out_blkinfo != ((struct s_blockinfo *)NULL));
   memset((void *)out_blkinfo, 0, sizeof(struct s_blockinfo) /*48ul*/ );
   *out_sumok = -1;
-  signed int return_value_dico_get_u64$1;
-  return_value_dico_get_u64$1=dico_get_u64(in_blkdico, (unsigned char)0, (unsigned short int)2, &blockoffset);
-  if(!(return_value_dico_get_u64$1 == 0))
+  signed int return_value_dico_get_u64_1;
+  return_value_dico_get_u64_1=dico_get_u64(in_blkdico, (unsigned char)0, (unsigned short int)2, &blockoffset);
+  if(!(return_value_dico_get_u64_1 == 0))
   {
     fsaprintf(3, (_Bool)0, 3 >= 3, "archreader.c", "archreader_read_block", 457, "cannot get blockoffset from block-header\n");
     return -1;
@@ -4342,9 +4342,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
   else
   {
-    signed int return_value_dico_get_u32$2;
-    return_value_dico_get_u32$2=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)1, &curblocksize);
-    if(curblocksize >= 921601u || !(return_value_dico_get_u32$2 == 0))
+    signed int return_value_dico_get_u32_2;
+    return_value_dico_get_u32_2=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)1, &curblocksize);
+    if(curblocksize >= 921601u || !(return_value_dico_get_u32_2 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "archreader.c", "archreader_read_block", 462, "cannot get blocksize from block-header\n");
       return -1;
@@ -4352,9 +4352,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
     else
     {
-      signed int return_value_dico_get_u16$3;
-      return_value_dico_get_u16$3=dico_get_u16(in_blkdico, (unsigned char)0, (unsigned short int)3, &compalgo);
-      if(!(return_value_dico_get_u16$3 == 0))
+      signed int return_value_dico_get_u16_3;
+      return_value_dico_get_u16_3=dico_get_u16(in_blkdico, (unsigned char)0, (unsigned short int)3, &compalgo);
+      if(!(return_value_dico_get_u16_3 == 0))
       {
         fsaprintf(3, (_Bool)0, 3 >= 3, "archreader.c", "archreader_read_block", 467, "cannot get BLOCKHEADITEMKEY_COMPRESSALGO from block-header\n");
         return -1;
@@ -4362,9 +4362,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
       else
       {
-        signed int return_value_dico_get_u16$4;
-        return_value_dico_get_u16$4=dico_get_u16(in_blkdico, (unsigned char)0, (unsigned short int)4, &cryptalgo);
-        if(!(return_value_dico_get_u16$4 == 0))
+        signed int return_value_dico_get_u16_4;
+        return_value_dico_get_u16_4=dico_get_u16(in_blkdico, (unsigned char)0, (unsigned short int)4, &cryptalgo);
+        if(!(return_value_dico_get_u16_4 == 0))
         {
           fsaprintf(3, (_Bool)0, 3 >= 3, "archreader.c", "archreader_read_block", 472, "cannot get BLOCKHEADITEMKEY_ENCRYPTALGO from block-header\n");
           return -1;
@@ -4372,9 +4372,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
         else
         {
-          signed int return_value_dico_get_u32$5;
-          return_value_dico_get_u32$5=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)5, &finalsize);
-          if(!(return_value_dico_get_u32$5 == 0))
+          signed int return_value_dico_get_u32_5;
+          return_value_dico_get_u32_5=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)5, &finalsize);
+          if(!(return_value_dico_get_u32_5 == 0))
           {
             fsaprintf(3, (_Bool)0, 3 >= 3, "archreader.c", "archreader_read_block", 477, "cannot get BLOCKHEADITEMKEY_ARSIZE from block-header\n");
             return -1;
@@ -4382,9 +4382,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
           else
           {
-            signed int return_value_dico_get_u32$6;
-            return_value_dico_get_u32$6=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)6, &compsize);
-            if(!(return_value_dico_get_u32$6 == 0))
+            signed int return_value_dico_get_u32_6;
+            return_value_dico_get_u32_6=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)6, &compsize);
+            if(!(return_value_dico_get_u32_6 == 0))
             {
               fsaprintf(3, (_Bool)0, 3 >= 3, "archreader.c", "archreader_read_block", 482, "cannot get BLOCKHEADITEMKEY_COMPSIZE from block-header\n");
               return -1;
@@ -4392,9 +4392,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
             else
             {
-              signed int return_value_dico_get_u32$7;
-              return_value_dico_get_u32$7=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)7, &arblockcsumorig);
-              if(!(return_value_dico_get_u32$7 == 0))
+              signed int return_value_dico_get_u32_7;
+              return_value_dico_get_u32_7=dico_get_u32(in_blkdico, (unsigned char)0, (unsigned short int)7, &arblockcsumorig);
+              if(!(return_value_dico_get_u32_7 == 0))
               {
                 fsaprintf(3, (_Bool)0, 3 >= 3, "archreader.c", "archreader_read_block", 487, "cannot get BLOCKHEADITEMKEY_ARCSUM from block-header\n");
                 return -1;
@@ -4404,9 +4404,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
               {
                 if(in_skipblock == 1)
                 {
-                  signed long int return_value_lseek64$8;
-                  return_value_lseek64$8=lseek64(ai->archfd, (signed long int)finalsize, 1);
-                  if(!(return_value_lseek64$8 >= 0l))
+                  signed long int return_value_lseek64_8;
+                  return_value_lseek64_8=lseek64(ai->archfd, (signed long int)finalsize, 1);
+                  if(!(return_value_lseek64_8 >= 0l))
                   {
                     fsaprintf(0, (_Bool)1, (_Bool)1, "archreader.c", "archreader_read_block", 494, "cannot skip block (finalsize=%ld) failed\n", (signed long int)finalsize);
                     return -1;
@@ -4415,9 +4415,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
                   return 0;
                 }
 
-                void *return_value_malloc$9;
-                return_value_malloc$9=malloc((unsigned long int)finalsize);
-                buffer = (unsigned char *)return_value_malloc$9;
+                void *return_value_malloc_9;
+                return_value_malloc_9=malloc((unsigned long int)finalsize);
+                buffer = (unsigned char *)return_value_malloc_9;
                 if(buffer == ((unsigned char *)NULL))
                 {
                   fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_block", 502, "cannot allocate block: malloc(%d) failed\n", finalsize);
@@ -4426,9 +4426,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
                 else
                 {
-                  signed long int return_value_read$10;
-                  return_value_read$10=read(ai->archfd, (void *)buffer, (unsigned long int)(signed long int)finalsize);
-                  if(!(return_value_read$10 == (signed long int)finalsize))
+                  signed long int return_value_read_10;
+                  return_value_read_10=read(ai->archfd, (void *)buffer, (unsigned long int)(signed long int)finalsize);
+                  if(!(return_value_read_10 == (signed long int)finalsize))
                   {
                     fsaprintf(0, (_Bool)1, (_Bool)1, "archreader.c", "archreader_read_block", 507, "cannot read block (finalsize=%ld) failed\n", (signed long int)finalsize);
                     free((void *)buffer);
@@ -4450,9 +4450,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
                     {
                       fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_block", 526, "block is corrupt at offset=%ld, blksize=%ld\n", (signed long int)blockoffset, (signed long int)curblocksize);
                       free((void *)out_blkinfo->blkdata);
-                      void *return_value_malloc$11;
-                      return_value_malloc$11=malloc((unsigned long int)curblocksize);
-                      out_blkinfo->blkdata = (char *)return_value_malloc$11;
+                      void *return_value_malloc_11;
+                      return_value_malloc_11=malloc((unsigned long int)curblocksize);
+                      out_blkinfo->blkdata = (char *)return_value_malloc_11;
                       if(out_blkinfo->blkdata == ((char *)NULL))
                       {
                         fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_block", 529, "cannot allocate block: malloc(%d) failed\n", curblocksize);
@@ -4461,9 +4461,9 @@ signed int archreader_read_block(struct s_archreader *ai, struct s_dico *in_blkd
 
                       memset((void *)out_blkinfo->blkdata, 0, (unsigned long int)curblocksize);
                       *out_sumok = 0;
-                      signed long int return_value_lseek64$12;
-                      return_value_lseek64$12=lseek64(ai->archfd, -((signed long long int)finalsize), 1);
-                      if(!(return_value_lseek64$12 >= 0l))
+                      signed long int return_value_lseek64_12;
+                      return_value_lseek64_12=lseek64(ai->archfd, -((signed long long int)finalsize), 1);
+                      if(!(return_value_lseek64_12 >= 0l))
                         fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_block", 536, "lseek64() failed\n");
 
                     }
@@ -4521,14 +4521,14 @@ signed int archreader_read_dico(struct s_archreader *ai, struct s_dico *d)
   assert(ai != ((struct s_archreader *)NULL));
   /* assertion d */
   assert(d != ((struct s_dico *)NULL));
-  signed int return_value_archreader_read_data$1;
-  signed int return_value_archreader_read_data$2;
+  signed int return_value_archreader_read_data_1;
+  signed int return_value_archreader_read_data_2;
   switch(ai->filefmtver)
   {
     case 1:
     {
-      return_value_archreader_read_data$1=archreader_read_data(ai, (void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
-      if(!(return_value_archreader_read_data$1 == 0))
+      return_value_archreader_read_data_1=archreader_read_data(ai, (void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
+      if(!(return_value_archreader_read_data_1 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_dico", 188, "imgdisk_read_data() failed\n");
         return 1;
@@ -4539,8 +4539,8 @@ signed int archreader_read_dico(struct s_archreader *ai, struct s_dico *d)
     }
     case 2:
     {
-      return_value_archreader_read_data$2=archreader_read_data(ai, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
-      if(!(return_value_archreader_read_data$2 == 0))
+      return_value_archreader_read_data_2=archreader_read_data(ai, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
+      if(!(return_value_archreader_read_data_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_dico", 195, "imgdisk_read_data() failed\n");
         return 1;
@@ -4555,9 +4555,9 @@ signed int archreader_read_dico(struct s_archreader *ai, struct s_dico *d)
       return 1;
     }
   }
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)headerlen);
-  buffer = (unsigned char *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)headerlen);
+  buffer = (unsigned char *)return_value_malloc_3;
   bufpos = buffer;
   if(buffer == ((unsigned char *)NULL))
   {
@@ -4567,9 +4567,9 @@ signed int archreader_read_dico(struct s_archreader *ai, struct s_dico *d)
 
   else
   {
-    signed int return_value_archreader_read_data$4;
-    return_value_archreader_read_data$4=archreader_read_data(ai, (void *)buffer, (unsigned long int)headerlen);
-    if(!(return_value_archreader_read_data$4 == 0))
+    signed int return_value_archreader_read_data_4;
+    return_value_archreader_read_data_4=archreader_read_data(ai, (void *)buffer, (unsigned long int)headerlen);
+    if(!(return_value_archreader_read_data_4 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_dico", 212, "cannot read header data\n");
       free((void *)buffer);
@@ -4578,9 +4578,9 @@ signed int archreader_read_dico(struct s_archreader *ai, struct s_dico *d)
 
     else
     {
-      signed int return_value_archreader_read_data$5;
-      return_value_archreader_read_data$5=archreader_read_data(ai, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
-      if(!(return_value_archreader_read_data$5 == 0))
+      signed int return_value_archreader_read_data_5;
+      return_value_archreader_read_data_5=archreader_read_data(ai, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
+      if(!(return_value_archreader_read_data_5 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_dico", 218, "cannot read header checksum\n");
         free((void *)buffer);
@@ -4616,9 +4616,9 @@ signed int archreader_read_dico(struct s_archreader *ai, struct s_dico *d)
             memcpy((void *)&temp16, (const void *)bufpos, sizeof(unsigned short int) /*2ul*/ );
             bufpos = bufpos + (signed long int)sizeof(unsigned short int) /*2ul*/ ;
             size = (unsigned short int)temp16;
-            signed int return_value_dico_add_generic$6;
-            return_value_dico_add_generic$6=dico_add_generic(d, section, key, (const void *)bufpos, size, type);
-            if(!(return_value_dico_add_generic$6 == 0))
+            signed int return_value_dico_add_generic_6;
+            return_value_dico_add_generic_6=dico_add_generic(d, section, key, (const void *)bufpos, size, type);
+            if(!(return_value_dico_add_generic_6 == 0))
               return 1;
 
             bufpos = bufpos + (signed long int)size;
@@ -4650,7 +4650,7 @@ signed int archreader_read_header(struct s_archreader *ai, char *magic, struct s
   *fsid = (unsigned short int)0xFFFF;
   *d = (struct s_dico *)(void *)0;
   *d=dico_alloc();
-  signed int return_value_is_magic_valid$2;
+  signed int return_value_is_magic_valid_2;
   if(*d == ((struct s_dico *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_header", 287, "dico_alloc() failed\n");
@@ -4677,9 +4677,9 @@ signed int archreader_read_header(struct s_archreader *ai, char *magic, struct s
 
       else
       {
-        signed int return_value_is_magic_valid$1;
-        return_value_is_magic_valid$1=is_magic_valid(magic);
-        if(!(return_value_is_magic_valid$1 == 1))
+        signed int return_value_is_magic_valid_1;
+        return_value_is_magic_valid_1=is_magic_valid(magic);
+        if(!(return_value_is_magic_valid_1 == 1))
         {
           if((signed int)allowseek == 1)
             goto __CPROVER_DUMP_L4;
@@ -4695,15 +4695,15 @@ signed int archreader_read_header(struct s_archreader *ai, char *magic, struct s
           ;
           do
           {
-            return_value_is_magic_valid$2=is_magic_valid(magic);
-            if(return_value_is_magic_valid$2 == 1)
+            return_value_is_magic_valid_2=is_magic_valid(magic);
+            if(return_value_is_magic_valid_2 == 1)
               break;
 
-            signed long int tmp_post$3 = curpos;
+            signed long int tmp_post_3 = curpos;
             curpos = curpos + 1l;
-            signed long int return_value_lseek64$4;
-            return_value_lseek64$4=lseek64(ai->archfd, tmp_post$3, 0);
-            if(!(return_value_lseek64$4 >= 0l))
+            signed long int return_value_lseek64_4;
+            return_value_lseek64_4=lseek64(ai->archfd, tmp_post_3, 0);
+            if(!(return_value_lseek64_4 >= 0l))
             {
               fsaprintf(0, (_Bool)1, (_Bool)1, "archreader.c", "archreader_read_header", 311, "lseek64(pos=%lld, SEEK_SET) failed\n", (signed long long int)curpos);
               return 1;
@@ -4787,11 +4787,11 @@ signed int archreader_read_volheader(struct s_archreader *ai)
   assert(ai != ((struct s_archreader *)NULL));
   memset((void *)magic, 0, sizeof(char [4l]) /*4ul*/ );
   res=archreader_read_header(ai, magic, &d, (_Bool)0, &fsid);
-  signed int return_value_dico_get_u32$2;
-  signed int return_value_dico_get_u32$3;
-  signed int return_value_dico_get_data$4;
-  signed int return_value_strncmp$5;
-  signed int return_value_dico_get_data$6;
+  signed int return_value_dico_get_u32_2;
+  signed int return_value_dico_get_u32_3;
+  signed int return_value_dico_get_data_4;
+  signed int return_value_strncmp_5;
+  signed int return_value_dico_get_data_6;
   if(!(res == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 368, "archreader_read_header() failed to read the archive header\n");
@@ -4800,9 +4800,9 @@ signed int archreader_read_volheader(struct s_archreader *ai)
 
   else
   {
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(magic, "FsA0", (unsigned long int)4);
-    if(!(return_value_strncmp$1 == 0))
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(magic, "FsA0", (unsigned long int)4);
+    if(!(return_value_strncmp_1 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 374, "magic is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"FsA0");
       ret = -1;
@@ -4810,8 +4810,8 @@ signed int archreader_read_volheader(struct s_archreader *ai)
 
     else
     {
-      return_value_dico_get_u32$2=dico_get_u32(d, (unsigned char)0, (unsigned short int)1, &readid);
-      if(!(return_value_dico_get_u32$2 == 0))
+      return_value_dico_get_u32_2=dico_get_u32(d, (unsigned char)0, (unsigned short int)1, &readid);
+      if(!(return_value_dico_get_u32_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 379, "cannot get VOLUMEHEADKEY_ARCHID from the volume header\n");
         ret = -1;
@@ -4830,8 +4830,8 @@ signed int archreader_read_volheader(struct s_archreader *ai)
             goto archio_read_volheader_error;
           }
 
-        return_value_dico_get_u32$3=dico_get_u32(d, (unsigned char)0, (unsigned short int)0, &volnum);
-        if(!(return_value_dico_get_u32$3 == 0))
+        return_value_dico_get_u32_3=dico_get_u32(d, (unsigned char)0, (unsigned short int)0, &volnum);
+        if(!(return_value_dico_get_u32_3 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 395, "cannot get VOLUMEHEADKEY_VOLNUM from the volume header\n");
           ret = -1;
@@ -4846,8 +4846,8 @@ signed int archreader_read_volheader(struct s_archreader *ai)
 
           else
           {
-            return_value_dico_get_data$4=dico_get_data(d, (unsigned char)0, (unsigned short int)2, (void *)filefmt, (unsigned short int)32, (unsigned short int *)(void *)0);
-            if(!(return_value_dico_get_data$4 == 0))
+            return_value_dico_get_data_4=dico_get_data(d, (unsigned char)0, (unsigned short int)2, (void *)filefmt, (unsigned short int)32, (unsigned short int *)(void *)0);
+            if(!(return_value_dico_get_data_4 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 405, "cannot find VOLUMEHEADKEY_FILEFORMATVER in main-header\n");
               ret = -1;
@@ -4860,8 +4860,8 @@ signed int archreader_read_volheader(struct s_archreader *ai)
 
               else
               {
-                return_value_strncmp$5=strncmp(filefmt, ai->filefmt, (unsigned long int)32);
-                if(!(return_value_strncmp$5 == 0))
+                return_value_strncmp_5=strncmp(filefmt, ai->filefmt, (unsigned long int)32);
+                if(!(return_value_strncmp_5 == 0))
                 {
                   fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 415, "This archive is based on a different file format: [%s]. Cannot continue.\n", (const void *)ai->filefmt);
                   fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 416, "It has been created with fsarchiver [%s], you should extrat the archive using that version.\n", (const void *)ai->creatver);
@@ -4871,8 +4871,8 @@ signed int archreader_read_volheader(struct s_archreader *ai)
                 }
 
               }
-              return_value_dico_get_data$6=dico_get_data(d, (unsigned char)0, (unsigned short int)3, (void *)creatver, (unsigned short int)32, (unsigned short int *)(void *)0);
-              if(!(return_value_dico_get_data$6 == 0))
+              return_value_dico_get_data_6=dico_get_data(d, (unsigned char)0, (unsigned short int)3, (void *)creatver, (unsigned short int)32, (unsigned short int *)(void *)0);
+              if(!(return_value_dico_get_data_6 == 0))
               {
                 fsaprintf(0, (_Bool)0, (_Bool)1, "archreader.c", "archreader_read_volheader", 422, "cannot find VOLUMEHEADKEY_PROGVERCREAT in main-header\n");
                 ret = -1;
@@ -4989,9 +4989,9 @@ signed int archwriter_dowrite_block(struct s_archwriter *ai, struct s_blockinfo 
 
   else
   {
-    signed int return_value_writebuf_add_block$1;
-    return_value_writebuf_add_block$1=writebuf_add_block(wb, blkinfo, ai->archid, blkinfo->blkfsid);
-    if(!(return_value_writebuf_add_block$1 == 0))
+    signed int return_value_writebuf_add_block_1;
+    return_value_writebuf_add_block_1=writebuf_add_block(wb, blkinfo, ai->archid, blkinfo->blkfsid);
+    if(!(return_value_writebuf_add_block_1 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_dowrite_block", 384, "archio_write_block() failed\n");
       return -1;
@@ -4999,9 +4999,9 @@ signed int archwriter_dowrite_block(struct s_archwriter *ai, struct s_blockinfo 
 
     else
     {
-      signed int return_value_archwriter_split_if_necessary$2;
-      return_value_archwriter_split_if_necessary$2=archwriter_split_if_necessary(ai, wb);
-      if(!(return_value_archwriter_split_if_necessary$2 == 0))
+      signed int return_value_archwriter_split_if_necessary_2;
+      return_value_archwriter_split_if_necessary_2=archwriter_split_if_necessary(ai, wb);
+      if(!(return_value_archwriter_split_if_necessary_2 == 0))
       {
         fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_dowrite_block", 389, "archwriter_split_if_necessary() failed\n");
         return -1;
@@ -5009,9 +5009,9 @@ signed int archwriter_dowrite_block(struct s_archwriter *ai, struct s_blockinfo 
 
       else
       {
-        signed int return_value_archwriter_write_buffer$3;
-        return_value_archwriter_write_buffer$3=archwriter_write_buffer(ai, wb);
-        if(!(return_value_archwriter_write_buffer$3 == 0))
+        signed int return_value_archwriter_write_buffer_3;
+        return_value_archwriter_write_buffer_3=archwriter_write_buffer(ai, wb);
+        if(!(return_value_archwriter_write_buffer_3 == 0))
         {
           fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_dowrite_block", 394, "archwriter_write_buffer() failed\n");
           return -1;
@@ -5043,9 +5043,9 @@ signed int archwriter_dowrite_header(struct s_archwriter *ai, struct s_headinfo 
 
   else
   {
-    signed int return_value_writebuf_add_header$1;
-    return_value_writebuf_add_header$1=writebuf_add_header(wb, headinfo->dico, headinfo->magic, ai->archid, headinfo->fsid);
-    if(!(return_value_writebuf_add_header$1 == 0))
+    signed int return_value_writebuf_add_header_1;
+    return_value_writebuf_add_header_1=writebuf_add_header(wb, headinfo->dico, headinfo->magic, ai->archid, headinfo->fsid);
+    if(!(return_value_writebuf_add_header_1 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_dowrite_header", 414, "archio_write_block() failed\n");
       return -1;
@@ -5053,9 +5053,9 @@ signed int archwriter_dowrite_header(struct s_archwriter *ai, struct s_headinfo 
 
     else
     {
-      signed int return_value_archwriter_split_if_necessary$2;
-      return_value_archwriter_split_if_necessary$2=archwriter_split_if_necessary(ai, wb);
-      if(!(return_value_archwriter_split_if_necessary$2 == 0))
+      signed int return_value_archwriter_split_if_necessary_2;
+      return_value_archwriter_split_if_necessary_2=archwriter_split_if_necessary(ai, wb);
+      if(!(return_value_archwriter_split_if_necessary_2 == 0))
       {
         fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_dowrite_header", 419, "archwriter_split_if_necessary() failed\n");
         return -1;
@@ -5063,9 +5063,9 @@ signed int archwriter_dowrite_header(struct s_archwriter *ai, struct s_headinfo 
 
       else
       {
-        signed int return_value_archwriter_write_buffer$3;
-        return_value_archwriter_write_buffer$3=archwriter_write_buffer(ai, wb);
-        if(!(return_value_archwriter_write_buffer$3 == 0))
+        signed int return_value_archwriter_write_buffer_3;
+        return_value_archwriter_write_buffer_3=archwriter_write_buffer(ai, wb);
+        if(!(return_value_archwriter_write_buffer_3 == 0))
         {
           fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_dowrite_header", 424, "archwriter_write_buffer() failed\n");
           return -1;
@@ -5097,9 +5097,9 @@ signed long int archwriter_get_currentpos(struct s_archwriter *ai)
 {
   /* assertion ai */
   assert(ai != ((struct s_archwriter *)NULL));
-  signed long int return_value_lseek64$1;
-  return_value_lseek64$1=lseek64(ai->archfd, (signed long int)0, 1);
-  return (signed long int)return_value_lseek64$1;
+  signed long int return_value_lseek64_1;
+  return_value_lseek64_1=lseek64(ai->archfd, (signed long int)0, 1);
+  return (signed long int)return_value_lseek64_1;
 }
 
 // archwriter_incvolume
@@ -5109,9 +5109,9 @@ signed int archwriter_incvolume(struct s_archwriter *ai, _Bool waitkeypress)
   /* assertion ai */
   assert(ai != ((struct s_archwriter *)NULL));
   ai->curvol = ai->curvol + 1u;
-  signed int return_value_archwriter_volpath$1;
-  return_value_archwriter_volpath$1=archwriter_volpath(ai);
-  return return_value_archwriter_volpath$1;
+  signed int return_value_archwriter_volpath_1;
+  return_value_archwriter_volpath_1=archwriter_volpath(ai);
+  return return_value_archwriter_volpath_1;
 }
 
 // archwriter_init
@@ -5137,9 +5137,9 @@ signed int archwriter_is_path_to_curvol(struct s_archwriter *ai, char *path)
   assert(ai != ((struct s_archwriter *)NULL));
   /* assertion path */
   assert(path != ((char *)NULL));
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(ai->volpath, path, (unsigned long int)4096);
-  return return_value_strncmp$1 == 0 ? 1 : 0;
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(ai->volpath, path, (unsigned long int)4096);
+  return return_value_strncmp_1 == 0 ? 1 : 0;
 }
 
 // archwriter_remove
@@ -5160,13 +5160,13 @@ signed int archwriter_remove(struct s_archwriter *ai)
     i = 0;
     for( ; !(i >= count); i = i + 1)
     {
-      signed int return_value_strlist_getitem$2;
-      return_value_strlist_getitem$2=strlist_getitem(&ai->vollist, i, volpath, (signed int)sizeof(char [4096l]) /*4096ul*/ );
-      if(return_value_strlist_getitem$2 == 0)
+      signed int return_value_strlist_getitem_2;
+      return_value_strlist_getitem_2=strlist_getitem(&ai->vollist, i, volpath, (signed int)sizeof(char [4096l]) /*4096ul*/ );
+      if(return_value_strlist_getitem_2 == 0)
       {
-        signed int return_value_unlink$1;
-        return_value_unlink$1=unlink(volpath);
-        if(return_value_unlink$1 == 0)
+        signed int return_value_unlink_1;
+        return_value_unlink_1=unlink(volpath);
+        if(return_value_unlink_1 == 0)
           fsaprintf(0, (_Bool)0, 0 >= 3, "archwriter.c", "archwriter_remove", 169, "removed %s\n", (const void *)volpath);
 
         else
@@ -5187,21 +5187,21 @@ signed int archwriter_split_check(struct s_archwriter *ai, struct s_writebuf *wb
   /* assertion ai */
   assert(ai != ((struct s_archwriter *)NULL));
   cursize=archwriter_get_currentpos(ai);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(cursize >= 0l)
   {
     if(g_options.splitsize >= 1ul)
-      tmp_if_expr$1 = (unsigned long int)cursize + wb->size > g_options.splitsize ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (unsigned long int)cursize + wb->size > g_options.splitsize ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     fsaprintf(7, (_Bool)0, 7 >= 3, "archwriter.c", "archwriter_split_check", 336, "splitchk: YES --> cursize=%lld, g_options.splitsize=%lld, cursize+wb->size=%lld, wb->size=%lld\n", (signed long long int)cursize, (signed long long int)g_options.splitsize, (unsigned long int)(signed long long int)cursize + wb->size, (signed long long int)wb->size);
     return 1;
@@ -5220,13 +5220,13 @@ signed int archwriter_split_if_necessary(struct s_archwriter *ai, struct s_write
 {
   /* assertion ai */
   assert(ai != ((struct s_archwriter *)NULL));
-  signed int return_value_archwriter_split_check$4;
-  return_value_archwriter_split_check$4=archwriter_split_check(ai, wb);
-  if(return_value_archwriter_split_check$4 == 1)
+  signed int return_value_archwriter_split_check_4;
+  return_value_archwriter_split_check_4=archwriter_split_check(ai, wb);
+  if(return_value_archwriter_split_check_4 == 1)
   {
-    signed int return_value_archwriter_write_volfooter$1;
-    return_value_archwriter_write_volfooter$1=archwriter_write_volfooter(ai, (_Bool)0);
-    if(!(return_value_archwriter_write_volfooter$1 == 0))
+    signed int return_value_archwriter_write_volfooter_1;
+    return_value_archwriter_write_volfooter_1=archwriter_write_volfooter(ai, (_Bool)0);
+    if(!(return_value_archwriter_write_volfooter_1 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_split_if_necessary", 354, "cannot write volume footer: archio_write_volfooter() failed\n");
       return -1;
@@ -5235,17 +5235,17 @@ signed int archwriter_split_if_necessary(struct s_archwriter *ai, struct s_write
     archwriter_close(ai);
     archwriter_incvolume(ai, (_Bool)0);
     fsaprintf(2, (_Bool)0, 2 >= 3, "archwriter.c", "archwriter_split_if_necessary", 359, "Creating new volume: [%s]\n", (const void *)ai->volpath);
-    signed int return_value_archwriter_create$2;
-    return_value_archwriter_create$2=archwriter_create(ai);
-    if(!(return_value_archwriter_create$2 == 0))
+    signed int return_value_archwriter_create_2;
+    return_value_archwriter_create_2=archwriter_create(ai);
+    if(!(return_value_archwriter_create_2 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_split_if_necessary", 361, "archwriter_create() failed\n");
       return -1;
     }
 
-    signed int return_value_archwriter_write_volheader$3;
-    return_value_archwriter_write_volheader$3=archwriter_write_volheader(ai);
-    if(!(return_value_archwriter_write_volheader$3 == 0))
+    signed int return_value_archwriter_write_volheader_3;
+    return_value_archwriter_write_volheader_3=archwriter_write_volheader(ai);
+    if(!(return_value_archwriter_write_volheader_3 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_split_if_necessary", 365, "cannot write volume header: archio_write_volheader() failed\n");
       return -1;
@@ -5288,26 +5288,26 @@ signed int archwriter_write_buffer(struct s_archwriter *ai, struct s_writebuf *w
     if(!(lres == (signed long int)wb->size))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "archwriter.c", "archwriter_write_buffer", 200, "write(size=%ld) returned %ld\n", (signed long int)wb->size, (signed long int)lres);
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(lres >= 1l)
-        tmp_if_expr$3 = lres < (signed long int)wb->size ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = lres < (signed long int)wb->size ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        signed int return_value_fstatvfs64$1;
-        return_value_fstatvfs64$1=fstatvfs64(ai->archfd, &statvfsbuf);
-        if(!(return_value_fstatvfs64$1 == 0))
+        signed int return_value_fstatvfs64_1;
+        return_value_fstatvfs64_1=fstatvfs64(ai->archfd, &statvfsbuf);
+        if(!(return_value_fstatvfs64_1 == 0))
         {
           fsaprintf(0, (_Bool)1, (_Bool)1, "archwriter.c", "archwriter_write_buffer", 204, "fstatvfs(fd=%d) failed\n", ai->archfd);
           return -1;
         }
 
         unsigned long int freebytes = statvfsbuf.f_bfree * statvfsbuf.f_bsize;
-        char *return_value_format_size$2;
-        return_value_format_size$2=format_size(freebytes, textbuf, (signed int)sizeof(char [128l]) /*128ul*/ , (char)104);
-        fsaprintf(0, (_Bool)0, (_Bool)1, "archwriter.c", "archwriter_write_buffer", 212, "Can't write to the archive file. Space on device is %s. \nIf the archive is being written to a FAT filesystem, you may have reached \nthe maximum filesize that it can handle (in general 2 GB)\n", return_value_format_size$2);
+        char *return_value_format_size_2;
+        return_value_format_size_2=format_size(freebytes, textbuf, (signed int)sizeof(char [128l]) /*128ul*/ , (char)104);
+        fsaprintf(0, (_Bool)0, (_Bool)1, "archwriter.c", "archwriter_write_buffer", 212, "Can't write to the archive file. Space on device is %s. \nIf the archive is being written to a FAT filesystem, you may have reached \nthe maximum filesize that it can handle (in general 2 GB)\n", return_value_format_size_2);
         return -1;
       }
 
@@ -5351,9 +5351,9 @@ signed int archwriter_write_volfooter(struct s_archwriter *ai, _Bool lastvol)
       dico_add_u32(voldico, (unsigned char)0, (unsigned short int)0, ai->curvol);
       dico_add_u32(voldico, (unsigned char)0, (unsigned short int)1, ai->archid);
       dico_add_u32(voldico, (unsigned char)0, (unsigned short int)2, (unsigned int)lastvol);
-      signed int return_value_writebuf_add_header$1;
-      return_value_writebuf_add_header$1=writebuf_add_header(wb, voldico, "FsAE", ai->archid, (unsigned short int)0xFFFF);
-      if(!(return_value_writebuf_add_header$1 == 0))
+      signed int return_value_writebuf_add_header_1;
+      return_value_writebuf_add_header_1=writebuf_add_header(wb, voldico, "FsAE", ai->archid, (unsigned short int)0xFFFF);
+      if(!(return_value_writebuf_add_header_1 == 0))
       {
         fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_write_volfooter", 311, "archio_write_header() failed\n");
         return -1;
@@ -5361,9 +5361,9 @@ signed int archwriter_write_volfooter(struct s_archwriter *ai, _Bool lastvol)
 
       else
       {
-        signed int return_value_archwriter_write_buffer$2;
-        return_value_archwriter_write_buffer$2=archwriter_write_buffer(ai, wb);
-        if(!(return_value_archwriter_write_buffer$2 == 0))
+        signed int return_value_archwriter_write_buffer_2;
+        return_value_archwriter_write_buffer_2=archwriter_write_buffer(ai, wb);
+        if(!(return_value_archwriter_write_buffer_2 == 0))
         {
           fsaprintf(3, (_Bool)0, 3 >= 3, "archwriter.c", "archwriter_write_volfooter", 317, "archwriter_write_data(size=%ld) failed\n", (signed long int)wb->size);
           return -1;
@@ -5410,9 +5410,9 @@ signed int archwriter_write_volheader(struct s_archwriter *ai)
       dico_add_u32(voldico, (unsigned char)0, (unsigned short int)1, ai->archid);
       dico_add_string(voldico, (unsigned char)0, (unsigned short int)2, "FsArCh_002");
       dico_add_string(voldico, (unsigned char)0, (unsigned short int)3, "0.6.22");
-      signed int return_value_writebuf_add_header$1;
-      return_value_writebuf_add_header$1=writebuf_add_header(wb, voldico, "FsA0", ai->archid, (unsigned short int)0xFFFF);
-      if(!(return_value_writebuf_add_header$1 == 0))
+      signed int return_value_writebuf_add_header_1;
+      return_value_writebuf_add_header_1=writebuf_add_header(wb, voldico, "FsA0", ai->archid, (unsigned short int)0xFFFF);
+      if(!(return_value_writebuf_add_header_1 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "archwriter.c", "archwriter_write_volheader", 271, "archio_write_header() failed\n");
         return -1;
@@ -5420,9 +5420,9 @@ signed int archwriter_write_volheader(struct s_archwriter *ai)
 
       else
       {
-        signed int return_value_archwriter_write_buffer$2;
-        return_value_archwriter_write_buffer$2=archwriter_write_buffer(ai, wb);
-        if(!(return_value_archwriter_write_buffer$2 == 0))
+        signed int return_value_archwriter_write_buffer_2;
+        return_value_archwriter_write_buffer_2=archwriter_write_buffer(ai, wb);
+        if(!(return_value_archwriter_write_buffer_2 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "archwriter.c", "archwriter_write_volheader", 277, "archwriter_write_buffer() failed\n");
           return -1;
@@ -5482,10 +5482,10 @@ signed int btrfs_getinfo(struct s_dico *d, char *devname)
   signed int ret = 0;
   signed int fd;
   fd=open64(devname, 00 | 0);
-  signed long int return_value_lseek$1;
-  signed long int return_value_read$2;
-  signed int return_value_strncmp$3;
-  signed int return_value_btrfs_check_compatibility$4;
+  signed long int return_value_lseek_1;
+  signed long int return_value_read_2;
+  signed int return_value_strncmp_3;
+  signed int return_value_btrfs_check_compatibility_4;
   if(!(fd >= 0))
   {
     ret = -1;
@@ -5494,8 +5494,8 @@ signed int btrfs_getinfo(struct s_dico *d, char *devname)
 
   else
   {
-    return_value_lseek$1=lseek(fd, (signed long int)(64 * 1024), 0);
-    if(!(return_value_lseek$1 == 65536l))
+    return_value_lseek_1=lseek(fd, (signed long int)(64 * 1024), 0);
+    if(!(return_value_lseek_1 == 65536l))
     {
       ret = -2;
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_btrfs.c", "btrfs_getinfo", 121, "cannot lseek(fd, BTRFS_SUPER_INFO_OFFSET, SEEK_SET) on %s\n", devname);
@@ -5503,8 +5503,8 @@ signed int btrfs_getinfo(struct s_dico *d, char *devname)
 
     else
     {
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct btrfs_super_block) /*2859ul*/ );
-      if(!((unsigned long int)return_value_read$2 == sizeof(struct btrfs_super_block) /*2859ul*/ ))
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct btrfs_super_block) /*2859ul*/ );
+      if(!((unsigned long int)return_value_read_2 == sizeof(struct btrfs_super_block) /*2859ul*/ ))
       {
         ret = -3;
         fsaprintf(0, (_Bool)0, (_Bool)1, "fs_btrfs.c", "btrfs_getinfo", 127, "cannot read the btrfs superblock on device [%s]\n", devname);
@@ -5512,8 +5512,8 @@ signed int btrfs_getinfo(struct s_dico *d, char *devname)
 
       else
       {
-        return_value_strncmp$3=strncmp((char *)&sb.magic, "_BHRfS_M", sizeof(unsigned long long int) /*8ul*/ );
-        if(!(return_value_strncmp$3 == 0))
+        return_value_strncmp_3=strncmp((char *)&sb.magic, "_BHRfS_M", sizeof(unsigned long long int) /*8ul*/ );
+        if(!(return_value_strncmp_3 == 0))
         {
           ret = -4;
           fsaprintf(0, (_Bool)0, (_Bool)1, "fs_btrfs.c", "btrfs_getinfo", 133, "magic different from expectations superblock on [%s]: magic=[%.8s], expected=[%.8s]\n", devname, (char *)&sb.magic, (const void *)"_BHRfS_M");
@@ -5533,8 +5533,8 @@ signed int btrfs_getinfo(struct s_dico *d, char *devname)
           dico_add_u64(d, (unsigned char)0, (unsigned short int)21, (unsigned long int)sb.compat_flags);
           dico_add_u64(d, (unsigned char)0, (unsigned short int)22, (unsigned long int)sb.incompat_flags);
           dico_add_u64(d, (unsigned char)0, (unsigned short int)23, (unsigned long int)sb.compat_ro_flags);
-          return_value_btrfs_check_compatibility$4=btrfs_check_compatibility((unsigned long int)sb.compat_flags, (unsigned long int)sb.incompat_flags, (unsigned long int)sb.compat_ro_flags);
-          if(!(return_value_btrfs_check_compatibility$4 == 0))
+          return_value_btrfs_check_compatibility_4=btrfs_check_compatibility((unsigned long int)sb.compat_flags, (unsigned long int)sb.incompat_flags, (unsigned long int)sb.compat_ro_flags);
+          if(!(return_value_btrfs_check_compatibility_4 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "fs_btrfs.c", "btrfs_getinfo", 159, "this filesystem has features which are not supported by this fsarchiver version.\n");
             return -1;
@@ -5567,39 +5567,39 @@ signed int btrfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   unsigned long int compat_ro_flags;
   signed int exitst;
   unsigned long int temp64;
-  signed int return_value_dico_get_u64$1;
-  return_value_dico_get_u64$1=dico_get_u64(d, (unsigned char)0, (unsigned short int)21, &compat_flags);
-  _Bool tmp_if_expr$3;
-  signed int return_value_dico_get_u64$2;
-  if(!(return_value_dico_get_u64$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_dico_get_u64_1;
+  return_value_dico_get_u64_1=dico_get_u64(d, (unsigned char)0, (unsigned short int)21, &compat_flags);
+  _Bool tmp_if_expr_3;
+  signed int return_value_dico_get_u64_2;
+  if(!(return_value_dico_get_u64_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_dico_get_u64$2=dico_get_u64(d, (unsigned char)0, (unsigned short int)22, &incompat_flags);
-    tmp_if_expr$3 = return_value_dico_get_u64$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_dico_get_u64_2=dico_get_u64(d, (unsigned char)0, (unsigned short int)22, &incompat_flags);
+    tmp_if_expr_3 = return_value_dico_get_u64_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_dico_get_u64$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_dico_get_u64_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_dico_get_u64$4=dico_get_u64(d, (unsigned char)0, (unsigned short int)23, &compat_ro_flags);
-    tmp_if_expr$5 = return_value_dico_get_u64$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_dico_get_u64_4=dico_get_u64(d, (unsigned char)0, (unsigned short int)23, &compat_ro_flags);
+    tmp_if_expr_5 = return_value_dico_get_u64_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
   {
     compat_flags = (unsigned long int)0;
     incompat_flags = (unsigned long int)0;
     compat_ro_flags = (unsigned long int)0;
   }
 
-  signed int return_value_btrfs_check_compatibility$6;
-  return_value_btrfs_check_compatibility$6=btrfs_check_compatibility(compat_flags, incompat_flags, compat_ro_flags);
-  unsigned long int return_value_strlen$8;
-  if(!(return_value_btrfs_check_compatibility$6 == 0))
+  signed int return_value_btrfs_check_compatibility_6;
+  return_value_btrfs_check_compatibility_6=btrfs_check_compatibility(compat_flags, incompat_flags, compat_ro_flags);
+  unsigned long int return_value_strlen_8;
+  if(!(return_value_btrfs_check_compatibility_6 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_btrfs.c", "btrfs_mkfs", 76, "this filesystem has features which are not supported by this fsarchiver version.\n");
     return -1;
@@ -5607,9 +5607,9 @@ signed int btrfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 
   else
   {
-    signed int return_value_exec_command$7;
-    return_value_exec_command$7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.btrfs");
-    if(!(return_value_exec_command$7 == 0))
+    signed int return_value_exec_command_7;
+    return_value_exec_command_7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.btrfs");
+    if(!(return_value_exec_command_7 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_btrfs.c", "btrfs_mkfs", 82, "mkfs.btrfs not found. please install btrfs-progs on your system or check the PATH.\n");
       return -1;
@@ -5619,24 +5619,24 @@ signed int btrfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
     {
       memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " %s ", fsoptions);
-      signed int return_value_dico_get_string$9;
-      return_value_dico_get_string$9=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-      if(return_value_dico_get_string$9 == 0)
+      signed int return_value_dico_get_string_9;
+      return_value_dico_get_string_9=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+      if(return_value_dico_get_string_9 == 0)
       {
-        return_value_strlen$8=strlen(buffer);
-        if(return_value_strlen$8 >= 1ul)
+        return_value_strlen_8=strlen(buffer);
+        if(return_value_strlen_8 >= 1ul)
           strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -L '%s' ", (const void *)buffer);
 
       }
 
-      signed int return_value_dico_get_u64$10;
-      return_value_dico_get_u64$10=dico_get_u64(d, (unsigned char)0, (unsigned short int)18, &temp64);
-      if(return_value_dico_get_u64$10 == 0)
+      signed int return_value_dico_get_u64_10;
+      return_value_dico_get_u64_10=dico_get_u64(d, (unsigned char)0, (unsigned short int)18, &temp64);
+      if(return_value_dico_get_u64_10 == 0)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -s %ld ", (signed long int)temp64);
 
-      signed int return_value_exec_command$11;
-      return_value_exec_command$11=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.btrfs -f %s %s", partition, (const void *)options);
-      if(!(return_value_exec_command$11 == 0) || !(exitst == 0))
+      signed int return_value_exec_command_11;
+      return_value_exec_command_11=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.btrfs -f %s %s", partition, (const void *)options);
+      if(!(return_value_exec_command_11 == 0) || !(exitst == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "fs_btrfs.c", "btrfs_mkfs", 98, "command [%s] failed\n", (const void *)command);
         return -1;
@@ -5652,9 +5652,9 @@ signed int btrfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 // file fs_btrfs.c line 172
 signed int btrfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int flags, char *mntinfo)
 {
-  signed int return_value_generic_mount$1;
-  return_value_generic_mount$1=generic_mount(partition, mntbuf, fsbuf, (char *)(void *)0, flags);
-  return return_value_generic_mount$1;
+  signed int return_value_generic_mount_1;
+  return_value_generic_mount_1=generic_mount(partition, mntbuf, fsbuf, (char *)(void *)0, flags);
+  return return_value_generic_mount_1;
 }
 
 // btrfs_test
@@ -5669,9 +5669,9 @@ signed int btrfs_test(char *devname)
 
   else
   {
-    signed long int return_value_lseek$1;
-    return_value_lseek$1=lseek(fd, (signed long int)(64 * 1024), 0);
-    if(!(return_value_lseek$1 == 65536l))
+    signed long int return_value_lseek_1;
+    return_value_lseek_1=lseek(fd, (signed long int)(64 * 1024), 0);
+    if(!(return_value_lseek_1 == 65536l))
     {
       close(fd);
       return 0;
@@ -5679,9 +5679,9 @@ signed int btrfs_test(char *devname)
 
     else
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct btrfs_super_block) /*2859ul*/ );
-      if(!((unsigned long int)return_value_read$2 == sizeof(struct btrfs_super_block) /*2859ul*/ ))
+      signed long int return_value_read_2;
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct btrfs_super_block) /*2859ul*/ );
+      if(!((unsigned long int)return_value_read_2 == sizeof(struct btrfs_super_block) /*2859ul*/ ))
       {
         close(fd);
         return 0;
@@ -5689,9 +5689,9 @@ signed int btrfs_test(char *devname)
 
       else
       {
-        signed int return_value_strncmp$3;
-        return_value_strncmp$3=strncmp((char *)&sb.magic, "_BHRfS_M", sizeof(unsigned long long int) /*8ul*/ );
-        if(!(return_value_strncmp$3 == 0))
+        signed int return_value_strncmp_3;
+        return_value_strncmp_3=strncmp((char *)&sb.magic, "_BHRfS_M", sizeof(unsigned long long int) /*8ul*/ );
+        if(!(return_value_strncmp_3 == 0))
         {
           close(fd);
           return 0;
@@ -5711,9 +5711,9 @@ signed int btrfs_test(char *devname)
 // file fs_btrfs.c line 177
 signed int btrfs_umount(char *partition, char *mntbuf)
 {
-  signed int return_value_generic_umount$1;
-  return_value_generic_umount$1=generic_umount(mntbuf);
-  return return_value_generic_umount$1;
+  signed int return_value_generic_umount_1;
+  return_value_generic_umount_1=generic_umount(mntbuf);
+  return return_value_generic_umount_1;
 }
 
 // check_prog_version
@@ -5733,9 +5733,9 @@ unsigned long int check_prog_version(char *prog)
   signed int z;
   memset((void *)options, 0, sizeof(char [1024l]) /*1024ul*/ );
   memset((void *)stderrbuf, 0, sizeof(char [2048l]) /*2048ul*/ );
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, stderrbuf, (signed int)sizeof(char [2048l]) /*2048ul*/ , "%s -V", prog);
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, stderrbuf, (signed int)sizeof(char [2048l]) /*2048ul*/ , "%s -V", prog);
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "check_prog_version", 531, "program %s was not found or has bad permissions.\n", prog);
     return (unsigned long int)-1;
@@ -5747,11 +5747,11 @@ unsigned long int check_prog_version(char *prog)
     result=strtok_r(stderrbuf, delims, &saveptr);
     while(foundversion == 0 && !(result == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(prog);
-      signed int return_value_memcmp$3;
-      return_value_memcmp$3=memcmp((const void *)result, (const void *)prog, return_value_strlen$2);
-      if(return_value_memcmp$3 == 0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(prog);
+      signed int return_value_memcmp_3;
+      return_value_memcmp_3=memcmp((const void *)result, (const void *)prog, return_value_strlen_2);
+      if(return_value_memcmp_3 == 0)
         foundversion = 1;
 
       else
@@ -5807,11 +5807,11 @@ char * compalgostr(signed int algo)
 signed int compress_block_bzip2(unsigned long int origsize, unsigned long int *compsize, unsigned char *origbuf, unsigned char *compbuf, unsigned long int compbufsize, signed int level)
 {
   unsigned int destsize = (unsigned int)compbufsize;
-  signed int return_value_BZ2_bzBuffToBuffCompress$1;
-  return_value_BZ2_bzBuffToBuffCompress$1=BZ2_bzBuffToBuffCompress((char *)compbuf, &destsize, (char *)origbuf, (unsigned int)origsize, 9, 0, 30);
-  if(!(return_value_BZ2_bzBuffToBuffCompress$1 == 0))
+  signed int return_value_BZ2_bzBuffToBuffCompress_1;
+  return_value_BZ2_bzBuffToBuffCompress_1=BZ2_bzBuffToBuffCompress((char *)compbuf, &destsize, (char *)origbuf, (unsigned int)origsize, 9, 0, 30);
+  if(!(return_value_BZ2_bzBuffToBuffCompress_1 == 0))
   {
-    if(return_value_BZ2_bzBuffToBuffCompress$1 == -3)
+    if(return_value_BZ2_bzBuffToBuffCompress_1 == -3)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -5842,11 +5842,11 @@ signed int compress_block_generic(struct s_blockinfo *blkinfo)
   unsigned long int bufsize;
   signed int res;
   bufsize = (unsigned long int)(blkinfo->blkrealsize + blkinfo->blkrealsize / (unsigned int)16 + (unsigned int)64 + (unsigned int)3);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(bufsize);
-  bufcomp = (char *)return_value_malloc$1;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(bufsize);
+  bufcomp = (char *)return_value_malloc_1;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_2;
   if(bufcomp == ((char *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "thread_comp.c", "compress_block_generic", 53, "malloc(%ld) failed: out of memory\n", (signed long int)bufsize);
@@ -5901,24 +5901,24 @@ signed int compress_block_generic(struct s_blockinfo *blkinfo)
 
       if(res == -2)
       {
-        tmp_post$2 = attempt;
+        tmp_post_2 = attempt;
         attempt = attempt + 1;
-        tmp_if_expr$3 = tmp_post$2 == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = tmp_post_2 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
     }
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if(res == 0)
-      tmp_if_expr$4 = compsize < (unsigned long int)blkinfo->blkrealsize ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = compsize < (unsigned long int)blkinfo->blkrealsize ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       free((void *)blkinfo->blkdata);
       blkinfo->blkdata = bufcomp;
@@ -5939,18 +5939,18 @@ signed int compress_block_generic(struct s_blockinfo *blkinfo)
     char *bufcrypt = (char *)(void *)0;
     if((signed int)g_options.encryptalgo == 2)
     {
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(bufsize + (unsigned long int)8);
-      bufcrypt = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(bufsize + (unsigned long int)8);
+      bufcrypt = (char *)return_value_malloc_5;
       if(bufcrypt == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "thread_comp.c", "compress_block_generic", 125, "malloc(%ld) failed: out of memory\n", (signed long int)bufsize + (signed long int)8);
         return -1;
       }
 
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen((char *)g_options.encryptpass);
-      res=crypto_blowfish((unsigned long int)blkinfo->blkcompsize, &cryptsize, (unsigned char *)bufcomp, (unsigned char *)bufcrypt, g_options.encryptpass, (signed int)return_value_strlen$6, 1);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen((char *)g_options.encryptpass);
+      res=crypto_blowfish((unsigned long int)blkinfo->blkcompsize, &cryptsize, (unsigned char *)bufcomp, (unsigned char *)bufcrypt, g_options.encryptpass, (signed int)return_value_strlen_6, 1);
       if(!(res == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "thread_comp.c", "compress_block_generic", 130, "crypt_block_blowfish() failed\n");
@@ -5978,11 +5978,11 @@ signed int compress_block_gzip(unsigned long int origsize, unsigned long int *co
   unsigned char *gzbuffer;
   gzsize = (unsigned long int)compbufsize;
   gzbuffer = (unsigned char *)compbuf;
-  signed int return_value_compress2$1;
-  return_value_compress2$1=compress2(gzbuffer, &gzsize, (const unsigned char *)origbuf, (unsigned long int)origsize, level);
-  if(!(return_value_compress2$1 == 0))
+  signed int return_value_compress2_1;
+  return_value_compress2_1=compress2(gzbuffer, &gzsize, (const unsigned char *)origbuf, (unsigned long int)origsize, level);
+  if(!(return_value_compress2_1 == 0))
   {
-    if(return_value_compress2$1 == -4)
+    if(return_value_compress2_1 == -4)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -6004,10 +6004,10 @@ signed int compress_block_gzip(unsigned long int origsize, unsigned long int *co
 // file comp_lzma.h line 23
 signed int compress_block_lzma(unsigned long int origsize, unsigned long int *compsize, unsigned char *origbuf, unsigned char *compbuf, unsigned long int compbufsize, signed int level)
 {
-  struct anonymous$13 lzma = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_13 lzma = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$12 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_12 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -6015,16 +6015,16 @@ signed int compress_block_lzma(unsigned long int origsize, unsigned long int *co
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$9)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$9)LZMA_RESERVED_ENUM };
+    .reserved_enum1=(enum anonymous_9)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_9)LZMA_RESERVED_ENUM };
   signed int res;
   lzma.next_in = origbuf;
   lzma.avail_in = origsize;
   lzma.next_out = compbuf;
   lzma.avail_out = compbufsize;
-  enum anonymous$10 return_value_lzma_easy_encoder$1;
-  return_value_lzma_easy_encoder$1=lzma_easy_encoder(&lzma, (unsigned int)level, (enum anonymous$14)LZMA_CHECK_CRC32);
-  res = (signed int)return_value_lzma_easy_encoder$1;
+  enum anonymous_10 return_value_lzma_easy_encoder_1;
+  return_value_lzma_easy_encoder_1=lzma_easy_encoder(&lzma, (unsigned int)level, (enum anonymous_14)LZMA_CHECK_CRC32);
+  res = (signed int)return_value_lzma_easy_encoder_1;
   if(!(res == LZMA_OK))
   {
     if(res == LZMA_MEM_ERROR)
@@ -6041,9 +6041,9 @@ signed int compress_block_lzma(unsigned long int origsize, unsigned long int *co
 
   else
   {
-    enum anonymous$10 return_value_lzma_code$2;
-    return_value_lzma_code$2=lzma_code(&lzma, (enum anonymous$11)LZMA_RUN);
-    res = (signed int)return_value_lzma_code$2;
+    enum anonymous_10 return_value_lzma_code_2;
+    return_value_lzma_code_2=lzma_code(&lzma, (enum anonymous_11)LZMA_RUN);
+    res = (signed int)return_value_lzma_code_2;
     if(!(res == LZMA_OK))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "comp_lzma.c", "compress_block_lzma", 60, "lzma_code(LZMA_RUN) failed with res=%d\n", res);
@@ -6053,9 +6053,9 @@ signed int compress_block_lzma(unsigned long int origsize, unsigned long int *co
 
     else
     {
-      enum anonymous$10 return_value_lzma_code$3;
-      return_value_lzma_code$3=lzma_code(&lzma, (enum anonymous$11)LZMA_FINISH);
-      res = (signed int)return_value_lzma_code$3;
+      enum anonymous_10 return_value_lzma_code_3;
+      return_value_lzma_code_3=lzma_code(&lzma, (enum anonymous_11)LZMA_FINISH);
+      res = (signed int)return_value_lzma_code_3;
       if(!(res == LZMA_STREAM_END))
       {
         if(res == LZMA_OK)
@@ -6085,11 +6085,11 @@ signed int compress_block_lzo(unsigned long int origsize, unsigned long int *com
 {
   unsigned long int destsize = (unsigned long int)compbufsize;
   char workmem[(signed long int)(sizeof(unsigned char *) * 16384) /*131072l*/ ];
-  signed int return_value_lzo1x_1_compress$1;
-  return_value_lzo1x_1_compress$1=lzo1x_1_compress((unsigned char *)origbuf, (unsigned long int)origsize, (unsigned char *)compbuf, (unsigned long int *)&destsize, (void *)workmem);
-  if(!(return_value_lzo1x_1_compress$1 == 0))
+  signed int return_value_lzo1x_1_compress_1;
+  return_value_lzo1x_1_compress_1=lzo1x_1_compress((unsigned char *)origbuf, (unsigned long int)origsize, (unsigned char *)compbuf, (unsigned long int *)&destsize, (void *)workmem);
+  if(!(return_value_lzo1x_1_compress_1 == 0))
   {
-    if(return_value_lzo1x_1_compress$1 == -2)
+    if(return_value_lzo1x_1_compress_1 == -2)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -6114,11 +6114,11 @@ signed int compression_function(signed int oper)
   struct s_blockinfo blkinfo;
   signed long int blknum;
   signed int res;
-  _Bool return_value_queue_get_end_of_queue$1;
+  _Bool return_value_queue_get_end_of_queue_1;
   do
   {
-    return_value_queue_get_end_of_queue$1=queue_get_end_of_queue(&g_queue);
-    if(!((signed int)return_value_queue_get_end_of_queue$1 == 0))
+    return_value_queue_get_end_of_queue_1=queue_get_end_of_queue(&g_queue);
+    if(!((signed int)return_value_queue_get_end_of_queue_1 == 0))
       break;
 
     blknum=queue_get_first_block_todo(&g_queue, &blkinfo);
@@ -6170,34 +6170,34 @@ void concatenate_paths(char *buffer, signed int maxbufsize, char *p1, char *p2)
   signed int i;
   memset((void *)buffer, 0, (unsigned long int)maxbufsize);
   i = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(p1[(signed long int)i] == 0))
     {
       if(!((signed int)p1[(signed long int)i] == 47))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = p1[(signed long int)(i + 1)] != 0 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = p1[(signed long int)(i + 1)] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
-    char *tmp_post$3 = buffer;
+    char *tmp_post_3 = buffer;
     buffer = buffer + 1l;
-    *tmp_post$3 = p1[(signed long int)i];
+    *tmp_post_3 = p1[(signed long int)i];
     i = i + 1;
   }
   while((_Bool)1);
-  char *tmp_post$4 = buffer;
+  char *tmp_post_4 = buffer;
   buffer = buffer + 1l;
-  *tmp_post$4 = (char)47;
+  *tmp_post_4 = (char)47;
   for( ; (signed int)*p2 == 47; p2 = p2 + 1l)
     ;
   strlcatf(buffer, maxbufsize, "%s", p2);
@@ -6213,42 +6213,42 @@ signed int convert_argv_to_strdicos(struct s_strdico **dicoargv, signed int argc
   signed long int temp64;
   signed int fsid;
   signed int i = 0;
-  _Bool tmp_if_expr$1;
-  signed int return_value_strdico_parse_string$3;
+  _Bool tmp_if_expr_1;
+  signed int return_value_strdico_parse_string_3;
   do
   {
     if(!(i >= 128) && !(i >= argc))
-      tmp_if_expr$1 = cmdargv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = cmdargv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     tmpdico=strdico_alloc();
     if(tmpdico == ((struct s_strdico *)NULL))
       return -1;
 
-    signed int return_value_strdico_set_valid_keys$2;
-    return_value_strdico_set_valid_keys$2=strdico_set_valid_keys(tmpdico, "id,dest,mkfs,mkfsopt");
-    _Bool tmp_if_expr$4;
-    if(!(return_value_strdico_set_valid_keys$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_strdico_set_valid_keys_2;
+    return_value_strdico_set_valid_keys_2=strdico_set_valid_keys(tmpdico, "id,dest,mkfs,mkfsopt");
+    _Bool tmp_if_expr_4;
+    if(!(return_value_strdico_set_valid_keys_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strdico_parse_string$3=strdico_parse_string(tmpdico, cmdargv[(signed long int)i]);
-      tmp_if_expr$4 = return_value_strdico_parse_string$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strdico_parse_string_3=strdico_parse_string(tmpdico, cmdargv[(signed long int)i]);
+      tmp_if_expr_4 = return_value_strdico_parse_string_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       strdico_destroy(tmpdico);
       return -1;
     }
 
-    signed int return_value_strdico_get_s64$5;
-    return_value_strdico_get_s64$5=strdico_get_s64(tmpdico, &temp64, "id");
-    if(!(return_value_strdico_get_s64$5 == 0))
+    signed int return_value_strdico_get_s64_5;
+    return_value_strdico_get_s64_5=strdico_get_s64(tmpdico, &temp64, "id");
+    if(!(return_value_strdico_get_s64_5 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "convert_argv_to_strdicos", 133, "cannot find \"id=\" key in \"%s\"\n", cmdargv[(signed long int)i]);
       strdico_destroy(tmpdico);
@@ -6263,18 +6263,18 @@ signed int convert_argv_to_strdicos(struct s_strdico **dicoargv, signed int argc
       return -1;
     }
 
-    signed int return_value_strdico_get_string$6;
-    return_value_strdico_get_string$6=strdico_get_string(tmpdico, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ , "dest");
-    if(!(return_value_strdico_get_string$6 == 0))
+    signed int return_value_strdico_get_string_6;
+    return_value_strdico_get_string_6=strdico_get_string(tmpdico, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ , "dest");
+    if(!(return_value_strdico_get_string_6 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "convert_argv_to_strdicos", 146, "cannot find \"dest=\" key in \"%s\"\n", cmdargv[(signed long int)i]);
       strdico_destroy(tmpdico);
       return -1;
     }
 
-    signed int return_value_stat64$7;
-    return_value_stat64$7=stat64(buffer, &st);
-    if(!((61440u & st.st_mode) == 24576u) || !(return_value_stat64$7 == 0))
+    signed int return_value_stat64_7;
+    return_value_stat64_7=stat64(buffer, &st);
+    if(!((61440u & st.st_mode) == 24576u) || !(return_value_stat64_7 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "convert_argv_to_strdicos", 151, "\"%s\" is not a valid block device\n", (const void *)buffer);
       strdico_destroy(tmpdico);
@@ -6313,13 +6313,13 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
   *filecost = (unsigned long int)16384;
   concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , root, relpath);
   fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "createar_item_stdattr", 418, "Adding [%.5lld]=[%s]\n", (signed long long int)save->objectid, relpath);
-  unsigned long int tmp_post$1 = save->objectid;
+  unsigned long int tmp_post_1 = save->objectid;
   save->objectid = save->objectid + 1ul;
-  signed int return_value_dico_add_u64$2;
-  return_value_dico_add_u64$2=dico_add_u64(d, (unsigned char)0, (unsigned short int)1, (unsigned long int)tmp_post$1);
-  signed long int return_value_readlink$10;
-  signed int return_value_memcmp$11;
-  if(!(return_value_dico_add_u64$2 == 0))
+  signed int return_value_dico_add_u64_2;
+  return_value_dico_add_u64_2=dico_add_u64(d, (unsigned char)0, (unsigned short int)1, (unsigned long int)tmp_post_1);
+  signed long int return_value_readlink_10;
+  signed int return_value_memcmp_11;
+  if(!(return_value_dico_add_u64_2 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 420, "dico_add_u64(DICO_OBJ_SECTION_STDATTR) failed\n");
     return -1;
@@ -6327,9 +6327,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
 
   else
   {
-    signed int return_value_dico_add_string$3;
-    return_value_dico_add_string$3=dico_add_string(d, (unsigned char)0, (unsigned short int)2, relpath);
-    if(!(return_value_dico_add_string$3 == 0))
+    signed int return_value_dico_add_string_3;
+    return_value_dico_add_string_3=dico_add_string(d, (unsigned char)0, (unsigned short int)2, relpath);
+    if(!(return_value_dico_add_string_3 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 424, "dico_add_string(DICO_OBJ_SECTION_STDATTR) failed\n");
       return -1;
@@ -6337,9 +6337,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
 
     else
     {
-      signed int return_value_dico_add_u64$4;
-      return_value_dico_add_u64$4=dico_add_u64(d, (unsigned char)0, (unsigned short int)8, (unsigned long int)statbuf->st_size);
-      if(!(return_value_dico_add_u64$4 == 0))
+      signed int return_value_dico_add_u64_4;
+      return_value_dico_add_u64_4=dico_add_u64(d, (unsigned char)0, (unsigned short int)8, (unsigned long int)statbuf->st_size);
+      if(!(return_value_dico_add_u64_4 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 428, "dico_add_u64(DICO_OBJ_SECTION_STDATTR) failed\n");
         return -1;
@@ -6347,9 +6347,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
 
       else
       {
-        signed int return_value_dico_add_u32$5;
-        return_value_dico_add_u32$5=dico_add_u32(d, (unsigned char)0, (unsigned short int)7, (unsigned int)statbuf->st_mode);
-        if(!(return_value_dico_add_u32$5 == 0))
+        signed int return_value_dico_add_u32_5;
+        return_value_dico_add_u32_5=dico_add_u32(d, (unsigned char)0, (unsigned short int)7, (unsigned int)statbuf->st_mode);
+        if(!(return_value_dico_add_u32_5 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 432, "dico_add_u32(DICO_OBJ_SECTION_STDATTR) failed\n");
           return -1;
@@ -6357,9 +6357,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
 
         else
         {
-          signed int return_value_dico_add_u32$6;
-          return_value_dico_add_u32$6=dico_add_u32(d, (unsigned char)0, (unsigned short int)9, (unsigned int)statbuf->st_uid);
-          if(!(return_value_dico_add_u32$6 == 0))
+          signed int return_value_dico_add_u32_6;
+          return_value_dico_add_u32_6=dico_add_u32(d, (unsigned char)0, (unsigned short int)9, (unsigned int)statbuf->st_uid);
+          if(!(return_value_dico_add_u32_6 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 436, "dico_add_u32(DICO_OBJ_SECTION_STDATTR) failed\n");
             return -1;
@@ -6367,9 +6367,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
 
           else
           {
-            signed int return_value_dico_add_u32$7;
-            return_value_dico_add_u32$7=dico_add_u32(d, (unsigned char)0, (unsigned short int)10, (unsigned int)statbuf->st_gid);
-            if(!(return_value_dico_add_u32$7 == 0))
+            signed int return_value_dico_add_u32_7;
+            return_value_dico_add_u32_7=dico_add_u32(d, (unsigned char)0, (unsigned short int)10, (unsigned int)statbuf->st_gid);
+            if(!(return_value_dico_add_u32_7 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 440, "dico_add_u32(gid) failed\n");
               return -1;
@@ -6377,9 +6377,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
 
             else
             {
-              signed int return_value_dico_add_u64$8;
-              return_value_dico_add_u64$8=dico_add_u64(d, (unsigned char)0, (unsigned short int)11, (unsigned long int)(unsigned int)statbuf->st_atim.tv_sec);
-              if(!(return_value_dico_add_u64$8 == 0))
+              signed int return_value_dico_add_u64_8;
+              return_value_dico_add_u64_8=dico_add_u64(d, (unsigned char)0, (unsigned short int)11, (unsigned long int)(unsigned int)statbuf->st_atim.tv_sec);
+              if(!(return_value_dico_add_u64_8 == 0))
               {
                 fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 444, "dico_add_u32(DICO_OBJ_SECTION_STDATTR) failed\n");
                 return -1;
@@ -6387,9 +6387,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
 
               else
               {
-                signed int return_value_dico_add_u64$9;
-                return_value_dico_add_u64$9=dico_add_u64(d, (unsigned char)0, (unsigned short int)12, (unsigned long int)(unsigned int)statbuf->st_mtim.tv_sec);
-                if(!(return_value_dico_add_u64$9 == 0))
+                signed int return_value_dico_add_u64_9;
+                return_value_dico_add_u64_9=dico_add_u64(d, (unsigned char)0, (unsigned short int)12, (unsigned long int)(unsigned int)statbuf->st_mtim.tv_sec);
+                if(!(return_value_dico_add_u64_9 == 0))
                 {
                   fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_item_stdattr", 448, "dico_add_u32(DICO_OBJ_SECTION_STDATTR) failed\n");
                   return -1;
@@ -6409,16 +6409,16 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
                       *objtype = 2;
                       memset((void *)buffer, 0, sizeof(char [4096l]) /*4096ul*/ );
                       memset((void *)buffer2, 0, sizeof(char [4096l]) /*4096ul*/ );
-                      return_value_readlink$10=readlink(fullpath, buffer, sizeof(char [4096l]) /*4096ul*/ );
-                      if(!(return_value_readlink$10 >= 0l))
+                      return_value_readlink_10=readlink(fullpath, buffer, sizeof(char [4096l]) /*4096ul*/ );
+                      if(!(return_value_readlink_10 >= 0l))
                       {
                         fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_item_stdattr", 464, "readlink(%s) failed\n", (const void *)fullpath);
                         return -1;
                       }
 
                       linktarget = buffer;
-                      return_value_memcmp$11=memcmp((const void *)linktarget, (const void *)"/tmp/fsa/", (unsigned long int)9);
-                      if(return_value_memcmp$11 == 0)
+                      return_value_memcmp_11=memcmp((const void *)linktarget, (const void *)"/tmp/fsa/", (unsigned long int)9);
+                      if(return_value_memcmp_11 == 0)
                       {
                         i = 0;
                         for( ; !(i >= 3); i = i + 1)
@@ -6449,9 +6449,9 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
                           concatenate_paths(buffer2, (signed int)sizeof(char [4096l]) /*4096ul*/ , directory, linktarget);
                           fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "createar_item_stdattr", 494, "relative-symlink: fullpath=[%s] --> lstat64=[%s]\n", (const void *)fullpath, (const void *)buffer2);
                         }
-                        signed int return_value_lstat64$12;
-                        return_value_lstat64$12=lstat64(buffer2, &stattarget);
-                        if(return_value_lstat64$12 == 0)
+                        signed int return_value_lstat64_12;
+                        return_value_lstat64_12=lstat64(buffer2, &stattarget);
+                        if(return_value_lstat64_12 == 0)
                           switch(stattarget.st_mode & (unsigned int)0170000)
                           {
                             case (unsigned int)0040000:
@@ -6492,32 +6492,32 @@ signed int createar_item_stdattr(struct s_savear *save, char *root, char *relpat
                       if(*objtype == 0)
                       {
                         *filecost = *filecost + (unsigned long int)statbuf->st_size;
-                        _Bool tmp_if_expr$13;
+                        _Bool tmp_if_expr_13;
                         if(statbuf->st_size >= 1l)
-                          tmp_if_expr$13 = statbuf->st_size < (signed long int)g_options.smallfilethresh ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_13 = statbuf->st_size < (signed long int)g_options.smallfilethresh ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$13 = (_Bool)0;
-                        _Bool tmp_if_expr$14;
-                        if(tmp_if_expr$13)
-                          tmp_if_expr$14 = statbuf->st_nlink == (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_13 = (_Bool)0;
+                        _Bool tmp_if_expr_14;
+                        if(tmp_if_expr_13)
+                          tmp_if_expr_14 = statbuf->st_nlink == (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$14 = (_Bool)0;
-                        if(tmp_if_expr$14)
+                          tmp_if_expr_14 = (_Bool)0;
+                        if(tmp_if_expr_14)
                           *objtype = 9;
 
                         else
                           *objtype = 8;
                       }
 
-                      _Bool tmp_if_expr$15;
+                      _Bool tmp_if_expr_15;
                       if(*objtype == 8)
-                        tmp_if_expr$15 = (_Bool)1;
+                        tmp_if_expr_15 = (_Bool)1;
 
                       else
-                        tmp_if_expr$15 = *objtype == 9 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$15)
+                        tmp_if_expr_15 = *objtype == 9 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_15)
                       {
                         if(!(512ul * (unsigned long int)statbuf->st_blocks >= (unsigned long int)statbuf->st_size))
                           flags = flags | (unsigned long int)(1 << 0);
@@ -6586,30 +6586,30 @@ signed int createar_item_winattr(struct s_savear *save, char *root, char *relpat
   concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , root, relpath);
   attrcnt = (unsigned long int)0;
   i = 0;
-  signed int return_value_strcmp$1;
-  signed int *return_value___errno_location$9;
-  signed int *return_value___errno_location$8;
+  signed int return_value_strcmp_1;
+  signed int *return_value___errno_location_9;
+  signed int *return_value___errno_location_8;
   for( ; !(winattr[(signed long int)i] == ((char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(relpath, "/");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(relpath, "/");
+    if(return_value_strcmp_2 == 0)
     {
-      return_value_strcmp$1=strcmp(winattr[(signed long int)i], "system.ntfs_dos_name");
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(winattr[(signed long int)i], "system.ntfs_dos_name");
+      if(return_value_strcmp_1 == 0)
         goto __CPROVER_DUMP_L13;
 
     }
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 0;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 0;
     attrsize=lgetxattr(fullpath, winattr[(signed long int)i], (void *)0, (unsigned long int)0);
     if(!(attrsize >= 0l))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 61))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 61))
       {
         fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_item_winattr", 349, "           winattr:lgetxattr(%s,%s): returned negative attribute size\n", relpath, winattr[(signed long int)i]);
         ret = -1;
@@ -6627,12 +6627,12 @@ signed int createar_item_winattr(struct s_savear *save, char *root, char *relpat
 
     else
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 0;
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc((unsigned long int)(attrsize + (signed long int)1));
-      valbuf = (char *)return_value_malloc$6;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 0;
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc((unsigned long int)(attrsize + (signed long int)1));
+      valbuf = (char *)return_value_malloc_6;
       if(valbuf == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_item_winattr", 364, "malloc(%d) failed\n", (signed int)(attrsize + (signed long int)1));
@@ -6641,9 +6641,9 @@ signed int createar_item_winattr(struct s_savear *save, char *root, char *relpat
 
       else
       {
-        signed long int return_value_lgetxattr$7;
-        return_value_lgetxattr$7=lgetxattr(fullpath, winattr[(signed long int)i], (void *)valbuf, (unsigned long int)attrsize);
-        valsize = (signed int)return_value_lgetxattr$7;
+        signed long int return_value_lgetxattr_7;
+        return_value_lgetxattr_7=lgetxattr(fullpath, winattr[(signed long int)i], (void *)valbuf, (unsigned long int)attrsize);
+        valsize = (signed int)return_value_lgetxattr_7;
         fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "createar_item_winattr", 369, "            winattr:lgetxattr-win(%s,%s)=%d\n", relpath, winattr[(signed long int)i], valsize);
         if(valsize >= 0)
         {
@@ -6657,8 +6657,8 @@ signed int createar_item_winattr(struct s_savear *save, char *root, char *relpat
 
         else
         {
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 61))
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 61))
           {
             fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_item_winattr", 381, "            winattr:lgetxattr(%s,%s)=%d\n", relpath, winattr[(signed long int)i], valsize);
             ret = -1;
@@ -6668,8 +6668,8 @@ signed int createar_item_winattr(struct s_savear *save, char *root, char *relpat
 
           else
           {
-            return_value___errno_location$8=__errno_location();
-            if(*return_value___errno_location$8 == 61)
+            return_value___errno_location_8=__errno_location();
+            if(*return_value___errno_location_8 == 61)
             {
               fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "createar_item_winattr", 388, "            winattr:lgetxattr-win(%s,%s)=-1: errno==ENOATTR\n", relpath, winattr[(signed long int)i]);
               free((void *)valbuf);
@@ -6705,18 +6705,18 @@ signed int createar_item_xattr(struct s_savear *save, char *root, char *relpath,
   concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , root, relpath);
   attrcnt = (unsigned long int)0;
   memset((void *)buffer, 0, sizeof(char [4096l]) /*4096ul*/ );
-  signed long int return_value_llistxattr$1;
-  return_value_llistxattr$1=llistxattr(fullpath, buffer, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
-  listlen = (signed int)return_value_llistxattr$1;
+  signed long int return_value_llistxattr_1;
+  return_value_llistxattr_1=llistxattr(fullpath, buffer, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
+  listlen = (signed int)return_value_llistxattr_1;
   fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "createar_item_xattr", 274, "xattr:llistxattr(%s)=%d\n", relpath, listlen);
   pos = 0;
-  signed int *return_value___errno_location$8;
-  signed int *return_value___errno_location$7;
+  signed int *return_value___errno_location_8;
+  signed int *return_value___errno_location_7;
   for( ; !(pos >= listlen) && !((unsigned long int)pos >= sizeof(char [4096l]) /*4096ul*/ ); pos = pos + len)
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buffer + (signed long int)pos);
-    len = (signed int)(return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buffer + (signed long int)pos);
+    len = (signed int)(return_value_strlen_2 + (unsigned long int)1);
     attrsize=lgetxattr(fullpath, buffer + (signed long int)pos, (void *)0, (unsigned long int)0);
     fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "createar_item_xattr", 280, "            xattr:file=[%s], attrid=%d, name=[%s], size=%ld\n", relpath, (signed int)attrcnt, buffer + (signed long int)pos, (signed long int)attrsize);
     if(attrsize >= 1l && attrsize >= 65536ll)
@@ -6727,12 +6727,12 @@ signed int createar_item_xattr(struct s_savear *save, char *root, char *relpath,
 
     else
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 0;
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)(attrsize + (signed long int)1));
-      valbuf = (char *)return_value_malloc$4;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 0;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)(attrsize + (signed long int)1));
+      valbuf = (char *)return_value_malloc_4;
       if(valbuf == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_item_xattr", 288, "malloc(%ld) failed\n", (signed long int)(attrsize + (signed long int)1));
@@ -6741,12 +6741,12 @@ signed int createar_item_xattr(struct s_savear *save, char *root, char *relpath,
 
       else
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        *return_value___errno_location$5 = 0;
-        signed long int return_value_lgetxattr$6;
-        return_value_lgetxattr$6=lgetxattr(fullpath, buffer + (signed long int)pos, (void *)valbuf, (unsigned long int)attrsize);
-        valsize = (signed int)return_value_lgetxattr$6;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        *return_value___errno_location_5 = 0;
+        signed long int return_value_lgetxattr_6;
+        return_value_lgetxattr_6=lgetxattr(fullpath, buffer + (signed long int)pos, (void *)valbuf, (unsigned long int)attrsize);
+        valsize = (signed int)return_value_lgetxattr_6;
         fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "createar_item_xattr", 294, "            xattr:lgetxattr(%s,%s)=%d\n", relpath, buffer + (signed long int)pos, valsize);
         if(valsize >= 0)
         {
@@ -6762,8 +6762,8 @@ signed int createar_item_xattr(struct s_savear *save, char *root, char *relpath,
 
         else
         {
-          return_value___errno_location$8=__errno_location();
-          if(!(*return_value___errno_location$8 == 61))
+          return_value___errno_location_8=__errno_location();
+          if(!(*return_value___errno_location_8 == 61))
           {
             fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_item_xattr", 308, "            xattr:lgetxattr(%s,%s)=%d\n", relpath, buffer + (signed long int)pos, valsize);
             ret = -1;
@@ -6773,8 +6773,8 @@ signed int createar_item_xattr(struct s_savear *save, char *root, char *relpath,
 
           else
           {
-            return_value___errno_location$7=__errno_location();
-            if(*return_value___errno_location$7 == 61)
+            return_value___errno_location_7=__errno_location();
+            if(*return_value___errno_location_7 == 61)
             {
               fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "createar_item_xattr", 315, "            xattr:lgetxattr-win(%s,%s)=-1: errno==ENOATTR\n", relpath, buffer + (signed long int)pos);
               free((void *)valbuf);
@@ -6810,9 +6810,9 @@ signed int createar_obj_regfile_multi(struct s_savear *save, struct s_dico *head
   else
   {
     fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "createar_obj_regfile_multi", 94, "backup_obj_regfile_multi(file=%s, size=%lld)\n", relpath, (signed long long int)filesize);
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)databuf, (unsigned long int)(signed long int)filesize);
-    res = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)databuf, (unsigned long int)(signed long int)filesize);
+    res = (signed int)return_value_read_1;
     close(fd);
     if(!((unsigned long int)res == filesize))
     {
@@ -6835,13 +6835,13 @@ signed int createar_obj_regfile_multi(struct s_savear *save, struct s_dico *head
       ;
       gcry_md_hash_buffer(1, (void *)md5sum, (const void *)databuf, filesize);
       dico_add_data(header, (unsigned char)0, (unsigned short int)13, (const void *)md5sum, (unsigned short int)16);
-      _Bool return_value_regmulti_save_enough_space_for_new_file$3;
-      return_value_regmulti_save_enough_space_for_new_file$3=regmulti_save_enough_space_for_new_file(&save->regmulti, (unsigned int)filesize);
-      if((signed int)return_value_regmulti_save_enough_space_for_new_file$3 == 0)
+      _Bool return_value_regmulti_save_enough_space_for_new_file_3;
+      return_value_regmulti_save_enough_space_for_new_file_3=regmulti_save_enough_space_for_new_file(&save->regmulti, (unsigned int)filesize);
+      if((signed int)return_value_regmulti_save_enough_space_for_new_file_3 == 0)
       {
-        signed int return_value_regmulti_save_enqueue$2;
-        return_value_regmulti_save_enqueue$2=regmulti_save_enqueue(&save->regmulti, &g_queue, save->fsid);
-        if(!(return_value_regmulti_save_enqueue$2 == 0))
+        signed int return_value_regmulti_save_enqueue_2;
+        return_value_regmulti_save_enqueue_2=regmulti_save_enqueue(&save->regmulti, &g_queue, save->fsid);
+        if(!(return_value_regmulti_save_enqueue_2 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_obj_regfile_multi", 119, "Cannot queue last block of small-files\n");
           return -1;
@@ -6850,9 +6850,9 @@ signed int createar_obj_regfile_multi(struct s_savear *save, struct s_dico *head
         regmulti_empty(&save->regmulti);
       }
 
-      signed int return_value_regmulti_save_addfile$4;
-      return_value_regmulti_save_addfile$4=regmulti_save_addfile(&save->regmulti, header, databuf, (unsigned int)filesize);
-      if(!(return_value_regmulti_save_addfile$4 == 0))
+      signed int return_value_regmulti_save_addfile_4;
+      return_value_regmulti_save_addfile_4=regmulti_save_addfile(&save->regmulti, header, databuf, (unsigned int)filesize);
+      if(!(return_value_regmulti_save_addfile_4 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_obj_regfile_multi", 128, "Cannot add small-file %s to regmulti structure\n", relpath);
         return -1;
@@ -6882,12 +6882,12 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
   signed int ret = 0;
   signed int res;
   signed int fd;
-  unsigned int return_value_gcry_md_open$1;
-  return_value_gcry_md_open$1=gcry_md_open(&md5ctx, 1, (unsigned int)0);
-  _Bool tmp_if_expr$3;
-  _Bool return_value_get_interrupted$2;
-  char *return_value_format_md5$8;
-  if(!(return_value_gcry_md_open$1 == 0u))
+  unsigned int return_value_gcry_md_open_1;
+  return_value_gcry_md_open_1=gcry_md_open(&md5ctx, 1, (unsigned int)0);
+  _Bool tmp_if_expr_3;
+  _Bool return_value_get_interrupted_2;
+  char *return_value_format_md5_8;
+  if(!(return_value_gcry_md_open_1 == 0u))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_obj_regfile_unique", 153, "gcry_md_open() failed\n");
     return -1;
@@ -6911,21 +6911,21 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
       {
         if(filesize >= 1ul && !(filepos >= filesize))
         {
-          return_value_get_interrupted$2=get_interrupted();
-          tmp_if_expr$3 = (signed int)return_value_get_interrupted$2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_get_interrupted_2=get_interrupted();
+          tmp_if_expr_3 = (signed int)return_value_get_interrupted_2 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
         remaining = filesize - filepos;
         curblocksize = (unsigned int)(remaining < (unsigned long int)g_options.datablocksize ? remaining : (unsigned long int)g_options.datablocksize);
         fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "createar_obj_regfile_unique", 170, "----> filepos=%lld, remaining=%lld, curblocksize=%lld\n", (signed long long int)filepos, (signed long long int)remaining, (signed long long int)curblocksize);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc((unsigned long int)curblocksize);
-        origblock = (unsigned char *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc((unsigned long int)curblocksize);
+        origblock = (unsigned char *)return_value_malloc_4;
         if(origblock == ((unsigned char *)NULL))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_obj_regfile_unique", 174, "malloc(%ld) failed: cannot allocate data block\n", (signed long int)origblock);
@@ -6935,9 +6935,9 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
 
         if((signed int)eof == 0)
         {
-          signed long int return_value_read$5;
-          return_value_read$5=read(fd, (void *)origblock, (unsigned long int)(signed long int)curblocksize);
-          res = (signed int)return_value_read$5;
+          signed long int return_value_read_5;
+          return_value_read_5=read(fd, (void *)origblock, (unsigned long int)(signed long int)curblocksize);
+          res = (signed int)return_value_read_5;
           if(!((unsigned int)res == curblocksize))
           {
             ret = -1;
@@ -6968,9 +6968,9 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
         blkinfo.blkdata = (char *)origblock;
         blkinfo.blkoffset = filepos;
         blkinfo.blkfsid = (unsigned short int)save->fsid;
-        signed long int return_value_queue_add_block$6;
-        return_value_queue_add_block$6=queue_add_block(&g_queue, &blkinfo, 1);
-        if(!(return_value_queue_add_block$6 == 0l))
+        signed long int return_value_queue_add_block_6;
+        return_value_queue_add_block_6=queue_add_block(&g_queue, &blkinfo, 1);
+        if(!(return_value_queue_add_block_6 == 0l))
         {
           fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_obj_regfile_unique", 210, "queue_add_block(%s) failed\n", relpath);
           ret = -1;
@@ -6980,9 +6980,9 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
         filepos = filepos + (unsigned long int)curblocksize;
       }
       while((_Bool)1);
-      _Bool return_value_get_interrupted$7;
-      return_value_get_interrupted$7=get_interrupted();
-      if((signed int)return_value_get_interrupted$7 == 1)
+      _Bool return_value_get_interrupted_7;
+      return_value_get_interrupted_7=get_interrupted();
+      if((signed int)return_value_get_interrupted_7 == 1)
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_obj_regfile_unique", 217, "operation has been interrupted\n");
         ret = -1;
@@ -7001,8 +7001,8 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
         {
           memcpy((void *)md5sum, (const void *)md5tmp, (unsigned long int)16);
           gcry_md_close(md5ctx);
-          return_value_format_md5$8=format_md5(text, (signed int)sizeof(char [256l]) /*256ul*/ , md5sum);
-          fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "createar_obj_regfile_unique", 231, "--> finished loop for file=%s, size=%lld, md5=[%s]\n", relpath, (signed long long int)filesize, return_value_format_md5$8);
+          return_value_format_md5_8=format_md5(text, (signed int)sizeof(char [256l]) /*256ul*/ , md5sum);
+          fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "createar_obj_regfile_unique", 231, "--> finished loop for file=%s, size=%lld, md5=[%s]\n", relpath, (signed long long int)filesize, return_value_format_md5_8);
           if(filesize >= 1ul)
           {
             footerdico=dico_alloc();
@@ -7015,9 +7015,9 @@ signed int createar_obj_regfile_unique(struct s_savear *save, struct s_dico *hea
             else
             {
               dico_add_data(footerdico, (unsigned char)0, (unsigned short int)1, (const void *)md5sum, (unsigned short int)16);
-              signed long int return_value_queue_add_header$9;
-              return_value_queue_add_header$9=queue_add_header(&g_queue, footerdico, "FiLf", (unsigned short int)save->fsid);
-              if(!(return_value_queue_add_header$9 == 0l))
+              signed long int return_value_queue_add_header_9;
+              return_value_queue_add_header_9=queue_add_header(&g_queue, footerdico, "FiLf", (unsigned short int)save->fsid);
+              if(!(return_value_queue_add_header_9 == 0l))
               {
                 fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "createar_obj_regfile_unique", 244, "Cannot write footer for file %s\n", relpath);
                 ret = -1;
@@ -7051,9 +7051,9 @@ signed int createar_oper_savedir(struct s_savear *save, char *rootdir)
 
   else
   {
-    char *return_value_getcwd$1;
-    return_value_getcwd$1=getcwd(currentdir, sizeof(char [4096l]) /*4096ul*/ );
-    concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , return_value_getcwd$1, rootdir);
+    char *return_value_getcwd_1;
+    return_value_getcwd_1=getcwd(currentdir, sizeof(char [4096l]) /*4096ul*/ );
+    concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , return_value_getcwd_1, rootdir);
     createar_save_directory_wrapper(save, ".", rootdir, (unsigned long int *)(void *)0);
   }
   return 0;
@@ -7061,7 +7061,7 @@ signed int createar_oper_savedir(struct s_savear *save, char *rootdir)
 
 // createar_oper_savefs
 // file oper_save.c line 1097
-signed int createar_oper_savefs(struct s_savear *save, struct s_devinfo$0 *devinfo)
+signed int createar_oper_savefs(struct s_savear *save, struct s_devinfo_0 *devinfo)
 {
   struct s_dico *dicobegin = (struct s_dico *)(void *)0;
   struct s_dico *dicoend = (struct s_dico *)(void *)0;
@@ -7106,10 +7106,10 @@ signed int createar_save_directory(struct s_savear *save, char *root, char *path
   signed int ret = 0;
   concatenate_paths(fulldirpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , root, path);
   dirdesc=opendir(fulldirpath);
-  signed int return_value_createar_save_file$2;
-  _Bool return_value_get_interrupted$3;
-  signed int return_value_strcmp$5;
-  signed int return_value_exclude_check$9;
+  signed int return_value_createar_save_file_2;
+  _Bool return_value_get_interrupted_3;
+  signed int return_value_strcmp_5;
+  signed int return_value_exclude_check_9;
   if(dirdesc == ((struct __dirstream *)NULL))
   {
     fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_save_directory", 749, "cannot open directory %s\n", (const void *)fulldirpath);
@@ -7118,9 +7118,9 @@ signed int createar_save_directory(struct s_savear *save, char *root, char *path
 
   else
   {
-    signed int return_value_lstat64$1;
-    return_value_lstat64$1=lstat64(fulldirpath, &statbuf);
-    if(!(return_value_lstat64$1 == 0))
+    signed int return_value_lstat64_1;
+    return_value_lstat64_1=lstat64(fulldirpath, &statbuf);
+    if(!(return_value_lstat64_1 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_save_directory", 755, "cannot lstat64(%s)\n", (const void *)fulldirpath);
       ret = -1;
@@ -7128,8 +7128,8 @@ signed int createar_save_directory(struct s_savear *save, char *root, char *path
 
     else
     {
-      return_value_createar_save_file$2=createar_save_file(save, root, path, &statbuf, costeval);
-      if(!(return_value_createar_save_file$2 == 0))
+      return_value_createar_save_file_2=createar_save_file(save, root, path, &statbuf, costeval);
+      if(!(return_value_createar_save_file_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_directory", 762, "createar_save_file(%s,%s) failed\n", root, path);
         ret = -1;
@@ -7142,46 +7142,46 @@ signed int createar_save_directory(struct s_savear *save, char *root, char *path
           if(dir == ((struct dirent *)NULL))
             break;
 
-          return_value_get_interrupted$3=get_interrupted();
-          if(!((signed int)return_value_get_interrupted$3 == 0))
+          return_value_get_interrupted_3=get_interrupted();
+          if(!((signed int)return_value_get_interrupted_3 == 0))
             break;
 
-          signed int return_value_strcmp$4;
-          return_value_strcmp$4=strcmp(dir->d_name, ".");
-          _Bool tmp_if_expr$6;
-          if(return_value_strcmp$4 == 0)
-            tmp_if_expr$6 = (_Bool)1;
+          signed int return_value_strcmp_4;
+          return_value_strcmp_4=strcmp(dir->d_name, ".");
+          _Bool tmp_if_expr_6;
+          if(return_value_strcmp_4 == 0)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$5=strcmp(dir->d_name, "..");
-            tmp_if_expr$6 = return_value_strcmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_5=strcmp(dir->d_name, "..");
+            tmp_if_expr_6 = return_value_strcmp_5 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(!tmp_if_expr$6)
+          if(!tmp_if_expr_6)
           {
             concatenate_paths(relpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , path, dir->d_name);
             concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , fulldirpath, dir->d_name);
-            signed int return_value_lstat64$7;
-            return_value_lstat64$7=lstat64(fullpath, &statbuf);
-            if(!(return_value_lstat64$7 == 0))
+            signed int return_value_lstat64_7;
+            return_value_lstat64_7=lstat64(fullpath, &statbuf);
+            if(!(return_value_lstat64_7 == 0))
             {
               fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "createar_save_directory", 779, "cannot lstat64(%s)\n", (const void *)fullpath);
               ret = -1;
               goto backup_dir_err;
             }
 
-            signed int return_value_exclude_check$8;
-            return_value_exclude_check$8=exclude_check(&g_options.exclude, dir->d_name);
-            _Bool tmp_if_expr$10;
-            if(return_value_exclude_check$8 == 1)
-              tmp_if_expr$10 = (_Bool)1;
+            signed int return_value_exclude_check_8;
+            return_value_exclude_check_8=exclude_check(&g_options.exclude, dir->d_name);
+            _Bool tmp_if_expr_10;
+            if(return_value_exclude_check_8 == 1)
+              tmp_if_expr_10 = (_Bool)1;
 
             else
             {
-              return_value_exclude_check$9=exclude_check(&g_options.exclude, relpath);
-              tmp_if_expr$10 = return_value_exclude_check$9 == 1 ? (_Bool)1 : (_Bool)0;
+              return_value_exclude_check_9=exclude_check(&g_options.exclude, relpath);
+              tmp_if_expr_10 = return_value_exclude_check_9 == 1 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$10)
+            if(tmp_if_expr_10)
             {
               if(costeval == ((unsigned long int *)NULL))
                 fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "createar_save_directory", 789, "file/dir=[%s] excluded\n", (const void *)relpath);
@@ -7191,9 +7191,9 @@ signed int createar_save_directory(struct s_savear *save, char *root, char *path
             else
               if((61440u & statbuf.st_mode) == 16384u)
               {
-                signed int return_value_createar_save_directory$11;
-                return_value_createar_save_directory$11=createar_save_directory(save, root, relpath, costeval);
-                if(!(return_value_createar_save_directory$11 == 0))
+                signed int return_value_createar_save_directory_11;
+                return_value_createar_save_directory_11=createar_save_directory(save, root, relpath, costeval);
+                if(!(return_value_createar_save_directory_11 == 0))
                 {
                   fsaprintf(3, (_Bool)0, 3 >= 3, "oper_save.c", "createar_save_directory", 797, "createar_save_directory(%s) failed\n", (const void *)relpath);
                   ret = -1;
@@ -7204,9 +7204,9 @@ signed int createar_save_directory(struct s_savear *save, char *root, char *path
 
               else
               {
-                signed int return_value_createar_save_file$12;
-                return_value_createar_save_file$12=createar_save_file(save, root, relpath, &statbuf, costeval);
-                if(!(return_value_createar_save_file$12 == 0))
+                signed int return_value_createar_save_file_12;
+                return_value_createar_save_file_12=createar_save_file(save, root, relpath, &statbuf, costeval);
+                if(!(return_value_createar_save_file_12 == 0))
                 {
                   fsaprintf(3, (_Bool)0, 3 >= 3, "oper_save.c", "createar_save_directory", 805, "createar_save_directory(%s) failed\n", (const void *)relpath);
                   ret = -1;
@@ -7241,9 +7241,9 @@ signed int createar_save_directory_wrapper(struct s_savear *save, char *root, ch
 
   else
   {
-    signed int return_value_regmulti_init$1;
-    return_value_regmulti_init$1=regmulti_init(&save->regmulti, g_options.datablocksize);
-    if(!(return_value_regmulti_init$1 == 0))
+    signed int return_value_regmulti_init_1;
+    return_value_regmulti_init_1=regmulti_init(&save->regmulti, g_options.datablocksize);
+    if(!(return_value_regmulti_init_1 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_directory_wrapper", 827, "regmulti_init failed\n");
       return -1;
@@ -7252,9 +7252,9 @@ signed int createar_save_directory_wrapper(struct s_savear *save, char *root, ch
     else
     {
       ret=createar_save_directory(save, root, path, costeval);
-      signed int return_value_regmulti_save_enqueue$2;
-      return_value_regmulti_save_enqueue$2=regmulti_save_enqueue(&save->regmulti, &g_queue, save->fsid);
-      if(!(return_value_regmulti_save_enqueue$2 == 0))
+      signed int return_value_regmulti_save_enqueue_2;
+      return_value_regmulti_save_enqueue_2=regmulti_save_enqueue(&save->regmulti, &g_queue, save->fsid);
+      if(!(return_value_regmulti_save_enqueue_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_directory_wrapper", 835, "Cannot queue last block of small-files\n");
         return -1;
@@ -7282,13 +7282,13 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
   signed int objtype;
   signed int res;
   concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , root, relpath);
-  signed int return_value_archwriter_is_path_to_curvol$1;
-  return_value_archwriter_is_path_to_curvol$1=archwriter_is_path_to_curvol(&save->ai, fullpath);
-  signed long int return_value_queue_add_header$7;
-  signed long int return_value_queue_add_header$8;
-  signed long int return_value_queue_add_header$9;
-  signed long int return_value_queue_add_header$10;
-  if(return_value_archwriter_is_path_to_curvol$1 == 1)
+  signed int return_value_archwriter_is_path_to_curvol_1;
+  return_value_archwriter_is_path_to_curvol_1=archwriter_is_path_to_curvol(&save->ai, fullpath);
+  signed long int return_value_queue_add_header_7;
+  signed long int return_value_queue_add_header_8;
+  signed long int return_value_queue_add_header_9;
+  signed long int return_value_queue_add_header_10;
+  if(return_value_archwriter_is_path_to_curvol_1 == 1)
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_file", 592, "file [%s] ignored: it's the current archive file\n", (const void *)fullpath);
     save->stats.err_regfile = save->stats.err_regfile + 1ul;
@@ -7306,9 +7306,9 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
 
     else
     {
-      signed int return_value_createar_item_stdattr$2;
-      return_value_createar_item_stdattr$2=createar_item_stdattr(save, root, relpath, statbuf, dicoattr, &objtype, &filecost);
-      if(!(return_value_createar_item_stdattr$2 == 0))
+      signed int return_value_createar_item_stdattr_2;
+      return_value_createar_item_stdattr_2=createar_item_stdattr(save, root, relpath, statbuf, dicoattr, &objtype, &filecost);
+      if(!(return_value_createar_item_stdattr_2 == 0))
       {
         fsaprintf(3, (_Bool)0, 3 >= 3, "oper_save.c", "createar_save_file", 604, "backup_item_stdattr() failed: cannot read standard attributes on [%s]\n", relpath);
         attrerrors = attrerrors + 1;
@@ -7323,9 +7323,9 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
 
       else
       {
-        signed int return_value_createar_item_xattr$3;
-        return_value_createar_item_xattr$3=createar_item_xattr(save, root, relpath, statbuf, dicoattr);
-        if(!(return_value_createar_item_xattr$3 == 0))
+        signed int return_value_createar_item_xattr_3;
+        return_value_createar_item_xattr_3=createar_item_xattr(save, root, relpath, statbuf, dicoattr);
+        if(!(return_value_createar_item_xattr_3 == 0))
         {
           fsaprintf(3, (_Bool)0, 3 >= 3, "oper_save.c", "createar_save_file", 617, "backup_item_xattr() failed: cannot prepare xattr-dico for item %s\n", relpath);
           attrerrors = attrerrors + 1;
@@ -7333,9 +7333,9 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
 
         if((signed int)filesys[(signed long int)save->fstype].winattr == 1)
         {
-          signed int return_value_createar_item_winattr$4;
-          return_value_createar_item_winattr$4=createar_item_winattr(save, root, relpath, statbuf, dicoattr);
-          if(!(return_value_createar_item_winattr$4 == 0))
+          signed int return_value_createar_item_winattr_4;
+          return_value_createar_item_winattr_4=createar_item_winattr(save, root, relpath, statbuf, dicoattr);
+          if(!(return_value_createar_item_winattr_4 == 0))
           {
             fsaprintf(3, (_Bool)0, 3 >= 3, "oper_save.c", "createar_save_file", 624, "backup_item_winattr() failed: cannot prepare winattr-dico for item %s\n", relpath);
             attrerrors = attrerrors + 1;
@@ -7343,9 +7343,9 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
 
         }
 
-        _Bool return_value_get_interrupted$6;
-        return_value_get_interrupted$6=get_interrupted();
-        if((signed int)return_value_get_interrupted$6 == 0)
+        _Bool return_value_get_interrupted_6;
+        return_value_get_interrupted_6=get_interrupted();
+        if((signed int)return_value_get_interrupted_6 == 0)
         {
           memset((void *)strprogress, 0, sizeof(char [256l]) /*256ul*/ );
           if(save->cost_global >= 1ul)
@@ -7357,9 +7357,9 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
 
           }
 
-          char *return_value_get_objtype_name$5;
-          return_value_get_objtype_name$5=get_objtype_name(objtype);
-          fsaprintf(1, (_Bool)0, 1 >= 3, "oper_save.c", "createar_save_file", 639, "-[%.2d]%s[%s] %s\n", save->fsid, (const void *)strprogress, return_value_get_objtype_name$5, relpath);
+          char *return_value_get_objtype_name_5;
+          return_value_get_objtype_name_5=get_objtype_name(objtype);
+          fsaprintf(1, (_Bool)0, 1 >= 3, "oper_save.c", "createar_save_file", 639, "-[%.2d]%s[%s] %s\n", save->fsid, (const void *)strprogress, return_value_get_objtype_name_5, relpath);
         }
 
         switch(objtype)
@@ -7373,8 +7373,8 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
               return 0;
             }
 
-            return_value_queue_add_header$7=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
-            if(!(return_value_queue_add_header$7 == 0l))
+            return_value_queue_add_header_7=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
+            if(!(return_value_queue_add_header_7 == 0l))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_file", 652, "queue_add_header(%s) failed\n", relpath);
               return -1;
@@ -7392,8 +7392,8 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
               return 0;
             }
 
-            return_value_queue_add_header$8=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
-            if(!(return_value_queue_add_header$8 == 0l))
+            return_value_queue_add_header_8=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
+            if(!(return_value_queue_add_header_8 == 0l))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_file", 664, "queue_add_header(%s) failed\n", relpath);
               return -1;
@@ -7411,8 +7411,8 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
               return 0;
             }
 
-            return_value_queue_add_header$9=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
-            if(!(return_value_queue_add_header$9 == 0l))
+            return_value_queue_add_header_9=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
+            if(!(return_value_queue_add_header_9 == 0l))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_file", 676, "queue_add_header(%s) failed\n", relpath);
               return -1;
@@ -7436,8 +7436,8 @@ signed int createar_save_file(struct s_savear *save, char *root, char *relpath, 
               return 0;
             }
 
-            return_value_queue_add_header$10=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
-            if(!(return_value_queue_add_header$10 == 0l))
+            return_value_queue_add_header_10=queue_add_header(&g_queue, dicoattr, "ObJt", (unsigned short int)save->fsid);
+            if(!(return_value_queue_add_header_10 == 0l))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_save_file", 691, "queue_add_header(%s) failed\n", relpath);
               return -1;
@@ -7547,23 +7547,23 @@ signed int createar_write_mainhead(struct s_savear *save, signed int archtype, s
       {
         memset((void *)md5sum, 0, sizeof(unsigned char [16l]) /*16ul*/ );
         crypto_random(bufcheckclear, 4096);
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen((char *)g_options.encryptpass);
-        crypto_blowfish((unsigned long int)4096, &cryptsize, bufcheckclear, bufcheckcrypt, g_options.encryptpass, (signed int)return_value_strlen$1, 1);
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen((char *)g_options.encryptpass);
+        crypto_blowfish((unsigned long int)4096, &cryptsize, bufcheckclear, bufcheckcrypt, g_options.encryptpass, (signed int)return_value_strlen_1, 1);
         gcry_md_hash_buffer(1, (void *)md5sum, (const void *)bufcheckclear, (unsigned long int)4096);
-        signed int return_value_dico_add_data$2;
-        return_value_dico_add_data$2=dico_add_data(d, (unsigned char)0, (unsigned short int)11, (const void *)md5sum, (unsigned short int)16);
+        signed int return_value_dico_add_data_2;
+        return_value_dico_add_data_2=dico_add_data(d, (unsigned char)0, (unsigned short int)11, (const void *)md5sum, (unsigned short int)16);
         /* assertion dico_add_data(d, 0, MAINHEADKEY_BUFCHECKPASSCLEARMD5, md5sum, 16)==0 */
-        assert(return_value_dico_add_data$2 == 0);
-        signed int return_value_dico_add_data$3;
-        return_value_dico_add_data$3=dico_add_data(d, (unsigned char)0, (unsigned short int)12, (const void *)bufcheckcrypt, (unsigned short int)4096);
+        assert(return_value_dico_add_data_2 == 0);
+        signed int return_value_dico_add_data_3;
+        return_value_dico_add_data_3=dico_add_data(d, (unsigned char)0, (unsigned short int)12, (const void *)bufcheckcrypt, (unsigned short int)4096);
         /* assertion dico_add_data(d, 0, MAINHEADKEY_BUFCHECKPASSCRYPTBUF, bufcheckcrypt, 4096)==0 */
-        assert(return_value_dico_add_data$3 == 0);
+        assert(return_value_dico_add_data_3 == 0);
       }
 
-      signed long int return_value_queue_add_header$4;
-      return_value_queue_add_header$4=queue_add_header(&g_queue, d, "ArCh", (unsigned short int)0xFFFF);
-      if(!(return_value_queue_add_header$4 == 0l))
+      signed long int return_value_queue_add_header_4;
+      return_value_queue_add_header_4=queue_add_header(&g_queue, d, "ArCh", (unsigned short int)0xFFFF);
+      if(!(return_value_queue_add_header_4 == 0l))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "createar_write_mainhead", 901, "cannot write dico for main header\n");
         dico_destroy(d);
@@ -7598,16 +7598,16 @@ signed int crypto_blowfish(unsigned long int insize, unsigned long int *outsize,
   struct gcry_cipher_handle *hd;
   unsigned char iv[9l] = { 'f', 's', 'a', 'r', 'c', 'h', 'i', 'v', 0 };
   signed int res;
-  unsigned int return_value_gcry_cipher_encrypt$5;
-  unsigned int return_value_gcry_cipher_decrypt$6;
+  unsigned int return_value_gcry_cipher_encrypt_5;
+  unsigned int return_value_gcry_cipher_decrypt_6;
   if(password == ((unsigned char *)NULL) || passlen == 0)
     return -1;
 
   else
   {
-    unsigned int return_value_gcry_cipher_open$1;
-    return_value_gcry_cipher_open$1=gcry_cipher_open(&hd, 4, 2, (unsigned int)1);
-    res = (signed int)return_value_gcry_cipher_open$1;
+    unsigned int return_value_gcry_cipher_open_1;
+    return_value_gcry_cipher_open_1=gcry_cipher_open(&hd, 4, 2, (unsigned int)1);
+    res = (signed int)return_value_gcry_cipher_open_1;
     if(!(res == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "crypto.c", "crypto_blowfish", 74, "gcry_cipher_open() failed\n");
@@ -7617,9 +7617,9 @@ signed int crypto_blowfish(unsigned long int insize, unsigned long int *outsize,
 
     else
     {
-      unsigned int return_value_gcry_cipher_setkey$2;
-      return_value_gcry_cipher_setkey$2=gcry_cipher_setkey(hd, (const void *)password, (unsigned long int)passlen);
-      res = (signed int)return_value_gcry_cipher_setkey$2;
+      unsigned int return_value_gcry_cipher_setkey_2;
+      return_value_gcry_cipher_setkey_2=gcry_cipher_setkey(hd, (const void *)password, (unsigned long int)passlen);
+      res = (signed int)return_value_gcry_cipher_setkey_2;
       if(!(res == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "crypto.c", "crypto_blowfish", 81, "gcry_cipher_setkey() failed\n");
@@ -7629,11 +7629,11 @@ signed int crypto_blowfish(unsigned long int insize, unsigned long int *outsize,
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen((char *)iv);
-        unsigned int return_value_gcry_cipher_setiv$4;
-        return_value_gcry_cipher_setiv$4=gcry_cipher_setiv(hd, (const void *)iv, return_value_strlen$3);
-        if(!(return_value_gcry_cipher_setiv$4 == 0u))
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen((char *)iv);
+        unsigned int return_value_gcry_cipher_setiv_4;
+        return_value_gcry_cipher_setiv_4=gcry_cipher_setiv(hd, (const void *)iv, return_value_strlen_3);
+        if(!(return_value_gcry_cipher_setiv_4 == 0u))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "crypto.c", "crypto_blowfish", 88, "gcry_cipher_setiv() failed\n");
           gcry_cipher_close(hd);
@@ -7646,14 +7646,14 @@ signed int crypto_blowfish(unsigned long int insize, unsigned long int *outsize,
           {
             case 1:
             {
-              return_value_gcry_cipher_encrypt$5=gcry_cipher_encrypt(hd, (void *)outbuf, insize, (const void *)inbuf, insize);
-              res = (signed int)return_value_gcry_cipher_encrypt$5;
+              return_value_gcry_cipher_encrypt_5=gcry_cipher_encrypt(hd, (void *)outbuf, insize, (const void *)inbuf, insize);
+              res = (signed int)return_value_gcry_cipher_encrypt_5;
               break;
             }
             case 0:
             {
-              return_value_gcry_cipher_decrypt$6=gcry_cipher_decrypt(hd, (void *)outbuf, insize, (const void *)inbuf, insize);
-              res = (signed int)return_value_gcry_cipher_decrypt$6;
+              return_value_gcry_cipher_decrypt_6=gcry_cipher_decrypt(hd, (void *)outbuf, insize, (const void *)inbuf, insize);
+              res = (signed int)return_value_gcry_cipher_decrypt_6;
               break;
             }
             default:
@@ -7684,9 +7684,9 @@ signed int crypto_cleanup()
 signed int crypto_init()
 {
   gcry_control((enum gcry_ctl_cmds)GCRYCTL_SET_THREAD_CBS, &gcry_threads_pthread);
-  const char *return_value_gcry_check_version$1;
-  return_value_gcry_check_version$1=gcry_check_version("1.2.3");
-  if(return_value_gcry_check_version$1 == ((const char *)NULL))
+  const char *return_value_gcry_check_version_1;
+  return_value_gcry_check_version_1=gcry_check_version("1.2.3");
+  if(return_value_gcry_check_version_1 == ((const char *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "crypto.c", "crypto_init", 44, "libgcrypt version mismatch\n");
     return -1;
@@ -7714,9 +7714,9 @@ signed int crypto_random(unsigned char *buf, signed int bufsize)
 struct s_datafile * datafile_alloc()
 {
   struct s_datafile *f;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct s_datafile) /*4112ul*/ );
-  f = (struct s_datafile *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct s_datafile) /*4112ul*/ );
+  f = (struct s_datafile *)return_value_malloc_1;
   if(f == ((struct s_datafile *)NULL))
     return (struct s_datafile *)(void *)0;
 
@@ -7740,9 +7740,9 @@ signed int datafile_close(struct s_datafile *f, unsigned char *md5bufdat, signed
   signed int res = 0;
   /* assertion f */
   assert(f != ((struct s_datafile *)NULL));
-  signed long int return_value_lseek64$1;
-  signed int return_value_ftruncate$2;
-  signed int return_value_close$4;
+  signed long int return_value_lseek64_1;
+  signed int return_value_ftruncate_2;
+  signed int return_value_close_4;
   if(f->open == (_Bool)0)
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "datafile.c", "datafile_close", 168, "File is not open\n");
@@ -7779,9 +7779,9 @@ signed int datafile_close(struct s_datafile *f, unsigned char *md5bufdat, signed
         {
           if((signed int)f->sparse == 1)
           {
-            return_value_lseek64$1=lseek64(f->fd, (signed long int)0, 1);
-            return_value_ftruncate$2=ftruncate(f->fd, return_value_lseek64$1);
-            if(!(return_value_ftruncate$2 >= 0))
+            return_value_lseek64_1=lseek64(f->fd, (signed long int)0, 1);
+            return_value_ftruncate_2=ftruncate(f->fd, return_value_lseek64_1);
+            if(!(return_value_ftruncate_2 >= 0))
             {
               fsaprintf(0, (_Bool)1, (_Bool)1, "datafile.c", "datafile_close", 191, "ftruncate() failed for file [%s]\n", (const void *)f->path);
               res = -1;
@@ -7789,18 +7789,18 @@ signed int datafile_close(struct s_datafile *f, unsigned char *md5bufdat, signed
 
           }
 
-          signed int return_value_close$3;
-          return_value_close$3=close(f->fd);
-          signed int tmp_if_expr$5;
-          if(!(return_value_close$3 >= res))
+          signed int return_value_close_3;
+          return_value_close_3=close(f->fd);
+          signed int tmp_if_expr_5;
+          if(!(return_value_close_3 >= res))
           {
-            return_value_close$4=close(f->fd);
-            tmp_if_expr$5 = return_value_close$4;
+            return_value_close_4=close(f->fd);
+            tmp_if_expr_5 = return_value_close_4;
           }
 
           else
-            tmp_if_expr$5 = res;
-          res = tmp_if_expr$5;
+            tmp_if_expr_5 = res;
+          res = tmp_if_expr_5;
         }
 
       }
@@ -7855,15 +7855,15 @@ signed int datafile_open_write(struct s_datafile *f, char *path, _Bool simul, _B
   {
     if((signed int)simul == 0)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
       f->fd=open64(path, 02 | 0100 | 01000 | 0, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
       if(!(f->fd >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 28)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 28)
         {
           fsaprintf(0, (_Bool)1, (_Bool)1, "datafile.c", "datafile_open_write", 83, "can't write file [%s]: no space left on device\n", path);
           return -1;
@@ -7878,9 +7878,9 @@ signed int datafile_open_write(struct s_datafile *f, char *path, _Bool simul, _B
 
     }
 
-    unsigned int return_value_gcry_md_open$3;
-    return_value_gcry_md_open$3=gcry_md_open(&f->md5ctx, 1, (unsigned int)0);
-    if(!(return_value_gcry_md_open$3 == 0u))
+    unsigned int return_value_gcry_md_open_3;
+    return_value_gcry_md_open_3=gcry_md_open(&f->md5ctx, 1, (unsigned int)0);
+    if(!(return_value_gcry_md_open_3 == 0u))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "datafile.c", "datafile_open_write", 94, "gcry_md_open() failed\n");
       return -1;
@@ -7904,7 +7904,7 @@ signed int datafile_write(struct s_datafile *f, char *data, unsigned long int le
   signed long int lres;
   /* assertion f */
   assert(f != ((struct s_datafile *)NULL));
-  signed int return_value_datafile_is_block_zero$4;
+  signed int return_value_datafile_is_block_zero_4;
   if(f->open == (_Bool)0)
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "datafile.c", "datafile_write", 124, "File is not open\n");
@@ -7915,20 +7915,20 @@ signed int datafile_write(struct s_datafile *f, char *data, unsigned long int le
   {
     if((signed int)f->simul == 0)
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if((signed int)f->sparse == 1)
       {
-        return_value_datafile_is_block_zero$4=datafile_is_block_zero(f, data, len);
-        tmp_if_expr$5 = return_value_datafile_is_block_zero$4 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_datafile_is_block_zero_4=datafile_is_block_zero(f, data, len);
+        tmp_if_expr_5 = return_value_datafile_is_block_zero_4 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
-        signed long int return_value_lseek64$1;
-        return_value_lseek64$1=lseek64(f->fd, (signed long int)len, 1);
-        if(!(return_value_lseek64$1 >= 0l))
+        signed long int return_value_lseek64_1;
+        return_value_lseek64_1=lseek64(f->fd, (signed long int)len, 1);
+        if(!(return_value_lseek64_1 >= 0l))
         {
           fsaprintf(0, (_Bool)1, (_Bool)1, "datafile.c", "datafile_write", 133, "Can't lseek64() in file [%s]\n", (const void *)f->path);
           return -9;
@@ -7938,15 +7938,15 @@ signed int datafile_write(struct s_datafile *f, char *data, unsigned long int le
 
       else
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
         lres=write(f->fd, (const void *)data, len);
         if(!((unsigned long int)lres == len))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          if(*return_value___errno_location$3 == 28 || !((unsigned long int)lres >= len) && lres >= 1l)
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          if(*return_value___errno_location_3 == 28 || !((unsigned long int)lres >= len) && lres >= 1l)
           {
             fsaprintf(0, (_Bool)1, (_Bool)1, "datafile.c", "datafile_write", 143, "Can't write file [%s]: no space left on device\n", (const void *)f->path);
             return -8;
@@ -7981,9 +7981,9 @@ signed int decompress_block_generic(struct s_blockinfo *blkinfo)
   unsigned long int checkorigsize;
   char *bufcomp = (char *)(void *)0;
   signed int res;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)blkinfo->blkrealsize);
-  bufcomp = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)blkinfo->blkrealsize);
+  bufcomp = (char *)return_value_malloc_1;
   if(bufcomp == ((char *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "thread_comp.c", "decompress_block_generic", 157, "malloc(%ld) failed: cannot allocate memory for compressed block\n", (signed long int)blkinfo->blkrealsize);
@@ -7992,9 +7992,9 @@ signed int decompress_block_generic(struct s_blockinfo *blkinfo)
 
   else
   {
-    unsigned int return_value_fletcher32$4;
-    return_value_fletcher32$4=fletcher32((unsigned char *)blkinfo->blkdata, blkinfo->blkarsize);
-    if(!(return_value_fletcher32$4 == blkinfo->blkarcsum))
+    unsigned int return_value_fletcher32_4;
+    return_value_fletcher32_4=fletcher32((unsigned char *)blkinfo->blkdata, blkinfo->blkarsize);
+    if(!(return_value_fletcher32_4 == blkinfo->blkarcsum))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "thread_comp.c", "decompress_block_generic", 163, "block is corrupt at blockoffset=%ld, blksize=%ld\n", (signed long int)blkinfo->blkoffset, (signed long int)blkinfo->blkrealsize);
       memset((void *)bufcomp, 0, (unsigned long int)blkinfo->blkrealsize);
@@ -8016,18 +8016,18 @@ signed int decompress_block_generic(struct s_blockinfo *blkinfo)
       unsigned long int clearsize;
       if((signed int)blkinfo->blkcryptalgo == 2)
       {
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)(blkinfo->blkrealsize + (unsigned int)8));
-        bufcrypt = (char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)(blkinfo->blkrealsize + (unsigned int)8));
+        bufcrypt = (char *)return_value_malloc_2;
         if(bufcrypt == ((char *)NULL))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "thread_comp.c", "decompress_block_generic", 179, "malloc(%ld) failed: out of memory\n", (signed long int)blkinfo->blkrealsize + (signed long int)8);
           return -1;
         }
 
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen((char *)g_options.encryptpass);
-        res=crypto_blowfish((unsigned long int)blkinfo->blkarsize, &clearsize, (unsigned char *)blkinfo->blkdata, (unsigned char *)bufcrypt, g_options.encryptpass, (signed int)return_value_strlen$3, 0);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen((char *)g_options.encryptpass);
+        res=crypto_blowfish((unsigned long int)blkinfo->blkarsize, &clearsize, (unsigned char *)blkinfo->blkdata, (unsigned char *)bufcrypt, g_options.encryptpass, (signed int)return_value_strlen_3, 0);
         if(!(res == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "thread_comp.c", "decompress_block_generic", 184, "crypt_block_blowfish() failed\n");
@@ -8118,21 +8118,21 @@ signed int devcmp(char *dev1, char *dev2)
   signed int i = 0;
   for( ; !(i >= 2); i = i + 1)
   {
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(devname[(signed long int)i], "/dev/", (unsigned long int)5);
-    if(!(return_value_strncmp$1 == 0))
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(devname[(signed long int)i], "/dev/", (unsigned long int)5);
+    if(!(return_value_strncmp_1 == 0))
       return -1;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 0;
-    signed int return_value_stat64$4;
-    return_value_stat64$4=stat64(devname[(signed long int)i], &devstat[(signed long int)i]);
-    if(!(return_value_stat64$4 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 0;
+    signed int return_value_stat64_4;
+    return_value_stat64_4=stat64(devname[(signed long int)i], &devstat[(signed long int)i]);
+    if(!(return_value_stat64_4 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 2)
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 2)
         fsaprintf(0, (_Bool)0, (_Bool)1, "filesys.c", "devcmp", 129, "Warning: node for device [%s] does not exist in /dev/\n", devname[(signed long int)i]);
 
       else
@@ -8166,12 +8166,12 @@ signed int dichl_add(struct s_dichl *d, unsigned long int key1, unsigned long in
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    len = (signed int)return_value_strlen$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct s_dichlitem) /*32ul*/ );
-    lnew = (struct s_dichlitem *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    len = (signed int)return_value_strlen_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct s_dichlitem) /*32ul*/ );
+    lnew = (struct s_dichlitem *)return_value_malloc_2;
     if(lnew == ((struct s_dichlitem *)NULL))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "dichl.c", "dichl_add", 74, "malloc(%ld) failed: out of memory\n", (signed long int)sizeof(struct s_dichlitem) /*32ul*/ );
@@ -8181,9 +8181,9 @@ signed int dichl_add(struct s_dichl *d, unsigned long int key1, unsigned long in
     else
     {
       memset((void *)lnew, 0, sizeof(struct s_dichlitem) /*32ul*/ );
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)(len + 1));
-      lnew->str = (char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)(len + 1));
+      lnew->str = (char *)return_value_malloc_3;
       if(lnew->str == ((char *)NULL))
       {
         free((void *)lnew);
@@ -8230,9 +8230,9 @@ signed int dichl_add(struct s_dichl *d, unsigned long int key1, unsigned long in
 struct s_dichl * dichl_alloc()
 {
   struct s_dichl *d;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct s_dichl) /*8ul*/ );
-  d = (struct s_dichl *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct s_dichl) /*8ul*/ );
+  d = (struct s_dichl *)return_value_malloc_1;
   if(d == ((struct s_dichl *)NULL))
     return (struct s_dichl *)(void *)0;
 
@@ -8288,9 +8288,9 @@ signed int dichl_get(struct s_dichl *d, unsigned long int key1, unsigned long in
         {
           if(item->key2 == key2)
           {
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(item->str);
-            len = (signed int)return_value_strlen$1;
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(item->str);
+            len = (signed int)return_value_strlen_1;
             if(!(bufsize >= 1 + len))
               return -2;
 
@@ -8310,9 +8310,9 @@ signed int dichl_get(struct s_dichl *d, unsigned long int key1, unsigned long in
 // file dico.h line 51
 signed int dico_add_data(struct s_dico *d, unsigned char section, unsigned short int key, const void *data, unsigned short int size)
 {
-  signed int return_value_dico_add_generic$1;
-  return_value_dico_add_generic$1=dico_add_generic(d, section, key, data, size, (unsigned char)5);
-  return return_value_dico_add_generic$1;
+  signed int return_value_dico_add_generic_1;
+  return_value_dico_add_generic_1=dico_add_generic(d, section, key, data, size, (unsigned char)5);
+  return return_value_dico_add_generic_1;
 }
 
 // dico_add_generic
@@ -8324,9 +8324,9 @@ signed int dico_add_generic(struct s_dico *d, unsigned char section, unsigned sh
   struct s_dicoitem *last;
   /* assertion d */
   assert(d != ((struct s_dico *)NULL));
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct s_dicoitem) /*24ul*/ );
-  lnew = (struct s_dicoitem *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct s_dicoitem) /*24ul*/ );
+  lnew = (struct s_dicoitem *)return_value_malloc_1;
   if(lnew == ((struct s_dicoitem *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "dico.c", "dico_add_generic", 79, "malloc(%ld) failed: out of memory\n", (signed long int)sizeof(struct s_dicoitem) /*24ul*/ );
@@ -8365,9 +8365,9 @@ signed int dico_add_generic(struct s_dico *d, unsigned char section, unsigned sh
     lnew->data = (char *)(void *)0;
     if((signed int)size >= 1)
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)size);
-      lnew->data = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)size);
+      lnew->data = (char *)return_value_malloc_2;
       if(lnew->data == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "dico.c", "dico_add_generic", 113, "malloc(%ld) failed: out of memory\n", (signed long int)size);
@@ -8390,12 +8390,12 @@ signed int dico_add_string(struct s_dico *d, unsigned char section, unsigned sho
   assert(d != ((struct s_dico *)NULL));
   /* assertion szstring */
   assert(szstring != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(szstring);
-  len = (unsigned short int)return_value_strlen$1;
-  signed int return_value_dico_add_generic$2;
-  return_value_dico_add_generic$2=dico_add_generic(d, section, key, (const void *)szstring, (unsigned short int)((signed int)len + 1), (unsigned char)6);
-  return return_value_dico_add_generic$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(szstring);
+  len = (unsigned short int)return_value_strlen_1;
+  signed int return_value_dico_add_generic_2;
+  return_value_dico_add_generic_2=dico_add_generic(d, section, key, (const void *)szstring, (unsigned short int)((signed int)len + 1), (unsigned char)6);
+  return return_value_dico_add_generic_2;
 }
 
 // dico_add_u16
@@ -8406,9 +8406,9 @@ signed int dico_add_u16(struct s_dico *d, unsigned char section, unsigned short 
   /* assertion d */
   assert(d != ((struct s_dico *)NULL));
   ledata = (unsigned short int)data;
-  signed int return_value_dico_add_generic$1;
-  return_value_dico_add_generic$1=dico_add_generic(d, section, key, (const void *)&ledata, (unsigned short int)sizeof(unsigned short int) /*2ul*/ , (unsigned char)2);
-  return return_value_dico_add_generic$1;
+  signed int return_value_dico_add_generic_1;
+  return_value_dico_add_generic_1=dico_add_generic(d, section, key, (const void *)&ledata, (unsigned short int)sizeof(unsigned short int) /*2ul*/ , (unsigned char)2);
+  return return_value_dico_add_generic_1;
 }
 
 // dico_add_u32
@@ -8419,9 +8419,9 @@ signed int dico_add_u32(struct s_dico *d, unsigned char section, unsigned short 
   /* assertion d */
   assert(d != ((struct s_dico *)NULL));
   ledata = (unsigned int)data;
-  signed int return_value_dico_add_generic$1;
-  return_value_dico_add_generic$1=dico_add_generic(d, section, key, (const void *)&ledata, (unsigned short int)sizeof(unsigned int) /*4ul*/ , (unsigned char)3);
-  return return_value_dico_add_generic$1;
+  signed int return_value_dico_add_generic_1;
+  return_value_dico_add_generic_1=dico_add_generic(d, section, key, (const void *)&ledata, (unsigned short int)sizeof(unsigned int) /*4ul*/ , (unsigned char)3);
+  return return_value_dico_add_generic_1;
 }
 
 // dico_add_u64
@@ -8432,9 +8432,9 @@ signed int dico_add_u64(struct s_dico *d, unsigned char section, unsigned short 
   /* assertion d */
   assert(d != ((struct s_dico *)NULL));
   ledata = (unsigned long int)data;
-  signed int return_value_dico_add_generic$1;
-  return_value_dico_add_generic$1=dico_add_generic(d, section, key, (const void *)&ledata, (unsigned short int)sizeof(unsigned long int) /*8ul*/ , (unsigned char)4);
-  return return_value_dico_add_generic$1;
+  signed int return_value_dico_add_generic_1;
+  return_value_dico_add_generic_1=dico_add_generic(d, section, key, (const void *)&ledata, (unsigned short int)sizeof(unsigned long int) /*8ul*/ , (unsigned char)4);
+  return return_value_dico_add_generic_1;
 }
 
 // dico_alloc
@@ -8442,9 +8442,9 @@ signed int dico_add_u64(struct s_dico *d, unsigned char section, unsigned short 
 struct s_dico * dico_alloc()
 {
   struct s_dico *d;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct s_dico) /*8ul*/ );
-  d = (struct s_dico *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct s_dico) /*8ul*/ );
+  d = (struct s_dico *)return_value_malloc_1;
   if(d == ((struct s_dico *)NULL))
     return (struct s_dico *)(void *)0;
 
@@ -8516,9 +8516,9 @@ signed int dico_destroy(struct s_dico *d)
 // file dico.h line 54
 signed int dico_get_data(struct s_dico *d, unsigned char section, unsigned short int key, void *data, unsigned short int maxsize, unsigned short int *size)
 {
-  signed int return_value_dico_get_generic$1;
-  return_value_dico_get_generic$1=dico_get_generic(d, section, key, data, maxsize, size);
-  return return_value_dico_get_generic$1;
+  signed int return_value_dico_get_generic_1;
+  return_value_dico_get_generic_1=dico_get_generic(d, section, key, data, maxsize, size);
+  return return_value_dico_get_generic_1;
 }
 
 // dico_get_generic
@@ -8594,9 +8594,9 @@ signed int dico_get_string(struct s_dico *d, unsigned char section, unsigned sho
   /* assertion buffer */
   assert(buffer != ((char *)NULL));
   memset((void *)buffer, 0, (unsigned long int)bufsize);
-  signed int return_value_dico_get_data$1;
-  return_value_dico_get_data$1=dico_get_data(d, section, key, (void *)buffer, bufsize, &size);
-  return return_value_dico_get_data$1;
+  signed int return_value_dico_get_data_1;
+  return_value_dico_get_data_1=dico_get_data(d, section, key, (void *)buffer, bufsize, &size);
+  return return_value_dico_get_data_1;
 }
 
 // dico_get_u16
@@ -8610,9 +8610,9 @@ signed int dico_get_u16(struct s_dico *d, unsigned char section, unsigned short 
   /* assertion data */
   assert(data != ((unsigned short int *)NULL));
   *data = (unsigned short int)0;
-  signed int return_value_dico_get_data$1;
-  return_value_dico_get_data$1=dico_get_data(d, section, key, (void *)&ledata, (unsigned short int)sizeof(unsigned short int) /*2ul*/ , &size);
-  if(!(return_value_dico_get_data$1 == 0))
+  signed int return_value_dico_get_data_1;
+  return_value_dico_get_data_1=dico_get_data(d, section, key, (void *)&ledata, (unsigned short int)sizeof(unsigned short int) /*2ul*/ , &size);
+  if(!(return_value_dico_get_data_1 == 0))
     return -1;
 
   else
@@ -8633,9 +8633,9 @@ signed int dico_get_u32(struct s_dico *d, unsigned char section, unsigned short 
   /* assertion data */
   assert(data != ((unsigned int *)NULL));
   *data = (unsigned int)0;
-  signed int return_value_dico_get_data$1;
-  return_value_dico_get_data$1=dico_get_data(d, section, key, (void *)&ledata, (unsigned short int)sizeof(unsigned int) /*4ul*/ , &size);
-  if(!(return_value_dico_get_data$1 == 0))
+  signed int return_value_dico_get_data_1;
+  return_value_dico_get_data_1=dico_get_data(d, section, key, (void *)&ledata, (unsigned short int)sizeof(unsigned int) /*4ul*/ , &size);
+  if(!(return_value_dico_get_data_1 == 0))
     return -1;
 
   else
@@ -8656,9 +8656,9 @@ signed int dico_get_u64(struct s_dico *d, unsigned char section, unsigned short 
   /* assertion data */
   assert(data != ((unsigned long int *)NULL));
   *data = (unsigned long int)0;
-  signed int return_value_dico_get_data$1;
-  return_value_dico_get_data$1=dico_get_data(d, section, key, (void *)&ledata, (unsigned short int)sizeof(unsigned long int) /*8ul*/ , &size);
-  if(!(return_value_dico_get_data$1 == 0))
+  signed int return_value_dico_get_data_1;
+  return_value_dico_get_data_1=dico_get_data(d, section, key, (void *)&ledata, (unsigned short int)sizeof(unsigned long int) /*8ul*/ , &size);
+  if(!(return_value_dico_get_data_1 == 0))
     return -1;
 
   else
@@ -8771,9 +8771,9 @@ signed int exclude_check(struct s_strlist *patlist, char *string)
   for( ; !(i >= count); i = i + 1)
   {
     strlist_getitem(patlist, i, pattern, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-    signed int return_value_fnmatch$1;
-    return_value_fnmatch$1=fnmatch(pattern, string, 0);
-    if(return_value_fnmatch$1 == 0)
+    signed int return_value_fnmatch_1;
+    return_value_fnmatch_1=fnmatch(pattern, string, 0);
+    if(return_value_fnmatch_1 == 0)
       return 1;
 
   }
@@ -8786,13 +8786,13 @@ signed int exec_command(char *command, signed int cmdbufsize, signed int *exitst
 {
   char pathtoprog[4096l];
   const signed int max_argv = 128;
-  const signed long int max_argv$array_size0 = (signed long int)max_argv;
-  char *argv[max_argv$array_size0];
+  const signed long int max_argv_array_size0 = (signed long int)max_argv;
+  char *argv[max_argv_array_size0];
   signed int outpos = 0;
   signed int errpos = 0;
   signed int pfildes1[2l];
   signed int pfildes2[2l];
-  struct anonymous$4 p;
+  struct anonymous_4 p;
   signed int status;
   signed int mystdout;
   signed int mystderr;
@@ -8805,10 +8805,10 @@ signed int exec_command(char *command, signed int cmdbufsize, signed int *exitst
   signed int i;
   memset((void *)pathtoprog, 0, sizeof(char [4096l]) /*4096ul*/ );
   i = 0;
-  signed int tmp_post$1;
-  for( ; !(i >= max_argv); argv[(signed long int)tmp_post$1] = (char *)(void *)0)
+  signed int tmp_post_1;
+  for( ; !(i >= max_argv); argv[(signed long int)tmp_post_1] = (char *)(void *)0)
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
   }
   if(!(exitst == ((signed int *)NULL)))
@@ -8831,12 +8831,12 @@ signed int exec_command(char *command, signed int cmdbufsize, signed int *exitst
     argv[(signed long int)i] = p.we_wordv[(signed long int)i];
     fsaprintf(4, (_Bool)0, 4 >= 3, "common.c", "exec_command", 324, "argv[%d]=[%s]\n", i, argv[(signed long int)i]);
   }
-  signed int return_value_getpathtoprog$2;
-  return_value_getpathtoprog$2=getpathtoprog(pathtoprog, (signed int)sizeof(char [4096l]) /*4096ul*/ , argv[(signed long int)0]);
-  signed int return_value_pipe$4;
-  signed long int return_value_read$10;
-  signed long int return_value_read$11;
-  if(!(return_value_getpathtoprog$2 == 0))
+  signed int return_value_getpathtoprog_2;
+  return_value_getpathtoprog_2=getpathtoprog(pathtoprog, (signed int)sizeof(char [4096l]) /*4096ul*/ , argv[(signed long int)0]);
+  signed int return_value_pipe_4;
+  signed long int return_value_read_10;
+  signed long int return_value_read_11;
+  if(!(return_value_getpathtoprog_2 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "common.c", "exec_command", 329, "program [%s] no found in PATH or bad permissions on that program\n", argv[(signed long int)0]);
     wordfree(&p);
@@ -8846,18 +8846,18 @@ signed int exec_command(char *command, signed int cmdbufsize, signed int *exitst
   else
   {
     fsaprintf(2, (_Bool)0, 2 >= 3, "common.c", "exec_command", 333, "getpathtoprog(%s)=[%s]\n", argv[(signed long int)0], (const void *)pathtoprog);
-    signed int return_value_pipe$3;
-    return_value_pipe$3=pipe(pfildes1);
-    _Bool tmp_if_expr$5;
-    if(return_value_pipe$3 == -1)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_pipe_3;
+    return_value_pipe_3=pipe(pfildes1);
+    _Bool tmp_if_expr_5;
+    if(return_value_pipe_3 == -1)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_pipe$4=pipe(pfildes2);
-      tmp_if_expr$5 = return_value_pipe$4 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_pipe_4=pipe(pfildes2);
+      tmp_if_expr_5 = return_value_pipe_4 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "common.c", "exec_command", 337, "pipe() failed\n");
       wordfree(&p);
@@ -8906,14 +8906,14 @@ signed int exec_command(char *command, signed int cmdbufsize, signed int *exitst
 
           __CPROVER_DUMP_L14:
             ;
-            signed long int return_value_read$6;
-            return_value_read$6=read(mystdout, (void *)&c, (unsigned long int)1);
-            res = (signed int)return_value_read$6;
+            signed long int return_value_read_6;
+            return_value_read_6=read(mystdout, (void *)&c, (unsigned long int)1);
+            res = (signed int)return_value_read_6;
             if(res >= 1 && !(stdoutbuf == ((char *)NULL)) && !(1 + outpos >= stdoutsize))
             {
-              signed int tmp_post$7 = outpos;
+              signed int tmp_post_7 = outpos;
               outpos = outpos + 1;
-              stdoutbuf[(signed long int)tmp_post$7] = c;
+              stdoutbuf[(signed long int)tmp_post_7] = c;
             }
 
             if(res >= 1)
@@ -8921,14 +8921,14 @@ signed int exec_command(char *command, signed int cmdbufsize, signed int *exitst
 
             do
             {
-              signed long int return_value_read$8;
-              return_value_read$8=read(mystderr, (void *)&c, (unsigned long int)1);
-              res = (signed int)return_value_read$8;
+              signed long int return_value_read_8;
+              return_value_read_8=read(mystderr, (void *)&c, (unsigned long int)1);
+              res = (signed int)return_value_read_8;
               if(res >= 1 && !(stderrbuf == ((char *)NULL)) && !(1 + errpos >= stderrsize))
               {
-                signed int tmp_post$9 = errpos;
+                signed int tmp_post_9 = errpos;
                 errpos = errpos + 1;
-                stderrbuf[(signed long int)tmp_post$9] = c;
+                stderrbuf[(signed long int)tmp_post_9] = c;
               }
 
             }
@@ -8939,18 +8939,18 @@ signed int exec_command(char *command, signed int cmdbufsize, signed int *exitst
           while(!(res == -1) && !(res == cmdpid));
           if(!(stdoutbuf == ((char *)NULL)) && !(1 + outpos >= stdoutsize))
           {
-            return_value_read$10=read(mystdout, (void *)(stdoutbuf + (signed long int)outpos), (unsigned long int)((stdoutsize - outpos) - 1));
-            res = (signed int)return_value_read$10;
+            return_value_read_10=read(mystdout, (void *)(stdoutbuf + (signed long int)outpos), (unsigned long int)((stdoutsize - outpos) - 1));
+            res = (signed int)return_value_read_10;
           }
 
           if(!(stderrbuf == ((char *)NULL)) && !(1 + errpos >= stderrsize))
           {
-            return_value_read$11=read(mystderr, (void *)(stderrbuf + (signed long int)errpos), (unsigned long int)((stderrsize - errpos) - 1));
-            res = (signed int)return_value_read$11;
+            return_value_read_11=read(mystderr, (void *)(stderrbuf + (signed long int)errpos), (unsigned long int)((stderrsize - errpos) - 1));
+            res = (signed int)return_value_read_11;
           }
 
           /* tag-#anon#lUN[lS32'__in'|S32'__i'] */
-union anonymous$3
+union anonymous_3
 {
   // __in
   signed int __in;
@@ -8960,9 +8960,9 @@ union anonymous$3
 
 /* */
           ;
-          fsaprintf(1, (_Bool)0, 1 >= 3, "common.c", "exec_command", 399, "command [%s] returned %d\n", command, (((union anonymous$3){ .__in=status }).__i & 0xff00) >> 8);
+          fsaprintf(1, (_Bool)0, 1 >= 3, "common.c", "exec_command", 399, "command [%s] returned %d\n", command, (((union anonymous_3){ .__in=status }).__i & 0xff00) >> 8);
           if(!(exitst == ((signed int *)NULL)))
-            *exitst = (((union anonymous$3){ .__in=status }).__i & 0xff00) >> 8;
+            *exitst = (((union anonymous_3){ .__in=status }).__i & 0xff00) >> 8;
 
           if(outpos >= 1 && !(stdoutbuf == ((char *)NULL)))
             fsaprintf(4, (_Bool)0, 4 >= 3, "common.c", "exec_command", 404, "\n----stdout----\n%s\n----stdout----\n\n", stdoutbuf);
@@ -8981,18 +8981,18 @@ union anonymous$3
 // file fs_ext2.c line 87
 signed int ext2_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 {
-  signed int return_value_extfs_mkfs$1;
-  return_value_extfs_mkfs$1=extfs_mkfs(d, partition, 0, fsoptions);
-  return return_value_extfs_mkfs$1;
+  signed int return_value_extfs_mkfs_1;
+  return_value_extfs_mkfs_1=extfs_mkfs(d, partition, 0, fsoptions);
+  return return_value_extfs_mkfs_1;
 }
 
 // ext2_test
 // file fs_ext2.c line 488
 signed int ext2_test(char *partition)
 {
-  signed int return_value_extfs_test$1;
-  return_value_extfs_test$1=extfs_test(partition, 0);
-  return return_value_extfs_test$1;
+  signed int return_value_extfs_test_1;
+  return_value_extfs_test_1=extfs_test(partition, 0);
+  return return_value_extfs_test_1;
 }
 
 // ext2fs_div64_ceil
@@ -9099,54 +9099,54 @@ inline void ext2fs_fast_set_bit64(unsigned long long int nr, void *addr)
 // file /usr/include/ext2fs/bitops.h line 443
 inline signed int ext2fs_fast_test_block_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int block)
 {
-  signed int return_value_ext2fs_test_generic_bitmap$1;
-  return_value_ext2fs_test_generic_bitmap$1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_test_generic_bitmap$1;
+  signed int return_value_ext2fs_test_generic_bitmap_1;
+  return_value_ext2fs_test_generic_bitmap_1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_test_generic_bitmap_1;
 }
 
 // ext2fs_fast_test_block_bitmap2
 // file /usr/include/ext2fs/bitops.h line 562
 inline signed int ext2fs_fast_test_block_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned long long int block)
 {
-  signed int return_value_ext2fs_test_generic_bmap$1;
-  return_value_ext2fs_test_generic_bmap$1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_test_generic_bmap$1;
+  signed int return_value_ext2fs_test_generic_bmap_1;
+  return_value_ext2fs_test_generic_bmap_1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_test_generic_bmap_1;
 }
 
 // ext2fs_fast_test_block_bitmap_range
 // file /usr/include/ext2fs/bitops.h line 489
 inline signed int ext2fs_fast_test_block_bitmap_range(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int block, signed int num)
 {
-  signed int return_value_ext2fs_test_block_bitmap_range$1;
-  return_value_ext2fs_test_block_bitmap_range$1=ext2fs_test_block_bitmap_range(bitmap, block, num);
-  return return_value_ext2fs_test_block_bitmap_range$1;
+  signed int return_value_ext2fs_test_block_bitmap_range_1;
+  return_value_ext2fs_test_block_bitmap_range_1=ext2fs_test_block_bitmap_range(bitmap, block, num);
+  return return_value_ext2fs_test_block_bitmap_range_1;
 }
 
 // ext2fs_fast_test_block_bitmap_range2
 // file /usr/include/ext2fs/bitops.h line 668
 inline signed int ext2fs_fast_test_block_bitmap_range2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned long long int block, unsigned int num)
 {
-  signed int return_value_ext2fs_test_block_bitmap_range2$1;
-  return_value_ext2fs_test_block_bitmap_range2$1=ext2fs_test_block_bitmap_range2(bitmap, block, num);
-  return return_value_ext2fs_test_block_bitmap_range2$1;
+  signed int return_value_ext2fs_test_block_bitmap_range2_1;
+  return_value_ext2fs_test_block_bitmap_range2_1=ext2fs_test_block_bitmap_range2(bitmap, block, num);
+  return return_value_ext2fs_test_block_bitmap_range2_1;
 }
 
 // ext2fs_fast_test_inode_bitmap
 // file /usr/include/ext2fs/bitops.h line 462
 inline signed int ext2fs_fast_test_inode_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_test_generic_bitmap$1;
-  return_value_ext2fs_test_generic_bitmap$1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
-  return return_value_ext2fs_test_generic_bitmap$1;
+  signed int return_value_ext2fs_test_generic_bitmap_1;
+  return_value_ext2fs_test_generic_bitmap_1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
+  return return_value_ext2fs_test_generic_bitmap_1;
 }
 
 // ext2fs_fast_test_inode_bitmap2
 // file /usr/include/ext2fs/bitops.h line 581
 inline signed int ext2fs_fast_test_inode_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_test_generic_bmap$1;
-  return_value_ext2fs_test_generic_bmap$1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
-  return return_value_ext2fs_test_generic_bmap$1;
+  signed int return_value_ext2fs_test_generic_bmap_1;
+  return_value_ext2fs_test_generic_bmap_1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
+  return return_value_ext2fs_test_generic_bmap_1;
 }
 
 // ext2fs_fast_unmark_block_bitmap
@@ -9264,9 +9264,9 @@ inline signed long int ext2fs_get_array(unsigned long int count, unsigned long i
 
   else
   {
-    signed long int return_value_ext2fs_get_mem$1;
-    return_value_ext2fs_get_mem$1=ext2fs_get_mem(count * size, ptr);
-    return return_value_ext2fs_get_mem$1;
+    signed long int return_value_ext2fs_get_mem_1;
+    return_value_ext2fs_get_mem_1=ext2fs_get_mem(count * size, ptr);
+    return return_value_ext2fs_get_mem_1;
   }
 }
 
@@ -9296,72 +9296,72 @@ inline signed long int ext2fs_get_arrayzero(unsigned long int count, unsigned lo
 // file /usr/include/ext2fs/bitops.h line 479
 inline unsigned int ext2fs_get_block_bitmap_end(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned int return_value_ext2fs_get_generic_bitmap_end$1;
-  return_value_ext2fs_get_generic_bitmap_end$1=ext2fs_get_generic_bitmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return return_value_ext2fs_get_generic_bitmap_end$1;
+  unsigned int return_value_ext2fs_get_generic_bitmap_end_1;
+  return_value_ext2fs_get_generic_bitmap_end_1=ext2fs_get_generic_bitmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return return_value_ext2fs_get_generic_bitmap_end_1;
 }
 
 // ext2fs_get_block_bitmap_end2
 // file /usr/include/ext2fs/bitops.h line 658
 inline unsigned long long int ext2fs_get_block_bitmap_end2(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned long long int return_value_ext2fs_get_generic_bmap_end$1;
-  return_value_ext2fs_get_generic_bmap_end$1=ext2fs_get_generic_bmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return return_value_ext2fs_get_generic_bmap_end$1;
+  unsigned long long int return_value_ext2fs_get_generic_bmap_end_1;
+  return_value_ext2fs_get_generic_bmap_end_1=ext2fs_get_generic_bmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return return_value_ext2fs_get_generic_bmap_end_1;
 }
 
 // ext2fs_get_block_bitmap_start
 // file /usr/include/ext2fs/bitops.h line 469
 inline unsigned int ext2fs_get_block_bitmap_start(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned int return_value_ext2fs_get_generic_bitmap_start$1;
-  return_value_ext2fs_get_generic_bitmap_start$1=ext2fs_get_generic_bitmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return return_value_ext2fs_get_generic_bitmap_start$1;
+  unsigned int return_value_ext2fs_get_generic_bitmap_start_1;
+  return_value_ext2fs_get_generic_bitmap_start_1=ext2fs_get_generic_bitmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return return_value_ext2fs_get_generic_bitmap_start_1;
 }
 
 // ext2fs_get_block_bitmap_start2
 // file /usr/include/ext2fs/bitops.h line 648
 inline unsigned long long int ext2fs_get_block_bitmap_start2(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned long long int return_value_ext2fs_get_generic_bmap_start$1;
-  return_value_ext2fs_get_generic_bmap_start$1=ext2fs_get_generic_bmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return return_value_ext2fs_get_generic_bmap_start$1;
+  unsigned long long int return_value_ext2fs_get_generic_bmap_start_1;
+  return_value_ext2fs_get_generic_bmap_start_1=ext2fs_get_generic_bmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return return_value_ext2fs_get_generic_bmap_start_1;
 }
 
 // ext2fs_get_inode_bitmap_end
 // file /usr/include/ext2fs/bitops.h line 484
 inline unsigned int ext2fs_get_inode_bitmap_end(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned int return_value_ext2fs_get_generic_bitmap_end$1;
-  return_value_ext2fs_get_generic_bitmap_end$1=ext2fs_get_generic_bitmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return return_value_ext2fs_get_generic_bitmap_end$1;
+  unsigned int return_value_ext2fs_get_generic_bitmap_end_1;
+  return_value_ext2fs_get_generic_bitmap_end_1=ext2fs_get_generic_bitmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return return_value_ext2fs_get_generic_bitmap_end_1;
 }
 
 // ext2fs_get_inode_bitmap_end2
 // file /usr/include/ext2fs/bitops.h line 663
 inline unsigned int ext2fs_get_inode_bitmap_end2(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned long long int return_value_ext2fs_get_generic_bmap_end$1;
-  return_value_ext2fs_get_generic_bmap_end$1=ext2fs_get_generic_bmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return (unsigned int)return_value_ext2fs_get_generic_bmap_end$1;
+  unsigned long long int return_value_ext2fs_get_generic_bmap_end_1;
+  return_value_ext2fs_get_generic_bmap_end_1=ext2fs_get_generic_bmap_end((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return (unsigned int)return_value_ext2fs_get_generic_bmap_end_1;
 }
 
 // ext2fs_get_inode_bitmap_start
 // file /usr/include/ext2fs/bitops.h line 474
 inline unsigned int ext2fs_get_inode_bitmap_start(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned int return_value_ext2fs_get_generic_bitmap_start$1;
-  return_value_ext2fs_get_generic_bitmap_start$1=ext2fs_get_generic_bitmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return return_value_ext2fs_get_generic_bitmap_start$1;
+  unsigned int return_value_ext2fs_get_generic_bitmap_start_1;
+  return_value_ext2fs_get_generic_bitmap_start_1=ext2fs_get_generic_bitmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return return_value_ext2fs_get_generic_bitmap_start_1;
 }
 
 // ext2fs_get_inode_bitmap_start2
 // file /usr/include/ext2fs/bitops.h line 653
 inline unsigned int ext2fs_get_inode_bitmap_start2(struct ext2fs_struct_generic_bitmap *bitmap)
 {
-  unsigned long long int return_value_ext2fs_get_generic_bmap_start$1;
-  return_value_ext2fs_get_generic_bmap_start$1=ext2fs_get_generic_bmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
-  return (unsigned int)return_value_ext2fs_get_generic_bmap_start$1;
+  unsigned long long int return_value_ext2fs_get_generic_bmap_start_1;
+  return_value_ext2fs_get_generic_bmap_start_1=ext2fs_get_generic_bmap_start((struct ext2fs_struct_generic_bitmap *)bitmap);
+  return (unsigned int)return_value_ext2fs_get_generic_bmap_start_1;
 }
 
 // ext2fs_get_mem
@@ -9401,27 +9401,27 @@ inline signed long int ext2fs_get_memzero(unsigned long int size, void *ptr)
 // file /usr/include/ext2fs/ext2fs.h line 1719
 inline unsigned int ext2fs_group_first_block(struct struct_ext2_filsys *fs, unsigned int group)
 {
-  unsigned long long int return_value_ext2fs_group_first_block2$1;
-  return_value_ext2fs_group_first_block2$1=ext2fs_group_first_block2(fs, group);
-  return (unsigned int)return_value_ext2fs_group_first_block2$1;
+  unsigned long long int return_value_ext2fs_group_first_block2_1;
+  return_value_ext2fs_group_first_block2_1=ext2fs_group_first_block2(fs, group);
+  return (unsigned int)return_value_ext2fs_group_first_block2_1;
 }
 
 // ext2fs_group_last_block
 // file /usr/include/ext2fs/ext2fs.h line 1727
 inline unsigned int ext2fs_group_last_block(struct struct_ext2_filsys *fs, unsigned int group)
 {
-  unsigned long long int return_value_ext2fs_group_last_block2$1;
-  return_value_ext2fs_group_last_block2$1=ext2fs_group_last_block2(fs, group);
-  return (unsigned int)return_value_ext2fs_group_last_block2$1;
+  unsigned long long int return_value_ext2fs_group_last_block2_1;
+  return_value_ext2fs_group_last_block2_1=ext2fs_group_last_block2(fs, group);
+  return (unsigned int)return_value_ext2fs_group_last_block2_1;
 }
 
 // ext2fs_group_of_blk
 // file /usr/include/ext2fs/ext2fs.h line 1704
 inline unsigned int ext2fs_group_of_blk(struct struct_ext2_filsys *fs, unsigned int blk)
 {
-  unsigned int return_value_ext2fs_group_of_blk2$1;
-  return_value_ext2fs_group_of_blk2$1=ext2fs_group_of_blk2(fs, (unsigned long long int)blk);
-  return return_value_ext2fs_group_of_blk2$1;
+  unsigned int return_value_ext2fs_group_of_blk2_1;
+  return_value_ext2fs_group_of_blk2_1=ext2fs_group_of_blk2(fs, (unsigned long long int)blk);
+  return return_value_ext2fs_group_of_blk2_1;
 }
 
 // ext2fs_group_of_ino
@@ -9435,9 +9435,9 @@ inline unsigned int ext2fs_group_of_ino(struct struct_ext2_filsys *fs, unsigned 
 // file /usr/include/ext2fs/ext2fs.h line 1732
 inline unsigned int ext2fs_inode_data_blocks(struct struct_ext2_filsys *fs, struct ext2_inode *inode)
 {
-  unsigned long long int return_value_ext2fs_inode_data_blocks2$1;
-  return_value_ext2fs_inode_data_blocks2$1=ext2fs_inode_data_blocks2(fs, inode);
-  return (unsigned int)return_value_ext2fs_inode_data_blocks2$1;
+  unsigned long long int return_value_ext2fs_inode_data_blocks2_1;
+  return_value_ext2fs_inode_data_blocks2_1=ext2fs_inode_data_blocks2(fs, inode);
+  return (unsigned int)return_value_ext2fs_inode_data_blocks2_1;
 }
 
 // ext2fs_mark_bb_dirty
@@ -9451,18 +9451,18 @@ inline void ext2fs_mark_bb_dirty(struct struct_ext2_filsys *fs)
 // file /usr/include/ext2fs/bitops.h line 389
 inline signed int ext2fs_mark_block_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int block)
 {
-  signed int return_value_ext2fs_mark_generic_bitmap$1;
-  return_value_ext2fs_mark_generic_bitmap$1=ext2fs_mark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_mark_generic_bitmap$1;
+  signed int return_value_ext2fs_mark_generic_bitmap_1;
+  return_value_ext2fs_mark_generic_bitmap_1=ext2fs_mark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_mark_generic_bitmap_1;
 }
 
 // ext2fs_mark_block_bitmap2
 // file /usr/include/ext2fs/bitops.h line 509
 inline signed int ext2fs_mark_block_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned long long int block)
 {
-  signed int return_value_ext2fs_mark_generic_bmap$1;
-  return_value_ext2fs_mark_generic_bmap$1=ext2fs_mark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_mark_generic_bmap$1;
+  signed int return_value_ext2fs_mark_generic_bmap_1;
+  return_value_ext2fs_mark_generic_bmap_1=ext2fs_mark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_mark_generic_bmap_1;
 }
 
 // ext2fs_mark_changed
@@ -9483,18 +9483,18 @@ inline void ext2fs_mark_ib_dirty(struct struct_ext2_filsys *fs)
 // file /usr/include/ext2fs/bitops.h line 410
 inline signed int ext2fs_mark_inode_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_mark_generic_bitmap$1;
-  return_value_ext2fs_mark_generic_bitmap$1=ext2fs_mark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
-  return return_value_ext2fs_mark_generic_bitmap$1;
+  signed int return_value_ext2fs_mark_generic_bitmap_1;
+  return_value_ext2fs_mark_generic_bitmap_1=ext2fs_mark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
+  return return_value_ext2fs_mark_generic_bitmap_1;
 }
 
 // ext2fs_mark_inode_bitmap2
 // file /usr/include/ext2fs/bitops.h line 529
 inline signed int ext2fs_mark_inode_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_mark_generic_bmap$1;
-  return_value_ext2fs_mark_generic_bmap$1=ext2fs_mark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
-  return return_value_ext2fs_mark_generic_bmap$1;
+  signed int return_value_ext2fs_mark_generic_bmap_1;
+  return_value_ext2fs_mark_generic_bmap_1=ext2fs_mark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
+  return return_value_ext2fs_mark_generic_bmap_1;
 }
 
 // ext2fs_mark_super_dirty
@@ -9546,11 +9546,11 @@ inline unsigned int ext2fs_swab32(unsigned int val)
 // file /usr/include/ext2fs/bitops.h line 383
 inline unsigned long long int ext2fs_swab64(unsigned long long int val)
 {
-  unsigned int return_value_ext2fs_swab32$1;
-  return_value_ext2fs_swab32$1=ext2fs_swab32((unsigned int)(val >> 32));
-  unsigned int return_value_ext2fs_swab32$2;
-  return_value_ext2fs_swab32$2=ext2fs_swab32((unsigned int)(val & 0xFFFFFFFFUL));
-  return (unsigned long int)return_value_ext2fs_swab32$1 | (unsigned long long int)return_value_ext2fs_swab32$2 << 32;
+  unsigned int return_value_ext2fs_swab32_1;
+  return_value_ext2fs_swab32_1=ext2fs_swab32((unsigned int)(val >> 32));
+  unsigned int return_value_ext2fs_swab32_2;
+  return_value_ext2fs_swab32_2=ext2fs_swab32((unsigned int)(val & 0xFFFFFFFFUL));
+  return (unsigned long int)return_value_ext2fs_swab32_1 | (unsigned long long int)return_value_ext2fs_swab32_2 << 32;
 }
 
 // ext2fs_test_bb_dirty
@@ -9564,18 +9564,18 @@ inline signed int ext2fs_test_bb_dirty(struct struct_ext2_filsys *fs)
 // file /usr/include/ext2fs/bitops.h line 403
 inline signed int ext2fs_test_block_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int block)
 {
-  signed int return_value_ext2fs_test_generic_bitmap$1;
-  return_value_ext2fs_test_generic_bitmap$1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_test_generic_bitmap$1;
+  signed int return_value_ext2fs_test_generic_bitmap_1;
+  return_value_ext2fs_test_generic_bitmap_1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_test_generic_bitmap_1;
 }
 
 // ext2fs_test_block_bitmap2
 // file /usr/include/ext2fs/bitops.h line 522
 inline signed int ext2fs_test_block_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned long long int block)
 {
-  signed int return_value_ext2fs_test_generic_bmap$1;
-  return_value_ext2fs_test_generic_bmap$1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_test_generic_bmap$1;
+  signed int return_value_ext2fs_test_generic_bmap_1;
+  return_value_ext2fs_test_generic_bmap_1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_test_generic_bmap_1;
 }
 
 // ext2fs_test_changed
@@ -9596,18 +9596,18 @@ inline signed int ext2fs_test_ib_dirty(struct struct_ext2_filsys *fs)
 // file /usr/include/ext2fs/bitops.h line 424
 inline signed int ext2fs_test_inode_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_test_generic_bitmap$1;
-  return_value_ext2fs_test_generic_bitmap$1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
-  return return_value_ext2fs_test_generic_bitmap$1;
+  signed int return_value_ext2fs_test_generic_bitmap_1;
+  return_value_ext2fs_test_generic_bitmap_1=ext2fs_test_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
+  return return_value_ext2fs_test_generic_bitmap_1;
 }
 
 // ext2fs_test_inode_bitmap2
 // file /usr/include/ext2fs/bitops.h line 543
 inline signed int ext2fs_test_inode_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_test_generic_bmap$1;
-  return_value_ext2fs_test_generic_bmap$1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
-  return return_value_ext2fs_test_generic_bmap$1;
+  signed int return_value_ext2fs_test_generic_bmap_1;
+  return_value_ext2fs_test_generic_bmap_1=ext2fs_test_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
+  return return_value_ext2fs_test_generic_bmap_1;
 }
 
 // ext2fs_test_valid
@@ -9621,36 +9621,36 @@ inline signed int ext2fs_test_valid(struct struct_ext2_filsys *fs)
 // file /usr/include/ext2fs/bitops.h line 396
 inline signed int ext2fs_unmark_block_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int block)
 {
-  signed int return_value_ext2fs_unmark_generic_bitmap$1;
-  return_value_ext2fs_unmark_generic_bitmap$1=ext2fs_unmark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_unmark_generic_bitmap$1;
+  signed int return_value_ext2fs_unmark_generic_bitmap_1;
+  return_value_ext2fs_unmark_generic_bitmap_1=ext2fs_unmark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_unmark_generic_bitmap_1;
 }
 
 // ext2fs_unmark_block_bitmap2
 // file /usr/include/ext2fs/bitops.h line 516
 inline signed int ext2fs_unmark_block_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned long long int block)
 {
-  signed int return_value_ext2fs_unmark_generic_bmap$1;
-  return_value_ext2fs_unmark_generic_bmap$1=ext2fs_unmark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
-  return return_value_ext2fs_unmark_generic_bmap$1;
+  signed int return_value_ext2fs_unmark_generic_bmap_1;
+  return_value_ext2fs_unmark_generic_bmap_1=ext2fs_unmark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, block);
+  return return_value_ext2fs_unmark_generic_bmap_1;
 }
 
 // ext2fs_unmark_inode_bitmap
 // file /usr/include/ext2fs/bitops.h line 417
 inline signed int ext2fs_unmark_inode_bitmap(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_unmark_generic_bitmap$1;
-  return_value_ext2fs_unmark_generic_bitmap$1=ext2fs_unmark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
-  return return_value_ext2fs_unmark_generic_bitmap$1;
+  signed int return_value_ext2fs_unmark_generic_bitmap_1;
+  return_value_ext2fs_unmark_generic_bitmap_1=ext2fs_unmark_generic_bitmap((struct ext2fs_struct_generic_bitmap *)bitmap, inode);
+  return return_value_ext2fs_unmark_generic_bitmap_1;
 }
 
 // ext2fs_unmark_inode_bitmap2
 // file /usr/include/ext2fs/bitops.h line 536
 inline signed int ext2fs_unmark_inode_bitmap2(struct ext2fs_struct_generic_bitmap *bitmap, unsigned int inode)
 {
-  signed int return_value_ext2fs_unmark_generic_bmap$1;
-  return_value_ext2fs_unmark_generic_bmap$1=ext2fs_unmark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
-  return return_value_ext2fs_unmark_generic_bmap$1;
+  signed int return_value_ext2fs_unmark_generic_bmap_1;
+  return_value_ext2fs_unmark_generic_bmap_1=ext2fs_unmark_generic_bmap((struct ext2fs_struct_generic_bitmap *)bitmap, (unsigned long long int)inode);
+  return return_value_ext2fs_unmark_generic_bmap_1;
 }
 
 // ext2fs_unmark_valid
@@ -9664,36 +9664,36 @@ inline void ext2fs_unmark_valid(struct struct_ext2_filsys *fs)
 // file fs_ext2.c line 92
 signed int ext3_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 {
-  signed int return_value_extfs_mkfs$1;
-  return_value_extfs_mkfs$1=extfs_mkfs(d, partition, 1, fsoptions);
-  return return_value_extfs_mkfs$1;
+  signed int return_value_extfs_mkfs_1;
+  return_value_extfs_mkfs_1=extfs_mkfs(d, partition, 1, fsoptions);
+  return return_value_extfs_mkfs_1;
 }
 
 // ext3_test
 // file fs_ext2.c line 493
 signed int ext3_test(char *partition)
 {
-  signed int return_value_extfs_test$1;
-  return_value_extfs_test$1=extfs_test(partition, 1);
-  return return_value_extfs_test$1;
+  signed int return_value_extfs_test_1;
+  return_value_extfs_test_1=extfs_test(partition, 1);
+  return return_value_extfs_test_1;
 }
 
 // ext4_mkfs
 // file fs_ext2.c line 97
 signed int ext4_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 {
-  signed int return_value_extfs_mkfs$1;
-  return_value_extfs_mkfs$1=extfs_mkfs(d, partition, 2, fsoptions);
-  return return_value_extfs_mkfs$1;
+  signed int return_value_extfs_mkfs_1;
+  return_value_extfs_mkfs_1=extfs_mkfs(d, partition, 2, fsoptions);
+  return return_value_extfs_mkfs_1;
 }
 
 // ext4_test
 // file fs_ext2.c line 498
 signed int ext4_test(char *partition)
 {
-  signed int return_value_extfs_test$1;
-  return_value_extfs_test$1=extfs_test(partition, 2);
-  return return_value_extfs_test$1;
+  signed int return_value_extfs_test_1;
+  return_value_extfs_test_1=extfs_test(partition, 2);
+  return return_value_extfs_test_1;
 }
 
 // extfs_check_compatibility
@@ -9763,9 +9763,9 @@ signed int extfs_getinfo(struct s_dico *d, char *devname)
   unsigned int m;
   signed int count;
   signed int i;
-  signed long int return_value_ext2fs_open$1;
-  return_value_ext2fs_open$1=ext2fs_open(devname, 0x1000 | 0x8000, (signed int)use_superblock, (unsigned int)use_blocksize, unix_io_manager, &fs);
-  if(!(return_value_ext2fs_open$1 == 0l))
+  signed long int return_value_ext2fs_open_1;
+  return_value_ext2fs_open_1=ext2fs_open(devname, 0x1000 | 0x8000, (signed int)use_superblock, (unsigned int)use_blocksize, unix_io_manager, &fs);
+  if(!(return_value_ext2fs_open_1 == 0l))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_getinfo", 341, "ext2fs_open(%s) failed\n", devname);
     return -1;
@@ -9805,30 +9805,30 @@ signed int extfs_getinfo(struct s_dico *d, char *devname)
       fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_getinfo", 381, "extfs_raid_stripe_width: %u\n", super->s_raid_stripe_width);
     }
 
-    signed int tmp_if_expr$2;
+    signed int tmp_if_expr_2;
     if((signed int)super->s_max_mnt_count >= 1)
-      tmp_if_expr$2 = (signed int)super->s_max_mnt_count;
+      tmp_if_expr_2 = (signed int)super->s_max_mnt_count;
 
     else
-      tmp_if_expr$2 = 0;
-    dico_add_u64(d, (unsigned char)0, (unsigned short int)29, (unsigned long int)tmp_if_expr$2);
+      tmp_if_expr_2 = 0;
+    dico_add_u64(d, (unsigned char)0, (unsigned short int)29, (unsigned long int)tmp_if_expr_2);
     dico_add_u64(d, (unsigned char)0, (unsigned short int)30, (unsigned long int)super->s_checkinterval);
-    signed int tmp_if_expr$3;
+    signed int tmp_if_expr_3;
     if((signed int)super->s_max_mnt_count >= 1)
-      tmp_if_expr$3 = (signed int)super->s_max_mnt_count;
+      tmp_if_expr_3 = (signed int)super->s_max_mnt_count;
 
     else
-      tmp_if_expr$3 = 0;
-    fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_getinfo", 387, "extfs_max_mount_count: %ld\n", (signed long int)tmp_if_expr$3);
+      tmp_if_expr_3 = 0;
+    fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_getinfo", 387, "extfs_max_mount_count: %ld\n", (signed long int)tmp_if_expr_3);
     fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_getinfo", 388, "extfs_check_interval: %ld\n", (signed long int)super->s_checkinterval);
     memset((void *)mntopt, 0, sizeof(char [1024l]) /*1024ul*/ );
     count = 0;
     mask = super->s_default_mount_opts;
     if(!((96u & mask) == 0u))
     {
-      const char *return_value_e2p_mntopt2string$4;
-      return_value_e2p_mntopt2string$4=e2p_mntopt2string(mask & (unsigned int)0x0060);
-      strlcatf(mntopt, (signed int)sizeof(char [1024l]) /*1024ul*/ , "%s", return_value_e2p_mntopt2string$4);
+      const char *return_value_e2p_mntopt2string_4;
+      return_value_e2p_mntopt2string_4=e2p_mntopt2string(mask & (unsigned int)0x0060);
+      strlcatf(mntopt, (signed int)sizeof(char [1024l]) /*1024ul*/ , "%s", return_value_e2p_mntopt2string_4);
       count = count + 1;
     }
 
@@ -9840,14 +9840,14 @@ signed int extfs_getinfo(struct s_dico *d, char *devname)
       {
         if(!((m & mask) == 0u))
         {
-          signed int tmp_post$5 = count;
+          signed int tmp_post_5 = count;
           count = count + 1;
-          if(!(tmp_post$5 == 0))
+          if(!(tmp_post_5 == 0))
             strlcatf(mntopt, (signed int)sizeof(char [1024l]) /*1024ul*/ , ",");
 
-          const char *return_value_e2p_mntopt2string$6;
-          return_value_e2p_mntopt2string$6=e2p_mntopt2string(m);
-          strlcatf(mntopt, (signed int)sizeof(char [1024l]) /*1024ul*/ , "%s", return_value_e2p_mntopt2string$6);
+          const char *return_value_e2p_mntopt2string_6;
+          return_value_e2p_mntopt2string_6=e2p_mntopt2string(m);
+          strlcatf(mntopt, (signed int)sizeof(char [1024l]) /*1024ul*/ , "%s", return_value_e2p_mntopt2string_6);
         }
 
       }
@@ -9860,12 +9860,12 @@ signed int extfs_getinfo(struct s_dico *d, char *devname)
     dico_add_u64(d, (unsigned char)0, (unsigned short int)13, (unsigned long int)super->s_feature_incompat);
     dico_add_u64(d, (unsigned char)0, (unsigned short int)14, (unsigned long int)super->s_feature_ro_compat);
     origextfstype=extfs_get_fstype_from_compat_flags((unsigned int)(unsigned long int)super->s_feature_compat, (unsigned int)(unsigned long int)super->s_feature_incompat, (unsigned int)(unsigned long int)super->s_feature_ro_compat);
-    char *return_value_format_fstype$7;
-    return_value_format_fstype$7=format_fstype(origextfstype);
-    fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_getinfo", 417, "the filesystem type determined by the features is [%s]\n", return_value_format_fstype$7);
-    signed int return_value_extfs_check_compatibility$8;
-    return_value_extfs_check_compatibility$8=extfs_check_compatibility((unsigned long int)super->s_feature_compat, (unsigned long int)super->s_feature_incompat, (unsigned long int)super->s_feature_ro_compat);
-    if(!(return_value_extfs_check_compatibility$8 == 0))
+    char *return_value_format_fstype_7;
+    return_value_format_fstype_7=format_fstype(origextfstype);
+    fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_getinfo", 417, "the filesystem type determined by the features is [%s]\n", return_value_format_fstype_7);
+    signed int return_value_extfs_check_compatibility_8;
+    return_value_extfs_check_compatibility_8=extfs_check_compatibility((unsigned long int)super->s_feature_compat, (unsigned long int)super->s_feature_incompat, (unsigned long int)super->s_feature_ro_compat);
+    if(!(return_value_extfs_check_compatibility_8 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_getinfo", 421, "this filesystem has ext{2,3,4} features which are not supported by this fsarchiver version.\n");
       return -1;
@@ -9903,32 +9903,32 @@ signed int extfs_mkfs(struct s_dico *d, char *partition, signed int extfstype, c
   memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
   snprintf(progname, sizeof(char [64l]) /*64ul*/ , "mke2fs");
   strlist_init(&strfeatures);
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "%s -V", (const void *)progname);
-  signed int return_value_dico_get_u64$2;
-  signed int return_value_dico_get_string$4;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_dico_get_u64$5;
-  signed int return_value_dico_get_u64$6;
-  signed int return_value_dico_get_u64$7;
-  signed int return_value_dico_get_u64$8;
-  signed int return_value_dico_get_u64$10;
-  signed int return_value_extfs_check_compatibility$12;
-  char *return_value_format_fstype$13;
-  char *return_value_format_fstype$14;
-  signed int return_value_strlist_count$15;
-  char *return_value_format_prog_version$16;
-  char *return_value_format_prog_version$17;
-  signed int return_value_dico_get_u64$19;
-  signed int return_value_dico_get_u64$20;
-  signed int return_value_exec_command$21;
-  signed int return_value_dico_get_string$23;
-  unsigned long int return_value_strlen$22;
-  signed int return_value_dico_get_string$25;
-  unsigned long int return_value_strlen$24;
-  signed int return_value_dico_get_u64$26;
-  signed int return_value_dico_get_u64$27;
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "%s -V", (const void *)progname);
+  signed int return_value_dico_get_u64_2;
+  signed int return_value_dico_get_string_4;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_dico_get_u64_5;
+  signed int return_value_dico_get_u64_6;
+  signed int return_value_dico_get_u64_7;
+  signed int return_value_dico_get_u64_8;
+  signed int return_value_dico_get_u64_10;
+  signed int return_value_extfs_check_compatibility_12;
+  char *return_value_format_fstype_13;
+  char *return_value_format_fstype_14;
+  signed int return_value_strlist_count_15;
+  char *return_value_format_prog_version_16;
+  char *return_value_format_prog_version_17;
+  signed int return_value_dico_get_u64_19;
+  signed int return_value_dico_get_u64_20;
+  signed int return_value_exec_command_21;
+  signed int return_value_dico_get_string_23;
+  unsigned long int return_value_strlen_22;
+  signed int return_value_dico_get_string_25;
+  unsigned long int return_value_strlen_24;
+  signed int return_value_dico_get_u64_26;
+  signed int return_value_dico_get_u64_27;
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_mkfs", 166, "%s not found. please install a recent e2fsprogs on your system or check the PATH.\n", (const void *)progname);
     ret = -1;
@@ -9937,66 +9937,66 @@ signed int extfs_mkfs(struct s_dico *d, char *partition, signed int extfstype, c
   else
   {
     e2fstoolsver=check_prog_version(progname);
-    return_value_dico_get_u64$2=dico_get_u64(d, (unsigned char)0, (unsigned short int)10, &fsextrevision);
-    if(!(return_value_dico_get_u64$2 == 0))
+    return_value_dico_get_u64_2=dico_get_u64(d, (unsigned char)0, (unsigned short int)10, &fsextrevision);
+    if(!(return_value_dico_get_u64_2 == 0))
       fsextrevision = (unsigned long int)1;
 
     strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -q ");
     strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -r %d ", (signed int)fsextrevision);
     strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " %s ", fsoptions);
-    return_value_dico_get_string$4=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(return_value_dico_get_string$4 == 0)
+    return_value_dico_get_string_4=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(return_value_dico_get_string_4 == 0)
     {
-      return_value_strlen$3=strlen(buffer);
-      if(return_value_strlen$3 >= 1ul)
+      return_value_strlen_3=strlen(buffer);
+      if(return_value_strlen_3 >= 1ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -L '%.16s' ", (const void *)buffer);
 
     }
 
-    return_value_dico_get_u64$5=dico_get_u64(d, (unsigned char)0, (unsigned short int)11, &temp64);
-    if(return_value_dico_get_u64$5 == 0)
+    return_value_dico_get_u64_5=dico_get_u64(d, (unsigned char)0, (unsigned short int)11, &temp64);
+    if(return_value_dico_get_u64_5 == 0)
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -b %ld ", (signed long int)temp64);
 
-    return_value_dico_get_u64$6=dico_get_u64(d, (unsigned char)0, (unsigned short int)7, &temp64);
-    if(return_value_dico_get_u64$6 == 0)
+    return_value_dico_get_u64_6=dico_get_u64(d, (unsigned char)0, (unsigned short int)7, &temp64);
+    if(return_value_dico_get_u64_6 == 0)
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -I %ld ", (signed long int)temp64);
 
-    return_value_dico_get_u64$7=dico_get_u64(d, (unsigned char)0, (unsigned short int)12, &features_tab[(signed long int)0]);
-    _Bool tmp_if_expr$9;
-    if(!(return_value_dico_get_u64$7 == 0))
-      tmp_if_expr$9 = (_Bool)1;
+    return_value_dico_get_u64_7=dico_get_u64(d, (unsigned char)0, (unsigned short int)12, &features_tab[(signed long int)0]);
+    _Bool tmp_if_expr_9;
+    if(!(return_value_dico_get_u64_7 == 0))
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_dico_get_u64$8=dico_get_u64(d, (unsigned char)0, (unsigned short int)13, &features_tab[(signed long int)1]);
-      tmp_if_expr$9 = return_value_dico_get_u64$8 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_dico_get_u64_8=dico_get_u64(d, (unsigned char)0, (unsigned short int)13, &features_tab[(signed long int)1]);
+      tmp_if_expr_9 = return_value_dico_get_u64_8 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$11;
-    if(tmp_if_expr$9)
-      tmp_if_expr$11 = (_Bool)1;
+    _Bool tmp_if_expr_11;
+    if(tmp_if_expr_9)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      return_value_dico_get_u64$10=dico_get_u64(d, (unsigned char)0, (unsigned short int)14, &features_tab[(signed long int)2]);
-      tmp_if_expr$11 = return_value_dico_get_u64$10 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_dico_get_u64_10=dico_get_u64(d, (unsigned char)0, (unsigned short int)14, &features_tab[(signed long int)2]);
+      tmp_if_expr_11 = return_value_dico_get_u64_10 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$11)
+    if(tmp_if_expr_11)
     {
       features_tab[(signed long int)0] = (unsigned long int)(0x0010 | 0x0020);
       features_tab[(signed long int)1] = (unsigned long int)0x0002;
       features_tab[(signed long int)2] = (unsigned long int)0x0001;
     }
 
-    return_value_extfs_check_compatibility$12=extfs_check_compatibility(features_tab[(signed long int)0], features_tab[(signed long int)1], features_tab[(signed long int)2]);
-    if(!(return_value_extfs_check_compatibility$12 == 0))
+    return_value_extfs_check_compatibility_12=extfs_check_compatibility(features_tab[(signed long int)0], features_tab[(signed long int)1], features_tab[(signed long int)2]);
+    if(!(return_value_extfs_check_compatibility_12 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_mkfs", 206, "this filesystem has ext{2,3,4} features which are not supported by this fsarchiver version.\n");
       return -1;
     }
 
     origextfstype=extfs_get_fstype_from_compat_flags((unsigned int)features_tab[(signed long int)0], (unsigned int)features_tab[(signed long int)1], (unsigned int)features_tab[(signed long int)2]);
-    return_value_format_fstype$13=format_fstype(origextfstype);
-    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 213, "the filesystem type determined by the original filesystem features is [%s]\n", return_value_format_fstype$13);
+    return_value_format_fstype_13=format_fstype(origextfstype);
+    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 213, "the filesystem type determined by the original filesystem features is [%s]\n", return_value_format_fstype_13);
     i = 0;
     for( ; !(mkfeatures[(signed long int)i].name == ((char *)NULL)); i = i + 1)
     {
@@ -10005,8 +10005,8 @@ signed int extfs_mkfs(struct s_dico *d, char *partition, signed int extfstype, c
         features_tab[(signed long int)compat_type] = features_tab[(signed long int)compat_type] & (unsigned long int)~mkfeatures[(signed long int)i].mask;
 
     }
-    return_value_format_fstype$14=format_fstype(extfstype);
-    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 227, "the filesystem type to create considering the command options is [%s]\n", return_value_format_fstype$14);
+    return_value_format_fstype_14=format_fstype(extfstype);
+    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 227, "the filesystem type to create considering the command options is [%s]\n", return_value_format_fstype_14);
     if(origextfstype == 0 && extfstype >= 1)
     {
       fsextrevision = (unsigned long int)1;
@@ -10040,8 +10040,8 @@ signed int extfs_mkfs(struct s_dico *d, char *partition, signed int extfstype, c
 
     if(!(fsextrevision == 0ul))
     {
-      return_value_strlist_count$15=strlist_count(&strfeatures);
-      if(return_value_strlist_count$15 >= 1)
+      return_value_strlist_count_15=strlist_count(&strfeatures);
+      if(return_value_strlist_count_15 >= 1)
       {
         strlist_merge(&strfeatures, temp, (signed int)sizeof(char [1024l]) /*1024ul*/ , (char)44);
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -O %s ", (const void *)temp);
@@ -10050,25 +10050,25 @@ signed int extfs_mkfs(struct s_dico *d, char *partition, signed int extfstype, c
 
     }
 
-    return_value_format_prog_version$16=format_prog_version(e2fstoolsver, temp, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 263, "mke2fs version detected: %s\n", return_value_format_prog_version$16);
-    return_value_format_prog_version$17=format_prog_version(e2fsprogs_minver[(signed long int)extfstype], temp, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 264, "mke2fs version required: %s\n", return_value_format_prog_version$17);
+    return_value_format_prog_version_16=format_prog_version(e2fstoolsver, temp, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 263, "mke2fs version detected: %s\n", return_value_format_prog_version_16);
+    return_value_format_prog_version_17=format_prog_version(e2fsprogs_minver[(signed long int)extfstype], temp, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+    fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 264, "mke2fs version required: %s\n", return_value_format_prog_version_17);
     if(!(e2fstoolsver >= e2fsprogs_minver[(signed long int)extfstype]))
     {
-      char *return_value_format_prog_version$18;
-      return_value_format_prog_version$18=format_prog_version(e2fsprogs_minver[(signed long int)extfstype], temp, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-      fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_mkfs", 267, "mke2fs was found but is too old, please upgrade to a version %s or more recent.\n", return_value_format_prog_version$18);
+      char *return_value_format_prog_version_18;
+      return_value_format_prog_version_18=format_prog_version(e2fsprogs_minver[(signed long int)extfstype], temp, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+      fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_mkfs", 267, "mke2fs was found but is too old, please upgrade to a version %s or more recent.\n", return_value_format_prog_version_18);
       ret = -1;
       goto extfs_mkfs_cleanup;
     }
 
-    return_value_dico_get_u64$19=dico_get_u64(d, (unsigned char)0, (unsigned short int)32, &temp64);
-    if(return_value_dico_get_u64$19 == 0)
+    return_value_dico_get_u64_19=dico_get_u64(d, (unsigned char)0, (unsigned short int)32, &temp64);
+    if(return_value_dico_get_u64_19 == 0)
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -E stride=%ld ", (signed long int)temp64);
 
-    return_value_dico_get_u64$20=dico_get_u64(d, (unsigned char)0, (unsigned short int)31, &temp64);
-    if(return_value_dico_get_u64$20 == 0)
+    return_value_dico_get_u64_20=dico_get_u64(d, (unsigned char)0, (unsigned short int)31, &temp64);
+    if(return_value_dico_get_u64_20 == 0)
     {
       if(e2fstoolsver >= 75783ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -E stripe-width=%ld ", (signed long int)temp64);
@@ -10076,8 +10076,8 @@ signed int extfs_mkfs(struct s_dico *d, char *partition, signed int extfstype, c
     }
 
     fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mkfs", 279, "exec: %s\n", (const void *)command);
-    return_value_exec_command$21=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "%s %s %s", (const void *)progname, partition, (const void *)options);
-    if(!(return_value_exec_command$21 == 0) || !(exitst == 0))
+    return_value_exec_command_21=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "%s %s %s", (const void *)progname, partition, (const void *)options);
+    if(!(return_value_exec_command_21 == 0) || !(exitst == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_mkfs", 281, "command [%s] failed with return status=%d\n", (const void *)command, exitst);
       ret = -1;
@@ -10086,37 +10086,37 @@ signed int extfs_mkfs(struct s_dico *d, char *partition, signed int extfstype, c
     else
     {
       memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
-      return_value_dico_get_string$23=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-      if(return_value_dico_get_string$23 == 0)
+      return_value_dico_get_string_23=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+      if(return_value_dico_get_string_23 == 0)
       {
-        return_value_strlen$22=strlen(buffer);
-        if(return_value_strlen$22 == 36ul)
+        return_value_strlen_22=strlen(buffer);
+        if(return_value_strlen_22 == 36ul)
           strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -U %s ", (const void *)buffer);
 
       }
 
-      return_value_dico_get_string$25=dico_get_string(d, (unsigned char)0, (unsigned short int)9, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-      if(return_value_dico_get_string$25 == 0)
+      return_value_dico_get_string_25=dico_get_string(d, (unsigned char)0, (unsigned short int)9, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+      if(return_value_dico_get_string_25 == 0)
       {
-        return_value_strlen$24=strlen(buffer);
-        if(return_value_strlen$24 >= 1ul)
+        return_value_strlen_24=strlen(buffer);
+        if(return_value_strlen_24 >= 1ul)
           strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -o %s ", (const void *)buffer);
 
       }
 
-      return_value_dico_get_u64$26=dico_get_u64(d, (unsigned char)0, (unsigned short int)29, &temp64);
-      if(return_value_dico_get_u64$26 == 0)
+      return_value_dico_get_u64_26=dico_get_u64(d, (unsigned char)0, (unsigned short int)29, &temp64);
+      if(return_value_dico_get_u64_26 == 0)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -c %ld ", (signed long int)temp64);
 
-      return_value_dico_get_u64$27=dico_get_u64(d, (unsigned char)0, (unsigned short int)30, &temp64);
-      if(return_value_dico_get_u64$27 == 0)
+      return_value_dico_get_u64_27=dico_get_u64(d, (unsigned char)0, (unsigned short int)30, &temp64);
+      if(return_value_dico_get_u64_27 == 0)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -i %ldd ", (signed long int)(temp64 / (unsigned long int)86400L));
 
       if(!(options[0l] == 0))
       {
-        signed int return_value_exec_command$28;
-        return_value_exec_command$28=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "tune2fs %s %s", partition, (const void *)options);
-        if(!(return_value_exec_command$28 == 0) || !(exitst == 0))
+        signed int return_value_exec_command_28;
+        return_value_exec_command_28=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "tune2fs %s %s", partition, (const void *)options);
+        if(!(return_value_exec_command_28 == 0) || !(exitst == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ext2.c", "extfs_mkfs", 303, "command [%s] failed with return status=%d\n", (const void *)command, exitst);
           ret = -1;
@@ -10158,9 +10158,9 @@ signed int extfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int fl
   signed int origextfstype;
   char fsname[32l];
   fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_mount", 441, "extfs_mount(partition=[%s], mnt=[%s], fsbuf=[%s])\n", partition, mntbuf, fsbuf);
-  signed long int return_value_ext2fs_open$1;
-  return_value_ext2fs_open$1=ext2fs_open(partition, 0x1000 | 0x8000, (signed int)use_superblock, (unsigned int)use_blocksize, unix_io_manager, &fs);
-  if(!(return_value_ext2fs_open$1 == 0l))
+  signed long int return_value_ext2fs_open_1;
+  return_value_ext2fs_open_1=ext2fs_open(partition, 0x1000 | 0x8000, (signed int)use_superblock, (unsigned int)use_blocksize, unix_io_manager, &fs);
+  if(!(return_value_ext2fs_open_1 == 0l))
   {
     fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_mount", 444, "ext2fs_open(%s) failed\n", partition);
     return -1;
@@ -10169,14 +10169,14 @@ signed int extfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int fl
   else
   {
     origextfstype=extfs_get_fstype_from_compat_flags((unsigned int)(unsigned long int)fs->super->s_feature_compat, (unsigned int)(unsigned long int)fs->super->s_feature_incompat, (unsigned int)(unsigned long int)fs->super->s_feature_ro_compat);
-    char *return_value_format_fstype$2;
-    return_value_format_fstype$2=format_fstype(origextfstype);
-    snprintf(fsname, sizeof(char [32l]) /*32ul*/ , "%s", return_value_format_fstype$2);
+    char *return_value_format_fstype_2;
+    return_value_format_fstype_2=format_fstype(origextfstype);
+    snprintf(fsname, sizeof(char [32l]) /*32ul*/ , "%s", return_value_format_fstype_2);
     fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ext2.c", "extfs_mount", 451, "the filesystem of [%s] type determined by the features is [%s]\n", partition, (const void *)fsname);
     ext2fs_close(fs);
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(fsname, fsbuf);
-    if(!(return_value_strcmp$3 == 0))
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(fsname, fsbuf);
+    if(!(return_value_strcmp_3 == 0))
     {
       fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_mount", 456, "extfs_mount: the filesystem requested [%s] does not match the filesystem detected [%s]\n", fsbuf, (const void *)fsname);
       return -1;
@@ -10184,9 +10184,9 @@ signed int extfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int fl
 
     else
     {
-      signed int return_value_generic_mount$4;
-      return_value_generic_mount$4=generic_mount(partition, mntbuf, fsbuf, "user_xattr,acl", flags);
-      return return_value_generic_mount$4;
+      signed int return_value_generic_mount_4;
+      return_value_generic_mount_4=generic_mount(partition, mntbuf, fsbuf, "user_xattr,acl", flags);
+      return return_value_generic_mount_4;
     }
   }
 }
@@ -10199,17 +10199,17 @@ signed int extfs_test(char *partition, signed int extfstype)
   signed int use_blocksize = 0;
   signed int extfstypedetected;
   struct struct_ext2_filsys *fs;
-  signed long int return_value_ext2fs_open$1;
-  return_value_ext2fs_open$1=ext2fs_open(partition, 0x1000 | 0x8000, (signed int)use_superblock, (unsigned int)use_blocksize, unix_io_manager, &fs);
-  if(!(return_value_ext2fs_open$1 == 0l))
+  signed long int return_value_ext2fs_open_1;
+  return_value_ext2fs_open_1=ext2fs_open(partition, 0x1000 | 0x8000, (signed int)use_superblock, (unsigned int)use_blocksize, unix_io_manager, &fs);
+  if(!(return_value_ext2fs_open_1 == 0l))
     return 0;
 
   else
   {
     extfstypedetected=extfs_get_fstype_from_compat_flags((unsigned int)(unsigned long int)fs->super->s_feature_compat, (unsigned int)(unsigned long int)fs->super->s_feature_incompat, (unsigned int)(unsigned long int)fs->super->s_feature_ro_compat);
-    char *return_value_format_fstype$2;
-    return_value_format_fstype$2=format_fstype(extfstypedetected);
-    fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_test", 480, "the filesystem type determined by the extfs features is [%s]\n", return_value_format_fstype$2);
+    char *return_value_format_fstype_2;
+    return_value_format_fstype_2=format_fstype(extfstypedetected);
+    fsaprintf(4, (_Bool)0, 4 >= 3, "fs_ext2.c", "extfs_test", 480, "the filesystem type determined by the extfs features is [%s]\n", return_value_format_fstype_2);
     ext2fs_close(fs);
     return (signed int)(extfstypedetected == extfstype);
   }
@@ -10219,9 +10219,9 @@ signed int extfs_test(char *partition, signed int extfstype)
 // file fs_ext2.c line 463
 signed int extfs_umount(char *partition, char *mntbuf)
 {
-  signed int return_value_generic_umount$1;
-  return_value_generic_umount$1=generic_umount(mntbuf);
-  return return_value_generic_umount$1;
+  signed int return_value_generic_umount_1;
+  return_value_generic_umount_1=generic_umount(mntbuf);
+  return return_value_generic_umount_1;
 }
 
 // extract_basename
@@ -10251,15 +10251,15 @@ signed int extract_dirpath(char *filepath, char *dirbuf, signed int dirbufsize)
   signed int i;
   snprintf(dirbuf, (unsigned long int)dirbufsize, "%s", filepath);
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= dirbufsize))
-      tmp_if_expr$1 = (signed int)dirbuf[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)dirbuf[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     i = i + 1;
@@ -10270,9 +10270,9 @@ signed int extract_dirpath(char *filepath, char *dirbuf, signed int dirbufsize)
     if((signed int)dirbuf[(signed long int)i] == 47)
       break;
 
-    signed int tmp_post$2 = i;
+    signed int tmp_post_2 = i;
     i = i - 1;
-    dirbuf[(signed long int)tmp_post$2] = (char)0;
+    dirbuf[(signed long int)tmp_post_2] = (char)0;
   }
   if(i >= 1)
   {
@@ -10298,40 +10298,40 @@ signed int extractar_extract_read_objects(struct s_extractar *exar, signed int *
   signed int res;
   memset((void *)magic, 0, sizeof(char [5l]) /*5ul*/ );
   *errors = 0;
-  signed long int return_value_queue_dequeue_header$8;
-  _Bool tmp_if_expr$2;
-  signed int return_value_get_abort$1;
+  signed long int return_value_queue_dequeue_header_8;
+  _Bool tmp_if_expr_2;
+  signed int return_value_get_abort_1;
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    signed long int return_value_queue_check_next_item$3;
-    return_value_queue_check_next_item$3=queue_check_next_item(&g_queue, &type, magic);
-    if(!(return_value_queue_check_next_item$3 == 0l))
+    signed long int return_value_queue_check_next_item_3;
+    return_value_queue_check_next_item_3=queue_check_next_item(&g_queue, &type, magic);
+    if(!(return_value_queue_check_next_item_3 == 0l))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_extract_read_objects", 995, "queue_check_next_item() failed: cannot read object from archive\n");
       return -1;
     }
 
-    signed int return_value_memcmp$4;
-    return_value_memcmp$4=memcmp((const void *)magic, (const void *)"ObJt", (unsigned long int)4);
-    headerisobj = (signed int)(return_value_memcmp$4 == 0);
-    signed int return_value_memcmp$5;
-    return_value_memcmp$5=memcmp((const void *)magic, (const void *)"DaEn", (unsigned long int)4);
-    headerisend = (signed int)(return_value_memcmp$5 == 0);
+    signed int return_value_memcmp_4;
+    return_value_memcmp_4=memcmp((const void *)magic, (const void *)"ObJt", (unsigned long int)4);
+    headerisobj = (signed int)(return_value_memcmp_4 == 0);
+    signed int return_value_memcmp_5;
+    return_value_memcmp_5=memcmp((const void *)magic, (const void *)"DaEn", (unsigned long int)4);
+    headerisend = (signed int)(return_value_memcmp_5 == 0);
     if(!(headerisend == 1) && !(headerisobj == 1))
     {
-      char *tmp_if_expr$6;
+      char *tmp_if_expr_6;
       if(type == 2)
-        tmp_if_expr$6 = magic;
+        tmp_if_expr_6 = magic;
 
       else
-        tmp_if_expr$6 = "-block-";
-      fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_extract_read_objects", 1005, "unexpected header found in archive, skipping it: type=%d, magic=[%s]\n", type, tmp_if_expr$6);
-      signed long int return_value_queue_destroy_first_item$7;
-      return_value_queue_destroy_first_item$7=queue_destroy_first_item(&g_queue);
-      if(!(return_value_queue_destroy_first_item$7 == 0l))
+        tmp_if_expr_6 = "-block-";
+      fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_extract_read_objects", 1005, "unexpected header found in archive, skipping it: type=%d, magic=[%s]\n", type, tmp_if_expr_6);
+      signed long int return_value_queue_destroy_first_item_7;
+      return_value_queue_destroy_first_item_7=queue_destroy_first_item(&g_queue);
+      if(!(return_value_queue_destroy_first_item_7 == 0l))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_extract_read_objects", 1007, "queue_destroy_first_item() failed: cannot read object from archive\n");
         return -1;
@@ -10346,8 +10346,8 @@ signed int extractar_extract_read_objects(struct s_extractar *exar, signed int *
     {
       do
       {
-        return_value_queue_dequeue_header$8=queue_dequeue_header(&g_queue, &dicoattr, magic, &checkfsid);
-        if(return_value_queue_dequeue_header$8 >= 1l)
+        return_value_queue_dequeue_header_8=queue_dequeue_header(&g_queue, &dicoattr, magic, &checkfsid);
+        if(return_value_queue_dequeue_header_8 >= 1l)
           break;
 
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_extract_read_objects", 1017, "queue_dequeue_header() failed\n");
@@ -10374,14 +10374,14 @@ signed int extractar_extract_read_objects(struct s_extractar *exar, signed int *
 
     if(!(headerisend == 1))
     {
-      return_value_get_abort$1=get_abort();
-      tmp_if_expr$2 = return_value_get_abort$1 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_get_abort_1=get_abort();
+      tmp_if_expr_2 = return_value_get_abort_1 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return 0;
 }
 
@@ -10412,12 +10412,12 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
   signed int res;
   memset((void *)magic, 0, sizeof(char [5l]) /*5ul*/ );
   memset((void *)partition, 0, sizeof(char [1024l]) /*1024ul*/ );
-  signed int return_value_strdico_get_string$1;
-  return_value_strdico_get_string$1=strdico_get_string(dicocmdline, partition, (signed int)sizeof(char [1024l]) /*1024ul*/ , "dest");
-  signed int return_value_dico_get_string$5;
-  _Bool return_value_get_interrupted$17;
-  signed int return_value_memcmp$16;
-  if(!(return_value_strdico_get_string$1 == 0))
+  signed int return_value_strdico_get_string_1;
+  return_value_strdico_get_string_1=strdico_get_string(dicocmdline, partition, (signed int)sizeof(char [1024l]) /*1024ul*/ , "dest");
+  signed int return_value_dico_get_string_5;
+  _Bool return_value_get_interrupted_17;
+  signed int return_value_memcmp_16;
+  if(!(return_value_strdico_get_string_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1203, "strdico_get_string(dicocmdline, 'dest') failed\n");
     return -1;
@@ -10425,9 +10425,9 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
 
   else
   {
-    signed int return_value_dico_get_u64$2;
-    return_value_dico_get_u64$2=dico_get_u64(dicofs, (unsigned char)0, (unsigned short int)25, &minver);
-    if(!(return_value_dico_get_u64$2 == 0))
+    signed int return_value_dico_get_u64_2;
+    return_value_dico_get_u64_2=dico_get_u64(dicofs, (unsigned char)0, (unsigned short int)25, &minver);
+    if(!(return_value_dico_get_u64_2 == 0))
       minver = (unsigned long int)((((unsigned long int)0 & (unsigned long int)0xFFFF) << 48) + (((unsigned long int)6 & (unsigned long int)0xFFFF) << 32) + (((unsigned long int)4 & (unsigned long int)0xFFFF) << 16) + (((unsigned long int)0 & (unsigned long int)0xFFFF) << 0));
 
     curver = (unsigned long int)((((unsigned long int)0 & (unsigned long int)0xFFFF) << 48) + (((unsigned long int)6 & (unsigned long int)0xFFFF) << 32) + (((unsigned long int)22 & (unsigned long int)0xFFFF) << 16) + (((unsigned long int)0 & (unsigned long int)0xFFFF) << 0));
@@ -10450,9 +10450,9 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
 
       else
       {
-        signed long int return_value_queue_dequeue_header$3;
-        return_value_queue_dequeue_header$3=queue_dequeue_header(&g_queue, &dicobegin, magic, (unsigned short int *)(void *)0);
-        if(!(return_value_queue_dequeue_header$3 >= 1l))
+        signed long int return_value_queue_dequeue_header_3;
+        return_value_queue_dequeue_header_3=queue_dequeue_header(&g_queue, &dicobegin, magic, (unsigned short int *)(void *)0);
+        if(!(return_value_queue_dequeue_header_3 >= 1l))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1232, "queue_dequeue_header() failed: cannot read file system dico\n");
           return -1;
@@ -10461,9 +10461,9 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
         else
         {
           dico_destroy(dicobegin);
-          signed int return_value_memcmp$4;
-          return_value_memcmp$4=memcmp((const void *)magic, (const void *)"FsYs", (unsigned long int)4);
-          if(!(return_value_memcmp$4 == 0))
+          signed int return_value_memcmp_4;
+          return_value_memcmp_4=memcmp((const void *)magic, (const void *)"FsYs", (unsigned long int)4);
+          if(!(return_value_memcmp_4 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1238, "header is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"FsYs");
             return -1;
@@ -10471,29 +10471,29 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
 
           else
           {
-            signed int return_value_strdico_get_string$6;
-            return_value_strdico_get_string$6=strdico_get_string(dicocmdline, tempbuf, (signed int)sizeof(char [1024l]) /*1024ul*/ , "mkfs");
-            if(return_value_strdico_get_string$6 == 0)
+            signed int return_value_strdico_get_string_6;
+            return_value_strdico_get_string_6=strdico_get_string(dicocmdline, tempbuf, (signed int)sizeof(char [1024l]) /*1024ul*/ , "mkfs");
+            if(return_value_strdico_get_string_6 == 0)
               snprintf(filesystem, sizeof(char [128l]) /*128ul*/ , "%s", (const void *)tempbuf);
 
             else
             {
-              return_value_dico_get_string$5=dico_get_string(dicofs, (unsigned char)0, (unsigned short int)1, filesystem, (unsigned short int)sizeof(char [128l]) /*128ul*/ );
-              if(!(return_value_dico_get_string$5 >= 0))
+              return_value_dico_get_string_5=dico_get_string(dicofs, (unsigned char)0, (unsigned short int)1, filesystem, (unsigned short int)sizeof(char [128l]) /*128ul*/ );
+              if(!(return_value_dico_get_string_5 >= 0))
               {
                 fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1248, "dico_get_string(FSYSHEADKEY_FILESYSTEM) failed\n");
                 return -1;
               }
 
             }
-            signed int return_value_strdico_get_string$7;
-            return_value_strdico_get_string$7=strdico_get_string(dicocmdline, mkfsoptions, (signed int)sizeof(char [1024l]) /*1024ul*/ , "mkfsopt");
-            if(!(return_value_strdico_get_string$7 == 0))
+            signed int return_value_strdico_get_string_7;
+            return_value_strdico_get_string_7=strdico_get_string(dicocmdline, mkfsoptions, (signed int)sizeof(char [1024l]) /*1024ul*/ , "mkfsopt");
+            if(!(return_value_strdico_get_string_7 == 0))
               fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1255, "strdico_get_string(dicocmdline, 'mkfsopt') doesn't exist\n");
 
-            signed int return_value_dico_get_u64$8;
-            return_value_dico_get_u64$8=dico_get_u64(dicofs, (unsigned char)0, (unsigned short int)3, &fsbytestotal);
-            if(!(return_value_dico_get_u64$8 == 0))
+            signed int return_value_dico_get_u64_8;
+            return_value_dico_get_u64_8=dico_get_u64(dicofs, (unsigned char)0, (unsigned short int)3, &fsbytestotal);
+            if(!(return_value_dico_get_u64_8 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1259, "dico_get_string(FSYSHEADKEY_BYTESTOTAL) failed\n");
               return -1;
@@ -10501,9 +10501,9 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
 
             else
             {
-              signed int return_value_dico_get_u64$9;
-              return_value_dico_get_u64$9=dico_get_u64(dicofs, (unsigned char)0, (unsigned short int)4, &fsbytesused);
-              if(!(return_value_dico_get_u64$9 == 0))
+              signed int return_value_dico_get_u64_9;
+              return_value_dico_get_u64_9=dico_get_u64(dicofs, (unsigned char)0, (unsigned short int)4, &fsbytesused);
+              if(!(return_value_dico_get_u64_9 == 0))
               {
                 fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1264, "dico_get_string(FSYSHEADKEY_BYTESUSED) failed\n");
                 return -1;
@@ -10513,15 +10513,15 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
               {
                 fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1268, "filesystem=[%s]\n", (const void *)filesystem);
                 fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1269, "filesystemoptions=[%s]\n", (const void *)mkfsoptions);
-                char *return_value_format_size$10;
-                return_value_format_size$10=format_size(fsbytestotal, text, (signed int)sizeof(char [128l]) /*128ul*/ , (char)104);
-                fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1270, "fsbytestotal=[%s]\n", return_value_format_size$10);
-                char *return_value_format_size$11;
-                return_value_format_size$11=format_size(fsbytesused, text, (signed int)sizeof(char [128l]) /*128ul*/ , (char)104);
-                fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1271, "fsbytesused=[%s]\n", return_value_format_size$11);
-                signed int return_value_generic_get_fstype$12;
-                return_value_generic_get_fstype$12=generic_get_fstype(filesystem, &fstype);
-                if(!(return_value_generic_get_fstype$12 == 0))
+                char *return_value_format_size_10;
+                return_value_format_size_10=format_size(fsbytestotal, text, (signed int)sizeof(char [128l]) /*128ul*/ , (char)104);
+                fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1270, "fsbytestotal=[%s]\n", return_value_format_size_10);
+                char *return_value_format_size_11;
+                return_value_format_size_11=format_size(fsbytesused, text, (signed int)sizeof(char [128l]) /*128ul*/ , (char)104);
+                fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1271, "fsbytesused=[%s]\n", return_value_format_size_11);
+                signed int return_value_generic_get_fstype_12;
+                return_value_generic_get_fstype_12=generic_get_fstype(filesystem, &fstype);
+                if(!(return_value_generic_get_fstype_12 == 0))
                 {
                   fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1275, "filesystem [%s] is not supported by fsarchiver\n", (const void *)filesystem);
                   return -1;
@@ -10542,9 +10542,9 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
                     mkdir_recursive(mntbuf);
                     generate_random_tmpdir(mntbuf, (signed int)sizeof(char [4096l]) /*4096ul*/ , 0);
                     mkdir_recursive(mntbuf);
-                    signed int return_value_dico_get_string$13;
-                    return_value_dico_get_string$13=dico_get_string(dicofs, (unsigned char)0, (unsigned short int)26, mountinfo, (unsigned short int)sizeof(char [4096l]) /*4096ul*/ );
-                    if(!(return_value_dico_get_string$13 >= 0))
+                    signed int return_value_dico_get_string_13;
+                    return_value_dico_get_string_13=dico_get_string(dicofs, (unsigned char)0, (unsigned short int)26, mountinfo, (unsigned short int)sizeof(char [4096l]) /*4096ul*/ );
+                    if(!(return_value_dico_get_string_13 >= 0))
                       memset((void *)mountinfo, 0, sizeof(char [4096l]) /*4096ul*/ );
 
                     fsaprintf(1, (_Bool)0, 1 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1292, "Mount information: [%s]\n", (const void *)mountinfo);
@@ -10558,9 +10558,9 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
 
                     else
                     {
-                      signed int return_value_extractar_extract_read_objects$14;
-                      return_value_extractar_extract_read_objects$14=extractar_extract_read_objects(exar, &errors, mntbuf, fstype);
-                      if(!(return_value_extractar_extract_read_objects$14 == 0))
+                      signed int return_value_extractar_extract_read_objects_14;
+                      return_value_extractar_extract_read_objects_14=extractar_extract_read_objects(exar, &errors, mntbuf, fstype);
+                      if(!(return_value_extractar_extract_read_objects_14 == 0))
                       {
                         fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_filesystem_extract", 1299, "extract_read_objects(%s) failed\n", (const void *)mntbuf);
                         ret = -1;
@@ -10573,9 +10573,9 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
                           ret = -1;
                         }
 
-                      signed long int return_value_queue_dequeue_header$15;
-                      return_value_queue_dequeue_header$15=queue_dequeue_header(&g_queue, &dicoend, magic, (unsigned short int *)(void *)0);
-                      if(!(return_value_queue_dequeue_header$15 >= 1l))
+                      signed long int return_value_queue_dequeue_header_15;
+                      return_value_queue_dequeue_header_15=queue_dequeue_header(&g_queue, &dicoend, magic, (unsigned short int *)(void *)0);
+                      if(!(return_value_queue_dequeue_header_15 >= 1l))
                       {
                         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1311, "queue_dequeue_header() failed\n");
                         ret = -1;
@@ -10584,11 +10584,11 @@ signed int extractar_filesystem_extract(struct s_extractar *exar, struct s_dico 
                       else
                       {
                         dico_destroy(dicoend);
-                        return_value_get_interrupted$17=get_interrupted();
-                        if((signed int)return_value_get_interrupted$17 == 0)
+                        return_value_get_interrupted_17=get_interrupted();
+                        if((signed int)return_value_get_interrupted_17 == 0)
                         {
-                          return_value_memcmp$16=memcmp((const void *)magic, (const void *)"DaEn", (unsigned long int)4);
-                          if(!(return_value_memcmp$16 == 0))
+                          return_value_memcmp_16=memcmp((const void *)magic, (const void *)"DaEn", (unsigned long int)4);
+                          if(!(return_value_memcmp_16 == 0))
                             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_filesystem_extract", 1318, "header is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"DaEn");
 
                         }
@@ -10635,9 +10635,9 @@ signed int extractar_listing_print_file(struct s_extractar *exar, signed int obj
 
   }
 
-  char *return_value_get_objtype_name$1;
-  return_value_get_objtype_name$1=get_objtype_name(objtype);
-  fsaprintf(1, (_Bool)0, 1 >= 3, "oper_restore.c", "extractar_listing_print_file", 180, "-[%.2d]%s[%s] %s\n", exar->fsid, (const void *)strprogress, return_value_get_objtype_name$1, relpath);
+  char *return_value_get_objtype_name_1;
+  return_value_get_objtype_name_1=get_objtype_name(objtype);
+  fsaprintf(1, (_Bool)0, 1 >= 3, "oper_restore.c", "extractar_listing_print_file", 180, "-[%.2d]%s[%s] %s\n", exar->fsid, (const void *)strprogress, return_value_get_objtype_name_1, relpath);
   return 0;
 }
 
@@ -10659,12 +10659,12 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
   /* assertion dicomainhead */
   assert(dicomainhead != ((struct s_dico **)NULL));
   memset((void *)magic, 0, sizeof(char [5l]) /*5ul*/ );
-  signed long int return_value_queue_dequeue_header$1;
-  return_value_queue_dequeue_header$1=queue_dequeue_header(&g_queue, dicomainhead, magic, (unsigned short int *)(void *)0);
-  signed int return_value_dico_get_u64$4;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  if(!(return_value_queue_dequeue_header$1 >= 1l))
+  signed long int return_value_queue_dequeue_header_1;
+  return_value_queue_dequeue_header_1=queue_dequeue_header(&g_queue, dicomainhead, magic, (unsigned short int *)(void *)0);
+  signed int return_value_dico_get_u64_4;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  if(!(return_value_queue_dequeue_header_1 >= 1l))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1060, "queue_dequeue_header() failed: cannot read main header\n");
     return -1;
@@ -10672,9 +10672,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
   else
   {
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)magic, (const void *)"ArCh", (unsigned long int)4);
-    if(!(return_value_memcmp$2 == 0))
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)magic, (const void *)"ArCh", (unsigned long int)4);
+    if(!(return_value_memcmp_2 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1065, "header is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"ArCh");
       return -1;
@@ -10682,9 +10682,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
     else
     {
-      signed int return_value_dico_get_u32$3;
-      return_value_dico_get_u32$3=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)6, &exar->ai.archtype);
-      if(!(return_value_dico_get_u32$3 == 0))
+      signed int return_value_dico_get_u32_3;
+      return_value_dico_get_u32_3=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)6, &exar->ai.archtype);
+      if(!(return_value_dico_get_u32_3 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1070, "cannot find MAINHEADKEY_ARCHTYPE in main-header\n");
         return -1;
@@ -10694,8 +10694,8 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
       {
         if(exar->ai.archtype == 1u)
         {
-          return_value_dico_get_u64$4=dico_get_u64(*dicomainhead, (unsigned char)0, (unsigned short int)7, &exar->ai.fscount);
-          if(!(return_value_dico_get_u64$4 == 0))
+          return_value_dico_get_u64_4=dico_get_u64(*dicomainhead, (unsigned char)0, (unsigned short int)7, &exar->ai.fscount);
+          if(!(return_value_dico_get_u64_4 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1075, "cannot find MAINHEADKEY_FSCOUNT in main-header\n");
             return -1;
@@ -10703,9 +10703,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
         }
 
-        signed int return_value_dico_get_u32$5;
-        return_value_dico_get_u32$5=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)3, &exar->ai.archid);
-        if(!(return_value_dico_get_u32$5 == 0))
+        signed int return_value_dico_get_u32_5;
+        return_value_dico_get_u32_5=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)3, &exar->ai.archid);
+        if(!(return_value_dico_get_u32_5 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1080, "cannot find MAINHEADKEY_ARCHIVEID in main-header\n");
           return -1;
@@ -10713,9 +10713,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
         else
         {
-          signed int return_value_dico_get_data$6;
-          return_value_dico_get_data$6=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)1, (void *)exar->ai.filefmt, (unsigned short int)32, (unsigned short int *)(void *)0);
-          if(!(return_value_dico_get_data$6 == 0))
+          signed int return_value_dico_get_data_6;
+          return_value_dico_get_data_6=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)1, (void *)exar->ai.filefmt, (unsigned short int)32, (unsigned short int *)(void *)0);
+          if(!(return_value_dico_get_data_6 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1085, "cannot find MAINHEADKEY_FILEFORMATVER in main-header\n");
             return -1;
@@ -10723,9 +10723,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
           else
           {
-            signed int return_value_dico_get_data$7;
-            return_value_dico_get_data$7=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)2, (void *)exar->ai.creatver, (unsigned short int)32, (unsigned short int *)(void *)0);
-            if(!(return_value_dico_get_data$7 == 0))
+            signed int return_value_dico_get_data_7;
+            return_value_dico_get_data_7=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)2, (void *)exar->ai.creatver, (unsigned short int)32, (unsigned short int *)(void *)0);
+            if(!(return_value_dico_get_data_7 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1090, "cannot find MAINHEADKEY_PROGVERCREAT in main-header\n");
               return -1;
@@ -10733,9 +10733,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
             else
             {
-              signed int return_value_dico_get_data$8;
-              return_value_dico_get_data$8=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)5, (void *)exar->ai.label, (unsigned short int)512, (unsigned short int *)(void *)0);
-              if(!(return_value_dico_get_data$8 == 0))
+              signed int return_value_dico_get_data_8;
+              return_value_dico_get_data_8=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)5, (void *)exar->ai.label, (unsigned short int)512, (unsigned short int *)(void *)0);
+              if(!(return_value_dico_get_data_8 == 0))
               {
                 fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1095, "cannot find MAINHEADKEY_ARCHLABEL in main-header\n");
                 return -1;
@@ -10743,9 +10743,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
               else
               {
-                signed int return_value_dico_get_u32$9;
-                return_value_dico_get_u32$9=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)8, &exar->ai.compalgo);
-                if(!(return_value_dico_get_u32$9 == 0))
+                signed int return_value_dico_get_u32_9;
+                return_value_dico_get_u32_9=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)8, &exar->ai.compalgo);
+                if(!(return_value_dico_get_u32_9 == 0))
                 {
                   fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1100, "cannot find MAINHEADKEY_COMPRESSALGO in main-header\n");
                   return -1;
@@ -10753,9 +10753,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
                 else
                 {
-                  signed int return_value_dico_get_u32$10;
-                  return_value_dico_get_u32$10=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)10, &exar->ai.cryptalgo);
-                  if(!(return_value_dico_get_u32$10 == 0))
+                  signed int return_value_dico_get_u32_10;
+                  return_value_dico_get_u32_10=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)10, &exar->ai.cryptalgo);
+                  if(!(return_value_dico_get_u32_10 == 0))
                   {
                     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1105, "cannot find MAINHEADKEY_ENCRYPTALGO in main-header\n");
                     return -1;
@@ -10763,9 +10763,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
                   else
                   {
-                    signed int return_value_dico_get_u32$11;
-                    return_value_dico_get_u32$11=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)9, &exar->ai.complevel);
-                    if(!(return_value_dico_get_u32$11 == 0))
+                    signed int return_value_dico_get_u32_11;
+                    return_value_dico_get_u32_11=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)9, &exar->ai.complevel);
+                    if(!(return_value_dico_get_u32_11 == 0))
                     {
                       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1110, "cannot find MAINHEADKEY_COMPRESSLEVEL in main-header\n");
                       return -1;
@@ -10773,9 +10773,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
                     else
                     {
-                      signed int return_value_dico_get_u32$12;
-                      return_value_dico_get_u32$12=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)13, &exar->ai.fsacomp);
-                      if(!(return_value_dico_get_u32$12 == 0))
+                      signed int return_value_dico_get_u32_12;
+                      return_value_dico_get_u32_12=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)13, &exar->ai.fsacomp);
+                      if(!(return_value_dico_get_u32_12 == 0))
                       {
                         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1115, "cannot find MAINHEADKEY_FSACOMPLEVEL in main-header\n");
                         return -1;
@@ -10783,9 +10783,9 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
                       else
                       {
-                        signed int return_value_dico_get_u64$13;
-                        return_value_dico_get_u64$13=dico_get_u64(*dicomainhead, (unsigned char)0, (unsigned short int)4, &exar->ai.creattime);
-                        if(!(return_value_dico_get_u64$13 == 0))
+                        signed int return_value_dico_get_u64_13;
+                        return_value_dico_get_u64_13=dico_get_u64(*dicomainhead, (unsigned char)0, (unsigned short int)4, &exar->ai.creattime);
+                        if(!(return_value_dico_get_u64_13 == 0))
                         {
                           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1120, "cannot find MAINHEADKEY_CREATTIME in main-header\n");
                           return -1;
@@ -10793,20 +10793,20 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
                         else
                         {
-                          signed int return_value_dico_get_u32$14;
-                          return_value_dico_get_u32$14=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)15, &temp32);
-                          if(return_value_dico_get_u32$14 == 0)
+                          signed int return_value_dico_get_u32_14;
+                          return_value_dico_get_u32_14=dico_get_u32(*dicomainhead, (unsigned char)0, (unsigned short int)15, &temp32);
+                          if(return_value_dico_get_u32_14 == 0)
                             exar->ai.hasdirsinfohead = temp32;
 
-                          signed int return_value_strcmp$17;
-                          return_value_strcmp$17=strcmp(exar->ai.filefmt, "FsArCh_002");
-                          if(!(return_value_strcmp$17 == 0))
+                          signed int return_value_strcmp_17;
+                          return_value_strcmp_17=strcmp(exar->ai.filefmt, "FsArCh_002");
+                          if(!(return_value_strcmp_17 == 0))
                           {
-                            return_value_strcmp$16=strcmp(exar->ai.filefmt, "FsArCh_00Y");
-                            if(!(return_value_strcmp$16 == 0))
+                            return_value_strcmp_16=strcmp(exar->ai.filefmt, "FsArCh_00Y");
+                            if(!(return_value_strcmp_16 == 0))
                             {
-                              return_value_strcmp$15=strcmp(exar->ai.filefmt, "FsArCh_001");
-                              if(!(return_value_strcmp$15 == 0))
+                              return_value_strcmp_15=strcmp(exar->ai.filefmt, "FsArCh_001");
+                              if(!(return_value_strcmp_15 == 0))
                               {
                                 fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1131, "This archive is based on a different file format: [%s]. Cannot continue.\n", (const void *)exar->ai.filefmt);
                                 fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1132, "It has been created with fsarchiver [%s], you should extrat the archive using that version.\n", (const void *)exar->ai.creatver);
@@ -10818,50 +10818,50 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 
                           }
 
-                          signed int return_value_dico_get_u64$18;
-                          return_value_dico_get_u64$18=dico_get_u64(*dicomainhead, (unsigned char)0, (unsigned short int)14, &exar->ai.minfsaver);
-                          if(!(return_value_dico_get_u64$18 == 0))
+                          signed int return_value_dico_get_u64_18;
+                          return_value_dico_get_u64_18=dico_get_u64(*dicomainhead, (unsigned char)0, (unsigned short int)14, &exar->ai.minfsaver);
+                          if(!(return_value_dico_get_u64_18 == 0))
                             exar->ai.minfsaver = (unsigned long int)((((unsigned long int)0 & (unsigned long int)0xFFFF) << 48) + (((unsigned long int)0 & (unsigned long int)0xFFFF) << 32) + (((unsigned long int)0 & (unsigned long int)0xFFFF) << 16) + (((unsigned long int)0 & (unsigned long int)0xFFFF) << 0));
 
                           if(!(exar->ai.cryptalgo == 1u))
                           {
                             memset((void *)md5sumar, 0, sizeof(unsigned char [16l]) /*16ul*/ );
                             memset((void *)md5sumnew, 0, sizeof(unsigned char [16l]) /*16ul*/ );
-                            signed int return_value_dico_get_data$19;
-                            return_value_dico_get_data$19=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)12, (void *)bufcheckcrypt, (unsigned short int)sizeof(unsigned char [4104l]) /*4104ul*/ , &cryptbufsize);
-                            if(!(return_value_dico_get_data$19 == 0))
+                            signed int return_value_dico_get_data_19;
+                            return_value_dico_get_data_19=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)12, (void *)bufcheckcrypt, (unsigned short int)sizeof(unsigned char [4104l]) /*4104ul*/ , &cryptbufsize);
+                            if(!(return_value_dico_get_data_19 == 0))
                             {
                               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1147, "cannot find MAINHEADKEY_BUFCHECKPASSCRYPTBUF in main-header\n");
                               return -1;
                             }
 
-                            signed int return_value_dico_get_data$20;
-                            return_value_dico_get_data$20=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)11, (void *)md5sumar, (unsigned short int)(sizeof(unsigned char [16l]) /*16ul*/  + (unsigned long int)99), (unsigned short int *)(void *)0);
-                            if(!(return_value_dico_get_data$20 == 0))
+                            signed int return_value_dico_get_data_20;
+                            return_value_dico_get_data_20=dico_get_data(*dicomainhead, (unsigned char)0, (unsigned short int)11, (void *)md5sumar, (unsigned short int)(sizeof(unsigned char [16l]) /*16ul*/  + (unsigned long int)99), (unsigned short int *)(void *)0);
+                            if(!(return_value_dico_get_data_20 == 0))
                             {
                               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1151, "cannot find MAINHEADKEY_BUFCHECKPASSCLEARMD5 in main-header\n");
                               return -1;
                             }
 
-                            unsigned long int return_value_strlen$21;
-                            return_value_strlen$21=strlen((char *)g_options.encryptpass);
-                            passlen = (signed int)return_value_strlen$21;
+                            unsigned long int return_value_strlen_21;
+                            return_value_strlen_21=strlen((char *)g_options.encryptpass);
+                            passlen = (signed int)return_value_strlen_21;
                             if(passlen >= 65 || !(passlen >= 6))
                             {
                               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1157, "you have to provide the password which was used to create archive, no password given on the command line\n");
                               return -1;
                             }
 
-                            unsigned long int return_value_strlen$22;
-                            return_value_strlen$22=strlen((char *)g_options.encryptpass);
-                            signed int return_value_crypto_blowfish$23;
-                            return_value_crypto_blowfish$23=crypto_blowfish((unsigned long int)cryptbufsize, &clearsize, bufcheckcrypt, bufcheckclear, g_options.encryptpass, (signed int)return_value_strlen$22, 0);
-                            if(return_value_crypto_blowfish$23 == 0)
+                            unsigned long int return_value_strlen_22;
+                            return_value_strlen_22=strlen((char *)g_options.encryptpass);
+                            signed int return_value_crypto_blowfish_23;
+                            return_value_crypto_blowfish_23=crypto_blowfish((unsigned long int)cryptbufsize, &clearsize, bufcheckcrypt, bufcheckclear, g_options.encryptpass, (signed int)return_value_strlen_22, 0);
+                            if(return_value_crypto_blowfish_23 == 0)
                               gcry_md_hash_buffer(1, (void *)md5sumnew, (const void *)bufcheckclear, clearsize);
 
-                            signed int return_value_memcmp$24;
-                            return_value_memcmp$24=memcmp((const void *)md5sumar, (const void *)md5sumnew, (unsigned long int)16);
-                            if(!(return_value_memcmp$24 == 0))
+                            signed int return_value_memcmp_24;
+                            return_value_memcmp_24=memcmp((const void *)md5sumar, (const void *)md5sumnew, (unsigned long int)16);
+                            if(!(return_value_memcmp_24 == 0))
                             {
                               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_read_mainhead", 1165, "you have to provide the password which was used to create archive, cannot decrypt the test buffer.\n");
                               return -1;
@@ -10889,15 +10889,15 @@ signed int extractar_read_mainhead(struct s_extractar *exar, struct s_dico **dic
 signed int extractar_restore_attr_everything(struct s_extractar *exar, signed int objtype, char *fullpath, char *relpath, struct s_dico *dicoattr)
 {
   signed int res = 0;
-  signed int return_value_extractar_restore_attr_std$1;
-  return_value_extractar_restore_attr_std$1=extractar_restore_attr_std(exar, (unsigned int)objtype, fullpath, relpath, dicoattr);
-  res = res + return_value_extractar_restore_attr_std$1;
-  signed int return_value_extractar_restore_attr_xattr$2;
-  return_value_extractar_restore_attr_xattr$2=extractar_restore_attr_xattr(exar, (unsigned int)objtype, fullpath, relpath, dicoattr);
-  res = res + return_value_extractar_restore_attr_xattr$2;
-  signed int return_value_extractar_restore_attr_windows$3;
-  return_value_extractar_restore_attr_windows$3=extractar_restore_attr_windows(exar, (unsigned int)objtype, fullpath, relpath, dicoattr);
-  res = res + return_value_extractar_restore_attr_windows$3;
+  signed int return_value_extractar_restore_attr_std_1;
+  return_value_extractar_restore_attr_std_1=extractar_restore_attr_std(exar, (unsigned int)objtype, fullpath, relpath, dicoattr);
+  res = res + return_value_extractar_restore_attr_std_1;
+  signed int return_value_extractar_restore_attr_xattr_2;
+  return_value_extractar_restore_attr_xattr_2=extractar_restore_attr_xattr(exar, (unsigned int)objtype, fullpath, relpath, dicoattr);
+  res = res + return_value_extractar_restore_attr_xattr_2;
+  signed int return_value_extractar_restore_attr_windows_3;
+  return_value_extractar_restore_attr_windows_3=extractar_restore_attr_windows(exar, (unsigned int)objtype, fullpath, relpath, dicoattr);
+  res = res + return_value_extractar_restore_attr_windows_3;
   return res == 0 ? 0 : -1;
 }
 
@@ -10910,56 +10910,56 @@ signed int extractar_restore_attr_std(struct s_extractar *exar, unsigned int obj
   unsigned int gid;
   unsigned long int atime;
   unsigned long int mtime;
-  signed int return_value_dico_get_u32$1;
-  return_value_dico_get_u32$1=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)7, &mode);
-  if(!(return_value_dico_get_u32$1 == 0))
+  signed int return_value_dico_get_u32_1;
+  return_value_dico_get_u32_1=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)7, &mode);
+  if(!(return_value_dico_get_u32_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_dico_get_u32$2;
-    return_value_dico_get_u32$2=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)9, &uid);
-    if(!(return_value_dico_get_u32$2 == 0))
+    signed int return_value_dico_get_u32_2;
+    return_value_dico_get_u32_2=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)9, &uid);
+    if(!(return_value_dico_get_u32_2 == 0))
       return -2;
 
     else
     {
-      signed int return_value_dico_get_u32$3;
-      return_value_dico_get_u32$3=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)10, &gid);
-      if(!(return_value_dico_get_u32$3 == 0))
+      signed int return_value_dico_get_u32_3;
+      return_value_dico_get_u32_3=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)10, &gid);
+      if(!(return_value_dico_get_u32_3 == 0))
         return -3;
 
       else
       {
-        signed int return_value_dico_get_u64$4;
-        return_value_dico_get_u64$4=dico_get_u64(dicoattr, (unsigned char)0, (unsigned short int)11, &atime);
-        if(!(return_value_dico_get_u64$4 == 0))
+        signed int return_value_dico_get_u64_4;
+        return_value_dico_get_u64_4=dico_get_u64(dicoattr, (unsigned char)0, (unsigned short int)11, &atime);
+        if(!(return_value_dico_get_u64_4 == 0))
           return -4;
 
         else
         {
-          signed int return_value_dico_get_u64$5;
-          return_value_dico_get_u64$5=dico_get_u64(dicoattr, (unsigned char)0, (unsigned short int)12, &mtime);
-          if(!(return_value_dico_get_u64$5 == 0))
+          signed int return_value_dico_get_u64_5;
+          return_value_dico_get_u64_5=dico_get_u64(dicoattr, (unsigned char)0, (unsigned short int)12, &mtime);
+          if(!(return_value_dico_get_u64_5 == 0))
             return -5;
 
           else
           {
-            signed int return_value_lchown$7;
-            return_value_lchown$7=lchown(fullpath, (unsigned int)uid, (unsigned int)gid);
-            if(!(return_value_lchown$7 == 0))
+            signed int return_value_lchown_7;
+            return_value_lchown_7=lchown(fullpath, (unsigned int)uid, (unsigned int)gid);
+            if(!(return_value_lchown_7 == 0))
             {
-              char *return_value_get_objtype_name$6;
-              return_value_get_objtype_name$6=get_objtype_name((signed int)objtype);
-              fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_attr_std", 286, "Cannot lchown(%s) which is %s\n", fullpath, return_value_get_objtype_name$6);
+              char *return_value_get_objtype_name_6;
+              return_value_get_objtype_name_6=get_objtype_name((signed int)objtype);
+              fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_attr_std", 286, "Cannot lchown(%s) which is %s\n", fullpath, return_value_get_objtype_name_6);
               return -6;
             }
 
             if(!(objtype == 2u))
             {
-              signed int return_value_chmod$8;
-              return_value_chmod$8=chmod(fullpath, (unsigned int)mode);
-              if(!(return_value_chmod$8 == 0))
+              signed int return_value_chmod_8;
+              return_value_chmod_8=chmod(fullpath, (unsigned int)mode);
+              if(!(return_value_chmod_8 == 0))
               {
                 fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_attr_std", 293, "chmod(%s, %lld) failed\n", fullpath, (signed long long int)mode);
                 return -7;
@@ -10974,9 +10974,9 @@ signed int extractar_restore_attr_std(struct s_extractar *exar, unsigned int obj
             tv[(signed long int)1].tv_sec = (signed long int)mtime;
             if(!(objtype == 2u))
             {
-              signed int return_value_utimes$9;
-              return_value_utimes$9=utimes(fullpath, tv);
-              if(!(return_value_utimes$9 == 0))
+              signed int return_value_utimes_9;
+              return_value_utimes_9=utimes(fullpath, tv);
+              if(!(return_value_utimes_9 == 0))
               {
                 fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_attr_std", 307, "utimes(%s) failed\n", relpath);
                 return -8;
@@ -11009,9 +11009,9 @@ signed int extractar_restore_attr_windows(struct s_extractar *exar, unsigned int
   i = 0;
   for( ; !(i >= xattrdicsize); i = i + 2)
   {
-    signed int return_value_dico_get_string$1;
-    return_value_dico_get_string$1=dico_get_string(dicoattr, (unsigned char)2, (unsigned short int)(unsigned long int)(i + 0), xattrname, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(!(return_value_dico_get_string$1 == 0))
+    signed int return_value_dico_get_string_1;
+    return_value_dico_get_string_1=dico_get_string(dicoattr, (unsigned char)2, (unsigned short int)(unsigned long int)(i + 0), xattrname, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(!(return_value_dico_get_string_1 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_attr_windows", 241, "Cannot retrieve the name of an winattr for file %s\n", relpath);
       dico_show(dicoattr, (unsigned char)2, "winattr");
@@ -11021,9 +11021,9 @@ signed int extractar_restore_attr_windows(struct s_extractar *exar, unsigned int
     else
     {
       memset((void *)xattrvalue, 0, sizeof(char [65535l]) /*65535ul*/ );
-      signed int return_value_dico_get_data$2;
-      return_value_dico_get_data$2=dico_get_data(dicoattr, (unsigned char)2, (unsigned short int)(unsigned long int)(i + 1), (void *)xattrvalue, (unsigned short int)sizeof(char [65535l]) /*65535ul*/ , &xattrdatasize);
-      if(!(return_value_dico_get_data$2 == 0))
+      signed int return_value_dico_get_data_2;
+      return_value_dico_get_data_2=dico_get_data(dicoattr, (unsigned char)2, (unsigned short int)(unsigned long int)(i + 1), (void *)xattrvalue, (unsigned short int)sizeof(char [65535l]) /*65535ul*/ , &xattrdatasize);
+      if(!(return_value_dico_get_data_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_attr_windows", 249, "Cannot retrieve the value of an winattr for file %s\n", relpath);
         ret = -1;
@@ -11061,9 +11061,9 @@ signed int extractar_restore_attr_xattr(struct s_extractar *exar, unsigned int o
   i = 0;
   for( ; !(i >= xattrdicsize); i = i + 2)
   {
-    signed int return_value_dico_get_string$1;
-    return_value_dico_get_string$1=dico_get_string(dicoattr, (unsigned char)1, (unsigned short int)(unsigned long int)(i + 0), xattrname, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(!(return_value_dico_get_string$1 == 0))
+    signed int return_value_dico_get_string_1;
+    return_value_dico_get_string_1=dico_get_string(dicoattr, (unsigned char)1, (unsigned short int)(unsigned long int)(i + 0), xattrname, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(!(return_value_dico_get_string_1 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_attr_xattr", 200, "Cannot retrieve the name of an xattr for file %s: DICO_OBJ_SECTION_XATTR, key=%ld\n", relpath, (signed long int)(i + 0));
       dico_show(dicoattr, (unsigned char)1, "xattr");
@@ -11073,9 +11073,9 @@ signed int extractar_restore_attr_xattr(struct s_extractar *exar, unsigned int o
     else
     {
       memset((void *)xattrvalue, 0, sizeof(char [65535l]) /*65535ul*/ );
-      signed int return_value_dico_get_data$2;
-      return_value_dico_get_data$2=dico_get_data(dicoattr, (unsigned char)1, (unsigned short int)(unsigned long int)(i + 1), (void *)xattrvalue, (unsigned short int)sizeof(char [65535l]) /*65535ul*/ , &xattrdatasize);
-      if(!(return_value_dico_get_data$2 == 0))
+      signed int return_value_dico_get_data_2;
+      return_value_dico_get_data_2=dico_get_data(dicoattr, (unsigned char)1, (unsigned short int)(unsigned long int)(i + 1), (void *)xattrvalue, (unsigned short int)sizeof(char [65535l]) /*65535ul*/ , &xattrdatasize);
+      if(!(return_value_dico_get_data_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_attr_xattr", 207, "Cannot retrieve the value of an xattr for file %s: DICO_OBJ_SECTION_XATTR, key=%ld\n", relpath, (signed long int)(i + 1));
         dico_show(dicoattr, (unsigned char)1, "xattr");
@@ -11108,43 +11108,43 @@ signed int extractar_restore_obj_devfile(struct s_extractar *exar, char *fullpat
   unsigned long int dev;
   unsigned int mode;
   exar->cost_current = exar->cost_current + (unsigned long int)16384;
-  signed int return_value_is_filedir_excluded$1;
-  return_value_is_filedir_excluded$1=is_filedir_excluded(relpath);
-  signed int return_value_dico_get_u64$2;
-  signed int return_value_dico_get_u32$3;
-  signed int return_value_mknod$4;
-  signed int return_value_extractar_restore_attr_everything$5;
-  signed int return_value_utimes$6;
-  if(!(return_value_is_filedir_excluded$1 == 1))
+  signed int return_value_is_filedir_excluded_1;
+  return_value_is_filedir_excluded_1=is_filedir_excluded(relpath);
+  signed int return_value_dico_get_u64_2;
+  signed int return_value_dico_get_u32_3;
+  signed int return_value_mknod_4;
+  signed int return_value_extractar_restore_attr_everything_5;
+  signed int return_value_utimes_6;
+  if(!(return_value_is_filedir_excluded_1 == 1))
   {
     extract_dirpath(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ );
     mkdir_recursive(parentdir);
     get_parent_dir_time_attrib(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ , tv);
     extractar_listing_print_file(exar, objtype, relpath);
-    return_value_dico_get_u64$2=dico_get_u64(d, (unsigned char)0, (unsigned short int)6, &dev);
-    if(!(return_value_dico_get_u64$2 == 0))
+    return_value_dico_get_u64_2=dico_get_u64(d, (unsigned char)0, (unsigned short int)6, &dev);
+    if(!(return_value_dico_get_u64_2 == 0))
       goto extractar_restore_obj_devfile_err;
 
-    return_value_dico_get_u32$3=dico_get_u32(d, (unsigned char)0, (unsigned short int)7, &mode);
-    if(!(return_value_dico_get_u32$3 == 0))
+    return_value_dico_get_u32_3=dico_get_u32(d, (unsigned char)0, (unsigned short int)7, &mode);
+    if(!(return_value_dico_get_u32_3 == 0))
       goto extractar_restore_obj_devfile_err;
 
-    return_value_mknod$4=mknod(fullpath, mode, dev);
-    if(!(return_value_mknod$4 == 0))
+    return_value_mknod_4=mknod(fullpath, mode, dev);
+    if(!(return_value_mknod_4 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_devfile", 513, "mknod failed on [%s]\n", relpath);
       goto extractar_restore_obj_devfile_err;
     }
 
-    return_value_extractar_restore_attr_everything$5=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
-    if(!(return_value_extractar_restore_attr_everything$5 == 0))
+    return_value_extractar_restore_attr_everything_5=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
+    if(!(return_value_extractar_restore_attr_everything_5 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_restore_obj_devfile", 517, "cannot restore file attributes for file [%s]\n", relpath);
       goto extractar_restore_obj_devfile_err;
     }
 
-    return_value_utimes$6=utimes(parentdir, tv);
-    if(!(return_value_utimes$6 == 0))
+    return_value_utimes_6=utimes(parentdir, tv);
+    if(!(return_value_utimes_6 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_devfile", 523, "utimes(%s) failed\n", (const void *)parentdir);
       goto extractar_restore_obj_devfile_err;
@@ -11173,26 +11173,26 @@ signed int extractar_restore_obj_directory(struct s_extractar *exar, char *fullp
   char parentdir[4096l];
   struct timeval tv[2l];
   exar->cost_current = exar->cost_current + (unsigned long int)16384;
-  signed int return_value_is_filedir_excluded$1;
-  return_value_is_filedir_excluded$1=is_filedir_excluded(relpath);
-  signed int return_value_extractar_restore_attr_everything$2;
-  signed int return_value_utimes$3;
-  if(!(return_value_is_filedir_excluded$1 == 1))
+  signed int return_value_is_filedir_excluded_1;
+  return_value_is_filedir_excluded_1=is_filedir_excluded(relpath);
+  signed int return_value_extractar_restore_attr_everything_2;
+  signed int return_value_utimes_3;
+  if(!(return_value_is_filedir_excluded_1 == 1))
   {
     extract_dirpath(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ );
     mkdir_recursive(parentdir);
     get_parent_dir_time_attrib(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ , tv);
     extractar_listing_print_file(exar, objtype, relpath);
     mkdir_recursive(fullpath);
-    return_value_extractar_restore_attr_everything$2=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
-    if(!(return_value_extractar_restore_attr_everything$2 == 0))
+    return_value_extractar_restore_attr_everything_2=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
+    if(!(return_value_extractar_restore_attr_everything_2 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_restore_obj_directory", 562, "cannot restore file attributes for file [%s]\n", relpath);
       goto extractar_restore_obj_directory_err;
     }
 
-    return_value_utimes$3=utimes(parentdir, tv);
-    if(!(return_value_utimes$3 == 0))
+    return_value_utimes_3=utimes(parentdir, tv);
+    if(!(return_value_utimes_3 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_directory", 568, "utimes(%s) failed\n", (const void *)parentdir);
       goto extractar_restore_obj_directory_err;
@@ -11224,19 +11224,19 @@ signed int extractar_restore_obj_hardlink(struct s_extractar *exar, char *fullpa
   char regfile[4096l];
   signed int res;
   exar->cost_current = exar->cost_current + (unsigned long int)16384;
-  signed int return_value_is_filedir_excluded$1;
-  return_value_is_filedir_excluded$1=is_filedir_excluded(relpath);
-  signed int return_value_dico_get_string$2;
-  signed int return_value_extractar_restore_attr_everything$3;
-  signed int return_value_utimes$4;
-  if(!(return_value_is_filedir_excluded$1 == 1))
+  signed int return_value_is_filedir_excluded_1;
+  return_value_is_filedir_excluded_1=is_filedir_excluded(relpath);
+  signed int return_value_dico_get_string_2;
+  signed int return_value_extractar_restore_attr_everything_3;
+  signed int return_value_utimes_4;
+  if(!(return_value_is_filedir_excluded_1 == 1))
   {
     extract_dirpath(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ );
     mkdir_recursive(parentdir);
     get_parent_dir_time_attrib(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ , tv);
     extractar_listing_print_file(exar, objtype, relpath);
-    return_value_dico_get_string$2=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)4096);
-    if(!(return_value_dico_get_string$2 >= 0))
+    return_value_dico_get_string_2=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)4096);
+    if(!(return_value_dico_get_string_2 >= 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_restore_obj_hardlink", 452, "dico_get_string(DICO_OBJ_SECTION_STDATTR, DISKITEMKEY_HARDLINK) failed\n");
       goto extractar_restore_obj_hardlink_err;
@@ -11250,15 +11250,15 @@ signed int extractar_restore_obj_hardlink(struct s_extractar *exar, char *fullpa
       goto extractar_restore_obj_hardlink_err;
     }
 
-    return_value_extractar_restore_attr_everything$3=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
-    if(!(return_value_extractar_restore_attr_everything$3 == 0))
+    return_value_extractar_restore_attr_everything_3=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
+    if(!(return_value_extractar_restore_attr_everything_3 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_restore_obj_hardlink", 464, "cannot restore file attributes for file [%s]\n", relpath);
       goto extractar_restore_obj_hardlink_err;
     }
 
-    return_value_utimes$4=utimes(parentdir, tv);
-    if(!(return_value_utimes$4 == 0))
+    return_value_utimes_4=utimes(parentdir, tv);
+    if(!(return_value_utimes_4 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_hardlink", 470, "utimes(%s) failed\n", (const void *)parentdir);
       goto extractar_restore_obj_hardlink_err;
@@ -11308,11 +11308,11 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
   memset((void *)&blkinfo, 0, sizeof(struct s_blockinfo) /*48ul*/ );
   regmulti_init(&regmulti, (unsigned int)921600);
   datafile=datafile_alloc();
-  signed int return_value_dico_get_u32$1;
-  return_value_dico_get_u32$1=dico_get_u32(dicofirstfile, (unsigned char)0, (unsigned short int)14, &filescount);
-  signed int return_value_dico_get_u32$9;
-  signed int return_value_is_filedir_excluded$15;
-  if(!(return_value_dico_get_u32$1 == 0))
+  signed int return_value_dico_get_u32_1;
+  return_value_dico_get_u32_1=dico_get_u32(dicofirstfile, (unsigned char)0, (unsigned short int)14, &filescount);
+  signed int return_value_dico_get_u32_9;
+  signed int return_value_is_filedir_excluded_15;
+  if(!(return_value_dico_get_u32_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 613, "cannot read DISKITEMKEY_MULTIFILESCOUNT from header in archive\n");
     return -1;
@@ -11320,9 +11320,9 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
 
   else
   {
-    signed int return_value_regmulti_rest_addheader$2;
-    return_value_regmulti_rest_addheader$2=regmulti_rest_addheader(&regmulti, dicofirstfile);
-    if(!(return_value_regmulti_rest_addheader$2 == 0))
+    signed int return_value_regmulti_rest_addheader_2;
+    return_value_regmulti_rest_addheader_2=regmulti_rest_addheader(&regmulti, dicofirstfile);
+    if(!(return_value_regmulti_rest_addheader_2 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 617, "rest_addheader() failed\n");
       return -1;
@@ -11333,26 +11333,26 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
       i = 1;
       for( ; !((unsigned int)i >= filescount); i = i + 1)
       {
-        signed long int return_value_queue_dequeue_header$3;
-        return_value_queue_dequeue_header$3=queue_dequeue_header(&g_queue, &filehead, magic, (unsigned short int *)(void *)0);
-        if(!(return_value_queue_dequeue_header$3 >= 1l))
+        signed long int return_value_queue_dequeue_header_3;
+        return_value_queue_dequeue_header_3=queue_dequeue_header(&g_queue, &filehead, magic, (unsigned short int *)(void *)0);
+        if(!(return_value_queue_dequeue_header_3 >= 1l))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 624, "queue_dequeue_header() failed: cannot read multireg object header\n");
           errors = errors + 1;
           return -1;
         }
 
-        signed int return_value_memcmp$4;
-        return_value_memcmp$4=memcmp((const void *)magic, (const void *)"ObJt", (unsigned long int)4);
-        if(!(return_value_memcmp$4 == 0))
+        signed int return_value_memcmp_4;
+        return_value_memcmp_4=memcmp((const void *)magic, (const void *)"ObJt", (unsigned long int)4);
+        if(!(return_value_memcmp_4 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 629, "header is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"ObJt");
           return -1;
         }
 
-        signed int return_value_regmulti_rest_addheader$5;
-        return_value_regmulti_rest_addheader$5=regmulti_rest_addheader(&regmulti, filehead);
-        if(!(return_value_regmulti_rest_addheader$5 == 0))
+        signed int return_value_regmulti_rest_addheader_5;
+        return_value_regmulti_rest_addheader_5=regmulti_rest_addheader(&regmulti, filehead);
+        if(!(return_value_regmulti_rest_addheader_5 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 633, "rest_addheader() failed for file %d\n", i);
           return -1;
@@ -11362,15 +11362,15 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
       lres=queue_dequeue_block(&g_queue, &blkinfo);
       if(!(lres >= 1l))
       {
-        char *return_value_error_int_to_string$6;
-        return_value_error_int_to_string$6=error_int_to_string(lres);
-        fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 640, "queue_dequeue_block()=%ld=%s failed\n", (signed long int)lres, return_value_error_int_to_string$6);
+        char *return_value_error_int_to_string_6;
+        return_value_error_int_to_string_6=error_int_to_string(lres);
+        fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 640, "queue_dequeue_block()=%ld=%s failed\n", (signed long int)lres, return_value_error_int_to_string_6);
         return -1;
       }
 
-      signed int return_value_regmulti_rest_setdatablock$7;
-      return_value_regmulti_rest_setdatablock$7=regmulti_rest_setdatablock(&regmulti, blkinfo.blkdata, blkinfo.blkrealsize);
-      if(!(return_value_regmulti_rest_setdatablock$7 == 0))
+      signed int return_value_regmulti_rest_setdatablock_7;
+      return_value_regmulti_rest_setdatablock_7=regmulti_rest_setdatablock(&regmulti, blkinfo.blkdata, blkinfo.blkrealsize);
+      if(!(return_value_regmulti_rest_setdatablock_7 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 645, "regmulti_rest_setdatablock() failed\n");
         return -1;
@@ -11382,9 +11382,9 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
         i = 0;
         for( ; !((unsigned int)i >= filescount); i = i + 1)
         {
-          signed int return_value_regmulti_rest_getfile$8;
-          return_value_regmulti_rest_getfile$8=regmulti_rest_getfile(&regmulti, i, &filehead, databuf, &datsize, (unsigned int)sizeof(char [131072l]) /*131072ul*/ );
-          if(!(return_value_regmulti_rest_getfile$8 == 0))
+          signed int return_value_regmulti_rest_getfile_8;
+          return_value_regmulti_rest_getfile_8=regmulti_rest_getfile(&regmulti, i, &filehead, databuf, &datsize, (unsigned int)sizeof(char [131072l]) /*131072ul*/ );
+          if(!(return_value_regmulti_rest_getfile_8 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 655, "rest_addheader() failed for file %d\n", i);
             filehead = (struct s_dico *)(void *)0;
@@ -11392,8 +11392,8 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
 
           else
           {
-            return_value_dico_get_u32$9=dico_get_u32(filehead, (unsigned char)0, (unsigned short int)3, &tmpobjtype);
-            if(!(return_value_dico_get_u32$9 == 0))
+            return_value_dico_get_u32_9=dico_get_u32(filehead, (unsigned char)0, (unsigned short int)3, &tmpobjtype);
+            if(!(return_value_dico_get_u32_9 == 0))
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 661, "Cannot read object type\n");
 
             else
@@ -11411,25 +11411,25 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
                 extract_basename(fullpath, basename, (signed int)sizeof(char [4096l]) /*4096ul*/ );
                 exar->cost_current = exar->cost_current + (unsigned long int)16384;
                 exar->cost_current = exar->cost_current + datsize;
-                return_value_is_filedir_excluded$15=is_filedir_excluded(relpath);
-                if(!(return_value_is_filedir_excluded$15 == 1))
+                return_value_is_filedir_excluded_15=is_filedir_excluded(relpath);
+                if(!(return_value_is_filedir_excluded_15 == 1))
                 {
                   extract_dirpath(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ );
                   mkdir_recursive(parentdir);
                   get_parent_dir_time_attrib(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ , tv);
                   extractar_listing_print_file(exar, (signed int)tmpobjtype, relpath);
-                  signed int return_value_dico_get_data$10;
-                  return_value_dico_get_data$10=dico_get_data(filehead, (unsigned char)0, (unsigned short int)13, (void *)md5sumorig, (unsigned short int)16, (unsigned short int *)(void *)0);
-                  if(!(return_value_dico_get_data$10 == 0))
+                  signed int return_value_dico_get_data_10;
+                  return_value_dico_get_data_10=dico_get_data(filehead, (unsigned char)0, (unsigned short int)13, (void *)md5sumorig, (unsigned short int)16, (unsigned short int *)(void *)0);
+                  if(!(return_value_dico_get_data_10 == 0))
                   {
                     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 690, "cannot get md5sum from file footer for file=[%s]\n", (const void *)relpath);
                     dico_show(filehead, (unsigned char)0, "filehead");
                     goto extractar_restore_obj_regfile_multi_err;
                   }
 
-                  signed int return_value_datafile_open_write$11;
-                  return_value_datafile_open_write$11=datafile_open_write(datafile, fullpath, (_Bool)0, (_Bool)0);
-                  if(!(return_value_datafile_open_write$11 >= 0))
+                  signed int return_value_datafile_open_write_11;
+                  return_value_datafile_open_write_11=datafile_open_write(datafile, fullpath, (_Bool)0, (_Bool)0);
+                  if(!(return_value_datafile_open_write_11 >= 0))
                     goto extractar_restore_obj_regfile_multi_err;
 
                   res=datafile_write(datafile, databuf, datsize);
@@ -11441,26 +11441,26 @@ signed int extractar_restore_obj_regfile_multi(struct s_extractar *exar, char *d
                     return -1;
                   }
 
-                  signed int return_value_memcmp$12;
-                  return_value_memcmp$12=memcmp((const void *)md5sumcalc, (const void *)md5sumorig, (unsigned long int)16);
-                  if(!(return_value_memcmp$12 == 0))
+                  signed int return_value_memcmp_12;
+                  return_value_memcmp_12=memcmp((const void *)md5sumcalc, (const void *)md5sumorig, (unsigned long int)16);
+                  if(!(return_value_memcmp_12 == 0))
                   {
                     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 709, "cannot restore file %s, the data block (which is shared by multiple files) is corrupt\n", (const void *)relpath);
                     res=truncate(fullpath, (signed long int)0);
                     goto extractar_restore_obj_regfile_multi_err;
                   }
 
-                  signed int return_value_extractar_restore_attr_everything$13;
-                  return_value_extractar_restore_attr_everything$13=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, filehead);
-                  if(!(return_value_extractar_restore_attr_everything$13 == 0))
+                  signed int return_value_extractar_restore_attr_everything_13;
+                  return_value_extractar_restore_attr_everything_13=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, filehead);
+                  if(!(return_value_extractar_restore_attr_everything_13 == 0))
                   {
                     fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_restore_obj_regfile_multi", 715, "cannot restore file attributes for file [%s]\n", (const void *)relpath);
                     goto extractar_restore_obj_regfile_multi_err;
                   }
 
-                  signed int return_value_utimes$14;
-                  return_value_utimes$14=utimes(parentdir, tv);
-                  if(!(return_value_utimes$14 == 0))
+                  signed int return_value_utimes_14;
+                  return_value_utimes_14=utimes(parentdir, tv);
+                  if(!(return_value_utimes_14 == 0))
                   {
                     fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_multi", 721, "utimes(%s) failed\n", (const void *)parentdir);
                     goto extractar_restore_obj_regfile_multi_err;
@@ -11514,22 +11514,22 @@ signed int extractar_restore_obj_regfile_unique(struct s_extractar *exar, char *
   memset((void *)&blkinfo, 0, sizeof(struct s_blockinfo) /*48ul*/ );
   memset((void *)magic, 0, sizeof(char [5l]) /*5ul*/ );
   datafile=datafile_alloc();
-  signed int return_value_dico_get_u64$1;
-  return_value_dico_get_u64$1=dico_get_u64(d, (unsigned char)0, (unsigned short int)8, &filesize);
-  if(!(return_value_dico_get_u64$1 == 0))
+  signed int return_value_dico_get_u64_1;
+  return_value_dico_get_u64_1=dico_get_u64(d, (unsigned char)0, (unsigned short int)8, &filesize);
+  if(!(return_value_dico_get_u64_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 766, "Cannot read filesize DISKITEMKEY_SIZE from archive for file=[%s]\n", relpath);
     minorerr = (_Bool)1;
   }
 
-  signed int return_value_dico_get_u64$2;
-  return_value_dico_get_u64$2=dico_get_u64(d, (unsigned char)0, (unsigned short int)17, &flags);
-  sparse = return_value_dico_get_u64$2 == 0 ? ((flags & (unsigned long int)(1 << 0)) != 0ul ? (_Bool)1 : (_Bool)0) : (_Bool)0;
+  signed int return_value_dico_get_u64_2;
+  return_value_dico_get_u64_2=dico_get_u64(d, (unsigned char)0, (unsigned short int)17, &flags);
+  sparse = return_value_dico_get_u64_2 == 0 ? ((flags & (unsigned long int)(1 << 0)) != 0ul ? (_Bool)1 : (_Bool)0) : (_Bool)0;
   exar->cost_current = exar->cost_current + (unsigned long int)16384;
   exar->cost_current = exar->cost_current + filesize;
-  signed int return_value_is_filedir_excluded$3;
-  return_value_is_filedir_excluded$3=is_filedir_excluded(relpath);
-  if(return_value_is_filedir_excluded$3 == 1)
+  signed int return_value_is_filedir_excluded_3;
+  return_value_is_filedir_excluded_3=is_filedir_excluded(relpath);
+  if(return_value_is_filedir_excluded_3 == 1)
     excluded = 1;
 
   else
@@ -11541,38 +11541,38 @@ signed int extractar_restore_obj_regfile_unique(struct s_extractar *exar, char *
       extractar_listing_print_file(exar, objtype, relpath);
     }
 
-  signed int return_value_datafile_open_write$4;
+  signed int return_value_datafile_open_write_4;
   if((signed int)minorerr == 0)
   {
-    return_value_datafile_open_write$4=datafile_open_write(datafile, fullpath, (_Bool)excluded, sparse);
-    if(!(return_value_datafile_open_write$4 >= 0))
+    return_value_datafile_open_write_4=datafile_open_write(datafile, fullpath, (_Bool)excluded, sparse);
+    if(!(return_value_datafile_open_write_4 >= 0))
       minorerr = (_Bool)1;
 
   }
 
   fsaprintf(5, (_Bool)0, 5 >= 3, "oper_restore.c", "extractar_restore_obj_regfile_unique", 797, "restore_obj_regfile_unique(file=%s, size=%lld)\n", relpath, (signed long long int)filesize);
   filepos = (unsigned long int)0;
-  _Bool tmp_if_expr$6;
-  _Bool return_value_get_interrupted$5;
+  _Bool tmp_if_expr_6;
+  _Bool return_value_get_interrupted_5;
   do
   {
     if((signed int)minorerr == 0 && filesize >= 1ul && !(filepos >= filesize))
     {
-      return_value_get_interrupted$5=get_interrupted();
-      tmp_if_expr$6 = (signed int)return_value_get_interrupted$5 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_get_interrupted_5=get_interrupted();
+      tmp_if_expr_6 = (signed int)return_value_get_interrupted_5 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(!tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(!tmp_if_expr_6)
       break;
 
     lres=queue_dequeue_block(&g_queue, &blkinfo);
     if(!(lres >= 1l))
     {
-      char *return_value_error_int_to_string$7;
-      return_value_error_int_to_string$7=error_int_to_string(lres);
-      fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 801, "queue_dequeue_block()=%ld=%s for file(%s) failed\n", (signed long int)lres, return_value_error_int_to_string$7, relpath);
+      char *return_value_error_int_to_string_7;
+      return_value_error_int_to_string_7=error_int_to_string(lres);
+      fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 801, "queue_dequeue_block()=%ld=%s for file(%s) failed\n", (signed long int)lres, return_value_error_int_to_string_7, relpath);
       delfile = (_Bool)1;
       minorerr = (_Bool)1;
       break;
@@ -11587,9 +11587,9 @@ signed int extractar_restore_obj_regfile_unique(struct s_extractar *exar, char *
       break;
     }
 
-    signed int return_value_datafile_write$8;
-    return_value_datafile_write$8=datafile_write(datafile, blkinfo.blkdata, (unsigned long int)blkinfo.blkrealsize);
-    if(!(return_value_datafile_write$8 == 0))
+    signed int return_value_datafile_write_8;
+    return_value_datafile_write_8=datafile_write(datafile, blkinfo.blkdata, (unsigned long int)blkinfo.blkrealsize);
+    if(!(return_value_datafile_write_8 == 0))
     {
       free((void *)blkinfo.blkdata);
       delfile = (_Bool)1;
@@ -11602,28 +11602,28 @@ signed int extractar_restore_obj_regfile_unique(struct s_extractar *exar, char *
     filepos = filepos + (unsigned long int)blkinfo.blkrealsize;
   }
   while((_Bool)1);
-  signed int return_value_datafile_close$9;
+  signed int return_value_datafile_close_9;
   if((signed int)minorerr == 0)
   {
-    return_value_datafile_close$9=datafile_close(datafile, md5sumcalc, (signed int)sizeof(unsigned char [16l]) /*16ul*/ );
-    if(!(return_value_datafile_close$9 == 0))
+    return_value_datafile_close_9=datafile_close(datafile, md5sumcalc, (signed int)sizeof(unsigned char [16l]) /*16ul*/ );
+    if(!(return_value_datafile_close_9 == 0))
       minorerr = (_Bool)1;
 
   }
 
   if(excluded == 0 && (signed int)minorerr == 0)
   {
-    signed int return_value_extractar_restore_attr_everything$10;
-    return_value_extractar_restore_attr_everything$10=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
-    if(!(return_value_extractar_restore_attr_everything$10 == 0))
+    signed int return_value_extractar_restore_attr_everything_10;
+    return_value_extractar_restore_attr_everything_10=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
+    if(!(return_value_extractar_restore_attr_everything_10 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_restore_obj_regfile_unique", 833, "cannot restore file attributes for file [%s]\n", relpath);
       minorerr = (_Bool)1;
     }
 
-    signed int return_value_utimes$11;
-    return_value_utimes$11=utimes(parentdir, tv);
-    if(!(return_value_utimes$11 == 0))
+    signed int return_value_utimes_11;
+    return_value_utimes_11=utimes(parentdir, tv);
+    if(!(return_value_utimes_11 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 839, "utimes(%s) failed\n", (const void *)parentdir);
       minorerr = (_Bool)1;
@@ -11633,9 +11633,9 @@ signed int extractar_restore_obj_regfile_unique(struct s_extractar *exar, char *
 
   if((signed int)fatalerr == 0 && filesize >= 1ul)
   {
-    signed long int return_value_queue_dequeue_header$12;
-    return_value_queue_dequeue_header$12=queue_dequeue_header(&g_queue, &footerdico, magic, (unsigned short int *)(void *)0);
-    if(!(return_value_queue_dequeue_header$12 >= 1l))
+    signed long int return_value_queue_dequeue_header_12;
+    return_value_queue_dequeue_header_12=queue_dequeue_header(&g_queue, &footerdico, magic, (unsigned short int *)(void *)0);
+    if(!(return_value_queue_dequeue_header_12 >= 1l))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 848, "queue_dequeue_header() failed: cannot read footer dico\n");
       minorerr = (_Bool)1;
@@ -11644,27 +11644,27 @@ signed int extractar_restore_obj_regfile_unique(struct s_extractar *exar, char *
     else
       if(!(excluded == 1))
       {
-        signed int return_value_memcmp$13;
-        return_value_memcmp$13=memcmp((const void *)magic, (const void *)"FiLf", (unsigned long int)4);
-        if(!(return_value_memcmp$13 == 0))
+        signed int return_value_memcmp_13;
+        return_value_memcmp_13=memcmp((const void *)magic, (const void *)"FiLf", (unsigned long int)4);
+        if(!(return_value_memcmp_13 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 856, "header is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"FiLf");
           minorerr = (_Bool)1;
           goto restore_obj_regfile_unique_end;
         }
 
-        signed int return_value_dico_get_data$14;
-        return_value_dico_get_data$14=dico_get_data(footerdico, (unsigned char)0, (unsigned short int)1, (void *)md5sumorig, (unsigned short int)16, (unsigned short int *)(void *)0);
-        if(!(return_value_dico_get_data$14 == 0))
+        signed int return_value_dico_get_data_14;
+        return_value_dico_get_data_14=dico_get_data(footerdico, (unsigned char)0, (unsigned short int)1, (void *)md5sumorig, (unsigned short int)16, (unsigned short int *)(void *)0);
+        if(!(return_value_dico_get_data_14 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 862, "cannot get md5sum from file footer for file=[%s]\n", relpath);
           minorerr = (_Bool)1;
           goto restore_obj_regfile_unique_end;
         }
 
-        signed int return_value_memcmp$15;
-        return_value_memcmp$15=memcmp((const void *)md5sumcalc, (const void *)md5sumorig, (unsigned long int)16);
-        if(!(return_value_memcmp$15 == 0))
+        signed int return_value_memcmp_15;
+        return_value_memcmp_15=memcmp((const void *)md5sumcalc, (const void *)md5sumorig, (unsigned long int)16);
+        if(!(return_value_memcmp_15 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 868, "cannot restore file %s, file is corrupt\n", relpath);
           delfile = (_Bool)1;
@@ -11694,9 +11694,9 @@ restore_obj_regfile_unique_end:
       exar->stats.cnt_regfile = exar->stats.cnt_regfile + 1ul;
   }
 
-  _Bool return_value_get_interrupted$16;
-  return_value_get_interrupted$16=get_interrupted();
-  if((signed int)return_value_get_interrupted$16 == 1)
+  _Bool return_value_get_interrupted_16;
+  return_value_get_interrupted_16=get_interrupted();
+  if((signed int)return_value_get_interrupted_16 == 1)
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_regfile_unique", 891, "operation has been interrupted\n");
 
   dico_destroy(footerdico);
@@ -11715,45 +11715,45 @@ signed int extractar_restore_obj_symlink(struct s_extractar *exar, char *fullpat
   unsigned long int targettype;
   signed int fdtemp;
   exar->cost_current = exar->cost_current + (unsigned long int)16384;
-  signed int return_value_is_filedir_excluded$1;
-  return_value_is_filedir_excluded$1=is_filedir_excluded(relpath);
-  signed int return_value_dico_get_string$2;
-  signed int return_value_dico_get_u64$5;
-  signed int return_value_strcmp$6;
-  signed int return_value_mkdir_recursive$3;
-  signed int return_value_extractar_restore_attr_everything$8;
-  signed int return_value_utimes$9;
-  if(!(return_value_is_filedir_excluded$1 == 1))
+  signed int return_value_is_filedir_excluded_1;
+  return_value_is_filedir_excluded_1=is_filedir_excluded(relpath);
+  signed int return_value_dico_get_string_2;
+  signed int return_value_dico_get_u64_5;
+  signed int return_value_strcmp_6;
+  signed int return_value_mkdir_recursive_3;
+  signed int return_value_extractar_restore_attr_everything_8;
+  signed int return_value_utimes_9;
+  if(!(return_value_is_filedir_excluded_1 == 1))
   {
     extractar_listing_print_file(exar, objtype, relpath);
     extract_dirpath(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ );
     mkdir_recursive(parentdir);
     get_parent_dir_time_attrib(fullpath, parentdir, (signed int)sizeof(char [4096l]) /*4096ul*/ , tv);
-    return_value_dico_get_string$2=dico_get_string(d, (unsigned char)0, (unsigned short int)4, buffer, (unsigned short int)4096);
-    if(!(return_value_dico_get_string$2 >= 0))
+    return_value_dico_get_string_2=dico_get_string(d, (unsigned char)0, (unsigned short int)4, buffer, (unsigned short int)4096);
+    if(!(return_value_dico_get_string_2 >= 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_symlink", 364, "Cannot read field=symlink for file=[%s]\n", fullpath);
       goto extractar_restore_obj_symlink_err;
     }
 
-    return_value_dico_get_u64$5=dico_get_u64(d, (unsigned char)0, (unsigned short int)16, &targettype);
-    _Bool tmp_if_expr$7;
-    if(return_value_dico_get_u64$5 == 0)
+    return_value_dico_get_u64_5=dico_get_u64(d, (unsigned char)0, (unsigned short int)16, &targettype);
+    _Bool tmp_if_expr_7;
+    if(return_value_dico_get_u64_5 == 0)
     {
-      return_value_strcmp$6=strcmp(filesys[(signed long int)fstype].name, "ntfs");
-      tmp_if_expr$7 = return_value_strcmp$6 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_6=strcmp(filesys[(signed long int)fstype].name, "ntfs");
+      tmp_if_expr_7 = return_value_strcmp_6 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
       switch(targettype)
       {
         case (unsigned long int)1:
         {
           fsaprintf(4, (_Bool)0, 4 >= 3, "oper_restore.c", "extractar_restore_obj_symlink", 375, "LINK: mklink=[%s], target=[%s], targettype=DIR\n", relpath, (const void *)buffer);
-          return_value_mkdir_recursive$3=mkdir_recursive(fullpath);
-          if(!(return_value_mkdir_recursive$3 == 0))
+          return_value_mkdir_recursive_3=mkdir_recursive(fullpath);
+          if(!(return_value_mkdir_recursive_3 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_obj_symlink", 377, "Cannot create directory for ntfs symlink: path=[%s]\n", fullpath);
             goto extractar_restore_obj_symlink_err;
@@ -11785,24 +11785,24 @@ signed int extractar_restore_obj_symlink(struct s_extractar *exar, char *fullpat
     else
     {
       fsaprintf(4, (_Bool)0, 4 >= 3, "oper_restore.c", "extractar_restore_obj_symlink", 398, "LINK: symlink=[%s], target=[%s] (normal symlink)\n", relpath, (const void *)buffer);
-      signed int return_value_symlink$4;
-      return_value_symlink$4=symlink(buffer, fullpath);
-      if(!(return_value_symlink$4 >= 0))
+      signed int return_value_symlink_4;
+      return_value_symlink_4=symlink(buffer, fullpath);
+      if(!(return_value_symlink_4 >= 0))
       {
         fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_symlink", 400, "symlink(%s, %s) failed\n", (const void *)buffer, fullpath);
         goto extractar_restore_obj_symlink_err;
       }
 
     }
-    return_value_extractar_restore_attr_everything$8=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
-    if(!(return_value_extractar_restore_attr_everything$8 == 0))
+    return_value_extractar_restore_attr_everything_8=extractar_restore_attr_everything(exar, objtype, fullpath, relpath, d);
+    if(!(return_value_extractar_restore_attr_everything_8 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "extractar_restore_obj_symlink", 406, "cannot restore file attributes for file [%s]\n", relpath);
       goto extractar_restore_obj_symlink_err;
     }
 
-    return_value_utimes$9=utimes(parentdir, tv);
-    if(!(return_value_utimes$9 == 0))
+    return_value_utimes_9=utimes(parentdir, tv);
+    if(!(return_value_utimes_9 == 0))
     {
       fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "extractar_restore_obj_symlink", 412, "utimes(%s) failed\n", (const void *)parentdir);
       goto extractar_restore_obj_symlink_err;
@@ -11834,23 +11834,23 @@ signed int extractar_restore_object(struct s_extractar *exar, signed int *errors
   unsigned int objtype;
   signed int res;
   *errors = 0;
-  signed int return_value_dico_get_data$1;
-  return_value_dico_get_data$1=dico_get_data(dicoattr, (unsigned char)0, (unsigned short int)2, (void *)relpath, (unsigned short int)sizeof(char [4096l]) /*4096ul*/ , (unsigned short int *)(void *)0);
-  if(!(return_value_dico_get_data$1 == 0))
+  signed int return_value_dico_get_data_1;
+  return_value_dico_get_data_1=dico_get_data(dicoattr, (unsigned char)0, (unsigned short int)2, (void *)relpath, (unsigned short int)sizeof(char [4096l]) /*4096ul*/ , (unsigned short int *)(void *)0);
+  if(!(return_value_dico_get_data_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_dico_get_u32$2;
-    return_value_dico_get_u32$2=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)3, &objtype);
-    if(!(return_value_dico_get_u32$2 == 0))
+    signed int return_value_dico_get_u32_2;
+    return_value_dico_get_u32_2=dico_get_u32(dicoattr, (unsigned char)0, (unsigned short int)3, &objtype);
+    if(!(return_value_dico_get_u32_2 == 0))
       return -2;
 
     else
     {
-      signed int return_value_dico_get_u64$3;
-      return_value_dico_get_u64$3=dico_get_u64(dicoattr, (unsigned char)0, (unsigned short int)8, &filesize);
-      if(!(return_value_dico_get_u64$3 == 0))
+      signed int return_value_dico_get_u64_3;
+      return_value_dico_get_u64_3=dico_get_u64(dicoattr, (unsigned char)0, (unsigned short int)8, &filesize);
+      if(!(return_value_dico_get_u64_3 == 0))
         return -3;
 
       else
@@ -11932,9 +11932,9 @@ signed int extractar_restore_object(struct s_extractar *exar, signed int *errors
         }
         if(!(res == 0))
         {
-          char *return_value_get_objtype_name$4;
-          return_value_get_objtype_name$4=get_objtype_name((signed int)objtype);
-          fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_object", 968, "Restoring file=[%s], objtype=[%s] failed\n", (const void *)fullpath, return_value_get_objtype_name$4);
+          char *return_value_get_objtype_name_4;
+          return_value_get_objtype_name_4=get_objtype_name((signed int)objtype);
+          fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "extractar_restore_object", 968, "Restoring file=[%s], objtype=[%s] failed\n", (const void *)fullpath, return_value_get_objtype_name_4);
           return -1;
         }
 
@@ -11946,7 +11946,7 @@ signed int extractar_restore_object(struct s_extractar *exar, signed int *errors
 
 // filesystem_mount_partition
 // file oper_save.c line 909
-signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico *dicofsinfo, unsigned short int fsid)
+signed int filesystem_mount_partition(struct s_devinfo_0 *devinfo, struct s_dico *dicofsinfo, unsigned short int fsid)
 {
   char fsbuf[128l];
   struct statvfs64 statfsbuf;
@@ -11967,8 +11967,8 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
   signed int res;
   signed int i;
   res=generic_get_mntinfo(devinfo->devpath, &readwrite, curmntdir, (signed int)sizeof(char [4096l]) /*4096ul*/ , optbuf, (signed int)sizeof(char [128l]) /*128ul*/ , fsbuf, (signed int)sizeof(char [128l]) /*128ul*/ );
-  char *return_value_strlist_merge$6;
-  char *return_value_strlist_merge$9;
+  char *return_value_strlist_merge_6;
+  char *return_value_strlist_merge_9;
   signed int return_value_1;
   if(res == 0)
   {
@@ -11980,13 +11980,13 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
       return -1;
     }
 
-    signed int return_value_generic_get_fstype$2;
-    return_value_generic_get_fstype$2=generic_get_fstype(fsbuf, &devinfo->fstype);
-    if(!(return_value_generic_get_fstype$2 == 0))
+    signed int return_value_generic_get_fstype_2;
+    return_value_generic_get_fstype_2=generic_get_fstype(fsbuf, &devinfo->fstype);
+    if(!(return_value_generic_get_fstype_2 == 0))
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(fsbuf, "fuseblk");
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(fsbuf, "fuseblk");
+      if(return_value_strcmp_1 == 0)
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 947, "partition [%s] is using a fuse based filesystem (probably ntfs-3g). Unmount it and try again\n", (const void *)devinfo->devpath);
 
       else
@@ -12008,36 +12008,36 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
     }
 
     strlist_split(&curmntopt, optbuf, (char)44);
-    char *return_value_strlist_merge$3;
-    return_value_strlist_merge$3=strlist_merge(&curmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
-    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 964, "mount options found for partition=[%s]: [%s]\n", (const void *)devinfo->devpath, return_value_strlist_merge$3);
-    char *return_value_strlist_merge$4;
-    return_value_strlist_merge$4=strlist_merge(&reqmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
-    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 965, "mount options required for partition=[%s]: [%s]\n", (const void *)devinfo->devpath, return_value_strlist_merge$4);
-    char *return_value_strlist_merge$5;
-    return_value_strlist_merge$5=strlist_merge(&badmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
-    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 966, "mount options to avoid for partition=[%s]: [%s]\n", (const void *)devinfo->devpath, return_value_strlist_merge$5);
+    char *return_value_strlist_merge_3;
+    return_value_strlist_merge_3=strlist_merge(&curmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
+    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 964, "mount options found for partition=[%s]: [%s]\n", (const void *)devinfo->devpath, return_value_strlist_merge_3);
+    char *return_value_strlist_merge_4;
+    return_value_strlist_merge_4=strlist_merge(&reqmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
+    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 965, "mount options required for partition=[%s]: [%s]\n", (const void *)devinfo->devpath, return_value_strlist_merge_4);
+    char *return_value_strlist_merge_5;
+    return_value_strlist_merge_5=strlist_merge(&badmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
+    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 966, "mount options to avoid for partition=[%s]: [%s]\n", (const void *)devinfo->devpath, return_value_strlist_merge_5);
     count=strlist_count(&reqmntopt);
     i = 0;
     if(!(i >= count))
     {
       strlist_getitem(&reqmntopt, i, optbuf, (signed int)sizeof(char [128l]) /*128ul*/ );
       fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 971, "checking there is reqmntopt[%d]=[%s]\n", i, (const void *)optbuf);
-      signed int return_value_strlist_exists$8;
-      return_value_strlist_exists$8=strlist_exists(&curmntopt, optbuf);
-      if(!(return_value_strlist_exists$8 == 1))
+      signed int return_value_strlist_exists_8;
+      return_value_strlist_exists_8=strlist_exists(&curmntopt, optbuf);
+      if(!(return_value_strlist_exists_8 == 1))
       {
         if(showwarningcount1 == 0)
         {
-          return_value_strlist_merge$6=strlist_merge(&reqmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
-          fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 977, "partition [%s] has to be mounted with options [%s] in order to preserve all its attributes. you can use mount with option remount to do that.\n", (const void *)devinfo->devpath, return_value_strlist_merge$6);
+          return_value_strlist_merge_6=strlist_merge(&reqmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
+          fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 977, "partition [%s] has to be mounted with options [%s] in order to preserve all its attributes. you can use mount with option remount to do that.\n", (const void *)devinfo->devpath, return_value_strlist_merge_6);
         }
 
         if((signed int)g_options.dontcheckmountopts == 1)
         {
-          signed int tmp_post$7 = showwarningcount1;
+          signed int tmp_post_7 = showwarningcount1;
           showwarningcount1 = showwarningcount1 + 1;
-          if(tmp_post$7 == 0)
+          if(tmp_post_7 == 0)
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 980, "fsarchiver will continue anyway since the option '-a' was used\n");
 
         }
@@ -12058,21 +12058,21 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
     {
       strlist_getitem(&badmntopt, i, optbuf, (signed int)sizeof(char [128l]) /*128ul*/ );
       fsaprintf(5, (_Bool)0, 5 >= 3, "oper_save.c", "filesystem_mount_partition", 993, "checking there is not badmntopt[%d]=[%s]\n", i, (const void *)optbuf);
-      signed int return_value_strlist_exists$11;
-      return_value_strlist_exists$11=strlist_exists(&curmntopt, optbuf);
-      if(return_value_strlist_exists$11 == 1)
+      signed int return_value_strlist_exists_11;
+      return_value_strlist_exists_11=strlist_exists(&curmntopt, optbuf);
+      if(return_value_strlist_exists_11 == 1)
       {
         if(showwarningcount2 == 0)
         {
-          return_value_strlist_merge$9=strlist_merge(&badmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
-          fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 998, "partition [%s] has to be mounted without options [%s] in order to preserve all its attributes\n", (const void *)devinfo->devpath, return_value_strlist_merge$9);
+          return_value_strlist_merge_9=strlist_merge(&badmntopt, temp, (signed int)sizeof(char [4096l]) /*4096ul*/ , (char)44);
+          fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 998, "partition [%s] has to be mounted without options [%s] in order to preserve all its attributes\n", (const void *)devinfo->devpath, return_value_strlist_merge_9);
         }
 
         if((signed int)g_options.dontcheckmountopts == 1)
         {
-          signed int tmp_post$10 = showwarningcount2;
+          signed int tmp_post_10 = showwarningcount2;
           showwarningcount2 = showwarningcount2 + 1;
-          if(tmp_post$10 == 0)
+          if(tmp_post_10 == 0)
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 1001, "fsarchiver will continue anyway since the option '-a' was used\n");
 
         }
@@ -12091,9 +12091,9 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
     strlist_empty(&badmntopt);
     strlist_empty(&curmntopt);
     mkdir_recursive(devinfo->partmount);
-    signed int return_value_mount$12;
-    return_value_mount$12=mount(curmntdir, devinfo->partmount, (const char *)(void *)0, (unsigned long int)(4096 | 1), (void *)0);
-    if(!(return_value_mount$12 == 0))
+    signed int return_value_mount_12;
+    return_value_mount_12=mount(curmntdir, devinfo->partmount, (const char *)(void *)0, (unsigned long int)(4096 | 1), (void *)0);
+    if(!(return_value_mount_12 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 1017, "mount(src=[%s], target=[%s], NULL, MS_BIND|MS_RDONLY, NULL) failed\n", (const void *)curmntdir, (const void *)devinfo->partmount);
       return -1;
@@ -12135,26 +12135,26 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
     devinfo->fstype = tmptype;
     devinfo->mountedbyfsa = (_Bool)1;
   }
-  signed int *return_value___errno_location$16;
-  signed int *return_value___errno_location$20;
+  signed int *return_value___errno_location_16;
+  signed int *return_value___errno_location_20;
   if((signed int)g_options.dontcheckmountopts == 0)
   {
     errorattr = 0;
     if((signed int)filesys[(signed long int)i].support_for_xattr == 1)
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      *return_value___errno_location$13 = 0;
-      signed long int return_value_lgetxattr$14;
-      return_value_lgetxattr$14=lgetxattr(devinfo->partmount, "user.fsa_test_xattr", (void *)temp, sizeof(char [4096l]) /*4096ul*/ );
-      res = (signed int)return_value_lgetxattr$14;
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "filesystem_mount_partition", 1049, "lgetxattr(\"%s\", \"user.fsa_test_attr\", buf, bufsize)=[%d] and errno=[%d]\n", (const void *)devinfo->partmount, (signed int)res, (signed int)*return_value___errno_location$15);
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      *return_value___errno_location_13 = 0;
+      signed long int return_value_lgetxattr_14;
+      return_value_lgetxattr_14=lgetxattr(devinfo->partmount, "user.fsa_test_xattr", (void *)temp, sizeof(char [4096l]) /*4096ul*/ );
+      res = (signed int)return_value_lgetxattr_14;
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "filesystem_mount_partition", 1049, "lgetxattr(\"%s\", \"user.fsa_test_attr\", buf, bufsize)=[%d] and errno=[%d]\n", (const void *)devinfo->partmount, (signed int)res, (signed int)*return_value___errno_location_15);
       if(!(res == 0))
       {
-        return_value___errno_location$16=__errno_location();
-        if(*return_value___errno_location$16 == 95)
+        return_value___errno_location_16=__errno_location();
+        if(*return_value___errno_location_16 == 95)
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 1052, "fsarchiver is unable to access extended attributes on device [%s].\n", (const void *)devinfo->devpath);
           errorattr = 1;
@@ -12166,19 +12166,19 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
 
     if((signed int)filesys[(signed long int)i].support_for_acls == 1)
     {
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      *return_value___errno_location$17 = 0;
-      signed long int return_value_lgetxattr$18;
-      return_value_lgetxattr$18=lgetxattr(devinfo->partmount, "system.posix_acl_access", (void *)temp, sizeof(char [4096l]) /*4096ul*/ );
-      res = (signed int)return_value_lgetxattr$18;
-      signed int *return_value___errno_location$19;
-      return_value___errno_location$19=__errno_location();
-      fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "filesystem_mount_partition", 1060, "lgetxattr(\"%s\", \"system.posix_acl_access\", buf, bufsize)=[%d] and errno=[%d]\n", (const void *)devinfo->partmount, (signed int)res, (signed int)*return_value___errno_location$19);
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      *return_value___errno_location_17 = 0;
+      signed long int return_value_lgetxattr_18;
+      return_value_lgetxattr_18=lgetxattr(devinfo->partmount, "system.posix_acl_access", (void *)temp, sizeof(char [4096l]) /*4096ul*/ );
+      res = (signed int)return_value_lgetxattr_18;
+      signed int *return_value___errno_location_19;
+      return_value___errno_location_19=__errno_location();
+      fsaprintf(4, (_Bool)0, 4 >= 3, "oper_save.c", "filesystem_mount_partition", 1060, "lgetxattr(\"%s\", \"system.posix_acl_access\", buf, bufsize)=[%d] and errno=[%d]\n", (const void *)devinfo->partmount, (signed int)res, (signed int)*return_value___errno_location_19);
       if(!(res == 0))
       {
-        return_value___errno_location$20=__errno_location();
-        if(*return_value___errno_location$20 == 95)
+        return_value___errno_location_20=__errno_location();
+        if(*return_value___errno_location_20 == 95)
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 1063, "fsarchiver is unable to access ACLs on device [%s].\n", (const void *)devinfo->devpath);
           errorattr = 1;
@@ -12200,9 +12200,9 @@ signed int filesystem_mount_partition(struct s_devinfo$0 *devinfo, struct s_dico
 
   __CPROVER_DUMP_L34:
     ;
-    signed int return_value_statvfs64$21;
-    return_value_statvfs64$21=statvfs64(devinfo->partmount, &statfsbuf);
-    if(!(return_value_statvfs64$21 == 0))
+    signed int return_value_statvfs64_21;
+    return_value_statvfs64_21=statvfs64(devinfo->partmount, &statfsbuf);
+    if(!(return_value_statvfs64_21 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "filesystem_mount_partition", 1077, "statvfs64(%s) failed\n", (const void *)devinfo->partmount);
       return -1;
@@ -12243,9 +12243,9 @@ unsigned int fletcher32(unsigned char *data, unsigned int len)
     len = len - tlen;
     do
     {
-      unsigned char *tmp_post$1 = data;
+      unsigned char *tmp_post_1 = data;
       data = data + 1l;
-      sum1 = sum1 + (unsigned int)*tmp_post$1;
+      sum1 = sum1 + (unsigned int)*tmp_post_1;
       sum2 = sum2 + sum1;
       tlen = tlen - 1u;
     }
@@ -12341,8 +12341,8 @@ char * format_size(unsigned long int size, char *text, signed int max, char unit
 signed int format_stacktrace(char *buffer, signed int bufsize)
 {
   const signed int stack_depth = 20;
-  const signed long int stack_depth$array_size0 = (signed long int)stack_depth;
-  void *temp[stack_depth$array_size0];
+  const signed long int stack_depth_array_size0 = (signed long int)stack_depth;
+  void *temp[stack_depth_array_size0];
   char **strings;
   signed int nptrs;
   signed int i;
@@ -12390,18 +12390,18 @@ signed int fsaprintf(signed int level, _Bool showerrno, _Bool showloc, const cha
   memset((void *)buffer, 0, sizeof(char [8192l]) /*8192ul*/ );
   msgscreen = level <= g_options.verboselevel;
   msglogfile = level <= g_options.debuglevel;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  unsigned long int return_value_strlen$4;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  unsigned long int return_value_strlen_4;
   if(!(msglogfile == (_Bool)0) || !(msgscreen == (_Bool)0))
   {
     if(!(showerrno == (_Bool)0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      strlcatf(buffer, (signed int)sizeof(char [8192l]) /*8192ul*/ , "[errno=%d, %s]: ", *return_value___errno_location$1, return_value_strerror$3);
+      return_value___errno_location_1=__errno_location();
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      strlcatf(buffer, (signed int)sizeof(char [8192l]) /*8192ul*/ , "[errno=%d, %s]: ", *return_value___errno_location_1, return_value_strerror_3);
     }
 
     if(!(showloc == (_Bool)0))
@@ -12419,8 +12419,8 @@ signed int fsaprintf(signed int level, _Bool showerrno, _Bool showloc, const cha
 
     if(!(msglogfile == (_Bool)0))
     {
-      return_value_strlen$4=strlen(buffer);
-      logfile_write(buffer, (signed int)return_value_strlen$4);
+      return_value_strlen_4=strlen(buffer);
+      logfile_write(buffer, (signed int)return_value_strlen_4);
     }
 
   }
@@ -12470,9 +12470,9 @@ signed int generic_get_fsrwstatus(char *options)
   result=strtok_r(temp, delims, &saveptr);
   while(!(result == ((char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(result, "rw");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(result, "rw");
+    if(return_value_strcmp_1 == 0)
       return 1;
 
     result=strtok_r((char *)(void *)0, delims, &saveptr);
@@ -12487,9 +12487,9 @@ signed int generic_get_fstype(char *fsname, signed int *fstype)
   signed int i = 0;
   for( ; !(filesys[(signed long int)i].name == ((char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(filesys[(signed long int)i].name, fsname);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(filesys[(signed long int)i].name, fsname);
+    if(return_value_strcmp_1 == 0)
     {
       *fstype = i;
       return 0;
@@ -12526,29 +12526,29 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
   *readwrite = -1;
   memset((void *)mntbuf, 0, (unsigned long int)maxmntbuf);
   memset((void *)optbuf, 0, (unsigned long int)maxoptbuf);
-  signed int return_value_stat64$9;
-  return_value_stat64$9=stat64(devname, &devstat);
-  signed int return_value_feof$3;
-  unsigned int return_value_gnu_dev_minor$6;
-  if(return_value_stat64$9 == 0)
+  signed int return_value_stat64_9;
+  return_value_stat64_9=stat64(devname, &devstat);
+  signed int return_value_feof_3;
+  unsigned int return_value_gnu_dev_minor_6;
+  if(return_value_stat64_9 == 0)
   {
     f=fopen("/proc/self/mountinfo", "rb");
     if(!(f == ((struct _IO_FILE *)NULL)))
     {
-      unsigned int return_value_gnu_dev_major$1;
-      return_value_gnu_dev_major$1=gnu_dev_major(devstat.st_rdev);
-      unsigned int return_value_gnu_dev_minor$2;
-      return_value_gnu_dev_minor$2=gnu_dev_minor(devstat.st_rdev);
-      fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_get_mntinfo", 174, "device=[%s] has major=[%ld] and minor=[%ld]\n", devname, (signed long int)return_value_gnu_dev_major$1, (signed long int)return_value_gnu_dev_minor$2);
+      unsigned int return_value_gnu_dev_major_1;
+      return_value_gnu_dev_major_1=gnu_dev_major(devstat.st_rdev);
+      unsigned int return_value_gnu_dev_minor_2;
+      return_value_gnu_dev_minor_2=gnu_dev_minor(devstat.st_rdev);
+      fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_get_mntinfo", 174, "device=[%s] has major=[%ld] and minor=[%ld]\n", devname, (signed long int)return_value_gnu_dev_major_1, (signed long int)return_value_gnu_dev_minor_2);
       do
       {
-        return_value_feof$3=feof(f);
-        if(!(return_value_feof$3 == 0))
+        return_value_feof_3=feof(f);
+        if(!(return_value_feof_3 == 0))
           break;
 
-        signed int return_value_stream_readline$8;
-        return_value_stream_readline$8=stream_readline(f, line, 1024);
-        if(return_value_stream_readline$8 >= 2)
+        signed int return_value_stream_readline_8;
+        return_value_stream_readline_8=stream_readline(f, line, 1024);
+        if(return_value_stream_readline_8 >= 2)
         {
           result=strtok_r(line, delims, &saveptr);
           major = (signed long int)-1;
@@ -12561,9 +12561,9 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
           i = 0;
           for( ; !(result == ((char *)NULL)); i = i + 1)
           {
-            signed int return_value_strcmp$4;
-            return_value_strcmp$4=strcmp(result, "-");
-            if(return_value_strcmp$4 == 0)
+            signed int return_value_strcmp_4;
+            return_value_strcmp_4=strcmp(result, "-");
+            if(return_value_strcmp_4 == 0)
               sep = i;
 
             switch(i)
@@ -12590,16 +12590,16 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
             result=strtok_r((char *)(void *)0, delims, &saveptr);
           }
           fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_get_mntinfo", 207, "mountinfo entry: major=[%ld] minor=[%ld] filesys=[%s] col_opt=[%s] col_mnt=[%s]\n", major, minor, (const void *)col_fs, (const void *)col_opt, (const void *)col_mnt);
-          unsigned int return_value_gnu_dev_major$7;
-          return_value_gnu_dev_major$7=gnu_dev_major(devstat.st_rdev);
-          if(major == (signed long int)return_value_gnu_dev_major$7)
+          unsigned int return_value_gnu_dev_major_7;
+          return_value_gnu_dev_major_7=gnu_dev_major(devstat.st_rdev);
+          if(major == (signed long int)return_value_gnu_dev_major_7)
           {
-            return_value_gnu_dev_minor$6=gnu_dev_minor(devstat.st_rdev);
-            if(minor == (signed long int)return_value_gnu_dev_minor$6)
+            return_value_gnu_dev_minor_6=gnu_dev_minor(devstat.st_rdev);
+            if(minor == (signed long int)return_value_gnu_dev_minor_6)
             {
-              signed int return_value_generic_get_spacestats$5;
-              return_value_generic_get_spacestats$5=generic_get_spacestats(devname, col_mnt, temp, (signed int)sizeof(char [2048l]) /*2048ul*/ );
-              if(return_value_generic_get_spacestats$5 == 0)
+              signed int return_value_generic_get_spacestats_5;
+              return_value_generic_get_spacestats_5=generic_get_spacestats(devname, col_mnt, temp, (signed int)sizeof(char [2048l]) /*2048ul*/ );
+              if(return_value_generic_get_spacestats_5 == 0)
               {
                 fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_get_mntinfo", 213, "found mountinfo entry for device=[%s]: mnt=[%s] fs=[%s] opt=[%s]\n", devname, (const void *)col_mnt, (const void *)col_fs, (const void *)col_opt);
                 *readwrite=generic_get_fsrwstatus(col_opt);
@@ -12623,13 +12623,13 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
 
   }
 
-  signed int return_value_stat64$11;
-  return_value_stat64$11=stat64(devname, &devstat);
-  signed int return_value_stat64$10;
-  if(return_value_stat64$11 == 0)
+  signed int return_value_stat64_11;
+  return_value_stat64_11=stat64(devname, &devstat);
+  signed int return_value_stat64_10;
+  if(return_value_stat64_11 == 0)
   {
-    return_value_stat64$10=stat64("/", &rootstat);
-    if(return_value_stat64$10 == 0)
+    return_value_stat64_10=stat64("/", &rootstat);
+    if(return_value_stat64_10 == 0)
     {
       if(devstat.st_rdev == rootstat.st_dev)
       {
@@ -12642,9 +12642,9 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
   }
 
   f=fopen("/proc/mounts", "rb");
-  signed int return_value_feof$12;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
+  signed int return_value_feof_12;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
   if(f == ((struct _IO_FILE *)NULL))
   {
     fsaprintf(0, (_Bool)1, (_Bool)1, "filesys.c", "generic_get_mntinfo", 247, "Cannot open /proc/mounts\n");
@@ -12655,13 +12655,13 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
   {
     do
     {
-      return_value_feof$12=feof(f);
-      if(!(return_value_feof$12 == 0))
+      return_value_feof_12=feof(f);
+      if(!(return_value_feof_12 == 0))
         break;
 
-      signed int return_value_stream_readline$17;
-      return_value_stream_readline$17=stream_readline(f, line, 1024);
-      if(return_value_stream_readline$17 >= 2)
+      signed int return_value_stream_readline_17;
+      return_value_stream_readline_17=stream_readline(f, line, 1024);
+      if(return_value_stream_readline_17 >= 2)
       {
         result=strtok_r(line, delims, &saveptr);
         col_opt[(signed long int)0] = (char)0;
@@ -12695,11 +12695,11 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
         }
         if(devisroot == 1)
         {
-          return_value_strcmp$14=strcmp(col_mnt, "/");
-          if(return_value_strcmp$14 == 0)
+          return_value_strcmp_14=strcmp(col_mnt, "/");
+          if(return_value_strcmp_14 == 0)
           {
-            return_value_strcmp$13=strcmp(col_fs, "rootfs");
-            if(!(return_value_strcmp$13 == 0))
+            return_value_strcmp_13=strcmp(col_fs, "rootfs");
+            if(!(return_value_strcmp_13 == 0))
               snprintf(col_dev, sizeof(char [128l]) /*128ul*/ , "%s", devname);
 
           }
@@ -12707,13 +12707,13 @@ signed int generic_get_mntinfo(char *devname, signed int *readwrite, char *mntbu
         }
 
         fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_get_mntinfo", 280, "mount entry: col_dev=[%s] col_mnt=[%s] col_fs=[%s] col_opt=[%s]\n", (const void *)col_dev, (const void *)col_mnt, (const void *)col_fs, (const void *)col_opt);
-        signed int return_value_devcmp$16;
-        return_value_devcmp$16=devcmp(col_dev, devname);
-        if(return_value_devcmp$16 == 0)
+        signed int return_value_devcmp_16;
+        return_value_devcmp_16=devcmp(col_dev, devname);
+        if(return_value_devcmp_16 == 0)
         {
-          signed int return_value_generic_get_spacestats$15;
-          return_value_generic_get_spacestats$15=generic_get_spacestats(col_dev, col_mnt, temp, (signed int)sizeof(char [2048l]) /*2048ul*/ );
-          if(return_value_generic_get_spacestats$15 == 0)
+          signed int return_value_generic_get_spacestats_15;
+          return_value_generic_get_spacestats_15=generic_get_spacestats(col_dev, col_mnt, temp, (signed int)sizeof(char [2048l]) /*2048ul*/ );
+          if(return_value_generic_get_spacestats_15 == 0)
           {
             fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_get_mntinfo", 286, "found mount entry for device=[%s]: mnt=[%s] fs=[%s] opt=[%s]\n", devname, (const void *)col_mnt, (const void *)col_fs, (const void *)col_opt);
             *readwrite=generic_get_fsrwstatus(col_opt);
@@ -12742,16 +12742,16 @@ signed int generic_get_spacestats(char *dev, char *mnt, char *text, signed int t
   struct statfs stf;
   struct stat64 st;
   memset((void *)text, 0, (unsigned long int)textlen);
-  signed int return_value_stat64$1;
-  return_value_stat64$1=stat64(dev, &st);
-  if(!(return_value_stat64$1 == 0))
+  signed int return_value_stat64_1;
+  return_value_stat64_1=stat64(dev, &st);
+  if(!(return_value_stat64_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_statfs$2;
-    return_value_statfs$2=statfs(dev, &stf);
-    if(!(return_value_statfs$2 == 0))
+    signed int return_value_statfs_2;
+    return_value_statfs_2=statfs(dev, &stf);
+    if(!(return_value_statfs_2 == 0))
       return -1;
 
     else
@@ -12767,13 +12767,13 @@ signed int generic_get_spacestats(char *dev, char *mnt, char *text, signed int t
 // file filesys.h line 51
 signed int generic_mount(char *partition, char *mntbuf, char *fsbuf, char *mntopt, signed int flags)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fsbuf == ((char *)NULL) || mntbuf == ((char *)NULL) || partition == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(fsbuf[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(fsbuf[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "filesys.c", "generic_mount", 305, "invalid parameters\n");
     return -1;
@@ -12783,9 +12783,9 @@ signed int generic_mount(char *partition, char *mntbuf, char *fsbuf, char *mntop
   {
     flags = flags | 1024 | 2048;
     fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_mount", 313, "trying to mount [%s] on [%s] as [%s] with options [%s]\n", partition, mntbuf, fsbuf, mntopt);
-    signed int return_value_mount$2;
-    return_value_mount$2=mount(partition, mntbuf, fsbuf, (unsigned long int)flags, (const void *)mntopt);
-    if(!(return_value_mount$2 == 0))
+    signed int return_value_mount_2;
+    return_value_mount_2=mount(partition, mntbuf, fsbuf, (unsigned long int)flags, (const void *)mntopt);
+    if(!(return_value_mount_2 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "filesys.c", "generic_mount", 315, "partition [%s] cannot be mounted on [%s] as [%s] with options [%s]\n", partition, mntbuf, fsbuf, mntopt);
       return -1;
@@ -12805,10 +12805,10 @@ signed int generic_umount(char *mntbuf)
 {
   signed int res = 0;
   signed int i;
-  _Bool tmp_if_expr$3;
-  signed int return_value_umount2$2;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_umount2_2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(mntbuf == ((char *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "filesys.c", "generic_umount", 328, "invalid param: mntbuf is null\n");
@@ -12819,29 +12819,29 @@ signed int generic_umount(char *mntbuf)
   {
     fsaprintf(4, (_Bool)0, 4 >= 3, "filesys.c", "generic_umount", 332, "unmount_partition(%s)\n", mntbuf);
     i = 0;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     do
     {
       if(!(i >= 4))
       {
-        return_value_umount2$2=umount2(mntbuf, 0);
-        res = (signed int)(return_value_umount2$2 != 0);
-        tmp_if_expr$3 = res != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_umount2_2=umount2(mntbuf, 0);
+        res = (signed int)(return_value_umount2_2 != 0);
+        tmp_if_expr_3 = res != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 == 16 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 == 16 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(!tmp_if_expr_5)
         break;
 
       sync();
@@ -12869,16 +12869,16 @@ signed int get_abort()
 
   else
   {
-    signed int return_value_sigpending$2;
-    return_value_sigpending$2=sigpending(&mask_set);
-    if(return_value_sigpending$2 == 0)
+    signed int return_value_sigpending_2;
+    return_value_sigpending_2=sigpending(&mask_set);
+    if(return_value_sigpending_2 == 0)
     {
       i = 0;
       for( ; !(mysigs[(signed long int)i] == -1); i = i + 1)
       {
-        signed int return_value_sigismember$1;
-        return_value_sigismember$1=sigismember(&mask_set, mysigs[(signed long int)i]);
-        if(!(return_value_sigismember$1 == 0))
+        signed int return_value_sigismember_1;
+        return_value_sigismember_1=sigismember(&mask_set, mysigs[(signed long int)i]);
+        if(!(return_value_sigismember_1 == 0))
         {
           (&g_aborted)->counter = 1;
           return 1;
@@ -12914,31 +12914,31 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
   snprintf(outdev->label, sizeof(char [512l]) /*512ul*/ , "<unknown>");
   snprintf(outdev->uuid, sizeof(char [128l]) /*128ul*/ , "<unknown>");
   snprintf(outdev->fsname, sizeof(char [128l]) /*128ul*/ , "<unknown>");
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(indevname);
-  _Bool tmp_if_expr$3;
-  signed int return_value_memcmp$2;
-  if(!(return_value_strlen$1 >= 5ul))
-    tmp_if_expr$3 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(indevname);
+  _Bool tmp_if_expr_3;
+  signed int return_value_memcmp_2;
+  if(!(return_value_strlen_1 >= 5ul))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_memcmp$2=memcmp((const void *)indevname, (const void *)"/dev/", (unsigned long int)5);
-    tmp_if_expr$3 = return_value_memcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_2=memcmp((const void *)indevname, (const void *)"/dev/", (unsigned long int)5);
+    tmp_if_expr_3 = return_value_memcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned int return_value_gnu_dev_major$5;
-  unsigned int return_value_gnu_dev_minor$4;
-  signed long int return_value_lseek64$7;
-  signed int return_value_fstat64$9;
-  signed int return_value_close$11;
-  unsigned long int return_value_fread$18;
-  signed int return_value_fclose$17;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  signed int return_value_blkid_tag_next$21;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  if(tmp_if_expr$3)
+  unsigned int return_value_gnu_dev_major_5;
+  unsigned int return_value_gnu_dev_minor_4;
+  signed long int return_value_lseek64_7;
+  signed int return_value_fstat64_9;
+  signed int return_value_close_11;
+  unsigned long int return_value_fread_18;
+  signed int return_value_fclose_17;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  signed int return_value_blkid_tag_next_21;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  if(tmp_if_expr_3)
     return -1;
 
   else
@@ -12959,17 +12959,17 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
           break;
 
         snprintf(temp, sizeof(char [4096l]) /*4096ul*/ , "/dev/mapper/%s", (const void *)dir->d_name);
-        signed int return_value_stat64$6;
-        return_value_stat64$6=stat64(temp, &statbuf);
-        if(return_value_stat64$6 == 0)
+        signed int return_value_stat64_6;
+        return_value_stat64_6=stat64(temp, &statbuf);
+        if(return_value_stat64_6 == 0)
         {
           if((61440u & statbuf.st_mode) == 24576u)
           {
-            return_value_gnu_dev_major$5=gnu_dev_major(statbuf.st_rdev);
-            if(return_value_gnu_dev_major$5 == (unsigned int)maj)
+            return_value_gnu_dev_major_5=gnu_dev_major(statbuf.st_rdev);
+            if(return_value_gnu_dev_major_5 == (unsigned int)maj)
             {
-              return_value_gnu_dev_minor$4=gnu_dev_minor(statbuf.st_rdev);
-              if(return_value_gnu_dev_minor$4 == (unsigned int)min)
+              return_value_gnu_dev_minor_4=gnu_dev_minor(statbuf.st_rdev);
+              if(return_value_gnu_dev_minor_4 == (unsigned int)min)
               {
                 snprintf(outdev->longname, sizeof(char [256l]) /*256ul*/ , "%s", (const void *)temp);
                 found = 1;
@@ -12987,46 +12987,46 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
     }
 
     fd=open64(outdev->longname, 00 | 0);
-    _Bool tmp_if_expr$8;
+    _Bool tmp_if_expr_8;
     if(!(fd >= 0))
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_lseek64$7=lseek64(fd, (signed long int)0, 2);
-      outdev->devsize = (unsigned long int)return_value_lseek64$7;
-      tmp_if_expr$8 = outdev->devsize < (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      return_value_lseek64_7=lseek64(fd, (signed long int)0, 2);
+      outdev->devsize = (unsigned long int)return_value_lseek64_7;
+      tmp_if_expr_8 = outdev->devsize < (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$10;
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    _Bool tmp_if_expr_10;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_fstat64$9=fstat64(fd, &statbuf);
-      tmp_if_expr$10 = return_value_fstat64$9 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fstat64_9=fstat64(fd, &statbuf);
+      tmp_if_expr_10 = return_value_fstat64_9 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$12;
-    if(!((61440u & statbuf.st_mode) == 24576u) || tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+    _Bool tmp_if_expr_12;
+    if(!((61440u & statbuf.st_mode) == 24576u) || tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_close$11=close(fd);
-      tmp_if_expr$12 = return_value_close$11 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_close_11=close(fd);
+      tmp_if_expr_12 = return_value_close_11 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
+    if(tmp_if_expr_12)
       return -1;
 
     else
     {
       outdev->rdev = statbuf.st_rdev;
-      unsigned int return_value_gnu_dev_major$13;
-      return_value_gnu_dev_major$13=gnu_dev_major(statbuf.st_rdev);
-      outdev->major = (signed int)return_value_gnu_dev_major$13;
-      unsigned int return_value_gnu_dev_minor$14;
-      return_value_gnu_dev_minor$14=gnu_dev_minor(statbuf.st_rdev);
-      outdev->minor = (signed int)return_value_gnu_dev_minor$14;
+      unsigned int return_value_gnu_dev_major_13;
+      return_value_gnu_dev_major_13=gnu_dev_major(statbuf.st_rdev);
+      outdev->major = (signed int)return_value_gnu_dev_major_13;
+      unsigned int return_value_gnu_dev_minor_14;
+      return_value_gnu_dev_minor_14=gnu_dev_minor(statbuf.st_rdev);
+      outdev->minor = (signed int)return_value_gnu_dev_minor_14;
       format_size(outdev->devsize, outdev->txtsize, (signed int)sizeof(char [64l]) /*64ul*/ , (char)104);
       if(outdev->devsize == 1024ul)
         return -1;
@@ -13040,35 +13040,35 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
             sysblkdevname[(signed long int)i] = (char)33;
 
         snprintf(sysblkinfo, sizeof(char [4096l]) /*4096ul*/ , "/sys/block/%s/device", (const void *)sysblkdevname);
-        signed int return_value_stat64$19;
-        return_value_stat64$19=stat64(sysblkinfo, &statbuf);
-        if(return_value_stat64$19 == 0)
+        signed int return_value_stat64_19;
+        return_value_stat64_19=stat64(sysblkinfo, &statbuf);
+        if(return_value_stat64_19 == 0)
         {
           outdev->devtype = 0;
           snprintf(sysblkinfo, sizeof(char [4096l]) /*4096ul*/ , "/sys/block/%s/device/model", (const void *)sysblkdevname);
           finfo=fopen(sysblkinfo, "rb");
           if(!(finfo == ((struct _IO_FILE *)NULL)))
           {
-            return_value_fread$18=fread((void *)temp, (unsigned long int)1, sizeof(char [4096l]) /*4096ul*/ , finfo);
-            if(return_value_fread$18 >= 1ul)
+            return_value_fread_18=fread((void *)temp, (unsigned long int)1, sizeof(char [4096l]) /*4096ul*/ , finfo);
+            if(return_value_fread_18 >= 1ul)
             {
-              return_value_fclose$17=fclose(finfo);
-              if(return_value_fclose$17 == 0)
+              return_value_fclose_17=fclose(finfo);
+              if(return_value_fclose_17 == 0)
               {
                 i = 0;
                 do
                 {
                   if(!((signed int)temp[(signed long int)i] == 0))
-                    tmp_if_expr$15 = (signed int)temp[(signed long int)i] != 13 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_15 = (signed int)temp[(signed long int)i] != 13 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$15 = (_Bool)0;
-                  if(tmp_if_expr$15)
-                    tmp_if_expr$16 = (signed int)temp[(signed long int)i] != 10 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_15 = (_Bool)0;
+                  if(tmp_if_expr_15)
+                    tmp_if_expr_16 = (signed int)temp[(signed long int)i] != 10 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$16 = (_Bool)0;
-                  if(!tmp_if_expr$16)
+                    tmp_if_expr_16 = (_Bool)0;
+                  if(!tmp_if_expr_16)
                     break;
 
                   outdev->name[(signed long int)i] = temp[(signed long int)i];
@@ -13086,9 +13086,9 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
         else
           outdev->devtype = 1;
         struct blkid_struct_cache *cache = (struct blkid_struct_cache *)(void *)0;
-        signed int return_value_blkid_get_cache$20;
-        return_value_blkid_get_cache$20=blkid_get_cache(&cache, (const char *)(void *)0);
-        if(!(return_value_blkid_get_cache$20 >= 0))
+        signed int return_value_blkid_get_cache_20;
+        return_value_blkid_get_cache_20=blkid_get_cache(&cache, (const char *)(void *)0);
+        if(!(return_value_blkid_get_cache_20 >= 0))
           return -1;
 
         else
@@ -13099,25 +13099,25 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
             iter=blkid_tag_iterate_begin(dev);
             do
             {
-              return_value_blkid_tag_next$21=blkid_tag_next(iter, &type, &value);
-              if(!(return_value_blkid_tag_next$21 == 0))
+              return_value_blkid_tag_next_21=blkid_tag_next(iter, &type, &value);
+              if(!(return_value_blkid_tag_next_21 == 0))
                 break;
 
-              signed int return_value_strcmp$24;
-              return_value_strcmp$24=strcmp(type, "LABEL");
-              if(return_value_strcmp$24 == 0)
+              signed int return_value_strcmp_24;
+              return_value_strcmp_24=strcmp(type, "LABEL");
+              if(return_value_strcmp_24 == 0)
                 snprintf(outdev->label, sizeof(char [512l]) /*512ul*/ , "%s", value);
 
               else
               {
-                return_value_strcmp$23=strcmp(type, "UUID");
-                if(return_value_strcmp$23 == 0)
+                return_value_strcmp_23=strcmp(type, "UUID");
+                if(return_value_strcmp_23 == 0)
                   snprintf(outdev->uuid, sizeof(char [128l]) /*128ul*/ , "%s", value);
 
                 else
                 {
-                  return_value_strcmp$22=strcmp(type, "TYPE");
-                  if(return_value_strcmp$22 == 0)
+                  return_value_strcmp_22=strcmp(type, "TYPE");
+                  if(return_value_strcmp_22 == 0)
                     snprintf(outdev->fsname, sizeof(char [128l]) /*128ul*/ , "%s", value);
 
                 }
@@ -13125,13 +13125,13 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
             }
             while((_Bool)1);
             blkid_tag_iterate_end(iter);
-            signed int return_value_strcmp$26;
-            return_value_strcmp$26=strcmp(outdev->fsname, "ext3");
-            if(return_value_strcmp$26 == 0)
+            signed int return_value_strcmp_26;
+            return_value_strcmp_26=strcmp(outdev->fsname, "ext3");
+            if(return_value_strcmp_26 == 0)
             {
-              signed int return_value_ext3_test$25;
-              return_value_ext3_test$25=ext3_test(outdev->longname);
-              if(return_value_ext3_test$25 == 1)
+              signed int return_value_ext3_test_25;
+              return_value_ext3_test_25=ext3_test(outdev->longname);
+              if(return_value_ext3_test_25 == 1)
                 snprintf(outdev->fsname, sizeof(char [128l]) /*128ul*/ , "ext3");
 
               else
@@ -13152,19 +13152,19 @@ signed int get_devinfo(struct s_devinfo *outdev, char *indevname, signed int min
 // file syncthread.h line 27
 _Bool get_interrupted()
 {
-  signed int return_value_get_abort$1;
-  return_value_get_abort$1=get_abort();
-  _Bool tmp_if_expr$3;
-  _Bool return_value_get_stopfillqueue$2;
-  if(return_value_get_abort$1 == 1)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_get_abort_1;
+  return_value_get_abort_1=get_abort();
+  _Bool tmp_if_expr_3;
+  _Bool return_value_get_stopfillqueue_2;
+  if(return_value_get_abort_1 == 1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_get_stopfillqueue$2=get_stopfillqueue();
-    tmp_if_expr$3 = (signed int)return_value_get_stopfillqueue$2 == 1 ? (_Bool)1 : (_Bool)0;
+    return_value_get_stopfillqueue_2=get_stopfillqueue();
+    tmp_if_expr_3 = (signed int)return_value_get_stopfillqueue_2 == 1 ? (_Bool)1 : (_Bool)0;
   }
-  return tmp_if_expr$3;
+  return tmp_if_expr_3;
 }
 
 // get_objtype_name
@@ -13202,9 +13202,9 @@ signed int get_parent_dir_time_attrib(char *filepath, char *parentdirbuf, signed
 {
   struct stat64 statbuf;
   extract_dirpath(filepath, parentdirbuf, bufsize);
-  signed int return_value_lstat64$1;
-  return_value_lstat64$1=lstat64(parentdirbuf, &statbuf);
-  if(!(return_value_lstat64$1 == 0))
+  signed int return_value_lstat64_1;
+  return_value_lstat64_1=lstat64(parentdirbuf, &statbuf);
+  if(!(return_value_lstat64_1 == 0))
   {
     fsaprintf(0, (_Bool)1, (_Bool)1, "common.c", "get_parent_dir_time_attrib", 513, "cannot lstat64(%s)\n", parentdirbuf);
     return -1;
@@ -13233,9 +13233,9 @@ signed int get_path_to_volume(char *newvolbuf, signed int bufsize, char *basepat
 {
   char prefix[4096l];
   signed int pathlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(basepath);
-  pathlen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(basepath);
+  pathlen = (signed int)return_value_strlen_1;
   if(!(pathlen >= 4))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "common.c", "get_path_to_volume", 594, "archive has an invalid basepath: [%s]\n", basepath);
@@ -13246,9 +13246,9 @@ signed int get_path_to_volume(char *newvolbuf, signed int bufsize, char *basepat
   {
     if(curvol == 0l)
     {
-      char *return_value_realpath$2;
-      return_value_realpath$2=realpath(basepath, newvolbuf);
-      if(!(return_value_realpath$2 == newvolbuf))
+      char *return_value_realpath_2;
+      return_value_realpath_2=realpath(basepath, newvolbuf);
+      if(!(return_value_realpath_2 == newvolbuf))
         snprintf(newvolbuf, (unsigned long int)bufsize, "%s", basepath);
 
     }
@@ -13301,7 +13301,7 @@ signed int getpathtoprog(char *buffer, signed int bufsize, char *prog)
   signed int i;
   memset((void *)buffer, 0, (unsigned long int)bufsize);
   vp=getenv("PATH");
-  signed int return_value_access$1;
+  signed int return_value_access_1;
   if(vp == ((char *)NULL))
     return -1;
 
@@ -13313,12 +13313,12 @@ signed int getpathtoprog(char *buffer, signed int bufsize, char *prog)
     for( ; !(result == ((char *)NULL)); i = i + 1)
     {
       snprintf(pathtest, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", result, prog);
-      signed int return_value_stat$2;
-      return_value_stat$2=stat(pathtest, &bufstat);
-      if(return_value_stat$2 == 0)
+      signed int return_value_stat_2;
+      return_value_stat_2=stat(pathtest, &bufstat);
+      if(return_value_stat_2 == 0)
       {
-        return_value_access$1=access(pathtest, 1);
-        if(return_value_access$1 == 0)
+        return_value_access_1=access(pathtest, 1);
+        if(return_value_access_1 == 0)
         {
           snprintf(buffer, (unsigned long int)bufsize, "%s", (const void *)pathtest);
           return 0;
@@ -13351,7 +13351,7 @@ signed int is_dir_empty(char *path)
   struct dirent *dir;
   struct __dirstream *dirdesc;
   dirdesc=opendir(path);
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   if(dirdesc == ((struct __dirstream *)NULL))
   {
     fsaprintf(0, (_Bool)1, (_Bool)1, "common.c", "is_dir_empty", 183, "cannot open directory %s\n", path);
@@ -13367,21 +13367,21 @@ signed int is_dir_empty(char *path)
         break;
 
       concatenate_paths(fullpath, (signed int)sizeof(char [4096l]) /*4096ul*/ , path, dir->d_name);
-      signed int return_value_lstat64$1;
-      return_value_lstat64$1=lstat64(fullpath, &statbuf);
-      if(!(return_value_lstat64$1 == 0))
+      signed int return_value_lstat64_1;
+      return_value_lstat64_1=lstat64(fullpath, &statbuf);
+      if(!(return_value_lstat64_1 == 0))
       {
         fsaprintf(0, (_Bool)1, (_Bool)1, "common.c", "is_dir_empty", 191, "cannot stat %s\n", (const void *)fullpath);
         closedir(dirdesc);
         return -1;
       }
 
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(dir->d_name, ".");
-      if(!(return_value_strcmp$3 == 0))
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(dir->d_name, ".");
+      if(!(return_value_strcmp_3 == 0))
       {
-        return_value_strcmp$2=strcmp(dir->d_name, "..");
-        if(!(return_value_strcmp$2 == 0))
+        return_value_strcmp_2=strcmp(dir->d_name, "..");
+        if(!(return_value_strcmp_2 == 0))
         {
           closedir(dirdesc);
           return 1;
@@ -13404,21 +13404,21 @@ signed int is_filedir_excluded(char *relpath)
   char basename[4096l];
   signed int pos;
   extract_basename(relpath, basename, (signed int)sizeof(char [4096l]) /*4096ul*/ );
-  signed int return_value_exclude_check$1;
-  return_value_exclude_check$1=exclude_check(&g_options.exclude, basename);
-  _Bool tmp_if_expr$3;
-  signed int return_value_exclude_check$2;
-  if(return_value_exclude_check$1 == 1)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_exclude_check_1;
+  return_value_exclude_check_1=exclude_check(&g_options.exclude, basename);
+  _Bool tmp_if_expr_3;
+  signed int return_value_exclude_check_2;
+  if(return_value_exclude_check_1 == 1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_exclude_check$2=exclude_check(&g_options.exclude, relpath);
-    tmp_if_expr$3 = return_value_exclude_check$2 == 1 ? (_Bool)1 : (_Bool)0;
+    return_value_exclude_check_2=exclude_check(&g_options.exclude, relpath);
+    tmp_if_expr_3 = return_value_exclude_check_2 == 1 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_strlen$8;
-  signed int return_value_exclude_check$6;
-  if(tmp_if_expr$3)
+  unsigned long int return_value_strlen_8;
+  signed int return_value_exclude_check_6;
+  if(tmp_if_expr_3)
   {
     fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "is_filedir_excluded", 79, "file/dir=[%s] excluded because of its own name/path\n", relpath);
     return 1;
@@ -13437,9 +13437,9 @@ signed int is_filedir_excluded(char *relpath)
         if((signed int)dirpath[(signed long int)pos] == 47)
           break;
 
-        signed int tmp_post$4 = pos;
+        signed int tmp_post_4 = pos;
         pos = pos - 1;
-        dirpath[(signed long int)tmp_post$4] = (char)0;
+        dirpath[(signed long int)tmp_post_4] = (char)0;
       }
       if(pos >= 1)
       {
@@ -13449,25 +13449,25 @@ signed int is_filedir_excluded(char *relpath)
       }
 
       extract_basename(dirpath, basename, (signed int)sizeof(char [4096l]) /*4096ul*/ );
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(dirpath);
-      if(return_value_strlen$9 >= 2ul)
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(dirpath);
+      if(return_value_strlen_9 >= 2ul)
       {
-        return_value_strlen$8=strlen(basename);
-        if(return_value_strlen$8 >= 1ul)
+        return_value_strlen_8=strlen(basename);
+        if(return_value_strlen_8 >= 1ul)
         {
-          signed int return_value_exclude_check$5;
-          return_value_exclude_check$5=exclude_check(&g_options.exclude, basename);
-          _Bool tmp_if_expr$7;
-          if(return_value_exclude_check$5 == 1)
-            tmp_if_expr$7 = (_Bool)1;
+          signed int return_value_exclude_check_5;
+          return_value_exclude_check_5=exclude_check(&g_options.exclude, basename);
+          _Bool tmp_if_expr_7;
+          if(return_value_exclude_check_5 == 1)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_exclude_check$6=exclude_check(&g_options.exclude, dirpath);
-            tmp_if_expr$7 = return_value_exclude_check$6 == 1 ? (_Bool)1 : (_Bool)0;
+            return_value_exclude_check_6=exclude_check(&g_options.exclude, dirpath);
+            tmp_if_expr_7 = return_value_exclude_check_6 == 1 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
           {
             fsaprintf(2, (_Bool)0, 2 >= 3, "oper_restore.c", "is_filedir_excluded", 100, "file/dir=[%s] excluded because of its parent=[%s]\n", relpath, (const void *)dirpath);
             return 1;
@@ -13487,11 +13487,11 @@ signed int is_filedir_excluded(char *relpath)
 signed int is_magic_valid(char *magic)
 {
   signed int i = 0;
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   for( ; !(valid_magic[(signed long int)i] == ((char *)NULL)); i = i + 1)
   {
-    return_value_memcmp$1=memcmp((const void *)magic, (const void *)valid_magic[(signed long int)i], (unsigned long int)4);
-    if(return_value_memcmp$1 == 0)
+    return_value_memcmp_1=memcmp((const void *)magic, (const void *)valid_magic[(signed long int)i], (unsigned long int)4);
+    if(return_value_memcmp_1 == 0)
       return 1;
 
   }
@@ -13518,10 +13518,10 @@ signed int jfs_getinfo(struct s_dico *d, char *devname)
   signed int ret = 0;
   signed int fd;
   fd=open64(devname, 00 | 0);
-  signed long int return_value_lseek$1;
-  signed long int return_value_read$2;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_strncmp$4;
+  signed long int return_value_lseek_1;
+  signed long int return_value_read_2;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_strncmp_4;
   if(!(fd >= 0))
   {
     ret = -1;
@@ -13530,8 +13530,8 @@ signed int jfs_getinfo(struct s_dico *d, char *devname)
 
   else
   {
-    return_value_lseek$1=lseek(fd, (signed long int)0x8000, 0);
-    if(!(return_value_lseek$1 == 32768l))
+    return_value_lseek_1=lseek(fd, (signed long int)0x8000, 0);
+    if(!(return_value_lseek_1 == 32768l))
     {
       ret = -2;
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_jfs.c", "jfs_getinfo", 95, "cannot lseek(fd, JFS_SUPER1_OFF, SEEK_SET) on %s\n", devname);
@@ -13539,8 +13539,8 @@ signed int jfs_getinfo(struct s_dico *d, char *devname)
 
     else
     {
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct jfs_superblock) /*184ul*/ );
-      if(!((unsigned long int)return_value_read$2 == sizeof(struct jfs_superblock) /*184ul*/ ))
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct jfs_superblock) /*184ul*/ );
+      if(!((unsigned long int)return_value_read_2 == sizeof(struct jfs_superblock) /*184ul*/ ))
       {
         ret = -3;
         fsaprintf(0, (_Bool)0, (_Bool)1, "fs_jfs.c", "jfs_getinfo", 101, "cannot read the jfs superblock on [%s]\n", devname);
@@ -13548,9 +13548,9 @@ signed int jfs_getinfo(struct s_dico *d, char *devname)
 
       else
       {
-        return_value_strlen$3=strlen("JFS1");
-        return_value_strncmp$4=strncmp(sb.s_magic, "JFS1", return_value_strlen$3);
-        if(!(return_value_strncmp$4 == 0))
+        return_value_strlen_3=strlen("JFS1");
+        return_value_strncmp_4=strncmp(sb.s_magic, "JFS1", return_value_strlen_3);
+        if(!(return_value_strncmp_4 == 0))
         {
           ret = -4;
           fsaprintf(0, (_Bool)0, (_Bool)1, "fs_jfs.c", "jfs_getinfo", 107, "magic different from expectations superblock on %s: magic=[%s], expected=[%s]\n", devname, (const void *)sb.s_magic, (const void *)"JFS1");
@@ -13588,11 +13588,11 @@ signed int jfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   char buffer[2048l];
   char options[2048l];
   signed int exitst;
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.jfs -V");
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$5;
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.jfs -V");
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_5;
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_jfs.c", "jfs_mkfs", 47, "mkfs.jfs not found. please install jfsutils on your system or check the PATH.\n");
     return -1;
@@ -13602,19 +13602,19 @@ signed int jfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   {
     memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
     strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " %s ", fsoptions);
-    signed int return_value_dico_get_string$3;
-    return_value_dico_get_string$3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(return_value_dico_get_string$3 == 0)
+    signed int return_value_dico_get_string_3;
+    return_value_dico_get_string_3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(return_value_dico_get_string_3 == 0)
     {
-      return_value_strlen$2=strlen(buffer);
-      if(return_value_strlen$2 >= 1ul)
+      return_value_strlen_2=strlen(buffer);
+      if(return_value_strlen_2 >= 1ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -L '%s' ", (const void *)buffer);
 
     }
 
-    signed int return_value_exec_command$4;
-    return_value_exec_command$4=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.jfs -q %s %s", (const void *)options, partition);
-    if(!(return_value_exec_command$4 == 0) || !(exitst == 0))
+    signed int return_value_exec_command_4;
+    return_value_exec_command_4=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.jfs -q %s %s", (const void *)options, partition);
+    if(!(return_value_exec_command_4 == 0) || !(exitst == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_jfs.c", "jfs_mkfs", 60, "command [%s] failed\n", (const void *)command);
       return -1;
@@ -13623,21 +13623,21 @@ signed int jfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
     else
     {
       memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
-      signed int return_value_dico_get_string$6;
-      return_value_dico_get_string$6=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-      if(return_value_dico_get_string$6 == 0)
+      signed int return_value_dico_get_string_6;
+      return_value_dico_get_string_6=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+      if(return_value_dico_get_string_6 == 0)
       {
-        return_value_strlen$5=strlen(buffer);
-        if(return_value_strlen$5 == 36ul)
+        return_value_strlen_5=strlen(buffer);
+        if(return_value_strlen_5 == 36ul)
           strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -U %s ", (const void *)buffer);
 
       }
 
       if(!(options[0l] == 0))
       {
-        signed int return_value_exec_command$7;
-        return_value_exec_command$7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "jfs_tune %s %s", partition, (const void *)options);
-        if(!(return_value_exec_command$7 == 0) || !(exitst == 0))
+        signed int return_value_exec_command_7;
+        return_value_exec_command_7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "jfs_tune %s %s", partition, (const void *)options);
+        if(!(return_value_exec_command_7 == 0) || !(exitst == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "fs_jfs.c", "jfs_mkfs", 72, "command [%s] failed\n", (const void *)command);
           return -1;
@@ -13654,9 +13654,9 @@ signed int jfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 // file fs_jfs.c line 133
 signed int jfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int flags, char *mntinfo)
 {
-  signed int return_value_generic_mount$1;
-  return_value_generic_mount$1=generic_mount(partition, mntbuf, fsbuf, (char *)(void *)0, flags);
-  return return_value_generic_mount$1;
+  signed int return_value_generic_mount_1;
+  return_value_generic_mount_1=generic_mount(partition, mntbuf, fsbuf, (char *)(void *)0, flags);
+  return return_value_generic_mount_1;
 }
 
 // jfs_test
@@ -13671,9 +13671,9 @@ signed int jfs_test(char *devname)
 
   else
   {
-    signed long int return_value_lseek$1;
-    return_value_lseek$1=lseek(fd, (signed long int)0x8000, 0);
-    if(!(return_value_lseek$1 == 32768l))
+    signed long int return_value_lseek_1;
+    return_value_lseek_1=lseek(fd, (signed long int)0x8000, 0);
+    if(!(return_value_lseek_1 == 32768l))
     {
       close(fd);
       return 0;
@@ -13681,9 +13681,9 @@ signed int jfs_test(char *devname)
 
     else
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct jfs_superblock) /*184ul*/ );
-      if(!((unsigned long int)return_value_read$2 == sizeof(struct jfs_superblock) /*184ul*/ ))
+      signed long int return_value_read_2;
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct jfs_superblock) /*184ul*/ );
+      if(!((unsigned long int)return_value_read_2 == sizeof(struct jfs_superblock) /*184ul*/ ))
       {
         close(fd);
         return 0;
@@ -13691,11 +13691,11 @@ signed int jfs_test(char *devname)
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen("JFS1");
-        signed int return_value_strncmp$4;
-        return_value_strncmp$4=strncmp(sb.s_magic, "JFS1", return_value_strlen$3);
-        if(!(return_value_strncmp$4 == 0))
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen("JFS1");
+        signed int return_value_strncmp_4;
+        return_value_strncmp_4=strncmp(sb.s_magic, "JFS1", return_value_strlen_3);
+        if(!(return_value_strncmp_4 == 0))
         {
           close(fd);
           return 0;
@@ -13715,9 +13715,9 @@ signed int jfs_test(char *devname)
 // file fs_jfs.c line 138
 signed int jfs_umount(char *partition, char *mntbuf)
 {
-  signed int return_value_generic_umount$1;
-  return_value_generic_umount$1=generic_umount(mntbuf);
-  return return_value_generic_umount$1;
+  signed int return_value_generic_umount_1;
+  return_value_generic_umount_1=generic_umount(mntbuf);
+  return return_value_generic_umount_1;
 }
 
 // logfile_close
@@ -13735,12 +13735,12 @@ signed int logfile_open()
   char logpath[4096l];
   char timestamp[1024l];
   char *logdir = "/var/log";
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  format_time(timestamp, (signed int)sizeof(char [1024l]) /*1024ul*/ , (unsigned long int)return_value_time$1);
-  signed int return_value_getpid$2;
-  return_value_getpid$2=getpid();
-  snprintf(logpath, sizeof(char [4096l]) /*4096ul*/ , "%s/fsarchiver_%s_%ld.log", logdir, (const void *)timestamp, (signed long int)return_value_getpid$2);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  format_time(timestamp, (signed int)sizeof(char [1024l]) /*1024ul*/ , (unsigned long int)return_value_time_1);
+  signed int return_value_getpid_2;
+  return_value_getpid_2=getpid();
+  snprintf(logpath, sizeof(char [4096l]) /*4096ul*/ , "%s/fsarchiver_%s_%ld.log", logdir, (const void *)timestamp, (signed long int)return_value_getpid_2);
   mkdir_recursive(logdir);
   g_logfile=open64(logpath, 02 | 0100 | 01000 | 0, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
   if(g_logfile >= 0)
@@ -13761,11 +13761,11 @@ signed int logfile_open()
 // file logfile.h line 25
 signed int logfile_write(char *str, signed int len)
 {
-  signed long int return_value_write$1;
+  signed long int return_value_write_1;
   if(g_logfile >= 0)
   {
-    return_value_write$1=write(g_logfile, (const void *)str, (unsigned long int)len);
-    return (signed int)return_value_write$1;
+    return_value_write_1=write(g_logfile, (const void *)str, (unsigned long int)len);
+    return (signed int)return_value_write_1;
   }
 
   else
@@ -13777,17 +13777,17 @@ signed int logfile_write(char *str, signed int len)
 signed int main(signed int argc, char **argv)
 {
   signed int ret;
-  signed int return_value___lzo_init_v2$1;
-  return_value___lzo_init_v2$1=__lzo_init_v2((unsigned int)0x2080, (signed int)sizeof(signed short int) /*2ul*/ , (signed int)sizeof(signed int) /*4ul*/ , (signed int)sizeof(signed long int) /*8ul*/ , (signed int)sizeof(unsigned int) /*4ul*/ , (signed int)sizeof(unsigned long int) /*8ul*/ , (signed int)(unsigned int)sizeof(unsigned char *) /*8ul*/ , (signed int)sizeof(char *) /*8ul*/ , (signed int)sizeof(void *) /*8ul*/ , (signed int)sizeof(struct lzo_callback_t) /*48ul*/ );
-  if(!(return_value___lzo_init_v2$1 == 0))
+  signed int return_value___lzo_init_v2_1;
+  return_value___lzo_init_v2_1=__lzo_init_v2((unsigned int)0x2080, (signed int)sizeof(signed short int) /*2ul*/ , (signed int)sizeof(signed int) /*4ul*/ , (signed int)sizeof(signed long int) /*8ul*/ , (signed int)sizeof(unsigned int) /*4ul*/ , (signed int)sizeof(unsigned long int) /*8ul*/ , (signed int)(unsigned int)sizeof(unsigned char *) /*8ul*/ , (signed int)sizeof(char *) /*8ul*/ , (signed int)sizeof(void *) /*8ul*/ , (signed int)sizeof(struct lzo_callback_t) /*48ul*/ );
+  if(!(return_value___lzo_init_v2_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "main", 426, "internal error - lzo_init() failed\n");
     exit(1);
   }
 
-  signed int return_value_crypto_init$2;
-  return_value_crypto_init$2=crypto_init();
-  if(!(return_value_crypto_init$2 == 0))
+  signed int return_value_crypto_init_2;
+  return_value_crypto_init_2=crypto_init();
+  if(!(return_value_crypto_init_2 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "main", 433, "cannot initialize the crypto environment\n");
     exit(1);
@@ -13810,29 +13810,29 @@ signed int mkdir_recursive(char *path)
   struct stat64 statbuf;
   signed int len;
   signed int pos;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  len = (signed int)return_value_strlen_1;
   pos = 0;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   for( ; len >= pos; pos = pos + 1)
   {
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if((signed int)path[(signed long int)pos] == 47)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)path[(signed long int)pos] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)path[(signed long int)pos] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       memset((void *)buffer, 0, sizeof(char [4096l]) /*4096ul*/ );
       memcpy((void *)buffer, (const void *)path, (unsigned long int)pos);
-      signed int return_value_stat64$3;
-      return_value_stat64$3=stat64(buffer, &statbuf);
-      if(return_value_stat64$3 == -1)
+      signed int return_value_stat64_3;
+      return_value_stat64_3=stat64(buffer, &statbuf);
+      if(return_value_stat64_3 == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 2)
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 2)
           mkdir(buffer, (unsigned int)0755);
 
       }
@@ -13866,27 +13866,27 @@ signed int ntfs_getinfo(struct s_dico *d, char *devname)
   char bootsect[512l];
   signed int fd = -1;
   fd=open64(devname, 00 | 0);
-  _Bool tmp_if_expr$2;
-  signed long int return_value_read$1;
+  _Bool tmp_if_expr_2;
+  signed long int return_value_read_1;
   if(!(fd >= 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_read$1=read(fd, (void *)bootsect, sizeof(char [512l]) /*512ul*/ );
-    tmp_if_expr$2 = (unsigned long int)return_value_read$1 != sizeof(char [512l]) /*512ul*/  ? (_Bool)1 : (_Bool)0;
+    return_value_read_1=read(fd, (void *)bootsect, sizeof(char [512l]) /*512ul*/ );
+    tmp_if_expr_2 = (unsigned long int)return_value_read_1 != sizeof(char [512l]) /*512ul*/  ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  signed int return_value_close$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_close_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_close$3=close(fd);
-    tmp_if_expr$4 = return_value_close$3 < 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_3=close(fd);
+    tmp_if_expr_4 = return_value_close_3 < 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     fsaprintf(0, (_Bool)1, (_Bool)1, "fs_ntfs.c", "ntfs_getinfo", 89, "cannot open device or read bootsector on %s\n", devname);
     return -1;
@@ -13894,9 +13894,9 @@ signed int ntfs_getinfo(struct s_dico *d, char *devname)
 
   else
   {
-    signed int return_value_memcmp$5;
-    return_value_memcmp$5=memcmp((const void *)(bootsect + (signed long int)3), (const void *)"NTFS", (unsigned long int)4);
-    if(!(return_value_memcmp$5 == 0))
+    signed int return_value_memcmp_5;
+    return_value_memcmp_5=memcmp((const void *)(bootsect + (signed long int)3), (const void *)"NTFS", (unsigned long int)4);
+    if(!(return_value_memcmp_5 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_getinfo", 95, "cannot find the ntfs signature on %s\n", devname);
       return -1;
@@ -13904,9 +13904,9 @@ signed int ntfs_getinfo(struct s_dico *d, char *devname)
 
     else
     {
-      signed int return_value_get_devinfo$6;
-      return_value_get_devinfo$6=get_devinfo(&devinfo, devname, -1, -1);
-      if(!(return_value_get_devinfo$6 == 0))
+      signed int return_value_get_devinfo_6;
+      return_value_get_devinfo_6=get_devinfo(&devinfo, devname, -1, -1);
+      if(!(return_value_get_devinfo_6 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_getinfo", 101, "get_devinfo(%s) failed\n", devname);
         return -1;
@@ -13946,10 +13946,10 @@ signed int ntfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   unsigned long int temp64;
   unsigned int temp32;
   unsigned short int temp16;
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.ntfs");
-  unsigned long int return_value_strlen$2;
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.ntfs");
+  unsigned long int return_value_strlen_2;
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_mkfs", 49, "mkfs.ntfs not found. please install ntfsprogs-2.0.0 on your system or check the PATH.\n");
     return -1;
@@ -13959,29 +13959,29 @@ signed int ntfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   {
     memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
     strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " %s ", fsoptions);
-    signed int return_value_dico_get_string$3;
-    return_value_dico_get_string$3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(return_value_dico_get_string$3 == 0)
+    signed int return_value_dico_get_string_3;
+    return_value_dico_get_string_3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(return_value_dico_get_string_3 == 0)
     {
-      return_value_strlen$2=strlen(buffer);
-      if(return_value_strlen$2 >= 1ul)
+      return_value_strlen_2=strlen(buffer);
+      if(return_value_strlen_2 >= 1ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " --label '%s' ", (const void *)buffer);
 
     }
 
-    signed int return_value_dico_get_u16$4;
-    return_value_dico_get_u16$4=dico_get_u16(d, (unsigned char)0, (unsigned short int)19, &temp16);
-    if(return_value_dico_get_u16$4 == 0)
+    signed int return_value_dico_get_u16_4;
+    return_value_dico_get_u16_4=dico_get_u16(d, (unsigned char)0, (unsigned short int)19, &temp16);
+    if(return_value_dico_get_u16_4 == 0)
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -s %ld ", (signed long int)temp16);
 
-    signed int return_value_dico_get_u32$5;
-    return_value_dico_get_u32$5=dico_get_u32(d, (unsigned char)0, (unsigned short int)20, &temp32);
-    if(return_value_dico_get_u32$5 == 0)
+    signed int return_value_dico_get_u32_5;
+    return_value_dico_get_u32_5=dico_get_u32(d, (unsigned char)0, (unsigned short int)20, &temp32);
+    if(return_value_dico_get_u32_5 == 0)
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -c %ld ", (signed long int)temp32);
 
-    signed int return_value_exec_command$6;
-    return_value_exec_command$6=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.ntfs -f %s %s", partition, (const void *)options);
-    if(!(return_value_exec_command$6 == 0) || !(exitst == 0))
+    signed int return_value_exec_command_6;
+    return_value_exec_command_6=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.ntfs -f %s %s", partition, (const void *)options);
+    if(!(return_value_exec_command_6 == 0) || !(exitst == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_mkfs", 68, "command [%s] failed\n", (const void *)command);
       return -1;
@@ -13989,9 +13989,9 @@ signed int ntfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 
     else
     {
-      signed int return_value_dico_get_u64$7;
-      return_value_dico_get_u64$7=dico_get_u64(d, (unsigned char)0, (unsigned short int)24, &temp64);
-      if(return_value_dico_get_u64$7 == 0)
+      signed int return_value_dico_get_u64_7;
+      return_value_dico_get_u64_7=dico_get_u64(d, (unsigned char)0, (unsigned short int)24, &temp64);
+      if(return_value_dico_get_u64_7 == 0)
         ntfs_replace_uuid(partition, (unsigned long int)temp64);
 
       return 0;
@@ -14019,11 +14019,11 @@ signed int ntfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int fla
   memset((void *)options, 0, sizeof(char [1024l]) /*1024ul*/ );
   memset((void *)stderrbuf, 0, sizeof(char [2048l]) /*2048ul*/ );
   snprintf(minversion, sizeof(char [1024l]) /*1024ul*/ , "ntfs-3g %.4d.%.2d.%.2d (standard release)", 2009, 11, 14);
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, stderrbuf, (signed int)sizeof(char [2048l]) /*2048ul*/ , "ntfs-3g -h");
-  unsigned long int return_value_strlen$5;
-  char *return_value_strstr$3;
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, stderrbuf, (signed int)sizeof(char [2048l]) /*2048ul*/ , "ntfs-3g -h");
+  unsigned long int return_value_strlen_5;
+  char *return_value_strstr_3;
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_mount", 155, "ntfs-3g not found. please install %s\nor a newer version on your system or check the PATH.\n", (const void *)minversion);
     return -1;
@@ -14034,9 +14034,9 @@ signed int ntfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int fla
     result=strtok_r(stderrbuf, delims, &saveptr);
     while(instver == 0ul && !(result == ((char *)NULL)))
     {
-      signed int return_value_sscanf$2;
-      return_value_sscanf$2=sscanf(result, "ntfs-3g %4d.%2d.%2d ", &year, &month, &day);
-      if(return_value_sscanf$2 == 3)
+      signed int return_value_sscanf_2;
+      return_value_sscanf_2=sscanf(result, "ntfs-3g %4d.%2d.%2d ", &year, &month, &day);
+      if(return_value_sscanf_2 == 3)
       {
         instver = (unsigned long int)((((unsigned long int)year & (unsigned long int)0xFFFF) << 48) + (((unsigned long int)month & (unsigned long int)0xFFFF) << 32) + (((unsigned long int)day & (unsigned long int)0xFFFF) << 16));
         fsaprintf(2, (_Bool)0, 2 >= 3, "fs_ntfs.c", "ntfs_mount", 164, "ntfs-3g detected version: year=[%.4d], month=[%.2d], day=[%.2d]\n", year, month, day);
@@ -14055,18 +14055,18 @@ signed int ntfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int fla
     snprintf(streamif, sizeof(char [1024l]) /*1024ul*/ , "xattr");
     if(!(mntinfo == ((char *)NULL)))
     {
-      return_value_strlen$5=strlen(mntinfo);
-      if(return_value_strlen$5 >= 1ul)
+      return_value_strlen_5=strlen(mntinfo);
+      if(return_value_strlen_5 >= 1ul)
       {
-        char *return_value_strstr$4;
-        return_value_strstr$4=strstr(mntinfo, "streams_interface=xattr");
-        if(!(return_value_strstr$4 == ((char *)NULL)))
+        char *return_value_strstr_4;
+        return_value_strstr_4=strstr(mntinfo, "streams_interface=xattr");
+        if(!(return_value_strstr_4 == ((char *)NULL)))
           snprintf(streamif, sizeof(char [1024l]) /*1024ul*/ , "xattr");
 
         else
         {
-          return_value_strstr$3=strstr(mntinfo, "streams_interface=windows");
-          if(!(return_value_strstr$3 == ((char *)NULL)))
+          return_value_strstr_3=strstr(mntinfo, "streams_interface=windows");
+          if(!(return_value_strstr_3 == ((char *)NULL)))
             snprintf(streamif, sizeof(char [1024l]) /*1024ul*/ , "windows");
 
         }
@@ -14078,9 +14078,9 @@ signed int ntfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int fla
     if(!((1 & flags) == 0))
       strlcatf(options, (signed int)sizeof(char [1024l]) /*1024ul*/ , " -o ro ");
 
-    signed int return_value_exec_command$6;
-    return_value_exec_command$6=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "ntfs-3g %s %s %s", (const void *)options, partition, mntbuf);
-    if(!(return_value_exec_command$6 == 0) || !(exitst == 0))
+    signed int return_value_exec_command_6;
+    return_value_exec_command_6=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "ntfs-3g %s %s %s", (const void *)options, partition, mntbuf);
+    if(!(return_value_exec_command_6 == 0) || !(exitst == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_mount", 197, "command [%s] failed, make sure a recent version of ntfs-3g is installed\n", (const void *)command);
       return -1;
@@ -14106,9 +14106,9 @@ signed int ntfs_replace_uuid(char *devname, unsigned long int uuid)
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)bootsect, sizeof(unsigned char [512l]) /*512ul*/ );
-    if(!((unsigned long int)return_value_read$1 == sizeof(unsigned char [512l]) /*512ul*/ ))
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)bootsect, sizeof(unsigned char [512l]) /*512ul*/ );
+    if(!((unsigned long int)return_value_read_1 == sizeof(unsigned char [512l]) /*512ul*/ ))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_replace_uuid", 266, "cannot read the boot sector on %s\n", devname);
       close(fd);
@@ -14118,9 +14118,9 @@ signed int ntfs_replace_uuid(char *devname, unsigned long int uuid)
     else
     {
       memcpy((void *)(bootsect + (signed long int)0x48), (const void *)&uuid, sizeof(unsigned long int) /*8ul*/ );
-      signed long int return_value_lseek$2;
-      return_value_lseek$2=lseek(fd, (signed long int)0, 0);
-      if(!(return_value_lseek$2 == 0l))
+      signed long int return_value_lseek_2;
+      return_value_lseek_2=lseek(fd, (signed long int)0, 0);
+      if(!(return_value_lseek_2 == 0l))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_replace_uuid", 275, "lseek(fd, 0, SEEK_SET) failed\n");
         close(fd);
@@ -14129,9 +14129,9 @@ signed int ntfs_replace_uuid(char *devname, unsigned long int uuid)
 
       else
       {
-        signed long int return_value_write$3;
-        return_value_write$3=write(fd, (const void *)bootsect, sizeof(unsigned char [512l]) /*512ul*/ );
-        if(!((unsigned long int)return_value_write$3 == sizeof(unsigned char [512l]) /*512ul*/ ))
+        signed long int return_value_write_3;
+        return_value_write_3=write(fd, (const void *)bootsect, sizeof(unsigned char [512l]) /*512ul*/ );
+        if(!((unsigned long int)return_value_write_3 == sizeof(unsigned char [512l]) /*512ul*/ ))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_replace_uuid", 282, "cannot modify the boot sector on %s\n", devname);
           close(fd);
@@ -14160,9 +14160,9 @@ signed int ntfs_test(char *devname)
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)bootsect, sizeof(char [16384l]) /*16384ul*/ );
-    if(!((unsigned long int)return_value_read$1 == sizeof(char [16384l]) /*16384ul*/ ))
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)bootsect, sizeof(char [16384l]) /*16384ul*/ );
+    if(!((unsigned long int)return_value_read_1 == sizeof(char [16384l]) /*16384ul*/ ))
     {
       close(fd);
       return 0;
@@ -14170,9 +14170,9 @@ signed int ntfs_test(char *devname)
 
     else
     {
-      signed int return_value_memcmp$2;
-      return_value_memcmp$2=memcmp((const void *)(bootsect + (signed long int)3), (const void *)"NTFS", (unsigned long int)4);
-      if(!(return_value_memcmp$2 == 0))
+      signed int return_value_memcmp_2;
+      return_value_memcmp_2=memcmp((const void *)(bootsect + (signed long int)3), (const void *)"NTFS", (unsigned long int)4);
+      if(!(return_value_memcmp_2 == 0))
       {
         close(fd);
         return 0;
@@ -14193,9 +14193,9 @@ signed int ntfs_umount(char *partition, char *mntbuf)
 {
   char command[2048l];
   signed int existst;
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "fusermount");
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "fusermount");
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_umount", 210, "fusermount not found. please install fuse on your system or check the PATH.\n");
     return -1;
@@ -14203,9 +14203,9 @@ signed int ntfs_umount(char *partition, char *mntbuf)
 
   else
   {
-    signed int return_value_exec_command$2;
-    return_value_exec_command$2=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &existst, (char *)(void *)0, 0, (char *)(void *)0, 0, "fusermount -u %s", mntbuf);
-    if(!(return_value_exec_command$2 == 0) || !(existst == 0))
+    signed int return_value_exec_command_2;
+    return_value_exec_command_2=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &existst, (char *)(void *)0, 0, (char *)(void *)0, 0, "fusermount -u %s", mntbuf);
+    if(!(return_value_exec_command_2 == 0) || !(existst == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_ntfs.c", "ntfs_umount", 215, "cannot unmount [%s]\n", mntbuf);
       return -1;
@@ -14228,7 +14228,7 @@ signed int oper_probe(_Bool details)
   signed int i;
   signed int j;
   res=partlist_getlist(blkdev, 256, &diskcount, &partcount);
-  char *return_value_partlist_getinfo$2;
+  char *return_value_partlist_getinfo_2;
   if(!(res >= 1))
   {
     fsaprintf(0, (_Bool)0, 0 >= 3, "oper_probe.c", "oper_probe", 177, "Failed to detect disks and filesystems\n");
@@ -14255,13 +14255,13 @@ signed int oper_probe(_Bool details)
       j = 0;
       for( ; !(partinfo[(signed long int)j].title[0l] == 0); j = j + 1)
       {
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if((signed int)details == 1)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)partinfo[(signed long int)j].detailed == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)partinfo[(signed long int)j].detailed == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           fsaprintf(0, (_Bool)0, 0 >= 3, "oper_probe.c", "oper_probe", 203, "%s", (const void *)partinfo[(signed long int)j].title);
 
       }
@@ -14273,16 +14273,16 @@ signed int oper_probe(_Bool details)
           j = 0;
           for( ; !(partinfo[(signed long int)j].title[0l] == 0); j = j + 1)
           {
-            _Bool tmp_if_expr$3;
+            _Bool tmp_if_expr_3;
             if((signed int)details == 1)
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = (signed int)partinfo[(signed long int)j].detailed == 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (signed int)partinfo[(signed long int)j].detailed == 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
             {
-              return_value_partlist_getinfo$2=partlist_getinfo(temp, (signed int)sizeof(char [1024l]) /*1024ul*/ , &blkdev[(signed long int)i], j);
-              fsaprintf(0, (_Bool)0, 0 >= 3, "oper_probe.c", "oper_probe", 215, partinfo[(signed long int)j].format, return_value_partlist_getinfo$2);
+              return_value_partlist_getinfo_2=partlist_getinfo(temp, (signed int)sizeof(char [1024l]) /*1024ul*/ , &blkdev[(signed long int)i], j);
+              fsaprintf(0, (_Bool)0, 0 >= 3, "oper_probe.c", "oper_probe", 215, partinfo[(signed long int)j].format, return_value_partlist_getinfo_2);
             }
 
           }
@@ -14335,13 +14335,13 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
     g_fsbitmap[(signed long int)i] = (unsigned char)0;
   thread_reader = (unsigned long int)0;
   snprintf(exar.ai.basepath, (unsigned long int)4096, "%s", archive);
-  signed int return_value_convert_argv_to_strdicos$1;
+  signed int return_value_convert_argv_to_strdicos_1;
   switch(oper)
   {
     case 2:
     {
-      return_value_convert_argv_to_strdicos$1=convert_argv_to_strdicos(dicoargv, argc, argv);
-      if(!(return_value_convert_argv_to_strdicos$1 == 0))
+      return_value_convert_argv_to_strdicos_1=convert_argv_to_strdicos(dicoargv, argc, argv);
+      if(!(return_value_convert_argv_to_strdicos_1 == 0))
       {
         fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "oper_restore", 1378, "convert_argv_to_dico() failed\n");
         goto do_extract_error;
@@ -14358,34 +14358,34 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
   i = 0;
   for( ; !(i >= 32) && !(i >= g_options.compressjobs); i = i + 1)
   {
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&thread_decomp[(signed long int)i], (const union pthread_attr_t *)(void *)0, thread_decomp_fct, (void *)0);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&thread_decomp[(signed long int)i], (const union pthread_attr_t *)(void *)0, thread_decomp_fct, (void *)0);
+    if(!(return_value_pthread_create_2 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1395, "pthread_create(thread_decomp_fct) failed\n");
       goto do_extract_error;
     }
 
   }
-  signed int return_value_pthread_create$3;
-  return_value_pthread_create$3=pthread_create(&thread_reader, (const union pthread_attr_t *)(void *)0, thread_reader_fct, (void *)&exar.ai);
-  signed int return_value_extractar_read_mainhead$4;
-  signed int return_value_archinfo_show_mainhead$5;
-  signed int return_value_archinfo_show_fshead$8;
-  signed int return_value_dico_get_u64$9;
-  signed int return_value_dico_get_u64$12;
-  _Bool tmp_if_expr$14;
-  signed int return_value_get_abort$13;
-  signed int return_value_get_abort$22;
-  signed int return_value_get_abort$24;
-  _Bool return_value_get_stopfillqueue$23;
-  if(!(return_value_pthread_create$3 == 0))
+  signed int return_value_pthread_create_3;
+  return_value_pthread_create_3=pthread_create(&thread_reader, (const union pthread_attr_t *)(void *)0, thread_reader_fct, (void *)&exar.ai);
+  signed int return_value_extractar_read_mainhead_4;
+  signed int return_value_archinfo_show_mainhead_5;
+  signed int return_value_archinfo_show_fshead_8;
+  signed int return_value_dico_get_u64_9;
+  signed int return_value_dico_get_u64_12;
+  _Bool tmp_if_expr_14;
+  signed int return_value_get_abort_13;
+  signed int return_value_get_abort_22;
+  signed int return_value_get_abort_24;
+  _Bool return_value_get_stopfillqueue_23;
+  if(!(return_value_pthread_create_3 == 0))
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1402, "pthread_create(thread_reader_fct) failed\n");
 
   else
   {
-    return_value_extractar_read_mainhead$4=extractar_read_mainhead(&exar, &dicomainhead);
-    if(!(return_value_extractar_read_mainhead$4 >= 0))
+    return_value_extractar_read_mainhead_4=extractar_read_mainhead(&exar, &dicomainhead);
+    if(!(return_value_extractar_read_mainhead_4 >= 0))
       fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "oper_restore", 1408, "read_mainhead(%s) failed\n", archive);
 
     else
@@ -14404,8 +14404,8 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
       {
         if(oper == 5)
         {
-          return_value_archinfo_show_mainhead$5=archinfo_show_mainhead(&exar.ai, dicomainhead);
-          if(!(return_value_archinfo_show_mainhead$5 == 0))
+          return_value_archinfo_show_mainhead_5=archinfo_show_mainhead(&exar.ai, dicomainhead);
+          if(!(return_value_archinfo_show_mainhead_5 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1430, "archinfo_show_mainhead(%s) failed\n", archive);
             goto do_extract_error;
@@ -14456,17 +14456,17 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
         i = 0;
         for( ; exar.ai.archtype == 1u && !(i >= 128) && !((unsigned long int)i >= exar.ai.fscount); i = i + 1)
         {
-          signed long int return_value_queue_dequeue_header$6;
-          return_value_queue_dequeue_header$6=queue_dequeue_header(&g_queue, &dicofsinfo[(signed long int)i], magic, (unsigned short int *)(void *)0);
-          if(!(return_value_queue_dequeue_header$6 >= 1l))
+          signed long int return_value_queue_dequeue_header_6;
+          return_value_queue_dequeue_header_6=queue_dequeue_header(&g_queue, &dicofsinfo[(signed long int)i], magic, (unsigned short int *)(void *)0);
+          if(!(return_value_queue_dequeue_header_6 >= 1l))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1468, "queue_dequeue_header() failed: cannot read filesystem-info dico\n");
             goto do_extract_error;
           }
 
-          signed int return_value_memcmp$7;
-          return_value_memcmp$7=memcmp((const void *)magic, (const void *)"FsIn", (unsigned long int)4);
-          if(!(return_value_memcmp$7 == 0))
+          signed int return_value_memcmp_7;
+          return_value_memcmp_7=memcmp((const void *)magic, (const void *)"FsIn", (unsigned long int)4);
+          if(!(return_value_memcmp_7 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1473, "header is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"FsIn");
             goto do_extract_error;
@@ -14474,8 +14474,8 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
 
           if(oper == 5)
           {
-            return_value_archinfo_show_fshead$8=archinfo_show_fshead(dicofsinfo[(signed long int)i], i);
-            if(!(return_value_archinfo_show_fshead$8 == 0))
+            return_value_archinfo_show_fshead_8=archinfo_show_fshead(dicofsinfo[(signed long int)i], i);
+            if(!(return_value_archinfo_show_fshead_8 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1478, "archinfo_show_fshead() failed\n");
               goto do_extract_error;
@@ -14485,8 +14485,8 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
 
           if(!(dicoargv[(signed long int)i] == ((struct s_strdico *)NULL)))
           {
-            return_value_dico_get_u64$9=dico_get_u64(dicofsinfo[(signed long int)i], (unsigned char)0, (unsigned short int)28, &fscost);
-            if(return_value_dico_get_u64$9 == 0)
+            return_value_dico_get_u64_9=dico_get_u64(dicofsinfo[(signed long int)i], (unsigned char)0, (unsigned short int)28, &fscost);
+            if(return_value_dico_get_u64_9 == 0)
               exar.cost_global = exar.cost_global + fscost;
 
           }
@@ -14494,17 +14494,17 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
         }
         if(exar.ai.archtype == 2u && exar.ai.hasdirsinfohead == 1u)
         {
-          signed long int return_value_queue_dequeue_header$10;
-          return_value_queue_dequeue_header$10=queue_dequeue_header(&g_queue, &dirsinfo, magic, (unsigned short int *)(void *)0);
-          if(!(return_value_queue_dequeue_header$10 >= 1l))
+          signed long int return_value_queue_dequeue_header_10;
+          return_value_queue_dequeue_header_10=queue_dequeue_header(&g_queue, &dirsinfo, magic, (unsigned short int *)(void *)0);
+          if(!(return_value_queue_dequeue_header_10 >= 1l))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1494, "queue_dequeue_header() failed: cannot read the dirsinfo header\n");
             goto do_extract_error;
           }
 
-          signed int return_value_memcmp$11;
-          return_value_memcmp$11=memcmp((const void *)magic, (const void *)"DiRs", (unsigned long int)4);
-          if(!(return_value_memcmp$11 == 0))
+          signed int return_value_memcmp_11;
+          return_value_memcmp_11=memcmp((const void *)magic, (const void *)"DiRs", (unsigned long int)4);
+          if(!(return_value_memcmp_11 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1498, "header is not what we expected: found=[%s] and expected=[%s]\n", (const void *)magic, (const void *)"DiRs");
             goto do_extract_error;
@@ -14512,8 +14512,8 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
 
           if(!(dirsinfo == ((struct s_dico *)NULL)))
           {
-            return_value_dico_get_u64$12=dico_get_u64(dirsinfo, (unsigned char)0, (unsigned short int)1, &exar.cost_global);
-            if(!(return_value_dico_get_u64$12 == 0))
+            return_value_dico_get_u64_12=dico_get_u64(dirsinfo, (unsigned char)0, (unsigned short int)1, &exar.cost_global);
+            if(!(return_value_dico_get_u64_12 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1502, "cannot read DIRSINFOKEY_TOTALCOST in dirsinfo\n");
               goto do_extract_error;
@@ -14538,13 +14538,13 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
             {
               if(!(i >= 128) && !((unsigned long int)i >= exar.ai.fscount))
               {
-                return_value_get_abort$13=get_abort();
-                tmp_if_expr$14 = return_value_get_abort$13 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_get_abort_13=get_abort();
+                tmp_if_expr_14 = return_value_get_abort_13 == 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$14 = (_Bool)0;
-              if(!tmp_if_expr$14)
+                tmp_if_expr_14 = (_Bool)0;
+              if(!tmp_if_expr_14)
                 break;
 
               if(!(dicoargv[(signed long int)i] == ((struct s_strdico *)NULL)))
@@ -14552,22 +14552,22 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
                 exar.fsid = i;
                 memset((void *)&exar.stats, 0, sizeof(struct s_stats) /*80ul*/ );
                 fsaprintf(1, (_Bool)0, 1 >= 3, "oper_restore.c", "oper_restore", 1523, "============= extracting filesystem %d =============\n", i);
-                signed int return_value_extractar_filesystem_extract$15;
-                return_value_extractar_filesystem_extract$15=extractar_filesystem_extract(&exar, dicofsinfo[(signed long int)i], dicoargv[(signed long int)i]);
-                if(!(return_value_extractar_filesystem_extract$15 == 0))
+                signed int return_value_extractar_filesystem_extract_15;
+                return_value_extractar_filesystem_extract_15=extractar_filesystem_extract(&exar, dicofsinfo[(signed long int)i], dicoargv[(signed long int)i]);
+                if(!(return_value_extractar_filesystem_extract_15 == 0))
                 {
                   fsaprintf(3, (_Bool)0, 3 >= 3, "oper_restore.c", "oper_restore", 1525, "extract_filesystem(%d) failed\n", i);
                   goto do_extract_error;
                 }
 
-                signed int return_value_get_abort$16;
-                return_value_get_abort$16=get_abort();
-                if(return_value_get_abort$16 == 0)
+                signed int return_value_get_abort_16;
+                return_value_get_abort_16=get_abort();
+                if(return_value_get_abort_16 == 0)
                   stats_show(exar.stats, i);
 
-                unsigned long int return_value_stats_errcount$17;
-                return_value_stats_errcount$17=stats_errcount(exar.stats);
-                totalerr = totalerr + return_value_stats_errcount$17;
+                unsigned long int return_value_stats_errcount_17;
+                return_value_stats_errcount_17=stats_errcount(exar.stats);
+                totalerr = totalerr + return_value_stats_errcount_17;
               }
 
               i = i + 1;
@@ -14580,13 +14580,13 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
           {
             exar.fsid = 0;
             destdir = argv[(signed long int)0];
-            signed int return_value_stat64$19;
-            return_value_stat64$19=stat64(destdir, &st);
-            if(!(return_value_stat64$19 == 0))
+            signed int return_value_stat64_19;
+            return_value_stat64_19=stat64(destdir, &st);
+            if(!(return_value_stat64_19 == 0))
             {
-              signed int *return_value___errno_location$18;
-              return_value___errno_location$18=__errno_location();
-              if(*return_value___errno_location$18 == 2)
+              signed int *return_value___errno_location_18;
+              return_value___errno_location_18=__errno_location();
+              if(*return_value___errno_location_18 == 2)
               {
                 fsaprintf(0, (_Bool)1, (_Bool)1, "oper_restore.c", "oper_restore", 1544, "%s does not exist, cannot continue\n", destdir);
                 goto __CPROVER_DUMP_L57;
@@ -14606,18 +14606,18 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
             }
 
             memset((void *)&exar.stats, 0, sizeof(struct s_stats) /*80ul*/ );
-            signed int return_value_extractar_extract_read_objects$20;
-            return_value_extractar_extract_read_objects$20=extractar_extract_read_objects(&exar, &errors, destdir, 0);
-            if(!(return_value_extractar_extract_read_objects$20 == 0))
+            signed int return_value_extractar_extract_read_objects_20;
+            return_value_extractar_extract_read_objects_20=extractar_extract_read_objects(&exar, &errors, destdir, 0);
+            if(!(return_value_extractar_extract_read_objects_20 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1560, "extract_read_objects(%s) failed\n", destdir);
               goto do_extract_error;
             }
 
             stats_show(exar.stats, 0);
-            unsigned long int return_value_stats_errcount$21;
-            return_value_stats_errcount$21=stats_errcount(exar.stats);
-            totalerr = totalerr + return_value_stats_errcount$21;
+            unsigned long int return_value_stats_errcount_21;
+            return_value_stats_errcount_21=stats_errcount(exar.stats);
+            totalerr = totalerr + return_value_stats_errcount_21;
             goto __CPROVER_DUMP_L62;
           }
 
@@ -14629,15 +14629,15 @@ signed int oper_restore(char *archive, signed int argc, char **argv, signed int 
 
         __CPROVER_DUMP_L62:
           ;
-          return_value_get_abort$22=get_abort();
-          if(return_value_get_abort$22 == 1)
+          return_value_get_abort_22=get_abort();
+          if(return_value_get_abort_22 == 1)
             fsaprintf(0, (_Bool)0, 0 >= 3, "oper_restore.c", "oper_restore", 1573, "operation aborted by user\n");
 
-          return_value_get_abort$24=get_abort();
-          if(return_value_get_abort$24 == 0)
+          return_value_get_abort_24=get_abort();
+          if(return_value_get_abort_24 == 0)
           {
-            return_value_get_stopfillqueue$23=get_stopfillqueue();
-            if((signed int)return_value_get_stopfillqueue$23 == 0)
+            return_value_get_stopfillqueue_23=get_stopfillqueue();
+            if((signed int)return_value_get_stopfillqueue_23 == 0)
               goto do_extract_success;
 
           }
@@ -14656,35 +14656,35 @@ do_extract_success:
   ;
   fsaprintf(4, (_Bool)0, 4 >= 3, "oper_restore.c", "oper_restore", 1583, "THREAD-MAIN2: exit\n");
   set_stopfillqueue();
-  signed long int return_value_queue_count_items_todo$25;
-  return_value_queue_count_items_todo$25=queue_count_items_todo(&g_queue);
-  fsaprintf(5, (_Bool)0, 5 >= 3, "oper_restore.c", "oper_restore", 1585, "queue_count_items_todo(&g_queue)=%d\n", (signed int)return_value_queue_count_items_todo$25);
-  signed long int return_value_queue_count_items_todo$26;
+  signed long int return_value_queue_count_items_todo_25;
+  return_value_queue_count_items_todo_25=queue_count_items_todo(&g_queue);
+  fsaprintf(5, (_Bool)0, 5 >= 3, "oper_restore.c", "oper_restore", 1585, "queue_count_items_todo(&g_queue)=%d\n", (signed int)return_value_queue_count_items_todo_25);
+  signed long int return_value_queue_count_items_todo_26;
   do
   {
-    return_value_queue_count_items_todo$26=queue_count_items_todo(&g_queue);
-    if(!(return_value_queue_count_items_todo$26 >= 1l))
+    return_value_queue_count_items_todo_26=queue_count_items_todo(&g_queue);
+    if(!(return_value_queue_count_items_todo_26 >= 1l))
       break;
 
-    signed long int return_value_queue_count_items_todo$27;
-    return_value_queue_count_items_todo$27=queue_count_items_todo(&g_queue);
-    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_restore.c", "oper_restore", 1587, "queue_count_items_todo(): %ld\n", (signed long int)return_value_queue_count_items_todo$27);
+    signed long int return_value_queue_count_items_todo_27;
+    return_value_queue_count_items_todo_27=queue_count_items_todo(&g_queue);
+    fsaprintf(5, (_Bool)0, 5 >= 3, "oper_restore.c", "oper_restore", 1587, "queue_count_items_todo(): %ld\n", (signed long int)return_value_queue_count_items_todo_27);
     usleep((unsigned int)10000);
   }
   while((_Bool)1);
-  signed long int return_value_queue_count_items_todo$28;
-  return_value_queue_count_items_todo$28=queue_count_items_todo(&g_queue);
-  fsaprintf(5, (_Bool)0, 5 >= 3, "oper_restore.c", "oper_restore", 1590, "queue_count_items_todo(&g_queue)=%d\n", (signed int)return_value_queue_count_items_todo$28);
-  signed int return_value_get_secthreads$29;
-  _Bool return_value_queue_get_end_of_queue$30;
+  signed long int return_value_queue_count_items_todo_28;
+  return_value_queue_count_items_todo_28=queue_count_items_todo(&g_queue);
+  fsaprintf(5, (_Bool)0, 5 >= 3, "oper_restore.c", "oper_restore", 1590, "queue_count_items_todo(&g_queue)=%d\n", (signed int)return_value_queue_count_items_todo_28);
+  signed int return_value_get_secthreads_29;
+  _Bool return_value_queue_get_end_of_queue_30;
   do
   {
-    return_value_get_secthreads$29=get_secthreads();
-    if(!(return_value_get_secthreads$29 >= 1))
+    return_value_get_secthreads_29=get_secthreads();
+    if(!(return_value_get_secthreads_29 >= 1))
       break;
 
-    return_value_queue_get_end_of_queue$30=queue_get_end_of_queue(&g_queue);
-    if(!((signed int)return_value_queue_get_end_of_queue$30 == 0))
+    return_value_queue_get_end_of_queue_30=queue_get_end_of_queue(&g_queue);
+    if(!((signed int)return_value_queue_get_end_of_queue_30 == 0))
       break;
 
     queue_destroy_first_item(&g_queue);
@@ -14692,21 +14692,21 @@ do_extract_success:
   while((_Bool)1);
   fsaprintf(4, (_Bool)0, 4 >= 3, "oper_restore.c", "oper_restore", 1594, "THREAD-MAIN2: queue is now empty\n");
   i = 0;
-  signed int return_value_pthread_join$31;
+  signed int return_value_pthread_join_31;
   for( ; !(i >= 32) && !(i >= g_options.compressjobs); i = i + 1)
     if(!(thread_decomp[(signed long int)i] == 0ul))
     {
-      return_value_pthread_join$31=pthread_join(thread_decomp[(signed long int)i], (void **)(void *)0);
-      if(!(return_value_pthread_join$31 == 0))
+      return_value_pthread_join_31=pthread_join(thread_decomp[(signed long int)i], (void **)(void *)0);
+      if(!(return_value_pthread_join_31 == 0))
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1599, "pthread_join(thread_decomp) failed\n");
 
     }
 
-  signed int return_value_pthread_join$32;
+  signed int return_value_pthread_join_32;
   if(!(thread_reader == 0ul))
   {
-    return_value_pthread_join$32=pthread_join(thread_reader, (void **)(void *)0);
-    if(!(return_value_pthread_join$32 == 0))
+    return_value_pthread_join_32=pthread_join(thread_reader, (void **)(void *)0);
+    if(!(return_value_pthread_join_32 == 0))
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_restore.c", "oper_restore", 1602, "pthread_join(thread_reader) failed\n");
 
   }
@@ -14738,7 +14738,7 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
 {
   unsigned long int thread_comp[32l];
   struct s_dico *dicofsinfo[128l];
-  struct s_devinfo$0 devinfo[128l];
+  struct s_devinfo_0 devinfo[128l];
   unsigned long int thread_writer;
   unsigned long int cost_evalfs = (unsigned long int)0;
   unsigned long int totalerr = (unsigned long int)0;
@@ -14760,26 +14760,26 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
   i = 0;
   for( ; !(i >= 128); i = i + 1)
   {
-    memset((void *)&devinfo[(signed long int)i], 0, sizeof(struct s_devinfo$0) /*8200ul*/ );
+    memset((void *)&devinfo[(signed long int)i], 0, sizeof(struct s_devinfo_0) /*8200ul*/ );
     devinfo[(signed long int)i].mountedbyfsa = (_Bool)0;
     devinfo[(signed long int)i].fstype = -1;
     dicofsinfo[(signed long int)i] = (struct s_dico *)(void *)0;
   }
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(archtype == 1 && !(i >= argc))
-      tmp_if_expr$1 = argv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = argv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    signed int return_value_stat64$2;
-    return_value_stat64$2=stat64(argv[(signed long int)i], &st);
-    if(!((61440u & st.st_mode) == 24576u) || !(return_value_stat64$2 == 0))
+    signed int return_value_stat64_2;
+    return_value_stat64_2=stat64(argv[(signed long int)i], &st);
+    if(!((61440u & st.st_mode) == 24576u) || !(return_value_stat64_2 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1191, "%s is not a valid block device\n", argv[(signed long int)i]);
       ret = -1;
@@ -14790,20 +14790,20 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
   }
   while((_Bool)1);
   i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   do
   {
     if(archtype == 2 && !(i >= argc))
-      tmp_if_expr$3 = argv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = argv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
-    signed int return_value_stat64$4;
-    return_value_stat64$4=stat64(argv[(signed long int)i], &st);
-    if(!((61440u & st.st_mode) == 16384u) || !(return_value_stat64$4 == 0))
+    signed int return_value_stat64_4;
+    return_value_stat64_4=stat64(argv[(signed long int)i], &st);
+    if(!((61440u & st.st_mode) == 16384u) || !(return_value_stat64_4 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1201, "%s is not a valid directory\n", argv[(signed long int)i]);
       ret = -1;
@@ -14816,9 +14816,9 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
   i = 0;
   for( ; !(i >= 32) && !(i >= g_options.compressjobs); i = i + 1)
   {
-    signed int return_value_pthread_create$5;
-    return_value_pthread_create$5=pthread_create(&thread_comp[(signed long int)i], (const union pthread_attr_t *)(void *)0, thread_comp_fct, (void *)0);
-    if(!(return_value_pthread_create$5 == 0))
+    signed int return_value_pthread_create_5;
+    return_value_pthread_create_5=pthread_create(&thread_comp[(signed long int)i], (const union pthread_attr_t *)(void *)0, thread_comp_fct, (void *)0);
+    if(!(return_value_pthread_create_5 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1211, "pthread_create(thread_comp_fct) failed\n");
       ret = -1;
@@ -14826,23 +14826,23 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
     }
 
   }
-  signed int return_value_pthread_create$6;
-  return_value_pthread_create$6=pthread_create(&thread_writer, (const union pthread_attr_t *)(void *)0, thread_writer_fct, (void *)&save.ai);
-  signed int return_value_createar_write_mainhead$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$20;
-  _Bool return_value_get_interrupted$19;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$26;
-  _Bool return_value_get_interrupted$25;
-  _Bool return_value_get_interrupted$28;
-  unsigned long int return_value_stats_errcount$29;
-  _Bool return_value_get_interrupted$30;
-  signed int return_value_get_abort$31;
-  if(!(return_value_pthread_create$6 == 0))
+  signed int return_value_pthread_create_6;
+  return_value_pthread_create_6=pthread_create(&thread_writer, (const union pthread_attr_t *)(void *)0, thread_writer_fct, (void *)&save.ai);
+  signed int return_value_createar_write_mainhead_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_20;
+  _Bool return_value_get_interrupted_19;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_26;
+  _Bool return_value_get_interrupted_25;
+  _Bool return_value_get_interrupted_28;
+  unsigned long int return_value_stats_errcount_29;
+  _Bool return_value_get_interrupted_30;
+  signed int return_value_get_abort_31;
+  if(!(return_value_pthread_create_6 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1219, "pthread_create(thread_writer_fct) failed\n");
     ret = -1;
@@ -14850,8 +14850,8 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
 
   else
   {
-    return_value_createar_write_mainhead$7=createar_write_mainhead(&save, archtype, argc);
-    if(!(return_value_createar_write_mainhead$7 == 0))
+    return_value_createar_write_mainhead_7=createar_write_mainhead(&save, archtype, argc);
+    if(!(return_value_createar_write_mainhead_7 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1226, "archive_write_mainhead(%s) failed\n", archive);
       ret = -1;
@@ -14865,11 +14865,11 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
         do
         {
           if(!(i >= argc))
-            tmp_if_expr$8 = argv[(signed long int)i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = argv[(signed long int)i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(!tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(!tmp_if_expr_8)
             break;
 
           dicofsinfo[(signed long int)i]=dico_alloc();
@@ -14882,9 +14882,9 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
           snprintf(devinfo[(signed long int)i].devpath, sizeof(char [4096l]) /*4096ul*/ , "%s", argv[(signed long int)i]);
           generate_random_tmpdir(devinfo[(signed long int)i].partmount, 4096, i);
           fsaprintf(2, (_Bool)0, 2 >= 3, "oper_save.c", "oper_save", 1245, "Mounting filesystem on %s...\n", (const void *)devinfo[(signed long int)i].devpath);
-          signed int return_value_filesystem_mount_partition$9;
-          return_value_filesystem_mount_partition$9=filesystem_mount_partition(&devinfo[(signed long int)i], dicofsinfo[(signed long int)i], (unsigned short int)i);
-          if(!(return_value_filesystem_mount_partition$9 == 0))
+          signed int return_value_filesystem_mount_partition_9;
+          return_value_filesystem_mount_partition_9=filesystem_mount_partition(&devinfo[(signed long int)i], dicofsinfo[(signed long int)i], (unsigned short int)i);
+          if(!(return_value_filesystem_mount_partition_9 == 0))
           {
             fsaprintf(3, (_Bool)0, 3 >= 3, "oper_save.c", "oper_save", 1247, "archive_filesystem(%s) failed\n", (const void *)devinfo[(signed long int)i].devpath);
             goto do_create_error;
@@ -14897,35 +14897,35 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
         do
         {
           if(!(i >= argc))
-            tmp_if_expr$10 = argv[(signed long int)i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_10 = argv[(signed long int)i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(!tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(!tmp_if_expr_10)
             break;
 
           cost_evalfs = (unsigned long int)0;
           fsaprintf(1, (_Bool)0, 1 >= 3, "oper_save.c", "oper_save", 1257, "Analysing filesystem on %s...\n", (const void *)devinfo[(signed long int)i].devpath);
-          signed int return_value_createar_save_directory_wrapper$11;
-          return_value_createar_save_directory_wrapper$11=createar_save_directory_wrapper(&save, devinfo[(signed long int)i].partmount, "/", &cost_evalfs);
-          if(!(return_value_createar_save_directory_wrapper$11 == 0))
+          signed int return_value_createar_save_directory_wrapper_11;
+          return_value_createar_save_directory_wrapper_11=createar_save_directory_wrapper(&save, devinfo[(signed long int)i].partmount, "/", &cost_evalfs);
+          if(!(return_value_createar_save_directory_wrapper_11 == 0))
           {
             fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "oper_save", 1259, "cannot run evaluation createar_save_directory(%s)\n", (const void *)devinfo[(signed long int)i].partmount);
             goto do_create_error;
           }
 
-          signed int return_value_dico_add_u64$12;
-          return_value_dico_add_u64$12=dico_add_u64(dicofsinfo[(signed long int)i], (unsigned char)0, (unsigned short int)28, cost_evalfs);
-          if(!(return_value_dico_add_u64$12 == 0))
+          signed int return_value_dico_add_u64_12;
+          return_value_dico_add_u64_12=dico_add_u64(dicofsinfo[(signed long int)i], (unsigned char)0, (unsigned short int)28, cost_evalfs);
+          if(!(return_value_dico_add_u64_12 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1263, "dico_add_u64(FSYSHEADKEY_TOTALCOST) failed\n");
             goto do_create_error;
           }
 
           save.cost_global = save.cost_global + cost_evalfs;
-          signed long int return_value_queue_add_header$13;
-          return_value_queue_add_header$13=queue_add_header(&g_queue, dicofsinfo[(signed long int)i], "FsIn", (unsigned short int)0xFFFF);
-          if(!(return_value_queue_add_header$13 == 0l))
+          signed long int return_value_queue_add_header_13;
+          return_value_queue_add_header_13=queue_add_header(&g_queue, dicofsinfo[(signed long int)i], "FsIn", (unsigned short int)0xFFFF);
+          if(!(return_value_queue_add_header_13 == 0l))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1270, "queue_add_header(FSA_MAGIC_FSIN, %s) failed\n", (const void *)devinfo[(signed long int)i].devpath);
             goto do_create_error;
@@ -14943,18 +14943,18 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
         do
         {
           if(!(i >= argc))
-            tmp_if_expr$14 = argv[(signed long int)i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_14 = argv[(signed long int)i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$14 = (_Bool)0;
-          if(!tmp_if_expr$14)
+            tmp_if_expr_14 = (_Bool)0;
+          if(!tmp_if_expr_14)
             break;
 
           cost_evalfs = (unsigned long int)0;
           fsaprintf(1, (_Bool)0, 1 >= 3, "oper_save.c", "oper_save", 1284, "Analysing directory %s...\n", argv[(signed long int)i]);
-          signed int return_value_createar_save_directory_wrapper$15;
-          return_value_createar_save_directory_wrapper$15=createar_save_directory_wrapper(&save, argv[(signed long int)i], "/", &cost_evalfs);
-          if(!(return_value_createar_save_directory_wrapper$15 == 0))
+          signed int return_value_createar_save_directory_wrapper_15;
+          return_value_createar_save_directory_wrapper_15=createar_save_directory_wrapper(&save, argv[(signed long int)i], "/", &cost_evalfs);
+          if(!(return_value_createar_save_directory_wrapper_15 == 0))
           {
             fsaprintf(0, (_Bool)1, (_Bool)1, "oper_save.c", "oper_save", 1286, "cannot run evaluation createar_save_directory(%s)\n", argv[(signed long int)i]);
             goto do_create_error;
@@ -14971,17 +14971,17 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
           goto do_create_error;
         }
 
-        signed int return_value_dico_add_u64$16;
-        return_value_dico_add_u64$16=dico_add_u64(dirsinfo, (unsigned char)0, (unsigned short int)1, save.cost_global);
-        if(!(return_value_dico_add_u64$16 == 0))
+        signed int return_value_dico_add_u64_16;
+        return_value_dico_add_u64_16=dico_add_u64(dirsinfo, (unsigned char)0, (unsigned short int)1, save.cost_global);
+        if(!(return_value_dico_add_u64_16 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1298, "dico_add_u64(DIRSINFOKEY_TOTALCOST) failed\n");
           goto do_create_error;
         }
 
-        signed long int return_value_queue_add_header$17;
-        return_value_queue_add_header$17=queue_add_header(&g_queue, dirsinfo, "DiRs", (unsigned short int)0xFFFF);
-        if(!(return_value_queue_add_header$17 == 0l))
+        signed long int return_value_queue_add_header_17;
+        return_value_queue_add_header_17=queue_add_header(&g_queue, dirsinfo, "DiRs", (unsigned short int)0xFFFF);
+        if(!(return_value_queue_add_header_17 == 0l))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1303, "queue_add_header(FSA_MAGIC_DIRS) failed\n");
           goto do_create_error;
@@ -15000,40 +15000,40 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
           do
           {
             if(!(i >= argc))
-              tmp_if_expr$18 = devinfo[(signed long int)i].devpath != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_18 = devinfo[(signed long int)i].devpath != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$18 = (_Bool)0;
-            if(tmp_if_expr$18)
+              tmp_if_expr_18 = (_Bool)0;
+            if(tmp_if_expr_18)
             {
-              return_value_get_interrupted$19=get_interrupted();
-              tmp_if_expr$20 = (signed int)return_value_get_interrupted$19 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_get_interrupted_19=get_interrupted();
+              tmp_if_expr_20 = (signed int)return_value_get_interrupted_19 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$20 = (_Bool)0;
-            if(!tmp_if_expr$20)
+              tmp_if_expr_20 = (_Bool)0;
+            if(!tmp_if_expr_20)
               break;
 
             fsaprintf(1, (_Bool)0, 1 >= 3, "oper_save.c", "oper_save", 1319, "============= archiving filesystem %s =============\n", (const void *)devinfo[(signed long int)i].devpath);
             save.fsid = i;
             memset((void *)&save.stats, 0, sizeof(struct s_stats) /*80ul*/ );
-            signed int return_value_createar_oper_savefs$21;
-            return_value_createar_oper_savefs$21=createar_oper_savefs(&save, &devinfo[(signed long int)i]);
-            if(!(return_value_createar_oper_savefs$21 == 0))
+            signed int return_value_createar_oper_savefs_21;
+            return_value_createar_oper_savefs_21=createar_oper_savefs(&save, &devinfo[(signed long int)i]);
+            if(!(return_value_createar_oper_savefs_21 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1323, "archive_filesystem(%s) failed\n", (const void *)devinfo[(signed long int)i].devpath);
               goto do_create_error;
             }
 
-            _Bool return_value_get_interrupted$22;
-            return_value_get_interrupted$22=get_interrupted();
-            if((signed int)return_value_get_interrupted$22 == 0)
+            _Bool return_value_get_interrupted_22;
+            return_value_get_interrupted_22=get_interrupted();
+            if((signed int)return_value_get_interrupted_22 == 0)
               stats_show(save.stats, i);
 
-            unsigned long int return_value_stats_errcount$23;
-            return_value_stats_errcount$23=stats_errcount(save.stats);
-            totalerr = totalerr + return_value_stats_errcount$23;
+            unsigned long int return_value_stats_errcount_23;
+            return_value_stats_errcount_23=stats_errcount(save.stats);
+            totalerr = totalerr + return_value_stats_errcount_23;
             i = i + 1;
           }
           while((_Bool)1);
@@ -15049,25 +15049,25 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
           do
           {
             if(!(i >= argc))
-              tmp_if_expr$24 = argv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_24 = argv[(signed long int)i] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$24 = (_Bool)0;
-            if(tmp_if_expr$24)
+              tmp_if_expr_24 = (_Bool)0;
+            if(tmp_if_expr_24)
             {
-              return_value_get_interrupted$25=get_interrupted();
-              tmp_if_expr$26 = (signed int)return_value_get_interrupted$25 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_get_interrupted_25=get_interrupted();
+              tmp_if_expr_26 = (signed int)return_value_get_interrupted_25 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$26 = (_Bool)0;
-            if(!tmp_if_expr$26)
+              tmp_if_expr_26 = (_Bool)0;
+            if(!tmp_if_expr_26)
               break;
 
             fsaprintf(1, (_Bool)0, 1 >= 3, "oper_save.c", "oper_save", 1340, "============= archiving directory %s =============\n", argv[(signed long int)i]);
-            signed int return_value_createar_oper_savedir$27;
-            return_value_createar_oper_savedir$27=createar_oper_savedir(&save, argv[(signed long int)i]);
-            if(!(return_value_createar_oper_savedir$27 == 0))
+            signed int return_value_createar_oper_savedir_27;
+            return_value_createar_oper_savedir_27=createar_oper_savedir(&save, argv[(signed long int)i]);
+            if(!(return_value_createar_oper_savedir_27 == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1342, "archive_filesystem(%s) failed\n", argv[(signed long int)i]);
               goto do_create_error;
@@ -15076,12 +15076,12 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
             i = i + 1;
           }
           while((_Bool)1);
-          return_value_get_interrupted$28=get_interrupted();
-          if((signed int)return_value_get_interrupted$28 == 0)
+          return_value_get_interrupted_28=get_interrupted();
+          if((signed int)return_value_get_interrupted_28 == 0)
             stats_show(save.stats, 0);
 
-          return_value_stats_errcount$29=stats_errcount(save.stats);
-          totalerr = totalerr + return_value_stats_errcount$29;
+          return_value_stats_errcount_29=stats_errcount(save.stats);
+          totalerr = totalerr + return_value_stats_errcount_29;
           dicoend=dico_alloc();
           if(dicoend == ((struct s_dico *)NULL))
           {
@@ -15098,12 +15098,12 @@ signed int oper_save(char *archive, signed int argc, char **argv, signed int arc
           goto do_create_error;
         }
       }
-      return_value_get_interrupted$30=get_interrupted();
-      if((signed int)return_value_get_interrupted$30 == 0)
+      return_value_get_interrupted_30=get_interrupted();
+      if((signed int)return_value_get_interrupted_30 == 0)
         goto do_create_success;
 
-      return_value_get_abort$31=get_abort();
-      if(return_value_get_abort$31 == 1)
+      return_value_get_abort_31=get_abort();
+      if(return_value_get_abort_31 == 1)
         fsaprintf(0, (_Bool)0, 0 >= 3, "oper_save.c", "oper_save", 1367, "operation aborted by user\n");
 
     }
@@ -15133,21 +15133,21 @@ do_create_success:
 
   queue_set_end_of_queue(&g_queue, (_Bool)1);
   i = 0;
-  signed int return_value_pthread_join$32;
+  signed int return_value_pthread_join_32;
   for( ; !(i >= 32) && !(i >= g_options.compressjobs); i = i + 1)
     if(!(thread_comp[(signed long int)i] == 0ul))
     {
-      return_value_pthread_join$32=pthread_join(thread_comp[(signed long int)i], (void **)(void *)0);
-      if(!(return_value_pthread_join$32 == 0))
+      return_value_pthread_join_32=pthread_join(thread_comp[(signed long int)i], (void **)(void *)0);
+      if(!(return_value_pthread_join_32 == 0))
         fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1392, "pthread_join(thread_comp[%d]) failed\n", i);
 
     }
 
-  signed int return_value_pthread_join$33;
+  signed int return_value_pthread_join_33;
   if(!(thread_writer == 0ul))
   {
-    return_value_pthread_join$33=pthread_join(thread_writer, (void **)(void *)0);
-    if(!(return_value_pthread_join$33 == 0))
+    return_value_pthread_join_33=pthread_join(thread_writer, (void **)(void *)0);
+    if(!(return_value_pthread_join_33 == 0))
       fsaprintf(0, (_Bool)0, (_Bool)1, "oper_save.c", "oper_save", 1395, "pthread_join(thread_writer) failed\n");
 
   }
@@ -15166,9 +15166,9 @@ do_create_success:
 // file options.h line 49
 signed int options_destroy()
 {
-  signed int return_value_strlist_destroy$1;
-  return_value_strlist_destroy$1=strlist_destroy(&g_options.exclude);
-  if(!(return_value_strlist_destroy$1 == 0))
+  signed int return_value_strlist_destroy_1;
+  return_value_strlist_destroy_1=strlist_destroy(&g_options.exclude);
+  if(!(return_value_strlist_destroy_1 == 0))
     return -1;
 
   else
@@ -15183,9 +15183,9 @@ signed int options_destroy()
 signed int options_init()
 {
   memset((void *)&g_options, 0, sizeof(struct s_options) /*632ul*/ );
-  signed int return_value_strlist_init$1;
-  return_value_strlist_init$1=strlist_init(&g_options.exclude);
-  if(!(return_value_strlist_init$1 == 0))
+  signed int return_value_strlist_init_1;
+  return_value_strlist_init_1=strlist_init(&g_options.exclude);
+  if(!(return_value_strlist_init_1 == 0))
     return -1;
 
   else
@@ -15337,10 +15337,10 @@ signed int partlist_getlist(struct s_devinfo *blkdev, signed int maxblkdev, sign
   *diskcount = 0;
   *partcount = 0;
   fpart=fopen("/proc/partitions", "rb");
-  signed int return_value_feof$1;
-  signed int return_value_atoi$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_atoi$4;
+  signed int return_value_feof_1;
+  signed int return_value_atoi_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_atoi_4;
   if(fpart == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -15348,8 +15348,8 @@ signed int partlist_getlist(struct s_devinfo *blkdev, signed int maxblkdev, sign
   {
     do
     {
-      return_value_feof$1=feof(fpart);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fpart);
+      if(!(return_value_feof_1 == 0))
         break;
 
       if(count >= 256)
@@ -15358,9 +15358,9 @@ signed int partlist_getlist(struct s_devinfo *blkdev, signed int maxblkdev, sign
       if(count >= maxblkdev)
         break;
 
-      signed int return_value_stream_readline$11;
-      return_value_stream_readline$11=stream_readline(fpart, line, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-      if(return_value_stream_readline$11 >= 2)
+      signed int return_value_stream_readline_11;
+      return_value_stream_readline_11=stream_readline(fpart, line, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+      if(return_value_stream_readline_11 >= 2)
       {
         major[(signed long int)0] = (char)0;
         minor[(signed long int)0] = major[(signed long int)0];
@@ -15386,44 +15386,44 @@ signed int partlist_getlist(struct s_devinfo *blkdev, signed int maxblkdev, sign
           }
           result=strtok_r((char *)(void *)0, delims, &saveptr);
         }
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(devname);
-        _Bool tmp_if_expr$6;
-        if(return_value_strlen$2 == 0ul)
-          tmp_if_expr$6 = (_Bool)1;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(devname);
+        _Bool tmp_if_expr_6;
+        if(return_value_strlen_2 == 0ul)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_atoi$3=atoi(major);
-          if(return_value_atoi$3 == 0)
+          return_value_atoi_3=atoi(major);
+          if(return_value_atoi_3 == 0)
           {
-            return_value_atoi$4=atoi(minor);
-            tmp_if_expr$5 = return_value_atoi$4 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_atoi_4=atoi(minor);
+            tmp_if_expr_5 = return_value_atoi_4 == 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
           continue;
 
         snprintf(longname, sizeof(char [1024l]) /*1024ul*/ , "/dev/%s", (const void *)devname);
-        signed int return_value_atoi$7;
-        return_value_atoi$7=atoi(minor);
-        signed int return_value_atoi$8;
-        return_value_atoi$8=atoi(major);
-        signed int return_value_get_devinfo$9;
-        return_value_get_devinfo$9=get_devinfo(&tmpdev, longname, return_value_atoi$7, return_value_atoi$8);
-        if(!(return_value_get_devinfo$9 == 0))
+        signed int return_value_atoi_7;
+        return_value_atoi_7=atoi(minor);
+        signed int return_value_atoi_8;
+        return_value_atoi_8=atoi(major);
+        signed int return_value_get_devinfo_9;
+        return_value_get_devinfo_9=get_devinfo(&tmpdev, longname, return_value_atoi_7, return_value_atoi_8);
+        if(!(return_value_get_devinfo_9 == 0))
           continue;
 
         i = 0;
         for( ; !(i >= count); i = i + 1)
           ;
-        signed int tmp_post$10 = count;
+        signed int tmp_post_10 = count;
         count = count + 1;
-        blkdev1[(signed long int)tmp_post$10] = tmpdev;
+        blkdev1[(signed long int)tmp_post_10] = tmpdev;
       }
 
     }
@@ -15458,9 +15458,9 @@ signed int partlist_getlist(struct s_devinfo *blkdev, signed int maxblkdev, sign
         case 0:
           *diskcount = *diskcount + 1;
       }
-      signed int tmp_post$12 = pos;
+      signed int tmp_post_12 = pos;
       pos = pos + 1;
-      blkdev[(signed long int)tmp_post$12] = blkdev1[(signed long int)best];
+      blkdev[(signed long int)tmp_post_12] = blkdev1[(signed long int)best];
       blkdev1[(signed long int)best].rdev = (unsigned long int)0;
     }
     return count;
@@ -15473,7 +15473,7 @@ signed int path_force_extension(char *buf, signed int bufsize, char *origpath, c
 {
   signed int oldlen;
   signed int extlen;
-  signed int return_value_memcmp$3;
+  signed int return_value_memcmp_3;
   if(buf == ((char *)NULL) || ext == ((char *)NULL) || origpath == ((char *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "common.c", "path_force_extension", 445, "a parameter is null\n");
@@ -15482,22 +15482,22 @@ signed int path_force_extension(char *buf, signed int bufsize, char *origpath, c
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(origpath);
-    oldlen = (signed int)return_value_strlen$1;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(ext);
-    extlen = (signed int)return_value_strlen$2;
-    _Bool tmp_if_expr$4;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(origpath);
+    oldlen = (signed int)return_value_strlen_1;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(ext);
+    extlen = (signed int)return_value_strlen_2;
+    _Bool tmp_if_expr_4;
     if(!(oldlen >= extlen))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_memcmp$3=memcmp((const void *)((origpath + (signed long int)oldlen) - (signed long int)extlen), (const void *)ext, (unsigned long int)extlen);
-      tmp_if_expr$4 = return_value_memcmp$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_memcmp_3=memcmp((const void *)((origpath + (signed long int)oldlen) - (signed long int)extlen), (const void *)ext, (unsigned long int)extlen);
+      tmp_if_expr_4 = return_value_memcmp_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       snprintf(buf, (unsigned long int)bufsize, "%s%s", origpath, ext);
 
     else
@@ -15539,12 +15539,12 @@ signed int process_cmdline(signed int argc, char **argv)
   g_options.encryptalgo = (unsigned short int)1;
   snprintf(g_options.archlabel, sizeof(char [512l]) /*512ul*/ , "<none>");
   g_options.encryptpass[(signed long int)0] = (unsigned char)0;
-  signed long long int return_value_atoll$1;
-  signed int return_value_atoi$3;
-  signed int return_value_options_select_compress_level$4;
-  unsigned long int return_value_strlen$6;
-  unsigned long int return_value_strlen$7;
-  signed int return_value_strcmp$5;
+  signed long long int return_value_atoll_1;
+  signed int return_value_atoi_3;
+  signed int return_value_options_select_compress_level_4;
+  unsigned long int return_value_strlen_6;
+  unsigned long int return_value_strlen_7;
+  signed int return_value_strcmp_5;
   do
   {
     c=getopt_long(argc, argv, "oaAvdz:j:hVs:c:L:e:", long_options, (signed int *)(void *)0);
@@ -15602,8 +15602,8 @@ signed int process_cmdline(signed int argc, char **argv)
       }
       case 115:
       {
-        return_value_atoll$1=atoll(optarg);
-        g_options.splitsize = (unsigned long int)return_value_atoll$1 * (unsigned long int)1024LL * (unsigned long int)1024LL;
+        return_value_atoll_1=atoll(optarg);
+        g_options.splitsize = (unsigned long int)return_value_atoll_1 * (unsigned long int)1024LL * (unsigned long int)1024LL;
         if(g_options.splitsize == 0ul)
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "process_cmdline", 214, "argument of option -s is invalid (%s). It must be a valid integer\n", optarg);
@@ -15613,16 +15613,16 @@ signed int process_cmdline(signed int argc, char **argv)
 
         else
         {
-          char *return_value_format_size$2;
-          return_value_format_size$2=format_size(g_options.splitsize, tempbuf, (signed int)sizeof(char [1024l]) /*1024ul*/ , (char)104);
-          fsaprintf(0, (_Bool)0, 0 >= 3, "fsarchiver.c", "process_cmdline", 221, "Archive will be split into volumes of %lld bytes (%s)\n", (signed long long int)g_options.splitsize, return_value_format_size$2);
+          char *return_value_format_size_2;
+          return_value_format_size_2=format_size(g_options.splitsize, tempbuf, (signed int)sizeof(char [1024l]) /*1024ul*/ , (char)104);
+          fsaprintf(0, (_Bool)0, 0 >= 3, "fsarchiver.c", "process_cmdline", 221, "Archive will be split into volumes of %lld bytes (%s)\n", (signed long long int)g_options.splitsize, return_value_format_size_2);
         }
         break;
       }
       case 122:
       {
-        return_value_atoi$3=atoi(optarg);
-        g_options.fsacomplevel = (unsigned short int)return_value_atoi$3;
+        return_value_atoi_3=atoi(optarg);
+        g_options.fsacomplevel = (unsigned short int)return_value_atoi_3;
         if((signed int)g_options.fsacomplevel >= 10 || !((signed int)g_options.fsacomplevel >= 1))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "process_cmdline", 227, "[%s] is not a valid compression level, it must be an integer between 1 and 9.\n", optarg);
@@ -15630,8 +15630,8 @@ signed int process_cmdline(signed int argc, char **argv)
           return -1;
         }
 
-        return_value_options_select_compress_level$4=options_select_compress_level((signed int)g_options.fsacomplevel);
-        if(!(return_value_options_select_compress_level$4 >= 0))
+        return_value_options_select_compress_level_4=options_select_compress_level((signed int)g_options.fsacomplevel);
+        if(!(return_value_options_select_compress_level_4 >= 0))
           return -1;
 
         if((signed int)g_options.fsacomplevel >= 8)
@@ -15642,20 +15642,20 @@ signed int process_cmdline(signed int argc, char **argv)
       case 99:
       {
         g_options.encryptalgo = (unsigned short int)2;
-        return_value_strlen$6=strlen(optarg);
-        _Bool tmp_if_expr$8;
-        if(!(return_value_strlen$6 >= 6ul))
-          tmp_if_expr$8 = (_Bool)1;
+        return_value_strlen_6=strlen(optarg);
+        _Bool tmp_if_expr_8;
+        if(!(return_value_strlen_6 >= 6ul))
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_strlen$7=strlen(optarg);
-          tmp_if_expr$8 = return_value_strlen$7 > (unsigned long int)64 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_7=strlen(optarg);
+          tmp_if_expr_8 = return_value_strlen_7 > (unsigned long int)64 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
-          return_value_strcmp$5=strcmp(optarg, "-");
-          if(!(return_value_strcmp$5 == 0))
+          return_value_strcmp_5=strcmp(optarg, "-");
+          if(!(return_value_strcmp_5 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "process_cmdline", 240, "the password lenght is incorrect, it must between %d and %d chars, or \"-\" for interactive password prompt.\n", 6, 64);
             usage(progname, (_Bool)0);
@@ -15696,21 +15696,21 @@ signed int process_cmdline(signed int argc, char **argv)
 
   else
   {
-    char **tmp_post$9 = argv;
+    char **tmp_post_9 = argv;
     argv = argv + 1l;
-    command = *tmp_post$9;
+    command = *tmp_post_9;
     argc = argc - 1;
   }
   g_options.smallfilethresh = g_options.datablocksize / (unsigned int)4 < (unsigned int)131072 ? g_options.datablocksize / (unsigned int)4 : (unsigned int)131072;
   fsaprintf(4, (_Bool)0, 4 >= 3, "fsarchiver.c", "process_cmdline", 274, "Files smaller than %ld will be packed with other small files\n", (signed long int)g_options.smallfilethresh);
-  signed int return_value_strcmp$15;
-  return_value_strcmp$15=strcmp(command, "savefs");
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  if(return_value_strcmp$15 == 0)
+  signed int return_value_strcmp_15;
+  return_value_strcmp_15=strcmp(command, "savefs");
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  if(return_value_strcmp_15 == 0)
   {
     cmd = 1;
     runasroot = (_Bool)1;
@@ -15719,8 +15719,8 @@ signed int process_cmdline(signed int argc, char **argv)
 
   else
   {
-    return_value_strcmp$14=strcmp(command, "restfs");
-    if(return_value_strcmp$14 == 0)
+    return_value_strcmp_14=strcmp(command, "restfs");
+    if(return_value_strcmp_14 == 0)
     {
       cmd = 2;
       runasroot = (_Bool)1;
@@ -15729,8 +15729,8 @@ signed int process_cmdline(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$13=strcmp(command, "savedir");
-      if(return_value_strcmp$13 == 0)
+      return_value_strcmp_13=strcmp(command, "savedir");
+      if(return_value_strcmp_13 == 0)
       {
         cmd = 3;
         runasroot = (_Bool)1;
@@ -15739,8 +15739,8 @@ signed int process_cmdline(signed int argc, char **argv)
 
       else
       {
-        return_value_strcmp$12=strcmp(command, "restdir");
-        if(return_value_strcmp$12 == 0)
+        return_value_strcmp_12=strcmp(command, "restdir");
+        if(return_value_strcmp_12 == 0)
         {
           cmd = 4;
           runasroot = (_Bool)1;
@@ -15749,8 +15749,8 @@ signed int process_cmdline(signed int argc, char **argv)
 
         else
         {
-          return_value_strcmp$11=strcmp(command, "archinfo");
-          if(return_value_strcmp$11 == 0)
+          return_value_strcmp_11=strcmp(command, "archinfo");
+          if(return_value_strcmp_11 == 0)
           {
             cmd = 5;
             runasroot = (_Bool)0;
@@ -15759,8 +15759,8 @@ signed int process_cmdline(signed int argc, char **argv)
 
           else
           {
-            return_value_strcmp$10=strcmp(command, "probe");
-            if(return_value_strcmp$10 == 0)
+            return_value_strcmp_10=strcmp(command, "probe");
+            if(return_value_strcmp_10 == 0)
             {
               cmd = 6;
               runasroot = (_Bool)1;
@@ -15778,9 +15778,9 @@ signed int process_cmdline(signed int argc, char **argv)
       }
     }
   }
-  unsigned int return_value_geteuid$16;
-  unsigned long int return_value_strlen$18;
-  _Bool tmp_if_expr$25;
+  unsigned int return_value_geteuid_16;
+  unsigned long int return_value_strlen_18;
+  _Bool tmp_if_expr_25;
   if(!(argcok == 1))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "process_cmdline", 315, "invalid number of arguments.\n");
@@ -15792,8 +15792,8 @@ signed int process_cmdline(signed int argc, char **argv)
   {
     if((signed int)runasroot == 1)
     {
-      return_value_geteuid$16=geteuid();
-      if(!(return_value_geteuid$16 == 0u))
+      return_value_geteuid_16=geteuid();
+      if(!(return_value_geteuid_16 == 0u))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "process_cmdline", 322, "\"fsarchiver %s\" must be run as root. cannot continue.\n", command);
         return -1;
@@ -15801,9 +15801,9 @@ signed int process_cmdline(signed int argc, char **argv)
 
     }
 
-    signed int return_value_strcmp$21;
-    return_value_strcmp$21=strcmp((char *)g_options.encryptpass, "-");
-    if(return_value_strcmp$21 == 0)
+    signed int return_value_strcmp_21;
+    return_value_strcmp_21=strcmp((char *)g_options.encryptpass, "-");
+    if(return_value_strcmp_21 == 0)
     {
       signed int passconfirm;
       char *passtmp = (char *)(void *)0;
@@ -15815,18 +15815,18 @@ signed int process_cmdline(signed int argc, char **argv)
         return -1;
       }
 
-      unsigned long int return_value_strlen$17;
-      return_value_strlen$17=strlen(passtmp);
-      _Bool tmp_if_expr$19;
-      if(!(return_value_strlen$17 >= 6ul))
-        tmp_if_expr$19 = (_Bool)1;
+      unsigned long int return_value_strlen_17;
+      return_value_strlen_17=strlen(passtmp);
+      _Bool tmp_if_expr_19;
+      if(!(return_value_strlen_17 >= 6ul))
+        tmp_if_expr_19 = (_Bool)1;
 
       else
       {
-        return_value_strlen$18=strlen(passtmp);
-        tmp_if_expr$19 = return_value_strlen$18 > (unsigned long int)64 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_18=strlen(passtmp);
+        tmp_if_expr_19 = return_value_strlen_18 > (unsigned long int)64 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$19)
+      if(tmp_if_expr_19)
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "process_cmdline", 338, "the password lenght is incorrect, it must between %d and %d chars\n", 6, 64);
         return -1;
@@ -15842,9 +15842,9 @@ signed int process_cmdline(signed int argc, char **argv)
           return -1;
         }
 
-        signed int return_value_strcmp$20;
-        return_value_strcmp$20=strcmp((char *)g_options.encryptpass, passtmp);
-        if(!(return_value_strcmp$20 == 0))
+        signed int return_value_strcmp_20;
+        return_value_strcmp_20=strcmp((char *)g_options.encryptpass, passtmp);
+        if(!(return_value_strcmp_20 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "fsarchiver.c", "process_cmdline", 350, "the passwords do not match\n");
           return -1;
@@ -15866,9 +15866,9 @@ signed int process_cmdline(signed int argc, char **argv)
 
       case 5:
       {
-        char **tmp_post$22 = argv;
+        char **tmp_post_22 = argv;
         argv = argv + 1l;
-        archive = *tmp_post$22;
+        archive = *tmp_post_22;
         argc = argc - 1;
         break;
       }
@@ -15880,13 +15880,13 @@ signed int process_cmdline(signed int argc, char **argv)
 
         if(argc >= 1)
         {
-          char **tmp_post$23 = argv;
+          char **tmp_post_23 = argv;
           argv = argv + 1l;
-          probemode = *tmp_post$23;
+          probemode = *tmp_post_23;
           argc = argc - 1;
-          signed int return_value_strcmp$24;
-          return_value_strcmp$24=strcmp(probemode, "detailed");
-          if(return_value_strcmp$24 == 0)
+          signed int return_value_strcmp_24;
+          return_value_strcmp_24=strcmp(probemode, "detailed");
+          if(return_value_strcmp_24 == 0)
             probedetailed = (_Bool)1;
 
         }
@@ -15897,11 +15897,11 @@ signed int process_cmdline(signed int argc, char **argv)
     do
     {
       if(!(fscount >= argc))
-        tmp_if_expr$25 = argv[(signed long int)fscount] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_25 = argv[(signed long int)fscount] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$25 = (_Bool)0;
-      if(!tmp_if_expr$25)
+        tmp_if_expr_25 = (_Bool)0;
+      if(!tmp_if_expr_25)
         break;
 
       partition[(signed long int)fscount] = argv[(signed long int)fscount];
@@ -15959,7 +15959,7 @@ signed long int queue_add_block(struct s_queue *q, struct s_blockinfo *blkinfo, 
 {
   struct s_queueitem *item;
   struct s_queueitem *cur;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(blkinfo == ((struct s_blockinfo *)NULL) || q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_add_block", 195, "a parameter is NULL\n");
@@ -15968,9 +15968,9 @@ signed long int queue_add_block(struct s_queue *q, struct s_blockinfo *blkinfo, 
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct s_queueitem) /*88ul*/ );
-    item = (struct s_queueitem *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct s_queueitem) /*88ul*/ );
+    item = (struct s_queueitem *)return_value_malloc_1;
     if(item == ((struct s_queueitem *)NULL))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_add_block", 202, "malloc(%ld) failed: out of memory\n", (signed long int)sizeof(struct s_queueitem) /*88ul*/ );
@@ -15983,16 +15983,16 @@ signed long int queue_add_block(struct s_queue *q, struct s_blockinfo *blkinfo, 
       item->status = status;
       item->blkinfo = *blkinfo;
       item->next = (struct s_queueitem *)(void *)0;
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&q->mutex);
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&q->mutex);
       /* assertion pthread_mutex_lock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_lock$2 == 0);
+      assert(return_value_pthread_mutex_lock_2 == 0);
       if((signed int)q->endofqueue == 1)
       {
-        signed int return_value_pthread_mutex_unlock$3;
-        return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+        signed int return_value_pthread_mutex_unlock_3;
+        return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
         /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-        assert(return_value_pthread_mutex_unlock$3 == 0);
+        assert(return_value_pthread_mutex_unlock_3 == 0);
         return (signed long int)-5;
       }
 
@@ -16011,11 +16011,11 @@ signed long int queue_add_block(struct s_queue *q, struct s_blockinfo *blkinfo, 
         do
         {
           if(!(cur == ((struct s_queueitem *)NULL)))
-            tmp_if_expr$4 = cur->next != (struct s_queueitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = cur->next != (struct s_queueitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
             break;
 
           cur = cur->next;
@@ -16025,13 +16025,13 @@ signed long int queue_add_block(struct s_queue *q, struct s_blockinfo *blkinfo, 
       }
       q->blkcount = q->blkcount + 1ul;
       q->itemcount = q->itemcount + 1ul;
-      signed long int tmp_post$5 = q->curitemnum;
+      signed long int tmp_post_5 = q->curitemnum;
       q->curitemnum = q->curitemnum + 1l;
-      item->itemnum = tmp_post$5;
-      signed int return_value_pthread_mutex_unlock$6;
-      return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&q->mutex);
+      item->itemnum = tmp_post_5;
+      signed int return_value_pthread_mutex_unlock_6;
+      return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$6 == 0);
+      assert(return_value_pthread_mutex_unlock_6 == 0);
       pthread_cond_broadcast(&q->cond);
       return (signed long int)0;
     }
@@ -16055,9 +16055,9 @@ signed long int queue_add_header(struct s_queue *q, struct s_dico *d, char *magi
     memcpy((void *)headinfo.magic, (const void *)magic, (unsigned long int)4);
     headinfo.fsid = fsid;
     headinfo.dico = d;
-    signed long int return_value_queue_add_header_internal$1;
-    return_value_queue_add_header_internal$1=queue_add_header_internal(q, &headinfo);
-    return return_value_queue_add_header_internal$1;
+    signed long int return_value_queue_add_header_internal_1;
+    return_value_queue_add_header_internal_1=queue_add_header_internal(q, &headinfo);
+    return return_value_queue_add_header_internal_1;
   }
 }
 
@@ -16067,7 +16067,7 @@ signed long int queue_add_header_internal(struct s_queue *q, struct s_headinfo *
 {
   struct s_queueitem *item;
   struct s_queueitem *cur;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(headinfo == ((struct s_headinfo *)NULL) || q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_add_header_internal", 267, "parameter is null\n");
@@ -16076,9 +16076,9 @@ signed long int queue_add_header_internal(struct s_queue *q, struct s_headinfo *
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct s_queueitem) /*88ul*/ );
-    item = (struct s_queueitem *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct s_queueitem) /*88ul*/ );
+    item = (struct s_queueitem *)return_value_malloc_1;
     if(item == ((struct s_queueitem *)NULL))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_add_header_internal", 274, "malloc(%ld) failed: out of memory 1\n", (signed long int)sizeof(struct s_queueitem) /*88ul*/ );
@@ -16091,16 +16091,16 @@ signed long int queue_add_header_internal(struct s_queue *q, struct s_headinfo *
       item->type = 2;
       item->status = 3;
       item->next = (struct s_queueitem *)(void *)0;
-      signed int return_value_pthread_mutex_lock$2;
-      return_value_pthread_mutex_lock$2=pthread_mutex_lock(&q->mutex);
+      signed int return_value_pthread_mutex_lock_2;
+      return_value_pthread_mutex_lock_2=pthread_mutex_lock(&q->mutex);
       /* assertion pthread_mutex_lock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_lock$2 == 0);
+      assert(return_value_pthread_mutex_lock_2 == 0);
       if((signed int)q->endofqueue == 1)
       {
-        signed int return_value_pthread_mutex_unlock$3;
-        return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+        signed int return_value_pthread_mutex_unlock_3;
+        return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
         /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-        assert(return_value_pthread_mutex_unlock$3 == 0);
+        assert(return_value_pthread_mutex_unlock_3 == 0);
         return (signed long int)-5;
       }
 
@@ -16110,9 +16110,9 @@ signed long int queue_add_header_internal(struct s_queue *q, struct s_headinfo *
         t=get_timeout();
         pthread_cond_timedwait(&q->cond, &q->mutex, &t);
       }
-      signed long int tmp_post$4 = q->curitemnum;
+      signed long int tmp_post_4 = q->curitemnum;
       q->curitemnum = q->curitemnum + 1l;
-      item->itemnum = tmp_post$4;
+      item->itemnum = tmp_post_4;
       if(q->head == ((struct s_queueitem *)NULL))
         q->head = item;
 
@@ -16122,11 +16122,11 @@ signed long int queue_add_header_internal(struct s_queue *q, struct s_headinfo *
         do
         {
           if(!(cur == ((struct s_queueitem *)NULL)))
-            tmp_if_expr$5 = cur->next != (struct s_queueitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = cur->next != (struct s_queueitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
             break;
 
           cur = cur->next;
@@ -16135,10 +16135,10 @@ signed long int queue_add_header_internal(struct s_queue *q, struct s_headinfo *
         cur->next = item;
       }
       q->itemcount = q->itemcount + 1ul;
-      signed int return_value_pthread_mutex_unlock$6;
-      return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_6;
+      return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$6 == 0);
+      assert(return_value_pthread_mutex_unlock_6 == 0);
       pthread_cond_broadcast(&q->cond);
       return (signed long int)0;
     }
@@ -16150,7 +16150,7 @@ signed long int queue_add_header_internal(struct s_queue *q, struct s_headinfo *
 signed long int queue_check_next_item(struct s_queue *q, signed int *type, char *magic)
 {
   struct s_queueitem *cur;
-  _Bool return_value_queuelocked_get_end_of_queue$2;
+  _Bool return_value_queuelocked_get_end_of_queue_2;
   if(type == ((signed int *)NULL) || magic == ((char *)NULL) || q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_check_next_item", 634, "a parameter is null\n");
@@ -16161,10 +16161,10 @@ signed long int queue_check_next_item(struct s_queue *q, signed int *type, char 
   {
     memset((void *)magic, 0, (unsigned long int)4);
     *type = 0;
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     do
     {
       cur = q->head;
@@ -16175,8 +16175,8 @@ signed long int queue_check_next_item(struct s_queue *q, signed int *type, char 
 
       }
 
-      return_value_queuelocked_get_end_of_queue$2=queuelocked_get_end_of_queue(q);
-      if(!((signed int)return_value_queuelocked_get_end_of_queue$2 == 0))
+      return_value_queuelocked_get_end_of_queue_2=queuelocked_get_end_of_queue(q);
+      if(!((signed int)return_value_queuelocked_get_end_of_queue_2 == 0))
         break;
 
       struct timespec t;
@@ -16184,14 +16184,14 @@ signed long int queue_check_next_item(struct s_queue *q, signed int *type, char 
       pthread_cond_timedwait(&q->cond, &q->mutex, &t);
     }
     while((_Bool)1);
-    _Bool return_value_queuelocked_get_end_of_queue$4;
-    return_value_queuelocked_get_end_of_queue$4=queuelocked_get_end_of_queue(q);
-    if(!(return_value_queuelocked_get_end_of_queue$4 == (_Bool)0))
+    _Bool return_value_queuelocked_get_end_of_queue_4;
+    return_value_queuelocked_get_end_of_queue_4=queuelocked_get_end_of_queue(q);
+    if(!(return_value_queuelocked_get_end_of_queue_4 == (_Bool)0))
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$3 == 0);
+      assert(return_value_pthread_mutex_unlock_3 == 0);
       return (signed long int)-5;
     }
 
@@ -16204,10 +16204,10 @@ signed long int queue_check_next_item(struct s_queue *q, signed int *type, char 
         {
           *type = cur->type;
           memset((void *)magic, 0, (unsigned long int)4);
-          signed int return_value_pthread_mutex_unlock$5;
-          return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&q->mutex);
+          signed int return_value_pthread_mutex_unlock_5;
+          return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&q->mutex);
           /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-          assert(return_value_pthread_mutex_unlock$5 == 0);
+          assert(return_value_pthread_mutex_unlock_5 == 0);
           return (signed long int)0;
         }
 
@@ -16216,30 +16216,30 @@ signed long int queue_check_next_item(struct s_queue *q, signed int *type, char 
           {
             memcpy((void *)magic, (const void *)cur->headinfo.magic, (unsigned long int)4);
             *type = cur->type;
-            signed int return_value_pthread_mutex_unlock$6;
-            return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&q->mutex);
+            signed int return_value_pthread_mutex_unlock_6;
+            return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&q->mutex);
             /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-            assert(return_value_pthread_mutex_unlock$6 == 0);
+            assert(return_value_pthread_mutex_unlock_6 == 0);
             return (signed long int)0;
           }
 
           else
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_check_next_item", 675, "invalid item type in queue: type=%d\n", cur->type);
-            signed int return_value_pthread_mutex_unlock$7;
-            return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&q->mutex);
+            signed int return_value_pthread_mutex_unlock_7;
+            return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&q->mutex);
             /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-            assert(return_value_pthread_mutex_unlock$7 == 0);
+            assert(return_value_pthread_mutex_unlock_7 == 0);
             return (signed long int)-3;
           }
       }
 
     }
 
-    signed int return_value_pthread_mutex_unlock$8;
-    return_value_pthread_mutex_unlock$8=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_8;
+    return_value_pthread_mutex_unlock_8=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$8 == 0);
+    assert(return_value_pthread_mutex_unlock_8 == 0);
     pthread_cond_broadcast(&q->cond);
     return (signed long int)-4;
   }
@@ -16258,15 +16258,15 @@ signed long int queue_count(struct s_queue *q)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     itemcount = (signed long int)q->itemcount;
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$2 == 0);
+    assert(return_value_pthread_mutex_unlock_2 == 0);
     return itemcount;
   }
 }
@@ -16285,10 +16285,10 @@ signed long int queue_count_items_todo(struct s_queue *q)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     cur = q->head;
     for( ; !(cur == ((struct s_queueitem *)NULL)); cur = cur->next)
       if(cur->type == 1)
@@ -16298,10 +16298,10 @@ signed long int queue_count_items_todo(struct s_queue *q)
 
       }
 
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$2 == 0);
+    assert(return_value_pthread_mutex_unlock_2 == 0);
     return count;
   }
 }
@@ -16320,27 +16320,27 @@ signed long int queue_count_status(struct s_queue *q, signed int status)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     cur = q->head;
     for( ; !(cur == ((struct s_queueitem *)NULL)); cur = cur->next)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(status == 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = cur->status == status ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = cur->status == status ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         count = count + 1;
 
     }
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$3 == 0);
+    assert(return_value_pthread_mutex_unlock_3 == 0);
     return (signed long int)count;
   }
 }
@@ -16351,7 +16351,7 @@ signed long int queue_dequeue_block(struct s_queue *q, struct s_blockinfo *blkin
 {
   struct s_queueitem *cur;
   signed long int itemnum;
-  _Bool return_value_queuelocked_get_end_of_queue$2;
+  _Bool return_value_queuelocked_get_end_of_queue_2;
   if(blkinfo == ((struct s_blockinfo *)NULL) || q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_dequeue_block", 489, "a parameter is null\n");
@@ -16360,10 +16360,10 @@ signed long int queue_dequeue_block(struct s_queue *q, struct s_blockinfo *blkin
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     do
     {
       cur = q->head;
@@ -16374,8 +16374,8 @@ signed long int queue_dequeue_block(struct s_queue *q, struct s_blockinfo *blkin
 
       }
 
-      return_value_queuelocked_get_end_of_queue$2=queuelocked_get_end_of_queue(q);
-      if(!((signed int)return_value_queuelocked_get_end_of_queue$2 == 0))
+      return_value_queuelocked_get_end_of_queue_2=queuelocked_get_end_of_queue(q);
+      if(!((signed int)return_value_queuelocked_get_end_of_queue_2 == 0))
         break;
 
       struct timespec t;
@@ -16383,27 +16383,27 @@ signed long int queue_dequeue_block(struct s_queue *q, struct s_blockinfo *blkin
       pthread_cond_timedwait(&q->cond, &q->mutex, &t);
     }
     while((_Bool)1);
-    _Bool return_value_queuelocked_get_end_of_queue$4;
-    return_value_queuelocked_get_end_of_queue$4=queuelocked_get_end_of_queue(q);
-    if(!(return_value_queuelocked_get_end_of_queue$4 == (_Bool)0))
+    _Bool return_value_queuelocked_get_end_of_queue_4;
+    return_value_queuelocked_get_end_of_queue_4=queuelocked_get_end_of_queue(q);
+    if(!(return_value_queuelocked_get_end_of_queue_4 == (_Bool)0))
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$3 == 0);
+      assert(return_value_pthread_mutex_unlock_3 == 0);
       return (signed long int)-5;
     }
 
     cur = q->head;
     /* assertion (cur=q->head)!=((void *)0) */
     assert(cur != (struct s_queueitem *)(void *)0);
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(cur->type == 1)
-      tmp_if_expr$7 = cur->status == 3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = cur->status == 3 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
     {
       *blkinfo = cur->blkinfo;
       q->head = cur->next;
@@ -16411,10 +16411,10 @@ signed long int queue_dequeue_block(struct s_queue *q, struct s_blockinfo *blkin
       free((void *)cur);
       q->blkcount = q->blkcount - 1ul;
       q->itemcount = q->itemcount - 1ul;
-      signed int return_value_pthread_mutex_unlock$5;
-      return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_5;
+      return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$5 == 0);
+      assert(return_value_pthread_mutex_unlock_5 == 0);
       pthread_cond_broadcast(&q->cond);
       return itemnum;
     }
@@ -16422,10 +16422,10 @@ signed long int queue_dequeue_block(struct s_queue *q, struct s_blockinfo *blkin
     else
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_dequeue_block", 526, "dequeue - wrong type of data in the queue: wanted a block, found an header\n");
-      signed int return_value_pthread_mutex_unlock$6;
-      return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_6;
+      return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$6 == 0);
+      assert(return_value_pthread_mutex_unlock_6 == 0);
       pthread_cond_broadcast(&q->cond);
       return (signed long int)-6;
     }
@@ -16439,7 +16439,7 @@ signed long int queue_dequeue_first(struct s_queue *q, signed int *type, struct 
   struct s_queueitem *cur = (struct s_queueitem *)(void *)0;
   signed long int itemfound = (signed long int)-1;
   signed int ret;
-  _Bool return_value_queuelocked_get_end_of_queue$2;
+  _Bool return_value_queuelocked_get_end_of_queue_2;
   if(blkinfo == ((struct s_blockinfo *)NULL) || headinfo == ((struct s_headinfo *)NULL) || q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_dequeue_first", 428, "a parameter is null\n");
@@ -16448,14 +16448,14 @@ signed long int queue_dequeue_first(struct s_queue *q, signed int *type, struct 
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     do
     {
-      return_value_queuelocked_get_end_of_queue$2=queuelocked_get_end_of_queue(q);
-      if(!((signed int)return_value_queuelocked_get_end_of_queue$2 == 0))
+      return_value_queuelocked_get_end_of_queue_2=queuelocked_get_end_of_queue(q);
+      if(!((signed int)return_value_queuelocked_get_end_of_queue_2 == 0))
         break;
 
       cur = q->head;
@@ -16472,10 +16472,10 @@ signed long int queue_dequeue_first(struct s_queue *q, signed int *type, struct 
             q->head = cur->next;
             free((void *)cur);
             q->itemcount = q->itemcount - 1ul;
-            signed int return_value_pthread_mutex_unlock$3;
-            return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+            signed int return_value_pthread_mutex_unlock_3;
+            return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
             /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-            assert(return_value_pthread_mutex_unlock$3 == 0);
+            assert(return_value_pthread_mutex_unlock_3 == 0);
             pthread_cond_broadcast(&q->cond);
             return itemfound;
           }
@@ -16489,10 +16489,10 @@ signed long int queue_dequeue_first(struct s_queue *q, signed int *type, struct 
               q->head = cur->next;
               free((void *)cur);
               q->itemcount = q->itemcount - 1ul;
-              signed int return_value_pthread_mutex_unlock$4;
-              return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&q->mutex);
+              signed int return_value_pthread_mutex_unlock_4;
+              return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&q->mutex);
               /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-              assert(return_value_pthread_mutex_unlock$4 == 0);
+              assert(return_value_pthread_mutex_unlock_4 == 0);
               pthread_cond_broadcast(&q->cond);
               return itemfound;
             }
@@ -16500,10 +16500,10 @@ signed long int queue_dequeue_first(struct s_queue *q, signed int *type, struct 
             else
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_dequeue_first", 465, "invalid item type in queue\n");
-              signed int return_value_pthread_mutex_unlock$5;
-              return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&q->mutex);
+              signed int return_value_pthread_mutex_unlock_5;
+              return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&q->mutex);
               /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-              assert(return_value_pthread_mutex_unlock$5 == 0);
+              assert(return_value_pthread_mutex_unlock_5 == 0);
               return (signed long int)-3;
             }
         }
@@ -16515,13 +16515,13 @@ signed long int queue_dequeue_first(struct s_queue *q, signed int *type, struct 
       pthread_cond_timedwait(&q->cond, &q->mutex, &t);
     }
     while((_Bool)1);
-    _Bool return_value_queuelocked_get_end_of_queue$6;
-    return_value_queuelocked_get_end_of_queue$6=queuelocked_get_end_of_queue(q);
-    ret = (signed int)return_value_queuelocked_get_end_of_queue$6 == 1 ? -5 : -1;
-    signed int return_value_pthread_mutex_unlock$7;
-    return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&q->mutex);
+    _Bool return_value_queuelocked_get_end_of_queue_6;
+    return_value_queuelocked_get_end_of_queue_6=queuelocked_get_end_of_queue(q);
+    ret = (signed int)return_value_queuelocked_get_end_of_queue_6 == 1 ? -5 : -1;
+    signed int return_value_pthread_mutex_unlock_7;
+    return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$7 == 0);
+    assert(return_value_pthread_mutex_unlock_7 == 0);
     return (signed long int)ret;
   }
 }
@@ -16565,10 +16565,10 @@ signed long int queue_dequeue_header_internal(struct s_queue *q, struct s_headin
 {
   struct s_queueitem *cur;
   signed long int itemnum;
-  _Bool return_value_queuelocked_get_end_of_queue$2;
-  signed int return_value_pthread_mutex_unlock$5;
-  signed int return_value_pthread_mutex_unlock$6;
-  signed int return_value_pthread_mutex_unlock$7;
+  _Bool return_value_queuelocked_get_end_of_queue_2;
+  signed int return_value_pthread_mutex_unlock_5;
+  signed int return_value_pthread_mutex_unlock_6;
+  signed int return_value_pthread_mutex_unlock_7;
   if(headinfo == ((struct s_headinfo *)NULL) || q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_dequeue_header_internal", 561, "a parameter is null\n");
@@ -16577,10 +16577,10 @@ signed long int queue_dequeue_header_internal(struct s_queue *q, struct s_headin
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     do
     {
       cur = q->head;
@@ -16591,8 +16591,8 @@ signed long int queue_dequeue_header_internal(struct s_queue *q, struct s_headin
 
       }
 
-      return_value_queuelocked_get_end_of_queue$2=queuelocked_get_end_of_queue(q);
-      if(!((signed int)return_value_queuelocked_get_end_of_queue$2 == 0))
+      return_value_queuelocked_get_end_of_queue_2=queuelocked_get_end_of_queue(q);
+      if(!((signed int)return_value_queuelocked_get_end_of_queue_2 == 0))
         break;
 
       struct timespec t;
@@ -16600,14 +16600,14 @@ signed long int queue_dequeue_header_internal(struct s_queue *q, struct s_headin
       pthread_cond_timedwait(&q->cond, &q->mutex, &t);
     }
     while((_Bool)1);
-    _Bool return_value_queuelocked_get_end_of_queue$4;
-    return_value_queuelocked_get_end_of_queue$4=queuelocked_get_end_of_queue(q);
-    if(!(return_value_queuelocked_get_end_of_queue$4 == (_Bool)0))
+    _Bool return_value_queuelocked_get_end_of_queue_4;
+    return_value_queuelocked_get_end_of_queue_4=queuelocked_get_end_of_queue(q);
+    if(!(return_value_queuelocked_get_end_of_queue_4 == (_Bool)0))
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$3 == 0);
+      assert(return_value_pthread_mutex_unlock_3 == 0);
       return (signed long int)-5;
     }
 
@@ -16623,27 +16623,27 @@ signed long int queue_dequeue_header_internal(struct s_queue *q, struct s_headin
         itemnum = cur->itemnum;
         free((void *)cur);
         q->itemcount = q->itemcount - 1ul;
-        return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&q->mutex);
+        return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&q->mutex);
         /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-        assert(return_value_pthread_mutex_unlock$5 == 0);
+        assert(return_value_pthread_mutex_unlock_5 == 0);
         pthread_cond_broadcast(&q->cond);
         return itemnum;
       }
       case 1:
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_dequeue_header_internal", 596, "dequeue - wrong type of data in the queue: expected a dico and found a block\n");
-        return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&q->mutex);
+        return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&q->mutex);
         /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-        assert(return_value_pthread_mutex_unlock$6 == 0);
+        assert(return_value_pthread_mutex_unlock_6 == 0);
         pthread_cond_broadcast(&q->cond);
         return (signed long int)-6;
       }
       default:
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_dequeue_header_internal", 601, "dequeue - wrong type of data in the queue: expected a dico and found an unknown item\n");
-        return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&q->mutex);
+        return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&q->mutex);
         /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-        assert(return_value_pthread_mutex_unlock$7 == 0);
+        assert(return_value_pthread_mutex_unlock_7 == 0);
         pthread_cond_broadcast(&q->cond);
         return (signed long int)-6;
       }
@@ -16665,10 +16665,10 @@ signed long int queue_destroy(struct s_queue *q)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     cur = q->head;
     for( ; !(cur == ((struct s_queueitem *)NULL)); cur = next)
     {
@@ -16677,18 +16677,18 @@ signed long int queue_destroy(struct s_queue *q)
     }
     q->head = (struct s_queueitem *)(void *)0;
     q->itemcount = (unsigned long int)0;
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$2 == 0);
-    signed int return_value_pthread_mutex_destroy$3;
-    return_value_pthread_mutex_destroy$3=pthread_mutex_destroy(&q->mutex);
+    assert(return_value_pthread_mutex_unlock_2 == 0);
+    signed int return_value_pthread_mutex_destroy_3;
+    return_value_pthread_mutex_destroy_3=pthread_mutex_destroy(&q->mutex);
     /* assertion pthread_mutex_destroy(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_destroy$3 == 0);
-    signed int return_value_pthread_cond_destroy$4;
-    return_value_pthread_cond_destroy$4=pthread_cond_destroy(&q->cond);
+    assert(return_value_pthread_mutex_destroy_3 == 0);
+    signed int return_value_pthread_cond_destroy_4;
+    return_value_pthread_cond_destroy_4=pthread_cond_destroy(&q->cond);
     /* assertion pthread_cond_destroy(&q->cond)==0 */
-    assert(return_value_pthread_cond_destroy$4 == 0);
+    assert(return_value_pthread_cond_destroy_4 == 0);
     return (signed long int)0;
   }
 }
@@ -16698,7 +16698,7 @@ signed long int queue_destroy(struct s_queue *q)
 signed long int queue_destroy_first_item(struct s_queue *q)
 {
   struct s_queueitem *cur;
-  _Bool return_value_queuelocked_get_end_of_queue$2;
+  _Bool return_value_queuelocked_get_end_of_queue_2;
   if(q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_destroy_first_item", 693, "a parameter is null\n");
@@ -16707,10 +16707,10 @@ signed long int queue_destroy_first_item(struct s_queue *q)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     do
     {
       cur = q->head;
@@ -16721,8 +16721,8 @@ signed long int queue_destroy_first_item(struct s_queue *q)
 
       }
 
-      return_value_queuelocked_get_end_of_queue$2=queuelocked_get_end_of_queue(q);
-      if(!((signed int)return_value_queuelocked_get_end_of_queue$2 == 0))
+      return_value_queuelocked_get_end_of_queue_2=queuelocked_get_end_of_queue(q);
+      if(!((signed int)return_value_queuelocked_get_end_of_queue_2 == 0))
         break;
 
       struct timespec t;
@@ -16730,14 +16730,14 @@ signed long int queue_destroy_first_item(struct s_queue *q)
       pthread_cond_timedwait(&q->cond, &q->mutex, &t);
     }
     while((_Bool)1);
-    _Bool return_value_queuelocked_get_end_of_queue$4;
-    return_value_queuelocked_get_end_of_queue$4=queuelocked_get_end_of_queue(q);
-    if(!(return_value_queuelocked_get_end_of_queue$4 == (_Bool)0))
+    _Bool return_value_queuelocked_get_end_of_queue_4;
+    return_value_queuelocked_get_end_of_queue_4=queuelocked_get_end_of_queue(q);
+    if(!(return_value_queuelocked_get_end_of_queue_4 == (_Bool)0))
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$3 == 0);
+      assert(return_value_pthread_mutex_unlock_3 == 0);
       return (signed long int)-5;
     }
 
@@ -16758,10 +16758,10 @@ signed long int queue_destroy_first_item(struct s_queue *q)
     q->head = cur->next;
     free((void *)cur);
     q->itemcount = q->itemcount - 1ul;
-    signed int return_value_pthread_mutex_unlock$5;
-    return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_5;
+    return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$5 == 0);
+    assert(return_value_pthread_mutex_unlock_5 == 0);
     pthread_cond_broadcast(&q->cond);
     return (signed long int)0;
   }
@@ -16780,21 +16780,21 @@ _Bool queue_get_end_of_queue(struct s_queue *q)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
-    _Bool tmp_if_expr$2;
+    assert(return_value_pthread_mutex_lock_1 == 0);
+    _Bool tmp_if_expr_2;
     if(!(q->itemcount >= 1ul))
-      tmp_if_expr$2 = (signed int)q->endofqueue == 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)q->endofqueue == 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    res = tmp_if_expr$2;
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+      tmp_if_expr_2 = (_Bool)0;
+    res = tmp_if_expr_2;
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$3 == 0);
+    assert(return_value_pthread_mutex_unlock_3 == 0);
     return res;
   }
 }
@@ -16806,7 +16806,7 @@ signed long int queue_get_first_block_todo(struct s_queue *q, struct s_blockinfo
   struct s_queueitem *cur;
   signed long int itemfound = (signed long int)-1;
   signed int res;
-  _Bool return_value_queuelocked_get_end_of_queue$2;
+  _Bool return_value_queuelocked_get_end_of_queue_2;
   if(blkinfo == ((struct s_blockinfo *)NULL) || q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_get_first_block_todo", 381, "a parameter is null\n");
@@ -16815,14 +16815,14 @@ signed long int queue_get_first_block_todo(struct s_queue *q, struct s_blockinfo
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     do
     {
-      return_value_queuelocked_get_end_of_queue$2=queuelocked_get_end_of_queue(q);
-      if(!((signed int)return_value_queuelocked_get_end_of_queue$2 == 0))
+      return_value_queuelocked_get_end_of_queue_2=queuelocked_get_end_of_queue(q);
+      if(!((signed int)return_value_queuelocked_get_end_of_queue_2 == 0))
         break;
 
       cur = q->head;
@@ -16834,10 +16834,10 @@ signed long int queue_get_first_block_todo(struct s_queue *q, struct s_blockinfo
             *blkinfo = cur->blkinfo;
             cur->status = 2;
             itemfound = cur->itemnum;
-            signed int return_value_pthread_mutex_unlock$3;
-            return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+            signed int return_value_pthread_mutex_unlock_3;
+            return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
             /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-            assert(return_value_pthread_mutex_unlock$3 == 0);
+            assert(return_value_pthread_mutex_unlock_3 == 0);
             pthread_cond_broadcast(&q->cond);
             return itemfound;
           }
@@ -16851,10 +16851,10 @@ signed long int queue_get_first_block_todo(struct s_queue *q, struct s_blockinfo
       {
         if(!(res == 110))
         {
-          signed int return_value_pthread_mutex_unlock$4;
-          return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&q->mutex);
+          signed int return_value_pthread_mutex_unlock_4;
+          return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&q->mutex);
           /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-          assert(return_value_pthread_mutex_unlock$4 == 0);
+          assert(return_value_pthread_mutex_unlock_4 == 0);
           return (signed long int)-1;
         }
 
@@ -16862,13 +16862,13 @@ signed long int queue_get_first_block_todo(struct s_queue *q, struct s_blockinfo
 
     }
     while((_Bool)1);
-    signed int return_value_pthread_mutex_unlock$5;
-    return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_5;
+    return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$5 == 0);
-    _Bool return_value_queuelocked_get_end_of_queue$6;
-    return_value_queuelocked_get_end_of_queue$6=queuelocked_get_end_of_queue(q);
-    if(!(return_value_queuelocked_get_end_of_queue$6 == (_Bool)0))
+    assert(return_value_pthread_mutex_unlock_5 == 0);
+    _Bool return_value_queuelocked_get_end_of_queue_6;
+    return_value_queuelocked_get_end_of_queue_6=queuelocked_get_end_of_queue(q);
+    if(!(return_value_queuelocked_get_end_of_queue_6 == (_Bool)0))
       return (signed long int)-5;
 
     else
@@ -16880,7 +16880,7 @@ signed long int queue_get_first_block_todo(struct s_queue *q, struct s_blockinfo
 // file queue.h line 85
 signed long int queue_init(struct s_queue *q, signed long int blkmax)
 {
-  union anonymous$6 attr;
+  union anonymous_6 attr;
   if(q == ((struct s_queue *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "queue.c", "queue_init", 51, "q is NULL\n");
@@ -16895,17 +16895,17 @@ signed long int queue_init(struct s_queue *q, signed long int blkmax)
     q->blkcount = (unsigned long int)0;
     q->blkmax = (unsigned long int)blkmax;
     q->endofqueue = (_Bool)0;
-    signed int return_value_pthread_mutexattr_init$1;
-    return_value_pthread_mutexattr_init$1=pthread_mutexattr_init(&attr);
+    signed int return_value_pthread_mutexattr_init_1;
+    return_value_pthread_mutexattr_init_1=pthread_mutexattr_init(&attr);
     /* assertion pthread_mutexattr_init(&attr)==0 */
-    assert(return_value_pthread_mutexattr_init$1 == 0);
-    signed int return_value_pthread_mutexattr_settype$2;
-    return_value_pthread_mutexattr_settype$2=pthread_mutexattr_settype(&attr, 2);
+    assert(return_value_pthread_mutexattr_init_1 == 0);
+    signed int return_value_pthread_mutexattr_settype_2;
+    return_value_pthread_mutexattr_settype_2=pthread_mutexattr_settype(&attr, 2);
     /* assertion pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_ERRORCHECK)==0 */
-    assert(return_value_pthread_mutexattr_settype$2 == 0);
-    signed int return_value_pthread_mutex_init$3;
-    return_value_pthread_mutex_init$3=pthread_mutex_init(&q->mutex, &attr);
-    if(!(return_value_pthread_mutex_init$3 == 0))
+    assert(return_value_pthread_mutexattr_settype_2 == 0);
+    signed int return_value_pthread_mutex_init_3;
+    return_value_pthread_mutex_init_3=pthread_mutex_init(&q->mutex, &attr);
+    if(!(return_value_pthread_mutex_init_3 == 0))
     {
       fsaprintf(3, (_Bool)0, 3 >= 3, "queue.c", "queue_init", 67, "pthread_mutex_init failed\n");
       return (signed long int)-1;
@@ -16913,9 +16913,9 @@ signed long int queue_init(struct s_queue *q, signed long int blkmax)
 
     else
     {
-      signed int return_value_pthread_cond_init$4;
-      return_value_pthread_cond_init$4=pthread_cond_init(&q->cond, (const union anonymous$6 *)(void *)0);
-      if(!(return_value_pthread_cond_init$4 == 0))
+      signed int return_value_pthread_cond_init_4;
+      return_value_pthread_cond_init_4=pthread_cond_init(&q->cond, (const union anonymous_6 *)(void *)0);
+      if(!(return_value_pthread_cond_init_4 == 0))
       {
         fsaprintf(3, (_Bool)0, 3 >= 3, "queue.c", "queue_init", 72, "pthread_cond_init failed\n");
         return (signed long int)-1;
@@ -16940,16 +16940,16 @@ signed long int queue_replace_block(struct s_queue *q, signed long int itemnum, 
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     if(q->head == ((struct s_queueitem *)NULL))
     {
-      signed int return_value_pthread_mutex_unlock$2;
-      return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&q->mutex);
+      signed int return_value_pthread_mutex_unlock_2;
+      return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&q->mutex);
       /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-      assert(return_value_pthread_mutex_unlock$2 == 0);
+      assert(return_value_pthread_mutex_unlock_2 == 0);
       fsaprintf(4, (_Bool)0, 4 >= 3, "queue.c", "queue_replace_block", 329, "q->head is NULL: list is empty\n");
       return (signed long int)-4;
     }
@@ -16960,18 +16960,18 @@ signed long int queue_replace_block(struct s_queue *q, signed long int itemnum, 
       {
         cur->status = newstatus;
         cur->blkinfo = *blkinfo;
-        signed int return_value_pthread_mutex_unlock$3;
-        return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&q->mutex);
+        signed int return_value_pthread_mutex_unlock_3;
+        return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&q->mutex);
         /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-        assert(return_value_pthread_mutex_unlock$3 == 0);
+        assert(return_value_pthread_mutex_unlock_3 == 0);
         pthread_cond_broadcast(&q->cond);
         return (signed long int)0;
       }
 
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$4 == 0);
+    assert(return_value_pthread_mutex_unlock_4 == 0);
     return (signed long int)-4;
   }
 }
@@ -16988,15 +16988,15 @@ signed long int queue_set_end_of_queue(struct s_queue *q, _Bool state)
 
   else
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&q->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&q->mutex);
     /* assertion pthread_mutex_lock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_lock$1 == 0);
+    assert(return_value_pthread_mutex_lock_1 == 0);
     q->endofqueue = state;
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&q->mutex);
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&q->mutex);
     /* assertion pthread_mutex_unlock(&q->mutex)==0 */
-    assert(return_value_pthread_mutex_unlock$2 == 0);
+    assert(return_value_pthread_mutex_unlock_2 == 0);
     pthread_cond_broadcast(&q->cond);
     return (signed long int)0;
   }
@@ -17015,13 +17015,13 @@ _Bool queuelocked_get_end_of_queue(struct s_queue *q)
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(q->itemcount >= 1ul))
-      tmp_if_expr$1 = (signed int)q->endofqueue == 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)q->endofqueue == 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    res = tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    res = tmp_if_expr_1;
     return res;
   }
 }
@@ -17049,13 +17049,13 @@ _Bool queuelocked_is_first_item_ready(struct s_queue *q)
 
       else
       {
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if(cur->type == 1)
-          tmp_if_expr$1 = cur->status == 3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = cur->status == 3 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           return (_Bool)1;
 
         else
@@ -17071,7 +17071,7 @@ signed int regfile_exists(char *filepath)
   struct stat64 st;
   signed int res;
   res=stat64(filepath, &st);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if((61440u & st.st_mode) == 32768u && res == 0)
     return 1;
 
@@ -17079,8 +17079,8 @@ signed int regfile_exists(char *filepath)
   {
     if(res == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 2)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 2)
         return 0;
 
     }
@@ -17139,9 +17139,9 @@ signed int regmulti_init(struct s_regmulti *m, unsigned int maxblksize)
   {
     m->maxitems = (unsigned int)512;
     m->maxblksize = maxblksize < (unsigned int)921600 ? maxblksize : (unsigned int)921600;
-    signed int return_value_regmulti_empty$1;
-    return_value_regmulti_empty$1=regmulti_empty(m);
-    return return_value_regmulti_empty$1;
+    signed int return_value_regmulti_empty_1;
+    return_value_regmulti_empty_1=regmulti_empty(m);
+    return return_value_regmulti_empty_1;
   }
 }
 
@@ -17192,9 +17192,9 @@ signed int regmulti_rest_getfile(struct s_regmulti *m, signed int index, struct 
     else
     {
       *filehead = m->objhead[(signed long int)index];
-      signed int return_value_dico_get_u64$1;
-      return_value_dico_get_u64$1=dico_get_u64(m->objhead[(signed long int)index], (unsigned char)0, (unsigned short int)8, &filesize);
-      if(!(return_value_dico_get_u64$1 == 0))
+      signed int return_value_dico_get_u64_1;
+      return_value_dico_get_u64_1=dico_get_u64(m->objhead[(signed long int)index], (unsigned char)0, (unsigned short int)8, &filesize);
+      if(!(return_value_dico_get_u64_1 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_rest_getfile", 236, "Cannot read filesize DISKITEMKEY_SIZE from archive\n");
         return -1;
@@ -17202,9 +17202,9 @@ signed int regmulti_rest_getfile(struct s_regmulti *m, signed int index, struct 
 
       else
       {
-        signed int return_value_dico_get_u32$2;
-        return_value_dico_get_u32$2=dico_get_u32(m->objhead[(signed long int)index], (unsigned char)0, (unsigned short int)15, &offset);
-        if(!(return_value_dico_get_u32$2 == 0))
+        signed int return_value_dico_get_u32_2;
+        return_value_dico_get_u32_2=dico_get_u32(m->objhead[(signed long int)index], (unsigned char)0, (unsigned short int)15, &offset);
+        if(!(return_value_dico_get_u32_2 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_rest_getfile", 240, "Cannot read filesize DISKITEMKEY_SIZE from archive\n");
           return -1;
@@ -17331,43 +17331,43 @@ signed int regmulti_save_enqueue(struct s_regmulti *m, struct s_queue *q, signed
           return -1;
         }
 
-        signed int return_value_dico_get_u64$1;
-        return_value_dico_get_u64$1=dico_get_u64(m->objhead[(signed long int)i], (unsigned char)0, (unsigned short int)8, &filesize);
-        if(!(return_value_dico_get_u64$1 == 0))
+        signed int return_value_dico_get_u64_1;
+        return_value_dico_get_u64_1=dico_get_u64(m->objhead[(signed long int)i], (unsigned char)0, (unsigned short int)8, &filesize);
+        if(!(return_value_dico_get_u64_1 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_save_enqueue", 138, "Cannot read filesize DISKITEMKEY_SIZE from archive\n");
           return -1;
         }
 
-        signed int return_value_dico_add_u32$2;
-        return_value_dico_add_u32$2=dico_add_u32(m->objhead[(signed long int)i], (unsigned char)0, (unsigned short int)14, (unsigned int)m->count);
-        if(!(return_value_dico_add_u32$2 == 0))
+        signed int return_value_dico_add_u32_2;
+        return_value_dico_add_u32_2=dico_add_u32(m->objhead[(signed long int)i], (unsigned char)0, (unsigned short int)14, (unsigned int)m->count);
+        if(!(return_value_dico_add_u32_2 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_save_enqueue", 144, "dico_add_u32(DISKITEMKEY_MULTIFILESCOUNT) failed\n");
           return -1;
         }
 
-        signed int return_value_dico_add_u32$3;
-        return_value_dico_add_u32$3=dico_add_u32(m->objhead[(signed long int)i], (unsigned char)0, (unsigned short int)15, (unsigned int)offset);
-        if(!(return_value_dico_add_u32$3 == 0))
+        signed int return_value_dico_add_u32_3;
+        return_value_dico_add_u32_3=dico_add_u32(m->objhead[(signed long int)i], (unsigned char)0, (unsigned short int)15, (unsigned int)offset);
+        if(!(return_value_dico_add_u32_3 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_save_enqueue", 150, "dico_add_u32(DISKITEMKEY_MULTIFILESCOUNT) failed\n");
           return -1;
         }
 
         offset = offset + (unsigned int)filesize;
-        signed long int return_value_queue_add_header$4;
-        return_value_queue_add_header$4=queue_add_header(q, m->objhead[(signed long int)i], "ObJt", (unsigned short int)fsid);
-        if(!(return_value_queue_add_header$4 == 0l))
+        signed long int return_value_queue_add_header_4;
+        return_value_queue_add_header_4=queue_add_header(q, m->objhead[(signed long int)i], "ObJt", (unsigned short int)fsid);
+        if(!(return_value_queue_add_header_4 == 0l))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_save_enqueue", 156, "queue_add_header() failed\n");
           return -1;
         }
 
       }
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)m->usedsize);
-      dynblock = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)m->usedsize);
+      dynblock = (char *)return_value_malloc_5;
       if(dynblock == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_save_enqueue", 163, "malloc(%ld) failed: out of memory\n", (signed long int)m->usedsize);
@@ -17382,9 +17382,9 @@ signed int regmulti_save_enqueue(struct s_regmulti *m, struct s_queue *q, signed
         blkinfo.blkdata = (char *)dynblock;
         blkinfo.blkoffset = (unsigned long int)0;
         blkinfo.blkfsid = (unsigned short int)fsid;
-        signed long int return_value_queue_add_block$6;
-        return_value_queue_add_block$6=queue_add_block(q, &blkinfo, 1);
-        if(!(return_value_queue_add_block$6 == 0l))
+        signed long int return_value_queue_add_block_6;
+        return_value_queue_add_block_6=queue_add_block(q, &blkinfo, 1);
+        if(!(return_value_queue_add_block_6 == 0l))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "regmulti.c", "regmulti_save_enqueue", 174, "queue_add_block() failed\n");
           return -1;
@@ -17418,10 +17418,10 @@ signed int reiser4_getinfo(struct s_dico *d, char *devname)
   signed int fd;
   signed int res;
   fd=open64(devname, 00 | 0);
-  signed long int return_value_lseek$1;
-  signed long int return_value_read$2;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_strncmp$4;
+  signed long int return_value_lseek_1;
+  signed long int return_value_read_2;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_strncmp_4;
   if(!(fd >= 0))
   {
     ret = -1;
@@ -17430,8 +17430,8 @@ signed int reiser4_getinfo(struct s_dico *d, char *devname)
 
   else
   {
-    return_value_lseek$1=lseek(fd, (signed long int)(64 * 1024), 0);
-    if(!(return_value_lseek$1 == 65536l))
+    return_value_lseek_1=lseek(fd, (signed long int)(64 * 1024), 0);
+    if(!(return_value_lseek_1 == 65536l))
     {
       ret = -2;
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_reiser4.c", "reiser4_getinfo", 91, "cannot lseek(fd, REISER4_DISK_OFFSET_IN_BYTES, SEEK_SET) on %s\n", devname);
@@ -17439,8 +17439,8 @@ signed int reiser4_getinfo(struct s_dico *d, char *devname)
 
     else
     {
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct reiser4_master_sb) /*60ul*/ );
-      res = (signed int)return_value_read$2;
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct reiser4_master_sb) /*60ul*/ );
+      res = (signed int)return_value_read_2;
       if(!((unsigned long int)res == sizeof(struct reiser4_master_sb) /*60ul*/ ))
       {
         ret = -3;
@@ -17449,9 +17449,9 @@ signed int reiser4_getinfo(struct s_dico *d, char *devname)
 
       else
       {
-        return_value_strlen$3=strlen("ReIsEr4");
-        return_value_strncmp$4=strncmp(sb.magic, "ReIsEr4", return_value_strlen$3);
-        if(return_value_strncmp$4 == 0)
+        return_value_strlen_3=strlen("ReIsEr4");
+        return_value_strncmp_4=strncmp(sb.magic, "ReIsEr4", return_value_strlen_3);
+        if(return_value_strncmp_4 == 0)
           dico_add_string(d, (unsigned char)0, (unsigned short int)8, "reiserfs-4.0");
 
         else
@@ -17503,11 +17503,11 @@ signed int reiser4_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   char options[2048l];
   signed int exitst;
   unsigned long int temp64;
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.reiser4 -V");
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$5;
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.reiser4 -V");
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_5;
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_reiser4.c", "reiser4_mkfs", 48, "mkfs.reiser4 not found. please install reiser4progs on your system or check the PATH.\n");
     return -1;
@@ -17517,34 +17517,34 @@ signed int reiser4_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   {
     memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
     strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " %s ", fsoptions);
-    signed int return_value_dico_get_string$3;
-    return_value_dico_get_string$3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(return_value_dico_get_string$3 == 0)
+    signed int return_value_dico_get_string_3;
+    return_value_dico_get_string_3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(return_value_dico_get_string_3 == 0)
     {
-      return_value_strlen$2=strlen(buffer);
-      if(return_value_strlen$2 >= 1ul)
+      return_value_strlen_2=strlen(buffer);
+      if(return_value_strlen_2 >= 1ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -L '%.16s' ", (const void *)buffer);
 
     }
 
-    signed int return_value_dico_get_u64$4;
-    return_value_dico_get_u64$4=dico_get_u64(d, (unsigned char)0, (unsigned short int)16, &temp64);
-    if(return_value_dico_get_u64$4 == 0)
+    signed int return_value_dico_get_u64_4;
+    return_value_dico_get_u64_4=dico_get_u64(d, (unsigned char)0, (unsigned short int)16, &temp64);
+    if(return_value_dico_get_u64_4 == 0)
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -b %ld ", (signed long int)temp64);
 
-    signed int return_value_dico_get_string$6;
-    return_value_dico_get_string$6=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(return_value_dico_get_string$6 == 0)
+    signed int return_value_dico_get_string_6;
+    return_value_dico_get_string_6=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(return_value_dico_get_string_6 == 0)
     {
-      return_value_strlen$5=strlen(buffer);
-      if(return_value_strlen$5 == 36ul)
+      return_value_strlen_5=strlen(buffer);
+      if(return_value_strlen_5 == 36ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -U %s ", (const void *)buffer);
 
     }
 
-    signed int return_value_exec_command$7;
-    return_value_exec_command$7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.reiser4 -y %s %s", partition, (const void *)options);
-    if(!(return_value_exec_command$7 == 0) || !(exitst == 0))
+    signed int return_value_exec_command_7;
+    return_value_exec_command_7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.reiser4 -y %s %s", partition, (const void *)options);
+    if(!(return_value_exec_command_7 == 0) || !(exitst == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_reiser4.c", "reiser4_mkfs", 67, "command [%s] failed\n", (const void *)command);
       return -1;
@@ -17559,9 +17559,9 @@ signed int reiser4_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 // file fs_reiser4.c line 146
 signed int reiser4_mount(char *partition, char *mntbuf, char *fsbuf, signed int flags, char *mntinfo)
 {
-  signed int return_value_generic_mount$1;
-  return_value_generic_mount$1=generic_mount(partition, mntbuf, fsbuf, (char *)(void *)0, flags);
-  return return_value_generic_mount$1;
+  signed int return_value_generic_mount_1;
+  return_value_generic_mount_1=generic_mount(partition, mntbuf, fsbuf, (char *)(void *)0, flags);
+  return return_value_generic_mount_1;
 }
 
 // reiser4_test
@@ -17576,9 +17576,9 @@ signed int reiser4_test(char *devname)
 
   else
   {
-    signed long int return_value_lseek$1;
-    return_value_lseek$1=lseek(fd, (signed long int)(64 * 1024), 0);
-    if(!(return_value_lseek$1 == 65536l))
+    signed long int return_value_lseek_1;
+    return_value_lseek_1=lseek(fd, (signed long int)(64 * 1024), 0);
+    if(!(return_value_lseek_1 == 65536l))
     {
       close(fd);
       return 0;
@@ -17586,9 +17586,9 @@ signed int reiser4_test(char *devname)
 
     else
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct reiser4_master_sb) /*60ul*/ );
-      if(!((unsigned long int)return_value_read$2 == sizeof(struct reiser4_master_sb) /*60ul*/ ))
+      signed long int return_value_read_2;
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct reiser4_master_sb) /*60ul*/ );
+      if(!((unsigned long int)return_value_read_2 == sizeof(struct reiser4_master_sb) /*60ul*/ ))
       {
         close(fd);
         return 0;
@@ -17596,11 +17596,11 @@ signed int reiser4_test(char *devname)
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen("ReIsEr4");
-        signed int return_value_strncmp$4;
-        return_value_strncmp$4=strncmp(sb.magic, "ReIsEr4", return_value_strlen$3);
-        if(!(return_value_strncmp$4 == 0))
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen("ReIsEr4");
+        signed int return_value_strncmp_4;
+        return_value_strncmp_4=strncmp(sb.magic, "ReIsEr4", return_value_strlen_3);
+        if(!(return_value_strncmp_4 == 0))
         {
           close(fd);
           return 0;
@@ -17620,9 +17620,9 @@ signed int reiser4_test(char *devname)
 // file fs_reiser4.c line 151
 signed int reiser4_umount(char *partition, char *mntbuf)
 {
-  signed int return_value_generic_umount$1;
-  return_value_generic_umount$1=generic_umount(mntbuf);
-  return return_value_generic_umount$1;
+  signed int return_value_generic_umount_1;
+  return_value_generic_umount_1=generic_umount(mntbuf);
+  return return_value_generic_umount_1;
 }
 
 // reiserfs_get_reqmntopt
@@ -17651,12 +17651,12 @@ signed int reiserfs_getinfo(struct s_dico *d, char *devname)
   signed int fd = -1;
   signed int res;
   fd=open64(devname, 00 | 0);
-  signed long int return_value_lseek$1;
-  signed long int return_value_read$2;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_strncmp$6;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_strncmp$4;
+  signed long int return_value_lseek_1;
+  signed long int return_value_read_2;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_strncmp_6;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_strncmp_4;
   if(!(fd >= 0))
   {
     ret = -1;
@@ -17665,8 +17665,8 @@ signed int reiserfs_getinfo(struct s_dico *d, char *devname)
 
   else
   {
-    return_value_lseek$1=lseek(fd, (signed long int)(64 * 1024), 0);
-    if(!(return_value_lseek$1 == 65536l))
+    return_value_lseek_1=lseek(fd, (signed long int)(64 * 1024), 0);
+    if(!(return_value_lseek_1 == 65536l))
     {
       ret = -2;
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_reiserfs.c", "reiserfs_getinfo", 91, "cannot lseek(fd, REISERFS_DISK_OFFSET_IN_BYTES, SEEK_SET) on %s\n", devname);
@@ -17674,8 +17674,8 @@ signed int reiserfs_getinfo(struct s_dico *d, char *devname)
 
     else
     {
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct reiserfs_super_block) /*204ul*/ );
-      res = (signed int)return_value_read$2;
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct reiserfs_super_block) /*204ul*/ );
+      res = (signed int)return_value_read_2;
       if(!((unsigned long int)res == sizeof(struct reiserfs_super_block) /*204ul*/ ))
       {
         ret = -3;
@@ -17684,16 +17684,16 @@ signed int reiserfs_getinfo(struct s_dico *d, char *devname)
 
       else
       {
-        return_value_strlen$5=strlen("ReIsErFs");
-        return_value_strncmp$6=strncmp(sb.s_v1.s_magic, "ReIsErFs", return_value_strlen$5);
-        if(return_value_strncmp$6 == 0)
+        return_value_strlen_5=strlen("ReIsErFs");
+        return_value_strncmp_6=strncmp(sb.s_v1.s_magic, "ReIsErFs", return_value_strlen_5);
+        if(return_value_strncmp_6 == 0)
           dico_add_string(d, (unsigned char)0, (unsigned short int)8, "reiserfs-3.5");
 
         else
         {
-          return_value_strlen$3=strlen("ReIsEr2Fs");
-          return_value_strncmp$4=strncmp(sb.s_v1.s_magic, "ReIsEr2Fs", return_value_strlen$3);
-          if(return_value_strncmp$4 == 0)
+          return_value_strlen_3=strlen("ReIsEr2Fs");
+          return_value_strncmp_4=strncmp(sb.s_v1.s_magic, "ReIsEr2Fs", return_value_strlen_3);
+          if(return_value_strncmp_4 == 0)
             dico_add_string(d, (unsigned char)0, (unsigned short int)8, "reiserfs-3.6");
 
           else
@@ -17736,11 +17736,11 @@ signed int reiserfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   char options[2048l];
   signed int exitst;
   unsigned long int temp64;
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkreiserfs -V");
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$5;
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkreiserfs -V");
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_5;
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_reiserfs.c", "reiserfs_mkfs", 48, "mkreiserfs not found. please install reiserfsprogs-3.6 on your system or check the PATH.\n");
     return -1;
@@ -17750,34 +17750,34 @@ signed int reiserfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   {
     memset((void *)options, 0, sizeof(char [2048l]) /*2048ul*/ );
     strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " %s ", fsoptions);
-    signed int return_value_dico_get_string$3;
-    return_value_dico_get_string$3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(return_value_dico_get_string$3 == 0)
+    signed int return_value_dico_get_string_3;
+    return_value_dico_get_string_3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(return_value_dico_get_string_3 == 0)
     {
-      return_value_strlen$2=strlen(buffer);
-      if(return_value_strlen$2 >= 1ul)
+      return_value_strlen_2=strlen(buffer);
+      if(return_value_strlen_2 >= 1ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -l '%.16s' ", (const void *)buffer);
 
     }
 
-    signed int return_value_dico_get_u64$4;
-    return_value_dico_get_u64$4=dico_get_u64(d, (unsigned char)0, (unsigned short int)15, &temp64);
-    if(return_value_dico_get_u64$4 == 0)
+    signed int return_value_dico_get_u64_4;
+    return_value_dico_get_u64_4=dico_get_u64(d, (unsigned char)0, (unsigned short int)15, &temp64);
+    if(return_value_dico_get_u64_4 == 0)
       strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -b %ld ", (signed long int)temp64);
 
-    signed int return_value_dico_get_string$6;
-    return_value_dico_get_string$6=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-    if(return_value_dico_get_string$6 == 0)
+    signed int return_value_dico_get_string_6;
+    return_value_dico_get_string_6=dico_get_string(d, (unsigned char)0, (unsigned short int)6, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+    if(return_value_dico_get_string_6 == 0)
     {
-      return_value_strlen$5=strlen(buffer);
-      if(return_value_strlen$5 == 36ul)
+      return_value_strlen_5=strlen(buffer);
+      if(return_value_strlen_5 == 36ul)
         strlcatf(options, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -u %s ", (const void *)buffer);
 
     }
 
-    signed int return_value_exec_command$7;
-    return_value_exec_command$7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkreiserfs -f %s %s", partition, (const void *)options);
-    if(!(return_value_exec_command$7 == 0) || !(exitst == 0))
+    signed int return_value_exec_command_7;
+    return_value_exec_command_7=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkreiserfs -f %s %s", partition, (const void *)options);
+    if(!(return_value_exec_command_7 == 0) || !(exitst == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "fs_reiserfs.c", "reiserfs_mkfs", 67, "command [%s] failed\n", (const void *)command);
       return -1;
@@ -17792,9 +17792,9 @@ signed int reiserfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 // file fs_reiserfs.c line 140
 signed int reiserfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int flags, char *mntinfo)
 {
-  signed int return_value_generic_mount$1;
-  return_value_generic_mount$1=generic_mount(partition, mntbuf, fsbuf, "user_xattr,acl", flags);
-  return return_value_generic_mount$1;
+  signed int return_value_generic_mount_1;
+  return_value_generic_mount_1=generic_mount(partition, mntbuf, fsbuf, "user_xattr,acl", flags);
+  return return_value_generic_mount_1;
 }
 
 // reiserfs_test
@@ -17804,16 +17804,16 @@ signed int reiserfs_test(char *devname)
   struct reiserfs_super_block sb;
   signed int fd = -1;
   fd=open64(devname, 00 | 0);
-  unsigned long int return_value_strlen$3;
-  signed int return_value_strncmp$4;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_strncmp_4;
   if(!(fd >= 0))
     return 0;
 
   else
   {
-    signed long int return_value_lseek$1;
-    return_value_lseek$1=lseek(fd, (signed long int)(64 * 1024), 0);
-    if(!(return_value_lseek$1 == 65536l))
+    signed long int return_value_lseek_1;
+    return_value_lseek_1=lseek(fd, (signed long int)(64 * 1024), 0);
+    if(!(return_value_lseek_1 == 65536l))
     {
       close(fd);
       return 0;
@@ -17821,9 +17821,9 @@ signed int reiserfs_test(char *devname)
 
     else
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(fd, (void *)&sb, sizeof(struct reiserfs_super_block) /*204ul*/ );
-      if(!((unsigned long int)return_value_read$2 == sizeof(struct reiserfs_super_block) /*204ul*/ ))
+      signed long int return_value_read_2;
+      return_value_read_2=read(fd, (void *)&sb, sizeof(struct reiserfs_super_block) /*204ul*/ );
+      if(!((unsigned long int)return_value_read_2 == sizeof(struct reiserfs_super_block) /*204ul*/ ))
       {
         close(fd);
         return 0;
@@ -17831,15 +17831,15 @@ signed int reiserfs_test(char *devname)
 
       else
       {
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen("ReIsErFs");
-        signed int return_value_strncmp$6;
-        return_value_strncmp$6=strncmp(sb.s_v1.s_magic, "ReIsErFs", return_value_strlen$5);
-        if(!(return_value_strncmp$6 == 0))
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen("ReIsErFs");
+        signed int return_value_strncmp_6;
+        return_value_strncmp_6=strncmp(sb.s_v1.s_magic, "ReIsErFs", return_value_strlen_5);
+        if(!(return_value_strncmp_6 == 0))
         {
-          return_value_strlen$3=strlen("ReIsEr2Fs");
-          return_value_strncmp$4=strncmp(sb.s_v1.s_magic, "ReIsEr2Fs", return_value_strlen$3);
-          if(!(return_value_strncmp$4 == 0))
+          return_value_strlen_3=strlen("ReIsEr2Fs");
+          return_value_strncmp_4=strncmp(sb.s_v1.s_magic, "ReIsEr2Fs", return_value_strlen_3);
+          if(!(return_value_strncmp_4 == 0))
           {
             close(fd);
             return 0;
@@ -17858,9 +17858,9 @@ signed int reiserfs_test(char *devname)
 // file fs_reiserfs.c line 145
 signed int reiserfs_umount(char *partition, char *mntbuf)
 {
-  signed int return_value_generic_umount$1;
-  return_value_generic_umount$1=generic_umount(mntbuf);
-  return return_value_generic_umount$1;
+  signed int return_value_generic_umount_1;
+  return_value_generic_umount_1=generic_umount(mntbuf);
+  return return_value_generic_umount_1;
 }
 
 // set_stopfillqueue
@@ -17892,9 +17892,9 @@ signed int stats_show(struct s_stats stats, signed int fsid)
 struct s_strdico * strdico_alloc()
 {
   struct s_strdico *d;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct s_strdico) /*16ul*/ );
-  d = (struct s_strdico *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct s_strdico) /*16ul*/ );
+  d = (struct s_strdico *)return_value_malloc_1;
   if(d == ((struct s_strdico *)NULL))
     return (struct s_strdico *)(void *)0;
 
@@ -17951,9 +17951,9 @@ signed int strdico_get_s64(struct s_strdico *d, signed long int *value, const ch
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(buffer);
-    if(!(return_value_strlen$1 >= 1ul))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(buffer);
+    if(!(return_value_strlen_1 >= 1ul))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_get_s64", 272, "key \"%s\" has an empty value. expected a valid number\n", key);
       return -3;
@@ -17961,19 +17961,19 @@ signed int strdico_get_s64(struct s_strdico *d, signed long int *value, const ch
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
       *value=strtoll(buffer, &endptr, 10);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      _Bool tmp_if_expr$4;
-      if(!(*return_value___errno_location$3 == 0))
-        tmp_if_expr$4 = (_Bool)1;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      _Bool tmp_if_expr_4;
+      if(!(*return_value___errno_location_3 == 0))
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_get_s64", 279, "key \"%s\" does not contain a valid number: \"%s\"\n", key, (const void *)buffer);
         return -3;
@@ -18000,9 +18000,9 @@ signed int strdico_get_string(struct s_strdico *d, char *outbuffer, signed int o
   item = d->head;
   for( ; !(item == ((struct s_strdicoitem *)NULL)); item = item->next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(item->key, key);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(item->key, key);
+    if(return_value_strcmp_1 == 0)
     {
       if(!(item->value == ((char *)NULL)))
         snprintf(outbuffer, (unsigned long int)outbufsize, "%s", item->value);
@@ -18032,7 +18032,7 @@ signed int strdico_parse_string(struct s_strdico *d, const char *strdefs)
   /* assertion strdefs */
   assert(strdefs != ((const char *)NULL));
   bakdefs=strdup(strdefs);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(bakdefs == ((char *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_parse_string", 110, "strdup() failed: out of memory\n");
@@ -18050,20 +18050,20 @@ signed int strdico_parse_string(struct s_strdico *d, const char *strdefs)
       do
       {
         if(!((signed int)result[(signed long int)i] == 0))
-          tmp_if_expr$1 = (signed int)result[(signed long int)i] != 61 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)result[(signed long int)i] != 61 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if((unsigned long int)i >= 1023ul || !tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if((unsigned long int)i >= 1023ul || !tmp_if_expr_1)
           break;
 
         key[(signed long int)i] = result[(signed long int)i];
         i = i + 1;
       }
       while((_Bool)1);
-      signed int tmp_post$2 = i;
+      signed int tmp_post_2 = i;
       i = i + 1;
-      if(!((signed int)result[(signed long int)tmp_post$2] == 61))
+      if(!((signed int)result[(signed long int)tmp_post_2] == 61))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_parse_string", 126, "Incorrect syntax in \"%s\" . Cannot find symbol '=' to separate the key and the value. expected something like \"name1=val1,name2=val2\"\n", result);
         free((void *)bakdefs);
@@ -18073,9 +18073,9 @@ signed int strdico_parse_string(struct s_strdico *d, const char *strdefs)
       pos = 0;
       for( ; !((signed int)result[(signed long int)i] == 0) && !((unsigned long int)pos >= 1023ul); pos = pos + 1)
       {
-        signed int tmp_post$3 = i;
+        signed int tmp_post_3 = i;
         i = i + 1;
-        value[(signed long int)pos] = result[(signed long int)tmp_post$3];
+        value[(signed long int)pos] = result[(signed long int)tmp_post_3];
       }
       res=strdico_set_value(d, key, value);
       if(!(res == 0))
@@ -18099,9 +18099,9 @@ signed int strdico_print(struct s_strdico *d)
   item = d->head;
   for( ; !(item == ((struct s_strdicoitem *)NULL)); item = item->next)
   {
-    signed int tmp_post$1 = pos;
+    signed int tmp_post_1 = pos;
     pos = pos + 1;
-    printf("item[%d]: key=[%s] value=[%s]\n", tmp_post$1, item->key, item->value);
+    printf("item[%d]: key=[%s] value=[%s]\n", tmp_post_1, item->key, item->value);
   }
   return 0;
 }
@@ -18144,13 +18144,13 @@ signed int strdico_set_value(struct s_strdico *d, const char *key, const char *v
   assert(key != ((const char *)NULL));
   /* assertion value */
   assert(value != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  keylen = (signed int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(value);
-  vallen = (signed int)return_value_strlen$2;
-  signed int return_value_strcmp$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  keylen = (signed int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(value);
+  vallen = (signed int)return_value_strlen_2;
+  signed int return_value_strcmp_4;
   if(!(d->validkeys == ((char *)NULL)))
   {
     bakvalidkeys=strdup(d->validkeys);
@@ -18164,9 +18164,9 @@ signed int strdico_set_value(struct s_strdico *d, const char *key, const char *v
     result=strtok_r(bakvalidkeys, delims, &saveptr);
     while(validkey == 0 && !(result == ((char *)NULL)))
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(result, key);
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(result, key);
+      if(return_value_strcmp_3 == 0)
         validkey = 1;
 
       result=strtok_r((char *)(void *)0, delims, &saveptr);
@@ -18188,17 +18188,17 @@ signed int strdico_set_value(struct s_strdico *d, const char *key, const char *v
     item = d->head;
     for( ; existingitem == ((struct s_strdicoitem *)NULL) && !(item == ((struct s_strdicoitem *)NULL)); item = item->next)
     {
-      return_value_strcmp$4=strcmp(item->key, key);
-      if(return_value_strcmp$4 == 0)
+      return_value_strcmp_4=strcmp(item->key, key);
+      if(return_value_strcmp_4 == 0)
         existingitem = item;
 
     }
     if(!(existingitem == ((struct s_strdicoitem *)NULL)))
     {
       oldvalue = existingitem->value;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)(vallen + 1));
-      existingitem->value = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)(vallen + 1));
+      existingitem->value = (char *)return_value_malloc_5;
       if(existingitem->value == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_set_value", 201, "malloc(%d) failed: out of memory\n", vallen + 1);
@@ -18212,9 +18212,9 @@ signed int strdico_set_value(struct s_strdico *d, const char *key, const char *v
       return 0;
     }
 
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(sizeof(struct s_strdicoitem) /*24ul*/ );
-    lnew = (struct s_strdicoitem *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(sizeof(struct s_strdicoitem) /*24ul*/ );
+    lnew = (struct s_strdicoitem *)return_value_malloc_6;
     if(lnew == ((struct s_strdicoitem *)NULL))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_set_value", 212, "malloc(%ld) failed: out of memory\n", (signed long int)sizeof(struct s_strdicoitem) /*24ul*/ );
@@ -18224,9 +18224,9 @@ signed int strdico_set_value(struct s_strdico *d, const char *key, const char *v
     else
     {
       memset((void *)lnew, 0, sizeof(struct s_strdicoitem) /*24ul*/ );
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc((unsigned long int)(keylen + 1));
-      lnew->key = (char *)return_value_malloc$7;
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc((unsigned long int)(keylen + 1));
+      lnew->key = (char *)return_value_malloc_7;
       if(lnew->key == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_set_value", 217, "malloc(%d) failed: out of memory\n", keylen + 1);
@@ -18236,9 +18236,9 @@ signed int strdico_set_value(struct s_strdico *d, const char *key, const char *v
       else
       {
         snprintf(lnew->key, (unsigned long int)(keylen + 1), "%s", key);
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc((unsigned long int)(vallen + 1));
-        lnew->value = (char *)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc((unsigned long int)(vallen + 1));
+        lnew->value = (char *)return_value_malloc_8;
         if(lnew->value == ((char *)NULL))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "strdico.c", "strdico_set_value", 222, "malloc(%d) failed: out of memory\n", vallen + 1);
@@ -18265,32 +18265,32 @@ signed int stream_readline(struct _IO_FILE *f, char *buf, signed int buflen)
   char c;
   memset((void *)buf, 0, (unsigned long int)buflen);
   i = 0;
-  signed int return_value_feof$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_fgetc$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_feof$4;
+  signed int return_value_feof_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_fgetc_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_feof_4;
   do
   {
-    return_value_feof$1=feof(f);
-    if(return_value_feof$1 == 0)
+    return_value_feof_1=feof(f);
+    if(return_value_feof_1 == 0)
     {
-      return_value_fgetc$2=fgetc(f);
-      c = (char)return_value_fgetc$2;
-      tmp_if_expr$3 = (signed int)c != 10 ? (_Bool)1 : (_Bool)0;
+      return_value_fgetc_2=fgetc(f);
+      c = (char)return_value_fgetc_2;
+      tmp_if_expr_3 = (signed int)c != 10 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_feof$4=feof(f);
-      tmp_if_expr$5 = !(return_value_feof$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_feof_4=feof(f);
+      tmp_if_expr_5 = !(return_value_feof_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(i >= buflen || !tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(i >= buflen || !tmp_if_expr_5)
       break;
 
     buf[(signed long int)i] = c;
@@ -18306,9 +18306,9 @@ char * strlcatf(char *dest, signed int destbufsize, char *format, ...)
 {
   void **ap;
   signed int len1;
-  unsigned long int return_value_strnlen$1;
-  return_value_strnlen$1=strnlen(dest, (unsigned long int)destbufsize);
-  len1 = (signed int)return_value_strnlen$1;
+  unsigned long int return_value_strnlen_1;
+  return_value_strnlen_1=strnlen(dest, (unsigned long int)destbufsize);
+  len1 = (signed int)return_value_strnlen_1;
   if(len1 == destbufsize)
     return dest;
 
@@ -18328,18 +18328,18 @@ signed int strlist_add(struct s_strlist *l, char *str)
   struct s_strlistitem *item;
   struct s_strlistitem *lnew;
   signed int len;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(str == ((char *)NULL) || l == ((struct s_strlist *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(str);
-    tmp_if_expr$2 = !(return_value_strlen$1 != 0ul) ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(str);
+    tmp_if_expr_2 = !(return_value_strlen_1 != 0ul) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_2)
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_add", 72, "invalid param\n");
     return -1;
@@ -18347,9 +18347,9 @@ signed int strlist_add(struct s_strlist *l, char *str)
 
   else
   {
-    signed int return_value_strlist_exists$3;
-    return_value_strlist_exists$3=strlist_exists(l, str);
-    if(return_value_strlist_exists$3 == 1)
+    signed int return_value_strlist_exists_3;
+    return_value_strlist_exists_3=strlist_exists(l, str);
+    if(return_value_strlist_exists_3 == 1)
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_add", 77, "canot add dring: [%s] is already in the list\n", str);
       return -1;
@@ -18357,9 +18357,9 @@ signed int strlist_add(struct s_strlist *l, char *str)
 
     else
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct s_strlistitem) /*16ul*/ );
-      lnew = (struct s_strlistitem *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct s_strlistitem) /*16ul*/ );
+      lnew = (struct s_strlistitem *)return_value_malloc_4;
       if(lnew == ((struct s_strlistitem *)NULL))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_add", 82, "malloc() failed\n");
@@ -18370,12 +18370,12 @@ signed int strlist_add(struct s_strlist *l, char *str)
       {
         memset((void *)lnew, 0, sizeof(struct s_strlistitem) /*16ul*/ );
         lnew->next = (struct s_strlistitem *)(void *)0;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(str);
-        len = (signed int)return_value_strlen$5;
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc((unsigned long int)(len + 1));
-        lnew->str = (char *)return_value_malloc$6;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(str);
+        len = (signed int)return_value_strlen_5;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc((unsigned long int)(len + 1));
+        lnew->str = (char *)return_value_malloc_6;
         if(lnew->str == ((char *)NULL))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_add", 90, "malloc() failed\n");
@@ -18395,11 +18395,11 @@ signed int strlist_add(struct s_strlist *l, char *str)
             do
             {
               if(!(item == ((struct s_strlistitem *)NULL)))
-                tmp_if_expr$7 = item->next != (struct s_strlistitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = item->next != (struct s_strlistitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(!tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(!tmp_if_expr_7)
                 break;
 
               item = item->next;
@@ -18483,7 +18483,7 @@ signed int strlist_empty(struct s_strlist *l)
 signed int strlist_exists(struct s_strlist *l, char *str)
 {
   struct s_strlistitem *item;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(str == ((char *)NULL) || l == ((struct s_strlist *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_exists", 197, "invalid param\n");
@@ -18499,8 +18499,8 @@ signed int strlist_exists(struct s_strlist *l, char *str)
       item = l->head;
       for( ; !(item == ((struct s_strlistitem *)NULL)); item = item->next)
       {
-        return_value_strcmp$1=strcmp(item->str, str);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(item->str, str);
+        if(return_value_strcmp_1 == 0)
           return 1;
 
       }
@@ -18514,8 +18514,8 @@ signed int strlist_getitem(struct s_strlist *l, signed int index, char *buf, sig
 {
   struct s_strlistitem *item;
   signed int pos = 0;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_1;
   if(buf == ((char *)NULL) || l == ((struct s_strlist *)NULL) || !(bufsize >= 1))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_getitem", 116, "invalid param\n");
@@ -18529,14 +18529,14 @@ signed int strlist_getitem(struct s_strlist *l, signed int index, char *buf, sig
     {
       if(!(item == ((struct s_strlistitem *)NULL)))
       {
-        tmp_post$1 = pos;
+        tmp_post_1 = pos;
         pos = pos + 1;
-        tmp_if_expr$2 = tmp_post$1 < index ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = tmp_post_1 < index ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       item = item->next;
@@ -18599,7 +18599,7 @@ signed int strlist_remove(struct s_strlist *l, char *str)
 {
   struct s_strlistitem *item;
   struct s_strlistitem *next;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(str == ((char *)NULL) || l == ((struct s_strlist *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_remove", 138, "invalid param\n");
@@ -18613,9 +18613,9 @@ signed int strlist_remove(struct s_strlist *l, char *str)
     else
     {
       item = l->head;
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(item->str, str);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(item->str, str);
+      if(return_value_strcmp_1 == 0)
       {
         free((void *)item->str);
         l->head = item->next;
@@ -18629,17 +18629,17 @@ signed int strlist_remove(struct s_strlist *l, char *str)
         do
         {
           if(!(item == ((struct s_strlistitem *)NULL)))
-            tmp_if_expr$2 = item->next != (struct s_strlistitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = item->next != (struct s_strlistitem *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(!tmp_if_expr_2)
             break;
 
           next = item->next;
-          signed int return_value_strcmp$3;
-          return_value_strcmp$3=strcmp(next->str, str);
-          if(return_value_strcmp$3 == 0)
+          signed int return_value_strcmp_3;
+          return_value_strcmp_3=strcmp(next->str, str);
+          if(return_value_strcmp_3 == 0)
           {
             free((void *)next->str);
             item->next = next->next;
@@ -18677,9 +18677,9 @@ signed int strlist_show(struct s_strlist *l)
       item = l->head;
       for( ; !(item == ((struct s_strlistitem *)NULL)); item = item->next)
       {
-        signed int tmp_post$1 = count;
+        signed int tmp_post_1 = count;
         count = count + 1;
-        printf("item[%d]: [%s]\n", tmp_post$1, item->str);
+        printf("item[%d]: [%s]\n", tmp_post_1, item->str);
       }
     }
     return 0;
@@ -18703,14 +18703,14 @@ signed int strlist_split(struct s_strlist *l, char *text, char sep)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(text);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(text);
+    len = (signed int)return_value_strlen_1;
     snprintf(delims, sizeof(char [4l]) /*4ul*/ , "%c", sep);
     strlist_empty(l);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(len + 1));
-    textcopy = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(len + 1));
+    textcopy = (char *)return_value_malloc_2;
     if(textcopy == ((char *)NULL))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_split", 231, "malloc(%d) failed\n", len + 1);
@@ -18723,9 +18723,9 @@ signed int strlist_split(struct s_strlist *l, char *text, char sep)
       result=strtok_r(textcopy, delims, &saveptr);
       while(!(result == ((char *)NULL)))
       {
-        signed int return_value_strlist_add$3;
-        return_value_strlist_add$3=strlist_add(l, result);
-        if(!(return_value_strlist_add$3 == 0))
+        signed int return_value_strlist_add_3;
+        return_value_strlist_add_3=strlist_add(l, result);
+        if(!(return_value_strlist_add_3 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "strlist.c", "strlist_split", 239, "strlist_add(l, [%s]) failed\n", result);
           free((void *)textcopy);
@@ -18779,33 +18779,33 @@ void * thread_reader_fct(void *args)
   errors = (unsigned long int)0;
   inc_secthreads();
   ai = (struct s_archreader *)args;
-  signed int return_value_archreader_volpath$1;
-  signed int return_value_archreader_open$2;
-  signed int return_value_archreader_read_volheader$3;
-  signed int return_value_dico_get_u32$4;
-  _Bool return_value_get_stopfillqueue$6;
-  signed int return_value_regfile_exists$8;
-  signed long int return_value_queue_count$9;
-  char *return_value_error_int_to_string$13;
+  signed int return_value_archreader_volpath_1;
+  signed int return_value_archreader_open_2;
+  signed int return_value_archreader_read_volheader_3;
+  signed int return_value_dico_get_u32_4;
+  _Bool return_value_get_stopfillqueue_6;
+  signed int return_value_regfile_exists_8;
+  signed long int return_value_queue_count_9;
+  char *return_value_error_int_to_string_13;
   if(ai == ((struct s_archreader *)NULL))
     fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 134, "ai is NULL\n");
 
   else
   {
-    return_value_archreader_volpath$1=archreader_volpath(ai);
-    if(!(return_value_archreader_volpath$1 == 0))
+    return_value_archreader_volpath_1=archreader_volpath(ai);
+    if(!(return_value_archreader_volpath_1 == 0))
       fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 140, "archreader_volpath() failed\n");
 
     else
     {
-      return_value_archreader_open$2=archreader_open(ai);
-      if(!(return_value_archreader_open$2 == 0))
+      return_value_archreader_open_2=archreader_open(ai);
+      if(!(return_value_archreader_open_2 == 0))
         fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 145, "archreader_open(%s) failed\n", (const void *)ai->basepath);
 
       else
       {
-        return_value_archreader_read_volheader$3=archreader_read_volheader(ai);
-        if(!(return_value_archreader_read_volheader$3 == 0))
+        return_value_archreader_read_volheader_3=archreader_read_volheader(ai);
+        if(!(return_value_archreader_read_volheader_3 == 0))
           fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 151, "archio_read_volheader() failed\n");
 
         else
@@ -18816,8 +18816,8 @@ void * thread_reader_fct(void *args)
 
           else
           {
-            return_value_dico_get_u32$4=dico_get_u32(dico, (unsigned char)0, (unsigned short int)3, &ai->archid);
-            if(!(return_value_dico_get_u32$4 == 0))
+            return_value_dico_get_u32_4=dico_get_u32(dico, (unsigned char)0, (unsigned short int)3, &ai->archid);
+            if(!(return_value_dico_get_u32_4 == 0))
               fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_reader_fct", 162, "cannot get archive-id from main header\n");
 
             else
@@ -18825,16 +18825,16 @@ void * thread_reader_fct(void *args)
               lres=queue_add_header(&g_queue, dico, magic, fsid);
               if(!(lres == 0l))
               {
-                char *return_value_error_int_to_string$5;
-                return_value_error_int_to_string$5=error_int_to_string(lres);
-                fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 167, "queue_add_header()=%ld=%s failed to add the archive header\n", (signed long int)lres, return_value_error_int_to_string$5);
+                char *return_value_error_int_to_string_5;
+                return_value_error_int_to_string_5=error_int_to_string(lres);
+                fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 167, "queue_add_header()=%ld=%s failed to add the archive header\n", (signed long int)lres, return_value_error_int_to_string_5);
                 goto thread_reader_fct_error;
               }
 
               while(endofarchive == 0u)
               {
-                return_value_get_stopfillqueue$6=get_stopfillqueue();
-                if(!((signed int)return_value_get_stopfillqueue$6 == 0))
+                return_value_get_stopfillqueue_6=get_stopfillqueue();
+                if(!((signed int)return_value_get_stopfillqueue_6 == 0))
                   break;
 
                 res=archreader_read_header(ai, magic, &dico, (_Bool)1, &fsid);
@@ -18856,14 +18856,14 @@ void * thread_reader_fct(void *args)
                   }
                 }
 
-                signed int return_value_strncmp$17;
-                return_value_strncmp$17=strncmp(magic, "FsAE", (unsigned long int)4);
-                if(return_value_strncmp$17 == 0)
+                signed int return_value_strncmp_17;
+                return_value_strncmp_17=strncmp(magic, "FsAE", (unsigned long int)4);
+                if(return_value_strncmp_17 == 0)
                 {
                   archreader_close(ai);
-                  signed int return_value_dico_get_u32$7;
-                  return_value_dico_get_u32$7=dico_get_u32(dico, (unsigned char)0, (unsigned short int)2, &endofarchive);
-                  if(!(return_value_dico_get_u32$7 == 0))
+                  signed int return_value_dico_get_u32_7;
+                  return_value_dico_get_u32_7=dico_get_u32(dico, (unsigned char)0, (unsigned short int)2, &endofarchive);
+                  if(!(return_value_dico_get_u32_7 == 0))
                   {
                     fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 196, "cannot get compr from block-header\n");
                     goto thread_reader_fct_error;
@@ -18875,14 +18875,14 @@ void * thread_reader_fct(void *args)
                     archreader_incvolume(ai, (_Bool)0);
                     do
                     {
-                      return_value_regfile_exists$8=regfile_exists(ai->volpath);
-                      if(return_value_regfile_exists$8 == 1)
+                      return_value_regfile_exists_8=regfile_exists(ai->volpath);
+                      if(return_value_regfile_exists_8 == 1)
                         break;
 
                       do
                       {
-                        return_value_queue_count$9=queue_count(&g_queue);
-                        if(!(return_value_queue_count$9 >= 1l))
+                        return_value_queue_count_9=queue_count(&g_queue);
+                        if(!(return_value_queue_count_9 >= 1l))
                           break;
 
                         usleep((unsigned int)5000);
@@ -18896,17 +18896,17 @@ void * thread_reader_fct(void *args)
                     }
                     while((_Bool)1);
                     fsaprintf(2, (_Bool)0, 2 >= 3, "thread_archio.c", "thread_reader_fct", 215, "New volume is [%s]\n", (const void *)ai->volpath);
-                    signed int return_value_archreader_open$10;
-                    return_value_archreader_open$10=archreader_open(ai);
-                    if(!(return_value_archreader_open$10 == 0))
+                    signed int return_value_archreader_open_10;
+                    return_value_archreader_open_10=archreader_open(ai);
+                    if(!(return_value_archreader_open_10 == 0))
                     {
                       fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_reader_fct", 217, "archreader_open() failed\n");
                       goto thread_reader_fct_error;
                     }
 
-                    signed int return_value_archreader_read_volheader$11;
-                    return_value_archreader_read_volheader$11=archreader_read_volheader(ai);
-                    if(!(return_value_archreader_read_volheader$11 == 0))
+                    signed int return_value_archreader_read_volheader_11;
+                    return_value_archreader_read_volheader_11=archreader_read_volheader(ai);
+                    if(!(return_value_archreader_read_volheader_11 == 0))
                     {
                       fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_reader_fct", 221, "archio_read_volheader() failed\n");
                       goto thread_reader_fct_error;
@@ -18919,14 +18919,14 @@ void * thread_reader_fct(void *args)
 
                 else
                 {
-                  signed int return_value_strncmp$16;
-                  return_value_strncmp$16=strncmp(magic, "BlKh", (unsigned long int)4);
-                  if(return_value_strncmp$16 == 0)
+                  signed int return_value_strncmp_16;
+                  return_value_strncmp_16=strncmp(magic, "BlKh", (unsigned long int)4);
+                  if(return_value_strncmp_16 == 0)
                   {
                     skipblock = (signed int)((signed int)g_fsbitmap[(signed long int)fsid] == 0);
-                    signed int return_value_archreader_read_block$12;
-                    return_value_archreader_read_block$12=archreader_read_block(ai, dico, skipblock, &sumok, &blkinfo);
-                    if(!(return_value_archreader_read_block$12 == 0))
+                    signed int return_value_archreader_read_block_12;
+                    return_value_archreader_read_block_12=archreader_read_block(ai, dico, skipblock, &sumok, &blkinfo);
+                    if(!(return_value_archreader_read_block_12 == 0))
                     {
                       fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_reader_fct", 234, "archreader_read_block() failed\n");
                       goto thread_reader_fct_error;
@@ -18940,8 +18940,8 @@ void * thread_reader_fct(void *args)
                       {
                         if(!(lres == -7l))
                         {
-                          return_value_error_int_to_string$13=error_int_to_string(lres);
-                          fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 243, "queue_add_block()=%ld=%s failed\n", (signed long int)lres, return_value_error_int_to_string$13);
+                          return_value_error_int_to_string_13=error_int_to_string(lres);
+                          fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_reader_fct", 243, "queue_add_block()=%ld=%s failed\n", (signed long int)lres, return_value_error_int_to_string_13);
                         }
 
                         goto thread_reader_fct_error;
@@ -18957,20 +18957,20 @@ void * thread_reader_fct(void *args)
 
                   else
                   {
-                    _Bool tmp_if_expr$15;
+                    _Bool tmp_if_expr_15;
                     if((signed int)fsid == 0xFFFF)
-                      tmp_if_expr$15 = (_Bool)1;
+                      tmp_if_expr_15 = (_Bool)1;
 
                     else
-                      tmp_if_expr$15 = (signed int)g_fsbitmap[(signed long int)fsid] == 1 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$15)
+                      tmp_if_expr_15 = (signed int)g_fsbitmap[(signed long int)fsid] == 1 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_15)
                     {
                       lres=queue_add_header(&g_queue, dico, magic, fsid);
                       if(!(lres == 0l))
                       {
-                        char *return_value_error_int_to_string$14;
-                        return_value_error_int_to_string$14=error_int_to_string(lres);
-                        fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_reader_fct", 256, "queue_add_header()=%ld=%s failed\n", (signed long int)lres, return_value_error_int_to_string$14);
+                        char *return_value_error_int_to_string_14;
+                        return_value_error_int_to_string_14=error_int_to_string(lres);
+                        fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_reader_fct", 256, "queue_add_header()=%ld=%s failed\n", (signed long int)lres, return_value_error_int_to_string_14);
                         goto thread_reader_fct_error;
                       }
 
@@ -19008,48 +19008,48 @@ void * thread_writer_fct(void *args)
   signed int type;
   inc_secthreads();
   ai = (struct s_archwriter *)args;
-  signed int return_value_archwriter_volpath$1;
-  signed int return_value_archwriter_create$2;
-  signed int return_value_archwriter_write_volheader$3;
-  _Bool return_value_queue_get_end_of_queue$4;
-  signed int return_value_archwriter_dowrite_block$6;
-  signed int return_value_archwriter_dowrite_header$7;
-  signed int return_value_archwriter_write_volfooter$8;
+  signed int return_value_archwriter_volpath_1;
+  signed int return_value_archwriter_create_2;
+  signed int return_value_archwriter_write_volheader_3;
+  _Bool return_value_queue_get_end_of_queue_4;
+  signed int return_value_archwriter_dowrite_block_6;
+  signed int return_value_archwriter_dowrite_header_7;
+  signed int return_value_archwriter_write_volfooter_8;
   if(ai == ((struct s_archwriter *)NULL))
     fsaprintf(0, (_Bool)0, (_Bool)1, "thread_archio.c", "thread_writer_fct", 47, "ai is NULL\n");
 
   else
   {
-    return_value_archwriter_volpath$1=archwriter_volpath(ai);
-    if(!(return_value_archwriter_volpath$1 == 0))
+    return_value_archwriter_volpath_1=archwriter_volpath(ai);
+    if(!(return_value_archwriter_volpath_1 == 0))
       fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 51, "archwriter_volpath() failed\n");
 
     else
     {
-      return_value_archwriter_create$2=archwriter_create(ai);
-      if(!(return_value_archwriter_create$2 == 0))
+      return_value_archwriter_create_2=archwriter_create(ai);
+      if(!(return_value_archwriter_create_2 == 0))
         fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 55, "archwriter_create(%s) failed\n", (const void *)ai->basepath);
 
       else
       {
-        return_value_archwriter_write_volheader$3=archwriter_write_volheader(ai);
-        if(!(return_value_archwriter_write_volheader$3 == 0))
+        return_value_archwriter_write_volheader_3=archwriter_write_volheader(ai);
+        if(!(return_value_archwriter_write_volheader_3 == 0))
           fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 59, "cannot write volume header: archwriter_write_volheader() failed\n");
 
         else
         {
           do
           {
-            return_value_queue_get_end_of_queue$4=queue_get_end_of_queue(&g_queue);
-            if(!((signed int)return_value_queue_get_end_of_queue$4 == 0))
+            return_value_queue_get_end_of_queue_4=queue_get_end_of_queue(&g_queue);
+            if(!((signed int)return_value_queue_get_end_of_queue_4 == 0))
               break;
 
             blknum=queue_dequeue_first(&g_queue, &type, &headinfo, &blkinfo);
             if(!(blknum == -5l) && !(blknum >= 0l))
             {
-              char *return_value_error_int_to_string$5;
-              return_value_error_int_to_string$5=error_int_to_string(blknum);
-              fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 66, "queue_dequeue_first()=%ld=%s failed\n", (signed long int)blknum, return_value_error_int_to_string$5);
+              char *return_value_error_int_to_string_5;
+              return_value_error_int_to_string_5=error_int_to_string(blknum);
+              fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 66, "queue_dequeue_first()=%ld=%s failed\n", (signed long int)blknum, return_value_error_int_to_string_5);
               goto thread_writer_fct_error;
             }
 
@@ -19059,8 +19059,8 @@ void * thread_writer_fct(void *args)
                 {
                   case 1:
                   {
-                    return_value_archwriter_dowrite_block$6=archwriter_dowrite_block(ai, &blkinfo);
-                    if(!(return_value_archwriter_dowrite_block$6 == 0))
+                    return_value_archwriter_dowrite_block_6=archwriter_dowrite_block(ai, &blkinfo);
+                    if(!(return_value_archwriter_dowrite_block_6 == 0))
                     {
                       fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 75, "archive_dowrite_block() failed\n");
                       goto thread_writer_fct_error;
@@ -19071,8 +19071,8 @@ void * thread_writer_fct(void *args)
                   }
                   case 2:
                   {
-                    return_value_archwriter_dowrite_header$7=archwriter_dowrite_header(ai, &headinfo);
-                    if(!(return_value_archwriter_dowrite_header$7 == 0))
+                    return_value_archwriter_dowrite_header_7=archwriter_dowrite_header(ai, &headinfo);
+                    if(!(return_value_archwriter_dowrite_header_7 == 0))
                     {
                       fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 82, "archive_write_header() failed\n");
                       goto thread_writer_fct_error;
@@ -19087,8 +19087,8 @@ void * thread_writer_fct(void *args)
 
           }
           while((_Bool)1);
-          return_value_archwriter_write_volfooter$8=archwriter_write_volfooter(ai, (_Bool)1);
-          if(!(return_value_archwriter_write_volfooter$8 == 0))
+          return_value_archwriter_write_volfooter_8=archwriter_write_volfooter(ai, (_Bool)1);
+          if(!(return_value_archwriter_write_volfooter_8 == 0))
             fsaprintf(3, (_Bool)0, 3 >= 3, "thread_archio.c", "thread_writer_fct", 96, "cannot write volume footer: archio_write_volfooter() failed\n");
 
           else
@@ -19107,11 +19107,11 @@ thread_writer_fct_error:
   ;
   fsaprintf(4, (_Bool)0, 4 >= 3, "thread_archio.c", "thread_writer_fct", 105, "THREAD-WRITER: exit remove\n");
   set_stopfillqueue();
-  _Bool return_value_queue_get_end_of_queue$9;
+  _Bool return_value_queue_get_end_of_queue_9;
   do
   {
-    return_value_queue_get_end_of_queue$9=queue_get_end_of_queue(&g_queue);
-    if(!((signed int)return_value_queue_get_end_of_queue$9 == 0))
+    return_value_queue_get_end_of_queue_9=queue_get_end_of_queue(&g_queue);
+    if(!((signed int)return_value_queue_get_end_of_queue_9 == 0))
       break;
 
     queue_destroy_first_item(&g_queue);
@@ -19172,10 +19172,10 @@ signed int uncompress_block_gzip(unsigned long int compsize, unsigned long int *
 // file comp_lzma.h line 24
 signed int uncompress_block_lzma(unsigned long int compsize, unsigned long int *origsize, unsigned char *origbuf, unsigned long int origbufsize, unsigned char *compbuf)
 {
-  struct anonymous$13 lzma = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_13 lzma = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$12 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_12 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -19183,8 +19183,8 @@ signed int uncompress_block_lzma(unsigned long int compsize, unsigned long int *
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$9)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$9)LZMA_RESERVED_ENUM };
+    .reserved_enum1=(enum anonymous_9)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_9)LZMA_RESERVED_ENUM };
   unsigned long int maxmemlimit = 3ULL * 1024ULL * 1024ULL * 1024ULL;
   unsigned long int memlimit = (unsigned long int)(96 * 1024 * 1024);
   signed int res;
@@ -19192,9 +19192,9 @@ signed int uncompress_block_lzma(unsigned long int compsize, unsigned long int *
   lzma.avail_in = compsize;
   lzma.next_out = origbuf;
   lzma.avail_out = origbufsize;
-  enum anonymous$10 return_value_lzma_auto_decoder$1;
-  return_value_lzma_auto_decoder$1=lzma_auto_decoder(&lzma, memlimit, (unsigned int)0);
-  res = (signed int)return_value_lzma_auto_decoder$1;
+  enum anonymous_10 return_value_lzma_auto_decoder_1;
+  return_value_lzma_auto_decoder_1=lzma_auto_decoder(&lzma, memlimit, (unsigned int)0);
+  res = (signed int)return_value_lzma_auto_decoder_1;
   if(!(res == LZMA_OK))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "comp_lzma.c", "uncompress_block_lzma", 91, "lzma_auto_decoder() failed with res=%d\n", res);
@@ -19206,9 +19206,9 @@ signed int uncompress_block_lzma(unsigned long int compsize, unsigned long int *
   {
     do
     {
-      enum anonymous$10 return_value_lzma_code$2;
-      return_value_lzma_code$2=lzma_code(&lzma, (enum anonymous$11)LZMA_RUN);
-      res = (signed int)return_value_lzma_code$2;
+      enum anonymous_10 return_value_lzma_code_2;
+      return_value_lzma_code_2=lzma_code(&lzma, (enum anonymous_11)LZMA_RUN);
+      res = (signed int)return_value_lzma_code_2;
       if(!(res == LZMA_STREAM_END))
       {
         if(res == LZMA_MEMLIMIT_ERROR)
@@ -19389,9 +19389,9 @@ signed int writebuf_add_block(struct s_writebuf *wb, struct s_blockinfo *blkinfo
 
         else
         {
-          signed int return_value_writebuf_add_data$1;
-          return_value_writebuf_add_data$1=writebuf_add_data(wb, (void *)blkinfo->blkdata, (unsigned long int)blkinfo->blkarsize);
-          if(!(return_value_writebuf_add_data$1 == 0))
+          signed int return_value_writebuf_add_data_1;
+          return_value_writebuf_add_data_1=writebuf_add_data(wb, (void *)blkinfo->blkdata, (unsigned long int)blkinfo->blkarsize);
+          if(!(return_value_writebuf_add_data_1 == 0))
           {
             fsaprintf(3, (_Bool)0, 3 >= 3, "writebuf.c", "writebuf_add_block", 269, "cannot write data block: writebuf_add_data() failed\n");
             return -1;
@@ -19425,9 +19425,9 @@ signed int writebuf_add_data(struct s_writebuf *wb, void *data, unsigned long in
     else
     {
       newsize = wb->size + size;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)wb->data, newsize + (unsigned long int)4);
-      wb->data = (char *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)wb->data, newsize + (unsigned long int)4);
+      wb->data = (char *)return_value_realloc_1;
       if(wb->data == ((char *)NULL))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "writebuf.c", "writebuf_add_data", 80, "realloc(oldsize=%ld, newsize=%ld) failed\n", (signed long int)wb->size, (signed long int)newsize + (signed long int)4);
@@ -19456,8 +19456,8 @@ signed int writebuf_add_dico(struct s_writebuf *wb, struct s_dico *d, char *magi
   unsigned short int temp16;
   unsigned int temp32;
   unsigned short int count;
-  signed int return_value_memcmp$1;
-  void *return_value_mempcpy$10;
+  signed int return_value_memcmp_1;
+  void *return_value_mempcpy_10;
   if(d == ((struct s_dico *)NULL) || wb == ((struct s_writebuf *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "writebuf.c", "writebuf_add_dico", 102, "a parameter is null\n");
@@ -19473,17 +19473,17 @@ signed int writebuf_add_dico(struct s_writebuf *wb, struct s_dico *d, char *magi
       {
         if((signed int)item->key == 2)
         {
-          return_value_memcmp$1=memcmp((const void *)magic, (const void *)"ObJt", (unsigned long int)4);
-          if(return_value_memcmp$1 == 0)
+          return_value_memcmp_1=memcmp((const void *)magic, (const void *)"ObJt", (unsigned long int)4);
+          if(return_value_memcmp_1 == 0)
             fsaprintf(5, (_Bool)0, 5 >= 3, "writebuf.c", "writebuf_add_dico", 110, "filepath=[%s]\n", item->data);
 
         }
 
       }
 
-    signed int return_value_dico_count_all_sections$2;
-    return_value_dico_count_all_sections$2=dico_count_all_sections(d);
-    count = (unsigned short int)return_value_dico_count_all_sections$2;
+    signed int return_value_dico_count_all_sections_2;
+    return_value_dico_count_all_sections_2=dico_count_all_sections(d);
+    count = (unsigned short int)return_value_dico_count_all_sections_2;
     fsaprintf(5, (_Bool)0, 5 >= 3, "writebuf.c", "writebuf_add_dico", 114, "dico_count_all_sections(dico=%p)=%d\n", d, (signed int)count);
     headerlen = (unsigned int)sizeof(unsigned short int) /*2ul*/ ;
     item = d->head;
@@ -19496,9 +19496,9 @@ signed int writebuf_add_dico(struct s_writebuf *wb, struct s_dico *d, char *magi
       headerlen = headerlen + (unsigned int)item->size;
     }
     fsaprintf(5, (_Bool)0, 5 >= 3, "writebuf.c", "writebuf_add_dico", 126, "calculated headerlen for that dico: headerlen=%d\n", (signed int)headerlen);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)headerlen);
-    buffer = (unsigned char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)headerlen);
+    buffer = (unsigned char *)return_value_malloc_3;
     bufpos = buffer;
     if(buffer == ((unsigned char *)NULL))
     {
@@ -19510,43 +19510,43 @@ signed int writebuf_add_dico(struct s_writebuf *wb, struct s_dico *d, char *magi
     {
       temp16 = (unsigned short int)count;
       fsaprintf(5, (_Bool)0, 5 >= 3, "writebuf.c", "writebuf_add_dico", 137, "mempcpy items count to buffer: u16 count=%d\n", (signed int)count);
-      void *return_value_mempcpy$4;
-      return_value_mempcpy$4=mempcpy((void *)bufpos, (const void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
-      bufpos = (unsigned char *)return_value_mempcpy$4;
+      void *return_value_mempcpy_4;
+      return_value_mempcpy_4=mempcpy((void *)bufpos, (const void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
+      bufpos = (unsigned char *)return_value_mempcpy_4;
       item = d->head;
       itemnum = 0;
       for( ; !(item == ((struct s_dicoitem *)NULL)); itemnum = itemnum + 1)
       {
-        signed int tmp_post$5 = itemnum;
+        signed int tmp_post_5 = itemnum;
         itemnum = itemnum + 1;
-        fsaprintf(5, (_Bool)0, 5 >= 3, "writebuf.c", "writebuf_add_dico", 144, "itemnum=%d (type=%d, section=%d, key=%d, size=%d)\n", (signed int)tmp_post$5, (signed int)item->type, (signed int)item->section, (signed int)item->key, (signed int)item->size);
-        void *return_value_mempcpy$6;
-        return_value_mempcpy$6=mempcpy((void *)bufpos, (const void *)&item->type, sizeof(unsigned char) /*1ul*/ );
-        bufpos = (unsigned char *)return_value_mempcpy$6;
-        void *return_value_mempcpy$7;
-        return_value_mempcpy$7=mempcpy((void *)bufpos, (const void *)&item->section, sizeof(unsigned char) /*1ul*/ );
-        bufpos = (unsigned char *)return_value_mempcpy$7;
+        fsaprintf(5, (_Bool)0, 5 >= 3, "writebuf.c", "writebuf_add_dico", 144, "itemnum=%d (type=%d, section=%d, key=%d, size=%d)\n", (signed int)tmp_post_5, (signed int)item->type, (signed int)item->section, (signed int)item->key, (signed int)item->size);
+        void *return_value_mempcpy_6;
+        return_value_mempcpy_6=mempcpy((void *)bufpos, (const void *)&item->type, sizeof(unsigned char) /*1ul*/ );
+        bufpos = (unsigned char *)return_value_mempcpy_6;
+        void *return_value_mempcpy_7;
+        return_value_mempcpy_7=mempcpy((void *)bufpos, (const void *)&item->section, sizeof(unsigned char) /*1ul*/ );
+        bufpos = (unsigned char *)return_value_mempcpy_7;
         temp16 = (unsigned short int)item->key;
-        void *return_value_mempcpy$8;
-        return_value_mempcpy$8=mempcpy((void *)bufpos, (const void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
-        bufpos = (unsigned char *)return_value_mempcpy$8;
+        void *return_value_mempcpy_8;
+        return_value_mempcpy_8=mempcpy((void *)bufpos, (const void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
+        bufpos = (unsigned char *)return_value_mempcpy_8;
         temp16 = (unsigned short int)item->size;
-        void *return_value_mempcpy$9;
-        return_value_mempcpy$9=mempcpy((void *)bufpos, (const void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
-        bufpos = (unsigned char *)return_value_mempcpy$9;
+        void *return_value_mempcpy_9;
+        return_value_mempcpy_9=mempcpy((void *)bufpos, (const void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
+        bufpos = (unsigned char *)return_value_mempcpy_9;
         if((signed int)item->size >= 1)
         {
-          return_value_mempcpy$10=mempcpy((void *)bufpos, (const void *)item->data, (unsigned long int)item->size);
-          bufpos = (unsigned char *)return_value_mempcpy$10;
+          return_value_mempcpy_10=mempcpy((void *)bufpos, (const void *)item->data, (unsigned long int)item->size);
+          bufpos = (unsigned char *)return_value_mempcpy_10;
         }
 
         item = item->next;
       }
       fsaprintf(5, (_Bool)0, 5 >= 3, "writebuf.c", "writebuf_add_dico", 164, "all %d items mempcopied to buffer\n", (signed int)itemnum);
       temp32 = (unsigned int)headerlen;
-      signed int return_value_writebuf_add_data$11;
-      return_value_writebuf_add_data$11=writebuf_add_data(wb, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
-      if(!(return_value_writebuf_add_data$11 == 0))
+      signed int return_value_writebuf_add_data_11;
+      return_value_writebuf_add_data_11=writebuf_add_data(wb, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
+      if(!(return_value_writebuf_add_data_11 == 0))
       {
         free((void *)buffer);
         return -1;
@@ -19554,9 +19554,9 @@ signed int writebuf_add_dico(struct s_writebuf *wb, struct s_dico *d, char *magi
 
       else
       {
-        signed int return_value_writebuf_add_data$12;
-        return_value_writebuf_add_data$12=writebuf_add_data(wb, (void *)buffer, (unsigned long int)headerlen);
-        if(!(return_value_writebuf_add_data$12 == 0))
+        signed int return_value_writebuf_add_data_12;
+        return_value_writebuf_add_data_12=writebuf_add_data(wb, (void *)buffer, (unsigned long int)headerlen);
+        if(!(return_value_writebuf_add_data_12 == 0))
         {
           free((void *)buffer);
           return -1;
@@ -19566,9 +19566,9 @@ signed int writebuf_add_dico(struct s_writebuf *wb, struct s_dico *d, char *magi
         {
           checksum=fletcher32(buffer, headerlen);
           temp32 = (unsigned int)checksum;
-          signed int return_value_writebuf_add_data$13;
-          return_value_writebuf_add_data$13=writebuf_add_data(wb, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
-          if(!(return_value_writebuf_add_data$13 == 0))
+          signed int return_value_writebuf_add_data_13;
+          return_value_writebuf_add_data_13=writebuf_add_data(wb, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
+          if(!(return_value_writebuf_add_data_13 == 0))
           {
             free((void *)buffer);
             return -1;
@@ -19600,9 +19600,9 @@ signed int writebuf_add_header(struct s_writebuf *wb, struct s_dico *d, char *ma
 
   else
   {
-    signed int return_value_writebuf_add_data$1;
-    return_value_writebuf_add_data$1=writebuf_add_data(wb, (void *)magic, (unsigned long int)4);
-    if(!(return_value_writebuf_add_data$1 == 0))
+    signed int return_value_writebuf_add_data_1;
+    return_value_writebuf_add_data_1=writebuf_add_data(wb, (void *)magic, (unsigned long int)4);
+    if(!(return_value_writebuf_add_data_1 == 0))
     {
       fsaprintf(0, (_Bool)0, (_Bool)1, "writebuf.c", "writebuf_add_header", 203, "writebuf_add_data() failed to write FSA_SIZEOF_MAGIC\n");
       return -2;
@@ -19611,9 +19611,9 @@ signed int writebuf_add_header(struct s_writebuf *wb, struct s_dico *d, char *ma
     else
     {
       temp32 = (unsigned int)archid;
-      signed int return_value_writebuf_add_data$2;
-      return_value_writebuf_add_data$2=writebuf_add_data(wb, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
-      if(!(return_value_writebuf_add_data$2 == 0))
+      signed int return_value_writebuf_add_data_2;
+      return_value_writebuf_add_data_2=writebuf_add_data(wb, (void *)&temp32, sizeof(unsigned int) /*4ul*/ );
+      if(!(return_value_writebuf_add_data_2 == 0))
       {
         fsaprintf(0, (_Bool)0, (_Bool)1, "writebuf.c", "writebuf_add_header", 210, "writebuf_add_data() failed to write archid\n");
         return -3;
@@ -19622,9 +19622,9 @@ signed int writebuf_add_header(struct s_writebuf *wb, struct s_dico *d, char *ma
       else
       {
         temp16 = (unsigned short int)fsid;
-        signed int return_value_writebuf_add_data$3;
-        return_value_writebuf_add_data$3=writebuf_add_data(wb, (void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
-        if(!(return_value_writebuf_add_data$3 == 0))
+        signed int return_value_writebuf_add_data_3;
+        return_value_writebuf_add_data_3=writebuf_add_data(wb, (void *)&temp16, sizeof(unsigned short int) /*2ul*/ );
+        if(!(return_value_writebuf_add_data_3 == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "writebuf.c", "writebuf_add_header", 217, "writebuf_add_data() failed to write fsid\n");
           return -3;
@@ -19632,9 +19632,9 @@ signed int writebuf_add_header(struct s_writebuf *wb, struct s_dico *d, char *ma
 
         else
         {
-          signed int return_value_writebuf_add_dico$4;
-          return_value_writebuf_add_dico$4=writebuf_add_dico(wb, d, magic);
-          if(!(return_value_writebuf_add_dico$4 == 0))
+          signed int return_value_writebuf_add_dico_4;
+          return_value_writebuf_add_dico_4=writebuf_add_dico(wb, d, magic);
+          if(!(return_value_writebuf_add_dico_4 == 0))
           {
             fsaprintf(0, (_Bool)0, (_Bool)1, "writebuf.c", "writebuf_add_header", 223, "archio_write_dico() failed to write the header dico\n");
             return -4;
@@ -19653,9 +19653,9 @@ signed int writebuf_add_header(struct s_writebuf *wb, struct s_dico *d, char *ma
 struct s_writebuf * writebuf_alloc()
 {
   struct s_writebuf *wb;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct s_writebuf) /*16ul*/ );
-  wb = (struct s_writebuf *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct s_writebuf) /*16ul*/ );
+  wb = (struct s_writebuf *)return_value_malloc_1;
   if(wb == ((struct s_writebuf *)NULL))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "writebuf.c", "writebuf_alloc", 38, "malloc(%d) failed: cannot allocate memory for writebuf\n", (signed int)sizeof(struct s_writebuf) /*16ul*/ );
@@ -19752,23 +19752,23 @@ signed int xfs_getinfo(struct s_dico *d, char *devname)
   unsigned long int sb_features_incompat = (unsigned long int)0;
   unsigned long int sb_features_log_incompat = (unsigned long int)0;
   fd=open64(devname, 00 | 0);
-  signed long int return_value_read$1;
-  unsigned int return_value___bswap_32$2;
-  signed int return_value_xfs_check_compatibility$8;
+  signed long int return_value_read_1;
+  unsigned int return_value___bswap_32_2;
+  signed int return_value_xfs_check_compatibility_8;
   if(!(fd >= 0))
     ret = -1;
 
   else
   {
-    return_value_read$1=read(fd, (void *)&sb, sizeof(struct xfs_sb) /*264ul*/ );
-    res = (signed int)return_value_read$1;
+    return_value_read_1=read(fd, (void *)&sb, sizeof(struct xfs_sb) /*264ul*/ );
+    res = (signed int)return_value_read_1;
     if(!((unsigned long int)res == sizeof(struct xfs_sb) /*264ul*/ ))
       ret = -1;
 
     else
     {
-      return_value___bswap_32$2=__bswap_32(sb.sb_magicnum);
-      if(!(return_value___bswap_32$2 == 1481003842u))
+      return_value___bswap_32_2=__bswap_32(sb.sb_magicnum);
+      if(!(return_value___bswap_32_2 == 1481003842u))
       {
         ret = -1;
         fsaprintf(3, (_Bool)0, 3 >= 3, "fs_xfs.c", "xfs_getinfo", 252, "sb.sb_magicnum!=XFS_SB_MAGIC\n");
@@ -19776,12 +19776,12 @@ signed int xfs_getinfo(struct s_dico *d, char *devname)
 
       else
       {
-        unsigned short int tmp_statement_expression$3;
+        unsigned short int tmp_statement_expression_3;
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)sb.sb_versionnum;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$3 = __v;
-        xfsver = (unsigned long int)((signed int)tmp_statement_expression$3 & 0x000f);
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_3 = __v;
+        xfsver = (unsigned long int)((signed int)tmp_statement_expression_3 & 0x000f);
         if(xfsver == 4ul || xfsver == 5ul)
         {
           fsaprintf(4, (_Bool)0, 4 >= 3, "fs_xfs.c", "xfs_getinfo", 262, "Detected XFS filesystem version %d\n", (signed int)xfsver);
@@ -19814,22 +19814,22 @@ signed int xfs_getinfo(struct s_dico *d, char *devname)
           fsaprintf(4, (_Bool)0, 4 >= 3, "fs_xfs.c", "xfs_getinfo", 292, "xfs_blksize=[%ld]\n", (signed long int)temp32);
           if(xfsver == 5ul)
           {
-            unsigned int return_value___bswap_32$4;
-            return_value___bswap_32$4=__bswap_32(sb.sb_features_compat);
-            sb_features_compat = (unsigned long int)return_value___bswap_32$4;
-            unsigned int return_value___bswap_32$5;
-            return_value___bswap_32$5=__bswap_32(sb.sb_features_ro_compat);
-            sb_features_ro_compat = (unsigned long int)return_value___bswap_32$5;
-            unsigned int return_value___bswap_32$6;
-            return_value___bswap_32$6=__bswap_32(sb.sb_features_incompat);
-            sb_features_incompat = (unsigned long int)return_value___bswap_32$6;
-            unsigned int return_value___bswap_32$7;
-            return_value___bswap_32$7=__bswap_32(sb.sb_features_log_incompat);
-            sb_features_log_incompat = (unsigned long int)return_value___bswap_32$7;
+            unsigned int return_value___bswap_32_4;
+            return_value___bswap_32_4=__bswap_32(sb.sb_features_compat);
+            sb_features_compat = (unsigned long int)return_value___bswap_32_4;
+            unsigned int return_value___bswap_32_5;
+            return_value___bswap_32_5=__bswap_32(sb.sb_features_ro_compat);
+            sb_features_ro_compat = (unsigned long int)return_value___bswap_32_5;
+            unsigned int return_value___bswap_32_6;
+            return_value___bswap_32_6=__bswap_32(sb.sb_features_incompat);
+            sb_features_incompat = (unsigned long int)return_value___bswap_32_6;
+            unsigned int return_value___bswap_32_7;
+            return_value___bswap_32_7=__bswap_32(sb.sb_features_log_incompat);
+            sb_features_log_incompat = (unsigned long int)return_value___bswap_32_7;
           }
 
-          return_value_xfs_check_compatibility$8=xfs_check_compatibility(sb_features_compat, sb_features_ro_compat, sb_features_incompat, sb_features_log_incompat);
-          if(!(return_value_xfs_check_compatibility$8 == 0))
+          return_value_xfs_check_compatibility_8=xfs_check_compatibility(sb_features_compat, sb_features_ro_compat, sb_features_incompat, sb_features_log_incompat);
+          if(!(return_value_xfs_check_compatibility_8 == 0))
             return -1;
 
           dico_add_u64(d, (unsigned char)0, (unsigned short int)35, (unsigned long int)sb_features_compat);
@@ -19873,11 +19873,11 @@ signed int xfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
   unsigned long int sb_features_ro_compat = (unsigned long int)0;
   unsigned long int sb_features_incompat = (unsigned long int)0;
   unsigned long int sb_features_log_incompat = (unsigned long int)0;
-  signed int return_value_exec_command$1;
-  return_value_exec_command$1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, stdoutbuf, (signed int)sizeof(char [2048l]) /*2048ul*/ , (char *)(void *)0, 0, "mkfs.xfs -V");
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$7;
-  if(!(return_value_exec_command$1 == 0))
+  signed int return_value_exec_command_1;
+  return_value_exec_command_1=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , (signed int *)(void *)0, stdoutbuf, (signed int)sizeof(char [2048l]) /*2048ul*/ , (char *)(void *)0, 0, "mkfs.xfs -V");
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_7;
+  if(!(return_value_exec_command_1 == 0))
   {
     fsaprintf(0, (_Bool)0, (_Bool)1, "fs_xfs.c", "xfs_mkfs", 90, "mkfs.xfs not found. please install xfsprogs on your system or check the PATH.\n");
     return -1;
@@ -19903,19 +19903,19 @@ signed int xfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
       memset((void *)xadmopts, 0, sizeof(char [2048l]) /*2048ul*/ );
       memset((void *)uuid, 0, sizeof(char [64l]) /*64ul*/ );
       strlcatf(mkfsopts, (signed int)sizeof(char [2048l]) /*2048ul*/ , " %s ", fsoptions);
-      signed int return_value_dico_get_string$3;
-      return_value_dico_get_string$3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
-      if(return_value_dico_get_string$3 == 0)
+      signed int return_value_dico_get_string_3;
+      return_value_dico_get_string_3=dico_get_string(d, (unsigned char)0, (unsigned short int)5, buffer, (unsigned short int)sizeof(char [2048l]) /*2048ul*/ );
+      if(return_value_dico_get_string_3 == 0)
       {
-        return_value_strlen$2=strlen(buffer);
-        if(return_value_strlen$2 >= 1ul)
+        return_value_strlen_2=strlen(buffer);
+        if(return_value_strlen_2 >= 1ul)
           strlcatf(mkfsopts, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -L '%.12s' ", (const void *)buffer);
 
       }
 
-      signed int return_value_dico_get_u64$4;
-      return_value_dico_get_u64$4=dico_get_u64(d, (unsigned char)0, (unsigned short int)17, &temp64);
-      if(return_value_dico_get_u64$4 == 0)
+      signed int return_value_dico_get_u64_4;
+      return_value_dico_get_u64_4=dico_get_u64(d, (unsigned char)0, (unsigned short int)17, &temp64);
+      if(return_value_dico_get_u64_4 == 0)
       {
         if(temp64 % 512ul == 0ul)
         {
@@ -19934,16 +19934,16 @@ signed int xfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
       dico_get_u64(d, (unsigned char)0, (unsigned short int)36, &sb_features_ro_compat);
       dico_get_u64(d, (unsigned char)0, (unsigned short int)37, &sb_features_incompat);
       dico_get_u64(d, (unsigned char)0, (unsigned short int)38, &sb_features_log_incompat);
-      signed int return_value_xfs_check_compatibility$5;
-      return_value_xfs_check_compatibility$5=xfs_check_compatibility(sb_features_compat, sb_features_ro_compat, sb_features_incompat, sb_features_log_incompat);
-      if(!(return_value_xfs_check_compatibility$5 == 0))
+      signed int return_value_xfs_check_compatibility_5;
+      return_value_xfs_check_compatibility_5=xfs_check_compatibility(sb_features_compat, sb_features_ro_compat, sb_features_incompat, sb_features_log_incompat);
+      if(!(return_value_xfs_check_compatibility_5 == 0))
         return -1;
 
       else
       {
-        signed int return_value_dico_get_u64$6;
-        return_value_dico_get_u64$6=dico_get_u64(d, (unsigned char)0, (unsigned short int)34, &temp64);
-        if(temp64 == 4ul || !(return_value_dico_get_u64$6 == 0))
+        signed int return_value_dico_get_u64_6;
+        return_value_dico_get_u64_6=dico_get_u64(d, (unsigned char)0, (unsigned short int)34, &temp64);
+        if(temp64 == 4ul || !(return_value_dico_get_u64_6 == 0))
           xfsver = (unsigned long int)4;
 
         else
@@ -19966,12 +19966,12 @@ signed int xfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
           strlcatf(mkfsopts, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -m finobt=%d ", (signed int)optval);
         }
 
-        signed int return_value_dico_get_string$8;
-        return_value_dico_get_string$8=dico_get_string(d, (unsigned char)0, (unsigned short int)6, uuid, (unsigned short int)sizeof(char [64l]) /*64ul*/ );
-        if(return_value_dico_get_string$8 == 0)
+        signed int return_value_dico_get_string_8;
+        return_value_dico_get_string_8=dico_get_string(d, (unsigned char)0, (unsigned short int)6, uuid, (unsigned short int)sizeof(char [64l]) /*64ul*/ );
+        if(return_value_dico_get_string_8 == 0)
         {
-          return_value_strlen$7=strlen(uuid);
-          if(return_value_strlen$7 == 36ul)
+          return_value_strlen_7=strlen(uuid);
+          if(return_value_strlen_7 == 36ul)
           {
             if(xfstoolsver >= 262912ul)
               strlcatf(mkfsopts, (signed int)sizeof(char [2048l]) /*2048ul*/ , " -m uuid=%s ", (const void *)uuid);
@@ -19989,9 +19989,9 @@ signed int xfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 
         }
 
-        signed int return_value_exec_command$9;
-        return_value_exec_command$9=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.xfs -f %s %s", partition, (const void *)mkfsopts);
-        if(!(return_value_exec_command$9 == 0) || !(exitst == 0))
+        signed int return_value_exec_command_9;
+        return_value_exec_command_9=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "mkfs.xfs -f %s %s", partition, (const void *)mkfsopts);
+        if(!(return_value_exec_command_9 == 0) || !(exitst == 0))
         {
           fsaprintf(0, (_Bool)0, (_Bool)1, "fs_xfs.c", "xfs_mkfs", 207, "command [%s] failed\n", (const void *)command);
           return -1;
@@ -20001,9 +20001,9 @@ signed int xfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
         {
           if(!(xadmopts[0l] == 0))
           {
-            signed int return_value_exec_command$10;
-            return_value_exec_command$10=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "xfs_admin %s %s", (const void *)xadmopts, partition);
-            if(!(return_value_exec_command$10 == 0) || !(exitst == 0))
+            signed int return_value_exec_command_10;
+            return_value_exec_command_10=exec_command(command, (signed int)sizeof(char [2048l]) /*2048ul*/ , &exitst, (char *)(void *)0, 0, (char *)(void *)0, 0, "xfs_admin %s %s", (const void *)xadmopts, partition);
+            if(!(return_value_exec_command_10 == 0) || !(exitst == 0))
             {
               fsaprintf(0, (_Bool)0, (_Bool)1, "fs_xfs.c", "xfs_mkfs", 215, "command [%s] failed\n", (const void *)command);
               return -1;
@@ -20022,9 +20022,9 @@ signed int xfs_mkfs(struct s_dico *d, char *partition, char *fsoptions)
 // file fs_xfs.c line 322
 signed int xfs_mount(char *partition, char *mntbuf, char *fsbuf, signed int flags, char *mntinfo)
 {
-  signed int return_value_generic_mount$1;
-  return_value_generic_mount$1=generic_mount(partition, mntbuf, fsbuf, "nouuid", flags);
-  return return_value_generic_mount$1;
+  signed int return_value_generic_mount_1;
+  return_value_generic_mount_1=generic_mount(partition, mntbuf, fsbuf, "nouuid", flags);
+  return return_value_generic_mount_1;
 }
 
 // xfs_test
@@ -20043,9 +20043,9 @@ signed int xfs_test(char *devname)
   else
   {
     memset((void *)&sb, 0, sizeof(struct xfs_sb) /*264ul*/ );
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)&sb, sizeof(struct xfs_sb) /*264ul*/ );
-    if(!((unsigned long int)return_value_read$1 == sizeof(struct xfs_sb) /*264ul*/ ))
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)&sb, sizeof(struct xfs_sb) /*264ul*/ );
+    if(!((unsigned long int)return_value_read_1 == sizeof(struct xfs_sb) /*264ul*/ ))
     {
       close(fd);
       fsaprintf(4, (_Bool)0, 4 >= 3, "fs_xfs.c", "xfs_test", 346, "read failed\n");
@@ -20054,14 +20054,14 @@ signed int xfs_test(char *devname)
 
     else
     {
-      unsigned int return_value___bswap_32$3;
-      return_value___bswap_32$3=__bswap_32(sb.sb_magicnum);
-      if(!(return_value___bswap_32$3 == 1481003842u))
+      unsigned int return_value___bswap_32_3;
+      return_value___bswap_32_3=__bswap_32(sb.sb_magicnum);
+      if(!(return_value___bswap_32_3 == 1481003842u))
       {
         close(fd);
-        unsigned int return_value___bswap_32$2;
-        return_value___bswap_32$2=__bswap_32(sb.sb_magicnum);
-        fsaprintf(4, (_Bool)0, 4 >= 3, "fs_xfs.c", "xfs_test", 353, "(be32_to_cpu(sb.sb_magicnum)=%.8x) != (XFS_SB_MAGIC=%.8x)\n", return_value___bswap_32$2, 0x58465342);
+        unsigned int return_value___bswap_32_2;
+        return_value___bswap_32_2=__bswap_32(sb.sb_magicnum);
+        fsaprintf(4, (_Bool)0, 4 >= 3, "fs_xfs.c", "xfs_test", 353, "(be32_to_cpu(sb.sb_magicnum)=%.8x) != (XFS_SB_MAGIC=%.8x)\n", return_value___bswap_32_2, 0x58465342);
         return 0;
       }
 
@@ -20075,8 +20075,8 @@ signed int xfs_test(char *devname)
 // file fs_xfs.c line 327
 signed int xfs_umount(char *partition, char *mntbuf)
 {
-  signed int return_value_generic_umount$1;
-  return_value_generic_umount$1=generic_umount(mntbuf);
-  return return_value_generic_umount$1;
+  signed int return_value_generic_umount_1;
+  return_value_generic_umount_1=generic_umount(mntbuf);
+  return return_value_generic_umount_1;
 }
 

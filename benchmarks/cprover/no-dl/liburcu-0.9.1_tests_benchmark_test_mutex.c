@@ -1,8 +1,8 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -78,7 +78,7 @@ void rcu_copy_mutex_lock(void);
 void rcu_copy_mutex_unlock(void);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$0 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_0 *);
 // set_affinity
 // file test_mutex.c line 89
 static void set_affinity(void);
@@ -110,7 +110,7 @@ void * thr_writer(void *data);
 // file ../../tests/common/thread-id.h line 41
 static inline unsigned long int urcu_get_thread_id(void);
 
-struct anonymous$0
+struct anonymous_0
 {
   // __bits
   unsigned long int __bits[16l];
@@ -240,21 +240,21 @@ static unsigned long int wduration;
 // file ../../tests/common/thread-id.h line 34
 static inline signed int gettid(void)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  return (signed int)return_value_syscall_1;
 }
 
 // loop_sleep
 // file test_mutex.c line 69
 static inline void loop_sleep(unsigned long int loops)
 {
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
-    tmp_post$1 = loops;
+    tmp_post_1 = loops;
     loops = loops - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     asm("rep; nop" :  :  : "memory");
@@ -276,11 +276,11 @@ signed int main(signed int argc, char **argv)
   unsigned long long int tot_writes = (unsigned long long int)0;
   signed int i;
   signed int a;
-  unsigned int tmp_post$1;
-  signed long int return_value_atol$2;
-  signed long int return_value_atol$3;
-  signed long int return_value_atol$4;
-  unsigned long int return_value_urcu_get_thread_id$5;
+  unsigned int tmp_post_1;
+  signed long int return_value_atol_2;
+  signed long int return_value_atol_3;
+  signed long int return_value_atol_4;
+  unsigned long int return_value_urcu_get_thread_id_5;
   if(!(argc >= 4))
   {
     show_usage(argc, argv);
@@ -332,9 +332,9 @@ signed int main(signed int argc, char **argv)
 
                   i = i + 1;
                   a=atoi(argv[(signed long int)i]);
-                  tmp_post$1 = next_aff;
+                  tmp_post_1 = next_aff;
                   next_aff = next_aff + 1u;
-                  cpu_affinities[(signed long int)tmp_post$1] = (unsigned int)a;
+                  cpu_affinities[(signed long int)tmp_post_1] = (unsigned int)a;
                   use_affinity = 1;
                   do
                     if(!(verbose_mode == 0))
@@ -352,8 +352,8 @@ signed int main(signed int argc, char **argv)
                   }
 
                   i = i + 1;
-                  return_value_atol$2=atol(argv[(signed long int)i]);
-                  rduration = (unsigned long int)return_value_atol$2;
+                  return_value_atol_2=atol(argv[(signed long int)i]);
+                  rduration = (unsigned long int)return_value_atol_2;
                   break;
                 }
                 case 100:
@@ -365,8 +365,8 @@ signed int main(signed int argc, char **argv)
                   }
 
                   i = i + 1;
-                  return_value_atol$3=atol(argv[(signed long int)i]);
-                  wdelay = (unsigned long int)return_value_atol$3;
+                  return_value_atol_3=atol(argv[(signed long int)i]);
+                  wdelay = (unsigned long int)return_value_atol_3;
                   break;
                 }
                 case 101:
@@ -378,8 +378,8 @@ signed int main(signed int argc, char **argv)
                   }
 
                   i = i + 1;
-                  return_value_atol$4=atol(argv[(signed long int)i]);
-                  wduration = (unsigned long int)return_value_atol$4;
+                  return_value_atol_4=atol(argv[(signed long int)i]);
+                  wduration = (unsigned long int)return_value_atol_4;
                   break;
                 }
                 case 118:
@@ -404,29 +404,29 @@ signed int main(signed int argc, char **argv)
           do
             if(!(verbose_mode == 0))
             {
-              return_value_urcu_get_thread_id$5=urcu_get_thread_id();
-              printf("thread %-6s, tid %lu\n", (const void *)"main", return_value_urcu_get_thread_id$5);
+              return_value_urcu_get_thread_id_5=urcu_get_thread_id();
+              printf("thread %-6s, tid %lu\n", (const void *)"main", return_value_urcu_get_thread_id_5);
             }
 
           while((_Bool)0);
-          void *return_value_calloc$6;
-          return_value_calloc$6=calloc((unsigned long int)nr_readers, sizeof(unsigned long int) /*8ul*/ );
-          tid_reader = (unsigned long int *)return_value_calloc$6;
-          void *return_value_calloc$7;
-          return_value_calloc$7=calloc((unsigned long int)nr_writers, sizeof(unsigned long int) /*8ul*/ );
-          tid_writer = (unsigned long int *)return_value_calloc$7;
-          void *return_value_calloc$8;
-          return_value_calloc$8=calloc((unsigned long int)nr_readers, sizeof(unsigned long long int) /*8ul*/ );
-          count_reader = (unsigned long long int *)return_value_calloc$8;
-          void *return_value_calloc$9;
-          return_value_calloc$9=calloc((unsigned long int)nr_writers, sizeof(unsigned long long int) /*8ul*/ );
-          count_writer = (unsigned long long int *)return_value_calloc$9;
-          void *return_value_calloc$10;
-          return_value_calloc$10=calloc((unsigned long int)nr_readers, sizeof(unsigned long long int) /*8ul*/ );
-          tot_nr_reads = (unsigned long long int *)return_value_calloc$10;
-          void *return_value_calloc$11;
-          return_value_calloc$11=calloc((unsigned long int)nr_writers, sizeof(unsigned long long int) /*8ul*/ );
-          tot_nr_writes = (unsigned long long int *)return_value_calloc$11;
+          void *return_value_calloc_6;
+          return_value_calloc_6=calloc((unsigned long int)nr_readers, sizeof(unsigned long int) /*8ul*/ );
+          tid_reader = (unsigned long int *)return_value_calloc_6;
+          void *return_value_calloc_7;
+          return_value_calloc_7=calloc((unsigned long int)nr_writers, sizeof(unsigned long int) /*8ul*/ );
+          tid_writer = (unsigned long int *)return_value_calloc_7;
+          void *return_value_calloc_8;
+          return_value_calloc_8=calloc((unsigned long int)nr_readers, sizeof(unsigned long long int) /*8ul*/ );
+          count_reader = (unsigned long long int *)return_value_calloc_8;
+          void *return_value_calloc_9;
+          return_value_calloc_9=calloc((unsigned long int)nr_writers, sizeof(unsigned long long int) /*8ul*/ );
+          count_writer = (unsigned long long int *)return_value_calloc_9;
+          void *return_value_calloc_10;
+          return_value_calloc_10=calloc((unsigned long int)nr_readers, sizeof(unsigned long long int) /*8ul*/ );
+          tot_nr_reads = (unsigned long long int *)return_value_calloc_10;
+          void *return_value_calloc_11;
+          return_value_calloc_11=calloc((unsigned long int)nr_writers, sizeof(unsigned long long int) /*8ul*/ );
+          tot_nr_writes = (unsigned long long int *)return_value_calloc_11;
           next_aff = (unsigned int)0;
           i = 0;
           for( ; !((unsigned int)i >= nr_readers); i = i + 1)
@@ -517,10 +517,10 @@ void rcu_copy_mutex_unlock(void)
 // file test_mutex.c line 89
 static void set_affinity(void)
 {
-  struct anonymous$0 mask;
+  struct anonymous_0 mask;
   signed int cpu;
   signed int ret;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(!(use_affinity == 0))
   {
     ret=pthread_mutex_lock(&affinity_mutex);
@@ -530,9 +530,9 @@ static void set_affinity(void)
       exit(-1);
     }
 
-    tmp_post$1 = next_aff;
+    tmp_post_1 = next_aff;
     next_aff = next_aff + 1u;
-    cpu = (signed int)cpu_affinities[(signed long int)tmp_post$1];
+    cpu = (signed int)cpu_affinities[(signed long int)tmp_post_1];
     ret=pthread_mutex_unlock(&affinity_mutex);
     if(!(ret == 0))
     {
@@ -541,15 +541,15 @@ static void set_affinity(void)
     }
 
     do
-      __builtin_memset((void *)&mask, 0, sizeof(struct anonymous$0) /*128ul*/ );
+      __builtin_memset((void *)&mask, 0, sizeof(struct anonymous_0) /*128ul*/ );
     while((_Bool)0);
     unsigned long int __cpu = (unsigned long int)cpu;
-    if(!(__cpu / 8ul >= sizeof(struct anonymous$0) /*128ul*/ ))
+    if(!(__cpu / 8ul >= sizeof(struct anonymous_0) /*128ul*/ ))
       ((unsigned long int *)(&mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)(&mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
     else
       (unsigned long int)0;
-    sched_setaffinity(0, sizeof(struct anonymous$0) /*128ul*/ , &mask);
+    sched_setaffinity(0, sizeof(struct anonymous_0) /*128ul*/ , &mask);
   }
 
 }
@@ -587,12 +587,12 @@ static signed int test_duration_write(void)
 void * thr_reader(void *data)
 {
   unsigned long int tidx = (unsigned long int)data;
-  unsigned long int return_value_urcu_get_thread_id$1;
+  unsigned long int return_value_urcu_get_thread_id_1;
   do
     if(!(verbose_mode == 0))
     {
-      return_value_urcu_get_thread_id$1=urcu_get_thread_id();
-      printf("thread_begin %s, tid %lu\n", (const void *)"reader", return_value_urcu_get_thread_id$1);
+      return_value_urcu_get_thread_id_1=urcu_get_thread_id();
+      printf("thread_begin %s, tid %lu\n", (const void *)"reader", return_value_urcu_get_thread_id_1);
     }
 
   while((_Bool)0);
@@ -611,20 +611,20 @@ void * thr_reader(void *data)
 
     pthread_mutex_unlock(&lock);
     nr_reads = nr_reads + 1ull;
-    signed int return_value_test_duration_read$2;
-    return_value_test_duration_read$2=test_duration_read();
-    if(return_value_test_duration_read$2 == 0)
+    signed int return_value_test_duration_read_2;
+    return_value_test_duration_read_2=test_duration_read();
+    if(return_value_test_duration_read_2 == 0)
       break;
 
   }
   while((_Bool)1);
   tot_nr_reads[(signed long int)tidx] = nr_reads;
-  unsigned long int return_value_urcu_get_thread_id$3;
+  unsigned long int return_value_urcu_get_thread_id_3;
   do
     if(!(verbose_mode == 0))
     {
-      return_value_urcu_get_thread_id$3=urcu_get_thread_id();
-      printf("thread_end %s, tid %lu\n", (const void *)"reader", return_value_urcu_get_thread_id$3);
+      return_value_urcu_get_thread_id_3=urcu_get_thread_id();
+      printf("thread_end %s, tid %lu\n", (const void *)"reader", return_value_urcu_get_thread_id_3);
     }
 
   while((_Bool)0);
@@ -636,12 +636,12 @@ void * thr_reader(void *data)
 void * thr_writer(void *data)
 {
   unsigned long int wtidx = (unsigned long int)data;
-  unsigned long int return_value_urcu_get_thread_id$1;
+  unsigned long int return_value_urcu_get_thread_id_1;
   do
     if(!(verbose_mode == 0))
     {
-      return_value_urcu_get_thread_id$1=urcu_get_thread_id();
-      printf("thread_begin %s, tid %lu\n", (const void *)"writer", return_value_urcu_get_thread_id$1);
+      return_value_urcu_get_thread_id_1=urcu_get_thread_id();
+      printf("thread_begin %s, tid %lu\n", (const void *)"writer", return_value_urcu_get_thread_id_1);
     }
 
   while((_Bool)0);
@@ -659,9 +659,9 @@ void * thr_writer(void *data)
 
     pthread_mutex_unlock(&lock);
     nr_writes = nr_writes + 1ull;
-    signed int return_value_test_duration_write$2;
-    return_value_test_duration_write$2=test_duration_write();
-    if(return_value_test_duration_write$2 == 0)
+    signed int return_value_test_duration_write_2;
+    return_value_test_duration_write_2=test_duration_write();
+    if(return_value_test_duration_write_2 == 0)
       break;
 
     if(!(wdelay == 0ul))
@@ -669,12 +669,12 @@ void * thr_writer(void *data)
 
   }
   while((_Bool)1);
-  unsigned long int return_value_urcu_get_thread_id$3;
+  unsigned long int return_value_urcu_get_thread_id_3;
   do
     if(!(verbose_mode == 0))
     {
-      return_value_urcu_get_thread_id$3=urcu_get_thread_id();
-      printf("thread_end %s, tid %lu\n", (const void *)"writer", return_value_urcu_get_thread_id$3);
+      return_value_urcu_get_thread_id_3=urcu_get_thread_id();
+      printf("thread_end %s, tid %lu\n", (const void *)"writer", return_value_urcu_get_thread_id_3);
     }
 
   while((_Bool)0);
@@ -686,8 +686,8 @@ void * thr_writer(void *data)
 // file ../../tests/common/thread-id.h line 41
 static inline unsigned long int urcu_get_thread_id(void)
 {
-  signed int return_value_gettid$1;
-  return_value_gettid$1=gettid();
-  return (unsigned long int)return_value_gettid$1;
+  signed int return_value_gettid_1;
+  return_value_gettid_1=gettid();
+  return (unsigned long int)return_value_gettid_1;
 }
 

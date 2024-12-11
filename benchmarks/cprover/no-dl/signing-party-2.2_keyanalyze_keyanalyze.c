@@ -1,10 +1,10 @@
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -152,13 +152,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // rewind
 // file /usr/include/stdio.h line 759
 extern void rewind(struct _IO_FILE *);
@@ -217,7 +217,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -375,7 +375,7 @@ signed int max_component;
 signed int max_size;
 // mean_l
 // file keyanalyze.c line 60
-union anonymous$0 mean_l;
+union anonymous_0 mean_l;
 // meantotal
 // file keyanalyze.c line 59
 float meantotal;
@@ -421,9 +421,9 @@ extern struct _IO_FILE *stderr;
 void AddKey(unsigned char *newid)
 {
   struct keydata *key;
-  signed int tmp_post$1 = numkeys;
+  signed int tmp_post_1 = numkeys;
   numkeys = numkeys + 1;
-  key = &keys[(signed long int)tmp_post$1];
+  key = &keys[(signed long int)tmp_post_1];
   key->id1=ConvertFromHex(newid);
   key->id2=ConvertFromHex(newid + (signed long int)8);
 }
@@ -434,9 +434,9 @@ void AddKeyToList(struct sig **pptr, signed int id)
 {
   for( ; !(*pptr == ((struct sig *)NULL)); pptr = &(*pptr)->next)
     ;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct sig) /*16ul*/ );
-  *pptr = (struct sig *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct sig) /*16ul*/ );
+  *pptr = (struct sig *)return_value_calloc_1;
   (*pptr)->id = id;
 }
 
@@ -472,11 +472,11 @@ unsigned int ConvertFromHex(const unsigned char *c)
   buf2[(signed long int)4] = (unsigned char)0;
   memcpy((void *)buf1, (const void *)c, (unsigned long int)4);
   memcpy((void *)buf2, (const void *)(c + (signed long int)4), (unsigned long int)4);
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol((const char *)buf1, (char ** restrict )(void *)0, 16);
-  signed long int return_value_strtol$2;
-  return_value_strtol$2=strtol((const char *)buf2, (char ** restrict )(void *)0, 16);
-  ret = (unsigned int)(return_value_strtol$1 * (signed long int)65536 + return_value_strtol$2);
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol((const char *)buf1, (char ** restrict )(void *)0, 16);
+  signed long int return_value_strtol_2;
+  return_value_strtol_2=strtol((const char *)buf2, (char ** restrict )(void *)0, 16);
+  ret = (unsigned int)(return_value_strtol_1 * (signed long int)65536 + return_value_strtol_2);
   return ret;
 }
 
@@ -498,12 +498,12 @@ signed int DFSMarkConnected(signed int *markset, signed int id)
   signed int num = 1;
   markset[(signed long int)id] = 1;
   psig = keys[(signed long int)id].from;
-  signed int return_value_DFSMarkConnected$1;
+  signed int return_value_DFSMarkConnected_1;
   for( ; !(psig == ((struct sig *)NULL)); psig = psig->next)
     if(markset[(signed long int)psig->id] == 0)
     {
-      return_value_DFSMarkConnected$1=DFSMarkConnected(markset, psig->id);
-      num = num + return_value_DFSMarkConnected$1;
+      return_value_DFSMarkConnected_1=DFSMarkConnected(markset, psig->id);
+      num = num + return_value_DFSMarkConnected_1;
     }
 
   return num;
@@ -517,9 +517,9 @@ void DFSVisit(signed int id)
   lastdfsnum = lastdfsnum + 1;
   lownum[(signed long int)id] = lastdfsnum;
   dfsnum[(signed long int)id] = lownum[(signed long int)id];
-  signed int tmp_post$1 = stackindex;
+  signed int tmp_post_1 = stackindex;
   stackindex = stackindex + 1;
-  stack[(signed long int)tmp_post$1] = id;
+  stack[(signed long int)tmp_post_1] = id;
   psig = keys[(signed long int)id].to;
   for( ; !(psig == ((struct sig *)NULL)); psig = psig->next)
   {
@@ -636,22 +636,22 @@ void MeanCrawler(signed int *distset, signed int id, signed int len)
   distset[(signed long int)id] = 0;
   qhead = 0;
   qtail = 1;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   while(!(qhead >= qtail))
   {
-    tmp_post$1 = qhead;
+    tmp_post_1 = qhead;
     qhead = qhead + 1;
-    id = queue[(signed long int)tmp_post$1];
+    id = queue[(signed long int)tmp_post_1];
     len = distset[(signed long int)id];
     psig = keys[(signed long int)id].to;
     for( ; !(psig == ((struct sig *)NULL)); psig = psig->next)
       if(!(1 + len >= distset[(signed long int)psig->id]))
       {
         distset[(signed long int)psig->id] = len + 1;
-        tmp_post$2 = qtail;
+        tmp_post_2 = qtail;
         qtail = qtail + 1;
-        queue[(signed long int)tmp_post$2] = psig->id;
+        queue[(signed long int)tmp_post_2] = psig->id;
       }
 
   }
@@ -708,9 +708,9 @@ struct _IO_FILE * OpenFileById(unsigned int id)
   }
 
   strcat(buf, idchr);
-  struct _IO_FILE *return_value_fopen$1;
-  return_value_fopen$1=fopen(buf, "w");
-  return return_value_fopen$1;
+  struct _IO_FILE *return_value_fopen_1;
+  return_value_fopen_1=fopen(buf, "w");
+  return return_value_fopen_1;
 }
 
 // OpenFiles
@@ -772,7 +772,7 @@ signed int OpenFiles()
 void ParseArgs(signed int argc, char **argv)
 {
   signed int outdirlen;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   while((_Bool)1)
   {
     signed int option;
@@ -796,13 +796,13 @@ void ParseArgs(signed int argc, char **argv)
       case 111:
       {
         outdir = optarg;
-        return_value_strlen$1=strlen(outdir);
-        outdirlen = (signed int)return_value_strlen$1;
+        return_value_strlen_1=strlen(outdir);
+        outdirlen = (signed int)return_value_strlen_1;
         if(!((signed int)outdir[(signed long int)(outdirlen + -1)] == 47))
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc((unsigned long int)(outdirlen + 2));
-          outdir = (char *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc((unsigned long int)(outdirlen + 2));
+          outdir = (char *)return_value_malloc_2;
           memcpy((void *)outdir, (const void *)optarg, (unsigned long int)outdirlen);
           outdir[(signed long int)outdirlen] = (char)47;
           outdir[(signed long int)(outdirlen + 1)] = (char)0;
@@ -841,11 +841,11 @@ void ReadInput()
   unsigned char buf[20l];
   signed int currentkey = -1;
   fprintf(fpstat, "Importing pass 1 (keys)...\n");
-  unsigned long int return_value_fread$1;
+  unsigned long int return_value_fread_1;
   do
   {
-    return_value_fread$1=fread((void *)buf, (unsigned long int)1, (unsigned long int)18, fpin);
-    if(!(return_value_fread$1 == 18ul))
+    return_value_fread_1=fread((void *)buf, (unsigned long int)1, (unsigned long int)18, fpin);
+    if(!(return_value_fread_1 == 18ul))
       break;
 
     if((signed int)buf[17l] == 10)
@@ -861,11 +861,11 @@ void ReadInput()
   fprintf(fpstat, "%d keys imported\n", numkeys);
   rewind(fpin);
   fprintf(fpstat, "Importing pass 2 (sigs)...\n");
-  unsigned long int return_value_fread$2;
+  unsigned long int return_value_fread_2;
   do
   {
-    return_value_fread$2=fread((void *)buf, (unsigned long int)1, (unsigned long int)18, fpin);
-    if(!(return_value_fread$2 == 18ul))
+    return_value_fread_2=fread((void *)buf, (unsigned long int)1, (unsigned long int)18, fpin);
+    if(!(return_value_fread_2 == 18ul))
       break;
 
     if((signed int)buf[17l] == 10)
@@ -883,9 +883,9 @@ void ReadInput()
 
       if((signed int)buf[0l] == 115)
       {
-        signed int return_value_GetKeyById$3;
-        return_value_GetKeyById$3=GetKeyById(buf + (signed long int)1);
-        AddSig(return_value_GetKeyById$3, currentkey);
+        signed int return_value_GetKeyById_3;
+        return_value_GetKeyById_3=GetKeyById(buf + (signed long int)1);
+        AddSig(return_value_GetKeyById_3, currentkey);
         if(numsigs % 1000 == 0)
         {
           fprintf(fpstat, "%d sigs imported...\n", numsigs);
@@ -933,9 +933,9 @@ signed int main(signed int argc, char **argv)
   struct threadparam arg1;
   void *retval;
   ParseArgs(argc, argv);
-  signed int return_value_OpenFiles$1;
-  return_value_OpenFiles$1=OpenFiles();
-  if(!(return_value_OpenFiles$1 == 0))
+  signed int return_value_OpenFiles_1;
+  return_value_OpenFiles_1=OpenFiles();
+  if(!(return_value_OpenFiles_1 == 0))
   {
     fprintf(stderr, "Error opening files.\n");
     exit(1);
@@ -944,22 +944,22 @@ signed int main(signed int argc, char **argv)
   ReadInput();
   TestConnectivity();
   pthread_mutex_init(&mean_l, (const union anonymous *)(void *)0);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(unsigned long int) /*8ul*/ );
-  slave0 = (unsigned long int *)return_value_calloc$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, sizeof(unsigned long int) /*8ul*/ );
-  slave1 = (unsigned long int *)return_value_calloc$3;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(unsigned long int) /*8ul*/ );
+  slave0 = (unsigned long int *)return_value_calloc_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, sizeof(unsigned long int) /*8ul*/ );
+  slave1 = (unsigned long int *)return_value_calloc_3;
   arg0.threadnum = 0;
   arg1.threadnum = 1;
-  signed int return_value_pthread_create$4;
-  return_value_pthread_create$4=pthread_create(slave0, (const union pthread_attr_t *)(void *)0, thread_slave, (void *)&arg0);
-  if(!(return_value_pthread_create$4 == 0))
+  signed int return_value_pthread_create_4;
+  return_value_pthread_create_4=pthread_create(slave0, (const union pthread_attr_t *)(void *)0, thread_slave, (void *)&arg0);
+  if(!(return_value_pthread_create_4 == 0))
     fprintf(stderr, "Cannot create thread 0.");
 
-  signed int return_value_pthread_create$5;
-  return_value_pthread_create$5=pthread_create(slave1, (const union pthread_attr_t *)(void *)0, thread_slave, (void *)&arg1);
-  if(!(return_value_pthread_create$5 == 0))
+  signed int return_value_pthread_create_5;
+  return_value_pthread_create_5=pthread_create(slave1, (const union pthread_attr_t *)(void *)0, thread_slave, (void *)&arg1);
+  if(!(return_value_pthread_create_5 == 0))
     fprintf(stderr, "Cannot create thread 1.");
 
   pthread_join(*slave0, &retval);

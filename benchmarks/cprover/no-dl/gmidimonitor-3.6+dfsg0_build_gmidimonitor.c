@@ -1,70 +1,70 @@
-// #anon_enum$GDK_FONT_FONT=0$GDK_FONT_FONTSET=1
+// #anon_enum_GDK_FONT_FONT=0_GDK_FONT_FONTSET=1
 // file /usr/include/gtk-2.0/gdk/gdkfont.h line 43
-enum anonymous$9 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
+enum anonymous_9 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
 
-// #anon_enum$GDK_LSB_FIRST=0$GDK_MSB_FIRST=1
+// #anon_enum_GDK_LSB_FIRST=0_GDK_MSB_FIRST=1
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 118
-enum anonymous$6 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
+enum anonymous_6 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
 
-// #anon_enum$GDK_SHIFT_MASK=1$GDK_LOCK_MASK=2$GDK_CONTROL_MASK=4$GDK_MOD1_MASK=8$GDK_MOD2_MASK=16$GDK_MOD3_MASK=32$GDK_MOD4_MASK=64$GDK_MOD5_MASK=128$GDK_BUTTON1_MASK=256$GDK_BUTTON2_MASK=512$GDK_BUTTON3_MASK=1024$GDK_BUTTON4_MASK=2048$GDK_BUTTON5_MASK=4096$GDK_SUPER_MASK=67108864$GDK_HYPER_MASK=134217728$GDK_META_MASK=268435456$GDK_RELEASE_MASK=1073741824$GDK_MODIFIER_MASK=1543512063
+// #anon_enum_GDK_SHIFT_MASK=1_GDK_LOCK_MASK=2_GDK_CONTROL_MASK=4_GDK_MOD1_MASK=8_GDK_MOD2_MASK=16_GDK_MOD3_MASK=32_GDK_MOD4_MASK=64_GDK_MOD5_MASK=128_GDK_BUTTON1_MASK=256_GDK_BUTTON2_MASK=512_GDK_BUTTON3_MASK=1024_GDK_BUTTON4_MASK=2048_GDK_BUTTON5_MASK=4096_GDK_SUPER_MASK=67108864_GDK_HYPER_MASK=134217728_GDK_META_MASK=268435456_GDK_RELEASE_MASK=1073741824_GDK_MODIFIER_MASK=1543512063
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 126
-enum anonymous$11 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
+enum anonymous_11 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
 
-// #anon_enum$GDK_VISUAL_STATIC_GRAY=0$GDK_VISUAL_GRAYSCALE=1$GDK_VISUAL_STATIC_COLOR=2$GDK_VISUAL_PSEUDO_COLOR=3$GDK_VISUAL_TRUE_COLOR=4$GDK_VISUAL_DIRECT_COLOR=5
+// #anon_enum_GDK_VISUAL_STATIC_GRAY=0_GDK_VISUAL_GRAYSCALE=1_GDK_VISUAL_STATIC_COLOR=2_GDK_VISUAL_PSEUDO_COLOR=3_GDK_VISUAL_TRUE_COLOR=4_GDK_VISUAL_DIRECT_COLOR=5
 // file /usr/include/gtk-2.0/gdk/gdkvisual.h line 55
-enum anonymous$13 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
+enum anonymous_13 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
 
-// #anon_enum$GTK_RC_FG=1$GTK_RC_BG=2$GTK_RC_TEXT=4$GTK_RC_BASE=8
+// #anon_enum_GTK_RC_FG=1_GTK_RC_BG=2_GTK_RC_TEXT=4_GTK_RC_BASE=8
 // file /usr/include/gtk-2.0/gtk/gtkrc.h line 52
-enum anonymous$10 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
+enum anonymous_10 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
 
-// #anon_enum$GTK_SORT_ASCENDING=0$GTK_SORT_DESCENDING=1
+// #anon_enum_GTK_SORT_ASCENDING=0_GTK_SORT_DESCENDING=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 476
-enum anonymous$15 { GTK_SORT_ASCENDING=0, GTK_SORT_DESCENDING=1 };
+enum anonymous_15 { GTK_SORT_ASCENDING=0, GTK_SORT_DESCENDING=1 };
 
-// #anon_enum$GTK_TREE_VIEW_COLUMN_GROW_ONLY=0$GTK_TREE_VIEW_COLUMN_AUTOSIZE=1$GTK_TREE_VIEW_COLUMN_FIXED=2
+// #anon_enum_GTK_TREE_VIEW_COLUMN_GROW_ONLY=0_GTK_TREE_VIEW_COLUMN_AUTOSIZE=1_GTK_TREE_VIEW_COLUMN_FIXED=2
 // file /usr/include/gtk-2.0/gtk/gtktreeviewcolumn.h line 45
-enum anonymous$14 { GTK_TREE_VIEW_COLUMN_GROW_ONLY=0, GTK_TREE_VIEW_COLUMN_AUTOSIZE=1, GTK_TREE_VIEW_COLUMN_FIXED=2 };
+enum anonymous_14 { GTK_TREE_VIEW_COLUMN_GROW_ONLY=0, GTK_TREE_VIEW_COLUMN_AUTOSIZE=1, GTK_TREE_VIEW_COLUMN_FIXED=2 };
 
-// #anon_enum$G_CONNECT_AFTER=1$G_CONNECT_SWAPPED=2
+// #anon_enum_G_CONNECT_AFTER=1_G_CONNECT_SWAPPED=2
 // file /usr/include/glib-2.0/gobject/gsignal.h line 155
-enum anonymous$3 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
+enum anonymous_3 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
 
-// #anon_enum$G_LOG_FLAG_RECURSION=1$G_LOG_FLAG_FATAL=2$G_LOG_LEVEL_ERROR=4$G_LOG_LEVEL_CRITICAL=8$G_LOG_LEVEL_WARNING=16$G_LOG_LEVEL_MESSAGE=32$G_LOG_LEVEL_INFO=64$G_LOG_LEVEL_DEBUG=128$G_LOG_LEVEL_MASK=-4
+// #anon_enum_G_LOG_FLAG_RECURSION=1_G_LOG_FLAG_FATAL=2_G_LOG_LEVEL_ERROR=4_G_LOG_LEVEL_CRITICAL=8_G_LOG_LEVEL_WARNING=16_G_LOG_LEVEL_MESSAGE=32_G_LOG_LEVEL_INFO=64_G_LOG_LEVEL_DEBUG=128_G_LOG_LEVEL_MASK=-4
 // file /usr/include/glib-2.0/glib/gmessages.h line 51
-enum anonymous$12 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
+enum anonymous_12 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
 
-// #anon_enum$JackPositionBBT=16$JackPositionTimecode=32$JackBBTFrameOffset=64$JackAudioVideoRatio=128$JackVideoFrameOffset=256
+// #anon_enum_JackPositionBBT=16_JackPositionTimecode=32_JackBBTFrameOffset=64_JackAudioVideoRatio=128_JackVideoFrameOffset=256
 // file /usr/include/jack/transport.h line 65
-enum anonymous$2 { JackPositionBBT=16, JackPositionTimecode=32, JackBBTFrameOffset=64, JackAudioVideoRatio=128, JackVideoFrameOffset=256 };
+enum anonymous_2 { JackPositionBBT=16, JackPositionTimecode=32, JackBBTFrameOffset=64, JackAudioVideoRatio=128, JackVideoFrameOffset=256 };
 
-// #anon_enum$JackTransportStopped=0$JackTransportRolling=1$JackTransportLooping=2$JackTransportStarting=3
+// #anon_enum_JackTransportStopped=0_JackTransportRolling=1_JackTransportLooping=2_JackTransportStarting=3
 // file /usr/include/jack/transport.h line 50
-enum anonymous$1 { JackTransportStopped=0, JackTransportRolling=1, JackTransportLooping=2, JackTransportStarting=3 };
+enum anonymous_1 { JackTransportStopped=0, JackTransportRolling=1, JackTransportLooping=2, JackTransportStarting=3 };
 
-// tag-#anon#ST[U64'unique_1'||U64'usecs'||U32'frame_rate'||U32'frame'||EN#anon_enum$JackPositionBBT=16$JackPositionTimecode=32$JackBBTFrameOffset=64$JackAudioVideoRatio=128$JackVideoFrameOffset=256#{U32}$U32$'valid'||S32'bar'||S32'beat'||S32'tick'||F64'bar_start_tick'||F32'beats_per_bar'||F32'beat_type'||F64'ticks_per_beat'||F64'beats_per_minute'||F64'frame_time'||F64'next_time'||U32'bbt_offset'||F32'audio_frames_per_video_frame'||U32'video_offset'||ARR7{S32}$S32$'padding'||U64'unique_2'|]
+// tag-#anon#ST[U64'unique_1'||U64'usecs'||U32'frame_rate'||U32'frame'||EN#anon_enum_JackPositionBBT=16_JackPositionTimecode=32_JackBBTFrameOffset=64_JackAudioVideoRatio=128_JackVideoFrameOffset=256#{U32}_U32_'valid'||S32'bar'||S32'beat'||S32'tick'||F64'bar_start_tick'||F32'beats_per_bar'||F32'beat_type'||F64'ticks_per_beat'||F64'beats_per_minute'||F64'frame_time'||F64'next_time'||U32'bbt_offset'||F32'audio_frames_per_video_frame'||U32'video_offset'||ARR7{S32}_S32_'padding'||U64'unique_2'|]
 // file /usr/include/jack/transport.h line 81
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}$V$'v_pointer'|]
+// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}_V_'v_pointer'|]
 // file /usr/include/glib-2.0/gobject/gvalue.h line 112
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[S32'value'||SYM#tag-snd_seq_timestamp#'time'||U32'position'||SYM#tag-snd_seq_queue_skew#'skew'||ARR2{U32}$U32$'d32'||ARR8{U8}$U8$'d8'|]
+// tag-#anon#UN[S32'value'||SYM#tag-snd_seq_timestamp#'time'||U32'position'||SYM#tag-snd_seq_queue_skew#'skew'||ARR2{U32}_U32_'d32'||ARR8{U8}_U8_'d8'|]
 // file /usr/include/alsa/seq_event.h line 284
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-snd_seq_ev_note#'note'||SYM#tag-snd_seq_ev_ctrl#'control'||SYM#tag-snd_seq_ev_raw8#'raw8'||SYM#tag-snd_seq_ev_raw32#'raw32'||SYM#tag-snd_seq_ev_ext#'ext'||SYM#tag-snd_seq_ev_queue_control#'queue'||SYM#tag-snd_seq_timestamp#'time'||SYM#tag-snd_seq_addr#'addr'||SYM#tag-snd_seq_connect#'connect'||SYM#tag-snd_seq_result#'result'||U128'$pad'|]
+// tag-#anon#UN[SYM#tag-snd_seq_ev_note#'note'||SYM#tag-snd_seq_ev_ctrl#'control'||SYM#tag-snd_seq_ev_raw8#'raw8'||SYM#tag-snd_seq_ev_raw32#'raw32'||SYM#tag-snd_seq_ev_ext#'ext'||SYM#tag-snd_seq_ev_queue_control#'queue'||SYM#tag-snd_seq_timestamp#'time'||SYM#tag-snd_seq_addr#'addr'||SYM#tag-snd_seq_connect#'connect'||SYM#tag-snd_seq_result#'result'||U128'_pad'|]
 // file /usr/include/alsa/seq_event.h line 307
-union anonymous$0;
+union anonymous_0;
 
 // tag-JackOptions
 // file /usr/include/jack/types.h line 90
@@ -411,24 +411,24 @@ struct timespec;
 // INIT_LIST_HEAD
 // file ../list.h line 74
 static inline void INIT_LIST_HEAD(struct list_head *list);
-// INIT_LIST_HEAD$link1
+// INIT_LIST_HEAD_link1
 // file ../list.h line 74
-static inline void INIT_LIST_HEAD$link1(struct list_head *list$link1);
+static inline void INIT_LIST_HEAD_link1(struct list_head *list_link1);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
 // __list_add
 // file ../list.h line 86
 static inline void __list_add(struct list_head *new, struct list_head *prev, struct list_head *next);
-// __list_add$link1
+// __list_add_link1
 // file ../list.h line 86
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1);
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1);
 // __list_del
 // file ../list.h line 188
 static inline void __list_del(struct list_head *prev, struct list_head *next);
-// __list_del$link1
+// __list_del_link1
 // file ../list.h line 188
-static inline void __list_del$link1(struct list_head *prev$link1, struct list_head *next$link1);
+static inline void __list_del_link1(struct list_head *prev_link1, struct list_head *next_link1);
 // __list_splice
 // file ../list.h line 315
 static inline void __list_splice(struct list_head *list, struct list_head *head);
@@ -464,7 +464,7 @@ extern void g_error_free(struct _GError *);
 extern void g_free(void *);
 // g_log
 // file /usr/include/glib-2.0/glib/gmessages.h line 101
-extern void g_log(const char *, enum anonymous$12, const char *, ...);
+extern void g_log(const char *, enum anonymous_12, const char *, ...);
 // g_object_new
 // file /usr/include/glib-2.0/gobject/gobject.h line 420
 extern void * g_object_new(unsigned long int, const char *, ...);
@@ -482,7 +482,7 @@ extern char * g_path_get_dirname(const char *);
 extern signed int g_printf(const char *, ...);
 // g_signal_connect_data
 // file /usr/include/glib-2.0/gobject/gsignal.h line 388
-extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous$3);
+extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous_3);
 // g_strdup_printf
 // file /usr/include/glib-2.0/glib/gstrfuncs.h line 218
 extern char * g_strdup_printf(const char *, ...);
@@ -671,7 +671,7 @@ signed int jack_process(unsigned int nframes, void *context);
 signed int jack_set_process_callback(struct _jack_client *, signed int (*)(unsigned int, void *), void *);
 // jack_transport_query
 // file /usr/include/jack/transport.h line 403
-enum anonymous$1 jack_transport_query(const struct _jack_client *, struct anonymous$4 *);
+enum anonymous_1 jack_transport_query(const struct _jack_client *, struct anonymous_4 *);
 // jack_uninit
 // file ../jack.h line 30
 void jack_uninit();
@@ -684,15 +684,15 @@ static inline void list_add_tail(struct list_head *new, struct list_head *head);
 // list_del
 // file ../list.h line 200
 static inline void list_del(struct list_head *entry);
-// list_del$link1
+// list_del_link1
 // file ../list.h line 200
-static inline void list_del$link1(struct list_head *entry$link1);
+static inline void list_del_link1(struct list_head *entry_link1);
 // list_empty
 // file ../list.h line 292
 static inline signed int list_empty(struct list_head *head);
-// list_empty$link1
+// list_empty_link1
 // file ../list.h line 292
-static inline signed int list_empty$link1(struct list_head *head$link1);
+static inline signed int list_empty_link1(struct list_head *head_link1);
 // list_splice_init
 // file ../list.h line 347
 static inline void list_splice_init(struct list_head *list, struct list_head *head);
@@ -740,19 +740,19 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$7 *);
+extern signed int pthread_mutex_destroy(union anonymous_7 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$7 *, const union anonymous$8 *);
+extern signed int pthread_mutex_init(union anonymous_7 *, const union anonymous_8 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$7 *);
+extern signed int pthread_mutex_trylock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // rtsafe_memory_allocate
 // file ../memory_atomic.c line 302
 void * rtsafe_memory_allocate(void *handle_ptr, unsigned long int size);
@@ -844,7 +844,7 @@ extern signed int usleep(unsigned int);
 // file /usr/include/stdio.h line 377
 extern signed int vprintf(const char *, void **);
 
-struct anonymous$4
+struct anonymous_4
 {
   // unique_1
   unsigned long int unique_1;
@@ -855,7 +855,7 @@ struct anonymous$4
   // frame
   unsigned int frame;
   // valid
-  enum anonymous$2 valid;
+  enum anonymous_2 valid;
   // bar
   signed int bar;
   // beat
@@ -888,7 +888,7 @@ struct anonymous$4
   unsigned long int unique_2;
 } __attribute__ ((__packed__));
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[4l];
@@ -896,7 +896,7 @@ union anonymous$8
   signed int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // v_int
   signed int v_int;
@@ -986,7 +986,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1076,7 +1076,7 @@ struct snd_seq_result
   signed int result;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // note
   struct snd_seq_ev_note note;
@@ -1211,7 +1211,7 @@ struct _GValue
   // g_type
   unsigned long int g_type;
   // data
-  union anonymous$5 data[2l];
+  union anonymous_5 data[2l];
 };
 
 struct _GdkColor
@@ -1249,7 +1249,7 @@ struct _GdkDrawable
 struct _GdkFont
 {
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // ascent
   signed int ascent;
   // descent
@@ -1307,11 +1307,11 @@ struct _GdkVisual
   // parent_instance
   struct _GObject parent_instance;
   // type
-  enum anonymous$13 type;
+  enum anonymous_13 type;
   // depth
   signed int depth;
   // byte_order
-  enum anonymous$6 byte_order;
+  enum anonymous_6 byte_order;
   // colormap_size
   signed int colormap_size;
   // bits_per_rgb
@@ -1497,7 +1497,7 @@ struct _GtkListStore
   // sort_column_id
   signed int sort_column_id;
   // order
-  enum anonymous$15 order;
+  enum anonymous_15 order;
   // column_headers
   unsigned long int *column_headers;
   // length
@@ -1523,7 +1523,7 @@ struct _GtkRcStyle
   // font_desc
   struct _PangoFontDescription *font_desc;
   // color_flags
-  enum anonymous$10 color_flags[5l];
+  enum anonymous_10 color_flags[5l];
   // fg
   struct _GdkColor fg[5l];
   // bg
@@ -1687,7 +1687,7 @@ struct _GtkTreeViewColumn
   // spacing
   signed int spacing;
   // column_type
-  enum anonymous$14 column_type;
+  enum anonymous_14 column_type;
   // requested_width
   signed int requested_width;
   // button_request
@@ -1717,7 +1717,7 @@ struct _GtkTreeViewColumn
   // sort_column_id
   signed int sort_column_id;
   // sort_order
-  enum anonymous$15 sort_order;
+  enum anonymous_15 sort_order;
   // visible
   unsigned int visible : 1;
   // resizable
@@ -1815,7 +1815,7 @@ struct _GtkWindow
   // keys_changed_handler
   unsigned int keys_changed_handler;
   // mnemonic_modifier
-  enum anonymous$11 mnemonic_modifier;
+  enum anonymous_11 mnemonic_modifier;
   // screen
   struct _GdkScreen *screen;
 };
@@ -1987,7 +1987,7 @@ struct snd_seq_event
   // dest
   struct snd_seq_addr dest;
   // data
-  union anonymous$0 data;
+  union anonymous_0 data;
 };
 
 struct timespec
@@ -2063,7 +2063,7 @@ struct list_head g_jack_midi_events_pending;
 struct list_head g_jack_midi_events_pending_rt;
 // g_jack_midi_mutex
 // file ../jack.c line 56
-union anonymous$7 g_jack_midi_mutex;
+union anonymous_7 g_jack_midi_mutex;
 // g_jack_midi_thread_exit
 // file ../jack.c line 69
 signed int g_jack_midi_thread_exit;
@@ -2112,12 +2112,12 @@ static inline void INIT_LIST_HEAD(struct list_head *list)
   list->prev = list;
 }
 
-// INIT_LIST_HEAD$link1
+// INIT_LIST_HEAD_link1
 // file ../list.h line 74
-static inline void INIT_LIST_HEAD$link1(struct list_head *list$link1)
+static inline void INIT_LIST_HEAD_link1(struct list_head *list_link1)
 {
-  list$link1->next = list$link1;
-  list$link1->prev = list$link1;
+  list_link1->next = list_link1;
+  list_link1->prev = list_link1;
 }
 
 // __list_add
@@ -2130,14 +2130,14 @@ static inline void __list_add(struct list_head *new, struct list_head *prev, str
   prev->next = new;
 }
 
-// __list_add$link1
+// __list_add_link1
 // file ../list.h line 86
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1)
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1)
 {
-  next$link1->prev = new$link1;
-  new$link1->next = next$link1;
-  new$link1->prev = prev$link1;
-  prev$link1->next = new$link1;
+  next_link1->prev = new_link1;
+  new_link1->next = next_link1;
+  new_link1->prev = prev_link1;
+  prev_link1->next = new_link1;
 }
 
 // __list_del
@@ -2148,12 +2148,12 @@ static inline void __list_del(struct list_head *prev, struct list_head *next)
   prev->next = next;
 }
 
-// __list_del$link1
+// __list_del_link1
 // file ../list.h line 188
-static inline void __list_del$link1(struct list_head *prev$link1, struct list_head *next$link1)
+static inline void __list_del_link1(struct list_head *prev_link1, struct list_head *next_link1)
 {
-  next$link1->prev = prev$link1;
-  prev$link1->next = next$link1;
+  next_link1->prev = prev_link1;
+  prev_link1->next = next_link1;
 }
 
 // __list_splice
@@ -2178,23 +2178,23 @@ signed int alsa_init(const char *name)
   ret=snd_seq_open(&g_seq_ptr, "default", 2, 0);
   if(!(ret >= 0))
   {
-    const char *return_value_snd_strerror$1;
-    return_value_snd_strerror$1=snd_strerror(ret);
-    g_log((char *)0, (enum anonymous$12)G_LOG_LEVEL_WARNING, "Cannot open sequncer, %s\n", return_value_snd_strerror$1);
+    const char *return_value_snd_strerror_1;
+    return_value_snd_strerror_1=snd_strerror(ret);
+    g_log((char *)0, (enum anonymous_12)G_LOG_LEVEL_WARNING, "Cannot open sequncer, %s\n", return_value_snd_strerror_1);
     goto fail;
   }
 
   snd_seq_set_client_name(g_seq_ptr, name);
   do
   {
-    unsigned long int return_value_snd_seq_port_info_sizeof$2;
-    return_value_snd_seq_port_info_sizeof$2=snd_seq_port_info_sizeof();
-    void *return_value___builtin_alloca$3;
-    return_value___builtin_alloca$3=__builtin_alloca(return_value_snd_seq_port_info_sizeof$2);
-    *(&port_info) = (struct _snd_seq_port_info *)return_value___builtin_alloca$3;
-    unsigned long int return_value_snd_seq_port_info_sizeof$4;
-    return_value_snd_seq_port_info_sizeof$4=snd_seq_port_info_sizeof();
-    memset((void *)*(&port_info), 0, return_value_snd_seq_port_info_sizeof$4);
+    unsigned long int return_value_snd_seq_port_info_sizeof_2;
+    return_value_snd_seq_port_info_sizeof_2=snd_seq_port_info_sizeof();
+    void *return_value___builtin_alloca_3;
+    return_value___builtin_alloca_3=__builtin_alloca(return_value_snd_seq_port_info_sizeof_2);
+    *(&port_info) = (struct _snd_seq_port_info *)return_value___builtin_alloca_3;
+    unsigned long int return_value_snd_seq_port_info_sizeof_4;
+    return_value_snd_seq_port_info_sizeof_4=snd_seq_port_info_sizeof();
+    memset((void *)*(&port_info), 0, return_value_snd_seq_port_info_sizeof_4);
   }
   while((_Bool)0);
   snd_seq_port_info_set_capability(port_info, (unsigned int)(1 << 1 | 1 << 6));
@@ -2206,9 +2206,9 @@ signed int alsa_init(const char *name)
   ret=snd_seq_create_port(g_seq_ptr, port_info);
   if(!(ret >= 0))
   {
-    const char *return_value_snd_strerror$5;
-    return_value_snd_strerror$5=snd_strerror(ret);
-    g_log((char *)0, (enum anonymous$12)G_LOG_LEVEL_WARNING, "Error creating ALSA sequencer port, %s\n", return_value_snd_strerror$5);
+    const char *return_value_snd_strerror_5;
+    return_value_snd_strerror_5=snd_strerror(ret);
+    g_log((char *)0, (enum anonymous_12)G_LOG_LEVEL_WARNING, "Error creating ALSA sequencer port, %s\n", return_value_snd_strerror_5);
     goto fail_close_seq;
   }
 
@@ -2220,9 +2220,9 @@ fail_close_seq:
   ret=snd_seq_close(g_seq_ptr);
   if(!(ret >= 0))
   {
-    const char *return_value_snd_strerror$6;
-    return_value_snd_strerror$6=snd_strerror(ret);
-    g_log((char *)0, (enum anonymous$12)G_LOG_LEVEL_WARNING, "Cannot close sequncer, %s\n", return_value_snd_strerror$6);
+    const char *return_value_snd_strerror_6;
+    return_value_snd_strerror_6=snd_strerror(ret);
+    g_log((char *)0, (enum anonymous_12)G_LOG_LEVEL_WARNING, "Cannot close sequncer, %s\n", return_value_snd_strerror_6);
   }
 
 
@@ -2246,37 +2246,37 @@ void * alsa_midi_thread(void *context_ptr)
   signed int octave;
   const char *drum_name;
   const char *cc_name;
-  struct _GObject *return_value_gtk_builder_get_object$1;
-  return_value_gtk_builder_get_object$1=gtk_builder_get_object(g_builder, "list");
-  unsigned long int return_value_gtk_widget_get_type$2;
-  return_value_gtk_widget_get_type$2=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object$1, return_value_gtk_widget_get_type$2);
-  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast$3;
-  unsigned long int return_value_gtk_tree_view_get_type$4;
-  return_value_gtk_tree_view_get_type$4=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$4);
-  struct _GtkTreeModel *return_value_gtk_tree_view_get_model$6;
-  return_value_gtk_tree_view_get_model$6=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast$5);
-  unsigned long int return_value_gtk_list_store_get_type$7;
-  return_value_gtk_list_store_get_type$7=gtk_list_store_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_get_model$6, return_value_gtk_list_store_get_type$7);
-  list_store_ptr = (struct _GtkListStore *)return_value_g_type_check_instance_cast$8;
-  signed int return_value_snd_seq_event_input$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  char *tmp_if_expr$17;
-  const char *return_value_gm_get_instrument_name$16;
+  struct _GObject *return_value_gtk_builder_get_object_1;
+  return_value_gtk_builder_get_object_1=gtk_builder_get_object(g_builder, "list");
+  unsigned long int return_value_gtk_widget_get_type_2;
+  return_value_gtk_widget_get_type_2=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object_1, return_value_gtk_widget_get_type_2);
+  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast_3;
+  unsigned long int return_value_gtk_tree_view_get_type_4;
+  return_value_gtk_tree_view_get_type_4=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_4);
+  struct _GtkTreeModel *return_value_gtk_tree_view_get_model_6;
+  return_value_gtk_tree_view_get_model_6=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast_5);
+  unsigned long int return_value_gtk_list_store_get_type_7;
+  return_value_gtk_list_store_get_type_7=gtk_list_store_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_get_model_6, return_value_gtk_list_store_get_type_7);
+  list_store_ptr = (struct _GtkListStore *)return_value_g_type_check_instance_cast_8;
+  signed int return_value_snd_seq_event_input_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  char *tmp_if_expr_17;
+  const char *return_value_gm_get_instrument_name_16;
   do
   {
-    return_value_snd_seq_event_input$9=snd_seq_event_input(g_seq_ptr, &event_ptr);
-    if(!(return_value_snd_seq_event_input$9 >= 0))
+    return_value_snd_seq_event_input_9=snd_seq_event_input(g_seq_ptr, &event_ptr);
+    if(!(return_value_snd_seq_event_input_9 >= 0))
       break;
 
     if(g_midi_ignore == 0)
@@ -2288,21 +2288,21 @@ void * alsa_midi_thread(void *context_ptr)
       note_name = (const char *)(void *)0;
       octave = 0;
       if((signed int)event_ptr->type == 5)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = (signed int)event_ptr->type == 6 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_10 = (signed int)event_ptr->type == 6 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = (signed int)event_ptr->type == 7 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$11)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_11 = (signed int)event_ptr->type == 7 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_11)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
-        tmp_if_expr$12 = (signed int)event_ptr->type == 8 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = (signed int)event_ptr->type == 8 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_12)
       {
         g_string_printf(channel_str_ptr, "%u", (unsigned int)event_ptr->data.note.channel + (unsigned int)1);
         if((signed int)event_ptr->data.note.channel == 9)
@@ -2315,16 +2315,16 @@ void * alsa_midi_thread(void *context_ptr)
       }
 
       if((signed int)event_ptr->type == 10)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = (signed int)event_ptr->type == 11 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$13)
-        tmp_if_expr$14 = (_Bool)1;
+        tmp_if_expr_13 = (signed int)event_ptr->type == 11 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_13)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
-        tmp_if_expr$14 = (signed int)event_ptr->type == 13 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$14)
+        tmp_if_expr_14 = (signed int)event_ptr->type == 13 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_14)
         g_string_printf(channel_str_ptr, "%u", (unsigned int)event_ptr->data.control.channel + (unsigned int)1);
 
       msg_str_ptr=g_string_new("unknown event");
@@ -2742,19 +2742,19 @@ void * alsa_midi_thread(void *context_ptr)
         case 11:
         {
           if(event_ptr->data.control.value >= 128)
-            tmp_if_expr$15 = (_Bool)1;
+            tmp_if_expr_15 = (_Bool)1;
 
           else
-            tmp_if_expr$15 = event_ptr->data.control.value < 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$15)
-            tmp_if_expr$17 = "???";
+            tmp_if_expr_15 = event_ptr->data.control.value < 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_15)
+            tmp_if_expr_17 = "???";
 
           else
           {
-            return_value_gm_get_instrument_name$16=gm_get_instrument_name((unsigned char)event_ptr->data.control.value);
-            tmp_if_expr$17 = return_value_gm_get_instrument_name$16;
+            return_value_gm_get_instrument_name_16=gm_get_instrument_name((unsigned char)event_ptr->data.control.value);
+            tmp_if_expr_17 = return_value_gm_get_instrument_name_16;
           }
-          g_string_printf(msg_str_ptr, "Program change, %d (%s)", (unsigned int)event_ptr->data.control.value, tmp_if_expr$17);
+          g_string_printf(msg_str_ptr, "Program change, %d (%s)", (unsigned int)event_ptr->data.control.value, tmp_if_expr_17);
           goto __CPROVER_DUMP_L155;
         }
         case 12:
@@ -3009,34 +3009,34 @@ void * alsa_midi_thread(void *context_ptr)
           gdk_threads_enter();
           if(g_row_count >= 2000)
           {
-            unsigned long int return_value_gtk_tree_model_get_type$18;
-            return_value_gtk_tree_model_get_type$18=gtk_tree_model_get_type();
-            struct _GTypeInstance *return_value_g_type_check_instance_cast$19;
-            return_value_g_type_check_instance_cast$19=g_type_check_instance_cast((struct _GTypeInstance *)list_store_ptr, return_value_gtk_tree_model_get_type$18);
-            gtk_tree_model_get_iter_first((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$19, &iter);
+            unsigned long int return_value_gtk_tree_model_get_type_18;
+            return_value_gtk_tree_model_get_type_18=gtk_tree_model_get_type();
+            struct _GTypeInstance *return_value_g_type_check_instance_cast_19;
+            return_value_g_type_check_instance_cast_19=g_type_check_instance_cast((struct _GTypeInstance *)list_store_ptr, return_value_gtk_tree_model_get_type_18);
+            gtk_tree_model_get_iter_first((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_19, &iter);
             gtk_list_store_remove(list_store_ptr, &iter);
           }
 
           gtk_list_store_append(list_store_ptr, &iter);
           gtk_list_store_set(list_store_ptr, &iter, 0, time_str_ptr->str, 1, channel_str_ptr->str, 2, msg_str_ptr->str, -1);
-          unsigned long int return_value_gtk_tree_view_get_type$20;
-          return_value_gtk_tree_view_get_type$20=gtk_tree_view_get_type();
-          struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
-          return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$20);
-          unsigned long int return_value_gtk_tree_view_get_type$22;
-          return_value_gtk_tree_view_get_type$22=gtk_tree_view_get_type();
-          struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-          return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$22);
-          struct _GtkTreeModel *return_value_gtk_tree_view_get_model$24;
-          return_value_gtk_tree_view_get_model$24=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast$23);
-          struct _GtkTreePath *return_value_gtk_tree_model_get_path$25;
-          return_value_gtk_tree_model_get_path$25=gtk_tree_model_get_path(return_value_gtk_tree_view_get_model$24, &iter);
-          gtk_tree_view_scroll_to_cell((struct _GtkTreeView *)return_value_g_type_check_instance_cast$21, return_value_gtk_tree_model_get_path$25, (struct _GtkTreeViewColumn *)(void *)0, (signed int)!(0 != 0), (float)0.0, (float)1.0);
-          unsigned long int return_value_gtk_container_get_type$26;
-          return_value_gtk_container_get_type$26=gtk_container_get_type();
-          struct _GTypeInstance *return_value_g_type_check_instance_cast$27;
-          return_value_g_type_check_instance_cast$27=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_container_get_type$26);
-          gtk_container_check_resize((struct _GtkContainer *)return_value_g_type_check_instance_cast$27);
+          unsigned long int return_value_gtk_tree_view_get_type_20;
+          return_value_gtk_tree_view_get_type_20=gtk_tree_view_get_type();
+          struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
+          return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_20);
+          unsigned long int return_value_gtk_tree_view_get_type_22;
+          return_value_gtk_tree_view_get_type_22=gtk_tree_view_get_type();
+          struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+          return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_22);
+          struct _GtkTreeModel *return_value_gtk_tree_view_get_model_24;
+          return_value_gtk_tree_view_get_model_24=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast_23);
+          struct _GtkTreePath *return_value_gtk_tree_model_get_path_25;
+          return_value_gtk_tree_model_get_path_25=gtk_tree_model_get_path(return_value_gtk_tree_view_get_model_24, &iter);
+          gtk_tree_view_scroll_to_cell((struct _GtkTreeView *)return_value_g_type_check_instance_cast_21, return_value_gtk_tree_model_get_path_25, (struct _GtkTreeViewColumn *)(void *)0, (signed int)!(0 != 0), (float)0.0, (float)1.0);
+          unsigned long int return_value_gtk_container_get_type_26;
+          return_value_gtk_container_get_type_26=gtk_container_get_type();
+          struct _GTypeInstance *return_value_g_type_check_instance_cast_27;
+          return_value_g_type_check_instance_cast_27=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_container_get_type_26);
+          gtk_container_check_resize((struct _GtkContainer *)return_value_g_type_check_instance_cast_27);
           g_row_count = g_row_count + 1;
           gdk_threads_leave();
           g_string_free(channel_str_ptr, (signed int)!(0 != 0));
@@ -3061,9 +3061,9 @@ void alsa_uninit()
   ret=snd_seq_close(g_seq_ptr);
   if(!(ret >= 0))
   {
-    const char *return_value_snd_strerror$1;
-    return_value_snd_strerror$1=snd_strerror(ret);
-    g_log((char *)0, (enum anonymous$12)G_LOG_LEVEL_WARNING, "Cannot close sequncer, %s\n", return_value_snd_strerror$1);
+    const char *return_value_snd_strerror_1;
+    return_value_snd_strerror_1=snd_strerror(ret);
+    g_log((char *)0, (enum anonymous_12)G_LOG_LEVEL_WARNING, "Cannot close sequncer, %s\n", return_value_snd_strerror_1);
   }
 
 }
@@ -3081,63 +3081,63 @@ void create_mainwindow()
   ui_filename=path_get_data_filename("gmidimonitor.ui");
   if(ui_filename == ((char *)NULL))
   {
-    g_log((char *)0, (enum anonymous$12)G_LOG_LEVEL_WARNING, "Cannot find UI description file.");
+    g_log((char *)0, (enum anonymous_12)G_LOG_LEVEL_WARNING, "Cannot find UI description file.");
     exit(1);
   }
 
   error = (struct _GError *)(void *)0;
   g_builder=gtk_builder_new();
-  unsigned int return_value_gtk_builder_add_from_file$1;
-  return_value_gtk_builder_add_from_file$1=gtk_builder_add_from_file(g_builder, ui_filename, &error);
-  if(return_value_gtk_builder_add_from_file$1 == 0u)
+  unsigned int return_value_gtk_builder_add_from_file_1;
+  return_value_gtk_builder_add_from_file_1=gtk_builder_add_from_file(g_builder, ui_filename, &error);
+  if(return_value_gtk_builder_add_from_file_1 == 0u)
   {
-    g_log((char *)0, (enum anonymous$12)G_LOG_LEVEL_WARNING, "Couldn't load builder file: %s", error->message);
+    g_log((char *)0, (enum anonymous_12)G_LOG_LEVEL_WARNING, "Couldn't load builder file: %s", error->message);
     g_error_free(error);
   }
 
   g_free((void *)ui_filename);
-  struct _GObject *return_value_gtk_builder_get_object$2;
-  return_value_gtk_builder_get_object$2=gtk_builder_get_object(g_builder, "main_window");
-  unsigned long int return_value_gtk_widget_get_type$3;
-  return_value_gtk_widget_get_type$3=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object$2, return_value_gtk_widget_get_type$3);
-  g_main_window_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast$4;
+  struct _GObject *return_value_gtk_builder_get_object_2;
+  return_value_gtk_builder_get_object_2=gtk_builder_get_object(g_builder, "main_window");
+  unsigned long int return_value_gtk_widget_get_type_3;
+  return_value_gtk_widget_get_type_3=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object_2, return_value_gtk_widget_get_type_3);
+  g_main_window_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast_4;
   gtk_builder_connect_signals(g_builder, (void *)0);
-  struct _GObject *return_value_gtk_builder_get_object$5;
-  return_value_gtk_builder_get_object$5=gtk_builder_get_object(g_builder, "list");
-  unsigned long int return_value_gtk_widget_get_type$6;
-  return_value_gtk_widget_get_type$6=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object$5, return_value_gtk_widget_get_type$6);
-  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast$7;
+  struct _GObject *return_value_gtk_builder_get_object_5;
+  return_value_gtk_builder_get_object_5=gtk_builder_get_object(g_builder, "list");
+  unsigned long int return_value_gtk_widget_get_type_6;
+  return_value_gtk_widget_get_type_6=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object_5, return_value_gtk_widget_get_type_6);
+  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast_7;
   text_renderer_ptr=gtk_cell_renderer_text_new();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)text_renderer_ptr, (unsigned long int)(20 << 2));
-  g_object_set((void *)(struct _GObject *)return_value_g_type_check_instance_cast$8, "family", (const void *)"Monospace", (void *)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)text_renderer_ptr, (unsigned long int)(20 << 2));
+  g_object_set((void *)(struct _GObject *)return_value_g_type_check_instance_cast_8, "family", (const void *)"Monospace", (void *)0);
   column_ptr=gtk_tree_view_column_new_with_attributes("Channel", text_renderer_ptr, (const void *)"text", 1, (void *)0);
-  unsigned long int return_value_gtk_tree_view_get_type$9;
-  return_value_gtk_tree_view_get_type$9=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$9);
-  gtk_tree_view_append_column((struct _GtkTreeView *)return_value_g_type_check_instance_cast$10, column_ptr);
+  unsigned long int return_value_gtk_tree_view_get_type_9;
+  return_value_gtk_tree_view_get_type_9=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_9);
+  gtk_tree_view_append_column((struct _GtkTreeView *)return_value_g_type_check_instance_cast_10, column_ptr);
   column_ptr=gtk_tree_view_column_new_with_attributes("Message", text_renderer_ptr, (const void *)"text", 2, (void *)0);
-  unsigned long int return_value_gtk_tree_view_get_type$11;
-  return_value_gtk_tree_view_get_type$11=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$11);
-  gtk_tree_view_append_column((struct _GtkTreeView *)return_value_g_type_check_instance_cast$12, column_ptr);
+  unsigned long int return_value_gtk_tree_view_get_type_11;
+  return_value_gtk_tree_view_get_type_11=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_11);
+  gtk_tree_view_append_column((struct _GtkTreeView *)return_value_g_type_check_instance_cast_12, column_ptr);
   gtk_widget_show_all(g_main_window_ptr);
   list_store_ptr=gtk_list_store_new(3, (unsigned long int)(16 << 2), (unsigned long int)(16 << 2), (unsigned long int)(16 << 2));
-  unsigned long int return_value_gtk_tree_view_get_type$13;
-  return_value_gtk_tree_view_get_type$13=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$13);
-  unsigned long int return_value_gtk_tree_model_get_type$15;
-  return_value_gtk_tree_model_get_type$15=gtk_tree_model_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)list_store_ptr, return_value_gtk_tree_model_get_type$15);
-  gtk_tree_view_set_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast$14, (struct _GtkTreeModel *)return_value_g_type_check_instance_cast$16);
+  unsigned long int return_value_gtk_tree_view_get_type_13;
+  return_value_gtk_tree_view_get_type_13=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_13);
+  unsigned long int return_value_gtk_tree_model_get_type_15;
+  return_value_gtk_tree_model_get_type_15=gtk_tree_model_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)list_store_ptr, return_value_gtk_tree_model_get_type_15);
+  gtk_tree_view_set_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast_14, (struct _GtkTreeModel *)return_value_g_type_check_instance_cast_16);
 }
 
 // decode_sysex
@@ -3146,38 +3146,38 @@ void decode_sysex(unsigned char *buffer, unsigned long int buffer_size, struct _
 {
   const char *mmc_command_name;
   unsigned long int i;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(buffer_size == 6ul)
-    tmp_if_expr$8 = (signed int)buffer[(signed long int)0] == 0xF0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_8 = (signed int)buffer[(signed long int)0] == 0xF0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = (signed int)buffer[(signed long int)1] == 0x7F ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_8 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = (signed int)buffer[(signed long int)1] == 0x7F ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  _Bool tmp_if_expr$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$10 = (signed int)buffer[(signed long int)3] == 0x06 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = (_Bool)0;
+  _Bool tmp_if_expr_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_10 = (signed int)buffer[(signed long int)3] == 0x06 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$10 = (_Bool)0;
-  _Bool tmp_if_expr$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$11 = (signed int)buffer[(signed long int)5] == 0xF7 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_10 = (_Bool)0;
+  _Bool tmp_if_expr_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_11 = (signed int)buffer[(signed long int)5] == 0xF7 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_11)
   {
     switch((signed int)buffer[(signed long int)4])
     {
@@ -3260,41 +3260,41 @@ void decode_sysex(unsigned char *buffer, unsigned long int buffer_size, struct _
   else
   {
     if(buffer_size == 13ul)
-      tmp_if_expr$1 = (signed int)buffer[(signed long int)0] == 0xF0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)buffer[(signed long int)0] == 0xF0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (signed int)buffer[(signed long int)1] == 0x7F ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (signed int)buffer[(signed long int)1] == 0x7F ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (signed int)buffer[(signed long int)3] == 0x06 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (signed int)buffer[(signed long int)3] == 0x06 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (signed int)buffer[(signed long int)4] == 0x44 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (signed int)buffer[(signed long int)4] == 0x44 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (signed int)buffer[(signed long int)5] == 0x06 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (signed int)buffer[(signed long int)5] == 0x06 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (signed int)buffer[(signed long int)6] == 0x01 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (signed int)buffer[(signed long int)6] == 0x01 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (signed int)buffer[(signed long int)12] == 0xF7 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (signed int)buffer[(signed long int)12] == 0xF7 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
     {
       g_string_printf(msg_str_ptr, "MMC goto %u:%u:%u/%u:%u", (unsigned int)((signed int)buffer[(signed long int)7] & 0x1F), (unsigned int)buffer[(signed long int)8], (unsigned int)buffer[(signed long int)9], (unsigned int)((signed int)buffer[(signed long int)10] & 0x1F), (unsigned int)buffer[(signed long int)11]);
       switch((signed int)buffer[(signed long int)7] & 0x60)
@@ -3502,35 +3502,35 @@ void jack_destroy_pending_events()
 {
   struct jack_midi_event_buffer *event_buffer;
   struct list_head *node_ptr;
-  signed int return_value_list_empty$1;
-  struct jack_midi_event_buffer *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct jack_midi_event_buffer *tmp_statement_expression_2;
   do
   {
-    return_value_list_empty$1=list_empty$link1(&g_jack_midi_events_pending);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty_link1(&g_jack_midi_events_pending);
+    if(!(return_value_list_empty_1 == 0))
       break;
 
     node_ptr = g_jack_midi_events_pending.next;
-    list_del$link1(node_ptr);
-    const struct list_head *jack_destroy_pending_events$$1$$1$$1$$__mptr = node_ptr;
-    tmp_statement_expression$2 = (struct jack_midi_event_buffer *)((char *)jack_destroy_pending_events$$1$$1$$1$$__mptr - (signed long int)0ul);
-    event_buffer = tmp_statement_expression$2;
+    list_del_link1(node_ptr);
+    const struct list_head *jack_destroy_pending_events__1__1__1____mptr = node_ptr;
+    tmp_statement_expression_2 = (struct jack_midi_event_buffer *)((char *)jack_destroy_pending_events__1__1__1____mptr - (signed long int)0ul);
+    event_buffer = tmp_statement_expression_2;
     rtsafe_memory_deallocate((void *)event_buffer);
   }
   while((_Bool)1);
-  signed int return_value_list_empty$3;
-  struct jack_midi_event_buffer *tmp_statement_expression$4;
+  signed int return_value_list_empty_3;
+  struct jack_midi_event_buffer *tmp_statement_expression_4;
   do
   {
-    return_value_list_empty$3=list_empty$link1(&g_jack_midi_events_pending_rt);
-    if(!(return_value_list_empty$3 == 0))
+    return_value_list_empty_3=list_empty_link1(&g_jack_midi_events_pending_rt);
+    if(!(return_value_list_empty_3 == 0))
       break;
 
     node_ptr = g_jack_midi_events_pending_rt.next;
-    list_del$link1(node_ptr);
+    list_del_link1(node_ptr);
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$4 = (struct jack_midi_event_buffer *)((char *)__mptr - (signed long int)0ul);
-    event_buffer = tmp_statement_expression$4;
+    tmp_statement_expression_4 = (struct jack_midi_event_buffer *)((char *)__mptr - (signed long int)0ul);
+    event_buffer = tmp_statement_expression_4;
     rtsafe_memory_deallocate((void *)event_buffer);
   }
   while((_Bool)1);
@@ -3541,16 +3541,16 @@ void jack_destroy_pending_events()
 signed int jack_init(const char *name)
 {
   signed int ret;
-  signed int return_value_rtsafe_memory_init$1;
-  return_value_rtsafe_memory_init$1=rtsafe_memory_init((unsigned long int)(100 * 1024), (unsigned long int)100, (unsigned long int)1000, &g_memory);
-  if(return_value_rtsafe_memory_init$1 == 0)
+  signed int return_value_rtsafe_memory_init_1;
+  return_value_rtsafe_memory_init_1=rtsafe_memory_init((unsigned long int)(100 * 1024), (unsigned long int)100, (unsigned long int)1000, &g_memory);
+  if(return_value_rtsafe_memory_init_1 == 0)
     log_msg(4, "RT-safe memory initialization failed.\n");
 
   else
   {
-    INIT_LIST_HEAD$link1(&g_jack_midi_events_pending);
-    INIT_LIST_HEAD$link1(&g_jack_midi_events_pending_rt);
-    ret=pthread_mutex_init(&g_jack_midi_mutex, (const union anonymous$8 *)(void *)0);
+    INIT_LIST_HEAD_link1(&g_jack_midi_events_pending);
+    INIT_LIST_HEAD_link1(&g_jack_midi_events_pending_rt);
+    ret=pthread_mutex_init(&g_jack_midi_mutex, (const union anonymous_8 *)(void *)0);
     if(!(ret == 0))
       log_msg(4, "Cannot initialize mutex.\n");
 
@@ -3806,9 +3806,9 @@ signed int jack_midi_decode(unsigned char *buffer, unsigned long int buffer_size
                     goto unknown_event;
 
                   g_string_printf(channel_str_ptr, "%u", channel);
-                  const char *return_value_gm_get_instrument_name$1;
-                  return_value_gm_get_instrument_name$1=gm_get_instrument_name((unsigned char)value);
-                  g_string_printf(msg_str_ptr, "Program change, %d (%s)", value, return_value_gm_get_instrument_name$1);
+                  const char *return_value_gm_get_instrument_name_1;
+                  return_value_gm_get_instrument_name_1=gm_get_instrument_name((unsigned char)value);
+                  g_string_printf(msg_str_ptr, "Program change, %d (%s)", value, return_value_gm_get_instrument_name_1);
                   return (signed int)!(0 != 0);
                 }
 
@@ -3897,35 +3897,35 @@ void * jack_midi_thread(void *context_ptr)
   struct _GString *time_str_ptr;
   struct _GString *msg_str_ptr;
   struct _GString *channel_str_ptr;
-  struct _GObject *return_value_gtk_builder_get_object$1;
-  return_value_gtk_builder_get_object$1=gtk_builder_get_object(g_builder, "list");
-  unsigned long int return_value_gtk_widget_get_type$2;
-  return_value_gtk_widget_get_type$2=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object$1, return_value_gtk_widget_get_type$2);
-  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast$3;
-  unsigned long int return_value_gtk_tree_view_get_type$4;
-  return_value_gtk_tree_view_get_type$4=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$4);
-  struct _GtkTreeModel *return_value_gtk_tree_view_get_model$6;
-  return_value_gtk_tree_view_get_model$6=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast$5);
-  unsigned long int return_value_gtk_list_store_get_type$7;
-  return_value_gtk_list_store_get_type$7=gtk_list_store_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_get_model$6, return_value_gtk_list_store_get_type$7);
-  list_store_ptr = (struct _GtkListStore *)return_value_g_type_check_instance_cast$8;
-  signed int return_value_list_empty$9;
-  struct jack_midi_event_buffer *tmp_statement_expression$10;
-  signed int return_value_jack_midi_decode$11;
-  unsigned long int return_value_gtk_tree_view_get_type$14;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$15;
-  unsigned long int return_value_gtk_tree_view_get_type$16;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-  struct _GtkTreeModel *return_value_gtk_tree_view_get_model$18;
-  struct _GtkTreePath *return_value_gtk_tree_model_get_path$19;
-  unsigned long int return_value_gtk_container_get_type$20;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
+  struct _GObject *return_value_gtk_builder_get_object_1;
+  return_value_gtk_builder_get_object_1=gtk_builder_get_object(g_builder, "list");
+  unsigned long int return_value_gtk_widget_get_type_2;
+  return_value_gtk_widget_get_type_2=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object_1, return_value_gtk_widget_get_type_2);
+  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast_3;
+  unsigned long int return_value_gtk_tree_view_get_type_4;
+  return_value_gtk_tree_view_get_type_4=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_4);
+  struct _GtkTreeModel *return_value_gtk_tree_view_get_model_6;
+  return_value_gtk_tree_view_get_model_6=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast_5);
+  unsigned long int return_value_gtk_list_store_get_type_7;
+  return_value_gtk_list_store_get_type_7=gtk_list_store_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_get_model_6, return_value_gtk_list_store_get_type_7);
+  list_store_ptr = (struct _GtkListStore *)return_value_g_type_check_instance_cast_8;
+  signed int return_value_list_empty_9;
+  struct jack_midi_event_buffer *tmp_statement_expression_10;
+  signed int return_value_jack_midi_decode_11;
+  unsigned long int return_value_gtk_tree_view_get_type_14;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_15;
+  unsigned long int return_value_gtk_tree_view_get_type_16;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+  struct _GtkTreeModel *return_value_gtk_tree_view_get_model_18;
+  struct _GtkTreePath *return_value_gtk_tree_model_get_path_19;
+  unsigned long int return_value_gtk_container_get_type_20;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
   do
   {
 
@@ -3941,46 +3941,46 @@ void * jack_midi_thread(void *context_ptr)
     rtsafe_memory_sleepy(g_memory);
     do
     {
-      return_value_list_empty$9=list_empty$link1(&g_jack_midi_events_pending);
-      if(!(return_value_list_empty$9 == 0))
+      return_value_list_empty_9=list_empty_link1(&g_jack_midi_events_pending);
+      if(!(return_value_list_empty_9 == 0))
         break;
 
       node_ptr = g_jack_midi_events_pending.prev;
-      list_del$link1(node_ptr);
+      list_del_link1(node_ptr);
       const struct list_head *__mptr = node_ptr;
-      tmp_statement_expression$10 = (struct jack_midi_event_buffer *)((char *)__mptr - (signed long int)0ul);
-      event_buffer = tmp_statement_expression$10;
+      tmp_statement_expression_10 = (struct jack_midi_event_buffer *)((char *)__mptr - (signed long int)0ul);
+      event_buffer = tmp_statement_expression_10;
       if(g_midi_ignore == 0)
       {
         time_str_ptr=g_string_new("");
         channel_str_ptr=g_string_new("");
         msg_str_ptr=g_string_new("");
-        return_value_jack_midi_decode$11=jack_midi_decode(event_buffer->buffer, event_buffer->buffer_size, msg_str_ptr, channel_str_ptr);
-        if(!(return_value_jack_midi_decode$11 == 0))
+        return_value_jack_midi_decode_11=jack_midi_decode(event_buffer->buffer, event_buffer->buffer_size, msg_str_ptr, channel_str_ptr);
+        if(!(return_value_jack_midi_decode_11 == 0))
         {
           gdk_threads_enter();
           if(g_row_count >= 2000)
           {
-            unsigned long int return_value_gtk_tree_model_get_type$12;
-            return_value_gtk_tree_model_get_type$12=gtk_tree_model_get_type();
-            struct _GTypeInstance *return_value_g_type_check_instance_cast$13;
-            return_value_g_type_check_instance_cast$13=g_type_check_instance_cast((struct _GTypeInstance *)list_store_ptr, return_value_gtk_tree_model_get_type$12);
-            gtk_tree_model_get_iter_first((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$13, &iter);
+            unsigned long int return_value_gtk_tree_model_get_type_12;
+            return_value_gtk_tree_model_get_type_12=gtk_tree_model_get_type();
+            struct _GTypeInstance *return_value_g_type_check_instance_cast_13;
+            return_value_g_type_check_instance_cast_13=g_type_check_instance_cast((struct _GTypeInstance *)list_store_ptr, return_value_gtk_tree_model_get_type_12);
+            gtk_tree_model_get_iter_first((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_13, &iter);
             gtk_list_store_remove(list_store_ptr, &iter);
           }
 
           gtk_list_store_append(list_store_ptr, &iter);
           gtk_list_store_set(list_store_ptr, &iter, 0, time_str_ptr->str, 1, channel_str_ptr->str, 2, msg_str_ptr->str, -1);
-          return_value_gtk_tree_view_get_type$14=gtk_tree_view_get_type();
-          return_value_g_type_check_instance_cast$15=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$14);
-          return_value_gtk_tree_view_get_type$16=gtk_tree_view_get_type();
-          return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type$16);
-          return_value_gtk_tree_view_get_model$18=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast$17);
-          return_value_gtk_tree_model_get_path$19=gtk_tree_model_get_path(return_value_gtk_tree_view_get_model$18, &iter);
-          gtk_tree_view_scroll_to_cell((struct _GtkTreeView *)return_value_g_type_check_instance_cast$15, return_value_gtk_tree_model_get_path$19, (struct _GtkTreeViewColumn *)(void *)0, (signed int)!(0 != 0), (float)0.0, (float)1.0);
-          return_value_gtk_container_get_type$20=gtk_container_get_type();
-          return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_container_get_type$20);
-          gtk_container_check_resize((struct _GtkContainer *)return_value_g_type_check_instance_cast$21);
+          return_value_gtk_tree_view_get_type_14=gtk_tree_view_get_type();
+          return_value_g_type_check_instance_cast_15=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_14);
+          return_value_gtk_tree_view_get_type_16=gtk_tree_view_get_type();
+          return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_tree_view_get_type_16);
+          return_value_gtk_tree_view_get_model_18=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast_17);
+          return_value_gtk_tree_model_get_path_19=gtk_tree_model_get_path(return_value_gtk_tree_view_get_model_18, &iter);
+          gtk_tree_view_scroll_to_cell((struct _GtkTreeView *)return_value_g_type_check_instance_cast_15, return_value_gtk_tree_model_get_path_19, (struct _GtkTreeViewColumn *)(void *)0, (signed int)!(0 != 0), (float)0.0, (float)1.0);
+          return_value_gtk_container_get_type_20=gtk_container_get_type();
+          return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_container_get_type_20);
+          gtk_container_check_resize((struct _GtkContainer *)return_value_g_type_check_instance_cast_21);
           g_row_count = g_row_count + 1;
           gdk_threads_leave();
         }
@@ -4013,7 +4013,7 @@ signed int jack_process(unsigned int nframes, void *context)
   void *port_buf;
   struct _jack_midi_event in_event;
   unsigned int event_count;
-  struct anonymous$4 pos;
+  struct anonymous_4 pos;
   unsigned int i;
   struct jack_midi_event_buffer *event_buffer;
   port_buf=jack_port_get_buffer(g_jack_input_port, nframes);
@@ -4023,9 +4023,9 @@ signed int jack_process(unsigned int nframes, void *context)
   for( ; !(i >= event_count); i = i + 1u)
   {
     jack_midi_event_get(&in_event, port_buf, i);
-    void *return_value_rtsafe_memory_allocate$1;
-    return_value_rtsafe_memory_allocate$1=rtsafe_memory_allocate(g_memory, sizeof(struct jack_midi_event_buffer) /*24ul*/  + in_event.size);
-    event_buffer = (struct jack_midi_event_buffer *)return_value_rtsafe_memory_allocate$1;
+    void *return_value_rtsafe_memory_allocate_1;
+    return_value_rtsafe_memory_allocate_1=rtsafe_memory_allocate(g_memory, sizeof(struct jack_midi_event_buffer) /*24ul*/  + in_event.size);
+    event_buffer = (struct jack_midi_event_buffer *)return_value_rtsafe_memory_allocate_1;
     if(event_buffer == ((struct jack_midi_event_buffer *)NULL))
       log_msg(4, "Ignored midi event with size %u because memory allocation failed.\n", (unsigned int)in_event.size);
 
@@ -4065,7 +4065,7 @@ void jack_uninit()
 // file ../list.h line 104
 static inline void list_add(struct list_head *new, struct list_head *head)
 {
-  __list_add$link1(new, head, head->next);
+  __list_add_link1(new, head, head->next);
 }
 
 // list_add_tail
@@ -4084,13 +4084,13 @@ static inline void list_del(struct list_head *entry)
   entry->prev = (struct list_head *)(void *)0x00200200;
 }
 
-// list_del$link1
+// list_del_link1
 // file ../list.h line 200
-static inline void list_del$link1(struct list_head *entry$link1)
+static inline void list_del_link1(struct list_head *entry_link1)
 {
-  __list_del$link1(entry$link1->prev, entry$link1->next);
-  entry$link1->next = (struct list_head *)(void *)0x00100100;
-  entry$link1->prev = (struct list_head *)(void *)0x00200200;
+  __list_del_link1(entry_link1->prev, entry_link1->next);
+  entry_link1->next = (struct list_head *)(void *)0x00100100;
+  entry_link1->prev = (struct list_head *)(void *)0x00200200;
 }
 
 // list_empty
@@ -4100,23 +4100,23 @@ static inline signed int list_empty(struct list_head *head)
   return (signed int)(head->next == head);
 }
 
-// list_empty$link1
+// list_empty_link1
 // file ../list.h line 292
-static inline signed int list_empty$link1(struct list_head *head$link1)
+static inline signed int list_empty_link1(struct list_head *head_link1)
 {
-  return (signed int)(head$link1->next == head$link1);
+  return (signed int)(head_link1->next == head_link1);
 }
 
 // list_splice_init
 // file ../list.h line 347
 static inline void list_splice_init(struct list_head *list, struct list_head *head)
 {
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty$link1(list);
-  if(return_value_list_empty$1 == 0)
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty_link1(list);
+  if(return_value_list_empty_1 == 0)
   {
     __list_splice(list, head);
-    INIT_LIST_HEAD$link1(list);
+    INIT_LIST_HEAD_link1(list);
   }
 
 }
@@ -4146,9 +4146,9 @@ signed int main(signed int argc, char **argv)
   i = 1;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(argv[(signed long int)i], "--jack");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(argv[(signed long int)i], "--jack");
+    if(return_value_strcmp_1 == 0)
     {
       want_jack = (signed int)!(0 != 0);
       want_any = 0;
@@ -4156,9 +4156,9 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(argv[(signed long int)i], "--alsa");
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(argv[(signed long int)i], "--alsa");
+      if(return_value_strcmp_2 == 0)
       {
         want_alsa = (signed int)!(0 != 0);
         want_any = 0;
@@ -4166,9 +4166,9 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(argv[(signed long int)i], "--help");
-        if(!(return_value_strcmp$3 == 0))
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(argv[(signed long int)i], "--help");
+        if(!(return_value_strcmp_3 == 0))
         {
           fprintf(stderr, "Unrecognized parameter \"%s\"\n", argv[(signed long int)i]);
           ret = 1;
@@ -4246,22 +4246,22 @@ failed_jack:
 // file ../about.c line 386
 void on_about_clicked(struct _GtkAction *action, struct _GtkWidget *window)
 {
-  unsigned long int return_value_gtk_about_dialog_get_type$1;
-  return_value_gtk_about_dialog_get_type$1=gtk_about_dialog_get_type();
-  void *return_value_g_object_new$2;
-  return_value_g_object_new$2=g_object_new(return_value_gtk_about_dialog_get_type$1, "name", (const void *)"GMIDImonitor", (const void *)"version", (const void *)"3.6", (const void *)"copyright", (const void *)"Copyright © 2005,2006,2007,2008,2011 Nedko Arnaudov", (const void *)"authors", (const void *)authors, (const void *)"comments", (const void *)"GTK MIDI monitor.", (const void *)"website", (const void *)"http://home.gna.org/gmidimonitor/", (const void *)"license", license, (void *)0);
+  unsigned long int return_value_gtk_about_dialog_get_type_1;
+  return_value_gtk_about_dialog_get_type_1=gtk_about_dialog_get_type();
+  void *return_value_g_object_new_2;
+  return_value_g_object_new_2=g_object_new(return_value_gtk_about_dialog_get_type_1, "name", (const void *)"GMIDImonitor", (const void *)"version", (const void *)"3.6", (const void *)"copyright", (const void *)"Copyright © 2005,2006,2007,2008,2011 Nedko Arnaudov", (const void *)"authors", (const void *)authors, (const void *)"comments", (const void *)"GTK MIDI monitor.", (const void *)"website", (const void *)"http://home.gna.org/gmidimonitor/", (const void *)"license", license, (void *)0);
   static struct _GtkWidget *about = (struct _GtkWidget *)(void *)0;
-  about = (struct _GtkWidget *)return_value_g_object_new$2;
-  g_signal_connect_data((void *)about, "response", (void (*)(void))gtk_widget_destroy, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$3)0);
-  unsigned long int return_value_gtk_window_get_type$3;
-  return_value_gtk_window_get_type$3=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)about, return_value_gtk_window_get_type$3);
-  unsigned long int return_value_gtk_window_get_type$5;
-  return_value_gtk_window_get_type$5=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)g_main_window_ptr, return_value_gtk_window_get_type$5);
-  gtk_window_set_transient_for((struct _GtkWindow *)return_value_g_type_check_instance_cast$4, (struct _GtkWindow *)return_value_g_type_check_instance_cast$6);
+  about = (struct _GtkWidget *)return_value_g_object_new_2;
+  g_signal_connect_data((void *)about, "response", (void (*)(void))gtk_widget_destroy, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_3)0);
+  unsigned long int return_value_gtk_window_get_type_3;
+  return_value_gtk_window_get_type_3=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)about, return_value_gtk_window_get_type_3);
+  unsigned long int return_value_gtk_window_get_type_5;
+  return_value_gtk_window_get_type_5=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)g_main_window_ptr, return_value_gtk_window_get_type_5);
+  gtk_window_set_transient_for((struct _GtkWindow *)return_value_g_type_check_instance_cast_4, (struct _GtkWindow *)return_value_g_type_check_instance_cast_6);
   gtk_widget_show(about);
 }
 
@@ -4270,20 +4270,20 @@ void on_about_clicked(struct _GtkAction *action, struct _GtkWidget *window)
 void on_button_stop_toggled(struct _GtkAction *action_ptr, struct _GtkWidget *widget_ptr)
 {
   struct _GtkWidget *child_ptr;
-  struct _GObject *return_value_gtk_builder_get_object$1;
-  return_value_gtk_builder_get_object$1=gtk_builder_get_object(g_builder, "button_stop");
-  unsigned long int return_value_gtk_widget_get_type$2;
-  return_value_gtk_widget_get_type$2=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object$1, return_value_gtk_widget_get_type$2);
-  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast$3;
-  unsigned long int return_value_gtk_toggle_tool_button_get_type$4;
-  return_value_gtk_toggle_tool_button_get_type$4=gtk_toggle_tool_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_toggle_tool_button_get_type$4);
-  signed int return_value_gtk_toggle_tool_button_get_active$6;
-  return_value_gtk_toggle_tool_button_get_active$6=gtk_toggle_tool_button_get_active((struct _GtkToggleToolButton *)return_value_g_type_check_instance_cast$5);
-  if(!(return_value_gtk_toggle_tool_button_get_active$6 == 0))
+  struct _GObject *return_value_gtk_builder_get_object_1;
+  return_value_gtk_builder_get_object_1=gtk_builder_get_object(g_builder, "button_stop");
+  unsigned long int return_value_gtk_widget_get_type_2;
+  return_value_gtk_widget_get_type_2=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object_1, return_value_gtk_widget_get_type_2);
+  child_ptr = (struct _GtkWidget *)return_value_g_type_check_instance_cast_3;
+  unsigned long int return_value_gtk_toggle_tool_button_get_type_4;
+  return_value_gtk_toggle_tool_button_get_type_4=gtk_toggle_tool_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)child_ptr, return_value_gtk_toggle_tool_button_get_type_4);
+  signed int return_value_gtk_toggle_tool_button_get_active_6;
+  return_value_gtk_toggle_tool_button_get_active_6=gtk_toggle_tool_button_get_active((struct _GtkToggleToolButton *)return_value_g_type_check_instance_cast_5);
+  if(!(return_value_gtk_toggle_tool_button_get_active_6 == 0))
     g_midi_ignore = (signed int)!(0 != 0);
 
   else
@@ -4294,19 +4294,19 @@ void on_button_stop_toggled(struct _GtkAction *action_ptr, struct _GtkWidget *wi
 // file ../main.c line 174
 void on_clear_clicked(struct _GtkButton *button, void *user_data)
 {
-  struct _GObject *return_value_gtk_builder_get_object$1;
-  return_value_gtk_builder_get_object$1=gtk_builder_get_object(g_builder, "list");
-  unsigned long int return_value_gtk_tree_view_get_type$2;
-  return_value_gtk_tree_view_get_type$2=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object$1, return_value_gtk_tree_view_get_type$2);
-  struct _GtkTreeModel *return_value_gtk_tree_view_get_model$4;
-  return_value_gtk_tree_view_get_model$4=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast$3);
-  unsigned long int return_value_gtk_list_store_get_type$5;
-  return_value_gtk_list_store_get_type$5=gtk_list_store_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_get_model$4, return_value_gtk_list_store_get_type$5);
-  gtk_list_store_clear((struct _GtkListStore *)return_value_g_type_check_instance_cast$6);
+  struct _GObject *return_value_gtk_builder_get_object_1;
+  return_value_gtk_builder_get_object_1=gtk_builder_get_object(g_builder, "list");
+  unsigned long int return_value_gtk_tree_view_get_type_2;
+  return_value_gtk_tree_view_get_type_2=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_builder_get_object_1, return_value_gtk_tree_view_get_type_2);
+  struct _GtkTreeModel *return_value_gtk_tree_view_get_model_4;
+  return_value_gtk_tree_view_get_model_4=gtk_tree_view_get_model((struct _GtkTreeView *)return_value_g_type_check_instance_cast_3);
+  unsigned long int return_value_gtk_list_store_get_type_5;
+  return_value_gtk_list_store_get_type_5=gtk_list_store_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)return_value_gtk_tree_view_get_model_4, return_value_gtk_list_store_get_type_5);
+  gtk_list_store_clear((struct _GtkListStore *)return_value_g_type_check_instance_cast_6);
   g_row_count = 0;
 }
 
@@ -4316,7 +4316,7 @@ static void path_check_initialization()
 {
   if(pszExecutable == ((char *)NULL) || pszPathToExecutable == ((char *)NULL))
   {
-    g_log((char *)0, (enum anonymous$12)G_LOG_LEVEL_WARNING, "path_init() not called.");
+    g_log((char *)0, (enum anonymous_12)G_LOG_LEVEL_WARNING, "path_init() not called.");
     exit(1);
   }
 
@@ -4330,18 +4330,18 @@ char * path_get_data_filename(const char *filename)
   struct stat st;
   path_check_initialization();
   full_path=g_strdup_printf("%s/../%s", pszPathToExecutable, filename);
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(full_path, &st);
-  if(return_value_stat$1 == 0)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(full_path, &st);
+  if(return_value_stat_1 == 0)
     return full_path;
 
   else
   {
     g_free((void *)full_path);
     full_path=g_strdup_printf("/usr/share/gmidimonitor/%s", filename);
-    signed int return_value_stat$2;
-    return_value_stat$2=stat(full_path, &st);
-    if(return_value_stat$2 == 0)
+    signed int return_value_stat_2;
+    return_value_stat_2=stat(full_path, &st);
+    if(return_value_stat_2 == 0)
       return full_path;
 
     else
@@ -4380,9 +4380,9 @@ void * rtsafe_memory_allocate(void *handle_ptr, unsigned long int size)
   for( ; !(i >= ((struct rtsafe_memory *)handle_ptr)->pools_count); i = i + 1ul)
     if((((struct rtsafe_memory *)handle_ptr)->pools + (signed long int)i)->size >= size)
     {
-      void *return_value_rtsafe_memory_pool_allocate$1;
-      return_value_rtsafe_memory_pool_allocate$1=rtsafe_memory_pool_allocate((((struct rtsafe_memory *)handle_ptr)->pools + (signed long int)i)->pool);
-      data_ptr = (void **)return_value_rtsafe_memory_pool_allocate$1;
+      void *return_value_rtsafe_memory_pool_allocate_1;
+      return_value_rtsafe_memory_pool_allocate_1=rtsafe_memory_pool_allocate((((struct rtsafe_memory *)handle_ptr)->pools + (signed long int)i)->pool);
+      data_ptr = (void **)return_value_rtsafe_memory_pool_allocate_1;
       if(data_ptr == ((void **)NULL))
         return NULL;
 
@@ -4408,10 +4408,10 @@ signed int rtsafe_memory_init(unsigned long int max_size, unsigned long int prea
   unsigned long int i;
   unsigned long int size;
   struct rtsafe_memory *memory_ptr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct rtsafe_memory) /*16ul*/ );
-  memory_ptr = (struct rtsafe_memory *)return_value_malloc$1;
-  void *return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct rtsafe_memory) /*16ul*/ );
+  memory_ptr = (struct rtsafe_memory *)return_value_malloc_1;
+  void *return_value_malloc_2;
   if(!(memory_ptr == ((struct rtsafe_memory *)NULL)))
   {
     size = (unsigned long int)1024;
@@ -4427,8 +4427,8 @@ signed int rtsafe_memory_init(unsigned long int max_size, unsigned long int prea
       }
 
     }
-    return_value_malloc$2=malloc(memory_ptr->pools_count * sizeof(struct rtsafe_memory_pool_generic) /*16ul*/ );
-    memory_ptr->pools = (struct rtsafe_memory_pool_generic *)return_value_malloc$2;
+    return_value_malloc_2=malloc(memory_ptr->pools_count * sizeof(struct rtsafe_memory_pool_generic) /*16ul*/ );
+    memory_ptr->pools = (struct rtsafe_memory_pool_generic *)return_value_malloc_2;
     if(!(memory_ptr->pools == ((struct rtsafe_memory_pool_generic *)NULL)))
     {
       size = (unsigned long int)1024;
@@ -4436,9 +4436,9 @@ signed int rtsafe_memory_init(unsigned long int max_size, unsigned long int prea
       for( ; !(i >= memory_ptr->pools_count); i = i + 1ul)
       {
         (memory_ptr->pools + (signed long int)i)->size = size - (unsigned long int)100;
-        signed int return_value_rtsafe_memory_pool_create$3;
-        return_value_rtsafe_memory_pool_create$3=rtsafe_memory_pool_create((memory_ptr->pools + (signed long int)i)->size, prealloc_min, prealloc_max, &(memory_ptr->pools + (signed long int)i)->pool);
-        if(return_value_rtsafe_memory_pool_create$3 == 0)
+        signed int return_value_rtsafe_memory_pool_create_3;
+        return_value_rtsafe_memory_pool_create_3=rtsafe_memory_pool_create((memory_ptr->pools + (signed long int)i)->size, prealloc_min, prealloc_max, &(memory_ptr->pools + (signed long int)i)->pool);
+        if(return_value_rtsafe_memory_pool_create_3 == 0)
         {
           while(i >= 1ul)
           {
@@ -4475,9 +4475,9 @@ fail:
 void * rtsafe_memory_pool_allocate(void *pool_handle)
 {
   struct list_head *node_ptr;
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
-  if(!(return_value_list_empty$1 == 0))
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
+  if(!(return_value_list_empty_1 == 0))
     return (void *)0;
 
   else
@@ -4511,9 +4511,9 @@ signed int rtsafe_memory_pool_create(unsigned long int data_size, unsigned long 
   struct rtsafe_memory_pool *pool_ptr;
   /* assertion min_preallocated <= max_preallocated */
   assert(min_preallocated <= max_preallocated);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct rtsafe_memory_pool) /*72ul*/ );
-  pool_ptr = (struct rtsafe_memory_pool *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct rtsafe_memory_pool) /*72ul*/ );
+  pool_ptr = (struct rtsafe_memory_pool *)return_value_malloc_1;
   if(pool_ptr == ((struct rtsafe_memory_pool *)NULL))
     return 0;
 
@@ -4548,25 +4548,25 @@ void rtsafe_memory_pool_destroy(void *pool_handle)
   struct list_head *node_ptr;
   /* assertion ((struct rtsafe_memory_pool *)pool_handle)->used_count == 0 */
   assert(((struct rtsafe_memory_pool *)pool_handle)->used_count == (unsigned int)0);
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->used);
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->used);
   /* assertion list_empty(&((struct rtsafe_memory_pool *)pool_handle)->used) */
-  assert(return_value_list_empty$1 != 0);
+  assert(return_value_list_empty_1 != 0);
   while(!(((struct rtsafe_memory_pool *)pool_handle)->unused_count == 0u))
   {
-    signed int return_value_list_empty$2;
-    return_value_list_empty$2=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
+    signed int return_value_list_empty_2;
+    return_value_list_empty_2=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
     /* assertion !list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused) */
-    assert(!(return_value_list_empty$2 != 0));
+    assert(!(return_value_list_empty_2 != 0));
     node_ptr = ((struct rtsafe_memory_pool *)pool_handle)->unused.next;
     list_del(node_ptr);
     ((struct rtsafe_memory_pool *)pool_handle)->unused_count = ((struct rtsafe_memory_pool *)pool_handle)->unused_count - 1u;
     free((void *)node_ptr);
   }
-  signed int return_value_list_empty$3;
-  return_value_list_empty$3=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
+  signed int return_value_list_empty_3;
+  return_value_list_empty_3=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
   /* assertion list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused) */
-  assert(return_value_list_empty$3 != 0);
+  assert(return_value_list_empty_3 != 0);
   free((void *)(struct rtsafe_memory_pool *)pool_handle);
 }
 
@@ -4577,9 +4577,9 @@ void rtsafe_memory_pool_sleepy(void *pool_handle)
   struct list_head *node_ptr;
   while(!((unsigned long int)((struct rtsafe_memory_pool *)pool_handle)->unused_count >= ((struct rtsafe_memory_pool *)pool_handle)->min_preallocated))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct list_head) /*16ul*/  + ((struct rtsafe_memory_pool *)pool_handle)->data_size);
-    node_ptr = (struct list_head *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct list_head) /*16ul*/  + ((struct rtsafe_memory_pool *)pool_handle)->data_size);
+    node_ptr = (struct list_head *)return_value_malloc_1;
     if(node_ptr == ((struct list_head *)NULL))
       goto __CPROVER_DUMP_L5;
 
@@ -4588,10 +4588,10 @@ void rtsafe_memory_pool_sleepy(void *pool_handle)
   }
   while(!(((struct rtsafe_memory_pool *)pool_handle)->max_preallocated >= (unsigned long int)((struct rtsafe_memory_pool *)pool_handle)->unused_count))
   {
-    signed int return_value_list_empty$2;
-    return_value_list_empty$2=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
+    signed int return_value_list_empty_2;
+    return_value_list_empty_2=list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused);
     /* assertion !list_empty(&((struct rtsafe_memory_pool *)pool_handle)->unused) */
-    assert(!(return_value_list_empty$2 != 0));
+    assert(!(return_value_list_empty_2 != 0));
     node_ptr = ((struct rtsafe_memory_pool *)pool_handle)->unused.next;
     list_del(node_ptr);
     ((struct rtsafe_memory_pool *)pool_handle)->unused_count = ((struct rtsafe_memory_pool *)pool_handle)->unused_count - 1u;

@@ -1,134 +1,134 @@
-// #anon_enum$ATTR_NONE=-1$ATTR_WARNING=0$ATTR_TITLE=1$ATTR_BANNER=2$ATTR_SONG_STATUS=3$ATTR_INFO_INACTIVE=4$ATTR_INFO_ACTIVE=5$ATTR_INFO_IHOTKEY=6$ATTR_INFO_AHOTKEY=7$ATTR_HELP=8$ATTR_PLAYENTRY_INACTIVE=9$ATTR_PLAYENTRY_ACTIVE=10$ATTR_SAMPLES=11$ATTR_SAMPLES_KICK3=12$ATTR_SAMPLES_KICK2=13$ATTR_SAMPLES_KICK1=14$ATTR_SAMPLES_KICK0=15$ATTR_CONFIG=16$ATTR_VOLBAR=17$ATTR_VOLBAR_LOW=18$ATTR_VOLBAR_MED=19$ATTR_VOLBAR_HIGH=20$ATTR_VOLBAR_INSTR=21$ATTR_MENU_FRAME=22$ATTR_MENU_INACTIVE=23$ATTR_MENU_ACTIVE=24$ATTR_MENU_IHOTKEY=25$ATTR_MENU_AHOTKEY=26$ATTR_DLG_FRAME=27$ATTR_DLG_LABEL=28$ATTR_DLG_STR_TEXT=29$ATTR_DLG_STR_CURSOR=30$ATTR_DLG_BUT_INACTIVE=31$ATTR_DLG_BUT_ACTIVE=32$ATTR_DLG_BUT_IHOTKEY=33$ATTR_DLG_BUT_AHOTKEY=34$ATTR_DLG_BUT_ITEXT=35$ATTR_DLG_BUT_ATEXT=36$ATTR_DLG_LIST_FOCUS=37$ATTR_DLG_LIST_NOFOCUS=38$ATTR_STATUS_LINE=39$ATTR_STATUS_TEXT=40
+// #anon_enum_ATTR_NONE=-1_ATTR_WARNING=0_ATTR_TITLE=1_ATTR_BANNER=2_ATTR_SONG_STATUS=3_ATTR_INFO_INACTIVE=4_ATTR_INFO_ACTIVE=5_ATTR_INFO_IHOTKEY=6_ATTR_INFO_AHOTKEY=7_ATTR_HELP=8_ATTR_PLAYENTRY_INACTIVE=9_ATTR_PLAYENTRY_ACTIVE=10_ATTR_SAMPLES=11_ATTR_SAMPLES_KICK3=12_ATTR_SAMPLES_KICK2=13_ATTR_SAMPLES_KICK1=14_ATTR_SAMPLES_KICK0=15_ATTR_CONFIG=16_ATTR_VOLBAR=17_ATTR_VOLBAR_LOW=18_ATTR_VOLBAR_MED=19_ATTR_VOLBAR_HIGH=20_ATTR_VOLBAR_INSTR=21_ATTR_MENU_FRAME=22_ATTR_MENU_INACTIVE=23_ATTR_MENU_ACTIVE=24_ATTR_MENU_IHOTKEY=25_ATTR_MENU_AHOTKEY=26_ATTR_DLG_FRAME=27_ATTR_DLG_LABEL=28_ATTR_DLG_STR_TEXT=29_ATTR_DLG_STR_CURSOR=30_ATTR_DLG_BUT_INACTIVE=31_ATTR_DLG_BUT_ACTIVE=32_ATTR_DLG_BUT_IHOTKEY=33_ATTR_DLG_BUT_AHOTKEY=34_ATTR_DLG_BUT_ITEXT=35_ATTR_DLG_BUT_ATEXT=36_ATTR_DLG_LIST_FOCUS=37_ATTR_DLG_LIST_NOFOCUS=38_ATTR_STATUS_LINE=39_ATTR_STATUS_TEXT=40
 // file ../../src/mconfig.h line 87
-enum anonymous$7 { ATTR_NONE=-1, ATTR_WARNING=0, ATTR_TITLE=1, ATTR_BANNER=2, ATTR_SONG_STATUS=3, ATTR_INFO_INACTIVE=4, ATTR_INFO_ACTIVE=5, ATTR_INFO_IHOTKEY=6, ATTR_INFO_AHOTKEY=7, ATTR_HELP=8, ATTR_PLAYENTRY_INACTIVE=9, ATTR_PLAYENTRY_ACTIVE=10, ATTR_SAMPLES=11, ATTR_SAMPLES_KICK3=12, ATTR_SAMPLES_KICK2=13, ATTR_SAMPLES_KICK1=14, ATTR_SAMPLES_KICK0=15, ATTR_CONFIG=16, ATTR_VOLBAR=17, ATTR_VOLBAR_LOW=18, ATTR_VOLBAR_MED=19, ATTR_VOLBAR_HIGH=20, ATTR_VOLBAR_INSTR=21, ATTR_MENU_FRAME=22, ATTR_MENU_INACTIVE=23, ATTR_MENU_ACTIVE=24, ATTR_MENU_IHOTKEY=25, ATTR_MENU_AHOTKEY=26, ATTR_DLG_FRAME=27, ATTR_DLG_LABEL=28, ATTR_DLG_STR_TEXT=29, ATTR_DLG_STR_CURSOR=30, ATTR_DLG_BUT_INACTIVE=31, ATTR_DLG_BUT_ACTIVE=32, ATTR_DLG_BUT_IHOTKEY=33, ATTR_DLG_BUT_AHOTKEY=34, ATTR_DLG_BUT_ITEXT=35, ATTR_DLG_BUT_ATEXT=36, ATTR_DLG_LIST_FOCUS=37, ATTR_DLG_LIST_NOFOCUS=38, ATTR_STATUS_LINE=39, ATTR_STATUS_TEXT=40 };
+enum anonymous_7 { ATTR_NONE=-1, ATTR_WARNING=0, ATTR_TITLE=1, ATTR_BANNER=2, ATTR_SONG_STATUS=3, ATTR_INFO_INACTIVE=4, ATTR_INFO_ACTIVE=5, ATTR_INFO_IHOTKEY=6, ATTR_INFO_AHOTKEY=7, ATTR_HELP=8, ATTR_PLAYENTRY_INACTIVE=9, ATTR_PLAYENTRY_ACTIVE=10, ATTR_SAMPLES=11, ATTR_SAMPLES_KICK3=12, ATTR_SAMPLES_KICK2=13, ATTR_SAMPLES_KICK1=14, ATTR_SAMPLES_KICK0=15, ATTR_CONFIG=16, ATTR_VOLBAR=17, ATTR_VOLBAR_LOW=18, ATTR_VOLBAR_MED=19, ATTR_VOLBAR_HIGH=20, ATTR_VOLBAR_INSTR=21, ATTR_MENU_FRAME=22, ATTR_MENU_INACTIVE=23, ATTR_MENU_ACTIVE=24, ATTR_MENU_IHOTKEY=25, ATTR_MENU_AHOTKEY=26, ATTR_DLG_FRAME=27, ATTR_DLG_LABEL=28, ATTR_DLG_STR_TEXT=29, ATTR_DLG_STR_CURSOR=30, ATTR_DLG_BUT_INACTIVE=31, ATTR_DLG_BUT_ACTIVE=32, ATTR_DLG_BUT_IHOTKEY=33, ATTR_DLG_BUT_AHOTKEY=34, ATTR_DLG_BUT_ITEXT=35, ATTR_DLG_BUT_ATEXT=36, ATTR_DLG_LIST_FOCUS=37, ATTR_DLG_LIST_NOFOCUS=38, ATTR_STATUS_LINE=39, ATTR_STATUS_TEXT=40 };
 
-// #anon_enum$COM_NONE=0$MENU_ACTIVATE=1
+// #anon_enum_COM_NONE=0_MENU_ACTIVATE=1
 // file ../../src/display.h line 56
-enum anonymous$9 { COM_NONE=0, MENU_ACTIVATE=1 };
+enum anonymous_9 { COM_NONE=0, MENU_ACTIVATE=1 };
 
-// #anon_enum$FREQ_ADD=0$FREQ_TOGGLE=1$FREQ_REMOVE=2
+// #anon_enum_FREQ_ADD=0_FREQ_TOGGLE=1_FREQ_REMOVE=2
 // file ../../src/mlistedit.c line 86
-enum anonymous$26 { FREQ_ADD=0, FREQ_TOGGLE=1, FREQ_REMOVE=2 };
+enum anonymous_26 { FREQ_ADD=0, FREQ_TOGGLE=1, FREQ_REMOVE=2 };
 
-// #anon_enum$MTH_NORUN=0$MTH_RUNNING=1$MTH_QUITTING=2
+// #anon_enum_MTH_NORUN=0_MTH_RUNNING=1_MTH_QUITTING=2
 // file ../../src/mthreads.h line 50
-enum anonymous$21 { MTH_NORUN=0, MTH_RUNNING=1, MTH_QUITTING=2 };
+enum anonymous_21 { MTH_NORUN=0, MTH_RUNNING=1, MTH_QUITTING=2 };
 
-// #anon_enum$SORT_NAME=0$SORT_EXT=1$SORT_PATH=2$SORT_TIME=3
+// #anon_enum_SORT_NAME=0_SORT_EXT=1_SORT_PATH=2_SORT_TIME=3
 // file ../../src/mlistedit.c line 1019
-enum anonymous$23 { SORT_NAME=0, SORT_EXT=1, SORT_PATH=2, SORT_TIME=3 };
+enum anonymous_23 { SORT_NAME=0, SORT_EXT=1, SORT_PATH=2, SORT_TIME=3 };
 
-// #anon_enum$STATE_INIT=0$STATE_INIT_ERROR=1$STATE_ERROR=2$STATE_READY=3$STATE_PLAY=4
+// #anon_enum_STATE_INIT=0_STATE_INIT_ERROR=1_STATE_ERROR=2_STATE_READY=3_STATE_PLAY=4
 // file ../../src/mikmod.c line 141
-enum anonymous$30 { STATE_INIT=0, STATE_INIT_ERROR=1, STATE_ERROR=2, STATE_READY=3, STATE_PLAY=4 };
+enum anonymous_30 { STATE_INIT=0, STATE_INIT_ERROR=1, STATE_ERROR=2, STATE_READY=3, STATE_PLAY=4 };
 
-// #anon_enum$TYPE_LABEL=0$TYPE_STR=1$TYPE_INT=2$TYPE_BUTTON=3$TYPE_LIST=4$TYPE_CHECK=5$TYPE_TOGGLE=6$TYPE_COLORSEL=7
+// #anon_enum_TYPE_LABEL=0_TYPE_STR=1_TYPE_INT=2_TYPE_BUTTON=3_TYPE_LIST=4_TYPE_CHECK=5_TYPE_TOGGLE=6_TYPE_COLORSEL=7
 // file ../../src/mwidget.h line 52
-enum anonymous$32 { TYPE_LABEL=0, TYPE_STR=1, TYPE_INT=2, TYPE_BUTTON=3, TYPE_LIST=4, TYPE_CHECK=5, TYPE_TOGGLE=6, TYPE_COLORSEL=7 };
+enum anonymous_32 { TYPE_LABEL=0, TYPE_STR=1, TYPE_INT=2, TYPE_BUTTON=3, TYPE_LIST=4, TYPE_CHECK=5, TYPE_TOGGLE=6, TYPE_COLORSEL=7 };
 
-// #anon_enum$WID_GET_FOCUS=0$WID_HOTKEY=1$WID_KEY=2
+// #anon_enum_WID_GET_FOCUS=0_WID_HOTKEY=1_WID_KEY=2
 // file ../../src/mwidget.h line 46
-enum anonymous$18 { WID_GET_FOCUS=0, WID_HOTKEY=1, WID_KEY=2 };
+enum anonymous_18 { WID_GET_FOCUS=0, WID_HOTKEY=1, WID_KEY=2 };
 
-// #anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1
+// #anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1
 // file ../../src/mwidget.h line 41
-enum anonymous$10 { WID_SEL_SINGLE=0, WID_SEL_BROWSE=1 };
+enum anonymous_10 { WID_SEL_SINGLE=0, WID_SEL_BROWSE=1 };
 
-// tag-#anon#ST[*{S32(*{SYM#tag-WIDGET#}$SYM#tag-WIDGET#$|S32|*{V}$V$|*{V}$V$)->S32}$S32(*{SYM#tag-WIDGET#}$SYM#tag-WIDGET#$|S32|*{V}$V$|*{V}$V$)->S32$'handle_dlg'||*{SYM#tag-WIDGET#}$SYM#tag-WIDGET#$'w'||*{V}$V$'input'||*{V}$V$'data'||S32'min'||S32'max'|]
+// tag-#anon#ST[*{S32(*{SYM#tag-WIDGET#}_SYM#tag-WIDGET#_|S32|*{V}_V_|*{V}_V_)->S32}_S32(*{SYM#tag-WIDGET#}_SYM#tag-WIDGET#_|S32|*{V}_V_|*{V}_V_)->S32_'handle_dlg'||*{SYM#tag-WIDGET#}_SYM#tag-WIDGET#_'w'||*{V}_V_'input'||*{V}_V_'data'||S32'min'||S32'max'|]
 // file ../../src/mdialog.c line 42
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{S8}$S8$'file'||*{S8}$S8$'archive'||S32'time'||S32'played'|]
+// tag-#anon#ST[*{S8}_S8_'file'||*{S8}_S8_'archive'||S32'time'||S32'played'|]
 // file ../../src/mlist.h line 45
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{S8}$S8$'name'||S32'color'||U32'$pad0'||*{S32}$S32$'attrs'|]
+// tag-#anon#ST[*{S8}_S8_'name'||S32'color'||U32'_pad0'||*{S32}_S32_'attrs'|]
 // file ../../src/mconfig.h line 150
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{S8}$S8$'text'||*{V}$V$'data'||*{S8}$S8$'help'|]
+// tag-#anon#ST[*{S8}_S8_'text'||*{V}_V_'data'||*{S8}_S8_'help'|]
 // file ../../src/mmenu.h line 52
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}$S8$'file'||*{S8}$S8$'archive'||S32'time'||S32'played'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'file'||*{S8}$S8$'archive'||S32'time'||S32'played'|]#$'entry'||S32'length'||S32'current'||S32'curr_deleted'||S32'add_pos'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{S8}_S8_'file'||*{S8}_S8_'archive'||S32'time'||S32'played'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'file'||*{S8}_S8_'archive'||S32'time'||S32'played'|]#_'entry'||S32'length'||S32'current'||S32'curr_deleted'||S32'add_pos'|]
 // file ../../src/mlist.h line 52
 struct anonymous;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'msg'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'msg'|]#$'w'||S32'stop'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'msg'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'msg'|]#_'w'||S32'stop'||U32'_pad0'|]
 // file ../../src/mlistedit.c line 115
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#$'w'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#$'w'||ARR8192{S8}$S8$'path'||S32'before_add'||S32'actline'||S32'cnt_list'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'searchlist'||*{S32(S32|*{S8}$S8$|*{V}$V$)->S32}$S32(S32|*{S8}$S8$|*{V}$V$)->S32$'handle_freq'||*{V}$V$'data'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#$'w'||ARR8192{S8}$S8$'path'||S32'before_add'||S32'actline'||S32'cnt_list'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'searchlist'||*{S32(S32|*{S8}$S8$|*{V}$V$)->S32}$S32(S32|*{S8}$S8$|*{V}$V$)->S32$'handle_freq'||*{V}$V$'data'|]#$'freq'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#_'w'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#_'w'||ARR8192{S8}_S8_'path'||S32'before_add'||S32'actline'||S32'cnt_list'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'searchlist'||*{S32(S32|*{S8}_S8_|*{V}_V_)->S32}_S32(S32|*{S8}_S8_|*{V}_V_)->S32_'handle_freq'||*{V}_V_'data'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#_'w'||ARR8192{S8}_S8_'path'||S32'before_add'||S32'actline'||S32'cnt_list'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'searchlist'||*{S32(S32|*{S8}_S8_|*{V}_V_)->S32}_S32(S32|*{S8}_S8_|*{V}_V_)->S32_'handle_freq'||*{V}_V_'data'|]#_'freq'|]
 // file ../../src/mlistedit.c line 105
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#$'w'||ARR8192{S8}$S8$'path'||S32'before_add'||S32'actline'||S32'cnt_list'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'searchlist'||*{S32(S32|*{S8}$S8$|*{V}$V$)->S32}$S32(S32|*{S8}$S8$|*{V}$V$)->S32$'handle_freq'||*{V}$V$'data'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#_'w'||ARR8192{S8}_S8_'path'||S32'before_add'||S32'actline'||S32'cnt_list'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'searchlist'||*{S32(S32|*{S8}_S8_|*{V}_V_)->S32}_S32(S32|*{S8}_S8_|*{V}_V_)->S32_'handle_freq'||*{V}_V_'data'|]
 // file ../../src/mlistedit.c line 92
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{SYM#tag-MMENU#}$SYM#tag-MMENU#$'menu'||*{S32}$S32$'actLine'|]
+// tag-#anon#ST[*{SYM#tag-MMENU#}_SYM#tag-MMENU#_'menu'||*{S32}_S32_'actLine'|]
 // file ../../src/mlistedit.c line 110
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{SYM#tag-WIDGET#}$SYM#tag-WIDGET#$'w'||*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'input'||S32'cur_pos'||S32'start'||S32'length'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'input'||S32'cur_pos'||S32'start'||S32'length'||U32'$pad0'|]#$'str_w'||*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'active'||ARR5{S8}$S8$'hkeys'||U24'$pad0'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'active'||ARR5{S8}$S8$'hkeys'||U24'$pad0'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'|]#$'col_w'||*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#}$SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]#$'list_w'||S32'cur_attr'||U32'$pad0'||SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'color'||U32'$pad0'||*{S32}$S32$'attrs'|]#'theme'||SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'color'||U32'$pad0'||*{S32}$S32$'attrs'|]#'test_theme'||S32'orig_theme'||U32'$pad1'|]
+// tag-#anon#ST[*{SYM#tag-WIDGET#}_SYM#tag-WIDGET#_'w'||*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'input'||S32'cur_pos'||S32'start'||S32'length'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'input'||S32'cur_pos'||S32'start'||S32'length'||U32'_pad0'|]#_'str_w'||*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'active'||ARR5{S8}_S8_'hkeys'||U24'_pad0'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'active'||ARR5{S8}_S8_'hkeys'||U24'_pad0'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'|]#_'col_w'||*{SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#}_SYM#tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]#_'list_w'||S32'cur_attr'||U32'_pad0'||SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'color'||U32'_pad0'||*{S32}_S32_'attrs'|]#'theme'||SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'color'||U32'_pad0'||*{S32}_S32_'attrs'|]#'test_theme'||S32'orig_theme'||U32'_pad1'|]
 // file ../../src/mconfedit.c line 200
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[ARR256{SYM#tag-VOICEINFO#}$SYM#tag-VOICEINFO#$'vinfo'||ARR256{SYM#tag-#anon#ST[U64'time'||U8'volamp'||U56'$pad0'|]#}$SYM#tag-#anon#ST[U64'time'||U8'volamp'||U56'$pad0'|]#$'vstatus'|]
+// tag-#anon#ST[ARR256{SYM#tag-VOICEINFO#}_SYM#tag-VOICEINFO#_'vinfo'||ARR256{SYM#tag-#anon#ST[U64'time'||U8'volamp'||U56'_pad0'|]#}_SYM#tag-#anon#ST[U64'time'||U8'volamp'||U56'_pad0'|]#_'vstatus'|]
 // file ../../src/mplayer.h line 39
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[EN#anon_enum$STATE_INIT=0$STATE_INIT_ERROR=1$STATE_ERROR=2$STATE_READY=3$STATE_PLAY=4#{U32}$U32$'state'||S32'quit'||S32'listend'||S32'norc'|]
+// tag-#anon#ST[EN#anon_enum_STATE_INIT=0_STATE_INIT_ERROR=1_STATE_ERROR=2_STATE_READY=3_STATE_PLAY=4#{U32}_U32_'state'||S32'quit'||S32'listend'||S32'norc'|]
 // file ../../src/mikmod.c line 149
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'active'||S32'cnt'||EN#anon_enum$ATTR_NONE=-1$ATTR_WARNING=0$ATTR_TITLE=1$ATTR_BANNER=2$ATTR_SONG_STATUS=3$ATTR_INFO_INACTIVE=4$ATTR_INFO_ACTIVE=5$ATTR_INFO_IHOTKEY=6$ATTR_INFO_AHOTKEY=7$ATTR_HELP=8$ATTR_PLAYENTRY_INACTIVE=9$ATTR_PLAYENTRY_ACTIVE=10$ATTR_SAMPLES=11$ATTR_SAMPLES_KICK3=12$ATTR_SAMPLES_KICK2=13$ATTR_SAMPLES_KICK1=14$ATTR_SAMPLES_KICK0=15$ATTR_CONFIG=16$ATTR_VOLBAR=17$ATTR_VOLBAR_LOW=18$ATTR_VOLBAR_MED=19$ATTR_VOLBAR_HIGH=20$ATTR_VOLBAR_INSTR=21$ATTR_MENU_FRAME=22$ATTR_MENU_INACTIVE=23$ATTR_MENU_ACTIVE=24$ATTR_MENU_IHOTKEY=25$ATTR_MENU_AHOTKEY=26$ATTR_DLG_FRAME=27$ATTR_DLG_LABEL=28$ATTR_DLG_STR_TEXT=29$ATTR_DLG_STR_CURSOR=30$ATTR_DLG_BUT_INACTIVE=31$ATTR_DLG_BUT_ACTIVE=32$ATTR_DLG_BUT_IHOTKEY=33$ATTR_DLG_BUT_AHOTKEY=34$ATTR_DLG_BUT_ITEXT=35$ATTR_DLG_BUT_ATEXT=36$ATTR_DLG_LIST_FOCUS=37$ATTR_DLG_LIST_NOFOCUS=38$ATTR_STATUS_LINE=39$ATTR_STATUS_TEXT=40#{S32}$S32$'attrs'||U32'$pad0'||*{SYM#tag-MWINDOW#}$SYM#tag-MWINDOW#$'win'||*{*{SYM#tag-WIDGET#}$SYM#tag-WIDGET#$}$*{SYM#tag-WIDGET#}$SYM#tag-WIDGET#$$'widget'|]
+// tag-#anon#ST[S32'active'||S32'cnt'||EN#anon_enum_ATTR_NONE=-1_ATTR_WARNING=0_ATTR_TITLE=1_ATTR_BANNER=2_ATTR_SONG_STATUS=3_ATTR_INFO_INACTIVE=4_ATTR_INFO_ACTIVE=5_ATTR_INFO_IHOTKEY=6_ATTR_INFO_AHOTKEY=7_ATTR_HELP=8_ATTR_PLAYENTRY_INACTIVE=9_ATTR_PLAYENTRY_ACTIVE=10_ATTR_SAMPLES=11_ATTR_SAMPLES_KICK3=12_ATTR_SAMPLES_KICK2=13_ATTR_SAMPLES_KICK1=14_ATTR_SAMPLES_KICK0=15_ATTR_CONFIG=16_ATTR_VOLBAR=17_ATTR_VOLBAR_LOW=18_ATTR_VOLBAR_MED=19_ATTR_VOLBAR_HIGH=20_ATTR_VOLBAR_INSTR=21_ATTR_MENU_FRAME=22_ATTR_MENU_INACTIVE=23_ATTR_MENU_ACTIVE=24_ATTR_MENU_IHOTKEY=25_ATTR_MENU_AHOTKEY=26_ATTR_DLG_FRAME=27_ATTR_DLG_LABEL=28_ATTR_DLG_STR_TEXT=29_ATTR_DLG_STR_CURSOR=30_ATTR_DLG_BUT_INACTIVE=31_ATTR_DLG_BUT_ACTIVE=32_ATTR_DLG_BUT_IHOTKEY=33_ATTR_DLG_BUT_AHOTKEY=34_ATTR_DLG_BUT_ITEXT=35_ATTR_DLG_BUT_ATEXT=36_ATTR_DLG_LIST_FOCUS=37_ATTR_DLG_LIST_NOFOCUS=38_ATTR_STATUS_LINE=39_ATTR_STATUS_TEXT=40#{S32}_S32_'attrs'||U32'_pad0'||*{SYM#tag-MWINDOW#}_SYM#tag-MWINDOW#_'win'||*{*{SYM#tag-WIDGET#}_SYM#tag-WIDGET#_}_*{SYM#tag-WIDGET#}_SYM#tag-WIDGET#__'widget'|]
 // file ../../src/mwidget.h line 65
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'driver'||U32'$pad0'||*{S8}$S8$'driveroptions'||S32'stereo'||S32'mode_16bit'||S32'frequency'||S32'interpolate'||S32'hqmixer'||S32'surround'||S32'reverb'||S32'volume'||S32'volrestrict'||S32'fade'||S32'loop'||S32'panning'||S32'extspd'||S32'playmode'||S32'curious'||S32'tolerant'||S32'renice'||S32'statusbar'||S32'save_config'||S32'save_playlist'||*{S8}$S8$'pl_name'||S32'cnt_hotlist'||U32'$pad1'||*{*{S8}$S8$}$*{S8}$S8$$'hotlist'||S32'fullpaths'||S32'forcesamples'||S32'fakevolbars'||S32'window_title'||S32'theme'||S32'cnt_themes'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'color'||U32'$pad0'||*{S32}$S32$'attrs'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||S32'color'||U32'$pad0'||*{S32}$S32$'attrs'|]#$'themes'||S32'cnt_archiver'||U32'$pad2'||*{SYM#tag-#anon#ST[S32'location'||U32'$pad0'||*{S8}$S8$'marker'||*{S8}$S8$'list'||S32'nameoffset'||U32'$pad1'||*{S8}$S8$'extract'||*{S8}$S8$'skippat'||S32'skipstart'||S32'skipend'|]#}$SYM#tag-#anon#ST[S32'location'||U32'$pad0'||*{S8}$S8$'marker'||*{S8}$S8$'list'||S32'nameoffset'||U32'$pad1'||*{S8}$S8$'extract'||*{S8}$S8$'skippat'||S32'skipstart'||S32'skipend'|]#$'archiver'|]
+// tag-#anon#ST[S32'driver'||U32'_pad0'||*{S8}_S8_'driveroptions'||S32'stereo'||S32'mode_16bit'||S32'frequency'||S32'interpolate'||S32'hqmixer'||S32'surround'||S32'reverb'||S32'volume'||S32'volrestrict'||S32'fade'||S32'loop'||S32'panning'||S32'extspd'||S32'playmode'||S32'curious'||S32'tolerant'||S32'renice'||S32'statusbar'||S32'save_config'||S32'save_playlist'||*{S8}_S8_'pl_name'||S32'cnt_hotlist'||U32'_pad1'||*{*{S8}_S8_}_*{S8}_S8__'hotlist'||S32'fullpaths'||S32'forcesamples'||S32'fakevolbars'||S32'window_title'||S32'theme'||S32'cnt_themes'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'color'||U32'_pad0'||*{S32}_S32_'attrs'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||S32'color'||U32'_pad0'||*{S32}_S32_'attrs'|]#_'themes'||S32'cnt_archiver'||U32'_pad2'||*{SYM#tag-#anon#ST[S32'location'||U32'_pad0'||*{S8}_S8_'marker'||*{S8}_S8_'list'||S32'nameoffset'||U32'_pad1'||*{S8}_S8_'extract'||*{S8}_S8_'skippat'||S32'skipstart'||S32'skipend'|]#}_SYM#tag-#anon#ST[S32'location'||U32'_pad0'||*{S8}_S8_'marker'||*{S8}_S8_'list'||S32'nameoffset'||U32'_pad1'||*{S8}_S8_'extract'||*{S8}_S8_'skippat'||S32'skipstart'||S32'skipend'|]#_'archiver'|]
 // file ../../src/mconfig.h line 166
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'id'||U32'$pad0'||*{cS8}$cS8$'label'|]
+// tag-#anon#ST[S32'id'||U32'_pad0'||*{cS8}_cS8_'label'|]
 // file ../../src/rcfile.h line 32
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'location'||U32'$pad0'||*{S8}$S8$'marker'||*{S8}$S8$'list'||S32'nameoffset'||U32'$pad1'||*{S8}$S8$'extract'||*{S8}$S8$'skippat'||S32'skipstart'||S32'skipend'|]
+// tag-#anon#ST[S32'location'||U32'_pad0'||*{S8}_S8_'marker'||*{S8}_S8_'list'||S32'nameoffset'||U32'_pad1'||*{S8}_S8_'extract'||*{S8}_S8_'skippat'||S32'skipstart'||S32'skipend'|]
 // file ../../src/mconfig.h line 156
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'button'||S32'cnt'||S32'active'|]
+// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'button'||S32'cnt'||S32'active'|]
 // file ../../src/mwidget.h line 154
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'button'||S32'cnt'||S32'selected'||S32'active'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'button'||S32'cnt'||S32'selected'||S32'active'||U32'_pad0'|]
 // file ../../src/mwidget.h line 171
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'input'||S32'cur_pos'||S32'start'||S32'length'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'input'||S32'cur_pos'||S32'start'||S32'length'||U32'_pad0'|]
 // file ../../src/mwidget.h line 138
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}$S8$'msg'|]
+// tag-#anon#ST[SYM#tag-WIDGET#'w'||*{S8}_S8_'msg'|]
 // file ../../src/mwidget.h line 133
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'active'||ARR5{S8}$S8$'hkeys'||U24'$pad0'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'|]
+// tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'active'||ARR5{S8}_S8_'hkeys'||U24'_pad0'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'|]
 // file ../../src/mwidget.h line 187
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'entries'||*{S8}$S8$'title'||EN#anon_enum$WID_SEL_SINGLE=0$WID_SEL_BROWSE=1#{U32}$U32$'sel_mode'||U32'$pad1'|]
+// tag-#anon#ST[SYM#tag-WIDGET#'w'||S32'cur'||S32'first'||S32'cnt'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'entries'||*{S8}_S8_'title'||EN#anon_enum_WID_SEL_SINGLE=0_WID_SEL_BROWSE=1#{U32}_U32_'sel_mode'||U32'_pad1'|]
 // file ../../src/mwidget.h line 161
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[U64'time'||U8'volamp'||U56'$pad0'|]
+// tag-#anon#ST[U64'time'||U8'volamp'||U56'_pad0'|]
 // file ../../src/mplayer.h line 41
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$22;
+union anonymous_22;
 
 // tag-ENVPT
 // file /usr/include/mikmod.h line 473
@@ -278,13 +278,13 @@ char * CF_GetDefaultFilename(void);
 char * CF_GetFilename(void);
 // CF_Init
 // file ../../src/mconfig.h line 231
-void CF_Init(struct anonymous$3 *cfg);
+void CF_Init(struct anonymous_3 *cfg);
 // CF_Load
 // file ../../src/mconfig.h line 233
-signed int CF_Load(struct anonymous$3 *cfg);
+signed int CF_Load(struct anonymous_3 *cfg);
 // CF_Save
 // file ../../src/mconfig.h line 232
-signed int CF_Save(struct anonymous$3 *cfg);
+signed int CF_Save(struct anonymous_3 *cfg);
 // CF_string_array_insert
 // file ../../src/mconfig.c line 780
 void CF_string_array_insert(signed int pos, char ***value, signed int *cnt, char *arg, signed int length);
@@ -293,22 +293,22 @@ void CF_string_array_insert(signed int pos, char ***value, signed int *cnt, char
 void CF_string_array_remove(signed int pos, char ***value, signed int *cnt);
 // CF_theme_copy
 // file ../../src/mconfig.c line 413
-void CF_theme_copy(struct anonymous$1 *dest, struct anonymous$1 *src);
+void CF_theme_copy(struct anonymous_1 *dest, struct anonymous_1 *src);
 // CF_theme_free
 // file ../../src/mconfig.c line 403
-void CF_theme_free(struct anonymous$1 *theme);
+void CF_theme_free(struct anonymous_1 *theme);
 // CF_theme_insert
 // file ../../src/mconfig.c line 469
-signed int CF_theme_insert(struct anonymous$1 **themes, signed int *cnt, struct anonymous$1 *theme);
+signed int CF_theme_insert(struct anonymous_1 **themes, signed int *cnt, struct anonymous_1 *theme);
 // CF_theme_remove
 // file ../../src/mconfig.c line 447
-void CF_theme_remove(signed int pos, struct anonymous$1 **themes, signed int *cnt);
+void CF_theme_remove(signed int pos, struct anonymous_1 **themes, signed int *cnt);
 // CF_themes_free
 // file ../../src/mconfig.c line 422
-void CF_themes_free(struct anonymous$1 **themes, signed int *cnt);
+void CF_themes_free(struct anonymous_1 **themes, signed int *cnt);
 // CF_themes_free_user
 // file ../../src/mconfig.c line 435
-void CF_themes_free_user(struct anonymous$1 **themes, signed int *cnt);
+void CF_themes_free_user(struct anonymous_1 **themes, signed int *cnt);
 // DropPrivileges
 // file ../../src/marchive.c line 119
 signed int DropPrivileges(void);
@@ -353,7 +353,7 @@ signed int MP_Active(void);
 void MP_End(void);
 // MP_GetData
 // file ../../src/mplayer.h line 48
-void MP_GetData(struct anonymous$6 *data);
+void MP_GetData(struct anonymous_6 *data);
 // MP_Init
 // file ../../src/mplayer.h line 52
 signed int MP_Init(void);
@@ -449,13 +449,13 @@ signed int PL_DelDouble(struct anonymous *pl);
 signed int PL_DelEntry(struct anonymous *pl, signed int number);
 // PL_GetCurrent
 // file ../../src/mlist.h line 70
-struct anonymous$0 * PL_GetCurrent(struct anonymous *pl);
+struct anonymous_0 * PL_GetCurrent(struct anonymous *pl);
 // PL_GetCurrentPos
 // file ../../src/mlist.h line 69
 signed int PL_GetCurrentPos(struct anonymous *pl);
 // PL_GetEntry
 // file ../../src/mlist.h line 71
-struct anonymous$0 * PL_GetEntry(struct anonymous *pl, signed int number);
+struct anonymous_0 * PL_GetEntry(struct anonymous *pl, signed int number);
 // PL_GetFilename
 // file ../../src/mlist.c line 389
 char * PL_GetFilename(void);
@@ -494,10 +494,10 @@ void PL_SetPlayedCurrent(struct anonymous *pl);
 void PL_SetTimeCurrent(struct anonymous *pl, signed long int sngtime);
 // PL_Sort
 // file ../../src/mlist.c line 571
-void PL_Sort(struct anonymous *pl, signed int (*compar)(struct anonymous$0 *, struct anonymous$0 *));
-// PL_Sort::compar$object
+void PL_Sort(struct anonymous *pl, signed int (*compar)(struct anonymous_0 *, struct anonymous_0 *));
+// PL_Sort::compar_object
 //
-signed int compar$object(struct anonymous$0 *, struct anonymous$0 *);
+signed int compar_object(struct anonymous_0 *, struct anonymous_0 *);
 // PL_StartInsert
 // file ../../src/mlist.c line 240
 void PL_StartInsert(struct anonymous *pl, signed int pos);
@@ -539,7 +539,7 @@ extern void Player_PrevPosition(void);
 extern signed int Player_QueryVoices(unsigned short int, struct VOICEINFO *);
 // Player_SetConfig
 // file ../../src/mikmod.c line 387
-void Player_SetConfig(struct anonymous$3 *cfg);
+void Player_SetConfig(struct anonymous_3 *cfg);
 // Player_SetNextMod
 // file ../../src/mikmod.c line 305
 void Player_SetNextMod(signed int pos);
@@ -587,28 +587,28 @@ extern signed int abs(signed int);
 extern signed int atoi(const char *);
 // base_attr
 // file ../../src/mwidget.c line 54
-static enum anonymous$7 base_attr(struct anonymous$17 *d, enum anonymous$7 attrs);
+static enum anonymous_7 base_attr(struct anonymous_17 *d, enum anonymous_7 attrs);
 // bsearch
 // file /usr/include/stdlib.h line 754
 extern void * bsearch(const void *, const void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
 // button_free
 // file ../../src/mwidget.c line 309
-static void button_free(struct anonymous$13 *w);
+static void button_free(struct anonymous_13 *w);
 // button_get_size
 // file ../../src/mwidget.c line 441
-static void button_get_size(struct anonymous$13 *w, signed int *width, signed int *height);
+static void button_get_size(struct anonymous_13 *w, signed int *width, signed int *height);
 // button_handle_event
 // file ../../src/mwidget.c line 381
-static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 event, signed int ch);
+static signed int button_handle_event(struct anonymous_13 *w, enum anonymous_18 event, signed int ch);
 // button_paint
 // file ../../src/mwidget.c line 315
-static void button_paint(struct anonymous$13 *w);
+static void button_paint(struct anonymous_13 *w);
 // cb_browse
 // file ../../src/mlistedit.c line 1094
 static signed int cb_browse(signed int button, char *file, void *data);
 // cb_cmp_sort
 // file ../../src/mlistedit.c line 1027
-static signed int cb_cmp_sort(struct anonymous$0 *small, struct anonymous$0 *big);
+static signed int cb_cmp_sort(struct anonymous_0 *small, struct anonymous_0 *big);
 // cb_delete_entry
 // file ../../src/mlistedit.c line 990
 static signed int cb_delete_entry(struct WIDGET *w, signed int button, void *input, void *entry);
@@ -665,22 +665,22 @@ static signed int cb_themeedit(struct WIDGET *w, signed int button, void *input,
 extern signed int cbreak(void);
 // check_free
 // file ../../src/mwidget.c line 742
-static void check_free(struct anonymous$15 *w);
+static void check_free(struct anonymous_15 *w);
 // check_get_size
 // file ../../src/mwidget.c line 758
-static void check_get_size(struct anonymous$15 *w, signed int *width, signed int *height);
+static void check_get_size(struct anonymous_15 *w, signed int *width, signed int *height);
 // check_handle_event
 // file ../../src/mwidget.c line 753
-static signed int check_handle_event(struct anonymous$15 *w, enum anonymous$18 event, signed int ch);
+static signed int check_handle_event(struct anonymous_15 *w, enum anonymous_18 event, signed int ch);
 // check_paint
 // file ../../src/mwidget.c line 748
-static void check_paint(struct anonymous$15 *w);
+static void check_paint(struct anonymous_15 *w);
 // check_toggle_handle_event
 // file ../../src/mwidget.c line 661
-static signed int check_toggle_handle_event(struct anonymous$15 *w, enum anonymous$18 event, signed int ch, signed int toggle);
+static signed int check_toggle_handle_event(struct anonymous_15 *w, enum anonymous_18 event, signed int ch, signed int toggle);
 // check_toggle_paint
 // file ../../src/mwidget.c line 595
-static void check_toggle_paint(struct anonymous$15 *w, signed int toggle);
+static void check_toggle_paint(struct anonymous_15 *w, signed int toggle);
 // close
 // file /usr/include/unistd.h line 353
 extern signed int close(signed int);
@@ -695,28 +695,28 @@ static signed int cmp_bit(signed int value, signed int mask, signed int cmp);
 static signed int color_to_pair(signed int attrs);
 // colorsel_free
 // file ../../src/mwidget.c line 808
-static void colorsel_free(struct anonymous$16 *w);
+static void colorsel_free(struct anonymous_16 *w);
 // colorsel_get_size
 // file ../../src/mwidget.c line 949
-static void colorsel_get_size(struct anonymous$16 *w, signed int *width, signed int *height);
+static void colorsel_get_size(struct anonymous_16 *w, signed int *width, signed int *height);
 // colorsel_handle_event
 // file ../../src/mwidget.c line 878
-static signed int colorsel_handle_event(struct anonymous$16 *w, enum anonymous$18 event, signed int ch);
+static signed int colorsel_handle_event(struct anonymous_16 *w, enum anonymous_18 event, signed int ch);
 // colorsel_paint
 // file ../../src/mwidget.c line 813
-static void colorsel_paint(struct anonymous$16 *w);
+static void colorsel_paint(struct anonymous_16 *w);
 // column_dim
 // file ../../src/mwidget.c line 1333
-static void column_dim(struct anonymous$17 *d, signed int start, signed int *width, signed int *height);
+static void column_dim(struct anonymous_17 *d, signed int start, signed int *width, signed int *height);
 // config_error
 // file ../../src/mikmod.c line 373
-static void config_error(const char *err, enum anonymous$30 state);
+static void config_error(const char *err, enum anonymous_30 state);
 // config_get_act_theme
 // file ../../src/mconfedit.c line 373
 static signed int config_get_act_theme(void);
 // config_get_config
 // file ../../src/mconfedit.c line 686
-static void config_get_config(struct anonymous$3 *cfg);
+static void config_get_config(struct anonymous_3 *cfg);
 // config_open
 // file ../../src/mconfedit.h line 39
 void config_open(void);
@@ -725,7 +725,7 @@ void config_open(void);
 static void config_set_act_theme(signed int act_theme);
 // config_set_config
 // file ../../src/mconfedit.c line 628
-static void config_set_config(struct anonymous$3 *cfg);
+static void config_set_config(struct anonymous_3 *cfg);
 // convert_string
 // file ../../src/display.c line 637
 static void convert_string(char *str);
@@ -734,10 +734,10 @@ static void convert_string(char *str);
 extern signed int curs_set(signed int);
 // dialog_add
 // file ../../src/mwidget.c line 955
-static void dialog_add(struct anonymous$17 *d, struct WIDGET *w);
+static void dialog_add(struct anonymous_17 *d, struct WIDGET *w);
 // dialog_close
 // file ../../src/mwidget.c line 1275
-void dialog_close(struct anonymous$17 *d);
+void dialog_close(struct anonymous_17 *d);
 // dialog_handle_key
 // file ../../src/mwidget.c line 1287
 static signed int dialog_handle_key(struct MWINDOW *win, signed int ch);
@@ -746,19 +746,19 @@ static signed int dialog_handle_key(struct MWINDOW *win, signed int ch);
 static void dialog_handle_resize(struct MWINDOW *win, signed int dx, signed int dy);
 // dialog_layout
 // file ../../src/mwidget.c line 1350
-static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int *w_x, signed int *w_y, signed int *w_width, signed int *w_height);
+static void dialog_layout(struct anonymous_17 *d, signed int initial, signed int *w_x, signed int *w_y, signed int *w_width, signed int *w_height);
 // dialog_new
 // file ../../src/mwidget.c line 1542
-struct anonymous$17 * dialog_new(void);
+struct anonymous_17 * dialog_new(void);
 // dialog_open
 // file ../../src/mwidget.c line 1517
-void dialog_open(struct anonymous$17 *d, const char *title);
+void dialog_open(struct anonymous_17 *d, const char *title);
 // dialog_repaint
 // file ../../src/mwidget.c line 1262
 signed int dialog_repaint(struct MWINDOW *win);
 // dialog_set_attr
 // file ../../src/mwidget.c line 1537
-void dialog_set_attr(struct anonymous$17 *d, enum anonymous$7 attrs);
+void dialog_set_attr(struct anonymous_17 *d, enum anonymous_7 attrs);
 // dirlist_cmp
 // file ../../src/mlistedit.c line 133
 static signed int dirlist_cmp(char **small, char **big);
@@ -812,7 +812,7 @@ void display_init(void);
 static void display_inst(struct MWINDOW *win, signed int diff);
 // display_list
 // file ../../src/display.c line 1000
-static void display_list(struct MWINDOW *win, signed int diff, enum anonymous$9 com);
+static void display_list(struct MWINDOW *win, signed int diff, enum anonymous_9 com);
 // display_loadbanner
 // file ../../src/display.c line 315
 void display_loadbanner(void);
@@ -824,7 +824,7 @@ void display_message(char *str);
 static void display_name(void);
 // display_panel
 // file ../../src/display.c line 1087
-static void display_panel(struct MWINDOW *win, signed int diff, enum anonymous$9 com);
+static void display_panel(struct MWINDOW *win, signed int diff, enum anonymous_9 com);
 // display_panel_repaint
 // file ../../src/display.c line 1165
 static signed int display_panel_repaint(struct MWINDOW *win);
@@ -833,7 +833,7 @@ static signed int display_panel_repaint(struct MWINDOW *win);
 void display_pausebanner(void);
 // display_playentry
 // file ../../src/display.c line 936
-static void display_playentry(struct MWINDOW *win, struct anonymous$0 *pos, struct anonymous$0 *cur, signed int nr, signed int y, signed int x, signed int reverse, signed int width);
+static void display_playentry(struct MWINDOW *win, struct anonymous_0 *pos, struct anonymous_0 *cur, signed int nr, signed int y, signed int x, signed int reverse, signed int width);
 // display_sample
 // file ../../src/display.c line 681
 static void display_sample(struct MWINDOW *win, signed int diff);
@@ -858,21 +858,21 @@ void dlg_error_show(const char *txt, ...);
 // dlg_input_int
 // file ../../src/mdialog.h line 69
 void dlg_input_int(const char *msg, const char *buttons, signed int value, signed int min, signed int max, signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), void *data);
-// dlg_input_int::handle_dlg$object
+// dlg_input_int::handle_dlg_object
 //
-signed int handle_dlg$object(struct WIDGET *, signed int, void *, void *);
+signed int handle_dlg_object(struct WIDGET *, signed int, void *, void *);
 // dlg_input_str
 // file ../../src/mdialog.h line 61
 void dlg_input_str(const char *msg, const char *buttons, const char *str, signed int length, signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), void *data);
-// dlg_input_str::handle_dlg$object
+// dlg_input_str::handle_dlg_object
 //
-signed int handle_dlg$object(struct WIDGET *, signed int, void *, void *);
+signed int handle_dlg_object(struct WIDGET *, signed int, void *, void *);
 // dlg_message_open
 // file ../../src/mdialog.h line 49
 void dlg_message_open(const char *msg, const char *button, signed int active, signed int warn, signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), void *data);
-// dlg_message_open::handle_dlg$object
+// dlg_message_open::handle_dlg_object
 //
-signed int handle_dlg$object(struct WIDGET *, signed int, void *, void *);
+signed int handle_dlg_object(struct WIDGET *, signed int, void *, void *);
 // do_update
 // file ../../src/mplayer.c line 58
 static void do_update(void);
@@ -891,9 +891,9 @@ static void dynamic_display_sample(struct MWINDOW *win);
 // dynamic_display_volbars
 // file ../../src/display.c line 825
 static void dynamic_display_volbars(struct MWINDOW *win);
-// dynamic_repaint$object
+// dynamic_repaint_object
 //
-void dynamic_repaint$object(struct MWINDOW *);
+void dynamic_repaint_object(struct MWINDOW *);
 // endwin
 // file /usr/include/curses.h line 618
 extern signed int endwin(void);
@@ -902,7 +902,7 @@ extern signed int endwin(void);
 static void enlarge(signed int x, char *str);
 // entry_add
 // file ../../src/mlistedit.c line 233
-static signed int entry_add(char *path, char *file, struct anonymous$25 *data);
+static signed int entry_add(char *path, char *file, struct anonymous_25 *data);
 // entry_insert
 // file ../../src/mlistedit.c line 207
 static void entry_insert(signed int left, signed int right, char **pl, char *ins);
@@ -911,7 +911,7 @@ static void entry_insert(signed int left, signed int right, char **pl, char *ins
 static void entry_remove(signed int entry);
 // entry_remove_by_name
 // file ../../src/mlistedit.c line 282
-static signed int entry_remove_by_name(char *path, char *file, struct anonymous$25 *data);
+static signed int entry_remove_by_name(char *path, char *file, struct anonymous_25 *data);
 // execvp
 // file /usr/include/unistd.h line 578
 extern signed int execvp(const char *, char * const *);
@@ -968,49 +968,49 @@ extern unsigned long int fread(void *, unsigned long int, unsigned long int, str
 extern void free(void *);
 // freq_add
 // file ../../src/mlistedit.c line 688
-static void freq_add(struct anonymous$25 *data, enum anonymous$26 mode);
+static void freq_add(struct anonymous_25 *data, enum anonymous_26 mode);
 // freq_call_func
 // file ../../src/mlistedit.c line 725
-static signed int freq_call_func(signed int button, struct anonymous$25 *data);
+static signed int freq_call_func(signed int button, struct anonymous_25 *data);
 // freq_cd
 // file ../../src/mlistedit.c line 780
-static void freq_cd(struct anonymous$25 *data);
+static void freq_cd(struct anonymous_25 *data);
 // freq_changedir
 // file ../../src/mlistedit.c line 489
-static void freq_changedir(const char *path, struct anonymous$25 *data);
+static void freq_changedir(const char *path, struct anonymous_25 *data);
 // freq_check_searchlist
 // file ../../src/mlistedit.c line 181
-static void freq_check_searchlist(struct anonymous$25 *data);
+static void freq_check_searchlist(struct anonymous_25 *data);
 // freq_close
 // file ../../src/mlistedit.c line 713
-static void freq_close(struct anonymous$25 *data);
+static void freq_close(struct anonymous_25 *data);
 // freq_data_init
 // file ../../src/mlistedit.c line 838
-static struct anonymous$25 * freq_data_init(const char *path);
+static struct anonymous_25 * freq_data_init(const char *path);
 // freq_freedir
 // file ../../src/mlistedit.c line 465
 static void freq_freedir(char **entries, signed int cnt);
 // freq_hotlist
 // file ../../src/mlistedit.c line 583
-static void freq_hotlist(struct anonymous$25 *freq_data);
+static void freq_hotlist(struct anonymous_25 *freq_data);
 // freq_open
 // file ../../src/mlistedit.c line 874
 void freq_open(const char *title, const char *path, signed int actline, signed int (*func)(signed int, char *, void *), void *data);
-// freq_open::func$object
+// freq_open::func_object
 //
-signed int func$object(signed int, char *, void *);
+signed int func_object(signed int, char *, void *);
 // freq_readdir
 // file ../../src/mlistedit.c line 412
-static void freq_readdir(const char *path, char ***entries, signed int *cnt, struct anonymous$25 *data);
+static void freq_readdir(const char *path, char ***entries, signed int *cnt, struct anonymous_25 *data);
 // freq_scan_dir
 // file ../../src/mlistedit.c line 655
-static void freq_scan_dir(char *path, struct anonymous$25 *data, enum anonymous$26 mode);
+static void freq_scan_dir(char *path, struct anonymous_25 *data, enum anonymous_26 mode);
 // freq_set_marks
 // file ../../src/mlistedit.c line 160
-static void freq_set_marks(char **entries, signed int cnt, const char *path, struct anonymous$25 *data);
+static void freq_set_marks(char **entries, signed int cnt, const char *path, struct anonymous_25 *data);
 // freq_set_title
 // file ../../src/mlistedit.c line 473
-static void freq_set_title(struct anonymous$25 *data);
+static void freq_set_title(struct anonymous_25 *data);
 // fseek
 // file /usr/include/stdio.h line 749
 extern signed int fseek(struct _IO_FILE *, signed long int, signed int);
@@ -1031,10 +1031,10 @@ char * get_cfg_name(const char *name);
 static char * get_command(const char *pattern, const char *arc, const char *file, const char *dest);
 // get_driver_options
 // file ../../src/mconfedit.c line 304
-static void get_driver_options(struct anonymous$8 *entry, struct anonymous$8 *dr_entry);
+static void get_driver_options(struct anonymous_8 *entry, struct anonymous_8 *dr_entry);
 // get_drivers
 // file ../../src/mconfedit.c line 246
-static void get_drivers(struct anonymous$8 *entry);
+static void get_drivers(struct anonymous_8 *entry);
 // get_homedir
 // file ../../src/mutilities.c line 123
 static const char * get_homedir(void);
@@ -1043,10 +1043,10 @@ static const char * get_homedir(void);
 static void get_int(const char *arg, signed int *value, signed int min, signed int max);
 // get_text
 // file ../../src/mmenu.c line 106
-static char * get_text(struct anonymous$8 *entry, signed int width);
+static char * get_text(struct anonymous_8 *entry, signed int width);
 // get_themes
 // file ../../src/mconfedit.c line 349
-static void get_themes(struct anonymous$8 *entry);
+static void get_themes(struct anonymous_8 *entry);
 // get_tmp_file
 // file ../../src/mutilities.h line 182
 signed int get_tmp_file(const char *tmpl, char **name_used);
@@ -1080,9 +1080,9 @@ static void handle_ListError(signed int tolerant, const char *filename, const ch
 // handle_focus
 // file ../../src/mwidget.c line 157
 static signed int handle_focus(struct WIDGET *w, signed int ret, signed int from_activate);
-// handle_focus$link1
+// handle_focus_link1
 // file ../../src/mdialog.c line 50
-static signed int handle_focus$link1(struct WIDGET *w$link1, signed int focus);
+static signed int handle_focus_link1(struct WIDGET *w_link1, signed int focus);
 // handle_input_int
 // file ../../src/mmenu.c line 313
 static signed int handle_input_int(struct WIDGET *w, signed int button, void *input, void *data);
@@ -1100,10 +1100,10 @@ static void handle_opt_menu(struct MMENU *menu);
 extern _Bool has_colors(void);
 // help
 // file ../../src/mikmod.c line 166
-static void help(struct anonymous$3 *c);
+static void help(struct anonymous_3 *c);
 // hlist_close
 // file ../../src/mlistedit.c line 526
-static void hlist_close(struct anonymous$27 *data);
+static void hlist_close(struct anonymous_27 *data);
 // indent_change
 // file ../../src/rcfile.c line 72
 static void indent_change(signed int delta);
@@ -1112,34 +1112,34 @@ static void indent_change(signed int delta);
 static void init_curses(void);
 // init_dlg_data
 // file ../../src/mdialog.c line 75
-static struct anonymous$19 * init_dlg_data(signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), struct WIDGET *w, void *input, void *data);
-// init_dlg_data::handle_dlg$object
+static struct anonymous_19 * init_dlg_data(signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), struct WIDGET *w, void *input, void *data);
+// init_dlg_data::handle_dlg_object
 //
-signed int handle_dlg$object(struct WIDGET *, signed int, void *, void *);
+signed int handle_dlg_object(struct WIDGET *, signed int, void *, void *);
 // init_pair
 // file /usr/include/curses.h line 641
 extern signed int init_pair(signed short int, signed short int, signed short int);
 // init_themes
 // file ../../src/mconfig.c line 370
-static void init_themes(struct anonymous$3 *cfg);
+static void init_themes(struct anonymous_3 *cfg);
 // initscr
 // file /usr/include/curses.h line 639
 extern struct _win_st * initscr(void);
 // input_handle_event
 // file ../../src/mwidget.c line 171
-static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 event, signed int ch, signed int int_input);
+static signed int input_handle_event(struct anonymous_12 *w, enum anonymous_18 event, signed int ch, signed int int_input);
 // int_free
 // file ../../src/mwidget.c line 287
-static void int_free(struct anonymous$12 *w);
+static void int_free(struct anonymous_12 *w);
 // int_get_size
 // file ../../src/mwidget.c line 303
-static void int_get_size(struct anonymous$12 *w, signed int *width, signed int *height);
+static void int_get_size(struct anonymous_12 *w, signed int *width, signed int *height);
 // int_handle_event
 // file ../../src/mwidget.c line 298
-static signed int int_handle_event(struct anonymous$12 *w, enum anonymous$18 event, signed int ch);
+static signed int int_handle_event(struct anonymous_12 *w, enum anonymous_18 event, signed int ch);
 // int_paint
 // file ../../src/mwidget.c line 293
-static void int_paint(struct anonymous$12 *w);
+static void int_paint(struct anonymous_12 *w);
 // ioctl
 // file /usr/include/x86_64-linux-gnu/sys/ioctl.h line 41
 extern signed int ioctl(signed int, unsigned long int, ...);
@@ -1148,31 +1148,31 @@ extern signed int ioctl(signed int, unsigned long int, ...);
 extern signed int keypad(struct _win_st *, _Bool);
 // label_free
 // file ../../src/mwidget.c line 60
-static void label_free(struct anonymous$11 *w);
+static void label_free(struct anonymous_11 *w);
 // label_get_size
 // file ../../src/mwidget.c line 90
-static void label_get_size(struct anonymous$11 *w, signed int *width, signed int *height);
+static void label_get_size(struct anonymous_11 *w, signed int *width, signed int *height);
 // label_handle_event
 // file ../../src/mwidget.c line 85
-static signed int label_handle_event(struct anonymous$11 *w, enum anonymous$18 event, signed int ch);
+static signed int label_handle_event(struct anonymous_11 *w, enum anonymous_18 event, signed int ch);
 // label_paint
 // file ../../src/mwidget.c line 66
-static void label_paint(struct anonymous$11 *w);
+static void label_paint(struct anonymous_11 *w);
 // list_free
 // file ../../src/mwidget.c line 457
-static void list_free(struct anonymous$14 *w);
+static void list_free(struct anonymous_14 *w);
 // list_get_size
 // file ../../src/mwidget.c line 582
-static void list_get_size(struct anonymous$14 *w, signed int *width, signed int *height);
+static void list_get_size(struct anonymous_14 *w, signed int *width, signed int *height);
 // list_handle_event
 // file ../../src/mwidget.c line 522
-static signed int list_handle_event(struct anonymous$14 *w, enum anonymous$18 event, signed int ch);
+static signed int list_handle_event(struct anonymous_14 *w, enum anonymous_18 event, signed int ch);
 // list_open
 // file ../../src/mlistedit.h line 38
 void list_open(signed int *actLine);
 // list_paint
 // file ../../src/mwidget.c line 467
-static void list_paint(struct anonymous$14 *w);
+static void list_paint(struct anonymous_14 *w);
 // list_scan_dir
 // file ../../src/mlistedit.h line 35
 signed int list_scan_dir(char *path, signed int quiet);
@@ -1217,22 +1217,22 @@ static signed int menu_handle_key(struct MWINDOW *win, signed int ch);
 static void menu_handle_resize(struct MWINDOW *win, signed int dx, signed int dy);
 // menu_has_sub
 // file ../../src/mmenu.c line 88
-static signed int menu_has_sub(struct anonymous$8 *entry);
+static signed int menu_has_sub(struct anonymous_8 *entry);
 // menu_is_int
 // file ../../src/mmenu.c line 78
-static signed int menu_is_int(struct anonymous$8 *entry);
+static signed int menu_is_int(struct anonymous_8 *entry);
 // menu_is_option
 // file ../../src/mmenu.c line 68
-static signed int menu_is_option(struct anonymous$8 *entry);
+static signed int menu_is_option(struct anonymous_8 *entry);
 // menu_is_str
 // file ../../src/mmenu.c line 83
-static signed int menu_is_str(struct anonymous$8 *entry);
+static signed int menu_is_str(struct anonymous_8 *entry);
 // menu_is_sub
 // file ../../src/mmenu.c line 58
-static signed int menu_is_sub(struct anonymous$8 *entry);
+static signed int menu_is_sub(struct anonymous_8 *entry);
 // menu_is_toggle
 // file ../../src/mmenu.c line 73
-static signed int menu_is_toggle(struct anonymous$8 *entry);
+static signed int menu_is_toggle(struct anonymous_8 *entry);
 // menu_open
 // file ../../src/mmenu.c line 510
 void menu_open(struct MMENU *menu, signed int x, signed int y);
@@ -1301,10 +1301,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$22 *);
+extern signed int pthread_mutex_lock(union anonymous_22 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$22 *);
+extern signed int pthread_mutex_unlock(union anonymous_22 *);
 // puts
 // file /usr/include/stdio.h line 695
 extern signed int puts(const char *);
@@ -1337,7 +1337,7 @@ signed int rc_read_float(const char *label, float *value, float min, float max);
 signed int rc_read_int(const char *label, signed int *value, signed int min, signed int max);
 // rc_read_label
 // file ../../src/rcfile.h line 57
-signed int rc_read_label(const char *label, signed int *value, struct anonymous$4 *convert);
+signed int rc_read_label(const char *label, signed int *value, struct anonymous_4 *convert);
 // rc_read_string
 // file ../../src/rcfile.h line 65
 signed int rc_read_string(const char *label, char **value, signed int length);
@@ -1367,7 +1367,7 @@ signed int rc_write_float(const char *label, float arg, const char *description)
 signed int rc_write_int(const char *label, signed int arg, const char *description);
 // rc_write_label
 // file ../../src/rcfile.h line 44
-signed int rc_write_label(const char *label, struct anonymous$4 *convert, signed int arg, const char *description);
+signed int rc_write_label(const char *label, struct anonymous_4 *convert, signed int arg, const char *description);
 // rc_write_string
 // file ../../src/rcfile.h line 45
 signed int rc_write_string(const char *label, const char *arg, const char *description);
@@ -1382,10 +1382,10 @@ signed int rc_write_struct_end(const char *description);
 extern signed long int read(signed int, void *, unsigned long int);
 // read_archiver
 // file ../../src/mconfig.c line 555
-static void read_archiver(struct anonymous$3 *cfg);
+static void read_archiver(struct anonymous_3 *cfg);
 // read_theme
 // file ../../src/mconfig.c line 488
-static void read_theme(struct anonymous$3 *cfg);
+static void read_theme(struct anonymous_3 *cfg);
 // readdir
 // file /usr/include/dirent.h line 162
 extern struct dirent * readdir(struct __dirstream *);
@@ -1400,10 +1400,10 @@ static void remove_message(void);
 extern signed int resizeterm(signed int, signed int);
 // scan_dir
 // file ../../src/mlistedit.c line 321
-static void scan_dir(char *path, signed int recursive, signed int links, struct anonymous$25 *freq_data, enum anonymous$26 mode, signed int (*func)(char *, signed int, signed int, void *), void *data, signed int *added, signed int *removed);
-// scan_dir::func$object
+static void scan_dir(char *path, signed int recursive, signed int links, struct anonymous_25 *freq_data, enum anonymous_26 mode, signed int (*func)(char *, signed int, signed int, void *), void *data, signed int *added, signed int *removed);
+// scan_dir::func_object
 //
-signed int func$object(char *, signed int, signed int, void *);
+signed int func_object(char *, signed int, signed int, void *);
 // sched_get_priority_min
 // file /usr/include/sched.h line 71
 extern signed int sched_get_priority_min(signed int);
@@ -1421,10 +1421,10 @@ static signed int searchlist_search_cmp(char *key, char **member);
 static void set_bit(unsigned short int *value, signed int mask, signed int boolv);
 // set_help
 // file ../../src/mconfedit.c line 217
-void set_help(struct anonymous$8 *entry, const char *str, ...);
+void set_help(struct anonymous_8 *entry, const char *str, ...);
 // set_priority
 // file ../../src/mikmod.c line 329
-static void set_priority(struct anonymous$3 *cfg);
+static void set_priority(struct anonymous_3 *cfg);
 // set_window_title
 // file ../../src/display.c line 1288
 static void set_window_title(const char *content);
@@ -1472,16 +1472,16 @@ extern signed int start_color(void);
 extern signed int stat(const char *, struct stat *);
 // str_free
 // file ../../src/mwidget.c line 111
-static void str_free(struct anonymous$12 *w);
+static void str_free(struct anonymous_12 *w);
 // str_get_size
 // file ../../src/mwidget.c line 271
-static void str_get_size(struct anonymous$12 *w, signed int *width, signed int *height);
+static void str_get_size(struct anonymous_12 *w, signed int *width, signed int *height);
 // str_handle_event
 // file ../../src/mwidget.c line 266
-static signed int str_handle_event(struct anonymous$12 *w, enum anonymous$18 event, signed int ch);
+static signed int str_handle_event(struct anonymous_12 *w, enum anonymous_18 event, signed int ch);
 // str_paint
 // file ../../src/mwidget.c line 117
-static void str_paint(struct anonymous$12 *w);
+static void str_paint(struct anonymous_12 *w);
 // str_sprintf
 // file ../../src/mutilities.c line 208
 char * str_sprintf(const char *fmt, const char *arg);
@@ -1535,13 +1535,13 @@ static void theme_copy(signed int *act_theme);
 static void theme_edit(signed int act_theme);
 // theme_edit_close
 // file ../../src/mconfedit.c line 448
-static void theme_edit_close(struct anonymous$20 *data);
+static void theme_edit_close(struct anonymous_20 *data);
 // theme_get_attrs
 // file ../../src/mconfedit.c line 383
-static void theme_get_attrs(struct anonymous$20 *data);
+static void theme_get_attrs(struct anonymous_20 *data);
 // theme_set_attrs
 // file ../../src/mconfedit.c line 405
-static void theme_set_attrs(struct anonymous$20 *data, signed int repaint);
+static void theme_set_attrs(struct anonymous_20 *data, signed int repaint);
 // theme_uniq_name
 // file ../../src/mconfedit.c line 557
 static char * theme_uniq_name(char *src_name);
@@ -1550,16 +1550,16 @@ static char * theme_uniq_name(char *src_name);
 extern signed long int time(signed long int *);
 // toggle_free
 // file ../../src/mwidget.c line 787
-static void toggle_free(struct anonymous$15 *w);
+static void toggle_free(struct anonymous_15 *w);
 // toggle_get_size
 // file ../../src/mwidget.c line 803
-static void toggle_get_size(struct anonymous$15 *w, signed int *width, signed int *height);
+static void toggle_get_size(struct anonymous_15 *w, signed int *width, signed int *height);
 // toggle_handle_event
 // file ../../src/mwidget.c line 798
-static signed int toggle_handle_event(struct anonymous$15 *w, enum anonymous$18 event, signed int ch);
+static signed int toggle_handle_event(struct anonymous_15 *w, enum anonymous_18 event, signed int ch);
 // toggle_paint
 // file ../../src/mwidget.c line 793
-static void toggle_paint(struct anonymous$15 *w);
+static void toggle_paint(struct anonymous_15 *w);
 // toupper
 // file /usr/include/ctype.h line 127
 extern signed int toupper(signed int);
@@ -1601,85 +1601,85 @@ extern signed int wclear(struct _win_st *);
 extern signed int wgetch(struct _win_st *);
 // wid_button_add
 // file ../../src/mwidget.c line 1078
-struct WIDGET * wid_button_add(struct anonymous$17 *d, signed int spacing, const char *button, signed int active);
+struct WIDGET * wid_button_add(struct anonymous_17 *d, signed int spacing, const char *button, signed int active);
 // wid_check_add
 // file ../../src/mwidget.c line 1167
-struct WIDGET * wid_check_add(struct anonymous$17 *d, signed int spacing, const char *button, signed int active, signed int selected);
+struct WIDGET * wid_check_add(struct anonymous_17 *d, signed int spacing, const char *button, signed int active, signed int selected);
 // wid_check_set_selected
 // file ../../src/mwidget.c line 1185
-void wid_check_set_selected(struct anonymous$15 *w, signed int selected);
+void wid_check_set_selected(struct anonymous_15 *w, signed int selected);
 // wid_colorsel_add
 // file ../../src/mwidget.c line 1213
-struct WIDGET * wid_colorsel_add(struct anonymous$17 *d, signed int spacing, const char *hotkeys, signed int active);
+struct WIDGET * wid_colorsel_add(struct anonymous_17 *d, signed int spacing, const char *hotkeys, signed int active);
 // wid_colorsel_set_active
 // file ../../src/mwidget.c line 1238
-void wid_colorsel_set_active(struct anonymous$16 *w, signed int active);
+void wid_colorsel_set_active(struct anonymous_16 *w, signed int active);
 // wid_int_add
 // file ../../src/mwidget.c line 1048
-struct WIDGET * wid_int_add(struct anonymous$17 *d, signed int spacing, signed int value, signed int length);
+struct WIDGET * wid_int_add(struct anonymous_17 *d, signed int spacing, signed int value, signed int length);
 // wid_int_set_input
 // file ../../src/mwidget.c line 1071
-void wid_int_set_input(struct anonymous$12 *w, signed int value, signed int length);
+void wid_int_set_input(struct anonymous_12 *w, signed int value, signed int length);
 // wid_label_add
 // file ../../src/mwidget.c line 977
-struct WIDGET * wid_label_add(struct anonymous$17 *d, signed int spacing, const char *msg);
+struct WIDGET * wid_label_add(struct anonymous_17 *d, signed int spacing, const char *msg);
 // wid_label_set_label
 // file ../../src/mwidget.c line 993
-void wid_label_set_label(struct anonymous$11 *w, const char *label);
+void wid_label_set_label(struct anonymous_11 *w, const char *label);
 // wid_list_add
 // file ../../src/mwidget.c line 1095
-struct WIDGET * wid_list_add(struct anonymous$17 *d, signed int spacing, const char **entries, signed int cnt);
+struct WIDGET * wid_list_add(struct anonymous_17 *d, signed int spacing, const char **entries, signed int cnt);
 // wid_list_set_active
 // file ../../src/mwidget.c line 1150
-void wid_list_set_active(struct anonymous$14 *w, signed int cur);
+void wid_list_set_active(struct anonymous_14 *w, signed int cur);
 // wid_list_set_entries
 // file ../../src/mwidget.c line 1125
-void wid_list_set_entries(struct anonymous$14 *w, const char **entries, signed int cur, signed int cnt);
+void wid_list_set_entries(struct anonymous_14 *w, const char **entries, signed int cur, signed int cnt);
 // wid_list_set_selection_mode
 // file ../../src/mwidget.c line 1162
-void wid_list_set_selection_mode(struct anonymous$14 *w, enum anonymous$10 mode);
+void wid_list_set_selection_mode(struct anonymous_14 *w, enum anonymous_10 mode);
 // wid_list_set_title
 // file ../../src/mwidget.c line 1119
-void wid_list_set_title(struct anonymous$14 *w, const char *title);
+void wid_list_set_title(struct anonymous_14 *w, const char *title);
 // wid_repaint
 // file ../../src/mwidget.c line 1257
 void wid_repaint(struct WIDGET *w);
 // wid_set_func
 // file ../../src/mwidget.c line 1249
 void wid_set_func(struct WIDGET *w, signed int (*key)(struct WIDGET *, signed int), signed int (*focus)(struct WIDGET *, signed int), void *data);
-// wid_set_func::focus$object
+// wid_set_func::focus_object
 //
-signed int focus$object(struct WIDGET *, signed int);
-// wid_set_func::key$object
+signed int focus_object(struct WIDGET *, signed int);
+// wid_set_func::key_object
 //
-signed int key$object(struct WIDGET *, signed int);
+signed int key_object(struct WIDGET *, signed int);
 // wid_set_size
 // file ../../src/mwidget.c line 1243
 void wid_set_size(struct WIDGET *w, signed int width, signed int height);
 // wid_str_add
 // file ../../src/mwidget.c line 999
-struct WIDGET * wid_str_add(struct anonymous$17 *d, signed int spacing, const char *input, signed int length);
+struct WIDGET * wid_str_add(struct anonymous_17 *d, signed int spacing, const char *input, signed int length);
 // wid_str_set_input
 // file ../../src/mwidget.c line 1025
-void wid_str_set_input(struct anonymous$12 *w, const char *input, signed int length);
+void wid_str_set_input(struct anonymous_12 *w, const char *input, signed int length);
 // wid_toggle_add
 // file ../../src/mwidget.c line 1190
-struct WIDGET * wid_toggle_add(struct anonymous$17 *d, signed int spacing, const char *button, signed int active, signed int selected);
+struct WIDGET * wid_toggle_add(struct anonymous_17 *d, signed int spacing, const char *button, signed int active, signed int selected);
 // wid_toggle_set_selected
 // file ../../src/mwidget.c line 1208
-void wid_toggle_set_selected(struct anonymous$15 *w, signed int selected);
+void wid_toggle_set_selected(struct anonymous_15 *w, signed int selected);
 // widget_init
 // file ../../src/mwidget.c line 962
-static void widget_init(struct WIDGET *w, struct anonymous$17 *d, signed int focus, signed int spacing);
+static void widget_init(struct WIDGET *w, struct anonymous_17 *d, signed int focus, signed int spacing);
 // win_attrset
 // file ../../src/mwindow.h line 146
-void win_attrset(enum anonymous$7 attrs);
+void win_attrset(enum anonymous_7 attrs);
 // win_box
 // file ../../src/mwindow.c line 838
 void win_box(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, signed int y2);
 // win_box_color
 // file ../../src/mwindow.c line 768
-void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, signed int y2, enum anonymous$7 *back);
+void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, signed int y2, enum anonymous_7 *back);
 // win_box_win
 // file ../../src/mwindow.c line 390
 void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, const char *title);
@@ -1721,7 +1721,7 @@ void win_get_size(struct MWINDOW *win, signed int *x, signed int *y);
 void win_get_size_max(signed int *y, signed int *width, signed int *height);
 // win_get_theme_color
 // file ../../src/mwindow.c line 867
-enum anonymous$7 win_get_theme_color(enum anonymous$7 attrs);
+enum anonymous_7 win_get_theme_color(enum anonymous_7 attrs);
 // win_get_window
 // file ../../src/mwindow.c line 708
 struct MWINDOW * win_get_window(void);
@@ -1754,10 +1754,10 @@ void win_line(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, 
 signed int win_main_iteration(void);
 // win_open
 // file ../../src/mwindow.c line 491
-struct MWINDOW * win_open(signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous$7 attrs);
+struct MWINDOW * win_open(signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous_7 attrs);
 // win_panel_open
 // file ../../src/mwindow.h line 88
-struct MWINDOW * win_panel_open(signed int dst_panel, signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous$7 attrs);
+struct MWINDOW * win_panel_open(signed int dst_panel, signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous_7 attrs);
 // win_panel_repaint
 // file ../../src/mwindow.h line 108
 void win_panel_repaint(void);
@@ -1770,21 +1770,21 @@ void win_panel_set_data(signed int _panel, void *data);
 // win_panel_set_handle_key
 // file ../../src/mwindow.h line 95
 void win_panel_set_handle_key(signed int _panel, signed int (*func)(struct MWINDOW *, signed int));
-// win_panel_set_handle_key::func$object
+// win_panel_set_handle_key::func_object
 //
-signed int func$object(struct MWINDOW *, signed int);
+signed int func_object(struct MWINDOW *, signed int);
 // win_panel_set_repaint
 // file ../../src/mwindow.h line 92
 void win_panel_set_repaint(signed int _panel, signed int (*func)(struct MWINDOW *));
-// win_panel_set_repaint::func$object
+// win_panel_set_repaint::func_object
 //
-signed int func$object(struct MWINDOW *);
+signed int func_object(struct MWINDOW *);
 // win_panel_set_resize
 // file ../../src/mwindow.h line 99
 void win_panel_set_resize(signed int _panel, signed int auto_resize, void (*func)(struct MWINDOW *, signed int, signed int));
-// win_panel_set_resize::func$object
+// win_panel_set_resize::func_object
 //
-void func$object(struct MWINDOW *, signed int, signed int);
+void func_object(struct MWINDOW *, signed int, signed int);
 // win_print
 // file ../../src/mwindow.h line 134
 void win_print(struct MWINDOW *win, signed int x, signed int y, const char *str);
@@ -1796,37 +1796,37 @@ void win_refresh(void);
 void win_run(void);
 // win_set_background
 // file ../../src/mwindow.c line 909
-void win_set_background(enum anonymous$7 bg);
+void win_set_background(enum anonymous_7 bg);
 // win_set_color
 // file ../../src/mwindow.c line 882
-void win_set_color(enum anonymous$7 attrs);
+void win_set_color(enum anonymous_7 attrs);
 // win_set_data
 // file ../../src/mwindow.c line 539
 void win_set_data(void *data);
 // win_set_forground
 // file ../../src/mwindow.c line 903
-void win_set_forground(enum anonymous$7 fg);
+void win_set_forground(enum anonymous_7 fg);
 // win_set_handle_key
 // file ../../src/mwindow.c line 515
 void win_set_handle_key(signed int (*func)(struct MWINDOW *, signed int));
-// win_set_handle_key::func$object
+// win_set_handle_key::func_object
 //
-signed int func$object(struct MWINDOW *, signed int);
+signed int func_object(struct MWINDOW *, signed int);
 // win_set_repaint
 // file ../../src/mwindow.c line 505
 void win_set_repaint(signed int (*func)(struct MWINDOW *));
-// win_set_repaint::func$object
+// win_set_repaint::func_object
 //
-signed int func$object(struct MWINDOW *);
+signed int func_object(struct MWINDOW *);
 // win_set_resize
 // file ../../src/mwindow.c line 526
 void win_set_resize(signed int auto_resize, void (*func)(struct MWINDOW *, signed int, signed int));
-// win_set_resize::func$object
+// win_set_resize::func_object
 //
-void func$object(struct MWINDOW *, signed int, signed int);
+void func_object(struct MWINDOW *, signed int, signed int);
 // win_set_theme
 // file ../../src/mwindow.h line 82
-void win_set_theme(struct anonymous$1 *new_theme);
+void win_set_theme(struct anonymous_1 *new_theme);
 // win_status
 // file ../../src/mwindow.h line 116
 void win_status(const char *msg);
@@ -1836,9 +1836,9 @@ static void win_status_repaint(void);
 // win_timeout_add
 // file ../../src/mwindow.h line 166
 void win_timeout_add(signed int interval, signed int (*func)(struct MWINDOW *, void *), void *data);
-// win_timeout_add::func$object
+// win_timeout_add::func_object
 //
-signed int func$object(struct MWINDOW *, void *);
+signed int func_object(struct MWINDOW *, void *);
 // win_timeout_insert
 // file ../../src/mwindow.c line 982
 static void win_timeout_insert(struct TIMEOUT *src);
@@ -1856,18 +1856,18 @@ extern signed int wrefresh(struct _win_st *);
 extern signed long int write(signed int, const void *, unsigned long int);
 // write_archiver
 // file ../../src/mconfig.c line 543
-static void write_archiver(struct anonymous$2 *archiver);
+static void write_archiver(struct anonymous_2 *archiver);
 // write_description
 // file ../../src/rcfile.c line 105
 static void write_description(const char *desc);
 // write_theme
 // file ../../src/mconfig.c line 383
-static void write_theme(struct anonymous$1 *theme);
+static void write_theme(struct anonymous_1 *theme);
 // wtimeout
 // file /usr/include/curses.h line 845
 extern void wtimeout(struct _win_st *, signed int);
 
-struct anonymous$19
+struct anonymous_19
 {
   // handle_dlg
   signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *);
@@ -1883,7 +1883,7 @@ struct anonymous$19
   signed int max;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // file
   char *file;
@@ -1895,7 +1895,7 @@ struct anonymous$0
   signed int played;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // name
   char *name;
@@ -1905,7 +1905,7 @@ struct anonymous$1
   signed int *attrs;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // text
   char *text;
@@ -1918,7 +1918,7 @@ struct anonymous$8
 struct anonymous
 {
   // entry
-  struct anonymous$0 *entry;
+  struct anonymous_0 *entry;
   // length
   signed int length;
   // current
@@ -1929,26 +1929,26 @@ struct anonymous
   signed int add_pos;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // w
-  struct anonymous$11 *w;
+  struct anonymous_11 *w;
   // stop
   signed int stop;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // w
-  struct anonymous$14 *w;
+  struct anonymous_14 *w;
   // freq
-  struct anonymous$25 *freq;
+  struct anonymous_25 *freq;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // w
-  struct anonymous$14 *w;
+  struct anonymous_14 *w;
   // path
   char path[8192l];
   // before_add
@@ -1965,7 +1965,7 @@ struct anonymous$25
   void *data;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // menu
   struct MMENU *menu;
@@ -1973,22 +1973,22 @@ struct anonymous$24
   signed int *actLine;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // w
   struct WIDGET *w;
   // str_w
-  struct anonymous$12 *str_w;
+  struct anonymous_12 *str_w;
   // col_w
-  struct anonymous$16 *col_w;
+  struct anonymous_16 *col_w;
   // list_w
-  struct anonymous$14 *list_w;
+  struct anonymous_14 *list_w;
   // cur_attr
   signed int cur_attr;
   // theme
-  struct anonymous$1 theme;
+  struct anonymous_1 theme;
   // test_theme
-  struct anonymous$1 test_theme;
+  struct anonymous_1 test_theme;
   // orig_theme
   signed int orig_theme;
 };
@@ -2009,7 +2009,7 @@ struct VOICEINFO
   unsigned char kick;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // time
   unsigned long int time;
@@ -2017,18 +2017,18 @@ struct anonymous$5
   unsigned char volamp;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // vinfo
   struct VOICEINFO vinfo[256l];
   // vstatus
-  struct anonymous$5 vstatus[256l];
+  struct anonymous_5 vstatus[256l];
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // state
-  enum anonymous$30 state;
+  enum anonymous_30 state;
   // quit
   signed int quit;
   // listend
@@ -2037,21 +2037,21 @@ struct anonymous$29
   signed int norc;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // active
   signed int active;
   // cnt
   signed int cnt;
   // attrs
-  enum anonymous$7 attrs;
+  enum anonymous_7 attrs;
   // win
   struct MWINDOW *win;
   // widget
   struct WIDGET **widget;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // driver
   signed int driver;
@@ -2116,14 +2116,14 @@ struct anonymous$3
   // cnt_themes
   signed int cnt_themes;
   // themes
-  struct anonymous$1 *themes;
+  struct anonymous_1 *themes;
   // cnt_archiver
   signed int cnt_archiver;
   // archiver
-  struct anonymous$2 *archiver;
+  struct anonymous_2 *archiver;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // id
   signed int id;
@@ -2131,7 +2131,7 @@ struct anonymous$4
   const char *label;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // location
   signed int location;
@@ -2154,7 +2154,7 @@ struct anonymous$2
 struct WIDGET
 {
   // type
-  enum anonymous$32 type;
+  enum anonymous_32 type;
   // can_focus
   signed int can_focus;
   // has_focus
@@ -2174,13 +2174,13 @@ struct WIDGET
   // spacing
   signed int spacing;
   // d
-  struct anonymous$17 *d;
+  struct anonymous_17 *d;
   // w_free
   void (*w_free)(struct WIDGET *);
   // w_paint
   void (*w_paint)(struct WIDGET *);
   // w_handle_event
-  signed int (*w_handle_event)(struct WIDGET *, enum anonymous$18, signed int);
+  signed int (*w_handle_event)(struct WIDGET *, enum anonymous_18, signed int);
   // w_get_size
   void (*w_get_size)(struct WIDGET *, signed int *, signed int *);
   // handle_key
@@ -2191,7 +2191,7 @@ struct WIDGET
   void *data;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // w
   struct WIDGET w;
@@ -2203,7 +2203,7 @@ struct anonymous$13
   signed int active;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // w
   struct WIDGET w;
@@ -2217,7 +2217,7 @@ struct anonymous$15
   signed int active;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // w
   struct WIDGET w;
@@ -2231,7 +2231,7 @@ struct anonymous$12
   signed int length;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // w
   struct WIDGET w;
@@ -2239,7 +2239,7 @@ struct anonymous$11
   char *msg;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // w
   struct WIDGET w;
@@ -2248,10 +2248,10 @@ struct anonymous$16
   // hkeys
   char hkeys[5l];
   // sel_mode
-  enum anonymous$10 sel_mode;
+  enum anonymous_10 sel_mode;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // w
   struct WIDGET w;
@@ -2266,7 +2266,7 @@ struct anonymous$14
   // title
   char *title;
   // sel_mode
-  enum anonymous$10 sel_mode;
+  enum anonymous_10 sel_mode;
 };
 
 struct __pthread_internal_list
@@ -2297,7 +2297,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2468,7 +2468,7 @@ struct MMENU
   // key_left
   signed int key_left;
   // entries
-  struct anonymous$8 *entries;
+  struct anonymous_8 *entries;
   // handle_select
   void (*handle_select)(struct MMENU *);
   // win
@@ -2594,7 +2594,7 @@ struct MWINDOW
   // height
   signed int height;
   // attrs
-  enum anonymous$7 attrs;
+  enum anonymous_7 attrs;
   // border
   signed int border;
   // resize
@@ -2991,7 +2991,7 @@ extern signed int MikMod_errno;
 static const char *PRG_NAME;
 // _mm_mutex_data
 // file ../../src/mplayer.c line 55
-static union anonymous$22 _mm_mutex_data = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_22 _mm_mutex_data = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // _mm_thread_updater
@@ -3008,7 +3008,7 @@ static signed int act_color = (signed int)(1UL - 1UL);
 static signed int active = 0;
 // archiver_def
 // file ../../src/mconfig.c line 283
-static struct anonymous$2 archiver_def[10l];
+static struct anonymous_2 archiver_def[10l];
 // bzip2signat
 // file ../../src/mconfig.c line 274
 static char bzip2signat[4l] = { 'B', 'Z', 'h', 0 };
@@ -3041,7 +3041,7 @@ static char tarsignat[6l] = { 'u', 's', 't', 'a', 'r', 0 };
 static char zoosignat[5l] = { -36, -89, -60, -3, 0 };
 // archiver_def
 // file ../../src/mconfig.c line 283
-static struct anonymous$2 archiver_def[10l] = { { .location=0, .marker=pksignat, .list="unzip -vqq \"%a\"", .nameoffset=58,
+static struct anonymous_2 archiver_def[10l] = { { .location=0, .marker=pksignat, .list="unzip -vqq \"%a\"", .nameoffset=58,
     .extract="unzip -pqq \"%a\" \"%f\"", .skippat=(char *)(void *)0,
     .skipstart=0, .skipend=0 },
     { .location=20, .marker=zoosignat, .list="zoo lq \"%a\"", .nameoffset=47,
@@ -3082,7 +3082,7 @@ static const char *attrs_colf_label[17l] = { "black", "blue", "green", "cyan", "
 const char *attrs_label[41l] = { "WARNING", "TITLE", "BANNER", "SONG_STATUS", "INFO_INACTIVE", "INFO_ACTIVE", "INFO_IHOTKEY", "INFO_AHOTKEY", "HELP", "PLAYENTRY_INACTIVE", "PLAYENTRY_ACTIVE", "SAMPLES", "SAMPLES_KICK3", "SAMPLES_KICK2", "SAMPLES_KICK1", "SAMPLES_KICK0", "CONFIG", "VOLBAR", "VOLBAR_LOW", "VOLBAR_MED", "VOLBAR_HIGH", "VOLBAR_INSTR", "MENU_FRAME", "MENU_INACTIVE", "MENU_ACTIVE", "MENU_IHOTKEY", "MENU_AHOTKEY", "DLG_FRAME", "DLG_LABEL", "DLG_STR_TEXT", "DLG_STR_CURSOR", "DLG_BUT_INACTIVE", "DLG_BUT_ACTIVE", "DLG_BUT_IHOTKEY", "DLG_BUT_AHOTKEY", "DLG_BUT_ITEXT", "DLG_BUT_ATEXT", "DLG_LIST_FOCUS", "DLG_LIST_NOFOCUS", "STATUS_LINE", "STATUS_TEXT" };
 // attrs_mono_conv
 // file ../../src/mconfig.c line 52
-static struct anonymous$4 attrs_mono_conv[4l] = { { .id=(signed int)(1UL - 1UL), .label="normal" },
+static struct anonymous_4 attrs_mono_conv[4l] = { { .id=(signed int)(1UL - 1UL), .label="normal" },
     { .id=(signed int)((unsigned long int)1UL << 13 + 8), .label="bold" },
     { .id=(signed int)((unsigned long int)1UL << 10 + 8), .label="reverse" },
     { .id=-1, .label=(const char *)(void *)0 } };
@@ -3097,7 +3097,7 @@ static signed int cnt_timeouts = 0;
 static signed int color_attributes[41l] = { 0x40 | 0x0f, 0x30 | 0x0f, 0x00 | 0x0a, 0x10 | 0x0f, 0x30 | 0x01, 0x00 | 0x0f, 0x30 | 0x0e, 0x00 | 0x0e, 0x00 | 0x06, 0x00 | 0x03, 0x00 | 0x0b, 0x00 | 0x03, 0x00 | 0x0f, 0x00 | 0x0b, 0x00 | 0x09, 0x00 | 0x01, 0x00 | 0x03, 0x00 | 0x03, 0x00 | 0x0a, 0x00 | 0x0e, 0x00 | 0x0c, 0x00 | 0x02, 0x30 | 0x00, 0x30 | 0x00, 0x00 | 0x0f, 0x30 | 0x0e, 0x00 | 0x0e, 0x70 | 0x00, 0x70 | 0x01, 0x00 | 0x0f, 0x30 | 0x00, 0x30 | 0x07, 0x00 | 0x0f, 0x30 | 0x0e, 0x00 | 0x0e, 0x30 | 0x00, 0x00 | 0x0f, 0x30 | 0x00, 0x30 | 0x0e, 0x00 | 0x0b, 0x00 | 0x03 };
 // config
 // file ../../src/mikmod.c line 137
-struct anonymous$3 config;
+struct anonymous_3 config;
 // cur_display
 // file ../../src/display.c line 117
 static signed int cur_display = 2;
@@ -3124,19 +3124,19 @@ static void (*dynamic_repaint)(struct MWINDOW *) = (void (*)(struct MWINDOW *))(
 static struct MWINDOW *dynamic_repaint_win;
 // entries
 // file ../../src/mconfedit.c line 186
-static struct anonymous$8 entries[8l];
+static struct anonymous_8 entries[8l];
 // other_menu
 // file ../../src/mconfedit.c line 183
 static struct MMENU other_menu;
 // other_entries
 // file ../../src/mconfedit.c line 165
-static struct anonymous$8 other_entries[13l];
+static struct anonymous_8 other_entries[13l];
 // exit_menu
 // file ../../src/mconfedit.c line 162
 static struct MMENU exit_menu;
 // exit_entries
 // file ../../src/mconfedit.c line 157
-static struct anonymous$8 exit_entries[3l] = { { .text="[%c] Save &config", .data=NULL, .help=(char *)(void *)0 },
+static struct anonymous_8 exit_entries[3l] = { { .text="[%c] Save &config", .data=NULL, .help=(char *)(void *)0 },
     { .text="[%c] Save &playlist", .data=NULL, .help=(char *)(void *)0 },
     { .text=(char *)(void *)0, .data=(void *)0, .help=(char *)(void *)0 } };
 // exit_menu
@@ -3149,7 +3149,7 @@ static struct MMENU exit_menu = { .cur=0, .first=0, .count=-1, .key_left=1, .ent
 static struct MMENU plmode_menu;
 // plmode_entries
 // file ../../src/mconfedit.c line 146
-static struct anonymous$8 plmode_entries[5l] = { { .text="[%c] Loop &module", .data=NULL, .help="Loop current module" },
+static struct anonymous_8 plmode_entries[5l] = { { .text="[%c] Loop &module", .data=NULL, .help="Loop current module" },
     { .text="[%c] Loop &list", .data=NULL, .help="Play the list repeatedly" },
     { .text="[%c] &Shuffle list", .data=NULL, .help="Shuffle list at start and when all entries are played" },
     { .text="[%c] List &random", .data=NULL, .help="Play list in random order" },
@@ -3161,7 +3161,7 @@ static struct MMENU plmode_menu = { .cur=0, .first=0, .count=-1, .key_left=1, .e
     .data=(void *)0, .id=4 };
 // other_entries
 // file ../../src/mconfedit.c line 165
-static struct anonymous$8 other_entries[13l] = { { .text="&Playmode  %>", .data=(void *)&plmode_menu, .help="Playlist playing mode" },
+static struct anonymous_8 other_entries[13l] = { { .text="&Playmode  %>", .data=(void *)&plmode_menu, .help="Playlist playing mode" },
     { .text="[%c] &Curious", .data=NULL, .help="Look for hidden patterns in module" },
     { .text="[%c] &Tolerant", .data=NULL, .help="Don't halt on file access errors" },
     { .text="[%c] &Full path", .data=NULL, .help="Display full path of files" },
@@ -3186,10 +3186,10 @@ static struct MMENU other_menu = { .cur=0, .first=0, .count=-1, .key_left=1, .en
 static struct MMENU output_menu;
 // output_entries
 // file ../../src/mconfedit.c line 112
-static struct anonymous$8 output_entries[10l];
+static struct anonymous_8 output_entries[10l];
 // output_entries
 // file ../../src/mconfedit.c line 112
-static struct anonymous$8 output_entries[10l] = { { .text=(char *)(void *)0, .data=NULL, .help="The device driver for output" },
+static struct anonymous_8 output_entries[10l] = { { .text=(char *)(void *)0, .data=NULL, .help="The device driver for output" },
     { .text=(char *)(void *)0, .data=(void *)driveroptions, .help="Driver options (e.g. \"buffer=14,count=16\" for the OSS-driver)" },
     { .text="[%c] &Stereo", .data=NULL, .help="mono/stereo output" },
     { .text="[%c] 16 &bit output", .data=NULL, .help="8/16 bit output" },
@@ -3211,7 +3211,7 @@ static struct MMENU output_menu = { .cur=0, .first=0, .count=-1, .key_left=1, .e
 static struct MMENU playback_menu;
 // playback_entries
 // file ../../src/mconfedit.c line 132
-static struct anonymous$8 playback_entries[7l] = { { .text="&Volume     [%d]|Enter output volume:|0|100", .data=NULL,
+static struct anonymous_8 playback_entries[7l] = { { .text="&Volume     [%d]|Enter output volume:|0|100", .data=NULL,
     .help="Output volume from 0 to 100 in %" },
     { .text="[%c] &Restrict Volume", .data=NULL, .help="Restrict volume of player to volume supplied by user (with 1..0,<,>)" },
     { .text="[%c] &Fadeout", .data=NULL, .help="Force volume fade at the end of module" },
@@ -3226,7 +3226,7 @@ static struct MMENU playback_menu = { .cur=0, .first=0, .count=-1, .key_left=1, 
     .data=(void *)0, .id=2 };
 // entries
 // file ../../src/mconfedit.c line 186
-static struct anonymous$8 entries[8l] = { { .text="&Output options %>", .data=(void *)&output_menu, .help="" },
+static struct anonymous_8 entries[8l] = { { .text="&Output options %>", .data=(void *)&output_menu, .help="" },
     { .text="&Playback options %>", .data=(void *)&playback_menu, .help="" },
     { .text="O&ther options %>", .data=(void *)&other_menu, .help="" },
     { .text="%------------", .data=NULL, .help=(char *)(void *)0 },
@@ -3388,9 +3388,9 @@ static struct option options[35l] = { { .name="driver", .has_arg=1, .flag=(signe
     { .name="help", .has_arg=0, .flag=(signed int *)(void *)0, .val=104 },
     { .name=(const char *)(void *)0, .has_arg=0, .flag=(signed int *)(void *)0,
     .val=0 } };
-// options$link1
+// options_link1
 // file ../../src/rcfile.c line 68
-static struct _OPTIONS *options$link1 = (struct _OPTIONS *)(void *)0;
+static struct _OPTIONS *options_link1 = (struct _OPTIONS *)(void *)0;
 // panel
 // file ../../src/mwindow.c line 109
 static struct MWINDOW *panel[8l];
@@ -3399,10 +3399,10 @@ static struct MWINDOW *panel[8l];
 static signed int paused = 1;
 // playdata
 // file ../../src/display.c line 72
-static struct anonymous$6 playdata;
-// playdata$link1
+static struct anonymous_6 playdata;
+// playdata_link1
 // file ../../src/mplayer.c line 50
-static struct anonymous$6 playdata$link1;
+static struct anonymous_6 playdata_link1;
 // playlist
 // file ../../src/mikmod.c line 136
 struct anonymous playlist;
@@ -3417,7 +3417,7 @@ signed int quiet = 0;
 static signed int remove_msg = 0;
 // renice_conv
 // file ../../src/mconfig.c line 45
-static struct anonymous$4 renice_conv[4l] = { { .id=0, .label="RENICE_NONE" }, { .id=1, .label="RENICE_PRI" }, { .id=2, .label="RENICE_REAL" }, { .id=-1, .label=(const char *)(void *)0 } };
+static struct anonymous_4 renice_conv[4l] = { { .id=0, .label="RENICE_NONE" }, { .id=1, .label="RENICE_PRI" }, { .id=2, .label="RENICE_REAL" }, { .id=-1, .label=(const char *)(void *)0 } };
 // resize
 // file ../../src/mwindow.c line 143
 static signed int resize = 0;
@@ -3432,7 +3432,7 @@ static signed int root_y1 = 7;
 static signed int root_y2 = 0;
 // samp_attr
 // file ../../src/display.c line 96
-static enum anonymous$7 samp_attr[4l] = { (enum anonymous$7)ATTR_SAMPLES_KICK0, (enum anonymous$7)ATTR_SAMPLES_KICK1, (enum anonymous$7)ATTR_SAMPLES_KICK2, (enum anonymous$7)ATTR_SAMPLES_KICK3 };
+static enum anonymous_7 samp_attr[4l] = { (enum anonymous_7)ATTR_SAMPLES_KICK0, (enum anonymous_7)ATTR_SAMPLES_KICK1, (enum anonymous_7)ATTR_SAMPLES_KICK2, (enum anonymous_7)ATTR_SAMPLES_KICK3 };
 // samp_char
 // file ../../src/display.c line 90
 static char samp_char[4l] = { (char)46, (char)111, (char)79, (char)64 };
@@ -3441,7 +3441,7 @@ static char samp_char[4l] = { (char)46, (char)111, (char)79, (char)64 };
 static signed int settime = 1;
 // sort_mode
 // file ../../src/mlistedit.c line 1024
-static enum anonymous$23 sort_mode = (enum anonymous$23)SORT_NAME;
+static enum anonymous_23 sort_mode = (enum anonymous_23)SORT_NAME;
 // sort_rev
 // file ../../src/mlistedit.c line 1017
 static signed int sort_rev = 0;
@@ -3450,7 +3450,7 @@ static signed int sort_rev = 0;
 static signed long int start_time;
 // status
 // file ../../src/mikmod.c line 154
-static struct anonymous$29 status = { .state=(enum anonymous$30)STATE_INIT, .quit=0, .listend=0,
+static struct anonymous_29 status = { .state=(enum anonymous_30)STATE_INIT, .quit=0, .listend=0,
     .norc=0 };
 // status_message
 // file ../../src/mwindow.c line 569
@@ -3472,16 +3472,16 @@ char storage[322l];
 static struct _STACK *structs = (struct _STACK *)(void *)0;
 // theme
 // file ../../src/mwindow.c line 113
-static struct anonymous$1 *theme = (struct anonymous$1 *)(void *)0;
+static struct anonymous_1 *theme = (struct anonymous_1 *)(void *)0;
 // themes
 // file ../../src/mconfedit.c line 213
-static struct anonymous$1 *themes = (struct anonymous$1 *)(void *)0;
+static struct anonymous_1 *themes = (struct anonymous_1 *)(void *)0;
 // timeouts
 // file ../../src/mwindow.c line 127
 static struct TIMEOUT *timeouts = (struct TIMEOUT *)(void *)0;
 // updater_mode
 // file ../../src/mplayer.c line 56
-static enum anonymous$21 updater_mode = (enum anonymous$21)MTH_NORUN;
+static enum anonymous_21 updater_mode = (enum anonymous_21)MTH_NORUN;
 // use_colors
 // file ../../src/mwindow.c line 111
 static signed int use_colors = 1;
@@ -3508,23 +3508,23 @@ static signed int winy = 0;
 // file ../../src/mconfig.c line 361
 char * CF_GetDefaultFilename(void)
 {
-  char *return_value_str_sprintf2$1;
-  return_value_str_sprintf2$1=str_sprintf2("%s/%s", "/usr/share/mikmod", "mikmodrc");
-  return return_value_str_sprintf2$1;
+  char *return_value_str_sprintf2_1;
+  return_value_str_sprintf2_1=str_sprintf2("%s/%s", "/usr/share/mikmod", "mikmodrc");
+  return return_value_str_sprintf2_1;
 }
 
 // CF_GetFilename
 // file ../../src/mconfig.h line 211
 char * CF_GetFilename(void)
 {
-  char *return_value_get_cfg_name$1;
-  return_value_get_cfg_name$1=get_cfg_name(".mikmodrc");
-  return return_value_get_cfg_name$1;
+  char *return_value_get_cfg_name_1;
+  return_value_get_cfg_name_1=get_cfg_name(".mikmodrc");
+  return return_value_get_cfg_name_1;
 }
 
 // CF_Init
 // file ../../src/mconfig.h line 231
-void CF_Init(struct anonymous$3 *cfg)
+void CF_Init(struct anonymous_3 *cfg)
 {
   cfg->driver = 0;
   rc_set_string(&cfg->driveroptions, "", 255);
@@ -3556,29 +3556,29 @@ void CF_Init(struct anonymous$3 *cfg)
   cfg->fakevolbars = 1;
   cfg->window_title = 1;
   init_themes(cfg);
-  cfg->cnt_archiver = (signed int)(sizeof(struct anonymous$2 [10l]) /*560ul*/  / sizeof(struct anonymous$2) /*56ul*/ );
+  cfg->cnt_archiver = (signed int)(sizeof(struct anonymous_2 [10l]) /*560ul*/  / sizeof(struct anonymous_2) /*56ul*/ );
   cfg->archiver = archiver_def;
 }
 
 // CF_Load
 // file ../../src/mconfig.h line 233
-signed int CF_Load(struct anonymous$3 *cfg)
+signed int CF_Load(struct anonymous_3 *cfg)
 {
   char *name;
   name=CF_GetFilename();
   char *str = (char *)(void *)0;
   signed int i;
-  signed int return_value_rc_read_string$3;
-  signed int return_value_rc_read_struct$4;
-  signed int return_value_rc_read_struct$7;
+  signed int return_value_rc_read_string_3;
+  signed int return_value_rc_read_struct_4;
+  signed int return_value_rc_read_struct_7;
   if(name == ((char *)NULL))
     return 0;
 
   else
   {
-    signed int return_value_rc_load$2;
-    return_value_rc_load$2=rc_load(name);
-    if(return_value_rc_load$2 == 0)
+    signed int return_value_rc_load_2;
+    return_value_rc_load_2=rc_load(name);
+    if(return_value_rc_load_2 == 0)
     {
       free((void *)name);
       rc_close();
@@ -3586,9 +3586,9 @@ signed int CF_Load(struct anonymous$3 *cfg)
       if(name == ((char *)NULL))
         return 0;
 
-      signed int return_value_rc_load$1;
-      return_value_rc_load$1=rc_load(name);
-      if(return_value_rc_load$1 == 0)
+      signed int return_value_rc_load_1;
+      return_value_rc_load_1=rc_load(name);
+      if(return_value_rc_load_1 == 0)
       {
         free((void *)name);
         rc_close();
@@ -3626,8 +3626,8 @@ signed int CF_Load(struct anonymous$3 *cfg)
     rc_read_string("PL_NAME", &cfg->pl_name, 4096);
     do
     {
-      return_value_rc_read_string$3=rc_read_string("HOTLIST", &str, 4096);
-      if(return_value_rc_read_string$3 == 0)
+      return_value_rc_read_string_3=rc_read_string("HOTLIST", &str, 4096);
+      if(return_value_rc_read_string_3 == 0)
         break;
 
       CF_string_array_insert(cfg->cnt_hotlist, &cfg->hotlist, &cfg->cnt_hotlist, str, 4096);
@@ -3639,24 +3639,24 @@ signed int CF_Load(struct anonymous$3 *cfg)
     rc_read_bool("WINDOWTITLE", &cfg->window_title);
     do
     {
-      return_value_rc_read_struct$4=rc_read_struct("THEME");
-      if(return_value_rc_read_struct$4 == 0)
+      return_value_rc_read_struct_4=rc_read_struct("THEME");
+      if(return_value_rc_read_struct_4 == 0)
         break;
 
       read_theme(cfg);
       rc_read_struct_end();
     }
     while((_Bool)1);
-    signed int return_value_rc_read_string$6;
-    return_value_rc_read_string$6=rc_read_string("THEME", &str, 99);
-    if(!(return_value_rc_read_string$6 == 0))
+    signed int return_value_rc_read_string_6;
+    return_value_rc_read_string_6=rc_read_string("THEME", &str, 99);
+    if(!(return_value_rc_read_string_6 == 0))
     {
       i = 0;
       for( ; !(i >= cfg->cnt_themes); i = i + 1)
       {
-        signed int return_value_strcasecmp$5;
-        return_value_strcasecmp$5=strcasecmp(str, (cfg->themes + (signed long int)i)->name);
-        if(return_value_strcasecmp$5 == 0)
+        signed int return_value_strcasecmp_5;
+        return_value_strcasecmp_5=strcasecmp(str, (cfg->themes + (signed long int)i)->name);
+        if(return_value_strcasecmp_5 == 0)
         {
           cfg->theme = i;
           break;
@@ -3667,8 +3667,8 @@ signed int CF_Load(struct anonymous$3 *cfg)
 
     do
     {
-      return_value_rc_read_struct$7=rc_read_struct("ARCHIVER");
-      if(return_value_rc_read_struct$7 == 0)
+      return_value_rc_read_struct_7=rc_read_struct("ARCHIVER");
+      if(return_value_rc_read_struct_7 == 0)
         break;
 
       read_archiver(cfg);
@@ -3683,7 +3683,7 @@ signed int CF_Load(struct anonymous$3 *cfg)
 
 // CF_Save
 // file ../../src/mconfig.h line 232
-signed int CF_Save(struct anonymous$3 *cfg)
+signed int CF_Save(struct anonymous_3 *cfg)
 {
   char *name;
   signed int i;
@@ -3693,9 +3693,9 @@ signed int CF_Save(struct anonymous$3 *cfg)
 
   else
   {
-    signed int return_value_rc_save$1;
-    return_value_rc_save$1=rc_save(name, "-= MikMod 3.2.7 =-");
-    if(return_value_rc_save$1 == 0)
+    signed int return_value_rc_save_1;
+    return_value_rc_save_1=rc_save(name, "-= MikMod 3.2.7 =-");
+    if(return_value_rc_save_1 == 0)
     {
       free((void *)name);
       rc_close();
@@ -3784,9 +3784,9 @@ void CF_string_array_insert(signed int pos, char ***value, signed int *cnt, char
 {
   signed int i;
   *cnt = *cnt + 1;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)*value, sizeof(char *) /*8ul*/  * (unsigned long int)*cnt);
-  *value = (char **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)*value, sizeof(char *) /*8ul*/  * (unsigned long int)*cnt);
+  *value = (char **)return_value_realloc_1;
   i = *cnt - 1;
   for( ; !(pos >= i); i = i - 1)
     (*value)[(signed long int)i] = (*value)[(signed long int)(i - 1)];
@@ -3814,9 +3814,9 @@ void CF_string_array_remove(signed int pos, char ***value, signed int *cnt)
       i = pos;
       for( ; !(i >= *cnt); i = i + 1)
         (*value)[(signed long int)i] = (*value)[(signed long int)(i + 1)];
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)*value, sizeof(char *) /*8ul*/  * (unsigned long int)*cnt);
-      *value = (char **)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)*value, sizeof(char *) /*8ul*/  * (unsigned long int)*cnt);
+      *value = (char **)return_value_realloc_1;
     }
 
     else
@@ -3830,21 +3830,21 @@ void CF_string_array_remove(signed int pos, char ***value, signed int *cnt)
 
 // CF_theme_copy
 // file ../../src/mconfig.c line 413
-void CF_theme_copy(struct anonymous$1 *dest, struct anonymous$1 *src)
+void CF_theme_copy(struct anonymous_1 *dest, struct anonymous_1 *src)
 {
   dest->color = src->color;
   dest->name=strdup(src->name);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)((signed int)ATTR_STATUS_TEXT + 1));
-  dest->attrs = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)((signed int)ATTR_STATUS_TEXT + 1));
+  dest->attrs = (signed int *)return_value_malloc_1;
   memcpy((void *)dest->attrs, (const void *)src->attrs, sizeof(signed int) /*4ul*/  * (unsigned long int)((signed int)ATTR_STATUS_TEXT + 1));
 }
 
 // CF_theme_free
 // file ../../src/mconfig.c line 403
-void CF_theme_free(struct anonymous$1 *theme)
+void CF_theme_free(struct anonymous_1 *theme)
 {
-  if(!(theme == ((struct anonymous$1 *)NULL)))
+  if(!(theme == ((struct anonymous_1 *)NULL)))
   {
     if(!(theme->name == ((char *)NULL)))
       free((void *)theme->name);
@@ -3858,27 +3858,27 @@ void CF_theme_free(struct anonymous$1 *theme)
 
 // CF_theme_insert
 // file ../../src/mconfig.c line 469
-signed int CF_theme_insert(struct anonymous$1 **themes, signed int *cnt, struct anonymous$1 *theme)
+signed int CF_theme_insert(struct anonymous_1 **themes, signed int *cnt, struct anonymous_1 *theme)
 {
   signed int i;
   signed int pos = *cnt;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(*cnt >= 2)
   {
     pos = 2;
     for( ; !(pos >= *cnt); pos = pos + 1)
     {
-      return_value_strcasecmp$1=strcasecmp((*themes + (signed long int)pos)->name, theme->name);
-      if(return_value_strcasecmp$1 >= 0)
+      return_value_strcasecmp_1=strcasecmp((*themes + (signed long int)pos)->name, theme->name);
+      if(return_value_strcasecmp_1 >= 0)
         break;
 
     }
   }
 
   *cnt = *cnt + 1;
-  void *return_value_realloc$2;
-  return_value_realloc$2=realloc((void *)*themes, sizeof(struct anonymous$1) /*24ul*/  * (unsigned long int)*cnt);
-  *themes = (struct anonymous$1 *)return_value_realloc$2;
+  void *return_value_realloc_2;
+  return_value_realloc_2=realloc((void *)*themes, sizeof(struct anonymous_1) /*24ul*/  * (unsigned long int)*cnt);
+  *themes = (struct anonymous_1 *)return_value_realloc_2;
   i = *cnt - 1;
   for( ; !(pos >= i); i = i - 1)
     (*themes)[(signed long int)i] = (*themes)[(signed long int)(i - 1)];
@@ -3888,13 +3888,13 @@ signed int CF_theme_insert(struct anonymous$1 **themes, signed int *cnt, struct 
 
 // CF_theme_remove
 // file ../../src/mconfig.c line 447
-void CF_theme_remove(signed int pos, struct anonymous$1 **themes, signed int *cnt)
+void CF_theme_remove(signed int pos, struct anonymous_1 **themes, signed int *cnt)
 {
   signed int i;
   if(*cnt >= 1)
   {
     *cnt = *cnt - 1;
-    if(!(*themes == ((struct anonymous$1 *)NULL)))
+    if(!(*themes == ((struct anonymous_1 *)NULL)))
       CF_theme_free(&(*themes)[(signed long int)pos]);
 
     if(*cnt >= 1)
@@ -3902,15 +3902,15 @@ void CF_theme_remove(signed int pos, struct anonymous$1 **themes, signed int *cn
       i = pos;
       for( ; !(i >= *cnt); i = i + 1)
         (*themes)[(signed long int)i] = (*themes)[(signed long int)(i + 1)];
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)*themes, sizeof(struct anonymous$1) /*24ul*/  * (unsigned long int)*cnt);
-      *themes = (struct anonymous$1 *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)*themes, sizeof(struct anonymous_1) /*24ul*/  * (unsigned long int)*cnt);
+      *themes = (struct anonymous_1 *)return_value_realloc_1;
     }
 
     else
     {
       free((void *)*themes);
-      *themes = (struct anonymous$1 *)(void *)0;
+      *themes = (struct anonymous_1 *)(void *)0;
     }
   }
 
@@ -3918,11 +3918,11 @@ void CF_theme_remove(signed int pos, struct anonymous$1 **themes, signed int *cn
 
 // CF_themes_free
 // file ../../src/mconfig.c line 422
-void CF_themes_free(struct anonymous$1 **themes, signed int *cnt)
+void CF_themes_free(struct anonymous_1 **themes, signed int *cnt)
 {
-  if(!(themes == ((struct anonymous$1 **)NULL)))
+  if(!(themes == ((struct anonymous_1 **)NULL)))
   {
-    if(!(*themes == ((struct anonymous$1 *)NULL)))
+    if(!(*themes == ((struct anonymous_1 *)NULL)))
     {
       signed int i = 0;
       for( ; !(i >= *cnt); i = i + 1)
@@ -3933,24 +3933,24 @@ void CF_themes_free(struct anonymous$1 **themes, signed int *cnt)
   }
 
   *cnt = 0;
-  *themes = (struct anonymous$1 *)(void *)0;
+  *themes = (struct anonymous_1 *)(void *)0;
 }
 
 // CF_themes_free_user
 // file ../../src/mconfig.c line 435
-void CF_themes_free_user(struct anonymous$1 **themes, signed int *cnt)
+void CF_themes_free_user(struct anonymous_1 **themes, signed int *cnt)
 {
-  if(!(themes == ((struct anonymous$1 **)NULL)))
+  if(!(themes == ((struct anonymous_1 **)NULL)))
   {
-    if(!(*themes == ((struct anonymous$1 *)NULL)))
+    if(!(*themes == ((struct anonymous_1 *)NULL)))
     {
       signed int i = 2;
       for( ; !(i >= *cnt); i = i + 1)
         CF_theme_free(&(*themes)[(signed long int)i]);
       *cnt = 2;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)*themes, sizeof(struct anonymous$1) /*24ul*/  * (unsigned long int)*cnt);
-      *themes = (struct anonymous$1 *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)*themes, sizeof(struct anonymous_1) /*24ul*/  * (unsigned long int)*cnt);
+      *themes = (struct anonymous_1 *)return_value_realloc_1;
     }
 
   }
@@ -3961,19 +3961,19 @@ void CF_themes_free_user(struct anonymous$1 **themes, signed int *cnt)
 // file ../../src/marchive.c line 119
 signed int DropPrivileges(void)
 {
-  unsigned int return_value_geteuid$5;
-  return_value_geteuid$5=geteuid();
-  if(return_value_geteuid$5 == 0u)
+  unsigned int return_value_geteuid_5;
+  return_value_geteuid_5=geteuid();
+  if(return_value_geteuid_5 == 0u)
   {
-    unsigned int return_value_getuid$4;
-    return_value_getuid$4=getuid();
-    if(!(return_value_getuid$4 == 0u))
+    unsigned int return_value_getuid_4;
+    return_value_getuid_4=getuid();
+    if(!(return_value_getuid_4 == 0u))
     {
-      unsigned int return_value_getuid$1;
-      return_value_getuid$1=getuid();
-      signed int return_value_setuid$2;
-      return_value_setuid$2=setuid(return_value_getuid$1);
-      if(!(return_value_setuid$2 == 0))
+      unsigned int return_value_getuid_1;
+      return_value_getuid_1=getuid();
+      signed int return_value_setuid_2;
+      return_value_setuid_2=setuid(return_value_getuid_1);
+      if(!(return_value_setuid_2 == 0))
         return 1;
 
     }
@@ -3990,9 +3990,9 @@ signed int DropPrivileges(void)
       if(uid == 0)
         return 1;
 
-      signed int return_value_setuid$3;
-      return_value_setuid$3=setuid((unsigned int)uid);
-      if(!(return_value_setuid$3 == 0))
+      signed int return_value_setuid_3;
+      return_value_setuid_3=setuid((unsigned int)uid);
+      if(!(return_value_setuid_3 == 0))
         return 1;
 
     }
@@ -4046,26 +4046,26 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
   signed int t;
   signed int archive = -1;
   struct stat statbuf;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &statbuf);
-  signed int return_value_PL_Load$2;
-  signed int return_value_MA_identify$5;
-  _Bool tmp_if_expr$18;
-  signed int tmp_if_expr$6;
-  signed int return_value_waitpid$9;
-  signed int tmp_post$11;
-  _Bool tmp_if_expr$12;
-  const unsigned short int **return_value___ctype_b_loc$13;
-  if(return_value_stat$1 == 0)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &statbuf);
+  signed int return_value_PL_Load_2;
+  signed int return_value_MA_identify_5;
+  _Bool tmp_if_expr_18;
+  signed int tmp_if_expr_6;
+  signed int return_value_waitpid_9;
+  signed int tmp_post_11;
+  _Bool tmp_if_expr_12;
+  const unsigned short int **return_value___ctype_b_loc_13;
+  if(return_value_stat_1 == 0)
   {
     if(!((61440u & statbuf.st_mode) == 8192u) && !((61440u & statbuf.st_mode) == 16384u) && !((61440u & statbuf.st_mode) == 24576u))
     {
-      signed int return_value_PL_isPlaylistFilename$3;
-      return_value_PL_isPlaylistFilename$3=PL_isPlaylistFilename(filename);
-      if(!(return_value_PL_isPlaylistFilename$3 == 0))
+      signed int return_value_PL_isPlaylistFilename_3;
+      return_value_PL_isPlaylistFilename_3=PL_isPlaylistFilename(filename);
+      if(!(return_value_PL_isPlaylistFilename_3 == 0))
       {
-        return_value_PL_Load$2=PL_Load(pl, filename);
-        if(return_value_PL_Load$2 == 0)
+        return_value_PL_Load_2=PL_Load(pl, filename);
+        if(return_value_PL_Load_2 == 0)
           goto __CPROVER_DUMP_L3;
 
       }
@@ -4075,9 +4075,9 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
 
       __CPROVER_DUMP_L3:
         ;
-        signed int return_value_MA_isModuleFilename$4;
-        return_value_MA_isModuleFilename$4=MA_isModuleFilename(filename);
-        if(!(return_value_MA_isModuleFilename$4 == 0))
+        signed int return_value_MA_isModuleFilename_4;
+        return_value_MA_isModuleFilename_4=MA_isModuleFilename(filename);
+        if(!(return_value_MA_isModuleFilename_4 == 0))
           PL_Add(pl, filename, (const char *)(void *)0, 0, 0);
 
         else
@@ -4085,8 +4085,8 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
           t = 0;
           for( ; !(t >= config.cnt_archiver); t = t + 1)
           {
-            return_value_MA_identify$5=MA_identify(filename, (config.archiver + (signed long int)t)->location, (config.archiver + (signed long int)t)->marker);
-            if(!(return_value_MA_identify$5 == 0))
+            return_value_MA_identify_5=MA_identify(filename, (config.archiver + (signed long int)t)->location, (config.archiver + (signed long int)t)->marker);
+            if(!(return_value_MA_identify_5 == 0))
             {
               archive = t;
               break;
@@ -4096,32 +4096,32 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
           if(archive >= 0)
           {
             if(!((config.archiver + (signed long int)archive)->list == ((char *)NULL)))
-              tmp_if_expr$18 = *(config.archiver + (signed long int)archive)->list != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_18 = *(config.archiver + (signed long int)archive)->list != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$18 = (_Bool)0;
-            if(tmp_if_expr$18)
+              tmp_if_expr_18 = (_Bool)0;
+            if(tmp_if_expr_18)
             {
               signed int endspace = (signed int)((config.archiver + (signed long int)archive)->nameoffset < 0);
               signed int offset;
               if(!(endspace == 0))
-                tmp_if_expr$6 = 0;
+                tmp_if_expr_6 = 0;
 
               else
-                tmp_if_expr$6 = (config.archiver + (signed long int)archive)->nameoffset;
-              offset = tmp_if_expr$6;
+                tmp_if_expr_6 = (config.archiver + (signed long int)archive)->nameoffset;
+              offset = tmp_if_expr_6;
               char *string;
-              void *return_value_malloc$7;
-              return_value_malloc$7=malloc((unsigned long int)(4096 + 2 + offset));
-              string = (char *)return_value_malloc$7;
+              void *return_value_malloc_7;
+              return_value_malloc_7=malloc((unsigned long int)(4096 + 2 + offset));
+              string = (char *)return_value_malloc_7;
               char *command;
               signed int fd[2l];
-              signed int return_value_pipe$15;
-              return_value_pipe$15=pipe(fd);
-              if(return_value_pipe$15 == 0)
+              signed int return_value_pipe_15;
+              return_value_pipe_15=pipe(fd);
+              if(return_value_pipe_15 == 0)
               {
                 signed int pid;
-                signed int MA_FindFiles$$1$$3$$1$$1$$status;
+                signed int MA_FindFiles__1__3__1__1__status;
                 signed int cur;
                 signed int finished = 0;
                 char ch;
@@ -4140,9 +4140,9 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
                 __CPROVER_DUMP_L13:
                   ;
                   char *argv[20l];
-                  signed int return_value_DropPrivileges$8;
-                  return_value_DropPrivileges$8=DropPrivileges();
-                  if(!(return_value_DropPrivileges$8 == 0))
+                  signed int return_value_DropPrivileges_8;
+                  return_value_DropPrivileges_8=DropPrivileges();
+                  if(!(return_value_DropPrivileges_8 == 0))
                     exit(0);
 
                   close(0);
@@ -4166,11 +4166,11 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
                 {
                   if(finished == 0)
                   {
-                    return_value_waitpid$9=waitpid(pid, &MA_FindFiles$$1$$3$$1$$1$$status, 1);
-                    if(!(return_value_waitpid$9 == 0))
+                    return_value_waitpid_9=waitpid(pid, &MA_FindFiles__1__3__1__1__status, 1);
+                    if(!(return_value_waitpid_9 == 0))
                     {
                       finished = 1;
-                      if(!((0x7f & MA_FindFiles$$1$$3$$1$$1$$status) == 0))
+                      if(!((0x7f & MA_FindFiles__1__3__1__1__status) == 0))
                       {
                         close(fd[(signed long int)0]);
                         goto __CPROVER_DUMP_L30;
@@ -4180,9 +4180,9 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
 
                   }
 
-                  signed long int return_value_read$10;
-                  return_value_read$10=read(fd[(signed long int)0], (void *)&ch, (unsigned long int)1);
-                  if(return_value_read$10 == 0l)
+                  signed long int return_value_read_10;
+                  return_value_read_10=read(fd[(signed long int)0], (void *)&ch, (unsigned long int)1);
+                  if(return_value_read_10 == 0l)
                   {
                     if(!(finished == 0))
                       break;
@@ -4192,9 +4192,9 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
                   if((signed int)ch == 10)
                     ch = (char)0;
 
-                  tmp_post$11 = cur;
+                  tmp_post_11 = cur;
                   cur = cur + 1;
-                  string[(signed long int)tmp_post$11] = ch;
+                  string[(signed long int)tmp_post_11] = ch;
                   if(cur >= 1 + offset)
                     cur = 4096 + offset;
 
@@ -4207,11 +4207,11 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
                       do
                       {
                         if(!((signed int)string[(signed long int)t] == 32))
-                          tmp_if_expr$12 = (signed int)string[(signed long int)t] != 0 ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_12 = (signed int)string[(signed long int)t] != 0 ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$12 = (_Bool)0;
-                        if(!tmp_if_expr$12)
+                          tmp_if_expr_12 = (_Bool)0;
+                        if(!tmp_if_expr_12)
                           break;
 
                         t = t + 1;
@@ -4223,16 +4223,16 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
                     t = offset;
                     do
                     {
-                      return_value___ctype_b_loc$13=__ctype_b_loc();
-                      if((8192 & (signed int)(*return_value___ctype_b_loc$13)[(signed long int)(signed int)string[(signed long int)t]]) == 0)
+                      return_value___ctype_b_loc_13=__ctype_b_loc();
+                      if((8192 & (signed int)(*return_value___ctype_b_loc_13)[(signed long int)(signed int)string[(signed long int)t]]) == 0)
                         break;
 
                       t = t + 1;
                     }
                     while((_Bool)1);
-                    signed int return_value_MA_isModuleFilename2$14;
-                    return_value_MA_isModuleFilename2$14=MA_isModuleFilename2(string + (signed long int)t);
-                    if(!(return_value_MA_isModuleFilename2$14 == 0))
+                    signed int return_value_MA_isModuleFilename2_14;
+                    return_value_MA_isModuleFilename2_14=MA_isModuleFilename2(string + (signed long int)t);
+                    if(!(return_value_MA_isModuleFilename2_14 == 0))
                       PL_Add(pl, string + (signed long int)t, filename, 0, 0);
 
                   }
@@ -4269,16 +4269,16 @@ void MA_FindFiles(struct anonymous *pl, const char *filename)
                   ;
               }
 
-              void *return_value_malloc$16;
-              return_value_malloc$16=malloc((unsigned long int)(((signed long int)1 + dot) - slash) * sizeof(char) /*1ul*/ );
-              spare = (char *)return_value_malloc$16;
+              void *return_value_malloc_16;
+              return_value_malloc_16=malloc((unsigned long int)(((signed long int)1 + dot) - slash) * sizeof(char) /*1ul*/ );
+              spare = (char *)return_value_malloc_16;
               if(!(spare == ((char *)NULL)))
               {
                 strncpy(spare, slash, (unsigned long int)(dot - slash));
                 spare[dot - slash] = (char)0;
-                signed int return_value_MA_isModuleFilename2$17;
-                return_value_MA_isModuleFilename2$17=MA_isModuleFilename2(spare);
-                if(!(return_value_MA_isModuleFilename2$17 == 0))
+                signed int return_value_MA_isModuleFilename2_17;
+                return_value_MA_isModuleFilename2_17=MA_isModuleFilename2(spare);
+                if(!(return_value_MA_isModuleFilename2_17 == 0))
                   PL_Add(pl, spare, filename, 0, 0);
 
                 free((void *)spare);
@@ -4307,7 +4307,7 @@ static signed int MA_MatchExtension(const char *archive, const char *ends)
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_toupper$2;
+  signed int return_value_toupper_2;
   while((_Bool)1)
   {
     if(!(*pos == 0))
@@ -4321,16 +4321,16 @@ __CPROVER_DUMP_L1:
     }
 
     nr = (signed int)(pos - ends);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(archive);
-    arch_nr = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(archive);
+    arch_nr = (signed int)return_value_strlen_1;
     for( ; nr >= 1; arch_nr = arch_nr - 1)
     {
       if(!(arch_nr >= 1))
         break;
 
-      return_value_toupper$2=toupper((signed int)archive[(signed long int)(arch_nr - 1)]);
-      if(!(return_value_toupper$2 == (signed int)ends[(signed long int)nr + -1l]))
+      return_value_toupper_2=toupper((signed int)archive[(signed long int)(arch_nr - 1)]);
+      if(!(return_value_toupper_2 == (signed int)ends[(signed long int)nr + -1l]))
         break;
 
       nr = nr - 1;
@@ -4352,13 +4352,13 @@ __CPROVER_DUMP_L1:
 signed int MA_TestName(const char *filename, signed int plist, signed int deep)
 {
   signed int t;
-  signed int return_value_PL_isPlaylistFilename$1;
-  signed int return_value_MA_isModuleFilename2$2;
-  signed int return_value_MA_identify$3;
+  signed int return_value_PL_isPlaylistFilename_1;
+  signed int return_value_MA_isModuleFilename2_2;
+  signed int return_value_MA_identify_3;
   if(!(plist == 0))
   {
-    return_value_PL_isPlaylistFilename$1=PL_isPlaylistFilename(filename);
-    if(return_value_PL_isPlaylistFilename$1 == 0)
+    return_value_PL_isPlaylistFilename_1=PL_isPlaylistFilename(filename);
+    if(return_value_PL_isPlaylistFilename_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -4387,16 +4387,16 @@ signed int MA_TestName(const char *filename, signed int plist, signed int deep)
 
     else
     {
-      return_value_MA_isModuleFilename2$2=MA_isModuleFilename2(filename);
-      if(!(return_value_MA_isModuleFilename2$2 == 0))
+      return_value_MA_isModuleFilename2_2=MA_isModuleFilename2(filename);
+      if(!(return_value_MA_isModuleFilename2_2 == 0))
         return 1;
 
     }
     t = 0;
     for( ; !(t >= config.cnt_archiver); t = t + 1)
     {
-      return_value_MA_identify$3=MA_identify(filename, (config.archiver + (signed long int)t)->location, (config.archiver + (signed long int)t)->marker);
-      if(!(return_value_MA_identify$3 == 0))
+      return_value_MA_identify_3=MA_identify(filename, (config.archiver + (signed long int)t)->location, (config.archiver + (signed long int)t)->marker);
+      if(!(return_value_MA_identify_3 == 0))
         return 1;
 
     }
@@ -4416,17 +4416,17 @@ signed int MA_dearchive(const char *arc, const char *file, char **extracted)
   if(!(extracted == ((char **)NULL)))
     *extracted = (char *)(void *)0;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(arc == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(arc[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_DropPrivileges$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(arc[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_DropPrivileges_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_1)
   {
     tmp_fd=open(file, 00 | 0, 0600);
     return tmp_fd;
@@ -4438,13 +4438,13 @@ signed int MA_dearchive(const char *arc, const char *file, char **extracted)
     t = 0;
     for( ; !(t >= config.cnt_archiver); t = t + 1)
     {
-      signed int return_value_MA_identify$3;
-      return_value_MA_identify$3=MA_identify(arc, (config.archiver + (signed long int)t)->location, (config.archiver + (signed long int)t)->marker);
-      if(!(return_value_MA_identify$3 == 0))
+      signed int return_value_MA_identify_3;
+      return_value_MA_identify_3=MA_identify(arc, (config.archiver + (signed long int)t)->location, (config.archiver + (signed long int)t)->marker);
+      if(!(return_value_MA_identify_3 == 0))
       {
         display_extractbanner();
         signed int pid;
-        signed int MA_dearchive$$1$$2$$1$$1$$1$$status;
+        signed int MA_dearchive__1__2__1__1__1__status;
         char *argv[20l];
         tmp_fd=get_tmp_file((const char *)(void *)0, &tmp_file);
         if(!(tmp_fd >= 0))
@@ -4469,8 +4469,8 @@ signed int MA_dearchive(const char *arc, const char *file, char **extracted)
 
         __CPROVER_DUMP_L8:
           ;
-          return_value_DropPrivileges$2=DropPrivileges();
-          if(!(return_value_DropPrivileges$2 == 0))
+          return_value_DropPrivileges_2=DropPrivileges();
+          if(!(return_value_DropPrivileges_2 == 0))
             exit(0);
 
           close(0);
@@ -4495,8 +4495,8 @@ signed int MA_dearchive(const char *arc, const char *file, char **extracted)
           exit(0);
           goto __CPROVER_DUMP_L13;
         }
-        waitpid(pid, &MA_dearchive$$1$$2$$1$$1$$1$$status, 0);
-        if(!((0x7f & MA_dearchive$$1$$2$$1$$1$$1$$status) == 0))
+        waitpid(pid, &MA_dearchive__1__2__1__1__1__status, 0);
+        if(!((0x7f & MA_dearchive__1__2__1__1__1__status) == 0))
         {
           close(tmp_fd);
           return -1;
@@ -4513,21 +4513,21 @@ signed int MA_dearchive(const char *arc, const char *file, char **extracted)
     {
       lseek(tmp_fd, (signed long int)0, 0);
       if(!((config.archiver + (signed long int)t)->skippat == ((char *)NULL)))
-        tmp_if_expr$4 = (config.archiver + (signed long int)t)->skippat[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (config.archiver + (signed long int)t)->skippat[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (config.archiver + (signed long int)t)->skipstart > 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (config.archiver + (signed long int)t)->skipstart > 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (config.archiver + (signed long int)t)->skipend > 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (config.archiver + (signed long int)t)->skipend > 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         char *f;
         t=MA_truncate(tmp_fd, (config.archiver + (signed long int)t)->skippat, (config.archiver + (signed long int)t)->skipstart, (config.archiver + (signed long int)t)->skipend, &f);
@@ -4564,19 +4564,19 @@ signed int MA_dearchive(const char *arc, const char *file, char **extracted)
 static signed int MA_identify(const char *filename, signed int header_location, const char *header_string)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(header_string);
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(!(return_value_strlen$1 >= 255ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(header_string);
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(!(return_value_strlen_1 >= 255ul))
   {
-    return_value_strlen$2=strlen(header_string);
-    tmp_if_expr$3 = return_value_strlen$2;
+    return_value_strlen_2=strlen(header_string);
+    tmp_if_expr_3 = return_value_strlen_2;
   }
 
   else
-    tmp_if_expr$3 = (unsigned long int)255;
-  len = (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = (unsigned long int)255;
+  len = (signed int)tmp_if_expr_3;
   if(len == 0)
     return 0;
 
@@ -4584,37 +4584,37 @@ static signed int MA_identify(const char *filename, signed int header_location, 
   {
     if(!(header_location >= 0))
     {
-      signed int return_value_MA_MatchExtension$4;
-      return_value_MA_MatchExtension$4=MA_MatchExtension(filename, header_string);
-      return return_value_MA_MatchExtension$4;
+      signed int return_value_MA_MatchExtension_4;
+      return_value_MA_MatchExtension_4=MA_MatchExtension(filename, header_string);
+      return return_value_MA_MatchExtension_4;
     }
 
     else
     {
-      struct _IO_FILE *MA_identify$$1$$2$$fp;
+      struct _IO_FILE *MA_identify__1__2__fp;
       char id[256l];
-      MA_identify$$1$$2$$fp=fopen(filename, "rb");
-      if(MA_identify$$1$$2$$fp == ((struct _IO_FILE *)NULL))
+      MA_identify__1__2__fp=fopen(filename, "rb");
+      if(MA_identify__1__2__fp == ((struct _IO_FILE *)NULL))
         return 0;
 
-      fseek(MA_identify$$1$$2$$fp, (signed long int)header_location, 0);
-      unsigned long int return_value_fread$5;
-      return_value_fread$5=fread((void *)id, (unsigned long int)len, (unsigned long int)1, MA_identify$$1$$2$$fp);
-      if(return_value_fread$5 == 0ul)
+      fseek(MA_identify__1__2__fp, (signed long int)header_location, 0);
+      unsigned long int return_value_fread_5;
+      return_value_fread_5=fread((void *)id, (unsigned long int)len, (unsigned long int)1, MA_identify__1__2__fp);
+      if(return_value_fread_5 == 0ul)
       {
-        fclose(MA_identify$$1$$2$$fp);
+        fclose(MA_identify__1__2__fp);
         return 0;
       }
 
-      signed int return_value_memcmp$6;
-      return_value_memcmp$6=memcmp((const void *)id, (const void *)header_string, (unsigned long int)len);
-      if(return_value_memcmp$6 == 0)
+      signed int return_value_memcmp_6;
+      return_value_memcmp_6=memcmp((const void *)id, (const void *)header_string, (unsigned long int)len);
+      if(return_value_memcmp_6 == 0)
       {
-        fclose(MA_identify$$1$$2$$fp);
+        fclose(MA_identify__1__2__fp);
         return 1;
       }
 
-      fclose(MA_identify$$1$$2$$fp);
+      fclose(MA_identify__1__2__fp);
     }
     return 0;
   }
@@ -4625,14 +4625,14 @@ static signed int MA_identify(const char *filename, signed int header_location, 
 static signed int MA_isModuleFilename(const char *filename)
 {
   signed int t = 0;
-  signed int tmp_post$1;
-  signed int return_value_fnmatch$2;
+  signed int tmp_post_1;
+  signed int return_value_fnmatch_2;
   while(!(modulepatterns[(signed long int)t] == ((const char *)NULL)))
   {
-    tmp_post$1 = t;
+    tmp_post_1 = t;
     t = t + 1;
-    return_value_fnmatch$2=fnmatch(modulepatterns[(signed long int)tmp_post$1], filename, 1 << 1);
-    if(return_value_fnmatch$2 == 0)
+    return_value_fnmatch_2=fnmatch(modulepatterns[(signed long int)tmp_post_1], filename, 1 << 1);
+    if(return_value_fnmatch_2 == 0)
       return 1;
 
   }
@@ -4644,20 +4644,20 @@ static signed int MA_isModuleFilename(const char *filename)
 static signed int MA_isModuleFilename2(const char *filename)
 {
   signed int t = 0;
-  signed int return_value_MA_isModuleFilename$3;
-  return_value_MA_isModuleFilename$3=MA_isModuleFilename(filename);
-  signed int tmp_post$1;
-  signed int return_value_fnmatch$2;
-  if(!(return_value_MA_isModuleFilename$3 == 0))
+  signed int return_value_MA_isModuleFilename_3;
+  return_value_MA_isModuleFilename_3=MA_isModuleFilename(filename);
+  signed int tmp_post_1;
+  signed int return_value_fnmatch_2;
+  if(!(return_value_MA_isModuleFilename_3 == 0))
     return 1;
 
   else
     while(!(prefixmodulepatterns[(signed long int)t] == ((const char *)NULL)))
     {
-      tmp_post$1 = t;
+      tmp_post_1 = t;
       t = t + 1;
-      return_value_fnmatch$2=fnmatch(prefixmodulepatterns[(signed long int)tmp_post$1], filename, 1 << 1);
-      if(return_value_fnmatch$2 == 0)
+      return_value_fnmatch_2=fnmatch(prefixmodulepatterns[(signed long int)tmp_post_1], filename, 1 << 1);
+      if(return_value_fnmatch_2 == 0)
         return 1;
 
     }
@@ -4677,13 +4677,13 @@ static signed int MA_truncate(signed int fd, const char *startpat, signed int st
   if(!(file == ((char **)NULL)))
     *file = (char *)(void *)0;
 
-  signed long int return_value_lseek$1;
-  return_value_lseek$1=lseek(fd, (signed long int)0, 2);
-  size = (signed long int)return_value_lseek$1;
-  signed long int return_value_lseek$4;
-  signed long int return_value_read$3;
-  _Bool tmp_if_expr$6;
-  signed long int return_value_read$5;
+  signed long int return_value_lseek_1;
+  return_value_lseek_1=lseek(fd, (signed long int)0, 2);
+  size = (signed long int)return_value_lseek_1;
+  signed long int return_value_lseek_4;
+  signed long int return_value_read_3;
+  _Bool tmp_if_expr_6;
+  signed long int return_value_read_5;
   if(!(size >= 0l))
     return -1;
 
@@ -4695,9 +4695,9 @@ static signed int MA_truncate(signed int fd, const char *startpat, signed int st
 
     else
     {
-      signed int return_value_unlink$2;
-      return_value_unlink$2=unlink(fdest);
-      if(return_value_unlink$2 == 0)
+      signed int return_value_unlink_2;
+      return_value_unlink_2=unlink(fdest);
+      if(return_value_unlink_2 == 0)
       {
         free((void *)fdest);
         fdest = (char *)(void *)0;
@@ -4705,11 +4705,11 @@ static signed int MA_truncate(signed int fd, const char *startpat, signed int st
 
       if(end >= 1)
       {
-        return_value_lseek$4=lseek(fd, size > (signed long int)5000 ? (signed long int)-5000 : -size, 2);
-        if(return_value_lseek$4 == 0l)
+        return_value_lseek_4=lseek(fd, size > (signed long int)5000 ? (signed long int)-5000 : -size, 2);
+        if(return_value_lseek_4 == 0l)
         {
-          return_value_read$3=read(fd, (void *)buf, sizeof(char) /*1ul*/  * (unsigned long int)5000);
-          cnt = (signed int)return_value_read$3;
+          return_value_read_3=read(fd, (void *)buf, sizeof(char) /*1ul*/  * (unsigned long int)5000);
+          cnt = (signed int)return_value_read_3;
           if(cnt >= 1)
           {
             pos = (buf + (signed long int)cnt) - (signed long int)1;
@@ -4738,14 +4738,14 @@ static signed int MA_truncate(signed int fd, const char *startpat, signed int st
 
       lseek(fd, (signed long int)0, 0);
       if(!(startpat == ((const char *)NULL)))
-        tmp_if_expr$6 = *startpat != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = *startpat != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(start >= 1 || tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(start >= 1 || tmp_if_expr_6)
       {
-        return_value_read$5=read(fd, (void *)buf, sizeof(char) /*1ul*/  * (unsigned long int)(size > (signed long int)5000 ? (signed long int)5000 : size));
-        cnt = (signed int)return_value_read$5;
+        return_value_read_5=read(fd, (void *)buf, sizeof(char) /*1ul*/  * (unsigned long int)(size > (signed long int)5000 ? (signed long int)5000 : size));
+        cnt = (signed int)return_value_read_5;
         if(cnt >= 1)
         {
           pos = (const char *)(void *)0;
@@ -4778,9 +4778,9 @@ static signed int MA_truncate(signed int fd, const char *startpat, signed int st
 
       while(size >= 1l)
       {
-        signed long int return_value_read$7;
-        return_value_read$7=read(fd, (void *)buf, sizeof(char) /*1ul*/  * (unsigned long int)(size > (signed long int)5000 ? (signed long int)5000 : size));
-        cnt = (signed int)return_value_read$7;
+        signed long int return_value_read_7;
+        return_value_read_7=read(fd, (void *)buf, sizeof(char) /*1ul*/  * (unsigned long int)(size > (signed long int)5000 ? (signed long int)5000 : size));
+        cnt = (signed int)return_value_read_7;
         write(dest, (const void *)buf, sizeof(char) /*1ul*/  * (unsigned long int)cnt);
         size = size - (signed long int)cnt;
       }
@@ -4814,7 +4814,7 @@ void MP_End(void)
 {
   if((signed int)updater_mode == MTH_RUNNING)
   {
-    updater_mode = (enum anonymous$21)MTH_QUITTING;
+    updater_mode = (enum anonymous_21)MTH_QUITTING;
     pthread_join(_mm_thread_updater, (void **)(void *)0);
   }
 
@@ -4824,10 +4824,10 @@ void MP_End(void)
 
 // MP_GetData
 // file ../../src/mplayer.h line 48
-void MP_GetData(struct anonymous$6 *data)
+void MP_GetData(struct anonymous_6 *data)
 {
   pthread_mutex_lock(&_mm_mutex_data);
-  *data = playdata$link1;
+  *data = playdata_link1;
   pthread_mutex_unlock(&_mm_mutex_data);
 }
 
@@ -4840,9 +4840,9 @@ signed int MP_Init(void)
   {
     firstcall = 0;
     use_threads = 1;
-    signed int return_value_MikMod_InitThreads$1;
-    return_value_MikMod_InitThreads$1=MikMod_InitThreads();
-    if(return_value_MikMod_InitThreads$1 == 0)
+    signed int return_value_MikMod_InitThreads_1;
+    return_value_MikMod_InitThreads_1=MikMod_InitThreads();
+    if(return_value_MikMod_InitThreads_1 == 0)
       use_threads = 0;
 
   }
@@ -4865,10 +4865,10 @@ void MP_Start(void)
   do_update();
   if(!(use_threads == 0))
   {
-    updater_mode = (enum anonymous$21)MTH_RUNNING;
-    signed int return_value_pthread_create$1;
-    return_value_pthread_create$1=pthread_create(&_mm_thread_updater, (const union pthread_attr_t *)(void *)0, MP_updater, (void *)0);
-    use_threads = (signed int)(return_value_pthread_create$1 == 0);
+    updater_mode = (enum anonymous_21)MTH_RUNNING;
+    signed int return_value_pthread_create_1;
+    return_value_pthread_create_1=pthread_create(&_mm_thread_updater, (const union pthread_attr_t *)(void *)0, MP_updater, (void *)0);
+    use_threads = (signed int)(return_value_pthread_create_1 == 0);
   }
 
 }
@@ -4908,7 +4908,7 @@ static void * MP_updater(void *dummy)
     do_update();
     usleep((unsigned int)(5 * 1000));
   }
-  updater_mode = (enum anonymous$21)MTH_NORUN;
+  updater_mode = (enum anonymous_21)MTH_NORUN;
   active = 0;
   paused = 1;
   return (void *)0;
@@ -4937,9 +4937,9 @@ static signed int PL_CheckPlaylist(struct anonymous *pl, signed int *ok, signed 
     if((pl->entry + (signed long int)pl->current)->archive == ((char *)NULL))
     {
       pl->add_pos = pl->current + 1;
-      signed int return_value_PL_Load$1;
-      return_value_PL_Load$1=PL_Load(pl, (pl->entry + (signed long int)pl->current)->file);
-      if(!(return_value_PL_Load$1 == 0))
+      signed int return_value_PL_Load_1;
+      return_value_PL_Load_1=PL_Load(pl, (pl->entry + (signed long int)pl->current)->file);
+      if(!(return_value_PL_Load_1 == 0))
       {
         pl->add_pos = -1;
         PL_DelEntry(pl, pl->current);
@@ -4988,10 +4988,10 @@ void PL_ClearList(struct anonymous *pl)
       free((void *)(pl->entry + (signed long int)i)->archive);
 
   }
-  if(!(pl->entry == ((struct anonymous$0 *)NULL)))
+  if(!(pl->entry == ((struct anonymous_0 *)NULL)))
   {
     free((void *)pl->entry);
-    pl->entry = (struct anonymous$0 *)(void *)0;
+    pl->entry = (struct anonymous_0 *)(void *)0;
   }
 
   pl->current = -1;
@@ -5043,9 +5043,9 @@ signed int PL_ContNext(struct anonymous *pl, char **retfile, char **retarc, sign
 
       }
 
-      signed int return_value_mikmod_random$1;
-      return_value_mikmod_random$1=mikmod_random(not_played);
-      num = return_value_mikmod_random$1 + 1;
+      signed int return_value_mikmod_random_1;
+      return_value_mikmod_random_1=mikmod_random(not_played);
+      num = return_value_mikmod_random_1 + 1;
       while(num >= 1)
       {
         pl->current = pl->current + 1;
@@ -5084,9 +5084,9 @@ signed int PL_ContNext(struct anonymous *pl, char **retfile, char **retarc, sign
       }
 
     }
-    signed int return_value_PL_CheckPlaylist$2;
-    return_value_PL_CheckPlaylist$2=PL_CheckPlaylist(pl, &ok, old_current, 1, retfile, retarc, mode);
-    if(!(return_value_PL_CheckPlaylist$2 == 0))
+    signed int return_value_PL_CheckPlaylist_2;
+    return_value_PL_CheckPlaylist_2=PL_CheckPlaylist(pl, &ok, old_current, 1, retfile, retarc, mode);
+    if(!(return_value_PL_CheckPlaylist_2 == 0))
       return ok;
 
     else
@@ -5109,21 +5109,21 @@ signed int PL_ContPos(struct anonymous *pl, char **retfile, char **retarc, signe
   signed int old_current = pl->current;
   signed int ok = 1;
   pl->curr_deleted = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(number >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = number >= pl->length ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = number >= pl->length ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     pl->current = number;
-    signed int return_value_PL_CheckPlaylist$2;
-    return_value_PL_CheckPlaylist$2=PL_CheckPlaylist(pl, &ok, old_current, 3, retfile, retarc, number);
-    if(!(return_value_PL_CheckPlaylist$2 == 0))
+    signed int return_value_PL_CheckPlaylist_2;
+    return_value_PL_CheckPlaylist_2=PL_CheckPlaylist(pl, &ok, old_current, 3, retfile, retarc, number);
+    if(!(return_value_PL_CheckPlaylist_2 == 0))
       return ok;
 
     else
@@ -5155,9 +5155,9 @@ signed int PL_ContPrev(struct anonymous *pl, char **retfile, char **retarc)
     if(!(pl->current >= 0))
       pl->current = pl->length - 1;
 
-    signed int return_value_PL_CheckPlaylist$1;
-    return_value_PL_CheckPlaylist$1=PL_CheckPlaylist(pl, &ok, old_current, 2, retfile, retarc, 0);
-    if(!(return_value_PL_CheckPlaylist$1 == 0))
+    signed int return_value_PL_CheckPlaylist_1;
+    return_value_PL_CheckPlaylist_1=PL_CheckPlaylist(pl, &ok, old_current, 2, retfile, retarc, 0);
+    if(!(return_value_PL_CheckPlaylist_1 == 0))
       return ok;
 
     else
@@ -5186,12 +5186,12 @@ signed int PL_DelDouble(struct anonymous *pl)
 {
   signed int i;
   signed int j;
-  signed int return_value_strcmp$6;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   if(pl->length == 0)
     return 0;
 
@@ -5203,35 +5203,35 @@ signed int PL_DelDouble(struct anonymous *pl)
       j = i + 1;
       for( ; !(j >= pl->length); j = j + 1)
       {
-        return_value_strcmp$6=strcmp((pl->entry + (signed long int)i)->file, (pl->entry + (signed long int)j)->file);
-        if(return_value_strcmp$6 == 0)
+        return_value_strcmp_6=strcmp((pl->entry + (signed long int)i)->file, (pl->entry + (signed long int)j)->file);
+        if(return_value_strcmp_6 == 0)
         {
           if(!((pl->entry + (signed long int)i)->archive == ((char *)NULL)))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (pl->entry + (signed long int)j)->archive != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$1)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_1 = (pl->entry + (signed long int)j)->archive != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_1)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
             if(!((pl->entry + (signed long int)i)->archive == ((char *)NULL)))
-              tmp_if_expr$2 = (pl->entry + (signed long int)j)->archive != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (pl->entry + (signed long int)j)->archive != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
             {
-              return_value_strcmp$3=strcmp((pl->entry + (signed long int)i)->archive, (pl->entry + (signed long int)j)->archive);
-              tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_3=strcmp((pl->entry + (signed long int)i)->archive, (pl->entry + (signed long int)j)->archive);
+              tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
+            tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
           {
             if((pl->entry + (signed long int)i)->time == 0)
               (pl->entry + (signed long int)i)->time = (pl->entry + (signed long int)j)->time;
@@ -5278,25 +5278,25 @@ signed int PL_DelEntry(struct anonymous *pl, signed int number)
     i = number;
     for( ; !(i >= pl->length); i = i + 1)
       pl->entry[(signed long int)i] = pl->entry[(signed long int)(i + 1)];
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)pl->entry, (unsigned long int)pl->length * sizeof(struct anonymous$0) /*24ul*/ );
-    pl->entry = (struct anonymous$0 *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)pl->entry, (unsigned long int)pl->length * sizeof(struct anonymous_0) /*24ul*/ );
+    pl->entry = (struct anonymous_0 *)return_value_realloc_1;
     return 1;
   }
 }
 
 // PL_GetCurrent
 // file ../../src/mlist.h line 70
-struct anonymous$0 * PL_GetCurrent(struct anonymous *pl)
+struct anonymous_0 * PL_GetCurrent(struct anonymous *pl)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(pl->current >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(pl->length != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
-    return (struct anonymous$0 *)(void *)0;
+    tmp_if_expr_1 = !(pl->length != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
+    return (struct anonymous_0 *)(void *)0;
 
   else
     return &pl->entry[(signed long int)pl->current];
@@ -5306,13 +5306,13 @@ struct anonymous$0 * PL_GetCurrent(struct anonymous *pl)
 // file ../../src/mlist.h line 69
 signed int PL_GetCurrentPos(struct anonymous *pl)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(pl->current >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(pl->length != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(pl->length != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -5321,16 +5321,16 @@ signed int PL_GetCurrentPos(struct anonymous *pl)
 
 // PL_GetEntry
 // file ../../src/mlist.h line 71
-struct anonymous$0 * PL_GetEntry(struct anonymous *pl, signed int number)
+struct anonymous_0 * PL_GetEntry(struct anonymous *pl, signed int number)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(number >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = number >= pl->length ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
-    return (struct anonymous$0 *)(void *)0;
+    tmp_if_expr_1 = number >= pl->length ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
+    return (struct anonymous_0 *)(void *)0;
 
   else
     return &pl->entry[(signed long int)number];
@@ -5340,9 +5340,9 @@ struct anonymous$0 * PL_GetEntry(struct anonymous *pl, signed int number)
 // file ../../src/mlist.c line 389
 char * PL_GetFilename(void)
 {
-  char *return_value_get_cfg_name$1;
-  return_value_get_cfg_name$1=get_cfg_name(".mikmod_playlist");
-  return return_value_get_cfg_name$1;
+  char *return_value_get_cfg_name_1;
+  return_value_get_cfg_name_1=get_cfg_name(".mikmod_playlist");
+  return return_value_get_cfg_name_1;
 }
 
 // PL_GetLength
@@ -5374,7 +5374,7 @@ void PL_InitCurrent(struct anonymous *pl)
 // file ../../src/mlist.h line 63
 void PL_InitList(struct anonymous *pl)
 {
-  pl->entry = (struct anonymous$0 *)(void *)0;
+  pl->entry = (struct anonymous_0 *)(void *)0;
   pl->length = 0;
   pl->current = -1;
   pl->curr_deleted = 0;
@@ -5383,16 +5383,16 @@ void PL_InitList(struct anonymous *pl)
   s=getenv("MIKMOD_SRAND_CONSTANT");
   if(!(s == ((const char *)NULL)))
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(s);
-    srandom((unsigned int)return_value_atoi$1);
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(s);
+    srandom((unsigned int)return_value_atoi_1);
   }
 
   else
   {
-    signed long int return_value_time$2;
-    return_value_time$2=time((signed long int *)(void *)0);
-    srandom((unsigned int)return_value_time$2);
+    signed long int return_value_time_2;
+    return_value_time_2=time((signed long int *)(void *)0);
+    srandom((unsigned int)return_value_time_2);
   }
 }
 
@@ -5402,9 +5402,9 @@ static void PL_Insert(struct anonymous *pl, signed int pos, const char *file, co
 {
   signed int i;
   pl->length = pl->length + 1;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)pl->entry, (unsigned long int)pl->length * sizeof(struct anonymous$0) /*24ul*/ );
-  pl->entry = (struct anonymous$0 *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)pl->entry, (unsigned long int)pl->length * sizeof(struct anonymous_0) /*24ul*/ );
+  pl->entry = (struct anonymous_0 *)return_value_realloc_1;
   i = pl->length - 1;
   for( ; !(pos >= i); i = i - 1)
     pl->entry[(signed long int)i] = pl->entry[(signed long int)(i - 1)];
@@ -5431,14 +5431,14 @@ signed int PL_Load(struct anonymous *pl, const char *filename)
   char *arc;
   char *pos;
   char *slash;
-  signed int PL_Load$$1$$time;
+  signed int PL_Load__1__time;
   signed int played;
   char *ok = (char *)(void *)0;
   file=fopen(filename, "r");
-  signed int return_value_strcasecmp$1;
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_path_relative$5;
+  signed int return_value_strcasecmp_1;
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_path_relative_5;
   if(file == ((struct _IO_FILE *)NULL))
     return 0;
 
@@ -5450,8 +5450,8 @@ signed int PL_Load(struct anonymous *pl, const char *filename)
       if(ok == ((char *)NULL))
         break;
 
-      return_value_strcasecmp$1=strcasecmp(line, "MikMod playlist\n");
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(line, "MikMod playlist\n");
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
@@ -5467,8 +5467,8 @@ signed int PL_Load(struct anonymous *pl, const char *filename)
       slash=strrchr(filename, 47);
       do
       {
-        return_value_fgets$2=fgets(line, 4096 * 2 + 20, file);
-        if(return_value_fgets$2 == ((char *)NULL))
+        return_value_fgets_2=fgets(line, 4096 * 2 + 20, file);
+        if(return_value_fgets_2 == ((char *)NULL))
           break;
 
         if((signed int)line[0l] == 34)
@@ -5496,7 +5496,7 @@ signed int PL_Load(struct anonymous *pl, const char *filename)
                 break;
 
             played = 0;
-            PL_Load$$1$$time = played;
+            PL_Load__1__time = played;
             if(!(*pos == 0))
             {
               *pos = (char)0;
@@ -5504,40 +5504,40 @@ signed int PL_Load(struct anonymous *pl, const char *filename)
                 arc = (char *)(void *)0;
 
               pos = pos + (signed long int)2;
-              sscanf(pos, "%d %d", &PL_Load$$1$$time, &played);
+              sscanf(pos, "%d %d", &PL_Load__1__time, &played);
             }
 
             else
               arc = (char *)(void *)0;
-            if(arc == ((char *)NULL) && played == 0 && PL_Load$$1$$time == 0)
+            if(arc == ((char *)NULL) && played == 0 && PL_Load__1__time == 0)
               MA_FindFiles(pl, mod);
 
             else
             {
               if(!(slash == ((char *)NULL)))
               {
-                return_value_path_relative$5=path_relative(arc != ((char *)NULL) ? arc : mod);
-                tmp_if_expr$6 = return_value_path_relative$5 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_path_relative_5=path_relative(arc != ((char *)NULL) ? arc : mod);
+                tmp_if_expr_6 = return_value_path_relative_5 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
               {
                 char *dummy;
-                unsigned long int return_value_strlen$3;
-                return_value_strlen$3=strlen(arc != ((char *)NULL) ? arc : mod);
-                void *return_value_malloc$4;
-                return_value_malloc$4=malloc((unsigned long int)((slash + (signed long int)1) - filename) + return_value_strlen$3 + (unsigned long int)1);
-                dummy = (char *)return_value_malloc$4;
+                unsigned long int return_value_strlen_3;
+                return_value_strlen_3=strlen(arc != ((char *)NULL) ? arc : mod);
+                void *return_value_malloc_4;
+                return_value_malloc_4=malloc((unsigned long int)((slash + (signed long int)1) - filename) + return_value_strlen_3 + (unsigned long int)1);
+                dummy = (char *)return_value_malloc_4;
                 strncpy(dummy, filename, (unsigned long int)((slash + (signed long int)1) - filename));
                 dummy[(slash + (signed long int)1) - filename] = (char)0;
                 strcat(dummy, arc != ((char *)NULL) ? arc : mod);
-                PL_Add(pl, arc != ((char *)NULL) ? mod : dummy, arc != ((char *)NULL) ? dummy : (char *)(void *)0, PL_Load$$1$$time, (signed int)played);
+                PL_Add(pl, arc != ((char *)NULL) ? mod : dummy, arc != ((char *)NULL) ? dummy : (char *)(void *)0, PL_Load__1__time, (signed int)played);
               }
 
               else
-                PL_Add(pl, mod, arc, PL_Load$$1$$time, (signed int)played);
+                PL_Add(pl, mod, arc, PL_Load__1__time, (signed int)played);
             }
           }
 
@@ -5578,12 +5578,12 @@ void PL_Randomize(struct anonymous *pl)
     i = 0;
     for( ; !(i >= pl->length + -1); i = i + 1)
     {
-      signed int return_value_mikmod_random$1;
-      return_value_mikmod_random$1=mikmod_random(pl->length - i);
-      target = return_value_mikmod_random$1 + i;
+      signed int return_value_mikmod_random_1;
+      return_value_mikmod_random_1=mikmod_random(pl->length - i);
+      target = return_value_mikmod_random_1 + i;
       if(!(target == i))
       {
-        struct anonymous$0 temp = pl->entry[(signed long int)i];
+        struct anonymous_0 temp = pl->entry[(signed long int)i];
         pl->entry[(signed long int)i] = pl->entry[(signed long int)target];
         pl->entry[(signed long int)target] = temp;
         if(pl->current == i)
@@ -5606,16 +5606,16 @@ signed int PL_Save(struct anonymous *pl, const char *filename)
 {
   struct _IO_FILE *file;
   signed int i;
-  struct anonymous$0 *entry;
+  struct anonymous_0 *entry;
   file=fopen(filename, "w");
   if(file == ((struct _IO_FILE *)NULL))
     return 0;
 
   else
   {
-    signed int return_value_fputs$1;
-    return_value_fputs$1=fputs("MikMod playlist\n", file);
-    if(!(return_value_fputs$1 == -1))
+    signed int return_value_fputs_1;
+    return_value_fputs_1=fputs("MikMod playlist\n", file);
+    if(!(return_value_fputs_1 == -1))
     {
       i = 0;
       for( ; !(i >= pl->length); i = i + 1)
@@ -5691,12 +5691,12 @@ void PL_SetTimeCurrent(struct anonymous *pl, signed long int sngtime)
 
 // PL_Sort
 // file ../../src/mlist.c line 571
-void PL_Sort(struct anonymous *pl, signed int (*compar)(struct anonymous$0 *, struct anonymous$0 *))
+void PL_Sort(struct anonymous *pl, signed int (*compar)(struct anonymous_0 *, struct anonymous_0 *))
 {
   signed int i;
   signed int j;
   signed int end = 0;
-  struct anonymous$0 tmp;
+  struct anonymous_0 tmp;
   i = 0;
   signed int return_value;
   for( ; end == 0 && !(i >= pl->length); i = i + 1)
@@ -5746,9 +5746,9 @@ void PL_StopInsert(struct anonymous *pl)
 signed int PL_isPlaylistFilename(const char *filename)
 {
   char *cfg_name = (char *)(void *)0;
-  signed int return_value_fnmatch$1;
-  return_value_fnmatch$1=fnmatch("*.mpl", filename, 0);
-  if(return_value_fnmatch$1 == 0)
+  signed int return_value_fnmatch_1;
+  return_value_fnmatch_1=fnmatch("*.mpl", filename, 0);
+  if(return_value_fnmatch_1 == 0)
     return 1;
 
   else
@@ -5766,9 +5766,9 @@ signed int PL_isPlaylistFilename(const char *filename)
       if(p2 == ((const char *)NULL))
         p2 = filename;
 
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(p1, p2);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(p1, p2);
+      if(return_value_strcmp_2 == 0)
       {
         free((void *)cfg_name);
         return 1;
@@ -5796,105 +5796,105 @@ static void Player_InitLib(void)
 
 // Player_SetConfig
 // file ../../src/mikmod.c line 387
-void Player_SetConfig(struct anonymous$3 *cfg)
+void Player_SetConfig(struct anonymous_3 *cfg)
 {
   signed int restart;
-  signed int return_value_MP_Active$1;
-  return_value_MP_Active$1=MP_Active();
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_cmp_bit$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_cmp_bit$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_cmp_bit$8;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  static char *Player_SetConfig$$1$$driveroptions = (char *)(void *)0;
-  if(!(return_value_MP_Active$1 == 0))
+  signed int return_value_MP_Active_1;
+  return_value_MP_Active_1=MP_Active();
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_cmp_bit_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_cmp_bit_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_cmp_bit_8;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  static char *Player_SetConfig__1__driveroptions = (char *)(void *)0;
+  if(!(return_value_MP_Active_1 == 0))
   {
     if(!(cfg->frequency == (signed int)md_mixfreq))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(!(cfg->driver == 0))
-        tmp_if_expr$2 = cfg->driver != (signed int)md_device ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = cfg->driver != (signed int)md_device ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_cmp_bit$4=cmp_bit((signed int)md_mode, 0x0001, cfg->mode_16bit);
-      tmp_if_expr$5 = !(return_value_cmp_bit$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_cmp_bit_4=cmp_bit((signed int)md_mode, 0x0001, cfg->mode_16bit);
+      tmp_if_expr_5 = !(return_value_cmp_bit_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_cmp_bit$6=cmp_bit((signed int)md_mode, 0x0002, cfg->stereo);
-      tmp_if_expr$7 = !(return_value_cmp_bit$6 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_cmp_bit_6=cmp_bit((signed int)md_mode, 0x0002, cfg->stereo);
+      tmp_if_expr_7 = !(return_value_cmp_bit_6 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
-      tmp_if_expr$9 = (_Bool)1;
+    if(tmp_if_expr_7)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_cmp_bit$8=cmp_bit((signed int)md_mode, 0x0010, cfg->hqmixer);
-      tmp_if_expr$9 = !(return_value_cmp_bit$8 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_cmp_bit_8=cmp_bit((signed int)md_mode, 0x0010, cfg->hqmixer);
+      tmp_if_expr_9 = !(return_value_cmp_bit_8 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
-      tmp_if_expr$14 = (_Bool)1;
+    if(tmp_if_expr_9)
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      if(Player_SetConfig$$1$$driveroptions == ((char *)NULL))
-        tmp_if_expr$10 = cfg->driveroptions != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(Player_SetConfig__1__driveroptions == ((char *)NULL))
+        tmp_if_expr_10 = cfg->driveroptions != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        if(!(Player_SetConfig$$1$$driveroptions == ((char *)NULL)))
+        if(!(Player_SetConfig__1__driveroptions == ((char *)NULL)))
         {
-          return_value_strcmp$11=strcmp(Player_SetConfig$$1$$driveroptions, cfg->driveroptions);
-          tmp_if_expr$12 = return_value_strcmp$11 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_11=strcmp(Player_SetConfig__1__driveroptions, cfg->driveroptions);
+          tmp_if_expr_12 = return_value_strcmp_11 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_12 = (_Bool)0;
+        tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$15 = tmp_if_expr$14 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_15 = tmp_if_expr_14 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$15 = (_Bool)0;
-  restart = (signed int)tmp_if_expr$15;
-  enum anonymous$30 oldstate = status.state;
+    tmp_if_expr_15 = (_Bool)0;
+  restart = (signed int)tmp_if_expr_15;
+  enum anonymous_30 oldstate = status.state;
   if(!((signed int)status.state >= 3))
-    status.state = (enum anonymous$30)STATE_READY;
+    status.state = (enum anonymous_30)STATE_READY;
 
-  if(!(Player_SetConfig$$1$$driveroptions == ((char *)NULL)))
-    free((void *)Player_SetConfig$$1$$driveroptions);
+  if(!(Player_SetConfig__1__driveroptions == ((char *)NULL)))
+    free((void *)Player_SetConfig__1__driveroptions);
 
-  Player_SetConfig$$1$$driveroptions=strdup(cfg->driveroptions);
+  Player_SetConfig__1__driveroptions=strdup(cfg->driveroptions);
   md_pansep = (unsigned char)128;
   md_volume = (unsigned char)((cfg->volume * 128) / 100);
   md_reverb = (unsigned char)cfg->reverb;
@@ -5906,9 +5906,9 @@ void Player_SetConfig(struct anonymous$3 *cfg)
   set_bit(&md_mode, 0x0100, cfg->surround);
   set_bit(&md_mode, 0x0001, cfg->mode_16bit);
   set_bit(&md_mode, 0x0002, cfg->stereo);
-  signed int return_value_win_has_colors$16;
-  return_value_win_has_colors$16=win_has_colors();
-  if(return_value_win_has_colors$16 == 0)
+  signed int return_value_win_has_colors_16;
+  return_value_win_has_colors_16=win_has_colors();
+  if(return_value_win_has_colors_16 == 0)
   {
     if(!((cfg->themes + (signed long int)cfg->theme)->color == 0))
       cfg->theme = 1;
@@ -5932,10 +5932,10 @@ void Player_SetConfig(struct anonymous$3 *cfg)
     if(!(mf == ((struct MODULE *)NULL)))
       MP_End();
 
-    signed int return_value_MikMod_Reset$17;
-    return_value_MikMod_Reset$17=MikMod_Reset(cfg->driveroptions);
-    if(!(return_value_MikMod_Reset$17 == 0))
-      config_error("MikMod reset error", (enum anonymous$30)STATE_ERROR);
+    signed int return_value_MikMod_Reset_17;
+    return_value_MikMod_Reset_17=MikMod_Reset(cfg->driveroptions);
+    if(!(return_value_MikMod_Reset_17 == 0))
+      config_error("MikMod reset error", (enum anonymous_30)STATE_ERROR);
 
     cfg->frequency = (signed int)md_mixfreq;
   }
@@ -5946,12 +5946,12 @@ void Player_SetConfig(struct anonymous$3 *cfg)
   if(!(mf == ((struct MODULE *)NULL)))
     mf->wrap = ((config.playmode & 1) != 0 ? 1 : 0) != 0 ? 1 : 0;
 
-  signed int return_value_MikMod_Init$18;
+  signed int return_value_MikMod_Init_18;
   if((signed int)oldstate == STATE_INIT || (signed int)oldstate == STATE_INIT_ERROR)
   {
-    return_value_MikMod_Init$18=MikMod_Init(config.driveroptions);
-    if(!(return_value_MikMod_Init$18 == 0))
-      config_error("MikMod initialisation error", (enum anonymous$30)STATE_INIT_ERROR);
+    return_value_MikMod_Init_18=MikMod_Init(config.driveroptions);
+    if(!(return_value_MikMod_Init_18 == 0))
+      config_error("MikMod initialisation error", (enum anonymous_30)STATE_INIT_ERROR);
 
   }
 
@@ -5984,7 +5984,7 @@ unsigned long int Time1000(void)
 
 // base_attr
 // file ../../src/mwidget.c line 54
-static enum anonymous$7 base_attr(struct anonymous$17 *d, enum anonymous$7 attrs)
+static enum anonymous_7 base_attr(struct anonymous_17 *d, enum anonymous_7 attrs)
 {
   if((signed int)d->attrs >= 0)
     return d->attrs;
@@ -5995,7 +5995,7 @@ static enum anonymous$7 base_attr(struct anonymous$17 *d, enum anonymous$7 attrs
 
 // button_free
 // file ../../src/mwidget.c line 309
-static void button_free(struct anonymous$13 *w)
+static void button_free(struct anonymous_13 *w)
 {
   free((void *)w->button);
   free((void *)w);
@@ -6003,7 +6003,7 @@ static void button_free(struct anonymous$13 *w)
 
 // button_get_size
 // file ../../src/mwidget.c line 441
-static void button_get_size(struct anonymous$13 *w, signed int *width, signed int *height)
+static void button_get_size(struct anonymous_13 *w, signed int *width, signed int *height)
 {
   char *pos;
   signed int hl_cnt = 0;
@@ -6018,23 +6018,23 @@ static void button_get_size(struct anonymous$13 *w, signed int *width, signed in
       w->cnt = w->cnt + 1;
 
   }
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(w->button);
-  *width = (signed int)(((return_value_strlen$1 + (unsigned long int)(5 * w->cnt)) - (unsigned long int)1) - (unsigned long int)hl_cnt);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(w->button);
+  *width = (signed int)(((return_value_strlen_1 + (unsigned long int)(5 * w->cnt)) - (unsigned long int)1) - (unsigned long int)hl_cnt);
   *height = 1;
 }
 
 // button_handle_event
 // file ../../src/mwidget.c line 381
-static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 event, signed int ch)
+static signed int button_handle_event(struct anonymous_13 *w, enum anonymous_18 event, signed int ch)
 {
   signed int cur;
   char *pos;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  signed int return_value_handle_focus$2;
-  signed int return_value_handle_focus$3;
-  signed int return_value_handle_focus$4;
-  signed int return_value_toupper$6;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  signed int return_value_handle_focus_2;
+  signed int return_value_handle_focus_3;
+  signed int return_value_handle_focus_4;
+  signed int return_value_toupper_6;
   if((signed int)event == WID_GET_FOCUS)
   {
     if(!(ch >= 0))
@@ -6062,8 +6062,8 @@ static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 
       ;
       if(!(ch >= 256))
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)ch]) == 0))
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)ch]) == 0))
           ch=toupper(ch);
 
       }
@@ -6079,8 +6079,8 @@ static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 
             w->active = w->active - 1;
             if(!(w->active >= 0))
             {
-              return_value_handle_focus$2=handle_focus((struct WIDGET *)w, -1, 0);
-              return return_value_handle_focus$2;
+              return_value_handle_focus_2=handle_focus((struct WIDGET *)w, -1, 0);
+              return return_value_handle_focus_2;
             }
 
             button_paint(w);
@@ -6099,8 +6099,8 @@ static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 
             w->active = w->active + 1;
             if(w->active >= w->cnt)
             {
-              return_value_handle_focus$3=handle_focus((struct WIDGET *)w, 1, 0);
-              return return_value_handle_focus$3;
+              return_value_handle_focus_3=handle_focus((struct WIDGET *)w, 1, 0);
+              return return_value_handle_focus_3;
             }
 
             button_paint(w);
@@ -6114,8 +6114,8 @@ static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 
         {
           if((signed int)event == WID_KEY)
           {
-            return_value_handle_focus$4=handle_focus((struct WIDGET *)w, 100 + 1, 100);
-            return return_value_handle_focus$4;
+            return_value_handle_focus_4=handle_focus((struct WIDGET *)w, 100 + 1, 100);
+            return return_value_handle_focus_4;
           }
 
           break;
@@ -6131,14 +6131,14 @@ static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 
 
             if((signed int)*pos == 38)
             {
-              return_value_toupper$6=toupper((signed int)pos[(signed long int)1]);
-              if(return_value_toupper$6 == ch)
+              return_value_toupper_6=toupper((signed int)pos[(signed long int)1]);
+              if(return_value_toupper_6 == ch)
               {
                 w->active = cur;
                 button_paint(w);
-                signed int return_value_handle_focus$5;
-                return_value_handle_focus$5=handle_focus((struct WIDGET *)w, 100 + 1, 100);
-                return return_value_handle_focus$5;
+                signed int return_value_handle_focus_5;
+                return_value_handle_focus_5=handle_focus((struct WIDGET *)w, 100 + 1, 100);
+                return return_value_handle_focus_5;
               }
 
             }
@@ -6153,7 +6153,7 @@ static signed int button_handle_event(struct anonymous$13 *w, enum anonymous$18 
 
 // button_paint
 // file ../../src/mwidget.c line 315
-static void button_paint(struct anonymous$13 *w)
+static void button_paint(struct anonymous_13 *w)
 {
   signed int cur;
   signed int x;
@@ -6168,98 +6168,98 @@ static void button_paint(struct anonymous$13 *w)
     if((signed int)*pos == 38)
       cnt_hl = cnt_hl + 1;
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(w->button);
-  x = (((w->w.d->win->width - 1) - w->w.x) - ((((signed int)return_value_strlen$1 + 5 * w->cnt) - 1) - cnt_hl)) / 2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(w->button);
+  x = (((w->w.d->win->width - 1) - w->w.x) - ((((signed int)return_value_strlen_1 + 5 * w->cnt) - 1) - cnt_hl)) / 2;
   cur = 0;
   hl_pos = (char *)(void *)0;
   hl[(signed long int)1] = (char)0;
   start = w->button;
   end = 0;
   pos = w->button;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
   for( ; end == 0; pos = pos + 1l)
   {
     end = (signed int)!(*pos != 0);
     if((signed int)*pos == 124)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (signed int)*pos == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (signed int)*pos == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
       *pos = (char)0;
       if(!(w->active == cur))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_INACTIVE);
+        tmp_if_expr_2 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_INACTIVE);
 
       else
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_ACTIVE);
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_ACTIVE);
       win_print(w->w.d->win, w->w.x + x, w->w.y, "[ ");
       if(!(w->active == cur))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_ITEXT);
+        tmp_if_expr_3 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_ITEXT);
 
       else
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_ATEXT);
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_ATEXT);
       win_print(w->w.d->win, w->w.x + x + 2, w->w.y, start);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(start);
-      x = x + (signed int)(return_value_strlen$4 + (unsigned long int)2);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(start);
+      x = x + (signed int)(return_value_strlen_4 + (unsigned long int)2);
       if(!(hl_pos == ((char *)NULL)))
       {
         if(!(w->active == cur))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_IHOTKEY);
+          tmp_if_expr_5 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_IHOTKEY);
 
         else
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_AHOTKEY);
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_AHOTKEY);
         win_print(w->w.d->win, w->w.x + x, w->w.y, hl);
         if(!(w->active == cur))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_ITEXT);
+          tmp_if_expr_6 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_ITEXT);
 
         else
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_ATEXT);
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_ATEXT);
         win_print(w->w.d->win, w->w.x + x + 1, w->w.y, hl_pos);
         *(hl_pos - (signed long int)2) = (char)38;
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(hl_pos);
-        x = x + (signed int)(return_value_strlen$7 + (unsigned long int)1);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(hl_pos);
+        x = x + (signed int)(return_value_strlen_7 + (unsigned long int)1);
         hl_pos = (char *)(void *)0;
       }
 
       if(!(w->active == cur))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_INACTIVE);
+        tmp_if_expr_8 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_INACTIVE);
 
       else
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_ACTIVE);
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_ACTIVE);
       win_print(w->w.d->win, w->w.x + x, w->w.y, " ]");
       x = x + 4;
       *pos = (char)124;
@@ -6285,7 +6285,7 @@ static signed int cb_browse(signed int button, char *file, void *data)
 {
   if(button == 0)
   {
-    wid_str_set_input((struct anonymous$12 *)data, file, -1);
+    wid_str_set_input((struct anonymous_12 *)data, file, -1);
     wid_repaint((struct WIDGET *)data);
   }
 
@@ -6294,7 +6294,7 @@ static signed int cb_browse(signed int button, char *file, void *data)
 
 // cb_cmp_sort
 // file ../../src/mlistedit.c line 1027
-static signed int cb_cmp_sort(struct anonymous$0 *small, struct anonymous$0 *big)
+static signed int cb_cmp_sort(struct anonymous_0 *small, struct anonymous_0 *big)
 {
   char ch_s = (char)32;
   char ch_b = (char)32;
@@ -6303,7 +6303,7 @@ static signed int cb_cmp_sort(struct anonymous$0 *small, struct anonymous$0 *big
   char *name_s;
   char *name_b;
   signed int ret = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   switch((signed int)sort_mode)
   {
     case SORT_NAME:
@@ -6362,11 +6362,11 @@ static signed int cb_cmp_sort(struct anonymous$0 *small, struct anonymous$0 *big
     case SORT_TIME:
     {
       if(small->time == big->time)
-        tmp_if_expr$1 = 0;
+        tmp_if_expr_1 = 0;
 
       else
-        tmp_if_expr$1 = small->time < big->time ? -1 : 1;
-      ret = tmp_if_expr$1;
+        tmp_if_expr_1 = small->time < big->time ? -1 : 1;
+      ret = tmp_if_expr_1;
     }
   }
   return sort_rev != 0 ? -ret : ret;
@@ -6378,22 +6378,22 @@ static signed int cb_delete_entry(struct WIDGET *w, signed int button, void *inp
 {
   if(!(button >= 1))
   {
-    struct anonymous$0 *cur;
+    struct anonymous_0 *cur;
     cur=PL_GetEntry(&playlist, (signed int)(signed long int)entry);
     if(!(cur->archive == ((char *)NULL)))
     {
-      signed int return_value_unlink$1;
-      return_value_unlink$1=unlink(cur->archive);
-      if(return_value_unlink$1 == -1)
+      signed int return_value_unlink_1;
+      return_value_unlink_1=unlink(cur->archive);
+      if(return_value_unlink_1 == -1)
         dlg_error_show("Error deleting archive \"%s\"!", cur->archive);
 
     }
 
     else
     {
-      signed int return_value_unlink$2;
-      return_value_unlink$2=unlink(cur->file);
-      if(return_value_unlink$2 == -1)
+      signed int return_value_unlink_2;
+      return_value_unlink_2=unlink(cur->file);
+      if(return_value_unlink_2 == -1)
         dlg_error_show("Error deleting file \"%s\"!", cur->file);
 
     }
@@ -6409,7 +6409,7 @@ static signed int cb_focus(struct WIDGET *w, signed int focus)
 {
   if(focus == 1)
   {
-    struct anonymous$20 *data = (struct anonymous$20 *)w->data;
+    struct anonymous_20 *data = (struct anonymous_20 *)w->data;
     if(!(data->list_w->w.has_focus == 0))
       return 100 + 2;
 
@@ -6422,24 +6422,24 @@ static signed int cb_focus(struct WIDGET *w, signed int focus)
 // file ../../src/mlistedit.c line 803
 static signed int cb_freq_button_focus(struct WIDGET *w, signed int focus)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_freq_call_func$1;
-  signed int return_value_freq_call_func$3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_freq_call_func_1;
+  signed int return_value_freq_call_func_3;
   if(focus == 1)
   {
-    struct anonymous$25 *data = (struct anonymous$25 *)w->data;
-    signed int button = ((struct anonymous$13 *)w)->active;
+    struct anonymous_25 *data = (struct anonymous_25 *)w->data;
+    signed int button = ((struct anonymous_13 *)w)->active;
     freq_check_searchlist(data);
     switch(button)
     {
       case 0:
       {
-        freq_add(data, (enum anonymous$26)FREQ_ADD);
+        freq_add(data, (enum anonymous_26)FREQ_ADD);
         break;
       }
       case 1:
       {
-        freq_add(data, (enum anonymous$26)FREQ_TOGGLE);
+        freq_add(data, (enum anonymous_26)FREQ_TOGGLE);
         break;
       }
       case 2:
@@ -6455,14 +6455,14 @@ static signed int cb_freq_button_focus(struct WIDGET *w, signed int focus)
       case 4:
       {
         if(data->handle_freq == ((signed int (*)(signed int, char *, void *))NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
         {
-          return_value_freq_call_func$1=freq_call_func(0, data);
-          tmp_if_expr$2 = return_value_freq_call_func$1 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_freq_call_func_1=freq_call_func(0, data);
+          tmp_if_expr_2 = return_value_freq_call_func_1 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$2)
+        if(tmp_if_expr_2)
           freq_close(data);
 
         break;
@@ -6470,8 +6470,8 @@ static signed int cb_freq_button_focus(struct WIDGET *w, signed int focus)
       case 5:
         if(!(data->handle_freq == ((signed int (*)(signed int, char *, void *))NULL)))
         {
-          return_value_freq_call_func$3=freq_call_func(1, data);
-          if(!(return_value_freq_call_func$3 == 0))
+          return_value_freq_call_func_3=freq_call_func(1, data);
+          if(!(return_value_freq_call_func_3 == 0))
             freq_close(data);
 
         }
@@ -6490,17 +6490,17 @@ static signed int cb_freq_cd_do(struct WIDGET *w, signed int button, void *input
   if(!(button >= 1))
   {
     char *pos;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((char *)input);
-    pos = (char *)input + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((char *)input);
+    pos = (char *)input + (signed long int)return_value_strlen_1;
     if(!((signed int)pos[-1l] == 47))
     {
       *pos = (char)47;
       pos[(signed long int)1] = (char)0;
     }
 
-    freq_check_searchlist((struct anonymous$25 *)data);
-    freq_changedir((char *)input, (struct anonymous$25 *)data);
+    freq_check_searchlist((struct anonymous_25 *)data);
+    freq_changedir((char *)input, (struct anonymous_25 *)data);
   }
 
   return 1;
@@ -6512,28 +6512,28 @@ static signed int cb_freq_list_focus(struct WIDGET *w, signed int focus)
 {
   if(focus == 1)
   {
-    struct anonymous$25 *data = (struct anonymous$25 *)w->data;
-    signed int cur = ((struct anonymous$14 *)w)->cur;
+    struct anonymous_25 *data = (struct anonymous_25 *)w->data;
+    signed int cur = ((struct anonymous_14 *)w)->cur;
     char path[8192l];
     char *cur_entry;
     freq_check_searchlist(data);
     path[(signed long int)0] = (char)0;
-    cur_entry = ((struct anonymous$14 *)w)->entries[(signed long int)cur] + (signed long int)2;
-    signed int return_value_path_update$2;
-    return_value_path_update$2=path_update(path, data->path, cur_entry);
-    if(return_value_path_update$2 == 0)
+    cur_entry = ((struct anonymous_14 *)w)->entries[(signed long int)cur] + (signed long int)2;
+    signed int return_value_path_update_2;
+    return_value_path_update_2=path_update(path, data->path, cur_entry);
+    if(return_value_path_update_2 == 0)
     {
       if(!(data->handle_freq == ((signed int (*)(signed int, char *, void *))NULL)))
       {
-        signed int return_value_freq_call_func$1;
-        return_value_freq_call_func$1=freq_call_func(0, data);
-        if(!(return_value_freq_call_func$1 == 0))
+        signed int return_value_freq_call_func_1;
+        return_value_freq_call_func_1=freq_call_func(0, data);
+        if(!(return_value_freq_call_func_1 == 0))
           freq_close(data);
 
       }
 
       else
-        freq_add(data, (enum anonymous$26)FREQ_ADD);
+        freq_add(data, (enum anonymous_26)FREQ_ADD);
     }
 
     if(!((signed int)path[0l] == 0))
@@ -6549,20 +6549,20 @@ static signed int cb_freq_list_focus(struct WIDGET *w, signed int focus)
 // file ../../src/mlistedit.c line 786
 static signed int cb_freq_list_key(struct WIDGET *w, signed int ch)
 {
-  struct anonymous$25 *data = (struct anonymous$25 *)w->data;
+  struct anonymous_25 *data = (struct anonymous_25 *)w->data;
   freq_check_searchlist(data);
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(!(ch >= 256))
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)ch]) == 0))
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)ch]) == 0))
       ch=toupper(ch);
 
   }
 
   if(ch == 0513)
   {
-    freq_add(data, (enum anonymous$26)FREQ_ADD);
+    freq_add(data, (enum anonymous_26)FREQ_ADD);
     goto __CPROVER_DUMP_L4;
   }
 
@@ -6577,19 +6577,19 @@ __CPROVER_DUMP_L4:
 // file ../../src/mlistedit.c line 634
 signed int cb_freq_scan_dir(char *path, signed int added, signed int removed, void *data)
 {
-  struct anonymous$28 *scan_data = (struct anonymous$28 *)data;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(path);
-  unsigned long int return_value_strlen$1;
-  if(return_value_strlen$2 >= 51ul)
+  struct anonymous_28 *scan_data = (struct anonymous_28 *)data;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(path);
+  unsigned long int return_value_strlen_1;
+  if(return_value_strlen_2 >= 51ul)
   {
-    return_value_strlen$1=strlen(path);
-    sprintf(storage, "Scanning ...%s...\n%4d entrie(s) added, %4d entrie(s) removed", &path[(signed long int)(return_value_strlen$1 - (unsigned long int)47)], added, removed);
+    return_value_strlen_1=strlen(path);
+    sprintf(storage, "Scanning ...%s...\n%4d entrie(s) added, %4d entrie(s) removed", &path[(signed long int)(return_value_strlen_1 - (unsigned long int)47)], added, removed);
   }
 
   else
     sprintf(storage, "Scanning %s...\n%4d entrie(s) added, %4d entrie(s) removed", path, added, removed);
-  wid_label_set_label((struct anonymous$11 *)scan_data->w, storage);
+  wid_label_set_label((struct anonymous_11 *)scan_data->w, storage);
   dialog_repaint(scan_data->w->w.d->win);
   win_refresh();
   return scan_data->stop;
@@ -6599,14 +6599,14 @@ signed int cb_freq_scan_dir(char *path, signed int added, signed int removed, vo
 // file ../../src/mlistedit.c line 1129
 static void cb_handle_menu(struct MMENU *menu)
 {
-  struct anonymous$24 *data = (struct anonymous$24 *)menu->data;
+  struct anonymous_24 *data = (struct anonymous_24 *)menu->data;
   signed int actLine = *data->actLine;
-  struct anonymous$0 *cur;
+  struct anonymous_0 *cur;
   char *name;
   char *msg;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_PL_Save$5;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_PL_Save_5;
   if(menu->id == 0)
     switch(menu->cur)
     {
@@ -6627,7 +6627,7 @@ static void cb_handle_menu(struct MMENU *menu)
       case 2:
       {
         cur=PL_GetEntry(&playlist, actLine);
-        if(cur == ((struct anonymous$0 *)NULL))
+        if(cur == ((struct anonymous_0 *)NULL))
           break;
 
         if(!(cur->archive == ((char *)NULL)))
@@ -6638,12 +6638,12 @@ static void cb_handle_menu(struct MMENU *menu)
 
           else
             name = cur->file;
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(cur->archive);
-          if(return_value_strlen$2 >= 61ul)
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(cur->archive);
+          if(return_value_strlen_2 >= 61ul)
           {
-            return_value_strlen$1=strlen(cur->archive);
-            msg=str_sprintf2("File \"%s\" is in an archive!\nReally delete whole archive\n  \"...%s\"?", name, &cur->archive[(signed long int)(return_value_strlen$1 - (unsigned long int)57)]);
+            return_value_strlen_1=strlen(cur->archive);
+            msg=str_sprintf2("File \"%s\" is in an archive!\nReally delete whole archive\n  \"...%s\"?", name, &cur->archive[(signed long int)(return_value_strlen_1 - (unsigned long int)57)]);
           }
 
           else
@@ -6653,12 +6653,12 @@ static void cb_handle_menu(struct MMENU *menu)
 
         else
         {
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(cur->file);
-          if(return_value_strlen$4 >= 51ul)
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(cur->file);
+          if(return_value_strlen_4 >= 51ul)
           {
-            return_value_strlen$3=strlen(cur->file);
-            msg=str_sprintf("Delete file \"...%s\"?", &cur->file[(signed long int)(return_value_strlen$3 - (unsigned long int)47)]);
+            return_value_strlen_3=strlen(cur->file);
+            msg=str_sprintf("Delete file \"...%s\"?", &cur->file[(signed long int)(return_value_strlen_3 - (unsigned long int)47)]);
           }
 
           else
@@ -6695,8 +6695,8 @@ static void cb_handle_menu(struct MMENU *menu)
         }
         case 2:
         {
-          return_value_PL_Save$5=PL_Save(&playlist, config.pl_name);
-          if(return_value_PL_Save$5 == 0)
+          return_value_PL_Save_5=PL_Save(&playlist, config.pl_name);
+          if(return_value_PL_Save_5 == 0)
             dlg_error_show("Error saving playlist \"%s\"!", config.pl_name);
 
           break;
@@ -6717,25 +6717,25 @@ static void cb_handle_menu(struct MMENU *menu)
       {
         case 0:
         {
-          sort_mode = (enum anonymous$23)SORT_NAME;
+          sort_mode = (enum anonymous_23)SORT_NAME;
           PL_Sort(&playlist, cb_cmp_sort);
           break;
         }
         case 1:
         {
-          sort_mode = (enum anonymous$23)SORT_EXT;
+          sort_mode = (enum anonymous_23)SORT_EXT;
           PL_Sort(&playlist, cb_cmp_sort);
           break;
         }
         case 2:
         {
-          sort_mode = (enum anonymous$23)SORT_PATH;
+          sort_mode = (enum anonymous_23)SORT_PATH;
           PL_Sort(&playlist, cb_cmp_sort);
           break;
         }
         case 3:
         {
-          sort_mode = (enum anonymous$23)SORT_TIME;
+          sort_mode = (enum anonymous_23)SORT_TIME;
           PL_Sort(&playlist, cb_cmp_sort);
           break;
         }
@@ -6756,8 +6756,8 @@ static signed int cb_hlist_button_focus(struct WIDGET *w, signed int focus)
 {
   if(focus == 1)
   {
-    struct anonymous$27 *data = (struct anonymous$27 *)w->data;
-    signed int button = ((struct anonymous$13 *)w)->active;
+    struct anonymous_27 *data = (struct anonymous_27 *)w->data;
+    signed int button = ((struct anonymous_13 *)w)->active;
     signed int cur = data->w->cur;
     freq_check_searchlist(data->freq);
     switch(button)
@@ -6799,8 +6799,8 @@ static signed int cb_hlist_list_focus(struct WIDGET *w, signed int focus)
 {
   if(focus == 1)
   {
-    struct anonymous$27 *data = (struct anonymous$27 *)w->data;
-    signed int cur = ((struct anonymous$14 *)w)->cur;
+    struct anonymous_27 *data = (struct anonymous_27 *)w->data;
+    signed int cur = ((struct anonymous_14 *)w)->cur;
     freq_check_searchlist(data->freq);
     if(!(cur >= config.cnt_hotlist))
       freq_changedir(config.hotlist[(signed long int)cur], data->freq);
@@ -6816,35 +6816,35 @@ static signed int cb_hlist_list_focus(struct WIDGET *w, signed int focus)
 // file ../../src/mlistedit.c line 930
 static signed int cb_list_scan_dir(char *path, signed int added, signed int removed, void *data)
 {
-  signed int cb_list_scan_dir$$1$$quiet = (signed int)(signed long int)data;
+  signed int cb_list_scan_dir__1__quiet = (signed int)(signed long int)data;
   char str[70l];
   char *pos;
   signed int i;
-  unsigned long int return_value_strlen$1;
-  char *tmp_post$5;
-  if(cb_list_scan_dir$$1$$quiet == 0)
+  unsigned long int return_value_strlen_1;
+  char *tmp_post_5;
+  if(cb_list_scan_dir__1__quiet == 0)
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    if(return_value_strlen$2 >= 44ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    if(return_value_strlen_2 >= 44ul)
     {
-      return_value_strlen$1=strlen(path);
-      sprintf(str, "\rScanning ...%s... (%d added)", &path[(signed long int)(return_value_strlen$1 - (unsigned long int)40)], added);
+      return_value_strlen_1=strlen(path);
+      sprintf(str, "\rScanning ...%s... (%d added)", &path[(signed long int)(return_value_strlen_1 - (unsigned long int)40)], added);
     }
 
     else
       sprintf(str, "\rScanning %s... (%d added)", path, added);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(str);
-    pos = str + (signed long int)return_value_strlen$3;
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(str);
-    i = (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(str);
+    pos = str + (signed long int)return_value_strlen_3;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(str);
+    i = (signed int)return_value_strlen_4;
     for( ; !(i >= 70); i = i + 1)
     {
-      tmp_post$5 = pos;
+      tmp_post_5 = pos;
       pos = pos + 1l;
-      *tmp_post$5 = (char)32;
+      *tmp_post_5 = (char)32;
     }
     *pos = (char)0;
     printf("%s", (const void *)str);
@@ -6860,9 +6860,9 @@ static signed int cb_overwrite(struct WIDGET *w, signed int button, void *input,
 {
   if(!(button >= 1))
   {
-    signed int return_value_PL_Save$1;
-    return_value_PL_Save$1=PL_Save(&playlist, (char *)file);
-    if(!(return_value_PL_Save$1 == 0))
+    signed int return_value_PL_Save_1;
+    return_value_PL_Save_1=PL_Save(&playlist, (char *)file);
+    if(!(return_value_PL_Save_1 == 0))
       rc_set_string(&config.pl_name, (char *)file, 4096);
 
     else
@@ -6888,9 +6888,9 @@ static signed int cb_save_as(struct WIDGET *w, signed int button, void *input, v
   else
     if(button == 1 || button == -1)
     {
-      signed int return_value_file_exist$2;
-      return_value_file_exist$2=file_exist((char *)input);
-      if(!(return_value_file_exist$2 == 0))
+      signed int return_value_file_exist_2;
+      return_value_file_exist_2=file_exist((char *)input);
+      if(!(return_value_file_exist_2 == 0))
       {
         char *f_copy;
         f_copy=strdup((char *)input);
@@ -6902,9 +6902,9 @@ static signed int cb_save_as(struct WIDGET *w, signed int button, void *input, v
 
       else
       {
-        signed int return_value_PL_Save$1;
-        return_value_PL_Save$1=PL_Save(&playlist, (char *)input);
-        if(!(return_value_PL_Save$1 == 0))
+        signed int return_value_PL_Save_1;
+        return_value_PL_Save_1=PL_Save(&playlist, (char *)input);
+        if(!(return_value_PL_Save_1 == 0))
           rc_set_string(&config.pl_name, (char *)input, 4096);
 
         else
@@ -6921,8 +6921,8 @@ static signed int cb_scan_dir_stop_focus(struct WIDGET *w, signed int focus)
 {
   if(focus == 1)
   {
-    if(((struct anonymous$13 *)w)->active == 0)
-      ((struct anonymous$28 *)w->data)->stop = 1;
+    if(((struct anonymous_13 *)w)->active == 0)
+      ((struct anonymous_28 *)w->data)->stop = 1;
 
     return 100;
   }
@@ -6935,12 +6935,12 @@ static signed int cb_scan_dir_stop_focus(struct WIDGET *w, signed int focus)
 // file ../../src/mconfedit.c line 460
 static signed int cb_theme_button_focus(struct WIDGET *w, signed int focus)
 {
-  signed int return_value_win_has_colors$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_win_has_colors_1;
+  _Bool tmp_if_expr_2;
   if(focus == 1)
   {
-    struct anonymous$20 *data = (struct anonymous$20 *)w->data;
-    signed int button = ((struct anonymous$13 *)w)->active;
+    struct anonymous_20 *data = (struct anonymous_20 *)w->data;
+    signed int button = ((struct anonymous_13 *)w)->active;
     switch(button)
     {
       case 0:
@@ -6957,13 +6957,13 @@ static signed int cb_theme_button_focus(struct WIDGET *w, signed int focus)
       }
       case 1:
       {
-        return_value_win_has_colors$1=win_has_colors();
-        if(!(return_value_win_has_colors$1 == 0))
-          tmp_if_expr$2 = (_Bool)1;
+        return_value_win_has_colors_1=win_has_colors();
+        if(!(return_value_win_has_colors_1 == 0))
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = !(data->theme.color != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = !(data->theme.color != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           theme_get_attrs(data);
           CF_theme_free(&data->test_theme);
@@ -6991,9 +6991,9 @@ static signed int cb_theme_list_focus(struct WIDGET *w, signed int focus)
 {
   if(focus == 1)
   {
-    struct anonymous$20 *data = (struct anonymous$20 *)w->data;
+    struct anonymous_20 *data = (struct anonymous_20 *)w->data;
     theme_get_attrs(data);
-    data->cur_attr = ((struct anonymous$14 *)w)->cur;
+    data->cur_attr = ((struct anonymous_14 *)w)->cur;
     theme_set_attrs(data, 1);
     return 100;
   }
@@ -7044,7 +7044,7 @@ static signed int cb_themeedit(struct WIDGET *w, signed int button, void *input,
 
 // check_free
 // file ../../src/mwidget.c line 742
-static void check_free(struct anonymous$15 *w)
+static void check_free(struct anonymous_15 *w)
 {
   free((void *)w->button);
   free((void *)w);
@@ -7052,7 +7052,7 @@ static void check_free(struct anonymous$15 *w)
 
 // check_get_size
 // file ../../src/mwidget.c line 758
-static void check_get_size(struct anonymous$15 *w, signed int *width, signed int *height)
+static void check_get_size(struct anonymous_15 *w, signed int *width, signed int *height)
 {
   char *pos;
   signed int x = 0;
@@ -7090,31 +7090,31 @@ static void check_get_size(struct anonymous$15 *w, signed int *width, signed int
 
 // check_handle_event
 // file ../../src/mwidget.c line 753
-static signed int check_handle_event(struct anonymous$15 *w, enum anonymous$18 event, signed int ch)
+static signed int check_handle_event(struct anonymous_15 *w, enum anonymous_18 event, signed int ch)
 {
-  signed int return_value_check_toggle_handle_event$1;
-  return_value_check_toggle_handle_event$1=check_toggle_handle_event(w, event, ch, 0);
-  return return_value_check_toggle_handle_event$1;
+  signed int return_value_check_toggle_handle_event_1;
+  return_value_check_toggle_handle_event_1=check_toggle_handle_event(w, event, ch, 0);
+  return return_value_check_toggle_handle_event_1;
 }
 
 // check_paint
 // file ../../src/mwidget.c line 748
-static void check_paint(struct anonymous$15 *w)
+static void check_paint(struct anonymous_15 *w)
 {
   check_toggle_paint(w, 0);
 }
 
 // check_toggle_handle_event
 // file ../../src/mwidget.c line 661
-static signed int check_toggle_handle_event(struct anonymous$15 *w, enum anonymous$18 event, signed int ch, signed int toggle)
+static signed int check_toggle_handle_event(struct anonymous_15 *w, enum anonymous_18 event, signed int ch, signed int toggle)
 {
   signed int cur;
   char *pos;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  signed int return_value_handle_focus$2;
-  signed int return_value_handle_focus$3;
-  signed int return_value_toupper$4;
-  static enum anonymous$18 last = (enum anonymous$18)WID_KEY;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  signed int return_value_handle_focus_2;
+  signed int return_value_handle_focus_3;
+  signed int return_value_toupper_4;
+  static enum anonymous_18 last = (enum anonymous_18)WID_KEY;
   if((signed int)event == WID_GET_FOCUS)
   {
     if(!((signed int)last == WID_HOTKEY))
@@ -7148,8 +7148,8 @@ static signed int check_toggle_handle_event(struct anonymous$15 *w, enum anonymo
       ;
       if(!(ch >= 256))
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)ch]) == 0))
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)ch]) == 0))
           ch=toupper(ch);
 
       }
@@ -7165,8 +7165,8 @@ static signed int check_toggle_handle_event(struct anonymous$15 *w, enum anonymo
             w->active = w->active - 1;
             if(!(w->active >= 0))
             {
-              return_value_handle_focus$2=handle_focus((struct WIDGET *)w, -1, 0);
-              return return_value_handle_focus$2;
+              return_value_handle_focus_2=handle_focus((struct WIDGET *)w, -1, 0);
+              return return_value_handle_focus_2;
             }
 
             check_toggle_paint(w, toggle);
@@ -7185,8 +7185,8 @@ static signed int check_toggle_handle_event(struct anonymous$15 *w, enum anonymo
             w->active = w->active + 1;
             if(w->active >= w->cnt)
             {
-              return_value_handle_focus$3=handle_focus((struct WIDGET *)w, 1, 0);
-              return return_value_handle_focus$3;
+              return_value_handle_focus_3=handle_focus((struct WIDGET *)w, 1, 0);
+              return return_value_handle_focus_3;
             }
 
             check_toggle_paint(w, toggle);
@@ -7225,8 +7225,8 @@ static signed int check_toggle_handle_event(struct anonymous$15 *w, enum anonymo
 
             if((signed int)*pos == 38)
             {
-              return_value_toupper$4=toupper((signed int)pos[(signed long int)1]);
-              if(return_value_toupper$4 == ch)
+              return_value_toupper_4=toupper((signed int)pos[(signed long int)1]);
+              if(return_value_toupper_4 == ch)
               {
                 w->active = cur;
                 check_toggle_paint(w, toggle);
@@ -7256,7 +7256,7 @@ static signed int check_toggle_handle_event(struct anonymous$15 *w, enum anonymo
 
 // check_toggle_paint
 // file ../../src/mwidget.c line 595
-static void check_toggle_paint(struct anonymous$15 *w, signed int toggle)
+static void check_toggle_paint(struct anonymous_15 *w, signed int toggle)
 {
   char *start;
   char *pos;
@@ -7264,87 +7264,87 @@ static void check_toggle_paint(struct anonymous$15 *w, signed int toggle)
   char hl[2l];
   char end;
   char marker[3l] = { ' ', 'x', 0 };
-  char check_toggle_paint$$1$$help[320l];
+  char check_toggle_paint__1__help[320l];
   signed int cur = 0;
   signed int x;
   signed int xx;
   hl_pos = (char *)(void *)0;
   hl[(signed long int)1] = (char)0;
   if(!(toggle == 0))
-    strcpy(check_toggle_paint$$1$$help, "[ ] ");
+    strcpy(check_toggle_paint__1__help, "[ ] ");
 
   else
   {
-    strcpy(check_toggle_paint$$1$$help, "( ) ");
+    strcpy(check_toggle_paint__1__help, "( ) ");
     marker[(signed long int)1] = (char)42;
   }
-  check_toggle_paint$$1$$help[(signed long int)w->w.width] = (char)0;
+  check_toggle_paint__1__help[(signed long int)w->w.width] = (char)0;
   start = w->button;
   pos = w->button - (signed long int)1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   do
   {
     pos = pos + 1l;
     if((signed int)*pos == 124)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*pos == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)*pos == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       end = *pos;
       *pos = (char)0;
       if(!(w->active == cur))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_ITEXT);
+        tmp_if_expr_1 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_ITEXT);
 
       else
-        win_attrset((enum anonymous$7)ATTR_DLG_BUT_ATEXT);
-      check_toggle_paint$$1$$help[(signed long int)1] = marker[(signed long int)((w->selected & 1 << cur) != 0 ? 1 : 0)];
-      strcpy(&check_toggle_paint$$1$$help[(signed long int)4], start);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(start);
-      x = (signed int)(return_value_strlen$2 + (unsigned long int)4);
+        win_attrset((enum anonymous_7)ATTR_DLG_BUT_ATEXT);
+      check_toggle_paint__1__help[(signed long int)1] = marker[(signed long int)((w->selected & 1 << cur) != 0 ? 1 : 0)];
+      strcpy(&check_toggle_paint__1__help[(signed long int)4], start);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(start);
+      x = (signed int)(return_value_strlen_2 + (unsigned long int)4);
       if(!(hl_pos == ((char *)NULL)))
       {
-        win_print(w->w.d->win, w->w.x, w->w.y + cur, check_toggle_paint$$1$$help);
+        win_print(w->w.d->win, w->w.x, w->w.y + cur, check_toggle_paint__1__help);
         if(!(w->active == cur))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_IHOTKEY);
+          tmp_if_expr_3 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_IHOTKEY);
 
         else
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_AHOTKEY);
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_AHOTKEY);
         win_print(w->w.d->win, w->w.x + x, w->w.y + cur, hl);
         x = x + 1;
         if(!(w->active == cur))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_ITEXT);
+          tmp_if_expr_4 = !(w->w.has_focus != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_ITEXT);
 
         else
-          win_attrset((enum anonymous$7)ATTR_DLG_BUT_ATEXT);
-        strcpy(&check_toggle_paint$$1$$help[(signed long int)x], hl_pos);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(hl_pos);
-        xx = (signed int)((unsigned long int)x + return_value_strlen$5);
+          win_attrset((enum anonymous_7)ATTR_DLG_BUT_ATEXT);
+        strcpy(&check_toggle_paint__1__help[(signed long int)x], hl_pos);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(hl_pos);
+        xx = (signed int)((unsigned long int)x + return_value_strlen_5);
         if(!(xx == w->w.width))
-          memset((void *)&check_toggle_paint$$1$$help[(signed long int)xx], 32, (unsigned long int)(w->w.width - xx));
+          memset((void *)&check_toggle_paint__1__help[(signed long int)xx], 32, (unsigned long int)(w->w.width - xx));
 
-        win_print(w->w.d->win, w->w.x + x, w->w.y + cur, &check_toggle_paint$$1$$help[(signed long int)x]);
+        win_print(w->w.d->win, w->w.x + x, w->w.y + cur, &check_toggle_paint__1__help[(signed long int)x]);
         *(hl_pos - (signed long int)2) = (char)38;
         hl_pos = (char *)(void *)0;
       }
@@ -7352,9 +7352,9 @@ static void check_toggle_paint(struct anonymous$15 *w, signed int toggle)
       else
       {
         if(!(x == w->w.width))
-          memset((void *)&check_toggle_paint$$1$$help[(signed long int)x], 32, (unsigned long int)(w->w.width - x));
+          memset((void *)&check_toggle_paint__1__help[(signed long int)x], 32, (unsigned long int)(w->w.width - x));
 
-        win_print(w->w.d->win, w->w.x, w->w.y + cur, check_toggle_paint$$1$$help);
+        win_print(w->w.d->win, w->w.x, w->w.y + cur, check_toggle_paint__1__help);
       }
       *pos = end;
       start = pos + (signed long int)1;
@@ -7390,14 +7390,14 @@ static signed int color_to_pair(signed int attrs)
 
 // colorsel_free
 // file ../../src/mwidget.c line 808
-static void colorsel_free(struct anonymous$16 *w)
+static void colorsel_free(struct anonymous_16 *w)
 {
   free((void *)w);
 }
 
 // colorsel_get_size
 // file ../../src/mwidget.c line 949
-static void colorsel_get_size(struct anonymous$16 *w, signed int *width, signed int *height)
+static void colorsel_get_size(struct anonymous_16 *w, signed int *width, signed int *height)
 {
   *width = 26;
   *height = 10;
@@ -7405,18 +7405,18 @@ static void colorsel_get_size(struct anonymous$16 *w, signed int *width, signed 
 
 // colorsel_handle_event
 // file ../../src/mwidget.c line 878
-static signed int colorsel_handle_event(struct anonymous$16 *w, enum anonymous$18 event, signed int ch)
+static signed int colorsel_handle_event(struct anonymous_16 *w, enum anonymous_18 event, signed int ch)
 {
   signed int act_x = (w->active & 0x70) >> 4;
   signed int act_y = (w->active & 0x07) >> 0;
   signed int i;
   signed int old_act_x = act_x;
   signed int old_act_y = act_y;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  signed int return_value_handle_focus$2;
-  signed int return_value_handle_focus$3;
-  char *return_value_strchr$4;
-  signed int return_value_handle_focus$5;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  signed int return_value_handle_focus_2;
+  signed int return_value_handle_focus_3;
+  char *return_value_strchr_4;
+  signed int return_value_handle_focus_5;
   if((signed int)event == WID_GET_FOCUS)
     return 100;
 
@@ -7437,8 +7437,8 @@ static signed int colorsel_handle_event(struct anonymous$16 *w, enum anonymous$1
       ;
       if(!(ch >= 256))
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)ch]) == 0))
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)ch]) == 0))
           ch=toupper(ch);
 
       }
@@ -7479,8 +7479,8 @@ static signed int colorsel_handle_event(struct anonymous$16 *w, enum anonymous$1
         {
           if((signed int)event == WID_KEY)
           {
-            return_value_handle_focus$2=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
-            return return_value_handle_focus$2;
+            return_value_handle_focus_2=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
+            return return_value_handle_focus_2;
           }
 
           break;
@@ -7489,16 +7489,16 @@ static signed int colorsel_handle_event(struct anonymous$16 *w, enum anonymous$1
         {
           if((signed int)event == WID_KEY)
           {
-            return_value_handle_focus$3=handle_focus((struct WIDGET *)w, 1, 0);
-            return return_value_handle_focus$3;
+            return_value_handle_focus_3=handle_focus((struct WIDGET *)w, 1, 0);
+            return return_value_handle_focus_3;
           }
 
           break;
         }
         default:
         {
-          return_value_strchr$4=strchr(w->hkeys, ch);
-          if(!(return_value_strchr$4 == ((char *)NULL)))
+          return_value_strchr_4=strchr(w->hkeys, ch);
+          if(!(return_value_strchr_4 == ((char *)NULL)))
           {
             if(ch == (signed int)w->hkeys[0l])
             {
@@ -7548,8 +7548,8 @@ static signed int colorsel_handle_event(struct anonymous$16 *w, enum anonymous$1
         if(old_act_x == act_x && old_act_y == act_y)
           goto __CPROVER_DUMP_L24;
 
-        return_value_handle_focus$5=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
-        return return_value_handle_focus$5;
+        return_value_handle_focus_5=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
+        return return_value_handle_focus_5;
       }
 
       else
@@ -7564,22 +7564,22 @@ static signed int colorsel_handle_event(struct anonymous$16 *w, enum anonymous$1
 
 // colorsel_paint
 // file ../../src/mwidget.c line 813
-static void colorsel_paint(struct anonymous$16 *w)
+static void colorsel_paint(struct anonymous_16 *w)
 {
   signed int y = w->w.y;
   signed int x = w->w.x;
   signed int act_x = (w->active & 0x70) >> 4;
   signed int act_y = (w->active & 0x07) >> 0;
-  enum anonymous$7 border[10l][26l];
-  enum anonymous$7 b[12l];
-  enum anonymous$7 attr;
-  enum anonymous$7 return_value_base_attr$1;
-  return_value_base_attr$1=base_attr(w->w.d, (enum anonymous$7)ATTR_DLG_FRAME);
-  win_attrset(return_value_base_attr$1);
+  enum anonymous_7 border[10l][26l];
+  enum anonymous_7 b[12l];
+  enum anonymous_7 attr;
+  enum anonymous_7 return_value_base_attr_1;
+  return_value_base_attr_1=base_attr(w->w.d, (enum anonymous_7)ATTR_DLG_FRAME);
+  win_attrset(return_value_base_attr_1);
   win_box(w->w.d->win, w->w.x, w->w.y, w->w.x + 8 * 3 + 1, w->w.y + 8 + 1);
-  enum anonymous$7 return_value_win_get_theme_color$2;
-  return_value_win_get_theme_color$2=win_get_theme_color((enum anonymous$7)ATTR_DLG_FRAME);
-  attr = (enum anonymous$7)(((signed int)return_value_win_get_theme_color$2 & 0x70) >> 4);
+  enum anonymous_7 return_value_win_get_theme_color_2;
+  return_value_win_get_theme_color_2=win_get_theme_color((enum anonymous_7)ATTR_DLG_FRAME);
+  attr = (enum anonymous_7)(((signed int)return_value_win_get_theme_color_2 & 0x70) >> 4);
   x = 0;
   for( ; !(x >= 2); x = x + 1)
   {
@@ -7598,44 +7598,44 @@ static void colorsel_paint(struct anonymous$16 *w)
     x = 0;
     for( ; !(x >= 8); x = x + 1)
     {
-      border[(signed long int)(y + 1)][(signed long int)(x * 3 + 3)] = (enum anonymous$7)x;
+      border[(signed long int)(y + 1)][(signed long int)(x * 3 + 3)] = (enum anonymous_7)x;
       border[(signed long int)(y + 1)][(signed long int)(x * 3 + 2)] = border[(signed long int)(y + 1)][(signed long int)(x * 3 + 3)];
       border[(signed long int)(y + 1)][(signed long int)(x * 3 + 1)] = border[(signed long int)(y + 1)][(signed long int)(x * 3 + 2)];
-      win_set_color((enum anonymous$7)((x << 4) + (y << 0)));
+      win_set_color((enum anonymous_7)((x << 4) + (y << 0)));
       win_print(w->w.d->win, w->w.x + x * 3 + 1, w->w.y + y + 1, " X ");
     }
   }
-  enum anonymous$7 hotkey = (enum anonymous$7)(w->w.has_focus != 0 ? ATTR_DLG_BUT_AHOTKEY : ATTR_DLG_BUT_IHOTKEY);
-  enum anonymous$7 text = (enum anonymous$7)(w->w.has_focus != 0 ? ATTR_DLG_BUT_ATEXT : ATTR_DLG_BUT_ITEXT);
+  enum anonymous_7 hotkey = (enum anonymous_7)(w->w.has_focus != 0 ? ATTR_DLG_BUT_AHOTKEY : ATTR_DLG_BUT_IHOTKEY);
+  enum anonymous_7 text = (enum anonymous_7)(w->w.has_focus != 0 ? ATTR_DLG_BUT_ATEXT : ATTR_DLG_BUT_ITEXT);
   char key[2l] = { ' ', 0 };
   const char *pat[2l] = { ".......< h      h >", "..^h  hv" };
   signed int p;
   signed int h = 0;
   p = 0;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   for( ; !(p >= 2); p = p + 1)
   {
     x = 0;
     do
     {
-      return_value_strlen$3=strlen(pat[(signed long int)p]);
-      if((unsigned long int)x >= return_value_strlen$3)
+      return_value_strlen_3=strlen(pat[(signed long int)p]);
+      if((unsigned long int)x >= return_value_strlen_3)
         break;
 
       if(!((signed int)pat[(signed long int)p][(signed long int)x] == 46))
       {
-        enum anonymous$7 return_value_win_get_theme_color$4;
-        return_value_win_get_theme_color$4=win_get_theme_color(text);
-        border[(signed long int)(x * p)][(signed long int)(x * (1 - p))] = (enum anonymous$7)(((signed int)return_value_win_get_theme_color$4 & 0x70) >> 4);
+        enum anonymous_7 return_value_win_get_theme_color_4;
+        return_value_win_get_theme_color_4=win_get_theme_color(text);
+        border[(signed long int)(x * p)][(signed long int)(x * (1 - p))] = (enum anonymous_7)(((signed int)return_value_win_get_theme_color_4 & 0x70) >> 4);
         win_attrset(text);
         key[(signed long int)0] = pat[(signed long int)p][(signed long int)x];
         if((signed int)pat[(signed long int)p][(signed long int)x] == 104)
         {
           if(!(w->hkeys[(signed long int)h] == 0))
           {
-            enum anonymous$7 return_value_win_get_theme_color$5;
-            return_value_win_get_theme_color$5=win_get_theme_color(hotkey);
-            border[(signed long int)(x * p)][(signed long int)(x * (1 - p))] = (enum anonymous$7)(((signed int)return_value_win_get_theme_color$5 & 0x70) >> 4);
+            enum anonymous_7 return_value_win_get_theme_color_5;
+            return_value_win_get_theme_color_5=win_get_theme_color(hotkey);
+            border[(signed long int)(x * p)][(signed long int)(x * (1 - p))] = (enum anonymous_7)(((signed int)return_value_win_get_theme_color_5 & 0x70) >> 4);
             win_attrset(hotkey);
             key[(signed long int)0] = w->hkeys[(signed long int)h];
           }
@@ -7658,13 +7658,13 @@ static void colorsel_paint(struct anonymous$16 *w)
   }
   b[(signed long int)5] = border[(signed long int)(act_y + 1)][(signed long int)(act_x * 3 + 4)];
   b[(signed long int)11] = border[(signed long int)(act_y + 1)][(signed long int)(act_x * 3)];
-  win_set_forground((enum anonymous$7)0x00);
+  win_set_forground((enum anonymous_7)0x00);
   win_box_color(w->w.d->win, w->w.x + act_x * 3, w->w.y + act_y, w->w.x + act_x * 3 + 4, w->w.y + act_y + 2, b);
 }
 
 // column_dim
 // file ../../src/mwidget.c line 1333
-static void column_dim(struct anonymous$17 *d, signed int start, signed int *width, signed int *height)
+static void column_dim(struct anonymous_17 *d, signed int start, signed int *width, signed int *height)
 {
   signed int i;
   *width = d->widget[(signed long int)start]->width;
@@ -7683,25 +7683,25 @@ static void column_dim(struct anonymous$17 *d, signed int start, signed int *wid
 
 // config_error
 // file ../../src/mikmod.c line 373
-static void config_error(const char *err, enum anonymous$30 state)
+static void config_error(const char *err, enum anonymous_30 state)
 {
   if(!(quiet == 0))
   {
-    const char *return_value_MikMod_strerror$1;
-    return_value_MikMod_strerror$1=MikMod_strerror(MikMod_errno);
-    exit_player(1, "%s: %s.\n", err, return_value_MikMod_strerror$1);
+    const char *return_value_MikMod_strerror_1;
+    return_value_MikMod_strerror_1=MikMod_strerror(MikMod_errno);
+    exit_player(1, "%s: %s.\n", err, return_value_MikMod_strerror_1);
   }
 
   else
   {
-    signed int return_value_win_get_panel$2;
-    return_value_win_get_panel$2=win_get_panel();
-    if(!(return_value_win_get_panel$2 == 6))
+    signed int return_value_win_get_panel_2;
+    return_value_win_get_panel_2=win_get_panel();
+    if(!(return_value_win_get_panel_2 == 6))
       win_change_panel(6);
 
-    const char *return_value_MikMod_strerror$3;
-    return_value_MikMod_strerror$3=MikMod_strerror(MikMod_errno);
-    sprintf(storage, "%s:\n  %s.\nTry changing the configuration.", err, return_value_MikMod_strerror$3);
+    const char *return_value_MikMod_strerror_3;
+    return_value_MikMod_strerror_3=MikMod_strerror(MikMod_errno);
+    sprintf(storage, "%s:\n  %s.\nTry changing the configuration.", err, return_value_MikMod_strerror_3);
     dlg_message_open(storage, "&Ok", 0, 1, (signed int (*)(struct WIDGET *, signed int, void *, void *))(void *)0, (void *)0);
     status.state = state;
   }
@@ -7716,7 +7716,7 @@ static signed int config_get_act_theme(void)
 
 // config_get_config
 // file ../../src/mconfedit.c line 686
-static void config_get_config(struct anonymous$3 *cfg)
+static void config_get_config(struct anonymous_3 *cfg)
 {
   signed int i;
   cfg->driver = (signed int)(signed long int)output_entries[(signed long int)0].data;
@@ -7781,7 +7781,7 @@ static void config_set_act_theme(signed int act_theme)
 
 // config_set_config
 // file ../../src/mconfedit.c line 628
-static void config_set_config(struct anonymous$3 *cfg)
+static void config_set_config(struct anonymous_3 *cfg)
 {
   signed int i;
   output_entries[(signed long int)0].data = (void *)(signed long int)cfg->driver;
@@ -7826,15 +7826,15 @@ static void config_set_config(struct anonymous$3 *cfg)
 // file ../../src/display.c line 637
 static void convert_string(char *str)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(str == ((char *)NULL)))
-      tmp_if_expr$1 = *str != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *str != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if(!((signed int)*str >= 32))
@@ -7847,18 +7847,18 @@ static void convert_string(char *str)
 
 // dialog_add
 // file ../../src/mwidget.c line 955
-static void dialog_add(struct anonymous$17 *d, struct WIDGET *w)
+static void dialog_add(struct anonymous_17 *d, struct WIDGET *w)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)d->widget, (unsigned long int)(d->cnt + 1) * sizeof(struct WIDGET *) /*8ul*/ );
-  d->widget = (struct WIDGET **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)d->widget, (unsigned long int)(d->cnt + 1) * sizeof(struct WIDGET *) /*8ul*/ );
+  d->widget = (struct WIDGET **)return_value_realloc_1;
   d->widget[(signed long int)d->cnt] = w;
   d->cnt = d->cnt + 1;
 }
 
 // dialog_close
 // file ../../src/mwidget.c line 1275
-void dialog_close(struct anonymous$17 *d)
+void dialog_close(struct anonymous_17 *d)
 {
   signed int i = 0;
   if(!(i >= d->cnt))
@@ -7878,28 +7878,28 @@ void dialog_close(struct anonymous$17 *d)
 // file ../../src/mwidget.c line 1287
 static signed int dialog_handle_key(struct MWINDOW *win, signed int ch)
 {
-  struct anonymous$17 *d = (struct anonymous$17 *)win->data;
+  struct anonymous_17 *d = (struct anonymous_17 *)win->data;
   signed int ret;
   signed int i;
-  ret=d->widget[(signed long int)d->active]->w_handle_event(d->widget[(signed long int)d->active], (enum anonymous$18)WID_KEY, ch);
-  _Bool tmp_if_expr$1;
+  ret=d->widget[(signed long int)d->active]->w_handle_event(d->widget[(signed long int)d->active], (enum anonymous_18)WID_KEY, ch);
+  _Bool tmp_if_expr_1;
   if(ret == 0)
   {
     i = 0;
     if(ret == 0)
-      tmp_if_expr$1 = i < d->cnt ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = i < d->cnt ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
-      ret=d->widget[(signed long int)i]->w_handle_event(d->widget[(signed long int)i], (enum anonymous$18)WID_HOTKEY, ch);
+      ret=d->widget[(signed long int)i]->w_handle_event(d->widget[(signed long int)i], (enum anonymous_18)WID_HOTKEY, ch);
       if(ret == 1)
       {
         d->widget[(signed long int)d->active]->has_focus = 0;
         d->widget[(signed long int)i]->has_focus = 1;
         d->active = i;
-        d->widget[(signed long int)d->active]->w_handle_event(d->widget[(signed long int)d->active], (enum anonymous$18)WID_GET_FOCUS, ret);
+        d->widget[(signed long int)d->active]->w_handle_event(d->widget[(signed long int)d->active], (enum anonymous_18)WID_GET_FOCUS, ret);
         dialog_repaint(win);
       }
 
@@ -7921,7 +7921,7 @@ static signed int dialog_handle_key(struct MWINDOW *win, signed int ch)
           d->active = 0;
 
       d->widget[(signed long int)d->active]->has_focus = 1;
-      d->widget[(signed long int)d->active]->w_handle_event(d->widget[(signed long int)d->active], (enum anonymous$18)WID_GET_FOCUS, ret);
+      d->widget[(signed long int)d->active]->w_handle_event(d->widget[(signed long int)d->active], (enum anonymous_18)WID_GET_FOCUS, ret);
       dialog_repaint(win);
     }
 
@@ -7932,7 +7932,7 @@ static signed int dialog_handle_key(struct MWINDOW *win, signed int ch)
 // file ../../src/mwidget.c line 1505
 static void dialog_handle_resize(struct MWINDOW *win, signed int dx, signed int dy)
 {
-  struct anonymous$17 *d = (struct anonymous$17 *)win->data;
+  struct anonymous_17 *d = (struct anonymous_17 *)win->data;
   signed int x;
   signed int y;
   signed int width;
@@ -7946,7 +7946,7 @@ static void dialog_handle_resize(struct MWINDOW *win, signed int dx, signed int 
 
 // dialog_layout
 // file ../../src/mwidget.c line 1350
-static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int *w_x, signed int *w_y, signed int *w_width, signed int *w_height)
+static void dialog_layout(struct anonymous_17 *d, signed int initial, signed int *w_x, signed int *w_y, signed int *w_width, signed int *w_height)
 {
   signed int m_y;
   signed int m_width = 0;
@@ -7968,22 +7968,22 @@ static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int
   c_height = m_height;
   c_width = c_height;
   height = c_width;
-  signed int tmp_if_expr$2;
-  signed int return_value_abs$1;
+  signed int tmp_if_expr_2;
+  signed int return_value_abs_1;
   if(!(i >= d->cnt))
   {
     spacing = d->widget[(signed long int)i]->spacing;
     if(i == 0 || !(spacing >= 0))
     {
       if(spacing == 0)
-        tmp_if_expr$2 = 1;
+        tmp_if_expr_2 = 1;
 
       else
       {
-        return_value_abs$1=abs(spacing);
-        tmp_if_expr$2 = return_value_abs$1;
+        return_value_abs_1=abs(spacing);
+        tmp_if_expr_2 = return_value_abs_1;
       }
-      c_spacing = tmp_if_expr$2;
+      c_spacing = tmp_if_expr_2;
     }
 
     x = 999;
@@ -8061,10 +8061,10 @@ static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int
   width = m_width;
   height = m_height;
   win_get_size_max(&m_y, &m_width, &m_height);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
   if(!(m_height + -2 >= height) || !(m_width + -2 >= width))
   {
     signed int dx = (width - m_width) + 2;
@@ -8091,12 +8091,12 @@ static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int
       {
         x = x + 1;
         if(!(x >= d->cnt))
-          tmp_if_expr$3 = d->widget[(signed long int)x]->spacing >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = d->widget[(signed long int)x]->spacing >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
       }
-      while(tmp_if_expr$3);
+      while(tmp_if_expr_3);
       if(!(x >= d->cnt))
         m_c_height_old = ((d->widget[(signed long int)x]->y + d->widget[(signed long int)x]->spacing) - d->widget[(signed long int)i]->y) + 1;
 
@@ -8110,12 +8110,12 @@ static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int
           m_x = (d->widget[(signed long int)x]->x + d->widget[(signed long int)x]->width) - 1;
 
         if(x >= 1)
-          tmp_if_expr$4 = d->widget[(signed long int)x]->spacing > 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = d->widget[(signed long int)x]->spacing > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
       }
-      while(tmp_if_expr$4);
+      while(tmp_if_expr_4);
       free_x = (old_width - 1) - m_x;
       m_c_height = 0;
       c_width = 0;
@@ -8145,19 +8145,19 @@ static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int
       free_x = free_x + (y - c_width_old);
       i = i + 1;
       if(!(i >= d->cnt))
-        tmp_if_expr$6 = d->widget[(signed long int)i]->spacing > 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = d->widget[(signed long int)i]->spacing > 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
       width = width + c_width + 1;
       if(!(m_c_height >= c_height))
         m_c_height = c_height;
 
       if(!(i >= d->cnt))
-        tmp_if_expr$5 = d->widget[(signed long int)i]->spacing >= 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = d->widget[(signed long int)i]->spacing >= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
       if(!(m_width >= width))
         m_width = width;
 
@@ -8185,15 +8185,15 @@ static void dialog_layout(struct anonymous$17 *d, signed int initial, signed int
 
 // dialog_new
 // file ../../src/mwidget.c line 1542
-struct anonymous$17 * dialog_new(void)
+struct anonymous_17 * dialog_new(void)
 {
-  struct anonymous$17 *d;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$17) /*32ul*/ );
-  d = (struct anonymous$17 *)return_value_malloc$1;
+  struct anonymous_17 *d;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_17) /*32ul*/ );
+  d = (struct anonymous_17 *)return_value_malloc_1;
   d->active = 0;
   d->cnt = 0;
-  d->attrs = (enum anonymous$7)ATTR_NONE;
+  d->attrs = (enum anonymous_7)ATTR_NONE;
   d->win = (struct MWINDOW *)(void *)0;
   d->widget = (struct WIDGET **)(void *)0;
   return d;
@@ -8201,7 +8201,7 @@ struct anonymous$17 * dialog_new(void)
 
 // dialog_open
 // file ../../src/mwidget.c line 1517
-void dialog_open(struct anonymous$17 *d, const char *title)
+void dialog_open(struct anonymous_17 *d, const char *title)
 {
   signed int x;
   signed int y;
@@ -8211,9 +8211,9 @@ void dialog_open(struct anonymous$17 *d, const char *title)
   if(title == ((const char *)NULL))
     title = "Dialog";
 
-  enum anonymous$7 return_value_base_attr$1;
-  return_value_base_attr$1=base_attr(d, (enum anonymous$7)ATTR_DLG_FRAME);
-  win_open(x, y, width, height, 1, title, return_value_base_attr$1);
+  enum anonymous_7 return_value_base_attr_1;
+  return_value_base_attr_1=base_attr(d, (enum anonymous_7)ATTR_DLG_FRAME);
+  win_open(x, y, width, height, 1, title, return_value_base_attr_1);
   win_set_repaint(dialog_repaint);
   win_set_handle_key(dialog_handle_key);
   win_set_resize(0, dialog_handle_resize);
@@ -8226,11 +8226,11 @@ void dialog_open(struct anonymous$17 *d, const char *title)
 // file ../../src/mwidget.c line 1262
 signed int dialog_repaint(struct MWINDOW *win)
 {
-  struct anonymous$17 *d = (struct anonymous$17 *)win->data;
+  struct anonymous_17 *d = (struct anonymous_17 *)win->data;
   signed int i = 0;
-  enum anonymous$7 return_value_base_attr$1;
-  return_value_base_attr$1=base_attr(d, (enum anonymous$7)ATTR_DLG_FRAME);
-  win_attrset(return_value_base_attr$1);
+  enum anonymous_7 return_value_base_attr_1;
+  return_value_base_attr_1=base_attr(d, (enum anonymous_7)ATTR_DLG_FRAME);
+  win_attrset(return_value_base_attr_1);
   win_clear(win);
   i = 0;
   if(!(i >= d->cnt))
@@ -8244,7 +8244,7 @@ signed int dialog_repaint(struct MWINDOW *win)
 
 // dialog_set_attr
 // file ../../src/mwidget.c line 1537
-void dialog_set_attr(struct anonymous$17 *d, enum anonymous$7 attrs)
+void dialog_set_attr(struct anonymous_17 *d, enum anonymous_7 attrs)
 {
   d->attrs = attrs;
 }
@@ -8253,18 +8253,18 @@ void dialog_set_attr(struct anonymous$17 *d, enum anonymous$7 attrs)
 // file ../../src/mlistedit.c line 133
 static signed int dirlist_cmp(char **small, char **big)
 {
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(*small);
-  signed int return_value_strcmp$1;
-  unsigned long int return_value_strlen$3;
-  if((signed int)(*small)[-1l + (signed long int)return_value_strlen$4] == 47)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(*small);
+  signed int return_value_strcmp_1;
+  unsigned long int return_value_strlen_3;
+  if((signed int)(*small)[-1l + (signed long int)return_value_strlen_4] == 47)
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(*big);
-    if((signed int)(*big)[-1l + (signed long int)return_value_strlen$2] == 47)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(*big);
+    if((signed int)(*big)[-1l + (signed long int)return_value_strlen_2] == 47)
     {
-      return_value_strcmp$1=strcmp(*small + (signed long int)2, *big + (signed long int)2);
-      return return_value_strcmp$1;
+      return_value_strcmp_1=strcmp(*small + (signed long int)2, *big + (signed long int)2);
+      return return_value_strcmp_1;
     }
 
     else
@@ -8273,32 +8273,32 @@ static signed int dirlist_cmp(char **small, char **big)
 
   else
   {
-    return_value_strlen$3=strlen(*big);
-    if((signed int)(*big)[-1l + (signed long int)return_value_strlen$3] == 47)
+    return_value_strlen_3=strlen(*big);
+    if((signed int)(*big)[-1l + (signed long int)return_value_strlen_3] == 47)
       return 1;
 
   }
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(*small + (signed long int)2, *big + (signed long int)2);
-  return return_value_strcmp$5;
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(*small + (signed long int)2, *big + (signed long int)2);
+  return return_value_strcmp_5;
 }
 
 // dirlist_search_cmp
 // file ../../src/mlistedit.c line 146
 static signed int dirlist_search_cmp(char *key, char **member)
 {
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(key);
-  signed int return_value_strcmp$1;
-  unsigned long int return_value_strlen$3;
-  if((signed int)key[-1l + (signed long int)return_value_strlen$4] == 47)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(key);
+  signed int return_value_strcmp_1;
+  unsigned long int return_value_strlen_3;
+  if((signed int)key[-1l + (signed long int)return_value_strlen_4] == 47)
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(*member);
-    if((signed int)(*member)[-1l + (signed long int)return_value_strlen$2] == 47)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(*member);
+    if((signed int)(*member)[-1l + (signed long int)return_value_strlen_2] == 47)
     {
-      return_value_strcmp$1=strcmp(key, *member + (signed long int)2);
-      return return_value_strcmp$1;
+      return_value_strcmp_1=strcmp(key, *member + (signed long int)2);
+      return return_value_strcmp_1;
     }
 
     else
@@ -8307,14 +8307,14 @@ static signed int dirlist_search_cmp(char *key, char **member)
 
   else
   {
-    return_value_strlen$3=strlen(*member);
-    if((signed int)(*member)[-1l + (signed long int)return_value_strlen$3] == 47)
+    return_value_strlen_3=strlen(*member);
+    if((signed int)(*member)[-1l + (signed long int)return_value_strlen_3] == 47)
       return 1;
 
   }
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(key, *member + (signed long int)2);
-  return return_value_strcmp$5;
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(key, *member + (signed long int)2);
+  return return_value_strcmp_5;
 }
 
 // display_banner
@@ -8326,16 +8326,16 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
   signed int i;
   signed int n;
   signed int t;
-  signed int display_banner$$1$$winx;
-  signed int display_banner$$1$$winy;
-  win_get_size(win, &display_banner$$1$$winx, &display_banner$$1$$winy);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(!(display_banner$$1$$winx >= 5) || !(display_banner$$1$$winy >= 1))
+  signed int display_banner__1__winx;
+  signed int display_banner__1__winy;
+  win_get_size(win, &display_banner__1__winx, &display_banner__1__winy);
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(!(display_banner__1__winx >= 5) || !(display_banner__1__winy >= 1))
     return skip;
 
   else
@@ -8344,7 +8344,7 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
     for( ; !(*buf == 0); t = t + 1)
     {
       n = 0;
-      for( ; wrap == 0 || !(n >= 200) && !(n >= display_banner$$1$$winx); n = n + 1)
+      for( ; wrap == 0 || !(n >= 200) && !(n >= display_banner__1__winx); n = n + 1)
       {
         if((signed int)*buf == 13)
           break;
@@ -8358,32 +8358,32 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
         buf = buf + 1l;
       }
       if((signed int)*buf == 13)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*buf == 10 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)*buf == 10 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         buf = buf + 1l;
 
     }
     if(!(skip >= 0))
       skip = 0;
 
-    if(!(t >= display_banner$$1$$winy + skip + -origin))
-      skip = (t - display_banner$$1$$winy) + origin;
+    if(!(t >= display_banner__1__winy + skip + -origin))
+      skip = (t - display_banner__1__winy) + origin;
 
     if(!(skip >= 0))
       skip = 0;
 
-    if(!(display_banner$$1$$winy >= t + origin + -skip))
-      t = (display_banner$$1$$winy - origin) + skip;
+    if(!(display_banner__1__winy >= t + origin + -skip))
+      t = (display_banner__1__winy - origin) + skip;
 
     buf = banner;
     i = 0;
     for( ; !(i >= t) && !(i >= skip); i = i + 1)
     {
       n = 0;
-      for( ; wrap == 0 || !(n >= 200) && !(n >= display_banner$$1$$winx); n = n + 1)
+      for( ; wrap == 0 || !(n >= 200) && !(n >= display_banner__1__winx); n = n + 1)
       {
         if((signed int)*buf == 13)
           break;
@@ -8397,11 +8397,11 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
         buf = buf + 1l;
       }
       if((signed int)*buf == 13)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*buf == 10 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)*buf == 10 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         buf = buf + 1l;
 
     }
@@ -8411,22 +8411,22 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
       n = 0;
       do
       {
-        if(wrap == 0 || !(n >= 200) && !(n >= display_banner$$1$$winx))
-          tmp_if_expr$3 = (signed int)*buf != 13 ? (_Bool)1 : (_Bool)0;
+        if(wrap == 0 || !(n >= 200) && !(n >= display_banner__1__winx))
+          tmp_if_expr_3 = (signed int)*buf != 13 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)*buf != 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)*buf != 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = *buf != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = *buf != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(!tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(!tmp_if_expr_5)
           break;
 
         if(!((signed int)*buf >= 32))
@@ -8441,11 +8441,11 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
       }
       while((_Bool)1);
       if((signed int)*buf == 13)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)*buf == 10 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)*buf == 10 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
         buf = buf + 1l;
 
       if(!(n == 0))
@@ -8461,7 +8461,7 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
     if(origin == 0)
     {
       i = i + (origin - skip);
-      for( ; !(i >= display_banner$$1$$winy); i = i + 1)
+      for( ; !(i >= display_banner__1__winy); i = i + 1)
         win_clrtoeol(win, 0, i);
     }
 
@@ -8474,7 +8474,7 @@ static signed int display_banner(struct MWINDOW *win, const char *banner, signed
 static void display_comment(struct MWINDOW *win, signed int diff)
 {
   first_comment = first_comment + diff;
-  win_attrset((enum anonymous$7)ATTR_HELP);
+  win_attrset((enum anonymous_7)ATTR_HELP);
   first_comment=display_banner(win, mf->comment, 0, first_comment, 1);
   win_status("");
 }
@@ -8484,11 +8484,11 @@ static void display_comment(struct MWINDOW *win, signed int diff)
 static void display_config(struct MWINDOW *win, signed int diff)
 {
   win_clear(win);
-  static signed int display_config$$1$$open = 0;
-  if(display_config$$1$$open == 0)
+  static signed int display_config__1__open = 0;
+  if(display_config__1__open == 0)
   {
     config_open();
-    display_config$$1$$open = 1;
+    display_config__1__open = 1;
   }
 
 }
@@ -8526,20 +8526,20 @@ static void display_driver_help(signed int drvno)
 
   printf("Parameter list for %s:\n", version);
   free((void *)version);
-  unsigned long int return_value_strlen$2;
-  char *tmp_post$3;
-  signed int tmp_post$4;
-  char *tmp_post$5;
-  signed int tmp_post$6;
-  char *tmp_post$7;
+  unsigned long int return_value_strlen_2;
+  char *tmp_post_3;
+  signed int tmp_post_4;
+  char *tmp_post_5;
+  signed int tmp_post_6;
+  char *tmp_post_7;
   if(cmdline == ((char *)NULL))
     printf("    No arguments with this driver\n");
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cmdline);
-    cmdend = cmdline + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cmdline);
+    cmdend = cmdline + (signed long int)return_value_strlen_1;
     cur = cmdline;
     while(!(cur >= cmdend))
     {
@@ -8553,8 +8553,8 @@ static void display_driver_help(signed int drvno)
       lineend=strchr(cur, 10);
       if(lineend == ((char *)NULL))
       {
-        return_value_strlen$2=strlen(cur);
-        lineend = cur + (signed long int)return_value_strlen$2;
+        return_value_strlen_2=strlen(cur);
+        lineend = cur + (signed long int)return_value_strlen_2;
       }
 
       *lineend = (char)0;
@@ -8562,9 +8562,9 @@ static void display_driver_help(signed int drvno)
       if(tmp == ((char *)NULL))
         break;
 
-      tmp_post$3 = tmp;
+      tmp_post_3 = tmp;
       tmp = tmp + 1l;
-      *tmp_post$3 = (char)0;
+      *tmp_post_3 = (char)0;
       valuetype = *tmp;
       tmp=strchr(tmp, 58);
       if(tmp == ((char *)NULL))
@@ -8578,15 +8578,15 @@ static void display_driver_help(signed int drvno)
       if(!((signed int)valuetype == 116))
         while(!(tmp >= tmp2) && !(nvalues >= 64))
         {
-          tmp_post$4 = nvalues;
+          tmp_post_4 = nvalues;
           nvalues = nvalues + 1;
-          values[(signed long int)tmp_post$4] = tmp;
+          values[(signed long int)tmp_post_4] = tmp;
           tmp=strchr(tmp, 44);
           if(!(tmp == ((char *)NULL)) && !(tmp >= tmp2))
           {
-            tmp_post$5 = tmp;
+            tmp_post_5 = tmp;
             tmp = tmp + 1l;
-            *tmp_post$5 = (char)0;
+            *tmp_post_5 = (char)0;
           }
 
           else
@@ -8595,14 +8595,14 @@ static void display_driver_help(signed int drvno)
 
       else
       {
-        tmp_post$6 = nvalues;
+        tmp_post_6 = nvalues;
         nvalues = nvalues + 1;
-        values[(signed long int)tmp_post$6] = tmp;
+        values[(signed long int)tmp_post_6] = tmp;
       }
       tmp = tmp2;
-      tmp_post$7 = tmp;
+      tmp_post_7 = tmp;
       tmp = tmp + 1l;
-      *tmp_post$7 = (char)0;
+      *tmp_post_7 = (char)0;
       printf("    %s (%s): %s\n", cur, (signed int)valuetype == 99 ? "choice" : ((signed int)valuetype == 116 ? "text" : ((signed int)valuetype == 114 ? "range" : ((signed int)valuetype == 98 ? "yes/no" : "unknown"))), tmp);
       if((signed int)valuetype == 99 || (signed int)valuetype == 114)
       {
@@ -8625,7 +8625,7 @@ void display_extractbanner(void)
 {
   if(quiet == 0)
   {
-    win_attrset((enum anonymous$7)ATTR_BANNER);
+    win_attrset((enum anonymous_7)ATTR_BANNER);
     display_banner(root, "'||''''|          .                         .   ||               \n ||  .   ... ....||. ... ..  ....    .... .||. ... .. ...   ... .\n ||''|    '|..'  ||   ||' '''' .|| .|   '' ||   ||  ||  || || || \n ||        .|.   ||   ||    .|' || ||      ||   ||  ||  ||  |''  \n.||.....|.|  ||. '|.'.||.   '|..'|' '|...' '|.'.||..||. ||.'||||.\n                                                          .|....'\n", 1, 0, 0);
     win_refresh();
   }
@@ -8636,14 +8636,14 @@ void display_extractbanner(void)
 // file ../../src/display.c line 351
 static void display_file(void)
 {
-  struct anonymous$0 *entry;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_strlen$5;
+  struct anonymous_0 *entry;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_strlen_5;
   if(quiet == 0)
   {
     storage[(signed long int)0] = (char)0;
     entry=PL_GetCurrent(&playlist);
-    if(!(entry == ((struct anonymous$0 *)NULL)))
+    if(!(entry == ((struct anonymous_0 *)NULL)))
     {
       char *archive = entry->archive;
       char *file;
@@ -8665,25 +8665,25 @@ static void display_file(void)
         file = entry->file;
       if(!(archive == ((char *)NULL)))
       {
-        return_value_strlen$5=strlen(file);
-        tmp_if_expr$6 = return_value_strlen$5 < (unsigned long int)(200 - 13) ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_5=strlen(file);
+        tmp_if_expr_6 = return_value_strlen_5 < (unsigned long int)(200 - 13) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(archive);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(file);
-        if(return_value_strlen$3 + return_value_strlen$4 >= 191ul)
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(archive);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(file);
+        if(return_value_strlen_3 + return_value_strlen_4 >= 191ul)
         {
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen(archive);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(file);
-          archive = archive + (signed long int)(return_value_strlen$1 - ((unsigned long int)(200 - 13) - return_value_strlen$2));
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen(archive);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(file);
+          archive = archive + (signed long int)(return_value_strlen_1 - ((unsigned long int)(200 - 13) - return_value_strlen_2));
           snprintf(storage, (unsigned long int)320, "File: %s (...%s)", file, archive);
         }
 
@@ -8709,12 +8709,12 @@ static signed int display_handle_key(struct MWINDOW *win, signed int ch)
   {
     case 0402:
     {
-      display_panel(win, 1, (enum anonymous$9)COM_NONE);
+      display_panel(win, 1, (enum anonymous_9)COM_NONE);
       break;
     }
     case 0403:
     {
-      display_panel(win, -1, (enum anonymous$9)COM_NONE);
+      display_panel(win, -1, (enum anonymous_9)COM_NONE);
       break;
     }
     case 0405:
@@ -8723,7 +8723,7 @@ static signed int display_handle_key(struct MWINDOW *win, signed int ch)
 
     case 0522:
     {
-      display_panel(win, win->height, (enum anonymous$9)COM_NONE);
+      display_panel(win, win->height, (enum anonymous_9)COM_NONE);
       break;
     }
     case 0404:
@@ -8732,17 +8732,17 @@ static signed int display_handle_key(struct MWINDOW *win, signed int ch)
 
     case 0523:
     {
-      display_panel(win, -win->height, (enum anonymous$9)COM_NONE);
+      display_panel(win, -win->height, (enum anonymous_9)COM_NONE);
       break;
     }
     case 0406:
     {
-      display_panel(win, -32000, (enum anonymous$9)COM_NONE);
+      display_panel(win, -32000, (enum anonymous_9)COM_NONE);
       break;
     }
     case 0550:
     {
-      display_panel(win, 32000, (enum anonymous$9)COM_NONE);
+      display_panel(win, 32000, (enum anonymous_9)COM_NONE);
       break;
     }
     case 0527:
@@ -8750,7 +8750,7 @@ static signed int display_handle_key(struct MWINDOW *win, signed int ch)
     case 13:
     {
       if(cur_display == 5)
-        display_panel(win, 0, (enum anonymous$9)MENU_ACTIVATE);
+        display_panel(win, 0, (enum anonymous_9)MENU_ACTIVATE);
 
       else
         return 0;
@@ -8766,15 +8766,15 @@ static signed int display_handle_key(struct MWINDOW *win, signed int ch)
 // file ../../src/display.c line 1155
 static signed int display_head_repaint(struct MWINDOW *win)
 {
-  signed int display_head_repaint$$1$$cur_panel;
-  display_head_repaint$$1$$cur_panel=win_get_panel();
-  if(!(display_head_repaint$$1$$cur_panel == cur_display))
+  signed int display_head_repaint__1__cur_panel;
+  display_head_repaint__1__cur_panel=win_get_panel();
+  if(!(display_head_repaint__1__cur_panel == cur_display))
     old_display = cur_display;
 
-  cur_display = display_head_repaint$$1$$cur_panel;
-  signed int return_value_display_header$1;
-  return_value_display_header$1=display_header();
-  return return_value_display_header$1;
+  cur_display = display_head_repaint__1__cur_panel;
+  signed int return_value_display_header_1;
+  return_value_display_header_1=display_header();
+  return return_value_display_header_1;
 }
 
 // display_head_resize
@@ -8795,9 +8795,9 @@ signed int display_header(void)
   {
     display_version();
     update_message();
-    signed int return_value_MP_Paused$1;
-    return_value_MP_Paused$1=MP_Paused();
-    if(!(return_value_MP_Paused$1 == 0))
+    signed int return_value_MP_Paused_1;
+    return_value_MP_Paused_1=MP_Paused();
+    if(!(return_value_MP_Paused_1 == 0))
     {
       display_pausebanner();
       set_window_title("paused");
@@ -8805,16 +8805,16 @@ signed int display_header(void)
 
     else
     {
-      win_attrset((enum anonymous$7)ATTR_SONG_STATUS);
+      win_attrset((enum anonymous_7)ATTR_SONG_STATUS);
       display_driver();
       display_file();
       display_name();
       display_status();
       display_title();
     }
-    signed int return_value_display_information$2;
-    return_value_display_information$2=display_information();
-    return return_value_display_information$2;
+    signed int return_value_display_information_2;
+    return_value_display_information_2=display_information();
+    return return_value_display_information_2;
   }
 }
 
@@ -8823,7 +8823,7 @@ signed int display_header(void)
 static void display_help(struct MWINDOW *win, signed int diff)
 {
   first_help = first_help + diff;
-  win_attrset((enum anonymous$7)ATTR_HELP);
+  win_attrset((enum anonymous_7)ATTR_HELP);
   static const char helptext[1065l] = { 'K', 'e', 'y', 's', ' ', 'h', 'e', 'l', 'p', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '(', 'd', 'e', 'p', 'e', 'n', 'd', 'i', 'n', 'g', ' ', 'o', 'n', ' ', 'y', 'o', 'u', 'r', ' ', 't', 'e', 'r', 'm', 'i', 'n', 'a', 'l', ' ', 'a', 'n', 'd', ' ', 'y', 'o', 'u', 'r', ' ', 'c', 'u', 'r', 's', 'e', 's', ' ', 'l', 'i', 'b', 'r', 'a', 'r', 'y', ',', '\n', '=', '=', '=', '=', '=', '=', '=', '=', '=', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'o', 'm', 'e', ' ', 'o', 'f', ' ', 't', 'h', 'e', 's', 'e', ' ', 'k', 'e', 'y', 's', ' ', 'm', 'i', 'g', 'h', 't', ' ', 'n', 'o', 't', ' ', 'b', 'e', ' ', 'r', 'e', 'c', 'o', 'g', 'n', 'i', 'z', 'e', 'd', ')', '\n', '\n', 'H', '/', 'F', '1', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'h', 'o', 'w', ' ', 'h', 'e', 'l', 'p', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '(', ')', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'd', 'e', 'c', 'r', 'e', 'a', 's', 'e', '/', 'i', 'n', 'c', 'r', 'e', 'a', 's', 'e', ' ', 't', 'e', 'm', 'p', 'o', '\n', 'S', '/', 'F', '2', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'h', 'o', 'w', ' ', 's', 'a', 'm', 'p', 'l', 'e', 's', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '{', '}', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'd', 'e', 'c', 'r', 'e', 'a', 's', 'e', '/', 'i', 'n', 'c', 'r', 'e', 'a', 's', 'e', ' ', 'b', 'p', 'm', '\n', 'I', '/', 'F', '3', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'h', 'o', 'w', ' ', 'i', 'n', 's', 't', 'r', 'u', 'm', 'e', 'n', 't', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ':', '/', ';', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 't', 'o', 'g', 'g', 'l', 'e', ' ', 'i', 'n', 't', 'e', 'r', 'p', 'o', 'l', 'a', 't', 'i', 'o', 'n', '\n', 'M', '/', 'F', '4', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'h', 'o', 'w', ' ', 'm', 'e', 's', 's', 'a', 'g', 'e', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'U', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 't', 'o', 'g', 'g', 'l', 'e', ' ', 's', 'u', 'r', 'r', 'o', 'u', 'n', 'd', ' ', 's', 'o', 'u', 'n', 'd', '\n', 'L', '/', 'F', '5', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'h', 'o', 'w', ' ', 'l', 'i', 's', 't', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '1', '.', '.', '0', ' ', ' ', ' ', ' ', ' ', ' ', 'v', 'o', 'l', 'u', 'm', 'e', ' ', '1', '0', '%', '.', '.', '1', '0', '0', '%', '\n', 'C', '/', 'F', '6', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'h', 'o', 'w', ' ', 'c', 'o', 'n', 'f', 'i', 'g', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '<', '>', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'd', 'e', 'c', 'r', 'e', 'a', 's', 'e', '/', 'i', 'n', 'c', 'r', 'e', 'a', 's', 'e', ' ', 'v', 'o', 'l', 'u', 'm', 'e', '\n', 'V', '/', 'F', '7', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'h', 'o', 'w', ' ', 'v', 'o', 'l', 'u', 'm', 'e', ' ', 'b', 'a', 'r', 's', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'P', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'w', 'i', 't', 'c', 'h', ' ', 't', 'o', ' ', 'p', 'r', 'e', 'v', 'i', 'o', 'u', 's', ' ', 'm', 'o', 'd', 'u', 'l', 'e', '\n', 'E', 'N', 'T', 'E', 'R', ' ', ' ', ' ', ' ', ' ', 'i', 'n', ' ', 'l', 'i', 's', 't', ' ', 'p', 'a', 'n', 'e', 'l', ',', ' ', 'a', 'c', 't', 'i', 'v', 'a', 't', 'e', ' ', 'm', 'e', 'n', 'u', ' ', ' ', 'N', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 's', 'w', 'i', 't', 'c', 'h', ' ', 't', 'o', ' ', 'n', 'e', 'x', 't', ' ', 'm', 'o', 'd', 'u', 'l', 'e', '\n', 'L', 'e', 'f', 't', '/', '-', ' ', ' ', ' ', ' ', 'p', 'r', 'e', 'v', 'i', 'o', 'u', 's', ' ', 'p', 'a', 't', 't', 'e', 'r', 'n', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'R', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'r', 'e', 's', 't', 'a', 'r', 't', ' ', 'm', 'o', 'd', 'u', 'l', 'e', '\n', 'R', 'i', 'g', 'h', 't', '/', '+', ' ', ' ', ' ', 'n', 'e', 'x', 't', ' ', 'p', 'a', 't', 't', 'e', 'r', 'n', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'S', 'p', 'a', 'c', 'e', ' ', ' ', ' ', ' ', ' ', 't', 'o', 'g', 'g', 'l', 'e', ' ', 'p', 'a', 'u', 's', 'e', '\n', 'U', 'p', '/', 'D', 'o', 'w', 'n', ' ', ' ', ' ', 's', 'c', 'r', 'o', 'l', 'l', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '^', 'L', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'r', 'e', 'f', 'r', 'e', 's', 'h', ' ', 's', 'c', 'r', 'e', 'e', 'n', '\n', 'P', 'g', 'U', 'p', '/', 'P', 'g', 'D', 'n', ' ', 's', 'c', 'r', 'o', 'l', 'l', ' ', 'p', 'a', 'n', 'e', 'l', ' ', '(', 'f', 'a', 's', 't', 'e', 'r', ')', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'F', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 't', 'o', 'g', 'g', 'l', 'e', ' ', 'f', 'a', 'k', 'e', '/', 'r', 'e', 'a', 'l', ' ', 'v', 'o', 'l', 'u', 'm', 'e', ' ', 'b', 'a', 'r', 's', '\n', 'H', 'o', 'm', 'e', '/', 'E', 'n', 'd', ' ', ' ', 's', 't', 'a', 'r', 't', '/', 'e', 'n', 'd', ' ', 'o', 'f', ' ', 'p', 'a', 'n', 'e', 'l', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'Q', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'e', 'x', 'i', 't', ' ', 'M', 'i', 'k', 'M', 'o', 'd', '\n', 0 };
   first_help=display_banner(win, helptext, 0, first_help, 0);
   win_status("");
@@ -8836,19 +8836,19 @@ static signed int display_information(void)
   char paneltitle[320l];
   signed int change = 0;
   signed int i;
-  enum anonymous$7 attr;
+  enum anonymous_7 attr;
   char *tmp;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  const unsigned short int **return_value___ctype_b_loc$13;
-  const unsigned short int **return_value___ctype_b_loc$12;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  const unsigned short int **return_value___ctype_b_loc_13;
+  const unsigned short int **return_value___ctype_b_loc_12;
   if(!(quiet == 0))
     return 1;
 
@@ -8863,23 +8863,23 @@ static signed int display_information(void)
     while((_Bool)1)
     {
       if(cur_display == 3)
-        tmp_if_expr$1 = !(((signed int)mf->flags & 0x0004) != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !(((signed int)mf->flags & 0x0004) != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(cur_display == 4)
-          tmp_if_expr$2 = !(mf->comment != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = !(mf->comment != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         cur_display = cur_display == old_display ? 2 : old_display;
         change = 1;
@@ -8901,82 +8901,82 @@ static signed int display_information(void)
       for( ; !(i >= 8); i = i + 1)
       {
         if(mf == ((struct MODULE *)NULL) && i == 2)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           if(i == 3)
           {
             if(mf == ((struct MODULE *)NULL))
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = !(((signed int)mf->flags & 0x0004) != 0) ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = !(((signed int)mf->flags & 0x0004) != 0) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
-          tmp_if_expr$9 = (_Bool)1;
+        if(tmp_if_expr_6)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
         {
           if(i == 4)
           {
             if(mf == ((struct MODULE *)NULL))
-              tmp_if_expr$7 = (_Bool)1;
+              tmp_if_expr_7 = (_Bool)1;
 
             else
-              tmp_if_expr$7 = !(mf->comment != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = !(mf->comment != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (_Bool)0;
+          tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
         }
-        if((!(mf == ((struct MODULE *)NULL)) || !(i == 7)) && !tmp_if_expr$9)
+        if((!(mf == ((struct MODULE *)NULL)) || !(i == 7)) && !tmp_if_expr_9)
         {
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(paneltitle);
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(paneltitle);
           static const char *panel_name[7l] = { "Help", "Samples", "Instruments", "Message", "playList", "Configuration", "Volume" };
-          snprintf(paneltitle + (signed long int)return_value_strlen$10, (unsigned long int)320, "%c%s%c", i == cur_display ? 91 : 32, panel_name[(signed long int)(i - 1)], i == cur_display ? 93 : 32);
+          snprintf(paneltitle + (signed long int)return_value_strlen_10, (unsigned long int)320, "%c%s%c", i == cur_display ? 91 : 32, panel_name[(signed long int)(i - 1)], i == cur_display ? 93 : 32);
         }
 
       }
       enlarge(0, paneltitle);
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(paneltitle);
-      tmp = paneltitle + (signed long int)return_value_strlen$11;
-      attr = (enum anonymous$7)ATTR_INFO_INACTIVE;
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(paneltitle);
+      tmp = paneltitle + (signed long int)return_value_strlen_11;
+      attr = (enum anonymous_7)ATTR_INFO_INACTIVE;
       do
       {
         tmp = tmp - 1l;
         if(!(tmp >= paneltitle))
           break;
 
-        enum anonymous$7 newattr = attr;
+        enum anonymous_7 newattr = attr;
         if((signed int)*tmp == 93)
-          newattr = (enum anonymous$7)ATTR_INFO_ACTIVE;
+          newattr = (enum anonymous_7)ATTR_INFO_ACTIVE;
 
         else
           if((signed int)tmp[1l] == 91)
-            newattr = (enum anonymous$7)ATTR_INFO_INACTIVE;
+            newattr = (enum anonymous_7)ATTR_INFO_INACTIVE;
 
           else
           {
-            return_value___ctype_b_loc$13=__ctype_b_loc();
-            if(!((256 & (signed int)(*return_value___ctype_b_loc$13)[(signed long int)(signed int)*tmp]) == 0))
-              newattr = (enum anonymous$7)((signed int)attr == ATTR_INFO_ACTIVE ? ATTR_INFO_AHOTKEY : ((signed int)attr == ATTR_INFO_INACTIVE ? ATTR_INFO_IHOTKEY : (signed int)newattr));
+            return_value___ctype_b_loc_13=__ctype_b_loc();
+            if(!((256 & (signed int)(*return_value___ctype_b_loc_13)[(signed long int)(signed int)*tmp]) == 0))
+              newattr = (enum anonymous_7)((signed int)attr == ATTR_INFO_ACTIVE ? ATTR_INFO_AHOTKEY : ((signed int)attr == ATTR_INFO_INACTIVE ? ATTR_INFO_IHOTKEY : (signed int)newattr));
 
             else
             {
-              return_value___ctype_b_loc$12=__ctype_b_loc();
-              if(!((256 & (signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)tmp[1l]]) == 0))
-                newattr = (enum anonymous$7)((signed int)attr == ATTR_INFO_AHOTKEY ? ATTR_INFO_ACTIVE : ((signed int)attr == ATTR_INFO_IHOTKEY ? ATTR_INFO_INACTIVE : (signed int)newattr));
+              return_value___ctype_b_loc_12=__ctype_b_loc();
+              if(!((256 & (signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)tmp[1l]]) == 0))
+                newattr = (enum anonymous_7)((signed int)attr == ATTR_INFO_AHOTKEY ? ATTR_INFO_ACTIVE : ((signed int)attr == ATTR_INFO_IHOTKEY ? ATTR_INFO_INACTIVE : (signed int)newattr));
 
             }
           }
@@ -9012,8 +9012,8 @@ void display_init(void)
   i = 1;
   for( ; !(i >= 8); i = i + 1)
   {
-    static enum anonymous$7 attrs[7l] = { (enum anonymous$7)ATTR_HELP, (enum anonymous$7)ATTR_SAMPLES, (enum anonymous$7)ATTR_SAMPLES, (enum anonymous$7)ATTR_HELP, (enum anonymous$7)ATTR_PLAYENTRY_INACTIVE,
-    (enum anonymous$7)ATTR_CONFIG, (enum anonymous$7)ATTR_VOLBAR };
+    static enum anonymous_7 attrs[7l] = { (enum anonymous_7)ATTR_HELP, (enum anonymous_7)ATTR_SAMPLES, (enum anonymous_7)ATTR_SAMPLES, (enum anonymous_7)ATTR_HELP, (enum anonymous_7)ATTR_PLAYENTRY_INACTIVE,
+    (enum anonymous_7)ATTR_CONFIG, (enum anonymous_7)ATTR_VOLBAR };
     win_panel_open(i, 0, 7, 999, 999, 0, (const char *)(void *)0, attrs[(signed long int)(i - 1)]);
     win_panel_set_repaint(i, display_panel_repaint);
     win_panel_set_handle_key(i, display_handle_key);
@@ -9030,22 +9030,22 @@ static void display_inst(struct MWINDOW *win, signed int diff)
   signed int count;
   signed int semicount;
   signed int t;
-  signed int display_inst$$1$$winx;
-  updatefirst(win, &first_inst, &display_inst$$1$$winx, &count, &semicount, diff, (signed int)mf->numins);
+  signed int display_inst__1__winx;
+  updatefirst(win, &first_inst, &display_inst__1__winx, &count, &semicount, diff, (signed int)mf->numins);
   win_clear(win);
   t = first_inst;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   for( ; !(t >= count + first_inst) && !(t >= (signed int)mf->numins); t = t + 1)
   {
     signed int x = t - first_inst < semicount ? 0 : halfwidth;
-    if(!(x >= display_inst$$1$$winx))
+    if(!(x >= display_inst__1__winx))
     {
       if(!((mf->instruments + (signed long int)t)->insname == ((char *)NULL)))
-        tmp_if_expr$1 = (mf->instruments + (signed long int)t)->insname;
+        tmp_if_expr_1 = (mf->instruments + (signed long int)t)->insname;
 
       else
-        tmp_if_expr$1 = "";
-      snprintf(storage, (unsigned long int)320, fmt_halfwidth, t, tmp_if_expr$1);
+        tmp_if_expr_1 = "";
+      snprintf(storage, (unsigned long int)320, fmt_halfwidth, t, tmp_if_expr_1);
       convert_string(storage);
       win_print(win, x, (t - first_inst) % semicount, storage);
     }
@@ -9063,22 +9063,22 @@ static void display_inst(struct MWINDOW *win, signed int diff)
 
 // display_list
 // file ../../src/display.c line 1000
-static void display_list(struct MWINDOW *win, signed int diff, enum anonymous$9 com)
+static void display_list(struct MWINDOW *win, signed int diff, enum anonymous_9 com)
 {
   signed int count;
   signed int semicount;
   signed int playcount;
   signed int t;
-  signed int display_list$$1$$winx;
+  signed int display_list__1__winx;
   signed int x;
   signed int width;
-  struct anonymous$0 *cur;
+  struct anonymous_0 *cur;
   playcount=PL_GetLength(&playlist);
   static signed int actLine = -1;
   if(actLine >= playcount)
     actLine = playcount - 1;
 
-  struct anonymous$0 *return_value_PL_GetEntry$1;
+  struct anonymous_0 *return_value_PL_GetEntry_1;
   if((signed int)com == MENU_ACTIVATE)
     list_open(&actLine);
 
@@ -9087,20 +9087,20 @@ static void display_list(struct MWINDOW *win, signed int diff, enum anonymous$9 
     win_clear(win);
     if(!(playcount == 0))
     {
-      win_get_size(win, &display_list$$1$$winx, &semicount);
+      win_get_size(win, &display_list__1__winx, &semicount);
       if(!(semicount >= 0))
         semicount = 0;
 
-      if(!(display_list$$1$$winx >= 10))
+      if(!(display_list__1__winx >= 10))
       {
         count = semicount;
-        width = display_list$$1$$winx;
+        width = display_list__1__winx;
       }
 
       else
       {
         count = semicount * 2;
-        width = display_list$$1$$winx >> 1;
+        width = display_list__1__winx >> 1;
       }
       cur=PL_GetCurrent(&playlist);
       if(!(actLine >= 0))
@@ -9131,10 +9131,10 @@ static void display_list(struct MWINDOW *win, signed int diff, enum anonymous$9 
       for( ; !(t >= count + first_list) && !(t >= playcount); t = t + 1)
       {
         x = t - first_list < semicount ? 0 : width;
-        if(!(x >= display_list$$1$$winx))
+        if(!(x >= display_list__1__winx))
         {
-          return_value_PL_GetEntry$1=PL_GetEntry(&playlist, t);
-          display_playentry(win, return_value_PL_GetEntry$1, cur, t, (t - first_list) % semicount, x, (signed int)(actLine == t), width);
+          return_value_PL_GetEntry_1=PL_GetEntry(&playlist, t);
+          display_playentry(win, return_value_PL_GetEntry_1, cur, t, (t - first_list) % semicount, x, (signed int)(actLine == t), width);
         }
 
       }
@@ -9173,7 +9173,7 @@ void display_loadbanner(void)
 {
   if(quiet == 0)
   {
-    win_attrset((enum anonymous$7)ATTR_BANNER);
+    win_attrset((enum anonymous_7)ATTR_BANNER);
     display_banner(root, "'||'                          '||   ||                 \n ||         ...    ....     .. ||  ...  .. ...    ... .\n ||       .|  '|. '' .||  .'  '||   ||   ||  ||  || || \n ||       ||   || .|' ||  |.   ||   ||   ||  ||   |''  \n.||.....|  '|..|' '|..'|' '|..'||. .||. .||. || .'||||.\n                                                .|....'\n", 1, 0, 0);
     win_refresh();
   }
@@ -9185,9 +9185,9 @@ void display_loadbanner(void)
 void display_message(char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   if(quiet == 0)
   {
     if(len >= 321)
@@ -9196,13 +9196,13 @@ void display_message(char *str)
     old_message[(signed long int)0] = (char)32;
     strncpy(&old_message[(signed long int)1], str, (unsigned long int)(len - 1));
     old_message[(signed long int)len] = (char)0;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen("-= MikMod 3.2.7 =-");
-    enlarge((signed int)return_value_strlen$2, old_message);
-    win_attrset((enum anonymous$7)ATTR_WARNING);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen("-= MikMod 3.2.7 =-");
-    win_print(root, (signed int)return_value_strlen$3, 0, str);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen("-= MikMod 3.2.7 =-");
+    enlarge((signed int)return_value_strlen_2, old_message);
+    win_attrset((enum anonymous_7)ATTR_WARNING);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen("-= MikMod 3.2.7 =-");
+    win_print(root, (signed int)return_value_strlen_3, 0, str);
     remove_msg = 1;
     start_time=time((signed long int *)(void *)0);
   }
@@ -9227,7 +9227,7 @@ static void display_name(void)
 
 // display_panel
 // file ../../src/display.c line 1087
-static void display_panel(struct MWINDOW *win, signed int diff, enum anonymous$9 com)
+static void display_panel(struct MWINDOW *win, signed int diff, enum anonymous_9 com)
 {
   dynamic_repaint = (void (*)(struct MWINDOW *))(void *)0;
   dynamic_repaint_win = win;
@@ -9277,7 +9277,7 @@ static void display_panel(struct MWINDOW *win, signed int diff, enum anonymous$9
 // file ../../src/display.c line 1165
 static signed int display_panel_repaint(struct MWINDOW *win)
 {
-  display_panel(win, 0, (enum anonymous$9)COM_NONE);
+  display_panel(win, 0, (enum anonymous_9)COM_NONE);
   return 1;
 }
 
@@ -9287,7 +9287,7 @@ void display_pausebanner(void)
 {
   if(quiet == 0)
   {
-    win_attrset((enum anonymous$7)ATTR_BANNER);
+    win_attrset((enum anonymous_7)ATTR_BANNER);
     display_banner(root, "'||''|.    |   '||'  '|' .|'''.| '||''''| '||''|.  \n ||   ||  |||   ||    |  ||..  '  ||  .    ||   || \n ||...|' |  ||  ||    |   ''|||.  ||''|    ||    ||\n ||     .''''|. ||    | .     '|| ||       ||    ||\n.||.   .|.  .||. '|..'  |'....|' .||.....|.||...|' \n", 1, 0, 0);
   }
 
@@ -9295,19 +9295,19 @@ void display_pausebanner(void)
 
 // display_playentry
 // file ../../src/display.c line 936
-static void display_playentry(struct MWINDOW *win, struct anonymous$0 *pos, struct anonymous$0 *cur, signed int nr, signed int y, signed int x, signed int reverse, signed int width)
+static void display_playentry(struct MWINDOW *win, struct anonymous_0 *pos, struct anonymous_0 *cur, signed int nr, signed int y, signed int x, signed int reverse, signed int width)
 {
   char *name;
   char sort;
-  char display_playentry$$1$$time[8l] = { 0, 0, 0, 0, 0, 0, 0, 0 };
+  char display_playentry__1__time[8l] = { 0, 0, 0, 0, 0, 0, 0, 0 };
   char tmpfmt[30l];
   signed int timelen = 0;
   if(pos->time >= 1)
   {
-    snprintf(display_playentry$$1$$time, (unsigned long int)7, " %2d:%02d", (signed int)((pos->time / 60) % 60), (signed int)(pos->time % 60));
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(display_playentry$$1$$time);
-    timelen = (signed int)return_value_strlen$1;
+    snprintf(display_playentry__1__time, (unsigned long int)7, " %2d:%02d", (signed int)((pos->time / 60) % 60), (signed int)(pos->time % 60));
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(display_playentry__1__time);
+    timelen = (signed int)return_value_strlen_1;
   }
 
   name=strrchr(pos->file, 47);
@@ -9325,20 +9325,20 @@ static void display_playentry(struct MWINDOW *win, struct anonymous$0 *pos, stru
 
     else
       sort = (char)32;
-  unsigned long int return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
   if(!(pos->archive == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(name);
-    if(!((unsigned long int)(width + -13 + -timelen) >= return_value_strlen$3))
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(name);
+    if(!((unsigned long int)(width + -13 + -timelen) >= return_value_strlen_3))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(name);
-      name = (name + (signed long int)return_value_strlen$2) - (signed long int)((width - 16) - timelen);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(name);
+      name = (name + (signed long int)return_value_strlen_2) - (signed long int)((width - 16) - timelen);
       if(!(timelen == 0))
       {
         sprintf(tmpfmt, "%%4i %%c...%%-%ds%%s(pack)", width - 22);
-        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry$$1$$time);
+        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry__1__time);
       }
 
       else
@@ -9352,7 +9352,7 @@ static void display_playentry(struct MWINDOW *win, struct anonymous$0 *pos, stru
       if(!(timelen == 0))
       {
         sprintf(tmpfmt, "%%4i %%c%%-%ds%%s(pack)", width - 19);
-        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry$$1$$time);
+        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry__1__time);
       }
 
       else
@@ -9364,16 +9364,16 @@ static void display_playentry(struct MWINDOW *win, struct anonymous$0 *pos, stru
 
   else
   {
-    return_value_strlen$5=strlen(name);
-    if(!((unsigned long int)(width + -7 + -timelen) >= return_value_strlen$5))
+    return_value_strlen_5=strlen(name);
+    if(!((unsigned long int)(width + -7 + -timelen) >= return_value_strlen_5))
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(name);
-      name = (name + (signed long int)return_value_strlen$4) - (signed long int)((width - 10) - timelen);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(name);
+      name = (name + (signed long int)return_value_strlen_4) - (signed long int)((width - 10) - timelen);
       if(!(timelen == 0))
       {
         sprintf(tmpfmt, "%%4i %%c...%%-%ds%%s", width - 16);
-        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry$$1$$time);
+        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry__1__time);
       }
 
       else
@@ -9387,7 +9387,7 @@ static void display_playentry(struct MWINDOW *win, struct anonymous$0 *pos, stru
       if(!(timelen == 0))
       {
         sprintf(tmpfmt, "%%4i %%c%%-%ds%%s", width - 13);
-        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry$$1$$time);
+        snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name, (const void *)display_playentry__1__time);
       }
 
       else
@@ -9396,7 +9396,7 @@ static void display_playentry(struct MWINDOW *win, struct anonymous$0 *pos, stru
         snprintf(storage, (unsigned long int)320, tmpfmt, nr, sort, name);
       }
   }
-  win_attrset((enum anonymous$7)(reverse != 0 ? ATTR_PLAYENTRY_ACTIVE : ATTR_PLAYENTRY_INACTIVE));
+  win_attrset((enum anonymous_7)(reverse != 0 ? ATTR_PLAYENTRY_ACTIVE : ATTR_PLAYENTRY_INACTIVE));
   win_print(win, x, y, storage);
 }
 
@@ -9407,22 +9407,22 @@ static void display_sample(struct MWINDOW *win, signed int diff)
   signed int count;
   signed int semicount;
   signed int t;
-  signed int display_sample$$1$$winx;
-  updatefirst(win, &first_sample, &display_sample$$1$$winx, &count, &semicount, diff, (signed int)mf->numsmp);
+  signed int display_sample__1__winx;
+  updatefirst(win, &first_sample, &display_sample__1__winx, &count, &semicount, diff, (signed int)mf->numsmp);
   win_clear(win);
   t = first_sample;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   for( ; !(t >= count + first_sample) && !(t >= (signed int)mf->numsmp); t = t + 1)
   {
     signed int x = t - first_sample < semicount ? 0 : halfwidth;
-    if(!(x >= display_sample$$1$$winx))
+    if(!(x >= display_sample__1__winx))
     {
       if(!((mf->samples + (signed long int)t)->samplename == ((char *)NULL)))
-        tmp_if_expr$1 = (mf->samples + (signed long int)t)->samplename;
+        tmp_if_expr_1 = (mf->samples + (signed long int)t)->samplename;
 
       else
-        tmp_if_expr$1 = "";
-      snprintf(storage, (unsigned long int)320, fmt_halfwidth, t, tmp_if_expr$1);
+        tmp_if_expr_1 = "";
+      snprintf(storage, (unsigned long int)320, fmt_halfwidth, t, tmp_if_expr_1);
       convert_string(storage);
       win_print(win, x, (t - first_sample) % semicount, storage);
     }
@@ -9461,21 +9461,21 @@ void display_status(void)
   if(quiet == 0)
   {
     remove_message();
-    signed int return_value_MP_Paused$1;
-    return_value_MP_Paused$1=MP_Paused();
-    if(!(mf == ((struct MODULE *)NULL)) && return_value_MP_Paused$1 == 0)
+    signed int return_value_MP_Paused_1;
+    return_value_MP_Paused_1=MP_Paused();
+    if(!(mf == ((struct MODULE *)NULL)) && return_value_MP_Paused_1 == 0)
     {
-      win_attrset((enum anonymous$7)ATTR_SONG_STATUS);
+      win_attrset((enum anonymous_7)ATTR_SONG_STATUS);
       if(!((signed int)mf->sngpos >= (signed int)mf->numpos))
       {
-        struct anonymous$0 *cur;
+        struct anonymous_0 *cur;
         cur=PL_GetCurrent(&playlist);
-        char display_status$$1$$1$$time[7l] = { 0, 0, 0, 0, 0, 0, 0 };
+        char display_status__1__1__time[7l] = { 0, 0, 0, 0, 0, 0, 0 };
         char channels[17l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-        if(!(cur == ((struct anonymous$0 *)NULL)))
+        if(!(cur == ((struct anonymous_0 *)NULL)))
         {
           if(cur->time >= 1)
-            snprintf(display_status$$1$$1$$time, (unsigned long int)7, "/%2d:%02d", (signed int)((cur->time / 60) % 60), (signed int)(cur->time % 60));
+            snprintf(display_status__1__1__time, (unsigned long int)7, "/%2d:%02d", (signed int)((cur->time / 60) % 60), (signed int)(cur->time % 60));
 
         }
 
@@ -9484,14 +9484,14 @@ void display_status(void)
 
         else
           snprintf(channels, (unsigned long int)17, "%2d/%d      ", mf->realchn, mf->numchn);
-        snprintf(storage, (unsigned long int)320, "pat:%03d/%03d pos:%2.2X spd:%2d/%3d vol:%3d%%/%3d%% time:%2d:%02d%s chn:%s", mf->sngpos, (signed int)mf->numpos - 1, mf->patpos, mf->sngspd, mf->bpm, (signed int)mf->volume * 100 + 127 >> 7, (signed int)md_volume * 100 + 127 >> 7, (signed int)(((mf->sngtime >> 10) / (unsigned int)60) % (unsigned int)60), (signed int)((mf->sngtime >> 10) % (unsigned int)60), (const void *)display_status$$1$$1$$time, (const void *)channels);
+        snprintf(storage, (unsigned long int)320, "pat:%03d/%03d pos:%2.2X spd:%2d/%3d vol:%3d%%/%3d%% time:%2d:%02d%s chn:%s", mf->sngpos, (signed int)mf->numpos - 1, mf->patpos, mf->sngspd, mf->bpm, (signed int)mf->volume * 100 + 127 >> 7, (signed int)md_volume * 100 + 127 >> 7, (signed int)(((mf->sngtime >> 10) / (unsigned int)60) % (unsigned int)60), (signed int)((mf->sngtime >> 10) % (unsigned int)60), (const void *)display_status__1__1__time, (const void *)channels);
         enlarge(0, storage);
         win_print(root, 0, 5, storage);
       }
 
       if(!(config.fakevolbars == 0))
       {
-        static struct anonymous$6 data;
+        static struct anonymous_6 data;
         MP_GetData(&data);
         cur_time=Time1000();
         i = 0;
@@ -9533,23 +9533,23 @@ void display_status(void)
 static void display_title(void)
 {
   char *file;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(mf == ((struct MODULE *)NULL)))
   {
     if(mf->songname == ((char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_strlen$1=strlen(mf->songname);
-      tmp_if_expr$2 = return_value_strlen$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_1=strlen(mf->songname);
+      tmp_if_expr_2 = return_value_strlen_1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
-      struct anonymous$0 *entry = (struct anonymous$0 *)(void *)0;
+      struct anonymous_0 *entry = (struct anonymous_0 *)(void *)0;
       entry=PL_GetCurrent(&playlist);
-      if(!(entry == ((struct anonymous$0 *)NULL)))
+      if(!(entry == ((struct anonymous_0 *)NULL)))
       {
         file = entry->file;
         if(config.fullpaths == 0)
@@ -9584,7 +9584,7 @@ static void display_version(void)
   {
     strcpy(storage, "-= MikMod 3.2.7 =-");
     enlarge(0, storage);
-    win_attrset((enum anonymous$7)ATTR_TITLE);
+    win_attrset((enum anonymous_7)ATTR_TITLE);
     win_print(root, 0, 0, storage);
   }
 
@@ -9596,19 +9596,19 @@ static void display_volbars(struct MWINDOW *win, signed int diff)
 {
   signed int count;
   signed int t;
-  signed int display_volbars$$1$$winx;
-  updatefirst(win, &first_volbar, &display_volbars$$1$$winx, &count, (signed int *)(void *)0, diff, (signed int)mf->numchn);
+  signed int display_volbars__1__winx;
+  updatefirst(win, &first_volbar, &display_volbars__1__winx, &count, (signed int *)(void *)0, diff, (signed int)mf->numchn);
   win_clear(win);
   t = first_volbar;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(t >= count + first_volbar))
-      tmp_if_expr$1 = t < (signed int)mf->numchn ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = t < (signed int)mf->numchn ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if((signed int)mf->numchn >= 101)
@@ -9630,21 +9630,21 @@ void dlg_error_show(const char *txt, ...)
   void **args;
   char *err = (char *)(void *)0;
   signed int len;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  if(!(*return_value___errno_location$2 == 0))
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  if(!(*return_value___errno_location_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    err=strerror(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    err=strerror(*return_value___errno_location_1);
   }
 
   args = (void **)&txt;
   vsnprintf(storage, (unsigned long int)320, txt, args);
   args = ((void **)NULL);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(storage);
-  len = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(storage);
+  len = (signed int)return_value_strlen_3;
   if(!(err == ((char *)NULL)) && !(len >= 320))
   {
     if(!(*err == 0))
@@ -9665,22 +9665,22 @@ void dlg_input_int(const char *msg, const char *buttons, signed int value, signe
   char title[40l];
   struct WIDGET *w;
   struct WIDGET *int_wid;
-  struct anonymous$19 *dlg_data;
-  struct anonymous$17 *d;
+  struct anonymous_19 *dlg_data;
+  struct anonymous_17 *d;
   d=dialog_new();
   if(!(msg == ((const char *)NULL)))
     wid_label_add(d, 1, msg);
 
   sprintf(title, "%d", max);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(title);
-  int_wid=wid_int_add(d, 1, value, (signed int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(title);
+  int_wid=wid_int_add(d, 1, value, (signed int)return_value_strlen_1);
   w=wid_button_add(d, 2, buttons, 0);
-  dlg_data=init_dlg_data(handle_dlg, int_wid, (void *)((struct anonymous$12 *)int_wid)->input, data);
+  dlg_data=init_dlg_data(handle_dlg, int_wid, (void *)((struct anonymous_12 *)int_wid)->input, data);
   dlg_data->min = min;
   dlg_data->max = max;
-  wid_set_func(int_wid, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus$link1, (void *)dlg_data);
-  wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus$link1, (void *)dlg_data);
+  wid_set_func(int_wid, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus_link1, (void *)dlg_data);
+  wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus_link1, (void *)dlg_data);
   sprintf(title, "Enter value(%d - %d)", min, max);
   dialog_open(d, title);
 }
@@ -9691,17 +9691,17 @@ void dlg_input_str(const char *msg, const char *buttons, const char *str, signed
 {
   struct WIDGET *w;
   struct WIDGET *str_wid;
-  struct anonymous$19 *dlg_data;
-  struct anonymous$17 *d;
+  struct anonymous_19 *dlg_data;
+  struct anonymous_17 *d;
   d=dialog_new();
   if(!(msg == ((const char *)NULL)))
     wid_label_add(d, 1, msg);
 
   str_wid=wid_str_add(d, 1, str, length);
   w=wid_button_add(d, 2, buttons, 0);
-  dlg_data=init_dlg_data(handle_dlg, str_wid, (void *)((struct anonymous$12 *)str_wid)->input, data);
-  wid_set_func(str_wid, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus$link1, (void *)dlg_data);
-  wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus$link1, (void *)dlg_data);
+  dlg_data=init_dlg_data(handle_dlg, str_wid, (void *)((struct anonymous_12 *)str_wid)->input, data);
+  wid_set_func(str_wid, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus_link1, (void *)dlg_data);
+  wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus_link1, (void *)dlg_data);
   dialog_open(d, "Enter string");
 }
 
@@ -9710,18 +9710,18 @@ void dlg_input_str(const char *msg, const char *buttons, const char *str, signed
 void dlg_message_open(const char *msg, const char *button, signed int active, signed int warn, signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), void *data)
 {
   struct WIDGET *w;
-  struct anonymous$17 *d;
+  struct anonymous_17 *d;
   d=dialog_new();
   if(!(warn == 0))
-    dialog_set_attr(d, (enum anonymous$7)ATTR_WARNING);
+    dialog_set_attr(d, (enum anonymous_7)ATTR_WARNING);
 
   wid_label_add(d, 1, msg);
   w=wid_button_add(d, 2, button, active);
-  struct anonymous$19 *return_value_init_dlg_data$1;
+  struct anonymous_19 *return_value_init_dlg_data_1;
   if(!(handle_dlg == ((signed int (*)(struct WIDGET *, signed int, void *, void *))NULL)))
   {
-    return_value_init_dlg_data$1=init_dlg_data(handle_dlg, w, (void *)0, data);
-    wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus$link1, (void *)return_value_init_dlg_data$1);
+    return_value_init_dlg_data_1=init_dlg_data(handle_dlg, w, (void *)0, data);
+    wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, handle_focus_link1, (void *)return_value_init_dlg_data_1);
   }
 
   dialog_open(d, "Message");
@@ -9757,16 +9757,16 @@ static void do_update(void)
       i = 0;
       for( ; !(i >= (signed int)mf->numchn); i = i + 1)
       {
-        playdata$link1.vstatus[(signed long int)i].time = cur_time;
-        signed int return_value_Player_GetChannelVoice$1;
-        return_value_Player_GetChannelVoice$1=Player_GetChannelVoice((unsigned char)i);
-        unsigned int return_value_Voice_RealVolume$2;
-        return_value_Voice_RealVolume$2=Voice_RealVolume((signed char)return_value_Player_GetChannelVoice$1);
-        playdata$link1.vstatus[(signed long int)i].volamp = (unsigned char)(return_value_Voice_RealVolume$2 * (unsigned int)playdata$link1.vinfo[(signed long int)i].volume >> 16);
+        playdata_link1.vstatus[(signed long int)i].time = cur_time;
+        signed int return_value_Player_GetChannelVoice_1;
+        return_value_Player_GetChannelVoice_1=Player_GetChannelVoice((unsigned char)i);
+        unsigned int return_value_Voice_RealVolume_2;
+        return_value_Voice_RealVolume_2=Voice_RealVolume((signed char)return_value_Player_GetChannelVoice_1);
+        playdata_link1.vstatus[(signed long int)i].volamp = (unsigned char)(return_value_Voice_RealVolume_2 * (unsigned int)playdata_link1.vinfo[(signed long int)i].volume >> 16);
       }
     }
 
-    Player_QueryVoices((unsigned short int)mf->numchn, playdata$link1.vinfo);
+    Player_QueryVoices((unsigned short int)mf->numchn, playdata_link1.vinfo);
   }
 
   if(!(locked == 0))
@@ -9816,7 +9816,7 @@ static void dynamic_display_inst(struct MWINDOW *win)
   signed int count;
   signed int semicount;
   signed int t;
-  signed int dynamic_display_inst$$1$$winx;
+  signed int dynamic_display_inst__1__winx;
   signed int voice;
   signed int vol;
   signed int chancount;
@@ -9824,13 +9824,13 @@ static void dynamic_display_inst(struct MWINDOW *win)
   if(cur_display == 3)
   {
     sampchar[(signed long int)1] = (char)0;
-    updatefirst(win, &first_inst, &dynamic_display_inst$$1$$winx, &count, &semicount, 0, (signed int)mf->numins);
+    updatefirst(win, &first_inst, &dynamic_display_inst__1__winx, &count, &semicount, 0, (signed int)mf->numins);
     t = first_inst;
     for( ; !(t >= count + first_inst) && !(t >= (signed int)mf->numins); t = t + 1)
     {
       signed int x = t - first_inst < semicount ? 0 : halfwidth;
       sampchar[(signed long int)0] = (char)32;
-      if(!(x >= dynamic_display_inst$$1$$winx))
+      if(!(x >= dynamic_display_inst__1__winx))
       {
         chancount = 0;
         vol = chancount;
@@ -9853,7 +9853,7 @@ static void dynamic_display_inst(struct MWINDOW *win)
         }
 
         else
-          win_attrset((enum anonymous$7)ATTR_SAMPLES);
+          win_attrset((enum anonymous_7)ATTR_SAMPLES);
         win_print(win, x + 3, (t - first_inst) % semicount, sampchar);
       }
 
@@ -9869,7 +9869,7 @@ static void dynamic_display_sample(struct MWINDOW *win)
   signed int count;
   signed int semicount;
   signed int t;
-  signed int dynamic_display_sample$$1$$winx;
+  signed int dynamic_display_sample__1__winx;
   signed int voice;
   signed int vol;
   signed int chancount;
@@ -9877,13 +9877,13 @@ static void dynamic_display_sample(struct MWINDOW *win)
   if(cur_display == 2)
   {
     sampchar[(signed long int)1] = (char)0;
-    updatefirst(win, &first_sample, &dynamic_display_sample$$1$$winx, &count, &semicount, 0, (signed int)mf->numsmp);
+    updatefirst(win, &first_sample, &dynamic_display_sample__1__winx, &count, &semicount, 0, (signed int)mf->numsmp);
     t = first_sample;
     for( ; !(t >= count + first_sample) && !(t >= (signed int)mf->numsmp); t = t + 1)
     {
       signed int x = t - first_sample < semicount ? 0 : halfwidth;
       sampchar[(signed long int)0] = (char)32;
-      if(!(x >= dynamic_display_sample$$1$$winx))
+      if(!(x >= dynamic_display_sample__1__winx))
       {
         chancount = 0;
         vol = chancount;
@@ -9916,7 +9916,7 @@ static void dynamic_display_sample(struct MWINDOW *win)
         }
 
         else
-          win_attrset((enum anonymous$7)ATTR_SAMPLES);
+          win_attrset((enum anonymous_7)ATTR_SAMPLES);
         win_print(win, x + 3, (t - first_sample) % semicount, sampchar);
       }
 
@@ -9933,22 +9933,22 @@ static void dynamic_display_volbars(struct MWINDOW *win)
   signed int t;
   signed int i;
   signed int v;
-  signed int dynamic_display_volbars$$1$$winx;
+  signed int dynamic_display_volbars__1__winx;
   signed int barw;
   signed int loww;
   signed int medw;
   char *tmp;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  char *tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  char *tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  char *tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  char *tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(cur_display == 7)
   {
-    updatefirst(win, &first_volbar, &dynamic_display_volbars$$1$$winx, &count, (signed int *)(void *)0, 0, (signed int)mf->numchn);
-    dynamic_display_volbars$$1$$winx = dynamic_display_volbars$$1$$winx - 5;
-    barw = dynamic_display_volbars$$1$$winx / 2;
+    updatefirst(win, &first_volbar, &dynamic_display_volbars__1__winx, &count, (signed int *)(void *)0, 0, (signed int)mf->numchn);
+    dynamic_display_volbars__1__winx = dynamic_display_volbars__1__winx - 5;
+    barw = dynamic_display_volbars__1__winx / 2;
     if(!(barw >= 3))
       goto __CPROVER_DUMP_L39;
 
@@ -9962,11 +9962,11 @@ static void dynamic_display_volbars(struct MWINDOW *win)
     do
     {
       if(!(t >= count + first_volbar))
-        tmp_if_expr$1 = t < (signed int)mf->numchn ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = t < (signed int)mf->numchn ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       v = ((signed int)playdata.vstatus[(signed long int)t].volamp * barw) / 32;
@@ -9983,28 +9983,28 @@ static void dynamic_display_volbars(struct MWINDOW *win)
         v = v / 2;
       if(!(v >= barw))
       {
-        win_attrset((enum anonymous$7)ATTR_VOLBAR);
+        win_attrset((enum anonymous_7)ATTR_VOLBAR);
         win_print(win, ((signed int)mf->numchn > 100 ? 6 : 5) + v, t - first_volbar, storage + (signed long int)v);
         storage[(signed long int)v] = (char)0;
       }
 
       if(!(loww + medw >= v))
       {
-        win_attrset((enum anonymous$7)ATTR_VOLBAR_HIGH);
+        win_attrset((enum anonymous_7)ATTR_VOLBAR_HIGH);
         win_print(win, ((signed int)mf->numchn > 100 ? 6 : 5) + loww + medw, t - first_volbar, storage + (signed long int)loww + (signed long int)medw);
         storage[(signed long int)(loww + medw)] = (char)0;
       }
 
       if(!(loww >= v))
       {
-        win_attrset((enum anonymous$7)ATTR_VOLBAR_MED);
+        win_attrset((enum anonymous_7)ATTR_VOLBAR_MED);
         win_print(win, ((signed int)mf->numchn > 100 ? 6 : 5) + loww, t - first_volbar, storage + (signed long int)loww);
         storage[(signed long int)loww] = (char)0;
       }
 
       if(v >= 1)
       {
-        win_attrset((enum anonymous$7)ATTR_VOLBAR_LOW);
+        win_attrset((enum anonymous_7)ATTR_VOLBAR_LOW);
         win_print(win, (signed int)mf->numchn > 100 ? 6 : 5, t - first_volbar, storage);
       }
 
@@ -10015,22 +10015,22 @@ static void dynamic_display_volbars(struct MWINDOW *win)
         do
         {
           if(!(i >= (signed int)mf->numins))
-            tmp_if_expr$2 = playdata.vinfo[(signed long int)t].i != &mf->instruments[(signed long int)i] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = playdata.vinfo[(signed long int)t].i != &mf->instruments[(signed long int)i] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(!tmp_if_expr_2)
             break;
 
           i = i + 1;
         }
         while((_Bool)1);
         if(!(playdata.vinfo[(signed long int)t].i->insname == ((char *)NULL)))
-          tmp_if_expr$3 = playdata.vinfo[(signed long int)t].i->insname;
+          tmp_if_expr_3 = playdata.vinfo[(signed long int)t].i->insname;
 
         else
-          tmp_if_expr$3 = "";
-        snprintf(storage, (unsigned long int)320, "%3i %s", i, tmp_if_expr$3);
+          tmp_if_expr_3 = "";
+        snprintf(storage, (unsigned long int)320, "%3i %s", i, tmp_if_expr_3);
       }
 
       else
@@ -10040,36 +10040,36 @@ static void dynamic_display_volbars(struct MWINDOW *win)
           do
           {
             if(!(i >= (signed int)mf->numsmp))
-              tmp_if_expr$4 = playdata.vinfo[(signed long int)t].s != &mf->samples[(signed long int)i] ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = playdata.vinfo[(signed long int)t].s != &mf->samples[(signed long int)i] ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               break;
 
             i = i + 1;
           }
           while((_Bool)1);
           if(!(playdata.vinfo[(signed long int)t].s->samplename == ((char *)NULL)))
-            tmp_if_expr$5 = playdata.vinfo[(signed long int)t].s->samplename;
+            tmp_if_expr_5 = playdata.vinfo[(signed long int)t].s->samplename;
 
           else
-            tmp_if_expr$5 = "";
-          snprintf(storage, (unsigned long int)320, "%3i %s", i, tmp_if_expr$5);
+            tmp_if_expr_5 = "";
+          snprintf(storage, (unsigned long int)320, "%3i %s", i, tmp_if_expr_5);
         }
 
       convert_string(storage);
       tmp = storage;
       v = 0;
-      for( ; !(*tmp == 0) && !(v >= dynamic_display_volbars$$1$$winx + -barw + -2); v = v + 1)
+      for( ; !(*tmp == 0) && !(v >= dynamic_display_volbars__1__winx + -barw + -2); v = v + 1)
         tmp = tmp + 1l;
-      for( ; !(v >= dynamic_display_volbars$$1$$winx + -barw + -2); v = v + 1)
+      for( ; !(v >= dynamic_display_volbars__1__winx + -barw + -2); v = v + 1)
       {
         *tmp = (char)32;
         tmp = tmp + 1l;
       }
       *tmp = (char)0;
-      win_attrset((enum anonymous$7)ATTR_VOLBAR_INSTR);
+      win_attrset((enum anonymous_7)ATTR_VOLBAR_INSTR);
       win_print(win, ((signed int)mf->numchn > 100 ? 6 : 5) + barw + 2, t - first_volbar, storage);
       t = t + 1;
     }
@@ -10080,11 +10080,11 @@ static void dynamic_display_volbars(struct MWINDOW *win)
     else
       snprintf(storage, (unsigned long int)320, "%d Channels", mf->numchn);
     if(config.forcesamples == 0)
-      tmp_if_expr$6 = ((signed int)mf->flags & 0x0004) != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = ((signed int)mf->flags & 0x0004) != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
       strcat(storage, ", displaying instrument names");
 
     else
@@ -10106,25 +10106,25 @@ __CPROVER_DUMP_L39:
 // file ../../src/display.c line 149
 static void enlarge(signed int x, char *str)
 {
-  signed int enlarge$$1$$winx;
-  signed int enlarge$$1$$winy;
+  signed int enlarge__1__winx;
+  signed int enlarge__1__winy;
   signed int len;
-  win_get_size(root, &enlarge$$1$$winx, &enlarge$$1$$winy);
-  enlarge$$1$$winx = enlarge$$1$$winx - x;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)return_value_strlen$1;
-  if(!(len >= enlarge$$1$$winx))
-    memset((void *)(str + (signed long int)len), 32, (unsigned long int)(enlarge$$1$$winx - len));
+  win_get_size(root, &enlarge__1__winx, &enlarge__1__winy);
+  enlarge__1__winx = enlarge__1__winx - x;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)return_value_strlen_1;
+  if(!(len >= enlarge__1__winx))
+    memset((void *)(str + (signed long int)len), 32, (unsigned long int)(enlarge__1__winx - len));
 
-  if(enlarge$$1$$winx >= 0)
-    str[(signed long int)enlarge$$1$$winx] = (char)0;
+  if(enlarge__1__winx >= 0)
+    str[(signed long int)enlarge__1__winx] = (char)0;
 
 }
 
 // entry_add
 // file ../../src/mlistedit.c line 233
-static signed int entry_add(char *path, char *file, struct anonymous$25 *data)
+static signed int entry_add(char *path, char *file, struct anonymous_25 *data)
 {
   signed int len;
   signed int old_len;
@@ -10134,15 +10134,15 @@ static signed int entry_add(char *path, char *file, struct anonymous$25 *data)
   if(!(file == ((char *)NULL)))
     strcat(buffer, file);
 
-  _Bool tmp_if_expr$1;
-  if(!(data == ((struct anonymous$25 *)NULL)))
+  _Bool tmp_if_expr_1;
+  if(!(data == ((struct anonymous_25 *)NULL)))
   {
     if(!(data->actline >= 0))
-      tmp_if_expr$1 = data->before_add != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = data->before_add != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       data->before_add = 0;
       PL_ClearList(&playlist);
@@ -10160,15 +10160,15 @@ static signed int entry_add(char *path, char *file, struct anonymous$25 *data)
   if(old_len == 0 && !(len == 0))
     PL_InitCurrent(&playlist);
 
-  char *tmp_if_expr$3;
-  if(!(data == ((struct anonymous$25 *)NULL)) && !(old_len >= len))
+  char *tmp_if_expr_3;
+  if(!(data == ((struct anonymous_25 *)NULL)) && !(old_len >= len))
   {
     signed int i;
     signed int start;
     signed int end;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)data->searchlist, sizeof(char *) /*8ul*/  * (unsigned long int)len);
-    data->searchlist = (char **)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)data->searchlist, sizeof(char *) /*8ul*/  * (unsigned long int)len);
+    data->searchlist = (char **)return_value_realloc_2;
     start = data->actline;
     if(!(start >= 0))
       start = old_len;
@@ -10177,15 +10177,15 @@ static signed int entry_add(char *path, char *file, struct anonymous$25 *data)
     i = start;
     for( ; !(i >= end); i = i + 1)
     {
-      struct anonymous$0 *entry;
+      struct anonymous_0 *entry;
       entry=PL_GetEntry(&playlist, i);
       char *ins;
       if(!(entry->archive == ((char *)NULL)))
-        tmp_if_expr$3 = entry->archive;
+        tmp_if_expr_3 = entry->archive;
 
       else
-        tmp_if_expr$3 = entry->file;
-      ins = tmp_if_expr$3;
+        tmp_if_expr_3 = entry->file;
+      ins = tmp_if_expr_3;
       entry_insert(0, data->cnt_list - 1, data->searchlist, ins);
       data->cnt_list = data->cnt_list + 1;
     }
@@ -10238,7 +10238,7 @@ static void entry_remove(signed int entry)
 
 // entry_remove_by_name
 // file ../../src/mlistedit.c line 282
-static signed int entry_remove_by_name(char *path, char *file, struct anonymous$25 *data)
+static signed int entry_remove_by_name(char *path, char *file, struct anonymous_25 *data)
 {
   signed int len;
   len=PL_GetLength(&playlist);
@@ -10250,34 +10250,34 @@ static signed int entry_remove_by_name(char *path, char *file, struct anonymous$
   if(!(file == ((char *)NULL)))
     strcat(buffer, file);
 
-  void *return_value_bsearch$1;
+  void *return_value_bsearch_1;
   for( ; data->cnt_list >= 1; data->cnt_list = data->cnt_list - 1)
   {
-    return_value_bsearch$1=bsearch((const void *)buffer, (const void *)data->searchlist, (unsigned long int)data->cnt_list, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())searchlist_search_cmp);
-    pos = (char **)return_value_bsearch$1;
+    return_value_bsearch_1=bsearch((const void *)buffer, (const void *)data->searchlist, (unsigned long int)data->cnt_list, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())searchlist_search_cmp);
+    pos = (char **)return_value_bsearch_1;
     if(pos == ((char **)NULL))
       break;
 
     for( ; !(pos >= data->searchlist + (signed long int)data->cnt_list + -1l); pos = pos + 1l)
       *pos = pos[(signed long int)1];
   }
-  void *return_value_realloc$2;
-  return_value_realloc$2=realloc((void *)data->searchlist, sizeof(char *) /*8ul*/  * (unsigned long int)data->cnt_list);
-  data->searchlist = (char **)return_value_realloc$2;
+  void *return_value_realloc_2;
+  return_value_realloc_2=realloc((void *)data->searchlist, sizeof(char *) /*8ul*/  * (unsigned long int)data->cnt_list);
+  data->searchlist = (char **)return_value_realloc_2;
   i = len - 1;
-  char *tmp_if_expr$3;
+  char *tmp_if_expr_3;
   for( ; i >= 0; i = i - 1)
   {
-    struct anonymous$0 *entry;
+    struct anonymous_0 *entry;
     entry=PL_GetEntry(&playlist, i);
     if(!(entry->archive == ((char *)NULL)))
-      tmp_if_expr$3 = entry->archive;
+      tmp_if_expr_3 = entry->archive;
 
     else
-      tmp_if_expr$3 = entry->file;
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(tmp_if_expr$3, buffer);
-    if(return_value_strcmp$4 == 0)
+      tmp_if_expr_3 = entry->file;
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(tmp_if_expr_3, buffer);
+    if(return_value_strcmp_4 == 0)
     {
       PL_DelEntry(&playlist, i);
       if(!(i >= data->actline))
@@ -10299,7 +10299,7 @@ static void exit_player(signed int exitcode, const char *message, ...)
   if((signed int)status.state >= 1)
   {
     MikMod_Exit();
-    status.state = (enum anonymous$30)STATE_INIT;
+    status.state = (enum anonymous_30)STATE_INIT;
   }
 
   if(!(message == ((const char *)NULL)))
@@ -10334,9 +10334,9 @@ static void exit_player(signed int exitcode, const char *message, ...)
 signed int file_exist(const char *file)
 {
   struct stat sb;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(file, &sb);
-  return return_value_stat$1 == -1 ? 0 : 1;
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(file, &sb);
+  return return_value_stat_1 == -1 ? 0 : 1;
 }
 
 // filename2short
@@ -10350,25 +10350,25 @@ static signed int filename2short(const char *l, char *s, signed int len_s)
 
 // freq_add
 // file ../../src/mlistedit.c line 688
-static void freq_add(struct anonymous$25 *data, enum anonymous$26 mode)
+static void freq_add(struct anonymous_25 *data, enum anonymous_26 mode)
 {
   char *file = data->w->entries[(signed long int)data->w->cur];
   char *path = data->path;
-  char freq_add$$1$$help[8192l];
-  signed int return_value_path_update$4;
-  return_value_path_update$4=path_update(freq_add$$1$$help, path, file + (signed long int)2);
-  signed int return_value_entry_add$2;
-  if(!(return_value_path_update$4 == 0))
-    freq_scan_dir(freq_add$$1$$help, data, mode);
+  char freq_add__1__help[8192l];
+  signed int return_value_path_update_4;
+  return_value_path_update_4=path_update(freq_add__1__help, path, file + (signed long int)2);
+  signed int return_value_entry_add_2;
+  if(!(return_value_path_update_4 == 0))
+    freq_scan_dir(freq_add__1__help, data, mode);
 
   else
     if((signed int)*file == 42)
     {
       if(!((signed int)mode == FREQ_ADD))
       {
-        signed int return_value_entry_remove_by_name$1;
-        return_value_entry_remove_by_name$1=entry_remove_by_name(path, file + (signed long int)2, data);
-        if(return_value_entry_remove_by_name$1 >= 1)
+        signed int return_value_entry_remove_by_name_1;
+        return_value_entry_remove_by_name_1=entry_remove_by_name(path, file + (signed long int)2, data);
+        if(return_value_entry_remove_by_name_1 >= 1)
           *file = (char)32;
 
       }
@@ -10378,8 +10378,8 @@ static void freq_add(struct anonymous$25 *data, enum anonymous$26 mode)
         {
           if(!(data->before_add == 0))
           {
-            return_value_entry_add$2=entry_add(path, file + (signed long int)2, data);
-            if(return_value_entry_add$2 >= 1)
+            return_value_entry_add_2=entry_add(path, file + (signed long int)2, data);
+            if(return_value_entry_add_2 >= 1)
               *file = (char)42;
 
           }
@@ -10391,9 +10391,9 @@ static void freq_add(struct anonymous$25 *data, enum anonymous$26 mode)
     else
       if(!((signed int)mode == FREQ_REMOVE))
       {
-        signed int return_value_entry_add$3;
-        return_value_entry_add$3=entry_add(path, file + (signed long int)2, data);
-        if(return_value_entry_add$3 >= 1)
+        signed int return_value_entry_add_3;
+        return_value_entry_add_3=entry_add(path, file + (signed long int)2, data);
+        if(return_value_entry_add_3 >= 1)
           *file = (char)42;
 
       }
@@ -10404,7 +10404,7 @@ static void freq_add(struct anonymous$25 *data, enum anonymous$26 mode)
 
 // freq_call_func
 // file ../../src/mlistedit.c line 725
-static signed int freq_call_func(signed int button, struct anonymous$25 *data)
+static signed int freq_call_func(signed int button, struct anonymous_25 *data)
 {
   char file[8192l];
   strcpy(file, data->path);
@@ -10416,38 +10416,38 @@ static signed int freq_call_func(signed int button, struct anonymous$25 *data)
 
 // freq_cd
 // file ../../src/mlistedit.c line 780
-static void freq_cd(struct anonymous$25 *data)
+static void freq_cd(struct anonymous_25 *data)
 {
   dlg_input_str("Change directory to:", "<&Ok>|&Cancel", data->path, 4096, cb_freq_cd_do, (void *)data);
 }
 
 // freq_changedir
 // file ../../src/mlistedit.c line 489
-static void freq_changedir(const char *path, struct anonymous$25 *data)
+static void freq_changedir(const char *path, struct anonymous_25 *data)
 {
-  char **freq_changedir$$1$$entries;
+  char **freq_changedir__1__entries;
   char *last = (char *)(void *)0;
   char *end;
   char **pos = (char **)(void *)0;
   char ch;
   signed int cnt;
-  freq_readdir(path, &freq_changedir$$1$$entries, &cnt, data);
-  if(cnt >= 1 && !(freq_changedir$$1$$entries == ((char **)NULL)))
+  freq_readdir(path, &freq_changedir__1__entries, &cnt, data);
+  if(cnt >= 1 && !(freq_changedir__1__entries == ((char **)NULL)))
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(path);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(data->path);
-    if(!(return_value_strlen$4 >= return_value_strlen$5))
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(path);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(data->path);
+    if(!(return_value_strlen_4 >= return_value_strlen_5))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(path);
-      last = data->path + (signed long int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(path);
+      last = data->path + (signed long int)return_value_strlen_1;
       ch = *last;
       *last = (char)0;
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(data->path, path);
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(data->path, path);
+      if(return_value_strcmp_3 == 0)
       {
         *last = ch;
         end = last;
@@ -10458,9 +10458,9 @@ static void freq_changedir(const char *path, struct anonymous$25 *data)
         if((signed int)*end == 47)
         {
           end[(signed long int)1] = (char)0;
-          void *return_value_bsearch$2;
-          return_value_bsearch$2=bsearch((const void *)last, (const void *)freq_changedir$$1$$entries, (unsigned long int)cnt, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())dirlist_search_cmp);
-          pos = (char **)return_value_bsearch$2;
+          void *return_value_bsearch_2;
+          return_value_bsearch_2=bsearch((const void *)last, (const void *)freq_changedir__1__entries, (unsigned long int)cnt, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())dirlist_search_cmp);
+          pos = (char **)return_value_bsearch_2;
         }
 
         else
@@ -10470,13 +10470,13 @@ static void freq_changedir(const char *path, struct anonymous$25 *data)
     }
 
     if(pos == ((char **)NULL))
-      pos = freq_changedir$$1$$entries;
+      pos = freq_changedir__1__entries;
 
     strcpy(data->path, path);
-    wid_list_set_entries(data->w, (const char **)freq_changedir$$1$$entries, 0, cnt);
-    wid_list_set_active(data->w, (signed int)(pos - freq_changedir$$1$$entries));
+    wid_list_set_entries(data->w, (const char **)freq_changedir__1__entries, 0, cnt);
+    wid_list_set_active(data->w, (signed int)(pos - freq_changedir__1__entries));
     freq_set_title(data);
-    freq_freedir(freq_changedir$$1$$entries, cnt);
+    freq_freedir(freq_changedir__1__entries, cnt);
   }
 
   else
@@ -10485,23 +10485,23 @@ static void freq_changedir(const char *path, struct anonymous$25 *data)
 
 // freq_check_searchlist
 // file ../../src/mlistedit.c line 181
-static void freq_check_searchlist(struct anonymous$25 *data)
+static void freq_check_searchlist(struct anonymous_25 *data)
 {
   signed int i;
   signed int len;
   len=PL_GetLength(&playlist);
   if(!(len == data->cnt_list))
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)data->searchlist, sizeof(char *) /*8ul*/  * (unsigned long int)len);
-    data->searchlist = (char **)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)data->searchlist, sizeof(char *) /*8ul*/  * (unsigned long int)len);
+    data->searchlist = (char **)return_value_realloc_1;
     data->cnt_list = len;
     if(!(len == 0))
     {
       i = 0;
       for( ; !(i >= len); i = i + 1)
       {
-        struct anonymous$0 *entry;
+        struct anonymous_0 *entry;
         entry=PL_GetEntry(&playlist, i);
         if(!(entry->archive == ((char *)NULL)))
           data->searchlist[(signed long int)i] = entry->archive;
@@ -10512,7 +10512,7 @@ static void freq_check_searchlist(struct anonymous$25 *data)
       qsort((void *)data->searchlist, (unsigned long int)len, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())searchlist_cmp);
     }
 
-    if(!(data->w == ((struct anonymous$14 *)NULL)))
+    if(!(data->w == ((struct anonymous_14 *)NULL)))
     {
       freq_set_marks(data->w->entries, data->w->cnt, data->path, data);
       wid_repaint((struct WIDGET *)data->w);
@@ -10524,11 +10524,11 @@ static void freq_check_searchlist(struct anonymous$25 *data)
 
 // freq_close
 // file ../../src/mlistedit.c line 713
-static void freq_close(struct anonymous$25 *data)
+static void freq_close(struct anonymous_25 *data)
 {
-  if(!(data == ((struct anonymous$25 *)NULL)))
+  if(!(data == ((struct anonymous_25 *)NULL)))
   {
-    if(!(data->w == ((struct anonymous$14 *)NULL)))
+    if(!(data->w == ((struct anonymous_14 *)NULL)))
       dialog_close(data->w->w.d);
 
     if(!(data->searchlist == ((char **)NULL)))
@@ -10542,31 +10542,31 @@ static void freq_close(struct anonymous$25 *data)
 
 // freq_data_init
 // file ../../src/mlistedit.c line 838
-static struct anonymous$25 * freq_data_init(const char *path)
+static struct anonymous_25 * freq_data_init(const char *path)
 {
   struct stat statbuf;
-  struct anonymous$25 *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$25) /*8240ul*/ );
-  data = (struct anonymous$25 *)return_value_malloc$1;
+  struct anonymous_25 *data;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_25) /*8240ul*/ );
+  data = (struct anonymous_25 *)return_value_malloc_1;
   char *pos;
   data->path[(signed long int)0] = (char)0;
-  signed int return_value_path_relative$3;
-  return_value_path_relative$3=path_relative(path);
-  if(!(return_value_path_relative$3 == 0))
+  signed int return_value_path_relative_3;
+  return_value_path_relative_3=path_relative(path);
+  if(!(return_value_path_relative_3 == 0))
   {
     getcwd(data->path, (unsigned long int)4096);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(data->path);
-    if(!((signed int)data->path[-1l + (signed long int)return_value_strlen$2] == 47))
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(data->path);
+    if(!((signed int)data->path[-1l + (signed long int)return_value_strlen_2] == 47))
       strcat(data->path, "/");
 
   }
 
   strcat(data->path, path);
-  signed int return_value_stat$4;
-  return_value_stat$4=stat(data->path, &statbuf);
-  if(!((61440u & statbuf.st_mode) == 16384u) || !(return_value_stat$4 == 0))
+  signed int return_value_stat_4;
+  return_value_stat_4=stat(data->path, &statbuf);
+  if(!((61440u & statbuf.st_mode) == 16384u) || !(return_value_stat_4 == 0))
   {
     pos=strrchr(data->path, 47);
     if(!(pos == ((char *)NULL)))
@@ -10574,16 +10574,16 @@ static struct anonymous$25 * freq_data_init(const char *path)
 
   }
 
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(data->path);
-  pos = data->path + (signed long int)return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(data->path);
+  pos = data->path + (signed long int)return_value_strlen_5;
   if(!((signed int)pos[-1l] == 47))
   {
     *pos = (char)47;
     pos[(signed long int)1] = (char)0;
   }
 
-  data->w = (struct anonymous$14 *)(void *)0;
+  data->w = (struct anonymous_14 *)(void *)0;
   data->before_add = 1;
   data->actline = -1;
   data->cnt_list = 0;
@@ -10606,18 +10606,18 @@ static void freq_freedir(char **entries, signed int cnt)
 
 // freq_hotlist
 // file ../../src/mlistedit.c line 583
-static void freq_hotlist(struct anonymous$25 *freq_data)
+static void freq_hotlist(struct anonymous_25 *freq_data)
 {
-  struct anonymous$17 *d;
+  struct anonymous_17 *d;
   d=dialog_new();
   struct WIDGET *w;
-  struct anonymous$27 *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$27) /*16ul*/ );
-  data = (struct anonymous$27 *)return_value_malloc$1;
+  struct anonymous_27 *data;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_27) /*16ul*/ );
+  data = (struct anonymous_27 *)return_value_malloc_1;
   w=wid_list_add(d, 1, (const char **)config.hotlist, config.cnt_hotlist);
   wid_set_size(w, 74, 10);
-  data->w = (struct anonymous$14 *)w;
+  data->w = (struct anonymous_14 *)w;
   data->freq = freq_data;
   wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, cb_hlist_list_focus, (void *)data);
   w=wid_button_add(d, 1, "<change &To>|&Add current|&Remove|&Cancel", 0);
@@ -10629,24 +10629,24 @@ static void freq_hotlist(struct anonymous$25 *freq_data)
 // file ../../src/mlistedit.c line 874
 void freq_open(const char *title, const char *path, signed int actline, signed int (*func)(signed int, char *, void *), void *data)
 {
-  struct anonymous$25 *freq_data;
-  struct anonymous$17 *d;
+  struct anonymous_25 *freq_data;
+  struct anonymous_17 *d;
   d=dialog_new();
   struct WIDGET *w;
-  char **freq_open$$1$$entries;
+  char **freq_open__1__entries;
   char *path_first = (char *)(void *)0;
   signed int cnt;
   freq_data=freq_data_init(path);
   freq_data->actline = actline;
   freq_data->handle_freq = func;
   freq_data->data = data;
-  freq_readdir(freq_data->path, &freq_open$$1$$entries, &cnt, freq_data);
-  if(freq_open$$1$$entries == ((char **)NULL) || cnt == 0)
+  freq_readdir(freq_data->path, &freq_open__1__entries, &cnt, freq_data);
+  if(freq_open__1__entries == ((char **)NULL) || cnt == 0)
   {
     path_first=strdup(freq_data->path);
     strcpy(freq_data->path, "/");
-    freq_readdir(freq_data->path, &freq_open$$1$$entries, &cnt, freq_data);
-    if(!(freq_open$$1$$entries == ((char **)NULL)) && !(cnt == 0))
+    freq_readdir(freq_data->path, &freq_open__1__entries, &cnt, freq_data);
+    if(!(freq_open__1__entries == ((char **)NULL)) && !(cnt == 0))
       goto __CPROVER_DUMP_L2;
 
     freq_close(freq_data);
@@ -10660,10 +10660,10 @@ void freq_open(const char *title, const char *path, signed int actline, signed i
 
   __CPROVER_DUMP_L2:
     ;
-    w=wid_list_add(d, 1, (const char **)freq_open$$1$$entries, cnt);
-    freq_data->w = (struct anonymous$14 *)w;
+    w=wid_list_add(d, 1, (const char **)freq_open__1__entries, cnt);
+    freq_data->w = (struct anonymous_14 *)w;
     wid_set_func(w, cb_freq_list_key, cb_freq_list_focus, (void *)freq_data);
-    freq_freedir(freq_open$$1$$entries, cnt);
+    freq_freedir(freq_open__1__entries, cnt);
     if(!(func == ((signed int (*)(signed int, char *, void *))NULL)))
       w=wid_button_add(d, 1, "&Add|&Toggle|&Cd|&Hlist|<&Ok>|&Back", 0);
 
@@ -10683,23 +10683,23 @@ void freq_open(const char *title, const char *path, signed int actline, signed i
 
 // freq_readdir
 // file ../../src/mlistedit.c line 412
-static void freq_readdir(const char *path, char ***entries, signed int *cnt, struct anonymous$25 *data)
+static void freq_readdir(const char *path, char ***entries, signed int *cnt, struct anonymous_25 *data)
 {
   signed int max;
   struct __dirstream *dir;
   dir=opendir(path);
   char file[8192l];
   char *pathend;
-  char *freq_readdir$$1$$help;
+  char *freq_readdir__1__help;
   struct dirent *entry;
   struct stat statbuf;
   strcpy(file, path);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(file);
-  pathend = file + (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(file);
+  pathend = file + (signed long int)return_value_strlen_1;
   *entries = (char **)(void *)0;
   *cnt = 0;
-  signed int tmp_post$6;
+  signed int tmp_post_6;
   if(!(dir == ((struct __dirstream *)NULL)))
   {
     *cnt = 0;
@@ -10713,31 +10713,31 @@ static void freq_readdir(const char *path, char ***entries, signed int *cnt, str
       if(*cnt >= max)
       {
         max = max + 10;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)*entries, sizeof(char *) /*8ul*/  * (unsigned long int)max);
-        *entries = (char **)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)*entries, sizeof(char *) /*8ul*/  * (unsigned long int)max);
+        *entries = (char **)return_value_realloc_2;
       }
 
       strcpy(pathend, entry->d_name);
-      signed int return_value_stat$3;
-      return_value_stat$3=stat(file, &statbuf);
-      if(return_value_stat$3 == 0)
+      signed int return_value_stat_3;
+      return_value_stat_3=stat(file, &statbuf);
+      if(return_value_stat_3 == 0)
       {
         if((61440u & statbuf.st_mode) == 16384u)
           strcat(pathend, "/");
 
       }
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(pathend);
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$4 + (unsigned long int)3));
-      freq_readdir$$1$$help = (char *)return_value_malloc$5;
-      strcpy(freq_readdir$$1$$help, "  ");
-      strcat(freq_readdir$$1$$help, pathend);
-      tmp_post$6 = *cnt;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(pathend);
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_4 + (unsigned long int)3));
+      freq_readdir__1__help = (char *)return_value_malloc_5;
+      strcpy(freq_readdir__1__help, "  ");
+      strcat(freq_readdir__1__help, pathend);
+      tmp_post_6 = *cnt;
       *cnt = *cnt + 1;
-      (*entries)[(signed long int)tmp_post$6] = freq_readdir$$1$$help;
+      (*entries)[(signed long int)tmp_post_6] = freq_readdir__1__help;
     }
     while((_Bool)1);
     freq_set_marks(*entries, *cnt, path, data);
@@ -10751,29 +10751,29 @@ static void freq_readdir(const char *path, char ***entries, signed int *cnt, str
 
 // freq_scan_dir
 // file ../../src/mlistedit.c line 655
-static void freq_scan_dir(char *path, struct anonymous$25 *data, enum anonymous$26 mode)
+static void freq_scan_dir(char *path, struct anonymous_25 *data, enum anonymous_26 mode)
 {
   signed int added = 0;
   signed int removed = 0;
-  struct anonymous$17 *d;
+  struct anonymous_17 *d;
   d=dialog_new();
   struct WIDGET *w;
-  struct anonymous$28 scan_data;
+  struct anonymous_28 scan_data;
   scan_data.stop = 0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(path);
-  unsigned long int return_value_strlen$1;
-  if(return_value_strlen$2 >= 51ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(path);
+  unsigned long int return_value_strlen_1;
+  if(return_value_strlen_2 >= 51ul)
   {
-    return_value_strlen$1=strlen(path);
-    sprintf(storage, "Scanning ...%-47s...\n   0 entrie(s) added,    0 entrie(s) removed", &path[(signed long int)(return_value_strlen$1 - (unsigned long int)47)]);
+    return_value_strlen_1=strlen(path);
+    sprintf(storage, "Scanning ...%-47s...\n   0 entrie(s) added,    0 entrie(s) removed", &path[(signed long int)(return_value_strlen_1 - (unsigned long int)47)]);
   }
 
   else
     sprintf(storage, "Scanning %-50s...\n   0 entrie(s) added,    0 entrie(s) removed", path);
-  struct WIDGET *return_value_wid_label_add$3;
-  return_value_wid_label_add$3=wid_label_add(d, 1, storage);
-  scan_data.w = (struct anonymous$11 *)return_value_wid_label_add$3;
+  struct WIDGET *return_value_wid_label_add_3;
+  return_value_wid_label_add_3=wid_label_add(d, 1, storage);
+  scan_data.w = (struct anonymous_11 *)return_value_wid_label_add_3;
   w=wid_button_add(d, 2, "&Stop", 0);
   wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, cb_scan_dir_stop_focus, (void *)&scan_data);
   dialog_open(d, "Message");
@@ -10787,38 +10787,38 @@ static void freq_scan_dir(char *path, struct anonymous$25 *data, enum anonymous$
 
 // freq_set_marks
 // file ../../src/mlistedit.c line 160
-static void freq_set_marks(char **entries, signed int cnt, const char *path, struct anonymous$25 *data)
+static void freq_set_marks(char **entries, signed int cnt, const char *path, struct anonymous_25 *data)
 {
   signed int i;
   char file[8192l];
   char *fstart;
   strcpy(file, path);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(file);
-  fstart = file + (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(file);
+  fstart = file + (signed long int)return_value_strlen_1;
   i = 0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  void *return_value_bsearch$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  void *return_value_bsearch_4;
   for( ; !(i >= cnt); i = i + 1)
   {
     strcpy(fstart, entries[(signed long int)i] + (signed long int)2);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(fstart);
-    if(!((signed int)fstart[(signed long int)return_value_strlen$2] == 47))
-      tmp_if_expr$3 = data->cnt_list > 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(fstart);
+    if(!((signed int)fstart[(signed long int)return_value_strlen_2] == 47))
+      tmp_if_expr_3 = data->cnt_list > 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_bsearch$4=bsearch((const void *)file, (const void *)data->searchlist, (unsigned long int)data->cnt_list, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())searchlist_search_cmp);
-      tmp_if_expr$5 = return_value_bsearch$4 != NULL ? (_Bool)1 : (_Bool)0;
+      return_value_bsearch_4=bsearch((const void *)file, (const void *)data->searchlist, (unsigned long int)data->cnt_list, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())searchlist_search_cmp);
+      tmp_if_expr_5 = return_value_bsearch_4 != NULL ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       *entries[(signed long int)i] = (char)42;
 
     else
@@ -10828,21 +10828,21 @@ static void freq_set_marks(char **entries, signed int cnt, const char *path, str
 
 // freq_set_title
 // file ../../src/mlistedit.c line 473
-static void freq_set_title(struct anonymous$25 *data)
+static void freq_set_title(struct anonymous_25 *data)
 {
   signed int max = data->w->w.width - 2;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(data->path);
-  if((unsigned long int)max >= return_value_strlen$2)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(data->path);
+  if((unsigned long int)max >= return_value_strlen_2)
     wid_list_set_title(data->w, data->path);
 
   else
   {
     char path[200l];
     strcpy(path, "...");
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(data->path);
-    strcat(path, &data->path[(signed long int)((return_value_strlen$1 - (unsigned long int)max) + (unsigned long int)3)]);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(data->path);
+    strcat(path, &data->path[(signed long int)((return_value_strlen_1 - (unsigned long int)max) + (unsigned long int)3)]);
     wid_list_set_title(data->w, path);
   }
   wid_repaint((struct WIDGET *)data->w);
@@ -10853,16 +10853,16 @@ static void freq_set_title(struct anonymous$25 *data)
 static char * get_argument(const char *label)
 {
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
-  for( ; !(i >= options$link1->cnt); i = i + 1)
-    if(!((options$link1->option + (signed long int)i)->label == ((char *)NULL)))
+  signed int return_value_strcasecmp_1;
+  for( ; !(i >= options_link1->cnt); i = i + 1)
+    if(!((options_link1->option + (signed long int)i)->label == ((char *)NULL)))
     {
-      return_value_strcasecmp$1=strcasecmp((options$link1->option + (signed long int)i)->label, label);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp((options_link1->option + (signed long int)i)->label, label);
+      if(return_value_strcasecmp_1 == 0)
       {
-        free((void *)(options$link1->option + (signed long int)i)->label);
-        (options$link1->option + (signed long int)i)->label = (char *)(void *)0;
-        return (options$link1->option + (signed long int)i)->arg;
+        free((void *)(options_link1->option + (signed long int)i)->label);
+        (options_link1->option + (signed long int)i)->label = (char *)(void *)0;
+        return (options_link1->option + (signed long int)i)->arg;
       }
 
     }
@@ -10875,20 +10875,20 @@ static char * get_argument(const char *label)
 static struct _OPTIONS * get_begin(const char *label)
 {
   signed int i = 0;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  for( ; !(i >= options$link1->cnt); i = i + 1)
-    if(!((options$link1->option + (signed long int)i)->label == ((char *)NULL)))
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  for( ; !(i >= options_link1->cnt); i = i + 1)
+    if(!((options_link1->option + (signed long int)i)->label == ((char *)NULL)))
     {
-      return_value_strcasecmp$2=strcasecmp((options$link1->option + (signed long int)i)->label, "BEGIN");
-      if(return_value_strcasecmp$2 == 0)
+      return_value_strcasecmp_2=strcasecmp((options_link1->option + (signed long int)i)->label, "BEGIN");
+      if(return_value_strcasecmp_2 == 0)
       {
-        return_value_strcasecmp$1=strcasecmp((options$link1->option + (signed long int)i)->arg, label);
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp((options_link1->option + (signed long int)i)->arg, label);
+        if(return_value_strcasecmp_1 == 0)
         {
-          free((void *)(options$link1->option + (signed long int)i)->label);
-          (options$link1->option + (signed long int)i)->label = (char *)(void *)0;
-          return (options$link1->option + (signed long int)i)->options;
+          free((void *)(options_link1->option + (signed long int)i)->label);
+          (options_link1->option + (signed long int)i)->label = (char *)(void *)0;
+          return (options_link1->option + (signed long int)i)->options;
         }
 
       }
@@ -10903,9 +10903,9 @@ static struct _OPTIONS * get_begin(const char *label)
 char * get_cfg_name(const char *name)
 {
   char *p;
-  const char *return_value_get_homedir$1;
-  return_value_get_homedir$1=get_homedir();
-  p=str_sprintf2("%s/%s", return_value_get_homedir$1, name);
+  const char *return_value_get_homedir_1;
+  return_value_get_homedir_1=get_homedir();
+  p=str_sprintf2("%s/%s", return_value_get_homedir_1, name);
   return p;
 }
 
@@ -10921,42 +10921,42 @@ static char * get_command(const char *pattern, const char *arc, const char *file
   char *command;
   char buf[4096l];
   pat=strdup(pattern);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pattern);
-  len = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pattern);
+  len = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   pos = pat;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   do
   {
     if(!(i >= 3))
-      tmp_if_expr$2 = *pos != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = *pos != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     if((signed int)*pos == 37)
     {
       if((signed int)pos[1l] == 65)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)pos[(signed long int)1] == 97 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)pos[(signed long int)1] == 97 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)pos[(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (signed int)pos[(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)pos[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)pos[(signed long int)1] == 100 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         switch((signed int)pos[(signed long int)1])
         {
@@ -10980,9 +10980,9 @@ static char * get_command(const char *pattern, const char *arc, const char *file
             arg[(signed long int)i] = dest;
         }
         pos[(signed long int)1] = (char)115;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(arg[(signed long int)i]);
-        len = len + (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(arg[(signed long int)i]);
+        len = len + (signed int)return_value_strlen_3;
         i = i + 1;
       }
 
@@ -10991,9 +10991,9 @@ static char * get_command(const char *pattern, const char *arc, const char *file
     pos = pos + 1l;
   }
   while((_Bool)1);
-  void *return_value_malloc$7;
-  return_value_malloc$7=malloc((unsigned long int)len * sizeof(char) /*1ul*/ );
-  command = (char *)return_value_malloc$7;
+  void *return_value_malloc_7;
+  return_value_malloc_7=malloc((unsigned long int)len * sizeof(char) /*1ul*/ );
+  command = (char *)return_value_malloc_7;
   snprintf(command, (unsigned long int)len, pat, arg[(signed long int)0], arg[(signed long int)1], arg[(signed long int)2]);
   free((void *)pat);
   return command;
@@ -11001,17 +11001,17 @@ static char * get_command(const char *pattern, const char *arc, const char *file
 
 // get_driver_options
 // file ../../src/mconfedit.c line 304
-static void get_driver_options(struct anonymous$8 *entry, struct anonymous$8 *dr_entry)
+static void get_driver_options(struct anonymous_8 *entry, struct anonymous_8 *dr_entry)
 {
   signed int drvno = (signed int)(signed long int)dr_entry->data;
   char *cmdline;
   if(!(entry->text == ((char *)NULL)))
     free((void *)entry->text);
 
-  signed int return_value_driver_get_info$5;
-  return_value_driver_get_info$5=driver_get_info(drvno, (char **)(void *)0, &cmdline);
-  unsigned long int return_value_strlen$1;
-  if(!(return_value_driver_get_info$5 == 0) && !(drvno == 0))
+  signed int return_value_driver_get_info_5;
+  return_value_driver_get_info_5=driver_get_info(drvno, (char **)(void *)0, &cmdline);
+  unsigned long int return_value_strlen_1;
+  if(!(return_value_driver_get_info_5 == 0) && !(drvno == 0))
   {
     signed int cmdlen = 0;
     signed int i = drvno;
@@ -11031,8 +11031,8 @@ static void get_driver_options(struct anonymous$8 *entry, struct anonymous$8 *dr
           end=strchr(pos, 124);
           if(end == ((char *)NULL))
           {
-            return_value_strlen$1=strlen(pos);
-            end = pos + (signed long int)return_value_strlen$1;
+            return_value_strlen_1=strlen(pos);
+            end = pos + (signed long int)return_value_strlen_1;
           }
 
         }
@@ -11043,17 +11043,17 @@ static void get_driver_options(struct anonymous$8 *entry, struct anonymous$8 *dr
 
     if(!(cmdline == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(cmdline);
-      cmdlen = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(cmdline);
+      cmdlen = (signed int)return_value_strlen_2;
       if((signed int)cmdline[(signed long int)(cmdlen + -1)] == 10)
         cmdlen = cmdlen - 1;
 
     }
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((((signed long int)cmdlen + end) - pos) + (signed long int)50 + (signed long int)20));
-    entry->text = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((((signed long int)cmdlen + end) - pos) + (signed long int)50 + (signed long int)20));
+    entry->text = (char *)return_value_malloc_3;
     strcpy(entry->text, "Driver &options [%s]|Enter driver options");
     if(cmdlen >= 1 && !(pos >= end))
     {
@@ -11073,16 +11073,16 @@ static void get_driver_options(struct anonymous$8 *entry, struct anonymous$8 *dr
 
   else
   {
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(char) /*1ul*/  * (unsigned long int)50);
-    entry->text = (char *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(char) /*1ul*/  * (unsigned long int)50);
+    entry->text = (char *)return_value_malloc_4;
     strcpy(entry->text, "Driver &options [%s]|Enter driver options:|255|16");
   }
 }
 
 // get_drivers
 // file ../../src/mconfedit.c line 246
-static void get_drivers(struct anonymous$8 *entry)
+static void get_drivers(struct anonymous_8 *entry)
 {
   char *driver;
   driver=MikMod_InfoDriver();
@@ -11092,15 +11092,15 @@ static void get_drivers(struct anonymous$8 *entry)
   signed int x = 0;
   signed int end;
   pos=skip_number(driver);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(pos == ((char *)NULL)))
-      tmp_if_expr$1 = *pos != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *pos != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if((signed int)*pos == 10)
@@ -11124,43 +11124,43 @@ static void get_drivers(struct anonymous$8 *entry)
   if(!(entry->text == ((char *)NULL)))
     free((void *)entry->text);
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 25));
-  entry->text = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 25));
+  entry->text = (char *)return_value_malloc_2;
   strcpy(entry->text, "&Driver [%o]|Autodetect");
   start=skip_number(driver);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(start == ((char *)NULL)))
-    tmp_if_expr$3 = *start != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = *start != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  end = (signed int)!tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  end = (signed int)!tmp_if_expr_3;
   pos = start;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  const unsigned short int **return_value___ctype_b_loc_5;
   for( ; end == 0; pos = pos + 1l)
   {
     end = (signed int)!(*pos != 0);
     if((signed int)*pos == 10)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       if(*pos == 0)
-        tmp_if_expr$6 = (signed int)*(pos - (signed long int)1) != 10 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (signed int)*(pos - (signed long int)1) != 10 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
       strcat(entry->text, "|");
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(entry->text);
-      len = (signed int)return_value_strlen$4;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(entry->text);
+      len = (signed int)return_value_strlen_4;
       x = 0;
       for( ; pos >= start + (signed long int)x && !(x >= 34); x = x + 1)
       {
@@ -11169,8 +11169,8 @@ static void get_drivers(struct anonymous$8 *entry)
 
         if((signed int)start[(signed long int)x] == 118)
         {
-          return_value___ctype_b_loc$5=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)start[(signed long int)x + 1l]]) == 0))
+          return_value___ctype_b_loc_5=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)start[(signed long int)x + 1l]]) == 0))
             break;
 
         }
@@ -11194,22 +11194,22 @@ static void get_drivers(struct anonymous$8 *entry)
 // file ../../src/mutilities.c line 123
 static const char * get_homedir(void)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   static const char *home = (const char *)(void *)0;
   if(home == ((const char *)NULL))
   {
     struct passwd *pw;
-    unsigned int return_value_getuid$1;
-    return_value_getuid$1=getuid();
-    pw=getpwuid(return_value_getuid$1);
+    unsigned int return_value_getuid_1;
+    return_value_getuid_1=getuid();
+    pw=getpwuid(return_value_getuid_1);
     static char d[4096l];
     memset((void *)d, 0, sizeof(char [4096l]) /*4096ul*/ );
     if(!(pw == ((struct passwd *)NULL)))
-      tmp_if_expr$2 = pw->pw_dir != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = pw->pw_dir != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       strncpy(d, pw->pw_dir, sizeof(char [4096l]) /*4096ul*/ );
       d[(signed long int)(sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1)] = (char)0;
@@ -11240,20 +11240,20 @@ static void get_int(const char *arg, signed int *value, signed int min, signed i
 {
   char *end = (char *)(void *)0;
   signed int t = min - 1;
-  signed long int return_value_strtol$1;
+  signed long int return_value_strtol_1;
   if(!(arg == ((const char *)NULL)))
   {
-    return_value_strtol$1=strtol(arg, &end, 10);
-    t = (signed int)return_value_strtol$1;
+    return_value_strtol_1=strtol(arg, &end, 10);
+    t = (signed int)return_value_strtol_1;
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(end == ((char *)NULL)))
-    tmp_if_expr$2 = !(*end != 0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = !(*end != 0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(t >= min && max >= t && tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(t >= min && max >= t && tmp_if_expr_2)
     *value = t;
 
   else
@@ -11262,49 +11262,49 @@ static void get_int(const char *arg, signed int *value, signed int min, signed i
 
 // get_text
 // file ../../src/mmenu.c line 106
-static char * get_text(struct anonymous$8 *entry, signed int width)
+static char * get_text(struct anonymous_8 *entry, signed int width)
 {
   char *text;
-  char get_text$$1$$help[100l];
+  char get_text__1__help[100l];
   char sub[100l];
   char *start;
   char *pos;
   signed int i;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$19;
-  unsigned long int return_value_strlen$7;
-  signed int return_value_menu_width$10;
-  signed int return_value_menu_width$9;
-  signed int tmp_post$11;
-  char *tmp_post$12;
-  signed int tmp_post$13;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  signed int tmp_post$21;
-  signed int tmp_post$22;
-  signed int tmp_post$23;
-  if(!(entry == ((struct anonymous$8 *)NULL)))
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_19;
+  unsigned long int return_value_strlen_7;
+  signed int return_value_menu_width_10;
+  signed int return_value_menu_width_9;
+  signed int tmp_post_11;
+  char *tmp_post_12;
+  signed int tmp_post_13;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  signed int tmp_post_21;
+  signed int tmp_post_22;
+  signed int tmp_post_23;
+  if(!(entry == ((struct anonymous_8 *)NULL)))
   {
     if((signed int)*entry->text == 37)
-      tmp_if_expr$1 = (signed int)entry->text[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)entry->text[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       text=strdup(&entry->text[(signed long int)1]);
 
     else
       text=strdup(entry->text);
-    signed int return_value_menu_is_sub$3;
-    return_value_menu_is_sub$3=menu_is_sub(entry);
-    if(!(return_value_menu_is_sub$3 == 0))
+    signed int return_value_menu_is_sub_3;
+    return_value_menu_is_sub_3=menu_is_sub(entry);
+    if(!(return_value_menu_is_sub_3 == 0))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(text);
-      i = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(text);
+      i = (signed int)return_value_strlen_2;
       text[(signed long int)(i - 2)] = (char)62;
       text[(signed long int)(i - 1)] = (char)0;
     }
@@ -11320,22 +11320,22 @@ static char * get_text(struct anonymous$8 *entry, signed int width)
       if(!(pos == ((char *)NULL)))
       {
         if((signed int)*pos == 37)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)*pos == 62 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_4 = (signed int)*pos == 62 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (signed int)*pos == 45 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (signed int)*pos == 45 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
     }
-    while(tmp_if_expr$6);
+    while(tmp_if_expr_6);
     if(!(pos == ((char *)NULL)))
     {
       if((signed int)*pos == 99)
@@ -11346,18 +11346,18 @@ static char * get_text(struct anonymous$8 *entry, signed int width)
         if((signed int)*pos == 111)
         {
           start=strchr(pos, 124);
-          tmp_if_expr$19 = start != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_19 = start != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$19 = (_Bool)0;
-        if(tmp_if_expr$19)
+          tmp_if_expr_19 = (_Bool)0;
+        if(tmp_if_expr_19)
         {
           char *s_pos = (char *)(void *)0;
           signed int max = 0;
-          strncpy(get_text$$1$$help, text, (unsigned long int)(start - text));
-          get_text$$1$$help[start - text] = (char)0;
-          get_text$$1$$help[pos - text] = (char)115;
+          strncpy(get_text__1__help, text, (unsigned long int)(start - text));
+          get_text__1__help[start - text] = (char)0;
+          get_text__1__help[pos - text] = (char)115;
           start = start + 1l;
           i = (signed int)(signed long int)entry->data;
           pos = start;
@@ -11376,27 +11376,27 @@ static char * get_text(struct anonymous$8 *entry, signed int width)
             }
 
           }
-          unsigned long int return_value_strlen$8;
-          return_value_strlen$8=strlen(pos);
-          if(!((unsigned long int)max >= return_value_strlen$8))
+          unsigned long int return_value_strlen_8;
+          return_value_strlen_8=strlen(pos);
+          if(!((unsigned long int)max >= return_value_strlen_8))
           {
-            return_value_strlen$7=strlen(pos);
-            max = (signed int)return_value_strlen$7;
+            return_value_strlen_7=strlen(pos);
+            max = (signed int)return_value_strlen_7;
           }
 
           if(width >= 1)
           {
-            return_value_menu_width$10=menu_width(get_text$$1$$help);
-            if(!(width >= -2 + return_value_menu_width$10 + max))
+            return_value_menu_width_10=menu_width(get_text__1__help);
+            if(!(width >= -2 + return_value_menu_width_10 + max))
             {
-              return_value_menu_width$9=menu_width(get_text$$1$$help);
-              max = (width - return_value_menu_width$9) + 2;
+              return_value_menu_width_9=menu_width(get_text__1__help);
+              max = (width - return_value_menu_width_9) + 2;
             }
 
           }
 
           i = 0;
-          for( ; !(s_pos == ((char *)NULL)); sub[(signed long int)tmp_post$11] = *tmp_post$12)
+          for( ; !(s_pos == ((char *)NULL)); sub[(signed long int)tmp_post_11] = *tmp_post_12)
           {
             if(*s_pos == 0)
               break;
@@ -11404,60 +11404,60 @@ static char * get_text(struct anonymous$8 *entry, signed int width)
             if((signed int)*s_pos == 124)
               break;
 
-            tmp_post$11 = i;
+            tmp_post_11 = i;
             i = i + 1;
-            tmp_post$12 = s_pos;
+            tmp_post_12 = s_pos;
             s_pos = s_pos + 1l;
           }
-          for( ; !(i >= max); sub[(signed long int)tmp_post$13] = (char)32)
+          for( ; !(i >= max); sub[(signed long int)tmp_post_13] = (char)32)
           {
-            tmp_post$13 = i;
+            tmp_post_13 = i;
             i = i + 1;
           }
           sub[(signed long int)max] = (char)0;
-          sprintf(storage, get_text$$1$$help, (const void *)sub);
+          sprintf(storage, get_text__1__help, (const void *)sub);
         }
 
         else
         {
           if((signed int)*pos == 100)
-            tmp_if_expr$17 = (_Bool)1;
+            tmp_if_expr_17 = (_Bool)1;
 
           else
-            tmp_if_expr$17 = (signed int)*pos == 115 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$17)
+            tmp_if_expr_17 = (signed int)*pos == 115 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_17)
           {
             start=strchr(pos, 124);
-            tmp_if_expr$18 = start != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_18 = start != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(tmp_if_expr_18)
           {
             char *right;
-            char *return_value_strrchr$14;
-            return_value_strrchr$14=strrchr(start, 124);
-            right = return_value_strrchr$14 + (signed long int)1;
-            strncpy(get_text$$1$$help, text, (unsigned long int)(pos - text));
-            get_text$$1$$help[pos - text] = (char)0;
+            char *return_value_strrchr_14;
+            return_value_strrchr_14=strrchr(start, 124);
+            right = return_value_strrchr_14 + (signed long int)1;
+            strncpy(get_text__1__help, text, (unsigned long int)(pos - text));
+            get_text__1__help[pos - text] = (char)0;
             if((signed int)*pos == 100)
             {
-              unsigned long int return_value_strlen$15;
-              return_value_strlen$15=strlen(right);
-              sprintf(sub, "%d", (signed int)return_value_strlen$15);
-              strcat(get_text$$1$$help, sub);
+              unsigned long int return_value_strlen_15;
+              return_value_strlen_15=strlen(right);
+              sprintf(sub, "%d", (signed int)return_value_strlen_15);
+              strcat(get_text__1__help, sub);
             }
 
             else
-              strcat(get_text$$1$$help, right);
-            unsigned long int return_value_strlen$16;
-            return_value_strlen$16=strlen(get_text$$1$$help);
-            i = (signed int)return_value_strlen$16;
-            strncat(get_text$$1$$help, pos, (unsigned long int)(start - pos));
-            get_text$$1$$help[((signed long int)i + start) - pos] = (char)0;
+              strcat(get_text__1__help, right);
+            unsigned long int return_value_strlen_16;
+            return_value_strlen_16=strlen(get_text__1__help);
+            i = (signed int)return_value_strlen_16;
+            strncat(get_text__1__help, pos, (unsigned long int)(start - pos));
+            get_text__1__help[((signed long int)i + start) - pos] = (char)0;
             if((signed int)*pos == 100)
-              sprintf(storage, get_text$$1$$help, (signed int)(signed long int)entry->data);
+              sprintf(storage, get_text__1__help, (signed int)(signed long int)entry->data);
 
             else
             {
@@ -11466,7 +11466,7 @@ static char * get_text(struct anonymous$8 *entry, signed int width)
               pos = (char *)entry->data;
               ch = pos[(signed long int)i];
               pos[(signed long int)i] = (char)0;
-              sprintf(storage, get_text$$1$$help, pos);
+              sprintf(storage, get_text__1__help, pos);
               pos[(signed long int)i] = ch;
             }
           }
@@ -11480,28 +11480,28 @@ static char * get_text(struct anonymous$8 *entry, signed int width)
     else
       sprintf(storage, "%s", text);
     free((void *)text);
-    unsigned long int return_value_strlen$20;
-    return_value_strlen$20=strlen(storage);
-    i = (signed int)return_value_strlen$20;
-    signed int return_value_menu_is_sub$24;
-    return_value_menu_is_sub$24=menu_is_sub(entry);
-    if(!(return_value_menu_is_sub$24 == 0))
+    unsigned long int return_value_strlen_20;
+    return_value_strlen_20=strlen(storage);
+    i = (signed int)return_value_strlen_20;
+    signed int return_value_menu_is_sub_24;
+    return_value_menu_is_sub_24=menu_is_sub(entry);
+    if(!(return_value_menu_is_sub_24 == 0))
     {
       i = i - 1;
-      for( ; !(i >= width); storage[(signed long int)tmp_post$21] = (char)32)
+      for( ; !(i >= width); storage[(signed long int)tmp_post_21] = (char)32)
       {
-        tmp_post$21 = i;
+        tmp_post_21 = i;
         i = i + 1;
       }
-      tmp_post$22 = i;
+      tmp_post_22 = i;
       i = i + 1;
-      storage[(signed long int)tmp_post$22] = (char)62;
+      storage[(signed long int)tmp_post_22] = (char)62;
     }
 
     else
-      for( ; !(i >= width); storage[(signed long int)tmp_post$23] = (char)32)
+      for( ; !(i >= width); storage[(signed long int)tmp_post_23] = (char)32)
       {
-        tmp_post$23 = i;
+        tmp_post_23 = i;
         i = i + 1;
       }
     storage[(signed long int)i] = (char)0;
@@ -11513,7 +11513,7 @@ static char * get_text(struct anonymous$8 *entry, signed int width)
 
 // get_themes
 // file ../../src/mconfedit.c line 349
-static void get_themes(struct anonymous$8 *entry)
+static void get_themes(struct anonymous_8 *entry)
 {
   signed int i;
   signed int j;
@@ -11521,29 +11521,29 @@ static void get_themes(struct anonymous$8 *entry)
   i = 0;
   for( ; !(i >= cnt_themes); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((themes + (signed long int)i)->name);
-    j = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((themes + (signed long int)i)->name);
+    j = (signed int)return_value_strlen_1;
     len = len + (j > 32 ? 32 : j) + 5;
   }
   if(!(entry->text == ((char *)NULL)))
     free((void *)entry->text);
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 15));
-  entry->text = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 15));
+  entry->text = (char *)return_value_malloc_2;
   strcpy(entry->text, "T&heme  [%o]");
   i = 0;
   for( ; !(i >= cnt_themes); i = i + 1)
   {
     strcat(entry->text, "|");
     strcat(entry->text, (themes + (signed long int)i)->color != 0 ? "(C) " : "(M) ");
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(entry->text);
-    len = (signed int)return_value_strlen$3;
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen((themes + (signed long int)i)->name);
-    j = (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(entry->text);
+    len = (signed int)return_value_strlen_3;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen((themes + (signed long int)i)->name);
+    j = (signed int)return_value_strlen_4;
     j = j > 32 ? 32 : j;
     strncat(entry->text, (themes + (signed long int)i)->name, (unsigned long int)j);
     entry->text[(signed long int)(len + j)] = (char)0;
@@ -11556,8 +11556,8 @@ signed int get_tmp_file(const char *tmpl, char **name_used)
 {
   char *fulltmpl;
   signed int retval;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   static const char *tmpsep = "";
   static const char *tmpdir = (const char *)(void *)0;
   if(tmpdir == ((const char *)NULL))
@@ -11577,13 +11577,13 @@ signed int get_tmp_file(const char *tmpl, char **name_used)
 
     if(!(*tmpdir == 0))
     {
-      return_value_strlen$1=strlen(tmpdir);
-      tmp_if_expr$2 = (signed int)tmpdir[(signed long int)(return_value_strlen$1 - (unsigned long int)1)] == 47 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_1=strlen(tmpdir);
+      tmp_if_expr_2 = (signed int)tmpdir[(signed long int)(return_value_strlen_1 - (unsigned long int)1)] == 47 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       tmpsep = "";
 
     else
@@ -11593,15 +11593,15 @@ signed int get_tmp_file(const char *tmpl, char **name_used)
   if(tmpl == ((const char *)NULL))
     tmpl = "mmXXXXXX";
 
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(tmpdir);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(tmpsep);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(tmpl);
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(return_value_strlen$3 + return_value_strlen$4 + return_value_strlen$5 + (unsigned long int)1);
-  fulltmpl = (char *)return_value_malloc$6;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(tmpdir);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(tmpsep);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(tmpl);
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(return_value_strlen_3 + return_value_strlen_4 + return_value_strlen_5 + (unsigned long int)1);
+  fulltmpl = (char *)return_value_malloc_6;
   sprintf(fulltmpl, "%s%s%s", tmpdir, tmpsep, tmpl);
   retval=m_mkstemp(fulltmpl);
   if(retval == -1)
@@ -11626,13 +11626,13 @@ signed int get_tmp_file(const char *tmpl, char **name_used)
 static void handle_ListError(signed int tolerant, const char *filename, const char *archive, signed int mm_error)
 {
   char buf[4136l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  const char *return_value_MikMod_strerror$1;
+  const char *return_value_MikMod_strerror_1;
   if(tolerant == 0)
   {
     if(!(mm_error == 0))
     {
-      return_value_MikMod_strerror$1=MikMod_strerror(MikMod_errno);
-      snprintf(buf, (unsigned long int)(4096 + 40), "(reason: %s)\n", return_value_MikMod_strerror$1);
+      return_value_MikMod_strerror_1=MikMod_strerror(MikMod_errno);
+      snprintf(buf, (unsigned long int)(4096 + 40), "(reason: %s)\n", return_value_MikMod_strerror_1);
     }
 
     if(filename == ((const char *)NULL))
@@ -11654,9 +11654,9 @@ static void handle_ListError(signed int tolerant, const char *filename, const ch
     else
       snprintf(buf, (unsigned long int)(4096 + 40), "Error loading list entry !");
     display_message(buf);
-    signed int return_value_PL_GetCurrentPos$2;
-    return_value_PL_GetCurrentPos$2=PL_GetCurrentPos(&playlist);
-    PL_DelEntry(&playlist, return_value_PL_GetCurrentPos$2);
+    signed int return_value_PL_GetCurrentPos_2;
+    return_value_PL_GetCurrentPos_2=PL_GetCurrentPos(&playlist);
+    PL_DelEntry(&playlist, return_value_PL_GetCurrentPos_2);
   }
 }
 
@@ -11664,13 +11664,13 @@ static void handle_ListError(signed int tolerant, const char *filename, const ch
 // file ../../src/mwidget.c line 157
 static signed int handle_focus(struct WIDGET *w, signed int ret, signed int from_activate)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ret == 0) && !(ret == 100))
-    tmp_if_expr$1 = w->handle_focus != ((signed int (*)(struct WIDGET *, signed int))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = w->handle_focus != ((signed int (*)(struct WIDGET *, signed int))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     signed int return_value;
     return_value=w->handle_focus((struct WIDGET *)w, ret);
@@ -11691,19 +11691,19 @@ static signed int handle_focus(struct WIDGET *w, signed int ret, signed int from
   }
 }
 
-// handle_focus$link1
+// handle_focus_link1
 // file ../../src/mdialog.c line 50
-static signed int handle_focus$link1(struct WIDGET *w$link1, signed int focus)
+static signed int handle_focus_link1(struct WIDGET *w_link1, signed int focus)
 {
-  _Bool tmp_if_expr$1$link1;
+  _Bool tmp_if_expr_1_link1;
   if(focus == 1)
   {
-    struct anonymous$19 *data = (struct anonymous$19 *)w$link1->data;
-    if(!(data == ((struct anonymous$19 *)NULL)))
+    struct anonymous_19 *data = (struct anonymous_19 *)w_link1->data;
+    if(!(data == ((struct anonymous_19 *)NULL)))
     {
       signed int button = -1;
-      if((signed int)w$link1->type == TYPE_BUTTON)
-        button = ((struct anonymous$13 *)w$link1)->active;
+      if((signed int)w_link1->type == TYPE_BUTTON)
+        button = ((struct anonymous_13 *)w_link1)->active;
 
       if(!(button >= 1))
       {
@@ -11714,11 +11714,11 @@ static signed int handle_focus$link1(struct WIDGET *w$link1, signed int focus)
             signed int value;
             value=atoi((char *)data->input);
             if(!(value >= data->min))
-              tmp_if_expr$1$link1 = (_Bool)1;
+              tmp_if_expr_1_link1 = (_Bool)1;
 
             else
-              tmp_if_expr$1$link1 = value > data->max ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1$link1)
+              tmp_if_expr_1_link1 = value > data->max ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1_link1)
               return focus;
 
           }
@@ -11727,18 +11727,18 @@ static signed int handle_focus$link1(struct WIDGET *w$link1, signed int focus)
 
       }
 
-      signed int return_value$link1;
-      return_value$link1=data->handle_dlg(data->w, button, data->input, data->data);
-      if(!(return_value$link1 == 0))
+      signed int return_value_link1;
+      return_value_link1=data->handle_dlg(data->w, button, data->input, data->data);
+      if(!(return_value_link1 == 0))
       {
         free((void *)data);
-        dialog_close(w$link1->d);
+        dialog_close(w_link1->d);
       }
 
     }
 
     else
-      dialog_close(w$link1->d);
+      dialog_close(w_link1->d);
     return 100;
   }
 
@@ -11752,9 +11752,9 @@ static signed int handle_input_int(struct WIDGET *w, signed int button, void *in
   if(!(button >= 1))
   {
     struct MMENU *m = (struct MMENU *)data;
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi((char *)input);
-    (m->entries + (signed long int)m->cur)->data = (void *)(signed long int)return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi((char *)input);
+    (m->entries + (signed long int)m->cur)->data = (void *)(signed long int)return_value_atoi_1;
     if(!(m->handle_select == ((void (*)(struct MMENU *))NULL)))
       m->handle_select(m);
 
@@ -11824,9 +11824,9 @@ static void handle_menu(struct MMENU *mn)
     case 3:
       if(mn->cur == 4)
       {
-        signed int return_value_config_get_act_theme$1;
-        return_value_config_get_act_theme$1=config_get_act_theme();
-        if(!(return_value_config_get_act_theme$1 >= 2))
+        signed int return_value_config_get_act_theme_1;
+        return_value_config_get_act_theme_1=config_get_act_theme();
+        if(!(return_value_config_get_act_theme_1 >= 2))
           dlg_message_open("Copy or copy and edit active (default-)theme?", "&Copy|Copy + &Edit|&Cancel", 2, 0, cb_themeedit, (void *)0);
 
         else
@@ -11856,7 +11856,7 @@ static void handle_opt_menu(struct MMENU *menu)
 
 // help
 // file ../../src/mikmod.c line 166
-static void help(struct anonymous$3 *c)
+static void help(struct anonymous_3 *c)
 {
   char output[4l];
   char *conf_name;
@@ -11875,7 +11875,7 @@ static void help(struct anonymous$3 *c)
 
 // hlist_close
 // file ../../src/mlistedit.c line 526
-static void hlist_close(struct anonymous$27 *data)
+static void hlist_close(struct anonymous_27 *data)
 {
   dialog_close(data->w->w.d);
   free((void *)data);
@@ -11886,9 +11886,9 @@ static void hlist_close(struct anonymous$27 *data)
 static void indent_change(signed int delta)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(indent);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(indent);
+  len = (signed int)return_value_strlen_1;
   delta = delta * 2;
   if(len + delta >= 0 && !(len + delta >= 41))
     len = len + delta;
@@ -11916,9 +11916,9 @@ static void init_curses(void)
   cursor_old=curs_set(0);
   curses_on = 1;
   start_color();
-  _Bool return_value_has_colors$1;
-  return_value_has_colors$1=has_colors();
-  if(COLOR_PAIRS >= 8 && !(return_value_has_colors$1 == (_Bool)0))
+  _Bool return_value_has_colors_1;
+  return_value_has_colors_1=has_colors();
+  if(COLOR_PAIRS >= 8 && !(return_value_has_colors_1 == (_Bool)0))
   {
     signed int i;
     signed int j;
@@ -11941,14 +11941,14 @@ static void init_curses(void)
 
 // init_dlg_data
 // file ../../src/mdialog.c line 75
-static struct anonymous$19 * init_dlg_data(signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), struct WIDGET *w, void *input, void *data)
+static struct anonymous_19 * init_dlg_data(signed int (*handle_dlg)(struct WIDGET *, signed int, void *, void *), struct WIDGET *w, void *input, void *data)
 {
-  struct anonymous$19 *dlg_data = (struct anonymous$19 *)(void *)0;
+  struct anonymous_19 *dlg_data = (struct anonymous_19 *)(void *)0;
   if(!(handle_dlg == ((signed int (*)(struct WIDGET *, signed int, void *, void *))NULL)))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct anonymous$19) /*40ul*/ );
-    dlg_data = (struct anonymous$19 *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct anonymous_19) /*40ul*/ );
+    dlg_data = (struct anonymous_19 *)return_value_malloc_1;
     dlg_data->handle_dlg = handle_dlg;
     dlg_data->w = w;
     dlg_data->input = input;
@@ -11962,12 +11962,12 @@ static struct anonymous$19 * init_dlg_data(signed int (*handle_dlg)(struct WIDGE
 
 // init_themes
 // file ../../src/mconfig.c line 370
-static void init_themes(struct anonymous$3 *cfg)
+static void init_themes(struct anonymous_3 *cfg)
 {
   cfg->cnt_themes = 2;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$1) /*24ul*/  * (unsigned long int)cfg->cnt_themes);
-  cfg->themes = (struct anonymous$1 *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_1) /*24ul*/  * (unsigned long int)cfg->cnt_themes);
+  cfg->themes = (struct anonymous_1 *)return_value_malloc_1;
   (cfg->themes + (signed long int)0)->name = "<defaultColor>";
   (cfg->themes + (signed long int)0)->color = 1;
   (cfg->themes + (signed long int)0)->attrs = color_attributes;
@@ -11979,18 +11979,18 @@ static void init_themes(struct anonymous$3 *cfg)
 
 // input_handle_event
 // file ../../src/mwidget.c line 171
-static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 event, signed int ch, signed int int_input)
+static signed int input_handle_event(struct anonymous_12 *w, enum anonymous_18 event, signed int ch, signed int int_input)
 {
   char *pos;
   signed int i;
-  signed int return_value_handle_focus$1;
-  signed int return_value_handle_focus$2;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_handle_focus$6;
-  _Bool tmp_if_expr$9;
-  const unsigned short int **return_value___ctype_b_loc$8;
+  signed int return_value_handle_focus_1;
+  signed int return_value_handle_focus_2;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_handle_focus_6;
+  _Bool tmp_if_expr_9;
+  const unsigned short int **return_value___ctype_b_loc_8;
   if((signed int)event == WID_HOTKEY)
     return 0;
 
@@ -12017,15 +12017,15 @@ static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 e
         {
           case 0403:
           {
-            return_value_handle_focus$1=handle_focus((struct WIDGET *)w, -1, 0);
-            return return_value_handle_focus$1;
+            return_value_handle_focus_1=handle_focus((struct WIDGET *)w, -1, 0);
+            return return_value_handle_focus_1;
           }
           case 9:
 
           case 0402:
           {
-            return_value_handle_focus$2=handle_focus((struct WIDGET *)w, 1, 0);
-            return return_value_handle_focus$2;
+            return_value_handle_focus_2=handle_focus((struct WIDGET *)w, 1, 0);
+            return return_value_handle_focus_2;
           }
           case 0404:
 
@@ -12040,8 +12040,8 @@ static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 e
 
           case 6:
           {
-            return_value_strlen$3=strlen(w->input);
-            if(!((unsigned long int)w->cur_pos >= return_value_strlen$3))
+            return_value_strlen_3=strlen(w->input);
+            if(!((unsigned long int)w->cur_pos >= return_value_strlen_3))
               w->cur_pos = w->cur_pos + 1;
 
             break;
@@ -12061,8 +12061,8 @@ static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 e
 
           case 5:
           {
-            return_value_strlen$4=strlen(w->input);
-            w->cur_pos = (signed int)return_value_strlen$4;
+            return_value_strlen_4=strlen(w->input);
+            w->cur_pos = (signed int)return_value_strlen_4;
             break;
           }
           case 11:
@@ -12082,8 +12082,8 @@ static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 e
 
           case 127:
           {
-            return_value_strlen$5=strlen(w->input);
-            if(!((unsigned long int)w->cur_pos >= return_value_strlen$5))
+            return_value_strlen_5=strlen(w->input);
+            if(!((unsigned long int)w->cur_pos >= return_value_strlen_5))
             {
               pos = &w->input[(signed long int)w->cur_pos];
               for( ; !(*pos == 0); pos = pos + 1l)
@@ -12110,8 +12110,8 @@ static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 e
 
           case 13:
           {
-            return_value_handle_focus$6=handle_focus((struct WIDGET *)w, 100 + 1, 1);
-            return return_value_handle_focus$6;
+            return_value_handle_focus_6=handle_focus((struct WIDGET *)w, 100 + 1, 1);
+            return return_value_handle_focus_6;
           }
           default:
           {
@@ -12120,17 +12120,17 @@ static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 e
 
             if(!(int_input == 0))
             {
-              return_value___ctype_b_loc$8=__ctype_b_loc();
-              tmp_if_expr$9 = ((signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)ch] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_8=__ctype_b_loc();
+              tmp_if_expr_9 = ((signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)ch] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$9 = (_Bool)0;
-            if(int_input == 0 || tmp_if_expr$9)
+              tmp_if_expr_9 = (_Bool)0;
+            if(int_input == 0 || tmp_if_expr_9)
             {
-              unsigned long int return_value_strlen$7;
-              return_value_strlen$7=strlen(w->input);
-              i = (signed int)return_value_strlen$7;
+              unsigned long int return_value_strlen_7;
+              return_value_strlen_7=strlen(w->input);
+              i = (signed int)return_value_strlen_7;
               if(!(i >= w->length))
               {
                 for( ; i >= w->cur_pos; i = i - 1)
@@ -12156,7 +12156,7 @@ static signed int input_handle_event(struct anonymous$12 *w, enum anonymous$18 e
 
 // int_free
 // file ../../src/mwidget.c line 287
-static void int_free(struct anonymous$12 *w)
+static void int_free(struct anonymous_12 *w)
 {
   free((void *)w->input);
   free((void *)w);
@@ -12164,7 +12164,7 @@ static void int_free(struct anonymous$12 *w)
 
 // int_get_size
 // file ../../src/mwidget.c line 303
-static void int_get_size(struct anonymous$12 *w, signed int *width, signed int *height)
+static void int_get_size(struct anonymous_12 *w, signed int *width, signed int *height)
 {
   *width = w->w.def_width;
   *height = 1;
@@ -12172,23 +12172,23 @@ static void int_get_size(struct anonymous$12 *w, signed int *width, signed int *
 
 // int_handle_event
 // file ../../src/mwidget.c line 298
-static signed int int_handle_event(struct anonymous$12 *w, enum anonymous$18 event, signed int ch)
+static signed int int_handle_event(struct anonymous_12 *w, enum anonymous_18 event, signed int ch)
 {
-  signed int return_value_input_handle_event$1;
-  return_value_input_handle_event$1=input_handle_event((struct anonymous$12 *)w, event, ch, 1);
-  return return_value_input_handle_event$1;
+  signed int return_value_input_handle_event_1;
+  return_value_input_handle_event_1=input_handle_event((struct anonymous_12 *)w, event, ch, 1);
+  return return_value_input_handle_event_1;
 }
 
 // int_paint
 // file ../../src/mwidget.c line 293
-static void int_paint(struct anonymous$12 *w)
+static void int_paint(struct anonymous_12 *w)
 {
-  str_paint((struct anonymous$12 *)w);
+  str_paint((struct anonymous_12 *)w);
 }
 
 // label_free
 // file ../../src/mwidget.c line 60
-static void label_free(struct anonymous$11 *w)
+static void label_free(struct anonymous_11 *w)
 {
   free((void *)w->msg);
   free((void *)w);
@@ -12196,7 +12196,7 @@ static void label_free(struct anonymous$11 *w)
 
 // label_get_size
 // file ../../src/mwidget.c line 90
-static void label_get_size(struct anonymous$11 *w, signed int *width, signed int *height)
+static void label_get_size(struct anonymous_11 *w, signed int *width, signed int *height)
 {
   char *pos;
   signed int x = 0;
@@ -12224,21 +12224,21 @@ static void label_get_size(struct anonymous$11 *w, signed int *width, signed int
 
 // label_handle_event
 // file ../../src/mwidget.c line 85
-static signed int label_handle_event(struct anonymous$11 *w, enum anonymous$18 event, signed int ch)
+static signed int label_handle_event(struct anonymous_11 *w, enum anonymous_18 event, signed int ch)
 {
   return 0;
 }
 
 // label_paint
 // file ../../src/mwidget.c line 66
-static void label_paint(struct anonymous$11 *w)
+static void label_paint(struct anonymous_11 *w)
 {
   char *start;
   char *pos;
   signed int y = w->w.y;
-  enum anonymous$7 return_value_base_attr$1;
-  return_value_base_attr$1=base_attr(w->w.d, (enum anonymous$7)ATTR_DLG_LABEL);
-  win_attrset(return_value_base_attr$1);
+  enum anonymous_7 return_value_base_attr_1;
+  return_value_base_attr_1=base_attr(w->w.d, (enum anonymous_7)ATTR_DLG_LABEL);
+  win_attrset(return_value_base_attr_1);
   start = w->msg;
   pos = w->msg;
   for( ; !(*pos == 0); pos = pos + 1l)
@@ -12256,7 +12256,7 @@ static void label_paint(struct anonymous$11 *w)
 
 // list_free
 // file ../../src/mwidget.c line 457
-static void list_free(struct anonymous$14 *w)
+static void list_free(struct anonymous_14 *w)
 {
   signed int i = 0;
   for( ; !(i >= w->cnt); i = i + 1)
@@ -12270,7 +12270,7 @@ static void list_free(struct anonymous$14 *w)
 
 // list_get_size
 // file ../../src/mwidget.c line 582
-static void list_get_size(struct anonymous$14 *w, signed int *width, signed int *height)
+static void list_get_size(struct anonymous_14 *w, signed int *width, signed int *height)
 {
   if(!(w->w.def_width >= *width))
     *width = w->w.def_width;
@@ -12288,15 +12288,15 @@ static void list_get_size(struct anonymous$14 *w, signed int *width, signed int 
 
 // list_handle_event
 // file ../../src/mwidget.c line 522
-static signed int list_handle_event(struct anonymous$14 *w, enum anonymous$18 event, signed int ch)
+static signed int list_handle_event(struct anonymous_14 *w, enum anonymous_18 event, signed int ch)
 {
   signed int i;
   signed int old_cur;
-  signed int tmp_if_expr$1;
-  signed int return_value_handle_focus$2;
-  signed int return_value_handle_focus$3;
-  signed int return_value_handle_focus$4;
-  signed int return_value_handle_focus$5;
+  signed int tmp_if_expr_1;
+  signed int return_value_handle_focus_2;
+  signed int return_value_handle_focus_3;
+  signed int return_value_handle_focus_4;
+  signed int return_value_handle_focus_5;
   if((signed int)event == WID_HOTKEY)
     return 0;
 
@@ -12350,11 +12350,11 @@ static signed int list_handle_event(struct anonymous$14 *w, enum anonymous$18 ev
             if(w->cur >= w->cnt)
             {
               if(w->cnt >= 1)
-                tmp_if_expr$1 = w->cnt - 1;
+                tmp_if_expr_1 = w->cnt - 1;
 
               else
-                tmp_if_expr$1 = 0;
-              w->cur = tmp_if_expr$1;
+                tmp_if_expr_1 = 0;
+              w->cur = tmp_if_expr_1;
             }
 
             break;
@@ -12371,22 +12371,22 @@ static signed int list_handle_event(struct anonymous$14 *w, enum anonymous$18 ev
           }
           case 0404:
           {
-            return_value_handle_focus$2=handle_focus((struct WIDGET *)w, -1, 0);
-            return return_value_handle_focus$2;
+            return_value_handle_focus_2=handle_focus((struct WIDGET *)w, -1, 0);
+            return return_value_handle_focus_2;
           }
           case 0405:
 
           case 9:
           {
-            return_value_handle_focus$3=handle_focus((struct WIDGET *)w, 1, 0);
-            return return_value_handle_focus$3;
+            return_value_handle_focus_3=handle_focus((struct WIDGET *)w, 1, 0);
+            return return_value_handle_focus_3;
           }
           case 0527:
 
           case 13:
           {
-            return_value_handle_focus$4=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
-            return return_value_handle_focus$4;
+            return_value_handle_focus_4=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
+            return return_value_handle_focus_4;
           }
           default:
             return 0;
@@ -12403,8 +12403,8 @@ static signed int list_handle_event(struct anonymous$14 *w, enum anonymous$18 ev
           if(old_cur == w->cur)
             goto __CPROVER_DUMP_L23;
 
-          return_value_handle_focus$5=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
-          return return_value_handle_focus$5;
+          return_value_handle_focus_5=handle_focus((struct WIDGET *)w, 100 + 1, 100 + 1);
+          return return_value_handle_focus_5;
         }
 
         else
@@ -12421,18 +12421,18 @@ static signed int list_handle_event(struct anonymous$14 *w, enum anonymous$18 ev
 // file ../../src/mlistedit.h line 38
 void list_open(signed int *actLine)
 {
-  static struct anonymous$8 sort_entries[7l] = { { .text="by &name", .data=NULL, .help="Sort list by name of modules" },
+  static struct anonymous_8 sort_entries[7l] = { { .text="by &name", .data=NULL, .help="Sort list by name of modules" },
     { .text="by &extension", .data=NULL, .help="Sort list by extension of modules" },
     { .text="by &path", .data=NULL, .help="Sort list by path of modules/archives" },
     { .text="by &time", .data=NULL, .help="Sort list by playing time of modules" },
     { .text="%---------", .data=NULL, .help=(char *)(void *)0 },
     { .text="[%c] &reverse", .data=NULL, .help="Smaller to bigger or reverse sort" },
     { .text=(char *)(void *)0, .data=(void *)0, .help=(char *)(void *)0 } };
-  static struct anonymous$24 menu_data;
+  static struct anonymous_24 menu_data;
   static struct MMENU sort_menu = { .cur=0, .first=0, .count=-1, .key_left=1, .entries=sort_entries,
     .handle_select=cb_handle_menu, .win=(struct MWINDOW *)(void *)0,
     .data=(void *)&menu_data, .id=2 };
-  static struct anonymous$8 file_entries[5l] = { { .text="&Load...", .data=NULL, .help="Load new playlists/modules" },
+  static struct anonymous_8 file_entries[5l] = { { .text="&Load...", .data=NULL, .help="Load new playlists/modules" },
     { .text="&Insert...", .data=NULL, .help="Insert new playlists/modules in current playlist" },
     { .text="&Save", .data=NULL, .help=(char *)(void *)0 },
     { .text="Save &as...", .data=NULL, .help="Save playlist in a specified file" },
@@ -12440,7 +12440,7 @@ void list_open(signed int *actLine)
   static struct MMENU file_menu = { .cur=0, .first=0, .count=-1, .key_left=1, .entries=file_entries,
     .handle_select=cb_handle_menu, .win=(struct MWINDOW *)(void *)0,
     .data=(void *)&menu_data, .id=1 };
-  static struct anonymous$8 list_open$$1$$entries[9l] = { { .text="&Play", .data=NULL, .help="Play selected entry" },
+  static struct anonymous_8 list_open__1__entries[9l] = { { .text="&Play", .data=NULL, .help="Play selected entry" },
     { .text="&Remove", .data=NULL, .help="Remove selected entry from list" },
     { .text="&Delete...", .data=NULL, .help="Remove selected entry from list and delete it on disk" },
     { .text="%----------", .data=NULL, .help=(char *)(void *)0 },
@@ -12449,18 +12449,18 @@ void list_open(signed int *actLine)
     { .text="S&ort        %>", .data=(void *)&sort_menu, .help="Sort the list" },
     { .text="&Back", .data=NULL, .help="Leave menu" },
     { .text=(char *)(void *)0, .data=(void *)0, .help=(char *)(void *)0 } };
-  static struct MMENU list_open$$1$$menu = { .cur=0, .first=0, .count=-1, .key_left=1, .entries=list_open$$1$$entries,
+  static struct MMENU list_open__1__menu = { .cur=0, .first=0, .count=-1, .key_left=1, .entries=list_open__1__entries,
     .handle_select=cb_handle_menu, .win=(struct MWINDOW *)(void *)0,
     .data=(void *)&menu_data, .id=0 };
-  menu_data.menu = &list_open$$1$$menu;
+  menu_data.menu = &list_open__1__menu;
   menu_data.actLine = actLine;
   set_help(&file_entries[(signed long int)2], "Save list in '%s'", config.pl_name);
-  menu_open(&list_open$$1$$menu, 5, 5);
+  menu_open(&list_open__1__menu, 5, 5);
 }
 
 // list_paint
 // file ../../src/mwidget.c line 467
-static void list_paint(struct anonymous$14 *w)
+static void list_paint(struct anonymous_14 *w)
 {
   signed int i;
   signed int x;
@@ -12468,15 +12468,15 @@ static void list_paint(struct anonymous$14 *w)
   char ch;
   x = (w->w.x + w->w.width) - 1;
   visible = w->w.height - 2;
-  enum anonymous$7 return_value_base_attr$1;
-  return_value_base_attr$1=base_attr(w->w.d, (enum anonymous$7)ATTR_DLG_FRAME);
-  win_attrset(return_value_base_attr$1);
+  enum anonymous_7 return_value_base_attr_1;
+  return_value_base_attr_1=base_attr(w->w.d, (enum anonymous_7)ATTR_DLG_FRAME);
+  win_attrset(return_value_base_attr_1);
   win_box(w->w.d->win, w->w.x, w->w.y, x, (w->w.y + w->w.height) - 1);
   if(!(w->title == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(w->title);
-    if(!((unsigned long int)(w->w.width + -2) >= return_value_strlen$2))
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(w->title);
+    if(!((unsigned long int)(w->w.width + -2) >= return_value_strlen_2))
     {
       ch = w->title[(signed long int)(w->w.width - 2)];
       w->title[(signed long int)(w->w.width - 2)] = (char)0;
@@ -12508,23 +12508,23 @@ static void list_paint(struct anonymous$14 *w)
   }
 
   i = w->first;
-  enum anonymous$7 return_value_base_attr$3;
+  enum anonymous_7 return_value_base_attr_3;
   for( ; !(i >= w->first + visible); i = i + 1)
   {
     storage[(signed long int)0] = (char)0;
     if(i == w->cur)
     {
       if(!(w->w.has_focus == 0))
-        win_attrset((enum anonymous$7)ATTR_DLG_LIST_FOCUS);
+        win_attrset((enum anonymous_7)ATTR_DLG_LIST_FOCUS);
 
       else
-        win_attrset((enum anonymous$7)ATTR_DLG_LIST_NOFOCUS);
+        win_attrset((enum anonymous_7)ATTR_DLG_LIST_NOFOCUS);
     }
 
     else
     {
-      return_value_base_attr$3=base_attr(w->w.d, (enum anonymous$7)ATTR_DLG_FRAME);
-      win_attrset(return_value_base_attr$3);
+      return_value_base_attr_3=base_attr(w->w.d, (enum anonymous_7)ATTR_DLG_FRAME);
+      win_attrset(return_value_base_attr_3);
     }
     if(!(i >= w->cnt))
     {
@@ -12532,9 +12532,9 @@ static void list_paint(struct anonymous$14 *w)
       storage[(signed long int)(w->w.width - 2)] = (char)0;
     }
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(storage);
-    x = (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(storage);
+    x = (signed int)return_value_strlen_4;
     for( ; !(x >= w->w.width + -2); x = x + 1)
       storage[(signed long int)x] = (char)32;
     storage[(signed long int)(w->w.width - 2)] = (char)0;
@@ -12553,29 +12553,29 @@ signed int list_scan_dir(char *path, signed int quiet)
   if(!((signed int)*path == 47))
   {
     getcwd(dir, (unsigned long int)4096);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(dir);
-    if(!((signed int)dir[-1l + (signed long int)return_value_strlen$1] == 47))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(dir);
+    if(!((signed int)dir[-1l + (signed long int)return_value_strlen_1] == 47))
       strcat(dir, "/");
 
   }
 
   strcat(dir, path);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(dir);
-  pos = dir + (signed long int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(dir);
+  pos = dir + (signed long int)return_value_strlen_2;
   if(!((signed int)pos[-1l] == 47))
   {
     *pos = (char)47;
     pos[(signed long int)1] = (char)0;
   }
 
-  signed int return_value_stat$3;
-  return_value_stat$3=stat(dir, &statbuf);
-  if(return_value_stat$3 == 0)
+  signed int return_value_stat_3;
+  return_value_stat_3=stat(dir, &statbuf);
+  if(return_value_stat_3 == 0)
   {
     if((61440u & statbuf.st_mode) == 16384u)
-      scan_dir(dir, 1, 0, (struct anonymous$25 *)(void *)0, (enum anonymous$26)FREQ_ADD, cb_list_scan_dir, (void *)(signed long int)quiet, &added, (signed int *)(void *)0);
+      scan_dir(dir, 1, 0, (struct anonymous_25 *)(void *)0, (enum anonymous_26)FREQ_ADD, cb_list_scan_dir, (void *)(signed long int)quiet, &added, (signed int *)(void *)0);
 
   }
 
@@ -12586,9 +12586,9 @@ signed int list_scan_dir(char *path, signed int quiet)
 // file ../../src/mutilities.c line 238
 static signed int m_mkstemp(char *tmpl)
 {
-  signed int return_value_mkstemp$1;
-  return_value_mkstemp$1=mkstemp(tmpl);
-  return return_value_mkstemp$1;
+  signed int return_value_mkstemp_1;
+  return_value_mkstemp_1=mkstemp(tmpl);
+  return return_value_mkstemp_1;
 }
 
 // main
@@ -12596,34 +12596,34 @@ static signed int m_mkstemp(char *tmpl)
 signed int main(signed int argc, char **argv)
 {
   signed int t;
-  signed int main$$1$$use_threads = 0;
+  signed int main__1__use_threads = 0;
   char *pos = (char *)(void *)0;
   signed long int engineversion;
   engineversion=MikMod_GetVersion();
   pos=strrchr(argv[(signed long int)0], 47);
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(pos == ((char *)NULL)))
-    tmp_if_expr$1 = pos + (signed long int)1;
+    tmp_if_expr_1 = pos + (signed long int)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0];
-  PRG_NAME = tmp_if_expr$1;
+    tmp_if_expr_1 = argv[(signed long int)0];
+  PRG_NAME = tmp_if_expr_1;
   t = 0;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   for( ; !(t >= argc); t = t + 1)
   {
-    return_value_strcmp$2=strcmp(argv[(signed long int)t], "-norc");
-    if(return_value_strcmp$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    return_value_strcmp_2=strcmp(argv[(signed long int)t], "-norc");
+    if(return_value_strcmp_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$3=strcmp(argv[(signed long int)t], "--norc");
-      tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_3=strcmp(argv[(signed long int)t], "--norc");
+      tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       status.norc = 1;
       argv[(signed long int)t][(signed long int)0] = (char)0;
@@ -12638,9 +12638,9 @@ signed int main(signed int argc, char **argv)
   Player_InitLib();
   PL_InitList(&playlist);
   opterr = 0;
-  unsigned long int return_value_strlen$5;
-  _Bool tmp_if_expr$6;
-  signed int return_value_toupper$7;
+  unsigned long int return_value_strlen_5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_toupper_7;
   do
   {
     t=getopt_long_only(argc, argv, "d:o:f:r:v:y:p:iFlaxctsSqn::N:Vh", options, (signed int *)(void *)0);
@@ -12651,8 +12651,8 @@ signed int main(signed int argc, char **argv)
     {
       case 100:
       {
-        return_value_strlen$5=strlen(optarg);
-        if(return_value_strlen$5 >= 3ul)
+        return_value_strlen_5=strlen(optarg);
+        if(return_value_strlen_5 >= 3ul)
         {
           char *opts;
           opts=strchr(optarg, 44);
@@ -12682,15 +12682,15 @@ signed int main(signed int argc, char **argv)
         do
         {
           if(!(pos == ((char *)NULL)))
-            tmp_if_expr$6 = *pos != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = *pos != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(!tmp_if_expr_6)
             break;
 
-          return_value_toupper$7=toupper((signed int)*pos);
-          switch(return_value_toupper$7)
+          return_value_toupper_7=toupper((signed int)*pos);
+          switch(return_value_toupper_7)
           {
             case 49:
 
@@ -12866,20 +12866,20 @@ signed int main(signed int argc, char **argv)
         {
           puts("-= MikMod 3.2.7 =-\n(c) 2004 Raphael Assenat and others - see file AUTHORS for complete list");
           printf("Sound engine version %ld.%ld.%ld\n", engineversion >> 16 & (signed long int)255, engineversion >> 8 & (signed long int)255, engineversion & (signed long int)255);
-          char *return_value_MikMod_InfoDriver$8;
-          return_value_MikMod_InfoDriver$8=MikMod_InfoDriver();
-          char *return_value_MikMod_InfoLoader$9;
-          return_value_MikMod_InfoLoader$9=MikMod_InfoLoader();
-          printf("\nAvailable drivers are :\n%s\n\nRecognized module formats are :\n%s\n", return_value_MikMod_InfoDriver$8, return_value_MikMod_InfoLoader$9);
+          char *return_value_MikMod_InfoDriver_8;
+          return_value_MikMod_InfoDriver_8=MikMod_InfoDriver();
+          char *return_value_MikMod_InfoLoader_9;
+          return_value_MikMod_InfoLoader_9=MikMod_InfoLoader();
+          printf("\nAvailable drivers are :\n%s\n\nRecognized module formats are :\n%s\n", return_value_MikMod_InfoDriver_8, return_value_MikMod_InfoLoader_9);
         }
         exit(0);
       }
       case 78:
       {
-        signed int main$$1$$2$$1$$5$$drvno;
-        get_int(optarg, &main$$1$$2$$1$$5$$drvno, 1, 99);
+        signed int main__1__2__1__5__drvno;
+        get_int(optarg, &main__1__2__1__5__drvno, 1, 99);
         puts("-= MikMod 3.2.7 =-\n(c) 2004 Raphael Assenat and others - see file AUTHORS for complete list");
-        display_driver_help(main$$1$$2$$1$$5$$drvno);
+        display_driver_help(main__1__2__1__5__drvno);
         exit(0);
       }
       case 86:
@@ -12910,9 +12910,9 @@ signed int main(signed int argc, char **argv)
 
     MA_FindFiles(&playlist, argv[(signed long int)t]);
   }
-  signed int return_value_PL_GetLength$10;
-  return_value_PL_GetLength$10=PL_GetLength(&playlist);
-  if(return_value_PL_GetLength$10 == 0)
+  signed int return_value_PL_GetLength_10;
+  return_value_PL_GetLength_10=PL_GetLength(&playlist);
+  if(return_value_PL_GetLength_10 == 0)
   {
     if(status.norc == 0)
       PL_LoadDefault(&playlist);
@@ -12930,10 +12930,10 @@ signed int main(signed int argc, char **argv)
   win_init(quiet);
   display_init();
   Player_SetConfig(&config);
-  main$$1$$use_threads=MP_Init();
+  main__1__use_threads=MP_Init();
   signal(15, ExitGracefully);
   signal(2, ExitGracefully);
-  if(main$$1$$use_threads == 0)
+  if(main__1__use_threads == 0)
   {
     signal(10, GotoNext);
     signal(12, GotoPrev);
@@ -12972,11 +12972,11 @@ static signed int menu_check(char *text, char ch)
 void menu_close(struct MMENU *menu)
 {
   signed int i = 0;
-  signed int return_value_menu_is_sub$1;
+  signed int return_value_menu_is_sub_1;
   for( ; !(i >= menu->count); i = i + 1)
   {
-    return_value_menu_is_sub$1=menu_is_sub(&menu->entries[(signed long int)i]);
-    if(!(return_value_menu_is_sub$1 == 0))
+    return_value_menu_is_sub_1=menu_is_sub(&menu->entries[(signed long int)i]);
+    if(!(return_value_menu_is_sub_1 == 0))
       menu_close((struct MMENU *)(menu->entries + (signed long int)i)->data);
 
   }
@@ -13000,7 +13000,7 @@ static void menu_do_repaint(struct MWINDOW *win, signed int diff)
   char *pos;
   char *txt;
   char hl[2l];
-  char *menu_do_repaint$$1$$help;
+  char *menu_do_repaint__1__help;
   height = win->height;
   if(!(m->count >= height))
     height = m->count;
@@ -13026,28 +13026,28 @@ static void menu_do_repaint(struct MWINDOW *win, signed int diff)
 
   hl[(signed long int)1] = (char)0;
   t = m->first;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!(t >= m->count))
-      tmp_if_expr$1 = t < height + m->first ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = t < height + m->first ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     txt=get_text(&m->entries[(signed long int)t], win->width);
     hl_pos = -1;
-    menu_do_repaint$$1$$help = txt;
+    menu_do_repaint__1__help = txt;
     do
     {
-      pos=strchr(menu_do_repaint$$1$$help, 38);
+      pos=strchr(menu_do_repaint__1__help, 38);
       if(pos == ((char *)NULL))
         break;
 
-      menu_do_repaint$$1$$help = pos + (signed long int)1;
+      menu_do_repaint__1__help = pos + (signed long int)1;
       if(!((signed int)pos[1l] == 38))
       {
         hl_pos = (signed int)(pos - txt);
@@ -13065,13 +13065,13 @@ static void menu_do_repaint(struct MWINDOW *win, signed int diff)
     while((_Bool)1);
     if(t == m->cur)
     {
-      win_attrset((enum anonymous$7)ATTR_MENU_ACTIVE);
+      win_attrset((enum anonymous_7)ATTR_MENU_ACTIVE);
       win_print(win, 0, t - m->first, txt);
       if(hl_pos >= 0)
       {
-        win_attrset((enum anonymous$7)ATTR_MENU_AHOTKEY);
+        win_attrset((enum anonymous_7)ATTR_MENU_AHOTKEY);
         win_print(win, hl_pos, t - m->first, hl);
-        win_attrset((enum anonymous$7)ATTR_MENU_ACTIVE);
+        win_attrset((enum anonymous_7)ATTR_MENU_ACTIVE);
         win_print(win, hl_pos + 1, t - m->first, &txt[(signed long int)(hl_pos + 1)]);
       }
 
@@ -13081,25 +13081,25 @@ static void menu_do_repaint(struct MWINDOW *win, signed int diff)
     else
     {
       if((signed int)*(m->entries + (signed long int)t)->text == 37)
-        tmp_if_expr$2 = (signed int)(m->entries + (signed long int)t)->text[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)(m->entries + (signed long int)t)->text[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        win_attrset((enum anonymous$7)ATTR_MENU_FRAME);
+        win_attrset((enum anonymous_7)ATTR_MENU_FRAME);
         win_line(win, 0, t - m->first, win->width - 1, t - m->first);
       }
 
       else
       {
-        win_attrset((enum anonymous$7)ATTR_MENU_INACTIVE);
+        win_attrset((enum anonymous_7)ATTR_MENU_INACTIVE);
         if(hl_pos >= 0)
         {
           win_print(win, 0, t - m->first, txt);
-          win_attrset((enum anonymous$7)ATTR_MENU_IHOTKEY);
+          win_attrset((enum anonymous_7)ATTR_MENU_IHOTKEY);
           win_print(win, hl_pos, t - m->first, hl);
-          win_attrset((enum anonymous$7)ATTR_MENU_INACTIVE);
+          win_attrset((enum anonymous_7)ATTR_MENU_INACTIVE);
           win_print(win, hl_pos + 1, t - m->first, &txt[(signed long int)(hl_pos + 1)]);
         }
 
@@ -13117,15 +13117,15 @@ static void menu_do_repaint(struct MWINDOW *win, signed int diff)
 static signed int menu_do_select(struct MWINDOW *win)
 {
   struct MMENU *m = (struct MMENU *)win->data;
-  struct anonymous$8 *entry = &m->entries[(signed long int)m->cur];
-  signed int return_value_menu_is_toggle$13;
-  return_value_menu_is_toggle$13=menu_is_toggle(entry);
-  signed int return_value_menu_is_option$12;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_menu_is_str$11;
-  signed int return_value_menu_is_int$10;
-  signed int return_value_menu_is_sub$9;
-  if(!(return_value_menu_is_toggle$13 == 0))
+  struct anonymous_8 *entry = &m->entries[(signed long int)m->cur];
+  signed int return_value_menu_is_toggle_13;
+  return_value_menu_is_toggle_13=menu_is_toggle(entry);
+  signed int return_value_menu_is_option_12;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_menu_is_str_11;
+  signed int return_value_menu_is_int_10;
+  signed int return_value_menu_is_sub_9;
+  if(!(return_value_menu_is_toggle_13 == 0))
   {
     entry->data = (void *)(signed long int)!((signed long int)entry->data != 0l);
     menu_do_repaint(win, 0);
@@ -13133,28 +13133,28 @@ static signed int menu_do_select(struct MWINDOW *win)
 
   else
   {
-    return_value_menu_is_option$12=menu_is_option(entry);
-    if(!(return_value_menu_is_option$12 == 0))
+    return_value_menu_is_option_12=menu_is_option(entry);
+    if(!(return_value_menu_is_option_12 == 0))
     {
-      char *menu_do_select$$1$$2$$pos;
-      char *menu_do_select$$1$$2$$start;
-      struct anonymous$8 *menu_do_select$$1$$2$$sub;
+      char *menu_do_select__1__2__pos;
+      char *menu_do_select__1__2__start;
+      struct anonymous_8 *menu_do_select__1__2__sub;
       struct MMENU *newmenu;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct MMENU) /*56ul*/ );
-      newmenu = (struct MMENU *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct MMENU) /*56ul*/ );
+      newmenu = (struct MMENU *)return_value_malloc_1;
       signed int cnt = 1;
       signed int i;
-      menu_do_select$$1$$2$$start=strchr(entry->text, 124);
-      menu_do_select$$1$$2$$start = menu_do_select$$1$$2$$start + 1l;
-      menu_do_select$$1$$2$$pos = menu_do_select$$1$$2$$start;
+      menu_do_select__1__2__start=strchr(entry->text, 124);
+      menu_do_select__1__2__start = menu_do_select__1__2__start + 1l;
+      menu_do_select__1__2__pos = menu_do_select__1__2__start;
       do
       {
-        menu_do_select$$1$$2$$pos=strchr(menu_do_select$$1$$2$$pos, 124);
-        if(menu_do_select$$1$$2$$pos == ((char *)NULL))
+        menu_do_select__1__2__pos=strchr(menu_do_select__1__2__pos, 124);
+        if(menu_do_select__1__2__pos == ((char *)NULL))
           break;
 
-        menu_do_select$$1$$2$$pos = menu_do_select$$1$$2$$pos + 1l;
+        menu_do_select__1__2__pos = menu_do_select__1__2__pos + 1l;
         cnt = cnt + 1;
       }
       while((_Bool)1);
@@ -13162,32 +13162,32 @@ static signed int menu_do_select(struct MWINDOW *win)
       newmenu->first = 0;
       newmenu->count = cnt;
       newmenu->key_left = 1;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct anonymous$8) /*24ul*/  * (unsigned long int)cnt);
-      newmenu->entries = (struct anonymous$8 *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct anonymous_8) /*24ul*/  * (unsigned long int)cnt);
+      newmenu->entries = (struct anonymous_8 *)return_value_malloc_2;
       newmenu->handle_select = handle_opt_menu;
       newmenu->win = (struct MWINDOW *)(void *)0;
       newmenu->data = (void *)m;
-      menu_do_select$$1$$2$$sub = newmenu->entries;
+      menu_do_select__1__2__sub = newmenu->entries;
       i = 0;
       for( ; !(i >= cnt); i = i + 1)
       {
-        menu_do_select$$1$$2$$pos=strchr(menu_do_select$$1$$2$$start, 124);
-        if(menu_do_select$$1$$2$$pos == ((char *)NULL))
+        menu_do_select__1__2__pos=strchr(menu_do_select__1__2__start, 124);
+        if(menu_do_select__1__2__pos == ((char *)NULL))
         {
-          return_value_strlen$3=strlen(menu_do_select$$1$$2$$start);
-          menu_do_select$$1$$2$$pos = &menu_do_select$$1$$2$$start[(signed long int)return_value_strlen$3];
+          return_value_strlen_3=strlen(menu_do_select__1__2__start);
+          menu_do_select__1__2__pos = &menu_do_select__1__2__start[(signed long int)return_value_strlen_3];
         }
 
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((menu_do_select$$1$$2$$pos - menu_do_select$$1$$2$$start) + (signed long int)1));
-        menu_do_select$$1$$2$$sub->text = (char *)return_value_malloc$4;
-        strncpy(menu_do_select$$1$$2$$sub->text, menu_do_select$$1$$2$$start, (unsigned long int)(menu_do_select$$1$$2$$pos - menu_do_select$$1$$2$$start));
-        menu_do_select$$1$$2$$sub->text[menu_do_select$$1$$2$$pos - menu_do_select$$1$$2$$start] = (char)0;
-        menu_do_select$$1$$2$$sub->data = (void *)0;
-        menu_do_select$$1$$2$$sub->help = entry->help;
-        menu_do_select$$1$$2$$start = menu_do_select$$1$$2$$pos + (signed long int)1;
-        menu_do_select$$1$$2$$sub = menu_do_select$$1$$2$$sub + 1l;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((menu_do_select__1__2__pos - menu_do_select__1__2__start) + (signed long int)1));
+        menu_do_select__1__2__sub->text = (char *)return_value_malloc_4;
+        strncpy(menu_do_select__1__2__sub->text, menu_do_select__1__2__start, (unsigned long int)(menu_do_select__1__2__pos - menu_do_select__1__2__start));
+        menu_do_select__1__2__sub->text[menu_do_select__1__2__pos - menu_do_select__1__2__start] = (char)0;
+        menu_do_select__1__2__sub->data = (void *)0;
+        menu_do_select__1__2__sub->help = entry->help;
+        menu_do_select__1__2__start = menu_do_select__1__2__pos + (signed long int)1;
+        menu_do_select__1__2__sub = menu_do_select__1__2__sub + 1l;
       }
       menu_open(newmenu, win->x + win->width + 1, (win->y + m->cur) - m->first);
       return 1;
@@ -13195,45 +13195,45 @@ static signed int menu_do_select(struct MWINDOW *win)
 
     else
     {
-      return_value_menu_is_str$11=menu_is_str(entry);
-      if(!(return_value_menu_is_str$11 == 0))
+      return_value_menu_is_str_11=menu_is_str(entry);
+      if(!(return_value_menu_is_str_11 == 0))
       {
-        char *menu_do_select$$1$$3$$msg = (char *)(void *)0;
-        char *menu_do_select$$1$$3$$start;
-        char *menu_do_select$$1$$3$$pos;
+        char *menu_do_select__1__3__msg = (char *)(void *)0;
+        char *menu_do_select__1__3__start;
+        char *menu_do_select__1__3__pos;
         signed int length = 0;
-        char *return_value_strchr$5;
-        return_value_strchr$5=strchr(entry->text, 124);
-        menu_do_select$$1$$3$$start = return_value_strchr$5 + (signed long int)1;
-        menu_do_select$$1$$3$$pos=strchr(menu_do_select$$1$$3$$start, 124);
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((menu_do_select$$1$$3$$pos - menu_do_select$$1$$3$$start) + (signed long int)1));
-        menu_do_select$$1$$3$$msg = (char *)return_value_malloc$6;
-        strncpy(menu_do_select$$1$$3$$msg, menu_do_select$$1$$3$$start, (unsigned long int)(menu_do_select$$1$$3$$pos - menu_do_select$$1$$3$$start));
-        menu_do_select$$1$$3$$msg[menu_do_select$$1$$3$$pos - menu_do_select$$1$$3$$start] = (char)0;
-        sscanf(menu_do_select$$1$$3$$pos + (signed long int)1, "%d", &length);
-        dlg_input_str(menu_do_select$$1$$3$$msg, "<&Ok>|&Cancel", (char *)entry->data, length, handle_input_str, (void *)m);
-        free((void *)menu_do_select$$1$$3$$msg);
+        char *return_value_strchr_5;
+        return_value_strchr_5=strchr(entry->text, 124);
+        menu_do_select__1__3__start = return_value_strchr_5 + (signed long int)1;
+        menu_do_select__1__3__pos=strchr(menu_do_select__1__3__start, 124);
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((menu_do_select__1__3__pos - menu_do_select__1__3__start) + (signed long int)1));
+        menu_do_select__1__3__msg = (char *)return_value_malloc_6;
+        strncpy(menu_do_select__1__3__msg, menu_do_select__1__3__start, (unsigned long int)(menu_do_select__1__3__pos - menu_do_select__1__3__start));
+        menu_do_select__1__3__msg[menu_do_select__1__3__pos - menu_do_select__1__3__start] = (char)0;
+        sscanf(menu_do_select__1__3__pos + (signed long int)1, "%d", &length);
+        dlg_input_str(menu_do_select__1__3__msg, "<&Ok>|&Cancel", (char *)entry->data, length, handle_input_str, (void *)m);
+        free((void *)menu_do_select__1__3__msg);
         return 1;
       }
 
       else
       {
-        return_value_menu_is_int$10=menu_is_int(entry);
-        if(!(return_value_menu_is_int$10 == 0))
+        return_value_menu_is_int_10=menu_is_int(entry);
+        if(!(return_value_menu_is_int_10 == 0))
         {
           const char *start;
           const char *pos;
           char *msg = (char *)(void *)0;
           signed int min = 0;
           signed int max = 0;
-          char *return_value_strchr$7;
-          return_value_strchr$7=strchr(entry->text, 124);
-          start = return_value_strchr$7 + (signed long int)1;
+          char *return_value_strchr_7;
+          return_value_strchr_7=strchr(entry->text, 124);
+          start = return_value_strchr_7 + (signed long int)1;
           pos=strchr(start, 124);
-          void *return_value_malloc$8;
-          return_value_malloc$8=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((pos - start) + (signed long int)1));
-          msg = (char *)return_value_malloc$8;
+          void *return_value_malloc_8;
+          return_value_malloc_8=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((pos - start) + (signed long int)1));
+          msg = (char *)return_value_malloc_8;
           strncpy(msg, start, (unsigned long int)(pos - start));
           msg[pos - start] = (char)0;
           sscanf(pos + (signed long int)1, "%d|%d", &min, &max);
@@ -13244,8 +13244,8 @@ static signed int menu_do_select(struct MWINDOW *win)
 
         else
         {
-          return_value_menu_is_sub$9=menu_is_sub(entry);
-          if(!(return_value_menu_is_sub$9 == 0))
+          return_value_menu_is_sub_9=menu_is_sub(entry);
+          if(!(return_value_menu_is_sub_9 == 0))
           {
             struct MMENU *sub = (struct MMENU *)entry->data;
             sub->first = 0;
@@ -13265,22 +13265,22 @@ static signed int menu_do_select(struct MWINDOW *win)
 // file ../../src/mmenu.c line 424
 static signed int menu_handle_key(struct MWINDOW *win, signed int ch)
 {
-  struct MMENU *menu_handle_key$$1$$menu = (struct MMENU *)win->data;
+  struct MMENU *menu_handle_key__1__menu = (struct MMENU *)win->data;
   const char *pos;
-  const char *menu_handle_key$$1$$help;
+  const char *menu_handle_key__1__help;
   signed int i;
   signed int key;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(!(ch >= 256))
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)ch]) == 0))
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)ch]) == 0))
       ch=toupper(ch);
 
   }
 
-  signed int return_value_menu_has_sub$2;
-  signed int return_value_menu_do_select$3;
+  signed int return_value_menu_has_sub_2;
+  signed int return_value_menu_do_select_3;
   switch(ch)
   {
     case 0402:
@@ -13295,15 +13295,15 @@ static signed int menu_handle_key(struct MWINDOW *win, signed int ch)
     }
     case 0404:
     {
-      if(!(menu_handle_key$$1$$menu->key_left == 0))
-        menu_close(menu_handle_key$$1$$menu);
+      if(!(menu_handle_key__1__menu->key_left == 0))
+        menu_close(menu_handle_key__1__menu);
 
       break;
     }
     case 0405:
     {
-      return_value_menu_has_sub$2=menu_has_sub(&menu_handle_key$$1$$menu->entries[(signed long int)menu_handle_key$$1$$menu->cur]);
-      if(!(return_value_menu_has_sub$2 == 0))
+      return_value_menu_has_sub_2=menu_has_sub(&menu_handle_key__1__menu->entries[(signed long int)menu_handle_key__1__menu->cur]);
+      if(!(return_value_menu_has_sub_2 == 0))
         menu_do_select(win);
 
       break;
@@ -13312,11 +13312,11 @@ static signed int menu_handle_key(struct MWINDOW *win, signed int ch)
 
     case 13:
     {
-      return_value_menu_do_select$3=menu_do_select(win);
-      if(return_value_menu_do_select$3 == 0)
+      return_value_menu_do_select_3=menu_do_select(win);
+      if(return_value_menu_do_select_3 == 0)
       {
-        if(!(menu_handle_key$$1$$menu->handle_select == ((void (*)(struct MMENU *))NULL)))
-          menu_handle_key$$1$$menu->handle_select(menu_handle_key$$1$$menu);
+        if(!(menu_handle_key__1__menu->handle_select == ((void (*)(struct MMENU *))NULL)))
+          menu_handle_key__1__menu->handle_select(menu_handle_key__1__menu);
 
       }
 
@@ -13325,17 +13325,17 @@ static signed int menu_handle_key(struct MWINDOW *win, signed int ch)
     default:
     {
       i = 0;
-      for( ; !(i >= menu_handle_key$$1$$menu->count); i = i + 1)
+      for( ; !(i >= menu_handle_key__1__menu->count); i = i + 1)
       {
         key = 0;
-        menu_handle_key$$1$$help = (menu_handle_key$$1$$menu->entries + (signed long int)i)->text;
+        menu_handle_key__1__help = (menu_handle_key__1__menu->entries + (signed long int)i)->text;
         do
         {
-          pos=strchr(menu_handle_key$$1$$help, 38);
+          pos=strchr(menu_handle_key__1__help, 38);
           if(pos == ((const char *)NULL))
             break;
 
-          menu_handle_key$$1$$help = pos + (signed long int)2;
+          menu_handle_key__1__help = pos + (signed long int)2;
           if(!((signed int)pos[1l] == 38))
           {
             key=toupper((signed int)pos[(signed long int)1]);
@@ -13346,13 +13346,13 @@ static signed int menu_handle_key(struct MWINDOW *win, signed int ch)
         while((_Bool)1);
         if(key == ch)
         {
-          menu_do_repaint(win, i - menu_handle_key$$1$$menu->cur);
-          signed int return_value_menu_do_select$4;
-          return_value_menu_do_select$4=menu_do_select(win);
-          if(return_value_menu_do_select$4 == 0)
+          menu_do_repaint(win, i - menu_handle_key__1__menu->cur);
+          signed int return_value_menu_do_select_4;
+          return_value_menu_do_select_4=menu_do_select(win);
+          if(return_value_menu_do_select_4 == 0)
           {
-            if(!(menu_handle_key$$1$$menu->handle_select == ((void (*)(struct MMENU *))NULL)))
-              menu_handle_key$$1$$menu->handle_select(menu_handle_key$$1$$menu);
+            if(!(menu_handle_key__1__menu->handle_select == ((void (*)(struct MMENU *))NULL)))
+              menu_handle_key__1__menu->handle_select(menu_handle_key__1__menu);
 
           }
 
@@ -13373,7 +13373,7 @@ static void menu_handle_resize(struct MWINDOW *win, signed int dx, signed int dy
   signed int m_y;
   signed int m_width;
   signed int m_height;
-  struct MMENU *menu_handle_resize$$1$$menu = (struct MMENU *)win->data;
+  struct MMENU *menu_handle_resize__1__menu = (struct MMENU *)win->data;
   win_get_size_max(&m_y, &m_width, &m_height);
   m_width = m_width - 2;
   m_height = m_height - 2;
@@ -13385,119 +13385,119 @@ static void menu_handle_resize(struct MWINDOW *win, signed int dx, signed int dy
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(m_height >= win->height + win->y + -m_y))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (win->y + menu_handle_resize$$1$$menu->count) - m_y > m_height ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (win->y + menu_handle_resize__1__menu->count) - m_y > m_height ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
-    win->y = (m_height - menu_handle_resize$$1$$menu->count) + m_y + 1;
+    win->y = (m_height - menu_handle_resize__1__menu->count) + m_y + 1;
     if(m_y >= win->y)
       win->y = m_y + 1;
 
   }
 
-  if(!(win->height >= menu_handle_resize$$1$$menu->count))
-    win->height = menu_handle_resize$$1$$menu->count;
+  if(!(win->height >= menu_handle_resize__1__menu->count))
+    win->height = menu_handle_resize__1__menu->count;
 
   if(!(m_height >= win->height))
     win->height = m_height;
 
-  if(!(menu_handle_resize$$1$$menu->count >= menu_handle_resize$$1$$menu->first + win->height))
-    menu_handle_resize$$1$$menu->first = menu_handle_resize$$1$$menu->count - win->height;
+  if(!(menu_handle_resize__1__menu->count >= menu_handle_resize__1__menu->first + win->height))
+    menu_handle_resize__1__menu->first = menu_handle_resize__1__menu->count - win->height;
 
-  if(!(menu_handle_resize$$1$$menu->first >= 0))
-    menu_handle_resize$$1$$menu->first = 0;
+  if(!(menu_handle_resize__1__menu->first >= 0))
+    menu_handle_resize__1__menu->first = 0;
 
 }
 
 // menu_has_sub
 // file ../../src/mmenu.c line 88
-static signed int menu_has_sub(struct anonymous$8 *entry)
+static signed int menu_has_sub(struct anonymous_8 *entry)
 {
-  signed int return_value_menu_is_str$1;
-  return_value_menu_is_str$1=menu_is_str(entry);
-  _Bool tmp_if_expr$3;
-  signed int return_value_menu_is_int$2;
-  if(!(return_value_menu_is_str$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_menu_is_str_1;
+  return_value_menu_is_str_1=menu_is_str(entry);
+  _Bool tmp_if_expr_3;
+  signed int return_value_menu_is_int_2;
+  if(!(return_value_menu_is_str_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_menu_is_int$2=menu_is_int(entry);
-    tmp_if_expr$3 = return_value_menu_is_int$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_menu_is_int_2=menu_is_int(entry);
+    tmp_if_expr_3 = return_value_menu_is_int_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_menu_is_option$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_menu_is_option_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_menu_is_option$4=menu_is_option(entry);
-    tmp_if_expr$5 = return_value_menu_is_option$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_menu_is_option_4=menu_is_option(entry);
+    tmp_if_expr_5 = return_value_menu_is_option_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_menu_is_sub$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_menu_is_sub_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_menu_is_sub$6=menu_is_sub(entry);
-    tmp_if_expr$7 = return_value_menu_is_sub$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_menu_is_sub_6=menu_is_sub(entry);
+    tmp_if_expr_7 = return_value_menu_is_sub_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$7;
+  return (signed int)tmp_if_expr_7;
 }
 
 // menu_is_int
 // file ../../src/mmenu.c line 78
-static signed int menu_is_int(struct anonymous$8 *entry)
+static signed int menu_is_int(struct anonymous_8 *entry)
 {
-  signed int return_value_menu_check$1;
-  return_value_menu_check$1=menu_check(entry->text, (char)100);
-  return return_value_menu_check$1;
+  signed int return_value_menu_check_1;
+  return_value_menu_check_1=menu_check(entry->text, (char)100);
+  return return_value_menu_check_1;
 }
 
 // menu_is_option
 // file ../../src/mmenu.c line 68
-static signed int menu_is_option(struct anonymous$8 *entry)
+static signed int menu_is_option(struct anonymous_8 *entry)
 {
-  signed int return_value_menu_check$1;
-  return_value_menu_check$1=menu_check(entry->text, (char)111);
-  return return_value_menu_check$1;
+  signed int return_value_menu_check_1;
+  return_value_menu_check_1=menu_check(entry->text, (char)111);
+  return return_value_menu_check_1;
 }
 
 // menu_is_str
 // file ../../src/mmenu.c line 83
-static signed int menu_is_str(struct anonymous$8 *entry)
+static signed int menu_is_str(struct anonymous_8 *entry)
 {
-  signed int return_value_menu_check$1;
-  return_value_menu_check$1=menu_check(entry->text, (char)115);
-  return return_value_menu_check$1;
+  signed int return_value_menu_check_1;
+  return_value_menu_check_1=menu_check(entry->text, (char)115);
+  return return_value_menu_check_1;
 }
 
 // menu_is_sub
 // file ../../src/mmenu.c line 58
-static signed int menu_is_sub(struct anonymous$8 *entry)
+static signed int menu_is_sub(struct anonymous_8 *entry)
 {
   signed int i = 0;
   signed int end;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(entry->text);
-  end = (signed int)(return_value_strlen$1 - (unsigned long int)1);
-  signed int tmp_post$3 = end;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(entry->text);
+  end = (signed int)(return_value_strlen_1 - (unsigned long int)1);
+  signed int tmp_post_3 = end;
   end = end - 1;
-  signed int tmp_post$2;
-  if((signed int)entry->text[(signed long int)tmp_post$3] == 62)
+  signed int tmp_post_2;
+  if((signed int)entry->text[(signed long int)tmp_post_3] == 62)
   {
     do
     {
-      tmp_post$2 = end;
+      tmp_post_2 = end;
       end = end - 1;
-      if(!((signed int)entry->text[(signed long int)tmp_post$2] == 37))
+      if(!((signed int)entry->text[(signed long int)tmp_post_2] == 37))
         break;
 
       i = i + 1;
@@ -13512,11 +13512,11 @@ static signed int menu_is_sub(struct anonymous$8 *entry)
 
 // menu_is_toggle
 // file ../../src/mmenu.c line 73
-static signed int menu_is_toggle(struct anonymous$8 *entry)
+static signed int menu_is_toggle(struct anonymous_8 *entry)
 {
-  signed int return_value_menu_check$1;
-  return_value_menu_check$1=menu_check(entry->text, (char)99);
-  return return_value_menu_check$1;
+  signed int return_value_menu_check_1;
+  return_value_menu_check_1=menu_check(entry->text, (char)99);
+  return return_value_menu_check_1;
 }
 
 // menu_open
@@ -13560,7 +13560,7 @@ void menu_open(struct MMENU *menu, signed int x, signed int y)
   if(!(y >= m_y))
     y = m_y + 1;
 
-  menu->win=win_open(x, y, width, menu->count, 1, (const char *)(void *)0, (enum anonymous$7)ATTR_MENU_FRAME);
+  menu->win=win_open(x, y, width, menu->count, 1, (const char *)(void *)0, (enum anonymous_7)ATTR_MENU_FRAME);
   win_set_repaint(menu_repaint);
   win_set_handle_key(menu_handle_key);
   win_set_resize(0, menu_handle_resize);
@@ -13588,17 +13588,17 @@ static signed int menu_repaint(struct MWINDOW *win)
 static signed int menu_width(char *txt)
 {
   signed int width;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(txt);
-  width = (signed int)return_value_strlen$1;
-  char *menu_width$$1$$help;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(txt);
+  width = (signed int)return_value_strlen_1;
+  char *menu_width__1__help;
   do
   {
-    menu_width$$1$$help=strchr(txt, 38);
-    if(menu_width$$1$$help == ((char *)NULL))
+    menu_width__1__help=strchr(txt, 38);
+    if(menu_width__1__help == ((char *)NULL))
       break;
 
-    txt = menu_width$$1$$help + (signed long int)2;
+    txt = menu_width__1__help + (signed long int)2;
     width = width - 1;
   }
   while((_Bool)1);
@@ -13609,9 +13609,9 @@ static signed int menu_width(char *txt)
 // file ../../src/mlist.c line 53
 static signed int mikmod_random(signed int limit)
 {
-  signed long int return_value_random$1;
-  return_value_random$1=random();
-  return (signed int)(return_value_random$1 % (signed long int)limit);
+  signed long int return_value_random_1;
+  return_value_random_1=random();
+  return (signed int)(return_value_random_1 % (signed long int)limit);
 }
 
 // options_free
@@ -13654,14 +13654,14 @@ static signed int parse_line(char *line, char **label, char **arg)
   char *end;
   *label = (char *)(void *)0;
   *arg = (char *)(void *)0;
-  char return_value_skip_space$1;
-  return_value_skip_space$1=skip_space(&line);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  signed int return_value_strcmp$4;
-  signed int return_value_toupper$7;
-  signed int return_value_toupper$8;
-  _Bool tmp_if_expr$9;
-  if((signed int)return_value_skip_space$1 == 35)
+  char return_value_skip_space_1;
+  return_value_skip_space_1=skip_space(&line);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  signed int return_value_strcmp_4;
+  signed int return_value_toupper_7;
+  signed int return_value_toupper_8;
+  _Bool tmp_if_expr_9;
+  if((signed int)return_value_skip_space_1 == 35)
     return 0;
 
   else
@@ -13669,17 +13669,17 @@ static signed int parse_line(char *line, char **label, char **arg)
     *label = line;
     do
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*line]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*line]) == 0)
       {
         if(!((signed int)*line == 95))
           break;
 
       }
 
-      signed int return_value_toupper$3;
-      return_value_toupper$3=toupper((signed int)*line);
-      *line = (char)return_value_toupper$3;
+      signed int return_value_toupper_3;
+      return_value_toupper_3=toupper((signed int)*line);
+      *line = (char)return_value_toupper_3;
       line = line + 1l;
     }
     while((_Bool)1);
@@ -13695,20 +13695,20 @@ static signed int parse_line(char *line, char **label, char **arg)
     else
     {
       *end = (char)0;
-      signed int return_value_strcmp$5;
-      return_value_strcmp$5=strcmp(*label, "BEGIN");
-      if(!(return_value_strcmp$5 == 0))
+      signed int return_value_strcmp_5;
+      return_value_strcmp_5=strcmp(*label, "BEGIN");
+      if(!(return_value_strcmp_5 == 0))
       {
-        return_value_strcmp$4=strcmp(*label, "END");
-        if(!(return_value_strcmp$4 == 0))
+        return_value_strcmp_4=strcmp(*label, "END");
+        if(!(return_value_strcmp_4 == 0))
           return 0;
 
       }
 
     }
-    const unsigned short int **return_value___ctype_b_loc$10;
-    return_value___ctype_b_loc$10=__ctype_b_loc();
-    if(!((32768 & (signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)*line]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_10;
+    return_value___ctype_b_loc_10=__ctype_b_loc();
+    if(!((32768 & (signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)*line]) == 0))
     {
       char *pos;
       char ch1;
@@ -13756,9 +13756,9 @@ static signed int parse_line(char *line, char **label, char **arg)
         }
         if(string == 0)
         {
-          signed int return_value_toupper$6;
-          return_value_toupper$6=toupper((signed int)*line);
-          *line = (char)return_value_toupper$6;
+          signed int return_value_toupper_6;
+          return_value_toupper_6=toupper((signed int)*line);
+          *line = (char)return_value_toupper_6;
         }
 
         else
@@ -13819,10 +13819,10 @@ static signed int parse_line(char *line, char **label, char **arg)
               }
               case 120:
               {
-                return_value_toupper$7=toupper((signed int)line[(signed long int)1]);
-                ch1 = (char)return_value_toupper$7;
-                return_value_toupper$8=toupper((signed int)line[(signed long int)2]);
-                ch2 = (char)return_value_toupper$8;
+                return_value_toupper_7=toupper((signed int)line[(signed long int)1]);
+                ch1 = (char)return_value_toupper_7;
+                return_value_toupper_8=toupper((signed int)line[(signed long int)2]);
+                ch2 = (char)return_value_toupper_8;
                 *pos = (char)(((signed int)ch1 >= 65 ? ((signed int)ch1 - 65) + 10 : (signed int)ch1 - 48) * 16 + ((signed int)ch2 >= 65 ? ((signed int)ch2 - 65) + 10 : (signed int)ch2 - 48));
                 line = line + (signed long int)2;
                 break;
@@ -13848,12 +13848,12 @@ static signed int parse_line(char *line, char **label, char **arg)
         {
           pos = pos - 1l;
           if((signed int)*pos == 32)
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = (signed int)*pos == 9 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (signed int)*pos == 9 ? (_Bool)1 : (_Bool)0;
         }
-        while(tmp_if_expr$9);
+        while(tmp_if_expr_9);
         pos = pos + 1l;
       }
 
@@ -13881,37 +13881,37 @@ signed int path_relative(const char *path)
 static signed int path_update(char *dest, char *path, char *file)
 {
   char *end;
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(file, "../");
-  char *tmp_post$2;
-  signed int return_value_strcmp$4;
-  unsigned long int return_value_strlen$3;
-  if(return_value_strcmp$5 == 0)
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(file, "../");
+  char *tmp_post_2;
+  signed int return_value_strcmp_4;
+  unsigned long int return_value_strlen_3;
+  if(return_value_strcmp_5 == 0)
   {
     strcpy(dest, path);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(dest);
-    end = (dest + (signed long int)return_value_strlen$1) - (signed long int)2;
-    for( ; !(dest >= end); *tmp_post$2 = (char)0)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(dest);
+    end = (dest + (signed long int)return_value_strlen_1) - (signed long int)2;
+    for( ; !(dest >= end); *tmp_post_2 = (char)0)
     {
       if((signed int)*end == 47)
         break;
 
-      tmp_post$2 = end;
+      tmp_post_2 = end;
       end = end - 1l;
     }
   }
 
   else
   {
-    return_value_strcmp$4=strcmp(file, "./");
-    if(return_value_strcmp$4 == 0)
+    return_value_strcmp_4=strcmp(file, "./");
+    if(return_value_strcmp_4 == 0)
       strcpy(dest, path);
 
     else
     {
-      return_value_strlen$3=strlen(file);
-      if((signed int)file[-1l + (signed long int)return_value_strlen$3] == 47)
+      return_value_strlen_3=strlen(file);
+      if((signed int)file[-1l + (signed long int)return_value_strlen_3] == 47)
       {
         strcpy(dest, path);
         strcat(dest, file);
@@ -13929,11 +13929,11 @@ static signed int path_update(char *dest, char *path, char *file)
 static signed int player_handle_key(struct MWINDOW *win, signed int ch)
 {
   signed int handled = 1;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(!(ch >= 256))
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)ch]) == 0))
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)ch]) == 0))
       ch=toupper(ch);
 
   }
@@ -14011,9 +14011,9 @@ static signed int player_handle_key(struct MWINDOW *win, signed int ch)
     default:
       handled = 0;
   }
-  signed int return_value_MP_Paused$2;
-  return_value_MP_Paused$2=MP_Paused();
-  if(return_value_MP_Paused$2 == 0)
+  signed int return_value_MP_Paused_2;
+  return_value_MP_Paused_2=MP_Paused();
+  if(return_value_MP_Paused_2 == 0)
   {
     handled = 1;
     switch(ch)
@@ -14154,15 +14154,15 @@ static signed int player_handle_key(struct MWINDOW *win, signed int ch)
 // file ../../src/mikmod.c line 712
 static void player_quit(void)
 {
-  const char *return_value_MikMod_strerror$1;
+  const char *return_value_MikMod_strerror_1;
   if(!(status.quit == 0))
     exit_player(0, (const char *)(void *)0);
 
   else
     if(status.listend == 0)
     {
-      return_value_MikMod_strerror$1=MikMod_strerror(MikMod_errno);
-      exit_player(1, "MikMod error: %s\n", return_value_MikMod_strerror$1);
+      return_value_MikMod_strerror_1=MikMod_strerror(MikMod_errno);
+      exit_player(1, "MikMod error: %s\n", return_value_MikMod_strerror_1);
     }
 
     else
@@ -14182,44 +14182,44 @@ static signed int player_timeout(struct MWINDOW *win, void *data)
       MP_End();
       Player_Stop();
       Player_Free(mf);
-      status.state = (enum anonymous$30)STATE_READY;
+      status.state = (enum anonymous_30)STATE_READY;
     }
 
     mf = (struct MODULE *)(void *)0;
     player_quit();
   }
 
-  signed int return_value_MP_Active$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_PL_CurrentDeleted$8;
-  _Bool tmp_if_expr$6;
-  signed int return_value_PL_GetLength$5;
-  signed int return_value_PL_ContNext$1;
-  signed int return_value_PL_ContPrev$2;
-  signed int return_value_PL_ContPos$3;
-  signed int return_value_PL_GetLength$4;
+  signed int return_value_MP_Active_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_PL_CurrentDeleted_8;
+  _Bool tmp_if_expr_6;
+  signed int return_value_PL_GetLength_5;
+  signed int return_value_PL_ContNext_1;
+  signed int return_value_PL_ContPrev_2;
+  signed int return_value_PL_ContPos_3;
+  signed int return_value_PL_GetLength_4;
   if((signed int)status.state >= STATE_READY)
   {
-    return_value_MP_Active$7=MP_Active();
-    if(return_value_MP_Active$7 == 0 || !(next == 0))
-      tmp_if_expr$9 = (_Bool)1;
+    return_value_MP_Active_7=MP_Active();
+    if(return_value_MP_Active_7 == 0 || !(next == 0))
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_PL_CurrentDeleted$8=PL_CurrentDeleted(&playlist);
-      tmp_if_expr$9 = return_value_PL_CurrentDeleted$8 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_PL_CurrentDeleted_8=PL_CurrentDeleted(&playlist);
+      tmp_if_expr_9 = return_value_PL_CurrentDeleted_8 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
     {
       if(status.listend == 0)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_PL_GetLength$5=PL_GetLength(&playlist);
-        tmp_if_expr$6 = return_value_PL_GetLength$5 > 0 ? (_Bool)1 : (_Bool)0;
+        return_value_PL_GetLength_5=PL_GetLength(&playlist);
+        tmp_if_expr_6 = return_value_PL_GetLength_5 > 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
       {
         if((signed int)status.state == STATE_PLAY)
         {
@@ -14230,7 +14230,7 @@ static signed int player_timeout(struct MWINDOW *win, void *data)
           PL_SetPlayedCurrent(&playlist);
           Player_Stop();
           Player_Free(mf);
-          status.state = (enum anonymous$30)STATE_READY;
+          status.state = (enum anonymous_30)STATE_READY;
         }
 
         mf = (struct MODULE *)(void *)0;
@@ -14242,28 +14242,28 @@ static signed int player_timeout(struct MWINDOW *win, void *data)
 
           case 1:
           {
-            return_value_PL_ContNext$1=PL_ContNext(&playlist, &filename, &archive, config.playmode);
-            status.listend = (signed int)!(return_value_PL_ContNext$1 != 0);
+            return_value_PL_ContNext_1=PL_ContNext(&playlist, &filename, &archive, config.playmode);
+            status.listend = (signed int)!(return_value_PL_ContNext_1 != 0);
             break;
           }
           case 2:
           {
-            return_value_PL_ContPrev$2=PL_ContPrev(&playlist, &filename, &archive);
-            status.listend = (signed int)!(return_value_PL_ContPrev$2 != 0);
+            return_value_PL_ContPrev_2=PL_ContPrev(&playlist, &filename, &archive);
+            status.listend = (signed int)!(return_value_PL_ContPrev_2 != 0);
             break;
           }
           case 3:
           {
-            return_value_PL_ContPos$3=PL_ContPos(&playlist, &filename, &archive, next_pl_pos);
-            status.listend = (signed int)!(return_value_PL_ContPos$3 != 0);
+            return_value_PL_ContPos_3=PL_ContPos(&playlist, &filename, &archive, next_pl_pos);
+            status.listend = (signed int)!(return_value_PL_ContPos_3 != 0);
           }
         }
         next = 0;
         settime = 1;
         if(!(status.listend == 0))
         {
-          return_value_PL_GetLength$4=PL_GetLength(&playlist);
-          if(return_value_PL_GetLength$4 >= 1 || !(quiet == 0))
+          return_value_PL_GetLength_4=PL_GetLength(&playlist);
+          if(return_value_PL_GetLength_4 >= 1 || !(quiet == 0))
             player_quit();
 
         }
@@ -14321,7 +14321,7 @@ static signed int player_timeout(struct MWINDOW *win, void *data)
           }
 
           MP_Start();
-          status.state = (enum anonymous$30)STATE_PLAY;
+          status.state = (enum anonymous_30)STATE_PLAY;
         }
 
         display_start();
@@ -14354,8 +14354,8 @@ void rc_close(void)
     fp = (struct _IO_FILE *)(void *)0;
   }
 
-  options_free(options$link1);
-  options$link1 = (struct _OPTIONS *)(void *)0;
+  options_free(options_link1);
+  options_link1 = (struct _OPTIONS *)(void *)0;
 }
 
 // rc_load
@@ -14369,14 +14369,14 @@ signed int rc_load(const char *name)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _OPTIONS) /*24ul*/ );
-    options$link1 = (struct _OPTIONS *)return_value_malloc$1;
-    options$link1->max = 0;
-    options$link1->cnt = options$link1->max;
-    options$link1->option = (struct _OPTION *)(void *)0;
-    options$link1->parent = (struct _OPTIONS *)(void *)0;
-    ret=rc_parse(options$link1, "'NO END'");
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _OPTIONS) /*24ul*/ );
+    options_link1 = (struct _OPTIONS *)return_value_malloc_1;
+    options_link1->max = 0;
+    options_link1->cnt = options_link1->max;
+    options_link1->option = (struct _OPTION *)(void *)0;
+    options_link1->parent = (struct _OPTIONS *)(void *)0;
+    ret=rc_parse(options_link1, "'NO END'");
     fclose(fp);
     fp = (struct _IO_FILE *)(void *)0;
     return ret;
@@ -14391,33 +14391,33 @@ static signed int rc_parse(struct _OPTIONS *opts, const char *sec_name)
   char *label;
   char *arg;
   signed int ret = 1;
-  char *return_value_fgets$1;
-  unsigned long int return_value_strlen$2;
+  char *return_value_fgets_1;
+  unsigned long int return_value_strlen_2;
   while(!(ret == 0))
   {
-    return_value_fgets$1=fgets(line, 1024, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 1024, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(line);
-    if((signed int)line[-1l + (signed long int)return_value_strlen$3] == 10)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(line);
+    if((signed int)line[-1l + (signed long int)return_value_strlen_3] == 10)
     {
-      return_value_strlen$2=strlen(line);
-      line[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+      return_value_strlen_2=strlen(line);
+      line[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     }
 
-    signed int return_value_parse_line$9;
-    return_value_parse_line$9=parse_line(line, &label, &arg);
-    if(!(return_value_parse_line$9 == 0))
+    signed int return_value_parse_line_9;
+    return_value_parse_line_9=parse_line(line, &label, &arg);
+    if(!(return_value_parse_line_9 == 0))
     {
-      signed int return_value_strcmp$8;
-      return_value_strcmp$8=strcmp("END", label);
-      if(return_value_strcmp$8 == 0)
+      signed int return_value_strcmp_8;
+      return_value_strcmp_8=strcmp("END", label);
+      if(return_value_strcmp_8 == 0)
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(arg, sec_name);
-        if(!(return_value_strcmp$4 == 0))
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(arg, sec_name);
+        if(!(return_value_strcmp_4 == 0))
         {
           fprintf(stderr, "Error in config file: expected 'END %s', found 'END %s'                      Ignoring (remaining) config file...", sec_name, arg);
           return 0;
@@ -14431,21 +14431,21 @@ static signed int rc_parse(struct _OPTIONS *opts, const char *sec_name)
         if(opts->cnt >= opts->max)
         {
           opts->max = opts->max + 10;
-          void *return_value_realloc$5;
-          return_value_realloc$5=realloc((void *)opts->option, sizeof(struct _OPTION) /*24ul*/  * (unsigned long int)opts->max);
-          opts->option = (struct _OPTION *)return_value_realloc$5;
+          void *return_value_realloc_5;
+          return_value_realloc_5=realloc((void *)opts->option, sizeof(struct _OPTION) /*24ul*/  * (unsigned long int)opts->max);
+          opts->option = (struct _OPTION *)return_value_realloc_5;
         }
 
         (opts->option + (signed long int)opts->cnt)->label=strdup(label);
         (opts->option + (signed long int)opts->cnt)->arg=strdup(arg);
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp("BEGIN", label);
-        if(return_value_strcmp$7 == 0)
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp("BEGIN", label);
+        if(return_value_strcmp_7 == 0)
         {
           struct _OPTIONS *new_opts;
-          void *return_value_malloc$6;
-          return_value_malloc$6=malloc(sizeof(struct _OPTIONS) /*24ul*/ );
-          new_opts = (struct _OPTIONS *)return_value_malloc$6;
+          void *return_value_malloc_6;
+          return_value_malloc_6=malloc(sizeof(struct _OPTIONS) /*24ul*/ );
+          new_opts = (struct _OPTIONS *)return_value_malloc_6;
           new_opts->max = 0;
           new_opts->cnt = new_opts->max;
           new_opts->option = (struct _OPTION *)(void *)0;
@@ -14461,22 +14461,22 @@ static signed int rc_parse(struct _OPTIONS *opts, const char *sec_name)
     }
 
   }
-  signed int return_value_ferror$10;
-  return_value_ferror$10=ferror(fp);
-  if(!(return_value_ferror$10 == 0))
+  signed int return_value_ferror_10;
+  return_value_ferror_10=ferror(fp);
+  if(!(return_value_ferror_10 == 0))
     fprintf(stderr, "Error in config file, ignoring (remaining) file...");
 
-  _Bool tmp_if_expr$12;
-  signed int return_value_ferror$11;
+  _Bool tmp_if_expr_12;
+  signed int return_value_ferror_11;
   if(!(ret == 0))
   {
-    return_value_ferror$11=ferror(fp);
-    tmp_if_expr$12 = !(return_value_ferror$11 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_ferror_11=ferror(fp);
+    tmp_if_expr_12 = !(return_value_ferror_11 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$12 = (_Bool)0;
-  return (signed int)tmp_if_expr$12;
+    tmp_if_expr_12 = (_Bool)0;
+  return (signed int)tmp_if_expr_12;
 }
 
 // rc_read_bit
@@ -14485,31 +14485,31 @@ signed int rc_read_bit(const char *label, signed int *value, signed int mask)
 {
   const char *arg;
   arg=get_argument(label);
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcasecmp$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcasecmp_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  _Bool tmp_if_expr_4;
   if(!(arg == ((const char *)NULL)))
   {
-    signed int return_value_strcasecmp$5;
-    return_value_strcasecmp$5=strcasecmp(arg, "YES");
-    if(return_value_strcasecmp$5 == 0)
-      tmp_if_expr$7 = (_Bool)1;
+    signed int return_value_strcasecmp_5;
+    return_value_strcasecmp_5=strcasecmp(arg, "YES");
+    if(return_value_strcasecmp_5 == 0)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$6=strcasecmp(arg, "ON");
-      tmp_if_expr$7 = !(return_value_strcasecmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_6=strcasecmp(arg, "ON");
+      tmp_if_expr_7 = !(return_value_strcasecmp_6 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)*arg == 49 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (signed int)*arg == 49 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       *value = *value | mask;
       return 1;
@@ -14517,21 +14517,21 @@ signed int rc_read_bit(const char *label, signed int *value, signed int mask)
 
     else
     {
-      return_value_strcasecmp$1=strcasecmp(arg, "NO");
-      if(return_value_strcasecmp$1 == 0)
-        tmp_if_expr$3 = (_Bool)1;
+      return_value_strcasecmp_1=strcasecmp(arg, "NO");
+      if(return_value_strcasecmp_1 == 0)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp(arg, "OFF");
-        tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_2=strcasecmp(arg, "OFF");
+        tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*arg == 48 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)*arg == 48 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         *value = *value & ~mask;
         return 1;
@@ -14549,31 +14549,31 @@ signed int rc_read_bool(const char *label, signed int *value)
 {
   char *arg;
   arg=get_argument(label);
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcasecmp$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcasecmp_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  _Bool tmp_if_expr_4;
   if(!(arg == ((char *)NULL)))
   {
-    signed int return_value_strcasecmp$5;
-    return_value_strcasecmp$5=strcasecmp(arg, "YES");
-    if(return_value_strcasecmp$5 == 0)
-      tmp_if_expr$7 = (_Bool)1;
+    signed int return_value_strcasecmp_5;
+    return_value_strcasecmp_5=strcasecmp(arg, "YES");
+    if(return_value_strcasecmp_5 == 0)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$6=strcasecmp(arg, "ON");
-      tmp_if_expr$7 = !(return_value_strcasecmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_6=strcasecmp(arg, "ON");
+      tmp_if_expr_7 = !(return_value_strcasecmp_6 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)*arg == 49 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (signed int)*arg == 49 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       *value = 1;
       return 1;
@@ -14581,21 +14581,21 @@ signed int rc_read_bool(const char *label, signed int *value)
 
     else
     {
-      return_value_strcasecmp$1=strcasecmp(arg, "NO");
-      if(return_value_strcasecmp$1 == 0)
-        tmp_if_expr$3 = (_Bool)1;
+      return_value_strcasecmp_1=strcasecmp(arg, "NO");
+      if(return_value_strcasecmp_1 == 0)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp(arg, "OFF");
-        tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_2=strcasecmp(arg, "OFF");
+        tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*arg == 48 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)*arg == 48 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         *value = 0;
         return 1;
@@ -14616,9 +14616,9 @@ signed int rc_read_float(const char *label, float *value, float min, float max)
   if(!(arg == ((const char *)NULL)))
   {
     float t;
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(arg, "%f", &t);
-    if(return_value_sscanf$1 == 1)
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(arg, "%f", &t);
+    if(return_value_sscanf_1 == 1)
     {
       if(t <= max && t >= min)
       {
@@ -14643,9 +14643,9 @@ signed int rc_read_int(const char *label, signed int *value, signed int min, sig
   {
     char *end;
     signed int t;
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(arg, &end, 10);
-    t = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(arg, &end, 10);
+    t = (signed int)return_value_strtol_1;
     if(*end == 0)
     {
       if(t >= min)
@@ -14667,7 +14667,7 @@ signed int rc_read_int(const char *label, signed int *value, signed int min, sig
 
 // rc_read_label
 // file ../../src/rcfile.h line 57
-signed int rc_read_label(const char *label, signed int *value, struct anonymous$4 *convert)
+signed int rc_read_label(const char *label, signed int *value, struct anonymous_4 *convert)
 {
   const char *arg;
   arg=get_argument(label);
@@ -14676,9 +14676,9 @@ signed int rc_read_label(const char *label, signed int *value, struct anonymous$
     signed int i = 0;
     while(!((convert + (signed long int)i)->label == ((const char *)NULL)))
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp((convert + (signed long int)i)->label, arg);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp((convert + (signed long int)i)->label, arg);
+      if(return_value_strcasecmp_1 == 0)
       {
         *value = (convert + (signed long int)i)->id;
         return 1;
@@ -14715,7 +14715,7 @@ signed int rc_read_struct(const char *label)
   arg=get_begin(label);
   if(!(arg == ((struct _OPTIONS *)NULL)))
   {
-    options$link1 = arg;
+    options_link1 = arg;
     return 1;
   }
 
@@ -14727,9 +14727,9 @@ signed int rc_read_struct(const char *label)
 // file ../../src/rcfile.h line 59
 signed int rc_read_struct_end(void)
 {
-  if(!(options$link1->parent == ((struct _OPTIONS *)NULL)))
+  if(!(options_link1->parent == ((struct _OPTIONS *)NULL)))
   {
-    options$link1 = options$link1->parent;
+    options_link1 = options_link1->parent;
     return 1;
   }
 
@@ -14747,9 +14747,9 @@ signed int rc_save(const char *name, const char *prg_name)
 
   else
   {
-    signed int return_value_fprintf$1;
-    return_value_fprintf$1=fprintf(fp, "#\n# %s\n# configuration file\n#\n", prg_name);
-    if(!(return_value_fprintf$1 >= 1))
+    signed int return_value_fprintf_1;
+    return_value_fprintf_1=fprintf(fp, "#\n# %s\n# configuration file\n#\n", prg_name);
+    if(!(return_value_fprintf_1 >= 1))
     {
       fclose(fp);
       fp = (struct _IO_FILE *)(void *)0;
@@ -14766,18 +14766,18 @@ signed int rc_save(const char *name, const char *prg_name)
 void rc_set_string(char **value, const char *arg, signed int length)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(arg);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(arg);
+  len = (signed int)return_value_strlen_1;
   if(!(length >= len))
     len = length;
 
   if(!(*value == ((char *)NULL)))
     free((void *)*value);
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(len + 1) * sizeof(char) /*1ul*/ );
-  *value = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(len + 1) * sizeof(char) /*1ul*/ );
+  *value = (char *)return_value_malloc_2;
   strncpy(*value, arg, (unsigned long int)len);
   (*value)[(signed long int)len] = (char)0;
 }
@@ -14786,30 +14786,30 @@ void rc_set_string(char **value, const char *arg, signed int length)
 // file ../../src/rcfile.c line 134
 signed int rc_write_bit(const char *label, signed int arg, signed int mask, const char *description)
 {
-  signed int return_value_rc_write_bool$1;
-  return_value_rc_write_bool$1=rc_write_bool(label, (arg & mask) != 0 ? 1 : 0, description);
-  return return_value_rc_write_bool$1;
+  signed int return_value_rc_write_bool_1;
+  return_value_rc_write_bool_1=rc_write_bool(label, (arg & mask) != 0 ? 1 : 0, description);
+  return return_value_rc_write_bool_1;
 }
 
 // rc_write_bool
 // file ../../src/rcfile.h line 40
 signed int rc_write_bool(const char *label, signed int arg, const char *description)
 {
-  signed int return_value_fprintf$1;
-  signed int return_value_fprintf$2;
+  signed int return_value_fprintf_1;
+  signed int return_value_fprintf_2;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
     write_description(description);
     if(!(arg == 0))
     {
-      return_value_fprintf$1=fprintf(fp, "%s%s = yes\n", (const void *)indent, label);
-      return (signed int)(return_value_fprintf$1 > 0);
+      return_value_fprintf_1=fprintf(fp, "%s%s = yes\n", (const void *)indent, label);
+      return (signed int)(return_value_fprintf_1 > 0);
     }
 
     else
     {
-      return_value_fprintf$2=fprintf(fp, "%s%s = no\n", (const void *)indent, label);
-      return (signed int)(return_value_fprintf$2 > 0);
+      return_value_fprintf_2=fprintf(fp, "%s%s = no\n", (const void *)indent, label);
+      return (signed int)(return_value_fprintf_2 > 0);
     }
   }
 
@@ -14823,9 +14823,9 @@ signed int rc_write_float(const char *label, float arg, const char *description)
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
     write_description(description);
-    signed int return_value_fprintf$1;
-    return_value_fprintf$1=fprintf(fp, "%s%s = %f\n", (const void *)indent, label, arg);
-    return (signed int)(return_value_fprintf$1 > 0);
+    signed int return_value_fprintf_1;
+    return_value_fprintf_1=fprintf(fp, "%s%s = %f\n", (const void *)indent, label, arg);
+    return (signed int)(return_value_fprintf_1 > 0);
   }
 
   return 0;
@@ -14838,9 +14838,9 @@ signed int rc_write_int(const char *label, signed int arg, const char *descripti
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
     write_description(description);
-    signed int return_value_fprintf$1;
-    return_value_fprintf$1=fprintf(fp, "%s%s = %d\n", (const void *)indent, label, arg);
-    return (signed int)(return_value_fprintf$1 > 0);
+    signed int return_value_fprintf_1;
+    return_value_fprintf_1=fprintf(fp, "%s%s = %d\n", (const void *)indent, label, arg);
+    return (signed int)(return_value_fprintf_1 > 0);
   }
 
   return 0;
@@ -14848,7 +14848,7 @@ signed int rc_write_int(const char *label, signed int arg, const char *descripti
 
 // rc_write_label
 // file ../../src/rcfile.h line 44
-signed int rc_write_label(const char *label, struct anonymous$4 *convert, signed int arg, const char *description)
+signed int rc_write_label(const char *label, struct anonymous_4 *convert, signed int arg, const char *description)
 {
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
@@ -14857,9 +14857,9 @@ signed int rc_write_label(const char *label, struct anonymous$4 *convert, signed
     i = 0;
     for( ; !((convert + (signed long int)i)->id == arg); i = i + 1)
       ;
-    signed int return_value_fprintf$1;
-    return_value_fprintf$1=fprintf(fp, "%s%s = %s\n", (const void *)indent, label, (convert + (signed long int)i)->label);
-    return (signed int)(return_value_fprintf$1 > 0);
+    signed int return_value_fprintf_1;
+    return_value_fprintf_1=fprintf(fp, "%s%s = %s\n", (const void *)indent, label, (convert + (signed long int)i)->label);
+    return (signed int)(return_value_fprintf_1 > 0);
   }
 
   return 0;
@@ -14869,26 +14869,26 @@ signed int rc_write_label(const char *label, struct anonymous$4 *convert, signed
 // file ../../src/rcfile.h line 45
 signed int rc_write_string(const char *label, const char *arg, const char *description)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_fprintf$4;
+  _Bool tmp_if_expr_2;
+  signed int return_value_fprintf_4;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
     write_description(description);
     if(!(arg == ((const char *)NULL)))
     {
-      signed int return_value_fprintf$1;
-      return_value_fprintf$1=fprintf(fp, "%s%s = \"", (const void *)indent, label);
-      if(!(return_value_fprintf$1 >= 1))
+      signed int return_value_fprintf_1;
+      return_value_fprintf_1=fprintf(fp, "%s%s = \"", (const void *)indent, label);
+      if(!(return_value_fprintf_1 >= 1))
         return 0;
 
       for( ; !(*arg == 0); arg = arg + 1l)
       {
         if(!((signed int)*arg >= 32))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)(unsigned char)*arg > 127 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)(unsigned char)*arg > 127 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           fprintf(fp, "\\x%02x", *((const unsigned char *)arg));
 
         else
@@ -14898,15 +14898,15 @@ signed int rc_write_string(const char *label, const char *arg, const char *descr
           else
             fputc((signed int)*arg, fp);
       }
-      signed int return_value_fprintf$3;
-      return_value_fprintf$3=fprintf(fp, "\"\n");
-      return (signed int)(return_value_fprintf$3 > 0);
+      signed int return_value_fprintf_3;
+      return_value_fprintf_3=fprintf(fp, "\"\n");
+      return (signed int)(return_value_fprintf_3 > 0);
     }
 
     else
     {
-      return_value_fprintf$4=fprintf(fp, "%s%s = \"\"\n", (const void *)indent, label);
-      return (signed int)(return_value_fprintf$4 > 0);
+      return_value_fprintf_4=fprintf(fp, "%s%s = \"\"\n", (const void *)indent, label);
+      return (signed int)(return_value_fprintf_4 > 0);
     }
   }
 
@@ -14921,16 +14921,16 @@ signed int rc_write_struct(const char *label, const char *description)
   {
     signed int ret;
     struct _STACK *newstack;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _STACK) /*16ul*/ );
-    newstack = (struct _STACK *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _STACK) /*16ul*/ );
+    newstack = (struct _STACK *)return_value_malloc_1;
     newstack->data=strdup(label);
     newstack->next = structs;
     structs = newstack;
     write_description(description);
-    signed int return_value_fprintf$2;
-    return_value_fprintf$2=fprintf(fp, "%sBEGIN \"%s\"\n", (const void *)indent, label);
-    ret = (signed int)(return_value_fprintf$2 > 0);
+    signed int return_value_fprintf_2;
+    return_value_fprintf_2=fprintf(fp, "%sBEGIN \"%s\"\n", (const void *)indent, label);
+    ret = (signed int)(return_value_fprintf_2 > 0);
     indent_change(1);
     return ret;
   }
@@ -14945,15 +14945,15 @@ signed int rc_write_struct_end(const char *description)
   if(!(fp == ((struct _IO_FILE *)NULL)) && !(structs == ((struct _STACK *)NULL)))
   {
     signed int ret;
-    struct _STACK *rc_write_struct_end$$1$$1$$next = structs->next;
+    struct _STACK *rc_write_struct_end__1__1__next = structs->next;
     char *label = structs->data;
     free((void *)structs);
-    structs = rc_write_struct_end$$1$$1$$next;
+    structs = rc_write_struct_end__1__1__next;
     indent_change(-1);
     write_description(description);
-    signed int return_value_fprintf$1;
-    return_value_fprintf$1=fprintf(fp, "%sEND \"%s\"\n", (const void *)indent, label);
-    ret = (signed int)(return_value_fprintf$1 > 0);
+    signed int return_value_fprintf_1;
+    return_value_fprintf_1=fprintf(fp, "%sEND \"%s\"\n", (const void *)indent, label);
+    ret = (signed int)(return_value_fprintf_1 > 0);
     free((void *)label);
     return ret;
   }
@@ -14963,13 +14963,13 @@ signed int rc_write_struct_end(const char *description)
 
 // read_archiver
 // file ../../src/mconfig.c line 555
-static void read_archiver(struct anonymous$3 *cfg)
+static void read_archiver(struct anonymous_3 *cfg)
 {
-  struct anonymous$2 arch;
-  memset((void *)&arch, 0, sizeof(struct anonymous$2) /*56ul*/ );
-  signed int return_value_rc_read_int$1;
-  return_value_rc_read_int$1=rc_read_int("LOCATION", &arch.location, -1, 999);
-  if(!(return_value_rc_read_int$1 == 0))
+  struct anonymous_2 arch;
+  memset((void *)&arch, 0, sizeof(struct anonymous_2) /*56ul*/ );
+  signed int return_value_rc_read_int_1;
+  return_value_rc_read_int_1=rc_read_int("LOCATION", &arch.location, -1, 999);
+  if(!(return_value_rc_read_int_1 == 0))
   {
     rc_read_string("MARKER", &arch.marker, 999);
     rc_read_string("LIST", &arch.list, 4096 + 200);
@@ -14981,17 +14981,17 @@ static void read_archiver(struct anonymous$3 *cfg)
     if(cfg->archiver == archiver_def)
     {
       cfg->cnt_archiver = 1;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct anonymous$2) /*56ul*/ );
-      cfg->archiver = (struct anonymous$2 *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct anonymous_2) /*56ul*/ );
+      cfg->archiver = (struct anonymous_2 *)return_value_malloc_2;
     }
 
     else
     {
       cfg->cnt_archiver = cfg->cnt_archiver + 1;
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)cfg->archiver, sizeof(struct anonymous$2) /*56ul*/  * (unsigned long int)cfg->cnt_archiver);
-      cfg->archiver = (struct anonymous$2 *)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)cfg->archiver, sizeof(struct anonymous_2) /*56ul*/  * (unsigned long int)cfg->cnt_archiver);
+      cfg->archiver = (struct anonymous_2 *)return_value_realloc_3;
     }
     cfg->archiver[(signed long int)(cfg->cnt_archiver - 1)] = arch;
   }
@@ -15000,41 +15000,41 @@ static void read_archiver(struct anonymous$3 *cfg)
 
 // read_theme
 // file ../../src/mconfig.c line 488
-static void read_theme(struct anonymous$3 *cfg)
+static void read_theme(struct anonymous_3 *cfg)
 {
   signed int i;
   signed int fg;
   signed int bg;
   signed int attrs[41l];
-  struct anonymous$1 read_theme$$1$$theme = { .name=(char *)(void *)0, .color=-1, .attrs=(signed int *)(void *)0 };
+  struct anonymous_1 read_theme__1__theme = { .name=(char *)(void *)0, .color=-1, .attrs=(signed int *)(void *)0 };
   char *str = (char *)(void *)0;
   char *pos;
   char *end;
-  read_theme$$1$$theme.attrs = attrs;
-  signed int return_value_rc_read_string$1;
-  return_value_rc_read_string$1=rc_read_string("NAME", &read_theme$$1$$theme.name, 99);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  char *tmp_post$4;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  signed int return_value_strcasecmp$9;
-  if(!(return_value_rc_read_string$1 == 0))
+  read_theme__1__theme.attrs = attrs;
+  signed int return_value_rc_read_string_1;
+  return_value_rc_read_string_1=rc_read_string("NAME", &read_theme__1__theme.name, 99);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  char *tmp_post_4;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  signed int return_value_strcasecmp_9;
+  if(!(return_value_rc_read_string_1 == 0))
   {
     i = 0;
     for( ; !(i >= 1); i = i + 1)
     {
-      signed int return_value_rc_read_string$10;
-      return_value_rc_read_string$10=rc_read_string(attrs_label[(signed long int)i], &str, 99);
-      if(!(return_value_rc_read_string$10 == 0))
+      signed int return_value_rc_read_string_10;
+      return_value_rc_read_string_10=rc_read_string(attrs_label[(signed long int)i], &str, 99);
+      if(!(return_value_rc_read_string_10 == 0))
       {
         pos = str;
         do
         {
-          return_value___ctype_b_loc$2=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*pos]) == 0)
+          return_value___ctype_b_loc_2=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*pos]) == 0)
             break;
 
           pos = pos + 1l;
@@ -15043,8 +15043,8 @@ static void read_theme(struct anonymous$3 *cfg)
         end = pos;
         do
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          if((8 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*end]) == 0)
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          if((8 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*end]) == 0)
           {
             if(!((signed int)*end == 95))
               break;
@@ -15056,28 +15056,28 @@ static void read_theme(struct anonymous$3 *cfg)
         while((_Bool)1);
         if(!(*end == 0))
         {
-          tmp_post$4 = end;
+          tmp_post_4 = end;
           end = end + 1l;
-          *tmp_post$4 = (char)0;
+          *tmp_post_4 = (char)0;
         }
 
         fg = 0;
         for( ; !(attrs_mono_conv[(signed long int)fg].label == ((const char *)NULL)); fg = fg + 1)
         {
-          return_value_strcasecmp$5=strcasecmp(attrs_mono_conv[(signed long int)fg].label, pos);
-          if(return_value_strcasecmp$5 == 0)
+          return_value_strcasecmp_5=strcasecmp(attrs_mono_conv[(signed long int)fg].label, pos);
+          if(return_value_strcasecmp_5 == 0)
             break;
 
         }
         if(!(attrs_mono_conv[(signed long int)fg].label == ((const char *)NULL)))
         {
-          if(!(read_theme$$1$$theme.color == 1))
+          if(!(read_theme__1__theme.color == 1))
           {
-            if(read_theme$$1$$theme.color == -1)
+            if(read_theme__1__theme.color == -1)
               memcpy((void *)attrs, (const void *)mono_attributes, sizeof(signed int) /*4ul*/  * (unsigned long int)((signed int)ATTR_STATUS_TEXT + 1));
 
-            read_theme$$1$$theme.attrs[(signed long int)i] = attrs_mono_conv[(signed long int)fg].id;
-            read_theme$$1$$theme.color = 0;
+            read_theme__1__theme.attrs[(signed long int)i] = attrs_mono_conv[(signed long int)fg].id;
+            read_theme__1__theme.color = 0;
           }
 
         }
@@ -15088,8 +15088,8 @@ static void read_theme(struct anonymous$3 *cfg)
             fg = 0;
             for( ; !(attrs_colf_label[(signed long int)fg] == ((const char *)NULL)); fg = fg + 1)
             {
-              return_value_strcasecmp$6=strcasecmp(attrs_colf_label[(signed long int)fg], pos);
-              if(return_value_strcasecmp$6 == 0)
+              return_value_strcasecmp_6=strcasecmp(attrs_colf_label[(signed long int)fg], pos);
+              if(return_value_strcasecmp_6 == 0)
                 break;
 
             }
@@ -15097,8 +15097,8 @@ static void read_theme(struct anonymous$3 *cfg)
             {
               do
               {
-                return_value___ctype_b_loc$7=__ctype_b_loc();
-                if(!((8 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*end]) == 0))
+                return_value___ctype_b_loc_7=__ctype_b_loc();
+                if(!((8 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*end]) == 0))
                   break;
 
                 if((signed int)*end == 95)
@@ -15110,8 +15110,8 @@ static void read_theme(struct anonymous$3 *cfg)
               pos = end;
               do
               {
-                return_value___ctype_b_loc$8=__ctype_b_loc();
-                if((8 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*end]) == 0)
+                return_value___ctype_b_loc_8=__ctype_b_loc();
+                if((8 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*end]) == 0)
                 {
                   if(!((signed int)*end == 95))
                     break;
@@ -15125,20 +15125,20 @@ static void read_theme(struct anonymous$3 *cfg)
               bg = 0;
               for( ; !(attrs_colb_label[(signed long int)bg] == ((const char *)NULL)); bg = bg + 1)
               {
-                return_value_strcasecmp$9=strcasecmp(attrs_colb_label[(signed long int)bg], pos);
-                if(return_value_strcasecmp$9 == 0)
+                return_value_strcasecmp_9=strcasecmp(attrs_colb_label[(signed long int)bg], pos);
+                if(return_value_strcasecmp_9 == 0)
                   break;
 
               }
               if(!(attrs_colb_label[(signed long int)bg] == ((const char *)NULL)))
               {
-                if(!(read_theme$$1$$theme.color == 0))
+                if(!(read_theme__1__theme.color == 0))
                 {
-                  if(read_theme$$1$$theme.color == -1)
+                  if(read_theme__1__theme.color == -1)
                     memcpy((void *)attrs, (const void *)color_attributes, sizeof(signed int) /*4ul*/  * (unsigned long int)((signed int)ATTR_STATUS_TEXT + 1));
 
-                  read_theme$$1$$theme.color = 1;
-                  read_theme$$1$$theme.attrs[(signed long int)i] = (fg << 0) + (bg << 4);
+                  read_theme__1__theme.color = 1;
+                  read_theme__1__theme.attrs[(signed long int)i] = (fg << 0) + (bg << 4);
                 }
 
               }
@@ -15153,8 +15153,8 @@ static void read_theme(struct anonymous$3 *cfg)
     if(!(str == ((char *)NULL)))
       free((void *)str);
 
-    CF_theme_insert(&cfg->themes, &cfg->cnt_themes, &read_theme$$1$$theme);
-    free((void *)read_theme$$1$$theme.name);
+    CF_theme_insert(&cfg->themes, &cfg->cnt_themes, &read_theme__1__theme);
+    free((void *)read_theme__1__theme.name);
   }
 
 }
@@ -15179,7 +15179,7 @@ static void remove_message(void)
 
 // scan_dir
 // file ../../src/mlistedit.c line 321
-static void scan_dir(char *path, signed int recursive, signed int links, struct anonymous$25 *freq_data, enum anonymous$26 mode, signed int (*func)(char *, signed int, signed int, void *), void *data, signed int *added, signed int *removed)
+static void scan_dir(char *path, signed int recursive, signed int links, struct anonymous_25 *freq_data, enum anonymous_26 mode, signed int (*func)(char *, signed int, signed int, void *), void *data, signed int *added, signed int *removed)
 {
   struct __dirstream *dir;
   struct dirent *entry;
@@ -15190,34 +15190,34 @@ static void scan_dir(char *path, signed int recursive, signed int links, struct 
   signed int cnt = 0;
   signed int max = 0;
   signed int i;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(path, "/proc/");
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(return_value_strcmp$1 == 0)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(path, "/proc/");
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(return_value_strcmp_1 == 0)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$2=strcmp(path, "/dev/");
-    tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(path, "/dev/");
+    tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     dir=opendir(path);
-    tmp_if_expr$4 = !(dir != ((struct __dirstream *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = !(dir != ((struct __dirstream *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int tmp_post$7;
-  signed int return_value_MA_TestName$11;
-  void *return_value_bsearch$10;
-  signed int return_value_win_main_iteration$13;
-  if(!tmp_if_expr$4)
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int tmp_post_7;
+  signed int return_value_MA_TestName_11;
+  void *return_value_bsearch_10;
+  signed int return_value_win_main_iteration_13;
+  if(!tmp_if_expr_4)
   {
     if(!(func == ((signed int (*)(char *, signed int, signed int, void *))NULL)))
     {
@@ -15237,9 +15237,9 @@ static void scan_dir(char *path, signed int recursive, signed int links, struct 
     }
 
     strcpy(file, path);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(file);
-    pathend = file + (signed long int)return_value_strlen$5;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(file);
+    pathend = file + (signed long int)return_value_strlen_5;
     do
     {
       entry=readdir(dir);
@@ -15247,31 +15247,31 @@ static void scan_dir(char *path, signed int recursive, signed int links, struct 
         break;
 
       strcpy(pathend, entry->d_name);
-      signed int return_value_lstat$12;
-      return_value_lstat$12=lstat(file, &statbuf);
-      if(return_value_lstat$12 == 0)
+      signed int return_value_lstat_12;
+      return_value_lstat_12=lstat(file, &statbuf);
+      if(return_value_lstat_12 == 0)
       {
         if((61440u & statbuf.st_mode) == 16384u)
         {
           if(!(recursive == 0) && (!((61440u & statbuf.st_mode) == 40960u) || !(links == 0)))
           {
-            return_value_strcmp$9=strcmp(entry->d_name, "..");
-            if(!(return_value_strcmp$9 == 0))
+            return_value_strcmp_9=strcmp(entry->d_name, "..");
+            if(!(return_value_strcmp_9 == 0))
             {
-              return_value_strcmp$8=strcmp(entry->d_name, ".");
-              if(!(return_value_strcmp$8 == 0))
+              return_value_strcmp_8=strcmp(entry->d_name, ".");
+              if(!(return_value_strcmp_8 == 0))
               {
                 if(cnt >= max)
                 {
                   max = max + 10;
-                  void *return_value_realloc$6;
-                  return_value_realloc$6=realloc((void *)dirs, sizeof(char *) /*8ul*/  * (unsigned long int)max);
-                  dirs = (char **)return_value_realloc$6;
+                  void *return_value_realloc_6;
+                  return_value_realloc_6=realloc((void *)dirs, sizeof(char *) /*8ul*/  * (unsigned long int)max);
+                  dirs = (char **)return_value_realloc_6;
                 }
 
-                tmp_post$7 = cnt;
+                tmp_post_7 = cnt;
                 cnt = cnt + 1;
-                dirs[(signed long int)tmp_post$7]=strdup(entry->d_name);
+                dirs[(signed long int)tmp_post_7]=strdup(entry->d_name);
               }
 
             }
@@ -15283,17 +15283,17 @@ static void scan_dir(char *path, signed int recursive, signed int links, struct 
         else
           if(!((61440u & statbuf.st_mode) == 4096u) && !((61440u & statbuf.st_mode) == 8192u) && !((61440u & statbuf.st_mode) == 24576u) && !((61440u & statbuf.st_mode) == 49152u))
           {
-            return_value_MA_TestName$11=MA_TestName(file, 0, 0);
-            if(!(return_value_MA_TestName$11 == 0))
+            return_value_MA_TestName_11=MA_TestName(file, 0, 0);
+            if(!(return_value_MA_TestName_11 == 0))
             {
               char **pos = (char **)(void *)0;
               signed int j = 0;
-              if(!(freq_data == ((struct anonymous$25 *)NULL)))
+              if(!(freq_data == ((struct anonymous_25 *)NULL)))
               {
                 if(freq_data->cnt_list >= 1)
                 {
-                  return_value_bsearch$10=bsearch((const void *)file, (const void *)freq_data->searchlist, (unsigned long int)freq_data->cnt_list, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())searchlist_search_cmp);
-                  pos = (char **)return_value_bsearch$10;
+                  return_value_bsearch_10=bsearch((const void *)file, (const void *)freq_data->searchlist, (unsigned long int)freq_data->cnt_list, sizeof(char *) /*8ul*/ , (signed int (*)(const void *, const void *))(signed int (*)())searchlist_search_cmp);
+                  pos = (char **)return_value_bsearch_10;
                 }
 
               }
@@ -15340,8 +15340,8 @@ static void scan_dir(char *path, signed int recursive, signed int links, struct 
 
       do
       {
-        return_value_win_main_iteration$13=win_main_iteration();
-        if(return_value_win_main_iteration$13 == 0)
+        return_value_win_main_iteration_13=win_main_iteration();
+        if(return_value_win_main_iteration_13 == 0)
           break;
 
       }
@@ -15368,18 +15368,18 @@ static void scan_dir(char *path, signed int recursive, signed int links, struct 
 // file ../../src/mlistedit.c line 121
 static signed int searchlist_cmp(char **key, char **member)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(*key, *member);
-  return return_value_strcmp$1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(*key, *member);
+  return return_value_strcmp_1;
 }
 
 // searchlist_search_cmp
 // file ../../src/mlistedit.c line 127
 static signed int searchlist_search_cmp(char *key, char **member)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(key, *member);
-  return return_value_strcmp$1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(key, *member);
+  return return_value_strcmp_1;
 }
 
 // set_bit
@@ -15395,7 +15395,7 @@ static void set_bit(unsigned short int *value, signed int mask, signed int boolv
 
 // set_help
 // file ../../src/mconfedit.c line 217
-void set_help(struct anonymous$8 *entry, const char *str, ...)
+void set_help(struct anonymous_8 *entry, const char *str, ...)
 {
   void **args;
   signed int len = 0;
@@ -15405,29 +15405,29 @@ void set_help(struct anonymous$8 *entry, const char *str, ...)
   args = (void **)&str;
   vsnprintf(storage, (unsigned long int)320, str, args);
   args = ((void **)NULL);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(storage);
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(!(return_value_strlen$1 >= 320ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(storage);
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(!(return_value_strlen_1 >= 320ul))
   {
-    return_value_strlen$2=strlen(storage);
-    tmp_if_expr$3 = return_value_strlen$2;
+    return_value_strlen_2=strlen(storage);
+    tmp_if_expr_3 = return_value_strlen_2;
   }
 
   else
-    tmp_if_expr$3 = (unsigned long int)320;
-  len = (signed int)tmp_if_expr$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 1));
-  entry->help = (char *)return_value_malloc$4;
+    tmp_if_expr_3 = (unsigned long int)320;
+  len = (signed int)tmp_if_expr_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(len + 1));
+  entry->help = (char *)return_value_malloc_4;
   strncpy(entry->help, storage, (unsigned long int)len);
   entry->help[(signed long int)len] = (char)0;
 }
 
 // set_priority
 // file ../../src/mikmod.c line 329
-static void set_priority(struct anonymous$3 *cfg)
+static void set_priority(struct anonymous_3 *cfg)
 {
   if(cfg->renice == 1)
     nice(-20);
@@ -15448,18 +15448,18 @@ static void set_priority(struct anonymous$3 *cfg)
 static void set_window_title(const char *content)
 {
   char *env_term;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcmp$8;
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strcmp$12;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcmp_8;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strcmp_12;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
   static signed int last_config = 0;
   if(!(config.window_title == 0) || !(last_config == 0))
   {
@@ -15475,49 +15475,49 @@ static void set_window_title(const char *content)
 
       else
         storage[(signed long int)0] = (char)0;
-      signed int return_value_strcmp$5;
-      return_value_strcmp$5=strcmp(env_term, "xterm");
-      if(return_value_strcmp$5 == 0)
-        tmp_if_expr$7 = (_Bool)1;
+      signed int return_value_strcmp_5;
+      return_value_strcmp_5=strcmp(env_term, "xterm");
+      if(return_value_strcmp_5 == 0)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$6=strcmp(env_term, "xterm-color");
-        tmp_if_expr$7 = return_value_strcmp$6 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_6=strcmp(env_term, "xterm-color");
+        tmp_if_expr_7 = return_value_strcmp_6 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
-        tmp_if_expr$9 = (_Bool)1;
+      if(tmp_if_expr_7)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$8=strcmp(env_term, "rxvt");
-        tmp_if_expr$9 = return_value_strcmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_8=strcmp(env_term, "rxvt");
+        tmp_if_expr_9 = return_value_strcmp_8 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
-        tmp_if_expr$11 = (_Bool)1;
+      if(tmp_if_expr_9)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$10=strcmp(env_term, "aixterm");
-        tmp_if_expr$11 = return_value_strcmp$10 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_10=strcmp(env_term, "aixterm");
+        tmp_if_expr_11 = return_value_strcmp_10 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
-        tmp_if_expr$13 = (_Bool)1;
+      if(tmp_if_expr_11)
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$12=strcmp(env_term, "dtterm");
-        tmp_if_expr$13 = return_value_strcmp$12 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_12=strcmp(env_term, "dtterm");
+        tmp_if_expr_13 = return_value_strcmp_12 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
-        tmp_if_expr$15 = (_Bool)1;
+      if(tmp_if_expr_13)
+        tmp_if_expr_15 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$14=strcmp(env_term, "Eterm");
-        tmp_if_expr$15 = return_value_strcmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_14=strcmp(env_term, "Eterm");
+        tmp_if_expr_15 = return_value_strcmp_14 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$15)
+      if(tmp_if_expr_15)
       {
         printf("%c]0;%s%c", 27, (const void *)storage, 7);
         printf("%c]1;%s%c", 27, (const void *)"-= MikMod 3.2.7 =-", 7);
@@ -15525,8 +15525,8 @@ static void set_window_title(const char *content)
 
       else
       {
-        return_value_strcmp$4=strcmp(env_term, "iris-ansi");
-        if(return_value_strcmp$4 == 0)
+        return_value_strcmp_4=strcmp(env_term, "iris-ansi");
+        if(return_value_strcmp_4 == 0)
         {
           printf("%cP1.y%s%c\\", 27, (const void *)storage, 27);
           printf("%cP3.y%s%c\\", 27, (const void *)"-= MikMod 3.2.7 =-", 27);
@@ -15534,15 +15534,15 @@ static void set_window_title(const char *content)
 
         else
         {
-          return_value_strcmp$3=strcmp(env_term, "hpterm");
-          if(return_value_strcmp$3 == 0)
+          return_value_strcmp_3=strcmp(env_term, "hpterm");
+          if(return_value_strcmp_3 == 0)
           {
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(storage);
-            printf("\033&f0k%dD%s", (signed int)return_value_strlen$1, (const void *)storage);
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen("-= MikMod 3.2.7 =-");
-            printf("\033&f-1k%dD%s", (signed int)return_value_strlen$2, (const void *)"-= MikMod 3.2.7 =-");
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(storage);
+            printf("\033&f0k%dD%s", (signed int)return_value_strlen_1, (const void *)storage);
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen("-= MikMod 3.2.7 =-");
+            printf("\033&f-1k%dD%s", (signed int)return_value_strlen_2, (const void *)"-= MikMod 3.2.7 =-");
           }
 
         }
@@ -15558,8 +15558,8 @@ static void set_window_title(const char *content)
 static void setup_printf(void)
 {
   signed int maxx;
-  signed int setup_printf$$1$$winy;
-  win_get_size(root, &maxx, &setup_printf$$1$$winy);
+  signed int setup_printf__1__winy;
+  win_get_size(root, &maxx, &setup_printf__1__winy);
   if(maxx >= 201)
     maxx = 200;
 
@@ -15590,11 +15590,11 @@ static char * skip_number(char *str)
     if(!((signed int)*str == 32))
       break;
 
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !(str == ((char *)NULL)); str = str + 1l)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*str]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*str]) == 0)
       break;
 
   }
@@ -15629,12 +15629,12 @@ static void split_command(char *command, char **argv, signed int sizeargv)
 {
   char *pos = command;
   signed int i = 0;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  char *tmp_post$3;
-  signed int tmp_post$4;
-  char *tmp_post$5;
-  signed int tmp_post$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  char *tmp_post_3;
+  signed int tmp_post_4;
+  char *tmp_post_5;
+  signed int tmp_post_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
   while((_Bool)1)
   {
     if(*pos == 0 || i >= sizeargv + -1)
@@ -15643,16 +15643,16 @@ static void split_command(char *command, char **argv, signed int sizeargv)
       goto __CPROVER_DUMP_L14;
     }
 
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*pos]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*pos]) == 0))
     {
       *pos = (char)0;
       pos = pos + 1l;
       do
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*pos]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*pos]) == 0)
           break;
 
         pos = pos + 1l;
@@ -15662,34 +15662,34 @@ static void split_command(char *command, char **argv, signed int sizeargv)
 
     if((signed int)*pos == 34)
     {
-      tmp_post$3 = pos;
+      tmp_post_3 = pos;
       pos = pos + 1l;
-      *tmp_post$3 = (char)0;
-      tmp_post$4 = i;
+      *tmp_post_3 = (char)0;
+      tmp_post_4 = i;
       i = i + 1;
-      argv[(signed long int)tmp_post$4] = pos;
+      argv[(signed long int)tmp_post_4] = pos;
       for( ; !((signed int)*pos == 34); pos = pos + 1l)
         if(*pos == 0)
           break;
 
       if(!(*pos == 0))
       {
-        tmp_post$5 = pos;
+        tmp_post_5 = pos;
         pos = pos + 1l;
-        *tmp_post$5 = (char)0;
+        *tmp_post_5 = (char)0;
       }
 
     }
 
     else
     {
-      tmp_post$6 = i;
+      tmp_post_6 = i;
       i = i + 1;
-      argv[(signed long int)tmp_post$6] = pos;
+      argv[(signed long int)tmp_post_6] = pos;
       do
       {
-        return_value___ctype_b_loc$7=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*pos]) == 0))
+        return_value___ctype_b_loc_7=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*pos]) == 0))
           break;
 
         if(*pos == 0)
@@ -15714,18 +15714,18 @@ static void split_name(char *file, char **name, char **ext)
     *name = file;
 
   *ext=strrchr(*name, 46);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(*ext == ((char *)NULL))
   {
-    return_value_strlen$1=strlen(*name);
-    *ext = &(*name[(signed long int)return_value_strlen$1]);
+    return_value_strlen_1=strlen(*name);
+    *ext = &(*name[(signed long int)return_value_strlen_1]);
   }
 
 }
 
 // str_free
 // file ../../src/mwidget.c line 111
-static void str_free(struct anonymous$12 *w)
+static void str_free(struct anonymous_12 *w)
 {
   free((void *)w->input);
   free((void *)w);
@@ -15733,7 +15733,7 @@ static void str_free(struct anonymous$12 *w)
 
 // str_get_size
 // file ../../src/mwidget.c line 271
-static void str_get_size(struct anonymous$12 *w, signed int *width, signed int *height)
+static void str_get_size(struct anonymous_12 *w, signed int *width, signed int *height)
 {
   if(!(w->w.def_width >= *width))
     *width = w->w.def_width;
@@ -15753,23 +15753,23 @@ static void str_get_size(struct anonymous$12 *w, signed int *width, signed int *
 
 // str_handle_event
 // file ../../src/mwidget.c line 266
-static signed int str_handle_event(struct anonymous$12 *w, enum anonymous$18 event, signed int ch)
+static signed int str_handle_event(struct anonymous_12 *w, enum anonymous_18 event, signed int ch)
 {
-  signed int return_value_input_handle_event$1;
-  return_value_input_handle_event$1=input_handle_event(w, event, ch, 0);
-  return return_value_input_handle_event$1;
+  signed int return_value_input_handle_event_1;
+  return_value_input_handle_event_1=input_handle_event(w, event, ch, 0);
+  return return_value_input_handle_event_1;
 }
 
 // str_paint
 // file ../../src/mwidget.c line 117
-static void str_paint(struct anonymous$12 *w)
+static void str_paint(struct anonymous_12 *w)
 {
   char hl[2l] = { ' ', 0 };
   char ch = (char)32;
   char *pos = &w->input[(signed long int)w->start];
   signed int dx = 0;
   signed int len;
-  win_attrset((enum anonymous$7)ATTR_DLG_STR_TEXT);
+  win_attrset((enum anonymous_7)ATTR_DLG_STR_TEXT);
   if(!(w->w.has_focus == 0))
   {
     ch = w->input[(signed long int)w->cur_pos];
@@ -15781,12 +15781,12 @@ static void str_paint(struct anonymous$12 *w)
     if(!(*pos == 0))
       win_print(w->w.d->win, w->w.x, w->w.y, pos);
 
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(pos);
-    dx = (signed int)return_value_strlen$1;
-    win_attrset((enum anonymous$7)ATTR_DLG_STR_CURSOR);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(pos);
+    dx = (signed int)return_value_strlen_1;
+    win_attrset((enum anonymous_7)ATTR_DLG_STR_CURSOR);
     win_print(w->w.d->win, w->w.x + dx, w->w.y, hl);
-    win_attrset((enum anonymous$7)ATTR_DLG_STR_TEXT);
+    win_attrset((enum anonymous_7)ATTR_DLG_STR_TEXT);
     pos = pos + (signed long int)dx;
     dx = dx + 1;
     *pos = ch;
@@ -15795,9 +15795,9 @@ static void str_paint(struct anonymous$12 *w)
 
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(pos);
-  len = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(pos);
+  len = (signed int)return_value_strlen_2;
   if(!(w->w.width >= dx + len))
   {
     ch = w->input[(signed long int)(w->w.width + w->start)];
@@ -15825,9 +15825,9 @@ static void str_paint(struct anonymous$12 *w)
 // file ../../src/mutilities.c line 208
 char * str_sprintf(const char *fmt, const char *arg)
 {
-  char *return_value_str_sprintf2$1;
-  return_value_str_sprintf2$1=str_sprintf2(fmt, arg, "");
-  return return_value_str_sprintf2$1;
+  char *return_value_str_sprintf2_1;
+  return_value_str_sprintf2_1=str_sprintf2(fmt, arg, "");
+  return return_value_str_sprintf2_1;
 }
 
 // str_sprintf2
@@ -15835,15 +15835,15 @@ char * str_sprintf(const char *fmt, const char *arg)
 char * str_sprintf2(const char *fmt, const char *arg1, const char *arg2)
 {
   char *msg;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fmt);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(arg1);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(arg2);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$1 + return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)1);
-  msg = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fmt);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(arg1);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(arg2);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_1 + return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)1);
+  msg = (char *)return_value_malloc_4;
   if(!(msg == ((char *)NULL)))
     sprintf(msg, fmt, arg1, arg2);
 
@@ -15854,7 +15854,7 @@ char * str_sprintf2(const char *fmt, const char *arg1, const char *arg2)
 // file ../../src/mconfedit.c line 588
 static void theme_copy(signed int *act_theme)
 {
-  struct anonymous$1 newtheme;
+  struct anonymous_1 newtheme;
   newtheme.color = (themes + (signed long int)*act_theme)->color;
   newtheme.attrs = (themes + (signed long int)*act_theme)->attrs;
   newtheme.name=theme_uniq_name((themes + (signed long int)*act_theme)->name);
@@ -15870,44 +15870,44 @@ static void theme_copy(signed int *act_theme)
 // file ../../src/mconfedit.c line 507
 static void theme_edit(signed int act_theme)
 {
-  struct anonymous$17 *d;
+  struct anonymous_17 *d;
   d=dialog_new();
   struct WIDGET *w;
   char title[200l];
-  struct anonymous$20 *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$20) /*96ul*/ );
-  data = (struct anonymous$20 *)return_value_malloc$1;
+  struct anonymous_20 *data;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_20) /*96ul*/ );
+  data = (struct anonymous_20 *)return_value_malloc_1;
   data->cur_attr = 0;
   data->orig_theme = act_theme;
   data->test_theme.name = (char *)(void *)0;
   data->test_theme.attrs = (signed int *)(void *)0;
   CF_theme_copy(&data->theme, &themes[(signed long int)act_theme]);
   w=wid_list_add(d, 1, attrs_label, (signed int)ATTR_STATUS_TEXT + 1);
-  wid_list_set_selection_mode((struct anonymous$14 *)w, (enum anonymous$10)WID_SEL_BROWSE);
+  wid_list_set_selection_mode((struct anonymous_14 *)w, (enum anonymous_10)WID_SEL_BROWSE);
   wid_set_size(w, 20, -1);
   wid_set_func(w, (signed int (*)(struct WIDGET *, signed int))(void *)0, cb_theme_list_focus, (void *)data);
-  data->list_w = (struct anonymous$14 *)w;
-  struct WIDGET *return_value_wid_str_add$2;
-  return_value_wid_str_add$2=wid_str_add(d, 0, data->theme.name, 99);
-  data->str_w = (struct anonymous$12 *)return_value_wid_str_add$2;
+  data->list_w = (struct anonymous_14 *)w;
+  struct WIDGET *return_value_wid_str_add_2;
+  return_value_wid_str_add_2=wid_str_add(d, 0, data->theme.name, 99);
+  data->str_w = (struct anonymous_12 *)return_value_wid_str_add_2;
   wid_set_size((struct WIDGET *)data->str_w, 26, -1);
   if(!(data->theme.color == 0))
   {
-    signed int return_value_win_has_colors$4;
-    return_value_win_has_colors$4=win_has_colors();
-    if(!(return_value_win_has_colors$4 == 0))
+    signed int return_value_win_has_colors_4;
+    return_value_win_has_colors_4=win_has_colors();
+    if(!(return_value_win_has_colors_4 == 0))
     {
-      struct WIDGET *return_value_wid_colorsel_add$3;
-      return_value_wid_colorsel_add$3=wid_colorsel_add(d, 1, "sdex", 0);
-      data->col_w = (struct anonymous$16 *)return_value_wid_colorsel_add$3;
+      struct WIDGET *return_value_wid_colorsel_add_3;
+      return_value_wid_colorsel_add_3=wid_colorsel_add(d, 1, "sdex", 0);
+      data->col_w = (struct anonymous_16 *)return_value_wid_colorsel_add_3;
       wid_set_func((struct WIDGET *)data->col_w, (signed int (*)(struct WIDGET *, signed int))(void *)0, cb_focus, (void *)data);
       data->w=wid_toggle_add(d, 0, "&bold", 0, 0);
     }
 
     else
     {
-      data->col_w = (struct anonymous$16 *)(void *)0;
+      data->col_w = (struct anonymous_16 *)(void *)0;
       data->w=wid_toggle_add(d, 2, "&bold", 0, 0);
     }
     wid_set_func(data->w, (signed int (*)(struct WIDGET *, signed int))(void *)0, cb_focus, (void *)data);
@@ -15919,15 +15919,15 @@ static void theme_edit(signed int act_theme)
     wid_set_func(data->w, (signed int (*)(struct WIDGET *, signed int))(void *)0, cb_focus, (void *)data);
   }
   theme_set_attrs(data, 0);
-  signed int return_value_win_has_colors$5;
-  return_value_win_has_colors$5=win_has_colors();
-  _Bool tmp_if_expr$6;
-  if(!(return_value_win_has_colors$5 == 0))
-    tmp_if_expr$6 = (_Bool)1;
+  signed int return_value_win_has_colors_5;
+  return_value_win_has_colors_5=win_has_colors();
+  _Bool tmp_if_expr_6;
+  if(!(return_value_win_has_colors_5 == 0))
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = !(data->theme.color != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = !(data->theme.color != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_6)
     w=wid_button_add(d, -1, "&Ok|&Test|&Cancel", 0);
 
   else
@@ -15940,7 +15940,7 @@ static void theme_edit(signed int act_theme)
 
 // theme_edit_close
 // file ../../src/mconfedit.c line 448
-static void theme_edit_close(struct anonymous$20 *data)
+static void theme_edit_close(struct anonymous_20 *data)
 {
   win_set_theme(&config.themes[(signed long int)config.theme]);
   config_set_act_theme(data->orig_theme);
@@ -15955,15 +15955,15 @@ static void theme_edit_close(struct anonymous$20 *data)
 
 // theme_get_attrs
 // file ../../src/mconfedit.c line 383
-static void theme_get_attrs(struct anonymous$20 *data)
+static void theme_get_attrs(struct anonymous_20 *data)
 {
   signed int *attr = &data->theme.attrs[(signed long int)data->cur_attr];
   if(!(data->theme.color == 0))
   {
-    if(!(data->col_w == ((struct anonymous$16 *)NULL)))
+    if(!(data->col_w == ((struct anonymous_16 *)NULL)))
       *attr = data->col_w->active;
 
-    if(((struct anonymous$15 *)data->w)->selected == 1)
+    if(((struct anonymous_15 *)data->w)->selected == 1)
       *attr = *attr | 0x08;
 
     else
@@ -15972,7 +15972,7 @@ static void theme_get_attrs(struct anonymous$20 *data)
 
   else
   {
-    struct anonymous$15 *cw = (struct anonymous$15 *)data->w;
+    struct anonymous_15 *cw = (struct anonymous_15 *)data->w;
     if(cw->selected == 1)
       *attr = (signed int)(1UL - 1UL);
 
@@ -15989,15 +15989,15 @@ static void theme_get_attrs(struct anonymous$20 *data)
 
 // theme_set_attrs
 // file ../../src/mconfedit.c line 405
-static void theme_set_attrs(struct anonymous$20 *data, signed int repaint)
+static void theme_set_attrs(struct anonymous_20 *data, signed int repaint)
 {
   signed int cur = data->cur_attr;
   signed int i = 0;
   if(!(data->theme.color == 0))
   {
-    if(!(data->col_w == ((struct anonymous$16 *)NULL)))
+    if(!(data->col_w == ((struct anonymous_16 *)NULL)))
     {
-      wid_colorsel_set_active((struct anonymous$16 *)data->col_w, data->theme.attrs[(signed long int)cur]);
+      wid_colorsel_set_active((struct anonymous_16 *)data->col_w, data->theme.attrs[(signed long int)cur]);
       if(!(repaint == 0))
         wid_repaint((struct WIDGET *)data->col_w);
 
@@ -16008,7 +16008,7 @@ static void theme_set_attrs(struct anonymous$20 *data, signed int repaint)
 
     else
       i = 0;
-    wid_toggle_set_selected((struct anonymous$15 *)data->w, i);
+    wid_toggle_set_selected((struct anonymous_15 *)data->w, i);
   }
 
   else
@@ -16024,7 +16024,7 @@ static void theme_set_attrs(struct anonymous$20 *data, signed int repaint)
         if((unsigned long int)data->theme.attrs[(signed long int)cur] == 262144ul)
           i = 4;
 
-    wid_check_set_selected((struct anonymous$15 *)data->w, i);
+    wid_check_set_selected((struct anonymous_15 *)data->w, i);
   }
   if(!(repaint == 0))
     wid_repaint(data->w);
@@ -16043,65 +16043,65 @@ static char * theme_uniq_name(char *src_name)
   signed int len;
   strncpy(buf, src_name, (unsigned long int)99);
   buf[(signed long int)99] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  pos = (buf + (signed long int)return_value_strlen$1) - (signed long int)1;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  pos = (buf + (signed long int)return_value_strlen_1) - (signed long int)1;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
     if(pos >= buf)
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      tmp_if_expr$3 = ((signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*pos] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      tmp_if_expr_3 = ((signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*pos] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     *pos = (char)0;
     pos = pos - 1l;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
   if(!(buf >= pos))
   {
-    return_value___ctype_b_loc$5=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*pos]) == 0))
+    return_value___ctype_b_loc_5=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*pos]) == 0))
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)pos[-1l]]) == 0))
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)pos[-1l]]) == 0))
         *(pos - (signed long int)2) = (char)0;
 
     }
 
   }
 
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(buf);
-  if(return_value_strlen$6 >= 95ul)
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(buf);
+  if(return_value_strlen_6 >= 95ul)
     buf[(signed long int)(99 - 5)] = (char)0;
 
   strcat(buf, " %02d");
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(buf);
-  len = (signed int)(return_value_strlen$7 + (unsigned long int)1);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(sizeof(char) /*1ul*/  * (unsigned long int)len);
-  name = (char *)return_value_malloc$8;
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(buf);
+  len = (signed int)(return_value_strlen_7 + (unsigned long int)1);
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(sizeof(char) /*1ul*/  * (unsigned long int)len);
+  name = (char *)return_value_malloc_8;
   n = 2;
-  signed int return_value_strcmp$9;
+  signed int return_value_strcmp_9;
   do
   {
     snprintf(name, (unsigned long int)len, buf, n);
     i = 0;
     for( ; !(i >= cnt_themes); i = i + 1)
     {
-      return_value_strcmp$9=strcmp((themes + (signed long int)i)->name, name);
-      if(return_value_strcmp$9 == 0)
+      return_value_strcmp_9=strcmp((themes + (signed long int)i)->name, name);
+      if(return_value_strcmp_9 == 0)
         break;
 
     }
@@ -16117,7 +16117,7 @@ static char * theme_uniq_name(char *src_name)
 
 // toggle_free
 // file ../../src/mwidget.c line 787
-static void toggle_free(struct anonymous$15 *w)
+static void toggle_free(struct anonymous_15 *w)
 {
   free((void *)w->button);
   free((void *)w);
@@ -16125,25 +16125,25 @@ static void toggle_free(struct anonymous$15 *w)
 
 // toggle_get_size
 // file ../../src/mwidget.c line 803
-static void toggle_get_size(struct anonymous$15 *w, signed int *width, signed int *height)
+static void toggle_get_size(struct anonymous_15 *w, signed int *width, signed int *height)
 {
-  check_get_size((struct anonymous$15 *)w, width, height);
+  check_get_size((struct anonymous_15 *)w, width, height);
 }
 
 // toggle_handle_event
 // file ../../src/mwidget.c line 798
-static signed int toggle_handle_event(struct anonymous$15 *w, enum anonymous$18 event, signed int ch)
+static signed int toggle_handle_event(struct anonymous_15 *w, enum anonymous_18 event, signed int ch)
 {
-  signed int return_value_check_toggle_handle_event$1;
-  return_value_check_toggle_handle_event$1=check_toggle_handle_event((struct anonymous$15 *)w, event, ch, 1);
-  return return_value_check_toggle_handle_event$1;
+  signed int return_value_check_toggle_handle_event_1;
+  return_value_check_toggle_handle_event_1=check_toggle_handle_event((struct anonymous_15 *)w, event, ch, 1);
+  return return_value_check_toggle_handle_event_1;
 }
 
 // toggle_paint
 // file ../../src/mwidget.c line 793
-static void toggle_paint(struct anonymous$15 *w)
+static void toggle_paint(struct anonymous_15 *w)
 {
-  check_toggle_paint((struct anonymous$15 *)w, 1);
+  check_toggle_paint((struct anonymous_15 *)w, 1);
 }
 
 // update_message
@@ -16154,10 +16154,10 @@ static void update_message(void)
   {
     if(!(old_message[0l] == 0))
     {
-      win_attrset((enum anonymous$7)ATTR_WARNING);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen("-= MikMod 3.2.7 =-");
-      win_print(root, (signed int)return_value_strlen$1, 0, old_message);
+      win_attrset((enum anonymous_7)ATTR_WARNING);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen("-= MikMod 3.2.7 =-");
+      win_print(root, (signed int)return_value_strlen_1, 0, old_message);
     }
 
   }
@@ -16216,17 +16216,17 @@ void updatefirst(struct MWINDOW *win, signed int *first, signed int *winx, signe
 
 // wid_button_add
 // file ../../src/mwidget.c line 1078
-struct WIDGET * wid_button_add(struct anonymous$17 *d, signed int spacing, const char *button, signed int active)
+struct WIDGET * wid_button_add(struct anonymous_17 *d, signed int spacing, const char *button, signed int active)
 {
-  struct anonymous$13 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$13) /*120ul*/ );
-  w = (struct anonymous$13 *)return_value_malloc$1;
+  struct anonymous_13 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_13) /*120ul*/ );
+  w = (struct anonymous_13 *)return_value_malloc_1;
   widget_init((struct WIDGET *)w, d, 1, spacing);
-  w->w.type = (enum anonymous$32)TYPE_BUTTON;
+  w->w.type = (enum anonymous_32)TYPE_BUTTON;
   w->w.w_free = (void (*)(struct WIDGET *))button_free;
   w->w.w_paint = (void (*)(struct WIDGET *))button_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))button_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))button_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))button_get_size;
   w->button=strdup(button);
   w->active = active;
@@ -16236,17 +16236,17 @@ struct WIDGET * wid_button_add(struct anonymous$17 *d, signed int spacing, const
 
 // wid_check_add
 // file ../../src/mwidget.c line 1167
-struct WIDGET * wid_check_add(struct anonymous$17 *d, signed int spacing, const char *button, signed int active, signed int selected)
+struct WIDGET * wid_check_add(struct anonymous_17 *d, signed int spacing, const char *button, signed int active, signed int selected)
 {
-  struct anonymous$15 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$15) /*128ul*/ );
-  w = (struct anonymous$15 *)return_value_malloc$1;
+  struct anonymous_15 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_15) /*128ul*/ );
+  w = (struct anonymous_15 *)return_value_malloc_1;
   widget_init((struct WIDGET *)w, d, 1, spacing);
-  w->w.type = (enum anonymous$32)TYPE_CHECK;
+  w->w.type = (enum anonymous_32)TYPE_CHECK;
   w->w.w_free = (void (*)(struct WIDGET *))check_free;
   w->w.w_paint = (void (*)(struct WIDGET *))check_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))check_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))check_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))check_get_size;
   w->button=strdup(button);
   w->active = active;
@@ -16257,48 +16257,48 @@ struct WIDGET * wid_check_add(struct anonymous$17 *d, signed int spacing, const 
 
 // wid_check_set_selected
 // file ../../src/mwidget.c line 1185
-void wid_check_set_selected(struct anonymous$15 *w, signed int selected)
+void wid_check_set_selected(struct anonymous_15 *w, signed int selected)
 {
   w->selected = selected;
 }
 
 // wid_colorsel_add
 // file ../../src/mwidget.c line 1213
-struct WIDGET * wid_colorsel_add(struct anonymous$17 *d, signed int spacing, const char *hotkeys, signed int active)
+struct WIDGET * wid_colorsel_add(struct anonymous_17 *d, signed int spacing, const char *hotkeys, signed int active)
 {
-  struct anonymous$16 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$16) /*120ul*/ );
-  w = (struct anonymous$16 *)return_value_malloc$1;
+  struct anonymous_16 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_16) /*120ul*/ );
+  w = (struct anonymous_16 *)return_value_malloc_1;
   signed int i;
   widget_init((struct WIDGET *)w, d, 1, spacing);
-  w->w.type = (enum anonymous$32)TYPE_COLORSEL;
+  w->w.type = (enum anonymous_32)TYPE_COLORSEL;
   w->w.w_free = (void (*)(struct WIDGET *))colorsel_free;
   w->w.w_paint = (void (*)(struct WIDGET *))colorsel_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))colorsel_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))colorsel_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))colorsel_get_size;
   w->active = active;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(hotkeys == ((const char *)NULL)))
-    tmp_if_expr$4 = *hotkeys != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = *hotkeys != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_toupper$3;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_toupper_3;
+  if(tmp_if_expr_4)
   {
     strcpy(w->hkeys, hotkeys);
     w->hkeys[(signed long int)4] = (char)0;
     i = 0;
     do
     {
-      return_value_strlen$2=strlen(w->hkeys);
-      if((unsigned long int)i >= return_value_strlen$2)
+      return_value_strlen_2=strlen(w->hkeys);
+      if((unsigned long int)i >= return_value_strlen_2)
         break;
 
-      return_value_toupper$3=toupper((signed int)w->hkeys[(signed long int)i]);
-      w->hkeys[(signed long int)i] = (char)return_value_toupper$3;
+      return_value_toupper_3=toupper((signed int)w->hkeys[(signed long int)i]);
+      w->hkeys[(signed long int)i] = (char)return_value_toupper_3;
       i = i + 1;
     }
     while((_Bool)1);
@@ -16306,68 +16306,68 @@ struct WIDGET * wid_colorsel_add(struct anonymous$17 *d, signed int spacing, con
 
   else
     memset((void *)&w->hkeys, 0, (unsigned long int)5);
-  w->sel_mode = (enum anonymous$10)WID_SEL_SINGLE;
+  w->sel_mode = (enum anonymous_10)WID_SEL_SINGLE;
   dialog_add(d, (struct WIDGET *)w);
   return (struct WIDGET *)w;
 }
 
 // wid_colorsel_set_active
 // file ../../src/mwidget.c line 1238
-void wid_colorsel_set_active(struct anonymous$16 *w, signed int active)
+void wid_colorsel_set_active(struct anonymous_16 *w, signed int active)
 {
   w->active = active;
 }
 
 // wid_int_add
 // file ../../src/mwidget.c line 1048
-struct WIDGET * wid_int_add(struct anonymous$17 *d, signed int spacing, signed int value, signed int length)
+struct WIDGET * wid_int_add(struct anonymous_17 *d, signed int spacing, signed int value, signed int length)
 {
-  struct anonymous$12 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$12) /*128ul*/ );
-  w = (struct anonymous$12 *)return_value_malloc$1;
+  struct anonymous_12 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_12) /*128ul*/ );
+  w = (struct anonymous_12 *)return_value_malloc_1;
   widget_init((struct WIDGET *)w, d, 1, spacing);
-  w->w.type = (enum anonymous$32)TYPE_INT;
+  w->w.type = (enum anonymous_32)TYPE_INT;
   w->w.w_free = (void (*)(struct WIDGET *))int_free;
   w->w.w_paint = (void (*)(struct WIDGET *))int_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))int_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))int_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))int_get_size;
   w->start = 0;
   w->length = length;
   w->w.def_width = 11;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(w->length + 1));
-  w->input = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(w->length + 1));
+  w->input = (char *)return_value_malloc_2;
   sprintf(w->input, "%d", value);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(w->input);
-  w->cur_pos = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(w->input);
+  w->cur_pos = (signed int)return_value_strlen_3;
   dialog_add(d, (struct WIDGET *)w);
   return (struct WIDGET *)w;
 }
 
 // wid_int_set_input
 // file ../../src/mwidget.c line 1071
-void wid_int_set_input(struct anonymous$12 *w, signed int value, signed int length)
+void wid_int_set_input(struct anonymous_12 *w, signed int value, signed int length)
 {
   char val[20l];
   sprintf(val, "%d", value);
-  wid_str_set_input((struct anonymous$12 *)w, val, length);
+  wid_str_set_input((struct anonymous_12 *)w, val, length);
 }
 
 // wid_label_add
 // file ../../src/mwidget.c line 977
-struct WIDGET * wid_label_add(struct anonymous$17 *d, signed int spacing, const char *msg)
+struct WIDGET * wid_label_add(struct anonymous_17 *d, signed int spacing, const char *msg)
 {
-  struct anonymous$11 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$11) /*112ul*/ );
-  w = (struct anonymous$11 *)return_value_malloc$1;
+  struct anonymous_11 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_11) /*112ul*/ );
+  w = (struct anonymous_11 *)return_value_malloc_1;
   widget_init((struct WIDGET *)w, d, 0, spacing);
-  w->w.type = (enum anonymous$32)TYPE_LABEL;
+  w->w.type = (enum anonymous_32)TYPE_LABEL;
   w->w.w_free = (void (*)(struct WIDGET *))label_free;
   w->w.w_paint = (void (*)(struct WIDGET *))label_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))label_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))label_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))label_get_size;
   w->msg=strdup(msg);
   dialog_add(d, (struct WIDGET *)w);
@@ -16376,7 +16376,7 @@ struct WIDGET * wid_label_add(struct anonymous$17 *d, signed int spacing, const 
 
 // wid_label_set_label
 // file ../../src/mwidget.c line 993
-void wid_label_set_label(struct anonymous$11 *w, const char *label)
+void wid_label_set_label(struct anonymous_11 *w, const char *label)
 {
   if(!(w->msg == ((char *)NULL)))
     free((void *)w->msg);
@@ -16386,17 +16386,17 @@ void wid_label_set_label(struct anonymous$11 *w, const char *label)
 
 // wid_list_add
 // file ../../src/mwidget.c line 1095
-struct WIDGET * wid_list_add(struct anonymous$17 *d, signed int spacing, const char **entries, signed int cnt)
+struct WIDGET * wid_list_add(struct anonymous_17 *d, signed int spacing, const char **entries, signed int cnt)
 {
-  struct anonymous$14 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$14) /*144ul*/ );
-  w = (struct anonymous$14 *)return_value_malloc$1;
+  struct anonymous_14 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_14) /*144ul*/ );
+  w = (struct anonymous_14 *)return_value_malloc_1;
   widget_init((struct WIDGET *)w, d, 1, spacing);
-  w->w.type = (enum anonymous$32)TYPE_LIST;
+  w->w.type = (enum anonymous_32)TYPE_LIST;
   w->title = (char *)(void *)0;
   w->entries = (char **)(void *)0;
-  w->sel_mode = (enum anonymous$10)WID_SEL_SINGLE;
+  w->sel_mode = (enum anonymous_10)WID_SEL_SINGLE;
   w->first = 0;
   w->cur = w->first;
   w->cnt = w->cur;
@@ -16405,7 +16405,7 @@ struct WIDGET * wid_list_add(struct anonymous$17 *d, signed int spacing, const c
   wid_list_set_entries(w, entries, -1, cnt);
   w->w.w_free = (void (*)(struct WIDGET *))list_free;
   w->w.w_paint = (void (*)(struct WIDGET *))list_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))list_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))list_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))list_get_size;
   dialog_add(d, (struct WIDGET *)w);
   return (struct WIDGET *)w;
@@ -16413,7 +16413,7 @@ struct WIDGET * wid_list_add(struct anonymous$17 *d, signed int spacing, const c
 
 // wid_list_set_active
 // file ../../src/mwidget.c line 1150
-void wid_list_set_active(struct anonymous$14 *w, signed int cur)
+void wid_list_set_active(struct anonymous_14 *w, signed int cur)
 {
   if(cur >= 0)
   {
@@ -16434,7 +16434,7 @@ void wid_list_set_active(struct anonymous$14 *w, signed int cur)
 
 // wid_list_set_entries
 // file ../../src/mwidget.c line 1125
-void wid_list_set_entries(struct anonymous$14 *w, const char **entries, signed int cur, signed int cnt)
+void wid_list_set_entries(struct anonymous_14 *w, const char **entries, signed int cur, signed int cnt)
 {
   signed int i;
   if(!(w->entries == ((char **)NULL)))
@@ -16456,22 +16456,22 @@ void wid_list_set_entries(struct anonymous$14 *w, const char **entries, signed i
   if(w->cur >= cnt)
     w->cur = cnt > 0 ? cnt - 1 : 0;
 
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(w->cur >= w->first))
   {
     if(w->cur >= 1)
-      tmp_if_expr$1 = w->cur - 1;
+      tmp_if_expr_1 = w->cur - 1;
 
     else
-      tmp_if_expr$1 = 0;
-    w->first = tmp_if_expr$1;
+      tmp_if_expr_1 = 0;
+    w->first = tmp_if_expr_1;
   }
 
   if(cnt >= 1)
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)cnt);
-    w->entries = (char **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)cnt);
+    w->entries = (char **)return_value_malloc_2;
     i = 0;
     for( ; !(i >= cnt); i = i + 1)
       w->entries[(signed long int)i]=strdup(entries[(signed long int)i]);
@@ -16481,14 +16481,14 @@ void wid_list_set_entries(struct anonymous$14 *w, const char **entries, signed i
 
 // wid_list_set_selection_mode
 // file ../../src/mwidget.c line 1162
-void wid_list_set_selection_mode(struct anonymous$14 *w, enum anonymous$10 mode)
+void wid_list_set_selection_mode(struct anonymous_14 *w, enum anonymous_10 mode)
 {
   w->sel_mode = mode;
 }
 
 // wid_list_set_title
 // file ../../src/mwidget.c line 1119
-void wid_list_set_title(struct anonymous$14 *w, const char *title)
+void wid_list_set_title(struct anonymous_14 *w, const char *title)
 {
   if(!(w->title == ((char *)NULL)))
     free((void *)w->title);
@@ -16528,49 +16528,49 @@ void wid_set_size(struct WIDGET *w, signed int width, signed int height)
 
 // wid_str_add
 // file ../../src/mwidget.c line 999
-struct WIDGET * wid_str_add(struct anonymous$17 *d, signed int spacing, const char *input, signed int length)
+struct WIDGET * wid_str_add(struct anonymous_17 *d, signed int spacing, const char *input, signed int length)
 {
   signed int i;
-  struct anonymous$12 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$12) /*128ul*/ );
-  w = (struct anonymous$12 *)return_value_malloc$1;
+  struct anonymous_12 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_12) /*128ul*/ );
+  w = (struct anonymous_12 *)return_value_malloc_1;
   widget_init((struct WIDGET *)w, d, 1, spacing);
-  w->w.type = (enum anonymous$32)TYPE_STR;
+  w->w.type = (enum anonymous_32)TYPE_STR;
   w->w.w_free = (void (*)(struct WIDGET *))str_free;
   w->w.w_paint = (void (*)(struct WIDGET *))str_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))str_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))str_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))str_get_size;
   w->length = length;
   w->w.def_width = 70;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(length + 1));
-  w->input = (char *)return_value_malloc$2;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(input);
-  unsigned long int tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
-  if(!(return_value_strlen$3 >= (unsigned long int)length))
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(length + 1));
+  w->input = (char *)return_value_malloc_2;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(input);
+  unsigned long int tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
+  if(!(return_value_strlen_3 >= (unsigned long int)length))
   {
-    return_value_strlen$4=strlen(input);
-    tmp_if_expr$5 = return_value_strlen$4;
+    return_value_strlen_4=strlen(input);
+    tmp_if_expr_5 = return_value_strlen_4;
   }
 
   else
-    tmp_if_expr$5 = (unsigned long int)length;
-  i = (signed int)tmp_if_expr$5;
+    tmp_if_expr_5 = (unsigned long int)length;
+  i = (signed int)tmp_if_expr_5;
   strncpy(w->input, input, (unsigned long int)i);
   w->input[(signed long int)i] = (char)0;
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(w->input);
-  w->cur_pos = (signed int)return_value_strlen$6;
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(w->input);
+  w->cur_pos = (signed int)return_value_strlen_6;
   dialog_add(d, (struct WIDGET *)w);
   return (struct WIDGET *)w;
 }
 
 // wid_str_set_input
 // file ../../src/mwidget.c line 1025
-void wid_str_set_input(struct anonymous$12 *w, const char *input, signed int length)
+void wid_str_set_input(struct anonymous_12 *w, const char *input, signed int length)
 {
   if(length >= 0)
   {
@@ -16580,9 +16580,9 @@ void wid_str_set_input(struct anonymous$12 *w, const char *input, signed int len
     w->length = length;
   }
 
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$4;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_4;
   if(w->length == 0)
   {
     w->input = (char *)(void *)0;
@@ -16593,25 +16593,25 @@ void wid_str_set_input(struct anonymous$12 *w, const char *input, signed int len
   else
   {
     signed int i;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(input);
-    if(!(return_value_strlen$1 >= (unsigned long int)w->length))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(input);
+    if(!(return_value_strlen_1 >= (unsigned long int)w->length))
     {
-      return_value_strlen$2=strlen(input);
-      tmp_if_expr$3 = return_value_strlen$2;
+      return_value_strlen_2=strlen(input);
+      tmp_if_expr_3 = return_value_strlen_2;
     }
 
     else
-      tmp_if_expr$3 = (unsigned long int)w->length;
-    i = (signed int)tmp_if_expr$3;
+      tmp_if_expr_3 = (unsigned long int)w->length;
+    i = (signed int)tmp_if_expr_3;
     strncpy(w->input, input, (unsigned long int)i);
     w->input[(signed long int)i] = (char)0;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(w->input);
-    if(!(return_value_strlen$5 >= (unsigned long int)w->cur_pos))
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(w->input);
+    if(!(return_value_strlen_5 >= (unsigned long int)w->cur_pos))
     {
-      return_value_strlen$4=strlen(w->input);
-      w->cur_pos = (signed int)return_value_strlen$4;
+      return_value_strlen_4=strlen(w->input);
+      w->cur_pos = (signed int)return_value_strlen_4;
     }
 
     if(!(w->cur_pos >= w->start))
@@ -16625,17 +16625,17 @@ void wid_str_set_input(struct anonymous$12 *w, const char *input, signed int len
 
 // wid_toggle_add
 // file ../../src/mwidget.c line 1190
-struct WIDGET * wid_toggle_add(struct anonymous$17 *d, signed int spacing, const char *button, signed int active, signed int selected)
+struct WIDGET * wid_toggle_add(struct anonymous_17 *d, signed int spacing, const char *button, signed int active, signed int selected)
 {
-  struct anonymous$15 *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$15) /*128ul*/ );
-  w = (struct anonymous$15 *)return_value_malloc$1;
+  struct anonymous_15 *w;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_15) /*128ul*/ );
+  w = (struct anonymous_15 *)return_value_malloc_1;
   widget_init((struct WIDGET *)w, d, 1, spacing);
-  w->w.type = (enum anonymous$32)TYPE_TOGGLE;
+  w->w.type = (enum anonymous_32)TYPE_TOGGLE;
   w->w.w_free = (void (*)(struct WIDGET *))toggle_free;
   w->w.w_paint = (void (*)(struct WIDGET *))toggle_paint;
-  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))toggle_handle_event;
+  w->w.w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))toggle_handle_event;
   w->w.w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))toggle_get_size;
   w->button=strdup(button);
   w->active = active;
@@ -16646,14 +16646,14 @@ struct WIDGET * wid_toggle_add(struct anonymous$17 *d, signed int spacing, const
 
 // wid_toggle_set_selected
 // file ../../src/mwidget.c line 1208
-void wid_toggle_set_selected(struct anonymous$15 *w, signed int selected)
+void wid_toggle_set_selected(struct anonymous_15 *w, signed int selected)
 {
   w->selected = selected;
 }
 
 // widget_init
 // file ../../src/mwidget.c line 962
-static void widget_init(struct WIDGET *w, struct anonymous$17 *d, signed int focus, signed int spacing)
+static void widget_init(struct WIDGET *w, struct anonymous_17 *d, signed int focus, signed int spacing)
 {
   w->height = 1;
   w->width = w->height;
@@ -16669,16 +16669,16 @@ static void widget_init(struct WIDGET *w, struct anonymous$17 *d, signed int foc
   w->handle_key = w->handle_focus;
   w->w_paint = (void (*)(struct WIDGET *))(void *)0;
   w->w_free = w->w_paint;
-  w->w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous$18, signed int))(void *)0;
+  w->w_handle_event = (signed int (*)(struct WIDGET *, enum anonymous_18, signed int))(void *)0;
   w->w_get_size = (void (*)(struct WIDGET *, signed int *, signed int *))(void *)0;
   w->data = (void *)0;
 }
 
 // win_attrset
 // file ../../src/mwindow.h line 146
-void win_attrset(enum anonymous$7 attrs)
+void win_attrset(enum anonymous_7 attrs)
 {
-  if(win_quiet == 0 && !(theme == ((struct anonymous$1 *)NULL)))
+  if(win_quiet == 0 && !(theme == ((struct anonymous_1 *)NULL)))
   {
     signed int theme_attr = theme->attrs[(signed long int)attrs];
     act_color = theme_attr;
@@ -16689,9 +16689,9 @@ void win_attrset(enum anonymous$7 attrs)
         theme_attr = (8 - 1 << 4) + (8 - 2 << 0);
 
       act_color = theme_attr;
-      signed int return_value_color_to_pair$1;
-      return_value_color_to_pair$1=color_to_pair(theme_attr);
-      pair = (signed int)((unsigned long int)return_value_color_to_pair$1 << 0 + 8);
+      signed int return_value_color_to_pair_1;
+      return_value_color_to_pair_1=color_to_pair(theme_attr);
+      pair = (signed int)((unsigned long int)return_value_color_to_pair_1 << 0 + 8);
       if(!((0x08 & theme_attr) == 0))
       {
         if(!(stdscr == ((struct _win_st *)NULL)))
@@ -16732,12 +16732,12 @@ void win_attrset(enum anonymous$7 attrs)
 // file ../../src/mwindow.c line 838
 void win_box(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, signed int y2)
 {
-  win_box_color(win, x1, y1, x2, y2, (enum anonymous$7 *)(void *)0);
+  win_box_color(win, x1, y1, x2, y2, (enum anonymous_7 *)(void *)0);
 }
 
 // win_box_color
 // file ../../src/mwindow.c line 768
-void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, signed int y2, enum anonymous$7 *back)
+void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, signed int y2, enum anonymous_7 *back)
 {
   signed int i;
   signed int j;
@@ -16748,27 +16748,27 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
   signed int sy2;
   signed int maxx;
   signed int maxy;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(win_quiet == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(win == cur_window))
-      tmp_if_expr$1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_post$7;
-  signed int tmp_post$11;
-  signed int tmp_post$13;
-  signed int tmp_post$15;
-  if(!tmp_if_expr$2)
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_post_7;
+  signed int tmp_post_11;
+  signed int tmp_post_13;
+  signed int tmp_post_15;
+  if(!tmp_if_expr_2)
   {
     x1 = x1 + win->x;
     x2 = x2 + win->x;
@@ -16777,29 +16777,29 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
     maxx = (win->x + win->width) - 1;
     maxy = (win->y + win->height) - 1;
     if(x1 >= win->x)
-      tmp_if_expr$3 = x1 + 1;
+      tmp_if_expr_3 = x1 + 1;
 
     else
-      tmp_if_expr$3 = win->x;
-    sx1 = tmp_if_expr$3;
+      tmp_if_expr_3 = win->x;
+    sx1 = tmp_if_expr_3;
     if(y1 >= win->y)
-      tmp_if_expr$4 = y1 + 1;
+      tmp_if_expr_4 = y1 + 1;
 
     else
-      tmp_if_expr$4 = win->y;
-    sy1 = tmp_if_expr$4;
+      tmp_if_expr_4 = win->y;
+    sy1 = tmp_if_expr_4;
     sx2 = x2 <= maxx ? x2 - 1 : maxx;
     sy2 = y2 <= maxy ? y2 - 1 : maxy;
     if(maxy >= y2)
     {
       if(x1 >= win->x)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
           win_set_background(back[(signed long int)(((((x2 - x1) + x2) - x1) + y2) - y1)]);
 
-        signed int return_value_wmove$5;
-        return_value_wmove$5=wmove(stdscr, y2, x1);
-        if(return_value_wmove$5 == -1)
+        signed int return_value_wmove_5;
+        return_value_wmove_5=wmove(stdscr, y2, x1);
+        if(return_value_wmove_5 == -1)
           -1;
 
         else
@@ -16808,12 +16808,12 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
 
       if(maxx >= x2)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
           win_set_background(back[(signed long int)(((x2 - x1) + y2) - y1)]);
 
-        signed int return_value_wmove$6;
-        return_value_wmove$6=wmove(stdscr, y2, x2);
-        if(return_value_wmove$6 == -1)
+        signed int return_value_wmove_6;
+        return_value_wmove_6=wmove(stdscr, y2, x2);
+        if(return_value_wmove_6 == -1)
           -1;
 
         else
@@ -16824,16 +16824,16 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
       i = sx1;
       for( ; sx2 >= i; i = i + 1)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
         {
-          tmp_post$7 = j;
+          tmp_post_7 = j;
           j = j - 1;
-          win_set_background(back[(signed long int)tmp_post$7]);
+          win_set_background(back[(signed long int)tmp_post_7]);
         }
 
-        signed int return_value_wmove$8;
-        return_value_wmove$8=wmove(stdscr, y2, i);
-        if(return_value_wmove$8 == -1)
+        signed int return_value_wmove_8;
+        return_value_wmove_8=wmove(stdscr, y2, i);
+        if(return_value_wmove_8 == -1)
           -1;
 
         else
@@ -16845,12 +16845,12 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
     {
       if(x1 >= win->x)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
           win_set_background(back[(signed long int)0]);
 
-        signed int return_value_wmove$9;
-        return_value_wmove$9=wmove(stdscr, y1, x1);
-        if(return_value_wmove$9 == -1)
+        signed int return_value_wmove_9;
+        return_value_wmove_9=wmove(stdscr, y1, x1);
+        if(return_value_wmove_9 == -1)
           -1;
 
         else
@@ -16859,12 +16859,12 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
 
       if(maxx >= x2)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
           win_set_background(back[(signed long int)(x2 - x1)]);
 
-        signed int return_value_wmove$10;
-        return_value_wmove$10=wmove(stdscr, y1, x2);
-        if(return_value_wmove$10 == -1)
+        signed int return_value_wmove_10;
+        return_value_wmove_10=wmove(stdscr, y1, x2);
+        if(return_value_wmove_10 == -1)
           -1;
 
         else
@@ -16875,16 +16875,16 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
       i = sx1;
       for( ; sx2 >= i; i = i + 1)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
         {
-          tmp_post$11 = j;
+          tmp_post_11 = j;
           j = j + 1;
-          win_set_background(back[(signed long int)tmp_post$11]);
+          win_set_background(back[(signed long int)tmp_post_11]);
         }
 
-        signed int return_value_wmove$12;
-        return_value_wmove$12=wmove(stdscr, y1, i);
-        if(return_value_wmove$12 == -1)
+        signed int return_value_wmove_12;
+        return_value_wmove_12=wmove(stdscr, y1, i);
+        if(return_value_wmove_12 == -1)
           -1;
 
         else
@@ -16899,16 +16899,16 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
     {
       if(x1 >= win->x)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
         {
-          tmp_post$13 = k;
+          tmp_post_13 = k;
           k = k - 1;
-          win_set_background(back[(signed long int)tmp_post$13]);
+          win_set_background(back[(signed long int)tmp_post_13]);
         }
 
-        signed int return_value_wmove$14;
-        return_value_wmove$14=wmove(stdscr, i, x1);
-        if(return_value_wmove$14 == -1)
+        signed int return_value_wmove_14;
+        return_value_wmove_14=wmove(stdscr, i, x1);
+        if(return_value_wmove_14 == -1)
           -1;
 
         else
@@ -16917,18 +16917,18 @@ void win_box_color(struct MWINDOW *win, signed int x1, signed int y1, signed int
 
       if(maxx >= x2)
       {
-        if(!(back == ((enum anonymous$7 *)NULL)))
+        if(!(back == ((enum anonymous_7 *)NULL)))
         {
-          tmp_post$15 = j;
+          tmp_post_15 = j;
           j = j + 1;
-          win_set_background(back[(signed long int)tmp_post$15]);
+          win_set_background(back[(signed long int)tmp_post_15]);
         }
 
       }
 
-      signed int return_value_wmove$16;
-      return_value_wmove$16=wmove(stdscr, i, x2);
-      if(return_value_wmove$16 == -1)
+      signed int return_value_wmove_16;
+      return_value_wmove_16=wmove(stdscr, i, x2);
+      if(return_value_wmove_16 == -1)
         -1;
 
       else
@@ -16947,17 +16947,17 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
   signed int sx2;
   signed int sy1;
   signed int sy2;
-  signed int return_value_wmove$1;
-  signed int return_value_wmove$2;
-  signed int return_value_wmove$3;
-  signed int return_value_wmove$4;
-  signed int return_value_wmove$5;
-  _Bool tmp_if_expr$6;
-  signed int return_value_wmove$8;
-  const char *tmp_post$7;
-  signed int return_value_wmove$9;
-  signed int return_value_wmove$10;
-  signed int return_value_wmove$11;
+  signed int return_value_wmove_1;
+  signed int return_value_wmove_2;
+  signed int return_value_wmove_3;
+  signed int return_value_wmove_4;
+  signed int return_value_wmove_5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_wmove_8;
+  const char *tmp_post_7;
+  signed int return_value_wmove_9;
+  signed int return_value_wmove_10;
+  signed int return_value_wmove_11;
   if(win_quiet == 0)
   {
     sx1 = x1 >= 0 ? x1 + 1 : 0;
@@ -16968,8 +16968,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
     {
       if(x1 >= 0)
       {
-        return_value_wmove$1=wmove(stdscr, y2, x1);
-        if(return_value_wmove$1 == -1)
+        return_value_wmove_1=wmove(stdscr, y2, x1);
+        if(return_value_wmove_1 == -1)
           -1;
 
         else
@@ -16978,8 +16978,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
 
       if(!(x2 >= winx))
       {
-        return_value_wmove$2=wmove(stdscr, y2, x2);
-        if(return_value_wmove$2 == -1)
+        return_value_wmove_2=wmove(stdscr, y2, x2);
+        if(return_value_wmove_2 == -1)
           -1;
 
         else
@@ -16989,8 +16989,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
       i = sx1;
       for( ; sx2 >= i; i = i + 1)
       {
-        return_value_wmove$3=wmove(stdscr, y2, i);
-        if(return_value_wmove$3 == -1)
+        return_value_wmove_3=wmove(stdscr, y2, i);
+        if(return_value_wmove_3 == -1)
           -1;
 
         else
@@ -17002,8 +17002,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
     {
       if(x1 >= 0)
       {
-        return_value_wmove$4=wmove(stdscr, y1, x1);
-        if(return_value_wmove$4 == -1)
+        return_value_wmove_4=wmove(stdscr, y1, x1);
+        if(return_value_wmove_4 == -1)
           -1;
 
         else
@@ -17012,8 +17012,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
 
       if(!(x2 >= winx))
       {
-        return_value_wmove$5=wmove(stdscr, y1, x2);
-        if(return_value_wmove$5 == -1)
+        return_value_wmove_5=wmove(stdscr, y1, x2);
+        if(return_value_wmove_5 == -1)
           -1;
 
         else
@@ -17025,22 +17025,22 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
         do
         {
           if(sx2 >= i)
-            tmp_if_expr$6 = *title != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = *title != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(!tmp_if_expr_6)
             break;
 
-          return_value_wmove$8=wmove(stdscr, y1, i);
-          if(return_value_wmove$8 == -1)
+          return_value_wmove_8=wmove(stdscr, y1, i);
+          if(return_value_wmove_8 == -1)
             -1;
 
           else
           {
-            tmp_post$7 = title;
+            tmp_post_7 = title;
             title = title + 1l;
-            waddch(stdscr, (const unsigned long int)*tmp_post$7);
+            waddch(stdscr, (const unsigned long int)*tmp_post_7);
           }
           i = i + 1;
         }
@@ -17048,8 +17048,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
 
       for( ; sx2 >= i; i = i + 1)
       {
-        return_value_wmove$9=wmove(stdscr, y1, i);
-        if(return_value_wmove$9 == -1)
+        return_value_wmove_9=wmove(stdscr, y1, i);
+        if(return_value_wmove_9 == -1)
           -1;
 
         else
@@ -17062,8 +17062,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
     {
       if(x1 >= 0)
       {
-        return_value_wmove$10=wmove(stdscr, i, x1);
-        if(return_value_wmove$10 == -1)
+        return_value_wmove_10=wmove(stdscr, i, x1);
+        if(return_value_wmove_10 == -1)
           -1;
 
         else
@@ -17072,8 +17072,8 @@ void win_box_win(signed int x1, signed int y1, signed int x2, signed int y2, con
 
       if(!(x2 >= winx))
       {
-        return_value_wmove$11=wmove(stdscr, i, x2);
-        if(return_value_wmove$11 == -1)
+        return_value_wmove_11=wmove(stdscr, i, x2);
+        if(return_value_wmove_11 == -1)
           -1;
 
         else
@@ -17093,7 +17093,7 @@ void win_change_panel(signed int new_panel)
     new_panel = old_panel;
 
   old_panel = cur_panel;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(new_panel == cur_panel))
   {
     cur_panel = new_panel;
@@ -17101,11 +17101,11 @@ void win_change_panel(signed int new_panel)
     do
     {
       if(!(cur_window == ((struct MWINDOW *)NULL)))
-        tmp_if_expr$1 = cur_window->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = cur_window->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       cur_window = cur_window->next;
@@ -17120,8 +17120,8 @@ void win_change_panel(signed int new_panel)
 // file ../../src/mwindow.c line 292
 signed int win_check_resize(void)
 {
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   static signed int in_check_resize = 0;
   if(!(in_check_resize == 0) || !(win_quiet == 0))
     return 0;
@@ -17144,17 +17144,17 @@ signed int win_check_resize(void)
       oldx = winx;
       oldy = winy;
       if(!(stdscr == ((struct _win_st *)NULL)))
-        tmp_if_expr$1 = (signed int)stdscr->_maxy + 1;
+        tmp_if_expr_1 = (signed int)stdscr->_maxy + 1;
 
       else
-        tmp_if_expr$1 = -1;
-      winy = tmp_if_expr$1;
+        tmp_if_expr_1 = -1;
+      winy = tmp_if_expr_1;
       if(!(stdscr == ((struct _win_st *)NULL)))
-        tmp_if_expr$2 = (signed int)stdscr->_maxx + 1;
+        tmp_if_expr_2 = (signed int)stdscr->_maxx + 1;
 
       else
-        tmp_if_expr$2 = -1;
-      winx = tmp_if_expr$2;
+        tmp_if_expr_2 = -1;
+      winx = tmp_if_expr_2;
       win_do_resize(winx - oldx, winy - oldy, 1);
       in_check_resize = 0;
       return 1;
@@ -17169,24 +17169,24 @@ signed int win_check_resize(void)
 // file ../../src/mwindow.h line 121
 signed int win_clear(struct MWINDOW *win)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(win_quiet == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(win == cur_window))
-      tmp_if_expr$1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_wmove$3;
-  signed int return_value_wmove$4;
-  signed int return_value_wmove$5;
-  if(tmp_if_expr$2)
+  signed int return_value_wmove_3;
+  signed int return_value_wmove_4;
+  signed int return_value_wmove_5;
+  if(tmp_if_expr_2)
     return 1;
 
   else
@@ -17204,8 +17204,8 @@ signed int win_clear(struct MWINDOW *win)
           i = 0;
           for( ; !(i >= win->height) && !(i >= root_y1); i = i + 1)
           {
-            return_value_wmove$3=wmove(stdscr, win->y + i, win->x);
-            if(return_value_wmove$3 == -1)
+            return_value_wmove_3=wmove(stdscr, win->y + i, win->x);
+            if(return_value_wmove_3 == -1)
               -1;
 
             else
@@ -17217,8 +17217,8 @@ signed int win_clear(struct MWINDOW *win)
 
           for( ; !(i >= win->height); i = i + 1)
           {
-            return_value_wmove$4=wmove(stdscr, win->y + i, win->x);
-            if(return_value_wmove$4 == -1)
+            return_value_wmove_4=wmove(stdscr, win->y + i, win->x);
+            if(return_value_wmove_4 == -1)
               -1;
 
             else
@@ -17231,8 +17231,8 @@ signed int win_clear(struct MWINDOW *win)
           i = 0;
           for( ; !(i >= win->height); i = i + 1)
           {
-            return_value_wmove$5=wmove(stdscr, win->y + i, win->x);
-            if(return_value_wmove$5 == -1)
+            return_value_wmove_5=wmove(stdscr, win->y + i, win->x);
+            if(return_value_wmove_5 == -1)
               -1;
 
             else
@@ -17292,29 +17292,29 @@ __CPROVER_DUMP_L12:
 void win_clrtoeol(struct MWINDOW *win, signed int x, signed int y)
 {
   signed int len = win->width - x;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(win_quiet == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(win == cur_window))
-      tmp_if_expr$1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$2)
+  if(!tmp_if_expr_2)
   {
     if(len >= 1)
     {
       memset((void *)storage, 32, (unsigned long int)len);
       storage[(signed long int)len] = (char)0;
-      signed int return_value_wmove$3;
-      return_value_wmove$3=wmove(stdscr, win->y + y, win->x + x);
-      if(return_value_wmove$3 == -1)
+      signed int return_value_wmove_3;
+      return_value_wmove_3=wmove(stdscr, win->y + y, win->x + x);
+      if(return_value_wmove_3 == -1)
         -1;
 
       else
@@ -17377,9 +17377,9 @@ void win_exit(void)
   {
     signal(28, (void (*)(signed int))0);
     wclear(stdscr);
-    signed int return_value_wmove$1;
-    return_value_wmove$1=wmove(stdscr, winy - 2, 0);
-    if(return_value_wmove$1 == -1)
+    signed int return_value_wmove_1;
+    return_value_wmove_1=wmove(stdscr, winy - 2, 0);
+    if(return_value_wmove_1 == -1)
       -1;
 
     else
@@ -17397,15 +17397,15 @@ void win_exit(void)
 struct MWINDOW * win_get_first(signed int dst_panel)
 {
   struct MWINDOW *win = panel[(signed long int)dst_panel];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(win == ((struct MWINDOW *)NULL)))
-      tmp_if_expr$1 = win->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = win->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     win = win->next;
@@ -17443,9 +17443,9 @@ void win_get_size_max(signed int *y, signed int *width, signed int *height)
 
 // win_get_theme_color
 // file ../../src/mwindow.c line 867
-enum anonymous$7 win_get_theme_color(enum anonymous$7 attrs)
+enum anonymous_7 win_get_theme_color(enum anonymous_7 attrs)
 {
-  if(!(theme == ((struct anonymous$1 *)NULL)))
+  if(!(theme == ((struct anonymous_1 *)NULL)))
   {
     signed int theme_attr = theme->attrs[(signed long int)attrs];
     if(!(theme->color == 0))
@@ -17455,11 +17455,11 @@ enum anonymous$7 win_get_theme_color(enum anonymous$7 attrs)
 
     }
 
-    return (enum anonymous$7)theme_attr;
+    return (enum anonymous_7)theme_attr;
   }
 
   else
-    return (enum anonymous$7)0;
+    return (enum anonymous_7)0;
 }
 
 // win_get_window
@@ -17579,7 +17579,7 @@ void win_init(signed int quiet)
 {
   win_quiet = quiet;
   win_init_system();
-  win_open(0, 0, winx, winy, 0, (const char *)(void *)0, (enum anonymous$7)ATTR_SONG_STATUS);
+  win_open(0, 0, winx, winy, 0, (const char *)(void *)0, (enum anonymous_7)ATTR_SONG_STATUS);
   win_set_resize(1, (void (*)(struct MWINDOW *, signed int, signed int))(void *)0);
 }
 
@@ -17602,23 +17602,23 @@ void win_init_status(signed int height)
 // file ../../src/mwindow.c line 253
 void win_init_system(void)
 {
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(win_quiet == 0)
   {
     init_curses();
     if(!(stdscr == ((struct _win_st *)NULL)))
-      tmp_if_expr$1 = (signed int)stdscr->_maxy + 1;
+      tmp_if_expr_1 = (signed int)stdscr->_maxy + 1;
 
     else
-      tmp_if_expr$1 = -1;
-    winy = tmp_if_expr$1;
+      tmp_if_expr_1 = -1;
+    winy = tmp_if_expr_1;
     if(!(stdscr == ((struct _win_st *)NULL)))
-      tmp_if_expr$2 = (signed int)stdscr->_maxx + 1;
+      tmp_if_expr_2 = (signed int)stdscr->_maxx + 1;
 
     else
-      tmp_if_expr$2 = -1;
-    winx = tmp_if_expr$2;
+      tmp_if_expr_2 = -1;
+    winx = tmp_if_expr_2;
     signal(28, sigwinch_handler);
   }
 
@@ -17629,25 +17629,25 @@ void win_init_system(void)
 void win_line(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, signed int y2)
 {
   signed int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(win_quiet == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(win == cur_window))
-      tmp_if_expr$1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
-  signed int return_value_wmove$4;
-  _Bool tmp_if_expr$5;
-  signed int return_value_wmove$6;
-  if(!tmp_if_expr$2)
+  _Bool tmp_if_expr_3;
+  signed int return_value_wmove_4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_wmove_6;
+  if(!tmp_if_expr_2)
   {
     if(y1 == y2)
     {
@@ -17657,15 +17657,15 @@ void win_line(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, 
         do
         {
           if(x2 >= i)
-            tmp_if_expr$3 = i < cur_window->width ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = i < cur_window->width ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
-          return_value_wmove$4=wmove(stdscr, y1 + cur_window->y, i + cur_window->x);
-          if(return_value_wmove$4 == -1)
+          return_value_wmove_4=wmove(stdscr, y1 + cur_window->y, i + cur_window->x);
+          if(return_value_wmove_4 == -1)
             -1;
 
           else
@@ -17684,15 +17684,15 @@ void win_line(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, 
         do
         {
           if(y2 >= i)
-            tmp_if_expr$5 = i < cur_window->height ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = i < cur_window->height ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
             break;
 
-          return_value_wmove$6=wmove(stdscr, i + cur_window->y, x1 + cur_window->x);
-          if(return_value_wmove$6 == -1)
+          return_value_wmove_6=wmove(stdscr, i + cur_window->y, x1 + cur_window->x);
+          if(return_value_wmove_6 == -1)
             -1;
 
           else
@@ -17711,14 +17711,14 @@ void win_line(struct MWINDOW *win, signed int x1, signed int y1, signed int x2, 
 signed int win_main_iteration(void)
 {
   signed int ch;
-  static unsigned long int win_main_iteration$$1$$time;
-  win_main_iteration$$1$$time=Time1000();
+  static unsigned long int win_main_iteration__1__time;
+  win_main_iteration__1__time=Time1000();
   static unsigned long int last_time = (unsigned long int)0;
   if(!(timeouts == ((struct TIMEOUT *)NULL)) && !(last_time == 0ul))
-    (timeouts + (signed long int)0)->remaining = (timeouts + (signed long int)0)->remaining - (signed int)(win_main_iteration$$1$$time - last_time);
+    (timeouts + (signed long int)0)->remaining = (timeouts + (signed long int)0)->remaining - (signed int)(win_main_iteration__1__time - last_time);
 
-  last_time = win_main_iteration$$1$$time;
-  _Bool tmp_if_expr$1;
+  last_time = win_main_iteration__1__time;
+  _Bool tmp_if_expr_1;
   signed int return_value;
   while(!(timeouts == ((struct TIMEOUT *)NULL)))
   {
@@ -17728,12 +17728,12 @@ signed int win_main_iteration(void)
     if(!(timeouts->func == ((signed int (*)(struct MWINDOW *, void *))NULL)))
     {
       return_value=(timeouts + (signed long int)0)->func(cur_window, (timeouts + (signed long int)0)->data);
-      tmp_if_expr$1 = !(return_value != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = !(return_value != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       win_timeout_remove(0);
 
     else
@@ -17762,22 +17762,22 @@ signed int win_main_iteration(void)
 
 // win_open
 // file ../../src/mwindow.c line 491
-struct MWINDOW * win_open(signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous$7 attrs)
+struct MWINDOW * win_open(signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous_7 attrs)
 {
-  struct MWINDOW *return_value_win_panel_open$1;
-  return_value_win_panel_open$1=win_panel_open(cur_panel, x, y, width, height, border, title, attrs);
-  return return_value_win_panel_open$1;
+  struct MWINDOW *return_value_win_panel_open_1;
+  return_value_win_panel_open_1=win_panel_open(cur_panel, x, y, width, height, border, title, attrs);
+  return return_value_win_panel_open_1;
 }
 
 // win_panel_open
 // file ../../src/mwindow.h line 88
-struct MWINDOW * win_panel_open(signed int dst_panel, signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous$7 attrs)
+struct MWINDOW * win_panel_open(signed int dst_panel, signed int x, signed int y, signed int width, signed int height, signed int border, const char *title, enum anonymous_7 attrs)
 {
   struct MWINDOW *win;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct MWINDOW) /*80ul*/ );
-  win = (struct MWINDOW *)return_value_malloc$1;
-  struct MWINDOW *win_panel_open$$1$$help;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct MWINDOW) /*80ul*/ );
+  win = (struct MWINDOW *)return_value_malloc_1;
+  struct MWINDOW *win_panel_open__1__help;
   signed int ofs = border != 0 ? 1 : 0;
   if(!(x >= ofs))
     x = ofs;
@@ -17830,23 +17830,23 @@ struct MWINDOW * win_panel_open(signed int dst_panel, signed int x, signed int y
   win->repaint = win_clear;
   win->handle_key = (signed int (*)(struct MWINDOW *, signed int))(void *)0;
   win->handle_resize = (void (*)(struct MWINDOW *, signed int, signed int))(void *)0;
-  win_panel_open$$1$$help = panel[(signed long int)dst_panel];
-  _Bool tmp_if_expr$2;
+  win_panel_open__1__help = panel[(signed long int)dst_panel];
+  _Bool tmp_if_expr_2;
   do
   {
-    if(!(win_panel_open$$1$$help == ((struct MWINDOW *)NULL)))
-      tmp_if_expr$2 = win_panel_open$$1$$help->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(!(win_panel_open__1__help == ((struct MWINDOW *)NULL)))
+      tmp_if_expr_2 = win_panel_open__1__help->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
-    win_panel_open$$1$$help = win_panel_open$$1$$help->next;
+    win_panel_open__1__help = win_panel_open__1__help->next;
   }
   while((_Bool)1);
-  if(!(win_panel_open$$1$$help == ((struct MWINDOW *)NULL)))
-    win_panel_open$$1$$help->next = win;
+  if(!(win_panel_open__1__help == ((struct MWINDOW *)NULL)))
+    win_panel_open__1__help->next = win;
 
   else
     panel[(signed long int)dst_panel] = win;
@@ -17862,7 +17862,7 @@ void win_panel_repaint(void)
 {
   signed int return_value;
   signed int return_value_1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(win_quiet == 0)
   {
     if(!(panel[(signed long int)cur_panel] == ((struct MWINDOW *)NULL)))
@@ -17904,11 +17904,11 @@ void win_panel_repaint(void)
     do
     {
       if(!(cur_window == ((struct MWINDOW *)NULL)))
-        tmp_if_expr$1 = cur_window->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = cur_window->next != ((struct MWINDOW *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       cur_window = cur_window->next;
@@ -17934,27 +17934,27 @@ void win_panel_repaint_force(void)
 // file ../../src/mwindow.c line 544
 void win_panel_set_data(signed int _panel, void *data)
 {
-  struct MWINDOW *return_value_win_get_first$1;
-  return_value_win_get_first$1=win_get_first(_panel);
-  return_value_win_get_first$1->data = data;
+  struct MWINDOW *return_value_win_get_first_1;
+  return_value_win_get_first_1=win_get_first(_panel);
+  return_value_win_get_first_1->data = data;
 }
 
 // win_panel_set_handle_key
 // file ../../src/mwindow.h line 95
 void win_panel_set_handle_key(signed int _panel, signed int (*func)(struct MWINDOW *, signed int))
 {
-  struct MWINDOW *return_value_win_get_first$1;
-  return_value_win_get_first$1=win_get_first(_panel);
-  return_value_win_get_first$1->handle_key = func;
+  struct MWINDOW *return_value_win_get_first_1;
+  return_value_win_get_first_1=win_get_first(_panel);
+  return_value_win_get_first_1->handle_key = func;
 }
 
 // win_panel_set_repaint
 // file ../../src/mwindow.h line 92
 void win_panel_set_repaint(signed int _panel, signed int (*func)(struct MWINDOW *))
 {
-  struct MWINDOW *return_value_win_get_first$1;
-  return_value_win_get_first$1=win_get_first(_panel);
-  return_value_win_get_first$1->repaint = func;
+  struct MWINDOW *return_value_win_get_first_1;
+  return_value_win_get_first_1=win_get_first(_panel);
+  return_value_win_get_first_1->repaint = func;
 }
 
 // win_panel_set_resize
@@ -17972,47 +17972,47 @@ void win_panel_set_resize(signed int _panel, signed int auto_resize, void (*func
 void win_print(struct MWINDOW *win, signed int x, signed int y, const char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)return_value_strlen$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)return_value_strlen_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(win_quiet == 0))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(!(win == cur_window))
-      tmp_if_expr$2 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = win != panel[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  if(!tmp_if_expr$3)
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  if(!tmp_if_expr_3)
   {
     if(x >= win->width)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = y >= win->height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_4 = y >= win->height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if(!(win == panel[0l]))
-        tmp_if_expr$5 = y + win->y >= winy - root_y2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = y + win->y >= winy - root_y2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(!(len == 0) && !tmp_if_expr$6)
+    if(!(len == 0) && !tmp_if_expr_6)
     {
       if(!(win->width >= len + x))
         len = win->width - x;
@@ -18020,11 +18020,11 @@ void win_print(struct MWINDOW *win, signed int x, signed int y, const char *str)
       if(len >= 1)
       {
         if((signed int)str[(signed long int)(len + -1)] == 10)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (signed int)str[(signed long int)(len - 1)] == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (signed int)str[(signed long int)(len - 1)] == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
         {
           if(!(win->width + win->x >= winx))
           {
@@ -18036,9 +18036,9 @@ void win_print(struct MWINDOW *win, signed int x, signed int y, const char *str)
 
       }
 
-      signed int return_value_wmove$8;
-      return_value_wmove$8=wmove(stdscr, y + win->y, x + win->x);
-      if(return_value_wmove$8 == -1)
+      signed int return_value_wmove_8;
+      return_value_wmove_8=wmove(stdscr, y + win->y, x + win->x);
+      if(return_value_wmove_8 == -1)
         -1;
 
       else
@@ -18067,9 +18067,9 @@ void win_run(void)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_win_main_iteration$1;
-    return_value_win_main_iteration$1=win_main_iteration();
-    if(!(return_value_win_main_iteration$1 == 0))
+    signed int return_value_win_main_iteration_1;
+    return_value_win_main_iteration_1=win_main_iteration();
+    if(!(return_value_win_main_iteration_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     usleep((unsigned int)(1 * 1000));
@@ -18079,34 +18079,34 @@ void win_run(void)
 
 // win_set_background
 // file ../../src/mwindow.c line 909
-void win_set_background(enum anonymous$7 bg)
+void win_set_background(enum anonymous_7 bg)
 {
-  signed int return_value_win_has_colors$1;
-  return_value_win_has_colors$1=win_has_colors();
-  if(!(return_value_win_has_colors$1 == 0))
-    win_set_color((enum anonymous$7)((act_color & 0x07) + ((signed int)bg << 4)));
+  signed int return_value_win_has_colors_1;
+  return_value_win_has_colors_1=win_has_colors();
+  if(!(return_value_win_has_colors_1 == 0))
+    win_set_color((enum anonymous_7)((act_color & 0x07) + ((signed int)bg << 4)));
 
 }
 
 // win_set_color
 // file ../../src/mwindow.c line 882
-void win_set_color(enum anonymous$7 attrs)
+void win_set_color(enum anonymous_7 attrs)
 {
   if(win_quiet == 0)
   {
     act_color = (signed int)attrs;
-    signed int return_value_win_has_colors$2;
-    return_value_win_has_colors$2=win_has_colors();
-    if(!(return_value_win_has_colors$2 == 0))
+    signed int return_value_win_has_colors_2;
+    return_value_win_has_colors_2=win_has_colors();
+    if(!(return_value_win_has_colors_2 == 0))
     {
       signed int pair;
       if((signed int)attrs == 8)
-        attrs = (enum anonymous$7)((8 - 1 << 4) + (8 - 2 << 0));
+        attrs = (enum anonymous_7)((8 - 1 << 4) + (8 - 2 << 0));
 
       act_color = (signed int)attrs;
-      signed int return_value_color_to_pair$1;
-      return_value_color_to_pair$1=color_to_pair((signed int)attrs);
-      pair = (signed int)((unsigned long int)return_value_color_to_pair$1 << 0 + 8);
+      signed int return_value_color_to_pair_1;
+      return_value_color_to_pair_1=color_to_pair((signed int)attrs);
+      pair = (signed int)((unsigned long int)return_value_color_to_pair_1 << 0 + 8);
       if(!((0x08 & (signed int)attrs) == 0))
       {
         if(!(stdscr == ((struct _win_st *)NULL)))
@@ -18152,12 +18152,12 @@ void win_set_data(void *data)
 
 // win_set_forground
 // file ../../src/mwindow.c line 903
-void win_set_forground(enum anonymous$7 fg)
+void win_set_forground(enum anonymous_7 fg)
 {
-  signed int return_value_win_has_colors$1;
-  return_value_win_has_colors$1=win_has_colors();
-  if(!(return_value_win_has_colors$1 == 0))
-    win_set_color((enum anonymous$7)((act_color & 0x70) + ((signed int)fg << 0)));
+  signed int return_value_win_has_colors_1;
+  return_value_win_has_colors_1=win_has_colors();
+  if(!(return_value_win_has_colors_1 == 0))
+    win_set_color((enum anonymous_7)((act_color & 0x70) + ((signed int)fg << 0)));
 
 }
 
@@ -18185,7 +18185,7 @@ void win_set_resize(signed int auto_resize, void (*func)(struct MWINDOW *, signe
 
 // win_set_theme
 // file ../../src/mwindow.h line 82
-void win_set_theme(struct anonymous$1 *new_theme)
+void win_set_theme(struct anonymous_1 *new_theme)
 {
   theme = new_theme;
 }
@@ -18196,12 +18196,12 @@ void win_status(const char *msg)
 {
   struct MWINDOW *win = panel[(signed long int)0];
   signed int len;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(msg == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(msg);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(msg);
+    len = (signed int)return_value_strlen_1;
     if(len >= 201)
       len = 200;
 
@@ -18210,8 +18210,8 @@ void win_status(const char *msg)
 
   else
   {
-    return_value_strlen$2=strlen(status_message);
-    len = (signed int)return_value_strlen$2;
+    return_value_strlen_2=strlen(status_message);
+    len = (signed int)return_value_strlen_2;
   }
   status_message[(signed long int)len] = (char)0;
   if(win_quiet == 0)
@@ -18222,10 +18222,10 @@ void win_status(const char *msg)
       {
         if(win->width >= 1)
         {
-          win_attrset((enum anonymous$7)ATTR_STATUS_TEXT);
-          signed int return_value_wmove$3;
-          return_value_wmove$3=wmove(stdscr, (win->y + win->height) - 1, win->x);
-          if(return_value_wmove$3 == -1)
+          win_attrset((enum anonymous_7)ATTR_STATUS_TEXT);
+          signed int return_value_wmove_3;
+          return_value_wmove_3=wmove(stdscr, (win->y + win->height) - 1, win->x);
+          if(return_value_wmove_3 == -1)
             -1;
 
           else
@@ -18247,19 +18247,19 @@ static void win_status_repaint(void)
 {
   struct MWINDOW *win = panel[(signed long int)0];
   signed int i;
-  signed int return_value_wmove$1;
+  signed int return_value_wmove_1;
   if(win_quiet == 0)
   {
     if(root_y2 >= 2)
     {
       if(!(1 + root_y1 >= win->height))
       {
-        win_attrset((enum anonymous$7)ATTR_STATUS_LINE);
+        win_attrset((enum anonymous_7)ATTR_STATUS_LINE);
         i = 0;
         for( ; !(i >= win->width); i = i + 1)
         {
-          return_value_wmove$1=wmove(stdscr, win->height - 2, i);
-          if(return_value_wmove$1 == -1)
+          return_value_wmove_1=wmove(stdscr, win->height - 2, i);
+          if(return_value_wmove_1 == -1)
             -1;
 
           else
@@ -18288,33 +18288,33 @@ void win_timeout_add(signed int interval, signed int (*func)(struct MWINDOW *, v
 // file ../../src/mwindow.c line 982
 static void win_timeout_insert(struct TIMEOUT *src)
 {
-  signed int win_timeout_insert$$1$$time;
+  signed int win_timeout_insert__1__time;
   signed int sum = 0;
   signed int oldsum = 0;
   signed int pos = 0;
   signed int i;
   if(src == ((struct TIMEOUT *)NULL))
   {
-    win_timeout_insert$$1$$time = (timeouts + (signed long int)0)->interval;
+    win_timeout_insert__1__time = (timeouts + (signed long int)0)->interval;
     pos = pos + 1;
   }
 
   else
-    win_timeout_insert$$1$$time = src->interval;
+    win_timeout_insert__1__time = src->interval;
   for( ; cnt_timeouts >= pos; pos = pos + 1)
   {
     oldsum = sum;
     if(!(pos >= cnt_timeouts))
       sum = sum + (timeouts + (signed long int)pos)->remaining;
 
-    if(pos == cnt_timeouts || !(win_timeout_insert$$1$$time >= sum))
+    if(pos == cnt_timeouts || !(win_timeout_insert__1__time >= sum))
     {
       if(!(src == ((struct TIMEOUT *)NULL)))
       {
         cnt_timeouts = cnt_timeouts + 1;
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)timeouts, sizeof(struct TIMEOUT) /*24ul*/  * (unsigned long int)cnt_timeouts);
-        timeouts = (struct TIMEOUT *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)timeouts, sizeof(struct TIMEOUT) /*24ul*/  * (unsigned long int)cnt_timeouts);
+        timeouts = (struct TIMEOUT *)return_value_realloc_1;
         i = cnt_timeouts - 1;
         for( ; !(pos >= i); i = i - 1)
           timeouts[(signed long int)i] = timeouts[(signed long int)(i - 1)];
@@ -18323,14 +18323,14 @@ static void win_timeout_insert(struct TIMEOUT *src)
 
       else
       {
-        struct TIMEOUT win_timeout_insert$$1$$2$$1$$1$$2$$help = timeouts[(signed long int)0];
+        struct TIMEOUT win_timeout_insert__1__2__1__1__2__help = timeouts[(signed long int)0];
         pos = pos - 1;
         i = 0;
         for( ; !(i >= pos); i = i + 1)
           timeouts[(signed long int)i] = timeouts[(signed long int)(i + 1)];
-        timeouts[(signed long int)pos] = win_timeout_insert$$1$$2$$1$$1$$2$$help;
+        timeouts[(signed long int)pos] = win_timeout_insert__1__2__1__1__2__help;
       }
-      (timeouts + (signed long int)pos)->remaining = win_timeout_insert$$1$$time - oldsum;
+      (timeouts + (signed long int)pos)->remaining = win_timeout_insert__1__time - oldsum;
       goto __CPROVER_DUMP_L12;
     }
 
@@ -18350,9 +18350,9 @@ static void win_timeout_remove(signed int number)
   cnt_timeouts = cnt_timeouts - 1;
   if(!(cnt_timeouts == 0))
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)timeouts, sizeof(struct TIMEOUT) /*24ul*/  * (unsigned long int)cnt_timeouts);
-    timeouts = (struct TIMEOUT *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)timeouts, sizeof(struct TIMEOUT) /*24ul*/  * (unsigned long int)cnt_timeouts);
+    timeouts = (struct TIMEOUT *)return_value_realloc_1;
   }
 
   else
@@ -18364,7 +18364,7 @@ static void win_timeout_remove(signed int number)
 
 // write_archiver
 // file ../../src/mconfig.c line 543
-static void write_archiver(struct anonymous$2 *archiver)
+static void write_archiver(struct anonymous_2 *archiver)
 {
   rc_write_int("LOCATION", archiver->location, (const char *)(void *)0);
   rc_write_string("MARKER", archiver->marker, (const char *)(void *)0);
@@ -18404,7 +18404,7 @@ static void write_description(const char *desc)
 
 // write_theme
 // file ../../src/mconfig.c line 383
-static void write_theme(struct anonymous$1 *theme)
+static void write_theme(struct anonymous_1 *theme)
 {
   signed int i;
   rc_write_string("NAME", theme->name, (const char *)(void *)0);

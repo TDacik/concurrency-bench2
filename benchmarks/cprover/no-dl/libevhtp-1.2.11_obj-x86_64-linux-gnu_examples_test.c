@@ -1,94 +1,94 @@
-// #anon_enum$s_query_start=0$s_query_separator=1$s_query_key=2$s_query_val=3$s_query_key_hex_1=4$s_query_key_hex_2=5$s_query_val_hex_1=6$s_query_val_hex_2=7$s_query_done=8
+// #anon_enum_s_query_start=0_s_query_separator=1_s_query_key=2_s_query_val=3_s_query_key_hex_1=4_s_query_key_hex_2=5_s_query_val_hex_1=6_s_query_val_hex_2=7_s_query_done=8
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2643
-enum anonymous$14 { s_query_start=0, s_query_separator=1, s_query_key=2, s_query_val=3, s_query_key_hex_1=4, s_query_key_hex_2=5, s_query_val_hex_1=6, s_query_val_hex_2=7, s_query_done=8 };
+enum anonymous_14 { s_query_start=0, s_query_separator=1, s_query_key=2, s_query_val=3, s_query_key_hex_1=4, s_query_key_hex_2=5, s_query_val_hex_1=6, s_query_val_hex_2=7, s_query_done=8 };
 
-// tag-#anon#ST[*{SYM#tag-evhtp_alias_s#}$SYM#tag-evhtp_alias_s#$'tqe_next'||*{*{SYM#tag-evhtp_alias_s#}$SYM#tag-evhtp_alias_s#$}$*{SYM#tag-evhtp_alias_s#}$SYM#tag-evhtp_alias_s#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-evhtp_alias_s#}_SYM#tag-evhtp_alias_s#_'tqe_next'||*{*{SYM#tag-evhtp_alias_s#}_SYM#tag-evhtp_alias_s#_}_*{SYM#tag-evhtp_alias_s#}_SYM#tag-evhtp_alias_s#__'tqe_prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 284
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{SYM#tag-evhtp_alias_s#}$SYM#tag-evhtp_alias_s#$'tqh_first'||*{*{SYM#tag-evhtp_alias_s#}$SYM#tag-evhtp_alias_s#$}$*{SYM#tag-evhtp_alias_s#}$SYM#tag-evhtp_alias_s#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-evhtp_alias_s#}_SYM#tag-evhtp_alias_s#_'tqh_first'||*{*{SYM#tag-evhtp_alias_s#}_SYM#tag-evhtp_alias_s#_}_*{SYM#tag-evhtp_alias_s#}_SYM#tag-evhtp_alias_s#__'tqh_last'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 327
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{SYM#tag-evhtp_callback_s#}$SYM#tag-evhtp_callback_s#$'tqe_next'||*{*{SYM#tag-evhtp_callback_s#}$SYM#tag-evhtp_callback_s#$}$*{SYM#tag-evhtp_callback_s#}$SYM#tag-evhtp_callback_s#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-evhtp_callback_s#}_SYM#tag-evhtp_callback_s#_'tqe_next'||*{*{SYM#tag-evhtp_callback_s#}_SYM#tag-evhtp_callback_s#_}_*{SYM#tag-evhtp_callback_s#}_SYM#tag-evhtp_callback_s#__'tqe_prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 361
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{SYM#tag-evhtp_kv_s#}$SYM#tag-evhtp_kv_s#$'tqe_next'||*{*{SYM#tag-evhtp_kv_s#}$SYM#tag-evhtp_kv_s#$}$*{SYM#tag-evhtp_kv_s#}$SYM#tag-evhtp_kv_s#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-evhtp_kv_s#}_SYM#tag-evhtp_kv_s#_'tqe_next'||*{*{SYM#tag-evhtp_kv_s#}_SYM#tag-evhtp_kv_s#_}_*{SYM#tag-evhtp_kv_s#}_SYM#tag-evhtp_kv_s#__'tqe_prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 379
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[*{SYM#tag-evhtp_request_s#}$SYM#tag-evhtp_request_s#$'tqe_next'||*{*{SYM#tag-evhtp_request_s#}$SYM#tag-evhtp_request_s#$}$*{SYM#tag-evhtp_request_s#}$SYM#tag-evhtp_request_s#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-evhtp_request_s#}_SYM#tag-evhtp_request_s#_'tqe_next'||*{*{SYM#tag-evhtp_request_s#}_SYM#tag-evhtp_request_s#_}_*{SYM#tag-evhtp_request_s#}_SYM#tag-evhtp_request_s#__'tqe_prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 452
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{SYM#tag-evhtp_s#}$SYM#tag-evhtp_s#$'tqe_next'||*{*{SYM#tag-evhtp_s#}$SYM#tag-evhtp_s#$}$*{SYM#tag-evhtp_s#}$SYM#tag-evhtp_s#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-evhtp_s#}_SYM#tag-evhtp_s#_'tqe_next'||*{*{SYM#tag-evhtp_s#}_SYM#tag-evhtp_s#_}_*{SYM#tag-evhtp_s#}_SYM#tag-evhtp_s#__'tqe_prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 329
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{SYM#tag-evhtp_s#}$SYM#tag-evhtp_s#$'tqh_first'||*{*{SYM#tag-evhtp_s#}$SYM#tag-evhtp_s#$}$*{SYM#tag-evhtp_s#}$SYM#tag-evhtp_s#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-evhtp_s#}_SYM#tag-evhtp_s#_'tqh_first'||*{*{SYM#tag-evhtp_s#}_SYM#tag-evhtp_s#_}_*{SYM#tag-evhtp_s#}_SYM#tag-evhtp_s#__'tqh_last'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 328
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{SYM#tag-evthr#}$SYM#tag-evthr#$'tqe_next'||*{*{SYM#tag-evthr#}$SYM#tag-evthr#$}$*{SYM#tag-evthr#}$SYM#tag-evthr#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-evthr#}_SYM#tag-evthr#_'tqe_next'||*{*{SYM#tag-evthr#}_SYM#tag-evthr#_}_*{SYM#tag-evthr#}_SYM#tag-evthr#__'tqe_prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 61
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{V}$V$'onig'||U64're_nsub'||S32'comp_options'||U32'$pad0'|]
+// tag-#anon#ST[*{V}_V_'onig'||U64're_nsub'||S32'comp_options'||U32'_pad0'|]
 // file /usr/include/onigposix.h line 83
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/onigposix.h line 77
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#UN[*{S8}$S8$'path'||*{S8}$S8$'glob'||*{SYM#tag-#anon#ST[*{V}$V$'onig'||U64're_nsub'||S32'comp_options'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{V}$V$'onig'||U64're_nsub'||S32'comp_options'||U32'$pad0'|]#$'regex'|]
+// tag-#anon#UN[*{S8}_S8_'path'||*{S8}_S8_'glob'||*{SYM#tag-#anon#ST[*{V}_V_'onig'||U64're_nsub'||S32'comp_options'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{V}_V_'onig'||U64're_nsub'||S32'comp_options'||U32'_pad0'|]#_'regex'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 353
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
 union anonymous;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$10;
+union anonymous_10;
 
 // tag-ASIdentifiers_st
 // file /usr/include/openssl/x509.h line 293
@@ -1044,9 +1044,9 @@ static signed int _evhtp_request_parser_start(struct htparser *p);
 // _evhtp_request_set_callbacks
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 1179
 static inline signed int _evhtp_request_set_callbacks(struct evhtp_request_s *request);
-// _evhtp_request_set_callbacks::1::cb$object
+// _evhtp_request_set_callbacks::1::cb_object
 //
-void cb$object(struct evhtp_request_s *, void *);
+void cb_object(struct evhtp_request_s *, void *);
 // _evhtp_require_uri
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 1327
 static signed int _evhtp_require_uri(struct evhtp_connection_s *c);
@@ -1077,9 +1077,9 @@ static unsigned long int _evhtp_ssl_get_thread_id(void);
 // _evhtp_ssl_servername
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2296
 static signed int _evhtp_ssl_servername(struct ssl_st *ssl, signed int *unused, void *arg);
-// _evhtp_ssl_servername::$tmp::return_value_SSL_CTX_get_verify_callback$4$object
+// _evhtp_ssl_servername::_tmp::return_value_SSL_CTX_get_verify_callback_4_object
 //
-signed int return_value_SSL_CTX_get_verify_callback$4$object(signed int, struct x509_store_ctx_st *);
+signed int return_value_SSL_CTX_get_verify_callback_4_object(signed int, struct x509_store_ctx_st *);
 // _evhtp_ssl_thread_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2225
 static void _evhtp_ssl_thread_lock(signed int mode, signed int type, const char *file, signed int line);
@@ -1115,7 +1115,7 @@ extern signed int atoi(const char *);
 extern signed long long int atoll(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$10, unsigned int);
+extern signed int bind(signed int, union anonymous_10, unsigned int);
 // bufferevent_disable
 // file /usr/include/event2/bufferevent.h line 418
 signed int bufferevent_disable(struct bufferevent *, signed short int);
@@ -1272,9 +1272,9 @@ void evhtp_callback_free(struct evhtp_callback_s *callback);
 // evhtp_callback_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3325
 struct evhtp_callback_s * evhtp_callback_new(const char *path, enum evhtp_callback_type type, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_callback_new::cb$object
+// evhtp_callback_new::cb_object
 //
-void cb$object(struct evhtp_request_s *, void *);
+void cb_object(struct evhtp_request_s *, void *);
 // evhtp_callbacks_add_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3395
 signed int evhtp_callbacks_add_callback(struct evhtp_callbacks_s *cbs, struct evhtp_callback_s *cb);
@@ -1356,9 +1356,9 @@ struct evhtp_kv_s * evhtp_kvs_find_kv(struct evhtp_kvs_s *kvs, const char *key);
 // evhtp_kvs_for_each
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 1062
 signed int evhtp_kvs_for_each(struct evhtp_kvs_s *kvs, signed int (*cb)(struct evhtp_kv_s *, void *), void *arg);
-// evhtp_kvs_for_each::cb$object
+// evhtp_kvs_for_each::cb_object
 //
-signed int cb$object(struct evhtp_kv_s *, void *);
+signed int cb_object(struct evhtp_kv_s *, void *);
 // evhtp_kvs_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2546
 void evhtp_kvs_free(struct evhtp_kvs_s *kvs);
@@ -1404,9 +1404,9 @@ enum evhtp_proto evhtp_request_get_proto(struct evhtp_request_s *request);
 // evhtp_request_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4333
 struct evhtp_request_s * evhtp_request_new(void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_request_new::cb$object
+// evhtp_request_new::cb_object
 //
-void cb$object(struct evhtp_request_s *, void *);
+void cb_object(struct evhtp_request_s *, void *);
 // evhtp_request_pause
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2388
 void evhtp_request_pause(struct evhtp_request_s *request);
@@ -1458,27 +1458,27 @@ void evhtp_set_bev_flags(struct evhtp_s *htp, signed int flags);
 // evhtp_set_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 669
 struct evhtp_callback_s * evhtp_set_cb(struct evhtp_s *htp, const char *path, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_cb::cb$object
+// evhtp_set_cb::cb_object
 //
-void cb$object(struct evhtp_request_s *, void *);
+void cb_object(struct evhtp_request_s *, void *);
 // evhtp_set_gencb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 633
 void evhtp_set_gencb(struct evhtp_s *htp, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_gencb::cb$object
+// evhtp_set_gencb::cb_object
 //
-void cb$object(struct evhtp_request_s *, void *);
+void cb_object(struct evhtp_request_s *, void *);
 // evhtp_set_glob_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 702
 struct evhtp_callback_s * evhtp_set_glob_cb(struct evhtp_s *htp, const char *pattern, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_glob_cb::cb$object
+// evhtp_set_glob_cb::cb_object
 //
-void cb$object(struct evhtp_request_s *, void *);
+void cb_object(struct evhtp_request_s *, void *);
 // evhtp_set_hook
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 772
 signed int evhtp_set_hook(struct evhtp_hooks_s **hooks, enum evhtp_hook_type type, unsigned short int (*cb)(), void *arg);
-// evhtp_set_hook::cb$object
+// evhtp_set_hook::cb_object
 //
-unsigned short int cb$object();
+unsigned short int cb_object();
 // evhtp_set_max_body_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4067
 void evhtp_set_max_body_size(struct evhtp_s *htp, unsigned long int len);
@@ -1491,21 +1491,21 @@ void evhtp_set_parser_flags(struct evhtp_s *htp, signed int flags);
 // evhtp_set_post_accept_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 657
 void evhtp_set_post_accept_cb(struct evhtp_s *htp, unsigned short int (*cb)(struct evhtp_connection_s *, void *), void *arg);
-// evhtp_set_post_accept_cb::cb$object
+// evhtp_set_post_accept_cb::cb_object
 //
-unsigned short int cb$object(struct evhtp_connection_s *, void *);
+unsigned short int cb_object(struct evhtp_connection_s *, void *);
 // evhtp_set_pre_accept_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 645
 void evhtp_set_pre_accept_cb(struct evhtp_s *htp, unsigned short int (*cb)(struct evhtp_connection_s *, void *), void *arg);
-// evhtp_set_pre_accept_cb::cb$object
+// evhtp_set_pre_accept_cb::cb_object
 //
-unsigned short int cb$object(struct evhtp_connection_s *, void *);
+unsigned short int cb_object(struct evhtp_connection_s *, void *);
 // evhtp_set_regex_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 684
 struct evhtp_callback_s * evhtp_set_regex_cb(struct evhtp_s *htp, const char *pattern, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_regex_cb::cb$object
+// evhtp_set_regex_cb::cb_object
 //
-void cb$object(struct evhtp_request_s *, void *);
+void cb_object(struct evhtp_request_s *, void *);
 // evhtp_set_timeouts
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4040
 void evhtp_set_timeouts(struct evhtp_s *htp, struct timeval *r_timeo, struct timeval *w_timeo);
@@ -1533,15 +1533,15 @@ signed int evhtp_use_callback_locks(struct evhtp_s *htp);
 // evhtp_use_threads
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 848
 signed int evhtp_use_threads(struct evhtp_s *htp, void (*init_cb)(struct evhtp_s *, struct evthr *, void *), signed int nthreads, void *arg);
-// evhtp_use_threads::init_cb$object
+// evhtp_use_threads::init_cb_object
 //
-void init_cb$object(struct evhtp_s *, struct evthr *, void *);
+void init_cb_object(struct evhtp_s *, struct evthr *, void *);
 // evthr_defer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 138
 enum evthr_res evthr_defer(struct evthr *thread, void (*cb)(struct evthr *, void *, void *), void *arg);
-// evthr_defer::cb$object
+// evthr_defer::cb_object
 //
-void cb$object(struct evthr *, void *, void *);
+void cb_object(struct evthr *, void *, void *);
 // evthr_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 227
 void evthr_free(struct evthr *thread);
@@ -1554,24 +1554,24 @@ struct event_base * evthr_get_base(struct evthr *thr);
 // evthr_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 184
 struct evthr * evthr_new(void (*init_cb)(struct evthr *, void *), void *args);
-// evthr_new::init_cb$object
+// evthr_new::init_cb_object
 //
-void init_cb$object(struct evthr *, void *);
+void init_cb_object(struct evthr *, void *);
 // evthr_pool_defer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 48
 enum evthr_res evthr_pool_defer(struct evthr_pool *pool, void (*cb)(struct evthr *, void *, void *), void *arg);
-// evthr_pool_defer::cb$object
+// evthr_pool_defer::cb_object
 //
-void cb$object(struct evthr *, void *, void *);
+void cb_object(struct evthr *, void *, void *);
 // evthr_pool_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 49
 void evthr_pool_free(struct evthr_pool *pool);
 // evthr_pool_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 45
 struct evthr_pool * evthr_pool_new(signed int nthreads, void (*init_cb)(struct evthr *, void *), void *shared);
-// evthr_pool_new::init_cb$object
+// evthr_pool_new::init_cb_object
 //
-void init_cb$object(struct evthr *, void *);
+void init_cb_object(struct evthr *, void *);
 // evthr_pool_start
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 46
 signed int evthr_pool_start(struct evthr_pool *pool);
@@ -1823,13 +1823,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$8 *, const union anonymous$9 *);
+extern signed int pthread_mutex_init(union anonymous_8 *, const union anonymous_9 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$8 *);
+extern signed int pthread_mutex_lock(union anonymous_8 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$8 *);
+extern signed int pthread_mutex_unlock(union anonymous_8 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1841,13 +1841,13 @@ extern signed int rand(void);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // regcomp
 // file /usr/include/onigposix.h line 154
-extern signed int regcomp(struct anonymous$5 *, const char *, signed int);
+extern signed int regcomp(struct anonymous_5 *, const char *, signed int);
 // regexec
 // file /usr/include/onigposix.h line 155
-extern signed int regexec(struct anonymous$5 *, const char *, unsigned long int, struct anonymous$6 *, signed int);
+extern signed int regexec(struct anonymous_5 *, const char *, unsigned long int, struct anonymous_6 *, signed int);
 // regfree
 // file /usr/include/onigposix.h line 156
-extern void regfree(struct anonymous$5 *);
+extern void regfree(struct anonymous_5 *);
 // resume_request_timer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/test.c line 37
 static void resume_request_timer(signed int sock, signed short int which, void *arg);
@@ -1963,7 +1963,7 @@ extern signed long int time(signed long int *);
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
 
-struct anonymous$7
+struct anonymous_7
 {
   // tqe_next
   struct evhtp_alias_s *tqe_next;
@@ -1971,7 +1971,7 @@ struct anonymous$7
   struct evhtp_alias_s **tqe_prev;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // tqh_first
   struct evhtp_alias_s *tqh_first;
@@ -1979,7 +1979,7 @@ struct anonymous$18
   struct evhtp_alias_s **tqh_last;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // tqe_next
   struct evhtp_callback_s *tqe_next;
@@ -1987,7 +1987,7 @@ struct anonymous$4
   struct evhtp_callback_s **tqe_prev;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // tqe_next
   struct evhtp_kv_s *tqe_next;
@@ -1995,7 +1995,7 @@ struct anonymous$21
   struct evhtp_kv_s **tqe_prev;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // tqe_next
   struct evhtp_request_s *tqe_next;
@@ -2003,7 +2003,7 @@ struct anonymous$17
   struct evhtp_request_s **tqe_prev;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // tqe_next
   struct evhtp_s *tqe_next;
@@ -2011,7 +2011,7 @@ struct anonymous$20
   struct evhtp_s **tqe_prev;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // tqh_first
   struct evhtp_s *tqh_first;
@@ -2019,7 +2019,7 @@ struct anonymous$19
   struct evhtp_s **tqh_last;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // tqe_next
   struct evthr *tqe_next;
@@ -2027,7 +2027,7 @@ struct anonymous$16
   struct evthr **tqe_prev;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // onig
   void *onig;
@@ -2037,7 +2037,7 @@ struct anonymous$5
   signed int comp_options;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -2091,7 +2091,7 @@ struct anonymous$13
   signed int cert_request;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // rm_so
   signed int rm_so;
@@ -2099,7 +2099,7 @@ struct anonymous$6
   signed int rm_eo;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // sess_connect
   signed int sess_connect;
@@ -2125,7 +2125,7 @@ struct anonymous$15
   signed int sess_cb_hit;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -2151,17 +2151,17 @@ struct anonymous$12
   unsigned int rlen;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // path
   char *path;
   // glob
   char *glob;
   // regex
-  struct anonymous$5 *regex;
+  struct anonymous_5 *regex;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // ptr
   char *ptr;
@@ -2175,7 +2175,7 @@ union anonymous$1
   struct ec_key_st *ec;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // ptr
   char *ptr;
@@ -2229,7 +2229,7 @@ union anonymous
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2239,7 +2239,7 @@ union anonymous$2
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __size
   char __size[4l];
@@ -2275,7 +2275,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2285,7 +2285,7 @@ union anonymous$8
   signed long int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2315,7 +2315,7 @@ union anonymous$3
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2584,7 +2584,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$0 value;
+  union anonymous_0 value;
 };
 
 struct bignum_st
@@ -3052,7 +3052,7 @@ struct evhtp_alias_s
   // alias
   char *alias;
   // next
-  struct anonymous$7 next;
+  struct anonymous_7 next;
 };
 
 struct evhtp_authority_s
@@ -3080,9 +3080,9 @@ struct evhtp_callback_s
   // hooks
   struct evhtp_hooks_s *hooks;
   // val
-  union anonymous$11 val;
+  union anonymous_11 val;
   // next
-  struct anonymous$4 next;
+  struct anonymous_4 next;
 };
 
 struct evhtp_callbacks_s
@@ -3244,7 +3244,7 @@ struct evhtp_kv_s
   // v_heaped
   char v_heaped;
   // next
-  struct anonymous$21 next;
+  struct anonymous_21 next;
 };
 
 struct evhtp_kvs_s
@@ -3312,7 +3312,7 @@ struct evhtp_request_s
   // cbarg
   void *cbarg;
   // next
-  struct anonymous$17 next;
+  struct anonymous_17 next;
 };
 
 struct evhtp_s
@@ -3352,7 +3352,7 @@ struct evhtp_s
   // thr_pool
   struct evthr_pool *thr_pool;
   // lock
-  union anonymous$8 *lock;
+  union anonymous_8 *lock;
   // thread_init_cb
   void (*thread_init_cb)(struct evhtp_s *, struct evthr *, void *);
   // thread_init_cbarg
@@ -3366,11 +3366,11 @@ struct evhtp_s
   // send_timeo
   struct timeval send_timeo;
   // aliases
-  struct anonymous$18 aliases;
+  struct anonymous_18 aliases;
   // vhosts
-  struct anonymous$19 vhosts;
+  struct anonymous_19 vhosts;
   // next_vhost
-  struct anonymous$20 next_vhost;
+  struct anonymous_20 next_vhost;
 };
 
 struct evhtp_ssl_cfg_s
@@ -3514,7 +3514,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$1 pkey;
+  union anonymous_1 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -3534,7 +3534,7 @@ struct evthr
   // evbase
   struct event_base *evbase;
   // lock
-  union anonymous$8 lock;
+  union anonymous_8 lock;
   // thr
   unsigned long int *thr;
   // init_cb
@@ -3544,7 +3544,7 @@ struct evthr
   // aux
   void *aux;
   // next
-  struct anonymous$16 next;
+  struct anonymous_16 next;
 };
 
 struct evthr_cmd
@@ -3684,7 +3684,7 @@ struct htparser
 struct in6_addr
 {
   // __in6_u
-  union anonymous$2 __in6_u;
+  union anonymous_2 __in6_u;
 };
 
 struct in_addr
@@ -3950,7 +3950,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$12 tmp;
+  struct anonymous_12 tmp;
 };
 
 struct ssl3_buffer_st
@@ -4070,7 +4070,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$13 tmp;
+  struct anonymous_13 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -4158,7 +4158,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$15 stats;
+  struct anonymous_15 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -4997,7 +4997,7 @@ char *ssl_ca = (char *)(void *)0;
 char *ssl_capath = (char *)(void *)0;
 // ssl_locks
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 271
-static union anonymous$8 *ssl_locks;
+static union anonymous_8 *ssl_locks;
 // ssl_locks_initialized
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 272
 static signed int ssl_locks_initialized = 0;
@@ -5035,9 +5035,9 @@ static void _evhtp_accept_cb(struct evconnlistener *serv, signed int fd, struct 
 
   __CPROVER_DUMP_L1:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)sl);
-    connection->saddr = (struct sockaddr *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)sl);
+    connection->saddr = (struct sockaddr *)return_value_malloc_1;
     do
       if(connection->saddr == ((struct sockaddr *)NULL))
       {
@@ -5050,9 +5050,9 @@ static void _evhtp_accept_cb(struct evconnlistener *serv, signed int fd, struct 
     memcpy((void *)connection->saddr, (const void *)s, (unsigned long int)sl);
     if(!(htp->thr_pool == ((struct evthr_pool *)NULL)))
     {
-      enum evthr_res return_value_evthr_pool_defer$2;
-      return_value_evthr_pool_defer$2=evthr_pool_defer(htp->thr_pool, _evhtp_run_in_thread, (void *)connection);
-      if(!((signed int)return_value_evthr_pool_defer$2 == EVTHR_RES_OK))
+      enum evthr_res return_value_evthr_pool_defer_2;
+      return_value_evthr_pool_defer_2=evthr_pool_defer(htp->thr_pool, _evhtp_run_in_thread, (void *)connection);
+      if(!((signed int)return_value_evthr_pool_defer_2 == EVTHR_RES_OK))
       {
         evutil_closesocket(connection->sock);
         evhtp_connection_free(connection);
@@ -5063,16 +5063,16 @@ static void _evhtp_accept_cb(struct evconnlistener *serv, signed int fd, struct 
     }
 
     connection->evbase = htp->evbase;
-    signed int return_value__evhtp_connection_accept$3;
-    return_value__evhtp_connection_accept$3=_evhtp_connection_accept(htp->evbase, connection);
-    if(!(return_value__evhtp_connection_accept$3 >= 0))
+    signed int return_value__evhtp_connection_accept_3;
+    return_value__evhtp_connection_accept_3=_evhtp_connection_accept(htp->evbase, connection);
+    if(!(return_value__evhtp_connection_accept_3 >= 0))
       evhtp_connection_free(connection);
 
     else
     {
-      signed int return_value__evhtp_run_post_accept$4;
-      return_value__evhtp_run_post_accept$4=_evhtp_run_post_accept(htp, connection);
-      if(!(return_value__evhtp_run_post_accept$4 >= 0))
+      signed int return_value__evhtp_run_post_accept_4;
+      return_value__evhtp_run_post_accept_4=_evhtp_run_post_accept(htp, connection);
+      if(!(return_value__evhtp_run_post_accept_4 >= 0))
         evhtp_connection_free(connection);
 
     }
@@ -5122,9 +5122,9 @@ static void _evhtp_authority_free(struct evhtp_authority_s *authority)
 static struct evhtp_authority_s * _evhtp_authority_new(void)
 {
   struct evhtp_authority_s *authority;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct evhtp_authority_s) /*32ul*/ );
-  authority = (struct evhtp_authority_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct evhtp_authority_s) /*32ul*/ );
+  authority = (struct evhtp_authority_s *)return_value_calloc_1;
   if(authority == ((struct evhtp_authority_s *)NULL))
     return (struct evhtp_authority_s *)(void *)0;
 
@@ -5136,7 +5136,7 @@ static struct evhtp_authority_s * _evhtp_authority_new(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 444
 static inline unsigned short int _evhtp_body_hook(struct evhtp_request_s *request, struct evbuffer *buf)
 {
-  struct evhtp_connection_s *return_value_evhtp_request_get_connection$1;
+  struct evhtp_connection_s *return_value_evhtp_request_get_connection_1;
   do
   {
     if(!(request->hooks == ((struct evhtp_hooks_s *)NULL)))
@@ -5150,12 +5150,12 @@ static inline unsigned short int _evhtp_body_hook(struct evhtp_request_s *reques
 
     }
 
-    struct evhtp_connection_s *return_value_evhtp_request_get_connection$2;
-    return_value_evhtp_request_get_connection$2=evhtp_request_get_connection(request);
-    if(!(return_value_evhtp_request_get_connection$2->hooks == ((struct evhtp_hooks_s *)NULL)))
+    struct evhtp_connection_s *return_value_evhtp_request_get_connection_2;
+    return_value_evhtp_request_get_connection_2=evhtp_request_get_connection(request);
+    if(!(return_value_evhtp_request_get_connection_2->hooks == ((struct evhtp_hooks_s *)NULL)))
     {
-      return_value_evhtp_request_get_connection$1=evhtp_request_get_connection(request);
-      if(!(return_value_evhtp_request_get_connection$1->hooks->on_read == ((unsigned short int (*)(struct evhtp_request_s *, struct evbuffer *, void *))NULL)))
+      return_value_evhtp_request_get_connection_1=evhtp_request_get_connection(request);
+      if(!(return_value_evhtp_request_get_connection_1->hooks->on_read == ((unsigned short int (*)(struct evhtp_request_s *, struct evbuffer *, void *))NULL)))
       {
         unsigned short int return_value_1;
         return_value_1=request->conn->hooks->on_read(request, buf, request->conn->hooks->on_read_arg);
@@ -5173,10 +5173,10 @@ static inline unsigned short int _evhtp_body_hook(struct evhtp_request_s *reques
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 643
 static struct evhtp_callback_s * _evhtp_callback_find(struct evhtp_callbacks_s *cbs, const char *path, unsigned int *start_offset, unsigned int *end_offset)
 {
-  struct anonymous$6 pmatch[28l];
+  struct anonymous_6 pmatch[28l];
   struct evhtp_callback_s *callback;
-  signed int return_value_strcmp$2;
-  signed int return_value_regexec$3;
+  signed int return_value_strcmp_2;
+  signed int return_value_regexec_3;
   if(cbs == ((struct evhtp_callbacks_s *)NULL))
     return (struct evhtp_callback_s *)(void *)0;
 
@@ -5188,13 +5188,13 @@ static struct evhtp_callback_s * _evhtp_callback_find(struct evhtp_callbacks_s *
       {
         case evhtp_callback_type_hash:
         {
-          return_value_strcmp$2=strcmp(callback->val.path, path);
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp(callback->val.path, path);
+          if(return_value_strcmp_2 == 0)
           {
             *start_offset = (unsigned int)0;
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(path);
-            *end_offset = (unsigned int)return_value_strlen$1;
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(path);
+            *end_offset = (unsigned int)return_value_strlen_1;
             return callback;
           }
 
@@ -5202,8 +5202,8 @@ static struct evhtp_callback_s * _evhtp_callback_find(struct evhtp_callbacks_s *
         }
         case evhtp_callback_type_regex:
         {
-          return_value_regexec$3=regexec(callback->val.regex, path, callback->val.regex->re_nsub + (unsigned long int)1, pmatch, 0);
-          if(return_value_regexec$3 == 0)
+          return_value_regexec_3=regexec(callback->val.regex, path, callback->val.regex->re_nsub + (unsigned long int)1, pmatch, 0);
+          if(return_value_regexec_3 == 0)
           {
             *start_offset = (unsigned int)pmatch[(signed long int)callback->val.regex->re_nsub].rm_so;
             *end_offset = (unsigned int)pmatch[(signed long int)callback->val.regex->re_nsub].rm_eo;
@@ -5218,9 +5218,9 @@ static struct evhtp_callback_s * _evhtp_callback_find(struct evhtp_callbacks_s *
           path_len=strlen(path);
           unsigned long int glob_len;
           glob_len=strlen(callback->val.glob);
-          signed int return_value__evhtp_glob_match$4;
-          return_value__evhtp_glob_match$4=_evhtp_glob_match(callback->val.glob, glob_len, path, path_len);
-          if(return_value__evhtp_glob_match$4 == 1)
+          signed int return_value__evhtp_glob_match_4;
+          return_value__evhtp_glob_match_4=_evhtp_glob_match(callback->val.glob, glob_len, path, path_len);
+          if(return_value__evhtp_glob_match_4 == 1)
           {
             *start_offset = (unsigned int)0;
             *end_offset = (unsigned int)path_len;
@@ -5272,7 +5272,7 @@ static inline unsigned short int _evhtp_chunk_fini_hook(struct evhtp_request_s *
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 466
 static inline unsigned short int _evhtp_chunk_new_hook(struct evhtp_request_s *request, unsigned long int len)
 {
-  struct evhtp_connection_s *return_value_evhtp_request_get_connection$1;
+  struct evhtp_connection_s *return_value_evhtp_request_get_connection_1;
   do
   {
     if(!(request->hooks == ((struct evhtp_hooks_s *)NULL)))
@@ -5286,12 +5286,12 @@ static inline unsigned short int _evhtp_chunk_new_hook(struct evhtp_request_s *r
 
     }
 
-    struct evhtp_connection_s *return_value_evhtp_request_get_connection$2;
-    return_value_evhtp_request_get_connection$2=evhtp_request_get_connection(request);
-    if(!(return_value_evhtp_request_get_connection$2->hooks == ((struct evhtp_hooks_s *)NULL)))
+    struct evhtp_connection_s *return_value_evhtp_request_get_connection_2;
+    return_value_evhtp_request_get_connection_2=evhtp_request_get_connection(request);
+    if(!(return_value_evhtp_request_get_connection_2->hooks == ((struct evhtp_hooks_s *)NULL)))
     {
-      return_value_evhtp_request_get_connection$1=evhtp_request_get_connection(request);
-      if(!(return_value_evhtp_request_get_connection$1->hooks->on_new_chunk == ((unsigned short int (*)(struct evhtp_request_s *, unsigned long int, void *))NULL)))
+      return_value_evhtp_request_get_connection_1=evhtp_request_get_connection(request);
+      if(!(return_value_evhtp_request_get_connection_1->hooks->on_new_chunk == ((unsigned short int (*)(struct evhtp_request_s *, unsigned long int, void *))NULL)))
       {
         unsigned short int return_value_1;
         return_value_1=request->conn->hooks->on_new_chunk(request, len, request->conn->hooks->on_new_chunk_arg);
@@ -5344,13 +5344,13 @@ static signed int _evhtp_connection_accept(struct event_base *evbase, struct evh
 {
   struct timeval *c_recv_timeo;
   struct timeval *c_send_timeo;
-  signed int return_value__evhtp_run_pre_accept$1;
-  return_value__evhtp_run_pre_accept$1=_evhtp_run_pre_accept(connection->htp, connection);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  if(!(return_value__evhtp_run_pre_accept$1 >= 0))
+  signed int return_value__evhtp_run_pre_accept_1;
+  return_value__evhtp_run_pre_accept_1=_evhtp_run_pre_accept(connection->htp, connection);
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  if(!(return_value__evhtp_run_pre_accept_1 >= 0))
   {
     evutil_closesocket(connection->sock);
     return -1;
@@ -5374,42 +5374,42 @@ static signed int _evhtp_connection_accept(struct event_base *evbase, struct evh
   end:
     ;
     if(!(connection->recv_timeo.tv_sec == 0l))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = connection->recv_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = connection->recv_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       c_recv_timeo = &connection->recv_timeo;
 
     else
     {
       if(!(connection->htp->recv_timeo.tv_sec == 0l))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = connection->htp->recv_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = connection->htp->recv_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         c_recv_timeo = &connection->htp->recv_timeo;
 
       else
         c_recv_timeo = (struct timeval *)(void *)0;
     }
     if(!(connection->send_timeo.tv_sec == 0l))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = connection->send_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = connection->send_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       c_send_timeo = &connection->send_timeo;
 
     else
     {
       if(!(connection->htp->send_timeo.tv_sec == 0l))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = connection->htp->send_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = connection->htp->send_timeo.tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         c_send_timeo = &connection->htp->send_timeo;
 
       else
@@ -5503,14 +5503,14 @@ static void _evhtp_connection_eventcb(struct bufferevent *bev, signed short int 
 
     if((signed int)events == 17)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 11)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 11)
       {
         bufferevent_enable(bev, (signed short int)0x02);
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
         goto __CPROVER_DUMP_L9;
       }
 
@@ -5569,9 +5569,9 @@ static struct evhtp_connection_s * _evhtp_connection_new(struct evhtp_s *htp, si
     default:
       return (struct evhtp_connection_s *)(void *)0;
   }
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct evhtp_connection_s) /*160ul*/ , (unsigned long int)1);
-  connection = (struct evhtp_connection_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct evhtp_connection_s) /*160ul*/ , (unsigned long int)1);
+  connection = (struct evhtp_connection_s *)return_value_calloc_1;
   do
     if(connection == ((struct evhtp_connection_s *)NULL))
     {
@@ -5624,14 +5624,14 @@ static void _evhtp_connection_readcb(struct bufferevent *bev, void *arg)
 
 __CPROVER_DUMP_L1:
   ;
-  struct evbuffer *return_value_bufferevent_get_input$1;
-  return_value_bufferevent_get_input$1=bufferevent_get_input(bev);
-  avail=evbuffer_get_length(return_value_bufferevent_get_input$1);
+  struct evbuffer *return_value_bufferevent_get_input_1;
+  return_value_bufferevent_get_input_1=bufferevent_get_input(bev);
+  avail=evbuffer_get_length(return_value_bufferevent_get_input_1);
 
 __CPROVER_DUMP_L2:
   ;
-  _Bool tmp_if_expr$7;
-  enum htpparse_error return_value_htparser_get_error$6;
+  _Bool tmp_if_expr_7;
+  enum htpparse_error return_value_htparser_get_error_6;
   if(!(avail == 0ul))
   {
     if(!(c->request == ((struct evhtp_request_s *)NULL)))
@@ -5639,11 +5639,11 @@ __CPROVER_DUMP_L2:
 
     if(!((signed int)c->paused == 1))
     {
-      struct evbuffer *return_value_bufferevent_get_input$2;
-      return_value_bufferevent_get_input$2=bufferevent_get_input(bev);
-      unsigned char *return_value_evbuffer_pullup$3;
-      return_value_evbuffer_pullup$3=evbuffer_pullup(return_value_bufferevent_get_input$2, (signed long int)avail);
-      buf = (void *)return_value_evbuffer_pullup$3;
+      struct evbuffer *return_value_bufferevent_get_input_2;
+      return_value_bufferevent_get_input_2=bufferevent_get_input(bev);
+      unsigned char *return_value_evbuffer_pullup_3;
+      return_value_evbuffer_pullup_3=evbuffer_pullup(return_value_bufferevent_get_input_2, (signed long int)avail);
+      buf = (void *)return_value_evbuffer_pullup_3;
 
     __CPROVER_DUMP_L6:
       ;
@@ -5653,9 +5653,9 @@ __CPROVER_DUMP_L2:
       ;
       if(!((signed int)c->owner == 1))
       {
-        struct evbuffer *return_value_bufferevent_get_input$4;
-        return_value_bufferevent_get_input$4=bufferevent_get_input(bev);
-        evbuffer_drain(return_value_bufferevent_get_input$4, nread);
+        struct evbuffer *return_value_bufferevent_get_input_4;
+        return_value_bufferevent_get_input_4=bufferevent_get_input(bev);
+        evbuffer_drain(return_value_bufferevent_get_input_4, nread);
         evhtp_connection_free(c);
         goto __CPROVER_DUMP_L16;
       }
@@ -5674,21 +5674,21 @@ __CPROVER_DUMP_L2:
 
       __CPROVER_DUMP_L10:
         ;
-        struct evbuffer *return_value_bufferevent_get_input$5;
-        return_value_bufferevent_get_input$5=bufferevent_get_input(bev);
-        evbuffer_drain(return_value_bufferevent_get_input$5, nread);
+        struct evbuffer *return_value_bufferevent_get_input_5;
+        return_value_bufferevent_get_input_5=bufferevent_get_input(bev);
+        evbuffer_drain(return_value_bufferevent_get_input_5, nread);
         if(!(c->request == ((struct evhtp_request_s *)NULL)))
-          tmp_if_expr$7 = (signed int)c->request->status == 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (signed int)c->request->status == 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
           evhtp_request_pause(c->request);
 
         else
         {
-          return_value_htparser_get_error$6=htparser_get_error(c->parser);
-          if(!((signed int)return_value_htparser_get_error$6 == htparse_error_none))
+          return_value_htparser_get_error_6=htparser_get_error(c->parser);
+          if(!((signed int)return_value_htparser_get_error_6 == htparse_error_none))
             evhtp_connection_free(c);
 
           else
@@ -5720,11 +5720,11 @@ static void _evhtp_connection_resumecb(signed int fd, signed short int events, v
 
   else
   {
-    struct evbuffer *return_value_bufferevent_get_output$1;
-    return_value_bufferevent_get_output$1=bufferevent_get_output(c->bev);
-    unsigned long int return_value_evbuffer_get_length$2;
-    return_value_evbuffer_get_length$2=evbuffer_get_length(return_value_bufferevent_get_output$1);
-    if(!(return_value_evbuffer_get_length$2 == 0ul))
+    struct evbuffer *return_value_bufferevent_get_output_1;
+    return_value_bufferevent_get_output_1=bufferevent_get_output(c->bev);
+    unsigned long int return_value_evbuffer_get_length_2;
+    return_value_evbuffer_get_length_2=evbuffer_get_length(return_value_bufferevent_get_output_1);
+    if(!(return_value_evbuffer_get_length_2 == 0ul))
     {
       bufferevent_enable(c->bev, (signed short int)0x04);
       c->waiting = (unsigned char)1;
@@ -5764,9 +5764,9 @@ static void _evhtp_connection_writecb(struct bufferevent *bev, void *arg)
 
 __CPROVER_DUMP_L1:
   ;
-  _Bool tmp_if_expr$5;
-  struct evbuffer *return_value_bufferevent_get_output$3;
-  unsigned long int return_value_evbuffer_get_length$4;
+  _Bool tmp_if_expr_5;
+  struct evbuffer *return_value_bufferevent_get_output_3;
+  unsigned long int return_value_evbuffer_get_length_4;
   if(!(c->request == ((struct evhtp_request_s *)NULL)))
   {
     _evhtp_connection_write_hook(c);
@@ -5776,26 +5776,26 @@ __CPROVER_DUMP_L1:
       {
         c->waiting = (unsigned char)0;
         bufferevent_enable(bev, (signed short int)0x02);
-        struct evbuffer *return_value_bufferevent_get_input$1;
-        return_value_bufferevent_get_input$1=bufferevent_get_input(bev);
-        unsigned long int return_value_evbuffer_get_length$2;
-        return_value_evbuffer_get_length$2=evbuffer_get_length(return_value_bufferevent_get_input$1);
-        if(!(return_value_evbuffer_get_length$2 == 0ul))
+        struct evbuffer *return_value_bufferevent_get_input_1;
+        return_value_bufferevent_get_input_1=bufferevent_get_input(bev);
+        unsigned long int return_value_evbuffer_get_length_2;
+        return_value_evbuffer_get_length_2=evbuffer_get_length(return_value_bufferevent_get_input_1);
+        if(!(return_value_evbuffer_get_length_2 == 0ul))
           _evhtp_connection_readcb(bev, arg);
 
         goto __CPROVER_DUMP_L13;
       }
 
       if((signed int)c->request->finished == 0)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_bufferevent_get_output$3=bufferevent_get_output(bev);
-        return_value_evbuffer_get_length$4=evbuffer_get_length(return_value_bufferevent_get_output$3);
-        tmp_if_expr$5 = return_value_evbuffer_get_length$4 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_bufferevent_get_output_3=bufferevent_get_output(bev);
+        return_value_evbuffer_get_length_4=evbuffer_get_length(return_value_bufferevent_get_output_3);
+        tmp_if_expr_5 = return_value_evbuffer_get_length_4 != 0ul ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$5)
+      if(!tmp_if_expr_5)
       {
         if(!(c->htp->max_keepalive_requests == 0ul))
         {
@@ -5880,22 +5880,22 @@ static struct evbuffer * _evhtp_create_reply(struct evhtp_request_s *request, un
 
   while((_Bool)0);
   evbuffer_drain(buf, (unsigned long int)-1);
-  unsigned char return_value_htparser_get_multipart$1;
-  return_value_htparser_get_multipart$1=htparser_get_multipart(request->conn->parser);
-  if(!((signed int)return_value_htparser_get_multipart$1 == 1))
+  unsigned char return_value_htparser_get_multipart_1;
+  return_value_htparser_get_multipart_1=htparser_get_multipart(request->conn->parser);
+  if(!((signed int)return_value_htparser_get_multipart_1 == 1))
   {
     if(!(out_len == 0ul))
     {
       if((signed int)request->chunked == 0)
       {
-        const char *return_value_evhtp_kv_find$3;
-        return_value_evhtp_kv_find$3=evhtp_kv_find(request->headers_out, "Content-Length");
-        if(return_value_evhtp_kv_find$3 == ((const char *)NULL))
+        const char *return_value_evhtp_kv_find_3;
+        return_value_evhtp_kv_find_3=evhtp_kv_find(request->headers_out, "Content-Length");
+        if(return_value_evhtp_kv_find_3 == ((const char *)NULL))
         {
           evhtp_modp_sizetoa(out_len, out_buf);
-          struct evhtp_kv_s *return_value_evhtp_kv_new$2;
-          return_value_evhtp_kv_new$2=evhtp_kv_new("Content-Length", out_buf, (char)0, (char)1);
-          evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new$2);
+          struct evhtp_kv_s *return_value_evhtp_kv_new_2;
+          return_value_evhtp_kv_new_2=evhtp_kv_new("Content-Length", out_buf, (char)0, (char)1);
+          evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new_2);
         }
 
       }
@@ -5913,9 +5913,9 @@ check_proto:
     {
       if((signed int)request->keepalive == 0)
       {
-        struct evhtp_kv_s *return_value_evhtp_kv_new$4;
-        return_value_evhtp_kv_new$4=evhtp_kv_new("Connection", "close", (char)0, (char)0);
-        evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new$4);
+        struct evhtp_kv_s *return_value_evhtp_kv_new_4;
+        return_value_evhtp_kv_new_4=evhtp_kv_new("Connection", "close", (char)0, (char)0);
+        evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new_4);
       }
 
       break;
@@ -5924,9 +5924,9 @@ check_proto:
     {
       if((signed int)request->keepalive == 1)
       {
-        struct evhtp_kv_s *return_value_evhtp_kv_new$5;
-        return_value_evhtp_kv_new$5=evhtp_kv_new("Connection", "keep-alive", (char)0, (char)0);
-        evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new$5);
+        struct evhtp_kv_s *return_value_evhtp_kv_new_5;
+        return_value_evhtp_kv_new_5=evhtp_kv_new("Connection", "keep-alive", (char)0, (char)0);
+        evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new_5);
       }
 
       break;
@@ -5939,35 +5939,35 @@ check_proto:
   }
   if(content_type == ((const char *)NULL))
   {
-    struct evhtp_kv_s *return_value_evhtp_kv_new$6;
-    return_value_evhtp_kv_new$6=evhtp_kv_new("Content-Type", "text/plain", (char)0, (char)0);
-    evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new$6);
+    struct evhtp_kv_s *return_value_evhtp_kv_new_6;
+    return_value_evhtp_kv_new_6=evhtp_kv_new("Content-Type", "text/plain", (char)0, (char)0);
+    evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new_6);
   }
 
-  unsigned char return_value_htparser_get_major$7;
-  return_value_htparser_get_major$7=htparser_get_major(request->conn->parser);
-  major = (unsigned char)(48 + (signed int)return_value_htparser_get_major$7);
-  unsigned char return_value_htparser_get_minor$8;
-  return_value_htparser_get_minor$8=htparser_get_minor(request->conn->parser);
-  minor = (unsigned char)(48 + (signed int)return_value_htparser_get_minor$8);
+  unsigned char return_value_htparser_get_major_7;
+  return_value_htparser_get_major_7=htparser_get_major(request->conn->parser);
+  major = (unsigned char)(48 + (signed int)return_value_htparser_get_major_7);
+  unsigned char return_value_htparser_get_minor_8;
+  return_value_htparser_get_minor_8=htparser_get_minor(request->conn->parser);
+  minor = (unsigned char)(48 + (signed int)return_value_htparser_get_minor_8);
   evhtp_modp_u32toa((unsigned int)code, out_buf);
-  const char *return_value_status_code_to_str$9;
-  return_value_status_code_to_str$9=status_code_to_str(code);
-  sres=snprintf(res_buf, sizeof(char [2048l]) /*2048ul*/ , "HTTP/%c.%c %s %s\r\n", major, minor, (const void *)out_buf, return_value_status_code_to_str$9);
+  const char *return_value_status_code_to_str_9;
+  return_value_status_code_to_str_9=status_code_to_str(code);
+  sres=snprintf(res_buf, sizeof(char [2048l]) /*2048ul*/ , "HTTP/%c.%c %s %s\r\n", major, minor, (const void *)out_buf, return_value_status_code_to_str_9);
   if((unsigned long int)sres >= sizeof(char [2048l]) /*2048ul*/  || !(sres >= 0))
   {
-    const char *return_value_status_code_to_str$10;
-    return_value_status_code_to_str$10=status_code_to_str(code);
-    evbuffer_add_printf(buf, "HTTP/%c.%c %d %s\r\n", major, minor, code, return_value_status_code_to_str$10);
+    const char *return_value_status_code_to_str_10;
+    return_value_status_code_to_str_10=status_code_to_str(code);
+    evbuffer_add_printf(buf, "HTTP/%c.%c %d %s\r\n", major, minor, code, return_value_status_code_to_str_10);
   }
 
   else
     evbuffer_add(buf, (const void *)res_buf, (unsigned long int)sres);
   evhtp_kvs_for_each(request->headers_out, _evhtp_create_headers, (void *)buf);
   evbuffer_add(buf, (const void *)"\r\n", (unsigned long int)2);
-  unsigned long int return_value_evbuffer_get_length$11;
-  return_value_evbuffer_get_length$11=evbuffer_get_length(request->buffer_out);
-  if(!(return_value_evbuffer_get_length$11 == 0ul))
+  unsigned long int return_value_evbuffer_get_length_11;
+  return_value_evbuffer_get_length_11=evbuffer_get_length(request->buffer_out);
+  if(!(return_value_evbuffer_get_length_11 == 0ul))
     evbuffer_add_buffer(buf, request->buffer_out);
 
   return buf;
@@ -5977,9 +5977,9 @@ check_proto:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2066
 static void _evhtp_default_request_cb(struct evhtp_request_s *request, void *arg)
 {
-  struct evhtp_kv_s *return_value_evhtp_kv_new$1;
-  return_value_evhtp_kv_new$1=evhtp_kv_new("Content-Length", "0", (char)0, (char)0);
-  evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new$1);
+  struct evhtp_kv_s *return_value_evhtp_kv_new_1;
+  return_value_evhtp_kv_new_1=evhtp_kv_new("Content-Length", "0", (char)0, (char)0);
+  evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new_1);
   evhtp_send_reply(request, (unsigned short int)404);
 }
 
@@ -6015,9 +6015,9 @@ static inline signed int _evhtp_glob_match(const char *pattern, unsigned long in
     if(str_len == 0ul)
       str_len=strlen(string);
 
-    signed int return_value__evhtp_glob_match2$1;
-    return_value__evhtp_glob_match2$1=_evhtp_glob_match2(pattern, pat_len, string, str_len);
-    return return_value__evhtp_glob_match2$1;
+    signed int return_value__evhtp_glob_match2_1;
+    return_value__evhtp_glob_match2_1=_evhtp_glob_match2(pattern, pat_len, string, str_len);
+    return return_value__evhtp_glob_match2_1;
   }
 }
 
@@ -6036,9 +6036,9 @@ static signed int _evhtp_glob_match2(const char *pattern, unsigned long int plen
 
       while(!(str_len == 0ul))
       {
-        signed int return_value__evhtp_glob_match2$1;
-        return_value__evhtp_glob_match2$1=_evhtp_glob_match2(pattern + (signed long int)1, plen - (unsigned long int)1, string, str_len);
-        if(!(return_value__evhtp_glob_match2$1 == 0))
+        signed int return_value__evhtp_glob_match2_1;
+        return_value__evhtp_glob_match2_1=_evhtp_glob_match2(pattern + (signed long int)1, plen - (unsigned long int)1, string, str_len);
+        if(!(return_value__evhtp_glob_match2_1 == 0))
           return 1;
 
         string = string + 1l;
@@ -6073,7 +6073,7 @@ static signed int _evhtp_glob_match2(const char *pattern, unsigned long int plen
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 411
 static inline unsigned short int _evhtp_header_hook(struct evhtp_request_s *request, struct evhtp_kv_s *header)
 {
-  struct evhtp_connection_s *return_value_evhtp_request_get_connection$1;
+  struct evhtp_connection_s *return_value_evhtp_request_get_connection_1;
   do
   {
     if(!(request->hooks == ((struct evhtp_hooks_s *)NULL)))
@@ -6087,12 +6087,12 @@ static inline unsigned short int _evhtp_header_hook(struct evhtp_request_s *requ
 
     }
 
-    struct evhtp_connection_s *return_value_evhtp_request_get_connection$2;
-    return_value_evhtp_request_get_connection$2=evhtp_request_get_connection(request);
-    if(!(return_value_evhtp_request_get_connection$2->hooks == ((struct evhtp_hooks_s *)NULL)))
+    struct evhtp_connection_s *return_value_evhtp_request_get_connection_2;
+    return_value_evhtp_request_get_connection_2=evhtp_request_get_connection(request);
+    if(!(return_value_evhtp_request_get_connection_2->hooks == ((struct evhtp_hooks_s *)NULL)))
     {
-      return_value_evhtp_request_get_connection$1=evhtp_request_get_connection(request);
-      if(!(return_value_evhtp_request_get_connection$1->hooks->on_header == ((unsigned short int (*)(struct evhtp_request_s *, struct evhtp_kv_s *, void *))NULL)))
+      return_value_evhtp_request_get_connection_1=evhtp_request_get_connection(request);
+      if(!(return_value_evhtp_request_get_connection_1->hooks->on_header == ((unsigned short int (*)(struct evhtp_request_s *, struct evhtp_kv_s *, void *))NULL)))
       {
         unsigned short int return_value_1;
         return_value_1=request->conn->hooks->on_header(request, header, request->conn->hooks->on_header_arg);
@@ -6110,7 +6110,7 @@ static inline unsigned short int _evhtp_header_hook(struct evhtp_request_s *requ
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 427
 static inline unsigned short int _evhtp_headers_hook(struct evhtp_request_s *request, struct evhtp_kvs_s *headers)
 {
-  struct evhtp_connection_s *return_value_evhtp_request_get_connection$1;
+  struct evhtp_connection_s *return_value_evhtp_request_get_connection_1;
   do
   {
     if(!(request->hooks == ((struct evhtp_hooks_s *)NULL)))
@@ -6124,12 +6124,12 @@ static inline unsigned short int _evhtp_headers_hook(struct evhtp_request_s *req
 
     }
 
-    struct evhtp_connection_s *return_value_evhtp_request_get_connection$2;
-    return_value_evhtp_request_get_connection$2=evhtp_request_get_connection(request);
-    if(!(return_value_evhtp_request_get_connection$2->hooks == ((struct evhtp_hooks_s *)NULL)))
+    struct evhtp_connection_s *return_value_evhtp_request_get_connection_2;
+    return_value_evhtp_request_get_connection_2=evhtp_request_get_connection(request);
+    if(!(return_value_evhtp_request_get_connection_2->hooks == ((struct evhtp_hooks_s *)NULL)))
     {
-      return_value_evhtp_request_get_connection$1=evhtp_request_get_connection(request);
-      if(!(return_value_evhtp_request_get_connection$1->hooks->on_headers == ((unsigned short int (*)(struct evhtp_request_s *, struct evhtp_kvs_s *, void *))NULL)))
+      return_value_evhtp_request_get_connection_1=evhtp_request_get_connection(request);
+      if(!(return_value_evhtp_request_get_connection_1->hooks->on_headers == ((unsigned short int (*)(struct evhtp_request_s *, struct evhtp_kvs_s *, void *))NULL)))
       {
         unsigned short int return_value_1;
         return_value_1=request->conn->hooks->on_headers(request, headers, request->conn->hooks->on_headers_arg);
@@ -6180,7 +6180,7 @@ static inline unsigned short int _evhtp_headers_start_hook(struct evhtp_request_
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 543
 static inline unsigned short int _evhtp_hostname_hook(struct evhtp_request_s *r, const char *hostname)
 {
-  struct evhtp_connection_s *return_value_evhtp_request_get_connection$1;
+  struct evhtp_connection_s *return_value_evhtp_request_get_connection_1;
   do
   {
     if(!(r->hooks == ((struct evhtp_hooks_s *)NULL)))
@@ -6194,12 +6194,12 @@ static inline unsigned short int _evhtp_hostname_hook(struct evhtp_request_s *r,
 
     }
 
-    struct evhtp_connection_s *return_value_evhtp_request_get_connection$2;
-    return_value_evhtp_request_get_connection$2=evhtp_request_get_connection(r);
-    if(!(return_value_evhtp_request_get_connection$2->hooks == ((struct evhtp_hooks_s *)NULL)))
+    struct evhtp_connection_s *return_value_evhtp_request_get_connection_2;
+    return_value_evhtp_request_get_connection_2=evhtp_request_get_connection(r);
+    if(!(return_value_evhtp_request_get_connection_2->hooks == ((struct evhtp_hooks_s *)NULL)))
     {
-      return_value_evhtp_request_get_connection$1=evhtp_request_get_connection(r);
-      if(!(return_value_evhtp_request_get_connection$1->hooks->on_hostname == ((unsigned short int (*)(struct evhtp_request_s *, const char *, void *))NULL)))
+      return_value_evhtp_request_get_connection_1=evhtp_request_get_connection(r);
+      if(!(return_value_evhtp_request_get_connection_1->hooks->on_hostname == ((unsigned short int (*)(struct evhtp_request_s *, const char *, void *))NULL)))
       {
         unsigned short int return_value_1;
         return_value_1=r->conn->hooks->on_hostname(r, hostname, r->conn->hooks->on_hostname_arg);
@@ -6263,7 +6263,7 @@ static void _evhtp_path_free(struct evhtp_path_s *path)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 394
 static inline unsigned short int _evhtp_path_hook(struct evhtp_request_s *request, struct evhtp_path_s *path)
 {
-  struct evhtp_connection_s *return_value_evhtp_request_get_connection$1;
+  struct evhtp_connection_s *return_value_evhtp_request_get_connection_1;
   do
   {
     if(!(request->hooks == ((struct evhtp_hooks_s *)NULL)))
@@ -6277,12 +6277,12 @@ static inline unsigned short int _evhtp_path_hook(struct evhtp_request_s *reques
 
     }
 
-    struct evhtp_connection_s *return_value_evhtp_request_get_connection$2;
-    return_value_evhtp_request_get_connection$2=evhtp_request_get_connection(request);
-    if(!(return_value_evhtp_request_get_connection$2->hooks == ((struct evhtp_hooks_s *)NULL)))
+    struct evhtp_connection_s *return_value_evhtp_request_get_connection_2;
+    return_value_evhtp_request_get_connection_2=evhtp_request_get_connection(request);
+    if(!(return_value_evhtp_request_get_connection_2->hooks == ((struct evhtp_hooks_s *)NULL)))
     {
-      return_value_evhtp_request_get_connection$1=evhtp_request_get_connection(request);
-      if(!(return_value_evhtp_request_get_connection$1->hooks->on_path == ((unsigned short int (*)(struct evhtp_request_s *, struct evhtp_path_s *, void *))NULL)))
+      return_value_evhtp_request_get_connection_1=evhtp_request_get_connection(request);
+      if(!(return_value_evhtp_request_get_connection_1->hooks->on_path == ((unsigned short int (*)(struct evhtp_request_s *, struct evhtp_path_s *, void *))NULL)))
       {
         unsigned short int return_value_1;
         return_value_1=request->conn->hooks->on_path(request, path, request->conn->hooks->on_path_arg);
@@ -6304,9 +6304,9 @@ static struct evhtp_path_s * _evhtp_path_new(const char *data, unsigned long int
   const char *data_end = (const char *)(data + (signed long int)len);
   char *path = (char *)(void *)0;
   char *file = (char *)(void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct evhtp_path_s) /*48ul*/ , (unsigned long int)1);
-  req_path = (struct evhtp_path_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct evhtp_path_s) /*48ul*/ , (unsigned long int)1);
+  req_path = (struct evhtp_path_s *)return_value_calloc_1;
   do
     if(req_path == ((struct evhtp_path_s *)NULL))
     {
@@ -6520,18 +6520,18 @@ static inline struct evhtp_s * _evhtp_request_find_vhost(struct evhtp_s *evhtp, 
   for( ; !(evhtp_vhost == ((struct evhtp_s *)NULL)); evhtp_vhost = evhtp_vhost->next_vhost.tqe_next)
     if(!(evhtp_vhost->server_name == ((char *)NULL)))
     {
-      signed int return_value__evhtp_glob_match$1;
-      return_value__evhtp_glob_match$1=_evhtp_glob_match(evhtp_vhost->server_name, (unsigned long int)0, name, (unsigned long int)0);
-      if(return_value__evhtp_glob_match$1 == 1)
+      signed int return_value__evhtp_glob_match_1;
+      return_value__evhtp_glob_match_1=_evhtp_glob_match(evhtp_vhost->server_name, (unsigned long int)0, name, (unsigned long int)0);
+      if(return_value__evhtp_glob_match_1 == 1)
         return evhtp_vhost;
 
       evhtp_alias = (&evhtp_vhost->aliases)->tqh_first;
       for( ; !(evhtp_alias == ((struct evhtp_alias_s *)NULL)); evhtp_alias = evhtp_alias->next.tqe_next)
         if(!(evhtp_alias->alias == ((char *)NULL)))
         {
-          signed int return_value__evhtp_glob_match$2;
-          return_value__evhtp_glob_match$2=_evhtp_glob_match(evhtp_alias->alias, (unsigned long int)0, name, (unsigned long int)0);
-          if(return_value__evhtp_glob_match$2 == 1)
+          signed int return_value__evhtp_glob_match_2;
+          return_value__evhtp_glob_match_2=_evhtp_glob_match(evhtp_alias->alias, (unsigned long int)0, name, (unsigned long int)0);
+          if(return_value__evhtp_glob_match_2 == 1)
             return evhtp_vhost;
 
         }
@@ -6609,10 +6609,10 @@ static struct evhtp_request_s * _evhtp_request_new(struct evhtp_connection_s *c)
 {
   struct evhtp_request_s *req;
   unsigned char error;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct evhtp_request_s) /*112ul*/ , (unsigned long int)1);
-  req = (struct evhtp_request_s *)return_value_calloc$1;
-  struct evhtp_s *tmp_if_expr$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct evhtp_request_s) /*112ul*/ , (unsigned long int)1);
+  req = (struct evhtp_request_s *)return_value_calloc_1;
+  struct evhtp_s *tmp_if_expr_2;
   if(req == ((struct evhtp_request_s *)NULL))
     return (struct evhtp_request_s *)(void *)0;
 
@@ -6621,11 +6621,11 @@ static struct evhtp_request_s * _evhtp_request_new(struct evhtp_connection_s *c)
     error = (unsigned char)1;
     req->conn = c;
     if(!(c == ((struct evhtp_connection_s *)NULL)))
-      tmp_if_expr$2 = c->htp;
+      tmp_if_expr_2 = c->htp;
 
     else
-      tmp_if_expr$2 = (struct evhtp_s *)(void *)0;
-    req->htp = tmp_if_expr$2;
+      tmp_if_expr_2 = (struct evhtp_s *)(void *)0;
+    req->htp = tmp_if_expr_2;
     req->status = (unsigned short int)200;
     do
     {
@@ -6637,15 +6637,15 @@ static struct evhtp_request_s * _evhtp_request_new(struct evhtp_connection_s *c)
       if(req->buffer_out == ((struct evbuffer *)NULL))
         break;
 
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct evhtp_kvs_s) /*16ul*/ );
-      req->headers_in = (struct evhtp_kvs_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct evhtp_kvs_s) /*16ul*/ );
+      req->headers_in = (struct evhtp_kvs_s *)return_value_malloc_3;
       if(req->headers_in == ((struct evhtp_kvs_s *)NULL))
         break;
 
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct evhtp_kvs_s) /*16ul*/ );
-      req->headers_out = (struct evhtp_kvs_s *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct evhtp_kvs_s) /*16ul*/ );
+      req->headers_out = (struct evhtp_kvs_s *)return_value_malloc_4;
       if(req->headers_out == ((struct evhtp_kvs_s *)NULL))
         break;
 
@@ -6680,13 +6680,13 @@ static struct evhtp_request_s * _evhtp_request_new(struct evhtp_connection_s *c)
 static signed int _evhtp_request_parser_args(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   struct evhtp_uri_s *uri = c->request->uri;
   const char *fragment;
   signed int ignore_fragment;
-  void *return_value_memchr$3;
+  void *return_value_memchr_3;
   if((signed int)c->type == evhtp_type_client)
     return 0;
 
@@ -6695,8 +6695,8 @@ static signed int _evhtp_request_parser_args(struct htparser *p, const char *dat
     ignore_fragment = c->htp->parser_flags & 1 << 4;
     if(ignore_fragment == 0)
     {
-      return_value_memchr$3=memchr((const void *)data, 35, len);
-      fragment = (const char *)return_value_memchr$3;
+      return_value_memchr_3=memchr((const void *)data, 35, len);
+      fragment = (const char *)return_value_memchr_3;
       if(!(fragment == ((const char *)NULL)))
       {
         signed long int frag_offset = fragment - data;
@@ -6706,9 +6706,9 @@ static signed int _evhtp_request_parser_args(struct htparser *p, const char *dat
           fragment = fragment + (signed long int)1;
           frag_offset = frag_offset + (signed long int)1;
           fraglen = len - (unsigned long int)frag_offset;
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(fraglen + (unsigned long int)1);
-          uri->fragment = (unsigned char *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(fraglen + (unsigned long int)1);
+          uri->fragment = (unsigned char *)return_value_malloc_2;
           do
             if(uri->fragment == ((unsigned char *)NULL))
             {
@@ -6736,9 +6736,9 @@ static signed int _evhtp_request_parser_args(struct htparser *p, const char *dat
 
     else
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(len + (unsigned long int)1);
-      uri->query_raw = (unsigned char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(len + (unsigned long int)1);
+      uri->query_raw = (unsigned char *)return_value_malloc_4;
       do
         if(uri->query_raw == ((unsigned char *)NULL))
         {
@@ -6760,9 +6760,9 @@ static signed int _evhtp_request_parser_args(struct htparser *p, const char *dat
 static signed int _evhtp_request_parser_body(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   struct evbuffer *buf;
   signed int res = 0;
   if(c->max_body_size >= 1ul)
@@ -6795,9 +6795,9 @@ static signed int _evhtp_request_parser_body(struct htparser *p, const char *dat
     if(!((signed int)c->request->status == 200))
       res = -1;
 
-    unsigned long int return_value_evbuffer_get_length$2;
-    return_value_evbuffer_get_length$2=evbuffer_get_length(buf);
-    if(!(return_value_evbuffer_get_length$2 == 0ul))
+    unsigned long int return_value_evbuffer_get_length_2;
+    return_value_evbuffer_get_length_2=evbuffer_get_length(buf);
+    if(!(return_value_evbuffer_get_length_2 == 0ul))
       evbuffer_add_buffer(c->request->buffer_in, buf);
 
     evbuffer_drain(buf, (unsigned long int)-1);
@@ -6811,9 +6811,9 @@ static signed int _evhtp_request_parser_body(struct htparser *p, const char *dat
 static signed int _evhtp_request_parser_chunk_fini(struct htparser *p)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   c->request->status=_evhtp_chunk_fini_hook(c->request);
   if(!((signed int)c->request->status == 200))
     return -1;
@@ -6827,12 +6827,12 @@ static signed int _evhtp_request_parser_chunk_fini(struct htparser *p)
 static signed int _evhtp_request_parser_chunk_new(struct htparser *p)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
-  unsigned long int return_value_htparser_get_content_length$2;
-  return_value_htparser_get_content_length$2=htparser_get_content_length(p);
-  c->request->status=_evhtp_chunk_new_hook(c->request, return_value_htparser_get_content_length$2);
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
+  unsigned long int return_value_htparser_get_content_length_2;
+  return_value_htparser_get_content_length_2=htparser_get_content_length(p);
+  c->request->status=_evhtp_chunk_new_hook(c->request, return_value_htparser_get_content_length_2);
   if(!((signed int)c->request->status == 200))
     return -1;
 
@@ -6845,9 +6845,9 @@ static signed int _evhtp_request_parser_chunk_new(struct htparser *p)
 static signed int _evhtp_request_parser_chunks_fini(struct htparser *p)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   c->request->status=_evhtp_chunks_fini_hook(c->request);
   if(!((signed int)c->request->status == 200))
     return -1;
@@ -6861,17 +6861,17 @@ static signed int _evhtp_request_parser_chunks_fini(struct htparser *p)
 static signed int _evhtp_request_parser_fini(struct htparser *p)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   if((signed int)c->paused == 1)
     return -1;
 
   else
   {
-    signed int return_value__evhtp_should_parse_query_body$4;
-    return_value__evhtp_should_parse_query_body$4=_evhtp_should_parse_query_body(c->request);
-    if(return_value__evhtp_should_parse_query_body$4 == 1)
+    signed int return_value__evhtp_should_parse_query_body_4;
+    return_value__evhtp_should_parse_query_body_4=_evhtp_should_parse_query_body(c->request);
+    if(return_value__evhtp_should_parse_query_body_4 == 1)
     {
       const char *body;
       unsigned long int body_len;
@@ -6880,12 +6880,12 @@ static signed int _evhtp_request_parser_fini(struct htparser *p)
       uri = c->request->uri;
       buf_in = c->request->buffer_in;
       body_len=evbuffer_get_length(buf_in);
-      unsigned char *return_value_evbuffer_pullup$2;
-      return_value_evbuffer_pullup$2=evbuffer_pullup(buf_in, (signed long int)body_len);
-      body = (const char *)return_value_evbuffer_pullup$2;
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc(body_len + (unsigned long int)1, (unsigned long int)1);
-      uri->query_raw = (unsigned char *)return_value_calloc$3;
+      unsigned char *return_value_evbuffer_pullup_2;
+      return_value_evbuffer_pullup_2=evbuffer_pullup(buf_in, (signed long int)body_len);
+      body = (const char *)return_value_evbuffer_pullup_2;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc(body_len + (unsigned long int)1, (unsigned long int)1);
+      uri->query_raw = (unsigned char *)return_value_calloc_3;
       do
         if(uri->query_raw == ((unsigned char *)NULL))
         {
@@ -6919,14 +6919,14 @@ static signed int _evhtp_request_parser_fini(struct htparser *p)
 static signed int _evhtp_request_parser_header_key(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   char *key_s;
   struct evhtp_kv_s *hdr;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(len + (unsigned long int)1);
-  key_s = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(len + (unsigned long int)1);
+  key_s = (char *)return_value_malloc_2;
   do
     if(key_s == ((char *)NULL))
     {
@@ -6957,14 +6957,14 @@ static signed int _evhtp_request_parser_header_key(struct htparser *p, const cha
 static signed int _evhtp_request_parser_header_val(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   char *val_s;
   struct evhtp_kv_s *header;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(len + (unsigned long int)1);
-  val_s = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(len + (unsigned long int)1);
+  val_s = (char *)return_value_malloc_2;
   do
     if(val_s == ((char *)NULL))
     {
@@ -7006,9 +7006,9 @@ static signed int _evhtp_request_parser_header_val(struct htparser *p, const cha
 static signed int _evhtp_request_parser_headers(struct htparser *p)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   do
     if(c == ((struct evhtp_connection_s *)NULL))
     {
@@ -7018,14 +7018,14 @@ static signed int _evhtp_request_parser_headers(struct htparser *p)
     }
 
   while((_Bool)0);
-  signed int return_value_htparser_should_keep_alive$2;
-  return_value_htparser_should_keep_alive$2=htparser_should_keep_alive(p);
-  c->request->keepalive = (unsigned char)return_value_htparser_should_keep_alive$2;
-  unsigned char return_value_htparser_get_major$3;
-  return_value_htparser_get_major$3=htparser_get_major(p);
-  unsigned char return_value_htparser_get_minor$4;
-  return_value_htparser_get_minor$4=htparser_get_minor(p);
-  c->request->proto=_evhtp_protocol((const char)return_value_htparser_get_major$3, (const char)return_value_htparser_get_minor$4);
+  signed int return_value_htparser_should_keep_alive_2;
+  return_value_htparser_should_keep_alive_2=htparser_should_keep_alive(p);
+  c->request->keepalive = (unsigned char)return_value_htparser_should_keep_alive_2;
+  unsigned char return_value_htparser_get_major_3;
+  return_value_htparser_get_major_3=htparser_get_major(p);
+  unsigned char return_value_htparser_get_minor_4;
+  return_value_htparser_get_minor_4=htparser_get_minor(p);
+  c->request->proto=_evhtp_protocol((const char)return_value_htparser_get_major_3, (const char)return_value_htparser_get_minor_4);
   c->request->status=_evhtp_headers_hook(c->request, c->request->headers_in);
   if(!((signed int)c->request->status == 200))
     return -1;
@@ -7036,18 +7036,18 @@ static signed int _evhtp_request_parser_headers(struct htparser *p)
     {
       if((signed int)c->htp->disable_100_cont == 0)
       {
-        const char *return_value_evhtp_kv_find$5;
-        return_value_evhtp_kv_find$5=evhtp_kv_find(c->request->headers_in, "Expect");
-        if(return_value_evhtp_kv_find$5 == ((const char *)NULL))
+        const char *return_value_evhtp_kv_find_5;
+        return_value_evhtp_kv_find_5=evhtp_kv_find(c->request->headers_in, "Expect");
+        if(return_value_evhtp_kv_find_5 == ((const char *)NULL))
           return 0;
 
-        struct evbuffer *return_value_bufferevent_get_output$6;
-        return_value_bufferevent_get_output$6=bufferevent_get_output(c->bev);
-        unsigned char return_value_htparser_get_major$7;
-        return_value_htparser_get_major$7=htparser_get_major(p);
-        unsigned char return_value_htparser_get_minor$8;
-        return_value_htparser_get_minor$8=htparser_get_minor(p);
-        evbuffer_add_printf(return_value_bufferevent_get_output$6, "HTTP/%c.%c 100 Continue\r\n\r\n", (unsigned char)(48 + (signed int)return_value_htparser_get_major$7), (unsigned char)(48 + (signed int)return_value_htparser_get_minor$8));
+        struct evbuffer *return_value_bufferevent_get_output_6;
+        return_value_bufferevent_get_output_6=bufferevent_get_output(c->bev);
+        unsigned char return_value_htparser_get_major_7;
+        return_value_htparser_get_major_7=htparser_get_major(p);
+        unsigned char return_value_htparser_get_minor_8;
+        return_value_htparser_get_minor_8=htparser_get_minor(p);
+        evbuffer_add_printf(return_value_bufferevent_get_output_6, "HTTP/%c.%c 100 Continue\r\n\r\n", (unsigned char)(48 + (signed int)return_value_htparser_get_major_7), (unsigned char)(48 + (signed int)return_value_htparser_get_minor_8));
       }
 
     }
@@ -7061,9 +7061,9 @@ static signed int _evhtp_request_parser_headers(struct htparser *p)
 static signed int _evhtp_request_parser_headers_start(struct htparser *p)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   c->request->status=_evhtp_headers_start_hook(c->request);
   if(!((signed int)c->request->status == 200))
     return -1;
@@ -7077,21 +7077,21 @@ static signed int _evhtp_request_parser_headers_start(struct htparser *p)
 static signed int _evhtp_request_parser_host(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   struct evhtp_authority_s *authority;
-  signed int return_value__evhtp_require_uri$2;
-  return_value__evhtp_require_uri$2=_evhtp_require_uri(c);
-  if(!(return_value__evhtp_require_uri$2 == 0))
+  signed int return_value__evhtp_require_uri_2;
+  return_value__evhtp_require_uri_2=_evhtp_require_uri(c);
+  if(!(return_value__evhtp_require_uri_2 == 0))
     return -1;
 
   else
   {
     authority = c->request->uri->authority;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(len + (unsigned long int)1);
-    authority->hostname = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(len + (unsigned long int)1);
+    authority->hostname = (char *)return_value_malloc_3;
     if(authority->hostname == ((char *)NULL))
     {
       c->request->status = (unsigned short int)2;
@@ -7112,9 +7112,9 @@ static signed int _evhtp_request_parser_host(struct htparser *p, const char *dat
 static signed int _evhtp_request_parser_hostname(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   struct evhtp_s *evhtp;
   struct evhtp_s *evhtp_vhost;
   if((signed int)c->vhost_via_sni == 1)
@@ -7134,7 +7134,7 @@ static signed int _evhtp_request_parser_hostname(struct htparser *p, const char 
 
   evhtp = c->htp;
   do
-    if(!(evhtp->lock == ((union anonymous$8 *)NULL)))
+    if(!(evhtp->lock == ((union anonymous_8 *)NULL)))
       pthread_mutex_lock(evhtp->lock);
 
   while((_Bool)0);
@@ -7142,7 +7142,7 @@ static signed int _evhtp_request_parser_hostname(struct htparser *p, const char 
   if(!(evhtp_vhost == ((struct evhtp_s *)NULL)))
   {
     do
-      if(!(evhtp_vhost->lock == ((union anonymous$8 *)NULL)))
+      if(!(evhtp_vhost->lock == ((union anonymous_8 *)NULL)))
         pthread_mutex_lock(evhtp_vhost->lock);
 
     while((_Bool)0);
@@ -7150,14 +7150,14 @@ static signed int _evhtp_request_parser_hostname(struct htparser *p, const char 
     c->request->htp = evhtp_vhost;
     _evhtp_request_set_callbacks(c->request);
     do
-      if(!(evhtp_vhost->lock == ((union anonymous$8 *)NULL)))
+      if(!(evhtp_vhost->lock == ((union anonymous_8 *)NULL)))
         pthread_mutex_unlock(evhtp_vhost->lock);
 
     while((_Bool)0);
   }
 
   do
-    if(!(evhtp->lock == ((union anonymous$8 *)NULL)))
+    if(!(evhtp->lock == ((union anonymous_8 *)NULL)))
       pthread_mutex_unlock(evhtp->lock);
 
   while((_Bool)0);
@@ -7174,13 +7174,13 @@ static signed int _evhtp_request_parser_hostname(struct htparser *p, const char 
 static signed int _evhtp_request_parser_path(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   struct evhtp_path_s *path;
-  signed int return_value__evhtp_require_uri$2;
-  return_value__evhtp_require_uri$2=_evhtp_require_uri(c);
-  if(!(return_value__evhtp_require_uri$2 == 0))
+  signed int return_value__evhtp_require_uri_2;
+  return_value__evhtp_require_uri_2=_evhtp_require_uri(c);
+  if(!(return_value__evhtp_require_uri_2 == 0))
     return -1;
 
   else
@@ -7198,13 +7198,13 @@ static signed int _evhtp_request_parser_path(struct htparser *p, const char *dat
       c->request->uri->scheme=htparser_get_scheme(p);
       c->request->method=htparser_get_method(p);
       do
-        if(!(c->htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(c->htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_lock(c->htp->lock);
 
       while((_Bool)0);
       _evhtp_request_set_callbacks(c->request);
       do
-        if(!(c->htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(c->htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(c->htp->lock);
 
       while((_Bool)0);
@@ -7223,15 +7223,15 @@ static signed int _evhtp_request_parser_path(struct htparser *p, const char *dat
 static signed int _evhtp_request_parser_port(struct htparser *p, const char *data, unsigned long int len)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   struct evhtp_authority_s *authority;
   char *endptr;
   unsigned long int port;
-  signed int return_value__evhtp_require_uri$2;
-  return_value__evhtp_require_uri$2=_evhtp_require_uri(c);
-  if(!(return_value__evhtp_require_uri$2 == 0))
+  signed int return_value__evhtp_require_uri_2;
+  return_value__evhtp_require_uri_2=_evhtp_require_uri(c);
+  if(!(return_value__evhtp_require_uri_2 == 0))
     return -1;
 
   else
@@ -7257,9 +7257,9 @@ static signed int _evhtp_request_parser_port(struct htparser *p, const char *dat
 static signed int _evhtp_request_parser_start(struct htparser *p)
 {
   struct evhtp_connection_s *c;
-  void *return_value_htparser_get_userdata$1;
-  return_value_htparser_get_userdata$1=htparser_get_userdata(p);
-  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata$1;
+  void *return_value_htparser_get_userdata_1;
+  return_value_htparser_get_userdata_1=htparser_get_userdata(p);
+  c = (struct evhtp_connection_s *)return_value_htparser_get_userdata_1;
   if((signed int)c->type == evhtp_type_client)
     return 0;
 
@@ -7361,18 +7361,18 @@ static inline signed int _evhtp_request_set_callbacks(struct evhtp_request_s *re
                 cb = evhtp->defaults.cb;
                 cbarg = evhtp->defaults.cbarg;
                 path->matched_soff = (unsigned int)0;
-                unsigned long int return_value_strlen$1;
-                return_value_strlen$1=strlen(path->full);
-                path->matched_eoff = (unsigned int)return_value_strlen$1;
+                unsigned long int return_value_strlen_1;
+                return_value_strlen_1=strlen(path->full);
+                path->matched_eoff = (unsigned int)return_value_strlen_1;
               }
             }
             if(path->match_start == ((char *)NULL))
             {
-              unsigned long int return_value_strlen$2;
-              return_value_strlen$2=strlen(path->full);
-              void *return_value_calloc$3;
-              return_value_calloc$3=calloc(return_value_strlen$2 + (unsigned long int)1, (unsigned long int)1);
-              path->match_start = (char *)return_value_calloc$3;
+              unsigned long int return_value_strlen_2;
+              return_value_strlen_2=strlen(path->full);
+              void *return_value_calloc_3;
+              return_value_calloc_3=calloc(return_value_strlen_2 + (unsigned long int)1, (unsigned long int)1);
+              path->match_start = (char *)return_value_calloc_3;
               do
                 if(path->match_start == ((char *)NULL))
                 {
@@ -7386,11 +7386,11 @@ static inline signed int _evhtp_request_set_callbacks(struct evhtp_request_s *re
 
             if(path->match_end == ((char *)NULL))
             {
-              unsigned long int return_value_strlen$4;
-              return_value_strlen$4=strlen(path->full);
-              void *return_value_calloc$5;
-              return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)1, (unsigned long int)1);
-              path->match_end = (char *)return_value_calloc$5;
+              unsigned long int return_value_strlen_4;
+              return_value_strlen_4=strlen(path->full);
+              void *return_value_calloc_5;
+              return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)1, (unsigned long int)1);
+              path->match_end = (char *)return_value_calloc_5;
               do
                 if(path->match_end == ((char *)NULL))
                 {
@@ -7409,22 +7409,22 @@ static inline signed int _evhtp_request_set_callbacks(struct evhtp_request_s *re
 
               else
               {
-                unsigned long int return_value_strlen$6;
-                return_value_strlen$6=strlen((const char *)(path->full + (signed long int)path->matched_soff));
-                memcpy((void *)path->match_start, (void *)(path->full + (signed long int)path->matched_soff), return_value_strlen$6);
+                unsigned long int return_value_strlen_6;
+                return_value_strlen_6=strlen((const char *)(path->full + (signed long int)path->matched_soff));
+                memcpy((void *)path->match_start, (void *)(path->full + (signed long int)path->matched_soff), return_value_strlen_6);
               }
-              unsigned long int return_value_strlen$7;
-              return_value_strlen$7=strlen(path->full);
-              memcpy((void *)path->match_end, (void *)(path->full + (signed long int)path->matched_eoff), return_value_strlen$7 - (unsigned long int)path->matched_eoff);
+              unsigned long int return_value_strlen_7;
+              return_value_strlen_7=strlen(path->full);
+              memcpy((void *)path->match_end, (void *)(path->full + (signed long int)path->matched_eoff), return_value_strlen_7 - (unsigned long int)path->matched_eoff);
             }
 
             if(!(hooks == ((struct evhtp_hooks_s *)NULL)))
             {
               if(request->hooks == ((struct evhtp_hooks_s *)NULL))
               {
-                void *return_value_malloc$8;
-                return_value_malloc$8=malloc(sizeof(struct evhtp_hooks_s) /*240ul*/ );
-                request->hooks = (struct evhtp_hooks_s *)return_value_malloc$8;
+                void *return_value_malloc_8;
+                return_value_malloc_8=malloc(sizeof(struct evhtp_hooks_s) /*240ul*/ );
+                request->hooks = (struct evhtp_hooks_s *)return_value_malloc_8;
                 do
                   if(request->hooks == ((struct evhtp_hooks_s *)NULL))
                   {
@@ -7486,16 +7486,16 @@ static void _evhtp_run_in_thread(struct evthr *thr, void *arg, void *shared)
   struct evhtp_connection_s *connection = (struct evhtp_connection_s *)arg;
   connection->evbase=evthr_get_base(thr);
   connection->thread = thr;
-  signed int return_value__evhtp_connection_accept$1;
-  return_value__evhtp_connection_accept$1=_evhtp_connection_accept(connection->evbase, connection);
-  if(!(return_value__evhtp_connection_accept$1 >= 0))
+  signed int return_value__evhtp_connection_accept_1;
+  return_value__evhtp_connection_accept_1=_evhtp_connection_accept(connection->evbase, connection);
+  if(!(return_value__evhtp_connection_accept_1 >= 0))
     evhtp_connection_free(connection);
 
   else
   {
-    signed int return_value__evhtp_run_post_accept$2;
-    return_value__evhtp_run_post_accept$2=_evhtp_run_post_accept(htp, connection);
-    if(!(return_value__evhtp_run_post_accept$2 >= 0))
+    signed int return_value__evhtp_run_post_accept_2;
+    return_value__evhtp_run_post_accept_2=_evhtp_run_post_accept(htp, connection);
+    if(!(return_value__evhtp_run_post_accept_2 >= 0))
       evhtp_connection_free(connection);
 
   }
@@ -7548,34 +7548,34 @@ static signed int _evhtp_run_pre_accept(struct evhtp_s *htp, struct evhtp_connec
 static signed int _evhtp_should_parse_query_body(struct evhtp_request_s *req)
 {
   const char *content_type;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(req == ((struct evhtp_request_s *)NULL))
     return 0;
 
   else
   {
     if(req->uri == ((struct evhtp_uri_s *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = req->uri->query != (struct evhtp_kvs_s *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = req->uri->query != (struct evhtp_kvs_s *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
     {
-      unsigned long int return_value_htparser_get_content_length$2;
-      return_value_htparser_get_content_length$2=htparser_get_content_length(req->conn->parser);
-      if(return_value_htparser_get_content_length$2 == 0ul)
+      unsigned long int return_value_htparser_get_content_length_2;
+      return_value_htparser_get_content_length_2=htparser_get_content_length(req->conn->parser);
+      if(return_value_htparser_get_content_length_2 == 0ul)
         return 0;
 
       else
       {
-        unsigned long int return_value_htparser_get_content_length$3;
-        return_value_htparser_get_content_length$3=htparser_get_content_length(req->conn->parser);
-        unsigned long int return_value_evbuffer_get_length$4;
-        return_value_evbuffer_get_length$4=evbuffer_get_length(req->buffer_in);
-        if(!(return_value_htparser_get_content_length$3 == return_value_evbuffer_get_length$4))
+        unsigned long int return_value_htparser_get_content_length_3;
+        return_value_htparser_get_content_length_3=htparser_get_content_length(req->conn->parser);
+        unsigned long int return_value_evbuffer_get_length_4;
+        return_value_evbuffer_get_length_4=evbuffer_get_length(req->buffer_in);
+        if(!(return_value_htparser_get_content_length_3 == return_value_evbuffer_get_length_4))
           return 0;
 
         else
@@ -7586,9 +7586,9 @@ static signed int _evhtp_should_parse_query_body(struct evhtp_request_s *req)
 
           else
           {
-            signed int return_value_strncasecmp$5;
-            return_value_strncasecmp$5=strncasecmp(content_type, "application/x-www-form-urlencoded", (unsigned long int)33);
-            if(!(return_value_strncasecmp$5 == 0))
+            signed int return_value_strncasecmp_5;
+            return_value_strncasecmp_5=strncasecmp(content_type, "application/x-www-form-urlencoded", (unsigned long int)33);
+            if(!(return_value_strncasecmp_5 == 0))
               return 0;
 
             else
@@ -7608,9 +7608,9 @@ static signed int _evhtp_ssl_add_scache_ent(struct ssl_st *ssl, struct ssl_sessi
   struct evhtp_ssl_cfg_s *cfg;
   unsigned char *sid;
   signed int slen;
-  void *return_value_SSL_get_ex_data$1;
-  return_value_SSL_get_ex_data$1=SSL_get_ex_data(ssl, 0);
-  connection = (struct evhtp_connection_s *)return_value_SSL_get_ex_data$1;
+  void *return_value_SSL_get_ex_data_1;
+  return_value_SSL_get_ex_data_1=SSL_get_ex_data(ssl, 0);
+  connection = (struct evhtp_connection_s *)return_value_SSL_get_ex_data_1;
   cfg = connection->htp->ssl_cfg;
   sid = sess->session_id;
   slen = (signed int)sess->session_id_length;
@@ -7633,9 +7633,9 @@ static void _evhtp_ssl_delete_scache_ent(struct ssl_ctx_st *ctx, struct ssl_sess
   struct evhtp_ssl_cfg_s *cfg;
   unsigned char *sid;
   unsigned int slen;
-  void *return_value_SSL_CTX_get_ex_data$1;
-  return_value_SSL_CTX_get_ex_data$1=SSL_CTX_get_ex_data(ctx, 0);
-  htp = (struct evhtp_s *)return_value_SSL_CTX_get_ex_data$1;
+  void *return_value_SSL_CTX_get_ex_data_1;
+  return_value_SSL_CTX_get_ex_data_1=SSL_CTX_get_ex_data(ctx, 0);
+  htp = (struct evhtp_s *)return_value_SSL_CTX_get_ex_data_1;
   cfg = htp->ssl_cfg;
   sid = sess->session_id;
   slen = sess->session_id_length;
@@ -7651,9 +7651,9 @@ static struct ssl_session_st * _evhtp_ssl_get_scache_ent(struct ssl_st *ssl, uns
   struct evhtp_connection_s *connection;
   struct evhtp_ssl_cfg_s *cfg;
   struct ssl_session_st *sess;
-  void *return_value_SSL_get_ex_data$1;
-  return_value_SSL_get_ex_data$1=SSL_get_ex_data(ssl, 0);
-  connection = (struct evhtp_connection_s *)return_value_SSL_get_ex_data$1;
+  void *return_value_SSL_get_ex_data_1;
+  return_value_SSL_get_ex_data_1=SSL_get_ex_data(ssl, 0);
+  connection = (struct evhtp_connection_s *)return_value_SSL_get_ex_data_1;
   cfg = connection->htp->ssl_cfg;
   sess = (struct ssl_session_st *)(void *)0;
   if(!(cfg->scache_get == ((struct ssl_session_st * (*)(struct evhtp_connection_s *, unsigned char *, signed int))NULL)))
@@ -7667,9 +7667,9 @@ static struct ssl_session_st * _evhtp_ssl_get_scache_ent(struct ssl_st *ssl, uns
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2214
 static unsigned long int _evhtp_ssl_get_thread_id(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  return (unsigned long int)return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  return (unsigned long int)return_value_pthread_self_1;
 }
 
 // _evhtp_ssl_servername
@@ -7681,16 +7681,16 @@ static signed int _evhtp_ssl_servername(struct ssl_st *ssl, signed int *unused, 
   struct evhtp_s *evhtp;
   struct evhtp_s *evhtp_vhost;
   sname=SSL_get_servername(ssl, 0);
-  _Bool tmp_if_expr$7;
-  signed long int return_value_SSL_ctrl$6;
+  _Bool tmp_if_expr_7;
+  signed long int return_value_SSL_ctrl_6;
   if(sname == ((const char *)NULL))
     return 3;
 
   else
   {
-    void *return_value_SSL_get_ex_data$1;
-    return_value_SSL_get_ex_data$1=SSL_get_ex_data(ssl, 0);
-    connection = (struct evhtp_connection_s *)return_value_SSL_get_ex_data$1;
+    void *return_value_SSL_get_ex_data_1;
+    return_value_SSL_get_ex_data_1=SSL_get_ex_data(ssl, 0);
+    connection = (struct evhtp_connection_s *)return_value_SSL_get_ex_data_1;
     if(connection == ((struct evhtp_connection_s *)NULL))
       return 3;
 
@@ -7708,26 +7708,26 @@ static signed int _evhtp_ssl_servername(struct ssl_st *ssl, signed int *unused, 
           connection->htp = evhtp_vhost;
           connection->vhost_via_sni = (unsigned char)1;
           SSL_set_SSL_CTX(ssl, evhtp_vhost->ssl_ctx);
-          signed long int return_value_SSL_CTX_ctrl$2;
-          return_value_SSL_CTX_ctrl$2=SSL_CTX_ctrl(ssl->ctx, 32, (signed long int)0, (void *)0);
-          SSL_ctrl(ssl, 32, return_value_SSL_CTX_ctrl$2, (void *)0);
-          signed int return_value_SSL_get_verify_mode$5;
-          return_value_SSL_get_verify_mode$5=SSL_get_verify_mode(ssl);
-          if(return_value_SSL_get_verify_mode$5 == 0x00)
-            tmp_if_expr$7 = (_Bool)1;
+          signed long int return_value_SSL_CTX_ctrl_2;
+          return_value_SSL_CTX_ctrl_2=SSL_CTX_ctrl(ssl->ctx, 32, (signed long int)0, (void *)0);
+          SSL_ctrl(ssl, 32, return_value_SSL_CTX_ctrl_2, (void *)0);
+          signed int return_value_SSL_get_verify_mode_5;
+          return_value_SSL_get_verify_mode_5=SSL_get_verify_mode(ssl);
+          if(return_value_SSL_get_verify_mode_5 == 0x00)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_SSL_ctrl$6=SSL_ctrl(ssl, 10, (signed long int)0, (void *)0);
-            tmp_if_expr$7 = return_value_SSL_ctrl$6 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+            return_value_SSL_ctrl_6=SSL_ctrl(ssl, 10, (signed long int)0, (void *)0);
+            tmp_if_expr_7 = return_value_SSL_ctrl_6 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
           {
-            signed int return_value_SSL_CTX_get_verify_mode$3;
-            return_value_SSL_CTX_get_verify_mode$3=SSL_CTX_get_verify_mode(ssl->ctx);
-            signed int (*return_value_SSL_CTX_get_verify_callback$4)(signed int, struct x509_store_ctx_st *);
-            return_value_SSL_CTX_get_verify_callback$4=SSL_CTX_get_verify_callback(ssl->ctx);
-            SSL_set_verify(ssl, return_value_SSL_CTX_get_verify_mode$3, return_value_SSL_CTX_get_verify_callback$4);
+            signed int return_value_SSL_CTX_get_verify_mode_3;
+            return_value_SSL_CTX_get_verify_mode_3=SSL_CTX_get_verify_mode(ssl->ctx);
+            signed int (*return_value_SSL_CTX_get_verify_callback_4)(signed int, struct x509_store_ctx_st *);
+            return_value_SSL_CTX_get_verify_callback_4=SSL_CTX_get_verify_callback(ssl->ctx);
+            SSL_set_verify(ssl, return_value_SSL_CTX_get_verify_mode_3, return_value_SSL_CTX_get_verify_callback_4);
           }
 
           return 0;
@@ -7815,9 +7815,9 @@ static void _evhtp_uri_free(struct evhtp_uri_s *uri)
 static struct evhtp_uri_s * _evhtp_uri_new(void)
 {
   struct evhtp_uri_s *uri;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct evhtp_uri_s) /*48ul*/ , (unsigned long int)1);
-  uri = (struct evhtp_uri_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct evhtp_uri_s) /*48ul*/ , (unsigned long int)1);
+  uri = (struct evhtp_uri_s *)return_value_calloc_1;
   if(uri == ((struct evhtp_uri_s *)NULL))
     return (struct evhtp_uri_s *)(void *)0;
 
@@ -7840,18 +7840,18 @@ static struct evhtp_uri_s * _evhtp_uri_new(void)
 static void * _evthr_loop(void *args)
 {
   struct evthr *thread = (struct evthr *)args;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(thread == ((struct evthr *)NULL))
     return (void *)0;
 
   else
   {
     if(thread == ((struct evthr *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = thread->thr == (unsigned long int *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = thread->thr == (unsigned long int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       pthread_exit((void *)0);
 
     thread->evbase=event_base_new();
@@ -7881,9 +7881,9 @@ static void _evthr_read_cmd(signed int sock, signed short int which, void *args)
   if(!(thread == ((struct evthr *)NULL)))
   {
     stopped = 0;
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(sock, (void *)&cmd, sizeof(struct evthr_cmd) /*17ul*/ , 0);
-    if((unsigned long int)return_value_recv$1 == sizeof(struct evthr_cmd) /*17ul*/ )
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(sock, (void *)&cmd, sizeof(struct evthr_cmd) /*17ul*/ , 0);
+    if((unsigned long int)return_value_recv_1 == sizeof(struct evthr_cmd) /*17ul*/ )
     {
       stopped = (signed int)cmd.stop;
       if(!(cmd.cb == ((void (*)(struct evthr *, void *, void *))NULL)))
@@ -7913,9 +7913,9 @@ static void _owned_eventcb(struct bufferevent *bev, signed short int events, voi
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/test.c line 114
 static void _owned_readcb(struct bufferevent *bev, void *arg)
 {
-  struct evbuffer *return_value_bufferevent_get_input$1;
-  return_value_bufferevent_get_input$1=bufferevent_get_input(bev);
-  bufferevent_write_buffer(bev, return_value_bufferevent_get_input$1);
+  struct evbuffer *return_value_bufferevent_get_input_1;
+  return_value_bufferevent_get_input_1=bufferevent_get_input(bev);
+  bufferevent_write_buffer(bev, return_value_bufferevent_get_input_1);
 }
 
 // create_callback
@@ -7932,9 +7932,9 @@ static void create_callback(struct evhtp_request_s *r, void *arg)
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(urilen + (unsigned long int)2, (unsigned long int)1);
-    nuri = (char *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(urilen + (unsigned long int)2, (unsigned long int)1);
+    nuri = (char *)return_value_calloc_1;
     snprintf(nuri, urilen + (unsigned long int)2, "/%s", uri);
     evhtp_set_cb(r->htp, nuri, dynamic_cb, (void *)nuri);
     evhtp_send_reply(r, (unsigned short int)200);
@@ -7974,9 +7974,9 @@ signed int evhtp_add_alias(struct evhtp_s *evhtp, const char *name)
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct evhtp_alias_s) /*24ul*/ , (unsigned long int)1);
-    alias = (struct evhtp_alias_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct evhtp_alias_s) /*24ul*/ , (unsigned long int)1);
+    alias = (struct evhtp_alias_s *)return_value_calloc_1;
     if(alias == ((struct evhtp_alias_s *)NULL))
       return -1;
 
@@ -8054,13 +8054,13 @@ signed int evhtp_bind_sockaddr(struct evhtp_s *htp, struct sockaddr *sa, unsigne
   do
     if(fd == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror$2, *return_value___errno_location$3, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3190);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror_2, *return_value___errno_location_3, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3190);
       fflush(stderr);
       abort();
     }
@@ -8077,13 +8077,13 @@ signed int evhtp_bind_sockaddr(struct evhtp_s *htp, struct sockaddr *sa, unsigne
     do
       if(rc == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror$5, *return_value___errno_location$6, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3202);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror_5, *return_value___errno_location_6, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3202);
         fflush(stderr);
         abort();
       }
@@ -8102,17 +8102,17 @@ signed int evhtp_bind_sockaddr(struct evhtp_s *htp, struct sockaddr *sa, unsigne
 
   do
   {
-    signed int return_value_bind$10;
-    return_value_bind$10=bind(fd, sa, (unsigned int)sin_len);
-    if(return_value_bind$10 == -1)
+    signed int return_value_bind_10;
+    return_value_bind_10=bind(fd, sa, (unsigned int)sin_len);
+    if(return_value_bind_10 == -1)
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror$8, *return_value___errno_location$9, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3223);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror_8, *return_value___errno_location_9, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3223);
       fflush(stderr);
       abort();
     }
@@ -8123,13 +8123,13 @@ signed int evhtp_bind_sockaddr(struct evhtp_s *htp, struct sockaddr *sa, unsigne
   do
     if(htp->server == ((struct evconnlistener *)NULL))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(*return_value___errno_location$11);
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror$12, *return_value___errno_location$13, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3228);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(*return_value___errno_location_11);
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      fprintf(stderr, "%s [%d] (%s:%s:%d)\n", return_value_strerror_12, *return_value___errno_location_13, (const void *)"evhtp_bind_sockaddr", (const void *)"/srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c", 3228);
       fflush(stderr);
       abort();
     }
@@ -8155,10 +8155,10 @@ signed int evhtp_bind_socket(struct evhtp_s *htp, const char *baddr, unsigned sh
   struct sockaddr *sa;
   unsigned long int sin_len;
   memset((void *)&sin, 0, sizeof(struct sockaddr_in) /*16ul*/ );
-  signed int return_value_strncmp$5;
-  return_value_strncmp$5=strncmp(baddr, "ipv6:", (unsigned long int)5);
-  signed int return_value_strncmp$4;
-  if(return_value_strncmp$5 == 0)
+  signed int return_value_strncmp_5;
+  return_value_strncmp_5=strncmp(baddr, "ipv6:", (unsigned long int)5);
+  signed int return_value_strncmp_4;
+  if(return_value_strncmp_5 == 0)
   {
     memset((void *)&sin6, 0, sizeof(struct sockaddr_in6) /*28ul*/ );
     baddr = baddr + (signed long int)5;
@@ -8171,29 +8171,29 @@ signed int evhtp_bind_socket(struct evhtp_s *htp, const char *baddr, unsigned sh
 
   else
   {
-    return_value_strncmp$4=strncmp(baddr, "unix:", (unsigned long int)5);
-    if(return_value_strncmp$4 == 0)
+    return_value_strncmp_4=strncmp(baddr, "unix:", (unsigned long int)5);
+    if(return_value_strncmp_4 == 0)
     {
       baddr = baddr + (signed long int)5;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(baddr);
-      if(return_value_strlen$1 >= sizeof(char [108l]) /*108ul*/ )
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(baddr);
+      if(return_value_strlen_1 >= sizeof(char [108l]) /*108ul*/ )
         return -1;
 
       memset((void *)&sun, 0, sizeof(struct sockaddr_un) /*110ul*/ );
       sin_len = sizeof(struct sockaddr_un) /*110ul*/ ;
       sun.sun_family = (unsigned short int)1;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(baddr);
-      strncpy(sun.sun_path, baddr, return_value_strlen$2);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(baddr);
+      strncpy(sun.sun_path, baddr, return_value_strlen_2);
       sa = (struct sockaddr *)&sun;
     }
 
     else
     {
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(baddr, "ipv4:", (unsigned long int)5);
-      if(return_value_strncmp$3 == 0)
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(baddr, "ipv4:", (unsigned long int)5);
+      if(return_value_strncmp_3 == 0)
         baddr = baddr + (signed long int)5;
 
       sin_len = sizeof(struct sockaddr_in) /*16ul*/ ;
@@ -8203,9 +8203,9 @@ signed int evhtp_bind_socket(struct evhtp_s *htp, const char *baddr, unsigned sh
       sa = (struct sockaddr *)&sin;
     }
   }
-  signed int return_value_evhtp_bind_sockaddr$6;
-  return_value_evhtp_bind_sockaddr$6=evhtp_bind_sockaddr(htp, sa, sin_len, backlog);
-  return return_value_evhtp_bind_sockaddr$6;
+  signed int return_value_evhtp_bind_sockaddr_6;
+  return_value_evhtp_bind_sockaddr_6=evhtp_bind_sockaddr(htp, sa, sin_len, backlog);
+  return return_value_evhtp_bind_sockaddr_6;
 }
 
 // evhtp_callback_free
@@ -8241,7 +8241,7 @@ void evhtp_callback_free(struct evhtp_callback_s *callback)
         do
         {
           free((void *)callback->val.regex);
-          callback->val.regex = (struct anonymous$5 *)(void *)0;
+          callback->val.regex = (struct anonymous_5 *)(void *)0;
         }
         while((_Bool)0);
       }
@@ -8274,9 +8274,9 @@ void evhtp_callback_free(struct evhtp_callback_s *callback)
 struct evhtp_callback_s * evhtp_callback_new(const char *path, enum evhtp_callback_type type, void (*cb)(struct evhtp_request_s *, void *), void *arg)
 {
   struct evhtp_callback_s *hcb;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct evhtp_callback_s) /*64ul*/ , (unsigned long int)1);
-  hcb = (struct evhtp_callback_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct evhtp_callback_s) /*64ul*/ , (unsigned long int)1);
+  hcb = (struct evhtp_callback_s *)return_value_calloc_1;
   do
     if(hcb == ((struct evhtp_callback_s *)NULL))
     {
@@ -8289,8 +8289,8 @@ struct evhtp_callback_s * evhtp_callback_new(const char *path, enum evhtp_callba
   hcb->type = type;
   hcb->cb = cb;
   hcb->cbarg = arg;
-  void *return_value_malloc$2;
-  signed int return_value_regcomp$3;
+  void *return_value_malloc_2;
+  signed int return_value_regcomp_3;
   switch((signed int)type)
   {
     case evhtp_callback_type_hash:
@@ -8301,15 +8301,15 @@ struct evhtp_callback_s * evhtp_callback_new(const char *path, enum evhtp_callba
     }
     case evhtp_callback_type_regex:
     {
-      return_value_malloc$2=malloc(sizeof(struct anonymous$5) /*24ul*/ );
-      hcb->val.regex = (struct anonymous$5 *)return_value_malloc$2;
-      return_value_regcomp$3=regcomp(hcb->val.regex, (char *)path, 1 << 4);
-      if(!(return_value_regcomp$3 == 0))
+      return_value_malloc_2=malloc(sizeof(struct anonymous_5) /*24ul*/ );
+      hcb->val.regex = (struct anonymous_5 *)return_value_malloc_2;
+      return_value_regcomp_3=regcomp(hcb->val.regex, (char *)path, 1 << 4);
+      if(!(return_value_regcomp_3 == 0))
       {
         do
         {
           free((void *)hcb->val.regex);
-          hcb->val.regex = (struct anonymous$5 *)(void *)0;
+          hcb->val.regex = (struct anonymous_5 *)(void *)0;
         }
         while((_Bool)0);
         do
@@ -8363,7 +8363,7 @@ void evhtp_callbacks_free(struct evhtp_callbacks_s *callbacks)
 {
   struct evhtp_callback_s *callback;
   struct evhtp_callback_s *tmp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(callbacks == ((struct evhtp_callbacks_s *)NULL)))
   {
     callback = callbacks->tqh_first;
@@ -8372,12 +8372,12 @@ void evhtp_callbacks_free(struct evhtp_callbacks_s *callbacks)
       if(!(callback == ((struct evhtp_callback_s *)NULL)))
       {
         tmp = callback->next.tqe_next;
-        tmp_if_expr$1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       do
@@ -8486,9 +8486,9 @@ struct bufferevent * evhtp_connection_get_bev(struct evhtp_connection_s *connect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4229
 struct evhtp_connection_s * evhtp_connection_new(struct event_base *evbase, const char *addr, unsigned short int port)
 {
-  struct evhtp_connection_s *return_value_evhtp_connection_new_dns$1;
-  return_value_evhtp_connection_new_dns$1=evhtp_connection_new_dns(evbase, (struct evdns_base *)(void *)0, addr, port);
-  return return_value_evhtp_connection_new_dns$1;
+  struct evhtp_connection_s *return_value_evhtp_connection_new_dns_1;
+  return_value_evhtp_connection_new_dns_1=evhtp_connection_new_dns(evbase, (struct evdns_base *)(void *)0, addr, port);
+  return return_value_evhtp_connection_new_dns_1;
 }
 
 // evhtp_connection_new_dns
@@ -8507,7 +8507,7 @@ struct evhtp_connection_s * evhtp_connection_new_dns(struct event_base *evbase, 
 
   while((_Bool)0);
   conn=_evhtp_connection_new((struct evhtp_s *)(void *)0, -1, (enum evhtp_type)evhtp_type_client);
-  signed int return_value_inet_pton$1;
+  signed int return_value_inet_pton_1;
   if(conn == ((struct evhtp_connection_s *)NULL))
     return (struct evhtp_connection_s *)(void *)0;
 
@@ -8534,9 +8534,9 @@ struct evhtp_connection_s * evhtp_connection_new_dns(struct event_base *evbase, 
         struct sockaddr_in6 sin6;
         struct sockaddr *sin;
         signed int salen;
-        signed int return_value_inet_pton$2;
-        return_value_inet_pton$2=inet_pton(2, addr, (void *)&sin4.sin_addr);
-        if(!(return_value_inet_pton$2 == 0))
+        signed int return_value_inet_pton_2;
+        return_value_inet_pton_2=inet_pton(2, addr, (void *)&sin4.sin_addr);
+        if(!(return_value_inet_pton_2 == 0))
         {
           sin4.sin_family = (unsigned short int)2;
           sin4.sin_port=htons(port);
@@ -8546,8 +8546,8 @@ struct evhtp_connection_s * evhtp_connection_new_dns(struct event_base *evbase, 
 
         else
         {
-          return_value_inet_pton$1=inet_pton(10, addr, (void *)&sin6.sin6_addr);
-          if(!(return_value_inet_pton$1 == 0))
+          return_value_inet_pton_1=inet_pton(10, addr, (void *)&sin6.sin6_addr);
+          if(!(return_value_inet_pton_1 == 0))
           {
             sin6.sin6_family = (unsigned short int)10;
             sin6.sin6_port=htons(port);
@@ -8703,7 +8703,7 @@ void evhtp_free(struct evhtp_s *evhtp)
 {
   struct evhtp_alias_s *evhtp_alias;
   struct evhtp_alias_s *tmp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(evhtp == ((struct evhtp_s *)NULL)))
   {
     if(!(evhtp->thr_pool == ((struct evthr_pool *)NULL)))
@@ -8737,12 +8737,12 @@ void evhtp_free(struct evhtp_s *evhtp)
       if(!(evhtp_alias == ((struct evhtp_alias_s *)NULL)))
       {
         tmp = evhtp_alias->next.tqe_next;
-        tmp_if_expr$1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       if(!(evhtp_alias->alias == ((char *)NULL)))
@@ -8792,9 +8792,9 @@ struct evhtp_callback_s * evhtp_get_cb(struct evhtp_s *htp, const char *path)
   struct evhtp_callback_s *callback = htp->callbacks->tqh_first;
   for( ; !(callback == ((struct evhtp_callback_s *)NULL)); callback = callback->next.tqe_next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(callback->val.path, path);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(callback->val.path, path);
+    if(return_value_strcmp_1 == 0)
       return callback;
 
   }
@@ -8840,9 +8840,9 @@ struct evhtp_kv_s * evhtp_header_val_add(struct evhtp_kvs_s *headers, const char
         header->vlen=strlen(val);
         if((signed int)valloc == 1)
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(header->vlen + (unsigned long int)1);
-          header->val = (char *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(header->vlen + (unsigned long int)1);
+          header->val = (char *)return_value_malloc_1;
           header->val[(signed long int)header->vlen] = (char)0;
           memcpy((void *)header->val, (const void *)val, header->vlen);
         }
@@ -8878,9 +8878,9 @@ const char * evhtp_kv_find(struct evhtp_kvs_s *kvs, const char *key)
     kv = kvs->tqh_first;
     for( ; !(kv == ((struct evhtp_kv_s *)NULL)); kv = kv->next.tqe_next)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(kv->key, key);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(kv->key, key);
+      if(return_value_strcasecmp_1 == 0)
         return kv->val;
 
     }
@@ -8925,9 +8925,9 @@ void evhtp_kv_free(struct evhtp_kv_s *kv)
 struct evhtp_kv_s * evhtp_kv_new(const char *key, const char *val, char kalloc, char valloc)
 {
   struct evhtp_kv_s *kv;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct evhtp_kv_s) /*56ul*/ );
-  kv = (struct evhtp_kv_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct evhtp_kv_s) /*56ul*/ );
+  kv = (struct evhtp_kv_s *)return_value_malloc_1;
   do
     if(kv == ((struct evhtp_kv_s *)NULL))
     {
@@ -8948,11 +8948,11 @@ struct evhtp_kv_s * evhtp_kv_new(const char *key, const char *val, char kalloc, 
     kv->klen=strlen(key);
     if((signed int)kalloc == 1)
     {
-      char *evhtp_kv_new$$1$$2$$1$$s;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(kv->klen + (unsigned long int)1);
-      evhtp_kv_new$$1$$2$$1$$s = (char *)return_value_malloc$2;
-      if(evhtp_kv_new$$1$$2$$1$$s == ((char *)NULL))
+      char *evhtp_kv_new__1__2__1__s;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(kv->klen + (unsigned long int)1);
+      evhtp_kv_new__1__2__1__s = (char *)return_value_malloc_2;
+      if(evhtp_kv_new__1__2__1__s == ((char *)NULL))
       {
         do
         {
@@ -8963,9 +8963,9 @@ struct evhtp_kv_s * evhtp_kv_new(const char *key, const char *val, char kalloc, 
         return (struct evhtp_kv_s *)(void *)0;
       }
 
-      memcpy((void *)evhtp_kv_new$$1$$2$$1$$s, (const void *)key, kv->klen);
-      evhtp_kv_new$$1$$2$$1$$s[(signed long int)kv->klen] = (char)0;
-      kv->key = evhtp_kv_new$$1$$2$$1$$s;
+      memcpy((void *)evhtp_kv_new__1__2__1__s, (const void *)key, kv->klen);
+      evhtp_kv_new__1__2__1__s[(signed long int)kv->klen] = (char)0;
+      kv->key = evhtp_kv_new__1__2__1__s;
     }
 
     else
@@ -8978,9 +8978,9 @@ struct evhtp_kv_s * evhtp_kv_new(const char *key, const char *val, char kalloc, 
     if((signed int)valloc == 1)
     {
       char *s;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(kv->vlen + (unsigned long int)1);
-      s = (char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(kv->vlen + (unsigned long int)1);
+      s = (char *)return_value_malloc_3;
       s[(signed long int)kv->vlen] = (char)0;
       memcpy((void *)s, (const void *)val, kv->vlen);
       kv->val = s;
@@ -9039,9 +9039,9 @@ void evhtp_kvs_add_kvs(struct evhtp_kvs_s *dst, struct evhtp_kvs_s *src)
     struct evhtp_kv_s *kv = src->tqh_first;
     for( ; !(kv == ((struct evhtp_kv_s *)NULL)); kv = kv->next.tqe_next)
     {
-      struct evhtp_kv_s *return_value_evhtp_kv_new$1;
-      return_value_evhtp_kv_new$1=evhtp_kv_new(kv->key, kv->val, kv->k_heaped, kv->v_heaped);
-      evhtp_kvs_add_kv(dst, return_value_evhtp_kv_new$1);
+      struct evhtp_kv_s *return_value_evhtp_kv_new_1;
+      return_value_evhtp_kv_new_1=evhtp_kv_new(kv->key, kv->val, kv->k_heaped, kv->v_heaped);
+      evhtp_kvs_add_kv(dst, return_value_evhtp_kv_new_1);
     }
   }
 
@@ -9060,9 +9060,9 @@ struct evhtp_kv_s * evhtp_kvs_find_kv(struct evhtp_kvs_s *kvs, const char *key)
     kv = kvs->tqh_first;
     for( ; !(kv == ((struct evhtp_kv_s *)NULL)); kv = kv->next.tqe_next)
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(kv->key, key);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(kv->key, key);
+      if(return_value_strcasecmp_1 == 0)
         return kv;
 
     }
@@ -9139,9 +9139,9 @@ void evhtp_kvs_free(struct evhtp_kvs_s *kvs)
 struct evhtp_kvs_s * evhtp_kvs_new(void)
 {
   struct evhtp_kvs_s *kvs;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct evhtp_kvs_s) /*16ul*/ );
-  kvs = (struct evhtp_kvs_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct evhtp_kvs_s) /*16ul*/ );
+  kvs = (struct evhtp_kvs_s *)return_value_malloc_1;
   do
     if(kvs == ((struct evhtp_kvs_s *)NULL))
     {
@@ -9188,14 +9188,14 @@ __CPROVER_DUMP_L2:
 
 __CPROVER_DUMP_L3:
   ;
-  const char *return_value_htparser_get_methodstr_m$1;
-  return_value_htparser_get_methodstr_m$1=htparser_get_methodstr_m(meth);
-  evbuffer_add_printf(obuf, "%s %s HTTP/%s\r\n", return_value_htparser_get_methodstr_m$1, uri, proto);
+  const char *return_value_htparser_get_methodstr_m_1;
+  return_value_htparser_get_methodstr_m_1=htparser_get_methodstr_m(meth);
+  evbuffer_add_printf(obuf, "%s %s HTTP/%s\r\n", return_value_htparser_get_methodstr_m_1, uri, proto);
   evhtp_kvs_for_each(r->headers_out, _evhtp_create_headers, (void *)obuf);
   evbuffer_add_reference(obuf, (const void *)"\r\n", (unsigned long int)2, (void (*)(const void *, unsigned long int, void *))(void *)0, (void *)0);
-  unsigned long int return_value_evbuffer_get_length$2;
-  return_value_evbuffer_get_length$2=evbuffer_get_length(r->buffer_out);
-  if(!(return_value_evbuffer_get_length$2 == 0ul))
+  unsigned long int return_value_evbuffer_get_length_2;
+  return_value_evbuffer_get_length_2=evbuffer_get_length(r->buffer_out);
+  if(!(return_value_evbuffer_get_length_2 == 0ul))
     evbuffer_add_buffer(obuf, r->buffer_out);
 
   return 0;
@@ -9205,9 +9205,9 @@ __CPROVER_DUMP_L3:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp_numtoa.h line 19
 inline unsigned long int evhtp_modp_sizetoa(unsigned long int value, char *str)
 {
-  unsigned long int return_value_evhtp_modp_u64toa$1;
-  return_value_evhtp_modp_u64toa$1=evhtp_modp_u64toa(value, str);
-  return return_value_evhtp_modp_u64toa$1;
+  unsigned long int return_value_evhtp_modp_u64toa_1;
+  return_value_evhtp_modp_u64toa_1=evhtp_modp_u64toa(value, str);
+  return return_value_evhtp_modp_u64toa_1;
 }
 
 // evhtp_modp_u32toa
@@ -9215,12 +9215,12 @@ inline unsigned long int evhtp_modp_sizetoa(unsigned long int value, char *str)
 unsigned long int evhtp_modp_u32toa(unsigned int value, char *str)
 {
   char *wstr = str;
-  char *tmp_post$1;
+  char *tmp_post_1;
   do
   {
-    tmp_post$1 = wstr;
+    tmp_post_1 = wstr;
     wstr = wstr + 1l;
-    *tmp_post$1 = (char)((unsigned int)48 + value % (unsigned int)10);
+    *tmp_post_1 = (char)((unsigned int)48 + value % (unsigned int)10);
     value = value / (unsigned int)10;
   }
   while(!(value == 0u));
@@ -9234,12 +9234,12 @@ unsigned long int evhtp_modp_u32toa(unsigned int value, char *str)
 unsigned long int evhtp_modp_u64toa(unsigned long int value, char *str)
 {
   char *wstr = str;
-  char *tmp_post$1;
+  char *tmp_post_1;
   do
   {
-    tmp_post$1 = wstr;
+    tmp_post_1 = wstr;
     wstr = wstr + 1l;
-    *tmp_post$1 = (char)((unsigned long int)48 + value % (unsigned long int)10);
+    *tmp_post_1 = (char)((unsigned long int)48 + value % (unsigned long int)10);
     value = value / (unsigned long int)10;
   }
   while(!(value == 0ul));
@@ -9262,9 +9262,9 @@ struct evhtp_s * evhtp_new(struct event_base *evbase, void *arg)
     }
 
   while((_Bool)0);
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct evhtp_s) /*256ul*/ , (unsigned long int)1);
-  htp = (struct evhtp_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct evhtp_s) /*256ul*/ , (unsigned long int)1);
+  htp = (struct evhtp_s *)return_value_calloc_1;
   do
     if(htp == ((struct evhtp_s *)NULL))
     {
@@ -9298,9 +9298,9 @@ struct evhtp_s * evhtp_new(struct event_base *evbase, void *arg)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3007
 struct evhtp_kvs_s * evhtp_parse_query(const char *query, unsigned long int len)
 {
-  struct evhtp_kvs_s *return_value_evhtp_parse_query_wflags$1;
-  return_value_evhtp_parse_query_wflags$1=evhtp_parse_query_wflags(query, len, 0);
-  return return_value_evhtp_parse_query_wflags$1;
+  struct evhtp_kvs_s *return_value_evhtp_parse_query_wflags_1;
+  return_value_evhtp_parse_query_wflags_1=evhtp_parse_query_wflags(query, len, 0);
+  return return_value_evhtp_parse_query_wflags_1;
 }
 
 // evhtp_parse_query_wflags
@@ -9308,42 +9308,42 @@ struct evhtp_kvs_s * evhtp_parse_query(const char *query, unsigned long int len)
 struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long int len, signed int flags)
 {
   struct evhtp_kvs_s *query_args;
-  enum anonymous$14 state;
+  enum anonymous_14 state;
   unsigned long int key_idx;
   unsigned long int val_idx;
   unsigned char ch;
   unsigned long int i;
-  unsigned long int tmp_post$1;
-  unsigned long int tmp_post$2;
-  struct evhtp_kv_s *return_value_evhtp_kv_new$3;
-  unsigned long int tmp_post$4;
-  signed int return_value_evhtp_is_hex_query_char$6;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$7;
-  signed int return_value_evhtp_is_hex_query_char$8;
-  unsigned long int tmp_post$9;
-  unsigned long int tmp_post$10;
-  struct evhtp_kv_s *return_value_evhtp_kv_new$11;
-  unsigned long int tmp_post$12;
-  unsigned long int tmp_post$13;
-  signed int return_value_evhtp_is_hex_query_char$15;
-  unsigned long int tmp_post$14;
-  unsigned long int tmp_post$16;
-  signed int return_value_evhtp_is_hex_query_char$17;
-  unsigned long int tmp_post$18;
+  unsigned long int tmp_post_1;
+  unsigned long int tmp_post_2;
+  struct evhtp_kv_s *return_value_evhtp_kv_new_3;
+  unsigned long int tmp_post_4;
+  signed int return_value_evhtp_is_hex_query_char_6;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_7;
+  signed int return_value_evhtp_is_hex_query_char_8;
+  unsigned long int tmp_post_9;
+  unsigned long int tmp_post_10;
+  struct evhtp_kv_s *return_value_evhtp_kv_new_11;
+  unsigned long int tmp_post_12;
+  unsigned long int tmp_post_13;
+  signed int return_value_evhtp_is_hex_query_char_15;
+  unsigned long int tmp_post_14;
+  unsigned long int tmp_post_16;
+  signed int return_value_evhtp_is_hex_query_char_17;
+  unsigned long int tmp_post_18;
   if(!(18446744073709551615UL + -(2ul + len) >= len))
     return (struct evhtp_kvs_s *)(void *)0;
 
   else
   {
     query_args=evhtp_kvs_new();
-    state = (enum anonymous$14)s_query_start;
+    state = (enum anonymous_14)s_query_start;
     key_idx = (unsigned long int)0;
     val_idx = (unsigned long int)0;
-    const signed long int i$array_size0 = (signed long int)(len + (unsigned long int)1);
-    char key_buf[i$array_size0];
-    const signed long int key_buf$array_size0 = (signed long int)(len + (unsigned long int)1);
-    char val_buf[key_buf$array_size0];
+    const signed long int i_array_size0 = (signed long int)(len + (unsigned long int)1);
+    char key_buf[i_array_size0];
+    const signed long int key_buf_array_size0 = (signed long int)(len + (unsigned long int)1);
+    char val_buf[key_buf_array_size0];
     i = (unsigned long int)0;
     for( ; !(i >= len); i = i + 1ul)
     {
@@ -9359,7 +9359,7 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
           val_idx = (unsigned long int)0;
           key_buf[(signed long int)0] = (char)0;
           val_buf[(signed long int)0] = (char)0;
-          state = (enum anonymous$14)s_query_key;
+          state = (enum anonymous_14)s_query_key;
         }
         case s_query_key:
         {
@@ -9367,26 +9367,26 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
           {
             case 61:
             {
-              state = (enum anonymous$14)s_query_val;
+              state = (enum anonymous_14)s_query_val;
               break;
             }
             case 37:
             {
-              tmp_post$1 = key_idx;
+              tmp_post_1 = key_idx;
               key_idx = key_idx + 1ul;
-              key_buf[(signed long int)tmp_post$1] = (char)ch;
+              key_buf[(signed long int)tmp_post_1] = (char)ch;
               key_buf[(signed long int)key_idx] = (char)0;
               if((1 & flags) == 0)
-                state = (enum anonymous$14)s_query_key_hex_1;
+                state = (enum anonymous_14)s_query_key_hex_1;
 
               break;
             }
             case 59:
               if((8 & flags) == 0)
               {
-                tmp_post$2 = key_idx;
+                tmp_post_2 = key_idx;
                 key_idx = key_idx + 1ul;
-                key_buf[(signed long int)tmp_post$2] = (char)ch;
+                key_buf[(signed long int)tmp_post_2] = (char)ch;
                 key_buf[(signed long int)key_idx] = (char)0;
                 break;
               }
@@ -9396,20 +9396,20 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
               if((4 & flags) == 0)
                 goto error;
 
-              return_value_evhtp_kv_new$3=evhtp_kv_new(key_buf, (const char *)(void *)0, (char)1, (char)1);
-              evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new$3);
+              return_value_evhtp_kv_new_3=evhtp_kv_new(key_buf, (const char *)(void *)0, (char)1, (char)1);
+              evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new_3);
               key_idx = (unsigned long int)0;
               val_idx = (unsigned long int)0;
               key_buf[(signed long int)0] = (char)0;
               val_buf[(signed long int)0] = (char)0;
-              state = (enum anonymous$14)s_query_key;
+              state = (enum anonymous_14)s_query_key;
               break;
             }
             default:
             {
-              tmp_post$4 = key_idx;
+              tmp_post_4 = key_idx;
               key_idx = key_idx + 1ul;
-              key_buf[(signed long int)tmp_post$4] = (char)ch;
+              key_buf[(signed long int)tmp_post_4] = (char)ch;
               key_buf[(signed long int)key_idx] = (char)0;
             }
           }
@@ -9417,39 +9417,39 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
         }
         case s_query_key_hex_1:
         {
-          return_value_evhtp_is_hex_query_char$6=evhtp_is_hex_query_char(ch);
-          if(return_value_evhtp_is_hex_query_char$6 == 0)
+          return_value_evhtp_is_hex_query_char_6=evhtp_is_hex_query_char(ch);
+          if(return_value_evhtp_is_hex_query_char_6 == 0)
           {
             if(2ul + key_idx >= len)
               goto error;
 
             key_buf[(signed long int)(key_idx - (unsigned long int)1)] = (char)37;
-            tmp_post$5 = key_idx;
+            tmp_post_5 = key_idx;
             key_idx = key_idx + 1ul;
-            key_buf[(signed long int)tmp_post$5] = (char)ch;
+            key_buf[(signed long int)tmp_post_5] = (char)ch;
             key_buf[(signed long int)key_idx] = (char)0;
-            state = (enum anonymous$14)s_query_key;
+            state = (enum anonymous_14)s_query_key;
             break;
           }
 
-          tmp_post$7 = key_idx;
+          tmp_post_7 = key_idx;
           key_idx = key_idx + 1ul;
-          key_buf[(signed long int)tmp_post$7] = (char)ch;
+          key_buf[(signed long int)tmp_post_7] = (char)ch;
           key_buf[(signed long int)key_idx] = (char)0;
-          state = (enum anonymous$14)s_query_key_hex_2;
+          state = (enum anonymous_14)s_query_key_hex_2;
           break;
         }
         case s_query_key_hex_2:
         {
-          return_value_evhtp_is_hex_query_char$8=evhtp_is_hex_query_char(ch);
-          if(return_value_evhtp_is_hex_query_char$8 == 0)
+          return_value_evhtp_is_hex_query_char_8=evhtp_is_hex_query_char(ch);
+          if(return_value_evhtp_is_hex_query_char_8 == 0)
             goto error;
 
-          tmp_post$9 = key_idx;
+          tmp_post_9 = key_idx;
           key_idx = key_idx + 1ul;
-          key_buf[(signed long int)tmp_post$9] = (char)ch;
+          key_buf[(signed long int)tmp_post_9] = (char)ch;
           key_buf[(signed long int)key_idx] = (char)0;
-          state = (enum anonymous$14)s_query_key;
+          state = (enum anonymous_14)s_query_key;
           break;
         }
         case s_query_val:
@@ -9459,40 +9459,40 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
             case 59:
               if((8 & flags) == 0)
               {
-                tmp_post$10 = val_idx;
+                tmp_post_10 = val_idx;
                 val_idx = val_idx + 1ul;
-                val_buf[(signed long int)tmp_post$10] = (char)ch;
+                val_buf[(signed long int)tmp_post_10] = (char)ch;
                 val_buf[(signed long int)val_idx] = (char)0;
                 break;
               }
 
             case 38:
             {
-              return_value_evhtp_kv_new$11=evhtp_kv_new(key_buf, val_buf, (char)1, (char)1);
-              evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new$11);
+              return_value_evhtp_kv_new_11=evhtp_kv_new(key_buf, val_buf, (char)1, (char)1);
+              evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new_11);
               key_idx = (unsigned long int)0;
               val_idx = (unsigned long int)0;
               key_buf[(signed long int)0] = (char)0;
               val_buf[(signed long int)0] = (char)0;
-              state = (enum anonymous$14)s_query_key;
+              state = (enum anonymous_14)s_query_key;
               break;
             }
             case 37:
             {
-              tmp_post$12 = val_idx;
+              tmp_post_12 = val_idx;
               val_idx = val_idx + 1ul;
-              val_buf[(signed long int)tmp_post$12] = (char)ch;
+              val_buf[(signed long int)tmp_post_12] = (char)ch;
               val_buf[(signed long int)val_idx] = (char)0;
               if((1 & flags) == 0)
-                state = (enum anonymous$14)s_query_val_hex_1;
+                state = (enum anonymous_14)s_query_val_hex_1;
 
               break;
             }
             default:
             {
-              tmp_post$13 = val_idx;
+              tmp_post_13 = val_idx;
               val_idx = val_idx + 1ul;
-              val_buf[(signed long int)tmp_post$13] = (char)ch;
+              val_buf[(signed long int)tmp_post_13] = (char)ch;
               val_buf[(signed long int)val_idx] = (char)0;
             }
           }
@@ -9500,8 +9500,8 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
         }
         case s_query_val_hex_1:
         {
-          return_value_evhtp_is_hex_query_char$15=evhtp_is_hex_query_char(ch);
-          if(return_value_evhtp_is_hex_query_char$15 == 0)
+          return_value_evhtp_is_hex_query_char_15=evhtp_is_hex_query_char(ch);
+          if(return_value_evhtp_is_hex_query_char_15 == 0)
           {
             if(2ul + val_idx >= len)
               goto error;
@@ -9510,32 +9510,32 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
               goto error;
 
             val_buf[(signed long int)(val_idx - (unsigned long int)1)] = (char)37;
-            tmp_post$14 = val_idx;
+            tmp_post_14 = val_idx;
             val_idx = val_idx + 1ul;
-            val_buf[(signed long int)tmp_post$14] = (char)ch;
+            val_buf[(signed long int)tmp_post_14] = (char)ch;
             val_buf[(signed long int)val_idx] = (char)0;
-            state = (enum anonymous$14)s_query_val;
+            state = (enum anonymous_14)s_query_val;
             break;
           }
 
-          tmp_post$16 = val_idx;
+          tmp_post_16 = val_idx;
           val_idx = val_idx + 1ul;
-          val_buf[(signed long int)tmp_post$16] = (char)ch;
+          val_buf[(signed long int)tmp_post_16] = (char)ch;
           val_buf[(signed long int)val_idx] = (char)0;
-          state = (enum anonymous$14)s_query_val_hex_2;
+          state = (enum anonymous_14)s_query_val_hex_2;
           break;
         }
         case s_query_val_hex_2:
         {
-          return_value_evhtp_is_hex_query_char$17=evhtp_is_hex_query_char(ch);
-          if(return_value_evhtp_is_hex_query_char$17 == 0)
+          return_value_evhtp_is_hex_query_char_17=evhtp_is_hex_query_char(ch);
+          if(return_value_evhtp_is_hex_query_char_17 == 0)
             goto error;
 
-          tmp_post$18 = val_idx;
+          tmp_post_18 = val_idx;
           val_idx = val_idx + 1ul;
-          val_buf[(signed long int)tmp_post$18] = (char)ch;
+          val_buf[(signed long int)tmp_post_18] = (char)ch;
           val_buf[(signed long int)val_idx] = (char)0;
-          state = (enum anonymous$14)s_query_val;
+          state = (enum anonymous_14)s_query_val;
           break;
         }
         default:
@@ -9547,9 +9547,9 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
       {
         if(!(val_idx == 0ul))
         {
-          struct evhtp_kv_s *return_value_evhtp_kv_new$19;
-          return_value_evhtp_kv_new$19=evhtp_kv_new(key_buf, val_buf, (char)1, (char)1);
-          evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new$19);
+          struct evhtp_kv_s *return_value_evhtp_kv_new_19;
+          return_value_evhtp_kv_new_19=evhtp_kv_new(key_buf, val_buf, (char)1, (char)1);
+          evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new_19);
           goto __CPROVER_DUMP_L31;
         }
 
@@ -9558,18 +9558,18 @@ struct evhtp_kvs_s * evhtp_parse_query_wflags(const char *query, unsigned long i
           if((2 & flags) == 0)
             goto error;
 
-          struct evhtp_kv_s *return_value_evhtp_kv_new$20;
-          return_value_evhtp_kv_new$20=evhtp_kv_new(key_buf, "", (char)1, (char)1);
-          evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new$20);
+          struct evhtp_kv_s *return_value_evhtp_kv_new_20;
+          return_value_evhtp_kv_new_20=evhtp_kv_new(key_buf, "", (char)1, (char)1);
+          evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new_20);
           break;
         }
 
         if((4 & flags) == 0)
           goto error;
 
-        struct evhtp_kv_s *return_value_evhtp_kv_new$21;
-        return_value_evhtp_kv_new$21=evhtp_kv_new(key_buf, (const char *)(void *)0, (char)1, (char)0);
-        evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new$21);
+        struct evhtp_kv_s *return_value_evhtp_kv_new_21;
+        return_value_evhtp_kv_new_21=evhtp_kv_new(key_buf, (const char *)(void *)0, (char)1, (char)0);
+        evhtp_kvs_add_kv(query_args, return_value_evhtp_kv_new_21);
       }
       while((_Bool)0);
 
@@ -9595,9 +9595,9 @@ void evhtp_request_free(struct evhtp_request_s *request)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3939
 struct bufferevent * evhtp_request_get_bev(struct evhtp_request_s *request)
 {
-  struct bufferevent *return_value_evhtp_connection_get_bev$1;
-  return_value_evhtp_connection_get_bev$1=evhtp_connection_get_bev(request->conn);
-  return return_value_evhtp_connection_get_bev$1;
+  struct bufferevent *return_value_evhtp_connection_get_bev_1;
+  return_value_evhtp_connection_get_bev_1=evhtp_connection_get_bev(request->conn);
+  return return_value_evhtp_connection_get_bev_1;
 }
 
 // evhtp_request_get_connection
@@ -9638,9 +9638,9 @@ enum htp_method evhtp_request_get_method(struct evhtp_request_s *r)
     }
 
   while((_Bool)0);
-  enum htp_method return_value_htparser_get_method$1;
-  return_value_htparser_get_method$1=htparser_get_method(r->conn->parser);
-  return return_value_htparser_get_method$1;
+  enum htp_method return_value_htparser_get_method_1;
+  return_value_htparser_get_method_1=htparser_get_method(r->conn->parser);
+  return return_value_htparser_get_method_1;
 }
 
 // evhtp_request_get_proto
@@ -9729,20 +9729,20 @@ void evhtp_request_set_max_body_size(struct evhtp_request_s *req, unsigned long 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4379
 unsigned int evhtp_request_status(struct evhtp_request_s *r)
 {
-  unsigned int return_value_htparser_get_status$1;
-  return_value_htparser_get_status$1=htparser_get_status(r->conn->parser);
-  return return_value_htparser_get_status$1;
+  unsigned int return_value_htparser_get_status_1;
+  return_value_htparser_get_status_1=htparser_get_status(r->conn->parser);
+  return return_value_htparser_get_status_1;
 }
 
 // evhtp_request_take_ownership
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3944
 struct bufferevent * evhtp_request_take_ownership(struct evhtp_request_s *request)
 {
-  struct evhtp_connection_s *return_value_evhtp_request_get_connection$1;
-  return_value_evhtp_request_get_connection$1=evhtp_request_get_connection(request);
-  struct bufferevent *return_value_evhtp_connection_take_ownership$2;
-  return_value_evhtp_connection_take_ownership$2=evhtp_connection_take_ownership(return_value_evhtp_request_get_connection$1);
-  return return_value_evhtp_connection_take_ownership$2;
+  struct evhtp_connection_s *return_value_evhtp_request_get_connection_1;
+  return_value_evhtp_request_get_connection_1=evhtp_request_get_connection(request);
+  struct bufferevent *return_value_evhtp_connection_take_ownership_2;
+  return_value_evhtp_connection_take_ownership_2=evhtp_connection_take_ownership(return_value_evhtp_request_get_connection_1);
+  return return_value_evhtp_connection_take_ownership_2;
 }
 
 // evhtp_response_needs_body
@@ -9766,9 +9766,9 @@ void evhtp_send_reply(struct evhtp_request_s *request, unsigned short int code)
 
   else
   {
-    struct bufferevent *return_value_evhtp_connection_get_bev$1;
-    return_value_evhtp_connection_get_bev$1=evhtp_connection_get_bev(c);
-    bufferevent_write_buffer(return_value_evhtp_connection_get_bev$1, reply_buf);
+    struct bufferevent *return_value_evhtp_connection_get_bev_1;
+    return_value_evhtp_connection_get_bev_1=evhtp_connection_get_bev(c);
+    bufferevent_write_buffer(return_value_evhtp_connection_get_bev_1, reply_buf);
     evbuffer_drain(reply_buf, (unsigned long int)-1);
   }
 }
@@ -9786,16 +9786,16 @@ void evhtp_send_reply_body(struct evhtp_request_s *request, struct evbuffer *buf
 void evhtp_send_reply_chunk(struct evhtp_request_s *request, struct evbuffer *buf)
 {
   struct evbuffer *output;
-  unsigned long int return_value_evbuffer_get_length$1;
-  return_value_evbuffer_get_length$1=evbuffer_get_length(buf);
-  if(!(return_value_evbuffer_get_length$1 == 0ul))
+  unsigned long int return_value_evbuffer_get_length_1;
+  return_value_evbuffer_get_length_1=evbuffer_get_length(buf);
+  if(!(return_value_evbuffer_get_length_1 == 0ul))
   {
     output=bufferevent_get_output(request->conn->bev);
     if((signed int)request->chunked == 1)
     {
-      unsigned long int return_value_evbuffer_get_length$2;
-      return_value_evbuffer_get_length$2=evbuffer_get_length(buf);
-      evbuffer_add_printf(output, "%x\r\n", (unsigned int)return_value_evbuffer_get_length$2);
+      unsigned long int return_value_evbuffer_get_length_2;
+      return_value_evbuffer_get_length_2=evbuffer_get_length(buf);
+      evbuffer_add_printf(output, "%x\r\n", (unsigned int)return_value_evbuffer_get_length_2);
     }
 
     evhtp_send_reply_body(request, buf);
@@ -9813,11 +9813,11 @@ void evhtp_send_reply_chunk_end(struct evhtp_request_s *request)
 {
   if((signed int)request->chunked == 1)
   {
-    struct bufferevent *return_value_evhtp_request_get_bev$1;
-    return_value_evhtp_request_get_bev$1=evhtp_request_get_bev(request);
-    struct evbuffer *return_value_bufferevent_get_output$2;
-    return_value_bufferevent_get_output$2=bufferevent_get_output(return_value_evhtp_request_get_bev$1);
-    evbuffer_add(return_value_bufferevent_get_output$2, (const void *)"0\r\n\r\n", (unsigned long int)5);
+    struct bufferevent *return_value_evhtp_request_get_bev_1;
+    return_value_evhtp_request_get_bev_1=evhtp_request_get_bev(request);
+    struct evbuffer *return_value_bufferevent_get_output_2;
+    return_value_bufferevent_get_output_2=bufferevent_get_output(return_value_evhtp_request_get_bev_1);
+    evbuffer_add(return_value_bufferevent_get_output_2, (const void *)"0\r\n\r\n", (unsigned long int)5);
   }
 
   evhtp_send_reply_end(request);
@@ -9828,9 +9828,9 @@ void evhtp_send_reply_chunk_end(struct evhtp_request_s *request)
 void evhtp_send_reply_chunk_start(struct evhtp_request_s *request, unsigned short int code)
 {
   struct evhtp_kv_s *content_len;
-  signed int return_value_evhtp_response_needs_body$1;
-  return_value_evhtp_response_needs_body$1=evhtp_response_needs_body(code, request->method);
-  if(!(return_value_evhtp_response_needs_body$1 == 0))
+  signed int return_value_evhtp_response_needs_body_1;
+  return_value_evhtp_response_needs_body_1=evhtp_response_needs_body(code, request->method);
+  if(!(return_value_evhtp_response_needs_body_1 == 0))
   {
     content_len=evhtp_kvs_find_kv(request->headers_out, "Content-Length");
     switch((signed int)request->proto)
@@ -9856,24 +9856,24 @@ void evhtp_send_reply_chunk_start(struct evhtp_request_s *request, unsigned shor
     request->chunked = (unsigned char)0;
   if((signed int)request->chunked == 1)
   {
-    struct evhtp_kv_s *return_value_evhtp_kv_new$2;
-    return_value_evhtp_kv_new$2=evhtp_kv_new("Transfer-Encoding", "chunked", (char)0, (char)0);
-    evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new$2);
-    unsigned long int return_value_evbuffer_get_length$5;
-    return_value_evbuffer_get_length$5=evbuffer_get_length(request->buffer_out);
-    if(return_value_evbuffer_get_length$5 >= 1ul)
+    struct evhtp_kv_s *return_value_evhtp_kv_new_2;
+    return_value_evhtp_kv_new_2=evhtp_kv_new("Transfer-Encoding", "chunked", (char)0, (char)0);
+    evhtp_kvs_add_kv(request->headers_out, return_value_evhtp_kv_new_2);
+    unsigned long int return_value_evbuffer_get_length_5;
+    return_value_evbuffer_get_length_5=evbuffer_get_length(request->buffer_out);
+    if(return_value_evbuffer_get_length_5 >= 1ul)
     {
       char lstr[128l];
       signed int sres;
-      unsigned long int return_value_evbuffer_get_length$3;
-      return_value_evbuffer_get_length$3=evbuffer_get_length(request->buffer_out);
-      sres=snprintf(lstr, sizeof(char [128l]) /*128ul*/ , "%x\r\n", (unsigned int)return_value_evbuffer_get_length$3);
+      unsigned long int return_value_evbuffer_get_length_3;
+      return_value_evbuffer_get_length_3=evbuffer_get_length(request->buffer_out);
+      sres=snprintf(lstr, sizeof(char [128l]) /*128ul*/ , "%x\r\n", (unsigned int)return_value_evbuffer_get_length_3);
       if((unsigned long int)sres >= sizeof(char [128l]) /*128ul*/  || !(sres >= 0))
         goto end;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(lstr);
-      evbuffer_prepend(request->buffer_out, (const void *)lstr, return_value_strlen$4);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(lstr);
+      evbuffer_prepend(request->buffer_out, (const void *)lstr, return_value_strlen_4);
       evbuffer_add(request->buffer_out, (const void *)"\r\n", (unsigned long int)2);
     }
 
@@ -9923,19 +9923,19 @@ struct evhtp_callback_s * evhtp_set_cb(struct evhtp_s *htp, const char *path, vo
 {
   struct evhtp_callback_s *hcb;
   do
-    if(!(htp->lock == ((union anonymous$8 *)NULL)))
+    if(!(htp->lock == ((union anonymous_8 *)NULL)))
       pthread_mutex_lock(htp->lock);
 
   while((_Bool)0);
   if(htp->callbacks == ((struct evhtp_callbacks_s *)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct evhtp_callbacks_s) /*16ul*/ , (unsigned long int)1);
-    htp->callbacks = (struct evhtp_callbacks_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct evhtp_callbacks_s) /*16ul*/ , (unsigned long int)1);
+    htp->callbacks = (struct evhtp_callbacks_s *)return_value_calloc_1;
     if(htp->callbacks == ((struct evhtp_callbacks_s *)NULL))
     {
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -9954,7 +9954,7 @@ struct evhtp_callback_s * evhtp_set_cb(struct evhtp_s *htp, const char *path, vo
   if(hcb == ((struct evhtp_callback_s *)NULL))
   {
     do
-      if(!(htp->lock == ((union anonymous$8 *)NULL)))
+      if(!(htp->lock == ((union anonymous_8 *)NULL)))
         pthread_mutex_unlock(htp->lock);
 
     while((_Bool)0);
@@ -9963,9 +9963,9 @@ struct evhtp_callback_s * evhtp_set_cb(struct evhtp_s *htp, const char *path, vo
 
   else
   {
-    signed int return_value_evhtp_callbacks_add_callback$2;
-    return_value_evhtp_callbacks_add_callback$2=evhtp_callbacks_add_callback(htp->callbacks, hcb);
-    if(!(return_value_evhtp_callbacks_add_callback$2 == 0))
+    signed int return_value_evhtp_callbacks_add_callback_2;
+    return_value_evhtp_callbacks_add_callback_2=evhtp_callbacks_add_callback(htp->callbacks, hcb);
+    if(!(return_value_evhtp_callbacks_add_callback_2 == 0))
     {
       do
       {
@@ -9974,7 +9974,7 @@ struct evhtp_callback_s * evhtp_set_cb(struct evhtp_s *htp, const char *path, vo
       }
       while((_Bool)0);
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -9984,7 +9984,7 @@ struct evhtp_callback_s * evhtp_set_cb(struct evhtp_s *htp, const char *path, vo
     else
     {
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -10007,19 +10007,19 @@ struct evhtp_callback_s * evhtp_set_glob_cb(struct evhtp_s *htp, const char *pat
 {
   struct evhtp_callback_s *hcb;
   do
-    if(!(htp->lock == ((union anonymous$8 *)NULL)))
+    if(!(htp->lock == ((union anonymous_8 *)NULL)))
       pthread_mutex_lock(htp->lock);
 
   while((_Bool)0);
   if(htp->callbacks == ((struct evhtp_callbacks_s *)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct evhtp_callbacks_s) /*16ul*/ , (unsigned long int)1);
-    htp->callbacks = (struct evhtp_callbacks_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct evhtp_callbacks_s) /*16ul*/ , (unsigned long int)1);
+    htp->callbacks = (struct evhtp_callbacks_s *)return_value_calloc_1;
     if(htp->callbacks == ((struct evhtp_callbacks_s *)NULL))
     {
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -10038,7 +10038,7 @@ struct evhtp_callback_s * evhtp_set_glob_cb(struct evhtp_s *htp, const char *pat
   if(hcb == ((struct evhtp_callback_s *)NULL))
   {
     do
-      if(!(htp->lock == ((union anonymous$8 *)NULL)))
+      if(!(htp->lock == ((union anonymous_8 *)NULL)))
         pthread_mutex_unlock(htp->lock);
 
     while((_Bool)0);
@@ -10047,9 +10047,9 @@ struct evhtp_callback_s * evhtp_set_glob_cb(struct evhtp_s *htp, const char *pat
 
   else
   {
-    signed int return_value_evhtp_callbacks_add_callback$2;
-    return_value_evhtp_callbacks_add_callback$2=evhtp_callbacks_add_callback(htp->callbacks, hcb);
-    if(!(return_value_evhtp_callbacks_add_callback$2 == 0))
+    signed int return_value_evhtp_callbacks_add_callback_2;
+    return_value_evhtp_callbacks_add_callback_2=evhtp_callbacks_add_callback(htp->callbacks, hcb);
+    if(!(return_value_evhtp_callbacks_add_callback_2 == 0))
     {
       do
       {
@@ -10058,7 +10058,7 @@ struct evhtp_callback_s * evhtp_set_glob_cb(struct evhtp_s *htp, const char *pat
       }
       while((_Bool)0);
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -10068,7 +10068,7 @@ struct evhtp_callback_s * evhtp_set_glob_cb(struct evhtp_s *htp, const char *pat
     else
     {
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -10083,9 +10083,9 @@ signed int evhtp_set_hook(struct evhtp_hooks_s **hooks, enum evhtp_hook_type typ
 {
   if(*hooks == ((struct evhtp_hooks_s *)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct evhtp_hooks_s) /*240ul*/ , (unsigned long int)1);
-    *hooks = (struct evhtp_hooks_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct evhtp_hooks_s) /*240ul*/ , (unsigned long int)1);
+    *hooks = (struct evhtp_hooks_s *)return_value_calloc_1;
     if(*hooks == ((struct evhtp_hooks_s *)NULL))
       return -1;
 
@@ -10232,19 +10232,19 @@ struct evhtp_callback_s * evhtp_set_regex_cb(struct evhtp_s *htp, const char *pa
 {
   struct evhtp_callback_s *hcb;
   do
-    if(!(htp->lock == ((union anonymous$8 *)NULL)))
+    if(!(htp->lock == ((union anonymous_8 *)NULL)))
       pthread_mutex_lock(htp->lock);
 
   while((_Bool)0);
   if(htp->callbacks == ((struct evhtp_callbacks_s *)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct evhtp_callbacks_s) /*16ul*/ , (unsigned long int)1);
-    htp->callbacks = (struct evhtp_callbacks_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct evhtp_callbacks_s) /*16ul*/ , (unsigned long int)1);
+    htp->callbacks = (struct evhtp_callbacks_s *)return_value_calloc_1;
     if(htp->callbacks == ((struct evhtp_callbacks_s *)NULL))
     {
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -10263,7 +10263,7 @@ struct evhtp_callback_s * evhtp_set_regex_cb(struct evhtp_s *htp, const char *pa
   if(hcb == ((struct evhtp_callback_s *)NULL))
   {
     do
-      if(!(htp->lock == ((union anonymous$8 *)NULL)))
+      if(!(htp->lock == ((union anonymous_8 *)NULL)))
         pthread_mutex_unlock(htp->lock);
 
     while((_Bool)0);
@@ -10272,9 +10272,9 @@ struct evhtp_callback_s * evhtp_set_regex_cb(struct evhtp_s *htp, const char *pa
 
   else
   {
-    signed int return_value_evhtp_callbacks_add_callback$2;
-    return_value_evhtp_callbacks_add_callback$2=evhtp_callbacks_add_callback(htp->callbacks, hcb);
-    if(!(return_value_evhtp_callbacks_add_callback$2 == 0))
+    signed int return_value_evhtp_callbacks_add_callback_2;
+    return_value_evhtp_callbacks_add_callback_2=evhtp_callbacks_add_callback(htp->callbacks, hcb);
+    if(!(return_value_evhtp_callbacks_add_callback_2 == 0))
     {
       do
       {
@@ -10283,7 +10283,7 @@ struct evhtp_callback_s * evhtp_set_regex_cb(struct evhtp_s *htp, const char *pa
       }
       while((_Bool)0);
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -10293,7 +10293,7 @@ struct evhtp_callback_s * evhtp_set_regex_cb(struct evhtp_s *htp, const char *pa
     else
     {
       do
-        if(!(htp->lock == ((union anonymous$8 *)NULL)))
+        if(!(htp->lock == ((union anonymous_8 *)NULL)))
           pthread_mutex_unlock(htp->lock);
 
       while((_Bool)0);
@@ -10319,16 +10319,16 @@ void evhtp_set_timeouts(struct evhtp_s *htp, struct timeval *r_timeo, struct tim
 signed int evhtp_ssl_init(struct evhtp_s *htp, struct evhtp_ssl_cfg_s *cfg)
 {
   signed long int cache_mode;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(htp == ((struct evhtp_s *)NULL) || cfg == ((struct evhtp_ssl_cfg_s *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = cfg->pemfile == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  char *tmp_if_expr$4;
-  signed long int tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = cfg->pemfile == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  char *tmp_if_expr_4;
+  signed long int tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -10337,9 +10337,9 @@ signed int evhtp_ssl_init(struct evhtp_s *htp, struct evhtp_ssl_cfg_s *cfg)
     SSL_load_error_strings();
     RAND_poll();
     htp->ssl_cfg = cfg;
-    const struct ssl_method_st *return_value_SSLv23_server_method$2;
-    return_value_SSLv23_server_method$2=SSLv23_server_method();
-    htp->ssl_ctx=SSL_CTX_new(return_value_SSLv23_server_method$2);
+    const struct ssl_method_st *return_value_SSLv23_server_method_2;
+    return_value_SSLv23_server_method_2=SSLv23_server_method();
+    htp->ssl_ctx=SSL_CTX_new(return_value_SSLv23_server_method_2);
     do
       if(htp->ssl_ctx == ((struct ssl_ctx_st *)NULL))
       {
@@ -10395,9 +10395,9 @@ signed int evhtp_ssl_init(struct evhtp_s *htp, struct evhtp_ssl_cfg_s *cfg)
       SSL_CTX_set_cipher_list(htp->ssl_ctx, cfg->ciphers);
 
     SSL_CTX_load_verify_locations(htp->ssl_ctx, cfg->cafile, cfg->capath);
-    struct x509_store_st *return_value_SSL_CTX_get_cert_store$3;
-    return_value_SSL_CTX_get_cert_store$3=SSL_CTX_get_cert_store(htp->ssl_ctx);
-    X509_STORE_set_flags(return_value_SSL_CTX_get_cert_store$3, (unsigned long int)cfg->store_flags);
+    struct x509_store_st *return_value_SSL_CTX_get_cert_store_3;
+    return_value_SSL_CTX_get_cert_store_3=SSL_CTX_get_cert_store(htp->ssl_ctx);
+    X509_STORE_set_flags(return_value_SSL_CTX_get_cert_store_3, (unsigned long int)cfg->store_flags);
     SSL_CTX_set_verify(htp->ssl_ctx, cfg->verify_peer, cfg->x509_verify_cb);
     if(!(cfg->x509_chk_issued_cb == ((signed int (*)(struct x509_store_ctx_st *, struct x509_st *, struct x509_st *))NULL)))
       htp->ssl_ctx->cert_store->check_issued = cfg->x509_chk_issued_cb;
@@ -10426,28 +10426,28 @@ signed int evhtp_ssl_init(struct evhtp_s *htp, struct evhtp_ssl_cfg_s *cfg)
     ;
     SSL_CTX_use_certificate_file(htp->ssl_ctx, cfg->pemfile, 1);
     if(!(cfg->privfile == ((char *)NULL)))
-      tmp_if_expr$4 = cfg->privfile;
+      tmp_if_expr_4 = cfg->privfile;
 
     else
-      tmp_if_expr$4 = cfg->pemfile;
-    SSL_CTX_use_PrivateKey_file(htp->ssl_ctx, tmp_if_expr$4, 1);
+      tmp_if_expr_4 = cfg->pemfile;
+    SSL_CTX_use_PrivateKey_file(htp->ssl_ctx, tmp_if_expr_4, 1);
     SSL_CTX_set_session_id_context(htp->ssl_ctx, (const unsigned char *)(void *)&session_id_context, (unsigned int)sizeof(signed int) /*4ul*/ );
     SSL_CTX_set_ex_data(htp->ssl_ctx, 0, (void *)(char *)htp);
     SSL_CTX_ctrl(htp->ssl_ctx, 44, cache_mode, (void *)0);
     if(!(cache_mode == 0l))
     {
       if(!(cfg->scache_size == 0l))
-        tmp_if_expr$5 = cfg->scache_size;
+        tmp_if_expr_5 = cfg->scache_size;
 
       else
-        tmp_if_expr$5 = (signed long int)1024;
-      SSL_CTX_ctrl(htp->ssl_ctx, 42, tmp_if_expr$5, (void *)0);
+        tmp_if_expr_5 = (signed long int)1024;
+      SSL_CTX_ctrl(htp->ssl_ctx, 42, tmp_if_expr_5, (void *)0);
       if((signed int)cfg->scache_type == evhtp_ssl_scache_type_builtin)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)cfg->scache_type == evhtp_ssl_scache_type_user ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)cfg->scache_type == evhtp_ssl_scache_type_user ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         SSL_CTX_sess_set_new_cb(htp->ssl_ctx, _evhtp_ssl_add_scache_ent);
         SSL_CTX_sess_set_get_cb(htp->ssl_ctx, _evhtp_ssl_get_scache_ent);
@@ -10475,12 +10475,12 @@ signed int evhtp_ssl_use_threads(void)
   {
     ssl_locks_initialized = 1;
     ssl_num_locks=CRYPTO_num_locks();
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)ssl_num_locks * sizeof(union anonymous$8) /*40ul*/ );
-    ssl_locks = (union anonymous$8 *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)ssl_num_locks * sizeof(union anonymous_8) /*40ul*/ );
+    ssl_locks = (union anonymous_8 *)return_value_malloc_1;
     i = 0;
     for( ; !(i >= ssl_num_locks); i = i + 1)
-      pthread_mutex_init(&ssl_locks[(signed long int)i], (const union anonymous$9 *)(void *)0);
+      pthread_mutex_init(&ssl_locks[(signed long int)i], (const union anonymous_9 *)(void *)0);
     CRYPTO_set_id_callback(_evhtp_ssl_get_thread_id);
     CRYPTO_set_locking_callback(_evhtp_ssl_thread_lock);
     return 0;
@@ -10510,18 +10510,18 @@ signed int evhtp_unescape_string(unsigned char **out, unsigned char *str, unsign
   unsigned char c;
   unsigned long int i;
   enum unscape_state state;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(out == ((unsigned char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *out == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = *out == (unsigned char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -10533,9 +10533,9 @@ signed int evhtp_unescape_string(unsigned char **out, unsigned char *str, unsign
     i = (unsigned long int)0;
     for( ; !(i >= str_len); i = i + 1ul)
     {
-      tmp_post$2 = sptr;
+      tmp_post_2 = sptr;
       sptr = sptr + 1l;
-      ch = *tmp_post$2;
+      ch = *tmp_post_2;
       switch((signed int)state)
       {
         case unscape_state_start:
@@ -10546,9 +10546,9 @@ signed int evhtp_unescape_string(unsigned char **out, unsigned char *str, unsign
             break;
           }
 
-          tmp_post$3 = optr;
+          tmp_post_3 = optr;
           optr = optr + 1l;
-          *tmp_post$3 = ch;
+          *tmp_post_3 = ch;
           break;
         }
         case unscape_state_hex1:
@@ -10569,9 +10569,9 @@ signed int evhtp_unescape_string(unsigned char **out, unsigned char *str, unsign
           }
 
           state = (enum unscape_state)unscape_state_start;
-          tmp_post$4 = optr;
+          tmp_post_4 = optr;
           optr = optr + 1l;
-          *tmp_post$4 = ch;
+          *tmp_post_4 = ch;
           break;
         }
         case unscape_state_hex2:
@@ -10580,9 +10580,9 @@ signed int evhtp_unescape_string(unsigned char **out, unsigned char *str, unsign
           if((signed int)ch >= 48 && !((signed int)ch >= 58))
           {
             ch = (unsigned char)((((signed int)d << 4) + (signed int)ch) - 48);
-            tmp_post$5 = optr;
+            tmp_post_5 = optr;
             optr = optr + 1l;
-            *tmp_post$5 = ch;
+            *tmp_post_5 = ch;
           }
 
           else
@@ -10591,9 +10591,9 @@ signed int evhtp_unescape_string(unsigned char **out, unsigned char *str, unsign
             if((signed int)c >= 97 && !((signed int)c >= 103))
             {
               ch = (unsigned char)(((((signed int)d << 4) + (signed int)c) - 97) + 10);
-              tmp_post$6 = optr;
+              tmp_post_6 = optr;
               optr = optr + 1l;
-              *tmp_post$6 = ch;
+              *tmp_post_6 = ch;
             }
 
           }
@@ -10609,81 +10609,81 @@ signed int evhtp_unescape_string(unsigned char **out, unsigned char *str, unsign
 signed int evhtp_unset_all_hooks(struct evhtp_hooks_s **hooks)
 {
   signed int res = 0;
-  signed int return_value_evhtp_unset_hook$1;
-  return_value_evhtp_unset_hook$1=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_headers_start);
-  if(!(return_value_evhtp_unset_hook$1 == 0))
+  signed int return_value_evhtp_unset_hook_1;
+  return_value_evhtp_unset_hook_1=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_headers_start);
+  if(!(return_value_evhtp_unset_hook_1 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$2;
-  return_value_evhtp_unset_hook$2=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_header);
-  if(!(return_value_evhtp_unset_hook$2 == 0))
+  signed int return_value_evhtp_unset_hook_2;
+  return_value_evhtp_unset_hook_2=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_header);
+  if(!(return_value_evhtp_unset_hook_2 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$3;
-  return_value_evhtp_unset_hook$3=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_headers);
-  if(!(return_value_evhtp_unset_hook$3 == 0))
+  signed int return_value_evhtp_unset_hook_3;
+  return_value_evhtp_unset_hook_3=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_headers);
+  if(!(return_value_evhtp_unset_hook_3 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$4;
-  return_value_evhtp_unset_hook$4=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_path);
-  if(!(return_value_evhtp_unset_hook$4 == 0))
+  signed int return_value_evhtp_unset_hook_4;
+  return_value_evhtp_unset_hook_4=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_path);
+  if(!(return_value_evhtp_unset_hook_4 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$5;
-  return_value_evhtp_unset_hook$5=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_read);
-  if(!(return_value_evhtp_unset_hook$5 == 0))
+  signed int return_value_evhtp_unset_hook_5;
+  return_value_evhtp_unset_hook_5=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_read);
+  if(!(return_value_evhtp_unset_hook_5 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$6;
-  return_value_evhtp_unset_hook$6=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_request_fini);
-  if(!(return_value_evhtp_unset_hook$6 == 0))
+  signed int return_value_evhtp_unset_hook_6;
+  return_value_evhtp_unset_hook_6=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_request_fini);
+  if(!(return_value_evhtp_unset_hook_6 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$7;
-  return_value_evhtp_unset_hook$7=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_connection_fini);
-  if(!(return_value_evhtp_unset_hook$7 == 0))
+  signed int return_value_evhtp_unset_hook_7;
+  return_value_evhtp_unset_hook_7=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_connection_fini);
+  if(!(return_value_evhtp_unset_hook_7 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$8;
-  return_value_evhtp_unset_hook$8=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_conn_error);
-  if(!(return_value_evhtp_unset_hook$8 == 0))
+  signed int return_value_evhtp_unset_hook_8;
+  return_value_evhtp_unset_hook_8=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_conn_error);
+  if(!(return_value_evhtp_unset_hook_8 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$9;
-  return_value_evhtp_unset_hook$9=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_error);
-  if(!(return_value_evhtp_unset_hook$9 == 0))
+  signed int return_value_evhtp_unset_hook_9;
+  return_value_evhtp_unset_hook_9=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_error);
+  if(!(return_value_evhtp_unset_hook_9 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$10;
-  return_value_evhtp_unset_hook$10=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_new_chunk);
-  if(!(return_value_evhtp_unset_hook$10 == 0))
+  signed int return_value_evhtp_unset_hook_10;
+  return_value_evhtp_unset_hook_10=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_new_chunk);
+  if(!(return_value_evhtp_unset_hook_10 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$11;
-  return_value_evhtp_unset_hook$11=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_chunk_complete);
-  if(!(return_value_evhtp_unset_hook$11 == 0))
+  signed int return_value_evhtp_unset_hook_11;
+  return_value_evhtp_unset_hook_11=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_chunk_complete);
+  if(!(return_value_evhtp_unset_hook_11 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$12;
-  return_value_evhtp_unset_hook$12=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_chunks_complete);
-  if(!(return_value_evhtp_unset_hook$12 == 0))
+  signed int return_value_evhtp_unset_hook_12;
+  return_value_evhtp_unset_hook_12=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_chunks_complete);
+  if(!(return_value_evhtp_unset_hook_12 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$13;
-  return_value_evhtp_unset_hook$13=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_hostname);
-  if(!(return_value_evhtp_unset_hook$13 == 0))
+  signed int return_value_evhtp_unset_hook_13;
+  return_value_evhtp_unset_hook_13=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_hostname);
+  if(!(return_value_evhtp_unset_hook_13 == 0))
     res = res - 1;
 
-  signed int return_value_evhtp_unset_hook$14;
-  return_value_evhtp_unset_hook$14=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_write);
-  if(!(return_value_evhtp_unset_hook$14 == 0))
+  signed int return_value_evhtp_unset_hook_14;
+  return_value_evhtp_unset_hook_14=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_write);
+  if(!(return_value_evhtp_unset_hook_14 == 0))
     return -1;
 
   else
   {
-    signed int return_value_evhtp_unset_hook$15;
-    return_value_evhtp_unset_hook$15=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_event);
-    if(!(return_value_evhtp_unset_hook$15 == 0))
+    signed int return_value_evhtp_unset_hook_15;
+    return_value_evhtp_unset_hook_15=evhtp_unset_hook(hooks, (enum evhtp_hook_type)evhtp_hook_on_event);
+    if(!(return_value_evhtp_unset_hook_15 == 0))
       return -1;
 
     else
@@ -10695,9 +10695,9 @@ signed int evhtp_unset_all_hooks(struct evhtp_hooks_s **hooks)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3478
 signed int evhtp_unset_hook(struct evhtp_hooks_s **hooks, enum evhtp_hook_type type)
 {
-  signed int return_value_evhtp_set_hook$1;
-  return_value_evhtp_set_hook$1=evhtp_set_hook(hooks, type, (unsigned short int (*)())(void *)0, (void *)0);
-  return return_value_evhtp_set_hook$1;
+  signed int return_value_evhtp_set_hook_1;
+  return_value_evhtp_set_hook_1=evhtp_set_hook(hooks, type, (unsigned short int (*)())(void *)0, (void *)0);
+  return return_value_evhtp_set_hook_1;
 }
 
 // evhtp_use_callback_locks
@@ -10709,17 +10709,17 @@ signed int evhtp_use_callback_locks(struct evhtp_s *htp)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(union anonymous$8) /*40ul*/ );
-    htp->lock = (union anonymous$8 *)return_value_malloc$1;
-    if(htp->lock == ((union anonymous$8 *)NULL))
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(union anonymous_8) /*40ul*/ );
+    htp->lock = (union anonymous_8 *)return_value_malloc_1;
+    if(htp->lock == ((union anonymous_8 *)NULL))
       return -1;
 
     else
     {
-      signed int return_value_pthread_mutex_init$2;
-      return_value_pthread_mutex_init$2=pthread_mutex_init(htp->lock, (const union anonymous$9 *)(void *)0);
-      return return_value_pthread_mutex_init$2;
+      signed int return_value_pthread_mutex_init_2;
+      return_value_pthread_mutex_init_2=pthread_mutex_init(htp->lock, (const union anonymous_9 *)(void *)0);
+      return return_value_pthread_mutex_init_2;
     }
   }
 }
@@ -10747,9 +10747,9 @@ signed int evhtp_use_threads(struct evhtp_s *htp, void (*init_cb)(struct evhtp_s
 enum evthr_res evthr_defer(struct evthr *thread, void (*cb)(struct evthr *, void *, void *), void *arg)
 {
   struct evthr_cmd cmd = { .stop=(unsigned char)0, .args=arg, .cb=cb };
-  signed long int return_value_send$1;
-  return_value_send$1=send(thread->wdr, (const void *)&cmd, sizeof(struct evthr_cmd) /*17ul*/ , 0);
-  if(!(return_value_send$1 >= 1l))
+  signed long int return_value_send_1;
+  return_value_send_1=send(thread->wdr, (const void *)&cmd, sizeof(struct evthr_cmd) /*17ul*/ , 0);
+  if(!(return_value_send_1 >= 1l))
     return (enum evthr_res)EVTHR_RES_RETRY;
 
   else
@@ -10802,33 +10802,33 @@ struct evthr * evthr_new(void (*init_cb)(struct evthr *, void *), void *args)
 {
   struct evthr *thread;
   signed int fds[2l];
-  signed int return_value_evutil_socketpair$1;
-  return_value_evutil_socketpair$1=evutil_socketpair(1, 1, 0, fds);
-  if(return_value_evutil_socketpair$1 == -1)
+  signed int return_value_evutil_socketpair_1;
+  return_value_evutil_socketpair_1=evutil_socketpair(1, 1, 0, fds);
+  if(return_value_evutil_socketpair_1 == -1)
     return (struct evthr *)(void *)0;
 
   else
   {
     evutil_make_socket_nonblocking(fds[(signed long int)0]);
     evutil_make_socket_nonblocking(fds[(signed long int)1]);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc(sizeof(struct evthr) /*120ul*/ , (unsigned long int)1);
-    thread = (struct evthr *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc(sizeof(struct evthr) /*120ul*/ , (unsigned long int)1);
+    thread = (struct evthr *)return_value_calloc_2;
     if(thread == ((struct evthr *)NULL))
       return (struct evthr *)(void *)0;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(unsigned long int) /*8ul*/ );
-      thread->thr = (unsigned long int *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(unsigned long int) /*8ul*/ );
+      thread->thr = (unsigned long int *)return_value_malloc_3;
       thread->init_cb = init_cb;
       thread->arg = args;
       thread->rdr = fds[(signed long int)0];
       thread->wdr = fds[(signed long int)1];
-      signed int return_value_pthread_mutex_init$4;
-      return_value_pthread_mutex_init$4=pthread_mutex_init(&thread->lock, (const union anonymous$9 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$4 == 0))
+      signed int return_value_pthread_mutex_init_4;
+      return_value_pthread_mutex_init_4=pthread_mutex_init(&thread->lock, (const union anonymous_9 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_4 == 0))
       {
         evthr_free(thread);
         return (struct evthr *)(void *)0;
@@ -10873,9 +10873,9 @@ enum evthr_res evthr_pool_defer(struct evthr_pool *pool, void (*cb)(struct evthr
         (&pool->threads)->tqh_last = &thr->next.tqe_next;
       }
       while((_Bool)0);
-      enum evthr_res return_value_evthr_defer$1;
-      return_value_evthr_defer$1=evthr_defer(thr, cb, arg);
-      return return_value_evthr_defer$1;
+      enum evthr_res return_value_evthr_defer_1;
+      return_value_evthr_defer_1=evthr_defer(thr, cb, arg);
+      return return_value_evthr_defer_1;
     }
 }
 
@@ -10885,7 +10885,7 @@ void evthr_pool_free(struct evthr_pool *pool)
 {
   struct evthr *thread;
   struct evthr *save;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(pool == ((struct evthr_pool *)NULL)))
   {
     thread = (&pool->threads)->tqh_first;
@@ -10894,12 +10894,12 @@ void evthr_pool_free(struct evthr_pool *pool)
       if(!(thread == ((struct evthr *)NULL)))
       {
         save = thread->next.tqe_next;
-        tmp_if_expr$1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       do
@@ -10932,9 +10932,9 @@ struct evthr_pool * evthr_pool_new(signed int nthreads, void (*init_cb)(struct e
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct evthr_pool) /*24ul*/ , (unsigned long int)1);
-    pool = (struct evthr_pool *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct evthr_pool) /*24ul*/ , (unsigned long int)1);
+    pool = (struct evthr_pool *)return_value_calloc_1;
     if(pool == ((struct evthr_pool *)NULL))
       return (struct evthr_pool *)(void *)0;
 
@@ -10985,9 +10985,9 @@ signed int evthr_pool_start(struct evthr_pool *pool)
     evthr = (&pool->threads)->tqh_first;
     for( ; !(evthr == ((struct evthr *)NULL)); evthr = evthr->next.tqe_next)
     {
-      signed int return_value_evthr_start$1;
-      return_value_evthr_start$1=evthr_start(evthr);
-      if(!(return_value_evthr_start$1 >= 0))
+      signed int return_value_evthr_start_1;
+      return_value_evthr_start_1=evthr_start(evthr);
+      if(!(return_value_evthr_start_1 >= 0))
         return -1;
 
       usleep((unsigned int)5000);
@@ -11002,7 +11002,7 @@ enum evthr_res evthr_pool_stop(struct evthr_pool *pool)
 {
   struct evthr *thr;
   struct evthr *save;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pool == ((struct evthr_pool *)NULL))
     return (enum evthr_res)EVTHR_RES_FATAL;
 
@@ -11014,12 +11014,12 @@ enum evthr_res evthr_pool_stop(struct evthr_pool *pool)
       if(!(thr == ((struct evthr *)NULL)))
       {
         save = thr->next.tqe_next;
-        tmp_if_expr$1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = 1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       evthr_stop(thr);
@@ -11041,20 +11041,20 @@ void evthr_set_aux(struct evthr *thr, void *aux)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 214
 signed int evthr_start(struct evthr *thread)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(thread == ((struct evthr *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = thread->thr == (unsigned long int *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = thread->thr == (unsigned long int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
   {
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(thread->thr, (const union pthread_attr_t *)(void *)0, _evthr_loop, (void *)thread);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(thread->thr, (const union pthread_attr_t *)(void *)0, _evthr_loop, (void *)thread);
+    if(!(return_value_pthread_create_2 == 0))
       return -1;
 
     else
@@ -11067,9 +11067,9 @@ signed int evthr_start(struct evthr *thread)
 enum evthr_res evthr_stop(struct evthr *thread)
 {
   struct evthr_cmd cmd = { .stop=(unsigned char)1, .args=(void *)0, .cb=(void (*)(struct evthr *, void *, void *))(void *)0 };
-  signed long int return_value_send$1;
-  return_value_send$1=send(thread->wdr, (const void *)&cmd, sizeof(struct evthr_cmd) /*17ul*/ , 0);
-  if(!(return_value_send$1 >= 0l))
+  signed long int return_value_send_1;
+  return_value_send_1=send(thread->wdr, (const void *)&cmd, sizeof(struct evthr_cmd) /*17ul*/ , 0);
+  if(!(return_value_send_1 >= 0l))
     return (enum evthr_res)EVTHR_RES_RETRY;
 
   else
@@ -11637,9 +11637,9 @@ enum htp_method htparser_get_method(struct htparser *p)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/htparse.c line 427
 const char * htparser_get_methodstr(struct htparser *p)
 {
-  const char *return_value_htparser_get_methodstr_m$1;
-  return_value_htparser_get_methodstr_m$1=htparser_get_methodstr_m(p->method);
-  return return_value_htparser_get_methodstr_m$1;
+  const char *return_value_htparser_get_methodstr_m_1;
+  return_value_htparser_get_methodstr_m_1=htparser_get_methodstr_m(p->method);
+  return return_value_htparser_get_methodstr_m_1;
 }
 
 // htparser_get_methodstr_m
@@ -11724,9 +11724,9 @@ void htparser_init(struct htparser *p, enum htp_type type)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/htparse.h line 117
 struct htparser * htparser_new(void)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct htparser) /*8320ul*/ );
-  return (struct htparser *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct htparser) /*8320ul*/ );
+  return (struct htparser *)return_value_malloc_1;
 }
 
 // htparser_run
@@ -11745,58 +11745,58 @@ __CPROVER_DUMP_L2:
   p->error = (enum htpparse_error)htparse_error_none;
   p->bytes_read = (unsigned long int)0;
   i = (unsigned long int)0;
-  unsigned int tmp_post$1;
-  unsigned int tmp_post$2;
-  unsigned int tmp_post$3;
-  signed int return_value_is_host_char$4;
-  unsigned int tmp_post$5;
-  unsigned int tmp_post$6;
-  unsigned int tmp_post$7;
-  unsigned int tmp_post$8;
-  unsigned int tmp_post$9;
-  unsigned int tmp_post$10;
-  unsigned int tmp_post$11;
-  unsigned int tmp_post$12;
-  signed int return_value_is_host_char$14;
-  unsigned int tmp_post$13;
-  unsigned int tmp_post$15;
-  unsigned int tmp_post$16;
-  unsigned int tmp_post$17;
-  unsigned int tmp_post$18;
-  unsigned int tmp_post$19;
-  unsigned int tmp_post$20;
-  unsigned int tmp_post$21;
-  unsigned int tmp_post$22;
-  unsigned int tmp_post$23;
-  unsigned int tmp_post$24;
-  unsigned int tmp_post$25;
-  unsigned int tmp_post$26;
-  unsigned int tmp_post$27;
-  unsigned int tmp_post$28;
-  unsigned int tmp_post$29;
-  unsigned int tmp_post$30;
-  unsigned int tmp_post$31;
-  unsigned int tmp_post$32;
-  signed int return_value_strcasecmp$33;
-  signed int return_value_strcasecmp$34;
-  signed int return_value_strcasecmp$35;
-  signed int return_value_strcasecmp$36;
-  signed int return_value_strcasecmp$37;
-  signed int return_value_strcasecmp$38;
-  unsigned int tmp_post$39;
-  unsigned int tmp_post$40;
-  unsigned int tmp_post$41;
-  signed int return_value_hook_hostname_run$42;
+  unsigned int tmp_post_1;
+  unsigned int tmp_post_2;
+  unsigned int tmp_post_3;
+  signed int return_value_is_host_char_4;
+  unsigned int tmp_post_5;
+  unsigned int tmp_post_6;
+  unsigned int tmp_post_7;
+  unsigned int tmp_post_8;
+  unsigned int tmp_post_9;
+  unsigned int tmp_post_10;
+  unsigned int tmp_post_11;
+  unsigned int tmp_post_12;
+  signed int return_value_is_host_char_14;
+  unsigned int tmp_post_13;
+  unsigned int tmp_post_15;
+  unsigned int tmp_post_16;
+  unsigned int tmp_post_17;
+  unsigned int tmp_post_18;
+  unsigned int tmp_post_19;
+  unsigned int tmp_post_20;
+  unsigned int tmp_post_21;
+  unsigned int tmp_post_22;
+  unsigned int tmp_post_23;
+  unsigned int tmp_post_24;
+  unsigned int tmp_post_25;
+  unsigned int tmp_post_26;
+  unsigned int tmp_post_27;
+  unsigned int tmp_post_28;
+  unsigned int tmp_post_29;
+  unsigned int tmp_post_30;
+  unsigned int tmp_post_31;
+  unsigned int tmp_post_32;
+  signed int return_value_strcasecmp_33;
+  signed int return_value_strcasecmp_34;
+  signed int return_value_strcasecmp_35;
+  signed int return_value_strcasecmp_36;
+  signed int return_value_strcasecmp_37;
+  signed int return_value_strcasecmp_38;
+  unsigned int tmp_post_39;
+  unsigned int tmp_post_40;
+  unsigned int tmp_post_41;
+  signed int return_value_hook_hostname_run_42;
   char A_case;
   char C_case;
   const char *S_buf;
-  const char *htparser_run$$1$$3$$1$$3$$67$$2$$1$$6$$S_buf;
-  const char *htparser_run$$1$$3$$1$$3$$67$$2$$1$$8$$S_buf;
-  unsigned int tmp_post$43;
-  unsigned int tmp_post$44;
-  unsigned long int tmp_if_expr$45;
-  signed int return_value_hook_on_chunk_complete_run$46;
-  unsigned long int tmp_if_expr$47;
+  const char *htparser_run__1__3__1__3__67__2__1__6__S_buf;
+  const char *htparser_run__1__3__1__3__67__2__1__8__S_buf;
+  unsigned int tmp_post_43;
+  unsigned int tmp_post_44;
+  unsigned long int tmp_if_expr_45;
+  signed int return_value_hook_on_chunk_complete_run_46;
+  unsigned long int tmp_if_expr_47;
   for( ; !(i >= len); i = i + 1ul)
   {
     signed int res;
@@ -11845,9 +11845,9 @@ __CPROVER_DUMP_L2:
         p->path_offset = (char *)(void *)0;
         p->args_offset = (char *)(void *)0;
         res=hook_on_msg_begin_run(p, hooks);
-        tmp_post$1 = p->buf_idx;
+        tmp_post_1 = p->buf_idx;
         p->buf_idx = p->buf_idx + 1u;
-        p->buf[(signed long int)tmp_post$1] = (char)ch;
+        p->buf[(signed long int)tmp_post_1] = (char)ch;
         p->buf[(signed long int)p->buf_idx] = (char)0;
         if((signed int)p->type == htp_type_request)
           p->state = (enum parser_state)s_method;
@@ -11899,9 +11899,9 @@ __CPROVER_DUMP_L2:
               return i + (unsigned long int)1;
             }
 
-            tmp_post$2 = p->buf_idx;
+            tmp_post_2 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$2] = (char)ch;
+            p->buf[(signed long int)tmp_post_2] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
           }
           i = i + 1ul;
@@ -11928,9 +11928,9 @@ __CPROVER_DUMP_L2:
               break;
             case 91:
             {
-              tmp_post$3 = p->buf_idx;
+              tmp_post_3 = p->buf_idx;
               p->buf_idx = p->buf_idx + 1u;
-              p->buf[(signed long int)tmp_post$3] = (char)ch;
+              p->buf[(signed long int)tmp_post_3] = (char)ch;
               p->buf[(signed long int)p->buf_idx] = (char)0;
               p->host_offset = &p->buf[(signed long int)p->buf_idx];
               p->state = (enum parser_state)s_host_ipv6;
@@ -11938,17 +11938,17 @@ __CPROVER_DUMP_L2:
             }
             default:
             {
-              return_value_is_host_char$4=is_host_char(ch);
-              if(return_value_is_host_char$4 == 0)
+              return_value_is_host_char_4=is_host_char(ch);
+              if(return_value_is_host_char_4 == 0)
               {
                 p->error = (enum htpparse_error)htparse_error_inval_reqline;
                 return i + (unsigned long int)1;
               }
 
               p->host_offset = &p->buf[(signed long int)p->buf_idx];
-              tmp_post$5 = p->buf_idx;
+              tmp_post_5 = p->buf_idx;
               p->buf_idx = p->buf_idx + 1u;
-              p->buf[(signed long int)tmp_post$5] = (char)ch;
+              p->buf[(signed long int)tmp_post_5] = (char)ch;
               p->buf[(signed long int)p->buf_idx] = (char)0;
               p->state = (enum parser_state)s_host;
             }
@@ -11963,9 +11963,9 @@ __CPROVER_DUMP_L2:
           case 47:
           {
             p->path_offset = &p->buf[(signed long int)p->buf_idx];
-            tmp_post$6 = p->buf_idx;
+            tmp_post_6 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$6] = (char)ch;
+            p->buf[(signed long int)tmp_post_6] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_after_slash_in_uri;
             break;
@@ -11976,9 +11976,9 @@ __CPROVER_DUMP_L2:
             if((signed int)c >= 97 && !((signed int)c >= 123))
             {
               p->scheme_offset = &p->buf[(signed long int)p->buf_idx];
-              tmp_post$7 = p->buf_idx;
+              tmp_post_7 = p->buf_idx;
               p->buf_idx = p->buf_idx + 1u;
-              p->buf[(signed long int)tmp_post$7] = (char)ch;
+              p->buf[(signed long int)tmp_post_7] = (char)ch;
               p->buf[(signed long int)p->buf_idx] = (char)0;
               p->state = (enum parser_state)s_schema;
             }
@@ -12000,9 +12000,9 @@ __CPROVER_DUMP_L2:
         c = (char)(unsigned char)((signed int)ch | 0x20);
         if((signed int)c >= 97 && !((signed int)c >= 123))
         {
-          tmp_post$8 = p->buf_idx;
+          tmp_post_8 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$8] = (char)ch;
+          p->buf[(signed long int)tmp_post_8] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           break;
         }
@@ -12048,9 +12048,9 @@ __CPROVER_DUMP_L2:
 
           }
           res=hook_scheme_run(p, hooks, p->scheme_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->scheme_offset));
-          tmp_post$9 = p->buf_idx;
+          tmp_post_9 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$9] = (char)ch;
+          p->buf[(signed long int)tmp_post_9] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           p->state = (enum parser_state)s_schema_slash;
           if(!(res == 0))
@@ -12076,9 +12076,9 @@ __CPROVER_DUMP_L2:
         ;
         if((signed int)ch == 47)
         {
-          tmp_post$10 = p->buf_idx;
+          tmp_post_10 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$10] = (char)ch;
+          p->buf[(signed long int)tmp_post_10] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           p->state = (enum parser_state)s_schema_slash_slash;
           goto __CPROVER_DUMP_L47;
@@ -12098,9 +12098,9 @@ __CPROVER_DUMP_L2:
         ;
         if((signed int)ch == 47)
         {
-          tmp_post$11 = p->buf_idx;
+          tmp_post_11 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$11] = (char)ch;
+          p->buf[(signed long int)tmp_post_11] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           p->host_offset = &p->buf[(signed long int)p->buf_idx];
           p->state = (enum parser_state)s_host;
@@ -12118,21 +12118,21 @@ __CPROVER_DUMP_L2:
       {
         if((signed int)ch == 91)
         {
-          tmp_post$12 = p->buf_idx;
+          tmp_post_12 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$12] = (char)ch;
+          p->buf[(signed long int)tmp_post_12] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           p->host_offset = &p->buf[(signed long int)p->buf_idx];
           p->state = (enum parser_state)s_host_ipv6;
           break;
         }
 
-        return_value_is_host_char$14=is_host_char(ch);
-        if(!(return_value_is_host_char$14 == 0))
+        return_value_is_host_char_14=is_host_char(ch);
+        if(!(return_value_is_host_char_14 == 0))
         {
-          tmp_post$13 = p->buf_idx;
+          tmp_post_13 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$13] = (char)ch;
+          p->buf[(signed long int)tmp_post_13] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           break;
         }
@@ -12152,9 +12152,9 @@ __CPROVER_DUMP_L2:
         {
           case 58:
           {
-            tmp_post$15 = p->buf_idx;
+            tmp_post_15 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$15] = (char)ch;
+            p->buf[(signed long int)tmp_post_15] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->port_offset = &p->buf[(signed long int)p->buf_idx];
             p->state = (enum parser_state)s_port;
@@ -12174,9 +12174,9 @@ __CPROVER_DUMP_L2:
           case 47:
           {
             p->path_offset = &p->buf[(signed long int)p->buf_idx];
-            tmp_post$16 = p->buf_idx;
+            tmp_post_16 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$16] = (char)ch;
+            p->buf[(signed long int)tmp_post_16] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_after_slash_in_uri;
             break;
@@ -12200,9 +12200,9 @@ __CPROVER_DUMP_L2:
         c = (char)(unsigned char)((signed int)ch | 0x20);
         if((signed int)ch == 46 || (signed int)ch == 58 || (signed int)c >= 97 && !((signed int)c >= 103) || (signed int)ch >= 48 && !((signed int)ch >= 58))
         {
-          tmp_post$17 = p->buf_idx;
+          tmp_post_17 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$17] = (char)ch;
+          p->buf[(signed long int)tmp_post_17] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           break;
         }
@@ -12216,9 +12216,9 @@ __CPROVER_DUMP_L2:
             return i + (unsigned long int)1;
           }
 
-          tmp_post$18 = p->buf_idx;
+          tmp_post_18 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$18] = (char)ch;
+          p->buf[(signed long int)tmp_post_18] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           p->state = (enum parser_state)s_host_done;
           goto __CPROVER_DUMP_L68;
@@ -12236,9 +12236,9 @@ __CPROVER_DUMP_L2:
         res = 0;
         if((signed int)ch >= 48 && !((signed int)ch >= 58))
         {
-          tmp_post$19 = p->buf_idx;
+          tmp_post_19 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$19] = (char)ch;
+          p->buf[(signed long int)tmp_post_19] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           break;
         }
@@ -12259,9 +12259,9 @@ __CPROVER_DUMP_L2:
           }
           case 47:
           {
-            tmp_post$20 = p->buf_idx;
+            tmp_post_20 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$20] = (char)ch;
+            p->buf[(signed long int)tmp_post_20] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->path_offset = &p->buf[(signed long int)(p->buf_idx - (unsigned int)1)];
             p->state = (enum parser_state)s_after_slash_in_uri;
@@ -12289,9 +12289,9 @@ __CPROVER_DUMP_L2:
         res = 0;
         if(!((usual[(signed long int)((signed int)ch >> 5)] & (unsigned int)(1 << (0x1f & (signed int)ch))) == 0u))
         {
-          tmp_post$21 = p->buf_idx;
+          tmp_post_21 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$21] = (char)ch;
+          p->buf[(signed long int)tmp_post_21] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           p->state = (enum parser_state)s_check_uri;
           break;
@@ -12301,13 +12301,13 @@ __CPROVER_DUMP_L2:
         {
           case 32:
           {
-            signed int htparser_run$$1$$3$$1$$3$$32$$1$$r1;
-            htparser_run$$1$$3$$1$$3$$32$$1$$r1=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
+            signed int htparser_run__1__3__1__3__32__1__r1;
+            htparser_run__1__3__1__3__32__1__r1=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
             signed int r2;
             r2=hook_uri_run(p, hooks, p->buf, (unsigned long int)p->buf_idx);
             p->state = (enum parser_state)s_http_09;
             p->buf_idx = (unsigned int)0;
-            if(!(htparser_run$$1$$3$$1$$3$$32$$1$$r1 == 0) || !(r2 == 0))
+            if(!(htparser_run__1__3__1__3__32__1__r1 == 0) || !(r2 == 0))
               res = 1;
 
             break;
@@ -12332,9 +12332,9 @@ __CPROVER_DUMP_L2:
 
           case 35:
           {
-            tmp_post$22 = p->buf_idx;
+            tmp_post_22 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$22] = (char)ch;
+            p->buf[(signed long int)tmp_post_22] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_uri;
             break;
@@ -12342,9 +12342,9 @@ __CPROVER_DUMP_L2:
           case 63:
           {
             res=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
-            tmp_post$23 = p->buf_idx;
+            tmp_post_23 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$23] = (char)ch;
+            p->buf[(signed long int)tmp_post_23] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->args_offset = &p->buf[(signed long int)p->buf_idx];
             p->state = (enum parser_state)s_uri;
@@ -12352,9 +12352,9 @@ __CPROVER_DUMP_L2:
           }
           default:
           {
-            tmp_post$24 = p->buf_idx;
+            tmp_post_24 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$24] = (char)ch;
+            p->buf[(signed long int)tmp_post_24] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_check_uri;
           }
@@ -12377,9 +12377,9 @@ __CPROVER_DUMP_L2:
         {
           if(!((usual[(signed long int)((signed int)ch >> 5)] & (unsigned int)(1 << (0x1f & (signed int)ch))) == 0u))
           {
-            tmp_post$25 = p->buf_idx;
+            tmp_post_25 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$25] = (char)ch;
+            p->buf[(signed long int)tmp_post_25] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
           }
 
@@ -12396,25 +12396,25 @@ __CPROVER_DUMP_L2:
           case 32:
           {
             signed int r1 = 0;
-            signed int htparser_run$$1$$3$$1$$3$$35$$1$$r2 = 0;
+            signed int htparser_run__1__3__1__3__35__1__r2 = 0;
             if(!(p->args_offset == ((char *)NULL)))
               r1=hook_args_run(p, hooks, p->args_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->args_offset));
 
             else
               r1=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
-            htparser_run$$1$$3$$1$$3$$35$$1$$r2=hook_uri_run(p, hooks, p->buf, (unsigned long int)p->buf_idx);
+            htparser_run__1__3__1__3__35__1__r2=hook_uri_run(p, hooks, p->buf, (unsigned long int)p->buf_idx);
             p->buf_idx = (unsigned int)0;
             p->state = (enum parser_state)s_http_09;
-            if(!(r1 == 0) || !(htparser_run$$1$$3$$1$$3$$35$$1$$r2 == 0))
+            if(!(r1 == 0) || !(htparser_run__1__3__1__3__35__1__r2 == 0))
               res = 1;
 
             break;
           }
           case 47:
           {
-            tmp_post$26 = p->buf_idx;
+            tmp_post_26 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$26] = (char)ch;
+            p->buf[(signed long int)tmp_post_26] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_after_slash_in_uri;
             break;
@@ -12436,9 +12436,9 @@ __CPROVER_DUMP_L2:
           case 63:
           {
             res=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
-            tmp_post$27 = p->buf_idx;
+            tmp_post_27 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$27] = (char)ch;
+            p->buf[(signed long int)tmp_post_27] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->args_offset = &p->buf[(signed long int)p->buf_idx];
             p->state = (enum parser_state)s_uri;
@@ -12446,9 +12446,9 @@ __CPROVER_DUMP_L2:
           }
           default:
           {
-            tmp_post$28 = p->buf_idx;
+            tmp_post_28 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$28] = (char)ch;
+            p->buf[(signed long int)tmp_post_28] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_uri;
           }
@@ -12471,9 +12471,9 @@ __CPROVER_DUMP_L2:
         {
           if(!((usual[(signed long int)((signed int)ch >> 5)] & (unsigned int)(1 << (0x1f & (signed int)ch))) == 0u))
           {
-            tmp_post$29 = p->buf_idx;
+            tmp_post_29 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$29] = (char)ch;
+            p->buf[(signed long int)tmp_post_29] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
           }
 
@@ -12492,16 +12492,16 @@ __CPROVER_DUMP_L2:
         {
           case 32:
           {
-            signed int htparser_run$$1$$3$$1$$3$$39$$1$$r1 = 0;
-            signed int htparser_run$$1$$3$$1$$3$$39$$1$$r2 = 0;
+            signed int htparser_run__1__3__1__3__39__1__r1 = 0;
+            signed int htparser_run__1__3__1__3__39__1__r2 = 0;
             if(!(p->args_offset == ((char *)NULL)))
-              htparser_run$$1$$3$$1$$3$$39$$1$$r1=hook_args_run(p, hooks, p->args_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->args_offset));
+              htparser_run__1__3__1__3__39__1__r1=hook_args_run(p, hooks, p->args_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->args_offset));
 
             else
-              htparser_run$$1$$3$$1$$3$$39$$1$$r1=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
+              htparser_run__1__3__1__3__39__1__r1=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
             p->buf_idx = (unsigned int)0;
             p->state = (enum parser_state)s_http_09;
-            if(!(htparser_run$$1$$3$$1$$3$$39$$1$$r1 == 0) || !(htparser_run$$1$$3$$1$$3$$39$$1$$r2 == 0))
+            if(!(htparser_run__1__3__1__3__39__1__r1 == 0) || !(htparser_run__1__3__1__3__39__1__r2 == 0))
               res = 1;
 
             break;
@@ -12524,9 +12524,9 @@ __CPROVER_DUMP_L2:
             if(p->args_offset == ((char *)NULL))
             {
               res=hook_path_run(p, hooks, p->path_offset, (unsigned long int)(&p->buf[(signed long int)p->buf_idx] - p->path_offset));
-              tmp_post$30 = p->buf_idx;
+              tmp_post_30 = p->buf_idx;
               p->buf_idx = p->buf_idx + 1u;
-              p->buf[(signed long int)tmp_post$30] = (char)ch;
+              p->buf[(signed long int)tmp_post_30] = (char)ch;
               p->buf[(signed long int)p->buf_idx] = (char)0;
               p->args_offset = &p->buf[(signed long int)p->buf_idx];
               break;
@@ -12534,9 +12534,9 @@ __CPROVER_DUMP_L2:
 
           default:
           {
-            tmp_post$31 = p->buf_idx;
+            tmp_post_31 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$31] = (char)ch;
+            p->buf[(signed long int)tmp_post_31] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
           }
         }
@@ -12898,9 +12898,9 @@ __CPROVER_DUMP_L2:
           }
           default:
           {
-            tmp_post$32 = p->buf_idx;
+            tmp_post_32 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$32] = (char)ch;
+            p->buf[(signed long int)tmp_post_32] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_hdrline_hdr_key;
           }
@@ -12922,48 +12922,48 @@ __CPROVER_DUMP_L2:
             {
               case (unsigned int)5:
               {
-                return_value_strcasecmp$33=strcasecmp(p->buf, "host");
-                if(return_value_strcasecmp$33 == 0)
+                return_value_strcasecmp_33=strcasecmp(p->buf, "host");
+                if(return_value_strcasecmp_33 == 0)
                   p->heval = (enum eval_hdr_val)eval_hdr_val_hostname;
 
                 break;
               }
               case (unsigned int)11:
               {
-                return_value_strcasecmp$34=strcasecmp(p->buf, "connection");
-                if(return_value_strcasecmp$34 == 0)
+                return_value_strcasecmp_34=strcasecmp(p->buf, "connection");
+                if(return_value_strcasecmp_34 == 0)
                   p->heval = (enum eval_hdr_val)eval_hdr_val_connection;
 
                 break;
               }
               case (unsigned int)13:
               {
-                return_value_strcasecmp$35=strcasecmp(p->buf, "content-type");
-                if(return_value_strcasecmp$35 == 0)
+                return_value_strcasecmp_35=strcasecmp(p->buf, "content-type");
+                if(return_value_strcasecmp_35 == 0)
                   p->heval = (enum eval_hdr_val)eval_hdr_val_content_type;
 
                 break;
               }
               case (unsigned int)15:
               {
-                return_value_strcasecmp$36=strcasecmp(p->buf, "content-length");
-                if(return_value_strcasecmp$36 == 0)
+                return_value_strcasecmp_36=strcasecmp(p->buf, "content-length");
+                if(return_value_strcasecmp_36 == 0)
                   p->heval = (enum eval_hdr_val)eval_hdr_val_content_length;
 
                 break;
               }
               case (unsigned int)17:
               {
-                return_value_strcasecmp$37=strcasecmp(p->buf, "proxy-connection");
-                if(return_value_strcasecmp$37 == 0)
+                return_value_strcasecmp_37=strcasecmp(p->buf, "proxy-connection");
+                if(return_value_strcasecmp_37 == 0)
                   p->heval = (enum eval_hdr_val)eval_hdr_val_proxy_connection;
 
                 break;
               }
               case (unsigned int)18:
               {
-                return_value_strcasecmp$38=strcasecmp(p->buf, "transfer-encoding");
-                if(return_value_strcasecmp$38 == 0)
+                return_value_strcasecmp_38=strcasecmp(p->buf, "transfer-encoding");
+                if(return_value_strcasecmp_38 == 0)
                   p->heval = (enum eval_hdr_val)eval_hdr_val_transfer_encoding;
 
               }
@@ -12993,9 +12993,9 @@ __CPROVER_DUMP_L2:
             }
             default:
             {
-              tmp_post$39 = p->buf_idx;
+              tmp_post_39 = p->buf_idx;
               p->buf_idx = p->buf_idx + 1u;
-              p->buf[(signed long int)tmp_post$39] = (char)ch;
+              p->buf[(signed long int)tmp_post_39] = (char)ch;
               p->buf[(signed long int)p->buf_idx] = (char)0;
             }
           }
@@ -13024,9 +13024,9 @@ __CPROVER_DUMP_L2:
             break;
           case (signed int)(unsigned char)13:
           {
-            tmp_post$40 = p->buf_idx;
+            tmp_post_40 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$40] = (char)32;
+            p->buf[(signed long int)tmp_post_40] = (char)32;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_hdrline_hdr_val;
             i = i - 1ul;
@@ -13039,9 +13039,9 @@ __CPROVER_DUMP_L2:
           }
           default:
           {
-            tmp_post$41 = p->buf_idx;
+            tmp_post_41 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$41] = (char)ch;
+            p->buf[(signed long int)tmp_post_41] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_hdrline_hdr_val;
           }
@@ -13065,8 +13065,8 @@ __CPROVER_DUMP_L2:
                 break;
               case eval_hdr_val_hostname:
               {
-                return_value_hook_hostname_run$42=hook_hostname_run(p, hooks, p->buf, (unsigned long int)p->buf_idx);
-                if(!(return_value_hook_hostname_run$42 == 0))
+                return_value_hook_hostname_run_42=hook_hostname_run(p, hooks, p->buf, (unsigned long int)p->buf_idx);
+                if(!(return_value_hook_hostname_run_42 == 0))
                 {
                   p->state = (enum parser_state)s_hdrline_hdr_almost_done;
                   p->error = (enum htpparse_error)htparse_error_user;
@@ -13150,10 +13150,10 @@ __CPROVER_DUMP_L2:
 
                 if(p->buf_idx == 7u)
                 {
-                  htparser_run$$1$$3$$1$$3$$67$$2$$1$$6$$S_buf = (const char *)(p->buf + (signed long int)1);
-                  if(*((unsigned int *)htparser_run$$1$$3$$1$$3$$67$$2$$1$$6$$S_buf) == 1802401128u)
+                  htparser_run__1__3__1__3__67__2__1__6__S_buf = (const char *)(p->buf + (signed long int)1);
+                  if(*((unsigned int *)htparser_run__1__3__1__3__67__2__1__6__S_buf) == 1802401128u)
                   {
-                    if((65535u & ((unsigned int *)htparser_run$$1$$3$$1$$3$$67$$2$$1$$6$$S_buf)[1l]) == 25701u)
+                    if((65535u & ((unsigned int *)htparser_run__1__3__1__3__67__2__1__6__S_buf)[1l]) == 25701u)
                       p->flags = p->flags | (enum parser_flags)parser_flag_chunked;
 
                   }
@@ -13173,10 +13173,10 @@ __CPROVER_DUMP_L2:
                 if(!((signed int)p->buf[0l] == 77) && !((signed int)p->buf[0l] == 109))
                   goto __CPROVER_DUMP_L248;
 
-                htparser_run$$1$$3$$1$$3$$67$$2$$1$$8$$S_buf = (const char *)(p->buf + (signed long int)1);
-                if(*((unsigned int *)htparser_run$$1$$3$$1$$3$$67$$2$$1$$8$$S_buf) == 1769237621u)
+                htparser_run__1__3__1__3__67__2__1__8__S_buf = (const char *)(p->buf + (signed long int)1);
+                if(*((unsigned int *)htparser_run__1__3__1__3__67__2__1__8__S_buf) == 1769237621u)
                 {
-                  if(((unsigned int *)htparser_run$$1$$3$$1$$3$$67$$2$$1$$8$$S_buf)[1l] == 1953653104u)
+                  if(((unsigned int *)htparser_run__1__3__1__3__67__2__1__8__S_buf)[1l] == 1953653104u)
                     p->multipart = (unsigned char)1;
 
                 }
@@ -13204,9 +13204,9 @@ __CPROVER_DUMP_L2:
             return i + (unsigned long int)1;
           }
 
-          tmp_post$43 = p->buf_idx;
+          tmp_post_43 = p->buf_idx;
           p->buf_idx = p->buf_idx + 1u;
-          p->buf[(signed long int)tmp_post$43] = (char)ch;
+          p->buf[(signed long int)tmp_post_43] = (char)ch;
           p->buf[(signed long int)p->buf_idx] = (char)0;
           if(!((signed int)p->state == s_hdrline_hdr_val))
             break;
@@ -13284,9 +13284,9 @@ __CPROVER_DUMP_L2:
           {
             res=hook_hdr_val_run(p, hooks, p->buf, (unsigned long int)p->buf_idx);
             p->buf_idx = (unsigned int)0;
-            tmp_post$44 = p->buf_idx;
+            tmp_post_44 = p->buf_idx;
             p->buf_idx = p->buf_idx + 1u;
-            p->buf[(signed long int)tmp_post$44] = (char)ch;
+            p->buf[(signed long int)tmp_post_44] = (char)ch;
             p->buf[(signed long int)p->buf_idx] = (char)0;
             p->state = (enum parser_state)s_hdrline_hdr_key;
             if(!(res == 0))
@@ -13470,18 +13470,18 @@ __CPROVER_DUMP_L2:
       case s_chunk_data:
       {
         res = 0;
-        const char *htparser_run$$1$$3$$1$$3$$89$$pp = &data[(signed long int)i];
-        const char *htparser_run$$1$$3$$1$$3$$89$$pe = (const char *)(data + (signed long int)len);
+        const char *htparser_run__1__3__1__3__89__pp = &data[(signed long int)i];
+        const char *htparser_run__1__3__1__3__89__pe = (const char *)(data + (signed long int)len);
         unsigned long int to_read;
-        if(!((unsigned long int)(htparser_run$$1$$3$$1$$3$$89$$pe - htparser_run$$1$$3$$1$$3$$89$$pp) >= p->content_len))
-          tmp_if_expr$45 = (unsigned long int)(htparser_run$$1$$3$$1$$3$$89$$pe - htparser_run$$1$$3$$1$$3$$89$$pp);
+        if(!((unsigned long int)(htparser_run__1__3__1__3__89__pe - htparser_run__1__3__1__3__89__pp) >= p->content_len))
+          tmp_if_expr_45 = (unsigned long int)(htparser_run__1__3__1__3__89__pe - htparser_run__1__3__1__3__89__pp);
 
         else
-          tmp_if_expr$45 = p->content_len;
-        to_read = tmp_if_expr$45;
+          tmp_if_expr_45 = p->content_len;
+        to_read = tmp_if_expr_45;
         if(to_read >= 1ul)
         {
-          res=hook_body_run(p, hooks, htparser_run$$1$$3$$1$$3$$89$$pp, to_read);
+          res=hook_body_run(p, hooks, htparser_run__1__3__1__3__89__pp, to_read);
           i = i + (to_read - (unsigned long int)1);
         }
 
@@ -13518,8 +13518,8 @@ __CPROVER_DUMP_L2:
 
         p->orig_content_len = (unsigned long int)0;
         p->state = (enum parser_state)s_chunk_size_start;
-        return_value_hook_on_chunk_complete_run$46=hook_on_chunk_complete_run(p, hooks);
-        if(!(return_value_hook_on_chunk_complete_run$46 == 0))
+        return_value_hook_on_chunk_complete_run_46=hook_on_chunk_complete_run(p, hooks);
+        if(!(return_value_hook_on_chunk_complete_run_46 == 0))
         {
           p->error = (enum htpparse_error)htparse_error_user;
           return i + (unsigned long int)1;
@@ -13532,18 +13532,18 @@ __CPROVER_DUMP_L2:
         res = 0;
         const char *pp = &data[(signed long int)i];
         const char *pe = (const char *)(data + (signed long int)len);
-        unsigned long int htparser_run$$1$$3$$1$$3$$94$$to_read;
+        unsigned long int htparser_run__1__3__1__3__94__to_read;
         if(!((unsigned long int)(pe - pp) >= p->content_len))
-          tmp_if_expr$47 = (unsigned long int)(pe - pp);
+          tmp_if_expr_47 = (unsigned long int)(pe - pp);
 
         else
-          tmp_if_expr$47 = p->content_len;
-        htparser_run$$1$$3$$1$$3$$94$$to_read = tmp_if_expr$47;
-        if(htparser_run$$1$$3$$1$$3$$94$$to_read >= 1ul)
+          tmp_if_expr_47 = p->content_len;
+        htparser_run__1__3__1__3__94__to_read = tmp_if_expr_47;
+        if(htparser_run__1__3__1__3__94__to_read >= 1ul)
         {
-          res=hook_body_run(p, hooks, pp, htparser_run$$1$$3$$1$$3$$94$$to_read);
-          i = i + (htparser_run$$1$$3$$1$$3$$94$$to_read - (unsigned long int)1);
-          p->content_len = p->content_len - htparser_run$$1$$3$$1$$3$$94$$to_read;
+          res=hook_body_run(p, hooks, pp, htparser_run__1__3__1__3__94__to_read);
+          i = i + (htparser_run__1__3__1__3__94__to_read - (unsigned long int)1);
+          p->content_len = p->content_len - htparser_run__1__3__1__3__94__to_read;
         }
 
         if(p->content_len == 0ul)
@@ -13601,13 +13601,13 @@ void htparser_set_userdata(struct htparser *p, void *ud)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/htparse.h line 98
 signed int htparser_should_keep_alive(struct htparser *p)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)p->major >= 1)
-    tmp_if_expr$1 = (signed int)p->minor > 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)p->minor > 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!((parser_flag_connection_close & (signed int)p->flags) == 0))
       return 0;
@@ -13660,14 +13660,14 @@ signed int main(signed int argc, char **argv)
   struct evhtp_callback_s *cb_10 = (struct evhtp_callback_s *)(void *)0;
   struct evhtp_callback_s *cb_11 = (struct evhtp_callback_s *)(void *)0;
   struct evhtp_callback_s *cb_12 = (struct evhtp_callback_s *)(void *)0;
-  signed int return_value_parse_args$1;
-  return_value_parse_args$1=parse_args(argc, argv);
-  if(!(return_value_parse_args$1 >= 0))
+  signed int return_value_parse_args_1;
+  return_value_parse_args_1=parse_args(argc, argv);
+  if(!(return_value_parse_args_1 >= 0))
     exit(1);
 
-  signed long int return_value_time$2;
-  return_value_time$2=time((signed long int *)(void *)0);
-  srand((unsigned int)return_value_time$2);
+  signed long int return_value_time_2;
+  return_value_time_2=time((signed long int *)(void *)0);
+  srand((unsigned int)return_value_time_2);
   evbase=event_base_new();
   htp=evhtp_new(evbase, (void *)0);
   evhtp_set_parser_flags(htp, 1 << 0 | 1 << 1 | 1 << 2 | 1 << 3);
@@ -13820,15 +13820,15 @@ signed int main(signed int argc, char **argv)
   if(!(use_threads == 0))
     evhtp_use_threads(htp, (void (*)(struct evhtp_s *, struct evthr *, void *))(void *)0, num_threads, (void *)0);
 
-  signed int return_value_evhtp_bind_socket$5;
-  return_value_evhtp_bind_socket$5=evhtp_bind_socket(htp, bind_addr, bind_port, backlog);
-  if(!(return_value_evhtp_bind_socket$5 >= 0))
+  signed int return_value_evhtp_bind_socket_5;
+  return_value_evhtp_bind_socket_5=evhtp_bind_socket(htp, bind_addr, bind_port, backlog);
+  if(!(return_value_evhtp_bind_socket_5 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Could not bind socket: %s\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Could not bind socket: %s\n", return_value_strerror_4);
     exit(-1);
   }
 
@@ -13856,10 +13856,10 @@ static signed int output_header(struct evhtp_kv_s *header, void *arg)
 signed int parse_args(signed int argc, char **argv)
 {
   signed int c;
-  signed int return_value_atoi$1;
-  signed long long int return_value_atoll$2;
-  signed long long int return_value_atoll$3;
-  signed long long int return_value_atoll$4;
+  signed int return_value_atoi_1;
+  signed long long int return_value_atoll_2;
+  signed long long int return_value_atoll_3;
+  signed long long int return_value_atoll_4;
   do
   {
     c=getopt(argc, argv, optstr);
@@ -13885,8 +13885,8 @@ signed int parse_args(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_atoi$1=atoi(optarg);
-        bind_port = (unsigned short int)return_value_atoi$1;
+        return_value_atoi_1=atoi(optarg);
+        bind_port = (unsigned short int)return_value_atoi_1;
         break;
       }
       case 116:
@@ -13916,20 +13916,20 @@ signed int parse_args(signed int argc, char **argv)
       }
       case 108:
       {
-        return_value_atoll$2=atoll(optarg);
-        bw_limit = (unsigned long int)return_value_atoll$2;
+        return_value_atoll_2=atoll(optarg);
+        bw_limit = (unsigned long int)return_value_atoll_2;
         break;
       }
       case 109:
       {
-        return_value_atoll$3=atoll(optarg);
-        max_keepalives = (unsigned long int)return_value_atoll$3;
+        return_value_atoll_3=atoll(optarg);
+        max_keepalives = (unsigned long int)return_value_atoll_3;
         break;
       }
       case 98:
       {
-        return_value_atoll$4=atoll(optarg);
-        backlog = (signed int)return_value_atoll$4;
+        return_value_atoll_4=atoll(optarg);
+        backlog = (signed int)return_value_atoll_4;
         break;
       }
       default:
@@ -13952,17 +13952,17 @@ static unsigned short int pause_cb(struct evhtp_request_s *request, struct evhtp
 {
   struct pauser *pause = (struct pauser *)arg;
   signed int s;
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  s = return_value_rand$1 % 1000000;
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  s = return_value_rand_1 % 1000000;
   printf("pause_cb(%p) pause == %p, timer_ev = %p\n", request->conn, pause, pause->timer_ev);
   printf("pause_cb(%p) k=%s, v=%s timer_ev = %p\n", request->conn, header->key, header->val, pause->timer_ev);
   printf("pause_cb(%p) setting to %ld usec sleep timer_ev = %p\n", request->conn, (signed long int)s, pause->timer_ev);
   pause->tv->tv_sec = (signed long int)0;
   pause->tv->tv_usec = (signed long int)s;
-  signed int return_value_event_pending$2;
-  return_value_event_pending$2=event_pending(pause->timer_ev, (signed short int)0x01, (struct timeval *)(void *)0);
-  if(!(return_value_event_pending$2 == 0))
+  signed int return_value_event_pending_2;
+  return_value_event_pending_2=event_pending(pause->timer_ev, (signed short int)0x01, (struct timeval *)(void *)0);
+  if(!(return_value_event_pending_2 == 0))
     event_del(pause->timer_ev);
 
   event_add(pause->timer_ev, pause->tv);
@@ -13983,12 +13983,12 @@ static unsigned short int pause_init_cb(struct evhtp_request_s *req, struct evht
 {
   struct event_base *evbase = req->conn->evbase;
   struct pauser *pause;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct pauser) /*24ul*/ , (unsigned long int)1);
-  pause = (struct pauser *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc(sizeof(struct timeval) /*16ul*/ , (unsigned long int)1);
-  pause->tv = (struct timeval *)return_value_calloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct pauser) /*24ul*/ , (unsigned long int)1);
+  pause = (struct pauser *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc(sizeof(struct timeval) /*16ul*/ , (unsigned long int)1);
+  pause->tv = (struct timeval *)return_value_calloc_2;
   pause->timer_ev=event_new(evbase, -1, (signed short int)0, resume_request_timer, (void *)pause);
   pause->request = req;
   evhtp_set_hook(&req->hooks, (enum evhtp_hook_type)evhtp_hook_on_header, (unsigned short int (*)())pause_cb, (void *)pause);
@@ -14029,9 +14029,9 @@ static unsigned short int print_chunks_complete(struct evhtp_request_s *req, voi
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/test.c line 296
 static unsigned short int print_data(struct evhtp_request_s *req, struct evbuffer *buf, void *arg)
 {
-  unsigned long int return_value_evbuffer_get_length$1;
-  return_value_evbuffer_get_length$1=evbuffer_get_length(buf);
-  evbuffer_add_printf(req->buffer_out, "got %zu bytes of data\n", return_value_evbuffer_get_length$1);
+  unsigned long int return_value_evbuffer_get_length_1;
+  return_value_evbuffer_get_length_1=evbuffer_get_length(buf);
+  evbuffer_add_printf(req->buffer_out, "got %zu bytes of data\n", return_value_evbuffer_get_length_1);
   evbuffer_drain(buf, (unsigned long int)-1);
   return (unsigned short int)200;
 }
@@ -14067,9 +14067,9 @@ static unsigned short int print_path(struct evhtp_request_s *req, struct evhtp_p
   if(!(ext_body == ((char *)NULL)))
     evbuffer_add_printf(req->buffer_out, "ext_body: '%s'\n", ext_body);
 
-  enum htp_method return_value_evhtp_request_get_method$1;
-  return_value_evhtp_request_get_method$1=evhtp_request_get_method(req);
-  evbuffer_add_printf(req->buffer_out, "print_path() full        = '%s'\n             path        = '%s'\n             file        = '%s'\n             match start = '%s'\n             match_end   = '%s'\n             methno      = '%d'\n", path->full, path->path, path->file, path->match_start, path->match_end, return_value_evhtp_request_get_method$1);
+  enum htp_method return_value_evhtp_request_get_method_1;
+  return_value_evhtp_request_get_method_1=evhtp_request_get_method(req);
+  evbuffer_add_printf(req->buffer_out, "print_path() full        = '%s'\n             path        = '%s'\n             file        = '%s'\n             match start = '%s'\n             match_end   = '%s'\n             methno      = '%d'\n", path->full, path->path, path->file, path->match_start, path->match_end, return_value_evhtp_request_get_method_1);
   return (unsigned short int)200;
 }
 
@@ -14233,16 +14233,16 @@ static const char * status_code_to_str(unsigned short int code)
 static inline unsigned long int str_to_uint64(char *str, unsigned long int n, signed int *err)
 {
   unsigned long int value;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !(n == 0ul); n = n - 1ul)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((1 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)str[-1l + (signed long int)n]]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((1 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)str[-1l + (signed long int)n]]) == 0)
       break;
 
   }
-  unsigned long int tmp_post$2;
-  _Bool tmp_if_expr$3;
+  unsigned long int tmp_post_2;
+  _Bool tmp_if_expr_3;
   if(n >= 21ul)
   {
     *err = 1;
@@ -14254,18 +14254,18 @@ static inline unsigned long int str_to_uint64(char *str, unsigned long int n, si
     value = (unsigned long int)0;
     do
     {
-      tmp_post$2 = n;
+      tmp_post_2 = n;
       n = n - 1ul;
-      if(tmp_post$2 == 0ul)
+      if(tmp_post_2 == 0ul)
         break;
 
       unsigned long int check;
       if(!((signed int)*str >= 48))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*str > 57 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         *err = 1;
         return (unsigned long int)0;
@@ -14291,15 +14291,15 @@ static inline unsigned long int str_to_uint64(char *str, unsigned long int n, si
 static inline void strreverse(char *begin, char *end)
 {
   char aux;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  for( ; !(begin >= end); *tmp_post$2 = aux)
+  char *tmp_post_1;
+  char *tmp_post_2;
+  for( ; !(begin >= end); *tmp_post_2 = aux)
   {
     aux = *end;
-    tmp_post$1 = end;
+    tmp_post_1 = end;
     end = end - 1l;
-    *tmp_post$1 = *begin;
-    tmp_post$2 = begin;
+    *tmp_post_1 = *begin;
+    tmp_post_2 = begin;
     begin = begin + 1l;
   }
 }
@@ -14328,18 +14328,18 @@ static void test_chunking(struct evhtp_request_s *req, void *arg)
   signed int i = 0;
   buf=evbuffer_new();
   evhtp_send_reply_chunk_start(req, (unsigned short int)200);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    chunk_str = chunk_strings[(signed long int)tmp_post$1];
+    chunk_str = chunk_strings[(signed long int)tmp_post_1];
     if(chunk_str == ((const char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(chunk_str);
-    evbuffer_add(buf, (const void *)chunk_str, return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(chunk_str);
+    evbuffer_add(buf, (const void *)chunk_str, return_value_strlen_2);
     evhtp_send_reply_chunk(req, buf);
     evbuffer_drain(buf, (unsigned long int)-1);
   }

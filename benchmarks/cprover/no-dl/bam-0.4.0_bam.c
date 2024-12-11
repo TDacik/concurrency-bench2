@@ -1,30 +1,30 @@
-// tag-#anon#ST[*{SYM#tag-CACHENODE#}$SYM#tag-CACHENODE#$'rbe_left'||*{SYM#tag-CACHENODE#}$SYM#tag-CACHENODE#$'rbe_right'||*{SYM#tag-CACHENODE#}$SYM#tag-CACHENODE#$'rbe_parent'||S32'rbe_color'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-CACHENODE#}_SYM#tag-CACHENODE#_'rbe_left'||*{SYM#tag-CACHENODE#}_SYM#tag-CACHENODE#_'rbe_right'||*{SYM#tag-CACHENODE#}_SYM#tag-CACHENODE#_'rbe_parent'||S32'rbe_color'||U32'_pad0'|]
 // file src/node.h line 113
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{SYM#tag-lua_State#}$SYM#tag-lua_State#$'lua'||S32'i'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-lua_State#}_SYM#tag-lua_State#_'lua'||S32'i'||U32'_pad0'|]
 // file src/support.c line 443
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{V(*{SYM#tag-lua_State#}$SYM#tag-lua_State#$|*{V}$V$)->V}$V(*{SYM#tag-lua_State#}$SYM#tag-lua_State#$|*{V}$V$)->V$'callback'||*{V}$V$'user'|]
+// tag-#anon#ST[*{V(*{SYM#tag-lua_State#}_SYM#tag-lua_State#_|*{V}_V_)->V}_V(*{SYM#tag-lua_State#}_SYM#tag-lua_State#_|*{V}_V_)->V_'callback'||*{V}_V_'user'|]
 // file src/luafuncs.c line 52
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{cS8}$cS8$'filename'||*{cS8}$cS8$'content'|]
+// tag-#anon#ST[*{cS8}_cS8_'filename'||*{cS8}_cS8_'content'|]
 // file src/internal_base.h line 1
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'path_len'||U32'$pad0'||*{cS8}$cS8$'start_str'||S32'start_len'||U32'$pad1'||*{cS8}$cS8$'end_str'||S32'end_len'||U32'$pad2'||*{SYM#tag-lua_State#}$SYM#tag-lua_State#$'lua'||S32'i'||S32'flags'|]
+// tag-#anon#ST[S32'path_len'||U32'_pad0'||*{cS8}_cS8_'start_str'||S32'start_len'||U32'_pad1'||*{cS8}_cS8_'end_str'||S32'end_len'||U32'_pad2'||*{SYM#tag-lua_State#}_SYM#tag-lua_State#_'lua'||S32'i'||S32'flags'|]
 // file src/support.c line 487
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[ARR409{SYM#tag-CACHENODE#}$SYM#tag-CACHENODE#$'nodes'||ARR8192{U32}$U32$'deps'||ARR32768{S8}$S8$'strings'|]
+// tag-#anon#UN[ARR409{SYM#tag-CACHENODE#}_SYM#tag-CACHENODE#_'nodes'||ARR8192{U32}_U32_'deps'||ARR32768{S8}_S8_'strings'|]
 // file src/cache.c line 127
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-CACHE
 // file src/cache.h line 2
@@ -218,9 +218,9 @@ static void abortsignal(signed int i);
 // add_node_attribute
 // file src/luafuncs.c line 176
 static signed int add_node_attribute(struct lua_State *L, const char *funcname, struct NODE * (*callback)(struct NODE *, const char *));
-// add_node_attribute::callback$object
+// add_node_attribute::callback_object
 //
-struct NODE * callback$object(struct NODE *, const char *);
+struct NODE * callback_object(struct NODE *, const char *);
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
@@ -260,9 +260,9 @@ void build_stringlist(struct lua_State *L, struct HEAP *heap, struct STRINGLIST 
 // cache_do_dependency
 // file src/cache.c line 333
 signed int cache_do_dependency(struct CONTEXT *context, struct NODE *node, void (*callback)(struct NODE *, struct CACHENODE *, void *), void *user);
-// cache_do_dependency::callback$object
+// cache_do_dependency::callback_object
 //
-void callback$object(struct NODE *, struct CACHENODE *, void *);
+void callback_object(struct NODE *, struct CACHENODE *, void *);
 // cache_find_byhash
 // file src/cache.c line 324
 struct CACHENODE * cache_find_byhash(struct CACHE *cache, unsigned int hashid);
@@ -341,9 +341,9 @@ static void debug_print_lua_value(struct lua_State *L, signed int i);
 // deep_walk
 // file src/luafuncs.c line 83
 static void deep_walk(struct lua_State *L, signed int start, signed int stop, void (*callback)(struct lua_State *, void *), void *user);
-// deep_walk::callback$object
+// deep_walk::callback_object
 //
-void callback$object(struct lua_State *, void *);
+void callback_object(struct lua_State *, void *);
 // deep_walk_r
 // file src/luafuncs.c line 58
 static void deep_walk_r(struct lua_State *L, signed int table_index);
@@ -356,9 +356,9 @@ static signed int dependency_cpp_do_run(struct CONTEXT *context, struct DEFERRED
 // dependency_cpp_run
 // file src/dep_cpp.c line 132
 static signed int dependency_cpp_run(struct CONTEXT *context, struct NODE *node, signed int (*callback)(struct NODE *, void *, const char *, signed int), void *userdata);
-// dependency_cpp_run::callback$object
+// dependency_cpp_run::callback_object
 //
-signed int callback$object(struct NODE *, void *, const char *, signed int);
+signed int callback_object(struct NODE *, void *, const char *, signed int);
 // dlclose
 // file /usr/include/dlfcn.h line 60
 extern signed int dlclose(void *);
@@ -428,9 +428,9 @@ void install_abort_signal();
 // install_signals
 // file src/support.h line 2
 void install_signals(void (*abortsignal)(signed int));
-// install_signals::abortsignal$object
+// install_signals::abortsignal_object
 //
-void abortsignal$object(signed int);
+void abortsignal_object(signed int);
 // internal_base_reader
 // file src/main.c line 243
 static const char * internal_base_reader(struct lua_State *L, void *data, unsigned long int *size);
@@ -500,9 +500,9 @@ signed int lf_loadfile(struct lua_State *L);
 // lf_loadplugin
 // file src/luafuncs.c line 747
 signed int lf_loadplugin(struct lua_State *L);
-// lf_loadplugin::1::func$object
+// lf_loadplugin::1::func_object
 //
-signed int func$object(struct lua_State *);
+signed int func_object(struct lua_State *);
 // lf_mkdir
 // file src/luafuncs.c line 435
 signed int lf_mkdir(struct lua_State *L);
@@ -560,9 +560,9 @@ signed int lf_update_globalstamp(struct lua_State *L);
 // list_directory
 // file src/support.c line 153
 static void list_directory(const char *path, void (*callback)(const char *, signed int, void *), void *user);
-// list_directory::callback$object
+// list_directory::callback_object
 //
-void callback$object(const char *, signed int, void *);
+void callback_object(const char *, signed int, void *);
 // listdir_callback
 // file src/support.c line 449
 static void listdir_callback(const char *filename, signed int dir, void *user);
@@ -803,9 +803,9 @@ void node_set_pseudo(struct NODE *node);
 // node_walk
 // file src/node.h line 223
 signed int node_walk(struct NODE *node, signed int flags, signed int (*callback)(struct NODEWALK *), void *u);
-// node_walk::callback$object
+// node_walk::callback_object
 //
-signed int callback$object(struct NODEWALK *);
+signed int callback_object(struct NODEWALK *);
 // node_walk_do_revisits
 // file src/node.c line 356
 static signed int node_walk_do_revisits(struct NODEWALK *walk);
@@ -910,10 +910,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // puts
 // file /usr/include/stdio.h line 695
 extern signed int puts(const char *);
@@ -934,7 +934,7 @@ signed int register_lua_globals(struct CONTEXT *context);
 extern signed int remove(const char *);
 // run_collect
 // file src/support.c line 557
-static void run_collect(struct anonymous$6 *info, const char *input);
+static void run_collect(struct anonymous_6 *info, const char *input);
 // run_command
 // file src/support.h line 3
 signed int run_command(const char *cmd, const char *filter);
@@ -986,9 +986,9 @@ static signed int table_deepcopy_r(struct lua_State *L);
 // threads_create
 // file src/support.h line 9
 void * threads_create(void (*threadfunc)(void *), void *u);
-// threads_create::threadfunc$object
+// threads_create::threadfunc_object
 //
-void threadfunc$object(void *);
+void threadfunc_object(void *);
 // threads_join
 // file src/support.h line 10
 void threads_join(void *thread);
@@ -1023,7 +1023,7 @@ static signed int write_header(struct WRITEINFO *info);
 // file src/cache.c line 161
 static signed int write_nodes(struct WRITEINFO *info);
 
-struct anonymous$0
+struct anonymous_0
 {
   // rbe_left
   struct CACHENODE *rbe_left;
@@ -1035,7 +1035,7 @@ struct anonymous$0
   signed int rbe_color;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // lua
   struct lua_State *lua;
@@ -1043,7 +1043,7 @@ struct anonymous$5
   signed int i;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // callback
   void (*callback)(struct lua_State *, void *);
@@ -1051,7 +1051,7 @@ struct anonymous$4
   void *user;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // filename
   const char *filename;
@@ -1059,7 +1059,7 @@ struct anonymous$1
   const char *content;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // path_len
   signed int path_len;
@@ -1082,7 +1082,7 @@ struct anonymous$6
 struct CACHENODE
 {
   // rbentry
-  struct anonymous$0 rbentry;
+  struct anonymous_0 rbentry;
   // hashid
   unsigned int hashid;
   // timestamp_raw
@@ -1137,7 +1137,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1689,7 +1689,7 @@ static char cache_filename[16l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 static struct STRINGLIST *current_includepaths = (struct STRINGLIST *)(void *)0;
 // deepwalkinfo
 // file src/luafuncs.c line 56
-static struct anonymous$4 deepwalkinfo;
+static struct anonymous_4 deepwalkinfo;
 // default_chunksize
 // file src/mem.c line 19
 static const signed int default_chunksize = 1024 * 16;
@@ -1710,17 +1710,17 @@ const char internal_file_3[3770l] = { (const char)0xa, (const char)0x2d, (const 
 const char internal_file_4[4181l] = { (const char)0xa, (const char)0x2d, (const char)0x2d, (const char)0x2d, (const char)0x2d, (const char)0x2d, (const char)0x20, (const char)0x63, (const char)0x6c, (const char)0x20, (const char)0x63, (const char)0x6f, (const char)0x6d, (const char)0x70, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x72, (const char)0x20, (const char)0x2d, (const char)0x2d, (const char)0x2d, (const char)0x2d, (const char)0x2d, (const char)0x2d, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x6f, (const char)0x6d, (const char)0x6d, (const char)0x6f, (const char)0x6e, (const char)0x28, (const char)0x63, (const char)0x70, (const char)0x70, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x64, (const char)0x65, (const char)0x66, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x64, (const char)0x65, (const char)0x66, (const char)0x69, (const char)0x6e, (const char)0x65, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x2d, (const char)0x44, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x29, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x63, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x69, (const char)0x6e, (const char)0x63, (const char)0x6c, (const char)0x75, (const char)0x64, (const char)0x65, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x27, (const char)0x2d, (const char)0x49, (const char)0x22, (const char)0x27, (const char)0x2c, (const char)0x20, (const char)0x27, (const char)0x22, (const char)0x20, (const char)0x27, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x63, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x63, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x73, (const char)0x79, (const char)0x73, (const char)0x74, (const char)0x65, (const char)0x6d, (const char)0x69, (const char)0x6e, (const char)0x63, (const char)0x6c, (const char)0x75, (const char)0x64, (const char)0x65, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x27, (const char)0x2d, (const char)0x49, (const char)0x22, (const char)0x27, (const char)0x2c, (const char)0x20, (const char)0x27, (const char)0x22, (const char)0x20, (const char)0x27, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x3a, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x63, (const char)0x70, (const char)0x70, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x5f, (const char)0x63, (const char)0x78, (const char)0x78, (const char)0x3a, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6c, (const char)0x73, (const char)0x65, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x5f, (const char)0x63, (const char)0x3a, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x5f, (const char)0x72, (const char)0x65, (const char)0x70, (const char)0x6c, (const char)0x61, (const char)0x63, (const char)0x65, (const char)0x28, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x5f, (const char)0x63, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x5c, (const char)0x5c, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x70, (const char)0x6c, (const char)0x61, (const char)0x74, (const char)0x66, (const char)0x6f, (const char)0x72, (const char)0x6d, (const char)0x20, (const char)0x3d, (const char)0x3d, (const char)0x22, (const char)0x77, (const char)0x69, (const char)0x6e, (const char)0x33, (const char)0x32, (const char)0x22, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x44, (const char)0x20, (const char)0x5c, (const char)0x22, (const char)0x57, (const char)0x49, (const char)0x4e, (const char)0x33, (const char)0x32, (const char)0x5c, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6c, (const char)0x73, (const char)0x65, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x44, (const char)0x20, (const char)0x5c, (const char)0x22, (const char)0x57, (const char)0x49, (const char)0x4e, (const char)0x36, (const char)0x34, (const char)0x5c, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x65, (const char)0x62, (const char)0x75, (const char)0x67, (const char)0x20, (const char)0x3e, (const char)0x20, (const char)0x30, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x4f, (const char)0x64, (const char)0x20, (const char)0x2f, (const char)0x4d, (const char)0x54, (const char)0x64, (const char)0x20, (const char)0x2f, (const char)0x5a, (const char)0x37, (const char)0x20, (const char)0x2f, (const char)0x44, (const char)0x20, (const char)0x5c, (const char)0x22, (const char)0x5f, (const char)0x44, (const char)0x45, (const char)0x42, (const char)0x55, (const char)0x47, (const char)0x5c, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6f, (const char)0x70, (const char)0x74, (const char)0x69, (const char)0x6d, (const char)0x69, (const char)0x7a, (const char)0x65, (const char)0x20, (const char)0x3e, (const char)0x20, (const char)0x30, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x4f, (const char)0x78, (const char)0x20, (const char)0x2f, (const char)0x4f, (const char)0x74, (const char)0x20, (const char)0x2f, (const char)0x4d, (const char)0x54, (const char)0x20, (const char)0x2f, (const char)0x44, (const char)0x20, (const char)0x5c, (const char)0x22, (const char)0x4e, (const char)0x44, (const char)0x45, (const char)0x42, (const char)0x55, (const char)0x47, (const char)0x5c, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x6e, (const char)0x6f, (const char)0x6c, (const char)0x6f, (const char)0x67, (const char)0x6f, (const char)0x20, (const char)0x2f, (const char)0x44, (const char)0x5f, (const char)0x43, (const char)0x52, (const char)0x54, (const char)0x5f, (const char)0x53, (const char)0x45, (const char)0x43, (const char)0x55, (const char)0x52, (const char)0x45, (const char)0x5f, (const char)0x4e, (const char)0x4f, (const char)0x5f, (const char)0x44, (const char)0x45, (const char)0x50, (const char)0x52, (const char)0x45, (const char)0x43, (const char)0x41, (const char)0x54, (const char)0x45, (const char)0x20, (const char)0x2f, (const char)0x63, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x63, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x64, (const char)0x65, (const char)0x66, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x46, (const char)0x6f, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x72, (const char)0x65, (const char)0x74, (const char)0x75, (const char)0x72, (const char)0x6e, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x58, (const char)0x58, (const char)0x28, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x5f, (const char)0x63, (const char)0x78, (const char)0x78, (const char)0x5f, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x69, (const char)0x6e, (const char)0x76, (const char)0x6f, (const char)0x6b, (const char)0x65, (const char)0x5f, (const char)0x63, (const char)0x6f, (const char)0x75, (const char)0x6e, (const char)0x74, (const char)0x20, (const char)0x7e, (const char)0x3d, (const char)0x20, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x6e, (const char)0x72, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x6e, (const char)0x72, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x69, (const char)0x6e, (const char)0x76, (const char)0x6f, (const char)0x6b, (const char)0x65, (const char)0x5f, (const char)0x63, (const char)0x6f, (const char)0x75, (const char)0x6e, (const char)0x74, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x6f, (const char)0x6d, (const char)0x6d, (const char)0x6f, (const char)0x6e, (const char)0x28, (const char)0x74, (const char)0x72, (const char)0x75, (const char)0x65, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0xa, (const char)0x9, (const char)0x41, (const char)0x64, (const char)0x64, (const char)0x4a, (const char)0x6f, (const char)0x62, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x53, (const char)0x65, (const char)0x74, (const char)0x46, (const char)0x69, (const char)0x6c, (const char)0x74, (const char)0x65, (const char)0x72, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x46, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x50, (const char)0x61, (const char)0x74, (const char)0x68, (const char)0x46, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x61, (const char)0x6d, (const char)0x65, (const char)0x28, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0x29, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x28, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x5f, (const char)0x63, (const char)0x5f, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x69, (const char)0x6e, (const char)0x76, (const char)0x6f, (const char)0x6b, (const char)0x65, (const char)0x5f, (const char)0x63, (const char)0x6f, (const char)0x75, (const char)0x6e, (const char)0x74, (const char)0x20, (const char)0x7e, (const char)0x3d, (const char)0x20, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x6e, (const char)0x72, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x6e, (const char)0x72, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x69, (const char)0x6e, (const char)0x76, (const char)0x6f, (const char)0x6b, (const char)0x65, (const char)0x5f, (const char)0x63, (const char)0x6f, (const char)0x75, (const char)0x6e, (const char)0x74, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x6f, (const char)0x6d, (const char)0x6d, (const char)0x6f, (const char)0x6e, (const char)0x28, (const char)0x6e, (const char)0x69, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0xa, (const char)0x9, (const char)0x41, (const char)0x64, (const char)0x64, (const char)0x4a, (const char)0x6f, (const char)0x62, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x63, (const char)0x61, (const char)0x63, (const char)0x68, (const char)0x65, (const char)0x2e, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x53, (const char)0x65, (const char)0x74, (const char)0x46, (const char)0x69, (const char)0x6c, (const char)0x74, (const char)0x65, (const char)0x72, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x46, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x50, (const char)0x61, (const char)0x74, (const char)0x68, (const char)0x46, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x61, (const char)0x6d, (const char)0x65, (const char)0x28, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0x29, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x54, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x28, (const char)0x63, (const char)0x6f, (const char)0x64, (const char)0x65, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x70, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x66, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x69, (const char)0x6f, (const char)0x2e, (const char)0x6f, (const char)0x70, (const char)0x65, (const char)0x6e, (const char)0x28, (const char)0x22, (const char)0x5f, (const char)0x74, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x2e, (const char)0x63, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x77, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x66, (const char)0x3a, (const char)0x77, (const char)0x72, (const char)0x69, (const char)0x74, (const char)0x65, (const char)0x28, (const char)0x63, (const char)0x6f, (const char)0x64, (const char)0x65, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x66, (const char)0x3a, (const char)0x77, (const char)0x72, (const char)0x69, (const char)0x74, (const char)0x65, (const char)0x28, (const char)0x22, (const char)0x5c, (const char)0x6e, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x66, (const char)0x3a, (const char)0x63, (const char)0x6c, (const char)0x6f, (const char)0x73, (const char)0x65, (const char)0x28, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x72, (const char)0x65, (const char)0x74, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x45, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x75, (const char)0x74, (const char)0x65, (const char)0x53, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x74, (const char)0x28, (const char)0x22, (const char)0x63, (const char)0x6c, (const char)0x20, (const char)0x5f, (const char)0x74, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x2e, (const char)0x63, (const char)0x20, (const char)0x2f, (const char)0x46, (const char)0x65, (const char)0x5f, (const char)0x74, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x6f, (const char)0x70, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6f, (const char)0x73, (const char)0x2e, (const char)0x72, (const char)0x65, (const char)0x6d, (const char)0x6f, (const char)0x76, (const char)0x65, (const char)0x28, (const char)0x22, (const char)0x5f, (const char)0x74, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x2e, (const char)0x63, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6f, (const char)0x73, (const char)0x2e, (const char)0x72, (const char)0x65, (const char)0x6d, (const char)0x6f, (const char)0x76, (const char)0x65, (const char)0x28, (const char)0x22, (const char)0x5f, (const char)0x74, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6f, (const char)0x73, (const char)0x2e, (const char)0x72, (const char)0x65, (const char)0x6d, (const char)0x6f, (const char)0x76, (const char)0x65, (const char)0x28, (const char)0x22, (const char)0x5f, (const char)0x74, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x2e, (const char)0x6f, (const char)0x62, (const char)0x6a, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x72, (const char)0x65, (const char)0x74, (const char)0x75, (const char)0x72, (const char)0x6e, (const char)0x20, (const char)0x72, (const char)0x65, (const char)0x74, (const char)0x3d, (const char)0x3d, (const char)0x30, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x42, (const char)0x75, (const char)0x69, (const char)0x6c, (const char)0x64, (const char)0x52, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x28, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x2e, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x28, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x29, (const char)0x20, (const char)0x2b, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x2e, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x28, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0x20, (const char)0x3c, (const char)0x20, (const char)0x38, (const char)0x30, (const char)0x30, (const char)0x30, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x72, (const char)0x65, (const char)0x74, (const char)0x75, (const char)0x72, (const char)0x6e, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6c, (const char)0x73, (const char)0x65, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x72, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x5f, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x61, (const char)0x6d, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x2e, (const char)0x72, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x72, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x5f, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x69, (const char)0x6f, (const char)0x2e, (const char)0x6f, (const char)0x70, (const char)0x65, (const char)0x6e, (const char)0x28, (const char)0x72, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x5f, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x61, (const char)0x6d, (const char)0x65, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x77, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x72, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x5f, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x3a, (const char)0x77, (const char)0x72, (const char)0x69, (const char)0x74, (const char)0x65, (const char)0x28, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x72, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x5f, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x3a, (const char)0x63, (const char)0x6c, (const char)0x6f, (const char)0x73, (const char)0x65, (const char)0x28, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x72, (const char)0x65, (const char)0x74, (const char)0x75, (const char)0x72, (const char)0x6e, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x40, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x72, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x5f, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x61, (const char)0x6d, (const char)0x65, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x4c, (const char)0x69, (const char)0x62, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x5f, (const char)0x72, (const char)0x65, (const char)0x70, (const char)0x6c, (const char)0x61, (const char)0x63, (const char)0x65, (const char)0x28, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x5c, (const char)0x5c, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x6e, (const char)0x6f, (const char)0x6c, (const char)0x6f, (const char)0x67, (const char)0x6f, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x2e, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x3a, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x29, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x4f, (const char)0x55, (const char)0x54, (const char)0x3a, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0xa, (const char)0x9, (const char)0x72, (const char)0x65, (const char)0x74, (const char)0x75, (const char)0x72, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x42, (const char)0x75, (const char)0x69, (const char)0x6c, (const char)0x64, (const char)0x52, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x28, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x4c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x5f, (const char)0x43, (const char)0x6f, (const char)0x6d, (const char)0x6d, (const char)0x6f, (const char)0x6e, (const char)0x28, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x70, (const char)0x61, (const char)0x72, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x72, (const char)0x61, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x29, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x70, (const char)0x61, (const char)0x72, (const char)0x74, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x72, (const char)0x61, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x70, (const char)0x61, (const char)0x72, (const char)0x74, (const char)0x2e, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x3a, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x73, (const char)0x20, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x70, (const char)0x61, (const char)0x72, (const char)0x74, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x20, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x70, (const char)0x61, (const char)0x74, (const char)0x68, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x54, (const char)0x61, (const char)0x62, (const char)0x6c, (const char)0x65, (const char)0x54, (const char)0x6f, (const char)0x53, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x28, (const char)0x70, (const char)0x61, (const char)0x72, (const char)0x74, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x70, (const char)0x61, (const char)0x74, (const char)0x68, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x70, (const char)0x61, (const char)0x74, (const char)0x68, (const char)0x3a, (const char)0x5c, (const char)0x22, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x5c, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x5f, (const char)0x72, (const char)0x65, (const char)0x70, (const char)0x6c, (const char)0x61, (const char)0x63, (const char)0x65, (const char)0x28, (const char)0x70, (const char)0x61, (const char)0x72, (const char)0x74, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x22, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x5c, (const char)0x5c, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x65, (const char)0x62, (const char)0x75, (const char)0x67, (const char)0x20, (const char)0x3e, (const char)0x20, (const char)0x30, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x44, (const char)0x45, (const char)0x42, (const char)0x55, (const char)0x47, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x6e, (const char)0x6f, (const char)0x6c, (const char)0x6f, (const char)0x67, (const char)0x6f, (const char)0x20, (const char)0x2f, (const char)0x69, (const char)0x6e, (const char)0x63, (const char)0x72, (const char)0x65, (const char)0x6d, (const char)0x65, (const char)0x6e, (const char)0x74, (const char)0x61, (const char)0x6c, (const char)0x3a, (const char)0x6e, (const char)0x6f, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x72, (const char)0x61, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x66, (const char)0x6c, (const char)0x61, (const char)0x67, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x70, (const char)0x61, (const char)0x74, (const char)0x68, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x73, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x22, (const char)0x20, (const char)0x2f, (const char)0x4f, (const char)0x55, (const char)0x54, (const char)0x3a, (const char)0x22, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x42, (const char)0x75, (const char)0x69, (const char)0x6c, (const char)0x64, (const char)0x52, (const char)0x65, (const char)0x73, (const char)0x70, (const char)0x6f, (const char)0x6e, (const char)0x73, (const char)0x65, (const char)0x28, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x41, (const char)0x64, (const char)0x64, (const char)0x4a, (const char)0x6f, (const char)0x62, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x63, (const char)0x29, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x44, (const char)0x4c, (const char)0x4c, (const char)0x28, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x4c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x5f, (const char)0x43, (const char)0x6f, (const char)0x6d, (const char)0x6d, (const char)0x6f, (const char)0x6e, (const char)0x28, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x6c, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x2f, (const char)0x44, (const char)0x4c, (const char)0x4c, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x6c, (const char)0x6f, (const char)0x63, (const char)0x61, (const char)0x6c, (const char)0x20, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x2e, (const char)0x73, (const char)0x75, (const char)0x62, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x30, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x2e, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x29, (const char)0x20, (const char)0x2d, (const char)0x20, (const char)0x73, (const char)0x74, (const char)0x72, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x2e, (const char)0x6c, (const char)0x65, (const char)0x6e, (const char)0x28, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x6c, (const char)0x6c, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x65, (const char)0x6e, (const char)0x73, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x29, (const char)0x29, (const char)0x20, (const char)0x2e, (const char)0x2e, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x65, (const char)0x6e, (const char)0x73, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x41, (const char)0x64, (const char)0x64, (const char)0x4f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x28, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x66, (const char)0x69, (const char)0x6c, (const char)0x65, (const char)0x29, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x4c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x28, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x4c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x5f, (const char)0x43, (const char)0x6f, (const char)0x6d, (const char)0x6d, (const char)0x6f, (const char)0x6e, (const char)0x28, (const char)0x6c, (const char)0x61, (const char)0x62, (const char)0x65, (const char)0x6c, (const char)0x2c, (const char)0x20, (const char)0x6f, (const char)0x75, (const char)0x74, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x2c, (const char)0x20, (const char)0x69, (const char)0x6e, (const char)0x70, (const char)0x75, (const char)0x74, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2c, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x2c, (const char)0x20, (const char)0x22, (const char)0x22, (const char)0x29, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0xa, (const char)0x66, (const char)0x75, (const char)0x6e, (const char)0x63, (const char)0x74, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x53, (const char)0x65, (const char)0x74, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x73, (const char)0x43, (const char)0x4c, (const char)0x28, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x29, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x65, (const char)0x6e, (const char)0x73, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x2e, (const char)0x6f, (const char)0x62, (const char)0x6a, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x5f, (const char)0x63, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x63, (const char)0x6c, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x5f, (const char)0x63, (const char)0x78, (const char)0x78, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x63, (const char)0x6c, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x54, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x54, (const char)0x65, (const char)0x73, (const char)0x74, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x63, (const char)0x63, (const char)0x2e, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x58, (const char)0x58, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x43, (const char)0x58, (const char)0x58, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x65, (const char)0x6e, (const char)0x73, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x6c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x2e, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x4c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x65, (const char)0x6e, (const char)0x73, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x6c, (const char)0x69, (const char)0x62, (const char)0x2e, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x4c, (const char)0x69, (const char)0x62, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x9, (const char)0xa, (const char)0x9, (const char)0x69, (const char)0x66, (const char)0x20, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x6c, (const char)0x6c, (const char)0x20, (const char)0x74, (const char)0x68, (const char)0x65, (const char)0x6e, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x6c, (const char)0x6c, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x74, (const char)0x65, (const char)0x6e, (const char)0x73, (const char)0x69, (const char)0x6f, (const char)0x6e, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x2e, (const char)0x64, (const char)0x6c, (const char)0x6c, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x6c, (const char)0x6c, (const char)0x2e, (const char)0x65, (const char)0x78, (const char)0x65, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x22, (const char)0x6c, (const char)0x69, (const char)0x6e, (const char)0x6b, (const char)0x22, (const char)0xa, (const char)0x9, (const char)0x9, (const char)0x73, (const char)0x65, (const char)0x74, (const char)0x74, (const char)0x69, (const char)0x6e, (const char)0x67, (const char)0x73, (const char)0x2e, (const char)0x64, (const char)0x6c, (const char)0x6c, (const char)0x2e, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x20, (const char)0x3d, (const char)0x20, (const char)0x44, (const char)0x72, (const char)0x69, (const char)0x76, (const char)0x65, (const char)0x72, (const char)0x43, (const char)0x4c, (const char)0x5f, (const char)0x44, (const char)0x4c, (const char)0x4c, (const char)0xa, (const char)0x9, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0x65, (const char)0x6e, (const char)0x64, (const char)0xa, (const char)0 };
 // internal_files
 // file src/internal_base.h line 2100
-struct anonymous$1 internal_files[5l];
+struct anonymous_1 internal_files[5l];
 // internal_files
 // file src/internal_base.h line 2100
-struct anonymous$1 internal_files[5l] = { { .filename="src/base.lua", .content=internal_file_1 },
+struct anonymous_1 internal_files[5l] = { { .filename="src/base.lua", .content=internal_file_1 },
     { .filename="src/tools.lua", .content=internal_file_2 },
     { .filename="src/driver_gcc.lua", .content=internal_file_3 },
     { .filename="src/driver_cl.lua", .content=internal_file_4 },
     { .filename=((const char *)NULL), .content=((const char *)NULL) } };
 // lock_mutex
 // file src/support.c line 220
-static union anonymous$2 lock_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_2 lock_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // option_abort_on_error
@@ -2186,7 +2186,7 @@ static struct CACHENODE * CACHENODERB_RB_MINMAX(struct CACHENODERB *head, signed
 // file src/cache.c line 100
 static struct CACHENODE * CACHENODERB_RB_NEXT(struct CACHENODE *elm)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(elm->rbentry.rbe_right == ((struct CACHENODE *)NULL)))
   {
     elm = elm->rbentry.rbe_right;
@@ -2197,11 +2197,11 @@ static struct CACHENODE * CACHENODERB_RB_NEXT(struct CACHENODE *elm)
   else
   {
     if(!(elm->rbentry.rbe_parent == ((struct CACHENODE *)NULL)))
-      tmp_if_expr$1 = elm == elm->rbentry.rbe_parent->rbentry.rbe_left ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = elm == elm->rbentry.rbe_parent->rbentry.rbe_left ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       elm = elm->rbentry.rbe_parent;
 
     else
@@ -2246,7 +2246,7 @@ static struct CACHENODE * CACHENODERB_RB_NFIND(struct CACHENODERB *head, struct 
 // file src/cache.c line 100
 static struct CACHENODE * CACHENODERB_RB_PREV(struct CACHENODE *elm)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(elm->rbentry.rbe_left == ((struct CACHENODE *)NULL)))
   {
     elm = elm->rbentry.rbe_left;
@@ -2257,11 +2257,11 @@ static struct CACHENODE * CACHENODERB_RB_PREV(struct CACHENODE *elm)
   else
   {
     if(!(elm->rbentry.rbe_parent == ((struct CACHENODE *)NULL)))
-      tmp_if_expr$1 = elm == elm->rbentry.rbe_parent->rbentry.rbe_right ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = elm == elm->rbentry.rbe_parent->rbentry.rbe_right ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       elm = elm->rbentry.rbe_parent;
 
     else
@@ -2396,14 +2396,14 @@ color:
 static void CACHENODERB_RB_REMOVE_COLOR(struct CACHENODERB *head, struct CACHENODE *parent, struct CACHENODE *elm)
 {
   struct CACHENODE *tmp;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_5;
   while((_Bool)1)
   {
     if(!(elm == ((struct CACHENODE *)NULL)))
@@ -2465,23 +2465,23 @@ static void CACHENODERB_RB_REMOVE_COLOR(struct CACHENODERB *head, struct CACHENO
       }
 
       if(tmp->rbentry.rbe_left == ((struct CACHENODE *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = tmp->rbentry.rbe_left->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = tmp->rbentry.rbe_left->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(tmp->rbentry.rbe_right == ((struct CACHENODE *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = tmp->rbentry.rbe_right->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tmp->rbentry.rbe_right->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         tmp->rbentry.rbe_color = 1;
         elm = parent;
@@ -2491,11 +2491,11 @@ static void CACHENODERB_RB_REMOVE_COLOR(struct CACHENODERB *head, struct CACHENO
       else
       {
         if(tmp->rbentry.rbe_right == ((struct CACHENODE *)NULL))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = tmp->rbentry.rbe_right->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = tmp->rbentry.rbe_right->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           struct CACHENODE *oleft = tmp->rbentry.rbe_left;
           if(!(oleft == ((struct CACHENODE *)NULL)))
@@ -2632,23 +2632,23 @@ static void CACHENODERB_RB_REMOVE_COLOR(struct CACHENODERB *head, struct CACHENO
       }
 
       if(tmp->rbentry.rbe_left == ((struct CACHENODE *)NULL))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = tmp->rbentry.rbe_left->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = tmp->rbentry.rbe_left->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         if(tmp->rbentry.rbe_right == ((struct CACHENODE *)NULL))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = tmp->rbentry.rbe_right->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = tmp->rbentry.rbe_right->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
         tmp->rbentry.rbe_color = 1;
         elm = parent;
@@ -2658,11 +2658,11 @@ static void CACHENODERB_RB_REMOVE_COLOR(struct CACHENODERB *head, struct CACHENO
       else
       {
         if(tmp->rbentry.rbe_left == ((struct CACHENODE *)NULL))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = tmp->rbentry.rbe_left->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = tmp->rbentry.rbe_left->rbentry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           struct CACHENODE *oright = tmp->rbentry.rbe_right;
           if(!(oright == ((struct CACHENODE *)NULL)))
@@ -2792,14 +2792,14 @@ static signed int add_node_attribute(struct lua_State *L, const char *funcname, 
 
   luaL_checktype(L, 1, 4);
   context=context_get_pointer(L);
-  const char *return_value_lua_tolstring$1;
-  return_value_lua_tolstring$1=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  node=node_find(context->graph, return_value_lua_tolstring$1);
-  const char *return_value_lua_tolstring$2;
+  const char *return_value_lua_tolstring_1;
+  return_value_lua_tolstring_1=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  node=node_find(context->graph, return_value_lua_tolstring_1);
+  const char *return_value_lua_tolstring_2;
   if(node == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "%s: couldn't find node with name '%s'", funcname, return_value_lua_tolstring$2);
+    return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "%s: couldn't find node with name '%s'", funcname, return_value_lua_tolstring_2);
   }
 
   cbinfo.node = node;
@@ -2812,9 +2812,9 @@ static signed int add_node_attribute(struct lua_State *L, const char *funcname, 
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // bam
@@ -2916,9 +2916,9 @@ static signed int bam(const char *scriptfile, const char **targets, signed int n
         else
         {
           signed long int s;
-          signed long int return_value_time$1;
-          return_value_time$1=time(((signed long int *)NULL));
-          s = return_value_time$1 - starttime;
+          signed long int return_value_time_1;
+          return_value_time_1=time(((signed long int *)NULL));
+          s = return_value_time_1 - starttime;
           if(!(s >= 2l))
             printf("%s: done\n", session.name);
 
@@ -2942,10 +2942,10 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
   context->globaltimestamp=file_timestamp(scriptfile);
   char cwd[1024l];
   char path[1024l];
-  char *return_value_getcwd$1;
-  return_value_getcwd$1=getcwd(cwd, sizeof(char [1024l]) /*1024ul*/ );
-  signed int tmp_statement_expression$9;
-  if(return_value_getcwd$1 == ((char *)NULL))
+  char *return_value_getcwd_1;
+  return_value_getcwd_1=getcwd(cwd, sizeof(char [1024l]) /*1024ul*/ );
+  signed int tmp_statement_expression_9;
+  if(return_value_getcwd_1 == ((char *)NULL))
   {
     printf("%s: error: couldn't get current working directory\n", session.name);
     return -1;
@@ -2953,9 +2953,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
   else
   {
-    signed int return_value_path_directory$2;
-    return_value_path_directory$2=path_directory(context->filename, path, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-    if(!(return_value_path_directory$2 == 0))
+    signed int return_value_path_directory_2;
+    return_value_path_directory_2=path_directory(context->filename, path, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+    if(!(return_value_path_directory_2 == 0))
     {
       printf("%s: error: path too long '%s'\n", session.name, (const void *)path);
       return -1;
@@ -2963,9 +2963,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
     else
     {
-      signed int return_value_path_join$3;
-      return_value_path_join$3=path_join(cwd, -1, path, -1, context->script_directory, (signed int)sizeof(char [512l]) /*512ul*/ );
-      if(!(return_value_path_join$3 == 0))
+      signed int return_value_path_join_3;
+      return_value_path_join_3=path_join(cwd, -1, path, -1, context->script_directory, (signed int)sizeof(char [512l]) /*512ul*/ );
+      if(!(return_value_path_join_3 == 0))
       {
         printf("%s: error: path too long when joining '%s' and '%s'\n", session.name, (const void *)cwd, (const void *)path);
         return -1;
@@ -2973,9 +2973,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
       else
       {
-        signed int return_value_register_lua_globals$4;
-        return_value_register_lua_globals$4=register_lua_globals(context);
-        if(!(return_value_register_lua_globals$4 == 0))
+        signed int return_value_register_lua_globals_4;
+        return_value_register_lua_globals_4=register_lua_globals(context);
+        if(!(return_value_register_lua_globals_4 == 0))
         {
           printf("%s: error: registering of lua functions failed\n", session.name);
           return -1;
@@ -2987,17 +2987,17 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
             printf("%s: reading script from '%s'\n", session.name, scriptfile);
 
           lua_getfield(context->lua, -10002, "errorfunc");
-          signed int return_value_luaL_loadfile$5;
-          return_value_luaL_loadfile$5=luaL_loadfile(context->lua, scriptfile);
-          if(!(return_value_luaL_loadfile$5 == 0))
+          signed int return_value_luaL_loadfile_5;
+          return_value_luaL_loadfile_5=luaL_loadfile(context->lua, scriptfile);
+          if(!(return_value_luaL_loadfile_5 == 0))
           {
-            if(return_value_luaL_loadfile$5 == 3)
+            if(return_value_luaL_loadfile_5 == 3)
               goto __CPROVER_DUMP_L8;
 
-            if(return_value_luaL_loadfile$5 == 4)
+            if(return_value_luaL_loadfile_5 == 4)
               goto __CPROVER_DUMP_L9;
 
-            if(return_value_luaL_loadfile$5 == 1)
+            if(return_value_luaL_loadfile_5 == 1)
               goto __CPROVER_DUMP_L10;
 
           }
@@ -3026,9 +3026,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
         __CPROVER_DUMP_L12:
           ;
-          signed int return_value_lua_pcall$6;
-          return_value_lua_pcall$6=lua_pcall(context->lua, 0, -1, -2);
-          if(!(return_value_lua_pcall$6 == 0))
+          signed int return_value_lua_pcall_6;
+          return_value_lua_pcall_6=lua_pcall(context->lua, 0, -1, -2);
+          if(!(return_value_lua_pcall_6 == 0))
           {
             printf("%s: script error (-t for more detail)\n", session.name);
             return -1;
@@ -3036,9 +3036,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
           else
           {
-            signed int return_value_run_deferred_functions$7;
-            return_value_run_deferred_functions$7=run_deferred_functions(context);
-            if(!(return_value_run_deferred_functions$7 == 0))
+            signed int return_value_run_deferred_functions_7;
+            return_value_run_deferred_functions_7=run_deferred_functions(context);
+            if(!(return_value_run_deferred_functions_7 == 0))
               return -1;
 
             else
@@ -3049,9 +3049,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
               struct NODE *node;
               signed int all_target = 0;
               signed int i;
-              signed int return_value_node_create$8;
-              return_value_node_create$8=node_create(&context->target, context->graph, "_bam_buildtarget", ((const char *)NULL), ((const char *)NULL));
-              if(!(return_value_node_create$8 == 0))
+              signed int return_value_node_create_8;
+              return_value_node_create_8=node_create(&context->target, context->graph, "_bam_buildtarget", ((const char *)NULL), ((const char *)NULL));
+              if(!(return_value_node_create_8 == 0))
                 return -1;
 
               else
@@ -3064,10 +3064,10 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
                   {
                     unsigned long int __s1_len;
                     unsigned long int __s2_len;
-                    signed int return_value___builtin_strcmp$10;
-                    return_value___builtin_strcmp$10=__builtin_strcmp(targets[(signed long int)i], "all");
-                    tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-                    if(tmp_statement_expression$9 == 0)
+                    signed int return_value___builtin_strcmp_10;
+                    return_value___builtin_strcmp_10=__builtin_strcmp(targets[(signed long int)i], "all");
+                    tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+                    if(tmp_statement_expression_9 == 0)
                     {
                       all_target = 1;
                       break;
@@ -3091,9 +3091,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
                     {
                       if(!(node == context->target))
                       {
-                        struct NODE *return_value_node_add_dependency_withnode$11;
-                        return_value_node_add_dependency_withnode$11=node_add_dependency_withnode(context->target, node);
-                        if(return_value_node_add_dependency_withnode$11 == ((struct NODE *)NULL))
+                        struct NODE *return_value_node_add_dependency_withnode_11;
+                        return_value_node_add_dependency_withnode_11=node_add_dependency_withnode(context->target, node);
+                        if(return_value_node_add_dependency_withnode_11 == ((struct NODE *)NULL))
                           return -1;
 
                       }
@@ -3108,9 +3108,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
                     i = 0;
                     for( ; !(i >= num_targets); i = i + 1)
                     {
-                      struct NODE *bam_setup$$1$$5$$3$$1$$1$$1$$node;
-                      bam_setup$$1$$5$$3$$1$$1$$1$$node=node_find(context->graph, targets[(signed long int)i]);
-                      if(bam_setup$$1$$5$$3$$1$$1$$1$$node == ((struct NODE *)NULL))
+                      struct NODE *bam_setup__1__5__3__1__1__1__node;
+                      bam_setup__1__5__3__1__1__1__node=node_find(context->graph, targets[(signed long int)i]);
+                      if(bam_setup__1__5__3__1__1__1__node == ((struct NODE *)NULL))
                       {
                         printf("%s: target '%s' not found\n", session.name, targets[(signed long int)i]);
                         return -1;
@@ -3118,12 +3118,12 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
                       if(!(option_dependent == 0))
                       {
-                        struct NODELINK *parent = bam_setup$$1$$5$$3$$1$$1$$1$$node->firstparent;
+                        struct NODELINK *parent = bam_setup__1__5__3__1__1__1__node->firstparent;
                         for( ; !(parent == ((struct NODELINK *)NULL)); parent = parent->next)
                         {
-                          struct NODE *return_value_node_add_dependency_withnode$12;
-                          return_value_node_add_dependency_withnode$12=node_add_dependency_withnode(context->target, parent->node);
-                          if(return_value_node_add_dependency_withnode$12 == ((struct NODE *)NULL))
+                          struct NODE *return_value_node_add_dependency_withnode_12;
+                          return_value_node_add_dependency_withnode_12=node_add_dependency_withnode(context->target, parent->node);
+                          if(return_value_node_add_dependency_withnode_12 == ((struct NODE *)NULL))
                             return -1;
 
                         }
@@ -3131,9 +3131,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
                       else
                       {
-                        struct NODE *return_value_node_add_dependency_withnode$13;
-                        return_value_node_add_dependency_withnode$13=node_add_dependency_withnode(context->target, bam_setup$$1$$5$$3$$1$$1$$1$$node);
-                        if(return_value_node_add_dependency_withnode$13 == ((struct NODE *)NULL))
+                        struct NODE *return_value_node_add_dependency_withnode_13;
+                        return_value_node_add_dependency_withnode_13=node_add_dependency_withnode(context->target, bam_setup__1__5__3__1__1__1__node);
+                        if(return_value_node_add_dependency_withnode_13 == ((struct NODE *)NULL))
                           return -1;
 
                       }
@@ -3142,9 +3142,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 
                   else
                   {
-                    struct NODE *return_value_node_add_dependency_withnode$14;
-                    return_value_node_add_dependency_withnode$14=node_add_dependency_withnode(context->target, context->defaulttarget);
-                    if(return_value_node_add_dependency_withnode$14 == ((struct NODE *)NULL))
+                    struct NODE *return_value_node_add_dependency_withnode_14;
+                    return_value_node_add_dependency_withnode_14=node_add_dependency_withnode(context->target, context->defaulttarget);
+                    if(return_value_node_add_dependency_withnode_14 == ((struct NODE *)NULL))
                       return -1;
 
                   }
@@ -3165,9 +3165,9 @@ static signed int bam_setup(struct CONTEXT *context, const char *scriptfile, con
 // file src/node.c line 266
 static unsigned char * bitarray_allocate(signed int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)((size + 7) / 8));
-  return (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)((size + 7) / 8));
+  return (unsigned char *)return_value_malloc_1;
 }
 
 // bitarray_clear
@@ -3217,9 +3217,9 @@ static signed int build_clean_callback(struct NODEWALK *walkinfo)
   {
     if(!(node->timestamp == 0l))
     {
-      signed int return_value_remove$1;
-      return_value_remove$1=remove(node->filename);
-      if(return_value_remove$1 == 0)
+      signed int return_value_remove_1;
+      return_value_remove_1=remove(node->filename);
+      if(return_value_remove_1 == 0)
         printf("%s: removed '%s'\n", session.name, node->filename);
 
     }
@@ -3340,19 +3340,19 @@ static signed int build_prepare_callback(struct NODEWALK *walkinfo)
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(olddirty == (signed int)node->dirty))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = oldtimestamp != node->timestamp ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = oldtimestamp != node->timestamp ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = oldjobdep != node->firstjobdep ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = oldjobdep != node->firstjobdep ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     parent = node->firstparent;
     for( ; !(parent == ((struct NODELINK *)NULL)); parent = parent->next)
@@ -3373,15 +3373,15 @@ void build_stringlist(struct lua_State *L, struct HEAP *heap, struct STRINGLIST 
   do
   {
     lua_rawgeti(L, table_index, i);
-    signed int return_value_lua_type$1;
-    return_value_lua_type$1=lua_type(L, -1);
-    if(return_value_lua_type$1 == 0)
+    signed int return_value_lua_type_1;
+    return_value_lua_type_1=lua_type(L, -1);
+    if(return_value_lua_type_1 == 0)
       break;
 
     orgstr=lua_tolstring(L, -1, &len);
-    void *return_value_mem_allocate$2;
-    return_value_mem_allocate$2=mem_allocate(heap, (signed int)(sizeof(struct STRINGLIST) /*24ul*/  + len + (unsigned long int)1));
-    listitem = (struct STRINGLIST *)return_value_mem_allocate$2;
+    void *return_value_mem_allocate_2;
+    return_value_mem_allocate_2=mem_allocate(heap, (signed int)(sizeof(struct STRINGLIST) /*24ul*/  + len + (unsigned long int)1));
+    listitem = (struct STRINGLIST *)return_value_mem_allocate_2;
     listitem->str = (const char *)(listitem + (signed long int)1);
     listitem->len = len;
     memcpy((void *)(listitem + (signed long int)1), (const void *)orgstr, len + (unsigned long int)1);
@@ -3444,9 +3444,9 @@ struct CACHENODE * cache_find_byhash(struct CACHE *cache, unsigned int hashid)
   else
   {
     tempnode.hashid = hashid;
-    struct CACHENODE *return_value_CACHENODERB_RB_FIND$1;
-    return_value_CACHENODERB_RB_FIND$1=CACHENODERB_RB_FIND(&cache->nodetree, &tempnode);
-    return return_value_CACHENODERB_RB_FIND$1;
+    struct CACHENODE *return_value_CACHENODERB_RB_FIND_1;
+    return_value_CACHENODERB_RB_FIND_1=CACHENODERB_RB_FIND(&cache->nodetree, &tempnode);
+    return return_value_CACHENODERB_RB_FIND_1;
   }
 }
 
@@ -3468,9 +3468,9 @@ struct CACHE * cache_load(const char *filename)
   unsigned long int bytesread;
   signed int fp;
   fp=open(filename, 00);
-  _Bool tmp_if_expr$3;
-  signed int return_value_memcmp$2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_memcmp_2;
+  _Bool tmp_if_expr_4;
   if(fp == -1)
     return ((struct CACHE *)NULL);
 
@@ -3478,26 +3478,26 @@ struct CACHE * cache_load(const char *filename)
   {
     filesize=io_size(fp);
     buffer=malloc(filesize);
-    signed long int return_value_read$1;
-    return_value_read$1=read(fp, buffer, filesize);
-    bytesread = (unsigned long int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fp, buffer, filesize);
+    bytesread = (unsigned long int)return_value_read_1;
     close(fp);
     cache_setup_header();
     cache = (struct CACHE *)buffer;
     if(!(bytesread == filesize) || !(filesize >= sizeof(struct CACHE) /*48ul*/ ))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_memcmp$2=memcmp((const void *)cache->header, (const void *)bamheader, sizeof(char [8l]) /*8ul*/ );
-      tmp_if_expr$3 = return_value_memcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_memcmp_2=memcmp((const void *)cache->header, (const void *)bamheader, sizeof(char [8l]) /*8ul*/ );
+      tmp_if_expr_3 = return_value_memcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = filesize < sizeof(struct CACHE) /*48ul*/  + (unsigned long int)cache->num_nodes * sizeof(struct CACHENODE) /*80ul*/  ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = filesize < sizeof(struct CACHE) /*48ul*/  + (unsigned long int)cache->num_nodes * sizeof(struct CACHENODE) /*80ul*/  ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       printf("%s: warning: cache file is invalid, generating new one\n", session.name);
       free(buffer);
@@ -3529,30 +3529,30 @@ signed int cache_save(const char *filename, struct GRAPH *graph)
   info.index = (unsigned int)0;
   info.graph = graph;
   info.fp=open(filename, 01 | 0100 | 01000, 0666);
-  _Bool tmp_if_expr$4;
-  signed int return_value_write_nodes$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_write_nodes_3;
   if(info.fp == -1)
     return -1;
 
   else
   {
     cache_setup_header();
-    signed int return_value_write_header$2;
-    return_value_write_header$2=write_header(&info);
-    if(!(return_value_write_header$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_write_header_2;
+    return_value_write_header_2=write_header(&info);
+    if(!(return_value_write_header_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_write_nodes$3=write_nodes(&info);
-      tmp_if_expr$4 = return_value_write_nodes$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write_nodes_3=write_nodes(&info);
+      tmp_if_expr_4 = return_value_write_nodes_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       close(info.fp);
-      signed int return_value_open$1;
-      return_value_open$1=open(filename, 01 | 0100 | 01000, 0666);
-      close(return_value_open$1);
+      signed int return_value_open_1;
+      return_value_open_1=open(filename, 01 | 0100 | 01000, 0666);
+      close(return_value_open_1);
       return -1;
     }
 
@@ -3588,16 +3588,16 @@ static void cachehit_callback(struct NODE *node, struct CACHENODE *cachenode, vo
 
   else
   {
-    signed long int return_value_file_timestamp$1;
-    return_value_file_timestamp$1=file_timestamp(cachenode->filename);
-    if(return_value_file_timestamp$1 == 0l)
+    signed long int return_value_file_timestamp_1;
+    return_value_file_timestamp_1=file_timestamp(cachenode->filename);
+    if(return_value_file_timestamp_1 == 0l)
       node->dirty = (unsigned int)1;
 
     else
     {
-      struct NODE *cachehit_callback$$1$$2$$1$$newnode;
-      cachehit_callback$$1$$2$$1$$newnode=node_add_dependency(node, cachenode->filename);
-      dependency_cpp_run(info->context, cachehit_callback$$1$$2$$1$$newnode, info->callback, info->userdata);
+      struct NODE *cachehit_callback__1__2__1__newnode;
+      cachehit_callback__1__2__1__newnode=node_add_dependency(node, cachenode->filename);
+      dependency_cpp_run(info->context, cachehit_callback__1__2__1__newnode, info->callback, info->userdata);
     }
   }
 }
@@ -3622,17 +3622,17 @@ static signed int cachenode_cmp(struct CACHENODE *a, struct CACHENODE *b)
 static void callback_node_attrib(struct lua_State *L, void *user)
 {
   struct NODEATTRIB_CBINFO *info = (struct NODEATTRIB_CBINFO *)user;
-  const char *return_value_lua_tolstring$3;
-  return_value_lua_tolstring$3=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
+  const char *return_value_lua_tolstring_3;
+  return_value_lua_tolstring_3=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
   struct NODE *return_value;
-  return_value=info->callback(info->node, return_value_lua_tolstring$3);
-  const char *return_value_lua_tolstring$1;
-  const char *return_value_lua_tolstring$2;
+  return_value=info->callback(info->node, return_value_lua_tolstring_3);
+  const char *return_value_lua_tolstring_1;
+  const char *return_value_lua_tolstring_2;
   if(return_value == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$1=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
-    return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "could not add '%s' to '%s'", return_value_lua_tolstring$1, return_value_lua_tolstring$2);
+    return_value_lua_tolstring_1=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
+    return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "could not add '%s' to '%s'", return_value_lua_tolstring_1, return_value_lua_tolstring_2);
   }
 
 }
@@ -3645,21 +3645,21 @@ static signed int checkpath(struct CONTEXT *context, struct NODE *node, const ch
   depnode=node_find(context->graph, path);
   if(!(depnode == ((struct NODE *)NULL)))
   {
-    struct NODE *return_value_node_add_dependency_withnode$1;
-    return_value_node_add_dependency_withnode$1=node_add_dependency_withnode(node, depnode);
-    if(return_value_node_add_dependency_withnode$1 == ((struct NODE *)NULL))
+    struct NODE *return_value_node_add_dependency_withnode_1;
+    return_value_node_add_dependency_withnode_1=node_add_dependency_withnode(node, depnode);
+    if(return_value_node_add_dependency_withnode_1 == ((struct NODE *)NULL))
       return -1;
 
     return 1;
   }
 
-  signed int return_value_file_exist$3;
-  return_value_file_exist$3=file_exist(path);
-  if(!(return_value_file_exist$3 == 0))
+  signed int return_value_file_exist_3;
+  return_value_file_exist_3=file_exist(path);
+  if(!(return_value_file_exist_3 == 0))
   {
-    struct NODE *return_value_node_add_dependency$2;
-    return_value_node_add_dependency$2=node_add_dependency(node, path);
-    if(return_value_node_add_dependency$2 == ((struct NODE *)NULL))
+    struct NODE *return_value_node_add_dependency_2;
+    return_value_node_add_dependency_2=node_add_dependency(node, path);
+    if(return_value_node_add_dependency_2 == ((struct NODE *)NULL))
       return -1;
 
     return 1;
@@ -3675,7 +3675,7 @@ static signed int collect(struct lua_State *L, signed int flags)
   signed int n;
   n=lua_gettop(L);
   signed int i;
-  struct anonymous$6 info;
+  struct anonymous_6 info;
   if(!(n >= 1))
     luaL_error(L, "collect: incorrect number of arguments");
 
@@ -3699,16 +3699,16 @@ static signed int collect(struct lua_State *L, signed int flags)
 // file src/support.c line 503
 static void collect_callback(const char *filename, signed int dir, void *user)
 {
-  struct anonymous$6 *info = (struct anonymous$6 *)user;
+  struct anonymous_6 *info = (struct anonymous_6 *)user;
   const char *no_pathed = filename + (signed long int)info->path_len;
   signed int no_pathed_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(no_pathed);
-  no_pathed_len = (signed int)return_value_strlen$1;
-  _Bool tmp_if_expr$4;
-  signed int tmp_statement_expression$2;
-  signed int return_value_strncmp$5;
-  signed int tmp_post$6;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(no_pathed);
+  no_pathed_len = (signed int)return_value_strlen_1;
+  _Bool tmp_if_expr_4;
+  signed int tmp_statement_expression_2;
+  signed int return_value_strncmp_5;
+  signed int tmp_post_6;
   if((signed int)*filename == 46)
   {
     if((signed int)filename[1l] == 0)
@@ -3742,24 +3742,24 @@ static void collect_callback(const char *filename, signed int dir, void *user)
       __CPROVER_DUMP_L3:
         ;
         if(!(no_pathed_len >= info->end_len))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$3;
-          return_value___builtin_strcmp$3=__builtin_strcmp((no_pathed + (signed long int)no_pathed_len) - (signed long int)info->end_len, info->end_str);
-          tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-          tmp_if_expr$4 = tmp_statement_expression$2 != 0 ? (_Bool)1 : (_Bool)0;
+          signed int return_value___builtin_strcmp_3;
+          return_value___builtin_strcmp_3=__builtin_strcmp((no_pathed + (signed long int)no_pathed_len) - (signed long int)info->end_len, info->end_str);
+          tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+          tmp_if_expr_4 = tmp_statement_expression_2 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           break;
 
         if(!(info->start_len == 0))
         {
-          return_value_strncmp$5=strncmp(no_pathed, info->start_str, (unsigned long int)info->start_len);
-          if(!(return_value_strncmp$5 == 0))
+          return_value_strncmp_5=strncmp(no_pathed, info->start_str, (unsigned long int)info->start_len);
+          if(!(return_value_strncmp_5 == 0))
             break;
 
         }
@@ -3779,9 +3779,9 @@ static void collect_callback(const char *filename, signed int dir, void *user)
         }
 
         lua_pushstring(info->lua, filename);
-        tmp_post$6 = info->i;
+        tmp_post_6 = info->i;
         info->i = info->i + 1;
-        lua_rawseti(info->lua, -2, tmp_post$6);
+        lua_rawseti(info->lua, -2, tmp_post_6);
       }
       while((_Bool)0);
       if(!(dir == 0))
@@ -3789,7 +3789,7 @@ static void collect_callback(const char *filename, signed int dir, void *user)
         if(!((8 & info->flags) == 0))
         {
           char recursepath[1024l];
-          struct anonymous$6 recurseinfo = *info;
+          struct anonymous_6 recurseinfo = *info;
           strcpy(recursepath, filename);
           strcat(recursepath, "/");
           strcat(recursepath, info->start_str);
@@ -3816,15 +3816,15 @@ static signed int constraints_check(struct NODE *node)
       return 1;
 
   link = node->constraint_exclusive;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(link == ((struct NODELINK *)NULL)); link = link->next)
   {
     if(!(link->node->constraint_exclusive_count == 0u))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = link->node->constraint_shared_count != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = link->node->constraint_shared_count != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 1;
 
   }
@@ -3847,9 +3847,9 @@ static void constraints_update(struct NODE *node, signed int direction)
 // file src/context.c line 433
 signed int context_build_clean(struct CONTEXT *context)
 {
-  signed int return_value_node_walk$1;
-  return_value_node_walk$1=node_walk(context->target, 4 | 1 | 16, build_clean_callback, NULL);
-  return return_value_node_walk$1;
+  signed int return_value_node_walk_1;
+  return_value_node_walk_1=node_walk(context->target, 4 | 1 | 16, build_clean_callback, NULL);
+  return return_value_node_walk_1;
 }
 
 // context_build_make
@@ -3906,9 +3906,9 @@ signed int context_build_make(struct CONTEXT *context)
 // file src/context.c line 552
 signed int context_build_prepare(struct CONTEXT *context)
 {
-  signed int return_value_node_walk$1;
-  return_value_node_walk$1=node_walk(context->target, 4 | 1 | 64 | 16, build_prepare_callback, (void *)context);
-  return return_value_node_walk$1;
+  signed int return_value_node_walk_1;
+  return_value_node_walk_1=node_walk(context->target, 4 | 1 | 64 | 16, build_prepare_callback, (void *)context);
+  return return_value_node_walk_1;
 }
 
 // context_default_target
@@ -3947,10 +3947,10 @@ static signed int create_path(const char *output_name)
   char buffer[1024l];
   signed int i;
   char t;
-  signed int return_value_path_directory$1;
-  return_value_path_directory$1=path_directory(output_name, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-  _Bool tmp_if_expr$4;
-  if(!(return_value_path_directory$1 == 0))
+  signed int return_value_path_directory_1;
+  return_value_path_directory_1=path_directory(output_name, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+  _Bool tmp_if_expr_4;
+  if(!(return_value_path_directory_1 == 0))
   {
     fprintf(stderr, "path error: %s\n", (const void *)buffer);
     return -1;
@@ -3962,9 +3962,9 @@ static signed int create_path(const char *output_name)
 
     else
     {
-      signed int return_value_file_createdir$2;
-      return_value_file_createdir$2=file_createdir(buffer);
-      if(return_value_file_createdir$2 == 0)
+      signed int return_value_file_createdir_2;
+      return_value_file_createdir_2=file_createdir(buffer);
+      if(return_value_file_createdir_2 == 0)
         return 0;
 
       else
@@ -3973,17 +3973,17 @@ static signed int create_path(const char *output_name)
         for( ; (_Bool)1; i = i + 1)
         {
           if((signed int)buffer[(signed long int)i] == 47)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = (signed int)buffer[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (signed int)buffer[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
           {
             t = buffer[(signed long int)i];
             buffer[(signed long int)i] = (char)0;
-            signed int return_value_file_createdir$3;
-            return_value_file_createdir$3=file_createdir(buffer);
-            if(!(return_value_file_createdir$3 == 0))
+            signed int return_value_file_createdir_3;
+            return_value_file_createdir_3=file_createdir(buffer);
+            if(!(return_value_file_createdir_3 == 0))
             {
               fprintf(stderr, "path error2: %s\n", (const void *)buffer);
               return -1;
@@ -4019,47 +4019,47 @@ void criticalsection_leave()
 // file src/luafuncs.c line 344
 static void debug_print_lua_value(struct lua_State *L, signed int i)
 {
-  signed int return_value_lua_type$12;
-  return_value_lua_type$12=lua_type(L, i);
-  signed int return_value_lua_type$11;
-  const char *return_value_lua_tolstring$1;
-  signed int return_value_lua_type$10;
-  double return_value_lua_tonumber$2;
-  signed int return_value_lua_type$9;
-  signed int return_value_lua_type$8;
-  const void *return_value_lua_topointer$4;
-  signed int return_value_lua_type$5;
-  const char *return_value_lua_typename$6;
-  signed int return_value_lua_type$7;
-  if(return_value_lua_type$12 == 0)
+  signed int return_value_lua_type_12;
+  return_value_lua_type_12=lua_type(L, i);
+  signed int return_value_lua_type_11;
+  const char *return_value_lua_tolstring_1;
+  signed int return_value_lua_type_10;
+  double return_value_lua_tonumber_2;
+  signed int return_value_lua_type_9;
+  signed int return_value_lua_type_8;
+  const void *return_value_lua_topointer_4;
+  signed int return_value_lua_type_5;
+  const char *return_value_lua_typename_6;
+  signed int return_value_lua_type_7;
+  if(return_value_lua_type_12 == 0)
     printf("nil");
 
   else
   {
-    return_value_lua_type$11=lua_type(L, i);
-    if(return_value_lua_type$11 == 4)
+    return_value_lua_type_11=lua_type(L, i);
+    if(return_value_lua_type_11 == 4)
     {
-      return_value_lua_tolstring$1=lua_tolstring(L, i, (unsigned long int *)(void *)0);
-      printf("'%s'", return_value_lua_tolstring$1);
+      return_value_lua_tolstring_1=lua_tolstring(L, i, (unsigned long int *)(void *)0);
+      printf("'%s'", return_value_lua_tolstring_1);
     }
 
     else
     {
-      return_value_lua_type$10=lua_type(L, i);
-      if(return_value_lua_type$10 == 3)
+      return_value_lua_type_10=lua_type(L, i);
+      if(return_value_lua_type_10 == 3)
       {
-        return_value_lua_tonumber$2=lua_tonumber(L, i);
-        printf("%f", return_value_lua_tonumber$2);
+        return_value_lua_tonumber_2=lua_tonumber(L, i);
+        printf("%f", return_value_lua_tonumber_2);
       }
 
       else
       {
-        return_value_lua_type$9=lua_type(L, i);
-        if(return_value_lua_type$9 == 1)
+        return_value_lua_type_9=lua_type(L, i);
+        if(return_value_lua_type_9 == 1)
         {
-          signed int return_value_lua_toboolean$3;
-          return_value_lua_toboolean$3=lua_toboolean(L, i);
-          if(!(return_value_lua_toboolean$3 == 0))
+          signed int return_value_lua_toboolean_3;
+          return_value_lua_toboolean_3=lua_toboolean(L, i);
+          if(!(return_value_lua_toboolean_3 == 0))
             printf("true");
 
           else
@@ -4068,17 +4068,17 @@ static void debug_print_lua_value(struct lua_State *L, signed int i)
 
         else
         {
-          return_value_lua_type$8=lua_type(L, i);
-          if(return_value_lua_type$8 == 5)
+          return_value_lua_type_8=lua_type(L, i);
+          if(return_value_lua_type_8 == 5)
             printf("{...}");
 
           else
           {
-            return_value_lua_topointer$4=lua_topointer(L, i);
-            return_value_lua_type$5=lua_type(L, i);
-            return_value_lua_typename$6=lua_typename(L, return_value_lua_type$5);
-            return_value_lua_type$7=lua_type(L, i);
-            printf("%p (%s (%d))", return_value_lua_topointer$4, return_value_lua_typename$6, return_value_lua_type$7);
+            return_value_lua_topointer_4=lua_topointer(L, i);
+            return_value_lua_type_5=lua_type(L, i);
+            return_value_lua_typename_6=lua_typename(L, return_value_lua_type_5);
+            return_value_lua_type_7=lua_type(L, i);
+            printf("%p (%s (%d))", return_value_lua_topointer_4, return_value_lua_typename_6, return_value_lua_type_7);
           }
         }
       }
@@ -4094,18 +4094,18 @@ static void deep_walk(struct lua_State *L, signed int start, signed int stop, vo
   deepwalkinfo.callback = callback;
   deepwalkinfo.user = user;
   i = start;
-  signed int return_value_lua_type$1;
+  signed int return_value_lua_type_1;
   for( ; stop >= i; i = i + 1)
   {
-    signed int return_value_lua_type$2;
-    return_value_lua_type$2=lua_type(L, i);
-    if(return_value_lua_type$2 == 5)
+    signed int return_value_lua_type_2;
+    return_value_lua_type_2=lua_type(L, i);
+    if(return_value_lua_type_2 == 5)
       deep_walk_r(L, i);
 
     else
     {
-      return_value_lua_type$1=lua_type(L, i);
-      if(return_value_lua_type$1 == 4)
+      return_value_lua_type_1=lua_type(L, i);
+      if(return_value_lua_type_1 == 4)
       {
         lua_pushvalue(L, i);
         deepwalkinfo.callback(L, user);
@@ -4123,30 +4123,30 @@ static void deep_walk(struct lua_State *L, signed int start, signed int stop, vo
 static void deep_walk_r(struct lua_State *L, signed int table_index)
 {
   signed int i = 1;
-  signed int return_value_lua_gettop$1;
-  signed int return_value_lua_type$3;
-  signed int return_value_lua_type$2;
+  signed int return_value_lua_gettop_1;
+  signed int return_value_lua_type_3;
+  signed int return_value_lua_type_2;
   do
   {
     lua_rawgeti(L, table_index, i);
-    signed int return_value_lua_type$4;
-    return_value_lua_type$4=lua_type(L, -1);
-    if(return_value_lua_type$4 == 5)
+    signed int return_value_lua_type_4;
+    return_value_lua_type_4=lua_type(L, -1);
+    if(return_value_lua_type_4 == 5)
     {
-      return_value_lua_gettop$1=lua_gettop(L);
-      deep_walk_r(L, return_value_lua_gettop$1);
+      return_value_lua_gettop_1=lua_gettop(L);
+      deep_walk_r(L, return_value_lua_gettop_1);
     }
 
     else
     {
-      return_value_lua_type$3=lua_type(L, -1);
-      if(return_value_lua_type$3 == 4)
+      return_value_lua_type_3=lua_type(L, -1);
+      if(return_value_lua_type_3 == 4)
         deepwalkinfo.callback(L, deepwalkinfo.user);
 
       else
       {
-        return_value_lua_type$2=lua_type(L, -1);
-        if(return_value_lua_type$2 == 0)
+        return_value_lua_type_2=lua_type(L, -1);
+        if(return_value_lua_type_2 == 0)
           break;
 
         else
@@ -4169,57 +4169,57 @@ static signed int dependency_cpp_callback(struct NODE *node, void *user, const c
   char buf[1024l];
   signed int check_system = sys;
   signed int found = 0;
-  _Bool tmp_if_expr$4;
-  struct NODE *return_value_node_find$3;
+  _Bool tmp_if_expr_4;
+  struct NODE *return_value_node_find_3;
   if(sys == 0)
   {
     signed int flen;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(node->filename);
-    flen = (signed int)(return_value_strlen$1 - (unsigned long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(node->filename);
+    flen = (signed int)(return_value_strlen_1 - (unsigned long int)1);
     for( ; !(flen == 0); flen = flen - 1)
       if((signed int)node->filename[(signed long int)flen] == 47)
         break;
 
     path_join(node->filename, flen, filename, -1, buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-    signed int return_value_file_exist$2;
-    return_value_file_exist$2=file_exist(buf);
-    if(!(return_value_file_exist$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_file_exist_2;
+    return_value_file_exist_2=file_exist(buf);
+    if(!(return_value_file_exist_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_node_find$3=node_find(node->graph, buf);
-      tmp_if_expr$4 = return_value_node_find$3 != ((struct NODE *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_node_find_3=node_find(node->graph, buf);
+      tmp_if_expr_4 = return_value_node_find_3 != ((struct NODE *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       found = 1;
 
     else
       check_system = 1;
   }
 
-  _Bool tmp_if_expr$7;
-  struct NODE *return_value_node_find$6;
-  _Bool tmp_if_expr$11;
-  struct NODE *return_value_node_find$10;
+  _Bool tmp_if_expr_7;
+  struct NODE *return_value_node_find_6;
+  _Bool tmp_if_expr_11;
+  struct NODE *return_value_node_find_10;
   if(!(check_system == 0))
   {
-    signed int return_value_path_isabs$12;
-    return_value_path_isabs$12=path_isabs(filename);
-    if(!(return_value_path_isabs$12 == 0))
+    signed int return_value_path_isabs_12;
+    return_value_path_isabs_12=path_isabs(filename);
+    if(!(return_value_path_isabs_12 == 0))
     {
-      signed int return_value_file_exist$5;
-      return_value_file_exist$5=file_exist(filename);
-      if(!(return_value_file_exist$5 == 0))
-        tmp_if_expr$7 = (_Bool)1;
+      signed int return_value_file_exist_5;
+      return_value_file_exist_5=file_exist(filename);
+      if(!(return_value_file_exist_5 == 0))
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_node_find$6=node_find(node->graph, filename);
-        tmp_if_expr$7 = return_value_node_find$6 != ((struct NODE *)NULL) ? (_Bool)1 : (_Bool)0;
+        return_value_node_find_6=node_find(node->graph, filename);
+        tmp_if_expr_7 = return_value_node_find_6 != ((struct NODE *)NULL) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
         strcpy(buf, filename);
         found = 1;
@@ -4230,25 +4230,25 @@ static signed int dependency_cpp_callback(struct NODE *node, void *user, const c
     else
     {
       struct STRINGLIST *cur;
-      signed int dependency_cpp_callback$$1$$2$$2$$flen;
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(filename);
-      dependency_cpp_callback$$1$$2$$2$$flen = (signed int)return_value_strlen$8;
+      signed int dependency_cpp_callback__1__2__2__flen;
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(filename);
+      dependency_cpp_callback__1__2__2__flen = (signed int)return_value_strlen_8;
       cur = depinfo->paths;
       for( ; !(cur == ((struct STRINGLIST *)NULL)); cur = cur->next)
       {
-        path_join(cur->str, (signed int)cur->len, filename, dependency_cpp_callback$$1$$2$$2$$flen, buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-        signed int return_value_file_exist$9;
-        return_value_file_exist$9=file_exist(buf);
-        if(!(return_value_file_exist$9 == 0))
-          tmp_if_expr$11 = (_Bool)1;
+        path_join(cur->str, (signed int)cur->len, filename, dependency_cpp_callback__1__2__2__flen, buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+        signed int return_value_file_exist_9;
+        return_value_file_exist_9=file_exist(buf);
+        if(!(return_value_file_exist_9 == 0))
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_node_find$10=node_find(node->graph, buf);
-          tmp_if_expr$11 = return_value_node_find$10 != ((struct NODE *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_node_find_10=node_find(node->graph, buf);
+          tmp_if_expr_11 = return_value_node_find_10 != ((struct NODE *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
         {
           found = 1;
           break;
@@ -4269,9 +4269,9 @@ static signed int dependency_cpp_callback(struct NODE *node, void *user, const c
     {
       recurseinfo.paths = depinfo->paths;
       recurseinfo.context = depinfo->context;
-      signed int return_value_dependency_cpp_run$13;
-      return_value_dependency_cpp_run$13=dependency_cpp_run(depinfo->context, depnode, dependency_cpp_callback, (void *)&recurseinfo);
-      if(!(return_value_dependency_cpp_run$13 == 0))
+      signed int return_value_dependency_cpp_run_13;
+      return_value_dependency_cpp_run_13=dependency_cpp_run(depinfo->context, depnode, dependency_cpp_callback, (void *)&recurseinfo);
+      if(!(return_value_dependency_cpp_run_13 == 0))
         return 3;
 
     }
@@ -4288,9 +4288,9 @@ static signed int dependency_cpp_do_run(struct CONTEXT *context, struct DEFERRED
   struct CPPDEPINFO depinfo;
   depinfo.context = context;
   depinfo.paths = (struct STRINGLIST *)info->user;
-  signed int return_value_dependency_cpp_run$1;
-  return_value_dependency_cpp_run$1=dependency_cpp_run(context, info->node, dependency_cpp_callback, (void *)&depinfo);
-  if(!(return_value_dependency_cpp_run$1 == 0))
+  signed int return_value_dependency_cpp_run_1;
+  return_value_dependency_cpp_run_1=dependency_cpp_run(context, info->node, dependency_cpp_callback, (void *)&depinfo);
+  if(!(return_value_dependency_cpp_run_1 == 0))
     return -1;
 
   else
@@ -4323,9 +4323,9 @@ static signed int dependency_cpp_run(struct CONTEXT *context, struct NODE *node,
     cacheinfo.context = context;
     cacheinfo.callback = callback;
     cacheinfo.userdata = userdata;
-    signed int return_value_cache_do_dependency$1;
-    return_value_cache_do_dependency$1=cache_do_dependency(context, node, cachehit_callback, (void *)&cacheinfo);
-    if(!(return_value_cache_do_dependency$1 == 0))
+    signed int return_value_cache_do_dependency_1;
+    return_value_cache_do_dependency_1=cache_do_dependency(context, node, cachehit_callback, (void *)&cacheinfo);
+    if(!(return_value_cache_do_dependency_1 == 0))
       return 0;
 
     else
@@ -4340,9 +4340,9 @@ static signed int dependency_cpp_run(struct CONTEXT *context, struct NODE *node,
         fseek(file, (signed long int)0, 2);
         filesize=ftell(file);
         fseek(file, (signed long int)0, 0);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)(filesize + (signed long int)1));
-        filebuf = (char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)(filesize + (signed long int)1));
+        filebuf = (char *)return_value_malloc_2;
         if(filebuf == ((char *)NULL))
         {
           printf("cpp-dep: error allocating %ld bytes\n", filesize);
@@ -4352,9 +4352,9 @@ static signed int dependency_cpp_run(struct CONTEXT *context, struct NODE *node,
 
         else
         {
-          unsigned long int return_value_fread$3;
-          return_value_fread$3=fread((void *)filebuf, (unsigned long int)1, (unsigned long int)filesize, file);
-          readitems = (signed long int)return_value_fread$3;
+          unsigned long int return_value_fread_3;
+          return_value_fread_3=fread((void *)filebuf, (unsigned long int)1, (unsigned long int)filesize, file);
+          readitems = (signed long int)return_value_fread_3;
           fclose(file);
           if(!(readitems == filesize))
           {
@@ -4382,9 +4382,9 @@ static signed int dependency_cpp_run(struct CONTEXT *context, struct NODE *node,
               *filebufcur = (char)0;
               filebufcur = filebufcur + 1l;
               linecount = linecount + 1;
-              signed int return_value_processline$4;
-              return_value_processline$4=processline(linestart, &includestart, &includeend, &systemheader);
-              if(!(return_value_processline$4 == 0))
+              signed int return_value_processline_4;
+              return_value_processline_4=processline(linestart, &includestart, &includeend, &systemheader);
+              if(!(return_value_processline_4 == 0))
               {
                 *includeend = (char)0;
                 errorcode=callback(node, userdata, includestart, systemheader);
@@ -4424,9 +4424,9 @@ static signed int do_run(struct CONTEXT *context, struct DEFERRED *info)
       path = plain->firstpath;
       for( ; !(path == ((struct STRINGLIST *)NULL)); path = path->next)
       {
-        signed int return_value_path_join$1;
-        return_value_path_join$1=path_join(path->str, (signed int)path->len, dep->str, (signed int)dep->len, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-        if(!(return_value_path_join$1 == 0))
+        signed int return_value_path_join_1;
+        return_value_path_join_1=path_join(path->str, (signed int)path->len, dep->str, (signed int)dep->len, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+        if(!(return_value_path_join_1 == 0))
           return -1;
 
         result=checkpath(context, info->node, buffer);
@@ -4449,17 +4449,17 @@ signed int file_createdir(const char *path)
 {
   signed int r;
   r=mkdir(path, (unsigned int)0755);
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(r == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    tmp_if_expr$2 = *return_value___errno_location$1 == 17 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_1=__errno_location();
+    tmp_if_expr_2 = *return_value___errno_location_1 == 17 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -4471,9 +4471,9 @@ signed int file_createdir(const char *path)
 signed int file_exist(const char *filename)
 {
   struct stat s;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &s);
-  if(return_value_stat$1 == 0)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &s);
+  if(return_value_stat_1 == 0)
     return 1;
 
   else
@@ -4485,9 +4485,9 @@ signed int file_exist(const char *filename)
 signed long int file_timestamp(const char *filename)
 {
   struct stat s;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &s);
-  if(return_value_stat$1 == 0)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &s);
+  if(return_value_stat_1 == 0)
     return s.st_mtime;
 
   else
@@ -4505,9 +4505,9 @@ void file_touch(const char *filename)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // install_abort_signal
@@ -4548,9 +4548,9 @@ static const char * internal_base_reader(struct lua_State *L, void *data, unsign
 unsigned long int io_size(signed int f)
 {
   struct stat s;
-  signed int return_value_fstat$1;
-  return_value_fstat$1=fstat(f, &s);
-  if(return_value_fstat$1 == 0)
+  signed int return_value_fstat_1;
+  return_value_fstat_1=fstat(f, &s);
+  if(return_value_fstat_1 == 0)
     return (unsigned long int)s.st_size;
 
   else
@@ -4564,27 +4564,27 @@ unsigned long int io_size(signed int f)
 // file src/luafuncs.c line 203
 signed int lf_add_constraint_exclusive(struct lua_State *L)
 {
-  signed int return_value_add_node_attribute$1;
-  return_value_add_node_attribute$1=add_node_attribute(L, "add_constraint_exclusive", node_add_constraint_exclusive);
-  return return_value_add_node_attribute$1;
+  signed int return_value_add_node_attribute_1;
+  return_value_add_node_attribute_1=add_node_attribute(L, "add_constraint_exclusive", node_add_constraint_exclusive);
+  return return_value_add_node_attribute_1;
 }
 
 // lf_add_constraint_shared
 // file src/luafuncs.c line 202
 signed int lf_add_constraint_shared(struct lua_State *L)
 {
-  signed int return_value_add_node_attribute$1;
-  return_value_add_node_attribute$1=add_node_attribute(L, "add_constraint_shared", node_add_constraint_shared);
-  return return_value_add_node_attribute$1;
+  signed int return_value_add_node_attribute_1;
+  return_value_add_node_attribute_1=add_node_attribute(L, "add_constraint_shared", node_add_constraint_shared);
+  return return_value_add_node_attribute_1;
 }
 
 // lf_add_dependency
 // file src/luafuncs.c line 201
 signed int lf_add_dependency(struct lua_State *L)
 {
-  signed int return_value_add_node_attribute$1;
-  return_value_add_node_attribute$1=add_node_attribute(L, "add_dependency", node_add_dependency);
-  return return_value_add_node_attribute$1;
+  signed int return_value_add_node_attribute_1;
+  return_value_add_node_attribute_1=add_node_attribute(L, "add_dependency", node_add_dependency);
+  return return_value_add_node_attribute_1;
 }
 
 // lf_add_dependency_cpp
@@ -4600,12 +4600,12 @@ signed int lf_add_dependency_cpp(struct lua_State *L)
 
   luaL_checklstring(L, 1, (unsigned long int *)(void *)0);
   context=context_get_pointer(L);
-  void *return_value_mem_allocate$1;
-  return_value_mem_allocate$1=mem_allocate(context->deferredheap, (signed int)sizeof(struct DEFERRED) /*32ul*/ );
-  deferred = (struct DEFERRED *)return_value_mem_allocate$1;
-  const char *return_value_lua_tolstring$2;
-  return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  deferred->node=node_find(context->graph, return_value_lua_tolstring$2);
+  void *return_value_mem_allocate_1;
+  return_value_mem_allocate_1=mem_allocate(context->deferredheap, (signed int)sizeof(struct DEFERRED) /*32ul*/ );
+  deferred = (struct DEFERRED *)return_value_mem_allocate_1;
+  const char *return_value_lua_tolstring_2;
+  return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  deferred->node=node_find(context->graph, return_value_lua_tolstring_2);
   deferred->user = (void *)current_includepaths;
   deferred->run = dependency_cpp_do_run;
   deferred->next = context->firstdeferred;
@@ -4638,39 +4638,39 @@ signed int lf_add_dependency_search(struct lua_State *L)
   struct CONTEXT *context;
   struct DEFERRED *deferred;
   struct DEPPLAIN *plain;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 3))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 3))
     luaL_error(L, "add_dep_search: expected 3 arguments");
 
   luaL_checktype(L, 1, 4);
   context=context_get_pointer(L);
-  const char *return_value_lua_tolstring$2;
-  return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  node=node_find(context->graph, return_value_lua_tolstring$2);
-  const char *return_value_lua_tolstring$3;
+  const char *return_value_lua_tolstring_2;
+  return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  node=node_find(context->graph, return_value_lua_tolstring_2);
+  const char *return_value_lua_tolstring_3;
   if(node == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "add_dep_search: couldn't find node with name '%s'", return_value_lua_tolstring$3);
+    return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "add_dep_search: couldn't find node with name '%s'", return_value_lua_tolstring_3);
   }
 
-  signed int return_value_lua_type$4;
-  return_value_lua_type$4=lua_type(L, 2);
-  if(!(return_value_lua_type$4 == 5))
+  signed int return_value_lua_type_4;
+  return_value_lua_type_4=lua_type(L, 2);
+  if(!(return_value_lua_type_4 == 5))
     luaL_error(L, "add_dep_search: expected table as second argument");
 
-  signed int return_value_lua_type$5;
-  return_value_lua_type$5=lua_type(L, 3);
-  if(!(return_value_lua_type$5 == 5))
+  signed int return_value_lua_type_5;
+  return_value_lua_type_5=lua_type(L, 3);
+  if(!(return_value_lua_type_5 == 5))
     luaL_error(L, "add_dep_search: expected table as third argument");
 
-  void *return_value_mem_allocate$6;
-  return_value_mem_allocate$6=mem_allocate(context->deferredheap, (signed int)sizeof(struct DEFERRED) /*32ul*/ );
-  deferred = (struct DEFERRED *)return_value_mem_allocate$6;
-  void *return_value_mem_allocate$7;
-  return_value_mem_allocate$7=mem_allocate(context->deferredheap, (signed int)sizeof(struct DEPPLAIN) /*16ul*/ );
-  plain = (struct DEPPLAIN *)return_value_mem_allocate$7;
+  void *return_value_mem_allocate_6;
+  return_value_mem_allocate_6=mem_allocate(context->deferredheap, (signed int)sizeof(struct DEFERRED) /*32ul*/ );
+  deferred = (struct DEFERRED *)return_value_mem_allocate_6;
+  void *return_value_mem_allocate_7;
+  return_value_mem_allocate_7=mem_allocate(context->deferredheap, (signed int)sizeof(struct DEPPLAIN) /*16ul*/ );
+  plain = (struct DEPPLAIN *)return_value_mem_allocate_7;
   deferred->node = node;
   deferred->user = (void *)plain;
   deferred->run = do_run;
@@ -4691,50 +4691,50 @@ signed int lf_add_job(struct lua_State *L)
   struct CONTEXT *context;
   struct NODEATTRIB_CBINFO cbinfo;
   signed int i;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 >= 3))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 >= 3))
     luaL_error(L, "add_job: too few arguments");
 
   luaL_checktype(L, 1, 4);
   luaL_checktype(L, 2, 4);
   luaL_checktype(L, 3, 4);
   context=context_get_pointer(L);
-  const char *return_value_lua_tolstring$2;
-  return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  const char *return_value_lua_tolstring$3;
-  return_value_lua_tolstring$3=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
-  const char *return_value_lua_tolstring$4;
-  return_value_lua_tolstring$4=lua_tolstring(L, 3, (unsigned long int *)(void *)0);
-  i=node_create(&node, context->graph, return_value_lua_tolstring$2, return_value_lua_tolstring$3, return_value_lua_tolstring$4);
-  const char *return_value_lua_tolstring$5;
-  const char *return_value_lua_tolstring$6;
-  const char *return_value_lua_tolstring$7;
+  const char *return_value_lua_tolstring_2;
+  return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  const char *return_value_lua_tolstring_3;
+  return_value_lua_tolstring_3=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
+  const char *return_value_lua_tolstring_4;
+  return_value_lua_tolstring_4=lua_tolstring(L, 3, (unsigned long int *)(void *)0);
+  i=node_create(&node, context->graph, return_value_lua_tolstring_2, return_value_lua_tolstring_3, return_value_lua_tolstring_4);
+  const char *return_value_lua_tolstring_5;
+  const char *return_value_lua_tolstring_6;
+  const char *return_value_lua_tolstring_7;
   if(i == 2)
   {
-    return_value_lua_tolstring$5=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "add_job: node '%s' is not nice", return_value_lua_tolstring$5);
+    return_value_lua_tolstring_5=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "add_job: node '%s' is not nice", return_value_lua_tolstring_5);
   }
 
   else
     if(i == 1)
     {
-      return_value_lua_tolstring$6=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-      luaL_error(L, "add_job: node '%s' already exists", return_value_lua_tolstring$6);
+      return_value_lua_tolstring_6=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+      luaL_error(L, "add_job: node '%s' already exists", return_value_lua_tolstring_6);
     }
 
     else
       if(!(i == 0))
       {
-        return_value_lua_tolstring$7=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-        luaL_error(L, "add_job: unknown error creating node '%s'", return_value_lua_tolstring$7);
+        return_value_lua_tolstring_7=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+        luaL_error(L, "add_job: unknown error creating node '%s'", return_value_lua_tolstring_7);
       }
 
   cbinfo.node = node;
   cbinfo.callback = node_add_dependency;
-  signed int return_value_lua_gettop$8;
-  return_value_lua_gettop$8=lua_gettop(L);
-  deep_walk(L, 4, return_value_lua_gettop$8, callback_node_attrib, (void *)&cbinfo);
+  signed int return_value_lua_gettop_8;
+  return_value_lua_gettop_8=lua_gettop(L);
+  deep_walk(L, 4, return_value_lua_gettop_8, callback_node_attrib, (void *)&cbinfo);
   return 0;
 }
 
@@ -4745,32 +4745,32 @@ signed int lf_add_output(struct lua_State *L)
   struct NODE *output;
   struct NODE *other_output;
   struct CONTEXT *context;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 2))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 2))
     luaL_error(L, "add_output: incorrect number of arguments");
 
   luaL_checktype(L, 1, 4);
   luaL_checktype(L, 2, 4);
   context=context_get_pointer(L);
-  const char *return_value_lua_tolstring$2;
-  return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  output=node_find(context->graph, return_value_lua_tolstring$2);
-  const char *return_value_lua_tolstring$3;
+  const char *return_value_lua_tolstring_2;
+  return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  output=node_find(context->graph, return_value_lua_tolstring_2);
+  const char *return_value_lua_tolstring_3;
   if(output == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "add_output: couldn't find node with name '%s'", return_value_lua_tolstring$3);
+    return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "add_output: couldn't find node with name '%s'", return_value_lua_tolstring_3);
   }
 
-  const char *return_value_lua_tolstring$4;
-  return_value_lua_tolstring$4=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
-  other_output=node_get(context->graph, return_value_lua_tolstring$4);
-  const char *return_value_lua_tolstring$5;
+  const char *return_value_lua_tolstring_4;
+  return_value_lua_tolstring_4=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
+  other_output=node_get(context->graph, return_value_lua_tolstring_4);
+  const char *return_value_lua_tolstring_5;
   if(other_output == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$5=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
-    luaL_error(L, "add_output: couldn't find node with name '%s'", return_value_lua_tolstring$5);
+    return_value_lua_tolstring_5=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
+    luaL_error(L, "add_output: couldn't find node with name '%s'", return_value_lua_tolstring_5);
   }
 
   node_add_dependency_withnode(other_output, output);
@@ -4785,37 +4785,37 @@ signed int lf_add_pseudo(struct lua_State *L)
   struct NODE *node;
   struct CONTEXT *context;
   signed int i;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 1))
     luaL_error(L, "add_pseudo: incorrect number of arguments");
 
   luaL_checktype(L, 1, 4);
   context=context_get_pointer(L);
-  const char *return_value_lua_tolstring$2;
-  return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  i=node_create(&node, context->graph, return_value_lua_tolstring$2, (const char *)(void *)0, (const char *)(void *)0);
-  const char *return_value_lua_tolstring$3;
-  const char *return_value_lua_tolstring$4;
-  const char *return_value_lua_tolstring$5;
+  const char *return_value_lua_tolstring_2;
+  return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  i=node_create(&node, context->graph, return_value_lua_tolstring_2, (const char *)(void *)0, (const char *)(void *)0);
+  const char *return_value_lua_tolstring_3;
+  const char *return_value_lua_tolstring_4;
+  const char *return_value_lua_tolstring_5;
   if(i == 2)
   {
-    return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "add_pseudo: node '%s' is not nice", return_value_lua_tolstring$3);
+    return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "add_pseudo: node '%s' is not nice", return_value_lua_tolstring_3);
   }
 
   else
     if(i == 1)
     {
-      return_value_lua_tolstring$4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-      luaL_error(L, "add_pseudo: node '%s' already exists", return_value_lua_tolstring$4);
+      return_value_lua_tolstring_4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+      luaL_error(L, "add_pseudo: node '%s' already exists", return_value_lua_tolstring_4);
     }
 
     else
       if(!(i == 0))
       {
-        return_value_lua_tolstring$5=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-        luaL_error(L, "add_pseudo: unknown error creating node '%s'", return_value_lua_tolstring$5);
+        return_value_lua_tolstring_5=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+        luaL_error(L, "add_pseudo: unknown error creating node '%s'", return_value_lua_tolstring_5);
       }
 
   node_set_pseudo(node);
@@ -4826,36 +4826,36 @@ signed int lf_add_pseudo(struct lua_State *L)
 // file src/luafuncs.h line 30
 signed int lf_collect(struct lua_State *L)
 {
-  signed int return_value_collect$1;
-  return_value_collect$1=collect(L, 1);
-  return return_value_collect$1;
+  signed int return_value_collect_1;
+  return_value_collect_1=collect(L, 1);
+  return return_value_collect_1;
 }
 
 // lf_collectdirs
 // file src/luafuncs.h line 32
 signed int lf_collectdirs(struct lua_State *L)
 {
-  signed int return_value_collect$1;
-  return_value_collect$1=collect(L, 2);
-  return return_value_collect$1;
+  signed int return_value_collect_1;
+  return_value_collect_1=collect(L, 2);
+  return return_value_collect_1;
 }
 
 // lf_collectdirsrecursive
 // file src/luafuncs.h line 33
 signed int lf_collectdirsrecursive(struct lua_State *L)
 {
-  signed int return_value_collect$1;
-  return_value_collect$1=collect(L, 2 | 8);
-  return return_value_collect$1;
+  signed int return_value_collect_1;
+  return_value_collect_1=collect(L, 2 | 8);
+  return return_value_collect_1;
 }
 
 // lf_collectrecursive
 // file src/luafuncs.h line 31
 signed int lf_collectrecursive(struct lua_State *L)
 {
-  signed int return_value_collect$1;
-  return_value_collect$1=collect(L, 1 | 8);
-  return return_value_collect$1;
+  signed int return_value_collect_1;
+  return_value_collect_1=collect(L, 1 | 8);
+  return return_value_collect_1;
 }
 
 // lf_default_target
@@ -4871,14 +4871,14 @@ signed int lf_default_target(struct lua_State *L)
 
   luaL_checktype(L, 1, 4);
   context=context_get_pointer(L);
-  const char *return_value_lua_tolstring$1;
-  return_value_lua_tolstring$1=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  node=node_find(context->graph, return_value_lua_tolstring$1);
-  const char *return_value_lua_tolstring$2;
+  const char *return_value_lua_tolstring_1;
+  return_value_lua_tolstring_1=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  node=node_find(context->graph, return_value_lua_tolstring_1);
+  const char *return_value_lua_tolstring_2;
   if(node == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "default_target: node '%s' not found", return_value_lua_tolstring$2);
+    return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "default_target: node '%s' not found", return_value_lua_tolstring_2);
   }
 
   context_default_target(context, node);
@@ -4892,28 +4892,28 @@ signed int lf_errorfunc(struct lua_State *L)
   signed int depth = 0;
   signed int frameskip = 1;
   struct lua_Debug frame;
-  const char *return_value_lua_tolstring$1;
-  const char *return_value_lua_tolstring$2;
+  const char *return_value_lua_tolstring_1;
+  const char *return_value_lua_tolstring_2;
   if(!(session.report_color == 0))
   {
-    return_value_lua_tolstring$1=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
-    printf("\033[01;31m%s\033[00m\n", return_value_lua_tolstring$1);
+    return_value_lua_tolstring_1=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
+    printf("\033[01;31m%s\033[00m\n", return_value_lua_tolstring_1);
   }
 
   else
   {
-    return_value_lua_tolstring$2=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
-    printf("%s\n", return_value_lua_tolstring$2);
+    return_value_lua_tolstring_2=lua_tolstring(L, -1, (unsigned long int *)(void *)0);
+    printf("%s\n", return_value_lua_tolstring_2);
   }
-  signed int return_value_lua_getstack$3;
-  signed int tmp_statement_expression$4;
+  signed int return_value_lua_getstack_3;
+  signed int tmp_statement_expression_4;
   if(!(session.lua_backtrace == 0))
   {
     printf("backtrace:\n");
     do
     {
-      return_value_lua_getstack$3=lua_getstack(L, depth, &frame);
-      if(!(return_value_lua_getstack$3 == 1))
+      return_value_lua_getstack_3=lua_getstack(L, depth, &frame);
+      if(!(return_value_lua_getstack_3 == 1))
         break;
 
       depth = depth + 1;
@@ -4922,10 +4922,10 @@ signed int lf_errorfunc(struct lua_State *L)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$5;
-        return_value___builtin_strcmp$5=__builtin_strcmp(frame.short_src, "[C]");
-        tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-        if(tmp_statement_expression$4 == 0)
+        signed int return_value___builtin_strcmp_5;
+        return_value___builtin_strcmp_5=__builtin_strcmp(frame.short_src, "[C]");
+        tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+        if(tmp_statement_expression_4 == 0)
         {
           if(frame.currentline == -1)
             continue;
@@ -4980,21 +4980,21 @@ signed int lf_errorfunc(struct lua_State *L)
 // file src/luafuncs.c line 451
 signed int lf_fileexist(struct lua_State *L)
 {
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 >= 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 >= 1))
     luaL_error(L, "fileexist: too few arguments");
 
-  signed int return_value_lua_isstring$2;
-  return_value_lua_isstring$2=lua_isstring(L, 1);
-  if(return_value_lua_isstring$2 == 0)
+  signed int return_value_lua_isstring_2;
+  return_value_lua_isstring_2=lua_isstring(L, 1);
+  if(return_value_lua_isstring_2 == 0)
     luaL_error(L, "fileexist: expected string");
 
-  const char *return_value_lua_tolstring$3;
-  return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  signed int return_value_file_exist$4;
-  return_value_file_exist$4=file_exist(return_value_lua_tolstring$3);
-  if(!(return_value_file_exist$4 == 0))
+  const char *return_value_lua_tolstring_3;
+  return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  signed int return_value_file_exist_4;
+  return_value_file_exist_4=file_exist(return_value_lua_tolstring_3);
+  if(!(return_value_file_exist_4 == 0))
     lua_pushnumber(L, (double)1);
 
   else
@@ -5006,9 +5006,9 @@ signed int lf_fileexist(struct lua_State *L)
 // file src/luafuncs.c line 475
 signed int lf_isstring(struct lua_State *L)
 {
-  signed int return_value_lua_type$1;
-  return_value_lua_type$1=lua_type(L, -1);
-  if(return_value_lua_type$1 == 4)
+  signed int return_value_lua_type_1;
+  return_value_lua_type_1=lua_type(L, -1);
+  if(return_value_lua_type_1 == 4)
     lua_pushnumber(L, (double)1);
 
   else
@@ -5020,9 +5020,9 @@ signed int lf_isstring(struct lua_State *L)
 // file src/luafuncs.c line 466
 signed int lf_istable(struct lua_State *L)
 {
-  signed int return_value_lua_type$1;
-  return_value_lua_type$1=lua_type(L, -1);
-  if(return_value_lua_type$1 == 5)
+  signed int return_value_lua_type_1;
+  return_value_lua_type_1=lua_type(L, -1);
+  if(return_value_lua_type_1 == 5)
     lua_pushnumber(L, (double)1);
 
   else
@@ -5034,29 +5034,29 @@ signed int lf_istable(struct lua_State *L)
 // file src/luafuncs.h line 34
 signed int lf_listdir(struct lua_State *L)
 {
-  struct anonymous$5 info;
+  struct anonymous_5 info;
   info.lua = L;
   info.i = 1;
   lua_createtable(L, 0, 0);
-  const char *return_value_lua_tolstring$4;
-  return_value_lua_tolstring$4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(return_value_lua_tolstring$4);
-  const char *return_value_context_get_path$1;
-  if(!(return_value_strlen$5 >= 1ul))
+  const char *return_value_lua_tolstring_4;
+  return_value_lua_tolstring_4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(return_value_lua_tolstring_4);
+  const char *return_value_context_get_path_1;
+  if(!(return_value_strlen_5 >= 1ul))
   {
-    return_value_context_get_path$1=context_get_path(L);
-    list_directory(return_value_context_get_path$1, listdir_callback, (void *)&info);
+    return_value_context_get_path_1=context_get_path(L);
+    list_directory(return_value_context_get_path_1, listdir_callback, (void *)&info);
   }
 
   else
   {
     char buffer[1024l];
-    const char *return_value_context_get_path$2;
-    return_value_context_get_path$2=context_get_path(L);
-    const char *return_value_lua_tolstring$3;
-    return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    path_join(return_value_context_get_path$2, -1, return_value_lua_tolstring$3, -1, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+    const char *return_value_context_get_path_2;
+    return_value_context_get_path_2=context_get_path(L);
+    const char *return_value_lua_tolstring_3;
+    return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    path_join(return_value_context_get_path_2, -1, return_value_lua_tolstring_3, -1, buffer, (signed int)sizeof(char [1024l]) /*1024ul*/ );
     list_directory(buffer, listdir_callback, (void *)&info);
   }
   return 1;
@@ -5066,24 +5066,24 @@ signed int lf_listdir(struct lua_State *L)
 // file src/luafuncs.c line 328
 signed int lf_loadfile(struct lua_State *L)
 {
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 >= 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 >= 1))
     luaL_error(L, "loadfile: too few arguments");
 
   luaL_checktype(L, 1, 4);
-  const char *return_value_lua_tolstring$2;
+  const char *return_value_lua_tolstring_2;
   if(!(session.verbose == 0))
   {
-    return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    printf("%s: reading script from '%s'\n", session.name, return_value_lua_tolstring$2);
+    return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    printf("%s: reading script from '%s'\n", session.name, return_value_lua_tolstring_2);
   }
 
-  const char *return_value_lua_tolstring$3;
-  return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  signed int return_value_luaL_loadfile$4;
-  return_value_luaL_loadfile$4=luaL_loadfile(L, return_value_lua_tolstring$3);
-  if(!(return_value_luaL_loadfile$4 == 0))
+  const char *return_value_lua_tolstring_3;
+  return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  signed int return_value_luaL_loadfile_4;
+  return_value_luaL_loadfile_4=luaL_loadfile(L, return_value_lua_tolstring_3);
+  if(!(return_value_luaL_loadfile_4 == 0))
     lua_error(L);
 
   return 1;
@@ -5094,15 +5094,15 @@ signed int lf_loadfile(struct lua_State *L)
 signed int lf_loadplugin(struct lua_State *L)
 {
   signed int (*func)(struct lua_State *);
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 1))
     luaL_error(L, "loadplugin: incorrect number of arguments");
 
   luaL_checktype(L, 1, 4);
-  const char *return_value_lua_tolstring$2;
-  return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  func=plugin_load(return_value_lua_tolstring$2);
+  const char *return_value_lua_tolstring_2;
+  return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  func=plugin_load(return_value_lua_tolstring_2);
   if(func == ((signed int (*)(struct lua_State *))NULL))
     luaL_error(L, "loadplugin: error loading plugin");
 
@@ -5119,21 +5119,21 @@ signed int lf_loadplugin(struct lua_State *L)
 // file src/luafuncs.c line 435
 signed int lf_mkdir(struct lua_State *L)
 {
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 >= 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 >= 1))
     luaL_error(L, "mkdir: too few arguments");
 
-  signed int return_value_lua_isstring$2;
-  return_value_lua_isstring$2=lua_isstring(L, 1);
-  if(return_value_lua_isstring$2 == 0)
+  signed int return_value_lua_isstring_2;
+  return_value_lua_isstring_2=lua_isstring(L, 1);
+  if(return_value_lua_isstring_2 == 0)
     luaL_error(L, "mkdir: expected string");
 
-  const char *return_value_lua_tolstring$3;
-  return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  signed int return_value_file_createdir$4;
-  return_value_file_createdir$4=file_createdir(return_value_lua_tolstring$3);
-  if(return_value_file_createdir$4 == 0)
+  const char *return_value_lua_tolstring_3;
+  return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  signed int return_value_file_createdir_4;
+  return_value_file_createdir_4=file_createdir(return_value_lua_tolstring_3);
+  if(return_value_file_createdir_4 == 0)
     lua_pushnumber(L, (double)1);
 
   else
@@ -5170,7 +5170,7 @@ signed int lf_path_base(struct lua_State *L)
 
   new_len = org_len;
   cur = path;
-  unsigned int return_value_path_is_separator$1;
+  unsigned int return_value_path_is_separator_1;
   for( ; !(*cur == 0); count = count + 1ul)
   {
     if((signed int)*cur == 46)
@@ -5178,8 +5178,8 @@ signed int lf_path_base(struct lua_State *L)
 
     else
     {
-      return_value_path_is_separator$1=path_is_separator(*cur);
-      if(!(return_value_path_is_separator$1 == 0u))
+      return_value_path_is_separator_1=path_is_separator(*cur);
+      if(!(return_value_path_is_separator_1 == 0u))
         new_len = org_len;
 
     }
@@ -5204,21 +5204,21 @@ signed int lf_path_dir(struct lua_State *L)
   if(path == ((const char *)NULL))
     luaL_error(L, "path_dir: argument is not a string");
 
-  signed int return_value_path_isnice$2;
-  return_value_path_isnice$2=path_isnice(path);
-  if(!(return_value_path_isnice$2 == 0))
+  signed int return_value_path_isnice_2;
+  return_value_path_isnice_2=path_isnice(path);
+  if(!(return_value_path_isnice_2 == 0))
   {
-    signed int return_value_path_dir_length$1;
-    return_value_path_dir_length$1=path_dir_length(path);
-    lua_pushlstring(L, path, (unsigned long int)return_value_path_dir_length$1);
+    signed int return_value_path_dir_length_1;
+    return_value_path_dir_length_1=path_dir_length(path);
+    lua_pushlstring(L, path, (unsigned long int)return_value_path_dir_length_1);
     return 1;
   }
 
   __builtin_strncpy(buffer, path, sizeof(char [1024l]) /*1024ul*/ );
   path_normalize(buffer);
-  signed int return_value_path_dir_length$3;
-  return_value_path_dir_length$3=path_dir_length(buffer);
-  lua_pushlstring(L, buffer, (unsigned long int)return_value_path_dir_length$3);
+  signed int return_value_path_dir_length_3;
+  return_value_path_dir_length_3=path_dir_length(buffer);
+  lua_pushlstring(L, buffer, (unsigned long int)return_value_path_dir_length_3);
   return 1;
 }
 
@@ -5236,9 +5236,9 @@ signed int lf_path_ext(struct lua_State *L)
   if(path == ((const char *)NULL))
     luaL_error(L, "path_ext: argument is not a string");
 
-  const char *return_value_path_ext$1;
-  return_value_path_ext$1=path_ext(path);
-  lua_pushstring(L, return_value_path_ext$1);
+  const char *return_value_path_ext_1;
+  return_value_path_ext_1=path_ext(path);
+  lua_pushstring(L, return_value_path_ext_1);
   return 1;
 }
 
@@ -5256,9 +5256,9 @@ signed int lf_path_filename(struct lua_State *L)
   if(path == ((const char *)NULL))
     luaL_error(L, "path_filename: null name");
 
-  const char *return_value_path_filename$1;
-  return_value_path_filename$1=path_filename(path);
-  lua_pushstring(L, return_value_path_filename$1);
+  const char *return_value_path_filename_1;
+  return_value_path_filename_1=path_filename(path);
+  lua_pushstring(L, return_value_path_filename_1);
   return 1;
 }
 
@@ -5274,9 +5274,9 @@ signed int lf_path_isnice(struct lua_State *L)
 
   luaL_checktype(L, 1, 4);
   path=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  signed int return_value_path_isnice$1;
-  return_value_path_isnice$1=path_isnice(path);
-  lua_pushnumber(L, (double)return_value_path_isnice$1);
+  signed int return_value_path_isnice_1;
+  return_value_path_isnice_1=path_isnice(path);
+  lua_pushnumber(L, (double)return_value_path_isnice_1);
   return 1;
 }
 
@@ -5302,11 +5302,11 @@ signed int lf_path_join(struct lua_State *L)
   err=path_join(base, (signed int)base_len, extend, (signed int)extend_len, buffer, 2 * 1024);
   if(!(err == 0))
   {
-    const char *return_value_lua_tolstring$1;
-    return_value_lua_tolstring$1=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    const char *return_value_lua_tolstring$2;
-    return_value_lua_tolstring$2=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
-    luaL_error(L, "path_join: error %d, couldn't join\n\t'%s'\n  and\n\t'%s'", err, return_value_lua_tolstring$1, return_value_lua_tolstring$2);
+    const char *return_value_lua_tolstring_1;
+    return_value_lua_tolstring_1=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    const char *return_value_lua_tolstring_2;
+    return_value_lua_tolstring_2=lua_tolstring(L, 2, (unsigned long int *)(void *)0);
+    luaL_error(L, "path_join: error %d, couldn't join\n\t'%s'\n  and\n\t'%s'", err, return_value_lua_tolstring_1, return_value_lua_tolstring_2);
   }
 
   lua_pushstring(L, buffer);
@@ -5325,9 +5325,9 @@ signed int lf_path_normalize(struct lua_State *L)
 
   luaL_checktype(L, 1, 4);
   path=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  signed int return_value_path_isnice$1;
-  return_value_path_isnice$1=path_isnice(path);
-  if(!(return_value_path_isnice$1 == 0))
+  signed int return_value_path_isnice_1;
+  return_value_path_isnice_1=path_isnice(path);
+  if(!(return_value_path_isnice_1 == 0))
     lua_pushstring(L, path);
 
   else
@@ -5347,29 +5347,29 @@ signed int lf_set_filter(struct lua_State *L)
   struct NODE *node;
   const char *str;
   unsigned long int len;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 >= 2))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 >= 2))
     luaL_error(L, "set_filter: too few arguments");
 
   luaL_checktype(L, 1, 4);
   luaL_checktype(L, 2, 4);
-  struct CONTEXT *return_value_context_get_pointer$2;
-  return_value_context_get_pointer$2=context_get_pointer(L);
-  const char *return_value_lua_tolstring$3;
-  return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  node=node_find(return_value_context_get_pointer$2->graph, return_value_lua_tolstring$3);
-  const char *return_value_lua_tolstring$4;
+  struct CONTEXT *return_value_context_get_pointer_2;
+  return_value_context_get_pointer_2=context_get_pointer(L);
+  const char *return_value_lua_tolstring_3;
+  return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  node=node_find(return_value_context_get_pointer_2->graph, return_value_lua_tolstring_3);
+  const char *return_value_lua_tolstring_4;
   if(node == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "set_filter: couldn't find node with name '%s'", return_value_lua_tolstring$4);
+    return_value_lua_tolstring_4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "set_filter: couldn't find node with name '%s'", return_value_lua_tolstring_4);
   }
 
   str=lua_tolstring(L, 2, &len);
-  void *return_value_mem_allocate$5;
-  return_value_mem_allocate$5=mem_allocate(node->graph->heap, (signed int)(len + (unsigned long int)1));
-  node->filter = (char *)return_value_mem_allocate$5;
+  void *return_value_mem_allocate_5;
+  return_value_mem_allocate_5=mem_allocate(node->graph->heap, (signed int)(len + (unsigned long int)1));
+  node->filter = (char *)return_value_mem_allocate_5;
   memcpy((void *)node->filter, (const void *)str, len + (unsigned long int)1);
   return 0;
 }
@@ -5379,22 +5379,22 @@ signed int lf_set_filter(struct lua_State *L)
 signed int lf_set_touch(struct lua_State *L)
 {
   struct NODE *node;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 >= 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 >= 1))
     luaL_error(L, "set_touch: too few arguments");
 
   luaL_checktype(L, 1, 4);
-  struct CONTEXT *return_value_context_get_pointer$2;
-  return_value_context_get_pointer$2=context_get_pointer(L);
-  const char *return_value_lua_tolstring$3;
-  return_value_lua_tolstring$3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  node=node_find(return_value_context_get_pointer$2->graph, return_value_lua_tolstring$3);
-  const char *return_value_lua_tolstring$4;
+  struct CONTEXT *return_value_context_get_pointer_2;
+  return_value_context_get_pointer_2=context_get_pointer(L);
+  const char *return_value_lua_tolstring_3;
+  return_value_lua_tolstring_3=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  node=node_find(return_value_context_get_pointer_2->graph, return_value_lua_tolstring_3);
+  const char *return_value_lua_tolstring_4;
   if(node == ((struct NODE *)NULL))
   {
-    return_value_lua_tolstring$4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-    luaL_error(L, "set_touch: couldn't find node with name '%s'", return_value_lua_tolstring$4);
+    return_value_lua_tolstring_4=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+    luaL_error(L, "set_touch: couldn't find node with name '%s'", return_value_lua_tolstring_4);
   }
 
   node->touch = (unsigned int)1;
@@ -5405,15 +5405,15 @@ signed int lf_set_touch(struct lua_State *L)
 // file src/luafuncs.c line 617
 signed int lf_table_deepcopy(struct lua_State *L)
 {
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 1))
     luaL_error(L, "table_deepcopy: incorrect number of arguments");
 
   luaL_checktype(L, 1, 5);
-  signed int return_value_table_deepcopy_r$2;
-  return_value_table_deepcopy_r$2=table_deepcopy_r(L);
-  return return_value_table_deepcopy_r$2;
+  signed int return_value_table_deepcopy_r_2;
+  return_value_table_deepcopy_r_2=table_deepcopy_r(L);
+  return return_value_table_deepcopy_r_2;
 }
 
 // lf_table_flatten
@@ -5421,9 +5421,9 @@ signed int lf_table_deepcopy(struct lua_State *L)
 signed int lf_table_flatten(struct lua_State *L)
 {
   unsigned long int s;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 1))
     luaL_error(L, "table_flatten: incorrect number of arguments");
 
   luaL_checktype(L, 1, 5);
@@ -5439,27 +5439,27 @@ signed int lf_table_flatten(struct lua_State *L)
 static signed int lf_table_flatten_r(struct lua_State *L, signed int table_index)
 {
   lua_pushnil(L);
-  signed int return_value_lua_next$1;
-  signed int return_value_lua_gettop$2;
-  signed int return_value_lua_type$3;
+  signed int return_value_lua_next_1;
+  signed int return_value_lua_gettop_2;
+  signed int return_value_lua_type_3;
   do
   {
-    return_value_lua_next$1=lua_next(L, table_index);
-    if(return_value_lua_next$1 == 0)
+    return_value_lua_next_1=lua_next(L, table_index);
+    if(return_value_lua_next_1 == 0)
       break;
 
-    signed int return_value_lua_type$4;
-    return_value_lua_type$4=lua_type(L, -1);
-    if(return_value_lua_type$4 == 5)
+    signed int return_value_lua_type_4;
+    return_value_lua_type_4=lua_type(L, -1);
+    if(return_value_lua_type_4 == 5)
     {
-      return_value_lua_gettop$2=lua_gettop(L);
-      lf_table_flatten_r(L, return_value_lua_gettop$2);
+      return_value_lua_gettop_2=lua_gettop(L);
+      lf_table_flatten_r(L, return_value_lua_gettop_2);
     }
 
     else
     {
-      return_value_lua_type$3=lua_type(L, -1);
-      if(return_value_lua_type$3 == 4)
+      return_value_lua_type_3=lua_type(L, -1);
+      if(return_value_lua_type_3 == 4)
       {
         lua_pushnumber(L, (double)flatten_index);
         lua_pushvalue(L, -2);
@@ -5489,25 +5489,25 @@ signed int lf_table_tostring(struct lua_State *L)
   char *buffer;
   char *current;
   const char *item;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 3))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 3))
     luaL_error(L, "table_tostring: incorrect number of arguments");
 
   luaL_checktype(L, 1, 5);
   prefix=lua_tolstring(L, 2, &prefix_len);
   postfix=lua_tolstring(L, 3, &postfix_len);
   lua_pushnil(L);
-  signed int return_value_lua_next$2;
+  signed int return_value_lua_next_2;
   do
   {
-    return_value_lua_next$2=lua_next(L, 1);
-    if(return_value_lua_next$2 == 0)
+    return_value_lua_next_2=lua_next(L, 1);
+    if(return_value_lua_next_2 == 0)
       break;
 
-    signed int return_value_lua_type$3;
-    return_value_lua_type$3=lua_type(L, -1);
-    if(return_value_lua_type$3 == 4)
+    signed int return_value_lua_type_3;
+    return_value_lua_type_3=lua_type(L, -1);
+    if(return_value_lua_type_3 == 4)
     {
       lua_tolstring(L, -1, &item_len);
       total_len = total_len + prefix_len + item_len + postfix_len;
@@ -5516,27 +5516,27 @@ signed int lf_table_tostring(struct lua_State *L)
     lua_settop(L, -1 - 1);
   }
   while((_Bool)1);
-  void *return_value_malloc$4;
+  void *return_value_malloc_4;
   if(!(total_len >= sizeof(char [4096l]) /*4096ul*/ ))
     buffer = string_buffer;
 
   else
   {
-    return_value_malloc$4=malloc(total_len);
-    buffer = (char *)return_value_malloc$4;
+    return_value_malloc_4=malloc(total_len);
+    buffer = (char *)return_value_malloc_4;
   }
   current = buffer;
   lua_pushnil(L);
-  signed int return_value_lua_next$5;
+  signed int return_value_lua_next_5;
   do
   {
-    return_value_lua_next$5=lua_next(L, 1);
-    if(return_value_lua_next$5 == 0)
+    return_value_lua_next_5=lua_next(L, 1);
+    if(return_value_lua_next_5 == 0)
       break;
 
-    signed int return_value_lua_type$6;
-    return_value_lua_type$6=lua_type(L, -1);
-    if(return_value_lua_type$6 == 4)
+    signed int return_value_lua_type_6;
+    return_value_lua_type_6=lua_type(L, -1);
+    if(return_value_lua_type_6 == 4)
     {
       item=lua_tolstring(L, -1, &item_len);
       memcpy((void *)current, (const void *)prefix, prefix_len);
@@ -5562,17 +5562,17 @@ signed int lf_table_tostring(struct lua_State *L)
 signed int lf_table_walk(struct lua_State *L)
 {
   struct WALKDATA *data;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 == 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 == 1))
     luaL_error(L, "table_walk: incorrect number of arguments");
 
   luaL_checktype(L, 1, 5);
   lua_pushcclosure(L, lf_table_walk_iter, 0);
   lua_createtable(L, 4, 0);
-  void *return_value_lua_newuserdata$2;
-  return_value_lua_newuserdata$2=lua_newuserdata(L, sizeof(struct WALKDATA) /*132ul*/ );
-  data = (struct WALKDATA *)return_value_lua_newuserdata$2;
+  void *return_value_lua_newuserdata_2;
+  return_value_lua_newuserdata_2=lua_newuserdata(L, sizeof(struct WALKDATA) /*132ul*/ );
+  data = (struct WALKDATA *)return_value_lua_newuserdata_2;
   data->depth = 1;
   data->index[(signed long int)data->depth] = 0;
   lua_rawseti(L, 3, 1);
@@ -5589,9 +5589,9 @@ static signed int lf_table_walk_iter(struct lua_State *L)
   struct WALKDATA *data;
   signed int type;
   lua_rawgeti(L, 1, 1);
-  void *return_value_lua_touserdata$1;
-  return_value_lua_touserdata$1=lua_touserdata(L, -1);
-  data = (struct WALKDATA *)return_value_lua_touserdata$1;
+  void *return_value_lua_touserdata_1;
+  return_value_lua_touserdata_1=lua_touserdata(L, -1);
+  data = (struct WALKDATA *)return_value_lua_touserdata_1;
   while((_Bool)1)
   {
     data->index[(signed long int)data->depth] = data->index[(signed long int)data->depth] + 1;
@@ -5640,16 +5640,16 @@ signed int lf_update_globalstamp(struct lua_State *L)
 {
   struct CONTEXT *context;
   signed long int file_stamp;
-  signed int return_value_lua_gettop$1;
-  return_value_lua_gettop$1=lua_gettop(L);
-  if(!(return_value_lua_gettop$1 >= 1))
+  signed int return_value_lua_gettop_1;
+  return_value_lua_gettop_1=lua_gettop(L);
+  if(!(return_value_lua_gettop_1 >= 1))
     luaL_error(L, "update_globalstamp: too few arguments");
 
   luaL_checktype(L, 1, 4);
   context=context_get_pointer(L);
-  const char *return_value_lua_tolstring$2;
-  return_value_lua_tolstring$2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
-  file_stamp=file_timestamp(return_value_lua_tolstring$2);
+  const char *return_value_lua_tolstring_2;
+  return_value_lua_tolstring_2=lua_tolstring(L, 1, (unsigned long int *)(void *)0);
+  file_stamp=file_timestamp(return_value_lua_tolstring_2);
   if(!(context->globaltimestamp >= file_stamp))
     context->globaltimestamp = file_stamp;
 
@@ -5675,9 +5675,9 @@ static void list_directory(const char *path, void (*callback)(const char *, sign
   {
     dir=opendir(path);
     strcpy(buffer, path);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(buffer);
-    startpoint = buffer + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(buffer);
+    startpoint = buffer + (signed long int)return_value_strlen_1;
     *startpoint = (char)47;
     startpoint = startpoint + 1l;
   }
@@ -5704,11 +5704,11 @@ static void list_directory(const char *path, void (*callback)(const char *, sign
 // file src/support.c line 449
 static void listdir_callback(const char *filename, signed int dir, void *user)
 {
-  struct anonymous$5 *info = (struct anonymous$5 *)user;
+  struct anonymous_5 *info = (struct anonymous_5 *)user;
   lua_pushstring(info->lua, filename);
-  signed int tmp_post$1 = info->i;
+  signed int tmp_post_1 = info->i;
   info->i = info->i + 1;
-  lua_rawseti(info->lua, -2, tmp_post$1);
+  lua_rawseti(info->lua, -2, tmp_post_1);
 }
 
 // lua_alloctor_malloc
@@ -5723,9 +5723,9 @@ static void * lua_alloctor_malloc(void *ud, void *ptr, unsigned long int osize, 
 
   else
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc(ptr, nsize);
-    return return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc(ptr, nsize);
+    return return_value_realloc_1;
   }
 }
 
@@ -5756,34 +5756,34 @@ signed int main(signed int argc, char **argv)
   platform_init();
   session.exe = argv[(signed long int)0];
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !((*argv)[(signed long int)i] == 0); i = i + 1)
   {
     if((signed int)(*argv)[(signed long int)i] == 47)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)argv[(signed long int)0][(signed long int)i] == 92 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)argv[(signed long int)0][(signed long int)i] == 92 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       session.name = &argv[(signed long int)0][(signed long int)(i + 1)];
 
   }
-  char *return_value_getenv$4;
-  return_value_getenv$4=getenv("BAM_OPTIONS");
-  if(!(return_value_getenv$4 == ((char *)NULL)))
+  char *return_value_getenv_4;
+  return_value_getenv_4=getenv("BAM_OPTIONS");
+  if(!(return_value_getenv_4 == ((char *)NULL)))
   {
-    char *return_value_getenv$2;
-    return_value_getenv$2=getenv("BAM_OPTIONS");
-    signed int return_value_parse_parameters_str$3;
-    return_value_parse_parameters_str$3=parse_parameters_str(return_value_getenv$2);
-    if(!(return_value_parse_parameters_str$3 == 0))
+    char *return_value_getenv_2;
+    return_value_getenv_2=getenv("BAM_OPTIONS");
+    signed int return_value_parse_parameters_str_3;
+    return_value_parse_parameters_str_3=parse_parameters_str(return_value_getenv_2);
+    if(!(return_value_parse_parameters_str_3 == 0))
       return -1;
 
   }
 
-  signed int return_value_parse_parameters$5;
-  return_value_parse_parameters$5=parse_parameters(argc - 1, argv + (signed long int)1);
-  if(!(return_value_parse_parameters$5 == 0))
+  signed int return_value_parse_parameters_5;
+  return_value_parse_parameters_5=parse_parameters(argc - 1, argv + (signed long int)1);
+  if(!(return_value_parse_parameters_5 == 0))
     return -1;
 
   else
@@ -5845,9 +5845,9 @@ void * mem_allocate(struct HEAP *heap, signed int size)
 {
   char *mem;
   size = (signed int)(((unsigned long int)size + sizeof(void *) /*8ul*/ ) - (unsigned long int)1 & ~(sizeof(void *) /*8ul*/  - (unsigned long int)1));
-  void *return_value_mem_allocate_from_chunk$1;
-  return_value_mem_allocate_from_chunk$1=mem_allocate_from_chunk(heap->current, size);
-  mem = (char *)return_value_mem_allocate_from_chunk$1;
+  void *return_value_mem_allocate_from_chunk_1;
+  return_value_mem_allocate_from_chunk_1=mem_allocate_from_chunk(heap->current, size);
+  mem = (char *)return_value_mem_allocate_from_chunk_1;
   if(mem == ((char *)NULL))
   {
     if(!(default_chunksize / 2 >= size))
@@ -5856,20 +5856,20 @@ void * mem_allocate(struct HEAP *heap, signed int size)
       chunk=mem_newchunk(size);
       chunk->next = heap->current->next;
       heap->current->next = chunk;
-      void *return_value_mem_allocate_from_chunk$2;
-      return_value_mem_allocate_from_chunk$2=mem_allocate_from_chunk(chunk, size);
-      mem = (char *)return_value_mem_allocate_from_chunk$2;
+      void *return_value_mem_allocate_from_chunk_2;
+      return_value_mem_allocate_from_chunk_2=mem_allocate_from_chunk(chunk, size);
+      mem = (char *)return_value_mem_allocate_from_chunk_2;
     }
 
     else
     {
-      struct CHUNK *mem_allocate$$1$$1$$2$$chunk;
-      mem_allocate$$1$$1$$2$$chunk=mem_newchunk(default_chunksize);
-      mem_allocate$$1$$1$$2$$chunk->next = heap->current;
-      heap->current = mem_allocate$$1$$1$$2$$chunk;
-      void *return_value_mem_allocate_from_chunk$3;
-      return_value_mem_allocate_from_chunk$3=mem_allocate_from_chunk(heap->current, size);
-      mem = (char *)return_value_mem_allocate_from_chunk$3;
+      struct CHUNK *mem_allocate__1__1__2__chunk;
+      mem_allocate__1__1__2__chunk=mem_newchunk(default_chunksize);
+      mem_allocate__1__1__2__chunk->next = heap->current;
+      heap->current = mem_allocate__1__1__2__chunk;
+      void *return_value_mem_allocate_from_chunk_3;
+      return_value_mem_allocate_from_chunk_3=mem_allocate_from_chunk(heap->current, size);
+      mem = (char *)return_value_mem_allocate_from_chunk_3;
     }
   }
 
@@ -5899,9 +5899,9 @@ struct HEAP * mem_create()
   struct CHUNK *chunk;
   struct HEAP *heap;
   chunk=mem_newchunk(default_chunksize);
-  void *return_value_mem_allocate_from_chunk$1;
-  return_value_mem_allocate_from_chunk$1=mem_allocate_from_chunk(chunk, (signed int)sizeof(struct HEAP) /*8ul*/ );
-  heap = (struct HEAP *)return_value_mem_allocate_from_chunk$1;
+  void *return_value_mem_allocate_from_chunk_1;
+  return_value_mem_allocate_from_chunk_1=mem_allocate_from_chunk(chunk, (signed int)sizeof(struct HEAP) /*8ul*/ );
+  heap = (struct HEAP *)return_value_mem_allocate_from_chunk_1;
   heap->current = chunk;
   return heap;
 }
@@ -5925,9 +5925,9 @@ static struct CHUNK * mem_newchunk(signed int chunksize)
 {
   struct CHUNK *chunk;
   char *mem;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CHUNK) /*32ul*/  + (unsigned long int)chunksize);
-  mem = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CHUNK) /*32ul*/  + (unsigned long int)chunksize);
+  mem = (char *)return_value_malloc_1;
   if(mem == ((char *)NULL))
     return ((struct CHUNK *)NULL);
 
@@ -5950,9 +5950,9 @@ static struct NODE * node_add_constraint(struct NODELINK **first, struct NODE *n
   struct NODE *contraint;
   contraint=node_get(node->graph, filename);
   struct NODELINK *link;
-  void *return_value_mem_allocate$1;
-  return_value_mem_allocate$1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
-  link = (struct NODELINK *)return_value_mem_allocate$1;
+  void *return_value_mem_allocate_1;
+  return_value_mem_allocate_1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
+  link = (struct NODELINK *)return_value_mem_allocate_1;
   link->node = contraint;
   link->next = *first;
   *first = link;
@@ -5963,18 +5963,18 @@ static struct NODE * node_add_constraint(struct NODELINK **first, struct NODE *n
 // file src/node.h line 188
 struct NODE * node_add_constraint_exclusive(struct NODE *node, const char *filename)
 {
-  struct NODE *return_value_node_add_constraint$1;
-  return_value_node_add_constraint$1=node_add_constraint(&node->constraint_exclusive, node, filename);
-  return return_value_node_add_constraint$1;
+  struct NODE *return_value_node_add_constraint_1;
+  return_value_node_add_constraint_1=node_add_constraint(&node->constraint_exclusive, node, filename);
+  return return_value_node_add_constraint_1;
 }
 
 // node_add_constraint_shared
 // file src/node.h line 187
 struct NODE * node_add_constraint_shared(struct NODE *node, const char *filename)
 {
-  struct NODE *return_value_node_add_constraint$1;
-  return_value_node_add_constraint$1=node_add_constraint(&node->constraint_shared, node, filename);
-  return return_value_node_add_constraint$1;
+  struct NODE *return_value_node_add_constraint_1;
+  return_value_node_add_constraint_1=node_add_constraint(&node->constraint_shared, node, filename);
+  return return_value_node_add_constraint_1;
 }
 
 // node_add_dependency
@@ -5988,9 +5988,9 @@ struct NODE * node_add_dependency(struct NODE *node, const char *filename)
 
   else
   {
-    struct NODE *return_value_node_add_dependency_withnode$1;
-    return_value_node_add_dependency_withnode$1=node_add_dependency_withnode(node, depnode);
-    return return_value_node_add_dependency_withnode$1;
+    struct NODE *return_value_node_add_dependency_withnode_1;
+    return_value_node_add_dependency_withnode_1=node_add_dependency_withnode(node, depnode);
+    return return_value_node_add_dependency_withnode_1;
   }
 }
 
@@ -6028,16 +6028,16 @@ struct NODE * node_add_dependency_withnode(struct NODE *node, struct NODE *depno
 
     __CPROVER_DUMP_L3:
       ;
-      void *return_value_mem_allocate$1;
-      return_value_mem_allocate$1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
-      dep = (struct NODELINK *)return_value_mem_allocate$1;
+      void *return_value_mem_allocate_1;
+      return_value_mem_allocate_1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
+      dep = (struct NODELINK *)return_value_mem_allocate_1;
       dep->node = depnode;
       dep->next = node->firstdep;
       node->firstdep = dep;
       nodelinktree_insert(&node->deproot, treelink, depnode);
-      void *return_value_mem_allocate$2;
-      return_value_mem_allocate$2=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
-      parent = (struct NODELINK *)return_value_mem_allocate$2;
+      void *return_value_mem_allocate_2;
+      return_value_mem_allocate_2=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
+      parent = (struct NODELINK *)return_value_mem_allocate_2;
       parent->node = node;
       parent->next = depnode->firstparent;
       depnode->firstparent = parent;
@@ -6080,9 +6080,9 @@ struct NODE * node_add_job_dependency_withnode(struct NODE *node, struct NODE *d
 
     __CPROVER_DUMP_L3:
       ;
-      void *return_value_mem_allocate$1;
-      return_value_mem_allocate$1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
-      dep = (struct NODELINK *)return_value_mem_allocate$1;
+      void *return_value_mem_allocate_1;
+      return_value_mem_allocate_1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODELINK) /*16ul*/ );
+      dep = (struct NODELINK *)return_value_mem_allocate_1;
       dep->node = depnode;
       dep->next = node->firstjobdep;
       node->firstjobdep = dep;
@@ -6108,11 +6108,11 @@ signed int node_create(struct NODE **nodeptr, struct GRAPH *graph, const char *f
   signed int sn;
   unsigned int hashid;
   hashid=string_hash(filename);
-  signed int return_value_path_isnice$1;
-  return_value_path_isnice$1=path_isnice(filename);
-  _Bool tmp_if_expr$6;
-  signed int tmp_post$3;
-  if(return_value_path_isnice$1 == 0)
+  signed int return_value_path_isnice_1;
+  return_value_path_isnice_1=path_isnice(filename);
+  _Bool tmp_if_expr_6;
+  signed int tmp_post_3;
+  if(return_value_path_isnice_1 == 0)
   {
     printf("%s: error: adding non nice path '%s'. this causes problems with dependency lookups\n", session.name, filename);
     return 2;
@@ -6136,11 +6136,11 @@ signed int node_create(struct NODE **nodeptr, struct GRAPH *graph, const char *f
     *nodeptr = (struct NODE *)0x0;
     link=nodelinktree_find_closest(graph->nodehash[(signed long int)(hashid & (unsigned int)0xffff)], hashid);
     if(!(link == ((struct NODETREELINK *)NULL)))
-      tmp_if_expr$6 = link->node->hashid == hashid ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = link->node->hashid == hashid ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
       if(cmdline == ((const char *)NULL) || !(link->node->cmdline == ((char *)NULL)))
         return 1;
@@ -6150,24 +6150,24 @@ signed int node_create(struct NODE **nodeptr, struct GRAPH *graph, const char *f
 
     else
     {
-      void *return_value_mem_allocate$2;
-      return_value_mem_allocate$2=mem_allocate(graph->heap, (signed int)sizeof(struct NODE) /*160ul*/ );
-      node = (struct NODE *)return_value_mem_allocate$2;
+      void *return_value_mem_allocate_2;
+      return_value_mem_allocate_2=mem_allocate(graph->heap, (signed int)sizeof(struct NODE) /*160ul*/ );
+      node = (struct NODE *)return_value_mem_allocate_2;
       node->graph = graph;
-      tmp_post$3 = graph->num_nodes;
+      tmp_post_3 = graph->num_nodes;
       graph->num_nodes = graph->num_nodes + 1;
-      node->id = (unsigned int)tmp_post$3;
+      node->id = (unsigned int)tmp_post_3;
       node->timestamp_raw=file_timestamp(filename);
       node->timestamp = node->timestamp_raw;
       if(node->timestamp_raw == 0l)
         node->dirty = (unsigned int)1;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(filename);
-      node->filename_len = (unsigned short int)(return_value_strlen$4 + (unsigned long int)1);
-      void *return_value_mem_allocate$5;
-      return_value_mem_allocate$5=mem_allocate(graph->heap, (signed int)node->filename_len);
-      node->filename = (char *)return_value_mem_allocate$5;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(filename);
+      node->filename_len = (unsigned short int)(return_value_strlen_4 + (unsigned long int)1);
+      void *return_value_mem_allocate_5;
+      return_value_mem_allocate_5=mem_allocate(graph->heap, (signed int)node->filename_len);
+      node->filename = (char *)return_value_mem_allocate_5;
       memcpy((void *)node->filename, (const void *)filename, (unsigned long int)node->filename_len);
       node->hashid=string_hash(filename);
       nodelinktree_insert(&graph->nodehash[(signed long int)(node->hashid & (unsigned int)0xffff)], link, node);
@@ -6180,21 +6180,21 @@ signed int node_create(struct NODE **nodeptr, struct GRAPH *graph, const char *f
     }
     if(!(cmdline == ((const char *)NULL)))
     {
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(cmdline);
-      sn = (signed int)(return_value_strlen$7 + (unsigned long int)1);
-      void *return_value_mem_allocate$8;
-      return_value_mem_allocate$8=mem_allocate(graph->heap, sn);
-      node->cmdline = (char *)return_value_mem_allocate$8;
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(cmdline);
+      sn = (signed int)(return_value_strlen_7 + (unsigned long int)1);
+      void *return_value_mem_allocate_8;
+      return_value_mem_allocate_8=mem_allocate(graph->heap, sn);
+      node->cmdline = (char *)return_value_mem_allocate_8;
       memcpy((void *)node->cmdline, (const void *)cmdline, (unsigned long int)sn);
       node->cmdhash=string_hash(cmdline);
       node->cachehash = node->cmdhash;
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(label);
-      sn = (signed int)(return_value_strlen$9 + (unsigned long int)1);
-      void *return_value_mem_allocate$10;
-      return_value_mem_allocate$10=mem_allocate(graph->heap, sn);
-      node->label = (char *)return_value_mem_allocate$10;
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(label);
+      sn = (signed int)(return_value_strlen_9 + (unsigned long int)1);
+      void *return_value_mem_allocate_10;
+      return_value_mem_allocate_10=mem_allocate(graph->heap, sn);
+      node->label = (char *)return_value_mem_allocate_10;
       memcpy((void *)node->label, (const void *)label, (unsigned long int)sn);
     }
 
@@ -6208,9 +6208,9 @@ signed int node_create(struct NODE **nodeptr, struct GRAPH *graph, const char *f
 struct GRAPH * node_create_graph(struct HEAP *heap)
 {
   struct GRAPH *graph;
-  void *return_value_mem_allocate$1;
-  return_value_mem_allocate$1=mem_allocate(heap, (signed int)sizeof(struct GRAPH) /*524320ul*/ );
-  graph = (struct GRAPH *)return_value_mem_allocate$1;
+  void *return_value_mem_allocate_1;
+  return_value_mem_allocate_1=mem_allocate(heap, (signed int)sizeof(struct GRAPH) /*524320ul*/ );
+  graph = (struct GRAPH *)return_value_mem_allocate_1;
   if(graph == ((struct GRAPH *)NULL))
     return (struct GRAPH *)0x0;
 
@@ -6355,11 +6355,11 @@ static signed int node_debug_dump_jobs_dot_callback(struct NODEWALK *walkinfo)
 // file src/node.h line 178
 struct NODE * node_find(struct GRAPH *graph, const char *filename)
 {
-  unsigned int return_value_string_hash$1;
-  return_value_string_hash$1=string_hash(filename);
-  struct NODE *return_value_node_find_byhash$2;
-  return_value_node_find_byhash$2=node_find_byhash(graph, return_value_string_hash$1);
-  return return_value_node_find_byhash$2;
+  unsigned int return_value_string_hash_1;
+  return_value_string_hash_1=string_hash(filename);
+  struct NODE *return_value_node_find_byhash_2;
+  return_value_node_find_byhash_2=node_find_byhash(graph, return_value_string_hash_1);
+  return return_value_node_find_byhash_2;
 }
 
 // node_find_byhash
@@ -6393,9 +6393,9 @@ struct NODE * node_get(struct GRAPH *graph, const char *filename)
   node=node_find(graph, filename);
   if(node == ((struct NODE *)NULL))
   {
-    signed int return_value_node_create$1;
-    return_value_node_create$1=node_create(&node, graph, filename, ((const char *)NULL), ((const char *)NULL));
-    if(return_value_node_create$1 == 0)
+    signed int return_value_node_create_1;
+    return_value_node_create_1=node_create(&node, graph, filename, ((const char *)NULL), ((const char *)NULL));
+    if(return_value_node_create_1 == 0)
       return node;
 
   }
@@ -6429,9 +6429,9 @@ signed int node_walk(struct NODE *node, signed int flags, signed int (*callback)
   bitarray_zeroall(walk.mark, node->graph->num_nodes);
   if(!((80 & flags) == 0))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct NODEWALKREVISIT) /*16ul*/  * (unsigned long int)node->graph->num_nodes);
-    walk.revisits = (struct NODEWALKREVISIT *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct NODEWALKREVISIT) /*16ul*/  * (unsigned long int)node->graph->num_nodes);
+    walk.revisits = (struct NODEWALKREVISIT *)return_value_malloc_1;
     memset((void *)walk.revisits, 0, sizeof(struct NODEWALKREVISIT) /*16ul*/  * (unsigned long int)node->graph->num_nodes);
   }
 
@@ -6478,9 +6478,9 @@ static signed int node_walk_r(struct NODEWALK *walk, struct NODE *node)
   struct NODEWALKPATH path;
   signed int result = 0;
   signed int flags = walk->flags;
-  signed int return_value_bitarray_value$1;
-  return_value_bitarray_value$1=bitarray_value(walk->mark, (signed int)node->id);
-  if(!(return_value_bitarray_value$1 == 0))
+  signed int return_value_bitarray_value_1;
+  return_value_bitarray_value_1=bitarray_value(walk->mark, (signed int)node->id);
+  if(!(return_value_bitarray_value_1 == 0))
     return 0;
 
   else
@@ -6559,13 +6559,13 @@ static signed int node_walk_r(struct NODEWALK *walk, struct NODE *node)
 void node_walk_revisit(struct NODEWALK *walk, struct NODE *node)
 {
   struct NODEWALKREVISIT *revisit = &walk->revisits[(signed long int)node->id];
-  signed int return_value_bitarray_value$1;
+  signed int return_value_bitarray_value_1;
   if(revisit->node == ((struct NODE *)NULL))
   {
     if(walk->revisiting == 0)
     {
-      return_value_bitarray_value$1=bitarray_value(walk->mark, (signed int)node->id);
-      if(!(return_value_bitarray_value$1 == 0))
+      return_value_bitarray_value_1=bitarray_value(walk->mark, (signed int)node->id);
+      if(!(return_value_bitarray_value_1 == 0))
         goto __CPROVER_DUMP_L2;
 
     }
@@ -6611,9 +6611,9 @@ static struct NODETREELINK * nodelinktree_find_closest(struct NODETREELINK *link
 static void nodelinktree_insert(struct NODETREELINK **root, struct NODETREELINK *parentlink, struct NODE *node)
 {
   struct NODETREELINK *newlink;
-  void *return_value_mem_allocate$1;
-  return_value_mem_allocate$1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODETREELINK) /*40ul*/ );
-  newlink = (struct NODETREELINK *)return_value_mem_allocate$1;
+  void *return_value_mem_allocate_1;
+  return_value_mem_allocate_1=mem_allocate(node->graph->heap, (signed int)sizeof(struct NODETREELINK) /*40ul*/ );
+  newlink = (struct NODETREELINK *)return_value_mem_allocate_1;
   newlink->node = node;
   newlink->depth = 1;
   if(*root == ((struct NODETREELINK *)NULL))
@@ -6757,9 +6757,9 @@ static signed int parse_parameters(signed int num, char **params)
   signed int i;
   signed int j;
   i = 0;
-  signed int tmp_statement_expression$1;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_statement_expression_1;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(i >= num); i = i + 1)
   {
     j = 0;
@@ -6767,10 +6767,10 @@ static signed int parse_parameters(signed int num, char **params)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(params[(signed long int)i], options[(signed long int)j].sw);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(params[(signed long int)i], options[(signed long int)j].sw);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
       {
         if(!(options[(signed long int)j].s == ((const char **)NULL)))
         {
@@ -6801,20 +6801,20 @@ static signed int parse_parameters(signed int num, char **params)
 
       else
       {
-        char *return_value___builtin_strchr$5;
-        return_value___builtin_strchr$5=__builtin_strchr(params[(signed long int)i], 61);
-        if(!(return_value___builtin_strchr$5 == ((char *)NULL)))
+        char *return_value___builtin_strchr_5;
+        return_value___builtin_strchr_5=__builtin_strchr(params[(signed long int)i], 61);
+        if(!(return_value___builtin_strchr_5 == ((char *)NULL)))
         {
-          tmp_post$3 = option_num_scriptargs;
+          tmp_post_3 = option_num_scriptargs;
           option_num_scriptargs = option_num_scriptargs + 1;
-          option_scriptargs[(signed long int)tmp_post$3] = params[(signed long int)i];
+          option_scriptargs[(signed long int)tmp_post_3] = params[(signed long int)i];
         }
 
         else
         {
-          tmp_post$4 = option_num_targets;
+          tmp_post_4 = option_num_targets;
           option_num_targets = option_num_targets + 1;
-          option_targets[(signed long int)tmp_post$4] = params[(signed long int)i];
+          option_targets[(signed long int)tmp_post_4] = params[(signed long int)i];
         }
       }
     }
@@ -6835,16 +6835,16 @@ static signed int parse_parameters_str(const char *str)
   char *end = buffer + (signed long int)sizeof(char [1024l]) /*1024ul*/ ;
   signed int string_parse = 0;
   ptrs[(signed long int)0] = start;
-  const char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  const char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   while((_Bool)1)
   {
     char c;
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if(!(string_parse == 0))
     {
       if((signed int)c == 34)
@@ -6859,18 +6859,18 @@ static signed int parse_parameters_str(const char *str)
 
         else
         {
-          tmp_post$2 = current;
+          tmp_post_2 = current;
           current = current + 1l;
-          *tmp_post$2 = c;
+          *tmp_post_2 = c;
         }
     }
 
     else
       if((signed int)c == 0 || (signed int)c == 9 || (signed int)c == 32)
       {
-        tmp_post$3 = current;
+        tmp_post_3 = current;
         current = current + 1l;
-        *tmp_post$3 = (char)0;
+        *tmp_post_3 = (char)0;
         num_ptrs = num_ptrs + 1;
         ptrs[(signed long int)num_ptrs] = current;
       }
@@ -6881,9 +6881,9 @@ static signed int parse_parameters_str(const char *str)
 
         else
         {
-          tmp_post$4 = current;
+          tmp_post_4 = current;
           current = current + 1l;
-          *tmp_post$4 = c;
+          *tmp_post_4 = c;
         }
     if(current == end)
     {
@@ -6895,9 +6895,9 @@ static signed int parse_parameters_str(const char *str)
       break;
 
   }
-  signed int return_value_parse_parameters$5;
-  return_value_parse_parameters$5=parse_parameters(num_ptrs, ptrs);
-  return return_value_parse_parameters$5;
+  signed int return_value_parse_parameters_5;
+  return_value_parse_parameters_5=parse_parameters(num_ptrs, ptrs);
+  return return_value_parse_parameters_5;
 }
 
 // path_dir_length
@@ -6909,9 +6909,9 @@ static signed int path_dir_length(const char *path)
   signed int len = -1;
   for( ; !(*cur == 0); total = total + 1)
   {
-    unsigned int return_value_path_is_separator$1;
-    return_value_path_is_separator$1=path_is_separator(*cur);
-    if(!(return_value_path_is_separator$1 == 0u))
+    unsigned int return_value_path_is_separator_1;
+    return_value_path_is_separator_1=path_is_separator(*cur);
+    if(!(return_value_path_is_separator_1 == 0u))
       len = (signed int)(cur - path);
 
     cur = cur + 1l;
@@ -6929,14 +6929,14 @@ signed int path_directory(const char *path, char *directory, signed int size)
 {
   char *dest = directory;
   char *dest_end = (directory + (signed long int)size) - (signed long int)1;
-  const char *path_directory$$1$$read = path;
+  const char *path_directory__1__read = path;
   const char *cur = path;
   for( ; !(*cur == 0); cur = cur + 1l)
   {
-    unsigned int return_value_path_is_separator$1;
-    return_value_path_is_separator$1=path_is_separator(*cur);
-    if(!(return_value_path_is_separator$1 == 0u))
-      for( ; !(path_directory$$1$$read == cur); dest = dest + 1l)
+    unsigned int return_value_path_is_separator_1;
+    return_value_path_is_separator_1=path_is_separator(*cur);
+    if(!(return_value_path_is_separator_1 == 0u))
+      for( ; !(path_directory__1__read == cur); dest = dest + 1l)
       {
         if(dest == dest_end)
         {
@@ -6944,8 +6944,8 @@ signed int path_directory(const char *path, char *directory, signed int size)
           return 1;
         }
 
-        *dest = *path_directory$$1$$read;
-        path_directory$$1$$read = path_directory$$1$$read + 1l;
+        *dest = *path_directory__1__read;
+        path_directory__1__read = path_directory__1__read + 1l;
       }
 
   }
@@ -6964,9 +6964,9 @@ static const char * path_ext(const char *filename)
     if((signed int)*cur == 46)
       ext = cur;
 
-    unsigned int return_value_path_is_separator$1;
-    return_value_path_is_separator$1=path_is_separator(*cur);
-    if(!(return_value_path_is_separator$1 == 0u))
+    unsigned int return_value_path_is_separator_1;
+    return_value_path_is_separator_1=path_is_separator(*cur);
+    if(!(return_value_path_is_separator_1 == 0u))
       ext = (const char *)0x0;
 
   }
@@ -6985,9 +6985,9 @@ const char * path_filename(const char *path)
   const char *cur = path;
   for( ; !(*cur == 0); cur = cur + 1l)
   {
-    unsigned int return_value_path_is_separator$1;
-    return_value_path_is_separator$1=path_is_separator(*cur);
-    if(!(return_value_path_is_separator$1 == 0u))
+    unsigned int return_value_path_is_separator_1;
+    return_value_path_is_separator_1=path_is_separator(*cur);
+    if(!(return_value_path_is_separator_1 == 0u))
       ret = cur + (signed long int)1;
 
   }
@@ -7005,9 +7005,9 @@ static unsigned int path_is_separator(char c)
 // file src/path.c line 172
 signed int path_isabs(const char *path)
 {
-  unsigned int return_value_path_is_separator$1;
-  return_value_path_is_separator$1=path_is_separator(path[(signed long int)0]);
-  if(!(return_value_path_is_separator$1 == 0u))
+  unsigned int return_value_path_is_separator_1;
+  return_value_path_is_separator_1=path_is_separator(path[(signed long int)0]);
+  if(!(return_value_path_is_separator_1 == 0u))
     return 1;
 
   else
@@ -7018,13 +7018,13 @@ signed int path_isabs(const char *path)
 // file src/path.c line 191
 signed int path_isnice(const char *path)
 {
-  unsigned int return_value_path_is_separator$2;
+  unsigned int return_value_path_is_separator_2;
   while((signed int)*path == 46)
     if((signed int)path[1l] == 46)
     {
-      unsigned int return_value_path_is_separator$1;
-      return_value_path_is_separator$1=path_is_separator(path[(signed long int)2]);
-      if(!(return_value_path_is_separator$1 == 0u))
+      unsigned int return_value_path_is_separator_1;
+      return_value_path_is_separator_1=path_is_separator(path[(signed long int)2]);
+      if(!(return_value_path_is_separator_1 == 0u))
         path = path + (signed long int)3;
 
       else
@@ -7033,8 +7033,8 @@ signed int path_isnice(const char *path)
 
     else
     {
-      return_value_path_is_separator$2=path_is_separator(path[(signed long int)1]);
-      if(!(return_value_path_is_separator$2 == 0u))
+      return_value_path_is_separator_2=path_is_separator(path[(signed long int)1]);
+      if(!(return_value_path_is_separator_2 == 0u))
         return 0;
 
       else
@@ -7042,13 +7042,13 @@ signed int path_isnice(const char *path)
     }
   while(!(*path == 0))
   {
-    unsigned int return_value_path_is_separator$5;
-    return_value_path_is_separator$5=path_is_separator(path[(signed long int)0]);
-    if(!(return_value_path_is_separator$5 == 0u))
+    unsigned int return_value_path_is_separator_5;
+    return_value_path_is_separator_5=path_is_separator(path[(signed long int)0]);
+    if(!(return_value_path_is_separator_5 == 0u))
     {
-      unsigned int return_value_path_is_separator$3;
-      return_value_path_is_separator$3=path_is_separator(path[(signed long int)1]);
-      if(!(return_value_path_is_separator$3 == 0u))
+      unsigned int return_value_path_is_separator_3;
+      return_value_path_is_separator_3=path_is_separator(path[(signed long int)1]);
+      if(!(return_value_path_is_separator_3 == 0u))
         return 0;
 
       if((signed int)path[1l] == 46)
@@ -7056,9 +7056,9 @@ signed int path_isnice(const char *path)
         if((signed int)path[2l] == 46)
           return 0;
 
-        unsigned int return_value_path_is_separator$4;
-        return_value_path_is_separator$4=path_is_separator(path[(signed long int)2]);
-        if(!(return_value_path_is_separator$4 == 0u))
+        unsigned int return_value_path_is_separator_4;
+        return_value_path_is_separator_4=path_is_separator(path[(signed long int)2]);
+        if(!(return_value_path_is_separator_4 == 0u))
           return 0;
 
       }
@@ -7078,17 +7078,17 @@ signed int path_isnice(const char *path)
 signed int path_join(const char *base, signed int base_len, const char *extend, signed int extend_len, char *output, signed int size)
 {
   signed int i;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(extend_len >= 0))
   {
-    return_value_strlen$1=strlen(extend);
-    extend_len = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(extend);
+    extend_len = (signed int)return_value_strlen_1;
   }
 
-  signed int return_value_path_isabs$2;
-  return_value_path_isabs$2=path_isabs(extend);
-  unsigned long int return_value_strlen$3;
-  if(!(return_value_path_isabs$2 == 0))
+  signed int return_value_path_isabs_2;
+  return_value_path_isabs_2=path_isabs(extend);
+  unsigned long int return_value_strlen_3;
+  if(!(return_value_path_isabs_2 == 0))
   {
     if(!(size >= 1 + extend_len))
     {
@@ -7105,8 +7105,8 @@ signed int path_join(const char *base, signed int base_len, const char *extend, 
   {
     if(!(base_len >= 0))
     {
-      return_value_strlen$3=strlen(base);
-      base_len = (signed int)return_value_strlen$3;
+      return_value_strlen_3=strlen(base);
+      base_len = (signed int)return_value_strlen_3;
     }
 
     if(!(size >= 2 + base_len + extend_len))
@@ -7126,9 +7126,9 @@ signed int path_join(const char *base, signed int base_len, const char *extend, 
       else
       {
         memcpy((void *)output, (const void *)base, (unsigned long int)base_len);
-        unsigned int return_value_path_is_separator$4;
-        return_value_path_is_separator$4=path_is_separator(base[(signed long int)(base_len - 1)]);
-        if(return_value_path_is_separator$4 == 0u)
+        unsigned int return_value_path_is_separator_4;
+        return_value_path_is_separator_4=path_is_separator(base[(signed long int)(base_len - 1)]);
+        if(return_value_path_is_separator_4 == 0u)
         {
           output[(signed long int)base_len] = (char)47;
           base_len = base_len + 1;
@@ -7153,27 +7153,27 @@ signed int path_normalize(char *path)
   char *srcptr = path;
   dirs[(signed long int)0] = path;
   depth = depth + 1;
-  unsigned int return_value_path_is_separator$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  unsigned int return_value_path_is_separator$6;
-  unsigned int return_value_path_is_separator$9;
-  char *tmp_post$7;
-  char *tmp_post$8;
+  unsigned int return_value_path_is_separator_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  unsigned int return_value_path_is_separator_6;
+  unsigned int return_value_path_is_separator_9;
+  char *tmp_post_7;
+  char *tmp_post_8;
   while((_Bool)1)
     if((signed int)*srcptr == 46)
     {
-      unsigned int return_value_path_is_separator$2;
-      return_value_path_is_separator$2=path_is_separator(srcptr[(signed long int)1]);
-      if(!(return_value_path_is_separator$2 == 0u))
+      unsigned int return_value_path_is_separator_2;
+      return_value_path_is_separator_2=path_is_separator(srcptr[(signed long int)1]);
+      if(!(return_value_path_is_separator_2 == 0u))
         srcptr = srcptr + (signed long int)2;
 
       else
         if((signed int)srcptr[1l] == 46)
         {
-          unsigned int return_value_path_is_separator$1;
-          return_value_path_is_separator$1=path_is_separator(srcptr[(signed long int)2]);
-          if(!(return_value_path_is_separator$1 == 0u))
+          unsigned int return_value_path_is_separator_1;
+          return_value_path_is_separator_1=path_is_separator(srcptr[(signed long int)2]);
+          if(!(return_value_path_is_separator_1 == 0u))
           {
             if(depth == 1)
             {
@@ -7223,26 +7223,26 @@ signed int path_normalize(char *path)
     {
       do
       {
-        return_value_path_is_separator$3=path_is_separator(srcptr[(signed long int)0]);
-        if(!(return_value_path_is_separator$3 == 0u))
+        return_value_path_is_separator_3=path_is_separator(srcptr[(signed long int)0]);
+        if(!(return_value_path_is_separator_3 == 0u))
           break;
 
         if(*srcptr == 0)
           break;
 
-        tmp_post$4 = dstptr;
+        tmp_post_4 = dstptr;
         dstptr = dstptr + 1l;
-        tmp_post$5 = srcptr;
+        tmp_post_5 = srcptr;
         srcptr = srcptr + 1l;
-        *tmp_post$4 = *tmp_post$5;
+        *tmp_post_4 = *tmp_post_5;
       }
       while((_Bool)1);
       if((signed int)*srcptr == 0)
       {
         if(!(dstptr == path))
         {
-          return_value_path_is_separator$6=path_is_separator(dstptr[(signed long int)-1]);
-          if(!(return_value_path_is_separator$6 == 0u))
+          return_value_path_is_separator_6=path_is_separator(dstptr[(signed long int)-1]);
+          if(!(return_value_path_is_separator_6 == 0u))
             dstptr[(signed long int)-1] = (char)0;
 
         }
@@ -7253,14 +7253,14 @@ signed int path_normalize(char *path)
 
       else
       {
-        return_value_path_is_separator$9=path_is_separator(srcptr[(signed long int)0]);
-        if(!(return_value_path_is_separator$9 == 0u))
+        return_value_path_is_separator_9=path_is_separator(srcptr[(signed long int)0]);
+        if(!(return_value_path_is_separator_9 == 0u))
         {
-          tmp_post$7 = dstptr;
+          tmp_post_7 = dstptr;
           dstptr = dstptr + 1l;
-          tmp_post$8 = srcptr;
+          tmp_post_8 = srcptr;
           srcptr = srcptr + 1l;
-          *tmp_post$7 = *tmp_post$8;
+          *tmp_post_7 = *tmp_post_8;
           dirs[(signed long int)depth] = dstptr;
           depth = depth + 1;
         }
@@ -7293,8 +7293,8 @@ signed int (*plugin_load(const char *filename))(struct lua_State *)
   char buffer[1024l];
   const char *error;
   void *handle;
-  /* tag-#anon#lUN[*{S32(*{SYM#tag-lua_State#}$SYM#tag-lua_State#$)->S32}$S32(*{SYM#tag-lua_State#}$SYM#tag-lua_State#$)->S32$'func'||l*{lV}$lV$'ptr'|] */
-union anonymous$3
+  /* tag-#anon#lUN[*{S32(*{SYM#tag-lua_State#}_SYM#tag-lua_State#_)->S32}_S32(*{SYM#tag-lua_State#}_SYM#tag-lua_State#_)->S32_'func'||l*{lV}_lV_'ptr'|] */
+union anonymous_3
 {
   // func
   signed int (*func)(struct lua_State *);
@@ -7304,10 +7304,10 @@ union anonymous$3
 
 /* */
   ;
-  union anonymous$3 func;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(filename);
-  if(return_value_strlen$1 >= 1015ul)
+  union anonymous_3 func;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(filename);
+  if(return_value_strlen_1 >= 1015ul)
     return (signed int (*)(struct lua_State *))0;
 
   else
@@ -7318,9 +7318,9 @@ union anonymous$3
     handle=dlopen(buffer, 0x00001);
     if(handle == NULL)
     {
-      char *return_value_dlerror$2;
-      return_value_dlerror$2=dlerror();
-      fputs(return_value_dlerror$2, stderr);
+      char *return_value_dlerror_2;
+      return_value_dlerror_2=dlerror();
+      fputs(return_value_dlerror_2, stderr);
       fputs("\n", stderr);
       return (signed int (*)(struct lua_State *))(void *)0;
     }
@@ -7367,30 +7367,30 @@ static signed int processline(char *line, char **start, char **end, signed int *
   *start = ((char *)NULL);
   *end = ((char *)NULL);
   *systemheader = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!((signed int)*current == 35))
   {
     if((signed int)*current == 32)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*current == 9 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*current == 9 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       current = current + 1l;
 
     else
       return 0;
   }
   current = current + 1l;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   while((_Bool)1)
   {
     if((signed int)*current == 32)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*current == 9 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)*current == 9 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       current = current + 1l;
 
     else
@@ -7409,15 +7409,15 @@ static signed int processline(char *line, char **start, char **end, signed int *
 
     else
       return 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   while((_Bool)1)
   {
     if((signed int)*current == 32)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*current == 9 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)*current == 9 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       current = current + 1l;
 
     else
@@ -7438,15 +7438,15 @@ static signed int processline(char *line, char **start, char **end, signed int *
     else
       return 0;
   current = current + 1l;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
     if((signed int)*current == 62)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*current == 34 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*current == 34 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       break;
 
     else
@@ -7602,10 +7602,10 @@ signed int register_lua_globals(struct CONTEXT *context)
   }
   lua_settable(context->lua, -10002);
   char cwd[1024l];
-  char *return_value_getcwd$1;
-  return_value_getcwd$1=getcwd(cwd, sizeof(char [1024l]) /*1024ul*/ );
-  signed int return_value_lua_pcall$2;
-  if(return_value_getcwd$1 == ((char *)NULL))
+  char *return_value_getcwd_1;
+  return_value_getcwd_1=getcwd(cwd, sizeof(char [1024l]) /*1024ul*/ );
+  signed int return_value_lua_pcall_2;
+  if(return_value_getcwd_1 == ((char *)NULL))
   {
     printf("%s: error: couldn't get current working directory\n", session.name);
     return -1;
@@ -7656,8 +7656,8 @@ signed int register_lua_globals(struct CONTEXT *context)
 
         else
         {
-          return_value_lua_pcall$2=lua_pcall(context->lua, 0, -1, -2);
-          if(!(return_value_lua_pcall$2 == 0))
+          return_value_lua_pcall_2=lua_pcall(context->lua, 0, -1, -2);
+          if(!(return_value_lua_pcall_2 == 0))
             error = 1;
 
         }
@@ -7670,14 +7670,14 @@ signed int register_lua_globals(struct CONTEXT *context)
 
 // run_collect
 // file src/support.c line 557
-static void run_collect(struct anonymous$6 *info, const char *input)
+static void run_collect(struct anonymous_6 *info, const char *input)
 {
   char dir[1024l];
   signed int dirlen = 0;
   path_directory(input, dir, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dir);
-  dirlen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dir);
+  dirlen = (signed int)return_value_strlen_1;
   info->path_len = dirlen + 1;
   if(!(dirlen == 0))
     info->start_str = input + (signed long int)dirlen + (signed long int)1;
@@ -7694,9 +7694,9 @@ static void run_collect(struct anonymous$6 *info, const char *input)
 
   else
     info->end_str = info->start_str + (signed long int)info->start_len;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(info->end_str);
-  info->end_len = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(info->end_str);
+  info->end_len = (signed int)return_value_strlen_2;
   list_directory(dir, collect_callback, (void *)info);
 }
 
@@ -7781,9 +7781,9 @@ static signed int run_node(struct CONTEXT *context, struct NODE *node, signed in
   }
 
   fflush(stdout);
-  signed int return_value_create_path$1;
-  return_value_create_path$1=create_path(node->filename);
-  if(!(return_value_create_path$1 == 0))
+  signed int return_value_create_path_1;
+  return_value_create_path_1=create_path(node->filename);
+  if(!(return_value_create_path_1 == 0))
   {
     if(!(session.report_color == 0))
       printf("\033[01;31m");
@@ -7816,9 +7816,9 @@ static signed int run_node(struct CONTEXT *context, struct NODE *node, signed in
         printf("\033[01;31m");
 
       printf("%s: '%s' error %d\n", session.name, node->filename, ret);
-      signed long int return_value_file_timestamp$2;
-      return_value_file_timestamp$2=file_timestamp(node->filename);
-      if(!(return_value_file_timestamp$2 == node->timestamp_raw))
+      signed long int return_value_file_timestamp_2;
+      return_value_file_timestamp_2=file_timestamp(node->filename);
+      if(!(return_value_file_timestamp_2 == node->timestamp_raw))
       {
         remove(node->filename);
         printf("%s: '%s' removed because job updated it even it failed.\n", session.name, node->filename);
@@ -7838,18 +7838,18 @@ static signed int run_node(struct CONTEXT *context, struct NODE *node, signed in
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // string_hash
 // file src/support.h line 28
 unsigned int string_hash(const char *str_in)
 {
-  unsigned int return_value_string_hash_add$1;
-  return_value_string_hash_add$1=string_hash_add((unsigned int)0, str_in);
-  return return_value_string_hash_add$1;
+  unsigned int return_value_string_hash_add_1;
+  return_value_string_hash_add_1=string_hash_add((unsigned int)0, str_in);
+  return return_value_string_hash_add_1;
 }
 
 // string_hash_add
@@ -7869,16 +7869,16 @@ static signed int table_deepcopy_r(struct lua_State *L)
   s=lua_objlen(L, -1);
   lua_createtable(L, 0, (signed int)s);
   lua_pushnil(L);
-  signed int return_value_lua_next$1;
+  signed int return_value_lua_next_1;
   do
   {
-    return_value_lua_next$1=lua_next(L, -3);
-    if(return_value_lua_next$1 == 0)
+    return_value_lua_next_1=lua_next(L, -3);
+    if(return_value_lua_next_1 == 0)
       break;
 
-    signed int return_value_lua_type$2;
-    return_value_lua_type$2=lua_type(L, -1);
-    if(return_value_lua_type$2 == 5)
+    signed int return_value_lua_type_2;
+    return_value_lua_type_2=lua_type(L, -1);
+    if(return_value_lua_type_2 == 5)
     {
       table_deepcopy_r(L);
       lua_pushvalue(L, -3);
@@ -7896,9 +7896,9 @@ static signed int table_deepcopy_r(struct lua_State *L)
     lua_settop(L, -1 - 1);
   }
   while((_Bool)1);
-  signed int return_value_lua_getmetatable$3;
-  return_value_lua_getmetatable$3=lua_getmetatable(L, -2);
-  if(!(return_value_lua_getmetatable$3 == 0))
+  signed int return_value_lua_getmetatable_3;
+  return_value_lua_getmetatable_3=lua_getmetatable(L, -2);
+  if(!(return_value_lua_getmetatable_3 == 0))
     lua_setmetatable(L, -2);
 
   return 1;
@@ -8005,9 +8005,9 @@ static signed int threads_run_callback(struct NODEWALK *walkinfo)
 
       else
       {
-        signed int return_value_constraints_check$1;
-        return_value_constraints_check$1=constraints_check(node);
-        if(!(return_value_constraints_check$1 == 0))
+        signed int return_value_constraints_check_1;
+        return_value_constraints_check_1=constraints_check(node);
+        if(!(return_value_constraints_check_1 == 0))
           return 0;
 
         else
@@ -8044,9 +8044,9 @@ void threads_yield()
 // file src/support.h line 17
 signed long int timestamp()
 {
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  return return_value_time$1;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  return return_value_time_1;
 }
 
 // write_flush
@@ -8054,9 +8054,9 @@ signed long int timestamp()
 static signed int write_flush(struct WRITEINFO *info, signed int elementsize)
 {
   signed int size = (signed int)((unsigned int)elementsize * info->index);
-  signed long int return_value_write$1;
-  return_value_write$1=write(info->fp, (const void *)info->buffers.nodes, (unsigned long int)size);
-  if(!(return_value_write$1 == (signed long int)size))
+  signed long int return_value_write_1;
+  return_value_write_1=write(info->fp, (const void *)info->buffers.nodes, (unsigned long int)size);
+  if(!(return_value_write_1 == (signed long int)size))
     return -1;
 
   else
@@ -8075,9 +8075,9 @@ static signed int write_header(struct WRITEINFO *info)
   memcpy((void *)cache.header, (const void *)bamheader, sizeof(char [8l]) /*8ul*/ );
   cache.num_nodes = (unsigned int)info->graph->num_nodes;
   cache.num_deps = (unsigned int)info->graph->num_deps;
-  signed long int return_value_write$1;
-  return_value_write$1=write(info->fp, (const void *)&cache, sizeof(struct CACHE) /*48ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct CACHE) /*48ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(info->fp, (const void *)&cache, sizeof(struct CACHE) /*48ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct CACHE) /*48ul*/ ))
     return -1;
 
   else
@@ -8095,14 +8095,14 @@ static signed int write_nodes(struct WRITEINFO *info)
   dep_index = (unsigned int)0;
   string_index = (unsigned int)0;
   node = graph->first;
-  unsigned int tmp_post$1;
-  signed int return_value_write_flush$2;
+  unsigned int tmp_post_1;
+  signed int return_value_write_flush_2;
   for( ; !(node == ((struct NODE *)NULL)); node = node->next)
   {
     struct CACHENODE *cachenode;
-    tmp_post$1 = info->index;
+    tmp_post_1 = info->index;
     info->index = info->index + 1u;
-    cachenode = &info->buffers.nodes[(signed long int)tmp_post$1];
+    cachenode = &info->buffers.nodes[(signed long int)tmp_post_1];
     struct NODELINK *dep;
     memset((void *)cachenode, 0, sizeof(struct CACHENODE) /*80ul*/ );
     cachenode->deps_num = (unsigned int)0;
@@ -8119,22 +8119,22 @@ static signed int write_nodes(struct WRITEINFO *info)
     dep_index = dep_index + cachenode->deps_num;
     if((unsigned long int)info->index == 409ul)
     {
-      return_value_write_flush$2=write_flush(info, (signed int)sizeof(struct CACHENODE) /*80ul*/ );
-      if(!(return_value_write_flush$2 == 0))
+      return_value_write_flush_2=write_flush(info, (signed int)sizeof(struct CACHENODE) /*80ul*/ );
+      if(!(return_value_write_flush_2 == 0))
         return -1;
 
     }
 
   }
-  signed int return_value_write_flush$3;
-  unsigned int tmp_post$4;
-  signed int return_value_write_flush$5;
-  signed int return_value_write_flush$6;
-  signed int return_value_write_flush$8;
+  signed int return_value_write_flush_3;
+  unsigned int tmp_post_4;
+  signed int return_value_write_flush_5;
+  signed int return_value_write_flush_6;
+  signed int return_value_write_flush_8;
   if(!(info->index == 0u))
   {
-    return_value_write_flush$3=write_flush(info, (signed int)sizeof(struct CACHENODE) /*80ul*/ );
-    if(return_value_write_flush$3 == 0)
+    return_value_write_flush_3=write_flush(info, (signed int)sizeof(struct CACHENODE) /*80ul*/ );
+    if(return_value_write_flush_3 == 0)
       goto __CPROVER_DUMP_L6;
 
     return -1;
@@ -8148,16 +8148,16 @@ static signed int write_nodes(struct WRITEINFO *info)
     node = graph->first;
     for( ; !(node == ((struct NODE *)NULL)); node = node->next)
     {
-      struct NODELINK *write_nodes$$1$$2$$1$$dep = node->firstdep;
-      for( ; !(write_nodes$$1$$2$$1$$dep == ((struct NODELINK *)NULL)); write_nodes$$1$$2$$1$$dep = write_nodes$$1$$2$$1$$dep->next)
+      struct NODELINK *write_nodes__1__2__1__dep = node->firstdep;
+      for( ; !(write_nodes__1__2__1__dep == ((struct NODELINK *)NULL)); write_nodes__1__2__1__dep = write_nodes__1__2__1__dep->next)
       {
-        tmp_post$4 = info->index;
+        tmp_post_4 = info->index;
         info->index = info->index + 1u;
-        info->buffers.deps[(signed long int)tmp_post$4] = write_nodes$$1$$2$$1$$dep->node->id;
+        info->buffers.deps[(signed long int)tmp_post_4] = write_nodes__1__2__1__dep->node->id;
         if((unsigned long int)info->index == 8192ul)
         {
-          return_value_write_flush$5=write_flush(info, (signed int)sizeof(unsigned int) /*4ul*/ );
-          if(!(return_value_write_flush$5 == 0))
+          return_value_write_flush_5=write_flush(info, (signed int)sizeof(unsigned int) /*4ul*/ );
+          if(!(return_value_write_flush_5 == 0))
             return -1;
 
         }
@@ -8166,8 +8166,8 @@ static signed int write_nodes(struct WRITEINFO *info)
     }
     if(!(info->index == 0u))
     {
-      return_value_write_flush$6=write_flush(info, (signed int)sizeof(unsigned int) /*4ul*/ );
-      if(return_value_write_flush$6 == 0)
+      return_value_write_flush_6=write_flush(info, (signed int)sizeof(unsigned int) /*4ul*/ );
+      if(return_value_write_flush_6 == 0)
         goto __CPROVER_DUMP_L12;
 
       return -1;
@@ -8183,9 +8183,9 @@ static signed int write_nodes(struct WRITEINFO *info)
       {
         if((unsigned long int)(info->index + (unsigned int)node->filename_len) >= 32769ul)
         {
-          signed int return_value_write_flush$7;
-          return_value_write_flush$7=write_flush(info, (signed int)sizeof(char) /*1ul*/ );
-          if(!(return_value_write_flush$7 == 0))
+          signed int return_value_write_flush_7;
+          return_value_write_flush_7=write_flush(info, (signed int)sizeof(char) /*1ul*/ );
+          if(!(return_value_write_flush_7 == 0))
             return -1;
 
         }
@@ -8195,8 +8195,8 @@ static signed int write_nodes(struct WRITEINFO *info)
       }
       if(!(info->index == 0u))
       {
-        return_value_write_flush$8=write_flush(info, (signed int)sizeof(char) /*1ul*/ );
-        if(return_value_write_flush$8 == 0)
+        return_value_write_flush_8=write_flush(info, (signed int)sizeof(char) /*1ul*/ );
+        if(return_value_write_flush_8 == 0)
           goto __CPROVER_DUMP_L17;
 
         return -1;

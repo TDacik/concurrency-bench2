@@ -1,102 +1,102 @@
-// #anon_enum$CBUF_NO_DROP=0$CBUF_WRAP_ONCE=1$CBUF_WRAP_MANY=2
+// #anon_enum_CBUF_NO_DROP=0_CBUF_WRAP_ONCE=1_CBUF_WRAP_MANY=2
 // file cbuf.h line 74
-enum anonymous$9 { CBUF_NO_DROP=0, CBUF_WRAP_ONCE=1, CBUF_WRAP_MANY=2 };
+enum anonymous_9 { CBUF_NO_DROP=0, CBUF_WRAP_ONCE=1, CBUF_WRAP_MANY=2 };
 
-// #anon_enum$CBUF_OPT_OVERWRITE=0
+// #anon_enum_CBUF_OPT_OVERWRITE=0
 // file cbuf.h line 70
-enum anonymous$10 { CBUF_OPT_OVERWRITE=0 };
+enum anonymous_10 { CBUF_OPT_OVERWRITE=0 };
 
-// #anon_enum$DSH=1$PCP=2
+// #anon_enum_DSH=1_PCP=2
 // file ../../src/pdsh/opt.h line 47
-enum anonymous$5 { DSH=1, PCP=2 };
+enum anonymous_5 { DSH=1, PCP=2 };
 
-// #anon_enum$DSH_NEW=0$DSH_RCMD=1$DSH_READING=2$DSH_DONE=3$DSH_FAILED=4$DSH_CANCELED=5
+// #anon_enum_DSH_NEW=0_DSH_RCMD=1_DSH_READING=2_DSH_DONE=3_DSH_FAILED=4_DSH_CANCELED=5
 // file dsh.h line 53
-enum anonymous$8 { DSH_NEW=0, DSH_RCMD=1, DSH_READING=2, DSH_DONE=3, DSH_FAILED=4, DSH_CANCELED=5 };
+enum anonymous_8 { DSH_NEW=0, DSH_RCMD=1, DSH_READING=2, DSH_DONE=3, DSH_FAILED=4, DSH_CANCELED=5 };
 
-// #anon_enum$FAIL=0$PASS=1
+// #anon_enum_FAIL=0_PASS=1
 // file testcase.c line 50
-enum anonymous$6 { FAIL=0, PASS=1 };
+enum anonymous_6 { FAIL=0, PASS=1 };
 
-// #anon_enum$false=0$true=1
+// #anon_enum_false=0_true=1
 // file ../../src/common/macros.h line 60
 enum anonymous { false=0, true=1 };
 
-// tag-#anon#ST[*{S8}$S8$'desc'||*{EN#anon_enum$FAIL=0$PASS=1#{U32}$U32$()->EN#anon_enum$FAIL=0$PASS=1#{U32}$U32$}$EN#anon_enum$FAIL=0$PASS=1#{U32}$U32$()->EN#anon_enum$FAIL=0$PASS=1#{U32}$U32$$'fun'|]
+// tag-#anon#ST[*{S8}_S8_'desc'||*{EN#anon_enum_FAIL=0_PASS=1#{U32}_U32_()->EN#anon_enum_FAIL=0_PASS=1#{U32}_U32_}_EN#anon_enum_FAIL=0_PASS=1#{U32}_U32_()->EN#anon_enum_FAIL=0_PASS=1#{U32}_U32__'fun'|]
 // file testcase.c line 52
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{S8}$S8$'filename'||*{S8}$S8$'name'||S32'ref_count'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'filename'||*{S8}_S8_'name'||S32'ref_count'||U32'_pad0'|]
 // file ltdl.h line 242
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{S8}$S8$'progname'||EN#anon_enum$false=0$true=1#{U32}$U32$'debug'||EN#anon_enum$false=0$true=1#{U32}$U32$'info_only'||EN#anon_enum$false=0$true=1#{U32}$U32$'test_range_expansion'||EN#anon_enum$false=0$true=1#{U32}$U32$'sdr_verify'||EN#anon_enum$false=0$true=1#{U32}$U32$'sdr_global'||EN#anon_enum$false=0$true=1#{U32}$U32$'altnames'||EN#anon_enum$false=0$true=1#{U32}$U32$'sigint_terminates'||U32'$pad0'||*{SYM#tag-hostlist#}$SYM#tag-hostlist#$'wcoll'||*{S8}$S8$'luser'||U32'luid'||U32'$pad1'||*{S8}$S8$'ruser'||S32'fanout'||S32'connect_timeout'||S32'command_timeout'||U32'$pad2'||*{S8}$S8$'rcmd_name'||*{S8}$S8$'misc_modules'||EN#anon_enum$false=0$true=1#{U32}$U32$'resolve_hosts'||EN#anon_enum$false=0$true=1#{U32}$U32$'kill_on_fail'||EN#anon_enum$false=0$true=1#{U32}$U32$'separate_stderr'||EN#anon_enum$false=0$true=1#{U32}$U32$'stdin_unavailable'||*{S8}$S8$'cmd'||*{S8}$S8$'dshpath'||*{S8}$S8$'getstat'||EN#anon_enum$false=0$true=1#{U32}$U32$'ret_remote_rc'||EN#anon_enum$false=0$true=1#{U32}$U32$'labels'||EN#anon_enum$false=0$true=1#{U32}$U32$'preserve'||EN#anon_enum$false=0$true=1#{U32}$U32$'recursive'||*{SYM#tag-list#}$SYM#tag-list#$'infile_names'||*{S8}$S8$'outfile_name'||EN#anon_enum$false=0$true=1#{U32}$U32$'pcp_server'||EN#anon_enum$false=0$true=1#{U32}$U32$'target_is_directory'||EN#anon_enum$false=0$true=1#{U32}$U32$'pcp_client'||U32'$pad3'||*{S8}$S8$'pcp_client_host'||*{S8}$S8$'local_program_path'||*{S8}$S8$'remote_program_path'||EN#anon_enum$false=0$true=1#{U32}$U32$'reverse_copy'||U32'$pad4'|]
+// tag-#anon#ST[*{S8}_S8_'progname'||EN#anon_enum_false=0_true=1#{U32}_U32_'debug'||EN#anon_enum_false=0_true=1#{U32}_U32_'info_only'||EN#anon_enum_false=0_true=1#{U32}_U32_'test_range_expansion'||EN#anon_enum_false=0_true=1#{U32}_U32_'sdr_verify'||EN#anon_enum_false=0_true=1#{U32}_U32_'sdr_global'||EN#anon_enum_false=0_true=1#{U32}_U32_'altnames'||EN#anon_enum_false=0_true=1#{U32}_U32_'sigint_terminates'||U32'_pad0'||*{SYM#tag-hostlist#}_SYM#tag-hostlist#_'wcoll'||*{S8}_S8_'luser'||U32'luid'||U32'_pad1'||*{S8}_S8_'ruser'||S32'fanout'||S32'connect_timeout'||S32'command_timeout'||U32'_pad2'||*{S8}_S8_'rcmd_name'||*{S8}_S8_'misc_modules'||EN#anon_enum_false=0_true=1#{U32}_U32_'resolve_hosts'||EN#anon_enum_false=0_true=1#{U32}_U32_'kill_on_fail'||EN#anon_enum_false=0_true=1#{U32}_U32_'separate_stderr'||EN#anon_enum_false=0_true=1#{U32}_U32_'stdin_unavailable'||*{S8}_S8_'cmd'||*{S8}_S8_'dshpath'||*{S8}_S8_'getstat'||EN#anon_enum_false=0_true=1#{U32}_U32_'ret_remote_rc'||EN#anon_enum_false=0_true=1#{U32}_U32_'labels'||EN#anon_enum_false=0_true=1#{U32}_U32_'preserve'||EN#anon_enum_false=0_true=1#{U32}_U32_'recursive'||*{SYM#tag-list#}_SYM#tag-list#_'infile_names'||*{S8}_S8_'outfile_name'||EN#anon_enum_false=0_true=1#{U32}_U32_'pcp_server'||EN#anon_enum_false=0_true=1#{U32}_U32_'target_is_directory'||EN#anon_enum_false=0_true=1#{U32}_U32_'pcp_client'||U32'_pad3'||*{S8}_S8_'pcp_client_host'||*{S8}_S8_'local_program_path'||*{S8}_S8_'remote_program_path'||EN#anon_enum_false=0_true=1#{U32}_U32_'reverse_copy'||U32'_pad4'|]
 // file ../../src/pdsh/opt.h line 49
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -369,9 +369,9 @@ static enum permission_error _dir_permission_error(struct stat *st, unsigned int
 // _do_output
 // file dsh.c line 523
 static signed int _do_output(signed int fd, struct cbuf *cb, void (*outf)(const char *, ...), enum anonymous read_rc, struct thd *t);
-// _do_output::outf$object
+// _do_output::outf_object
 //
-void outf$object(const char *, ...);
+void outf_object(const char *, ...);
 // _dsh_attr_init
 // file dsh.c line 806
 static signed int _dsh_attr_init(union pthread_attr_t *attrp, signed int stacksize);
@@ -381,9 +381,9 @@ static void _dump_debug_stats(signed int rshcount);
 // _error
 // file pcp_server.c line 192
 static void _error(struct pcp_server *s, const char *fmt, ...);
-// _error$link1
+// _error_link1
 // file hostlist.c line 336
-static void _error$link1(char *file, signed int line, char *msg, ...);
+static void _error_link1(char *file, signed int line, char *msg, ...);
 // _exit
 // file /usr/include/unistd.h line 603
 extern void _exit(signed int);
@@ -402,9 +402,9 @@ char * _find_path(char *argv0);
 // _flush_output
 // file dsh.c line 579
 static void _flush_output(struct cbuf *cb, void (*outf)(const char *, ...), struct thd *t);
-// _flush_output::outf$object
+// _flush_output::outf_object
 //
-void outf$object(const char *, ...);
+void outf_object(const char *, ...);
 // _fwd_signal
 // file dsh.c line 260
 static void _fwd_signal(signed int signum);
@@ -443,16 +443,16 @@ static struct hostlist * _hostlist_create_bracketed(const char *hostlist, char *
 static char * _hostrange_string(struct hostrange_components *hr, signed int depth);
 // _increase_nofile_limit
 // file dsh.c line 826
-static void _increase_nofile_limit(struct anonymous$1 *opt);
+static void _increase_nofile_limit(struct anonymous_1 *opt);
 // _infile_names_check
 // file opt.c line 787
-static signed int _infile_names_check(struct anonymous$1 *opt);
+static signed int _infile_names_check(struct anonymous_1 *opt);
 // _init_pdsh_options
 // file opt.c line 174
 static void _init_pdsh_options();
 // _interactive_dsh
 // file main.c line 319
-static void _interactive_dsh(struct anonymous$1 *opt);
+static void _interactive_dsh(struct anonymous_1 *opt);
 // _is_bracket_needed
 // file hostlist.c line 2120
 static signed int _is_bracket_needed(struct hostlist *hl, signed int i);
@@ -509,7 +509,7 @@ static signed int _mod_initialize_modules_by_name(char *names, struct list *m);
 static signed int _mod_load_dynamic(const char *fq_path);
 // _mod_load_dynamic_modules
 // file mod.c line 875
-static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 *pdsh_opts);
+static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous_1 *pdsh_opts);
 // _mod_next_active
 // file mod.c line 181
 static struct module_components * _mod_next_active(struct listIterator *i);
@@ -518,13 +518,13 @@ static struct module_components * _mod_next_active(struct listIterator *i);
 static enum anonymous _mod_opts_ok(struct module_components *mod);
 // _mod_postop
 // file mod.c line 169
-signed int _mod_postop(struct module_components *mod, struct anonymous$1 *pdsh_opts);
+signed int _mod_postop(struct module_components *mod, struct anonymous_1 *pdsh_opts);
 // _mod_print_info
 // file mod.c line 426
 static signed int _mod_print_info(struct module_components *mod);
 // _mod_read_wcoll
 // file mod.c line 160
-struct hostlist * _mod_read_wcoll(struct module_components *mod, struct anonymous$1 *pdsh_opts);
+struct hostlist * _mod_read_wcoll(struct module_components *mod, struct anonymous_1 *pdsh_opts);
 // _mod_register
 // file mod.c line 699
 static signed int _mod_register(struct module_components *mod, const char *name);
@@ -537,9 +537,9 @@ static signed int _module_list_uninitialized(char *type, char *buf, signed int l
 // _next_tok
 // file hostlist.c line 366
 static char * _next_tok(char *sep, char **str);
-// _next_tok$link1
+// _next_tok_link1
 // file split.c line 45
-static char * _next_tok$link1(char *sep$link1, char **str$link1);
+static char * _next_tok_link1(char *sep_link1, char **str_link1);
 // _opt_print
 // file mod.c line 446
 static signed int _opt_print(struct module_components *mod, signed int *col);
@@ -563,10 +563,10 @@ static enum anonymous _path_permissions_ok(const char *dir, unsigned int pdsh_ow
 static signed int _pcp_client(struct thd *th);
 // _pcp_remote_client
 // file main.c line 411
-static signed int _pcp_remote_client(struct anonymous$1 *opt);
+static signed int _pcp_remote_client(struct anonymous_1 *opt);
 // _pcp_remote_server
 // file main.c line 398
-static signed int _pcp_remote_server(struct anonymous$1 *opt);
+static signed int _pcp_remote_server(struct anonymous_1 *opt);
 // _pcp_send_file_data
 // file pcp_client.c line 205
 static signed int _pcp_send_file_data(signed int outfd, char *filename, char *host);
@@ -632,13 +632,13 @@ static void _sink(struct pcp_server *svr, char *targ, struct _buf *bufp);
 static void _strcatchar(char *str, char c);
 // _test_pipecmd
 // file testcase.c line 91
-static enum anonymous$6 _test_pipecmd(void);
+static enum anonymous_6 _test_pipecmd(void);
 // _test_xstrerrorcat
 // file testcase.c line 71
-static enum anonymous$6 _test_xstrerrorcat(void);
+static enum anonymous_6 _test_xstrerrorcat(void);
 // _testmsg
 // file testcase.c line 65
-static void _testmsg(signed int testnum, enum anonymous$6 result);
+static void _testmsg(signed int testnum, enum anonymous_6 result);
 // _thd_command_timeout
 // file dsh.c line 282
 static signed int _thd_command_timeout(struct thd *t);
@@ -647,13 +647,13 @@ static signed int _thd_command_timeout(struct thd *t);
 static signed int _thd_connect_timeout(struct thd *t);
 // _thd_init
 // file dsh.c line 849
-static signed int _thd_init(struct thd *th, struct anonymous$1 *opt, struct list *pcp_infiles, signed int i);
+static signed int _thd_init(struct thd *th, struct anonymous_1 *opt, struct list *pcp_infiles, signed int i);
 // _update_connect_state
 // file dsh.c line 349
-static enum anonymous$8 _update_connect_state(struct thd *a);
+static enum anonymous_8 _update_connect_state(struct thd *a);
 // _usage
 // file opt.c line 1118
-static void _usage(struct anonymous$1 *opt);
+static void _usage(struct anonymous_1 *opt);
 // _verifydir
 // file pcp_server.c line 128
 static signed int _verifydir(struct pcp_server *s, const char *cp);
@@ -669,9 +669,9 @@ static signed int _width_equiv(unsigned long int n, signed int *wn, unsigned lon
 // _xsignal
 // file dsh.c line 166
 static void (*_xsignal(signed int signal, void (*handler)(signed int)))(signed int);
-// _xsignal::handler$object
+// _xsignal::handler_object
 //
-void handler$object(signed int);
+void handler_object(signed int);
 // _zero_padded
 // file hostlist.c line 398
 static signed int _zero_padded(unsigned long int num, signed int width);
@@ -740,10 +740,10 @@ signed int cbuf_lines_used(struct cbuf *cb);
 signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed int *ndropped);
 // cbuf_opt_get
 // file cbuf.c line 422
-signed int cbuf_opt_get(struct cbuf *cb, enum anonymous$10 name, signed int *value);
+signed int cbuf_opt_get(struct cbuf *cb, enum anonymous_10 name, signed int *value);
 // cbuf_opt_set
 // file cbuf.c line 447
-signed int cbuf_opt_set(struct cbuf *cb, enum anonymous$10 name, signed int value);
+signed int cbuf_opt_set(struct cbuf *cb, enum anonymous_10 name, signed int value);
 // cbuf_peek
 // file cbuf.c line 507
 signed int cbuf_peek(struct cbuf *src, void *dstbuf, signed int len);
@@ -771,9 +771,9 @@ signed int cbuf_read_to_fd(struct cbuf *src, signed int dstfd, signed int len);
 // cbuf_reader
 // file cbuf.c line 1449
 static signed int cbuf_reader(struct cbuf *src, signed int len, signed int (*putf)(void *, void *, signed int), void *dst);
-// cbuf_reader::putf$object
+// cbuf_reader::putf_object
 //
-signed int putf$object(void *, void *, signed int);
+signed int putf_object(void *, void *, signed int);
 // cbuf_replay
 // file cbuf.c line 556
 signed int cbuf_replay(struct cbuf *src, void *dstbuf, signed int len);
@@ -786,9 +786,9 @@ signed int cbuf_replay_to_fd(struct cbuf *src, signed int dstfd, signed int len)
 // cbuf_replayer
 // file cbuf.c line 1505
 static signed int cbuf_replayer(struct cbuf *src, signed int len, signed int (*putf)(void *, void *, signed int), void *dst);
-// cbuf_replayer::putf$object
+// cbuf_replayer::putf_object
 //
-signed int putf$object(void *, void *, signed int);
+signed int putf_object(void *, void *, signed int);
 // cbuf_reused
 // file cbuf.c line 380
 signed int cbuf_reused(struct cbuf *cb);
@@ -819,9 +819,9 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
 // cbuf_writer
 // file cbuf.c line 1562
 static signed int cbuf_writer(struct cbuf *dst, signed int len, signed int (*getf)(void *, void *, signed int), void *src, signed int *ndropped);
-// cbuf_writer::getf$object
+// cbuf_writer::getf_object
 //
-signed int getf$object(void *, void *, signed int);
+signed int getf_object(void *, void *, signed int);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -860,7 +860,7 @@ extern char * dirname(char *);
 static void drop_privileges(void);
 // dsh
 // file dsh.h line 95
-signed int dsh(struct anonymous$1 *opt);
+signed int dsh(struct anonymous_1 *opt);
 // dup2
 // file /usr/include/unistd.h line 534
 extern signed int dup2(signed int, signed int);
@@ -972,12 +972,12 @@ extern void free(void *);
 // free_f
 // file opt.c line 1210
 void free_f(void *x);
-// free_f$link1
+// free_f_link1
 // file wcoll.c line 58
-static void free_f$link1(void *x$link1);
-// free_f$link2
+static void free_f_link1(void *x_link1);
+// free_f_link2
 // file split.c line 77
-static void free_f$link2(char *str);
+static void free_f_link2(char *str);
 // fstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 213
 extern signed int fstat(signed int, struct stat *);
@@ -1296,18 +1296,18 @@ signed int list_count(struct list *l);
 // list_create
 // file ../../src/common/list.h line 99
 struct list * list_create(void (*f)(void *));
-// list_create::f$object
+// list_create::f_object
 //
-void f$object(void *);
+void f_object(void *);
 // list_delete
 // file ../../src/common/list.h line 273
 signed int list_delete(struct listIterator *i);
 // list_delete_all
 // file list.c line 350
 signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_delete_all::f$object
+// list_delete_all::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_dequeue
 // file list.c line 505
 void * list_dequeue(struct list *l);
@@ -1320,21 +1320,21 @@ void * list_enqueue(struct list *l, void *x);
 // list_find
 // file ../../src/common/list.h line 257
 void * list_find(struct listIterator *i, signed int (*f)(void *, void *), void *key);
-// list_find::f$object
+// list_find::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_find_first
 // file ../../src/common/list.h line 143
 void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_find_first::f$object
+// list_find_first::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_for_each
 // file ../../src/common/list.h line 162
 signed int list_for_each(struct list *l, signed int (*f)(void *, void *), void *arg);
-// list_for_each::f$object
+// list_for_each::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_free
 // file list.c line 735
 static void list_free(struct list *l);
@@ -1401,9 +1401,9 @@ void * list_remove(struct listIterator *i);
 // list_sort
 // file ../../src/common/list.h line 170
 void list_sort(struct list *l, signed int (*f)(void *, void *));
-// list_sort::f$object
+// list_sort::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_split
 // file ../../src/common/split.h line 31
 struct list * list_split(char *sep, char *str);
@@ -1427,7 +1427,7 @@ extern signed int lt_dlclose(struct lt_dlhandle_struct *);
 extern signed int lt_dlexit(void);
 // lt_dlgetinfo
 // file ltdl.h line 249
-extern const struct anonymous$25 * lt_dlgetinfo(struct lt_dlhandle_struct *);
+extern const struct anonymous_25 * lt_dlgetinfo(struct lt_dlhandle_struct *);
 // lt_dlinit
 // file ltdl.h line 156
 extern signed int lt_dlinit(void);
@@ -1481,7 +1481,7 @@ signed int (*mod_get_rcmd(struct module_components *mod))(char *, char *, char *
 signed int (*mod_get_rcmd_destroy(struct module_components *mod))(void *);
 // mod_get_rcmd_init
 // file mod.c line 599
-signed int (*mod_get_rcmd_init(struct module_components *mod))(struct anonymous$1 *);
+signed int (*mod_get_rcmd_init(struct module_components *mod))(struct anonymous_1 *);
 // mod_get_rcmd_signal
 // file mod.c line 611
 signed int (*mod_get_rcmd_signal(struct module_components *mod))(signed int, void *, signed int);
@@ -1499,10 +1499,10 @@ signed int mod_init(void);
 void mod_list_module_info(void);
 // mod_load_modules
 // file mod.h line 68
-signed int mod_load_modules(const char *dir, struct anonymous$1 *opt);
+signed int mod_load_modules(const char *dir, struct anonymous_1 *opt);
 // mod_postop
 // file mod.c line 238
-signed int mod_postop(struct anonymous$1 *pdsh_opts);
+signed int mod_postop(struct anonymous_1 *pdsh_opts);
 // mod_print_all_options
 // file mod.c line 454
 void mod_print_all_options(signed int col);
@@ -1511,10 +1511,10 @@ void mod_print_all_options(signed int col);
 void mod_print_options(struct module_components *mod, signed int col);
 // mod_process_opt
 // file mod.c line 648
-signed int mod_process_opt(struct anonymous$1 *opt, signed int c, char *optarg);
+signed int mod_process_opt(struct anonymous_1 *opt, signed int c, char *optarg);
 // mod_read_wcoll
 // file mod.c line 206
-signed int mod_read_wcoll(struct anonymous$1 *opt);
+signed int mod_read_wcoll(struct anonymous_1 *opt);
 // node_rcmd_info_create
 // file rcmd.c line 77
 static struct node_rcmd_info * node_rcmd_info_create(char *hostname, char *user, struct rcmd_module *module);
@@ -1529,28 +1529,28 @@ extern signed int open(const char *, signed int, ...);
 extern struct __dirstream * opendir(const char *);
 // opt_args
 // file ../../src/pdsh/opt.h line 101
-void opt_args(struct anonymous$1 *opt, signed int argc, char **argv);
+void opt_args(struct anonymous_1 *opt, signed int argc, char **argv);
 // opt_args_early
 // file ../../src/pdsh/opt.h line 100
-void opt_args_early(struct anonymous$1 *opt, signed int argc, char **argv);
+void opt_args_early(struct anonymous_1 *opt, signed int argc, char **argv);
 // opt_default
 // file ../../src/pdsh/opt.h line 98
-void opt_default(struct anonymous$1 *opt, char *argv0);
+void opt_default(struct anonymous_1 *opt, char *argv0);
 // opt_env
 // file ../../src/pdsh/opt.h line 99
-void opt_env(struct anonymous$1 *opt);
+void opt_env(struct anonymous_1 *opt);
 // opt_free
 // file ../../src/pdsh/opt.h line 104
-void opt_free(struct anonymous$1 *opt);
+void opt_free(struct anonymous_1 *opt);
 // opt_list
 // file ../../src/pdsh/opt.h line 103
-void opt_list(struct anonymous$1 *opt);
+void opt_list(struct anonymous_1 *opt);
 // opt_register
 // file ../../src/pdsh/opt.h line 150
 enum anonymous opt_register(struct pdsh_module_option *opt_table);
 // opt_verify
 // file ../../src/pdsh/opt.h line 102
-enum anonymous opt_verify(struct anonymous$1 *opt);
+enum anonymous opt_verify(struct anonymous_1 *opt);
 // out
 // file ../../src/common/err.h line 36
 void out(char *format, ...);
@@ -1577,7 +1577,7 @@ static signed int pcp_sendstr(signed int outfd, char *str, char *host);
 signed int pcp_server(struct pcp_server *svr);
 // pdsh_personality
 // file ../../src/pdsh/opt.h line 109
-enum anonymous$5 pdsh_personality(void);
+enum anonymous_5 pdsh_personality(void);
 // pdsh_remote_argc
 // file opt.c line 155
 signed int pdsh_remote_argc(void);
@@ -1661,10 +1661,10 @@ extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned lon
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$15 *);
+extern signed int pthread_cond_signal(union anonymous_15 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$15 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_15 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1673,19 +1673,19 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$2 *);
+extern signed int pthread_mutex_destroy(union anonymous_2 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$11 *, struct anonymous$11 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_11 *, struct anonymous_11 *);
 // putenv
 // file /usr/include/stdlib.h line 578
 extern signed int putenv(char *);
@@ -1718,22 +1718,22 @@ struct rcmd_info * rcmd_info_create(struct rcmd_module *rmod);
 void rcmd_info_destroy(struct rcmd_info *r);
 // rcmd_init
 // file ../../src/pdsh/rcmd.h line 94
-signed int rcmd_init(struct anonymous$1 *opt);
+signed int rcmd_init(struct anonymous_1 *opt);
 // rcmd_module_create
 // file rcmd.c line 102
 struct rcmd_module * rcmd_module_create(struct module_components *mod);
-// rcmd_module_create::$tmp::return_value_mod_get_rcmd$7$object
+// rcmd_module_create::_tmp::return_value_mod_get_rcmd_7_object
 //
-signed int return_value_mod_get_rcmd$7$object(char *, char *, char *, char *, char *, signed int, signed int *, void **);
-// rcmd_module_create::$tmp::return_value_mod_get_rcmd_destroy$8$object
+signed int return_value_mod_get_rcmd_7_object(char *, char *, char *, char *, char *, signed int, signed int *, void **);
+// rcmd_module_create::_tmp::return_value_mod_get_rcmd_destroy_8_object
 //
-signed int return_value_mod_get_rcmd_destroy$8$object(void *);
-// rcmd_module_create::$tmp::return_value_mod_get_rcmd_init$3$object
+signed int return_value_mod_get_rcmd_destroy_8_object(void *);
+// rcmd_module_create::_tmp::return_value_mod_get_rcmd_init_3_object
 //
-signed int return_value_mod_get_rcmd_init$3$object(struct anonymous$1 *);
-// rcmd_module_create::$tmp::return_value_mod_get_rcmd_signal$5$object
+signed int return_value_mod_get_rcmd_init_3_object(struct anonymous_1 *);
+// rcmd_module_create::_tmp::return_value_mod_get_rcmd_signal_5_object
 //
-signed int return_value_mod_get_rcmd_signal$5$object(signed int, void *, signed int);
+signed int return_value_mod_get_rcmd_signal_5_object(signed int, void *, signed int);
 // rcmd_module_destroy
 // file rcmd.c line 141
 static void rcmd_module_destroy(struct rcmd_module *rmod);
@@ -1787,7 +1787,7 @@ struct regex_info * regex_info_create(const char *r, signed int exclude);
 void regex_info_destroy(struct regex_info *re);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$0 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_0 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
@@ -1823,16 +1823,16 @@ extern signed int setuid(unsigned int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$11 *, signed int);
+extern signed int sigaddset(struct anonymous_11 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$11 *);
+extern signed int sigemptyset(struct anonymous_11 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$11 *, signed int *);
+extern signed int sigwait(const struct anonymous_11 *, signed int *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1919,19 +1919,19 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 extern signed int waitpid(signed int, signed int *, signed int);
 // wcoll_append_excluded
 // file opt.c line 519
-static void wcoll_append_excluded(struct anonymous$1 *opt, char *exclude_args);
+static void wcoll_append_excluded(struct anonymous_1 *opt, char *exclude_args);
 // wcoll_apply_excluded
 // file opt.c line 1394
-static void wcoll_apply_excluded(struct anonymous$1 *opt, struct list *excludes);
+static void wcoll_apply_excluded(struct anonymous_1 *opt, struct list *excludes);
 // wcoll_apply_regex
 // file opt.c line 1377
-static void wcoll_apply_regex(struct anonymous$1 *opt, struct list *regexs);
+static void wcoll_apply_regex(struct anonymous_1 *opt, struct list *regexs);
 // wcoll_arg_process
 // file opt.c line 1295
-static signed int wcoll_arg_process(char *arg, struct anonymous$1 *opt);
+static signed int wcoll_arg_process(char *arg, struct anonymous_1 *opt);
 // wcoll_args_process
 // file opt.c line 1368
-static signed int wcoll_args_process(struct anonymous$1 *opt, char *args);
+static signed int wcoll_args_process(struct anonymous_1 *opt, char *args);
 // wcoll_ctx_create
 // file wcoll.c line 68
 static struct wcoll_ctx * wcoll_ctx_create(const char *path);
@@ -1958,7 +1958,7 @@ static signed int wcoll_ctx_read_stream(struct wcoll_ctx *ctx, struct _IO_FILE *
 static char * wcoll_ctx_resolve_path(struct wcoll_ctx *ctx, const char *file, char *buf, signed int len);
 // wcoll_expand
 // file opt.c line 765
-static void wcoll_expand(struct anonymous$1 *opt);
+static void wcoll_expand(struct anonymous_1 *opt);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -1990,15 +1990,15 @@ void xstrcpy(char **str1, char *str2);
 // file ../../src/common/xstring.h line 38
 void xstrerrorcat(char **buf);
 
-struct anonymous$7
+struct anonymous_7
 {
   // desc
   char *desc;
   // fun
-  enum anonymous$6 (*fun)(void);
+  enum anonymous_6 (*fun)(void);
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // filename
   char *filename;
@@ -2008,7 +2008,7 @@ struct anonymous$25
   signed int ref_count;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // progname
   char *progname;
@@ -2086,7 +2086,7 @@ struct anonymous$1
   enum anonymous reverse_copy;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // _call_addr
   void *_call_addr;
@@ -2096,7 +2096,7 @@ struct anonymous$22
   unsigned int _arch;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_addr
   void *si_addr;
@@ -2104,13 +2104,13 @@ struct anonymous$20
   signed short int si_addr_lsb;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __lock
   signed int __lock;
@@ -2130,7 +2130,7 @@ struct anonymous$14
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // rm_so
   signed int rm_so;
@@ -2138,7 +2138,7 @@ struct anonymous$0
   signed int rm_eo;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -2146,7 +2146,7 @@ struct anonymous$16
   unsigned int si_uid;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_pid
   signed int si_pid;
@@ -2168,7 +2168,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_pid
   signed int si_pid;
@@ -2178,7 +2178,7 @@ struct anonymous$18
   union sigval si_sigval;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_tid
   signed int si_tid;
@@ -2188,7 +2188,7 @@ struct anonymous$17
   union sigval si_sigval;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_band
   signed long int si_band;
@@ -2196,27 +2196,27 @@ struct anonymous$21
   signed int si_fd;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$16 _kill;
+  struct anonymous_16 _kill;
   // _timer
-  struct anonymous$17 _timer;
+  struct anonymous_17 _timer;
   // _rt
-  struct anonymous$18 _rt;
+  struct anonymous_18 _rt;
   // _sigchld
-  struct anonymous$19 _sigchld;
+  struct anonymous_19 _sigchld;
   // _sigfault
-  struct anonymous$20 _sigfault;
+  struct anonymous_20 _sigfault;
   // _sigpoll
-  struct anonymous$21 _sigpoll;
+  struct anonymous_21 _sigpoll;
   // _sigsys
-  struct anonymous$22 _sigsys;
+  struct anonymous_22 _sigsys;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_signo
   signed int si_signo;
@@ -2225,18 +2225,18 @@ struct anonymous$13
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$23 _sifields;
+  union anonymous_23 _sifields;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$13 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_13 *, void *);
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -2244,10 +2244,10 @@ union anonymous$3
   signed int __align;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __data
-  struct anonymous$14 __data;
+  struct anonymous_14 __data;
   // __size
   char __size[48l];
   // __align
@@ -2282,7 +2282,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2385,7 +2385,7 @@ struct _range
 struct cbuf
 {
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
   // alloc
   signed int alloc;
   // minsize
@@ -2397,7 +2397,7 @@ struct cbuf
   // used
   signed int used;
   // overwrite
-  enum anonymous$9 overwrite;
+  enum anonymous_9 overwrite;
   // got_wrap
   signed int got_wrap;
   // i_in
@@ -2467,7 +2467,7 @@ struct hostent
 struct hostlist
 {
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
   // size
   signed int size;
   // nranges
@@ -2547,7 +2547,7 @@ struct list
   // count
   signed int count;
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
 };
 
 struct listIterator
@@ -2695,9 +2695,9 @@ struct pdsh_module_operations
   // exit
   signed int (*exit)(void);
   // read_wcoll
-  struct hostlist * (*read_wcoll)(struct anonymous$1 *);
+  struct hostlist * (*read_wcoll)(struct anonymous_1 *);
   // postop
-  signed int (*postop)(struct anonymous$1 *);
+  signed int (*postop)(struct anonymous_1 *);
 };
 
 struct pdsh_module_option
@@ -2711,13 +2711,13 @@ struct pdsh_module_option
   // personality
   signed int personality;
   // f
-  signed int (*f)(struct anonymous$1 *, signed int, char *);
+  signed int (*f)(struct anonymous_1 *, signed int, char *);
 };
 
 struct pdsh_rcmd_operations
 {
   // rcmd_init
-  signed int (*rcmd_init)(struct anonymous$1 *);
+  signed int (*rcmd_init)(struct anonymous_1 *);
   // rcmd_signal
   signed int (*rcmd_signal)(signed int, void *, signed int);
   // rcmd
@@ -2807,7 +2807,7 @@ struct rcmd_module
   // options
   struct rcmd_options options;
   // init
-  signed int (*init)(struct anonymous$1 *);
+  signed int (*init)(struct anonymous_1 *);
   // signal
   signed int (*signal)(signed int, void *, signed int);
   // rcmd
@@ -2875,9 +2875,9 @@ struct rlimit
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$12 __sigaction_handler;
+  union anonymous_12 __sigaction_handler;
   // sa_mask
-  struct anonymous$11 sa_mask;
+  struct anonymous_11 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2933,7 +2933,7 @@ struct thd
   // attr
   union pthread_attr_t attr;
   // state
-  enum anonymous$8 state;
+  enum anonymous_8 state;
   // host
   char *host;
   // luser
@@ -3066,7 +3066,7 @@ static struct listIterator *list_free_iterators = (struct listIterator *)(void *
 static struct list *list_free_lists = (struct list *)(void *)0;
 // list_free_lock
 // file list.c line 149
-static union anonymous$2 list_free_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_2 list_free_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // list_free_nodes
@@ -3095,7 +3095,7 @@ static char *pdsh_options = (char *)(void *)0;
 char *pdsh_version = "pdsh-2.31";
 // personality
 // file opt.c line 134
-static enum anonymous$5 personality = (enum anonymous$5)DSH;
+static enum anonymous_5 personality = (enum anonymous_5)DSH;
 // pidlist
 // file xpopen.c line 65
 static struct pid *pidlist;
@@ -3107,7 +3107,7 @@ unsigned int priv_gid = (unsigned int)-1;
 unsigned int priv_uid = (unsigned int)-1;
 // privsep_mutex
 // file privsep.c line 51
-static union anonymous$2 privsep_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_2 privsep_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // prog
@@ -3121,7 +3121,7 @@ static struct list *rcmd_module_list = (struct list *)(void *)0;
 static char *rcmd_rank[9l] = { "mrsh", "rsh", "ssh", "krb4", "qsh", "mqsh", "exec", "xcpu", (char *)(void *)0 };
 // rcsid
 // file pcp_server.c line 65
-char rcsid[5l] = { '$', 'I', 'd', '$', 0 };
+char rcsid[5l] = { '_', 'I', 'd', '_', 0 };
 // regex_list
 // file opt.c line 164
 static struct list *regex_list = (struct list *)(void *)0;
@@ -3151,14 +3151,14 @@ extern struct _IO_FILE *stdout;
 static struct thd *t;
 // testcases
 // file testcase.c line 60
-static struct anonymous$7 testcases[2l];
+static struct anonymous_7 testcases[2l];
 // testcases
 // file testcase.c line 60
-static struct anonymous$7 testcases[2l] = { { .desc="xstrerrorcat", .fun=_test_xstrerrorcat },
+static struct anonymous_7 testcases[2l] = { { .desc="xstrerrorcat", .fun=_test_xstrerrorcat },
     { .desc="pipecmd", .fun=_test_pipecmd } };
 // thd_mutex
 // file dsh.c line 139
-static union anonymous$2 thd_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_2 thd_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // threadcount
@@ -3166,13 +3166,13 @@ static union anonymous$2 thd_mutex = { .__data={ .__lock=0, .__count=(unsigned i
 static signed int threadcount = 0;
 // threadcount_cond
 // file dsh.c line 129
-static union anonymous$15 threadcount_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_15 threadcount_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // threadcount_mutex
 // file dsh.c line 128
-static union anonymous$2 threadcount_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_2 threadcount_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // user_gid
@@ -3202,9 +3202,9 @@ void * Malloc(unsigned long int size)
 {
   void *new;
   signed int *p;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size + (unsigned long int)2 * sizeof(signed int) /*4ul*/ );
-  p = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size + (unsigned long int)2 * sizeof(signed int) /*4ul*/ );
+  p = (signed int *)return_value_malloc_1;
   if(p == ((signed int *)NULL))
   {
     fprintf(stderr, "Malloc(%ld) failed\n", (signed long int)size);
@@ -3223,9 +3223,9 @@ void * Malloc(unsigned long int size)
 void Realloc(void **item, unsigned long int newsize)
 {
   signed int *p = (signed int *)*item - (signed long int)2;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)p, newsize + (unsigned long int)2 * sizeof(signed int) /*4ul*/ );
-  p = (signed int *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)p, newsize + (unsigned long int)2 * sizeof(signed int) /*4ul*/ );
+  p = (signed int *)return_value_realloc_1;
   if(p == ((signed int *)NULL))
   {
     fprintf(stderr, "Realloc(%ld) failed\n", (signed long int)newsize);
@@ -3249,20 +3249,20 @@ signed int Size(void *item)
 char * Strdup(const char *str)
 {
   char *result;
-  unsigned long int return_value_strlen$1;
-  void *return_value_Malloc$2;
+  unsigned long int return_value_strlen_1;
+  void *return_value_Malloc_2;
   if(str == ((const char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    return_value_strlen$1=strlen(str);
-    return_value_Malloc$2=Malloc(return_value_strlen$1 + (unsigned long int)1);
-    result = (char *)return_value_Malloc$2;
+    return_value_strlen_1=strlen(str);
+    return_value_Malloc_2=Malloc(return_value_strlen_1 + (unsigned long int)1);
+    result = (char *)return_value_Malloc_2;
   }
-  char *return_value_strcpy$3;
-  return_value_strcpy$3=strcpy(result, str);
-  return return_value_strcpy$3;
+  char *return_value_strcpy_3;
+  return_value_strcpy_3=strcpy(result, str);
+  return return_value_strcpy_3;
 }
 
 // _alarm_handler
@@ -3278,9 +3278,9 @@ static struct _buf * _allocbuf(struct pcp_server *s, struct _buf *bp, signed int
 {
   struct stat stb;
   signed int size;
-  signed int return_value_fstat$1;
-  return_value_fstat$1=fstat(fd, &stb);
-  if(!(return_value_fstat$1 >= 0))
+  signed int return_value_fstat_1;
+  return_value_fstat_1=fstat(fd, &stb);
+  if(!(return_value_fstat_1 >= 0))
   {
     _error(s, "fstat: %m\n");
     return (struct _buf *)(void *)0;
@@ -3297,9 +3297,9 @@ static struct _buf * _allocbuf(struct pcp_server *s, struct _buf *bp, signed int
       if(!(bp->buf == ((char *)NULL)))
         free((void *)bp->buf);
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)size);
-      bp->buf = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)size);
+      bp->buf = (char *)return_value_malloc_2;
       if(bp->buf == ((char *)NULL))
       {
         _error(s, "malloc: out of memory\n");
@@ -3335,7 +3335,7 @@ static signed int _cancel_pending_threads(void)
 {
   signed int n = 0;
   signed int i;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(t == ((struct thd *)NULL))
     return 0;
 
@@ -3343,10 +3343,10 @@ static signed int _cancel_pending_threads(void)
   {
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1=pthread_mutex_lock(&threadcount_mutex);
-      if(!(*return_value___errno_location$1 == 0))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1=pthread_mutex_lock(&threadcount_mutex);
+      if(!(*return_value___errno_location_1 == 0))
         errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 897);
 
     }
@@ -3355,13 +3355,13 @@ static signed int _cancel_pending_threads(void)
     for( ; !((t + (signed long int)i)->host == ((char *)NULL)); i = i + 1)
     {
       if((signed int)(t + (signed long int)i)->state == DSH_NEW)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)(t + (signed long int)i)->state == DSH_RCMD ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)(t + (signed long int)i)->state == DSH_RCMD ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        (t + (signed long int)i)->state = (enum anonymous$8)DSH_CANCELED;
+        (t + (signed long int)i)->state = (enum anonymous_8)DSH_CANCELED;
         n = n + 1;
       }
 
@@ -3369,10 +3369,10 @@ static signed int _cancel_pending_threads(void)
     err("%p: Canceled %d pending threads.\n", n);
     do
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3=pthread_mutex_unlock(&threadcount_mutex);
-      if(!(*return_value___errno_location$3 == 0))
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3=pthread_mutex_unlock(&threadcount_mutex);
+      if(!(*return_value___errno_location_3 == 0))
         errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 905);
 
     }
@@ -3395,9 +3395,9 @@ char * _check_path(char *dir, char *cwd, char *argv0)
   xstrcat(&abspath, dir);
   xstrcat(&abspath, "/");
   xstrcat(&abspath, argv0);
-  signed int return_value_access$1;
-  return_value_access$1=access(abspath, 4);
-  if(return_value_access$1 == 0)
+  signed int return_value_access_1;
+  return_value_access_1=access(abspath, 4);
+  if(return_value_access_1 == 0)
     return abspath;
 
   else
@@ -3413,20 +3413,20 @@ signed int _cmp(const void *hr1, const void *hr2)
 {
   struct hostrange_components **h1 = (struct hostrange_components **)hr1;
   struct hostrange_components **h2 = (struct hostrange_components **)hr2;
-  signed int return_value_hostrange_cmp$1;
-  return_value_hostrange_cmp$1=hostrange_cmp((struct hostrange_components *)*h1, (struct hostrange_components *)*h2);
-  return return_value_hostrange_cmp$1;
+  signed int return_value_hostrange_cmp_1;
+  return_value_hostrange_cmp_1=hostrange_cmp((struct hostrange_components *)*h1, (struct hostrange_components *)*h2);
+  return return_value_hostrange_cmp_1;
 }
 
 // _cmp_f
 // file mod.c line 320
 static signed int _cmp_f(struct module_components *x, struct module_components *y)
 {
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(x->priority == y->priority)
   {
-    return_value_strcmp$1=strcmp(x->pmod->name, y->pmod->name);
-    return return_value_strcmp$1;
+    return_value_strcmp_1=strcmp(x->pmod->name, y->pmod->name);
+    return return_value_strcmp_1;
   }
 
   else
@@ -3437,18 +3437,18 @@ static signed int _cmp_f(struct module_components *x, struct module_components *
 // file mod.c line 945
 static signed int _cmp_filenames(struct module_components *mod, char *filename)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(mod->filename, filename);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(mod->filename, filename);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // _cmp_type
 // file mod.c line 461
 static signed int _cmp_type(struct module_components *mod, char *type)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(mod->pmod->type, type);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(mod->pmod->type, type);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // _die_if_signalled
@@ -3472,15 +3472,15 @@ static signed int _die_if_signalled(struct thd *t)
 // file mod.c line 987
 static enum permission_error _dir_permission_error(struct stat *st, unsigned int alt_uid)
 {
-  unsigned int return_value_getuid$1;
+  unsigned int return_value_getuid_1;
   if(!((61440u & st->st_mode) == 16384u))
     return (enum permission_error)DIR_NOT_DIRECTORY;
 
   else
     if(!(st->st_uid == 0u))
     {
-      return_value_getuid$1=getuid();
-      if(st->st_uid == return_value_getuid$1)
+      return_value_getuid_1=getuid();
+      if(st->st_uid == return_value_getuid_1)
         goto __CPROVER_DUMP_L2;
 
       if(st->st_uid == alt_uid)
@@ -3523,9 +3523,9 @@ static signed int _do_output(signed int fd, struct cbuf *cb, void (*outf)(const 
   rc=cbuf_write_from_fd(cb, fd, -1, &dropped);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
       return 1;
 
     err("%p: %S: read: %m\n", t->host);
@@ -3545,9 +3545,9 @@ static signed int _do_output(signed int fd, struct cbuf *cb, void (*outf)(const 
       break;
     }
 
-    void *return_value_Malloc$2;
-    return_value_Malloc$2=Malloc((unsigned long int)(n + 1));
-    buf = (char *)return_value_Malloc$2;
+    void *return_value_Malloc_2;
+    return_value_Malloc_2=Malloc((unsigned long int)(n + 1));
+    buf = (char *)return_value_Malloc_2;
     n=cbuf_read(cb, (void *)buf, n);
     if(!(n == 0))
     {
@@ -3560,9 +3560,9 @@ static signed int _do_output(signed int fd, struct cbuf *cb, void (*outf)(const 
       if(!(read_rc == /*enum*/false))
         t->rc=_extract_rc(buf);
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(buf);
-      if(return_value_strlen$3 >= 1ul)
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(buf);
+      if(return_value_strlen_3 >= 1ul)
       {
         if(!(t->labels == /*enum*/false))
           outf("%S: %s", t->host, buf);
@@ -3585,37 +3585,37 @@ static signed int _do_output(signed int fd, struct cbuf *cb, void (*outf)(const 
 static signed int _dsh_attr_init(union pthread_attr_t *attrp, signed int stacksize)
 {
   signed int rc;
-  signed long int return_value_sysconf$2;
-  return_value_sysconf$2=sysconf(75);
-  signed long int return_value_sysconf$1;
-  if(!((unsigned long int)stacksize >= (unsigned long int)return_value_sysconf$2))
+  signed long int return_value_sysconf_2;
+  return_value_sysconf_2=sysconf(75);
+  signed long int return_value_sysconf_1;
+  if(!((unsigned long int)stacksize >= (unsigned long int)return_value_sysconf_2))
   {
-    return_value_sysconf$1=sysconf(75);
-    stacksize = (signed int)(unsigned long int)return_value_sysconf$1;
+    return_value_sysconf_1=sysconf(75);
+    stacksize = (signed int)(unsigned long int)return_value_sysconf_1;
   }
 
   rc=pthread_attr_init(attrp);
-  char *return_value_strerror$3;
+  char *return_value_strerror_3;
   if(!(rc == 0))
   {
-    return_value_strerror$3=strerror(rc);
-    errx("pthread_attr_init: %s\n", return_value_strerror$3);
+    return_value_strerror_3=strerror(rc);
+    errx("pthread_attr_init: %s\n", return_value_strerror_3);
   }
 
   rc=pthread_attr_setdetachstate(attrp, 1);
-  char *return_value_strerror$4;
+  char *return_value_strerror_4;
   if(!(rc == 0))
   {
-    return_value_strerror$4=strerror(rc);
-    errx("pthread_attr_setdetachstate: %s\n", return_value_strerror$4);
+    return_value_strerror_4=strerror(rc);
+    errx("pthread_attr_setdetachstate: %s\n", return_value_strerror_4);
   }
 
   rc=pthread_attr_setstacksize(attrp, (unsigned long int)stacksize);
-  char *return_value_strerror$5;
+  char *return_value_strerror_5;
   if(!(rc == 0))
   {
-    return_value_strerror$5=strerror(rc);
-    errx("pthread_attr_setstacksize: %s\n", return_value_strerror$5);
+    return_value_strerror_5=strerror(rc);
+    errx("pthread_attr_setstacksize: %s\n", return_value_strerror_5);
   }
 
   return 0;
@@ -3634,10 +3634,10 @@ static void _dump_debug_stats(signed int rshcount)
   signed int failed = 0;
   signed int canceled = 0;
   signed int n = 0;
-  signed long int tmp_if_expr$1;
-  signed long int tmp_if_expr$2;
-  signed long int tmp_if_expr$3;
-  signed long int tmp_if_expr$4;
+  signed long int tmp_if_expr_1;
+  signed long int tmp_if_expr_2;
+  signed long int tmp_if_expr_3;
+  signed long int tmp_if_expr_4;
   for( ; !(n >= rshcount); n = n + 1)
     if((signed int)(t + (signed long int)n)->state == DSH_FAILED)
       failed = failed + 1;
@@ -3651,29 +3651,29 @@ static void _dump_debug_stats(signed int rshcount)
         conTot = conTot + ((t + (signed long int)n)->connect - (t + (signed long int)n)->start);
         cmdTot = cmdTot + ((t + (signed long int)n)->finish - (t + (signed long int)n)->connect);
         if(!(conMin >= (t + (signed long int)n)->connect + -(t + (signed long int)n)->start))
-          tmp_if_expr$1 = conMin;
+          tmp_if_expr_1 = conMin;
 
         else
-          tmp_if_expr$1 = (t + (signed long int)n)->connect - (t + (signed long int)n)->start;
-        conMin = tmp_if_expr$1;
+          tmp_if_expr_1 = (t + (signed long int)n)->connect - (t + (signed long int)n)->start;
+        conMin = tmp_if_expr_1;
         if(!((t + (signed long int)n)->connect + -(t + (signed long int)n)->start >= conMax))
-          tmp_if_expr$2 = conMax;
+          tmp_if_expr_2 = conMax;
 
         else
-          tmp_if_expr$2 = (t + (signed long int)n)->connect - (t + (signed long int)n)->start;
-        conMax = tmp_if_expr$2;
+          tmp_if_expr_2 = (t + (signed long int)n)->connect - (t + (signed long int)n)->start;
+        conMax = tmp_if_expr_2;
         if(!(cmdMin >= (t + (signed long int)n)->finish + -(t + (signed long int)n)->connect))
-          tmp_if_expr$3 = cmdMin;
+          tmp_if_expr_3 = cmdMin;
 
         else
-          tmp_if_expr$3 = (t + (signed long int)n)->finish - (t + (signed long int)n)->connect;
-        cmdMin = tmp_if_expr$3;
+          tmp_if_expr_3 = (t + (signed long int)n)->finish - (t + (signed long int)n)->connect;
+        cmdMin = tmp_if_expr_3;
         if(!((t + (signed long int)n)->finish + -(t + (signed long int)n)->connect >= cmdMax))
-          tmp_if_expr$4 = cmdMax;
+          tmp_if_expr_4 = cmdMax;
 
         else
-          tmp_if_expr$4 = (t + (signed long int)n)->finish - (t + (signed long int)n)->connect;
-        cmdMax = tmp_if_expr$4;
+          tmp_if_expr_4 = (t + (signed long int)n)->finish - (t + (signed long int)n)->connect;
+        cmdMax = tmp_if_expr_4;
       }
   if(!(failed >= rshcount))
   {
@@ -3699,18 +3699,18 @@ static void _error(struct pcp_server *s, const char *fmt, ...)
   char newfmt[1000l];
   void **ap;
   signed int save_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  save_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  save_errno = *return_value___errno_location_1;
   static struct _IO_FILE *fp = (struct _IO_FILE *)(void *)0;
   fp=fdopen(s->outfd, "w");
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
     ap = (void **)&fmt;
     snprintf(newfmt, (unsigned long int)1000, "%c%s", 0x01, fmt);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = save_errno;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = save_errno;
     errf(fp, newfmt, ap);
     ap = ((void **)NULL);
     fflush(fp);
@@ -3718,20 +3718,20 @@ static void _error(struct pcp_server *s, const char *fmt, ...)
 
 }
 
-// _error$link1
+// _error_link1
 // file hostlist.c line 336
-static void _error$link1(char *file, signed int line, char *msg, ...)
+static void _error_link1(char *file, signed int line, char *msg, ...)
 {
-  void **ap$link1;
+  void **ap_link1;
   char buf[1024l];
   signed int len = 0;
-  ap$link1 = (void **)&msg;
-  len=vsnprintf(buf, (unsigned long int)1024, msg, ap$link1);
+  ap_link1 = (void **)&msg;
+  len=vsnprintf(buf, (unsigned long int)1024, msg, ap_link1);
   if(len >= 1025 || !(len >= 0))
     buf[(signed long int)1023] = (char)0;
 
   lsd_fatal_error(file, line, buf);
-  ap$link1 = ((void **)NULL);
+  ap_link1 = ((void **)NULL);
   goto __CPROVER_DUMP_L2;
 
 __CPROVER_DUMP_L2:
@@ -3745,26 +3745,26 @@ static signed int _extract_rc(char *buf)
   signed int ret = 0;
   char *p;
   p=strstr(buf, "XXRETCODE:");
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(p == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buf);
-    if((signed int)buf[-1l + (signed long int)return_value_strlen$2] == 10)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buf);
+    if((signed int)buf[-1l + (signed long int)return_value_strlen_2] == 10)
     {
       if(!(p == buf))
       {
-        tmp_post$1 = p;
+        tmp_post_1 = p;
         p = p + 1l;
-        *tmp_post$1 = (char)10;
+        *tmp_post_1 = (char)10;
       }
 
     }
 
     *p = (char)0;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen("XXRETCODE:");
-    p = p + (signed long int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen("XXRETCODE:");
+    p = p + (signed long int)return_value_strlen_3;
     ret=atoi(p);
   }
 
@@ -3780,9 +3780,9 @@ static signed int _fd_get_lock(signed int fd, signed int cmd, signed int type)
   lock.l_start = (signed long int)0;
   lock.l_whence = (signed short int)0;
   lock.l_len = (signed long int)0;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, cmd, &lock);
-  return return_value_fcntl$1;
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, cmd, &lock);
+  return return_value_fcntl_1;
 }
 
 // _fd_test_lock
@@ -3794,9 +3794,9 @@ static signed int _fd_test_lock(signed int fd, signed int type)
   lock.l_start = (signed long int)0;
   lock.l_whence = (signed short int)0;
   lock.l_len = (signed long int)0;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, 5, &lock);
-  if(!(return_value_fcntl$1 >= 0))
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, 5, &lock);
+  if(!(return_value_fcntl_1 >= 0))
     return -1;
 
   else
@@ -3813,27 +3813,27 @@ char * _find_path(char *argv0)
 {
   char *abspath = (char *)(void *)0;
   char cwd[4096l];
-  char *return_value_getcwd$1;
-  _Bool tmp_if_expr$6;
-  char *return_value_strchr$5;
+  char *return_value_getcwd_1;
+  _Bool tmp_if_expr_6;
+  char *return_value_strchr_5;
   if((signed int)*argv0 == 47)
     abspath=Strdup(argv0);
 
   else
   {
-    return_value_getcwd$1=getcwd(cwd, (unsigned long int)4096);
-    if(return_value_getcwd$1 == ((char *)NULL))
+    return_value_getcwd_1=getcwd(cwd, (unsigned long int)4096);
+    if(return_value_getcwd_1 == ((char *)NULL))
       errx("%p: getcwd failed: %m\n");
 
     if((signed int)*argv0 == 46)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strchr$5=strchr(argv0, 47);
-      tmp_if_expr$6 = return_value_strchr$5 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_strchr_5=strchr(argv0, 47);
+      tmp_if_expr_6 = return_value_strchr_5 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       abspath=Strdup(cwd);
       xstrcat(&abspath, "/");
@@ -3845,9 +3845,9 @@ char * _find_path(char *argv0)
       char *path;
       char *dir;
       char *p;
-      char *return_value_getenv$2;
-      return_value_getenv$2=getenv("PATH");
-      path=Strdup(return_value_getenv$2);
+      char *return_value_getenv_2;
+      return_value_getenv_2=getenv("PATH");
+      path=Strdup(return_value_getenv_2);
       if(path == ((char *)NULL))
         errx("%p: getenv PATH failed\n");
 
@@ -3859,9 +3859,9 @@ char * _find_path(char *argv0)
           break;
 
         *p = (char)0;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(dir);
-        if(return_value_strlen$3 >= 1ul)
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(dir);
+        if(return_value_strlen_3 >= 1ul)
         {
           abspath=_check_path(dir, cwd, argv0);
           if(!(abspath == ((char *)NULL)))
@@ -3876,9 +3876,9 @@ char * _find_path(char *argv0)
         dir = p;
       }
       while((_Bool)1);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(dir);
-      if(return_value_strlen$4 >= 1ul)
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(dir);
+      if(return_value_strlen_4 >= 1ul)
         abspath=_check_path(dir, cwd, argv0);
 
       Free((void **)&path);
@@ -3895,9 +3895,9 @@ done:
 static void _flush_output(struct cbuf *cb, void (*outf)(const char *, ...), struct thd *t)
 {
   char buf[8192l];
-  signed int return_value_cbuf_read$1;
-  return_value_cbuf_read$1=cbuf_read(cb, (void *)buf, 8192);
-  if(return_value_cbuf_read$1 >= 1)
+  signed int return_value_cbuf_read_1;
+  return_value_cbuf_read_1=cbuf_read(cb, (void *)buf, 8192);
+  if(return_value_cbuf_read_1 >= 1)
   {
     if(!(t->labels == /*enum*/false))
       outf("%S: %s\n", t->host, (const void *)buf);
@@ -3919,10 +3919,10 @@ static void _fwd_signal(signed int signum)
   signed int i;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&thd_mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&thd_mutex);
+    if(!(*return_value___errno_location_1 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 264);
 
   }
@@ -3934,10 +3934,10 @@ static void _fwd_signal(signed int signum)
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&thd_mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&thd_mutex);
+    if(!(*return_value___errno_location_2 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 269);
 
   }
@@ -3955,10 +3955,10 @@ static signed int _get_bracketed_list(struct hostlist *hl, signed int *start, co
   signed int bracket_needed;
   bracket_needed=_is_bracket_needed(hl, i);
   len=snprintf(buf, n, "%s", hr[(signed long int)i]->prefix);
-  signed int tmp_post$1;
-  signed int tmp_post$5;
-  _Bool tmp_if_expr$3;
-  signed int return_value_hostrange_within_range$2;
+  signed int tmp_post_1;
+  signed int tmp_post_5;
+  _Bool tmp_if_expr_3;
+  signed int return_value_hostrange_within_range_2;
   if(!(len >= 0) || !(n >= (unsigned long int)len))
     return (signed int)n;
 
@@ -3966,38 +3966,38 @@ static signed int _get_bracketed_list(struct hostlist *hl, signed int *start, co
   {
     if(len >= 0 && !(bracket_needed == 0) && !((unsigned long int)len >= n))
     {
-      tmp_post$1 = len;
+      tmp_post_1 = len;
       len = len + 1;
-      buf[(signed long int)tmp_post$1] = (char)91;
+      buf[(signed long int)tmp_post_1] = (char)91;
     }
 
     do
     {
       m = (signed int)(n - (unsigned long int)len <= n ? n - (unsigned long int)len : (unsigned long int)0);
-      unsigned long int return_value_hostrange_numstr$4;
-      return_value_hostrange_numstr$4=hostrange_numstr(hr[(signed long int)i], (unsigned long int)m, buf + (signed long int)len);
-      len = len + (signed int)return_value_hostrange_numstr$4;
+      unsigned long int return_value_hostrange_numstr_4;
+      return_value_hostrange_numstr_4=hostrange_numstr(hr[(signed long int)i], (unsigned long int)m, buf + (signed long int)len);
+      len = len + (signed int)return_value_hostrange_numstr_4;
       if((unsigned long int)len >= n)
         break;
 
       if(!(bracket_needed == 0))
       {
-        tmp_post$5 = len;
+        tmp_post_5 = len;
         len = len + 1;
-        buf[(signed long int)tmp_post$5] = (char)44;
+        buf[(signed long int)tmp_post_5] = (char)44;
       }
 
       i = i + 1;
       if(!(i >= hl->nranges))
       {
-        return_value_hostrange_within_range$2=hostrange_within_range(hr[(signed long int)i], hr[(signed long int)(i - 1)]);
-        tmp_if_expr$3 = return_value_hostrange_within_range$2 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_hostrange_within_range_2=hostrange_within_range(hr[(signed long int)i], hr[(signed long int)(i - 1)]);
+        tmp_if_expr_3 = return_value_hostrange_within_range_2 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
     }
-    while(tmp_if_expr$3);
+    while(tmp_if_expr_3);
     if(len >= 1 && !(bracket_needed == 0) && !((unsigned long int)len >= n))
     {
       buf[(signed long int)(len - 1)] = (char)93;
@@ -4025,14 +4025,14 @@ static char * _get_dir_name(const char *path, char *buf, unsigned long int len)
 {
   signed int pathlen = 256;
   char *orig_path;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc((unsigned long int)pathlen * sizeof(char) /*1ul*/ );
-  orig_path = (char *)return_value_Malloc$1;
-  char *return_value_getcwd$2;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc((unsigned long int)pathlen * sizeof(char) /*1ul*/ );
+  orig_path = (char *)return_value_Malloc_1;
+  char *return_value_getcwd_2;
   do
   {
-    return_value_getcwd$2=getcwd(orig_path, (unsigned long int)pathlen);
-    if(!(return_value_getcwd$2 == ((char *)NULL)))
+    return_value_getcwd_2=getcwd(orig_path, (unsigned long int)pathlen);
+    if(!(return_value_getcwd_2 == ((char *)NULL)))
       break;
 
     if(pathlen >= 2)
@@ -4042,19 +4042,19 @@ static char * _get_dir_name(const char *path, char *buf, unsigned long int len)
     Realloc((void **)&orig_path, (unsigned long int)pathlen);
   }
   while((_Bool)1);
-  signed int return_value_chdir$3;
-  return_value_chdir$3=chdir(path);
-  if(!(return_value_chdir$3 >= 0))
+  signed int return_value_chdir_3;
+  return_value_chdir_3=chdir(path);
+  if(!(return_value_chdir_3 >= 0))
     errx("Unable to chdir() to %s: %m", path);
 
-  char *return_value_getcwd$4;
-  return_value_getcwd$4=getcwd(buf, len);
-  if(return_value_getcwd$4 == ((char *)NULL))
+  char *return_value_getcwd_4;
+  return_value_getcwd_4=getcwd(buf, len);
+  if(return_value_getcwd_4 == ((char *)NULL))
     errx("Unable to get working directory for module path: %s\n", path);
 
-  signed int return_value_chdir$5;
-  return_value_chdir$5=chdir(orig_path);
-  if(!(return_value_chdir$5 >= 0))
+  signed int return_value_chdir_5;
+  return_value_chdir_5=chdir(orig_path);
+  if(!(return_value_chdir_5 >= 0))
     err("Unable to return to original working directory: %s: %m\n", orig_path);
 
   Free((void **)&orig_path);
@@ -4068,9 +4068,9 @@ static char * _getcmd(char *prompt)
   char *cmd = (char *)(void *)0;
   char buf[2048l];
   out("%s> ", prompt);
-  char *return_value_fgets$1;
-  return_value_fgets$1=fgets(buf, 2048, stdin);
-  if(!(return_value_fgets$1 == ((char *)NULL)))
+  char *return_value_fgets_1;
+  return_value_fgets_1=fgets(buf, 2048, stdin);
+  if(!(return_value_fgets_1 == ((char *)NULL)))
   {
     buf[(signed long int)(2048 - 1)] = (char)0;
     xstrcln(buf, (char *)(void *)0);
@@ -4126,7 +4126,7 @@ static signed int _handle_rcmd_stdout(struct thd *th)
 // file dsh.c line 915
 static void _handle_sigint(signed long int *last_intrp)
 {
-  signed long int return_value_time$1;
+  signed long int return_value_time_1;
   if(!(t == ((struct thd *)NULL)))
   {
     if(!(sigint_terminates == 0))
@@ -4137,8 +4137,8 @@ static void _handle_sigint(signed long int *last_intrp)
 
     else
     {
-      return_value_time$1=time((signed long int *)(void *)0);
-      if(return_value_time$1 + -(*last_intrp) >= 2l)
+      return_value_time_1=time((signed long int *)(void *)0);
+      if(return_value_time_1 + -(*last_intrp) >= 2l)
       {
         err("%p: interrupt (one more within %d sec to abort)\n", 1);
         err("%p:  (^Z within %d sec to cancel pending threads)\n", 1);
@@ -4162,9 +4162,9 @@ static void _handle_sigtstp(signed long int last_intr)
 {
   if(!(t == ((struct thd *)NULL)))
   {
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    if(return_value_time$1 + -last_intr >= 2l)
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    if(return_value_time_1 + -last_intr >= 2l)
       raise(19);
 
     else
@@ -4177,9 +4177,9 @@ static void _handle_sigtstp(signed long int last_intr)
 // file hostlist.c line 1380
 static struct hostlist * _hostlist_create(const char *hostlist, char *sep, char *r_op)
 {
-  struct hostlist *return_value__hostlist_create_bracketed$1;
-  return_value__hostlist_create_bracketed$1=_hostlist_create_bracketed(hostlist, sep, r_op);
-  return return_value__hostlist_create_bracketed$1;
+  struct hostlist *return_value__hostlist_create_bracketed_1;
+  return_value__hostlist_create_bracketed_1=_hostlist_create_bracketed(hostlist, sep, r_op);
+  return return_value__hostlist_create_bracketed_1;
 }
 
 // _hostlist_create_bracketed
@@ -4190,13 +4190,13 @@ static struct hostlist * _hostlist_create_bracketed(const char *hostlist, char *
   new=hostlist_new();
   struct _range ranges[10240l];
   signed int nr;
-  signed int _hostlist_create_bracketed$$1$$err;
+  signed int _hostlist_create_bracketed__1__err;
   char *p;
   char *tok;
   char *str;
   char *orig;
   char cur_tok[1024l];
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(hostlist == ((const char *)NULL))
     return new;
 
@@ -4224,9 +4224,9 @@ static struct hostlist * _hostlist_create_bracketed(const char *hostlist, char *
         {
           char *q;
           char *prefix = tok;
-          tmp_post$1 = p;
+          tmp_post_1 = p;
           p = p + 1l;
-          *tmp_post$1 = (char)0;
+          *tmp_post_1 = (char)0;
           q=strchr(p, 93);
           if(!(q == ((char *)NULL)))
           {
@@ -4256,14 +4256,14 @@ static struct hostlist * _hostlist_create_bracketed(const char *hostlist, char *
 
     error:
       ;
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      _hostlist_create_bracketed$$1$$err = *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      _hostlist_create_bracketed__1__err = *return_value___errno_location_2;
       hostlist_destroy(new);
       free((void *)orig);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = _hostlist_create_bracketed$$1$$err;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = _hostlist_create_bracketed__1__err;
       return (struct hostlist *)(void *)0;
     }
   }
@@ -4279,20 +4279,20 @@ static char * _hostrange_string(struct hostrange_components *hr, signed int dept
   if(hr->singlehost == 0u)
     snprintf(buf + (signed long int)len, (unsigned long int)((64 + 15) - len), "%0*lu", hr->width, hr->lo + (unsigned long int)depth);
 
-  char *return_value_strdup$1;
-  return_value_strdup$1=strdup(buf);
-  return return_value_strdup$1;
+  char *return_value_strdup_1;
+  return_value_strdup_1=strdup(buf);
+  return return_value_strdup_1;
 }
 
 // _increase_nofile_limit
 // file dsh.c line 826
-static void _increase_nofile_limit(struct anonymous$1 *opt)
+static void _increase_nofile_limit(struct anonymous_1 *opt)
 {
   struct rlimit rlim[1l];
   signed int nfds = 2 * opt->fanout + 32;
-  signed int return_value_getrlimit$1;
-  return_value_getrlimit$1=getrlimit(7, rlim);
-  if(!(return_value_getrlimit$1 >= 0))
+  signed int return_value_getrlimit_1;
+  return_value_getrlimit_1=getrlimit(7, rlim);
+  if(!(return_value_getrlimit_1 >= 0))
     err("getrlimit: %m\n");
 
   else
@@ -4302,9 +4302,9 @@ static void _increase_nofile_limit(struct anonymous$1 *opt)
       if((unsigned long int)nfds >= rlim[0l].rlim_cur)
       {
         rlim[0l].rlim_cur = rlim[0l].rlim_max;
-        signed int return_value_setrlimit$2;
-        return_value_setrlimit$2=setrlimit(7, rlim);
-        if(!(return_value_setrlimit$2 >= 0))
+        signed int return_value_setrlimit_2;
+        return_value_setrlimit_2=setrlimit(7, rlim);
+        if(!(return_value_setrlimit_2 >= 0))
           err("Unable to increase max no. files: %m");
 
       }
@@ -4320,24 +4320,24 @@ __CPROVER_DUMP_L4:
 
 // _infile_names_check
 // file opt.c line 787
-static signed int _infile_names_check(struct anonymous$1 *opt)
+static signed int _infile_names_check(struct anonymous_1 *opt)
 {
   enum anonymous verified = (enum anonymous)true;
   struct listIterator *i;
   char *name;
   i=list_iterator_create(opt->infile_names);
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    name = (char *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    name = (char *)return_value_list_next_1;
     if(name == ((char *)NULL))
       break;
 
     struct stat sb;
-    signed int return_value_stat$2;
-    return_value_stat$2=stat(name, &sb);
-    if(!(return_value_stat$2 >= 0))
+    signed int return_value_stat_2;
+    return_value_stat_2=stat(name, &sb);
+    if(!(return_value_stat_2 >= 0))
     {
       err("%p: can't stat %s\n", name);
       verified = (enum anonymous)false;
@@ -4384,14 +4384,14 @@ static void _init_pdsh_options()
 
 // _interactive_dsh
 // file main.c line 319
-static void _interactive_dsh(struct anonymous$1 *opt)
+static void _interactive_dsh(struct anonymous_1 *opt)
 {
   signed int pid;
   signal(2, (void (*)(signed int))1);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_waitpid$4;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_waitpid_4;
+  signed int *return_value___errno_location_5;
   do
   {
     opt->cmd=_getcmd(opt->progname);
@@ -4410,17 +4410,17 @@ static void _interactive_dsh(struct anonymous$1 *opt)
 
       else
       {
-        signed int return_value_strcmp$1;
-        return_value_strcmp$1=strcmp(opt->cmd, "quit");
-        if(return_value_strcmp$1 == 0)
-          tmp_if_expr$3 = (_Bool)1;
+        signed int return_value_strcmp_1;
+        return_value_strcmp_1=strcmp(opt->cmd, "quit");
+        if(return_value_strcmp_1 == 0)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$2=strcmp(opt->cmd, "exit");
-          tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_2=strcmp(opt->cmd, "exit");
+          tmp_if_expr_3 = return_value_strcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           Free((void **)&opt->cmd);
           break;
@@ -4445,12 +4445,12 @@ static void _interactive_dsh(struct anonymous$1 *opt)
         }
         do
         {
-          return_value_waitpid$4=waitpid(pid, (signed int *)(void *)0, 0);
-          if(return_value_waitpid$4 >= 0)
+          return_value_waitpid_4=waitpid(pid, (signed int *)(void *)0, 0);
+          if(return_value_waitpid_4 >= 0)
             break;
 
-          return_value___errno_location$5=__errno_location();
-          if(!(*return_value___errno_location$5 == 4))
+          return_value___errno_location_5=__errno_location();
+          if(!(*return_value___errno_location_5 == 4))
             break;
 
         }
@@ -4467,35 +4467,35 @@ static signed int _is_bracket_needed(struct hostlist *hl, signed int i)
 {
   struct hostrange_components *h1 = hl->hr[(signed long int)i];
   struct hostrange_components *h2;
-  struct hostrange_components *tmp_if_expr$1;
+  struct hostrange_components *tmp_if_expr_1;
   if(!(i >= hl->nranges + -1))
-    tmp_if_expr$1 = hl->hr[(signed long int)(i + 1)];
+    tmp_if_expr_1 = hl->hr[(signed long int)(i + 1)];
 
   else
-    tmp_if_expr$1 = (struct hostrange_components *)(void *)0;
-  h2 = tmp_if_expr$1;
-  unsigned long int return_value_hostrange_count$2;
-  return_value_hostrange_count$2=hostrange_count(h1);
-  _Bool tmp_if_expr$4;
-  signed int return_value_hostrange_within_range$3;
-  if(return_value_hostrange_count$2 >= 2ul)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_1 = (struct hostrange_components *)(void *)0;
+  h2 = tmp_if_expr_1;
+  unsigned long int return_value_hostrange_count_2;
+  return_value_hostrange_count_2=hostrange_count(h1);
+  _Bool tmp_if_expr_4;
+  signed int return_value_hostrange_within_range_3;
+  if(return_value_hostrange_count_2 >= 2ul)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_hostrange_within_range$3=hostrange_within_range(h1, h2);
-    tmp_if_expr$4 = return_value_hostrange_within_range$3 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_hostrange_within_range_3=hostrange_within_range(h1, h2);
+    tmp_if_expr_4 = return_value_hostrange_within_range_3 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$4;
+  return (signed int)tmp_if_expr_4;
 }
 
 // _is_loaded
 // file mod.c line 951
 static signed int _is_loaded(char *filename)
 {
-  void *return_value_list_find_first$1;
-  return_value_list_find_first$1=list_find_first(module_list, (signed int (*)(void *, void *))_cmp_filenames, (void *)filename);
-  if(!(return_value_list_find_first$1 == NULL))
+  void *return_value_list_find_first_1;
+  return_value_list_find_first_1=list_find_first(module_list, (signed int (*)(void *, void *))_cmp_filenames, (void *)filename);
+  if(!(return_value_list_find_first_1 == NULL))
     return 1;
 
   else
@@ -4531,7 +4531,7 @@ static void _iterator_advance_range(struct hostlist_iterator *i)
   hr = i->hl->hr;
   j = i->idx;
   i->depth = i->depth + 1;
-  signed int return_value_hostrange_within_range$1;
+  signed int return_value_hostrange_within_range_1;
   if(i->depth >= 1)
   {
     do
@@ -4540,8 +4540,8 @@ static void _iterator_advance_range(struct hostlist_iterator *i)
       if(j >= nr)
         break;
 
-      return_value_hostrange_within_range$1=hostrange_within_range(i->hr, hr[(signed long int)j]);
-      if(return_value_hostrange_within_range$1 == 0)
+      return_value_hostrange_within_range_1=hostrange_within_range(i->hr, hr[(signed long int)j]);
+      if(return_value_hostrange_within_range_1 == 0)
         break;
 
     }
@@ -4561,25 +4561,25 @@ static void _list_slowthreads(void)
   signed long int ttl;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&thd_mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&thd_mutex);
+    if(!(*return_value___errno_location_1 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 197);
 
   }
   while((_Bool)0);
   i = 0;
-  signed long int return_value_time$2;
-  signed long int return_value_time$3;
+  signed long int return_value_time_2;
+  signed long int return_value_time_3;
   for( ; !((t + (signed long int)i)->host == ((char *)NULL)); i = i + 1)
     switch((signed int)(t + (signed long int)i)->state)
     {
       case DSH_READING:
       {
         err("%p: %S: command in progress", (t + (signed long int)i)->host);
-        return_value_time$2=time((signed long int *)(void *)0);
-        ttl = ((t + (signed long int)i)->connect + (signed long int)command_timeout) - return_value_time$2;
+        return_value_time_2=time((signed long int *)(void *)0);
+        ttl = ((t + (signed long int)i)->connect + (signed long int)command_timeout) - return_value_time_2;
         if(!(command_timeout == 0) && !(debug == 0))
           err(" (timeout in %d secs)\n", ttl);
 
@@ -4589,8 +4589,8 @@ static void _list_slowthreads(void)
       }
       case DSH_RCMD:
       {
-        return_value_time$3=time((signed long int *)(void *)0);
-        ttl = ((t + (signed long int)i)->start + (signed long int)connect_timeout) - return_value_time$3;
+        return_value_time_3=time((signed long int *)(void *)0);
+        ttl = ((t + (signed long int)i)->start + (signed long int)connect_timeout) - return_value_time_3;
         err("%p: %S: connecting", (t + (signed long int)i)->host, ttl);
         if(!(connect_timeout == 0) && !(debug == 0))
           err(" (timeout in %d secs)\n", ttl);
@@ -4627,10 +4627,10 @@ static void _list_slowthreads(void)
     }
   do
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4=pthread_mutex_unlock(&thd_mutex);
-    if(!(*return_value___errno_location$4 == 0))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4=pthread_mutex_unlock(&thd_mutex);
+    if(!(*return_value___errno_location_4 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 237);
 
   }
@@ -4642,29 +4642,29 @@ static void _list_slowthreads(void)
 static void _makespace(char **str, signed int needed)
 {
   signed int used;
-  void *return_value_Malloc$1;
-  signed int return_value_Size$3;
+  void *return_value_Malloc_1;
+  signed int return_value_Size_3;
   if(*str == ((char *)NULL))
   {
-    return_value_Malloc$1=Malloc((unsigned long int)(needed + 1));
-    *str = (char *)return_value_Malloc$1;
+    return_value_Malloc_1=Malloc((unsigned long int)(needed + 1));
+    *str = (char *)return_value_Malloc_1;
   }
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(*str);
-    used = (signed int)(return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(*str);
+    used = (signed int)(return_value_strlen_2 + (unsigned long int)1);
     do
     {
-      return_value_Size$3=Size((void *)*str);
-      if(return_value_Size$3 >= used + needed)
+      return_value_Size_3=Size((void *)*str);
+      if(return_value_Size_3 >= used + needed)
         break;
 
       signed int newsize;
-      signed int return_value_Size$4;
-      return_value_Size$4=Size((void *)*str);
-      newsize = return_value_Size$4 + 32;
+      signed int return_value_Size_4;
+      return_value_Size_4=Size((void *)*str);
+      newsize = return_value_Size_4 + 32;
       Realloc((void **)str, (unsigned long int)newsize);
     }
     while((_Bool)1);
@@ -4675,12 +4675,12 @@ static void _makespace(char **str, signed int needed)
 // file dsh.c line 243
 static void _mask_signals(signed int how)
 {
-  struct anonymous$11 blockme;
+  struct anonymous_11 blockme;
   sigemptyset(&blockme);
   sigaddset(&blockme, 2);
   sigaddset(&blockme, 20);
   sigaddset(&blockme, 17);
-  pthread_sigmask(how, &blockme, (struct anonymous$11 *)(void *)0);
+  pthread_sigmask(how, &blockme, (struct anonymous_11 *)(void *)0);
 }
 
 // _mod_delete
@@ -4690,17 +4690,17 @@ static signed int _mod_delete(const char *type, const char *name)
   struct listIterator *i;
   i=list_iterator_create(module_list);
   struct module_components *m;
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    m = (struct module_components *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    m = (struct module_components *)return_value_list_next_1;
     if(m == ((struct module_components *)NULL))
       break;
 
-    signed int return_value__mod_description_match$2;
-    return_value__mod_description_match$2=_mod_description_match(m, type, name);
-    if(!(return_value__mod_description_match$2 == 0))
+    signed int return_value__mod_description_match_2;
+    return_value__mod_description_match_2=_mod_description_match(m, type, name);
+    if(!(return_value__mod_description_match_2 == 0))
       list_delete(i);
 
   }
@@ -4712,13 +4712,13 @@ static signed int _mod_delete(const char *type, const char *name)
 // file mod.c line 547
 static signed int _mod_description_match(struct module_components *m, const char *type, const char *name)
 {
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(m->pmod->type, type);
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(m->pmod->type, type);
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_2 == 0)
   {
-    return_value_strcmp$1=strcmp(m->pmod->name, name);
-    if(!(return_value_strcmp$1 == 0))
+    return_value_strcmp_1=strcmp(m->pmod->name, name);
+    if(!(return_value_strcmp_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -4767,16 +4767,16 @@ static void _mod_destroy(struct module_components *mod)
 // file mod.c line 329
 static signed int _mod_find_misc(struct module_components *mod, const char *name)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(mod->pmod->type, "misc");
-  if(!(return_value_strcmp$1 == 0))
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(mod->pmod->type, "misc");
+  if(!(return_value_strcmp_1 == 0))
     return 0;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(mod->pmod->name, name);
-    if(!(return_value_strcmp$2 == 0))
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(mod->pmod->name, name);
+    if(!(return_value_strcmp_2 == 0))
       return 0;
 
     else
@@ -4790,15 +4790,15 @@ static struct pdsh_module_option * _mod_find_opt(struct module_components *mod, 
 {
   struct pdsh_module_option *p = mod->pmod->opt_table;
   p = mod->pmod->opt_table;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(p == ((struct pdsh_module_option *)NULL)))
-      tmp_if_expr$1 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if((signed int)p->opt == opt)
@@ -4819,9 +4819,9 @@ static struct list * _mod_get_module_names(char *type, signed int get_active)
   struct listIterator *module_itr;
   l=list_create((void (*)(void *))(void *)0);
   module_itr=list_iterator_create(module_list);
-  void *tmp_if_expr$3;
-  void *return_value_list_find$1;
-  void *return_value_list_next$2;
+  void *tmp_if_expr_3;
+  void *return_value_list_find_1;
+  void *return_value_list_next_2;
   if(module_itr == ((struct listIterator *)NULL))
   {
     err("Unable to create module list iterator\n");
@@ -4835,16 +4835,16 @@ static struct list * _mod_get_module_names(char *type, signed int get_active)
     {
       if(!(type == ((char *)NULL)))
       {
-        return_value_list_find$1=list_find(module_itr, (signed int (*)(void *, void *))_cmp_type, (void *)type);
-        tmp_if_expr$3 = return_value_list_find$1;
+        return_value_list_find_1=list_find(module_itr, (signed int (*)(void *, void *))_cmp_type, (void *)type);
+        tmp_if_expr_3 = return_value_list_find_1;
       }
 
       else
       {
-        return_value_list_next$2=list_next(module_itr);
-        tmp_if_expr$3 = return_value_list_next$2;
+        return_value_list_next_2=list_next(module_itr);
+        tmp_if_expr_3 = return_value_list_next_2;
       }
-      mod = (struct module_components *)tmp_if_expr$3;
+      mod = (struct module_components *)tmp_if_expr_3;
       if(mod == ((struct module_components *)NULL))
         break;
 
@@ -4870,10 +4870,10 @@ static signed int _mod_init_list_safe(struct module_components *mod, void *arg)
 // file mod.c line 735
 static signed int _mod_initialize(struct module_components *mod)
 {
-  enum anonymous return_value__mod_opts_ok$1;
-  return_value__mod_opts_ok$1=_mod_opts_ok(mod);
+  enum anonymous return_value__mod_opts_ok_1;
+  return_value__mod_opts_ok_1=_mod_opts_ok(mod);
   signed int return_value;
-  if(return_value__mod_opts_ok$1 == /*enum*/false)
+  if(return_value__mod_opts_ok_1 == /*enum*/false)
     return -1;
 
   else
@@ -4902,14 +4902,14 @@ static signed int _mod_initialize(struct module_components *mod)
 static signed int _mod_initialize_by_name(char *name, struct list *l)
 {
   struct module_components *mod;
-  void *return_value_list_find_first$1;
-  return_value_list_find_first$1=list_find_first(l, (signed int (*)(void *, void *))_mod_find_misc, (void *)name);
-  mod = (struct module_components *)return_value_list_find_first$1;
-  signed int return_value__mod_initialize$2;
+  void *return_value_list_find_first_1;
+  return_value_list_find_first_1=list_find_first(l, (signed int (*)(void *, void *))_mod_find_misc, (void *)name);
+  mod = (struct module_components *)return_value_list_find_first_1;
+  signed int return_value__mod_initialize_2;
   if(!(mod == ((struct module_components *)NULL)))
   {
-    return_value__mod_initialize$2=_mod_initialize(mod);
-    if(!(return_value__mod_initialize$2 >= 0))
+    return_value__mod_initialize_2=_mod_initialize(mod);
+    if(!(return_value__mod_initialize_2 >= 0))
       err("%p: Warning: Failed to initialize requested module \"%s/%s\"\n", mod->pmod->type, mod->pmod->name);
 
   }
@@ -4938,41 +4938,41 @@ static signed int _mod_initialize_modules_by_name(char *names, struct list *m)
 static signed int _mod_load_dynamic(const char *fq_path)
 {
   struct module_components *mod = (struct module_components *)(void *)0;
-  const struct anonymous$25 *info;
+  const struct anonymous_25 *info;
   signed int *priority;
   mod=mod_create();
   mod->handle=lt_dlopen(fq_path);
-  signed int return_value__is_loaded$1;
-  void *return_value_lt_dlsym$2;
-  void *return_value_lt_dlsym$3;
-  signed int return_value__mod_register$4;
+  signed int return_value__is_loaded_1;
+  void *return_value_lt_dlsym_2;
+  void *return_value_lt_dlsym_3;
+  signed int return_value__mod_register_4;
   if(!(mod->handle == ((struct lt_dlhandle_struct *)NULL)))
   {
     info=lt_dlgetinfo(mod->handle);
-    if(!(info == ((const struct anonymous$25 *)NULL)))
+    if(!(info == ((const struct anonymous_25 *)NULL)))
     {
       if(!(info->filename == ((char *)NULL)))
       {
         mod->filename=Strdup(info->filename);
-        return_value__is_loaded$1=_is_loaded(mod->filename);
-        if(!(return_value__is_loaded$1 == 0))
+        return_value__is_loaded_1=_is_loaded(mod->filename);
+        if(!(return_value__is_loaded_1 == 0))
           goto fail;
 
-        return_value_lt_dlsym$2=lt_dlsym(mod->handle, "pdsh_module_info");
-        mod->pmod = (struct pdsh_module *)return_value_lt_dlsym$2;
+        return_value_lt_dlsym_2=lt_dlsym(mod->handle, "pdsh_module_info");
+        mod->pmod = (struct pdsh_module *)return_value_lt_dlsym_2;
         if(mod->pmod == ((struct pdsh_module *)NULL))
         {
           err("%p:[%s] can't resolve pdsh module\n", mod->filename);
           goto fail;
         }
 
-        return_value_lt_dlsym$3=lt_dlsym(mod->handle, "pdsh_module_priority");
-        priority = (signed int *)return_value_lt_dlsym$3;
+        return_value_lt_dlsym_3=lt_dlsym(mod->handle, "pdsh_module_priority");
+        priority = (signed int *)return_value_lt_dlsym_3;
         if(!(priority == ((signed int *)NULL)))
           mod->priority = *priority;
 
-        return_value__mod_register$4=_mod_register(mod, mod->filename);
-        if(!(return_value__mod_register$4 >= 0))
+        return_value__mod_register_4=_mod_register(mod, mod->filename);
+        if(!(return_value__mod_register_4 >= 0))
           goto fail;
 
         return 0;
@@ -4995,7 +4995,7 @@ fail:
 
 // _mod_load_dynamic_modules
 // file mod.c line 875
-static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 *pdsh_opts)
+static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous_1 *pdsh_opts)
 {
   struct __dirstream *dirp = (struct __dirstream *)(void *)0;
   struct dirent *entry = (struct dirent *)(void *)0;
@@ -5006,18 +5006,18 @@ static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 
   if(initialized == /*enum*/false)
     mod_init();
 
-  signed int return_value__pdsh_owner$1;
-  return_value__pdsh_owner$1=_pdsh_owner(pdsh_opts->local_program_path, &pdsh_owner);
-  char *tmp_post$4;
-  unsigned int return_value_getuid$6;
-  if(!(return_value__pdsh_owner$1 >= 0))
+  signed int return_value__pdsh_owner_1;
+  return_value__pdsh_owner_1=_pdsh_owner(pdsh_opts->local_program_path, &pdsh_owner);
+  char *tmp_post_4;
+  unsigned int return_value_getuid_6;
+  if(!(return_value__pdsh_owner_1 >= 0))
     return -1;
 
   else
   {
-    enum anonymous return_value__path_permissions_ok$2;
-    return_value__path_permissions_ok$2=_path_permissions_ok(dir, pdsh_owner);
-    if(return_value__path_permissions_ok$2 == /*enum*/false)
+    enum anonymous return_value__path_permissions_ok_2;
+    return_value__path_permissions_ok_2=_path_permissions_ok(dir, pdsh_owner);
+    if(return_value__path_permissions_ok_2 == /*enum*/false)
       return -1;
 
     else
@@ -5029,12 +5029,12 @@ static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 
       else
       {
         strncpy(path, dir, (unsigned long int)4096);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(dir);
-        p = path + (signed long int)return_value_strlen$3;
-        tmp_post$4 = p;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(dir);
+        p = path + (signed long int)return_value_strlen_3;
+        tmp_post_4 = p;
         p = p + 1l;
-        *tmp_post$4 = (char)47;
+        *tmp_post_4 = (char)47;
         do
         {
           entry=readdir(dirp);
@@ -5043,16 +5043,16 @@ static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 
 
           struct stat st;
           strcpy(p, entry->d_name);
-          signed int return_value_stat$5;
-          return_value_stat$5=stat(path, &st);
-          if(return_value_stat$5 >= 0)
+          signed int return_value_stat_5;
+          return_value_stat_5=stat(path, &st);
+          if(return_value_stat_5 >= 0)
           {
             if((61440u & st.st_mode) == 32768u)
             {
               if(!(st.st_uid == 0u))
               {
-                return_value_getuid$6=getuid();
-                if(st.st_uid == return_value_getuid$6)
+                return_value_getuid_6=getuid();
+                if(st.st_uid == return_value_getuid_6)
                   goto __CPROVER_DUMP_L8;
 
                 if(st.st_uid == pdsh_owner)
@@ -5071,9 +5071,9 @@ static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 
 
                 else
                 {
-                  signed int return_value__mod_load_dynamic$7;
-                  return_value__mod_load_dynamic$7=_mod_load_dynamic(path);
-                  if(return_value__mod_load_dynamic$7 >= 0)
+                  signed int return_value__mod_load_dynamic_7;
+                  return_value__mod_load_dynamic_7=_mod_load_dynamic(path);
+                  if(return_value__mod_load_dynamic_7 >= 0)
                     count = count + 1;
 
                 }
@@ -5084,9 +5084,9 @@ static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 
 
         }
         while((_Bool)1);
-        signed int return_value_closedir$8;
-        return_value_closedir$8=closedir(dirp);
-        if(!(return_value_closedir$8 >= 0))
+        signed int return_value_closedir_8;
+        return_value_closedir_8=closedir(dirp);
+        if(!(return_value_closedir_8 >= 0))
           err("%p: error closing %s: %m", dir);
 
         if(count == 0)
@@ -5103,11 +5103,11 @@ static signed int _mod_load_dynamic_modules(const char *dir, struct anonymous$1 
 static struct module_components * _mod_next_active(struct listIterator *i)
 {
   struct module_components *mod;
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    mod = (struct module_components *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    mod = (struct module_components *)return_value_list_next_1;
     if(mod == ((struct module_components *)NULL))
       break;
 
@@ -5123,9 +5123,9 @@ static struct module_components * _mod_next_active(struct listIterator *i)
 // file mod.c line 311
 static enum anonymous _mod_opts_ok(struct module_components *mod)
 {
-  enum anonymous return_value_opt_register$1;
-  return_value_opt_register$1=opt_register(mod->pmod->opt_table);
-  if(return_value_opt_register$1 == /*enum*/false)
+  enum anonymous return_value_opt_register_1;
+  return_value_opt_register_1=opt_register(mod->pmod->opt_table);
+  if(return_value_opt_register_1 == /*enum*/false)
     return (enum anonymous)false;
 
   else
@@ -5134,12 +5134,12 @@ static enum anonymous _mod_opts_ok(struct module_components *mod)
 
 // _mod_postop
 // file mod.c line 169
-signed int _mod_postop(struct module_components *mod, struct anonymous$1 *pdsh_opts)
+signed int _mod_postop(struct module_components *mod, struct anonymous_1 *pdsh_opts)
 {
   signed int return_value;
   if(!(mod->pmod->mod_ops == ((struct pdsh_module_operations *)NULL)))
   {
-    if(mod->pmod->mod_ops->postop == ((signed int (*)(struct anonymous$1 *))NULL))
+    if(mod->pmod->mod_ops->postop == ((signed int (*)(struct anonymous_1 *))NULL))
       goto __CPROVER_DUMP_L1;
 
     return_value=mod->pmod->mod_ops->postop(pdsh_opts);
@@ -5159,8 +5159,8 @@ signed int _mod_postop(struct module_components *mod, struct anonymous$1 *pdsh_o
 // file mod.c line 426
 static signed int _mod_print_info(struct module_components *mod)
 {
-  char *tmp_if_expr$1;
-  char *tmp_if_expr$2;
+  char *tmp_if_expr_1;
+  char *tmp_if_expr_2;
   if(mod == ((struct module_components *)NULL))
     return 0;
 
@@ -5168,17 +5168,17 @@ static signed int _mod_print_info(struct module_components *mod)
   {
     out("Module: %s/%s\n", mod->pmod->type, mod->pmod->name);
     if(!(mod->pmod->author == ((char *)NULL)))
-      tmp_if_expr$1 = mod->pmod->author;
+      tmp_if_expr_1 = mod->pmod->author;
 
     else
-      tmp_if_expr$1 = "???";
-    out("Author: %s\n", tmp_if_expr$1);
+      tmp_if_expr_1 = "???";
+    out("Author: %s\n", tmp_if_expr_1);
     if(!(mod->pmod->descr == ((char *)NULL)))
-      tmp_if_expr$2 = mod->pmod->descr;
+      tmp_if_expr_2 = mod->pmod->descr;
 
     else
-      tmp_if_expr$2 = "???";
-    out("Descr:  %s\n", tmp_if_expr$2);
+      tmp_if_expr_2 = "???";
+    out("Descr:  %s\n", tmp_if_expr_2);
     out("Active: %s\n", mod->initialized != 0 ? "yes" : "no");
     if(!(mod->pmod->opt_table == ((struct pdsh_module_option *)NULL)))
     {
@@ -5197,12 +5197,12 @@ static signed int _mod_print_info(struct module_components *mod)
 
 // _mod_read_wcoll
 // file mod.c line 160
-struct hostlist * _mod_read_wcoll(struct module_components *mod, struct anonymous$1 *pdsh_opts)
+struct hostlist * _mod_read_wcoll(struct module_components *mod, struct anonymous_1 *pdsh_opts)
 {
   struct hostlist *return_value;
   if(!(mod->pmod->mod_ops == ((struct pdsh_module_operations *)NULL)))
   {
-    if(mod->pmod->mod_ops->read_wcoll == ((struct hostlist * (*)(struct anonymous$1 *))NULL))
+    if(mod->pmod->mod_ops->read_wcoll == ((struct hostlist * (*)(struct anonymous_1 *))NULL))
       goto __CPROVER_DUMP_L1;
 
     return_value=mod->pmod->mod_ops->read_wcoll(pdsh_opts);
@@ -5223,13 +5223,13 @@ struct hostlist * _mod_read_wcoll(struct module_components *mod, struct anonymou
 static signed int _mod_register(struct module_components *mod, const char *name)
 {
   struct module_components *prev;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(mod->pmod->type == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(mod->pmod->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(mod->pmod->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     err("%p:[%s] type or name not specified in module\n", name);
     return -1;
@@ -5255,9 +5255,9 @@ static signed int _mod_register(struct module_components *mod, const char *name)
 
     __CPROVER_DUMP_L5:
       ;
-      enum anonymous$5 return_value_pdsh_personality$2;
-      return_value_pdsh_personality$2=pdsh_personality();
-      if((mod->pmod->personality & (signed int)return_value_pdsh_personality$2) == 0)
+      enum anonymous_5 return_value_pdsh_personality_2;
+      return_value_pdsh_personality_2=pdsh_personality();
+      if((mod->pmod->personality & (signed int)return_value_pdsh_personality_2) == 0)
         return -1;
 
       else
@@ -5275,9 +5275,9 @@ static signed int _module_list_string(char *type, char *buf, signed int len)
 {
   struct list *l = (struct list *)(void *)0;
   signed int n = 0;
-  signed int return_value_mod_count$1;
-  return_value_mod_count$1=mod_count(type);
-  if(return_value_mod_count$1 == 0)
+  signed int return_value_mod_count_1;
+  return_value_mod_count_1=mod_count(type);
+  if(return_value_mod_count_1 == 0)
     return 0;
 
   else
@@ -5295,9 +5295,9 @@ static signed int _module_list_uninitialized(char *type, char *buf, signed int l
 {
   struct list *l = (struct list *)(void *)0;
   signed int n = 0;
-  signed int return_value_mod_count$1;
-  return_value_mod_count$1=mod_count(type);
-  if(return_value_mod_count$1 == 0)
+  signed int return_value_mod_count_1;
+  return_value_mod_count_1=mod_count(type);
+  if(return_value_mod_count_1 == 0)
     return 0;
 
   else
@@ -5315,17 +5315,17 @@ static char * _next_tok(char *sep, char **str)
 {
   char *tok;
   signed int level = 0;
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   for( ; !((signed int)*(*str) == 0); *str = *str + 1l)
   {
-    return_value_strchr$1=strchr(sep, (signed int)*(*str));
-    if(return_value_strchr$1 == ((char *)NULL))
+    return_value_strchr_1=strchr(sep, (signed int)*(*str));
+    if(return_value_strchr_1 == ((char *)NULL))
       break;
 
   }
-  char *return_value_strchr$2;
-  char *return_value_strchr$3;
-  char *tmp_post$4;
+  char *return_value_strchr_2;
+  char *return_value_strchr_3;
+  char *tmp_post_4;
   if((signed int)*(*str) == 0)
     return (char *)(void *)0;
 
@@ -5336,8 +5336,8 @@ static char * _next_tok(char *sep, char **str)
     {
       if(level == 0)
       {
-        return_value_strchr$2=strchr(sep, (signed int)*(*str));
-        if(!(return_value_strchr$2 == ((char *)NULL)))
+        return_value_strchr_2=strchr(sep, (signed int)*(*str));
+        if(!(return_value_strchr_2 == ((char *)NULL)))
           break;
 
       }
@@ -5350,70 +5350,70 @@ static char * _next_tok(char *sep, char **str)
           level = level - 1;
 
     }
-    for( ; !((signed int)*(*str) == 0); *tmp_post$4 = (char)0)
+    for( ; !((signed int)*(*str) == 0); *tmp_post_4 = (char)0)
     {
-      return_value_strchr$3=strchr(sep, (signed int)*(*str));
-      if(return_value_strchr$3 == ((char *)NULL))
+      return_value_strchr_3=strchr(sep, (signed int)*(*str));
+      if(return_value_strchr_3 == ((char *)NULL))
         break;
 
-      tmp_post$4 = *str;
+      tmp_post_4 = *str;
       *str = *str + 1l;
     }
     return tok;
   }
 }
 
-// _next_tok$link1
+// _next_tok_link1
 // file split.c line 45
-static char * _next_tok$link1(char *sep$link1, char **str$link1)
+static char * _next_tok_link1(char *sep_link1, char **str_link1)
 {
-  char *tok$link1;
-  signed int level$link1 = 0;
-  char *return_value_strchr$1$link1;
-  for( ; !((signed int)*(*str$link1) == 0); *str$link1 = *str$link1 + 1l)
+  char *tok_link1;
+  signed int level_link1 = 0;
+  char *return_value_strchr_1_link1;
+  for( ; !((signed int)*(*str_link1) == 0); *str_link1 = *str_link1 + 1l)
   {
-    return_value_strchr$1$link1=strchr(sep$link1, (signed int)*(*str$link1));
-    if(return_value_strchr$1$link1 == ((char *)NULL))
+    return_value_strchr_1_link1=strchr(sep_link1, (signed int)*(*str_link1));
+    if(return_value_strchr_1_link1 == ((char *)NULL))
       break;
 
   }
-  char *return_value_strchr$2$link1;
-  char *return_value_strchr$3$link1;
-  char *tmp_post$4$link1;
-  if((signed int)*(*str$link1) == 0)
+  char *return_value_strchr_2_link1;
+  char *return_value_strchr_3_link1;
+  char *tmp_post_4_link1;
+  if((signed int)*(*str_link1) == 0)
     return (char *)(void *)0;
 
   else
   {
-    tok$link1 = *str$link1;
-    for( ; !((signed int)*(*str$link1) == 0); *str$link1 = *str$link1 + 1l)
+    tok_link1 = *str_link1;
+    for( ; !((signed int)*(*str_link1) == 0); *str_link1 = *str_link1 + 1l)
     {
-      if(level$link1 == 0)
+      if(level_link1 == 0)
       {
-        return_value_strchr$2$link1=strchr(sep$link1, (signed int)*(*str$link1));
-        if(!(return_value_strchr$2$link1 == ((char *)NULL)))
+        return_value_strchr_2_link1=strchr(sep_link1, (signed int)*(*str_link1));
+        if(!(return_value_strchr_2_link1 == ((char *)NULL)))
           break;
 
       }
 
-      if((signed int)*(*str$link1) == 91)
-        level$link1 = level$link1 + 1;
+      if((signed int)*(*str_link1) == 91)
+        level_link1 = level_link1 + 1;
 
       else
-        if((signed int)*(*str$link1) == 93)
-          level$link1 = level$link1 - 1;
+        if((signed int)*(*str_link1) == 93)
+          level_link1 = level_link1 - 1;
 
     }
-    for( ; !((signed int)*(*str$link1) == 0); *tmp_post$4$link1 = (char)0)
+    for( ; !((signed int)*(*str_link1) == 0); *tmp_post_4_link1 = (char)0)
     {
-      return_value_strchr$3$link1=strchr(sep$link1, (signed int)*(*str$link1));
-      if(return_value_strchr$3$link1 == ((char *)NULL))
+      return_value_strchr_3_link1=strchr(sep_link1, (signed int)*(*str_link1));
+      if(return_value_strchr_3_link1 == ((char *)NULL))
         break;
 
-      tmp_post$4$link1 = *str$link1;
-      *str$link1 = *str$link1 + 1l;
+      tmp_post_4_link1 = *str_link1;
+      *str_link1 = *str_link1 + 1l;
     }
-    return tok$link1;
+    return tok_link1;
   }
 }
 
@@ -5437,19 +5437,19 @@ static signed int _parallel_copy(struct thd *th)
 
   else
     rv=_pcp_client(th);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(th->pcp_Popt == /*enum*/false && !(rv >= 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = th->pcp_Popt != (enum anonymous)0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value__handle_rcmd_stderr$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = th->pcp_Popt != (enum anonymous)0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value__handle_rcmd_stderr_1;
+  if(tmp_if_expr_2)
   {
     do
     {
-      return_value__handle_rcmd_stderr$1=_handle_rcmd_stderr(th);
-      if(!(return_value__handle_rcmd_stderr$1 >= 1))
+      return_value__handle_rcmd_stderr_1=_handle_rcmd_stderr(th);
+      if(!(return_value__handle_rcmd_stderr_1 >= 1))
         break;
 
     }
@@ -5472,10 +5472,10 @@ static void _parse_command_with_quotes(char **argv, signed int maxn, char *str)
   char *c;
   char *lc = str;
   c = lc;
-  unsigned long int return_value_strlen$2;
-  signed int tmp_post$1;
-  unsigned long int return_value_strlen$4;
-  signed int tmp_post$3;
+  unsigned long int return_value_strlen_2;
+  signed int tmp_post_1;
+  unsigned long int return_value_strlen_4;
+  signed int tmp_post_3;
   while(!((signed int)*c == 0))
   {
     if(i >= maxn)
@@ -5495,12 +5495,12 @@ static void _parse_command_with_quotes(char **argv, signed int maxn, char *str)
           errx("%P: Unmatched `%c' in xpopen\n", *lc);
 
         *c = (char)0;
-        return_value_strlen$2=strlen(lc);
-        if(return_value_strlen$2 >= 1ul)
+        return_value_strlen_2=strlen(lc);
+        if(return_value_strlen_2 >= 1ul)
         {
-          tmp_post$1 = i;
+          tmp_post_1 = i;
           i = i + 1;
-          argv[(signed long int)tmp_post$1] = lc;
+          argv[(signed long int)tmp_post_1] = lc;
         }
 
         c = c + 1l;
@@ -5516,12 +5516,12 @@ static void _parse_command_with_quotes(char **argv, signed int maxn, char *str)
         *c = (char)0;
         if(!(lc == ((char *)NULL)))
         {
-          return_value_strlen$4=strlen(lc);
-          if(return_value_strlen$4 >= 1ul)
+          return_value_strlen_4=strlen(lc);
+          if(return_value_strlen_4 >= 1ul)
           {
-            tmp_post$3 = i;
+            tmp_post_3 = i;
             i = i + 1;
-            argv[(signed long int)tmp_post$3] = lc;
+            argv[(signed long int)tmp_post_3] = lc;
           }
 
         }
@@ -5534,16 +5534,16 @@ static void _parse_command_with_quotes(char **argv, signed int maxn, char *str)
         c = c + 1l;
     }
   }
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(lc);
-  signed int tmp_post$5;
-  if(return_value_strlen$6 >= 1ul)
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(lc);
+  signed int tmp_post_5;
+  if(return_value_strlen_6 >= 1ul)
   {
     if(!(i >= maxn))
     {
-      tmp_post$5 = i;
+      tmp_post_5 = i;
       i = i + 1;
-      argv[(signed long int)tmp_post$5] = lc;
+      argv[(signed long int)tmp_post_5] = lc;
     }
 
   }
@@ -5557,8 +5557,8 @@ static signed int _parse_range_list(char *str, struct _range *ranges, signed int
 {
   char *p;
   signed int count = 0;
-  char *tmp_post$1;
-  signed int tmp_post$2;
+  char *tmp_post_1;
+  signed int tmp_post_2;
   while(!(str == ((char *)NULL)))
   {
     if(count == len)
@@ -5567,16 +5567,16 @@ static signed int _parse_range_list(char *str, struct _range *ranges, signed int
     p=strchr(str, 44);
     if(!(p == ((char *)NULL)))
     {
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
     }
 
-    tmp_post$2 = count;
+    tmp_post_2 = count;
     count = count + 1;
-    signed int return_value__parse_single_range$3;
-    return_value__parse_single_range$3=_parse_single_range(str, &ranges[(signed long int)tmp_post$2]);
-    if(return_value__parse_single_range$3 == 0)
+    signed int return_value__parse_single_range_3;
+    return_value__parse_single_range_3=_parse_single_range(str, &ranges[(signed long int)tmp_post_2]);
+    if(return_value__parse_single_range_3 == 0)
       return -1;
 
     str = p;
@@ -5594,52 +5594,52 @@ static signed int _parse_single_range(const char *str, struct _range *range)
   orig=strdup(str);
   if(orig == ((char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     return 0;
   }
 
   p=strchr(str, 45);
-  char *tmp_post$2;
+  char *tmp_post_2;
   if(!(p == ((char *)NULL)))
   {
-    tmp_post$2 = p;
+    tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = (char)0;
+    *tmp_post_2 = (char)0;
     if((signed int)*p == 45)
       goto error;
 
   }
 
   range->lo=strtoul(str, &q, 10);
-  _Bool tmp_if_expr$3;
-  unsigned long int tmp_if_expr$5;
-  unsigned long int return_value_strtoul$4;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_strlen$8;
+  _Bool tmp_if_expr_3;
+  unsigned long int tmp_if_expr_5;
+  unsigned long int return_value_strtoul_4;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_strlen_8;
   if(!(q == str))
   {
     if(!(p == ((char *)NULL)))
-      tmp_if_expr$3 = *p != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = *p != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_strtoul$4=strtoul(p, &q, 10);
-      tmp_if_expr$5 = return_value_strtoul$4;
+      return_value_strtoul_4=strtoul(p, &q, 10);
+      tmp_if_expr_5 = return_value_strtoul_4;
     }
 
     else
-      tmp_if_expr$5 = range->lo;
-    range->hi = tmp_if_expr$5;
+      tmp_if_expr_5 = range->lo;
+    range->hi = tmp_if_expr_5;
     if(q == p)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*q != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)*q != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
       goto error;
 
     if(!(range->hi >= range->lo))
@@ -5647,17 +5647,17 @@ static signed int _parse_single_range(const char *str, struct _range *range)
 
     if(1ul + range->hi + -range->lo >= 16385ul)
     {
-      _error$link1("hostlist.c", 1421, "Too many hosts in range `%s'", orig);
+      _error_link1("hostlist.c", 1421, "Too many hosts in range `%s'", orig);
       free((void *)orig);
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      *return_value___errno_location$7 = 34;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      *return_value___errno_location_7 = 34;
       return 0;
     }
 
     free((void *)orig);
-    return_value_strlen$8=strlen(str);
-    range->width = (signed int)return_value_strlen$8;
+    return_value_strlen_8=strlen(str);
+    range->width = (signed int)return_value_strlen_8;
     return 1;
   }
 
@@ -5666,11 +5666,11 @@ static signed int _parse_single_range(const char *str, struct _range *range)
 
   error:
     ;
-    _error$link1("hostlist.c", 1431, "Invalid range: `%s'", orig);
+    _error_link1("hostlist.c", 1431, "Invalid range: `%s'", orig);
     free((void *)orig);
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    *return_value___errno_location$9 = 22;
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    *return_value___errno_location_9 = 22;
     return 0;
   }
 }
@@ -5685,9 +5685,9 @@ static enum anonymous _path_permissions_ok(const char *dir, unsigned int pdsh_ow
   unsigned long int rootino;
   enum permission_error error;
   signed int pos = 0;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat("/", &st);
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat("/", &st);
+  if(!(return_value_stat_1 >= 0))
   {
     err("%p: Can't stat root directory: %m\n");
     return (enum anonymous)false;
@@ -5699,14 +5699,14 @@ static enum anonymous _path_permissions_ok(const char *dir, unsigned int pdsh_ow
     rootino = st.st_ino;
     strncpy(dirbuf, dir, (unsigned long int)4096);
     dirbuf[(signed long int)4096] = (char)0;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(dirbuf);
-    pos = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(dirbuf);
+    pos = (signed int)return_value_strlen_2;
     do
     {
-      signed int return_value_stat$3;
-      return_value_stat$3=stat(dirbuf, &st);
-      if(!(return_value_stat$3 >= 0))
+      signed int return_value_stat_3;
+      return_value_stat_3=stat(dirbuf, &st);
+      if(!(return_value_stat_3 >= 0))
       {
         err("%p: Can't stat \"%s\": %m\n", dir);
         return (enum anonymous)false;
@@ -5717,11 +5717,11 @@ static enum anonymous _path_permissions_ok(const char *dir, unsigned int pdsh_ow
       {
         char buf[4096l];
         err("%p: module path \"%s\" insecure.\n", dir);
-        char *return_value__get_dir_name$4;
-        return_value__get_dir_name$4=_get_dir_name(dirbuf, buf, (unsigned long int)4096);
-        char *return_value__perm_error_string$5;
-        return_value__perm_error_string$5=_perm_error_string(error);
-        err("%p: \"%s\": %s\n", return_value__get_dir_name$4, return_value__perm_error_string$5);
+        char *return_value__get_dir_name_4;
+        return_value__get_dir_name_4=_get_dir_name(dirbuf, buf, (unsigned long int)4096);
+        char *return_value__perm_error_string_5;
+        return_value__perm_error_string_5=_perm_error_string(error);
+        err("%p: \"%s\": %s\n", return_value__get_dir_name_4, return_value__perm_error_string_5);
         return (enum anonymous)false;
       }
 
@@ -5750,14 +5750,14 @@ static signed int _pcp_client(struct thd *th)
   pcp[0l].pcp_client = th->pcp_Zopt;
   pcp[0l].host = th->host;
   pcp[0l].infiles = th->pcp_infiles;
-  signed int return_value_pcp_client$1;
-  return_value_pcp_client$1=pcp_client(pcp);
-  return return_value_pcp_client$1;
+  signed int return_value_pcp_client_1;
+  return_value_pcp_client_1=pcp_client(pcp);
+  return return_value_pcp_client_1;
 }
 
 // _pcp_remote_client
 // file main.c line 411
-static signed int _pcp_remote_client(struct anonymous$1 *opt)
+static signed int _pcp_remote_client(struct anonymous_1 *opt)
 {
   struct pcp_client pcp[1l];
   pcp[0l].infd = 0;
@@ -5766,14 +5766,14 @@ static signed int _pcp_remote_client(struct anonymous$1 *opt)
   pcp[0l].host = opt->pcp_client_host;
   pcp[0l].preserve = opt->preserve;
   pcp[0l].pcp_client = opt->pcp_client;
-  signed int return_value_pcp_client$1;
-  return_value_pcp_client$1=pcp_client(pcp);
-  return return_value_pcp_client$1;
+  signed int return_value_pcp_client_1;
+  return_value_pcp_client_1=pcp_client(pcp);
+  return return_value_pcp_client_1;
 }
 
 // _pcp_remote_server
 // file main.c line 398
-static signed int _pcp_remote_server(struct anonymous$1 *opt)
+static signed int _pcp_remote_server(struct anonymous_1 *opt)
 {
   struct pcp_server svr[1l];
   svr[0l].infd = 0;
@@ -5781,9 +5781,9 @@ static signed int _pcp_remote_server(struct anonymous$1 *opt)
   svr[0l].preserve = opt->preserve;
   svr[0l].target_is_dir = opt->target_is_directory;
   svr[0l].outfile = opt->outfile_name;
-  signed int return_value_pcp_server$1;
-  return_value_pcp_server$1=pcp_server(svr);
-  return return_value_pcp_server$1;
+  signed int return_value_pcp_server_1;
+  return_value_pcp_server_1=pcp_server(svr);
+  return return_value_pcp_server_1;
 }
 
 // _pcp_send_file_data
@@ -5805,9 +5805,9 @@ static signed int _pcp_send_file_data(signed int outfd, char *filename, char *ho
   {
     do
     {
-      signed long int return_value_read$1;
-      return_value_read$1=read(filefd, (void *)tmpbuf, (unsigned long int)8192);
-      inbytes = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(filefd, (void *)tmpbuf, (unsigned long int)8192);
+      inbytes = (signed int)return_value_read_1;
       if(!(inbytes >= 0))
       {
         err("%S: _pcp_send_file_data: read %s: %m\n", host, filename);
@@ -5817,9 +5817,9 @@ static signed int _pcp_send_file_data(signed int outfd, char *filename, char *ho
       if(inbytes >= 1)
       {
         total = total + inbytes;
-        signed int return_value__pcp_write$2;
-        return_value__pcp_write$2=_pcp_write(outfd, tmpbuf, inbytes);
-        if(!(return_value__pcp_write$2 >= 0))
+        signed int return_value__pcp_write_2;
+        return_value__pcp_write_2=_pcp_write(outfd, tmpbuf, inbytes);
+        if(!(return_value__pcp_write_2 >= 0))
         {
           err("%S: _pcp_send_file_data: write: %m\n", host);
           return -1;
@@ -5839,18 +5839,18 @@ static signed int _pcp_send_file_data(signed int outfd, char *filename, char *ho
 static signed int _pcp_sendfile(struct pcp_filename *pf, struct pcp_client *pcp)
 {
   char *output_filename = (char *)(void *)0;
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(pf->filename, "a!b@c#d$");
-  if(return_value_strcmp$3 == 0)
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(pf->filename, "a!b@c#d_");
+  if(return_value_strcmp_3 == 0)
   {
-    signed int return_value_pcp_sendstr$1;
-    return_value_pcp_sendstr$1=pcp_sendstr(pcp->outfd, "E\n", pcp->host);
-    if(!(return_value_pcp_sendstr$1 >= 0))
+    signed int return_value_pcp_sendstr_1;
+    return_value_pcp_sendstr_1=pcp_sendstr(pcp->outfd, "E\n", pcp->host);
+    if(!(return_value_pcp_sendstr_1 >= 0))
       errx("%p: failed to send exit subdir flag\n");
 
-    signed int return_value_pcp_response$2;
-    return_value_pcp_response$2=pcp_response(pcp->infd, pcp->host);
-    if(!(return_value_pcp_response$2 >= 0))
+    signed int return_value_pcp_response_2;
+    return_value_pcp_response_2=pcp_response(pcp->infd, pcp->host);
+    if(!(return_value_pcp_response_2 >= 0))
       errx("%p: failed to exit subdir properly\n");
 
     return 0;
@@ -5881,9 +5881,9 @@ static signed int _pcp_server(struct thd *th)
   svr[0l].preserve = th->pcp_popt;
   svr[0l].target_is_dir = th->pcp_yopt;
   svr[0l].outfile = th->outfile_name;
-  signed int return_value_pcp_server$1;
-  return_value_pcp_server$1=pcp_server(svr);
-  return return_value_pcp_server$1;
+  signed int return_value_pcp_server_1;
+  return_value_pcp_server_1=pcp_server(svr);
+  return return_value_pcp_server_1;
 }
 
 // _pcp_write
@@ -5895,9 +5895,9 @@ static signed int _pcp_write(signed int fd, char *buf, signed int size)
   signed int outbytes;
   while(towrite >= 1)
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(fd, (const void *)bufp, (unsigned long int)towrite);
-    outbytes = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(fd, (const void *)bufp, (unsigned long int)towrite);
+    outbytes = (signed int)return_value_write_1;
     if(!(outbytes >= 1))
       return -1;
 
@@ -5912,9 +5912,9 @@ static signed int _pcp_write(signed int fd, char *buf, signed int size)
 static signed int _pdsh_owner(const char *pdsh_path, unsigned int *pdsh_uid)
 {
   struct stat st;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(pdsh_path, &st);
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(pdsh_path, &st);
+  if(!(return_value_stat_1 >= 0))
   {
     err("%p: Unable to determine ownership of pdsh binary: %m\n");
     return -1;
@@ -5952,13 +5952,13 @@ static signed int _pipecmd(char *path, char **args, signed int *fd2p, signed int
 {
   signed int sp[2l];
   signed int esp[2l];
-  signed int return_value_socketpair$1;
-  return_value_socketpair$1=socketpair(1, 1, 0, sp);
-  signed int return_value_socketpair$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_dup2$4;
-  signed int tmp_if_expr$6;
-  if(!(return_value_socketpair$1 >= 0))
+  signed int return_value_socketpair_1;
+  return_value_socketpair_1=socketpair(1, 1, 0, sp);
+  signed int return_value_socketpair_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_dup2_4;
+  signed int tmp_if_expr_6;
+  if(!(return_value_socketpair_1 >= 0))
   {
     err("%p: pipecmd: socketpair: %m\n");
     return -1;
@@ -5967,8 +5967,8 @@ static signed int _pipecmd(char *path, char **args, signed int *fd2p, signed int
   else
     if(!(fd2p == ((signed int *)NULL)))
     {
-      return_value_socketpair$2=socketpair(1, 1, 0, esp);
-      if(return_value_socketpair$2 >= 0)
+      return_value_socketpair_2=socketpair(1, 1, 0, esp);
+      if(return_value_socketpair_2 >= 0)
         goto __CPROVER_DUMP_L2;
 
       err("%p: pipecmd: socketpair: %m\n");
@@ -5992,30 +5992,30 @@ static signed int _pipecmd(char *path, char **args, signed int *fd2p, signed int
         if(*ppid == 0)
         {
           close(sp[(signed long int)0]);
-          signed int return_value_dup2$3;
-          return_value_dup2$3=dup2(sp[(signed long int)1], 0);
-          if(!(return_value_dup2$3 >= 0))
-            tmp_if_expr$5 = (_Bool)1;
+          signed int return_value_dup2_3;
+          return_value_dup2_3=dup2(sp[(signed long int)1], 0);
+          if(!(return_value_dup2_3 >= 0))
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value_dup2$4=dup2(0, 1);
-            tmp_if_expr$5 = return_value_dup2$4 < 0 ? (_Bool)1 : (_Bool)0;
+            return_value_dup2_4=dup2(0, 1);
+            tmp_if_expr_5 = return_value_dup2_4 < 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
           {
             err("%p: pipecmd (in child): dup2: %m");
             _exit(255);
           }
 
           if(!(fd2p == ((signed int *)NULL)))
-            tmp_if_expr$6 = esp[(signed long int)1];
+            tmp_if_expr_6 = esp[(signed long int)1];
 
           else
-            tmp_if_expr$6 = 0;
-          signed int return_value_dup2$7;
-          return_value_dup2$7=dup2(tmp_if_expr$6, 2);
-          if(!(return_value_dup2$7 >= 0))
+            tmp_if_expr_6 = 0;
+          signed int return_value_dup2_7;
+          return_value_dup2_7=dup2(tmp_if_expr_6, 2);
+          if(!(return_value_dup2_7 >= 0))
           {
             err("%p: pipecmd (in child): dup2: %m");
             _exit(255);
@@ -6050,9 +6050,9 @@ static signed int _poll(struct xpollfd *xfds, unsigned int nfds, signed int time
   signed int i;
   signed int rv;
   struct pollfd *pfds;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc((unsigned long int)nfds * sizeof(struct pollfd) /*8ul*/ );
-  pfds = (struct pollfd *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc((unsigned long int)nfds * sizeof(struct pollfd) /*8ul*/ );
+  pfds = (struct pollfd *)return_value_Malloc_1;
   i = 0;
   for( ; !((unsigned int)i >= nfds); i = i + 1)
   {
@@ -6067,7 +6067,7 @@ static signed int _poll(struct xpollfd *xfds, unsigned int nfds, signed int time
 
   }
   rv=poll(pfds, (unsigned long int)nfds, timeout);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(rv >= 0))
   {
     Free((void **)&pfds);
@@ -6086,11 +6086,11 @@ static signed int _poll(struct xpollfd *xfds, unsigned int nfds, signed int time
         (xfds + (signed long int)i)->revents = (xfds + (signed long int)i)->revents | (signed short int)0x0002;
 
       if(!((0x008 & (signed int)(pfds + (signed long int)i)->revents) == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = ((signed int)(pfds + (signed long int)i)->revents & 0x010) != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = ((signed int)(pfds + (signed long int)i)->revents & 0x010) != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         (xfds + (signed long int)i)->revents = (xfds + (signed long int)i)->revents | (signed short int)0x0020;
 
       if(!((0x020 & (signed int)(pfds + (signed long int)i)->revents) == 0))
@@ -6098,9 +6098,9 @@ static signed int _poll(struct xpollfd *xfds, unsigned int nfds, signed int time
 
     }
     Free((void **)&pfds);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 0;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 0;
     return rv;
   }
 }
@@ -6110,13 +6110,13 @@ static signed int _poll(struct xpollfd *xfds, unsigned int nfds, signed int time
 static void _print_option_help(struct pdsh_module_option *p, signed int col)
 {
   char buf[81l];
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(p->arginfo == ((char *)NULL)))
-    tmp_if_expr$1 = p->arginfo;
+    tmp_if_expr_1 = p->arginfo;
 
   else
-    tmp_if_expr$1 = "";
-  snprintf(buf, (unsigned long int)81, "-%c %-*s %s\n", p->opt, col - 4, tmp_if_expr$1, p->descr);
+    tmp_if_expr_1 = "";
+  snprintf(buf, (unsigned long int)81, "-%c %-*s %s\n", p->opt, col - 4, tmp_if_expr_1, p->descr);
   err("%s", (const void *)buf);
 }
 
@@ -6144,10 +6144,10 @@ static void _push_range_list_with_suffix(struct hostlist *hl, char *pfx, char *s
     j = rng->lo;
     for( ; rng->hi >= j; j = j + 1ul)
     {
-      char _push_range_list_with_suffix$$1$$1$$1$$1$$1$$host[4096l];
+      char _push_range_list_with_suffix__1__1__1__1__1__host[4096l];
       struct hostrange_components *hr;
-      snprintf(_push_range_list_with_suffix$$1$$1$$1$$1$$1$$host, (unsigned long int)4096, "%s%0*lu%s", pfx, rng->width, j, sfx);
-      hr=hostrange_create_single(_push_range_list_with_suffix$$1$$1$$1$$1$$1$$host);
+      snprintf(_push_range_list_with_suffix__1__1__1__1__1__host, (unsigned long int)4096, "%s%0*lu%s", pfx, rng->width, j, sfx);
+      hr=hostrange_create_single(_push_range_list_with_suffix__1__1__1__1__1__host);
       hostlist_push_range(hl, hr);
       hostrange_destroy(hr);
     }
@@ -6164,18 +6164,18 @@ static char * _rcmd_module_list(char *buf, signed int maxlen)
   char rbuf[1024l];
   signed int n;
   n=_module_list_string("rcmd", rbuf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(n == 0))
-    tmp_if_expr$1 = rbuf;
+    tmp_if_expr_1 = rbuf;
 
   else
-    tmp_if_expr$1 = "(none)";
-  len=snprintf(buf, (unsigned long int)maxlen, "%s", tmp_if_expr$1);
-  signed int return_value_mod_count$2;
+    tmp_if_expr_1 = "(none)";
+  len=snprintf(buf, (unsigned long int)maxlen, "%s", tmp_if_expr_1);
+  signed int return_value_mod_count_2;
   if(!(len >= maxlen) && len >= 0)
   {
-    return_value_mod_count$2=mod_count("rcmd");
-    if(return_value_mod_count$2 >= 2)
+    return_value_mod_count_2=mod_count("rcmd");
+    if(return_value_mod_count_2 >= 2)
     {
       char *def;
       def=rcmd_get_default_module();
@@ -6210,21 +6210,21 @@ static void * _rcp_thread(void *args)
   a->start=time((signed long int *)(void *)0);
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&thd_mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&thd_mutex);
+    if(!(*return_value___errno_location_1 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 462);
 
   }
   while((_Bool)0);
-  a->state = (enum anonymous$8)DSH_RCMD;
+  a->state = (enum anonymous_8)DSH_RCMD;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&thd_mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&thd_mutex);
+    if(!(*return_value___errno_location_2 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 464);
 
   }
@@ -6236,45 +6236,45 @@ static void * _rcp_thread(void *args)
     xstrcat(&rcpycmd, a->host);
   }
 
-  char *tmp_if_expr$3;
+  char *tmp_if_expr_3;
   if(!(rcpycmd == ((char *)NULL)))
-    tmp_if_expr$3 = rcpycmd;
+    tmp_if_expr_3 = rcpycmd;
 
   else
-    tmp_if_expr$3 = a->cmd;
-  rcmd_connect(a->rcmd, a->host, a->addr, a->luser, a->ruser, tmp_if_expr$3, a->nodeid, a->dsh_sopt);
+    tmp_if_expr_3 = a->cmd;
+  rcmd_connect(a->rcmd, a->host, a->addr, a->luser, a->ruser, tmp_if_expr_3, a->nodeid, a->dsh_sopt);
   if(!(rcpycmd == ((char *)NULL)))
     Free((void **)&rcpycmd);
 
-  enum anonymous$8 return_value__update_connect_state$4;
+  enum anonymous_8 return_value__update_connect_state_4;
   if(a->rcmd->fd == -1)
     result = DSH_FAILED;
 
   else
   {
-    return_value__update_connect_state$4=_update_connect_state(a);
-    if(!((signed int)return_value__update_connect_state$4 == DSH_CANCELED))
+    return_value__update_connect_state_4=_update_connect_state(a);
+    if(!((signed int)return_value__update_connect_state_4 == DSH_CANCELED))
       _parallel_copy(a);
 
   }
   do
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5=pthread_mutex_lock(&thd_mutex);
-    if(!(*return_value___errno_location$5 == 0))
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5=pthread_mutex_lock(&thd_mutex);
+    if(!(*return_value___errno_location_5 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 485);
 
   }
   while((_Bool)0);
-  a->state = (enum anonymous$8)result;
+  a->state = (enum anonymous_8)result;
   a->finish=time((signed long int *)(void *)0);
   do
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6=pthread_mutex_unlock(&thd_mutex);
-    if(!(*return_value___errno_location$6 == 0))
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6=pthread_mutex_unlock(&thd_mutex);
+    if(!(*return_value___errno_location_6 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 488);
 
   }
@@ -6289,10 +6289,10 @@ static void * _rcp_thread(void *args)
 
   do
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    *return_value___errno_location$7=pthread_mutex_lock(&threadcount_mutex);
-    if(!(*return_value___errno_location$7 == 0))
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    *return_value___errno_location_7=pthread_mutex_lock(&threadcount_mutex);
+    if(!(*return_value___errno_location_7 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 495);
 
   }
@@ -6301,10 +6301,10 @@ static void * _rcp_thread(void *args)
   pthread_cond_signal(&threadcount_cond);
   do
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    *return_value___errno_location$8=pthread_mutex_unlock(&threadcount_mutex);
-    if(!(*return_value___errno_location$8 == 0))
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    *return_value___errno_location_8=pthread_mutex_unlock(&threadcount_mutex);
+    if(!(*return_value___errno_location_8 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 498);
 
   }
@@ -6317,9 +6317,9 @@ static void * _rcp_thread(void *args)
 static signed int _response(struct pcp_server *s)
 {
   char resp;
-  signed long int return_value_read$1;
-  return_value_read$1=read(s->infd, (void *)&resp, sizeof(char) /*1ul*/ );
-  if(!((unsigned long int)return_value_read$1 == sizeof(char) /*1ul*/ ))
+  signed long int return_value_read_1;
+  return_value_read_1=read(s->infd, (void *)&resp, sizeof(char) /*1ul*/ );
+  if(!((unsigned long int)return_value_read_1 == sizeof(char) /*1ul*/ ))
   {
     _error(s, "lost connection\n");
     return -1;
@@ -6349,8 +6349,8 @@ static void _rexpand_dir(struct list *list, char *name)
   if(dir == ((struct __dirstream *)NULL))
     errx("%p: opendir: %s: %m\n", name);
 
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   do
   {
     dp=readdir(dir);
@@ -6359,35 +6359,35 @@ static void _rexpand_dir(struct list *list, char *name)
 
     if(!(dp->d_ino == 0ul))
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(dp->d_name, ".");
-      if(return_value_strcmp$1 == 0)
-        tmp_if_expr$3 = (_Bool)1;
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(dp->d_name, ".");
+      if(return_value_strcmp_1 == 0)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$2=strcmp(dp->d_name, "..");
-        tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_2=strcmp(dp->d_name, "..");
+        tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$3)
+      if(!tmp_if_expr_3)
       {
         snprintf(file, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", name, (const void *)dp->d_name);
-        signed int return_value_stat$4;
-        return_value_stat$4=stat(file, &sb);
-        if(!(return_value_stat$4 >= 0))
+        signed int return_value_stat_4;
+        return_value_stat_4=stat(file, &sb);
+        if(!(return_value_stat_4 >= 0))
           errx("%p: can't stat %s: %m\n", (const void *)file);
 
-        signed int return_value_access$5;
-        return_value_access$5=access(name, 4);
-        if(!(return_value_access$5 >= 0))
+        signed int return_value_access_5;
+        return_value_access_5=access(name, 4);
+        if(!(return_value_access_5 >= 0))
           errx("%p: access: %s: %m\n", name);
 
         if(!((61440u & sb.st_mode) == 16384u) && !((61440u & sb.st_mode) == 32768u))
           errx("%p: not a regular file or directory: %s\n", (const void *)file);
 
-        void *return_value_Malloc$6;
-        return_value_Malloc$6=Malloc(sizeof(struct pcp_filename) /*16ul*/ );
-        pf = (struct pcp_filename *)return_value_Malloc$6;
+        void *return_value_Malloc_6;
+        return_value_Malloc_6=Malloc(sizeof(struct pcp_filename) /*16ul*/ );
+        pf = (struct pcp_filename *)return_value_Malloc_6;
         pf->filename=Strdup(file);
         pf->file_specified_by_user = 0;
         list_append(list, (void *)pf);
@@ -6401,10 +6401,10 @@ static void _rexpand_dir(struct list *list, char *name)
   }
   while((_Bool)1);
   closedir(dir);
-  void *return_value_Malloc$7;
-  return_value_Malloc$7=Malloc(sizeof(struct pcp_filename) /*16ul*/ );
-  pf = (struct pcp_filename *)return_value_Malloc$7;
-  pf->filename=Strdup("a!b@c#d$");
+  void *return_value_Malloc_7;
+  return_value_Malloc_7=Malloc(sizeof(struct pcp_filename) /*16ul*/ );
+  pf = (struct pcp_filename *)return_value_Malloc_7;
+  pf->filename=Strdup("a!b@c#d_");
   pf->file_specified_by_user = 0;
   list_append(list, (void *)pf);
 }
@@ -6422,35 +6422,35 @@ static void * _rsh_thread(void *args)
   _xsignal(13, ((void (*)(signed int))NULL));
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&thd_mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&thd_mutex);
+    if(!(*return_value___errno_location_1 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 653);
 
   }
   while((_Bool)0);
-  a->state = (enum anonymous$8)DSH_RCMD;
+  a->state = (enum anonymous_8)DSH_RCMD;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&thd_mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&thd_mutex);
+    if(!(*return_value___errno_location_2 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 655);
 
   }
   while((_Bool)0);
   rcmd_connect(a->rcmd, a->host, a->addr, a->luser, a->ruser, a->cmd, a->nodeid, a->dsh_sopt);
-  enum anonymous$8 return_value__update_connect_state$7;
-  signed int return_value__thd_command_timeout$3;
+  enum anonymous_8 return_value__update_connect_state_7;
+  signed int return_value__thd_command_timeout_3;
   if(a->rcmd->fd == -1)
     result = DSH_FAILED;
 
   else
   {
-    return_value__update_connect_state$7=_update_connect_state(a);
-    if(!((signed int)return_value__update_connect_state$7 == DSH_CANCELED))
+    return_value__update_connect_state_7=_update_connect_state(a);
+    if(!((signed int)return_value__update_connect_state_7 == DSH_CANCELED))
     {
       fd_set_nonblocking(a->rcmd->fd);
       memset((void *)xpfds, 0, sizeof(struct xpollfd [2l]) /*16ul*/ );
@@ -6478,15 +6478,15 @@ static void * _rsh_thread(void *args)
         rv=xpoll(xpfds, nfds, -1);
         if(rv == -1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 4))
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 4))
             err("%p: %S: xpoll: %m\n", a->host);
 
           else
           {
-            return_value__thd_command_timeout$3=_thd_command_timeout(a);
-            if(!(return_value__thd_command_timeout$3 == 0))
+            return_value__thd_command_timeout_3=_thd_command_timeout(a);
+            if(!(return_value__thd_command_timeout_3 == 0))
               err("%p: %S: command timeout\n", a->host);
 
             else
@@ -6499,9 +6499,9 @@ static void * _rsh_thread(void *args)
 
         if(!((33 & (signed int)xpfds[0l].revents) == 0))
         {
-          signed int return_value__handle_rcmd_stdout$5;
-          return_value__handle_rcmd_stdout$5=_handle_rcmd_stdout(a);
-          if(!(return_value__handle_rcmd_stdout$5 >= 1))
+          signed int return_value__handle_rcmd_stdout_5;
+          return_value__handle_rcmd_stdout_5=_handle_rcmd_stdout(a);
+          if(!(return_value__handle_rcmd_stdout_5 >= 1))
             xpfds[(signed long int)0].fd = -1;
 
         }
@@ -6510,9 +6510,9 @@ static void * _rsh_thread(void *args)
         {
           if(!((33 & (signed int)xpfds[1l].revents) == 0))
           {
-            signed int return_value__handle_rcmd_stderr$6;
-            return_value__handle_rcmd_stderr$6=_handle_rcmd_stderr(a);
-            if(!(return_value__handle_rcmd_stderr$6 >= 1))
+            signed int return_value__handle_rcmd_stderr_6;
+            return_value__handle_rcmd_stderr_6=_handle_rcmd_stderr(a);
+            if(!(return_value__handle_rcmd_stderr_6 >= 1))
               xpfds[(signed long int)1].fd = -1;
 
           }
@@ -6531,22 +6531,22 @@ static void * _rsh_thread(void *args)
 
   __CPROVER_DUMP_L19:
     ;
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    *return_value___errno_location$8=pthread_mutex_lock(&thd_mutex);
-    if(!(*return_value___errno_location$8 == 0))
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    *return_value___errno_location_8=pthread_mutex_lock(&thd_mutex);
+    if(!(*return_value___errno_location_8 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 728);
 
   }
   while((_Bool)0);
-  a->state = (enum anonymous$8)result;
+  a->state = (enum anonymous_8)result;
   a->finish=time((signed long int *)(void *)0);
   do
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    *return_value___errno_location$9=pthread_mutex_unlock(&thd_mutex);
-    if(!(*return_value___errno_location$9 == 0))
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    *return_value___errno_location_9=pthread_mutex_unlock(&thd_mutex);
+    if(!(*return_value___errno_location_9 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 731);
 
   }
@@ -6573,10 +6573,10 @@ static void * _rsh_thread(void *args)
 
   do
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    *return_value___errno_location$10=pthread_mutex_lock(&threadcount_mutex);
-    if(!(*return_value___errno_location$10 == 0))
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    *return_value___errno_location_10=pthread_mutex_lock(&threadcount_mutex);
+    if(!(*return_value___errno_location_10 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 748);
 
   }
@@ -6585,10 +6585,10 @@ static void * _rsh_thread(void *args)
   pthread_cond_signal(&threadcount_cond);
   do
   {
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    *return_value___errno_location$11=pthread_mutex_unlock(&threadcount_mutex);
-    if(!(*return_value___errno_location$11 == 0))
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    *return_value___errno_location_11=pthread_mutex_unlock(&threadcount_mutex);
+    if(!(*return_value___errno_location_11 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 751);
 
   }
@@ -6629,17 +6629,17 @@ static void _show_version(void)
   char buf[1024l];
   signed int n;
   printf("%s\n", pdsh_version);
-  char *return_value__rcmd_module_list$1;
-  return_value__rcmd_module_list$1=_rcmd_module_list(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-  printf("rcmd modules: %s\n", return_value__rcmd_module_list$1);
+  char *return_value__rcmd_module_list_1;
+  return_value__rcmd_module_list_1=_rcmd_module_list(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+  printf("rcmd modules: %s\n", return_value__rcmd_module_list_1);
   n=_module_list_string("misc", buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-  char *tmp_if_expr$2;
+  char *tmp_if_expr_2;
   if(!(n == 0))
-    tmp_if_expr$2 = buf;
+    tmp_if_expr_2 = buf;
 
   else
-    tmp_if_expr$2 = "(none)";
-  printf("misc modules: %s", tmp_if_expr$2);
+    tmp_if_expr_2 = "(none)";
+  printf("misc modules: %s", tmp_if_expr_2);
   n=_module_list_uninitialized("misc", buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
   if(!(n == 0))
   {
@@ -6656,7 +6656,7 @@ static void _show_version(void)
 // file dsh.c line 951
 static void * _signals_thread(void *arg)
 {
-  struct anonymous$11 set;
+  struct anonymous_11 set;
   signed long int last_intr = (signed long int)0;
   signed int signo;
   signed int e;
@@ -6671,9 +6671,9 @@ static void * _signals_thread(void *arg)
       if(e == 4)
         continue;
 
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(e);
-      err("sigwait: %s\n", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(e);
+      err("sigwait: %s\n", return_value_strerror_1);
     }
 
     switch(signo)
@@ -6702,12 +6702,12 @@ static void _sink(struct pcp_server *svr, char *targ, struct _buf *bufp)
   char *cp;
   struct stat stb;
   struct timeval tv[2l];
-  /* #anon_enum$YES=0$NO=1$DISPLAYED=2 */
-enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
+  /* #anon_enum_YES=0_NO=1_DISPLAYED=2 */
+enum anonymous_4 { YES=0, NO=1, DISPLAYED=2 };
 
 /* */
   ;
-  enum anonymous$4 wrerr;
+  enum anonymous_4 wrerr;
   struct _buf *bp;
   signed long int i;
   signed long int j;
@@ -6726,32 +6726,32 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
   char *np;
   char *buf = (char *)(void *)0;
   char *namebuf = (char *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)8192);
-  buf = (char *)return_value_malloc$1;
-  char *tmp_post$6;
-  char *tmp_post$8;
-  _Bool tmp_if_expr$9;
-  const unsigned short int **return_value___ctype_b_loc$10;
-  char *tmp_post$11;
-  char *tmp_post$12;
-  const unsigned short int **return_value___ctype_b_loc$13;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  const unsigned short int **return_value___ctype_b_loc$16;
-  char *tmp_post$17;
-  char *tmp_post$18;
-  const unsigned short int **return_value___ctype_b_loc$19;
-  char *tmp_post$20;
-  char *tmp_post$21;
-  _Bool tmp_if_expr$22;
-  char *tmp_post$23;
-  const unsigned short int **return_value___ctype_b_loc$24;
-  char *tmp_post$25;
-  char *tmp_post$26;
-  signed int return_value_mkdir$32;
-  signed long int return_value_write$34;
-  signed long int return_value_write$35;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)8192);
+  buf = (char *)return_value_malloc_1;
+  char *tmp_post_6;
+  char *tmp_post_8;
+  _Bool tmp_if_expr_9;
+  const unsigned short int **return_value___ctype_b_loc_10;
+  char *tmp_post_11;
+  char *tmp_post_12;
+  const unsigned short int **return_value___ctype_b_loc_13;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  const unsigned short int **return_value___ctype_b_loc_16;
+  char *tmp_post_17;
+  char *tmp_post_18;
+  const unsigned short int **return_value___ctype_b_loc_19;
+  char *tmp_post_20;
+  char *tmp_post_21;
+  _Bool tmp_if_expr_22;
+  char *tmp_post_23;
+  const unsigned short int **return_value___ctype_b_loc_24;
+  char *tmp_post_25;
+  char *tmp_post_26;
+  signed int return_value_mkdir_32;
+  signed long int return_value_write_34;
+  signed long int return_value_write_35;
   if(buf == ((char *)NULL))
     _error(svr, "out of memory for buf: %m\n");
 
@@ -6759,25 +6759,25 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
   {
     targisdir = 0;
     setimes = targisdir;
-    unsigned int return_value_umask$2;
-    return_value_umask$2=umask((unsigned int)0);
-    mask = (signed int)return_value_umask$2;
+    unsigned int return_value_umask_2;
+    return_value_umask_2=umask((unsigned int)0);
+    mask = (signed int)return_value_umask_2;
     if(svr->preserve == /*enum*/false)
       umask((unsigned int)mask);
 
     if(!(svr->target_is_dir == /*enum*/false))
     {
-      signed int return_value__verifydir$3;
-      return_value__verifydir$3=_verifydir(svr, svr->outfile);
-      if(!(return_value__verifydir$3 >= 0))
+      signed int return_value__verifydir_3;
+      return_value__verifydir_3=_verifydir(svr, svr->outfile);
+      if(!(return_value__verifydir_3 >= 0))
         goto __CPROVER_DUMP_L71;
 
     }
 
     write(svr->outfd, (const void *)"", (unsigned long int)1);
-    signed int return_value_stat$4;
-    return_value_stat$4=stat(targ, &stb);
-    if(return_value_stat$4 == 0)
+    signed int return_value_stat_4;
+    return_value_stat_4=stat(targ, &stb);
+    if(return_value_stat_4 == 0)
     {
       if((61440u & stb.st_mode) == 16384u)
         targisdir = 1;
@@ -6788,15 +6788,15 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
     {
       signed int rc;
       cp = buf;
-      signed long int return_value_read$5;
-      return_value_read$5=read(svr->infd, (void *)cp, (unsigned long int)1);
-      rc = (signed int)return_value_read$5;
+      signed long int return_value_read_5;
+      return_value_read_5=read(svr->infd, (void *)cp, (unsigned long int)1);
+      rc = (signed int)return_value_read_5;
       if(!(rc >= 1))
         goto end_server;
 
-      tmp_post$6 = cp;
+      tmp_post_6 = cp;
       cp = cp + 1l;
-      if((signed int)*tmp_post$6 == 10)
+      if((signed int)*tmp_post_6 == 10)
       {
         why = "unexpected <newline>";
         break;
@@ -6804,26 +6804,26 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
 
       do
       {
-        signed long int return_value_read$7;
-        return_value_read$7=read(svr->infd, (void *)&ch, sizeof(char) /*1ul*/ );
-        if(!((unsigned long int)return_value_read$7 == sizeof(char) /*1ul*/ ))
+        signed long int return_value_read_7;
+        return_value_read_7=read(svr->infd, (void *)&ch, sizeof(char) /*1ul*/ );
+        if(!((unsigned long int)return_value_read_7 == sizeof(char) /*1ul*/ ))
         {
           why = "lost connection";
           goto screwup;
         }
 
-        tmp_post$8 = cp;
+        tmp_post_8 = cp;
         cp = cp + 1l;
-        *tmp_post$8 = ch;
+        *tmp_post_8 = ch;
       }
       while(!((signed int)ch == 10) && !(cp >= buf + 8191l));
       *cp = (char)0;
       if((signed int)*buf == 1)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = (signed int)buf[(signed long int)0] == 2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (signed int)buf[(signed long int)0] == 2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
       {
         if((signed int)*buf == 2)
           goto end_server;
@@ -6852,18 +6852,18 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
           tv[(signed long int)1].tv_sec = (signed long int)0;
           do
           {
-            return_value___ctype_b_loc$10=__ctype_b_loc();
-            if((2048 & (signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)*cp]) == 0)
+            return_value___ctype_b_loc_10=__ctype_b_loc();
+            if((2048 & (signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)*cp]) == 0)
               break;
 
-            tmp_post$11 = cp;
+            tmp_post_11 = cp;
             cp = cp + 1l;
-            tv[(signed long int)1].tv_sec = tv[(signed long int)1].tv_sec * (signed long int)10 + (signed long int)((signed int)*tmp_post$11 - 48);
+            tv[(signed long int)1].tv_sec = tv[(signed long int)1].tv_sec * (signed long int)10 + (signed long int)((signed int)*tmp_post_11 - 48);
           }
           while((_Bool)1);
-          tmp_post$12 = cp;
+          tmp_post_12 = cp;
           cp = cp + 1l;
-          if(!((signed int)*tmp_post$12 == 32))
+          if(!((signed int)*tmp_post_12 == 32))
           {
             why = "mtime.sec not delimited";
             break;
@@ -6872,18 +6872,18 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
           tv[(signed long int)1].tv_usec = (signed long int)0;
           do
           {
-            return_value___ctype_b_loc$13=__ctype_b_loc();
-            if((2048 & (signed int)(*return_value___ctype_b_loc$13)[(signed long int)(signed int)*cp]) == 0)
+            return_value___ctype_b_loc_13=__ctype_b_loc();
+            if((2048 & (signed int)(*return_value___ctype_b_loc_13)[(signed long int)(signed int)*cp]) == 0)
               break;
 
-            tmp_post$14 = cp;
+            tmp_post_14 = cp;
             cp = cp + 1l;
-            tv[(signed long int)1].tv_usec = tv[(signed long int)1].tv_usec * (signed long int)10 + (signed long int)((signed int)*tmp_post$14 - 48);
+            tv[(signed long int)1].tv_usec = tv[(signed long int)1].tv_usec * (signed long int)10 + (signed long int)((signed int)*tmp_post_14 - 48);
           }
           while((_Bool)1);
-          tmp_post$15 = cp;
+          tmp_post_15 = cp;
           cp = cp + 1l;
-          if(!((signed int)*tmp_post$15 == 32))
+          if(!((signed int)*tmp_post_15 == 32))
           {
             why = "mtime.usec not delimited";
             break;
@@ -6892,18 +6892,18 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
           tv[(signed long int)0].tv_sec = (signed long int)0;
           do
           {
-            return_value___ctype_b_loc$16=__ctype_b_loc();
-            if((2048 & (signed int)(*return_value___ctype_b_loc$16)[(signed long int)(signed int)*cp]) == 0)
+            return_value___ctype_b_loc_16=__ctype_b_loc();
+            if((2048 & (signed int)(*return_value___ctype_b_loc_16)[(signed long int)(signed int)*cp]) == 0)
               break;
 
-            tmp_post$17 = cp;
+            tmp_post_17 = cp;
             cp = cp + 1l;
-            tv[(signed long int)0].tv_sec = tv[(signed long int)0].tv_sec * (signed long int)10 + (signed long int)((signed int)*tmp_post$17 - 48);
+            tv[(signed long int)0].tv_sec = tv[(signed long int)0].tv_sec * (signed long int)10 + (signed long int)((signed int)*tmp_post_17 - 48);
           }
           while((_Bool)1);
-          tmp_post$18 = cp;
+          tmp_post_18 = cp;
           cp = cp + 1l;
-          if(!((signed int)*tmp_post$18 == 32))
+          if(!((signed int)*tmp_post_18 == 32))
           {
             why = "atime.sec not delimited";
             break;
@@ -6912,18 +6912,18 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
           tv[(signed long int)0].tv_usec = (signed long int)0;
           do
           {
-            return_value___ctype_b_loc$19=__ctype_b_loc();
-            if((2048 & (signed int)(*return_value___ctype_b_loc$19)[(signed long int)(signed int)*cp]) == 0)
+            return_value___ctype_b_loc_19=__ctype_b_loc();
+            if((2048 & (signed int)(*return_value___ctype_b_loc_19)[(signed long int)(signed int)*cp]) == 0)
               break;
 
-            tmp_post$20 = cp;
+            tmp_post_20 = cp;
             cp = cp + 1l;
-            tv[(signed long int)0].tv_usec = tv[(signed long int)0].tv_usec * (signed long int)10 + (signed long int)((signed int)*tmp_post$20 - 48);
+            tv[(signed long int)0].tv_usec = tv[(signed long int)0].tv_usec * (signed long int)10 + (signed long int)((signed int)*tmp_post_20 - 48);
           }
           while((_Bool)1);
-          tmp_post$21 = cp;
+          tmp_post_21 = cp;
           cp = cp + 1l;
-          if(!((signed int)*tmp_post$21 == 0))
+          if(!((signed int)*tmp_post_21 == 0))
           {
             why = "atime.usec not delimited";
             break;
@@ -6948,11 +6948,11 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
         for( ; !(cp >= buf + 5l); cp = cp + 1l)
         {
           if(!((signed int)*cp >= 48))
-            tmp_if_expr$22 = (_Bool)1;
+            tmp_if_expr_22 = (_Bool)1;
 
           else
-            tmp_if_expr$22 = (signed int)*cp > 55 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$22)
+            tmp_if_expr_22 = (signed int)*cp > 55 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_22)
           {
             why = "bad mode";
             goto screwup;
@@ -6960,9 +6960,9 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
 
           mode = mode << 3 | (signed int)*cp - 48;
         }
-        tmp_post$23 = cp;
+        tmp_post_23 = cp;
         cp = cp + 1l;
-        if(!((signed int)*tmp_post$23 == 32))
+        if(!((signed int)*tmp_post_23 == 32))
         {
           why = "mode not delimited";
           break;
@@ -6971,18 +6971,18 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
         size = (signed long int)0;
         do
         {
-          return_value___ctype_b_loc$24=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$24)[(signed long int)(signed int)*cp]) == 0)
+          return_value___ctype_b_loc_24=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_24)[(signed long int)(signed int)*cp]) == 0)
             break;
 
-          tmp_post$25 = cp;
+          tmp_post_25 = cp;
           cp = cp + 1l;
-          size = size * (signed long int)10 + (signed long int)((signed int)*tmp_post$25 - 48);
+          size = size * (signed long int)10 + (signed long int)((signed int)*tmp_post_25 - 48);
         }
         while((_Bool)1);
-        tmp_post$26 = cp;
+        tmp_post_26 = cp;
         cp = cp + 1l;
-        if(!((signed int)*tmp_post$26 == 32))
+        if(!((signed int)*tmp_post_26 == 32))
         {
           why = "size not delimited";
           break;
@@ -6991,19 +6991,19 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
         if(!(targisdir == 0))
         {
           signed int need;
-          unsigned long int return_value_strlen$27;
-          return_value_strlen$27=strlen(targ);
-          unsigned long int return_value_strlen$28;
-          return_value_strlen$28=strlen(cp);
-          need = (signed int)(return_value_strlen$27 + return_value_strlen$28 + (unsigned long int)250);
+          unsigned long int return_value_strlen_27;
+          return_value_strlen_27=strlen(targ);
+          unsigned long int return_value_strlen_28;
+          return_value_strlen_28=strlen(cp);
+          need = (signed int)(return_value_strlen_27 + return_value_strlen_28 + (unsigned long int)250);
           if(!(cursize >= need))
           {
             if(!(namebuf == ((char *)NULL)))
               free((void *)namebuf);
 
-            void *return_value_malloc$29;
-            return_value_malloc$29=malloc((unsigned long int)need);
-            namebuf = (char *)return_value_malloc$29;
+            void *return_value_malloc_29;
+            return_value_malloc_29=malloc((unsigned long int)need);
+            namebuf = (char *)return_value_malloc_29;
             if(namebuf == ((char *)NULL))
             {
               _error(svr, "out of memory\n");
@@ -7020,18 +7020,18 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
 
         else
           np = targ;
-        signed int return_value_stat$30;
-        return_value_stat$30=stat(np, &stb);
-        exists = (signed int)(return_value_stat$30 == 0);
+        signed int return_value_stat_30;
+        return_value_stat_30=stat(np, &stb);
+        exists = (signed int)(return_value_stat_30 == 0);
         if((signed int)*buf == 68)
         {
           if(!(exists == 0))
           {
             if(!((61440u & stb.st_mode) == 16384u))
             {
-              signed int *return_value___errno_location$31;
-              return_value___errno_location$31=__errno_location();
-              *return_value___errno_location$31 = 20;
+              signed int *return_value___errno_location_31;
+              return_value___errno_location_31=__errno_location();
+              *return_value___errno_location_31 = 20;
               goto bad;
             }
 
@@ -7042,8 +7042,8 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
 
           else
           {
-            return_value_mkdir$32=mkdir(np, (unsigned int)mode);
-            if(!(return_value_mkdir$32 >= 0))
+            return_value_mkdir_32=mkdir(np, (unsigned int)mode);
+            if(!(return_value_mkdir_32 >= 0))
               goto bad;
 
           }
@@ -7051,9 +7051,9 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
           if(!(setimes == 0))
           {
             setimes = 0;
-            signed int return_value_utimes$33;
-            return_value_utimes$33=utimes(np, tv);
-            if(!(return_value_utimes$33 >= 0))
+            signed int return_value_utimes_33;
+            return_value_utimes_33=utimes(np, tv);
+            if(!(return_value_utimes_33 >= 0))
               _error(svr, "can't set times on %s: %m\n", np);
 
           }
@@ -7088,7 +7088,7 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
           {
             cp = bp->buf;
             count = 0;
-            wrerr = (enum anonymous$4)NO;
+            wrerr = (enum anonymous_4)NO;
             i = (signed long int)0;
             for( ; !(i >= size); i = i + (signed long int)8192)
             {
@@ -7114,9 +7114,9 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
               {
                 if((signed int)wrerr == NO)
                 {
-                  return_value_write$34=write(ofd, (const void *)bp->buf, (unsigned long int)count);
-                  if(!(return_value_write$34 == (signed long int)count))
-                    wrerr = (enum anonymous$4)YES;
+                  return_value_write_34=write(ofd, (const void *)bp->buf, (unsigned long int)count);
+                  if(!(return_value_write_34 == (signed long int)count))
+                    wrerr = (enum anonymous_4)YES;
 
                 }
 
@@ -7127,35 +7127,35 @@ enum anonymous$4 { YES=0, NO=1, DISPLAYED=2 };
             }
             if((signed int)wrerr == NO && !(count == 0))
             {
-              return_value_write$35=write(ofd, (const void *)bp->buf, (unsigned long int)count);
-              if(!(return_value_write$35 == (signed long int)count))
-                wrerr = (enum anonymous$4)YES;
+              return_value_write_35=write(ofd, (const void *)bp->buf, (unsigned long int)count);
+              if(!(return_value_write_35 == (signed long int)count))
+                wrerr = (enum anonymous_4)YES;
 
             }
 
-            signed int return_value_ftruncate$36;
-            return_value_ftruncate$36=ftruncate(ofd, size);
-            if(!(return_value_ftruncate$36 == 0))
+            signed int return_value_ftruncate_36;
+            return_value_ftruncate_36=ftruncate(ofd, size);
+            if(!(return_value_ftruncate_36 == 0))
             {
               _error(svr, "can't truncate %s: %m\n", np);
-              wrerr = (enum anonymous$4)DISPLAYED;
+              wrerr = (enum anonymous_4)DISPLAYED;
             }
 
             close(ofd);
-            signed int return_value__response$37;
-            return_value__response$37=_response(svr);
-            if(!(return_value__response$37 >= 0))
+            signed int return_value__response_37;
+            return_value__response_37=_response(svr);
+            if(!(return_value__response_37 >= 0))
               goto end_server;
 
             if((signed int)wrerr == NO && !(setimes == 0))
             {
               setimes = 0;
-              signed int return_value_utimes$38;
-              return_value_utimes$38=utimes(np, tv);
-              if(!(return_value_utimes$38 >= 0))
+              signed int return_value_utimes_38;
+              return_value_utimes_38=utimes(np, tv);
+              if(!(return_value_utimes_38 >= 0))
               {
                 _error(svr, "can't set times on %s: %m\n", np);
-                wrerr = (enum anonymous$4)DISPLAYED;
+                wrerr = (enum anonymous_4)DISPLAYED;
               }
 
             }
@@ -7205,18 +7205,18 @@ __CPROVER_DUMP_L71:
 static void _strcatchar(char *str, char c)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)return_value_strlen$1;
-  signed int tmp_post$2 = len;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)return_value_strlen_1;
+  signed int tmp_post_2 = len;
   len = len + 1;
-  str[(signed long int)tmp_post$2] = c;
+  str[(signed long int)tmp_post_2] = c;
   str[(signed long int)len] = (char)0;
 }
 
 // _test_pipecmd
 // file testcase.c line 91
-static enum anonymous$6 _test_pipecmd(void)
+static enum anonymous_6 _test_pipecmd(void)
 {
   const char expected[27l] = { 'h', 'o', 's', 't', '=', 'f', 'o', 'o', '0', ' ', 'u', 's', 'e', 'r', '=', 'f', 'o', 'o', 'u', 's', 'e', 'r', ' ', 'n', '=', '0', 0 };
   const char *args[4l] = { "host=%h", "user=%u", "n=%n", (const char *)(void *)0 };
@@ -7225,34 +7225,34 @@ static enum anonymous$6 _test_pipecmd(void)
   struct pipe_info_struct *p;
   p=pipecmd("/bin/echo", args, "foo0", "foouser", 0);
   if(p == ((struct pipe_info_struct *)NULL))
-    return (enum anonymous$6)FAIL;
+    return (enum anonymous_6)FAIL;
 
   else
   {
-    signed int return_value_pipecmd_stdoutfd$1;
-    return_value_pipecmd_stdoutfd$1=pipecmd_stdoutfd(p);
-    signed long int return_value_fd_read_n$2;
-    return_value_fd_read_n$2=fd_read_n(return_value_pipecmd_stdoutfd$1, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
-    n = (signed int)return_value_fd_read_n$2;
+    signed int return_value_pipecmd_stdoutfd_1;
+    return_value_pipecmd_stdoutfd_1=pipecmd_stdoutfd(p);
+    signed long int return_value_fd_read_n_2;
+    return_value_fd_read_n_2=fd_read_n(return_value_pipecmd_stdoutfd_1, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
+    n = (signed int)return_value_fd_read_n_2;
     if(!(n >= 0))
-      return (enum anonymous$6)FAIL;
+      return (enum anonymous_6)FAIL;
 
     else
     {
       buf[(signed long int)(n - 1)] = (char)0;
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(expected, buf);
-      if(!(return_value_strcmp$3 == 0))
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(expected, buf);
+      if(!(return_value_strcmp_3 == 0))
       {
         err("testcase: pipecmd: expected \"%s\" got \"%s\"\n", (const void *)expected, (const void *)buf);
-        return (enum anonymous$6)FAIL;
+        return (enum anonymous_6)FAIL;
       }
 
       else
       {
         pipecmd_wait(p, (signed int *)(void *)0);
         pipecmd_destroy(p);
-        return (enum anonymous$6)PASS;
+        return (enum anonymous_6)PASS;
       }
     }
   }
@@ -7260,26 +7260,26 @@ static enum anonymous$6 _test_pipecmd(void)
 
 // _test_xstrerrorcat
 // file testcase.c line 71
-static enum anonymous$6 _test_xstrerrorcat(void)
+static enum anonymous_6 _test_xstrerrorcat(void)
 {
   signed int e;
-  enum anonymous$6 result = (enum anonymous$6)PASS;
+  enum anonymous_6 result = (enum anonymous_6)PASS;
   e = 1;
   for( ; !(e >= 100); e = e + 1)
   {
     char *s1 = (char *)(void *)0;
     char *s2;
     s2=strerror(e);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = e;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = e;
     xstrerrorcat(&s1);
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(s1, s2);
-    if(!(return_value_strcmp$2 == 0))
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(s1, s2);
+    if(!(return_value_strcmp_2 == 0))
     {
       err("xsterrorcat (errno=%d) = \"%s\" (should be \"%s\")\n", e, s1, s2);
-      result = (enum anonymous$6)FAIL;
+      result = (enum anonymous_6)FAIL;
     }
 
     Free((void **)&s1);
@@ -7289,7 +7289,7 @@ static enum anonymous$6 _test_xstrerrorcat(void)
 
 // _testmsg
 // file testcase.c line 65
-static void _testmsg(signed int testnum, enum anonymous$6 result)
+static void _testmsg(signed int testnum, enum anonymous_6 result)
 {
   out("%P: Test %d: %s: %s\n", testnum, testcases[(signed long int)testnum].desc, (signed int)result == PASS ? "PASS" : "FAIL");
 }
@@ -7302,9 +7302,9 @@ static signed int _thd_command_timeout(struct thd *t)
   {
     if(!(t->connect == -1l))
     {
-      signed long int return_value_time$1;
-      return_value_time$1=time((signed long int *)(void *)0);
-      if(!(t->connect + (signed long int)command_timeout >= return_value_time$1))
+      signed long int return_value_time_1;
+      return_value_time_1=time((signed long int *)(void *)0);
+      if(!(t->connect + (signed long int)command_timeout >= return_value_time_1))
         return 1;
 
     }
@@ -7322,9 +7322,9 @@ static signed int _thd_connect_timeout(struct thd *t)
   {
     if(!(t->start == -1l))
     {
-      signed long int return_value_time$1;
-      return_value_time$1=time((signed long int *)(void *)0);
-      if(!(t->start + (signed long int)connect_timeout >= return_value_time$1))
+      signed long int return_value_time_1;
+      return_value_time_1=time((signed long int *)(void *)0);
+      if(!(t->start + (signed long int)connect_timeout >= return_value_time_1))
         return 1;
 
     }
@@ -7336,11 +7336,11 @@ static signed int _thd_connect_timeout(struct thd *t)
 
 // _thd_init
 // file dsh.c line 849
-static signed int _thd_init(struct thd *th, struct anonymous$1 *opt, struct list *pcp_infiles, signed int i)
+static signed int _thd_init(struct thd *th, struct anonymous_1 *opt, struct list *pcp_infiles, signed int i)
 {
   th->luser = opt->luser;
   th->ruser = opt->ruser;
-  th->state = (enum anonymous$8)DSH_NEW;
+  th->state = (enum anonymous_8)DSH_NEW;
   th->labels = opt->labels;
   th->nodeid = i;
   th->cmd = opt->cmd;
@@ -7361,7 +7361,7 @@ static signed int _thd_init(struct thd *th, struct anonymous$1 *opt, struct list
   th->rcmd=rcmd_create(th->host);
   if(th->rcmd == ((struct rcmd_info *)NULL))
   {
-    th->state = (enum anonymous$8)DSH_CANCELED;
+    th->state = (enum anonymous_8)DSH_CANCELED;
     return -1;
   }
 
@@ -7376,28 +7376,28 @@ static signed int _thd_init(struct thd *th, struct anonymous$1 *opt, struct list
 
 // _update_connect_state
 // file dsh.c line 349
-static enum anonymous$8 _update_connect_state(struct thd *a)
+static enum anonymous_8 _update_connect_state(struct thd *a)
 {
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&thd_mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&thd_mutex);
+    if(!(*return_value___errno_location_1 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 351);
 
   }
   while((_Bool)0);
   a->connect=time((signed long int *)(void *)0);
   if(!((signed int)a->state == DSH_CANCELED))
-    a->state = (enum anonymous$8)DSH_READING;
+    a->state = (enum anonymous_8)DSH_READING;
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&thd_mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&thd_mutex);
+    if(!(*return_value___errno_location_2 == 0))
       errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 355);
 
   }
@@ -7417,7 +7417,7 @@ static enum anonymous$8 _update_connect_state(struct thd *a)
 
 // _usage
 // file opt.c line 1118
-static void _usage(struct anonymous$1 *opt)
+static void _usage(struct anonymous_1 *opt)
 {
   char buf[1024l];
   if((signed int)personality == DSH)
@@ -7431,9 +7431,9 @@ static void _usage(struct anonymous$1 *opt)
       err("Usage: rpdcp [-options] src [src2...] dir\n-r                recursively copy files\n-p                preserve modification time and modes\n");
   err("-h                output usage menu and quit\n-V                output version information and quit\n-q                list the option settings and quit\n-b                disable ^C status feature (batch mode)\n-d                enable extra debug information from ^C status\n-l user           execute remote commands as user\n-t seconds        set connect timeout (default is 10 sec)\n-u seconds        set command timeout (no default)\n-f n              use fanout of n nodes\n-w host,host,...  set target node list on command line\n-x host,host,...  set node exclusion list on command line\n-R name           set rcmd module to name\n-M name,...       select one or more misc modules to initialize first\n-N                disable hostname: labels on output lines\n-L                list info on all loaded modules and exit\n");
   mod_print_all_options(18);
-  char *return_value__rcmd_module_list$1;
-  return_value__rcmd_module_list$1=_rcmd_module_list(buf, 1024);
-  err("available rcmd modules: %s\n", return_value__rcmd_module_list$1);
+  char *return_value__rcmd_module_list_1;
+  return_value__rcmd_module_list_1=_rcmd_module_list(buf, 1024);
+  err("available rcmd modules: %s\n", return_value__rcmd_module_list_1);
   exit(1);
 }
 
@@ -7442,16 +7442,16 @@ static void _usage(struct anonymous$1 *opt)
 static signed int _verifydir(struct pcp_server *s, const char *cp)
 {
   struct stat stb;
-  signed int return_value_stat$2;
-  return_value_stat$2=stat(cp, &stb);
-  if(return_value_stat$2 >= 0)
+  signed int return_value_stat_2;
+  return_value_stat_2=stat(cp, &stb);
+  if(return_value_stat_2 >= 0)
   {
     if((61440u & stb.st_mode) == 16384u)
       return 0;
 
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 20;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 20;
   }
 
   _error(s, "%s not a directory\n", cp);
@@ -7476,20 +7476,20 @@ static void _verr(struct _IO_FILE *stream, char *format, __builtin_va_list ap)
       percent = 0;
       if((signed int)*format == 115)
       {
-        char *return_value_gcc_builtin_va_arg$1;
-        return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-        xstrcat(&buf, return_value_gcc_builtin_va_arg$1);
+        char *return_value_gcc_builtin_va_arg_1;
+        return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+        xstrcat(&buf, return_value_gcc_builtin_va_arg_1);
       }
 
       else
         if((signed int)*format == 83)
         {
-          char *return_value_gcc_builtin_va_arg$2;
-          return_value_gcc_builtin_va_arg$2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$2));
-          snprintf(tmpstr, sizeof(char [2048l]) /*2048ul*/ , "%s", return_value_gcc_builtin_va_arg$2);
-          const unsigned short int **return_value___ctype_b_loc$3;
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)tmpstr[0l]]) == 0)
+          char *return_value_gcc_builtin_va_arg_2;
+          return_value_gcc_builtin_va_arg_2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_2));
+          snprintf(tmpstr, sizeof(char [2048l]) /*2048ul*/ , "%s", return_value_gcc_builtin_va_arg_2);
+          const unsigned short int **return_value___ctype_b_loc_3;
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)tmpstr[0l]]) == 0)
           {
             if(keep_host_domain == /*enum*/false)
             {
@@ -7507,26 +7507,26 @@ static void _verr(struct _IO_FILE *stream, char *format, __builtin_va_list ap)
         else
           if((signed int)*format == 122)
           {
-            signed int return_value_gcc_builtin_va_arg$4;
-            return_value_gcc_builtin_va_arg$4=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$4));
-            snprintf(tmpstr, sizeof(char [2048l]) /*2048ul*/ , "%.3d", return_value_gcc_builtin_va_arg$4);
+            signed int return_value_gcc_builtin_va_arg_4;
+            return_value_gcc_builtin_va_arg_4=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_4));
+            snprintf(tmpstr, sizeof(char [2048l]) /*2048ul*/ , "%.3d", return_value_gcc_builtin_va_arg_4);
             xstrcat(&buf, tmpstr);
           }
 
           else
             if((signed int)*format == 99)
             {
-              signed int return_value_gcc_builtin_va_arg$5;
-              return_value_gcc_builtin_va_arg$5=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$5));
-              xstrcatchar(&buf, (char)return_value_gcc_builtin_va_arg$5);
+              signed int return_value_gcc_builtin_va_arg_5;
+              return_value_gcc_builtin_va_arg_5=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_5));
+              xstrcatchar(&buf, (char)return_value_gcc_builtin_va_arg_5);
             }
 
             else
               if((signed int)*format == 100)
               {
-                signed int return_value_gcc_builtin_va_arg$6;
-                return_value_gcc_builtin_va_arg$6=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$6));
-                snprintf(tmpstr, sizeof(char [2048l]) /*2048ul*/ , "%d", return_value_gcc_builtin_va_arg$6);
+                signed int return_value_gcc_builtin_va_arg_6;
+                return_value_gcc_builtin_va_arg_6=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_6));
+                snprintf(tmpstr, sizeof(char [2048l]) /*2048ul*/ , "%d", return_value_gcc_builtin_va_arg_6);
                 xstrcat(&buf, tmpstr);
               }
 
@@ -7569,8 +7569,8 @@ static void _verr(struct _IO_FILE *stream, char *format, __builtin_va_list ap)
 static void * _wdog(void *args)
 {
   signed int i;
-  signed int return_value__thd_connect_timeout$1;
-  signed int return_value__thd_command_timeout$2;
+  signed int return_value__thd_connect_timeout_1;
+  signed int return_value__thd_command_timeout_2;
   while((_Bool)1)
   {
     if(t == ((struct thd *)NULL))
@@ -7582,16 +7582,16 @@ static void * _wdog(void *args)
       {
         case DSH_RCMD:
         {
-          return_value__thd_connect_timeout$1=_thd_connect_timeout(&t[(signed long int)i]);
-          if(!(return_value__thd_connect_timeout$1 == 0))
+          return_value__thd_connect_timeout_1=_thd_connect_timeout(&t[(signed long int)i]);
+          if(!(return_value__thd_connect_timeout_1 == 0))
             pthread_kill((t + (signed long int)i)->thread, 14);
 
           goto __CPROVER_DUMP_L9;
         }
         case DSH_READING:
         {
-          return_value__thd_command_timeout$2=_thd_command_timeout(&t[(signed long int)i]);
-          if(!(return_value__thd_command_timeout$2 == 0))
+          return_value__thd_command_timeout_2=_thd_command_timeout(&t[(signed long int)i]);
+          if(!(return_value__thd_command_timeout_2 == 0))
             pthread_kill((t + (signed long int)i)->thread, 14);
 
           goto __CPROVER_DUMP_L9;
@@ -7704,18 +7704,18 @@ static signed int cbuf_copier(struct cbuf *src, struct cbuf *dst, signed int len
   signed int n;
   signed int i_src;
   signed int i_dst;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(src->used >= len)
-    tmp_if_expr$1 = len;
+    tmp_if_expr_1 = len;
 
   else
-    tmp_if_expr$1 = src->used;
-  len = tmp_if_expr$1;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
+    tmp_if_expr_1 = src->used;
+  len = tmp_if_expr_1;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
   if(len == 0)
     return 0;
 
@@ -7726,9 +7726,9 @@ static signed int cbuf_copier(struct cbuf *src, struct cbuf *dst, signed int len
     {
       if(!(dst->size >= dst->maxsize))
       {
-        signed int return_value_cbuf_grow$2;
-        return_value_cbuf_grow$2=cbuf_grow(dst, len - nfree);
-        nfree = nfree + return_value_cbuf_grow$2;
+        signed int return_value_cbuf_grow_2;
+        return_value_cbuf_grow_2=cbuf_grow(dst, len - nfree);
+        nfree = nfree + return_value_cbuf_grow_2;
       }
 
     }
@@ -7736,16 +7736,16 @@ static signed int cbuf_copier(struct cbuf *src, struct cbuf *dst, signed int len
     if((signed int)dst->overwrite == CBUF_NO_DROP)
     {
       if(dst->size + -dst->used >= len)
-        tmp_if_expr$3 = len;
+        tmp_if_expr_3 = len;
 
       else
-        tmp_if_expr$3 = dst->size - dst->used;
-      len = tmp_if_expr$3;
+        tmp_if_expr_3 = dst->size - dst->used;
+      len = tmp_if_expr_3;
       if(len == 0)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 28;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 28;
         return -1;
       }
 
@@ -7755,21 +7755,21 @@ static signed int cbuf_copier(struct cbuf *src, struct cbuf *dst, signed int len
       if((signed int)dst->overwrite == CBUF_WRAP_ONCE)
       {
         if(dst->size >= len)
-          tmp_if_expr$5 = len;
+          tmp_if_expr_5 = len;
 
         else
-          tmp_if_expr$5 = dst->size;
-        len = tmp_if_expr$5;
+          tmp_if_expr_5 = dst->size;
+        len = tmp_if_expr_5;
       }
 
     if(!(ndropped == ((signed int *)NULL)))
     {
       if(!(dst->used + len + -dst->size >= 1))
-        tmp_if_expr$6 = 0;
+        tmp_if_expr_6 = 0;
 
       else
-        tmp_if_expr$6 = (len - dst->size) + dst->used;
-      *ndropped = tmp_if_expr$6;
+        tmp_if_expr_6 = (len - dst->size) + dst->used;
+      *ndropped = tmp_if_expr_6;
     }
 
     ncopy = len;
@@ -7786,11 +7786,11 @@ static signed int cbuf_copier(struct cbuf *src, struct cbuf *dst, signed int len
     for( ; nleft >= 1; nleft = nleft - n)
     {
       if(1 + dst->size + -i_dst >= 1 + src->size + -i_src)
-        tmp_if_expr$7 = (src->size + 1) - i_src;
+        tmp_if_expr_7 = (src->size + 1) - i_src;
 
       else
-        tmp_if_expr$7 = (dst->size + 1) - i_dst;
-      n = tmp_if_expr$7;
+        tmp_if_expr_7 = (dst->size + 1) - i_dst;
+      n = tmp_if_expr_7;
       n = n <= nleft ? n : nleft;
       memcpy((void *)&dst->data[(signed long int)i_dst], (const void *)&src->data[(signed long int)i_src], (unsigned long int)n);
       i_src = (i_src + n) % (src->size + 1);
@@ -7800,11 +7800,11 @@ static signed int cbuf_copier(struct cbuf *src, struct cbuf *dst, signed int len
     {
       nrepl = ((dst->i_out - dst->i_rep) + dst->size + 1) % (dst->size + 1);
       if(dst->size >= dst->used + ncopy)
-        tmp_if_expr$8 = dst->used + ncopy;
+        tmp_if_expr_8 = dst->used + ncopy;
 
       else
-        tmp_if_expr$8 = dst->size;
-      dst->used = tmp_if_expr$8;
+        tmp_if_expr_8 = dst->size;
+      dst->used = tmp_if_expr_8;
       dst->i_in = i_dst;
       if(!(nfree + -nrepl >= ncopy))
       {
@@ -7831,17 +7831,17 @@ signed int cbuf_copy(struct cbuf *src, struct cbuf *dst, signed int len, signed 
 
   if(src == dst)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!(len >= -1))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
@@ -7854,13 +7854,13 @@ signed int cbuf_copy(struct cbuf *src, struct cbuf *dst, signed int len, signed 
     {
       do
       {
-        signed int cbuf_copy$$1$$5$$1$$e;
-        cbuf_copy$$1$$5$$1$$e=pthread_mutex_lock(&src->mutex);
-        if(!(cbuf_copy$$1$$5$$1$$e == 0))
+        signed int cbuf_copy__1__5__1__e;
+        cbuf_copy__1__5__1__e=pthread_mutex_lock(&src->mutex);
+        if(!(cbuf_copy__1__5__1__e == 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = cbuf_copy$$1$$5$$1$$e;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = cbuf_copy__1__5__1__e;
           lsd_fatal_error("cbuf.c", 1031, "cbuf mutex lock");
           abort();
         }
@@ -7873,9 +7873,9 @@ signed int cbuf_copy(struct cbuf *src, struct cbuf *dst, signed int len, signed 
         e=pthread_mutex_lock(&dst->mutex);
         if(!(e == 0))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = e;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = e;
           lsd_fatal_error("cbuf.c", 1032, "cbuf mutex lock");
           abort();
         }
@@ -7888,13 +7888,13 @@ signed int cbuf_copy(struct cbuf *src, struct cbuf *dst, signed int len, signed 
     {
       do
       {
-        signed int cbuf_copy$$1$$6$$1$$e;
-        cbuf_copy$$1$$6$$1$$e=pthread_mutex_lock(&dst->mutex);
-        if(!(cbuf_copy$$1$$6$$1$$e == 0))
+        signed int cbuf_copy__1__6__1__e;
+        cbuf_copy__1__6__1__e=pthread_mutex_lock(&dst->mutex);
+        if(!(cbuf_copy__1__6__1__e == 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = cbuf_copy$$1$$6$$1$$e;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = cbuf_copy__1__6__1__e;
           lsd_fatal_error("cbuf.c", 1035, "cbuf mutex lock");
           abort();
         }
@@ -7903,13 +7903,13 @@ signed int cbuf_copy(struct cbuf *src, struct cbuf *dst, signed int len, signed 
       while((_Bool)0);
       do
       {
-        signed int cbuf_copy$$1$$6$$2$$e;
-        cbuf_copy$$1$$6$$2$$e=pthread_mutex_lock(&src->mutex);
-        if(!(cbuf_copy$$1$$6$$2$$e == 0))
+        signed int cbuf_copy__1__6__2__e;
+        cbuf_copy__1__6__2__e=pthread_mutex_lock(&src->mutex);
+        if(!(cbuf_copy__1__6__2__e == 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = cbuf_copy$$1$$6$$2$$e;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = cbuf_copy__1__6__2__e;
           lsd_fatal_error("cbuf.c", 1036, "cbuf mutex lock");
           abort();
         }
@@ -7925,13 +7925,13 @@ signed int cbuf_copy(struct cbuf *src, struct cbuf *dst, signed int len, signed 
 
     do
     {
-      signed int cbuf_copy$$1$$9$$e;
-      cbuf_copy$$1$$9$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_copy$$1$$9$$e == 0))
+      signed int cbuf_copy__1__9__e;
+      cbuf_copy__1__9__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_copy__1__9__e == 0))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = cbuf_copy$$1$$9$$e;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = cbuf_copy__1__9__e;
         lsd_fatal_error("cbuf.c", 1049, "cbuf mutex unlock");
         abort();
       }
@@ -7940,13 +7940,13 @@ signed int cbuf_copy(struct cbuf *src, struct cbuf *dst, signed int len, signed 
     while((_Bool)0);
     do
     {
-      signed int cbuf_copy$$1$$10$$e;
-      cbuf_copy$$1$$10$$e=pthread_mutex_unlock(&dst->mutex);
-      if(!(cbuf_copy$$1$$10$$e == 0))
+      signed int cbuf_copy__1__10__e;
+      cbuf_copy__1__10__e=pthread_mutex_unlock(&dst->mutex);
+      if(!(cbuf_copy__1__10__e == 0))
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = cbuf_copy$$1$$10$$e;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = cbuf_copy__1__10__e;
         lsd_fatal_error("cbuf.c", 1050, "cbuf mutex unlock");
         abort();
       }
@@ -7964,45 +7964,45 @@ struct cbuf * cbuf_create(signed int minsize, signed int maxsize)
   struct cbuf *cb;
   if(!(minsize >= 1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct cbuf *)(void *)0;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct cbuf) /*88ul*/ );
-  cb = (struct cbuf *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct cbuf) /*88ul*/ );
+  cb = (struct cbuf *)return_value_malloc_3;
   if(cb == ((struct cbuf *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     return (struct cbuf *)(void *)0;
   }
 
   cb->alloc = minsize + 1;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)cb->alloc);
-  cb->data = (unsigned char *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)cb->alloc);
+  cb->data = (unsigned char *)return_value_malloc_5;
   if(cb->data == ((unsigned char *)NULL))
   {
     free((void *)cb);
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 12;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 12;
     return (struct cbuf *)(void *)0;
   }
 
   do
   {
     signed int e;
-    e=pthread_mutex_init(&cb->mutex, (const union anonymous$3 *)(void *)0);
+    e=pthread_mutex_init(&cb->mutex, (const union anonymous_3 *)(void *)0);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = e;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = e;
       lsd_fatal_error("cbuf.c", 247, "cbuf mutex init");
       abort();
     }
@@ -8013,7 +8013,7 @@ struct cbuf * cbuf_create(signed int minsize, signed int maxsize)
   cb->maxsize = maxsize > minsize ? maxsize : minsize;
   cb->size = minsize;
   cb->used = 0;
-  cb->overwrite = (enum anonymous$9)CBUF_WRAP_MANY;
+  cb->overwrite = (enum anonymous_9)CBUF_WRAP_MANY;
   cb->got_wrap = 0;
   cb->i_rep = 0;
   cb->i_out = cb->i_rep;
@@ -8031,9 +8031,9 @@ void cbuf_destroy(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 284, "cbuf mutex lock");
       abort();
     }
@@ -8043,13 +8043,13 @@ void cbuf_destroy(struct cbuf *cb)
   free((void *)cb->data);
   do
   {
-    signed int cbuf_destroy$$1$$2$$e;
-    cbuf_destroy$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_destroy$$1$$2$$e == 0))
+    signed int cbuf_destroy__1__2__e;
+    cbuf_destroy__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_destroy__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_destroy$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_destroy__1__2__e;
       lsd_fatal_error("cbuf.c", 298, "cbuf mutex unlock");
       abort();
     }
@@ -8058,13 +8058,13 @@ void cbuf_destroy(struct cbuf *cb)
   while((_Bool)0);
   do
   {
-    signed int cbuf_destroy$$1$$3$$e;
-    cbuf_destroy$$1$$3$$e=pthread_mutex_destroy(&cb->mutex);
-    if(!(cbuf_destroy$$1$$3$$e == 0))
+    signed int cbuf_destroy__1__3__e;
+    cbuf_destroy__1__3__e=pthread_mutex_destroy(&cb->mutex);
+    if(!(cbuf_destroy__1__3__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = cbuf_destroy$$1$$3$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = cbuf_destroy__1__3__e;
       lsd_fatal_error("cbuf.c", 299, "cbuf mutex destroy");
       abort();
     }
@@ -8080,13 +8080,13 @@ signed int cbuf_drop(struct cbuf *src, signed int len)
 {
   if(!(len >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_3;
   if(len == 0)
     return 0;
 
@@ -8098,9 +8098,9 @@ signed int cbuf_drop(struct cbuf *src, signed int len)
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 488, "cbuf mutex lock");
         abort();
       }
@@ -8113,24 +8113,24 @@ signed int cbuf_drop(struct cbuf *src, signed int len)
     else
     {
       if(src->used >= len)
-        tmp_if_expr$3 = len;
+        tmp_if_expr_3 = len;
 
       else
-        tmp_if_expr$3 = src->used;
-      len = tmp_if_expr$3;
+        tmp_if_expr_3 = src->used;
+      len = tmp_if_expr_3;
     }
     if(len >= 1)
       cbuf_dropper(src, len);
 
     do
     {
-      signed int cbuf_drop$$1$$7$$e;
-      cbuf_drop$$1$$7$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_drop$$1$$7$$e == 0))
+      signed int cbuf_drop__1__7__e;
+      cbuf_drop__1__7__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_drop__1__7__e == 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = cbuf_drop$$1$$7$$e;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = cbuf_drop__1__7__e;
         lsd_fatal_error("cbuf.c", 501, "cbuf mutex unlock");
         abort();
       }
@@ -8148,9 +8148,9 @@ signed int cbuf_drop_line(struct cbuf *src, signed int len, signed int lines)
   signed int n;
   if(!(len >= 0) || !(lines >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -8165,9 +8165,9 @@ signed int cbuf_drop_line(struct cbuf *src, signed int len, signed int lines)
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 652, "cbuf mutex lock");
         abort();
       }
@@ -8180,13 +8180,13 @@ signed int cbuf_drop_line(struct cbuf *src, signed int len, signed int lines)
 
     do
     {
-      signed int cbuf_drop_line$$1$$5$$e;
-      cbuf_drop_line$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_drop_line$$1$$5$$e == 0))
+      signed int cbuf_drop_line__1__5__e;
+      cbuf_drop_line__1__5__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_drop_line__1__5__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_drop_line$$1$$5$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_drop_line__1__5__e;
         lsd_fatal_error("cbuf.c", 660, "cbuf mutex unlock");
         abort();
       }
@@ -8371,9 +8371,9 @@ void cbuf_flush(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 309, "cbuf mutex lock");
       abort();
     }
@@ -8387,13 +8387,13 @@ void cbuf_flush(struct cbuf *cb)
   cb->i_in = cb->i_out;
   do
   {
-    signed int cbuf_flush$$1$$2$$e;
-    cbuf_flush$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_flush$$1$$2$$e == 0))
+    signed int cbuf_flush__1__2__e;
+    cbuf_flush__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_flush__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_flush$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_flush__1__2__e;
       lsd_fatal_error("cbuf.c", 318, "cbuf mutex unlock");
       abort();
     }
@@ -8413,9 +8413,9 @@ signed int cbuf_free(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 343, "cbuf mutex lock");
       abort();
     }
@@ -8425,13 +8425,13 @@ signed int cbuf_free(struct cbuf *cb)
   nfree = cb->size - cb->used;
   do
   {
-    signed int cbuf_free$$1$$2$$e;
-    cbuf_free$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_free$$1$$2$$e == 0))
+    signed int cbuf_free__1__2__e;
+    cbuf_free__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_free__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_free$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_free__1__2__e;
       lsd_fatal_error("cbuf.c", 346, "cbuf mutex unlock");
       abort();
     }
@@ -8446,23 +8446,23 @@ signed int cbuf_free(struct cbuf *cb)
 static signed int cbuf_get_fd(void *dstbuf, signed int *psrcfd, signed int len)
 {
   signed int n;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed long int return_value_read$3;
-    return_value_read$3=read(*psrcfd, dstbuf, (unsigned long int)len);
-    n = (signed int)return_value_read$3;
+    signed long int return_value_read_3;
+    return_value_read_3=read(*psrcfd, dstbuf, (unsigned long int)len);
+    n = (signed int)return_value_read_3;
     if(!(n >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return n;
 }
 
@@ -8483,7 +8483,7 @@ static signed int cbuf_grow(struct cbuf *cb, signed int n)
   signed int size_old;
   signed int size_meta;
   signed int m;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(cb->size == cb->maxsize)
     return 0;
 
@@ -8494,15 +8494,15 @@ static signed int cbuf_grow(struct cbuf *cb, signed int n)
     m = cb->alloc + n;
     m = m + (1000 - m % 1000);
     if(cb->maxsize + size_meta >= m)
-      tmp_if_expr$1 = m;
+      tmp_if_expr_1 = m;
 
     else
-      tmp_if_expr$1 = cb->maxsize + size_meta;
-    m = tmp_if_expr$1;
+      tmp_if_expr_1 = cb->maxsize + size_meta;
+    m = tmp_if_expr_1;
     data = cb->data;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)data, (unsigned long int)m);
-    data = (unsigned char *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)data, (unsigned long int)m);
+    data = (unsigned char *)return_value_realloc_2;
     if(data == ((unsigned char *)NULL))
       return 0;
 
@@ -8538,9 +8538,9 @@ signed int cbuf_is_empty(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 413, "cbuf mutex lock");
       abort();
     }
@@ -8550,13 +8550,13 @@ signed int cbuf_is_empty(struct cbuf *cb)
   used = cb->used;
   do
   {
-    signed int cbuf_is_empty$$1$$2$$e;
-    cbuf_is_empty$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_is_empty$$1$$2$$e == 0))
+    signed int cbuf_is_empty__1__2__e;
+    cbuf_is_empty__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_is_empty__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_is_empty$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_is_empty__1__2__e;
       lsd_fatal_error("cbuf.c", 416, "cbuf mutex unlock");
       abort();
     }
@@ -8577,9 +8577,9 @@ signed int cbuf_lines_reused(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 399, "cbuf mutex lock");
       abort();
     }
@@ -8589,13 +8589,13 @@ signed int cbuf_lines_reused(struct cbuf *cb)
   cbuf_find_replay_line(cb, cb->size, &lines, (signed int *)(void *)0);
   do
   {
-    signed int cbuf_lines_reused$$1$$2$$e;
-    cbuf_lines_reused$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_lines_reused$$1$$2$$e == 0))
+    signed int cbuf_lines_reused__1__2__e;
+    cbuf_lines_reused__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_lines_reused__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_lines_reused$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_lines_reused__1__2__e;
       lsd_fatal_error("cbuf.c", 402, "cbuf mutex unlock");
       abort();
     }
@@ -8616,9 +8616,9 @@ signed int cbuf_lines_used(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 371, "cbuf mutex lock");
       abort();
     }
@@ -8628,13 +8628,13 @@ signed int cbuf_lines_used(struct cbuf *cb)
   cbuf_find_unread_line(cb, cb->size, &lines);
   do
   {
-    signed int cbuf_lines_used$$1$$2$$e;
-    cbuf_lines_used$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_lines_used$$1$$2$$e == 0))
+    signed int cbuf_lines_used__1__2__e;
+    cbuf_lines_used__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_lines_used__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_lines_used$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_lines_used__1__2__e;
       lsd_fatal_error("cbuf.c", 374, "cbuf mutex unlock");
       abort();
     }
@@ -8654,17 +8654,17 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
 
   if(src == dst)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!(len >= -1))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
@@ -8681,9 +8681,9 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
         e=pthread_mutex_lock(&src->mutex);
         if(!(e == 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = e;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = e;
           lsd_fatal_error("cbuf.c", 1080, "cbuf mutex lock");
           abort();
         }
@@ -8692,13 +8692,13 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
       while((_Bool)0);
       do
       {
-        signed int cbuf_move$$1$$5$$2$$e;
-        cbuf_move$$1$$5$$2$$e=pthread_mutex_lock(&dst->mutex);
-        if(!(cbuf_move$$1$$5$$2$$e == 0))
+        signed int cbuf_move__1__5__2__e;
+        cbuf_move__1__5__2__e=pthread_mutex_lock(&dst->mutex);
+        if(!(cbuf_move__1__5__2__e == 0))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = cbuf_move$$1$$5$$2$$e;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = cbuf_move__1__5__2__e;
           lsd_fatal_error("cbuf.c", 1081, "cbuf mutex lock");
           abort();
         }
@@ -8711,13 +8711,13 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
     {
       do
       {
-        signed int cbuf_move$$1$$6$$1$$e;
-        cbuf_move$$1$$6$$1$$e=pthread_mutex_lock(&dst->mutex);
-        if(!(cbuf_move$$1$$6$$1$$e == 0))
+        signed int cbuf_move__1__6__1__e;
+        cbuf_move__1__6__1__e=pthread_mutex_lock(&dst->mutex);
+        if(!(cbuf_move__1__6__1__e == 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = cbuf_move$$1$$6$$1$$e;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = cbuf_move__1__6__1__e;
           lsd_fatal_error("cbuf.c", 1084, "cbuf mutex lock");
           abort();
         }
@@ -8726,13 +8726,13 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
       while((_Bool)0);
       do
       {
-        signed int cbuf_move$$1$$6$$2$$e;
-        cbuf_move$$1$$6$$2$$e=pthread_mutex_lock(&src->mutex);
-        if(!(cbuf_move$$1$$6$$2$$e == 0))
+        signed int cbuf_move__1__6__2__e;
+        cbuf_move__1__6__2__e=pthread_mutex_lock(&src->mutex);
+        if(!(cbuf_move__1__6__2__e == 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = cbuf_move$$1$$6$$2$$e;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = cbuf_move__1__6__2__e;
           lsd_fatal_error("cbuf.c", 1085, "cbuf mutex lock");
           abort();
         }
@@ -8753,13 +8753,13 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
 
     do
     {
-      signed int cbuf_move$$1$$9$$e;
-      cbuf_move$$1$$9$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_move$$1$$9$$e == 0))
+      signed int cbuf_move__1__9__e;
+      cbuf_move__1__9__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_move__1__9__e == 0))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = cbuf_move$$1$$9$$e;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = cbuf_move__1__9__e;
         lsd_fatal_error("cbuf.c", 1101, "cbuf mutex unlock");
         abort();
       }
@@ -8768,13 +8768,13 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
     while((_Bool)0);
     do
     {
-      signed int cbuf_move$$1$$10$$e;
-      cbuf_move$$1$$10$$e=pthread_mutex_unlock(&dst->mutex);
-      if(!(cbuf_move$$1$$10$$e == 0))
+      signed int cbuf_move__1__10__e;
+      cbuf_move__1__10__e=pthread_mutex_unlock(&dst->mutex);
+      if(!(cbuf_move__1__10__e == 0))
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = cbuf_move$$1$$10$$e;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = cbuf_move__1__10__e;
         lsd_fatal_error("cbuf.c", 1102, "cbuf mutex unlock");
         abort();
       }
@@ -8787,14 +8787,14 @@ signed int cbuf_move(struct cbuf *src, struct cbuf *dst, signed int len, signed 
 
 // cbuf_opt_get
 // file cbuf.c line 422
-signed int cbuf_opt_get(struct cbuf *cb, enum anonymous$10 name, signed int *value)
+signed int cbuf_opt_get(struct cbuf *cb, enum anonymous_10 name, signed int *value)
 {
   signed int rc = 0;
   if(value == ((signed int *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -8804,9 +8804,9 @@ signed int cbuf_opt_get(struct cbuf *cb, enum anonymous$10 name, signed int *val
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = e;
       lsd_fatal_error("cbuf.c", 432, "cbuf mutex lock");
       abort();
     }
@@ -8818,20 +8818,20 @@ signed int cbuf_opt_get(struct cbuf *cb, enum anonymous$10 name, signed int *val
 
   else
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 22;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 22;
     rc = -1;
   }
   do
   {
-    signed int cbuf_opt_get$$1$$5$$e;
-    cbuf_opt_get$$1$$5$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_opt_get$$1$$5$$e == 0))
+    signed int cbuf_opt_get__1__5__e;
+    cbuf_opt_get__1__5__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_opt_get__1__5__e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = cbuf_opt_get$$1$$5$$e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = cbuf_opt_get__1__5__e;
       lsd_fatal_error("cbuf.c", 441, "cbuf mutex unlock");
       abort();
     }
@@ -8843,7 +8843,7 @@ signed int cbuf_opt_get(struct cbuf *cb, enum anonymous$10 name, signed int *val
 
 // cbuf_opt_set
 // file cbuf.c line 447
-signed int cbuf_opt_set(struct cbuf *cb, enum anonymous$10 name, signed int value)
+signed int cbuf_opt_set(struct cbuf *cb, enum anonymous_10 name, signed int value)
 {
   signed int rc = 0;
   do
@@ -8852,9 +8852,9 @@ signed int cbuf_opt_set(struct cbuf *cb, enum anonymous$10 name, signed int valu
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 453, "cbuf mutex lock");
       abort();
     }
@@ -8864,33 +8864,33 @@ signed int cbuf_opt_set(struct cbuf *cb, enum anonymous$10 name, signed int valu
   if((signed int)name == CBUF_OPT_OVERWRITE)
   {
     if(value == CBUF_NO_DROP || value == CBUF_WRAP_ONCE || value == CBUF_WRAP_MANY)
-      cb->overwrite = (enum anonymous$9)value;
+      cb->overwrite = (enum anonymous_9)value;
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
       rc = -1;
     }
   }
 
   else
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 22;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 22;
     rc = -1;
   }
   do
   {
-    signed int cbuf_opt_set$$1$$4$$e;
-    cbuf_opt_set$$1$$4$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_opt_set$$1$$4$$e == 0))
+    signed int cbuf_opt_set__1__4__e;
+    cbuf_opt_set__1__4__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_opt_set__1__4__e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = cbuf_opt_set$$1$$4$$e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = cbuf_opt_set__1__4__e;
       lsd_fatal_error("cbuf.c", 471, "cbuf mutex unlock");
       abort();
     }
@@ -8907,9 +8907,9 @@ signed int cbuf_peek(struct cbuf *src, void *dstbuf, signed int len)
   signed int n;
   if(dstbuf == NULL || !(len >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -8924,9 +8924,9 @@ signed int cbuf_peek(struct cbuf *src, void *dstbuf, signed int len)
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 520, "cbuf mutex lock");
         abort();
       }
@@ -8936,13 +8936,13 @@ signed int cbuf_peek(struct cbuf *src, void *dstbuf, signed int len)
     n=cbuf_reader(src, len, (signed int (*)(void *, void *, signed int))cbuf_put_mem, (void *)&dstbuf);
     do
     {
-      signed int cbuf_peek$$1$$4$$e;
-      cbuf_peek$$1$$4$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_peek$$1$$4$$e == 0))
+      signed int cbuf_peek__1__4__e;
+      cbuf_peek__1__4__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_peek__1__4__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_peek$$1$$4$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_peek__1__4__e;
         lsd_fatal_error("cbuf.c", 524, "cbuf mutex unlock");
         abort();
       }
@@ -8963,9 +8963,9 @@ signed int cbuf_peek_line(struct cbuf *src, char *dstbuf, signed int len, signed
   char *pdst;
   if(dstbuf == ((char *)NULL) || !(len >= 0) || !(lines >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -8980,9 +8980,9 @@ signed int cbuf_peek_line(struct cbuf *src, char *dstbuf, signed int len, signed
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 680, "cbuf mutex lock");
         abort();
       }
@@ -9008,13 +9008,13 @@ signed int cbuf_peek_line(struct cbuf *src, char *dstbuf, signed int len, signed
 
     do
     {
-      signed int cbuf_peek_line$$1$$5$$e;
-      cbuf_peek_line$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_peek_line$$1$$5$$e == 0))
+      signed int cbuf_peek_line__1__5__e;
+      cbuf_peek_line__1__5__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_peek_line__1__5__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_peek_line$$1$$5$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_peek_line__1__5__e;
         lsd_fatal_error("cbuf.c", 696, "cbuf mutex unlock");
         abort();
       }
@@ -9032,9 +9032,9 @@ signed int cbuf_peek_to_fd(struct cbuf *src, signed int dstfd, signed int len)
   signed int n = 0;
   if(!(dstfd >= 0) || !(len >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9044,9 +9044,9 @@ signed int cbuf_peek_to_fd(struct cbuf *src, signed int dstfd, signed int len)
     e=pthread_mutex_lock(&src->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = e;
       lsd_fatal_error("cbuf.c", 903, "cbuf mutex lock");
       abort();
     }
@@ -9061,13 +9061,13 @@ signed int cbuf_peek_to_fd(struct cbuf *src, signed int dstfd, signed int len)
 
   do
   {
-    signed int cbuf_peek_to_fd$$1$$5$$e;
-    cbuf_peek_to_fd$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-    if(!(cbuf_peek_to_fd$$1$$5$$e == 0))
+    signed int cbuf_peek_to_fd__1__5__e;
+    cbuf_peek_to_fd__1__5__e=pthread_mutex_unlock(&src->mutex);
+    if(!(cbuf_peek_to_fd__1__5__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = cbuf_peek_to_fd$$1$$5$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = cbuf_peek_to_fd__1__5__e;
       lsd_fatal_error("cbuf.c", 912, "cbuf mutex unlock");
       abort();
     }
@@ -9082,23 +9082,23 @@ signed int cbuf_peek_to_fd(struct cbuf *src, signed int dstfd, signed int len)
 static signed int cbuf_put_fd(void *srcbuf, signed int *pdstfd, signed int len)
 {
   signed int n;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed long int return_value_write$3;
-    return_value_write$3=write(*pdstfd, srcbuf, (unsigned long int)len);
-    n = (signed int)return_value_write$3;
+    signed long int return_value_write_3;
+    return_value_write_3=write(*pdstfd, srcbuf, (unsigned long int)len);
+    n = (signed int)return_value_write_3;
     if(!(n >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return n;
 }
 
@@ -9118,9 +9118,9 @@ signed int cbuf_read(struct cbuf *src, void *dstbuf, signed int len)
   signed int n;
   if(dstbuf == NULL || !(len >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9135,9 +9135,9 @@ signed int cbuf_read(struct cbuf *src, void *dstbuf, signed int len)
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 543, "cbuf mutex lock");
         abort();
       }
@@ -9150,13 +9150,13 @@ signed int cbuf_read(struct cbuf *src, void *dstbuf, signed int len)
 
     do
     {
-      signed int cbuf_read$$1$$5$$e;
-      cbuf_read$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_read$$1$$5$$e == 0))
+      signed int cbuf_read__1__5__e;
+      cbuf_read__1__5__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_read__1__5__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_read$$1$$5$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_read__1__5__e;
         lsd_fatal_error("cbuf.c", 550, "cbuf mutex unlock");
         abort();
       }
@@ -9177,9 +9177,9 @@ signed int cbuf_read_line(struct cbuf *src, char *dstbuf, signed int len, signed
   char *pdst;
   if(dstbuf == ((char *)NULL) || !(len >= 0) || !(lines >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9194,9 +9194,9 @@ signed int cbuf_read_line(struct cbuf *src, char *dstbuf, signed int len, signed
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 716, "cbuf mutex lock");
         abort();
       }
@@ -9223,13 +9223,13 @@ signed int cbuf_read_line(struct cbuf *src, char *dstbuf, signed int len, signed
 
     do
     {
-      signed int cbuf_read_line$$1$$5$$e;
-      cbuf_read_line$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_read_line$$1$$5$$e == 0))
+      signed int cbuf_read_line__1__5__e;
+      cbuf_read_line__1__5__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_read_line__1__5__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_read_line$$1$$5$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_read_line__1__5__e;
         lsd_fatal_error("cbuf.c", 733, "cbuf mutex unlock");
         abort();
       }
@@ -9247,9 +9247,9 @@ signed int cbuf_read_to_fd(struct cbuf *src, signed int dstfd, signed int len)
   signed int n = 0;
   if(!(dstfd >= 0) || !(len >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9259,9 +9259,9 @@ signed int cbuf_read_to_fd(struct cbuf *src, signed int dstfd, signed int len)
     e=pthread_mutex_lock(&src->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = e;
       lsd_fatal_error("cbuf.c", 928, "cbuf mutex lock");
       abort();
     }
@@ -9281,13 +9281,13 @@ signed int cbuf_read_to_fd(struct cbuf *src, signed int dstfd, signed int len)
 
   do
   {
-    signed int cbuf_read_to_fd$$1$$5$$e;
-    cbuf_read_to_fd$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-    if(!(cbuf_read_to_fd$$1$$5$$e == 0))
+    signed int cbuf_read_to_fd__1__5__e;
+    cbuf_read_to_fd__1__5__e=pthread_mutex_unlock(&src->mutex);
+    if(!(cbuf_read_to_fd__1__5__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = cbuf_read_to_fd$$1$$5$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = cbuf_read_to_fd__1__5__e;
       lsd_fatal_error("cbuf.c", 940, "cbuf mutex unlock");
       abort();
     }
@@ -9305,14 +9305,14 @@ static signed int cbuf_reader(struct cbuf *src, signed int len, signed int (*put
   signed int n;
   signed int m;
   signed int i_src;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(src->used >= len)
-    tmp_if_expr$1 = len;
+    tmp_if_expr_1 = len;
 
   else
-    tmp_if_expr$1 = src->used;
-  len = tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = src->used;
+  len = tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(len == 0)
     return 0;
 
@@ -9324,11 +9324,11 @@ static signed int cbuf_reader(struct cbuf *src, signed int len, signed int (*put
     if(nleft >= 1)
     {
       if(1 + src->size + -i_src >= nleft)
-        tmp_if_expr$2 = nleft;
+        tmp_if_expr_2 = nleft;
 
       else
-        tmp_if_expr$2 = (src->size + 1) - i_src;
-      n = tmp_if_expr$2;
+        tmp_if_expr_2 = (src->size + 1) - i_src;
+      n = tmp_if_expr_2;
       m=putf((void *)&src->data[(signed long int)i_src], dst, n);
       if(m >= 1)
       {
@@ -9354,9 +9354,9 @@ signed int cbuf_replay(struct cbuf *src, void *dstbuf, signed int len)
   signed int n;
   if(dstbuf == NULL || !(len >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9371,9 +9371,9 @@ signed int cbuf_replay(struct cbuf *src, void *dstbuf, signed int len)
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 569, "cbuf mutex lock");
         abort();
       }
@@ -9383,13 +9383,13 @@ signed int cbuf_replay(struct cbuf *src, void *dstbuf, signed int len)
     n=cbuf_replayer(src, len, (signed int (*)(void *, void *, signed int))cbuf_put_mem, (void *)&dstbuf);
     do
     {
-      signed int cbuf_replay$$1$$4$$e;
-      cbuf_replay$$1$$4$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_replay$$1$$4$$e == 0))
+      signed int cbuf_replay__1__4__e;
+      cbuf_replay__1__4__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_replay__1__4__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_replay$$1$$4$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_replay__1__4__e;
         lsd_fatal_error("cbuf.c", 573, "cbuf mutex unlock");
         abort();
       }
@@ -9411,13 +9411,13 @@ signed int cbuf_replay_line(struct cbuf *src, char *dstbuf, signed int len, sign
   char *pdst;
   if(dstbuf == ((char *)NULL) || !(len >= 0) || !(lines >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(lines == 0)
     return 0;
 
@@ -9429,9 +9429,9 @@ signed int cbuf_replay_line(struct cbuf *src, char *dstbuf, signed int len, sign
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 754, "cbuf mutex lock");
         abort();
       }
@@ -9453,9 +9453,9 @@ signed int cbuf_replay_line(struct cbuf *src, char *dstbuf, signed int len, sign
 
         if(len >= 2 && !(nl == 0))
         {
-          tmp_post$3 = m;
+          tmp_post_3 = m;
           m = m + 1;
-          dstbuf[(signed long int)tmp_post$3] = (char)10;
+          dstbuf[(signed long int)tmp_post_3] = (char)10;
         }
 
         dstbuf[(signed long int)m] = (char)0;
@@ -9466,13 +9466,13 @@ signed int cbuf_replay_line(struct cbuf *src, char *dstbuf, signed int len, sign
 
     do
     {
-      signed int cbuf_replay_line$$1$$5$$e;
-      cbuf_replay_line$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_replay_line$$1$$5$$e == 0))
+      signed int cbuf_replay_line__1__5__e;
+      cbuf_replay_line__1__5__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_replay_line__1__5__e == 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = cbuf_replay_line$$1$$5$$e;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = cbuf_replay_line__1__5__e;
         lsd_fatal_error("cbuf.c", 778, "cbuf mutex unlock");
         abort();
       }
@@ -9490,9 +9490,9 @@ signed int cbuf_replay_to_fd(struct cbuf *src, signed int dstfd, signed int len)
   signed int n = 0;
   if(!(dstfd >= 0) || !(len >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9502,9 +9502,9 @@ signed int cbuf_replay_to_fd(struct cbuf *src, signed int dstfd, signed int len)
     e=pthread_mutex_lock(&src->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = e;
       lsd_fatal_error("cbuf.c", 956, "cbuf mutex lock");
       abort();
     }
@@ -9519,13 +9519,13 @@ signed int cbuf_replay_to_fd(struct cbuf *src, signed int dstfd, signed int len)
 
   do
   {
-    signed int cbuf_replay_to_fd$$1$$5$$e;
-    cbuf_replay_to_fd$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-    if(!(cbuf_replay_to_fd$$1$$5$$e == 0))
+    signed int cbuf_replay_to_fd__1__5__e;
+    cbuf_replay_to_fd__1__5__e=pthread_mutex_unlock(&src->mutex);
+    if(!(cbuf_replay_to_fd__1__5__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = cbuf_replay_to_fd$$1$$5$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = cbuf_replay_to_fd__1__5__e;
       lsd_fatal_error("cbuf.c", 965, "cbuf mutex unlock");
       abort();
     }
@@ -9545,7 +9545,7 @@ static signed int cbuf_replayer(struct cbuf *src, signed int len, signed int (*p
   signed int i_src;
   n = ((src->i_out - src->i_rep) + src->size + 1) % (src->size + 1);
   len = len <= n ? len : n;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(len == 0)
     return 0;
 
@@ -9557,11 +9557,11 @@ static signed int cbuf_replayer(struct cbuf *src, signed int len, signed int (*p
     if(nleft >= 1)
     {
       if(1 + src->size + -i_src >= nleft)
-        tmp_if_expr$1 = nleft;
+        tmp_if_expr_1 = nleft;
 
       else
-        tmp_if_expr$1 = (src->size + 1) - i_src;
-      n = tmp_if_expr$1;
+        tmp_if_expr_1 = (src->size + 1) - i_src;
+      n = tmp_if_expr_1;
       m=putf((void *)&src->data[(signed long int)i_src], dst, n);
       if(m >= 1)
       {
@@ -9591,9 +9591,9 @@ signed int cbuf_reused(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 385, "cbuf mutex lock");
       abort();
     }
@@ -9603,13 +9603,13 @@ signed int cbuf_reused(struct cbuf *cb)
   reused = ((cb->i_out - cb->i_rep) + cb->size + 1) % (cb->size + 1);
   do
   {
-    signed int cbuf_reused$$1$$2$$e;
-    cbuf_reused$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_reused$$1$$2$$e == 0))
+    signed int cbuf_reused__1__2__e;
+    cbuf_reused__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_reused__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_reused$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_reused__1__2__e;
       lsd_fatal_error("cbuf.c", 388, "cbuf mutex unlock");
       abort();
     }
@@ -9626,9 +9626,9 @@ signed int cbuf_rewind(struct cbuf *src, signed int len)
   signed int reused;
   if(!(len >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9643,9 +9643,9 @@ signed int cbuf_rewind(struct cbuf *src, signed int len)
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 592, "cbuf mutex lock");
         abort();
       }
@@ -9666,13 +9666,13 @@ signed int cbuf_rewind(struct cbuf *src, signed int len)
 
     do
     {
-      signed int cbuf_rewind$$1$$7$$e;
-      cbuf_rewind$$1$$7$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_rewind$$1$$7$$e == 0))
+      signed int cbuf_rewind__1__7__e;
+      cbuf_rewind__1__7__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_rewind__1__7__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_rewind$$1$$7$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_rewind__1__7__e;
         lsd_fatal_error("cbuf.c", 607, "cbuf mutex unlock");
         abort();
       }
@@ -9690,9 +9690,9 @@ signed int cbuf_rewind_line(struct cbuf *src, signed int len, signed int lines)
   signed int n;
   if(!(len >= 0) || !(lines >= -1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9707,9 +9707,9 @@ signed int cbuf_rewind_line(struct cbuf *src, signed int len, signed int lines)
       e=pthread_mutex_lock(&src->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 797, "cbuf mutex lock");
         abort();
       }
@@ -9725,13 +9725,13 @@ signed int cbuf_rewind_line(struct cbuf *src, signed int len, signed int lines)
 
     do
     {
-      signed int cbuf_rewind_line$$1$$5$$e;
-      cbuf_rewind_line$$1$$5$$e=pthread_mutex_unlock(&src->mutex);
-      if(!(cbuf_rewind_line$$1$$5$$e == 0))
+      signed int cbuf_rewind_line__1__5__e;
+      cbuf_rewind_line__1__5__e=pthread_mutex_unlock(&src->mutex);
+      if(!(cbuf_rewind_line__1__5__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_rewind_line$$1$$5$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_rewind_line__1__5__e;
         lsd_fatal_error("cbuf.c", 806, "cbuf mutex unlock");
         abort();
       }
@@ -9768,9 +9768,9 @@ signed int cbuf_size(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 329, "cbuf mutex lock");
       abort();
     }
@@ -9780,13 +9780,13 @@ signed int cbuf_size(struct cbuf *cb)
   size = cb->size;
   do
   {
-    signed int cbuf_size$$1$$2$$e;
-    cbuf_size$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_size$$1$$2$$e == 0))
+    signed int cbuf_size__1__2__e;
+    cbuf_size__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_size__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_size$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_size__1__2__e;
       lsd_fatal_error("cbuf.c", 332, "cbuf mutex unlock");
       abort();
     }
@@ -9807,9 +9807,9 @@ signed int cbuf_used(struct cbuf *cb)
     e=pthread_mutex_lock(&cb->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("cbuf.c", 357, "cbuf mutex lock");
       abort();
     }
@@ -9819,13 +9819,13 @@ signed int cbuf_used(struct cbuf *cb)
   used = cb->used;
   do
   {
-    signed int cbuf_used$$1$$2$$e;
-    cbuf_used$$1$$2$$e=pthread_mutex_unlock(&cb->mutex);
-    if(!(cbuf_used$$1$$2$$e == 0))
+    signed int cbuf_used__1__2__e;
+    cbuf_used__1__2__e=pthread_mutex_unlock(&cb->mutex);
+    if(!(cbuf_used__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = cbuf_used$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = cbuf_used__1__2__e;
       lsd_fatal_error("cbuf.c", 360, "cbuf mutex unlock");
       abort();
     }
@@ -9845,9 +9845,9 @@ signed int cbuf_write(struct cbuf *dst, void *srcbuf, signed int len, signed int
 
   if(srcbuf == NULL || !(len >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9862,9 +9862,9 @@ signed int cbuf_write(struct cbuf *dst, void *srcbuf, signed int len, signed int
       e=pthread_mutex_lock(&dst->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("cbuf.c", 629, "cbuf mutex lock");
         abort();
       }
@@ -9874,13 +9874,13 @@ signed int cbuf_write(struct cbuf *dst, void *srcbuf, signed int len, signed int
     n=cbuf_writer(dst, len, (signed int (*)(void *, void *, signed int))cbuf_get_mem, (void *)&srcbuf, ndropped);
     do
     {
-      signed int cbuf_write$$1$$5$$e;
-      cbuf_write$$1$$5$$e=pthread_mutex_unlock(&dst->mutex);
-      if(!(cbuf_write$$1$$5$$e == 0))
+      signed int cbuf_write__1__5__e;
+      cbuf_write__1__5__e=pthread_mutex_unlock(&dst->mutex);
+      if(!(cbuf_write__1__5__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = cbuf_write$$1$$5$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = cbuf_write__1__5__e;
         lsd_fatal_error("cbuf.c", 633, "cbuf mutex unlock");
         abort();
       }
@@ -9901,9 +9901,9 @@ signed int cbuf_write_from_fd(struct cbuf *dst, signed int srcfd, signed int len
 
   if(!(len >= -1) || !(srcfd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -9913,27 +9913,27 @@ signed int cbuf_write_from_fd(struct cbuf *dst, signed int srcfd, signed int len
     e=pthread_mutex_lock(&dst->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = e;
       lsd_fatal_error("cbuf.c", 984, "cbuf mutex lock");
       abort();
     }
 
   }
   while((_Bool)0);
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_3;
   if(len == -1)
   {
     len = dst->size - dst->used;
     if(len == 0)
     {
       if(!(dst->size >= 1001))
-        tmp_if_expr$3 = dst->size;
+        tmp_if_expr_3 = dst->size;
 
       else
-        tmp_if_expr$3 = 1000;
-      len = tmp_if_expr$3;
+        tmp_if_expr_3 = 1000;
+      len = tmp_if_expr_3;
     }
 
   }
@@ -9943,13 +9943,13 @@ signed int cbuf_write_from_fd(struct cbuf *dst, signed int srcfd, signed int len
 
   do
   {
-    signed int cbuf_write_from_fd$$1$$6$$e;
-    cbuf_write_from_fd$$1$$6$$e=pthread_mutex_unlock(&dst->mutex);
-    if(!(cbuf_write_from_fd$$1$$6$$e == 0))
+    signed int cbuf_write_from_fd__1__6__e;
+    cbuf_write_from_fd__1__6__e=pthread_mutex_unlock(&dst->mutex);
+    if(!(cbuf_write_from_fd__1__6__e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = cbuf_write_from_fd$$1$$6$$e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = cbuf_write_from_fd__1__6__e;
       lsd_fatal_error("cbuf.c", 1001, "cbuf mutex unlock");
       abort();
     }
@@ -9976,23 +9976,23 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
 
   if(srcbuf == ((char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(srcbuf);
-  ncopy = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(srcbuf);
+  ncopy = (signed int)return_value_strlen_2;
   len = ncopy;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(len == 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)srcbuf[(signed long int)(len - 1)] != 10 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)srcbuf[(signed long int)(len - 1)] != 10 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     len = len + 1;
 
   do
@@ -10001,9 +10001,9 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
     e=pthread_mutex_lock(&dst->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = e;
       lsd_fatal_error("cbuf.c", 836, "cbuf mutex lock");
       abort();
     }
@@ -10015,9 +10015,9 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
   {
     if(!(dst->size >= dst->maxsize))
     {
-      signed int return_value_cbuf_grow$5;
-      return_value_cbuf_grow$5=cbuf_grow(dst, len - nfree);
-      nfree = nfree + return_value_cbuf_grow$5;
+      signed int return_value_cbuf_grow_5;
+      return_value_cbuf_grow_5=cbuf_grow(dst, len - nfree);
+      nfree = nfree + return_value_cbuf_grow_5;
     }
 
   }
@@ -10026,9 +10026,9 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
   {
     if(!(dst->size + -dst->used >= len))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = 28;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = 28;
       len = -1;
     }
 
@@ -10039,9 +10039,9 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
     {
       if(!(dst->size >= len))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = 28;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = 28;
         len = -1;
       }
 
@@ -10072,13 +10072,13 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
 
   do
   {
-    signed int cbuf_write_line$$1$$9$$e;
-    cbuf_write_line$$1$$9$$e=pthread_mutex_unlock(&dst->mutex);
-    if(!(cbuf_write_line$$1$$9$$e == 0))
+    signed int cbuf_write_line__1__9__e;
+    cbuf_write_line__1__9__e=pthread_mutex_unlock(&dst->mutex);
+    if(!(cbuf_write_line__1__9__e == 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = cbuf_write_line$$1$$9$$e;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = cbuf_write_line__1__9__e;
       lsd_fatal_error("cbuf.c", 884, "cbuf mutex unlock");
       abort();
     }
@@ -10106,28 +10106,28 @@ static signed int cbuf_writer(struct cbuf *dst, signed int len, signed int (*get
   {
     if(!(dst->size >= dst->maxsize))
     {
-      signed int return_value_cbuf_grow$1;
-      return_value_cbuf_grow$1=cbuf_grow(dst, len - nfree);
-      nfree = nfree + return_value_cbuf_grow$1;
+      signed int return_value_cbuf_grow_1;
+      return_value_cbuf_grow_1=cbuf_grow(dst, len - nfree);
+      nfree = nfree + return_value_cbuf_grow_1;
     }
 
   }
 
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_4;
   if((signed int)dst->overwrite == CBUF_NO_DROP)
   {
     if(dst->size + -dst->used >= len)
-      tmp_if_expr$2 = len;
+      tmp_if_expr_2 = len;
 
     else
-      tmp_if_expr$2 = dst->size - dst->used;
-    len = tmp_if_expr$2;
+      tmp_if_expr_2 = dst->size - dst->used;
+    len = tmp_if_expr_2;
     if(len == 0)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 28;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 28;
       return -1;
     }
 
@@ -10137,25 +10137,25 @@ static signed int cbuf_writer(struct cbuf *dst, signed int len, signed int (*get
     if((signed int)dst->overwrite == CBUF_WRAP_ONCE)
     {
       if(dst->size >= len)
-        tmp_if_expr$4 = len;
+        tmp_if_expr_4 = len;
 
       else
-        tmp_if_expr$4 = dst->size;
-      len = tmp_if_expr$4;
+        tmp_if_expr_4 = dst->size;
+      len = tmp_if_expr_4;
     }
 
   i_dst = dst->i_in;
   nleft = len;
   m = 0;
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_5;
   if(nleft >= 1)
   {
     if(1 + dst->size + -i_dst >= nleft)
-      tmp_if_expr$5 = nleft;
+      tmp_if_expr_5 = nleft;
 
     else
-      tmp_if_expr$5 = (dst->size + 1) - i_dst;
-    n = tmp_if_expr$5;
+      tmp_if_expr_5 = (dst->size + 1) - i_dst;
+    n = tmp_if_expr_5;
     m=getf((void *)&dst->data[(signed long int)i_dst], src, n);
     if(m >= 1)
     {
@@ -10166,7 +10166,7 @@ static signed int cbuf_writer(struct cbuf *dst, signed int len, signed int (*get
   }
 
   n = len - nleft;
-  signed int tmp_if_expr$6;
+  signed int tmp_if_expr_6;
   if(n == 0)
     return m;
 
@@ -10176,11 +10176,11 @@ static signed int cbuf_writer(struct cbuf *dst, signed int len, signed int (*get
     {
       nrepl = ((dst->i_out - dst->i_rep) + dst->size + 1) % (dst->size + 1);
       if(dst->size >= dst->used + n)
-        tmp_if_expr$6 = dst->used + n;
+        tmp_if_expr_6 = dst->used + n;
 
       else
-        tmp_if_expr$6 = dst->size;
-      dst->used = tmp_if_expr$6;
+        tmp_if_expr_6 = dst->size;
+      dst->used = tmp_if_expr_6;
       dst->i_in = i_dst;
       if(!(nfree + -nrepl >= n))
       {
@@ -10205,15 +10205,15 @@ static signed int cbuf_writer(struct cbuf *dst, signed int len, signed int (*get
 static void closeall(signed int fd)
 {
   signed int fdlimit;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(4);
-  fdlimit = (signed int)return_value_sysconf$1;
-  signed int tmp_post$2;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(4);
+  fdlimit = (signed int)return_value_sysconf_1;
+  signed int tmp_post_2;
   while(!(fd >= fdlimit))
   {
-    tmp_post$2 = fd;
+    tmp_post_2 = fd;
     fd = fd + 1;
-    close(tmp_post$2);
+    close(tmp_post_2);
   }
   goto __CPROVER_DUMP_L3;
 
@@ -10230,9 +10230,9 @@ static char ** cmd_args_create(struct pipe_info_struct *e, const char **argv)
   char **args = (char **)(void *)0;
   for( ; !(argv[(signed long int)n] == ((const char *)NULL)); n = n + 1)
     ;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc((unsigned long int)(n + 2) * sizeof(char *) /*8ul*/ );
-  args = (char **)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc((unsigned long int)(n + 2) * sizeof(char *) /*8ul*/ );
+  args = (char **)return_value_Malloc_1;
   args[(signed long int)0]=Strdup(e->cmd);
   i = 1;
   for( ; !(i >= 1 + n); i = i + 1)
@@ -10246,14 +10246,14 @@ static char ** cmd_args_create(struct pipe_info_struct *e, const char **argv)
 static void cmd_args_destroy(char **args)
 {
   signed int i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(args == ((char **)NULL)))
   {
     while(!(args[(signed long int)i] == ((char *)NULL)))
     {
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      Free((void **)&args[(signed long int)tmp_post$1]);
+      Free((void **)&args[(signed long int)tmp_post_1]);
     }
     Free((void **)&args);
   }
@@ -10266,9 +10266,9 @@ static void copy_username(char *dst, const char *src)
 {
   signed int maxlen;
   maxlen=login_name_max_len();
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(src);
-  if(!((unsigned long int)maxlen >= return_value_strlen$1))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(src);
+  if(!((unsigned long int)maxlen >= return_value_strlen_1))
     errx("%p: Fatal: username '%s' exceeds max username length (%d)\n", src, maxlen);
 
   strcpy(dst, src);
@@ -10304,9 +10304,9 @@ static signed int create_privileged_child(void)
 static signed int create_socketpair(void)
 {
   signed int pfds[2l];
-  signed int return_value_socketpair$1;
-  return_value_socketpair$1=socketpair(1, 1, 0, pfds);
-  if(!(return_value_socketpair$1 >= 0))
+  signed int return_value_socketpair_1;
+  return_value_socketpair_1=socketpair(1, 1, 0, pfds);
+  if(!(return_value_socketpair_1 >= 0))
   {
     err("%p: socketpair failed in privilege separation: %m\n");
     return -1;
@@ -10334,7 +10334,7 @@ static void drop_privileges(void)
 
 // dsh
 // file dsh.h line 95
-signed int dsh(struct anonymous$1 *opt)
+signed int dsh(struct anonymous_1 *opt)
 {
   signed int i;
   signed int rc = 0;
@@ -10349,9 +10349,9 @@ signed int dsh(struct anonymous$1 *opt)
   const char *domain = (const char *)(void *)0;
   enum anonymous domain_in_label = (enum anonymous)false;
   _mask_signals(0);
-  signed int return_value_rcmd_init$1;
-  return_value_rcmd_init$1=rcmd_init(opt);
-  if(!(return_value_rcmd_init$1 >= 0))
+  signed int return_value_rcmd_init_1;
+  return_value_rcmd_init_1=rcmd_init(opt);
+  if(!(return_value_rcmd_init_1 >= 0))
   {
     err("%p: unable to initialize an rcmd module\n");
     exit(1);
@@ -10363,52 +10363,52 @@ signed int dsh(struct anonymous$1 *opt)
     sigint_terminates = 1;
 
   rshcount=hostlist_count(opt->wcoll);
-  enum anonymous$5 return_value_pdsh_personality$2;
-  return_value_pdsh_personality$2=pdsh_personality();
-  if((signed int)return_value_pdsh_personality$2 == DSH)
+  enum anonymous_5 return_value_pdsh_personality_2;
+  return_value_pdsh_personality_2=pdsh_personality();
+  if((signed int)return_value_pdsh_personality_2 == DSH)
   {
     if(!(opt->dshpath == ((char *)NULL)))
     {
-      char *dsh$$1$$2$$cmd;
-      dsh$$1$$2$$cmd=Strdup(opt->dshpath);
-      xstrcat(&dsh$$1$$2$$cmd, opt->cmd);
+      char *dsh__1__2__cmd;
+      dsh__1__2__cmd=Strdup(opt->dshpath);
+      xstrcat(&dsh__1__2__cmd, opt->cmd);
       Free((void **)&opt->cmd);
-      opt->cmd = dsh$$1$$2$$cmd;
+      opt->cmd = dsh__1__2__cmd;
     }
 
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(opt->kill_on_fail == /*enum*/false))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = opt->ret_remote_rc != (enum anonymous)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
-    opt->getstat = ";echo XXRETCODE:$?";
+    tmp_if_expr_3 = opt->ret_remote_rc != (enum anonymous)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
+    opt->getstat = ";echo XXRETCODE:_?";
 
-  enum anonymous$5 return_value_pdsh_personality$4;
-  return_value_pdsh_personality$4=pdsh_personality();
-  if((signed int)return_value_pdsh_personality$4 == DSH)
+  enum anonymous_5 return_value_pdsh_personality_4;
+  return_value_pdsh_personality_4=pdsh_personality();
+  if((signed int)return_value_pdsh_personality_4 == DSH)
   {
     if(!(opt->getstat == ((char *)NULL)))
     {
-      char *dsh$$1$$3$$cmd;
-      dsh$$1$$3$$cmd=Strdup(opt->cmd);
-      xstrcat(&dsh$$1$$3$$cmd, opt->getstat);
+      char *dsh__1__3__cmd;
+      dsh__1__3__cmd=Strdup(opt->cmd);
+      xstrcat(&dsh__1__3__cmd, opt->getstat);
       Free((void **)&opt->cmd);
-      opt->cmd = dsh$$1$$3$$cmd;
+      opt->cmd = dsh__1__3__cmd;
     }
 
   }
 
-  enum anonymous$5 return_value_pdsh_personality$6;
-  return_value_pdsh_personality$6=pdsh_personality();
-  if((signed int)return_value_pdsh_personality$6 == PCP)
+  enum anonymous_5 return_value_pdsh_personality_6;
+  return_value_pdsh_personality_6=pdsh_personality();
+  if((signed int)return_value_pdsh_personality_6 == PCP)
   {
     if(opt->reverse_copy == /*enum*/false)
     {
-      char *dsh$$1$$4$$cmd = (char *)(void *)0;
+      char *dsh__1__4__cmd = (char *)(void *)0;
       pcp_infiles=pcp_expand_dirs(opt->infile_names);
       if(pcp_infiles == ((struct list *)NULL))
       {
@@ -10416,35 +10416,35 @@ signed int dsh(struct anonymous$1 *opt)
         exit(1);
       }
 
-      xstrcat(&dsh$$1$$4$$cmd, opt->remote_program_path);
+      xstrcat(&dsh__1__4__cmd, opt->remote_program_path);
       if(!(opt->recursive == /*enum*/false))
-        xstrcat(&dsh$$1$$4$$cmd, " -r");
+        xstrcat(&dsh__1__4__cmd, " -r");
 
       if(!(opt->preserve == /*enum*/false))
-        xstrcat(&dsh$$1$$4$$cmd, " -p");
+        xstrcat(&dsh__1__4__cmd, " -p");
 
-      signed int return_value_list_count$5;
-      return_value_list_count$5=list_count(pcp_infiles);
-      if(return_value_list_count$5 >= 2)
-        xstrcat(&dsh$$1$$4$$cmd, " -y");
+      signed int return_value_list_count_5;
+      return_value_list_count_5=list_count(pcp_infiles);
+      if(return_value_list_count_5 >= 2)
+        xstrcat(&dsh__1__4__cmd, " -y");
 
-      xstrcat(&dsh$$1$$4$$cmd, " -z ");
-      xstrcat(&dsh$$1$$4$$cmd, opt->outfile_name);
-      opt->cmd = dsh$$1$$4$$cmd;
+      xstrcat(&dsh__1__4__cmd, " -z ");
+      xstrcat(&dsh__1__4__cmd, opt->outfile_name);
+      opt->cmd = dsh__1__4__cmd;
     }
 
   }
 
-  enum anonymous$5 return_value_pdsh_personality$8;
-  return_value_pdsh_personality$8=pdsh_personality();
-  void *return_value_list_next$7;
-  if((signed int)return_value_pdsh_personality$8 == PCP)
+  enum anonymous_5 return_value_pdsh_personality_8;
+  return_value_pdsh_personality_8=pdsh_personality();
+  void *return_value_list_next_7;
+  if((signed int)return_value_pdsh_personality_8 == PCP)
   {
     if(!(opt->reverse_copy == /*enum*/false))
     {
       char *cmd = (char *)(void *)0;
       char *filename;
-      struct listIterator *dsh$$1$$5$$i;
+      struct listIterator *dsh__1__5__i;
       xstrcat(&cmd, opt->remote_program_path);
       if(!(opt->recursive == /*enum*/false))
         xstrcat(&cmd, " -r");
@@ -10453,11 +10453,11 @@ signed int dsh(struct anonymous$1 *opt)
         xstrcat(&cmd, " -p");
 
       xstrcat(&cmd, " -Z ");
-      dsh$$1$$5$$i=list_iterator_create(opt->infile_names);
+      dsh__1__5__i=list_iterator_create(opt->infile_names);
       do
       {
-        return_value_list_next$7=list_next(dsh$$1$$5$$i);
-        filename = (char *)return_value_list_next$7;
+        return_value_list_next_7=list_next(dsh__1__5__i);
+        filename = (char *)return_value_list_next_7;
         if(filename == ((char *)NULL))
           break;
 
@@ -10465,7 +10465,7 @@ signed int dsh(struct anonymous$1 *opt)
         xstrcat(&cmd, filename);
       }
       while((_Bool)1);
-      list_iterator_destroy(dsh$$1$$5$$i);
+      list_iterator_destroy(dsh__1__5__i);
       opt->cmd = cmd;
     }
 
@@ -10474,15 +10474,15 @@ signed int dsh(struct anonymous$1 *opt)
   if(!(opt->debug == /*enum*/false))
     debug = 1;
 
-  void *return_value_Malloc$9;
-  return_value_Malloc$9=Malloc(sizeof(struct thd) /*248ul*/  * (unsigned long int)(rshcount + 1));
-  t = (struct thd *)return_value_Malloc$9;
+  void *return_value_Malloc_9;
+  return_value_Malloc_9=Malloc(sizeof(struct thd) /*248ul*/  * (unsigned long int)(rshcount + 1));
+  t = (struct thd *)return_value_Malloc_9;
   itr=hostlist_iterator_create(opt->wcoll);
   if(itr == ((struct hostlist_iterator *)NULL))
     errx("%p: hostlist_iterator_create failed\n");
 
   i = 0;
-  signed int return_value_strcmp$10;
+  signed int return_value_strcmp_10;
   do
   {
     (t + (signed long int)i)->host=hostlist_next(itr);
@@ -10501,8 +10501,8 @@ signed int dsh(struct anonymous$1 *opt)
 
         else
         {
-          return_value_strcmp$10=strcmp(d, domain);
-          if(!(return_value_strcmp$10 == 0))
+          return_value_strcmp_10=strcmp(d, domain);
+          if(!(return_value_strcmp_10 == 0))
             domain_in_label = (enum anonymous)true;
 
         }
@@ -10528,10 +10528,10 @@ signed int dsh(struct anonymous$1 *opt)
   {
     do
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      *return_value___errno_location$11=pthread_mutex_lock(&threadcount_mutex);
-      if(!(*return_value___errno_location$11 == 0))
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      *return_value___errno_location_11=pthread_mutex_lock(&threadcount_mutex);
+      if(!(*return_value___errno_location_11 == 0))
         errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 1140);
 
     }
@@ -10547,10 +10547,10 @@ signed int dsh(struct anonymous$1 *opt)
     {
       do
       {
-        signed int *return_value___errno_location$12;
-        return_value___errno_location$12=__errno_location();
-        *return_value___errno_location$12=pthread_mutex_unlock(&threadcount_mutex);
-        if(!(*return_value___errno_location$12 == 0))
+        signed int *return_value___errno_location_12;
+        return_value___errno_location_12=__errno_location();
+        *return_value___errno_location_12=pthread_mutex_unlock(&threadcount_mutex);
+        if(!(*return_value___errno_location_12 == 0))
           errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 1154);
 
       }
@@ -10560,26 +10560,26 @@ signed int dsh(struct anonymous$1 *opt)
 
     _dsh_attr_init(&(t + (signed long int)i)->attr, 128 * 1024);
     pthread_attr_setscope(&(t + (signed long int)i)->attr, 0);
-    enum anonymous$5 return_value_pdsh_personality$13;
-    return_value_pdsh_personality$13=pdsh_personality();
-    rv=pthread_create(&(t + (signed long int)i)->thread, &(t + (signed long int)i)->attr, (signed int)return_value_pdsh_personality$13 == DSH ? _rsh_thread : _rcp_thread, (void *)&t[(signed long int)i]);
+    enum anonymous_5 return_value_pdsh_personality_13;
+    return_value_pdsh_personality_13=pdsh_personality();
+    rv=pthread_create(&(t + (signed long int)i)->thread, &(t + (signed long int)i)->attr, (signed int)return_value_pdsh_personality_13 == DSH ? _rsh_thread : _rcp_thread, (void *)&t[(signed long int)i]);
     if(!(rv == 0))
     {
       if(!(opt->kill_on_fail == /*enum*/false))
         _fwd_signal(15);
 
-      char *return_value_strerror$14;
-      return_value_strerror$14=strerror(rv);
-      errx("%p: pthread_create %S: %S\n", (t + (signed long int)i)->host, return_value_strerror$14);
+      char *return_value_strerror_14;
+      return_value_strerror_14=strerror(rv);
+      errx("%p: pthread_create %S: %S\n", (t + (signed long int)i)->host, return_value_strerror_14);
     }
 
     threadcount = threadcount + 1;
     do
     {
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      *return_value___errno_location$15=pthread_mutex_unlock(&threadcount_mutex);
-      if(!(*return_value___errno_location$15 == 0))
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      *return_value___errno_location_15=pthread_mutex_unlock(&threadcount_mutex);
+      if(!(*return_value___errno_location_15 == 0))
         errx("%s:%d: mutex_unlock: %m", (const void *)"dsh.c", 1174);
 
     }
@@ -10587,10 +10587,10 @@ signed int dsh(struct anonymous$1 *opt)
   }
   do
   {
-    signed int *return_value___errno_location$16;
-    return_value___errno_location$16=__errno_location();
-    *return_value___errno_location$16=pthread_mutex_lock(&threadcount_mutex);
-    if(!(*return_value___errno_location$16 == 0))
+    signed int *return_value___errno_location_16;
+    return_value___errno_location_16=__errno_location();
+    *return_value___errno_location_16=pthread_mutex_lock(&threadcount_mutex);
+    if(!(*return_value___errno_location_16 == 0))
       errx("%s:%d: mutex_lock: %m", (const void *)"dsh.c", 1178);
 
   }
@@ -10689,54 +10689,54 @@ void errx(char *format, ...)
 // file fd.c line 74
 signed int fd_get_read_lock(signed int fd)
 {
-  signed int return_value__fd_get_lock$1;
-  return_value__fd_get_lock$1=_fd_get_lock(fd, 6, 0);
-  return return_value__fd_get_lock$1;
+  signed int return_value__fd_get_lock_1;
+  return_value__fd_get_lock_1=_fd_get_lock(fd, 6, 0);
+  return return_value__fd_get_lock_1;
 }
 
 // fd_get_readw_lock
 // file fd.c line 81
 signed int fd_get_readw_lock(signed int fd)
 {
-  signed int return_value__fd_get_lock$1;
-  return_value__fd_get_lock$1=_fd_get_lock(fd, 7, 0);
-  return return_value__fd_get_lock$1;
+  signed int return_value__fd_get_lock_1;
+  return_value__fd_get_lock_1=_fd_get_lock(fd, 7, 0);
+  return return_value__fd_get_lock_1;
 }
 
 // fd_get_write_lock
 // file fd.c line 88
 signed int fd_get_write_lock(signed int fd)
 {
-  signed int return_value__fd_get_lock$1;
-  return_value__fd_get_lock$1=_fd_get_lock(fd, 6, 1);
-  return return_value__fd_get_lock$1;
+  signed int return_value__fd_get_lock_1;
+  return_value__fd_get_lock_1=_fd_get_lock(fd, 6, 1);
+  return return_value__fd_get_lock_1;
 }
 
 // fd_get_writew_lock
 // file fd.c line 95
 signed int fd_get_writew_lock(signed int fd)
 {
-  signed int return_value__fd_get_lock$1;
-  return_value__fd_get_lock$1=_fd_get_lock(fd, 7, 1);
-  return return_value__fd_get_lock$1;
+  signed int return_value__fd_get_lock_1;
+  return_value__fd_get_lock_1=_fd_get_lock(fd, 7, 1);
+  return return_value__fd_get_lock_1;
 }
 
 // fd_is_read_lock_blocked
 // file fd.c line 109
 signed int fd_is_read_lock_blocked(signed int fd)
 {
-  signed int return_value__fd_test_lock$1;
-  return_value__fd_test_lock$1=_fd_test_lock(fd, 0);
-  return return_value__fd_test_lock$1;
+  signed int return_value__fd_test_lock_1;
+  return_value__fd_test_lock_1=_fd_test_lock(fd, 0);
+  return return_value__fd_test_lock_1;
 }
 
 // fd_is_write_lock_blocked
 // file fd.c line 116
 signed int fd_is_write_lock_blocked(signed int fd)
 {
-  signed int return_value__fd_test_lock$1;
-  return_value__fd_test_lock$1=_fd_test_lock(fd, 1);
-  return return_value__fd_test_lock$1;
+  signed int return_value__fd_test_lock_1;
+  return_value__fd_test_lock_1=_fd_test_lock(fd, 1);
+  return return_value__fd_test_lock_1;
 }
 
 // fd_null_read_n
@@ -10756,9 +10756,9 @@ signed long int fd_null_read_n(signed int fd, void *buf, unsigned long int n)
     nread=read(fd, (void *)p, nleft);
     if(!(nread >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
       else
@@ -10771,9 +10771,9 @@ signed long int fd_null_read_n(signed int fd, void *buf, unsigned long int n)
 
     nleft = nleft - (unsigned long int)nread;
     p = p + nread;
-    void *return_value_memchr$2;
-    return_value_memchr$2=memchr((const void *)q, 0, n - nleft);
-    mp = (unsigned char *)return_value_memchr$2;
+    void *return_value_memchr_2;
+    return_value_memchr_2=memchr((const void *)q, 0, n - nleft);
+    mp = (unsigned char *)return_value_memchr_2;
     if(q + -1l + (signed long int)n + -((signed long int)nleft) >= mp)
     {
       if(!(mp == ((unsigned char *)NULL)))
@@ -10795,16 +10795,16 @@ signed long int fd_read_line(signed int fd, void *buf, unsigned long int maxlen)
   unsigned char *p;
   n = (signed long int)0;
   p = (unsigned char *)buf;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   while(!(n >= (signed long int)maxlen + -1l))
   {
     rc=read(fd, (void *)&c, (unsigned long int)1);
     if(rc == 1l)
     {
       n = n + 1l;
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      *tmp_post$1 = c;
+      *tmp_post_1 = c;
       if((signed int)c == 10)
         break;
 
@@ -10822,9 +10822,9 @@ signed long int fd_read_line(signed int fd, void *buf, unsigned long int maxlen)
 
       else
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 4))
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 4))
           return (signed long int)-1;
 
       }
@@ -10846,9 +10846,9 @@ signed long int fd_read_n(signed int fd, void *buf, unsigned long int n)
     nread=read(fd, (void *)p, nleft);
     if(!(nread >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
       else
@@ -10869,18 +10869,18 @@ signed long int fd_read_n(signed int fd, void *buf, unsigned long int n)
 // file fd.c line 102
 signed int fd_release_lock(signed int fd)
 {
-  signed int return_value__fd_get_lock$1;
-  return_value__fd_get_lock$1=_fd_get_lock(fd, 6, 2);
-  return return_value__fd_get_lock$1;
+  signed int return_value__fd_get_lock_1;
+  return_value__fd_get_lock_1=_fd_get_lock(fd, 6, 2);
+  return return_value__fd_get_lock_1;
 }
 
 // fd_set_close_on_exec
 // file fd.c line 48
 signed int fd_set_close_on_exec(signed int fd)
 {
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, 2, 1);
-  if(!(return_value_fcntl$1 >= 0))
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, 2, 1);
+  if(!(return_value_fcntl_1 >= 0))
     return -1;
 
   else
@@ -10898,9 +10898,9 @@ signed int fd_set_nonblocking(signed int fd)
 
   else
   {
-    signed int return_value_fcntl$1;
-    return_value_fcntl$1=fcntl(fd, 4, fval | 04000);
-    if(!(return_value_fcntl$1 >= 0))
+    signed int return_value_fcntl_1;
+    return_value_fcntl_1=fcntl(fd, 4, fval | 04000);
+    if(!(return_value_fcntl_1 >= 0))
       return -1;
 
     else
@@ -10921,9 +10921,9 @@ signed long int fd_write_n(signed int fd, void *buf, unsigned long int n)
     nwritten=write(fd, (const void *)p, nleft);
     if(!(nwritten >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
       else
@@ -10940,18 +10940,18 @@ signed long int fd_write_n(signed int fd, void *buf, unsigned long int n)
 // file rcmd.c line 151
 static signed int find_host(struct node_rcmd_info *x, char *hostname)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(x->hostname, hostname);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(x->hostname, hostname);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // find_rcmd_module
 // file rcmd.c line 146
 static signed int find_rcmd_module(struct rcmd_module *x, char *name)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(x->name, name);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(x->name, name);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // free_f
@@ -10961,16 +10961,16 @@ void free_f(void *x)
   Free(&x);
 }
 
-// free_f$link1
+// free_f_link1
 // file wcoll.c line 58
-static void free_f$link1(void *x$link1)
+static void free_f_link1(void *x_link1)
 {
-  Free(&x$link1);
+  Free(&x_link1);
 }
 
-// free_f$link2
+// free_f_link2
 // file split.c line 77
-static void free_f$link2(char *str)
+static void free_f_link2(char *str)
 {
   Free((void **)&str);
 }
@@ -10983,8 +10983,8 @@ static char * get_file_path(const char *file, char *dir, signed int len)
   char *dname;
   memset((void *)dir, 0, (unsigned long int)len);
   dir[(signed long int)0] = (char)46;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(file == ((const char *)NULL))
     return dir;
 
@@ -10994,13 +10994,13 @@ static char * get_file_path(const char *file, char *dir, signed int len)
     dname=dirname(str);
     if(!(dname == ((char *)NULL)))
     {
-      return_value_strlen$1=strlen(dname);
-      tmp_if_expr$2 = return_value_strlen$1 < (unsigned long int)(len - 1) ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_1=strlen(dname);
+      tmp_if_expr_2 = return_value_strlen_1 < (unsigned long int)(len - 1) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       strcpy(dir, dname);
 
     else
@@ -11022,27 +11022,27 @@ static signed int get_host_rcmd_type(char *hosts, char **rptr, char **hptr, char
   if(!(p == ((char *)NULL)) && !(q == ((char *)NULL)) && !(q >= p))
     errx("Host spec \"%s\" not of form [rcmd_type:][user@]hosts\n", hosts);
 
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(p == ((char *)NULL)))
   {
     if(!((signed int)p[1l] == 58))
     {
       *rptr = *hptr;
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
       *hptr = p;
     }
 
   }
 
-  char *tmp_post$2;
+  char *tmp_post_2;
   if(!(q == ((char *)NULL)))
   {
     *uptr = *hptr;
-    tmp_post$2 = q;
+    tmp_post_2 = q;
     q = q + 1l;
-    *tmp_post$2 = (char)0;
+    *tmp_post_2 = (char)0;
     *hptr = q;
   }
 
@@ -11054,14 +11054,14 @@ static signed int get_host_rcmd_type(char *hosts, char **rptr, char **hptr, char
 static signed int host_prefix_end(const char *hostname)
 {
   signed int idx;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(hostname);
-  idx = (signed int)(return_value_strlen$1 - (unsigned long int)1);
-  const unsigned short int **return_value___ctype_b_loc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(hostname);
+  idx = (signed int)(return_value_strlen_1 - (unsigned long int)1);
+  const unsigned short int **return_value___ctype_b_loc_2;
   for( ; idx >= 0; idx = idx - 1)
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)hostname[(signed long int)idx]]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)hostname[(signed long int)idx]]) == 0)
       break;
 
   }
@@ -11077,9 +11077,9 @@ static struct node_rcmd_info * host_rcmd_info(char *host)
 
   else
   {
-    void *return_value_list_find_first$1;
-    return_value_list_find_first$1=list_find_first(host_info_list, (signed int (*)(void *, void *))find_host, (void *)host);
-    return (struct node_rcmd_info *)return_value_list_find_first$1;
+    void *return_value_list_find_first_1;
+    return_value_list_find_first_1=list_find_first(host_info_list, (signed int (*)(void *, void *))find_host, (void *)host);
+    return (struct node_rcmd_info *)return_value_list_find_first_1;
   }
 }
 
@@ -11105,13 +11105,13 @@ static void hostlist_coalesce(struct hostlist *hl)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int hostlist_coalesce$$1$$1$$1$$e;
-    hostlist_coalesce$$1$$1$$1$$e=pthread_mutex_lock(&hl->mutex);
-    if(!(hostlist_coalesce$$1$$1$$1$$e == 0))
+    signed int hostlist_coalesce__1__1__1__e;
+    hostlist_coalesce__1__1__1__e=pthread_mutex_lock(&hl->mutex);
+    if(!(hostlist_coalesce__1__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = hostlist_coalesce$$1$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = hostlist_coalesce__1__1__1__e;
       lsd_fatal_error("hostlist.c", 2004, "hostlist mutex lock:");
       abort();
     }
@@ -11119,8 +11119,8 @@ static void hostlist_coalesce(struct hostlist *hl)
   }
   while((_Bool)0);
   i = hl->nranges - 1;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; i >= 1; i = i - 1)
   {
     new=hostrange_intersect(hl->hr[(signed long int)(i - 1)], hl->hr[(signed long int)i]);
@@ -11134,9 +11134,9 @@ static void hostlist_coalesce(struct hostlist *hl)
 
       hprev->hi = new->lo;
       hnext->lo = new->hi;
-      signed int return_value_hostrange_empty$2;
-      return_value_hostrange_empty$2=hostrange_empty(hprev);
-      if(!(return_value_hostrange_empty$2 == 0))
+      signed int return_value_hostrange_empty_2;
+      return_value_hostrange_empty_2=hostrange_empty(hprev);
+      if(!(return_value_hostrange_empty_2 == 0))
         hostlist_delete_range(hl, i);
 
       while(new->hi >= new->lo)
@@ -11145,16 +11145,16 @@ static void hostlist_coalesce(struct hostlist *hl)
         hr=hostrange_create(new->prefix, new->lo, new->lo, new->width);
         if(!(hprev->hi >= new->lo))
         {
-          tmp_post$3 = j;
+          tmp_post_3 = j;
           j = j + 1;
-          hostlist_insert_range(hl, hr, tmp_post$3);
+          hostlist_insert_range(hl, hr, tmp_post_3);
         }
 
         if(!(new->lo >= hnext->lo))
         {
-          tmp_post$4 = j;
+          tmp_post_4 = j;
           j = j + 1;
-          hostlist_insert_range(hl, hr, tmp_post$4);
+          hostlist_insert_range(hl, hr, tmp_post_4);
         }
 
         hostrange_destroy(hr);
@@ -11174,9 +11174,9 @@ static void hostlist_coalesce(struct hostlist *hl)
     e=pthread_mutex_unlock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = e;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = e;
       lsd_fatal_error("hostlist.c", 2043, "hostlist mutex unlock:");
       abort();
     }
@@ -11200,9 +11200,9 @@ static void hostlist_collapse(struct hostlist *hl)
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 1981, "hostlist mutex lock:");
       abort();
     }
@@ -11210,19 +11210,19 @@ static void hostlist_collapse(struct hostlist *hl)
   }
   while((_Bool)0);
   i = hl->nranges - 1;
-  signed int return_value_hostrange_width_combine$2;
+  signed int return_value_hostrange_width_combine_2;
   for( ; i >= 1; i = i - 1)
   {
     struct hostrange_components *hprev = hl->hr[(signed long int)(i - 1)];
     struct hostrange_components *hnext = hl->hr[(signed long int)i];
-    signed int return_value_hostrange_prefix_cmp$3;
-    return_value_hostrange_prefix_cmp$3=hostrange_prefix_cmp(hprev, hnext);
-    if(return_value_hostrange_prefix_cmp$3 == 0)
+    signed int return_value_hostrange_prefix_cmp_3;
+    return_value_hostrange_prefix_cmp_3=hostrange_prefix_cmp(hprev, hnext);
+    if(return_value_hostrange_prefix_cmp_3 == 0)
     {
       if(hprev->hi == hnext->lo + 18446744073709551615ul)
       {
-        return_value_hostrange_width_combine$2=hostrange_width_combine(hprev, hnext);
-        if(!(return_value_hostrange_width_combine$2 == 0))
+        return_value_hostrange_width_combine_2=hostrange_width_combine(hprev, hnext);
+        if(!(return_value_hostrange_width_combine_2 == 0))
         {
           hprev->hi = hnext->hi;
           hostlist_delete_range(hl, i);
@@ -11238,13 +11238,13 @@ static void hostlist_collapse(struct hostlist *hl)
 
   __CPROVER_DUMP_L5:
     ;
-    signed int hostlist_collapse$$1$$3$$1$$e;
-    hostlist_collapse$$1$$3$$1$$e=pthread_mutex_unlock(&hl->mutex);
-    if(!(hostlist_collapse$$1$$3$$1$$e == 0))
+    signed int hostlist_collapse__1__3__1__e;
+    hostlist_collapse__1__3__1__e=pthread_mutex_unlock(&hl->mutex);
+    if(!(hostlist_collapse__1__3__1__e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = hostlist_collapse$$1$$3$$1$$e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = hostlist_collapse__1__3__1__e;
       lsd_fatal_error("hostlist.c", 1993, "hostlist mutex unlock:");
       abort();
     }
@@ -11273,9 +11273,9 @@ struct hostlist * hostlist_copy(struct hostlist * const hl)
       e=pthread_mutex_lock(&hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = e;
         lsd_fatal_error("hostlist.c", 1566, "hostlist mutex lock:");
         abort();
       }
@@ -11300,13 +11300,13 @@ struct hostlist * hostlist_copy(struct hostlist * const hl)
 
     done:
       ;
-      signed int hostlist_copy$$1$$3$$1$$e;
-      hostlist_copy$$1$$3$$1$$e=pthread_mutex_unlock(&hl->mutex);
-      if(!(hostlist_copy$$1$$3$$1$$e == 0))
+      signed int hostlist_copy__1__3__1__e;
+      hostlist_copy__1__3__1__e=pthread_mutex_unlock(&hl->mutex);
+      if(!(hostlist_copy__1__3__1__e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = hostlist_copy$$1$$3$$1$$e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = hostlist_copy__1__3__1__e;
         lsd_fatal_error("hostlist.c", 1579, "hostlist mutex unlock:");
         abort();
       }
@@ -11331,9 +11331,9 @@ signed int hostlist_count(struct hostlist *hl)
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 1907, "hostlist mutex lock:");
       abort();
     }
@@ -11346,13 +11346,13 @@ signed int hostlist_count(struct hostlist *hl)
 
   __CPROVER_DUMP_L3:
     ;
-    signed int hostlist_count$$1$$2$$1$$e;
-    hostlist_count$$1$$2$$1$$e=pthread_mutex_unlock(&hl->mutex);
-    if(!(hostlist_count$$1$$2$$1$$e == 0))
+    signed int hostlist_count__1__2__1__e;
+    hostlist_count__1__2__1__e=pthread_mutex_unlock(&hl->mutex);
+    if(!(hostlist_count__1__2__1__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = hostlist_count$$1$$2$$1$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = hostlist_count__1__2__1__e;
       lsd_fatal_error("hostlist.c", 1909, "hostlist mutex unlock:");
       abort();
     }
@@ -11366,9 +11366,9 @@ signed int hostlist_count(struct hostlist *hl)
 // file ../../src/common/hostlist.h line 106
 struct hostlist * hostlist_create(const char *str)
 {
-  struct hostlist *return_value__hostlist_create$1;
-  return_value__hostlist_create$1=_hostlist_create(str, "\t, ", "-");
-  return return_value__hostlist_create$1;
+  struct hostlist *return_value__hostlist_create_1;
+  return_value__hostlist_create_1=_hostlist_create(str, "\t, ", "-");
+  return return_value__hostlist_create_1;
 }
 
 // hostlist_delete
@@ -11381,9 +11381,9 @@ signed int hostlist_delete(struct hostlist *hl, const char *hosts)
   hltmp=hostlist_create(hosts);
   if(hltmp == ((struct hostlist *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return 0;
   }
 
@@ -11393,9 +11393,9 @@ signed int hostlist_delete(struct hostlist *hl, const char *hosts)
     if(hostname == ((char *)NULL))
       break;
 
-    signed int return_value_hostlist_delete_host$2;
-    return_value_hostlist_delete_host$2=hostlist_delete_host(hl, hostname);
-    n = n + return_value_hostlist_delete_host$2;
+    signed int return_value_hostlist_delete_host_2;
+    return_value_hostlist_delete_host_2=hostlist_delete_host(hl, hostname);
+    n = n + return_value_hostlist_delete_host_2;
     free((void *)hostname);
   }
   while((_Bool)1);
@@ -11426,13 +11426,13 @@ signed int hostlist_delete_nth(struct hostlist *hl, signed int n)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int hostlist_delete_nth$$1$$1$$1$$e;
-    hostlist_delete_nth$$1$$1$$1$$e=pthread_mutex_lock(&hl->mutex);
-    if(!(hostlist_delete_nth$$1$$1$$1$$e == 0))
+    signed int hostlist_delete_nth__1__1__1__e;
+    hostlist_delete_nth__1__1__1__e=pthread_mutex_lock(&hl->mutex);
+    if(!(hostlist_delete_nth__1__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = hostlist_delete_nth$$1$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = hostlist_delete_nth__1__1__1__e;
       lsd_fatal_error("hostlist.c", 1871, "hostlist mutex lock:");
       abort();
     }
@@ -11441,13 +11441,13 @@ signed int hostlist_delete_nth(struct hostlist *hl, signed int n)
   while((_Bool)0);
   count = 0;
   i = 0;
-  signed int return_value_hostrange_empty$3;
+  signed int return_value_hostrange_empty_3;
   for( ; !(i >= hl->nranges); i = i + 1)
   {
     signed int num_in_range;
-    unsigned long int return_value_hostrange_count$2;
-    return_value_hostrange_count$2=hostrange_count(hl->hr[(signed long int)i]);
-    num_in_range = (signed int)return_value_hostrange_count$2;
+    unsigned long int return_value_hostrange_count_2;
+    return_value_hostrange_count_2=hostrange_count(hl->hr[(signed long int)i]);
+    num_in_range = (signed int)return_value_hostrange_count_2;
     struct hostrange_components *hr = hl->hr[(signed long int)i];
     if(-1 + num_in_range + count >= n)
     {
@@ -11467,8 +11467,8 @@ signed int hostlist_delete_nth(struct hostlist *hl, signed int n)
 
         else
         {
-          return_value_hostrange_empty$3=hostrange_empty(hr);
-          if(!(return_value_hostrange_empty$3 == 0))
+          return_value_hostrange_empty_3=hostrange_empty(hr);
+          if(!(return_value_hostrange_empty_3 == 0))
             hostlist_delete_range(hl, i);
 
         }
@@ -11492,9 +11492,9 @@ done:
     e=pthread_mutex_unlock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = e;
       lsd_fatal_error("hostlist.c", 1900, "hostlist mutex unlock:");
       abort();
     }
@@ -11535,9 +11535,9 @@ signed long int hostlist_deranged_string(struct hostlist *hl, unsigned long int 
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 2098, "hostlist mutex lock:");
       abort();
     }
@@ -11545,14 +11545,14 @@ signed long int hostlist_deranged_string(struct hostlist *hl, unsigned long int 
   }
   while((_Bool)0);
   i = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(i >= hl->nranges); i = i + 1)
   {
     unsigned long int m = n - (unsigned long int)len <= n ? n - (unsigned long int)len : (unsigned long int)0;
     signed int ret;
-    unsigned long int return_value_hostrange_to_string$2;
-    return_value_hostrange_to_string$2=hostrange_to_string(hl->hr[(signed long int)i], m, buf + (signed long int)len, ",");
-    ret = (signed int)return_value_hostrange_to_string$2;
+    unsigned long int return_value_hostrange_to_string_2;
+    return_value_hostrange_to_string_2=hostrange_to_string(hl->hr[(signed long int)i], m, buf + (signed long int)len, ",");
+    ret = (signed int)return_value_hostrange_to_string_2;
     if(!(ret >= 0) || !(m >= (unsigned long int)ret))
     {
       len = (signed int)n;
@@ -11561,38 +11561,38 @@ signed long int hostlist_deranged_string(struct hostlist *hl, unsigned long int 
     }
 
     len = len + ret;
-    tmp_post$3 = len;
+    tmp_post_3 = len;
     len = len + 1;
-    buf[(signed long int)tmp_post$3] = (char)44;
+    buf[(signed long int)tmp_post_3] = (char)44;
   }
   do
   {
 
   __CPROVER_DUMP_L5:
     ;
-    signed int hostlist_deranged_string$$1$$3$$1$$e;
-    hostlist_deranged_string$$1$$3$$1$$e=pthread_mutex_unlock(&hl->mutex);
-    if(!(hostlist_deranged_string$$1$$3$$1$$e == 0))
+    signed int hostlist_deranged_string__1__3__1__e;
+    hostlist_deranged_string__1__3__1__e=pthread_mutex_unlock(&hl->mutex);
+    if(!(hostlist_deranged_string__1__3__1__e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = hostlist_deranged_string$$1$$3$$1$$e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = hostlist_deranged_string__1__3__1__e;
       lsd_fatal_error("hostlist.c", 2110, "hostlist mutex unlock:");
       abort();
     }
 
   }
   while((_Bool)0);
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_5;
   if(len >= 1)
   {
     len = len - 1;
-    tmp_if_expr$5 = len;
+    tmp_if_expr_5 = len;
   }
 
   else
-    tmp_if_expr$5 = 0;
-  buf[(signed long int)tmp_if_expr$5] = (char)0;
+    tmp_if_expr_5 = 0;
+  buf[(signed long int)tmp_if_expr_5] = (char)0;
   if((unsigned long int)len == n)
     truncated = 1;
 
@@ -11615,9 +11615,9 @@ void hostlist_destroy(struct hostlist *hl)
       e=pthread_mutex_lock(&hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = e;
         lsd_fatal_error("hostlist.c", 1589, "hostlist mutex lock:");
         abort();
       }
@@ -11628,13 +11628,13 @@ void hostlist_destroy(struct hostlist *hl)
     {
       do
       {
-        signed int hostlist_destroy$$1$$2$$1$$e;
-        hostlist_destroy$$1$$2$$1$$e=pthread_mutex_unlock(&hl->mutex);
-        if(!(hostlist_destroy$$1$$2$$1$$e == 0))
+        signed int hostlist_destroy__1__2__1__e;
+        hostlist_destroy__1__2__1__e=pthread_mutex_unlock(&hl->mutex);
+        if(!(hostlist_destroy__1__2__1__e == 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = hostlist_destroy$$1$$2$$1$$e;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = hostlist_destroy__1__2__1__e;
           lsd_fatal_error("hostlist.c", 1591, "hostlist mutex unlock:");
           abort();
         }
@@ -11644,13 +11644,13 @@ void hostlist_destroy(struct hostlist *hl)
       hostlist_iterator_destroy(hl->ilist);
       do
       {
-        signed int hostlist_destroy$$1$$2$$2$$e;
-        hostlist_destroy$$1$$2$$2$$e=pthread_mutex_lock(&hl->mutex);
-        if(!(hostlist_destroy$$1$$2$$2$$e == 0))
+        signed int hostlist_destroy__1__2__2__e;
+        hostlist_destroy__1__2__2__e=pthread_mutex_lock(&hl->mutex);
+        if(!(hostlist_destroy__1__2__2__e == 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = hostlist_destroy$$1$$2$$2$$e;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = hostlist_destroy__1__2__2__e;
           lsd_fatal_error("hostlist.c", 1593, "hostlist mutex lock:");
           abort();
         }
@@ -11667,13 +11667,13 @@ void hostlist_destroy(struct hostlist *hl)
 
     __CPROVER_DUMP_L11:
       ;
-      signed int hostlist_destroy$$1$$4$$1$$e;
-      hostlist_destroy$$1$$4$$1$$e=pthread_mutex_unlock(&hl->mutex);
-      if(!(hostlist_destroy$$1$$4$$1$$e == 0))
+      signed int hostlist_destroy__1__4__1__e;
+      hostlist_destroy__1__4__1__e=pthread_mutex_unlock(&hl->mutex);
+      if(!(hostlist_destroy__1__4__1__e == 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = hostlist_destroy$$1$$4$$1$$e;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = hostlist_destroy__1__4__1__e;
         lsd_fatal_error("hostlist.c", 1599, "hostlist mutex unlock:");
         abort();
       }
@@ -11682,13 +11682,13 @@ void hostlist_destroy(struct hostlist *hl)
     while((_Bool)0);
     do
     {
-      signed int hostlist_destroy$$1$$5$$e;
-      hostlist_destroy$$1$$5$$e=pthread_mutex_destroy(&hl->mutex);
-      if(!(hostlist_destroy$$1$$5$$e == 0))
+      signed int hostlist_destroy__1__5__e;
+      hostlist_destroy__1__5__e=pthread_mutex_destroy(&hl->mutex);
+      if(!(hostlist_destroy__1__5__e == 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        *return_value___errno_location$5 = hostlist_destroy$$1$$5$$e;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        *return_value___errno_location_5 = hostlist_destroy__1__5__e;
         lsd_fatal_error("hostlist.c", 1600, "hostlist mutex destroy:");
         abort();
       }
@@ -11704,9 +11704,9 @@ void hostlist_destroy(struct hostlist *hl)
 // file hostlist.c line 1118
 static signed int hostlist_expand(struct hostlist *hl)
 {
-  signed int return_value_hostlist_resize$1;
-  return_value_hostlist_resize$1=hostlist_resize(hl, (unsigned long int)(hl->size + 16));
-  if(return_value_hostlist_resize$1 == 0)
+  signed int return_value_hostlist_resize_1;
+  return_value_hostlist_resize_1=hostlist_resize(hl, (unsigned long int)(hl->size + 16));
+  if(return_value_hostlist_resize_1 == 0)
     return 0;
 
   else
@@ -11717,27 +11717,27 @@ static signed int hostlist_expand(struct hostlist *hl)
 // file opt.c line 1259
 void hostlist_filter_regex(struct hostlist *hl, struct regex_info *re)
 {
-  char *hostlist_filter_regex$$1$$host;
+  char *hostlist_filter_regex__1__host;
   struct hostlist_iterator *i;
   i=hostlist_iterator_create(hl);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
-    hostlist_filter_regex$$1$$host=hostlist_next(i);
-    if(hostlist_filter_regex$$1$$host == ((char *)NULL))
+    hostlist_filter_regex__1__host=hostlist_next(i);
+    if(hostlist_filter_regex__1__host == ((char *)NULL))
       break;
 
     signed int rc;
-    rc=regexec(&re->reg, hostlist_filter_regex$$1$$host, (unsigned long int)0, (struct anonymous$0 *)(void *)0, re->eflags);
+    rc=regexec(&re->reg, hostlist_filter_regex__1__host, (unsigned long int)0, (struct anonymous_0 *)(void *)0, re->eflags);
     if(rc == 0 && !(re->exclude == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (!(re->exclude != 0) ? (rc == 1 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (!(re->exclude != 0) ? (rc == 1 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       hostlist_remove(i);
 
-    free((void *)hostlist_filter_regex$$1$$host);
+    free((void *)hostlist_filter_regex__1__host);
   }
   while((_Bool)1);
   hostlist_iterator_destroy(i);
@@ -11751,7 +11751,7 @@ signed int hostlist_find(struct hostlist *hl, const char *hostname)
   signed int count;
   signed int ret = -1;
   struct hostname_components *hn;
-  unsigned long int return_value_hostrange_count$2;
+  unsigned long int return_value_hostrange_count_2;
   if(hostname == ((const char *)NULL))
     return -1;
 
@@ -11763,13 +11763,13 @@ signed int hostlist_find(struct hostlist *hl, const char *hostname)
 
     __CPROVER_DUMP_L2:
       ;
-      signed int hostlist_find$$1$$1$$1$$e;
-      hostlist_find$$1$$1$$1$$e=pthread_mutex_lock(&hl->mutex);
-      if(!(hostlist_find$$1$$1$$1$$e == 0))
+      signed int hostlist_find__1__1__1__e;
+      hostlist_find__1__1__1__e=pthread_mutex_lock(&hl->mutex);
+      if(!(hostlist_find__1__1__1__e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = hostlist_find$$1$$1$$1$$e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = hostlist_find__1__1__1__e;
         lsd_fatal_error("hostlist.c", 1923, "hostlist mutex lock:");
         abort();
       }
@@ -11790,8 +11790,8 @@ signed int hostlist_find(struct hostlist *hl, const char *hostname)
 
       else
       {
-        return_value_hostrange_count$2=hostrange_count(hl->hr[(signed long int)i]);
-        count = count + (signed int)return_value_hostrange_count$2;
+        return_value_hostrange_count_2=hostrange_count(hl->hr[(signed long int)i]);
+        count = count + (signed int)return_value_hostrange_count_2;
       }
     }
     do
@@ -11803,9 +11803,9 @@ signed int hostlist_find(struct hostlist *hl, const char *hostname)
       e=pthread_mutex_unlock(&hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = e;
         lsd_fatal_error("hostlist.c", 1935, "hostlist mutex unlock:");
         abort();
       }
@@ -11824,15 +11824,15 @@ static signed int hostlist_insert_range(struct hostlist *hl, struct hostrange_co
   signed int i;
   struct hostrange_components *tmp;
   struct hostlist_iterator *hli;
-  signed int return_value_hostlist_expand$1;
+  signed int return_value_hostlist_expand_1;
   if(!(hl->nranges >= n))
     return 0;
 
   else
     if(hl->size == hl->nranges)
     {
-      return_value_hostlist_expand$1=hostlist_expand(hl);
-      if(!(return_value_hostlist_expand$1 == 0))
+      return_value_hostlist_expand_1=hostlist_expand(hl);
+      if(!(return_value_hostlist_expand_1 == 0))
         goto __CPROVER_DUMP_L2;
 
       return 0;
@@ -11873,9 +11873,9 @@ struct hostlist_iterator * hostlist_iterator_create(struct hostlist *hl)
   i=hostlist_iterator_new();
   if(i == ((struct hostlist_iterator *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     return (struct hostlist_iterator *)(void *)0;
   }
 
@@ -11884,13 +11884,13 @@ struct hostlist_iterator * hostlist_iterator_create(struct hostlist *hl)
 
   __CPROVER_DUMP_L2:
     ;
-    signed int hostlist_iterator_create$$1$$2$$1$$e;
-    hostlist_iterator_create$$1$$2$$1$$e=pthread_mutex_lock(&hl->mutex);
-    if(!(hostlist_iterator_create$$1$$2$$1$$e == 0))
+    signed int hostlist_iterator_create__1__2__1__e;
+    hostlist_iterator_create__1__2__1__e=pthread_mutex_lock(&hl->mutex);
+    if(!(hostlist_iterator_create__1__2__1__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = hostlist_iterator_create$$1$$2$$1$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = hostlist_iterator_create__1__2__1__e;
       lsd_fatal_error("hostlist.c", 2229, "hostlist mutex lock:");
       abort();
     }
@@ -11910,9 +11910,9 @@ struct hostlist_iterator * hostlist_iterator_create(struct hostlist *hl)
     e=pthread_mutex_unlock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = e;
       lsd_fatal_error("hostlist.c", 2234, "hostlist mutex unlock:");
       abort();
     }
@@ -11934,13 +11934,13 @@ void hostlist_iterator_destroy(struct hostlist_iterator *i)
 
     __CPROVER_DUMP_L1:
       ;
-      signed int hostlist_iterator_destroy$$1$$1$$1$$e;
-      hostlist_iterator_destroy$$1$$1$$1$$e=pthread_mutex_lock(&i->hl->mutex);
-      if(!(hostlist_iterator_destroy$$1$$1$$1$$e == 0))
+      signed int hostlist_iterator_destroy__1__1__1__e;
+      hostlist_iterator_destroy__1__1__1__e=pthread_mutex_lock(&i->hl->mutex);
+      if(!(hostlist_iterator_destroy__1__1__1__e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = hostlist_iterator_destroy$$1$$1$$1$$e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = hostlist_iterator_destroy__1__1__1__e;
         lsd_fatal_error("hostlist.c", 2260, "hostlist mutex lock:");
         abort();
       }
@@ -11964,9 +11964,9 @@ void hostlist_iterator_destroy(struct hostlist_iterator *i)
       e=pthread_mutex_unlock(&i->hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("hostlist.c", 2268, "hostlist mutex unlock:");
         abort();
       }
@@ -11983,9 +11983,9 @@ void hostlist_iterator_destroy(struct hostlist_iterator *i)
 static struct hostlist_iterator * hostlist_iterator_new(void)
 {
   struct hostlist_iterator *i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hostlist_iterator) /*40ul*/ );
-  i = (struct hostlist_iterator *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hostlist_iterator) /*40ul*/ );
+  i = (struct hostlist_iterator *)return_value_malloc_1;
   if(i == ((struct hostlist_iterator *)NULL))
     return (struct hostlist_iterator *)(void *)0;
 
@@ -12015,29 +12015,29 @@ static struct hostlist * hostlist_new(void)
 {
   signed int i;
   struct hostlist *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hostlist) /*72ul*/ );
-  new = (struct hostlist *)return_value_malloc$1;
-  void *return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hostlist) /*72ul*/ );
+  new = (struct hostlist *)return_value_malloc_1;
+  void *return_value_malloc_3;
   if(!(new == ((struct hostlist *)NULL)))
   {
     do
     {
       signed int e;
-      e=pthread_mutex_init(&new->mutex, (const union anonymous$3 *)(void *)0);
+      e=pthread_mutex_init(&new->mutex, (const union anonymous_3 *)(void *)0);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("hostlist.c", 1067, "hostlist mutex init:");
         abort();
       }
 
     }
     while((_Bool)0);
-    return_value_malloc$3=malloc((unsigned long int)16 * sizeof(struct hostrange_components *) /*8ul*/ );
-    new->hr = (struct hostrange_components **)return_value_malloc$3;
+    return_value_malloc_3=malloc((unsigned long int)16 * sizeof(struct hostrange_components *) /*8ul*/ );
+    new->hr = (struct hostrange_components **)return_value_malloc_3;
     if(!(new->hr == ((struct hostrange_components **)NULL)))
     {
       i = 0;
@@ -12059,9 +12059,9 @@ static struct hostlist * hostlist_new(void)
 
 fail1:
   ;
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = 12;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = 12;
   return (struct hostlist *)(void *)0;
 }
 
@@ -12077,13 +12077,13 @@ char * hostlist_next(struct hostlist_iterator *i)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int hostlist_next$$1$$1$$1$$e;
-    hostlist_next$$1$$1$$1$$e=pthread_mutex_lock(&i->hl->mutex);
-    if(!(hostlist_next$$1$$1$$1$$e == 0))
+    signed int hostlist_next__1__1__1__e;
+    hostlist_next__1__1__1__e=pthread_mutex_lock(&i->hl->mutex);
+    if(!(hostlist_next__1__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = hostlist_next$$1$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = hostlist_next__1__1__1__e;
       lsd_fatal_error("hostlist.c", 2314, "hostlist mutex lock:");
       abort();
     }
@@ -12102,9 +12102,9 @@ char * hostlist_next(struct hostlist_iterator *i)
       e=pthread_mutex_unlock(&i->hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("hostlist.c", 2318, "hostlist mutex unlock:");
         abort();
       }
@@ -12120,19 +12120,19 @@ char * hostlist_next(struct hostlist_iterator *i)
     if(i->hr->singlehost == 0u)
       snprintf(suffix, (unsigned long int)15, "%0*lu", i->hr->width, i->hr->lo + (unsigned long int)i->depth);
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(i->hr->prefix);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(suffix);
-    len = (signed int)(return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)1);
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc((unsigned long int)len);
-    buf = (char *)return_value_malloc$6;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(i->hr->prefix);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(suffix);
+    len = (signed int)(return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)1);
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc((unsigned long int)len);
+    buf = (char *)return_value_malloc_6;
     if(buf == ((char *)NULL))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 12;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 12;
       return (char *)(void *)0;
     }
 
@@ -12144,13 +12144,13 @@ char * hostlist_next(struct hostlist_iterator *i)
 
     __CPROVER_DUMP_L9:
       ;
-      signed int hostlist_next$$1$$4$$1$$e;
-      hostlist_next$$1$$4$$1$$e=pthread_mutex_unlock(&i->hl->mutex);
-      if(!(hostlist_next$$1$$4$$1$$e == 0))
+      signed int hostlist_next__1__4__1__e;
+      hostlist_next__1__4__1__e=pthread_mutex_unlock(&i->hl->mutex);
+      if(!(hostlist_next__1__4__1__e == 0))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = hostlist_next$$1$$4$$1$$e;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = hostlist_next__1__4__1__e;
         lsd_fatal_error("hostlist.c", 2335, "hostlist mutex unlock:");
         abort();
       }
@@ -12172,13 +12172,13 @@ char * hostlist_next_range(struct hostlist_iterator *i)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int hostlist_next_range$$1$$1$$1$$e;
-    hostlist_next_range$$1$$1$$1$$e=pthread_mutex_lock(&i->hl->mutex);
-    if(!(hostlist_next_range$$1$$1$$1$$e == 0))
+    signed int hostlist_next_range__1__1__1__e;
+    hostlist_next_range__1__1__1__e=pthread_mutex_lock(&i->hl->mutex);
+    if(!(hostlist_next_range__1__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = hostlist_next_range$$1$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = hostlist_next_range__1__1__1__e;
       lsd_fatal_error("hostlist.c", 2346, "hostlist mutex lock:");
       abort();
     }
@@ -12197,9 +12197,9 @@ char * hostlist_next_range(struct hostlist_iterator *i)
       e=pthread_mutex_unlock(&i->hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("hostlist.c", 2351, "hostlist mutex unlock:");
         abort();
       }
@@ -12218,22 +12218,22 @@ char * hostlist_next_range(struct hostlist_iterator *i)
 
     __CPROVER_DUMP_L6:
       ;
-      signed int hostlist_next_range$$1$$3$$1$$e;
-      hostlist_next_range$$1$$3$$1$$e=pthread_mutex_unlock(&i->hl->mutex);
-      if(!(hostlist_next_range$$1$$3$$1$$e == 0))
+      signed int hostlist_next_range__1__3__1__e;
+      hostlist_next_range__1__3__1__e=pthread_mutex_unlock(&i->hl->mutex);
+      if(!(hostlist_next_range__1__3__1__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = hostlist_next_range$$1$$3$$1$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = hostlist_next_range__1__3__1__e;
         lsd_fatal_error("hostlist.c", 2358, "hostlist mutex unlock:");
         abort();
       }
 
     }
     while((_Bool)0);
-    char *return_value_strdup$4;
-    return_value_strdup$4=strdup(buf);
-    return return_value_strdup$4;
+    char *return_value_strdup_4;
+    return_value_strdup_4=strdup(buf);
+    return return_value_strdup_4;
   }
 }
 
@@ -12241,7 +12241,7 @@ char * hostlist_next_range(struct hostlist_iterator *i)
 // file hostlist.c line 1844
 char * hostlist_nth(struct hostlist *hl, signed int n)
 {
-  char *hostlist_nth$$1$$host = (char *)(void *)0;
+  char *hostlist_nth__1__host = (char *)(void *)0;
   signed int i;
   signed int count;
   do
@@ -12253,9 +12253,9 @@ char * hostlist_nth(struct hostlist *hl, signed int n)
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 1849, "hostlist mutex lock:");
       abort();
     }
@@ -12267,12 +12267,12 @@ char * hostlist_nth(struct hostlist *hl, signed int n)
   for( ; !(i >= hl->nranges); i = i + 1)
   {
     signed int num_in_range;
-    unsigned long int return_value_hostrange_count$2;
-    return_value_hostrange_count$2=hostrange_count(hl->hr[(signed long int)i]);
-    num_in_range = (signed int)return_value_hostrange_count$2;
+    unsigned long int return_value_hostrange_count_2;
+    return_value_hostrange_count_2=hostrange_count(hl->hr[(signed long int)i]);
+    num_in_range = (signed int)return_value_hostrange_count_2;
     if(-1 + num_in_range + count >= n)
     {
-      hostlist_nth$$1$$host=_hostrange_string(hl->hr[(signed long int)i], n - count);
+      hostlist_nth__1__host=_hostrange_string(hl->hr[(signed long int)i], n - count);
       break;
     }
 
@@ -12284,39 +12284,39 @@ char * hostlist_nth(struct hostlist *hl, signed int n)
 
   __CPROVER_DUMP_L6:
     ;
-    signed int hostlist_nth$$1$$3$$1$$e;
-    hostlist_nth$$1$$3$$1$$e=pthread_mutex_unlock(&hl->mutex);
-    if(!(hostlist_nth$$1$$3$$1$$e == 0))
+    signed int hostlist_nth__1__3__1__e;
+    hostlist_nth__1__3__1__e=pthread_mutex_unlock(&hl->mutex);
+    if(!(hostlist_nth__1__3__1__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = hostlist_nth$$1$$3$$1$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = hostlist_nth__1__3__1__e;
       lsd_fatal_error("hostlist.c", 1861, "hostlist mutex unlock:");
       abort();
     }
 
   }
   while((_Bool)0);
-  return hostlist_nth$$1$$host;
+  return hostlist_nth__1__host;
 }
 
 // hostlist_pop
 // file ../../src/common/hostlist.h line 165
 char * hostlist_pop(struct hostlist *hl)
 {
-  char *hostlist_pop$$1$$host = (char *)(void *)0;
+  char *hostlist_pop__1__host = (char *)(void *)0;
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    signed int hostlist_pop$$1$$1$$1$$e;
-    hostlist_pop$$1$$1$$1$$e=pthread_mutex_lock(&hl->mutex);
-    if(!(hostlist_pop$$1$$1$$1$$e == 0))
+    signed int hostlist_pop__1__1__1__e;
+    hostlist_pop__1__1__1__e=pthread_mutex_lock(&hl->mutex);
+    if(!(hostlist_pop__1__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = hostlist_pop$$1$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = hostlist_pop__1__1__1__e;
       lsd_fatal_error("hostlist.c", 1668, "hostlist mutex lock:");
       abort();
     }
@@ -12326,11 +12326,11 @@ char * hostlist_pop(struct hostlist *hl)
   if(hl->nhosts >= 1)
   {
     struct hostrange_components *hr = hl->hr[(signed long int)(hl->nranges - 1)];
-    hostlist_pop$$1$$host=hostrange_pop(hr);
+    hostlist_pop__1__host=hostrange_pop(hr);
     hl->nhosts = hl->nhosts - 1;
-    signed int return_value_hostrange_empty$2;
-    return_value_hostrange_empty$2=hostrange_empty(hr);
-    if(!(return_value_hostrange_empty$2 == 0))
+    signed int return_value_hostrange_empty_2;
+    return_value_hostrange_empty_2=hostrange_empty(hr);
+    if(!(return_value_hostrange_empty_2 == 0))
     {
       hl->nranges = hl->nranges - 1;
       hostrange_destroy(hl->hr[(signed long int)hl->nranges]);
@@ -12348,16 +12348,16 @@ char * hostlist_pop(struct hostlist *hl)
     e=pthread_mutex_unlock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = e;
       lsd_fatal_error("hostlist.c", 1678, "hostlist mutex unlock:");
       abort();
     }
 
   }
   while((_Bool)0);
-  return hostlist_pop$$1$$host;
+  return hostlist_pop__1__host;
 }
 
 // hostlist_pop_range
@@ -12377,39 +12377,39 @@ char * hostlist_pop_range(struct hostlist *hl)
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 1735, "hostlist mutex lock:");
       abort();
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(hl->nranges >= 1))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     hltmp=hostlist_new();
-    tmp_if_expr$3 = !(hltmp != ((struct hostlist *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = !(hltmp != ((struct hostlist *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_hostrange_within_range$4;
-  if(tmp_if_expr$3)
+  signed int return_value_hostrange_within_range_4;
+  if(tmp_if_expr_3)
   {
     do
     {
 
     __CPROVER_DUMP_L5:
       ;
-      signed int hostlist_pop_range$$1$$2$$1$$1$$e;
-      hostlist_pop_range$$1$$2$$1$$1$$e=pthread_mutex_unlock(&hl->mutex);
-      if(!(hostlist_pop_range$$1$$2$$1$$1$$e == 0))
+      signed int hostlist_pop_range__1__2__1__1__e;
+      hostlist_pop_range__1__2__1__1__e=pthread_mutex_unlock(&hl->mutex);
+      if(!(hostlist_pop_range__1__2__1__1__e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = hostlist_pop_range$$1$$2$$1$$1$$e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = hostlist_pop_range__1__2__1__1__e;
         lsd_fatal_error("hostlist.c", 1737, "hostlist mutex unlock:");
         abort();
       }
@@ -12425,8 +12425,8 @@ char * hostlist_pop_range(struct hostlist *hl)
     tail = hl->hr[(signed long int)(hl->nranges - 1)];
     for( ; i >= 0; i = i - 1)
     {
-      return_value_hostrange_within_range$4=hostrange_within_range(tail, hl->hr[(signed long int)i]);
-      if(return_value_hostrange_within_range$4 == 0)
+      return_value_hostrange_within_range_4=hostrange_within_range(tail, hl->hr[(signed long int)i]);
+      if(return_value_hostrange_within_range_4 == 0)
         break;
 
     }
@@ -12444,13 +12444,13 @@ char * hostlist_pop_range(struct hostlist *hl)
 
     __CPROVER_DUMP_L12:
       ;
-      signed int hostlist_pop_range$$1$$4$$1$$e;
-      hostlist_pop_range$$1$$4$$1$$e=pthread_mutex_unlock(&hl->mutex);
-      if(!(hostlist_pop_range$$1$$4$$1$$e == 0))
+      signed int hostlist_pop_range__1__4__1__e;
+      hostlist_pop_range__1__4__1__e=pthread_mutex_unlock(&hl->mutex);
+      if(!(hostlist_pop_range__1__4__1__e == 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        *return_value___errno_location$5 = hostlist_pop_range$$1$$4$$1$$e;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        *return_value___errno_location_5 = hostlist_pop_range__1__4__1__e;
         lsd_fatal_error("hostlist.c", 1754, "hostlist mutex unlock:");
         abort();
       }
@@ -12459,9 +12459,9 @@ char * hostlist_pop_range(struct hostlist *hl)
     while((_Bool)0);
     hostlist_ranged_string(hltmp, (unsigned long int)1024, buf);
     hostlist_destroy(hltmp);
-    char *return_value_strdup$6;
-    return_value_strdup$6=strdup(buf);
-    return return_value_strdup$6;
+    char *return_value_strdup_6;
+    return_value_strdup_6=strdup(buf);
+    return return_value_strdup_6;
   }
 }
 
@@ -12488,9 +12488,9 @@ signed int hostlist_push(struct hostlist *hl, const char *hosts)
         e=pthread_mutex_lock(&new->mutex);
         if(!(e == 0))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          *return_value___errno_location$1 = e;
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          *return_value___errno_location_1 = e;
           lsd_fatal_error("hostlist.c", 1614, "hostlist mutex lock:");
           abort();
         }
@@ -12500,13 +12500,13 @@ signed int hostlist_push(struct hostlist *hl, const char *hosts)
       retval = new->nhosts;
       do
       {
-        signed int hostlist_push$$1$$2$$e;
-        hostlist_push$$1$$2$$e=pthread_mutex_unlock(&new->mutex);
-        if(!(hostlist_push$$1$$2$$e == 0))
+        signed int hostlist_push__1__2__e;
+        hostlist_push__1__2__e=pthread_mutex_unlock(&new->mutex);
+        if(!(hostlist_push__1__2__e == 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = hostlist_push$$1$$2$$e;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = hostlist_push__1__2__e;
           lsd_fatal_error("hostlist.c", 1616, "hostlist mutex unlock:");
           abort();
         }
@@ -12532,13 +12532,13 @@ signed int hostlist_push_host(struct hostlist *hl, const char *str)
   else
   {
     hn=hostname_create(str);
-    signed int return_value_hostname_suffix_is_valid$2;
-    return_value_hostname_suffix_is_valid$2=hostname_suffix_is_valid(hn);
-    if(!(return_value_hostname_suffix_is_valid$2 == 0))
+    signed int return_value_hostname_suffix_is_valid_2;
+    return_value_hostname_suffix_is_valid_2=hostname_suffix_is_valid(hn);
+    if(!(return_value_hostname_suffix_is_valid_2 == 0))
     {
-      signed int return_value_hostname_suffix_width$1;
-      return_value_hostname_suffix_width$1=hostname_suffix_width(hn);
-      hr=hostrange_create(hn->prefix, hn->num, hn->num, return_value_hostname_suffix_width$1);
+      signed int return_value_hostname_suffix_width_1;
+      return_value_hostname_suffix_width_1=hostname_suffix_width(hn);
+      hr=hostrange_create(hn->prefix, hn->num, hn->num, return_value_hostname_suffix_width_1);
     }
 
     else
@@ -12568,7 +12568,7 @@ signed int hostlist_push_list(struct hostlist *h1, struct hostlist *h2)
 {
   signed int i;
   signed int n = 0;
-  signed int return_value_hostlist_push_range$2;
+  signed int return_value_hostlist_push_range_2;
   if(h2 == ((struct hostlist *)NULL))
     return 0;
 
@@ -12583,9 +12583,9 @@ signed int hostlist_push_list(struct hostlist *h1, struct hostlist *h2)
       e=pthread_mutex_lock(&h2->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = e;
         lsd_fatal_error("hostlist.c", 1653, "hostlist mutex lock:");
         abort();
       }
@@ -12595,21 +12595,21 @@ signed int hostlist_push_list(struct hostlist *h1, struct hostlist *h2)
     i = 0;
     for( ; !(i >= h2->nranges); i = i + 1)
     {
-      return_value_hostlist_push_range$2=hostlist_push_range(h1, h2->hr[(signed long int)i]);
-      n = n + return_value_hostlist_push_range$2;
+      return_value_hostlist_push_range_2=hostlist_push_range(h1, h2->hr[(signed long int)i]);
+      n = n + return_value_hostlist_push_range_2;
     }
     do
     {
 
     __CPROVER_DUMP_L5:
       ;
-      signed int hostlist_push_list$$1$$3$$1$$e;
-      hostlist_push_list$$1$$3$$1$$e=pthread_mutex_unlock(&h2->mutex);
-      if(!(hostlist_push_list$$1$$3$$1$$e == 0))
+      signed int hostlist_push_list__1__3__1__e;
+      hostlist_push_list__1__3__1__e=pthread_mutex_unlock(&h2->mutex);
+      if(!(hostlist_push_list__1__3__1__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = hostlist_push_list$$1$$3$$1$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = hostlist_push_list__1__3__1__e;
         lsd_fatal_error("hostlist.c", 1658, "hostlist mutex unlock:");
         abort();
       }
@@ -12631,90 +12631,90 @@ static signed int hostlist_push_range(struct hostlist *hl, struct hostrange_comp
 
   __CPROVER_DUMP_L1:
     ;
-    signed int hostlist_push_range$$1$$1$$1$$e;
-    hostlist_push_range$$1$$1$$1$$e=pthread_mutex_lock(&hl->mutex);
-    if(!(hostlist_push_range$$1$$1$$1$$e == 0))
+    signed int hostlist_push_range__1__1__1__e;
+    hostlist_push_range__1__1__1__e=pthread_mutex_lock(&hl->mutex);
+    if(!(hostlist_push_range__1__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = hostlist_push_range$$1$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = hostlist_push_range__1__1__1__e;
       lsd_fatal_error("hostlist.c", 1136, "hostlist mutex lock:");
       abort();
     }
 
   }
   while((_Bool)0);
-  struct hostrange_components *tmp_if_expr$2;
+  struct hostrange_components *tmp_if_expr_2;
   if(hl->nranges >= 1)
-    tmp_if_expr$2 = hl->hr[(signed long int)(hl->nranges - 1)];
+    tmp_if_expr_2 = hl->hr[(signed long int)(hl->nranges - 1)];
 
   else
-    tmp_if_expr$2 = hl->hr[(signed long int)0];
-  tail = tmp_if_expr$2;
-  signed int return_value_hostlist_expand$3;
+    tmp_if_expr_2 = hl->hr[(signed long int)0];
+  tail = tmp_if_expr_2;
+  signed int return_value_hostlist_expand_3;
   if(hl->size == hl->nranges)
   {
-    return_value_hostlist_expand$3=hostlist_expand(hl);
-    if(return_value_hostlist_expand$3 == 0)
+    return_value_hostlist_expand_3=hostlist_expand(hl);
+    if(return_value_hostlist_expand_3 == 0)
       goto error;
 
   }
 
-  _Bool tmp_if_expr$6;
-  signed int return_value_hostrange_prefix_cmp$5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_hostrange_prefix_cmp_5;
   if(hl->nranges >= 1)
   {
-    return_value_hostrange_prefix_cmp$5=hostrange_prefix_cmp(tail, hr);
-    tmp_if_expr$6 = return_value_hostrange_prefix_cmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_hostrange_prefix_cmp_5=hostrange_prefix_cmp(tail, hr);
+    tmp_if_expr_6 = return_value_hostrange_prefix_cmp_5 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = tail->hi == hr->lo - (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = tail->hi == hr->lo - (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  signed int return_value_hostrange_width_combine$8;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  signed int return_value_hostrange_width_combine_8;
+  if(tmp_if_expr_7)
   {
-    return_value_hostrange_width_combine$8=hostrange_width_combine(tail, hr);
-    tmp_if_expr$9 = return_value_hostrange_width_combine$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_hostrange_width_combine_8=hostrange_width_combine(tail, hr);
+    tmp_if_expr_9 = return_value_hostrange_width_combine_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  signed int tmp_post$4;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  signed int tmp_post_4;
+  if(tmp_if_expr_9)
     tail->hi = hr->hi;
 
   else
   {
-    tmp_post$4 = hl->nranges;
+    tmp_post_4 = hl->nranges;
     hl->nranges = hl->nranges + 1;
-    hl->hr[(signed long int)tmp_post$4]=hostrange_copy(hr);
-    if(hl->hr[(signed long int)tmp_post$4] == ((struct hostrange_components *)NULL))
+    hl->hr[(signed long int)tmp_post_4]=hostrange_copy(hr);
+    if(hl->hr[(signed long int)tmp_post_4] == ((struct hostrange_components *)NULL))
       goto error;
 
   }
-  unsigned long int return_value_hostrange_count$10;
-  return_value_hostrange_count$10=hostrange_count(hr);
-  hl->nhosts = hl->nhosts + (signed int)return_value_hostrange_count$10;
+  unsigned long int return_value_hostrange_count_10;
+  return_value_hostrange_count_10=hostrange_count(hr);
+  hl->nhosts = hl->nhosts + (signed int)return_value_hostrange_count_10;
   retval = hl->nhosts;
   do
   {
 
   __CPROVER_DUMP_L14:
     ;
-    signed int hostlist_push_range$$1$$4$$1$$e;
-    hostlist_push_range$$1$$4$$1$$e=pthread_mutex_unlock(&hl->mutex);
-    if(!(hostlist_push_range$$1$$4$$1$$e == 0))
+    signed int hostlist_push_range__1__4__1__e;
+    hostlist_push_range__1__4__1__e=pthread_mutex_unlock(&hl->mutex);
+    if(!(hostlist_push_range__1__4__1__e == 0))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      *return_value___errno_location$11 = hostlist_push_range$$1$$4$$1$$e;
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      *return_value___errno_location_11 = hostlist_push_range__1__4__1__e;
       lsd_fatal_error("hostlist.c", 1155, "hostlist mutex unlock:");
       abort();
     }
@@ -12731,9 +12731,9 @@ static signed int hostlist_push_range(struct hostlist *hl, struct hostrange_comp
     e=pthread_mutex_unlock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      *return_value___errno_location$12 = e;
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      *return_value___errno_location_12 = e;
       lsd_fatal_error("hostlist.c", 1160, "hostlist mutex unlock:");
       abort();
     }
@@ -12759,31 +12759,31 @@ signed long int hostlist_ranged_string(struct hostlist *hl, unsigned long int n,
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 2187, "hostlist mutex lock:");
       abort();
     }
 
   }
   while((_Bool)0);
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   while(!(i >= hl->nranges))
   {
     if((unsigned long int)len >= n)
       break;
 
-    signed int return_value__get_bracketed_list$2;
-    return_value__get_bracketed_list$2=_get_bracketed_list(hl, &i, n - (unsigned long int)len, buf + (signed long int)len);
-    len = len + return_value__get_bracketed_list$2;
+    signed int return_value__get_bracketed_list_2;
+    return_value__get_bracketed_list_2=_get_bracketed_list(hl, &i, n - (unsigned long int)len, buf + (signed long int)len);
+    len = len + return_value__get_bracketed_list_2;
     if(len >= 1 && !((unsigned long int)len >= n))
     {
       if(!(i >= hl->nranges))
       {
-        tmp_post$3 = len;
+        tmp_post_3 = len;
         len = len + 1;
-        buf[(signed long int)tmp_post$3] = (char)44;
+        buf[(signed long int)tmp_post_3] = (char)44;
       }
 
     }
@@ -12794,13 +12794,13 @@ signed long int hostlist_ranged_string(struct hostlist *hl, unsigned long int n,
 
   __CPROVER_DUMP_L5:
     ;
-    signed int hostlist_ranged_string$$1$$3$$1$$e;
-    hostlist_ranged_string$$1$$3$$1$$e=pthread_mutex_unlock(&hl->mutex);
-    if(!(hostlist_ranged_string$$1$$3$$1$$e == 0))
+    signed int hostlist_ranged_string__1__3__1__e;
+    hostlist_ranged_string__1__3__1__e=pthread_mutex_unlock(&hl->mutex);
+    if(!(hostlist_ranged_string__1__3__1__e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = hostlist_ranged_string$$1$$3$$1$$e;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = hostlist_ranged_string__1__3__1__e;
       lsd_fatal_error("hostlist.c", 2193, "hostlist mutex unlock:");
       abort();
     }
@@ -12826,7 +12826,7 @@ static signed int hostlist_register_rcmd(const char *hosts, struct rcmd_module *
 {
   struct hostlist *hl;
   hl=hostlist_create(hosts);
-  char *hostlist_register_rcmd$$1$$host;
+  char *hostlist_register_rcmd__1__host;
   if(hl == ((struct hostlist *)NULL))
     return -1;
 
@@ -12837,21 +12837,21 @@ static signed int hostlist_register_rcmd(const char *hosts, struct rcmd_module *
 
     do
     {
-      hostlist_register_rcmd$$1$$host=hostlist_pop(hl);
-      if(hostlist_register_rcmd$$1$$host == ((char *)NULL))
+      hostlist_register_rcmd__1__host=hostlist_pop(hl);
+      if(hostlist_register_rcmd__1__host == ((char *)NULL))
         break;
 
       struct node_rcmd_info *n = (struct node_rcmd_info *)(void *)0;
-      void *return_value_list_find_first$1;
-      return_value_list_find_first$1=list_find_first(host_info_list, (signed int (*)(void *, void *))find_host, (void *)hostlist_register_rcmd$$1$$host);
-      if(return_value_list_find_first$1 == NULL)
+      void *return_value_list_find_first_1;
+      return_value_list_find_first_1=list_find_first(host_info_list, (signed int (*)(void *, void *))find_host, (void *)hostlist_register_rcmd__1__host);
+      if(return_value_list_find_first_1 == NULL)
       {
-        n=node_rcmd_info_create(hostlist_register_rcmd$$1$$host, user, rmod);
+        n=node_rcmd_info_create(hostlist_register_rcmd__1__host, user, rmod);
         if(n == ((struct node_rcmd_info *)NULL))
-          errx("Failed to create rcmd info for host \"%s\"\n", hostlist_register_rcmd$$1$$host);
+          errx("Failed to create rcmd info for host \"%s\"\n", hostlist_register_rcmd__1__host);
 
         list_append(host_info_list, (void *)n);
-        free((void *)hostlist_register_rcmd$$1$$host);
+        free((void *)hostlist_register_rcmd__1__host);
       }
 
     }
@@ -12875,9 +12875,9 @@ signed int hostlist_remove(struct hostlist_iterator *i)
     e=pthread_mutex_lock(&i->hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 2368, "hostlist mutex lock:");
       abort();
     }
@@ -12885,7 +12885,7 @@ signed int hostlist_remove(struct hostlist_iterator *i)
   }
   while((_Bool)0);
   new=hostrange_delete_host(i->hr, i->hr->lo + (unsigned long int)i->depth);
-  signed int return_value_hostrange_empty$2;
+  signed int return_value_hostrange_empty_2;
   if(!(new == ((struct hostrange_components *)NULL)))
   {
     hostlist_insert_range(i->hl, new, i->idx + 1);
@@ -12897,8 +12897,8 @@ signed int hostlist_remove(struct hostlist_iterator *i)
 
   else
   {
-    return_value_hostrange_empty$2=hostrange_empty(i->hr);
-    if(!(return_value_hostrange_empty$2 == 0))
+    return_value_hostrange_empty_2=hostrange_empty(i->hr);
+    if(!(return_value_hostrange_empty_2 == 0))
       hostlist_delete_range(i->hl, i->idx);
 
     else
@@ -12910,13 +12910,13 @@ signed int hostlist_remove(struct hostlist_iterator *i)
 
   __CPROVER_DUMP_L6:
     ;
-    signed int hostlist_remove$$1$$4$$1$$e;
-    hostlist_remove$$1$$4$$1$$e=pthread_mutex_unlock(&i->hl->mutex);
-    if(!(hostlist_remove$$1$$4$$1$$e == 0))
+    signed int hostlist_remove__1__4__1__e;
+    hostlist_remove__1__4__1__e=pthread_mutex_unlock(&i->hl->mutex);
+    if(!(hostlist_remove__1__4__1__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = hostlist_remove$$1$$4$$1$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = hostlist_remove__1__4__1__e;
       lsd_fatal_error("hostlist.c", 2381, "hostlist mutex unlock:");
       abort();
     }
@@ -12933,9 +12933,9 @@ static signed int hostlist_resize(struct hostlist *hl, unsigned long int newsize
   signed int i;
   unsigned long int oldsize = (unsigned long int)hl->size;
   hl->size = (signed int)newsize;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)hl->hr, (unsigned long int)hl->size * sizeof(struct hostrange_components *) /*8ul*/ );
-  hl->hr = (struct hostrange_components **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)hl->hr, (unsigned long int)hl->size * sizeof(struct hostrange_components *) /*8ul*/ );
+  hl->hr = (struct hostrange_components **)return_value_realloc_1;
   if(hl->hr == ((struct hostrange_components **)NULL))
     return 0;
 
@@ -12952,7 +12952,7 @@ static signed int hostlist_resize(struct hostlist *hl, unsigned long int newsize
 // file ../../src/common/hostlist.h line 178
 char * hostlist_shift(struct hostlist *hl)
 {
-  char *hostlist_shift$$1$$host = (char *)(void *)0;
+  char *hostlist_shift__1__host = (char *)(void *)0;
   do
   {
 
@@ -12962,9 +12962,9 @@ char * hostlist_shift(struct hostlist *hl)
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 1707, "hostlist mutex lock:");
       abort();
     }
@@ -12974,11 +12974,11 @@ char * hostlist_shift(struct hostlist *hl)
   if(hl->nhosts >= 1)
   {
     struct hostrange_components *hr = hl->hr[(signed long int)0];
-    hostlist_shift$$1$$host=hostrange_shift(hr);
+    hostlist_shift__1__host=hostrange_shift(hr);
     hl->nhosts = hl->nhosts - 1;
-    signed int return_value_hostrange_empty$2;
-    return_value_hostrange_empty$2=hostrange_empty(hr);
-    if(!(return_value_hostrange_empty$2 == 0))
+    signed int return_value_hostrange_empty_2;
+    return_value_hostrange_empty_2=hostrange_empty(hr);
+    if(!(return_value_hostrange_empty_2 == 0))
       hostlist_delete_range(hl, 0);
 
     else
@@ -12990,20 +12990,20 @@ char * hostlist_shift(struct hostlist *hl)
 
   __CPROVER_DUMP_L5:
     ;
-    signed int hostlist_shift$$1$$3$$1$$e;
-    hostlist_shift$$1$$3$$1$$e=pthread_mutex_unlock(&hl->mutex);
-    if(!(hostlist_shift$$1$$3$$1$$e == 0))
+    signed int hostlist_shift__1__3__1__e;
+    hostlist_shift__1__3__1__e=pthread_mutex_unlock(&hl->mutex);
+    if(!(hostlist_shift__1__3__1__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = hostlist_shift$$1$$3$$1$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = hostlist_shift__1__3__1__e;
       lsd_fatal_error("hostlist.c", 1722, "hostlist mutex unlock:");
       abort();
     }
 
   }
   while((_Bool)0);
-  return hostlist_shift$$1$$host;
+  return hostlist_shift__1__host;
 }
 
 // hostlist_shift_iterators
@@ -13011,7 +13011,7 @@ char * hostlist_shift(struct hostlist *hl)
 static void hostlist_shift_iterators(struct hostlist *hl, signed int idx, signed int depth, signed int n)
 {
   struct hostlist_iterator *i = hl->ilist;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(i == ((struct hostlist_iterator *)NULL)); i = i->next)
     if(n == 0)
     {
@@ -13020,11 +13020,11 @@ static void hostlist_shift_iterators(struct hostlist *hl, signed int idx, signed
         if(i->depth >= depth)
         {
           if(i->depth >= 0)
-            tmp_if_expr$1 = i->depth - 1;
+            tmp_if_expr_1 = i->depth - 1;
 
           else
-            tmp_if_expr$1 = -1;
-          i->depth = tmp_if_expr$1;
+            tmp_if_expr_1 = -1;
+          i->depth = tmp_if_expr_1;
         }
 
       }
@@ -13052,8 +13052,8 @@ char * hostlist_shift_range(struct hostlist *hl)
   char buf[1024l];
   struct hostlist *hltmp;
   hltmp=hostlist_new();
-  _Bool tmp_if_expr$4;
-  signed int return_value_hostrange_within_range$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_hostrange_within_range_3;
   if(hltmp == ((struct hostlist *)NULL))
     return (char *)(void *)0;
 
@@ -13068,9 +13068,9 @@ char * hostlist_shift_range(struct hostlist *hl)
       e=pthread_mutex_lock(&hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = e;
         lsd_fatal_error("hostlist.c", 1769, "hostlist mutex lock:");
         abort();
       }
@@ -13085,13 +13085,13 @@ char * hostlist_shift_range(struct hostlist *hl)
 
       __CPROVER_DUMP_L3:
         ;
-        signed int hostlist_shift_range$$1$$2$$1$$1$$e;
-        hostlist_shift_range$$1$$2$$1$$1$$e=pthread_mutex_unlock(&hl->mutex);
-        if(!(hostlist_shift_range$$1$$2$$1$$1$$e == 0))
+        signed int hostlist_shift_range__1__2__1__1__e;
+        hostlist_shift_range__1__2__1__1__e=pthread_mutex_unlock(&hl->mutex);
+        if(!(hostlist_shift_range__1__2__1__1__e == 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = hostlist_shift_range$$1$$2$$1$$1$$e;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = hostlist_shift_range__1__2__1__1__e;
           lsd_fatal_error("hostlist.c", 1773, "hostlist mutex unlock:");
           abort();
         }
@@ -13111,14 +13111,14 @@ char * hostlist_shift_range(struct hostlist *hl)
         i = i + 1;
         if(!(i >= hl->nranges))
         {
-          return_value_hostrange_within_range$3=hostrange_within_range(hltmp->hr[(signed long int)0], hl->hr[(signed long int)i]);
-          tmp_if_expr$4 = return_value_hostrange_within_range$3 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_hostrange_within_range_3=hostrange_within_range(hltmp->hr[(signed long int)0], hl->hr[(signed long int)i]);
+          tmp_if_expr_4 = return_value_hostrange_within_range_3 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
       }
-      while(tmp_if_expr$4);
+      while(tmp_if_expr_4);
       hostlist_shift_iterators(hl, i, 0, hltmp->nranges);
       for( ; !(i >= hl->nranges); i = i + 1)
       {
@@ -13132,13 +13132,13 @@ char * hostlist_shift_range(struct hostlist *hl)
 
       __CPROVER_DUMP_L11:
         ;
-        signed int hostlist_shift_range$$1$$5$$1$$e;
-        hostlist_shift_range$$1$$5$$1$$e=pthread_mutex_unlock(&hl->mutex);
-        if(!(hostlist_shift_range$$1$$5$$1$$e == 0))
+        signed int hostlist_shift_range__1__5__1__e;
+        hostlist_shift_range__1__5__1__e=pthread_mutex_unlock(&hl->mutex);
+        if(!(hostlist_shift_range__1__5__1__e == 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = hostlist_shift_range$$1$$5$$1$$e;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = hostlist_shift_range__1__5__1__e;
           lsd_fatal_error("hostlist.c", 1794, "hostlist mutex unlock:");
           abort();
         }
@@ -13147,9 +13147,9 @@ char * hostlist_shift_range(struct hostlist *hl)
       while((_Bool)0);
       hostlist_ranged_string(hltmp, (unsigned long int)1024, buf);
       hostlist_destroy(hltmp);
-      char *return_value_strdup$6;
-      return_value_strdup$6=strdup(buf);
-      return return_value_strdup$6;
+      char *return_value_strdup_6;
+      return_value_strdup_6=strdup(buf);
+      return return_value_strdup_6;
     }
   }
 }
@@ -13168,9 +13168,9 @@ void hostlist_sort(struct hostlist *hl)
     e=pthread_mutex_lock(&hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 1954, "hostlist mutex lock:");
       abort();
     }
@@ -13183,13 +13183,13 @@ void hostlist_sort(struct hostlist *hl)
 
     __CPROVER_DUMP_L3:
       ;
-      signed int hostlist_sort$$1$$2$$1$$1$$e;
-      hostlist_sort$$1$$2$$1$$1$$e=pthread_mutex_unlock(&hl->mutex);
-      if(!(hostlist_sort$$1$$2$$1$$1$$e == 0))
+      signed int hostlist_sort__1__2__1__1__e;
+      hostlist_sort__1__2__1__1__e=pthread_mutex_unlock(&hl->mutex);
+      if(!(hostlist_sort__1__2__1__1__e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = hostlist_sort$$1$$2$$1$$1$$e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = hostlist_sort__1__2__1__1__e;
         lsd_fatal_error("hostlist.c", 1957, "hostlist mutex unlock:");
         abort();
       }
@@ -13208,13 +13208,13 @@ void hostlist_sort(struct hostlist *hl)
 
     __CPROVER_DUMP_L7:
       ;
-      signed int hostlist_sort$$1$$4$$1$$e;
-      hostlist_sort$$1$$4$$1$$e=pthread_mutex_unlock(&hl->mutex);
-      if(!(hostlist_sort$$1$$4$$1$$e == 0))
+      signed int hostlist_sort__1__4__1__e;
+      hostlist_sort__1__4__1__e=pthread_mutex_unlock(&hl->mutex);
+      if(!(hostlist_sort__1__4__1__e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = hostlist_sort$$1$$4$$1$$e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = hostlist_sort__1__4__1__e;
         lsd_fatal_error("hostlist.c", 1967, "hostlist mutex unlock:");
         abort();
       }
@@ -13236,13 +13236,13 @@ void hostlist_uniq(struct hostlist *hl)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int hostlist_uniq$$1$$1$$1$$e;
-    hostlist_uniq$$1$$1$$1$$e=pthread_mutex_lock(&hl->mutex);
-    if(!(hostlist_uniq$$1$$1$$1$$e == 0))
+    signed int hostlist_uniq__1__1__1__e;
+    hostlist_uniq__1__1__1__e=pthread_mutex_lock(&hl->mutex);
+    if(!(hostlist_uniq__1__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = hostlist_uniq$$1$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = hostlist_uniq__1__1__1__e;
       lsd_fatal_error("hostlist.c", 2072, "hostlist mutex lock:");
       abort();
     }
@@ -13259,9 +13259,9 @@ void hostlist_uniq(struct hostlist *hl)
       e=pthread_mutex_unlock(&hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
         lsd_fatal_error("hostlist.c", 2074, "hostlist mutex unlock:");
         abort();
       }
@@ -13274,9 +13274,9 @@ void hostlist_uniq(struct hostlist *hl)
     qsort((void *)hl->hr, (unsigned long int)hl->nranges, sizeof(struct hostrange_components *) /*8ul*/ , _cmp);
     while(!(i >= hl->nranges))
     {
-      signed int return_value__attempt_range_join$3;
-      return_value__attempt_range_join$3=_attempt_range_join(hl, i);
-      if(!(return_value__attempt_range_join$3 >= 0))
+      signed int return_value__attempt_range_join_3;
+      return_value__attempt_range_join_3=_attempt_range_join(hl, i);
+      if(!(return_value__attempt_range_join_3 >= 0))
         i = i + 1;
 
     }
@@ -13288,13 +13288,13 @@ void hostlist_uniq(struct hostlist *hl)
 
     __CPROVER_DUMP_L10:
       ;
-      signed int hostlist_uniq$$1$$5$$1$$e;
-      hostlist_uniq$$1$$5$$1$$e=pthread_mutex_unlock(&hl->mutex);
-      if(!(hostlist_uniq$$1$$5$$1$$e == 0))
+      signed int hostlist_uniq__1__5__1__e;
+      hostlist_uniq__1__5__1__e=pthread_mutex_unlock(&hl->mutex);
+      if(!(hostlist_uniq__1__5__1__e == 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = hostlist_uniq$$1$$5$$1$$e;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = hostlist_uniq__1__5__1__e;
         lsd_fatal_error("hostlist.c", 2088, "hostlist mutex unlock:");
         abort();
       }
@@ -13310,9 +13310,9 @@ static struct hostname_components * hostname_create(const char *hostname)
 {
   signed int idx;
   idx=host_prefix_end(hostname);
-  struct hostname_components *return_value_hostname_create_with_suffix$1;
-  return_value_hostname_create_with_suffix$1=hostname_create_with_suffix(hostname, idx);
-  return return_value_hostname_create_with_suffix$1;
+  struct hostname_components *return_value_hostname_create_with_suffix_1;
+  return_value_hostname_create_with_suffix_1=hostname_create_with_suffix(hostname, idx);
+  return return_value_hostname_create_with_suffix_1;
 }
 
 // hostname_create_with_suffix
@@ -13321,14 +13321,14 @@ static struct hostname_components * hostname_create_with_suffix(const char *host
 {
   struct hostname_components *hn = (struct hostname_components *)(void *)0;
   char *p = ((char *)NULL);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct hostname_components) /*32ul*/ );
-  hn = (struct hostname_components *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct hostname_components) /*32ul*/ );
+  hn = (struct hostname_components *)return_value_malloc_2;
   if(hn == ((struct hostname_components *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     return (struct hostname_components *)(void *)0;
   }
 
@@ -13336,27 +13336,27 @@ static struct hostname_components * hostname_create_with_suffix(const char *host
   if(hn->hostname == ((char *)NULL))
   {
     free((void *)hn);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 12;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 12;
     return (struct hostname_components *)(void *)0;
   }
 
   hn->num = (unsigned long int)0;
   hn->prefix = (char *)(void *)0;
   hn->suffix = (char *)(void *)0;
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(hostname);
-  _Bool tmp_if_expr$9;
-  if((unsigned long int)idx == return_value_strlen$5 + 18446744073709551615ul)
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(hostname);
+  _Bool tmp_if_expr_9;
+  if((unsigned long int)idx == return_value_strlen_5 + 18446744073709551615ul)
   {
     hn->prefix=strdup(hostname);
     if(hn->prefix == ((char *)NULL))
     {
       hostname_destroy(hn);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 12;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 12;
       return (struct hostname_components *)(void *)0;
     }
 
@@ -13368,21 +13368,21 @@ static struct hostname_components * hostname_create_with_suffix(const char *host
     hn->suffix = hn->hostname + (signed long int)idx + (signed long int)1;
     hn->num=strtoul(hn->suffix, &p, 10);
     if((signed int)*p == 0)
-      tmp_if_expr$9 = hn->num <= (unsigned long int)(1 << 25) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = hn->num <= (unsigned long int)(1 << 25) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
     {
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc((unsigned long int)(idx + 2) * sizeof(char) /*1ul*/ );
-      hn->prefix = (char *)return_value_malloc$7;
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc((unsigned long int)(idx + 2) * sizeof(char) /*1ul*/ );
+      hn->prefix = (char *)return_value_malloc_7;
       if(hn->prefix == ((char *)NULL))
       {
         hostname_destroy(hn);
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 12;
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 12;
         return (struct hostname_components *)(void *)0;
       }
 
@@ -13396,9 +13396,9 @@ static struct hostname_components * hostname_create_with_suffix(const char *host
       if(hn->prefix == ((char *)NULL))
       {
         hostname_destroy(hn);
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = 12;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = 12;
         return (struct hostname_components *)(void *)0;
       }
 
@@ -13437,9 +13437,9 @@ static signed int hostname_suffix_is_valid(struct hostname_components *hn)
 // file hostlist.c line 548
 static signed int hostname_suffix_width(struct hostname_components *hn)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(hn->suffix);
-  return (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(hn->suffix);
+  return (signed int)return_value_strlen_1;
 }
 
 // hostrange_cmp
@@ -13448,17 +13448,17 @@ static signed int hostrange_cmp(struct hostrange_components *h1, struct hostrang
 {
   signed int retval;
   retval=hostrange_prefix_cmp(h1, h2);
-  signed int return_value_hostrange_width_combine$1;
-  unsigned long int tmp_if_expr$2;
+  signed int return_value_hostrange_width_combine_1;
+  unsigned long int tmp_if_expr_2;
   if(retval == 0)
   {
-    return_value_hostrange_width_combine$1=hostrange_width_combine(h1, h2);
-    if(!(return_value_hostrange_width_combine$1 == 0))
-      tmp_if_expr$2 = h1->lo - h2->lo;
+    return_value_hostrange_width_combine_1=hostrange_width_combine(h1, h2);
+    if(!(return_value_hostrange_width_combine_1 == 0))
+      tmp_if_expr_2 = h1->lo - h2->lo;
 
     else
-      tmp_if_expr$2 = (unsigned long int)(h1->width - h2->width);
-    retval = (signed int)tmp_if_expr$2;
+      tmp_if_expr_2 = (unsigned long int)(h1->width - h2->width);
+    retval = (signed int)tmp_if_expr_2;
   }
 
   return retval;
@@ -13468,18 +13468,18 @@ static signed int hostrange_cmp(struct hostrange_components *h1, struct hostrang
 // file hostlist.c line 639
 static struct hostrange_components * hostrange_copy(struct hostrange_components *hr)
 {
-  struct hostrange_components *return_value_hostrange_create_single$1;
-  struct hostrange_components *return_value_hostrange_create$2;
+  struct hostrange_components *return_value_hostrange_create_single_1;
+  struct hostrange_components *return_value_hostrange_create_2;
   if(!(hr->singlehost == 0u))
   {
-    return_value_hostrange_create_single$1=hostrange_create_single(hr->prefix);
-    return return_value_hostrange_create_single$1;
+    return_value_hostrange_create_single_1=hostrange_create_single(hr->prefix);
+    return return_value_hostrange_create_single_1;
   }
 
   else
   {
-    return_value_hostrange_create$2=hostrange_create(hr->prefix, hr->lo, hr->hi, hr->width);
-    return return_value_hostrange_create$2;
+    return_value_hostrange_create_2=hostrange_create(hr->prefix, hr->lo, hr->hi, hr->width);
+    return return_value_hostrange_create_2;
   }
 }
 
@@ -13521,9 +13521,9 @@ static struct hostrange_components * hostrange_create(char *prefix, unsigned lon
 
 error1:
   ;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 12;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 12;
   return (struct hostrange_components *)(void *)0;
 }
 
@@ -13554,9 +13554,9 @@ static struct hostrange_components * hostrange_create_single(const char *prefix)
 
 error1:
   ;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 12;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 12;
   return (struct hostrange_components *)(void *)0;
 }
 
@@ -13577,9 +13577,9 @@ static struct hostrange_components * hostrange_delete_host(struct hostrange_comp
       new=hostrange_copy(hr);
       if(new == ((struct hostrange_components *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 12;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 12;
         return (struct hostrange_components *)(void *)0;
       }
 
@@ -13607,13 +13607,13 @@ static void hostrange_destroy(struct hostrange_components *hr)
 // file hostlist.c line 765
 static signed int hostrange_empty(struct hostrange_components *hr)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(hr->hi >= hr->lo))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = hr->hi == (unsigned long int)-1 ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = hr->hi == (unsigned long int)-1 ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // hostrange_hn_within
@@ -13622,45 +13622,45 @@ static signed int hostrange_hn_within(struct hostrange_components *hr, struct ho
 {
   signed int len_hr;
   signed int len_hn;
-  signed int hostrange_hn_within$$1$$width;
+  signed int hostrange_hn_within__1__width;
   if(!(hr->singlehost == 0u))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(hn->hostname, hr->prefix);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(hn->hostname, hr->prefix);
+    if(return_value_strcmp_1 == 0)
       return 0;
 
     else
       return -1;
   }
 
-  signed int return_value_hostname_suffix_is_valid$2;
-  return_value_hostname_suffix_is_valid$2=hostname_suffix_is_valid(hn);
-  const unsigned short int **return_value___ctype_b_loc$6;
-  signed int return_value_strcmp$8;
-  if(return_value_hostname_suffix_is_valid$2 == 0)
+  signed int return_value_hostname_suffix_is_valid_2;
+  return_value_hostname_suffix_is_valid_2=hostname_suffix_is_valid(hn);
+  const unsigned short int **return_value___ctype_b_loc_6;
+  signed int return_value_strcmp_8;
+  if(return_value_hostname_suffix_is_valid_2 == 0)
     return -1;
 
   else
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(hn->prefix);
-    len_hn = (signed int)return_value_strlen$3;
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(hr->prefix, hn->prefix, (unsigned long int)len_hn);
-    if(!(return_value_strncmp$4 == 0))
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(hn->prefix);
+    len_hn = (signed int)return_value_strlen_3;
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(hr->prefix, hn->prefix, (unsigned long int)len_hn);
+    if(!(return_value_strncmp_4 == 0))
       return -1;
 
     else
     {
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(hr->prefix);
-      len_hr = (signed int)return_value_strlen$5;
-      hostrange_hn_within$$1$$width=hostname_suffix_width(hn);
-      if(hostrange_hn_within$$1$$width >= 2 && !(len_hn >= len_hr))
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(hr->prefix);
+      len_hr = (signed int)return_value_strlen_5;
+      hostrange_hn_within__1__width=hostname_suffix_width(hn);
+      if(hostrange_hn_within__1__width >= 2 && !(len_hn >= len_hr))
       {
-        return_value___ctype_b_loc$6=__ctype_b_loc();
-        if(!((2048 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)hr->prefix[(signed long int)(len_hr + -1)]]) == 0))
+        return_value___ctype_b_loc_6=__ctype_b_loc();
+        if(!((2048 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)hr->prefix[(signed long int)(len_hr + -1)]]) == 0))
         {
           if(hr->prefix[(signed long int)len_hn] == *hn->suffix)
           {
@@ -13678,8 +13678,8 @@ static signed int hostrange_hn_within(struct hostrange_components *hr, struct ho
 
       if(len_hr == len_hn)
       {
-        return_value_strcmp$8=strcmp(hn->prefix, hr->prefix);
-        if(return_value_strcmp$8 == 0)
+        return_value_strcmp_8=strcmp(hn->prefix, hr->prefix);
+        if(return_value_strcmp_8 == 0)
         {
           if(hr->hi >= hn->num)
           {
@@ -13687,9 +13687,9 @@ static signed int hostrange_hn_within(struct hostrange_components *hr, struct ho
             {
               signed int width;
               width=hostname_suffix_width(hn);
-              signed int return_value__width_equiv$7;
-              return_value__width_equiv$7=_width_equiv(hr->lo, &hr->width, hn->num, &width);
-              if(return_value__width_equiv$7 == 0)
+              signed int return_value__width_equiv_7;
+              return_value__width_equiv_7=_width_equiv(hr->lo, &hr->width, hn->num, &width);
+              if(return_value__width_equiv_7 == 0)
                 return -1;
 
               return (signed int)(hn->num - hr->lo);
@@ -13711,27 +13711,27 @@ static signed int hostrange_hn_within(struct hostrange_components *hr, struct ho
 static struct hostrange_components * hostrange_intersect(struct hostrange_components *h1, struct hostrange_components *h2)
 {
   struct hostrange_components *new = (struct hostrange_components *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(h1->singlehost == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = h2->singlehost != 0u ? (_Bool)1 : (_Bool)0;
-  signed int return_value_hostrange_width_combine$3;
-  unsigned long int tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = h2->singlehost != 0u ? (_Bool)1 : (_Bool)0;
+  signed int return_value_hostrange_width_combine_3;
+  unsigned long int tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return (struct hostrange_components *)(void *)0;
 
   else
   {
-    signed int return_value_hostrange_prefix_cmp$4;
-    return_value_hostrange_prefix_cmp$4=hostrange_prefix_cmp(h1, h2);
-    if(return_value_hostrange_prefix_cmp$4 == 0)
+    signed int return_value_hostrange_prefix_cmp_4;
+    return_value_hostrange_prefix_cmp_4=hostrange_prefix_cmp(h1, h2);
+    if(return_value_hostrange_prefix_cmp_4 == 0)
     {
       if(!(h2->lo >= h1->hi))
       {
-        return_value_hostrange_width_combine$3=hostrange_width_combine(h1, h2);
-        if(!(return_value_hostrange_width_combine$3 == 0))
+        return_value_hostrange_width_combine_3=hostrange_width_combine(h1, h2);
+        if(!(return_value_hostrange_width_combine_3 == 0))
         {
           new=hostrange_copy(h1);
           if(new == ((struct hostrange_components *)NULL))
@@ -13739,11 +13739,11 @@ static struct hostrange_components * hostrange_intersect(struct hostrange_compon
 
           new->lo = h2->lo;
           if(!(h2->hi >= h1->hi))
-            tmp_if_expr$2 = h2->hi;
+            tmp_if_expr_2 = h2->hi;
 
           else
-            tmp_if_expr$2 = h1->hi;
-          new->hi = tmp_if_expr$2;
+            tmp_if_expr_2 = h1->hi;
+          new->hi = tmp_if_expr_2;
         }
 
       }
@@ -13759,22 +13759,22 @@ static struct hostrange_components * hostrange_intersect(struct hostrange_compon
 static signed int hostrange_join(struct hostrange_components *h1, struct hostrange_components *h2)
 {
   signed int duplicated = -1;
-  signed int return_value_hostrange_prefix_cmp$4;
-  return_value_hostrange_prefix_cmp$4=hostrange_prefix_cmp(h1, h2);
-  signed int return_value_hostrange_width_combine$3;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_hostrange_count$1;
-  if(return_value_hostrange_prefix_cmp$4 == 0)
+  signed int return_value_hostrange_prefix_cmp_4;
+  return_value_hostrange_prefix_cmp_4=hostrange_prefix_cmp(h1, h2);
+  signed int return_value_hostrange_width_combine_3;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_hostrange_count_1;
+  if(return_value_hostrange_prefix_cmp_4 == 0)
   {
-    return_value_hostrange_width_combine$3=hostrange_width_combine(h1, h2);
-    if(!(return_value_hostrange_width_combine$3 == 0))
+    return_value_hostrange_width_combine_3=hostrange_width_combine(h1, h2);
+    if(!(return_value_hostrange_width_combine_3 == 0))
     {
       if(!(h1->singlehost == 0u))
-        tmp_if_expr$2 = h2->singlehost != 0u ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = h2->singlehost != 0u ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         duplicated = 1;
 
       else
@@ -13795,8 +13795,8 @@ static signed int hostrange_join(struct hostrange_components *h1, struct hostran
 
             else
             {
-              return_value_hostrange_count$1=hostrange_count(h2);
-              duplicated = (signed int)return_value_hostrange_count$1;
+              return_value_hostrange_count_1=hostrange_count(h2);
+              duplicated = (signed int)return_value_hostrange_count_1;
             }
           }
 
@@ -13812,14 +13812,14 @@ static signed int hostrange_join(struct hostrange_components *h1, struct hostran
 static struct hostrange_components * hostrange_new(void)
 {
   struct hostrange_components *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hostrange_components) /*32ul*/ );
-  new = (struct hostrange_components *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hostrange_components) /*32ul*/ );
+  new = (struct hostrange_components *)return_value_malloc_1;
   if(new == ((struct hostrange_components *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     return (struct hostrange_components *)(void *)0;
   }
 
@@ -13861,41 +13861,41 @@ static unsigned long int hostrange_numstr(struct hostrange_components *hr, unsig
 static char * hostrange_pop(struct hostrange_components *hr)
 {
   unsigned long int size = (unsigned long int)0;
-  char *hostrange_pop$$1$$host = (char *)(void *)0;
-  unsigned long int return_value_hostrange_count$5;
-  unsigned long int tmp_post$4;
+  char *hostrange_pop__1__host = (char *)(void *)0;
+  unsigned long int return_value_hostrange_count_5;
+  unsigned long int tmp_post_4;
   if(!(hr->singlehost == 0u))
   {
     hr->lo = hr->lo + 1ul;
-    hostrange_pop$$1$$host=strdup(hr->prefix);
+    hostrange_pop__1__host=strdup(hr->prefix);
   }
 
   else
   {
-    return_value_hostrange_count$5=hostrange_count(hr);
-    if(return_value_hostrange_count$5 >= 1ul)
+    return_value_hostrange_count_5=hostrange_count(hr);
+    if(return_value_hostrange_count_5 >= 1ul)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(hr->prefix);
-      size = return_value_strlen$1 + (unsigned long int)hr->width + (unsigned long int)16;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(size * sizeof(char) /*1ul*/ );
-      hostrange_pop$$1$$host = (char *)return_value_malloc$3;
-      if(hostrange_pop$$1$$host == ((char *)NULL))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(hr->prefix);
+      size = return_value_strlen_1 + (unsigned long int)hr->width + (unsigned long int)16;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(size * sizeof(char) /*1ul*/ );
+      hostrange_pop__1__host = (char *)return_value_malloc_3;
+      if(hostrange_pop__1__host == ((char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 12;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 12;
         return (char *)(void *)0;
       }
 
-      tmp_post$4 = hr->hi;
+      tmp_post_4 = hr->hi;
       hr->hi = hr->hi - 1ul;
-      snprintf(hostrange_pop$$1$$host, size, "%s%0*lu", hr->prefix, hr->width, tmp_post$4);
+      snprintf(hostrange_pop__1__host, size, "%s%0*lu", hr->prefix, hr->width, tmp_post_4);
     }
 
   }
-  return hostrange_pop$$1$$host;
+  return hostrange_pop__1__host;
 }
 
 // hostrange_prefix_cmp
@@ -13903,7 +13903,7 @@ static char * hostrange_pop(struct hostrange_components *hr)
 static signed int hostrange_prefix_cmp(struct hostrange_components *h1, struct hostrange_components *h2)
 {
   signed int retval;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(h1 == ((struct hostrange_components *)NULL))
     return 1;
 
@@ -13915,11 +13915,11 @@ static signed int hostrange_prefix_cmp(struct hostrange_components *h1, struct h
     {
       retval=strcmp(h1->prefix, h2->prefix);
       if(retval == 0)
-        tmp_if_expr$1 = (signed int)h2->singlehost - (signed int)h1->singlehost;
+        tmp_if_expr_1 = (signed int)h2->singlehost - (signed int)h1->singlehost;
 
       else
-        tmp_if_expr$1 = retval;
-      return tmp_if_expr$1;
+        tmp_if_expr_1 = retval;
+      return tmp_if_expr_1;
     }
 }
 
@@ -13928,18 +13928,18 @@ static signed int hostrange_prefix_cmp(struct hostrange_components *h1, struct h
 static char * hostrange_shift(struct hostrange_components *hr)
 {
   unsigned long int size = (unsigned long int)0;
-  char *hostrange_shift$$1$$host = (char *)(void *)0;
-  unsigned long int return_value_hostrange_count$6;
-  unsigned long int tmp_post$5;
+  char *hostrange_shift__1__host = (char *)(void *)0;
+  unsigned long int return_value_hostrange_count_6;
+  unsigned long int tmp_post_5;
   if(!(hr->singlehost == 0u))
   {
     hr->lo = hr->lo + 1ul;
-    hostrange_shift$$1$$host=strdup(hr->prefix);
-    if(hostrange_shift$$1$$host == ((char *)NULL))
+    hostrange_shift__1__host=strdup(hr->prefix);
+    if(hostrange_shift__1__host == ((char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 12;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 12;
       return (char *)(void *)0;
     }
 
@@ -13947,30 +13947,30 @@ static char * hostrange_shift(struct hostrange_components *hr)
 
   else
   {
-    return_value_hostrange_count$6=hostrange_count(hr);
-    if(return_value_hostrange_count$6 >= 1ul)
+    return_value_hostrange_count_6=hostrange_count(hr);
+    if(return_value_hostrange_count_6 >= 1ul)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(hr->prefix);
-      size = return_value_strlen$2 + (unsigned long int)hr->width + (unsigned long int)16;
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(size * sizeof(char) /*1ul*/ );
-      hostrange_shift$$1$$host = (char *)return_value_malloc$4;
-      if(hostrange_shift$$1$$host == ((char *)NULL))
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(hr->prefix);
+      size = return_value_strlen_2 + (unsigned long int)hr->width + (unsigned long int)16;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(size * sizeof(char) /*1ul*/ );
+      hostrange_shift__1__host = (char *)return_value_malloc_4;
+      if(hostrange_shift__1__host == ((char *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 12;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 12;
         return (char *)(void *)0;
       }
 
-      tmp_post$5 = hr->lo;
+      tmp_post_5 = hr->lo;
       hr->lo = hr->lo + 1ul;
-      snprintf(hostrange_shift$$1$$host, size, "%s%0*lu", hr->prefix, hr->width, tmp_post$5);
+      snprintf(hostrange_shift__1__host, size, "%s%0*lu", hr->prefix, hr->width, tmp_post_5);
     }
 
   }
-  return hostrange_shift$$1$$host;
+  return hostrange_shift__1__host;
 }
 
 // hostrange_to_string
@@ -13981,23 +13981,23 @@ static unsigned long int hostrange_to_string(struct hostrange_components *hr, un
   signed int truncated = 0;
   signed int len = 0;
   char sep;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(separator == ((char *)NULL))
-    tmp_if_expr$1 = 44;
+    tmp_if_expr_1 = 44;
 
   else
-    tmp_if_expr$1 = (signed int)separator[(signed long int)0];
-  sep = (char)tmp_if_expr$1;
-  signed int return_value_snprintf$2;
-  signed int tmp_post$3;
+    tmp_if_expr_1 = (signed int)separator[(signed long int)0];
+  sep = (char)tmp_if_expr_1;
+  signed int return_value_snprintf_2;
+  signed int tmp_post_3;
   if(n == 0ul)
     return (unsigned long int)0;
 
   else
     if(!(hr->singlehost == 0u))
     {
-      return_value_snprintf$2=snprintf(buf, n, "%s", hr->prefix);
-      return (unsigned long int)return_value_snprintf$2;
+      return_value_snprintf_2=snprintf(buf, n, "%s", hr->prefix);
+      return (unsigned long int)return_value_snprintf_2;
     }
 
     else
@@ -14016,9 +14016,9 @@ static unsigned long int hostrange_to_string(struct hostrange_components *hr, un
         }
 
         len = len + ret;
-        tmp_post$3 = len;
+        tmp_post_3 = len;
         len = len + 1;
-        buf[(signed long int)tmp_post$3] = sep;
+        buf[(signed long int)tmp_post_3] = sep;
       }
       if(!(truncated == 0))
       {
@@ -14039,26 +14039,26 @@ static unsigned long int hostrange_to_string(struct hostrange_components *hr, un
 // file hostlist.c line 754
 static signed int hostrange_width_combine(struct hostrange_components *h0, struct hostrange_components *h1)
 {
-  signed int return_value__width_equiv$1;
-  return_value__width_equiv$1=_width_equiv(h0->lo, &h0->width, h1->lo, &h1->width);
-  return return_value__width_equiv$1;
+  signed int return_value__width_equiv_1;
+  return_value__width_equiv_1=_width_equiv(h0->lo, &h0->width, h1->lo, &h1->width);
+  return return_value__width_equiv_1;
 }
 
 // hostrange_within_range
 // file hostlist.c line 740
 static signed int hostrange_within_range(struct hostrange_components *h1, struct hostrange_components *h2)
 {
-  signed int return_value_hostrange_prefix_cmp$2;
-  return_value_hostrange_prefix_cmp$2=hostrange_prefix_cmp(h1, h2);
-  _Bool tmp_if_expr$1;
-  if(return_value_hostrange_prefix_cmp$2 == 0)
+  signed int return_value_hostrange_prefix_cmp_2;
+  return_value_hostrange_prefix_cmp_2=hostrange_prefix_cmp(h1, h2);
+  _Bool tmp_if_expr_1;
+  if(return_value_hostrange_prefix_cmp_2 == 0)
   {
     if(!(h1->singlehost == 0u))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = h2->singlehost != 0u ? (_Bool)1 : (_Bool)0;
-    return tmp_if_expr$1 ? 0 : 1;
+      tmp_if_expr_1 = h2->singlehost != 0u ? (_Bool)1 : (_Bool)0;
+    return tmp_if_expr_1 ? 0 : 1;
   }
 
   else
@@ -14070,9 +14070,9 @@ static signed int hostrange_within_range(struct hostrange_components *h1, struct
 struct hostset * hostset_copy(struct hostset * const set)
 {
   struct hostset *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hostset) /*8ul*/ );
-  new = (struct hostset *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hostset) /*8ul*/ );
+  new = (struct hostset *)return_value_malloc_1;
   if(!(new == ((struct hostset *)NULL)))
   {
     new->hl=hostlist_copy(set->hl);
@@ -14095,9 +14095,9 @@ error1:
 // file hostlist.c line 2579
 signed int hostset_count(struct hostset *set)
 {
-  signed int return_value_hostlist_count$1;
-  return_value_hostlist_count$1=hostlist_count(set->hl);
-  return return_value_hostlist_count$1;
+  signed int return_value_hostlist_count_1;
+  return_value_hostlist_count_1=hostlist_count(set->hl);
+  return return_value_hostlist_count_1;
 }
 
 // hostset_create
@@ -14105,9 +14105,9 @@ signed int hostset_count(struct hostset *set)
 struct hostset * hostset_create(const char *hostlist)
 {
   struct hostset *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hostset) /*8ul*/ );
-  new = (struct hostset *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hostset) /*8ul*/ );
+  new = (struct hostset *)return_value_malloc_1;
   if(!(new == ((struct hostset *)NULL)))
   {
     new->hl=hostlist_create(hostlist);
@@ -14133,27 +14133,27 @@ error1:
 // file hostlist.c line 2549
 signed int hostset_delete(struct hostset *set, const char *hosts)
 {
-  signed int return_value_hostlist_delete$1;
-  return_value_hostlist_delete$1=hostlist_delete(set->hl, hosts);
-  return return_value_hostlist_delete$1;
+  signed int return_value_hostlist_delete_1;
+  return_value_hostlist_delete_1=hostlist_delete(set->hl, hosts);
+  return return_value_hostlist_delete_1;
 }
 
 // hostset_delete_host
 // file hostlist.c line 2554
 signed int hostset_delete_host(struct hostset *set, const char *hostname)
 {
-  signed int return_value_hostlist_delete_host$1;
-  return_value_hostlist_delete_host$1=hostlist_delete_host(set->hl, hostname);
-  return return_value_hostlist_delete_host$1;
+  signed int return_value_hostlist_delete_host_1;
+  return_value_hostlist_delete_host_1=hostlist_delete_host(set->hl, hostname);
+  return return_value_hostlist_delete_host_1;
 }
 
 // hostset_deranged_string
 // file hostlist.c line 2589
 signed long int hostset_deranged_string(struct hostset *set, unsigned long int n, char *buf)
 {
-  signed long int return_value_hostlist_deranged_string$1;
-  return_value_hostlist_deranged_string$1=hostlist_deranged_string(set->hl, n, buf);
-  return return_value_hostlist_deranged_string$1;
+  signed long int return_value_hostlist_deranged_string_1;
+  return_value_hostlist_deranged_string_1=hostlist_deranged_string(set->hl, n, buf);
+  return return_value_hostlist_deranged_string_1;
 }
 
 // hostset_destroy
@@ -14184,9 +14184,9 @@ static signed int hostset_find_host(struct hostset *set, const char *host)
     e=pthread_mutex_lock(&set->hl->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("hostlist.c", 2511, "hostlist mutex lock:");
       abort();
     }
@@ -14197,9 +14197,9 @@ static signed int hostset_find_host(struct hostset *set, const char *host)
   i = 0;
   for( ; !(i >= set->hl->nranges); i = i + 1)
   {
-    signed int return_value_hostrange_hn_within$2;
-    return_value_hostrange_hn_within$2=hostrange_hn_within(set->hl->hr[(signed long int)i], hn);
-    if(return_value_hostrange_hn_within$2 >= 0)
+    signed int return_value_hostrange_hn_within_2;
+    return_value_hostrange_hn_within_2=hostrange_hn_within(set->hl->hr[(signed long int)i], hn);
+    if(return_value_hostrange_hn_within_2 >= 0)
     {
       retval = 1;
       break;
@@ -14211,13 +14211,13 @@ static signed int hostset_find_host(struct hostset *set, const char *host)
 
   done:
     ;
-    signed int hostset_find_host$$1$$3$$1$$e;
-    hostset_find_host$$1$$3$$1$$e=pthread_mutex_unlock(&set->hl->mutex);
-    if(!(hostset_find_host$$1$$3$$1$$e == 0))
+    signed int hostset_find_host__1__3__1__e;
+    hostset_find_host__1__3__1__e=pthread_mutex_unlock(&set->hl->mutex);
+    if(!(hostset_find_host__1__3__1__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = hostset_find_host$$1$$3$$1$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = hostset_find_host__1__3__1__e;
       lsd_fatal_error("hostlist.c", 2520, "hostlist mutex unlock:");
       abort();
     }
@@ -14236,7 +14236,7 @@ signed int hostset_insert(struct hostset *set, const char *hosts)
   signed int n = 0;
   struct hostlist *hl;
   hl=hostlist_create(hosts);
-  signed int return_value_hostset_insert_range$2;
+  signed int return_value_hostset_insert_range_2;
   if(hl == ((struct hostlist *)NULL))
     return 0;
 
@@ -14248,13 +14248,13 @@ signed int hostset_insert(struct hostset *set, const char *hosts)
 
     __CPROVER_DUMP_L2:
       ;
-      signed int hostset_insert$$1$$1$$1$$e;
-      hostset_insert$$1$$1$$1$$e=pthread_mutex_lock(&set->hl->mutex);
-      if(!(hostset_insert$$1$$1$$1$$e == 0))
+      signed int hostset_insert__1__1__1__e;
+      hostset_insert__1__1__1__e=pthread_mutex_lock(&set->hl->mutex);
+      if(!(hostset_insert__1__1__1__e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = hostset_insert$$1$$1$$1$$e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = hostset_insert__1__1__1__e;
         lsd_fatal_error("hostlist.c", 2495, "hostlist mutex lock:");
         abort();
       }
@@ -14264,8 +14264,8 @@ signed int hostset_insert(struct hostset *set, const char *hosts)
     i = 0;
     for( ; !(i >= hl->nranges); i = i + 1)
     {
-      return_value_hostset_insert_range$2=hostset_insert_range(set, hl->hr[(signed long int)i]);
-      n = n + return_value_hostset_insert_range$2;
+      return_value_hostset_insert_range_2=hostset_insert_range(set, hl->hr[(signed long int)i]);
+      n = n + return_value_hostset_insert_range_2;
     }
     do
     {
@@ -14276,9 +14276,9 @@ signed int hostset_insert(struct hostset *set, const char *hosts)
       e=pthread_mutex_unlock(&set->hl->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = e;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = e;
         lsd_fatal_error("hostlist.c", 2498, "hostlist mutex unlock:");
         abort();
       }
@@ -14299,12 +14299,12 @@ static signed int hostset_insert_range(struct hostset *set, struct hostrange_com
   signed int nhosts = 0;
   signed int ndups = 0;
   struct hostlist *hl = set->hl;
-  signed int return_value_hostlist_expand$1;
-  signed int tmp_post$4;
+  signed int return_value_hostlist_expand_1;
+  signed int tmp_post_4;
   if(hl->size == hl->nranges)
   {
-    return_value_hostlist_expand$1=hostlist_expand(hl);
-    if(!(return_value_hostlist_expand$1 == 0))
+    return_value_hostlist_expand_1=hostlist_expand(hl);
+    if(!(return_value_hostlist_expand_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return 0;
@@ -14315,15 +14315,15 @@ static signed int hostset_insert_range(struct hostset *set, struct hostrange_com
 
   __CPROVER_DUMP_L1:
     ;
-    unsigned long int return_value_hostrange_count$2;
-    return_value_hostrange_count$2=hostrange_count(hr);
-    nhosts = (signed int)return_value_hostrange_count$2;
+    unsigned long int return_value_hostrange_count_2;
+    return_value_hostrange_count_2=hostrange_count(hr);
+    nhosts = (signed int)return_value_hostrange_count_2;
     i = 0;
     for( ; !(i >= hl->nranges); i = i + 1)
     {
-      signed int return_value_hostrange_cmp$3;
-      return_value_hostrange_cmp$3=hostrange_cmp(hr, hl->hr[(signed long int)i]);
-      if(!(return_value_hostrange_cmp$3 >= 1))
+      signed int return_value_hostrange_cmp_3;
+      return_value_hostrange_cmp_3=hostrange_cmp(hr, hl->hr[(signed long int)i]);
+      if(!(return_value_hostrange_cmp_3 >= 1))
       {
         ndups=hostrange_join(hr, hl->hr[(signed long int)i]);
         if(ndups >= 0)
@@ -14351,9 +14351,9 @@ static signed int hostset_insert_range(struct hostset *set, struct hostrange_com
     }
     if(inserted == 0)
     {
-      tmp_post$4 = hl->nranges;
+      tmp_post_4 = hl->nranges;
       hl->nranges = hl->nranges + 1;
-      hl->hr[(signed long int)tmp_post$4]=hostrange_copy(hr);
+      hl->hr[(signed long int)tmp_post_4]=hostrange_copy(hr);
       hl->nhosts = hl->nhosts + nhosts;
       if(hl->nranges >= 2)
       {
@@ -14373,54 +14373,54 @@ static signed int hostset_insert_range(struct hostset *set, struct hostrange_com
 // file hostlist.c line 2238
 struct hostlist_iterator * hostset_iterator_create(struct hostset *set)
 {
-  struct hostlist_iterator *return_value_hostlist_iterator_create$1;
-  return_value_hostlist_iterator_create$1=hostlist_iterator_create(set->hl);
-  return return_value_hostlist_iterator_create$1;
+  struct hostlist_iterator *return_value_hostlist_iterator_create_1;
+  return_value_hostlist_iterator_create_1=hostlist_iterator_create(set->hl);
+  return return_value_hostlist_iterator_create_1;
 }
 
 // hostset_pop
 // file hostlist.c line 2564
 char * hostset_pop(struct hostset *set)
 {
-  char *return_value_hostlist_pop$1;
-  return_value_hostlist_pop$1=hostlist_pop(set->hl);
-  return return_value_hostlist_pop$1;
+  char *return_value_hostlist_pop_1;
+  return_value_hostlist_pop_1=hostlist_pop(set->hl);
+  return return_value_hostlist_pop_1;
 }
 
 // hostset_pop_range
 // file hostlist.c line 2574
 char * hostset_pop_range(struct hostset *set)
 {
-  char *return_value_hostlist_pop_range$1;
-  return_value_hostlist_pop_range$1=hostlist_pop_range(set->hl);
-  return return_value_hostlist_pop_range$1;
+  char *return_value_hostlist_pop_range_1;
+  return_value_hostlist_pop_range_1=hostlist_pop_range(set->hl);
+  return return_value_hostlist_pop_range_1;
 }
 
 // hostset_ranged_string
 // file hostlist.c line 2584
 signed long int hostset_ranged_string(struct hostset *set, unsigned long int n, char *buf)
 {
-  signed long int return_value_hostlist_ranged_string$1;
-  return_value_hostlist_ranged_string$1=hostlist_ranged_string(set->hl, n, buf);
-  return return_value_hostlist_ranged_string$1;
+  signed long int return_value_hostlist_ranged_string_1;
+  return_value_hostlist_ranged_string_1=hostlist_ranged_string(set->hl, n, buf);
+  return return_value_hostlist_ranged_string_1;
 }
 
 // hostset_shift
 // file hostlist.c line 2559
 char * hostset_shift(struct hostset *set)
 {
-  char *return_value_hostlist_shift$1;
-  return_value_hostlist_shift$1=hostlist_shift(set->hl);
-  return return_value_hostlist_shift$1;
+  char *return_value_hostlist_shift_1;
+  return_value_hostlist_shift_1=hostlist_shift(set->hl);
+  return return_value_hostlist_shift_1;
 }
 
 // hostset_shift_range
 // file hostlist.c line 2569
 char * hostset_shift_range(struct hostset *set)
 {
-  char *return_value_hostlist_shift_range$1;
-  return_value_hostlist_shift_range$1=hostlist_shift_range(set->hl);
-  return return_value_hostlist_shift_range$1;
+  char *return_value_hostlist_shift_range_1;
+  return_value_hostlist_shift_range_1=hostlist_shift_range(set->hl);
+  return return_value_hostlist_shift_range_1;
 }
 
 // hostset_within
@@ -14445,9 +14445,9 @@ signed int hostset_within(struct hostset *set, const char *hosts)
       if(hostname == ((char *)NULL))
         break;
 
-      signed int return_value_hostset_find_host$1;
-      return_value_hostset_find_host$1=hostset_find_host(set, hostname);
-      nfound = nfound + return_value_hostset_find_host$1;
+      signed int return_value_hostset_find_host_1;
+      return_value_hostset_find_host_1=hostset_find_host(set, hostname);
+      nfound = nfound + return_value_hostset_find_host_1;
       free((void *)hostname);
     }
     while((_Bool)1);
@@ -14464,12 +14464,12 @@ static char * include_file(char *line)
   char *p = line;
   char *orig;
   char *included = (char *)(void *)0;
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(p, "#include", (unsigned long int)8);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$4;
-  char *return_value_strtok$3;
-  if(!(return_value_strncmp$1 == 0))
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(p, "#include", (unsigned long int)8);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_4;
+  char *return_value_strtok_3;
+  if(!(return_value_strncmp_1 == 0))
     return (char *)(void *)0;
 
   else
@@ -14477,8 +14477,8 @@ static char * include_file(char *line)
     p = p + (signed long int)8;
     do
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((1 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((1 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
         break;
 
       p = p + 1l;
@@ -14487,14 +14487,14 @@ static char * include_file(char *line)
     orig=Strdup(line);
     p=strtok(p, sep);
     if(p == ((char *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strtok$3=strtok((char *)(void *)0, "\n\r\t ");
-      tmp_if_expr$4 = return_value_strtok$3 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strtok_3=strtok((char *)(void *)0, "\n\r\t ");
+      tmp_if_expr_4 = return_value_strtok_3 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       err("%p: warning: Ignoring invalid line: %s", orig);
 
     else
@@ -14508,9 +14508,9 @@ static char * include_file(char *line)
 // file list.c line 728
 static struct list * list_alloc(void)
 {
-  void *return_value_list_alloc_aux$1;
-  return_value_list_alloc_aux$1=list_alloc_aux((signed int)sizeof(struct list) /*80ul*/ , (void *)&list_free_lists);
-  return (struct list *)return_value_list_alloc_aux$1;
+  void *return_value_list_alloc_aux_1;
+  return_value_list_alloc_aux_1=list_alloc_aux((signed int)sizeof(struct list) /*80ul*/ , (void *)&list_free_lists);
+  return (struct list *)return_value_list_alloc_aux_1;
 }
 
 // list_alloc_aux
@@ -14526,9 +14526,9 @@ static void * list_alloc_aux(signed int size, void *pfreelist)
     e=pthread_mutex_lock(&list_free_lock);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 787, "list mutex lock");
       abort();
     }
@@ -14550,24 +14550,24 @@ static void * list_alloc_aux(signed int size, void *pfreelist)
   }
 
   px = (void **)*pfree;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(px == ((void **)NULL)))
     *pfree = *px;
 
   else
   {
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
   }
   do
   {
-    signed int list_alloc_aux$$1$$3$$e;
-    list_alloc_aux$$1$$3$$e=pthread_mutex_unlock(&list_free_lock);
-    if(!(list_alloc_aux$$1$$3$$e == 0))
+    signed int list_alloc_aux__1__3__e;
+    list_alloc_aux__1__3__e=pthread_mutex_unlock(&list_free_lock);
+    if(!(list_alloc_aux__1__3__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = list_alloc_aux$$1$$3$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = list_alloc_aux__1__3__e;
       lsd_fatal_error("list.c", 801, "list mutex unlock");
       abort();
     }
@@ -14588,9 +14588,9 @@ void * list_append(struct list *l, void *x)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 304, "list mutex lock");
       abort();
     }
@@ -14600,13 +14600,13 @@ void * list_append(struct list *l, void *x)
   v=list_node_create(l, l->tail, x);
   do
   {
-    signed int list_append$$1$$2$$e;
-    list_append$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_append$$1$$2$$e == 0))
+    signed int list_append__1__2__e;
+    list_append__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_append__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_append$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_append__1__2__e;
       lsd_fatal_error("list.c", 307, "list mutex unlock");
       abort();
     }
@@ -14627,9 +14627,9 @@ signed int list_count(struct list *l)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 289, "list mutex lock");
       abort();
     }
@@ -14639,13 +14639,13 @@ signed int list_count(struct list *l)
   n = l->count;
   do
   {
-    signed int list_count$$1$$2$$e;
-    list_count$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_count$$1$$2$$e == 0))
+    signed int list_count__1__2__e;
+    list_count__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_count__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_count$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_count__1__2__e;
       lsd_fatal_error("list.c", 292, "list mutex unlock");
       abort();
     }
@@ -14674,12 +14674,12 @@ struct list * list_create(void (*f)(void *))
     do
     {
       signed int e;
-      e=pthread_mutex_init(&l->mutex, (const union anonymous$3 *)(void *)0);
+      e=pthread_mutex_init(&l->mutex, (const union anonymous_3 *)(void *)0);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = e;
         lsd_fatal_error("list.c", 230, "list mutex init");
         abort();
       }
@@ -14717,13 +14717,13 @@ signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void
   signed int n = 0;
   do
   {
-    signed int list_delete_all$$1$$1$$e;
-    list_delete_all$$1$$1$$e=pthread_mutex_lock(&l->mutex);
-    if(!(list_delete_all$$1$$1$$e == 0))
+    signed int list_delete_all__1__1__e;
+    list_delete_all__1__1__e=pthread_mutex_lock(&l->mutex);
+    if(!(list_delete_all__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = list_delete_all$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = list_delete_all__1__1__e;
       lsd_fatal_error("list.c", 359, "list mutex lock");
       abort();
     }
@@ -14758,9 +14758,9 @@ signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void
     e=pthread_mutex_unlock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = e;
       lsd_fatal_error("list.c", 374, "list mutex unlock");
       abort();
     }
@@ -14781,9 +14781,9 @@ void * list_dequeue(struct list *l)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 510, "list mutex lock");
       abort();
     }
@@ -14793,13 +14793,13 @@ void * list_dequeue(struct list *l)
   v=list_node_destroy(l, &l->head);
   do
   {
-    signed int list_dequeue$$1$$2$$e;
-    list_dequeue$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_dequeue$$1$$2$$e == 0))
+    signed int list_dequeue__1__2__e;
+    list_dequeue__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_dequeue__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_dequeue$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_dequeue__1__2__e;
       lsd_fatal_error("list.c", 513, "list mutex unlock");
       abort();
     }
@@ -14819,13 +14819,13 @@ void list_destroy(struct list *l)
   struct listNode *pTmp;
   do
   {
-    signed int list_destroy$$1$$1$$e;
-    list_destroy$$1$$1$$e=pthread_mutex_lock(&l->mutex);
-    if(!(list_destroy$$1$$1$$e == 0))
+    signed int list_destroy__1__1__e;
+    list_destroy__1__1__e=pthread_mutex_lock(&l->mutex);
+    if(!(list_destroy__1__1__e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = list_destroy$$1$$1$$e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = list_destroy__1__1__e;
       lsd_fatal_error("list.c", 243, "list mutex lock");
       abort();
     }
@@ -14857,9 +14857,9 @@ void list_destroy(struct list *l)
     e=pthread_mutex_unlock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = e;
       lsd_fatal_error("list.c", 262, "list mutex unlock");
       abort();
     }
@@ -14868,13 +14868,13 @@ void list_destroy(struct list *l)
   while((_Bool)0);
   do
   {
-    signed int list_destroy$$1$$5$$e;
-    list_destroy$$1$$5$$e=pthread_mutex_destroy(&l->mutex);
-    if(!(list_destroy$$1$$5$$e == 0))
+    signed int list_destroy__1__5__e;
+    list_destroy__1__5__e=pthread_mutex_destroy(&l->mutex);
+    if(!(list_destroy__1__5__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = list_destroy$$1$$5$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = list_destroy__1__5__e;
       lsd_fatal_error("list.c", 263, "list mutex destroy");
       abort();
     }
@@ -14899,9 +14899,9 @@ void * list_enqueue(struct list *l, void *x)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 496, "list mutex lock");
       abort();
     }
@@ -14911,13 +14911,13 @@ void * list_enqueue(struct list *l, void *x)
   v=list_node_create(l, l->tail, x);
   do
   {
-    signed int list_enqueue$$1$$2$$e;
-    list_enqueue$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_enqueue$$1$$2$$e == 0))
+    signed int list_enqueue__1__2__e;
+    list_enqueue__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_enqueue__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_enqueue$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_enqueue__1__2__e;
       lsd_fatal_error("list.c", 499, "list mutex unlock");
       abort();
     }
@@ -14952,9 +14952,9 @@ void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *ke
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 336, "list mutex lock");
       abort();
     }
@@ -14975,13 +14975,13 @@ void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *ke
 
   do
   {
-    signed int list_find_first$$1$$3$$e;
-    list_find_first$$1$$3$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_find_first$$1$$3$$e == 0))
+    signed int list_find_first__1__3__e;
+    list_find_first__1__3__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_find_first__1__3__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_find_first$$1$$3$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_find_first__1__3__e;
       lsd_fatal_error("list.c", 344, "list mutex unlock");
       abort();
     }
@@ -15003,9 +15003,9 @@ signed int list_for_each(struct list *l, signed int (*f)(void *, void *), void *
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 387, "list mutex lock");
       abort();
     }
@@ -15027,13 +15027,13 @@ signed int list_for_each(struct list *l, signed int (*f)(void *, void *), void *
 
   do
   {
-    signed int list_for_each$$1$$3$$e;
-    list_for_each$$1$$3$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_for_each$$1$$3$$e == 0))
+    signed int list_for_each__1__3__e;
+    list_for_each__1__3__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_for_each__1__3__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_for_each$$1$$3$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_for_each__1__3__e;
       lsd_fatal_error("list.c", 396, "list mutex unlock");
       abort();
     }
@@ -15062,9 +15062,9 @@ static void list_free_aux(void *x, void *pfreelist)
     e=pthread_mutex_lock(&list_free_lock);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 816, "list mutex lock");
       abort();
     }
@@ -15075,13 +15075,13 @@ static void list_free_aux(void *x, void *pfreelist)
   *pfree = (void *)px;
   do
   {
-    signed int list_free_aux$$1$$2$$e;
-    list_free_aux$$1$$2$$e=pthread_mutex_unlock(&list_free_lock);
-    if(!(list_free_aux$$1$$2$$e == 0))
+    signed int list_free_aux__1__2__e;
+    list_free_aux__1__2__e=pthread_mutex_unlock(&list_free_lock);
+    if(!(list_free_aux__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_free_aux$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_free_aux__1__2__e;
       lsd_fatal_error("list.c", 819, "list mutex unlock");
       abort();
     }
@@ -15105,9 +15105,9 @@ void * list_insert(struct listIterator *i, void *x)
     e=pthread_mutex_lock(&i->list->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 602, "list mutex lock");
       abort();
     }
@@ -15117,13 +15117,13 @@ void * list_insert(struct listIterator *i, void *x)
   v=list_node_create(i->list, i->prev, x);
   do
   {
-    signed int list_insert$$1$$2$$e;
-    list_insert$$1$$2$$e=pthread_mutex_unlock(&i->list->mutex);
-    if(!(list_insert$$1$$2$$e == 0))
+    signed int list_insert__1__2__e;
+    list_insert__1__2__e=pthread_mutex_unlock(&i->list->mutex);
+    if(!(list_insert__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_insert$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_insert__1__2__e;
       lsd_fatal_error("list.c", 605, "list mutex unlock");
       abort();
     }
@@ -15144,9 +15144,9 @@ signed int list_is_empty(struct list *l)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 275, "list mutex lock");
       abort();
     }
@@ -15156,13 +15156,13 @@ signed int list_is_empty(struct list *l)
   n = l->count;
   do
   {
-    signed int list_is_empty$$1$$2$$e;
-    list_is_empty$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_is_empty$$1$$2$$e == 0))
+    signed int list_is_empty__1__2__e;
+    list_is_empty__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_is_empty__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_is_empty$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_is_empty__1__2__e;
       lsd_fatal_error("list.c", 278, "list mutex unlock");
       abort();
     }
@@ -15176,9 +15176,9 @@ signed int list_is_empty(struct list *l)
 // file list.c line 758
 static struct listIterator * list_iterator_alloc(void)
 {
-  void *return_value_list_alloc_aux$1;
-  return_value_list_alloc_aux$1=list_alloc_aux((signed int)sizeof(struct listIterator) /*32ul*/ , (void *)&list_free_iterators);
-  return (struct listIterator *)return_value_list_alloc_aux$1;
+  void *return_value_list_alloc_aux_1;
+  return_value_list_alloc_aux_1=list_alloc_aux((signed int)sizeof(struct listIterator) /*32ul*/ , (void *)&list_free_iterators);
+  return (struct listIterator *)return_value_list_alloc_aux_1;
 }
 
 // list_iterator_create
@@ -15199,9 +15199,9 @@ struct listIterator * list_iterator_create(struct list *l)
       e=pthread_mutex_lock(&l->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = e;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = e;
         lsd_fatal_error("list.c", 527, "list mutex lock");
         abort();
       }
@@ -15214,13 +15214,13 @@ struct listIterator * list_iterator_create(struct list *l)
     l->iNext = i;
     do
     {
-      signed int list_iterator_create$$1$$2$$e;
-      list_iterator_create$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-      if(!(list_iterator_create$$1$$2$$e == 0))
+      signed int list_iterator_create__1__2__e;
+      list_iterator_create__1__2__e=pthread_mutex_unlock(&l->mutex);
+      if(!(list_iterator_create__1__2__e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = list_iterator_create$$1$$2$$e;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = list_iterator_create__1__2__e;
         lsd_fatal_error("list.c", 534, "list mutex unlock");
         abort();
       }
@@ -15242,9 +15242,9 @@ void list_iterator_destroy(struct listIterator *i)
     e=pthread_mutex_lock(&i->list->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 560, "list mutex lock");
       abort();
     }
@@ -15261,13 +15261,13 @@ void list_iterator_destroy(struct listIterator *i)
 
   do
   {
-    signed int list_iterator_destroy$$1$$3$$e;
-    list_iterator_destroy$$1$$3$$e=pthread_mutex_unlock(&i->list->mutex);
-    if(!(list_iterator_destroy$$1$$3$$e == 0))
+    signed int list_iterator_destroy__1__3__e;
+    list_iterator_destroy__1__3__e=pthread_mutex_unlock(&i->list->mutex);
+    if(!(list_iterator_destroy__1__3__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_iterator_destroy$$1$$3$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_iterator_destroy__1__3__e;
       lsd_fatal_error("list.c", 569, "list mutex unlock");
       abort();
     }
@@ -15298,9 +15298,9 @@ void list_iterator_reset(struct listIterator *i)
     e=pthread_mutex_lock(&i->list->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 544, "list mutex lock");
       abort();
     }
@@ -15311,13 +15311,13 @@ void list_iterator_reset(struct listIterator *i)
   i->prev = &i->list->head;
   do
   {
-    signed int list_iterator_reset$$1$$2$$e;
-    list_iterator_reset$$1$$2$$e=pthread_mutex_unlock(&i->list->mutex);
-    if(!(list_iterator_reset$$1$$2$$e == 0))
+    signed int list_iterator_reset__1__2__e;
+    list_iterator_reset__1__2__e=pthread_mutex_unlock(&i->list->mutex);
+    if(!(list_iterator_reset__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_iterator_reset$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_iterator_reset__1__2__e;
       lsd_fatal_error("list.c", 548, "list mutex unlock");
       abort();
     }
@@ -15335,12 +15335,12 @@ signed int list_join(char *result, unsigned long int len, const char *sep, struc
   signed int truncated = 0;
   struct listIterator *i;
   memset((void *)result, 0, len);
-  signed int return_value_list_count$1;
-  return_value_list_count$1=list_count(l);
-  void *return_value_list_next$2;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
-  if(return_value_list_count$1 == 0)
+  signed int return_value_list_count_1;
+  return_value_list_count_1=list_count(l);
+  void *return_value_list_next_2;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
+  if(return_value_list_count_1 == 0)
     return 0;
 
   else
@@ -15348,8 +15348,8 @@ signed int list_join(char *result, unsigned long int len, const char *sep, struc
     i=list_iterator_create(l);
     do
     {
-      return_value_list_next$2=list_next(i);
-      str = (char *)return_value_list_next$2;
+      return_value_list_next_2=list_next(i);
+      str = (char *)return_value_list_next_2;
       if(str == ((char *)NULL))
         break;
 
@@ -15366,9 +15366,9 @@ signed int list_join(char *result, unsigned long int len, const char *sep, struc
 
       else
       {
-        return_value_strlen$3=strlen(str);
-        return_value_strlen$4=strlen(sep);
-        n = n + (signed int)(return_value_strlen$3 + return_value_strlen$4);
+        return_value_strlen_3=strlen(str);
+        return_value_strlen_4=strlen(sep);
+        n = n + (signed int)(return_value_strlen_3 + return_value_strlen_4);
       }
     }
     while((_Bool)1);
@@ -15378,11 +15378,11 @@ signed int list_join(char *result, unsigned long int len, const char *sep, struc
 
     else
     {
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(result);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(sep);
-      result[(signed long int)(return_value_strlen$5 - return_value_strlen$6)] = (char)0;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(result);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(sep);
+      result[(signed long int)(return_value_strlen_5 - return_value_strlen_6)] = (char)0;
     }
     return n;
   }
@@ -15399,9 +15399,9 @@ void * list_next(struct listIterator *i)
     e=pthread_mutex_lock(&i->list->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 583, "list mutex lock");
       abort();
     }
@@ -15417,35 +15417,35 @@ void * list_next(struct listIterator *i)
 
   do
   {
-    signed int list_next$$1$$2$$e;
-    list_next$$1$$2$$e=pthread_mutex_unlock(&i->list->mutex);
-    if(!(list_next$$1$$2$$e == 0))
+    signed int list_next__1__2__e;
+    list_next__1__2__e=pthread_mutex_unlock(&i->list->mutex);
+    if(!(list_next__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_next$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_next__1__2__e;
       lsd_fatal_error("list.c", 589, "list mutex unlock");
       abort();
     }
 
   }
   while((_Bool)0);
-  void *tmp_if_expr$3;
+  void *tmp_if_expr_3;
   if(!(p == ((struct listNode *)NULL)))
-    tmp_if_expr$3 = p->data;
+    tmp_if_expr_3 = p->data;
 
   else
-    tmp_if_expr$3 = (void *)0;
-  return tmp_if_expr$3;
+    tmp_if_expr_3 = (void *)0;
+  return tmp_if_expr_3;
 }
 
 // list_node_alloc
 // file list.c line 743
 static struct listNode * list_node_alloc(void)
 {
-  void *return_value_list_alloc_aux$1;
-  return_value_list_alloc_aux$1=list_alloc_aux((signed int)sizeof(struct listNode) /*16ul*/ , (void *)&list_free_nodes);
-  return (struct listNode *)return_value_list_alloc_aux$1;
+  void *return_value_list_alloc_aux_1;
+  return_value_list_alloc_aux_1=list_alloc_aux((signed int)sizeof(struct listNode) /*16ul*/ , (void *)&list_free_nodes);
+  return (struct listNode *)return_value_list_alloc_aux_1;
 }
 
 // list_node_create
@@ -15534,31 +15534,31 @@ void * list_peek(struct list *l)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 481, "list mutex lock");
       abort();
     }
 
   }
   while((_Bool)0);
-  void *tmp_if_expr$2;
+  void *tmp_if_expr_2;
   if(!(l->head == ((struct listNode *)NULL)))
-    tmp_if_expr$2 = l->head->data;
+    tmp_if_expr_2 = l->head->data;
 
   else
-    tmp_if_expr$2 = (void *)0;
-  v = tmp_if_expr$2;
+    tmp_if_expr_2 = (void *)0;
+  v = tmp_if_expr_2;
   do
   {
-    signed int list_peek$$1$$2$$e;
-    list_peek$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_peek$$1$$2$$e == 0))
+    signed int list_peek__1__2__e;
+    list_peek__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_peek__1__2__e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = list_peek$$1$$2$$e;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = list_peek__1__2__e;
       lsd_fatal_error("list.c", 484, "list mutex unlock");
       abort();
     }
@@ -15579,9 +15579,9 @@ void * list_pop(struct list *l)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 467, "list mutex lock");
       abort();
     }
@@ -15591,13 +15591,13 @@ void * list_pop(struct list *l)
   v=list_node_destroy(l, &l->head);
   do
   {
-    signed int list_pop$$1$$2$$e;
-    list_pop$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_pop$$1$$2$$e == 0))
+    signed int list_pop__1__2__e;
+    list_pop__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_pop__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_pop$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_pop__1__2__e;
       lsd_fatal_error("list.c", 470, "list mutex unlock");
       abort();
     }
@@ -15618,9 +15618,9 @@ void * list_prepend(struct list *l, void *x)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 319, "list mutex lock");
       abort();
     }
@@ -15630,13 +15630,13 @@ void * list_prepend(struct list *l, void *x)
   v=list_node_create(l, &l->head, x);
   do
   {
-    signed int list_prepend$$1$$2$$e;
-    list_prepend$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_prepend$$1$$2$$e == 0))
+    signed int list_prepend__1__2__e;
+    list_prepend__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_prepend__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_prepend$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_prepend__1__2__e;
       lsd_fatal_error("list.c", 322, "list mutex unlock");
       abort();
     }
@@ -15657,9 +15657,9 @@ void * list_push(struct list *l, void *x)
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 453, "list mutex lock");
       abort();
     }
@@ -15669,13 +15669,13 @@ void * list_push(struct list *l, void *x)
   v=list_node_create(l, &l->head, x);
   do
   {
-    signed int list_push$$1$$2$$e;
-    list_push$$1$$2$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_push$$1$$2$$e == 0))
+    signed int list_push__1__2__e;
+    list_push__1__2__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_push__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_push$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_push__1__2__e;
       lsd_fatal_error("list.c", 456, "list mutex unlock");
       abort();
     }
@@ -15691,14 +15691,14 @@ static void list_push_hostlist(struct list *l, struct hostlist *hl)
 {
   unsigned long int n = (unsigned long int)4096;
   char *s;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(n);
-  s = (char *)return_value_Malloc$1;
-  signed long int return_value_hostlist_ranged_string$2;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(n);
+  s = (char *)return_value_Malloc_1;
+  signed long int return_value_hostlist_ranged_string_2;
   do
   {
-    return_value_hostlist_ranged_string$2=hostlist_ranged_string(hl, n - (unsigned long int)1, s);
-    if(return_value_hostlist_ranged_string$2 >= 0l)
+    return_value_hostlist_ranged_string_2=hostlist_ranged_string(hl, n - (unsigned long int)1, s);
+    if(return_value_hostlist_ranged_string_2 >= 0l)
       break;
 
     n = n * (unsigned long int)(2 < 0x7fffff);
@@ -15722,9 +15722,9 @@ void * list_remove(struct listIterator *i)
     e=pthread_mutex_lock(&i->list->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 631, "list mutex lock");
       abort();
     }
@@ -15736,13 +15736,13 @@ void * list_remove(struct listIterator *i)
 
   do
   {
-    signed int list_remove$$1$$2$$e;
-    list_remove$$1$$2$$e=pthread_mutex_unlock(&i->list->mutex);
-    if(!(list_remove$$1$$2$$e == 0))
+    signed int list_remove__1__2__e;
+    list_remove__1__2__e=pthread_mutex_unlock(&i->list->mutex);
+    if(!(list_remove__1__2__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_remove$$1$$2$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_remove__1__2__e;
       lsd_fatal_error("list.c", 635, "list mutex unlock");
       abort();
     }
@@ -15767,9 +15767,9 @@ void list_sort(struct list *l, signed int (*f)(void *, void *))
     e=pthread_mutex_lock(&l->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = e;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = e;
       lsd_fatal_error("list.c", 411, "list mutex lock");
       abort();
     }
@@ -15819,13 +15819,13 @@ void list_sort(struct list *l, signed int (*f)(void *, void *))
 
   do
   {
-    signed int list_sort$$1$$3$$e;
-    list_sort$$1$$3$$e=pthread_mutex_unlock(&l->mutex);
-    if(!(list_sort$$1$$3$$e == 0))
+    signed int list_sort__1__3__e;
+    list_sort__1__3__e=pthread_mutex_unlock(&l->mutex);
+    if(!(list_sort__1__3__e == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = list_sort$$1$$3$$e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = list_sort__1__3__e;
       lsd_fatal_error("list.c", 441, "list mutex unlock");
       abort();
     }
@@ -15843,24 +15843,24 @@ __CPROVER_DUMP_L13:
 struct list * list_split(char *sep, char *str)
 {
   struct list *new;
-  new=list_create((void (*)(void *))free_f$link2);
+  new=list_create((void (*)(void *))free_f_link2);
   char *tok;
   if(sep == ((char *)NULL))
     sep = " \t";
 
-  char *return_value_Strdup$1;
+  char *return_value_Strdup_1;
   do
   {
-    tok=_next_tok$link1(sep, &str);
+    tok=_next_tok_link1(sep, &str);
     if(tok == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tok);
-    if(return_value_strlen$2 >= 1ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tok);
+    if(return_value_strlen_2 >= 1ul)
     {
-      return_value_Strdup$1=Strdup(tok);
-      list_append(new, (void *)return_value_Strdup$1);
+      return_value_Strdup_1=Strdup(tok);
+      list_append(new, (void *)return_value_Strdup_1);
     }
 
   }
@@ -15873,12 +15873,12 @@ struct list * list_split(char *sep, char *str)
 struct list * list_split_append(struct list *l, char *sep, char *str)
 {
   char *tok;
-  struct list *return_value_list_split$1;
-  char *return_value_Strdup$2;
+  struct list *return_value_list_split_1;
+  char *return_value_Strdup_2;
   if(l == ((struct list *)NULL))
   {
-    return_value_list_split$1=list_split(sep, str);
-    return return_value_list_split$1;
+    return_value_list_split_1=list_split(sep, str);
+    return return_value_list_split_1;
   }
 
   else
@@ -15888,16 +15888,16 @@ struct list * list_split_append(struct list *l, char *sep, char *str)
 
     do
     {
-      tok=_next_tok$link1(sep, &str);
+      tok=_next_tok_link1(sep, &str);
       if(tok == ((char *)NULL))
         break;
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(tok);
-      if(return_value_strlen$3 >= 1ul)
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(tok);
+      if(return_value_strlen_3 >= 1ul)
       {
-        return_value_Strdup$2=Strdup(tok);
-        list_append(l, (void *)return_value_Strdup$2);
+        return_value_Strdup_2=Strdup(tok);
+        list_append(l, (void *)return_value_Strdup_2);
       }
 
     }
@@ -15913,12 +15913,12 @@ static signed int login_name_max_len(void)
   static signed int maxnamelen = -1;
   if(!(maxnamelen >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
-    signed long int return_value_sysconf$2;
-    return_value_sysconf$2=sysconf(71);
-    maxnamelen = (signed int)return_value_sysconf$2;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
+    signed long int return_value_sysconf_2;
+    return_value_sysconf_2=sysconf(71);
+    maxnamelen = (signed int)return_value_sysconf_2;
     if(!(maxnamelen >= 1))
     {
       err("%p: sysconf(LOGIN_NAME_MAX): %m\n");
@@ -15948,83 +15948,83 @@ void lsd_nomem_error(char *file, signed int line, char *mesg)
 // file main.c line 67
 signed int main(signed int argc, char **argv)
 {
-  struct anonymous$1 opt;
+  struct anonymous_1 opt;
   signed int retval = 0;
   const char *m;
-  char *return_value_xbasename$1;
-  return_value_xbasename$1=xbasename(argv[(signed long int)0]);
-  err_init(return_value_xbasename$1);
+  char *return_value_xbasename_1;
+  return_value_xbasename_1=xbasename(argv[(signed long int)0]);
+  err_init(return_value_xbasename_1);
   privsep_init();
   opt_default(&opt, argv[(signed long int)0]);
   opt_env(&opt);
   opt_args_early(&opt, argc, argv);
   mod_init();
   m=getenv("PDSH_MODULE_DIR");
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_getuid$2;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_getuid_2;
   if(m == ((const char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_getuid$2=getuid();
-    tmp_if_expr$3 = return_value_getuid$2 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_getuid_2=getuid();
+    tmp_if_expr_3 = return_value_getuid_2 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_getuid$4;
-  unsigned int return_value_geteuid$5;
-  if(tmp_if_expr$3)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_getuid_4;
+  unsigned int return_value_geteuid_5;
+  if(tmp_if_expr_3)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_getuid$4=getuid();
-    return_value_geteuid$5=geteuid();
-    tmp_if_expr$6 = return_value_getuid$4 != return_value_geteuid$5 ? (_Bool)1 : (_Bool)0;
+    return_value_getuid_4=getuid();
+    return_value_geteuid_5=geteuid();
+    tmp_if_expr_6 = return_value_getuid_4 != return_value_geteuid_5 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
     m = pdsh_module_dir;
 
-  signed int return_value_mod_load_modules$7;
-  return_value_mod_load_modules$7=mod_load_modules(m, &opt);
-  if(!(return_value_mod_load_modules$7 >= 0))
+  signed int return_value_mod_load_modules_7;
+  return_value_mod_load_modules_7=mod_load_modules(m, &opt);
+  if(!(return_value_mod_load_modules_7 >= 0))
     errx("%p: Couldn't load any pdsh modules\n");
 
   opt_args(&opt, argc, argv);
-  enum anonymous return_value_opt_verify$13;
-  return_value_opt_verify$13=opt_verify(&opt);
-  enum anonymous$5 return_value_pdsh_personality$12;
-  signed int return_value__pcp_remote_server$8;
-  enum anonymous$5 return_value_pdsh_personality$11;
-  signed int return_value__pcp_remote_client$9;
-  enum anonymous$5 return_value_pdsh_personality$10;
-  if(!(return_value_opt_verify$13 == /*enum*/false))
+  enum anonymous return_value_opt_verify_13;
+  return_value_opt_verify_13=opt_verify(&opt);
+  enum anonymous_5 return_value_pdsh_personality_12;
+  signed int return_value__pcp_remote_server_8;
+  enum anonymous_5 return_value_pdsh_personality_11;
+  signed int return_value__pcp_remote_client_9;
+  enum anonymous_5 return_value_pdsh_personality_10;
+  if(!(return_value_opt_verify_13 == /*enum*/false))
   {
     if(!(opt.info_only == /*enum*/false))
       opt_list(&opt);
 
     else
     {
-      return_value_pdsh_personality$12=pdsh_personality();
-      if((signed int)return_value_pdsh_personality$12 == PCP && !(opt.pcp_server == /*enum*/false))
+      return_value_pdsh_personality_12=pdsh_personality();
+      if((signed int)return_value_pdsh_personality_12 == PCP && !(opt.pcp_server == /*enum*/false))
       {
-        return_value__pcp_remote_server$8=_pcp_remote_server(&opt);
-        retval = (signed int)(return_value__pcp_remote_server$8 < 0);
+        return_value__pcp_remote_server_8=_pcp_remote_server(&opt);
+        retval = (signed int)(return_value__pcp_remote_server_8 < 0);
       }
 
       else
       {
-        return_value_pdsh_personality$11=pdsh_personality();
-        if((signed int)return_value_pdsh_personality$11 == PCP && !(opt.pcp_client == /*enum*/false))
+        return_value_pdsh_personality_11=pdsh_personality();
+        if((signed int)return_value_pdsh_personality_11 == PCP && !(opt.pcp_client == /*enum*/false))
         {
-          return_value__pcp_remote_client$9=_pcp_remote_client(&opt);
-          retval = (signed int)(return_value__pcp_remote_client$9 < 0);
+          return_value__pcp_remote_client_9=_pcp_remote_client(&opt);
+          retval = (signed int)(return_value__pcp_remote_client_9 < 0);
         }
 
         else
         {
-          return_value_pdsh_personality$10=pdsh_personality();
-          if((signed int)return_value_pdsh_personality$10 == PCP || !(opt.cmd == ((char *)NULL)))
+          return_value_pdsh_personality_10=pdsh_personality();
+          if((signed int)return_value_pdsh_personality_10 == PCP || !(opt.cmd == ((char *)NULL)))
             retval=dsh(&opt);
 
           else
@@ -16049,12 +16049,12 @@ signed int mod_count(char *type)
 {
   signed int i = 0;
   struct listIterator *module_itr;
-  signed int return_value_list_count$1;
-  void *return_value_list_find$2;
+  signed int return_value_list_count_1;
+  void *return_value_list_find_2;
   if(type == ((char *)NULL))
   {
-    return_value_list_count$1=list_count(module_list);
-    return return_value_list_count$1;
+    return_value_list_count_1=list_count(module_list);
+    return return_value_list_count_1;
   }
 
   else
@@ -16070,8 +16070,8 @@ signed int mod_count(char *type)
     {
       do
       {
-        return_value_list_find$2=list_find(module_itr, (signed int (*)(void *, void *))_cmp_type, (void *)type);
-        if(return_value_list_find$2 == NULL)
+        return_value_list_find_2=list_find(module_itr, (signed int (*)(void *, void *))_cmp_type, (void *)type);
+        if(return_value_list_find_2 == NULL)
           break;
 
         i = i + 1;
@@ -16088,9 +16088,9 @@ signed int mod_count(char *type)
 struct module_components * mod_create(void)
 {
   struct module_components *mod;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct module_components) /*32ul*/ );
-  mod = (struct module_components *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct module_components) /*32ul*/ );
+  mod = (struct module_components *)return_value_Malloc_1;
   mod->handle = (struct lt_dlhandle_struct *)(void *)0;
   mod->filename = (char *)(void *)0;
   mod->priority = 100;
@@ -16108,9 +16108,9 @@ signed int mod_exit(void)
   else
   {
     list_destroy(module_list);
-    signed int return_value_lt_dlexit$1;
-    return_value_lt_dlexit$1=lt_dlexit();
-    return return_value_lt_dlexit$1;
+    signed int return_value_lt_dlexit_1;
+    return_value_lt_dlexit_1=lt_dlexit();
+    return return_value_lt_dlexit_1;
   }
 }
 
@@ -16121,7 +16121,7 @@ struct module_components * mod_get_module(const char *type, const char *name)
   struct module_components *mod;
   struct listIterator *module_itr;
   module_itr=list_iterator_create(module_list);
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   if(module_itr == ((struct listIterator *)NULL))
   {
     err("Unable to create module list iterator\n");
@@ -16132,14 +16132,14 @@ struct module_components * mod_get_module(const char *type, const char *name)
   {
     do
     {
-      return_value_list_next$1=list_next(module_itr);
-      mod = (struct module_components *)return_value_list_next$1;
+      return_value_list_next_1=list_next(module_itr);
+      mod = (struct module_components *)return_value_list_next_1;
       if(mod == ((struct module_components *)NULL))
         break;
 
-      signed int return_value__mod_description_match$2;
-      return_value__mod_description_match$2=_mod_description_match(mod, type, name);
-      if(!(return_value__mod_description_match$2 == 0))
+      signed int return_value__mod_description_match_2;
+      return_value__mod_description_match_2=_mod_description_match(mod, type, name);
+      if(!(return_value__mod_description_match_2 == 0))
         break;
 
     }
@@ -16153,9 +16153,9 @@ struct module_components * mod_get_module(const char *type, const char *name)
 // file mod.c line 522
 struct list * mod_get_module_names(char *type)
 {
-  struct list *return_value__mod_get_module_names$1;
-  return_value__mod_get_module_names$1=_mod_get_module_names(type, 1);
-  return return_value__mod_get_module_names$1;
+  struct list *return_value__mod_get_module_names_1;
+  return_value__mod_get_module_names_1=_mod_get_module_names(type, 1);
+  return return_value__mod_get_module_names_1;
 }
 
 // mod_get_name
@@ -16169,13 +16169,13 @@ char * mod_get_name(struct module_components *mod)
 // file mod.c line 623
 signed int (*mod_get_rcmd(struct module_components *mod))(char *, char *, char *, char *, char *, signed int, signed int *, void **)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mod->pmod->rcmd_ops == ((struct pdsh_rcmd_operations *)NULL)))
-    tmp_if_expr$1 = mod->pmod->rcmd_ops->rcmd != ((signed int (*)(char *, char *, char *, char *, char *, signed int, signed int *, void **))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = mod->pmod->rcmd_ops->rcmd != ((signed int (*)(char *, char *, char *, char *, char *, signed int, signed int *, void **))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return mod->pmod->rcmd_ops->rcmd;
 
   else
@@ -16186,13 +16186,13 @@ signed int (*mod_get_rcmd(struct module_components *mod))(char *, char *, char *
 // file mod.c line 635
 signed int (*mod_get_rcmd_destroy(struct module_components *mod))(void *)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mod->pmod->rcmd_ops == ((struct pdsh_rcmd_operations *)NULL)))
-    tmp_if_expr$1 = mod->pmod->rcmd_ops->rcmd_destroy != ((signed int (*)(void *))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = mod->pmod->rcmd_ops->rcmd_destroy != ((signed int (*)(void *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return mod->pmod->rcmd_ops->rcmd_destroy;
 
   else
@@ -16201,32 +16201,32 @@ signed int (*mod_get_rcmd_destroy(struct module_components *mod))(void *)
 
 // mod_get_rcmd_init
 // file mod.c line 599
-signed int (*mod_get_rcmd_init(struct module_components *mod))(struct anonymous$1 *)
+signed int (*mod_get_rcmd_init(struct module_components *mod))(struct anonymous_1 *)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mod->pmod->rcmd_ops == ((struct pdsh_rcmd_operations *)NULL)))
-    tmp_if_expr$1 = mod->pmod->rcmd_ops->rcmd_init != ((signed int (*)(struct anonymous$1 *))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = mod->pmod->rcmd_ops->rcmd_init != ((signed int (*)(struct anonymous_1 *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return mod->pmod->rcmd_ops->rcmd_init;
 
   else
-    return (signed int (*)(struct anonymous$1 *))(void *)0;
+    return (signed int (*)(struct anonymous_1 *))(void *)0;
 }
 
 // mod_get_rcmd_signal
 // file mod.c line 611
 signed int (*mod_get_rcmd_signal(struct module_components *mod))(signed int, void *, signed int)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mod->pmod->rcmd_ops == ((struct pdsh_rcmd_operations *)NULL)))
-    tmp_if_expr$1 = mod->pmod->rcmd_ops->rcmd_signal != ((signed int (*)(signed int, void *, signed int))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = mod->pmod->rcmd_ops->rcmd_signal != ((signed int (*)(signed int, void *, signed int))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return mod->pmod->rcmd_ops->rcmd_signal;
 
   else
@@ -16244,9 +16244,9 @@ char * mod_get_type(struct module_components *mod)
 // file mod.c line 527
 struct list * mod_get_uninitialized_module_names(char *type)
 {
-  struct list *return_value__mod_get_module_names$1;
-  return_value__mod_get_module_names$1=_mod_get_module_names(type, 0);
-  return return_value__mod_get_module_names$1;
+  struct list *return_value__mod_get_module_names_1;
+  return_value__mod_get_module_names_1=_mod_get_module_names(type, 0);
+  return return_value__mod_get_module_names_1;
 }
 
 // mod_init
@@ -16263,9 +16263,9 @@ signed int mod_init(void)
     }
 
     initialized = (enum anonymous)true;
-    signed int return_value_lt_dlinit$1;
-    return_value_lt_dlinit$1=lt_dlinit();
-    return return_value_lt_dlinit$1;
+    signed int return_value_lt_dlinit_1;
+    return_value_lt_dlinit_1=lt_dlinit();
+    return return_value_lt_dlinit_1;
   }
 
   else
@@ -16286,7 +16286,7 @@ void mod_list_module_info(void)
 
 // mod_load_modules
 // file mod.h line 68
-signed int mod_load_modules(const char *dir, struct anonymous$1 *opt)
+signed int mod_load_modules(const char *dir, struct anonymous_1 *opt)
 {
   signed int rc = 0;
   rc=_mod_load_dynamic_modules(dir, opt);
@@ -16298,7 +16298,7 @@ signed int mod_load_modules(const char *dir, struct anonymous$1 *opt)
 
 // mod_postop
 // file mod.c line 238
-signed int mod_postop(struct anonymous$1 *pdsh_opts)
+signed int mod_postop(struct anonymous_1 *pdsh_opts)
 {
   struct module_components *mod;
   signed int errors = 0;
@@ -16307,7 +16307,7 @@ signed int mod_postop(struct anonymous$1 *pdsh_opts)
     mod_init();
 
   module_itr=list_iterator_create(module_list);
-  signed int return_value__mod_postop$1;
+  signed int return_value__mod_postop_1;
   if(module_itr == ((struct listIterator *)NULL))
   {
     err("Unable to create module list iterator\n");
@@ -16322,8 +16322,8 @@ signed int mod_postop(struct anonymous$1 *pdsh_opts)
       if(mod == ((struct module_components *)NULL))
         break;
 
-      return_value__mod_postop$1=_mod_postop(mod, pdsh_opts);
-      errors = errors + return_value__mod_postop$1;
+      return_value__mod_postop_1=_mod_postop(mod, pdsh_opts);
+      errors = errors + return_value__mod_postop_1;
     }
     while((_Bool)1);
     list_iterator_destroy(module_itr);
@@ -16343,24 +16343,24 @@ void mod_print_all_options(signed int col)
 void mod_print_options(struct module_components *mod, signed int col)
 {
   struct pdsh_module_option *p = mod->pmod->opt_table;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(p == ((struct pdsh_module_option *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(p->opt != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(p->opt != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     p = mod->pmod->opt_table;
     do
     {
       if(!(p == ((struct pdsh_module_option *)NULL)))
-        tmp_if_expr$2 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       _print_option_help(p, col);
@@ -16373,7 +16373,7 @@ void mod_print_options(struct module_components *mod, signed int col)
 
 // mod_process_opt
 // file mod.c line 648
-signed int mod_process_opt(struct anonymous$1 *opt, signed int c, char *optarg)
+signed int mod_process_opt(struct anonymous_1 *opt, signed int c, char *optarg)
 {
   struct module_components *mod;
   struct pdsh_module_option *p = (struct pdsh_module_option *)(void *)0;
@@ -16411,7 +16411,7 @@ signed int mod_process_opt(struct anonymous$1 *opt, signed int c, char *optarg)
 
 // mod_read_wcoll
 // file mod.c line 206
-signed int mod_read_wcoll(struct anonymous$1 *opt)
+signed int mod_read_wcoll(struct anonymous_1 *opt)
 {
   struct module_components *mod;
   struct listIterator *module_itr;
@@ -16459,9 +16459,9 @@ signed int mod_read_wcoll(struct anonymous$1 *opt)
 static struct node_rcmd_info * node_rcmd_info_create(char *hostname, char *user, struct rcmd_module *module)
 {
   struct node_rcmd_info *n;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct node_rcmd_info) /*24ul*/ );
-  n = (struct node_rcmd_info *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct node_rcmd_info) /*24ul*/ );
+  n = (struct node_rcmd_info *)return_value_Malloc_1;
   if(n == ((struct node_rcmd_info *)NULL))
     return (struct node_rcmd_info *)(void *)0;
 
@@ -16491,20 +16491,20 @@ static void node_rcmd_info_destroy(struct node_rcmd_info *n)
 
 // opt_args
 // file ../../src/pdsh/opt.h line 101
-void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
+void opt_args(struct anonymous_1 *opt, signed int argc, char **argv)
 {
   signed int c;
   optind = 1;
   opterr = 1;
-  signed int return_value_string_to_int$1;
-  signed int return_value_strcmp$2;
-  enum anonymous$5 return_value_pdsh_personality$3;
-  enum anonymous$5 return_value_pdsh_personality$4;
-  enum anonymous$5 return_value_pdsh_personality$5;
-  signed int return_value_atoi$6;
-  enum anonymous$5 return_value_pdsh_personality$7;
-  enum anonymous$5 return_value_pdsh_personality$8;
-  enum anonymous$5 return_value_pdsh_personality$9;
+  signed int return_value_string_to_int_1;
+  signed int return_value_strcmp_2;
+  enum anonymous_5 return_value_pdsh_personality_3;
+  enum anonymous_5 return_value_pdsh_personality_4;
+  enum anonymous_5 return_value_pdsh_personality_5;
+  signed int return_value_atoi_6;
+  enum anonymous_5 return_value_pdsh_personality_7;
+  enum anonymous_5 return_value_pdsh_personality_8;
+  enum anonymous_5 return_value_pdsh_personality_9;
   do
   {
     c=getopt(argc, argv, pdsh_options);
@@ -16543,16 +16543,16 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 102:
       {
-        return_value_string_to_int$1=string_to_int(optarg, &opt->fanout);
-        if(!(return_value_string_to_int$1 >= 0))
+        return_value_string_to_int_1=string_to_int(optarg, &opt->fanout);
+        if(!(return_value_string_to_int_1 >= 0))
           errx("%p: Invalid fanout `%s' passed to -f.\n", optarg);
 
         break;
       }
       case 119:
       {
-        return_value_strcmp$2=strcmp(optarg, "-");
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(optarg, "-");
+        if(return_value_strcmp_2 == 0)
           wcoll_args_process(opt, "^-");
 
         else
@@ -16591,8 +16591,8 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 114:
       {
-        return_value_pdsh_personality$3=pdsh_personality();
-        if((signed int)return_value_pdsh_personality$3 == PCP)
+        return_value_pdsh_personality_3=pdsh_personality();
+        if((signed int)return_value_pdsh_personality_3 == PCP)
           opt->recursive = (enum anonymous)true;
 
         else
@@ -16601,8 +16601,8 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_pdsh_personality$4=pdsh_personality();
-        if((signed int)return_value_pdsh_personality$4 == PCP)
+        return_value_pdsh_personality_4=pdsh_personality();
+        if((signed int)return_value_pdsh_personality_4 == PCP)
           opt->preserve = (enum anonymous)true;
 
         else
@@ -16611,8 +16611,8 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 101:
       {
-        return_value_pdsh_personality$5=pdsh_personality();
-        if((signed int)return_value_pdsh_personality$5 == PCP)
+        return_value_pdsh_personality_5=pdsh_personality();
+        if((signed int)return_value_pdsh_personality_5 == PCP)
         {
           Free((void **)&opt->remote_program_path);
           opt->remote_program_path=Strdup(optarg);
@@ -16629,8 +16629,8 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 84:
       {
-        return_value_atoi$6=atoi(optarg);
-        testcase(return_value_atoi$6);
+        return_value_atoi_6=atoi(optarg);
+        testcase(return_value_atoi_6);
         break;
       }
       case 81:
@@ -16651,8 +16651,8 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 121:
       {
-        return_value_pdsh_personality$7=pdsh_personality();
-        if((signed int)return_value_pdsh_personality$7 == PCP)
+        return_value_pdsh_personality_7=pdsh_personality();
+        if((signed int)return_value_pdsh_personality_7 == PCP)
           opt->target_is_directory = (enum anonymous)true;
 
         else
@@ -16661,8 +16661,8 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 122:
       {
-        return_value_pdsh_personality$8=pdsh_personality();
-        if((signed int)return_value_pdsh_personality$8 == PCP)
+        return_value_pdsh_personality_8=pdsh_personality();
+        if((signed int)return_value_pdsh_personality_8 == PCP)
           opt->pcp_server = (enum anonymous)true;
 
         else
@@ -16671,8 +16671,8 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
       }
       case 90:
       {
-        return_value_pdsh_personality$9=pdsh_personality();
-        if((signed int)return_value_pdsh_personality$9 == PCP)
+        return_value_pdsh_personality_9=pdsh_personality();
+        if((signed int)return_value_pdsh_personality_9 == PCP)
           opt->pcp_client = (enum anonymous)true;
 
         else
@@ -16684,27 +16684,27 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
 
       test_module_option:
         ;
-        signed int return_value_mod_process_opt$10;
-        return_value_mod_process_opt$10=mod_process_opt(opt, c, optarg);
-        if(!(return_value_mod_process_opt$10 >= 0))
+        signed int return_value_mod_process_opt_10;
+        return_value_mod_process_opt_10=mod_process_opt(opt, c, optarg);
+        if(!(return_value_mod_process_opt_10 >= 0))
           _usage(opt);
 
       }
     }
   }
   while((_Bool)1);
-  char *return_value_rcmd_get_default_module$11;
+  char *return_value_rcmd_get_default_module_11;
   if(opt->rcmd_name == ((char *)NULL))
   {
-    return_value_rcmd_get_default_module$11=rcmd_get_default_module();
-    opt->rcmd_name=Strdup(return_value_rcmd_get_default_module$11);
+    return_value_rcmd_get_default_module_11=rcmd_get_default_module();
+    opt->rcmd_name=Strdup(return_value_rcmd_get_default_module_11);
   }
 
-  signed int return_value_rcmd_register_default_rcmd$12;
+  signed int return_value_rcmd_register_default_rcmd_12;
   if(!(opt->rcmd_name == ((char *)NULL)))
   {
-    return_value_rcmd_register_default_rcmd$12=rcmd_register_default_rcmd(opt->rcmd_name);
-    if(!(return_value_rcmd_register_default_rcmd$12 >= 0))
+    return_value_rcmd_register_default_rcmd_12=rcmd_register_default_rcmd(opt->rcmd_name);
+    if(!(return_value_rcmd_register_default_rcmd_12 >= 0))
       exit(1);
 
   }
@@ -16739,9 +16739,9 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
   }
   if(opt->pcp_server == /*enum*/false)
   {
-    signed int return_value_mod_read_wcoll$13;
-    return_value_mod_read_wcoll$13=mod_read_wcoll(opt);
-    if(!(return_value_mod_read_wcoll$13 >= 0))
+    signed int return_value_mod_read_wcoll_13;
+    return_value_mod_read_wcoll_13=mod_read_wcoll(opt);
+    if(!(return_value_mod_read_wcoll_13 >= 0))
       exit(1);
 
     if(opt->wcoll == ((struct hostlist *)NULL))
@@ -16776,7 +16776,7 @@ void opt_args(struct anonymous$1 *opt, signed int argc, char **argv)
 
 // opt_args_early
 // file ../../src/pdsh/opt.h line 100
-void opt_args_early(struct anonymous$1 *opt, signed int argc, char **argv)
+void opt_args_early(struct anonymous_1 *opt, signed int argc, char **argv)
 {
   signed int c;
   opterr = 0;
@@ -16801,70 +16801,70 @@ void opt_args_early(struct anonymous$1 *opt, signed int argc, char **argv)
 
 // opt_default
 // file ../../src/pdsh/opt.h line 98
-void opt_default(struct anonymous$1 *opt, char *argv0)
+void opt_default(struct anonymous_1 *opt, char *argv0)
 {
   struct passwd *pw;
   opt->progname=xbasename(argv0);
-  signed int return_value_login_name_max_len$1;
-  return_value_login_name_max_len$1=login_name_max_len();
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc((unsigned long int)(return_value_login_name_max_len$1 + 1));
-  opt->luser = (char *)return_value_Malloc$2;
-  signed int return_value_login_name_max_len$3;
-  return_value_login_name_max_len$3=login_name_max_len();
-  void *return_value_Malloc$4;
-  return_value_Malloc$4=Malloc((unsigned long int)(return_value_login_name_max_len$3 + 1));
-  opt->ruser = (char *)return_value_Malloc$4;
+  signed int return_value_login_name_max_len_1;
+  return_value_login_name_max_len_1=login_name_max_len();
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc((unsigned long int)(return_value_login_name_max_len_1 + 1));
+  opt->luser = (char *)return_value_Malloc_2;
+  signed int return_value_login_name_max_len_3;
+  return_value_login_name_max_len_3=login_name_max_len();
+  void *return_value_Malloc_4;
+  return_value_Malloc_4=Malloc((unsigned long int)(return_value_login_name_max_len_3 + 1));
+  opt->ruser = (char *)return_value_Malloc_4;
   opt->reverse_copy = (enum anonymous)false;
-  signed int return_value_strcmp$11;
-  return_value_strcmp$11=strcmp(opt->progname, "pdsh");
-  _Bool tmp_if_expr$13;
-  signed int return_value_strcmp$12;
-  if(return_value_strcmp$11 == 0)
-    tmp_if_expr$13 = (_Bool)1;
+  signed int return_value_strcmp_11;
+  return_value_strcmp_11=strcmp(opt->progname, "pdsh");
+  _Bool tmp_if_expr_13;
+  signed int return_value_strcmp_12;
+  if(return_value_strcmp_11 == 0)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$12=strcmp(opt->progname, "dsh");
-    tmp_if_expr$13 = !(return_value_strcmp$12 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_12=strcmp(opt->progname, "dsh");
+    tmp_if_expr_13 = !(return_value_strcmp_12 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcmp$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$5;
-  if(tmp_if_expr$13)
-    personality = (enum anonymous$5)DSH;
+  signed int return_value_strcmp_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_5;
+  if(tmp_if_expr_13)
+    personality = (enum anonymous_5)DSH;
 
   else
   {
-    return_value_strcmp$6=strcmp(opt->progname, "pdcp");
-    if(return_value_strcmp$6 == 0)
-      tmp_if_expr$8 = (_Bool)1;
+    return_value_strcmp_6=strcmp(opt->progname, "pdcp");
+    if(return_value_strcmp_6 == 0)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$7=strcmp(opt->progname, "dcp");
-      tmp_if_expr$8 = !(return_value_strcmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_7=strcmp(opt->progname, "dcp");
+      tmp_if_expr_8 = !(return_value_strcmp_7 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$9=strcmp(opt->progname, "pcp");
-      tmp_if_expr$10 = !(return_value_strcmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_9=strcmp(opt->progname, "pcp");
+      tmp_if_expr_10 = !(return_value_strcmp_9 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
-      personality = (enum anonymous$5)PCP;
+    if(tmp_if_expr_10)
+      personality = (enum anonymous_5)PCP;
 
     else
     {
-      return_value_strcmp$5=strcmp(opt->progname, "rpdcp");
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(opt->progname, "rpdcp");
+      if(return_value_strcmp_5 == 0)
       {
-        personality = (enum anonymous$5)PCP;
+        personality = (enum anonymous_5)PCP;
         opt->reverse_copy = (enum anonymous)true;
       }
 
@@ -16875,9 +16875,9 @@ void opt_default(struct anonymous$1 *opt, char *argv0)
   if(pdsh_options == ((char *)NULL))
     _init_pdsh_options();
 
-  unsigned int return_value_getuid$14;
-  return_value_getuid$14=getuid();
-  pw=getpwuid(return_value_getuid$14);
+  unsigned int return_value_getuid_14;
+  return_value_getuid_14=getuid();
+  pw=getpwuid(return_value_getuid_14);
   if(!(pw == ((struct passwd *)NULL)))
   {
     copy_username(opt->luser, pw->pw_name);
@@ -16925,15 +16925,15 @@ __CPROVER_DUMP_L14:
 
 // opt_env
 // file ../../src/pdsh/opt.h line 99
-void opt_env(struct anonymous$1 *opt)
+void opt_env(struct anonymous_1 *opt)
 {
   char *rhs;
   rhs=getenv("FANOUT");
-  signed int return_value_string_to_int$1;
+  signed int return_value_string_to_int_1;
   if(!(rhs == ((char *)NULL)))
   {
-    return_value_string_to_int$1=string_to_int(rhs, &opt->fanout);
-    if(!(return_value_string_to_int$1 >= 0))
+    return_value_string_to_int_1=string_to_int(rhs, &opt->fanout);
+    if(!(return_value_string_to_int_1 >= 0))
       errx("%p: Invalid environment variable FANOUT=%s\n", rhs);
 
   }
@@ -16947,8 +16947,8 @@ void opt_env(struct anonymous$1 *opt)
     opt->misc_modules=Strdup(rhs);
 
   rhs=getenv("DSHPATH");
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   if(!(rhs == ((char *)NULL)))
   {
     struct passwd *pw;
@@ -16961,17 +16961,17 @@ void opt_env(struct anonymous$1 *opt)
 
     }
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(shell, "csh");
-    if(return_value_strcmp$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(shell, "csh");
+    if(return_value_strcmp_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$3=strcmp(shell, "tcsh");
-      tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_3=strcmp(shell, "tcsh");
+      tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       opt->dshpath=Strdup("setenv PATH ");
       xstrcat(&opt->dshpath, rhs);
@@ -16986,9 +16986,9 @@ void opt_env(struct anonymous$1 *opt)
     }
   }
 
-  enum anonymous$5 return_value_pdsh_personality$5;
-  return_value_pdsh_personality$5=pdsh_personality();
-  if((signed int)return_value_pdsh_personality$5 == PCP)
+  enum anonymous_5 return_value_pdsh_personality_5;
+  return_value_pdsh_personality_5=pdsh_personality();
+  if((signed int)return_value_pdsh_personality_5 == PCP)
   {
     rhs=getenv("PDSH_REMOTE_PDCP_PATH");
     if(!(rhs == ((char *)NULL)))
@@ -17003,7 +17003,7 @@ void opt_env(struct anonymous$1 *opt)
 
 // opt_free
 // file ../../src/pdsh/opt.h line 104
-void opt_free(struct anonymous$1 *opt)
+void opt_free(struct anonymous_1 *opt)
 {
   if(!(opt->wcoll == ((struct hostlist *)NULL)))
     hostlist_destroy(opt->wcoll);
@@ -17043,53 +17043,53 @@ void opt_free(struct anonymous$1 *opt)
 
 // opt_list
 // file ../../src/pdsh/opt.h line 103
-void opt_list(struct anonymous$1 *opt)
+void opt_list(struct anonymous_1 *opt)
 {
   char wcoll_str[1024l];
   signed int n;
-  char *tmp_if_expr$1;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$3;
-  char *tmp_if_expr$5;
+  char *tmp_if_expr_1;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_3;
+  char *tmp_if_expr_5;
   if((signed int)personality == DSH)
   {
     out("-- DSH-specific options --\n");
     out("Separate stderr/stdout\t%s\n", opt->separate_stderr != (enum anonymous)0 ? "Yes" : "No");
     if(!(opt->dshpath == ((char *)NULL)))
-      tmp_if_expr$1 = opt->dshpath;
+      tmp_if_expr_1 = opt->dshpath;
 
     else
-      tmp_if_expr$1 = "none";
-    out("Path prepended to cmd\t%s\n", tmp_if_expr$1);
+      tmp_if_expr_1 = "none";
+    out("Path prepended to cmd\t%s\n", tmp_if_expr_1);
     if(!(opt->getstat == ((char *)NULL)))
-      tmp_if_expr$2 = opt->getstat;
+      tmp_if_expr_2 = opt->getstat;
 
     else
-      tmp_if_expr$2 = "none";
-    out("Appended to cmd         %s\n", tmp_if_expr$2);
+      tmp_if_expr_2 = "none";
+    out("Appended to cmd         %s\n", tmp_if_expr_2);
     if(!(opt->cmd == ((char *)NULL)))
-      tmp_if_expr$3 = opt->cmd;
+      tmp_if_expr_3 = opt->cmd;
 
     else
-      tmp_if_expr$3 = "none";
-    out("Command:\t\t%s\n", tmp_if_expr$3);
+      tmp_if_expr_3 = "none";
+    out("Command:\t\t%s\n", tmp_if_expr_3);
   }
 
   else
   {
     char infiles[4096l];
     out("-- PCP-specific options --\n");
-    signed int return_value_list_join$4;
-    return_value_list_join$4=list_join(infiles, sizeof(char [4096l]) /*4096ul*/ , ", ", opt->infile_names);
-    if(!(return_value_list_join$4 == 0))
+    signed int return_value_list_join_4;
+    return_value_list_join_4=list_join(infiles, sizeof(char [4096l]) /*4096ul*/ , ", ", opt->infile_names);
+    if(!(return_value_list_join_4 == 0))
       out("Infile(s)\t\t%s\n", (const void *)infiles);
 
     if(!(opt->outfile_name == ((char *)NULL)))
-      tmp_if_expr$5 = opt->outfile_name;
+      tmp_if_expr_5 = opt->outfile_name;
 
     else
-      tmp_if_expr$5 = "none";
-    out("Outfile\t\t\t%s\n", tmp_if_expr$5);
+      tmp_if_expr_5 = "none";
+    out("Outfile\t\t\t%s\n", tmp_if_expr_5);
     out("Recursive\t\t%s\n", opt->recursive != (enum anonymous)0 ? "Yes" : "No");
     out("Preserve mod time/mode\t%s\n", opt->preserve != (enum anonymous)0 ? "Yes" : "No");
     if(!(opt->pcp_server == /*enum*/false))
@@ -17099,33 +17099,33 @@ void opt_list(struct anonymous$1 *opt)
     }
 
   }
-  char *tmp_if_expr$6;
-  char *tmp_if_expr$7;
-  char *tmp_if_expr$8;
+  char *tmp_if_expr_6;
+  char *tmp_if_expr_7;
+  char *tmp_if_expr_8;
   if(opt->pcp_server == /*enum*/false)
   {
     if(!(opt->local_program_path == ((char *)NULL)))
-      tmp_if_expr$6 = opt->local_program_path;
+      tmp_if_expr_6 = opt->local_program_path;
 
     else
-      tmp_if_expr$6 = "none";
-    out("Full program pathname\t%s\n", tmp_if_expr$6);
+      tmp_if_expr_6 = "none";
+    out("Full program pathname\t%s\n", tmp_if_expr_6);
     if(!(opt->remote_program_path == ((char *)NULL)))
-      tmp_if_expr$7 = opt->remote_program_path;
+      tmp_if_expr_7 = opt->remote_program_path;
 
     else
-      tmp_if_expr$7 = "none";
-    out("Remote program path\t%s\n", tmp_if_expr$7);
+      tmp_if_expr_7 = "none";
+    out("Remote program path\t%s\n", tmp_if_expr_7);
     out("\n-- Generic options --\n");
     out("Local username\t\t%s\n", opt->luser);
     out("Local uid     \t\t%d\n", opt->luid);
     out("Remote username\t\t%s\n", opt->ruser);
     if(!(opt->rcmd_name == ((char *)NULL)))
-      tmp_if_expr$8 = opt->rcmd_name;
+      tmp_if_expr_8 = opt->rcmd_name;
 
     else
-      tmp_if_expr$8 = "none";
-    out("Rcmd type\t\t%s\n", tmp_if_expr$8);
+      tmp_if_expr_8 = "none";
+    out("Rcmd type\t\t%s\n", tmp_if_expr_8);
     out("one ^C will kill pdsh   %s\n", opt->sigint_terminates != (enum anonymous)0 ? "Yes" : "No");
     out("Connect timeout (secs)\t%d\n", opt->connect_timeout);
     out("Command timeout (secs)\t%d\n", opt->command_timeout);
@@ -17135,16 +17135,16 @@ void opt_list(struct anonymous$1 *opt)
     out("\n-- Target nodes --\n");
     if(!(opt->test_range_expansion == /*enum*/false))
     {
-      signed long int return_value_hostlist_deranged_string$9;
-      return_value_hostlist_deranged_string$9=hostlist_deranged_string(opt->wcoll, sizeof(char [1024l]) /*1024ul*/ , wcoll_str);
-      n = (signed int)return_value_hostlist_deranged_string$9;
+      signed long int return_value_hostlist_deranged_string_9;
+      return_value_hostlist_deranged_string_9=hostlist_deranged_string(opt->wcoll, sizeof(char [1024l]) /*1024ul*/ , wcoll_str);
+      n = (signed int)return_value_hostlist_deranged_string_9;
     }
 
     else
     {
-      signed long int return_value_hostlist_ranged_string$10;
-      return_value_hostlist_ranged_string$10=hostlist_ranged_string(opt->wcoll, sizeof(char [1024l]) /*1024ul*/ , wcoll_str);
-      n = (signed int)return_value_hostlist_ranged_string$10;
+      signed long int return_value_hostlist_ranged_string_10;
+      return_value_hostlist_ranged_string_10=hostlist_ranged_string(opt->wcoll, sizeof(char [1024l]) /*1024ul*/ , wcoll_str);
+      n = (signed int)return_value_hostlist_ranged_string_10;
     }
     if(!(n >= 0))
       out("%s[truncated]\n", (const void *)wcoll_str);
@@ -17160,9 +17160,9 @@ void opt_list(struct anonymous$1 *opt)
 enum anonymous opt_register(struct pdsh_module_option *opt_table)
 {
   struct pdsh_module_option *p;
-  _Bool tmp_if_expr$1;
-  char *return_value_strchr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  char *return_value_strchr_2;
+  _Bool tmp_if_expr_3;
   if(opt_table == ((struct pdsh_module_option *)NULL))
     return (enum anonymous)true;
 
@@ -17175,17 +17175,17 @@ enum anonymous opt_register(struct pdsh_module_option *opt_table)
     do
     {
       if(!(p == ((struct pdsh_module_option *)NULL)))
-        tmp_if_expr$1 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       if(!((p->personality & (signed int)personality) == 0))
       {
-        return_value_strchr$2=strchr(pdsh_options, (signed int)p->opt);
-        if(!(return_value_strchr$2 == ((char *)NULL)))
+        return_value_strchr_2=strchr(pdsh_options, (signed int)p->opt);
+        if(!(return_value_strchr_2 == ((char *)NULL)))
           return (enum anonymous)false;
 
       }
@@ -17197,11 +17197,11 @@ enum anonymous opt_register(struct pdsh_module_option *opt_table)
     do
     {
       if(!(p == ((struct pdsh_module_option *)NULL)))
-        tmp_if_expr$3 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)p->opt != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
       if(!((p->personality & (signed int)personality) == 0))
@@ -17221,12 +17221,12 @@ enum anonymous opt_register(struct pdsh_module_option *opt_table)
 
 // opt_verify
 // file ../../src/pdsh/opt.h line 102
-enum anonymous opt_verify(struct anonymous$1 *opt)
+enum anonymous opt_verify(struct anonymous_1 *opt)
 {
   enum anonymous verified = (enum anonymous)true;
-  signed int return_value_mod_postop$1;
-  return_value_mod_postop$1=mod_postop(opt);
-  if(return_value_mod_postop$1 >= 1)
+  signed int return_value_mod_postop_1;
+  return_value_mod_postop_1=mod_postop(opt);
+  if(return_value_mod_postop_1 >= 1)
     verified = (enum anonymous)false;
 
   if((signed int)personality == DSH)
@@ -17243,21 +17243,21 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
 
   }
 
-  _Bool tmp_if_expr$3;
-  signed int return_value_hostlist_count$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_hostlist_count_2;
   if(opt->pcp_server == /*enum*/false)
   {
     if(opt->pcp_client == /*enum*/false)
     {
       if(opt->wcoll == ((struct hostlist *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_hostlist_count$2=hostlist_count(opt->wcoll);
-        tmp_if_expr$3 = return_value_hostlist_count$2 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_hostlist_count_2=hostlist_count(opt->wcoll);
+        tmp_if_expr_3 = return_value_hostlist_count_2 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         err("%p: no remote hosts specified\n");
         verified = (enum anonymous)false;
@@ -17279,8 +17279,8 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
 
   }
 
-  _Bool tmp_if_expr$5;
-  signed int return_value_list_is_empty$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_list_is_empty_4;
   if((signed int)personality == PCP)
   {
     if(opt->pcp_server == /*enum*/false)
@@ -17288,14 +17288,14 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
       if(opt->pcp_client == /*enum*/false)
       {
         if(opt->outfile_name == ((char *)NULL))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_list_is_empty$4=list_is_empty(opt->infile_names);
-          tmp_if_expr$5 = return_value_list_is_empty$4 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_list_is_empty_4=list_is_empty(opt->infile_names);
+          tmp_if_expr_5 = return_value_list_is_empty_4 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
         {
           err("%p: pcp requires source and dest filenames\n");
           verified = (enum anonymous)false;
@@ -17309,9 +17309,9 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
 
         if(opt->reverse_copy == /*enum*/false)
         {
-          signed int return_value__infile_names_check$6;
-          return_value__infile_names_check$6=_infile_names_check(opt);
-          if(return_value__infile_names_check$6 == 0)
+          signed int return_value__infile_names_check_6;
+          return_value__infile_names_check_6=_infile_names_check(opt);
+          if(return_value__infile_names_check_6 == 0)
             verified = (enum anonymous)false;
 
         }
@@ -17321,9 +17321,9 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
           if(!(opt->outfile_name == ((char *)NULL)))
           {
             struct stat statbuf;
-            signed int return_value_stat$7;
-            return_value_stat$7=stat(opt->outfile_name, &statbuf);
-            if(!(return_value_stat$7 >= 0))
+            signed int return_value_stat_7;
+            return_value_stat_7=stat(opt->outfile_name, &statbuf);
+            if(!(return_value_stat_7 >= 0))
             {
               err("%p: can't stat %s\n", opt->outfile_name);
               verified = (enum anonymous)false;
@@ -17359,15 +17359,15 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
 
   }
 
-  signed int return_value_list_is_empty$8;
+  signed int return_value_list_is_empty_8;
   if((signed int)personality == PCP)
   {
     if(!(opt->pcp_server == /*enum*/false))
     {
       if(!(opt->infile_names == ((struct list *)NULL)))
       {
-        return_value_list_is_empty$8=list_is_empty(opt->infile_names);
-        if(return_value_list_is_empty$8 == 0)
+        return_value_list_is_empty_8=list_is_empty(opt->infile_names);
+        if(return_value_list_is_empty_8 == 0)
         {
           err("%p: do not list source files with pcp server\n");
           verified = (enum anonymous)false;
@@ -17397,23 +17397,23 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
 
   }
 
-  _Bool tmp_if_expr$10;
-  signed int return_value_list_is_empty$9;
-  signed int return_value__infile_names_check$11;
+  _Bool tmp_if_expr_10;
+  signed int return_value_list_is_empty_9;
+  signed int return_value__infile_names_check_11;
   if((signed int)personality == PCP)
   {
     if(!(opt->pcp_client == /*enum*/false))
     {
       opt->reverse_copy = (enum anonymous)false;
       if(opt->infile_names == ((struct list *)NULL))
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value_list_is_empty$9=list_is_empty(opt->infile_names);
-        tmp_if_expr$10 = return_value_list_is_empty$9 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_list_is_empty_9=list_is_empty(opt->infile_names);
+        tmp_if_expr_10 = return_value_list_is_empty_9 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
+      if(tmp_if_expr_10)
       {
         err("%p: list source files required for pcp client\n");
         verified = (enum anonymous)false;
@@ -17433,8 +17433,8 @@ enum anonymous opt_verify(struct anonymous$1 *opt)
 
       if(!(opt->infile_names == ((struct list *)NULL)))
       {
-        return_value__infile_names_check$11=_infile_names_check(opt);
-        if(return_value__infile_names_check$11 == 0)
+        return_value__infile_names_check_11=_infile_names_check(opt);
+        if(return_value__infile_names_check_11 == 0)
           verified = (enum anonymous)false;
 
       }
@@ -17459,27 +17459,27 @@ void out(char *format, ...)
 // file privsep.c line 208
 static signed int p_rresvport_af(signed int *port, signed int family)
 {
-  signed int return_value_rresvport_af$1;
-  return_value_rresvport_af$1=rresvport_af(port, (unsigned short int)family);
-  return return_value_rresvport_af$1;
+  signed int return_value_rresvport_af_1;
+  return_value_rresvport_af_1=rresvport_af(port, (unsigned short int)family);
+  return return_value_rresvport_af_1;
 }
 
 // pcp_client
 // file pcp_client.h line 65
 signed int pcp_client(struct pcp_client *pcp)
 {
-  signed int return_value_pcp_response$2;
-  return_value_pcp_response$2=pcp_response(pcp->infd, pcp->host);
-  void *return_value_list_next$1;
-  if(return_value_pcp_response$2 >= 0)
+  signed int return_value_pcp_response_2;
+  return_value_pcp_response_2=pcp_response(pcp->infd, pcp->host);
+  void *return_value_list_next_1;
+  if(return_value_pcp_response_2 >= 0)
   {
     struct pcp_filename *pf;
     struct listIterator *i;
     i=list_iterator_create(pcp->infiles);
     do
     {
-      return_value_list_next$1=list_next(i);
-      pf = (struct pcp_filename *)return_value_list_next$1;
+      return_value_list_next_1=list_next(i);
+      pf = (struct pcp_filename *)return_value_list_next_1;
       if(pf == ((struct pcp_filename *)NULL))
         break;
 
@@ -17503,28 +17503,28 @@ struct list * pcp_expand_dirs(struct list *infiles)
   char *name;
   struct listIterator *i;
   i=list_iterator_create(infiles);
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    name = (char *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    name = (char *)return_value_list_next_1;
     if(name == ((char *)NULL))
       break;
 
     struct pcp_filename *pf = (struct pcp_filename *)(void *)0;
-    signed int return_value_access$2;
-    return_value_access$2=access(name, 4);
-    if(!(return_value_access$2 >= 0))
+    signed int return_value_access_2;
+    return_value_access_2=access(name, 4);
+    if(!(return_value_access_2 >= 0))
       errx("%p: access: %s: %m\n", name);
 
-    signed int return_value_stat$3;
-    return_value_stat$3=stat(name, &sb);
-    if(!(return_value_stat$3 >= 0))
+    signed int return_value_stat_3;
+    return_value_stat_3=stat(name, &sb);
+    if(!(return_value_stat_3 >= 0))
       errx("%p: stat: %s: %m\n", name);
 
-    void *return_value_Malloc$4;
-    return_value_Malloc$4=Malloc(sizeof(struct pcp_filename) /*16ul*/ );
-    pf = (struct pcp_filename *)return_value_Malloc$4;
+    void *return_value_Malloc_4;
+    return_value_Malloc_4=Malloc(sizeof(struct pcp_filename) /*16ul*/ );
+    pf = (struct pcp_filename *)return_value_Malloc_4;
     pf->filename = name;
     pf->file_specified_by_user = 1;
     list_append(new, (void *)pf);
@@ -17545,10 +17545,10 @@ static signed int pcp_response(signed int infd, char *host)
   signed int result = -1;
   signed int n;
   char errstr[8192l];
-  signed long int return_value_read$1;
-  return_value_read$1=read(infd, (void *)&resp, sizeof(char) /*1ul*/ );
-  n = (signed int)return_value_read$1;
-  signed int tmp_post$2;
+  signed long int return_value_read_1;
+  return_value_read_1=read(infd, (void *)&resp, sizeof(char) /*1ul*/ );
+  n = (signed int)return_value_read_1;
+  signed int tmp_post_2;
   if(!((unsigned long int)n == sizeof(char) /*1ul*/ ))
     return -1;
 
@@ -17566,9 +17566,9 @@ static signed int pcp_response(signed int infd, char *host)
       result = 0;
       goto __CPROVER_DUMP_L5;
     }
-    tmp_post$2 = i;
+    tmp_post_2 = i;
     i = i + 1;
-    errstr[(signed long int)tmp_post$2] = resp;
+    errstr[(signed long int)tmp_post_2] = resp;
     result = 0;
 
   __CPROVER_DUMP_L4:
@@ -17593,10 +17593,10 @@ signed int pcp_sendfile(struct pcp_client *pcp, char *file, char *output_file)
   if(output_file == ((char *)NULL))
     output_file = file;
 
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(file, &sb);
-  signed int return_value_pcp_response$8;
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(file, &sb);
+  signed int return_value_pcp_response_8;
+  if(!(return_value_stat_1 >= 0))
     err("%S: %s: %m\n", pcp->host, file);
 
   else
@@ -17604,26 +17604,26 @@ signed int pcp_sendfile(struct pcp_client *pcp, char *file, char *output_file)
     if(!(pcp->preserve == /*enum*/false))
     {
       snprintf(tmpstr, sizeof(char [8192l]) /*8192ul*/ , "T%ld %ld %ld %ld\n", (signed long int)sb.st_mtim.tv_sec, 0L, sb.st_atim.tv_sec, 0L);
-      signed int return_value_pcp_sendstr$2;
-      return_value_pcp_sendstr$2=pcp_sendstr(pcp->outfd, tmpstr, pcp->host);
-      if(!(return_value_pcp_sendstr$2 >= 0))
+      signed int return_value_pcp_sendstr_2;
+      return_value_pcp_sendstr_2=pcp_sendstr(pcp->outfd, tmpstr, pcp->host);
+      if(!(return_value_pcp_sendstr_2 >= 0))
         goto fail;
 
-      signed int return_value_pcp_response$3;
-      return_value_pcp_response$3=pcp_response(pcp->infd, pcp->host);
-      if(!(return_value_pcp_response$3 >= 0))
+      signed int return_value_pcp_response_3;
+      return_value_pcp_response_3=pcp_response(pcp->infd, pcp->host);
+      if(!(return_value_pcp_response_3 >= 0))
         goto fail;
 
     }
 
     if((61440u & sb.st_mode) == 16384u)
     {
-      char *return_value_xbasename$4;
-      return_value_xbasename$4=xbasename(output_file);
-      snprintf(tmpstr, sizeof(char [8192l]) /*8192ul*/ , "D%04o %d %s\n", sb.st_mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3), 0, return_value_xbasename$4);
-      signed int return_value_pcp_sendstr$5;
-      return_value_pcp_sendstr$5=pcp_sendstr(pcp->outfd, tmpstr, pcp->host);
-      if(!(return_value_pcp_sendstr$5 >= 0))
+      char *return_value_xbasename_4;
+      return_value_xbasename_4=xbasename(output_file);
+      snprintf(tmpstr, sizeof(char [8192l]) /*8192ul*/ , "D%04o %d %s\n", sb.st_mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3), 0, return_value_xbasename_4);
+      signed int return_value_pcp_sendstr_5;
+      return_value_pcp_sendstr_5=pcp_sendstr(pcp->outfd, tmpstr, pcp->host);
+      if(!(return_value_pcp_sendstr_5 >= 0))
         goto fail;
 
     }
@@ -17631,33 +17631,33 @@ signed int pcp_sendfile(struct pcp_client *pcp, char *file, char *output_file)
     else
     {
       template = sizeof(signed long int) /*8ul*/  > sizeof(signed long int) /*8ul*/  ? "C%04o %lld %s\n" : "C%04o %ld %s\n";
-      char *return_value_xbasename$6;
-      return_value_xbasename$6=xbasename(output_file);
-      snprintf(tmpstr, sizeof(char [8192l]) /*8192ul*/ , template, sb.st_mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3), sb.st_size, return_value_xbasename$6);
-      signed int return_value_pcp_sendstr$7;
-      return_value_pcp_sendstr$7=pcp_sendstr(pcp->outfd, tmpstr, pcp->host);
-      if(!(return_value_pcp_sendstr$7 >= 0))
+      char *return_value_xbasename_6;
+      return_value_xbasename_6=xbasename(output_file);
+      snprintf(tmpstr, sizeof(char [8192l]) /*8192ul*/ , template, sb.st_mode & (unsigned int)(04000 | 02000 | 01000 | 0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3), sb.st_size, return_value_xbasename_6);
+      signed int return_value_pcp_sendstr_7;
+      return_value_pcp_sendstr_7=pcp_sendstr(pcp->outfd, tmpstr, pcp->host);
+      if(!(return_value_pcp_sendstr_7 >= 0))
         goto fail;
 
     }
-    return_value_pcp_response$8=pcp_response(pcp->infd, pcp->host);
-    if(return_value_pcp_response$8 >= 0)
+    return_value_pcp_response_8=pcp_response(pcp->infd, pcp->host);
+    if(return_value_pcp_response_8 >= 0)
     {
       if((61440u & sb.st_mode) == 32768u)
       {
-        signed int return_value__pcp_send_file_data$9;
-        return_value__pcp_send_file_data$9=_pcp_send_file_data(pcp->outfd, file, pcp->host);
-        if(!(return_value__pcp_send_file_data$9 >= 0))
+        signed int return_value__pcp_send_file_data_9;
+        return_value__pcp_send_file_data_9=_pcp_send_file_data(pcp->outfd, file, pcp->host);
+        if(!(return_value__pcp_send_file_data_9 >= 0))
           goto fail;
 
-        signed int return_value__pcp_write$10;
-        return_value__pcp_write$10=_pcp_write(pcp->outfd, "", 1);
-        if(!(return_value__pcp_write$10 >= 0))
+        signed int return_value__pcp_write_10;
+        return_value__pcp_write_10=_pcp_write(pcp->outfd, "", 1);
+        if(!(return_value__pcp_write_10 >= 0))
           goto fail;
 
-        signed int return_value_pcp_response$11;
-        return_value_pcp_response$11=pcp_response(pcp->infd, pcp->host);
-        if(!(return_value_pcp_response$11 >= 0))
+        signed int return_value_pcp_response_11;
+        return_value_pcp_response_11=pcp_response(pcp->infd, pcp->host);
+        if(!(return_value_pcp_response_11 >= 0))
           goto fail;
 
       }
@@ -17677,9 +17677,9 @@ fail:
 static signed int pcp_sendstr(signed int outfd, char *str, char *host)
 {
   signed int n;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  n=_pcp_write(outfd, str, (signed int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  n=_pcp_write(outfd, str, (signed int)return_value_strlen_1);
   if(!(n >= 0))
     return -1;
 
@@ -17702,7 +17702,7 @@ signed int pcp_server(struct pcp_server *svr)
 
 // pdsh_personality
 // file ../../src/pdsh/opt.h line 109
-enum anonymous$5 pdsh_personality(void)
+enum anonymous_5 pdsh_personality(void)
 {
   return personality;
 }
@@ -17726,13 +17726,13 @@ const char ** pdsh_remote_argv(void)
 struct pipe_info_struct * pipe_info_create(const char *path, const char *target, const char *user, signed int rank)
 {
   struct pipe_info_struct *e;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct pipe_info_struct) /*64ul*/ );
-  e = (struct pipe_info_struct *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct pipe_info_struct) /*64ul*/ );
+  e = (struct pipe_info_struct *)return_value_Malloc_1;
   e->path=Strdup(path);
-  char *return_value_xbasename$2;
-  return_value_xbasename$2=xbasename(e->path);
-  e->cmd=Strdup(return_value_xbasename$2);
+  char *return_value_xbasename_2;
+  return_value_xbasename_2=xbasename(e->path);
+  e->cmd=Strdup(return_value_xbasename_2);
   e->target=Strdup(target);
   e->username=Strdup(user);
   e->rank = rank;
@@ -17847,9 +17847,9 @@ signed int pipecmd_signal(struct pipe_info_struct *p, signed int signo)
   {
     cmd=xbasename(p->path);
     err("sending signal %d to %s [%s] pid %d\n", signo, p->target, cmd, p->pid);
-    signed int return_value_kill$1;
-    return_value_kill$1=kill(p->pid, signo);
-    return return_value_kill$1;
+    signed int return_value_kill_1;
+    return_value_kill_1=kill(p->pid, signo);
+    return return_value_kill_1;
   }
 }
 
@@ -17887,26 +17887,26 @@ const char * pipecmd_target(struct pipe_info_struct *p)
 signed int pipecmd_wait(struct pipe_info_struct *p, signed int *pstatus)
 {
   signed int status = 0;
-  char *return_value_xbasename$1;
-  char *return_value_xbasename$3;
+  char *return_value_xbasename_1;
+  char *return_value_xbasename_3;
   if(p == ((struct pipe_info_struct *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_waitpid$2;
-    return_value_waitpid$2=waitpid(p->pid, &status, 0);
-    if(!(return_value_waitpid$2 >= 0))
+    signed int return_value_waitpid_2;
+    return_value_waitpid_2=waitpid(p->pid, &status, 0);
+    if(!(return_value_waitpid_2 >= 0))
     {
-      return_value_xbasename$1=xbasename(p->path);
-      err("%p: %S: %s pid %ld: waitpid: %m\n", p->target, return_value_xbasename$1, p->pid);
+      return_value_xbasename_1=xbasename(p->path);
+      err("%p: %S: %s pid %ld: waitpid: %m\n", p->target, return_value_xbasename_1, p->pid);
     }
 
     if(!(status == 0))
     {
-      return_value_xbasename$3=xbasename(p->path);
+      return_value_xbasename_3=xbasename(p->path);
       /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$24
+union anonymous_24
 {
   // __in
   signed int __in;
@@ -17916,7 +17916,7 @@ union anonymous$24
 
 /* */
       ;
-      err("%p: %S: %s exited with exit code %d\n", p->target, return_value_xbasename$3, (((union anonymous$24){ .__in=status }).__i & 0xff00) >> 8);
+      err("%p: %S: %s exited with exit code %d\n", p->target, return_value_xbasename_3, (((union anonymous_24){ .__in=status }).__i & 0xff00) >> 8);
     }
 
     if(!(pstatus == ((signed int *)NULL)))
@@ -17937,9 +17937,9 @@ signed int privsep_fini(void)
   else
   {
     close(client_fd);
-    signed int return_value_waitpid$1;
-    return_value_waitpid$1=waitpid(cpid, &status, 0);
-    if(!(return_value_waitpid$1 >= 0))
+    signed int return_value_waitpid_1;
+    return_value_waitpid_1=waitpid(cpid, &status, 0);
+    if(!(return_value_waitpid_1 >= 0))
     {
       err("%p: failed to reap priveleged child: %m\n");
       return -1;
@@ -17968,25 +17968,25 @@ static signed int privsep_get_family(signed int *lport)
 // file privsep.h line 33
 signed int privsep_init(void)
 {
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  unsigned int return_value_getuid$2;
-  return_value_getuid$2=getuid();
-  if(return_value_geteuid$1 == return_value_getuid$2)
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  unsigned int return_value_getuid_2;
+  return_value_getuid_2=getuid();
+  if(return_value_geteuid_1 == return_value_getuid_2)
     return 0;
 
   else
   {
-    signed int return_value_create_socketpair$3;
-    return_value_create_socketpair$3=create_socketpair();
-    if(!(return_value_create_socketpair$3 >= 0))
+    signed int return_value_create_socketpair_3;
+    return_value_create_socketpair_3=create_socketpair();
+    if(!(return_value_create_socketpair_3 >= 0))
       return -1;
 
     else
     {
-      signed int return_value_create_privileged_child$4;
-      return_value_create_privileged_child$4=create_privileged_child();
-      return return_value_create_privileged_child$4;
+      signed int return_value_create_privileged_child_4;
+      return_value_create_privileged_child_4=create_privileged_child();
+      return return_value_create_privileged_child_4;
     }
   }
 }
@@ -17995,9 +17995,9 @@ signed int privsep_init(void)
 // file privsep.c line 335
 signed int privsep_rresvport(signed int *lport)
 {
-  signed int return_value_privsep_rresvport_af$1;
-  return_value_privsep_rresvport_af$1=privsep_rresvport_af(lport, 2);
-  return return_value_privsep_rresvport_af$1;
+  signed int return_value_privsep_rresvport_af_1;
+  return_value_privsep_rresvport_af_1=privsep_rresvport_af(lport, 2);
+  return return_value_privsep_rresvport_af_1;
 }
 
 // privsep_rresvport_af
@@ -18005,35 +18005,35 @@ signed int privsep_rresvport(signed int *lport)
 signed int privsep_rresvport_af(signed int *lport, signed int family)
 {
   signed int s = -1;
-  signed int return_value_p_rresvport_af$1;
+  signed int return_value_p_rresvport_af_1;
   if(!(client_fd >= 0))
   {
-    return_value_p_rresvport_af$1=p_rresvport_af(lport, family);
-    return return_value_p_rresvport_af$1;
+    return_value_p_rresvport_af_1=p_rresvport_af(lport, family);
+    return return_value_p_rresvport_af_1;
   }
 
   else
   {
-    signed int return_value_privsep_set_family$3;
-    return_value_privsep_set_family$3=privsep_set_family(lport, family);
-    if(!(return_value_privsep_set_family$3 >= 0))
+    signed int return_value_privsep_set_family_3;
+    return_value_privsep_set_family_3=privsep_set_family(lport, family);
+    if(!(return_value_privsep_set_family_3 >= 0))
     {
       err("%p: privsep_rresvport_af: Invalid family %d\n", family);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
       return -1;
     }
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4=pthread_mutex_lock(&privsep_mutex);
-    if(!(*return_value___errno_location$4 == 0))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4=pthread_mutex_lock(&privsep_mutex);
+    if(!(*return_value___errno_location_4 == 0))
       errx("%p: %s:%d: mutex_lock: %m\n", (const void *)"privsep.c", 319);
 
-    signed long int return_value_write$5;
-    return_value_write$5=write(client_fd, (const void *)lport, sizeof(signed int) /*4ul*/ );
-    if(!(return_value_write$5 >= 0l))
+    signed long int return_value_write_5;
+    return_value_write_5=write(client_fd, (const void *)lport, sizeof(signed int) /*4ul*/ );
+    if(!(return_value_write_5 >= 0l))
       err("%p: privsep: client write: %m\n");
 
     else
@@ -18041,10 +18041,10 @@ signed int privsep_rresvport_af(signed int *lport, signed int family)
 
   out:
     ;
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6=pthread_mutex_unlock(&privsep_mutex);
-    if(!(*return_value___errno_location$6 == 0))
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6=pthread_mutex_unlock(&privsep_mutex);
+    if(!(*return_value___errno_location_6 == 0))
       errx("%p: %s:%d: mutex_unlock: %m\n", (const void *)"privsep.c", 330);
 
     return s;
@@ -18058,11 +18058,11 @@ static signed int privsep_server(void)
   signed int rc;
   signed int lport;
   close(client_fd);
-  signed long int return_value_read$1;
+  signed long int return_value_read_1;
   do
   {
-    return_value_read$1=read(server_fd, (void *)&lport, sizeof(signed int) /*4ul*/ );
-    rc = (signed int)return_value_read$1;
+    return_value_read_1=read(server_fd, (void *)&lport, sizeof(signed int) /*4ul*/ );
+    rc = (signed int)return_value_read_1;
     if(!(rc >= 1))
       break;
 
@@ -18102,13 +18102,13 @@ signed int rcmd_connect(struct rcmd_info *rcmd, char *ahost, char *addr, char *l
   if(!(rcmd->ruser == ((char *)NULL)))
     remuser = rcmd->ruser;
 
-  signed int *tmp_if_expr$1;
+  signed int *tmp_if_expr_1;
   if(!(error_fd == /*enum*/false))
-    tmp_if_expr$1 = &rcmd->efd;
+    tmp_if_expr_1 = &rcmd->efd;
 
   else
-    tmp_if_expr$1 = (signed int *)(void *)0;
-  rcmd->fd=rcmd->rmod->rcmd(ahost, addr, locuser, remuser, cmd, nodeid, tmp_if_expr$1, &rcmd->arg);
+    tmp_if_expr_1 = (signed int *)(void *)0;
+  rcmd->fd=rcmd->rmod->rcmd(ahost, addr, locuser, remuser, cmd, nodeid, tmp_if_expr_1, &rcmd->arg);
   return rcmd->fd;
 }
 
@@ -18197,9 +18197,9 @@ char * rcmd_get_default_module(void)
   struct module_components *mod = (struct module_components *)(void *)0;
   signed int i = 0;
   const char *name = (const char *)(void *)0;
-  signed int tmp_post$1;
-  char *tmp_if_expr$3;
-  char *return_value_mod_get_name$2;
+  signed int tmp_post_1;
+  char *tmp_if_expr_3;
+  char *return_value_mod_get_name_2;
   if(!(default_rcmd_module == ((struct rcmd_module *)NULL)))
     return default_rcmd_module->name;
 
@@ -18207,9 +18207,9 @@ char * rcmd_get_default_module(void)
   {
     do
     {
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      name = rcmd_rank[(signed long int)tmp_post$1];
+      name = rcmd_rank[(signed long int)tmp_post_1];
       if(name == ((const char *)NULL))
         break;
 
@@ -18221,13 +18221,13 @@ char * rcmd_get_default_module(void)
     while((_Bool)1);
     if(!(mod == ((struct module_components *)NULL)))
     {
-      return_value_mod_get_name$2=mod_get_name(mod);
-      tmp_if_expr$3 = return_value_mod_get_name$2;
+      return_value_mod_get_name_2=mod_get_name(mod);
+      tmp_if_expr_3 = return_value_mod_get_name_2;
     }
 
     else
-      tmp_if_expr$3 = (char *)(void *)0;
-    return tmp_if_expr$3;
+      tmp_if_expr_3 = (char *)(void *)0;
+    return tmp_if_expr_3;
   }
 }
 
@@ -18236,9 +18236,9 @@ char * rcmd_get_default_module(void)
 struct rcmd_info * rcmd_info_create(struct rcmd_module *rmod)
 {
   struct rcmd_info *r;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct rcmd_info) /*40ul*/ );
-  r = (struct rcmd_info *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct rcmd_info) /*40ul*/ );
+  r = (struct rcmd_info *)return_value_Malloc_1;
   if(r == ((struct rcmd_info *)NULL))
     return (struct rcmd_info *)(void *)0;
 
@@ -18263,7 +18263,7 @@ void rcmd_info_destroy(struct rcmd_info *r)
 
 // rcmd_init
 // file ../../src/pdsh/rcmd.h line 94
-signed int rcmd_init(struct anonymous$1 *opt)
+signed int rcmd_init(struct anonymous_1 *opt)
 {
   struct rcmd_module *r = (struct rcmd_module *)(void *)0;
   struct listIterator *i;
@@ -18281,9 +18281,9 @@ signed int rcmd_init(struct anonymous$1 *opt)
   else
   {
     i=list_iterator_create(rcmd_module_list);
-    void *return_value_list_next$1;
-    return_value_list_next$1=list_next(i);
-    r = (struct rcmd_module *)return_value_list_next$1;
+    void *return_value_list_next_1;
+    return_value_list_next_1=list_next(i);
+    r = (struct rcmd_module *)return_value_list_next_1;
     if(!(r == ((struct rcmd_module *)NULL)))
     {
       current_rcmd_module = r;
@@ -18301,47 +18301,47 @@ signed int rcmd_init(struct anonymous$1 *opt)
 struct rcmd_module * rcmd_module_create(struct module_components *mod)
 {
   struct rcmd_module *rmod;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct rcmd_module) /*56ul*/ );
-  rmod = (struct rcmd_module *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct rcmd_module) /*56ul*/ );
+  rmod = (struct rcmd_module *)return_value_Malloc_1;
   rmod->mod = mod;
   rmod->name=mod_get_name(mod);
-  signed int (*return_value_mod_get_rcmd_init$3)(struct anonymous$1 *);
-  return_value_mod_get_rcmd_init$3=mod_get_rcmd_init(mod);
-  rmod->init = (signed int (*)(struct anonymous$1 *))return_value_mod_get_rcmd_init$3;
-  if(rmod->init == ((signed int (*)(struct anonymous$1 *))NULL))
+  signed int (*return_value_mod_get_rcmd_init_3)(struct anonymous_1 *);
+  return_value_mod_get_rcmd_init_3=mod_get_rcmd_init(mod);
+  rmod->init = (signed int (*)(struct anonymous_1 *))return_value_mod_get_rcmd_init_3;
+  if(rmod->init == ((signed int (*)(struct anonymous_1 *))NULL))
   {
-    char *return_value_mod_get_name$2;
-    return_value_mod_get_name$2=mod_get_name(mod);
-    err("Unable to resolve \"rcmd_init\" in module \"%s\"\n", return_value_mod_get_name$2);
+    char *return_value_mod_get_name_2;
+    return_value_mod_get_name_2=mod_get_name(mod);
+    err("Unable to resolve \"rcmd_init\" in module \"%s\"\n", return_value_mod_get_name_2);
     goto fail;
   }
 
-  signed int (*return_value_mod_get_rcmd_signal$5)(signed int, void *, signed int);
-  return_value_mod_get_rcmd_signal$5=mod_get_rcmd_signal(mod);
-  rmod->signal = (signed int (*)(signed int, void *, signed int))return_value_mod_get_rcmd_signal$5;
+  signed int (*return_value_mod_get_rcmd_signal_5)(signed int, void *, signed int);
+  return_value_mod_get_rcmd_signal_5=mod_get_rcmd_signal(mod);
+  rmod->signal = (signed int (*)(signed int, void *, signed int))return_value_mod_get_rcmd_signal_5;
   if(rmod->signal == ((signed int (*)(signed int, void *, signed int))NULL))
   {
-    char *return_value_mod_get_name$4;
-    return_value_mod_get_name$4=mod_get_name(mod);
-    err("Unable to resolve \"rcmd_signal\" in module \"%s\"\n", return_value_mod_get_name$4);
+    char *return_value_mod_get_name_4;
+    return_value_mod_get_name_4=mod_get_name(mod);
+    err("Unable to resolve \"rcmd_signal\" in module \"%s\"\n", return_value_mod_get_name_4);
     goto fail;
   }
 
-  signed int (*return_value_mod_get_rcmd$7)(char *, char *, char *, char *, char *, signed int, signed int *, void **);
-  return_value_mod_get_rcmd$7=mod_get_rcmd(mod);
-  rmod->rcmd = (signed int (*)(char *, char *, char *, char *, char *, signed int, signed int *, void **))return_value_mod_get_rcmd$7;
+  signed int (*return_value_mod_get_rcmd_7)(char *, char *, char *, char *, char *, signed int, signed int *, void **);
+  return_value_mod_get_rcmd_7=mod_get_rcmd(mod);
+  rmod->rcmd = (signed int (*)(char *, char *, char *, char *, char *, signed int, signed int *, void **))return_value_mod_get_rcmd_7;
   if(rmod->rcmd == ((signed int (*)(char *, char *, char *, char *, char *, signed int, signed int *, void **))NULL))
   {
-    char *return_value_mod_get_name$6;
-    return_value_mod_get_name$6=mod_get_name(mod);
-    err("Unable to resolve \"rcmd\" in module \"%s\"\n", return_value_mod_get_name$6);
+    char *return_value_mod_get_name_6;
+    return_value_mod_get_name_6=mod_get_name(mod);
+    err("Unable to resolve \"rcmd\" in module \"%s\"\n", return_value_mod_get_name_6);
     goto fail;
   }
 
-  signed int (*return_value_mod_get_rcmd_destroy$8)(void *);
-  return_value_mod_get_rcmd_destroy$8=mod_get_rcmd_destroy(mod);
-  rmod->rcmd_destroy = (signed int (*)(void *))return_value_mod_get_rcmd_destroy$8;
+  signed int (*return_value_mod_get_rcmd_destroy_8)(void *);
+  return_value_mod_get_rcmd_destroy_8=mod_get_rcmd_destroy(mod);
+  rmod->rcmd_destroy = (signed int (*)(void *))return_value_mod_get_rcmd_destroy_8;
   rmod->options.resolve_hosts = (enum anonymous)1;
   return rmod;
 
@@ -18364,14 +18364,14 @@ static struct rcmd_module * rcmd_module_register(char *name)
 {
   struct module_components *mod = (struct module_components *)(void *)0;
   struct rcmd_module *rmod = (struct rcmd_module *)(void *)0;
-  void *return_value_list_find_first$1;
+  void *return_value_list_find_first_1;
   if(rcmd_module_list == ((struct list *)NULL))
     rcmd_module_list=list_create((void (*)(void *))rcmd_module_destroy);
 
   else
   {
-    return_value_list_find_first$1=list_find_first(rcmd_module_list, (signed int (*)(void *, void *))find_rcmd_module, (void *)name);
-    rmod = (struct rcmd_module *)return_value_list_find_first$1;
+    return_value_list_find_first_1=list_find_first(rcmd_module_list, (signed int (*)(void *, void *))find_rcmd_module, (void *)name);
+    rmod = (struct rcmd_module *)return_value_list_find_first_1;
   }
   if(!(rmod == ((struct rcmd_module *)NULL)))
     return rmod;
@@ -18393,9 +18393,9 @@ static struct rcmd_module * rcmd_module_register(char *name)
 
       else
       {
-        void *return_value_list_append$2;
-        return_value_list_append$2=list_append(rcmd_module_list, (void *)rmod);
-        if(return_value_list_append$2 == NULL)
+        void *return_value_list_append_2;
+        return_value_list_append_2=list_append(rcmd_module_list, (void *)rmod);
+        if(return_value_list_append_2 == NULL)
         {
           err("Failed to append rcmd module \"%s\"\n", name);
           rcmd_module_destroy(rmod);
@@ -18415,9 +18415,9 @@ signed int rcmd_opt_set(signed int id, void *value)
 {
   if(current_rcmd_module == ((struct rcmd_module *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 3;
     return -1;
   }
 
@@ -18427,9 +18427,9 @@ signed int rcmd_opt_set(signed int id, void *value)
     goto __CPROVER_DUMP_L4;
   }
 
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = 22;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = 22;
   return -1;
 
 __CPROVER_DUMP_L4:
@@ -18480,9 +18480,9 @@ signed int rcmd_register_defaults(char *hosts, char *rcmd_name, char *user)
 
     else
     {
-      signed int return_value_hostlist_register_rcmd$1;
-      return_value_hostlist_register_rcmd$1=hostlist_register_rcmd(hosts, rmod, user);
-      if(!(return_value_hostlist_register_rcmd$1 >= 0))
+      signed int return_value_hostlist_register_rcmd_1;
+      return_value_hostlist_register_rcmd_1=hostlist_register_rcmd(hosts, rmod, user);
+      if(!(return_value_hostlist_register_rcmd_1 >= 0))
         return -1;
 
       else
@@ -18508,28 +18508,28 @@ struct hostlist * read_wcoll(char *file, struct _IO_FILE *f)
   struct hostlist *new;
   struct wcoll_ctx *ctx;
   struct _IO_FILE *fp = (struct _IO_FILE *)(void *)0;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(file, "-");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(file, "-");
+  if(return_value_strcmp_1 == 0)
   {
     f = stdin;
     file = (char *)(void *)0;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int return_value_access$2;
-    return_value_access$2=access(file, 4);
-    if(return_value_access$2 == -1)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_access_2;
+    return_value_access_2=access(file, 4);
+    if(return_value_access_2 == -1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       fp=fopen(file, "r");
-      tmp_if_expr$3 = !(fp != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = !(fp != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       errx("%p: %s: %m\n", file);
 
   }
@@ -18577,9 +18577,9 @@ static signed int recv_rresvport(signed int pipefd, signed int *lptr)
   cmsg->cmsg_len = sizeof(struct cmsghdr) /*16ul*/  + sizeof(signed int) /*4ul*/ ;
   msg.msg_control = (void *)(char *)cmsg;
   msg.msg_controllen = sizeof(struct cmsghdr) /*16ul*/  + sizeof(signed int) /*4ul*/ ;
-  signed long int return_value_recvmsg$1;
-  return_value_recvmsg$1=recvmsg(pipefd, &msg, 0);
-  if(!(return_value_recvmsg$1 >= 0l))
+  signed long int return_value_recvmsg_1;
+  return_value_recvmsg_1=recvmsg(pipefd, &msg, 0);
+  if(!(return_value_recvmsg_1 >= 0l))
     err("%p: privsep: recvmsg: %m\n");
 
   if(!(*lptr >= 0))
@@ -18598,9 +18598,9 @@ struct regex_info * regex_info_create(const char *r, signed int exclude)
 {
   signed int rc;
   struct regex_info *re;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct regex_info) /*88ul*/ );
-  re = (struct regex_info *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct regex_info) /*88ul*/ );
+  re = (struct regex_info *)return_value_Malloc_1;
   re->pattern=Strdup(r);
   re->exclude = exclude;
   re->cflags = 1 | ((1 << 1) << 1) << 1;
@@ -18663,9 +18663,9 @@ static signed int send_rresvport(signed int pipefd, signed int fd, signed int lp
     msg.msg_controllen = sizeof(struct cmsghdr) /*16ul*/  + sizeof(signed int) /*4ul*/ ;
     *((signed int *)cmsg->__cmsg_data) = fd;
   }
-  signed long int return_value_sendmsg$1;
-  return_value_sendmsg$1=sendmsg(pipefd, &msg, 0);
-  if(!((unsigned long int)return_value_sendmsg$1 == sizeof(signed int) /*4ul*/ ))
+  signed long int return_value_sendmsg_1;
+  return_value_sendmsg_1=sendmsg(pipefd, &msg, 0);
+  if(!((unsigned long int)return_value_sendmsg_1 == sizeof(signed int) /*4ul*/ ))
   {
     err("%p: privsep: sendmsg: %m\n");
     return -1;
@@ -18679,9 +18679,9 @@ static signed int send_rresvport(signed int pipefd, signed int fd, signed int lp
 // file wcoll.c line 63
 static signed int strcmp_f(char *a, char *b)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(a, b);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(a, b);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // string_to_int
@@ -18690,21 +18690,21 @@ static signed int string_to_int(const char *val, signed int *p2int)
 {
   char *p;
   signed long int n;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  unsigned long int return_value_strtoul$2;
-  return_value_strtoul$2=strtoul(val, &p, 10);
-  n = (signed long int)return_value_strtoul$2;
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  _Bool tmp_if_expr$4;
-  if(!(*return_value___errno_location$3 == 0))
-    tmp_if_expr$4 = (_Bool)1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  unsigned long int return_value_strtoul_2;
+  return_value_strtoul_2=strtoul(val, &p, 10);
+  n = (signed long int)return_value_strtoul_2;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  _Bool tmp_if_expr_4;
+  if(!(*return_value___errno_location_3 == 0))
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
     return -1;
 
   else
@@ -18718,7 +18718,7 @@ static signed int string_to_int(const char *val, signed int *p2int)
 // file dsh.h line 97
 void testcase(signed int testnum)
 {
-  enum anonymous$6 result;
+  enum anonymous_6 result;
   if((unsigned long int)testnum >= 2ul || !(testnum >= 0))
     errx("%P: Test %d unknown\n", testnum);
 
@@ -18729,18 +18729,18 @@ void testcase(signed int testnum)
 
 // wcoll_append_excluded
 // file opt.c line 519
-static void wcoll_append_excluded(struct anonymous$1 *opt, char *exclude_args)
+static void wcoll_append_excluded(struct anonymous_1 *opt, char *exclude_args)
 {
   struct list *l;
   l=list_split(",", exclude_args);
   struct listIterator *i;
   i=list_iterator_create(l);
   char *s;
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    s = (char *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    s = (char *)return_value_list_next_1;
     if(s == ((char *)NULL))
       break;
 
@@ -18757,18 +18757,18 @@ static void wcoll_append_excluded(struct anonymous$1 *opt, char *exclude_args)
 
 // wcoll_apply_excluded
 // file opt.c line 1394
-static void wcoll_apply_excluded(struct anonymous$1 *opt, struct list *excludes)
+static void wcoll_apply_excluded(struct anonymous_1 *opt, struct list *excludes)
 {
   struct listIterator *i;
   char *arg;
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   if(!(opt->wcoll == ((struct hostlist *)NULL)) && !(excludes == ((struct list *)NULL)))
   {
     i=list_iterator_create(excludes);
     do
     {
-      return_value_list_next$1=list_next(i);
-      arg = (char *)return_value_list_next$1;
+      return_value_list_next_1=list_next(i);
+      arg = (char *)return_value_list_next_1;
       if(arg == ((char *)NULL))
         break;
 
@@ -18782,18 +18782,18 @@ static void wcoll_apply_excluded(struct anonymous$1 *opt, struct list *excludes)
 
 // wcoll_apply_regex
 // file opt.c line 1377
-static void wcoll_apply_regex(struct anonymous$1 *opt, struct list *regexs)
+static void wcoll_apply_regex(struct anonymous_1 *opt, struct list *regexs)
 {
   struct regex_info *re;
   struct listIterator *i;
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   if(!(opt->wcoll == ((struct hostlist *)NULL)) && !(regexs == ((struct list *)NULL)))
   {
     i=list_iterator_create(regexs);
     do
     {
-      return_value_list_next$1=list_next(i);
-      re = (struct regex_info *)return_value_list_next$1;
+      return_value_list_next_1=list_next(i);
+      re = (struct regex_info *)return_value_list_next_1;
       if(re == ((struct regex_info *)NULL))
         break;
 
@@ -18807,7 +18807,7 @@ static void wcoll_apply_regex(struct anonymous$1 *opt, struct list *regexs)
 
 // wcoll_arg_process
 // file opt.c line 1295
-static signed int wcoll_arg_process(char *arg, struct anonymous$1 *opt)
+static signed int wcoll_arg_process(char *arg, struct anonymous_1 *opt)
 {
   struct regex_info *re;
   signed int excluded = 0;
@@ -18824,11 +18824,11 @@ static signed int wcoll_arg_process(char *arg, struct anonymous$1 *opt)
     p = p + 1l;
   }
 
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p]) == 0)
       break;
 
     p = p + 1l;
@@ -18854,9 +18854,9 @@ static signed int wcoll_arg_process(char *arg, struct anonymous$1 *opt)
     {
       signed int len;
       p = p + 1l;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(p);
-      len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(p);
+      len = (signed int)return_value_strlen_2;
       if((signed int)p[(signed long int)(len + -1)] == 47)
         p[(signed long int)(len - 1)] = (char)0;
 
@@ -18870,9 +18870,9 @@ static signed int wcoll_arg_process(char *arg, struct anonymous$1 *opt)
     else
       if(!(excluded == 0))
       {
-        char *return_value_Strdup$3;
-        return_value_Strdup$3=Strdup(p);
-        list_push(exclude_list, (void *)return_value_Strdup$3);
+        char *return_value_Strdup_3;
+        return_value_Strdup_3=Strdup(p);
+        list_push(exclude_list, (void *)return_value_Strdup_3);
       }
 
       else
@@ -18887,9 +18887,9 @@ static signed int wcoll_arg_process(char *arg, struct anonymous$1 *opt)
         hostlist_push(opt->wcoll, hosts);
         if(!(rcmd_type == ((char *)NULL)) || !(user == ((char *)NULL)))
         {
-          signed int return_value_rcmd_register_defaults$4;
-          return_value_rcmd_register_defaults$4=rcmd_register_defaults(hosts, rcmd_type, user);
-          if(!(return_value_rcmd_register_defaults$4 >= 0))
+          signed int return_value_rcmd_register_defaults_4;
+          return_value_rcmd_register_defaults_4=rcmd_register_defaults(hosts, rcmd_type, user);
+          if(!(return_value_rcmd_register_defaults_4 >= 0))
             errx("%p: Failed to register rcmd \"%s\" for \"%s\"\n", rcmd_type, hosts);
 
         }
@@ -18900,7 +18900,7 @@ static signed int wcoll_arg_process(char *arg, struct anonymous$1 *opt)
 
 // wcoll_args_process
 // file opt.c line 1368
-static signed int wcoll_args_process(struct anonymous$1 *opt, char *args)
+static signed int wcoll_args_process(struct anonymous_1 *opt, char *args)
 {
   signed int rc;
   struct list *l;
@@ -18917,15 +18917,15 @@ static struct wcoll_ctx * wcoll_ctx_create(const char *path)
   char *copy;
   copy=Strdup(path);
   struct wcoll_ctx *ctx;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct wcoll_ctx) /*24ul*/ );
-  ctx = (struct wcoll_ctx *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct wcoll_ctx) /*24ul*/ );
+  ctx = (struct wcoll_ctx *)return_value_Malloc_1;
   if(copy == ((char *)NULL) || ctx == ((struct wcoll_ctx *)NULL))
     errx("%p: wcoll_ctx_create: Out of memory\n");
 
   ctx->hl=hostlist_create("");
   ctx->path_list=list_split(":", copy);
-  ctx->include_cache=list_create((void (*)(void *))free_f$link1);
+  ctx->include_cache=list_create((void (*)(void *))free_f_link1);
   Free((void **)&copy);
   return ctx;
 }
@@ -18944,16 +18944,16 @@ static void wcoll_ctx_destroy(struct wcoll_ctx *ctx)
 // file wcoll.c line 97
 static signed int wcoll_ctx_file_is_cached(struct wcoll_ctx *ctx, char *file)
 {
-  void *return_value_list_find_first$1;
-  return_value_list_find_first$1=list_find_first(ctx->include_cache, (signed int (*)(void *, void *))strcmp_f, (void *)file);
-  if(!(return_value_list_find_first$1 == NULL))
+  void *return_value_list_find_first_1;
+  return_value_list_find_first_1=list_find_first(ctx->include_cache, (signed int (*)(void *, void *))strcmp_f, (void *)file);
+  if(!(return_value_list_find_first_1 == NULL))
     return 1;
 
   else
   {
-    char *return_value_Strdup$2;
-    return_value_Strdup$2=Strdup(file);
-    list_push(ctx->include_cache, (void *)return_value_Strdup$2);
+    char *return_value_Strdup_2;
+    return_value_Strdup_2=Strdup(file);
+    list_push(ctx->include_cache, (void *)return_value_Strdup_2);
     return 0;
   }
 }
@@ -18965,7 +18965,7 @@ static signed int wcoll_ctx_path_lookup(struct wcoll_ctx *ctx, const char *name,
   signed int rc = -1;
   struct listIterator *i;
   const char *s;
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   if(name == ((const char *)NULL))
     return -1;
 
@@ -18974,8 +18974,8 @@ static signed int wcoll_ctx_path_lookup(struct wcoll_ctx *ctx, const char *name,
     i=list_iterator_create(ctx->path_list);
     do
     {
-      return_value_list_next$1=list_next(i);
-      s = (const char *)return_value_list_next$1;
+      return_value_list_next_1=list_next(i);
+      s = (const char *)return_value_list_next_1;
       if(s == ((const char *)NULL))
         break;
 
@@ -18983,15 +18983,15 @@ static signed int wcoll_ctx_path_lookup(struct wcoll_ctx *ctx, const char *name,
       n=snprintf(buf, (unsigned long int)len, "%s/%s", s, name);
       if(n >= len || !(n >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 28;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 28;
         break;
       }
 
-      signed int return_value_access$3;
-      return_value_access$3=access(buf, 4);
-      if(return_value_access$3 >= 0)
+      signed int return_value_access_3;
+      return_value_access_3=access(buf, 4);
+      if(return_value_access_3 >= 0)
       {
         rc = 0;
         break;
@@ -19010,15 +19010,15 @@ static signed int wcoll_ctx_read_file(struct wcoll_ctx *ctx, const char *f)
 {
   char fq_path[4096l];
   struct _IO_FILE *fp = (struct _IO_FILE *)(void *)0;
-  char *return_value_wcoll_ctx_resolve_path$1;
-  return_value_wcoll_ctx_resolve_path$1=wcoll_ctx_resolve_path(ctx, f, fq_path, (signed int)sizeof(char [4096l]) /*4096ul*/ );
-  if(return_value_wcoll_ctx_resolve_path$1 == ((char *)NULL))
+  char *return_value_wcoll_ctx_resolve_path_1;
+  return_value_wcoll_ctx_resolve_path_1=wcoll_ctx_resolve_path(ctx, f, fq_path, (signed int)sizeof(char [4096l]) /*4096ul*/ );
+  if(return_value_wcoll_ctx_resolve_path_1 == ((char *)NULL))
     errx("%p: %s: %m\n", f);
 
-  signed int return_value_wcoll_ctx_file_is_cached$2;
-  return_value_wcoll_ctx_file_is_cached$2=wcoll_ctx_file_is_cached(ctx, fq_path);
-  _Bool tmp_if_expr$4;
-  if(!(return_value_wcoll_ctx_file_is_cached$2 == 0))
+  signed int return_value_wcoll_ctx_file_is_cached_2;
+  return_value_wcoll_ctx_file_is_cached_2=wcoll_ctx_file_is_cached(ctx, fq_path);
+  _Bool tmp_if_expr_4;
+  if(!(return_value_wcoll_ctx_file_is_cached_2 == 0))
   {
     err("%p: warning: file '%s' included multiple times\n", f);
     return -1;
@@ -19026,17 +19026,17 @@ static signed int wcoll_ctx_read_file(struct wcoll_ctx *ctx, const char *f)
 
   else
   {
-    signed int return_value_access$3;
-    return_value_access$3=access(fq_path, 4);
-    if(return_value_access$3 == -1)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_access_3;
+    return_value_access_3=access(fq_path, 4);
+    if(return_value_access_3 == -1)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       fp=fopen(fq_path, "r");
-      tmp_if_expr$4 = !(fp != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = !(fp != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       errx("%p: %s: %m\n", f);
 
     wcoll_ctx_read_stream(ctx, fp);
@@ -19066,11 +19066,11 @@ static signed int wcoll_ctx_read_line(struct wcoll_ctx *ctx, char *line)
   }
 
   xstrcln(line, (char *)(void *)0);
-  signed int return_value_hostlist_push$1;
+  signed int return_value_hostlist_push_1;
   if(!((signed int)*line == 0))
   {
-    return_value_hostlist_push$1=hostlist_push(ctx->hl, line);
-    if(return_value_hostlist_push$1 == 0)
+    return_value_hostlist_push_1=hostlist_push(ctx->hl, line);
+    if(return_value_hostlist_push_1 == 0)
       err("%p: warning: target '%s' not parsed\n", line);
 
   }
@@ -19083,11 +19083,11 @@ static signed int wcoll_ctx_read_line(struct wcoll_ctx *ctx, char *line)
 static signed int wcoll_ctx_read_stream(struct wcoll_ctx *ctx, struct _IO_FILE *fp)
 {
   char buf[2048l];
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(buf, 2048, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buf, 2048, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     wcoll_ctx_read_line(ctx, buf);
@@ -19100,9 +19100,9 @@ static signed int wcoll_ctx_read_stream(struct wcoll_ctx *ctx, struct _IO_FILE *
 // file wcoll.c line 187
 static char * wcoll_ctx_resolve_path(struct wcoll_ctx *ctx, const char *file, char *buf, signed int len)
 {
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if((signed int)*file == 47)
     strncpy(buf, file, (unsigned long int)len);
 
@@ -19111,30 +19111,30 @@ static char * wcoll_ctx_resolve_path(struct wcoll_ctx *ctx, const char *file, ch
     if((signed int)*file == 46)
     {
       if((signed int)file[1l] == 47)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if((signed int)file[1l] == 46)
-          tmp_if_expr$2 = (signed int)file[(signed long int)2] == 47 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)file[(signed long int)2] == 47 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       strncpy(buf, file, (unsigned long int)len);
 
     else
     {
-      signed int return_value_wcoll_ctx_path_lookup$1;
-      return_value_wcoll_ctx_path_lookup$1=wcoll_ctx_path_lookup(ctx, file, buf, len);
-      if(!(return_value_wcoll_ctx_path_lookup$1 >= 0))
+      signed int return_value_wcoll_ctx_path_lookup_1;
+      return_value_wcoll_ctx_path_lookup_1=wcoll_ctx_path_lookup(ctx, file, buf, len);
+      if(!(return_value_wcoll_ctx_path_lookup_1 >= 0))
         return (char *)(void *)0;
 
     }
@@ -19144,7 +19144,7 @@ static char * wcoll_ctx_resolve_path(struct wcoll_ctx *ctx, const char *file, ch
 
 // wcoll_expand
 // file opt.c line 765
-static void wcoll_expand(struct anonymous$1 *opt)
+static void wcoll_expand(struct anonymous_1 *opt)
 {
   struct hostlist *hl = opt->wcoll;
   const char *hosts;
@@ -19189,9 +19189,9 @@ signed int xpclose(struct _IO_FILE *f)
 
     last = cur;
   }
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  signed int tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  signed int tmp_if_expr_3;
   if(cur == ((struct pid *)NULL))
     return -1;
 
@@ -19202,14 +19202,14 @@ signed int xpclose(struct _IO_FILE *f)
       pid=waitpid(cur->pid, &status, 0);
       if(pid == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     if(last == ((struct pid *)NULL))
       pidlist = cur->next;
 
@@ -19217,7 +19217,7 @@ signed int xpclose(struct _IO_FILE *f)
       last->next = cur->next;
     Free((void **)&cur);
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$24
+union anonymous_24
 {
   // __in
   signed int __in;
@@ -19228,11 +19228,11 @@ union anonymous$24
 /* */
     ;
     if((0x7f & status) == 0)
-      tmp_if_expr$3 = (((union anonymous$24){ .__in=status }).__i & 0xff00) >> 8;
+      tmp_if_expr_3 = (((union anonymous_24){ .__in=status }).__i & 0xff00) >> 8;
 
     else
-      tmp_if_expr$3 = -1;
-    return tmp_if_expr$3;
+      tmp_if_expr_3 = -1;
+    return tmp_if_expr_3;
   }
 }
 
@@ -19241,23 +19241,23 @@ union anonymous$24
 signed int xpoll(struct xpollfd *xfds, signed int nfds, signed int timeout)
 {
   signed int i;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   if(xfds == ((struct xpollfd *)NULL) || !(nfds >= 1))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   i = 0;
   for( ; !(i >= nfds); i = i + 1)
     (xfds + (signed long int)i)->revents = (signed short int)0;
-  signed int return_value__poll$3;
-  return_value__poll$3=_poll(xfds, (unsigned int)nfds, timeout);
-  return return_value__poll$3;
+  signed int return_value__poll_3;
+  return_value__poll_3=_poll(xfds, (unsigned int)nfds, timeout);
+  return return_value__poll_3;
 }
 
 // xpopen
@@ -19266,48 +19266,48 @@ struct _IO_FILE * xpopen(char *cmd, char *mode)
 {
   struct pid *cur;
   signed int fds[2l];
-  signed int xpopen$$1$$read;
+  signed int xpopen__1__read;
   signed int fd;
   signed int pid;
-  signed long int pid$array_size0;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(0);
-  pid$array_size0 = return_value_sysconf$1 + (signed long int)1;
-  char *av[pid$array_size0];
+  signed long int pid_array_size0;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(0);
+  pid_array_size0 = return_value_sysconf_1 + (signed long int)1;
+  char *av[pid_array_size0];
   signed int maxfd;
-  signed long int return_value_sysconf$2;
-  return_value_sysconf$2=sysconf(4);
-  maxfd = (signed int)return_value_sysconf$2;
-  signed long int return_value_sysconf$3;
-  return_value_sysconf$3=sysconf(0);
-  _parse_command_with_quotes(av, (signed int)return_value_sysconf$3, cmd);
-  _Bool tmp_if_expr$5;
+  signed long int return_value_sysconf_2;
+  return_value_sysconf_2=sysconf(4);
+  maxfd = (signed int)return_value_sysconf_2;
+  signed long int return_value_sysconf_3;
+  return_value_sysconf_3=sysconf(0);
+  _parse_command_with_quotes(av, (signed int)return_value_sysconf_3, cmd);
+  _Bool tmp_if_expr_5;
   if(!((signed int)*mode == 114))
-    tmp_if_expr$5 = (signed int)*mode != 119 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = (signed int)*mode != 119 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = (signed int)mode[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (signed int)mode[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_6)
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 22;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 22;
     return (struct _IO_FILE *)(void *)0;
   }
 
-  void *return_value_Malloc$7;
-  return_value_Malloc$7=Malloc(sizeof(struct pid) /*24ul*/ );
-  cur = (struct pid *)return_value_Malloc$7;
-  xpopen$$1$$read = (signed int)((signed int)*mode == 114);
-  signed int return_value_pipe$8;
-  return_value_pipe$8=pipe(fds);
-  if(!(return_value_pipe$8 >= 0))
+  void *return_value_Malloc_7;
+  return_value_Malloc_7=Malloc(sizeof(struct pid) /*24ul*/ );
+  cur = (struct pid *)return_value_Malloc_7;
+  xpopen__1__read = (signed int)((signed int)*mode == 114);
+  signed int return_value_pipe_8;
+  return_value_pipe_8=pipe(fds);
+  if(!(return_value_pipe_8 >= 0))
   {
     close(fds[(signed long int)0]);
     close(fds[(signed long int)1]);
@@ -19316,8 +19316,8 @@ struct _IO_FILE * xpopen(char *cmd, char *mode)
   }
 
   pid=fork();
-  signed int *return_value___errno_location$12;
-  signed int *return_value___errno_location$11;
+  signed int *return_value___errno_location_12;
+  signed int *return_value___errno_location_11;
   if(!(pid == -1))
   {
     if(pid == 0)
@@ -19334,25 +19334,25 @@ struct _IO_FILE * xpopen(char *cmd, char *mode)
 
   __CPROVER_DUMP_L8:
     ;
-    close(fds[(signed long int)(xpopen$$1$$read != 0 ? 0 : 1)]);
-    dup2(fds[(signed long int)(xpopen$$1$$read != 0 ? 1 : 0)], xpopen$$1$$read != 0 ? 1 : 0);
+    close(fds[(signed long int)(xpopen__1__read != 0 ? 0 : 1)]);
+    dup2(fds[(signed long int)(xpopen__1__read != 0 ? 1 : 0)], xpopen__1__read != 0 ? 1 : 0);
     fd = 2 + 1;
     for( ; !(fd >= maxfd); fd = fd + 1)
       close(fd);
-    unsigned int return_value_getgid$9;
-    return_value_getgid$9=getgid();
-    setgid(return_value_getgid$9);
-    unsigned int return_value_getuid$10;
-    return_value_getuid$10=getuid();
-    setuid(return_value_getuid$10);
+    unsigned int return_value_getgid_9;
+    return_value_getgid_9=getgid();
+    setgid(return_value_getgid_9);
+    unsigned int return_value_getuid_10;
+    return_value_getuid_10=getuid();
+    setuid(return_value_getuid_10);
     do
     {
-      signed int return_value_access$13;
-      return_value_access$13=access(av[(signed long int)0], 0);
-      if(!(return_value_access$13 == 0))
+      signed int return_value_access_13;
+      return_value_access_13=access(av[(signed long int)0], 0);
+      if(!(return_value_access_13 == 0))
       {
-        return_value___errno_location$12=__errno_location();
-        if(!(*return_value___errno_location$12 == 4))
+        return_value___errno_location_12=__errno_location();
+        if(!(*return_value___errno_location_12 == 4))
         {
           fprintf(stderr, "%s: not found\n", av[(signed long int)0]);
           fflush(stderr);
@@ -19360,16 +19360,16 @@ struct _IO_FILE * xpopen(char *cmd, char *mode)
 
       }
 
-      return_value___errno_location$11=__errno_location();
+      return_value___errno_location_11=__errno_location();
     }
-    while(*return_value___errno_location$11 == 4);
+    while(*return_value___errno_location_11 == 4);
     execv(av[(signed long int)0], av);
-    signed int *return_value___errno_location$14;
-    return_value___errno_location$14=__errno_location();
-    exit(*return_value___errno_location$14);
+    signed int *return_value___errno_location_14;
+    return_value___errno_location_14=__errno_location();
+    exit(*return_value___errno_location_14);
   }
-  close(fds[(signed long int)(xpopen$$1$$read != 0 ? 1 : 0)]);
-  cur->fp=fdopen(fds[(signed long int)(xpopen$$1$$read != 0 ? 0 : 1)], mode);
+  close(fds[(signed long int)(xpopen__1__read != 0 ? 1 : 0)]);
+  cur->fp=fdopen(fds[(signed long int)(xpopen__1__read != 0 ? 0 : 1)], mode);
   cur->pid = pid;
   cur->next = pidlist;
   pidlist = cur;
@@ -19380,9 +19380,9 @@ struct _IO_FILE * xpopen(char *cmd, char *mode)
 // file ../../src/common/xstring.h line 35
 void xstrcat(char **str1, char *str2)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str2);
-  _makespace(str1, (signed int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str2);
+  _makespace(str1, (signed int)return_value_strlen_1);
   strcat(*str1, str2);
 }
 
@@ -19403,58 +19403,58 @@ void xstrcln(char *str, char *verboten)
   if(verboten == ((char *)NULL))
     verboten = "\n\t ";
 
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   for( ; !(str == ((char *)NULL)); str = str + 1l)
   {
     if((signed int)*str == 0)
       break;
 
-    return_value_strchr$1=strchr(verboten, (signed int)*str);
-    if(return_value_strchr$1 == ((char *)NULL))
+    return_value_strchr_1=strchr(verboten, (signed int)*str);
+    if(return_value_strchr_1 == ((char *)NULL))
       break;
 
   }
-  unsigned long int return_value_strlen$5;
-  char *return_value_strchr$3;
-  char *tmp_post$4;
+  unsigned long int return_value_strlen_5;
+  char *return_value_strchr_3;
+  char *tmp_post_4;
   if(!(str == ((char *)NULL)))
   {
-    return_value_strlen$5=strlen(str);
-    if(return_value_strlen$5 >= 1ul)
+    return_value_strlen_5=strlen(str);
+    if(return_value_strlen_5 >= 1ul)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(str);
-      p = (str + (signed long int)return_value_strlen$2) - (signed long int)1;
-      for( ; !(str >= p); *tmp_post$4 = (char)0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(str);
+      p = (str + (signed long int)return_value_strlen_2) - (signed long int)1;
+      for( ; !(str >= p); *tmp_post_4 = (char)0)
       {
         if((signed int)*p == 0)
           break;
 
-        return_value_strchr$3=strchr(verboten, (signed int)*p);
-        if(return_value_strchr$3 == ((char *)NULL))
+        return_value_strchr_3=strchr(verboten, (signed int)*p);
+        if(return_value_strchr_3 == ((char *)NULL))
           break;
 
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p - 1l;
       }
     }
 
   }
 
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(str);
-  memmove((void *)base, (const void *)str, return_value_strlen$6);
-  char *tmp_post$7;
-  unsigned long int return_value_strlen$8;
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(str);
+  memmove((void *)base, (const void *)str, return_value_strlen_6);
+  char *tmp_post_7;
+  unsigned long int return_value_strlen_8;
   do
   {
-    tmp_post$7 = str;
+    tmp_post_7 = str;
     str = str - 1l;
-    if(base >= tmp_post$7)
+    if(base >= tmp_post_7)
       break;
 
-    return_value_strlen$8=strlen(base);
-    base[(signed long int)(return_value_strlen$8 - (unsigned long int)1)] = (char)0;
+    return_value_strlen_8=strlen(base);
+    base[(signed long int)(return_value_strlen_8 - (unsigned long int)1)] = (char)0;
   }
   while((_Bool)1);
 }
@@ -19463,9 +19463,9 @@ void xstrcln(char *str, char *verboten)
 // file xstring.c line 120
 void xstrcpy(char **str1, char *str2)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str2);
-  _makespace(str1, (signed int)return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str2);
+  _makespace(str1, (signed int)return_value_strlen_1);
   strcpy(*str1, str2);
 }
 
@@ -19473,23 +19473,23 @@ void xstrcpy(char **str1, char *str2)
 // file ../../src/common/xstring.h line 38
 void xstrerrorcat(char **buf)
 {
-  char xstrerrorcat$$1$$err[64l];
+  char xstrerrorcat__1__err[64l];
   signed int e;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  e = *return_value___errno_location$1;
-  signed int return_value_strerror_r$3;
-  return_value_strerror_r$3=strerror_r(e, xstrerrorcat$$1$$err, (unsigned long int)64);
-  if(!(return_value_strerror_r$3 >= 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  e = *return_value___errno_location_1;
+  signed int return_value_strerror_r_3;
+  return_value_strerror_r_3=strerror_r(e, xstrerrorcat__1__err, (unsigned long int)64);
+  if(!(return_value_strerror_r_3 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 22)
-      snprintf(xstrerrorcat$$1$$err, (unsigned long int)64, "Unknown error %d", e);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 22)
+      snprintf(xstrerrorcat__1__err, (unsigned long int)64, "Unknown error %d", e);
 
-    xstrerrorcat$$1$$err[(signed long int)63] = (char)0;
+    xstrerrorcat__1__err[(signed long int)63] = (char)0;
   }
 
-  xstrcat(buf, xstrerrorcat$$1$$err);
+  xstrcat(buf, xstrerrorcat__1__err);
 }
 

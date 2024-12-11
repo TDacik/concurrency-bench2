@@ -1,154 +1,154 @@
-// #anon_enum$MEM_STACK=0$MEM_HEAP=1$MEM_MAPPED=2$MEM_MAX=3
+// #anon_enum_MEM_STACK=0_MEM_HEAP=1_MEM_MAPPED=2_MEM_MAX=3
 // file mem.h line 31
-enum anonymous$11 { MEM_STACK=0, MEM_HEAP=1, MEM_MAPPED=2, MEM_MAX=3 };
+enum anonymous_11 { MEM_STACK=0, MEM_HEAP=1, MEM_MAPPED=2, MEM_MAX=3 };
 
-// #anon_enum$NET_TCP=0$NET_TCP6=1$NET_UDP=2$NET_UDP6=3$NET_UNIX=4$NET_NETLINK=5$NET_UNKNOWN=6
+// #anon_enum_NET_TCP=0_NET_TCP6=1_NET_UDP=2_NET_UDP6=3_NET_UNIX=4_NET_NETLINK=5_NET_UNKNOWN=6
 // file net.c line 60
-enum anonymous$19 { NET_TCP=0, NET_TCP6=1, NET_UDP=2, NET_UDP6=3, NET_UNIX=4, NET_NETLINK=5, NET_UNKNOWN=6 };
+enum anonymous_19 { NET_TCP=0, NET_TCP6=1, NET_UDP=2, NET_UDP6=3, NET_UNIX=4, NET_NETLINK=5, NET_UNKNOWN=6 };
 
-// #anon_enum$PROC_START=1$PROC_FINISH=2
+// #anon_enum_PROC_START=1_PROC_FINISH=2
 // file proc.h line 31
-enum anonymous$9 { PROC_START=1, PROC_FINISH=2 };
+enum anonymous_9 { PROC_START=1, PROC_FINISH=2 };
 
-// #anon_enum$SYSCALL_ENTRY=0$SYSCALL_RETURN=1$SYSCALL_UNKNOWN=2
+// #anon_enum_SYSCALL_ENTRY=0_SYSCALL_RETURN=1_SYSCALL_UNKNOWN=2
 // file syscall.c line 78
-enum anonymous$27 { SYSCALL_ENTRY=0, SYSCALL_RETURN=1, SYSCALL_UNKNOWN=2 };
+enum anonymous_27 { SYSCALL_ENTRY=0, SYSCALL_RETURN=1, SYSCALL_UNKNOWN=2 };
 
-// tag-#anon#ST[*{S8}$S8$'filename'||U64'count'||S32'syscall'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'filename'||U64'count'||S32'syscall'||U32'_pad0'|]
 // file syscall.h line 129
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[EN#anon_enum$NET_TCP=0$NET_TCP6=1$NET_UDP=2$NET_UDP6=3$NET_UNIX=4$NET_NETLINK=5$NET_UNKNOWN=6#{U32}$U32$'type'||U32768'$pad0'||SYM#tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}$S8$'path'||U32800'$pad'|]#'u'||S32'family'||U32'$pad1'||U64'inode'||U32672'$pad2'|]#}$SYM#tag-#anon#ST[EN#anon_enum$NET_TCP=0$NET_TCP6=1$NET_UDP=2$NET_UDP6=3$NET_UNIX=4$NET_NETLINK=5$NET_UNKNOWN=6#{U32}$U32$'type'||U32768'$pad0'||SYM#tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}$S8$'path'||U32800'$pad'|]#'u'||S32'family'||U32'$pad1'||U64'inode'||U32672'$pad2'|]#$'addr_info'||*{SYM#tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||U64'inode'||U32'fd'||U32'$pad0'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'send'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'recv'||ARR4097{S8}$S8$'path'||U56'$pad1'|]#}$SYM#tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||U64'inode'||U32'fd'||U32'$pad0'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'send'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'recv'||ARR4097{S8}$S8$'path'||U56'$pad1'|]#$'nh'||U64'send_recv_total'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[EN#anon_enum_NET_TCP=0_NET_TCP6=1_NET_UDP=2_NET_UDP6=3_NET_UNIX=4_NET_NETLINK=5_NET_UNKNOWN=6#{U32}_U32_'type'||U32768'_pad0'||SYM#tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}_S8_'path'||U32800'_pad'|]#'u'||S32'family'||U32'_pad1'||U64'inode'||U32672'_pad2'|]#}_SYM#tag-#anon#ST[EN#anon_enum_NET_TCP=0_NET_TCP6=1_NET_UDP=2_NET_UDP6=3_NET_UNIX=4_NET_NETLINK=5_NET_UNKNOWN=6#{U32}_U32_'type'||U32768'_pad0'||SYM#tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}_S8_'path'||U32800'_pad'|]#'u'||S32'family'||U32'_pad1'||U64'inode'||U32672'_pad2'|]#_'addr_info'||*{SYM#tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||U64'inode'||U32'fd'||U32'_pad0'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'send'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'recv'||ARR4097{S8}_S8_'path'||U56'_pad1'|]#}_SYM#tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||U64'inode'||U32'fd'||U32'_pad0'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'send'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'recv'||ARR4097{S8}_S8_'path'||U56'_pad1'|]#_'nh'||U64'send_recv_total'|]
 // file net.c line 81
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{SYM#tag-link#}$SYM#tag-link#$'head'||*{SYM#tag-link#}$SYM#tag-link#$'tail'||U64'length'|]
+// tag-#anon#ST[*{SYM#tag-link#}_SYM#tag-link#_'head'||*{SYM#tag-link#}_SYM#tag-link#_'tail'||U64'length'|]
 // file list.h line 34
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||*{S8}$S8$'filename'||U32'mask'||U32'$pad0'||U64'count'|]
+// tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||*{S8}_S8_'filename'||U32'mask'||U32'_pad0'||U64'count'|]
 // file fnotify.h line 37
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||*{S8}$S8$'func'||*{S8}$S8$'callback'||*{S8}$S8$'ident'||U64'count'|]
+// tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||*{S8}_S8_'func'||*{S8}_S8_'callback'||*{S8}_S8_'ident'||U64'count'|]
 // file event.h line 39
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||U64'inode'||U32'fd'||U32'$pad0'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'send'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'recv'||ARR4097{S8}$S8$'path'||U56'$pad1'|]
+// tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||U64'inode'||U32'fd'||U32'_pad0'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'send'||SYM#tag-#anon#ST[U64'call_count'||U64'data_total'|]#'recv'||ARR4097{S8}_S8_'path'||U56'_pad1'|]
 // file net.c line 51
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||U64'locked'||U64'unlocked'||U64'total'|]
+// tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||U64'locked'||U64'unlocked'||U64'total'|]
 // file fnotify.h line 45
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||U64'utime'||U64'stime'||U64'ttime'||U64'minor_fault'||U64'major_fault'||SYM#tag-timeval#'whence'||F64'duration'|]
+// tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||U64'utime'||U64'stime'||U64'ttime'||U64'minor_fault'||U64'major_fault'||SYM#tag-timeval#'whence'||F64'duration'|]
 // file cpustat.h line 32
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'||U64'voluntary'||U64'involuntary'||U64'total'||B'valid'||U56'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'||U64'voluntary'||U64'involuntary'||U64'total'||B'valid'||U56'_pad0'|]
 // file ctxt-switch.h line 32
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[EN#anon_enum$NET_TCP=0$NET_TCP6=1$NET_UDP=2$NET_UDP6=3$NET_UNIX=4$NET_NETLINK=5$NET_UNKNOWN=6#{U32}$U32$'type'||U32768'$pad0'||SYM#tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}$S8$'path'||U32800'$pad'|]#'u'||S32'family'||U32'$pad1'||U64'inode'||U32672'$pad2'|]
+// tag-#anon#ST[EN#anon_enum_NET_TCP=0_NET_TCP6=1_NET_UDP=2_NET_UDP6=3_NET_UNIX=4_NET_NETLINK=5_NET_UNKNOWN=6#{U32}_U32_'type'||U32768'_pad0'||SYM#tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}_S8_'path'||U32800'_pad'|]#'u'||S32'family'||U32'_pad1'||U64'inode'||U32672'_pad2'|]
 // file net.c line 70
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[F64'timeout'||S32'ret'||U32'$pad0'|]
+// tag-#anon#ST[F64'timeout'||S32'ret'||U32'_pad0'|]
 // file syscall.h line 57
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'pid'||U32'$pad0'||*{cV}$cV$'brk_start'||*{cV}$cV$'brk_current'||U64'brk_count'|]
+// tag-#anon#ST[S32'pid'||U32'_pad0'||*{cV}_cV_'brk_start'||*{cV}_cV_'brk_current'||U64'brk_count'|]
 // file mem.h line 48
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'pid'||U32'$pad0'||U64'mmap_length'||U64'mmap_count'||U64'munmap_length'||U64'munmap_count'|]
+// tag-#anon#ST[S32'pid'||U32'_pad0'||U64'mmap_length'||U64'mmap_count'||U64'munmap_length'||U64'munmap_count'|]
 // file mem.h line 55
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'pid'||U32'$pad0'||U64'sync_count'||U64'fsync_count'||U64'fdatasync_count'||U64'syncfs_count'||U64'total_count'||SYM#tag-#anon#ST[*{SYM#tag-link#}$SYM#tag-link#$'head'||*{SYM#tag-link#}$SYM#tag-link#$'tail'||U64'length'|]#'sync_file'|]
+// tag-#anon#ST[S32'pid'||U32'_pad0'||U64'sync_count'||U64'fsync_count'||U64'fdatasync_count'||U64'syncfs_count'||U64'total_count'||SYM#tag-#anon#ST[*{SYM#tag-link#}_SYM#tag-link#_'head'||*{SYM#tag-link#}_SYM#tag-link#_'tail'||U64'length'|]#'sync_file'|]
 // file syscall.h line 119
 struct anonymous;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$31;
+struct anonymous_31;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$34;
+struct anonymous_34;
 
 // tag-#anon#ST[U64'call_count'||U64'data_total'|]
 // file net.c line 46
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[U64'open_total'||U64'close_total'||U64'read_total'||U64'write_total'||U64'total'||*{SYM#tag-proc_info#}$SYM#tag-proc_info#$'proc'|]
+// tag-#anon#ST[U64'open_total'||U64'close_total'||U64'read_total'||U64'write_total'||U64'total'||*{SYM#tag-proc_info#}_SYM#tag-proc_info#_'proc'|]
 // file fnotify.h line 53
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$36;
+union anonymous_36;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}$S8$'path'||U32800'$pad'|]
+// tag-#anon#UN[SYM#tag-sockaddr_in#'addr4'||SYM#tag-sockaddr_in6#'addr6'||ARR4097{S8}_S8_'path'||U32800'_pad'|]
 // file net.c line 72
-union anonymous$20;
+union anonymous_20;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -314,13 +314,13 @@ extern signed int * __errno_location(void);
 extern signed int __fxstat(signed int, signed int, struct stat *);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$4 *);
+extern void __pthread_register_cancel(struct anonymous_4 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$4 *);
+extern void __pthread_unregister_cancel(struct anonymous_4 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$4 *);
+extern void __pthread_unwind_next(struct anonymous_4 *);
 // __rawmemchr
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 393
 extern void * __rawmemchr(const void *, signed int);
@@ -371,10 +371,10 @@ static signed int cpustat_cmp(const void *data1, const void *data2);
 extern signed int cpustat_dump_diff(struct json_object *j_tests, const double duration);
 // cpustat_get_all_pids
 // file cpustat.c line 383
-extern signed int cpustat_get_all_pids(const struct anonymous$3 *pids, enum anonymous$9 state);
+extern signed int cpustat_get_all_pids(const struct anonymous_3 *pids, enum anonymous_9 state);
 // cpustat_get_by_proc
 // file cpustat.h line 45
-extern signed int cpustat_get_by_proc(struct proc_info *proc, enum anonymous$9 state);
+extern signed int cpustat_get_by_proc(struct proc_info *proc, enum anonymous_9 state);
 // cpustat_init
 // file cpustat.c line 403
 extern void cpustat_init(void);
@@ -389,16 +389,16 @@ static signed int ctx_switch_cmp(const void *data1, const void *data2);
 extern void ctxt_switch_cleanup(void);
 // ctxt_switch_delta
 // file ctxt-switch.c line 142
-static void ctxt_switch_delta(const struct anonymous$13 *ctxt_switch_new, const struct anonymous$3 *ctxt_switches_old, unsigned long int *total, unsigned long int *voluntary, unsigned long int *involuntary);
+static void ctxt_switch_delta(const struct anonymous_13 *ctxt_switch_new, const struct anonymous_3 *ctxt_switches_old, unsigned long int *total, unsigned long int *voluntary, unsigned long int *involuntary);
 // ctxt_switch_dump_diff
 // file ctxt-switch.c line 173
 extern void ctxt_switch_dump_diff(struct json_object *j_tests, const double duration);
 // ctxt_switch_get_all_pids
 // file ctxt-switch.c line 104
-extern signed int ctxt_switch_get_all_pids(const struct anonymous$3 *pids, enum anonymous$9 state);
+extern signed int ctxt_switch_get_all_pids(const struct anonymous_3 *pids, enum anonymous_9 state);
 // ctxt_switch_get_by_proc
 // file ctxt-switch.h line 41
-extern signed int ctxt_switch_get_by_proc(struct proc_info *proc, enum anonymous$9 state);
+extern signed int ctxt_switch_get_by_proc(struct proc_info *proc, enum anonymous_9 state);
 // ctxt_switch_init
 // file ctxt-switch.c line 297
 extern void ctxt_switch_init(void);
@@ -410,7 +410,7 @@ static const char * ctxt_switch_loading(const double rate);
 extern signed int endmntent(struct _IO_FILE *);
 // event_add
 // file event.c line 83
-static signed int event_add(struct anonymous$3 *events, const unsigned long int count, const signed int pid, const char *func, const char *callback);
+static signed int event_add(struct anonymous_3 *events, const unsigned long int count, const signed int pid, const char *func, const char *callback);
 // event_cleanup
 // file event.c line 378
 extern void event_cleanup(void);
@@ -419,7 +419,7 @@ extern void event_cleanup(void);
 static signed int event_cmp(const void *data1, const void *data2);
 // event_delta
 // file event.c line 236
-static unsigned long int event_delta(const struct anonymous$32 *event_new, const struct anonymous$3 *events_old);
+static unsigned long int event_delta(const struct anonymous_32 *event_new, const struct anonymous_3 *events_old);
 // event_dump_diff
 // file event.c line 253
 extern void event_dump_diff(struct json_object *j_tests, const double duration);
@@ -428,7 +428,7 @@ extern void event_dump_diff(struct json_object *j_tests, const double duration);
 static void event_free(void *data);
 // event_get_all_pids
 // file event.c line 145
-extern signed int event_get_all_pids(const struct anonymous$3 *pids, enum anonymous$9 state);
+extern signed int event_get_all_pids(const struct anonymous_3 *pids, enum anonymous_9 state);
 // event_init
 // file event.c line 354
 extern void event_init(void);
@@ -473,19 +473,19 @@ static const char * find_executable(const char *filename);
 extern void fnotify_cleanup(void);
 // fnotify_dump_events
 // file fnotify.c line 653
-extern void fnotify_dump_events(struct json_object *j_tests, const double duration, const struct anonymous$3 *pids);
+extern void fnotify_dump_events(struct json_object *j_tests, const double duration, const struct anonymous_3 *pids);
 // fnotify_dump_files
 // file fnotify.c line 329
 static void fnotify_dump_files(struct json_object *j_tests, const double duration);
 // fnotify_dump_io_ops
 // file fnotify.c line 412
-static void fnotify_dump_io_ops(struct json_object *j_tests, const double duration, const struct anonymous$3 *pids);
+static void fnotify_dump_io_ops(struct json_object *j_tests, const double duration, const struct anonymous_3 *pids);
 // fnotify_dump_wakelocks
 // file fnotify.c line 567
 extern void fnotify_dump_wakelocks(struct json_object *j_tests, const double duration);
 // fnotify_event_add
 // file fnotify.c line 164
-extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanotify_event_metadata *metadata);
+extern signed int fnotify_event_add(const struct anonymous_3 *pids, struct fanotify_event_metadata *metadata);
 // fnotify_event_cmp_count
 // file fnotify.c line 271
 static signed int fnotify_event_cmp_count(const void *data1, const void *data2);
@@ -600,24 +600,24 @@ static inline signed int is_executable(const char *path);
 // j_obj_array_add
 // file json.h line 39
 static inline void j_obj_array_add(struct json_object *array, struct json_object *obj);
-// j_obj_array_add$link1
+// j_obj_array_add_link1
 // file json.h line 39
-static inline void j_obj_array_add$link1(struct json_object *array$link1, struct json_object *obj$link1);
-// j_obj_array_add$link2
+static inline void j_obj_array_add_link1(struct json_object *array_link1, struct json_object *obj_link1);
+// j_obj_array_add_link2
 // file json.h line 39
-static inline void j_obj_array_add$link2(struct json_object *array$link2, struct json_object *obj$link2);
-// j_obj_array_add$link3
+static inline void j_obj_array_add_link2(struct json_object *array_link2, struct json_object *obj_link2);
+// j_obj_array_add_link3
 // file json.h line 39
-static inline void j_obj_array_add$link3(struct json_object *array$link3, struct json_object *obj$link3);
-// j_obj_array_add$link4
+static inline void j_obj_array_add_link3(struct json_object *array_link3, struct json_object *obj_link3);
+// j_obj_array_add_link4
 // file json.h line 39
-static inline void j_obj_array_add$link4(struct json_object *array$link4, struct json_object *obj$link4);
-// j_obj_array_add$link5
+static inline void j_obj_array_add_link4(struct json_object *array_link4, struct json_object *obj_link4);
+// j_obj_array_add_link5
 // file json.h line 39
-static inline void j_obj_array_add$link5(struct json_object *array$link5, struct json_object *obj$link5);
-// j_obj_array_add$link6
+static inline void j_obj_array_add_link5(struct json_object *array_link5, struct json_object *obj_link5);
+// j_obj_array_add_link6
 // file json.h line 39
-static inline void j_obj_array_add$link6(struct json_object *array$link6, struct json_object *obj$link6);
+static inline void j_obj_array_add_link6(struct json_object *array_link6, struct json_object *obj_link6);
 // j_obj_is_null
 // file json.c line 34
 static inline void j_obj_is_null(struct json_object *obj, const char *msg);
@@ -630,72 +630,72 @@ extern struct json_object * j_obj_new_double(const double d);
 // j_obj_new_double_add
 // file json.h line 54
 static inline void j_obj_new_double_add(struct json_object *parent, const char *label, const double d);
-// j_obj_new_double_add$link1
+// j_obj_new_double_add_link1
 // file json.h line 54
-static inline void j_obj_new_double_add$link1(struct json_object *parent$link1, const char *label$link1, const double d$link1);
-// j_obj_new_double_add$link2
+static inline void j_obj_new_double_add_link1(struct json_object *parent_link1, const char *label_link1, const double d_link1);
+// j_obj_new_double_add_link2
 // file json.h line 54
-static inline void j_obj_new_double_add$link2(struct json_object *parent$link2, const char *label$link2, const double d$link2);
-// j_obj_new_double_add$link3
+static inline void j_obj_new_double_add_link2(struct json_object *parent_link2, const char *label_link2, const double d_link2);
+// j_obj_new_double_add_link3
 // file json.h line 54
-static inline void j_obj_new_double_add$link3(struct json_object *parent$link3, const char *label$link3, const double d$link3);
-// j_obj_new_double_add$link4
+static inline void j_obj_new_double_add_link3(struct json_object *parent_link3, const char *label_link3, const double d_link3);
+// j_obj_new_double_add_link4
 // file json.h line 54
-static inline void j_obj_new_double_add$link4(struct json_object *parent$link4, const char *label$link4, const double d$link4);
-// j_obj_new_double_add$link5
+static inline void j_obj_new_double_add_link4(struct json_object *parent_link4, const char *label_link4, const double d_link4);
+// j_obj_new_double_add_link5
 // file json.h line 54
-static inline void j_obj_new_double_add$link5(struct json_object *parent$link5, const char *label$link5, const double d$link5);
-// j_obj_new_double_add$link6
+static inline void j_obj_new_double_add_link5(struct json_object *parent_link5, const char *label_link5, const double d_link5);
+// j_obj_new_double_add_link6
 // file json.h line 54
-static inline void j_obj_new_double_add$link6(struct json_object *parent$link6, const char *label$link6, const double d$link6);
+static inline void j_obj_new_double_add_link6(struct json_object *parent_link6, const char *label_link6, const double d_link6);
 // j_obj_new_int32
 // file json.h line 29
 extern struct json_object * j_obj_new_int32(const signed int i);
 // j_obj_new_int32_add
 // file json.h line 44
 static inline void j_obj_new_int32_add(struct json_object *parent, const char *label, const signed int i);
-// j_obj_new_int32_add$link1
+// j_obj_new_int32_add_link1
 // file json.h line 44
-static inline void j_obj_new_int32_add$link1(struct json_object *parent$link1, const char *label$link1, const signed int i$link1);
-// j_obj_new_int32_add$link2
+static inline void j_obj_new_int32_add_link1(struct json_object *parent_link1, const char *label_link1, const signed int i_link1);
+// j_obj_new_int32_add_link2
 // file json.h line 44
-static inline void j_obj_new_int32_add$link2(struct json_object *parent$link2, const char *label$link2, const signed int i$link2);
-// j_obj_new_int32_add$link3
+static inline void j_obj_new_int32_add_link2(struct json_object *parent_link2, const char *label_link2, const signed int i_link2);
+// j_obj_new_int32_add_link3
 // file json.h line 44
-static inline void j_obj_new_int32_add$link3(struct json_object *parent$link3, const char *label$link3, const signed int i$link3);
-// j_obj_new_int32_add$link4
+static inline void j_obj_new_int32_add_link3(struct json_object *parent_link3, const char *label_link3, const signed int i_link3);
+// j_obj_new_int32_add_link4
 // file json.h line 44
-static inline void j_obj_new_int32_add$link4(struct json_object *parent$link4, const char *label$link4, const signed int i$link4);
-// j_obj_new_int32_add$link5
+static inline void j_obj_new_int32_add_link4(struct json_object *parent_link4, const char *label_link4, const signed int i_link4);
+// j_obj_new_int32_add_link5
 // file json.h line 44
-static inline void j_obj_new_int32_add$link5(struct json_object *parent$link5, const char *label$link5, const signed int i$link5);
-// j_obj_new_int32_add$link6
+static inline void j_obj_new_int32_add_link5(struct json_object *parent_link5, const char *label_link5, const signed int i_link5);
+// j_obj_new_int32_add_link6
 // file json.h line 44
-static inline void j_obj_new_int32_add$link6(struct json_object *parent$link6, const char *label$link6, const signed int i$link6);
+static inline void j_obj_new_int32_add_link6(struct json_object *parent_link6, const char *label_link6, const signed int i_link6);
 // j_obj_new_int64
 // file json.h line 30
 extern struct json_object * j_obj_new_int64(const signed long int i);
 // j_obj_new_int64_add
 // file json.h line 49
 static inline void j_obj_new_int64_add(struct json_object *parent, const char *label, const signed long int i);
-// j_obj_new_int64_add$link1
+// j_obj_new_int64_add_link1
 // file json.h line 49
-static inline void j_obj_new_int64_add$link1(struct json_object *parent$link1, const char *label$link1, const signed long int i$link1);
-// j_obj_new_int64_add$link2
+static inline void j_obj_new_int64_add_link1(struct json_object *parent_link1, const char *label_link1, const signed long int i_link1);
+// j_obj_new_int64_add_link2
 // file json.h line 49
-static inline void j_obj_new_int64_add$link2(struct json_object *parent$link2, const char *label$link2, const signed long int i$link2);
-// j_obj_new_int64_add$link3
+static inline void j_obj_new_int64_add_link2(struct json_object *parent_link2, const char *label_link2, const signed long int i_link2);
+// j_obj_new_int64_add_link3
 // file json.h line 49
-static inline void j_obj_new_int64_add$link3(struct json_object *parent$link3, const char *label$link3, const signed long int i$link3);
-// j_obj_new_int64_add$link4
+static inline void j_obj_new_int64_add_link3(struct json_object *parent_link3, const char *label_link3, const signed long int i_link3);
+// j_obj_new_int64_add_link4
 // file json.h line 49
-static inline void j_obj_new_int64_add$link4(struct json_object *parent$link4, const char *label$link4, const signed long int i$link4);
-// j_obj_new_int64_add$link5
+static inline void j_obj_new_int64_add_link4(struct json_object *parent_link4, const char *label_link4, const signed long int i_link4);
+// j_obj_new_int64_add_link5
 // file json.h line 49
-static inline void j_obj_new_int64_add$link5(struct json_object *parent$link5, const char *label$link5, const signed long int i$link5);
-// j_obj_new_int64_add$link6
+static inline void j_obj_new_int64_add_link5(struct json_object *parent_link5, const char *label_link5, const signed long int i_link5);
+// j_obj_new_int64_add_link6
 // file json.h line 49
-static inline void j_obj_new_int64_add$link6(struct json_object *parent$link6, const char *label$link6, const signed long int i$link6);
+static inline void j_obj_new_int64_add_link6(struct json_object *parent_link6, const char *label_link6, const signed long int i_link6);
 // j_obj_new_obj
 // file json.h line 28
 extern struct json_object * j_obj_new_obj(void);
@@ -705,45 +705,45 @@ extern struct json_object * j_obj_new_string(const char *str);
 // j_obj_new_string_add
 // file json.h line 59
 static inline void j_obj_new_string_add(struct json_object *parent, const char *label, const char *str);
-// j_obj_new_string_add$link1
+// j_obj_new_string_add_link1
 // file json.h line 59
-static inline void j_obj_new_string_add$link1(struct json_object *parent$link1, const char *label$link1, const char *str$link1);
-// j_obj_new_string_add$link2
+static inline void j_obj_new_string_add_link1(struct json_object *parent_link1, const char *label_link1, const char *str_link1);
+// j_obj_new_string_add_link2
 // file json.h line 59
-static inline void j_obj_new_string_add$link2(struct json_object *parent$link2, const char *label$link2, const char *str$link2);
-// j_obj_new_string_add$link3
+static inline void j_obj_new_string_add_link2(struct json_object *parent_link2, const char *label_link2, const char *str_link2);
+// j_obj_new_string_add_link3
 // file json.h line 59
-static inline void j_obj_new_string_add$link3(struct json_object *parent$link3, const char *label$link3, const char *str$link3);
-// j_obj_new_string_add$link4
+static inline void j_obj_new_string_add_link3(struct json_object *parent_link3, const char *label_link3, const char *str_link3);
+// j_obj_new_string_add_link4
 // file json.h line 59
-static inline void j_obj_new_string_add$link4(struct json_object *parent$link4, const char *label$link4, const char *str$link4);
-// j_obj_new_string_add$link5
+static inline void j_obj_new_string_add_link4(struct json_object *parent_link4, const char *label_link4, const char *str_link4);
+// j_obj_new_string_add_link5
 // file json.h line 59
-static inline void j_obj_new_string_add$link5(struct json_object *parent$link5, const char *label$link5, const char *str$link5);
-// j_obj_new_string_add$link6
+static inline void j_obj_new_string_add_link5(struct json_object *parent_link5, const char *label_link5, const char *str_link5);
+// j_obj_new_string_add_link6
 // file json.h line 59
-static inline void j_obj_new_string_add$link6(struct json_object *parent$link6, const char *label$link6, const char *str$link6);
+static inline void j_obj_new_string_add_link6(struct json_object *parent_link6, const char *label_link6, const char *str_link6);
 // j_obj_obj_add
 // file json.h line 34
 static inline void j_obj_obj_add(struct json_object *parent, const char *label, struct json_object *obj);
-// j_obj_obj_add$link1
+// j_obj_obj_add_link1
 // file json.h line 34
-static inline void j_obj_obj_add$link1(struct json_object *parent$link1, const char *label$link1, struct json_object *obj$link1);
-// j_obj_obj_add$link2
+static inline void j_obj_obj_add_link1(struct json_object *parent_link1, const char *label_link1, struct json_object *obj_link1);
+// j_obj_obj_add_link2
 // file json.h line 34
-static inline void j_obj_obj_add$link2(struct json_object *parent$link2, const char *label$link2, struct json_object *obj$link2);
-// j_obj_obj_add$link3
+static inline void j_obj_obj_add_link2(struct json_object *parent_link2, const char *label_link2, struct json_object *obj_link2);
+// j_obj_obj_add_link3
 // file json.h line 34
-static inline void j_obj_obj_add$link3(struct json_object *parent$link3, const char *label$link3, struct json_object *obj$link3);
-// j_obj_obj_add$link4
+static inline void j_obj_obj_add_link3(struct json_object *parent_link3, const char *label_link3, struct json_object *obj_link3);
+// j_obj_obj_add_link4
 // file json.h line 34
-static inline void j_obj_obj_add$link4(struct json_object *parent$link4, const char *label$link4, struct json_object *obj$link4);
-// j_obj_obj_add$link5
+static inline void j_obj_obj_add_link4(struct json_object *parent_link4, const char *label_link4, struct json_object *obj_link4);
+// j_obj_obj_add_link5
 // file json.h line 34
-static inline void j_obj_obj_add$link5(struct json_object *parent$link5, const char *label$link5, struct json_object *obj$link5);
-// j_obj_obj_add$link6
+static inline void j_obj_obj_add_link5(struct json_object *parent_link5, const char *label_link5, struct json_object *obj_link5);
+// j_obj_obj_add_link6
 // file json.h line 34
-static inline void j_obj_obj_add$link6(struct json_object *parent$link6, const char *label$link6, struct json_object *obj$link6);
+static inline void j_obj_obj_add_link6(struct json_object *parent_link6, const char *label_link6, struct json_object *obj_link6);
 // json_object_array_add
 // file /usr/include/json-c/json_object.h line 395
 extern signed int json_object_array_add(struct json_object *, struct json_object *);
@@ -782,22 +782,22 @@ static signed int json_write(struct json_object *obj, const char *filename);
 extern signed int kill(signed int, signed int);
 // list_add_ordered
 // file list.c line 66
-extern struct link * list_add_ordered(struct anonymous$3 *list, void *new_data, signed int (* const compare)(const void *, const void *));
-// list_add_ordered::compare$object
+extern struct link * list_add_ordered(struct anonymous_3 *list, void *new_data, signed int (* const compare)(const void *, const void *));
+// list_add_ordered::compare_object
 //
-signed int compare$object(const void *, const void *);
+signed int compare_object(const void *, const void *);
 // list_append
 // file list.c line 41
-extern struct link * list_append(struct anonymous$3 *list, void *data);
+extern struct link * list_append(struct anonymous_3 *list, void *data);
 // list_free
 // file list.c line 98
-extern void list_free(struct anonymous$3 *list, void (* const freefunc)(void *));
-// list_free::freefunc$object
+extern void list_free(struct anonymous_3 *list, void (* const freefunc)(void *));
+// list_free::freefunc_object
 //
-void freefunc$object(void *);
+void freefunc_object(void *);
 // list_init
 // file list.c line 30
-extern void list_init(struct anonymous$3 *list);
+extern void list_init(struct anonymous_3 *list);
 // localtime
 // file /usr/include/time.h line 243
 extern struct tm * localtime(const signed long int *);
@@ -818,7 +818,7 @@ extern void mem_cleanup(void);
 static signed int mem_cmp(const void *data1, const void *data2);
 // mem_delta
 // file mem.c line 520
-static struct mem_info_t * mem_delta(struct mem_info_t *mem_new, const struct anonymous$3 *mem_old_list);
+static struct mem_info_t * mem_delta(struct mem_info_t *mem_new, const struct anonymous_3 *mem_old_list);
 // mem_dump_brk
 // file mem.c line 292
 extern void mem_dump_brk(struct json_object *j_tests, const double duration);
@@ -830,10 +830,10 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
 extern void mem_dump_mmap(struct json_object *j_tests, const double duration);
 // mem_get_all_pids
 // file mem.c line 503
-extern signed int mem_get_all_pids(const struct anonymous$3 *pids, const enum anonymous$9 state);
+extern signed int mem_get_all_pids(const struct anonymous_3 *pids, const enum anonymous_9 state);
 // mem_get_by_proc
 // file mem.h line 66
-extern signed int mem_get_by_proc(struct proc_info *p, const enum anonymous$9 state);
+extern signed int mem_get_by_proc(struct proc_info *p, const enum anonymous_9 state);
 // mem_get_entry
 // file mem.c line 413
 static signed int mem_get_entry(struct _IO_FILE *fp, struct mem_info_t *mem);
@@ -872,16 +872,16 @@ extern void net_account_recv(const signed int pid, const signed int fd, unsigned
 extern void net_account_send(const signed int pid, const signed int fd, unsigned long int size);
 // net_add_dump_info
 // file net.c line 401
-static void net_add_dump_info(struct anonymous$3 *list, struct anonymous$22 *new_dump_info);
+static void net_add_dump_info(struct anonymous_3 *list, struct anonymous_22 *new_dump_info);
 // net_addr_add
 // file net.c line 332
-static struct anonymous$21 * net_addr_add(struct anonymous$21 *addr);
+static struct anonymous_21 * net_addr_add(struct anonymous_21 *addr);
 // net_cache_inode_by_pid_and_fd
 // file net.c line 192
-static struct anonymous$17 * net_cache_inode_by_pid_and_fd(const signed int pid, const signed int fd);
+static struct anonymous_17 * net_cache_inode_by_pid_and_fd(const signed int pid, const signed int fd);
 // net_cache_inodes
 // file net.c line 278
-static signed int net_cache_inodes(struct anonymous$3 *pids);
+static signed int net_cache_inodes(struct anonymous_3 *pids);
 // net_cache_inodes_pid
 // file net.c line 238
 static signed int net_cache_inodes_pid(const signed int pid);
@@ -899,13 +899,13 @@ extern void net_connection_init(void);
 extern signed int net_connection_pid(const signed int pid);
 // net_connection_pids
 // file net.c line 780
-extern signed int net_connection_pids(struct anonymous$3 *pids);
+extern signed int net_connection_pids(struct anonymous_3 *pids);
 // net_dump_info_cmp
 // file net.c line 429
 static signed int net_dump_info_cmp(const void *p1, const void *p2);
 // net_get_addr
 // file net.c line 360
-static char * net_get_addr(struct anonymous$21 *addr_info);
+static char * net_get_addr(struct anonymous_21 *addr_info);
 // net_get_inode
 // file net.c line 157
 static signed int net_get_inode(const char *str, unsigned long int *inode);
@@ -917,7 +917,7 @@ static signed int net_get_inode_by_path(const char *path, unsigned long int *ino
 static inline unsigned long int net_hash(const unsigned long int inode);
 // net_hash_add
 // file net.c line 122
-static struct anonymous$17 * net_hash_add(const char *path, const unsigned long int inode, const signed int pid, const unsigned int fd);
+static struct anonymous_17 * net_hash_add(const char *path, const unsigned long int inode, const signed int pid, const unsigned int fd);
 // net_inet4_resolve
 // file net.c line 294
 static void net_inet4_resolve(char *name, const unsigned long int len, struct sockaddr_in *sin);
@@ -935,7 +935,7 @@ static signed int net_parse(void);
 static void net_size_to_str(char *buf, unsigned long int buf_len, unsigned long int size);
 // net_tcp_udp_parse
 // file net.c line 649
-static signed int net_tcp_udp_parse(const enum anonymous$19 type);
+static signed int net_tcp_udp_parse(const enum anonymous_19 type);
 // net_unix_parse
 // file net.c line 611
 static signed int net_unix_parse(void);
@@ -953,19 +953,19 @@ static signed int pagefault_cmp(const void *data1, const void *data2);
 extern signed int pagefault_dump_diff(struct json_object *j_tests, const double duration);
 // parse_pid_list
 // file health-check.c line 131
-static signed int parse_pid_list(char *arg, struct anonymous$3 *pids);
+static signed int parse_pid_list(char *arg, struct anonymous_3 *pids);
 // pid_exists
 // file pid.c line 102
 extern _Bool pid_exists(const signed int pid);
 // pid_get_children
 // file pid.c line 134
-static signed int pid_get_children(const signed int pid, struct anonymous$3 *children);
+static signed int pid_get_children(const signed int pid, struct anonymous_3 *children);
 // pid_list_find
 // file pid.c line 115
-extern _Bool pid_list_find(const signed int pid, struct anonymous$3 *list);
+extern _Bool pid_list_find(const signed int pid, struct anonymous_3 *list);
 // pid_list_get_children
 // file pid.c line 157
-extern signed int pid_list_get_children(struct anonymous$3 *pids);
+extern signed int pid_list_get_children(struct anonymous_3 *pids);
 // posix_memalign
 // file /usr/include/stdlib.h line 503
 extern signed int posix_memalign(void **, unsigned long int, unsigned long int);
@@ -986,7 +986,7 @@ extern void proc_cache_cleanup(void);
 extern struct proc_info * proc_cache_find_by_pid(const signed int pid);
 // proc_cache_find_by_procname
 // file proc.c line 287
-extern signed int proc_cache_find_by_procname(struct anonymous$3 *pids, const char *procname);
+extern signed int proc_cache_find_by_procname(struct anonymous_3 *pids, const char *procname);
 // proc_cache_get
 // file proc.c line 152
 extern signed int proc_cache_get(void);
@@ -1004,7 +1004,7 @@ static void proc_cache_info_free(void *data);
 extern void proc_cache_init(void);
 // proc_pids_add_proc
 // file proc.c line 262
-extern signed int proc_pids_add_proc(struct anonymous$3 *pids, struct proc_info *p);
+extern signed int proc_pids_add_proc(struct anonymous_3 *pids, struct proc_info *p);
 // pthread_cancel
 // file /usr/include/pthread.h line 515
 extern signed int pthread_cancel(unsigned long int);
@@ -1019,13 +1019,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -1046,7 +1046,7 @@ extern struct dirent * readdir(struct __dirstream *);
 extern signed long int readlink(const char *, char *, unsigned long int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$12 *, struct anonymous$12 *, struct anonymous$12 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_12 *, struct anonymous_12 *, struct anonymous_12 *, struct timeval *);
 // setmntent
 // file /usr/include/mntent.h line 66
 extern struct _IO_FILE * setmntent(const char *, const char *);
@@ -1064,7 +1064,7 @@ static void show_usage(void);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$15 *);
+extern signed int sigemptyset(struct anonymous_15 *);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -1077,9 +1077,9 @@ extern signed int sscanf(const char *, const char *, ...);
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf);
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1);
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1);
 // strcpy
 // file /usr/include/string.h line 129
 extern char * strcpy(char *, const char *);
@@ -1160,7 +1160,7 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
 extern void syscall_dump_sync(struct json_object *j_tests, double duration);
 // syscall_dump_wakelocks
 // file syscall.c line 1673
-extern void syscall_dump_wakelocks(struct json_object *j_tests, const double duration, struct anonymous$3 *pids);
+extern void syscall_dump_wakelocks(struct json_object *j_tests, const double duration, struct anonymous_3 *pids);
 // syscall_execve_args
 // file syscall.c line 2043
 void syscall_execve_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid);
@@ -1190,7 +1190,7 @@ static signed int syscall_get_args(const signed int pid, const signed int arg, u
 static inline signed int syscall_get_call(const signed int pid, signed int *syscall);
 // syscall_get_call_state
 // file syscall.c line 374
-static inline enum anonymous$27 syscall_get_call_state(const signed int pid);
+static inline enum anonymous_27 syscall_get_call_state(const signed int pid);
 // syscall_get_context
 // file syscall.c line 2589
 static struct syscall_context * syscall_get_context(signed int pid);
@@ -1290,15 +1290,15 @@ static inline double syscall_timeval_to_double(struct timeval *tv);
 // syscall_trace
 // file syscall.c line 2652
 extern void * syscall_trace(void *arg);
-// syscall_trace::1::1::__cancel_routine$object
+// syscall_trace::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // syscall_trace_cleanup
 // file syscall.c line 2626
 static void syscall_trace_cleanup(void *arg);
 // syscall_trace_proc
 // file syscall.c line 2823
-extern signed int syscall_trace_proc(struct anonymous$3 *pids);
+extern signed int syscall_trace_proc(struct anonymous_3 *pids);
 // syscall_valid
 // file syscall.c line 155
 static _Bool syscall_valid(const signed int syscall);
@@ -1313,7 +1313,7 @@ static void syscall_wakelock_fd_cache_free(void);
 static void syscall_wakelock_free(void *ptr);
 // syscall_wakelock_names_by_pid
 // file syscall.c line 1648
-void syscall_wakelock_names_by_pid(signed int pid, struct anonymous$3 *wakelock_names);
+void syscall_wakelock_names_by_pid(signed int pid, struct anonymous_3 *wakelock_names);
 // syscall_write_args
 // file syscall.c line 1144
 static void syscall_write_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid);
@@ -1336,7 +1336,7 @@ static inline signed int tolower(signed int __c);
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);
 
-struct anonymous$0
+struct anonymous_0
 {
   // filename
   char *filename;
@@ -1346,17 +1346,17 @@ struct anonymous$0
   signed int syscall;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // addr_info
-  struct anonymous$21 *addr_info;
+  struct anonymous_21 *addr_info;
   // nh
-  struct anonymous$17 *nh;
+  struct anonymous_17 *nh;
   // send_recv_total
   unsigned long int send_recv_total;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // head
   struct link *head;
@@ -1366,7 +1366,7 @@ struct anonymous$3
   unsigned long int length;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // proc
   struct proc_info *proc;
@@ -1378,7 +1378,7 @@ struct anonymous$24
   unsigned long int count;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // proc
   struct proc_info *proc;
@@ -1392,7 +1392,7 @@ struct anonymous$32
   unsigned long int count;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // call_count
   unsigned long int call_count;
@@ -1400,7 +1400,7 @@ struct anonymous$16
   unsigned long int data_total;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // proc
   struct proc_info *proc;
@@ -1409,14 +1409,14 @@ struct anonymous$17
   // fd
   unsigned int fd;
   // send
-  struct anonymous$16 send;
+  struct anonymous_16 send;
   // recv
-  struct anonymous$16 recv;
+  struct anonymous_16 recv;
   // path
   char path[4097l];
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // proc
   struct proc_info *proc;
@@ -1436,7 +1436,7 @@ struct timeval
   signed long int tv_usec;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // proc
   struct proc_info *proc;
@@ -1456,7 +1456,7 @@ struct anonymous$37
   double duration;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // proc
   struct proc_info *proc;
@@ -1470,7 +1470,7 @@ struct anonymous$13
   _Bool valid;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // _call_addr
   void *_call_addr;
@@ -1480,7 +1480,7 @@ struct anonymous$35
   unsigned int _arch;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // si_addr
   void *si_addr;
@@ -1488,19 +1488,19 @@ struct anonymous$33
   signed short int si_addr_lsb;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -1508,10 +1508,10 @@ struct anonymous$10
   signed int __mask_was_saved;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __cancel_jmp_buf
-  struct anonymous$10 __cancel_jmp_buf[1l];
+  struct anonymous_10 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
@@ -1542,7 +1542,7 @@ struct sockaddr_in
   unsigned char sin_zero[8l];
 };
 
-union anonymous$18
+union anonymous_18
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1555,7 +1555,7 @@ union anonymous$18
 struct in6_addr
 {
   // __in6_u
-  union anonymous$18 __in6_u;
+  union anonymous_18 __in6_u;
 };
 
 struct sockaddr_in6
@@ -1572,7 +1572,7 @@ struct sockaddr_in6
   unsigned int sin6_scope_id;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // addr4
   struct sockaddr_in addr4;
@@ -1582,19 +1582,19 @@ union anonymous$20
   char path[4097l];
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // type
-  enum anonymous$19 type;
+  enum anonymous_19 type;
   // u
-  union anonymous$20 u;
+  union anonymous_20 u;
   // family
   signed int family;
   // inode
   unsigned long int inode;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // timeout
   double timeout;
@@ -1602,7 +1602,7 @@ struct anonymous$26
   signed int ret;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // pid
   signed int pid;
@@ -1614,7 +1614,7 @@ struct anonymous$2
   unsigned long int brk_count;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // pid
   signed int pid;
@@ -1643,10 +1643,10 @@ struct anonymous
   // total_count
   unsigned long int total_count;
   // sync_file
-  struct anonymous$3 sync_file;
+  struct anonymous_3 sync_file;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // si_pid
   signed int si_pid;
@@ -1654,7 +1654,7 @@ struct anonymous$28
   unsigned int si_uid;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // si_pid
   signed int si_pid;
@@ -1676,7 +1676,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // si_pid
   signed int si_pid;
@@ -1686,7 +1686,7 @@ struct anonymous$30
   union sigval si_sigval;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // si_tid
   signed int si_tid;
@@ -1696,7 +1696,7 @@ struct anonymous$29
   union sigval si_sigval;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // si_band
   signed long int si_band;
@@ -1704,27 +1704,27 @@ struct anonymous$34
   signed int si_fd;
 };
 
-union anonymous$36
+union anonymous_36
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$28 _kill;
+  struct anonymous_28 _kill;
   // _timer
-  struct anonymous$29 _timer;
+  struct anonymous_29 _timer;
   // _rt
-  struct anonymous$30 _rt;
+  struct anonymous_30 _rt;
   // _sigchld
-  struct anonymous$31 _sigchld;
+  struct anonymous_31 _sigchld;
   // _sigfault
-  struct anonymous$33 _sigfault;
+  struct anonymous_33 _sigfault;
   // _sigpoll
-  struct anonymous$34 _sigpoll;
+  struct anonymous_34 _sigpoll;
   // _sigsys
-  struct anonymous$35 _sigsys;
+  struct anonymous_35 _sigsys;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_signo
   signed int si_signo;
@@ -1733,10 +1733,10 @@ struct anonymous$7
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$36 _sifields;
+  union anonymous_36 _sifields;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // open_total
   unsigned long int open_total;
@@ -1752,15 +1752,15 @@ struct anonymous$25
   struct proc_info *proc;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$7 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_7 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -1796,7 +1796,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1919,7 +1919,7 @@ struct fd_cache
   // filename
   char *filename;
   // mutex
-  union anonymous$5 mutex;
+  union anonymous_5 mutex;
   // next
   struct fd_cache *next;
 };
@@ -2025,9 +2025,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$14 __sigaction_handler;
+  union anonymous_14 __sigaction_handler;
   // sa_mask
-  struct anonymous$15 sa_mask;
+  struct anonymous_15 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2145,7 +2145,7 @@ struct syscall_info
   // bucket
   unsigned long int bucket[9l];
   // return_history
-  struct anonymous$3 return_history;
+  struct anonymous_3 return_history;
   // next
   struct syscall_info *next;
 };
@@ -2201,28 +2201,28 @@ struct tm
 
 // __pids
 // file syscall.c line 94
-static struct anonymous$3 *__pids;
+static struct anonymous_3 *__pids;
 // caught_sigint
 // file health-check.c line 57
 static _Bool caught_sigint = (_Bool)0;
 // cpustat_info_finish
 // file cpustat.c line 36
-static struct anonymous$3 cpustat_info_finish;
+static struct anonymous_3 cpustat_info_finish;
 // cpustat_info_start
 // file cpustat.c line 36
-static struct anonymous$3 cpustat_info_start;
+static struct anonymous_3 cpustat_info_start;
 // ctxt_switch_info_finish
 // file ctxt-switch.c line 35
-static struct anonymous$3 ctxt_switch_info_finish;
+static struct anonymous_3 ctxt_switch_info_finish;
 // ctxt_switch_info_start
 // file ctxt-switch.c line 35
-static struct anonymous$3 ctxt_switch_info_start;
+static struct anonymous_3 ctxt_switch_info_start;
 // event_info_finish
 // file event.c line 34
-static struct anonymous$3 event_info_finish;
+static struct anonymous_3 event_info_finish;
 // event_info_start
 // file event.c line 34
-static struct anonymous$3 event_info_start;
+static struct anonymous_3 event_info_start;
 // fd_cache
 // file syscall.c line 100
 static struct fd_cache *fd_cache[1997l];
@@ -2231,10 +2231,10 @@ static struct fd_cache *fd_cache[1997l];
 static struct filename_info *filename_cache[1997l];
 // fnotify_files
 // file fnotify.c line 43
-static struct anonymous$3 fnotify_files;
+static struct anonymous_3 fnotify_files;
 // fnotify_wakelocks
 // file fnotify.c line 43
-static struct anonymous$3 fnotify_wakelocks;
+static struct anonymous_3 fnotify_wakelocks;
 // info_emit
 // file syscall.c line 86
 static signed int info_emit = 0;
@@ -2246,25 +2246,25 @@ volatile _Bool keep_running = (volatile _Bool)1;
 static signed int main_pid = -1;
 // mem_brk_info
 // file mem.c line 37
-static struct anonymous$3 mem_brk_info;
+static struct anonymous_3 mem_brk_info;
 // mem_info_new
 // file mem.c line 36
-static struct anonymous$3 mem_info_new;
+static struct anonymous_3 mem_info_new;
 // mem_info_old
 // file mem.c line 36
-static struct anonymous$3 mem_info_old;
+static struct anonymous_3 mem_info_old;
 // mem_mmap_info
 // file mem.c line 38
-static struct anonymous$3 mem_mmap_info;
+static struct anonymous_3 mem_mmap_info;
 // mem_types
 // file mem.c line 40
 static const char *mem_types[3l] = { "Stack", "Heap", "Mapped" };
 // net_cached_addrs
 // file net.c line 102
-static struct anonymous$3 net_cached_addrs;
+static struct anonymous_3 net_cached_addrs;
 // net_hash_table
 // file net.c line 107
-static struct anonymous$3 net_hash_table[1993l];
+static struct anonymous_3 net_hash_table[1993l];
 // net_types
 // file net.c line 87
 static const char *net_types[7l] = { "TCP", "TCP6", "UDP", "UDP6", "UNIX", "NETLINK", "" };
@@ -2282,7 +2282,7 @@ extern char *optarg;
 extern signed int optind;
 // pids_mutex
 // file proc.c line 41
-static union anonymous$5 pids_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_5 pids_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // proc_cache_hash
@@ -2290,10 +2290,10 @@ static union anonymous$5 pids_mutex = { .__data={ .__lock=0, .__count=(unsigned 
 static struct proc_info *proc_cache_hash[1997l];
 // proc_cache_list
 // file proc.c line 39
-struct anonymous$3 proc_cache_list;
+struct anonymous_3 proc_cache_list;
 // proc_cache_mutex
 // file proc.c line 42
-static union anonymous$5 proc_cache_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_5 proc_cache_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // procs_traced
@@ -2307,7 +2307,7 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdout;
 // syscall_contexts
 // file syscall.c line 92
-static struct anonymous$3 syscall_contexts;
+static struct anonymous_3 syscall_contexts;
 // syscall_contexts_cache
 // file syscall.c line 106
 static struct syscall_context *syscall_contexts_cache[1997l];
@@ -2319,7 +2319,7 @@ static signed long int syscall_count = (signed long int)0;
 static struct syscall_info *syscall_info[1997l];
 // syscall_syncs
 // file syscall.c line 93
-static struct anonymous$3 syscall_syncs;
+static struct anonymous_3 syscall_syncs;
 // syscall_timeout
 // file syscall.c line 109
 static double syscall_timeout[300l] = { 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 0.000000, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.0 };
@@ -2328,7 +2328,7 @@ static double syscall_timeout[300l] = { 0.000000, 0.000000, 0.000000, 0.000000, 
 static unsigned long int syscall_tracer;
 // syscall_wakelocks
 // file syscall.c line 91
-static struct anonymous$3 syscall_wakelocks;
+static struct anonymous_3 syscall_wakelocks;
 // syscalls
 // file syscall.c line 2845
 struct syscall syscalls[314l];
@@ -3649,18 +3649,18 @@ static inline char * __strtok_r_1c(char *__s, char __sep, char **__nextp)
   for( ; *__s == __sep; __s = __s + 1l)
     ;
   __result = (char *)(void *)0;
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   if(!((signed int)*__s == 0))
   {
-    tmp_post$1 = __s;
+    tmp_post_1 = __s;
     __s = __s + 1l;
-    __result = tmp_post$1;
+    __result = tmp_post_1;
     while(!((signed int)*__s == 0))
     {
-      tmp_post$2 = __s;
+      tmp_post_2 = __s;
       __s = __s + 1l;
-      if(*tmp_post$2 == __sep)
+      if(*tmp_post_2 == __sep)
       {
         __s[(signed long int)-1] = (char)0;
         break;
@@ -3677,18 +3677,18 @@ static inline char * __strtok_r_1c(char *__s, char __sep, char **__nextp)
 // file /usr/include/x86_64-linux-gnu/bits/stdlib-float.h line 26
 static inline double atof(const char *__nptr)
 {
-  double return_value_strtod$1;
-  return_value_strtod$1=strtod(__nptr, (char **)(void *)0);
-  return return_value_strtod$1;
+  double return_value_strtod_1;
+  return_value_strtod_1=strtod(__nptr, (char **)(void *)0);
+  return return_value_strtod_1;
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // cpustat_cleanup
@@ -3703,8 +3703,8 @@ extern void cpustat_cleanup(void)
 // file cpustat.c line 69
 static signed int cpustat_cmp(const void *data1, const void *data2)
 {
-  struct anonymous$37 *cpustat1 = (struct anonymous$37 *)data1;
-  struct anonymous$37 *cpustat2 = (struct anonymous$37 *)data2;
+  struct anonymous_37 *cpustat1 = (struct anonymous_37 *)data1;
+  struct anonymous_37 *cpustat2 = (struct anonymous_37 *)data2;
   return (signed int)(cpustat2->ttime - cpustat1->ttime);
 }
 
@@ -3713,9 +3713,9 @@ static signed int cpustat_cmp(const void *data1, const void *data2)
 extern signed int cpustat_dump_diff(struct json_object *j_tests, const double duration)
 {
   double nr_ticks;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(2);
-  nr_ticks = (double)return_value_sysconf$1 * duration;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(2);
+  nr_ticks = (double)return_value_sysconf_1 * duration;
   double utime_total = 0.0;
   double stime_total = 0.0;
   double ttime_total = 0.0;
@@ -3723,25 +3723,25 @@ extern signed int cpustat_dump_diff(struct json_object *j_tests, const double du
   signed int count = 0;
   struct link *lo;
   struct link *ln;
-  struct anonymous$3 sorted;
-  struct anonymous$37 *cio;
-  struct anonymous$37 *cin;
+  struct anonymous_3 sorted;
+  struct anonymous_37 *cio;
+  struct anonymous_37 *cin;
   list_init(&sorted);
   ln = cpustat_info_finish.head;
   for( ; !(ln == ((struct link *)NULL)); ln = ln->next)
   {
-    cin = (struct anonymous$37 *)ln->data;
+    cin = (struct anonymous_37 *)ln->data;
     lo = cpustat_info_start.head;
     for( ; !(lo == ((struct link *)NULL)); lo = lo->next)
     {
-      cio = (struct anonymous$37 *)lo->data;
+      cio = (struct anonymous_37 *)lo->data;
       if(cin->proc->pid == cio->proc->pid)
       {
-        struct anonymous$37 *cpustat;
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct anonymous$37) /*72ul*/ );
-        cpustat = (struct anonymous$37 *)return_value_calloc$2;
-        if(cpustat == ((struct anonymous$37 *)NULL))
+        struct anonymous_37 *cpustat;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct anonymous_37) /*72ul*/ );
+        cpustat = (struct anonymous_37 *)return_value_calloc_2;
+        if(cpustat == ((struct anonymous_37 *)NULL))
         {
           health_check_out_of_memory("cannot allocate cpustat information");
           goto out;
@@ -3751,14 +3751,14 @@ extern signed int cpustat_dump_diff(struct json_object *j_tests, const double du
         cpustat->utime = cin->utime - cio->utime;
         cpustat->stime = cin->stime - cio->stime;
         cpustat->ttime = cin->ttime - cio->ttime;
-        double return_value_timeval_to_double$3;
-        return_value_timeval_to_double$3=timeval_to_double(&cin->whence);
-        double return_value_timeval_to_double$4;
-        return_value_timeval_to_double$4=timeval_to_double(&cio->whence);
-        cpustat->duration = return_value_timeval_to_double$3 - return_value_timeval_to_double$4;
-        struct link *return_value_list_add_ordered$5;
-        return_value_list_add_ordered$5=list_add_ordered(&sorted, (void *)cpustat, cpustat_cmp);
-        if(return_value_list_add_ordered$5 == ((struct link *)NULL))
+        double return_value_timeval_to_double_3;
+        return_value_timeval_to_double_3=timeval_to_double(&cin->whence);
+        double return_value_timeval_to_double_4;
+        return_value_timeval_to_double_4=timeval_to_double(&cio->whence);
+        cpustat->duration = return_value_timeval_to_double_3 - return_value_timeval_to_double_4;
+        struct link *return_value_list_add_ordered_5;
+        return_value_list_add_ordered_5=list_add_ordered(&sorted, (void *)cpustat, cpustat_cmp);
+        if(return_value_list_add_ordered_5 == ((struct link *)NULL))
         {
           free((void *)cpustat);
           goto out;
@@ -3773,16 +3773,16 @@ extern signed int cpustat_dump_diff(struct json_object *j_tests, const double du
     }
   }
   printf("CPU usage (in terms of 1 CPU):\n");
-  const char *return_value_cpustat_loading$8;
+  const char *return_value_cpustat_loading_8;
   if(sorted.head == ((struct link *)NULL))
     printf(" Nothing measured.\n");
 
   else
     if(!((0x00000002 & opt_flags) == 0))
     {
-      const char *return_value_cpustat_loading$6;
-      return_value_cpustat_loading$6=cpustat_loading(100.0 * (double)ttime_total);
-      printf(" User: %6.2f%%, System: %6.2f%%, Total: %6.2f%% (%s)\n", 100.0 * utime_total, 100.0 * stime_total, 100.0 * ttime_total, return_value_cpustat_loading$6);
+      const char *return_value_cpustat_loading_6;
+      return_value_cpustat_loading_6=cpustat_loading(100.0 * (double)ttime_total);
+      printf(" User: %6.2f%%, System: %6.2f%%, Total: %6.2f%% (%s)\n", 100.0 * utime_total, 100.0 * stime_total, 100.0 * ttime_total, return_value_cpustat_loading_6);
     }
 
     else
@@ -3791,15 +3791,15 @@ extern signed int cpustat_dump_diff(struct json_object *j_tests, const double du
       ln = sorted.head;
       for( ; !(ln == ((struct link *)NULL)); ln = ln->next)
       {
-        cin = (struct anonymous$37 *)ln->data;
-        const char *return_value_cpustat_loading$7;
-        return_value_cpustat_loading$7=cpustat_loading((100.0 * (double)cin->ttime) / nr_ticks);
-        printf(" %5d %-20.20s %6.2f %6.2f %6.2f   %8.2f  (%s)\n", cin->proc->pid, cin->proc->cmdline, (100.0 * (double)cin->utime) / nr_ticks, (100.0 * (double)cin->stime) / nr_ticks, (100.0 * (double)cin->ttime) / nr_ticks, cin->duration, return_value_cpustat_loading$7);
+        cin = (struct anonymous_37 *)ln->data;
+        const char *return_value_cpustat_loading_7;
+        return_value_cpustat_loading_7=cpustat_loading((100.0 * (double)cin->ttime) / nr_ticks);
+        printf(" %5d %-20.20s %6.2f %6.2f %6.2f   %8.2f  (%s)\n", cin->proc->pid, cin->proc->cmdline, (100.0 * (double)cin->utime) / nr_ticks, (100.0 * (double)cin->stime) / nr_ticks, (100.0 * (double)cin->ttime) / nr_ticks, cin->duration, return_value_cpustat_loading_7);
       }
       if(count >= 2)
       {
-        return_value_cpustat_loading$8=cpustat_loading(100.0 * ttime_total);
-        printf(" %-26.26s %6.2f %6.2f %6.2f             (%s)\n", (const void *)"Total", 100.0 * utime_total, 100.0 * stime_total, 100.0 * ttime_total, return_value_cpustat_loading$8);
+        return_value_cpustat_loading_8=cpustat_loading(100.0 * ttime_total);
+        printf(" %-26.26s %6.2f %6.2f %6.2f             (%s)\n", (const void *)"Total", 100.0 * utime_total, 100.0 * stime_total, 100.0 * ttime_total, return_value_cpustat_loading_8);
       }
 
     }
@@ -3812,43 +3812,43 @@ extern signed int cpustat_dump_diff(struct json_object *j_tests, const double du
     if(j_cpustat == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link4(j_tests, "cpu-load", j_cpustat);
+    j_obj_obj_add_link4(j_tests, "cpu-load", j_cpustat);
     j_cpuload=j_obj_new_array();
     if(j_cpuload == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link4(j_cpustat, "cpu-load-per-process", j_cpuload);
+    j_obj_obj_add_link4(j_cpustat, "cpu-load-per-process", j_cpuload);
     ln = sorted.head;
     for( ; !(ln == ((struct link *)NULL)); ln = ln->next)
     {
-      cin = (struct anonymous$37 *)ln->data;
+      cin = (struct anonymous_37 *)ln->data;
       j_cpu=j_obj_new_obj();
       if(j_cpu == ((struct json_object *)NULL))
         goto out;
 
-      j_obj_new_int32_add$link4(j_cpu, "pid", cin->proc->pid);
-      j_obj_new_int32_add$link4(j_cpu, "ppid", cin->proc->ppid);
-      j_obj_new_int32_add$link4(j_cpu, "is-thread", (const signed int)cin->proc->is_thread);
-      j_obj_new_string_add$link4(j_cpu, "name", cin->proc->cmdline);
-      j_obj_new_int64_add$link4(j_cpu, "user-cpu-ticks", (const signed long int)cin->utime);
-      j_obj_new_int64_add$link4(j_cpu, "system-cpu-ticks", (const signed long int)cin->stime);
-      j_obj_new_int64_add$link4(j_cpu, "total-cpu-ticks", (const signed long int)cin->ttime);
-      j_obj_new_double_add$link4(j_cpu, "user-cpu-percent", (100.0 * (double)cin->utime) / nr_ticks);
-      j_obj_new_double_add$link4(j_cpu, "system-cpu-percent", (100.0 * (double)cin->stime) / nr_ticks);
-      j_obj_new_double_add$link4(j_cpu, "total-cpu-percent", (100.0 * (double)cin->ttime) / nr_ticks);
-      const char *return_value_cpustat_loading$9;
-      return_value_cpustat_loading$9=cpustat_loading((100.0 * (double)cin->ttime) / nr_ticks);
-      j_obj_new_string_add$link4(j_cpu, "load-hint", return_value_cpustat_loading$9);
-      j_obj_array_add$link4(j_cpuload, j_cpu);
+      j_obj_new_int32_add_link4(j_cpu, "pid", cin->proc->pid);
+      j_obj_new_int32_add_link4(j_cpu, "ppid", cin->proc->ppid);
+      j_obj_new_int32_add_link4(j_cpu, "is-thread", (const signed int)cin->proc->is_thread);
+      j_obj_new_string_add_link4(j_cpu, "name", cin->proc->cmdline);
+      j_obj_new_int64_add_link4(j_cpu, "user-cpu-ticks", (const signed long int)cin->utime);
+      j_obj_new_int64_add_link4(j_cpu, "system-cpu-ticks", (const signed long int)cin->stime);
+      j_obj_new_int64_add_link4(j_cpu, "total-cpu-ticks", (const signed long int)cin->ttime);
+      j_obj_new_double_add_link4(j_cpu, "user-cpu-percent", (100.0 * (double)cin->utime) / nr_ticks);
+      j_obj_new_double_add_link4(j_cpu, "system-cpu-percent", (100.0 * (double)cin->stime) / nr_ticks);
+      j_obj_new_double_add_link4(j_cpu, "total-cpu-percent", (100.0 * (double)cin->ttime) / nr_ticks);
+      const char *return_value_cpustat_loading_9;
+      return_value_cpustat_loading_9=cpustat_loading((100.0 * (double)cin->ttime) / nr_ticks);
+      j_obj_new_string_add_link4(j_cpu, "load-hint", return_value_cpustat_loading_9);
+      j_obj_array_add_link4(j_cpuload, j_cpu);
     }
     j_cpu=j_obj_new_obj();
     if(j_cpu == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link4(j_cpustat, "cpu-load-total", j_cpu);
-    j_obj_new_double_add$link4(j_cpu, "user-cpu-percent", 100.0 * utime_total);
-    j_obj_new_double_add$link4(j_cpu, "system-cpu-percent", 100.0 * stime_total);
-    j_obj_new_double_add$link4(j_cpu, "total-cpu-percent", 100.0 * ttime_total);
+    j_obj_obj_add_link4(j_cpustat, "cpu-load-total", j_cpu);
+    j_obj_new_double_add_link4(j_cpu, "user-cpu-percent", 100.0 * utime_total);
+    j_obj_new_double_add_link4(j_cpu, "system-cpu-percent", 100.0 * stime_total);
+    j_obj_new_double_add_link4(j_cpu, "total-cpu-percent", 100.0 * ttime_total);
   }
 
   printf("\n");
@@ -3861,7 +3861,7 @@ out:
 
 // cpustat_get_all_pids
 // file cpustat.c line 383
-extern signed int cpustat_get_all_pids(const struct anonymous$3 *pids, enum anonymous$9 state)
+extern signed int cpustat_get_all_pids(const struct anonymous_3 *pids, enum anonymous_9 state)
 {
   struct link *l = pids->head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
@@ -3869,9 +3869,9 @@ extern signed int cpustat_get_all_pids(const struct anonymous$3 *pids, enum anon
     struct proc_info *p = (struct proc_info *)l->data;
     if(p->is_thread == (_Bool)0)
     {
-      signed int return_value_cpustat_get_by_proc$1;
-      return_value_cpustat_get_by_proc$1=cpustat_get_by_proc(p, state);
-      if(!(return_value_cpustat_get_by_proc$1 >= 0))
+      signed int return_value_cpustat_get_by_proc_1;
+      return_value_cpustat_get_by_proc_1=cpustat_get_by_proc(p, state);
+      if(!(return_value_cpustat_get_by_proc_1 >= 0))
         return -1;
 
     }
@@ -3882,11 +3882,11 @@ extern signed int cpustat_get_all_pids(const struct anonymous$3 *pids, enum anon
 
 // cpustat_get_by_proc
 // file cpustat.h line 45
-extern signed int cpustat_get_by_proc(struct proc_info *proc, enum anonymous$9 state)
+extern signed int cpustat_get_by_proc(struct proc_info *proc, enum anonymous_9 state)
 {
   char filename[4096l];
   struct _IO_FILE *fp;
-  struct anonymous$3 *cpustat = (signed int)state == PROC_START ? &cpustat_info_start : &cpustat_info_finish;
+  struct anonymous_3 *cpustat = (signed int)state == PROC_START ? &cpustat_info_start : &cpustat_info_finish;
   snprintf(filename, sizeof(char [4096l]) /*4096ul*/ , "/proc/%d/stat", proc->pid);
   fp=fopen(filename, "r");
   if(!(fp == ((struct _IO_FILE *)NULL)))
@@ -3897,15 +3897,15 @@ extern signed int cpustat_get_by_proc(struct proc_info *proc, enum anonymous$9 s
     unsigned long int minor_fault;
     unsigned long int major_fault;
     signed int pid;
-    signed int return_value_fscanf$3;
-    return_value_fscanf$3=fscanf(fp, "%8d (%19[^)]) %*c %*d %*d %*d %*d %*d %*u %20lu %*u %20lu %*u %20lu %20lu", &pid, (const void *)comm, &minor_fault, &major_fault, &utime, &stime);
-    if(return_value_fscanf$3 == 6)
+    signed int return_value_fscanf_3;
+    return_value_fscanf_3=fscanf(fp, "%8d (%19[^)]) %*c %*d %*d %*d %*d %*d %*u %20lu %*u %20lu %*u %20lu %20lu", &pid, (const void *)comm, &minor_fault, &major_fault, &utime, &stime);
+    if(return_value_fscanf_3 == 6)
     {
-      struct anonymous$37 *info;
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$37) /*72ul*/ );
-      info = (struct anonymous$37 *)return_value_calloc$1;
-      if(info == ((struct anonymous$37 *)NULL))
+      struct anonymous_37 *info;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_37) /*72ul*/ );
+      info = (struct anonymous_37 *)return_value_calloc_1;
+      if(info == ((struct anonymous_37 *)NULL))
       {
         health_check_out_of_memory("allocating cpustat information");
         fclose(fp);
@@ -3920,9 +3920,9 @@ extern signed int cpustat_get_by_proc(struct proc_info *proc, enum anonymous$9 s
       info->minor_fault = minor_fault;
       gettimeofday(&info->whence, (struct timezone *)(void *)0);
       info->duration = 0.0;
-      struct link *return_value_list_append$2;
-      return_value_list_append$2=list_append(cpustat, (void *)info);
-      if(return_value_list_append$2 == ((struct link *)NULL))
+      struct link *return_value_list_append_2;
+      return_value_list_append_2=list_append(cpustat, (void *)info);
+      if(return_value_list_append_2 == ((struct link *)NULL))
       {
         free((void *)info);
         fclose(fp);
@@ -3992,8 +3992,8 @@ static const char * cpustat_loading(const double cpu_percent)
 // file ctxt-switch.c line 41
 static signed int ctx_switch_cmp(const void *data1, const void *data2)
 {
-  struct anonymous$13 *c1 = (struct anonymous$13 *)data1;
-  struct anonymous$13 *c2 = (struct anonymous$13 *)data2;
+  struct anonymous_13 *c1 = (struct anonymous_13 *)data1;
+  struct anonymous_13 *c2 = (struct anonymous_13 *)data2;
   return (signed int)(c2->total - c1->total);
 }
 
@@ -4007,12 +4007,12 @@ extern void ctxt_switch_cleanup(void)
 
 // ctxt_switch_delta
 // file ctxt-switch.c line 142
-static void ctxt_switch_delta(const struct anonymous$13 *ctxt_switch_new, const struct anonymous$3 *ctxt_switches_old, unsigned long int *total, unsigned long int *voluntary, unsigned long int *involuntary)
+static void ctxt_switch_delta(const struct anonymous_13 *ctxt_switch_new, const struct anonymous_3 *ctxt_switches_old, unsigned long int *total, unsigned long int *voluntary, unsigned long int *involuntary)
 {
   struct link *l = ctxt_switches_old->head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$13 *ctxt_switch_old = (struct anonymous$13 *)l->data;
+    struct anonymous_13 *ctxt_switch_old = (struct anonymous_13 *)l->data;
     if(ctxt_switch_new->proc == ctxt_switch_old->proc)
     {
       if(ctxt_switch_old->valid == (_Bool)0)
@@ -4038,30 +4038,30 @@ __CPROVER_DUMP_L5:
 extern void ctxt_switch_dump_diff(struct json_object *j_tests, const double duration)
 {
   struct link *l;
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   printf("Context Switches:\n");
   list_init(&sorted);
   l = ctxt_switch_info_finish.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$13 *new_info;
-    struct anonymous$13 *ctxt_switch_dump_diff$$1$$1$$1$$info = (struct anonymous$13 *)l->data;
-    if(!(ctxt_switch_dump_diff$$1$$1$$1$$info->valid == (_Bool)0))
+    struct anonymous_13 *new_info;
+    struct anonymous_13 *ctxt_switch_dump_diff__1__1__1__info = (struct anonymous_13 *)l->data;
+    if(!(ctxt_switch_dump_diff__1__1__1__info->valid == (_Bool)0))
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$13) /*40ul*/ );
-      new_info = (struct anonymous$13 *)return_value_calloc$1;
-      if(new_info == ((struct anonymous$13 *)NULL))
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_13) /*40ul*/ );
+      new_info = (struct anonymous_13 *)return_value_calloc_1;
+      if(new_info == ((struct anonymous_13 *)NULL))
       {
         health_check_out_of_memory("allocating context switch information");
         goto out;
       }
 
-      new_info->proc = ctxt_switch_dump_diff$$1$$1$$1$$info->proc;
-      ctxt_switch_delta(ctxt_switch_dump_diff$$1$$1$$1$$info, &ctxt_switch_info_start, &new_info->total, &new_info->voluntary, &new_info->involuntary);
-      struct link *return_value_list_add_ordered$2;
-      return_value_list_add_ordered$2=list_add_ordered(&sorted, (void *)new_info, ctx_switch_cmp);
-      if(return_value_list_add_ordered$2 == ((struct link *)NULL))
+      new_info->proc = ctxt_switch_dump_diff__1__1__1__info->proc;
+      ctxt_switch_delta(ctxt_switch_dump_diff__1__1__1__info, &ctxt_switch_info_start, &new_info->total, &new_info->voluntary, &new_info->involuntary);
+      struct link *return_value_list_add_ordered_2;
+      return_value_list_add_ordered_2=list_add_ordered(&sorted, (void *)new_info, ctx_switch_cmp);
+      if(return_value_list_add_ordered_2 == ((struct link *)NULL))
       {
         free((void *)new_info);
         goto out;
@@ -4078,13 +4078,13 @@ extern void ctxt_switch_dump_diff(struct json_object *j_tests, const double dura
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct anonymous$13 *ctxt_switch_dump_diff$$1$$2$$1$$1$$1$$info = (struct anonymous$13 *)l->data;
-        rate = rate + (double)ctxt_switch_dump_diff$$1$$2$$1$$1$$1$$info->total;
+        struct anonymous_13 *ctxt_switch_dump_diff__1__2__1__1__1__info = (struct anonymous_13 *)l->data;
+        rate = rate + (double)ctxt_switch_dump_diff__1__2__1__1__1__info->total;
       }
       rate = rate / duration;
-      const char *return_value_ctxt_switch_loading$3;
-      return_value_ctxt_switch_loading$3=ctxt_switch_loading(rate);
-      printf(" %.2f context switches/sec (%s)\n\n", rate, return_value_ctxt_switch_loading$3);
+      const char *return_value_ctxt_switch_loading_3;
+      return_value_ctxt_switch_loading_3=ctxt_switch_loading(rate);
+      printf(" %.2f context switches/sec (%s)\n\n", rate, return_value_ctxt_switch_loading_3);
     }
 
     else
@@ -4098,13 +4098,13 @@ extern void ctxt_switch_dump_diff(struct json_object *j_tests, const double dura
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct anonymous$13 *ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info = (struct anonymous$13 *)l->data;
-        const char *return_value_ctxt_switch_loading$4;
-        return_value_ctxt_switch_loading$4=ctxt_switch_loading((double)ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->total / duration);
-        printf(" %5d %-20.20s %12.2f %12.2f %12.2f (%s)\n", ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->proc->pid, ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->proc->cmdline, (double)ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->voluntary / duration, (double)ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->involuntary / duration, (double)ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->total / duration, return_value_ctxt_switch_loading$4);
-        total_voluntary = total_voluntary + (double)ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->voluntary;
-        total_involuntary = total_involuntary + (double)ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->involuntary;
-        total_total = total_total + (double)ctxt_switch_dump_diff$$1$$2$$2$$1$$1$$info->total;
+        struct anonymous_13 *ctxt_switch_dump_diff__1__2__2__1__1__info = (struct anonymous_13 *)l->data;
+        const char *return_value_ctxt_switch_loading_4;
+        return_value_ctxt_switch_loading_4=ctxt_switch_loading((double)ctxt_switch_dump_diff__1__2__2__1__1__info->total / duration);
+        printf(" %5d %-20.20s %12.2f %12.2f %12.2f (%s)\n", ctxt_switch_dump_diff__1__2__2__1__1__info->proc->pid, ctxt_switch_dump_diff__1__2__2__1__1__info->proc->cmdline, (double)ctxt_switch_dump_diff__1__2__2__1__1__info->voluntary / duration, (double)ctxt_switch_dump_diff__1__2__2__1__1__info->involuntary / duration, (double)ctxt_switch_dump_diff__1__2__2__1__1__info->total / duration, return_value_ctxt_switch_loading_4);
+        total_voluntary = total_voluntary + (double)ctxt_switch_dump_diff__1__2__2__1__1__info->voluntary;
+        total_involuntary = total_involuntary + (double)ctxt_switch_dump_diff__1__2__2__1__1__info->involuntary;
+        total_total = total_total + (double)ctxt_switch_dump_diff__1__2__2__1__1__info->total;
         count = count + 1;
       }
       if(count >= 2)
@@ -4126,45 +4126,45 @@ extern void ctxt_switch_dump_diff(struct json_object *j_tests, const double dura
     j_ctxt_switch_test=j_obj_new_obj();
     if(!(j_ctxt_switch_test == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link6(j_tests, "context-switches", j_ctxt_switch_test);
+      j_obj_obj_add_link6(j_tests, "context-switches", j_ctxt_switch_test);
       j_ctxt_switches=j_obj_new_array();
       if(!(j_ctxt_switches == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link6(j_ctxt_switch_test, "context-switches-per-process", j_ctxt_switches);
+        j_obj_obj_add_link6(j_ctxt_switch_test, "context-switches-per-process", j_ctxt_switches);
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          struct anonymous$13 *info = (struct anonymous$13 *)l->data;
+          struct anonymous_13 *info = (struct anonymous_13 *)l->data;
           total = total + (unsigned long int)(double)info->total;
           j_ctxt_switch=j_obj_new_obj();
           if(j_ctxt_switch == ((struct json_object *)NULL))
             goto out;
 
-          j_obj_new_int32_add$link6(j_ctxt_switch, "pid", info->proc->pid);
-          j_obj_new_int32_add$link6(j_ctxt_switch, "ppid", info->proc->ppid);
-          j_obj_new_int32_add$link6(j_ctxt_switch, "is-thread", (const signed int)info->proc->is_thread);
-          j_obj_new_string_add$link6(j_ctxt_switch, "name", info->proc->cmdline);
-          j_obj_new_int64_add$link6(j_ctxt_switch, "voluntary-context-switches", (const signed long int)info->voluntary);
-          j_obj_new_double_add$link6(j_ctxt_switch, "voluntary-context-switch-rate", (double)info->voluntary / duration);
-          j_obj_new_int64_add$link6(j_ctxt_switch, "involuntary-context-switches", (const signed long int)((double)info->involuntary / duration));
-          j_obj_new_double_add$link6(j_ctxt_switch, "involuntary-context-switch-rate", (double)info->involuntary / duration);
-          j_obj_new_int64_add$link6(j_ctxt_switch, "total-context-switches", (const signed long int)info->total);
-          j_obj_new_double_add$link6(j_ctxt_switch, "total-context-switch-rate", (double)info->total / duration);
-          const char *return_value_ctxt_switch_loading$5;
-          return_value_ctxt_switch_loading$5=ctxt_switch_loading((double)info->total / duration);
-          j_obj_new_string_add$link6(j_ctxt_switch, "load-hint", return_value_ctxt_switch_loading$5);
-          j_obj_array_add$link6(j_ctxt_switches, j_ctxt_switch);
+          j_obj_new_int32_add_link6(j_ctxt_switch, "pid", info->proc->pid);
+          j_obj_new_int32_add_link6(j_ctxt_switch, "ppid", info->proc->ppid);
+          j_obj_new_int32_add_link6(j_ctxt_switch, "is-thread", (const signed int)info->proc->is_thread);
+          j_obj_new_string_add_link6(j_ctxt_switch, "name", info->proc->cmdline);
+          j_obj_new_int64_add_link6(j_ctxt_switch, "voluntary-context-switches", (const signed long int)info->voluntary);
+          j_obj_new_double_add_link6(j_ctxt_switch, "voluntary-context-switch-rate", (double)info->voluntary / duration);
+          j_obj_new_int64_add_link6(j_ctxt_switch, "involuntary-context-switches", (const signed long int)((double)info->involuntary / duration));
+          j_obj_new_double_add_link6(j_ctxt_switch, "involuntary-context-switch-rate", (double)info->involuntary / duration);
+          j_obj_new_int64_add_link6(j_ctxt_switch, "total-context-switches", (const signed long int)info->total);
+          j_obj_new_double_add_link6(j_ctxt_switch, "total-context-switch-rate", (double)info->total / duration);
+          const char *return_value_ctxt_switch_loading_5;
+          return_value_ctxt_switch_loading_5=ctxt_switch_loading((double)info->total / duration);
+          j_obj_new_string_add_link6(j_ctxt_switch, "load-hint", return_value_ctxt_switch_loading_5);
+          j_obj_array_add_link6(j_ctxt_switches, j_ctxt_switch);
         }
         total_rate = (double)total / duration;
         j_ctxt_switch=j_obj_new_obj();
         if(!(j_ctxt_switch == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link6(j_ctxt_switch_test, "context-switches-total", j_ctxt_switch);
-          j_obj_new_int64_add$link6(j_ctxt_switch, "context-switch-total", (const signed long int)total);
-          j_obj_new_double_add$link6(j_ctxt_switch, "context-switch-total-rate", total_rate);
-          const char *return_value_ctxt_switch_loading$6;
-          return_value_ctxt_switch_loading$6=ctxt_switch_loading(total_rate);
-          j_obj_new_string_add$link6(j_ctxt_switch, "load-hint-total", return_value_ctxt_switch_loading$6);
+          j_obj_obj_add_link6(j_ctxt_switch_test, "context-switches-total", j_ctxt_switch);
+          j_obj_new_int64_add_link6(j_ctxt_switch, "context-switch-total", (const signed long int)total);
+          j_obj_new_double_add_link6(j_ctxt_switch, "context-switch-total-rate", total_rate);
+          const char *return_value_ctxt_switch_loading_6;
+          return_value_ctxt_switch_loading_6=ctxt_switch_loading(total_rate);
+          j_obj_new_string_add_link6(j_ctxt_switch, "load-hint-total", return_value_ctxt_switch_loading_6);
         }
 
       }
@@ -4181,15 +4181,15 @@ out:
 
 // ctxt_switch_get_all_pids
 // file ctxt-switch.c line 104
-extern signed int ctxt_switch_get_all_pids(const struct anonymous$3 *pids, enum anonymous$9 state)
+extern signed int ctxt_switch_get_all_pids(const struct anonymous_3 *pids, enum anonymous_9 state)
 {
   struct link *l = pids->head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     struct proc_info *p = (struct proc_info *)l->data;
-    signed int return_value_ctxt_switch_get_by_proc$1;
-    return_value_ctxt_switch_get_by_proc$1=ctxt_switch_get_by_proc(p, state);
-    if(!(return_value_ctxt_switch_get_by_proc$1 >= 0))
+    signed int return_value_ctxt_switch_get_by_proc_1;
+    return_value_ctxt_switch_get_by_proc_1=ctxt_switch_get_by_proc(p, state);
+    if(!(return_value_ctxt_switch_get_by_proc_1 >= 0))
       return -1;
 
   }
@@ -4198,25 +4198,25 @@ extern signed int ctxt_switch_get_all_pids(const struct anonymous$3 *pids, enum 
 
 // ctxt_switch_get_by_proc
 // file ctxt-switch.h line 41
-extern signed int ctxt_switch_get_by_proc(struct proc_info *proc, enum anonymous$9 state)
+extern signed int ctxt_switch_get_by_proc(struct proc_info *proc, enum anonymous_9 state)
 {
   char path[4096l];
   char buf[4096l];
   struct _IO_FILE *fp;
-  struct anonymous$13 *info;
-  struct anonymous$3 *ctxt_switches = (signed int)state == PROC_START ? &ctxt_switch_info_start : &ctxt_switch_info_finish;
+  struct anonymous_13 *info;
+  struct anonymous_3 *ctxt_switches = (signed int)state == PROC_START ? &ctxt_switch_info_start : &ctxt_switch_info_finish;
   snprintf(path, sizeof(char [4096l]) /*4096ul*/ , "/proc/%i/status", proc->pid);
   fp=fopen(path, "r");
-  signed int return_value_feof$2;
+  signed int return_value_feof_2;
   if(fp == ((struct _IO_FILE *)NULL))
     return 0;
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$13) /*40ul*/ );
-    info = (struct anonymous$13 *)return_value_calloc$1;
-    if(info == ((struct anonymous$13 *)NULL))
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_13) /*40ul*/ );
+    info = (struct anonymous_13 *)return_value_calloc_1;
+    if(info == ((struct anonymous_13 *)NULL))
     {
       health_check_out_of_memory("allocating context switch information");
       fclose(fp);
@@ -4231,25 +4231,25 @@ extern signed int ctxt_switch_get_by_proc(struct proc_info *proc, enum anonymous
       info->proc = proc;
       do
       {
-        return_value_feof$2=feof(fp);
-        if(!(return_value_feof$2 == 0))
+        return_value_feof_2=feof(fp);
+        if(!(return_value_feof_2 == 0))
           break;
 
-        char *return_value_fgets$3;
-        return_value_fgets$3=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
-        if(return_value_fgets$3 == ((char *)NULL))
+        char *return_value_fgets_3;
+        return_value_fgets_3=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
+        if(return_value_fgets_3 == ((char *)NULL))
           break;
 
-        signed int return_value_strncmp$4;
-        return_value_strncmp$4=strncmp(buf, "voluntary_ctxt_switches:", (unsigned long int)24);
-        if(return_value_strncmp$4 == 0)
+        signed int return_value_strncmp_4;
+        return_value_strncmp_4=strncmp(buf, "voluntary_ctxt_switches:", (unsigned long int)24);
+        if(return_value_strncmp_4 == 0)
           sscanf(buf + (signed long int)24, "%lu", &info->voluntary);
 
         else
         {
-          signed int return_value_strncmp$5;
-          return_value_strncmp$5=strncmp(buf, "nonvoluntary_ctxt_switches:", (unsigned long int)27);
-          if(return_value_strncmp$5 == 0)
+          signed int return_value_strncmp_5;
+          return_value_strncmp_5=strncmp(buf, "nonvoluntary_ctxt_switches:", (unsigned long int)27);
+          if(return_value_strncmp_5 == 0)
             sscanf(buf + (signed long int)27, "%lu", &info->involuntary);
 
         }
@@ -4258,9 +4258,9 @@ extern signed int ctxt_switch_get_by_proc(struct proc_info *proc, enum anonymous
       fclose(fp);
       info->total = info->voluntary + info->involuntary;
       info->valid = (_Bool)1;
-      struct link *return_value_list_append$6;
-      return_value_list_append$6=list_append(ctxt_switches, (void *)info);
-      if(return_value_list_append$6 == ((struct link *)NULL))
+      struct link *return_value_list_append_6;
+      return_value_list_append_6=list_append(ctxt_switches, (void *)info);
+      if(return_value_list_append_6 == ((struct link *)NULL))
       {
         free((void *)info);
         return -1;
@@ -4313,17 +4313,17 @@ static const char * ctxt_switch_loading(const double rate)
 
 // event_add
 // file event.c line 83
-static signed int event_add(struct anonymous$3 *events, const unsigned long int count, const signed int pid, const char *func, const char *callback)
+static signed int event_add(struct anonymous_3 *events, const unsigned long int count, const signed int pid, const char *func, const char *callback)
 {
   char ident[4096l];
-  struct anonymous$32 *ev;
+  struct anonymous_32 *ev;
   struct link *l;
   struct proc_info *p;
   p=proc_cache_find_by_pid(pid);
-  signed int tmp_statement_expression$1;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  struct link *return_value_list_add_ordered$9;
+  signed int tmp_statement_expression_1;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  struct link *return_value_list_add_ordered_9;
   if(p == ((struct proc_info *)NULL))
     return 0;
 
@@ -4333,23 +4333,23 @@ static signed int event_add(struct anonymous$3 *events, const unsigned long int 
     l = events->head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      ev = (struct anonymous$32 *)l->data;
+      ev = (struct anonymous_32 *)l->data;
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(ev->ident, ident);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(ev->ident, ident);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
       {
         ev->count = ev->count + count;
         return 0;
       }
 
     }
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct anonymous$32) /*40ul*/ );
-    ev = (struct anonymous$32 *)return_value_calloc$3;
-    if(ev == ((struct anonymous$32 *)NULL))
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct anonymous_32) /*40ul*/ );
+    ev = (struct anonymous_32 *)return_value_calloc_3;
+    if(ev == ((struct anonymous_32 *)NULL))
     {
       health_check_out_of_memory("allocting event information");
       return -1;
@@ -4358,33 +4358,33 @@ static signed int event_add(struct anonymous$3 *events, const unsigned long int 
     else
     {
       ev->proc = p;
-      char *return_value___strdup$4;
-      return_value___strdup$4=__strdup(func);
-      ev->func = return_value___strdup$4;
-      char *return_value___strdup$5;
-      return_value___strdup$5=__strdup(callback);
-      ev->callback = return_value___strdup$5;
-      char *return_value___strdup$6;
-      return_value___strdup$6=__strdup(ident);
-      ev->ident = return_value___strdup$6;
+      char *return_value___strdup_4;
+      return_value___strdup_4=__strdup(func);
+      ev->func = return_value___strdup_4;
+      char *return_value___strdup_5;
+      return_value___strdup_5=__strdup(callback);
+      ev->callback = return_value___strdup_5;
+      char *return_value___strdup_6;
+      return_value___strdup_6=__strdup(ident);
+      ev->ident = return_value___strdup_6;
       ev->count = count;
       if(ev->func == ((char *)NULL))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = ev->callback == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = ev->callback == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = ev->ident == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = ev->ident == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
         health_check_out_of_memory("allocting event information");
 
       else
       {
-        return_value_list_add_ordered$9=list_add_ordered(events, (void *)ev, event_cmp);
-        if(!(return_value_list_add_ordered$9 == ((struct link *)NULL)))
+        return_value_list_add_ordered_9=list_add_ordered(events, (void *)ev, event_cmp);
+        if(!(return_value_list_add_ordered_9 == ((struct link *)NULL)))
           return 0;
 
       }
@@ -4412,26 +4412,26 @@ extern void event_cleanup(void)
 // file event.c line 71
 static signed int event_cmp(const void *data1, const void *data2)
 {
-  struct anonymous$32 *ev1 = (struct anonymous$32 *)data1;
-  struct anonymous$32 *ev2 = (struct anonymous$32 *)data2;
+  struct anonymous_32 *ev1 = (struct anonymous_32 *)data1;
+  struct anonymous_32 *ev2 = (struct anonymous_32 *)data2;
   return (signed int)(ev2->count - ev1->count);
 }
 
 // event_delta
 // file event.c line 236
-static unsigned long int event_delta(const struct anonymous$32 *event_new, const struct anonymous$3 *events_old)
+static unsigned long int event_delta(const struct anonymous_32 *event_new, const struct anonymous_3 *events_old)
 {
   struct link *l = events_old->head;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$32 *event_old = (struct anonymous$32 *)l->data;
+    struct anonymous_32 *event_old = (struct anonymous_32 *)l->data;
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(event_new->ident, event_old->ident);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(event_new->ident, event_old->ident);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       return event_new->count - event_old->count;
 
   }
@@ -4448,19 +4448,19 @@ extern void event_dump_diff(struct json_object *j_tests, const double duration)
   {
     if(!((0x00000002 & opt_flags) == 0))
     {
-      double event_dump_diff$$1$$1$$1$$event_rate = 0.0;
+      double event_dump_diff__1__1__1__event_rate = 0.0;
       l = event_info_finish.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct anonymous$32 *event_dump_diff$$1$$1$$1$$1$$1$$event_new = (struct anonymous$32 *)l->data;
+        struct anonymous_32 *event_dump_diff__1__1__1__1__1__event_new = (struct anonymous_32 *)l->data;
         unsigned long int delta;
-        delta=event_delta(event_dump_diff$$1$$1$$1$$1$$1$$event_new, &event_info_start);
-        event_dump_diff$$1$$1$$1$$event_rate = event_dump_diff$$1$$1$$1$$event_rate + (double)delta;
+        delta=event_delta(event_dump_diff__1__1__1__1__1__event_new, &event_info_start);
+        event_dump_diff__1__1__1__event_rate = event_dump_diff__1__1__1__event_rate + (double)delta;
       }
-      event_dump_diff$$1$$1$$1$$event_rate = event_dump_diff$$1$$1$$1$$event_rate / duration;
-      const char *return_value_event_loading$1;
-      return_value_event_loading$1=event_loading(event_dump_diff$$1$$1$$1$$event_rate);
-      printf(" %.2f wakeups/sec (%s)\n\n", event_dump_diff$$1$$1$$1$$event_rate, return_value_event_loading$1);
+      event_dump_diff__1__1__1__event_rate = event_dump_diff__1__1__1__event_rate / duration;
+      const char *return_value_event_loading_1;
+      return_value_event_loading_1=event_loading(event_dump_diff__1__1__1__event_rate);
+      printf(" %.2f wakeups/sec (%s)\n\n", event_dump_diff__1__1__1__event_rate, return_value_event_loading_1);
     }
 
     else
@@ -4471,14 +4471,14 @@ extern void event_dump_diff(struct json_object *j_tests, const double duration)
       l = event_info_finish.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct anonymous$32 *event_new = (struct anonymous$32 *)l->data;
-        unsigned long int event_dump_diff$$1$$1$$2$$1$$1$$delta;
-        event_dump_diff$$1$$1$$2$$1$$1$$delta=event_delta(event_new, &event_info_start);
-        double event_dump_diff$$1$$1$$2$$1$$1$$event_rate = (double)event_dump_diff$$1$$1$$2$$1$$1$$delta / duration;
-        const char *return_value_event_loading$2;
-        return_value_event_loading$2=event_loading(event_dump_diff$$1$$1$$2$$1$$1$$event_rate);
-        printf(" %5d %-20.20s %9.2f (%s, %s) (%s)\n", event_new->proc->pid, event_new->proc->cmdline, event_dump_diff$$1$$1$$2$$1$$1$$event_rate, event_new->func, event_new->callback, return_value_event_loading$2);
-        total = total + event_dump_diff$$1$$1$$2$$1$$1$$event_rate;
+        struct anonymous_32 *event_new = (struct anonymous_32 *)l->data;
+        unsigned long int event_dump_diff__1__1__2__1__1__delta;
+        event_dump_diff__1__1__2__1__1__delta=event_delta(event_new, &event_info_start);
+        double event_dump_diff__1__1__2__1__1__event_rate = (double)event_dump_diff__1__1__2__1__1__delta / duration;
+        const char *return_value_event_loading_2;
+        return_value_event_loading_2=event_loading(event_dump_diff__1__1__2__1__1__event_rate);
+        printf(" %5d %-20.20s %9.2f (%s, %s) (%s)\n", event_new->proc->pid, event_new->proc->cmdline, event_dump_diff__1__1__2__1__1__event_rate, event_new->func, event_new->callback, return_value_event_loading_2);
+        total = total + event_dump_diff__1__1__2__1__1__event_rate;
         count = count + 1;
       }
       if(count >= 2)
@@ -4500,46 +4500,46 @@ extern void event_dump_diff(struct json_object *j_tests, const double duration)
     j_event_test=j_obj_new_obj();
     if(!(j_event_test == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link3(j_tests, "wakeup-events", j_event_test);
+      j_obj_obj_add_link3(j_tests, "wakeup-events", j_event_test);
       j_events=j_obj_new_array();
       if(!(j_events == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link3(j_event_test, "wakeup-events-per-process", j_events);
+        j_obj_obj_add_link3(j_event_test, "wakeup-events-per-process", j_events);
         l = event_info_finish.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          struct anonymous$32 *event = (struct anonymous$32 *)l->data;
-          unsigned long int event_dump_diff$$1$$3$$1$$1$$delta;
-          event_dump_diff$$1$$3$$1$$1$$delta=event_delta(event, &event_info_start);
-          double event_rate = (double)event_dump_diff$$1$$3$$1$$1$$delta / duration;
-          total_delta = total_delta + event_dump_diff$$1$$3$$1$$1$$delta;
+          struct anonymous_32 *event = (struct anonymous_32 *)l->data;
+          unsigned long int event_dump_diff__1__3__1__1__delta;
+          event_dump_diff__1__3__1__1__delta=event_delta(event, &event_info_start);
+          double event_rate = (double)event_dump_diff__1__3__1__1__delta / duration;
+          total_delta = total_delta + event_dump_diff__1__3__1__1__delta;
           j_event=j_obj_new_obj();
           if(j_event == ((struct json_object *)NULL))
             goto out;
 
-          j_obj_new_int32_add$link3(j_event, "pid", event->proc->pid);
-          j_obj_new_int32_add$link3(j_event, "ppid", event->proc->ppid);
-          j_obj_new_int32_add$link3(j_event, "is-thread", (const signed int)event->proc->is_thread);
-          j_obj_new_string_add$link3(j_event, "name", event->proc->cmdline);
-          j_obj_new_string_add$link3(j_event, "kernel-timer-func", event->func);
-          j_obj_new_string_add$link3(j_event, "kernel-timer-callback", event->callback);
-          j_obj_new_int64_add$link3(j_event, "wakeups", (const signed long int)event_dump_diff$$1$$3$$1$$1$$delta);
-          j_obj_new_double_add$link3(j_event, "wakeup-rate", event_rate);
-          const char *return_value_event_loading$3;
-          return_value_event_loading$3=event_loading(event_rate);
-          j_obj_new_string_add$link3(j_event, "load-hint", return_value_event_loading$3);
-          j_obj_array_add$link3(j_events, j_event);
+          j_obj_new_int32_add_link3(j_event, "pid", event->proc->pid);
+          j_obj_new_int32_add_link3(j_event, "ppid", event->proc->ppid);
+          j_obj_new_int32_add_link3(j_event, "is-thread", (const signed int)event->proc->is_thread);
+          j_obj_new_string_add_link3(j_event, "name", event->proc->cmdline);
+          j_obj_new_string_add_link3(j_event, "kernel-timer-func", event->func);
+          j_obj_new_string_add_link3(j_event, "kernel-timer-callback", event->callback);
+          j_obj_new_int64_add_link3(j_event, "wakeups", (const signed long int)event_dump_diff__1__3__1__1__delta);
+          j_obj_new_double_add_link3(j_event, "wakeup-rate", event_rate);
+          const char *return_value_event_loading_3;
+          return_value_event_loading_3=event_loading(event_rate);
+          j_obj_new_string_add_link3(j_event, "load-hint", return_value_event_loading_3);
+          j_obj_array_add_link3(j_events, j_event);
         }
         total_event_rate = (double)total_delta / duration;
         j_event=j_obj_new_obj();
         if(!(j_event == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link3(j_event_test, "wakeup-events-total", j_event);
-          j_obj_new_int64_add$link3(j_event, "wakeup-total", (const signed long int)total_delta);
-          j_obj_new_double_add$link3(j_event, "wakeup-total-rate", total_event_rate);
-          const char *return_value_event_loading$4;
-          return_value_event_loading$4=event_loading(total_event_rate);
-          j_obj_new_string_add$link3(j_event, "load-hint-total", return_value_event_loading$4);
+          j_obj_obj_add_link3(j_event_test, "wakeup-events-total", j_event);
+          j_obj_new_int64_add_link3(j_event, "wakeup-total", (const signed long int)total_delta);
+          j_obj_new_double_add_link3(j_event, "wakeup-total-rate", total_event_rate);
+          const char *return_value_event_loading_4;
+          return_value_event_loading_4=event_loading(total_event_rate);
+          j_obj_new_string_add_link3(j_event, "load-hint-total", return_value_event_loading_4);
         }
 
       }
@@ -4561,7 +4561,7 @@ __CPROVER_DUMP_L13:
 // file event.c line 57
 static void event_free(void *data)
 {
-  struct anonymous$32 *ev = (struct anonymous$32 *)data;
+  struct anonymous_32 *ev = (struct anonymous_32 *)data;
   free((void *)ev->func);
   free((void *)ev->callback);
   free((void *)ev->ident);
@@ -4570,13 +4570,13 @@ static void event_free(void *data)
 
 // event_get_all_pids
 // file event.c line 145
-extern signed int event_get_all_pids(const struct anonymous$3 *pids, enum anonymous$9 state)
+extern signed int event_get_all_pids(const struct anonymous_3 *pids, enum anonymous_9 state)
 {
   struct _IO_FILE *fp;
   char buf[4096l];
-  struct anonymous$3 *events = (signed int)state == PROC_START ? &event_info_start : &event_info_finish;
+  struct anonymous_3 *events = (signed int)state == PROC_START ? &event_info_start : &event_info_finish;
   fp=fopen("/proc/timer_stats", "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     fprintf(stderr, "Cannot open %s.\n", (const void *)"/proc/timer_stats");
@@ -4587,8 +4587,8 @@ extern signed int event_get_all_pids(const struct anonymous$3 *pids, enum anonym
   {
     do
     {
-      return_value_feof$1=feof(fp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fp);
+      if(!(return_value_feof_1 == 0))
         break;
 
       char *ptr = buf;
@@ -4597,19 +4597,19 @@ extern signed int event_get_all_pids(const struct anonymous$3 *pids, enum anonym
       char func[128l];
       char timer[128l];
       struct link *l;
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
-      if(return_value_fgets$2 == ((char *)NULL))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
-      char *return_value_strstr$3;
-      return_value_strstr$3=strstr(buf, "total events");
-      if(!(return_value_strstr$3 == ((char *)NULL)))
+      char *return_value_strstr_3;
+      return_value_strstr_3=strstr(buf, "total events");
+      if(!(return_value_strstr_3 == ((char *)NULL)))
         break;
 
-      char *return_value_strstr$4;
-      return_value_strstr$4=strstr(buf, ",");
-      if(!(return_value_strstr$4 == ((char *)NULL)))
+      char *return_value_strstr_4;
+      return_value_strstr_4=strstr(buf, ",");
+      if(!(return_value_strstr_4 == ((char *)NULL)))
       {
         for( ; !(*ptr == 0); ptr = ptr + 1l)
           if((signed int)*ptr == 44)
@@ -4634,9 +4634,9 @@ extern signed int event_get_all_pids(const struct anonymous$3 *pids, enum anonym
             struct proc_info *p = (struct proc_info *)l->data;
             if(event_pid == p->pid)
             {
-              signed int return_value_event_add$5;
-              return_value_event_add$5=event_add(events, count, event_pid, func, timer);
-              if(!(return_value_event_add$5 >= 0))
+              signed int return_value_event_add_5;
+              return_value_event_add_5=event_add(events, count, event_pid, func, timer);
+              if(!(return_value_event_add_5 >= 0))
               {
                 fclose(fp);
                 return -1;
@@ -4663,9 +4663,9 @@ extern void event_init(void)
 {
   list_init(&event_info_start);
   list_init(&event_info_finish);
-  signed int return_value_event_timer_stat_set$1;
-  return_value_event_timer_stat_set$1=event_timer_stat_set("1");
-  if(!(return_value_event_timer_stat_set$1 >= 0))
+  signed int return_value_event_timer_stat_set_1;
+  return_value_event_timer_stat_set_1=event_timer_stat_set("1");
+  if(!(return_value_event_timer_stat_set_1 >= 0))
     timer_stats = (_Bool)0;
 
 }
@@ -4766,25 +4766,25 @@ signed int exec_executable(const char *opt_username, const char *path, char **ar
 
       uid = pw->pw_uid;
       gid = pw->pw_gid;
-      signed int return_value_initgroups$1;
-      return_value_initgroups$1=initgroups(opt_username, gid);
-      if(!(return_value_initgroups$1 >= 0))
+      signed int return_value_initgroups_1;
+      return_value_initgroups_1=initgroups(opt_username, gid);
+      if(!(return_value_initgroups_1 >= 0))
       {
         fprintf(stderr, "initgroups failed user on %s\n", opt_username);
         exit(1);
       }
 
-      signed int return_value_setregid$2;
-      return_value_setregid$2=setregid(gid, gid);
-      if(!(return_value_setregid$2 >= 0))
+      signed int return_value_setregid_2;
+      return_value_setregid_2=setregid(gid, gid);
+      if(!(return_value_setregid_2 >= 0))
       {
         fprintf(stderr, "setregid failed\n");
         exit(1);
       }
 
-      signed int return_value_setreuid$3;
-      return_value_setreuid$3=setreuid(uid, uid);
-      if(!(return_value_setreuid$3 >= 0))
+      signed int return_value_setreuid_3;
+      return_value_setreuid_3=setreuid(uid, uid);
+      if(!(return_value_setreuid_3 >= 0))
       {
         fprintf(stderr, "setreuid failed\n");
         exit(1);
@@ -4794,14 +4794,14 @@ signed int exec_executable(const char *opt_username, const char *path, char **ar
 
     else
     {
-      unsigned int return_value_geteuid$5;
-      return_value_geteuid$5=geteuid();
-      if(!(return_value_geteuid$5 == 0u))
+      unsigned int return_value_geteuid_5;
+      return_value_geteuid_5=geteuid();
+      if(!(return_value_geteuid_5 == 0u))
       {
         uid=getuid();
-        signed int return_value_setreuid$4;
-        return_value_setreuid$4=setreuid(uid, uid);
-        if(!(return_value_setreuid$4 >= 0))
+        signed int return_value_setreuid_4;
+        return_value_setreuid_4=setreuid(uid, uid);
+        if(!(return_value_setreuid_4 >= 0))
         {
           fprintf(stderr, "setreuid failed\n");
           exit(1);
@@ -4810,9 +4810,9 @@ signed int exec_executable(const char *opt_username, const char *path, char **ar
       }
 
     }
-    signed int return_value_getpid$6;
-    return_value_getpid$6=getpid();
-    kill(return_value_getpid$6, 19);
+    signed int return_value_getpid_6;
+    return_value_getpid_6=getpid();
+    kill(return_value_getpid_6, 19);
     execv(path, argv);
     printf("Failed to execv %s\n", path);
     exit(1);
@@ -4825,25 +4825,25 @@ static const char * find_executable(const char *filename)
 {
   unsigned long int filenamelen;
   filenamelen=strlen(filename);
-  char *return_value___builtin_strchr$8;
-  return_value___builtin_strchr$8=__builtin_strchr(filename, 47);
-  _Bool tmp_if_expr$3;
-  unsigned long int tmp_post$6;
+  char *return_value___builtin_strchr_8;
+  return_value___builtin_strchr_8=__builtin_strchr(filename, 47);
+  _Bool tmp_if_expr_3;
+  unsigned long int tmp_post_6;
   static char path[4096l];
-  if(!(return_value___builtin_strchr$8 == ((char *)NULL)))
+  if(!(return_value___builtin_strchr_8 == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(filename);
-    if(return_value_strlen$1 >= 4096ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(filename);
+    if(return_value_strlen_1 >= 4096ul)
     {
       fprintf(stderr, "executable name too long.\n");
       health_check_exit(1);
     }
 
     __builtin_strncpy(path, filename, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
-    signed int return_value_is_executable$2;
-    return_value_is_executable$2=is_executable(path);
-    if(!(return_value_is_executable$2 == 0))
+    signed int return_value_is_executable_2;
+    return_value_is_executable_2=is_executable(path);
+    if(!(return_value_is_executable_2 == 0))
       return path;
 
     else
@@ -4858,19 +4858,19 @@ static const char * find_executable(const char *filename)
     do
     {
       if(!(p == ((char *)NULL)))
-        tmp_if_expr$3 = *p != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = *p != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
       unsigned long int len;
       unsigned long int pathlen;
       char *ptr;
-      char *return_value___builtin_strchr$4;
-      return_value___builtin_strchr$4=__builtin_strchr(p, 58);
-      ptr = return_value___builtin_strchr$4;
+      char *return_value___builtin_strchr_4;
+      return_value___builtin_strchr_4=__builtin_strchr(p, 58);
+      ptr = return_value___builtin_strchr_4;
       if(!(ptr == ((char *)NULL)))
       {
         len = (unsigned long int)(ptr - p);
@@ -4896,9 +4896,9 @@ static const char * find_executable(const char *filename)
 
       else
       {
-        char *return_value_getcwd$5;
-        return_value_getcwd$5=getcwd(p, (unsigned long int)4096);
-        if(return_value_getcwd$5 == ((char *)NULL))
+        char *return_value_getcwd_5;
+        return_value_getcwd_5=getcwd(p, (unsigned long int)4096);
+        if(return_value_getcwd_5 == ((char *)NULL))
           goto __CPROVER_DUMP_L20;
 
         pathlen=strlen(p);
@@ -4912,9 +4912,9 @@ static const char * find_executable(const char *filename)
             if(pathlen >= 4095ul)
               goto __CPROVER_DUMP_L20;
 
-            tmp_post$6 = pathlen;
+            tmp_post_6 = pathlen;
             pathlen = pathlen + 1ul;
-            path[(signed long int)tmp_post$6] = (char)47;
+            path[(signed long int)tmp_post_6] = (char)47;
           }
 
         }
@@ -4922,9 +4922,9 @@ static const char * find_executable(const char *filename)
         if(!(pathlen + filenamelen >= 4094ul))
         {
           strcpy(path + (signed long int)pathlen, filename);
-          signed int return_value_is_executable$7;
-          return_value_is_executable$7=is_executable(path);
-          if(!(return_value_is_executable$7 == 0))
+          signed int return_value_is_executable_7;
+          return_value_is_executable_7=is_executable(path);
+          if(!(return_value_is_executable_7 == 0))
             return path;
 
         }
@@ -4937,7 +4937,7 @@ static const char * find_executable(const char *filename)
       p = p + (signed long int)skiplen;
     }
     while((_Bool)1);
-    fprintf(stderr, "Cannot find %s in $PATH\n", filename);
+    fprintf(stderr, "Cannot find %s in _PATH\n", filename);
   }
   return (const char *)(void *)0;
 }
@@ -4952,7 +4952,7 @@ extern void fnotify_cleanup(void)
 
 // fnotify_dump_events
 // file fnotify.c line 653
-extern void fnotify_dump_events(struct json_object *j_tests, const double duration, const struct anonymous$3 *pids)
+extern void fnotify_dump_events(struct json_object *j_tests, const double duration, const struct anonymous_3 *pids)
 {
   printf("File I/O operations:\n");
   if(fnotify_files.head == ((struct link *)NULL))
@@ -4966,7 +4966,7 @@ extern void fnotify_dump_events(struct json_object *j_tests, const double durati
 // file fnotify.c line 329
 static void fnotify_dump_files(struct json_object *j_tests, const double duration)
 {
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
   signed int count;
   unsigned long int total;
@@ -4974,10 +4974,10 @@ static void fnotify_dump_files(struct json_object *j_tests, const double duratio
   l = fnotify_files.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$24 *fnotify_dump_files$$1$$1$$1$$info = (struct anonymous$24 *)l->data;
-    struct link *return_value_list_add_ordered$1;
-    return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)fnotify_dump_files$$1$$1$$1$$info, fnotify_event_cmp_count);
-    if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+    struct anonymous_24 *fnotify_dump_files__1__1__1__info = (struct anonymous_24 *)l->data;
+    struct link *return_value_list_add_ordered_1;
+    return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)fnotify_dump_files__1__1__1__info, fnotify_event_cmp_count);
+    if(return_value_list_add_ordered_1 == ((struct link *)NULL))
       goto out;
 
   }
@@ -4991,11 +4991,11 @@ static void fnotify_dump_files(struct json_object *j_tests, const double duratio
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct anonymous$24 *fnotify_dump_files$$1$$2$$1$$1$$1$$info = (struct anonymous$24 *)l->data;
-        const char *return_value_fnotify_mask_to_str$2;
-        return_value_fnotify_mask_to_str$2=fnotify_mask_to_str((const signed int)fnotify_dump_files$$1$$2$$1$$1$$1$$info->mask);
-        printf(" %5d %-20.20s %6lu %4s %s\n", fnotify_dump_files$$1$$2$$1$$1$$1$$info->proc->pid, fnotify_dump_files$$1$$2$$1$$1$$1$$info->proc->cmdline, fnotify_dump_files$$1$$2$$1$$1$$1$$info->count, return_value_fnotify_mask_to_str$2, fnotify_dump_files$$1$$2$$1$$1$$1$$info->filename);
-        total = total + fnotify_dump_files$$1$$2$$1$$1$$1$$info->count;
+        struct anonymous_24 *fnotify_dump_files__1__2__1__1__1__info = (struct anonymous_24 *)l->data;
+        const char *return_value_fnotify_mask_to_str_2;
+        return_value_fnotify_mask_to_str_2=fnotify_mask_to_str((const signed int)fnotify_dump_files__1__2__1__1__1__info->mask);
+        printf(" %5d %-20.20s %6lu %4s %s\n", fnotify_dump_files__1__2__1__1__1__info->proc->pid, fnotify_dump_files__1__2__1__1__1__info->proc->cmdline, fnotify_dump_files__1__2__1__1__1__info->count, return_value_fnotify_mask_to_str_2, fnotify_dump_files__1__2__1__1__1__info->filename);
+        total = total + fnotify_dump_files__1__2__1__1__1__info->count;
         count = count + 1;
       }
       if(count >= 2)
@@ -5014,39 +5014,39 @@ static void fnotify_dump_files(struct json_object *j_tests, const double duratio
     j_fnotify_test=j_obj_new_obj();
     if(!(j_fnotify_test == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link2(j_tests, "file-access", j_fnotify_test);
+      j_obj_obj_add_link2(j_tests, "file-access", j_fnotify_test);
       j_accesses=j_obj_new_array();
       if(!(j_accesses == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link2(j_fnotify_test, "file-access-per-process", j_accesses);
+        j_obj_obj_add_link2(j_fnotify_test, "file-access-per-process", j_accesses);
         total = (unsigned long int)0;
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          struct anonymous$24 *info = (struct anonymous$24 *)l->data;
+          struct anonymous_24 *info = (struct anonymous_24 *)l->data;
           j_access=j_obj_new_obj();
           if(j_access == ((struct json_object *)NULL))
             goto out;
 
-          j_obj_new_int32_add$link2(j_access, "pid", info->proc->pid);
-          j_obj_new_int32_add$link2(j_access, "ppid", info->proc->ppid);
-          j_obj_new_int32_add$link2(j_access, "is-thread", (const signed int)info->proc->is_thread);
-          j_obj_new_string_add$link2(j_access, "name", info->proc->cmdline);
-          const char *return_value_fnotify_mask_to_str$3;
-          return_value_fnotify_mask_to_str$3=fnotify_mask_to_str((const signed int)info->mask);
-          j_obj_new_string_add$link2(j_access, "access-mode", return_value_fnotify_mask_to_str$3);
-          j_obj_new_string_add$link2(j_access, "filename", info->filename);
-          j_obj_new_int64_add$link2(j_access, "accesses-count", (const signed long int)info->count);
-          j_obj_new_double_add$link2(j_access, "accesses-count-rate", (double)info->count / duration);
-          j_obj_array_add$link2(j_accesses, j_access);
+          j_obj_new_int32_add_link2(j_access, "pid", info->proc->pid);
+          j_obj_new_int32_add_link2(j_access, "ppid", info->proc->ppid);
+          j_obj_new_int32_add_link2(j_access, "is-thread", (const signed int)info->proc->is_thread);
+          j_obj_new_string_add_link2(j_access, "name", info->proc->cmdline);
+          const char *return_value_fnotify_mask_to_str_3;
+          return_value_fnotify_mask_to_str_3=fnotify_mask_to_str((const signed int)info->mask);
+          j_obj_new_string_add_link2(j_access, "access-mode", return_value_fnotify_mask_to_str_3);
+          j_obj_new_string_add_link2(j_access, "filename", info->filename);
+          j_obj_new_int64_add_link2(j_access, "accesses-count", (const signed long int)info->count);
+          j_obj_new_double_add_link2(j_access, "accesses-count-rate", (double)info->count / duration);
+          j_obj_array_add_link2(j_accesses, j_access);
           total = total + info->count;
         }
         j_access=j_obj_new_obj();
         if(!(j_access == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link2(j_fnotify_test, "file-access-total", j_access);
-          j_obj_new_int64_add$link2(j_access, "access-count-total", (const signed long int)total);
-          j_obj_new_double_add$link2(j_access, "access-count-total-rate", (double)total / duration);
+          j_obj_obj_add_link2(j_fnotify_test, "file-access-total", j_access);
+          j_obj_new_int64_add_link2(j_access, "access-count-total", (const signed long int)total);
+          j_obj_new_double_add_link2(j_access, "access-count-total-rate", (double)total / duration);
         }
 
       }
@@ -5063,11 +5063,11 @@ out:
 
 // fnotify_dump_io_ops
 // file fnotify.c line 412
-static void fnotify_dump_io_ops(struct json_object *j_tests, const double duration, const struct anonymous$3 *pids)
+static void fnotify_dump_io_ops(struct json_object *j_tests, const double duration, const struct anonymous_3 *pids)
 {
   struct link *l;
   struct link *lp;
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   signed int count;
   unsigned long int read_total;
   unsigned long int write_total;
@@ -5078,13 +5078,13 @@ static void fnotify_dump_io_ops(struct json_object *j_tests, const double durati
   for( ; !(lp == ((struct link *)NULL)); lp = lp->next)
   {
     struct proc_info *p = (struct proc_info *)lp->data;
-    struct anonymous$25 io_ops;
-    memset((void *)&io_ops, 0, sizeof(struct anonymous$25) /*48ul*/ );
+    struct anonymous_25 io_ops;
+    memset((void *)&io_ops, 0, sizeof(struct anonymous_25) /*48ul*/ );
     io_ops.proc = p;
     l = fnotify_files.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct anonymous$24 *info = (struct anonymous$24 *)l->data;
+      struct anonymous_24 *info = (struct anonymous_24 *)l->data;
       if(info->proc->pid == p->pid)
       {
         if(!((32u & info->mask) == 0u))
@@ -5105,20 +5105,20 @@ static void fnotify_dump_io_ops(struct json_object *j_tests, const double durati
     io_ops.total = io_ops.open_total + io_ops.close_total + io_ops.read_total + io_ops.write_total;
     if(!(io_ops.total == 0ul))
     {
-      struct anonymous$25 *new_io_ops;
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$25) /*48ul*/ );
-      new_io_ops = (struct anonymous$25 *)return_value_calloc$1;
-      if(new_io_ops == ((struct anonymous$25 *)NULL))
+      struct anonymous_25 *new_io_ops;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_25) /*48ul*/ );
+      new_io_ops = (struct anonymous_25 *)return_value_calloc_1;
+      if(new_io_ops == ((struct anonymous_25 *)NULL))
       {
         health_check_out_of_memory("allocating fnotify I/O ops information");
         goto out;
       }
 
       *new_io_ops = io_ops;
-      struct link *return_value_list_add_ordered$2;
-      return_value_list_add_ordered$2=list_add_ordered(&sorted, (void *)new_io_ops, fnotify_event_cmp_io_ops);
-      if(return_value_list_add_ordered$2 == ((struct link *)NULL))
+      struct link *return_value_list_add_ordered_2;
+      return_value_list_add_ordered_2=list_add_ordered(&sorted, (void *)new_io_ops, fnotify_event_cmp_io_ops);
+      if(return_value_list_add_ordered_2 == ((struct link *)NULL))
       {
         free((void *)new_io_ops);
         goto out;
@@ -5138,11 +5138,11 @@ static void fnotify_dump_io_ops(struct json_object *j_tests, const double durati
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct anonymous$25 *fnotify_dump_io_ops$$1$$2$$1$$1$$1$$io_ops = (struct anonymous$25 *)l->data;
-        open_total = open_total + fnotify_dump_io_ops$$1$$2$$1$$1$$1$$io_ops->open_total;
-        close_total = close_total + fnotify_dump_io_ops$$1$$2$$1$$1$$1$$io_ops->close_total;
-        read_total = read_total + fnotify_dump_io_ops$$1$$2$$1$$1$$1$$io_ops->read_total;
-        write_total = write_total + fnotify_dump_io_ops$$1$$2$$1$$1$$1$$io_ops->write_total;
+        struct anonymous_25 *fnotify_dump_io_ops__1__2__1__1__1__io_ops = (struct anonymous_25 *)l->data;
+        open_total = open_total + fnotify_dump_io_ops__1__2__1__1__1__io_ops->open_total;
+        close_total = close_total + fnotify_dump_io_ops__1__2__1__1__1__io_ops->close_total;
+        read_total = read_total + fnotify_dump_io_ops__1__2__1__1__1__io_ops->read_total;
+        write_total = write_total + fnotify_dump_io_ops__1__2__1__1__1__io_ops->write_total;
       }
       printf("  I/O Operations per second: %.2f open, %.2f close, %.2f read, %.2f write\n", (double)open_total / duration, (double)close_total / duration, (double)read_total / duration, (double)write_total / duration);
       printf("\n");
@@ -5156,12 +5156,12 @@ static void fnotify_dump_io_ops(struct json_object *j_tests, const double durati
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct anonymous$25 *fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops = (struct anonymous$25 *)l->data;
-        printf(" %5d %-20.20s %7.2f %7.2f %7.2f %7.2f\n", fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->proc->pid, fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->proc->cmdline, (double)fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->open_total / duration, (double)fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->close_total / duration, (double)fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->read_total / duration, (double)fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->write_total / duration);
-        open_total = open_total + fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->open_total;
-        close_total = close_total + fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->close_total;
-        read_total = read_total + fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->read_total;
-        write_total = write_total + fnotify_dump_io_ops$$1$$2$$2$$1$$1$$io_ops->write_total;
+        struct anonymous_25 *fnotify_dump_io_ops__1__2__2__1__1__io_ops = (struct anonymous_25 *)l->data;
+        printf(" %5d %-20.20s %7.2f %7.2f %7.2f %7.2f\n", fnotify_dump_io_ops__1__2__2__1__1__io_ops->proc->pid, fnotify_dump_io_ops__1__2__2__1__1__io_ops->proc->cmdline, (double)fnotify_dump_io_ops__1__2__2__1__1__io_ops->open_total / duration, (double)fnotify_dump_io_ops__1__2__2__1__1__io_ops->close_total / duration, (double)fnotify_dump_io_ops__1__2__2__1__1__io_ops->read_total / duration, (double)fnotify_dump_io_ops__1__2__2__1__1__io_ops->write_total / duration);
+        open_total = open_total + fnotify_dump_io_ops__1__2__2__1__1__io_ops->open_total;
+        close_total = close_total + fnotify_dump_io_ops__1__2__2__1__1__io_ops->close_total;
+        read_total = read_total + fnotify_dump_io_ops__1__2__2__1__1__io_ops->read_total;
+        write_total = write_total + fnotify_dump_io_ops__1__2__2__1__1__io_ops->write_total;
         count = count + 1;
       }
       if(count >= 2)
@@ -5179,45 +5179,45 @@ static void fnotify_dump_io_ops(struct json_object *j_tests, const double durati
     j_fnotify_test=j_obj_new_obj();
     if(!(j_fnotify_test == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link2(j_tests, "file-io-operations", j_fnotify_test);
+      j_obj_obj_add_link2(j_tests, "file-io-operations", j_fnotify_test);
       j_io_ops=j_obj_new_array();
       if(!(j_io_ops == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link2(j_fnotify_test, "file-io-operations-per-process", j_io_ops);
+        j_obj_obj_add_link2(j_fnotify_test, "file-io-operations-per-process", j_io_ops);
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          struct anonymous$25 *fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops = (struct anonymous$25 *)l->data;
+          struct anonymous_25 *fnotify_dump_io_ops__1__3__1__1__io_ops = (struct anonymous_25 *)l->data;
           j_io_op=j_obj_new_obj();
           if(j_io_op == ((struct json_object *)NULL))
             goto out;
 
-          j_obj_new_int32_add$link2(j_io_op, "pid", fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->proc->pid);
-          j_obj_new_int32_add$link2(j_io_op, "ppid", fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->proc->ppid);
-          j_obj_new_int32_add$link2(j_io_op, "is-thread", (const signed int)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->proc->is_thread);
-          j_obj_new_string_add$link2(j_io_op, "name", fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->proc->cmdline);
-          j_obj_new_int64_add$link2(j_io_op, "open-call-count", (const signed long int)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->open_total);
-          j_obj_new_int64_add$link2(j_io_op, "close-call-count", (const signed long int)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->close_total);
-          j_obj_new_int64_add$link2(j_io_op, "read-call-count", (const signed long int)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->read_total);
-          j_obj_new_int64_add$link2(j_io_op, "write-call-count", (const signed long int)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->write_total);
-          j_obj_new_double_add$link2(j_io_op, "open-call-rate", (double)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->open_total / duration);
-          j_obj_new_double_add$link2(j_io_op, "close-call-rate", (double)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->close_total / duration);
-          j_obj_new_double_add$link2(j_io_op, "read-call-rate", (double)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->read_total / duration);
-          j_obj_new_double_add$link2(j_io_op, "write-call-rate", (double)fnotify_dump_io_ops$$1$$3$$1$$1$$io_ops->write_total / duration);
-          j_obj_array_add$link2(j_io_ops, j_io_op);
+          j_obj_new_int32_add_link2(j_io_op, "pid", fnotify_dump_io_ops__1__3__1__1__io_ops->proc->pid);
+          j_obj_new_int32_add_link2(j_io_op, "ppid", fnotify_dump_io_ops__1__3__1__1__io_ops->proc->ppid);
+          j_obj_new_int32_add_link2(j_io_op, "is-thread", (const signed int)fnotify_dump_io_ops__1__3__1__1__io_ops->proc->is_thread);
+          j_obj_new_string_add_link2(j_io_op, "name", fnotify_dump_io_ops__1__3__1__1__io_ops->proc->cmdline);
+          j_obj_new_int64_add_link2(j_io_op, "open-call-count", (const signed long int)fnotify_dump_io_ops__1__3__1__1__io_ops->open_total);
+          j_obj_new_int64_add_link2(j_io_op, "close-call-count", (const signed long int)fnotify_dump_io_ops__1__3__1__1__io_ops->close_total);
+          j_obj_new_int64_add_link2(j_io_op, "read-call-count", (const signed long int)fnotify_dump_io_ops__1__3__1__1__io_ops->read_total);
+          j_obj_new_int64_add_link2(j_io_op, "write-call-count", (const signed long int)fnotify_dump_io_ops__1__3__1__1__io_ops->write_total);
+          j_obj_new_double_add_link2(j_io_op, "open-call-rate", (double)fnotify_dump_io_ops__1__3__1__1__io_ops->open_total / duration);
+          j_obj_new_double_add_link2(j_io_op, "close-call-rate", (double)fnotify_dump_io_ops__1__3__1__1__io_ops->close_total / duration);
+          j_obj_new_double_add_link2(j_io_op, "read-call-rate", (double)fnotify_dump_io_ops__1__3__1__1__io_ops->read_total / duration);
+          j_obj_new_double_add_link2(j_io_op, "write-call-rate", (double)fnotify_dump_io_ops__1__3__1__1__io_ops->write_total / duration);
+          j_obj_array_add_link2(j_io_ops, j_io_op);
         }
         j_io_op=j_obj_new_obj();
         if(!(j_io_op == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link2(j_fnotify_test, "file-io-operations-total", j_io_op);
-          j_obj_new_int64_add$link2(j_io_op, "open-call-total", (const signed long int)open_total);
-          j_obj_new_int64_add$link2(j_io_op, "close-call-total", (const signed long int)close_total);
-          j_obj_new_int64_add$link2(j_io_op, "read-total", (const signed long int)read_total);
-          j_obj_new_int64_add$link2(j_io_op, "write-call-total", (const signed long int)write_total);
-          j_obj_new_double_add$link2(j_io_op, "open-call-total-rate", (double)open_total / duration);
-          j_obj_new_double_add$link2(j_io_op, "close-call-total-rate", (double)close_total / duration);
-          j_obj_new_double_add$link2(j_io_op, "read-call-total-rate", (double)read_total / duration);
-          j_obj_new_double_add$link2(j_io_op, "write-call-total-rate", (double)write_total / duration);
+          j_obj_obj_add_link2(j_fnotify_test, "file-io-operations-total", j_io_op);
+          j_obj_new_int64_add_link2(j_io_op, "open-call-total", (const signed long int)open_total);
+          j_obj_new_int64_add_link2(j_io_op, "close-call-total", (const signed long int)close_total);
+          j_obj_new_int64_add_link2(j_io_op, "read-total", (const signed long int)read_total);
+          j_obj_new_int64_add_link2(j_io_op, "write-call-total", (const signed long int)write_total);
+          j_obj_new_double_add_link2(j_io_op, "open-call-total-rate", (double)open_total / duration);
+          j_obj_new_double_add_link2(j_io_op, "close-call-total-rate", (double)close_total / duration);
+          j_obj_new_double_add_link2(j_io_op, "read-call-total-rate", (double)read_total / duration);
+          j_obj_new_double_add_link2(j_io_op, "write-call-total-rate", (double)write_total / duration);
         }
 
       }
@@ -5236,7 +5236,7 @@ out:
 // file fnotify.c line 567
 extern void fnotify_dump_wakelocks(struct json_object *j_tests, const double duration)
 {
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
   (void)j_tests;
   (void)duration;
@@ -5247,10 +5247,10 @@ extern void fnotify_dump_wakelocks(struct json_object *j_tests, const double dur
     l = fnotify_wakelocks.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct anonymous$23 *info = (struct anonymous$23 *)l->data;
-      struct link *return_value_list_add_ordered$1;
-      return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)info, fnotify_wakelock_cmp_count);
-      if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+      struct anonymous_23 *info = (struct anonymous_23 *)l->data;
+      struct link *return_value_list_add_ordered_1;
+      return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)info, fnotify_wakelock_cmp_count);
+      if(return_value_list_add_ordered_1 == ((struct link *)NULL))
         goto out;
 
     }
@@ -5265,8 +5265,8 @@ extern void fnotify_dump_wakelocks(struct json_object *j_tests, const double dur
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          struct anonymous$23 *fnotify_dump_wakelocks$$1$$3$$1$$1$$1$$info = (struct anonymous$23 *)l->data;
-          printf(" %5d %-20.20s %8lu %8lu\n", fnotify_dump_wakelocks$$1$$3$$1$$1$$1$$info->proc->pid, fnotify_dump_wakelocks$$1$$3$$1$$1$$1$$info->proc->cmdline, fnotify_dump_wakelocks$$1$$3$$1$$1$$1$$info->locked, fnotify_dump_wakelocks$$1$$3$$1$$1$$1$$info->unlocked);
+          struct anonymous_23 *fnotify_dump_wakelocks__1__3__1__1__1__info = (struct anonymous_23 *)l->data;
+          printf(" %5d %-20.20s %8lu %8lu\n", fnotify_dump_wakelocks__1__3__1__1__1__info->proc->pid, fnotify_dump_wakelocks__1__3__1__1__1__info->proc->cmdline, fnotify_dump_wakelocks__1__3__1__1__1__info->locked, fnotify_dump_wakelocks__1__3__1__1__1__info->unlocked);
         }
       }
 
@@ -5282,39 +5282,39 @@ extern void fnotify_dump_wakelocks(struct json_object *j_tests, const double dur
       j_wakelock_test=j_obj_new_obj();
       if(!(j_wakelock_test == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link2(j_tests, "wakelock-operations-light", j_wakelock_test);
+        j_obj_obj_add_link2(j_tests, "wakelock-operations-light", j_wakelock_test);
         j_wakelock_infos=j_obj_new_array();
         if(!(j_wakelock_infos == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link2(j_wakelock_test, "wakelock-operations-light-per-process", j_wakelock_infos);
+          j_obj_obj_add_link2(j_wakelock_test, "wakelock-operations-light-per-process", j_wakelock_infos);
           l = sorted.head;
           for( ; !(l == ((struct link *)NULL)); l = l->next)
           {
-            struct anonymous$23 *fnotify_dump_wakelocks$$1$$4$$1$$1$$info = (struct anonymous$23 *)l->data;
+            struct anonymous_23 *fnotify_dump_wakelocks__1__4__1__1__info = (struct anonymous_23 *)l->data;
             j_wakelock_info=j_obj_new_obj();
             if(j_wakelock_info == ((struct json_object *)NULL))
               goto out;
 
-            j_obj_new_int32_add$link2(j_wakelock_info, "pid", fnotify_dump_wakelocks$$1$$4$$1$$1$$info->proc->pid);
-            j_obj_new_int32_add$link2(j_wakelock_info, "ppid", fnotify_dump_wakelocks$$1$$4$$1$$1$$info->proc->ppid);
-            j_obj_new_int32_add$link2(j_wakelock_info, "is-thread", (const signed int)fnotify_dump_wakelocks$$1$$4$$1$$1$$info->proc->is_thread);
-            j_obj_new_string_add$link2(j_wakelock_info, "name", fnotify_dump_wakelocks$$1$$4$$1$$1$$info->proc->cmdline);
-            j_obj_new_int64_add$link2(j_wakelock_info, "wakelock-locked", (const signed long int)fnotify_dump_wakelocks$$1$$4$$1$$1$$info->locked);
-            j_obj_new_double_add$link2(j_wakelock_info, "wakelock-locked-rate", (double)fnotify_dump_wakelocks$$1$$4$$1$$1$$info->locked / duration);
-            j_obj_new_int64_add$link2(j_wakelock_info, "wakelock-unlocked", (const signed long int)fnotify_dump_wakelocks$$1$$4$$1$$1$$info->unlocked);
-            j_obj_new_double_add$link2(j_wakelock_info, "wakelock-unlocked-rate", (double)fnotify_dump_wakelocks$$1$$4$$1$$1$$info->unlocked / duration);
-            j_obj_array_add$link2(j_wakelock_infos, j_wakelock_info);
-            locked_total = locked_total + fnotify_dump_wakelocks$$1$$4$$1$$1$$info->locked;
-            unlocked_total = unlocked_total + fnotify_dump_wakelocks$$1$$4$$1$$1$$info->unlocked;
+            j_obj_new_int32_add_link2(j_wakelock_info, "pid", fnotify_dump_wakelocks__1__4__1__1__info->proc->pid);
+            j_obj_new_int32_add_link2(j_wakelock_info, "ppid", fnotify_dump_wakelocks__1__4__1__1__info->proc->ppid);
+            j_obj_new_int32_add_link2(j_wakelock_info, "is-thread", (const signed int)fnotify_dump_wakelocks__1__4__1__1__info->proc->is_thread);
+            j_obj_new_string_add_link2(j_wakelock_info, "name", fnotify_dump_wakelocks__1__4__1__1__info->proc->cmdline);
+            j_obj_new_int64_add_link2(j_wakelock_info, "wakelock-locked", (const signed long int)fnotify_dump_wakelocks__1__4__1__1__info->locked);
+            j_obj_new_double_add_link2(j_wakelock_info, "wakelock-locked-rate", (double)fnotify_dump_wakelocks__1__4__1__1__info->locked / duration);
+            j_obj_new_int64_add_link2(j_wakelock_info, "wakelock-unlocked", (const signed long int)fnotify_dump_wakelocks__1__4__1__1__info->unlocked);
+            j_obj_new_double_add_link2(j_wakelock_info, "wakelock-unlocked-rate", (double)fnotify_dump_wakelocks__1__4__1__1__info->unlocked / duration);
+            j_obj_array_add_link2(j_wakelock_infos, j_wakelock_info);
+            locked_total = locked_total + fnotify_dump_wakelocks__1__4__1__1__info->locked;
+            unlocked_total = unlocked_total + fnotify_dump_wakelocks__1__4__1__1__info->unlocked;
           }
           j_wakelock_info=j_obj_new_obj();
           if(!(j_wakelock_info == ((struct json_object *)NULL)))
           {
-            j_obj_obj_add$link2(j_wakelock_test, "wakelock-operations-light-total", j_wakelock_info);
-            j_obj_new_int64_add$link2(j_wakelock_info, "wakelock-locked-total", (const signed long int)locked_total);
-            j_obj_new_double_add$link2(j_wakelock_info, "wakelock-locked-total-rate", (double)locked_total / duration);
-            j_obj_new_int64_add$link2(j_wakelock_info, "wakelock-unlocked-total", (const signed long int)unlocked_total);
-            j_obj_new_double_add$link2(j_wakelock_info, "wakelock-unlocked-total-rate", (double)unlocked_total / duration);
+            j_obj_obj_add_link2(j_wakelock_test, "wakelock-operations-light-total", j_wakelock_info);
+            j_obj_new_int64_add_link2(j_wakelock_info, "wakelock-locked-total", (const signed long int)locked_total);
+            j_obj_new_double_add_link2(j_wakelock_info, "wakelock-locked-total-rate", (double)locked_total / duration);
+            j_obj_new_int64_add_link2(j_wakelock_info, "wakelock-unlocked-total", (const signed long int)unlocked_total);
+            j_obj_new_double_add_link2(j_wakelock_info, "wakelock-unlocked-total-rate", (double)unlocked_total / duration);
           }
 
         }
@@ -5333,16 +5333,16 @@ extern void fnotify_dump_wakelocks(struct json_object *j_tests, const double dur
 
 // fnotify_event_add
 // file fnotify.c line 164
-extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanotify_event_metadata *metadata)
+extern signed int fnotify_event_add(const struct anonymous_3 *pids, struct fanotify_event_metadata *metadata)
 {
-  struct link *fnotify_event_add$$1$$l;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$15;
-  signed int tmp_statement_expression$10;
-  _Bool tmp_if_expr$14;
-  signed int tmp_statement_expression$12;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$5;
+  struct link *fnotify_event_add__1__l;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_15;
+  signed int tmp_statement_expression_10;
+  _Bool tmp_if_expr_14;
+  signed int tmp_statement_expression_12;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_5;
   if(metadata->fd == -1)
   {
     if(metadata->fd >= 0)
@@ -5356,10 +5356,10 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
 
   __CPROVER_DUMP_L1:
     ;
-    fnotify_event_add$$1$$l = pids->head;
-    for( ; !(fnotify_event_add$$1$$l == ((struct link *)NULL)); fnotify_event_add$$1$$l = fnotify_event_add$$1$$l->next)
+    fnotify_event_add__1__l = pids->head;
+    for( ; !(fnotify_event_add__1__l == ((struct link *)NULL)); fnotify_event_add__1__l = fnotify_event_add__1__l->next)
     {
-      struct proc_info *p = (struct proc_info *)fnotify_event_add$$1$$l->data;
+      struct proc_info *p = (struct proc_info *)fnotify_event_add__1__l->data;
       if(metadata->pid == p->pid)
       {
         char *filename;
@@ -5372,43 +5372,43 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
         }
 
         if(!((0x00000008 & opt_flags) == 0))
-          tmp_if_expr$9 = (metadata->mask & (unsigned long int)(0x00000002 | 0x00000008)) != 0ull ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (metadata->mask & (unsigned long int)(0x00000002 | 0x00000008)) != 0ull ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
-          unsigned long int fnotify_event_add$$1$$1$$1$$1$$2$$__s1_len;
-          unsigned long int fnotify_event_add$$1$$1$$1$$1$$2$$__s2_len;
-          signed int return_value___builtin_strcmp$11;
-          return_value___builtin_strcmp$11=__builtin_strcmp(filename, "/sys/power/wake_lock");
-          tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-          if(tmp_statement_expression$10 == 0)
-            tmp_if_expr$14 = (_Bool)1;
+          unsigned long int fnotify_event_add__1__1__1__1__2____s1_len;
+          unsigned long int fnotify_event_add__1__1__1__1__2____s2_len;
+          signed int return_value___builtin_strcmp_11;
+          return_value___builtin_strcmp_11=__builtin_strcmp(filename, "/sys/power/wake_lock");
+          tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+          if(tmp_statement_expression_10 == 0)
+            tmp_if_expr_14 = (_Bool)1;
 
           else
           {
-            unsigned long int fnotify_event_add$$1$$1$$1$$1$$3$$__s1_len;
-            unsigned long int fnotify_event_add$$1$$1$$1$$1$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$13;
-            return_value___builtin_strcmp$13=__builtin_strcmp(filename, "/sys/power/wake_unlock");
-            tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-            tmp_if_expr$14 = !(tmp_statement_expression$12 != 0) ? (_Bool)1 : (_Bool)0;
+            unsigned long int fnotify_event_add__1__1__1__1__3____s1_len;
+            unsigned long int fnotify_event_add__1__1__1__1__3____s2_len;
+            signed int return_value___builtin_strcmp_13;
+            return_value___builtin_strcmp_13=__builtin_strcmp(filename, "/sys/power/wake_unlock");
+            tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+            tmp_if_expr_14 = !(tmp_statement_expression_12 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          tmp_if_expr$15 = tmp_if_expr$14 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = tmp_if_expr_14 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        if(tmp_if_expr$15)
+          tmp_if_expr_15 = (_Bool)0;
+        if(tmp_if_expr_15)
         {
-          struct anonymous$23 *wakelock_info;
+          struct anonymous_23 *wakelock_info;
           struct link *l;
           _Bool found = (_Bool)0;
           l = fnotify_wakelocks.head;
           for( ; !(l == ((struct link *)NULL)); l = l->next)
           {
-            wakelock_info = (struct anonymous$23 *)l->data;
+            wakelock_info = (struct anonymous_23 *)l->data;
             if(wakelock_info->proc == p)
             {
               found = (_Bool)1;
@@ -5418,10 +5418,10 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
           }
           if(found == (_Bool)0)
           {
-            void *return_value_calloc$1;
-            return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$23) /*32ul*/ );
-            wakelock_info = (struct anonymous$23 *)return_value_calloc$1;
-            if(wakelock_info == ((struct anonymous$23 *)NULL))
+            void *return_value_calloc_1;
+            return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_23) /*32ul*/ );
+            wakelock_info = (struct anonymous_23 *)return_value_calloc_1;
+            if(wakelock_info == ((struct anonymous_23 *)NULL))
             {
               health_check_out_of_memory("allocating wakelock information");
               free((void *)filename);
@@ -5433,9 +5433,9 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
             wakelock_info->locked = (unsigned long int)0;
             wakelock_info->unlocked = (unsigned long int)0;
             wakelock_info->total = (unsigned long int)0;
-            struct link *return_value_list_append$2;
-            return_value_list_append$2=list_append(&fnotify_wakelocks, (void *)wakelock_info);
-            if(return_value_list_append$2 == ((struct link *)NULL))
+            struct link *return_value_list_append_2;
+            return_value_list_append_2=list_append(&fnotify_wakelocks, (void *)wakelock_info);
+            if(return_value_list_append_2 == ((struct link *)NULL))
             {
               free((void *)filename);
               close(metadata->fd);
@@ -5446,10 +5446,10 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
 
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$4;
-          return_value___builtin_strcmp$4=__builtin_strcmp(filename, "/sys/power/wake_unlock");
-          tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-          if(!(tmp_statement_expression$3 == 0))
+          signed int return_value___builtin_strcmp_4;
+          return_value___builtin_strcmp_4=__builtin_strcmp(filename, "/sys/power/wake_unlock");
+          tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+          if(!(tmp_statement_expression_3 == 0))
             wakelock_info->locked = wakelock_info->locked + 1ul;
 
           else
@@ -5460,35 +5460,35 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
 
         else
         {
-          struct anonymous$24 *fileinfo;
-          struct link *fnotify_event_add$$1$$1$$1$$1$$5$$l;
-          _Bool fnotify_event_add$$1$$1$$1$$1$$5$$found = (_Bool)0;
-          fnotify_event_add$$1$$1$$1$$1$$5$$l = fnotify_files.head;
-          for( ; !(fnotify_event_add$$1$$1$$1$$1$$5$$l == ((struct link *)NULL)); fnotify_event_add$$1$$1$$1$$1$$5$$l = fnotify_event_add$$1$$1$$1$$1$$5$$l->next)
+          struct anonymous_24 *fileinfo;
+          struct link *fnotify_event_add__1__1__1__1__5__l;
+          _Bool fnotify_event_add__1__1__1__1__5__found = (_Bool)0;
+          fnotify_event_add__1__1__1__1__5__l = fnotify_files.head;
+          for( ; !(fnotify_event_add__1__1__1__1__5__l == ((struct link *)NULL)); fnotify_event_add__1__1__1__1__5__l = fnotify_event_add__1__1__1__1__5__l->next)
           {
-            fileinfo = (struct anonymous$24 *)fnotify_event_add$$1$$1$$1$$1$$5$$l->data;
+            fileinfo = (struct anonymous_24 *)fnotify_event_add__1__1__1__1__5__l->data;
             if(metadata->mask == (unsigned long int)fileinfo->mask)
             {
-              unsigned long int fnotify_event_add$$1$$1$$1$$1$$5$$1$$1$$1$$__s1_len;
-              unsigned long int fnotify_event_add$$1$$1$$1$$1$$5$$1$$1$$1$$__s2_len;
-              signed int return_value___builtin_strcmp$6;
-              return_value___builtin_strcmp$6=__builtin_strcmp(fileinfo->filename, filename);
-              tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-              if(tmp_statement_expression$5 == 0)
+              unsigned long int fnotify_event_add__1__1__1__1__5__1__1__1____s1_len;
+              unsigned long int fnotify_event_add__1__1__1__1__5__1__1__1____s2_len;
+              signed int return_value___builtin_strcmp_6;
+              return_value___builtin_strcmp_6=__builtin_strcmp(fileinfo->filename, filename);
+              tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+              if(tmp_statement_expression_5 == 0)
               {
-                fnotify_event_add$$1$$1$$1$$1$$5$$found = (_Bool)1;
+                fnotify_event_add__1__1__1__1__5__found = (_Bool)1;
                 break;
               }
 
             }
 
           }
-          if(fnotify_event_add$$1$$1$$1$$1$$5$$found == (_Bool)0)
+          if(fnotify_event_add__1__1__1__1__5__found == (_Bool)0)
           {
-            void *return_value_calloc$7;
-            return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct anonymous$24) /*32ul*/ );
-            fileinfo = (struct anonymous$24 *)return_value_calloc$7;
-            if(fileinfo == ((struct anonymous$24 *)NULL))
+            void *return_value_calloc_7;
+            return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct anonymous_24) /*32ul*/ );
+            fileinfo = (struct anonymous_24 *)return_value_calloc_7;
+            if(fileinfo == ((struct anonymous_24 *)NULL))
             {
               health_check_out_of_memory("allocating fnotify file information");
               free((void *)filename);
@@ -5500,9 +5500,9 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
             fileinfo->mask = (unsigned int)metadata->mask;
             fileinfo->proc = p;
             fileinfo->count = (unsigned long int)0;
-            struct link *return_value_list_append$8;
-            return_value_list_append$8=list_append(&fnotify_files, (void *)fileinfo);
-            if(return_value_list_append$8 == ((struct link *)NULL))
+            struct link *return_value_list_append_8;
+            return_value_list_append_8=list_append(&fnotify_files, (void *)fileinfo);
+            if(return_value_list_append_8 == ((struct link *)NULL))
             {
               free((void *)filename);
               close(metadata->fd);
@@ -5527,8 +5527,8 @@ extern signed int fnotify_event_add(const struct anonymous$3 *pids, struct fanot
 // file fnotify.c line 271
 static signed int fnotify_event_cmp_count(const void *data1, const void *data2)
 {
-  struct anonymous$24 *info1 = (struct anonymous$24 *)data1;
-  struct anonymous$24 *info2 = (struct anonymous$24 *)data2;
+  struct anonymous_24 *info1 = (struct anonymous_24 *)data1;
+  struct anonymous_24 *info2 = (struct anonymous_24 *)data2;
   return (signed int)(info2->count - info1->count);
 }
 
@@ -5536,8 +5536,8 @@ static signed int fnotify_event_cmp_count(const void *data1, const void *data2)
 // file fnotify.c line 283
 static signed int fnotify_event_cmp_io_ops(const void *data1, const void *data2)
 {
-  struct anonymous$25 *io_ops1 = (struct anonymous$25 *)data1;
-  struct anonymous$25 *io_ops2 = (struct anonymous$25 *)data2;
+  struct anonymous_25 *io_ops1 = (struct anonymous_25 *)data1;
+  struct anonymous_25 *io_ops2 = (struct anonymous_25 *)data2;
   return (signed int)(io_ops2->total - io_ops1->total);
 }
 
@@ -5545,7 +5545,7 @@ static signed int fnotify_event_cmp_io_ops(const void *data1, const void *data2)
 // file fnotify.c line 106
 void fnotify_event_free(void *data)
 {
-  struct anonymous$24 *fileinfo = (struct anonymous$24 *)data;
+  struct anonymous_24 *fileinfo = (struct anonymous_24 *)data;
   free((void *)fileinfo->filename);
   free((void *)fileinfo);
 }
@@ -5561,26 +5561,26 @@ extern signed int fnotify_event_init(void)
   fan_fd=fanotify_init((unsigned int)0, (unsigned int)0);
   if(!(fan_fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Cannot initialize fanotify: %s.\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Cannot initialize fanotify: %s.\n", return_value_strerror_2);
     return -1;
   }
 
   ret=fanotify_mark(fan_fd, (unsigned int)(0x00000001 | 0x00000010), (unsigned long int)(0x00000001 | 0x00000002 | 0x00000020 | 0x00000008 | 0x00000010 | 0x40000000 | 0x08000000), -100, "/");
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Cannot add fanotify watch on /: %s.\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Cannot add fanotify watch on /: %s.\n", return_value_strerror_4);
   }
 
   mounts=setmntent("/proc/self/mounts", "r");
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_5;
   if(mounts == ((struct _IO_FILE *)NULL))
   {
     fprintf(stderr, "Cannot get mount points.\n");
@@ -5598,8 +5598,8 @@ extern signed int fnotify_event_init(void)
       ret=fanotify_mark(fan_fd, (unsigned int)(0x00000001 | 0x00000010), (unsigned long int)(0x00000001 | 0x00000002 | 0x00000020 | 0x00000008 | 0x00000010 | 0x40000000 | 0x08000000), -100, mount->mnt_dir);
       if(!(ret >= 0))
       {
-        return_value___errno_location$5=__errno_location();
-        if(!(*return_value___errno_location$5 == 2))
+        return_value___errno_location_5=__errno_location();
+        if(!(*return_value___errno_location_5 == 2))
           continue;
 
       }
@@ -5627,37 +5627,37 @@ extern char * fnotify_get_filename(const signed int pid, const signed int fd)
   else
     snprintf(buf, sizeof(char [256l]) /*256ul*/ , "/proc/%d/fd/%d", pid, fd);
   len=readlink(buf, path, sizeof(char [4096l]) /*4096ul*/ );
-  char *return_value___strdup$1;
+  char *return_value___strdup_1;
   if(!(len >= 0l))
   {
     struct stat statbuf;
-    signed int return_value_fstat$5;
-    return_value_fstat$5=fstat(fd, &statbuf);
-    if(!(return_value_fstat$5 >= 0))
+    signed int return_value_fstat_5;
+    return_value_fstat_5=fstat(fd, &statbuf);
+    if(!(return_value_fstat_5 >= 0))
     {
-      return_value___strdup$1=__strdup("(unknown)");
-      filename = return_value___strdup$1;
+      return_value___strdup_1=__strdup("(unknown)");
+      filename = return_value___strdup_1;
     }
 
     else
     {
-      unsigned int return_value_gnu_dev_major$2;
-      return_value_gnu_dev_major$2=gnu_dev_major(statbuf.st_dev);
-      unsigned int return_value_gnu_dev_minor$3;
-      return_value_gnu_dev_minor$3=gnu_dev_minor(statbuf.st_dev);
-      snprintf(buf, sizeof(char [256l]) /*256ul*/ , "dev: %i:%i inode %ld", return_value_gnu_dev_major$2, return_value_gnu_dev_minor$3, statbuf.st_ino);
-      char *return_value___strdup$4;
-      return_value___strdup$4=__strdup(buf);
-      filename = return_value___strdup$4;
+      unsigned int return_value_gnu_dev_major_2;
+      return_value_gnu_dev_major_2=gnu_dev_major(statbuf.st_dev);
+      unsigned int return_value_gnu_dev_minor_3;
+      return_value_gnu_dev_minor_3=gnu_dev_minor(statbuf.st_dev);
+      snprintf(buf, sizeof(char [256l]) /*256ul*/ , "dev: %i:%i inode %ld", return_value_gnu_dev_major_2, return_value_gnu_dev_minor_3, statbuf.st_ino);
+      char *return_value___strdup_4;
+      return_value___strdup_4=__strdup(buf);
+      filename = return_value___strdup_4;
     }
   }
 
   else
   {
     path[len >= (signed long int)4096 ? (signed long int)(4096 - 1) : len] = (char)0;
-    char *return_value___strdup$6;
-    return_value___strdup$6=__strdup(path);
-    filename = return_value___strdup$6;
+    char *return_value___strdup_6;
+    return_value___strdup_6=__strdup(path);
+    filename = return_value___strdup_6;
   }
   return filename;
 }
@@ -5675,37 +5675,37 @@ extern void fnotify_init(void)
 static const char * fnotify_mask_to_str(const signed int mask)
 {
   signed int i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   static char modes[5l];
   if(!((0x00000020 & mask) == 0))
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    modes[(signed long int)tmp_post$1] = (char)79;
+    modes[(signed long int)tmp_post_1] = (char)79;
   }
 
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(!((24 & mask) == 0))
   {
-    tmp_post$2 = i;
+    tmp_post_2 = i;
     i = i + 1;
-    modes[(signed long int)tmp_post$2] = (char)67;
+    modes[(signed long int)tmp_post_2] = (char)67;
   }
 
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(!((0x00000001 & mask) == 0))
   {
-    tmp_post$3 = i;
+    tmp_post_3 = i;
     i = i + 1;
-    modes[(signed long int)tmp_post$3] = (char)82;
+    modes[(signed long int)tmp_post_3] = (char)82;
   }
 
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(!((10 & mask) == 0))
   {
-    tmp_post$4 = i;
+    tmp_post_4 = i;
     i = i + 1;
-    modes[(signed long int)tmp_post$4] = (char)87;
+    modes[(signed long int)tmp_post_4] = (char)87;
   }
 
   modes[(signed long int)i] = (char)0;
@@ -5716,8 +5716,8 @@ static const char * fnotify_mask_to_str(const signed int mask)
 // file fnotify.c line 295
 static signed int fnotify_wakelock_cmp_count(const void *data1, const void *data2)
 {
-  struct anonymous$23 *w1 = (struct anonymous$23 *)data1;
-  struct anonymous$23 *w2 = (struct anonymous$23 *)data2;
+  struct anonymous_23 *w1 = (struct anonymous_23 *)data1;
+  struct anonymous_23 *w2 = (struct anonymous_23 *)data2;
   return (signed int)(w2->total - w1->total);
 }
 
@@ -5725,9 +5725,9 @@ static signed int fnotify_wakelock_cmp_count(const void *data1, const void *data
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // get_pid_cmdline
@@ -5740,7 +5740,7 @@ extern char * get_pid_cmdline(const signed int pid)
   signed long int ret;
   snprintf(buffer, sizeof(char [4096l]) /*4096ul*/ , "/proc/%i/cmdline", pid);
   fd=open(buffer, 00);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fd >= 0))
     return (char *)(void *)0;
 
@@ -5764,11 +5764,11 @@ extern char * get_pid_cmdline(const signed int pid)
       do
       {
         if(!(*ptr == 0))
-          tmp_if_expr$1 = ptr < buffer + ret ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ptr < buffer + ret ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(!tmp_if_expr_1)
           break;
 
         if((signed int)*ptr == 32)
@@ -5777,11 +5777,11 @@ extern char * get_pid_cmdline(const signed int pid)
         ptr = ptr + 1l;
       }
       while((_Bool)1);
-      char *return_value___xpg_basename$2;
-      return_value___xpg_basename$2=__xpg_basename(buffer);
-      char *return_value___strdup$3;
-      return_value___strdup$3=__strdup(return_value___xpg_basename$2);
-      return return_value___strdup$3;
+      char *return_value___xpg_basename_2;
+      return_value___xpg_basename_2=__xpg_basename(buffer);
+      char *return_value___strdup_3;
+      return_value___strdup_3=__strdup(return_value___xpg_basename_2);
+      return return_value___strdup_3;
     }
   }
 }
@@ -5811,9 +5811,9 @@ extern char * get_pid_comm(const signed int pid)
     {
       close(fd);
       buffer[ret - (signed long int)1] = (char)0;
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(buffer);
-      return return_value___strdup$1;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(buffer);
+      return return_value___strdup_1;
     }
   }
 }
@@ -5856,12 +5856,12 @@ static unsigned int hash_filename(const signed int pid, const char *filename)
   unsigned int hash = (unsigned int)(5381 ^ pid);
   signed int c;
   const char *str = filename;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   do
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    c = (signed int)*tmp_post$1;
+    c = (signed int)*tmp_post_1;
     if(c == 0)
       break;
 
@@ -5907,9 +5907,9 @@ extern void health_check_out_of_memory(const char *msg)
 static inline signed int is_executable(const char *path)
 {
   struct stat buf;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat$link1(path, &buf);
-  return (signed int)((return_value_stat$1 == 0 ? ((buf.st_mode & (unsigned int)(0100 | 0100 >> 3 | (0100 >> 3) >> 3)) != 0u ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? ((buf.st_mode & (unsigned int)0170000) == (unsigned int)0100000 ? (_Bool)1 : (_Bool)0) : (_Bool)0);
+  signed int return_value_stat_1;
+  return_value_stat_1=stat_link1(path, &buf);
+  return (signed int)((return_value_stat_1 == 0 ? ((buf.st_mode & (unsigned int)(0100 | 0100 >> 3 | (0100 >> 3) >> 3)) != 0u ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? ((buf.st_mode & (unsigned int)0170000) == (unsigned int)0100000 ? (_Bool)1 : (_Bool)0) : (_Bool)0);
 }
 
 // j_obj_array_add
@@ -5919,46 +5919,46 @@ static inline void j_obj_array_add(struct json_object *array, struct json_object
   json_object_array_add(array, obj);
 }
 
-// j_obj_array_add$link1
+// j_obj_array_add_link1
 // file json.h line 39
-static inline void j_obj_array_add$link1(struct json_object *array$link1, struct json_object *obj$link1)
+static inline void j_obj_array_add_link1(struct json_object *array_link1, struct json_object *obj_link1)
 {
-  json_object_array_add(array$link1, obj$link1);
+  json_object_array_add(array_link1, obj_link1);
 }
 
-// j_obj_array_add$link2
+// j_obj_array_add_link2
 // file json.h line 39
-static inline void j_obj_array_add$link2(struct json_object *array$link2, struct json_object *obj$link2)
+static inline void j_obj_array_add_link2(struct json_object *array_link2, struct json_object *obj_link2)
 {
-  json_object_array_add(array$link2, obj$link2);
+  json_object_array_add(array_link2, obj_link2);
 }
 
-// j_obj_array_add$link3
+// j_obj_array_add_link3
 // file json.h line 39
-static inline void j_obj_array_add$link3(struct json_object *array$link3, struct json_object *obj$link3)
+static inline void j_obj_array_add_link3(struct json_object *array_link3, struct json_object *obj_link3)
 {
-  json_object_array_add(array$link3, obj$link3);
+  json_object_array_add(array_link3, obj_link3);
 }
 
-// j_obj_array_add$link4
+// j_obj_array_add_link4
 // file json.h line 39
-static inline void j_obj_array_add$link4(struct json_object *array$link4, struct json_object *obj$link4)
+static inline void j_obj_array_add_link4(struct json_object *array_link4, struct json_object *obj_link4)
 {
-  json_object_array_add(array$link4, obj$link4);
+  json_object_array_add(array_link4, obj_link4);
 }
 
-// j_obj_array_add$link5
+// j_obj_array_add_link5
 // file json.h line 39
-static inline void j_obj_array_add$link5(struct json_object *array$link5, struct json_object *obj$link5)
+static inline void j_obj_array_add_link5(struct json_object *array_link5, struct json_object *obj_link5)
 {
-  json_object_array_add(array$link5, obj$link5);
+  json_object_array_add(array_link5, obj_link5);
 }
 
-// j_obj_array_add$link6
+// j_obj_array_add_link6
 // file json.h line 39
-static inline void j_obj_array_add$link6(struct json_object *array$link6, struct json_object *obj$link6)
+static inline void j_obj_array_add_link6(struct json_object *array_link6, struct json_object *obj_link6)
 {
-  json_object_array_add(array$link6, obj$link6);
+  json_object_array_add(array_link6, obj_link6);
 }
 
 // j_obj_is_null
@@ -5994,63 +5994,63 @@ extern struct json_object * j_obj_new_double(const double d)
 // file json.h line 54
 static inline void j_obj_new_double_add(struct json_object *parent, const char *label, const double d)
 {
-  struct json_object *return_value_j_obj_new_double$1;
-  return_value_j_obj_new_double$1=j_obj_new_double(d);
-  j_obj_obj_add(parent, label, return_value_j_obj_new_double$1);
+  struct json_object *return_value_j_obj_new_double_1;
+  return_value_j_obj_new_double_1=j_obj_new_double(d);
+  j_obj_obj_add(parent, label, return_value_j_obj_new_double_1);
 }
 
-// j_obj_new_double_add$link1
+// j_obj_new_double_add_link1
 // file json.h line 54
-static inline void j_obj_new_double_add$link1(struct json_object *parent$link1, const char *label$link1, const double d$link1)
+static inline void j_obj_new_double_add_link1(struct json_object *parent_link1, const char *label_link1, const double d_link1)
 {
-  struct json_object *return_value_j_obj_new_double$1$link1;
-  return_value_j_obj_new_double$1$link1=j_obj_new_double(d$link1);
-  j_obj_obj_add$link1(parent$link1, label$link1, return_value_j_obj_new_double$1$link1);
+  struct json_object *return_value_j_obj_new_double_1_link1;
+  return_value_j_obj_new_double_1_link1=j_obj_new_double(d_link1);
+  j_obj_obj_add_link1(parent_link1, label_link1, return_value_j_obj_new_double_1_link1);
 }
 
-// j_obj_new_double_add$link2
+// j_obj_new_double_add_link2
 // file json.h line 54
-static inline void j_obj_new_double_add$link2(struct json_object *parent$link2, const char *label$link2, const double d$link2)
+static inline void j_obj_new_double_add_link2(struct json_object *parent_link2, const char *label_link2, const double d_link2)
 {
-  struct json_object *return_value_j_obj_new_double$1$link2;
-  return_value_j_obj_new_double$1$link2=j_obj_new_double(d$link2);
-  j_obj_obj_add$link2(parent$link2, label$link2, return_value_j_obj_new_double$1$link2);
+  struct json_object *return_value_j_obj_new_double_1_link2;
+  return_value_j_obj_new_double_1_link2=j_obj_new_double(d_link2);
+  j_obj_obj_add_link2(parent_link2, label_link2, return_value_j_obj_new_double_1_link2);
 }
 
-// j_obj_new_double_add$link3
+// j_obj_new_double_add_link3
 // file json.h line 54
-static inline void j_obj_new_double_add$link3(struct json_object *parent$link3, const char *label$link3, const double d$link3)
+static inline void j_obj_new_double_add_link3(struct json_object *parent_link3, const char *label_link3, const double d_link3)
 {
-  struct json_object *return_value_j_obj_new_double$1$link3;
-  return_value_j_obj_new_double$1$link3=j_obj_new_double(d$link3);
-  j_obj_obj_add$link3(parent$link3, label$link3, return_value_j_obj_new_double$1$link3);
+  struct json_object *return_value_j_obj_new_double_1_link3;
+  return_value_j_obj_new_double_1_link3=j_obj_new_double(d_link3);
+  j_obj_obj_add_link3(parent_link3, label_link3, return_value_j_obj_new_double_1_link3);
 }
 
-// j_obj_new_double_add$link4
+// j_obj_new_double_add_link4
 // file json.h line 54
-static inline void j_obj_new_double_add$link4(struct json_object *parent$link4, const char *label$link4, const double d$link4)
+static inline void j_obj_new_double_add_link4(struct json_object *parent_link4, const char *label_link4, const double d_link4)
 {
-  struct json_object *return_value_j_obj_new_double$1$link4;
-  return_value_j_obj_new_double$1$link4=j_obj_new_double(d$link4);
-  j_obj_obj_add$link4(parent$link4, label$link4, return_value_j_obj_new_double$1$link4);
+  struct json_object *return_value_j_obj_new_double_1_link4;
+  return_value_j_obj_new_double_1_link4=j_obj_new_double(d_link4);
+  j_obj_obj_add_link4(parent_link4, label_link4, return_value_j_obj_new_double_1_link4);
 }
 
-// j_obj_new_double_add$link5
+// j_obj_new_double_add_link5
 // file json.h line 54
-static inline void j_obj_new_double_add$link5(struct json_object *parent$link5, const char *label$link5, const double d$link5)
+static inline void j_obj_new_double_add_link5(struct json_object *parent_link5, const char *label_link5, const double d_link5)
 {
-  struct json_object *return_value_j_obj_new_double$1$link5;
-  return_value_j_obj_new_double$1$link5=j_obj_new_double(d$link5);
-  j_obj_obj_add$link5(parent$link5, label$link5, return_value_j_obj_new_double$1$link5);
+  struct json_object *return_value_j_obj_new_double_1_link5;
+  return_value_j_obj_new_double_1_link5=j_obj_new_double(d_link5);
+  j_obj_obj_add_link5(parent_link5, label_link5, return_value_j_obj_new_double_1_link5);
 }
 
-// j_obj_new_double_add$link6
+// j_obj_new_double_add_link6
 // file json.h line 54
-static inline void j_obj_new_double_add$link6(struct json_object *parent$link6, const char *label$link6, const double d$link6)
+static inline void j_obj_new_double_add_link6(struct json_object *parent_link6, const char *label_link6, const double d_link6)
 {
-  struct json_object *return_value_j_obj_new_double$1$link6;
-  return_value_j_obj_new_double$1$link6=j_obj_new_double(d$link6);
-  j_obj_obj_add$link6(parent$link6, label$link6, return_value_j_obj_new_double$1$link6);
+  struct json_object *return_value_j_obj_new_double_1_link6;
+  return_value_j_obj_new_double_1_link6=j_obj_new_double(d_link6);
+  j_obj_obj_add_link6(parent_link6, label_link6, return_value_j_obj_new_double_1_link6);
 }
 
 // j_obj_new_int32
@@ -6067,63 +6067,63 @@ extern struct json_object * j_obj_new_int32(const signed int i)
 // file json.h line 44
 static inline void j_obj_new_int32_add(struct json_object *parent, const char *label, const signed int i)
 {
-  struct json_object *return_value_j_obj_new_int32$1;
-  return_value_j_obj_new_int32$1=j_obj_new_int32(i);
-  j_obj_obj_add(parent, label, return_value_j_obj_new_int32$1);
+  struct json_object *return_value_j_obj_new_int32_1;
+  return_value_j_obj_new_int32_1=j_obj_new_int32(i);
+  j_obj_obj_add(parent, label, return_value_j_obj_new_int32_1);
 }
 
-// j_obj_new_int32_add$link1
+// j_obj_new_int32_add_link1
 // file json.h line 44
-static inline void j_obj_new_int32_add$link1(struct json_object *parent$link1, const char *label$link1, const signed int i$link1)
+static inline void j_obj_new_int32_add_link1(struct json_object *parent_link1, const char *label_link1, const signed int i_link1)
 {
-  struct json_object *return_value_j_obj_new_int32$1$link1;
-  return_value_j_obj_new_int32$1$link1=j_obj_new_int32(i$link1);
-  j_obj_obj_add$link1(parent$link1, label$link1, return_value_j_obj_new_int32$1$link1);
+  struct json_object *return_value_j_obj_new_int32_1_link1;
+  return_value_j_obj_new_int32_1_link1=j_obj_new_int32(i_link1);
+  j_obj_obj_add_link1(parent_link1, label_link1, return_value_j_obj_new_int32_1_link1);
 }
 
-// j_obj_new_int32_add$link2
+// j_obj_new_int32_add_link2
 // file json.h line 44
-static inline void j_obj_new_int32_add$link2(struct json_object *parent$link2, const char *label$link2, const signed int i$link2)
+static inline void j_obj_new_int32_add_link2(struct json_object *parent_link2, const char *label_link2, const signed int i_link2)
 {
-  struct json_object *return_value_j_obj_new_int32$1$link2;
-  return_value_j_obj_new_int32$1$link2=j_obj_new_int32(i$link2);
-  j_obj_obj_add$link2(parent$link2, label$link2, return_value_j_obj_new_int32$1$link2);
+  struct json_object *return_value_j_obj_new_int32_1_link2;
+  return_value_j_obj_new_int32_1_link2=j_obj_new_int32(i_link2);
+  j_obj_obj_add_link2(parent_link2, label_link2, return_value_j_obj_new_int32_1_link2);
 }
 
-// j_obj_new_int32_add$link3
+// j_obj_new_int32_add_link3
 // file json.h line 44
-static inline void j_obj_new_int32_add$link3(struct json_object *parent$link3, const char *label$link3, const signed int i$link3)
+static inline void j_obj_new_int32_add_link3(struct json_object *parent_link3, const char *label_link3, const signed int i_link3)
 {
-  struct json_object *return_value_j_obj_new_int32$1$link3;
-  return_value_j_obj_new_int32$1$link3=j_obj_new_int32(i$link3);
-  j_obj_obj_add$link3(parent$link3, label$link3, return_value_j_obj_new_int32$1$link3);
+  struct json_object *return_value_j_obj_new_int32_1_link3;
+  return_value_j_obj_new_int32_1_link3=j_obj_new_int32(i_link3);
+  j_obj_obj_add_link3(parent_link3, label_link3, return_value_j_obj_new_int32_1_link3);
 }
 
-// j_obj_new_int32_add$link4
+// j_obj_new_int32_add_link4
 // file json.h line 44
-static inline void j_obj_new_int32_add$link4(struct json_object *parent$link4, const char *label$link4, const signed int i$link4)
+static inline void j_obj_new_int32_add_link4(struct json_object *parent_link4, const char *label_link4, const signed int i_link4)
 {
-  struct json_object *return_value_j_obj_new_int32$1$link4;
-  return_value_j_obj_new_int32$1$link4=j_obj_new_int32(i$link4);
-  j_obj_obj_add$link4(parent$link4, label$link4, return_value_j_obj_new_int32$1$link4);
+  struct json_object *return_value_j_obj_new_int32_1_link4;
+  return_value_j_obj_new_int32_1_link4=j_obj_new_int32(i_link4);
+  j_obj_obj_add_link4(parent_link4, label_link4, return_value_j_obj_new_int32_1_link4);
 }
 
-// j_obj_new_int32_add$link5
+// j_obj_new_int32_add_link5
 // file json.h line 44
-static inline void j_obj_new_int32_add$link5(struct json_object *parent$link5, const char *label$link5, const signed int i$link5)
+static inline void j_obj_new_int32_add_link5(struct json_object *parent_link5, const char *label_link5, const signed int i_link5)
 {
-  struct json_object *return_value_j_obj_new_int32$1$link5;
-  return_value_j_obj_new_int32$1$link5=j_obj_new_int32(i$link5);
-  j_obj_obj_add$link5(parent$link5, label$link5, return_value_j_obj_new_int32$1$link5);
+  struct json_object *return_value_j_obj_new_int32_1_link5;
+  return_value_j_obj_new_int32_1_link5=j_obj_new_int32(i_link5);
+  j_obj_obj_add_link5(parent_link5, label_link5, return_value_j_obj_new_int32_1_link5);
 }
 
-// j_obj_new_int32_add$link6
+// j_obj_new_int32_add_link6
 // file json.h line 44
-static inline void j_obj_new_int32_add$link6(struct json_object *parent$link6, const char *label$link6, const signed int i$link6)
+static inline void j_obj_new_int32_add_link6(struct json_object *parent_link6, const char *label_link6, const signed int i_link6)
 {
-  struct json_object *return_value_j_obj_new_int32$1$link6;
-  return_value_j_obj_new_int32$1$link6=j_obj_new_int32(i$link6);
-  j_obj_obj_add$link6(parent$link6, label$link6, return_value_j_obj_new_int32$1$link6);
+  struct json_object *return_value_j_obj_new_int32_1_link6;
+  return_value_j_obj_new_int32_1_link6=j_obj_new_int32(i_link6);
+  j_obj_obj_add_link6(parent_link6, label_link6, return_value_j_obj_new_int32_1_link6);
 }
 
 // j_obj_new_int64
@@ -6140,63 +6140,63 @@ extern struct json_object * j_obj_new_int64(const signed long int i)
 // file json.h line 49
 static inline void j_obj_new_int64_add(struct json_object *parent, const char *label, const signed long int i)
 {
-  struct json_object *return_value_j_obj_new_int64$1;
-  return_value_j_obj_new_int64$1=j_obj_new_int64(i);
-  j_obj_obj_add(parent, label, return_value_j_obj_new_int64$1);
+  struct json_object *return_value_j_obj_new_int64_1;
+  return_value_j_obj_new_int64_1=j_obj_new_int64(i);
+  j_obj_obj_add(parent, label, return_value_j_obj_new_int64_1);
 }
 
-// j_obj_new_int64_add$link1
+// j_obj_new_int64_add_link1
 // file json.h line 49
-static inline void j_obj_new_int64_add$link1(struct json_object *parent$link1, const char *label$link1, const signed long int i$link1)
+static inline void j_obj_new_int64_add_link1(struct json_object *parent_link1, const char *label_link1, const signed long int i_link1)
 {
-  struct json_object *return_value_j_obj_new_int64$1$link1;
-  return_value_j_obj_new_int64$1$link1=j_obj_new_int64(i$link1);
-  j_obj_obj_add$link1(parent$link1, label$link1, return_value_j_obj_new_int64$1$link1);
+  struct json_object *return_value_j_obj_new_int64_1_link1;
+  return_value_j_obj_new_int64_1_link1=j_obj_new_int64(i_link1);
+  j_obj_obj_add_link1(parent_link1, label_link1, return_value_j_obj_new_int64_1_link1);
 }
 
-// j_obj_new_int64_add$link2
+// j_obj_new_int64_add_link2
 // file json.h line 49
-static inline void j_obj_new_int64_add$link2(struct json_object *parent$link2, const char *label$link2, const signed long int i$link2)
+static inline void j_obj_new_int64_add_link2(struct json_object *parent_link2, const char *label_link2, const signed long int i_link2)
 {
-  struct json_object *return_value_j_obj_new_int64$1$link2;
-  return_value_j_obj_new_int64$1$link2=j_obj_new_int64(i$link2);
-  j_obj_obj_add$link2(parent$link2, label$link2, return_value_j_obj_new_int64$1$link2);
+  struct json_object *return_value_j_obj_new_int64_1_link2;
+  return_value_j_obj_new_int64_1_link2=j_obj_new_int64(i_link2);
+  j_obj_obj_add_link2(parent_link2, label_link2, return_value_j_obj_new_int64_1_link2);
 }
 
-// j_obj_new_int64_add$link3
+// j_obj_new_int64_add_link3
 // file json.h line 49
-static inline void j_obj_new_int64_add$link3(struct json_object *parent$link3, const char *label$link3, const signed long int i$link3)
+static inline void j_obj_new_int64_add_link3(struct json_object *parent_link3, const char *label_link3, const signed long int i_link3)
 {
-  struct json_object *return_value_j_obj_new_int64$1$link3;
-  return_value_j_obj_new_int64$1$link3=j_obj_new_int64(i$link3);
-  j_obj_obj_add$link3(parent$link3, label$link3, return_value_j_obj_new_int64$1$link3);
+  struct json_object *return_value_j_obj_new_int64_1_link3;
+  return_value_j_obj_new_int64_1_link3=j_obj_new_int64(i_link3);
+  j_obj_obj_add_link3(parent_link3, label_link3, return_value_j_obj_new_int64_1_link3);
 }
 
-// j_obj_new_int64_add$link4
+// j_obj_new_int64_add_link4
 // file json.h line 49
-static inline void j_obj_new_int64_add$link4(struct json_object *parent$link4, const char *label$link4, const signed long int i$link4)
+static inline void j_obj_new_int64_add_link4(struct json_object *parent_link4, const char *label_link4, const signed long int i_link4)
 {
-  struct json_object *return_value_j_obj_new_int64$1$link4;
-  return_value_j_obj_new_int64$1$link4=j_obj_new_int64(i$link4);
-  j_obj_obj_add$link4(parent$link4, label$link4, return_value_j_obj_new_int64$1$link4);
+  struct json_object *return_value_j_obj_new_int64_1_link4;
+  return_value_j_obj_new_int64_1_link4=j_obj_new_int64(i_link4);
+  j_obj_obj_add_link4(parent_link4, label_link4, return_value_j_obj_new_int64_1_link4);
 }
 
-// j_obj_new_int64_add$link5
+// j_obj_new_int64_add_link5
 // file json.h line 49
-static inline void j_obj_new_int64_add$link5(struct json_object *parent$link5, const char *label$link5, const signed long int i$link5)
+static inline void j_obj_new_int64_add_link5(struct json_object *parent_link5, const char *label_link5, const signed long int i_link5)
 {
-  struct json_object *return_value_j_obj_new_int64$1$link5;
-  return_value_j_obj_new_int64$1$link5=j_obj_new_int64(i$link5);
-  j_obj_obj_add$link5(parent$link5, label$link5, return_value_j_obj_new_int64$1$link5);
+  struct json_object *return_value_j_obj_new_int64_1_link5;
+  return_value_j_obj_new_int64_1_link5=j_obj_new_int64(i_link5);
+  j_obj_obj_add_link5(parent_link5, label_link5, return_value_j_obj_new_int64_1_link5);
 }
 
-// j_obj_new_int64_add$link6
+// j_obj_new_int64_add_link6
 // file json.h line 49
-static inline void j_obj_new_int64_add$link6(struct json_object *parent$link6, const char *label$link6, const signed long int i$link6)
+static inline void j_obj_new_int64_add_link6(struct json_object *parent_link6, const char *label_link6, const signed long int i_link6)
 {
-  struct json_object *return_value_j_obj_new_int64$1$link6;
-  return_value_j_obj_new_int64$1$link6=j_obj_new_int64(i$link6);
-  j_obj_obj_add$link6(parent$link6, label$link6, return_value_j_obj_new_int64$1$link6);
+  struct json_object *return_value_j_obj_new_int64_1_link6;
+  return_value_j_obj_new_int64_1_link6=j_obj_new_int64(i_link6);
+  j_obj_obj_add_link6(parent_link6, label_link6, return_value_j_obj_new_int64_1_link6);
 }
 
 // j_obj_new_obj
@@ -6223,63 +6223,63 @@ extern struct json_object * j_obj_new_string(const char *str)
 // file json.h line 59
 static inline void j_obj_new_string_add(struct json_object *parent, const char *label, const char *str)
 {
-  struct json_object *return_value_j_obj_new_string$1;
-  return_value_j_obj_new_string$1=j_obj_new_string(str);
-  j_obj_obj_add(parent, label, return_value_j_obj_new_string$1);
+  struct json_object *return_value_j_obj_new_string_1;
+  return_value_j_obj_new_string_1=j_obj_new_string(str);
+  j_obj_obj_add(parent, label, return_value_j_obj_new_string_1);
 }
 
-// j_obj_new_string_add$link1
+// j_obj_new_string_add_link1
 // file json.h line 59
-static inline void j_obj_new_string_add$link1(struct json_object *parent$link1, const char *label$link1, const char *str$link1)
+static inline void j_obj_new_string_add_link1(struct json_object *parent_link1, const char *label_link1, const char *str_link1)
 {
-  struct json_object *return_value_j_obj_new_string$1$link1;
-  return_value_j_obj_new_string$1$link1=j_obj_new_string(str$link1);
-  j_obj_obj_add$link1(parent$link1, label$link1, return_value_j_obj_new_string$1$link1);
+  struct json_object *return_value_j_obj_new_string_1_link1;
+  return_value_j_obj_new_string_1_link1=j_obj_new_string(str_link1);
+  j_obj_obj_add_link1(parent_link1, label_link1, return_value_j_obj_new_string_1_link1);
 }
 
-// j_obj_new_string_add$link2
+// j_obj_new_string_add_link2
 // file json.h line 59
-static inline void j_obj_new_string_add$link2(struct json_object *parent$link2, const char *label$link2, const char *str$link2)
+static inline void j_obj_new_string_add_link2(struct json_object *parent_link2, const char *label_link2, const char *str_link2)
 {
-  struct json_object *return_value_j_obj_new_string$1$link2;
-  return_value_j_obj_new_string$1$link2=j_obj_new_string(str$link2);
-  j_obj_obj_add$link2(parent$link2, label$link2, return_value_j_obj_new_string$1$link2);
+  struct json_object *return_value_j_obj_new_string_1_link2;
+  return_value_j_obj_new_string_1_link2=j_obj_new_string(str_link2);
+  j_obj_obj_add_link2(parent_link2, label_link2, return_value_j_obj_new_string_1_link2);
 }
 
-// j_obj_new_string_add$link3
+// j_obj_new_string_add_link3
 // file json.h line 59
-static inline void j_obj_new_string_add$link3(struct json_object *parent$link3, const char *label$link3, const char *str$link3)
+static inline void j_obj_new_string_add_link3(struct json_object *parent_link3, const char *label_link3, const char *str_link3)
 {
-  struct json_object *return_value_j_obj_new_string$1$link3;
-  return_value_j_obj_new_string$1$link3=j_obj_new_string(str$link3);
-  j_obj_obj_add$link3(parent$link3, label$link3, return_value_j_obj_new_string$1$link3);
+  struct json_object *return_value_j_obj_new_string_1_link3;
+  return_value_j_obj_new_string_1_link3=j_obj_new_string(str_link3);
+  j_obj_obj_add_link3(parent_link3, label_link3, return_value_j_obj_new_string_1_link3);
 }
 
-// j_obj_new_string_add$link4
+// j_obj_new_string_add_link4
 // file json.h line 59
-static inline void j_obj_new_string_add$link4(struct json_object *parent$link4, const char *label$link4, const char *str$link4)
+static inline void j_obj_new_string_add_link4(struct json_object *parent_link4, const char *label_link4, const char *str_link4)
 {
-  struct json_object *return_value_j_obj_new_string$1$link4;
-  return_value_j_obj_new_string$1$link4=j_obj_new_string(str$link4);
-  j_obj_obj_add$link4(parent$link4, label$link4, return_value_j_obj_new_string$1$link4);
+  struct json_object *return_value_j_obj_new_string_1_link4;
+  return_value_j_obj_new_string_1_link4=j_obj_new_string(str_link4);
+  j_obj_obj_add_link4(parent_link4, label_link4, return_value_j_obj_new_string_1_link4);
 }
 
-// j_obj_new_string_add$link5
+// j_obj_new_string_add_link5
 // file json.h line 59
-static inline void j_obj_new_string_add$link5(struct json_object *parent$link5, const char *label$link5, const char *str$link5)
+static inline void j_obj_new_string_add_link5(struct json_object *parent_link5, const char *label_link5, const char *str_link5)
 {
-  struct json_object *return_value_j_obj_new_string$1$link5;
-  return_value_j_obj_new_string$1$link5=j_obj_new_string(str$link5);
-  j_obj_obj_add$link5(parent$link5, label$link5, return_value_j_obj_new_string$1$link5);
+  struct json_object *return_value_j_obj_new_string_1_link5;
+  return_value_j_obj_new_string_1_link5=j_obj_new_string(str_link5);
+  j_obj_obj_add_link5(parent_link5, label_link5, return_value_j_obj_new_string_1_link5);
 }
 
-// j_obj_new_string_add$link6
+// j_obj_new_string_add_link6
 // file json.h line 59
-static inline void j_obj_new_string_add$link6(struct json_object *parent$link6, const char *label$link6, const char *str$link6)
+static inline void j_obj_new_string_add_link6(struct json_object *parent_link6, const char *label_link6, const char *str_link6)
 {
-  struct json_object *return_value_j_obj_new_string$1$link6;
-  return_value_j_obj_new_string$1$link6=j_obj_new_string(str$link6);
-  j_obj_obj_add$link6(parent$link6, label$link6, return_value_j_obj_new_string$1$link6);
+  struct json_object *return_value_j_obj_new_string_1_link6;
+  return_value_j_obj_new_string_1_link6=j_obj_new_string(str_link6);
+  j_obj_obj_add_link6(parent_link6, label_link6, return_value_j_obj_new_string_1_link6);
 }
 
 // j_obj_obj_add
@@ -6289,46 +6289,46 @@ static inline void j_obj_obj_add(struct json_object *parent, const char *label, 
   json_object_object_add(parent, label, obj);
 }
 
-// j_obj_obj_add$link1
+// j_obj_obj_add_link1
 // file json.h line 34
-static inline void j_obj_obj_add$link1(struct json_object *parent$link1, const char *label$link1, struct json_object *obj$link1)
+static inline void j_obj_obj_add_link1(struct json_object *parent_link1, const char *label_link1, struct json_object *obj_link1)
 {
-  json_object_object_add(parent$link1, label$link1, obj$link1);
+  json_object_object_add(parent_link1, label_link1, obj_link1);
 }
 
-// j_obj_obj_add$link2
+// j_obj_obj_add_link2
 // file json.h line 34
-static inline void j_obj_obj_add$link2(struct json_object *parent$link2, const char *label$link2, struct json_object *obj$link2)
+static inline void j_obj_obj_add_link2(struct json_object *parent_link2, const char *label_link2, struct json_object *obj_link2)
 {
-  json_object_object_add(parent$link2, label$link2, obj$link2);
+  json_object_object_add(parent_link2, label_link2, obj_link2);
 }
 
-// j_obj_obj_add$link3
+// j_obj_obj_add_link3
 // file json.h line 34
-static inline void j_obj_obj_add$link3(struct json_object *parent$link3, const char *label$link3, struct json_object *obj$link3)
+static inline void j_obj_obj_add_link3(struct json_object *parent_link3, const char *label_link3, struct json_object *obj_link3)
 {
-  json_object_object_add(parent$link3, label$link3, obj$link3);
+  json_object_object_add(parent_link3, label_link3, obj_link3);
 }
 
-// j_obj_obj_add$link4
+// j_obj_obj_add_link4
 // file json.h line 34
-static inline void j_obj_obj_add$link4(struct json_object *parent$link4, const char *label$link4, struct json_object *obj$link4)
+static inline void j_obj_obj_add_link4(struct json_object *parent_link4, const char *label_link4, struct json_object *obj_link4)
 {
-  json_object_object_add(parent$link4, label$link4, obj$link4);
+  json_object_object_add(parent_link4, label_link4, obj_link4);
 }
 
-// j_obj_obj_add$link5
+// j_obj_obj_add_link5
 // file json.h line 34
-static inline void j_obj_obj_add$link5(struct json_object *parent$link5, const char *label$link5, struct json_object *obj$link5)
+static inline void j_obj_obj_add_link5(struct json_object *parent_link5, const char *label_link5, struct json_object *obj_link5)
 {
-  json_object_object_add(parent$link5, label$link5, obj$link5);
+  json_object_object_add(parent_link5, label_link5, obj_link5);
 }
 
-// j_obj_obj_add$link6
+// j_obj_obj_add_link6
 // file json.h line 34
-static inline void j_obj_obj_add$link6(struct json_object *parent$link6, const char *label$link6, struct json_object *obj$link6)
+static inline void j_obj_obj_add_link6(struct json_object *parent_link6, const char *label_link6, struct json_object *obj_link6)
 {
-  json_object_object_add(parent$link6, label$link6, obj$link6);
+  json_object_object_add(parent_link6, label_link6, obj_link6);
 }
 
 // json_write
@@ -6374,13 +6374,13 @@ static signed int json_write(struct json_object *obj, const char *filename)
 
 // list_add_ordered
 // file list.c line 66
-extern struct link * list_add_ordered(struct anonymous$3 *list, void *new_data, signed int (* const compare)(const void *, const void *))
+extern struct link * list_add_ordered(struct anonymous_3 *list, void *new_data, signed int (* const compare)(const void *, const void *))
 {
   struct link *link;
   struct link **l;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct link) /*16ul*/ );
-  link = (struct link *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct link) /*16ul*/ );
+  link = (struct link *)return_value_calloc_1;
   if(link == ((struct link *)NULL))
     return (struct link *)(void *)0;
 
@@ -6411,12 +6411,12 @@ extern struct link * list_add_ordered(struct anonymous$3 *list, void *new_data, 
 
 // list_append
 // file list.c line 41
-extern struct link * list_append(struct anonymous$3 *list, void *data)
+extern struct link * list_append(struct anonymous_3 *list, void *data)
 {
   struct link *link;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct link) /*16ul*/ );
-  link = (struct link *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct link) /*16ul*/ );
+  link = (struct link *)return_value_calloc_1;
   if(link == ((struct link *)NULL))
   {
     fprintf(stderr, "Cannot allocate list link.\n");
@@ -6439,11 +6439,11 @@ extern struct link * list_append(struct anonymous$3 *list, void *data)
 
 // list_free
 // file list.c line 98
-extern void list_free(struct anonymous$3 *list, void (* const freefunc)(void *))
+extern void list_free(struct anonymous_3 *list, void (* const freefunc)(void *))
 {
   struct link *link;
   struct link *next;
-  if(!(list == ((struct anonymous$3 *)NULL)))
+  if(!(list == ((struct anonymous_3 *)NULL)))
   {
     link = list->head;
     for( ; !(link == ((struct link *)NULL)); link = next)
@@ -6464,7 +6464,7 @@ extern void list_free(struct anonymous$3 *list, void (* const freefunc)(void *))
 
 // list_init
 // file list.c line 30
-extern void list_init(struct anonymous$3 *list)
+extern void list_init(struct anonymous_3 *list)
 {
   list->head = (struct link *)(void *)0;
   list->tail = (struct link *)(void *)0;
@@ -6484,7 +6484,7 @@ signed int main(signed int argc, char **argv)
   signed int ret;
   signed int rc = 0;
   signed int fan_fd = 0;
-  struct anonymous$3 pids;
+  struct anonymous_3 pids;
   struct link *l;
   void *buffer = (void *)0;
   char *opt_username = (char *)(void *)0;
@@ -6495,32 +6495,32 @@ signed int main(signed int argc, char **argv)
   struct sigaction old_action;
   list_init(&pids);
   proc_cache_init();
-  signed int return_value_proc_cache_get$1;
-  return_value_proc_cache_get$1=proc_cache_get();
-  signed int return_value_proc_cache_get_pthreads$2;
-  signed int return_value_parse_pid_list$3;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$5;
-  unsigned int return_value_getuid$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_geteuid$7;
-  signed int return_value_pid_list_get_children$13;
-  signed int return_value_net_connection_pids$14;
-  signed int return_value_event_get_all_pids$15;
-  signed int return_value_cpustat_get_all_pids$16;
-  signed int return_value_mem_get_all_pids$17;
-  signed int return_value_ctxt_switch_get_all_pids$18;
-  double return_value_timeval_to_double$19;
-  signed int return_value_event_get_all_pids$24;
-  signed int return_value_cpustat_get_all_pids$25;
-  signed int return_value_mem_get_all_pids$26;
-  signed int return_value_ctxt_switch_get_all_pids$27;
-  signed int return_value_syscall_stop$28;
-  signed int return_value_mem_dump_diff$29;
-  if(return_value_proc_cache_get$1 >= 0)
+  signed int return_value_proc_cache_get_1;
+  return_value_proc_cache_get_1=proc_cache_get();
+  signed int return_value_proc_cache_get_pthreads_2;
+  signed int return_value_parse_pid_list_3;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_5;
+  unsigned int return_value_getuid_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_geteuid_7;
+  signed int return_value_pid_list_get_children_13;
+  signed int return_value_net_connection_pids_14;
+  signed int return_value_event_get_all_pids_15;
+  signed int return_value_cpustat_get_all_pids_16;
+  signed int return_value_mem_get_all_pids_17;
+  signed int return_value_ctxt_switch_get_all_pids_18;
+  double return_value_timeval_to_double_19;
+  signed int return_value_event_get_all_pids_24;
+  signed int return_value_cpustat_get_all_pids_25;
+  signed int return_value_mem_get_all_pids_26;
+  signed int return_value_ctxt_switch_get_all_pids_27;
+  signed int return_value_syscall_stop_28;
+  signed int return_value_mem_dump_diff_29;
+  if(return_value_proc_cache_get_1 >= 0)
   {
-    return_value_proc_cache_get_pthreads$2=proc_cache_get_pthreads();
-    if(return_value_proc_cache_get_pthreads$2 >= 0)
+    return_value_proc_cache_get_pthreads_2=proc_cache_get_pthreads();
+    if(return_value_proc_cache_get_pthreads_2 >= 0)
     {
       sigaction(17, (struct sigaction *)(void *)0, &old_action);
       if(!(old_action.__sigaction_handler.sa_handler == ((void (*)(signed int))NULL)))
@@ -6562,8 +6562,8 @@ signed int main(signed int argc, char **argv)
           }
           case 112:
           {
-            return_value_parse_pid_list$3=parse_pid_list(optarg, &pids);
-            if(!(return_value_parse_pid_list$3 >= 0))
+            return_value_parse_pid_list_3=parse_pid_list(optarg, &pids);
+            if(!(return_value_parse_pid_list_3 >= 0))
               health_check_exit(1);
 
             break;
@@ -6576,11 +6576,11 @@ signed int main(signed int argc, char **argv)
           }
           case 109:
           {
-            return_value___errno_location$4=__errno_location();
-            *return_value___errno_location$4 = 0;
+            return_value___errno_location_4=__errno_location();
+            *return_value___errno_location_4 = 0;
             opt_max_syscalls=strtol(optarg, (char ** restrict )(void *)0, 10);
-            return_value___errno_location$5=__errno_location();
-            if(!(*return_value___errno_location$5 == 0))
+            return_value___errno_location_5=__errno_location();
+            if(!(*return_value___errno_location_5 == 0))
             {
               fprintf(stderr, "Invalid maximum number of system calls specified.\n");
               health_check_exit(1);
@@ -6629,16 +6629,16 @@ signed int main(signed int argc, char **argv)
         health_check_exit(1);
       }
 
-      return_value_getuid$6=getuid();
-      if(!(return_value_getuid$6 == 0u))
-        tmp_if_expr$8 = (_Bool)1;
+      return_value_getuid_6=getuid();
+      if(!(return_value_getuid_6 == 0u))
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value_geteuid$7=geteuid();
-        tmp_if_expr$8 = return_value_geteuid$7 != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        return_value_geteuid_7=geteuid();
+        tmp_if_expr_8 = return_value_geteuid_7 != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
       {
         fprintf(stderr, "%s requires root privileges to write to %s\n", (const void *)"health-check", (const void *)"/proc/timer_stats");
         health_check_exit(1);
@@ -6671,20 +6671,20 @@ signed int main(signed int argc, char **argv)
           }
 
           free((void *)p->cmdline);
-          char *return_value_basename$9;
-          return_value_basename$9=basename(path);
-          char *return_value___strdup$10;
-          return_value___strdup$10=__strdup(return_value_basename$9);
-          p->cmdline = return_value___strdup$10;
+          char *return_value_basename_9;
+          return_value_basename_9=basename(path);
+          char *return_value___strdup_10;
+          return_value___strdup_10=__strdup(return_value_basename_9);
+          p->cmdline = return_value___strdup_10;
           if(p->cmdline == ((char *)NULL))
           {
             health_check_out_of_memory("cannot allocate process cmdline");
             goto out;
           }
 
-          signed int return_value_proc_pids_add_proc$11;
-          return_value_proc_pids_add_proc$11=proc_pids_add_proc(&pids, p);
-          if(!(return_value_proc_pids_add_proc$11 >= 0))
+          signed int return_value_proc_pids_add_proc_11;
+          return_value_proc_pids_add_proc_11=proc_pids_add_proc(&pids, p);
+          if(!(return_value_proc_pids_add_proc_11 >= 0))
             goto out;
 
         }
@@ -6702,20 +6702,20 @@ signed int main(signed int argc, char **argv)
       l = pids.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct proc_info *main$$1$$7$$1$$p = (struct proc_info *)l->data;
-        _Bool return_value_pid_exists$12;
-        return_value_pid_exists$12=pid_exists(main$$1$$7$$1$$p->pid);
-        if(return_value_pid_exists$12 == (_Bool)0)
+        struct proc_info *main__1__7__1__p = (struct proc_info *)l->data;
+        _Bool return_value_pid_exists_12;
+        return_value_pid_exists_12=pid_exists(main__1__7__1__p->pid);
+        if(return_value_pid_exists_12 == (_Bool)0)
         {
-          fprintf(stderr, "Cannot check process %i, no such process pid\n", main$$1$$7$$1$$p->pid);
+          fprintf(stderr, "Cannot check process %i, no such process pid\n", main__1__7__1__p->pid);
           health_check_exit(1);
         }
 
       }
       if(!((0x00000001 & opt_flags) == 0))
       {
-        return_value_pid_list_get_children$13=pid_list_get_children(&pids);
-        if(!(return_value_pid_list_get_children$13 >= 0))
+        return_value_pid_list_get_children_13=pid_list_get_children(&pids);
+        if(!(return_value_pid_list_get_children_13 >= 0))
           goto out;
 
       }
@@ -6727,8 +6727,8 @@ signed int main(signed int argc, char **argv)
       }
 
       net_connection_init();
-      return_value_net_connection_pids$14=net_connection_pids(&pids);
-      if(return_value_net_connection_pids$14 >= 0)
+      return_value_net_connection_pids_14=net_connection_pids(&pids);
+      if(return_value_net_connection_pids_14 >= 0)
       {
         if(!(opt_json_file == ((char *)NULL)))
         {
@@ -6774,17 +6774,17 @@ signed int main(signed int argc, char **argv)
             duration.tv_usec = (signed long int)(opt_duration_secs * 1000000.0) - duration.tv_sec * (signed long int)1000000;
             gettimeofday(&tv_start, (struct timezone *)(void *)0);
             tv_end=timeval_add(&tv_start, &duration);
-            return_value_event_get_all_pids$15=event_get_all_pids(&pids, (enum anonymous$9)PROC_START);
-            if(return_value_event_get_all_pids$15 >= 0)
+            return_value_event_get_all_pids_15=event_get_all_pids(&pids, (enum anonymous_9)PROC_START);
+            if(return_value_event_get_all_pids_15 >= 0)
             {
-              return_value_cpustat_get_all_pids$16=cpustat_get_all_pids(&pids, (enum anonymous$9)PROC_START);
-              if(return_value_cpustat_get_all_pids$16 >= 0)
+              return_value_cpustat_get_all_pids_16=cpustat_get_all_pids(&pids, (enum anonymous_9)PROC_START);
+              if(return_value_cpustat_get_all_pids_16 >= 0)
               {
-                return_value_mem_get_all_pids$17=mem_get_all_pids(&pids, (const enum anonymous$9)PROC_START);
-                if(return_value_mem_get_all_pids$17 >= 0)
+                return_value_mem_get_all_pids_17=mem_get_all_pids(&pids, (const enum anonymous_9)PROC_START);
+                if(return_value_mem_get_all_pids_17 >= 0)
                 {
-                  return_value_ctxt_switch_get_all_pids$18=ctxt_switch_get_all_pids(&pids, (enum anonymous$9)PROC_START);
-                  if(return_value_ctxt_switch_get_all_pids$18 >= 0)
+                  return_value_ctxt_switch_get_all_pids_18=ctxt_switch_get_all_pids(&pids, (enum anonymous_9)PROC_START);
+                  if(return_value_ctxt_switch_get_all_pids_18 >= 0)
                   {
                     gettimeofday(&tv_now, (struct timezone *)(void *)0);
                     duration=timeval_sub(&tv_end, &tv_now);
@@ -6795,34 +6795,34 @@ signed int main(signed int argc, char **argv)
 
                       if(!IEEE_FLOAT_EQUAL(opt_duration_secs, 0.0))
                       {
-                        return_value_timeval_to_double$19=timeval_to_double(&duration);
-                        if(!(return_value_timeval_to_double$19 > 0.0))
+                        return_value_timeval_to_double_19=timeval_to_double(&duration);
+                        if(!(return_value_timeval_to_double_19 > 0.0))
                           break;
 
                       }
 
                       struct timeval *duration_ptr = IEEE_FLOAT_EQUAL(opt_duration_secs, 0.0) ? (struct timeval *)(void *)0 : &duration;
-                      struct anonymous$12 rfds;
+                      struct anonymous_12 rfds;
                       do
                       {
                         signed int __d0;
                         signed int __d1;
-                        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$12) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
+                        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_12) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->fds_bits[(signed long int)0]) : "memory");
                       }
                       while((_Bool)0);
                       (&rfds)->fds_bits[(signed long int)(fan_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->fds_bits[(signed long int)(fan_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fan_fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-                      ret=select(fan_fd + 1, &rfds, (struct anonymous$12 *)(void *)0, (struct anonymous$12 *)(void *)0, duration_ptr);
+                      ret=select(fan_fd + 1, &rfds, (struct anonymous_12 *)(void *)0, (struct anonymous_12 *)(void *)0, duration_ptr);
                       if(!(ret >= 0))
                       {
-                        signed int *return_value___errno_location$22;
-                        return_value___errno_location$22=__errno_location();
-                        if(!(*return_value___errno_location$22 == 4))
+                        signed int *return_value___errno_location_22;
+                        return_value___errno_location_22=__errno_location();
+                        if(!(*return_value___errno_location_22 == 4))
                         {
-                          signed int *return_value___errno_location$20;
-                          return_value___errno_location$20=__errno_location();
-                          char *return_value_strerror$21;
-                          return_value_strerror$21=strerror(*return_value___errno_location$20);
-                          fprintf(stderr, "Select failed: %s\n", return_value_strerror$21);
+                          signed int *return_value___errno_location_20;
+                          return_value___errno_location_20=__errno_location();
+                          char *return_value_strerror_21;
+                          return_value_strerror_21=strerror(*return_value___errno_location_20);
+                          fprintf(stderr, "Select failed: %s\n", return_value_strerror_21);
                           gettimeofday(&tv_now, (struct timezone *)(void *)0);
                           goto out;
                         }
@@ -6847,9 +6847,9 @@ signed int main(signed int argc, char **argv)
                                 if(!(len >= (signed long int)metadata->event_len))
                                   break;
 
-                                signed int return_value_fnotify_event_add$23;
-                                return_value_fnotify_event_add$23=fnotify_event_add(&pids, metadata);
-                                if(!(return_value_fnotify_event_add$23 >= 0))
+                                signed int return_value_fnotify_event_add_23;
+                                return_value_fnotify_event_add_23=fnotify_event_add(&pids, metadata);
+                                if(!(return_value_fnotify_event_add_23 >= 0))
                                   goto out;
 
                                 len = len - (signed long int)metadata->event_len;
@@ -6867,21 +6867,21 @@ signed int main(signed int argc, char **argv)
                     keep_running = (volatile _Bool)0;
                     duration=timeval_sub(&tv_now, &tv_start);
                     actual_duration=timeval_to_double(&duration);
-                    return_value_event_get_all_pids$24=event_get_all_pids(&pids, (enum anonymous$9)PROC_FINISH);
-                    if(return_value_event_get_all_pids$24 >= 0)
+                    return_value_event_get_all_pids_24=event_get_all_pids(&pids, (enum anonymous_9)PROC_FINISH);
+                    if(return_value_event_get_all_pids_24 >= 0)
                     {
-                      return_value_cpustat_get_all_pids$25=cpustat_get_all_pids(&pids, (enum anonymous$9)PROC_FINISH);
-                      if(return_value_cpustat_get_all_pids$25 >= 0)
+                      return_value_cpustat_get_all_pids_25=cpustat_get_all_pids(&pids, (enum anonymous_9)PROC_FINISH);
+                      if(return_value_cpustat_get_all_pids_25 >= 0)
                       {
-                        return_value_mem_get_all_pids$26=mem_get_all_pids(&pids, (const enum anonymous$9)PROC_FINISH);
-                        if(return_value_mem_get_all_pids$26 >= 0)
+                        return_value_mem_get_all_pids_26=mem_get_all_pids(&pids, (const enum anonymous_9)PROC_FINISH);
+                        if(return_value_mem_get_all_pids_26 >= 0)
                         {
-                          return_value_ctxt_switch_get_all_pids$27=ctxt_switch_get_all_pids(&pids, (enum anonymous$9)PROC_FINISH);
-                          if(return_value_ctxt_switch_get_all_pids$27 >= 0)
+                          return_value_ctxt_switch_get_all_pids_27=ctxt_switch_get_all_pids(&pids, (enum anonymous_9)PROC_FINISH);
+                          if(return_value_ctxt_switch_get_all_pids_27 >= 0)
                           {
                             event_stop();
-                            return_value_syscall_stop$28=syscall_stop();
-                            if(return_value_syscall_stop$28 >= 0)
+                            return_value_syscall_stop_28=syscall_stop();
+                            if(return_value_syscall_stop_28 >= 0)
                             {
                               sigaction(2, &old_action, (struct sigaction *)(void *)0);
                               if(!(caught_sigint == (_Bool)0))
@@ -6897,8 +6897,8 @@ signed int main(signed int argc, char **argv)
                               syscall_dump_sync(json_tests, actual_duration);
                               syscall_dump_inotify(json_tests, actual_duration);
                               syscall_dump_execve(json_tests, actual_duration);
-                              return_value_mem_dump_diff$29=mem_dump_diff(json_tests, actual_duration);
-                              if(return_value_mem_dump_diff$29 >= 0)
+                              return_value_mem_dump_diff_29=mem_dump_diff(json_tests, actual_duration);
+                              if(return_value_mem_dump_diff_29 >= 0)
                               {
                                 mem_dump_brk(json_tests, actual_duration);
                                 mem_dump_mmap(json_tests, actual_duration);
@@ -6966,7 +6966,7 @@ out:
 extern signed int mem_brk_account(const signed int pid, const void *addr)
 {
   struct link *l;
-  struct anonymous$2 *info = (struct anonymous$2 *)(void *)0;
+  struct anonymous_2 *info = (struct anonymous_2 *)(void *)0;
   if(addr == NULL)
     return 0;
 
@@ -6975,7 +6975,7 @@ extern signed int mem_brk_account(const signed int pid, const void *addr)
     l = mem_brk_info.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      info = (struct anonymous$2 *)l->data;
+      info = (struct anonymous_2 *)l->data;
       if(info->pid == pid)
       {
         info->brk_current = addr;
@@ -6984,10 +6984,10 @@ extern signed int mem_brk_account(const signed int pid, const void *addr)
       }
 
     }
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$2) /*32ul*/ );
-    info = (struct anonymous$2 *)return_value_calloc$1;
-    if(info == ((struct anonymous$2 *)NULL))
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_2) /*32ul*/ );
+    info = (struct anonymous_2 *)return_value_calloc_1;
+    if(info == ((struct anonymous_2 *)NULL))
     {
       health_check_out_of_memory("allocating memory tracking brk() information");
       return -1;
@@ -6999,9 +6999,9 @@ extern signed int mem_brk_account(const signed int pid, const void *addr)
       info->brk_start = addr;
       info->brk_current = addr;
       info->brk_count = (unsigned long int)1;
-      struct link *return_value_list_append$2;
-      return_value_list_append$2=list_append(&mem_brk_info, (void *)info);
-      if(return_value_list_append$2 == ((struct link *)NULL))
+      struct link *return_value_list_append_2;
+      return_value_list_append_2=list_append(&mem_brk_info, (void *)info);
+      if(return_value_list_append_2 == ((struct link *)NULL))
       {
         free((void *)info);
         return -1;
@@ -7017,8 +7017,8 @@ extern signed int mem_brk_account(const signed int pid, const void *addr)
 // file mem.c line 277
 static signed int mem_brk_cmp(const void *data1, const void *data2)
 {
-  struct anonymous$2 *m1 = (struct anonymous$2 *)data1;
-  struct anonymous$2 *m2 = (struct anonymous$2 *)data2;
+  struct anonymous_2 *m1 = (struct anonymous_2 *)data1;
+  struct anonymous_2 *m2 = (struct anonymous_2 *)data2;
   signed long int p1 = (char *)m1->brk_current - (char *)m1->brk_start;
   signed long int p2 = (char *)m2->brk_current - (char *)m2->brk_start;
   return (signed int)(p2 - p1);
@@ -7045,14 +7045,14 @@ static signed int mem_cmp(const void *data1, const void *data2)
 
 // mem_delta
 // file mem.c line 520
-static struct mem_info_t * mem_delta(struct mem_info_t *mem_new, const struct anonymous$3 *mem_old_list)
+static struct mem_info_t * mem_delta(struct mem_info_t *mem_new, const struct anonymous_3 *mem_old_list)
 {
   struct link *l;
   signed int i;
   struct mem_info_t *delta;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct mem_info_t) /*112ul*/ );
-  delta = (struct mem_info_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct mem_info_t) /*112ul*/ );
+  delta = (struct mem_info_t *)return_value_calloc_1;
   if(delta == ((struct mem_info_t *)NULL))
   {
     health_check_out_of_memory("allocating memory delta tracking information");
@@ -7090,22 +7090,22 @@ static struct mem_info_t * mem_delta(struct mem_info_t *mem_new, const struct an
 // file mem.c line 292
 extern void mem_dump_brk(struct json_object *j_tests, const double duration)
 {
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
-  struct anonymous$2 *info;
+  struct anonymous_2 *info;
   printf("Heap Change via brk():\n");
   list_init(&sorted);
   l = mem_brk_info.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    info = (struct anonymous$2 *)l->data;
-    struct link *return_value_list_add_ordered$1;
-    return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)info, mem_brk_cmp);
-    if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+    info = (struct anonymous_2 *)l->data;
+    struct link *return_value_list_add_ordered_1;
+    return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)info, mem_brk_cmp);
+    if(return_value_list_add_ordered_1 == ((struct link *)NULL))
       goto out;
 
   }
-  char *tmp_if_expr$2;
+  char *tmp_if_expr_2;
   if(mem_brk_info.head == ((struct link *)NULL))
     printf(" None.\n\n");
 
@@ -7115,19 +7115,19 @@ extern void mem_dump_brk(struct json_object *j_tests, const double duration)
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      info = (struct anonymous$2 *)l->data;
-      struct proc_info *mem_dump_brk$$1$$3$$1$$1$$p;
-      mem_dump_brk$$1$$3$$1$$1$$p=proc_cache_find_by_pid(info->pid);
-      signed long int mem_dump_brk$$1$$3$$1$$1$$delta = (char *)info->brk_current - (char *)info->brk_start;
-      double rate = (double)mem_dump_brk$$1$$3$$1$$1$$delta / duration;
-      if(!(mem_dump_brk$$1$$3$$1$$1$$p == ((struct proc_info *)NULL)))
-        tmp_if_expr$2 = mem_dump_brk$$1$$3$$1$$1$$p->cmdline;
+      info = (struct anonymous_2 *)l->data;
+      struct proc_info *mem_dump_brk__1__3__1__1__p;
+      mem_dump_brk__1__3__1__1__p=proc_cache_find_by_pid(info->pid);
+      signed long int mem_dump_brk__1__3__1__1__delta = (char *)info->brk_current - (char *)info->brk_start;
+      double rate = (double)mem_dump_brk__1__3__1__1__delta / duration;
+      if(!(mem_dump_brk__1__3__1__1__p == ((struct proc_info *)NULL)))
+        tmp_if_expr_2 = mem_dump_brk__1__3__1__1__p->cmdline;
 
       else
-        tmp_if_expr$2 = "";
-      const char *return_value_mem_loading$3;
-      return_value_mem_loading$3=mem_loading(rate);
-      printf(" %5d %-20.20s   %8lu %12td      %8.2f (%s)\n", info->pid, tmp_if_expr$2, info->brk_count, mem_dump_brk$$1$$3$$1$$1$$delta / (signed long int)1024, rate / 1024.0, return_value_mem_loading$3);
+        tmp_if_expr_2 = "";
+      const char *return_value_mem_loading_3;
+      return_value_mem_loading_3=mem_loading(rate);
+      printf(" %5d %-20.20s   %8lu %12td      %8.2f (%s)\n", info->pid, tmp_if_expr_2, info->brk_count, mem_dump_brk__1__3__1__1__delta / (signed long int)1024, rate / 1024.0, return_value_mem_loading_3);
     }
     printf("\n");
   }
@@ -7141,15 +7141,15 @@ extern void mem_dump_brk(struct json_object *j_tests, const double duration)
     j_mem_test=j_obj_new_obj();
     if(!(j_mem_test == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link5(j_tests, "heap-usage-via-brk", j_mem_test);
+      j_obj_obj_add_link5(j_tests, "heap-usage-via-brk", j_mem_test);
       j_mem_infos=j_obj_new_array();
       if(!(j_mem_infos == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link5(j_mem_test, "heap-usage-via-brk-per-process", j_mem_infos);
+        j_obj_obj_add_link5(j_mem_test, "heap-usage-via-brk-per-process", j_mem_infos);
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          info = (struct anonymous$2 *)l->data;
+          info = (struct anonymous_2 *)l->data;
           struct proc_info *p;
           p=proc_cache_find_by_pid(info->pid);
           signed long int delta = (char *)info->brk_current - (char *)info->brk_start;
@@ -7157,28 +7157,28 @@ extern void mem_dump_brk(struct json_object *j_tests, const double duration)
           if(j_mem_info == ((struct json_object *)NULL))
             goto out;
 
-          j_obj_new_int32_add$link5(j_mem_info, "pid", info->pid);
+          j_obj_new_int32_add_link5(j_mem_info, "pid", info->pid);
           if(!(p == ((struct proc_info *)NULL)))
           {
-            j_obj_new_int32_add$link5(j_mem_info, "ppid", p->ppid);
-            j_obj_new_int32_add$link5(j_mem_info, "is-thread", (const signed int)p->is_thread);
-            j_obj_new_string_add$link5(j_mem_info, "name", p->cmdline);
+            j_obj_new_int32_add_link5(j_mem_info, "ppid", p->ppid);
+            j_obj_new_int32_add_link5(j_mem_info, "is-thread", (const signed int)p->is_thread);
+            j_obj_new_string_add_link5(j_mem_info, "name", p->cmdline);
           }
 
-          j_obj_new_int64_add$link5(j_mem_info, "brk-count", (const signed long int)info->brk_count);
-          j_obj_new_int64_add$link5(j_mem_info, "brk-size-Kbytes", (const signed long int)((unsigned long int)delta / (unsigned long int)1024));
-          j_obj_new_double_add$link5(j_mem_info, "brk-size-Kbytes-rate", ((double)delta / 1024.0) / duration);
-          j_obj_array_add$link5(j_mem_infos, j_mem_info);
+          j_obj_new_int64_add_link5(j_mem_info, "brk-count", (const signed long int)info->brk_count);
+          j_obj_new_int64_add_link5(j_mem_info, "brk-size-Kbytes", (const signed long int)((unsigned long int)delta / (unsigned long int)1024));
+          j_obj_new_double_add_link5(j_mem_info, "brk-size-Kbytes-rate", ((double)delta / 1024.0) / duration);
+          j_obj_array_add_link5(j_mem_infos, j_mem_info);
           total_brk_count = total_brk_count + info->brk_count;
           total_delta = total_delta + (unsigned long int)delta;
         }
         j_mem_info=j_obj_new_obj();
         if(!(j_mem_info == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link5(j_mem_test, "heap-usage-via-brk-total", j_mem_info);
-          j_obj_new_int64_add$link5(j_mem_info, "brk-count-total", (const signed long int)total_brk_count);
-          j_obj_new_int64_add$link5(j_mem_info, "brk-size-total-Kbytes", (const signed long int)(total_delta / (unsigned long int)1024));
-          j_obj_new_double_add$link5(j_mem_info, "brk-size-total-Kbytes-rate", ((double)total_delta / 1024.0) / duration);
+          j_obj_obj_add_link5(j_mem_test, "heap-usage-via-brk-total", j_mem_info);
+          j_obj_new_int64_add_link5(j_mem_info, "brk-count-total", (const signed long int)total_brk_count);
+          j_obj_new_int64_add_link5(j_mem_info, "brk-size-total-Kbytes", (const signed long int)(total_delta / (unsigned long int)1024));
+          j_obj_new_double_add_link5(j_mem_info, "brk-size-total-Kbytes-rate", ((double)total_delta / 1024.0) / duration);
         }
 
       }
@@ -7197,8 +7197,8 @@ out:
 // file mem.c line 555
 extern signed int mem_dump_diff(struct json_object *j_tests, const double duration)
 {
-  struct anonymous$3 sorted;
-  struct anonymous$3 sorted_delta;
+  struct anonymous_3 sorted;
+  struct anonymous_3 sorted_delta;
   struct link *l;
   _Bool deltas = (_Bool)0;
   printf("Memory:\n");
@@ -7207,14 +7207,14 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
   l = mem_info_new.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    enum anonymous$11 type;
+    enum anonymous_11 type;
     struct mem_info_t *mem_new = (struct mem_info_t *)l->data;
-    type = (enum anonymous$11)MEM_STACK;
-    for( ; !((signed int)type >= MEM_MAX); type = (enum anonymous$11)((signed int)type + 1))
+    type = (enum anonymous_11)MEM_STACK;
+    for( ; !((signed int)type >= MEM_MAX); type = (enum anonymous_11)((signed int)type + 1))
       mem_new->grand_total = mem_new->grand_total + mem_new->total[(signed long int)type];
-    struct link *return_value_list_add_ordered$1;
-    return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)mem_new, mem_cmp);
-    if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+    struct link *return_value_list_add_ordered_1;
+    return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)mem_new, mem_cmp);
+    if(return_value_list_add_ordered_1 == ((struct link *)NULL))
       goto out;
 
   }
@@ -7222,14 +7222,14 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     struct mem_info_t *delta;
-    struct mem_info_t *mem_dump_diff$$1$$2$$1$$mem_new = (struct mem_info_t *)l->data;
-    delta=mem_delta(mem_dump_diff$$1$$2$$1$$mem_new, &mem_info_old);
+    struct mem_info_t *mem_dump_diff__1__2__1__mem_new = (struct mem_info_t *)l->data;
+    delta=mem_delta(mem_dump_diff__1__2__1__mem_new, &mem_info_old);
     if(delta == ((struct mem_info_t *)NULL))
       return -1;
 
-    struct link *return_value_list_add_ordered$2;
-    return_value_list_add_ordered$2=list_add_ordered(&sorted_delta, (void *)delta, mem_cmp);
-    if(return_value_list_add_ordered$2 == ((struct link *)NULL))
+    struct link *return_value_list_add_ordered_2;
+    return_value_list_add_ordered_2=list_add_ordered(&sorted_delta, (void *)delta, mem_cmp);
+    if(return_value_list_add_ordered_2 == ((struct link *)NULL))
     {
       free((void *)delta);
       goto out;
@@ -7248,10 +7248,10 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct mem_info_t *mem_dump_diff$$1$$3$$2$$1$$1$$delta = (struct mem_info_t *)l->data;
-        enum anonymous$11 mem_dump_diff$$1$$3$$2$$1$$1$$type = (enum anonymous$11)MEM_STACK;
-        for( ; !((signed int)mem_dump_diff$$1$$3$$2$$1$$1$$type >= MEM_MAX); mem_dump_diff$$1$$3$$2$$1$$1$$type = (enum anonymous$11)((signed int)mem_dump_diff$$1$$3$$2$$1$$1$$type + 1))
-          printf(" %5d %-20.20s %-6.6s %9li %9li %9li\n", mem_dump_diff$$1$$3$$2$$1$$1$$delta->proc->pid, mem_dump_diff$$1$$3$$2$$1$$1$$delta->proc->cmdline, mem_types[(signed long int)mem_dump_diff$$1$$3$$2$$1$$1$$type], mem_dump_diff$$1$$3$$2$$1$$1$$delta->size[(signed long int)mem_dump_diff$$1$$3$$2$$1$$1$$type] / (signed long int)1024, mem_dump_diff$$1$$3$$2$$1$$1$$delta->rss[(signed long int)mem_dump_diff$$1$$3$$2$$1$$1$$type] / (signed long int)1024, mem_dump_diff$$1$$3$$2$$1$$1$$delta->pss[(signed long int)mem_dump_diff$$1$$3$$2$$1$$1$$type] / (signed long int)1024);
+        struct mem_info_t *mem_dump_diff__1__3__2__1__1__delta = (struct mem_info_t *)l->data;
+        enum anonymous_11 mem_dump_diff__1__3__2__1__1__type = (enum anonymous_11)MEM_STACK;
+        for( ; !((signed int)mem_dump_diff__1__3__2__1__1__type >= MEM_MAX); mem_dump_diff__1__3__2__1__1__type = (enum anonymous_11)((signed int)mem_dump_diff__1__3__2__1__1__type + 1))
+          printf(" %5d %-20.20s %-6.6s %9li %9li %9li\n", mem_dump_diff__1__3__2__1__1__delta->proc->pid, mem_dump_diff__1__3__2__1__1__delta->proc->cmdline, mem_types[(signed long int)mem_dump_diff__1__3__2__1__1__type], mem_dump_diff__1__3__2__1__1__delta->size[(signed long int)mem_dump_diff__1__3__2__1__1__type] / (signed long int)1024, mem_dump_diff__1__3__2__1__1__delta->rss[(signed long int)mem_dump_diff__1__3__2__1__1__type] / (signed long int)1024, mem_dump_diff__1__3__2__1__1__delta->pss[(signed long int)mem_dump_diff__1__3__2__1__1__type] / (signed long int)1024);
       }
       printf("\n");
     }
@@ -7266,10 +7266,10 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
     l = sorted_delta.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct mem_info_t *mem_dump_diff$$1$$5$$1$$1$$delta = (struct mem_info_t *)l->data;
-      enum anonymous$11 mem_dump_diff$$1$$5$$1$$1$$type = (enum anonymous$11)MEM_STACK;
-      for( ; !((signed int)mem_dump_diff$$1$$5$$1$$1$$type >= MEM_MAX); mem_dump_diff$$1$$5$$1$$1$$type = (enum anonymous$11)((signed int)mem_dump_diff$$1$$5$$1$$1$$type + 1))
-        if(!(mem_dump_diff$$1$$5$$1$$1$$delta->total[(signed long int)mem_dump_diff$$1$$5$$1$$1$$type] == 0l))
+      struct mem_info_t *mem_dump_diff__1__5__1__1__delta = (struct mem_info_t *)l->data;
+      enum anonymous_11 mem_dump_diff__1__5__1__1__type = (enum anonymous_11)MEM_STACK;
+      for( ; !((signed int)mem_dump_diff__1__5__1__1__type >= MEM_MAX); mem_dump_diff__1__5__1__1__type = (enum anonymous_11)((signed int)mem_dump_diff__1__5__1__1__type + 1))
+        if(!(mem_dump_diff__1__5__1__1__delta->total[(signed long int)mem_dump_diff__1__5__1__1__type] == 0l))
         {
           if(deltas == (_Bool)0)
           {
@@ -7277,9 +7277,9 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
             deltas = (_Bool)1;
           }
 
-          const char *return_value_mem_loading$3;
-          return_value_mem_loading$3=mem_loading((double)((double)mem_dump_diff$$1$$5$$1$$1$$delta->total[(signed long int)mem_dump_diff$$1$$5$$1$$1$$type] / duration));
-          printf(" %5d %-20.20s %-6.6s %9.2f %9.2f %9.2f (%s)\n", mem_dump_diff$$1$$5$$1$$1$$delta->proc->pid, mem_dump_diff$$1$$5$$1$$1$$delta->proc->cmdline, mem_types[(signed long int)mem_dump_diff$$1$$5$$1$$1$$type], (double)((double)mem_dump_diff$$1$$5$$1$$1$$delta->size[(signed long int)mem_dump_diff$$1$$5$$1$$1$$type] / 1024.0) / duration, (double)((double)mem_dump_diff$$1$$5$$1$$1$$delta->rss[(signed long int)mem_dump_diff$$1$$5$$1$$1$$type] / 1024.0) / duration, (double)((double)mem_dump_diff$$1$$5$$1$$1$$delta->pss[(signed long int)mem_dump_diff$$1$$5$$1$$1$$type] / 1024.0) / duration, return_value_mem_loading$3);
+          const char *return_value_mem_loading_3;
+          return_value_mem_loading_3=mem_loading((double)((double)mem_dump_diff__1__5__1__1__delta->total[(signed long int)mem_dump_diff__1__5__1__1__type] / duration));
+          printf(" %5d %-20.20s %-6.6s %9.2f %9.2f %9.2f (%s)\n", mem_dump_diff__1__5__1__1__delta->proc->pid, mem_dump_diff__1__5__1__1__delta->proc->cmdline, mem_types[(signed long int)mem_dump_diff__1__5__1__1__type], (double)((double)mem_dump_diff__1__5__1__1__delta->size[(signed long int)mem_dump_diff__1__5__1__1__type] / 1024.0) / duration, (double)((double)mem_dump_diff__1__5__1__1__delta->rss[(signed long int)mem_dump_diff__1__5__1__1__type] / 1024.0) / duration, (double)((double)mem_dump_diff__1__5__1__1__delta->pss[(signed long int)mem_dump_diff__1__5__1__1__type] / 1024.0) / duration, return_value_mem_loading_3);
         }
 
     }
@@ -7294,7 +7294,7 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
     struct json_object *j_mem_infos;
     struct json_object *j_mem_info;
     char label[128l];
-    enum anonymous$11 mem_dump_diff$$1$$6$$type;
+    enum anonymous_11 mem_dump_diff__1__6__type;
     double rate;
     signed long int total_size[3l];
     signed long int total_rss[3l];
@@ -7305,57 +7305,57 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
     j_mem_test=j_obj_new_obj();
     if(!(j_mem_test == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link5(j_tests, "memory-usage", j_mem_test);
+      j_obj_obj_add_link5(j_tests, "memory-usage", j_mem_test);
       j_mem_infos=j_obj_new_array();
       if(!(j_mem_infos == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link5(j_mem_test, "memory-usage-per-process", j_mem_infos);
+        j_obj_obj_add_link5(j_mem_test, "memory-usage-per-process", j_mem_infos);
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          struct mem_info_t *mem_dump_diff$$1$$6$$1$$1$$delta = (struct mem_info_t *)l->data;
-          mem_dump_diff$$1$$6$$type = (enum anonymous$11)MEM_STACK;
-          for( ; !((signed int)mem_dump_diff$$1$$6$$type >= MEM_MAX); mem_dump_diff$$1$$6$$type = (enum anonymous$11)((signed int)mem_dump_diff$$1$$6$$type + 1))
+          struct mem_info_t *mem_dump_diff__1__6__1__1__delta = (struct mem_info_t *)l->data;
+          mem_dump_diff__1__6__type = (enum anonymous_11)MEM_STACK;
+          for( ; !((signed int)mem_dump_diff__1__6__type >= MEM_MAX); mem_dump_diff__1__6__type = (enum anonymous_11)((signed int)mem_dump_diff__1__6__type + 1))
           {
             j_mem_info=j_obj_new_obj();
             if(j_mem_info == ((struct json_object *)NULL))
               goto out;
 
-            j_obj_new_int32_add$link5(j_mem_info, "pid", mem_dump_diff$$1$$6$$1$$1$$delta->proc->pid);
-            j_obj_new_int32_add$link5(j_mem_info, "ppid", mem_dump_diff$$1$$6$$1$$1$$delta->proc->ppid);
-            j_obj_new_int32_add$link5(j_mem_info, "is-thread", (const signed int)mem_dump_diff$$1$$6$$1$$1$$delta->proc->is_thread);
-            j_obj_new_string_add$link5(j_mem_info, "name", mem_dump_diff$$1$$6$$1$$1$$delta->proc->cmdline);
-            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-size-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+            j_obj_new_int32_add_link5(j_mem_info, "pid", mem_dump_diff__1__6__1__1__delta->proc->pid);
+            j_obj_new_int32_add_link5(j_mem_info, "ppid", mem_dump_diff__1__6__1__1__delta->proc->ppid);
+            j_obj_new_int32_add_link5(j_mem_info, "is-thread", (const signed int)mem_dump_diff__1__6__1__1__delta->proc->is_thread);
+            j_obj_new_string_add_link5(j_mem_info, "name", mem_dump_diff__1__6__1__1__delta->proc->cmdline);
+            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-size-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
             mem_tolower_str(label);
-            j_obj_new_int64_add$link5(j_mem_info, label, mem_dump_diff$$1$$6$$1$$1$$delta->size[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-rss-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+            j_obj_new_int64_add_link5(j_mem_info, label, mem_dump_diff__1__6__1__1__delta->size[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-rss-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
             mem_tolower_str(label);
-            j_obj_new_int64_add$link5(j_mem_info, label, mem_dump_diff$$1$$6$$1$$1$$delta->rss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-pss-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+            j_obj_new_int64_add_link5(j_mem_info, label, mem_dump_diff__1__6__1__1__delta->rss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-pss-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
             mem_tolower_str(label);
-            j_obj_new_int64_add$link5(j_mem_info, label, mem_dump_diff$$1$$6$$1$$1$$delta->pss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-            j_obj_array_add$link5(j_mem_infos, j_mem_info);
-            total_size[(signed long int)mem_dump_diff$$1$$6$$type] = total_size[(signed long int)mem_dump_diff$$1$$6$$type] + mem_dump_diff$$1$$6$$1$$1$$delta->size[(signed long int)mem_dump_diff$$1$$6$$type];
-            total_rss[(signed long int)mem_dump_diff$$1$$6$$type] = total_rss[(signed long int)mem_dump_diff$$1$$6$$type] + mem_dump_diff$$1$$6$$1$$1$$delta->rss[(signed long int)mem_dump_diff$$1$$6$$type];
-            total_pss[(signed long int)mem_dump_diff$$1$$6$$type] = total_pss[(signed long int)mem_dump_diff$$1$$6$$type] + mem_dump_diff$$1$$6$$1$$1$$delta->pss[(signed long int)mem_dump_diff$$1$$6$$type];
+            j_obj_new_int64_add_link5(j_mem_info, label, mem_dump_diff__1__6__1__1__delta->pss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+            j_obj_array_add_link5(j_mem_infos, j_mem_info);
+            total_size[(signed long int)mem_dump_diff__1__6__type] = total_size[(signed long int)mem_dump_diff__1__6__type] + mem_dump_diff__1__6__1__1__delta->size[(signed long int)mem_dump_diff__1__6__type];
+            total_rss[(signed long int)mem_dump_diff__1__6__type] = total_rss[(signed long int)mem_dump_diff__1__6__type] + mem_dump_diff__1__6__1__1__delta->rss[(signed long int)mem_dump_diff__1__6__type];
+            total_pss[(signed long int)mem_dump_diff__1__6__type] = total_pss[(signed long int)mem_dump_diff__1__6__type] + mem_dump_diff__1__6__1__1__delta->pss[(signed long int)mem_dump_diff__1__6__type];
           }
         }
         j_mem_info=j_obj_new_obj();
         if(!(j_mem_info == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link5(j_mem_test, "memory-usage-total", j_mem_info);
-          mem_dump_diff$$1$$6$$type = (enum anonymous$11)MEM_STACK;
-          for( ; !((signed int)mem_dump_diff$$1$$6$$type >= MEM_MAX); mem_dump_diff$$1$$6$$type = (enum anonymous$11)((signed int)mem_dump_diff$$1$$6$$type + 1))
+          j_obj_obj_add_link5(j_mem_test, "memory-usage-total", j_mem_info);
+          mem_dump_diff__1__6__type = (enum anonymous_11)MEM_STACK;
+          for( ; !((signed int)mem_dump_diff__1__6__type >= MEM_MAX); mem_dump_diff__1__6__type = (enum anonymous_11)((signed int)mem_dump_diff__1__6__type + 1))
           {
-            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-size-total-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-size-total-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
             mem_tolower_str(label);
-            j_obj_new_int64_add$link5(j_mem_info, label, total_size[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-rss-total-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+            j_obj_new_int64_add_link5(j_mem_info, label, total_size[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-rss-total-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
             mem_tolower_str(label);
-            j_obj_new_int64_add$link5(j_mem_info, label, total_rss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-pss-total-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+            j_obj_new_int64_add_link5(j_mem_info, label, total_rss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+            snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-pss-total-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
             mem_tolower_str(label);
-            j_obj_new_int64_add$link5(j_mem_info, label, total_pss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
+            j_obj_new_int64_add_link5(j_mem_info, label, total_pss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
           }
           memset((void *)total_size, 0, sizeof(signed long int [3l]) /*24ul*/ );
           memset((void *)total_rss, 0, sizeof(signed long int [3l]) /*24ul*/ );
@@ -7363,84 +7363,84 @@ extern signed int mem_dump_diff(struct json_object *j_tests, const double durati
           j_mem_test=j_obj_new_obj();
           if(!(j_mem_test == ((struct json_object *)NULL)))
           {
-            j_obj_obj_add$link5(j_tests, "memory-change", j_mem_test);
+            j_obj_obj_add_link5(j_tests, "memory-change", j_mem_test);
             j_mem_infos=j_obj_new_array();
             if(!(j_mem_infos == ((struct json_object *)NULL)))
             {
-              j_obj_obj_add$link5(j_mem_test, "memory-change-per-process", j_mem_infos);
+              j_obj_obj_add_link5(j_mem_test, "memory-change-per-process", j_mem_infos);
               l = sorted_delta.head;
               for( ; !(l == ((struct link *)NULL)); l = l->next)
               {
-                struct mem_info_t *mem_dump_diff$$1$$6$$3$$1$$delta = (struct mem_info_t *)l->data;
-                mem_dump_diff$$1$$6$$type = (enum anonymous$11)MEM_STACK;
-                for( ; !((signed int)mem_dump_diff$$1$$6$$type >= MEM_MAX); mem_dump_diff$$1$$6$$type = (enum anonymous$11)((signed int)mem_dump_diff$$1$$6$$type + 1))
+                struct mem_info_t *mem_dump_diff__1__6__3__1__delta = (struct mem_info_t *)l->data;
+                mem_dump_diff__1__6__type = (enum anonymous_11)MEM_STACK;
+                for( ; !((signed int)mem_dump_diff__1__6__type >= MEM_MAX); mem_dump_diff__1__6__type = (enum anonymous_11)((signed int)mem_dump_diff__1__6__type + 1))
                 {
                   j_mem_info=j_obj_new_obj();
                   if(j_mem_info == ((struct json_object *)NULL))
                     goto out;
 
-                  j_obj_new_int32_add$link5(j_mem_info, "pid", mem_dump_diff$$1$$6$$3$$1$$delta->proc->pid);
-                  j_obj_new_int32_add$link5(j_mem_info, "ppid", mem_dump_diff$$1$$6$$3$$1$$delta->proc->ppid);
-                  j_obj_new_int32_add$link5(j_mem_info, "is-thread", (const signed int)mem_dump_diff$$1$$6$$3$$1$$delta->proc->is_thread);
-                  j_obj_new_string_add$link5(j_mem_info, "name", mem_dump_diff$$1$$6$$3$$1$$delta->proc->cmdline);
-                  rate = (double)((double)mem_dump_diff$$1$$6$$3$$1$$delta->size[(signed long int)mem_dump_diff$$1$$6$$type] / 1024.0) / duration;
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_int32_add_link5(j_mem_info, "pid", mem_dump_diff__1__6__3__1__delta->proc->pid);
+                  j_obj_new_int32_add_link5(j_mem_info, "ppid", mem_dump_diff__1__6__3__1__delta->proc->ppid);
+                  j_obj_new_int32_add_link5(j_mem_info, "is-thread", (const signed int)mem_dump_diff__1__6__3__1__delta->proc->is_thread);
+                  j_obj_new_string_add_link5(j_mem_info, "name", mem_dump_diff__1__6__3__1__delta->proc->cmdline);
+                  rate = (double)((double)mem_dump_diff__1__6__3__1__delta->size[(signed long int)mem_dump_diff__1__6__type] / 1024.0) / duration;
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_int64_add$link5(j_mem_info, label, mem_dump_diff$$1$$6$$3$$1$$delta->size[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-Kbytes-rate", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_int64_add_link5(j_mem_info, label, mem_dump_diff__1__6__3__1__delta->size[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-Kbytes-rate", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_double_add$link5(j_mem_info, label, rate);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-Kbytes-hint", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_double_add_link5(j_mem_info, label, rate);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-Kbytes-hint", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  const char *return_value_mem_loading$4;
-                  return_value_mem_loading$4=mem_loading(rate);
-                  j_obj_new_string_add$link5(j_mem_info, label, return_value_mem_loading$4);
-                  rate = (double)((double)mem_dump_diff$$1$$6$$3$$1$$delta->rss[(signed long int)mem_dump_diff$$1$$6$$type] / 1024.0) / duration;
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  const char *return_value_mem_loading_4;
+                  return_value_mem_loading_4=mem_loading(rate);
+                  j_obj_new_string_add_link5(j_mem_info, label, return_value_mem_loading_4);
+                  rate = (double)((double)mem_dump_diff__1__6__3__1__delta->rss[(signed long int)mem_dump_diff__1__6__type] / 1024.0) / duration;
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_int64_add$link5(j_mem_info, label, mem_dump_diff$$1$$6$$3$$1$$delta->rss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-Kbytes-rate", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_int64_add_link5(j_mem_info, label, mem_dump_diff__1__6__3__1__delta->rss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-Kbytes-rate", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_double_add$link5(j_mem_info, label, rate);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-Kbytes-hint", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_double_add_link5(j_mem_info, label, rate);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-Kbytes-hint", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  const char *return_value_mem_loading$5;
-                  return_value_mem_loading$5=mem_loading(rate);
-                  j_obj_new_string_add$link5(j_mem_info, label, return_value_mem_loading$5);
-                  rate = (double)((double)mem_dump_diff$$1$$6$$3$$1$$delta->pss[(signed long int)mem_dump_diff$$1$$6$$type] / 1024.0) / duration;
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  const char *return_value_mem_loading_5;
+                  return_value_mem_loading_5=mem_loading(rate);
+                  j_obj_new_string_add_link5(j_mem_info, label, return_value_mem_loading_5);
+                  rate = (double)((double)mem_dump_diff__1__6__3__1__delta->pss[(signed long int)mem_dump_diff__1__6__type] / 1024.0) / duration;
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_int64_add$link5(j_mem_info, label, mem_dump_diff$$1$$6$$3$$1$$delta->pss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-Kbytes-rate", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_int64_add_link5(j_mem_info, label, mem_dump_diff__1__6__3__1__delta->pss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-Kbytes-rate", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_double_add$link5(j_mem_info, label, rate);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-Kbytes-hint", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_double_add_link5(j_mem_info, label, rate);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-Kbytes-hint", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  const char *return_value_mem_loading$6;
-                  return_value_mem_loading$6=mem_loading(rate);
-                  j_obj_new_string_add$link5(j_mem_info, label, return_value_mem_loading$6);
-                  j_obj_array_add$link5(j_mem_infos, j_mem_info);
-                  total_size[(signed long int)mem_dump_diff$$1$$6$$type] = total_size[(signed long int)mem_dump_diff$$1$$6$$type] + mem_dump_diff$$1$$6$$3$$1$$delta->size[(signed long int)mem_dump_diff$$1$$6$$type];
-                  total_rss[(signed long int)mem_dump_diff$$1$$6$$type] = total_rss[(signed long int)mem_dump_diff$$1$$6$$type] + mem_dump_diff$$1$$6$$3$$1$$delta->rss[(signed long int)mem_dump_diff$$1$$6$$type];
-                  total_pss[(signed long int)mem_dump_diff$$1$$6$$type] = total_pss[(signed long int)mem_dump_diff$$1$$6$$type] + mem_dump_diff$$1$$6$$3$$1$$delta->pss[(signed long int)mem_dump_diff$$1$$6$$type];
+                  const char *return_value_mem_loading_6;
+                  return_value_mem_loading_6=mem_loading(rate);
+                  j_obj_new_string_add_link5(j_mem_info, label, return_value_mem_loading_6);
+                  j_obj_array_add_link5(j_mem_infos, j_mem_info);
+                  total_size[(signed long int)mem_dump_diff__1__6__type] = total_size[(signed long int)mem_dump_diff__1__6__type] + mem_dump_diff__1__6__3__1__delta->size[(signed long int)mem_dump_diff__1__6__type];
+                  total_rss[(signed long int)mem_dump_diff__1__6__type] = total_rss[(signed long int)mem_dump_diff__1__6__type] + mem_dump_diff__1__6__3__1__delta->rss[(signed long int)mem_dump_diff__1__6__type];
+                  total_pss[(signed long int)mem_dump_diff__1__6__type] = total_pss[(signed long int)mem_dump_diff__1__6__type] + mem_dump_diff__1__6__3__1__delta->pss[(signed long int)mem_dump_diff__1__6__type];
                 }
               }
               j_mem_info=j_obj_new_obj();
               if(!(j_mem_info == ((struct json_object *)NULL)))
               {
-                j_obj_obj_add$link5(j_mem_test, "memory-change-total", j_mem_info);
-                mem_dump_diff$$1$$6$$type = (enum anonymous$11)MEM_STACK;
-                for( ; !((signed int)mem_dump_diff$$1$$6$$type >= MEM_MAX); mem_dump_diff$$1$$6$$type = (enum anonymous$11)((signed int)mem_dump_diff$$1$$6$$type + 1))
+                j_obj_obj_add_link5(j_mem_test, "memory-change-total", j_mem_info);
+                mem_dump_diff__1__6__type = (enum anonymous_11)MEM_STACK;
+                for( ; !((signed int)mem_dump_diff__1__6__type >= MEM_MAX); mem_dump_diff__1__6__type = (enum anonymous_11)((signed int)mem_dump_diff__1__6__type + 1))
                 {
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-total-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-size-total-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_int64_add$link5(j_mem_info, label, total_size[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-total-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_int64_add_link5(j_mem_info, label, total_size[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-rss-total-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_int64_add$link5(j_mem_info, label, total_rss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
-                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-total-Kbytes", mem_types[(signed long int)mem_dump_diff$$1$$6$$type]);
+                  j_obj_new_int64_add_link5(j_mem_info, label, total_rss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
+                  snprintf(label, sizeof(char [128l]) /*128ul*/ , "%s-change-pss-total-Kbytes", mem_types[(signed long int)mem_dump_diff__1__6__type]);
                   mem_tolower_str(label);
-                  j_obj_new_int64_add$link5(j_mem_info, label, total_pss[(signed long int)mem_dump_diff$$1$$6$$type] / (signed long int)1024);
+                  j_obj_new_int64_add_link5(j_mem_info, label, total_pss[(signed long int)mem_dump_diff__1__6__type] / (signed long int)1024);
                 }
               }
 
@@ -7468,22 +7468,22 @@ out:
 // file mem.c line 149
 extern void mem_dump_mmap(struct json_object *j_tests, const double duration)
 {
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
-  struct anonymous$1 *info;
+  struct anonymous_1 *info;
   printf("Memory Change via mmap() and munmap():\n");
   list_init(&sorted);
   l = mem_mmap_info.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    info = (struct anonymous$1 *)l->data;
-    struct link *return_value_list_add_ordered$1;
-    return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)info, mem_mmap_cmp);
-    if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+    info = (struct anonymous_1 *)l->data;
+    struct link *return_value_list_add_ordered_1;
+    return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)info, mem_mmap_cmp);
+    if(return_value_list_add_ordered_1 == ((struct link *)NULL))
       goto out;
 
   }
-  char *tmp_if_expr$2;
+  char *tmp_if_expr_2;
   if(mem_mmap_info.head == ((struct link *)NULL))
     printf(" None.\n\n");
 
@@ -7493,19 +7493,19 @@ extern void mem_dump_mmap(struct json_object *j_tests, const double duration)
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      info = (struct anonymous$1 *)l->data;
-      struct proc_info *mem_dump_mmap$$1$$3$$1$$1$$p;
-      mem_dump_mmap$$1$$3$$1$$1$$p=proc_cache_find_by_pid(info->pid);
-      signed long int mem_dump_mmap$$1$$3$$1$$1$$delta = (signed long int)(info->mmap_length - info->munmap_length);
-      double rate = (double)mem_dump_mmap$$1$$3$$1$$1$$delta / duration;
-      if(!(mem_dump_mmap$$1$$3$$1$$1$$p == ((struct proc_info *)NULL)))
-        tmp_if_expr$2 = mem_dump_mmap$$1$$3$$1$$1$$p->cmdline;
+      info = (struct anonymous_1 *)l->data;
+      struct proc_info *mem_dump_mmap__1__3__1__1__p;
+      mem_dump_mmap__1__3__1__1__p=proc_cache_find_by_pid(info->pid);
+      signed long int mem_dump_mmap__1__3__1__1__delta = (signed long int)(info->mmap_length - info->munmap_length);
+      double rate = (double)mem_dump_mmap__1__3__1__1__delta / duration;
+      if(!(mem_dump_mmap__1__3__1__1__p == ((struct proc_info *)NULL)))
+        tmp_if_expr_2 = mem_dump_mmap__1__3__1__1__p->cmdline;
 
       else
-        tmp_if_expr$2 = "";
-      const char *return_value_mem_loading$3;
-      return_value_mem_loading$3=mem_loading(rate);
-      printf(" %5d %-20.20s %8lu %8lu    %8li      %8.2f (%s)\n", info->pid, tmp_if_expr$2, info->mmap_count, info->munmap_count, mem_dump_mmap$$1$$3$$1$$1$$delta / (signed long int)1024, rate / 1024.0, return_value_mem_loading$3);
+        tmp_if_expr_2 = "";
+      const char *return_value_mem_loading_3;
+      return_value_mem_loading_3=mem_loading(rate);
+      printf(" %5d %-20.20s %8lu %8lu    %8li      %8.2f (%s)\n", info->pid, tmp_if_expr_2, info->mmap_count, info->munmap_count, mem_dump_mmap__1__3__1__1__delta / (signed long int)1024, rate / 1024.0, return_value_mem_loading_3);
     }
     printf("\n");
   }
@@ -7520,15 +7520,15 @@ extern void mem_dump_mmap(struct json_object *j_tests, const double duration)
     j_mem_test=j_obj_new_obj();
     if(!(j_mem_test == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link5(j_tests, "memory-usage-via-mmap", j_mem_test);
+      j_obj_obj_add_link5(j_tests, "memory-usage-via-mmap", j_mem_test);
       j_mem_infos=j_obj_new_array();
       if(!(j_mem_infos == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link5(j_mem_test, "memory-usage-via-mmap-per-process", j_mem_infos);
+        j_obj_obj_add_link5(j_mem_test, "memory-usage-via-mmap-per-process", j_mem_infos);
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
-          info = (struct anonymous$1 *)l->data;
+          info = (struct anonymous_1 *)l->data;
           struct proc_info *p;
           p=proc_cache_find_by_pid(info->pid);
           signed long int delta = (signed long int)(info->mmap_length - info->munmap_length);
@@ -7536,19 +7536,19 @@ extern void mem_dump_mmap(struct json_object *j_tests, const double duration)
           if(j_mem_info == ((struct json_object *)NULL))
             goto out;
 
-          j_obj_new_int32_add$link5(j_mem_info, "pid", info->pid);
+          j_obj_new_int32_add_link5(j_mem_info, "pid", info->pid);
           if(!(p == ((struct proc_info *)NULL)))
           {
-            j_obj_new_int32_add$link5(j_mem_info, "ppid", p->ppid);
-            j_obj_new_int32_add$link5(j_mem_info, "is-thread", (const signed int)p->is_thread);
-            j_obj_new_string_add$link5(j_mem_info, "name", p->cmdline);
+            j_obj_new_int32_add_link5(j_mem_info, "ppid", p->ppid);
+            j_obj_new_int32_add_link5(j_mem_info, "is-thread", (const signed int)p->is_thread);
+            j_obj_new_string_add_link5(j_mem_info, "name", p->cmdline);
           }
 
-          j_obj_new_int64_add$link5(j_mem_info, "mmap-count", (const signed long int)info->mmap_count);
-          j_obj_new_int64_add$link5(j_mem_info, "munmap-count", (const signed long int)info->munmap_count);
-          j_obj_new_int64_add$link5(j_mem_info, "mmap-total-Kbytes", (const signed long int)((unsigned long int)delta / (unsigned long int)1024));
-          j_obj_new_double_add$link5(j_mem_info, "mmap-total-Kbytes-rate", ((double)delta / 1024.0) / duration);
-          j_obj_array_add$link5(j_mem_infos, j_mem_info);
+          j_obj_new_int64_add_link5(j_mem_info, "mmap-count", (const signed long int)info->mmap_count);
+          j_obj_new_int64_add_link5(j_mem_info, "munmap-count", (const signed long int)info->munmap_count);
+          j_obj_new_int64_add_link5(j_mem_info, "mmap-total-Kbytes", (const signed long int)((unsigned long int)delta / (unsigned long int)1024));
+          j_obj_new_double_add_link5(j_mem_info, "mmap-total-Kbytes-rate", ((double)delta / 1024.0) / duration);
+          j_obj_array_add_link5(j_mem_infos, j_mem_info);
           total_mmap_count = total_mmap_count + info->mmap_count;
           total_munmap_count = total_munmap_count + info->munmap_count;
           total_delta = total_delta + (unsigned long int)delta;
@@ -7556,11 +7556,11 @@ extern void mem_dump_mmap(struct json_object *j_tests, const double duration)
         j_mem_info=j_obj_new_obj();
         if(!(j_mem_info == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link5(j_mem_test, "memory-usage-via-mmap-total", j_mem_info);
-          j_obj_new_int64_add$link5(j_mem_info, "mmap-count-total", (const signed long int)total_mmap_count);
-          j_obj_new_int64_add$link5(j_mem_info, "munmap-count-total", (const signed long int)total_munmap_count);
-          j_obj_new_int64_add$link5(j_mem_info, "mmap-total-Kbytes", (const signed long int)(total_delta / (unsigned long int)1024));
-          j_obj_new_double_add$link5(j_mem_info, "mmap-total-Kbytes-rate", ((double)total_delta / 1024.0) / duration);
+          j_obj_obj_add_link5(j_mem_test, "memory-usage-via-mmap-total", j_mem_info);
+          j_obj_new_int64_add_link5(j_mem_info, "mmap-count-total", (const signed long int)total_mmap_count);
+          j_obj_new_int64_add_link5(j_mem_info, "munmap-count-total", (const signed long int)total_munmap_count);
+          j_obj_new_int64_add_link5(j_mem_info, "mmap-total-Kbytes", (const signed long int)(total_delta / (unsigned long int)1024));
+          j_obj_new_double_add_link5(j_mem_info, "mmap-total-Kbytes-rate", ((double)total_delta / 1024.0) / duration);
         }
 
       }
@@ -7577,15 +7577,15 @@ out:
 
 // mem_get_all_pids
 // file mem.c line 503
-extern signed int mem_get_all_pids(const struct anonymous$3 *pids, const enum anonymous$9 state)
+extern signed int mem_get_all_pids(const struct anonymous_3 *pids, const enum anonymous_9 state)
 {
   struct link *l = pids->head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     struct proc_info *p = (struct proc_info *)l->data;
-    signed int return_value_mem_get_by_proc$1;
-    return_value_mem_get_by_proc$1=mem_get_by_proc(p, state);
-    if(!(return_value_mem_get_by_proc$1 >= 0))
+    signed int return_value_mem_get_by_proc_1;
+    return_value_mem_get_by_proc_1=mem_get_by_proc(p, state);
+    if(!(return_value_mem_get_by_proc_1 >= 0))
       return -1;
 
   }
@@ -7594,13 +7594,13 @@ extern signed int mem_get_all_pids(const struct anonymous$3 *pids, const enum an
 
 // mem_get_by_proc
 // file mem.h line 66
-extern signed int mem_get_by_proc(struct proc_info *p, const enum anonymous$9 state)
+extern signed int mem_get_by_proc(struct proc_info *p, const enum anonymous_9 state)
 {
   struct _IO_FILE *fp;
   char path[4096l];
   struct mem_info_t *m;
-  struct anonymous$3 *mem = (signed int)state == PROC_START ? &mem_info_old : &mem_info_new;
-  signed int return_value_mem_get_entry$2;
+  struct anonymous_3 *mem = (signed int)state == PROC_START ? &mem_info_old : &mem_info_new;
+  signed int return_value_mem_get_entry_2;
   if(!(p->is_thread == (_Bool)0))
     return 0;
 
@@ -7613,9 +7613,9 @@ extern signed int mem_get_by_proc(struct proc_info *p, const enum anonymous$9 st
 
     else
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct mem_info_t) /*112ul*/ );
-      m = (struct mem_info_t *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct mem_info_t) /*112ul*/ );
+      m = (struct mem_info_t *)return_value_calloc_1;
       if(m == ((struct mem_info_t *)NULL))
       {
         health_check_out_of_memory("allocating memory tracking information");
@@ -7628,15 +7628,15 @@ extern signed int mem_get_by_proc(struct proc_info *p, const enum anonymous$9 st
         m->proc = p;
         do
         {
-          return_value_mem_get_entry$2=mem_get_entry(fp, m);
-          if(return_value_mem_get_entry$2 == -1)
+          return_value_mem_get_entry_2=mem_get_entry(fp, m);
+          if(return_value_mem_get_entry_2 == -1)
             break;
 
         }
         while((_Bool)1);
-        struct link *return_value_list_append$3;
-        return_value_list_append$3=list_append(mem, (void *)m);
-        if(return_value_list_append$3 == ((struct link *)NULL))
+        struct link *return_value_list_append_3;
+        return_value_list_append_3=list_append(mem, (void *)m);
+        if(return_value_list_append_3 == ((struct link *)NULL))
         {
           free((void *)m);
           fclose(fp);
@@ -7662,7 +7662,7 @@ static signed int mem_get_entry(struct _IO_FILE *fp, struct mem_info_t *mem)
   unsigned long int addr_offset;
   signed int major;
   signed int minor;
-  enum anonymous$11 type;
+  enum anonymous_11 type;
   char path[4096l];
   unsigned long int size;
   unsigned long int rss;
@@ -7670,19 +7670,19 @@ static signed int mem_get_entry(struct _IO_FILE *fp, struct mem_info_t *mem)
   do
   {
     char buffer[4096l];
-    char *return_value_fgets$1;
-    return_value_fgets$1=fgets(buffer, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    char *return_value_fgets_1;
+    return_value_fgets_1=fgets(buffer, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       return -1;
 
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(buffer, "%lx-%lx %*s %lx %x:%x %*u %s", &addr_start, &addr_end, &addr_offset, &major, &minor, (const void *)path);
-    if(return_value_sscanf$2 == 6)
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(buffer, "%lx-%lx %*s %lx %x:%x %*u %s", &addr_start, &addr_end, &addr_offset, &major, &minor, (const void *)path);
+    if(return_value_sscanf_2 == 6)
       break;
 
-    signed int return_value_sscanf$3;
-    return_value_sscanf$3=sscanf(buffer, "%lx-%lx %*s %lx %x:%x %*u", &addr_start, &addr_end, &addr_offset, &major, &minor);
-    if(return_value_sscanf$3 == 5)
+    signed int return_value_sscanf_3;
+    return_value_sscanf_3=sscanf(buffer, "%lx-%lx %*s %lx %x:%x %*u", &addr_start, &addr_end, &addr_offset, &major, &minor);
+    if(return_value_sscanf_3 == 5)
     {
       path[0l] = (char)0;
       break;
@@ -7690,42 +7690,42 @@ static signed int mem_get_entry(struct _IO_FILE *fp, struct mem_info_t *mem)
 
   }
   while((_Bool)1);
-  signed int return_value_strncmp$5;
-  return_value_strncmp$5=strncmp(path, "[stack", (unsigned long int)6);
-  signed int return_value_strncmp$4;
-  if(return_value_strncmp$5 == 0)
-    type = (enum anonymous$11)MEM_STACK;
+  signed int return_value_strncmp_5;
+  return_value_strncmp_5=strncmp(path, "[stack", (unsigned long int)6);
+  signed int return_value_strncmp_4;
+  if(return_value_strncmp_5 == 0)
+    type = (enum anonymous_11)MEM_STACK;
 
   else
   {
-    return_value_strncmp$4=strncmp(path, "[heap", (unsigned long int)5);
-    if(return_value_strncmp$4 == 0)
-      type = (enum anonymous$11)MEM_HEAP;
+    return_value_strncmp_4=strncmp(path, "[heap", (unsigned long int)5);
+    if(return_value_strncmp_4 == 0)
+      type = (enum anonymous_11)MEM_HEAP;
 
     else
       if(path[0l] == 0 && major == 0 && minor == 0 && addr_offset == 0ul)
-        type = (enum anonymous$11)MEM_HEAP;
+        type = (enum anonymous_11)MEM_HEAP;
 
       else
-        type = (enum anonymous$11)MEM_MAPPED;
+        type = (enum anonymous_11)MEM_MAPPED;
   }
-  signed int return_value_mem_get_size$6;
-  return_value_mem_get_size$6=mem_get_size(fp, "Size", &size);
-  if(!(return_value_mem_get_size$6 >= 0))
+  signed int return_value_mem_get_size_6;
+  return_value_mem_get_size_6=mem_get_size(fp, "Size", &size);
+  if(!(return_value_mem_get_size_6 >= 0))
     return -1;
 
   else
   {
-    signed int return_value_mem_get_size$7;
-    return_value_mem_get_size$7=mem_get_size(fp, "Rss", &rss);
-    if(!(return_value_mem_get_size$7 >= 0))
+    signed int return_value_mem_get_size_7;
+    return_value_mem_get_size_7=mem_get_size(fp, "Rss", &rss);
+    if(!(return_value_mem_get_size_7 >= 0))
       return -1;
 
     else
     {
-      signed int return_value_mem_get_size$8;
-      return_value_mem_get_size$8=mem_get_size(fp, "Pss", &pss);
-      if(!(return_value_mem_get_size$8 >= 0))
+      signed int return_value_mem_get_size_8;
+      return_value_mem_get_size_8=mem_get_size(fp, "Pss", &pss);
+      if(!(return_value_mem_get_size_8 >= 0))
         return -1;
 
       else
@@ -7747,24 +7747,24 @@ static signed int mem_get_size(struct _IO_FILE *fp, const char *field, unsigned 
   char tmp[4096l];
   unsigned long int size_k;
   *size = (unsigned long int)0;
-  signed int return_value_feof$1;
-  signed int tmp_statement_expression$2;
+  signed int return_value_feof_1;
+  signed int tmp_statement_expression_2;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
-    signed int return_value_fscanf$4;
-    return_value_fscanf$4=fscanf(fp, "%4095[^:]: %li%*[^\n]%*c", (const void *)tmp, &size_k);
-    if(return_value_fscanf$4 == 2)
+    signed int return_value_fscanf_4;
+    return_value_fscanf_4=fscanf(fp, "%4095[^:]: %li%*[^\n]%*c", (const void *)tmp, &size_k);
+    if(return_value_fscanf_4 == 2)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$3;
-      return_value___builtin_strcmp$3=__builtin_strcmp(tmp, field);
-      tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-      if(tmp_statement_expression$2 == 0)
+      signed int return_value___builtin_strcmp_3;
+      return_value___builtin_strcmp_3=__builtin_strcmp(tmp, field);
+      tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+      if(tmp_statement_expression_2 == 0)
       {
         *size = size_k * (unsigned long int)1024;
         return 0;
@@ -7836,11 +7836,11 @@ extern signed int mem_mmap_account(const signed int pid, const unsigned long int
 {
   struct link *l;
   _Bool found = (_Bool)0;
-  struct anonymous$1 *info = (struct anonymous$1 *)(void *)0;
+  struct anonymous_1 *info = (struct anonymous_1 *)(void *)0;
   l = mem_mmap_info.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    info = (struct anonymous$1 *)l->data;
+    info = (struct anonymous_1 *)l->data;
     if(info->pid == pid)
     {
       found = (_Bool)1;
@@ -7850,19 +7850,19 @@ extern signed int mem_mmap_account(const signed int pid, const unsigned long int
   }
   if(found == (_Bool)0)
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$1) /*40ul*/ );
-    info = (struct anonymous$1 *)return_value_calloc$1;
-    if(info == ((struct anonymous$1 *)NULL))
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_1) /*40ul*/ );
+    info = (struct anonymous_1 *)return_value_calloc_1;
+    if(info == ((struct anonymous_1 *)NULL))
     {
       health_check_out_of_memory("allocating memory tracking brk() information");
       return -1;
     }
 
     info->pid = pid;
-    struct link *return_value_list_append$2;
-    return_value_list_append$2=list_append(&mem_mmap_info, (void *)info);
-    if(return_value_list_append$2 == ((struct link *)NULL))
+    struct link *return_value_list_append_2;
+    return_value_list_append_2=list_append(&mem_mmap_info, (void *)info);
+    if(return_value_list_append_2 == ((struct link *)NULL))
     {
       free((void *)info);
       return -1;
@@ -7888,8 +7888,8 @@ extern signed int mem_mmap_account(const signed int pid, const unsigned long int
 // file mem.c line 135
 static signed int mem_mmap_cmp(const void *data1, const void *data2)
 {
-  struct anonymous$1 *m1 = (struct anonymous$1 *)data1;
-  struct anonymous$1 *m2 = (struct anonymous$1 *)data2;
+  struct anonymous_1 *m1 = (struct anonymous_1 *)data1;
+  struct anonymous_1 *m2 = (struct anonymous_1 *)data2;
   signed long int d1 = (signed long int)(m1->mmap_length - m1->munmap_length);
   signed long int d2 = (signed long int)(m2->mmap_length - m2->munmap_length);
   return (signed int)(d2 - d1);
@@ -7899,17 +7899,17 @@ static signed int mem_mmap_cmp(const void *data1, const void *data2)
 // file mem.c line 51
 static void mem_tolower_str(char *str)
 {
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_tolower_loc$2;
-  const signed int **return_value___ctype_tolower_loc$4;
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_tolower_loc_2;
+  const signed int **return_value___ctype_tolower_loc_4;
   for( ; !(*str == 0); str = str + 1l)
   {
     signed int __res;
-    return_value___ctype_tolower_loc$4=__ctype_tolower_loc();
-    __res = (*return_value___ctype_tolower_loc$4)[(signed long int)(signed int)*str];
-    tmp_statement_expression$1 = __res;
-    *str = (char)tmp_statement_expression$1;
+    return_value___ctype_tolower_loc_4=__ctype_tolower_loc();
+    __res = (*return_value___ctype_tolower_loc_4)[(signed long int)(signed int)*str];
+    tmp_statement_expression_1 = __res;
+    *str = (char)tmp_statement_expression_1;
   }
 }
 
@@ -7917,9 +7917,9 @@ static void mem_tolower_str(char *str)
 // file net.c line 223
 extern void net_account_recv(const signed int pid, const signed int fd, unsigned long int size)
 {
-  struct anonymous$17 *nh;
+  struct anonymous_17 *nh;
   nh=net_cache_inode_by_pid_and_fd(pid, fd);
-  if(!(nh == ((struct anonymous$17 *)NULL)))
+  if(!(nh == ((struct anonymous_17 *)NULL)))
   {
     nh->recv.call_count = nh->recv.call_count + 1ul;
     nh->recv.data_total = nh->recv.data_total + size;
@@ -7931,9 +7931,9 @@ extern void net_account_recv(const signed int pid, const signed int fd, unsigned
 // file net.c line 209
 extern void net_account_send(const signed int pid, const signed int fd, unsigned long int size)
 {
-  struct anonymous$17 *nh;
+  struct anonymous_17 *nh;
   nh=net_cache_inode_by_pid_and_fd(pid, fd);
-  if(!(nh == ((struct anonymous$17 *)NULL)))
+  if(!(nh == ((struct anonymous_17 *)NULL)))
   {
     nh->send.call_count = nh->send.call_count + 1ul;
     nh->send.data_total = nh->send.data_total + size;
@@ -7943,19 +7943,19 @@ extern void net_account_send(const signed int pid, const signed int fd, unsigned
 
 // net_add_dump_info
 // file net.c line 401
-static void net_add_dump_info(struct anonymous$3 *list, struct anonymous$22 *new_dump_info)
+static void net_add_dump_info(struct anonymous_3 *list, struct anonymous_22 *new_dump_info)
 {
   struct link *l = list->head;
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$22 *dump_info = (struct anonymous$22 *)l->data;
+    struct anonymous_22 *dump_info = (struct anonymous_22 *)l->data;
     if(dump_info->nh->proc == new_dump_info->nh->proc)
     {
       if(dump_info->addr_info->type == new_dump_info->addr_info->type)
       {
-        return_value_memcmp$1=memcmp((const void *)&dump_info->addr_info->u, (const void *)&new_dump_info->addr_info->u, sizeof(union anonymous$20) /*4100ul*/ );
-        if(return_value_memcmp$1 == 0)
+        return_value_memcmp_1=memcmp((const void *)&dump_info->addr_info->u, (const void *)&new_dump_info->addr_info->u, sizeof(union anonymous_20) /*4100ul*/ );
+        if(return_value_memcmp_1 == 0)
         {
           if(dump_info->addr_info->family == new_dump_info->addr_info->family)
           {
@@ -7983,38 +7983,38 @@ __CPROVER_DUMP_L4:
 
 // net_addr_add
 // file net.c line 332
-static struct anonymous$21 * net_addr_add(struct anonymous$21 *addr)
+static struct anonymous_21 * net_addr_add(struct anonymous_21 *addr)
 {
   struct link *l;
-  struct anonymous$21 *new_addr;
+  struct anonymous_21 *new_addr;
   l = net_cached_addrs.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$21 *old_addr = (struct anonymous$21 *)l->data;
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)addr, (const void *)old_addr, sizeof(struct anonymous$21) /*12300ul*/ );
-    if(return_value_memcmp$1 == 0)
+    struct anonymous_21 *old_addr = (struct anonymous_21 *)l->data;
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)addr, (const void *)old_addr, sizeof(struct anonymous_21) /*12300ul*/ );
+    if(return_value_memcmp_1 == 0)
       return old_addr;
 
   }
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct anonymous$21) /*12300ul*/ );
-  new_addr = (struct anonymous$21 *)return_value_calloc$2;
-  if(new_addr == ((struct anonymous$21 *)NULL))
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct anonymous_21) /*12300ul*/ );
+  new_addr = (struct anonymous_21 *)return_value_calloc_2;
+  if(new_addr == ((struct anonymous_21 *)NULL))
   {
     health_check_out_of_memory("allocating net address information");
-    return (struct anonymous$21 *)(void *)0;
+    return (struct anonymous_21 *)(void *)0;
   }
 
   else
   {
-    memcpy((void *)new_addr, (const void *)addr, sizeof(struct anonymous$21) /*12300ul*/ );
-    struct link *return_value_list_append$3;
-    return_value_list_append$3=list_append(&net_cached_addrs, (void *)new_addr);
-    if(return_value_list_append$3 == ((struct link *)NULL))
+    memcpy((void *)new_addr, (const void *)addr, sizeof(struct anonymous_21) /*12300ul*/ );
+    struct link *return_value_list_append_3;
+    return_value_list_append_3=list_append(&net_cached_addrs, (void *)new_addr);
+    if(return_value_list_append_3 == ((struct link *)NULL))
     {
       free((void *)new_addr);
-      return (struct anonymous$21 *)(void *)0;
+      return (struct anonymous_21 *)(void *)0;
     }
 
     else
@@ -8024,16 +8024,16 @@ static struct anonymous$21 * net_addr_add(struct anonymous$21 *addr)
 
 // net_cache_inode_by_pid_and_fd
 // file net.c line 192
-static struct anonymous$17 * net_cache_inode_by_pid_and_fd(const signed int pid, const signed int fd)
+static struct anonymous_17 * net_cache_inode_by_pid_and_fd(const signed int pid, const signed int fd)
 {
   char path[4096l];
   char link[4096l];
   unsigned long int inode;
-  struct anonymous$17 *nh = (struct anonymous$17 *)(void *)0;
+  struct anonymous_17 *nh = (struct anonymous_17 *)(void *)0;
   snprintf(path, sizeof(char [4096l]) /*4096ul*/ , "/proc/%i/fd/%i", pid, fd);
-  signed int return_value_net_get_inode_by_path$1;
-  return_value_net_get_inode_by_path$1=net_get_inode_by_path(path, &inode, link);
-  if(!(return_value_net_get_inode_by_path$1 == -1))
+  signed int return_value_net_get_inode_by_path_1;
+  return_value_net_get_inode_by_path_1=net_get_inode_by_path(path, &inode, link);
+  if(!(return_value_net_get_inode_by_path_1 == -1))
     nh=net_hash_add(link, inode, pid, (const unsigned int)fd);
 
   return nh;
@@ -8041,15 +8041,15 @@ static struct anonymous$17 * net_cache_inode_by_pid_and_fd(const signed int pid,
 
 // net_cache_inodes
 // file net.c line 278
-static signed int net_cache_inodes(struct anonymous$3 *pids)
+static signed int net_cache_inodes(struct anonymous_3 *pids)
 {
   struct link *l = pids->head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     struct proc_info *p = (struct proc_info *)l->data;
-    signed int return_value_net_cache_inodes_pid$1;
-    return_value_net_cache_inodes_pid$1=net_cache_inodes_pid(p->pid);
-    if(!(return_value_net_cache_inodes_pid$1 >= 0))
+    signed int return_value_net_cache_inodes_pid_1;
+    return_value_net_cache_inodes_pid_1=net_cache_inodes_pid(p->pid);
+    if(!(return_value_net_cache_inodes_pid_1 >= 0))
       return -1;
 
   }
@@ -8082,21 +8082,21 @@ static signed int net_cache_inodes_pid(const signed int pid)
       unsigned int fd;
       if(!((signed int)d->d_name[0l] == 46))
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(path);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(d->d_name);
-        if(!(2ul + return_value_strlen$1 + return_value_strlen$2 >= 2049ul))
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(path);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(d->d_name);
+        if(!(2ul + return_value_strlen_1 + return_value_strlen_2 >= 2049ul))
         {
           snprintf(tmp, sizeof(char [2048l]) /*2048ul*/ , "%s/%s", (const void *)path, (const void *)d->d_name);
-          signed int return_value_net_get_inode_by_path$4;
-          return_value_net_get_inode_by_path$4=net_get_inode_by_path(tmp, &inode, link);
-          if(!(return_value_net_get_inode_by_path$4 == -1))
+          signed int return_value_net_get_inode_by_path_4;
+          return_value_net_get_inode_by_path_4=net_get_inode_by_path(tmp, &inode, link);
+          if(!(return_value_net_get_inode_by_path_4 == -1))
           {
             sscanf(d->d_name, "%u", &fd);
-            struct anonymous$17 *return_value_net_hash_add$3;
-            return_value_net_hash_add$3=net_hash_add(link, inode, pid, fd);
-            if(return_value_net_hash_add$3 == ((struct anonymous$17 *)NULL))
+            struct anonymous_17 *return_value_net_hash_add_3;
+            return_value_net_hash_add_3=net_hash_add(link, inode, pid, fd);
+            if(return_value_net_hash_add_3 == ((struct anonymous_17 *)NULL))
             {
               closedir(fds);
               return -1;
@@ -8132,8 +8132,8 @@ extern void net_connection_dump(struct json_object *j_tests, double duration)
 {
   struct link *ln;
   struct link *l;
-  struct anonymous$3 dump_info_list;
-  struct anonymous$3 sorted;
+  struct anonymous_3 dump_info_list;
+  struct anonymous_3 sorted;
   signed int i;
   struct json_object *j_net_test = (struct json_object *)(void *)0;
   struct json_object *j_net_infos = (struct json_object *)(void *)0;
@@ -8164,13 +8164,13 @@ extern void net_connection_dump(struct json_object *j_tests, double duration)
     for( ; !(ln == ((struct link *)NULL)); ln = ln->next)
     {
       _Bool found = (_Bool)0;
-      struct anonymous$17 *nh = (struct anonymous$17 *)ln->data;
-      struct anonymous$22 *dump_info;
-      struct anonymous$21 *addr_info = (struct anonymous$21 *)(void *)0;
+      struct anonymous_17 *nh = (struct anonymous_17 *)ln->data;
+      struct anonymous_22 *dump_info;
+      struct anonymous_21 *addr_info = (struct anonymous_21 *)(void *)0;
       l = net_cached_addrs.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        addr_info = (struct anonymous$21 *)l->data;
+        addr_info = (struct anonymous_21 *)l->data;
         if(nh->inode == addr_info->inode)
         {
           found = (_Bool)1;
@@ -8185,23 +8185,23 @@ extern void net_connection_dump(struct json_object *j_tests, double duration)
 
       }
 
-      if(found == (_Bool)0 || addr_info == ((struct anonymous$21 *)NULL))
+      if(found == (_Bool)0 || addr_info == ((struct anonymous_21 *)NULL))
       {
-        struct anonymous$21 new_addr;
-        memset((void *)&new_addr, 0, sizeof(struct anonymous$21) /*12300ul*/ );
+        struct anonymous_21 new_addr;
+        memset((void *)&new_addr, 0, sizeof(struct anonymous_21) /*12300ul*/ );
         new_addr.inode = nh->inode;
-        new_addr.type = (enum anonymous$19)NET_UNKNOWN;
+        new_addr.type = (enum anonymous_19)NET_UNKNOWN;
         __builtin_strncpy(new_addr.u.path, nh->path, (unsigned long int)4096);
         addr_info=net_addr_add(&new_addr);
-        if(addr_info == ((struct anonymous$21 *)NULL))
+        if(addr_info == ((struct anonymous_21 *)NULL))
           goto out;
 
       }
 
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$22) /*24ul*/ );
-      dump_info = (struct anonymous$22 *)return_value_calloc$1;
-      if(dump_info == ((struct anonymous$22 *)NULL))
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_22) /*24ul*/ );
+      dump_info = (struct anonymous_22 *)return_value_calloc_1;
+      if(dump_info == ((struct anonymous_22 *)NULL))
         goto out;
 
       dump_info->addr_info = addr_info;
@@ -8216,8 +8216,8 @@ extern void net_connection_dump(struct json_object *j_tests, double duration)
   l = dump_info_list.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$22 *net_connection_dump$$1$$3$$1$$dump_info = (struct anonymous$22 *)l->data;
-    list_add_ordered(&sorted, (void *)net_connection_dump$$1$$3$$1$$dump_info, net_dump_info_cmp);
+    struct anonymous_22 *net_connection_dump__1__3__1__dump_info = (struct anonymous_22 *)l->data;
+    list_add_ordered(&sorted, (void *)net_connection_dump__1__3__1__dump_info, net_dump_info_cmp);
   }
   if(dump_info_list.head == ((struct link *)NULL))
     printf(" None.\n\n");
@@ -8230,28 +8230,28 @@ extern void net_connection_dump(struct json_object *j_tests, double duration)
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct anonymous$22 *net_connection_dump$$1$$5$$1$$1$$dump_info = (struct anonymous$22 *)l->data;
+      struct anonymous_22 *net_connection_dump__1__5__1__1__dump_info = (struct anonymous_22 *)l->data;
       char *addr;
-      addr=net_get_addr(net_connection_dump$$1$$5$$1$$1$$dump_info->addr_info);
-      net_size_to_str(sendbuf, sizeof(char [64l]) /*64ul*/ , net_connection_dump$$1$$5$$1$$1$$dump_info->nh->send.data_total);
-      net_size_to_str(recvbuf, sizeof(char [64l]) /*64ul*/ , net_connection_dump$$1$$5$$1$$1$$dump_info->nh->recv.data_total);
-      printf(" %5i %-20.20s %-7.7s  %s %s  %s\n", net_connection_dump$$1$$5$$1$$1$$dump_info->nh->proc->pid, net_connection_dump$$1$$5$$1$$1$$dump_info->nh->proc->cmdline, net_types[(signed long int)net_connection_dump$$1$$5$$1$$1$$dump_info->addr_info->type], (const void *)sendbuf, (const void *)recvbuf, addr);
-      send_total = send_total + net_connection_dump$$1$$5$$1$$1$$dump_info->nh->send.data_total;
-      recv_total = recv_total + net_connection_dump$$1$$5$$1$$1$$dump_info->nh->recv.data_total;
+      addr=net_get_addr(net_connection_dump__1__5__1__1__dump_info->addr_info);
+      net_size_to_str(sendbuf, sizeof(char [64l]) /*64ul*/ , net_connection_dump__1__5__1__1__dump_info->nh->send.data_total);
+      net_size_to_str(recvbuf, sizeof(char [64l]) /*64ul*/ , net_connection_dump__1__5__1__1__dump_info->nh->recv.data_total);
+      printf(" %5i %-20.20s %-7.7s  %s %s  %s\n", net_connection_dump__1__5__1__1__dump_info->nh->proc->pid, net_connection_dump__1__5__1__1__dump_info->nh->proc->cmdline, net_types[(signed long int)net_connection_dump__1__5__1__1__dump_info->addr_info->type], (const void *)sendbuf, (const void *)recvbuf, addr);
+      send_total = send_total + net_connection_dump__1__5__1__1__dump_info->nh->send.data_total;
+      recv_total = recv_total + net_connection_dump__1__5__1__1__dump_info->nh->recv.data_total;
       if(!(j_tests == ((struct json_object *)NULL)))
       {
         j_net_info=j_obj_new_obj();
         if(j_net_info == ((struct json_object *)NULL))
           goto out;
 
-        j_obj_new_int32_add(j_net_info, "pid", net_connection_dump$$1$$5$$1$$1$$dump_info->nh->proc->pid);
-        j_obj_new_int32_add(j_net_info, "ppid", net_connection_dump$$1$$5$$1$$1$$dump_info->nh->proc->ppid);
-        j_obj_new_int32_add(j_net_info, "is-thread", (const signed int)net_connection_dump$$1$$5$$1$$1$$dump_info->nh->proc->is_thread);
-        j_obj_new_string_add(j_net_info, "name", net_connection_dump$$1$$5$$1$$1$$dump_info->nh->proc->cmdline);
-        j_obj_new_string_add(j_net_info, "protocol", net_types[(signed long int)net_connection_dump$$1$$5$$1$$1$$dump_info->addr_info->type]);
+        j_obj_new_int32_add(j_net_info, "pid", net_connection_dump__1__5__1__1__dump_info->nh->proc->pid);
+        j_obj_new_int32_add(j_net_info, "ppid", net_connection_dump__1__5__1__1__dump_info->nh->proc->ppid);
+        j_obj_new_int32_add(j_net_info, "is-thread", (const signed int)net_connection_dump__1__5__1__1__dump_info->nh->proc->is_thread);
+        j_obj_new_string_add(j_net_info, "name", net_connection_dump__1__5__1__1__dump_info->nh->proc->cmdline);
+        j_obj_new_string_add(j_net_info, "protocol", net_types[(signed long int)net_connection_dump__1__5__1__1__dump_info->addr_info->type]);
         j_obj_new_string_add(j_net_info, "address", addr);
-        j_obj_new_int64_add(j_net_info, "send", (const signed long int)net_connection_dump$$1$$5$$1$$1$$dump_info->nh->send.data_total);
-        j_obj_new_int64_add(j_net_info, "receive", (const signed long int)net_connection_dump$$1$$5$$1$$1$$dump_info->nh->recv.data_total);
+        j_obj_new_int64_add(j_net_info, "send", (const signed long int)net_connection_dump__1__5__1__1__dump_info->nh->send.data_total);
+        j_obj_new_int64_add(j_net_info, "receive", (const signed long int)net_connection_dump__1__5__1__1__dump_info->nh->recv.data_total);
         j_obj_array_add(j_net_infos, j_net_info);
       }
 
@@ -8296,33 +8296,33 @@ extern void net_connection_init(void)
 // file net.c line 792
 extern signed int net_connection_pid(const signed int pid)
 {
-  signed int return_value_net_cache_inodes_pid$1;
-  return_value_net_cache_inodes_pid$1=net_cache_inodes_pid(pid);
-  if(!(return_value_net_cache_inodes_pid$1 >= 0))
+  signed int return_value_net_cache_inodes_pid_1;
+  return_value_net_cache_inodes_pid_1=net_cache_inodes_pid(pid);
+  if(!(return_value_net_cache_inodes_pid_1 >= 0))
     return -1;
 
   else
   {
-    signed int return_value_net_parse$2;
-    return_value_net_parse$2=net_parse();
-    return return_value_net_parse$2;
+    signed int return_value_net_parse_2;
+    return_value_net_parse_2=net_parse();
+    return return_value_net_parse_2;
   }
 }
 
 // net_connection_pids
 // file net.c line 780
-extern signed int net_connection_pids(struct anonymous$3 *pids)
+extern signed int net_connection_pids(struct anonymous_3 *pids)
 {
-  signed int return_value_net_cache_inodes$1;
-  return_value_net_cache_inodes$1=net_cache_inodes(pids);
-  if(!(return_value_net_cache_inodes$1 >= 0))
+  signed int return_value_net_cache_inodes_1;
+  return_value_net_cache_inodes_1=net_cache_inodes(pids);
+  if(!(return_value_net_cache_inodes_1 >= 0))
     return -1;
 
   else
   {
-    signed int return_value_net_parse$2;
-    return_value_net_parse$2=net_parse();
-    return return_value_net_parse$2;
+    signed int return_value_net_parse_2;
+    return_value_net_parse_2=net_parse();
+    return return_value_net_parse_2;
   }
 }
 
@@ -8330,8 +8330,8 @@ extern signed int net_connection_pids(struct anonymous$3 *pids)
 // file net.c line 429
 static signed int net_dump_info_cmp(const void *p1, const void *p2)
 {
-  const struct anonymous$22 *d1 = (const struct anonymous$22 *)p1;
-  const struct anonymous$22 *d2 = (const struct anonymous$22 *)p2;
+  const struct anonymous_22 *d1 = (const struct anonymous_22 *)p1;
+  const struct anonymous_22 *d2 = (const struct anonymous_22 *)p2;
   if(d2->send_recv_total == d1->send_recv_total)
     return d1->nh->proc->pid - d2->nh->proc->pid;
 
@@ -8341,7 +8341,7 @@ static signed int net_dump_info_cmp(const void *p1, const void *p2)
 
 // net_get_addr
 // file net.c line 360
-static char * net_get_addr(struct anonymous$21 *addr_info)
+static char * net_get_addr(struct anonymous_21 *addr_info)
 {
   char buf[4096l];
   unsigned short int port;
@@ -8393,17 +8393,17 @@ static signed int net_get_inode(const char *str, unsigned long int *inode)
 {
   unsigned long int len;
   len=strlen(str);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(str, "socket:[", (unsigned long int)8);
-  signed int return_value_sscanf$1;
-  signed int return_value_sscanf$3;
-  if(return_value_strncmp$2 == 0)
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(str, "socket:[", (unsigned long int)8);
+  signed int return_value_sscanf_1;
+  signed int return_value_sscanf_3;
+  if(return_value_strncmp_2 == 0)
   {
     if(!((signed int)str[-1l + (signed long int)len] == 93))
       goto __CPROVER_DUMP_L1;
 
-    return_value_sscanf$1=sscanf(str + (signed long int)8, "%lu", inode);
-    return return_value_sscanf$1 == 1 ? 0 : -1;
+    return_value_sscanf_1=sscanf(str + (signed long int)8, "%lu", inode);
+    return return_value_sscanf_1 == 1 ? 0 : -1;
   }
 
   else
@@ -8411,12 +8411,12 @@ static signed int net_get_inode(const char *str, unsigned long int *inode)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(str, "[0000]:", (unsigned long int)7);
-    if(return_value_strncmp$4 == 0)
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(str, "[0000]:", (unsigned long int)7);
+    if(return_value_strncmp_4 == 0)
     {
-      return_value_sscanf$3=sscanf(str + (signed long int)7, "%lu", inode);
-      return return_value_sscanf$3 == 1 ? 0 : -1;
+      return_value_sscanf_3=sscanf(str + (signed long int)7, "%lu", inode);
+      return return_value_sscanf_3 == 1 ? 0 : -1;
     }
 
     else
@@ -8439,9 +8439,9 @@ static signed int net_get_inode_by_path(const char *path, unsigned long int *ino
   else
   {
     link[len] = (char)0;
-    signed int return_value_net_get_inode$1;
-    return_value_net_get_inode$1=net_get_inode(link, inode);
-    return return_value_net_get_inode$1;
+    signed int return_value_net_get_inode_1;
+    return_value_net_get_inode_1=net_get_inode(link, inode);
+    return return_value_net_get_inode_1;
   }
 }
 
@@ -8454,16 +8454,16 @@ static inline unsigned long int net_hash(const unsigned long int inode)
 
 // net_hash_add
 // file net.c line 122
-static struct anonymous$17 * net_hash_add(const char *path, const unsigned long int inode, const signed int pid, const unsigned int fd)
+static struct anonymous_17 * net_hash_add(const char *path, const unsigned long int inode, const signed int pid, const unsigned int fd)
 {
-  struct anonymous$17 *n;
+  struct anonymous_17 *n;
   struct link *l;
   unsigned long int h;
   h=net_hash(inode);
   l = net_hash_table[(signed long int)h].head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    n = (struct anonymous$17 *)l->data;
+    n = (struct anonymous_17 *)l->data;
     if(n->proc->pid == pid)
     {
       if(n->inode == inode)
@@ -8472,13 +8472,13 @@ static struct anonymous$17 * net_hash_add(const char *path, const unsigned long 
     }
 
   }
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$17) /*4160ul*/ );
-  n = (struct anonymous$17 *)return_value_calloc$1;
-  if(n == ((struct anonymous$17 *)NULL))
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_17) /*4160ul*/ );
+  n = (struct anonymous_17 *)return_value_calloc_1;
+  if(n == ((struct anonymous_17 *)NULL))
   {
     health_check_out_of_memory("allocating net hash data");
-    return (struct anonymous$17 *)(void *)0;
+    return (struct anonymous_17 *)(void *)0;
   }
 
   else
@@ -8487,12 +8487,12 @@ static struct anonymous$17 * net_hash_add(const char *path, const unsigned long 
     n->inode = inode;
     n->proc=proc_cache_find_by_pid(pid);
     n->fd = fd;
-    struct link *return_value_list_append$2;
-    return_value_list_append$2=list_append(&net_hash_table[(signed long int)h], (void *)n);
-    if(return_value_list_append$2 == ((struct link *)NULL))
+    struct link *return_value_list_append_2;
+    return_value_list_append_2=list_append(&net_hash_table[(signed long int)h], (void *)n);
+    if(return_value_list_append_2 == ((struct link *)NULL))
     {
       free((void *)n);
-      return (struct anonymous$17 *)(void *)0;
+      return (struct anonymous_17 *)(void *)0;
     }
 
     else
@@ -8504,22 +8504,22 @@ static struct anonymous$17 * net_hash_add(const char *path, const unsigned long 
 // file net.c line 294
 static void net_inet4_resolve(char *name, const unsigned long int len, struct sockaddr_in *sin)
 {
-  signed int return_value_getnameinfo$1;
+  signed int return_value_getnameinfo_1;
   if(!((0x00000004 & opt_flags) == 0))
   {
     if(!(sin->sin_addr.s_addr == 0u))
     {
-      return_value_getnameinfo$1=getnameinfo((struct sockaddr *)sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 8);
-      if(return_value_getnameinfo$1 == 0)
+      return_value_getnameinfo_1=getnameinfo((struct sockaddr *)sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 8);
+      if(return_value_getnameinfo_1 == 0)
         goto __CPROVER_DUMP_L3;
 
     }
 
   }
 
-  signed int return_value_getnameinfo$2;
-  return_value_getnameinfo$2=getnameinfo((struct sockaddr *)sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
-  if(!(return_value_getnameinfo$2 == 0))
+  signed int return_value_getnameinfo_2;
+  return_value_getnameinfo_2=getnameinfo((struct sockaddr *)sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
+  if(!(return_value_getnameinfo_2 == 0))
   {
     __builtin_strncpy(name, "<unknown>", len);
     goto __CPROVER_DUMP_L3;
@@ -8534,43 +8534,43 @@ __CPROVER_DUMP_L3:
 // file net.c line 312
 static void net_inet6_resolve(char *name, const unsigned long int len, struct sockaddr_in6 *sin6)
 {
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  signed int return_value_getnameinfo$1;
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_getnameinfo_1;
   if(!((0x00000004 & opt_flags) == 0))
   {
     struct in6_addr *__a = (struct in6_addr *)&sin6->sin6_addr;
     if(__a->__in6_u.__u6_addr32[0l] == 0u)
-      tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_statement_expression$2 = tmp_if_expr$5;
-    if(!tmp_statement_expression$2)
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_statement_expression_2 = tmp_if_expr_5;
+    if(!tmp_statement_expression_2)
     {
-      return_value_getnameinfo$1=getnameinfo((struct sockaddr *)sin6, (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 8);
-      if(return_value_getnameinfo$1 == 0)
+      return_value_getnameinfo_1=getnameinfo((struct sockaddr *)sin6, (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 8);
+      if(return_value_getnameinfo_1 == 0)
         goto __CPROVER_DUMP_L9;
 
     }
 
   }
 
-  signed int return_value_getnameinfo$6;
-  return_value_getnameinfo$6=getnameinfo((struct sockaddr *)sin6, (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
-  if(!(return_value_getnameinfo$6 == 0))
+  signed int return_value_getnameinfo_6;
+  return_value_getnameinfo_6=getnameinfo((struct sockaddr *)sin6, (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ , name, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
+  if(!(return_value_getnameinfo_6 == 0))
   {
     __builtin_strncpy(name, "<unknown>", len);
     goto __CPROVER_DUMP_L9;
@@ -8590,7 +8590,7 @@ static signed int net_netlink_parse(void)
   signed int i;
   unsigned long int inode;
   fp=fopen("/proc/net/netlink", "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     fprintf(stderr, "Cannot open /proc/net/netlink.\n");
@@ -8602,20 +8602,20 @@ static signed int net_netlink_parse(void)
     i = 0;
     do
     {
-      return_value_fgets$1=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      struct anonymous$21 new_addr;
+      struct anonymous_21 new_addr;
       if(!(i == 0))
       {
-        signed int return_value_sscanf$2;
-        return_value_sscanf$2=sscanf(buf, "%*X %*d %*d %*x %*d %*d %*d %*d %*d %lu", &inode);
-        if(return_value_sscanf$2 == 1)
+        signed int return_value_sscanf_2;
+        return_value_sscanf_2=sscanf(buf, "%*X %*d %*d %*x %*d %*d %*d %*d %*d %lu", &inode);
+        if(return_value_sscanf_2 == 1)
         {
-          memset((void *)&new_addr, 0, sizeof(struct anonymous$21) /*12300ul*/ );
+          memset((void *)&new_addr, 0, sizeof(struct anonymous_21) /*12300ul*/ );
           new_addr.inode = inode;
-          new_addr.type = (enum anonymous$19)NET_NETLINK;
+          new_addr.type = (enum anonymous_19)NET_NETLINK;
           snprintf(new_addr.u.path, (unsigned long int)4096, "netlink:[%lu]", inode);
           net_addr_add(&new_addr);
         }
@@ -8634,44 +8634,44 @@ static signed int net_netlink_parse(void)
 // file net.c line 757
 static signed int net_parse(void)
 {
-  signed int return_value_net_tcp_udp_parse$1;
-  return_value_net_tcp_udp_parse$1=net_tcp_udp_parse((const enum anonymous$19)NET_TCP);
-  if(!(return_value_net_tcp_udp_parse$1 >= 0))
+  signed int return_value_net_tcp_udp_parse_1;
+  return_value_net_tcp_udp_parse_1=net_tcp_udp_parse((const enum anonymous_19)NET_TCP);
+  if(!(return_value_net_tcp_udp_parse_1 >= 0))
     return -1;
 
   else
   {
-    signed int return_value_net_tcp_udp_parse$2;
-    return_value_net_tcp_udp_parse$2=net_tcp_udp_parse((const enum anonymous$19)NET_TCP6);
-    if(!(return_value_net_tcp_udp_parse$2 >= 0))
+    signed int return_value_net_tcp_udp_parse_2;
+    return_value_net_tcp_udp_parse_2=net_tcp_udp_parse((const enum anonymous_19)NET_TCP6);
+    if(!(return_value_net_tcp_udp_parse_2 >= 0))
       return -1;
 
     else
     {
-      signed int return_value_net_tcp_udp_parse$3;
-      return_value_net_tcp_udp_parse$3=net_tcp_udp_parse((const enum anonymous$19)NET_UDP);
-      if(!(return_value_net_tcp_udp_parse$3 >= 0))
+      signed int return_value_net_tcp_udp_parse_3;
+      return_value_net_tcp_udp_parse_3=net_tcp_udp_parse((const enum anonymous_19)NET_UDP);
+      if(!(return_value_net_tcp_udp_parse_3 >= 0))
         return -1;
 
       else
       {
-        signed int return_value_net_tcp_udp_parse$4;
-        return_value_net_tcp_udp_parse$4=net_tcp_udp_parse((const enum anonymous$19)NET_UDP6);
-        if(!(return_value_net_tcp_udp_parse$4 >= 0))
+        signed int return_value_net_tcp_udp_parse_4;
+        return_value_net_tcp_udp_parse_4=net_tcp_udp_parse((const enum anonymous_19)NET_UDP6);
+        if(!(return_value_net_tcp_udp_parse_4 >= 0))
           return -1;
 
         else
         {
-          signed int return_value_net_unix_parse$5;
-          return_value_net_unix_parse$5=net_unix_parse();
-          if(!(return_value_net_unix_parse$5 >= 0))
+          signed int return_value_net_unix_parse_5;
+          return_value_net_unix_parse_5=net_unix_parse();
+          if(!(return_value_net_unix_parse_5 >= 0))
             return -1;
 
           else
           {
-            signed int return_value_net_netlink_parse$6;
-            return_value_net_netlink_parse$6=net_netlink_parse();
-            if(!(return_value_net_netlink_parse$6 >= 0))
+            signed int return_value_net_netlink_parse_6;
+            return_value_net_netlink_parse_6=net_netlink_parse();
+            if(!(return_value_net_netlink_parse_6 >= 0))
               return -1;
 
             else
@@ -8712,7 +8712,7 @@ static void net_size_to_str(char *buf, unsigned long int buf_len, unsigned long 
 
 // net_tcp_udp_parse
 // file net.c line 649
-static signed int net_tcp_udp_parse(const enum anonymous$19 type)
+static signed int net_tcp_udp_parse(const enum anonymous_19 type)
 {
   struct _IO_FILE *fp;
   char *procfile;
@@ -8750,7 +8750,7 @@ static signed int net_tcp_udp_parse(const enum anonymous$19 type)
     }
   }
   fp=fopen(procfile, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     fprintf(stderr, "Cannot open %s.\n", procfile);
@@ -8762,20 +8762,20 @@ static signed int net_tcp_udp_parse(const enum anonymous$19 type)
     i = 0;
     do
     {
-      return_value_fgets$1=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      struct anonymous$21 new_addr;
+      struct anonymous_21 new_addr;
       if(!(i == 0))
       {
         sscanf(buf, "%*d: %*64[0-9A-Fa-f]:%*X %64[0-9A-Fa-f]:%hx %*X %*X:%*X %*X:%*X %*X %*d %*d %lu", (const void *)addr_str, &port, &inode);
-        memset((void *)&new_addr, 0, sizeof(struct anonymous$21) /*12300ul*/ );
+        memset((void *)&new_addr, 0, sizeof(struct anonymous_21) /*12300ul*/ );
         new_addr.inode = inode;
         new_addr.type = type;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(addr_str);
-        if(return_value_strlen$2 >= 9ul)
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(addr_str);
+        if(return_value_strlen_2 >= 9ul)
         {
           new_addr.u.addr6.sin6_family = (unsigned short int)10;
           new_addr.family = (signed int)new_addr.u.addr6.sin6_family;
@@ -8809,7 +8809,7 @@ static signed int net_unix_parse(void)
   char buf[4096l];
   signed int i;
   fp=fopen("/proc/net/unix", "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     fprintf(stderr, "Cannot open /proc/net/unix\n");
@@ -8821,19 +8821,19 @@ static signed int net_unix_parse(void)
     i = 0;
     do
     {
-      return_value_fgets$1=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       unsigned long int inode;
       char path[4096l];
-      struct anonymous$21 new_addr;
+      struct anonymous_21 new_addr;
       if(!(i == 0))
       {
         sscanf(buf, "%*x: %*x %*x %*x %*x %*x %lu %s\n", &inode, (const void *)path);
-        memset((void *)&new_addr, 0, sizeof(struct anonymous$21) /*12300ul*/ );
+        memset((void *)&new_addr, 0, sizeof(struct anonymous_21) /*12300ul*/ );
         new_addr.inode = inode;
-        new_addr.type = (enum anonymous$19)NET_UNIX;
+        new_addr.type = (enum anonymous_19)NET_UNIX;
         __builtin_strncpy(new_addr.u.path, path, (unsigned long int)4096);
         net_addr_add(&new_addr);
       }
@@ -8850,8 +8850,8 @@ static signed int net_unix_parse(void)
 // file cpustat.c line 214
 static signed int pagefault_cmp(const void *data1, const void *data2)
 {
-  struct anonymous$37 *cpustat1 = (struct anonymous$37 *)data1;
-  struct anonymous$37 *cpustat2 = (struct anonymous$37 *)data2;
+  struct anonymous_37 *cpustat1 = (struct anonymous_37 *)data1;
+  struct anonymous_37 *cpustat2 = (struct anonymous_37 *)data2;
   return (signed int)((cpustat2->major_fault + cpustat2->minor_fault) - (cpustat1->major_fault + cpustat1->minor_fault));
 }
 
@@ -8862,25 +8862,25 @@ extern signed int pagefault_dump_diff(struct json_object *j_tests, const double 
   signed int rc = 0;
   struct link *lo;
   struct link *ln;
-  struct anonymous$3 sorted;
-  struct anonymous$37 *cio;
-  struct anonymous$37 *cin;
+  struct anonymous_3 sorted;
+  struct anonymous_37 *cio;
+  struct anonymous_37 *cin;
   list_init(&sorted);
   ln = cpustat_info_finish.head;
   for( ; !(ln == ((struct link *)NULL)); ln = ln->next)
   {
-    cin = (struct anonymous$37 *)ln->data;
+    cin = (struct anonymous_37 *)ln->data;
     lo = cpustat_info_start.head;
     for( ; !(lo == ((struct link *)NULL)); lo = lo->next)
     {
-      cio = (struct anonymous$37 *)lo->data;
+      cio = (struct anonymous_37 *)lo->data;
       if(cin->proc->pid == cio->proc->pid)
       {
-        struct anonymous$37 *cpustat;
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$37) /*72ul*/ );
-        cpustat = (struct anonymous$37 *)return_value_calloc$1;
-        if(cpustat == ((struct anonymous$37 *)NULL))
+        struct anonymous_37 *cpustat;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_37) /*72ul*/ );
+        cpustat = (struct anonymous_37 *)return_value_calloc_1;
+        if(cpustat == ((struct anonymous_37 *)NULL))
         {
           health_check_out_of_memory("cannot allocate cpustat information");
           goto out;
@@ -8889,14 +8889,14 @@ extern signed int pagefault_dump_diff(struct json_object *j_tests, const double 
         cpustat->proc = cio->proc;
         cpustat->major_fault = cin->major_fault - cio->major_fault;
         cpustat->minor_fault = cin->minor_fault - cio->minor_fault;
-        double return_value_timeval_to_double$2;
-        return_value_timeval_to_double$2=timeval_to_double(&cin->whence);
-        double return_value_timeval_to_double$3;
-        return_value_timeval_to_double$3=timeval_to_double(&cio->whence);
-        cpustat->duration = return_value_timeval_to_double$2 - return_value_timeval_to_double$3;
-        struct link *return_value_list_add_ordered$4;
-        return_value_list_add_ordered$4=list_add_ordered(&sorted, (void *)cpustat, pagefault_cmp);
-        if(return_value_list_add_ordered$4 == ((struct link *)NULL))
+        double return_value_timeval_to_double_2;
+        return_value_timeval_to_double_2=timeval_to_double(&cin->whence);
+        double return_value_timeval_to_double_3;
+        return_value_timeval_to_double_3=timeval_to_double(&cio->whence);
+        cpustat->duration = return_value_timeval_to_double_2 - return_value_timeval_to_double_3;
+        struct link *return_value_list_add_ordered_4;
+        return_value_list_add_ordered_4=list_add_ordered(&sorted, (void *)cpustat, pagefault_cmp);
+        if(return_value_list_add_ordered_4 == ((struct link *)NULL))
         {
           free((void *)cpustat);
           goto out;
@@ -8916,7 +8916,7 @@ extern signed int pagefault_dump_diff(struct json_object *j_tests, const double 
     ln = sorted.head;
     for( ; !(ln == ((struct link *)NULL)); ln = ln->next)
     {
-      cin = (struct anonymous$37 *)ln->data;
+      cin = (struct anonymous_37 *)ln->data;
       printf(" %5d %-20.20s %12.2f %12.2f %12.2f\n", cin->proc->pid, cin->proc->cmdline, (double)cin->minor_fault / duration, (double)cin->major_fault / duration, (double)(cin->minor_fault + cin->major_fault) / duration);
     }
   }
@@ -8931,31 +8931,31 @@ extern signed int pagefault_dump_diff(struct json_object *j_tests, const double 
     if(j_fault_info == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link4(j_tests, "page-faults", j_fault_info);
+    j_obj_obj_add_link4(j_tests, "page-faults", j_fault_info);
     j_faults=j_obj_new_array();
     if(j_faults == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link4(j_fault_info, "page-faults-per-process", j_faults);
+    j_obj_obj_add_link4(j_fault_info, "page-faults-per-process", j_faults);
     ln = sorted.head;
     for( ; !(ln == ((struct link *)NULL)); ln = ln->next)
     {
-      cin = (struct anonymous$37 *)ln->data;
+      cin = (struct anonymous_37 *)ln->data;
       j_fault=j_obj_new_obj();
       if(j_fault == ((struct json_object *)NULL))
         goto out;
 
-      j_obj_new_int32_add$link4(j_fault, "pid", cin->proc->pid);
-      j_obj_new_int32_add$link4(j_fault, "ppid", cin->proc->ppid);
-      j_obj_new_int32_add$link4(j_fault, "is-thread", (const signed int)cin->proc->is_thread);
-      j_obj_new_string_add$link4(j_fault, "name", cin->proc->cmdline);
-      j_obj_new_int64_add$link4(j_fault, "minor-page-faults", (const signed long int)cin->minor_fault);
-      j_obj_new_int64_add$link4(j_fault, "major-page-faults", (const signed long int)cin->major_fault);
-      j_obj_new_int64_add$link4(j_fault, "total-page-faults", (const signed long int)(cin->minor_fault + cin->major_fault));
-      j_obj_new_double_add$link4(j_fault, "minor-page-faults-rate", (double)cin->minor_fault / duration);
-      j_obj_new_double_add$link4(j_fault, "major-page-faults-rate", (double)cin->major_fault / duration);
-      j_obj_new_double_add$link4(j_fault, "total-page-faults-rate", (double)(cin->minor_fault + cin->major_fault) / duration);
-      j_obj_array_add$link4(j_faults, j_fault);
+      j_obj_new_int32_add_link4(j_fault, "pid", cin->proc->pid);
+      j_obj_new_int32_add_link4(j_fault, "ppid", cin->proc->ppid);
+      j_obj_new_int32_add_link4(j_fault, "is-thread", (const signed int)cin->proc->is_thread);
+      j_obj_new_string_add_link4(j_fault, "name", cin->proc->cmdline);
+      j_obj_new_int64_add_link4(j_fault, "minor-page-faults", (const signed long int)cin->minor_fault);
+      j_obj_new_int64_add_link4(j_fault, "major-page-faults", (const signed long int)cin->major_fault);
+      j_obj_new_int64_add_link4(j_fault, "total-page-faults", (const signed long int)(cin->minor_fault + cin->major_fault));
+      j_obj_new_double_add_link4(j_fault, "minor-page-faults-rate", (double)cin->minor_fault / duration);
+      j_obj_new_double_add_link4(j_fault, "major-page-faults-rate", (double)cin->major_fault / duration);
+      j_obj_new_double_add_link4(j_fault, "total-page-faults-rate", (double)(cin->minor_fault + cin->major_fault) / duration);
+      j_obj_array_add_link4(j_faults, j_fault);
       minor_fault_total = minor_fault_total + cin->minor_fault;
       major_fault_total = major_fault_total + cin->major_fault;
     }
@@ -8963,13 +8963,13 @@ extern signed int pagefault_dump_diff(struct json_object *j_tests, const double 
     if(j_fault == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link4(j_fault_info, "page-faults-total", j_fault);
-    j_obj_new_int64_add$link4(j_fault, "minor-page-faults-total", (const signed long int)minor_fault_total);
-    j_obj_new_int64_add$link4(j_fault, "major-page-faults-total", (const signed long int)major_fault_total);
-    j_obj_new_int64_add$link4(j_fault, "total-page-faults-total", (const signed long int)(minor_fault_total + major_fault_total));
-    j_obj_new_double_add$link4(j_fault, "minor-page-faults-total-rate", (double)minor_fault_total / duration);
-    j_obj_new_double_add$link4(j_fault, "major-page-faults-total-rate", (double)major_fault_total / duration);
-    j_obj_new_double_add$link4(j_fault, "total-page-faults-total-rate", (double)(minor_fault_total + major_fault_total) / duration);
+    j_obj_obj_add_link4(j_fault_info, "page-faults-total", j_fault);
+    j_obj_new_int64_add_link4(j_fault, "minor-page-faults-total", (const signed long int)minor_fault_total);
+    j_obj_new_int64_add_link4(j_fault, "major-page-faults-total", (const signed long int)major_fault_total);
+    j_obj_new_int64_add_link4(j_fault, "total-page-faults-total", (const signed long int)(minor_fault_total + major_fault_total));
+    j_obj_new_double_add_link4(j_fault, "minor-page-faults-total-rate", (double)minor_fault_total / duration);
+    j_obj_new_double_add_link4(j_fault, "major-page-faults-total-rate", (double)major_fault_total / duration);
+    j_obj_new_double_add_link4(j_fault, "total-page-faults-total-rate", (double)(minor_fault_total + major_fault_total) / duration);
   }
 
   printf("\n");
@@ -8982,35 +8982,35 @@ out:
 
 // parse_pid_list
 // file health-check.c line 131
-static signed int parse_pid_list(char *arg, struct anonymous$3 *pids)
+static signed int parse_pid_list(char *arg, struct anonymous_3 *pids)
 {
   char *str;
   char *token;
   char *saveptr = (char *)(void *)0;
   str = arg;
-  char *return_value___strtok_r$1;
+  char *return_value___strtok_r_1;
   do
   {
-    return_value___strtok_r$1=__strtok_r(str, ",", &saveptr);
-    token = return_value___strtok_r$1;
+    return_value___strtok_r_1=__strtok_r(str, ",", &saveptr);
+    token = return_value___strtok_r_1;
     if(token == ((char *)NULL))
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$7;
-    return_value___ctype_b_loc$7=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*token]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_7;
+    return_value___ctype_b_loc_7=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*token]) == 0))
     {
       struct proc_info *p;
       signed int pid;
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 0;
-      signed long int return_value_strtol$3;
-      return_value_strtol$3=strtol(token, (char ** restrict )(void *)0, 10);
-      pid = (signed int)return_value_strtol$3;
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 0))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 0;
+      signed long int return_value_strtol_3;
+      return_value_strtol_3=strtol(token, (char ** restrict )(void *)0, 10);
+      pid = (signed int)return_value_strtol_3;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 0))
       {
         fprintf(stderr, "Invalid pid specified.\n");
         return -1;
@@ -9023,18 +9023,18 @@ static signed int parse_pid_list(char *arg, struct anonymous$3 *pids)
         return -1;
       }
 
-      signed int return_value_proc_pids_add_proc$5;
-      return_value_proc_pids_add_proc$5=proc_pids_add_proc(pids, p);
-      if(!(return_value_proc_pids_add_proc$5 >= 0))
+      signed int return_value_proc_pids_add_proc_5;
+      return_value_proc_pids_add_proc_5=proc_pids_add_proc(pids, p);
+      if(!(return_value_proc_pids_add_proc_5 >= 0))
         return -1;
 
     }
 
     else
     {
-      signed int return_value_proc_cache_find_by_procname$6;
-      return_value_proc_cache_find_by_procname$6=proc_cache_find_by_procname(pids, token);
-      if(!(return_value_proc_cache_find_by_procname$6 >= 0))
+      signed int return_value_proc_cache_find_by_procname_6;
+      return_value_proc_cache_find_by_procname_6=proc_cache_find_by_procname(pids, token);
+      if(!(return_value_proc_cache_find_by_procname_6 >= 0))
         return -1;
 
     }
@@ -9051,14 +9051,14 @@ extern _Bool pid_exists(const signed int pid)
   char path[4096l];
   struct stat statbuf;
   snprintf(path, sizeof(char [4096l]) /*4096ul*/ , "/proc/%i", pid);
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(path, &statbuf);
-  return return_value_stat$1 == 0;
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(path, &statbuf);
+  return return_value_stat_1 == 0;
 }
 
 // pid_get_children
 // file pid.c line 134
-static signed int pid_get_children(const signed int pid, struct anonymous$3 *children)
+static signed int pid_get_children(const signed int pid, struct anonymous_3 *children)
 {
   struct link *l = proc_cache_list.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
@@ -9066,9 +9066,9 @@ static signed int pid_get_children(const signed int pid, struct anonymous$3 *chi
     struct proc_info *p = (struct proc_info *)l->data;
     if(p->ppid == pid)
     {
-      struct link *return_value_list_append$1;
-      return_value_list_append$1=list_append(children, (void *)p);
-      if(return_value_list_append$1 == ((struct link *)NULL))
+      struct link *return_value_list_append_1;
+      return_value_list_append_1=list_append(children, (void *)p);
+      if(return_value_list_append_1 == ((struct link *)NULL))
         return -1;
 
       pid_get_children(p->pid, children);
@@ -9080,7 +9080,7 @@ static signed int pid_get_children(const signed int pid, struct anonymous$3 *chi
 
 // pid_list_find
 // file pid.c line 115
-extern _Bool pid_list_find(const signed int pid, struct anonymous$3 *list)
+extern _Bool pid_list_find(const signed int pid, struct anonymous_3 *list)
 {
   struct link *l = list->head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
@@ -9095,33 +9095,33 @@ extern _Bool pid_list_find(const signed int pid, struct anonymous$3 *list)
 
 // pid_list_get_children
 // file pid.c line 157
-extern signed int pid_list_get_children(struct anonymous$3 *pids)
+extern signed int pid_list_get_children(struct anonymous_3 *pids)
 {
   struct link *l;
-  struct anonymous$3 children;
+  struct anonymous_3 children;
   struct proc_info *p;
   list_init(&children);
   l = pids->head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     p = (struct proc_info *)l->data;
-    signed int return_value_pid_get_children$1;
-    return_value_pid_get_children$1=pid_get_children(p->pid, &children);
-    if(!(return_value_pid_get_children$1 >= 0))
+    signed int return_value_pid_get_children_1;
+    return_value_pid_get_children_1=pid_get_children(p->pid, &children);
+    if(!(return_value_pid_get_children_1 >= 0))
       return -1;
 
   }
   l = children.head;
-  struct link *return_value_list_append$2;
+  struct link *return_value_list_append_2;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     p = (struct proc_info *)l->data;
-    _Bool return_value_pid_list_find$3;
-    return_value_pid_list_find$3=pid_list_find(p->pid, pids);
-    if(return_value_pid_list_find$3 == (_Bool)0)
+    _Bool return_value_pid_list_find_3;
+    return_value_pid_list_find_3=pid_list_find(p->pid, pids);
+    if(return_value_pid_list_find_3 == (_Bool)0)
     {
-      return_value_list_append$2=list_append(pids, (void *)p);
-      if(return_value_list_append$2 == ((struct link *)NULL))
+      return_value_list_append_2=list_append(pids, (void *)p);
+      if(return_value_list_append_2 == ((struct link *)NULL))
         return -1;
 
     }
@@ -9137,19 +9137,19 @@ extern struct proc_info * proc_cache_add(const signed int pid, const signed int 
 {
   struct proc_info *p;
   unsigned long int h;
-  _Bool return_value_pid_exists$1;
-  return_value_pid_exists$1=pid_exists(pid);
-  _Bool tmp_if_expr$3;
-  signed int return_value_getpid$2;
-  if(return_value_pid_exists$1 == (_Bool)0)
-    tmp_if_expr$3 = (_Bool)1;
+  _Bool return_value_pid_exists_1;
+  return_value_pid_exists_1=pid_exists(pid);
+  _Bool tmp_if_expr_3;
+  signed int return_value_getpid_2;
+  if(return_value_pid_exists_1 == (_Bool)0)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_getpid$2=getpid();
-    tmp_if_expr$3 = pid == return_value_getpid$2 ? (_Bool)1 : (_Bool)0;
+    return_value_getpid_2=getpid();
+    tmp_if_expr_3 = pid == return_value_getpid_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return (struct proc_info *)(void *)0;
 
   else
@@ -9165,9 +9165,9 @@ extern struct proc_info * proc_cache_add(const signed int pid, const signed int 
       }
 
     pthread_mutex_unlock(&proc_cache_mutex);
-    struct proc_info *return_value_proc_cache_add_at_hash_index$4;
-    return_value_proc_cache_add_at_hash_index$4=proc_cache_add_at_hash_index(h, pid, ppid, is_thread);
-    return return_value_proc_cache_add_at_hash_index$4;
+    struct proc_info *return_value_proc_cache_add_at_hash_index_4;
+    return_value_proc_cache_add_at_hash_index_4=proc_cache_add_at_hash_index(h, pid, ppid, is_thread);
+    return return_value_proc_cache_add_at_hash_index_4;
   }
 }
 
@@ -9176,9 +9176,9 @@ extern struct proc_info * proc_cache_add(const signed int pid, const signed int 
 static struct proc_info * proc_cache_add_at_hash_index(const unsigned long int h, const signed int pid, const signed int ppid, const _Bool is_thread)
 {
   struct proc_info *p;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct proc_info) /*40ul*/ );
-  p = (struct proc_info *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct proc_info) /*40ul*/ );
+  p = (struct proc_info *)return_value_calloc_1;
   if(p == ((struct proc_info *)NULL))
   {
     health_check_out_of_memory("allocating proc cache");
@@ -9193,9 +9193,9 @@ static struct proc_info * proc_cache_add_at_hash_index(const unsigned long int h
     p->comm=get_pid_comm(pid);
     p->is_thread = is_thread;
     pthread_mutex_lock(&proc_cache_mutex);
-    struct link *return_value_list_append$2;
-    return_value_list_append$2=list_append(&proc_cache_list, (void *)p);
-    if(return_value_list_append$2 == ((struct link *)NULL))
+    struct link *return_value_list_append_2;
+    return_value_list_append_2=list_append(&proc_cache_list, (void *)p);
+    if(return_value_list_append_2 == ((struct link *)NULL))
     {
       pthread_mutex_unlock(&proc_cache_mutex);
       free((void *)p->cmdline);
@@ -9237,38 +9237,38 @@ extern struct proc_info * proc_cache_find_by_pid(const signed int pid)
     }
 
   pthread_mutex_unlock(&proc_cache_mutex);
-  _Bool return_value_pid_exists$1;
-  return_value_pid_exists$1=pid_exists(pid);
-  _Bool tmp_if_expr$3;
-  signed int return_value_getpid$2;
-  if(return_value_pid_exists$1 == (_Bool)0)
-    tmp_if_expr$3 = (_Bool)1;
+  _Bool return_value_pid_exists_1;
+  return_value_pid_exists_1=pid_exists(pid);
+  _Bool tmp_if_expr_3;
+  signed int return_value_getpid_2;
+  if(return_value_pid_exists_1 == (_Bool)0)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_getpid$2=getpid();
-    tmp_if_expr$3 = pid == return_value_getpid$2 ? (_Bool)1 : (_Bool)0;
+    return_value_getpid_2=getpid();
+    tmp_if_expr_3 = pid == return_value_getpid_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return (struct proc_info *)(void *)0;
 
   else
   {
-    struct proc_info *return_value_proc_cache_add_at_hash_index$4;
-    return_value_proc_cache_add_at_hash_index$4=proc_cache_add_at_hash_index(h, pid, 0, (const _Bool)0);
-    return return_value_proc_cache_add_at_hash_index$4;
+    struct proc_info *return_value_proc_cache_add_at_hash_index_4;
+    return_value_proc_cache_add_at_hash_index_4=proc_cache_add_at_hash_index(h, pid, 0, (const _Bool)0);
+    return return_value_proc_cache_add_at_hash_index_4;
   }
 }
 
 // proc_cache_find_by_procname
 // file proc.c line 287
-extern signed int proc_cache_find_by_procname(struct anonymous$3 *pids, const char *procname)
+extern signed int proc_cache_find_by_procname(struct anonymous_3 *pids, const char *procname)
 {
   _Bool found = (_Bool)0;
   struct link *l;
   pthread_mutex_lock(&proc_cache_mutex);
   l = proc_cache_list.head;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     struct proc_info *p = (struct proc_info *)l->data;
@@ -9276,10 +9276,10 @@ extern signed int proc_cache_find_by_procname(struct anonymous$3 *pids, const ch
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(p->cmdline, procname);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(p->cmdline, procname);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
       {
         proc_pids_add_proc(pids, p);
         found = (_Bool)1;
@@ -9322,9 +9322,9 @@ extern signed int proc_cache_get(void)
 
       struct _IO_FILE *fp;
       char path[4096l];
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)procentry->d_name[0l]]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)procentry->d_name[0l]]) == 0))
       {
         snprintf(path, sizeof(char [4096l]) /*4096ul*/ , "/proc/%s/stat", (const void *)procentry->d_name);
         fp=fopen(path, "r");
@@ -9333,9 +9333,9 @@ extern signed int proc_cache_get(void)
           signed int pid;
           signed int ppid;
           char comm[64l];
-          signed int return_value_fscanf$2;
-          return_value_fscanf$2=fscanf(fp, "%8d (%63[^)]) %*c %8i", &pid, (const void *)comm, &ppid);
-          if(return_value_fscanf$2 == 3)
+          signed int return_value_fscanf_2;
+          return_value_fscanf_2=fscanf(fp, "%8d (%63[^)]) %*c %8i", &pid, (const void *)comm, &ppid);
+          if(return_value_fscanf_2 == 3)
             proc_cache_add(pid, ppid, (const _Bool)0);
 
           fclose(fp);
@@ -9375,19 +9375,19 @@ extern signed int proc_cache_get_pthreads(void)
       struct dirent *taskentry;
       char path[4096l];
       signed int ppid;
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)procentry->d_name[0l]]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)procentry->d_name[0l]]) == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 0;
-        signed long int return_value_strtol$3;
-        return_value_strtol$3=strtol(procentry->d_name, (char ** restrict )(void *)0, 10);
-        ppid = (signed int)return_value_strtol$3;
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 0)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 0;
+        signed long int return_value_strtol_3;
+        return_value_strtol_3=strtol(procentry->d_name, (char ** restrict )(void *)0, 10);
+        ppid = (signed int)return_value_strtol_3;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 0)
         {
           snprintf(path, sizeof(char [4096l]) /*4096ul*/ , "/proc/%i/task", ppid);
           taskdir=opendir(path);
@@ -9401,16 +9401,16 @@ extern signed int proc_cache_get_pthreads(void)
                 break;
 
               signed int pid;
-              const unsigned short int **return_value___ctype_b_loc$5;
-              return_value___ctype_b_loc$5=__ctype_b_loc();
-              if(!((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)taskentry->d_name[0l]]) == 0))
+              const unsigned short int **return_value___ctype_b_loc_5;
+              return_value___ctype_b_loc_5=__ctype_b_loc();
+              if(!((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)taskentry->d_name[0l]]) == 0))
               {
                 pid=atoi(taskentry->d_name);
                 if(!(pid == ppid))
                 {
-                  struct proc_info *return_value_proc_cache_add$6;
-                  return_value_proc_cache_add$6=proc_cache_add(pid, ppid, (const _Bool)1);
-                  if(return_value_proc_cache_add$6 == ((struct proc_info *)NULL))
+                  struct proc_info *return_value_proc_cache_add_6;
+                  return_value_proc_cache_add_6=proc_cache_add(pid, ppid, (const _Bool)1);
+                  if(return_value_proc_cache_add_6 == ((struct proc_info *)NULL))
                   {
                     closedir(taskdir);
                     closedir(procdir);
@@ -9464,7 +9464,7 @@ extern void proc_cache_init(void)
 
 // proc_pids_add_proc
 // file proc.c line 262
-extern signed int proc_pids_add_proc(struct anonymous$3 *pids, struct proc_info *p)
+extern signed int proc_pids_add_proc(struct anonymous_3 *pids, struct proc_info *p)
 {
   signed int rc = 0;
   if(p->pid == 1)
@@ -9473,18 +9473,18 @@ extern signed int proc_pids_add_proc(struct anonymous$3 *pids, struct proc_info 
     health_check_exit(1);
   }
 
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  if(p->pid == return_value_getpid$1)
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  if(p->pid == return_value_getpid_1)
   {
     fprintf(stderr, "Cannot run health-check on itself. Aborting.\n");
     health_check_exit(1);
   }
 
   pthread_mutex_lock(&pids_mutex);
-  struct link *return_value_list_append$2;
-  return_value_list_append$2=list_append(pids, (void *)p);
-  if(return_value_list_append$2 == ((struct link *)NULL))
+  struct link *return_value_list_append_2;
+  return_value_list_append_2=list_append(pids, (void *)p);
+  if(return_value_list_append_2 == ((struct link *)NULL))
     rc = -1;
 
   pthread_mutex_unlock(&pids_mutex);
@@ -9495,9 +9495,9 @@ extern signed int proc_pids_add_proc(struct anonymous$3 *pids, struct proc_info 
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
 static inline signed int putchar(signed int __c)
 {
-  signed int return_value__IO_putc$1;
-  return_value__IO_putc$1=_IO_putc(__c, stdout);
-  return return_value__IO_putc$1;
+  signed int return_value__IO_putc_1;
+  return_value__IO_putc_1=_IO_putc(__c, stdout);
+  return return_value__IO_putc_1;
 }
 
 // show_usage
@@ -9530,33 +9530,33 @@ static void show_usage(void)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___xstat$1$link1;
-  return_value___xstat$1$link1=__xstat(1, __path$link1, __statbuf$link1);
-  return return_value___xstat$1$link1;
+  signed int return_value___xstat_1_link1;
+  return_value___xstat_1_link1=__xstat(1, __path_link1, __statbuf_link1);
+  return return_value___xstat_1_link1;
 }
 
 // syscall_account_return
 // file syscall.c line 2310
 static void syscall_account_return(struct syscall_info *s, const signed int pid, const signed int syscall, const double timeout)
 {
-  _Bool return_value_syscall_valid$4;
-  return_value_syscall_valid$4=syscall_valid(syscall);
-  if(!(return_value_syscall_valid$4 == (_Bool)0))
+  _Bool return_value_syscall_valid_4;
+  return_value_syscall_valid_4=syscall_valid(syscall);
+  if(!(return_value_syscall_valid_4 == (_Bool)0))
   {
     struct syscall *sc = &syscalls[(signed long int)syscall];
     signed int ret;
-    signed int return_value_syscall_get_return$1;
-    return_value_syscall_get_return$1=syscall_get_return(pid, &ret);
-    if(!(return_value_syscall_get_return$1 >= 0))
+    signed int return_value_syscall_get_return_1;
+    return_value_syscall_get_return_1=syscall_get_return(pid, &ret);
+    if(!(return_value_syscall_get_return_1 >= 0))
       goto __CPROVER_DUMP_L7;
 
     if(!(sc->call_return == ((void (*)(const struct syscall *, const struct syscall_info *, const signed int))NULL)))
@@ -9565,11 +9565,11 @@ static void syscall_account_return(struct syscall_info *s, const signed int pid,
     else
       if(!(sc->call_return_timeout == ((void (*)(struct json_object *, const struct syscall *, const struct syscall_info *))NULL)))
       {
-        struct anonymous$26 *info;
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct anonymous$26) /*16ul*/ );
-        info = (struct anonymous$26 *)return_value_calloc$2;
-        if(info == ((struct anonymous$26 *)NULL))
+        struct anonymous_26 *info;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct anonymous_26) /*16ul*/ );
+        info = (struct anonymous_26 *)return_value_calloc_2;
+        if(info == ((struct anonymous_26 *)NULL))
         {
           health_check_out_of_memory("allocating syscall accounting information");
           goto __CPROVER_DUMP_L7;
@@ -9577,9 +9577,9 @@ static void syscall_account_return(struct syscall_info *s, const signed int pid,
 
         info->timeout = timeout;
         info->ret = ret;
-        struct link *return_value_list_append$3;
-        return_value_list_append$3=list_append(&s->return_history, (void *)info);
-        if(return_value_list_append$3 == ((struct link *)NULL))
+        struct link *return_value_list_append_3;
+        return_value_list_append_3=list_append(&s->return_history, (void *)info);
+        if(return_value_list_append_3 == ((struct link *)NULL))
           free((void *)info);
 
       }
@@ -9595,25 +9595,25 @@ __CPROVER_DUMP_L7:
 // file syscall.c line 1257
 static void syscall_account_sync_file(struct anonymous *info, const signed int syscall, const signed int pid, const signed int fd)
 {
-  struct anonymous$0 *f;
+  struct anonymous_0 *f;
   struct fd_cache *fc;
   struct link *l;
   fc=syscall_fd_cache_lookup(pid, fd);
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(!(fc == ((struct fd_cache *)NULL)))
   {
     l = info->sync_file.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      f = (struct anonymous$0 *)l->data;
+      f = (struct anonymous_0 *)l->data;
       if(f->syscall == syscall)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(f->filename, fc->filename);
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(f->filename, fc->filename);
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
         {
           f->count = f->count + 1ul;
           goto __CPROVER_DUMP_L7;
@@ -9622,22 +9622,22 @@ static void syscall_account_sync_file(struct anonymous *info, const signed int s
       }
 
     }
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct anonymous$0) /*24ul*/ );
-    f = (struct anonymous$0 *)return_value_calloc$3;
-    if(f == ((struct anonymous$0 *)NULL))
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct anonymous_0) /*24ul*/ );
+    f = (struct anonymous_0 *)return_value_calloc_3;
+    if(f == ((struct anonymous_0 *)NULL))
       health_check_out_of_memory("allocating file sync filename info");
 
     else
     {
-      char *return_value___strdup$4;
-      return_value___strdup$4=__strdup(fc->filename);
-      f->filename = return_value___strdup$4;
+      char *return_value___strdup_4;
+      return_value___strdup_4=__strdup(fc->filename);
+      f->filename = return_value___strdup_4;
       f->syscall = syscall;
       f->count = (unsigned long int)1;
-      struct link *return_value_list_append$5;
-      return_value_list_append$5=list_append(&info->sync_file, (void *)f);
-      if(return_value_list_append$5 == ((struct link *)NULL))
+      struct link *return_value_list_append_5;
+      return_value_list_append_5=list_append(&info->sync_file, (void *)f);
+      if(return_value_list_append_5 == ((struct link *)NULL))
       {
         free((void *)f->filename);
         free((void *)f);
@@ -9657,37 +9657,37 @@ void syscall_add_filename(const signed int syscall, const signed int pid, const 
 {
   unsigned long int h;
   struct filename_info *info;
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   if(!(filename == ((const char *)NULL)))
   {
-    unsigned int return_value_hash_filename$1;
-    return_value_hash_filename$1=hash_filename(pid, filename);
-    h = (unsigned long int)return_value_hash_filename$1;
+    unsigned int return_value_hash_filename_1;
+    return_value_hash_filename_1=hash_filename(pid, filename);
+    h = (unsigned long int)return_value_hash_filename_1;
     info = filename_cache[(signed long int)h];
     for( ; !(info == ((struct filename_info *)NULL)); info = info->next)
       if(info->pid == pid)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$3;
-        return_value___builtin_strcmp$3=__builtin_strcmp(info->filename, filename);
-        tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-        if(tmp_statement_expression$2 == 0)
+        signed int return_value___builtin_strcmp_3;
+        return_value___builtin_strcmp_3=__builtin_strcmp(info->filename, filename);
+        tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+        if(tmp_statement_expression_2 == 0)
           break;
 
       }
 
     if(info == ((struct filename_info *)NULL))
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct filename_info) /*40ul*/ );
-      info = (struct filename_info *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct filename_info) /*40ul*/ );
+      info = (struct filename_info *)return_value_calloc_4;
       if(info == ((struct filename_info *)NULL))
         goto __CPROVER_DUMP_L9;
 
-      char *return_value___strdup$5;
-      return_value___strdup$5=__strdup(filename);
-      info->filename = return_value___strdup$5;
+      char *return_value___strdup_5;
+      return_value___strdup_5=__strdup(filename);
+      info->filename = return_value___strdup_5;
       if(info->filename == ((char *)NULL))
       {
         free((void *)info);
@@ -9715,8 +9715,8 @@ __CPROVER_DUMP_L9:
 // file syscall.c line 1339
 static void syscall_brk_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_brk_args$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_brk_args$array_size0];
+  const signed long int syscall_brk_args_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_brk_args_array_size0];
   void *addr;
   (void)s;
   syscall_get_args(pid, sc->arg, args);
@@ -9740,8 +9740,8 @@ extern void syscall_cleanup(void)
 // file syscall.c line 1110
 static void syscall_close_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_close_args$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_close_args$array_size0];
+  const signed long int syscall_close_args_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_close_args_array_size0];
   struct fd_cache *fc;
   unsigned long int h;
   signed int fd;
@@ -9874,15 +9874,15 @@ static struct syscall_info * syscall_count_usage(const signed int pid, const sig
   struct syscall_info *s = (struct syscall_info *)(void *)0;
   struct syscall *sc;
   _Bool found = (_Bool)0;
-  _Bool return_value_syscall_valid$1;
-  return_value_syscall_valid$1=syscall_valid(syscall);
-  struct syscall *tmp_if_expr$2;
-  if(!(return_value_syscall_valid$1 == (_Bool)0))
-    tmp_if_expr$2 = &syscalls[(signed long int)syscall];
+  _Bool return_value_syscall_valid_1;
+  return_value_syscall_valid_1=syscall_valid(syscall);
+  struct syscall *tmp_if_expr_2;
+  if(!(return_value_syscall_valid_1 == (_Bool)0))
+    tmp_if_expr_2 = &syscalls[(signed long int)syscall];
 
   else
-    tmp_if_expr$2 = (struct syscall *)(void *)0;
-  sc = tmp_if_expr$2;
+    tmp_if_expr_2 = (struct syscall *)(void *)0;
+  sc = tmp_if_expr_2;
   if(sc == ((struct syscall *)NULL))
     return (struct syscall_info *)(void *)0;
 
@@ -9904,9 +9904,9 @@ static struct syscall_info * syscall_count_usage(const signed int pid, const sig
 
     if(found == (_Bool)0)
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct syscall_info) /*224ul*/ );
-      s = (struct syscall_info *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct syscall_info) /*224ul*/ );
+      s = (struct syscall_info *)return_value_calloc_3;
       if(s == ((struct syscall_info *)NULL))
       {
         health_check_out_of_memory("allocating syscall hash item");
@@ -9956,7 +9956,7 @@ extern void syscall_dump_execve(struct json_object *j_obj, double duration)
 void syscall_dump_filename(const char *label, const signed int syscall, struct json_object *j_obj, double duration)
 {
   signed int i;
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
   list_init(&sorted);
   i = 0;
@@ -9966,9 +9966,9 @@ void syscall_dump_filename(const char *label, const signed int syscall, struct j
     for( ; !(info == ((struct filename_info *)NULL)); info = info->next)
       if(info->syscall == syscall)
       {
-        struct link *return_value_list_add_ordered$1;
-        return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)info, syscall_filename_cmp);
-        if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+        struct link *return_value_list_add_ordered_1;
+        return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)info, syscall_filename_cmp);
+        if(return_value_list_add_ordered_1 == ((struct link *)NULL))
           goto out;
 
       }
@@ -9983,8 +9983,8 @@ void syscall_dump_filename(const char *label, const signed int syscall, struct j
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct filename_info *syscall_dump_filename$$1$$3$$1$$1$$info = (struct filename_info *)l->data;
-      printf(" %5i %-20.20s %8.3f %s\n", syscall_dump_filename$$1$$3$$1$$1$$info->pid, syscall_dump_filename$$1$$3$$1$$1$$info->proc->cmdline, (double)syscall_dump_filename$$1$$3$$1$$1$$info->count / duration, syscall_dump_filename$$1$$3$$1$$1$$info->filename);
+      struct filename_info *syscall_dump_filename__1__3__1__1__info = (struct filename_info *)l->data;
+      printf(" %5i %-20.20s %8.3f %s\n", syscall_dump_filename__1__3__1__1__info->pid, syscall_dump_filename__1__3__1__1__info->proc->cmdline, (double)syscall_dump_filename__1__3__1__1__info->count / duration, syscall_dump_filename__1__3__1__1__info->filename);
     }
     printf("\n");
   }
@@ -9997,25 +9997,25 @@ void syscall_dump_filename(const char *label, const signed int syscall, struct j
     if(j_syscall == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(j_obj, label, j_syscall);
+    j_obj_obj_add_link1(j_obj, label, j_syscall);
     j_syscall_infos=j_obj_new_array();
     if(j_syscall_infos == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(j_syscall, "files", j_syscall_infos);
+    j_obj_obj_add_link1(j_syscall, "files", j_syscall_infos);
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct filename_info *syscall_dump_filename$$1$$4$$1$$1$$info = (struct filename_info *)l->data;
+      struct filename_info *syscall_dump_filename__1__4__1__1__info = (struct filename_info *)l->data;
       j_syscall_info=j_obj_new_obj();
-      j_obj_new_int32_add$link1(j_syscall_info, "pid", syscall_dump_filename$$1$$4$$1$$1$$info->pid);
-      j_obj_new_int32_add$link1(j_syscall_info, "ppid", syscall_dump_filename$$1$$4$$1$$1$$info->proc->ppid);
-      j_obj_new_int32_add$link1(j_syscall_info, "is_thread", (const signed int)syscall_dump_filename$$1$$4$$1$$1$$info->proc->is_thread);
-      j_obj_new_string_add$link1(j_syscall_info, "name", syscall_dump_filename$$1$$4$$1$$1$$info->proc->cmdline);
-      j_obj_new_int64_add$link1(j_syscall_info, "count", (const signed long int)syscall_dump_filename$$1$$4$$1$$1$$info->count);
-      j_obj_new_double_add$link1(j_syscall_info, "access-rate", (double)syscall_dump_filename$$1$$4$$1$$1$$info->count / duration);
-      j_obj_new_string_add$link1(j_syscall_info, "filename", syscall_dump_filename$$1$$4$$1$$1$$info->filename);
-      j_obj_array_add$link1(j_syscall_infos, j_syscall_info);
+      j_obj_new_int32_add_link1(j_syscall_info, "pid", syscall_dump_filename__1__4__1__1__info->pid);
+      j_obj_new_int32_add_link1(j_syscall_info, "ppid", syscall_dump_filename__1__4__1__1__info->proc->ppid);
+      j_obj_new_int32_add_link1(j_syscall_info, "is_thread", (const signed int)syscall_dump_filename__1__4__1__1__info->proc->is_thread);
+      j_obj_new_string_add_link1(j_syscall_info, "name", syscall_dump_filename__1__4__1__1__info->proc->cmdline);
+      j_obj_new_int64_add_link1(j_syscall_info, "count", (const signed long int)syscall_dump_filename__1__4__1__1__info->count);
+      j_obj_new_double_add_link1(j_syscall_info, "access-rate", (double)syscall_dump_filename__1__4__1__1__info->count / duration);
+      j_obj_new_string_add_link1(j_syscall_info, "filename", syscall_dump_filename__1__4__1__1__info->filename);
+      j_obj_array_add_link1(j_syscall_infos, j_syscall_info);
     }
   }
 
@@ -10033,7 +10033,7 @@ __CPROVER_DUMP_L14:
 // file syscall.c line 772
 extern void syscall_dump_hashtable(struct json_object *j_tests, const double duration)
 {
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
   signed int i;
   signed int count = 0;
@@ -10045,15 +10045,15 @@ extern void syscall_dump_hashtable(struct json_object *j_tests, const double dur
     i = 0;
     for( ; !(i >= 1997); i = i + 1)
     {
-      struct syscall_info *syscall_dump_hashtable$$1$$1$$1$$s = syscall_info[(signed long int)i];
-      for( ; !(syscall_dump_hashtable$$1$$1$$1$$s == ((struct syscall_info *)NULL)); syscall_dump_hashtable$$1$$1$$1$$s = syscall_dump_hashtable$$1$$1$$1$$s->next)
+      struct syscall_info *syscall_dump_hashtable__1__1__1__s = syscall_info[(signed long int)i];
+      for( ; !(syscall_dump_hashtable__1__1__1__s == ((struct syscall_info *)NULL)); syscall_dump_hashtable__1__1__1__s = syscall_dump_hashtable__1__1__1__s->next)
       {
-        struct link *return_value_list_add_ordered$1;
-        return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)syscall_dump_hashtable$$1$$1$$1$$s, syscall_count_cmp);
-        if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+        struct link *return_value_list_add_ordered_1;
+        return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)syscall_dump_hashtable__1__1__1__s, syscall_count_cmp);
+        if(return_value_list_add_ordered_1 == ((struct link *)NULL))
           goto out;
 
-        usecs_total = usecs_total + syscall_dump_hashtable$$1$$1$$1$$s->usecs_total;
+        usecs_total = usecs_total + syscall_dump_hashtable__1__1__1__s->usecs_total;
       }
     }
     printf("System calls traced:\n");
@@ -10081,39 +10081,39 @@ extern void syscall_dump_hashtable(struct json_object *j_tests, const double dur
       j_syscall=j_obj_new_obj();
       if(!(j_syscall == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link1(j_tests, "system-calls", j_syscall);
+        j_obj_obj_add_link1(j_tests, "system-calls", j_syscall);
         j_syscall_infos=j_obj_new_array();
         if(!(j_syscall_infos == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link1(j_syscall, "system-calls-per-process", j_syscall_infos);
+          j_obj_obj_add_link1(j_syscall, "system-calls-per-process", j_syscall_infos);
           total = (unsigned long int)0;
           l = sorted.head;
           for( ; !(l == ((struct link *)NULL)); l = l->next)
           {
-            char syscall_dump_hashtable$$1$$4$$1$$1$$name[64l];
-            struct syscall_info *syscall_dump_hashtable$$1$$4$$1$$1$$s = (struct syscall_info *)l->data;
-            syscall_name(syscall_dump_hashtable$$1$$4$$1$$1$$s->syscall, syscall_dump_hashtable$$1$$4$$1$$1$$name, sizeof(char [64l]) /*64ul*/ );
+            char syscall_dump_hashtable__1__4__1__1__name[64l];
+            struct syscall_info *syscall_dump_hashtable__1__4__1__1__s = (struct syscall_info *)l->data;
+            syscall_name(syscall_dump_hashtable__1__4__1__1__s->syscall, syscall_dump_hashtable__1__4__1__1__name, sizeof(char [64l]) /*64ul*/ );
             j_syscall_info=j_obj_new_obj();
             if(j_syscall_info == ((struct json_object *)NULL))
               goto out;
 
-            j_obj_new_int32_add$link1(j_syscall_info, "pid", syscall_dump_hashtable$$1$$4$$1$$1$$s->proc->pid);
-            j_obj_new_int32_add$link1(j_syscall_info, "ppid", syscall_dump_hashtable$$1$$4$$1$$1$$s->proc->ppid);
-            j_obj_new_int32_add$link1(j_syscall_info, "is-thread", (const signed int)syscall_dump_hashtable$$1$$4$$1$$1$$s->proc->is_thread);
-            j_obj_new_string_add$link1(j_syscall_info, "name", syscall_dump_hashtable$$1$$4$$1$$1$$s->proc->cmdline);
-            j_obj_new_string_add$link1(j_syscall_info, "system-call", syscall_dump_hashtable$$1$$4$$1$$1$$name);
-            j_obj_new_int64_add$link1(j_syscall_info, "system-call-count", (const signed long int)syscall_dump_hashtable$$1$$4$$1$$1$$s->count);
-            j_obj_new_double_add$link1(j_syscall_info, "system-call-rate", (double)syscall_dump_hashtable$$1$$4$$1$$1$$s->count / duration);
-            j_obj_new_int64_add$link1(j_syscall_info, "system-call-total-microseconds", (const signed long int)syscall_dump_hashtable$$1$$4$$1$$1$$s->usecs_total);
-            j_obj_array_add$link1(j_syscall_infos, j_syscall_info);
-            total = total + syscall_dump_hashtable$$1$$4$$1$$1$$s->count;
+            j_obj_new_int32_add_link1(j_syscall_info, "pid", syscall_dump_hashtable__1__4__1__1__s->proc->pid);
+            j_obj_new_int32_add_link1(j_syscall_info, "ppid", syscall_dump_hashtable__1__4__1__1__s->proc->ppid);
+            j_obj_new_int32_add_link1(j_syscall_info, "is-thread", (const signed int)syscall_dump_hashtable__1__4__1__1__s->proc->is_thread);
+            j_obj_new_string_add_link1(j_syscall_info, "name", syscall_dump_hashtable__1__4__1__1__s->proc->cmdline);
+            j_obj_new_string_add_link1(j_syscall_info, "system-call", syscall_dump_hashtable__1__4__1__1__name);
+            j_obj_new_int64_add_link1(j_syscall_info, "system-call-count", (const signed long int)syscall_dump_hashtable__1__4__1__1__s->count);
+            j_obj_new_double_add_link1(j_syscall_info, "system-call-rate", (double)syscall_dump_hashtable__1__4__1__1__s->count / duration);
+            j_obj_new_int64_add_link1(j_syscall_info, "system-call-total-microseconds", (const signed long int)syscall_dump_hashtable__1__4__1__1__s->usecs_total);
+            j_obj_array_add_link1(j_syscall_infos, j_syscall_info);
+            total = total + syscall_dump_hashtable__1__4__1__1__s->count;
           }
           j_syscall_info=j_obj_new_obj();
           if(!(j_syscall_info == ((struct json_object *)NULL)))
           {
-            j_obj_obj_add$link1(j_syscall, "system-calls-total", j_syscall_info);
-            j_obj_new_int64_add$link1(j_syscall_info, "system-call-count-total", (const signed long int)total);
-            j_obj_new_double_add$link1(j_syscall_info, "system-call-count-total-rate", (double)total / duration);
+            j_obj_obj_add_link1(j_syscall, "system-calls-total", j_syscall_info);
+            j_obj_new_int64_add_link1(j_syscall_info, "system-call-count-total", (const signed long int)total);
+            j_obj_new_double_add_link1(j_syscall_info, "system-call-count-total-rate", (double)total / duration);
           }
 
         }
@@ -10143,22 +10143,22 @@ extern void syscall_dump_inotify(struct json_object *j_obj, double duration)
 extern void syscall_dump_pollers(struct json_object *j_tests, const double duration)
 {
   signed int i;
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
   struct json_object *j_pollers = (struct json_object *)(void *)0;
   list_init(&sorted);
   i = 0;
   for( ; !(i >= 1997); i = i + 1)
   {
-    struct syscall_info *syscall_dump_pollers$$1$$1$$1$$s = syscall_info[(signed long int)i];
-    for( ; !(syscall_dump_pollers$$1$$1$$1$$s == ((struct syscall_info *)NULL)); syscall_dump_pollers$$1$$1$$1$$s = syscall_dump_pollers$$1$$1$$1$$s->next)
+    struct syscall_info *syscall_dump_pollers__1__1__1__s = syscall_info[(signed long int)i];
+    for( ; !(syscall_dump_pollers__1__1__1__s == ((struct syscall_info *)NULL)); syscall_dump_pollers__1__1__1__s = syscall_dump_pollers__1__1__1__s->next)
     {
-      signed int syscall = syscall_dump_pollers$$1$$1$$1$$s->syscall;
+      signed int syscall = syscall_dump_pollers__1__1__1__s->syscall;
       if(!(syscalls[(signed long int)syscall].call_enter_timeout == ((void (*)(const struct syscall *, struct syscall_info *, const signed int, const double, double *))NULL)))
       {
-        struct link *return_value_list_add_ordered$1;
-        return_value_list_add_ordered$1=list_add_ordered(&sorted, (void *)syscall_dump_pollers$$1$$1$$1$$s, syscall_count_cmp);
-        if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+        struct link *return_value_list_add_ordered_1;
+        return_value_list_add_ordered_1=list_add_ordered(&sorted, (void *)syscall_dump_pollers__1__1__1__s, syscall_count_cmp);
+        if(return_value_list_add_ordered_1 == ((struct link *)NULL))
           goto out;
 
         break;
@@ -10166,13 +10166,13 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
 
     }
   }
-  unsigned long int syscall_dump_pollers$$1$$poll_infinite = (unsigned long int)0;
-  unsigned long int syscall_dump_pollers$$1$$poll_zero = (unsigned long int)0;
-  unsigned long int syscall_dump_pollers$$1$$count = (unsigned long int)0;
+  unsigned long int syscall_dump_pollers__1__poll_infinite = (unsigned long int)0;
+  unsigned long int syscall_dump_pollers__1__poll_zero = (unsigned long int)0;
+  unsigned long int syscall_dump_pollers__1__count = (unsigned long int)0;
   struct json_object *j_poll_test;
   char tmp[64l];
-  double tmp_if_expr$2;
-  double tmp_if_expr$3;
+  double tmp_if_expr_2;
+  double tmp_if_expr_3;
   if(!(j_tests == ((struct json_object *)NULL)))
   {
     struct json_object *j_syscall;
@@ -10182,72 +10182,72 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
     if(j_syscall == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(j_tests, "polling-system-calls", j_syscall);
+    j_obj_obj_add_link1(j_tests, "polling-system-calls", j_syscall);
     j_syscall_infos=j_obj_new_array();
     if(j_syscall_infos == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(j_syscall, "polling-system-calls-per-process", j_syscall_infos);
-    syscall_dump_pollers$$1$$count = (unsigned long int)0;
+    j_obj_obj_add_link1(j_syscall, "polling-system-calls-per-process", j_syscall_infos);
+    syscall_dump_pollers__1__count = (unsigned long int)0;
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct syscall_info *syscall_dump_pollers$$1$$2$$1$$1$$s = (struct syscall_info *)l->data;
-      syscall_name(syscall_dump_pollers$$1$$2$$1$$1$$s->syscall, tmp, sizeof(char [64l]) /*64ul*/ );
-      double rate = (double)syscall_dump_pollers$$1$$2$$1$$1$$s->count / duration;
-      syscall_dump_pollers$$1$$count = syscall_dump_pollers$$1$$count + syscall_dump_pollers$$1$$2$$1$$1$$s->count;
+      struct syscall_info *syscall_dump_pollers__1__2__1__1__s = (struct syscall_info *)l->data;
+      syscall_name(syscall_dump_pollers__1__2__1__1__s->syscall, tmp, sizeof(char [64l]) /*64ul*/ );
+      double rate = (double)syscall_dump_pollers__1__2__1__1__s->count / duration;
+      syscall_dump_pollers__1__count = syscall_dump_pollers__1__count + syscall_dump_pollers__1__2__1__1__s->count;
       j_syscall_info=j_obj_new_obj();
       if(j_syscall_info == ((struct json_object *)NULL))
         goto out;
 
-      j_obj_new_int32_add$link1(j_syscall_info, "pid", syscall_dump_pollers$$1$$2$$1$$1$$s->proc->pid);
-      j_obj_new_int32_add$link1(j_syscall_info, "ppid", syscall_dump_pollers$$1$$2$$1$$1$$s->proc->ppid);
-      j_obj_new_int32_add$link1(j_syscall_info, "is_thread", (const signed int)syscall_dump_pollers$$1$$2$$1$$1$$s->proc->is_thread);
-      j_obj_new_string_add$link1(j_syscall_info, "name", syscall_dump_pollers$$1$$2$$1$$1$$s->proc->cmdline);
-      j_obj_new_string_add$link1(j_syscall_info, "system-call", tmp);
-      j_obj_new_int64_add$link1(j_syscall_info, "system-call-count", (const signed long int)syscall_dump_pollers$$1$$2$$1$$1$$s->count);
-      j_obj_new_double_add$link1(j_syscall_info, "system-call-rate", rate);
-      j_obj_new_int64_add$link1(j_syscall_info, "poll-count-infinite-timeout", (const signed long int)syscall_dump_pollers$$1$$2$$1$$1$$s->poll_infinite);
-      j_obj_new_int64_add$link1(j_syscall_info, "poll-count-zero-timeout", (const signed long int)syscall_dump_pollers$$1$$2$$1$$1$$s->poll_zero);
-      if(syscall_dump_pollers$$1$$2$$1$$1$$s->poll_min < 0.0)
-        tmp_if_expr$2 = 0.0;
+      j_obj_new_int32_add_link1(j_syscall_info, "pid", syscall_dump_pollers__1__2__1__1__s->proc->pid);
+      j_obj_new_int32_add_link1(j_syscall_info, "ppid", syscall_dump_pollers__1__2__1__1__s->proc->ppid);
+      j_obj_new_int32_add_link1(j_syscall_info, "is_thread", (const signed int)syscall_dump_pollers__1__2__1__1__s->proc->is_thread);
+      j_obj_new_string_add_link1(j_syscall_info, "name", syscall_dump_pollers__1__2__1__1__s->proc->cmdline);
+      j_obj_new_string_add_link1(j_syscall_info, "system-call", tmp);
+      j_obj_new_int64_add_link1(j_syscall_info, "system-call-count", (const signed long int)syscall_dump_pollers__1__2__1__1__s->count);
+      j_obj_new_double_add_link1(j_syscall_info, "system-call-rate", rate);
+      j_obj_new_int64_add_link1(j_syscall_info, "poll-count-infinite-timeout", (const signed long int)syscall_dump_pollers__1__2__1__1__s->poll_infinite);
+      j_obj_new_int64_add_link1(j_syscall_info, "poll-count-zero-timeout", (const signed long int)syscall_dump_pollers__1__2__1__1__s->poll_zero);
+      if(syscall_dump_pollers__1__2__1__1__s->poll_min < 0.0)
+        tmp_if_expr_2 = 0.0;
 
       else
-        tmp_if_expr$2 = syscall_dump_pollers$$1$$2$$1$$1$$s->poll_min;
-      j_obj_new_double_add$link1(j_syscall_info, "poll-minimum-timeout-millisecs", tmp_if_expr$2);
-      if(syscall_dump_pollers$$1$$2$$1$$1$$s->poll_max < 0.0)
-        tmp_if_expr$3 = 0.0;
+        tmp_if_expr_2 = syscall_dump_pollers__1__2__1__1__s->poll_min;
+      j_obj_new_double_add_link1(j_syscall_info, "poll-minimum-timeout-millisecs", tmp_if_expr_2);
+      if(syscall_dump_pollers__1__2__1__1__s->poll_max < 0.0)
+        tmp_if_expr_3 = 0.0;
 
       else
-        tmp_if_expr$3 = syscall_dump_pollers$$1$$2$$1$$1$$s->poll_max;
-      j_obj_new_double_add$link1(j_syscall_info, "poll-maximum-timeout-millisecs", tmp_if_expr$3);
-      j_obj_new_double_add$link1(j_syscall_info, "poll-average-timeout-millisecs", syscall_dump_pollers$$1$$2$$1$$1$$s->poll_total / (double)syscall_dump_pollers$$1$$2$$1$$1$$s->count);
-      j_obj_array_add$link1(j_syscall_infos, j_syscall_info);
+        tmp_if_expr_3 = syscall_dump_pollers__1__2__1__1__s->poll_max;
+      j_obj_new_double_add_link1(j_syscall_info, "poll-maximum-timeout-millisecs", tmp_if_expr_3);
+      j_obj_new_double_add_link1(j_syscall_info, "poll-average-timeout-millisecs", syscall_dump_pollers__1__2__1__1__s->poll_total / (double)syscall_dump_pollers__1__2__1__1__s->count);
+      j_obj_array_add_link1(j_syscall_infos, j_syscall_info);
     }
     j_syscall_info=j_obj_new_obj();
     if(j_syscall_info == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(j_syscall, "polling-system-calls-total", j_syscall_info);
-    j_obj_new_int64_add$link1(j_syscall_info, "system-call-count-total", (const signed long int)syscall_dump_pollers$$1$$count);
-    j_obj_new_double_add$link1(j_syscall_info, "system-call-total-rate", (double)syscall_dump_pollers$$1$$count / duration);
-    j_obj_new_int64_add$link1(j_syscall_info, "poll-count-infinite-total", (signed long int)syscall_dump_pollers$$1$$poll_infinite);
-    j_obj_new_double_add$link1(j_syscall_info, "poll-count-infinite-total-rate", (double)syscall_dump_pollers$$1$$poll_infinite / duration);
-    j_obj_new_int64_add$link1(j_syscall_info, "poll-count-zero-total", (const signed long int)syscall_dump_pollers$$1$$poll_zero);
-    j_obj_new_double_add$link1(j_syscall_info, "poll-count-zero-total-rate", (double)syscall_dump_pollers$$1$$poll_zero / duration);
+    j_obj_obj_add_link1(j_syscall, "polling-system-calls-total", j_syscall_info);
+    j_obj_new_int64_add_link1(j_syscall_info, "system-call-count-total", (const signed long int)syscall_dump_pollers__1__count);
+    j_obj_new_double_add_link1(j_syscall_info, "system-call-total-rate", (double)syscall_dump_pollers__1__count / duration);
+    j_obj_new_int64_add_link1(j_syscall_info, "poll-count-infinite-total", (signed long int)syscall_dump_pollers__1__poll_infinite);
+    j_obj_new_double_add_link1(j_syscall_info, "poll-count-infinite-total-rate", (double)syscall_dump_pollers__1__poll_infinite / duration);
+    j_obj_new_int64_add_link1(j_syscall_info, "poll-count-zero-total", (const signed long int)syscall_dump_pollers__1__poll_zero);
+    j_obj_new_double_add_link1(j_syscall_info, "poll-count-zero-total-rate", (double)syscall_dump_pollers__1__poll_zero / duration);
   }
 
-  double tmp_if_expr$4;
-  double tmp_if_expr$5;
-  char *tmp_if_expr$6;
-  char *tmp_if_expr$7;
+  double tmp_if_expr_4;
+  double tmp_if_expr_5;
+  char *tmp_if_expr_6;
+  char *tmp_if_expr_7;
   if(!(sorted.head == ((struct link *)NULL)))
   {
     if((0x00000002 & opt_flags) == 0)
     {
       double prev;
       double bucket;
-      char syscall_dump_pollers$$1$$3$$1$$tmp[64l];
+      char syscall_dump_pollers__1__3__1__tmp[64l];
       char *units;
       double total_rate = 0.0;
       unsigned long int poll_infinite = (unsigned long int)0;
@@ -10259,40 +10259,40 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct syscall_info *syscall_dump_pollers$$1$$3$$1$$1$$1$$s = (struct syscall_info *)l->data;
-        syscall_name(syscall_dump_pollers$$1$$3$$1$$1$$1$$s->syscall, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
-        double syscall_dump_pollers$$1$$3$$1$$1$$1$$rate = (double)syscall_dump_pollers$$1$$3$$1$$1$$1$$s->count / duration;
-        printf(" %5i %-20.20s %-17.17s %12.4f %8lu %8lu", syscall_dump_pollers$$1$$3$$1$$1$$1$$s->proc->pid, syscall_dump_pollers$$1$$3$$1$$1$$1$$s->proc->cmdline, (const void *)syscall_dump_pollers$$1$$3$$1$$tmp, syscall_dump_pollers$$1$$3$$1$$1$$1$$rate, syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_infinite, syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_zero);
-        if(!(syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_count == 0ul))
+        struct syscall_info *syscall_dump_pollers__1__3__1__1__1__s = (struct syscall_info *)l->data;
+        syscall_name(syscall_dump_pollers__1__3__1__1__1__s->syscall, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
+        double syscall_dump_pollers__1__3__1__1__1__rate = (double)syscall_dump_pollers__1__3__1__1__1__s->count / duration;
+        printf(" %5i %-20.20s %-17.17s %12.4f %8lu %8lu", syscall_dump_pollers__1__3__1__1__1__s->proc->pid, syscall_dump_pollers__1__3__1__1__1__s->proc->cmdline, (const void *)syscall_dump_pollers__1__3__1__tmp, syscall_dump_pollers__1__3__1__1__1__rate, syscall_dump_pollers__1__3__1__1__1__s->poll_infinite, syscall_dump_pollers__1__3__1__1__1__s->poll_zero);
+        if(!(syscall_dump_pollers__1__3__1__1__1__s->poll_count == 0ul))
         {
           char min_timeout[64l];
           char max_timeout[64l];
           char avg_timeout[64l];
-          if(syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_min < 0.0)
-            tmp_if_expr$4 = 0.0;
+          if(syscall_dump_pollers__1__3__1__1__1__s->poll_min < 0.0)
+            tmp_if_expr_4 = 0.0;
 
           else
-            tmp_if_expr$4 = syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_min;
-          units=syscall_timeout_to_human_time(tmp_if_expr$4, (const _Bool)0, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
-          snprintf(min_timeout, sizeof(char [64l]) /*64ul*/ , "%s %-4s", (const void *)syscall_dump_pollers$$1$$3$$1$$tmp, units);
-          if(syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_max < 0.0)
-            tmp_if_expr$5 = 0.0;
+            tmp_if_expr_4 = syscall_dump_pollers__1__3__1__1__1__s->poll_min;
+          units=syscall_timeout_to_human_time(tmp_if_expr_4, (const _Bool)0, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
+          snprintf(min_timeout, sizeof(char [64l]) /*64ul*/ , "%s %-4s", (const void *)syscall_dump_pollers__1__3__1__tmp, units);
+          if(syscall_dump_pollers__1__3__1__1__1__s->poll_max < 0.0)
+            tmp_if_expr_5 = 0.0;
 
           else
-            tmp_if_expr$5 = syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_max;
-          units=syscall_timeout_to_human_time(tmp_if_expr$5, (const _Bool)0, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
-          snprintf(max_timeout, sizeof(char [64l]) /*64ul*/ , "%s %-4s", (const void *)syscall_dump_pollers$$1$$3$$1$$tmp, units);
-          units=syscall_timeout_to_human_time(syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_total / (double)syscall_dump_pollers$$1$$3$$1$$1$$1$$s->count, (const _Bool)0, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
-          snprintf(avg_timeout, sizeof(char [64l]) /*64ul*/ , "%s %-4s", (const void *)syscall_dump_pollers$$1$$3$$1$$tmp, units);
+            tmp_if_expr_5 = syscall_dump_pollers__1__3__1__1__1__s->poll_max;
+          units=syscall_timeout_to_human_time(tmp_if_expr_5, (const _Bool)0, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
+          snprintf(max_timeout, sizeof(char [64l]) /*64ul*/ , "%s %-4s", (const void *)syscall_dump_pollers__1__3__1__tmp, units);
+          units=syscall_timeout_to_human_time(syscall_dump_pollers__1__3__1__1__1__s->poll_total / (double)syscall_dump_pollers__1__3__1__1__1__s->count, (const _Bool)0, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
+          snprintf(avg_timeout, sizeof(char [64l]) /*64ul*/ , "%s %-4s", (const void *)syscall_dump_pollers__1__3__1__tmp, units);
           printf(" %10s %10s %10s", (const void *)min_timeout, (const void *)max_timeout, (const void *)avg_timeout);
         }
 
         else
           printf(" %-10s %-10s %-10s", (const void *)"    n/a", (const void *)"    n/a", (const void *)"    n/a");
         printf("\n");
-        total_rate = total_rate + syscall_dump_pollers$$1$$3$$1$$1$$1$$rate;
-        poll_infinite = poll_infinite + syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_infinite;
-        poll_zero = poll_zero + syscall_dump_pollers$$1$$3$$1$$1$$1$$s->poll_zero;
+        total_rate = total_rate + syscall_dump_pollers__1__3__1__1__1__rate;
+        poll_infinite = poll_infinite + syscall_dump_pollers__1__3__1__1__1__s->poll_infinite;
+        poll_zero = poll_zero + syscall_dump_pollers__1__3__1__1__1__s->poll_zero;
         count = count + 1ul;
       }
       if(count >= 2ul)
@@ -10305,13 +10305,13 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
       i = 0;
       for( ; !(i >= 9); bucket = bucket * 10.0)
       {
-        syscall_timeout_to_human_time(prev, (const _Bool)0, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
+        syscall_timeout_to_human_time(prev, (const _Bool)0, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
         if(i == 0)
-          tmp_if_expr$6 = "";
+          tmp_if_expr_6 = "";
 
         else
-          tmp_if_expr$6 = syscall_dump_pollers$$1$$3$$1$$tmp;
-        printf(" %6s", tmp_if_expr$6);
+          tmp_if_expr_6 = syscall_dump_pollers__1__3__1__tmp;
+        printf(" %6s", tmp_if_expr_6);
         prev = bucket;
         i = i + 1;
       }
@@ -10334,13 +10334,13 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
       i = 0;
       for( ; !(i >= 9); bucket = bucket * 10.0)
       {
-        syscall_timeout_to_human_time(bucket, (const _Bool)1, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
+        syscall_timeout_to_human_time(bucket, (const _Bool)1, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
         if(i == 9)
-          tmp_if_expr$7 = "";
+          tmp_if_expr_7 = "";
 
         else
-          tmp_if_expr$7 = syscall_dump_pollers$$1$$3$$1$$tmp;
-        printf(" %6s", tmp_if_expr$7);
+          tmp_if_expr_7 = syscall_dump_pollers__1__3__1__tmp;
+        printf(" %6s", tmp_if_expr_7);
         i = i + 1;
       }
       printf(" Infinite\n");
@@ -10349,7 +10349,7 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
       i = 0;
       for( ; !(i >= 9); bucket = bucket * 10.0)
       {
-        units=syscall_timeout_to_human_time(bucket, (const _Bool)1, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
+        units=syscall_timeout_to_human_time(bucket, (const _Bool)1, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
         printf(" %6s", units);
         i = i + 1;
       }
@@ -10357,17 +10357,17 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
       l = sorted.head;
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
-        struct syscall_info *syscall_dump_pollers$$1$$3$$1$$6$$1$$s = (struct syscall_info *)l->data;
-        syscall_name(syscall_dump_pollers$$1$$3$$1$$6$$1$$s->syscall, syscall_dump_pollers$$1$$3$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
-        printf(" %5u %-20.20s %-15.15s %6lu", syscall_dump_pollers$$1$$3$$1$$6$$1$$s->proc->pid, syscall_dump_pollers$$1$$3$$1$$6$$1$$s->proc->cmdline, (const void *)syscall_dump_pollers$$1$$3$$1$$tmp, syscall_dump_pollers$$1$$3$$1$$6$$1$$s->poll_zero);
+        struct syscall_info *syscall_dump_pollers__1__3__1__6__1__s = (struct syscall_info *)l->data;
+        syscall_name(syscall_dump_pollers__1__3__1__6__1__s->syscall, syscall_dump_pollers__1__3__1__tmp, sizeof(char [64l]) /*64ul*/ );
+        printf(" %5u %-20.20s %-15.15s %6lu", syscall_dump_pollers__1__3__1__6__1__s->proc->pid, syscall_dump_pollers__1__3__1__6__1__s->proc->cmdline, (const void *)syscall_dump_pollers__1__3__1__tmp, syscall_dump_pollers__1__3__1__6__1__s->poll_zero);
         i = 0;
         for( ; !(i >= 9); i = i + 1)
-          if(!(syscall_dump_pollers$$1$$3$$1$$6$$1$$s->bucket[(signed long int)i] == 0ul))
-            printf(" %6lu", syscall_dump_pollers$$1$$3$$1$$6$$1$$s->bucket[(signed long int)i]);
+          if(!(syscall_dump_pollers__1__3__1__6__1__s->bucket[(signed long int)i] == 0ul))
+            printf(" %6lu", syscall_dump_pollers__1__3__1__6__1__s->bucket[(signed long int)i]);
 
           else
             printf("     - ");
-        printf(" %6lu", syscall_dump_pollers$$1$$3$$1$$6$$1$$s->poll_infinite);
+        printf(" %6lu", syscall_dump_pollers__1__3__1__6__1__s->poll_infinite);
         printf("\n");
       }
       printf("\n");
@@ -10379,12 +10379,12 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
       if(j_poll_test == ((struct json_object *)NULL))
         goto out;
 
-      j_obj_obj_add$link1(j_tests, "polling-system-call-returns", j_poll_test);
+      j_obj_obj_add_link1(j_tests, "polling-system-call-returns", j_poll_test);
       j_pollers=j_obj_new_array();
       if(j_pollers == ((struct json_object *)NULL))
         goto out;
 
-      j_obj_obj_add$link1(j_poll_test, "polling-system-call-returns-per-process", j_pollers);
+      j_obj_obj_add_link1(j_poll_test, "polling-system-call-returns-per-process", j_pollers);
     }
 
     printf("Polling system call analysis:\n");
@@ -10392,9 +10392,9 @@ extern void syscall_dump_pollers(struct json_object *j_tests, const double durat
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
       struct syscall_info *s = (struct syscall_info *)l->data;
-      _Bool return_value_syscall_valid$8;
-      return_value_syscall_valid$8=syscall_valid(s->syscall);
-      if(!(return_value_syscall_valid$8 == (_Bool)0))
+      _Bool return_value_syscall_valid_8;
+      return_value_syscall_valid_8=syscall_valid(s->syscall);
+      if(!(return_value_syscall_valid_8 == (_Bool)0))
       {
         struct syscall *sc = &syscalls[(signed long int)s->syscall];
         if(!(sc->call_return_timeout == ((void (*)(struct json_object *, const struct syscall *, const struct syscall_info *))NULL)))
@@ -10419,7 +10419,7 @@ out:
 // file syscall.c line 1436
 extern void syscall_dump_sync(struct json_object *j_tests, double duration)
 {
-  struct anonymous$3 sorted;
+  struct anonymous_3 sorted;
   struct link *l;
   struct anonymous *info;
   _Bool sync_filenames = (_Bool)0;
@@ -10428,9 +10428,9 @@ extern void syscall_dump_sync(struct json_object *j_tests, double duration)
   l = syscall_syncs.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct link *return_value_list_add_ordered$1;
-    return_value_list_add_ordered$1=list_add_ordered(&sorted, l->data, syscall_sync_cmp);
-    if(return_value_list_add_ordered$1 == ((struct link *)NULL))
+    struct link *return_value_list_add_ordered_1;
+    return_value_list_add_ordered_1=list_add_ordered(&sorted, l->data, syscall_sync_cmp);
+    if(return_value_list_add_ordered_1 == ((struct link *)NULL))
       goto out;
 
   }
@@ -10453,56 +10453,56 @@ extern void syscall_dump_sync(struct json_object *j_tests, double duration)
   }
   if(!(j_tests == ((struct json_object *)NULL)))
   {
-    struct json_object *syscall_dump_sync$$1$$4$$j_syscall;
-    struct json_object *syscall_dump_sync$$1$$4$$j_syscall_infos;
-    struct json_object *syscall_dump_sync$$1$$4$$j_syscall_info;
+    struct json_object *syscall_dump_sync__1__4__j_syscall;
+    struct json_object *syscall_dump_sync__1__4__j_syscall_infos;
+    struct json_object *syscall_dump_sync__1__4__j_syscall_info;
     unsigned long int total_fdatasync = (unsigned long int)0;
     unsigned long int total_fsync = (unsigned long int)0;
     unsigned long int total_sync = (unsigned long int)0;
     unsigned long int total_syncfs = (unsigned long int)0;
-    syscall_dump_sync$$1$$4$$j_syscall=j_obj_new_obj();
-    if(syscall_dump_sync$$1$$4$$j_syscall == ((struct json_object *)NULL))
+    syscall_dump_sync__1__4__j_syscall=j_obj_new_obj();
+    if(syscall_dump_sync__1__4__j_syscall == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(j_tests, "file-system-syncs", syscall_dump_sync$$1$$4$$j_syscall);
-    syscall_dump_sync$$1$$4$$j_syscall_infos=j_obj_new_array();
-    if(syscall_dump_sync$$1$$4$$j_syscall_infos == ((struct json_object *)NULL))
+    j_obj_obj_add_link1(j_tests, "file-system-syncs", syscall_dump_sync__1__4__j_syscall);
+    syscall_dump_sync__1__4__j_syscall_infos=j_obj_new_array();
+    if(syscall_dump_sync__1__4__j_syscall_infos == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(syscall_dump_sync$$1$$4$$j_syscall, "sync-system-calls-per-process", syscall_dump_sync$$1$$4$$j_syscall_infos);
+    j_obj_obj_add_link1(syscall_dump_sync__1__4__j_syscall, "sync-system-calls-per-process", syscall_dump_sync__1__4__j_syscall_infos);
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
       info = (struct anonymous *)l->data;
-      syscall_dump_sync$$1$$4$$j_syscall_info=j_obj_new_obj();
-      j_obj_new_int32_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "pid", info->pid);
-      j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fdatasync-call-count", (const signed long int)info->fdatasync_count);
-      j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fdatasync-call-rate", (double)info->fdatasync_count / duration);
-      j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fsync-call-count", (const signed long int)info->fsync_count);
-      j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fsync-call-rate", (double)info->fsync_count / duration);
-      j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "sync-call-count", (const signed long int)info->sync_count);
-      j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "sync-call-rate", (double)info->sync_count / duration);
-      j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "syncfs-call-count", (const signed long int)info->syncfs_count);
-      j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "syncfs-call-rate", (double)info->syncfs_count / duration);
-      j_obj_array_add$link1(syscall_dump_sync$$1$$4$$j_syscall_infos, syscall_dump_sync$$1$$4$$j_syscall_info);
+      syscall_dump_sync__1__4__j_syscall_info=j_obj_new_obj();
+      j_obj_new_int32_add_link1(syscall_dump_sync__1__4__j_syscall_info, "pid", info->pid);
+      j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fdatasync-call-count", (const signed long int)info->fdatasync_count);
+      j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fdatasync-call-rate", (double)info->fdatasync_count / duration);
+      j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fsync-call-count", (const signed long int)info->fsync_count);
+      j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fsync-call-rate", (double)info->fsync_count / duration);
+      j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "sync-call-count", (const signed long int)info->sync_count);
+      j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "sync-call-rate", (double)info->sync_count / duration);
+      j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "syncfs-call-count", (const signed long int)info->syncfs_count);
+      j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "syncfs-call-rate", (double)info->syncfs_count / duration);
+      j_obj_array_add_link1(syscall_dump_sync__1__4__j_syscall_infos, syscall_dump_sync__1__4__j_syscall_info);
       total_fdatasync = total_fdatasync + info->fdatasync_count;
       total_fsync = total_fsync + info->fsync_count;
       total_sync = total_sync + info->sync_count;
       total_syncfs = total_syncfs + info->syncfs_count;
     }
-    syscall_dump_sync$$1$$4$$j_syscall_info=j_obj_new_obj();
-    if(syscall_dump_sync$$1$$4$$j_syscall_info == ((struct json_object *)NULL))
+    syscall_dump_sync__1__4__j_syscall_info=j_obj_new_obj();
+    if(syscall_dump_sync__1__4__j_syscall_info == ((struct json_object *)NULL))
       goto out;
 
-    j_obj_obj_add$link1(syscall_dump_sync$$1$$4$$j_syscall, "sync-system-calls-total", syscall_dump_sync$$1$$4$$j_syscall_info);
-    j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fdatasync-call-count-total", (const signed long int)total_fdatasync);
-    j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fdatasync-call-count-total-rate", (double)total_fdatasync / duration);
-    j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fsync-call-count-total", (const signed long int)total_fsync);
-    j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "fsync-call-count-total-rate", (double)total_fsync / duration);
-    j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "sync-call-count-total", (const signed long int)total_sync);
-    j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "sync-call-count-total-rate", (double)total_sync / duration);
-    j_obj_new_int64_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "syncfs-call-count-total", (const signed long int)total_syncfs);
-    j_obj_new_double_add$link1(syscall_dump_sync$$1$$4$$j_syscall_info, "syncfs-call-count-total-rate", (double)total_syncfs / duration);
+    j_obj_obj_add_link1(syscall_dump_sync__1__4__j_syscall, "sync-system-calls-total", syscall_dump_sync__1__4__j_syscall_info);
+    j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fdatasync-call-count-total", (const signed long int)total_fdatasync);
+    j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fdatasync-call-count-total-rate", (double)total_fdatasync / duration);
+    j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fsync-call-count-total", (const signed long int)total_fsync);
+    j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "fsync-call-count-total-rate", (double)total_fsync / duration);
+    j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "sync-call-count-total", (const signed long int)total_sync);
+    j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "sync-call-count-total-rate", (double)total_sync / duration);
+    j_obj_new_int64_add_link1(syscall_dump_sync__1__4__j_syscall_info, "syncfs-call-count-total", (const signed long int)total_syncfs);
+    j_obj_new_double_add_link1(syscall_dump_sync__1__4__j_syscall_info, "syncfs-call-count-total-rate", (double)total_syncfs / duration);
   }
 
   if(!(sync_filenames == (_Bool)0))
@@ -10512,13 +10512,13 @@ extern void syscall_dump_sync(struct json_object *j_tests, double duration)
     l = sorted.head;
     for( ; !(l == ((struct link *)NULL)); l = l->next)
     {
-      struct link *syscall_dump_sync$$1$$5$$1$$1$$ll;
+      struct link *syscall_dump_sync__1__5__1__1__ll;
       info = (struct anonymous *)l->data;
-      syscall_dump_sync$$1$$5$$1$$1$$ll = info->sync_file.head;
-      for( ; !(syscall_dump_sync$$1$$5$$1$$1$$ll == ((struct link *)NULL)); syscall_dump_sync$$1$$5$$1$$1$$ll = syscall_dump_sync$$1$$5$$1$$1$$ll->next)
+      syscall_dump_sync__1__5__1__1__ll = info->sync_file.head;
+      for( ; !(syscall_dump_sync__1__5__1__1__ll == ((struct link *)NULL)); syscall_dump_sync__1__5__1__1__ll = syscall_dump_sync__1__5__1__1__ll->next)
       {
         char tmp[64l];
-        struct anonymous$0 *f = (struct anonymous$0 *)syscall_dump_sync$$1$$5$$1$$1$$ll->data;
+        struct anonymous_0 *f = (struct anonymous_0 *)syscall_dump_sync__1__5__1__1__ll->data;
         syscall_name(f->syscall, tmp, sizeof(char [64l]) /*64ul*/ );
         printf(" %5i  %-10.10s %8lu %s\n", info->pid, (const void *)tmp, f->count, f->filename);
       }
@@ -10535,11 +10535,11 @@ extern void syscall_dump_sync(struct json_object *j_tests, double duration)
     j_syscall=j_obj_new_obj();
     if(!(j_syscall == ((struct json_object *)NULL)))
     {
-      j_obj_obj_add$link1(j_tests, "files-synced", j_syscall);
+      j_obj_obj_add_link1(j_tests, "files-synced", j_syscall);
       j_syscall_infos=j_obj_new_array();
       if(!(j_syscall_infos == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link1(j_syscall, "file-sync-per-process", j_syscall_infos);
+        j_obj_obj_add_link1(j_syscall, "file-sync-per-process", j_syscall_infos);
         l = sorted.head;
         for( ; !(l == ((struct link *)NULL)); l = l->next)
         {
@@ -10549,25 +10549,25 @@ extern void syscall_dump_sync(struct json_object *j_tests, double duration)
           for( ; !(ll == ((struct link *)NULL)); ll = ll->next)
           {
             info = (struct anonymous *)l->data;
-            char syscall_dump_sync$$1$$6$$1$$1$$1$$1$$tmp[64l];
-            struct anonymous$0 *syscall_dump_sync$$1$$6$$1$$1$$1$$1$$f = (struct anonymous$0 *)ll->data;
-            syscall_name(syscall_dump_sync$$1$$6$$1$$1$$1$$1$$f->syscall, syscall_dump_sync$$1$$6$$1$$1$$1$$1$$tmp, sizeof(char [64l]) /*64ul*/ );
+            char syscall_dump_sync__1__6__1__1__1__1__tmp[64l];
+            struct anonymous_0 *syscall_dump_sync__1__6__1__1__1__1__f = (struct anonymous_0 *)ll->data;
+            syscall_name(syscall_dump_sync__1__6__1__1__1__1__f->syscall, syscall_dump_sync__1__6__1__1__1__1__tmp, sizeof(char [64l]) /*64ul*/ );
             j_syscall_info=j_obj_new_obj();
-            j_obj_new_int32_add$link1(j_syscall_info, "pid", info->pid);
-            j_obj_new_string_add$link1(j_syscall_info, "syscall", syscall_dump_sync$$1$$6$$1$$1$$1$$1$$tmp);
-            j_obj_new_int64_add$link1(j_syscall_info, "call-count", (const signed long int)syscall_dump_sync$$1$$6$$1$$1$$1$$1$$f->count);
-            j_obj_new_double_add$link1(j_syscall_info, "call-rate", (double)syscall_dump_sync$$1$$6$$1$$1$$1$$1$$f->count / duration);
-            j_obj_new_string_add$link1(j_syscall_info, "filename", syscall_dump_sync$$1$$6$$1$$1$$1$$1$$f->filename);
-            j_obj_array_add$link1(j_syscall_infos, j_syscall_info);
-            total_files_sync = total_files_sync + syscall_dump_sync$$1$$6$$1$$1$$1$$1$$f->count;
+            j_obj_new_int32_add_link1(j_syscall_info, "pid", info->pid);
+            j_obj_new_string_add_link1(j_syscall_info, "syscall", syscall_dump_sync__1__6__1__1__1__1__tmp);
+            j_obj_new_int64_add_link1(j_syscall_info, "call-count", (const signed long int)syscall_dump_sync__1__6__1__1__1__1__f->count);
+            j_obj_new_double_add_link1(j_syscall_info, "call-rate", (double)syscall_dump_sync__1__6__1__1__1__1__f->count / duration);
+            j_obj_new_string_add_link1(j_syscall_info, "filename", syscall_dump_sync__1__6__1__1__1__1__f->filename);
+            j_obj_array_add_link1(j_syscall_infos, j_syscall_info);
+            total_files_sync = total_files_sync + syscall_dump_sync__1__6__1__1__1__1__f->count;
           }
         }
         j_syscall_info=j_obj_new_obj();
         if(!(j_syscall_info == ((struct json_object *)NULL)))
         {
-          j_obj_obj_add$link1(j_syscall, "files-synced-total", j_syscall_info);
-          j_obj_new_int64_add$link1(j_syscall_info, "files-synced-total", (const signed long int)total_files_sync);
-          j_obj_new_double_add$link1(j_syscall_info, "files-synced-total-rate", (double)total_files_sync / duration);
+          j_obj_obj_add_link1(j_syscall, "files-synced-total", j_syscall_info);
+          j_obj_new_int64_add_link1(j_syscall_info, "files-synced-total", (const signed long int)total_files_sync);
+          j_obj_new_double_add_link1(j_syscall_info, "files-synced-total-rate", (double)total_files_sync / duration);
         }
 
       }
@@ -10584,7 +10584,7 @@ out:
 
 // syscall_dump_wakelocks
 // file syscall.c line 1673
-extern void syscall_dump_wakelocks(struct json_object *j_tests, const double duration, struct anonymous$3 *pids)
+extern void syscall_dump_wakelocks(struct json_object *j_tests, const double duration, struct anonymous_3 *pids)
 {
   struct link *lp;
   unsigned long int total_locked = (unsigned long int)0;
@@ -10594,8 +10594,8 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
   struct json_object *j_wakelock_infos = (struct json_object *)(void *)0;
   struct json_object *j_wakelock_info;
   (void)j_tests;
-  signed int tmp_statement_expression$1;
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_1;
+  signed int tmp_statement_expression_3;
   if(!((0x00000010 & opt_flags) == 0))
   {
     if(!(j_tests == ((struct json_object *)NULL)))
@@ -10604,12 +10604,12 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
       if(j_wakelock_test == ((struct json_object *)NULL))
         goto out;
 
-      j_obj_obj_add$link1(j_tests, "wakelock-operations-heavy", j_wakelock_test);
+      j_obj_obj_add_link1(j_tests, "wakelock-operations-heavy", j_wakelock_test);
       j_wakelock_infos=j_obj_new_array();
       if(j_wakelock_infos == ((struct json_object *)NULL))
         goto out;
 
-      j_obj_obj_add$link1(j_wakelock_test, "wakelock-operations-heavy-per-process", j_wakelock_infos);
+      j_obj_obj_add_link1(j_wakelock_test, "wakelock-operations-heavy-per-process", j_wakelock_infos);
     }
 
     printf("Wakelock operations by wakelock:\n");
@@ -10625,7 +10625,7 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
       for( ; !(lp == ((struct link *)NULL)); lp = lp->next)
       {
         struct link *ln;
-        struct anonymous$3 wakelock_names;
+        struct anonymous_3 wakelock_names;
         struct proc_info *p = (struct proc_info *)lp->data;
         list_init(&wakelock_names);
         syscall_wakelock_names_by_pid(p->pid, &wakelock_names);
@@ -10639,18 +10639,18 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
           double unlocked_time;
           double locked_duration = 0.0;
           unsigned int count = (unsigned int)0;
-          struct link *syscall_dump_wakelocks$$1$$3$$1$$1$$1$$1$$ls = syscall_wakelocks.head;
-          for( ; !(syscall_dump_wakelocks$$1$$3$$1$$1$$1$$1$$ls == ((struct link *)NULL)); syscall_dump_wakelocks$$1$$3$$1$$1$$1$$1$$ls = syscall_dump_wakelocks$$1$$3$$1$$1$$1$$1$$ls->next)
+          struct link *syscall_dump_wakelocks__1__3__1__1__1__1__ls = syscall_wakelocks.head;
+          for( ; !(syscall_dump_wakelocks__1__3__1__1__1__1__ls == ((struct link *)NULL)); syscall_dump_wakelocks__1__3__1__1__1__1__ls = syscall_dump_wakelocks__1__3__1__1__1__1__ls->next)
           {
-            struct syscall_wakelock_info *info = (struct syscall_wakelock_info *)syscall_dump_wakelocks$$1$$3$$1$$1$$1$$1$$ls->data;
+            struct syscall_wakelock_info *info = (struct syscall_wakelock_info *)syscall_dump_wakelocks__1__3__1__1__1__1__ls->data;
             if(info->pid == p->pid)
             {
               unsigned long int __s1_len;
               unsigned long int __s2_len;
-              signed int return_value___builtin_strcmp$2;
-              return_value___builtin_strcmp$2=__builtin_strcmp(lockname, info->lockname);
-              tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-              if(tmp_statement_expression$1 == 0)
+              signed int return_value___builtin_strcmp_2;
+              return_value___builtin_strcmp_2=__builtin_strcmp(lockname, info->lockname);
+              tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+              if(tmp_statement_expression_1 == 0)
               {
                 if(!(info->locked == (_Bool)0))
                 {
@@ -10685,17 +10685,17 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
             if(j_wakelock_info == ((struct json_object *)NULL))
               goto out;
 
-            j_obj_new_int32_add$link1(j_wakelock_info, "pid", p->pid);
-            j_obj_new_int32_add$link1(j_wakelock_info, "ppid", p->ppid);
-            j_obj_new_int32_add$link1(j_wakelock_info, "is-thread", (const signed int)p->is_thread);
-            j_obj_new_string_add$link1(j_wakelock_info, "name", p->cmdline);
-            j_obj_new_string_add$link1(j_wakelock_info, "lockname", lockname);
-            j_obj_new_int64_add$link1(j_wakelock_info, "wakelock-locked", (const signed long int)locked);
-            j_obj_new_double_add$link1(j_wakelock_info, "wakelock-locked-rate", (double)locked / duration);
-            j_obj_new_int64_add$link1(j_wakelock_info, "wakelock-unlocked", (const signed long int)unlocked);
-            j_obj_new_double_add$link1(j_wakelock_info, "wakelock-unlocked-rate", (double)unlocked / duration);
-            j_obj_new_double_add$link1(j_wakelock_info, "wakelock-locked-duration", count != 0u ? locked_duration / (double)count : 0.0);
-            j_obj_array_add$link1(j_wakelock_infos, j_wakelock_info);
+            j_obj_new_int32_add_link1(j_wakelock_info, "pid", p->pid);
+            j_obj_new_int32_add_link1(j_wakelock_info, "ppid", p->ppid);
+            j_obj_new_int32_add_link1(j_wakelock_info, "is-thread", (const signed int)p->is_thread);
+            j_obj_new_string_add_link1(j_wakelock_info, "name", p->cmdline);
+            j_obj_new_string_add_link1(j_wakelock_info, "lockname", lockname);
+            j_obj_new_int64_add_link1(j_wakelock_info, "wakelock-locked", (const signed long int)locked);
+            j_obj_new_double_add_link1(j_wakelock_info, "wakelock-locked-rate", (double)locked / duration);
+            j_obj_new_int64_add_link1(j_wakelock_info, "wakelock-unlocked", (const signed long int)unlocked);
+            j_obj_new_double_add_link1(j_wakelock_info, "wakelock-unlocked-rate", (double)unlocked / duration);
+            j_obj_new_double_add_link1(j_wakelock_info, "wakelock-locked-duration", count != 0u ? locked_duration / (double)count : 0.0);
+            j_obj_array_add_link1(j_wakelock_infos, j_wakelock_info);
           }
 
         }
@@ -10709,11 +10709,11 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
       j_wakelock_info=j_obj_new_obj();
       if(!(j_wakelock_info == ((struct json_object *)NULL)))
       {
-        j_obj_obj_add$link1(j_wakelock_test, "wakelock-operations-heavy-total", j_wakelock_info);
-        j_obj_new_int64_add$link1(j_wakelock_info, "wakelock-locked-total", (const signed long int)total_locked);
-        j_obj_new_double_add$link1(j_wakelock_info, "wakelock-locked-total-rate", (double)total_locked / duration);
-        j_obj_new_int64_add$link1(j_wakelock_info, "wakelock-unlocked-total", (const signed long int)total_unlocked);
-        j_obj_new_double_add$link1(j_wakelock_info, "wakelock-unlocked-total-rate", (double)total_unlocked / duration);
+        j_obj_obj_add_link1(j_wakelock_test, "wakelock-operations-heavy-total", j_wakelock_info);
+        j_obj_new_int64_add_link1(j_wakelock_info, "wakelock-locked-total", (const signed long int)total_locked);
+        j_obj_new_double_add_link1(j_wakelock_info, "wakelock-locked-total-rate", (double)total_locked / duration);
+        j_obj_new_int64_add_link1(j_wakelock_info, "wakelock-unlocked-total", (const signed long int)total_unlocked);
+        j_obj_new_double_add_link1(j_wakelock_info, "wakelock-unlocked-total-rate", (double)total_unlocked / duration);
       }
 
     }
@@ -10730,29 +10730,29 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
       for( ; !(ls == ((struct link *)NULL)); ls = ls->next)
       {
         char buf[64l];
-        struct syscall_wakelock_info *syscall_dump_wakelocks$$1$$5$$1$$1$$info = (struct syscall_wakelock_info *)ls->data;
-        signed long int whence_time = (signed long int)syscall_dump_wakelocks$$1$$5$$1$$1$$info->tv.tv_sec;
+        struct syscall_wakelock_info *syscall_dump_wakelocks__1__5__1__1__info = (struct syscall_wakelock_info *)ls->data;
+        signed long int whence_time = (signed long int)syscall_dump_wakelocks__1__5__1__1__info->tv.tv_sec;
         struct tm *whence_tm;
         whence_tm=localtime(&whence_time);
         strftime(buf, sizeof(char [64l]) /*64ul*/ , "%x %X", whence_tm);
-        if(!(syscall_dump_wakelocks$$1$$5$$1$$1$$info->locked == (_Bool)0))
+        if(!(syscall_dump_wakelocks__1__5__1__1__info->locked == (_Bool)0))
         {
           struct link *l = ls;
           for( ; !(l == ((struct link *)NULL)); l = l->next)
           {
             struct syscall_wakelock_info *info2 = (struct syscall_wakelock_info *)l->data;
-            if(syscall_dump_wakelocks$$1$$5$$1$$1$$info->pid == info2->pid)
+            if(syscall_dump_wakelocks__1__5__1__1__info->pid == info2->pid)
             {
               if(info2->locked == (_Bool)0)
               {
-                unsigned long int syscall_dump_wakelocks$$1$$5$$1$$1$$1$$1$$1$$1$$__s1_len;
-                unsigned long int syscall_dump_wakelocks$$1$$5$$1$$1$$1$$1$$1$$1$$__s2_len;
-                signed int return_value___builtin_strcmp$4;
-                return_value___builtin_strcmp$4=__builtin_strcmp(syscall_dump_wakelocks$$1$$5$$1$$1$$info->lockname, info2->lockname);
-                tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-                if(tmp_statement_expression$3 == 0)
+                unsigned long int syscall_dump_wakelocks__1__5__1__1__1__1__1__1____s1_len;
+                unsigned long int syscall_dump_wakelocks__1__5__1__1__1__1__1__1____s2_len;
+                signed int return_value___builtin_strcmp_4;
+                return_value___builtin_strcmp_4=__builtin_strcmp(syscall_dump_wakelocks__1__5__1__1__info->lockname, info2->lockname);
+                tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+                if(tmp_statement_expression_3 == 0)
                 {
-                  info2->paired = syscall_dump_wakelocks$$1$$5$$1$$1$$info;
+                  info2->paired = syscall_dump_wakelocks__1__5__1__1__info;
                   break;
                 }
 
@@ -10763,17 +10763,17 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
           }
         }
 
-        if(!(syscall_dump_wakelocks$$1$$5$$1$$1$$info->paired == ((struct syscall_wakelock_info *)NULL)))
+        if(!(syscall_dump_wakelocks__1__5__1__1__info->paired == ((struct syscall_wakelock_info *)NULL)))
         {
-          double syscall_dump_wakelocks$$1$$5$$1$$1$$2$$locked_time;
-          syscall_dump_wakelocks$$1$$5$$1$$1$$2$$locked_time=syscall_timeval_to_double(&syscall_dump_wakelocks$$1$$5$$1$$1$$info->paired->tv);
-          double syscall_dump_wakelocks$$1$$5$$1$$1$$2$$unlocked_time;
-          syscall_dump_wakelocks$$1$$5$$1$$1$$2$$unlocked_time=syscall_timeval_to_double(&syscall_dump_wakelocks$$1$$5$$1$$1$$info->tv);
-          printf(" %5i %-16.16s %s.%06d %-8.8s %f\n", syscall_dump_wakelocks$$1$$5$$1$$1$$info->pid, syscall_dump_wakelocks$$1$$5$$1$$1$$info->lockname, (const void *)buf, (signed int)syscall_dump_wakelocks$$1$$5$$1$$1$$info->tv.tv_usec, syscall_dump_wakelocks$$1$$5$$1$$1$$info->locked != (_Bool)0 ? "Locked" : "Unlocked", syscall_dump_wakelocks$$1$$5$$1$$1$$2$$unlocked_time - syscall_dump_wakelocks$$1$$5$$1$$1$$2$$locked_time);
+          double syscall_dump_wakelocks__1__5__1__1__2__locked_time;
+          syscall_dump_wakelocks__1__5__1__1__2__locked_time=syscall_timeval_to_double(&syscall_dump_wakelocks__1__5__1__1__info->paired->tv);
+          double syscall_dump_wakelocks__1__5__1__1__2__unlocked_time;
+          syscall_dump_wakelocks__1__5__1__1__2__unlocked_time=syscall_timeval_to_double(&syscall_dump_wakelocks__1__5__1__1__info->tv);
+          printf(" %5i %-16.16s %s.%06d %-8.8s %f\n", syscall_dump_wakelocks__1__5__1__1__info->pid, syscall_dump_wakelocks__1__5__1__1__info->lockname, (const void *)buf, (signed int)syscall_dump_wakelocks__1__5__1__1__info->tv.tv_usec, syscall_dump_wakelocks__1__5__1__1__info->locked != (_Bool)0 ? "Locked" : "Unlocked", syscall_dump_wakelocks__1__5__1__1__2__unlocked_time - syscall_dump_wakelocks__1__5__1__1__2__locked_time);
         }
 
         else
-          printf(" %5i %-16.16s %s.%06d %-8.8s\n", syscall_dump_wakelocks$$1$$5$$1$$1$$info->pid, syscall_dump_wakelocks$$1$$5$$1$$1$$info->lockname, (const void *)buf, (signed int)syscall_dump_wakelocks$$1$$5$$1$$1$$info->tv.tv_usec, syscall_dump_wakelocks$$1$$5$$1$$1$$info->locked != (_Bool)0 ? "Locked" : "Unlocked");
+          printf(" %5i %-16.16s %s.%06d %-8.8s\n", syscall_dump_wakelocks__1__5__1__1__info->pid, syscall_dump_wakelocks__1__5__1__1__info->lockname, (const void *)buf, (signed int)syscall_dump_wakelocks__1__5__1__1__info->tv.tv_usec, syscall_dump_wakelocks__1__5__1__1__info->locked != (_Bool)0 ? "Locked" : "Unlocked");
       }
     }
 
@@ -10785,8 +10785,8 @@ extern void syscall_dump_wakelocks(struct json_object *j_tests, const double dur
 // file syscall.c line 2043
 void syscall_execve_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_execve_args$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_execve_args$array_size0];
+  const signed long int syscall_execve_args_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_execve_args_array_size0];
   char *filename;
   (void)s;
   syscall_get_args(pid, sc->arg, args);
@@ -10809,9 +10809,9 @@ static void syscall_exit_args(const struct syscall *sc, const struct syscall_inf
   proc=proc_cache_find_by_pid(pid);
   if(!(proc == ((struct proc_info *)NULL)))
   {
-    cpustat_get_by_proc(proc, (enum anonymous$9)PROC_FINISH);
-    ctxt_switch_get_by_proc(proc, (enum anonymous$9)PROC_FINISH);
-    mem_get_by_proc(proc, (const enum anonymous$9)PROC_FINISH);
+    cpustat_get_by_proc(proc, (enum anonymous_9)PROC_FINISH);
+    ctxt_switch_get_by_proc(proc, (enum anonymous_9)PROC_FINISH);
+    mem_get_by_proc(proc, (const enum anonymous_9)PROC_FINISH);
   }
 
 }
@@ -10834,9 +10834,9 @@ static struct fd_cache * syscall_fd_cache_lookup(const signed int pid, const sig
 
   if(fc == ((struct fd_cache *)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fd_cache) /*64ul*/ );
-    fc = (struct fd_cache *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fd_cache) /*64ul*/ );
+    fc = (struct fd_cache *)return_value_calloc_1;
     if(fc == ((struct fd_cache *)NULL))
     {
       health_check_out_of_memory("allocating file descriptor cache item");
@@ -10853,7 +10853,7 @@ static struct fd_cache * syscall_fd_cache_lookup(const signed int pid, const sig
       return (struct fd_cache *)(void *)0;
     }
 
-    pthread_mutex_init(&fc->mutex, (const union anonymous$6 *)(void *)0);
+    pthread_mutex_init(&fc->mutex, (const union anonymous_6 *)(void *)0);
     fc->next = fd_cache[(signed long int)h];
     fd_cache[(signed long int)h] = fc;
   }
@@ -10910,8 +10910,8 @@ static signed int syscall_filename_cmp(const void *d1, const void *d2)
 // file syscall.c line 1293
 static void syscall_fsync_generic_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_fsync_generic_args$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_fsync_generic_args$array_size0];
+  const signed long int syscall_fsync_generic_args_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_fsync_generic_args_array_size0];
   struct anonymous *info;
   (void)s;
   syscall_get_args(pid, sc->arg, args);
@@ -10931,14 +10931,14 @@ static void syscall_get_arg_data(const unsigned long int addr, const signed int 
 {
   unsigned long int i;
   unsigned long int n = ((len + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)1) / sizeof(unsigned long int) /*8ul*/ ;
-  const signed long int n$array_size0 = (signed long int)n;
-  unsigned long int tmpdata[n$array_size0];
+  const signed long int n_array_size0 = (signed long int)n;
+  unsigned long int tmpdata[n_array_size0];
   i = (unsigned long int)0;
-  signed long int return_value_ptrace$1;
+  signed long int return_value_ptrace_1;
   for( ; !(i >= n); i = i + 1ul)
   {
-    return_value_ptrace$1=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + sizeof(unsigned long int) /*8ul*/  * i, (void *)0);
-    tmpdata[(signed long int)i] = (unsigned long int)return_value_ptrace$1;
+    return_value_ptrace_1=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + sizeof(unsigned long int) /*8ul*/  * i, (void *)0);
+    tmpdata[(signed long int)i] = (unsigned long int)return_value_ptrace_1;
   }
   memcpy(data, (const void *)tmpdata, len);
 }
@@ -10973,11 +10973,11 @@ static signed int syscall_get_args(const signed int pid, const signed int arg, u
     }
   }
   i = 0;
-  signed long int return_value_ptrace$1;
+  signed long int return_value_ptrace_1;
   for( ; arg >= i; i = i + 1)
   {
-    return_value_ptrace$1=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, regs[(signed long int)i] * 8, (void *)0);
-    args[(signed long int)i] = (unsigned long int)return_value_ptrace$1;
+    return_value_ptrace_1=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, regs[(signed long int)i] * 8, (void *)0);
+    args[(signed long int)i] = (unsigned long int)return_value_ptrace_1;
   }
   return 0;
 }
@@ -10986,15 +10986,15 @@ static signed int syscall_get_args(const signed int pid, const signed int arg, u
 // file syscall.c line 408
 static inline signed int syscall_get_call(const signed int pid, signed int *syscall)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed long int return_value_ptrace$2;
-  return_value_ptrace$2=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, sizeof(signed long int) /*8ul*/  * (unsigned long int)15, (void *)0);
-  *syscall = (signed int)return_value_ptrace$2;
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  if(!(*return_value___errno_location$3 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed long int return_value_ptrace_2;
+  return_value_ptrace_2=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, sizeof(signed long int) /*8ul*/  * (unsigned long int)15, (void *)0);
+  *syscall = (signed int)return_value_ptrace_2;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  if(!(*return_value___errno_location_3 == 0))
   {
     *syscall = -1;
     return -1;
@@ -11006,25 +11006,25 @@ static inline signed int syscall_get_call(const signed int pid, signed int *sysc
 
 // syscall_get_call_state
 // file syscall.c line 374
-static inline enum anonymous$27 syscall_get_call_state(const signed int pid)
+static inline enum anonymous_27 syscall_get_call_state(const signed int pid)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed long int return_value_ptrace$2;
-  return_value_ptrace$2=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, sizeof(signed long int) /*8ul*/  * (unsigned long int)10, (void *)0);
-  if(!(return_value_ptrace$2 == -38l))
-    return (enum anonymous$27)SYSCALL_RETURN;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed long int return_value_ptrace_2;
+  return_value_ptrace_2=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, sizeof(signed long int) /*8ul*/  * (unsigned long int)10, (void *)0);
+  if(!(return_value_ptrace_2 == -38l))
+    return (enum anonymous_27)SYSCALL_RETURN;
 
   else
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 0))
-      return (enum anonymous$27)SYSCALL_UNKNOWN;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 0))
+      return (enum anonymous_27)SYSCALL_UNKNOWN;
 
     else
-      return (enum anonymous$27)SYSCALL_ENTRY;
+      return (enum anonymous_27)SYSCALL_ENTRY;
   }
 }
 
@@ -11038,9 +11038,9 @@ static struct syscall_context * syscall_get_context(signed int pid)
   {
     unsigned long int h;
     h=hash_syscall_context(pid);
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct syscall_context) /*56ul*/ );
-    ctxt = (struct syscall_context *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct syscall_context) /*56ul*/ );
+    ctxt = (struct syscall_context *)return_value_calloc_1;
     if(ctxt == ((struct syscall_context *)NULL))
     {
       fprintf(stderr, "Out of memory allocating tracing context.\n");
@@ -11053,9 +11053,9 @@ static struct syscall_context * syscall_get_context(signed int pid)
     ctxt->syscall = -1;
     ctxt->syscall_info = (struct syscall_info *)(void *)0;
     ctxt->state = ctxt->state | 0x00000001;
-    struct link *return_value_list_append$2;
-    return_value_list_append$2=list_append(&syscall_contexts, (void *)ctxt);
-    if(return_value_list_append$2 == ((struct link *)NULL))
+    struct link *return_value_list_append_2;
+    return_value_list_append_2=list_append(&syscall_contexts, (void *)ctxt);
+    if(return_value_list_append_2 == ((struct link *)NULL))
     {
       free((void *)ctxt);
       return (struct syscall_context *)(void *)0;
@@ -11073,15 +11073,15 @@ static struct syscall_context * syscall_get_context(signed int pid)
 // file syscall.c line 511
 static inline signed int syscall_get_return(const signed int pid, signed int *rc)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed long int return_value_ptrace$2;
-  return_value_ptrace$2=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, sizeof(signed long int) /*8ul*/  * (unsigned long int)10, (void *)0);
-  *rc = (signed int)return_value_ptrace$2;
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  if(!(*return_value___errno_location$3 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed long int return_value_ptrace_2;
+  return_value_ptrace_2=ptrace((enum __ptrace_request)PTRACE_PEEKUSER, pid, sizeof(signed long int) /*8ul*/  * (unsigned long int)10, (void *)0);
+  *rc = (signed int)return_value_ptrace_2;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  if(!(*return_value___errno_location_3 == 0))
     return -1;
 
   else
@@ -11116,9 +11116,9 @@ static void syscall_handle_event(struct syscall_context *ctxt, signed int event)
       if(!(p == ((struct proc_info *)NULL)))
       {
         proc_pids_add_proc(__pids, p);
-        mem_get_by_proc(p, (const enum anonymous$9)PROC_START);
-        cpustat_get_by_proc(p, (enum anonymous$9)PROC_START);
-        ctxt_switch_get_by_proc(p, (enum anonymous$9)PROC_START);
+        mem_get_by_proc(p, (const enum anonymous_9)PROC_START);
+        cpustat_get_by_proc(p, (enum anonymous_9)PROC_START);
+        ctxt_switch_get_by_proc(p, (enum anonymous_9)PROC_START);
         syscall_get_context(child);
       }
 
@@ -11138,7 +11138,7 @@ static inline signed int syscall_handle_stop(struct syscall_context *ctxt, const
 {
   signed int event = status >> 16;
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$8
+union anonymous_8
 {
   // __in
   signed int __in;
@@ -11148,7 +11148,7 @@ union anonymous$8
 
 /* */
   ;
-  signed int sig = (((union anonymous$8){ .__in=status }).__i & 0xff00) >> 8;
+  signed int sig = (((union anonymous_8){ .__in=status }).__i & 0xff00) >> 8;
   if(sig == 5)
   {
     if(!(event == 0))
@@ -11178,9 +11178,9 @@ union anonymous$8
 static void syscall_handle_syscall(struct syscall_context *ctxt)
 {
   signed int syscall;
-  enum anonymous$27 state;
+  enum anonymous_27 state;
   state=syscall_get_call_state(ctxt->pid);
-  signed int return_value_syscall_get_call$1;
+  signed int return_value_syscall_get_call_1;
   if(!((signed int)state == SYSCALL_ENTRY))
   {
     if((signed int)state == SYSCALL_RETURN)
@@ -11190,8 +11190,8 @@ static void syscall_handle_syscall(struct syscall_context *ctxt)
 
   else
   {
-    return_value_syscall_get_call$1=syscall_get_call(ctxt->pid, &ctxt->syscall);
-    if(return_value_syscall_get_call$1 == -1)
+    return_value_syscall_get_call_1=syscall_get_call(ctxt->pid, &ctxt->syscall);
+    if(return_value_syscall_get_call_1 == -1)
     {
       ctxt->syscall_info = (struct syscall_info *)(void *)0;
       ctxt->timeout = 0.0;
@@ -11206,9 +11206,9 @@ static void syscall_handle_syscall(struct syscall_context *ctxt)
     }
     goto __CPROVER_DUMP_L9;
   }
-  signed int return_value_syscall_get_call$2;
-  return_value_syscall_get_call$2=syscall_get_call(ctxt->pid, &syscall);
-  if(return_value_syscall_get_call$2 == -1)
+  signed int return_value_syscall_get_call_2;
+  return_value_syscall_get_call_2=syscall_get_call(ctxt->pid, &syscall);
+  if(return_value_syscall_get_call_2 == -1)
   {
     printf("syscall give up\n");
     ctxt->syscall_info = (struct syscall_info *)(void *)0;
@@ -11254,10 +11254,10 @@ __CPROVER_DUMP_L9:
 // file syscall.c line 2519
 static inline void syscall_handle_trap(struct syscall_context *ctxt)
 {
-  struct anonymous$7 siginfo;
-  signed long int return_value_ptrace$1;
-  return_value_ptrace$1=ptrace((enum __ptrace_request)PTRACE_GETSIGINFO, ctxt->pid, 0, &siginfo);
-  if(return_value_ptrace$1 == -1l)
+  struct anonymous_7 siginfo;
+  signed long int return_value_ptrace_1;
+  return_value_ptrace_1=ptrace((enum __ptrace_request)PTRACE_GETSIGINFO, ctxt->pid, 0, &siginfo);
+  if(return_value_ptrace_1 == -1l)
     fprintf(stderr, "Cannot get signal info on pid %d.\n", ctxt->pid);
 
   else
@@ -11297,8 +11297,8 @@ extern void syscall_init(void)
 // file syscall.c line 2008
 void syscall_inotify_add_watch_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_inotify_add_watch_args$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_inotify_add_watch_args$array_size0];
+  const signed long int syscall_inotify_add_watch_args_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_inotify_add_watch_args_array_size0];
   char *filename;
   (void)s;
   syscall_get_args(pid, sc->arg, args);
@@ -11315,8 +11315,8 @@ void syscall_inotify_add_watch_args(const struct syscall *sc, const struct sysca
 // file syscall.c line 1361
 static void syscall_mmap_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_mmap_args$array_size0 = (signed long int)(sc->arg + 2);
-  unsigned long int args[syscall_mmap_args$array_size0];
+  const signed long int syscall_mmap_args_array_size0 = (signed long int)(sc->arg + 2);
+  unsigned long int args[syscall_mmap_args_array_size0];
   (void)s;
   syscall_get_args(pid, sc->arg, args);
   mem_mmap_account(pid, (unsigned long int)args[(signed long int)1], (_Bool)1);
@@ -11344,8 +11344,8 @@ static void syscall_mq_timedsend_ret(struct json_object *j_obj, const struct sys
 // file syscall.c line 1381
 static void syscall_munmap_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_munmap_args$array_size0 = (signed long int)(sc->arg + 2);
-  unsigned long int args[syscall_munmap_args$array_size0];
+  const signed long int syscall_munmap_args_array_size0 = (signed long int)(sc->arg + 2);
+  unsigned long int args[syscall_munmap_args_array_size0];
   (void)s;
   syscall_get_args(pid, sc->arg, args);
   mem_mmap_account(pid, (unsigned long int)args[(signed long int)1], (_Bool)0);
@@ -11355,15 +11355,15 @@ static void syscall_munmap_args(const struct syscall *sc, const struct syscall_i
 // file syscall.c line 670
 static void syscall_name(const signed int syscall, char *name, const unsigned long int len)
 {
-  _Bool return_value_syscall_valid$1;
-  return_value_syscall_valid$1=syscall_valid(syscall);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_syscall_valid$1 == (_Bool)0))
-    tmp_if_expr$2 = syscalls[(signed long int)syscall].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool return_value_syscall_valid_1;
+  return_value_syscall_valid_1=syscall_valid(syscall);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_syscall_valid_1 == (_Bool)0))
+    tmp_if_expr_2 = syscalls[(signed long int)syscall].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     __builtin_strncpy(name, syscalls[(signed long int)syscall].name, len);
 
   else
@@ -11379,7 +11379,7 @@ static void syscall_nanosleep_generic_ret(struct json_object *j_obj, const struc
   l = s->return_history.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$26 *ret = (struct anonymous$26 *)l->data;
+    struct anonymous_26 *ret = (struct anonymous_26 *)l->data;
     if(!(ret->ret == 0))
       ret_error = ret_error + 1ul;
 
@@ -11397,18 +11397,18 @@ static void syscall_nanosleep_generic_ret(struct json_object *j_obj, const struc
       if(j_nanosleep_error == ((struct json_object *)NULL))
         goto __CPROVER_DUMP_L7;
 
-      j_obj_array_add$link1(j_obj, j_nanosleep_error);
+      j_obj_array_add_link1(j_obj, j_nanosleep_error);
       j_error=j_obj_new_obj();
       if(j_error == ((struct json_object *)NULL))
         goto __CPROVER_DUMP_L7;
 
-      j_obj_obj_add$link1(j_nanosleep_error, "nanosleep-error", j_error);
-      j_obj_new_int32_add$link1(j_error, "pid", s->proc->pid);
-      j_obj_new_int32_add$link1(j_error, "ppid", s->proc->ppid);
-      j_obj_new_int32_add$link1(j_error, "is-thread", (const signed int)s->proc->is_thread);
-      j_obj_new_string_add$link1(j_error, "name", s->proc->cmdline);
-      j_obj_new_string_add$link1(j_error, "system-call", sc->name);
-      j_obj_new_int64_add$link1(j_error, "error-count", (const signed long int)ret_error);
+      j_obj_obj_add_link1(j_nanosleep_error, "nanosleep-error", j_error);
+      j_obj_new_int32_add_link1(j_error, "pid", s->proc->pid);
+      j_obj_new_int32_add_link1(j_error, "ppid", s->proc->ppid);
+      j_obj_new_int32_add_link1(j_error, "is-thread", (const signed int)s->proc->is_thread);
+      j_obj_new_string_add_link1(j_error, "name", s->proc->cmdline);
+      j_obj_new_string_add_link1(j_error, "system-call", sc->name);
+      j_obj_new_int64_add_link1(j_error, "error-count", (const signed long int)ret_error);
     }
 
   }
@@ -11425,10 +11425,10 @@ static void * syscall_peek_data(const signed int pid, const unsigned long int ad
   unsigned long int *data;
   unsigned long int i;
   unsigned long int n = ((len + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)1) / sizeof(unsigned long int) /*8ul*/ ;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(unsigned long int) /*8ul*/ , n + (unsigned long int)1);
-  data = (unsigned long int *)return_value_calloc$1;
-  signed long int return_value_ptrace$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(unsigned long int) /*8ul*/ , n + (unsigned long int)1);
+  data = (unsigned long int *)return_value_calloc_1;
+  signed long int return_value_ptrace_2;
   if(data == ((unsigned long int *)NULL))
   {
     health_check_out_of_memory("allocating syscall peek buffer");
@@ -11440,8 +11440,8 @@ static void * syscall_peek_data(const signed int pid, const unsigned long int ad
     i = (unsigned long int)0;
     for( ; !(i >= n); i = i + 1ul)
     {
-      return_value_ptrace$2=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + sizeof(unsigned long int) /*8ul*/  * i, (void *)0);
-      data[(signed long int)i] = (unsigned long int)return_value_ptrace$2;
+      return_value_ptrace_2=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + sizeof(unsigned long int) /*8ul*/  * i, (void *)0);
+      data[(signed long int)i] = (unsigned long int)return_value_ptrace_2;
     }
     ((char *)data)[(signed long int)len] = (char)0;
     return (void *)data;
@@ -11458,16 +11458,16 @@ static char * syscall_peek_filename(const signed int pid, const unsigned long in
   unsigned long int v;
   do
   {
-    signed long int return_value_ptrace$1;
-    return_value_ptrace$1=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + n, (void *)0);
-    v = (unsigned long int)(return_value_ptrace$1 & (signed long int)0xff);
+    signed long int return_value_ptrace_1;
+    return_value_ptrace_1=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + n, (void *)0);
+    v = (unsigned long int)(return_value_ptrace_1 & (signed long int)0xff);
     n = n + 1ul;
   }
   while(!(v == 0ul));
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc(sizeof(char) /*1ul*/ , n);
-  data = (char *)return_value_calloc$2;
-  signed long int return_value_ptrace$3;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc(sizeof(char) /*1ul*/ , n);
+  data = (char *)return_value_calloc_2;
+  signed long int return_value_ptrace_3;
   if(data == ((char *)NULL))
   {
     health_check_out_of_memory("allocating syscall peek buffer");
@@ -11479,8 +11479,8 @@ static char * syscall_peek_filename(const signed int pid, const unsigned long in
     i = (unsigned long int)0;
     for( ; !(i >= n); i = i + 1ul)
     {
-      return_value_ptrace$3=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + i, (void *)0);
-      data[(signed long int)i] = (char)return_value_ptrace$3;
+      return_value_ptrace_3=ptrace((enum __ptrace_request)PTRACE_PEEKDATA, pid, addr + i, (void *)0);
+      data[(signed long int)i] = (char)return_value_ptrace_3;
     }
     return data;
   }
@@ -11500,7 +11500,7 @@ static void syscall_poll_generic_ret(struct json_object *j_obj, const struct sys
   l = s->return_history.head;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
-    struct anonymous$26 *ret = (struct anonymous$26 *)l->data;
+    struct anonymous_26 *ret = (struct anonymous_26 *)l->data;
     if(ret->ret == 0)
     {
       if(IEEE_FLOAT_EQUAL(ret->timeout, 0.0))
@@ -11552,21 +11552,21 @@ static void syscall_poll_generic_ret(struct json_object *j_obj, const struct sys
     if(j_timeout == ((struct json_object *)NULL))
       goto __CPROVER_DUMP_L15;
 
-    j_obj_array_add$link1(j_obj, j_timeout);
+    j_obj_array_add_link1(j_obj, j_timeout);
     j_poll=j_obj_new_obj();
     if(j_poll == ((struct json_object *)NULL))
       goto __CPROVER_DUMP_L15;
 
-    j_obj_obj_add$link1(j_timeout, "polling-timeout", j_poll);
-    j_obj_new_int32_add$link1(j_poll, "pid", s->proc->pid);
-    j_obj_new_int32_add$link1(j_poll, "ppid", s->proc->ppid);
-    j_obj_new_int32_add$link1(j_poll, "is-thread", (const signed int)s->proc->is_thread);
-    j_obj_new_string_add$link1(j_poll, "name", s->proc->cmdline);
-    j_obj_new_string_add$link1(j_poll, "system-call", sc->name);
-    j_obj_new_int64_add$link1(j_poll, "zero-timeouts", (const signed long int)zero_timeouts);
-    j_obj_new_int64_add$link1(j_poll, "repeat-timeouts", (const signed long int)timeout_repeats);
-    j_obj_new_int64_add$link1(j_poll, "repeat-zero-timeouts", (const signed long int)zero_timeout_repeats);
-    j_obj_new_int64_add$link1(j_poll, "error-count", (const signed long int)ret_error);
+    j_obj_obj_add_link1(j_timeout, "polling-timeout", j_poll);
+    j_obj_new_int32_add_link1(j_poll, "pid", s->proc->pid);
+    j_obj_new_int32_add_link1(j_poll, "ppid", s->proc->ppid);
+    j_obj_new_int32_add_link1(j_poll, "is-thread", (const signed int)s->proc->is_thread);
+    j_obj_new_string_add_link1(j_poll, "name", s->proc->cmdline);
+    j_obj_new_string_add_link1(j_poll, "system-call", sc->name);
+    j_obj_new_int64_add_link1(j_poll, "zero-timeouts", (const signed long int)zero_timeouts);
+    j_obj_new_int64_add_link1(j_poll, "repeat-timeouts", (const signed long int)timeout_repeats);
+    j_obj_new_int64_add_link1(j_poll, "repeat-zero-timeouts", (const signed long int)zero_timeout_repeats);
+    j_obj_new_int64_add_link1(j_poll, "error-count", (const signed long int)ret_error);
   }
 
 
@@ -11578,8 +11578,8 @@ __CPROVER_DUMP_L15:
 // file syscall.c line 1607
 static void syscall_recvfrom_ret(const struct syscall *sc, const struct syscall_info *s, const signed int ret)
 {
-  const signed long int syscall_recvfrom_ret$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_recvfrom_ret$array_size0];
+  const signed long int syscall_recvfrom_ret_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_recvfrom_ret_array_size0];
   signed int sockfd;
   signed int pid = s->proc->pid;
   syscall_get_args(pid, sc->arg, args);
@@ -11602,8 +11602,8 @@ static void syscall_semtimedop_ret(struct json_object *j_obj, const struct sysca
 // file syscall.c line 1585
 static void syscall_sendto_ret(const struct syscall *sc, const struct syscall_info *s, const signed int ret)
 {
-  const signed long int syscall_sendto_ret$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_sendto_ret$array_size0];
+  const signed long int syscall_sendto_ret_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_sendto_ret_array_size0];
   signed int sockfd;
   signed int pid = s->proc->pid;
   syscall_get_args(pid, sc->arg, args);
@@ -11656,7 +11656,7 @@ static signed int syscall_sync_cmp(const void *d1, const void *d2)
 // file syscall.c line 1412
 static void syscall_sync_free_fileinfo(void *data)
 {
-  struct anonymous$0 *f = (struct anonymous$0 *)data;
+  struct anonymous_0 *f = (struct anonymous_0 *)data;
   free((void *)f->filename);
   free((void *)f);
 }
@@ -11684,9 +11684,9 @@ static struct anonymous * syscall_sync_info_find_by_pid(const signed int pid)
       return info;
 
   }
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous) /*72ul*/ );
-  info = (struct anonymous *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous) /*72ul*/ );
+  info = (struct anonymous *)return_value_calloc_1;
   if(info == ((struct anonymous *)NULL))
   {
     health_check_out_of_memory("allocating file sync accounting info");
@@ -11696,9 +11696,9 @@ static struct anonymous * syscall_sync_info_find_by_pid(const signed int pid)
   else
   {
     info->pid = pid;
-    struct link *return_value_list_append$2;
-    return_value_list_append$2=list_append(&syscall_syncs, (void *)info);
-    if(return_value_list_append$2 == ((struct link *)NULL))
+    struct link *return_value_list_append_2;
+    return_value_list_append_2=list_append(&syscall_syncs, (void *)info);
+    if(return_value_list_append_2 == ((struct link *)NULL))
     {
       free((void *)info);
       return (struct anonymous *)(void *)0;
@@ -11713,8 +11713,8 @@ static struct anonymous * syscall_sync_info_find_by_pid(const signed int pid)
 // file syscall.c line 984
 static void syscall_timeout_millisec(const struct syscall *sc, struct syscall_info *s, const signed int pid, const double threshold, double *ret_timeout)
 {
-  const signed long int syscall_timeout_millisec$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_timeout_millisec$array_size0];
+  const signed long int syscall_timeout_millisec_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_timeout_millisec_array_size0];
   syscall_get_args(pid, sc->arg, args);
   *ret_timeout = (double)(signed int)args[(signed long int)sc->arg] / 1000.0;
   syscall_count_timeout(s, *ret_timeout, threshold);
@@ -11749,8 +11749,8 @@ static char * syscall_timeout_to_human_time(const double timeout, const _Bool en
 // file syscall.c line 931
 static void syscall_timespec_timeout(const struct syscall *sc, struct syscall_info *s, const signed int pid, const double threshold, double *ret_timeout)
 {
-  const signed long int syscall_timespec_timeout$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_timespec_timeout$array_size0];
+  const signed long int syscall_timespec_timeout_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_timespec_timeout_array_size0];
   struct timespec timeout;
   syscall_get_args(pid, sc->arg, args);
   if(args[(signed long int)sc->arg] == 0ul)
@@ -11768,8 +11768,8 @@ static void syscall_timespec_timeout(const struct syscall *sc, struct syscall_in
 // file syscall.c line 957
 static void syscall_timeval_timeout(const struct syscall *sc, struct syscall_info *s, const signed int pid, const double threshold, double *ret_timeout)
 {
-  const signed long int syscall_timeval_timeout$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_timeval_timeout$array_size0];
+  const signed long int syscall_timeval_timeout_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_timeval_timeout_array_size0];
   struct timeval timeout;
   syscall_get_args(pid, sc->arg, args);
   if(args[(signed long int)sc->arg] == 0ul)
@@ -11799,12 +11799,12 @@ extern void * syscall_trace(void *arg)
   struct link *l;
   unsigned long int ptrace_flags;
   (void)arg;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   static signed int ret = 0;
   do
   {
-    struct anonymous$4 __cancel_buf;
+    struct anonymous_4 __cancel_buf;
     void (*__cancel_routine)(void *) = syscall_trace_cleanup;
     void *__cancel_arg = arg;
     signed int __not_first_call;
@@ -11827,13 +11827,13 @@ extern void * syscall_trace(void *arg)
       for( ; !(l == ((struct link *)NULL)); l = l->next)
       {
         ctxt = (struct syscall_context *)l->data;
-        signed long int return_value_ptrace$2;
-        return_value_ptrace$2=ptrace((enum __ptrace_request)PTRACE_ATTACH, ctxt->pid, 0, 0);
-        if(!(return_value_ptrace$2 >= 0l))
+        signed long int return_value_ptrace_2;
+        return_value_ptrace_2=ptrace((enum __ptrace_request)PTRACE_ATTACH, ctxt->pid, 0, 0);
+        if(!(return_value_ptrace_2 >= 0l))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          if(*return_value___errno_location$1 == 1)
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          if(*return_value___errno_location_1 == 1)
             fprintf(stderr, "Insufficient privilege to trace process %d\n", ctxt->pid);
 
           else
@@ -11849,23 +11849,23 @@ extern void * syscall_trace(void *arg)
       {
         signed int sig = 0;
         signed int pid;
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 0;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 0;
         pid=waitpid(-1, &status, 0x40000000);
         if(pid == -1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          if(*return_value___errno_location$4 == 4)
-            tmp_if_expr$6 = (_Bool)1;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          if(*return_value___errno_location_4 == 4)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$5=__errno_location();
-            tmp_if_expr$6 = *return_value___errno_location$5 == 10 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_5=__errno_location();
+            tmp_if_expr_6 = *return_value___errno_location_5 == 10 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$6)
+          if(tmp_if_expr_6)
             break;
 
         }
@@ -11942,7 +11942,7 @@ static void syscall_trace_cleanup(void *arg)
 
 // syscall_trace_proc
 // file syscall.c line 2823
-extern signed int syscall_trace_proc(struct anonymous$3 *pids)
+extern signed int syscall_trace_proc(struct anonymous_3 *pids)
 {
   struct link *l;
   __pids = pids;
@@ -11953,9 +11953,9 @@ extern signed int syscall_trace_proc(struct anonymous$3 *pids)
     struct proc_info *p = (struct proc_info *)l->data;
     syscall_get_context(p->pid);
   }
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&syscall_tracer, (const union pthread_attr_t *)(void *)0, syscall_trace, (void *)0);
-  if(!(return_value_pthread_create$1 >= 0))
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&syscall_tracer, (const union pthread_attr_t *)(void *)0, syscall_trace, (void *)0);
+  if(!(return_value_pthread_create_1 >= 0))
   {
     fprintf(stderr, "Failed to create tracing thread.\n");
     return -1;
@@ -11976,13 +11976,13 @@ static _Bool syscall_valid(const signed int syscall)
 // file syscall.c line 1628
 static signed int syscall_wakelock_cmp(const void *data1, const void *data2)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp((char *)data1, (char *)data2);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  return tmp_statement_expression$1;
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp((char *)data1, (char *)data2);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  return tmp_statement_expression_1;
 }
 
 // syscall_wakelock_fd_cache_free
@@ -12014,12 +12014,12 @@ static void syscall_wakelock_free(void *ptr)
 
 // syscall_wakelock_names_by_pid
 // file syscall.c line 1648
-void syscall_wakelock_names_by_pid(signed int pid, struct anonymous$3 *wakelock_names)
+void syscall_wakelock_names_by_pid(signed int pid, struct anonymous_3 *wakelock_names)
 {
   struct link *l;
   struct link *ln;
   l = syscall_wakelocks.head;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(l == ((struct link *)NULL)); l = l->next)
   {
     struct syscall_wakelock_info *info = (struct syscall_wakelock_info *)l->data;
@@ -12032,10 +12032,10 @@ void syscall_wakelock_names_by_pid(signed int pid, struct anonymous$3 *wakelock_
         char *lockname = (char *)ln->data;
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(lockname, info->lockname);
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(lockname, info->lockname);
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
         {
           found = (_Bool)1;
           break;
@@ -12054,14 +12054,14 @@ void syscall_wakelock_names_by_pid(signed int pid, struct anonymous$3 *wakelock_
 // file syscall.c line 1144
 static void syscall_write_args(const struct syscall *sc, const struct syscall_info *s, const signed int pid)
 {
-  const signed long int syscall_write_args$array_size0 = (signed long int)(sc->arg + 1);
-  unsigned long int args[syscall_write_args$array_size0];
+  const signed long int syscall_write_args_array_size0 = (signed long int)(sc->arg + 1);
+  unsigned long int args[syscall_write_args_array_size0];
   struct fd_cache *fc;
   signed int fd;
-  signed int tmp_statement_expression$6;
-  _Bool tmp_if_expr$10;
-  signed int tmp_statement_expression$8;
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_6;
+  _Bool tmp_if_expr_10;
+  signed int tmp_statement_expression_8;
+  signed int tmp_statement_expression_3;
   if(!((0x00000010 & opt_flags) == 0))
   {
     (void)s;
@@ -12073,39 +12073,39 @@ static void syscall_write_args(const struct syscall *sc, const struct syscall_in
       pthread_mutex_lock(&fc->mutex);
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$7;
-      return_value___builtin_strcmp$7=__builtin_strcmp(fc->filename, "/sys/power/wake_lock");
-      tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-      if(tmp_statement_expression$6 == 0)
-        tmp_if_expr$10 = (_Bool)1;
+      signed int return_value___builtin_strcmp_7;
+      return_value___builtin_strcmp_7=__builtin_strcmp(fc->filename, "/sys/power/wake_lock");
+      tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+      if(tmp_statement_expression_6 == 0)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        unsigned long int syscall_write_args$$1$$2$$__s1_len;
-        unsigned long int syscall_write_args$$1$$2$$__s2_len;
-        signed int return_value___builtin_strcmp$9;
-        return_value___builtin_strcmp$9=__builtin_strcmp(fc->filename, "/sys/power/wake_unlock");
-        tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-        tmp_if_expr$10 = !(tmp_statement_expression$8 != 0) ? (_Bool)1 : (_Bool)0;
+        unsigned long int syscall_write_args__1__2____s1_len;
+        unsigned long int syscall_write_args__1__2____s2_len;
+        signed int return_value___builtin_strcmp_9;
+        return_value___builtin_strcmp_9=__builtin_strcmp(fc->filename, "/sys/power/wake_unlock");
+        tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+        tmp_if_expr_10 = !(tmp_statement_expression_8 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
+      if(tmp_if_expr_10)
       {
         unsigned long int addr = args[(signed long int)1];
         unsigned long int count = (unsigned long int)args[(signed long int)2];
         char *lockname;
         struct syscall_wakelock_info *info;
-        void *return_value_syscall_peek_data$1;
-        return_value_syscall_peek_data$1=syscall_peek_data(pid, addr, count);
-        lockname = (char *)return_value_syscall_peek_data$1;
+        void *return_value_syscall_peek_data_1;
+        return_value_syscall_peek_data_1=syscall_peek_data(pid, addr, count);
+        lockname = (char *)return_value_syscall_peek_data_1;
         if(lockname == ((char *)NULL))
         {
           pthread_mutex_unlock(&fc->mutex);
           goto __CPROVER_DUMP_L9;
         }
 
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct syscall_wakelock_info) /*40ul*/ );
-        info = (struct syscall_wakelock_info *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct syscall_wakelock_info) /*40ul*/ );
+        info = (struct syscall_wakelock_info *)return_value_calloc_2;
         if(info == ((struct syscall_wakelock_info *)NULL))
         {
           health_check_out_of_memory("allocating wakelock information");
@@ -12116,16 +12116,16 @@ static void syscall_write_args(const struct syscall *sc, const struct syscall_in
 
         info->pid = pid;
         info->lockname = lockname;
-        unsigned long int syscall_write_args$$1$$3$$3$$__s1_len;
-        unsigned long int syscall_write_args$$1$$3$$3$$__s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(fc->filename, "/sys/power/wake_unlock");
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        info->locked = (_Bool)tmp_statement_expression$3;
+        unsigned long int syscall_write_args__1__3__3____s1_len;
+        unsigned long int syscall_write_args__1__3__3____s2_len;
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(fc->filename, "/sys/power/wake_unlock");
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        info->locked = (_Bool)tmp_statement_expression_3;
         gettimeofday(&info->tv, (struct timezone *)(void *)0);
-        struct link *return_value_list_append$5;
-        return_value_list_append$5=list_append(&syscall_wakelocks, (void *)info);
-        if(return_value_list_append$5 == ((struct link *)NULL))
+        struct link *return_value_list_append_5;
+        return_value_list_append_5=list_append(&syscall_wakelocks, (void *)info);
+        if(return_value_list_append_5 == ((struct link *)NULL))
           free((void *)info);
 
       }
@@ -12174,9 +12174,9 @@ extern struct timeval timeval_sub(struct timeval *a, struct timeval *b)
 
   if(a->tv_usec + -_b.tv_usec >= 1000001l)
   {
-    signed int timeval_sub$$1$$2$$nsec = (signed int)((a->tv_usec - _b.tv_usec) / (signed long int)1000000);
-    _b.tv_sec = _b.tv_sec - (signed long int)timeval_sub$$1$$2$$nsec;
-    _b.tv_usec = _b.tv_usec + (signed long int)(1000000 * timeval_sub$$1$$2$$nsec);
+    signed int timeval_sub__1__2__nsec = (signed int)((a->tv_usec - _b.tv_usec) / (signed long int)1000000);
+    _b.tv_sec = _b.tv_sec - (signed long int)timeval_sub__1__2__nsec;
+    _b.tv_usec = _b.tv_usec + (signed long int)(1000000 * timeval_sub__1__2__nsec);
   }
 
   ret.tv_sec = a->tv_sec - _b.tv_sec;
@@ -12195,16 +12195,16 @@ extern double timeval_to_double(struct timeval *tv)
 // file /usr/include/ctype.h line 215
 static inline signed int tolower(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_tolower_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_tolower_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_tolower_loc$1=__ctype_tolower_loc();
-    tmp_if_expr$2 = (*return_value___ctype_tolower_loc$1)[(signed long int)__c];
+    return_value___ctype_tolower_loc_1=__ctype_tolower_loc();
+    tmp_if_expr_2 = (*return_value___ctype_tolower_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 

@@ -1,38 +1,38 @@
-// tag-#anon#ST[ARR2{ARR7{U64}$U64$}$ARR7{U64}$U64$$'b'||ARR2{U64}$U64$'friends'||U64'blocker'||U64'blockerr90'||U64'blockerr45'||U64'blockerr315'||S16'ep'||S16'flag'||S16'side'||ARR2{S16}$S16$'material'||ARR2{S16}$S16$'pmaterial'||ARR2{S16}$S16$'castled'||ARR2{S16}$S16$'king'||U16'$pad0'|]
+// tag-#anon#ST[ARR2{ARR7{U64}_U64_}_ARR7{U64}_U64__'b'||ARR2{U64}_U64_'friends'||U64'blocker'||U64'blockerr90'||U64'blockerr45'||U64'blockerr315'||S16'ep'||S16'flag'||S16'side'||ARR2{S16}_S16_'material'||ARR2{S16}_S16_'pmaterial'||ARR2{S16}_S16_'castled'||ARR2{S16}_S16_'king'||U16'_pad0'|]
 // file common.h line 78
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR50{S8}$S8$'player'||U16'$pad0'||S32'wins'||S32'losses'||S32'draws'|]
+// tag-#anon#ST[ARR50{S8}_S8_'player'||U16'_pad0'||S32'wins'||S32'losses'||S32'draws'|]
 // file players.c line 40
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'move'||S16'epsq'||S16'bflag'||S16'Game50'||S16'mvboard'||F32'et'||U64'hashkey'||U64'phashkey'||ARR8{S8}$S8$'SANmv'||*{S8}$S8$'comments'|]
+// tag-#anon#ST[S32'move'||S16'epsq'||S16'bflag'||S16'Game50'||S16'mvboard'||F32'et'||U64'hashkey'||U64'phashkey'||ARR8{S8}_S8_'SANmv'||*{S8}_S8_'comments'|]
 // file common.h line 113
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'move'||S32'score'|]
 // file common.h line 100
 struct anonymous;
 
-// tag-#anon#ST[U32'pkey'||U32'$pad0'||U64'passed'||U64'weaked'||S32'score'||S32'phase'|]
+// tag-#anon#ST[U32'pkey'||U32'_pad0'||U64'passed'||U64'weaked'||S32'score'||S32'phase'|]
 // file common.h line 137
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[U64'key'||S32'move'||S32'score'||U8'flag'||U8'depth'||U48'$pad0'|]
+// tag-#anon#ST[U64'key'||S32'move'||S32'score'||U8'flag'||U8'depth'||U48'_pad0'|]
 // file common.h line 128
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -503,21 +503,21 @@ extern signed int * __errno_location(void);
 // __strcspn_c1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 947
 static inline unsigned long int __strcspn_c1(const char *__s, signed int __reject);
-// __strcspn_c1$link1
+// __strcspn_c1_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 947
-static inline unsigned long int __strcspn_c1$link1(const char *__s$link1, signed int __reject$link1);
+static inline unsigned long int __strcspn_c1_link1(const char *__s_link1, signed int __reject_link1);
 // __strcspn_c2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 958
 static inline unsigned long int __strcspn_c2(const char *__s, signed int __reject1, signed int __reject2);
-// __strcspn_c2$link1
+// __strcspn_c2_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 958
-static inline unsigned long int __strcspn_c2$link1(const char *__s$link1, signed int __reject1$link1, signed int __reject2$link1);
+static inline unsigned long int __strcspn_c2_link1(const char *__s_link1, signed int __reject1_link1, signed int __reject2_link1);
 // __strcspn_c3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 970
 static inline unsigned long int __strcspn_c3(const char *__s, signed int __reject1, signed int __reject2, signed int __reject3);
-// __strcspn_c3$link1
+// __strcspn_c3_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 970
-static inline unsigned long int __strcspn_c3$link1(const char *__s$link1, signed int __reject1$link1, signed int __reject2$link1, signed int __reject3$link1);
+static inline unsigned long int __strcspn_c3_link1(const char *__s_link1, signed int __reject1_link1, signed int __reject2_link1, signed int __reject3_link1);
 // __strdup
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1278
 extern char * __strdup(const char *);
@@ -776,9 +776,9 @@ extern unsigned long int fwrite(const void *, unsigned long int, unsigned long i
 // getchar
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 44
 static inline signed int getchar(void);
-// getline_intrl$object
+// getline_intrl_object
 //
-void getline_intrl$object(char *);
+void getline_intrl_object(char *);
 // getline_standard
 // file input.c line 87
 void getline_standard(char *p);
@@ -803,27 +803,27 @@ extern signed int isatty(signed int);
 // leadz
 // file inlines.h line 35
 static inline unsigned char leadz(unsigned long int b);
-// leadz$link1
+// leadz_link1
 // file inlines.h line 35
-static inline unsigned char leadz$link1(unsigned long int b$link1);
-// leadz$link2
+static inline unsigned char leadz_link1(unsigned long int b_link1);
+// leadz_link2
 // file inlines.h line 35
-static inline unsigned char leadz$link2(unsigned long int b$link2);
-// leadz$link3
+static inline unsigned char leadz_link2(unsigned long int b_link2);
+// leadz_link3
 // file inlines.h line 35
-static inline unsigned char leadz$link3(unsigned long int b$link3);
-// leadz$link4
+static inline unsigned char leadz_link3(unsigned long int b_link3);
+// leadz_link4
 // file inlines.h line 35
-static inline unsigned char leadz$link4(unsigned long int b$link4);
-// leadz$link5
+static inline unsigned char leadz_link4(unsigned long int b_link4);
+// leadz_link5
 // file inlines.h line 35
-static inline unsigned char leadz$link5(unsigned long int b$link5);
-// leadz$link6
+static inline unsigned char leadz_link5(unsigned long int b_link5);
+// leadz_link6
 // file inlines.h line 35
-static inline unsigned char leadz$link6(unsigned long int b$link6);
-// leadz$link7
+static inline unsigned char leadz_link6(unsigned long int b_link6);
+// leadz_link7
 // file inlines.h line 35
-static inline unsigned char leadz$link7(unsigned long int b$link7);
+static inline unsigned char leadz_link7(unsigned long int b_link7);
 // localtime
 // file /usr/include/time.h line 243
 extern struct tm * localtime(const signed long int *);
@@ -845,27 +845,27 @@ static signed int namecompare(const void *aa, const void *bb);
 // nbits
 // file inlines.h line 50
 static inline unsigned char nbits(unsigned long int b);
-// nbits$link1
+// nbits_link1
 // file inlines.h line 50
-static inline unsigned char nbits$link1(unsigned long int b$link1);
-// nbits$link2
+static inline unsigned char nbits_link1(unsigned long int b_link1);
+// nbits_link2
 // file inlines.h line 50
-static inline unsigned char nbits$link2(unsigned long int b$link2);
-// nbits$link3
+static inline unsigned char nbits_link2(unsigned long int b_link2);
+// nbits_link3
 // file inlines.h line 50
-static inline unsigned char nbits$link3(unsigned long int b$link3);
-// nbits$link4
+static inline unsigned char nbits_link3(unsigned long int b_link3);
+// nbits_link4
 // file inlines.h line 50
-static inline unsigned char nbits$link4(unsigned long int b$link4);
-// nbits$link5
+static inline unsigned char nbits_link4(unsigned long int b_link4);
+// nbits_link5
 // file inlines.h line 50
-static inline unsigned char nbits$link5(unsigned long int b$link5);
-// nbits$link6
+static inline unsigned char nbits_link5(unsigned long int b_link5);
+// nbits_link6
 // file inlines.h line 50
-static inline unsigned char nbits$link6(unsigned long int b$link6);
-// nbits$link7
+static inline unsigned char nbits_link6(unsigned long int b_link6);
+// nbits_link7
 // file inlines.h line 50
-static inline unsigned char nbits$link7(unsigned long int b$link7);
+static inline unsigned char nbits_link7(unsigned long int b_link7);
 // parse_input
 // file cmd.c line 944
 void parse_input(void);
@@ -886,10 +886,10 @@ void ponder(void);
 extern signed int printf(const char *, ...);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$1 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_1 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -898,16 +898,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // putchar
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
 static inline signed int putchar(signed int __c);
-// putchar$link1
+// putchar_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
-static inline signed int putchar$link1(signed int __c$link1);
+static inline signed int putchar_link1(signed int __c_link1);
 // puts
 // file /usr/include/stdio.h line 695
 extern signed int puts(const char *);
@@ -1050,7 +1050,7 @@ signed int yylex(void);
 // file lexpgn.c line 2924
 void yyrestart(struct _IO_FILE *input_file);
 
-struct anonymous$5
+struct anonymous_5
 {
   // b
   unsigned long int b[2l][7l];
@@ -1080,7 +1080,7 @@ struct anonymous$5
   signed short int king[2l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // player
   char player[50l];
@@ -1092,7 +1092,7 @@ struct anonymous$7
   signed int draws;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -1112,7 +1112,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // move
   signed int move;
@@ -1144,7 +1144,7 @@ struct anonymous
   signed int score;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // pkey
   unsigned int pkey;
@@ -1158,7 +1158,7 @@ struct anonymous$4
   signed int phase;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // key
   unsigned long int key;
@@ -1172,10 +1172,10 @@ struct anonymous$0
   unsigned char depth;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -1210,7 +1210,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1458,7 +1458,7 @@ unsigned long int FromToRay[64l][64l];
 unsigned long int FutlCutCnt;
 // Game
 // file main.c line 73
-struct anonymous$6 Game[600l];
+struct anonymous_6 Game[600l];
 // Game50
 // file main.c line 96
 signed int Game50;
@@ -1482,7 +1482,7 @@ unsigned long int HashKey;
 unsigned int HashSize;
 // HashTab
 // file main.c line 92
-struct anonymous$0 *HashTab[2l];
+struct anonymous_0 *HashTab[2l];
 // Hashmv
 // file main.c line 146
 signed int Hashmv[65l];
@@ -1571,7 +1571,7 @@ static signed int PawnSq[2l][64l] = { { 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, -10, -1
     { 0, 0, 0, 0, 0, 0, 0, 0, 4, 8, 12, 16, 16, 12, 4, 4, 4, 8, 12, 16, 16, 12, 4, 4, 2, 2, 12, 16, 16, 12, 2, 2, 0, 0, 0, 25, 25, 0, 0, 0, -2, -2, -2, 6, 6, -2, -2, -2, 5, 5, 5, -10, -10, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0 } };
 // PawnTab
 // file main.c line 93
-struct anonymous$4 *PawnTab[2l];
+struct anonymous_4 *PawnTab[2l];
 // QuiesCnt
 // file main.c line 103
 unsigned long int QuiesCnt;
@@ -1722,7 +1722,7 @@ char algbrrank[9l] = { '1', '2', '3', '4', '5', '6', '7', '8', 0 };
 static const unsigned long int bb[2l] = { 0x2400000000000000ULL, 0x0000000000000024ULL };
 // board
 // file main.c line 82
-struct anonymous$5 board;
+struct anonymous_5 board;
 // boardhalf
 // file main.c line 66
 unsigned long int boardhalf[2l];
@@ -1910,13 +1910,13 @@ char id[32l];
 char *initial_comments;
 // input_cond
 // file input.c line 102
-static union anonymous$3 input_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 input_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // input_mutex
 // file input.c line 101
-static union anonymous$1 input_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_1 input_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // input_status
@@ -2074,7 +2074,7 @@ unsigned long int pieces[2l];
 unsigned long int pinned;
 // playerdb
 // file players.c line 47
-struct anonymous$7 playerdb[500l];
+struct anonymous_7 playerdb[500l];
 // ply1score
 // file search.c line 54
 static signed int ply1score;
@@ -2170,13 +2170,13 @@ signed int totalplayers = 0;
 static const char * const trusted_players[103l] = { "Alekhine", "Adams", "Anand", "Anderssen", "Andersson", "Aronin", "Averbakh", "Balashov", "Beliavsky", "Benko", "Bernstein", "Bird", "Bogoljubow", "Bolbochan", "Boleslavsky", "Byrne", "Botvinnik", "Bronstein", "Browne", "Capablanca", "Chigorin", "Christiansen", "De Firmian", "Deep Blue", "Deep Thought", "Donner", "Dreev", "Duras", "Euwe", "Evans", "Filip", "Fine", "Fischer", "Flohr", "Furman", "Gelfand", "Geller", "Gereben", "Glek", "Gligoric", "GNU", "Golombek", "Gruenfeld", "Guimard", "Hodgson", "Ivanchuk", "Ivkov", "Janowsky", "Kamsky", "Kan", "Karpov", "Kasparov", "Keres", "Korchnoi", "Kortschnoj", "Kotov", "Kramnik", "Kupreich", "Lasker", "Lautier", "Letelier", "Lilienthal", "Ljubojevic", "Marshall", "Maroczy", "Mieses", "Miles", "Morphy", "Mueller", "Nimzowitsch", "Nunn", "Opocensky", "Pachman", "Petrosian", "Piket", "Pilnik", "Pirc", "Polgar", "Portisch", "Psakhis", "Ragozin", "Reshevsky", "Reti", "Romanish", "Rubinstein", "Saemisch", "Seirawan", "Shirov", "Short", "Silman", "Smyslov", "Sokolsky", "Spassky", "Sveshnikov", "Stahlberg", "Steinitz", "Tal", "Tarjan", "Tartakower", "Timman", "Topalov", "Torre", "Vidmar" };
 // wakeup_cond
 // file input.c line 104
-static union anonymous$3 wakeup_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 wakeup_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // wakeup_mutex
 // file input.c line 103
-static union anonymous$1 wakeup_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_1 wakeup_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // wasbookmove
@@ -2400,31 +2400,31 @@ char *yytext;
 // file swap.c line 143
 void AddXrayPiece(signed int t, signed int sq, signed int side, unsigned long int *b, unsigned long int *c)
 {
-  signed int AddXrayPiece$$1$$dir;
+  signed int AddXrayPiece__1__dir;
   signed int nsq;
   signed int piece;
   unsigned long int a;
-  AddXrayPiece$$1$$dir = (signed int)directions[(signed long int)t][(signed long int)sq];
-  a = Ray[(signed long int)sq][(signed long int)AddXrayPiece$$1$$dir] & board.blocker;
-  signed int tmp_if_expr$3;
-  unsigned char return_value_leadz$1;
-  unsigned char return_value_leadz$2;
+  AddXrayPiece__1__dir = (signed int)directions[(signed long int)t][(signed long int)sq];
+  a = Ray[(signed long int)sq][(signed long int)AddXrayPiece__1__dir] & board.blocker;
+  signed int tmp_if_expr_3;
+  unsigned char return_value_leadz_1;
+  unsigned char return_value_leadz_2;
   if(!(a == 0x0000000000000000ULL))
   {
     if(!(t >= sq))
     {
-      return_value_leadz$1=leadz$link6(a);
-      tmp_if_expr$3 = (signed int)return_value_leadz$1;
+      return_value_leadz_1=leadz_link6(a);
+      tmp_if_expr_3 = (signed int)return_value_leadz_1;
     }
 
     else
     {
-      return_value_leadz$2=leadz$link6(a & ~a + (unsigned long int)1);
-      tmp_if_expr$3 = (signed int)return_value_leadz$2;
+      return_value_leadz_2=leadz_link6(a & ~a + (unsigned long int)1);
+      tmp_if_expr_3 = (signed int)return_value_leadz_2;
     }
-    nsq = tmp_if_expr$3;
+    nsq = tmp_if_expr_3;
     piece = cboard[(signed long int)nsq];
-    if(piece == 5 || piece == 3 && !(AddXrayPiece$$1$$dir >= 4) || piece == 4 && AddXrayPiece$$1$$dir >= 4)
+    if(piece == 5 || piece == 3 && !(AddXrayPiece__1__dir >= 4) || piece == 4 && AddXrayPiece__1__dir >= 4)
     {
       if(!((board.friends[(signed long int)side] & BitPosArray[(signed long int)nsq]) == 0ul))
         *b = *b | BitPosArray[(signed long int)nsq];
@@ -2509,9 +2509,9 @@ unsigned long int AttackTo(signed int sq, signed int side)
   b = (a[(signed long int)3] | a[(signed long int)5]) & MoveArray[(signed long int)3][(signed long int)sq];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$1;
-    return_value_leadz$1=leadz(b);
-    t = (signed int)return_value_leadz$1;
+    unsigned char return_value_leadz_1;
+    return_value_leadz_1=leadz(b);
+    t = (signed int)return_value_leadz_1;
     b = b & NotBitPosArray[(signed long int)t];
     if((c[(signed long int)t] & NotBitPosArray[(signed long int)t] & blocker) == 0ul)
       e = e | BitPosArray[(signed long int)t];
@@ -2520,9 +2520,9 @@ unsigned long int AttackTo(signed int sq, signed int side)
   b = (a[(signed long int)4] | a[(signed long int)5]) & MoveArray[(signed long int)4][(signed long int)sq];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$2;
-    return_value_leadz$2=leadz(b);
-    t = (signed int)return_value_leadz$2;
+    unsigned char return_value_leadz_2;
+    return_value_leadz_2=leadz(b);
+    t = (signed int)return_value_leadz_2;
     b = b & NotBitPosArray[(signed long int)t];
     if((c[(signed long int)t] & NotBitPosArray[(signed long int)t] & blocker) == 0ul)
       e = e | BitPosArray[(signed long int)t];
@@ -2540,18 +2540,18 @@ unsigned long int AttackXFrom(signed int sq, signed int side)
   unsigned long int c;
   unsigned long int blocker;
   signed int piece;
-  signed int AttackXFrom$$1$$dir;
+  signed int AttackXFrom__1__dir;
   signed int blocksq;
   a = board.b[(signed long int)side];
   piece = cboard[(signed long int)sq];
   blocker = board.blocker;
   b = (unsigned long int)0;
-  signed int tmp_if_expr$3;
-  unsigned char return_value_leadz$1;
-  unsigned char return_value_leadz$2;
-  signed int tmp_if_expr$6;
-  unsigned char return_value_leadz$4;
-  unsigned char return_value_leadz$5;
+  signed int tmp_if_expr_3;
+  unsigned char return_value_leadz_1;
+  unsigned char return_value_leadz_2;
+  signed int tmp_if_expr_6;
+  unsigned char return_value_leadz_4;
+  unsigned char return_value_leadz_5;
   switch(piece)
   {
     case 1:
@@ -2569,27 +2569,27 @@ unsigned long int AttackXFrom(signed int sq, signed int side)
     case 5:
     {
       blocker = blocker & ~(a[(signed long int)3] | a[(signed long int)5]);
-      AttackXFrom$$1$$dir = (signed int)raybeg[(signed long int)3];
-      for( ; !(AttackXFrom$$1$$dir >= (signed int)rayend[3l]); AttackXFrom$$1$$dir = AttackXFrom$$1$$dir + 1)
+      AttackXFrom__1__dir = (signed int)raybeg[(signed long int)3];
+      for( ; !(AttackXFrom__1__dir >= (signed int)rayend[3l]); AttackXFrom__1__dir = AttackXFrom__1__dir + 1)
       {
-        c = Ray[(signed long int)sq][(signed long int)AttackXFrom$$1$$dir] & blocker;
+        c = Ray[(signed long int)sq][(signed long int)AttackXFrom__1__dir] & blocker;
         if(c == 0x0000000000000000ULL)
-          c = Ray[(signed long int)sq][(signed long int)AttackXFrom$$1$$dir];
+          c = Ray[(signed long int)sq][(signed long int)AttackXFrom__1__dir];
 
         else
         {
           if(!(c >= BitPosArray[(signed long int)sq]))
           {
-            return_value_leadz$1=leadz(c);
-            tmp_if_expr$3 = (signed int)return_value_leadz$1;
+            return_value_leadz_1=leadz(c);
+            tmp_if_expr_3 = (signed int)return_value_leadz_1;
           }
 
           else
           {
-            return_value_leadz$2=leadz(c & ~c + (unsigned long int)1);
-            tmp_if_expr$3 = (signed int)return_value_leadz$2;
+            return_value_leadz_2=leadz(c & ~c + (unsigned long int)1);
+            tmp_if_expr_3 = (signed int)return_value_leadz_2;
           }
-          blocksq = tmp_if_expr$3;
+          blocksq = tmp_if_expr_3;
           c = FromToRay[(signed long int)sq][(signed long int)blocksq];
         }
         b = b | c;
@@ -2602,27 +2602,27 @@ unsigned long int AttackXFrom(signed int sq, signed int side)
     case 4:
     {
       blocker = blocker & ~(a[(signed long int)4] | a[(signed long int)5]);
-      AttackXFrom$$1$$dir = (signed int)raybeg[(signed long int)4];
-      for( ; !(AttackXFrom$$1$$dir >= (signed int)rayend[4l]); AttackXFrom$$1$$dir = AttackXFrom$$1$$dir + 1)
+      AttackXFrom__1__dir = (signed int)raybeg[(signed long int)4];
+      for( ; !(AttackXFrom__1__dir >= (signed int)rayend[4l]); AttackXFrom__1__dir = AttackXFrom__1__dir + 1)
       {
-        c = Ray[(signed long int)sq][(signed long int)AttackXFrom$$1$$dir] & blocker;
+        c = Ray[(signed long int)sq][(signed long int)AttackXFrom__1__dir] & blocker;
         if(c == 0x0000000000000000ULL)
-          c = Ray[(signed long int)sq][(signed long int)AttackXFrom$$1$$dir];
+          c = Ray[(signed long int)sq][(signed long int)AttackXFrom__1__dir];
 
         else
         {
           if(!(c >= BitPosArray[(signed long int)sq]))
           {
-            return_value_leadz$4=leadz(c);
-            tmp_if_expr$6 = (signed int)return_value_leadz$4;
+            return_value_leadz_4=leadz(c);
+            tmp_if_expr_6 = (signed int)return_value_leadz_4;
           }
 
           else
           {
-            return_value_leadz$5=leadz(c & ~c + (unsigned long int)1);
-            tmp_if_expr$6 = (signed int)return_value_leadz$5;
+            return_value_leadz_5=leadz(c & ~c + (unsigned long int)1);
+            tmp_if_expr_6 = (signed int)return_value_leadz_5;
           }
-          blocksq = tmp_if_expr$6;
+          blocksq = tmp_if_expr_6;
           c = FromToRay[(signed long int)sq][(signed long int)blocksq];
         }
         b = b | c;
@@ -2657,9 +2657,9 @@ unsigned long int AttackXTo(signed int sq, signed int side)
   b = b | (a[(signed long int)3] | a[(signed long int)5]) & MoveArray[(signed long int)3][(signed long int)sq];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$1;
-    return_value_leadz$1=leadz(b);
-    t = (signed int)return_value_leadz$1;
+    unsigned char return_value_leadz_1;
+    return_value_leadz_1=leadz(b);
+    t = (signed int)return_value_leadz_1;
     b = b & NotBitPosArray[(signed long int)t];
     if((c[(signed long int)t] & NotBitPosArray[(signed long int)t] & blocker) == 0ul)
       e = e | BitPosArray[(signed long int)t];
@@ -2670,9 +2670,9 @@ unsigned long int AttackXTo(signed int sq, signed int side)
   blocker = blocker & ~(a[(signed long int)4] | a[(signed long int)5] | d[(signed long int)4] | d[(signed long int)5]);
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$2;
-    return_value_leadz$2=leadz(b);
-    t = (signed int)return_value_leadz$2;
+    unsigned char return_value_leadz_2;
+    return_value_leadz_2=leadz(b);
+    t = (signed int)return_value_leadz_2;
     b = b & NotBitPosArray[(signed long int)t];
     if((c[(signed long int)t] & NotBitPosArray[(signed long int)t] & blocker) == 0ul)
       e = e | BitPosArray[(signed long int)t];
@@ -2686,10 +2686,10 @@ unsigned long int AttackXTo(signed int sq, signed int side)
 signed int BishopTrapped(signed short int side)
 {
   signed int s = 0;
-  signed int return_value_SwapOff$1;
-  signed int return_value_SwapOff$2;
-  signed int return_value_SwapOff$3;
-  signed int return_value_SwapOff$4;
+  signed int return_value_SwapOff_1;
+  signed int return_value_SwapOff_2;
+  signed int return_value_SwapOff_3;
+  signed int return_value_SwapOff_4;
   if(board.b[(signed long int)side][3l] == 0x0000000000000000ULL)
     return 0;
 
@@ -2701,8 +2701,8 @@ signed int BishopTrapped(signed short int side)
       {
         if(!((board.b[1l][1l] & BitPosArray[41l]) == 0ul))
         {
-          return_value_SwapOff$1=SwapOff(48 << 6 | 41);
-          if(!(return_value_SwapOff$1 >= 0))
+          return_value_SwapOff_1=SwapOff(48 << 6 | 41);
+          if(!(return_value_SwapOff_1 >= 0))
             s = s + -250;
 
         }
@@ -2713,8 +2713,8 @@ signed int BishopTrapped(signed short int side)
       {
         if(!((board.b[1l][1l] & BitPosArray[46l]) == 0ul))
         {
-          return_value_SwapOff$2=SwapOff(55 << 6 | 46);
-          if(!(return_value_SwapOff$2 >= 0))
+          return_value_SwapOff_2=SwapOff(55 << 6 | 46);
+          if(!(return_value_SwapOff_2 >= 0))
             s = s + -250;
 
         }
@@ -2729,8 +2729,8 @@ signed int BishopTrapped(signed short int side)
       {
         if(!((board.b[0l][1l] & BitPosArray[17l]) == 0ul))
         {
-          return_value_SwapOff$3=SwapOff(8 << 6 | 17);
-          if(!(return_value_SwapOff$3 >= 0))
+          return_value_SwapOff_3=SwapOff(8 << 6 | 17);
+          if(!(return_value_SwapOff_3 >= 0))
             s = s + -250;
 
         }
@@ -2741,8 +2741,8 @@ signed int BishopTrapped(signed short int side)
       {
         if(!((board.b[0l][1l] & BitPosArray[22l]) == 0ul))
         {
-          return_value_SwapOff$4=SwapOff(15 << 6 | 22);
-          if(!(return_value_SwapOff$4 >= 0))
+          return_value_SwapOff_4=SwapOff(15 << 6 | 22);
+          if(!(return_value_SwapOff_4 >= 0))
             s = s + -250;
 
         }
@@ -2761,9 +2761,9 @@ static inline void BitToMove(signed short int f, unsigned long int b)
   signed int t;
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$1;
-    return_value_leadz$1=leadz$link3(b);
-    t = (signed int)return_value_leadz$1;
+    unsigned char return_value_leadz_1;
+    return_value_leadz_1=leadz_link3(b);
+    t = (signed int)return_value_leadz_1;
     b = b & NotBitPosArray[(signed long int)t];
     do
     {
@@ -2779,7 +2779,7 @@ static inline void BitToMove(signed short int f, unsigned long int b)
 signed int BookBuilder(signed short int result, unsigned char side)
 {
   unsigned int i;
-  signed int return_value_is_empty$1;
+  signed int return_value_is_empty_1;
   if(GameCnt >= 21)
     return 2;
 
@@ -2796,8 +2796,8 @@ signed int BookBuilder(signed short int result, unsigned char side)
 
       else
       {
-        return_value_is_empty$1=is_empty(i);
-        if(!(return_value_is_empty$1 == 0))
+        return_value_is_empty_1=is_empty(i);
+        if(!(return_value_is_empty_1 == 0))
         {
           if((double)bookcnt > 0.95 * (double)(1UL << digest_bits))
             return 4;
@@ -2853,22 +2853,22 @@ signed int BookBuilderClose(void)
   unsigned int i;
   signed int errcode = 0;
   wfp=fopen("book.dat", "wb");
-  signed int return_value_write_magic$1;
-  signed int return_value_write_size$2;
-  signed int return_value_fclose$5;
+  signed int return_value_write_magic_1;
+  signed int return_value_write_size_2;
+  signed int return_value_fclose_5;
   if(wfp == ((struct _IO_FILE *)NULL))
     errcode = 3;
 
   else
   {
-    return_value_write_magic$1=write_magic(wfp);
-    if(!(return_value_write_magic$1 == 0))
+    return_value_write_magic_1=write_magic(wfp);
+    if(!(return_value_write_magic_1 == 0))
       errcode = 3;
 
     else
     {
-      return_value_write_size$2=write_size(wfp, (unsigned int)bookcnt);
-      if(!(return_value_write_size$2 == 0))
+      return_value_write_size_2=write_size(wfp, (unsigned int)bookcnt);
+      if(!(return_value_write_size_2 == 0))
         errcode = 3;
 
       else
@@ -2876,14 +2876,14 @@ signed int BookBuilderClose(void)
         i = (unsigned int)0;
         for( ; !((unsigned long int)i >= 1UL << digest_bits); i = i + 1u)
         {
-          signed int return_value_is_empty$4;
-          return_value_is_empty$4=is_empty(i);
-          if(return_value_is_empty$4 == 0)
+          signed int return_value_is_empty_4;
+          return_value_is_empty_4=is_empty(i);
+          if(return_value_is_empty_4 == 0)
           {
             book_to_buf(i);
-            unsigned long int return_value_fwrite$3;
-            return_value_fwrite$3=fwrite((const void *)&buf, sizeof(unsigned char [14l]) /*14ul*/ , (unsigned long int)1, wfp);
-            if(!(return_value_fwrite$3 == 1ul))
+            unsigned long int return_value_fwrite_3;
+            return_value_fwrite_3=fwrite((const void *)&buf, sizeof(unsigned char [14l]) /*14ul*/ , (unsigned long int)1, wfp);
+            if(!(return_value_fwrite_3 == 1ul))
             {
               errcode = 3;
               goto bailout;
@@ -2898,8 +2898,8 @@ signed int BookBuilderClose(void)
 
   bailout:
     ;
-    return_value_fclose$5=fclose(wfp);
-    if(!(return_value_fclose$5 == 0))
+    return_value_fclose_5=fclose(wfp);
+    if(!(return_value_fclose_5 == 0))
       errcode = 3;
 
   }
@@ -2923,9 +2923,9 @@ signed int BookBuilderOpen(void)
   if(!(rfp == ((struct _IO_FILE *)NULL)))
   {
     printf("Opened existing book!\n");
-    signed int return_value_check_magic$1;
-    return_value_check_magic$1=check_magic(rfp);
-    if(return_value_check_magic$1 == 0)
+    signed int return_value_check_magic_1;
+    return_value_check_magic_1=check_magic(rfp);
+    if(return_value_check_magic_1 == 0)
     {
       fprintf(stderr, "File %s does not conform to the current format.\nConsider rebuilding your book.\n", (const void *)"book.dat");
       return 1;
@@ -2950,35 +2950,35 @@ signed int BookBuilderOpen(void)
     wfp=fopen("book.dat", "w+b");
     if(wfp == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "Could not create %s file: %s\n", (const void *)"book.dat", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "Could not create %s file: %s\n", (const void *)"book.dat", return_value_strerror_3);
       return 3;
     }
 
-    signed int return_value_write_magic$6;
-    return_value_write_magic$6=write_magic(wfp);
-    if(!(return_value_write_magic$6 == 0))
+    signed int return_value_write_magic_6;
+    return_value_write_magic_6=write_magic(wfp);
+    if(!(return_value_write_magic_6 == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      fprintf(stderr, "Could not write to %s: %s\n", (const void *)"book.dat", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      fprintf(stderr, "Could not write to %s: %s\n", (const void *)"book.dat", return_value_strerror_5);
       return 3;
     }
 
-    signed int return_value_fclose$9;
-    return_value_fclose$9=fclose(wfp);
-    if(!(return_value_fclose$9 == 0))
+    signed int return_value_fclose_9;
+    return_value_fclose_9=fclose(wfp);
+    if(!(return_value_fclose_9 == 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      fprintf(stderr, "Could not write to %s: %s\n", (const void *)"book.dat", return_value_strerror$8);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      fprintf(stderr, "Could not write to %s: %s\n", (const void *)"book.dat", return_value_strerror_8);
       return 3;
     }
 
@@ -2986,18 +2986,18 @@ signed int BookBuilderOpen(void)
     rfp=fopen("book.dat", "rb");
     if(rfp == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      char *return_value_strerror$11;
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      fprintf(stderr, "Could not open %s for reading: %s\n", (const void *)"book.dat", return_value_strerror$11);
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      char *return_value_strerror_11;
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      fprintf(stderr, "Could not open %s for reading: %s\n", (const void *)"book.dat", return_value_strerror_11);
       return 3;
     }
 
     digest_bits = 20;
-    signed int return_value_read_book$12;
-    return_value_read_book$12=read_book(wfp);
-    if(return_value_read_book$12 == 7)
+    signed int return_value_read_book_12;
+    return_value_read_book_12=read_book(wfp);
+    if(return_value_read_book_12 == 7)
       return 7;
 
   }
@@ -3019,18 +3019,18 @@ void BookPGNReadFromFile(const char *file)
   fp=fopen(file, "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Cannot open file %s: %s\n", file, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Cannot open file %s: %s\n", file, return_value_strerror_2);
     goto __CPROVER_DUMP_L12;
   }
 
   yyin = fp;
-  signed int return_value_BookBuilderOpen$3;
-  return_value_BookBuilderOpen$3=BookBuilderOpen();
-  if(return_value_BookBuilderOpen$3 == 0)
+  signed int return_value_BookBuilderOpen_3;
+  return_value_BookBuilderOpen_3=BookBuilderOpen();
+  if(return_value_BookBuilderOpen_3 == 0)
   {
     existpos = 0;
     newpos = existpos;
@@ -3064,9 +3064,9 @@ void BookPGNReadFromFile(const char *file)
       fflush(stdout);
     }
     fclose(fp);
-    signed int return_value_BookBuilderClose$4;
-    return_value_BookBuilderClose$4=BookBuilderClose();
-    if(!(return_value_BookBuilderClose$4 == 0))
+    signed int return_value_BookBuilderClose_4;
+    return_value_BookBuilderClose_4=BookBuilderClose();
+    if(!(return_value_BookBuilderClose_4 == 0))
       perror("Error writing opening book during BookBuilderClose");
 
     InitVars();
@@ -3086,10 +3086,10 @@ void BookPGNReadFromFile(const char *file)
     opprating = 0;
     myrating = opprating;
     t2=time((signed long int *)(void *)0);
-    double return_value_difftime$5;
-    return_value_difftime$5=difftime(t2, t1);
-    et = et + return_value_difftime$5;
-    putchar$link1(10);
+    double return_value_difftime_5;
+    return_value_difftime_5=difftime(t2, t1);
+    et = et + return_value_difftime_5;
+    putchar_link1(10);
     if(et < 0.5)
       et = 1.0;
 
@@ -3123,7 +3123,7 @@ signed int BookQuery(signed int BKquery)
   struct anonymous m[200l];
   struct anonymous pref[200l];
   /* tag-#anon#lST[U16'wins'||U16'losses'||U16'draws'|] */
-struct anonymous$8
+struct anonymous_8
 {
   // wins
   unsigned short int wins;
@@ -3135,7 +3135,7 @@ struct anonymous$8
 
 /* */
   ;
-  struct anonymous$8 r[200l];
+  struct anonymous_8 r[200l];
   struct _IO_FILE *rfp = (struct _IO_FILE *)(void *)0;
   struct anonymous *p;
   signed short int side;
@@ -3143,8 +3143,8 @@ struct anonymous$8
   signed short int temp;
   unsigned int booksize;
   signed int res;
-  signed int return_value_is_empty$3;
-  signed int tmp_if_expr$4;
+  signed int return_value_is_empty_3;
+  signed int tmp_if_expr_4;
   if(book_allocated == 0 && !(bookloaded == 0))
     return 5;
 
@@ -3166,9 +3166,9 @@ struct anonymous$8
           if((1024u & flags) == 0u)
             fprintf(ofp, "Read opening book (%s)...\n", *booktry);
 
-          signed int return_value_check_magic$1;
-          return_value_check_magic$1=check_magic(rfp);
-          if(return_value_check_magic$1 == 0)
+          signed int return_value_check_magic_1;
+          return_value_check_magic_1=check_magic(rfp);
+          if(return_value_check_magic_1 == 0)
           {
             fprintf(stderr, " File %s does not conform to the current format.\n Consider rebuilding it.\n\n", *booktry);
             fclose(rfp);
@@ -3191,9 +3191,9 @@ struct anonymous$8
       if((1024u & flags) == 0u)
         fprintf(ofp, "Loading book from %s.\n", *booktry);
 
-      unsigned int return_value_read_size$2;
-      return_value_read_size$2=read_size(rfp);
-      booksize = (unsigned int)((double)return_value_read_size$2 * 1.06);
+      unsigned int return_value_read_size_2;
+      return_value_read_size_2=read_size(rfp);
+      booksize = (unsigned int)((double)return_value_read_size_2 * 1.06);
       digest_bits = 1;
       for( ; !(booksize == 0u); booksize = booksize >> 1)
         digest_bits = digest_bits + 1;
@@ -3227,8 +3227,8 @@ struct anonymous$8
       j = (signed int)(posshash[(signed long int)i] & (1UL << digest_bits) - (unsigned long int)1);
       do
       {
-        return_value_is_empty$3=is_empty((unsigned int)j);
-        if(!(return_value_is_empty$3 == 0))
+        return_value_is_empty_3=is_empty((unsigned int)j);
+        if(!(return_value_is_empty_3 == 0))
           break;
 
         if(posshash[(signed long int)i] == (bookpos + (signed long int)j)->key)
@@ -3251,11 +3251,11 @@ struct anonymous$8
             r[(signed long int)i].wins = (bookpos + (signed long int)j)->wins;
             r[(signed long int)i].draws = (bookpos + (signed long int)j)->draws;
             if((signed int)r[(signed long int)i].draws + (signed int)r[(signed long int)i].losses + (signed int)r[(signed long int)i].wins >= 2)
-              tmp_if_expr$4 = (signed int)r[(signed long int)i].wins + (signed int)r[(signed long int)i].losses + (signed int)r[(signed long int)i].draws;
+              tmp_if_expr_4 = (signed int)r[(signed long int)i].wins + (signed int)r[(signed long int)i].losses + (signed int)r[(signed long int)i].draws;
 
             else
-              tmp_if_expr$4 = 1;
-            m[(signed long int)i].score = (100 * ((signed int)r[(signed long int)i].wins + (signed int)r[(signed long int)i].draws / 2)) / tmp_if_expr$4 + (signed int)r[(signed long int)i].wins / 2;
+              tmp_if_expr_4 = 1;
+            m[(signed long int)i].score = (100 * ((signed int)r[(signed long int)i].wins + (signed int)r[(signed long int)i].draws / 2)) / tmp_if_expr_4 + (signed int)r[(signed long int)i].wins / 2;
             pref[(signed long int)mcnt].score = m[(signed long int)i].score;
           }
 
@@ -3389,9 +3389,9 @@ struct anonymous$8
                 if(maxdistribution == 0)
                   return 6;
 
-                signed int return_value_rand$5;
-                return_value_rand$5=rand();
-                k = return_value_rand$5 % maxdistribution;
+                signed int return_value_rand_5;
+                return_value_rand_5=rand();
+                k = return_value_rand_5 % maxdistribution;
                 maxdistribution = 0;
                 i = 0;
                 for( ; !(i >= (signed int)temp); i = i + 1)
@@ -3423,7 +3423,7 @@ struct anonymous$8
 static inline signed int CTL(signed short int sq, signed short int piece, signed short int side)
 {
   signed int s;
-  signed int CTL$$1$$n;
+  signed int CTL__1__n;
   signed int EnemyKing;
   signed int FriendlyKing;
   unsigned long int controlled;
@@ -3431,22 +3431,22 @@ static inline signed int CTL(signed short int sq, signed short int piece, signed
   EnemyKing = (signed int)board.king[(signed long int)(1 ^ (signed int)side)];
   FriendlyKing = (signed int)board.king[(signed long int)side];
   controlled=AttackXFrom((signed int)sq, (signed int)side);
-  unsigned char return_value_nbits$1;
-  return_value_nbits$1=nbits$link2(controlled & boxes[(signed long int)0]);
-  CTL$$1$$n = (signed int)return_value_nbits$1;
-  s = s + 4 * CTL$$1$$n;
-  unsigned char return_value_nbits$2;
-  return_value_nbits$2=nbits$link2(controlled & DistMap[(signed long int)EnemyKing][(signed long int)2]);
-  CTL$$1$$n = (signed int)return_value_nbits$2;
-  s = s + CTL$$1$$n;
-  unsigned char return_value_nbits$3;
-  return_value_nbits$3=nbits$link2(controlled & DistMap[(signed long int)FriendlyKing][(signed long int)2]);
-  CTL$$1$$n = (signed int)return_value_nbits$3;
-  s = s + CTL$$1$$n;
-  unsigned char return_value_nbits$4;
-  return_value_nbits$4=nbits$link2(controlled);
-  CTL$$1$$n = (signed int)return_value_nbits$4;
-  s = s + 4 * CTL$$1$$n;
+  unsigned char return_value_nbits_1;
+  return_value_nbits_1=nbits_link2(controlled & boxes[(signed long int)0]);
+  CTL__1__n = (signed int)return_value_nbits_1;
+  s = s + 4 * CTL__1__n;
+  unsigned char return_value_nbits_2;
+  return_value_nbits_2=nbits_link2(controlled & DistMap[(signed long int)EnemyKing][(signed long int)2]);
+  CTL__1__n = (signed int)return_value_nbits_2;
+  s = s + CTL__1__n;
+  unsigned char return_value_nbits_3;
+  return_value_nbits_3=nbits_link2(controlled & DistMap[(signed long int)FriendlyKing][(signed long int)2]);
+  CTL__1__n = (signed int)return_value_nbits_3;
+  s = s + CTL__1__n;
+  unsigned char return_value_nbits_4;
+  return_value_nbits_4=nbits_link2(controlled);
+  CTL__1__n = (signed int)return_value_nbits_4;
+  s = s + 4 * CTL__1__n;
   return s;
 }
 
@@ -3469,9 +3469,9 @@ void CalcHashKey(void)
       b = board.b[(signed long int)color][(signed long int)piece];
       while(!(b == 0ul))
       {
-        unsigned char return_value_leadz$1;
-        return_value_leadz$1=leadz$link4(b);
-        sq = (signed int)return_value_leadz$1;
+        unsigned char return_value_leadz_1;
+        return_value_leadz_1=leadz_link4(b);
+        sq = (signed int)return_value_leadz_1;
         b = b & NotBitPosArray[(signed long int)sq];
         HashKey = HashKey ^ hashcode[(signed long int)color][(signed long int)piece][(signed long int)sq];
         if(piece == 1)
@@ -3570,20 +3570,20 @@ void DBListPlayer(const char *style)
 void DBReadPlayer(void)
 {
   struct _IO_FILE *rfp;
-  signed int DBReadPlayer$$1$$n;
+  signed int DBReadPlayer__1__n;
   totalplayers = 0;
   rfp=fopen("players.dat", "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(!(rfp == ((struct _IO_FILE *)NULL)))
   {
     do
     {
-      return_value_feof$1=feof(rfp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(rfp);
+      if(!(return_value_feof_1 == 0))
         break;
 
-      DBReadPlayer$$1$$n=fscanf(rfp, "%49s %d %d %d\n", (const void *)playerdb[(signed long int)totalplayers].player, &playerdb[(signed long int)totalplayers].wins, &playerdb[(signed long int)totalplayers].losses, &playerdb[(signed long int)totalplayers].draws);
-      if(DBReadPlayer$$1$$n == 4)
+      DBReadPlayer__1__n=fscanf(rfp, "%49s %d %d %d\n", (const void *)playerdb[(signed long int)totalplayers].player, &playerdb[(signed long int)totalplayers].wins, &playerdb[(signed long int)totalplayers].losses, &playerdb[(signed long int)totalplayers].draws);
+      if(DBReadPlayer__1__n == 4)
         totalplayers = totalplayers + 1;
 
     }
@@ -3599,13 +3599,13 @@ signed int DBSearchPlayer(const char *player)
 {
   signed int index = -1;
   signed int i = 0;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_strncmp$2;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_strncmp_2;
   for( ; !(i >= totalplayers); i = i + 1)
   {
-    return_value_strlen$1=strlen(playerdb[(signed long int)i].player);
-    return_value_strncmp$2=strncmp(playerdb[(signed long int)i].player, player, return_value_strlen$1);
-    if(return_value_strncmp$2 == 0)
+    return_value_strlen_1=strlen(playerdb[(signed long int)i].player);
+    return_value_strncmp_2=strncmp(playerdb[(signed long int)i].player, player, return_value_strlen_1);
+    if(return_value_strncmp_2 == 0)
     {
       index = i;
       break;
@@ -3619,24 +3619,24 @@ signed int DBSearchPlayer(const char *player)
 // file players.c line 83
 void DBSortPlayer(const char *style)
 {
-  signed int return_value_strncmp$3;
-  return_value_strncmp$3=strncmp(style, "score", (unsigned long int)5);
-  signed int return_value_strncmp$2;
-  signed int return_value_strncmp$1;
-  if(return_value_strncmp$3 == 0)
-    qsort((void *)&playerdb, (unsigned long int)totalplayers, sizeof(struct anonymous$7) /*64ul*/ , scorecompare);
+  signed int return_value_strncmp_3;
+  return_value_strncmp_3=strncmp(style, "score", (unsigned long int)5);
+  signed int return_value_strncmp_2;
+  signed int return_value_strncmp_1;
+  if(return_value_strncmp_3 == 0)
+    qsort((void *)&playerdb, (unsigned long int)totalplayers, sizeof(struct anonymous_7) /*64ul*/ , scorecompare);
 
   else
   {
-    return_value_strncmp$2=strncmp(style, "name", (unsigned long int)4);
-    if(return_value_strncmp$2 == 0)
-      qsort((void *)&playerdb, (unsigned long int)totalplayers, sizeof(struct anonymous$7) /*64ul*/ , namecompare);
+    return_value_strncmp_2=strncmp(style, "name", (unsigned long int)4);
+    if(return_value_strncmp_2 == 0)
+      qsort((void *)&playerdb, (unsigned long int)totalplayers, sizeof(struct anonymous_7) /*64ul*/ , namecompare);
 
     else
     {
-      return_value_strncmp$1=strncmp(style, "reverse", (unsigned long int)7);
-      if(return_value_strncmp$1 == 0)
-        qsort((void *)&playerdb, (unsigned long int)totalplayers, sizeof(struct anonymous$7) /*64ul*/ , rscorecompare);
+      return_value_strncmp_1=strncmp(style, "reverse", (unsigned long int)7);
+      if(return_value_strncmp_1 == 0)
+        qsort((void *)&playerdb, (unsigned long int)totalplayers, sizeof(struct anonymous_7) /*64ul*/ , rscorecompare);
 
     }
   }
@@ -3653,17 +3653,17 @@ void DBUpdatePlayer(const char *player, const char *resultstr)
   p = player;
   x = lname;
   strcpy(lname, player);
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   while((_Bool)1)
   {
     if(!((signed int)*p == 32))
     {
-      tmp_post$1 = x;
+      tmp_post_1 = x;
       x = x + 1l;
-      tmp_post$2 = p;
+      tmp_post_2 = p;
       p = p + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
 
     else
@@ -3673,7 +3673,7 @@ void DBUpdatePlayer(const char *player, const char *resultstr)
 
   }
   *x = (char)0;
-  memset((void *)playerdb, 0, sizeof(struct anonymous$7 [500l]) /*32000ul*/ );
+  memset((void *)playerdb, 0, sizeof(struct anonymous_7 [500l]) /*32000ul*/ );
   DBReadPlayer();
   index=DBSearchPlayer(lname);
   if(index == -1)
@@ -3686,23 +3686,23 @@ void DBUpdatePlayer(const char *player, const char *resultstr)
     totalplayers = totalplayers + 1;
   }
 
-  signed int return_value_strncmp$5;
-  return_value_strncmp$5=strncmp(resultstr, "1-0", (unsigned long int)3);
-  signed int return_value_strncmp$4;
-  signed int return_value_strncmp$3;
-  if(return_value_strncmp$5 == 0)
+  signed int return_value_strncmp_5;
+  return_value_strncmp_5=strncmp(resultstr, "1-0", (unsigned long int)3);
+  signed int return_value_strncmp_4;
+  signed int return_value_strncmp_3;
+  if(return_value_strncmp_5 == 0)
     result = 1;
 
   else
   {
-    return_value_strncmp$4=strncmp(resultstr, "0-1", (unsigned long int)3);
-    if(return_value_strncmp$4 == 0)
+    return_value_strncmp_4=strncmp(resultstr, "0-1", (unsigned long int)3);
+    if(return_value_strncmp_4 == 0)
       result = 2;
 
     else
     {
-      return_value_strncmp$3=strncmp(resultstr, "1/2-1/2", (unsigned long int)7);
-      if(return_value_strncmp$3 == 0)
+      return_value_strncmp_3=strncmp(resultstr, "1/2-1/2", (unsigned long int)7);
+      if(return_value_strncmp_3 == 0)
         result = 3;
 
     }
@@ -3742,23 +3742,23 @@ void DBWritePlayer(void)
 signed int DoubleQR7(signed short int side)
 {
   signed int xside = 1 ^ (signed int)side;
-  unsigned char return_value_nbits$1;
-  return_value_nbits$1=nbits$link2((board.b[(signed long int)side][(signed long int)5] | board.b[(signed long int)side][(signed long int)4]) & brank7[(signed long int)side]);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if((signed int)return_value_nbits$1 >= 2)
+  unsigned char return_value_nbits_1;
+  return_value_nbits_1=nbits_link2((board.b[(signed long int)side][(signed long int)5] | board.b[(signed long int)side][(signed long int)4]) & brank7[(signed long int)side]);
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if((signed int)return_value_nbits_1 >= 2)
   {
     if(!((board.b[(signed long int)xside][6l] & brank8[(signed long int)side]) == 0ul))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (board.b[(signed long int)xside][(signed long int)1] & brank7[(signed long int)side]) != 0ul ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (board.b[(signed long int)xside][(signed long int)1] & brank7[(signed long int)side]) != 0ul ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
     return 30;
 
   else
@@ -3783,14 +3783,14 @@ void EndSearch(signed int sig)
 signed int EvalHung(signed int side)
 {
   unsigned long int c;
-  unsigned long int EvalHung$$1$$n;
+  unsigned long int EvalHung__1__n;
   unsigned long int b;
   unsigned long int r;
   unsigned long int q;
   signed int xside = 1 ^ side;
   hunged[(signed long int)side] = 0;
-  EvalHung$$1$$n = Ataks[(signed long int)xside][(signed long int)1] & board.b[(signed long int)side][(signed long int)2];
-  EvalHung$$1$$n = EvalHung$$1$$n | Ataks[(signed long int)xside][(signed long int)0] & board.b[(signed long int)side][(signed long int)2] & ~Ataks[(signed long int)side][(signed long int)0];
+  EvalHung__1__n = Ataks[(signed long int)xside][(signed long int)1] & board.b[(signed long int)side][(signed long int)2];
+  EvalHung__1__n = EvalHung__1__n | Ataks[(signed long int)xside][(signed long int)0] & board.b[(signed long int)side][(signed long int)2] & ~Ataks[(signed long int)side][(signed long int)0];
   b = Ataks[(signed long int)xside][(signed long int)1] & board.b[(signed long int)side][(signed long int)3];
   b = b | Ataks[(signed long int)xside][(signed long int)0] & board.b[(signed long int)side][(signed long int)3] & ~Ataks[(signed long int)side][(signed long int)0];
   r = Ataks[(signed long int)xside][(signed long int)1] | Ataks[(signed long int)xside][(signed long int)2] | Ataks[(signed long int)xside][(signed long int)3];
@@ -3799,12 +3799,12 @@ signed int EvalHung(signed int side)
   q = Ataks[(signed long int)xside][(signed long int)1] | Ataks[(signed long int)xside][(signed long int)2] | Ataks[(signed long int)xside][(signed long int)3] | Ataks[(signed long int)xside][(signed long int)4];
   q = q & board.b[(signed long int)side][(signed long int)5];
   q = q | Ataks[(signed long int)xside][(signed long int)0] & board.b[(signed long int)side][(signed long int)5] & ~Ataks[(signed long int)side][(signed long int)0];
-  c = EvalHung$$1$$n | b | r | q;
-  unsigned char return_value_nbits$1;
+  c = EvalHung__1__n | b | r | q;
+  unsigned char return_value_nbits_1;
   if(!(c == 0ul))
   {
-    return_value_nbits$1=nbits$link4(c);
-    hunged[(signed long int)side] = hunged[(signed long int)side] + (signed int)return_value_nbits$1;
+    return_value_nbits_1=nbits_link4(c);
+    hunged[(signed long int)side] = hunged[(signed long int)side] + (signed int)return_value_nbits_1;
   }
 
   if(!((board.b[(signed long int)side][6l] & Ataks[(signed long int)xside][0l]) == 0ul))
@@ -3826,36 +3826,36 @@ signed int Evaluate(signed int alpha, signed int beta)
   unsigned long int *b;
   side = (signed int)board.side;
   xside = 1 ^ side;
-  signed int return_value_KPK$1;
-  signed int return_value_LoneKing$2;
-  signed int return_value_LoneKing$3;
-  _Bool tmp_if_expr$4;
-  signed int return_value_ScoreDev$5;
-  signed int return_value_ScoreDev$6;
-  signed int return_value_ScoreP$7;
-  signed int return_value_ScoreP$8;
-  signed int return_value_ScoreK$9;
-  signed int return_value_ScoreK$10;
-  signed int return_value_BishopTrapped$11;
-  signed int return_value_BishopTrapped$12;
-  signed int return_value_DoubleQR7$13;
-  signed int return_value_DoubleQR7$14;
-  _Bool tmp_if_expr$19;
-  signed int tmp_if_expr$17;
-  signed int tmp_if_expr$18;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$28;
+  signed int return_value_KPK_1;
+  signed int return_value_LoneKing_2;
+  signed int return_value_LoneKing_3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_ScoreDev_5;
+  signed int return_value_ScoreDev_6;
+  signed int return_value_ScoreP_7;
+  signed int return_value_ScoreP_8;
+  signed int return_value_ScoreK_9;
+  signed int return_value_ScoreK_10;
+  signed int return_value_BishopTrapped_11;
+  signed int return_value_BishopTrapped_12;
+  signed int return_value_DoubleQR7_13;
+  signed int return_value_DoubleQR7_14;
+  _Bool tmp_if_expr_19;
+  signed int tmp_if_expr_17;
+  signed int tmp_if_expr_18;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_28;
   if(alpha >= 32513 || !(beta >= 255))
     return (signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)];
 
   else
     if((signed int)board.material[0l] + (signed int)board.material[1l] == 100)
     {
-      return_value_KPK$1=KPK(side);
-      return return_value_KPK$1;
+      return_value_KPK_1=KPK(side);
+      return return_value_KPK_1;
     }
 
     else
@@ -3864,8 +3864,8 @@ signed int Evaluate(signed int alpha, signed int beta)
         if(!(board.b[(signed long int)side][1l] == 0x0000000000000000ULL))
           goto __CPROVER_DUMP_L3;
 
-        return_value_LoneKing$2=LoneKing(side, xside);
-        return return_value_LoneKing$2;
+        return_value_LoneKing_2=LoneKing(side, xside);
+        return return_value_LoneKing_2;
       }
 
       else
@@ -3878,8 +3878,8 @@ signed int Evaluate(signed int alpha, signed int beta)
           if(!(board.b[(signed long int)xside][1l] == 0x0000000000000000ULL))
             goto __CPROVER_DUMP_L4;
 
-          return_value_LoneKing$3=LoneKing(side, side);
-          return return_value_LoneKing$3;
+          return_value_LoneKing_3=LoneKing(side, side);
+          return return_value_LoneKing_3;
         }
 
         else
@@ -3895,11 +3895,11 @@ signed int Evaluate(signed int alpha, signed int beta)
           pieces[(signed long int)1] = b[(signed long int)2] | b[(signed long int)3] | b[(signed long int)4] | b[(signed long int)5];
           s1 = (signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)];
           if(!(maxposnscore[(signed long int)side] + s1 >= alpha))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = s1 - maxposnscore[(signed long int)xside] > beta ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = s1 - maxposnscore[(signed long int)xside] > beta ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
           {
             if(phase >= 7)
               goto __CPROVER_DUMP_L7;
@@ -3913,39 +3913,39 @@ signed int Evaluate(signed int alpha, signed int beta)
           __CPROVER_DUMP_L7:
             ;
             s = 0;
-            return_value_ScoreDev$5=ScoreDev((signed short int)side);
-            return_value_ScoreDev$6=ScoreDev((signed short int)xside);
-            s = s + (return_value_ScoreDev$5 - return_value_ScoreDev$6);
-            return_value_ScoreP$7=ScoreP((signed short int)side);
-            return_value_ScoreP$8=ScoreP((signed short int)xside);
-            s = s + (return_value_ScoreP$7 - return_value_ScoreP$8);
-            return_value_ScoreK$9=ScoreK((signed short int)side);
-            return_value_ScoreK$10=ScoreK((signed short int)xside);
-            s = s + (return_value_ScoreK$9 - return_value_ScoreK$10);
-            return_value_BishopTrapped$11=BishopTrapped((signed short int)side);
-            return_value_BishopTrapped$12=BishopTrapped((signed short int)xside);
-            s = s + (return_value_BishopTrapped$11 - return_value_BishopTrapped$12);
-            return_value_DoubleQR7$13=DoubleQR7((signed short int)side);
-            return_value_DoubleQR7$14=DoubleQR7((signed short int)xside);
-            s = s + (return_value_DoubleQR7$13 - return_value_DoubleQR7$14);
+            return_value_ScoreDev_5=ScoreDev((signed short int)side);
+            return_value_ScoreDev_6=ScoreDev((signed short int)xside);
+            s = s + (return_value_ScoreDev_5 - return_value_ScoreDev_6);
+            return_value_ScoreP_7=ScoreP((signed short int)side);
+            return_value_ScoreP_8=ScoreP((signed short int)xside);
+            s = s + (return_value_ScoreP_7 - return_value_ScoreP_8);
+            return_value_ScoreK_9=ScoreK((signed short int)side);
+            return_value_ScoreK_10=ScoreK((signed short int)xside);
+            s = s + (return_value_ScoreK_9 - return_value_ScoreK_10);
+            return_value_BishopTrapped_11=BishopTrapped((signed short int)side);
+            return_value_BishopTrapped_12=BishopTrapped((signed short int)xside);
+            s = s + (return_value_BishopTrapped_11 - return_value_BishopTrapped_12);
+            return_value_DoubleQR7_13=DoubleQR7((signed short int)side);
+            return_value_DoubleQR7_14=DoubleQR7((signed short int)xside);
+            s = s + (return_value_DoubleQR7_13 - return_value_DoubleQR7_14);
             s1 = s + ((signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)]);
             if(!(lazyscore[(signed long int)side] + s1 >= alpha))
-              tmp_if_expr$19 = (_Bool)1;
+              tmp_if_expr_19 = (_Bool)1;
 
             else
-              tmp_if_expr$19 = s1 - lazyscore[(signed long int)side] > beta ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$19)
+              tmp_if_expr_19 = s1 - lazyscore[(signed long int)side] > beta ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_19)
               score = s1;
 
             else
             {
               EvalCnt = EvalCnt + 1ul;
               GenAtaks();
-              signed int return_value_EvalHung$15;
-              return_value_EvalHung$15=EvalHung(side);
-              signed int return_value_EvalHung$16;
-              return_value_EvalHung$16=EvalHung(xside);
-              s1 = -20 * (return_value_EvalHung$15 - return_value_EvalHung$16);
+              signed int return_value_EvalHung_15;
+              return_value_EvalHung_15=EvalHung(side);
+              signed int return_value_EvalHung_16;
+              return_value_EvalHung_16=EvalHung(xside);
+              s1 = -20 * (return_value_EvalHung_15 - return_value_EvalHung_16);
               FindPins(&pinned);
               piece = 2;
               if(!(piece >= 6))
@@ -3959,17 +3959,17 @@ signed int Evaluate(signed int alpha, signed int beta)
               }
 
               if(!(lazyscore[(signed long int)side] >= s1))
-                tmp_if_expr$17 = s1;
+                tmp_if_expr_17 = s1;
 
               else
-                tmp_if_expr$17 = lazyscore[(signed long int)side];
-              lazyscore[(signed long int)side] = tmp_if_expr$17;
+                tmp_if_expr_17 = lazyscore[(signed long int)side];
+              lazyscore[(signed long int)side] = tmp_if_expr_17;
               if(!(s + s1 >= maxposnscore[(signed long int)side]))
-                tmp_if_expr$18 = maxposnscore[(signed long int)side];
+                tmp_if_expr_18 = maxposnscore[(signed long int)side];
 
               else
-                tmp_if_expr$18 = s + s1;
-              maxposnscore[(signed long int)side] = tmp_if_expr$18;
+                tmp_if_expr_18 = s + s1;
+              maxposnscore[(signed long int)side] = tmp_if_expr_18;
               score = s + s1 + ((signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)]);
             }
           }
@@ -3978,23 +3978,23 @@ signed int Evaluate(signed int alpha, signed int beta)
           ;
           if((signed int)board.material[(signed long int)side] + -((signed int)board.material[(signed long int)(1 ^ side)]) >= 200)
           {
-            unsigned char return_value_nbits$20;
-            return_value_nbits$20=nbits$link2(pieces[(signed long int)0] | pieces[(signed long int)1]);
-            score = score + ((signed int)RootPieces - (signed int)return_value_nbits$20) * 4;
-            unsigned char return_value_nbits$21;
-            return_value_nbits$21=nbits$link2(board.b[(signed long int)0][(signed long int)1] | board.b[(signed long int)1][(signed long int)1]);
-            score = score - ((signed int)RootPawns - (signed int)return_value_nbits$21) * 8;
+            unsigned char return_value_nbits_20;
+            return_value_nbits_20=nbits_link2(pieces[(signed long int)0] | pieces[(signed long int)1]);
+            score = score + ((signed int)RootPieces - (signed int)return_value_nbits_20) * 4;
+            unsigned char return_value_nbits_21;
+            return_value_nbits_21=nbits_link2(board.b[(signed long int)0][(signed long int)1] | board.b[(signed long int)1][(signed long int)1]);
+            score = score - ((signed int)RootPawns - (signed int)return_value_nbits_21) * 8;
           }
 
           else
             if(!((signed int)board.material[(signed long int)side] + -((signed int)board.material[(signed long int)(1 ^ side)]) >= -199))
             {
-              unsigned char return_value_nbits$22;
-              return_value_nbits$22=nbits$link2(pieces[(signed long int)0] | pieces[(signed long int)1]);
-              score = score - ((signed int)RootPieces - (signed int)return_value_nbits$22) * 4;
-              unsigned char return_value_nbits$23;
-              return_value_nbits$23=nbits$link2(board.b[(signed long int)0][(signed long int)1] | board.b[(signed long int)1][(signed long int)1]);
-              score = score + ((signed int)RootPawns - (signed int)return_value_nbits$23) * 8;
+              unsigned char return_value_nbits_22;
+              return_value_nbits_22=nbits_link2(pieces[(signed long int)0] | pieces[(signed long int)1]);
+              score = score - ((signed int)RootPieces - (signed int)return_value_nbits_22) * 4;
+              unsigned char return_value_nbits_23;
+              return_value_nbits_23=nbits_link2(board.b[(signed long int)0][(signed long int)1] | board.b[(signed long int)1][(signed long int)1]);
+              score = score + ((signed int)RootPawns - (signed int)return_value_nbits_23) * 8;
             }
 
           if(phase >= 6)
@@ -4004,23 +4004,23 @@ signed int Evaluate(signed int alpha, signed int beta)
               if(pieces[1l] == board.b[1l][3l])
               {
                 if(!((0x55AA55AA55AA55AAULL & pieces[0l]) == 0ul))
-                  tmp_if_expr$24 = (pieces[(signed long int)1] & 0xAA55AA55AA55AA55ULL) != 0ul ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_24 = (pieces[(signed long int)1] & 0xAA55AA55AA55AA55ULL) != 0ul ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$24 = (_Bool)0;
-                if(tmp_if_expr$24)
-                  tmp_if_expr$26 = (_Bool)1;
+                  tmp_if_expr_24 = (_Bool)0;
+                if(tmp_if_expr_24)
+                  tmp_if_expr_26 = (_Bool)1;
 
                 else
                 {
                   if(!((0xAA55AA55AA55AA55ULL & pieces[0l]) == 0ul))
-                    tmp_if_expr$25 = (pieces[(signed long int)1] & 0x55AA55AA55AA55AAULL) != 0ul ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_25 = (pieces[(signed long int)1] & 0x55AA55AA55AA55AAULL) != 0ul ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$25 = (_Bool)0;
-                  tmp_if_expr$26 = tmp_if_expr$25 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_25 = (_Bool)0;
+                  tmp_if_expr_26 = tmp_if_expr_25 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$26)
+                if(tmp_if_expr_26)
                   score = score / 2;
 
               }
@@ -4034,11 +4034,11 @@ signed int Evaluate(signed int alpha, signed int beta)
             if(board.b[(signed long int)side][1l] == 0ul)
             {
               if(!((signed int)board.material[(signed long int)side] >= 550))
-                tmp_if_expr$27 = (_Bool)1;
+                tmp_if_expr_27 = (_Bool)1;
 
               else
-                tmp_if_expr$27 = pieces[(signed long int)side] == board.b[(signed long int)side][(signed long int)2] ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$27)
+                tmp_if_expr_27 = pieces[(signed long int)side] == board.b[(signed long int)side][(signed long int)2] ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_27)
                 score = 0;
 
             }
@@ -4050,11 +4050,11 @@ signed int Evaluate(signed int alpha, signed int beta)
             if(board.b[(signed long int)xside][1l] == 0ul)
             {
               if(!((signed int)board.material[(signed long int)xside] >= 550))
-                tmp_if_expr$28 = (_Bool)1;
+                tmp_if_expr_28 = (_Bool)1;
 
               else
-                tmp_if_expr$28 = pieces[(signed long int)xside] == board.b[(signed long int)xside][(signed long int)2] ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$28)
+                tmp_if_expr_28 = pieces[(signed long int)xside] == board.b[(signed long int)xside][(signed long int)2] ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_28)
                 score = 0;
 
             }
@@ -4076,13 +4076,13 @@ signed short int EvaluateDraw(void)
   signed int bm;
   signed int wn;
   signed int bn;
-  _Bool tmp_if_expr$1;
-  unsigned char return_value_nbits$4;
-  _Bool tmp_if_expr$6;
-  unsigned char return_value_nbits$5;
-  unsigned char return_value_nbits$7;
-  _Bool tmp_if_expr$9;
-  unsigned char return_value_nbits$8;
+  _Bool tmp_if_expr_1;
+  unsigned char return_value_nbits_4;
+  _Bool tmp_if_expr_6;
+  unsigned char return_value_nbits_5;
+  unsigned char return_value_nbits_7;
+  _Bool tmp_if_expr_9;
+  unsigned char return_value_nbits_8;
   if(!(GameCnt + -Game50 >= 5))
     return (signed short int)0;
 
@@ -4095,23 +4095,23 @@ signed short int EvaluateDraw(void)
       w = board.b[(signed long int)0];
       b = board.b[(signed long int)1];
       if(!(w[1l] == 0ul))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = b[(signed long int)1] != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = b[(signed long int)1] != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return (signed short int)0;
 
       else
       {
         wm = (signed int)board.material[(signed long int)0];
         bm = (signed int)board.material[(signed long int)1];
-        unsigned char return_value_nbits$2;
-        return_value_nbits$2=nbits$link2(w[(signed long int)2]);
-        wn = (signed int)return_value_nbits$2;
-        unsigned char return_value_nbits$3;
-        return_value_nbits$3=nbits$link2(b[(signed long int)2]);
-        bn = (signed int)return_value_nbits$3;
+        unsigned char return_value_nbits_2;
+        return_value_nbits_2=nbits_link2(w[(signed long int)2]);
+        wn = (signed int)return_value_nbits_2;
+        unsigned char return_value_nbits_3;
+        return_value_nbits_3=nbits_link2(b[(signed long int)2]);
+        bn = (signed int)return_value_nbits_3;
         if((bm == 2 && bn == 2 || !(bm >= 550)) && (wm == 2 && wn == 2 || !(wm >= 550)))
           return (signed short int)1;
 
@@ -4121,16 +4121,16 @@ signed short int EvaluateDraw(void)
           {
             if(bm == 2)
             {
-              return_value_nbits$4=nbits$link2(board.b[(signed long int)1][(signed long int)3] & 0x55AA55AA55AA55AAULL);
-              if((signed int)return_value_nbits$4 == 2)
-                tmp_if_expr$6 = (_Bool)1;
+              return_value_nbits_4=nbits_link2(board.b[(signed long int)1][(signed long int)3] & 0x55AA55AA55AA55AAULL);
+              if((signed int)return_value_nbits_4 == 2)
+                tmp_if_expr_6 = (_Bool)1;
 
               else
               {
-                return_value_nbits$5=nbits$link2(board.b[(signed long int)1][(signed long int)3] & 0xAA55AA55AA55AA55ULL);
-                tmp_if_expr$6 = (signed int)return_value_nbits$5 == 2 ? (_Bool)1 : (_Bool)0;
+                return_value_nbits_5=nbits_link2(board.b[(signed long int)1][(signed long int)3] & 0xAA55AA55AA55AA55ULL);
+                tmp_if_expr_6 = (signed int)return_value_nbits_5 == 2 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$6)
+              if(tmp_if_expr_6)
                 return (signed short int)1;
 
             }
@@ -4141,16 +4141,16 @@ signed short int EvaluateDraw(void)
           {
             if(wm == 2)
             {
-              return_value_nbits$7=nbits$link2(board.b[(signed long int)0][(signed long int)3] & 0x55AA55AA55AA55AAULL);
-              if((signed int)return_value_nbits$7 == 2)
-                tmp_if_expr$9 = (_Bool)1;
+              return_value_nbits_7=nbits_link2(board.b[(signed long int)0][(signed long int)3] & 0x55AA55AA55AA55AAULL);
+              if((signed int)return_value_nbits_7 == 2)
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value_nbits$8=nbits$link2(board.b[(signed long int)0][(signed long int)3] & 0xAA55AA55AA55AA55ULL);
-                tmp_if_expr$9 = (signed int)return_value_nbits$8 == 2 ? (_Bool)1 : (_Bool)0;
+                return_value_nbits_8=nbits_link2(board.b[(signed long int)0][(signed long int)3] & 0xAA55AA55AA55AA55ULL);
+                tmp_if_expr_9 = (signed int)return_value_nbits_8 == 2 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$9)
+              if(tmp_if_expr_9)
                 return (signed short int)1;
 
             }
@@ -4176,21 +4176,21 @@ void FilterIllegalMoves(signed short int ply)
   xside = 1 ^ side;
   sq = (signed int)board.king[(signed long int)side];
   p = TreePtr[(signed long int)ply];
-  signed short int return_value_SqAtakd$1;
-  signed short int return_value_SqAtakd$2;
+  signed short int return_value_SqAtakd_1;
+  signed short int return_value_SqAtakd_2;
   for( ; !(p >= TreePtr[(signed long int)(1 + (signed int)ply)]); p = p + 1l)
   {
     MakeMove(side, &p->move);
     if(!(cboard[(signed long int)(0x003F & p->move)] == 6))
     {
-      return_value_SqAtakd$1=SqAtakd((signed short int)sq, (signed short int)xside);
-      check = (signed int)return_value_SqAtakd$1;
+      return_value_SqAtakd_1=SqAtakd((signed short int)sq, (signed short int)xside);
+      check = (signed int)return_value_SqAtakd_1;
     }
 
     else
     {
-      return_value_SqAtakd$2=SqAtakd((signed short int)(p->move & 0x003F), (signed short int)xside);
-      check = (signed int)return_value_SqAtakd$2;
+      return_value_SqAtakd_2=SqAtakd((signed short int)(p->move & 0x003F), (signed short int)xside);
+      check = (signed int)return_value_SqAtakd_2;
     }
     UnmakeMove(xside, &p->move);
     if(!(check == 0))
@@ -4221,9 +4221,9 @@ void FindPins(unsigned long int *pin)
   *pin = 0x0000000000000000ULL;
   t = board.friends[(signed long int)0] | board.friends[(signed long int)1];
   side = 0;
-  unsigned char return_value_nbits$3;
-  unsigned char return_value_nbits$6;
-  unsigned char return_value_nbits$9;
+  unsigned char return_value_nbits_3;
+  unsigned char return_value_nbits_6;
+  unsigned char return_value_nbits_9;
   for( ; !(side >= 2); side = side + 1)
   {
     xside = 1 ^ side;
@@ -4233,22 +4233,22 @@ void FindPins(unsigned long int *pin)
     b = board.b[(signed long int)side][(signed long int)3];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$1;
-      return_value_leadz$1=leadz(b);
-      sq = (signed int)return_value_leadz$1;
+      unsigned char return_value_leadz_1;
+      return_value_leadz_1=leadz(b);
+      sq = (signed int)return_value_leadz_1;
       b = b & NotBitPosArray[(signed long int)sq];
       c = MoveArray[(signed long int)3][(signed long int)sq] & e;
       while(!(c == 0ul))
       {
-        unsigned char return_value_leadz$2;
-        return_value_leadz$2=leadz(c);
-        sq1 = (signed int)return_value_leadz$2;
+        unsigned char return_value_leadz_2;
+        return_value_leadz_2=leadz(c);
+        sq1 = (signed int)return_value_leadz_2;
         c = c & NotBitPosArray[(signed long int)sq1];
         f = t & NotBitPosArray[(signed long int)sq] & FromToRay[(signed long int)sq1][(signed long int)sq];
         if(!((board.friends[(signed long int)xside] & f) == 0ul))
         {
-          return_value_nbits$3=nbits(f);
-          if((signed int)return_value_nbits$3 == 1)
+          return_value_nbits_3=nbits(f);
+          if((signed int)return_value_nbits_3 == 1)
             *pin = *pin | f;
 
         }
@@ -4260,22 +4260,22 @@ void FindPins(unsigned long int *pin)
     b = board.b[(signed long int)side][(signed long int)4];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$4;
-      return_value_leadz$4=leadz(b);
-      sq = (signed int)return_value_leadz$4;
+      unsigned char return_value_leadz_4;
+      return_value_leadz_4=leadz(b);
+      sq = (signed int)return_value_leadz_4;
       b = b & NotBitPosArray[(signed long int)sq];
       c = MoveArray[(signed long int)4][(signed long int)sq] & e;
       while(!(c == 0ul))
       {
-        unsigned char return_value_leadz$5;
-        return_value_leadz$5=leadz(c);
-        sq1 = (signed int)return_value_leadz$5;
+        unsigned char return_value_leadz_5;
+        return_value_leadz_5=leadz(c);
+        sq1 = (signed int)return_value_leadz_5;
         c = c & NotBitPosArray[(signed long int)sq1];
         f = t & NotBitPosArray[(signed long int)sq] & FromToRay[(signed long int)sq1][(signed long int)sq];
         if(!((board.friends[(signed long int)xside] & f) == 0ul))
         {
-          return_value_nbits$6=nbits(f);
-          if((signed int)return_value_nbits$6 == 1)
+          return_value_nbits_6=nbits(f);
+          if((signed int)return_value_nbits_6 == 1)
             *pin = *pin | f;
 
         }
@@ -4287,22 +4287,22 @@ void FindPins(unsigned long int *pin)
     b = board.b[(signed long int)side][(signed long int)5];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$7;
-      return_value_leadz$7=leadz(b);
-      sq = (signed int)return_value_leadz$7;
+      unsigned char return_value_leadz_7;
+      return_value_leadz_7=leadz(b);
+      sq = (signed int)return_value_leadz_7;
       b = b & NotBitPosArray[(signed long int)sq];
       c = MoveArray[(signed long int)5][(signed long int)sq] & e;
       while(!(c == 0ul))
       {
-        unsigned char return_value_leadz$8;
-        return_value_leadz$8=leadz(c);
-        sq1 = (signed int)return_value_leadz$8;
+        unsigned char return_value_leadz_8;
+        return_value_leadz_8=leadz(c);
+        sq1 = (signed int)return_value_leadz_8;
         c = c & NotBitPosArray[(signed long int)sq1];
         f = t & NotBitPosArray[(signed long int)sq] & FromToRay[(signed long int)sq1][(signed long int)sq];
         if(!((board.friends[(signed long int)xside] & f) == 0ul))
         {
-          return_value_nbits$9=nbits(f);
-          if((signed int)return_value_nbits$9 == 1)
+          return_value_nbits_9=nbits(f);
+          if((signed int)return_value_nbits_9 == 1)
             *pin = *pin | f;
 
         }
@@ -4335,9 +4335,9 @@ void GenAtaks(void)
     b = a[(signed long int)2];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$1;
-      return_value_leadz$1=leadz(b);
-      sq = (signed int)return_value_leadz$1;
+      unsigned char return_value_leadz_1;
+      return_value_leadz_1=leadz(b);
+      sq = (signed int)return_value_leadz_1;
       b = b & NotBitPosArray[(signed long int)sq];
       *t = *t | MoveArray[(signed long int)2][(signed long int)sq];
     }
@@ -4345,9 +4345,9 @@ void GenAtaks(void)
     b = a[(signed long int)3];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$2;
-      return_value_leadz$2=leadz(b);
-      sq = (signed int)return_value_leadz$2;
+      unsigned char return_value_leadz_2;
+      return_value_leadz_2=leadz(b);
+      sq = (signed int)return_value_leadz_2;
       b = b & NotBitPosArray[(signed long int)sq];
       *t = *t | Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])];
     }
@@ -4355,9 +4355,9 @@ void GenAtaks(void)
     b = a[(signed long int)4];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$3;
-      return_value_leadz$3=leadz(b);
-      sq = (signed int)return_value_leadz$3;
+      unsigned char return_value_leadz_3;
+      return_value_leadz_3=leadz(b);
+      sq = (signed int)return_value_leadz_3;
       b = b & NotBitPosArray[(signed long int)sq];
       *t = *t | Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     }
@@ -4365,9 +4365,9 @@ void GenAtaks(void)
     b = a[(signed long int)5];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$4;
-      return_value_leadz$4=leadz(b);
-      sq = (signed int)return_value_leadz$4;
+      unsigned char return_value_leadz_4;
+      return_value_leadz_4=leadz(b);
+      sq = (signed int)return_value_leadz_4;
       b = b & NotBitPosArray[(signed long int)sq];
       *t = *t | Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])] | Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     }
@@ -4375,9 +4375,9 @@ void GenAtaks(void)
     b = a[(signed long int)6];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$5;
-      return_value_leadz$5=leadz(b);
-      sq = (signed int)return_value_leadz$5;
+      unsigned char return_value_leadz_5;
+      return_value_leadz_5=leadz(b);
+      sq = (signed int)return_value_leadz_5;
       b = b & NotBitPosArray[(signed long int)sq];
       *t = *t | MoveArray[(signed long int)6][(signed long int)sq];
     }
@@ -4428,9 +4428,9 @@ void GenCaptures(signed short int ply)
     b = a[(signed long int)piece];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$1;
-      return_value_leadz$1=leadz$link3(b);
-      sq = (signed int)return_value_leadz$1;
+      unsigned char return_value_leadz_1;
+      return_value_leadz_1=leadz_link3(b);
+      sq = (signed int)return_value_leadz_1;
       b = b & NotBitPosArray[(signed long int)sq];
       BitToMove((signed short int)sq, MoveArray[(signed long int)piece][(signed long int)sq] & enemy);
     }
@@ -4438,9 +4438,9 @@ void GenCaptures(signed short int ply)
   b = a[(signed long int)3];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$2;
-    return_value_leadz$2=leadz$link3(b);
-    sq = (signed int)return_value_leadz$2;
+    unsigned char return_value_leadz_2;
+    return_value_leadz_2=leadz_link3(b);
+    sq = (signed int)return_value_leadz_2;
     b = b & NotBitPosArray[(signed long int)sq];
     c = Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])];
     BitToMove((signed short int)sq, c & enemy);
@@ -4448,9 +4448,9 @@ void GenCaptures(signed short int ply)
   b = a[(signed long int)4];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$3;
-    return_value_leadz$3=leadz$link3(b);
-    sq = (signed int)return_value_leadz$3;
+    unsigned char return_value_leadz_3;
+    return_value_leadz_3=leadz_link3(b);
+    sq = (signed int)return_value_leadz_3;
     b = b & NotBitPosArray[(signed long int)sq];
     c = Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     BitToMove((signed short int)sq, c & enemy);
@@ -4458,24 +4458,24 @@ void GenCaptures(signed short int ply)
   b = a[(signed long int)5];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$4;
-    return_value_leadz$4=leadz$link3(b);
-    sq = (signed int)return_value_leadz$4;
+    unsigned char return_value_leadz_4;
+    return_value_leadz_4=leadz_link3(b);
+    sq = (signed int)return_value_leadz_4;
     b = b & NotBitPosArray[(signed long int)sq];
     c = Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])] | Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     BitToMove((signed short int)sq, c & enemy);
   }
-  unsigned long int tmp_if_expr$6;
-  unsigned long int tmp_if_expr$8;
+  unsigned long int tmp_if_expr_6;
+  unsigned long int tmp_if_expr_8;
   if(side == 0)
   {
     b = a[(signed long int)1] & RankBit[(signed long int)6];
     c = b >> 8 & ~blocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$5;
-      return_value_leadz$5=leadz$link3(c);
-      t = (signed int)return_value_leadz$5;
+      unsigned char return_value_leadz_5;
+      return_value_leadz_5=leadz_link3(c);
+      t = (signed int)return_value_leadz_5;
       c = c & NotBitPosArray[(signed long int)t];
       do
       {
@@ -4507,16 +4507,16 @@ void GenCaptures(signed short int ply)
     }
     b = a[(signed long int)1] & ~FileBit[(signed long int)0];
     if(ep >= 0)
-      tmp_if_expr$6 = BitPosArray[(signed long int)ep];
+      tmp_if_expr_6 = BitPosArray[(signed long int)ep];
 
     else
-      tmp_if_expr$6 = 0ULL;
-    c = b >> 7 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr$6);
+      tmp_if_expr_6 = 0ULL;
+    c = b >> 7 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr_6);
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$7;
-      return_value_leadz$7=leadz$link3(c);
-      t = (signed int)return_value_leadz$7;
+      unsigned char return_value_leadz_7;
+      return_value_leadz_7=leadz_link3(c);
+      t = (signed int)return_value_leadz_7;
       c = c & NotBitPosArray[(signed long int)t];
       if(t >= 56)
         do
@@ -4566,16 +4566,16 @@ void GenCaptures(signed short int ply)
     }
     b = a[(signed long int)1] & ~FileBit[(signed long int)7];
     if(ep >= 0)
-      tmp_if_expr$8 = BitPosArray[(signed long int)ep];
+      tmp_if_expr_8 = BitPosArray[(signed long int)ep];
 
     else
-      tmp_if_expr$8 = 0ULL;
-    c = b >> 9 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr$8);
+      tmp_if_expr_8 = 0ULL;
+    c = b >> 9 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr_8);
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$9;
-      return_value_leadz$9=leadz$link3(c);
-      t = (signed int)return_value_leadz$9;
+      unsigned char return_value_leadz_9;
+      return_value_leadz_9=leadz_link3(c);
+      t = (signed int)return_value_leadz_9;
       c = c & NotBitPosArray[(signed long int)t];
       if(t >= 56)
         do
@@ -4625,17 +4625,17 @@ void GenCaptures(signed short int ply)
     }
   }
 
-  unsigned long int tmp_if_expr$11;
-  unsigned long int tmp_if_expr$13;
+  unsigned long int tmp_if_expr_11;
+  unsigned long int tmp_if_expr_13;
   if(side == 1)
   {
     b = a[(signed long int)1] & RankBit[(signed long int)1];
     c = b << 8 & ~blocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$10;
-      return_value_leadz$10=leadz$link3(c);
-      t = (signed int)return_value_leadz$10;
+      unsigned char return_value_leadz_10;
+      return_value_leadz_10=leadz_link3(c);
+      t = (signed int)return_value_leadz_10;
       c = c & NotBitPosArray[(signed long int)t];
       do
       {
@@ -4667,16 +4667,16 @@ void GenCaptures(signed short int ply)
     }
     b = a[(signed long int)1] & ~FileBit[(signed long int)7];
     if(ep >= 0)
-      tmp_if_expr$11 = BitPosArray[(signed long int)ep];
+      tmp_if_expr_11 = BitPosArray[(signed long int)ep];
 
     else
-      tmp_if_expr$11 = 0ULL;
-    c = b << 7 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr$11);
+      tmp_if_expr_11 = 0ULL;
+    c = b << 7 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr_11);
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$12;
-      return_value_leadz$12=leadz$link3(c);
-      t = (signed int)return_value_leadz$12;
+      unsigned char return_value_leadz_12;
+      return_value_leadz_12=leadz_link3(c);
+      t = (signed int)return_value_leadz_12;
       c = c & NotBitPosArray[(signed long int)t];
       if(!(t >= 8))
         do
@@ -4726,16 +4726,16 @@ void GenCaptures(signed short int ply)
     }
     b = a[(signed long int)1] & ~FileBit[(signed long int)0];
     if(ep >= 0)
-      tmp_if_expr$13 = BitPosArray[(signed long int)ep];
+      tmp_if_expr_13 = BitPosArray[(signed long int)ep];
 
     else
-      tmp_if_expr$13 = 0ULL;
-    c = b << 9 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr$13);
+      tmp_if_expr_13 = 0ULL;
+    c = b << 9 & (board.friends[(signed long int)(1 ^ side)] | tmp_if_expr_13);
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$14;
-      return_value_leadz$14=leadz$link3(c);
-      t = (signed int)return_value_leadz$14;
+      unsigned char return_value_leadz_14;
+      return_value_leadz_14=leadz_link3(c);
+      t = (signed int)return_value_leadz_14;
       c = c & NotBitPosArray[(signed long int)t];
       if(!(t >= 8))
         do
@@ -4800,7 +4800,7 @@ void GenCheckEscapes(signed short int ply)
   signed int sq;
   signed int sq1;
   signed int epsq;
-  signed int GenCheckEscapes$$1$$dir;
+  signed int GenCheckEscapes__1__dir;
   unsigned long int checkers;
   unsigned long int b;
   unsigned long int c;
@@ -4812,24 +4812,24 @@ void GenCheckEscapes(signed short int ply)
   kingsq = (signed int)board.king[(signed long int)side];
   checkers=AttackTo(kingsq, xside);
   p = board.b[(signed long int)side][(signed long int)1];
-  unsigned char return_value_nbits$9;
-  return_value_nbits$9=nbits$link3(checkers);
-  if((signed int)return_value_nbits$9 == 1)
+  unsigned char return_value_nbits_9;
+  return_value_nbits_9=nbits_link3(checkers);
+  if((signed int)return_value_nbits_9 == 1)
   {
-    unsigned char return_value_leadz$1;
-    return_value_leadz$1=leadz$link3(checkers);
-    chksq = (signed int)return_value_leadz$1;
+    unsigned char return_value_leadz_1;
+    return_value_leadz_1=leadz_link3(checkers);
+    chksq = (signed int)return_value_leadz_1;
     b=AttackTo(chksq, side);
     b = b & ~board.b[(signed long int)side][(signed long int)6];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$2;
-      return_value_leadz$2=leadz$link3(b);
-      sq = (signed int)return_value_leadz$2;
+      unsigned char return_value_leadz_2;
+      return_value_leadz_2=leadz_link3(b);
+      sq = (signed int)return_value_leadz_2;
       b = b & NotBitPosArray[(signed long int)sq];
-      signed int return_value_PinnedOnKing$3;
-      return_value_PinnedOnKing$3=PinnedOnKing(sq, side);
-      if(return_value_PinnedOnKing$3 == 0)
+      signed int return_value_PinnedOnKing_3;
+      return_value_PinnedOnKing_3=PinnedOnKing(sq, side);
+      if(return_value_PinnedOnKing_3 == 0)
       {
         if((!(chksq >= 8) || chksq >= 56) && cboard[(signed long int)sq] == 1)
         {
@@ -4883,13 +4883,13 @@ void GenCheckEscapes(signed short int ply)
         b = MoveArray[(signed long int)ptype[(signed long int)(1 ^ side)]][(signed long int)epsq] & p;
         while(!(b == 0ul))
         {
-          unsigned char return_value_leadz$4;
-          return_value_leadz$4=leadz$link3(b);
-          sq = (signed int)return_value_leadz$4;
+          unsigned char return_value_leadz_4;
+          return_value_leadz_4=leadz_link3(b);
+          sq = (signed int)return_value_leadz_4;
           b = b & NotBitPosArray[(signed long int)sq];
-          signed int return_value_PinnedOnKing$5;
-          return_value_PinnedOnKing$5=PinnedOnKing(sq, side);
-          if(return_value_PinnedOnKing$5 == 0)
+          signed int return_value_PinnedOnKing_5;
+          return_value_PinnedOnKing_5=PinnedOnKing(sq, side);
+          if(return_value_PinnedOnKing_5 == 0)
             do
             {
               node->move = sq << 6 | epsq | 0x00400000;
@@ -4907,9 +4907,9 @@ void GenCheckEscapes(signed short int ply)
       c = FromToRay[(signed long int)kingsq][(signed long int)chksq] & NotBitPosArray[(signed long int)chksq];
       while(!(c == 0ul))
       {
-        unsigned char return_value_leadz$6;
-        return_value_leadz$6=leadz$link3(c);
-        sq = (signed int)return_value_leadz$6;
+        unsigned char return_value_leadz_6;
+        return_value_leadz_6=leadz_link3(c);
+        sq = (signed int)return_value_leadz_6;
         c = c & NotBitPosArray[(signed long int)sq];
         b=AttackTo(sq, side);
         b = b & ~(board.b[(signed long int)side][(signed long int)6] | p);
@@ -4951,13 +4951,13 @@ void GenCheckEscapes(signed short int ply)
 
         while(!(b == 0ul))
         {
-          unsigned char return_value_leadz$7;
-          return_value_leadz$7=leadz$link3(b);
-          sq1 = (signed int)return_value_leadz$7;
+          unsigned char return_value_leadz_7;
+          return_value_leadz_7=leadz_link3(b);
+          sq1 = (signed int)return_value_leadz_7;
           b = b & NotBitPosArray[(signed long int)sq1];
-          signed int return_value_PinnedOnKing$8;
-          return_value_PinnedOnKing$8=PinnedOnKing(sq1, side);
-          if(return_value_PinnedOnKing$8 == 0)
+          signed int return_value_PinnedOnKing_8;
+          return_value_PinnedOnKing_8=PinnedOnKing(sq1, side);
+          if(return_value_PinnedOnKing_8 == 0)
           {
             if((!(sq >= 8) || sq >= 56) && cboard[(signed long int)sq1] == 1)
             {
@@ -5013,24 +5013,24 @@ void GenCheckEscapes(signed short int ply)
 
   while(!(checkers == 0ul))
   {
-    unsigned char return_value_leadz$10;
-    return_value_leadz$10=leadz$link3(checkers);
-    chksq = (signed int)return_value_leadz$10;
+    unsigned char return_value_leadz_10;
+    return_value_leadz_10=leadz_link3(checkers);
+    chksq = (signed int)return_value_leadz_10;
     checkers = checkers & NotBitPosArray[(signed long int)chksq];
-    GenCheckEscapes$$1$$dir = (signed int)directions[(signed long int)chksq][(signed long int)kingsq];
+    GenCheckEscapes__1__dir = (signed int)directions[(signed long int)chksq][(signed long int)kingsq];
     if(!(slider[(signed long int)cboard[(signed long int)chksq]] == 0))
-      escapes = escapes & ~Ray[(signed long int)chksq][(signed long int)GenCheckEscapes$$1$$dir];
+      escapes = escapes & ~Ray[(signed long int)chksq][(signed long int)GenCheckEscapes__1__dir];
 
   }
   while(!(escapes == 0ul))
   {
-    unsigned char return_value_leadz$11;
-    return_value_leadz$11=leadz$link3(escapes);
-    sq = (signed int)return_value_leadz$11;
+    unsigned char return_value_leadz_11;
+    return_value_leadz_11=leadz_link3(escapes);
+    sq = (signed int)return_value_leadz_11;
     escapes = escapes & NotBitPosArray[(signed long int)sq];
-    signed short int return_value_SqAtakd$12;
-    return_value_SqAtakd$12=SqAtakd((signed short int)sq, (signed short int)xside);
-    if(return_value_SqAtakd$12 == 0)
+    signed short int return_value_SqAtakd_12;
+    return_value_SqAtakd_12=SqAtakd((signed short int)sq, (signed short int)xside);
+    if(return_value_SqAtakd_12 == 0)
       do
       {
         node->move = kingsq << 6 | sq | 0;
@@ -5079,9 +5079,9 @@ void GenMoves(signed short int ply)
     b = a[(signed long int)piece];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$1;
-      return_value_leadz$1=leadz$link3(b);
-      sq = (signed int)return_value_leadz$1;
+      unsigned char return_value_leadz_1;
+      return_value_leadz_1=leadz_link3(b);
+      sq = (signed int)return_value_leadz_1;
       b = b & NotBitPosArray[(signed long int)sq];
       BitToMove((signed short int)sq, MoveArray[(signed long int)piece][(signed long int)sq] & notfriends);
     }
@@ -5089,9 +5089,9 @@ void GenMoves(signed short int ply)
   b = a[(signed long int)3];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$2;
-    return_value_leadz$2=leadz$link3(b);
-    sq = (signed int)return_value_leadz$2;
+    unsigned char return_value_leadz_2;
+    return_value_leadz_2=leadz_link3(b);
+    sq = (signed int)return_value_leadz_2;
     b = b & NotBitPosArray[(signed long int)sq];
     d = Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])];
     BitToMove((signed short int)sq, d & notfriends);
@@ -5099,9 +5099,9 @@ void GenMoves(signed short int ply)
   b = a[(signed long int)4];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$3;
-    return_value_leadz$3=leadz$link3(b);
-    sq = (signed int)return_value_leadz$3;
+    unsigned char return_value_leadz_3;
+    return_value_leadz_3=leadz_link3(b);
+    sq = (signed int)return_value_leadz_3;
     b = b & NotBitPosArray[(signed long int)sq];
     d = Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     BitToMove((signed short int)sq, d & notfriends);
@@ -5109,28 +5109,28 @@ void GenMoves(signed short int ply)
   b = a[(signed long int)5];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$4;
-    return_value_leadz$4=leadz$link3(b);
-    sq = (signed int)return_value_leadz$4;
+    unsigned char return_value_leadz_4;
+    return_value_leadz_4=leadz_link3(b);
+    sq = (signed int)return_value_leadz_4;
     b = b & NotBitPosArray[(signed long int)sq];
     d = Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])] | Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     BitToMove((signed short int)sq, d & notfriends);
   }
-  unsigned long int tmp_if_expr$5;
+  unsigned long int tmp_if_expr_5;
   if(ep >= 0)
-    tmp_if_expr$5 = BitPosArray[(signed long int)ep];
+    tmp_if_expr_5 = BitPosArray[(signed long int)ep];
 
   else
-    tmp_if_expr$5 = 0x0000000000000000ULL;
-  e = board.friends[(signed long int)(1 ^ side)] | tmp_if_expr$5;
+    tmp_if_expr_5 = 0x0000000000000000ULL;
+  e = board.friends[(signed long int)(1 ^ side)] | tmp_if_expr_5;
   if(side == 0)
   {
     c = a[(signed long int)1] >> 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$6;
-      return_value_leadz$6=leadz$link3(c);
-      t = (signed int)return_value_leadz$6;
+      unsigned char return_value_leadz_6;
+      return_value_leadz_6=leadz_link3(c);
+      t = (signed int)return_value_leadz_6;
       c = c & NotBitPosArray[(signed long int)t];
       if(t >= 56)
         do
@@ -5174,9 +5174,9 @@ void GenMoves(signed short int ply)
     c = c >> 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$7;
-      return_value_leadz$7=leadz$link3(c);
-      t = (signed int)return_value_leadz$7;
+      unsigned char return_value_leadz_7;
+      return_value_leadz_7=leadz_link3(c);
+      t = (signed int)return_value_leadz_7;
       c = c & NotBitPosArray[(signed long int)t];
       do
       {
@@ -5189,9 +5189,9 @@ void GenMoves(signed short int ply)
     c = b >> 7 & e;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$8;
-      return_value_leadz$8=leadz$link3(c);
-      t = (signed int)return_value_leadz$8;
+      unsigned char return_value_leadz_8;
+      return_value_leadz_8=leadz_link3(c);
+      t = (signed int)return_value_leadz_8;
       c = c & NotBitPosArray[(signed long int)t];
       if(t >= 56)
         do
@@ -5243,9 +5243,9 @@ void GenMoves(signed short int ply)
     c = b >> 9 & e;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$9;
-      return_value_leadz$9=leadz$link3(c);
-      t = (signed int)return_value_leadz$9;
+      unsigned char return_value_leadz_9;
+      return_value_leadz_9=leadz_link3(c);
+      t = (signed int)return_value_leadz_9;
       c = c & NotBitPosArray[(signed long int)t];
       if(t >= 56)
         do
@@ -5300,9 +5300,9 @@ void GenMoves(signed short int ply)
     c = a[(signed long int)1] << 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$10;
-      return_value_leadz$10=leadz$link3(c);
-      t = (signed int)return_value_leadz$10;
+      unsigned char return_value_leadz_10;
+      return_value_leadz_10=leadz_link3(c);
+      t = (signed int)return_value_leadz_10;
       c = c & NotBitPosArray[(signed long int)t];
       if(!(t >= 8))
         do
@@ -5346,9 +5346,9 @@ void GenMoves(signed short int ply)
     c = c << 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$11;
-      return_value_leadz$11=leadz$link3(c);
-      t = (signed int)return_value_leadz$11;
+      unsigned char return_value_leadz_11;
+      return_value_leadz_11=leadz_link3(c);
+      t = (signed int)return_value_leadz_11;
       c = c & NotBitPosArray[(signed long int)t];
       do
       {
@@ -5361,9 +5361,9 @@ void GenMoves(signed short int ply)
     c = b << 7 & e;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$12;
-      return_value_leadz$12=leadz$link3(c);
-      t = (signed int)return_value_leadz$12;
+      unsigned char return_value_leadz_12;
+      return_value_leadz_12=leadz_link3(c);
+      t = (signed int)return_value_leadz_12;
       c = c & NotBitPosArray[(signed long int)t];
       if(!(t >= 8))
         do
@@ -5415,9 +5415,9 @@ void GenMoves(signed short int ply)
     c = b << 9 & e;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$13;
-      return_value_leadz$13=leadz$link3(c);
-      t = (signed int)return_value_leadz$13;
+      unsigned char return_value_leadz_13;
+      return_value_leadz_13=leadz_link3(c);
+      t = (signed int)return_value_leadz_13;
       c = c & NotBitPosArray[(signed long int)t];
       if(!(t >= 8))
         do
@@ -5468,23 +5468,23 @@ void GenMoves(signed short int ply)
   }
 
   b = board.b[(signed long int)side][(signed long int)4];
-  signed short int return_value_SqAtakd$16;
-  signed short int return_value_SqAtakd$15;
-  signed short int return_value_SqAtakd$14;
+  signed short int return_value_SqAtakd_16;
+  signed short int return_value_SqAtakd_15;
+  signed short int return_value_SqAtakd_14;
   if(side == 0 && !((0x0001 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[7l] & b) == 0ul))
     {
       if((FromToRay[4l][6l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$16=SqAtakd((signed short int)4, (signed short int)1);
-        if(return_value_SqAtakd$16 == 0)
+        return_value_SqAtakd_16=SqAtakd((signed short int)4, (signed short int)1);
+        if(return_value_SqAtakd_16 == 0)
         {
-          return_value_SqAtakd$15=SqAtakd((signed short int)5, (signed short int)1);
-          if(return_value_SqAtakd$15 == 0)
+          return_value_SqAtakd_15=SqAtakd((signed short int)5, (signed short int)1);
+          if(return_value_SqAtakd_15 == 0)
           {
-            return_value_SqAtakd$14=SqAtakd((signed short int)6, (signed short int)1);
-            if(return_value_SqAtakd$14 == 0)
+            return_value_SqAtakd_14=SqAtakd((signed short int)6, (signed short int)1);
+            if(return_value_SqAtakd_14 == 0)
               do
               {
                 node->move = 4 << 6 | 6 | 0x00200000;
@@ -5502,23 +5502,23 @@ void GenMoves(signed short int ply)
 
   }
 
-  signed short int return_value_SqAtakd$19;
-  signed short int return_value_SqAtakd$18;
-  signed short int return_value_SqAtakd$17;
+  signed short int return_value_SqAtakd_19;
+  signed short int return_value_SqAtakd_18;
+  signed short int return_value_SqAtakd_17;
   if(side == 0 && !((0x0002 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[0l] & b) == 0ul))
     {
       if((FromToRay[4l][1l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$19=SqAtakd((signed short int)4, (signed short int)1);
-        if(return_value_SqAtakd$19 == 0)
+        return_value_SqAtakd_19=SqAtakd((signed short int)4, (signed short int)1);
+        if(return_value_SqAtakd_19 == 0)
         {
-          return_value_SqAtakd$18=SqAtakd((signed short int)3, (signed short int)1);
-          if(return_value_SqAtakd$18 == 0)
+          return_value_SqAtakd_18=SqAtakd((signed short int)3, (signed short int)1);
+          if(return_value_SqAtakd_18 == 0)
           {
-            return_value_SqAtakd$17=SqAtakd((signed short int)2, (signed short int)1);
-            if(return_value_SqAtakd$17 == 0)
+            return_value_SqAtakd_17=SqAtakd((signed short int)2, (signed short int)1);
+            if(return_value_SqAtakd_17 == 0)
               do
               {
                 node->move = 4 << 6 | 2 | 0x00200000;
@@ -5536,23 +5536,23 @@ void GenMoves(signed short int ply)
 
   }
 
-  signed short int return_value_SqAtakd$22;
-  signed short int return_value_SqAtakd$21;
-  signed short int return_value_SqAtakd$20;
+  signed short int return_value_SqAtakd_22;
+  signed short int return_value_SqAtakd_21;
+  signed short int return_value_SqAtakd_20;
   if(side == 1 && !((0x0004 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[63l] & b) == 0ul))
     {
       if((FromToRay[60l][62l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$22=SqAtakd((signed short int)60, (signed short int)0);
-        if(return_value_SqAtakd$22 == 0)
+        return_value_SqAtakd_22=SqAtakd((signed short int)60, (signed short int)0);
+        if(return_value_SqAtakd_22 == 0)
         {
-          return_value_SqAtakd$21=SqAtakd((signed short int)61, (signed short int)0);
-          if(return_value_SqAtakd$21 == 0)
+          return_value_SqAtakd_21=SqAtakd((signed short int)61, (signed short int)0);
+          if(return_value_SqAtakd_21 == 0)
           {
-            return_value_SqAtakd$20=SqAtakd((signed short int)62, (signed short int)0);
-            if(return_value_SqAtakd$20 == 0)
+            return_value_SqAtakd_20=SqAtakd((signed short int)62, (signed short int)0);
+            if(return_value_SqAtakd_20 == 0)
               do
               {
                 node->move = 60 << 6 | 62 | 0x00200000;
@@ -5570,23 +5570,23 @@ void GenMoves(signed short int ply)
 
   }
 
-  signed short int return_value_SqAtakd$25;
-  signed short int return_value_SqAtakd$24;
-  signed short int return_value_SqAtakd$23;
+  signed short int return_value_SqAtakd_25;
+  signed short int return_value_SqAtakd_24;
+  signed short int return_value_SqAtakd_23;
   if(side == 1 && !((0x0008 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[56l] & b) == 0ul))
     {
       if((FromToRay[60l][57l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$25=SqAtakd((signed short int)60, (signed short int)0);
-        if(return_value_SqAtakd$25 == 0)
+        return_value_SqAtakd_25=SqAtakd((signed short int)60, (signed short int)0);
+        if(return_value_SqAtakd_25 == 0)
         {
-          return_value_SqAtakd$24=SqAtakd((signed short int)59, (signed short int)0);
-          if(return_value_SqAtakd$24 == 0)
+          return_value_SqAtakd_24=SqAtakd((signed short int)59, (signed short int)0);
+          if(return_value_SqAtakd_24 == 0)
           {
-            return_value_SqAtakd$23=SqAtakd((signed short int)58, (signed short int)0);
-            if(return_value_SqAtakd$23 == 0)
+            return_value_SqAtakd_23=SqAtakd((signed short int)58, (signed short int)0);
+            if(return_value_SqAtakd_23 == 0)
               do
               {
                 node->move = 60 << 6 | 58 | 0x00200000;
@@ -5633,9 +5633,9 @@ void GenNonCaptures(signed short int ply)
     b = a[(signed long int)piece];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$1;
-      return_value_leadz$1=leadz$link3(b);
-      sq = (signed int)return_value_leadz$1;
+      unsigned char return_value_leadz_1;
+      return_value_leadz_1=leadz_link3(b);
+      sq = (signed int)return_value_leadz_1;
       b = b & NotBitPosArray[(signed long int)sq];
       BitToMove((signed short int)sq, MoveArray[(signed long int)piece][(signed long int)sq] & notblocker);
     }
@@ -5643,9 +5643,9 @@ void GenNonCaptures(signed short int ply)
   b = a[(signed long int)3];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$2;
-    return_value_leadz$2=leadz$link3(b);
-    sq = (signed int)return_value_leadz$2;
+    unsigned char return_value_leadz_2;
+    return_value_leadz_2=leadz_link3(b);
+    sq = (signed int)return_value_leadz_2;
     b = b & NotBitPosArray[(signed long int)sq];
     d = Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])];
     BitToMove((signed short int)sq, d & notblocker);
@@ -5653,9 +5653,9 @@ void GenNonCaptures(signed short int ply)
   b = a[(signed long int)4];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$3;
-    return_value_leadz$3=leadz$link3(b);
-    sq = (signed int)return_value_leadz$3;
+    unsigned char return_value_leadz_3;
+    return_value_leadz_3=leadz_link3(b);
+    sq = (signed int)return_value_leadz_3;
     b = b & NotBitPosArray[(signed long int)sq];
     d = Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     BitToMove((signed short int)sq, d & notblocker);
@@ -5663,9 +5663,9 @@ void GenNonCaptures(signed short int ply)
   b = a[(signed long int)5];
   while(!(b == 0ul))
   {
-    unsigned char return_value_leadz$4;
-    return_value_leadz$4=leadz$link3(b);
-    sq = (signed int)return_value_leadz$4;
+    unsigned char return_value_leadz_4;
+    return_value_leadz_4=leadz_link3(b);
+    sq = (signed int)return_value_leadz_4;
     b = b & NotBitPosArray[(signed long int)sq];
     d = Bishop45Atak[(signed long int)sq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)sq] & (unsigned long int)Mask45[(signed long int)sq])] | Bishop315Atak[(signed long int)sq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)sq] & (unsigned long int)Mask315[(signed long int)sq])] | Rook00Atak[(signed long int)sq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)sq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)sq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)sq] & (unsigned long int)0xFF)];
     BitToMove((signed short int)sq, d & notblocker);
@@ -5675,9 +5675,9 @@ void GenNonCaptures(signed short int ply)
     c = a[(signed long int)1] >> 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$5;
-      return_value_leadz$5=leadz$link3(c);
-      t = (signed int)return_value_leadz$5;
+      unsigned char return_value_leadz_5;
+      return_value_leadz_5=leadz_link3(c);
+      t = (signed int)return_value_leadz_5;
       c = c & NotBitPosArray[(signed long int)t];
       if(!(t >= 56))
         do
@@ -5693,9 +5693,9 @@ void GenNonCaptures(signed short int ply)
     c = c >> 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$6;
-      return_value_leadz$6=leadz$link3(c);
-      t = (signed int)return_value_leadz$6;
+      unsigned char return_value_leadz_6;
+      return_value_leadz_6=leadz_link3(c);
+      t = (signed int)return_value_leadz_6;
       c = c & NotBitPosArray[(signed long int)t];
       do
       {
@@ -5711,9 +5711,9 @@ void GenNonCaptures(signed short int ply)
     c = a[(signed long int)1] << 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$7;
-      return_value_leadz$7=leadz$link3(c);
-      t = (signed int)return_value_leadz$7;
+      unsigned char return_value_leadz_7;
+      return_value_leadz_7=leadz_link3(c);
+      t = (signed int)return_value_leadz_7;
       c = c & NotBitPosArray[(signed long int)t];
       if(t >= 8)
         do
@@ -5729,9 +5729,9 @@ void GenNonCaptures(signed short int ply)
     c = c << 8 & notblocker;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$8;
-      return_value_leadz$8=leadz$link3(c);
-      t = (signed int)return_value_leadz$8;
+      unsigned char return_value_leadz_8;
+      return_value_leadz_8=leadz_link3(c);
+      t = (signed int)return_value_leadz_8;
       c = c & NotBitPosArray[(signed long int)t];
       do
       {
@@ -5743,23 +5743,23 @@ void GenNonCaptures(signed short int ply)
   }
 
   b = board.b[(signed long int)side][(signed long int)4];
-  signed short int return_value_SqAtakd$11;
-  signed short int return_value_SqAtakd$10;
-  signed short int return_value_SqAtakd$9;
+  signed short int return_value_SqAtakd_11;
+  signed short int return_value_SqAtakd_10;
+  signed short int return_value_SqAtakd_9;
   if(side == 0 && !((0x0001 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[7l] & b) == 0ul))
     {
       if((FromToRay[4l][6l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$11=SqAtakd((signed short int)4, (signed short int)1);
-        if(return_value_SqAtakd$11 == 0)
+        return_value_SqAtakd_11=SqAtakd((signed short int)4, (signed short int)1);
+        if(return_value_SqAtakd_11 == 0)
         {
-          return_value_SqAtakd$10=SqAtakd((signed short int)5, (signed short int)1);
-          if(return_value_SqAtakd$10 == 0)
+          return_value_SqAtakd_10=SqAtakd((signed short int)5, (signed short int)1);
+          if(return_value_SqAtakd_10 == 0)
           {
-            return_value_SqAtakd$9=SqAtakd((signed short int)6, (signed short int)1);
-            if(return_value_SqAtakd$9 == 0)
+            return_value_SqAtakd_9=SqAtakd((signed short int)6, (signed short int)1);
+            if(return_value_SqAtakd_9 == 0)
               do
               {
                 node->move = 4 << 6 | 6 | 0x00200000;
@@ -5777,23 +5777,23 @@ void GenNonCaptures(signed short int ply)
 
   }
 
-  signed short int return_value_SqAtakd$14;
-  signed short int return_value_SqAtakd$13;
-  signed short int return_value_SqAtakd$12;
+  signed short int return_value_SqAtakd_14;
+  signed short int return_value_SqAtakd_13;
+  signed short int return_value_SqAtakd_12;
   if(side == 0 && !((0x0002 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[0l] & b) == 0ul))
     {
       if((FromToRay[4l][1l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$14=SqAtakd((signed short int)4, (signed short int)1);
-        if(return_value_SqAtakd$14 == 0)
+        return_value_SqAtakd_14=SqAtakd((signed short int)4, (signed short int)1);
+        if(return_value_SqAtakd_14 == 0)
         {
-          return_value_SqAtakd$13=SqAtakd((signed short int)3, (signed short int)1);
-          if(return_value_SqAtakd$13 == 0)
+          return_value_SqAtakd_13=SqAtakd((signed short int)3, (signed short int)1);
+          if(return_value_SqAtakd_13 == 0)
           {
-            return_value_SqAtakd$12=SqAtakd((signed short int)2, (signed short int)1);
-            if(return_value_SqAtakd$12 == 0)
+            return_value_SqAtakd_12=SqAtakd((signed short int)2, (signed short int)1);
+            if(return_value_SqAtakd_12 == 0)
               do
               {
                 node->move = 4 << 6 | 2 | 0x00200000;
@@ -5811,23 +5811,23 @@ void GenNonCaptures(signed short int ply)
 
   }
 
-  signed short int return_value_SqAtakd$17;
-  signed short int return_value_SqAtakd$16;
-  signed short int return_value_SqAtakd$15;
+  signed short int return_value_SqAtakd_17;
+  signed short int return_value_SqAtakd_16;
+  signed short int return_value_SqAtakd_15;
   if(side == 1 && !((0x0004 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[63l] & b) == 0ul))
     {
       if((FromToRay[60l][62l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$17=SqAtakd((signed short int)60, (signed short int)0);
-        if(return_value_SqAtakd$17 == 0)
+        return_value_SqAtakd_17=SqAtakd((signed short int)60, (signed short int)0);
+        if(return_value_SqAtakd_17 == 0)
         {
-          return_value_SqAtakd$16=SqAtakd((signed short int)61, (signed short int)0);
-          if(return_value_SqAtakd$16 == 0)
+          return_value_SqAtakd_16=SqAtakd((signed short int)61, (signed short int)0);
+          if(return_value_SqAtakd_16 == 0)
           {
-            return_value_SqAtakd$15=SqAtakd((signed short int)62, (signed short int)0);
-            if(return_value_SqAtakd$15 == 0)
+            return_value_SqAtakd_15=SqAtakd((signed short int)62, (signed short int)0);
+            if(return_value_SqAtakd_15 == 0)
               do
               {
                 node->move = 60 << 6 | 62 | 0x00200000;
@@ -5845,23 +5845,23 @@ void GenNonCaptures(signed short int ply)
 
   }
 
-  signed short int return_value_SqAtakd$20;
-  signed short int return_value_SqAtakd$19;
-  signed short int return_value_SqAtakd$18;
+  signed short int return_value_SqAtakd_20;
+  signed short int return_value_SqAtakd_19;
+  signed short int return_value_SqAtakd_18;
   if(side == 1 && !((0x0008 & (signed int)board.flag) == 0))
   {
     if(!((BitPosArray[56l] & b) == 0ul))
     {
       if((FromToRay[60l][57l] & blocker) == 0ul)
       {
-        return_value_SqAtakd$20=SqAtakd((signed short int)60, (signed short int)0);
-        if(return_value_SqAtakd$20 == 0)
+        return_value_SqAtakd_20=SqAtakd((signed short int)60, (signed short int)0);
+        if(return_value_SqAtakd_20 == 0)
         {
-          return_value_SqAtakd$19=SqAtakd((signed short int)59, (signed short int)0);
-          if(return_value_SqAtakd$19 == 0)
+          return_value_SqAtakd_19=SqAtakd((signed short int)59, (signed short int)0);
+          if(return_value_SqAtakd_19 == 0)
           {
-            return_value_SqAtakd$18=SqAtakd((signed short int)58, (signed short int)0);
-            if(return_value_SqAtakd$18 == 0)
+            return_value_SqAtakd_18=SqAtakd((signed short int)58, (signed short int)0);
+            if(return_value_SqAtakd_18 == 0)
               do
               {
                 node->move = 60 << 6 | 58 | 0x00200000;
@@ -5898,12 +5898,12 @@ void InitBitCount(void)
 {
   signed int i;
   signed int j;
-  signed int InitBitCount$$1$$n;
+  signed int InitBitCount__1__n;
   BitCount[(signed long int)0] = (unsigned char)0;
   BitCount[(signed long int)1] = (unsigned char)1;
   i = 1;
-  InitBitCount$$1$$n = 2;
-  for( ; !(InitBitCount$$1$$n >= 17); InitBitCount$$1$$n = InitBitCount$$1$$n + 1)
+  InitBitCount__1__n = 2;
+  for( ; !(InitBitCount__1__n >= 17); InitBitCount__1__n = InitBitCount__1__n + 1)
   {
     i = i << 1;
     j = i;
@@ -6005,7 +6005,7 @@ void InitFromToRay(void)
   signed int tsq;
   signed int f;
   signed int t;
-  signed int InitFromToRay$$1$$n;
+  signed int InitFromToRay__1__n;
   unsigned long int *b;
   memset((void *)FromToRay, 0, sizeof(unsigned long int [64l][64l]) /*32768ul*/ );
   piece = 3;
@@ -6017,15 +6017,15 @@ void InitFromToRay(void)
       f = map[(signed long int)fsq];
       if(!(f == -1))
       {
-        InitFromToRay$$1$$n = 0;
-        for( ; !(InitFromToRay$$1$$n >= ndir[(signed long int)piece]); InitFromToRay$$1$$n = InitFromToRay$$1$$n + 1)
+        InitFromToRay__1__n = 0;
+        for( ; !(InitFromToRay__1__n >= ndir[(signed long int)piece]); InitFromToRay__1__n = InitFromToRay__1__n + 1)
         {
           tsq = fsq;
           t = map[(signed long int)tsq];
           do
           {
             b = &FromToRay[(signed long int)f][(signed long int)t];
-            tsq = tsq + dir[(signed long int)piece][(signed long int)InitFromToRay$$1$$n];
+            tsq = tsq + dir[(signed long int)piece][(signed long int)InitFromToRay__1__n];
             t = map[(signed long int)tsq];
             if(!(t == -1))
             {
@@ -6076,23 +6076,23 @@ void InitHashTable(void)
 {
   unsigned int size;
   unsigned int allocating = (unsigned int)1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   do
   {
     free((void *)HashTab[(signed long int)0]);
     free((void *)HashTab[(signed long int)1]);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)HashSize * sizeof(struct anonymous$0) /*24ul*/ );
-    HashTab[(signed long int)0] = (struct anonymous$0 *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)HashSize * sizeof(struct anonymous$0) /*24ul*/ );
-    HashTab[(signed long int)1] = (struct anonymous$0 *)return_value_malloc$2;
-    if(HashTab[0l] == ((struct anonymous$0 *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)HashSize * sizeof(struct anonymous_0) /*24ul*/ );
+    HashTab[(signed long int)0] = (struct anonymous_0 *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)HashSize * sizeof(struct anonymous_0) /*24ul*/ );
+    HashTab[(signed long int)1] = (struct anonymous_0 *)return_value_malloc_2;
+    if(HashTab[0l] == ((struct anonymous_0 *)NULL))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = HashTab[(signed long int)1] == (struct anonymous$0 *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = HashTab[(signed long int)1] == (struct anonymous_0 *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       printf("Not enough memory for transposition table, trying again.\n");
       if(HashSize == 1024u)
@@ -6108,23 +6108,23 @@ void InitHashTable(void)
       allocating = (unsigned int)0;
   }
   while(!(allocating == 0u));
-  size = (unsigned int)((unsigned long int)(HashSize * (unsigned int)2) * sizeof(struct anonymous$0) /*24ul*/  >> 10);
+  size = (unsigned int)((unsigned long int)(HashSize * (unsigned int)2) * sizeof(struct anonymous_0) /*24ul*/  >> 10);
   if((1024u & flags) == 0u)
     printf("Transposition table:  Entries=%dK Size=%dK\n", HashSize >> 10, size);
 
-  void *return_value_realloc$4;
-  return_value_realloc$4=realloc((void *)PawnTab[(signed long int)0], (unsigned long int)512 * sizeof(struct anonymous$4) /*32ul*/ );
-  PawnTab[(signed long int)0] = (struct anonymous$4 *)return_value_realloc$4;
-  void *return_value_realloc$5;
-  return_value_realloc$5=realloc((void *)PawnTab[(signed long int)1], (unsigned long int)512 * sizeof(struct anonymous$4) /*32ul*/ );
-  PawnTab[(signed long int)1] = (struct anonymous$4 *)return_value_realloc$5;
-  _Bool tmp_if_expr$6;
-  if(PawnTab[0l] == ((struct anonymous$4 *)NULL))
-    tmp_if_expr$6 = (_Bool)1;
+  void *return_value_realloc_4;
+  return_value_realloc_4=realloc((void *)PawnTab[(signed long int)0], (unsigned long int)512 * sizeof(struct anonymous_4) /*32ul*/ );
+  PawnTab[(signed long int)0] = (struct anonymous_4 *)return_value_realloc_4;
+  void *return_value_realloc_5;
+  return_value_realloc_5=realloc((void *)PawnTab[(signed long int)1], (unsigned long int)512 * sizeof(struct anonymous_4) /*32ul*/ );
+  PawnTab[(signed long int)1] = (struct anonymous_4 *)return_value_realloc_5;
+  _Bool tmp_if_expr_6;
+  if(PawnTab[0l] == ((struct anonymous_4 *)NULL))
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = PawnTab[(signed long int)1] == (struct anonymous$4 *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = PawnTab[(signed long int)1] == (struct anonymous_4 *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_6)
   {
     printf("Not enough memory for pawn table, goodbye.\n");
     exit(1);
@@ -6132,7 +6132,7 @@ void InitHashTable(void)
 
   else
   {
-    size = (unsigned int)((unsigned long int)(512 * 2) * sizeof(struct anonymous$4) /*32ul*/  >> 10);
+    size = (unsigned int)((unsigned long int)(512 * 2) * sizeof(struct anonymous_4) /*32ul*/  >> 10);
     if((1024u & flags) == 0u)
       printf("Pawn hash table: Entries=%dK Size=%dK\n", 512 >> 10, size);
 
@@ -6166,16 +6166,16 @@ void InitLzArray(void)
   signed int i;
   signed int j;
   signed int s;
-  signed int InitLzArray$$1$$n = 1;
-  s = InitLzArray$$1$$n;
+  signed int InitLzArray__1__n = 1;
+  s = InitLzArray__1__n;
   i = 0;
   for( ; !(i >= 16); i = i + 1)
   {
     j = s;
-    for( ; !(j >= InitLzArray$$1$$n + s); j = j + 1)
+    for( ; !(j >= InitLzArray__1__n + s); j = j + 1)
       lzArray[(signed long int)j] = (unsigned char)((16 - 1) - i);
-    s = s + InitLzArray$$1$$n;
-    InitLzArray$$1$$n = InitLzArray$$1$$n + InitLzArray$$1$$n;
+    s = s + InitLzArray__1__n;
+    InitLzArray__1__n = InitLzArray__1__n + InitLzArray__1__n;
   }
 }
 
@@ -6188,7 +6188,7 @@ void InitMoveArray(void)
   signed int tsq;
   signed int f;
   signed int t;
-  signed int InitMoveArray$$1$$n;
+  signed int InitMoveArray__1__n;
   unsigned long int *b;
   piece = 1;
   for( ; !(piece >= 8); piece = piece + 1)
@@ -6201,13 +6201,13 @@ void InitMoveArray(void)
       {
         b = &MoveArray[(signed long int)piece][(signed long int)f];
         *b = 0x0000000000000000ULL;
-        InitMoveArray$$1$$n = 0;
-        for( ; !(InitMoveArray$$1$$n >= ndir[(signed long int)piece]); InitMoveArray$$1$$n = InitMoveArray$$1$$n + 1)
+        InitMoveArray__1__n = 0;
+        for( ; !(InitMoveArray__1__n >= ndir[(signed long int)piece]); InitMoveArray__1__n = InitMoveArray__1__n + 1)
         {
           tsq = fsq;
           do
           {
-            tsq = tsq + dir[(signed long int)piece][(signed long int)InitMoveArray$$1$$n];
+            tsq = tsq + dir[(signed long int)piece][(signed long int)InitMoveArray__1__n];
             t = map[(signed long int)tsq];
             if(!(t == -1))
               *b = *b | BitPosArray[(signed long int)t];
@@ -6276,12 +6276,12 @@ void InitRankFileBit(void)
   unsigned long int b;
   signed int i = 8;
   b = (unsigned long int)255;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     RankBit[(signed long int)i] = b;
@@ -6290,12 +6290,12 @@ void InitRankFileBit(void)
   while((_Bool)1);
   i = 8;
   b = 0x0101010101010101ULL;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   do
   {
-    tmp_post$2 = i;
+    tmp_post_2 = i;
     i = i - 1;
-    if(tmp_post$2 == 0)
+    if(tmp_post_2 == 0)
       break;
 
     FileBit[(signed long int)i] = b;
@@ -6313,7 +6313,7 @@ void InitRay(void)
   signed int tsq;
   signed int f;
   signed int t;
-  signed int InitRay$$1$$n;
+  signed int InitRay__1__n;
   signed int ray;
   unsigned long int *b;
   memset((void *)directions, -1, sizeof(signed short int [64l][64l]) /*8192ul*/ );
@@ -6327,8 +6327,8 @@ void InitRay(void)
       piece = 3;
       for( ; !(piece >= 5); piece = piece + 1)
       {
-        InitRay$$1$$n = 0;
-        for( ; !(InitRay$$1$$n >= ndir[(signed long int)piece]); InitRay$$1$$n = InitRay$$1$$n + 1)
+        InitRay__1__n = 0;
+        for( ; !(InitRay__1__n >= ndir[(signed long int)piece]); InitRay__1__n = InitRay__1__n + 1)
         {
           ray = ray + 1;
           b = &Ray[(signed long int)f][(signed long int)ray];
@@ -6336,7 +6336,7 @@ void InitRay(void)
           tsq = fsq;
           do
           {
-            tsq = tsq + dir[(signed long int)piece][(signed long int)InitRay$$1$$n];
+            tsq = tsq + dir[(signed long int)piece][(signed long int)InitRay__1__n];
             t = map[(signed long int)tsq];
             if(!(t == -1))
             {
@@ -6358,7 +6358,7 @@ void InitRay(void)
 void InitRotAtak(void)
 {
   signed int sq;
-  signed int InitRotAtak$$1$$map;
+  signed int InitRotAtak__1__map;
   signed int sq1;
   signed int sq2;
   signed int cmap[8l] = { 128, 64, 32, 16, 8, 4, 2, 1 };
@@ -6368,41 +6368,41 @@ void InitRotAtak(void)
   sq = 0;
   for( ; !(sq >= 8); sq = sq + 1)
   {
-    InitRotAtak$$1$$map = 0;
-    for( ; !(InitRotAtak$$1$$map >= 256); InitRotAtak$$1$$map = InitRotAtak$$1$$map + 1)
+    InitRotAtak__1__map = 0;
+    for( ; !(InitRotAtak__1__map >= 256); InitRotAtak__1__map = InitRotAtak__1__map + 1)
     {
-      Rook00Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = (unsigned long int)0;
-      Rook90Atak[(signed long int)rot1[(signed long int)sq]][(signed long int)InitRotAtak$$1$$map] = (unsigned long int)0;
-      Bishop45Atak[(signed long int)rot2[(signed long int)sq]][(signed long int)InitRotAtak$$1$$map] = (unsigned long int)0;
-      Bishop315Atak[(signed long int)rot3[(signed long int)sq]][(signed long int)InitRotAtak$$1$$map] = (unsigned long int)0;
+      Rook00Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = (unsigned long int)0;
+      Rook90Atak[(signed long int)rot1[(signed long int)sq]][(signed long int)InitRotAtak__1__map] = (unsigned long int)0;
+      Bishop45Atak[(signed long int)rot2[(signed long int)sq]][(signed long int)InitRotAtak__1__map] = (unsigned long int)0;
+      Bishop315Atak[(signed long int)rot3[(signed long int)sq]][(signed long int)InitRotAtak__1__map] = (unsigned long int)0;
       sq2 = sq;
       sq1 = sq2;
       while(sq1 >= 1)
       {
         sq1 = sq1 - 1;
-        if(!((cmap[(signed long int)sq1] & InitRotAtak$$1$$map) == 0))
+        if(!((cmap[(signed long int)sq1] & InitRotAtak__1__map) == 0))
           break;
 
       }
       while(!(sq2 >= 7))
       {
         sq2 = sq2 + 1;
-        if(!((cmap[(signed long int)sq2] & InitRotAtak$$1$$map) == 0))
+        if(!((cmap[(signed long int)sq2] & InitRotAtak__1__map) == 0))
           break;
 
       }
-      Rook00Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = FromToRay[(signed long int)sq][(signed long int)sq1] | FromToRay[(signed long int)sq][(signed long int)sq2];
-      Rook90Atak[(signed long int)rot1[(signed long int)sq]][(signed long int)InitRotAtak$$1$$map] = FromToRay[(signed long int)rot1[(signed long int)sq]][(signed long int)rot1[(signed long int)sq1]] | FromToRay[(signed long int)rot1[(signed long int)sq]][(signed long int)rot1[(signed long int)sq2]];
-      Bishop45Atak[(signed long int)rot2[(signed long int)sq]][(signed long int)InitRotAtak$$1$$map] = FromToRay[(signed long int)rot2[(signed long int)sq]][(signed long int)rot2[(signed long int)sq1]] | FromToRay[(signed long int)rot2[(signed long int)sq]][(signed long int)rot2[(signed long int)sq2]];
-      Bishop315Atak[(signed long int)rot3[(signed long int)sq]][(signed long int)InitRotAtak$$1$$map] = FromToRay[(signed long int)rot3[(signed long int)sq]][(signed long int)rot3[(signed long int)sq1]] | FromToRay[(signed long int)rot3[(signed long int)sq]][(signed long int)rot3[(signed long int)sq2]];
+      Rook00Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = FromToRay[(signed long int)sq][(signed long int)sq1] | FromToRay[(signed long int)sq][(signed long int)sq2];
+      Rook90Atak[(signed long int)rot1[(signed long int)sq]][(signed long int)InitRotAtak__1__map] = FromToRay[(signed long int)rot1[(signed long int)sq]][(signed long int)rot1[(signed long int)sq1]] | FromToRay[(signed long int)rot1[(signed long int)sq]][(signed long int)rot1[(signed long int)sq2]];
+      Bishop45Atak[(signed long int)rot2[(signed long int)sq]][(signed long int)InitRotAtak__1__map] = FromToRay[(signed long int)rot2[(signed long int)sq]][(signed long int)rot2[(signed long int)sq1]] | FromToRay[(signed long int)rot2[(signed long int)sq]][(signed long int)rot2[(signed long int)sq2]];
+      Bishop315Atak[(signed long int)rot3[(signed long int)sq]][(signed long int)InitRotAtak__1__map] = FromToRay[(signed long int)rot3[(signed long int)sq]][(signed long int)rot3[(signed long int)sq1]] | FromToRay[(signed long int)rot3[(signed long int)sq]][(signed long int)rot3[(signed long int)sq2]];
     }
   }
-  InitRotAtak$$1$$map = 0;
-  for( ; !(InitRotAtak$$1$$map >= 256); InitRotAtak$$1$$map = InitRotAtak$$1$$map + 1)
+  InitRotAtak__1__map = 0;
+  for( ; !(InitRotAtak__1__map >= 256); InitRotAtak__1__map = InitRotAtak__1__map + 1)
   {
     sq = 8;
     for( ; !(sq >= 64); sq = sq + 1)
-      Rook00Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = Rook00Atak[(signed long int)(sq - 8)][(signed long int)InitRotAtak$$1$$map] >> 8;
+      Rook00Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = Rook00Atak[(signed long int)(sq - 8)][(signed long int)InitRotAtak__1__map] >> 8;
     sq1 = 1;
     for( ; !(sq1 >= 8); sq1 = sq1 + 1)
     {
@@ -6410,7 +6410,7 @@ void InitRotAtak(void)
       for( ; !(sq2 >= 64); sq2 = sq2 + 8)
       {
         sq = sq2 + sq1;
-        Rook90Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = Rook90Atak[(signed long int)(sq - 1)][(signed long int)InitRotAtak$$1$$map] >> 1;
+        Rook90Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = Rook90Atak[(signed long int)(sq - 1)][(signed long int)InitRotAtak__1__map] >> 1;
       }
     }
     sq1 = 1;
@@ -6419,7 +6419,7 @@ void InitRotAtak(void)
     {
       sq = sq1;
       for( ; sq2 >= sq; sq = sq + 9)
-        Bishop45Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = Bishop45Atak[(signed long int)(sq + 8)][(signed long int)InitRotAtak$$1$$map] << 8;
+        Bishop45Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = Bishop45Atak[(signed long int)(sq + 8)][(signed long int)InitRotAtak__1__map] << 8;
       sq1 = sq1 + 1;
     }
     sq1 = 8;
@@ -6428,7 +6428,7 @@ void InitRotAtak(void)
     {
       sq = sq1;
       for( ; sq2 >= sq; sq = sq + 9)
-        Bishop45Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = (Bishop45Atak[(signed long int)(sq + 1)][(signed long int)InitRotAtak$$1$$map] & NotBitPosArray[(signed long int)(sq1 - 8)]) << 1;
+        Bishop45Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = (Bishop45Atak[(signed long int)(sq + 1)][(signed long int)InitRotAtak__1__map] & NotBitPosArray[(signed long int)(sq1 - 8)]) << 1;
       sq1 = sq1 + 8;
     }
     sq1 = 15;
@@ -6437,7 +6437,7 @@ void InitRotAtak(void)
     {
       sq = sq1;
       for( ; sq2 >= sq; sq = sq + 7)
-        Bishop315Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = Bishop315Atak[(signed long int)(sq - 8)][(signed long int)InitRotAtak$$1$$map] >> 8;
+        Bishop315Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = Bishop315Atak[(signed long int)(sq - 8)][(signed long int)InitRotAtak__1__map] >> 8;
       sq1 = sq1 + 8;
     }
     sq1 = 6;
@@ -6446,7 +6446,7 @@ void InitRotAtak(void)
     {
       sq = sq1;
       for( ; sq2 >= sq; sq = sq + 7)
-        Bishop315Atak[(signed long int)sq][(signed long int)InitRotAtak$$1$$map] = (Bishop315Atak[(signed long int)(sq + 1)][(signed long int)InitRotAtak$$1$$map] & NotBitPosArray[(signed long int)(sq2 + 8)]) << 1;
+        Bishop315Atak[(signed long int)sq][(signed long int)InitRotAtak__1__map] = (Bishop315Atak[(signed long int)(sq + 1)][(signed long int)InitRotAtak__1__map] & NotBitPosArray[(signed long int)(sq2 + 8)]) << 1;
       sq1 = sq1 - 1;
     }
   }
@@ -6488,7 +6488,7 @@ void InitSquarePawnMask(void)
 void InitVars(void)
 {
   signed int i;
-  memset((void *)&board, 0, sizeof(struct anonymous$5) /*184ul*/ );
+  memset((void *)&board, 0, sizeof(struct anonymous_5) /*184ul*/ );
   i = 8;
   for( ; !(i >= 16); i = i + 1)
     board.b[(signed long int)0][(signed long int)1] = board.b[(signed long int)0][(signed long int)1] | BitPosArray[(signed long int)i];
@@ -6620,20 +6620,20 @@ void Initialize(void)
 // file move.c line 780
 struct anonymous * IsInMoveList(signed int ply, signed int f, signed int t, char piece)
 {
-  struct anonymous *IsInMoveList$$1$$node = TreePtr[(signed long int)ply];
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_toupper_loc$2;
-  const signed int **return_value___ctype_toupper_loc$4;
-  for( ; !(IsInMoveList$$1$$node >= TreePtr[(signed long int)(1 + ply)]); IsInMoveList$$1$$node = IsInMoveList$$1$$node + 1l)
-    if((0x0FFF & IsInMoveList$$1$$node->move) == (f << 6 | t))
+  struct anonymous *IsInMoveList__1__node = TreePtr[(signed long int)ply];
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_toupper_loc_2;
+  const signed int **return_value___ctype_toupper_loc_4;
+  for( ; !(IsInMoveList__1__node >= TreePtr[(signed long int)(1 + ply)]); IsInMoveList__1__node = IsInMoveList__1__node + 1l)
+    if((0x0FFF & IsInMoveList__1__node->move) == (f << 6 | t))
     {
       signed int __res;
-      return_value___ctype_toupper_loc$4=__ctype_toupper_loc();
-      __res = (*return_value___ctype_toupper_loc$4)[(signed long int)(signed int)piece];
-      tmp_statement_expression$1 = __res;
-      if(tmp_statement_expression$1 == (signed int)notation[(signed long int)(IsInMoveList$$1$$node->move >> 12 & 0x0007)])
-        return IsInMoveList$$1$$node;
+      return_value___ctype_toupper_loc_4=__ctype_toupper_loc();
+      __res = (*return_value___ctype_toupper_loc_4)[(signed long int)(signed int)piece];
+      tmp_statement_expression_1 = __res;
+      if(tmp_statement_expression_1 == (signed int)notation[(signed long int)(IsInMoveList__1__node->move >> 12 & 0x0007)])
+        return IsInMoveList__1__node;
 
     }
 
@@ -6652,30 +6652,30 @@ signed int IsLegalMove(signed int move)
   unsigned long int enemy;
   f = move >> 6 & 0x003F;
   t = move & 0x003F;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$12;
-  signed short int return_value_SqAtakd$11;
-  _Bool tmp_if_expr$14;
-  signed short int return_value_SqAtakd$13;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  signed short int return_value_SqAtakd$6;
-  _Bool tmp_if_expr$9;
-  signed short int return_value_SqAtakd$8;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$22;
-  signed short int return_value_SqAtakd$21;
-  _Bool tmp_if_expr$24;
-  signed short int return_value_SqAtakd$23;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$17;
-  signed short int return_value_SqAtakd$16;
-  _Bool tmp_if_expr$19;
-  signed short int return_value_SqAtakd$18;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_12;
+  signed short int return_value_SqAtakd_11;
+  _Bool tmp_if_expr_14;
+  signed short int return_value_SqAtakd_13;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  signed short int return_value_SqAtakd_6;
+  _Bool tmp_if_expr_9;
+  signed short int return_value_SqAtakd_8;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_22;
+  signed short int return_value_SqAtakd_21;
+  _Bool tmp_if_expr_24;
+  signed short int return_value_SqAtakd_23;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_17;
+  signed short int return_value_SqAtakd_16;
+  _Bool tmp_if_expr_19;
+  signed short int return_value_SqAtakd_18;
   if(cboard[(signed long int)f] == 0)
     return 0;
 
@@ -6718,18 +6718,18 @@ signed int IsLegalMove(signed int move)
                   if((MoveArray[1l][(signed long int)f] & BitPosArray[(signed long int)t] & enemy) == 0ul)
                   {
                     if(t + -f == 8)
-                      tmp_if_expr$2 = cboard[(signed long int)t] == 0 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_2 = cboard[(signed long int)t] == 0 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$2 = (_Bool)0;
-                    if(!tmp_if_expr$2)
+                      tmp_if_expr_2 = (_Bool)0;
+                    if(!tmp_if_expr_2)
                     {
                       if(t + -f == 16 && f >> 3 == 1)
-                        tmp_if_expr$1 = !((FromToRay[(signed long int)f][(signed long int)t] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_1 = !((FromToRay[(signed long int)f][(signed long int)t] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$1 = (_Bool)0;
-                      if(!tmp_if_expr$1)
+                        tmp_if_expr_1 = (_Bool)0;
+                      if(!tmp_if_expr_1)
                         return 0;
 
                     }
@@ -6744,18 +6744,18 @@ signed int IsLegalMove(signed int move)
                     if((MoveArray[7l][(signed long int)f] & BitPosArray[(signed long int)t] & enemy) == 0ul)
                     {
                       if(t + -f == -8)
-                        tmp_if_expr$4 = cboard[(signed long int)t] == 0 ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_4 = cboard[(signed long int)t] == 0 ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$4 = (_Bool)0;
-                      if(!tmp_if_expr$4)
+                        tmp_if_expr_4 = (_Bool)0;
+                      if(!tmp_if_expr_4)
                       {
                         if(t + -f == -16 && f >> 3 == 6)
-                          tmp_if_expr$3 = !((FromToRay[(signed long int)f][(signed long int)t] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_3 = !((FromToRay[(signed long int)f][(signed long int)t] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$3 = (_Bool)0;
-                        if(!tmp_if_expr$3)
+                          tmp_if_expr_3 = (_Bool)0;
+                        if(!tmp_if_expr_3)
                           return 0;
 
                       }
@@ -6774,50 +6774,50 @@ signed int IsLegalMove(signed int move)
                     if((MoveArray[(signed long int)piece][(signed long int)f] & BitPosArray[(signed long int)t]) == 0ul)
                     {
                       if(f == 4 && t == 6 && !((0x0001 & (signed int)board.flag) == 0))
-                        tmp_if_expr$10 = !((FromToRay[(signed long int)4][(signed long int)6] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_10 = !((FromToRay[(signed long int)4][(signed long int)6] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$10 = (_Bool)0;
-                      if(tmp_if_expr$10)
+                        tmp_if_expr_10 = (_Bool)0;
+                      if(tmp_if_expr_10)
                       {
-                        return_value_SqAtakd$11=SqAtakd((signed short int)4, (signed short int)1);
-                        tmp_if_expr$12 = !(return_value_SqAtakd$11 != 0) ? (_Bool)1 : (_Bool)0;
+                        return_value_SqAtakd_11=SqAtakd((signed short int)4, (signed short int)1);
+                        tmp_if_expr_12 = !(return_value_SqAtakd_11 != 0) ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$12 = (_Bool)0;
-                      if(tmp_if_expr$12)
+                        tmp_if_expr_12 = (_Bool)0;
+                      if(tmp_if_expr_12)
                       {
-                        return_value_SqAtakd$13=SqAtakd((signed short int)5, (signed short int)1);
-                        tmp_if_expr$14 = !(return_value_SqAtakd$13 != 0) ? (_Bool)1 : (_Bool)0;
+                        return_value_SqAtakd_13=SqAtakd((signed short int)5, (signed short int)1);
+                        tmp_if_expr_14 = !(return_value_SqAtakd_13 != 0) ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$14 = (_Bool)0;
-                      if(!tmp_if_expr$14)
+                        tmp_if_expr_14 = (_Bool)0;
+                      if(!tmp_if_expr_14)
                       {
                         if(f == 4 && t == 2 && !((0x0002 & (signed int)board.flag) == 0))
-                          tmp_if_expr$5 = !((FromToRay[(signed long int)4][(signed long int)1] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_5 = !((FromToRay[(signed long int)4][(signed long int)1] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$5 = (_Bool)0;
-                        if(tmp_if_expr$5)
+                          tmp_if_expr_5 = (_Bool)0;
+                        if(tmp_if_expr_5)
                         {
-                          return_value_SqAtakd$6=SqAtakd((signed short int)4, (signed short int)1);
-                          tmp_if_expr$7 = !(return_value_SqAtakd$6 != 0) ? (_Bool)1 : (_Bool)0;
+                          return_value_SqAtakd_6=SqAtakd((signed short int)4, (signed short int)1);
+                          tmp_if_expr_7 = !(return_value_SqAtakd_6 != 0) ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$7 = (_Bool)0;
-                        if(tmp_if_expr$7)
+                          tmp_if_expr_7 = (_Bool)0;
+                        if(tmp_if_expr_7)
                         {
-                          return_value_SqAtakd$8=SqAtakd((signed short int)3, (signed short int)1);
-                          tmp_if_expr$9 = !(return_value_SqAtakd$8 != 0) ? (_Bool)1 : (_Bool)0;
+                          return_value_SqAtakd_8=SqAtakd((signed short int)3, (signed short int)1);
+                          tmp_if_expr_9 = !(return_value_SqAtakd_8 != 0) ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$9 = (_Bool)0;
-                        if(!tmp_if_expr$9)
+                          tmp_if_expr_9 = (_Bool)0;
+                        if(!tmp_if_expr_9)
                           return 0;
 
                       }
@@ -6831,50 +6831,50 @@ signed int IsLegalMove(signed int move)
                     if((MoveArray[(signed long int)piece][(signed long int)f] & BitPosArray[(signed long int)t]) == 0ul)
                     {
                       if(f == 60 && t == 62 && !((0x0004 & (signed int)board.flag) == 0))
-                        tmp_if_expr$20 = !((FromToRay[(signed long int)60][(signed long int)62] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_20 = !((FromToRay[(signed long int)60][(signed long int)62] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$20 = (_Bool)0;
-                      if(tmp_if_expr$20)
+                        tmp_if_expr_20 = (_Bool)0;
+                      if(tmp_if_expr_20)
                       {
-                        return_value_SqAtakd$21=SqAtakd((signed short int)60, (signed short int)0);
-                        tmp_if_expr$22 = !(return_value_SqAtakd$21 != 0) ? (_Bool)1 : (_Bool)0;
+                        return_value_SqAtakd_21=SqAtakd((signed short int)60, (signed short int)0);
+                        tmp_if_expr_22 = !(return_value_SqAtakd_21 != 0) ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$22 = (_Bool)0;
-                      if(tmp_if_expr$22)
+                        tmp_if_expr_22 = (_Bool)0;
+                      if(tmp_if_expr_22)
                       {
-                        return_value_SqAtakd$23=SqAtakd((signed short int)61, (signed short int)0);
-                        tmp_if_expr$24 = !(return_value_SqAtakd$23 != 0) ? (_Bool)1 : (_Bool)0;
+                        return_value_SqAtakd_23=SqAtakd((signed short int)61, (signed short int)0);
+                        tmp_if_expr_24 = !(return_value_SqAtakd_23 != 0) ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$24 = (_Bool)0;
-                      if(!tmp_if_expr$24)
+                        tmp_if_expr_24 = (_Bool)0;
+                      if(!tmp_if_expr_24)
                       {
                         if(f == 60 && t == 58 && !((0x0008 & (signed int)board.flag) == 0))
-                          tmp_if_expr$15 = !((FromToRay[(signed long int)60][(signed long int)57] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_15 = !((FromToRay[(signed long int)60][(signed long int)57] & blocker) != 0ul) ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$15 = (_Bool)0;
-                        if(tmp_if_expr$15)
+                          tmp_if_expr_15 = (_Bool)0;
+                        if(tmp_if_expr_15)
                         {
-                          return_value_SqAtakd$16=SqAtakd((signed short int)60, (signed short int)0);
-                          tmp_if_expr$17 = !(return_value_SqAtakd$16 != 0) ? (_Bool)1 : (_Bool)0;
+                          return_value_SqAtakd_16=SqAtakd((signed short int)60, (signed short int)0);
+                          tmp_if_expr_17 = !(return_value_SqAtakd_16 != 0) ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$17 = (_Bool)0;
-                        if(tmp_if_expr$17)
+                          tmp_if_expr_17 = (_Bool)0;
+                        if(tmp_if_expr_17)
                         {
-                          return_value_SqAtakd$18=SqAtakd((signed short int)59, (signed short int)0);
-                          tmp_if_expr$19 = !(return_value_SqAtakd$18 != 0) ? (_Bool)1 : (_Bool)0;
+                          return_value_SqAtakd_18=SqAtakd((signed short int)59, (signed short int)0);
+                          tmp_if_expr_19 = !(return_value_SqAtakd_18 != 0) ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$19 = (_Bool)0;
-                        if(!tmp_if_expr$19)
+                          tmp_if_expr_19 = (_Bool)0;
+                        if(!tmp_if_expr_19)
                           return 0;
 
                       }
@@ -6916,9 +6916,9 @@ signed int IsTrustedPlayer(const char *name)
   signed int i = 0;
   for( ; !((unsigned long int)i >= 103ul); i = i + 1)
   {
-    char *return_value_strstr$1;
-    return_value_strstr$1=strstr(name, trusted_players[(signed long int)i]);
-    if(!(return_value_strstr$1 == ((char *)NULL)))
+    char *return_value_strstr_1;
+    return_value_strstr_1=strstr(name, trusted_players[(signed long int)i]);
+    if(!(return_value_strstr_1 == ((char *)NULL)))
       return 1;
 
   }
@@ -6931,8 +6931,8 @@ void Iterate(void)
 {
   unsigned char side;
   signed int score;
-  signed int Iterate$$1$$RootAlpha;
-  signed int Iterate$$1$$RootBeta;
+  signed int Iterate__1__RootAlpha;
+  signed int Iterate__1__RootBeta;
   dbg_printf("Entered iterate().\n");
   side = (unsigned char)board.side;
   computerplays = (signed int)board.side;
@@ -6960,12 +6960,12 @@ void Iterate(void)
   TotalPutHashCnt = CollHashCnt;
   GoodPawnHashCnt = (unsigned long int)0;
   TotalPawnHashCnt = GoodPawnHashCnt;
-  unsigned char return_value_nbits$1;
-  return_value_nbits$1=nbits$link5(board.b[(signed long int)0][(signed long int)1] | board.b[(signed long int)1][(signed long int)1]);
-  RootPawns = (signed short int)return_value_nbits$1;
-  unsigned char return_value_nbits$2;
-  return_value_nbits$2=nbits$link5(board.friends[(signed long int)0] | board.friends[(signed long int)1]);
-  RootPieces = (signed short int)((signed int)return_value_nbits$2 - (signed int)RootPawns);
+  unsigned char return_value_nbits_1;
+  return_value_nbits_1=nbits_link5(board.b[(signed long int)0][(signed long int)1] | board.b[(signed long int)1][(signed long int)1]);
+  RootPawns = (signed short int)return_value_nbits_1;
+  unsigned char return_value_nbits_2;
+  return_value_nbits_2=nbits_link5(board.friends[(signed long int)0] | board.friends[(signed long int)1]);
+  RootPieces = (signed short int)((signed int)return_value_nbits_2 - (signed int)RootPawns);
   RootMaterial = (signed short int)((signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ (signed int)side)]);
   RepeatCnt = (unsigned long int)0;
   ElapsedTime = 0.0;
@@ -7062,9 +7062,9 @@ void Iterate(void)
   if((256u & flags) == 0u && (8192u & flags) == 0u && !((signed int)bookmode == 0) && !(nmovesfrombook >= 4))
   {
     dbg_printf("Doing book lookup.\n");
-    signed int return_value_BookQuery$3;
-    return_value_BookQuery$3=BookQuery(0);
-    if(return_value_BookQuery$3 == 0)
+    signed int return_value_BookQuery_3;
+    return_value_BookQuery_3=BookQuery(0);
+    if(return_value_BookQuery_3 == 0)
     {
       nmovesfrombook = 0;
       wasbookmove = 1;
@@ -7127,42 +7127,42 @@ void Iterate(void)
   {
     if(score >= 32513)
     {
-      Iterate$$1$$RootAlpha = score - 1;
-      Iterate$$1$$RootBeta = 32767;
+      Iterate__1__RootAlpha = score - 1;
+      Iterate__1__RootBeta = 32767;
     }
 
     else
       if(!(score >= 255))
       {
-        Iterate$$1$$RootAlpha = -32767;
-        Iterate$$1$$RootBeta = score + 1;
+        Iterate__1__RootAlpha = -32767;
+        Iterate__1__RootBeta = score + 1;
       }
 
       else
       {
-        Iterate$$1$$RootAlpha = score - 75 > -32767 ? score - 75 : -32767;
-        Iterate$$1$$RootBeta = score + 75 < 32767 ? score + 75 : 32767;
+        Iterate__1__RootAlpha = score - 75 > -32767 ? score - 75 : -32767;
+        Iterate__1__RootBeta = score + 75 < 32767 ? score + 75 : 32767;
       }
     Idepth = Idepth + 1;
     rootscore = -32767 - 1;
-    score=SearchRoot((signed short int)Idepth, Iterate$$1$$RootAlpha, Iterate$$1$$RootBeta);
-    if((16u & flags) == 0u && score >= Iterate$$1$$RootBeta && !(score >= 32767))
+    score=SearchRoot((signed short int)Idepth, Iterate__1__RootAlpha, Iterate__1__RootBeta);
+    if((16u & flags) == 0u && score >= Iterate__1__RootBeta && !(score >= 32767))
     {
       ShowLine(RootPV, score, (char)43);
       rootscore = -32767 - 1;
-      Iterate$$1$$RootAlpha = Iterate$$1$$RootBeta;
-      Iterate$$1$$RootBeta = 32767;
-      score=SearchRoot((signed short int)Idepth, Iterate$$1$$RootAlpha, Iterate$$1$$RootBeta);
+      Iterate__1__RootAlpha = Iterate__1__RootBeta;
+      Iterate__1__RootBeta = 32767;
+      score=SearchRoot((signed short int)Idepth, Iterate__1__RootAlpha, Iterate__1__RootBeta);
     }
 
     else
-      if((16u & flags) == 0u && Iterate$$1$$RootAlpha >= score)
+      if((16u & flags) == 0u && Iterate__1__RootAlpha >= score)
       {
         ShowLine(RootPV, score, (char)45);
         rootscore = -32767 - 1;
-        Iterate$$1$$RootBeta = Iterate$$1$$RootAlpha;
-        Iterate$$1$$RootAlpha = -32767;
-        score=SearchRoot((signed short int)Idepth, Iterate$$1$$RootAlpha, Iterate$$1$$RootBeta);
+        Iterate__1__RootBeta = Iterate__1__RootAlpha;
+        Iterate__1__RootAlpha = -32767;
+        score=SearchRoot((signed short int)Idepth, Iterate__1__RootAlpha, Iterate__1__RootBeta);
       }
 
     ShowLine(RootPV, score, (char)46);
@@ -7175,9 +7175,9 @@ void Iterate(void)
       }
       while((_Bool)0);
 
-    signed int return_value_abs$4;
-    return_value_abs$4=abs(score);
-    if(Idepth + return_value_abs$4 >= 1)
+    signed int return_value_abs_4;
+    return_value_abs_4=abs(score);
+    if(Idepth + return_value_abs_4 >= 1)
       do
       {
         flags = flags | (unsigned int)0x0010;
@@ -7190,9 +7190,9 @@ void Iterate(void)
 
   }
   ElapsedTime=GetElapsed(StartTime);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$13;
-  signed short int return_value_Repeat$12;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_13;
+  signed short int return_value_Repeat_12;
   if((8192u & flags) == 0u)
   {
     SANMove(RootPV, 1);
@@ -7204,11 +7204,11 @@ void Iterate(void)
       if(!(suddendeath == 0))
       {
         if(TimeLimit[(signed long int)side] > 0.000000f)
-          tmp_if_expr$5 = TimeLimit[(signed long int)side] <= (float)60 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = TimeLimit[(signed long int)side] <= (float)60 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
           MoveLimit[(signed long int)side] = 60;
 
         else
@@ -7230,21 +7230,21 @@ void Iterate(void)
 
     if(!((1024u & flags) == 0u))
     {
-      char *return_value_AlgbrMove$6;
-      return_value_AlgbrMove$6=AlgbrMove(RootPV);
-      printf("%d. ... %s\n", GameCnt / 2 + 1, return_value_AlgbrMove$6);
-      char *return_value_AlgbrMove$7;
-      return_value_AlgbrMove$7=AlgbrMove(RootPV);
-      printf("My move is: %s\n", return_value_AlgbrMove$7);
+      char *return_value_AlgbrMove_6;
+      return_value_AlgbrMove_6=AlgbrMove(RootPV);
+      printf("%d. ... %s\n", GameCnt / 2 + 1, return_value_AlgbrMove_6);
+      char *return_value_AlgbrMove_7;
+      return_value_AlgbrMove_7=AlgbrMove(RootPV);
+      printf("My move is: %s\n", return_value_AlgbrMove_7);
       fflush(stdout);
       if(!(ofp == stdout))
       {
-        char *return_value_AlgbrMove$8;
-        return_value_AlgbrMove$8=AlgbrMove(RootPV);
-        fprintf(ofp, "%d. ... %s\n", GameCnt / 2 + 1, return_value_AlgbrMove$8);
-        char *return_value_AlgbrMove$9;
-        return_value_AlgbrMove$9=AlgbrMove(RootPV);
-        fprintf(ofp, "My move is: %s\n", return_value_AlgbrMove$9);
+        char *return_value_AlgbrMove_8;
+        return_value_AlgbrMove_8=AlgbrMove(RootPV);
+        fprintf(ofp, "%d. ... %s\n", GameCnt / 2 + 1, return_value_AlgbrMove_8);
+        char *return_value_AlgbrMove_9;
+        return_value_AlgbrMove_9=AlgbrMove(RootPV);
+        fprintf(ofp, "My move is: %s\n", return_value_AlgbrMove_9);
         fflush(ofp);
       }
 
@@ -7280,9 +7280,9 @@ void Iterate(void)
     FilterIllegalMoves((signed short int)1);
     if(TreePtr[1l] == TreePtr[2l])
     {
-      signed short int return_value_SqAtakd$10;
-      return_value_SqAtakd$10=SqAtakd(board.king[(signed long int)board.side], (signed short int)(1 ^ (signed int)board.side));
-      if(!(return_value_SqAtakd$10 == 0))
+      signed short int return_value_SqAtakd_10;
+      return_value_SqAtakd_10=SqAtakd(board.king[(signed long int)board.side], (signed short int)(1 ^ (signed int)board.side));
+      if(!(return_value_SqAtakd_10 == 0))
       {
         if(computerplays == 1)
           printf("0-1 {computer wins as black}\n");
@@ -7302,17 +7302,17 @@ void Iterate(void)
       while((_Bool)0);
     }
 
-    signed short int return_value_EvaluateDraw$11;
-    return_value_EvaluateDraw$11=EvaluateDraw();
-    if(!(return_value_EvaluateDraw$11 == 0))
-      tmp_if_expr$13 = (_Bool)1;
+    signed short int return_value_EvaluateDraw_11;
+    return_value_EvaluateDraw_11=EvaluateDraw();
+    if(!(return_value_EvaluateDraw_11 == 0))
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_Repeat$12=Repeat();
-      tmp_if_expr$13 = (signed int)return_value_Repeat$12 >= 2 ? (_Bool)1 : (_Bool)0;
+      return_value_Repeat_12=Repeat();
+      tmp_if_expr_13 = (signed int)return_value_Repeat_12 >= 2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
+    if(tmp_if_expr_13)
     {
       printf("1/2-1/2 {draw}\n");
       fflush(stdout);
@@ -7343,9 +7343,9 @@ signed int KPK(signed int side)
   signed int s;
   winer = board.b[(signed long int)0][(signed long int)1] != 0ul ? 0 : 1;
   loser = 1 ^ winer;
-  unsigned char return_value_leadz$1;
-  return_value_leadz$1=leadz$link2(board.b[(signed long int)winer][(signed long int)1]);
-  sq = (signed int)return_value_leadz$1;
+  unsigned char return_value_leadz_1;
+  return_value_leadz_1=leadz_link2(board.b[(signed long int)winer][(signed long int)1]);
+  sq = (signed int)return_value_leadz_1;
   sqw = (signed int)board.king[(signed long int)winer];
   sql = (signed int)board.king[(signed long int)loser];
   s = 100 + (1100 * Passed[(signed long int)winer][(signed long int)(sq >> 3)]) / 550 + 4 * (winer == 0 ? sqw >> 3 : 7 - (sqw >> 3));
@@ -7478,13 +7478,13 @@ void LoadEPD(char *p)
   char file[128l];
   signed int N = 1;
   sscanf(p, "%31s %d ", (const void *)file, &N);
-  signed int tmp_statement_expression$2;
+  signed int tmp_statement_expression_2;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$3;
-  return_value___builtin_strcmp$3=__builtin_strcmp(file, "next");
-  tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-  if(tmp_statement_expression$2 == 0)
+  signed int return_value___builtin_strcmp_3;
+  return_value___builtin_strcmp_3=__builtin_strcmp(file, "next");
+  tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+  if(tmp_statement_expression_2 == 0)
     ReadEPDFile(file, (signed short int)0);
 
   else
@@ -7496,9 +7496,9 @@ void LoadEPD(char *p)
       if(N == 0)
         break;
 
-      signed short int return_value_ReadEPDFile$1;
-      return_value_ReadEPDFile$1=ReadEPDFile(file, (signed short int)2);
-      if((signed int)return_value_ReadEPDFile$1 == 0)
+      signed short int return_value_ReadEPDFile_1;
+      return_value_ReadEPDFile_1=ReadEPDFile(file, (signed short int)2);
+      if((signed int)return_value_ReadEPDFile_1 == 0)
       {
         printf("File position exceeded\n");
         goto __CPROVER_DUMP_L6;
@@ -7524,21 +7524,21 @@ signed int LoneKing(signed int side, signed int loser)
   signed int sq1;
   signed int sq2;
   winer = 1 ^ loser;
-  unsigned char return_value_nbits$3;
-  unsigned char return_value_nbits$2;
-  signed int return_value_ScoreKBNK$1;
+  unsigned char return_value_nbits_3;
+  unsigned char return_value_nbits_2;
+  signed int return_value_ScoreKBNK_1;
   if((signed int)board.material[(signed long int)winer] == 350)
   {
-    return_value_nbits$3=nbits$link2(board.b[(signed long int)winer][(signed long int)3]);
-    if(!((signed int)return_value_nbits$3 == 1))
+    return_value_nbits_3=nbits_link2(board.b[(signed long int)winer][(signed long int)3]);
+    if(!((signed int)return_value_nbits_3 == 1))
       goto __CPROVER_DUMP_L1;
 
-    return_value_nbits$2=nbits$link2(board.b[(signed long int)winer][(signed long int)2]);
-    if(!((signed int)return_value_nbits$2 == 1))
+    return_value_nbits_2=nbits_link2(board.b[(signed long int)winer][(signed long int)2]);
+    if(!((signed int)return_value_nbits_2 == 1))
       goto __CPROVER_DUMP_L1;
 
-    return_value_ScoreKBNK$1=ScoreKBNK(side, loser);
-    return return_value_ScoreKBNK$1;
+    return_value_ScoreKBNK_1=ScoreKBNK(side, loser);
+    return return_value_ScoreKBNK_1;
   }
 
   else
@@ -7571,7 +7571,7 @@ void MakeMove(signed int side, signed int *move)
   signed int epsq;
   signed int sq;
   signed int xside;
-  struct anonymous$6 *g;
+  struct anonymous_6 *g;
   xside = 1 ^ side;
   f = *move >> 6 & 0x003F;
   t = *move & 0x003F;
@@ -7803,17 +7803,17 @@ void MakeMove(signed int side, signed int *move)
     }
 
   }
-  _Bool tmp_if_expr$2;
-  signed int return_value_abs$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_abs_1;
   if(fpiece == 1)
   {
-    return_value_abs$1=abs(f - t);
-    tmp_if_expr$2 = return_value_abs$1 == 16 ? (_Bool)1 : (_Bool)0;
+    return_value_abs_1=abs(f - t);
+    tmp_if_expr_2 = return_value_abs_1 == 16 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     sq = (f + t) / 2;
     board.ep = (signed short int)sq;
@@ -7836,7 +7836,7 @@ __CPROVER_DUMP_L39:
 // file null.c line 34
 void MakeNullMove(signed int side)
 {
-  struct anonymous$6 *g;
+  struct anonymous_6 *g;
   GameCnt = GameCnt + 1;
   g = &Game[(signed long int)GameCnt];
   g->epsq = board.ep;
@@ -7859,23 +7859,23 @@ __CPROVER_DUMP_L2:
 // file atak.c line 500
 signed int MateScan(signed int side)
 {
-  signed int MateScan$$1$$KingSq;
+  signed int MateScan__1__KingSq;
   signed int QueenSq;
   signed int sq;
   signed int xside;
   unsigned long int b;
   xside = 1 ^ side;
-  unsigned long int return_value_AttackXTo$3;
+  unsigned long int return_value_AttackXTo_3;
   if(board.b[(signed long int)xside][5l] == 0ul)
     return 0;
 
   else
   {
-    MateScan$$1$$KingSq = (signed int)board.king[(signed long int)side];
-    unsigned char return_value_leadz$1;
-    return_value_leadz$1=leadz(board.b[(signed long int)xside][(signed long int)5]);
-    QueenSq = (signed int)return_value_leadz$1;
-    b = (Bishop45Atak[(signed long int)QueenSq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)QueenSq] & (unsigned long int)Mask45[(signed long int)QueenSq])] | Bishop315Atak[(signed long int)QueenSq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)QueenSq] & (unsigned long int)Mask315[(signed long int)QueenSq])] | Rook00Atak[(signed long int)QueenSq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)QueenSq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)QueenSq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)QueenSq] & (unsigned long int)0xFF)]) & MoveArray[(signed long int)6][(signed long int)MateScan$$1$$KingSq];
+    MateScan__1__KingSq = (signed int)board.king[(signed long int)side];
+    unsigned char return_value_leadz_1;
+    return_value_leadz_1=leadz(board.b[(signed long int)xside][(signed long int)5]);
+    QueenSq = (signed int)return_value_leadz_1;
+    b = (Bishop45Atak[(signed long int)QueenSq][(signed long int)(board.blockerr45 >> (signed int)Shift45[(signed long int)QueenSq] & (unsigned long int)Mask45[(signed long int)QueenSq])] | Bishop315Atak[(signed long int)QueenSq][(signed long int)(board.blockerr315 >> (signed int)Shift315[(signed long int)QueenSq] & (unsigned long int)Mask315[(signed long int)QueenSq])] | Rook00Atak[(signed long int)QueenSq][(signed long int)(board.blocker >> (signed int)Shift00[(signed long int)QueenSq] & (unsigned long int)0xFF)] | Rook90Atak[(signed long int)QueenSq][(signed long int)(board.blockerr90 >> (signed int)Shift90[(signed long int)QueenSq] & (unsigned long int)0xFF)]) & MoveArray[(signed long int)6][(signed long int)MateScan__1__KingSq];
     if(b == 0ul)
       return 0;
 
@@ -7883,15 +7883,15 @@ signed int MateScan(signed int side)
     {
       while(!(b == 0ul))
       {
-        unsigned char return_value_leadz$2;
-        return_value_leadz$2=leadz(b);
-        sq = (signed int)return_value_leadz$2;
-        unsigned long int return_value_AttackTo$4;
-        return_value_AttackTo$4=AttackTo(sq, side);
-        if(return_value_AttackTo$4 == board.b[(signed long int)side][6l])
+        unsigned char return_value_leadz_2;
+        return_value_leadz_2=leadz(b);
+        sq = (signed int)return_value_leadz_2;
+        unsigned long int return_value_AttackTo_4;
+        return_value_AttackTo_4=AttackTo(sq, side);
+        if(return_value_AttackTo_4 == board.b[(signed long int)side][6l])
         {
-          return_value_AttackXTo$3=AttackXTo(sq, xside);
-          if(!(return_value_AttackXTo$3 == board.b[(signed long int)xside][5l]))
+          return_value_AttackXTo_3=AttackXTo(sq, xside);
+          if(!(return_value_AttackXTo_3 == board.b[(signed long int)xside][5l]))
             return 1;
 
         }
@@ -7957,10 +7957,10 @@ void PGNSaveToFile(const char *file, const char *resultstr)
   signed long int secs;
   struct tm *timestruct;
   fp=fopen(file, "a");
-  unsigned long int tmp_statement_expression$1;
-  unsigned long int return_value_strlen$3;
-  char *tmp_post$4;
-  unsigned long int return_value_strlen$6;
+  unsigned long int tmp_statement_expression_1;
+  unsigned long int return_value_strlen_3;
+  char *tmp_post_4;
+  unsigned long int return_value_strlen_6;
   if(fp == ((struct _IO_FILE *)NULL))
     printf("Cannot write to file %s\n", file);
 
@@ -8014,10 +8014,10 @@ void PGNSaveToFile(const char *file, const char *resultstr)
       char __r0;
       char __r1;
       char __r2;
-      unsigned long int return_value___builtin_strcspn$2;
-      return_value___builtin_strcspn$2=__builtin_strcspn(resultstr, " {");
-      tmp_statement_expression$1 = return_value___builtin_strcspn$2;
-      len = (signed int)tmp_statement_expression$1;
+      unsigned long int return_value___builtin_strcspn_2;
+      return_value___builtin_strcspn_2=__builtin_strcspn(resultstr, " {");
+      tmp_statement_expression_1 = return_value___builtin_strcspn_2;
+      len = (signed int)tmp_statement_expression_1;
       fprintf(fp, "[Result \"%.*s\"]\n", len, resultstr);
     }
     if(!(pgn_othertags == ((char *)NULL)))
@@ -8029,8 +8029,8 @@ void PGNSaveToFile(const char *file, const char *resultstr)
       fprintf(fp, "\n%s\n", initial_comments);
       if(!(*initial_comments == 0))
       {
-        return_value_strlen$3=strlen(initial_comments);
-        if(!((signed int)initial_comments[-1l + (signed long int)return_value_strlen$3] == 10))
+        return_value_strlen_3=strlen(initial_comments);
+        if(!((signed int)initial_comments[-1l + (signed long int)return_value_strlen_3] == 10))
           fprintf(fp, "\n");
 
       }
@@ -8045,16 +8045,16 @@ void PGNSaveToFile(const char *file, const char *resultstr)
         sprintf(s, "%s%d. ", (const void *)s, i / 2 + 1);
 
       sprintf(s, "%s%s ", (const void *)s, (const void *)Game[(signed long int)i].SANmv);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(s);
-      if(return_value_strlen$5 >= 81ul)
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(s);
+      if(return_value_strlen_5 >= 81ul)
       {
         p = s + (signed long int)79;
         do
         {
-          tmp_post$4 = p;
+          tmp_post_4 = p;
           p = p - 1l;
-          if((signed int)*tmp_post$4 == 32)
+          if((signed int)*tmp_post_4 == 32)
             break;
 
         }
@@ -8071,8 +8071,8 @@ void PGNSaveToFile(const char *file, const char *resultstr)
         fprintf(fp, "%s", Game[(signed long int)i].comments);
         if(!(*Game[(signed long int)i].comments == 0))
         {
-          return_value_strlen$6=strlen(Game[(signed long int)i].comments);
-          if(!((signed int)Game[(signed long int)i].comments[-1l + (signed long int)return_value_strlen$6] == 10))
+          return_value_strlen_6=strlen(Game[(signed long int)i].comments);
+          if(!((signed int)Game[(signed long int)i].comments[-1l + (signed long int)return_value_strlen_6] == 10))
             fprintf(fp, "\n");
 
         }
@@ -8092,8 +8092,8 @@ void PGNSaveToFile(const char *file, const char *resultstr)
 // file common.h line 670
 void PTClear(void)
 {
-  memset((void *)PawnTab[(signed long int)0], 0, (unsigned long int)512 * sizeof(struct anonymous$4) /*32ul*/ );
-  memset((void *)PawnTab[(signed long int)1], 0, (unsigned long int)512 * sizeof(struct anonymous$4) /*32ul*/ );
+  memset((void *)PawnTab[(signed long int)0], 0, (unsigned long int)512 * sizeof(struct anonymous_4) /*32ul*/ );
+  memset((void *)PawnTab[(signed long int)1], 0, (unsigned long int)512 * sizeof(struct anonymous_4) /*32ul*/ );
 }
 
 // ParseEPD
@@ -8106,7 +8106,7 @@ signed int ParseEPD(char *p)
   char *str_p;
   r = 56;
   c = 0;
-  memset((void *)&board, 0, sizeof(struct anonymous$5) /*184ul*/ );
+  memset((void *)&board, 0, sizeof(struct anonymous_5) /*184ul*/ );
   while(!(p == ((char *)NULL)))
   {
     if((signed int)*p == 32)
@@ -8227,9 +8227,9 @@ signed int ParseEPD(char *p)
         c = -1;
       }
     }
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p]) == 0))
       c = c + ((signed int)*p - 48);
 
     else
@@ -8257,30 +8257,30 @@ signed int ParseEPD(char *p)
 
     p = p + 1l;
   }
-  unsigned char return_value_nbits$2;
-  return_value_nbits$2=nbits$link1(board.b[(signed long int)0][(signed long int)1]);
-  board.pmaterial[(signed long int)0] = (signed short int)((signed int)board.material[(signed long int)0] - (signed int)return_value_nbits$2 * 100);
-  unsigned char return_value_nbits$3;
-  return_value_nbits$3=nbits$link1(board.b[(signed long int)1][(signed long int)1]);
-  board.pmaterial[(signed long int)1] = (signed short int)((signed int)board.material[(signed long int)1] - (signed int)return_value_nbits$3 * 100);
-  unsigned char return_value_leadz$4;
-  return_value_leadz$4=leadz$link1(board.b[(signed long int)0][(signed long int)6]);
-  board.king[(signed long int)0] = (signed short int)return_value_leadz$4;
-  unsigned char return_value_leadz$5;
-  return_value_leadz$5=leadz$link1(board.b[(signed long int)1][(signed long int)6]);
-  board.king[(signed long int)1] = (signed short int)return_value_leadz$5;
+  unsigned char return_value_nbits_2;
+  return_value_nbits_2=nbits_link1(board.b[(signed long int)0][(signed long int)1]);
+  board.pmaterial[(signed long int)0] = (signed short int)((signed int)board.material[(signed long int)0] - (signed int)return_value_nbits_2 * 100);
+  unsigned char return_value_nbits_3;
+  return_value_nbits_3=nbits_link1(board.b[(signed long int)1][(signed long int)1]);
+  board.pmaterial[(signed long int)1] = (signed short int)((signed int)board.material[(signed long int)1] - (signed int)return_value_nbits_3 * 100);
+  unsigned char return_value_leadz_4;
+  return_value_leadz_4=leadz_link1(board.b[(signed long int)0][(signed long int)6]);
+  board.king[(signed long int)0] = (signed short int)return_value_leadz_4;
+  unsigned char return_value_leadz_5;
+  return_value_leadz_5=leadz_link1(board.b[(signed long int)1][(signed long int)6]);
+  board.king[(signed long int)1] = (signed short int)return_value_leadz_5;
   UpdateFriends();
   UpdateCBoard();
   UpdateMvboard();
   p = p + 1l;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
   if(p == ((char *)NULL))
     return 1;
 
@@ -8297,19 +8297,19 @@ signed int ParseEPD(char *p)
         return 1;
     p = p + 1l;
     if(p == ((char *)NULL))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*p != 32 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = (signed int)*p != 32 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       p = p + 1l;
-      tmp_if_expr$7 = !(p != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = !(p != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       return 1;
 
     else
@@ -8345,19 +8345,19 @@ signed int ParseEPD(char *p)
                   return 1;
       }
       if(p == ((char *)NULL))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = (signed int)*p != 32 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = (signed int)*p != 32 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
         p = p + 1l;
-        tmp_if_expr$9 = !(p != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = !(p != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
+      if(tmp_if_expr_9)
         return 1;
 
       else
@@ -8365,28 +8365,28 @@ signed int ParseEPD(char *p)
         if(!((signed int)*p == 45))
         {
           if(p[1l] == 0)
-            tmp_if_expr$10 = (_Bool)1;
+            tmp_if_expr_10 = (_Bool)1;
 
           else
-            tmp_if_expr$10 = (signed int)*p < 97 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$10)
-            tmp_if_expr$11 = (_Bool)1;
+            tmp_if_expr_10 = (signed int)*p < 97 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_10)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
-            tmp_if_expr$11 = (signed int)*p > 104 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$11)
-            tmp_if_expr$13 = (_Bool)1;
+            tmp_if_expr_11 = (signed int)*p > 104 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_11)
+            tmp_if_expr_13 = (_Bool)1;
 
           else
           {
             if((signed int)p[1l] == 51)
-              tmp_if_expr$12 = (_Bool)1;
+              tmp_if_expr_12 = (_Bool)1;
 
             else
-              tmp_if_expr$12 = (signed int)p[(signed long int)1] == 54 ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$13 = !tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_12 = (signed int)p[(signed long int)1] == 54 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_13 = !tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$13)
+          if(tmp_if_expr_13)
             return 1;
 
           board.ep = (signed short int)(((signed int)*p - 97) + ((signed int)p[(signed long int)1] - 49) * 8);
@@ -8427,15 +8427,15 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
   struct anonymous *p2;
   signed int mv;
   signed int side = (signed int)board.side;
-  signed int return_value_IsLegalMove$2;
-  struct anonymous *tmp_post$1;
-  signed int return_value_SwapOff$3;
-  struct anonymous *tmp_post$4;
-  signed int return_value_IsLegalMove$5;
-  signed int return_value_IsLegalMove$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  struct anonymous *tmp_post$9;
+  signed int return_value_IsLegalMove_2;
+  struct anonymous *tmp_post_1;
+  signed int return_value_SwapOff_3;
+  struct anonymous *tmp_post_4;
+  signed int return_value_IsLegalMove_5;
+  signed int return_value_IsLegalMove_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  struct anonymous *tmp_post_9;
   switch((signed int)pickphase[(signed long int)ply])
   {
     case 1:
@@ -8444,13 +8444,13 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
       pickphase[(signed long int)ply] = (signed short int)2;
       if(!(Hashmv[(signed long int)ply] == 0))
       {
-        return_value_IsLegalMove$2=IsLegalMove(Hashmv[(signed long int)ply]);
-        if(!(return_value_IsLegalMove$2 == 0))
+        return_value_IsLegalMove_2=IsLegalMove(Hashmv[(signed long int)ply]);
+        if(!(return_value_IsLegalMove_2 == 0))
         {
           TreePtr[(signed long int)(ply + 1)]->move = Hashmv[(signed long int)ply];
-          tmp_post$1 = TreePtr[(signed long int)(ply + 1)];
+          tmp_post_1 = TreePtr[(signed long int)(ply + 1)];
           TreePtr[(signed long int)(ply + 1)] = TreePtr[(signed long int)(ply + 1)] + 1l;
-          *p1 = tmp_post$1;
+          *p1 = tmp_post_1;
           return 1;
         }
 
@@ -8465,8 +8465,8 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
       p2 = p[(signed long int)ply];
       for( ; !(p2 >= TreePtr[(signed long int)(1 + ply)]); p2 = p2 + 1l)
       {
-        return_value_SwapOff$3=SwapOff(p2->move);
-        p2->score = return_value_SwapOff$3 * 12 + Value[(signed long int)cboard[(signed long int)(p2->move & 0x003F)]];
+        return_value_SwapOff_3=SwapOff(p2->move);
+        p2->score = return_value_SwapOff_3 * 12 + Value[(signed long int)cboard[(signed long int)(p2->move & 0x003F)]];
       }
     }
     case 3:
@@ -8478,9 +8478,9 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
 
         else
         {
-          tmp_post$4 = p[(signed long int)ply];
+          tmp_post_4 = p[(signed long int)ply];
           p[(signed long int)ply] = p[(signed long int)ply] + 1l;
-          *p1 = tmp_post$4;
+          *p1 = tmp_post_4;
           return 1;
         }
       }
@@ -8491,8 +8491,8 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
       {
         if(!(killer1[(signed long int)ply] == Hashmv[(signed long int)ply]))
         {
-          return_value_IsLegalMove$5=IsLegalMove(killer1[(signed long int)ply]);
-          if(!(return_value_IsLegalMove$5 == 0))
+          return_value_IsLegalMove_5=IsLegalMove(killer1[(signed long int)ply]);
+          if(!(return_value_IsLegalMove_5 == 0))
           {
             TreePtr[(signed long int)(ply + 1)]->move = killer1[(signed long int)ply];
             *p1 = TreePtr[(signed long int)(ply + 1)];
@@ -8512,8 +8512,8 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
       {
         if(!(killer2[(signed long int)ply] == Hashmv[(signed long int)ply]))
         {
-          return_value_IsLegalMove$6=IsLegalMove(killer2[(signed long int)ply]);
-          if(!(return_value_IsLegalMove$6 == 0))
+          return_value_IsLegalMove_6=IsLegalMove(killer2[(signed long int)ply]);
+          if(!(return_value_IsLegalMove_6 == 0))
           {
             TreePtr[(signed long int)(ply + 1)]->move = killer2[(signed long int)ply];
             *p1 = TreePtr[(signed long int)(ply + 1)];
@@ -8546,23 +8546,23 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
         pick(p[(signed long int)ply], (signed short int)ply);
         mv = p[(signed long int)ply]->move & (0x00200000 | 0x00400000 | 0x00007000 | 0x0FFF);
         if(mv == Hashmv[(signed long int)ply])
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = mv == killer1[(signed long int)ply] ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_7 = mv == killer1[(signed long int)ply] ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = mv == killer2[(signed long int)ply] ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = mv == killer2[(signed long int)ply] ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
           p[(signed long int)ply] = p[(signed long int)ply] + 1l;
 
         else
         {
-          tmp_post$9 = p[(signed long int)ply];
+          tmp_post_9 = p[(signed long int)ply];
           p[(signed long int)ply] = p[(signed long int)ply] + 1l;
-          *p1 = tmp_post$9;
+          *p1 = tmp_post_9;
           return 1;
         }
       }
@@ -8575,7 +8575,7 @@ signed int PhasePick(struct anonymous **p1, signed int ply)
 // file common.h line 677
 signed int PhasePick1(struct anonymous **p1, signed int ply)
 {
-  struct anonymous *tmp_post$1;
+  struct anonymous *tmp_post_1;
   switch((signed int)pickphase[(signed long int)ply])
   {    static struct anonymous *p[65l];
     case 1:
@@ -8589,9 +8589,9 @@ signed int PhasePick1(struct anonymous **p1, signed int ply)
         goto __CPROVER_DUMP_L3;
 
       pick(p[(signed long int)ply], (signed short int)ply);
-      tmp_post$1 = p[(signed long int)ply];
+      tmp_post_1 = p[(signed long int)ply];
       p[(signed long int)ply] = p[(signed long int)ply] + 1l;
-      *p1 = tmp_post$1;
+      *p1 = tmp_post_1;
       return 1;
     }
     default:
@@ -8609,47 +8609,47 @@ signed int PhasePick1(struct anonymous **p1, signed int ply)
 signed int PinnedOnKing(signed int sq, signed int side)
 {
   signed int xside;
-  signed int PinnedOnKing$$1$$KingSq;
-  signed int PinnedOnKing$$1$$dir;
+  signed int PinnedOnKing__1__KingSq;
+  signed int PinnedOnKing__1__dir;
   signed int sq1;
   unsigned long int b;
   unsigned long int blocker;
-  PinnedOnKing$$1$$KingSq = (signed int)board.king[(signed long int)side];
-  PinnedOnKing$$1$$dir = (signed int)directions[(signed long int)PinnedOnKing$$1$$KingSq][(signed long int)sq];
-  signed int tmp_if_expr$3;
-  unsigned char return_value_leadz$1;
-  unsigned char return_value_leadz$2;
-  if(PinnedOnKing$$1$$dir == -1)
+  PinnedOnKing__1__KingSq = (signed int)board.king[(signed long int)side];
+  PinnedOnKing__1__dir = (signed int)directions[(signed long int)PinnedOnKing__1__KingSq][(signed long int)sq];
+  signed int tmp_if_expr_3;
+  unsigned char return_value_leadz_1;
+  unsigned char return_value_leadz_2;
+  if(PinnedOnKing__1__dir == -1)
     return 0;
 
   else
   {
     xside = 1 ^ side;
     blocker = board.blocker;
-    if(!((FromToRay[(signed long int)PinnedOnKing$$1$$KingSq][(signed long int)sq] & NotBitPosArray[(signed long int)sq] & blocker) == 0ul))
+    if(!((FromToRay[(signed long int)PinnedOnKing__1__KingSq][(signed long int)sq] & NotBitPosArray[(signed long int)sq] & blocker) == 0ul))
       return 0;
 
     else
     {
-      b = (Ray[(signed long int)PinnedOnKing$$1$$KingSq][(signed long int)PinnedOnKing$$1$$dir] ^ FromToRay[(signed long int)PinnedOnKing$$1$$KingSq][(signed long int)sq]) & blocker;
+      b = (Ray[(signed long int)PinnedOnKing__1__KingSq][(signed long int)PinnedOnKing__1__dir] ^ FromToRay[(signed long int)PinnedOnKing__1__KingSq][(signed long int)sq]) & blocker;
       if(b == 0x0000000000000000ULL)
         return 0;
 
       else
       {
-        if(!(PinnedOnKing$$1$$KingSq >= sq))
+        if(!(PinnedOnKing__1__KingSq >= sq))
         {
-          return_value_leadz$1=leadz(b);
-          tmp_if_expr$3 = (signed int)return_value_leadz$1;
+          return_value_leadz_1=leadz(b);
+          tmp_if_expr_3 = (signed int)return_value_leadz_1;
         }
 
         else
         {
-          return_value_leadz$2=leadz(b & ~b + (unsigned long int)1);
-          tmp_if_expr$3 = (signed int)return_value_leadz$2;
+          return_value_leadz_2=leadz(b & ~b + (unsigned long int)1);
+          tmp_if_expr_3 = (signed int)return_value_leadz_2;
         }
-        sq1 = tmp_if_expr$3;
-        if(!(PinnedOnKing$$1$$dir >= 4))
+        sq1 = tmp_if_expr_3;
+        if(!(PinnedOnKing__1__dir >= 4))
         {
           if(((board.b[(signed long int)xside][3l] | board.b[(signed long int)xside][5l]) & BitPosArray[(signed long int)sq1]) == 0ul)
             goto __CPROVER_DUMP_L6;
@@ -8662,7 +8662,7 @@ signed int PinnedOnKing(signed int sq, signed int side)
 
         __CPROVER_DUMP_L6:
           ;
-          if(PinnedOnKing$$1$$dir >= 4)
+          if(PinnedOnKing__1__dir >= 4)
           {
             if(((board.b[(signed long int)xside][4l] | board.b[(signed long int)xside][5l]) & BitPosArray[(signed long int)sq1]) == 0ul)
               goto __CPROVER_DUMP_L7;
@@ -8695,10 +8695,10 @@ signed int Quiesce(unsigned char ply, signed int alpha, signed int beta)
   signed int savealpha;
   struct anonymous *p;
   struct anonymous *pbest;
-  signed short int return_value_EvaluateDraw$1;
-  return_value_EvaluateDraw$1=EvaluateDraw();
-  signed int return_value_SwapOff$2;
-  if(!(return_value_EvaluateDraw$1 == 0))
+  signed short int return_value_EvaluateDraw_1;
+  return_value_EvaluateDraw_1=EvaluateDraw();
+  signed int return_value_SwapOff_2;
+  if(!(return_value_EvaluateDraw_1 == 0))
     return 0;
 
   else
@@ -8751,8 +8751,8 @@ signed int Quiesce(unsigned char ply, signed int alpha, signed int beta)
         pick(p, (signed short int)ply);
         if(InChk[(signed long int)ply] == 0)
         {
-          return_value_SwapOff$2=SwapOff(p->move);
-          if(!(return_value_SwapOff$2 >= delta))
+          return_value_SwapOff_2=SwapOff(p->move);
+          if(!(return_value_SwapOff_2 >= delta))
             goto __CPROVER_DUMP_L13;
 
         }
@@ -8761,16 +8761,16 @@ signed int Quiesce(unsigned char ply, signed int alpha, signed int beta)
         {
           MakeMove((signed int)side, &p->move);
           QuiesCnt = QuiesCnt + 1ul;
-          signed short int return_value_SqAtakd$3;
-          return_value_SqAtakd$3=SqAtakd(board.king[(signed long int)side], (signed short int)xside);
-          if(!(return_value_SqAtakd$3 == 0))
+          signed short int return_value_SqAtakd_3;
+          return_value_SqAtakd_3=SqAtakd(board.king[(signed long int)side], (signed short int)xside);
+          if(!(return_value_SqAtakd_3 == 0))
             UnmakeMove((signed int)xside, &p->move);
 
           else
           {
-            signed int return_value_Quiesce$4;
-            return_value_Quiesce$4=Quiesce((unsigned char)((signed int)ply + 1), -beta, -alpha);
-            score = -return_value_Quiesce$4;
+            signed int return_value_Quiesce_4;
+            return_value_Quiesce_4=Quiesce((unsigned char)((signed int)ply + 1), -beta, -alpha);
+            score = -return_value_Quiesce_4;
             UnmakeMove((signed int)xside, &p->move);
             if(!(best >= score))
             {
@@ -8839,13 +8839,13 @@ unsigned int Rand32(void)
 unsigned long int Rand64(void)
 {
   unsigned long int b;
-  unsigned int return_value_Rand32$1;
-  return_value_Rand32$1=Rand32();
-  b = (unsigned long int)return_value_Rand32$1;
+  unsigned int return_value_Rand32_1;
+  return_value_Rand32_1=Rand32();
+  b = (unsigned long int)return_value_Rand32_1;
   b = b << 32;
-  unsigned int return_value_Rand32$2;
-  return_value_Rand32$2=Rand32();
-  b = b | (unsigned long int)return_value_Rand32$2;
+  unsigned int return_value_Rand32_2;
+  return_value_Rand32_2=Rand32();
+  b = b | (unsigned long int)return_value_Rand32_2;
   return b;
 }
 
@@ -8937,16 +8937,16 @@ void SANMove(signed int move, signed int ply)
   s = SANmv;
   f = move >> 6 & 0x003F;
   t = move & 0x003F;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  char *tmp_post$11;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  char *tmp_post_11;
   if(!((0x00200000 & move) == 0))
   {
     if(t == 6 || t == 62)
@@ -8963,9 +8963,9 @@ void SANMove(signed int move, signed int ply)
     b = board.b[(signed long int)side][(signed long int)piece];
     ambiguous = 0;
     node1 = TreePtr[(signed long int)ply];
-    unsigned char return_value_nbits$1;
-    return_value_nbits$1=nbits$link6(b);
-    if((signed int)return_value_nbits$1 >= 2)
+    unsigned char return_value_nbits_1;
+    return_value_nbits_1=nbits_link6(b);
+    if((signed int)return_value_nbits_1 >= 2)
     {
       node1 = TreePtr[(signed long int)ply];
       for( ; !(node1 >= TreePtr[(signed long int)(1 + ply)]); node1 = node1 + 1l)
@@ -8989,79 +8989,79 @@ void SANMove(signed int move, signed int ply)
     {
       if((signed int)board.ep == t || !(cboard[(signed long int)t] == 0))
       {
-        tmp_post$2 = s;
+        tmp_post_2 = s;
         s = s + 1l;
-        *tmp_post$2 = algbrfile[(signed long int)(f & 7)];
-        tmp_post$3 = s;
+        *tmp_post_2 = algbrfile[(signed long int)(f & 7)];
+        tmp_post_3 = s;
         s = s + 1l;
-        *tmp_post$3 = (char)120;
+        *tmp_post_3 = (char)120;
       }
 
       strcpy(s, algbr[(signed long int)t]);
       s = s + (signed long int)2;
       if(!((0x00007000 & move) == 0))
       {
-        tmp_post$4 = s;
+        tmp_post_4 = s;
         s = s + 1l;
-        *tmp_post$4 = (char)61;
-        tmp_post$5 = s;
+        *tmp_post_4 = (char)61;
+        tmp_post_5 = s;
         s = s + 1l;
-        *tmp_post$5 = notation[(signed long int)(move >> 12 & 0x0007)];
+        *tmp_post_5 = notation[(signed long int)(move >> 12 & 0x0007)];
       }
 
     }
 
     else
     {
-      tmp_post$6 = s;
+      tmp_post_6 = s;
       s = s + 1l;
-      *tmp_post$6 = notation[(signed long int)piece];
+      *tmp_post_6 = notation[(signed long int)piece];
       if(!(ambiguous == 0))
       {
         if((7 & f) == (node1->move >> 6 & 7 & 0x003F))
         {
-          tmp_post$7 = s;
+          tmp_post_7 = s;
           s = s + 1l;
-          *tmp_post$7 = algbrrank[(signed long int)(f >> 3)];
+          *tmp_post_7 = algbrrank[(signed long int)(f >> 3)];
         }
 
         else
         {
-          tmp_post$8 = s;
+          tmp_post_8 = s;
           s = s + 1l;
-          *tmp_post$8 = algbrfile[(signed long int)(f & 7)];
+          *tmp_post_8 = algbrfile[(signed long int)(f & 7)];
         }
       }
 
       if(!(cboard[(signed long int)t] == 0))
       {
-        tmp_post$9 = s;
+        tmp_post_9 = s;
         s = s + 1l;
-        *tmp_post$9 = (char)120;
+        *tmp_post_9 = (char)120;
       }
 
       strcpy(s, algbr[(signed long int)t]);
       s = s + (signed long int)2;
     }
     MakeMove(side, &move);
-    signed short int return_value_SqAtakd$12;
-    return_value_SqAtakd$12=SqAtakd(board.king[(signed long int)(1 ^ side)], (signed short int)side);
-    if(!(return_value_SqAtakd$12 == 0))
+    signed short int return_value_SqAtakd_12;
+    return_value_SqAtakd_12=SqAtakd(board.king[(signed long int)(1 ^ side)], (signed short int)side);
+    if(!(return_value_SqAtakd_12 == 0))
     {
       TreePtr[(signed long int)(ply + 2)] = TreePtr[(signed long int)(ply + 1)];
       GenCheckEscapes((signed short int)(ply + 1));
       if(TreePtr[(signed long int)(1 + ply)] == TreePtr[(signed long int)(2 + ply)])
       {
-        tmp_post$10 = s;
+        tmp_post_10 = s;
         s = s + 1l;
-        *tmp_post$10 = (char)35;
+        *tmp_post_10 = (char)35;
       }
 
       else
       {
-        tmp_post$11 = s;
+        tmp_post_11 = s;
         s = s + 1l;
-        *tmp_post$11 = (char)43;
+        *tmp_post_11 = (char)43;
       }
       GenCnt = GenCnt - (unsigned long int)(TreePtr[(signed long int)(ply + 2)] - TreePtr[(signed long int)(ply + 1)]);
     }
@@ -9089,10 +9089,10 @@ void SaveEPD(char *p)
   sscanf(p, "%s ", (const void *)file);
   fp=fopen(file, "a");
   r = 56;
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_tolower_loc$2;
-  const signed int **return_value___ctype_tolower_loc$4;
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_tolower_loc_2;
+  const signed int **return_value___ctype_tolower_loc_4;
   for( ; r >= 0; r = r - 8)
   {
     k = 0;
@@ -9113,10 +9113,10 @@ void SaveEPD(char *p)
         if(!((board.friends[1l] & BitPosArray[(signed long int)sq]) == 0ul))
         {
           signed int __res;
-          return_value___ctype_tolower_loc$4=__ctype_tolower_loc();
-          __res = (*return_value___ctype_tolower_loc$4)[(signed long int)(signed int)c1];
-          tmp_statement_expression$1 = __res;
-          c1 = (char)tmp_statement_expression$1;
+          return_value___ctype_tolower_loc_4=__ctype_tolower_loc();
+          __res = (*return_value___ctype_tolower_loc_4)[(signed long int)(signed int)c1];
+          tmp_statement_expression_1 = __res;
+          c1 = (char)tmp_statement_expression_1;
         }
 
         fprintf(fp, "%c", c1);
@@ -9145,13 +9145,13 @@ void SaveEPD(char *p)
   if((15 & (signed int)board.flag) == 0)
     fprintf(fp, "-");
 
-  char *tmp_if_expr$5;
+  char *tmp_if_expr_5;
   if((signed int)board.ep >= 0)
-    tmp_if_expr$5 = algbr[(signed long int)board.ep];
+    tmp_if_expr_5 = algbr[(signed long int)board.ep];
 
   else
-    tmp_if_expr$5 = "-";
-  fprintf(fp, " %s", tmp_if_expr$5);
+    tmp_if_expr_5 = "-";
+  fprintf(fp, " %s", tmp_if_expr_5);
   fprintf(fp, " bm 1; id 1;");
   fprintf(fp, "\n");
   fclose(fp);
@@ -9164,7 +9164,7 @@ signed int ScoreB(signed short int side)
   signed int xside;
   signed int s;
   signed int s1;
-  signed int ScoreB$$1$$n;
+  signed int ScoreB__1__n;
   signed int sq;
   unsigned long int c;
   unsigned long int t;
@@ -9177,22 +9177,22 @@ signed int ScoreB(signed short int side)
     s = s1;
     c = board.b[(signed long int)side][(signed long int)3];
     xside = (signed int)side ^ 1;
-    ScoreB$$1$$n = 0;
+    ScoreB__1__n = 0;
     t = board.b[(signed long int)xside][(signed long int)1];
     if(!((c & pinned) == 0ul))
     {
-      unsigned char return_value_nbits$1;
-      return_value_nbits$1=nbits$link2(c & pinned);
-      s = s + -30 * (signed int)return_value_nbits$1;
+      unsigned char return_value_nbits_1;
+      return_value_nbits_1=nbits_link2(c & pinned);
+      s = s + -30 * (signed int)return_value_nbits_1;
     }
 
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$2;
-      return_value_leadz$2=leadz$link2(c);
-      sq = (signed int)return_value_leadz$2;
+      unsigned char return_value_leadz_2;
+      return_value_leadz_2=leadz_link2(c);
+      sq = (signed int)return_value_leadz_2;
       c = c & NotBitPosArray[(signed long int)sq];
-      ScoreB$$1$$n = ScoreB$$1$$n + 1;
+      ScoreB__1__n = ScoreB__1__n + 1;
       s1=CTL((signed short int)sq, (signed short int)3, side);
       if(!(Outpost[(signed long int)side][(signed long int)sq] == 0))
       {
@@ -9264,7 +9264,7 @@ signed int ScoreB(signed short int side)
 
       s = s + s1;
     }
-    if(ScoreB$$1$$n >= 2)
+    if(ScoreB__1__n >= 2)
       s = s + 18;
 
     return s;
@@ -9278,9 +9278,9 @@ signed int ScoreDev(signed short int side)
   signed int s;
   signed int sq;
   unsigned long int c = board.b[(signed long int)side][(signed long int)2] & nn[(signed long int)side] | board.b[(signed long int)side][(signed long int)3] & bb[(signed long int)side];
-  unsigned char return_value_nbits$1;
-  return_value_nbits$1=nbits$link2(c);
-  s = (signed int)return_value_nbits$1 * -8;
+  unsigned char return_value_nbits_1;
+  return_value_nbits_1=nbits_link2(c);
+  s = (signed int)return_value_nbits_1 * -8;
   if(GameCnt >= 38 || !(board.castled[(signed long int)side] == 0))
     return s;
 
@@ -9293,9 +9293,9 @@ signed int ScoreDev(signed short int side)
     c = board.b[(signed long int)side][(signed long int)4];
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$2;
-      return_value_leadz$2=leadz$link2(c);
-      sq = (signed int)return_value_leadz$2;
+      unsigned char return_value_leadz_2;
+      return_value_leadz_2=leadz_link2(c);
+      sq = (signed int)return_value_leadz_2;
       c = c & NotBitPosArray[(signed long int)sq];
       if(Mvboard[(signed long int)sq] >= 1)
         s = s + -20;
@@ -9303,9 +9303,9 @@ signed int ScoreDev(signed short int side)
     }
     if(!(board.b[(signed long int)side][5l] == 0ul))
     {
-      unsigned char return_value_leadz$3;
-      return_value_leadz$3=leadz$link2(board.b[(signed long int)side][(signed long int)5]);
-      sq = (signed int)return_value_leadz$3;
+      unsigned char return_value_leadz_3;
+      return_value_leadz_3=leadz_link2(board.b[(signed long int)side][(signed long int)5]);
+      sq = (signed int)return_value_leadz_3;
       if(Mvboard[(signed long int)sq] >= 1)
         s = s + -40;
 
@@ -9314,9 +9314,9 @@ signed int ScoreDev(signed short int side)
     c = board.b[(signed long int)side][(signed long int)2] | board.b[(signed long int)side][(signed long int)3];
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$4;
-      return_value_leadz$4=leadz$link2(c);
-      sq = (signed int)return_value_leadz$4;
+      unsigned char return_value_leadz_4;
+      return_value_leadz_4=leadz_link2(c);
+      sq = (signed int)return_value_leadz_4;
       c = c & NotBitPosArray[(signed long int)sq];
       if(Mvboard[(signed long int)sq] >= 2)
         s = s + -7;
@@ -9325,9 +9325,9 @@ signed int ScoreDev(signed short int side)
     c = board.b[(signed long int)side][(signed long int)1] & 0xc3c3c3c3c3c3c3c3ULL;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$5;
-      return_value_leadz$5=leadz$link2(c);
-      sq = (signed int)return_value_leadz$5;
+      unsigned char return_value_leadz_5;
+      return_value_leadz_5=leadz_link2(c);
+      sq = (signed int)return_value_leadz_5;
       c = c & NotBitPosArray[(signed long int)sq];
       if(Mvboard[(signed long int)sq] >= 1)
         s = s + -6;
@@ -9336,9 +9336,9 @@ signed int ScoreDev(signed short int side)
     c = board.b[(signed long int)side][(signed long int)1] & 0x3c3c3c3c3c3c3c3cULL;
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$6;
-      return_value_leadz$6=leadz$link2(c);
-      sq = (signed int)return_value_leadz$6;
+      unsigned char return_value_leadz_6;
+      return_value_leadz_6=leadz_link2(c);
+      sq = (signed int)return_value_leadz_6;
       c = c & NotBitPosArray[(signed long int)sq];
       if(Mvboard[(signed long int)sq] >= 2)
         s = s + -6;
@@ -9356,7 +9356,7 @@ signed int ScoreK(signed short int side)
   signed int s;
   signed int sq;
   signed int sq1;
-  signed int ScoreK$$1$$n;
+  signed int ScoreK__1__n;
   signed int n1;
   signed int n2;
   signed int file;
@@ -9370,39 +9370,39 @@ signed int ScoreK(signed short int side)
   file = sq & 7;
   rank = sq >> 3;
   KingSafety[(signed long int)side] = (signed short int)0;
-  unsigned char return_value_nbits$1;
-  unsigned char return_value_nbits$2;
-  unsigned char return_value_nbits$3;
-  unsigned char return_value_nbits$4;
-  unsigned char return_value_nbits$5;
-  unsigned char return_value_nbits$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
+  unsigned char return_value_nbits_1;
+  unsigned char return_value_nbits_2;
+  unsigned char return_value_nbits_3;
+  unsigned char return_value_nbits_4;
+  unsigned char return_value_nbits_5;
+  unsigned char return_value_nbits_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
   if(!(phase >= 6))
   {
     s = s + ((6 - phase) * KingSq[(signed long int)sq] + phase * EndingKing[(signed long int)sq]) / 6;
     if((signed int)side == 0)
     {
-      return_value_nbits$1=nbits$link2(MoveArray[(signed long int)6][(signed long int)sq] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank + 1)]);
-      ScoreK$$1$$n = (signed int)return_value_nbits$1;
+      return_value_nbits_1=nbits_link2(MoveArray[(signed long int)6][(signed long int)sq] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank + 1)]);
+      ScoreK__1__n = (signed int)return_value_nbits_1;
     }
 
     else
     {
-      return_value_nbits$2=nbits$link2(MoveArray[(signed long int)6][(signed long int)sq] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank - 1)]);
-      ScoreK$$1$$n = (signed int)return_value_nbits$2;
+      return_value_nbits_2=nbits_link2(MoveArray[(signed long int)6][(signed long int)sq] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank - 1)]);
+      ScoreK__1__n = (signed int)return_value_nbits_2;
     }
-    s = s + pawncover[(signed long int)ScoreK$$1$$n];
+    s = s + pawncover[(signed long int)ScoreK__1__n];
     if(board.castled[(signed long int)side] == 0)
     {
-      ScoreK$$1$$n = -1;
+      ScoreK__1__n = -1;
       if((signed int)side == 0)
       {
         if(sq == 4)
@@ -9413,8 +9413,8 @@ signed int ScoreK(signed short int side)
             {
               if(Mvboard[7l] == 0)
               {
-                return_value_nbits$3=nbits$link2(MoveArray[(signed long int)6][(signed long int)6] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank + 1)]);
-                ScoreK$$1$$n = (signed int)return_value_nbits$3;
+                return_value_nbits_3=nbits_link2(MoveArray[(signed long int)6][(signed long int)6] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank + 1)]);
+                ScoreK__1__n = (signed int)return_value_nbits_3;
               }
 
             }
@@ -9423,8 +9423,8 @@ signed int ScoreK(signed short int side)
             {
               if(Mvboard[0l] == 0)
               {
-                return_value_nbits$4=nbits$link2(MoveArray[(signed long int)6][(signed long int)2] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank + 1)]);
-                ScoreK$$1$$n = (signed int)return_value_nbits$4;
+                return_value_nbits_4=nbits_link2(MoveArray[(signed long int)6][(signed long int)2] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank + 1)]);
+                ScoreK__1__n = (signed int)return_value_nbits_4;
               }
 
             }
@@ -9444,8 +9444,8 @@ signed int ScoreK(signed short int side)
             {
               if(Mvboard[63l] == 0)
               {
-                return_value_nbits$5=nbits$link2(MoveArray[(signed long int)6][(signed long int)62] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank - 1)]);
-                ScoreK$$1$$n = (signed int)return_value_nbits$5;
+                return_value_nbits_5=nbits_link2(MoveArray[(signed long int)6][(signed long int)62] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank - 1)]);
+                ScoreK__1__n = (signed int)return_value_nbits_5;
               }
 
             }
@@ -9454,8 +9454,8 @@ signed int ScoreK(signed short int side)
             {
               if(Mvboard[56l] == 0)
               {
-                return_value_nbits$6=nbits$link2(MoveArray[(signed long int)6][(signed long int)58] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank - 1)]);
-                ScoreK$$1$$n = (signed int)return_value_nbits$6;
+                return_value_nbits_6=nbits_link2(MoveArray[(signed long int)6][(signed long int)58] & board.b[(signed long int)side][(signed long int)1] & RankBit[(signed long int)(rank - 1)]);
+                ScoreK__1__n = (signed int)return_value_nbits_6;
               }
 
             }
@@ -9464,8 +9464,8 @@ signed int ScoreK(signed short int side)
 
         }
 
-      if(!(ScoreK$$1$$n == -1))
-        s = s + pawncover[(signed long int)ScoreK$$1$$n];
+      if(!(ScoreK__1__n == -1))
+        s = s + pawncover[(signed long int)ScoreK__1__n];
 
     }
 
@@ -9474,11 +9474,11 @@ signed int ScoreK(signed short int side)
       if((board.b[(signed long int)side][1l] & FileBit[6l]) == 0ul)
       {
         if((signed int)side == 0)
-          tmp_if_expr$7 = cboard[(signed long int)13] == 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = cboard[(signed long int)13] == 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
           s = s + -30;
 
         else
@@ -9544,16 +9544,16 @@ signed int ScoreK(signed short int side)
             if(file >= 5)
             {
               if((board.b[(signed long int)side][1l] & BitPosArray[13l]) == 0ul)
-                tmp_if_expr$8 = (_Bool)1;
+                tmp_if_expr_8 = (_Bool)1;
 
               else
-                tmp_if_expr$8 = !((BitPosArray[(signed long int)14] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$8)
-                tmp_if_expr$9 = (_Bool)1;
+                tmp_if_expr_8 = !((BitPosArray[(signed long int)14] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_8)
+                tmp_if_expr_9 = (_Bool)1;
 
               else
-                tmp_if_expr$9 = !((BitPosArray[(signed long int)15] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$9)
+                tmp_if_expr_9 = !((BitPosArray[(signed long int)15] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_9)
                 s = s + -20;
 
             }
@@ -9562,16 +9562,16 @@ signed int ScoreK(signed short int side)
               if(!(file >= 4))
               {
                 if((board.b[(signed long int)side][1l] & BitPosArray[8l]) == 0ul)
-                  tmp_if_expr$10 = (_Bool)1;
+                  tmp_if_expr_10 = (_Bool)1;
 
                 else
-                  tmp_if_expr$10 = !((BitPosArray[(signed long int)9] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$10)
-                  tmp_if_expr$11 = (_Bool)1;
+                  tmp_if_expr_10 = !((BitPosArray[(signed long int)9] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_10)
+                  tmp_if_expr_11 = (_Bool)1;
 
                 else
-                  tmp_if_expr$11 = !((BitPosArray[(signed long int)10] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$11)
+                  tmp_if_expr_11 = !((BitPosArray[(signed long int)10] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_11)
                   s = s + -20;
 
               }
@@ -9582,16 +9582,16 @@ signed int ScoreK(signed short int side)
             if(file >= 5)
             {
               if((board.b[(signed long int)side][1l] & BitPosArray[53l]) == 0ul)
-                tmp_if_expr$12 = (_Bool)1;
+                tmp_if_expr_12 = (_Bool)1;
 
               else
-                tmp_if_expr$12 = !((BitPosArray[(signed long int)54] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$12)
-                tmp_if_expr$13 = (_Bool)1;
+                tmp_if_expr_12 = !((BitPosArray[(signed long int)54] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_12)
+                tmp_if_expr_13 = (_Bool)1;
 
               else
-                tmp_if_expr$13 = !((BitPosArray[(signed long int)55] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$13)
+                tmp_if_expr_13 = !((BitPosArray[(signed long int)55] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_13)
                 s = s + -20;
 
             }
@@ -9600,16 +9600,16 @@ signed int ScoreK(signed short int side)
               if(!(file >= 4))
               {
                 if((board.b[(signed long int)side][1l] & BitPosArray[48l]) == 0ul)
-                  tmp_if_expr$14 = (_Bool)1;
+                  tmp_if_expr_14 = (_Bool)1;
 
                 else
-                  tmp_if_expr$14 = !((BitPosArray[(signed long int)49] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$14)
-                  tmp_if_expr$15 = (_Bool)1;
+                  tmp_if_expr_14 = !((BitPosArray[(signed long int)49] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_14)
+                  tmp_if_expr_15 = (_Bool)1;
 
                 else
-                  tmp_if_expr$15 = !((BitPosArray[(signed long int)50] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$15)
+                  tmp_if_expr_15 = !((BitPosArray[(signed long int)50] & board.b[(signed long int)side][(signed long int)1]) != 0ul) ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_15)
                   s = s + -20;
 
               }
@@ -9711,14 +9711,14 @@ signed int ScoreK(signed short int side)
         }
 
         x = boardhalf[(signed long int)side] & boardside[(signed long int)(file <= 3)];
-        unsigned char return_value_nbits$16;
-        return_value_nbits$16=nbits$link2(x & board.friends[(signed long int)xside]);
-        n1 = (signed int)return_value_nbits$16;
+        unsigned char return_value_nbits_16;
+        return_value_nbits_16=nbits_link2(x & board.friends[(signed long int)xside]);
+        n1 = (signed int)return_value_nbits_16;
         if(n1 >= 1)
         {
-          unsigned char return_value_nbits$17;
-          return_value_nbits$17=nbits$link2(x & board.friends[(signed long int)side] & ~board.b[(signed long int)side][(signed long int)1] & ~board.b[(signed long int)side][(signed long int)6]);
-          n2 = (signed int)return_value_nbits$17;
+          unsigned char return_value_nbits_17;
+          return_value_nbits_17=nbits_link2(x & board.friends[(signed long int)side] & ~board.b[(signed long int)side][(signed long int)1] & ~board.b[(signed long int)side][(signed long int)6]);
+          n2 = (signed int)return_value_nbits_17;
           if(!(n2 >= n1))
             s = s + (n1 - n2) * -50;
 
@@ -9733,15 +9733,15 @@ signed int ScoreK(signed short int side)
   else
   {
     s = s + EndingKing[(signed long int)sq];
-    signed int return_value_CTL$18;
-    return_value_CTL$18=CTL((signed short int)sq, (signed short int)6, side);
-    s = s + return_value_CTL$18;
+    signed int return_value_CTL_18;
+    return_value_CTL_18=CTL((signed short int)sq, (signed short int)6, side);
+    s = s + return_value_CTL_18;
     b = board.b[(signed long int)0][(signed long int)1] | board.b[(signed long int)1][(signed long int)1];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$19;
-      return_value_leadz$19=leadz$link2(b);
-      sq1 = (signed int)return_value_leadz$19;
+      unsigned char return_value_leadz_19;
+      return_value_leadz_19=leadz_link2(b);
+      sq1 = (signed int)return_value_leadz_19;
       b = b & NotBitPosArray[(signed long int)sq1];
       if(!((board.b[0l][1l] & BitPosArray[(signed long int)sq1]) == 0ul))
         s = s - ((signed int)distance[(signed long int)sq][(signed long int)(sq1 + 8)] * 10 - 5);
@@ -9802,12 +9802,12 @@ signed int ScoreKBNK(signed int side, signed int loser)
   s = 300 - 6 * (signed int)taxicab[(signed long int)sq1][(signed long int)sq2];
   s = s - KBNK[(signed long int)sqB];
   s = s - EndingKing[(signed long int)sq2];
-  unsigned char return_value_leadz$1;
-  return_value_leadz$1=leadz$link2(board.b[(signed long int)winer][(signed long int)2]);
-  s = s - (signed int)taxicab[(signed long int)return_value_leadz$1][(signed long int)sq2];
-  unsigned char return_value_leadz$2;
-  return_value_leadz$2=leadz$link2(board.b[(signed long int)winer][(signed long int)3]);
-  s = s - (signed int)taxicab[(signed long int)return_value_leadz$2][(signed long int)sq2];
+  unsigned char return_value_leadz_1;
+  return_value_leadz_1=leadz_link2(board.b[(signed long int)winer][(signed long int)2]);
+  s = s - (signed int)taxicab[(signed long int)return_value_leadz_1][(signed long int)sq2];
+  unsigned char return_value_leadz_2;
+  return_value_leadz_2=leadz_link2(board.b[(signed long int)winer][(signed long int)3]);
+  s = s - (signed int)taxicab[(signed long int)return_value_leadz_2][(signed long int)sq2];
   if(!((0x00003C3C3C3C0000ULL & board.b[(signed long int)winer][6l]) == 0ul))
     s = s + 20;
 
@@ -9840,16 +9840,16 @@ signed int ScoreN(signed short int side)
     t = board.b[(signed long int)xside][(signed long int)1];
     if(!((c & pinned) == 0ul))
     {
-      unsigned char return_value_nbits$1;
-      return_value_nbits$1=nbits$link2(c & pinned);
-      s = s + -30 * (signed int)return_value_nbits$1;
+      unsigned char return_value_nbits_1;
+      return_value_nbits_1=nbits_link2(c & pinned);
+      s = s + -30 * (signed int)return_value_nbits_1;
     }
 
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$2;
-      return_value_leadz$2=leadz$link2(c);
-      sq = (signed int)return_value_leadz$2;
+      unsigned char return_value_leadz_2;
+      return_value_leadz_2=leadz_link2(c);
+      sq = (signed int)return_value_leadz_2;
       c = c & NotBitPosArray[(signed long int)sq];
       s1=CTL((signed short int)sq, (signed short int)2, side);
       if(!((rings[3l] & BitPosArray[(signed long int)sq]) == 0x0000000000000000ULL))
@@ -9893,16 +9893,16 @@ signed int ScoreP(signed short int side)
   unsigned long int t;
   unsigned long int p;
   unsigned long int blocker;
-  struct anonymous$4 *ptable;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  unsigned char return_value_nbits$11;
-  unsigned char return_value_nbits$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
+  struct anonymous_4 *ptable;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  unsigned char return_value_nbits_11;
+  unsigned char return_value_nbits_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
   if(board.b[(signed long int)side][1l] == 0x0000000000000000ULL)
     return 0;
 
@@ -9936,31 +9936,31 @@ signed int ScoreP(signed short int side)
       memset((void *)nfile, 0, sizeof(signed int [8l]) /*32ul*/ );
       while(!(t == 0ul))
       {
-        unsigned char return_value_leadz$1;
-        return_value_leadz$1=leadz$link2(t);
-        sq = (signed int)return_value_leadz$1;
+        unsigned char return_value_leadz_1;
+        return_value_leadz_1=leadz_link2(t);
+        sq = (signed int)return_value_leadz_1;
         t = t & NotBitPosArray[(signed long int)sq];
         s = s + PawnSq[(signed long int)side][(signed long int)sq];
         if((PassedPawnMask[(signed long int)side][(signed long int)sq] & p) == 0x0000000000000000ULL)
         {
           if((signed int)side == 0)
-            tmp_if_expr$2 = (FromToRay[(signed long int)sq][(signed long int)(sq | 56)] & c) == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (FromToRay[(signed long int)sq][(signed long int)(sq | 56)] & c) == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
             if((signed int)side == 1)
-              tmp_if_expr$3 = (FromToRay[(signed long int)sq][(signed long int)(sq & 7)] & c) == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = (FromToRay[(signed long int)sq][(signed long int)(sq & 7)] & c) == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = (_Bool)0;
+            tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
           {
             passed[(signed long int)side] = passed[(signed long int)side] | BitPosArray[(signed long int)sq];
             s = s + (Passed[(signed long int)side][(signed long int)(sq >> 3)] * phase) / 12;
@@ -9978,12 +9978,12 @@ signed int ScoreP(signed short int side)
         {
           if(!(cboard[(signed long int)i] == 1))
           {
-            unsigned char return_value_nbits$5;
-            return_value_nbits$5=nbits$link2(c & MoveArray[(signed long int)ptype[(signed long int)xside]][(signed long int)i]);
-            n1 = (signed int)return_value_nbits$5;
-            unsigned char return_value_nbits$6;
-            return_value_nbits$6=nbits$link2(p & MoveArray[(signed long int)ptype[(signed long int)side]][(signed long int)i]);
-            n2 = (signed int)return_value_nbits$6;
+            unsigned char return_value_nbits_5;
+            return_value_nbits_5=nbits_link2(c & MoveArray[(signed long int)ptype[(signed long int)xside]][(signed long int)i]);
+            n1 = (signed int)return_value_nbits_5;
+            unsigned char return_value_nbits_6;
+            return_value_nbits_6=nbits_link2(p & MoveArray[(signed long int)ptype[(signed long int)side]][(signed long int)i]);
+            n2 = (signed int)return_value_nbits_6;
             if(!(n1 >= n2))
               backward = 1;
 
@@ -9999,12 +9999,12 @@ signed int ScoreP(signed short int side)
             i = i + ((signed int)side == 0 ? 8 : -8);
             if((~FileBit[(signed long int)(7 & i1)] & PassedPawnMask[(signed long int)xside][(signed long int)i] & c) == 0ul)
             {
-              unsigned char return_value_nbits$7;
-              return_value_nbits$7=nbits$link2(c & MoveArray[(signed long int)ptype[(signed long int)xside]][(signed long int)i]);
-              n1 = (signed int)return_value_nbits$7;
-              unsigned char return_value_nbits$8;
-              return_value_nbits$8=nbits$link2(p & MoveArray[(signed long int)ptype[(signed long int)side]][(signed long int)i]);
-              n2 = (signed int)return_value_nbits$8;
+              unsigned char return_value_nbits_7;
+              return_value_nbits_7=nbits_link2(c & MoveArray[(signed long int)ptype[(signed long int)xside]][(signed long int)i]);
+              n1 = (signed int)return_value_nbits_7;
+              unsigned char return_value_nbits_8;
+              return_value_nbits_8=nbits_link2(p & MoveArray[(signed long int)ptype[(signed long int)side]][(signed long int)i]);
+              n2 = (signed int)return_value_nbits_8;
               if(!(n1 >= n2))
                 backward = 1;
 
@@ -10052,27 +10052,27 @@ signed int ScoreP(signed short int side)
       }
       if(computerplays == (signed int)side)
       {
-        unsigned char return_value_nbits$9;
-        return_value_nbits$9=nbits$link2(board.b[(signed long int)computerplays][(signed long int)1]);
-        if((signed int)return_value_nbits$9 == 8)
+        unsigned char return_value_nbits_9;
+        return_value_nbits_9=nbits_link2(board.b[(signed long int)computerplays][(signed long int)1]);
+        if((signed int)return_value_nbits_9 == 8)
           s = s + -10;
 
-        unsigned char return_value_nbits$10;
-        return_value_nbits$10=nbits$link2(stonewall[(signed long int)xside] & board.b[(signed long int)xside][(signed long int)1]);
-        if((signed int)return_value_nbits$10 == 3)
+        unsigned char return_value_nbits_10;
+        return_value_nbits_10=nbits_link2(stonewall[(signed long int)xside] & board.b[(signed long int)xside][(signed long int)1]);
+        if((signed int)return_value_nbits_10 == 3)
           s = s + -10;
 
         n = 0;
         if((signed int)side == 0)
         {
-          return_value_nbits$11=nbits$link2(c >> 8 & board.b[(signed long int)xside][(signed long int)1] & boxes[(signed long int)1]);
-          n = (signed int)return_value_nbits$11;
+          return_value_nbits_11=nbits_link2(c >> 8 & board.b[(signed long int)xside][(signed long int)1] & boxes[(signed long int)1]);
+          n = (signed int)return_value_nbits_11;
         }
 
         else
         {
-          return_value_nbits$12=nbits$link2(c << 8 & board.b[(signed long int)xside][(signed long int)1] & boxes[(signed long int)1]);
-          n = (signed int)return_value_nbits$12;
+          return_value_nbits_12=nbits_link2(c << 8 & board.b[(signed long int)xside][(signed long int)1] & boxes[(signed long int)1]);
+          n = (signed int)return_value_nbits_12;
         }
         if(n >= 2)
           s = s + n * -10;
@@ -10091,16 +10091,16 @@ signed int ScoreP(signed short int side)
     c = board.b[(signed long int)side][(signed long int)1];
     sq = (signed int)board.king[(signed long int)xside];
     if((signed int)side == 0)
-      tmp_if_expr$13 = board.b[(signed long int)side][(signed long int)5] != 0ul ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_13 = board.b[(signed long int)side][(signed long int)5] != 0ul ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$13 = (_Bool)0;
-    if(tmp_if_expr$13)
-      tmp_if_expr$14 = ((BitPosArray[(signed long int)42] | BitPosArray[(signed long int)45]) & c) != 0ul ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_13 = (_Bool)0;
+    if(tmp_if_expr_13)
+      tmp_if_expr_14 = ((BitPosArray[(signed long int)42] | BitPosArray[(signed long int)45]) & c) != 0ul ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$14 = (_Bool)0;
-    if(tmp_if_expr$14)
+      tmp_if_expr_14 = (_Bool)0;
+    if(tmp_if_expr_14)
     {
       if(!((BitPosArray[45l] & c) == 0ul))
       {
@@ -10165,18 +10165,18 @@ signed int ScoreP(signed short int side)
     if(!(t == 0ul))
     {
       if((signed int)board.pmaterial[(signed long int)xside] == 550)
-        tmp_if_expr$16 = (_Bool)1;
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
         if((signed int)board.pmaterial[(signed long int)xside] == 350)
-          tmp_if_expr$15 = pieces[(signed long int)xside] == board.b[(signed long int)xside][(signed long int)2] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = pieces[(signed long int)xside] == board.b[(signed long int)xside][(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = (_Bool)0;
+        tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
+      if(tmp_if_expr_16)
       {
         n1 = (signed int)board.king[(signed long int)xside] & 7;
         n2 = (signed int)board.king[(signed long int)xside] >> 3;
@@ -10220,9 +10220,9 @@ signed int ScoreP(signed short int side)
         p = passed[(signed long int)side];
         while(!(p == 0ul))
         {
-          unsigned char return_value_leadz$17;
-          return_value_leadz$17=leadz$link2(p);
-          sq = (signed int)return_value_leadz$17;
+          unsigned char return_value_leadz_17;
+          return_value_leadz_17=leadz_link2(p);
+          sq = (signed int)return_value_leadz_17;
           p = p & NotBitPosArray[(signed long int)sq];
           if(board.side == side)
           {
@@ -10241,9 +10241,9 @@ signed int ScoreP(signed short int side)
     }
 
     c = board.b[(signed long int)side][(signed long int)1];
-    signed int return_value_abs$19;
-    return_value_abs$19=abs(((signed int)board.king[(signed long int)side] & 7) - ((signed int)board.king[(signed long int)xside] & 7));
-    if(return_value_abs$19 >= 4)
+    signed int return_value_abs_19;
+    return_value_abs_19=abs(((signed int)board.king[(signed long int)side] & 7) - ((signed int)board.king[(signed long int)xside] & 7));
+    if(return_value_abs_19 >= 4)
     {
       if(!(8 + -(((signed int)board.material[0l] + (signed int)board.material[1l]) / 1150) >= 6))
       {
@@ -10251,9 +10251,9 @@ signed int ScoreP(signed short int side)
         p = (IsolaniMask[(signed long int)n1] | FileBit[(signed long int)n1]) & c;
         while(!(p == 0ul))
         {
-          unsigned char return_value_leadz$18;
-          return_value_leadz$18=leadz$link2(p);
-          sq = (signed int)return_value_leadz$18;
+          unsigned char return_value_leadz_18;
+          return_value_leadz_18=leadz_link2(p);
+          sq = (signed int)return_value_leadz_18;
           p = p & NotBitPosArray[(signed long int)sq];
           s = s + 10 * (5 - (signed int)distance[(signed long int)sq][(signed long int)board.king[(signed long int)xside]]);
         }
@@ -10292,16 +10292,16 @@ signed int ScoreQ(signed short int side)
     EnemyKing = (signed int)board.king[(signed long int)xside];
     if(!((c & pinned) == 0ul))
     {
-      unsigned char return_value_nbits$1;
-      return_value_nbits$1=nbits$link2(c & pinned);
-      s = s + -90 * (signed int)return_value_nbits$1;
+      unsigned char return_value_nbits_1;
+      return_value_nbits_1=nbits_link2(c & pinned);
+      s = s + -90 * (signed int)return_value_nbits_1;
     }
 
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$2;
-      return_value_leadz$2=leadz$link2(c);
-      sq = (signed int)return_value_leadz$2;
+      unsigned char return_value_leadz_2;
+      return_value_leadz_2=leadz_link2(c);
+      sq = (signed int)return_value_leadz_2;
       c = c & NotBitPosArray[(signed long int)sq];
       s1=CTL((signed short int)sq, (signed short int)5, side);
       if(!((signed int)distance[(signed long int)sq][(signed long int)EnemyKing] >= 3))
@@ -10327,7 +10327,7 @@ signed int ScoreR(signed short int side)
   signed int fyle;
   signed int EnemyKing;
   unsigned long int c;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(board.b[(signed long int)side][4l] == 0x0000000000000000ULL)
     return 0;
 
@@ -10340,16 +10340,16 @@ signed int ScoreR(signed short int side)
     EnemyKing = (signed int)board.king[(signed long int)xside];
     if(!((c & pinned) == 0ul))
     {
-      unsigned char return_value_nbits$1;
-      return_value_nbits$1=nbits$link2(c & pinned);
-      s = s + -50 * (signed int)return_value_nbits$1;
+      unsigned char return_value_nbits_1;
+      return_value_nbits_1=nbits_link2(c & pinned);
+      s = s + -50 * (signed int)return_value_nbits_1;
     }
 
     while(!(c == 0ul))
     {
-      unsigned char return_value_leadz$2;
-      return_value_leadz$2=leadz$link2(c);
-      sq = (signed int)return_value_leadz$2;
+      unsigned char return_value_leadz_2;
+      return_value_leadz_2=leadz_link2(c);
+      sq = (signed int)return_value_leadz_2;
       c = c & NotBitPosArray[(signed long int)sq];
       s1=CTL((signed short int)sq, (signed short int)4, side);
       fyle = sq & 7;
@@ -10376,9 +10376,9 @@ signed int ScoreR(signed short int side)
       {
         if(!((brank58[0l] & passed[0l] & FileBit[(signed long int)fyle]) == 0ul))
         {
-          unsigned char return_value_nbits$3;
-          return_value_nbits$3=nbits$link2(Ray[(signed long int)sq][(signed long int)7] & passed[(signed long int)0]);
-          if((signed int)return_value_nbits$3 == 1)
+          unsigned char return_value_nbits_3;
+          return_value_nbits_3=nbits_link2(Ray[(signed long int)sq][(signed long int)7] & passed[(signed long int)0]);
+          if((signed int)return_value_nbits_3 == 1)
             s1 = s1 + 6;
 
           else
@@ -10391,9 +10391,9 @@ signed int ScoreR(signed short int side)
 
       if(!((brank58[1l] & passed[1l] & FileBit[(signed long int)fyle]) == 0ul))
       {
-        unsigned char return_value_nbits$4;
-        return_value_nbits$4=nbits$link2(Ray[(signed long int)sq][(signed long int)4] & passed[(signed long int)1]);
-        if((signed int)return_value_nbits$4 == 1)
+        unsigned char return_value_nbits_4;
+        return_value_nbits_4=nbits_link2(Ray[(signed long int)sq][(signed long int)4] & passed[(signed long int)1]);
+        if((signed int)return_value_nbits_4 == 1)
           s1 = s1 + 6;
 
         else
@@ -10408,11 +10408,11 @@ signed int ScoreR(signed short int side)
       if(sq >> 3 == rank7[(signed long int)side])
       {
         if(EnemyKing >> 3 == rank8[(signed long int)side])
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (board.b[(signed long int)xside][(signed long int)1] & RankBit[(signed long int)(sq >> 3)]) != 0ul ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (board.b[(signed long int)xside][(signed long int)1] & RankBit[(signed long int)(sq >> 3)]) != 0ul ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
           s1 = s1 + 30;
 
       }
@@ -10446,41 +10446,41 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
   struct anonymous *pbest;
   signed int g0;
   signed int g1;
-  signed short int return_value_EvaluateDraw$1;
-  return_value_EvaluateDraw$1=EvaluateDraw();
-  signed short int return_value_Repeat$2;
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  signed short int return_value_SqAtakd$9;
-  signed int return_value_Quiesce$10;
-  signed int tmp_if_expr$13;
-  signed int tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  signed int tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  signed short int return_value_SqAtakd$18;
-  signed short int return_value_SqAtakd$19;
-  signed int return_value_MateScan$20;
-  signed int tmp_if_expr$25;
-  signed int return_value_PhasePick1$23;
-  signed int return_value_PhasePick$24;
-  signed int tmp_if_expr$22;
-  signed int return_value_Evaluate$21;
-  signed int tmp_if_expr$29;
-  signed int return_value_PhasePick1$27;
-  signed int return_value_PhasePick$28;
-  signed short int return_value_SqAtakd$32;
-  signed int return_value_MateScan$31;
-  if(!(return_value_EvaluateDraw$1 == 0))
+  signed short int return_value_EvaluateDraw_1;
+  return_value_EvaluateDraw_1=EvaluateDraw();
+  signed short int return_value_Repeat_2;
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  signed short int return_value_SqAtakd_9;
+  signed int return_value_Quiesce_10;
+  signed int tmp_if_expr_13;
+  signed int tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  signed int tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  signed short int return_value_SqAtakd_18;
+  signed short int return_value_SqAtakd_19;
+  signed int return_value_MateScan_20;
+  signed int tmp_if_expr_25;
+  signed int return_value_PhasePick1_23;
+  signed int return_value_PhasePick_24;
+  signed int tmp_if_expr_22;
+  signed int return_value_Evaluate_21;
+  signed int tmp_if_expr_29;
+  signed int return_value_PhasePick1_27;
+  signed int return_value_PhasePick_28;
+  signed short int return_value_SqAtakd_32;
+  signed int return_value_MateScan_31;
+  if(!(return_value_EvaluateDraw_1 == 0))
     return 0;
 
   else
     if(GameCnt >= 3 + Game50)
     {
-      return_value_Repeat$2=Repeat();
-      if(return_value_Repeat$2 == 0)
+      return_value_Repeat_2=Repeat();
+      if(return_value_Repeat_2 == 0)
         goto __CPROVER_DUMP_L2;
 
       RepeatCnt = RepeatCnt + 1ul;
@@ -10520,21 +10520,21 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
       {
         g0 = Game[(signed long int)GameCnt].move;
         if(GameCnt >= 1)
-          tmp_if_expr$3 = Game[(signed long int)(GameCnt - 1)].move;
+          tmp_if_expr_3 = Game[(signed long int)(GameCnt - 1)].move;
 
         else
-          tmp_if_expr$3 = 0;
-        g1 = tmp_if_expr$3;
+          tmp_if_expr_3 = 0;
+        g1 = tmp_if_expr_3;
         t0 = g0 & 0x003F;
         t1 = g1 & 0x003F;
         ChkCnt[(signed long int)((signed int)ply + 1)] = ChkCnt[(signed long int)ply];
         ThrtCnt[(signed long int)((signed int)ply + 1)] = ThrtCnt[(signed long int)ply];
-        signed int return_value_MateScan$4;
-        return_value_MateScan$4=MateScan(0);
-        KingThrt[(signed long int)0][(signed long int)ply] = (signed short int)return_value_MateScan$4;
-        signed int return_value_MateScan$5;
-        return_value_MateScan$5=MateScan(1);
-        KingThrt[(signed long int)1][(signed long int)ply] = (signed short int)return_value_MateScan$5;
+        signed int return_value_MateScan_4;
+        return_value_MateScan_4=MateScan(0);
+        KingThrt[(signed long int)0][(signed long int)ply] = (signed short int)return_value_MateScan_4;
+        signed int return_value_MateScan_5;
+        return_value_MateScan_5=MateScan(1);
+        KingThrt[(signed long int)1][(signed long int)ply] = (signed short int)return_value_MateScan_5;
         if(2 * Idepth >= (signed int)ply && !(InChk[(signed long int)ply] == 0))
         {
           ChkExtCnt = ChkExtCnt + 1ul;
@@ -10546,11 +10546,11 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
         else
         {
           if(KingThrt[(signed long int)side][(signed long int)((signed int)ply + -1)] == 0)
-            tmp_if_expr$8 = KingThrt[(signed long int)side][(signed long int)ply] != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = KingThrt[(signed long int)side][(signed long int)ply] != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(2 * Idepth >= (signed int)ply && tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(2 * Idepth >= (signed int)ply && tmp_if_expr_8)
           {
             KingExtCnt = KingExtCnt + 1ul;
             extend = 1;
@@ -10570,11 +10570,11 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
             else
             {
               if(!((0x00038000 & g0) == 0))
-                tmp_if_expr$7 = (signed int)board.material[(signed long int)computer] - (signed int)board.material[(signed long int)(1 ^ computer)] == (signed int)RootMaterial ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = (signed int)board.material[(signed long int)computer] - (signed int)board.material[(signed long int)(1 ^ computer)] == (signed int)RootMaterial ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(tmp_if_expr_7)
               {
                 RcpExtCnt = RcpExtCnt + 1ul;
                 depth = depth + (signed short int)1;
@@ -10587,11 +10587,11 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
                   if(cboard[(signed long int)t0] == 1)
                   {
                     if(t0 >> 3 == rank7[(signed long int)xside])
-                      tmp_if_expr$6 = (_Bool)1;
+                      tmp_if_expr_6 = (_Bool)1;
 
                     else
-                      tmp_if_expr$6 = t0 >> 3 == rank6[(signed long int)xside] ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$6)
+                      tmp_if_expr_6 = t0 >> 3 == rank6[(signed long int)xside] ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_6)
                     {
                       PawnExtCnt = PawnExtCnt + 1ul;
                       depth = depth + (signed short int)1;
@@ -10612,8 +10612,8 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
             {
               if(!(t0 == t1))
               {
-                return_value_SqAtakd$9=SqAtakd((signed short int)t0, (signed short int)xside);
-                if(return_value_SqAtakd$9 == 0)
+                return_value_SqAtakd_9=SqAtakd((signed short int)t0, (signed short int)xside);
+                if(return_value_SqAtakd_9 == 0)
                 {
                   HorzExtCnt = HorzExtCnt + 1ul;
                   depth = depth + (signed short int)1;
@@ -10630,8 +10630,8 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
 
         if(!((signed int)depth >= 1))
         {
-          return_value_Quiesce$10=Quiesce(ply, alpha, beta);
-          return return_value_Quiesce$10;
+          return_value_Quiesce_10=Quiesce(ply, alpha, beta);
+          return return_value_Quiesce_10;
         }
 
         else
@@ -10639,9 +10639,9 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
           Hashmv[(signed long int)ply] = 0;
           if(!((128u & flags) == 0u))
           {
-            unsigned char return_value_TTGet$11;
-            return_value_TTGet$11=TTGet((unsigned char)side, (unsigned char)depth, ply, &score, &g1);
-            rc = (signed int)return_value_TTGet$11;
+            unsigned char return_value_TTGet_11;
+            return_value_TTGet_11=TTGet((unsigned char)side, (unsigned char)depth, ply, &score, &g1);
+            rc = (signed int)return_value_TTGet_11;
             if(!(rc == 0))
             {
               Hashmv[(signed long int)ply] = g1 & (0x00200000 | 0x00400000 | 0x00007000 | 0x0FFF);
@@ -10703,9 +10703,9 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
                     {
                       TreePtr[(signed long int)((signed int)ply + 1)] = TreePtr[(signed long int)ply];
                       MakeNullMove(side);
-                      signed int return_value_Search$12;
-                      return_value_Search$12=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 3), -beta, -beta + 1, nodetype);
-                      nullscore = -return_value_Search$12;
+                      signed int return_value_Search_12;
+                      return_value_Search_12=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 3), -beta, -beta + 1, nodetype);
+                      nullscore = -return_value_Search_12;
                       UnmakeNullMove(xside);
                       if(nullscore >= beta)
                       {
@@ -10754,11 +10754,11 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
             PhasePick(&p, (signed int)ply);
           fcut = 0;
           if(!(maxposnscore[(signed long int)side] >= 1100))
-            tmp_if_expr$13 = 1100;
+            tmp_if_expr_13 = 1100;
 
           else
-            tmp_if_expr$13 = maxposnscore[(signed long int)side];
-          fdel = tmp_if_expr$13;
+            tmp_if_expr_13 = maxposnscore[(signed long int)side];
+          fdel = tmp_if_expr_13;
           if(extend == 0 && (signed int)depth == 3 && !((signed int)nodetype == 0))
           {
             if(alpha >= fdel + (signed int)board.material[(signed long int)side] + -((signed int)board.material[(signed long int)(1 ^ side)]))
@@ -10770,31 +10770,31 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
           }
 
           if(!(maxposnscore[(signed long int)side] >= 550))
-            tmp_if_expr$14 = 550;
+            tmp_if_expr_14 = 550;
 
           else
-            tmp_if_expr$14 = maxposnscore[(signed long int)side];
-          fdel = tmp_if_expr$14;
+            tmp_if_expr_14 = maxposnscore[(signed long int)side];
+          fdel = tmp_if_expr_14;
           if(extend == 0 && (signed int)depth == 2 && !((signed int)nodetype == 0))
-            tmp_if_expr$15 = ((signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)]) + fdel <= alpha ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_15 = ((signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)]) + fdel <= alpha ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$15 = (_Bool)0;
-          fcut = (signed int)tmp_if_expr$15;
+            tmp_if_expr_15 = (_Bool)0;
+          fcut = (signed int)tmp_if_expr_15;
           if(fcut == 0)
           {
             if(!(maxposnscore[(signed long int)side] >= 3))
-              tmp_if_expr$16 = 3 * 100;
+              tmp_if_expr_16 = 3 * 100;
 
             else
-              tmp_if_expr$16 = maxposnscore[(signed long int)side];
-            fdel = tmp_if_expr$16;
+              tmp_if_expr_16 = maxposnscore[(signed long int)side];
+            fdel = tmp_if_expr_16;
             if((signed int)depth == 1 && !((signed int)nodetype == 0))
-              tmp_if_expr$17 = ((signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)]) + fdel <= alpha ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_17 = ((signed int)board.material[(signed long int)side] - (signed int)board.material[(signed long int)(1 ^ side)]) + fdel <= alpha ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$17 = (_Bool)0;
-            fcut = (signed int)tmp_if_expr$17;
+              tmp_if_expr_17 = (_Bool)0;
+            fcut = (signed int)tmp_if_expr_17;
           }
 
           MakeMove(side, &p->move);
@@ -10803,8 +10803,8 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
           g0 = g1;
           do
           {
-            return_value_SqAtakd$18=SqAtakd(board.king[(signed long int)side], (signed short int)xside);
-            g0 = (signed int)return_value_SqAtakd$18;
+            return_value_SqAtakd_18=SqAtakd(board.king[(signed long int)side], (signed short int)xside);
+            g0 = (signed int)return_value_SqAtakd_18;
             if(!(g0 >= 1))
             {
               if(!(fcut == 0))
@@ -10812,12 +10812,12 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
                 if(fdel + (signed int)board.material[(signed long int)side] + -((signed int)board.material[(signed long int)(1 ^ side)]) >= alpha)
                   goto __CPROVER_DUMP_L49;
 
-                return_value_SqAtakd$19=SqAtakd(board.king[(signed long int)xside], (signed short int)side);
-                if(!(return_value_SqAtakd$19 == 0))
+                return_value_SqAtakd_19=SqAtakd(board.king[(signed long int)xside], (signed short int)side);
+                if(!(return_value_SqAtakd_19 == 0))
                   goto __CPROVER_DUMP_L49;
 
-                return_value_MateScan$20=MateScan(xside);
-                if(!(return_value_MateScan$20 == 0))
+                return_value_MateScan_20=MateScan(xside);
+                if(!(return_value_MateScan_20 == 0))
                   goto __CPROVER_DUMP_L49;
 
               }
@@ -10837,26 +10837,26 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
             UnmakeMove(xside, &p->move);
             if(!(InChk[(signed long int)ply] == 0))
             {
-              return_value_PhasePick1$23=PhasePick1(&p, (signed int)ply);
-              tmp_if_expr$25 = return_value_PhasePick1$23;
+              return_value_PhasePick1_23=PhasePick1(&p, (signed int)ply);
+              tmp_if_expr_25 = return_value_PhasePick1_23;
             }
 
             else
             {
-              return_value_PhasePick$24=PhasePick(&p, (signed int)ply);
-              tmp_if_expr$25 = return_value_PhasePick$24;
+              return_value_PhasePick_24=PhasePick(&p, (signed int)ply);
+              tmp_if_expr_25 = return_value_PhasePick_24;
             }
-            if(tmp_if_expr$25 == 0)
+            if(tmp_if_expr_25 == 0)
             {
               if(!(g1 == 0))
               {
-                return_value_Evaluate$21=Evaluate(alpha, beta);
-                tmp_if_expr$22 = return_value_Evaluate$21;
+                return_value_Evaluate_21=Evaluate(alpha, beta);
+                tmp_if_expr_22 = return_value_Evaluate_21;
               }
 
               else
-                tmp_if_expr$22 = 0;
-              return tmp_if_expr$22;
+                tmp_if_expr_22 = 0;
+              return tmp_if_expr_22;
             }
 
             MakeMove(side, &p->move);
@@ -10877,32 +10877,32 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
             if(!(firstmove == 0))
             {
               firstmove = 0;
-              signed int return_value_Search$26;
-              return_value_Search$26=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -beta, -alpha, nodetype);
-              score = -return_value_Search$26;
+              signed int return_value_Search_26;
+              return_value_Search_26=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -beta, -alpha, nodetype);
+              score = -return_value_Search_26;
             }
 
             else
             {
               if(!(InChk[(signed long int)ply] == 0))
               {
-                return_value_PhasePick1$27=PhasePick1(&p, (signed int)ply);
-                tmp_if_expr$29 = return_value_PhasePick1$27;
+                return_value_PhasePick1_27=PhasePick1(&p, (signed int)ply);
+                tmp_if_expr_29 = return_value_PhasePick1_27;
               }
 
               else
               {
-                return_value_PhasePick$28=PhasePick(&p, (signed int)ply);
-                tmp_if_expr$29 = return_value_PhasePick$28;
+                return_value_PhasePick_28=PhasePick(&p, (signed int)ply);
+                tmp_if_expr_29 = return_value_PhasePick_28;
               }
-              if(tmp_if_expr$29 == 0)
+              if(tmp_if_expr_29 == 0)
                 break;
 
               MakeMove(side, &p->move);
               NodeCnt = NodeCnt + 1ul;
-              signed short int return_value_SqAtakd$30;
-              return_value_SqAtakd$30=SqAtakd(board.king[(signed long int)side], (signed short int)xside);
-              if(!(return_value_SqAtakd$30 == 0))
+              signed short int return_value_SqAtakd_30;
+              return_value_SqAtakd_30=SqAtakd(board.king[(signed long int)side], (signed short int)xside);
+              if(!(return_value_SqAtakd_30 == 0))
               {
                 UnmakeMove(xside, &p->move);
                 continue;
@@ -10912,11 +10912,11 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
               {
                 if(alpha >= fdel + (signed int)board.material[(signed long int)side] + -((signed int)board.material[(signed long int)(1 ^ side)]))
                 {
-                  return_value_SqAtakd$32=SqAtakd(board.king[(signed long int)xside], (signed short int)side);
-                  if(return_value_SqAtakd$32 == 0)
+                  return_value_SqAtakd_32=SqAtakd(board.king[(signed long int)xside], (signed short int)side);
+                  if(return_value_SqAtakd_32 == 0)
                   {
-                    return_value_MateScan$31=MateScan(xside);
-                    if(return_value_MateScan$31 == 0)
+                    return_value_MateScan_31=MateScan(xside);
+                    if(return_value_MateScan_31 == 0)
                     {
                       UnmakeMove(xside, &p->move);
                       FutlCutCnt = FutlCutCnt + 1ul;
@@ -10935,9 +10935,9 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
                 nodetype = (signed short int)2;
 
               alpha = best > alpha ? best : alpha;
-              signed int return_value_Search$33;
-              return_value_Search$33=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -alpha - 1, -alpha, nodetype);
-              score = -return_value_Search$33;
+              signed int return_value_Search_33;
+              return_value_Search_33=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -alpha - 1, -alpha, nodetype);
+              score = -return_value_Search_33;
               if(!(best >= score))
               {
                 if(savenode == 0)
@@ -10945,18 +10945,18 @@ signed int Search(unsigned char ply, signed short int depth, signed int alpha, s
 
                 if(!(score >= beta) && !(alpha >= score))
                 {
-                  signed int return_value_Search$34;
-                  return_value_Search$34=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -beta, -score, nodetype);
-                  score = -return_value_Search$34;
+                  signed int return_value_Search_34;
+                  return_value_Search_34=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -beta, -score, nodetype);
+                  score = -return_value_Search_34;
                 }
 
                 if((signed int)nodetype == 0 && alpha >= score)
                 {
                   if(Game[(signed long int)(1 + GameCnt)].move == 0x00100000)
                   {
-                    signed int return_value_Search$35;
-                    return_value_Search$35=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -alpha, 32767, nodetype);
-                    score = -return_value_Search$35;
+                    signed int return_value_Search_35;
+                    return_value_Search_35=Search((unsigned char)((signed int)ply + 1), (signed short int)((signed int)depth - 1), -alpha, 32767, nodetype);
+                    score = -return_value_Search_35;
                   }
 
                 }
@@ -11064,12 +11064,12 @@ signed int SearchRoot(signed short int depth, signed int alpha, signed int beta)
   xside = (unsigned char)(1 ^ (signed int)side);
   ChkCnt[(signed long int)2] = ChkCnt[(signed long int)1];
   ThrtCnt[(signed long int)2] = ThrtCnt[(signed long int)1];
-  signed int return_value_MateScan$1;
-  return_value_MateScan$1=MateScan(0);
-  KingThrt[(signed long int)0][(signed long int)ply] = (signed short int)return_value_MateScan$1;
-  signed int return_value_MateScan$2;
-  return_value_MateScan$2=MateScan(1);
-  KingThrt[(signed long int)1][(signed long int)ply] = (signed short int)return_value_MateScan$2;
+  signed int return_value_MateScan_1;
+  return_value_MateScan_1=MateScan(0);
+  KingThrt[(signed long int)0][(signed long int)ply] = (signed short int)return_value_MateScan_1;
+  signed int return_value_MateScan_2;
+  return_value_MateScan_2=MateScan(1);
+  KingThrt[(signed long int)1][(signed long int)ply] = (signed short int)return_value_MateScan_2;
   InChk[(signed long int)ply]=SqAtakd(board.king[(signed long int)side], (signed short int)xside);
   if(!(InChk[(signed long int)ply] == 0))
   {
@@ -11095,15 +11095,15 @@ signed int SearchRoot(signed short int depth, signed int alpha, signed int beta)
     NodeCnt = NodeCnt + 1ul;
     if(p == TreePtr[1l])
     {
-      signed int return_value_Search$3;
-      return_value_Search$3=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -beta, -alpha, nodetype);
-      score = -return_value_Search$3;
+      signed int return_value_Search_3;
+      return_value_Search_3=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -beta, -alpha, nodetype);
+      score = -return_value_Search_3;
       if(beta == 32767 && alpha >= score)
       {
         alpha = -32767;
-        signed int return_value_Search$4;
-        return_value_Search$4=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -beta, -alpha, nodetype);
-        score = -return_value_Search$4;
+        signed int return_value_Search_4;
+        return_value_Search_4=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -beta, -alpha, nodetype);
+        score = -return_value_Search_4;
       }
 
     }
@@ -11112,17 +11112,17 @@ signed int SearchRoot(signed short int depth, signed int alpha, signed int beta)
     {
       nodetype = (signed short int)2;
       alpha = best > alpha ? best : alpha;
-      signed int return_value_Search$5;
-      return_value_Search$5=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -alpha - 1, -alpha, nodetype);
-      score = -return_value_Search$5;
+      signed int return_value_Search_5;
+      return_value_Search_5=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -alpha - 1, -alpha, nodetype);
+      score = -return_value_Search_5;
       if(!(best >= score))
       {
         if(!(score >= beta) && !(alpha >= score))
         {
           nodetype = (signed short int)0;
-          signed int return_value_Search$6;
-          return_value_Search$6=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -beta, -score, nodetype);
-          score = -return_value_Search$6;
+          signed int return_value_Search_6;
+          return_value_Search_6=Search((unsigned char)2, (signed short int)((signed int)depth - 1), -beta, -score, nodetype);
+          score = -return_value_Search_6;
         }
 
       }
@@ -11318,18 +11318,18 @@ void ShowCBoard(void)
   signed int r;
   signed int c;
   r = 56;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; r >= 0; r = r - 8)
   {
     c = 0;
     for( ; !(c >= 8); c = c + 1)
     {
       if(!(cboard[(signed long int)(c + r)] == 0))
-        tmp_if_expr$1 = (signed int)notation[(signed long int)cboard[(signed long int)(r + c)]];
+        tmp_if_expr_1 = (signed int)notation[(signed long int)cboard[(signed long int)(r + c)]];
 
       else
-        tmp_if_expr$1 = 46;
-      printf("%2c ", tmp_if_expr$1);
+        tmp_if_expr_1 = 46;
+      printf("%2c ", tmp_if_expr_1);
     }
     printf("\n");
   }
@@ -11381,15 +11381,15 @@ void ShowLine(signed int move, signed int score, char c)
   signed int i;
   signed int len;
   signed int pvar[65l];
-  signed int return_value_abs$2;
-  signed int return_value_abs$4;
-  signed int return_value_abs$6;
-  signed int return_value_abs$8;
-  signed short int return_value_TTGetPV$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_abs$11;
-  _Bool tmp_if_expr$14;
-  signed short int return_value_Repeat$13;
+  signed int return_value_abs_2;
+  signed int return_value_abs_4;
+  signed int return_value_abs_6;
+  signed int return_value_abs_8;
+  signed short int return_value_TTGetPV_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_abs_11;
+  _Bool tmp_if_expr_14;
+  signed short int return_value_Repeat_13;
   if(!((4096u & flags) == 0u))
   {
     if((256u & flags) == 0u || NodeCnt >= 500000ul)
@@ -11405,13 +11405,13 @@ void ShowLine(signed int move, signed int score, char c)
             {
               if(score >= 32513)
               {
-                signed int return_value_abs$1;
-                return_value_abs$1=abs(score);
-                printf("%d%c Mat%d %d %ld\t", Idepth, c, (signed int)((32767 + 2) - return_value_abs$1) / 2, (signed int)ElapsedTime, NodeCnt + QuiesCnt);
+                signed int return_value_abs_1;
+                return_value_abs_1=abs(score);
+                printf("%d%c Mat%d %d %ld\t", Idepth, c, (signed int)((32767 + 2) - return_value_abs_1) / 2, (signed int)ElapsedTime, NodeCnt + QuiesCnt);
                 if(!(ofp == stdout))
                 {
-                  return_value_abs$2=abs(score);
-                  fprintf(ofp, "%2d%c%7.2f  Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs$2) / 2, NodeCnt + QuiesCnt);
+                  return_value_abs_2=abs(score);
+                  fprintf(ofp, "%2d%c%7.2f  Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs_2) / 2, NodeCnt + QuiesCnt);
                 }
 
               }
@@ -11419,13 +11419,13 @@ void ShowLine(signed int move, signed int score, char c)
               else
                 if(!(score >= 255))
                 {
-                  signed int return_value_abs$3;
-                  return_value_abs$3=abs(score);
-                  printf("%d%c -Mat%2d %d %ld\t", Idepth, c, (signed int)((32767 + 2) - return_value_abs$3) / 2, (signed int)ElapsedTime, NodeCnt + QuiesCnt);
+                  signed int return_value_abs_3;
+                  return_value_abs_3=abs(score);
+                  printf("%d%c -Mat%2d %d %ld\t", Idepth, c, (signed int)((32767 + 2) - return_value_abs_3) / 2, (signed int)ElapsedTime, NodeCnt + QuiesCnt);
                   if(!(ofp == stdout))
                   {
-                    return_value_abs$4=abs(score);
-                    fprintf(ofp, "%2d%c%7.2f -Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs$4) / 2, NodeCnt + QuiesCnt);
+                    return_value_abs_4=abs(score);
+                    fprintf(ofp, "%2d%c%7.2f -Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs_4) / 2, NodeCnt + QuiesCnt);
                   }
 
                 }
@@ -11442,13 +11442,13 @@ void ShowLine(signed int move, signed int score, char c)
             else
               if(score >= 32513)
               {
-                signed int return_value_abs$5;
-                return_value_abs$5=abs(score);
-                printf("\r%2d%c%7.2f  Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs$5) / 2, NodeCnt + QuiesCnt);
+                signed int return_value_abs_5;
+                return_value_abs_5=abs(score);
+                printf("\r%2d%c%7.2f  Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs_5) / 2, NodeCnt + QuiesCnt);
                 if(!(ofp == stdout))
                 {
-                  return_value_abs$6=abs(score);
-                  fprintf(ofp, "\r%2d%c%7.2f  Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs$6) / 2, NodeCnt + QuiesCnt);
+                  return_value_abs_6=abs(score);
+                  fprintf(ofp, "\r%2d%c%7.2f  Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs_6) / 2, NodeCnt + QuiesCnt);
                 }
 
               }
@@ -11456,13 +11456,13 @@ void ShowLine(signed int move, signed int score, char c)
               else
                 if(!(score >= 255))
                 {
-                  signed int return_value_abs$7;
-                  return_value_abs$7=abs(score);
-                  printf("\r%2d%c%7.2f -Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs$7) / 2, NodeCnt + QuiesCnt);
+                  signed int return_value_abs_7;
+                  return_value_abs_7=abs(score);
+                  printf("\r%2d%c%7.2f -Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs_7) / 2, NodeCnt + QuiesCnt);
                   if(!(ofp == stdout))
                   {
-                    return_value_abs$8=abs(score);
-                    fprintf(ofp, "\r%2d%c%7.2f -Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs$8) / 2, NodeCnt + QuiesCnt);
+                    return_value_abs_8=abs(score);
+                    fprintf(ofp, "\r%2d%c%7.2f -Mat%02d%10ld\t", Idepth, c, ElapsedTime, ((32767 + 2) - return_value_abs_8) / 2, NodeCnt + QuiesCnt);
                   }
 
                 }
@@ -11502,35 +11502,35 @@ void ShowLine(signed int move, signed int score, char c)
             MakeMove((signed int)board.side, &RootPV);
             TreePtr[(signed long int)3] = TreePtr[(signed long int)2];
             GenMoves((signed short int)2);
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(SANmv);
-            len = (signed int)return_value_strlen$9;
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(SANmv);
+            len = (signed int)return_value_strlen_9;
             i = 2;
             pvar[(signed long int)1] = RootPV;
             if(!((128u & flags) == 0u))
               do
               {
-                return_value_TTGetPV$10=TTGetPV((unsigned char)board.side, (unsigned char)i, rootscore, &pvar[(signed long int)i]);
-                if(return_value_TTGetPV$10 == 0)
+                return_value_TTGetPV_10=TTGetPV((unsigned char)board.side, (unsigned char)i, rootscore, &pvar[(signed long int)i]);
+                if(return_value_TTGetPV_10 == 0)
                   break;
 
                 if(score >= 32513 || !(score >= 255))
                 {
-                  return_value_abs$11=abs(score);
-                  tmp_if_expr$12 = return_value_abs$11 == (32767 + 2) - i ? (_Bool)1 : (_Bool)0;
+                  return_value_abs_11=abs(score);
+                  tmp_if_expr_12 = return_value_abs_11 == (32767 + 2) - i ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                if(tmp_if_expr$12)
-                  tmp_if_expr$14 = (_Bool)1;
+                  tmp_if_expr_12 = (_Bool)0;
+                if(tmp_if_expr_12)
+                  tmp_if_expr_14 = (_Bool)1;
 
                 else
                 {
-                  return_value_Repeat$13=Repeat();
-                  tmp_if_expr$14 = return_value_Repeat$13 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_Repeat_13=Repeat();
+                  tmp_if_expr_14 = return_value_Repeat_13 != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$14)
+                if(tmp_if_expr_14)
                   break;
 
                 if(len >= 32)
@@ -11551,9 +11551,9 @@ void ShowLine(signed int move, signed int score, char c)
                 TreePtr[(signed long int)(i + 2)] = TreePtr[(signed long int)(i + 1)];
                 i = i + 1;
                 GenMoves((signed short int)i);
-                unsigned long int return_value_strlen$15;
-                return_value_strlen$15=strlen(SANmv);
-                len = len + (signed int)return_value_strlen$15;
+                unsigned long int return_value_strlen_15;
+                return_value_strlen_15=strlen(SANmv);
+                len = len + (signed int)return_value_strlen_15;
               }
               while((_Bool)1);
 
@@ -11587,15 +11587,15 @@ __CPROVER_DUMP_L36:
 // file common.h line 680
 void ShowMoveList(signed int ply)
 {
-  struct anonymous *ShowMoveList$$1$$node;
+  struct anonymous *ShowMoveList__1__node;
   signed int i = 0;
-  ShowMoveList$$1$$node = TreePtr[(signed long int)ply];
-  for( ; !(ShowMoveList$$1$$node >= TreePtr[(signed long int)(1 + ply)]); ShowMoveList$$1$$node = ShowMoveList$$1$$node + 1l)
+  ShowMoveList__1__node = TreePtr[(signed long int)ply];
+  for( ; !(ShowMoveList__1__node >= TreePtr[(signed long int)(1 + ply)]); ShowMoveList__1__node = ShowMoveList__1__node + 1l)
   {
-    SANMove(ShowMoveList$$1$$node->move, ply);
-    signed int return_value_SwapOff$1;
-    return_value_SwapOff$1=SwapOff(ShowMoveList$$1$$node->move);
-    printf("%5s %3d\t", (const void *)SANmv, return_value_SwapOff$1);
+    SANMove(ShowMoveList__1__node->move, ply);
+    signed int return_value_SwapOff_1;
+    return_value_SwapOff_1=SwapOff(ShowMoveList__1__node->move);
+    printf("%5s %3d\t", (const void *)SANmv, return_value_SwapOff_1);
     i = i + 1;
     if(i == 5)
     {
@@ -11761,11 +11761,11 @@ void Solve(char *file)
     dbg_printf("Set   0x%x\n", 0x0100);
   }
   while((_Bool)0);
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile(file, (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile(file, (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     NewPosition();
@@ -11777,11 +11777,11 @@ void Solve(char *file)
     found = 0;
     while(!((signed int)*p == 0))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(SANmv);
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(p, SANmv, return_value_strlen$2);
-      if(return_value_strncmp$3 == 0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(SANmv);
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(p, SANmv, return_value_strlen_2);
+      if(return_value_strncmp_3 == 0)
       {
         correct = correct + 1;
         found = 1;
@@ -11852,9 +11852,9 @@ void SortMoves(signed int ply)
   xside = 1 ^ side;
   enemyP = board.b[(signed long int)xside][(signed long int)1];
   p = TreePtr[(signed long int)ply];
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; !(p >= TreePtr[(signed long int)(1 + ply)]); p = p + 1l)
   {
     p->score = -32767;
@@ -11867,11 +11867,11 @@ void SortMoves(signed int ply)
     else
     {
       if(!(cboard[(signed long int)t] == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (p->move & 0x00007000) != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (p->move & 0x00007000) != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         tovalue = Value[(signed long int)cboard[(signed long int)t]] + Value[(signed long int)(p->move >> 12 & 0x0007)];
         p->score = p->score + ((tovalue + 2000) - Value[(signed long int)cboard[(signed long int)f]]);
@@ -11880,22 +11880,22 @@ void SortMoves(signed int ply)
       else
       {
         if(m == killer1[(signed long int)ply])
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = m == killer2[(signed long int)ply] ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = m == killer2[(signed long int)ply] ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           p->score = p->score + 1000;
 
         else
           if(ply >= 3)
           {
             if(m == killer1[(signed long int)(ply + -2)])
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = m == killer2[(signed long int)(ply - 2)] ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = m == killer2[(signed long int)(ply - 2)] ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
               p->score = p->score + 1000;
 
           }
@@ -11927,18 +11927,18 @@ void SortRoot(void)
   xside = 1 ^ side;
   enemyP = board.b[(signed long int)xside][(signed long int)1];
   p = TreePtr[(signed long int)1];
-  _Bool tmp_if_expr$3;
-  signed int return_value_SwapOff$1;
-  signed int return_value_SwapOff$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_SwapOff_1;
+  signed int return_value_SwapOff_2;
   for( ; !(p >= TreePtr[2l]); p = p + 1l)
   {
     f = Value[(signed long int)cboard[(signed long int)(p->move >> 6 & 0x003F)]];
     if(!(cboard[(signed long int)(0x003F & p->move)] == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (p->move & 0x00007000) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (p->move & 0x00007000) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       t = Value[(signed long int)cboard[(signed long int)(p->move & 0x003F)]];
       if(!(f >= t))
@@ -11946,15 +11946,15 @@ void SortRoot(void)
 
       else
       {
-        return_value_SwapOff$1=SwapOff(p->move);
-        p->score = -1000 + return_value_SwapOff$1;
+        return_value_SwapOff_1=SwapOff(p->move);
+        p->score = -1000 + return_value_SwapOff_1;
       }
     }
 
     else
     {
-      return_value_SwapOff$2=SwapOff(p->move);
-      p->score = -3000 + return_value_SwapOff$2;
+      return_value_SwapOff_2=SwapOff(p->move);
+      p->score = -3000 + return_value_SwapOff_2;
     }
     p->score = p->score + ((signed int)taxicab[(signed long int)(p->move >> 6 & 0x003F)][(signed long int)35] - (signed int)taxicab[(signed long int)(p->move & 0x003F)][(signed long int)28]);
     if(f == 100)
@@ -11997,9 +11997,9 @@ signed short int SqAtakd(signed short int sq, signed short int side)
         d = ~b & blocker;
         while(!(b == 0ul))
         {
-          unsigned char return_value_leadz$1;
-          return_value_leadz$1=leadz(b);
-          t = (signed int)return_value_leadz$1;
+          unsigned char return_value_leadz_1;
+          return_value_leadz_1=leadz(b);
+          t = (signed int)return_value_leadz_1;
           if((c[(signed long int)t] & d) == 0ul)
             return (signed short int)1;
 
@@ -12009,9 +12009,9 @@ signed short int SqAtakd(signed short int sq, signed short int side)
         d = ~b & blocker;
         while(!(b == 0ul))
         {
-          unsigned char return_value_leadz$2;
-          return_value_leadz$2=leadz(b);
-          t = (signed int)return_value_leadz$2;
+          unsigned char return_value_leadz_2;
+          return_value_leadz_2=leadz(b);
+          t = (signed int)return_value_leadz_2;
           if((c[(signed long int)t] & d) == 0ul)
             return (signed short int)1;
 
@@ -12042,7 +12042,7 @@ signed int SwapOff(signed int move)
   signed int side;
   signed int xside;
   signed int swaplist[65l];
-  signed int SwapOff$$1$$n;
+  signed int SwapOff__1__n;
   unsigned long int b;
   unsigned long int c;
   unsigned long int *d;
@@ -12060,7 +12060,7 @@ signed int SwapOff(signed int move)
 
   d = board.b[(signed long int)side];
   e = board.b[(signed long int)xside];
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((0x00007000 & move) == 0))
   {
     swaplist[(signed long int)0] = Value[(signed long int)(move >> 12 & 0x0007)] - 100;
@@ -12070,14 +12070,14 @@ signed int SwapOff(signed int move)
   else
   {
     if(!((0x00400000 & move) == 0))
-      tmp_if_expr$1 = 100;
+      tmp_if_expr_1 = 100;
 
     else
-      tmp_if_expr$1 = Value[(signed long int)cboard[(signed long int)t]];
-    swaplist[(signed long int)0] = tmp_if_expr$1;
+      tmp_if_expr_1 = Value[(signed long int)cboard[(signed long int)t]];
+    swaplist[(signed long int)0] = tmp_if_expr_1;
     lastval = -Value[(signed long int)cboard[(signed long int)f]];
   }
-  SwapOff$$1$$n = 1;
+  SwapOff__1__n = 1;
   while((_Bool)1)
   {
     if(c == 0x0000000000000000ULL)
@@ -12089,15 +12089,15 @@ signed int SwapOff(signed int move)
       r = c & e[(signed long int)piece];
       if(!(r == 0ul))
       {
-        unsigned char return_value_leadz$2;
-        return_value_leadz$2=leadz$link6(r);
-        sq = (signed int)return_value_leadz$2;
+        unsigned char return_value_leadz_2;
+        return_value_leadz_2=leadz_link6(r);
+        sq = (signed int)return_value_leadz_2;
         c = c & NotBitPosArray[(signed long int)sq];
         if(!(xray[(signed long int)piece] == 0))
           AddXrayPiece(t, sq, xside, &c, &b);
 
-        swaplist[(signed long int)SwapOff$$1$$n] = swaplist[(signed long int)(SwapOff$$1$$n - 1)] + lastval;
-        SwapOff$$1$$n = SwapOff$$1$$n + 1;
+        swaplist[(signed long int)SwapOff__1__n] = swaplist[(signed long int)(SwapOff__1__n - 1)] + lastval;
+        SwapOff__1__n = SwapOff__1__n + 1;
         lastval = Value[(signed long int)piece];
         break;
       }
@@ -12112,33 +12112,33 @@ signed int SwapOff(signed int move)
       r = b & d[(signed long int)piece];
       if(!(r == 0ul))
       {
-        unsigned char return_value_leadz$3;
-        return_value_leadz$3=leadz$link6(r);
-        sq = (signed int)return_value_leadz$3;
+        unsigned char return_value_leadz_3;
+        return_value_leadz_3=leadz_link6(r);
+        sq = (signed int)return_value_leadz_3;
         b = b & NotBitPosArray[(signed long int)sq];
         if(!(xray[(signed long int)piece] == 0))
           AddXrayPiece(t, sq, side, &b, &c);
 
-        swaplist[(signed long int)SwapOff$$1$$n] = swaplist[(signed long int)(SwapOff$$1$$n - 1)] + lastval;
-        SwapOff$$1$$n = SwapOff$$1$$n + 1;
+        swaplist[(signed long int)SwapOff__1__n] = swaplist[(signed long int)(SwapOff__1__n - 1)] + lastval;
+        SwapOff__1__n = SwapOff__1__n + 1;
         lastval = -Value[(signed long int)piece];
         break;
       }
 
     }
   }
-  SwapOff$$1$$n = SwapOff$$1$$n - 1;
-  for( ; !(SwapOff$$1$$n == 0); SwapOff$$1$$n = SwapOff$$1$$n - 1)
-    if(!((1 & SwapOff$$1$$n) == 0))
+  SwapOff__1__n = SwapOff__1__n - 1;
+  for( ; !(SwapOff__1__n == 0); SwapOff__1__n = SwapOff__1__n - 1)
+    if(!((1 & SwapOff__1__n) == 0))
     {
-      if(swaplist[(signed long int)(SwapOff$$1$$n + -1)] >= swaplist[(signed long int)SwapOff$$1$$n])
-        swaplist[(signed long int)(SwapOff$$1$$n - 1)] = swaplist[(signed long int)SwapOff$$1$$n];
+      if(swaplist[(signed long int)(SwapOff__1__n + -1)] >= swaplist[(signed long int)SwapOff__1__n])
+        swaplist[(signed long int)(SwapOff__1__n - 1)] = swaplist[(signed long int)SwapOff__1__n];
 
     }
 
     else
-      if(swaplist[(signed long int)SwapOff$$1$$n] >= swaplist[(signed long int)(SwapOff$$1$$n + -1)])
-        swaplist[(signed long int)(SwapOff$$1$$n - 1)] = swaplist[(signed long int)SwapOff$$1$$n];
+      if(swaplist[(signed long int)SwapOff__1__n] >= swaplist[(signed long int)(SwapOff__1__n + -1)])
+        swaplist[(signed long int)(SwapOff__1__n - 1)] = swaplist[(signed long int)SwapOff__1__n];
 
   return swaplist[(signed long int)0];
 }
@@ -12147,19 +12147,19 @@ signed int SwapOff(signed int move)
 // file common.h line 669
 void TTClear(void)
 {
-  memset((void *)HashTab[(signed long int)0], 0, (unsigned long int)HashSize * sizeof(struct anonymous$0) /*24ul*/ );
-  memset((void *)HashTab[(signed long int)1], 0, (unsigned long int)HashSize * sizeof(struct anonymous$0) /*24ul*/ );
+  memset((void *)HashTab[(signed long int)0], 0, (unsigned long int)HashSize * sizeof(struct anonymous_0) /*24ul*/ );
+  memset((void *)HashTab[(signed long int)1], 0, (unsigned long int)HashSize * sizeof(struct anonymous_0) /*24ul*/ );
 }
 
 // TTGet
 // file common.h line 666
 unsigned char TTGet(unsigned char side, unsigned char depth, unsigned char ply, signed int *score, signed int *move)
 {
-  struct anonymous$0 *t;
+  struct anonymous_0 *t;
   TotalGetHashCnt = TotalGetHashCnt + 1ul;
   t = HashTab[(signed long int)side] + (signed long int)(HashKey & TTHashMask & (unsigned long int)~1);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(HashKey == t->key))
   {
     t = t + 1l;
@@ -12184,11 +12184,11 @@ unsigned char TTGet(unsigned char side, unsigned char depth, unsigned char ply, 
       if(!((signed int)t->depth >= (signed int)depth))
       {
         if(t->score >= 32513)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = t->score < -32767 + 255 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = t->score < -32767 + 255 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           goto __CPROVER_DUMP_L5;
 
         return (unsigned char)4;
@@ -12200,11 +12200,11 @@ unsigned char TTGet(unsigned char side, unsigned char depth, unsigned char ply, 
       __CPROVER_DUMP_L5:
         ;
         if(*score >= 32513)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = *score < -32767 + 255 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = *score < -32767 + 255 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           *score = *score - (*score > 0 ? (signed int)ply : -((signed int)ply));
 
         return t->flag;
@@ -12216,7 +12216,7 @@ unsigned char TTGet(unsigned char side, unsigned char depth, unsigned char ply, 
 // file common.h line 668
 signed short int TTGetPV(unsigned char side, unsigned char ply, signed int score, signed int *move)
 {
-  struct anonymous$0 *t;
+  struct anonymous_0 *t;
   signed int s;
   t = HashTab[(signed long int)side] + (signed long int)(HashKey & TTHashMask & (unsigned long int)~1);
   s = t->score;
@@ -12265,7 +12265,7 @@ signed short int TTGetPV(unsigned char side, unsigned char ply, signed int score
 // file common.h line 663
 void TTPut(unsigned char side, unsigned char depth, unsigned char ply, signed int alpha, signed int beta, signed int score, signed int move)
 {
-  struct anonymous$0 *t = HashTab[(signed long int)side] + (signed long int)(HashKey & TTHashMask & (unsigned long int)~1);
+  struct anonymous_0 *t = HashTab[(signed long int)side] + (signed long int)(HashKey & TTHashMask & (unsigned long int)~1);
   if(!((signed int)depth >= (signed int)t->depth))
     t = t + 1l;
 
@@ -12310,11 +12310,11 @@ void TestCaptureGenSpeed(void)
   double et;
   GenCnt = (unsigned long int)0;
   et = (double)0;
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile("../test/wac.epd", (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile("../test/wac.epd", (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     gettimeofday(&t1, (struct timezone *)(void *)0);
@@ -12340,11 +12340,11 @@ void TestCaptureGenSpeed(void)
 // file common.h line 703
 void TestCaptureList(void)
 {
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile("TEST/GMG1.epd", (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile("TEST/GMG1.epd", (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     ShowBoard();
@@ -12369,11 +12369,11 @@ void TestEval(void)
     dbg_printf("Set   0x%x\n", 0x0002);
   }
   while((_Bool)0);
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile("../test/wac.epd", (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile("../test/wac.epd", (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     ShowBoard();
@@ -12399,11 +12399,11 @@ void TestEvalSpeed(void)
   struct timeval t2;
   double et = (double)0;
   EvalCnt = (unsigned long int)0;
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile("../test/wac.epd", (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile("../test/wac.epd", (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     gettimeofday(&t1, (struct timezone *)(void *)0);
@@ -12453,11 +12453,11 @@ void TestMoveGenSpeed(void)
 // file common.h line 701
 void TestMoveList(void)
 {
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile("TEST/GMG1.epd", (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile("TEST/GMG1.epd", (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     ShowBoard();
@@ -12481,11 +12481,11 @@ void TestNonCaptureGenSpeed(void)
   double et;
   GenCnt = (unsigned long int)0;
   et = (double)0;
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile("../test/wac.epd", (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile("../test/wac.epd", (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     gettimeofday(&t1, (struct timezone *)(void *)0);
@@ -12511,11 +12511,11 @@ void TestNonCaptureGenSpeed(void)
 // file test.c line 163
 void TestNonCaptureList(void)
 {
-  signed short int return_value_ReadEPDFile$1;
+  signed short int return_value_ReadEPDFile_1;
   do
   {
-    return_value_ReadEPDFile$1=ReadEPDFile("TEST/GMG1.epd", (signed short int)0);
-    if(return_value_ReadEPDFile$1 == 0)
+    return_value_ReadEPDFile_1=ReadEPDFile("TEST/GMG1.epd", (signed short int)0);
+    if(return_value_ReadEPDFile_1 == 0)
       break;
 
     ShowBoard();
@@ -12542,7 +12542,7 @@ void UnmakeMove(signed int side, signed int *move)
   signed int rookt;
   signed int epsq;
   signed int xside;
-  struct anonymous$6 *g;
+  struct anonymous_6 *g;
   side = 1 ^ side;
   xside = 1 ^ side;
   f = *move >> 6 & 0x003F;
@@ -12589,16 +12589,16 @@ void UnmakeMove(signed int side, signed int *move)
     board.pmaterial[(signed long int)side] = board.pmaterial[(signed long int)side] - (signed short int)Value[(signed long int)(*move >> 12 & 0x0007)];
   }
 
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((0x00400000 & *move) == 0))
   {
     ExchCnt[(signed long int)side] = ExchCnt[(signed long int)side] - 1;
     if(side == 0)
-      tmp_if_expr$1 = (signed int)g->epsq - 8;
+      tmp_if_expr_1 = (signed int)g->epsq - 8;
 
     else
-      tmp_if_expr$1 = (signed int)g->epsq + 8;
-    epsq = tmp_if_expr$1;
+      tmp_if_expr_1 = (signed int)g->epsq + 8;
+    epsq = tmp_if_expr_1;
     board.b[(signed long int)xside][(signed long int)1] = board.b[(signed long int)xside][(signed long int)1] | BitPosArray[(signed long int)epsq];
     board.blockerr90 = board.blockerr90 | BitPosArray[(signed long int)r90[(signed long int)epsq]];
     board.blockerr45 = board.blockerr45 | BitPosArray[(signed long int)r45[(signed long int)epsq]];
@@ -12654,7 +12654,7 @@ __CPROVER_DUMP_L10:
 // file null.c line 60
 void UnmakeNullMove(signed int side)
 {
-  struct anonymous$6 *g;
+  struct anonymous_6 *g;
   side = 1 ^ side;
   board.side = (signed short int)side;
   g = &Game[(signed long int)GameCnt];
@@ -12682,9 +12682,9 @@ void UpdateCBoard(void)
     b = board.b[(signed long int)0][(signed long int)piece] | board.b[(signed long int)1][(signed long int)piece];
     while(!(b == 0ul))
     {
-      unsigned char return_value_leadz$1;
-      return_value_leadz$1=leadz$link7(b);
-      sq = (signed int)return_value_leadz$1;
+      unsigned char return_value_leadz_1;
+      return_value_leadz_1=leadz_link7(b);
+      sq = (signed int)return_value_leadz_1;
       b = b & NotBitPosArray[(signed long int)sq];
       cboard[(signed long int)sq] = piece;
     }
@@ -12709,15 +12709,15 @@ void UpdateFriends(void)
 void UpdateMvboard(void)
 {
   signed int sq = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(sq >= 64); sq = sq + 1)
   {
     if(cboard[(signed long int)sq] == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = cboard[(signed long int)sq] == OrigCboard[(signed long int)sq] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = cboard[(signed long int)sq] == OrigCboard[(signed long int)sq] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       Mvboard[(signed long int)sq] = 0;
 
     else
@@ -12732,25 +12732,25 @@ signed short int ValidateBoard(void)
   signed int side;
   signed int xside;
   signed int sq;
-  unsigned char return_value_nbits$1;
-  return_value_nbits$1=nbits$link7(board.b[(signed long int)0][(signed long int)6]);
-  if(!((signed int)return_value_nbits$1 == 1))
+  unsigned char return_value_nbits_1;
+  return_value_nbits_1=nbits_link7(board.b[(signed long int)0][(signed long int)6]);
+  if(!((signed int)return_value_nbits_1 == 1))
     return (signed short int)0;
 
   else
   {
-    unsigned char return_value_nbits$2;
-    return_value_nbits$2=nbits$link7(board.b[(signed long int)1][(signed long int)6]);
-    if(!((signed int)return_value_nbits$2 == 1))
+    unsigned char return_value_nbits_2;
+    return_value_nbits_2=nbits_link7(board.b[(signed long int)1][(signed long int)6]);
+    if(!((signed int)return_value_nbits_2 == 1))
       return (signed short int)0;
 
     else
     {
       side = (signed int)board.side;
       xside = 1 ^ side;
-      signed short int return_value_SqAtakd$3;
-      return_value_SqAtakd$3=SqAtakd(board.king[(signed long int)xside], (signed short int)side);
-      if(!(return_value_SqAtakd$3 == 0))
+      signed short int return_value_SqAtakd_3;
+      return_value_SqAtakd_3=SqAtakd(board.king[(signed long int)xside], (signed short int)side);
+      if(!(return_value_SqAtakd_3 == 0))
         return (signed short int)0;
 
       else
@@ -12867,9 +12867,9 @@ struct anonymous * ValidateMove(char *s)
   FilterIllegalMoves((signed short int)1);
   side = board.side;
   p = mvstr;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  char *tmp_post$2;
-  char *tmp_post$1;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  char *tmp_post_2;
+  char *tmp_post_1;
   while((_Bool)1)
   {
     if(!((signed int)*s == 120))
@@ -12878,12 +12878,12 @@ struct anonymous * ValidateMove(char *s)
       {
         if(!((signed int)*s == 61))
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*s]) == 0)
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*s]) == 0)
           {
-            tmp_post$2 = p;
+            tmp_post_2 = p;
             p = p + 1l;
-            *tmp_post$2 = *s;
+            *tmp_post_2 = *s;
           }
 
         }
@@ -12892,76 +12892,76 @@ struct anonymous * ValidateMove(char *s)
 
     }
 
-    tmp_post$1 = s;
+    tmp_post_1 = s;
     s = s + 1l;
-    if((signed int)*tmp_post$1 == 0)
+    if((signed int)*tmp_post_1 == 0)
       break;
 
   }
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(mvstr);
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$6;
-  if((signed int)mvstr[-1l + (signed long int)return_value_strlen$5] == 43)
-    tmp_if_expr$7 = (_Bool)1;
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(mvstr);
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_6;
+  if((signed int)mvstr[-1l + (signed long int)return_value_strlen_5] == 43)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_strlen$6=strlen(mvstr);
-    tmp_if_expr$7 = (signed int)mvstr[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] == 35 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_6=strlen(mvstr);
+    tmp_if_expr_7 = (signed int)mvstr[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] == 35 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  unsigned long int return_value_strlen$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  unsigned long int return_value_strlen_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_strlen$8=strlen(mvstr);
-    tmp_if_expr$9 = (signed int)mvstr[(signed long int)(return_value_strlen$8 - (unsigned long int)1)] == 61 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_8=strlen(mvstr);
+    tmp_if_expr_9 = (signed int)mvstr[(signed long int)(return_value_strlen_8 - (unsigned long int)1)] == 61 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_strlen$4;
-  if(tmp_if_expr$9)
+  unsigned long int return_value_strlen_4;
+  if(tmp_if_expr_9)
   {
-    return_value_strlen$4=strlen(mvstr);
-    mvstr[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+    return_value_strlen_4=strlen(mvstr);
+    mvstr[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
   }
 
-  signed int tmp_statement_expression$11;
-  unsigned long int ValidateMove$$1$$2$$__s1_len;
-  unsigned long int ValidateMove$$1$$2$$__s2_len;
-  signed int return_value___builtin_strcmp$12;
-  return_value___builtin_strcmp$12=__builtin_strcmp(mvstr, "O-O");
-  tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-  _Bool tmp_if_expr$15;
-  signed int tmp_statement_expression$13;
-  if(tmp_statement_expression$11 == 0)
-    tmp_if_expr$15 = (_Bool)1;
-
-  else
-  {
-    unsigned long int ValidateMove$$1$$3$$__s1_len;
-    unsigned long int ValidateMove$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$14;
-    return_value___builtin_strcmp$14=__builtin_strcmp(mvstr, "o-o");
-    tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-    tmp_if_expr$15 = tmp_statement_expression$13 == 0 ? (_Bool)1 : (_Bool)0;
-  }
-  _Bool tmp_if_expr$18;
-  signed int tmp_statement_expression$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$18 = (_Bool)1;
+  signed int tmp_statement_expression_11;
+  unsigned long int ValidateMove__1__2____s1_len;
+  unsigned long int ValidateMove__1__2____s2_len;
+  signed int return_value___builtin_strcmp_12;
+  return_value___builtin_strcmp_12=__builtin_strcmp(mvstr, "O-O");
+  tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+  _Bool tmp_if_expr_15;
+  signed int tmp_statement_expression_13;
+  if(tmp_statement_expression_11 == 0)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    unsigned long int ValidateMove$$1$$4$$__s1_len;
-    unsigned long int ValidateMove$$1$$4$$__s2_len;
-    signed int return_value___builtin_strcmp$17;
-    return_value___builtin_strcmp$17=__builtin_strcmp(mvstr, "0-0");
-    tmp_statement_expression$16 = return_value___builtin_strcmp$17;
-    tmp_if_expr$18 = tmp_statement_expression$16 == 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int ValidateMove__1__3____s1_len;
+    unsigned long int ValidateMove__1__3____s2_len;
+    signed int return_value___builtin_strcmp_14;
+    return_value___builtin_strcmp_14=__builtin_strcmp(mvstr, "o-o");
+    tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+    tmp_if_expr_15 = tmp_statement_expression_13 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$18)
+  _Bool tmp_if_expr_18;
+  signed int tmp_statement_expression_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_18 = (_Bool)1;
+
+  else
+  {
+    unsigned long int ValidateMove__1__4____s1_len;
+    unsigned long int ValidateMove__1__4____s2_len;
+    signed int return_value___builtin_strcmp_17;
+    return_value___builtin_strcmp_17=__builtin_strcmp(mvstr, "0-0");
+    tmp_statement_expression_16 = return_value___builtin_strcmp_17;
+    tmp_if_expr_18 = tmp_statement_expression_16 == 0 ? (_Bool)1 : (_Bool)0;
+  }
+  if(tmp_if_expr_18)
   {
     if((signed int)side == 0)
     {
@@ -12974,46 +12974,46 @@ struct anonymous * ValidateMove(char *s)
       f = (signed short int)60;
       t = (signed short int)62;
     }
-    struct anonymous *return_value_IsInMoveList$10;
-    return_value_IsInMoveList$10=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
-    return return_value_IsInMoveList$10;
+    struct anonymous *return_value_IsInMoveList_10;
+    return_value_IsInMoveList_10=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
+    return return_value_IsInMoveList_10;
   }
 
-  signed int tmp_statement_expression$20;
-  unsigned long int ValidateMove$$1$$6$$__s1_len;
-  unsigned long int ValidateMove$$1$$6$$__s2_len;
-  signed int return_value___builtin_strcmp$21;
-  return_value___builtin_strcmp$21=__builtin_strcmp(mvstr, "O-O-O");
-  tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-  _Bool tmp_if_expr$24;
-  signed int tmp_statement_expression$22;
-  if(tmp_statement_expression$20 == 0)
-    tmp_if_expr$24 = (_Bool)1;
+  signed int tmp_statement_expression_20;
+  unsigned long int ValidateMove__1__6____s1_len;
+  unsigned long int ValidateMove__1__6____s2_len;
+  signed int return_value___builtin_strcmp_21;
+  return_value___builtin_strcmp_21=__builtin_strcmp(mvstr, "O-O-O");
+  tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+  _Bool tmp_if_expr_24;
+  signed int tmp_statement_expression_22;
+  if(tmp_statement_expression_20 == 0)
+    tmp_if_expr_24 = (_Bool)1;
 
   else
   {
-    unsigned long int ValidateMove$$1$$7$$__s1_len;
-    unsigned long int ValidateMove$$1$$7$$__s2_len;
-    signed int return_value___builtin_strcmp$23;
-    return_value___builtin_strcmp$23=__builtin_strcmp(mvstr, "o-o-o");
-    tmp_statement_expression$22 = return_value___builtin_strcmp$23;
-    tmp_if_expr$24 = tmp_statement_expression$22 == 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int ValidateMove__1__7____s1_len;
+    unsigned long int ValidateMove__1__7____s2_len;
+    signed int return_value___builtin_strcmp_23;
+    return_value___builtin_strcmp_23=__builtin_strcmp(mvstr, "o-o-o");
+    tmp_statement_expression_22 = return_value___builtin_strcmp_23;
+    tmp_if_expr_24 = tmp_statement_expression_22 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed int tmp_statement_expression$25;
-  if(tmp_if_expr$24)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed int tmp_statement_expression_25;
+  if(tmp_if_expr_24)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$26;
-    return_value___builtin_strcmp$26=__builtin_strcmp(mvstr, "0-0-0");
-    tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-    tmp_if_expr$27 = tmp_statement_expression$25 == 0 ? (_Bool)1 : (_Bool)0;
+    signed int return_value___builtin_strcmp_26;
+    return_value___builtin_strcmp_26=__builtin_strcmp(mvstr, "0-0-0");
+    tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+    tmp_if_expr_27 = tmp_statement_expression_25 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$27)
+  if(tmp_if_expr_27)
   {
     if((signed int)side == 0)
     {
@@ -13026,12 +13026,12 @@ struct anonymous * ValidateMove(char *s)
       f = (signed short int)60;
       t = (signed short int)58;
     }
-    struct anonymous *return_value_IsInMoveList$19;
-    return_value_IsInMoveList$19=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
-    return return_value_IsInMoveList$19;
+    struct anonymous *return_value_IsInMoveList_19;
+    return_value_IsInMoveList_19=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
+    return return_value_IsInMoveList_19;
   }
 
-  signed int tmp_if_expr$29;
+  signed int tmp_if_expr_29;
   if((signed int)mvstr[0l] >= 97)
   {
     if(!((signed int)mvstr[0l] >= 105))
@@ -13050,17 +13050,17 @@ struct anonymous * ValidateMove(char *s)
                 {
                   f = (signed short int)(((signed int)mvstr[(signed long int)0] - 97) + ((signed int)mvstr[(signed long int)1] - 49) * 8);
                   t = (signed short int)(((signed int)mvstr[(signed long int)2] - 97) + ((signed int)mvstr[(signed long int)3] - 49) * 8);
-                  unsigned long int return_value_strlen$28;
-                  return_value_strlen$28=strlen(mvstr);
-                  if(return_value_strlen$28 == 5ul)
-                    tmp_if_expr$29 = (signed int)mvstr[(signed long int)4];
+                  unsigned long int return_value_strlen_28;
+                  return_value_strlen_28=strlen(mvstr);
+                  if(return_value_strlen_28 == 5ul)
+                    tmp_if_expr_29 = (signed int)mvstr[(signed long int)4];
 
                   else
-                    tmp_if_expr$29 = 32;
-                  piece = (signed short int)tmp_if_expr$29;
-                  struct anonymous *return_value_IsInMoveList$30;
-                  return_value_IsInMoveList$30=IsInMoveList(1, (signed int)f, (signed int)t, (char)piece);
-                  return return_value_IsInMoveList$30;
+                    tmp_if_expr_29 = 32;
+                  piece = (signed short int)tmp_if_expr_29;
+                  struct anonymous *return_value_IsInMoveList_30;
+                  return_value_IsInMoveList_30=IsInMoveList(1, (signed int)f, (signed int)t, (char)piece);
+                  return return_value_IsInMoveList_30;
                 }
 
               }
@@ -13077,44 +13077,44 @@ struct anonymous * ValidateMove(char *s)
 
   }
 
-  _Bool tmp_if_expr$63;
+  _Bool tmp_if_expr_63;
   if((signed int)mvstr[0l] >= 97)
-    tmp_if_expr$63 = (signed int)mvstr[(signed long int)0] <= 104 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_63 = (signed int)mvstr[(signed long int)0] <= 104 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$63 = (_Bool)0;
-  _Bool tmp_if_expr$45;
-  struct anonymous *return_value_IsInMoveList$31;
-  struct anonymous *return_value_IsInMoveList$32;
-  struct anonymous *return_value_IsInMoveList$33;
-  _Bool tmp_if_expr$42;
-  _Bool tmp_if_expr$44;
-  _Bool tmp_if_expr$43;
-  signed int tmp_if_expr$35;
-  unsigned char return_value_leadz$38;
-  unsigned long int return_value_strlen$39;
-  signed int tmp_if_expr$40;
-  struct anonymous *return_value_IsInMoveList$41;
-  signed int return_value_piece_id$60;
-  _Bool tmp_if_expr$62;
-  signed int return_value_piece_id$61;
-  _Bool tmp_if_expr$49;
-  _Bool tmp_if_expr$46;
-  _Bool tmp_if_expr$48;
-  _Bool tmp_if_expr$47;
-  signed int return_value_piece_id$59;
-  signed int return_value_piece_id$58;
-  _Bool tmp_if_expr$57;
-  signed int return_value_piece_id$55;
-  _Bool tmp_if_expr$56;
-  if(tmp_if_expr$63)
+    tmp_if_expr_63 = (_Bool)0;
+  _Bool tmp_if_expr_45;
+  struct anonymous *return_value_IsInMoveList_31;
+  struct anonymous *return_value_IsInMoveList_32;
+  struct anonymous *return_value_IsInMoveList_33;
+  _Bool tmp_if_expr_42;
+  _Bool tmp_if_expr_44;
+  _Bool tmp_if_expr_43;
+  signed int tmp_if_expr_35;
+  unsigned char return_value_leadz_38;
+  unsigned long int return_value_strlen_39;
+  signed int tmp_if_expr_40;
+  struct anonymous *return_value_IsInMoveList_41;
+  signed int return_value_piece_id_60;
+  _Bool tmp_if_expr_62;
+  signed int return_value_piece_id_61;
+  _Bool tmp_if_expr_49;
+  _Bool tmp_if_expr_46;
+  _Bool tmp_if_expr_48;
+  _Bool tmp_if_expr_47;
+  signed int return_value_piece_id_59;
+  signed int return_value_piece_id_58;
+  _Bool tmp_if_expr_57;
+  signed int return_value_piece_id_55;
+  _Bool tmp_if_expr_56;
+  if(tmp_if_expr_63)
   {
     if((signed int)mvstr[1l] >= 49)
-      tmp_if_expr$45 = (signed int)mvstr[(signed long int)1] <= 56 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_45 = (signed int)mvstr[(signed long int)1] <= 56 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$45 = (_Bool)0;
-    if(tmp_if_expr$45)
+      tmp_if_expr_45 = (_Bool)0;
+    if(tmp_if_expr_45)
     {
       t = (signed short int)(((signed int)mvstr[(signed long int)0] - 97) + ((signed int)mvstr[(signed long int)1] - 49) * 8);
       f = (signed short int)((signed int)t + ((signed int)side == 0 ? -8 : 8));
@@ -13124,14 +13124,14 @@ struct anonymous * ValidateMove(char *s)
         {
           if(!((signed int)mvstr[2l] == 0))
           {
-            return_value_IsInMoveList$31=IsInMoveList(1, (signed int)f, (signed int)t, mvstr[(signed long int)2]);
-            return return_value_IsInMoveList$31;
+            return_value_IsInMoveList_31=IsInMoveList(1, (signed int)f, (signed int)t, mvstr[(signed long int)2]);
+            return return_value_IsInMoveList_31;
           }
 
           else
           {
-            return_value_IsInMoveList$32=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
-            return return_value_IsInMoveList$32;
+            return_value_IsInMoveList_32=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
+            return return_value_IsInMoveList_32;
           }
         }
 
@@ -13140,8 +13140,8 @@ struct anonymous * ValidateMove(char *s)
         {
           if(!((board.b[(signed long int)side][1l] & BitPosArray[(signed long int)f]) == 0ul))
           {
-            return_value_IsInMoveList$33=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
-            return return_value_IsInMoveList$33;
+            return_value_IsInMoveList_33=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
+            return return_value_IsInMoveList_33;
           }
 
         }
@@ -13153,38 +13153,38 @@ struct anonymous * ValidateMove(char *s)
     else
     {
       if((signed int)mvstr[1l] >= 97)
-        tmp_if_expr$42 = (signed int)mvstr[(signed long int)1] <= 104 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_42 = (signed int)mvstr[(signed long int)1] <= 104 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$42 = (_Bool)0;
-      if(tmp_if_expr$42)
+        tmp_if_expr_42 = (_Bool)0;
+      if(tmp_if_expr_42)
       {
         if((signed int)mvstr[2l] >= 49)
-          tmp_if_expr$43 = (signed int)mvstr[(signed long int)2] <= 56 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_43 = (signed int)mvstr[(signed long int)2] <= 56 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$43 = (_Bool)0;
-        tmp_if_expr$44 = tmp_if_expr$43 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_43 = (_Bool)0;
+        tmp_if_expr_44 = tmp_if_expr_43 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$44 = (_Bool)0;
-      if(tmp_if_expr$44)
+        tmp_if_expr_44 = (_Bool)0;
+      if(tmp_if_expr_44)
       {
         t = (signed short int)(((signed int)mvstr[(signed long int)1] - 97) + ((signed int)mvstr[(signed long int)2] - 49) * 8);
         rank = (signed short int)(((signed int)mvstr[(signed long int)2] - 49) + ((signed int)side == 0 ? -1 : 1));
         f = (signed short int)((signed int)rank * 8 + ((signed int)mvstr[(signed long int)0] - 97));
-        unsigned long int return_value_strlen$34;
-        return_value_strlen$34=strlen(mvstr);
-        if(return_value_strlen$34 == 4ul)
-          tmp_if_expr$35 = (signed int)mvstr[(signed long int)3];
+        unsigned long int return_value_strlen_34;
+        return_value_strlen_34=strlen(mvstr);
+        if(return_value_strlen_34 == 4ul)
+          tmp_if_expr_35 = (signed int)mvstr[(signed long int)3];
 
         else
-          tmp_if_expr$35 = 32;
-        piece = (signed short int)tmp_if_expr$35;
-        struct anonymous *return_value_IsInMoveList$36;
-        return_value_IsInMoveList$36=IsInMoveList(1, (signed int)f, (signed int)t, (char)piece);
-        return return_value_IsInMoveList$36;
+          tmp_if_expr_35 = 32;
+        piece = (signed short int)tmp_if_expr_35;
+        struct anonymous *return_value_IsInMoveList_36;
+        return_value_IsInMoveList_36=IsInMoveList(1, (signed int)f, (signed int)t, (char)piece);
+        return return_value_IsInMoveList_36;
       }
 
       else
@@ -13205,26 +13205,26 @@ struct anonymous * ValidateMove(char *s)
 
             else
               b = b & board.friends[(signed long int)(1 ^ (signed int)side)];
-            unsigned char return_value_nbits$37;
-            return_value_nbits$37=nbits$link6(b);
-            switch((signed int)return_value_nbits$37)
+            unsigned char return_value_nbits_37;
+            return_value_nbits_37=nbits_link6(b);
+            switch((signed int)return_value_nbits_37)
             {
               case 0:
                 return (struct anonymous *)(void *)0;
               case 1:
               {
-                return_value_leadz$38=leadz$link5(b);
-                t = (signed short int)return_value_leadz$38;
+                return_value_leadz_38=leadz_link5(b);
+                t = (signed short int)return_value_leadz_38;
                 f = (signed short int)(((signed int)t - ((signed int)side == 0 ? 8 : -8)) + ((signed int)file - (signed int)fileto));
-                return_value_strlen$39=strlen(mvstr);
-                if(return_value_strlen$39 == 3ul)
-                  tmp_if_expr$40 = (signed int)mvstr[(signed long int)2];
+                return_value_strlen_39=strlen(mvstr);
+                if(return_value_strlen_39 == 3ul)
+                  tmp_if_expr_40 = (signed int)mvstr[(signed long int)2];
 
                 else
-                  tmp_if_expr$40 = 32;
-                piece = (signed short int)tmp_if_expr$40;
-                return_value_IsInMoveList$41=IsInMoveList(1, (signed int)f, (signed int)t, (char)piece);
-                return return_value_IsInMoveList$41;
+                  tmp_if_expr_40 = 32;
+                piece = (signed short int)tmp_if_expr_40;
+                return_value_IsInMoveList_41=IsInMoveList(1, (signed int)f, (signed int)t, (char)piece);
+                return return_value_IsInMoveList_41;
               }
               default:
               {
@@ -13242,26 +13242,26 @@ struct anonymous * ValidateMove(char *s)
 
   else
   {
-    return_value_piece_id$60=piece_id(mvstr[(signed long int)0]);
-    piece = (signed short int)return_value_piece_id$60;
+    return_value_piece_id_60=piece_id(mvstr[(signed long int)0]);
+    piece = (signed short int)return_value_piece_id_60;
     if(!((signed int)piece == 0))
     {
-      return_value_piece_id$61=piece_id(mvstr[(signed long int)1]);
-      tmp_if_expr$62 = return_value_piece_id$61 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_piece_id_61=piece_id(mvstr[(signed long int)1]);
+      tmp_if_expr_62 = return_value_piece_id_61 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$62 = (_Bool)0;
-    if(tmp_if_expr$62)
+      tmp_if_expr_62 = (_Bool)0;
+    if(tmp_if_expr_62)
     {
       b = board.b[(signed long int)side][(signed long int)piece];
       t = (signed short int)-1;
       if((signed int)mvstr[1l] >= 49)
-        tmp_if_expr$49 = (signed int)mvstr[(signed long int)1] <= 56 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_49 = (signed int)mvstr[(signed long int)1] <= 56 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$49 = (_Bool)0;
-      if(tmp_if_expr$49)
+        tmp_if_expr_49 = (_Bool)0;
+      if(tmp_if_expr_49)
       {
         rank = (signed short int)((signed int)mvstr[(signed long int)1] - 49);
         b = b & RankBit[(signed long int)rank];
@@ -13271,23 +13271,23 @@ struct anonymous * ValidateMove(char *s)
       else
       {
         if((signed int)mvstr[1l] >= 97)
-          tmp_if_expr$46 = (signed int)mvstr[(signed long int)1] <= 104 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_46 = (signed int)mvstr[(signed long int)1] <= 104 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$46 = (_Bool)0;
-        if(tmp_if_expr$46)
+          tmp_if_expr_46 = (_Bool)0;
+        if(tmp_if_expr_46)
         {
           if((signed int)mvstr[2l] >= 97)
-            tmp_if_expr$47 = (signed int)mvstr[(signed long int)2] <= 104 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_47 = (signed int)mvstr[(signed long int)2] <= 104 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$47 = (_Bool)0;
-          tmp_if_expr$48 = tmp_if_expr$47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_47 = (_Bool)0;
+          tmp_if_expr_48 = tmp_if_expr_47 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$48 = (_Bool)0;
-        if(tmp_if_expr$48)
+          tmp_if_expr_48 = (_Bool)0;
+        if(tmp_if_expr_48)
         {
           file = (signed short int)((signed int)mvstr[(signed long int)1] - 97);
           b = b & FileBit[(signed long int)file];
@@ -13316,9 +13316,9 @@ struct anonymous * ValidateMove(char *s)
       n1 = n2;
       while(!(b == 0ul))
       {
-        unsigned char return_value_leadz$50;
-        return_value_leadz$50=leadz$link5(b);
-        f = (signed short int)return_value_leadz$50;
+        unsigned char return_value_leadz_50;
+        return_value_leadz_50=leadz_link5(b);
+        f = (signed short int)return_value_leadz_50;
         b = b & NotBitPosArray[(signed long int)f];
         n1=IsInMoveList(1, (signed int)f, (signed int)t, (char)32);
         if(!(n1 == ((struct anonymous *)NULL)))
@@ -13345,33 +13345,33 @@ struct anonymous * ValidateMove(char *s)
 
     else
     {
-      return_value_piece_id$59=piece_id(mvstr[(signed long int)0]);
-      piece = (signed short int)return_value_piece_id$59;
+      return_value_piece_id_59=piece_id(mvstr[(signed long int)0]);
+      piece = (signed short int)return_value_piece_id_59;
       if(!((signed int)piece == 0))
       {
-        return_value_piece_id$58=piece_id(mvstr[(signed long int)1]);
-        piece2 = (signed short int)return_value_piece_id$58;
+        return_value_piece_id_58=piece_id(mvstr[(signed long int)1]);
+        piece2 = (signed short int)return_value_piece_id_58;
         if(!((signed int)piece2 == 0))
         {
           if((signed int)mvstr[2l] == 0)
-            tmp_if_expr$57 = (_Bool)1;
+            tmp_if_expr_57 = (_Bool)1;
 
           else
           {
-            return_value_piece_id$55=piece_id(mvstr[(signed long int)2]);
-            if(!(return_value_piece_id$55 == 0))
-              tmp_if_expr$56 = (signed int)mvstr[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_piece_id_55=piece_id(mvstr[(signed long int)2]);
+            if(!(return_value_piece_id_55 == 0))
+              tmp_if_expr_56 = (signed int)mvstr[(signed long int)3] == 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$56 = (_Bool)0;
-            tmp_if_expr$57 = tmp_if_expr$56 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_56 = (_Bool)0;
+            tmp_if_expr_57 = tmp_if_expr_56 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$57)
+          if(tmp_if_expr_57)
           {
             promote = (char)32;
-            signed int return_value_piece_id$51;
-            return_value_piece_id$51=piece_id((const char)((signed int)mvstr[(signed long int)2] != 0));
-            if(!(return_value_piece_id$51 == 0))
+            signed int return_value_piece_id_51;
+            return_value_piece_id_51=piece_id((const char)((signed int)mvstr[(signed long int)2] != 0));
+            if(!(return_value_piece_id_51 == 0))
               promote = mvstr[(signed long int)2];
 
             kount = (signed short int)0;
@@ -13380,20 +13380,20 @@ struct anonymous * ValidateMove(char *s)
             b = board.b[(signed long int)side][(signed long int)piece];
             while(!(b == 0ul))
             {
-              unsigned char return_value_leadz$52;
-              return_value_leadz$52=leadz$link5(b);
-              f = (signed short int)return_value_leadz$52;
+              unsigned char return_value_leadz_52;
+              return_value_leadz_52=leadz_link5(b);
+              f = (signed short int)return_value_leadz_52;
               b = b & NotBitPosArray[(signed long int)f];
               b2 = board.b[(signed long int)(1 ^ (signed int)side)][(signed long int)piece2];
               while(!(b2 == 0ul))
               {
-                unsigned char return_value_leadz$53;
-                return_value_leadz$53=leadz$link5(b2);
-                t = (signed short int)return_value_leadz$53;
+                unsigned char return_value_leadz_53;
+                return_value_leadz_53=leadz_link5(b2);
+                t = (signed short int)return_value_leadz_53;
                 b2 = b2 & NotBitPosArray[(signed long int)t];
-                char *return_value_AlgbrMove$54;
-                return_value_AlgbrMove$54=AlgbrMove((signed int)f << 6 | (signed int)t);
-                printf("Trying %s: ", return_value_AlgbrMove$54);
+                char *return_value_AlgbrMove_54;
+                return_value_AlgbrMove_54=AlgbrMove((signed int)f << 6 | (signed int)t);
+                printf("Trying %s: ", return_value_AlgbrMove_54);
                 n1=IsInMoveList(1, (signed int)f, (signed int)t, promote);
                 if(!(n1 == ((struct anonymous *)NULL)))
                 {
@@ -13442,16 +13442,16 @@ static inline unsigned long int __strcspn_c1(const char *__s, signed int __rejec
   return __result;
 }
 
-// __strcspn_c1$link1
+// __strcspn_c1_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 947
-static inline unsigned long int __strcspn_c1$link1(const char *__s$link1, signed int __reject$link1)
+static inline unsigned long int __strcspn_c1_link1(const char *__s_link1, signed int __reject_link1)
 {
-  unsigned long int __result$link1 = (unsigned long int)0;
-  for( ; !((signed int)__s$link1[(signed long int)__result$link1] == 0); __result$link1 = __result$link1 + 1ul)
-    if((signed int)__s$link1[(signed long int)__result$link1] == __reject$link1)
+  unsigned long int __result_link1 = (unsigned long int)0;
+  for( ; !((signed int)__s_link1[(signed long int)__result_link1] == 0); __result_link1 = __result_link1 + 1ul)
+    if((signed int)__s_link1[(signed long int)__result_link1] == __reject_link1)
       break;
 
-  return __result$link1;
+  return __result_link1;
 }
 
 // __strcspn_c2
@@ -13471,21 +13471,21 @@ static inline unsigned long int __strcspn_c2(const char *__s, signed int __rejec
   return __result;
 }
 
-// __strcspn_c2$link1
+// __strcspn_c2_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 958
-static inline unsigned long int __strcspn_c2$link1(const char *__s$link1, signed int __reject1$link1, signed int __reject2$link1)
+static inline unsigned long int __strcspn_c2_link1(const char *__s_link1, signed int __reject1_link1, signed int __reject2_link1)
 {
-  unsigned long int __result$link1 = (unsigned long int)0;
-  for( ; !((signed int)__s$link1[(signed long int)__result$link1] == 0); __result$link1 = __result$link1 + 1ul)
+  unsigned long int __result_link1 = (unsigned long int)0;
+  for( ; !((signed int)__s_link1[(signed long int)__result_link1] == 0); __result_link1 = __result_link1 + 1ul)
   {
-    if((signed int)__s$link1[(signed long int)__result$link1] == __reject1$link1)
+    if((signed int)__s_link1[(signed long int)__result_link1] == __reject1_link1)
       break;
 
-    if((signed int)__s$link1[(signed long int)__result$link1] == __reject2$link1)
+    if((signed int)__s_link1[(signed long int)__result_link1] == __reject2_link1)
       break;
 
   }
-  return __result$link1;
+  return __result_link1;
 }
 
 // __strcspn_c3
@@ -13508,24 +13508,24 @@ static inline unsigned long int __strcspn_c3(const char *__s, signed int __rejec
   return __result;
 }
 
-// __strcspn_c3$link1
+// __strcspn_c3_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 970
-static inline unsigned long int __strcspn_c3$link1(const char *__s$link1, signed int __reject1$link1, signed int __reject2$link1, signed int __reject3$link1)
+static inline unsigned long int __strcspn_c3_link1(const char *__s_link1, signed int __reject1_link1, signed int __reject2_link1, signed int __reject3_link1)
 {
-  unsigned long int __result$link1 = (unsigned long int)0;
-  for( ; !((signed int)__s$link1[(signed long int)__result$link1] == 0); __result$link1 = __result$link1 + 1ul)
+  unsigned long int __result_link1 = (unsigned long int)0;
+  for( ; !((signed int)__s_link1[(signed long int)__result_link1] == 0); __result_link1 = __result_link1 + 1ul)
   {
-    if((signed int)__s$link1[(signed long int)__result$link1] == __reject1$link1)
+    if((signed int)__s_link1[(signed long int)__result_link1] == __reject1_link1)
       break;
 
-    if((signed int)__s$link1[(signed long int)__result$link1] == __reject2$link1)
+    if((signed int)__s_link1[(signed long int)__result_link1] == __reject2_link1)
       break;
 
-    if((signed int)__s$link1[(signed long int)__result$link1] == __reject3$link1)
+    if((signed int)__s_link1[(signed long int)__result_link1] == __reject3_link1)
       break;
 
   }
-  return __result$link1;
+  return __result_link1;
 }
 
 // append_comment
@@ -13556,9 +13556,9 @@ void append_str(char **dest, const char *s)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // book_to_buf
@@ -13585,19 +13585,19 @@ static void buf_to_book(void)
   unsigned int i;
   key = (unsigned long int)buf[(signed long int)key_off] << 56 | (unsigned long int)buf[(signed long int)(key_off + 1)] << 48 | (unsigned long int)buf[(signed long int)(key_off + 2)] << 40 | (unsigned long int)buf[(signed long int)(key_off + 3)] << 32 | (unsigned long int)buf[(signed long int)(key_off + 4)] << 24 | (unsigned long int)buf[(signed long int)(key_off + 5)] << 16 | (unsigned long int)buf[(signed long int)(key_off + 6)] << 8 | (unsigned long int)buf[(signed long int)(key_off + 7)];
   i = (unsigned int)(key & (1UL << digest_bits) - (unsigned long int)1);
-  _Bool tmp_if_expr$2;
-  signed int return_value_is_empty$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_is_empty_1;
   do
   {
     if(!(key == (bookpos + (signed long int)i)->key))
     {
-      return_value_is_empty$1=is_empty(i);
-      tmp_if_expr$2 = !(return_value_is_empty$1 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_is_empty_1=is_empty(i);
+      tmp_if_expr_2 = !(return_value_is_empty_1 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     bookhashcollisions = bookhashcollisions + 1;
@@ -13614,22 +13614,22 @@ static void buf_to_book(void)
 // file book.c line 78
 static signed int check_magic(struct _IO_FILE *f)
 {
-  char check_magic$$1$$buf[5l];
+  char check_magic__1__buf[5l];
   signed int r;
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)&check_magic$$1$$buf, (unsigned long int)1, (unsigned long int)5, f);
-  r = (signed int)return_value_fread$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_memcmp$2;
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)&check_magic__1__buf, (unsigned long int)1, (unsigned long int)5, f);
+  r = (signed int)return_value_fread_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_memcmp_2;
   if(r == 5)
   {
-    return_value_memcmp$2=memcmp((const void *)check_magic$$1$$buf, (const void *)magic_str, (unsigned long int)5);
-    tmp_if_expr$3 = return_value_memcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_2=memcmp((const void *)check_magic__1__buf, (const void *)magic_str, (unsigned long int)5);
+    tmp_if_expr_3 = return_value_memcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  return (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  return (signed int)tmp_if_expr_3;
 }
 
 // cmd_accepted
@@ -13722,20 +13722,20 @@ void cmd_black(void)
 // file cmd.c line 146
 void cmd_book(void)
 {
-  signed int return_value_tokeneq$9;
-  return_value_tokeneq$9=tokeneq(token[(signed long int)1], "add");
-  signed int return_value_tokeneq$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_tokeneq$7;
-  signed int return_value_tokeneq$5;
-  signed int return_value_tokeneq$4;
-  signed int return_value_tokeneq$3;
-  signed int return_value_tokeneq$2;
-  if(!(return_value_tokeneq$9 == 0))
+  signed int return_value_tokeneq_9;
+  return_value_tokeneq_9=tokeneq(token[(signed long int)1], "add");
+  signed int return_value_tokeneq_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_tokeneq_7;
+  signed int return_value_tokeneq_5;
+  signed int return_value_tokeneq_4;
+  signed int return_value_tokeneq_3;
+  signed int return_value_tokeneq_2;
+  if(!(return_value_tokeneq_9 == 0))
   {
-    signed int return_value_access$1;
-    return_value_access$1=access(token[(signed long int)2], 0);
-    if(!(return_value_access$1 >= 0))
+    signed int return_value_access_1;
+    return_value_access_1=access(token[(signed long int)2], 0);
+    if(!(return_value_access_1 >= 0))
       printf("The syntax to add a new book is:\n\n\tbook add file.pgn\n");
 
     else
@@ -13744,16 +13744,16 @@ void cmd_book(void)
 
   else
   {
-    return_value_tokeneq$6=tokeneq(token[(signed long int)1], "on");
-    if(!(return_value_tokeneq$6 == 0))
-      tmp_if_expr$8 = (_Bool)1;
+    return_value_tokeneq_6=tokeneq(token[(signed long int)1], "on");
+    if(!(return_value_tokeneq_6 == 0))
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_tokeneq$7=tokeneq(token[(signed long int)1], "prefer");
-      tmp_if_expr$8 = return_value_tokeneq$7 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_tokeneq_7=tokeneq(token[(signed long int)1], "prefer");
+      tmp_if_expr_8 = return_value_tokeneq_7 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
       bookmode = (signed short int)4;
       printf("book now on.\n");
@@ -13761,8 +13761,8 @@ void cmd_book(void)
 
     else
     {
-      return_value_tokeneq$5=tokeneq(token[(signed long int)1], "off");
-      if(!(return_value_tokeneq$5 == 0))
+      return_value_tokeneq_5=tokeneq(token[(signed long int)1], "off");
+      if(!(return_value_tokeneq_5 == 0))
       {
         bookmode = (signed short int)0;
         printf("book now off.\n");
@@ -13770,8 +13770,8 @@ void cmd_book(void)
 
       else
       {
-        return_value_tokeneq$4=tokeneq(token[(signed long int)1], "best");
-        if(!(return_value_tokeneq$4 == 0))
+        return_value_tokeneq_4=tokeneq(token[(signed long int)1], "best");
+        if(!(return_value_tokeneq_4 == 0))
         {
           bookmode = (signed short int)2;
           printf("book now best.\n");
@@ -13779,8 +13779,8 @@ void cmd_book(void)
 
         else
         {
-          return_value_tokeneq$3=tokeneq(token[(signed long int)1], "worst");
-          if(!(return_value_tokeneq$3 == 0))
+          return_value_tokeneq_3=tokeneq(token[(signed long int)1], "worst");
+          if(!(return_value_tokeneq_3 == 0))
           {
             bookmode = (signed short int)3;
             printf("book now worst.\n");
@@ -13788,8 +13788,8 @@ void cmd_book(void)
 
           else
           {
-            return_value_tokeneq$2=tokeneq(token[(signed long int)1], "random");
-            if(!(return_value_tokeneq$2 == 0))
+            return_value_tokeneq_2=tokeneq(token[(signed long int)1], "random");
+            if(!(return_value_tokeneq_2 == 0))
             {
               bookmode = (signed short int)1;
               printf("book now random.\n");
@@ -13928,10 +13928,10 @@ void cmd_hard(void)
 // file cmd.c line 232
 void cmd_hash(void)
 {
-  signed int return_value_tokeneq$2;
-  return_value_tokeneq$2=tokeneq(token[(signed long int)1], "off");
-  signed int return_value_tokeneq$1;
-  if(!(return_value_tokeneq$2 == 0))
+  signed int return_value_tokeneq_2;
+  return_value_tokeneq_2=tokeneq(token[(signed long int)1], "off");
+  signed int return_value_tokeneq_1;
+  if(!(return_value_tokeneq_2 == 0))
     do
     {
       flags = flags & (unsigned int)~0x0080;
@@ -13941,8 +13941,8 @@ void cmd_hash(void)
 
   else
   {
-    return_value_tokeneq$1=tokeneq(token[(signed long int)1], "on");
-    if(!(return_value_tokeneq$1 == 0))
+    return_value_tokeneq_1=tokeneq(token[(signed long int)1], "on");
+    if(!(return_value_tokeneq_1 == 0))
       do
       {
         flags = flags | (unsigned int)0x0080;
@@ -13958,27 +13958,27 @@ void cmd_hash(void)
 // file cmd.c line 241
 void cmd_hashsize(void)
 {
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if((signed int)*token[1l] == 0)
     printf("Current HashSize is %d slots\n", HashSize);
 
   else
   {
     signed int i;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
-    signed long int return_value_strtol$2;
-    return_value_strtol$2=strtol(token[(signed long int)1], &endptr, 10);
-    i = (signed int)return_value_strtol$2;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
+    signed long int return_value_strtol_2;
+    return_value_strtol_2=strtol(token[(signed long int)1], &endptr, 10);
+    i = (signed int)return_value_strtol_2;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       printf("Hashsize out of Range or Invalid\n");
 
     else
@@ -13996,20 +13996,20 @@ void cmd_help(void)
   const char * const *p;
   signed int count;
   signed int len;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(token[(signed long int)1]);
-  _Bool tmp_if_expr$1;
-  if(return_value_strlen$4 >= 1ul)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(token[(signed long int)1]);
+  _Bool tmp_if_expr_1;
+  if(return_value_strlen_4 >= 1ul)
   {
     p = helpstr;
     count = 0;
     for( ; !(*p == ((const char *)NULL)); p = p + 1l)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(token[(signed long int)1]);
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(*p, token[(signed long int)1], return_value_strlen$2);
-      if(return_value_strncmp$3 == 0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(token[(signed long int)1]);
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(*p, token[(signed long int)1], return_value_strlen_2);
+      if(return_value_strncmp_3 == 0)
       {
         puts(*p);
         do
@@ -14026,11 +14026,11 @@ void cmd_help(void)
         do
         {
           if(!(*p == ((const char *)NULL)))
-            tmp_if_expr$1 = (signed int)*(*p) == 32 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (signed int)*(*p) == 32 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           puts(*p);
@@ -14047,20 +14047,20 @@ void cmd_help(void)
   printf("List of commands: (help COMMAND to get more help)\n");
   p = helpstr;
   count = 0;
-  unsigned long int tmp_statement_expression$5;
+  unsigned long int tmp_statement_expression_5;
   for( ; !(*p == ((const char *)NULL)); p = p + 1l)
   {
     char __r0;
     char __r1;
     char __r2;
-    unsigned long int return_value___builtin_strcspn$6;
-    return_value___builtin_strcspn$6=__builtin_strcspn(*p, " ");
-    tmp_statement_expression$5 = return_value___builtin_strcspn$6;
-    len = (signed int)tmp_statement_expression$5;
+    unsigned long int return_value___builtin_strcspn_6;
+    return_value___builtin_strcspn_6=__builtin_strcspn(*p, " ");
+    tmp_statement_expression_5 = return_value___builtin_strcspn_6;
+    len = (signed int)tmp_statement_expression_5;
     if(len >= 1)
     {
-      signed int return_value_printf$7 = printf("%.*s  ", len, *p);
-      count = count + return_value_printf$7;
+      signed int return_value_printf_7 = printf("%.*s  ", len, *p);
+      count = count + return_value_printf_7;
       if(count >= 61)
       {
         count = 0;
@@ -14086,9 +14086,9 @@ void cmd_hint(void)
   else
   {
     signed int HintMove = TreePtr[(signed long int)1]->move;
-    signed int return_value_IsLegalMove$1;
-    return_value_IsLegalMove$1=IsLegalMove(HintMove);
-    if(!(return_value_IsLegalMove$1 == 0))
+    signed int return_value_IsLegalMove_1;
+    return_value_IsLegalMove_1=IsLegalMove(HintMove);
+    if(!(return_value_IsLegalMove_1 == 0))
     {
       GenMoves((signed short int)1);
       SANMove(TreePtr[(signed long int)1]->move, 1);
@@ -14173,9 +14173,9 @@ void cmd_list(void)
 void cmd_load(void)
 {
   LoadEPD(token[(signed long int)1]);
-  signed short int return_value_ValidateBoard$1;
-  return_value_ValidateBoard$1=ValidateBoard();
-  if(return_value_ValidateBoard$1 == 0)
+  signed short int return_value_ValidateBoard_1;
+  return_value_ValidateBoard_1=ValidateBoard();
+  if(return_value_ValidateBoard_1 == 0)
   {
     do
     {
@@ -14218,19 +14218,19 @@ void cmd_name(void)
   {
     sprintf(logfile, "log.%03d", suffix);
     sprintf(gamefile, "game.%03d", suffix);
-    signed int return_value_access$3;
-    return_value_access$3=access(logfile, 0);
-    if(!(return_value_access$3 >= 0))
+    signed int return_value_access_3;
+    return_value_access_3=access(logfile, 0);
+    if(!(return_value_access_3 >= 0))
     {
       ofp=fopen(logfile, "w");
       if(ofp == ((struct _IO_FILE *)NULL))
       {
         ofp = stdout;
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(stderr, "Failed to open %s for writing: %s\n", (const void *)logfile, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(stderr, "Failed to open %s for writing: %s\n", (const void *)logfile, return_value_strerror_2);
       }
 
       goto __CPROVER_DUMP_L5;
@@ -14284,10 +14284,10 @@ void cmd_nopost(void)
 // file cmd.c line 376
 void cmd_null(void)
 {
-  signed int return_value_tokeneq$2;
-  return_value_tokeneq$2=tokeneq(token[(signed long int)1], "off");
-  signed int return_value_tokeneq$1;
-  if(!(return_value_tokeneq$2 == 0))
+  signed int return_value_tokeneq_2;
+  return_value_tokeneq_2=tokeneq(token[(signed long int)1], "off");
+  signed int return_value_tokeneq_1;
+  if(!(return_value_tokeneq_2 == 0))
     do
     {
       flags = flags & (unsigned int)~0x0200;
@@ -14297,8 +14297,8 @@ void cmd_null(void)
 
   else
   {
-    return_value_tokeneq$1=tokeneq(token[(signed long int)1], "on");
-    if(!(return_value_tokeneq$1 == 0))
+    return_value_tokeneq_1=tokeneq(token[(signed long int)1], "on");
+    if(!(return_value_tokeneq_1 == 0))
       do
       {
         flags = flags | (unsigned int)0x0200;
@@ -14328,9 +14328,9 @@ void cmd_pgnload(void)
 // file cmd.c line 394
 void cmd_pgnsave(void)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(token[(signed long int)1]);
-  if(return_value_strlen$1 >= 1ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(token[(signed long int)1]);
+  if(return_value_strlen_1 >= 1ul)
     PGNSaveToFile(token[(signed long int)1], "");
 
   else
@@ -14467,9 +14467,9 @@ void cmd_result(void)
 // file cmd.c line 471
 void cmd_save(void)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(token[(signed long int)1]);
-  if(return_value_strlen$1 >= 1ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(token[(signed long int)1]);
+  if(return_value_strlen_1 >= 1ul)
     SaveEPD(token[(signed long int)1]);
 
   else
@@ -14488,28 +14488,28 @@ void cmd_setboard(void)
 // file cmd.c line 589
 void cmd_show(void)
 {
-  signed int return_value_tokeneq$25;
-  return_value_tokeneq$25=tokeneq(token[(signed long int)1], "board");
-  signed int return_value_tokeneq$24;
-  signed int return_value_tokeneq$23;
-  signed int return_value_tokeneq$22;
-  signed int return_value_tokeneq$21;
-  signed int return_value_tokeneq$20;
-  signed int return_value_tokeneq$19;
-  signed int return_value_tokeneq$16;
-  _Bool tmp_if_expr$18;
-  signed int return_value_tokeneq$17;
-  signed int tmp_if_expr$13;
-  signed int return_value_Evaluate$12;
-  signed int return_value_tokeneq$15;
-  signed int return_value_tokeneq$14;
-  if(!(return_value_tokeneq$25 == 0))
+  signed int return_value_tokeneq_25;
+  return_value_tokeneq_25=tokeneq(token[(signed long int)1], "board");
+  signed int return_value_tokeneq_24;
+  signed int return_value_tokeneq_23;
+  signed int return_value_tokeneq_22;
+  signed int return_value_tokeneq_21;
+  signed int return_value_tokeneq_20;
+  signed int return_value_tokeneq_19;
+  signed int return_value_tokeneq_16;
+  _Bool tmp_if_expr_18;
+  signed int return_value_tokeneq_17;
+  signed int tmp_if_expr_13;
+  signed int return_value_Evaluate_12;
+  signed int return_value_tokeneq_15;
+  signed int return_value_tokeneq_14;
+  if(!(return_value_tokeneq_25 == 0))
     ShowBoard();
 
   else
   {
-    return_value_tokeneq$24=tokeneq(token[(signed long int)1], "rating");
-    if(!(return_value_tokeneq$24 == 0))
+    return_value_tokeneq_24=tokeneq(token[(signed long int)1], "rating");
+    if(!(return_value_tokeneq_24 == 0))
     {
       printf("My rating = %d\n", myrating);
       printf("Opponent rating = %d\n", opprating);
@@ -14517,14 +14517,14 @@ void cmd_show(void)
 
     else
     {
-      return_value_tokeneq$23=tokeneq(token[(signed long int)1], "time");
-      if(!(return_value_tokeneq$23 == 0))
+      return_value_tokeneq_23=tokeneq(token[(signed long int)1], "time");
+      if(!(return_value_tokeneq_23 == 0))
         ShowTime();
 
       else
       {
-        return_value_tokeneq$22=tokeneq(token[(signed long int)1], "moves");
-        if(!(return_value_tokeneq$22 == 0))
+        return_value_tokeneq_22=tokeneq(token[(signed long int)1], "moves");
+        if(!(return_value_tokeneq_22 == 0))
         {
           GenCnt = (unsigned long int)0;
           TreePtr[(signed long int)2] = TreePtr[(signed long int)1];
@@ -14535,8 +14535,8 @@ void cmd_show(void)
 
         else
         {
-          return_value_tokeneq$21=tokeneq(token[(signed long int)1], "escape");
-          if(!(return_value_tokeneq$21 == 0))
+          return_value_tokeneq_21=tokeneq(token[(signed long int)1], "escape");
+          if(!(return_value_tokeneq_21 == 0))
           {
             GenCnt = (unsigned long int)0;
             TreePtr[(signed long int)2] = TreePtr[(signed long int)1];
@@ -14547,8 +14547,8 @@ void cmd_show(void)
 
           else
           {
-            return_value_tokeneq$20=tokeneq(token[(signed long int)1], "noncapture");
-            if(!(return_value_tokeneq$20 == 0))
+            return_value_tokeneq_20=tokeneq(token[(signed long int)1], "noncapture");
+            if(!(return_value_tokeneq_20 == 0))
             {
               GenCnt = (unsigned long int)0;
               TreePtr[(signed long int)2] = TreePtr[(signed long int)1];
@@ -14560,8 +14560,8 @@ void cmd_show(void)
 
             else
             {
-              return_value_tokeneq$19=tokeneq(token[(signed long int)1], "capture");
-              if(!(return_value_tokeneq$19 == 0))
+              return_value_tokeneq_19=tokeneq(token[(signed long int)1], "capture");
+              if(!(return_value_tokeneq_19 == 0))
               {
                 GenCnt = (unsigned long int)0;
                 TreePtr[(signed long int)2] = TreePtr[(signed long int)1];
@@ -14573,16 +14573,16 @@ void cmd_show(void)
 
               else
               {
-                return_value_tokeneq$16=tokeneq(token[(signed long int)1], "eval");
-                if(!(return_value_tokeneq$16 == 0))
-                  tmp_if_expr$18 = (_Bool)1;
+                return_value_tokeneq_16=tokeneq(token[(signed long int)1], "eval");
+                if(!(return_value_tokeneq_16 == 0))
+                  tmp_if_expr_18 = (_Bool)1;
 
                 else
                 {
-                  return_value_tokeneq$17=tokeneq(token[(signed long int)1], "score");
-                  tmp_if_expr$18 = return_value_tokeneq$17 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_tokeneq_17=tokeneq(token[(signed long int)1], "score");
+                  tmp_if_expr_18 = return_value_tokeneq_17 != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$18)
+                if(tmp_if_expr_18)
                 {
                   signed int s;
                   signed int wp;
@@ -14603,59 +14603,59 @@ void cmd_show(void)
                   bp=ScoreP((signed short int)1);
                   wk=ScoreK((signed short int)0);
                   bk=ScoreK((signed short int)1);
-                  signed int return_value_ScoreN$1;
-                  return_value_ScoreN$1=ScoreN((signed short int)0);
-                  signed int return_value_ScoreB$2;
-                  return_value_ScoreB$2=ScoreB((signed short int)0);
-                  signed int return_value_ScoreR$3;
-                  return_value_ScoreR$3=ScoreR((signed short int)0);
-                  signed int return_value_ScoreQ$4;
-                  return_value_ScoreQ$4=ScoreQ((signed short int)0);
-                  signed int return_value_ScoreDev$5;
-                  return_value_ScoreDev$5=ScoreDev((signed short int)0);
-                  printf("White:  Mat:%4d/%4d  P:%d  N:%d  B:%d  R:%d  Q:%d  K:%d  Dev:%d  h:%d x:%d\n", board.pmaterial[(signed long int)0], board.material[(signed long int)0], wp, return_value_ScoreN$1, return_value_ScoreB$2, return_value_ScoreR$3, return_value_ScoreQ$4, wk, return_value_ScoreDev$5, hunged[(signed long int)0], ExchCnt[(signed long int)0]);
-                  signed int return_value_ScoreN$6;
-                  return_value_ScoreN$6=ScoreN((signed short int)1);
-                  signed int return_value_ScoreB$7;
-                  return_value_ScoreB$7=ScoreB((signed short int)1);
-                  signed int return_value_ScoreR$8;
-                  return_value_ScoreR$8=ScoreR((signed short int)1);
-                  signed int return_value_ScoreQ$9;
-                  return_value_ScoreQ$9=ScoreQ((signed short int)1);
-                  signed int return_value_ScoreDev$10;
-                  return_value_ScoreDev$10=ScoreDev((signed short int)1);
-                  printf("Black:  Mat:%4d/%4d  P:%d  N:%d  B:%d  R:%d  Q:%d  K:%d  Dev:%d  h:%d x:%d\n", board.pmaterial[(signed long int)1], board.material[(signed long int)1], bp, return_value_ScoreN$6, return_value_ScoreB$7, return_value_ScoreR$8, return_value_ScoreQ$9, bk, return_value_ScoreDev$10, hunged[(signed long int)1], ExchCnt[(signed long int)1]);
+                  signed int return_value_ScoreN_1;
+                  return_value_ScoreN_1=ScoreN((signed short int)0);
+                  signed int return_value_ScoreB_2;
+                  return_value_ScoreB_2=ScoreB((signed short int)0);
+                  signed int return_value_ScoreR_3;
+                  return_value_ScoreR_3=ScoreR((signed short int)0);
+                  signed int return_value_ScoreQ_4;
+                  return_value_ScoreQ_4=ScoreQ((signed short int)0);
+                  signed int return_value_ScoreDev_5;
+                  return_value_ScoreDev_5=ScoreDev((signed short int)0);
+                  printf("White:  Mat:%4d/%4d  P:%d  N:%d  B:%d  R:%d  Q:%d  K:%d  Dev:%d  h:%d x:%d\n", board.pmaterial[(signed long int)0], board.material[(signed long int)0], wp, return_value_ScoreN_1, return_value_ScoreB_2, return_value_ScoreR_3, return_value_ScoreQ_4, wk, return_value_ScoreDev_5, hunged[(signed long int)0], ExchCnt[(signed long int)0]);
+                  signed int return_value_ScoreN_6;
+                  return_value_ScoreN_6=ScoreN((signed short int)1);
+                  signed int return_value_ScoreB_7;
+                  return_value_ScoreB_7=ScoreB((signed short int)1);
+                  signed int return_value_ScoreR_8;
+                  return_value_ScoreR_8=ScoreR((signed short int)1);
+                  signed int return_value_ScoreQ_9;
+                  return_value_ScoreQ_9=ScoreQ((signed short int)1);
+                  signed int return_value_ScoreDev_10;
+                  return_value_ScoreDev_10=ScoreDev((signed short int)1);
+                  printf("Black:  Mat:%4d/%4d  P:%d  N:%d  B:%d  R:%d  Q:%d  K:%d  Dev:%d  h:%d x:%d\n", board.pmaterial[(signed long int)1], board.material[(signed long int)1], bp, return_value_ScoreN_6, return_value_ScoreB_7, return_value_ScoreR_8, return_value_ScoreQ_9, bk, return_value_ScoreDev_10, hunged[(signed long int)1], ExchCnt[(signed long int)1]);
                   printf("Phase: %d\t", 8 - ((signed int)board.material[(signed long int)0] + (signed int)board.material[(signed long int)1]) / 1150);
-                  signed short int return_value_EvaluateDraw$11;
-                  return_value_EvaluateDraw$11=EvaluateDraw();
-                  if(!(return_value_EvaluateDraw$11 == 0))
-                    tmp_if_expr$13 = 0;
+                  signed short int return_value_EvaluateDraw_11;
+                  return_value_EvaluateDraw_11=EvaluateDraw();
+                  if(!(return_value_EvaluateDraw_11 == 0))
+                    tmp_if_expr_13 = 0;
 
                   else
                   {
-                    return_value_Evaluate$12=Evaluate(-32767, 32767);
-                    tmp_if_expr$13 = return_value_Evaluate$12;
+                    return_value_Evaluate_12=Evaluate(-32767, 32767);
+                    tmp_if_expr_13 = return_value_Evaluate_12;
                   }
-                  s = tmp_if_expr$13;
+                  s = tmp_if_expr_13;
                   printf("score = %d\n", s);
                   printf("\n");
                 }
 
                 else
                 {
-                  return_value_tokeneq$15=tokeneq(token[(signed long int)1], "game");
-                  if(!(return_value_tokeneq$15 == 0))
+                  return_value_tokeneq_15=tokeneq(token[(signed long int)1], "game");
+                  if(!(return_value_tokeneq_15 == 0))
                     ShowGame();
 
                   else
                   {
-                    return_value_tokeneq$14=tokeneq(token[(signed long int)1], "pin");
-                    if(!(return_value_tokeneq$14 == 0))
+                    return_value_tokeneq_14=tokeneq(token[(signed long int)1], "pin");
+                    if(!(return_value_tokeneq_14 == 0))
                     {
-                      unsigned long int cmd_show$$1$$7$$b;
+                      unsigned long int cmd_show__1__7__b;
                       GenAtaks();
-                      FindPins(&cmd_show$$1$$7$$b);
-                      ShowBitBoard(&cmd_show$$1$$7$$b);
+                      FindPins(&cmd_show__1__7__b);
+                      ShowBitBoard(&cmd_show__1__7__b);
                     }
 
                   }
@@ -14704,44 +14704,44 @@ void cmd_switch(void)
 // file cmd.c line 679
 void cmd_test(void)
 {
-  signed int return_value_tokeneq$6;
-  return_value_tokeneq$6=tokeneq(token[(signed long int)1], "movelist");
-  signed int return_value_tokeneq$5;
-  signed int return_value_tokeneq$4;
-  signed int return_value_tokeneq$3;
-  signed int return_value_tokeneq$2;
-  signed int return_value_tokeneq$1;
-  if(!(return_value_tokeneq$6 == 0))
+  signed int return_value_tokeneq_6;
+  return_value_tokeneq_6=tokeneq(token[(signed long int)1], "movelist");
+  signed int return_value_tokeneq_5;
+  signed int return_value_tokeneq_4;
+  signed int return_value_tokeneq_3;
+  signed int return_value_tokeneq_2;
+  signed int return_value_tokeneq_1;
+  if(!(return_value_tokeneq_6 == 0))
     TestMoveList();
 
   else
   {
-    return_value_tokeneq$5=tokeneq(token[(signed long int)1], "capture");
-    if(!(return_value_tokeneq$5 == 0))
+    return_value_tokeneq_5=tokeneq(token[(signed long int)1], "capture");
+    if(!(return_value_tokeneq_5 == 0))
       TestCaptureList();
 
     else
     {
-      return_value_tokeneq$4=tokeneq(token[(signed long int)1], "movegenspeed");
-      if(!(return_value_tokeneq$4 == 0))
+      return_value_tokeneq_4=tokeneq(token[(signed long int)1], "movegenspeed");
+      if(!(return_value_tokeneq_4 == 0))
         TestMoveGenSpeed();
 
       else
       {
-        return_value_tokeneq$3=tokeneq(token[(signed long int)1], "capturespeed");
-        if(!(return_value_tokeneq$3 == 0))
+        return_value_tokeneq_3=tokeneq(token[(signed long int)1], "capturespeed");
+        if(!(return_value_tokeneq_3 == 0))
           TestCaptureGenSpeed();
 
         else
         {
-          return_value_tokeneq$2=tokeneq(token[(signed long int)1], "eval");
-          if(!(return_value_tokeneq$2 == 0))
+          return_value_tokeneq_2=tokeneq(token[(signed long int)1], "eval");
+          if(!(return_value_tokeneq_2 == 0))
             TestEval();
 
           else
           {
-            return_value_tokeneq$1=tokeneq(token[(signed long int)1], "evalspeed");
-            if(!(return_value_tokeneq$1 == 0))
+            return_value_tokeneq_1=tokeneq(token[(signed long int)1], "evalspeed");
+            if(!(return_value_tokeneq_1 == 0))
               TestEvalSpeed();
 
           }
@@ -14755,9 +14755,9 @@ void cmd_test(void)
 // file cmd.c line 506
 void cmd_time(void)
 {
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(token[(signed long int)1]);
-  TimeLimit[(signed long int)(1 ^ (signed int)board.side)] = (float)return_value_atoi$1 / 100.0f;
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(token[(signed long int)1]);
+  TimeLimit[(signed long int)(1 ^ (signed int)board.side)] = (float)return_value_atoi_1 / 100.0f;
 }
 
 // cmd_undo
@@ -14837,10 +14837,10 @@ void cmd_white(void)
 // file cmd.c line 573
 void cmd_xboard(void)
 {
-  signed int return_value_tokeneq$2;
-  return_value_tokeneq$2=tokeneq(token[(signed long int)1], "off");
-  signed int return_value_tokeneq$1;
-  if(!(return_value_tokeneq$2 == 0))
+  signed int return_value_tokeneq_2;
+  return_value_tokeneq_2=tokeneq(token[(signed long int)1], "off");
+  signed int return_value_tokeneq_1;
+  if(!(return_value_tokeneq_2 == 0))
     do
     {
       flags = flags & (unsigned int)~0x0400;
@@ -14850,8 +14850,8 @@ void cmd_xboard(void)
 
   else
   {
-    return_value_tokeneq$1=tokeneq(token[(signed long int)1], "on");
-    if(!(return_value_tokeneq$1 == 0))
+    return_value_tokeneq_1=tokeneq(token[(signed long int)1], "on");
+    if(!(return_value_tokeneq_1 == 0))
       do
       {
         flags = flags | (unsigned int)0x0400;
@@ -14913,9 +14913,9 @@ signed int dbg_printf(const char *fmt, ...)
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 44
 static inline signed int getchar(void)
 {
-  signed int return_value__IO_getc$1;
-  return_value__IO_getc$1=_IO_getc(stdin);
-  return return_value__IO_getc$1;
+  signed int return_value__IO_getc_1;
+  return_value__IO_getc_1=_IO_getc(stdin);
+  return return_value__IO_getc_1;
 }
 
 // getline_standard
@@ -14974,25 +14974,25 @@ void input_wakeup(void)
 // file book.c line 152
 static inline signed int is_empty(unsigned int index)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((bookpos + (signed long int)index)->key == 0ul)
-    tmp_if_expr$1 = (signed int)(bookpos + (signed long int)index)->wins == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)(bookpos + (signed long int)index)->wins == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)(bookpos + (signed long int)index)->draws == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)(bookpos + (signed long int)index)->draws == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (signed int)(bookpos + (signed long int)index)->losses == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (signed int)(bookpos + (signed long int)index)->losses == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  return (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  return (signed int)tmp_if_expr_3;
 }
 
 // leadz
@@ -15014,137 +15014,137 @@ static inline unsigned char leadz(unsigned long int b)
         return (unsigned char)((signed int)lzArray[(signed long int)b] + 48);
 }
 
-// leadz$link1
+// leadz_link1
 // file inlines.h line 35
-static inline unsigned char leadz$link1(unsigned long int b$link1)
+static inline unsigned char leadz_link1(unsigned long int b_link1)
 {
-  if(!(b$link1 >> 48 == 0ul))
-    return lzArray[(signed long int)(b$link1 >> 48)];
+  if(!(b_link1 >> 48 == 0ul))
+    return lzArray[(signed long int)(b_link1 >> 48)];
 
   else
-    if(!(b$link1 >> 32 == 0ul))
-      return (unsigned char)((signed int)lzArray[(signed long int)(b$link1 >> 32)] + 16);
+    if(!(b_link1 >> 32 == 0ul))
+      return (unsigned char)((signed int)lzArray[(signed long int)(b_link1 >> 32)] + 16);
 
     else
-      if(!(b$link1 >> 16 == 0ul))
-        return (unsigned char)((signed int)lzArray[(signed long int)(b$link1 >> 16)] + 32);
+      if(!(b_link1 >> 16 == 0ul))
+        return (unsigned char)((signed int)lzArray[(signed long int)(b_link1 >> 16)] + 32);
 
       else
-        return (unsigned char)((signed int)lzArray[(signed long int)b$link1] + 48);
+        return (unsigned char)((signed int)lzArray[(signed long int)b_link1] + 48);
 }
 
-// leadz$link2
+// leadz_link2
 // file inlines.h line 35
-static inline unsigned char leadz$link2(unsigned long int b$link2)
+static inline unsigned char leadz_link2(unsigned long int b_link2)
 {
-  if(!(b$link2 >> 48 == 0ul))
-    return lzArray[(signed long int)(b$link2 >> 48)];
+  if(!(b_link2 >> 48 == 0ul))
+    return lzArray[(signed long int)(b_link2 >> 48)];
 
   else
-    if(!(b$link2 >> 32 == 0ul))
-      return (unsigned char)((signed int)lzArray[(signed long int)(b$link2 >> 32)] + 16);
+    if(!(b_link2 >> 32 == 0ul))
+      return (unsigned char)((signed int)lzArray[(signed long int)(b_link2 >> 32)] + 16);
 
     else
-      if(!(b$link2 >> 16 == 0ul))
-        return (unsigned char)((signed int)lzArray[(signed long int)(b$link2 >> 16)] + 32);
+      if(!(b_link2 >> 16 == 0ul))
+        return (unsigned char)((signed int)lzArray[(signed long int)(b_link2 >> 16)] + 32);
 
       else
-        return (unsigned char)((signed int)lzArray[(signed long int)b$link2] + 48);
+        return (unsigned char)((signed int)lzArray[(signed long int)b_link2] + 48);
 }
 
-// leadz$link3
+// leadz_link3
 // file inlines.h line 35
-static inline unsigned char leadz$link3(unsigned long int b$link3)
+static inline unsigned char leadz_link3(unsigned long int b_link3)
 {
-  if(!(b$link3 >> 48 == 0ul))
-    return lzArray[(signed long int)(b$link3 >> 48)];
+  if(!(b_link3 >> 48 == 0ul))
+    return lzArray[(signed long int)(b_link3 >> 48)];
 
   else
-    if(!(b$link3 >> 32 == 0ul))
-      return (unsigned char)((signed int)lzArray[(signed long int)(b$link3 >> 32)] + 16);
+    if(!(b_link3 >> 32 == 0ul))
+      return (unsigned char)((signed int)lzArray[(signed long int)(b_link3 >> 32)] + 16);
 
     else
-      if(!(b$link3 >> 16 == 0ul))
-        return (unsigned char)((signed int)lzArray[(signed long int)(b$link3 >> 16)] + 32);
+      if(!(b_link3 >> 16 == 0ul))
+        return (unsigned char)((signed int)lzArray[(signed long int)(b_link3 >> 16)] + 32);
 
       else
-        return (unsigned char)((signed int)lzArray[(signed long int)b$link3] + 48);
+        return (unsigned char)((signed int)lzArray[(signed long int)b_link3] + 48);
 }
 
-// leadz$link4
+// leadz_link4
 // file inlines.h line 35
-static inline unsigned char leadz$link4(unsigned long int b$link4)
+static inline unsigned char leadz_link4(unsigned long int b_link4)
 {
-  if(!(b$link4 >> 48 == 0ul))
-    return lzArray[(signed long int)(b$link4 >> 48)];
+  if(!(b_link4 >> 48 == 0ul))
+    return lzArray[(signed long int)(b_link4 >> 48)];
 
   else
-    if(!(b$link4 >> 32 == 0ul))
-      return (unsigned char)((signed int)lzArray[(signed long int)(b$link4 >> 32)] + 16);
+    if(!(b_link4 >> 32 == 0ul))
+      return (unsigned char)((signed int)lzArray[(signed long int)(b_link4 >> 32)] + 16);
 
     else
-      if(!(b$link4 >> 16 == 0ul))
-        return (unsigned char)((signed int)lzArray[(signed long int)(b$link4 >> 16)] + 32);
+      if(!(b_link4 >> 16 == 0ul))
+        return (unsigned char)((signed int)lzArray[(signed long int)(b_link4 >> 16)] + 32);
 
       else
-        return (unsigned char)((signed int)lzArray[(signed long int)b$link4] + 48);
+        return (unsigned char)((signed int)lzArray[(signed long int)b_link4] + 48);
 }
 
-// leadz$link5
+// leadz_link5
 // file inlines.h line 35
-static inline unsigned char leadz$link5(unsigned long int b$link5)
+static inline unsigned char leadz_link5(unsigned long int b_link5)
 {
-  if(!(b$link5 >> 48 == 0ul))
-    return lzArray[(signed long int)(b$link5 >> 48)];
+  if(!(b_link5 >> 48 == 0ul))
+    return lzArray[(signed long int)(b_link5 >> 48)];
 
   else
-    if(!(b$link5 >> 32 == 0ul))
-      return (unsigned char)((signed int)lzArray[(signed long int)(b$link5 >> 32)] + 16);
+    if(!(b_link5 >> 32 == 0ul))
+      return (unsigned char)((signed int)lzArray[(signed long int)(b_link5 >> 32)] + 16);
 
     else
-      if(!(b$link5 >> 16 == 0ul))
-        return (unsigned char)((signed int)lzArray[(signed long int)(b$link5 >> 16)] + 32);
+      if(!(b_link5 >> 16 == 0ul))
+        return (unsigned char)((signed int)lzArray[(signed long int)(b_link5 >> 16)] + 32);
 
       else
-        return (unsigned char)((signed int)lzArray[(signed long int)b$link5] + 48);
+        return (unsigned char)((signed int)lzArray[(signed long int)b_link5] + 48);
 }
 
-// leadz$link6
+// leadz_link6
 // file inlines.h line 35
-static inline unsigned char leadz$link6(unsigned long int b$link6)
+static inline unsigned char leadz_link6(unsigned long int b_link6)
 {
-  if(!(b$link6 >> 48 == 0ul))
-    return lzArray[(signed long int)(b$link6 >> 48)];
+  if(!(b_link6 >> 48 == 0ul))
+    return lzArray[(signed long int)(b_link6 >> 48)];
 
   else
-    if(!(b$link6 >> 32 == 0ul))
-      return (unsigned char)((signed int)lzArray[(signed long int)(b$link6 >> 32)] + 16);
+    if(!(b_link6 >> 32 == 0ul))
+      return (unsigned char)((signed int)lzArray[(signed long int)(b_link6 >> 32)] + 16);
 
     else
-      if(!(b$link6 >> 16 == 0ul))
-        return (unsigned char)((signed int)lzArray[(signed long int)(b$link6 >> 16)] + 32);
+      if(!(b_link6 >> 16 == 0ul))
+        return (unsigned char)((signed int)lzArray[(signed long int)(b_link6 >> 16)] + 32);
 
       else
-        return (unsigned char)((signed int)lzArray[(signed long int)b$link6] + 48);
+        return (unsigned char)((signed int)lzArray[(signed long int)b_link6] + 48);
 }
 
-// leadz$link7
+// leadz_link7
 // file inlines.h line 35
-static inline unsigned char leadz$link7(unsigned long int b$link7)
+static inline unsigned char leadz_link7(unsigned long int b_link7)
 {
-  if(!(b$link7 >> 48 == 0ul))
-    return lzArray[(signed long int)(b$link7 >> 48)];
+  if(!(b_link7 >> 48 == 0ul))
+    return lzArray[(signed long int)(b_link7 >> 48)];
 
   else
-    if(!(b$link7 >> 32 == 0ul))
-      return (unsigned char)((signed int)lzArray[(signed long int)(b$link7 >> 32)] + 16);
+    if(!(b_link7 >> 32 == 0ul))
+      return (unsigned char)((signed int)lzArray[(signed long int)(b_link7 >> 32)] + 16);
 
     else
-      if(!(b$link7 >> 16 == 0ul))
-        return (unsigned char)((signed int)lzArray[(signed long int)(b$link7 >> 16)] + 32);
+      if(!(b_link7 >> 16 == 0ul))
+        return (unsigned char)((signed int)lzArray[(signed long int)(b_link7 >> 16)] + 32);
 
       else
-        return (unsigned char)((signed int)lzArray[(signed long int)b$link7] + 48);
+        return (unsigned char)((signed int)lzArray[(signed long int)b_link7] + 48);
 }
 
 // main
@@ -15160,12 +15160,12 @@ signed int main(signed int argc, char **argv)
   signed int opt_hash = 0;
   signed int opt_easy = 0;
   signed int opt_manual = 0;
-  char *main$$1$$endptr;
+  char *main__1__endptr;
   progname = argv[(signed long int)0];
-  signed int *return_value___errno_location$1;
-  signed long int return_value_strtol$2;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$4;
+  signed int *return_value___errno_location_1;
+  signed long int return_value_strtol_2;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
     signed int option_index = 0;
@@ -15222,17 +15222,17 @@ signed int main(signed int argc, char **argv)
           break;
         }
 
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
-        return_value_strtol$2=strtol(optarg, &main$$1$$endptr, 10);
-        opt_hash = (signed int)return_value_strtol$2;
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 0))
-          tmp_if_expr$4 = (_Bool)1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
+        return_value_strtol_2=strtol(optarg, &main__1__endptr, 10);
+        opt_hash = (signed int)return_value_strtol_2;
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 0))
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)*main$$1$$endptr != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)*main__1__endptr != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           printf("Hashsize out of Range or Invalid\n");
           return 1;
@@ -15252,24 +15252,24 @@ signed int main(signed int argc, char **argv)
       }
     }
   }
-  signed long int return_value_time$5;
-  return_value_time$5=time((signed long int *)(void *)0);
-  srand((unsigned int)return_value_time$5);
+  signed long int return_value_time_5;
+  return_value_time_5=time((signed long int *)(void *)0);
+  srand((unsigned int)return_value_time_5);
   flags = (unsigned int)0ULL;
   ofp = stdout;
-  signed int tmp_statement_expression$8;
-  signed int tmp_statement_expression$6;
+  signed int tmp_statement_expression_8;
+  signed int tmp_statement_expression_6;
   if(argc >= 2)
   {
     i = 0;
     for( ; !(i >= argc); i = i + 1)
     {
-      unsigned long int main$$1$$2$$1$$1$$1$$__s1_len;
-      unsigned long int main$$1$$2$$1$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$9;
-      return_value___builtin_strcmp$9=__builtin_strcmp(argv[(signed long int)i], "xboard");
-      tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-      if(tmp_statement_expression$8 == 0)
+      unsigned long int main__1__2__1__1__1____s1_len;
+      unsigned long int main__1__2__1__1__1____s2_len;
+      signed int return_value___builtin_strcmp_9;
+      return_value___builtin_strcmp_9=__builtin_strcmp(argv[(signed long int)i], "xboard");
+      tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+      if(tmp_statement_expression_8 == 0)
         do
         {
           flags = flags | (unsigned int)0x0400;
@@ -15281,10 +15281,10 @@ signed int main(signed int argc, char **argv)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$7;
-        return_value___builtin_strcmp$7=__builtin_strcmp(argv[(signed long int)i], "post");
-        tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-        if(tmp_statement_expression$6 == 0)
+        signed int return_value___builtin_strcmp_7;
+        return_value___builtin_strcmp_7=__builtin_strcmp(argv[(signed long int)i], "post");
+        tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+        if(tmp_statement_expression_6 == 0)
           do
           {
             flags = flags | (unsigned int)0x1000;
@@ -15321,8 +15321,8 @@ signed int main(signed int argc, char **argv)
     while((_Bool)0);
 
   cmd_version();
-  signed int tmp_statement_expression$12;
-  signed int tmp_statement_expression$10;
+  signed int tmp_statement_expression_12;
+  signed int tmp_statement_expression_10;
   if(opt_version == 1)
     return 0;
 
@@ -15354,12 +15354,12 @@ signed int main(signed int argc, char **argv)
         i = 0;
         for( ; !(i >= argc); i = i + 1)
         {
-          unsigned long int main$$1$$8$$1$$1$$1$$__s1_len;
-          unsigned long int main$$1$$8$$1$$1$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$13;
-          return_value___builtin_strcmp$13=__builtin_strcmp(argv[(signed long int)i], "xboard");
-          tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-          if(tmp_statement_expression$12 == 0)
+          unsigned long int main__1__8__1__1__1____s1_len;
+          unsigned long int main__1__8__1__1__1____s2_len;
+          signed int return_value___builtin_strcmp_13;
+          return_value___builtin_strcmp_13=__builtin_strcmp(argv[(signed long int)i], "xboard");
+          tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+          if(tmp_statement_expression_12 == 0)
             do
             {
               flags = flags | (unsigned int)0x0400;
@@ -15369,12 +15369,12 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            unsigned long int main$$1$$8$$1$$1$$3$$__s1_len;
-            unsigned long int main$$1$$8$$1$$1$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$11;
-            return_value___builtin_strcmp$11=__builtin_strcmp(argv[(signed long int)i], "post");
-            tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-            if(tmp_statement_expression$10 == 0)
+            unsigned long int main__1__8__1__1__3____s1_len;
+            unsigned long int main__1__8__1__1__3____s2_len;
+            signed int return_value___builtin_strcmp_11;
+            return_value___builtin_strcmp_11=__builtin_strcmp(argv[(signed long int)i], "post");
+            tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+            if(tmp_statement_expression_10 == 0)
               do
               {
                 flags = flags | (unsigned int)0x1000;
@@ -15431,26 +15431,26 @@ signed int main(signed int argc, char **argv)
 // file players.c line 74
 static signed int namecompare(const void *aa, const void *bb)
 {
-  const struct anonymous$7 *a = (const struct anonymous$7 *)aa;
-  const struct anonymous$7 *b = (const struct anonymous$7 *)bb;
-  signed int tmp_statement_expression$3;
+  const struct anonymous_7 *a = (const struct anonymous_7 *)aa;
+  const struct anonymous_7 *b = (const struct anonymous_7 *)bb;
+  signed int tmp_statement_expression_3;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$4;
-  return_value___builtin_strcmp$4=__builtin_strcmp(a->player, b->player);
-  tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-  signed int tmp_statement_expression$1;
-  if(tmp_statement_expression$3 >= 1)
+  signed int return_value___builtin_strcmp_4;
+  return_value___builtin_strcmp_4=__builtin_strcmp(a->player, b->player);
+  tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+  signed int tmp_statement_expression_1;
+  if(tmp_statement_expression_3 >= 1)
     return 1;
 
   else
   {
-    unsigned long int namecompare$$1$$2$$__s1_len;
-    unsigned long int namecompare$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(a->player, b->player);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(!(tmp_statement_expression$1 >= 0))
+    unsigned long int namecompare__1__2____s1_len;
+    unsigned long int namecompare__1__2____s2_len;
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(a->player, b->player);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(!(tmp_statement_expression_1 >= 0))
       return -1;
 
     else
@@ -15465,53 +15465,53 @@ static inline unsigned char nbits(unsigned long int b)
   return (unsigned char)((signed int)BitCount[(signed long int)(b >> 48)] + (signed int)BitCount[(signed long int)(b >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b & (unsigned long int)0xffff)]);
 }
 
-// nbits$link1
+// nbits_link1
 // file inlines.h line 50
-static inline unsigned char nbits$link1(unsigned long int b$link1)
+static inline unsigned char nbits_link1(unsigned long int b_link1)
 {
-  return (unsigned char)((signed int)BitCount[(signed long int)(b$link1 >> 48)] + (signed int)BitCount[(signed long int)(b$link1 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link1 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link1 & (unsigned long int)0xffff)]);
+  return (unsigned char)((signed int)BitCount[(signed long int)(b_link1 >> 48)] + (signed int)BitCount[(signed long int)(b_link1 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link1 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link1 & (unsigned long int)0xffff)]);
 }
 
-// nbits$link2
+// nbits_link2
 // file inlines.h line 50
-static inline unsigned char nbits$link2(unsigned long int b$link2)
+static inline unsigned char nbits_link2(unsigned long int b_link2)
 {
-  return (unsigned char)((signed int)BitCount[(signed long int)(b$link2 >> 48)] + (signed int)BitCount[(signed long int)(b$link2 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link2 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link2 & (unsigned long int)0xffff)]);
+  return (unsigned char)((signed int)BitCount[(signed long int)(b_link2 >> 48)] + (signed int)BitCount[(signed long int)(b_link2 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link2 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link2 & (unsigned long int)0xffff)]);
 }
 
-// nbits$link3
+// nbits_link3
 // file inlines.h line 50
-static inline unsigned char nbits$link3(unsigned long int b$link3)
+static inline unsigned char nbits_link3(unsigned long int b_link3)
 {
-  return (unsigned char)((signed int)BitCount[(signed long int)(b$link3 >> 48)] + (signed int)BitCount[(signed long int)(b$link3 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link3 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link3 & (unsigned long int)0xffff)]);
+  return (unsigned char)((signed int)BitCount[(signed long int)(b_link3 >> 48)] + (signed int)BitCount[(signed long int)(b_link3 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link3 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link3 & (unsigned long int)0xffff)]);
 }
 
-// nbits$link4
+// nbits_link4
 // file inlines.h line 50
-static inline unsigned char nbits$link4(unsigned long int b$link4)
+static inline unsigned char nbits_link4(unsigned long int b_link4)
 {
-  return (unsigned char)((signed int)BitCount[(signed long int)(b$link4 >> 48)] + (signed int)BitCount[(signed long int)(b$link4 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link4 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link4 & (unsigned long int)0xffff)]);
+  return (unsigned char)((signed int)BitCount[(signed long int)(b_link4 >> 48)] + (signed int)BitCount[(signed long int)(b_link4 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link4 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link4 & (unsigned long int)0xffff)]);
 }
 
-// nbits$link5
+// nbits_link5
 // file inlines.h line 50
-static inline unsigned char nbits$link5(unsigned long int b$link5)
+static inline unsigned char nbits_link5(unsigned long int b_link5)
 {
-  return (unsigned char)((signed int)BitCount[(signed long int)(b$link5 >> 48)] + (signed int)BitCount[(signed long int)(b$link5 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link5 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link5 & (unsigned long int)0xffff)]);
+  return (unsigned char)((signed int)BitCount[(signed long int)(b_link5 >> 48)] + (signed int)BitCount[(signed long int)(b_link5 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link5 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link5 & (unsigned long int)0xffff)]);
 }
 
-// nbits$link6
+// nbits_link6
 // file inlines.h line 50
-static inline unsigned char nbits$link6(unsigned long int b$link6)
+static inline unsigned char nbits_link6(unsigned long int b_link6)
 {
-  return (unsigned char)((signed int)BitCount[(signed long int)(b$link6 >> 48)] + (signed int)BitCount[(signed long int)(b$link6 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link6 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link6 & (unsigned long int)0xffff)]);
+  return (unsigned char)((signed int)BitCount[(signed long int)(b_link6 >> 48)] + (signed int)BitCount[(signed long int)(b_link6 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link6 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link6 & (unsigned long int)0xffff)]);
 }
 
-// nbits$link7
+// nbits_link7
 // file inlines.h line 50
-static inline unsigned char nbits$link7(unsigned long int b$link7)
+static inline unsigned char nbits_link7(unsigned long int b_link7)
 {
-  return (unsigned char)((signed int)BitCount[(signed long int)(b$link7 >> 48)] + (signed int)BitCount[(signed long int)(b$link7 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link7 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b$link7 & (unsigned long int)0xffff)]);
+  return (unsigned char)((signed int)BitCount[(signed long int)(b_link7 >> 48)] + (signed int)BitCount[(signed long int)(b_link7 >> 32 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link7 >> 16 & (unsigned long int)0xffff)] + (signed int)BitCount[(signed long int)(b_link7 & (unsigned long int)0xffff)]);
 }
 
 // parse_input
@@ -15525,9 +15525,9 @@ void parse_input(void)
   meth = commands;
   for( ; !(meth->name == ((const char *)NULL)); meth = meth + 1l)
   {
-    signed int return_value_tokeneq$1;
-    return_value_tokeneq$1=tokeneq(token[(signed long int)0], meth->name);
-    if(!(return_value_tokeneq$1 == 0))
+    signed int return_value_tokeneq_1;
+    return_value_tokeneq_1=tokeneq(token[(signed long int)0], meth->name);
+    if(!(return_value_tokeneq_1 == 0))
       meth->method();
 
   }
@@ -15656,18 +15656,18 @@ void ponder(void)
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
 static inline signed int putchar(signed int __c)
 {
-  signed int return_value__IO_putc$1;
-  return_value__IO_putc$1=_IO_putc(__c, stdout);
-  return return_value__IO_putc$1;
+  signed int return_value__IO_putc_1;
+  return_value__IO_putc_1=_IO_putc(__c, stdout);
+  return return_value__IO_putc_1;
 }
 
-// putchar$link1
+// putchar_link1
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
-static inline signed int putchar$link1(signed int __c$link1)
+static inline signed int putchar_link1(signed int __c_link1)
 {
-  signed int return_value__IO_putc$1$link1;
-  return_value__IO_putc$1$link1=_IO_putc(__c$link1, stdout);
-  return return_value__IO_putc$1$link1;
+  signed int return_value__IO_putc_1_link1;
+  return_value__IO_putc_1_link1=_IO_putc(__c_link1, stdout);
+  return return_value__IO_putc_1_link1;
 }
 
 // read_book
@@ -15680,10 +15680,10 @@ static signed int read_book(struct _IO_FILE *f)
     book_allocated = 0;
   }
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(1UL << digest_bits, sizeof(struct hashtype) /*16ul*/ );
-  bookpos = (struct hashtype *)return_value_calloc$1;
-  unsigned long int return_value_fread$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(1UL << digest_bits, sizeof(struct hashtype) /*16ul*/ );
+  bookpos = (struct hashtype *)return_value_calloc_1;
+  unsigned long int return_value_fread_2;
   if(bookpos == ((struct hashtype *)NULL))
     return 7;
 
@@ -15694,8 +15694,8 @@ static signed int read_book(struct _IO_FILE *f)
     bookhashcollisions = 0;
     do
     {
-      return_value_fread$2=fread((void *)&buf, sizeof(unsigned char [14l]) /*14ul*/ , (unsigned long int)1, f);
-      if(!(return_value_fread$2 == 1ul))
+      return_value_fread_2=fread((void *)&buf, sizeof(unsigned char [14l]) /*14ul*/ , (unsigned long int)1, f);
+      if(!(return_value_fread_2 == 1ul))
         break;
 
       buf_to_book();
@@ -15713,9 +15713,9 @@ static unsigned int read_size(struct _IO_FILE *f)
   unsigned char sizebuf[4l];
   unsigned int size = (unsigned int)0;
   signed int k;
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)&sizebuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned long int)1, f);
-  if(!(return_value_fread$1 == 1ul))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)&sizebuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned long int)1, f);
+  if(!(return_value_fread_1 == 1ul))
     return (unsigned int)0;
 
   else
@@ -15735,23 +15735,23 @@ char * return_append_str(char *dest, const char *s)
   unsigned long int newlen;
   if(dest == ((char *)NULL))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(s);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_strlen$1);
-    newloc = (char *)return_value_malloc$2 + (signed long int)1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(s);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_strlen_1);
+    newloc = (char *)return_value_malloc_2 + (signed long int)1;
     strcpy(newloc, s);
     return newloc;
   }
 
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(dest);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(s);
-  newlen = return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)1;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(newlen);
-  newloc = (char *)return_value_malloc$5;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(dest);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(s);
+  newlen = return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)1;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(newlen);
+  newloc = (char *)return_value_malloc_5;
   strcpy(newloc, dest);
   if(newloc == ((char *)NULL))
     return dest;
@@ -15767,8 +15767,8 @@ char * return_append_str(char *dest, const char *s)
 // file players.c line 50
 static signed int rscorecompare(const void *aa, const void *bb)
 {
-  const struct anonymous$7 *a = (const struct anonymous$7 *)aa;
-  const struct anonymous$7 *b = (const struct anonymous$7 *)bb;
+  const struct anonymous_7 *a = (const struct anonymous_7 *)aa;
+  const struct anonymous_7 *b = (const struct anonymous_7 *)bb;
   float ascore;
   float bscore;
   ascore = (float)((a->wins + a->draws / 2) / (a->wins + a->draws + a->losses));
@@ -15788,8 +15788,8 @@ static signed int rscorecompare(const void *aa, const void *bb)
 // file players.c line 62
 static signed int scorecompare(const void *aa, const void *bb)
 {
-  const struct anonymous$7 *a = (const struct anonymous$7 *)aa;
-  const struct anonymous$7 *b = (const struct anonymous$7 *)bb;
+  const struct anonymous_7 *a = (const struct anonymous_7 *)aa;
+  const struct anonymous_7 *b = (const struct anonymous_7 *)bb;
   signed int ascore;
   signed int bscore;
   ascore = (100 * (a->wins + a->draws / 2)) / (a->wins + a->draws + a->losses);
@@ -15814,52 +15814,52 @@ static void split_input(void)
   signed int k = 0;
   r = inputstr;
   s = r;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *tmp_post$3;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *tmp_post_3;
   for( ; !(k >= 3); k = k + 1)
   {
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*s]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*s]) == 0)
         break;
 
       s = s + 1l;
     }
     while((_Bool)1);
     token[(signed long int)k] = s;
-    for( ; !(*s == 0); r = tmp_post$3)
+    for( ; !(*s == 0); r = tmp_post_3)
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*s]) == 0))
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*s]) == 0))
         break;
 
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
     }
   }
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  char *tmp_post$6;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  char *tmp_post_6;
   while(!(*s == 0))
   {
     do
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*s]) == 0)
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*s]) == 0)
         break;
 
       s = s + 1l;
     }
     while((_Bool)1);
-    for( ; !(*s == 0); r = tmp_post$6)
+    for( ; !(*s == 0); r = tmp_post_6)
     {
-      return_value___ctype_b_loc$5=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*s]) == 0))
+      return_value___ctype_b_loc_5=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*s]) == 0))
         break;
 
-      tmp_post$6 = s;
+      tmp_post_6 = s;
       s = s + 1l;
     }
   }
@@ -15870,94 +15870,94 @@ static void split_input(void)
 // file cmd.c line 81
 static signed int tokeneq(const char *s, const char *t)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const char *tmp_post$3;
-  const char *tmp_post$4;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const char *tmp_post_3;
+  const char *tmp_post_4;
   while(!(*s == 0))
   {
     if(*t == 0)
       break;
 
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*s]) == 0))
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*s]) == 0))
       break;
 
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*t]) == 0))
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*t]) == 0))
       break;
 
-    tmp_post$3 = s;
+    tmp_post_3 = s;
     s = s + 1l;
-    tmp_post$4 = t;
+    tmp_post_4 = t;
     t = t + 1l;
-    if(!(*tmp_post$3 == *tmp_post$4))
+    if(!(*tmp_post_3 == *tmp_post_4))
       return 0;
 
   }
-  _Bool tmp_if_expr$6;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  _Bool tmp_if_expr_6;
+  const unsigned short int **return_value___ctype_b_loc_5;
   if(*s == 0)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value___ctype_b_loc$5=__ctype_b_loc();
-    tmp_if_expr$6 = ((signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+    return_value___ctype_b_loc_5=__ctype_b_loc();
+    tmp_if_expr_6 = ((signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  if(tmp_if_expr$6)
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  if(tmp_if_expr_6)
   {
     if(*t == 0)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value___ctype_b_loc$7=__ctype_b_loc();
-      tmp_if_expr$8 = ((signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*t] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_7=__ctype_b_loc();
+      tmp_if_expr_8 = ((signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*t] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  return (signed int)tmp_if_expr$9;
+    tmp_if_expr_9 = (_Bool)0;
+  return (signed int)tmp_if_expr_9;
 }
 
 // tolower
 // file /usr/include/ctype.h line 215
 static inline signed int tolower(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_tolower_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_tolower_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_tolower_loc$1=__ctype_tolower_loc();
-    tmp_if_expr$2 = (*return_value___ctype_tolower_loc$1)[(signed long int)__c];
+    return_value___ctype_tolower_loc_1=__ctype_tolower_loc();
+    tmp_if_expr_2 = (*return_value___ctype_tolower_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 
 // toupper
 // file /usr/include/ctype.h line 221
 static inline signed int toupper(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_toupper_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_toupper_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_toupper_loc$1=__ctype_toupper_loc();
-    tmp_if_expr$2 = (*return_value___ctype_toupper_loc$1)[(signed long int)__c];
+    return_value___ctype_toupper_loc_1=__ctype_toupper_loc();
+    tmp_if_expr_2 = (*return_value___ctype_toupper_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 
 // wait_for_input
@@ -15978,9 +15978,9 @@ void wait_for_input(void)
 // file book.c line 88
 static signed int write_magic(struct _IO_FILE *f)
 {
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)&magic_str, (unsigned long int)1, (unsigned long int)5, f);
-  if(!(return_value_fwrite$1 == 5ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)&magic_str, (unsigned long int)1, (unsigned long int)5, f);
+  if(!(return_value_fwrite_1 == 5ul))
     return 3;
 
   else
@@ -15995,9 +15995,9 @@ static signed int write_size(struct _IO_FILE *f, unsigned int size)
   signed int k = 0;
   for( ; !(k >= 4); k = k + 1)
     sizebuf[(signed long int)k] = (unsigned char)(size >> (3 - k) * 8 & (unsigned int)0xff);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)&sizebuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned long int)1, f);
-  if(return_value_fwrite$1 == 1ul)
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)&sizebuf, sizeof(unsigned char [4l]) /*4ul*/ , (unsigned long int)1, f);
+  if(return_value_fwrite_1 == 1ul)
     return 0;
 
   else
@@ -16009,16 +16009,16 @@ static signed int write_size(struct _IO_FILE *f, unsigned int size)
 struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size)
 {
   struct yy_buffer_state *b;
-  void *return_value_yy_flex_alloc$1;
-  return_value_yy_flex_alloc$1=yy_flex_alloc((unsigned int)sizeof(struct yy_buffer_state) /*56ul*/ );
-  b = (struct yy_buffer_state *)return_value_yy_flex_alloc$1;
+  void *return_value_yy_flex_alloc_1;
+  return_value_yy_flex_alloc_1=yy_flex_alloc((unsigned int)sizeof(struct yy_buffer_state) /*56ul*/ );
+  b = (struct yy_buffer_state *)return_value_yy_flex_alloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
   b->yy_buf_size = (unsigned int)size;
-  void *return_value_yy_flex_alloc$2;
-  return_value_yy_flex_alloc$2=yy_flex_alloc(b->yy_buf_size + (unsigned int)2);
-  b->yy_ch_buf = (char *)return_value_yy_flex_alloc$2;
+  void *return_value_yy_flex_alloc_2;
+  return_value_yy_flex_alloc_2=yy_flex_alloc(b->yy_buf_size + (unsigned int)2);
+  b->yy_ch_buf = (char *)return_value_yy_flex_alloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
@@ -16056,9 +16056,9 @@ static void yy_fatal_error(const char *msg)
 // file lexpgn.c line 3305
 static void * yy_flex_alloc(unsigned int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size);
-  return (void *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size);
+  return (void *)return_value_malloc_1;
 }
 
 // yy_flex_free
@@ -16072,9 +16072,9 @@ static void yy_flex_free(void *ptr)
 // file lexpgn.c line 3315
 static void * yy_flex_realloc(void *ptr, unsigned int size)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)(char *)ptr, (unsigned long int)size);
-  return (void *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)(char *)ptr, (unsigned long int)size);
+  return (void *)return_value_realloc_1;
 }
 
 // yy_flush_buffer
@@ -16108,8 +16108,8 @@ static signed int yy_get_next_buffer(void)
   if(!(yy_current_buffer->yy_ch_buf + (signed long int)(1 + yy_n_chars) >= yy_c_buf_p))
     yy_fatal_error("fatal flex scanner internal error--end of buffer missed");
 
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   if(yy_current_buffer->yy_fill_buffer == 0)
   {
     if(yy_c_buf_p - yytext == 1l)
@@ -16124,11 +16124,11 @@ static signed int yy_get_next_buffer(void)
     i = 0;
     for( ; !(i >= number_to_move); i = i + 1)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = source;
+      tmp_post_2 = source;
       source = source + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     if(yy_current_buffer->yy_buffer_status == 2)
     {
@@ -16151,9 +16151,9 @@ static signed int yy_get_next_buffer(void)
 
           else
             b->yy_buf_size = b->yy_buf_size * (unsigned int)2;
-          void *return_value_yy_flex_realloc$3;
-          return_value_yy_flex_realloc$3=yy_flex_realloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned int)2);
-          b->yy_ch_buf = (char *)return_value_yy_flex_realloc$3;
+          void *return_value_yy_flex_realloc_3;
+          return_value_yy_flex_realloc_3=yy_flex_realloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned int)2);
+          b->yy_ch_buf = (char *)return_value_yy_flex_realloc_3;
         }
 
         else
@@ -16167,11 +16167,11 @@ static signed int yy_get_next_buffer(void)
       if(num_to_read >= 8193)
         num_to_read = 8192;
 
-      signed int return_value_fileno$4;
-      return_value_fileno$4=fileno(yyin);
-      signed long int return_value_read$5;
-      return_value_read$5=read(return_value_fileno$4, (void *)(char *)&yy_current_buffer->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)num_to_read);
-      yy_n_chars = (signed int)return_value_read$5;
+      signed int return_value_fileno_4;
+      return_value_fileno_4=fileno(yyin);
+      signed long int return_value_read_5;
+      return_value_read_5=read(return_value_fileno_4, (void *)(char *)&yy_current_buffer->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)num_to_read);
+      yy_n_chars = (signed int)return_value_read_5;
       if(!(yy_n_chars >= 0))
         yy_fatal_error("input in flex scanner failed");
 
@@ -16211,15 +16211,15 @@ static signed int yy_get_previous_state(void)
   yy_current_state = yy_start;
   yy_current_state = yy_current_state + yy_current_buffer->yy_at_bol;
   yy_cp = yytext + (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(yy_cp >= yy_c_buf_p); yy_cp = yy_cp + 1l)
   {
     if(!(*yy_cp == 0))
-      tmp_if_expr$1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      tmp_if_expr_1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
 
     else
-      tmp_if_expr$1 = 1;
-    yy_current_state = (signed int)yy_nxt[(signed long int)yy_current_state][(signed long int)tmp_if_expr$1];
+      tmp_if_expr_1 = 1;
+    yy_current_state = (signed int)yy_nxt[(signed long int)yy_current_state][(signed long int)tmp_if_expr_1];
     if(!(yy_accept[(signed long int)yy_current_state] == 0))
     {
       yy_last_accepting_state = yy_current_state;
@@ -16237,19 +16237,19 @@ void yy_init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file)
   yy_flush_buffer(b);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  signed int tmp_if_expr$3;
-  signed int return_value_fileno$1;
-  signed int return_value_isatty$2;
+  signed int tmp_if_expr_3;
+  signed int return_value_fileno_1;
+  signed int return_value_isatty_2;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fileno$1=fileno(file);
-    return_value_isatty$2=isatty(return_value_fileno$1);
-    tmp_if_expr$3 = (signed int)(return_value_isatty$2 > 0);
+    return_value_fileno_1=fileno(file);
+    return_value_isatty_2=isatty(return_value_fileno_1);
+    tmp_if_expr_3 = (signed int)(return_value_isatty_2 > 0);
   }
 
   else
-    tmp_if_expr$3 = 0;
-  b->yy_is_interactive = tmp_if_expr$3;
+    tmp_if_expr_3 = 0;
+  b->yy_is_interactive = tmp_if_expr_3;
 }
 
 // yy_load_buffer_state
@@ -16268,26 +16268,26 @@ void yy_load_buffer_state(void)
 struct yy_buffer_state * yy_scan_buffer(char *base, unsigned int size)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_yy_flex_alloc$3;
-    return_value_yy_flex_alloc$3=yy_flex_alloc((unsigned int)sizeof(struct yy_buffer_state) /*56ul*/ );
-    b = (struct yy_buffer_state *)return_value_yy_flex_alloc$3;
+    void *return_value_yy_flex_alloc_3;
+    return_value_yy_flex_alloc_3=yy_flex_alloc((unsigned int)sizeof(struct yy_buffer_state) /*56ul*/ );
+    b = (struct yy_buffer_state *)return_value_yy_flex_alloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
       yy_fatal_error("out of dynamic memory in yy_scan_buffer()");
 
@@ -16311,22 +16311,22 @@ struct yy_buffer_state * yy_scan_buffer(char *base, unsigned int size)
 struct yy_buffer_state * yy_scan_bytes(const char *bytes, signed int len)
 {
   struct yy_buffer_state *b;
-  char *yy_scan_bytes$$1$$buf;
-  unsigned int yy_scan_bytes$$1$$n;
+  char *yy_scan_bytes__1__buf;
+  unsigned int yy_scan_bytes__1__n;
   signed int i;
-  yy_scan_bytes$$1$$n = (unsigned int)(len + 2);
-  void *return_value_yy_flex_alloc$1;
-  return_value_yy_flex_alloc$1=yy_flex_alloc(yy_scan_bytes$$1$$n);
-  yy_scan_bytes$$1$$buf = (char *)return_value_yy_flex_alloc$1;
-  if(yy_scan_bytes$$1$$buf == ((char *)NULL))
+  yy_scan_bytes__1__n = (unsigned int)(len + 2);
+  void *return_value_yy_flex_alloc_1;
+  return_value_yy_flex_alloc_1=yy_flex_alloc(yy_scan_bytes__1__n);
+  yy_scan_bytes__1__buf = (char *)return_value_yy_flex_alloc_1;
+  if(yy_scan_bytes__1__buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_scan_bytes()");
 
   i = 0;
   for( ; !(i >= len); i = i + 1)
-    yy_scan_bytes$$1$$buf[(signed long int)i] = bytes[(signed long int)i];
-  yy_scan_bytes$$1$$buf[(signed long int)(len + 1)] = (char)0;
-  yy_scan_bytes$$1$$buf[(signed long int)len] = yy_scan_bytes$$1$$buf[(signed long int)(len + 1)];
-  b=yy_scan_buffer(yy_scan_bytes$$1$$buf, yy_scan_bytes$$1$$n);
+    yy_scan_bytes__1__buf[(signed long int)i] = bytes[(signed long int)i];
+  yy_scan_bytes__1__buf[(signed long int)(len + 1)] = (char)0;
+  yy_scan_bytes__1__buf[(signed long int)len] = yy_scan_bytes__1__buf[(signed long int)(len + 1)];
+  b=yy_scan_buffer(yy_scan_bytes__1__buf, yy_scan_bytes__1__n);
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("bad buffer in yy_scan_bytes()");
 
@@ -16341,9 +16341,9 @@ struct yy_buffer_state * yy_scan_string(const char *yy_str)
   signed int len = 0;
   for( ; !(yy_str[(signed long int)len] == 0); len = len + 1)
     ;
-  struct yy_buffer_state *return_value_yy_scan_bytes$1;
-  return_value_yy_scan_bytes$1=yy_scan_bytes(yy_str, len);
-  return return_value_yy_scan_bytes$1;
+  struct yy_buffer_state *return_value_yy_scan_bytes_1;
+  return_value_yy_scan_bytes_1=yy_scan_bytes(yy_str, len);
+  return return_value_yy_scan_bytes_1;
 }
 
 // yy_switch_to_buffer
@@ -16425,32 +16425,32 @@ signed int yylex(void)
     yy_load_buffer_state();
   }
 
-  signed int return_value_IsTrustedPlayer$1;
-  char *return_value___strdup$2;
-  signed int return_value_IsTrustedPlayer$3;
-  char *return_value___strdup$4;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
-  char *return_value___strdup$11;
-  signed int tmp_statement_expression$12;
-  _Bool tmp_if_expr$16;
-  signed int tmp_statement_expression$14;
-  _Bool tmp_if_expr$19;
-  signed int tmp_statement_expression$17;
-  signed int tmp_statement_expression$20;
-  _Bool tmp_if_expr$24;
-  signed int tmp_statement_expression$22;
-  _Bool tmp_if_expr$27;
-  signed int tmp_statement_expression$25;
-  char *return_value___strdup$28;
-  char *return_value___strdup$29;
-  char *return_value___strdup$30;
-  char *return_value___strdup$31;
-  char *return_value___strdup$32;
-  char *return_value___strdup$33;
+  signed int return_value_IsTrustedPlayer_1;
+  char *return_value___strdup_2;
+  signed int return_value_IsTrustedPlayer_3;
+  char *return_value___strdup_4;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
+  char *return_value___strdup_11;
+  signed int tmp_statement_expression_12;
+  _Bool tmp_if_expr_16;
+  signed int tmp_statement_expression_14;
+  _Bool tmp_if_expr_19;
+  signed int tmp_statement_expression_17;
+  signed int tmp_statement_expression_20;
+  _Bool tmp_if_expr_24;
+  signed int tmp_statement_expression_22;
+  _Bool tmp_if_expr_27;
+  signed int tmp_statement_expression_25;
+  char *return_value___strdup_28;
+  char *return_value___strdup_29;
+  char *return_value___strdup_30;
+  char *return_value___strdup_31;
+  char *return_value___strdup_32;
+  char *return_value___strdup_33;
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$35;
+  signed int return_value_yy_get_next_buffer_35;
   while((_Bool)1)
   {
     yy_cp = yy_c_buf_p;
@@ -16890,16 +16890,16 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_BOOK)
             {
-              return_value_IsTrustedPlayer$1=IsTrustedPlayer(yytext);
-              if(!(return_value_IsTrustedPlayer$1 == 0))
+              return_value_IsTrustedPlayer_1=IsTrustedPlayer(yytext);
+              if(!(return_value_IsTrustedPlayer_1 == 0))
                 addtobook[(signed long int)0] = 1;
 
             }
 
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$2=__strdup(yytext);
-              pgn_white = return_value___strdup$2;
+              return_value___strdup_2=__strdup(yytext);
+              pgn_white = return_value___strdup_2;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -16908,56 +16908,56 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_BOOK)
             {
-              return_value_IsTrustedPlayer$3=IsTrustedPlayer(yytext);
-              if(!(return_value_IsTrustedPlayer$3 == 0))
+              return_value_IsTrustedPlayer_3=IsTrustedPlayer(yytext);
+              if(!(return_value_IsTrustedPlayer_3 == 0))
                 addtobook[(signed long int)1] = 1;
 
             }
 
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$4=__strdup(yytext);
-              pgn_black = return_value___strdup$4;
+              return_value___strdup_4=__strdup(yytext);
+              pgn_black = return_value___strdup_4;
             }
 
             goto __CPROVER_DUMP_L105;
           }
           case RESULT_TAG:
           {
-            unsigned long int yylex$$1$$2$$2$$23$$1$$3$$__s1_len;
-            unsigned long int yylex$$1$$2$$2$$23$$1$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$10;
-            return_value___builtin_strcmp$10=__builtin_strcmp(yytext, "1-0");
-            tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-            if(tmp_statement_expression$9 == 0)
+            unsigned long int yylex__1__2__2__23__1__3____s1_len;
+            unsigned long int yylex__1__2__2__23__1__3____s2_len;
+            signed int return_value___builtin_strcmp_10;
+            return_value___builtin_strcmp_10=__builtin_strcmp(yytext, "1-0");
+            tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+            if(tmp_statement_expression_9 == 0)
               result = 1;
 
             else
             {
-              unsigned long int yylex$$1$$2$$2$$23$$1$$4$$__s1_len;
-              unsigned long int yylex$$1$$2$$2$$23$$1$$4$$__s2_len;
-              signed int return_value___builtin_strcmp$8;
-              return_value___builtin_strcmp$8=__builtin_strcmp(yytext, "0-1");
-              tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-              if(tmp_statement_expression$7 == 0)
+              unsigned long int yylex__1__2__2__23__1__4____s1_len;
+              unsigned long int yylex__1__2__2__23__1__4____s2_len;
+              signed int return_value___builtin_strcmp_8;
+              return_value___builtin_strcmp_8=__builtin_strcmp(yytext, "0-1");
+              tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+              if(tmp_statement_expression_7 == 0)
                 result = 2;
 
               else
               {
-                unsigned long int yylex$$1$$2$$2$$23$$1$$5$$__s1_len;
-                unsigned long int yylex$$1$$2$$2$$23$$1$$5$$__s2_len;
-                signed int return_value___builtin_strcmp$6;
-                return_value___builtin_strcmp$6=__builtin_strcmp(yytext, "1/2-1/2");
-                tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-                if(tmp_statement_expression$5 == 0)
+                unsigned long int yylex__1__2__2__23__1__5____s1_len;
+                unsigned long int yylex__1__2__2__23__1__5____s2_len;
+                signed int return_value___builtin_strcmp_6;
+                return_value___builtin_strcmp_6=__builtin_strcmp(yytext, "1/2-1/2");
+                tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+                if(tmp_statement_expression_5 == 0)
                   result = 3;
 
               }
             }
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$11=__strdup(yytext);
-              pgn_result = return_value___strdup$11;
+              return_value___strdup_11=__strdup(yytext);
+              pgn_result = return_value___strdup_11;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -16968,34 +16968,34 @@ signed int yylex(void)
             {
               unsigned long int __s1_len;
               unsigned long int __s2_len;
-              signed int return_value___builtin_strcmp$13;
-              return_value___builtin_strcmp$13=__builtin_strcmp(yytext, "GM");
-              tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-              if(tmp_statement_expression$12 == 0)
-                tmp_if_expr$16 = (_Bool)1;
+              signed int return_value___builtin_strcmp_13;
+              return_value___builtin_strcmp_13=__builtin_strcmp(yytext, "GM");
+              tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+              if(tmp_statement_expression_12 == 0)
+                tmp_if_expr_16 = (_Bool)1;
 
               else
               {
-                unsigned long int yylex$$1$$2$$2$$23$$1$$8$$__s1_len;
-                unsigned long int yylex$$1$$2$$2$$23$$1$$8$$__s2_len;
-                signed int return_value___builtin_strcmp$15;
-                return_value___builtin_strcmp$15=__builtin_strcmp(yytext, "IM");
-                tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-                tmp_if_expr$16 = tmp_statement_expression$14 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int yylex__1__2__2__23__1__8____s1_len;
+                unsigned long int yylex__1__2__2__23__1__8____s2_len;
+                signed int return_value___builtin_strcmp_15;
+                return_value___builtin_strcmp_15=__builtin_strcmp(yytext, "IM");
+                tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+                tmp_if_expr_16 = tmp_statement_expression_14 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$16)
-                tmp_if_expr$19 = (_Bool)1;
+              if(tmp_if_expr_16)
+                tmp_if_expr_19 = (_Bool)1;
 
               else
               {
-                unsigned long int yylex$$1$$2$$2$$23$$1$$9$$__s1_len;
-                unsigned long int yylex$$1$$2$$2$$23$$1$$9$$__s2_len;
-                signed int return_value___builtin_strcmp$18;
-                return_value___builtin_strcmp$18=__builtin_strcmp(yytext, "FM");
-                tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-                tmp_if_expr$19 = tmp_statement_expression$17 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int yylex__1__2__2__23__1__9____s1_len;
+                unsigned long int yylex__1__2__2__23__1__9____s2_len;
+                signed int return_value___builtin_strcmp_18;
+                return_value___builtin_strcmp_18=__builtin_strcmp(yytext, "FM");
+                tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+                tmp_if_expr_19 = tmp_statement_expression_17 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$19)
+              if(tmp_if_expr_19)
                 addtobook[(signed long int)0] = 1;
 
             }
@@ -17013,36 +17013,36 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_BOOK)
             {
-              unsigned long int yylex$$1$$2$$2$$23$$1$$11$$__s1_len;
-              unsigned long int yylex$$1$$2$$2$$23$$1$$11$$__s2_len;
-              signed int return_value___builtin_strcmp$21;
-              return_value___builtin_strcmp$21=__builtin_strcmp(yytext, "GM");
-              tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-              if(tmp_statement_expression$20 == 0)
-                tmp_if_expr$24 = (_Bool)1;
+              unsigned long int yylex__1__2__2__23__1__11____s1_len;
+              unsigned long int yylex__1__2__2__23__1__11____s2_len;
+              signed int return_value___builtin_strcmp_21;
+              return_value___builtin_strcmp_21=__builtin_strcmp(yytext, "GM");
+              tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+              if(tmp_statement_expression_20 == 0)
+                tmp_if_expr_24 = (_Bool)1;
 
               else
               {
-                unsigned long int yylex$$1$$2$$2$$23$$1$$12$$__s1_len;
-                unsigned long int yylex$$1$$2$$2$$23$$1$$12$$__s2_len;
-                signed int return_value___builtin_strcmp$23;
-                return_value___builtin_strcmp$23=__builtin_strcmp(yytext, "IM");
-                tmp_statement_expression$22 = return_value___builtin_strcmp$23;
-                tmp_if_expr$24 = tmp_statement_expression$22 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int yylex__1__2__2__23__1__12____s1_len;
+                unsigned long int yylex__1__2__2__23__1__12____s2_len;
+                signed int return_value___builtin_strcmp_23;
+                return_value___builtin_strcmp_23=__builtin_strcmp(yytext, "IM");
+                tmp_statement_expression_22 = return_value___builtin_strcmp_23;
+                tmp_if_expr_24 = tmp_statement_expression_22 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$24)
-                tmp_if_expr$27 = (_Bool)1;
+              if(tmp_if_expr_24)
+                tmp_if_expr_27 = (_Bool)1;
 
               else
               {
-                unsigned long int yylex$$1$$2$$2$$23$$1$$13$$__s1_len;
-                unsigned long int yylex$$1$$2$$2$$23$$1$$13$$__s2_len;
-                signed int return_value___builtin_strcmp$26;
-                return_value___builtin_strcmp$26=__builtin_strcmp(yytext, "FM");
-                tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-                tmp_if_expr$27 = tmp_statement_expression$25 == 0 ? (_Bool)1 : (_Bool)0;
+                unsigned long int yylex__1__2__2__23__1__13____s1_len;
+                unsigned long int yylex__1__2__2__23__1__13____s2_len;
+                signed int return_value___builtin_strcmp_26;
+                return_value___builtin_strcmp_26=__builtin_strcmp(yytext, "FM");
+                tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+                tmp_if_expr_27 = tmp_statement_expression_25 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$27)
+              if(tmp_if_expr_27)
                 addtobook[(signed long int)1] = 1;
 
             }
@@ -17079,8 +17079,8 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$28=__strdup(yytext);
-              pgn_event = return_value___strdup$28;
+              return_value___strdup_28=__strdup(yytext);
+              pgn_event = return_value___strdup_28;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -17089,8 +17089,8 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$29=__strdup(yytext);
-              pgn_site = return_value___strdup$29;
+              return_value___strdup_29=__strdup(yytext);
+              pgn_site = return_value___strdup_29;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -17099,8 +17099,8 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$30=__strdup(yytext);
-              pgn_date = return_value___strdup$30;
+              return_value___strdup_30=__strdup(yytext);
+              pgn_date = return_value___strdup_30;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -17109,8 +17109,8 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$31=__strdup(yytext);
-              pgn_round = return_value___strdup$31;
+              return_value___strdup_31=__strdup(yytext);
+              pgn_round = return_value___strdup_31;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -17119,8 +17119,8 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$32=__strdup(yytext);
-              pgn_whiteELO = return_value___strdup$32;
+              return_value___strdup_32=__strdup(yytext);
+              pgn_whiteELO = return_value___strdup_32;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -17129,8 +17129,8 @@ signed int yylex(void)
           {
             if((signed int)data_dest == DEST_GAME)
             {
-              return_value___strdup$33=__strdup(yytext);
-              pgn_blackELO = return_value___strdup$33;
+              return_value___strdup_33=__strdup(yytext);
+              pgn_blackELO = return_value___strdup_33;
             }
 
             goto __CPROVER_DUMP_L105;
@@ -17343,9 +17343,9 @@ signed int yylex(void)
           MakeMove(side, &p->move);
           if(!(addtobook[(signed long int)side] == 0))
           {
-            signed int return_value_BookBuilder$34;
-            return_value_BookBuilder$34=BookBuilder((signed short int)result, (unsigned char)side);
-            if(return_value_BookBuilder$34 == 4)
+            signed int return_value_BookBuilder_34;
+            return_value_BookBuilder_34=BookBuilder((signed short int)result, (unsigned char)side);
+            if(return_value_BookBuilder_34 == 4)
             {
               printf("Book full - Failed to add move %s\n", yytext);
               ShowBoard();
@@ -17483,13 +17483,13 @@ signed int yylex(void)
           }
         }
 
-        return_value_yy_get_next_buffer$35=yy_get_next_buffer();
-        if(!(return_value_yy_get_next_buffer$35 == 1))
+        return_value_yy_get_next_buffer_35=yy_get_next_buffer();
+        if(!(return_value_yy_get_next_buffer_35 == 1))
         {
-          if(return_value_yy_get_next_buffer$35 == 0)
+          if(return_value_yy_get_next_buffer_35 == 0)
             goto __CPROVER_DUMP_L179;
 
-          if(return_value_yy_get_next_buffer$35 == 2)
+          if(return_value_yy_get_next_buffer_35 == 2)
             goto __CPROVER_DUMP_L180;
 
           goto __CPROVER_DUMP_L181;

@@ -1,8 +1,8 @@
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -804,7 +804,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1118,7 +1118,7 @@ extern void writeDataforgaln(struct _IO_FILE *fp, signed int locnjob, char **nam
 // file io.c line 3955
 extern signed int writePre(signed int nseq, char **name, signed int *nlen, char **aseq, signed int force);
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -1902,9 +1902,9 @@ char *** AllocateCharCub(signed int ll1, signed int ll2, signed int ll3)
 {
   signed int i;
   char ***cub;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(char **) /*8ul*/ );
-  cub = (char ***)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(char **) /*8ul*/ );
+  cub = (char ***)return_value_calloc_1;
   if(cub == ((char ***)NULL))
   {
     fprintf(stderr, "Allocation error( %d x %d x %d char cube\n", ll1, ll2, ll3);
@@ -1928,9 +1928,9 @@ char **** AllocateCharHcu(signed int ll1, signed int ll2, signed int ll3, signed
 {
   signed int i;
   char ****hcu;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(char ***) /*8ul*/ );
-  hcu = (char ****)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(char ***) /*8ul*/ );
+  hcu = (char ****)return_value_calloc_1;
   if(hcu == ((char ****)NULL))
     exit(1);
 
@@ -1947,9 +1947,9 @@ char ** AllocateCharMtx(signed int l1, signed int l2)
 {
   signed int i;
   char **cmtx;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(l1 + 1), sizeof(char *) /*8ul*/ );
-  cmtx = (char **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(l1 + 1), sizeof(char *) /*8ul*/ );
+  cmtx = (char **)return_value_calloc_1;
   if(cmtx == ((char **)NULL))
   {
     fprintf(stderr, "Cannot allocate %d x %d character matrix.\n", l1, l2);
@@ -1972,9 +1972,9 @@ char ** AllocateCharMtx(signed int l1, signed int l2)
 char * AllocateCharVec(signed int l1)
 {
   char *cvec;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)l1, sizeof(char) /*1ul*/ );
-  cvec = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)l1, sizeof(char) /*1ul*/ );
+  cvec = (char *)return_value_calloc_1;
   if(cvec == ((char *)NULL))
   {
     fprintf(stderr, "Cannot allocate %d character vector.\n", l1);
@@ -1990,9 +1990,9 @@ double *** AllocateDoubleCub(signed int ll1, signed int ll2, signed int ll3)
 {
   signed int i;
   double ***cub;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(double **) /*8ul*/ );
-  cub = (double ***)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(double **) /*8ul*/ );
+  cub = (double ***)return_value_calloc_1;
   if(cub == ((double ***)NULL))
   {
     fprintf(stderr, "cannot allocate double cube.\n");
@@ -2012,9 +2012,9 @@ double ** AllocateDoubleMtx(signed int ll1, signed int ll2)
 {
   signed int i;
   double **mtx;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(double *) /*8ul*/ );
-  mtx = (double **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(double *) /*8ul*/ );
+  mtx = (double **)return_value_calloc_1;
   if(mtx == ((double **)NULL))
   {
     fprintf(stderr, "cannot allocate DoubleMtx\n");
@@ -2037,9 +2037,9 @@ double ** AllocateDoubleMtx(signed int ll1, signed int ll2)
 double * AllocateDoubleVec(signed int ll1)
 {
   double *vec;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)ll1, sizeof(double) /*8ul*/ );
-  vec = (double *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)ll1, sizeof(double) /*8ul*/ );
+  vec = (double *)return_value_calloc_1;
   return vec;
 }
 
@@ -2049,9 +2049,9 @@ double *** AllocateFloatCub(signed int ll1, signed int ll2, signed int ll3)
 {
   signed int i;
   double ***cub;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(double **) /*8ul*/ );
-  cub = (double ***)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(double **) /*8ul*/ );
+  cub = (double ***)return_value_calloc_1;
   if(cub == ((double ***)NULL))
   {
     fprintf(stderr, "cannot allocate double cube.\n");
@@ -2071,9 +2071,9 @@ double ** AllocateFloatHalfMtx(signed int ll1)
 {
   double **mtx;
   signed int i;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)((unsigned int)ll1 + (unsigned int)1), sizeof(double *) /*8ul*/ );
-  mtx = (double **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)((unsigned int)ll1 + (unsigned int)1), sizeof(double *) /*8ul*/ );
+  mtx = (double **)return_value_calloc_1;
   if(mtx == ((double **)NULL))
   {
     fprintf(stderr, "Allocation error ( %d fload halfmtx )\n", ll1);
@@ -2083,9 +2083,9 @@ double ** AllocateFloatHalfMtx(signed int ll1)
   i = 0;
   for( ; !(i >= ll1); i = i + 1)
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)(ll1 - i), sizeof(double) /*8ul*/ );
-    mtx[(signed long int)i] = (double *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)(ll1 - i), sizeof(double) /*8ul*/ );
+    mtx[(signed long int)i] = (double *)return_value_calloc_2;
     if(mtx[(signed long int)i] == ((double *)NULL))
     {
       fprintf(stderr, "Allocation error( %d doublehalfmtx )\n", ll1);
@@ -2103,9 +2103,9 @@ double ** AllocateFloatMtx(signed int ll1, signed int ll2)
 {
   double **mtx;
   signed int i;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)((unsigned int)ll1 + (unsigned int)1), sizeof(double *) /*8ul*/ );
-  mtx = (double **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)((unsigned int)ll1 + (unsigned int)1), sizeof(double *) /*8ul*/ );
+  mtx = (double **)return_value_calloc_1;
   if(mtx == ((double **)NULL))
   {
     fprintf(stderr, "Allocation error ( %d x %d fload mtx )\n", ll1, ll2);
@@ -2117,9 +2117,9 @@ double ** AllocateFloatMtx(signed int ll1, signed int ll2)
     i = 0;
     for( ; !(i >= ll1); i = i + 1)
     {
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)ll2, sizeof(double) /*8ul*/ );
-      mtx[(signed long int)i] = (double *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)ll2, sizeof(double) /*8ul*/ );
+      mtx[(signed long int)i] = (double *)return_value_calloc_2;
       if(mtx[(signed long int)i] == ((double *)NULL))
       {
         fprintf(stderr, "Allocation error( %d x %d doublemtx )\n", ll1, ll2);
@@ -2139,9 +2139,9 @@ double ** AllocateFloatTri(signed int ll1)
 {
   double **tri;
   signed int i;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)((unsigned int)ll1 + (unsigned int)1), sizeof(double *) /*8ul*/ );
-  tri = (double **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)((unsigned int)ll1 + (unsigned int)1), sizeof(double *) /*8ul*/ );
+  tri = (double **)return_value_calloc_1;
   if(tri == ((double **)NULL))
   {
     fprintf(stderr, "Allocation error ( double tri )\n");
@@ -2160,9 +2160,9 @@ double ** AllocateFloatTri(signed int ll1)
 double * AllocateFloatVec(signed int l1)
 {
   double *vec;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(unsigned int)l1, sizeof(double) /*8ul*/ );
-  vec = (double *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(unsigned int)l1, sizeof(double) /*8ul*/ );
+  vec = (double *)return_value_calloc_1;
   if(vec == ((double *)NULL))
   {
     fprintf(stderr, "Allocation error ( %d fload vec )\n", l1);
@@ -2178,9 +2178,9 @@ signed int *** AllocateIntCub(signed int ll1, signed int ll2, signed int ll3)
 {
   signed int i;
   signed int ***cub;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(signed int **) /*8ul*/ );
-  cub = (signed int ***)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(signed int **) /*8ul*/ );
+  cub = (signed int ***)return_value_calloc_1;
   if(cub == ((signed int ***)NULL))
   {
     fprintf(stderr, "cannot allocate IntCub\n");
@@ -2200,9 +2200,9 @@ signed int ** AllocateIntMtx(signed int ll1, signed int ll2)
 {
   signed int i;
   signed int **mtx;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(signed int *) /*8ul*/ );
-  mtx = (signed int **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(signed int *) /*8ul*/ );
+  mtx = (signed int **)return_value_calloc_1;
   if(mtx == ((signed int **)NULL))
   {
     fprintf(stderr, "Allocation error( %d x %d int mtx )\n", ll1, ll2);
@@ -2231,9 +2231,9 @@ signed int ** AllocateIntMtx(signed int ll1, signed int ll2)
 signed int * AllocateIntVec(signed int ll1)
 {
   signed int *vec;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)ll1, sizeof(signed int) /*4ul*/ );
-  vec = (signed int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)ll1, sizeof(signed int) /*4ul*/ );
+  vec = (signed int *)return_value_calloc_1;
   if(vec == ((signed int *)NULL))
   {
     fprintf(stderr, "Allocation error( %d int vec )\n", ll1);
@@ -2249,9 +2249,9 @@ signed short int ** AllocateShortMtx(signed int ll1, signed int ll2)
 {
   signed int i;
   signed short int **mtx;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ll1 + 1), sizeof(signed short int *) /*8ul*/ );
-  mtx = (signed short int **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ll1 + 1), sizeof(signed short int *) /*8ul*/ );
+  mtx = (signed short int **)return_value_calloc_1;
   if(mtx == ((signed short int **)NULL))
   {
     fprintf(stderr, "Allocation error( %d x %d short mtx ) \n", ll1, ll2);
@@ -2270,9 +2270,9 @@ signed short int ** AllocateShortMtx(signed int ll1, signed int ll2)
 signed short int * AllocateShortVec(signed int ll1)
 {
   signed short int *vec;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)ll1, sizeof(signed short int) /*2ul*/ );
-  vec = (signed short int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)ll1, sizeof(signed short int) /*2ul*/ );
+  vec = (signed short int *)return_value_calloc_1;
   if(vec == ((signed short int *)NULL))
   {
     fprintf(stderr, "Allocation error( %d short vec )\n", ll1);
@@ -2352,25 +2352,25 @@ extern void BLOSUMmtx(signed int n, double **matrix, double *freq, char *amino, 
                   }
   count = 0;
   i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(i >= 20); i = i + 1)
   {
     j = 0;
     for( ; i >= j; j = j + 1)
     {
-      tmp_post$1 = count;
+      tmp_post_1 = count;
       count = count + 1;
-      matrix[(signed long int)j][(signed long int)i] = (double)tmpmtx[(signed long int)tmp_post$1];
+      matrix[(signed long int)j][(signed long int)i] = (double)tmpmtx[(signed long int)tmp_post_1];
       matrix[(signed long int)i][(signed long int)j] = matrix[(signed long int)j][(signed long int)i];
     }
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(n == -1)
-    tmp_if_expr$2 = IEEE_FLOAT_NOTEQUAL(tmpmtx[(signed long int)400], -1.0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = IEEE_FLOAT_NOTEQUAL(tmpmtx[(signed long int)400], -1.0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     i = 0;
     for( ; !(i >= 20); i = i + 1)
@@ -2407,9 +2407,9 @@ extern double DSPscore(signed int s, char **seq)
   signed int k;
   double c;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score;
   double tmpscore;
   char *mseq1;
@@ -2499,21 +2499,21 @@ extern void FRead(struct _IO_FILE *fp, char (*name)[256l], signed int *nlen, cha
   signed int j;
   char b[256l];
   fgets(b, 256 - 1, fp);
-  char *return_value_strstr$7;
-  return_value_strstr$7=strstr(b, "onnet");
-  char *return_value_strstr$6;
-  char *return_value_strstr$5;
-  char *return_value_strstr$4;
-  char *return_value_strstr$1;
-  _Bool tmp_if_expr$3;
-  char *return_value_strstr$2;
-  if(!(return_value_strstr$7 == ((char *)NULL)))
+  char *return_value_strstr_7;
+  return_value_strstr_7=strstr(b, "onnet");
+  char *return_value_strstr_6;
+  char *return_value_strstr_5;
+  char *return_value_strstr_4;
+  char *return_value_strstr_1;
+  _Bool tmp_if_expr_3;
+  char *return_value_strstr_2;
+  if(!(return_value_strstr_7 == ((char *)NULL)))
     scoremtx = 1;
 
   else
   {
-    return_value_strstr$6=strstr(b, "DnA");
-    if(!(return_value_strstr$6 == ((char *)NULL)))
+    return_value_strstr_6=strstr(b, "DnA");
+    if(!(return_value_strstr_6 == ((char *)NULL)))
     {
       scoremtx = -1;
       upperCase = -1;
@@ -2521,8 +2521,8 @@ extern void FRead(struct _IO_FILE *fp, char (*name)[256l], signed int *nlen, cha
 
     else
     {
-      return_value_strstr$5=strstr(b, "dna");
-      if(!(return_value_strstr$5 == ((char *)NULL)))
+      return_value_strstr_5=strstr(b, "dna");
+      if(!(return_value_strstr_5 == ((char *)NULL)))
       {
         scoremtx = -1;
         upperCase = 0;
@@ -2530,8 +2530,8 @@ extern void FRead(struct _IO_FILE *fp, char (*name)[256l], signed int *nlen, cha
 
       else
       {
-        return_value_strstr$4=strstr(b, "DNA");
-        if(!(return_value_strstr$4 == ((char *)NULL)))
+        return_value_strstr_4=strstr(b, "DNA");
+        if(!(return_value_strstr_4 == ((char *)NULL)))
         {
           scoremtx = -1;
           upperCase = 1;
@@ -2539,16 +2539,16 @@ extern void FRead(struct _IO_FILE *fp, char (*name)[256l], signed int *nlen, cha
 
         else
         {
-          return_value_strstr$1=strstr(b, "M-Y");
-          if(!(return_value_strstr$1 == ((char *)NULL)))
-            tmp_if_expr$3 = (_Bool)1;
+          return_value_strstr_1=strstr(b, "M-Y");
+          if(!(return_value_strstr_1 == ((char *)NULL)))
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
-            return_value_strstr$2=strstr(b, "iyata");
-            tmp_if_expr$3 = return_value_strstr$2 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_strstr_2=strstr(b, "iyata");
+            tmp_if_expr_3 = return_value_strstr_2 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
             scoremtx = 2;
 
           else
@@ -3356,9 +3356,9 @@ void MtxmltDouble(double **mtx1, double **mtx2, signed int n)
   signed int k;
   double s;
   double *tmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)n, sizeof(double) /*8ul*/ );
-  tmp = (double *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)n, sizeof(double) /*8ul*/ );
+  tmp = (double *)return_value_calloc_1;
   i = 0;
   for( ; !(i >= n); i = i + 1)
   {
@@ -3410,9 +3410,9 @@ extern void PreRead(struct _IO_FILE *fp, signed int *locnjob, signed int *locnle
   while(!(i >= *locnjob))
   {
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(b, "=", (unsigned long int)1);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(b, "=", (unsigned long int)1);
+    if(return_value_strncmp_1 == 0)
     {
       i = i + 1;
       fgets(b, 256 - 1, fp);
@@ -3464,60 +3464,60 @@ extern signed int ReadBlastm7(struct _IO_FILE *fp, double *dis, signed int qmem,
   sumscore = 0.0;
   score = 0.0;
   nlocalhom = 0;
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strncmp$4;
-  char *return_value_fgets$7;
-  signed int return_value_strncmp$8;
-  char *return_value_fgets$9;
-  signed int return_value_strncmp$10;
-  char *return_value_fgets$12;
-  signed int return_value_strncmp$13;
-  char *return_value_fgets$15;
-  signed int return_value_strncmp$16;
-  char *return_value_fgets$18;
-  signed int return_value_strncmp$19;
-  char *return_value_fgets$21;
-  signed int return_value_strncmp$22;
-  char *return_value_fgets$23;
-  signed int return_value_strncmp$24;
-  char *return_value_fgets$25;
-  signed int return_value_strncmp$26;
-  char *return_value_fgets$28;
-  signed int return_value_strncmp$29;
-  signed int tmp_post$30;
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strncmp_4;
+  char *return_value_fgets_7;
+  signed int return_value_strncmp_8;
+  char *return_value_fgets_9;
+  signed int return_value_strncmp_10;
+  char *return_value_fgets_12;
+  signed int return_value_strncmp_13;
+  char *return_value_fgets_15;
+  signed int return_value_strncmp_16;
+  char *return_value_fgets_18;
+  signed int return_value_strncmp_19;
+  char *return_value_fgets_21;
+  signed int return_value_strncmp_22;
+  char *return_value_fgets_23;
+  signed int return_value_strncmp_24;
+  char *return_value_fgets_25;
+  signed int return_value_strncmp_26;
+  char *return_value_fgets_28;
+  signed int return_value_strncmp_29;
+  signed int tmp_post_30;
   while((_Bool)1)
   {
-    signed int return_value_feof$1;
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    signed int return_value_feof_1;
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     do
     {
-      return_value_fgets$2=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$2 == ((char *)NULL))
+      return_value_fgets_2=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp("          <Hit_def>", b, (unsigned long int)19);
-      if(return_value_strncmp$3 == 0)
-        tmp_if_expr$5 = (_Bool)1;
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp("          <Hit_def>", b, (unsigned long int)19);
+      if(return_value_strncmp_3 == 0)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strncmp$4=strncmp("              <Hsp_num>", b, (unsigned long int)23);
-        tmp_if_expr$5 = !(return_value_strncmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strncmp_4=strncmp("              <Hsp_num>", b, (unsigned long int)23);
+        tmp_if_expr_5 = !(return_value_strncmp_4 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         break;
 
     }
     while((_Bool)1);
-    signed int return_value_strncmp$6;
-    return_value_strncmp$6=strncmp("          <Hit_def>", b, (unsigned long int)19);
+    signed int return_value_strncmp_6;
+    return_value_strncmp_6=strncmp("          <Hit_def>", b, (unsigned long int)19);
     static signed int junban[500000l];
-    if(return_value_strncmp$6 == 0)
+    if(return_value_strncmp_6 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)31);
       nlocalhom = 0;
@@ -3525,12 +3525,12 @@ extern signed int ReadBlastm7(struct _IO_FILE *fp, double *dis, signed int qmem,
 
     do
     {
-      return_value_fgets$7=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$7 == ((char *)NULL))
+      return_value_fgets_7=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_7 == ((char *)NULL))
         break;
 
-      return_value_strncmp$8=strncmp("              <Hsp_score>", b, (unsigned long int)25);
-      if(return_value_strncmp$8 == 0)
+      return_value_strncmp_8=strncmp("              <Hsp_score>", b, (unsigned long int)25);
+      if(return_value_strncmp_8 == 0)
         break;
 
     }
@@ -3540,76 +3540,76 @@ extern signed int ReadBlastm7(struct _IO_FILE *fp, double *dis, signed int qmem,
     sumscore = sumscore + score;
     do
     {
-      return_value_fgets$9=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$9 == ((char *)NULL))
+      return_value_fgets_9=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_9 == ((char *)NULL))
         break;
 
-      return_value_strncmp$10=strncmp("              <Hsp_query-from>", b, (unsigned long int)30);
-      if(return_value_strncmp$10 == 0)
+      return_value_strncmp_10=strncmp("              <Hsp_query-from>", b, (unsigned long int)30);
+      if(return_value_strncmp_10 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)30;
-    signed int return_value_atoi$11;
-    return_value_atoi$11=atoi(pt);
-    qstart = return_value_atoi$11 - 1;
+    signed int return_value_atoi_11;
+    return_value_atoi_11=atoi(pt);
+    qstart = return_value_atoi_11 - 1;
     do
     {
-      return_value_fgets$12=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$12 == ((char *)NULL))
+      return_value_fgets_12=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_12 == ((char *)NULL))
         break;
 
-      return_value_strncmp$13=strncmp("              <Hsp_query-to>", b, (unsigned long int)28);
-      if(return_value_strncmp$13 == 0)
+      return_value_strncmp_13=strncmp("              <Hsp_query-to>", b, (unsigned long int)28);
+      if(return_value_strncmp_13 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)28;
-    signed int return_value_atoi$14;
-    return_value_atoi$14=atoi(pt);
-    qend = return_value_atoi$14 - 1;
+    signed int return_value_atoi_14;
+    return_value_atoi_14=atoi(pt);
+    qend = return_value_atoi_14 - 1;
     do
     {
-      return_value_fgets$15=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$15 == ((char *)NULL))
+      return_value_fgets_15=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_15 == ((char *)NULL))
         break;
 
-      return_value_strncmp$16=strncmp("              <Hsp_hit-from>", b, (unsigned long int)28);
-      if(return_value_strncmp$16 == 0)
+      return_value_strncmp_16=strncmp("              <Hsp_hit-from>", b, (unsigned long int)28);
+      if(return_value_strncmp_16 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)28;
-    signed int return_value_atoi$17;
-    return_value_atoi$17=atoi(pt);
-    tstart = return_value_atoi$17 - 1;
+    signed int return_value_atoi_17;
+    return_value_atoi_17=atoi(pt);
+    tstart = return_value_atoi_17 - 1;
     do
     {
-      return_value_fgets$18=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$18 == ((char *)NULL))
+      return_value_fgets_18=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_18 == ((char *)NULL))
         break;
 
-      return_value_strncmp$19=strncmp("              <Hsp_hit-to>", b, (unsigned long int)26);
-      if(return_value_strncmp$19 == 0)
+      return_value_strncmp_19=strncmp("              <Hsp_hit-to>", b, (unsigned long int)26);
+      if(return_value_strncmp_19 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)26;
-    signed int return_value_atoi$20;
-    return_value_atoi$20=atoi(pt);
-    tend = return_value_atoi$20 - 1;
+    signed int return_value_atoi_20;
+    return_value_atoi_20=atoi(pt);
+    tend = return_value_atoi_20 - 1;
     do
     {
-      return_value_fgets$21=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$21 == ((char *)NULL))
+      return_value_fgets_21=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_21 == ((char *)NULL))
         break;
 
-      return_value_strncmp$22=strncmp("              <Hsp_align-len>", b, (unsigned long int)29);
-      if(return_value_strncmp$22 == 0)
+      return_value_strncmp_22=strncmp("              <Hsp_align-len>", b, (unsigned long int)29);
+      if(return_value_strncmp_22 == 0)
         break;
 
     }
@@ -3619,12 +3619,12 @@ extern signed int ReadBlastm7(struct _IO_FILE *fp, double *dis, signed int qmem,
     static char al[5000000l];
     do
     {
-      return_value_fgets$23=fgets(al, 5000000 - 100, fp);
-      if(return_value_fgets$23 == ((char *)NULL))
+      return_value_fgets_23=fgets(al, 5000000 - 100, fp);
+      if(return_value_fgets_23 == ((char *)NULL))
         break;
 
-      return_value_strncmp$24=strncmp("              <Hsp_qseq>", al, (unsigned long int)24);
-      if(return_value_strncmp$24 == 0)
+      return_value_strncmp_24=strncmp("              <Hsp_qseq>", al, (unsigned long int)24);
+      if(return_value_strncmp_24 == 0)
         break;
 
     }
@@ -3643,12 +3643,12 @@ extern signed int ReadBlastm7(struct _IO_FILE *fp, double *dis, signed int qmem,
     *pt = (char)0;
     do
     {
-      return_value_fgets$25=fgets(al, 5000000 - 100, fp);
-      if(return_value_fgets$25 == ((char *)NULL))
+      return_value_fgets_25=fgets(al, 5000000 - 100, fp);
+      if(return_value_fgets_25 == ((char *)NULL))
         break;
 
-      return_value_strncmp$26=strncmp("              <Hsp_hseq>", al, (unsigned long int)24);
-      if(return_value_strncmp$26 == 0)
+      return_value_strncmp_26=strncmp("              <Hsp_hseq>", al, (unsigned long int)24);
+      if(return_value_strncmp_26 == 0)
         break;
 
     }
@@ -3665,35 +3665,35 @@ extern signed int ReadBlastm7(struct _IO_FILE *fp, double *dis, signed int qmem,
     }
     while((_Bool)1);
     *pt = (char)0;
-    signed int return_value_addlocalhom_r$27;
-    return_value_addlocalhom_r$27=addlocalhom_r(qal, tal, localhomlist + (signed long int)junban[(signed long int)count], qstart, tstart, (signed int)score, overlapaa, nlocalhom);
-    nlocalhom = nlocalhom + return_value_addlocalhom_r$27;
+    signed int return_value_addlocalhom_r_27;
+    return_value_addlocalhom_r_27=addlocalhom_r(qal, tal, localhomlist + (signed long int)junban[(signed long int)count], qstart, tstart, (signed int)score, overlapaa, nlocalhom);
+    nlocalhom = nlocalhom + return_value_addlocalhom_r_27;
     do
     {
-      return_value_fgets$28=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$28 == ((char *)NULL))
+      return_value_fgets_28=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_28 == ((char *)NULL))
         break;
 
-      return_value_strncmp$29=strncmp("            </Hsp>:", b, (unsigned long int)18);
-      if(return_value_strncmp$29 == 0)
+      return_value_strncmp_29=strncmp("            </Hsp>:", b, (unsigned long int)18);
+      if(return_value_strncmp_29 == 0)
         break;
 
     }
     while((_Bool)1);
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$32;
-    return_value_strncmp$32=strncmp("          </Hit_hsps>", b, (unsigned long int)21);
-    if(return_value_strncmp$32 == 0)
+    signed int return_value_strncmp_32;
+    return_value_strncmp_32=strncmp("          </Hit_hsps>", b, (unsigned long int)21);
+    if(return_value_strncmp_32 == 0)
     {
-      tmp_post$30 = count;
+      tmp_post_30 = count;
       count = count + 1;
-      dis[(signed long int)junban[(signed long int)tmp_post$30]] = sumscore;
+      dis[(signed long int)junban[(signed long int)tmp_post_30]] = sumscore;
       sumscore = 0.0;
       fgets(b, 256 - 1, fp);
       fgets(b, 256 - 1, fp);
-      signed int return_value_strncmp$31;
-      return_value_strncmp$31=strncmp("      </Iteration_hits>", b, (unsigned long int)23);
-      if(return_value_strncmp$31 == 0)
+      signed int return_value_strncmp_31;
+      return_value_strncmp_31=strncmp("      </Iteration_hits>", b, (unsigned long int)23);
+      if(return_value_strncmp_31 == 0)
         break;
 
     }
@@ -3720,68 +3720,68 @@ extern signed int ReadBlastm7_avscore(struct _IO_FILE *fp, double *dis, signed i
   signed int tend;
   double scorepersite;
   signed int nlocalhom;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)nin, sizeof(signed int) /*4ul*/ );
-  junban = (signed int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)nin, sizeof(signed int) /*4ul*/ );
+  junban = (signed int *)return_value_calloc_1;
   count = 0;
   sumscore = 0.0;
   sumlen = 0.0;
   score = 0.0;
   len = 0.0;
   scorepersite = 0.0;
-  char *return_value_fgets$3;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  char *return_value_fgets$8;
-  signed int return_value_strncmp$9;
-  char *return_value_fgets$10;
-  signed int return_value_strncmp$11;
-  char *return_value_fgets$13;
-  signed int return_value_strncmp$14;
-  char *return_value_fgets$16;
-  signed int return_value_strncmp$17;
-  char *return_value_fgets$19;
-  signed int return_value_strncmp$20;
-  char *return_value_fgets$22;
-  signed int return_value_strncmp$23;
-  char *return_value_fgets$25;
-  signed int return_value_strncmp$26;
-  char *return_value_fgets$27;
-  signed int return_value_strncmp$28;
-  char *return_value_fgets$29;
-  signed int return_value_strncmp$30;
-  signed int tmp_post$31;
+  char *return_value_fgets_3;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  char *return_value_fgets_8;
+  signed int return_value_strncmp_9;
+  char *return_value_fgets_10;
+  signed int return_value_strncmp_11;
+  char *return_value_fgets_13;
+  signed int return_value_strncmp_14;
+  char *return_value_fgets_16;
+  signed int return_value_strncmp_17;
+  char *return_value_fgets_19;
+  signed int return_value_strncmp_20;
+  char *return_value_fgets_22;
+  signed int return_value_strncmp_23;
+  char *return_value_fgets_25;
+  signed int return_value_strncmp_26;
+  char *return_value_fgets_27;
+  signed int return_value_strncmp_28;
+  char *return_value_fgets_29;
+  signed int return_value_strncmp_30;
+  signed int tmp_post_31;
   while((_Bool)1)
   {
-    signed int return_value_feof$2;
-    return_value_feof$2=feof(fp);
-    if(!(return_value_feof$2 == 0))
+    signed int return_value_feof_2;
+    return_value_feof_2=feof(fp);
+    if(!(return_value_feof_2 == 0))
       break;
 
     do
     {
-      return_value_fgets$3=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp("          <Hit_def>", b, (unsigned long int)19);
-      if(return_value_strncmp$4 == 0)
-        tmp_if_expr$6 = (_Bool)1;
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp("          <Hit_def>", b, (unsigned long int)19);
+      if(return_value_strncmp_4 == 0)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_strncmp$5=strncmp("              <Hsp_num>", b, (unsigned long int)23);
-        tmp_if_expr$6 = !(return_value_strncmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strncmp_5=strncmp("              <Hsp_num>", b, (unsigned long int)23);
+        tmp_if_expr_6 = !(return_value_strncmp_5 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         break;
 
     }
     while((_Bool)1);
-    signed int return_value_strncmp$7;
-    return_value_strncmp$7=strncmp("          <Hit_def>", b, (unsigned long int)19);
-    if(return_value_strncmp$7 == 0)
+    signed int return_value_strncmp_7;
+    return_value_strncmp_7=strncmp("          <Hit_def>", b, (unsigned long int)19);
+    if(return_value_strncmp_7 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)31);
       nlocalhom = 0;
@@ -3789,12 +3789,12 @@ extern signed int ReadBlastm7_avscore(struct _IO_FILE *fp, double *dis, signed i
 
     do
     {
-      return_value_fgets$8=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$8 == ((char *)NULL))
+      return_value_fgets_8=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_8 == ((char *)NULL))
         break;
 
-      return_value_strncmp$9=strncmp("              <Hsp_score>", b, (unsigned long int)25);
-      if(return_value_strncmp$9 == 0)
+      return_value_strncmp_9=strncmp("              <Hsp_score>", b, (unsigned long int)25);
+      if(return_value_strncmp_9 == 0)
         break;
 
     }
@@ -3804,94 +3804,94 @@ extern signed int ReadBlastm7_avscore(struct _IO_FILE *fp, double *dis, signed i
     sumscore = sumscore + score;
     do
     {
-      return_value_fgets$10=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$10 == ((char *)NULL))
+      return_value_fgets_10=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_10 == ((char *)NULL))
         break;
 
-      return_value_strncmp$11=strncmp("              <Hsp_query-from>", b, (unsigned long int)30);
-      if(return_value_strncmp$11 == 0)
+      return_value_strncmp_11=strncmp("              <Hsp_query-from>", b, (unsigned long int)30);
+      if(return_value_strncmp_11 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)30;
-    signed int return_value_atoi$12;
-    return_value_atoi$12=atoi(pt);
-    qstart = return_value_atoi$12 - 1;
+    signed int return_value_atoi_12;
+    return_value_atoi_12=atoi(pt);
+    qstart = return_value_atoi_12 - 1;
     do
     {
-      return_value_fgets$13=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$13 == ((char *)NULL))
+      return_value_fgets_13=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_13 == ((char *)NULL))
         break;
 
-      return_value_strncmp$14=strncmp("              <Hsp_query-to>", b, (unsigned long int)28);
-      if(return_value_strncmp$14 == 0)
+      return_value_strncmp_14=strncmp("              <Hsp_query-to>", b, (unsigned long int)28);
+      if(return_value_strncmp_14 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)28;
-    signed int return_value_atoi$15;
-    return_value_atoi$15=atoi(pt);
-    qend = return_value_atoi$15 - 1;
+    signed int return_value_atoi_15;
+    return_value_atoi_15=atoi(pt);
+    qend = return_value_atoi_15 - 1;
     do
     {
-      return_value_fgets$16=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$16 == ((char *)NULL))
+      return_value_fgets_16=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_16 == ((char *)NULL))
         break;
 
-      return_value_strncmp$17=strncmp("              <Hsp_hit-from>", b, (unsigned long int)28);
-      if(return_value_strncmp$17 == 0)
+      return_value_strncmp_17=strncmp("              <Hsp_hit-from>", b, (unsigned long int)28);
+      if(return_value_strncmp_17 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)28;
-    signed int return_value_atoi$18;
-    return_value_atoi$18=atoi(pt);
-    tstart = return_value_atoi$18 - 1;
+    signed int return_value_atoi_18;
+    return_value_atoi_18=atoi(pt);
+    tstart = return_value_atoi_18 - 1;
     do
     {
-      return_value_fgets$19=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$19 == ((char *)NULL))
+      return_value_fgets_19=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_19 == ((char *)NULL))
         break;
 
-      return_value_strncmp$20=strncmp("              <Hsp_hit-to>", b, (unsigned long int)26);
-      if(return_value_strncmp$20 == 0)
+      return_value_strncmp_20=strncmp("              <Hsp_hit-to>", b, (unsigned long int)26);
+      if(return_value_strncmp_20 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)26;
-    signed int return_value_atoi$21;
-    return_value_atoi$21=atoi(pt);
-    tend = return_value_atoi$21 - 1;
+    signed int return_value_atoi_21;
+    return_value_atoi_21=atoi(pt);
+    tend = return_value_atoi_21 - 1;
     do
     {
-      return_value_fgets$22=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$22 == ((char *)NULL))
+      return_value_fgets_22=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_22 == ((char *)NULL))
         break;
 
-      return_value_strncmp$23=strncmp("              <Hsp_align-len>", b, (unsigned long int)29);
-      if(return_value_strncmp$23 == 0)
+      return_value_strncmp_23=strncmp("              <Hsp_align-len>", b, (unsigned long int)29);
+      if(return_value_strncmp_23 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)29;
-    signed int return_value_atoi$24;
-    return_value_atoi$24=atoi(pt);
-    len = (double)return_value_atoi$24;
+    signed int return_value_atoi_24;
+    return_value_atoi_24=atoi(pt);
+    len = (double)return_value_atoi_24;
     sumlen = sumlen + len;
     static char al[5000000l];
     do
     {
-      return_value_fgets$25=fgets(al, 5000000 - 100, fp);
-      if(return_value_fgets$25 == ((char *)NULL))
+      return_value_fgets_25=fgets(al, 5000000 - 100, fp);
+      if(return_value_fgets_25 == ((char *)NULL))
         break;
 
-      return_value_strncmp$26=strncmp("              <Hsp_qseq>", al, (unsigned long int)24);
-      if(return_value_strncmp$26 == 0)
+      return_value_strncmp_26=strncmp("              <Hsp_qseq>", al, (unsigned long int)24);
+      if(return_value_strncmp_26 == 0)
         break;
 
     }
@@ -3910,12 +3910,12 @@ extern signed int ReadBlastm7_avscore(struct _IO_FILE *fp, double *dis, signed i
     *pt = (char)0;
     do
     {
-      return_value_fgets$27=fgets(al, 5000000 - 100, fp);
-      if(return_value_fgets$27 == ((char *)NULL))
+      return_value_fgets_27=fgets(al, 5000000 - 100, fp);
+      if(return_value_fgets_27 == ((char *)NULL))
         break;
 
-      return_value_strncmp$28=strncmp("              <Hsp_hseq>", al, (unsigned long int)24);
-      if(return_value_strncmp$28 == 0)
+      return_value_strncmp_28=strncmp("              <Hsp_hseq>", al, (unsigned long int)24);
+      if(return_value_strncmp_28 == 0)
         break;
 
     }
@@ -3934,24 +3934,24 @@ extern signed int ReadBlastm7_avscore(struct _IO_FILE *fp, double *dis, signed i
     *pt = (char)0;
     do
     {
-      return_value_fgets$29=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$29 == ((char *)NULL))
+      return_value_fgets_29=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_29 == ((char *)NULL))
         break;
 
-      return_value_strncmp$30=strncmp("            </Hsp>:", b, (unsigned long int)18);
-      if(return_value_strncmp$30 == 0)
+      return_value_strncmp_30=strncmp("            </Hsp>:", b, (unsigned long int)18);
+      if(return_value_strncmp_30 == 0)
         break;
 
     }
     while((_Bool)1);
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$33;
-    return_value_strncmp$33=strncmp("          </Hit_hsps>", b, (unsigned long int)21);
-    if(return_value_strncmp$33 == 0)
+    signed int return_value_strncmp_33;
+    return_value_strncmp_33=strncmp("          </Hit_hsps>", b, (unsigned long int)21);
+    if(return_value_strncmp_33 == 0)
     {
-      tmp_post$31 = count;
+      tmp_post_31 = count;
       count = count + 1;
-      dis[(signed long int)junban[(signed long int)tmp_post$31]] = sumscore;
+      dis[(signed long int)junban[(signed long int)tmp_post_31]] = sumscore;
       sumscore = 0.0;
       fgets(b, 256 - 1, fp);
       fgets(b, 256 - 1, fp);
@@ -3962,9 +3962,9 @@ extern signed int ReadBlastm7_avscore(struct _IO_FILE *fp, double *dis, signed i
         exit(1);
       }
 
-      signed int return_value_strncmp$32;
-      return_value_strncmp$32=strncmp("      </Iteration_hits>", b, (unsigned long int)23);
-      if(return_value_strncmp$32 == 0)
+      signed int return_value_strncmp_32;
+      return_value_strncmp_32=strncmp("      </Iteration_hits>", b, (unsigned long int)23);
+      if(return_value_strncmp_32 == 0)
         break;
 
     }
@@ -3990,65 +3990,65 @@ extern signed int ReadBlastm7_scoreonly(struct _IO_FILE *fp, double *dis, signed
   signed int tstart;
   signed int tend;
   signed int nlocalhom;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)nin, sizeof(signed int) /*4ul*/ );
-  junban = (signed int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)nin, sizeof(signed int) /*4ul*/ );
+  junban = (signed int *)return_value_calloc_1;
   count = 0;
   sumscore = 0.0;
   score = 0.0;
-  char *return_value_fgets$3;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  char *return_value_fgets$8;
-  signed int return_value_strncmp$9;
-  char *return_value_fgets$10;
-  signed int return_value_strncmp$11;
-  char *return_value_fgets$13;
-  signed int return_value_strncmp$14;
-  char *return_value_fgets$16;
-  signed int return_value_strncmp$17;
-  char *return_value_fgets$19;
-  signed int return_value_strncmp$20;
-  char *return_value_fgets$22;
-  signed int return_value_strncmp$23;
-  char *return_value_fgets$24;
-  signed int return_value_strncmp$25;
-  char *return_value_fgets$26;
-  signed int return_value_strncmp$27;
-  char *return_value_fgets$28;
-  signed int return_value_strncmp$29;
-  signed int tmp_post$30;
+  char *return_value_fgets_3;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  char *return_value_fgets_8;
+  signed int return_value_strncmp_9;
+  char *return_value_fgets_10;
+  signed int return_value_strncmp_11;
+  char *return_value_fgets_13;
+  signed int return_value_strncmp_14;
+  char *return_value_fgets_16;
+  signed int return_value_strncmp_17;
+  char *return_value_fgets_19;
+  signed int return_value_strncmp_20;
+  char *return_value_fgets_22;
+  signed int return_value_strncmp_23;
+  char *return_value_fgets_24;
+  signed int return_value_strncmp_25;
+  char *return_value_fgets_26;
+  signed int return_value_strncmp_27;
+  char *return_value_fgets_28;
+  signed int return_value_strncmp_29;
+  signed int tmp_post_30;
   while((_Bool)1)
   {
-    signed int return_value_feof$2;
-    return_value_feof$2=feof(fp);
-    if(!(return_value_feof$2 == 0))
+    signed int return_value_feof_2;
+    return_value_feof_2=feof(fp);
+    if(!(return_value_feof_2 == 0))
       break;
 
     do
     {
-      return_value_fgets$3=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp("          <Hit_def>", b, (unsigned long int)19);
-      if(return_value_strncmp$4 == 0)
-        tmp_if_expr$6 = (_Bool)1;
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp("          <Hit_def>", b, (unsigned long int)19);
+      if(return_value_strncmp_4 == 0)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_strncmp$5=strncmp("              <Hsp_num>", b, (unsigned long int)23);
-        tmp_if_expr$6 = !(return_value_strncmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strncmp_5=strncmp("              <Hsp_num>", b, (unsigned long int)23);
+        tmp_if_expr_6 = !(return_value_strncmp_5 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         break;
 
     }
     while((_Bool)1);
-    signed int return_value_strncmp$7;
-    return_value_strncmp$7=strncmp("          <Hit_def>", b, (unsigned long int)19);
-    if(return_value_strncmp$7 == 0)
+    signed int return_value_strncmp_7;
+    return_value_strncmp_7=strncmp("          <Hit_def>", b, (unsigned long int)19);
+    if(return_value_strncmp_7 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)31);
       nlocalhom = 0;
@@ -4056,12 +4056,12 @@ extern signed int ReadBlastm7_scoreonly(struct _IO_FILE *fp, double *dis, signed
 
     do
     {
-      return_value_fgets$8=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$8 == ((char *)NULL))
+      return_value_fgets_8=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_8 == ((char *)NULL))
         break;
 
-      return_value_strncmp$9=strncmp("              <Hsp_score>", b, (unsigned long int)25);
-      if(return_value_strncmp$9 == 0)
+      return_value_strncmp_9=strncmp("              <Hsp_score>", b, (unsigned long int)25);
+      if(return_value_strncmp_9 == 0)
         break;
 
     }
@@ -4071,76 +4071,76 @@ extern signed int ReadBlastm7_scoreonly(struct _IO_FILE *fp, double *dis, signed
     sumscore = sumscore + score;
     do
     {
-      return_value_fgets$10=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$10 == ((char *)NULL))
+      return_value_fgets_10=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_10 == ((char *)NULL))
         break;
 
-      return_value_strncmp$11=strncmp("              <Hsp_query-from>", b, (unsigned long int)30);
-      if(return_value_strncmp$11 == 0)
+      return_value_strncmp_11=strncmp("              <Hsp_query-from>", b, (unsigned long int)30);
+      if(return_value_strncmp_11 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)30;
-    signed int return_value_atoi$12;
-    return_value_atoi$12=atoi(pt);
-    qstart = return_value_atoi$12 - 1;
+    signed int return_value_atoi_12;
+    return_value_atoi_12=atoi(pt);
+    qstart = return_value_atoi_12 - 1;
     do
     {
-      return_value_fgets$13=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$13 == ((char *)NULL))
+      return_value_fgets_13=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_13 == ((char *)NULL))
         break;
 
-      return_value_strncmp$14=strncmp("              <Hsp_query-to>", b, (unsigned long int)28);
-      if(return_value_strncmp$14 == 0)
+      return_value_strncmp_14=strncmp("              <Hsp_query-to>", b, (unsigned long int)28);
+      if(return_value_strncmp_14 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)28;
-    signed int return_value_atoi$15;
-    return_value_atoi$15=atoi(pt);
-    qend = return_value_atoi$15 - 1;
+    signed int return_value_atoi_15;
+    return_value_atoi_15=atoi(pt);
+    qend = return_value_atoi_15 - 1;
     do
     {
-      return_value_fgets$16=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$16 == ((char *)NULL))
+      return_value_fgets_16=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_16 == ((char *)NULL))
         break;
 
-      return_value_strncmp$17=strncmp("              <Hsp_hit-from>", b, (unsigned long int)28);
-      if(return_value_strncmp$17 == 0)
+      return_value_strncmp_17=strncmp("              <Hsp_hit-from>", b, (unsigned long int)28);
+      if(return_value_strncmp_17 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)28;
-    signed int return_value_atoi$18;
-    return_value_atoi$18=atoi(pt);
-    tstart = return_value_atoi$18 - 1;
+    signed int return_value_atoi_18;
+    return_value_atoi_18=atoi(pt);
+    tstart = return_value_atoi_18 - 1;
     do
     {
-      return_value_fgets$19=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$19 == ((char *)NULL))
+      return_value_fgets_19=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_19 == ((char *)NULL))
         break;
 
-      return_value_strncmp$20=strncmp("              <Hsp_hit-to>", b, (unsigned long int)26);
-      if(return_value_strncmp$20 == 0)
+      return_value_strncmp_20=strncmp("              <Hsp_hit-to>", b, (unsigned long int)26);
+      if(return_value_strncmp_20 == 0)
         break;
 
     }
     while((_Bool)1);
     pt = b + (signed long int)26;
-    signed int return_value_atoi$21;
-    return_value_atoi$21=atoi(pt);
-    tend = return_value_atoi$21 - 1;
+    signed int return_value_atoi_21;
+    return_value_atoi_21=atoi(pt);
+    tend = return_value_atoi_21 - 1;
     do
     {
-      return_value_fgets$22=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$22 == ((char *)NULL))
+      return_value_fgets_22=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_22 == ((char *)NULL))
         break;
 
-      return_value_strncmp$23=strncmp("              <Hsp_align-len>", b, (unsigned long int)29);
-      if(return_value_strncmp$23 == 0)
+      return_value_strncmp_23=strncmp("              <Hsp_align-len>", b, (unsigned long int)29);
+      if(return_value_strncmp_23 == 0)
         break;
 
     }
@@ -4150,12 +4150,12 @@ extern signed int ReadBlastm7_scoreonly(struct _IO_FILE *fp, double *dis, signed
     static char al[5000000l];
     do
     {
-      return_value_fgets$24=fgets(al, 5000000 - 100, fp);
-      if(return_value_fgets$24 == ((char *)NULL))
+      return_value_fgets_24=fgets(al, 5000000 - 100, fp);
+      if(return_value_fgets_24 == ((char *)NULL))
         break;
 
-      return_value_strncmp$25=strncmp("              <Hsp_qseq>", al, (unsigned long int)24);
-      if(return_value_strncmp$25 == 0)
+      return_value_strncmp_25=strncmp("              <Hsp_qseq>", al, (unsigned long int)24);
+      if(return_value_strncmp_25 == 0)
         break;
 
     }
@@ -4174,12 +4174,12 @@ extern signed int ReadBlastm7_scoreonly(struct _IO_FILE *fp, double *dis, signed
     *pt = (char)0;
     do
     {
-      return_value_fgets$26=fgets(al, 5000000 - 100, fp);
-      if(return_value_fgets$26 == ((char *)NULL))
+      return_value_fgets_26=fgets(al, 5000000 - 100, fp);
+      if(return_value_fgets_26 == ((char *)NULL))
         break;
 
-      return_value_strncmp$27=strncmp("              <Hsp_hseq>", al, (unsigned long int)24);
-      if(return_value_strncmp$27 == 0)
+      return_value_strncmp_27=strncmp("              <Hsp_hseq>", al, (unsigned long int)24);
+      if(return_value_strncmp_27 == 0)
         break;
 
     }
@@ -4198,30 +4198,30 @@ extern signed int ReadBlastm7_scoreonly(struct _IO_FILE *fp, double *dis, signed
     *pt = (char)0;
     do
     {
-      return_value_fgets$28=fgets(b, 256 - 1, fp);
-      if(return_value_fgets$28 == ((char *)NULL))
+      return_value_fgets_28=fgets(b, 256 - 1, fp);
+      if(return_value_fgets_28 == ((char *)NULL))
         break;
 
-      return_value_strncmp$29=strncmp("            </Hsp>:", b, (unsigned long int)18);
-      if(return_value_strncmp$29 == 0)
+      return_value_strncmp_29=strncmp("            </Hsp>:", b, (unsigned long int)18);
+      if(return_value_strncmp_29 == 0)
         break;
 
     }
     while((_Bool)1);
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$32;
-    return_value_strncmp$32=strncmp("          </Hit_hsps>", b, (unsigned long int)21);
-    if(return_value_strncmp$32 == 0)
+    signed int return_value_strncmp_32;
+    return_value_strncmp_32=strncmp("          </Hit_hsps>", b, (unsigned long int)21);
+    if(return_value_strncmp_32 == 0)
     {
-      tmp_post$30 = count;
+      tmp_post_30 = count;
       count = count + 1;
-      dis[(signed long int)junban[(signed long int)tmp_post$30]] = sumscore;
+      dis[(signed long int)junban[(signed long int)tmp_post_30]] = sumscore;
       sumscore = 0.0;
       fgets(b, 256 - 1, fp);
       fgets(b, 256 - 1, fp);
-      signed int return_value_strncmp$31;
-      return_value_strncmp$31=strncmp("      </Iteration_hits>", b, (unsigned long int)23);
-      if(return_value_strncmp$31 == 0)
+      signed int return_value_strncmp_31;
+      return_value_strncmp_31=strncmp("      </Iteration_hits>", b, (unsigned long int)23);
+      if(return_value_strncmp_31 == 0)
         break;
 
     }
@@ -4247,17 +4247,17 @@ extern signed int ReadFasta(struct _IO_FILE *fp, double *dis, signed int nseq, c
   for( ; !(i >= nseq); i = i + 1)
     dis[(signed long int)i] = 0.0;
   i = 0;
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0) || count >= nseq)
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0) || count >= nseq)
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_2 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
       sscanf(b + (signed long int)50, "%d %d %d", &initn, &init1, &opt);
@@ -4284,22 +4284,22 @@ extern signed int ReadFasta3(struct _IO_FILE *fp, double *dis, signed int nseq, 
   signed int opt;
   double z;
   count = 0;
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_3 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 41);
-      pt = return_value_strchr$2 + (signed long int)1;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 41);
+      pt = return_value_strchr_2 + (signed long int)1;
       sscanf(pt, "%d %d %d %lf", &initn, &init1, &opt, &z);
       dis[(signed long int)junban[(signed long int)count]] = (double)opt;
       count = count + 1;
@@ -4326,24 +4326,24 @@ extern signed int ReadFasta34(struct _IO_FILE *fp, double *dis, signed int nseq,
   double z;
   double bits;
   count = 0;
-  signed int return_value_feof$1;
-  signed int return_value_strncmp$3;
+  signed int return_value_feof_1;
+  signed int return_value_strncmp_3;
   static signed int junban[500000l];
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$4 == 0)
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_4 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 41);
-      pt = return_value_strchr$2 + (signed long int)1;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 41);
+      pt = return_value_strchr_2 + (signed long int)1;
       sscanf(pt, "%d %lf %lf", &opt, &bits, &z);
       dis[(signed long int)junban[(signed long int)count]] = (double)opt;
       count = count + 1;
@@ -4351,14 +4351,14 @@ extern signed int ReadFasta34(struct _IO_FILE *fp, double *dis, signed int nseq,
 
     else
     {
-      return_value_strncmp$3=strncmp(">>+==========+", b, (unsigned long int)14);
-      if(return_value_strncmp$3 == 0)
+      return_value_strncmp_3=strncmp(">>+==========+", b, (unsigned long int)14);
+      if(return_value_strncmp_3 == 0)
         break;
 
     }
   }
   while((_Bool)1);
-  signed int return_value_feof$5;
+  signed int return_value_feof_5;
   if(count == 0)
     return -1;
 
@@ -4367,30 +4367,30 @@ extern signed int ReadFasta34(struct _IO_FILE *fp, double *dis, signed int nseq,
     count = 0;
     do
     {
-      return_value_feof$5=feof(fp);
-      if(!(return_value_feof$5 == 0))
+      return_value_feof_5=feof(fp);
+      if(!(return_value_feof_5 == 0))
         break;
 
-      signed int return_value_strncmp$9;
-      return_value_strncmp$9=strncmp(">>+==========+", b, (unsigned long int)14);
-      if(return_value_strncmp$9 == 0)
+      signed int return_value_strncmp_9;
+      return_value_strncmp_9=strncmp(">>+==========+", b, (unsigned long int)14);
+      if(return_value_strncmp_9 == 0)
       {
         junban[(signed long int)count]=atoi(b + (signed long int)14);
         count = count + 1;
         fgets(b, 256 - 1, fp);
-        char *return_value_strstr$6;
-        return_value_strstr$6=strstr(b, "opt: ");
-        pt = return_value_strstr$6 + (signed long int)5;
+        char *return_value_strstr_6;
+        return_value_strstr_6=strstr(b, "opt: ");
+        pt = return_value_strstr_6 + (signed long int)5;
         (localhomlist + (signed long int)junban[(signed long int)(count - 1)])->opt=atof(pt);
         fgets(b, 256 - 1, fp);
-        char *return_value_strstr$7;
-        return_value_strstr$7=strstr(b, "ungapped) in ");
-        pt = return_value_strstr$7 + (signed long int)13;
+        char *return_value_strstr_7;
+        return_value_strstr_7=strstr(b, "ungapped) in ");
+        pt = return_value_strstr_7 + (signed long int)13;
         sscanf(pt, "%d", &overlapaa);
         fprintf(stderr, "pt = %s, overlapaa = %d\n", pt, overlapaa);
-        char *return_value_strstr$8;
-        return_value_strstr$8=strstr(b, "overlap (");
-        pt = return_value_strstr$8 + (signed long int)8;
+        char *return_value_strstr_8;
+        return_value_strstr_8=strstr(b, "overlap (");
+        pt = return_value_strstr_8 + (signed long int)8;
         sscanf(pt, "(%d-%d:%d-%d)", &qstart, &qend, &tstart, &tend);
         (localhomlist + (signed long int)junban[(signed long int)(count - 1)])->overlapaa = overlapaa;
         (localhomlist + (signed long int)junban[(signed long int)(count - 1)])->start1 = qstart - 1;
@@ -4428,24 +4428,24 @@ extern signed int ReadFasta34m10(struct _IO_FILE *fp, double *dis, signed int qm
   char *tal2;
   signed int c;
   count = 0;
-  signed int return_value_feof$1;
-  signed int return_value_strncmp$3;
+  signed int return_value_feof_1;
+  signed int return_value_strncmp_3;
   static signed int junban[500000l];
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$4 == 0)
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_4 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 41);
-      pt = return_value_strchr$2 + (signed long int)1;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 41);
+      pt = return_value_strchr_2 + (signed long int)1;
       sscanf(pt, "%d %lf %lf", &opt, &bits, &z);
       dis[(signed long int)junban[(signed long int)count]] = (double)opt;
       count = count + 1;
@@ -4453,34 +4453,34 @@ extern signed int ReadFasta34m10(struct _IO_FILE *fp, double *dis, signed int qm
 
     else
     {
-      return_value_strncmp$3=strncmp(">>+==========+", b, (unsigned long int)14);
-      if(return_value_strncmp$3 == 0)
+      return_value_strncmp_3=strncmp(">>+==========+", b, (unsigned long int)14);
+      if(return_value_strncmp_3 == 0)
         break;
 
     }
   }
   while((_Bool)1);
-  signed int tmp_post$7;
-  char *return_value_fgets$8;
-  signed int return_value_strncmp$9;
-  _Bool tmp_if_expr$11;
-  signed int return_value_strncmp$10;
-  char *return_value_fgets$13;
-  signed int return_value_strncmp$14;
-  char *return_value_fgets$16;
-  signed int return_value_strncmp$17;
-  char *return_value_fgets$20;
-  signed int return_value_strncmp$21;
-  char *return_value_fgets$24;
-  signed int return_value_strncmp$25;
-  char *tmp_post$28;
-  char *return_value_fgets$30;
-  signed int return_value_strncmp$31;
-  char *return_value_fgets$34;
-  signed int return_value_strncmp$35;
-  char *return_value_fgets$38;
-  signed int return_value_strncmp$39;
-  char *tmp_post$42;
+  signed int tmp_post_7;
+  char *return_value_fgets_8;
+  signed int return_value_strncmp_9;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strncmp_10;
+  char *return_value_fgets_13;
+  signed int return_value_strncmp_14;
+  char *return_value_fgets_16;
+  signed int return_value_strncmp_17;
+  char *return_value_fgets_20;
+  signed int return_value_strncmp_21;
+  char *return_value_fgets_24;
+  signed int return_value_strncmp_25;
+  char *tmp_post_28;
+  char *return_value_fgets_30;
+  signed int return_value_strncmp_31;
+  char *return_value_fgets_34;
+  signed int return_value_strncmp_35;
+  char *return_value_fgets_38;
+  signed int return_value_strncmp_39;
+  char *tmp_post_42;
   if(count == 0)
     return -1;
 
@@ -4489,116 +4489,116 @@ extern signed int ReadFasta34m10(struct _IO_FILE *fp, double *dis, signed int qm
     count = 0;
     while((_Bool)1)
     {
-      signed int return_value_strncmp$6;
-      return_value_strncmp$6=strncmp(">>+==========+", b, (unsigned long int)14);
-      if(!(return_value_strncmp$6 == 0))
+      signed int return_value_strncmp_6;
+      return_value_strncmp_6=strncmp(">>+==========+", b, (unsigned long int)14);
+      if(!(return_value_strncmp_6 == 0))
       {
         fgets(b, 256 - 1, fp);
-        signed int return_value_feof$5;
-        return_value_feof$5=feof(fp);
-        if(!(return_value_feof$5 == 0))
+        signed int return_value_feof_5;
+        return_value_feof_5=feof(fp);
+        if(!(return_value_feof_5 == 0))
           break;
 
         continue;
       }
 
-      tmp_post$7 = count;
+      tmp_post_7 = count;
       count = count + 1;
-      junban[(signed long int)tmp_post$7]=atoi(b + (signed long int)14);
+      junban[(signed long int)tmp_post_7]=atoi(b + (signed long int)14);
       do
       {
-        return_value_fgets$8=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$8 == ((char *)NULL))
+        return_value_fgets_8=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_8 == ((char *)NULL))
           break;
 
-        return_value_strncmp$9=strncmp("; fa_opt:", b, (unsigned long int)9);
-        if(return_value_strncmp$9 == 0)
-          tmp_if_expr$11 = (_Bool)1;
+        return_value_strncmp_9=strncmp("; fa_opt:", b, (unsigned long int)9);
+        if(return_value_strncmp_9 == 0)
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_strncmp$10=strncmp("; sw_s-w opt:", b, (unsigned long int)13);
-          tmp_if_expr$11 = !(return_value_strncmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_10=strncmp("; sw_s-w opt:", b, (unsigned long int)13);
+          tmp_if_expr_11 = !(return_value_strncmp_10 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$12;
-      return_value_strstr$12=strstr(b, ":");
-      pt = return_value_strstr$12 + (signed long int)1;
+      char *return_value_strstr_12;
+      return_value_strstr_12=strstr(b, ":");
+      pt = return_value_strstr_12 + (signed long int)1;
       opt=atoi(pt);
       do
       {
-        return_value_fgets$13=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$13 == ((char *)NULL))
+        return_value_fgets_13=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_13 == ((char *)NULL))
           break;
 
-        return_value_strncmp$14=strncmp("_overlap:", b + (signed long int)4, (unsigned long int)9);
-        if(return_value_strncmp$14 == 0)
+        return_value_strncmp_14=strncmp("_overlap:", b + (signed long int)4, (unsigned long int)9);
+        if(return_value_strncmp_14 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$15;
-      return_value_strstr$15=strstr(b, ":");
-      pt = return_value_strstr$15 + (signed long int)1;
+      char *return_value_strstr_15;
+      return_value_strstr_15=strstr(b, ":");
+      pt = return_value_strstr_15 + (signed long int)1;
       overlapaa=atoi(pt);
       do
       {
-        return_value_fgets$16=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$16 == ((char *)NULL))
+        return_value_fgets_16=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_16 == ((char *)NULL))
           break;
 
-        return_value_strncmp$17=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
-        if(return_value_strncmp$17 == 0)
+        return_value_strncmp_17=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
+        if(return_value_strncmp_17 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$18;
-      return_value_strstr$18=strstr(b, ":");
-      pt = return_value_strstr$18 + (signed long int)1;
-      signed int return_value_atoi$19;
-      return_value_atoi$19=atoi(pt);
-      qstart = return_value_atoi$19 - 1;
+      char *return_value_strstr_18;
+      return_value_strstr_18=strstr(b, ":");
+      pt = return_value_strstr_18 + (signed long int)1;
+      signed int return_value_atoi_19;
+      return_value_atoi_19=atoi(pt);
+      qstart = return_value_atoi_19 - 1;
       do
       {
-        return_value_fgets$20=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$20 == ((char *)NULL))
+        return_value_fgets_20=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_20 == ((char *)NULL))
           break;
 
-        return_value_strncmp$21=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
-        if(return_value_strncmp$21 == 0)
+        return_value_strncmp_21=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
+        if(return_value_strncmp_21 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$22;
-      return_value_strstr$22=strstr(b, ":");
-      pt = return_value_strstr$22 + (signed long int)1;
-      signed int return_value_atoi$23;
-      return_value_atoi$23=atoi(pt);
-      qend = return_value_atoi$23 - 1;
+      char *return_value_strstr_22;
+      return_value_strstr_22=strstr(b, ":");
+      pt = return_value_strstr_22 + (signed long int)1;
+      signed int return_value_atoi_23;
+      return_value_atoi_23=atoi(pt);
+      qend = return_value_atoi_23 - 1;
       do
       {
-        return_value_fgets$24=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$24 == ((char *)NULL))
+        return_value_fgets_24=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_24 == ((char *)NULL))
           break;
 
-        return_value_strncmp$25=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
-        if(return_value_strncmp$25 == 0)
+        return_value_strncmp_25=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
+        if(return_value_strncmp_25 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$26;
-      return_value_strstr$26=strstr(b, ":");
-      pt = return_value_strstr$26 + (signed long int)1;
-      signed int return_value_atoi$27;
-      return_value_atoi$27=atoi(pt);
-      qal_display_start = return_value_atoi$27 - 1;
+      char *return_value_strstr_26;
+      return_value_strstr_26=strstr(b, ":");
+      pt = return_value_strstr_26 + (signed long int)1;
+      signed int return_value_atoi_27;
+      return_value_atoi_27=atoi(pt);
+      qal_display_start = return_value_atoi_27 - 1;
       static char qal[5000000l];
       pt = qal;
       do
@@ -4613,13 +4613,13 @@ extern signed int ReadFasta34m10(struct _IO_FILE *fp, double *dis, signed int qm
           break;
         }
 
-        const unsigned short int **return_value___ctype_b_loc$29;
-        return_value___ctype_b_loc$29=__ctype_b_loc();
-        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc$29)[(signed long int)c]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_29;
+        return_value___ctype_b_loc_29=__ctype_b_loc();
+        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc_29)[(signed long int)c]) == 0))
         {
-          tmp_post$28 = pt;
+          tmp_post_28 = pt;
           pt = pt + 1l;
-          *tmp_post$28 = (char)c;
+          *tmp_post_28 = (char)c;
         }
 
       }
@@ -4627,58 +4627,58 @@ extern signed int ReadFasta34m10(struct _IO_FILE *fp, double *dis, signed int qm
       *pt = (char)0;
       do
       {
-        return_value_fgets$30=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$30 == ((char *)NULL))
+        return_value_fgets_30=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_30 == ((char *)NULL))
           break;
 
-        return_value_strncmp$31=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
-        if(return_value_strncmp$31 == 0)
+        return_value_strncmp_31=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
+        if(return_value_strncmp_31 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$32;
-      return_value_strstr$32=strstr(b, ":");
-      pt = return_value_strstr$32 + (signed long int)1;
-      signed int return_value_atoi$33;
-      return_value_atoi$33=atoi(pt);
-      tstart = return_value_atoi$33 - 1;
+      char *return_value_strstr_32;
+      return_value_strstr_32=strstr(b, ":");
+      pt = return_value_strstr_32 + (signed long int)1;
+      signed int return_value_atoi_33;
+      return_value_atoi_33=atoi(pt);
+      tstart = return_value_atoi_33 - 1;
       do
       {
-        return_value_fgets$34=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$34 == ((char *)NULL))
+        return_value_fgets_34=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_34 == ((char *)NULL))
           break;
 
-        return_value_strncmp$35=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
-        if(return_value_strncmp$35 == 0)
+        return_value_strncmp_35=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
+        if(return_value_strncmp_35 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$36;
-      return_value_strstr$36=strstr(b, ":");
-      pt = return_value_strstr$36 + (signed long int)1;
-      signed int return_value_atoi$37;
-      return_value_atoi$37=atoi(pt);
-      tend = return_value_atoi$37 - 1;
+      char *return_value_strstr_36;
+      return_value_strstr_36=strstr(b, ":");
+      pt = return_value_strstr_36 + (signed long int)1;
+      signed int return_value_atoi_37;
+      return_value_atoi_37=atoi(pt);
+      tend = return_value_atoi_37 - 1;
       do
       {
-        return_value_fgets$38=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$38 == ((char *)NULL))
+        return_value_fgets_38=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_38 == ((char *)NULL))
           break;
 
-        return_value_strncmp$39=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
-        if(return_value_strncmp$39 == 0)
+        return_value_strncmp_39=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
+        if(return_value_strncmp_39 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$40;
-      return_value_strstr$40=strstr(b, ":");
-      pt = return_value_strstr$40 + (signed long int)1;
-      signed int return_value_atoi$41;
-      return_value_atoi$41=atoi(pt);
-      tal_display_start = return_value_atoi$41 - 1;
+      char *return_value_strstr_40;
+      return_value_strstr_40=strstr(b, ":");
+      pt = return_value_strstr_40 + (signed long int)1;
+      signed int return_value_atoi_41;
+      return_value_atoi_41=atoi(pt);
+      tal_display_start = return_value_atoi_41 - 1;
       static char tal[5000000l];
       pt = tal;
       do
@@ -4693,13 +4693,13 @@ extern signed int ReadFasta34m10(struct _IO_FILE *fp, double *dis, signed int qm
           break;
         }
 
-        const unsigned short int **return_value___ctype_b_loc$43;
-        return_value___ctype_b_loc$43=__ctype_b_loc();
-        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc$43)[(signed long int)c]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_43;
+        return_value___ctype_b_loc_43=__ctype_b_loc();
+        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc_43)[(signed long int)c]) == 0))
         {
-          tmp_post$42 = pt;
+          tmp_post_42 = pt;
           pt = pt + 1l;
-          *tmp_post$42 = (char)c;
+          *tmp_post_42 = (char)c;
         }
 
       }
@@ -4734,29 +4734,29 @@ extern signed int ReadFasta34m10_nuc(struct _IO_FILE *fp, double *dis, signed in
   char *tal2;
   signed int c;
   count = 0;
-  signed int return_value_feof$1;
-  signed int return_value_strncmp$4;
+  signed int return_value_feof_1;
+  signed int return_value_strncmp_4;
   static signed int junban[500000l];
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$5 == 0)
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_5 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 114);
-      if(!(return_value_strchr$2 == ((char *)NULL)))
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 114);
+      if(!(return_value_strchr_2 == ((char *)NULL)))
         continue;
 
-      char *return_value_strchr$3;
-      return_value_strchr$3=strchr(b, 93);
-      pt = return_value_strchr$3 + (signed long int)1;
+      char *return_value_strchr_3;
+      return_value_strchr_3=strchr(b, 93);
+      pt = return_value_strchr_3 + (signed long int)1;
       sscanf(pt, "%d %lf %lf", &opt, &bits, &z);
       dis[(signed long int)junban[(signed long int)count]] = (double)opt;
       count = count + 1;
@@ -4764,34 +4764,34 @@ extern signed int ReadFasta34m10_nuc(struct _IO_FILE *fp, double *dis, signed in
 
     else
     {
-      return_value_strncmp$4=strncmp(">>+==========+", b, (unsigned long int)14);
-      if(return_value_strncmp$4 == 0)
+      return_value_strncmp_4=strncmp(">>+==========+", b, (unsigned long int)14);
+      if(return_value_strncmp_4 == 0)
         break;
 
     }
   }
   while((_Bool)1);
-  signed int tmp_post$8;
-  char *return_value_fgets$9;
-  signed int return_value_strncmp$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strncmp$11;
-  char *return_value_fgets$14;
-  signed int return_value_strncmp$15;
-  char *return_value_fgets$17;
-  signed int return_value_strncmp$18;
-  char *return_value_fgets$21;
-  signed int return_value_strncmp$22;
-  char *return_value_fgets$25;
-  signed int return_value_strncmp$26;
-  char *tmp_post$29;
-  char *return_value_fgets$31;
-  signed int return_value_strncmp$32;
-  char *return_value_fgets$35;
-  signed int return_value_strncmp$36;
-  char *return_value_fgets$39;
-  signed int return_value_strncmp$40;
-  char *tmp_post$43;
+  signed int tmp_post_8;
+  char *return_value_fgets_9;
+  signed int return_value_strncmp_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strncmp_11;
+  char *return_value_fgets_14;
+  signed int return_value_strncmp_15;
+  char *return_value_fgets_17;
+  signed int return_value_strncmp_18;
+  char *return_value_fgets_21;
+  signed int return_value_strncmp_22;
+  char *return_value_fgets_25;
+  signed int return_value_strncmp_26;
+  char *tmp_post_29;
+  char *return_value_fgets_31;
+  signed int return_value_strncmp_32;
+  char *return_value_fgets_35;
+  signed int return_value_strncmp_36;
+  char *return_value_fgets_39;
+  signed int return_value_strncmp_40;
+  char *tmp_post_43;
   if(count == 0)
     return -1;
 
@@ -4800,116 +4800,116 @@ extern signed int ReadFasta34m10_nuc(struct _IO_FILE *fp, double *dis, signed in
     count = 0;
     while((_Bool)1)
     {
-      signed int return_value_strncmp$7;
-      return_value_strncmp$7=strncmp(">>+==========+", b, (unsigned long int)14);
-      if(!(return_value_strncmp$7 == 0))
+      signed int return_value_strncmp_7;
+      return_value_strncmp_7=strncmp(">>+==========+", b, (unsigned long int)14);
+      if(!(return_value_strncmp_7 == 0))
       {
         fgets(b, 256 - 1, fp);
-        signed int return_value_feof$6;
-        return_value_feof$6=feof(fp);
-        if(!(return_value_feof$6 == 0))
+        signed int return_value_feof_6;
+        return_value_feof_6=feof(fp);
+        if(!(return_value_feof_6 == 0))
           break;
 
         continue;
       }
 
-      tmp_post$8 = count;
+      tmp_post_8 = count;
       count = count + 1;
-      junban[(signed long int)tmp_post$8]=atoi(b + (signed long int)14);
+      junban[(signed long int)tmp_post_8]=atoi(b + (signed long int)14);
       do
       {
-        return_value_fgets$9=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$9 == ((char *)NULL))
+        return_value_fgets_9=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_9 == ((char *)NULL))
           break;
 
-        return_value_strncmp$10=strncmp("; fa_opt:", b, (unsigned long int)9);
-        if(return_value_strncmp$10 == 0)
-          tmp_if_expr$12 = (_Bool)1;
+        return_value_strncmp_10=strncmp("; fa_opt:", b, (unsigned long int)9);
+        if(return_value_strncmp_10 == 0)
+          tmp_if_expr_12 = (_Bool)1;
 
         else
         {
-          return_value_strncmp$11=strncmp("; sw_s-w opt:", b, (unsigned long int)13);
-          tmp_if_expr$12 = !(return_value_strncmp$11 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_11=strncmp("; sw_s-w opt:", b, (unsigned long int)13);
+          tmp_if_expr_12 = !(return_value_strncmp_11 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$12)
+        if(tmp_if_expr_12)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$13;
-      return_value_strstr$13=strstr(b, ":");
-      pt = return_value_strstr$13 + (signed long int)1;
+      char *return_value_strstr_13;
+      return_value_strstr_13=strstr(b, ":");
+      pt = return_value_strstr_13 + (signed long int)1;
       opt=atoi(pt);
       do
       {
-        return_value_fgets$14=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$14 == ((char *)NULL))
+        return_value_fgets_14=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_14 == ((char *)NULL))
           break;
 
-        return_value_strncmp$15=strncmp("_overlap:", b + (signed long int)4, (unsigned long int)9);
-        if(return_value_strncmp$15 == 0)
+        return_value_strncmp_15=strncmp("_overlap:", b + (signed long int)4, (unsigned long int)9);
+        if(return_value_strncmp_15 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$16;
-      return_value_strstr$16=strstr(b, ":");
-      pt = return_value_strstr$16 + (signed long int)1;
+      char *return_value_strstr_16;
+      return_value_strstr_16=strstr(b, ":");
+      pt = return_value_strstr_16 + (signed long int)1;
       overlapaa=atoi(pt);
       do
       {
-        return_value_fgets$17=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$17 == ((char *)NULL))
+        return_value_fgets_17=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_17 == ((char *)NULL))
           break;
 
-        return_value_strncmp$18=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
-        if(return_value_strncmp$18 == 0)
+        return_value_strncmp_18=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
+        if(return_value_strncmp_18 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$19;
-      return_value_strstr$19=strstr(b, ":");
-      pt = return_value_strstr$19 + (signed long int)1;
-      signed int return_value_atoi$20;
-      return_value_atoi$20=atoi(pt);
-      qstart = return_value_atoi$20 - 1;
+      char *return_value_strstr_19;
+      return_value_strstr_19=strstr(b, ":");
+      pt = return_value_strstr_19 + (signed long int)1;
+      signed int return_value_atoi_20;
+      return_value_atoi_20=atoi(pt);
+      qstart = return_value_atoi_20 - 1;
       do
       {
-        return_value_fgets$21=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$21 == ((char *)NULL))
+        return_value_fgets_21=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_21 == ((char *)NULL))
           break;
 
-        return_value_strncmp$22=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
-        if(return_value_strncmp$22 == 0)
+        return_value_strncmp_22=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
+        if(return_value_strncmp_22 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$23;
-      return_value_strstr$23=strstr(b, ":");
-      pt = return_value_strstr$23 + (signed long int)1;
-      signed int return_value_atoi$24;
-      return_value_atoi$24=atoi(pt);
-      qend = return_value_atoi$24 - 1;
+      char *return_value_strstr_23;
+      return_value_strstr_23=strstr(b, ":");
+      pt = return_value_strstr_23 + (signed long int)1;
+      signed int return_value_atoi_24;
+      return_value_atoi_24=atoi(pt);
+      qend = return_value_atoi_24 - 1;
       do
       {
-        return_value_fgets$25=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$25 == ((char *)NULL))
+        return_value_fgets_25=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_25 == ((char *)NULL))
           break;
 
-        return_value_strncmp$26=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
-        if(return_value_strncmp$26 == 0)
+        return_value_strncmp_26=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
+        if(return_value_strncmp_26 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$27;
-      return_value_strstr$27=strstr(b, ":");
-      pt = return_value_strstr$27 + (signed long int)1;
-      signed int return_value_atoi$28;
-      return_value_atoi$28=atoi(pt);
-      qal_display_start = return_value_atoi$28 - 1;
+      char *return_value_strstr_27;
+      return_value_strstr_27=strstr(b, ":");
+      pt = return_value_strstr_27 + (signed long int)1;
+      signed int return_value_atoi_28;
+      return_value_atoi_28=atoi(pt);
+      qal_display_start = return_value_atoi_28 - 1;
       static char qal[5000000l];
       pt = qal;
       do
@@ -4924,13 +4924,13 @@ extern signed int ReadFasta34m10_nuc(struct _IO_FILE *fp, double *dis, signed in
           break;
         }
 
-        const unsigned short int **return_value___ctype_b_loc$30;
-        return_value___ctype_b_loc$30=__ctype_b_loc();
-        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc$30)[(signed long int)c]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_30;
+        return_value___ctype_b_loc_30=__ctype_b_loc();
+        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc_30)[(signed long int)c]) == 0))
         {
-          tmp_post$29 = pt;
+          tmp_post_29 = pt;
           pt = pt + 1l;
-          *tmp_post$29 = (char)c;
+          *tmp_post_29 = (char)c;
         }
 
       }
@@ -4938,58 +4938,58 @@ extern signed int ReadFasta34m10_nuc(struct _IO_FILE *fp, double *dis, signed in
       *pt = (char)0;
       do
       {
-        return_value_fgets$31=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$31 == ((char *)NULL))
+        return_value_fgets_31=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_31 == ((char *)NULL))
           break;
 
-        return_value_strncmp$32=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
-        if(return_value_strncmp$32 == 0)
+        return_value_strncmp_32=strncmp("_start:", b + (signed long int)4, (unsigned long int)7);
+        if(return_value_strncmp_32 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$33;
-      return_value_strstr$33=strstr(b, ":");
-      pt = return_value_strstr$33 + (signed long int)1;
-      signed int return_value_atoi$34;
-      return_value_atoi$34=atoi(pt);
-      tstart = return_value_atoi$34 - 1;
+      char *return_value_strstr_33;
+      return_value_strstr_33=strstr(b, ":");
+      pt = return_value_strstr_33 + (signed long int)1;
+      signed int return_value_atoi_34;
+      return_value_atoi_34=atoi(pt);
+      tstart = return_value_atoi_34 - 1;
       do
       {
-        return_value_fgets$35=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$35 == ((char *)NULL))
+        return_value_fgets_35=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_35 == ((char *)NULL))
           break;
 
-        return_value_strncmp$36=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
-        if(return_value_strncmp$36 == 0)
+        return_value_strncmp_36=strncmp("_stop:", b + (signed long int)4, (unsigned long int)6);
+        if(return_value_strncmp_36 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$37;
-      return_value_strstr$37=strstr(b, ":");
-      pt = return_value_strstr$37 + (signed long int)1;
-      signed int return_value_atoi$38;
-      return_value_atoi$38=atoi(pt);
-      tend = return_value_atoi$38 - 1;
+      char *return_value_strstr_37;
+      return_value_strstr_37=strstr(b, ":");
+      pt = return_value_strstr_37 + (signed long int)1;
+      signed int return_value_atoi_38;
+      return_value_atoi_38=atoi(pt);
+      tend = return_value_atoi_38 - 1;
       do
       {
-        return_value_fgets$39=fgets(b, 256 - 1, fp);
-        if(return_value_fgets$39 == ((char *)NULL))
+        return_value_fgets_39=fgets(b, 256 - 1, fp);
+        if(return_value_fgets_39 == ((char *)NULL))
           break;
 
-        return_value_strncmp$40=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
-        if(return_value_strncmp$40 == 0)
+        return_value_strncmp_40=strncmp("_display_start:", b + (signed long int)4, (unsigned long int)15);
+        if(return_value_strncmp_40 == 0)
           break;
 
       }
       while((_Bool)1);
-      char *return_value_strstr$41;
-      return_value_strstr$41=strstr(b, ":");
-      pt = return_value_strstr$41 + (signed long int)1;
-      signed int return_value_atoi$42;
-      return_value_atoi$42=atoi(pt);
-      tal_display_start = return_value_atoi$42 - 1;
+      char *return_value_strstr_41;
+      return_value_strstr_41=strstr(b, ":");
+      pt = return_value_strstr_41 + (signed long int)1;
+      signed int return_value_atoi_42;
+      return_value_atoi_42=atoi(pt);
+      tal_display_start = return_value_atoi_42 - 1;
       static char tal[5000000l];
       pt = tal;
       do
@@ -5004,13 +5004,13 @@ extern signed int ReadFasta34m10_nuc(struct _IO_FILE *fp, double *dis, signed in
           break;
         }
 
-        const unsigned short int **return_value___ctype_b_loc$44;
-        return_value___ctype_b_loc$44=__ctype_b_loc();
-        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc$44)[(signed long int)c]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_44;
+        return_value___ctype_b_loc_44=__ctype_b_loc();
+        if(c == 45 || !((1024 & (signed int)(*return_value___ctype_b_loc_44)[(signed long int)c]) == 0))
         {
-          tmp_post$43 = pt;
+          tmp_post_43 = pt;
           pt = pt + 1l;
-          *tmp_post$43 = (char)c;
+          *tmp_post_43 = (char)c;
         }
 
       }
@@ -5045,24 +5045,24 @@ extern signed int ReadFasta34m10_scoreonly(struct _IO_FILE *fp, double *dis, sig
   for( ; !(c >= nin); c = c + 1)
     dis[(signed long int)c] = 0.0;
   count = 0;
-  signed int return_value_feof$1;
-  signed int return_value_strncmp$4;
-  signed int return_value_strncmp$3;
+  signed int return_value_feof_1;
+  signed int return_value_strncmp_4;
+  signed int return_value_strncmp_3;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp("+===========+", b, (unsigned long int)13);
-    if(return_value_strncmp$5 == 0)
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp("+===========+", b, (unsigned long int)13);
+    if(return_value_strncmp_5 == 0)
     {
       pos=atoi(b + (signed long int)13);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 41);
-      pt = return_value_strchr$2 + (signed long int)1;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 41);
+      pt = return_value_strchr_2 + (signed long int)1;
       sscanf(pt, "%d %lf %lf", &opt, &bits, &z);
       if(yonda[(signed long int)pos] == 0)
       {
@@ -5075,8 +5075,8 @@ extern signed int ReadFasta34m10_scoreonly(struct _IO_FILE *fp, double *dis, sig
 
     else
     {
-      return_value_strncmp$4=strncmp(">>>", b, (unsigned long int)3);
-      if(return_value_strncmp$4 == 0)
+      return_value_strncmp_4=strncmp(">>>", b, (unsigned long int)3);
+      if(return_value_strncmp_4 == 0)
       {
         c = 0;
         for( ; !(c >= nin); c = c + 1)
@@ -5085,8 +5085,8 @@ extern signed int ReadFasta34m10_scoreonly(struct _IO_FILE *fp, double *dis, sig
 
       else
       {
-        return_value_strncmp$3=strncmp(">>><<<", b, (unsigned long int)6);
-        if(return_value_strncmp$3 == 0)
+        return_value_strncmp_3=strncmp(">>><<<", b, (unsigned long int)6);
+        if(return_value_strncmp_3 == 0)
           break;
 
       }
@@ -5122,29 +5122,29 @@ extern signed int ReadFasta34m10_scoreonly_nuc(struct _IO_FILE *fp, double *dis,
   for( ; !(c >= nin); c = c + 1)
     dis[(signed long int)c] = 0.0;
   count = 0;
-  signed int return_value_feof$1;
-  signed int return_value_strncmp$5;
-  signed int return_value_strncmp$4;
+  signed int return_value_feof_1;
+  signed int return_value_strncmp_5;
+  signed int return_value_strncmp_4;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$6;
-    return_value_strncmp$6=strncmp("+===========+", b, (unsigned long int)13);
-    if(return_value_strncmp$6 == 0)
+    signed int return_value_strncmp_6;
+    return_value_strncmp_6=strncmp("+===========+", b, (unsigned long int)13);
+    if(return_value_strncmp_6 == 0)
     {
       pos=atoi(b + (signed long int)13);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 114);
-      if(!(return_value_strchr$2 == ((char *)NULL)))
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 114);
+      if(!(return_value_strchr_2 == ((char *)NULL)))
         continue;
 
-      char *return_value_strchr$3;
-      return_value_strchr$3=strchr(b, 93);
-      pt = return_value_strchr$3 + (signed long int)1;
+      char *return_value_strchr_3;
+      return_value_strchr_3=strchr(b, 93);
+      pt = return_value_strchr_3 + (signed long int)1;
       sscanf(pt, "%d %lf %lf", &opt, &bits, &z);
       if(yonda[(signed long int)pos] == 0)
       {
@@ -5157,8 +5157,8 @@ extern signed int ReadFasta34m10_scoreonly_nuc(struct _IO_FILE *fp, double *dis,
 
     else
     {
-      return_value_strncmp$5=strncmp(">>>", b, (unsigned long int)3);
-      if(return_value_strncmp$5 == 0)
+      return_value_strncmp_5=strncmp(">>>", b, (unsigned long int)3);
+      if(return_value_strncmp_5 == 0)
       {
         c = 0;
         for( ; !(c >= nin); c = c + 1)
@@ -5167,8 +5167,8 @@ extern signed int ReadFasta34m10_scoreonly_nuc(struct _IO_FILE *fp, double *dis,
 
       else
       {
-        return_value_strncmp$4=strncmp(">>><<<", b, (unsigned long int)6);
-        if(return_value_strncmp$4 == 0)
+        return_value_strncmp_4=strncmp(">>><<<", b, (unsigned long int)6);
+        if(return_value_strncmp_4 == 0)
           break;
 
       }
@@ -5195,28 +5195,28 @@ signed int ReadFasta34m10_scoreonly_nucbk(struct _IO_FILE *fp, double *dis, sign
   double z;
   double bits;
   count = 0;
-  signed int return_value_feof$1;
-  signed int return_value_strncmp$4;
+  signed int return_value_feof_1;
+  signed int return_value_strncmp_4;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp("+===========+", b, (unsigned long int)13);
-    if(return_value_strncmp$5 == 0)
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp("+===========+", b, (unsigned long int)13);
+    if(return_value_strncmp_5 == 0)
     {
       pos=atoi(b + (signed long int)13);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 114);
-      if(!(return_value_strchr$2 == ((char *)NULL)))
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 114);
+      if(!(return_value_strchr_2 == ((char *)NULL)))
         continue;
 
-      char *return_value_strchr$3;
-      return_value_strchr$3=strchr(b, 93);
-      pt = return_value_strchr$3 + (signed long int)1;
+      char *return_value_strchr_3;
+      return_value_strchr_3=strchr(b, 93);
+      pt = return_value_strchr_3 + (signed long int)1;
       sscanf(pt, "%d %lf %lf", &opt, &bits, &z);
       dis[(signed long int)pos] = dis[(signed long int)pos] + (double)opt;
       count = count + 1;
@@ -5224,8 +5224,8 @@ signed int ReadFasta34m10_scoreonly_nucbk(struct _IO_FILE *fp, double *dis, sign
 
     else
     {
-      return_value_strncmp$4=strncmp(">>><<<", b, (unsigned long int)6);
-      if(return_value_strncmp$4 == 0)
+      return_value_strncmp_4=strncmp(">>><<<", b, (unsigned long int)6);
+      if(return_value_strncmp_4 == 0)
         break;
 
     }
@@ -5249,23 +5249,23 @@ extern signed int ReadFasta34noalign(struct _IO_FILE *fp, double *dis, signed in
   double z;
   double bits;
   count = 0;
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_3 == 0)
     {
       static signed int junban[500000l];
       junban[(signed long int)count]=atoi(b + (signed long int)12);
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(b, 41);
-      pt = return_value_strchr$2 + (signed long int)1;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(b, 41);
+      pt = return_value_strchr_2 + (signed long int)1;
       sscanf(pt, "%d %lf %lf", &opt, &bits, &z);
       dis[(signed long int)junban[(signed long int)count]] = (double)opt;
       count = count + 1;
@@ -5289,9 +5289,9 @@ extern signed int ReadFasta_sub(struct _IO_FILE *fp, double *dis, signed int nse
   for( ; !(count >= nseq) && !(i >= 10000000); i = i + 1)
   {
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_1 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
       count = count + 1;
@@ -5305,14 +5305,14 @@ extern signed int ReadFasta_sub(struct _IO_FILE *fp, double *dis, signed int nse
   i = 0;
   for( ; !(count >= nseq) && !(i >= 100000); i = i + 1)
   {
-    char *return_value_fgets$2;
-    return_value_fgets$2=fgets(b, 256 - 1, fp);
-    if(!(return_value_fgets$2 == ((char *)NULL)))
+    char *return_value_fgets_2;
+    return_value_fgets_2=fgets(b, 256 - 1, fp);
+    if(!(return_value_fgets_2 == ((char *)NULL)))
       break;
 
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(name[(signed long int)junban[(signed long int)count]], b, (unsigned long int)20);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(name[(signed long int)junban[(signed long int)count]], b, (unsigned long int)20);
+    if(return_value_strncmp_3 == 0)
     {
       fgets(b, 256 - 1, fp);
       dis[(signed long int)junban[(signed long int)count]]=atof(b);
@@ -5339,9 +5339,9 @@ extern signed int ReadOpt(struct _IO_FILE *fp, signed int *opt, signed int nseq,
   for( ; !(count >= nseq) && !(i >= 10000000); i = i + 1)
   {
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_1 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
       sscanf(b + (signed long int)50, "%d %d %d", &initn, &init1, &optt);
@@ -5366,9 +5366,9 @@ extern signed int ReadOpt2(struct _IO_FILE *fp, signed int *opt, signed int nseq
   for( ; !(count >= nseq) && !(i >= 10000000); i = i + 1)
   {
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_1 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
       opt[(signed long int)junban[(signed long int)count]]=atoi(b + (signed long int)65);
@@ -5393,9 +5393,9 @@ extern signed int ReadSsearch(struct _IO_FILE *fp, double *dis, signed int nseq,
   for( ; !(count >= nseq) && !(i >= 10000000); i = i + 1)
   {
     fgets(b, 256 - 1, fp);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp("+==========+", b, (unsigned long int)12);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp("+==========+", b, (unsigned long int)12);
+    if(return_value_strncmp_1 == 0)
     {
       junban[(signed long int)count]=atoi(b + (signed long int)12);
       sscanf(b + (signed long int)75, "%d", &opt);
@@ -5414,9 +5414,9 @@ void ReallocateCharMtx(char **mtx, signed int l1, signed int l2)
   signed int i = 0;
   for( ; !(i >= l1); i = i + 1)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)mtx[(signed long int)i], (unsigned long int)(l2 + 1) * sizeof(char) /*1ul*/ );
-    mtx[(signed long int)i] = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)mtx[(signed long int)i], (unsigned long int)(l2 + 1) * sizeof(char) /*1ul*/ );
+    mtx[(signed long int)i] = (char *)return_value_realloc_1;
     if(mtx[(signed long int)i] == ((char *)NULL))
       fprintf(stderr, "Cannot reallocate %d x %d character matrix.\n", l1, l2);
 
@@ -5437,9 +5437,9 @@ extern double SSPscore(signed int s, char **seq)
   signed int cob;
   signed int nglen;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score = (double)0;
   nglen = 0;
   i = 0;
@@ -5481,9 +5481,9 @@ double SSPscore___(signed int s, char **seq, signed int ex)
   signed int cob;
   signed int nglen;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score = (double)0;
   nglen = 0;
   i = ex;
@@ -5630,9 +5630,9 @@ extern void WriteForFasta(struct _IO_FILE *fp, signed int locnjob, char **name, 
   i = 0;
   for( ; !(i >= locnjob); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(aseq[(signed long int)i]);
-    nalen[(signed long int)i] = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(aseq[(signed long int)i]);
+    nalen[(signed long int)i] = (signed int)return_value_strlen_1;
     fprintf(fp, ">%s\n", name[(signed long int)i]);
     j = 0;
     for( ; !(j >= nalen[(signed long int)i]); j = j + 60)
@@ -5657,9 +5657,9 @@ extern void WriteGapFill(struct _IO_FILE *fp, signed int locnjob, char (*name)[2
   for( ; !(i >= locnjob); i = i + 1)
   {
     signed int len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(aseq[(signed long int)i]);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(aseq[(signed long int)i]);
+    len = (signed int)return_value_strlen_1;
     if(!(nlenmax >= len))
       nlenmax = len;
 
@@ -5676,13 +5676,13 @@ extern void WriteGapFill(struct _IO_FILE *fp, signed int locnjob, char (*name)[2
   {
     static char buff[5000000l];
     strcpy(buff, aseq[(signed long int)i]);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(aseq[(signed long int)i]);
-    strncat(buff, gap, (unsigned long int)nlenmax - return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(aseq[(signed long int)i]);
+    strncat(buff, gap, (unsigned long int)nlenmax - return_value_strlen_2);
     buff[(signed long int)nlenmax] = (char)0;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(buff);
-    nalen[(signed long int)i] = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(buff);
+    nalen[(signed long int)i] = (signed int)return_value_strlen_3;
     fprintf(fp, "%s\n", (const void *)name[(signed long int)i]);
     fprintf(fp, "%5d\n", nalen[(signed long int)i]);
     j = 0;
@@ -5839,9 +5839,9 @@ static void addlocalhom2_e(struct _LocalHom *pt, struct _LocalHom *lh, signed in
 {
   if(!(pt == lh))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-    pt->next = (struct _LocalHom *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+    pt->next = (struct _LocalHom *)return_value_calloc_1;
     pt = pt->next;
     pt->next = (struct _LocalHom *)(void *)0;
     lh->last = pt;
@@ -5897,9 +5897,9 @@ static signed int addlocalhom_r(char *al1, char *al2, struct _LocalHom *localhom
       localhompt = localhompt->next;
     }
     while((_Bool)1);
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-    localhompt->next = (struct _LocalHom *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+    localhompt->next = (struct _LocalHom *)return_value_calloc_1;
     localhompt = localhompt->next;
     fprintf(stderr, "tmppt = %p, localhompt = %p\n", (void *)tmppt, (void *)localhompt);
   }
@@ -5907,11 +5907,11 @@ static signed int addlocalhom_r(char *al1, char *al2, struct _LocalHom *localhom
   tmppt = localhompt;
   st = 0;
   score = 0.0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int tmp_post$3;
-  char *tmp_post$6;
-  char *tmp_post$7;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int tmp_post_3;
+  char *tmp_post_6;
+  char *tmp_post_7;
   while(!((signed int)*pt1 == 0))
   {
     fprintf(stderr, "In in while loop\n");
@@ -5919,26 +5919,26 @@ static signed int addlocalhom_r(char *al1, char *al2, struct _LocalHom *localhom
     if(st == 1)
     {
       if((signed int)*pt1 == 45)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       end1 = pos1 - 1;
       end2 = pos2 - 1;
-      tmp_post$3 = nlocalhom;
+      tmp_post_3 = nlocalhom;
       nlocalhom = nlocalhom + 1;
-      if(tmp_post$3 >= 1)
+      if(tmp_post_3 >= 1)
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_2;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -5973,24 +5973,24 @@ static signed int addlocalhom_r(char *al1, char *al2, struct _LocalHom *localhom
 
       }
 
-    tmp_post$6 = pt1;
+    tmp_post_6 = pt1;
     pt1 = pt1 + 1l;
-    if(!((signed int)*tmp_post$6 == 45))
+    if(!((signed int)*tmp_post_6 == 45))
       pos1 = pos1 + 1;
 
-    tmp_post$7 = pt2;
+    tmp_post_7 = pt2;
     pt2 = pt2 + 1l;
-    if(!((signed int)*tmp_post$7 == 45))
+    if(!((signed int)*tmp_post_7 == 45))
       pos2 = pos2 + 1;
 
   }
-  signed int tmp_post$9 = nlocalhom;
+  signed int tmp_post_9 = nlocalhom;
   nlocalhom = nlocalhom + 1;
-  if(tmp_post$9 >= 1)
+  if(tmp_post_9 >= 1)
   {
-    void *return_value_calloc$8;
-    return_value_calloc$8=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-    tmppt->next = (struct _LocalHom *)return_value_calloc$8;
+    void *return_value_calloc_8;
+    return_value_calloc_8=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+    tmppt->next = (struct _LocalHom *)return_value_calloc_8;
     tmppt = tmppt->next;
     tmppt->next = (struct _LocalHom *)(void *)0;
   }
@@ -6058,17 +6058,17 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
   double sueff05_double_local = sueff_global * 0.5;
   norg = njobc - 1;
   nstep = njobc - 2;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)2, sizeof(signed int) /*4ul*/ );
-  additionaltopol = (signed int *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)norg, sizeof(signed int) /*4ul*/ );
-  leaf2node = (signed int *)return_value_calloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)2, sizeof(signed int) /*4ul*/ );
+  additionaltopol = (signed int *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)norg, sizeof(signed int) /*4ul*/ );
+  leaf2node = (signed int *)return_value_calloc_2;
   if(!(treeout == 0))
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)(norg * 30), sizeof(char) /*1ul*/ );
-    neighborlist = (char *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)(norg * 30), sizeof(char) /*1ul*/ );
+    neighborlist = (char *)return_value_calloc_3;
   }
 
   if(leaf2node == ((signed int *)NULL))
@@ -6079,9 +6079,9 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 
   additionaltopol[(signed long int)0] = norg;
   additionaltopol[(signed long int)1] = -1;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)norg * sizeof(struct _Bchain) /*24ul*/ );
-  ac = (struct _Bchain *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)norg * sizeof(struct _Bchain) /*24ul*/ );
+  ac = (struct _Bchain *)return_value_malloc_4;
   i = 0;
   for( ; !(i >= norg); i = i + 1)
   {
@@ -6090,9 +6090,9 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
     (ac + (signed long int)i)->pos = i;
   }
   (ac + (signed long int)(norg - 1))->next = (struct _Bchain *)(void *)0;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)1 * sizeof(struct _Bchain) /*24ul*/ );
-  acori = (struct _Bchain *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)1 * sizeof(struct _Bchain) /*24ul*/ );
+  acori = (struct _Bchain *)return_value_malloc_5;
   acori->next = ac;
   acori->pos = -1;
   (ac + (signed long int)0)->prev = acori;
@@ -6141,9 +6141,9 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
         {
           if(nearestnode == -1)
           {
-            void *return_value_realloc$6;
-            return_value_realloc$6=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(1 + 1) * sizeof(signed int) /*4ul*/ );
-            topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc$6;
+            void *return_value_realloc_6;
+            return_value_realloc_6=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(1 + 1) * sizeof(signed int) /*4ul*/ );
+            topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc_6;
             topolc[(signed long int)posinnew][(signed long int)0][(signed long int)0] = nearest;
             topolc[(signed long int)posinnew][(signed long int)0][(signed long int)1] = -1;
             lenc[(signed long int)posinnew][(signed long int)0] = minscore / (double)2;
@@ -6152,13 +6152,13 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 
           else
           {
-            signed int return_value_countmem$7;
-            return_value_countmem$7=countmem(topol[(signed long int)nearestnode][(signed long int)0]);
-            signed int return_value_countmem$8;
-            return_value_countmem$8=countmem(topol[(signed long int)nearestnode][(signed long int)1]);
-            void *return_value_realloc$9;
-            return_value_realloc$9=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem$7 + return_value_countmem$8 + 1) * sizeof(signed int) /*4ul*/ );
-            topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc$9;
+            signed int return_value_countmem_7;
+            return_value_countmem_7=countmem(topol[(signed long int)nearestnode][(signed long int)0]);
+            signed int return_value_countmem_8;
+            return_value_countmem_8=countmem(topol[(signed long int)nearestnode][(signed long int)1]);
+            void *return_value_realloc_9;
+            return_value_realloc_9=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem_7 + return_value_countmem_8 + 1) * sizeof(signed int) /*4ul*/ );
+            topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc_9;
             intcpy(topolc[(signed long int)posinnew][(signed long int)0], topol[(signed long int)nearestnode][(signed long int)0]);
             intcat(topolc[(signed long int)posinnew][(signed long int)0], topol[(signed long int)nearestnode][(signed long int)1]);
             lenc[(signed long int)posinnew][(signed long int)0] = (dep + (signed long int)i)->distfromtip - minscore / (double)2;
@@ -6176,19 +6176,19 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
             for( ; !((*topolc[(signed long int)posinnew])[(signed long int)j] == -1); j = j + 1)
             {
               sprintf(npt, "%d ", topolc[(signed long int)posinnew][(signed long int)0][(signed long int)j] + 1);
-              unsigned long int return_value_strlen$10;
-              return_value_strlen$10=strlen(npt);
-              npt = npt + (signed long int)return_value_strlen$10;
+              unsigned long int return_value_strlen_10;
+              return_value_strlen_10=strlen(npt);
+              npt = npt + (signed long int)return_value_strlen_10;
             }
-            void *return_value_calloc$11;
-            return_value_calloc$11=calloc((unsigned long int)((npt - neighborlist) + (signed long int)1), sizeof(char) /*1ul*/ );
-            (addtree + (signed long int)iadd)->neighbors = (char *)return_value_calloc$11;
+            void *return_value_calloc_11;
+            return_value_calloc_11=calloc((unsigned long int)((npt - neighborlist) + (signed long int)1), sizeof(char) /*1ul*/ );
+            (addtree + (signed long int)iadd)->neighbors = (char *)return_value_calloc_11;
             strcpy((addtree + (signed long int)iadd)->neighbors, neighborlist);
           }
 
-          void *return_value_realloc$12;
-          return_value_realloc$12=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)(1 + 1) * sizeof(signed int) /*4ul*/ );
-          topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc$12;
+          void *return_value_realloc_12;
+          return_value_realloc_12=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)(1 + 1) * sizeof(signed int) /*4ul*/ );
+          topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc_12;
           topolc[(signed long int)posinnew][(signed long int)1][(signed long int)0] = norg;
           topolc[(signed long int)posinnew][(signed long int)1][(signed long int)1] = -1;
           lenc[(signed long int)posinnew][(signed long int)1] = minscore / (double)2;
@@ -6229,11 +6229,11 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 
     if(*(*topol[(signed long int)i]) == repnorg)
     {
-      signed int return_value_countmem$13;
-      return_value_countmem$13=countmem(topol[(signed long int)i][(signed long int)0]);
-      void *return_value_realloc$14;
-      return_value_realloc$14=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem$13 + 2) * sizeof(signed int) /*4ul*/ );
-      topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc$14;
+      signed int return_value_countmem_13;
+      return_value_countmem_13=countmem(topol[(signed long int)i][(signed long int)0]);
+      void *return_value_realloc_14;
+      return_value_realloc_14=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem_13 + 2) * sizeof(signed int) /*4ul*/ );
+      topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc_14;
       intcpy(topolc[(signed long int)posinnew][(signed long int)0], topol[(signed long int)i][(signed long int)0]);
       intcat(topolc[(signed long int)posinnew][(signed long int)0], additionaltopol);
       lenc[(signed long int)posinnew][(signed long int)0] = len[(signed long int)i][(signed long int)0] - addedlen;
@@ -6242,21 +6242,21 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 
     else
     {
-      signed int return_value_countmem$15;
-      return_value_countmem$15=countmem(topol[(signed long int)i][(signed long int)0]);
-      void *return_value_realloc$16;
-      return_value_realloc$16=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem$15 + 1) * sizeof(signed int) /*4ul*/ );
-      topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc$16;
+      signed int return_value_countmem_15;
+      return_value_countmem_15=countmem(topol[(signed long int)i][(signed long int)0]);
+      void *return_value_realloc_16;
+      return_value_realloc_16=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem_15 + 1) * sizeof(signed int) /*4ul*/ );
+      topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc_16;
       intcpy(topolc[(signed long int)posinnew][(signed long int)0], topol[(signed long int)i][(signed long int)0]);
       lenc[(signed long int)posinnew][(signed long int)0] = len[(signed long int)i][(signed long int)0];
     }
     if(*topol[(signed long int)i][1l] == repnorg)
     {
-      signed int return_value_countmem$17;
-      return_value_countmem$17=countmem(topol[(signed long int)i][(signed long int)1]);
-      void *return_value_realloc$18;
-      return_value_realloc$18=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)(return_value_countmem$17 + 2) * sizeof(signed int) /*4ul*/ );
-      topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc$18;
+      signed int return_value_countmem_17;
+      return_value_countmem_17=countmem(topol[(signed long int)i][(signed long int)1]);
+      void *return_value_realloc_18;
+      return_value_realloc_18=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)(return_value_countmem_17 + 2) * sizeof(signed int) /*4ul*/ );
+      topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc_18;
       intcpy(topolc[(signed long int)posinnew][(signed long int)1], topol[(signed long int)i][(signed long int)1]);
       intcat(topolc[(signed long int)posinnew][(signed long int)1], additionaltopol);
       lenc[(signed long int)posinnew][(signed long int)1] = len[(signed long int)i][(signed long int)1] - addedlen;
@@ -6266,11 +6266,11 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 
     else
     {
-      signed int return_value_countmem$19;
-      return_value_countmem$19=countmem(topol[(signed long int)i][(signed long int)1]);
-      void *return_value_realloc$20;
-      return_value_realloc$20=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)(return_value_countmem$19 + 1) * sizeof(signed int) /*4ul*/ );
-      topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc$20;
+      signed int return_value_countmem_19;
+      return_value_countmem_19=countmem(topol[(signed long int)i][(signed long int)1]);
+      void *return_value_realloc_20;
+      return_value_realloc_20=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)(return_value_countmem_19 + 1) * sizeof(signed int) /*4ul*/ );
+      topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc_20;
       intcpy(topolc[(signed long int)posinnew][(signed long int)1], topol[(signed long int)i][(signed long int)1]);
       lenc[(signed long int)posinnew][(signed long int)1] = len[(signed long int)i][(signed long int)1];
     }
@@ -6307,12 +6307,12 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 
   else
   {
-    void *return_value_calloc$21;
-    return_value_calloc$21=calloc((unsigned long int)2, sizeof(signed int) /*4ul*/ );
-    topoldum0 = (signed int *)return_value_calloc$21;
-    void *return_value_calloc$22;
-    return_value_calloc$22=calloc((unsigned long int)1, sizeof(signed int) /*4ul*/ );
-    topoldum1 = (signed int *)return_value_calloc$22;
+    void *return_value_calloc_21;
+    return_value_calloc_21=calloc((unsigned long int)2, sizeof(signed int) /*4ul*/ );
+    topoldum0 = (signed int *)return_value_calloc_21;
+    void *return_value_calloc_22;
+    return_value_calloc_22=calloc((unsigned long int)1, sizeof(signed int) /*4ul*/ );
+    topoldum1 = (signed int *)return_value_calloc_22;
     topoldum0[(signed long int)0] = 0;
     topoldum0[(signed long int)1] = -1;
     topoldum1[(signed long int)0] = -1;
@@ -6321,13 +6321,13 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
   }
   if(repnorg == -1)
   {
-    signed int return_value_countmem$23;
-    return_value_countmem$23=countmem(topolo0);
-    signed int return_value_countmem$24;
-    return_value_countmem$24=countmem(topolo1);
-    void *return_value_realloc$25;
-    return_value_realloc$25=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem$23 + return_value_countmem$24 + 1) * sizeof(signed int) /*4ul*/ );
-    topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc$25;
+    signed int return_value_countmem_23;
+    return_value_countmem_23=countmem(topolo0);
+    signed int return_value_countmem_24;
+    return_value_countmem_24=countmem(topolo1);
+    void *return_value_realloc_25;
+    return_value_realloc_25=realloc((void *)topolc[(signed long int)posinnew][(signed long int)0], (unsigned long int)(return_value_countmem_23 + return_value_countmem_24 + 1) * sizeof(signed int) /*4ul*/ );
+    topolc[(signed long int)posinnew][(signed long int)0] = (signed int *)return_value_realloc_25;
     intcpy(topolc[(signed long int)posinnew][(signed long int)0], topolo0);
     intcat(topolc[(signed long int)posinnew][(signed long int)0], topolo1);
     if(!(nstep == 0))
@@ -6335,9 +6335,9 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 
     else
       lenc[(signed long int)posinnew][(signed long int)0] = minscore / (double)2;
-    void *return_value_realloc$26;
-    return_value_realloc$26=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)2 * sizeof(signed int) /*4ul*/ );
-    topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc$26;
+    void *return_value_realloc_26;
+    return_value_realloc_26=realloc((void *)topolc[(signed long int)posinnew][(signed long int)1], (unsigned long int)2 * sizeof(signed int) /*4ul*/ );
+    topolc[(signed long int)posinnew][(signed long int)1] = (signed int *)return_value_realloc_26;
     intcpy(topolc[(signed long int)posinnew][(signed long int)1], additionaltopol);
     lenc[(signed long int)posinnew][(signed long int)1] = minscore / (double)2;
     neighbor = norg - 1;
@@ -6352,13 +6352,13 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
       for( ; !((*topolc[(signed long int)posinnew])[(signed long int)j] == -1); j = j + 1)
       {
         sprintf(npt, "%d ", topolc[(signed long int)posinnew][(signed long int)0][(signed long int)j] + 1);
-        unsigned long int return_value_strlen$27;
-        return_value_strlen$27=strlen(npt);
-        npt = npt + (signed long int)return_value_strlen$27;
+        unsigned long int return_value_strlen_27;
+        return_value_strlen_27=strlen(npt);
+        npt = npt + (signed long int)return_value_strlen_27;
       }
-      void *return_value_calloc$28;
-      return_value_calloc$28=calloc((unsigned long int)((npt - neighborlist) + (signed long int)1), sizeof(char) /*1ul*/ );
-      (addtree + (signed long int)iadd)->neighbors = (char *)return_value_calloc$28;
+      void *return_value_calloc_28;
+      return_value_calloc_28=calloc((unsigned long int)((npt - neighborlist) + (signed long int)1), sizeof(char) /*1ul*/ );
+      (addtree + (signed long int)iadd)->neighbors = (char *)return_value_calloc_28;
       strcpy((addtree + (signed long int)iadd)->neighbors, neighborlist);
     }
 
@@ -6385,12 +6385,12 @@ extern signed int addonetip(signed int njobc, signed int ***topolc, double **len
 extern signed int allSpace(char *str)
 {
   signed int value = 1;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  char *tmp_post$2;
-  for( ; !(*str == 0); value = value * (signed int)!(((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*tmp_post$2] & (signed int)(unsigned short int)2048) != 0))
+  const unsigned short int **return_value___ctype_b_loc_1;
+  char *tmp_post_2;
+  for( ; !(*str == 0); value = value * (signed int)!(((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*tmp_post_2] & (signed int)(unsigned short int)2048) != 0))
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    tmp_post$2 = str;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    tmp_post_2 = str;
     str = str + 1l;
   }
   return value;
@@ -6538,28 +6538,28 @@ static void * athread(void *arg)
 {
   struct _thread_arg *targ = (struct _thread_arg *)arg;
   signed int thread_no = targ->thread_no;
-  signed int athread$$1$$njob = targ->njob;
+  signed int athread__1__njob = targ->njob;
   signed int *jobpospt = targ->jobpospt;
   signed int **gapmap = targ->gapmap;
   char **nogap = targ->nogap;
-  signed int athread$$1$$nlenmax = targ->nlenmax;
+  signed int athread__1__nlenmax = targ->nlenmax;
   struct _RNApair ***pairprob = targ->pairprob;
   signed int i;
   signed int res;
   struct _IO_FILE *infp;
   char *com;
   char *dirname;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)100, sizeof(char) /*1ul*/ );
-  dirname = (char *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1000, sizeof(char) /*1ul*/ );
-  com = (char *)return_value_calloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)100, sizeof(char) /*1ul*/ );
+  dirname = (char *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1000, sizeof(char) /*1ul*/ );
+  com = (char *)return_value_calloc_2;
   while((_Bool)1)
   {
     pthread_mutex_lock(targ->mutex);
     i = *jobpospt;
-    if(i == athread$$1$$njob)
+    if(i == athread__1__njob)
     {
       pthread_mutex_unlock(targ->mutex);
       break;
@@ -6568,16 +6568,16 @@ static void * athread(void *arg)
     *jobpospt = i + 1;
     pthread_mutex_unlock(targ->mutex);
     commongappick_record(1, nogap + (signed long int)i, gapmap[(signed long int)i]);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(nogap[(signed long int)i]);
-    if(!(return_value_strlen$3 == 0ul))
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(nogap[(signed long int)i]);
+    if(!(return_value_strlen_3 == 0ul))
     {
       sprintf(dirname, "_%d", i);
       sprintf(com, "rm -rf %s", dirname);
       system(com);
       sprintf(com, "mkdir %s", dirname);
       system(com);
-      fprintf(stderr, "%d / %d (by thread %4d)\n", i + 1, athread$$1$$njob, thread_no);
+      fprintf(stderr, "%d / %d (by thread %4d)\n", i + 1, athread__1__njob, thread_no);
       sprintf(com, "%s/_mccaskillinorg", dirname);
       infp=fopen(com, "w");
       fprintf(infp, ">in\n");
@@ -6599,12 +6599,12 @@ static void * athread(void *arg)
 
       sprintf(com, "%s/_mccaskillout", dirname);
       infp=fopen(com, "r");
-      readrawmccaskill(infp, pairprob[(signed long int)i], athread$$1$$nlenmax);
+      readrawmccaskill(infp, pairprob[(signed long int)i], athread__1__nlenmax);
       fclose(infp);
       sprintf(com, "rm -rf %s > /dev/null 2>&1", dirname);
-      signed int return_value_system$4;
-      return_value_system$4=system(com);
-      if(!(return_value_system$4 == 0))
+      signed int return_value_system_4;
+      return_value_system_4=system(com);
+      if(!(return_value_system_4 == 0))
       {
         fprintf(stderr, "retrying to rmdir\n");
         sleep((unsigned int)1);
@@ -6633,9 +6633,9 @@ extern double bscore_calc(char **seq, signed int s, double **eff)
   signed int cob;
   signed int nglen;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   signed long int score = (signed long int)0;
   nglen = 0;
   i = 0;
@@ -6680,9 +6680,9 @@ static void calcfreq(signed int nseq, char **seq, double *datafreq)
   i = 0;
   for( ; !(i >= nseq); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    l = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    l = (signed int)return_value_strlen_1;
     j = 0;
     for( ; !(j >= l); j = j + 1)
     {
@@ -6736,9 +6736,9 @@ static void calcfreq_extended(signed int nseq, char **seq, double *datafreq)
   i = 0;
   for( ; !(i >= nseq); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    l = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    l = (signed int)return_value_strlen_1;
     j = 0;
     for( ; !(j >= l); j = j + 1)
     {
@@ -6787,9 +6787,9 @@ static void calcfreq_nuc(signed int nseq, char **seq, double *datafreq)
   i = 0;
   for( ; !(i >= nseq); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    l = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    l = (signed int)return_value_strlen_1;
     j = 0;
     for( ; !(j >= l); j = j + 1)
     {
@@ -6909,7 +6909,7 @@ extern void calcimportance(signed int nseq, double *eff, char **seq, struct _Loc
 
   }
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= nseq + -1); i = i + 1)
   {
     j = i + 1;
@@ -6923,11 +6923,11 @@ extern void calcimportance(signed int nseq, double *eff, char **seq, struct _Loc
       for( ; !(tmpptr1 == ((struct _LocalHom *)NULL)) && !(tmpptr2 == ((struct _LocalHom *)NULL)); tmpptr2 = tmpptr2->next)
       {
         if(IEEE_FLOAT_EQUAL(tmpptr1->opt, -1.000000))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = IEEE_FLOAT_EQUAL(tmpptr2->opt, -1.0) ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = IEEE_FLOAT_EQUAL(tmpptr2->opt, -1.0) ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_1)
         {
           imp = 0.5 * (tmpptr1->importance + tmpptr2->importance);
           tmpptr2->importance = imp;
@@ -6985,13 +6985,13 @@ static signed int charfilter(unsigned char *str)
   unsigned char tmp;
   unsigned char *res = str;
   unsigned char *bk = str;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
   do
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    tmp = *tmp_post$1;
+    tmp = *tmp_post_1;
     if(tmp == 0)
       break;
 
@@ -7005,9 +7005,9 @@ static signed int charfilter(unsigned char *str)
 
     if(!((signed int)tmp == 0x0a) && !((signed int)tmp == 0x0d) && !((signed int)tmp == 0x20))
     {
-      tmp_post$2 = res;
+      tmp_post_2 = res;
       res = res + 1l;
-      *tmp_post$2 = tmp;
+      *tmp_post_2 = tmp;
     }
 
   }
@@ -7045,9 +7045,9 @@ extern void clustalout_pointer(struct _IO_FILE *fp, signed int nseq, signed int 
     j = 0;
     for( ; !(j >= nseq); j = j + 1)
     {
-      char *return_value_extractfirstword$1;
-      return_value_extractfirstword$1=extractfirstword(name[(signed long int)order[(signed long int)j]] + (signed long int)1);
-      fprintf(fp, "%-*.*s ", namelen, namelen, return_value_extractfirstword$1);
+      char *return_value_extractfirstword_1;
+      return_value_extractfirstword_1=extractfirstword(name[(signed long int)order[(signed long int)j]] + (signed long int)1);
+      fprintf(fp, "%-*.*s ", namelen, namelen, return_value_extractfirstword_1);
       fprintf(fp, "%.60s\n", seq[(signed long int)order[(signed long int)j]] + (signed long int)pos);
     }
     if(!(mark == ((char *)NULL)))
@@ -7088,16 +7088,16 @@ extern void commongappick(signed int nseq, char **seq)
   signed int j;
   signed int count;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   signed int *mapfromnewtoold;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)(len + 1), sizeof(signed int) /*4ul*/ );
-  mapfromnewtoold = (signed int *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)(len + 1), sizeof(signed int) /*4ul*/ );
+  mapfromnewtoold = (signed int *)return_value_calloc_2;
   i = 0;
   count = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; len >= i; i = i + 1)
   {
     j = 0;
@@ -7107,9 +7107,9 @@ extern void commongappick(signed int nseq, char **seq)
 
     if(!(j == nseq))
     {
-      tmp_post$3 = count;
+      tmp_post_3 = count;
       count = count + 1;
-      mapfromnewtoold[(signed long int)tmp_post$3] = i;
+      mapfromnewtoold[(signed long int)tmp_post_3] = i;
     }
 
   }
@@ -7131,9 +7131,9 @@ extern void commongappick_record(signed int nseq, char **seq, signed int *map)
   signed int j;
   signed int count;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   i = 0;
   count = 0;
   for( ; len >= i; i = i + 1)
@@ -7159,19 +7159,19 @@ extern void commongappick_record(signed int nseq, char **seq, signed int *map)
 // file mltaln9.c line 8211
 static void commongappickpair(char *r1, char *r2, char *i1, char *i2)
 {
-  _Bool tmp_if_expr$5;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  _Bool tmp_if_expr_5;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   while(!(*i1 == 0))
   {
     if((signed int)*i1 == 45)
-      tmp_if_expr$5 = (signed int)*i2 == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)*i2 == 45 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       i1 = i1 + 1l;
       i2 = i2 + 1l;
@@ -7179,16 +7179,16 @@ static void commongappickpair(char *r1, char *r2, char *i1, char *i2)
 
     else
     {
-      tmp_post$1 = r1;
+      tmp_post_1 = r1;
       r1 = r1 + 1l;
-      tmp_post$2 = i1;
+      tmp_post_2 = i1;
       i1 = i1 + 1l;
-      *tmp_post$1 = *tmp_post$2;
-      tmp_post$3 = r2;
+      *tmp_post_1 = *tmp_post_2;
+      tmp_post_3 = r2;
       r2 = r2 + 1l;
-      tmp_post$4 = i2;
+      tmp_post_4 = i2;
       i2 = i2 + 1l;
-      *tmp_post$3 = *tmp_post$4;
+      *tmp_post_3 = *tmp_post_4;
     }
   }
   *r1 = (char)0;
@@ -7203,11 +7203,11 @@ static void commongappickpairfast(char *r1, char *r2, char *i1, char *i2, signed
   signed int skipped1;
   signed int skipped2 = 0;
   skipped1 = skipped2;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  for( ; (_Bool)1; *tmp_post$3 = *tmp_post$4)
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  for( ; (_Bool)1; *tmp_post_3 = *tmp_post_4)
   {
     skip=minimum(*skip1 - skipped1, *skip2 - skipped2);
     i1 = i1 + (signed long int)skip;
@@ -7233,14 +7233,14 @@ static void commongappickpairfast(char *r1, char *r2, char *i1, char *i2, signed
 
     else
       skipped2 = skipped2 + 1;
-    tmp_post$1 = r1;
+    tmp_post_1 = r1;
     r1 = r1 + 1l;
-    tmp_post$2 = i1;
+    tmp_post_2 = i1;
     i1 = i1 + 1l;
-    *tmp_post$1 = *tmp_post$2;
-    tmp_post$3 = r2;
+    *tmp_post_1 = *tmp_post_2;
+    tmp_post_3 = r2;
     r2 = r2 + 1l;
-    tmp_post$4 = i2;
+    tmp_post_4 = i2;
     i2 = i2 + 1l;
   }
   *r1 = (char)0;
@@ -7264,23 +7264,23 @@ extern void constants(signed int nseq, char **seq)
 
   else
     trywarp = 1;
-  signed int return_value_shishagonyuu$2;
-  signed int return_value_shishagonyuu$3;
-  signed int return_value_shishagonyuu$4;
-  signed int return_value_shishagonyuu$5;
-  signed int return_value_shishagonyuu$6;
-  signed int return_value_shishagonyuu$8;
+  signed int return_value_shishagonyuu_2;
+  signed int return_value_shishagonyuu_3;
+  signed int return_value_shishagonyuu_4;
+  signed int return_value_shishagonyuu_5;
+  signed int return_value_shishagonyuu_6;
+  signed int return_value_shishagonyuu_8;
   if(dorp == 100)
   {
     signed int k;
     signed int m;
-    double constants$$1$$1$$average;
-    double **constants$$1$$1$$pamx;
-    constants$$1$$1$$pamx=AllocateDoubleMtx(11, 11);
-    double **constants$$1$$1$$pam1;
-    constants$$1$$1$$pam1=AllocateDoubleMtx(4, 4);
-    double *constants$$1$$1$$freq;
-    constants$$1$$1$$freq=AllocateDoubleVec(4);
+    double constants__1__1__average;
+    double **constants__1__1__pamx;
+    constants__1__1__pamx=AllocateDoubleMtx(11, 11);
+    double **constants__1__1__pam1;
+    constants__1__1__pam1=AllocateDoubleMtx(4, 4);
+    double *constants__1__1__freq;
+    constants__1__1__freq=AllocateDoubleVec(4);
     nalphabets = 26;
     nscoredalphabets = 10;
     charsize = 0x80;
@@ -7351,19 +7351,19 @@ extern void constants(signed int nseq, char **seq)
       amino_n[(signed long int)(signed int)amino[(signed long int)i]] = i;
     if(fmodel == 1)
     {
-      calcfreq_nuc(nseq, seq, constants$$1$$1$$freq);
-      reporterr("a, freq[0] = %f\n", constants$$1$$1$$freq[(signed long int)0]);
-      reporterr("g, freq[1] = %f\n", constants$$1$$1$$freq[(signed long int)1]);
-      reporterr("c, freq[2] = %f\n", constants$$1$$1$$freq[(signed long int)2]);
-      reporterr("t, freq[3] = %f\n", constants$$1$$1$$freq[(signed long int)3]);
+      calcfreq_nuc(nseq, seq, constants__1__1__freq);
+      reporterr("a, freq[0] = %f\n", constants__1__1__freq[(signed long int)0]);
+      reporterr("g, freq[1] = %f\n", constants__1__1__freq[(signed long int)1]);
+      reporterr("c, freq[2] = %f\n", constants__1__1__freq[(signed long int)2]);
+      reporterr("t, freq[3] = %f\n", constants__1__1__freq[(signed long int)3]);
     }
 
     else
     {
-      constants$$1$$1$$freq[(signed long int)0] = 0.25;
-      constants$$1$$1$$freq[(signed long int)1] = 0.25;
-      constants$$1$$1$$freq[(signed long int)2] = 0.25;
-      constants$$1$$1$$freq[(signed long int)3] = 0.25;
+      constants__1__1__freq[(signed long int)0] = 0.25;
+      constants__1__1__freq[(signed long int)1] = 0.25;
+      constants__1__1__freq[(signed long int)2] = 0.25;
+      constants__1__1__freq[(signed long int)3] = 0.25;
     }
     if(kimuraR == 9999)
     {
@@ -7372,46 +7372,46 @@ extern void constants(signed int nseq, char **seq)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = (double)locn_disn[(signed long int)i][(signed long int)j];
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = (double)locn_disn[(signed long int)i][(signed long int)j];
       }
-      constants$$1$$1$$average = 0.0;
+      constants__1__1__average = 0.0;
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$average = constants$$1$$1$$average + constants$$1$$1$$pamx[(signed long int)i][(signed long int)j];
+          constants__1__1__average = constants__1__1__average + constants__1__1__pamx[(signed long int)i][(signed long int)j];
       }
-      constants$$1$$1$$average = constants$$1$$1$$average / 16.0;
+      constants__1__1__average = constants__1__1__average / 16.0;
       if(!(disp == 0))
-        reporterr("average = %f\n", constants$$1$$1$$average);
+        reporterr("average = %f\n", constants__1__1__average);
 
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] - constants$$1$$1$$average;
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)i][(signed long int)j] - constants__1__1__average;
       }
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] * (600.0 / constants$$1$$1$$average);
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)i][(signed long int)j] * (600.0 / constants__1__1__average);
       }
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] - (double)offset;
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)i][(signed long int)j] - (double)offset;
       }
     }
 
     else
     {
-      generatenuc1pam(constants$$1$$1$$pam1, kimuraR, constants$$1$$1$$freq);
+      generatenuc1pam(constants__1__1__pam1, kimuraR, constants__1__1__freq);
       reporterr("generating a scoring matrix for nucleotide (dist=%d) ... ", pamN);
       if(!(disp == 0))
       {
@@ -7421,16 +7421,16 @@ extern void constants(signed int nseq, char **seq)
         {
           j = 0;
           for( ; !(j >= 4); j = j + 1)
-            reporterr("%+#6.10f", constants$$1$$1$$pam1[(signed long int)i][(signed long int)j]);
+            reporterr("%+#6.10f", constants__1__1__pam1[(signed long int)i][(signed long int)j]);
           reporterr("\n");
         }
         reporterr("\n");
       }
 
-      MtxuntDouble(constants$$1$$1$$pamx, 4);
+      MtxuntDouble(constants__1__1__pamx, 4);
       x = 0;
       for( ; !(x >= pamN); x = x + 1)
-        MtxmltDouble(constants$$1$$1$$pamx, constants$$1$$1$$pam1, 4);
+        MtxmltDouble(constants__1__1__pamx, constants__1__1__pam1, 4);
       if(!(disp == 0))
       {
         reporterr(" TPM \n");
@@ -7439,7 +7439,7 @@ extern void constants(signed int nseq, char **seq)
         {
           j = 0;
           for( ; !(j >= 4); j = j + 1)
-            reporterr("%+#6.10f", constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
+            reporterr("%+#6.10f", constants__1__1__pamx[(signed long int)i][(signed long int)j]);
           reporterr("\n");
         }
         reporterr("\n");
@@ -7450,7 +7450,7 @@ extern void constants(signed int nseq, char **seq)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] / constants$$1$$1$$freq[(signed long int)j];
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)i][(signed long int)j] / constants__1__1__freq[(signed long int)j];
       }
       i = 0;
       for( ; !(i >= 4); i = i + 1)
@@ -7458,15 +7458,15 @@ extern void constants(signed int nseq, char **seq)
         j = 0;
         for( ; !(j >= 4); j = j + 1)
         {
-          if(IEEE_FLOAT_EQUAL(constants$$1$$1$$pamx[(signed long int)i][(signed long int)j], 0.0))
+          if(IEEE_FLOAT_EQUAL(constants__1__1__pamx[(signed long int)i][(signed long int)j], 0.0))
           {
             reporterr("WARNING: pamx[i][j] = 0.0 ?\n");
-            constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = 0.00001;
+            constants__1__1__pamx[(signed long int)i][(signed long int)j] = 0.00001;
           }
 
-          double return_value_log10$1;
-          return_value_log10$1=log10(constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = return_value_log10$1 * 1000.0;
+          double return_value_log10_1;
+          return_value_log10_1=log10(constants__1__1__pamx[(signed long int)i][(signed long int)j]);
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = return_value_log10_1 * 1000.0;
         }
       }
       if(!(disp == 0))
@@ -7477,44 +7477,44 @@ extern void constants(signed int nseq, char **seq)
         {
           j = 0;
           for( ; !(j >= 4); j = j + 1)
-            reporterr("%+10.6f ", constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
+            reporterr("%+10.6f ", constants__1__1__pamx[(signed long int)i][(signed long int)j]);
           reporterr("\n");
         }
         reporterr("\n");
       }
 
-      constants$$1$$1$$average = 0.0;
+      constants__1__1__average = 0.0;
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$average = constants$$1$$1$$average + constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] * constants$$1$$1$$freq[(signed long int)i] * constants$$1$$1$$freq[(signed long int)j];
+          constants__1__1__average = constants__1__1__average + constants__1__1__pamx[(signed long int)i][(signed long int)j] * constants__1__1__freq[(signed long int)i] * constants__1__1__freq[(signed long int)j];
       }
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] - constants$$1$$1$$average;
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)i][(signed long int)j] - constants__1__1__average;
       }
-      constants$$1$$1$$average = 0.0;
+      constants__1__1__average = 0.0;
       i = 0;
       for( ; !(i >= 4); i = i + 1)
-        constants$$1$$1$$average = constants$$1$$1$$average + (constants$$1$$1$$pamx[(signed long int)i][(signed long int)i] * 1.0) / 4.0;
+        constants__1__1__average = constants__1__1__average + (constants__1__1__pamx[(signed long int)i][(signed long int)i] * 1.0) / 4.0;
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] * (600.0 / constants$$1$$1$$average);
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)i][(signed long int)j] * (600.0 / constants__1__1__average);
       }
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] - (double)offset;
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)i][(signed long int)j] - (double)offset;
       }
       i = 0;
       for( ; !(i >= 4); i = i + 1)
@@ -7522,8 +7522,8 @@ extern void constants(signed int nseq, char **seq)
         j = 0;
         for( ; !(j >= 4); j = j + 1)
         {
-          return_value_shishagonyuu$2=shishagonyuu(constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
-          constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu$2;
+          return_value_shishagonyuu_2=shishagonyuu(constants__1__1__pamx[(signed long int)i][(signed long int)j]);
+          constants__1__1__pamx[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu_2;
         }
       }
       if(!(disp == 0))
@@ -7534,7 +7534,7 @@ extern void constants(signed int nseq, char **seq)
         {
           j = 0;
           for( ; !(j >= 4); j = j + 1)
-            reporterr("%+#6.10f", constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
+            reporterr("%+#6.10f", constants__1__1__pamx[(signed long int)i][(signed long int)j]);
           reporterr("\n");
         }
         reporterr("\n");
@@ -7545,15 +7545,15 @@ extern void constants(signed int nseq, char **seq)
     i = 0;
     for( ; !(i >= 5); i = i + 1)
     {
-      constants$$1$$1$$pamx[(signed long int)4][(signed long int)i] = constants$$1$$1$$pamx[(signed long int)3][(signed long int)i];
-      constants$$1$$1$$pamx[(signed long int)i][(signed long int)4] = constants$$1$$1$$pamx[(signed long int)i][(signed long int)3];
+      constants__1__1__pamx[(signed long int)4][(signed long int)i] = constants__1__1__pamx[(signed long int)3][(signed long int)i];
+      constants__1__1__pamx[(signed long int)i][(signed long int)4] = constants__1__1__pamx[(signed long int)i][(signed long int)3];
     }
     i = 5;
     for( ; !(i >= 10); i = i + 1)
     {
       j = 5;
       for( ; !(j >= 10); j = j + 1)
-        constants$$1$$1$$pamx[(signed long int)i][(signed long int)j] = constants$$1$$1$$pamx[(signed long int)(i - 5)][(signed long int)(j - 5)];
+        constants__1__1__pamx[(signed long int)i][(signed long int)j] = constants__1__1__pamx[(signed long int)(i - 5)][(signed long int)(j - 5)];
     }
     if(!(disp == 0))
     {
@@ -7563,7 +7563,7 @@ extern void constants(signed int nseq, char **seq)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          reporterr("%+#6.10f", constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
+          reporterr("%+#6.10f", constants__1__1__pamx[(signed long int)i][(signed long int)j]);
         reporterr("\n");
       }
       reporterr("\n");
@@ -7577,7 +7577,7 @@ extern void constants(signed int nseq, char **seq)
       {
         j = 0;
         for( ; !(j >= 4); j = j + 1)
-          reporterr("%+#6.10f", constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
+          reporterr("%+#6.10f", constants__1__1__pamx[(signed long int)i][(signed long int)j]);
         reporterr("\n");
       }
       reporterr("\n");
@@ -7602,7 +7602,7 @@ extern void constants(signed int nseq, char **seq)
     {
       j = 0;
       for( ; !(j >= 10); j = j + 1)
-        n_dis[(signed long int)i][(signed long int)j]=shishagonyuu(constants$$1$$1$$pamx[(signed long int)i][(signed long int)j]);
+        n_dis[(signed long int)i][(signed long int)j]=shishagonyuu(constants__1__1__pamx[(signed long int)i][(signed long int)j]);
     }
     ambiguousscore(amino_n, n_dis);
     if(!(disp == 0))
@@ -7620,22 +7620,22 @@ extern void constants(signed int nseq, char **seq)
       reporterr("penalty = %d, penalty_ex = %d\n", penalty, penalty_ex);
     }
 
-    constants$$1$$1$$average = 0.0;
+    constants__1__1__average = 0.0;
     i = 0;
     for( ; !(i >= 4); i = i + 1)
     {
       j = 0;
       for( ; !(j >= 4); j = j + 1)
-        constants$$1$$1$$average = constants$$1$$1$$average + ribosum4[(signed long int)i][(signed long int)j] * constants$$1$$1$$freq[(signed long int)i] * constants$$1$$1$$freq[(signed long int)j];
+        constants__1__1__average = constants__1__1__average + ribosum4[(signed long int)i][(signed long int)j] * constants__1__1__freq[(signed long int)i] * constants__1__1__freq[(signed long int)j];
     }
     i = 0;
     for( ; !(i >= 4); i = i + 1)
     {
       j = 0;
       for( ; !(j >= 4); j = j + 1)
-        ribosum4[(signed long int)i][(signed long int)j] = ribosum4[(signed long int)i][(signed long int)j] - constants$$1$$1$$average;
+        ribosum4[(signed long int)i][(signed long int)j] = ribosum4[(signed long int)i][(signed long int)j] - constants__1__1__average;
     }
-    constants$$1$$1$$average = 0.0;
+    constants__1__1__average = 0.0;
     i = 0;
     for( ; !(i >= 4); i = i + 1)
     {
@@ -7647,7 +7647,7 @@ extern void constants(signed int nseq, char **seq)
         {
           m = 0;
           for( ; !(m >= 4); m = m + 1)
-            constants$$1$$1$$average = constants$$1$$1$$average + ribosum16[(signed long int)(i * 4 + j)][(signed long int)(k * 4 + m)] * constants$$1$$1$$freq[(signed long int)i] * constants$$1$$1$$freq[(signed long int)j] * constants$$1$$1$$freq[(signed long int)k] * constants$$1$$1$$freq[(signed long int)m];
+            constants__1__1__average = constants__1__1__average + ribosum16[(signed long int)(i * 4 + j)][(signed long int)(k * 4 + m)] * constants__1__1__freq[(signed long int)i] * constants__1__1__freq[(signed long int)j] * constants__1__1__freq[(signed long int)k] * constants__1__1__freq[(signed long int)m];
         }
       }
     }
@@ -7656,32 +7656,32 @@ extern void constants(signed int nseq, char **seq)
     {
       j = 0;
       for( ; !(j >= 16); j = j + 1)
-        ribosum16[(signed long int)i][(signed long int)j] = ribosum16[(signed long int)i][(signed long int)j] - constants$$1$$1$$average;
+        ribosum16[(signed long int)i][(signed long int)j] = ribosum16[(signed long int)i][(signed long int)j] - constants__1__1__average;
     }
-    constants$$1$$1$$average = 0.0;
+    constants__1__1__average = 0.0;
     i = 0;
     for( ; !(i >= 4); i = i + 1)
-      constants$$1$$1$$average = constants$$1$$1$$average + ribosum4[(signed long int)i][(signed long int)i] * constants$$1$$1$$freq[(signed long int)i];
+      constants__1__1__average = constants__1__1__average + ribosum4[(signed long int)i][(signed long int)i] * constants__1__1__freq[(signed long int)i];
     i = 0;
     for( ; !(i >= 4); i = i + 1)
     {
       j = 0;
       for( ; !(j >= 4); j = j + 1)
-        ribosum4[(signed long int)i][(signed long int)j] = ribosum4[(signed long int)i][(signed long int)j] * (600.0 / constants$$1$$1$$average);
+        ribosum4[(signed long int)i][(signed long int)j] = ribosum4[(signed long int)i][(signed long int)j] * (600.0 / constants__1__1__average);
     }
-    constants$$1$$1$$average = 0.0;
-    constants$$1$$1$$average = constants$$1$$1$$average + ribosum16[(signed long int)(0 * 4 + 3)][(signed long int)(0 * 4 + 3)] * constants$$1$$1$$freq[(signed long int)0] * constants$$1$$1$$freq[(signed long int)3];
-    constants$$1$$1$$average = constants$$1$$1$$average + ribosum16[(signed long int)(3 * 4 + 0)][(signed long int)(3 * 4 + 0)] * constants$$1$$1$$freq[(signed long int)3] * constants$$1$$1$$freq[(signed long int)0];
-    constants$$1$$1$$average = constants$$1$$1$$average + ribosum16[(signed long int)(1 * 4 + 2)][(signed long int)(1 * 4 + 2)] * constants$$1$$1$$freq[(signed long int)1] * constants$$1$$1$$freq[(signed long int)2];
-    constants$$1$$1$$average = constants$$1$$1$$average + ribosum16[(signed long int)(2 * 4 + 1)][(signed long int)(2 * 4 + 1)] * constants$$1$$1$$freq[(signed long int)2] * constants$$1$$1$$freq[(signed long int)1];
-    constants$$1$$1$$average = constants$$1$$1$$average + ribosum16[(signed long int)(1 * 4 + 3)][(signed long int)(1 * 4 + 3)] * constants$$1$$1$$freq[(signed long int)1] * constants$$1$$1$$freq[(signed long int)3];
-    constants$$1$$1$$average = constants$$1$$1$$average + ribosum16[(signed long int)(3 * 4 + 1)][(signed long int)(3 * 4 + 1)] * constants$$1$$1$$freq[(signed long int)3] * constants$$1$$1$$freq[(signed long int)1];
+    constants__1__1__average = 0.0;
+    constants__1__1__average = constants__1__1__average + ribosum16[(signed long int)(0 * 4 + 3)][(signed long int)(0 * 4 + 3)] * constants__1__1__freq[(signed long int)0] * constants__1__1__freq[(signed long int)3];
+    constants__1__1__average = constants__1__1__average + ribosum16[(signed long int)(3 * 4 + 0)][(signed long int)(3 * 4 + 0)] * constants__1__1__freq[(signed long int)3] * constants__1__1__freq[(signed long int)0];
+    constants__1__1__average = constants__1__1__average + ribosum16[(signed long int)(1 * 4 + 2)][(signed long int)(1 * 4 + 2)] * constants__1__1__freq[(signed long int)1] * constants__1__1__freq[(signed long int)2];
+    constants__1__1__average = constants__1__1__average + ribosum16[(signed long int)(2 * 4 + 1)][(signed long int)(2 * 4 + 1)] * constants__1__1__freq[(signed long int)2] * constants__1__1__freq[(signed long int)1];
+    constants__1__1__average = constants__1__1__average + ribosum16[(signed long int)(1 * 4 + 3)][(signed long int)(1 * 4 + 3)] * constants__1__1__freq[(signed long int)1] * constants__1__1__freq[(signed long int)3];
+    constants__1__1__average = constants__1__1__average + ribosum16[(signed long int)(3 * 4 + 1)][(signed long int)(3 * 4 + 1)] * constants__1__1__freq[(signed long int)3] * constants__1__1__freq[(signed long int)1];
     i = 0;
     for( ; !(i >= 16); i = i + 1)
     {
       j = 0;
       for( ; !(j >= 16); j = j + 1)
-        ribosum16[(signed long int)i][(signed long int)j] = ribosum16[(signed long int)i][(signed long int)j] * (600.0 / constants$$1$$1$$average);
+        ribosum16[(signed long int)i][(signed long int)j] = ribosum16[(signed long int)i][(signed long int)j] * (600.0 / constants__1__1__average);
     }
     i = 0;
     for( ; !(i >= 4); i = i + 1)
@@ -7703,8 +7703,8 @@ extern void constants(signed int nseq, char **seq)
       j = 0;
       for( ; !(j >= 4); j = j + 1)
       {
-        return_value_shishagonyuu$3=shishagonyuu(ribosum4[(signed long int)i][(signed long int)j]);
-        ribosum4[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu$3;
+        return_value_shishagonyuu_3=shishagonyuu(ribosum4[(signed long int)i][(signed long int)j]);
+        ribosum4[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu_3;
       }
     }
     i = 0;
@@ -7713,8 +7713,8 @@ extern void constants(signed int nseq, char **seq)
       j = 0;
       for( ; !(j >= 16); j = j + 1)
       {
-        return_value_shishagonyuu$4=shishagonyuu(ribosum16[(signed long int)i][(signed long int)j]);
-        ribosum16[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu$4;
+        return_value_shishagonyuu_4=shishagonyuu(ribosum16[(signed long int)i][(signed long int)j]);
+        ribosum16[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu_4;
       }
     }
     if(!(disp == 0))
@@ -7793,28 +7793,28 @@ extern void constants(signed int nseq, char **seq)
     }
 
     reporterr("done\n");
-    FreeDoubleMtx(constants$$1$$1$$pam1);
-    FreeDoubleMtx(constants$$1$$1$$pamx);
-    free((void *)constants$$1$$1$$freq);
+    FreeDoubleMtx(constants__1__1__pam1);
+    FreeDoubleMtx(constants__1__1__pamx);
+    free((void *)constants__1__1__freq);
   }
 
   else
     if(dorp == 112 && nblosum == -2 && scoremtx == 1)
     {
-      double *constants$$1$$2$$freq;
-      double *constants$$1$$2$$freq1;
-      double *constants$$1$$2$$datafreq;
-      double constants$$1$$2$$average;
-      double **constants$$1$$2$$n_distmp;
+      double *constants__1__2__freq;
+      double *constants__1__2__freq1;
+      double *constants__1__2__datafreq;
+      double constants__1__2__average;
+      double **constants__1__2__n_distmp;
       nalphabets = 0x100;
       nscoredalphabets = 0x100;
       charsize = 0x100;
       reporterr("nalphabets = %d\n", nalphabets);
       n_dis=AllocateIntMtx(nalphabets, nalphabets);
       n_disLN=AllocateDoubleMtx(nalphabets, nalphabets);
-      constants$$1$$2$$n_distmp=AllocateDoubleMtx(nalphabets, nalphabets);
-      constants$$1$$2$$datafreq=AllocateDoubleVec(nalphabets);
-      constants$$1$$2$$freq=AllocateDoubleVec(nalphabets);
+      constants__1__2__n_distmp=AllocateDoubleMtx(nalphabets, nalphabets);
+      constants__1__2__datafreq=AllocateDoubleVec(nalphabets);
+      constants__1__2__freq=AllocateDoubleVec(nalphabets);
       if(ppenalty == 100009)
         ppenalty = -1530;
 
@@ -7850,7 +7850,7 @@ extern void constants(signed int nseq, char **seq)
       offsetLN = (signed int)((600.0 / 1000.0) * (double)100 + 0.5);
       penaltyLN = (signed int)((600.0 / 1000.0) * (double)-2000 + 0.5);
       penalty_exLN = (signed int)((600.0 / 1000.0) * (double)-100 + 0.5);
-      extendedmtx(constants$$1$$2$$n_distmp, constants$$1$$2$$freq, amino, amino_grp);
+      extendedmtx(constants__1__2__n_distmp, constants__1__2__freq, amino, amino_grp);
       if(!(trywarp == 0))
         sprintf(shiftmodel, "%4.2f", -((double)penalty_shift) / (double)600);
 
@@ -7865,26 +7865,26 @@ extern void constants(signed int nseq, char **seq)
         amino_n[(signed long int)(unsigned char)amino[(signed long int)i]] = i;
       if(fmodel == 1)
       {
-        calcfreq_extended(nseq, seq, constants$$1$$2$$datafreq);
-        constants$$1$$2$$freq1 = constants$$1$$2$$datafreq;
+        calcfreq_extended(nseq, seq, constants__1__2__datafreq);
+        constants__1__2__freq1 = constants__1__2__datafreq;
       }
 
       else
-        constants$$1$$2$$freq1 = constants$$1$$2$$freq;
+        constants__1__2__freq1 = constants__1__2__freq;
       if(fmodel == -1)
-        constants$$1$$2$$average = 0.0;
+        constants__1__2__average = 0.0;
 
       else
       {
         i = 0;
         for( ; !(i >= nalphabets); i = i + 1)
-          constants$$1$$2$$average = 0.0;
+          constants__1__2__average = 0.0;
         i = 0;
         for( ; !(i >= nalphabets); i = i + 1)
         {
           j = 0;
           for( ; !(j >= nalphabets); j = j + 1)
-            constants$$1$$2$$average = constants$$1$$2$$average + constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] * constants$$1$$2$$freq1[(signed long int)i] * constants$$1$$2$$freq1[(signed long int)j];
+            constants__1__2__average = constants__1__2__average + constants__1__2__n_distmp[(signed long int)i][(signed long int)j] * constants__1__2__freq1[(signed long int)i] * constants__1__2__freq1[(signed long int)j];
         }
       }
       i = 0;
@@ -7892,25 +7892,25 @@ extern void constants(signed int nseq, char **seq)
       {
         j = 0;
         for( ; !(j >= nalphabets); j = j + 1)
-          constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] = constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] - constants$$1$$2$$average;
+          constants__1__2__n_distmp[(signed long int)i][(signed long int)j] = constants__1__2__n_distmp[(signed long int)i][(signed long int)j] - constants__1__2__average;
       }
-      constants$$1$$2$$average = 0.0;
+      constants__1__2__average = 0.0;
       i = 0;
       for( ; !(i >= nalphabets); i = i + 1)
-        constants$$1$$2$$average = constants$$1$$2$$average + constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)i] * constants$$1$$2$$freq1[(signed long int)i];
+        constants__1__2__average = constants__1__2__average + constants__1__2__n_distmp[(signed long int)i][(signed long int)i] * constants__1__2__freq1[(signed long int)i];
       i = 0;
       for( ; !(i >= nalphabets); i = i + 1)
       {
         j = 0;
         for( ; !(j >= nalphabets); j = j + 1)
-          constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] = constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] * (600.0 / constants$$1$$2$$average);
+          constants__1__2__n_distmp[(signed long int)i][(signed long int)j] = constants__1__2__n_distmp[(signed long int)i][(signed long int)j] * (600.0 / constants__1__2__average);
       }
       i = 0;
       for( ; !(i >= nalphabets); i = i + 1)
       {
         j = 0;
         for( ; !(j >= nalphabets); j = j + 1)
-          constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] = constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] - (double)offset;
+          constants__1__2__n_distmp[(signed long int)i][(signed long int)j] = constants__1__2__n_distmp[(signed long int)i][(signed long int)j] - (double)offset;
       }
       i = 0;
       for( ; !(i >= nalphabets); i = i + 1)
@@ -7918,8 +7918,8 @@ extern void constants(signed int nseq, char **seq)
         j = 0;
         for( ; !(j >= nalphabets); j = j + 1)
         {
-          return_value_shishagonyuu$5=shishagonyuu(constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j]);
-          constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu$5;
+          return_value_shishagonyuu_5=shishagonyuu(constants__1__2__n_distmp[(signed long int)i][(signed long int)j]);
+          constants__1__2__n_distmp[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu_5;
         }
       }
       if(!(disp == 0))
@@ -7927,7 +7927,7 @@ extern void constants(signed int nseq, char **seq)
         fprintf(stdout, "freq = \n");
         i = 0;
         for( ; !(i >= nalphabets); i = i + 1)
-          fprintf(stdout, "%c %f\n", amino[(signed long int)i], constants$$1$$2$$freq1[(signed long int)i]);
+          fprintf(stdout, "%c %f\n", amino[(signed long int)i], constants__1__2__freq1[(signed long int)i]);
         fprintf(stdout, " scoring matrix  \n");
         i = 0;
         for( ; !(i >= nalphabets); i = i + 1)
@@ -7935,27 +7935,27 @@ extern void constants(signed int nseq, char **seq)
           fprintf(stdout, "%c    ", amino[(signed long int)i]);
           j = 0;
           for( ; !(j >= nalphabets); j = j + 1)
-            fprintf(stdout, "%5.0f", constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j]);
+            fprintf(stdout, "%5.0f", constants__1__2__n_distmp[(signed long int)i][(signed long int)j]);
           fprintf(stdout, "\n");
         }
         fprintf(stdout, "     ");
         i = 0;
         for( ; !(i >= nalphabets); i = i + 1)
           fprintf(stdout, "    %c", amino[(signed long int)i]);
-        constants$$1$$2$$average = 0.0;
+        constants__1__2__average = 0.0;
         i = 0;
         for( ; !(i >= nalphabets); i = i + 1)
         {
           j = 0;
           for( ; !(j >= nalphabets); j = j + 1)
-            constants$$1$$2$$average = constants$$1$$2$$average + constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j] * constants$$1$$2$$freq1[(signed long int)i] * constants$$1$$2$$freq1[(signed long int)j];
+            constants__1__2__average = constants__1__2__average + constants__1__2__n_distmp[(signed long int)i][(signed long int)j] * constants__1__2__freq1[(signed long int)i] * constants__1__2__freq1[(signed long int)j];
         }
-        fprintf(stdout, "average = %f\n", constants$$1$$2$$average);
-        constants$$1$$2$$average = 0.0;
+        fprintf(stdout, "average = %f\n", constants__1__2__average);
+        constants__1__2__average = 0.0;
         i = 0;
         for( ; !(i >= nalphabets); i = i + 1)
-          constants$$1$$2$$average = constants$$1$$2$$average + constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)i] * constants$$1$$2$$freq1[(signed long int)i];
-        fprintf(stdout, "itch average = %f\n", constants$$1$$2$$average);
+          constants__1__2__average = constants__1__2__average + constants__1__2__n_distmp[(signed long int)i][(signed long int)i] * constants__1__2__freq1[(signed long int)i];
+        fprintf(stdout, "itch average = %f\n", constants__1__2__average);
         reporterr("parameters: %d, %d, %d\n", penalty, penalty_ex, offset);
         exit(1);
       }
@@ -7972,7 +7972,7 @@ extern void constants(signed int nseq, char **seq)
       {
         j = 0;
         for( ; !(j >= nalphabets); j = j + 1)
-          n_dis[(signed long int)i][(signed long int)j] = (signed int)constants$$1$$2$$n_distmp[(signed long int)i][(signed long int)j];
+          n_dis[(signed long int)i][(signed long int)j] = (signed int)constants__1__2__n_distmp[(signed long int)i][(signed long int)j];
       }
       i = 0;
       for( ; !(i >= nalphabets); i = i + 1)
@@ -7984,18 +7984,18 @@ extern void constants(signed int nseq, char **seq)
           n_dis[(signed long int)i][(signed long int)amino_n[(signed long int)45]] = n_dis[(signed long int)amino_n[(signed long int)45]][(signed long int)i];
         }
       }
-      FreeDoubleMtx(constants$$1$$2$$n_distmp);
-      FreeDoubleVec(constants$$1$$2$$datafreq);
-      FreeDoubleVec(constants$$1$$2$$freq);
+      FreeDoubleMtx(constants__1__2__n_distmp);
+      FreeDoubleVec(constants__1__2__datafreq);
+      FreeDoubleVec(constants__1__2__freq);
       reporterr("done.\n");
     }
 
     else
       if(dorp == 112 && scoremtx == 1)
       {
-        double *constants$$1$$3$$freq;
-        double *constants$$1$$3$$freq1;
-        double *constants$$1$$3$$datafreq;
+        double *constants__1__3__freq;
+        double *constants__1__3__freq1;
+        double *constants__1__3__datafreq;
         double average;
         double iaverage;
         double **n_distmp;
@@ -8020,8 +8020,8 @@ extern void constants(signed int nseq, char **seq)
         n_dis=AllocateIntMtx(nalphabets, nalphabets);
         n_disLN=AllocateDoubleMtx(nalphabets, nalphabets);
         n_distmp=AllocateDoubleMtx(20, 20);
-        constants$$1$$3$$datafreq=AllocateDoubleVec(20);
-        constants$$1$$3$$freq=AllocateDoubleVec(20);
+        constants__1__3__datafreq=AllocateDoubleVec(20);
+        constants__1__3__freq=AllocateDoubleVec(20);
         if(ppenalty == 100009)
           ppenalty = -1530;
 
@@ -8057,7 +8057,7 @@ extern void constants(signed int nseq, char **seq)
         offsetLN = (signed int)((600.0 / 1000.0) * (double)100 + 0.5);
         penaltyLN = (signed int)((600.0 / 1000.0) * (double)-2000 + 0.5);
         penalty_exLN = (signed int)((600.0 / 1000.0) * (double)-100 + 0.5);
-        BLOSUMmtx(nblosum, n_distmp, constants$$1$$3$$freq, (char *)amino, amino_grp);
+        BLOSUMmtx(nblosum, n_distmp, constants__1__3__freq, (char *)amino, amino_grp);
         if(!(trywarp == 0))
           sprintf(shiftmodel, "%4.2f", -((double)penalty_shift) / (double)600);
 
@@ -8076,12 +8076,12 @@ extern void constants(signed int nseq, char **seq)
           amino_n[(signed long int)(signed int)amino[(signed long int)i]] = i;
         if(fmodel == 1)
         {
-          calcfreq(nseq, seq, constants$$1$$3$$datafreq);
-          constants$$1$$3$$freq1 = constants$$1$$3$$datafreq;
+          calcfreq(nseq, seq, constants__1__3__datafreq);
+          constants__1__3__freq1 = constants__1__3__datafreq;
         }
 
         else
-          constants$$1$$3$$freq1 = constants$$1$$3$$freq;
+          constants__1__3__freq1 = constants__1__3__freq;
         if(fmodel == -1)
           average = 0.0;
 
@@ -8095,7 +8095,7 @@ extern void constants(signed int nseq, char **seq)
           {
             j = 0;
             for( ; !(j >= 20); j = j + 1)
-              average = average + n_distmp[(signed long int)i][(signed long int)j] * constants$$1$$3$$freq1[(signed long int)i] * constants$$1$$3$$freq1[(signed long int)j];
+              average = average + n_distmp[(signed long int)i][(signed long int)j] * constants__1__3__freq1[(signed long int)i] * constants__1__3__freq1[(signed long int)j];
           }
         }
         if(!(makeaverage0 == 0))
@@ -8112,7 +8112,7 @@ extern void constants(signed int nseq, char **seq)
         average = 0.0;
         i = 0;
         for( ; !(i >= 20); i = i + 1)
-          average = average + n_distmp[(signed long int)i][(signed long int)i] * constants$$1$$3$$freq1[(signed long int)i];
+          average = average + n_distmp[(signed long int)i][(signed long int)i] * constants__1__3__freq1[(signed long int)i];
         i = 0;
         for( ; !(i >= 20); i = i + 1)
         {
@@ -8133,8 +8133,8 @@ extern void constants(signed int nseq, char **seq)
           j = 0;
           for( ; !(j >= 20); j = j + 1)
           {
-            return_value_shishagonyuu$6=shishagonyuu(n_distmp[(signed long int)i][(signed long int)j]);
-            n_distmp[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu$6;
+            return_value_shishagonyuu_6=shishagonyuu(n_distmp[(signed long int)i][(signed long int)j]);
+            n_distmp[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu_6;
           }
         }
         if(!(disp == 0))
@@ -8159,13 +8159,13 @@ extern void constants(signed int nseq, char **seq)
           {
             j = 0;
             for( ; !(j >= 20); j = j + 1)
-              average = average + n_distmp[(signed long int)i][(signed long int)j] * constants$$1$$3$$freq1[(signed long int)i] * constants$$1$$3$$freq1[(signed long int)j];
+              average = average + n_distmp[(signed long int)i][(signed long int)j] * constants__1__3__freq1[(signed long int)i] * constants__1__3__freq1[(signed long int)j];
           }
           fprintf(stdout, "\naverage = %f\n", average);
           iaverage = 0.0;
           i = 0;
           for( ; !(i >= 20); i = i + 1)
-            iaverage = iaverage + n_distmp[(signed long int)i][(signed long int)i] * constants$$1$$3$$freq1[(signed long int)i];
+            iaverage = iaverage + n_distmp[(signed long int)i][(signed long int)i] * constants__1__3__freq1[(signed long int)i];
           fprintf(stdout, "itch average = %f, E=%f\n", iaverage, average / iaverage);
           reporterr("parameters: %d, %d, %d\n", penalty, penalty_ex, offset);
           exit(1);
@@ -8186,8 +8186,8 @@ extern void constants(signed int nseq, char **seq)
             n_dis[(signed long int)i][(signed long int)j] = (signed int)n_distmp[(signed long int)i][(signed long int)j];
         }
         FreeDoubleMtx(n_distmp);
-        FreeDoubleVec(constants$$1$$3$$datafreq);
-        FreeDoubleVec(constants$$1$$3$$freq);
+        FreeDoubleVec(constants__1__3__datafreq);
+        FreeDoubleVec(constants__1__3__freq);
         reporterr("done.\n");
       }
 
@@ -8207,11 +8207,11 @@ extern void constants(signed int nseq, char **seq)
           double *freq1;
           double *mutab;
           double *datafreq;
-          double constants$$1$$5$$average;
-          double constants$$1$$5$$iaverage;
+          double constants__1__5__average;
+          double constants__1__5__iaverage;
           double tmp;
           double delta;
-          signed int constants$$1$$5$$makeaverage0;
+          signed int constants__1__5__makeaverage0;
           nalphabets = 26;
           nscoredalphabets = 20;
           charsize = 0x80;
@@ -8256,11 +8256,11 @@ extern void constants(signed int nseq, char **seq)
           if(!(pamN >= 0))
           {
             pamN = pamN * -1;
-            constants$$1$$5$$makeaverage0 = 0;
+            constants__1__5__makeaverage0 = 0;
           }
 
           else
-            constants$$1$$5$$makeaverage0 = 1;
+            constants__1__5__makeaverage0 = 1;
           penalty = (signed int)((600.0 / 1000.0) * (double)ppenalty + 0.5);
           penalty_dist = (signed int)((600.0 / 1000.0) * (double)ppenalty_dist + 0.5);
           penalty_shift = (signed int)(penalty_shift_factor * (double)penalty);
@@ -8352,46 +8352,46 @@ extern void constants(signed int nseq, char **seq)
                 pamx[(signed long int)i][(signed long int)j] = 0.00001;
               }
 
-              double return_value_log10$7;
-              return_value_log10$7=log10(pamx[(signed long int)i][(signed long int)j]);
-              pamx[(signed long int)i][(signed long int)j] = return_value_log10$7 * 1000.0;
+              double return_value_log10_7;
+              return_value_log10_7=log10(pamx[(signed long int)i][(signed long int)j]);
+              pamx[(signed long int)i][(signed long int)j] = return_value_log10_7 * 1000.0;
             }
           }
           if(fmodel == -1)
-            constants$$1$$5$$average = 0.0;
+            constants__1__5__average = 0.0;
 
           else
           {
-            constants$$1$$5$$average = 0.0;
+            constants__1__5__average = 0.0;
             i = 0;
             for( ; !(i >= 20); i = i + 1)
             {
               j = 0;
               for( ; !(j >= 20); j = j + 1)
-                constants$$1$$5$$average = constants$$1$$5$$average + pamx[(signed long int)i][(signed long int)j] * freq1[(signed long int)i] * freq1[(signed long int)j];
+                constants__1__5__average = constants__1__5__average + pamx[(signed long int)i][(signed long int)j] * freq1[(signed long int)i] * freq1[(signed long int)j];
             }
           }
-          if(!(constants$$1$$5$$makeaverage0 == 0))
+          if(!(constants__1__5__makeaverage0 == 0))
           {
             i = 0;
             for( ; !(i >= 20); i = i + 1)
             {
               j = 0;
               for( ; !(j >= 20); j = j + 1)
-                pamx[(signed long int)i][(signed long int)j] = pamx[(signed long int)i][(signed long int)j] - constants$$1$$5$$average;
+                pamx[(signed long int)i][(signed long int)j] = pamx[(signed long int)i][(signed long int)j] - constants__1__5__average;
             }
           }
 
-          constants$$1$$5$$average = 0.0;
+          constants__1__5__average = 0.0;
           i = 0;
           for( ; !(i >= 20); i = i + 1)
-            constants$$1$$5$$average = constants$$1$$5$$average + pamx[(signed long int)i][(signed long int)i] * freq1[(signed long int)i];
+            constants__1__5__average = constants__1__5__average + pamx[(signed long int)i][(signed long int)i] * freq1[(signed long int)i];
           i = 0;
           for( ; !(i >= 20); i = i + 1)
           {
             j = 0;
             for( ; !(j >= 20); j = j + 1)
-              pamx[(signed long int)i][(signed long int)j] = pamx[(signed long int)i][(signed long int)j] * (600.0 / constants$$1$$5$$average);
+              pamx[(signed long int)i][(signed long int)j] = pamx[(signed long int)i][(signed long int)j] * (600.0 / constants__1__5__average);
           }
           i = 0;
           for( ; !(i >= 20); i = i + 1)
@@ -8406,8 +8406,8 @@ extern void constants(signed int nseq, char **seq)
             j = 0;
             for( ; !(j >= 20); j = j + 1)
             {
-              return_value_shishagonyuu$8=shishagonyuu(pamx[(signed long int)i][(signed long int)j]);
-              pamx[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu$8;
+              return_value_shishagonyuu_8=shishagonyuu(pamx[(signed long int)i][(signed long int)j]);
+              pamx[(signed long int)i][(signed long int)j] = (double)return_value_shishagonyuu_8;
             }
           }
           if(!(disp == 0))
@@ -8426,20 +8426,20 @@ extern void constants(signed int nseq, char **seq)
             i = 0;
             for( ; !(i >= 20); i = i + 1)
               fprintf(stdout, "    %c", amino[(signed long int)i]);
-            constants$$1$$5$$average = 0.0;
+            constants__1__5__average = 0.0;
             i = 0;
             for( ; !(i >= 20); i = i + 1)
             {
               j = 0;
               for( ; !(j >= 20); j = j + 1)
-                constants$$1$$5$$average = constants$$1$$5$$average + pamx[(signed long int)i][(signed long int)j] * freq1[(signed long int)i] * freq1[(signed long int)j];
+                constants__1__5__average = constants__1__5__average + pamx[(signed long int)i][(signed long int)j] * freq1[(signed long int)i] * freq1[(signed long int)j];
             }
-            fprintf(stdout, "\naverage = %f\n", constants$$1$$5$$average);
-            constants$$1$$5$$iaverage = 0.0;
+            fprintf(stdout, "\naverage = %f\n", constants__1__5__average);
+            constants__1__5__iaverage = 0.0;
             i = 0;
             for( ; !(i >= 20); i = i + 1)
-              constants$$1$$5$$iaverage = constants$$1$$5$$iaverage + pamx[(signed long int)i][(signed long int)i] * freq1[(signed long int)i];
-            fprintf(stdout, "itch average = %f, E=%f\n", constants$$1$$5$$average, constants$$1$$5$$average / constants$$1$$5$$iaverage);
+              constants__1__5__iaverage = constants__1__5__iaverage + pamx[(signed long int)i][(signed long int)i] * freq1[(signed long int)i];
+            fprintf(stdout, "itch average = %f, E=%f\n", constants__1__5__average, constants__1__5__average / constants__1__5__iaverage);
             reporterr("parameters: %d, %d, %d\n", penalty, penalty_ex, offset);
             exit(1);
           }
@@ -8617,9 +8617,9 @@ extern signed int copydatafromgui(char **namegui, char **seqgui, char **name, si
     strncpy(name[(signed long int)i] + (signed long int)1, namegui[(signed long int)i], (unsigned long int)(256 - 2));
     name[(signed long int)i][(signed long int)(256 - 1)] = (char)0;
     strcpy(seq[(signed long int)i], seqgui[(signed long int)i]);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    nlen[(signed long int)i] = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    nlen[(signed long int)i] = (signed int)return_value_strlen_1;
   }
   if(dorp == 100)
     seqLower(njob, seq);
@@ -8637,9 +8637,9 @@ extern signed int copydatafromgui(char **namegui, char **seqgui, char **name, si
   {
     char *namebuf;
     char *cptr;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)(256 + 100), sizeof(char) /*1ul*/ );
-    namebuf = (char *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)(256 + 100), sizeof(char) /*1ul*/ );
+    namebuf = (char *)return_value_calloc_2;
     i = 0;
     for( ; !(i >= njob); i = i + 1)
     {
@@ -8678,12 +8678,12 @@ extern signed int countATGC(char *s, signed int *total)
   {
     do
     {
-      signed int return_value_tolower$1;
-      return_value_tolower$1=tolower((signed int)*s);
-      c = (char)return_value_tolower$1;
-      const unsigned short int **return_value___ctype_b_loc$2;
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)c]) == 0))
+      signed int return_value_tolower_1;
+      return_value_tolower_1=tolower((signed int)*s);
+      c = (char)return_value_tolower_1;
+      const unsigned short int **return_value___ctype_b_loc_2;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)c]) == 0))
       {
         nChar = nChar + 1;
         if((signed int)c == 97 || (signed int)c == 99 || (signed int)c == 103 || (signed int)c == 110 || (signed int)c == 116 || (signed int)c == 117)
@@ -8710,12 +8710,12 @@ double countATGCbk(char *s)
   nATGC = nChar;
   do
   {
-    signed int return_value_tolower$1;
-    return_value_tolower$1=tolower((signed int)*s);
-    c = (char)return_value_tolower$1;
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((1024 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)c]) == 0))
+    signed int return_value_tolower_1;
+    return_value_tolower_1=tolower((signed int)*s);
+    c = (char)return_value_tolower_1;
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((1024 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)c]) == 0))
     {
       nChar = nChar + 1;
       if((signed int)c == 97 || (signed int)c == 99 || (signed int)c == 103 || (signed int)c == 110 || (signed int)c == 116 || (signed int)c == 117)
@@ -8782,7 +8782,7 @@ extern void counteff(signed int nseq, signed int ***topol, double **len, double 
         ErrorExit("mix error");
     }
 
-  double return_value_ipower$1;
+  double return_value_ipower_1;
   if(weight == 2)
   {
     i = 0;
@@ -8826,8 +8826,8 @@ extern void counteff(signed int nseq, signed int ***topol, double **len, double 
       j = i + 1;
       for( ; !(j >= nseq); j = j + 1)
       {
-        return_value_ipower$1=ipower(0.5, (signed int)node[(signed long int)i][(signed long int)j]);
-        node[(signed long int)i][(signed long int)j] = return_value_ipower$1 + geta2;
+        return_value_ipower_1=ipower(0.5, (signed int)node[(signed long int)i][(signed long int)j]);
+        node[(signed long int)i][(signed long int)j] = return_value_ipower_1 + geta2;
       }
     }
     i = 0;
@@ -9093,12 +9093,12 @@ extern void counteff_simple_double_nostatic(signed int nseq, signed int ***topol
 static signed int countmem(signed int *s)
 {
   signed int v = 0;
-  signed int *tmp_post$1;
+  signed int *tmp_post_1;
   do
   {
-    tmp_post$1 = s;
+    tmp_post_1 = s;
     s = s + 1l;
-    if(*tmp_post$1 == -1)
+    if(*tmp_post_1 == -1)
       break;
 
     v = v + 1;
@@ -9219,12 +9219,12 @@ extern void countnode_int(signed int nseq, signed int ***topol, signed int **nod
 signed int countnogaplen(char *seq)
 {
   signed int val = 0;
-  char *tmp_post$1;
+  char *tmp_post_1;
   while(!(*seq == 0))
   {
-    tmp_post$1 = seq;
+    tmp_post_1 = seq;
     seq = seq + 1l;
-    if(!((signed int)*tmp_post$1 == 45))
+    if(!((signed int)*tmp_post_1 == 45))
       val = val + 1;
 
   }
@@ -9236,14 +9236,14 @@ signed int countnogaplen(char *seq)
 signed int countnormalletters(char *seq, char *ref)
 {
   signed int val = 0;
-  char *tmp_post$1;
-  char *return_value_strchr$2;
+  char *tmp_post_1;
+  char *return_value_strchr_2;
   while(!(*seq == 0))
   {
-    tmp_post$1 = seq;
+    tmp_post_1 = seq;
     seq = seq + 1l;
-    return_value_strchr$2=strchr(ref, (signed int)*tmp_post$1);
-    if(!(return_value_strchr$2 == ((char *)NULL)))
+    return_value_strchr_2=strchr(ref, (signed int)*tmp_post_1);
+    if(!(return_value_strchr_2 == ((char *)NULL)))
       val = val + 1;
 
   }
@@ -9258,7 +9258,7 @@ static signed int countspace(char *s)
   char status = (char)115;
   char *pt = s;
   tab2space(s);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(*pt == 0); pt = pt + 1l)
     if((signed int)*pt == 32)
       status = (char)115;
@@ -9267,18 +9267,18 @@ static signed int countspace(char *s)
       if((signed int)status == 115)
       {
         if((signed int)*pt == 10)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)*pt == 35 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)*pt == 35 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           break;
 
         v = v + 1;
         status = (char)110;
-        signed int return_value_atoi$2;
-        return_value_atoi$2=atoi(pt);
-        if(return_value_atoi$2 == 0)
+        signed int return_value_atoi_2;
+        return_value_atoi_2=atoi(pt);
+        if(return_value_atoi_2 == 0)
         {
           fprintf(stderr, "Format error? Sequences should be specified as 1, 2, 3...\n");
           exit(1);
@@ -9351,7 +9351,7 @@ extern void cutAlignment(struct _IO_FILE *fp, signed int **regtable, char **revt
   signed int lpos;
   signed int startpos;
   signed int endpos;
-  signed int cutAlignment$$1$$seqlen;
+  signed int cutAlignment__1__seqlen;
   static char *dumname = (char *)(void *)0;
   if(dumname == ((char *)NULL))
     dumname=AllocateCharVec(5000000);
@@ -9374,9 +9374,9 @@ extern void cutAlignment(struct _IO_FILE *fp, signed int **regtable, char **revt
       if(dorp == 100 && !(upperCase == -1))
         seqLower(1, &tmpseq);
 
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(tmpseq);
-      cutAlignment$$1$$seqlen = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(tmpseq);
+      cutAlignment__1__seqlen = (signed int)return_value_strlen_1;
       lpos = 0;
       j = 0;
       for( ; !(j >= 5); j = j + 1)
@@ -9402,11 +9402,11 @@ extern void cutAlignment(struct _IO_FILE *fp, signed int **regtable, char **revt
         if(!(endpos >= 0))
           endpos = 0;
 
-        if(endpos >= cutAlignment$$1$$seqlen)
-          endpos = cutAlignment$$1$$seqlen - 1;
+        if(endpos >= cutAlignment__1__seqlen)
+          endpos = cutAlignment__1__seqlen - 1;
 
-        if(startpos >= cutAlignment$$1$$seqlen)
-          startpos = cutAlignment$$1$$seqlen - 1;
+        if(startpos >= cutAlignment__1__seqlen)
+          startpos = cutAlignment__1__seqlen - 1;
 
         outlen = (endpos - startpos) + 1;
         if((signed int)(*revtable)[(signed long int)j] == 102)
@@ -9446,7 +9446,7 @@ extern void cutData(struct _IO_FILE *fp, signed int **regtable, char **revtable,
   signed int i;
   signed int j;
   signed int outlen;
-  signed int cutData$$1$$seqlen;
+  signed int cutData__1__seqlen;
   signed int startpos;
   signed int endpos;
   char *fs;
@@ -9470,16 +9470,16 @@ extern void cutData(struct _IO_FILE *fp, signed int **regtable, char **revtable,
       gappick_samestring(tmpseq);
       _IO_putc(62, stdout);
       puts(dumname + (signed long int)1);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(tmpseq);
-      cutData$$1$$seqlen = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(tmpseq);
+      cutData__1__seqlen = (signed int)return_value_strlen_1;
       if(dorp == 100 && !(upperCase == -1))
         seqLower(1, &tmpseq);
 
       if(outtable[(signed long int)i] == 2)
       {
         startpos = 0;
-        endpos = cutData$$1$$seqlen - 1;
+        endpos = cutData__1__seqlen - 1;
         outlen = (endpos - startpos) + 1;
         fprintf(stdout, "%.*s\n", outlen, tmpseq + (signed long int)startpos);
       }
@@ -9510,11 +9510,11 @@ extern void cutData(struct _IO_FILE *fp, signed int **regtable, char **revtable,
           if(!(endpos >= 0))
             endpos = 0;
 
-          if(endpos >= cutData$$1$$seqlen)
-            endpos = cutData$$1$$seqlen - 1;
+          if(endpos >= cutData__1__seqlen)
+            endpos = cutData__1__seqlen - 1;
 
-          if(startpos >= cutData$$1$$seqlen)
-            startpos = cutData$$1$$seqlen - 1;
+          if(startpos >= cutData__1__seqlen)
+            startpos = cutData__1__seqlen - 1;
 
           outlen = (endpos - startpos) + 1;
           if((signed int)revtable[(signed long int)i][(signed long int)j] == 102)
@@ -9555,7 +9555,7 @@ extern char * cutal(char *al, signed int al_display_start, signed int start, sig
   char *pt = al;
   char *val = (char *)(void *)0;
   pos = al_display_start;
-  char *tmp_post$1;
+  char *tmp_post_1;
   while((_Bool)1)
   {
     if(start == pos)
@@ -9567,9 +9567,9 @@ extern char * cutal(char *al, signed int al_display_start, signed int start, sig
     if(!((signed int)*pt == 45))
       pos = pos + 1;
 
-    tmp_post$1 = pt;
+    tmp_post_1 = pt;
     pt = pt + 1l;
-    if((signed int)*tmp_post$1 == 0)
+    if((signed int)*tmp_post_1 == 0)
       break;
 
   }
@@ -9669,21 +9669,21 @@ extern void dontcalcimportance_firstone(signed int nseq, double *eff, char **seq
 // file mltaln9.c line 6103
 extern void doublencpy(double *vec1, double *vec2, signed int len)
 {
-  signed int tmp_post$1;
-  double *tmp_post$2;
-  double *tmp_post$3;
+  signed int tmp_post_1;
+  double *tmp_post_2;
+  double *tmp_post_3;
   do
   {
-    tmp_post$1 = len;
+    tmp_post_1 = len;
     len = len - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = vec1;
+    tmp_post_2 = vec1;
     vec1 = vec1 + 1l;
-    tmp_post$3 = vec2;
+    tmp_post_3 = vec2;
     vec2 = vec2 + 1l;
-    *tmp_post$2 = *tmp_post$3;
+    *tmp_post_2 = *tmp_post_3;
   }
   while((_Bool)1);
 }
@@ -9811,23 +9811,23 @@ extern void extendlocalhom2(signed int nseq, struct _LocalHom **localhom, double
   }
 
   i = 0;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int *tmp_post$3;
-  signed int tmp_post$4;
-  signed int *tmp_post$5;
-  signed int tmp_post$6;
-  signed int *tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  signed int *tmp_post$10;
-  signed int tmp_post$11;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  double tmp_if_expr$12;
-  double tmp_if_expr$13;
-  _Bool tmp_if_expr$17;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int *tmp_post_3;
+  signed int tmp_post_4;
+  signed int *tmp_post_5;
+  signed int tmp_post_6;
+  signed int *tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  signed int *tmp_post_10;
+  signed int tmp_post_11;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  double tmp_if_expr_12;
+  double tmp_if_expr_13;
+  _Bool tmp_if_expr_17;
   for( ; !(i >= nseq + -1); i = i + 1)
   {
     j = i + 1;
@@ -9838,38 +9838,38 @@ extern void extendlocalhom2(signed int nseq, struct _LocalHom **localhom, double
         if(!(k == i) && !(k == j))
         {
           if(dist[(signed long int)(i >= k ? k : i)][(signed long int)(k >= i ? k : i)] > dist[(signed long int)i][(signed long int)j] * thrinter)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = dist[(signed long int)(j < k ? j : k)][(signed long int)(j > k ? j : k)] > dist[(signed long int)i][(signed long int)j] * thrinter ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = dist[(signed long int)(j < k ? j : k)][(signed long int)(j > k ? j : k)] > dist[(signed long int)i][(signed long int)j] * thrinter ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_1)
           {
             ipt = ini;
             co = nlenmax + 1;
             do
             {
-              tmp_post$2 = co;
+              tmp_post_2 = co;
               co = co - 1;
-              if(tmp_post$2 == 0)
+              if(tmp_post_2 == 0)
                 break;
 
-              tmp_post$3 = ipt;
+              tmp_post_3 = ipt;
               ipt = ipt + 1l;
-              *tmp_post$3 = -1;
+              *tmp_post_3 = -1;
             }
             while((_Bool)1);
             ipt = inj;
             co = nlenmax + 1;
             do
             {
-              tmp_post$4 = co;
+              tmp_post_4 = co;
               co = co - 1;
-              if(tmp_post$4 == 0)
+              if(tmp_post_4 == 0)
                 break;
 
-              tmp_post$5 = ipt;
+              tmp_post_5 = ipt;
               ipt = ipt + 1l;
-              *tmp_post$5 = -1;
+              *tmp_post_5 = -1;
             }
             while((_Bool)1);
             overlp = 0;
@@ -9888,16 +9888,16 @@ extern void extendlocalhom2(signed int nseq, struct _LocalHom **localhom, double
               ipt = ini + (signed long int)pk;
               do
               {
-                tmp_post$6 = len;
+                tmp_post_6 = len;
                 len = len - 1;
-                if(tmp_post$6 == 0)
+                if(tmp_post_6 == 0)
                   break;
 
-                tmp_post$7 = ipt;
+                tmp_post_7 = ipt;
                 ipt = ipt + 1l;
-                tmp_post$8 = pi;
+                tmp_post_8 = pi;
                 pi = pi + 1;
-                *tmp_post$7 = tmp_post$8;
+                *tmp_post_7 = tmp_post_8;
               }
               while((_Bool)1);
             }
@@ -9916,16 +9916,16 @@ extern void extendlocalhom2(signed int nseq, struct _LocalHom **localhom, double
               ipt = inj + (signed long int)pk;
               do
               {
-                tmp_post$9 = len;
+                tmp_post_9 = len;
                 len = len - 1;
-                if(tmp_post$9 == 0)
+                if(tmp_post_9 == 0)
                   break;
 
-                tmp_post$10 = ipt;
+                tmp_post_10 = ipt;
                 ipt = ipt + 1l;
-                tmp_post$11 = pj;
+                tmp_post_11 = pj;
                 pj = pj + 1;
-                *tmp_post$10 = tmp_post$11;
+                *tmp_post_10 = tmp_post_11;
               }
               while((_Bool)1);
             }
@@ -9948,37 +9948,37 @@ extern void extendlocalhom2(signed int nseq, struct _LocalHom **localhom, double
               if(!(status == 0))
               {
                 if(ini[(signed long int)pk] == -1)
-                  tmp_if_expr$14 = (_Bool)1;
+                  tmp_if_expr_14 = (_Bool)1;
 
                 else
-                  tmp_if_expr$14 = inj[(signed long int)pk] == -1 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$14)
-                  tmp_if_expr$15 = (_Bool)1;
+                  tmp_if_expr_14 = inj[(signed long int)pk] == -1 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_14)
+                  tmp_if_expr_15 = (_Bool)1;
 
                 else
-                  tmp_if_expr$15 = ini[(signed long int)(pk - 1)] != ini[(signed long int)pk] - 1 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$15)
-                  tmp_if_expr$16 = (_Bool)1;
+                  tmp_if_expr_15 = ini[(signed long int)(pk - 1)] != ini[(signed long int)pk] - 1 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_15)
+                  tmp_if_expr_16 = (_Bool)1;
 
                 else
-                  tmp_if_expr$16 = inj[(signed long int)(pk - 1)] != inj[(signed long int)pk] - 1 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$16)
+                  tmp_if_expr_16 = inj[(signed long int)(pk - 1)] != inj[(signed long int)pk] - 1 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_16)
                 {
                   status = 0;
                   pt = (localhom[(signed long int)i] + (signed long int)j)->last;
                   if((localhom[(signed long int)i] + (signed long int)k)->opt < (localhom[(signed long int)j] + (signed long int)k)->opt)
-                    tmp_if_expr$12 = (localhom[(signed long int)i] + (signed long int)k)->opt;
+                    tmp_if_expr_12 = (localhom[(signed long int)i] + (signed long int)k)->opt;
 
                   else
-                    tmp_if_expr$12 = (localhom[(signed long int)j] + (signed long int)k)->opt;
-                  addlocalhom2_e(pt, localhom[(signed long int)i] + (signed long int)j, sti, stj, ini[(signed long int)(pk - 1)], inj[(signed long int)(pk - 1)], tmp_if_expr$12 * 1.0, overlp, k);
+                    tmp_if_expr_12 = (localhom[(signed long int)j] + (signed long int)k)->opt;
+                  addlocalhom2_e(pt, localhom[(signed long int)i] + (signed long int)j, sti, stj, ini[(signed long int)(pk - 1)], inj[(signed long int)(pk - 1)], tmp_if_expr_12 * 1.0, overlp, k);
                   pt = (localhom[(signed long int)j] + (signed long int)i)->last;
                   if((localhom[(signed long int)i] + (signed long int)k)->opt < (localhom[(signed long int)j] + (signed long int)k)->opt)
-                    tmp_if_expr$13 = (localhom[(signed long int)i] + (signed long int)k)->opt;
+                    tmp_if_expr_13 = (localhom[(signed long int)i] + (signed long int)k)->opt;
 
                   else
-                    tmp_if_expr$13 = (localhom[(signed long int)j] + (signed long int)k)->opt;
-                  addlocalhom2_e(pt, localhom[(signed long int)j] + (signed long int)i, stj, sti, inj[(signed long int)(pk - 1)], ini[(signed long int)(pk - 1)], tmp_if_expr$13 * 1.0, overlp, k);
+                    tmp_if_expr_13 = (localhom[(signed long int)j] + (signed long int)k)->opt;
+                  addlocalhom2_e(pt, localhom[(signed long int)j] + (signed long int)i, stj, sti, inj[(signed long int)(pk - 1)], ini[(signed long int)(pk - 1)], tmp_if_expr_13 * 1.0, overlp, k);
                 }
 
               }
@@ -9986,11 +9986,11 @@ extern void extendlocalhom2(signed int nseq, struct _LocalHom **localhom, double
               if(status == 0)
               {
                 if(ini[(signed long int)pk] == -1)
-                  tmp_if_expr$17 = (_Bool)1;
+                  tmp_if_expr_17 = (_Bool)1;
 
                 else
-                  tmp_if_expr$17 = inj[(signed long int)pk] == -1 ? (_Bool)1 : (_Bool)0;
-                if(!tmp_if_expr$17)
+                  tmp_if_expr_17 = inj[(signed long int)pk] == -1 ? (_Bool)1 : (_Bool)0;
+                if(!tmp_if_expr_17)
                 {
                   sti = ini[(signed long int)pk];
                   stj = inj[(signed long int)pk];
@@ -10014,15 +10014,15 @@ static char * extractfirstword(char *str)
 {
   char *val = str;
   tabtospace(str);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(*str == 0))
   {
     if(val == str)
-      tmp_if_expr$1 = (signed int)*str == 32 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*str == 32 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       val = val + 1l;
       str = str + 1l;
@@ -10067,9 +10067,9 @@ extern void fastsupg(signed int nseq, double **oeff, signed int ***topol, double
     eff=AllocateFloatMtx(njob, njob);
     pair=AllocateCharMtx(njob, njob);
     tmplen=AllocateFloatVec(njob);
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)njob, sizeof(struct _Achain) /*8ul*/ );
-    ac = (struct _Achain *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)njob, sizeof(struct _Achain) /*8ul*/ );
+    ac = (struct _Achain *)return_value_calloc_1;
   }
 
   i = 0;
@@ -10101,8 +10101,8 @@ extern void fastsupg(signed int nseq, double **oeff, signed int ***topol, double
     pair[(signed long int)i][(signed long int)i] = (char)1;
   reporterr("\n");
   k = 0;
-  signed int *tmp_post$2;
-  signed int *tmp_post$3;
+  signed int *tmp_post_2;
+  signed int *tmp_post_3;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -10130,9 +10130,9 @@ extern void fastsupg(signed int nseq, double **oeff, signed int ***topol, double
     for( ; !(i >= nseq); i = i + 1)
       if((signed int)pair[(signed long int)im][(signed long int)i] >= 1)
       {
-        tmp_post$2 = intpt;
+        tmp_post_2 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$2 = i;
+        *tmp_post_2 = i;
       }
 
     *intpt = -1;
@@ -10141,9 +10141,9 @@ extern void fastsupg(signed int nseq, double **oeff, signed int ***topol, double
     for( ; !(i >= nseq); i = i + 1)
       if((signed int)pair[(signed long int)jm][(signed long int)i] >= 1)
       {
-        tmp_post$3 = intpt;
+        tmp_post_3 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$3 = i;
+        *tmp_post_3 = i;
       }
 
     *intpt = -1;
@@ -10254,9 +10254,9 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx(signed int nseq, double
   {
     hist=AllocateIntVec(njob);
     tmptmplen=AllocateFloatVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
-    ac = (struct _Bchain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
+    ac = (struct _Bchain *)return_value_malloc_1;
     nmemar=AllocateIntVec(njob);
     mindisfrom=AllocateFloatVec(njob);
     nearest=AllocateIntVec(njob);
@@ -10286,16 +10286,16 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx(signed int nseq, double
     reporterr("\n");
 
   k = 0;
-  signed int *tmp_post$3;
-  signed int *tmp_post$4;
-  signed int *tmp_post$5;
-  signed int *tmp_post$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
+  signed int *tmp_post_3;
+  signed int *tmp_post_4;
+  signed int *tmp_post_5;
+  signed int *tmp_post_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0 && !(progressout == 0))
@@ -10326,15 +10326,15 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx(signed int nseq, double
       (dep + (signed long int)k)->child0 = prevnode;
 
     nmemim = nmemar[(signed long int)im];
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc_2;
     intpt = topol[(signed long int)k][(signed long int)0];
     if(prevnode == -1)
     {
-      tmp_post$3 = intpt;
+      tmp_post_3 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$3 = im;
+      *tmp_post_3 = im;
       *intpt = -1;
     }
 
@@ -10354,19 +10354,19 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx(signed int nseq, double
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$4 = *tmp_post$5)
+      for( ; !(*intpt2 == -1); *tmp_post_4 = *tmp_post_5)
       {
-        tmp_post$4 = intpt;
+        tmp_post_4 = intpt;
         intpt = intpt + 1l;
-        tmp_post$5 = intpt2;
+        tmp_post_5 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$6 = *tmp_post$7)
+      for( ; !(*intpt2 == -1); *tmp_post_6 = *tmp_post_7)
       {
-        tmp_post$6 = intpt;
+        tmp_post_6 = intpt;
         intpt = intpt + 1l;
-        tmp_post$7 = intpt2;
+        tmp_post_7 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -10376,9 +10376,9 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx(signed int nseq, double
       (dep + (signed long int)k)->child1 = prevnode;
 
     nmemjm = nmemar[(signed long int)jm];
-    void *return_value_realloc$8;
-    return_value_realloc$8=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc$8;
+    void *return_value_realloc_8;
+    return_value_realloc_8=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc_8;
     intpt = topol[(signed long int)k][(signed long int)1];
     if(intpt == ((signed int *)NULL))
     {
@@ -10388,9 +10388,9 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx(signed int nseq, double
 
     if(prevnode == -1)
     {
-      tmp_post$9 = intpt;
+      tmp_post_9 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$9 = jm;
+      *tmp_post_9 = jm;
       *intpt = -1;
     }
 
@@ -10410,19 +10410,19 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx(signed int nseq, double
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$10 = *tmp_post$11)
+      for( ; !(*intpt2 == -1); *tmp_post_10 = *tmp_post_11)
       {
-        tmp_post$10 = intpt;
+        tmp_post_10 = intpt;
         intpt = intpt + 1l;
-        tmp_post$11 = intpt2;
+        tmp_post_11 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$12 = *tmp_post$13)
+      for( ; !(*intpt2 == -1); *tmp_post_12 = *tmp_post_13)
       {
-        tmp_post$12 = intpt;
+        tmp_post_12 = intpt;
         intpt = intpt + 1l;
-        tmp_post$13 = intpt2;
+        tmp_post_13 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -10602,9 +10602,9 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
   {
     hist=AllocateIntVec(njob);
     tmptmplen=AllocateFloatVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
-    ac = (struct _Bchain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
+    ac = (struct _Bchain *)return_value_malloc_1;
     nmemar=AllocateIntVec(njob);
     mindisfrom=AllocateFloatVec(njob);
     nearest=AllocateIntVec(njob);
@@ -10614,8 +10614,8 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *return_value_strstr$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *return_value_strstr_3;
   for( ; !(i >= nseq); i = i + 1)
   {
     j = 0;
@@ -10630,8 +10630,8 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)namec]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)namec]) == 0))
           nametmp[(signed long int)j] = namec;
 
         else
@@ -10641,8 +10641,8 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
     nametmp[(signed long int)j] = (char)0;
     if(!(outnumber == 0))
     {
-      return_value_strstr$3=strstr(nametmp, "_numo_e");
-      nameptr = return_value_strstr$3 + (signed long int)8;
+      return_value_strstr_3=strstr(nametmp, "_numo_e");
+      nameptr = return_value_strstr_3 + (signed long int)8;
     }
 
     else
@@ -10651,11 +10651,11 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
     if(!(tmpptr == ((char *)NULL)))
       nameptr = tmpptr + (signed long int)4;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nametmp);
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
-    tree[(signed long int)i] = (char *)return_value_calloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nametmp);
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
+    tree[(signed long int)i] = (char *)return_value_calloc_5;
     if(tree[(signed long int)i] == ((char *)NULL))
     {
       reporterr("Cannot allocate tree!\n");
@@ -10686,16 +10686,16 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
   }
   reporterr("\n");
   k = 0;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$13;
-  signed int *tmp_post$14;
-  signed int *tmp_post$15;
-  signed int *tmp_post$16;
-  signed int *tmp_post$17;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_13;
+  signed int *tmp_post_14;
+  signed int *tmp_post_15;
+  signed int *tmp_post_16;
+  signed int *tmp_post_17;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -10726,15 +10726,15 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
       (dep + (signed long int)k)->child0 = prevnode;
 
     nmemim = nmemar[(signed long int)im];
-    void *return_value_realloc$6;
-    return_value_realloc$6=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc$6;
+    void *return_value_realloc_6;
+    return_value_realloc_6=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc_6;
     intpt = topol[(signed long int)k][(signed long int)0];
     if(prevnode == -1)
     {
-      tmp_post$7 = intpt;
+      tmp_post_7 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$7 = im;
+      *tmp_post_7 = im;
       *intpt = -1;
     }
 
@@ -10754,19 +10754,19 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$8 = *tmp_post$9)
+      for( ; !(*intpt2 == -1); *tmp_post_8 = *tmp_post_9)
       {
-        tmp_post$8 = intpt;
+        tmp_post_8 = intpt;
         intpt = intpt + 1l;
-        tmp_post$9 = intpt2;
+        tmp_post_9 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$10 = *tmp_post$11)
+      for( ; !(*intpt2 == -1); *tmp_post_10 = *tmp_post_11)
       {
-        tmp_post$10 = intpt;
+        tmp_post_10 = intpt;
         intpt = intpt + 1l;
-        tmp_post$11 = intpt2;
+        tmp_post_11 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -10776,9 +10776,9 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
       (dep + (signed long int)k)->child1 = prevnode;
 
     nmemjm = nmemar[(signed long int)jm];
-    void *return_value_realloc$12;
-    return_value_realloc$12=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc$12;
+    void *return_value_realloc_12;
+    return_value_realloc_12=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc_12;
     intpt = topol[(signed long int)k][(signed long int)1];
     if(intpt == ((signed int *)NULL))
     {
@@ -10788,9 +10788,9 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
 
     if(prevnode == -1)
     {
-      tmp_post$13 = intpt;
+      tmp_post_13 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$13 = jm;
+      *tmp_post_13 = jm;
       *intpt = -1;
     }
 
@@ -10810,19 +10810,19 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$14 = *tmp_post$15)
+      for( ; !(*intpt2 == -1); *tmp_post_14 = *tmp_post_15)
       {
-        tmp_post$14 = intpt;
+        tmp_post_14 = intpt;
         intpt = intpt + 1l;
-        tmp_post$15 = intpt2;
+        tmp_post_15 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$16 = *tmp_post$17)
+      for( ; !(*intpt2 == -1); *tmp_post_16 = *tmp_post_17)
       {
-        tmp_post$16 = intpt;
+        tmp_post_16 = intpt;
         intpt = intpt + 1l;
-        tmp_post$17 = intpt2;
+        tmp_post_17 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -10889,13 +10889,13 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
       }
 
     }
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen(tree[(signed long int)im]);
-    unsigned long int return_value_strlen$19;
-    return_value_strlen$19=strlen(tree[(signed long int)jm]);
-    void *return_value_realloc$20;
-    return_value_realloc$20=realloc((void *)treetmp, return_value_strlen$18 + return_value_strlen$19 + (unsigned long int)100);
-    treetmp = (char *)return_value_realloc$20;
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen(tree[(signed long int)im]);
+    unsigned long int return_value_strlen_19;
+    return_value_strlen_19=strlen(tree[(signed long int)jm]);
+    void *return_value_realloc_20;
+    return_value_realloc_20=realloc((void *)treetmp, return_value_strlen_18 + return_value_strlen_19 + (unsigned long int)100);
+    treetmp = (char *)return_value_realloc_20;
     if(treetmp == ((char *)NULL))
     {
       reporterr("Cannot allocate treetmp\n");
@@ -10905,11 +10905,11 @@ extern void fixed_musclesupg_double_realloc_nobk_halfmtx_treeout(signed int nseq
     sprintf(treetmp, "(%s:%7.5f,%s:%7.5f)", tree[(signed long int)im], len[(signed long int)k][(signed long int)0], tree[(signed long int)jm], len[(signed long int)k][(signed long int)1]);
     free((void *)tree[(signed long int)im]);
     free((void *)tree[(signed long int)jm]);
-    unsigned long int return_value_strlen$21;
-    return_value_strlen$21=strlen(treetmp);
-    void *return_value_calloc$22;
-    return_value_calloc$22=calloc(return_value_strlen$21 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-    tree[(signed long int)im] = (char *)return_value_calloc$22;
+    unsigned long int return_value_strlen_21;
+    return_value_strlen_21=strlen(treetmp);
+    void *return_value_calloc_22;
+    return_value_calloc_22=calloc(return_value_strlen_21 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+    tree[(signed long int)im] = (char *)return_value_calloc_22;
     tree[(signed long int)jm] = (char *)(void *)0;
     if(tree[(signed long int)im] == ((char *)NULL))
     {
@@ -11036,9 +11036,9 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
   {
     hist=AllocateIntVec(njob);
     tmptmplen=AllocateDoubleVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
-    ac = (struct _Bchain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
+    ac = (struct _Bchain *)return_value_malloc_1;
     nmemar=AllocateIntVec(njob);
     mindisfrom=AllocateDoubleVec(njob);
     nearest=AllocateIntVec(njob);
@@ -11048,8 +11048,8 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *return_value_strstr$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *return_value_strstr_3;
   for( ; !(i >= nseq); i = i + 1)
   {
     j = 0;
@@ -11064,8 +11064,8 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)namec]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)namec]) == 0))
           nametmp[(signed long int)j] = namec;
 
         else
@@ -11076,8 +11076,8 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
     static char *nameptr;
     if(!(outnumber == 0))
     {
-      return_value_strstr$3=strstr(nametmp, "_numo_e");
-      nameptr = return_value_strstr$3 + (signed long int)8;
+      return_value_strstr_3=strstr(nametmp, "_numo_e");
+      nameptr = return_value_strstr_3 + (signed long int)8;
     }
 
     else
@@ -11087,11 +11087,11 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
     if(!(tmpptr == ((char *)NULL)))
       nameptr = tmpptr + (signed long int)4;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nametmp);
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
-    tree[(signed long int)i] = (char *)return_value_calloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nametmp);
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
+    tree[(signed long int)i] = (char *)return_value_calloc_5;
     if(tree[(signed long int)i] == ((char *)NULL))
     {
       reporterr("Cannot allocate tree!\n");
@@ -11122,16 +11122,16 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
   }
   reporterr("\n");
   k = 0;
-  signed int *tmp_post$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
-  signed int *tmp_post$14;
-  signed int *tmp_post$15;
+  signed int *tmp_post_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
+  signed int *tmp_post_14;
+  signed int *tmp_post_15;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -11162,9 +11162,9 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
     intpt = topol[(signed long int)k][(signed long int)0];
     if(prevnode == -1)
     {
-      tmp_post$6 = intpt;
+      tmp_post_6 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$6 = im;
+      *tmp_post_6 = im;
       *intpt = -1;
     }
 
@@ -11184,19 +11184,19 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$7 = *tmp_post$8)
+      for( ; !(*intpt2 == -1); *tmp_post_7 = *tmp_post_8)
       {
-        tmp_post$7 = intpt;
+        tmp_post_7 = intpt;
         intpt = intpt + 1l;
-        tmp_post$8 = intpt2;
+        tmp_post_8 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$9 = *tmp_post$10)
+      for( ; !(*intpt2 == -1); *tmp_post_9 = *tmp_post_10)
       {
-        tmp_post$9 = intpt;
+        tmp_post_9 = intpt;
         intpt = intpt + 1l;
-        tmp_post$10 = intpt2;
+        tmp_post_10 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -11206,9 +11206,9 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
     intpt = topol[(signed long int)k][(signed long int)1];
     if(prevnode == -1)
     {
-      tmp_post$11 = intpt;
+      tmp_post_11 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$11 = jm;
+      *tmp_post_11 = jm;
       *intpt = -1;
     }
 
@@ -11228,19 +11228,19 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$12 = *tmp_post$13)
+      for( ; !(*intpt2 == -1); *tmp_post_12 = *tmp_post_13)
       {
-        tmp_post$12 = intpt;
+        tmp_post_12 = intpt;
         intpt = intpt + 1l;
-        tmp_post$13 = intpt2;
+        tmp_post_13 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$14 = *tmp_post$15)
+      for( ; !(*intpt2 == -1); *tmp_post_14 = *tmp_post_15)
       {
-        tmp_post$14 = intpt;
+        tmp_post_14 = intpt;
         intpt = intpt + 1l;
-        tmp_post$15 = intpt2;
+        tmp_post_15 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -11304,13 +11304,13 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
       }
 
     }
-    unsigned long int return_value_strlen$16;
-    return_value_strlen$16=strlen(tree[(signed long int)im]);
-    unsigned long int return_value_strlen$17;
-    return_value_strlen$17=strlen(tree[(signed long int)jm]);
-    void *return_value_realloc$18;
-    return_value_realloc$18=realloc((void *)treetmp, return_value_strlen$16 + return_value_strlen$17 + (unsigned long int)100);
-    treetmp = (char *)return_value_realloc$18;
+    unsigned long int return_value_strlen_16;
+    return_value_strlen_16=strlen(tree[(signed long int)im]);
+    unsigned long int return_value_strlen_17;
+    return_value_strlen_17=strlen(tree[(signed long int)jm]);
+    void *return_value_realloc_18;
+    return_value_realloc_18=realloc((void *)treetmp, return_value_strlen_16 + return_value_strlen_17 + (unsigned long int)100);
+    treetmp = (char *)return_value_realloc_18;
     if(treetmp == ((char *)NULL))
     {
       reporterr("Cannot allocate treetmp\n");
@@ -11320,11 +11320,11 @@ extern void fixed_musclesupg_double_treeout(signed int nseq, double **eff, signe
     sprintf(treetmp, "(%s:%7.5f,%s:%7.5f)", tree[(signed long int)im], len[(signed long int)k][(signed long int)0], tree[(signed long int)jm], len[(signed long int)k][(signed long int)1]);
     free((void *)tree[(signed long int)im]);
     free((void *)tree[(signed long int)jm]);
-    unsigned long int return_value_strlen$19;
-    return_value_strlen$19=strlen(treetmp);
-    void *return_value_calloc$20;
-    return_value_calloc$20=calloc(return_value_strlen$19 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-    tree[(signed long int)im] = (char *)return_value_calloc$20;
+    unsigned long int return_value_strlen_19;
+    return_value_strlen_19=strlen(treetmp);
+    void *return_value_calloc_20;
+    return_value_calloc_20=calloc(return_value_strlen_19 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+    tree[(signed long int)im] = (char *)return_value_calloc_20;
     tree[(signed long int)jm] = (char *)(void *)0;
     if(tree[(signed long int)im] == ((char *)NULL))
     {
@@ -11456,9 +11456,9 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
   {
     hist=AllocateIntVec(njob);
     tmptmplen=AllocateFloatVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
-    ac = (struct _Bchain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
+    ac = (struct _Bchain *)return_value_malloc_1;
     nmemar=AllocateIntVec(njob);
     mindisfrom=AllocateFloatVec(njob);
     nearest=AllocateIntVec(njob);
@@ -11472,8 +11472,8 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *return_value_strstr$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *return_value_strstr_3;
   for( ; !(i >= nseq); i = i + 1)
   {
     j = 0;
@@ -11488,8 +11488,8 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)namec]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)namec]) == 0))
           nametmp[(signed long int)j] = namec;
 
         else
@@ -11499,8 +11499,8 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
     nametmp[(signed long int)j] = (char)0;
     if(!(outnumber == 0))
     {
-      return_value_strstr$3=strstr(nametmp, "_numo_e");
-      nameptr = return_value_strstr$3 + (signed long int)8;
+      return_value_strstr_3=strstr(nametmp, "_numo_e");
+      nameptr = return_value_strstr_3 + (signed long int)8;
     }
 
     else
@@ -11509,11 +11509,11 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
     if(!(tmpptr == ((char *)NULL)))
       nameptr = tmpptr + (signed long int)4;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nametmp);
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
-    tree[(signed long int)i] = (char *)return_value_calloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nametmp);
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
+    tree[(signed long int)i] = (char *)return_value_calloc_5;
     if(tree[(signed long int)i] == ((char *)NULL))
     {
       reporterr("Cannot allocate tree!\n");
@@ -11545,28 +11545,28 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
   reporterr("\n");
   ninconsistentpairs = 0;
   k = 0;
-  _Bool tmp_if_expr$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
-  signed int *tmp_post$14;
-  signed int *tmp_post$15;
-  signed int *tmp_post$16;
-  signed int return_value_includemember$17;
-  signed int *tmp_post$21;
-  signed int *tmp_post$22;
-  signed int *tmp_post$23;
-  signed int *tmp_post$24;
-  signed int *tmp_post$25;
-  signed int *tmp_post$27;
-  signed int *tmp_post$28;
-  signed int *tmp_post$29;
-  signed int *tmp_post$30;
-  signed int *tmp_post$31;
+  _Bool tmp_if_expr_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
+  signed int *tmp_post_14;
+  signed int *tmp_post_15;
+  signed int *tmp_post_16;
+  signed int return_value_includemember_17;
+  signed int *tmp_post_21;
+  signed int *tmp_post_22;
+  signed int *tmp_post_23;
+  signed int *tmp_post_24;
+  signed int *tmp_post_25;
+  signed int *tmp_post_27;
+  signed int *tmp_post_28;
+  signed int *tmp_post_29;
+  signed int *tmp_post_30;
+  signed int *tmp_post_31;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -11632,11 +11632,11 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
           do
           {
             if(!(acptj == ((struct _Bchain *)NULL)))
-              tmp_if_expr$6 = acptj->pos != i ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = acptj->pos != i ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(!tmp_if_expr$6)
+              tmp_if_expr_6 = (_Bool)0;
+            if(!tmp_if_expr_6)
               break;
 
             j = acptj->pos;
@@ -11683,54 +11683,54 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
       prevnode = hist[(signed long int)im];
       if(prevnode == -1)
       {
-        tmp_post$7 = intpt;
+        tmp_post_7 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$7 = im;
+        *tmp_post_7 = im;
       }
 
       else
       {
         intpt2 = topol[(signed long int)prevnode][(signed long int)0];
-        for( ; !(*intpt2 == -1); *tmp_post$8 = *tmp_post$9)
+        for( ; !(*intpt2 == -1); *tmp_post_8 = *tmp_post_9)
         {
-          tmp_post$8 = intpt;
+          tmp_post_8 = intpt;
           intpt = intpt + 1l;
-          tmp_post$9 = intpt2;
+          tmp_post_9 = intpt2;
           intpt2 = intpt2 + 1l;
         }
         intpt2 = topol[(signed long int)prevnode][(signed long int)1];
-        for( ; !(*intpt2 == -1); *tmp_post$10 = *tmp_post$11)
+        for( ; !(*intpt2 == -1); *tmp_post_10 = *tmp_post_11)
         {
-          tmp_post$10 = intpt;
+          tmp_post_10 = intpt;
           intpt = intpt + 1l;
-          tmp_post$11 = intpt2;
+          tmp_post_11 = intpt2;
           intpt2 = intpt2 + 1l;
         }
       }
       prevnode = hist[(signed long int)jm];
       if(prevnode == -1)
       {
-        tmp_post$12 = intpt;
+        tmp_post_12 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$12 = jm;
+        *tmp_post_12 = jm;
       }
 
       else
       {
         intpt2 = topol[(signed long int)prevnode][(signed long int)0];
-        for( ; !(*intpt2 == -1); *tmp_post$13 = *tmp_post$14)
+        for( ; !(*intpt2 == -1); *tmp_post_13 = *tmp_post_14)
         {
-          tmp_post$13 = intpt;
+          tmp_post_13 = intpt;
           intpt = intpt + 1l;
-          tmp_post$14 = intpt2;
+          tmp_post_14 = intpt2;
           intpt2 = intpt2 + 1l;
         }
         intpt2 = topol[(signed long int)prevnode][(signed long int)1];
-        for( ; !(*intpt2 == -1); *tmp_post$15 = *tmp_post$16)
+        for( ; !(*intpt2 == -1); *tmp_post_15 = *tmp_post_16)
         {
-          tmp_post$15 = intpt;
+          tmp_post_15 = intpt;
           intpt = intpt + 1l;
-          tmp_post$16 = intpt2;
+          tmp_post_16 = intpt2;
           intpt2 = intpt2 + 1l;
         }
       }
@@ -11738,16 +11738,16 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
       i = 0;
       for( ; !(i >= ngroup); i = i + 1)
       {
-        signed int return_value_overlapmember$19;
-        return_value_overlapmember$19=overlapmember(groups[(signed long int)i], testtopol);
-        if(!(return_value_overlapmember$19 == 0))
+        signed int return_value_overlapmember_19;
+        return_value_overlapmember_19=overlapmember(groups[(signed long int)i], testtopol);
+        if(!(return_value_overlapmember_19 == 0))
         {
-          signed int return_value_includemember$18;
-          return_value_includemember$18=includemember(testtopol, groups[(signed long int)i]);
-          if(return_value_includemember$18 == 0)
+          signed int return_value_includemember_18;
+          return_value_includemember_18=includemember(testtopol, groups[(signed long int)i]);
+          if(return_value_includemember_18 == 0)
           {
-            return_value_includemember$17=includemember(groups[(signed long int)i], testtopol);
-            if(return_value_includemember$17 == 0)
+            return_value_includemember_17=includemember(groups[(signed long int)i], testtopol);
+            if(return_value_includemember_17 == 0)
             {
               if(warned[(signed long int)i] == 0)
               {
@@ -11778,15 +11778,15 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
       (dep + (signed long int)k)->child0 = prevnode;
 
     nmemim = nmemar[(signed long int)im];
-    void *return_value_realloc$20;
-    return_value_realloc$20=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc$20;
+    void *return_value_realloc_20;
+    return_value_realloc_20=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc_20;
     intpt = topol[(signed long int)k][(signed long int)0];
     if(prevnode == -1)
     {
-      tmp_post$21 = intpt;
+      tmp_post_21 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$21 = im;
+      *tmp_post_21 = im;
       *intpt = -1;
     }
 
@@ -11806,19 +11806,19 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$22 = *tmp_post$23)
+      for( ; !(*intpt2 == -1); *tmp_post_22 = *tmp_post_23)
       {
-        tmp_post$22 = intpt;
+        tmp_post_22 = intpt;
         intpt = intpt + 1l;
-        tmp_post$23 = intpt2;
+        tmp_post_23 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$24 = *tmp_post$25)
+      for( ; !(*intpt2 == -1); *tmp_post_24 = *tmp_post_25)
       {
-        tmp_post$24 = intpt;
+        tmp_post_24 = intpt;
         intpt = intpt + 1l;
-        tmp_post$25 = intpt2;
+        tmp_post_25 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -11828,9 +11828,9 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
       (dep + (signed long int)k)->child1 = prevnode;
 
     nmemjm = nmemar[(signed long int)jm];
-    void *return_value_realloc$26;
-    return_value_realloc$26=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc$26;
+    void *return_value_realloc_26;
+    return_value_realloc_26=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc_26;
     intpt = topol[(signed long int)k][(signed long int)1];
     if(intpt == ((signed int *)NULL))
     {
@@ -11840,9 +11840,9 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
 
     if(prevnode == -1)
     {
-      tmp_post$27 = intpt;
+      tmp_post_27 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$27 = jm;
+      *tmp_post_27 = jm;
       *intpt = -1;
     }
 
@@ -11862,19 +11862,19 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$28 = *tmp_post$29)
+      for( ; !(*intpt2 == -1); *tmp_post_28 = *tmp_post_29)
       {
-        tmp_post$28 = intpt;
+        tmp_post_28 = intpt;
         intpt = intpt + 1l;
-        tmp_post$29 = intpt2;
+        tmp_post_29 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$30 = *tmp_post$31)
+      for( ; !(*intpt2 == -1); *tmp_post_30 = *tmp_post_31)
       {
-        tmp_post$30 = intpt;
+        tmp_post_30 = intpt;
         intpt = intpt + 1l;
-        tmp_post$31 = intpt2;
+        tmp_post_31 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -11948,13 +11948,13 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
       }
 
     }
-    unsigned long int return_value_strlen$32;
-    return_value_strlen$32=strlen(tree[(signed long int)im]);
-    unsigned long int return_value_strlen$33;
-    return_value_strlen$33=strlen(tree[(signed long int)jm]);
-    void *return_value_realloc$34;
-    return_value_realloc$34=realloc((void *)treetmp, return_value_strlen$32 + return_value_strlen$33 + (unsigned long int)100);
-    treetmp = (char *)return_value_realloc$34;
+    unsigned long int return_value_strlen_32;
+    return_value_strlen_32=strlen(tree[(signed long int)im]);
+    unsigned long int return_value_strlen_33;
+    return_value_strlen_33=strlen(tree[(signed long int)jm]);
+    void *return_value_realloc_34;
+    return_value_realloc_34=realloc((void *)treetmp, return_value_strlen_32 + return_value_strlen_33 + (unsigned long int)100);
+    treetmp = (char *)return_value_realloc_34;
     if(treetmp == ((char *)NULL))
     {
       reporterr("Cannot allocate treetmp\n");
@@ -11964,11 +11964,11 @@ extern void fixed_supg_double_realloc_nobk_halfmtx_treeout_constrained(signed in
     sprintf(treetmp, "(%s:%7.5f,%s:%7.5f)", tree[(signed long int)im], len[(signed long int)k][(signed long int)0], tree[(signed long int)jm], len[(signed long int)k][(signed long int)1]);
     free((void *)tree[(signed long int)im]);
     free((void *)tree[(signed long int)jm]);
-    unsigned long int return_value_strlen$35;
-    return_value_strlen$35=strlen(treetmp);
-    void *return_value_calloc$36;
-    return_value_calloc$36=calloc(return_value_strlen$35 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-    tree[(signed long int)im] = (char *)return_value_calloc$36;
+    unsigned long int return_value_strlen_35;
+    return_value_strlen_35=strlen(treetmp);
+    void *return_value_calloc_36;
+    return_value_calloc_36=calloc(return_value_strlen_35 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+    tree[(signed long int)im] = (char *)return_value_calloc_36;
     tree[(signed long int)jm] = (char *)(void *)0;
     if(tree[(signed long int)im] == ((char *)NULL))
     {
@@ -12108,9 +12108,9 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
   {
     hist=AllocateIntVec(njob);
     tmptmplen=AllocateDoubleVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
-    ac = (struct _Bchain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(struct _Bchain) /*24ul*/ );
+    ac = (struct _Bchain *)return_value_malloc_1;
     nmemar=AllocateIntVec(njob);
     mindisfrom=AllocateDoubleVec(njob);
     nearest=AllocateIntVec(njob);
@@ -12124,8 +12124,8 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *return_value_strstr$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *return_value_strstr_3;
   for( ; !(i >= nseq); i = i + 1)
   {
     j = 0;
@@ -12140,8 +12140,8 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)namec]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)namec]) == 0))
           nametmp[(signed long int)j] = namec;
 
         else
@@ -12152,8 +12152,8 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
     static char *nameptr;
     if(!(outnumber == 0))
     {
-      return_value_strstr$3=strstr(nametmp, "_numo_e");
-      nameptr = return_value_strstr$3 + (signed long int)8;
+      return_value_strstr_3=strstr(nametmp, "_numo_e");
+      nameptr = return_value_strstr_3 + (signed long int)8;
     }
 
     else
@@ -12163,11 +12163,11 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
     if(!(tmpptr == ((char *)NULL)))
       nameptr = tmpptr + (signed long int)4;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nametmp);
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
-    tree[(signed long int)i] = (char *)return_value_calloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nametmp);
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
+    tree[(signed long int)i] = (char *)return_value_calloc_5;
     if(tree[(signed long int)i] == ((char *)NULL))
     {
       reporterr("Cannot allocate tree!\n");
@@ -12199,28 +12199,28 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
   reporterr("\n");
   ninconsistentpairs = 0;
   k = 0;
-  _Bool tmp_if_expr$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
-  signed int *tmp_post$14;
-  signed int *tmp_post$15;
-  signed int *tmp_post$16;
-  signed int return_value_includemember$17;
-  signed int *tmp_post$20;
-  signed int *tmp_post$21;
-  signed int *tmp_post$22;
-  signed int *tmp_post$23;
-  signed int *tmp_post$24;
-  signed int *tmp_post$25;
-  signed int *tmp_post$26;
-  signed int *tmp_post$27;
-  signed int *tmp_post$28;
-  signed int *tmp_post$29;
+  _Bool tmp_if_expr_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
+  signed int *tmp_post_14;
+  signed int *tmp_post_15;
+  signed int *tmp_post_16;
+  signed int return_value_includemember_17;
+  signed int *tmp_post_20;
+  signed int *tmp_post_21;
+  signed int *tmp_post_22;
+  signed int *tmp_post_23;
+  signed int *tmp_post_24;
+  signed int *tmp_post_25;
+  signed int *tmp_post_26;
+  signed int *tmp_post_27;
+  signed int *tmp_post_28;
+  signed int *tmp_post_29;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -12286,11 +12286,11 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
           do
           {
             if(!(acptj == ((struct _Bchain *)NULL)))
-              tmp_if_expr$6 = acptj->pos != i ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = acptj->pos != i ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(!tmp_if_expr$6)
+              tmp_if_expr_6 = (_Bool)0;
+            if(!tmp_if_expr_6)
               break;
 
             j = acptj->pos;
@@ -12337,54 +12337,54 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
       prevnode = hist[(signed long int)im];
       if(prevnode == -1)
       {
-        tmp_post$7 = intpt;
+        tmp_post_7 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$7 = im;
+        *tmp_post_7 = im;
       }
 
       else
       {
         intpt2 = topol[(signed long int)prevnode][(signed long int)0];
-        for( ; !(*intpt2 == -1); *tmp_post$8 = *tmp_post$9)
+        for( ; !(*intpt2 == -1); *tmp_post_8 = *tmp_post_9)
         {
-          tmp_post$8 = intpt;
+          tmp_post_8 = intpt;
           intpt = intpt + 1l;
-          tmp_post$9 = intpt2;
+          tmp_post_9 = intpt2;
           intpt2 = intpt2 + 1l;
         }
         intpt2 = topol[(signed long int)prevnode][(signed long int)1];
-        for( ; !(*intpt2 == -1); *tmp_post$10 = *tmp_post$11)
+        for( ; !(*intpt2 == -1); *tmp_post_10 = *tmp_post_11)
         {
-          tmp_post$10 = intpt;
+          tmp_post_10 = intpt;
           intpt = intpt + 1l;
-          tmp_post$11 = intpt2;
+          tmp_post_11 = intpt2;
           intpt2 = intpt2 + 1l;
         }
       }
       prevnode = hist[(signed long int)jm];
       if(prevnode == -1)
       {
-        tmp_post$12 = intpt;
+        tmp_post_12 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$12 = jm;
+        *tmp_post_12 = jm;
       }
 
       else
       {
         intpt2 = topol[(signed long int)prevnode][(signed long int)0];
-        for( ; !(*intpt2 == -1); *tmp_post$13 = *tmp_post$14)
+        for( ; !(*intpt2 == -1); *tmp_post_13 = *tmp_post_14)
         {
-          tmp_post$13 = intpt;
+          tmp_post_13 = intpt;
           intpt = intpt + 1l;
-          tmp_post$14 = intpt2;
+          tmp_post_14 = intpt2;
           intpt2 = intpt2 + 1l;
         }
         intpt2 = topol[(signed long int)prevnode][(signed long int)1];
-        for( ; !(*intpt2 == -1); *tmp_post$15 = *tmp_post$16)
+        for( ; !(*intpt2 == -1); *tmp_post_15 = *tmp_post_16)
         {
-          tmp_post$15 = intpt;
+          tmp_post_15 = intpt;
           intpt = intpt + 1l;
-          tmp_post$16 = intpt2;
+          tmp_post_16 = intpt2;
           intpt2 = intpt2 + 1l;
         }
       }
@@ -12392,16 +12392,16 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
       i = 0;
       for( ; !(i >= ngroup); i = i + 1)
       {
-        signed int return_value_overlapmember$19;
-        return_value_overlapmember$19=overlapmember(testtopol, groups[(signed long int)i]);
-        if(!(return_value_overlapmember$19 == 0))
+        signed int return_value_overlapmember_19;
+        return_value_overlapmember_19=overlapmember(testtopol, groups[(signed long int)i]);
+        if(!(return_value_overlapmember_19 == 0))
         {
-          signed int return_value_includemember$18;
-          return_value_includemember$18=includemember(testtopol, groups[(signed long int)i]);
-          if(return_value_includemember$18 == 0)
+          signed int return_value_includemember_18;
+          return_value_includemember_18=includemember(testtopol, groups[(signed long int)i]);
+          if(return_value_includemember_18 == 0)
           {
-            return_value_includemember$17=includemember(groups[(signed long int)i], testtopol);
-            if(return_value_includemember$17 == 0)
+            return_value_includemember_17=includemember(groups[(signed long int)i], testtopol);
+            if(return_value_includemember_17 == 0)
             {
               if(warned[(signed long int)i] == 0)
               {
@@ -12432,9 +12432,9 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
     intpt = topol[(signed long int)k][(signed long int)0];
     if(prevnode == -1)
     {
-      tmp_post$20 = intpt;
+      tmp_post_20 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$20 = im;
+      *tmp_post_20 = im;
       *intpt = -1;
     }
 
@@ -12454,19 +12454,19 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$21 = *tmp_post$22)
+      for( ; !(*intpt2 == -1); *tmp_post_21 = *tmp_post_22)
       {
-        tmp_post$21 = intpt;
+        tmp_post_21 = intpt;
         intpt = intpt + 1l;
-        tmp_post$22 = intpt2;
+        tmp_post_22 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$23 = *tmp_post$24)
+      for( ; !(*intpt2 == -1); *tmp_post_23 = *tmp_post_24)
       {
-        tmp_post$23 = intpt;
+        tmp_post_23 = intpt;
         intpt = intpt + 1l;
-        tmp_post$24 = intpt2;
+        tmp_post_24 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -12476,9 +12476,9 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
     intpt = topol[(signed long int)k][(signed long int)1];
     if(prevnode == -1)
     {
-      tmp_post$25 = intpt;
+      tmp_post_25 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$25 = jm;
+      *tmp_post_25 = jm;
       *intpt = -1;
     }
 
@@ -12498,19 +12498,19 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$26 = *tmp_post$27)
+      for( ; !(*intpt2 == -1); *tmp_post_26 = *tmp_post_27)
       {
-        tmp_post$26 = intpt;
+        tmp_post_26 = intpt;
         intpt = intpt + 1l;
-        tmp_post$27 = intpt2;
+        tmp_post_27 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$28 = *tmp_post$29)
+      for( ; !(*intpt2 == -1); *tmp_post_28 = *tmp_post_29)
       {
-        tmp_post$28 = intpt;
+        tmp_post_28 = intpt;
         intpt = intpt + 1l;
-        tmp_post$29 = intpt2;
+        tmp_post_29 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -12581,13 +12581,13 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
       }
 
     }
-    unsigned long int return_value_strlen$30;
-    return_value_strlen$30=strlen(tree[(signed long int)im]);
-    unsigned long int return_value_strlen$31;
-    return_value_strlen$31=strlen(tree[(signed long int)jm]);
-    void *return_value_realloc$32;
-    return_value_realloc$32=realloc((void *)treetmp, return_value_strlen$30 + return_value_strlen$31 + (unsigned long int)100);
-    treetmp = (char *)return_value_realloc$32;
+    unsigned long int return_value_strlen_30;
+    return_value_strlen_30=strlen(tree[(signed long int)im]);
+    unsigned long int return_value_strlen_31;
+    return_value_strlen_31=strlen(tree[(signed long int)jm]);
+    void *return_value_realloc_32;
+    return_value_realloc_32=realloc((void *)treetmp, return_value_strlen_30 + return_value_strlen_31 + (unsigned long int)100);
+    treetmp = (char *)return_value_realloc_32;
     if(treetmp == ((char *)NULL))
     {
       reporterr("Cannot allocate treetmp\n");
@@ -12597,11 +12597,11 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
     sprintf(treetmp, "(%s:%7.5f,%s:%7.5f)", tree[(signed long int)im], len[(signed long int)k][(signed long int)0], tree[(signed long int)jm], len[(signed long int)k][(signed long int)1]);
     free((void *)tree[(signed long int)im]);
     free((void *)tree[(signed long int)jm]);
-    unsigned long int return_value_strlen$33;
-    return_value_strlen$33=strlen(treetmp);
-    void *return_value_calloc$34;
-    return_value_calloc$34=calloc(return_value_strlen$33 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-    tree[(signed long int)im] = (char *)return_value_calloc$34;
+    unsigned long int return_value_strlen_33;
+    return_value_strlen_33=strlen(treetmp);
+    void *return_value_calloc_34;
+    return_value_calloc_34=calloc(return_value_strlen_33 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+    tree[(signed long int)im] = (char *)return_value_calloc_34;
     tree[(signed long int)jm] = (char *)(void *)0;
     if(tree[(signed long int)im] == ((char *)NULL))
     {
@@ -12667,21 +12667,21 @@ extern void fixed_supg_double_treeout_constrained(signed int nseq, double **eff,
 // file mltaln9.c line 8793
 extern void fltncpy(double *s1, double *s2, signed int n)
 {
-  signed int tmp_post$1;
-  double *tmp_post$2;
-  double *tmp_post$3;
+  signed int tmp_post_1;
+  double *tmp_post_2;
+  double *tmp_post_3;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = s1;
+    tmp_post_2 = s1;
     s1 = s1 + 1l;
-    tmp_post$3 = s2;
+    tmp_post_3 = s2;
     s2 = s2 + 1l;
-    *tmp_post$2 = *tmp_post$3;
+    *tmp_post_2 = *tmp_post_3;
   }
   while((_Bool)1);
 }
@@ -12759,32 +12759,32 @@ __CPROVER_DUMP_L6:
 extern void gapireru(char *res, char *ori, char *gt)
 {
   char g;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   do
   {
-    tmp_post$1 = gt;
+    tmp_post_1 = gt;
     gt = gt + 1l;
-    g = *tmp_post$1;
+    g = *tmp_post_1;
     if(g == 0)
       break;
 
     if((signed int)g == 45)
     {
-      tmp_post$2 = res;
+      tmp_post_2 = res;
       res = res + 1l;
-      *tmp_post$2 = *newgapstr;
+      *tmp_post_2 = *newgapstr;
     }
 
     else
     {
-      tmp_post$3 = res;
+      tmp_post_3 = res;
       res = res + 1l;
-      tmp_post$4 = ori;
+      tmp_post_4 = ori;
       ori = ori + 1l;
-      *tmp_post$3 = *tmp_post$4;
+      *tmp_post_3 = *tmp_post_4;
     }
   }
   while((_Bool)1);
@@ -12801,9 +12801,9 @@ extern void gappick(signed int nseq, signed int s, char **aseq, char **mseq2, do
   signed int countjob;
   signed int len;
   signed int allgap;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(aseq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(aseq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   i = 0;
   count = 0;
   for( ; !(i >= len); i = i + 1)
@@ -12847,13 +12847,13 @@ extern void gappick(signed int nseq, signed int s, char **aseq, char **mseq2, do
 // file mltaln9.c line 5683
 extern void gappick0(char *aseq, char *seq)
 {
-  char *tmp_post$1;
+  char *tmp_post_1;
   for( ; !((signed int)*seq == 0); seq = seq + 1l)
     if(!((signed int)*seq == 45))
     {
-      tmp_post$1 = aseq;
+      tmp_post_1 = aseq;
       aseq = aseq + 1l;
-      *tmp_post$1 = *seq;
+      *tmp_post_1 = *seq;
     }
 
   *aseq = (char)0;
@@ -12864,13 +12864,13 @@ extern void gappick0(char *aseq, char *seq)
 extern void gappick_samestring(char *seq)
 {
   char *aseq = seq;
-  char *tmp_post$1;
+  char *tmp_post_1;
   for( ; !((signed int)*seq == 0); seq = seq + 1l)
     if(!((signed int)*seq == 45))
     {
-      tmp_post$1 = aseq;
+      tmp_post_1 = aseq;
       aseq = aseq + 1l;
-      *tmp_post$1 = *seq;
+      *tmp_post_1 = *seq;
     }
 
   *aseq = (char)0;
@@ -12942,9 +12942,9 @@ extern signed int generatesubalignmentstable(signed int nseq, signed int ***tabl
   reporterr("\n\n\n");
   *maxmempt = 0;
   *nsubpt = 0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)nseq, sizeof(double) /*8ul*/ );
-  distfromtip = (double *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)nseq, sizeof(double) /*8ul*/ );
+  distfromtip = (double *)return_value_calloc_1;
   i = 0;
   for( ; !(i >= nseq + -1); i = i + 1)
   {
@@ -12960,9 +12960,9 @@ extern signed int generatesubalignmentstable(signed int nseq, signed int ***tabl
       {
         if(threshold < distfromtip[(signed long int)rep0])
         {
-          void *return_value_realloc$2;
-          return_value_realloc$2=realloc((void *)*tablept, sizeof(char *) /*8ul*/  * (unsigned long int)(*nsubpt + 2));
-          *tablept = (signed int **)return_value_realloc$2;
+          void *return_value_realloc_2;
+          return_value_realloc_2=realloc((void *)*tablept, sizeof(char *) /*8ul*/  * (unsigned long int)(*nsubpt + 2));
+          *tablept = (signed int **)return_value_realloc_2;
           j = 0;
           nmem = 0;
           do
@@ -12975,9 +12975,9 @@ extern signed int generatesubalignmentstable(signed int nseq, signed int ***tabl
             j = j + 1;
           }
           while((_Bool)1);
-          void *return_value_calloc$3;
-          return_value_calloc$3=calloc((unsigned long int)(nmem + 1), sizeof(signed int) /*4ul*/ );
-          (*tablept)[(signed long int)*nsubpt] = (signed int *)return_value_calloc$3;
+          void *return_value_calloc_3;
+          return_value_calloc_3=calloc((unsigned long int)(nmem + 1), sizeof(signed int) /*4ul*/ );
+          (*tablept)[(signed long int)*nsubpt] = (signed int *)return_value_calloc_3;
           (*tablept)[(signed long int)(*nsubpt + 1)] = (signed int *)(void *)0;
           intcpy((*tablept)[(signed long int)*nsubpt], topol[(signed long int)i][(signed long int)0]);
           if(!(*maxmempt >= nmem))
@@ -12996,9 +12996,9 @@ extern signed int generatesubalignmentstable(signed int nseq, signed int ***tabl
       {
         if(threshold < distfromtip[(signed long int)rep1])
         {
-          void *return_value_realloc$4;
-          return_value_realloc$4=realloc((void *)*tablept, sizeof(char *) /*8ul*/  * (unsigned long int)(*nsubpt + 2));
-          *tablept = (signed int **)return_value_realloc$4;
+          void *return_value_realloc_4;
+          return_value_realloc_4=realloc((void *)*tablept, sizeof(char *) /*8ul*/  * (unsigned long int)(*nsubpt + 2));
+          *tablept = (signed int **)return_value_realloc_4;
           j = 0;
           nmem = 0;
           do
@@ -13011,9 +13011,9 @@ extern signed int generatesubalignmentstable(signed int nseq, signed int ***tabl
             j = j + 1;
           }
           while((_Bool)1);
-          void *return_value_calloc$5;
-          return_value_calloc$5=calloc((unsigned long int)(nmem + 1), sizeof(signed int) /*4ul*/ );
-          (*tablept)[(signed long int)*nsubpt] = (signed int *)return_value_calloc$5;
+          void *return_value_calloc_5;
+          return_value_calloc_5=calloc((unsigned long int)(nmem + 1), sizeof(signed int) /*4ul*/ );
+          (*tablept)[(signed long int)*nsubpt] = (signed int *)return_value_calloc_5;
           (*tablept)[(signed long int)(*nsubpt + 1)] = (signed int *)(void *)0;
           intcpy((*tablept)[(signed long int)*nsubpt], topol[(signed long int)i][(signed long int)1]);
           if(!(*maxmempt >= nmem))
@@ -13053,22 +13053,22 @@ extern void getGapPattern(double *fgcp, signed int clus, char **seq, double *eff
   char *spt;
   fpt = fgcp;
   i = len + 1;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -13078,9 +13078,9 @@ extern void getGapPattern(double *fgcp, signed int clus, char **seq, double *eff
     i = len + 1;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
@@ -13106,25 +13106,25 @@ extern signed int getaline_fp_eof(char *s, signed int l, struct _IO_FILE *fp)
   signed int i = 0;
   signed int noteofflag = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
   do
   {
     if(!(i >= l))
     {
       c=_IO_getc(fp);
       noteofflag = (signed int)(c != -1);
-      tmp_if_expr$1 = noteofflag != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = noteofflag != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(c == 10 || !tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(c == 10 || !tmp_if_expr_1)
       break;
 
-    tmp_post$2 = s;
+    tmp_post_2 = s;
     s = s + 1l;
-    *tmp_post$2 = (char)c;
+    *tmp_post_2 = (char)c;
     i = i + 1;
   }
   while((_Bool)1);
@@ -13139,12 +13139,12 @@ extern signed int getaline_fp_eof_new(char *s, signed int l, struct _IO_FILE *fp
   signed int c = 0;
   signed int i = 0;
   signed int noteofflag = 0;
-  signed int return_value_feof$1;
-  return_value_feof$1=feof(fp);
-  _Bool tmp_if_expr$2;
-  char *tmp_post$3;
-  signed int return_value__IO_getc$4;
-  if(!(return_value_feof$1 == 0))
+  signed int return_value_feof_1;
+  return_value_feof_1=feof(fp);
+  _Bool tmp_if_expr_2;
+  char *tmp_post_3;
+  signed int return_value__IO_getc_4;
+  if(!(return_value_feof_1 == 0))
     return 1;
 
   else
@@ -13156,17 +13156,17 @@ extern signed int getaline_fp_eof_new(char *s, signed int l, struct _IO_FILE *fp
       {
         c=_IO_getc(fp);
         noteofflag = (signed int)(c != -1);
-        tmp_if_expr$2 = noteofflag != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = noteofflag != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(c == 10 || !tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(c == 10 || !tmp_if_expr_2)
         break;
 
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      *tmp_post$3 = (char)c;
+      *tmp_post_3 = (char)c;
       i = i + 1;
     }
     while((_Bool)1);
@@ -13174,8 +13174,8 @@ extern signed int getaline_fp_eof_new(char *s, signed int l, struct _IO_FILE *fp
     if(!(c == 10) && !(c == -1))
       do
       {
-        return_value__IO_getc$4=_IO_getc(fp);
-        if(return_value__IO_getc$4 == 10)
+        return_value__IO_getc_4=_IO_getc(fp);
+        if(return_value__IO_getc_4 == 10)
           break;
 
       }
@@ -13428,21 +13428,21 @@ extern void getgapfreq_zure_part(double *freq, signed int clus, char **seq, doub
 // file mltaln9.c line 7469
 extern void getkyokaigap(char *g, char **s, signed int pos, signed int n)
 {
-  signed int tmp_post$1;
-  char *tmp_post$2;
-  char **tmp_post$3;
+  signed int tmp_post_1;
+  char *tmp_post_2;
+  char **tmp_post_3;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = g;
+    tmp_post_2 = g;
     g = g + 1l;
-    tmp_post$3 = s;
+    tmp_post_3 = s;
     s = s + 1l;
-    *tmp_post$2 = (*tmp_post$3)[(signed long int)pos];
+    *tmp_post_2 = (*tmp_post_3)[(signed long int)pos];
   }
   while((_Bool)1);
 }
@@ -13470,15 +13470,15 @@ extern void getnumlen(struct _IO_FILE *fp)
   {
     myfgets(tmpname, 5000000 - 1, fp);
     tmpseq=load1SeqWithoutName_realloc(fp);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(tmpseq);
-    tmp = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(tmpseq);
+    tmp = (signed int)return_value_strlen_1;
     if(!(nlenmax >= tmp))
       nlenmax = tmp;
 
-    signed int return_value_countATGC$2;
-    return_value_countATGC$2=countATGC(tmpseq, &nsite);
-    atgcnum = atgcnum + return_value_countATGC$2;
+    signed int return_value_countATGC_2;
+    return_value_countATGC_2=countATGC(tmpseq, &nsite);
+    atgcnum = atgcnum + return_value_countATGC_2;
     total = total + nsite;
     free((void *)tmpseq);
   }
@@ -13525,18 +13525,18 @@ extern void getnumlen_casepreserve(struct _IO_FILE *fp, signed int *nlenminpt)
   {
     myfgets(tmpname, 5000000 - 1, fp);
     tmpseq=load1SeqWithoutName_realloc_casepreserve(fp);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(tmpseq);
-    tmp = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(tmpseq);
+    tmp = (signed int)return_value_strlen_1;
     if(!(nlenmax >= tmp))
       nlenmax = tmp;
 
     if(!(tmp >= *nlenminpt))
       *nlenminpt = tmp;
 
-    signed int return_value_countATGC$2;
-    return_value_countATGC$2=countATGC(tmpseq, &nsite);
-    atgcnum = atgcnum + return_value_countATGC$2;
+    signed int return_value_countATGC_2;
+    return_value_countATGC_2=countATGC(tmpseq, &nsite);
+    atgcnum = atgcnum + return_value_countATGC_2;
     total = total + nsite;
     free((void *)tmpseq);
   }
@@ -13590,9 +13590,9 @@ extern void getnumlen_nogap(struct _IO_FILE *fp, signed int *nlenminpt)
     if(!(tmp >= *nlenminpt))
       *nlenminpt = tmp;
 
-    signed int return_value_countATGC$1;
-    return_value_countATGC$1=countATGC(tmpseq, &nsite);
-    atgcnum = atgcnum + return_value_countATGC$1;
+    signed int return_value_countATGC_1;
+    return_value_countATGC_1=countATGC(tmpseq, &nsite);
+    atgcnum = atgcnum + return_value_countATGC_1;
     total = total + nsite;
     free((void *)tmpseq);
   }
@@ -13649,9 +13649,9 @@ extern void getnumlen_nogap_outallreg(struct _IO_FILE *fp, signed int *nlenminpt
     if(!(tmp >= *nlenminpt))
       *nlenminpt = tmp;
 
-    signed int return_value_countATGC$1;
-    return_value_countATGC$1=countATGC(tmpseq, &nsite);
-    atgcnum = atgcnum + return_value_countATGC$1;
+    signed int return_value_countATGC_1;
+    return_value_countATGC_1=countATGC(tmpseq, &nsite);
+    atgcnum = atgcnum + return_value_countATGC_1;
     total = total + nsite;
     free((void *)tmpseq);
   }
@@ -13715,13 +13715,13 @@ extern void getnumlen_nogap_outallreg_web(struct _IO_FILE *fp, struct _IO_FILE *
     if(!(tmp >= *nlenminpt))
       *nlenminpt = tmp;
 
-    signed int return_value_countATGC$1;
-    return_value_countATGC$1=countATGC(tmpseq, &nsite);
-    atgcnum = atgcnum + return_value_countATGC$1;
+    signed int return_value_countATGC_1;
+    return_value_countATGC_1=countATGC(tmpseq, &nsite);
+    atgcnum = atgcnum + return_value_countATGC_1;
     total = total + nsite;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(tmpseq);
-    alnlen = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(tmpseq);
+    alnlen = (signed int)return_value_strlen_2;
     if(i >= 1 && !(alnlen_prev == alnlen))
       *isalignedpt = 0;
 
@@ -13870,16 +13870,16 @@ static void increaseintergroupdistancesfullmtx(double **eff, signed int ngroup, 
   double maxdist;
   double *dptr;
   double dtmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
-  tft = (signed int *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
-  others = (signed int *)return_value_calloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
+  tft = (signed int *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
+  others = (signed int *)return_value_calloc_2;
   reporterr("\n");
   i = 0;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(i >= ngroup); i = i + 1)
     if(!(groups[(signed long int)i][1l] == -1))
     {
@@ -13902,9 +13902,9 @@ static void increaseintergroupdistancesfullmtx(double **eff, signed int ngroup, 
       for( ; !(m >= nseq); m = m + 1)
         if(tft[(signed long int)m] == 0)
         {
-          tmp_post$3 = k;
+          tmp_post_3 = k;
           k = k + 1;
-          others[(signed long int)tmp_post$3] = m;
+          others[(signed long int)tmp_post_3] = m;
         }
 
       others[(signed long int)k] = -1;
@@ -13974,9 +13974,9 @@ static void increaseintergroupdistancesfullmtx(double **eff, signed int ngroup, 
           {
             if(*dptr < 0.5)
             {
-              tmp_post$4 = nwarned;
+              tmp_post_4 = nwarned;
               nwarned = nwarned + 1;
-              if(!(tmp_post$4 >= 100))
+              if(!(tmp_post_4 >= 100))
                 reporterr("# Sequences %d and %d seem to be closely related, but are not in the same sub MSA (%d) in your setting.\n", s2 + 1, s1 + 1, i + 1);
 
             }
@@ -14016,16 +14016,16 @@ static void increaseintergroupdistanceshalfmtx(double **eff, signed int ngroup, 
   double maxdist;
   double *dptr;
   double dtmp;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
-  tft = (signed int *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
-  others = (signed int *)return_value_calloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
+  tft = (signed int *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)nseq, sizeof(signed int *) /*8ul*/ );
+  others = (signed int *)return_value_calloc_2;
   reporterr("\n");
   i = 0;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(i >= ngroup); i = i + 1)
     if(!(groups[(signed long int)i][1l] == -1))
     {
@@ -14048,9 +14048,9 @@ static void increaseintergroupdistanceshalfmtx(double **eff, signed int ngroup, 
       for( ; !(m >= nseq); m = m + 1)
         if(tft[(signed long int)m] == 0)
         {
-          tmp_post$3 = k;
+          tmp_post_3 = k;
           k = k + 1;
-          others[(signed long int)tmp_post$3] = m;
+          others[(signed long int)tmp_post_3] = m;
         }
 
       others[(signed long int)k] = -1;
@@ -14120,9 +14120,9 @@ static void increaseintergroupdistanceshalfmtx(double **eff, signed int ngroup, 
           {
             if(*dptr < 0.5)
             {
-              tmp_post$4 = nwarned;
+              tmp_post_4 = nwarned;
               nwarned = nwarned + 1;
-              if(!(tmp_post$4 >= 100))
+              if(!(tmp_post_4 >= 100))
                 reporterr("# Sequences %d and %d seem to be closely related, but are not in the same sub MSA (%d) in your setting.\n", s2 + 1, s1 + 1, i + 1);
 
             }
@@ -14163,9 +14163,9 @@ extern void initFiles(void)
   if(trap_g == ((struct _IO_FILE *)NULL))
     ErrorExit("cannot open trace");
 
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  fprintf(trap_g, "PID = %d\n", return_value_getpid$1);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  fprintf(trap_g, "PID = %d\n", return_value_getpid_1);
   fflush(trap_g);
 }
 
@@ -14220,16 +14220,16 @@ extern double input_new(struct _IO_FILE *fp, signed int d)
     ungetc(c, fp);
 
   i = 0;
-  signed int return_value__IO_getc$1;
+  signed int return_value__IO_getc_1;
   for( ; !(i >= d); i = i + 1)
   {
-    return_value__IO_getc$1=_IO_getc(fp);
-    mojiretsu[(signed long int)i] = (char)return_value__IO_getc$1;
+    return_value__IO_getc_1=_IO_getc(fp);
+    mojiretsu[(signed long int)i] = (char)return_value__IO_getc_1;
   }
   mojiretsu[(signed long int)i] = (char)0;
-  double return_value_atof$2;
-  return_value_atof$2=atof(mojiretsu);
-  return return_value_atof$2;
+  double return_value_atof_2;
+  return_value_atof_2=atof(mojiretsu);
+  return return_value_atof_2;
 }
 
 // intcat
@@ -14238,13 +14238,13 @@ extern void intcat(signed int *s1, signed int *s2)
 {
   for( ; !(*s1 == -1); s1 = s1 + 1l)
     ;
-  signed int *tmp_post$1;
-  signed int *tmp_post$2;
-  for( ; !(*s2 == -1); *tmp_post$1 = *tmp_post$2)
+  signed int *tmp_post_1;
+  signed int *tmp_post_2;
+  for( ; !(*s2 == -1); *tmp_post_1 = *tmp_post_2)
   {
-    tmp_post$1 = s1;
+    tmp_post_1 = s1;
     s1 = s1 + 1l;
-    tmp_post$2 = s2;
+    tmp_post_2 = s2;
     s2 = s2 + 1l;
   }
   *s1 = -1;
@@ -14254,13 +14254,13 @@ extern void intcat(signed int *s1, signed int *s2)
 // file mltaln9.c line 8778
 extern void intcpy(signed int *s1, signed int *s2)
 {
-  signed int *tmp_post$1;
-  signed int *tmp_post$2;
-  for( ; !(*s2 == -1); *tmp_post$1 = *tmp_post$2)
+  signed int *tmp_post_1;
+  signed int *tmp_post_2;
+  for( ; !(*s2 == -1); *tmp_post_1 = *tmp_post_2)
   {
-    tmp_post$1 = s1;
+    tmp_post_1 = s1;
     s1 = s1 + 1l;
-    tmp_post$2 = s2;
+    tmp_post_2 = s2;
     s2 = s2 + 1l;
   }
   *s1 = -1;
@@ -14697,12 +14697,12 @@ extern void intergroup_score_multimtx(signed int **whichmtx, double ***scoringma
 extern signed int intlen(signed int *num)
 {
   signed int value = 0;
-  signed int *tmp_post$1;
+  signed int *tmp_post_1;
   do
   {
-    tmp_post$1 = num;
+    tmp_post_1 = num;
     num = num + 1l;
-    if(*tmp_post$1 == -1)
+    if(*tmp_post_1 == -1)
       break;
 
     value = value + 1;
@@ -14715,21 +14715,21 @@ extern signed int intlen(signed int *num)
 // file mltaln9.c line 8788
 extern void intncpy(signed int *s1, signed int *s2, signed int n)
 {
-  signed int tmp_post$1;
-  signed int *tmp_post$2;
-  signed int *tmp_post$3;
+  signed int tmp_post_1;
+  signed int *tmp_post_2;
+  signed int *tmp_post_3;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = s1;
+    tmp_post_2 = s1;
     s1 = s1 + 1l;
-    tmp_post$3 = s2;
+    tmp_post_3 = s2;
     s2 = s2 + 1l;
-    *tmp_post$2 = *tmp_post$3;
+    *tmp_post_2 = *tmp_post_3;
   }
   while((_Bool)1);
 }
@@ -14755,15 +14755,15 @@ extern signed int isaligned(signed int nseq, char **seq)
 {
   signed int i;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   i = 1;
   for( ; !(i >= nseq); i = i + 1)
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(seq[(signed long int)i]);
-    if(!(return_value_strlen$2 == (unsigned long int)len))
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(seq[(signed long int)i]);
+    if(!(return_value_strlen_2 == (unsigned long int)len))
       return 0;
 
   }
@@ -14785,15 +14785,15 @@ extern signed int isallgap(char *seq)
 // file io.c line 1295
 extern void kake2hiku(char *str)
 {
-  char *tmp_post$1;
+  char *tmp_post_1;
   while((_Bool)1)
   {
     if((signed int)*str == 42)
       *str = (char)45;
 
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    if(*tmp_post$1 == 0)
+    if(*tmp_post_1 == 0)
       break;
 
   }
@@ -14803,12 +14803,12 @@ extern void kake2hiku(char *str)
 // file mltaln9.c line 8805
 static signed int lastmem(signed int *s)
 {
-  signed int *tmp_post$1;
+  signed int *tmp_post_1;
   do
   {
-    tmp_post$1 = s;
+    tmp_post_1 = s;
     s = s + 1l;
-    if(*tmp_post$1 == -1)
+    if(*tmp_post_1 == -1)
       break;
 
   }
@@ -14824,7 +14824,7 @@ extern signed int load1SeqWithoutName_new(struct _IO_FILE *fpp, char *cbuf)
   signed int b;
   char *bk = cbuf;
   b = 10;
-  char *tmp_post$1;
+  char *tmp_post_1;
   do
   {
     c=_IO_getc(fpp);
@@ -14834,9 +14834,9 @@ extern signed int load1SeqWithoutName_new(struct _IO_FILE *fpp, char *cbuf)
     if(b == 10 && (c == 62 || c == -1))
       break;
 
-    tmp_post$1 = cbuf;
+    tmp_post_1 = cbuf;
     cbuf = cbuf + 1l;
-    *tmp_post$1 = (char)c;
+    *tmp_post_1 = (char)c;
     b = c;
   }
   while((_Bool)1);
@@ -14860,12 +14860,12 @@ extern char * load1SeqWithoutName_realloc(struct _IO_FILE *fpp)
   char *cbuf;
   signed int size = 5000000;
   char *val;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
-  val = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
+  val = (char *)return_value_malloc_1;
   cbuf = val;
   b = 10;
-  char *tmp_post$2;
+  char *tmp_post_2;
   do
   {
     c=_IO_getc(fpp);
@@ -14875,16 +14875,16 @@ extern char * load1SeqWithoutName_realloc(struct _IO_FILE *fpp)
     if(b == 10 && (c == 62 || c == -1))
       break;
 
-    tmp_post$2 = cbuf;
+    tmp_post_2 = cbuf;
     cbuf = cbuf + 1l;
-    *tmp_post$2 = (char)c;
+    *tmp_post_2 = (char)c;
     if(cbuf - val == (signed long int)size)
     {
       size = size + 5000000;
       fprintf(stderr, "reallocating...\n");
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)val, (unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
-      val = (char *)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)val, (unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
+      val = (char *)return_value_realloc_3;
       if(val == ((char *)NULL))
       {
         fprintf(stderr, "Allocation error in load1SeqWithoutName_realloc \n");
@@ -14924,12 +14924,12 @@ extern char * load1SeqWithoutName_realloc_casepreserve(struct _IO_FILE *fpp)
   char *cbuf;
   signed int size = 5000000;
   char *val;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
-  val = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
+  val = (char *)return_value_malloc_1;
   cbuf = val;
   b = 10;
-  char *tmp_post$2;
+  char *tmp_post_2;
   do
   {
     c=_IO_getc(fpp);
@@ -14939,16 +14939,16 @@ extern char * load1SeqWithoutName_realloc_casepreserve(struct _IO_FILE *fpp)
     if(b == 10 && (c == 62 || c == -1))
       break;
 
-    tmp_post$2 = cbuf;
+    tmp_post_2 = cbuf;
     cbuf = cbuf + 1l;
-    *tmp_post$2 = (char)c;
+    *tmp_post_2 = (char)c;
     if(cbuf - val == (signed long int)size)
     {
       size = size + 5000000;
       fprintf(stderr, "reallocating...\n");
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)val, (unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
-      val = (char *)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)val, (unsigned long int)(size + 1) * sizeof(char) /*1ul*/ );
+      val = (char *)return_value_realloc_3;
       if(val == ((char *)NULL))
       {
         fprintf(stderr, "Allocation error in load1SeqWithoutName_realloc \n");
@@ -15003,17 +15003,17 @@ extern double * loadaamtx(void)
     exit(1);
   }
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1000, sizeof(char) /*1ul*/ );
-  inorder = (char *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1000, sizeof(char) /*1ul*/ );
-  line = (char *)return_value_calloc$2;
-  signed int return_value_feof$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1000, sizeof(char) /*1ul*/ );
+  inorder = (char *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1000, sizeof(char) /*1ul*/ );
+  line = (char *)return_value_calloc_2;
+  signed int return_value_feof_3;
   do
   {
-    return_value_feof$3=feof(mf);
-    if(!(return_value_feof$3 == 0))
+    return_value_feof_3=feof(mf);
+    if(!(return_value_feof_3 == 0))
       break;
 
     fgets(inorder, 999, mf);
@@ -15026,13 +15026,13 @@ extern double * loadaamtx(void)
   ptr1 = ptr2;
   while(!(*ptr2 == 0))
   {
-    const unsigned short int **return_value___ctype_b_loc$5;
-    return_value___ctype_b_loc$5=__ctype_b_loc();
-    if(!((1024 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*ptr2]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_5;
+    return_value___ctype_b_loc_5=__ctype_b_loc();
+    if(!((1024 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*ptr2]) == 0))
     {
-      signed int return_value_toupper$4;
-      return_value_toupper$4=toupper((signed int)*ptr2);
-      *ptr1 = (char)return_value_toupper$4;
+      signed int return_value_toupper_4;
+      return_value_toupper_4=toupper((signed int)*ptr2);
+      *ptr1 = (char)return_value_toupper_4;
       ptr1 = ptr1 + 1l;
     }
 
@@ -15053,12 +15053,12 @@ extern double * loadaamtx(void)
       map[(signed long int)i] = (signed int)(ptr2 - inorder);
   }
   i = 0;
-  signed int return_value_feof$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
+  signed int return_value_feof_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
   do
   {
-    return_value_feof$6=feof(mf);
-    if(!(return_value_feof$6 == 0))
+    return_value_feof_6=feof(mf);
+    if(!(return_value_feof_6 == 0))
       break;
 
     fgets(line, 999, mf);
@@ -15070,8 +15070,8 @@ extern double * loadaamtx(void)
       {
         do
         {
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*ptr1]) == 0))
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*ptr1]) == 0))
             break;
 
           if((signed int)*ptr1 == 45)
@@ -15100,12 +15100,12 @@ extern double * loadaamtx(void)
   i = 0;
   for( ; !(i >= 20); i = i + 1)
     raw[(signed long int)20][(signed long int)i] = -1.0;
-  signed int return_value_feof$8;
-  const unsigned short int **return_value___ctype_b_loc$9;
+  signed int return_value_feof_8;
+  const unsigned short int **return_value___ctype_b_loc_9;
   do
   {
-    return_value_feof$8=feof(mf);
-    if(!(return_value_feof$8 == 0))
+    return_value_feof_8=feof(mf);
+    if(!(return_value_feof_8 == 0))
       break;
 
     fgets(line, 999, mf);
@@ -15117,8 +15117,8 @@ extern double * loadaamtx(void)
       {
         do
         {
-          return_value___ctype_b_loc$9=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)*ptr1]) == 0))
+          return_value___ctype_b_loc_9=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)*ptr1]) == 0))
             break;
 
           if((signed int)*ptr1 == 45)
@@ -15143,9 +15143,9 @@ extern double * loadaamtx(void)
   while((_Bool)1);
   k = 0;
   i = 0;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$11;
-  signed int tmp_post$12;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_11;
+  signed int tmp_post_12;
   for( ; !(i >= 20); i = i + 1)
   {
     j = 0;
@@ -15154,17 +15154,17 @@ extern double * loadaamtx(void)
       if(!(i == j))
       {
         if(!(map[(signed long int)j] >= map[(signed long int)i]))
-          tmp_if_expr$10 = map[(signed long int)i];
+          tmp_if_expr_10 = map[(signed long int)i];
 
         else
-          tmp_if_expr$10 = map[(signed long int)j];
-        ii = tmp_if_expr$10;
+          tmp_if_expr_10 = map[(signed long int)j];
+        ii = tmp_if_expr_10;
         if(!(map[(signed long int)i] >= map[(signed long int)j]))
-          tmp_if_expr$11 = map[(signed long int)i];
+          tmp_if_expr_11 = map[(signed long int)i];
 
         else
-          tmp_if_expr$11 = map[(signed long int)j];
-        jj = tmp_if_expr$11;
+          tmp_if_expr_11 = map[(signed long int)j];
+        jj = tmp_if_expr_11;
       }
 
       else
@@ -15172,9 +15172,9 @@ extern double * loadaamtx(void)
         jj = map[(signed long int)i];
         ii = jj;
       }
-      tmp_post$12 = k;
+      tmp_post_12 = k;
       k = k + 1;
-      val[(signed long int)tmp_post$12] = raw[(signed long int)ii][(signed long int)jj];
+      val[(signed long int)tmp_post_12] = raw[(signed long int)ii][(signed long int)jj];
     }
   }
   i = 0;
@@ -15237,9 +15237,9 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
   if(hist == ((signed int *)NULL))
   {
     hist=AllocateIntVec(nseq);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)nseq * sizeof(struct _Bchain) /*24ul*/ );
-    ac = (struct _Bchain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)nseq * sizeof(struct _Bchain) /*24ul*/ );
+    ac = (struct _Bchain *)return_value_malloc_1;
     nmemar=AllocateIntVec(nseq);
     treetmp = (char *)(void *)0;
     nametmp=AllocateCharVec(1000);
@@ -15248,8 +15248,8 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *return_value_strstr$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *return_value_strstr_3;
   for( ; !(i >= nseq); i = i + 1)
   {
     j = 0;
@@ -15264,8 +15264,8 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)namec]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)namec]) == 0))
           nametmp[(signed long int)j] = namec;
 
         else
@@ -15275,8 +15275,8 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
     nametmp[(signed long int)j] = (char)0;
     if(!(outnumber == 0))
     {
-      return_value_strstr$3=strstr(nametmp, "_numo_e");
-      nameptr = return_value_strstr$3 + (signed long int)8;
+      return_value_strstr_3=strstr(nametmp, "_numo_e");
+      nameptr = return_value_strstr_3 + (signed long int)8;
     }
 
     else
@@ -15285,11 +15285,11 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
     if(!(tmpptr == ((char *)NULL)))
       nameptr = tmpptr + (signed long int)4;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nametmp);
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
-    tree[(signed long int)i] = (char *)return_value_calloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nametmp);
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
+    tree[(signed long int)i] = (char *)return_value_calloc_5;
     if(tree[(signed long int)i] == ((char *)NULL))
     {
       reporterr("Cannot allocate tree!\n");
@@ -15314,19 +15314,19 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
   }
   reporterr("\n");
   k = 0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
-  signed int *tmp_post$15;
-  signed int *tmp_post$16;
-  signed int *tmp_post$17;
-  signed int *tmp_post$18;
-  signed int *tmp_post$19;
-  _Bool tmp_if_expr$20;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
+  signed int *tmp_post_15;
+  signed int *tmp_post_16;
+  signed int *tmp_post_17;
+  signed int *tmp_post_18;
+  signed int *tmp_post_19;
+  _Bool tmp_if_expr_20;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -15338,16 +15338,16 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
     im = node[(signed long int)0];
     jm = node[(signed long int)1];
     if(!(nseq + -1 >= im) || !(nseq + -1 >= jm))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = tree[(signed long int)im] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = tree[(signed long int)im] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = tree[(signed long int)jm] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = tree[(signed long int)jm] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       reporterr("\n\nCheck the guide tree.\n");
       reporterr("im=%d, jm=%d\n", im + 1, jm + 1);
@@ -15360,15 +15360,15 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
       (dep + (signed long int)k)->child0 = prevnode;
 
     nmemim = nmemar[(signed long int)im];
-    void *return_value_realloc$8;
-    return_value_realloc$8=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc$8;
+    void *return_value_realloc_8;
+    return_value_realloc_8=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc_8;
     intpt = topol[(signed long int)k][(signed long int)0];
     if(prevnode == -1)
     {
-      tmp_post$9 = intpt;
+      tmp_post_9 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$9 = im;
+      *tmp_post_9 = im;
       *intpt = -1;
     }
 
@@ -15388,19 +15388,19 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$10 = *tmp_post$11)
+      for( ; !(*intpt2 == -1); *tmp_post_10 = *tmp_post_11)
       {
-        tmp_post$10 = intpt;
+        tmp_post_10 = intpt;
         intpt = intpt + 1l;
-        tmp_post$11 = intpt2;
+        tmp_post_11 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$12 = *tmp_post$13)
+      for( ; !(*intpt2 == -1); *tmp_post_12 = *tmp_post_13)
       {
-        tmp_post$12 = intpt;
+        tmp_post_12 = intpt;
         intpt = intpt + 1l;
-        tmp_post$13 = intpt2;
+        tmp_post_13 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -15410,9 +15410,9 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
     if(!(dep == ((struct _Treedep *)NULL)))
       (dep + (signed long int)k)->child1 = prevnode;
 
-    void *return_value_realloc$14;
-    return_value_realloc$14=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc$14;
+    void *return_value_realloc_14;
+    return_value_realloc_14=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc_14;
     intpt = topol[(signed long int)k][(signed long int)1];
     if(intpt == ((signed int *)NULL))
     {
@@ -15422,9 +15422,9 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
 
     if(prevnode == -1)
     {
-      tmp_post$15 = intpt;
+      tmp_post_15 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$15 = jm;
+      *tmp_post_15 = jm;
       *intpt = -1;
     }
 
@@ -15444,19 +15444,19 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$16 = *tmp_post$17)
+      for( ; !(*intpt2 == -1); *tmp_post_16 = *tmp_post_17)
       {
-        tmp_post$16 = intpt;
+        tmp_post_16 = intpt;
         intpt = intpt + 1l;
-        tmp_post$17 = intpt2;
+        tmp_post_17 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$18 = *tmp_post$19)
+      for( ; !(*intpt2 == -1); *tmp_post_18 = *tmp_post_19)
       {
-        tmp_post$18 = intpt;
+        tmp_post_18 = intpt;
         intpt = intpt + 1l;
-        tmp_post$19 = intpt2;
+        tmp_post_19 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -15464,11 +15464,11 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
     hist[(signed long int)im] = k;
     nmemar[(signed long int)im] = nmemim + nmemjm;
     if(IEEE_FLOAT_EQUAL(*len[(signed long int)k], -1.000000))
-      tmp_if_expr$20 = (_Bool)1;
+      tmp_if_expr_20 = (_Bool)1;
 
     else
-      tmp_if_expr$20 = IEEE_FLOAT_EQUAL(len[(signed long int)k][(signed long int)1], (double)-1) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$20)
+      tmp_if_expr_20 = IEEE_FLOAT_EQUAL(len[(signed long int)k][(signed long int)1], (double)-1) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_20)
     {
       reporterr("Re-computing the length of branch %d..\n", k);
       clusterdist = 0.0;
@@ -15511,13 +15511,13 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
 
     height[(signed long int)im] = height[(signed long int)im] + len[(signed long int)k][(signed long int)0];
     (dep + (signed long int)k)->distfromtip = height[(signed long int)im];
-    unsigned long int return_value_strlen$21;
-    return_value_strlen$21=strlen(tree[(signed long int)im]);
-    unsigned long int return_value_strlen$22;
-    return_value_strlen$22=strlen(tree[(signed long int)jm]);
-    void *return_value_realloc$23;
-    return_value_realloc$23=realloc((void *)treetmp, return_value_strlen$21 + return_value_strlen$22 + (unsigned long int)100);
-    treetmp = (char *)return_value_realloc$23;
+    unsigned long int return_value_strlen_21;
+    return_value_strlen_21=strlen(tree[(signed long int)im]);
+    unsigned long int return_value_strlen_22;
+    return_value_strlen_22=strlen(tree[(signed long int)jm]);
+    void *return_value_realloc_23;
+    return_value_realloc_23=realloc((void *)treetmp, return_value_strlen_21 + return_value_strlen_22 + (unsigned long int)100);
+    treetmp = (char *)return_value_realloc_23;
     if(treetmp == ((char *)NULL))
     {
       reporterr("Cannot allocate treetmp\n");
@@ -15527,11 +15527,11 @@ extern void loadtop(signed int nseq, double **mtx, signed int ***topol, double *
     sprintf(treetmp, "(%s:%7.5f,%s:%7.5f)", tree[(signed long int)im], len[(signed long int)k][(signed long int)0], tree[(signed long int)jm], len[(signed long int)k][(signed long int)1]);
     free((void *)tree[(signed long int)im]);
     free((void *)tree[(signed long int)jm]);
-    unsigned long int return_value_strlen$24;
-    return_value_strlen$24=strlen(treetmp);
-    void *return_value_calloc$25;
-    return_value_calloc$25=calloc(return_value_strlen$24 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-    tree[(signed long int)im] = (char *)return_value_calloc$25;
+    unsigned long int return_value_strlen_24;
+    return_value_strlen_24=strlen(treetmp);
+    void *return_value_calloc_25;
+    return_value_calloc_25=calloc(return_value_strlen_24 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+    tree[(signed long int)im] = (char *)return_value_calloc_25;
     tree[(signed long int)jm] = (char *)(void *)0;
     if(tree[(signed long int)im] == ((char *)NULL))
     {
@@ -15608,9 +15608,9 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
   if(hist == ((signed int *)NULL))
   {
     hist=AllocateIntVec(nseq);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)nseq * sizeof(struct _Bchain) /*24ul*/ );
-    ac = (struct _Bchain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)nseq * sizeof(struct _Bchain) /*24ul*/ );
+    ac = (struct _Bchain *)return_value_malloc_1;
     nmemar=AllocateIntVec(nseq);
     treetmp = (char *)(void *)0;
     nametmp=AllocateCharVec(1000);
@@ -15621,8 +15621,8 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *return_value_strstr$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *return_value_strstr_3;
   for( ; !(i >= nseq); i = i + 1)
   {
     j = 0;
@@ -15637,8 +15637,8 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)namec]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)namec]) == 0))
           nametmp[(signed long int)j] = namec;
 
         else
@@ -15648,8 +15648,8 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
     nametmp[(signed long int)j] = (char)0;
     if(!(outnumber == 0))
     {
-      return_value_strstr$3=strstr(nametmp, "_numo_e");
-      nameptr = return_value_strstr$3 + (signed long int)8;
+      return_value_strstr_3=strstr(nametmp, "_numo_e");
+      nameptr = return_value_strstr_3 + (signed long int)8;
     }
 
     else
@@ -15658,11 +15658,11 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
     if(!(tmpptr == ((char *)NULL)))
       nameptr = tmpptr + (signed long int)4;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nametmp);
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
-    tree[(signed long int)i] = (char *)return_value_calloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nametmp);
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
+    tree[(signed long int)i] = (char *)return_value_calloc_5;
     if(tree[(signed long int)i] == ((char *)NULL))
     {
       reporterr("Cannot allocate tree!\n");
@@ -15687,19 +15687,19 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
   }
   reporterr("\n");
   k = 0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
-  signed int *tmp_post$14;
-  signed int *tmp_post$16;
-  signed int *tmp_post$17;
-  signed int *tmp_post$18;
-  signed int *tmp_post$19;
-  signed int *tmp_post$20;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
+  signed int *tmp_post_14;
+  signed int *tmp_post_16;
+  signed int *tmp_post_17;
+  signed int *tmp_post_18;
+  signed int *tmp_post_19;
+  signed int *tmp_post_20;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -15711,16 +15711,16 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
     im = node[(signed long int)0];
     jm = node[(signed long int)1];
     if(!(nseq + -1 >= im) || !(nseq + -1 >= jm))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = tree[(signed long int)im] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = tree[(signed long int)im] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = tree[(signed long int)jm] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = tree[(signed long int)jm] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       reporterr("\n\nCheck the guide tree.\n");
       reporterr("im=%d, jm=%d\n", im + 1, jm + 1);
@@ -15729,11 +15729,11 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
     }
 
     if(IEEE_FLOAT_EQUAL(*len[(signed long int)k], -1.000000))
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = IEEE_FLOAT_EQUAL(len[(signed long int)k][(signed long int)1], -1.0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = IEEE_FLOAT_EQUAL(len[(signed long int)k][(signed long int)1], -1.0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       reporterr("\n\nERROR: Branch length is not given.\n");
       exit(1);
@@ -15750,15 +15750,15 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
       (dep + (signed long int)k)->child0 = prevnode;
 
     nmemim = nmemar[(signed long int)im];
-    void *return_value_realloc$9;
-    return_value_realloc$9=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc$9;
+    void *return_value_realloc_9;
+    return_value_realloc_9=realloc((void *)topol[(signed long int)k][(signed long int)0], (unsigned long int)(nmemim + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)0] = (signed int *)return_value_realloc_9;
     intpt = topol[(signed long int)k][(signed long int)0];
     if(prevnode == -1)
     {
-      tmp_post$10 = intpt;
+      tmp_post_10 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$10 = im;
+      *tmp_post_10 = im;
       *intpt = -1;
     }
 
@@ -15778,19 +15778,19 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$11 = *tmp_post$12)
+      for( ; !(*intpt2 == -1); *tmp_post_11 = *tmp_post_12)
       {
-        tmp_post$11 = intpt;
+        tmp_post_11 = intpt;
         intpt = intpt + 1l;
-        tmp_post$12 = intpt2;
+        tmp_post_12 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$13 = *tmp_post$14)
+      for( ; !(*intpt2 == -1); *tmp_post_13 = *tmp_post_14)
       {
-        tmp_post$13 = intpt;
+        tmp_post_13 = intpt;
         intpt = intpt + 1l;
-        tmp_post$14 = intpt2;
+        tmp_post_14 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -15800,9 +15800,9 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
     if(!(dep == ((struct _Treedep *)NULL)))
       (dep + (signed long int)k)->child1 = prevnode;
 
-    void *return_value_realloc$15;
-    return_value_realloc$15=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
-    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc$15;
+    void *return_value_realloc_15;
+    return_value_realloc_15=realloc((void *)topol[(signed long int)k][(signed long int)1], (unsigned long int)(nmemjm + 1) * sizeof(signed int) /*4ul*/ );
+    topol[(signed long int)k][(signed long int)1] = (signed int *)return_value_realloc_15;
     intpt = topol[(signed long int)k][(signed long int)1];
     if(intpt == ((signed int *)NULL))
     {
@@ -15812,9 +15812,9 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
 
     if(prevnode == -1)
     {
-      tmp_post$16 = intpt;
+      tmp_post_16 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$16 = jm;
+      *tmp_post_16 = jm;
       *intpt = -1;
     }
 
@@ -15834,19 +15834,19 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$17 = *tmp_post$18)
+      for( ; !(*intpt2 == -1); *tmp_post_17 = *tmp_post_18)
       {
-        tmp_post$17 = intpt;
+        tmp_post_17 = intpt;
         intpt = intpt + 1l;
-        tmp_post$18 = intpt2;
+        tmp_post_18 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$19 = *tmp_post$20)
+      for( ; !(*intpt2 == -1); *tmp_post_19 = *tmp_post_20)
       {
-        tmp_post$19 = intpt;
+        tmp_post_19 = intpt;
         intpt = intpt + 1l;
-        tmp_post$20 = intpt2;
+        tmp_post_20 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -15886,13 +15886,13 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
       }
 
     }
-    unsigned long int return_value_strlen$21;
-    return_value_strlen$21=strlen(tree[(signed long int)im]);
-    unsigned long int return_value_strlen$22;
-    return_value_strlen$22=strlen(tree[(signed long int)jm]);
-    void *return_value_realloc$23;
-    return_value_realloc$23=realloc((void *)treetmp, return_value_strlen$21 + return_value_strlen$22 + (unsigned long int)100);
-    treetmp = (char *)return_value_realloc$23;
+    unsigned long int return_value_strlen_21;
+    return_value_strlen_21=strlen(tree[(signed long int)im]);
+    unsigned long int return_value_strlen_22;
+    return_value_strlen_22=strlen(tree[(signed long int)jm]);
+    void *return_value_realloc_23;
+    return_value_realloc_23=realloc((void *)treetmp, return_value_strlen_21 + return_value_strlen_22 + (unsigned long int)100);
+    treetmp = (char *)return_value_realloc_23;
     if(treetmp == ((char *)NULL))
     {
       reporterr("Cannot allocate treetmp\n");
@@ -15902,11 +15902,11 @@ extern void loadtree(signed int nseq, signed int ***topol, double **len, char **
     sprintf(treetmp, "(%s:%7.5f,%s:%7.5f)", tree[(signed long int)im], len[(signed long int)k][(signed long int)0], tree[(signed long int)jm], len[(signed long int)k][(signed long int)1]);
     free((void *)tree[(signed long int)im]);
     free((void *)tree[(signed long int)jm]);
-    unsigned long int return_value_strlen$24;
-    return_value_strlen$24=strlen(treetmp);
-    void *return_value_calloc$25;
-    return_value_calloc$25=calloc(return_value_strlen$24 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-    tree[(signed long int)im] = (char *)return_value_calloc$25;
+    unsigned long int return_value_strlen_24;
+    return_value_strlen_24=strlen(treetmp);
+    void *return_value_calloc_25;
+    return_value_calloc_25=calloc(return_value_strlen_24 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+    tree[(signed long int)im] = (char *)return_value_calloc_25;
     tree[(signed long int)jm] = (char *)(void *)0;
     if(tree[(signed long int)im] == ((char *)NULL))
     {
@@ -16032,12 +16032,12 @@ signed int main(signed int argc, char **argv)
   name=AllocateCharMtx(njob, 256 + 1);
   static signed int *nlen;
   nlen=AllocateIntVec(njob);
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)njob, sizeof(struct _RNApair **) /*8ul*/ );
-  pairprob = (struct _RNApair ***)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)nlenmax, sizeof(struct _RNApair *) /*8ul*/ );
-  alnpairprob = (struct _RNApair **)return_value_calloc$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)njob, sizeof(struct _RNApair **) /*8ul*/ );
+  pairprob = (struct _RNApair ***)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)nlenmax, sizeof(struct _RNApair *) /*8ul*/ );
+  alnpairprob = (struct _RNApair **)return_value_calloc_2;
   alnpairnum=AllocateIntVec(nlenmax);
   i = 0;
   for( ; !(i >= nlenmax); i = i + 1)
@@ -16047,15 +16047,15 @@ signed int main(signed int argc, char **argv)
   i = 0;
   for( ; !(i >= njob); i = i + 1)
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)nlenmax, sizeof(struct _RNApair *) /*8ul*/ );
-    pairprob[(signed long int)i] = (struct _RNApair **)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)nlenmax, sizeof(struct _RNApair *) /*8ul*/ );
+    pairprob[(signed long int)i] = (struct _RNApair **)return_value_calloc_3;
     j = 0;
     for( ; !(j >= nlenmax); j = j + 1)
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct _RNApair) /*48ul*/ );
-      pairprob[(signed long int)i][(signed long int)j] = (struct _RNApair *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct _RNApair) /*48ul*/ );
+      pairprob[(signed long int)i][(signed long int)j] = (struct _RNApair *)return_value_calloc_4;
       (pairprob[(signed long int)i][(signed long int)j] + (signed long int)0)->bestpos = -1;
       (pairprob[(signed long int)i][(signed long int)j] + (signed long int)0)->bestscore = -1.0;
     }
@@ -16065,9 +16065,9 @@ signed int main(signed int argc, char **argv)
   j = 0;
   for( ; !(j >= nlenmax); j = j + 1)
   {
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc((unsigned long int)1, sizeof(struct _RNApair) /*48ul*/ );
-    alnpairprob[(signed long int)j] = (struct _RNApair *)return_value_calloc$5;
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc((unsigned long int)1, sizeof(struct _RNApair) /*48ul*/ );
+    alnpairprob[(signed long int)j] = (struct _RNApair *)return_value_calloc_5;
     (alnpairprob[(signed long int)j] + (signed long int)0)->bestpos = -1;
     (alnpairprob[(signed long int)j] + (signed long int)0)->bestscore = -1.0;
   }
@@ -16084,13 +16084,13 @@ signed int main(signed int argc, char **argv)
     union anonymous mutex;
     struct _thread_arg *targ;
     jobpos = 0;
-    void *return_value_calloc$6;
-    return_value_calloc$6=calloc((unsigned long int)nthread, sizeof(struct _thread_arg) /*56ul*/ );
-    targ = (struct _thread_arg *)return_value_calloc$6;
-    void *return_value_calloc$7;
-    return_value_calloc$7=calloc((unsigned long int)nthread, sizeof(unsigned long int) /*8ul*/ );
-    handle = (unsigned long int *)return_value_calloc$7;
-    pthread_mutex_init(&mutex, (const union anonymous$0 *)(void *)0);
+    void *return_value_calloc_6;
+    return_value_calloc_6=calloc((unsigned long int)nthread, sizeof(struct _thread_arg) /*56ul*/ );
+    targ = (struct _thread_arg *)return_value_calloc_6;
+    void *return_value_calloc_7;
+    return_value_calloc_7=calloc((unsigned long int)nthread, sizeof(unsigned long int) /*8ul*/ );
+    handle = (unsigned long int *)return_value_calloc_7;
+    pthread_mutex_init(&mutex, (const union anonymous_0 *)(void *)0);
     i = 0;
     for( ; !(i >= nthread); i = i + 1)
     {
@@ -16125,9 +16125,9 @@ signed int main(signed int argc, char **argv)
     {
       fprintf(stderr, "%d / %d\n", i + 1, njob);
       commongappick_record(1, nogap + (signed long int)i, gapmap[(signed long int)i]);
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(nogap[(signed long int)i]);
-      if(return_value_strlen$8 == 0ul)
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(nogap[(signed long int)i]);
+      if(return_value_strlen_8 == 0ul)
         fprintf(stdout, ">%d\n", i);
 
       else
@@ -16177,9 +16177,9 @@ signed int main(signed int argc, char **argv)
 
         if(pt->bestpos == -1)
         {
-          void *return_value_realloc$9;
-          return_value_realloc$9=realloc((void *)alnpairprob[(signed long int)left], (unsigned long int)(alnpairnum[(signed long int)left] + 2) * sizeof(struct _RNApair) /*48ul*/ );
-          alnpairprob[(signed long int)left] = (struct _RNApair *)return_value_realloc$9;
+          void *return_value_realloc_9;
+          return_value_realloc_9=realloc((void *)alnpairprob[(signed long int)left], (unsigned long int)(alnpairnum[(signed long int)left] + 2) * sizeof(struct _RNApair) /*48ul*/ );
+          alnpairprob[(signed long int)left] = (struct _RNApair *)return_value_realloc_9;
           adpos = alnpairnum[(signed long int)left];
           alnpairnum[(signed long int)left] = alnpairnum[(signed long int)left] + 1;
           (alnpairprob[(signed long int)left] + (signed long int)adpos)->bestscore = 0.0;
@@ -16314,17 +16314,17 @@ extern signed int makelocal(char *s1, char *s2, signed int thr)
   score = 0.0;
   start = 0;
   maxstart = 0;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
   while(!(*pt1 == 0))
   {
     if((signed int)*pt1 == 45)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       score = score + (double)penalty;
       for( ; (_Bool)1; pt2 = pt2 + 1l)
@@ -16342,11 +16342,11 @@ extern signed int makelocal(char *s1, char *s2, signed int thr)
 
     else
     {
-      tmp_post$2 = pt1;
+      tmp_post_2 = pt1;
       pt1 = pt1 + 1l;
-      tmp_post$3 = pt2;
+      tmp_post_3 = pt2;
       pt2 = pt2 + 1l;
-      score = score + (double)(amino_dis[(signed long int)(unsigned char)*tmp_post$2][(signed long int)(unsigned char)*tmp_post$3] - thr);
+      score = score + (double)(amino_dis[(signed long int)(unsigned char)*tmp_post_2][(signed long int)(unsigned char)*tmp_post_3] - thr);
       if(score > maxscore)
       {
         maxscore = score;
@@ -16386,24 +16386,24 @@ extern void makeskiptable(signed int n, signed int **skip, char **seq)
   signed int j;
   signed int posinseq;
   signed int gaplen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc(return_value_strlen$1 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-  nogapseq = (char *)return_value_calloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc(return_value_strlen_1 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+  nogapseq = (char *)return_value_calloc_2;
   i = 0;
   for( ; !(i >= n); i = i + 1)
   {
     gappick0(nogapseq, seq[(signed long int)i]);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(nogapseq);
-    nogaplen = (signed int)return_value_strlen$3;
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(seq[(signed long int)i]);
-    alnlen = (signed int)return_value_strlen$4;
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc((unsigned long int)(nogaplen + 1), sizeof(signed int) /*4ul*/ );
-    skip[(signed long int)i] = (signed int *)return_value_calloc$5;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(nogapseq);
+    nogaplen = (signed int)return_value_strlen_3;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(seq[(signed long int)i]);
+    alnlen = (signed int)return_value_strlen_4;
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc((unsigned long int)(nogaplen + 1), sizeof(signed int) /*4ul*/ );
+    skip[(signed long int)i] = (signed int *)return_value_calloc_5;
     posinseq = 0;
     gaplen = 0;
     j = 0;
@@ -16434,9 +16434,9 @@ extern double myatof(char *in)
     exit(1);
   }
 
-  double return_value_atof$1;
-  return_value_atof$1=atof(in);
-  return return_value_atof$1;
+  double return_value_atof_1;
+  return_value_atof_1=atof(in);
+  return return_value_atof_1;
 }
 
 // myatoi
@@ -16449,9 +16449,9 @@ extern signed int myatoi(char *in)
     exit(1);
   }
 
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(in);
-  return return_value_atoi$1;
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(in);
+  return return_value_atoi_1;
 }
 
 // myfgets
@@ -16460,12 +16460,12 @@ extern signed int myfgets(char *s, signed int l, struct _IO_FILE *fp)
 {
   signed int c = 0;
   signed int i = 0;
-  signed int return_value_feof$1;
-  return_value_feof$1=feof(fp);
-  _Bool tmp_if_expr$2;
-  char *tmp_post$3;
-  signed int return_value__IO_getc$4;
-  if(!(return_value_feof$1 == 0))
+  signed int return_value_feof_1;
+  return_value_feof_1=feof(fp);
+  _Bool tmp_if_expr_2;
+  char *tmp_post_3;
+  signed int return_value__IO_getc_4;
+  if(!(return_value_feof_1 == 0))
     return 1;
 
   else
@@ -16476,17 +16476,17 @@ extern signed int myfgets(char *s, signed int l, struct _IO_FILE *fp)
       if(!(i >= l))
       {
         c=_IO_getc(fp);
-        tmp_if_expr$2 = c != 10 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = c != 10 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      *tmp_post$3 = (char)c;
+      *tmp_post_3 = (char)c;
       i = i + 1;
     }
     while((_Bool)1);
@@ -16494,8 +16494,8 @@ extern signed int myfgets(char *s, signed int l, struct _IO_FILE *fp)
     if(!(c == 10))
       do
       {
-        return_value__IO_getc$4=_IO_getc(fp);
-        if(return_value__IO_getc$4 == 10)
+        return_value__IO_getc_4=_IO_getc(fp);
+        if(return_value__IO_getc_4 == 10)
           break;
 
       }
@@ -16521,10 +16521,10 @@ extern double naiveHpairscore(signed int n1, signed int n2, char **seq1, char **
   char *p2p;
   val = 0.0;
   i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   for( ; !(i >= n1); i = i + 1)
   {
     j = 0;
@@ -16554,11 +16554,11 @@ extern double naiveHpairscore(signed int n1, signed int n2, char **seq1, char **
 
       p1p = p1;
       p2p = p2;
-      tmp_post$1 = p1;
+      tmp_post_1 = p1;
       p1 = p1 + 1l;
-      tmp_post$2 = p2;
+      tmp_post_2 = p2;
       p2 = p2 + 1l;
-      valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$1][(signed long int)(unsigned char)*tmp_post$2] + 0.5 * (double)pv;
+      valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_1][(signed long int)(unsigned char)*tmp_post_2] + 0.5 * (double)pv;
       for( ; !(*p1p == 0); p2p = p2p + 1l)
       {
         pv = 0;
@@ -16614,11 +16614,11 @@ extern double naiveHpairscore(signed int n1, signed int n2, char **seq1, char **
 
         }
 
-        tmp_post$3 = p1;
+        tmp_post_3 = p1;
         p1 = p1 + 1l;
-        tmp_post$4 = p2;
+        tmp_post_4 = p2;
         p2 = p2 + 1l;
-        valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$3][(signed long int)(unsigned char)*tmp_post$4] + 0.5 * (double)pv;
+        valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_3][(signed long int)(unsigned char)*tmp_post_4] + 0.5 * (double)pv;
         p1p = p1p + 1l;
       }
       val = val + deff * valf;
@@ -16645,10 +16645,10 @@ extern double naiveQpairscore(signed int n1, signed int n2, char **seq1, char **
   return (double)0;
   val = 0.0;
   i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   if(!(i >= n1))
   {
     j = 0;
@@ -16675,11 +16675,11 @@ extern double naiveQpairscore(signed int n1, signed int n2, char **seq1, char **
 
       p1p = p1;
       p2p = p2;
-      tmp_post$1 = p1;
+      tmp_post_1 = p1;
       p1 = p1 + 1l;
-      tmp_post$2 = p2;
+      tmp_post_2 = p2;
       p2 = p2 + 1l;
-      valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$1][(signed long int)(unsigned char)*tmp_post$2] + 0.5 * (double)pv;
+      valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_1][(signed long int)(unsigned char)*tmp_post_2] + 0.5 * (double)pv;
       if(!(*p1p == 0))
       {
         pv = 0;
@@ -16749,11 +16749,11 @@ extern double naiveQpairscore(signed int n1, signed int n2, char **seq1, char **
 
         }
 
-        tmp_post$3 = p1;
+        tmp_post_3 = p1;
         p1 = p1 + 1l;
-        tmp_post$4 = p2;
+        tmp_post_4 = p2;
         p2 = p2 + 1l;
-        valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$3][(signed long int)(unsigned char)*tmp_post$4] + 0.5 * (double)pv;
+        valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_3][(signed long int)(unsigned char)*tmp_post_4] + 0.5 * (double)pv;
         p1p = p1p + 1l;
         p2p = p2p + 1l;
       }
@@ -16785,10 +16785,10 @@ extern double naiveRpairscore(signed int n1, signed int n2, char **seq1, char **
   char *p2p;
   val = 0.0;
   i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   for( ; !(i >= n1); i = i + 1)
   {
     j = 0;
@@ -16815,11 +16815,11 @@ extern double naiveRpairscore(signed int n1, signed int n2, char **seq1, char **
 
       p1p = p1;
       p2p = p2;
-      tmp_post$1 = p1;
+      tmp_post_1 = p1;
       p1 = p1 + 1l;
-      tmp_post$2 = p2;
+      tmp_post_2 = p2;
       p2 = p2 + 1l;
-      valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$1][(signed long int)(unsigned char)*tmp_post$2] + 0.5 * (double)pv;
+      valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_1][(signed long int)(unsigned char)*tmp_post_2] + 0.5 * (double)pv;
       for( ; !(*p1p == 0); p2p = p2p + 1l)
       {
         pv = 0;
@@ -16925,11 +16925,11 @@ extern double naiveRpairscore(signed int n1, signed int n2, char **seq1, char **
 
         }
 
-        tmp_post$3 = p1;
+        tmp_post_3 = p1;
         p1 = p1 + 1l;
-        tmp_post$4 = p2;
+        tmp_post_4 = p2;
         p2 = p2 + 1l;
-        valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$3][(signed long int)(unsigned char)*tmp_post$4] + 0.5 * (double)pv;
+        valf = valf + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_3][(signed long int)(unsigned char)*tmp_post_4] + 0.5 * (double)pv;
         p1p = p1p + 1l;
       }
       val = val + deff * valf;
@@ -16949,23 +16949,23 @@ extern double naivepairscore(signed int n1, signed int n2, char **seq1, char **s
   signed int vali;
   double feff;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   char *s1;
   char *s2;
   char *p1;
   char *p2;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s1 = (char *)return_value_calloc$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s2 = (char *)return_value_calloc$3;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s1 = (char *)return_value_calloc_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s2 = (char *)return_value_calloc_3;
   val = 0.0;
   i = 0;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  char *tmp_post_4;
+  char *tmp_post_5;
   for( ; !(i >= n1); i = i + 1)
   {
     j = 0;
@@ -16994,11 +16994,11 @@ extern double naivepairscore(signed int n1, signed int n2, char **seq1, char **s
 
           else
           {
-            tmp_post$4 = p1;
+            tmp_post_4 = p1;
             p1 = p1 + 1l;
-            tmp_post$5 = p2;
+            tmp_post_5 = p2;
             p2 = p2 + 1l;
-            vali = vali + amino_dis[(signed long int)(unsigned char)*tmp_post$4][(signed long int)(unsigned char)*tmp_post$5];
+            vali = vali + amino_dis[(signed long int)(unsigned char)*tmp_post_4][(signed long int)(unsigned char)*tmp_post_5];
           }
       val = val + feff * (double)vali;
     }
@@ -17015,25 +17015,25 @@ extern double naivepairscore11(char *seq1, char *seq2, signed int penal)
 {
   double vali;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1);
+  len = (signed int)return_value_strlen_1;
   char *s1;
   char *s2;
   char *p1;
   char *p2;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s1 = (char *)return_value_calloc$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s2 = (char *)return_value_calloc$3;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s1 = (char *)return_value_calloc_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s2 = (char *)return_value_calloc_3;
   vali = 0.0;
   commongappickpair(s1, s2, seq1, seq2);
   p1 = s1;
   p2 = s2;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  char *tmp_post_4;
+  char *tmp_post_5;
   while(!(*p1 == 0))
     if((signed int)*p1 == 45)
     {
@@ -17052,11 +17052,11 @@ extern double naivepairscore11(char *seq1, char *seq2, signed int penal)
 
       else
       {
-        tmp_post$4 = p1;
+        tmp_post_4 = p1;
         p1 = p1 + 1l;
-        tmp_post$5 = p2;
+        tmp_post_5 = p2;
         p2 = p2 + 1l;
-        vali = vali + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$4][(signed long int)(unsigned char)*tmp_post$5];
+        vali = vali + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_4][(signed long int)(unsigned char)*tmp_post_5];
       }
   free((void *)s1);
   free((void *)s2);
@@ -17069,27 +17069,27 @@ extern double naivepairscore11_dynmtx(double **mtx, char *seq1, char *seq2, sign
 {
   double vali;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1);
+  len = (signed int)return_value_strlen_1;
   char *s1;
   char *s2;
   char *p1;
   char *p2;
   signed int c1;
   signed int c2;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s1 = (char *)return_value_calloc$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s2 = (char *)return_value_calloc$3;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s1 = (char *)return_value_calloc_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s2 = (char *)return_value_calloc_3;
   vali = 0.0;
   commongappickpair(s1, s2, seq1, seq2);
   p1 = s1;
   p2 = s2;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  char *tmp_post_4;
+  char *tmp_post_5;
   while(!(*p1 == 0))
     if((signed int)*p1 == 45)
     {
@@ -17108,12 +17108,12 @@ extern double naivepairscore11_dynmtx(double **mtx, char *seq1, char *seq2, sign
 
       else
       {
-        tmp_post$4 = p1;
+        tmp_post_4 = p1;
         p1 = p1 + 1l;
-        c1 = amino_n[(signed long int)(unsigned char)*tmp_post$4];
-        tmp_post$5 = p2;
+        c1 = amino_n[(signed long int)(unsigned char)*tmp_post_4];
+        tmp_post_5 = p2;
         p2 = p2 + 1l;
-        c2 = amino_n[(signed long int)(unsigned char)*tmp_post$5];
+        c2 = amino_n[(signed long int)(unsigned char)*tmp_post_5];
         vali = vali + (double)mtx[(signed long int)c1][(signed long int)c2];
       }
   free((void *)s1);
@@ -17127,25 +17127,25 @@ extern double naivepairscorefast(char *seq1, char *seq2, signed int *skip1, sign
 {
   double vali;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1);
+  len = (signed int)return_value_strlen_1;
   char *s1;
   char *s2;
   char *p1;
   char *p2;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s1 = (char *)return_value_calloc$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
-  s2 = (char *)return_value_calloc$3;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s1 = (char *)return_value_calloc_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)(len + 1), sizeof(char) /*1ul*/ );
+  s2 = (char *)return_value_calloc_3;
   vali = 0.0;
   commongappickpairfast(s1, s2, seq1, seq2, skip1, skip2);
   p1 = s1;
   p2 = s2;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  char *tmp_post_4;
+  char *tmp_post_5;
   while(!(*p1 == 0))
     if((signed int)*p1 == 45)
     {
@@ -17164,11 +17164,11 @@ extern double naivepairscorefast(char *seq1, char *seq2, signed int *skip1, sign
 
       else
       {
-        tmp_post$4 = p1;
+        tmp_post_4 = p1;
         p1 = p1 + 1l;
-        tmp_post$5 = p2;
+        tmp_post_5 = p2;
         p2 = p2 + 1l;
-        vali = vali + (double)amino_dis[(signed long int)(unsigned char)*tmp_post$4][(signed long int)(unsigned char)*tmp_post$5];
+        vali = vali + (double)amino_dis[(signed long int)(unsigned char)*tmp_post_4][(signed long int)(unsigned char)*tmp_post_5];
       }
   free((void *)s1);
   free((void *)s2);
@@ -17188,22 +17188,22 @@ extern void new_FinalGapCount(double *fgcp, signed int clus, char **seq, double 
   char *spt;
   fpt = fgcp;
   i = len;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -17213,9 +17213,9 @@ extern void new_FinalGapCount(double *fgcp, signed int clus, char **seq, double 
     i = len;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
@@ -17248,23 +17248,23 @@ extern void new_FinalGapCount_zure(double *fgcp, signed int clus, char **seq, do
   char *spt;
   fpt = fgcp;
   i = len + 2;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
-  char *tmp_post$4;
+  signed int tmp_post_3;
+  char *tmp_post_4;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -17274,15 +17274,15 @@ extern void new_FinalGapCount_zure(double *fgcp, signed int clus, char **seq, do
     i = len;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
-      tmp_post$4 = spt;
+      tmp_post_4 = spt;
       spt = spt + 1l;
-      gc = (signed int)((signed int)*tmp_post$4 == 45);
+      gc = (signed int)((signed int)*tmp_post_4 == 45);
       if(!(gb * (signed int)(gc == 0) == 0))
         *fpt = *fpt + feff;
 
@@ -17310,23 +17310,23 @@ extern void new_OpeningGapCount(double *ogcp, signed int clus, char **seq, doubl
   char *spt;
   fpt = ogcp;
   i = len;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
-  char *tmp_post$4;
+  signed int tmp_post_3;
+  char *tmp_post_4;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -17336,15 +17336,15 @@ extern void new_OpeningGapCount(double *ogcp, signed int clus, char **seq, doubl
     i = len;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
-      tmp_post$4 = spt;
+      tmp_post_4 = spt;
       spt = spt + 1l;
-      gc = (signed int)((signed int)*tmp_post$4 == 45);
+      gc = (signed int)((signed int)*tmp_post_4 == 45);
       if(!(gc * (signed int)(gb == 0) == 0))
         *fpt = *fpt + feff;
 
@@ -17367,23 +17367,23 @@ extern void new_OpeningGapCount_zure(double *ogcp, signed int clus, char **seq, 
   char *spt;
   fpt = ogcp;
   i = len + 2;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
-  char *tmp_post$4;
+  signed int tmp_post_3;
+  char *tmp_post_4;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -17393,15 +17393,15 @@ extern void new_OpeningGapCount_zure(double *ogcp, signed int clus, char **seq, 
     i = len;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
-      tmp_post$4 = spt;
+      tmp_post_4 = spt;
       spt = spt + 1l;
-      gc = (signed int)((signed int)*tmp_post$4 == 45);
+      gc = (signed int)((signed int)*tmp_post_4 == 45);
       if(!(gc * (signed int)(gb == 0) == 0))
         *fpt = *fpt + feff;
 
@@ -17423,25 +17423,25 @@ static signed int onlyAlpha_lower(char *str)
   char tmp;
   char *res = str;
   char *bk = str;
-  char *tmp_post$1;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  char *tmp_post$2;
-  signed int return_value_tolower$3;
+  char *tmp_post_1;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  char *tmp_post_2;
+  signed int return_value_tolower_3;
   do
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    tmp = *tmp_post$1;
+    tmp = *tmp_post_1;
     if(tmp == 0)
       break;
 
-    return_value___ctype_b_loc$4=__ctype_b_loc();
-    if((signed int)tmp == 42 || (signed int)tmp == 45 || (signed int)tmp == 46 || !((1024 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)tmp]) == 0))
+    return_value___ctype_b_loc_4=__ctype_b_loc();
+    if((signed int)tmp == 42 || (signed int)tmp == 45 || (signed int)tmp == 46 || !((1024 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)tmp]) == 0))
     {
-      tmp_post$2 = res;
+      tmp_post_2 = res;
       res = res + 1l;
-      return_value_tolower$3=tolower((signed int)tmp);
-      *tmp_post$2 = (char)return_value_tolower$3;
+      return_value_tolower_3=tolower((signed int)tmp);
+      *tmp_post_2 = (char)return_value_tolower_3;
     }
 
   }
@@ -17457,25 +17457,25 @@ static signed int onlyAlpha_upper(char *str)
   char tmp;
   char *res = str;
   char *bk = str;
-  char *tmp_post$1;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  char *tmp_post$2;
-  signed int return_value_toupper$3;
+  char *tmp_post_1;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  char *tmp_post_2;
+  signed int return_value_toupper_3;
   do
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    tmp = *tmp_post$1;
+    tmp = *tmp_post_1;
     if(tmp == 0)
       break;
 
-    return_value___ctype_b_loc$4=__ctype_b_loc();
-    if((signed int)tmp == 42 || (signed int)tmp == 45 || (signed int)tmp == 46 || !((1024 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)tmp]) == 0))
+    return_value___ctype_b_loc_4=__ctype_b_loc();
+    if((signed int)tmp == 42 || (signed int)tmp == 45 || (signed int)tmp == 46 || !((1024 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)tmp]) == 0))
     {
-      tmp_post$2 = res;
+      tmp_post_2 = res;
       res = res + 1l;
-      return_value_toupper$3=toupper((signed int)tmp);
-      *tmp_post$2 = (char)return_value_toupper$3;
+      return_value_toupper_3=toupper((signed int)tmp);
+      *tmp_post_2 = (char)return_value_toupper_3;
     }
 
   }
@@ -17623,7 +17623,7 @@ extern void phylipout_pointer(struct _IO_FILE *fp, signed int nseq, signed int m
 
   pos = 0;
   fprintf(fp, " %d %d\n", nseq, maxlen);
-  char *return_value_extractfirstword$1;
+  char *return_value_extractfirstword_1;
   for( ; !(pos >= maxlen); pos = pos + 50)
   {
     j = 0;
@@ -17631,8 +17631,8 @@ extern void phylipout_pointer(struct _IO_FILE *fp, signed int nseq, signed int m
     {
       if(pos == 0)
       {
-        return_value_extractfirstword$1=extractfirstword(name[(signed long int)order[(signed long int)j]] + (signed long int)1);
-        fprintf(fp, "%-*.*s", namelen, namelen, return_value_extractfirstword$1);
+        return_value_extractfirstword_1=extractfirstword(name[(signed long int)order[(signed long int)j]] + (signed long int)1);
+        fprintf(fp, "%-*.*s", namelen, namelen, return_value_extractfirstword_1);
       }
 
       else
@@ -17661,9 +17661,9 @@ extern double plainscore(signed int nseq, char **s)
     j = i + 1;
     for( ; !(j >= nseq); j = j + 1)
     {
-      double return_value_naivepairscore11$1;
-      return_value_naivepairscore11$1=naivepairscore11(s[(signed long int)i], s[(signed long int)j], penalty);
-      v = v + (double)return_value_naivepairscore11$1;
+      double return_value_naivepairscore11_1;
+      return_value_naivepairscore11_1=naivepairscore11(s[(signed long int)i], s[(signed long int)j], penalty);
+      v = v + (double)return_value_naivepairscore11_1;
     }
   }
   reporterr("penalty = %d\n", penalty);
@@ -17711,36 +17711,36 @@ extern void putlocalhom(char *al1, char *al2, struct _LocalHom *localhompt, sign
   start2 = 0;
   st = 0;
   score = 0.0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$2;
-  char *tmp_post$5;
-  char *tmp_post$6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_2;
+  char *tmp_post_5;
+  char *tmp_post_6;
   while(!((signed int)*pt1 == 0))
   {
     if(st == 1)
     {
       if((signed int)*pt1 == 45)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       end1 = pos1 - 1;
       end2 = pos2 - 1;
-      tmp_post$2 = nlocalhom;
+      tmp_post_2 = nlocalhom;
       nlocalhom = nlocalhom + 1;
-      if(tmp_post$2 >= 1)
+      if(tmp_post_2 >= 1)
       {
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_1;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -17781,24 +17781,24 @@ extern void putlocalhom(char *al1, char *al2, struct _LocalHom *localhompt, sign
 
       }
 
-    tmp_post$5 = pt1;
+    tmp_post_5 = pt1;
     pt1 = pt1 + 1l;
-    if(!((signed int)*tmp_post$5 == 45))
+    if(!((signed int)*tmp_post_5 == 45))
       pos1 = pos1 + 1;
 
-    tmp_post$6 = pt2;
+    tmp_post_6 = pt2;
     pt2 = pt2 + 1l;
-    if(!((signed int)*tmp_post$6 == 45))
+    if(!((signed int)*tmp_post_6 == 45))
       pos2 = pos2 + 1;
 
   }
-  signed int tmp_post$8 = nlocalhom;
+  signed int tmp_post_8 = nlocalhom;
   nlocalhom = nlocalhom + 1;
-  if(tmp_post$8 >= 1)
+  if(tmp_post_8 >= 1)
   {
-    void *return_value_calloc$7;
-    return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-    tmppt->next = (struct _LocalHom *)return_value_calloc$7;
+    void *return_value_calloc_7;
+    return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+    tmppt->next = (struct _LocalHom *)return_value_calloc_7;
     tmppt = tmppt->next;
     tmppt->next = (struct _LocalHom *)(void *)0;
   }
@@ -17860,36 +17860,36 @@ extern void putlocalhom2(char *al1, char *al2, struct _LocalHom *localhompt, sig
   start2 = 0;
   st = 0;
   iscore = 0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$2;
-  char *tmp_post$5;
-  char *tmp_post$6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_2;
+  char *tmp_post_5;
+  char *tmp_post_6;
   while(!((signed int)*pt1 == 0))
   {
     if(st == 1)
     {
       if((signed int)*pt1 == 45)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       end1 = pos1 - 1;
       end2 = pos2 - 1;
-      tmp_post$2 = nlocalhom;
+      tmp_post_2 = nlocalhom;
       nlocalhom = nlocalhom + 1;
-      if(tmp_post$2 >= 1)
+      if(tmp_post_2 >= 1)
       {
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_1;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -17930,29 +17930,29 @@ extern void putlocalhom2(char *al1, char *al2, struct _LocalHom *localhompt, sig
 
       }
 
-    tmp_post$5 = pt1;
+    tmp_post_5 = pt1;
     pt1 = pt1 + 1l;
-    if(!((signed int)*tmp_post$5 == 45))
+    if(!((signed int)*tmp_post_5 == 45))
       pos1 = pos1 + 1;
 
-    tmp_post$6 = pt2;
+    tmp_post_6 = pt2;
     pt2 = pt2 + 1l;
-    if(!((signed int)*tmp_post$6 == 45))
+    if(!((signed int)*tmp_post_6 == 45))
       pos2 = pos2 + 1;
 
   }
-  signed int tmp_post$8;
+  signed int tmp_post_8;
   if(!((signed int)pt1[-1l] == 45))
   {
     if(!((signed int)pt2[-1l] == 45))
     {
-      tmp_post$8 = nlocalhom;
+      tmp_post_8 = nlocalhom;
       nlocalhom = nlocalhom + 1;
-      if(tmp_post$8 >= 1)
+      if(tmp_post_8 >= 1)
       {
-        void *return_value_calloc$7;
-        return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$7;
+        void *return_value_calloc_7;
+        return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_7;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -18027,36 +18027,36 @@ extern void putlocalhom3(char *al1, char *al2, struct _LocalHom *localhompt, sig
   fprintf(stderr, "subnosento = %p\n", (void *)subnosento);
   st = 0;
   score = 0.0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$2;
-  char *tmp_post$5;
-  char *tmp_post$6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_2;
+  char *tmp_post_5;
+  char *tmp_post_6;
   while(!((signed int)*pt1 == 0))
   {
     if(st == 1)
     {
       if((signed int)*pt1 == 45)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       end1 = pos1 - 1;
       end2 = pos2 - 1;
-      tmp_post$2 = localhompt->nokori;
+      tmp_post_2 = localhompt->nokori;
       localhompt->nokori = localhompt->nokori + 1;
-      if(tmp_post$2 >= 1)
+      if(tmp_post_2 >= 1)
       {
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_1;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -18097,29 +18097,29 @@ extern void putlocalhom3(char *al1, char *al2, struct _LocalHom *localhompt, sig
 
       }
 
-    tmp_post$5 = pt1;
+    tmp_post_5 = pt1;
     pt1 = pt1 + 1l;
-    if(!((signed int)*tmp_post$5 == 45))
+    if(!((signed int)*tmp_post_5 == 45))
       pos1 = pos1 + 1;
 
-    tmp_post$6 = pt2;
+    tmp_post_6 = pt2;
     pt2 = pt2 + 1l;
-    if(!((signed int)*tmp_post$6 == 45))
+    if(!((signed int)*tmp_post_6 == 45))
       pos2 = pos2 + 1;
 
   }
-  signed int tmp_post$8;
+  signed int tmp_post_8;
   if(!((signed int)pt1[-1l] == 45))
   {
     if(!((signed int)pt2[-1l] == 45))
     {
-      tmp_post$8 = localhompt->nokori;
+      tmp_post_8 = localhompt->nokori;
       localhompt->nokori = localhompt->nokori + 1;
-      if(tmp_post$8 >= 1)
+      if(tmp_post_8 >= 1)
       {
-        void *return_value_calloc$7;
-        return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$7;
+        void *return_value_calloc_7;
+        return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_7;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -18190,36 +18190,36 @@ extern void putlocalhom_ext(char *al1, char *al2, struct _LocalHom *localhompt, 
   start2 = 0;
   st = 0;
   iscore = 0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$2;
-  char *tmp_post$5;
-  char *tmp_post$6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_2;
+  char *tmp_post_5;
+  char *tmp_post_6;
   while(!((signed int)*pt1 == 0))
   {
     if(st == 1)
     {
       if((signed int)*pt1 == 45)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*pt2 == 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       end1 = pos1 - 1;
       end2 = pos2 - 1;
-      tmp_post$2 = nlocalhom;
+      tmp_post_2 = nlocalhom;
       nlocalhom = nlocalhom + 1;
-      if(tmp_post$2 >= 1)
+      if(tmp_post_2 >= 1)
       {
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_1;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -18260,29 +18260,29 @@ extern void putlocalhom_ext(char *al1, char *al2, struct _LocalHom *localhompt, 
 
       }
 
-    tmp_post$5 = pt1;
+    tmp_post_5 = pt1;
     pt1 = pt1 + 1l;
-    if(!((signed int)*tmp_post$5 == 45))
+    if(!((signed int)*tmp_post_5 == 45))
       pos1 = pos1 + 1;
 
-    tmp_post$6 = pt2;
+    tmp_post_6 = pt2;
     pt2 = pt2 + 1l;
-    if(!((signed int)*tmp_post$6 == 45))
+    if(!((signed int)*tmp_post_6 == 45))
       pos2 = pos2 + 1;
 
   }
-  signed int tmp_post$8;
+  signed int tmp_post_8;
   if(!((signed int)pt1[-1l] == 45))
   {
     if(!((signed int)pt2[-1l] == 45))
     {
-      tmp_post$8 = nlocalhom;
+      tmp_post_8 = nlocalhom;
       nlocalhom = nlocalhom + 1;
-      if(tmp_post$8 >= 1)
+      if(tmp_post_8 >= 1)
       {
-        void *return_value_calloc$7;
-        return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-        tmppt->next = (struct _LocalHom *)return_value_calloc$7;
+        void *return_value_calloc_7;
+        return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+        tmppt->next = (struct _LocalHom *)return_value_calloc_7;
         tmppt = tmppt->next;
         tmppt->next = (struct _LocalHom *)(void *)0;
       }
@@ -18346,9 +18346,9 @@ extern void putlocalhom_str(char *al1, char *al2, double *equiv, double scale, s
   start1 = 0;
   start2 = 0;
   posinaln = 0;
-  signed int tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  signed int tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   for( ; !((signed int)*pt1 == 0); posinaln = posinaln + 1)
   {
     if(!((signed int)*pt1 == 45))
@@ -18361,13 +18361,13 @@ extern void putlocalhom_str(char *al1, char *al2, double *equiv, double scale, s
           start1 = end1;
           end2 = pos2;
           start2 = end2;
-          tmp_post$2 = nlocalhom;
+          tmp_post_2 = nlocalhom;
           nlocalhom = nlocalhom + 1;
-          if(tmp_post$2 >= 1)
+          if(tmp_post_2 >= 1)
           {
-            void *return_value_calloc$1;
-            return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-            tmppt->next = (struct _LocalHom *)return_value_calloc$1;
+            void *return_value_calloc_1;
+            return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+            tmppt->next = (struct _LocalHom *)return_value_calloc_1;
             tmppt = tmppt->next;
             tmppt->next = (struct _LocalHom *)(void *)0;
           }
@@ -18384,14 +18384,14 @@ extern void putlocalhom_str(char *al1, char *al2, double *equiv, double scale, s
 
     }
 
-    tmp_post$3 = pt1;
+    tmp_post_3 = pt1;
     pt1 = pt1 + 1l;
-    if(!((signed int)*tmp_post$3 == 45))
+    if(!((signed int)*tmp_post_3 == 45))
       pos1 = pos1 + 1;
 
-    tmp_post$4 = pt2;
+    tmp_post_4 = pt2;
     pt2 = pt2 + 1l;
-    if(!((signed int)*tmp_post$4 == 45))
+    if(!((signed int)*tmp_post_4 == 45))
       pos2 = pos2 + 1;
 
   }
@@ -18413,9 +18413,9 @@ extern void readData(struct _IO_FILE *fp, char (*name)[256l], signed int *nlen, 
     static char *tmpseq = (char *)(void *)0;
     tmpseq=load1SeqWithoutName_realloc(fp);
     strcpy(seq[(signed long int)i], tmpseq);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    nlen[(signed long int)i] = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    nlen[(signed long int)i] = (signed int)return_value_strlen_1;
     free((void *)tmpseq);
   }
   if(dorp == 100 && !(upperCase == -1))
@@ -18440,9 +18440,9 @@ extern void readData_pointer(struct _IO_FILE *fp, char **name, signed int *nlen,
     tmpseq=load1SeqWithoutName_realloc(fp);
     strcpy(seq[(signed long int)i], tmpseq);
     free((void *)tmpseq);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    nlen[(signed long int)i] = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    nlen[(signed long int)i] = (signed int)return_value_strlen_1;
   }
   if(dorp == 100 && !(upperCase == -1))
     seqLower(njob, seq);
@@ -18451,9 +18451,9 @@ extern void readData_pointer(struct _IO_FILE *fp, char **name, signed int *nlen,
   {
     char *namebuf;
     char *cptr;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)(256 + 100), sizeof(char) /*1ul*/ );
-    namebuf = (char *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)(256 + 100), sizeof(char) /*1ul*/ );
+    namebuf = (char *)return_value_calloc_2;
     i = 0;
     for( ; !(i >= njob); i = i + 1)
     {
@@ -18489,9 +18489,9 @@ extern void readData_pointer2(struct _IO_FILE *fp, signed int nseq, char **name,
     tmpseq=load1SeqWithoutName_realloc(fp);
     strcpy(seq[(signed long int)i], tmpseq);
     free((void *)tmpseq);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    nlen[(signed long int)i] = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    nlen[(signed long int)i] = (signed int)return_value_strlen_1;
   }
   if(dorp == 100 && !(upperCase == -1))
     seqLower(nseq, seq);
@@ -18500,9 +18500,9 @@ extern void readData_pointer2(struct _IO_FILE *fp, signed int nseq, char **name,
   {
     char *namebuf;
     char *cptr;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)(256 + 100), sizeof(char) /*1ul*/ );
-    namebuf = (char *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)(256 + 100), sizeof(char) /*1ul*/ );
+    namebuf = (char *)return_value_calloc_2;
     i = 0;
     for( ; !(i >= nseq); i = i + 1)
     {
@@ -18538,9 +18538,9 @@ extern void readData_pointer_casepreserve(struct _IO_FILE *fp, char **name, sign
     tmpseq=load1SeqWithoutName_realloc_casepreserve(fp);
     strcpy(seq[(signed long int)i], tmpseq);
     free((void *)tmpseq);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    nlen[(signed long int)i] = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    nlen[(signed long int)i] = (signed int)return_value_strlen_1;
   }
 }
 
@@ -18559,12 +18559,12 @@ extern void readData_varlen(struct _IO_FILE *fp, char **name, signed int *nlen, 
     myfgets(name[(signed long int)i] + (signed long int)1, 256 - 2, fp);
     static char *tmpseq = (char *)(void *)0;
     tmpseq=load1SeqWithoutName_realloc(fp);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(tmpseq);
-    nlen[(signed long int)i] = (signed int)return_value_strlen$1;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)(nlen[(signed long int)i] + 1), sizeof(char) /*1ul*/ );
-    seq[(signed long int)i] = (char *)return_value_calloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(tmpseq);
+    nlen[(signed long int)i] = (signed int)return_value_strlen_1;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)(nlen[(signed long int)i] + 1), sizeof(char) /*1ul*/ );
+    seq[(signed long int)i] = (char *)return_value_calloc_2;
     strcpy(seq[(signed long int)i], tmpseq);
     free((void *)tmpseq);
   }
@@ -18589,9 +18589,9 @@ extern void readDataforgaln(struct _IO_FILE *fp, char **name, signed int *nlen, 
     static char *tmpseq = (char *)(void *)0;
     tmpseq=load1SeqWithoutName_realloc(fp);
     strcpy(seq[(signed long int)i], tmpseq);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    nlen[(signed long int)i] = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    nlen[(signed long int)i] = (signed int)return_value_strlen_1;
     free((void *)tmpseq);
   }
   if(dorp == 100 && !(upperCase == -1))
@@ -18637,7 +18637,7 @@ static signed int readasubalignment(char *s, signed int *t, signed int *preserve
   char *pt = s;
   *preservegaps = 0;
   tab2space(s);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(*pt == 0); pt = pt + 1l)
     if((signed int)*pt == 32)
       status = (char)115;
@@ -18646,11 +18646,11 @@ static signed int readasubalignment(char *s, signed int *t, signed int *preserve
       if((signed int)status == 115)
       {
         if((signed int)*pt == 10)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)*pt == 35 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)*pt == 35 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           break;
 
         status = (char)110;
@@ -18698,9 +18698,9 @@ extern void readhat2(struct _IO_FILE *fp, signed int nseq, char (*name)[256l], d
     j = i + 1;
     for( ; !(j >= nseq); j = j + 1)
     {
-      double return_value_input_new$1;
-      return_value_input_new$1=input_new(fp, 6);
-      mtx[(signed long int)i][(signed long int)j] = (double)return_value_input_new$1;
+      double return_value_input_new_1;
+      return_value_input_new_1=input_new(fp, 6);
+      mtx[(signed long int)i][(signed long int)j] = (double)return_value_input_new_1;
     }
   }
 }
@@ -18850,9 +18850,9 @@ extern void readhat2_int(struct _IO_FILE *fp, signed int nseq, char (*name)[256l
     j = i + 1;
     for( ; !(j >= nseq); j = j + 1)
     {
-      double return_value_input_new$1;
-      return_value_input_new$1=input_new(fp, 6);
-      mtx[(signed long int)i][(signed long int)j] = (signed int)(return_value_input_new$1 * 1000000.0 + 0.5);
+      double return_value_input_new_1;
+      return_value_input_new_1=input_new(fp, 6);
+      mtx[(signed long int)i][(signed long int)j] = (signed int)(return_value_input_new_1 * 1000000.0 + 0.5);
     }
   }
 }
@@ -18882,9 +18882,9 @@ extern void readhat2_pointer(struct _IO_FILE *fp, signed int nseq, char **name, 
     j = i + 1;
     for( ; !(j >= nseq); j = j + 1)
     {
-      double return_value_input_new$1;
-      return_value_input_new$1=input_new(fp, 6);
-      mtx[(signed long int)i][(signed long int)j] = (double)return_value_input_new$1;
+      double return_value_input_new_1;
+      return_value_input_new_1=input_new(fp, 6);
+      mtx[(signed long int)i][(signed long int)j] = (double)return_value_input_new_1;
     }
   }
 }
@@ -18913,14 +18913,14 @@ extern void readlocalhomtable(struct _IO_FILE *fp, signed int njob, struct _Loca
     for( ; !(j >= njob); j = j + 1)
       nlocalhom[(signed long int)i][(signed long int)j] = 0;
   }
-  char *return_value_fgets$1;
-  signed int tmp_post$3;
-  signed int tmp_post$5;
+  char *return_value_fgets_1;
+  signed int tmp_post_3;
+  signed int tmp_post_5;
   do
   {
     static char buff[256l];
-    return_value_fgets$1=fgets(buff, 256 - 1, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buff, 256 - 1, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     sscanf(buff, "%d %d %d %lf %d %d %d %d %s", &i, &j, &overlapaa, &opt, &start1, &end1, &start2, &end2, (const void *)infor);
@@ -18930,13 +18930,13 @@ extern void readlocalhomtable(struct _IO_FILE *fp, signed int njob, struct _Loca
       kozoarivec[(signed long int)i] = kozoarivec[(signed long int)j];
     }
 
-    tmp_post$3 = nlocalhom[(signed long int)i][(signed long int)j];
+    tmp_post_3 = nlocalhom[(signed long int)i][(signed long int)j];
     nlocalhom[(signed long int)i][(signed long int)j] = nlocalhom[(signed long int)i][(signed long int)j] + 1;
-    if(tmp_post$3 >= 1)
+    if(tmp_post_3 >= 1)
     {
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-      tmpptr1->next = (struct _LocalHom *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+      tmpptr1->next = (struct _LocalHom *)return_value_calloc_2;
       tmpptr1 = tmpptr1->next;
       tmpptr1->next = (struct _LocalHom *)(void *)0;
     }
@@ -18950,13 +18950,13 @@ extern void readlocalhomtable(struct _IO_FILE *fp, signed int njob, struct _Loca
     tmpptr1->opt = ((opt + 0.00) / 5.8) * (double)600;
     tmpptr1->overlapaa = overlapaa;
     tmpptr1->korh = infor[0l];
-    tmp_post$5 = nlocalhom[(signed long int)j][(signed long int)i];
+    tmp_post_5 = nlocalhom[(signed long int)j][(signed long int)i];
     nlocalhom[(signed long int)j][(signed long int)i] = nlocalhom[(signed long int)j][(signed long int)i] + 1;
-    if(tmp_post$5 >= 1)
+    if(tmp_post_5 >= 1)
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-      tmpptr2->next = (struct _LocalHom *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+      tmpptr2->next = (struct _LocalHom *)return_value_calloc_4;
       tmpptr2 = tmpptr2->next;
       tmpptr2->next = (struct _LocalHom *)(void *)0;
     }
@@ -18990,14 +18990,14 @@ extern void readlocalhomtable2(struct _IO_FILE *fp, signed int njob, struct _Loc
   signed int end2;
   struct _LocalHom *tmpptr1;
   struct _LocalHom *tmpptr2;
-  char *return_value_fgets$1;
-  signed int tmp_post$3;
-  signed int tmp_post$5;
+  char *return_value_fgets_1;
+  signed int tmp_post_3;
+  signed int tmp_post_5;
   do
   {
     static char buff[256l];
-    return_value_fgets$1=fgets(buff, 256 - 1, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buff, 256 - 1, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     sscanf(buff, "%d %d %d %lf %d %d %d %d %s", &i, &j, &overlapaa, &opt, &start1, &end1, &start2, &end2, (const void *)infor);
@@ -19007,14 +19007,14 @@ extern void readlocalhomtable2(struct _IO_FILE *fp, signed int njob, struct _Loc
       kozoarivec[(signed long int)i] = kozoarivec[(signed long int)j];
     }
 
-    tmp_post$3 = (localhomtable[(signed long int)i] + (signed long int)j)->nokori;
+    tmp_post_3 = (localhomtable[(signed long int)i] + (signed long int)j)->nokori;
     (localhomtable[(signed long int)i] + (signed long int)j)->nokori = (localhomtable[(signed long int)i] + (signed long int)j)->nokori + 1;
-    if(tmp_post$3 >= 1)
+    if(tmp_post_3 >= 1)
     {
       tmpptr1 = (localhomtable[(signed long int)i] + (signed long int)j)->last;
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-      tmpptr1->next = (struct _LocalHom *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+      tmpptr1->next = (struct _LocalHom *)return_value_calloc_2;
       tmpptr1 = tmpptr1->next;
       tmpptr1->extended = -1;
       tmpptr1->next = (struct _LocalHom *)(void *)0;
@@ -19030,14 +19030,14 @@ extern void readlocalhomtable2(struct _IO_FILE *fp, signed int njob, struct _Loc
     tmpptr1->opt = ((opt + 0.00) / 5.8) * (double)600;
     tmpptr1->overlapaa = overlapaa;
     tmpptr1->korh = infor[0l];
-    tmp_post$5 = (localhomtable[(signed long int)j] + (signed long int)i)->nokori;
+    tmp_post_5 = (localhomtable[(signed long int)j] + (signed long int)i)->nokori;
     (localhomtable[(signed long int)j] + (signed long int)i)->nokori = (localhomtable[(signed long int)j] + (signed long int)i)->nokori + 1;
-    if(tmp_post$5 >= 1)
+    if(tmp_post_5 >= 1)
     {
       tmpptr2 = (localhomtable[(signed long int)j] + (signed long int)i)->last;
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-      tmpptr2->next = (struct _LocalHom *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+      tmpptr2->next = (struct _LocalHom *)return_value_calloc_4;
       tmpptr2 = tmpptr2->next;
       tmpptr2->extended = -1;
       tmpptr2->next = (struct _LocalHom *)(void *)0;
@@ -19080,13 +19080,13 @@ extern void readlocalhomtable_one(struct _IO_FILE *fp, signed int norg, signed i
     for( ; !(j >= nadd); j = j + 1)
       nlocalhom[(signed long int)i][(signed long int)j] = 0;
   }
-  char *return_value_fgets$1;
-  signed int tmp_post$3;
+  char *return_value_fgets_1;
+  signed int tmp_post_3;
   do
   {
     static char buff[256l];
-    return_value_fgets$1=fgets(buff, 256 - 1, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buff, 256 - 1, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     sscanf(buff, "%d %d %d %lf %d %d %d %d %s", &i, &j, &overlapaa, &opt, &start1, &end1, &start2, &end2, (const void *)infor);
@@ -19097,13 +19097,13 @@ extern void readlocalhomtable_one(struct _IO_FILE *fp, signed int norg, signed i
     }
 
     j = j - norg;
-    tmp_post$3 = nlocalhom[(signed long int)i][(signed long int)j];
+    tmp_post_3 = nlocalhom[(signed long int)i][(signed long int)j];
     nlocalhom[(signed long int)i][(signed long int)j] = nlocalhom[(signed long int)i][(signed long int)j] + 1;
-    if(tmp_post$3 >= 1)
+    if(tmp_post_3 >= 1)
     {
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-      tmpptr1->next = (struct _LocalHom *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+      tmpptr1->next = (struct _LocalHom *)return_value_calloc_2;
       tmpptr1 = tmpptr1->next;
       tmpptr1->next = (struct _LocalHom *)(void *)0;
     }
@@ -19155,14 +19155,14 @@ extern void readlocalhomtable_two(struct _IO_FILE *fp, signed int norg, signed i
     for( ; !(j >= norg); j = j + 1)
       nlocalhomx[(signed long int)i][(signed long int)j] = 0;
   }
-  char *return_value_fgets$1;
-  signed int tmp_post$3;
-  signed int tmp_post$5;
+  char *return_value_fgets_1;
+  signed int tmp_post_3;
+  signed int tmp_post_5;
   do
   {
     static char buff[256l];
-    return_value_fgets$1=fgets(buff, 256 - 1, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buff, 256 - 1, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     sscanf(buff, "%d %d %d %lf %d %d %d %d %s", &i, &j, &overlapaa, &opt, &start1, &end1, &start2, &end2, (const void *)infor);
@@ -19173,13 +19173,13 @@ extern void readlocalhomtable_two(struct _IO_FILE *fp, signed int norg, signed i
     }
 
     j = j - norg;
-    tmp_post$3 = nlocalhom[(signed long int)i][(signed long int)j];
+    tmp_post_3 = nlocalhom[(signed long int)i][(signed long int)j];
     nlocalhom[(signed long int)i][(signed long int)j] = nlocalhom[(signed long int)i][(signed long int)j] + 1;
-    if(tmp_post$3 >= 1)
+    if(tmp_post_3 >= 1)
     {
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-      tmpptr1->next = (struct _LocalHom *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+      tmpptr1->next = (struct _LocalHom *)return_value_calloc_2;
       tmpptr1 = tmpptr1->next;
       tmpptr1->next = (struct _LocalHom *)(void *)0;
     }
@@ -19193,13 +19193,13 @@ extern void readlocalhomtable_two(struct _IO_FILE *fp, signed int norg, signed i
     tmpptr1->opt = ((opt + 0.00) / 5.8) * (double)600;
     tmpptr1->overlapaa = overlapaa;
     tmpptr1->korh = infor[0l];
-    tmp_post$5 = nlocalhomx[(signed long int)j][(signed long int)i];
+    tmp_post_5 = nlocalhomx[(signed long int)j][(signed long int)i];
     nlocalhomx[(signed long int)j][(signed long int)i] = nlocalhomx[(signed long int)j][(signed long int)i] + 1;
-    if(tmp_post$5 >= 1)
+    if(tmp_post_5 >= 1)
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
-      tmpptr2->next = (struct _LocalHom *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct _LocalHom) /*88ul*/ );
+      tmpptr2->next = (struct _LocalHom *)return_value_calloc_4;
       tmpptr2 = tmpptr2->next;
       tmpptr2->next = (struct _LocalHom *)(void *)0;
     }
@@ -19230,9 +19230,9 @@ void readmccaskill(struct _IO_FILE *fp, struct _RNApair **pairprob, signed int l
   signed int right;
   double prob;
   signed int c;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)length, sizeof(signed int) /*4ul*/ );
-  pairnum = (signed int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)length, sizeof(signed int) /*4ul*/ );
+  pairnum = (signed int *)return_value_calloc_1;
   i = 0;
   for( ; !(i >= length); i = i + 1)
     pairnum[(signed long int)i] = 0;
@@ -19246,9 +19246,9 @@ void readmccaskill(struct _IO_FILE *fp, struct _RNApair **pairprob, signed int l
   fgets(gett, 999, fp);
   while((_Bool)1)
   {
-    signed int return_value_feof$2;
-    return_value_feof$2=feof(fp);
-    if(!(return_value_feof$2 == 0))
+    signed int return_value_feof_2;
+    return_value_feof_2=feof(fp);
+    if(!(return_value_feof_2 == 0))
       break;
 
     c=_IO_getc(fp);
@@ -19268,17 +19268,17 @@ void readmccaskill(struct _IO_FILE *fp, struct _RNApair **pairprob, signed int l
     {
       if(prob > 0.0 && !(left == right))
       {
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)pairprob[(signed long int)left], (unsigned long int)(pairnum[(signed long int)left] + 2) * sizeof(struct _RNApair) /*48ul*/ );
-        pairprob[(signed long int)left] = (struct _RNApair *)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)pairprob[(signed long int)left], (unsigned long int)(pairnum[(signed long int)left] + 2) * sizeof(struct _RNApair) /*48ul*/ );
+        pairprob[(signed long int)left] = (struct _RNApair *)return_value_realloc_3;
         (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestscore = prob;
         (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestpos = right;
         pairnum[(signed long int)left] = pairnum[(signed long int)left] + 1;
         (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestscore = -1.0;
         (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestpos = -1;
-        void *return_value_realloc$4;
-        return_value_realloc$4=realloc((void *)pairprob[(signed long int)right], (unsigned long int)(pairnum[(signed long int)right] + 2) * sizeof(struct _RNApair) /*48ul*/ );
-        pairprob[(signed long int)right] = (struct _RNApair *)return_value_realloc$4;
+        void *return_value_realloc_4;
+        return_value_realloc_4=realloc((void *)pairprob[(signed long int)right], (unsigned long int)(pairnum[(signed long int)right] + 2) * sizeof(struct _RNApair) /*48ul*/ );
+        pairprob[(signed long int)right] = (struct _RNApair *)return_value_realloc_4;
         (pairprob[(signed long int)right] + (signed long int)pairnum[(signed long int)right])->bestscore = prob;
         (pairprob[(signed long int)right] + (signed long int)pairnum[(signed long int)right])->bestpos = left;
         pairnum[(signed long int)right] = pairnum[(signed long int)right] + 1;
@@ -19317,57 +19317,57 @@ extern void readpairfoldalign(struct _IO_FILE *fp, char *s1, char *s2, char *aln
   maptoseq1=AllocateIntVec(sumlen + 1);
   maptoseq2=AllocateIntVec(sumlen + 1);
   posinaln = 0;
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   do
   {
-    return_value_feof$1=feof(fp);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(fp);
+    if(!(return_value_feof_1 == 0))
       break;
 
     fgets(gett, 999, fp);
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(gett, "; ALIGNING", (unsigned long int)10);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(gett, "; ALIGNING", (unsigned long int)10);
+    if(return_value_strncmp_2 == 0)
       break;
 
   }
   while((_Bool)1);
   sprintf(qstr, "; ALIGNING            %d against %d\n", q1 + 1, q2 + 1);
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(gett, qstr);
-  if(!(return_value_strcmp$3 == 0))
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(gett, qstr);
+  if(!(return_value_strcmp_3 == 0))
   {
     fprintf(stderr, "Error in FOLDALIGN\n");
     fprintf(stderr, "qstr = %s, but gett = %s\n", (const void *)qstr, (const void *)gett);
     exit(1);
   }
 
-  signed int return_value_feof$4;
+  signed int return_value_feof_4;
   do
   {
-    return_value_feof$4=feof(fp);
-    if(!(return_value_feof$4 == 0))
+    return_value_feof_4=feof(fp);
+    if(!(return_value_feof_4 == 0))
       break;
 
     fgets(gett, 999, fp);
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp(gett, "; --------", (unsigned long int)10);
-    if(return_value_strncmp$5 == 0)
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp(gett, "; --------", (unsigned long int)10);
+    if(return_value_strncmp_5 == 0)
       break;
 
   }
   while((_Bool)1);
-  signed int return_value_feof$6;
+  signed int return_value_feof_6;
   do
   {
-    return_value_feof$6=feof(fp);
-    if(!(return_value_feof$6 == 0))
+    return_value_feof_6=feof(fp);
+    if(!(return_value_feof_6 == 0))
       break;
 
     fgets(gett, 999, fp);
-    signed int return_value_strncmp$7;
-    return_value_strncmp$7=strncmp(gett, "; ********", (unsigned long int)10);
-    if(return_value_strncmp$7 == 0)
+    signed int return_value_strncmp_7;
+    return_value_strncmp_7=strncmp(gett, "; ********", (unsigned long int)10);
+    if(return_value_strncmp_7 == 0)
       break;
 
     sscanf(gett, "%c %c %s %s %d %d", &dumc, &dumc, (const void *)sinseq, (const void *)sinaln, &dumi, &dumi);
@@ -19377,41 +19377,41 @@ extern void readpairfoldalign(struct _IO_FILE *fp, char *s1, char *s2, char *aln
   }
   while((_Bool)1);
   alnlen = posinaln;
-  signed int return_value_feof$8;
+  signed int return_value_feof_8;
   do
   {
-    return_value_feof$8=feof(fp);
-    if(!(return_value_feof$8 == 0))
+    return_value_feof_8=feof(fp);
+    if(!(return_value_feof_8 == 0))
       break;
 
     fgets(gett, 999, fp);
-    signed int return_value_strncmp$9;
-    return_value_strncmp$9=strncmp(gett, "; --------", (unsigned long int)10);
-    if(return_value_strncmp$9 == 0)
+    signed int return_value_strncmp_9;
+    return_value_strncmp_9=strncmp(gett, "; --------", (unsigned long int)10);
+    if(return_value_strncmp_9 == 0)
       break;
 
   }
   while((_Bool)1);
-  signed int return_value_feof$10;
+  signed int return_value_feof_10;
   do
   {
-    return_value_feof$10=feof(fp);
-    if(!(return_value_feof$10 == 0))
+    return_value_feof_10=feof(fp);
+    if(!(return_value_feof_10 == 0))
       break;
 
     fgets(gett, 999, fp);
-    signed int return_value_strncmp$11;
-    return_value_strncmp$11=strncmp(gett, "; ********", (unsigned long int)10);
-    if(return_value_strncmp$11 == 0)
+    signed int return_value_strncmp_11;
+    return_value_strncmp_11=strncmp(gett, "; ********", (unsigned long int)10);
+    if(return_value_strncmp_11 == 0)
       break;
 
     sscanf(gett, "%c %c %s %s %d %d", &dumc, &dumc, (const void *)sinseq, (const void *)sinaln, &dumi, &dumi);
-    double return_value_atof$12;
-    return_value_atof$12=atof(sinaln);
-    posinaln = (signed int)return_value_atof$12;
-    double return_value_atof$13;
-    return_value_atof$13=atof(sinseq);
-    posinseq = (signed int)return_value_atof$13;
+    double return_value_atof_12;
+    return_value_atof_12=atof(sinaln);
+    posinaln = (signed int)return_value_atof_12;
+    double return_value_atof_13;
+    return_value_atof_13=atof(sinseq);
+    posinseq = (signed int)return_value_atof_13;
     maptoseq2[(signed long int)(posinaln - 1)] = posinseq - 1;
   }
   while((_Bool)1);
@@ -19424,39 +19424,39 @@ extern void readpairfoldalign(struct _IO_FILE *fp, char *s1, char *s2, char *aln
   pa1 = aln1;
   pa2 = aln2;
   i = 0;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  char *tmp_post$16;
-  char *tmp_post$17;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  char *tmp_post_16;
+  char *tmp_post_17;
   for( ; !(i >= alnlen); i = i + 1)
   {
     pos1 = maptoseq1[(signed long int)i];
     pos2 = maptoseq2[(signed long int)i];
     if(pos1 >= 0)
     {
-      tmp_post$14 = pa1;
+      tmp_post_14 = pa1;
       pa1 = pa1 + 1l;
-      *tmp_post$14 = s1[(signed long int)pos1];
+      *tmp_post_14 = s1[(signed long int)pos1];
     }
 
     else
     {
-      tmp_post$15 = pa1;
+      tmp_post_15 = pa1;
       pa1 = pa1 + 1l;
-      *tmp_post$15 = (char)45;
+      *tmp_post_15 = (char)45;
     }
     if(pos2 >= 0)
     {
-      tmp_post$16 = pa2;
+      tmp_post_16 = pa2;
       pa2 = pa2 + 1l;
-      *tmp_post$16 = s2[(signed long int)pos2];
+      *tmp_post_16 = s2[(signed long int)pos2];
     }
 
     else
     {
-      tmp_post$17 = pa2;
+      tmp_post_17 = pa2;
       pa2 = pa2 + 1l;
-      *tmp_post$17 = (char)45;
+      *tmp_post_17 = (char)45;
     }
   }
   *pa1 = (char)0;
@@ -19493,18 +19493,18 @@ static void readrawmccaskill(struct _IO_FILE *fp, struct _RNApair **pairprob, si
   signed int left;
   signed int right;
   double prob;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)length, sizeof(signed int) /*4ul*/ );
-  pairnum = (signed int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)length, sizeof(signed int) /*4ul*/ );
+  pairnum = (signed int *)return_value_calloc_1;
   i = 0;
   for( ; !(i >= length); i = i + 1)
     pairnum[(signed long int)i] = 0;
   while((_Bool)1)
   {
     fgets(gett, 999, fp);
-    signed int return_value_feof$2;
-    return_value_feof$2=feof(fp);
-    if(!(return_value_feof$2 == 0))
+    signed int return_value_feof_2;
+    return_value_feof_2=feof(fp);
+    if(!(return_value_feof_2 == 0))
       break;
 
     if(!((signed int)gett[0l] == 62))
@@ -19514,17 +19514,17 @@ static void readrawmccaskill(struct _IO_FILE *fp, struct _RNApair **pairprob, si
       {
         if(prob > 0.0 && !(left == right))
         {
-          void *return_value_realloc$3;
-          return_value_realloc$3=realloc((void *)pairprob[(signed long int)left], (unsigned long int)(pairnum[(signed long int)left] + 2) * sizeof(struct _RNApair) /*48ul*/ );
-          pairprob[(signed long int)left] = (struct _RNApair *)return_value_realloc$3;
+          void *return_value_realloc_3;
+          return_value_realloc_3=realloc((void *)pairprob[(signed long int)left], (unsigned long int)(pairnum[(signed long int)left] + 2) * sizeof(struct _RNApair) /*48ul*/ );
+          pairprob[(signed long int)left] = (struct _RNApair *)return_value_realloc_3;
           (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestscore = prob;
           (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestpos = right;
           pairnum[(signed long int)left] = pairnum[(signed long int)left] + 1;
           (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestscore = -1.0;
           (pairprob[(signed long int)left] + (signed long int)pairnum[(signed long int)left])->bestpos = -1;
-          void *return_value_realloc$4;
-          return_value_realloc$4=realloc((void *)pairprob[(signed long int)right], (unsigned long int)(pairnum[(signed long int)right] + 2) * sizeof(struct _RNApair) /*48ul*/ );
-          pairprob[(signed long int)right] = (struct _RNApair *)return_value_realloc$4;
+          void *return_value_realloc_4;
+          return_value_realloc_4=realloc((void *)pairprob[(signed long int)right], (unsigned long int)(pairnum[(signed long int)right] + 2) * sizeof(struct _RNApair) /*48ul*/ );
+          pairprob[(signed long int)right] = (struct _RNApair *)return_value_realloc_4;
           (pairprob[(signed long int)right] + (signed long int)pairnum[(signed long int)right])->bestscore = prob;
           (pairprob[(signed long int)right] + (signed long int)pairnum[(signed long int)right])->bestpos = left;
           pairnum[(signed long int)right] = pairnum[(signed long int)right] + 1;
@@ -19552,9 +19552,9 @@ extern void readsubalignmentstable(signed int nseq, signed int **table, signed i
   signed int i;
   signed int p;
   signed int *tab01;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)linelen, sizeof(char) /*1ul*/ );
-  line = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)linelen, sizeof(char) /*1ul*/ );
+  line = (char *)return_value_calloc_1;
   fp=fopen("_subalignmentstable", "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
@@ -19569,14 +19569,14 @@ extern void readsubalignmentstable(signed int nseq, signed int **table, signed i
     while((_Bool)1)
     {
       fgets(line, linelen - 1, fp);
-      signed int return_value_feof$2;
-      return_value_feof$2=feof(fp);
-      if(!(return_value_feof$2 == 0))
+      signed int return_value_feof_2;
+      return_value_feof_2=feof(fp);
+      if(!(return_value_feof_2 == 0))
         break;
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(line);
-      if(!((signed int)line[-1l + (signed long int)return_value_strlen$3] == 10))
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(line);
+      if(!((signed int)line[-1l + (signed long int)return_value_strlen_3] == 10))
       {
         fprintf(stderr, "too long line? \n");
         exit(1);
@@ -19584,9 +19584,9 @@ extern void readsubalignmentstable(signed int nseq, signed int **table, signed i
 
       if(!((signed int)*line == 35))
       {
-        signed int return_value_atoi$4;
-        return_value_atoi$4=atoi(line);
-        if(!(return_value_atoi$4 == 0))
+        signed int return_value_atoi_4;
+        return_value_atoi_4=atoi(line);
+        if(!(return_value_atoi_4 == 0))
         {
           nmem=countspace(line);
           if(!(*maxmempt >= nmem))
@@ -19602,9 +19602,9 @@ extern void readsubalignmentstable(signed int nseq, signed int **table, signed i
 
   else
   {
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc((unsigned long int)nseq, sizeof(signed int) /*4ul*/ );
-    tab01 = (signed int *)return_value_calloc$5;
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc((unsigned long int)nseq, sizeof(signed int) /*4ul*/ );
+    tab01 = (signed int *)return_value_calloc_5;
     i = 0;
     for( ; !(i >= nseq); i = i + 1)
       tab01[(signed long int)i] = 0;
@@ -19612,14 +19612,14 @@ extern void readsubalignmentstable(signed int nseq, signed int **table, signed i
     while((_Bool)1)
     {
       fgets(line, linelen - 1, fp);
-      signed int return_value_feof$6;
-      return_value_feof$6=feof(fp);
-      if(!(return_value_feof$6 == 0))
+      signed int return_value_feof_6;
+      return_value_feof_6=feof(fp);
+      if(!(return_value_feof_6 == 0))
         break;
 
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(line);
-      if(!((signed int)line[-1l + (signed long int)return_value_strlen$7] == 10))
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(line);
+      if(!((signed int)line[-1l + (signed long int)return_value_strlen_7] == 10))
       {
         fprintf(stderr, "too long line? \n");
         exit(1);
@@ -19627,9 +19627,9 @@ extern void readsubalignmentstable(signed int nseq, signed int **table, signed i
 
       if(!((signed int)*line == 35))
       {
-        signed int return_value_atoi$8;
-        return_value_atoi$8=atoi(line);
-        if(!(return_value_atoi$8 == 0))
+        signed int return_value_atoi_8;
+        return_value_atoi_8=atoi(line);
+        if(!(return_value_atoi_8 == 0))
         {
           readasubalignment(line, table[(signed long int)lpos], preservegaps + (signed long int)lpos);
           i = 0;
@@ -19807,9 +19807,9 @@ extern void scmx_calc(signed int icyc, char **aseq, double *effarr, double **scm
   signed int i;
   signed int j;
   signed int lgth;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(aseq[(signed long int)0]);
-  lgth = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(aseq[(signed long int)0]);
+  lgth = (signed int)return_value_strlen_1;
   j = 0;
   for( ; !(j >= lgth); j = j + 1)
   {
@@ -19829,15 +19829,15 @@ extern void scmx_calc(signed int icyc, char **aseq, double *effarr, double **scm
     i = 0;
     for( ; !(i >= 1 + icyc); i = i + 1)
     {
-      signed int scmx_calc$$1$$3$$1$$1$$1$$id = amino_n[(signed long int)(unsigned char)aseq[(signed long int)i][(signed long int)j]];
-      scmx[(signed long int)scmx_calc$$1$$3$$1$$1$$1$$id][(signed long int)j] = scmx[(signed long int)scmx_calc$$1$$3$$1$$1$$1$$id][(signed long int)j] + (double)effarr[(signed long int)i];
+      signed int scmx_calc__1__3__1__1__1__id = amino_n[(signed long int)(unsigned char)aseq[(signed long int)i][(signed long int)j]];
+      scmx[(signed long int)scmx_calc__1__3__1__1__1__id][(signed long int)j] = scmx[(signed long int)scmx_calc__1__3__1__1__1__id][(signed long int)j] + (double)effarr[(signed long int)i];
     }
   }
   i = 0;
   for( ; !(i >= 1 + icyc); i = i + 1)
   {
-    signed int scmx_calc$$1$$4$$1$$id = amino_n[(signed long int)(unsigned char)aseq[(signed long int)i][(signed long int)(lgth - 1)]];
-    scmx[(signed long int)scmx_calc$$1$$4$$1$$id][(signed long int)(lgth - 1)] = scmx[(signed long int)scmx_calc$$1$$4$$1$$id][(signed long int)(lgth - 1)] + (double)effarr[(signed long int)i];
+    signed int scmx_calc__1__4__1__id = amino_n[(signed long int)(unsigned char)aseq[(signed long int)i][(signed long int)(lgth - 1)]];
+    scmx[(signed long int)scmx_calc__1__4__1__id][(signed long int)(lgth - 1)] = scmx[(signed long int)scmx_calc__1__4__1__id][(signed long int)(lgth - 1)] + (double)effarr[(signed long int)i];
   }
 }
 
@@ -19865,9 +19865,9 @@ extern double score_calc1(char *seq1, char *seq2)
   double score = 0.0;
   signed int count = 0;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1);
+  len = (signed int)return_value_strlen_1;
   k = 0;
   for( ; !(k >= len); k = k + 1)
     if(!((signed int)seq1[(signed long int)k] == 45))
@@ -19897,9 +19897,9 @@ extern double score_calc4(char **seq, signed int s, double **eff, signed int ex)
   signed int k;
   double c;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score;
   signed long int tmpscore;
   char *mseq1;
@@ -19987,9 +19987,9 @@ extern double score_calc5(char **seq, signed int s, double **eff, signed int ex)
   signed int k;
   double c;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score;
   double tmpscore;
   char *mseq1;
@@ -20144,9 +20144,9 @@ extern double score_calc_a(char **seq, signed int s, double **eff)
   signed int cob;
   signed int nglen;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score = (double)0;
   nglen = 0;
   i = 0;
@@ -20184,9 +20184,9 @@ extern double score_calc_for_score(signed int nseq, char **seq)
   signed int k;
   signed int c;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score;
   double tmpscore;
   char *mseq1;
@@ -20276,9 +20276,9 @@ extern double score_calc_for_score_s(signed int s, char **seq)
   signed int cob;
   signed int nglen;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score = (double)0;
   nglen = 0;
   i = 0;
@@ -20320,9 +20320,9 @@ extern double score_calc_s(char **seq, signed int s, double **eff)
   signed int cob;
   signed int nglen;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   double score = (double)0;
   nglen = 0;
   i = 0;
@@ -20430,9 +20430,9 @@ extern signed int searchAnchors(signed int nseq, char **seq, struct _Segment *se
   signed int len;
   signed int length;
   double cumscore;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq[(signed long int)0]);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq[(signed long int)0]);
+  len = (signed int)return_value_strlen_1;
   static double threshold;
   static double *stra = (double *)(void *)0;
   static signed int alloclen = 0;
@@ -20569,17 +20569,17 @@ extern void seqLower(signed int nseq, char **seq)
   signed int j;
   signed int len;
   i = 0;
-  signed int return_value_tolower$2;
+  signed int return_value_tolower_2;
   for( ; !(i >= nseq); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    len = (signed int)return_value_strlen_1;
     j = 0;
     for( ; !(j >= len); j = j + 1)
     {
-      return_value_tolower$2=tolower((signed int)seq[(signed long int)i][(signed long int)j]);
-      seq[(signed long int)i][(signed long int)j] = (char)return_value_tolower$2;
+      return_value_tolower_2=tolower((signed int)seq[(signed long int)i][(signed long int)j]);
+      seq[(signed long int)i][(signed long int)j] = (char)return_value_tolower_2;
     }
   }
 }
@@ -20592,17 +20592,17 @@ extern void seqUpper(signed int nseq, char **seq)
   signed int j;
   signed int len;
   i = 0;
-  signed int return_value_toupper$2;
+  signed int return_value_toupper_2;
   for( ; !(i >= nseq); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(seq[(signed long int)i]);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(seq[(signed long int)i]);
+    len = (signed int)return_value_strlen_1;
     j = 0;
     for( ; !(j >= len); j = j + 1)
     {
-      return_value_toupper$2=toupper((signed int)seq[(signed long int)i][(signed long int)j]);
-      seq[(signed long int)i][(signed long int)j] = (char)return_value_toupper$2;
+      return_value_toupper_2=toupper((signed int)seq[(signed long int)i][(signed long int)j]);
+      seq[(signed long int)i][(signed long int)j] = (char)return_value_toupper_2;
     }
   }
 }
@@ -20616,9 +20616,9 @@ extern char seqcheck(char **seq)
   char **seqbk = seq;
   while(!(*seq == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(*seq);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(*seq);
+    len = (signed int)return_value_strlen_1;
     i = 0;
     for( ; !(i >= len); i = i + 1)
       if(amino_n[(signed long int)(signed int)(*seq)[(signed long int)i]] == -1)
@@ -20647,13 +20647,13 @@ extern char seqcheck(char **seq)
 extern signed int seqlen(char *seq)
 {
   signed int val = 0;
-  char *tmp_post$1;
+  char *tmp_post_1;
   if((signed int)*newgapstr == 45)
     while(!(*seq == 0))
     {
-      tmp_post$1 = seq;
+      tmp_post_1 = seq;
       seq = seq + 1l;
-      if(!((signed int)*tmp_post$1 == 45))
+      if(!((signed int)*tmp_post_1 == 45))
         val = val + 1;
 
     }
@@ -20694,15 +20694,15 @@ static void setnearest(signed int nseq, struct _Bchain *acpt, double **eff, doub
 
   }
   acptj = acpt;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(acptj == ((struct _Bchain *)NULL)))
-      tmp_if_expr$1 = acptj->pos != pos ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = acptj->pos != pos ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     j = acptj->pos;
@@ -20744,15 +20744,15 @@ static void setnearest_double_fullmtx(signed int nseq, struct _Bchain *acpt, dou
   }
   effptpt = eff;
   acptj = acpt;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(acptj == ((struct _Bchain *)NULL)))
-      tmp_if_expr$1 = acptj->pos != pos ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = acptj->pos != pos ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     j = acptj->pos;
@@ -20845,7 +20845,7 @@ extern void spg(signed int nseq, double **oeff, signed int ***topol, double **le
   for( ; !(i >= nseq); i = i + 1)
     pair[(signed long int)i][(signed long int)i] = (char)1;
   k = 0;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     double minscore = 9999.0;
@@ -20900,11 +20900,11 @@ extern void spg(signed int nseq, double **oeff, signed int ***topol, double **le
       if(!(i == im) && !(i == jm))
       {
         if(eff[(signed long int)(i >= im ? im : i)][(signed long int)(im >= i ? im : i)] < eff[(signed long int)(i >= jm ? jm : i)][(signed long int)(jm >= i ? jm : i)])
-          tmp_if_expr$1 = eff[(signed long int)(i < im ? i : im)][(signed long int)(i > im ? i : im)];
+          tmp_if_expr_1 = eff[(signed long int)(i < im ? i : im)][(signed long int)(i > im ? i : im)];
 
         else
-          tmp_if_expr$1 = eff[(signed long int)(i < jm ? i : jm)][(signed long int)(i > jm ? i : jm)];
-        eff[(signed long int)(i < im ? i : im)][(signed long int)(i > im ? i : im)] = tmp_if_expr$1;
+          tmp_if_expr_1 = eff[(signed long int)(i < jm ? i : jm)][(signed long int)(i > jm ? i : jm)];
+        eff[(signed long int)(i < im ? i : im)][(signed long int)(i > im ? i : im)] = tmp_if_expr_1;
         eff[(signed long int)(i < jm ? i : jm)][(signed long int)(i > jm ? i : jm)] = 9999.0;
       }
 
@@ -20917,21 +20917,21 @@ extern void spg(signed int nseq, double **oeff, signed int ***topol, double **le
 // file io.c line 55
 extern void sreverse(char *r, char *s)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  r = r + (signed long int)return_value_strlen$1;
-  char *tmp_post$2 = r;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  r = r + (signed long int)return_value_strlen_1;
+  char *tmp_post_2 = r;
   r = r - 1l;
-  *tmp_post$2 = (char)0;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  *tmp_post_2 = (char)0;
+  char *tmp_post_3;
+  char *tmp_post_4;
   while(!(*s == 0))
   {
-    tmp_post$3 = r;
+    tmp_post_3 = r;
     r = r - 1l;
-    tmp_post$4 = s;
+    tmp_post_4 = s;
     s = s + 1l;
-    *tmp_post$3=creverse(*tmp_post$4);
+    *tmp_post_3=creverse(*tmp_post_4);
   }
 }
 
@@ -20948,22 +20948,22 @@ extern void st_FinalGapCount(double *fgcp, signed int clus, char **seq, double *
   char *spt;
   fpt = fgcp;
   i = len;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -20973,9 +20973,9 @@ extern void st_FinalGapCount(double *fgcp, signed int clus, char **seq, double *
     i = len;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
@@ -21008,22 +21008,22 @@ extern void st_FinalGapCount_zure(double *fgcp, signed int clus, char **seq, dou
   char *spt;
   fpt = fgcp;
   i = len + 1;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -21033,9 +21033,9 @@ extern void st_FinalGapCount_zure(double *fgcp, signed int clus, char **seq, dou
     i = len;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
@@ -21068,23 +21068,23 @@ extern void st_OpeningGapCount(double *ogcp, signed int clus, char **seq, double
   char *spt;
   fpt = ogcp;
   i = len;
-  signed int tmp_post$1;
-  double *tmp_post$2;
+  signed int tmp_post_1;
+  double *tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = 0.0;
+    *tmp_post_2 = 0.0;
   }
   while((_Bool)1);
   j = 0;
-  signed int tmp_post$3;
-  char *tmp_post$4;
+  signed int tmp_post_3;
+  char *tmp_post_4;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -21094,15 +21094,15 @@ extern void st_OpeningGapCount(double *ogcp, signed int clus, char **seq, double
     i = len;
     do
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       gb = gc;
-      tmp_post$4 = spt;
+      tmp_post_4 = spt;
       spt = spt + 1l;
-      gc = (signed int)((signed int)*tmp_post$4 == 45);
+      gc = (signed int)((signed int)*tmp_post_4 == 45);
       if(!(gc * (signed int)(gb == 0) == 0))
         *fpt = *fpt + feff;
 
@@ -21129,26 +21129,26 @@ extern void st_getGapPattern(struct _Gappattern **pat, signed int clus, char **s
   signed int gaplen;
   fpt = pat;
   i = len + 1;
-  signed int tmp_post$1;
-  struct _Gappattern **tmp_post$2;
+  signed int tmp_post_1;
+  struct _Gappattern **tmp_post_2;
   do
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     if(!(*fpt == ((struct _Gappattern *)NULL)))
       free((void *)*fpt);
 
-    tmp_post$2 = fpt;
+    tmp_post_2 = fpt;
     fpt = fpt + 1l;
-    *tmp_post$2 = (struct _Gappattern *)(void *)0;
+    *tmp_post_2 = (struct _Gappattern *)(void *)0;
   }
   while((_Bool)1);
   j = 0;
-  _Bool tmp_if_expr$4;
-  char *tmp_post$3;
+  _Bool tmp_if_expr_4;
+  char *tmp_post_3;
   for( ; !(j >= clus); j = j + 1)
   {
     feff = (double)eff[(signed long int)j];
@@ -21163,14 +21163,14 @@ extern void st_getGapPattern(struct _Gappattern **pat, signed int clus, char **s
       gb = gc;
       if(!(i == len))
       {
-        tmp_post$3 = spt;
+        tmp_post_3 = spt;
         spt = spt + 1l;
-        tmp_if_expr$4 = (signed int)*tmp_post$3 == 45 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)*tmp_post_3 == 45 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      gc = (signed int)tmp_if_expr$4;
+        tmp_if_expr_4 = (_Bool)0;
+      gc = (signed int)tmp_if_expr_4;
       if(!(gc == 0))
         gaplen = gaplen + 1;
 
@@ -21190,9 +21190,9 @@ extern void st_getGapPattern(struct _Gappattern **pat, signed int clus, char **s
 
           if(known == 0)
           {
-            void *return_value_realloc$5;
-            return_value_realloc$5=realloc((void *)*fpt, (unsigned long int)(k + 3) * sizeof(struct _Gappattern) /*16ul*/ );
-            *fpt = (struct _Gappattern *)return_value_realloc$5;
+            void *return_value_realloc_5;
+            return_value_realloc_5=realloc((void *)*fpt, (unsigned long int)(k + 3) * sizeof(struct _Gappattern) /*16ul*/ );
+            *fpt = (struct _Gappattern *)return_value_realloc_5;
             if(*fpt == ((struct _Gappattern *)NULL))
             {
               reporterr("Cannot allocate gappattern!'n");
@@ -21229,9 +21229,9 @@ extern void st_getGapPattern(struct _Gappattern **pat, signed int clus, char **s
 
     else
     {
-      void *return_value_calloc$6;
-      return_value_calloc$6=calloc((unsigned long int)3, sizeof(struct _Gappattern) /*16ul*/ );
-      pat[(signed long int)j] = (struct _Gappattern *)return_value_calloc$6;
+      void *return_value_calloc_6;
+      return_value_calloc_6=calloc((unsigned long int)3, sizeof(struct _Gappattern) /*16ul*/ );
+      pat[(signed long int)j] = (struct _Gappattern *)return_value_calloc_6;
       (pat[(signed long int)j] + (signed long int)0)->freq = 0.0;
       (pat[(signed long int)j] + (signed long int)0)->len = 0;
       (pat[(signed long int)j] + (signed long int)1)->freq = 1.0 - (pat[(signed long int)j] + (signed long int)0)->freq;
@@ -21246,25 +21246,25 @@ extern void strins(char *str1, char *str2)
 {
   char *bk;
   signed int len1;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str1);
-  len1 = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str1);
+  len1 = (signed int)return_value_strlen_1;
   signed int len2;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(str2);
-  len2 = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(str2);
+  len2 = (signed int)return_value_strlen_2;
   bk = str2;
   str2 = str2 + (signed long int)(len1 + len2);
   str1 = str1 + (signed long int)(len1 - 1);
   for( ; str2 >= bk + (signed long int)len1; str2 = str2 - 1l)
     *str2 = *(str2 - (signed long int)len1);
-  char *tmp_post$3;
-  char *tmp_post$4;
-  for( ; str2 >= bk; *tmp_post$3 = *tmp_post$4)
+  char *tmp_post_3;
+  char *tmp_post_4;
+  for( ; str2 >= bk; *tmp_post_3 = *tmp_post_4)
   {
-    tmp_post$3 = str2;
+    tmp_post_3 = str2;
     str2 = str2 - 1l;
-    tmp_post$4 = str1;
+    tmp_post_4 = str1;
     str1 = str1 - 1l;
   }
 }
@@ -21273,24 +21273,24 @@ extern void strins(char *str1, char *str2)
 // file io.c line 941
 extern void strncpy_caseC(char *str1, char *str2, signed int len)
 {
-  signed int tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  signed int return_value_toupper$4;
+  signed int tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  signed int return_value_toupper_4;
   if(dorp == 100 && upperCase >= 1)
     do
     {
-      tmp_post$1 = len;
+      tmp_post_1 = len;
       len = len - 1;
-      if(tmp_post$1 == 0)
+      if(tmp_post_1 == 0)
         break;
 
-      tmp_post$2 = str1;
+      tmp_post_2 = str1;
       str1 = str1 + 1l;
-      tmp_post$3 = str2;
+      tmp_post_3 = str2;
       str2 = str2 + 1l;
-      return_value_toupper$4=toupper((signed int)*tmp_post$3);
-      *tmp_post$2 = (char)return_value_toupper$4;
+      return_value_toupper_4=toupper((signed int)*tmp_post_3);
+      *tmp_post_2 = (char)return_value_toupper_4;
     }
     while((_Bool)1);
 
@@ -21306,9 +21306,9 @@ extern double substitution(char *seq1, char *seq2)
   double score = 0.0;
   signed int count = 0;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1);
+  len = (signed int)return_value_strlen_1;
   k = 0;
   for( ; !(k >= len); k = k + 1)
     if(!((signed int)seq1[(signed long int)k] == 45))
@@ -21338,19 +21338,19 @@ extern double substitution_hosei(char *seq1, char *seq2)
   signed int iscore = 0;
   char s1;
   char s2;
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   do
   {
-    tmp_post$1 = seq1;
+    tmp_post_1 = seq1;
     seq1 = seq1 + 1l;
-    s1 = *tmp_post$1;
+    s1 = *tmp_post_1;
     if(s1 == 0)
       break;
 
-    tmp_post$2 = seq2;
+    tmp_post_2 = seq2;
     seq2 = seq2 + 1l;
-    s2 = *tmp_post$2;
+    s2 = *tmp_post_2;
     if(!((signed int)s1 == 45))
     {
       if(!((signed int)s2 == 45))
@@ -21368,11 +21368,11 @@ extern double substitution_hosei(char *seq1, char *seq2)
 
   else
     score = 1.0;
-  double return_value_log$3;
+  double return_value_log_3;
   if(score < 0.95)
   {
-    return_value_log$3=log(1.0 - score);
-    score = -return_value_log$3;
+    return_value_log_3=log(1.0 - score);
+    score = -return_value_log_3;
   }
 
   else
@@ -21387,9 +21387,9 @@ extern double substitution_nid(char *seq1, char *seq2)
   signed int k;
   double s12;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1);
+  len = (signed int)return_value_strlen_1;
   s12 = 0.0;
   k = 0;
   for( ; !(k >= len); k = k + 1)
@@ -21410,9 +21410,9 @@ extern double substitution_score(char *seq1, char *seq2)
   signed int k;
   double s12;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(seq1);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(seq1);
+  len = (signed int)return_value_strlen_1;
   s12 = 0.0;
   k = 0;
   for( ; !(k >= len); k = k + 1)
@@ -21439,9 +21439,9 @@ extern double sumofpairsscore(signed int nseq, char **seq)
     j = 0;
     for( ; !(j >= i); j = j + 1)
     {
-      double return_value_naivepairscore11$1;
-      return_value_naivepairscore11$1=naivepairscore11(seq[(signed long int)i], seq[(signed long int)j], penalty);
-      v = v + return_value_naivepairscore11$1 / (double)600;
+      double return_value_naivepairscore11_1;
+      return_value_naivepairscore11_1=naivepairscore11(seq[(signed long int)i], seq[(signed long int)j], penalty);
+      v = v + return_value_naivepairscore11_1 / (double)600;
     }
   }
   return v;
@@ -21495,10 +21495,10 @@ extern void supg(signed int nseq, double **oeff, signed int ***topol, double **l
   for( ; !(i >= nseq); i = i + 1)
     pair[(signed long int)i][(signed long int)i] = (char)1;
   k = 0;
-  double **tmp_post$1;
-  double *tmp_post$2;
-  signed int *tmp_post$3;
-  signed int *tmp_post$4;
+  double **tmp_post_1;
+  double *tmp_post_2;
+  signed int *tmp_post_3;
+  signed int *tmp_post_4;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     double minscore = 9999.0;
@@ -21508,15 +21508,15 @@ extern void supg(signed int nseq, double **oeff, signed int ***topol, double **l
     i = 0;
     for( ; !(i >= nseq + -1); i = i + 1)
     {
-      tmp_post$1 = doubleptpt;
+      tmp_post_1 = doubleptpt;
       doubleptpt = doubleptpt + 1l;
-      doublept = *tmp_post$1 + (signed long int)i + (signed long int)1;
+      doublept = *tmp_post_1 + (signed long int)i + (signed long int)1;
       j = i + 1;
       for( ; !(j >= nseq); j = j + 1)
       {
-        tmp_post$2 = doublept;
+        tmp_post_2 = doublept;
         doublept = doublept + 1l;
-        tmpdouble = *tmp_post$2;
+        tmpdouble = *tmp_post_2;
         if(tmpdouble < minscore)
         {
           minscore = tmpdouble;
@@ -21531,9 +21531,9 @@ extern void supg(signed int nseq, double **oeff, signed int ***topol, double **l
     for( ; !(i >= nseq); i = i + 1)
       if((signed int)pair[(signed long int)im][(signed long int)i] >= 1)
       {
-        tmp_post$3 = intpt;
+        tmp_post_3 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$3 = i;
+        *tmp_post_3 = i;
       }
 
     *intpt = -1;
@@ -21542,9 +21542,9 @@ extern void supg(signed int nseq, double **oeff, signed int ***topol, double **l
     for( ; !(i >= nseq); i = i + 1)
       if((signed int)pair[(signed long int)jm][(signed long int)i] >= 1)
       {
-        tmp_post$4 = intpt;
+        tmp_post_4 = intpt;
         intpt = intpt + 1l;
-        *tmp_post$4 = i;
+        *tmp_post_4 = i;
       }
 
     *intpt = -1;
@@ -21637,9 +21637,9 @@ extern void treeconstruction(char **seq, signed int nseq, signed int ***topol, d
         j = i + 1;
         for( ; !(j >= nseq); j = j + 1)
         {
-          double return_value_substitution_hosei$1;
-          return_value_substitution_hosei$1=substitution_hosei(seq[(signed long int)i], seq[(signed long int)j]);
-          eff[(signed long int)i][(signed long int)j] = (double)return_value_substitution_hosei$1;
+          double return_value_substitution_hosei_1;
+          return_value_substitution_hosei_1=substitution_hosei(seq[(signed long int)i], seq[(signed long int)j]);
+          eff[(signed long int)i][(signed long int)j] = (double)return_value_substitution_hosei_1;
         }
       }
       spg(nseq, eff, topol, len);
@@ -21783,12 +21783,12 @@ extern void veryfastsupg(signed int nseq, double **oeff, signed int ***topol, do
   {
     eff=AllocateIntMtx(njob, njob);
     hist=AllocateIntVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(double) /*8ul*/ );
-    tmptmplen = (double *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)njob * sizeof(struct _Achain) /*8ul*/ );
-    ac = (struct _Achain *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(double) /*8ul*/ );
+    tmptmplen = (double *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)njob * sizeof(struct _Achain) /*8ul*/ );
+    ac = (struct _Achain *)return_value_malloc_2;
   }
 
   i = 0;
@@ -21813,16 +21813,16 @@ extern void veryfastsupg(signed int nseq, double **oeff, signed int ***topol, do
     hist[(signed long int)i] = -1;
   reporterr("\n");
   k = 0;
-  signed int *tmp_post$3;
-  signed int *tmp_post$4;
-  signed int *tmp_post$5;
-  signed int *tmp_post$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
+  signed int *tmp_post_3;
+  signed int *tmp_post_4;
+  signed int *tmp_post_5;
+  signed int *tmp_post_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -21850,9 +21850,9 @@ extern void veryfastsupg(signed int nseq, double **oeff, signed int ***topol, do
     prevnode = hist[(signed long int)im];
     if(prevnode == -1)
     {
-      tmp_post$3 = intpt;
+      tmp_post_3 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$3 = im;
+      *tmp_post_3 = im;
       *intpt = -1;
     }
 
@@ -21872,19 +21872,19 @@ extern void veryfastsupg(signed int nseq, double **oeff, signed int ***topol, do
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$4 = *tmp_post$5)
+      for( ; !(*intpt2 == -1); *tmp_post_4 = *tmp_post_5)
       {
-        tmp_post$4 = intpt;
+        tmp_post_4 = intpt;
         intpt = intpt + 1l;
-        tmp_post$5 = intpt2;
+        tmp_post_5 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$6 = *tmp_post$7)
+      for( ; !(*intpt2 == -1); *tmp_post_6 = *tmp_post_7)
       {
-        tmp_post$6 = intpt;
+        tmp_post_6 = intpt;
         intpt = intpt + 1l;
-        tmp_post$7 = intpt2;
+        tmp_post_7 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -21893,9 +21893,9 @@ extern void veryfastsupg(signed int nseq, double **oeff, signed int ***topol, do
     prevnode = hist[(signed long int)jm];
     if(prevnode == -1)
     {
-      tmp_post$8 = intpt;
+      tmp_post_8 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$8 = jm;
+      *tmp_post_8 = jm;
       *intpt = -1;
     }
 
@@ -21915,19 +21915,19 @@ extern void veryfastsupg(signed int nseq, double **oeff, signed int ***topol, do
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$9 = *tmp_post$10)
+      for( ; !(*intpt2 == -1); *tmp_post_9 = *tmp_post_10)
       {
-        tmp_post$9 = intpt;
+        tmp_post_9 = intpt;
         intpt = intpt + 1l;
-        tmp_post$10 = intpt2;
+        tmp_post_10 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$11 = *tmp_post$12)
+      for( ; !(*intpt2 == -1); *tmp_post_11 = *tmp_post_12)
       {
-        tmp_post$11 = intpt;
+        tmp_post_11 = intpt;
         intpt = intpt + 1l;
-        tmp_post$12 = intpt2;
+        tmp_post_12 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -22035,14 +22035,14 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     tree=AllocateCharMtx(njob, 0);
     nametmp=AllocateCharVec(1000);
     hist=AllocateIntVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(struct _Achain) /*8ul*/ );
-    ac = (struct _Achain *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(struct _Achain) /*8ul*/ );
+    ac = (struct _Achain *)return_value_malloc_1;
   }
 
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  char *return_value_strstr$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  char *return_value_strstr_3;
   for( ; !(i >= nseq); i = i + 1)
   {
     j = 0;
@@ -22057,8 +22057,8 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)namec]) == 0))
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((signed int)namec == 45 || (signed int)namec == 47 || (signed int)namec == 61 || (signed int)namec == 123 || (signed int)namec == 125 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)namec]) == 0))
           nametmp[(signed long int)j] = namec;
 
         else
@@ -22068,8 +22068,8 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     nametmp[(signed long int)j] = (char)0;
     if(!(outnumber == 0))
     {
-      return_value_strstr$3=strstr(nametmp, "_numo_e");
-      nameptr = return_value_strstr$3 + (signed long int)8;
+      return_value_strstr_3=strstr(nametmp, "_numo_e");
+      nameptr = return_value_strstr_3 + (signed long int)8;
     }
 
     else
@@ -22078,11 +22078,11 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     if(!(tmpptr == ((char *)NULL)))
       nameptr = tmpptr + (signed long int)4;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nametmp);
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc(return_value_strlen$4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
-    tree[(signed long int)i] = (char *)return_value_calloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nametmp);
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc(return_value_strlen_4 + (unsigned long int)100, sizeof(char) /*1ul*/ );
+    tree[(signed long int)i] = (char *)return_value_calloc_5;
     if(tree[(signed long int)i] == ((char *)NULL))
     {
       reporterr("Cannot allocate tree!\n");
@@ -22103,19 +22103,19 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     hist[(signed long int)i] = -1;
   reporterr("\n");
   k = 0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
-  signed int *tmp_post$14;
-  signed int *tmp_post$15;
-  signed int *tmp_post$16;
-  signed int *tmp_post$17;
-  signed int *tmp_post$18;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
+  signed int *tmp_post_14;
+  signed int *tmp_post_15;
+  signed int *tmp_post_16;
+  signed int *tmp_post_17;
+  signed int *tmp_post_18;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -22128,16 +22128,16 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     jm = node[(signed long int)1];
     minscore = eff[(signed long int)im][(signed long int)jm];
     if(!(nseq + -1 >= im) || !(nseq + -1 >= jm))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = tree[(signed long int)im] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = tree[(signed long int)im] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = tree[(signed long int)jm] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = tree[(signed long int)jm] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       reporterr("\n\nCheck the guide tree.\n");
       reporterr("im=%d, jm=%d\n", im + 1, jm + 1);
@@ -22146,11 +22146,11 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     }
 
     if(IEEE_FLOAT_EQUAL(lenfl[0l], -1.000000))
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = IEEE_FLOAT_EQUAL(lenfl[(signed long int)1], -1.0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = IEEE_FLOAT_EQUAL(lenfl[(signed long int)1], -1.0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       reporterr("\n\nWARNING: Branch length is not given.\n");
       exit(1);
@@ -22166,9 +22166,9 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     prevnode = hist[(signed long int)im];
     if(prevnode == -1)
     {
-      tmp_post$9 = intpt;
+      tmp_post_9 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$9 = im;
+      *tmp_post_9 = im;
       *intpt = -1;
     }
 
@@ -22188,19 +22188,19 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$10 = *tmp_post$11)
+      for( ; !(*intpt2 == -1); *tmp_post_10 = *tmp_post_11)
       {
-        tmp_post$10 = intpt;
+        tmp_post_10 = intpt;
         intpt = intpt + 1l;
-        tmp_post$11 = intpt2;
+        tmp_post_11 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$12 = *tmp_post$13)
+      for( ; !(*intpt2 == -1); *tmp_post_12 = *tmp_post_13)
       {
-        tmp_post$12 = intpt;
+        tmp_post_12 = intpt;
         intpt = intpt + 1l;
-        tmp_post$13 = intpt2;
+        tmp_post_13 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -22209,9 +22209,9 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     prevnode = hist[(signed long int)jm];
     if(prevnode == -1)
     {
-      tmp_post$14 = intpt;
+      tmp_post_14 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$14 = jm;
+      *tmp_post_14 = jm;
       *intpt = -1;
     }
 
@@ -22231,19 +22231,19 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$15 = *tmp_post$16)
+      for( ; !(*intpt2 == -1); *tmp_post_15 = *tmp_post_16)
       {
-        tmp_post$15 = intpt;
+        tmp_post_15 = intpt;
         intpt = intpt + 1l;
-        tmp_post$16 = intpt2;
+        tmp_post_16 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$17 = *tmp_post$18)
+      for( ; !(*intpt2 == -1); *tmp_post_17 = *tmp_post_18)
       {
-        tmp_post$17 = intpt;
+        tmp_post_17 = intpt;
         intpt = intpt + 1l;
-        tmp_post$18 = intpt2;
+        tmp_post_18 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -22291,13 +22291,13 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     if(!(acjmnext == -1))
       (ac + (signed long int)acjmnext)->prev = acjmprev;
 
-    unsigned long int return_value_strlen$19;
-    return_value_strlen$19=strlen(tree[(signed long int)im]);
-    unsigned long int return_value_strlen$20;
-    return_value_strlen$20=strlen(tree[(signed long int)jm]);
-    void *return_value_realloc$21;
-    return_value_realloc$21=realloc((void *)treetmp, return_value_strlen$19 + return_value_strlen$20 + (unsigned long int)100);
-    treetmp = (char *)return_value_realloc$21;
+    unsigned long int return_value_strlen_19;
+    return_value_strlen_19=strlen(tree[(signed long int)im]);
+    unsigned long int return_value_strlen_20;
+    return_value_strlen_20=strlen(tree[(signed long int)jm]);
+    void *return_value_realloc_21;
+    return_value_realloc_21=realloc((void *)treetmp, return_value_strlen_19 + return_value_strlen_20 + (unsigned long int)100);
+    treetmp = (char *)return_value_realloc_21;
     if(treetmp == ((char *)NULL))
     {
       reporterr("Cannot allocate treetmp\n");
@@ -22307,11 +22307,11 @@ extern void veryfastsupg_double_loadtree(signed int nseq, double **eff, signed i
     sprintf(treetmp, "(%s:%7.5f,%s:%7.5f)", tree[(signed long int)im], len[(signed long int)k][(signed long int)0], tree[(signed long int)jm], len[(signed long int)k][(signed long int)1]);
     free((void *)tree[(signed long int)im]);
     free((void *)tree[(signed long int)jm]);
-    unsigned long int return_value_strlen$22;
-    return_value_strlen$22=strlen(treetmp);
-    void *return_value_calloc$23;
-    return_value_calloc$23=calloc(return_value_strlen$22 + (unsigned long int)1, sizeof(char) /*1ul*/ );
-    tree[(signed long int)im] = (char *)return_value_calloc$23;
+    unsigned long int return_value_strlen_22;
+    return_value_strlen_22=strlen(treetmp);
+    void *return_value_calloc_23;
+    return_value_calloc_23=calloc(return_value_strlen_22 + (unsigned long int)1, sizeof(char) /*1ul*/ );
+    tree[(signed long int)im] = (char *)return_value_calloc_23;
     tree[(signed long int)jm] = (char *)(void *)0;
     if(tree[(signed long int)im] == ((char *)NULL))
     {
@@ -22390,12 +22390,12 @@ extern void veryfastsupg_double_outtree(signed int nseq, double **eff, signed in
     treetmp=AllocateCharVec(njob * 50);
     tree=AllocateCharMtx(njob, njob * 50);
     hist=AllocateIntVec(njob);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)njob * sizeof(double) /*8ul*/ );
-    tmptmplen = (double *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)njob * sizeof(struct _Achain) /*8ul*/ );
-    ac = (struct _Achain *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)njob * sizeof(double) /*8ul*/ );
+    tmptmplen = (double *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)njob * sizeof(struct _Achain) /*8ul*/ );
+    ac = (struct _Achain *)return_value_malloc_2;
     nametmp=AllocateCharVec(31);
   }
 
@@ -22408,9 +22408,9 @@ extern void veryfastsupg_double_outtree(signed int nseq, double **eff, signed in
     j = 0;
     for( ; !(j >= 30); j = j + 1)
     {
-      const unsigned short int **return_value___ctype_b_loc$3;
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if(!((8 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)name[(signed long int)i][(signed long int)j]]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_3;
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if(!((8 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)name[(signed long int)i][(signed long int)j]]) == 0))
         nametmp[(signed long int)j] = name[(signed long int)i][(signed long int)j];
 
       else
@@ -22434,16 +22434,16 @@ extern void veryfastsupg_double_outtree(signed int nseq, double **eff, signed in
     hist[(signed long int)i] = -1;
   reporterr("\n");
   k = 0;
-  signed int *tmp_post$4;
-  signed int *tmp_post$5;
-  signed int *tmp_post$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
+  signed int *tmp_post_4;
+  signed int *tmp_post_5;
+  signed int *tmp_post_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
   for( ; !(k >= nseq + -1); k = k + 1)
   {
     if(k % 10 == 0)
@@ -22470,9 +22470,9 @@ extern void veryfastsupg_double_outtree(signed int nseq, double **eff, signed in
     prevnode = hist[(signed long int)im];
     if(prevnode == -1)
     {
-      tmp_post$4 = intpt;
+      tmp_post_4 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$4 = im;
+      *tmp_post_4 = im;
       *intpt = -1;
     }
 
@@ -22492,19 +22492,19 @@ extern void veryfastsupg_double_outtree(signed int nseq, double **eff, signed in
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$5 = *tmp_post$6)
+      for( ; !(*intpt2 == -1); *tmp_post_5 = *tmp_post_6)
       {
-        tmp_post$5 = intpt;
+        tmp_post_5 = intpt;
         intpt = intpt + 1l;
-        tmp_post$6 = intpt2;
+        tmp_post_6 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$7 = *tmp_post$8)
+      for( ; !(*intpt2 == -1); *tmp_post_7 = *tmp_post_8)
       {
-        tmp_post$7 = intpt;
+        tmp_post_7 = intpt;
         intpt = intpt + 1l;
-        tmp_post$8 = intpt2;
+        tmp_post_8 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -22513,9 +22513,9 @@ extern void veryfastsupg_double_outtree(signed int nseq, double **eff, signed in
     prevnode = hist[(signed long int)jm];
     if(prevnode == -1)
     {
-      tmp_post$9 = intpt;
+      tmp_post_9 = intpt;
       intpt = intpt + 1l;
-      *tmp_post$9 = jm;
+      *tmp_post_9 = jm;
       *intpt = -1;
     }
 
@@ -22535,19 +22535,19 @@ extern void veryfastsupg_double_outtree(signed int nseq, double **eff, signed in
         pt22 = pt2;
       }
       intpt2 = pt11;
-      for( ; !(*intpt2 == -1); *tmp_post$10 = *tmp_post$11)
+      for( ; !(*intpt2 == -1); *tmp_post_10 = *tmp_post_11)
       {
-        tmp_post$10 = intpt;
+        tmp_post_10 = intpt;
         intpt = intpt + 1l;
-        tmp_post$11 = intpt2;
+        tmp_post_11 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       intpt2 = pt22;
-      for( ; !(*intpt2 == -1); *tmp_post$12 = *tmp_post$13)
+      for( ; !(*intpt2 == -1); *tmp_post_12 = *tmp_post_13)
       {
-        tmp_post$12 = intpt;
+        tmp_post_12 = intpt;
         intpt = intpt + 1l;
-        tmp_post$13 = intpt2;
+        tmp_post_13 = intpt2;
         intpt2 = intpt2 + 1l;
       }
       *intpt = -1;
@@ -22620,9 +22620,9 @@ extern void write1seq(struct _IO_FILE *fp, char *aseq)
 {
   signed int j;
   signed int nalen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(aseq);
-  nalen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(aseq);
+  nalen = (signed int)return_value_strlen_1;
   j = 0;
   for( ; !(j >= nalen); j = j + 60)
     fprintf(fp, "%.*s\n", 60, aseq + (signed long int)j);
@@ -22638,9 +22638,9 @@ extern void writeData(struct _IO_FILE *fp, signed int locnjob, char (*name)[256l
   i = 0;
   for( ; !(i >= locnjob); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(aseq[(signed long int)i]);
-    nalen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(aseq[(signed long int)i]);
+    nalen = (signed int)return_value_strlen_1;
     fprintf(fp, ">%s\n", name[(signed long int)i] + (signed long int)1);
     j = 0;
     for( ; !(j >= nalen); j = j + 60)
@@ -22658,9 +22658,9 @@ extern void writeData_pointer(struct _IO_FILE *fp, signed int locnjob, char **na
   i = 0;
   for( ; !(i >= locnjob); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(aseq[(signed long int)i]);
-    nalen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(aseq[(signed long int)i]);
+    nalen = (signed int)return_value_strlen_1;
     fprintf(fp, ">%s\n", name[(signed long int)i] + (signed long int)1);
     j = 0;
     for( ; !(j >= nalen); j = j + 60)
@@ -22680,9 +22680,9 @@ extern void writeData_reorder(struct _IO_FILE *fp, signed int locnjob, char (*na
   for( ; !(i >= locnjob); i = i + 1)
   {
     k = order[(signed long int)i];
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(aseq[(signed long int)k]);
-    nalen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(aseq[(signed long int)k]);
+    nalen = (signed int)return_value_strlen_1;
     fprintf(fp, ">%s\n", name[(signed long int)k] + (signed long int)1);
     j = 0;
     for( ; !(j >= nalen); j = j + 60)
@@ -22702,9 +22702,9 @@ extern void writeData_reorder_pointer(struct _IO_FILE *fp, signed int locnjob, c
   for( ; !(i >= locnjob); i = i + 1)
   {
     k = order[(signed long int)i];
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(aseq[(signed long int)k]);
-    nalen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(aseq[(signed long int)k]);
+    nalen = (signed int)return_value_strlen_1;
     fprintf(fp, ">%s\n", name[(signed long int)k] + (signed long int)1);
     j = 0;
     for( ; !(j >= nalen); j = j + 60)
@@ -22722,9 +22722,9 @@ extern void writeDataforgaln(struct _IO_FILE *fp, signed int locnjob, char **nam
   i = 0;
   for( ; !(i >= locnjob); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(aseq[(signed long int)i]);
-    nalen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(aseq[(signed long int)i]);
+    nalen = (signed int)return_value_strlen_1;
     fprintf(fp, ">%s\n", name[(signed long int)i] + (signed long int)1);
     j = 0;
     for( ; !(j >= nalen); j = j + 60)

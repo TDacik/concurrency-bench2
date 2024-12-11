@@ -1,102 +1,102 @@
-// #anon_enum$DBUS_BUS_SESSION=0$DBUS_BUS_SYSTEM=1$DBUS_BUS_STARTER=2
+// #anon_enum_DBUS_BUS_SESSION=0_DBUS_BUS_SYSTEM=1_DBUS_BUS_STARTER=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 56
-enum anonymous$7 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
+enum anonymous_7 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
 
-// #anon_enum$DBUS_HANDLER_RESULT_HANDLED=0$DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1$DBUS_HANDLER_RESULT_NEED_MEMORY=2
+// #anon_enum_DBUS_HANDLER_RESULT_HANDLED=0_DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1_DBUS_HANDLER_RESULT_NEED_MEMORY=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 66
-enum anonymous$8 { DBUS_HANDLER_RESULT_HANDLED=0, DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1, DBUS_HANDLER_RESULT_NEED_MEMORY=2 };
+enum anonymous_8 { DBUS_HANDLER_RESULT_HANDLED=0, DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1, DBUS_HANDLER_RESULT_NEED_MEMORY=2 };
 
-// #anon_enum$JackParamInt=1$JackParamUInt=2$JackParamChar=3$JackParamString=4$JackParamBool=5
+// #anon_enum_JackParamInt=1_JackParamUInt=2_JackParamChar=3_JackParamString=4_JackParamBool=5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/control.h line 40
-enum anonymous$1 { JackParamInt=1, JackParamUInt=2, JackParamChar=3, JackParamString=4, JackParamBool=5 };
+enum anonymous_1 { JackParamInt=1, JackParamUInt=2, JackParamChar=3, JackParamString=4, JackParamBool=5 };
 
-// tag-#anon#ST[*{S8}$S8$'buf'||U64'len'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||U64'len'|]
 // file ../common/ringbuffer.c line 30
 struct anonymous;
 
-// tag-#anon#ST[*{S8}$S8$'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'_pad0'|]
 // file ../common/ringbuffer.c line 36
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{cS8}$cS8$'dli_fname'||*{V}$V$'dli_fbase'||*{cS8}$cS8$'dli_sname'||*{V}$V$'dli_saddr'|]
+// tag-#anon#ST[*{cS8}_cS8_'dli_fname'||*{V}_V_'dli_fbase'||*{cS8}_cS8_'dli_sname'||*{V}_V_'dli_saddr'|]
 // file /usr/include/dlfcn.h line 88
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{cS8}$cS8$'uuid'||*{cS8}$cS8$'client_name'||*{cS8}$cS8$'command'||ENtag-JackSessionFlags#{U32}$U32$'flags'||U32'$pad0'|]
+// tag-#anon#ST[*{cS8}_cS8_'uuid'||*{cS8}_cS8_'client_name'||*{cS8}_cS8_'command'||ENtag-JackSessionFlags#{U32}_U32_'flags'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/session.h line 219
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR23{S64}$S64$'gregs'||*{SYM#tag-_libc_fpstate#}$SYM#tag-_libc_fpstate#$'fpregs'||ARR8{U64}$U64$'__reserved1'|]
+// tag-#anon#ST[ARR23{S64}_S64_'gregs'||*{SYM#tag-_libc_fpstate#}_SYM#tag-_libc_fpstate#_'fpregs'||ARR8{U64}_U64_'__reserved1'|]
 // file /usr/include/x86_64-linux-gnu/sys/ucontext.h line 124
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[SYM#tag-jackctl_parameter_value#'min'||SYM#tag-jackctl_parameter_value#'max'|]
 // file ../dbus/params.h line 68
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[U32'count'||U32'$pad0'||*{SYM#tag-jack_parameter_enum#}$SYM#tag-jack_parameter_enum#$'possible_values_array'|]
+// tag-#anon#ST[U32'count'||U32'_pad0'||*{SYM#tag-jack_parameter_enum#}_SYM#tag-jack_parameter_enum#_'possible_values_array'|]
 // file ../dbus/params.h line 74
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[SYM#tag-jackctl_parameter_value#'min'||SYM#tag-jackctl_parameter_value#'max'|]#'range'||SYM#tag-#anon#ST[U32'count'||U32'$pad0'||*{SYM#tag-jack_parameter_enum#}$SYM#tag-jack_parameter_enum#$'possible_values_array'|]#'enumeration'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[SYM#tag-jackctl_parameter_value#'min'||SYM#tag-jackctl_parameter_value#'max'|]#'range'||SYM#tag-#anon#ST[U32'count'||U32'_pad0'||*{SYM#tag-jack_parameter_enum#}_SYM#tag-jack_parameter_enum#_'possible_values_array'|]#'enumeration'|]
 // file ../dbus/params.h line 66
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[U8'byte'||U32'boolean'||S16'int16'||U16'uint16'||S32'int32'||U32'uint32'||S64'int64'||U64'uint64'||F64'doubl'||*{cS8}$cS8$'string'|]
+// tag-#anon#UN[U8'byte'||U32'boolean'||S16'int16'||U16'uint16'||S32'int32'||U32'uint32'||S64'int64'||U64'uint64'||F64'doubl'||*{cS8}_cS8_'string'|]
 // file ../dbus/jackdbus.h line 111
-union anonymous$5;
+union anonymous_5;
 
 // tag-DBusConnection
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 51
@@ -351,12 +351,12 @@ struct ucontext;
 // INIT_LIST_HEAD
 // file ../dbus/list.h line 74
 static inline void INIT_LIST_HEAD(struct list_head *list);
-// INIT_LIST_HEAD$link1
+// INIT_LIST_HEAD_link1
 // file ../dbus/list.h line 74
-static inline void INIT_LIST_HEAD$link1(struct list_head *list$link1);
-// INIT_LIST_HEAD$link2
+static inline void INIT_LIST_HEAD_link1(struct list_head *list_link1);
+// INIT_LIST_HEAD_link2
 // file ../dbus/list.h line 74
-static inline void INIT_LIST_HEAD$link2(struct list_head *list$link2);
+static inline void INIT_LIST_HEAD_link2(struct list_head *list_link2);
 // XML_ExpatVersion
 // file /usr/include/expat.h line 994
 const char * XML_ExpatVersion(void);
@@ -393,27 +393,27 @@ extern signed int * __errno_location(void);
 // __list_add
 // file ../dbus/list.h line 86
 static inline void __list_add(struct list_head *new, struct list_head *prev, struct list_head *next);
-// __list_add$link1
+// __list_add_link1
 // file ../dbus/list.h line 86
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1);
-// __list_add$link2
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1);
+// __list_add_link2
 // file ../dbus/list.h line 86
-static inline void __list_add$link2(struct list_head *new$link2, struct list_head *prev$link2, struct list_head *next$link2);
-// __list_add$link3
+static inline void __list_add_link2(struct list_head *new_link2, struct list_head *prev_link2, struct list_head *next_link2);
+// __list_add_link3
 // file ../dbus/list.h line 86
-static inline void __list_add$link3(struct list_head *new$link3, struct list_head *prev$link3, struct list_head *next$link3);
+static inline void __list_add_link3(struct list_head *new_link3, struct list_head *prev_link3, struct list_head *next_link3);
 // __list_del
 // file ../dbus/list.h line 188
 static inline void __list_del(struct list_head *prev, struct list_head *next);
-// __list_del$link1
+// __list_del_link1
 // file ../dbus/list.h line 188
-static inline void __list_del$link1(struct list_head *prev$link1, struct list_head *next$link1);
-// __list_del$link2
+static inline void __list_del_link1(struct list_head *prev_link1, struct list_head *next_link1);
+// __list_del_link2
 // file ../dbus/list.h line 188
-static inline void __list_del$link2(struct list_head *prev$link2, struct list_head *next$link2);
-// __list_del$link3
+static inline void __list_del_link2(struct list_head *prev_link2, struct list_head *next_link2);
+// __list_del_link3
 // file ../dbus/list.h line 188
-static inline void __list_del$link3(struct list_head *prev$link3, struct list_head *next$link3);
+static inline void __list_del_link3(struct list_head *prev_link3, struct list_head *next_link3);
 // add_controlapi_param
 // file ../dbus/params.c line 133
 static _Bool add_controlapi_param(struct list_head *parent_list_ptr, struct jackctl_parameter *param);
@@ -461,7 +461,7 @@ static struct jack_parameter_container * create_container(struct list_head *pare
 extern char * ctime_r(const signed long int *, char *);
 // dbus_bus_get
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 40
-struct DBusConnection * dbus_bus_get(enum anonymous$7, struct DBusError *);
+struct DBusConnection * dbus_bus_get(enum anonymous_7, struct DBusError *);
 // dbus_bus_release_name
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 67
 signed int dbus_bus_release_name(struct DBusConnection *, const char *, struct DBusError *);
@@ -470,7 +470,7 @@ signed int dbus_bus_release_name(struct DBusConnection *, const char *, struct D
 signed int dbus_bus_request_name(struct DBusConnection *, const char *, unsigned int, struct DBusError *);
 // dbus_connection_add_filter
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 295
-unsigned int dbus_connection_add_filter(struct DBusConnection *, enum anonymous$8 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *, void (*)(void *));
+unsigned int dbus_connection_add_filter(struct DBusConnection *, enum anonymous_8 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *, void (*)(void *));
 // dbus_connection_flush
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 200
 void dbus_connection_flush(struct DBusConnection *);
@@ -485,7 +485,7 @@ struct DBusConnection * dbus_connection_ref(struct DBusConnection *);
 unsigned int dbus_connection_register_object_path(struct DBusConnection *, const char *, const struct DBusObjectPathVTable *, void *);
 // dbus_connection_remove_filter
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 300
-void dbus_connection_remove_filter(struct DBusConnection *, enum anonymous$8 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *);
+void dbus_connection_remove_filter(struct DBusConnection *, enum anonymous_8 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *);
 // dbus_connection_send
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 224
 unsigned int dbus_connection_send(struct DBusConnection *, struct DBusMessage *, unsigned int *);
@@ -605,7 +605,7 @@ void dbus_set_error(struct DBusError *, const char *, const char *, ...);
 unsigned int dbus_threads_init_default(void);
 // dladdr
 // file /usr/include/dlfcn.h line 98
-extern signed int dladdr(const void *, struct anonymous$22 *);
+extern signed int dladdr(const void *, struct anonymous_22 *);
 // engine_driver_parameter_get_default_value
 // file ../dbus/params.c line 426
 union jackctl_parameter_value engine_driver_parameter_get_default_value(void *obj);
@@ -635,7 +635,7 @@ extern signed int fclose(struct _IO_FILE *);
 extern signed int fflush(struct _IO_FILE *);
 // filter_handler
 // file ../dbus/reserve.c line 294
-static enum anonymous$8 filter_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata);
+static enum anonymous_8 filter_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata);
 // find_container
 // file ../dbus/params.c line 255
 static struct jack_parameter_container * find_container(struct jack_parameter_container *parent_ptr, const char * const *address, signed int max_depth);
@@ -788,7 +788,7 @@ static void jack_controller_dbus_session_notify(struct jack_dbus_method_call *ca
 static void jack_controller_dbus_set_parameter_value(struct jack_dbus_method_call *call);
 // jack_controller_dbus_to_jack_variant
 // file ../dbus/controller_iface_configure.c line 88
-static _Bool jack_controller_dbus_to_jack_variant(signed int type, const union anonymous$5 *dbusv_ptr, union jackctl_parameter_value *value_ptr);
+static _Bool jack_controller_dbus_to_jack_variant(signed int type, const union anonymous_5 *dbusv_ptr, union jackctl_parameter_value *value_ptr);
 // jack_controller_deserialize_parameter_value
 // file ../dbus/xml.c line 34
 void jack_controller_deserialize_parameter_value(struct jack_controller *controller_ptr, const char * const *address, const char *option_value);
@@ -809,7 +809,7 @@ static signed int jack_controller_graph_order_callback(void *context);
 void jack_controller_introspect_init();
 // jack_controller_jack_to_dbus_variant
 // file ../dbus/controller_iface_configure.c line 57
-static _Bool jack_controller_jack_to_dbus_variant(enum anonymous$1 type, union jackctl_parameter_value *value_ptr, union anonymous$5 *dbusv_ptr);
+static _Bool jack_controller_jack_to_dbus_variant(enum anonymous_1 type, union jackctl_parameter_value *value_ptr, union anonymous_5 *dbusv_ptr);
 // jack_controller_load_internal
 // file ../dbus/controller.c line 729
 _Bool jack_controller_load_internal(struct jack_controller *controller_ptr, const char *internal_name);
@@ -986,10 +986,10 @@ void jack_dbus_construct_method_return_array_of_strings(struct jack_dbus_method_
 void jack_dbus_construct_method_return_empty(struct jack_dbus_method_call *call);
 // jack_dbus_construct_method_return_parameter
 // file ../dbus/controller_iface_configure.c line 133
-static void jack_dbus_construct_method_return_parameter(struct jack_dbus_method_call *call, unsigned int is_set, signed int type, const char *signature, union anonymous$5 default_value, union anonymous$5 value);
+static void jack_dbus_construct_method_return_parameter(struct jack_dbus_method_call *call, unsigned int is_set, signed int type, const char *signature, union anonymous_5 default_value, union anonymous_5 value);
 // jack_dbus_construct_method_return_single
 // file ../dbus/jackdbus.c line 468
-void jack_dbus_construct_method_return_single(struct jack_dbus_method_call *call, signed int type, union anonymous$5 arg);
+void jack_dbus_construct_method_return_single(struct jack_dbus_method_call *call, signed int type, union anonymous_5 arg);
 // jack_dbus_error
 // file ../dbus/jackdbus.c line 791
 void jack_dbus_error(void *dbus_call_context_ptr, const char *error_name, const char *format, ...);
@@ -1001,10 +1001,10 @@ void jack_dbus_error_callback(const char *msg);
 _Bool jack_dbus_get_method_args(struct jack_dbus_method_call *call, signed int type, ...);
 // jack_dbus_get_method_args_string_and_variant
 // file ../dbus/jackdbus.c line 316
-_Bool jack_dbus_get_method_args_string_and_variant(struct jack_dbus_method_call *call, const char **arg1, union anonymous$5 *arg2, signed int *type_ptr);
+_Bool jack_dbus_get_method_args_string_and_variant(struct jack_dbus_method_call *call, const char **arg1, union anonymous_5 *arg2, signed int *type_ptr);
 // jack_dbus_get_method_args_two_strings_and_variant
 // file ../dbus/jackdbus.c line 356
-_Bool jack_dbus_get_method_args_two_strings_and_variant(struct jack_dbus_method_call *call, const char **arg1, const char **arg2, union anonymous$5 *arg3, signed int *type_ptr);
+_Bool jack_dbus_get_method_args_two_strings_and_variant(struct jack_dbus_method_call *call, const char **arg1, const char **arg2, union anonymous_5 *arg3, signed int *type_ptr);
 // jack_dbus_info_callback
 // file ../dbus/jackdbus.c line 605
 void jack_dbus_info_callback(const char *msg);
@@ -1013,10 +1013,10 @@ void jack_dbus_info_callback(const char *msg);
 static _Bool jack_dbus_log_open(void);
 // jack_dbus_message_append_variant
 // file ../dbus/jackdbus.c line 406
-_Bool jack_dbus_message_append_variant(struct DBusMessageIter *iter, signed int type, const char *signature, union anonymous$5 *arg);
+_Bool jack_dbus_message_append_variant(struct DBusMessageIter *iter, signed int type, const char *signature, union anonymous_5 *arg);
 // jack_dbus_message_handler
 // file ../dbus/jackdbus.c line 148
-enum anonymous$8 jack_dbus_message_handler(struct DBusConnection *connection, struct DBusMessage *message, void *data);
+enum anonymous_8 jack_dbus_message_handler(struct DBusConnection *connection, struct DBusMessage *message, void *data);
 // jack_dbus_message_handler_unregister
 // file ../dbus/jackdbus.c line 242
 void jack_dbus_message_handler_unregister(struct DBusConnection *connection, void *data);
@@ -1041,9 +1041,9 @@ signed int jack_disconnect(struct _jack_client *, const char *, const char *);
 // jack_error
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/control.h line 597
 void jack_error(const char *, ...);
-// jack_error_callback$object
+// jack_error_callback_object
 //
-void jack_error_callback$object(const char *);
+void jack_error_callback_object(const char *);
 // jack_get_buffer_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/jack.h line 683
 unsigned int jack_get_buffer_size(struct _jack_client *);
@@ -1098,15 +1098,15 @@ _Bool jack_params_is_leaf_container(struct _jack_params *params, const char * co
 // jack_params_iterate_container
 // file ../dbus/params.c line 599
 _Bool jack_params_iterate_container(struct _jack_params *params, const char * const *address, _Bool (*callback)(void *, const char *), void *context);
-// jack_params_iterate_container::callback$object
+// jack_params_iterate_container::callback_object
 //
-_Bool callback$object(void *, const char *);
+_Bool callback_object(void *, const char *);
 // jack_params_iterate_params
 // file ../dbus/params.c line 637
 _Bool jack_params_iterate_params(struct _jack_params *params, const char * const *address, _Bool (*callback)(void *, struct jack_parameter *), void *context);
-// jack_params_iterate_params::callback$object
+// jack_params_iterate_params::callback_object
 //
-_Bool callback$object(void *, struct jack_parameter *);
+_Bool callback_object(void *, struct jack_parameter *);
 // jack_params_set_driver
 // file ../dbus/params.h line 87
 _Bool jack_params_set_driver(struct _jack_params *params, const char *name);
@@ -1130,52 +1130,52 @@ unsigned int jack_port_type_id(const struct _jack_port *);
 signed int jack_reserve_client_name(struct _jack_client *, const char *, const char *);
 // jack_ringbuffer_create
 // file ../common/ringbuffer.c line 68
-struct anonymous$0 * jack_ringbuffer_create(unsigned long int sz);
+struct anonymous_0 * jack_ringbuffer_create(unsigned long int sz);
 // jack_ringbuffer_free
 // file ../common/ringbuffer.c line 96
-void jack_ringbuffer_free(struct anonymous$0 *rb);
+void jack_ringbuffer_free(struct anonymous_0 *rb);
 // jack_ringbuffer_get_read_vector
 // file ../common/ringbuffer.c line 326
-void jack_ringbuffer_get_read_vector(const struct anonymous$0 *rb, struct anonymous *vec);
+void jack_ringbuffer_get_read_vector(const struct anonymous_0 *rb, struct anonymous *vec);
 // jack_ringbuffer_get_write_vector
 // file ../common/ringbuffer.c line 370
-void jack_ringbuffer_get_write_vector(const struct anonymous$0 *rb, struct anonymous *vec);
+void jack_ringbuffer_get_write_vector(const struct anonymous_0 *rb, struct anonymous *vec);
 // jack_ringbuffer_mlock
 // file ../common/ringbuffer.c line 110
-signed int jack_ringbuffer_mlock(struct anonymous$0 *rb);
+signed int jack_ringbuffer_mlock(struct anonymous_0 *rb);
 // jack_ringbuffer_peek
 // file ../common/ringbuffer.c line 228
-unsigned long int jack_ringbuffer_peek(struct anonymous$0 *rb, char *dest, unsigned long int cnt);
+unsigned long int jack_ringbuffer_peek(struct anonymous_0 *rb, char *dest, unsigned long int cnt);
 // jack_ringbuffer_read
 // file ../common/ringbuffer.c line 189
-unsigned long int jack_ringbuffer_read(struct anonymous$0 *rb, char *dest, unsigned long int cnt);
+unsigned long int jack_ringbuffer_read(struct anonymous_0 *rb, char *dest, unsigned long int cnt);
 // jack_ringbuffer_read_advance
 // file ../common/ringbuffer.c line 305
-void jack_ringbuffer_read_advance(struct anonymous$0 *rb, unsigned long int cnt);
+void jack_ringbuffer_read_advance(struct anonymous_0 *rb, unsigned long int cnt);
 // jack_ringbuffer_read_space
 // file ../common/ringbuffer.c line 150
-unsigned long int jack_ringbuffer_read_space(const struct anonymous$0 *rb);
+unsigned long int jack_ringbuffer_read_space(const struct anonymous_0 *rb);
 // jack_ringbuffer_reset
 // file ../common/ringbuffer.c line 125
-void jack_ringbuffer_reset(struct anonymous$0 *rb);
+void jack_ringbuffer_reset(struct anonymous_0 *rb);
 // jack_ringbuffer_reset_size
 // file ../common/ringbuffer.c line 136
-void jack_ringbuffer_reset_size(struct anonymous$0 *rb, unsigned long int sz);
+void jack_ringbuffer_reset_size(struct anonymous_0 *rb, unsigned long int sz);
 // jack_ringbuffer_write
 // file ../common/ringbuffer.c line 268
-unsigned long int jack_ringbuffer_write(struct anonymous$0 *rb, const char *src, unsigned long int cnt);
+unsigned long int jack_ringbuffer_write(struct anonymous_0 *rb, const char *src, unsigned long int cnt);
 // jack_ringbuffer_write_advance
 // file ../common/ringbuffer.c line 314
-void jack_ringbuffer_write_advance(struct anonymous$0 *rb, unsigned long int cnt);
+void jack_ringbuffer_write_advance(struct anonymous_0 *rb, unsigned long int cnt);
 // jack_ringbuffer_write_space
 // file ../common/ringbuffer.c line 169
-unsigned long int jack_ringbuffer_write_space(const struct anonymous$0 *rb);
+unsigned long int jack_ringbuffer_write_space(const struct anonymous_0 *rb);
 // jack_session_commands_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/session.h line 242
-void jack_session_commands_free(struct anonymous$9 *);
+void jack_session_commands_free(struct anonymous_9 *);
 // jack_session_notify
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/session.h line 233
-struct anonymous$9 * jack_session_notify(struct _jack_client *, const char *, enum JackSessionEventType, const char *);
+struct anonymous_9 * jack_session_notify(struct _jack_client *, const char *, enum JackSessionEventType, const char *);
 // jack_set_buffer_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/jack.h line 666
 signed int jack_set_buffer_size(struct _jack_client *, unsigned int);
@@ -1247,7 +1247,7 @@ void jackctl_parameter_get_range_constraint(struct jackctl_parameter *, union ja
 const char * jackctl_parameter_get_short_description(struct jackctl_parameter *);
 // jackctl_parameter_get_type
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/control.h line 421
-enum anonymous$1 jackctl_parameter_get_type(struct jackctl_parameter *);
+enum anonymous_1 jackctl_parameter_get_type(struct jackctl_parameter *);
 // jackctl_parameter_get_value
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/control.h line 467
 union jackctl_parameter_value jackctl_parameter_get_value(struct jackctl_parameter *);
@@ -1317,39 +1317,39 @@ static inline void list_add(struct list_head *new, struct list_head *head);
 // list_add_tail
 // file ../dbus/list.h line 117
 static inline void list_add_tail(struct list_head *new, struct list_head *head);
-// list_add_tail$link1
+// list_add_tail_link1
 // file ../dbus/list.h line 117
-static inline void list_add_tail$link1(struct list_head *new$link1, struct list_head *head$link1);
-// list_add_tail$link2
+static inline void list_add_tail_link1(struct list_head *new_link1, struct list_head *head_link1);
+// list_add_tail_link2
 // file ../dbus/list.h line 117
-static inline void list_add_tail$link2(struct list_head *new$link2, struct list_head *head$link2);
-// list_add_tail$link3
+static inline void list_add_tail_link2(struct list_head *new_link2, struct list_head *head_link2);
+// list_add_tail_link3
 // file ../dbus/list.h line 117
-static inline void list_add_tail$link3(struct list_head *new$link3, struct list_head *head$link3);
+static inline void list_add_tail_link3(struct list_head *new_link3, struct list_head *head_link3);
 // list_del
 // file ../dbus/list.h line 200
 static inline void list_del(struct list_head *entry);
-// list_del$link1
+// list_del_link1
 // file ../dbus/list.h line 200
-static inline void list_del$link1(struct list_head *entry$link1);
-// list_del$link2
+static inline void list_del_link1(struct list_head *entry_link1);
+// list_del_link2
 // file ../dbus/list.h line 200
-static inline void list_del$link2(struct list_head *entry$link2);
-// list_del$link3
+static inline void list_del_link2(struct list_head *entry_link2);
+// list_del_link3
 // file ../dbus/list.h line 200
-static inline void list_del$link3(struct list_head *entry$link3);
+static inline void list_del_link3(struct list_head *entry_link3);
 // list_empty
 // file ../dbus/list.h line 292
 static inline signed int list_empty(struct list_head *head);
-// list_empty$link1
+// list_empty_link1
 // file ../dbus/list.h line 292
-static inline signed int list_empty$link1(struct list_head *head$link1);
-// list_empty$link2
+static inline signed int list_empty_link1(struct list_head *head_link1);
+// list_empty_link2
 // file ../dbus/list.h line 292
-static inline signed int list_empty$link2(struct list_head *head$link2);
-// list_empty$link3
+static inline signed int list_empty_link2(struct list_head *head_link2);
+// list_empty_link3
 // file ../dbus/list.h line 292
-static inline signed int list_empty$link3(struct list_head *head$link3);
+static inline signed int list_empty_link3(struct list_head *head_link3);
 // log_init
 // file ../dbus/jackdbus.c line 755
 static _Bool log_init(void);
@@ -1370,7 +1370,7 @@ extern void * memset(void *, signed int, unsigned long int);
 extern signed int mkdir(const char *, unsigned int);
 // object_handler
 // file ../dbus/reserve.c line 118
-static enum anonymous$8 object_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata);
+static enum anonymous_8 object_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata);
 // on_device_acquire
 // file ../dbus/controller.c line 375
 static _Bool on_device_acquire(const char *device_name);
@@ -1406,28 +1406,28 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$23 *);
+extern signed int pthread_mutex_destroy(union anonymous_23 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$23 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_23 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$23 *);
+extern signed int pthread_mutex_lock(union anonymous_23 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$23 *);
+extern signed int pthread_mutex_unlock(union anonymous_23 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$6 *);
+extern signed int pthread_mutexattr_init(union anonymous_6 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$6 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_6 *, signed int);
 // rd_acquire
 // file ../dbus/reserve.h line 57
 signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, const char *device_name, const char *application_name, signed int priority, signed int (*request_cb)(struct rd_device *, signed int), struct DBusError *error);
-// rd_acquire::request_cb$object
+// rd_acquire::request_cb_object
 //
-signed int request_cb$object(struct rd_device *, signed int);
+signed int request_cb_object(struct rd_device *, signed int);
 // rd_get_userdata
 // file ../dbus/reserve.c line 670
 void * rd_get_userdata(struct rd_device *d);
@@ -1445,7 +1445,7 @@ void rd_set_userdata(struct rd_device *d, void *userdata);
 extern signed long int read(signed int, void *, unsigned long int);
 // send_session_notify_reply
 // file ../dbus/controller_iface_session_manager.c line 97
-static void send_session_notify_reply(struct jack_session_pending_command *pending_cmd_ptr, struct anonymous$9 *commands);
+static void send_session_notify_reply(struct jack_session_pending_command *pending_cmd_ptr, struct anonymous_9 *commands);
 // serialize_modules
 // file ../dbus/xml_write_raw.c line 87
 _Bool serialize_modules(void *context, const char *name);
@@ -1457,7 +1457,7 @@ signed int setup_sigsegv();
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // signal_segv
 // file ../dbus/sigsegv.c line 59
-static void signal_segv(signed int signum, struct anonymous$12 *info, void *ptr);
+static void signal_segv(signed int signum, struct anonymous_12 *info, void *ptr);
 // slave_drivers_parameter_get_default_value
 // file ../dbus/controller.c line 512
 static union jackctl_parameter_value slave_drivers_parameter_get_default_value(void *obj);
@@ -1479,9 +1479,9 @@ extern signed int sprintf(char *, const char *, ...);
 // start_detached_thread
 // file ../dbus/controller_iface_session_manager.c line 62
 static _Bool start_detached_thread(void * (*start_routine)(void *), void *arg);
-// start_detached_thread::start_routine$object
+// start_detached_thread::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 208
 extern signed int stat(const char *, struct stat *);
@@ -1548,7 +1548,7 @@ struct anonymous
   unsigned long int len;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // buf
   char *buf;
@@ -1564,7 +1564,7 @@ struct anonymous$0
   signed int mlocked;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // _call_addr
   void *_call_addr;
@@ -1574,7 +1574,7 @@ struct anonymous$20
   unsigned int _arch;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_addr
   void *si_addr;
@@ -1582,7 +1582,7 @@ struct anonymous$18
   signed short int si_addr_lsb;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // dli_fname
   const char *dli_fname;
@@ -1594,7 +1594,7 @@ struct anonymous$22
   void *dli_saddr;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // uuid
   const char *uuid;
@@ -1606,13 +1606,13 @@ struct anonymous$9
   enum JackSessionFlags flags;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // gregs
   signed long long int gregs[23l];
@@ -1622,7 +1622,7 @@ struct anonymous$10
   unsigned long long int __reserved1[8l];
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_pid
   signed int si_pid;
@@ -1630,7 +1630,7 @@ struct anonymous$14
   unsigned int si_uid;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_pid
   signed int si_pid;
@@ -1652,7 +1652,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -1662,7 +1662,7 @@ struct anonymous$16
   union sigval si_sigval;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_tid
   signed int si_tid;
@@ -1672,7 +1672,7 @@ struct anonymous$15
   union sigval si_sigval;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_band
   signed long int si_band;
@@ -1680,27 +1680,27 @@ struct anonymous$19
   signed int si_fd;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$14 _kill;
+  struct anonymous_14 _kill;
   // _timer
-  struct anonymous$15 _timer;
+  struct anonymous_15 _timer;
   // _rt
-  struct anonymous$16 _rt;
+  struct anonymous_16 _rt;
   // _sigchld
-  struct anonymous$17 _sigchld;
+  struct anonymous_17 _sigchld;
   // _sigfault
-  struct anonymous$18 _sigfault;
+  struct anonymous_18 _sigfault;
   // _sigpoll
-  struct anonymous$19 _sigpoll;
+  struct anonymous_19 _sigpoll;
   // _sigsys
-  struct anonymous$20 _sigsys;
+  struct anonymous_20 _sigsys;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_signo
   signed int si_signo;
@@ -1709,7 +1709,7 @@ struct anonymous$12
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$21 _sifields;
+  union anonymous_21 _sifields;
 };
 
 union jackctl_parameter_value
@@ -1726,7 +1726,7 @@ union jackctl_parameter_value
   _Bool b;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // min
   union jackctl_parameter_value min;
@@ -1734,7 +1734,7 @@ struct anonymous$2
   union jackctl_parameter_value max;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // count
   unsigned int count;
@@ -1742,15 +1742,15 @@ struct anonymous$3
   struct jack_parameter_enum *possible_values_array;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$12 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_12 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -1758,12 +1758,12 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // range
-  struct anonymous$2 range;
+  struct anonymous_2 range;
   // enumeration
-  struct anonymous$3 enumeration;
+  struct anonymous_3 enumeration;
 };
 
 struct __pthread_internal_list
@@ -1794,7 +1794,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1804,7 +1804,7 @@ union anonymous$23
   signed long int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // byte
   unsigned char byte;
@@ -1885,7 +1885,7 @@ struct DBusObjectPathVTable
   // unregister_function
   void (*unregister_function)(struct DBusConnection *, void *);
   // message_function
-  enum anonymous$8 (*message_function)(struct DBusConnection *, struct DBusMessage *, void *);
+  enum anonymous_8 (*message_function)(struct DBusConnection *, struct DBusMessage *, void *);
   // dbus_internal_pad1
   void (*dbus_internal_pad1)(void *);
   // dbus_internal_pad2
@@ -2057,7 +2057,7 @@ struct jack_parameter
   // ext
   _Bool ext;
   // type
-  enum anonymous$1 type;
+  enum anonymous_1 type;
   // name
   const char *name;
   // short_decr
@@ -2069,7 +2069,7 @@ struct jack_parameter
   // constraint_range
   _Bool constraint_range;
   // constraint
-  union anonymous$4 constraint;
+  union anonymous_4 constraint;
 };
 
 struct jack_dbus_object_descriptor
@@ -2105,7 +2105,7 @@ struct jack_controller
   // dbus_descriptor
   struct jack_dbus_object_descriptor dbus_descriptor;
   // lock
-  union anonymous$23 lock;
+  union anonymous_23 lock;
   // session_pending_commands
   struct list_head session_pending_commands;
   // pending_save
@@ -2127,7 +2127,7 @@ struct jack_graph
 struct jack_controller_patchbay
 {
   // lock
-  union anonymous$23 lock;
+  union anonymous_23 lock;
   // graph
   struct jack_graph graph;
   // next_client_id
@@ -2401,9 +2401,9 @@ struct save_context
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$13 __sigaction_handler;
+  union anonymous_13 __sigaction_handler;
   // sa_mask
-  struct anonymous$11 sa_mask;
+  struct anonymous_11 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2503,9 +2503,9 @@ struct ucontext
   // uc_stack
   struct sigaltstack uc_stack;
   // uc_mcontext
-  struct anonymous$10 uc_mcontext;
+  struct anonymous_10 uc_mcontext;
   // uc_sigmask
-  struct anonymous$11 uc_sigmask;
+  struct anonymous_11 uc_sigmask;
   // __fpregs_mem
   struct _libc_fpstate __fpregs_mem;
 };
@@ -2768,12 +2768,12 @@ struct jack_dbus_interface_descriptor g_jack_controller_iface_configure = { .nam
 // g_jack_controller_iface_control
 // file ../dbus/controller_iface_control.c line 436
 struct jack_dbus_interface_descriptor g_jack_controller_iface_control;
-// methods_dtor$link1
+// methods_dtor_link1
 // file ../dbus/controller_iface_control.c line 406
-static struct jack_dbus_interface_method_descriptor methods_dtor$link1[17l];
-// methods_dtor$link1
+static struct jack_dbus_interface_method_descriptor methods_dtor_link1[17l];
+// methods_dtor_link1
 // file ../dbus/controller_iface_control.c line 406
-static struct jack_dbus_interface_method_descriptor methods_dtor$link1[17l] = { { .name="IsStarted", .arguments=IsStarted_arguments, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 },
+static struct jack_dbus_interface_method_descriptor methods_dtor_link1[17l] = { { .name="IsStarted", .arguments=IsStarted_arguments, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 },
     { .name="StartServer", .arguments=StartServer_arguments, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 },
     { .name="StopServer", .arguments=StopServer_arguments, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 },
     { .name="SwitchMaster", .arguments=SwitchMaster_arguments, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 },
@@ -2800,31 +2800,31 @@ static struct jack_dbus_interface_signal_descriptor signals_dtor[3l] = { { .name
     { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_signal_argument_descriptor *)(void *)0 } };
 // g_jack_controller_iface_control
 // file ../dbus/controller_iface_control.c line 436
-struct jack_dbus_interface_descriptor g_jack_controller_iface_control = { .name="org.jackaudio.JackControl", .handler=jack_control_run_method, .methods=methods_dtor$link1,
+struct jack_dbus_interface_descriptor g_jack_controller_iface_control = { .name="org.jackaudio.JackControl", .handler=jack_control_run_method, .methods=methods_dtor_link1,
     .signals=signals_dtor };
 // g_jack_controller_iface_introspectable
 // file ../dbus/controller_iface_introspectable.c line 54
 struct jack_dbus_interface_descriptor g_jack_controller_iface_introspectable;
-// methods_dtor$link2
+// methods_dtor_link2
 // file ../dbus/controller_iface_introspectable.c line 50
-static struct jack_dbus_interface_method_descriptor methods_dtor$link2[2l];
-// methods_dtor$link2
+static struct jack_dbus_interface_method_descriptor methods_dtor_link2[2l];
+// methods_dtor_link2
 // file ../dbus/controller_iface_introspectable.c line 50
-static struct jack_dbus_interface_method_descriptor methods_dtor$link2[2l] = { { .name="Introspect", .arguments=Introspect_arguments, .handler=jack_controller_dbus_introspect },
+static struct jack_dbus_interface_method_descriptor methods_dtor_link2[2l] = { { .name="Introspect", .arguments=Introspect_arguments, .handler=jack_controller_dbus_introspect },
     { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_method_argument_descriptor *)(void *)0, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 } };
 // g_jack_controller_iface_introspectable
 // file ../dbus/controller_iface_introspectable.c line 54
 struct jack_dbus_interface_descriptor g_jack_controller_iface_introspectable = { .name="org.freedesktop.DBus.Introspectable", .handler=jack_dbus_run_method,
-    .methods=methods_dtor$link2, .signals=((struct jack_dbus_interface_signal_descriptor *)NULL) };
+    .methods=methods_dtor_link2, .signals=((struct jack_dbus_interface_signal_descriptor *)NULL) };
 // g_jack_controller_iface_patchbay
 // file ../dbus/controller_iface_patchbay.c line 1956
 struct jack_dbus_interface_descriptor g_jack_controller_iface_patchbay;
-// methods_dtor$link3
+// methods_dtor_link3
 // file ../dbus/controller_iface_patchbay.c line 1865
-static struct jack_dbus_interface_method_descriptor methods_dtor$link3[9l];
-// methods_dtor$link3
+static struct jack_dbus_interface_method_descriptor methods_dtor_link3[9l];
+// methods_dtor_link3
 // file ../dbus/controller_iface_patchbay.c line 1865
-static struct jack_dbus_interface_method_descriptor methods_dtor$link3[9l] = { { .name="GetAllPorts", .arguments=GetAllPorts_arguments, .handler=jack_controller_dbus_get_all_ports },
+static struct jack_dbus_interface_method_descriptor methods_dtor_link3[9l] = { { .name="GetAllPorts", .arguments=GetAllPorts_arguments, .handler=jack_controller_dbus_get_all_ports },
     { .name="GetGraph", .arguments=GetGraph_arguments, .handler=jack_controller_dbus_get_graph },
     { .name="ConnectPortsByName", .arguments=ConnectPortsByName_arguments, .handler=jack_controller_dbus_connect_ports_by_name },
     { .name="ConnectPortsByID", .arguments=ConnectPortsByID_arguments, .handler=jack_controller_dbus_connect_ports_by_id },
@@ -2834,12 +2834,12 @@ static struct jack_dbus_interface_method_descriptor methods_dtor$link3[9l] = { {
     .handler=jack_controller_dbus_disconnect_ports_by_connection_id },
     { .name="GetClientPID", .arguments=GetClientPID_arguments, .handler=jack_controller_dbus_get_client_pid },
     { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_method_argument_descriptor *)(void *)0, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 } };
-// signals_dtor$link1
+// signals_dtor_link1
 // file ../dbus/controller_iface_patchbay.c line 1945
-static struct jack_dbus_interface_signal_descriptor signals_dtor$link1[9l];
-// signals_dtor$link1
+static struct jack_dbus_interface_signal_descriptor signals_dtor_link1[9l];
+// signals_dtor_link1
 // file ../dbus/controller_iface_patchbay.c line 1945
-static struct jack_dbus_interface_signal_descriptor signals_dtor$link1[9l] = { { .name="GraphChanged", .arguments=GraphChanged_arguments },
+static struct jack_dbus_interface_signal_descriptor signals_dtor_link1[9l] = { { .name="GraphChanged", .arguments=GraphChanged_arguments },
     { .name="ClientAppeared", .arguments=ClientAppeared_arguments },
     { .name="ClientDisappeared", .arguments=ClientDisappeared_arguments },
     { .name="PortAppeared", .arguments=PortAppeared_arguments },
@@ -2850,43 +2850,43 @@ static struct jack_dbus_interface_signal_descriptor signals_dtor$link1[9l] = { {
     { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_signal_argument_descriptor *)(void *)0 } };
 // g_jack_controller_iface_patchbay
 // file ../dbus/controller_iface_patchbay.c line 1956
-struct jack_dbus_interface_descriptor g_jack_controller_iface_patchbay = { .name="org.jackaudio.JackPatchbay", .handler=jack_dbus_run_method, .methods=methods_dtor$link3,
-    .signals=signals_dtor$link1 };
+struct jack_dbus_interface_descriptor g_jack_controller_iface_patchbay = { .name="org.jackaudio.JackPatchbay", .handler=jack_dbus_run_method, .methods=methods_dtor_link3,
+    .signals=signals_dtor_link1 };
 // g_jack_controller_iface_session_manager
 // file ../dbus/controller_iface_session_manager.c line 569
 struct jack_dbus_interface_descriptor g_jack_controller_iface_session_manager;
-// methods_dtor$link4
+// methods_dtor_link4
 // file ../dbus/controller_iface_session_manager.c line 556
-static struct jack_dbus_interface_method_descriptor methods_dtor$link4[7l];
-// methods_dtor$link4
+static struct jack_dbus_interface_method_descriptor methods_dtor_link4[7l];
+// methods_dtor_link4
 // file ../dbus/controller_iface_session_manager.c line 556
-static struct jack_dbus_interface_method_descriptor methods_dtor$link4[7l] = { { .name="Notify", .arguments=Notify_arguments, .handler=jack_controller_dbus_session_notify },
+static struct jack_dbus_interface_method_descriptor methods_dtor_link4[7l] = { { .name="Notify", .arguments=Notify_arguments, .handler=jack_controller_dbus_session_notify },
     { .name="GetUuidForClientName", .arguments=GetUuidForClientName_arguments, .handler=jack_controller_dbus_get_uuid_for_client_name },
     { .name="GetClientNameByUuid", .arguments=GetClientNameByUuid_arguments, .handler=jack_controller_dbus_get_client_name_by_uuid },
     { .name="ReserveClientName", .arguments=ReserveClientName_arguments, .handler=jack_controller_dbus_reserve_client_name },
     { .name="HasSessionCallback", .arguments=HasSessionCallback_arguments, .handler=jack_controller_dbus_has_session_callback },
     { .name="GetState", .arguments=GetState_arguments, .handler=jack_controller_dbus_get_session_state },
     { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_method_argument_descriptor *)(void *)0, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 } };
-// signals_dtor$link2
+// signals_dtor_link2
 // file ../dbus/controller_iface_session_manager.c line 565
-static struct jack_dbus_interface_signal_descriptor signals_dtor$link2[2l];
-// signals_dtor$link2
+static struct jack_dbus_interface_signal_descriptor signals_dtor_link2[2l];
+// signals_dtor_link2
 // file ../dbus/controller_iface_session_manager.c line 565
-static struct jack_dbus_interface_signal_descriptor signals_dtor$link2[2l] = { { .name="StateChanged", .arguments=StateChanged_arguments },
+static struct jack_dbus_interface_signal_descriptor signals_dtor_link2[2l] = { { .name="StateChanged", .arguments=StateChanged_arguments },
     { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_signal_argument_descriptor *)(void *)0 } };
 // g_jack_controller_iface_session_manager
 // file ../dbus/controller_iface_session_manager.c line 569
-struct jack_dbus_interface_descriptor g_jack_controller_iface_session_manager = { .name="org.jackaudio.SessionManager", .handler=jack_dbus_run_method, .methods=methods_dtor$link4,
-    .signals=signals_dtor$link2 };
+struct jack_dbus_interface_descriptor g_jack_controller_iface_session_manager = { .name="org.jackaudio.SessionManager", .handler=jack_dbus_run_method, .methods=methods_dtor_link4,
+    .signals=signals_dtor_link2 };
 // g_jack_controller_iface_transport
 // file ../dbus/controller_iface_transport.c line 36
 struct jack_dbus_interface_descriptor g_jack_controller_iface_transport;
-// methods_dtor$link5
+// methods_dtor_link5
 // file ../dbus/controller_iface_transport.c line 33
-static struct jack_dbus_interface_method_descriptor methods_dtor$link5[1l] = { { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_method_argument_descriptor *)(void *)0, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 } };
+static struct jack_dbus_interface_method_descriptor methods_dtor_link5[1l] = { { .name=(const char *)(void *)0, .arguments=(struct jack_dbus_interface_method_argument_descriptor *)(void *)0, .handler=(void (*)(struct jack_dbus_method_call *))(void *)0 } };
 // g_jack_controller_iface_transport
 // file ../dbus/controller_iface_transport.c line 36
-struct jack_dbus_interface_descriptor g_jack_controller_iface_transport = { .name="org.jackaudio.JackTransport", .handler=jack_dbus_run_method, .methods=methods_dtor$link5,
+struct jack_dbus_interface_descriptor g_jack_controller_iface_transport = { .name="org.jackaudio.JackTransport", .handler=jack_dbus_run_method, .methods=methods_dtor_link5,
     .signals=((struct jack_dbus_interface_signal_descriptor *)NULL) };
 // g_jackcontroller_interfaces
 // file ../dbus/controller.c line 38
@@ -2950,20 +2950,20 @@ static inline void INIT_LIST_HEAD(struct list_head *list)
   list->prev = list;
 }
 
-// INIT_LIST_HEAD$link1
+// INIT_LIST_HEAD_link1
 // file ../dbus/list.h line 74
-static inline void INIT_LIST_HEAD$link1(struct list_head *list$link1)
+static inline void INIT_LIST_HEAD_link1(struct list_head *list_link1)
 {
-  list$link1->next = list$link1;
-  list$link1->prev = list$link1;
+  list_link1->next = list_link1;
+  list_link1->prev = list_link1;
 }
 
-// INIT_LIST_HEAD$link2
+// INIT_LIST_HEAD_link2
 // file ../dbus/list.h line 74
-static inline void INIT_LIST_HEAD$link2(struct list_head *list$link2)
+static inline void INIT_LIST_HEAD_link2(struct list_head *list_link2)
 {
-  list$link2->next = list$link2;
-  list$link2->prev = list$link2;
+  list_link2->next = list_link2;
+  list_link2->prev = list_link2;
 }
 
 // __list_add
@@ -2976,34 +2976,34 @@ static inline void __list_add(struct list_head *new, struct list_head *prev, str
   prev->next = new;
 }
 
-// __list_add$link1
+// __list_add_link1
 // file ../dbus/list.h line 86
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1)
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1)
 {
-  next$link1->prev = new$link1;
-  new$link1->next = next$link1;
-  new$link1->prev = prev$link1;
-  prev$link1->next = new$link1;
+  next_link1->prev = new_link1;
+  new_link1->next = next_link1;
+  new_link1->prev = prev_link1;
+  prev_link1->next = new_link1;
 }
 
-// __list_add$link2
+// __list_add_link2
 // file ../dbus/list.h line 86
-static inline void __list_add$link2(struct list_head *new$link2, struct list_head *prev$link2, struct list_head *next$link2)
+static inline void __list_add_link2(struct list_head *new_link2, struct list_head *prev_link2, struct list_head *next_link2)
 {
-  next$link2->prev = new$link2;
-  new$link2->next = next$link2;
-  new$link2->prev = prev$link2;
-  prev$link2->next = new$link2;
+  next_link2->prev = new_link2;
+  new_link2->next = next_link2;
+  new_link2->prev = prev_link2;
+  prev_link2->next = new_link2;
 }
 
-// __list_add$link3
+// __list_add_link3
 // file ../dbus/list.h line 86
-static inline void __list_add$link3(struct list_head *new$link3, struct list_head *prev$link3, struct list_head *next$link3)
+static inline void __list_add_link3(struct list_head *new_link3, struct list_head *prev_link3, struct list_head *next_link3)
 {
-  next$link3->prev = new$link3;
-  new$link3->next = next$link3;
-  new$link3->prev = prev$link3;
-  prev$link3->next = new$link3;
+  next_link3->prev = new_link3;
+  new_link3->next = next_link3;
+  new_link3->prev = prev_link3;
+  prev_link3->next = new_link3;
 }
 
 // __list_del
@@ -3014,28 +3014,28 @@ static inline void __list_del(struct list_head *prev, struct list_head *next)
   prev->next = next;
 }
 
-// __list_del$link1
+// __list_del_link1
 // file ../dbus/list.h line 188
-static inline void __list_del$link1(struct list_head *prev$link1, struct list_head *next$link1)
+static inline void __list_del_link1(struct list_head *prev_link1, struct list_head *next_link1)
 {
-  next$link1->prev = prev$link1;
-  prev$link1->next = next$link1;
+  next_link1->prev = prev_link1;
+  prev_link1->next = next_link1;
 }
 
-// __list_del$link2
+// __list_del_link2
 // file ../dbus/list.h line 188
-static inline void __list_del$link2(struct list_head *prev$link2, struct list_head *next$link2)
+static inline void __list_del_link2(struct list_head *prev_link2, struct list_head *next_link2)
 {
-  next$link2->prev = prev$link2;
-  prev$link2->next = next$link2;
+  next_link2->prev = prev_link2;
+  prev_link2->next = next_link2;
 }
 
-// __list_del$link3
+// __list_del_link3
 // file ../dbus/list.h line 188
-static inline void __list_del$link3(struct list_head *prev$link3, struct list_head *next$link3)
+static inline void __list_del_link3(struct list_head *prev_link3, struct list_head *next_link3)
 {
-  next$link3->prev = prev$link3;
-  prev$link3->next = next$link3;
+  next_link3->prev = prev_link3;
+  prev_link3->next = next_link3;
 }
 
 // add_controlapi_param
@@ -3044,13 +3044,13 @@ static _Bool add_controlapi_param(struct list_head *parent_list_ptr, struct jack
 {
   struct jack_parameter *param_ptr;
   unsigned int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct jack_parameter) /*360ul*/ );
-  param_ptr = (struct jack_parameter *)return_value_malloc$1;
-  _Bool return_value_jackctl_parameter_has_range_constraint$4;
-  _Bool return_value_jackctl_parameter_has_enum_constraint$3;
-  _Bool return_value_jackctl_parameter_constraint_is_strict$5;
-  _Bool return_value_jackctl_parameter_constraint_is_fake_value$6;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct jack_parameter) /*360ul*/ );
+  param_ptr = (struct jack_parameter *)return_value_malloc_1;
+  _Bool return_value_jackctl_parameter_has_range_constraint_4;
+  _Bool return_value_jackctl_parameter_has_enum_constraint_3;
+  _Bool return_value_jackctl_parameter_constraint_is_strict_5;
+  _Bool return_value_jackctl_parameter_constraint_is_fake_value_6;
   if(param_ptr == ((struct jack_parameter *)NULL))
     jack_error("Ran out of memory trying to allocate struct jack_parameter");
 
@@ -3067,8 +3067,8 @@ static _Bool add_controlapi_param(struct list_head *parent_list_ptr, struct jack
     param_ptr->name=jackctl_parameter_get_name(param);
     param_ptr->short_decr=jackctl_parameter_get_short_description(param);
     param_ptr->long_descr=jackctl_parameter_get_long_description(param);
-    return_value_jackctl_parameter_has_range_constraint$4=jackctl_parameter_has_range_constraint(param);
-    if(!(return_value_jackctl_parameter_has_range_constraint$4 == (_Bool)0))
+    return_value_jackctl_parameter_has_range_constraint_4=jackctl_parameter_has_range_constraint(param);
+    if(!(return_value_jackctl_parameter_has_range_constraint_4 == (_Bool)0))
     {
       param_ptr->constraint_flags = (unsigned int)1;
       param_ptr->constraint_range = (_Bool)1;
@@ -3077,15 +3077,15 @@ static _Bool add_controlapi_param(struct list_head *parent_list_ptr, struct jack
 
     else
     {
-      return_value_jackctl_parameter_has_enum_constraint$3=jackctl_parameter_has_enum_constraint(param);
-      if(!(return_value_jackctl_parameter_has_enum_constraint$3 == (_Bool)0))
+      return_value_jackctl_parameter_has_enum_constraint_3=jackctl_parameter_has_enum_constraint(param);
+      if(!(return_value_jackctl_parameter_has_enum_constraint_3 == (_Bool)0))
       {
         param_ptr->constraint_flags = (unsigned int)1;
         param_ptr->constraint_range = (_Bool)0;
         param_ptr->constraint.enumeration.count=jackctl_parameter_get_enum_constraints_count(param);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(sizeof(struct jack_parameter_enum) /*136ul*/  * (unsigned long int)param_ptr->constraint.enumeration.count);
-        param_ptr->constraint.enumeration.possible_values_array = (struct jack_parameter_enum *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(sizeof(struct jack_parameter_enum) /*136ul*/  * (unsigned long int)param_ptr->constraint.enumeration.count);
+        param_ptr->constraint.enumeration.possible_values_array = (struct jack_parameter_enum *)return_value_malloc_2;
         if(param_ptr->constraint.enumeration.possible_values_array == ((struct jack_parameter_enum *)NULL))
           goto free;
 
@@ -3103,18 +3103,18 @@ static _Bool add_controlapi_param(struct list_head *parent_list_ptr, struct jack
         goto add;
       }
     }
-    return_value_jackctl_parameter_constraint_is_strict$5=jackctl_parameter_constraint_is_strict(param);
-    if(!(return_value_jackctl_parameter_constraint_is_strict$5 == (_Bool)0))
+    return_value_jackctl_parameter_constraint_is_strict_5=jackctl_parameter_constraint_is_strict(param);
+    if(!(return_value_jackctl_parameter_constraint_is_strict_5 == (_Bool)0))
       param_ptr->constraint_flags = param_ptr->constraint_flags | (unsigned int)2;
 
-    return_value_jackctl_parameter_constraint_is_fake_value$6=jackctl_parameter_constraint_is_fake_value(param);
-    if(!(return_value_jackctl_parameter_constraint_is_fake_value$6 == (_Bool)0))
+    return_value_jackctl_parameter_constraint_is_fake_value_6=jackctl_parameter_constraint_is_fake_value(param);
+    if(!(return_value_jackctl_parameter_constraint_is_fake_value_6 == (_Bool)0))
       param_ptr->constraint_flags = param_ptr->constraint_flags | (unsigned int)4;
 
 
   add:
     ;
-    list_add_tail$link1(&param_ptr->siblings, parent_list_ptr);
+    list_add_tail_link1(&param_ptr->siblings, parent_list_ptr);
     return (_Bool)1;
 
   free:
@@ -3147,23 +3147,23 @@ static unsigned int add_variant(struct DBusMessage *m, signed int type, const vo
   t[(signed long int)0] = (char)type;
   t[(signed long int)1] = (char)0;
   dbus_message_iter_init_append(m, &iter);
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container(&iter, (signed int)118, t, &sub);
-  if(return_value_dbus_message_iter_open_container$1 == 0u)
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container(&iter, (signed int)118, t, &sub);
+  if(return_value_dbus_message_iter_open_container_1 == 0u)
     return (unsigned int)0;
 
   else
   {
-    unsigned int return_value_dbus_message_iter_append_basic$2;
-    return_value_dbus_message_iter_append_basic$2=dbus_message_iter_append_basic(&sub, type, data);
-    if(return_value_dbus_message_iter_append_basic$2 == 0u)
+    unsigned int return_value_dbus_message_iter_append_basic_2;
+    return_value_dbus_message_iter_append_basic_2=dbus_message_iter_append_basic(&sub, type, data);
+    if(return_value_dbus_message_iter_append_basic_2 == 0u)
       return (unsigned int)0;
 
     else
     {
-      unsigned int return_value_dbus_message_iter_close_container$3;
-      return_value_dbus_message_iter_close_container$3=dbus_message_iter_close_container(&iter, &sub);
-      if(return_value_dbus_message_iter_close_container$3 == 0u)
+      unsigned int return_value_dbus_message_iter_close_container_3;
+      return_value_dbus_message_iter_close_container_3=dbus_message_iter_close_container(&iter, &sub);
+      if(return_value_dbus_message_iter_close_container_3 == 0u)
         return (unsigned int)0;
 
       else
@@ -3176,9 +3176,9 @@ static unsigned int add_variant(struct DBusMessage *m, signed int type, const vo
 // file ../dbus/controller_iface_configure.c line 287
 static _Bool append_node_name(void *context, const char *name)
 {
-  unsigned int return_value_dbus_message_iter_append_basic$1;
-  return_value_dbus_message_iter_append_basic$1=dbus_message_iter_append_basic((struct DBusMessageIter *)context, (signed int)115, (const void *)&name);
-  return (_Bool)return_value_dbus_message_iter_append_basic$1;
+  unsigned int return_value_dbus_message_iter_append_basic_1;
+  return_value_dbus_message_iter_append_basic_1=dbus_message_iter_append_basic((struct DBusMessageIter *)context, (signed int)115, (const void *)&name);
+  return (_Bool)return_value_dbus_message_iter_append_basic_1;
 }
 
 // append_parameter
@@ -3187,30 +3187,30 @@ static _Bool append_parameter(void *context, struct jack_parameter *param_ptr)
 {
   struct DBusMessageIter struct_iter;
   unsigned char type;
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container((struct DBusMessageIter *)context, (signed int)114, (const char *)(void *)0, &struct_iter);
-  unsigned int return_value_dbus_message_iter_append_basic$2;
-  unsigned int return_value_dbus_message_iter_append_basic$3;
-  unsigned int return_value_dbus_message_iter_append_basic$4;
-  unsigned int return_value_dbus_message_iter_append_basic$5;
-  unsigned int return_value_dbus_message_iter_close_container$6;
-  if(!(return_value_dbus_message_iter_open_container$1 == 0u))
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container((struct DBusMessageIter *)context, (signed int)114, (const char *)(void *)0, &struct_iter);
+  unsigned int return_value_dbus_message_iter_append_basic_2;
+  unsigned int return_value_dbus_message_iter_append_basic_3;
+  unsigned int return_value_dbus_message_iter_append_basic_4;
+  unsigned int return_value_dbus_message_iter_append_basic_5;
+  unsigned int return_value_dbus_message_iter_close_container_6;
+  if(!(return_value_dbus_message_iter_open_container_1 == 0u))
   {
     type = jack_controller_dbus_types[(signed long int)param_ptr->type];
-    return_value_dbus_message_iter_append_basic$2=dbus_message_iter_append_basic(&struct_iter, (signed int)121, (const void *)&type);
-    if(!(return_value_dbus_message_iter_append_basic$2 == 0u))
+    return_value_dbus_message_iter_append_basic_2=dbus_message_iter_append_basic(&struct_iter, (signed int)121, (const void *)&type);
+    if(!(return_value_dbus_message_iter_append_basic_2 == 0u))
     {
-      return_value_dbus_message_iter_append_basic$3=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&param_ptr->name);
-      if(!(return_value_dbus_message_iter_append_basic$3 == 0u))
+      return_value_dbus_message_iter_append_basic_3=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&param_ptr->name);
+      if(!(return_value_dbus_message_iter_append_basic_3 == 0u))
       {
-        return_value_dbus_message_iter_append_basic$4=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&param_ptr->short_decr);
-        if(!(return_value_dbus_message_iter_append_basic$4 == 0u))
+        return_value_dbus_message_iter_append_basic_4=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&param_ptr->short_decr);
+        if(!(return_value_dbus_message_iter_append_basic_4 == 0u))
         {
-          return_value_dbus_message_iter_append_basic$5=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&param_ptr->long_descr);
-          if(!(return_value_dbus_message_iter_append_basic$5 == 0u))
+          return_value_dbus_message_iter_append_basic_5=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&param_ptr->long_descr);
+          if(!(return_value_dbus_message_iter_append_basic_5 == 0u))
           {
-            return_value_dbus_message_iter_close_container$6=dbus_message_iter_close_container((struct DBusMessageIter *)context, &struct_iter);
-            if(return_value_dbus_message_iter_close_container$6 == 0u)
+            return_value_dbus_message_iter_close_container_6=dbus_message_iter_close_container((struct DBusMessageIter *)context, &struct_iter);
+            if(return_value_dbus_message_iter_close_container_6 == 0u)
               goto fail;
 
             return (_Bool)1;
@@ -3238,45 +3238,45 @@ fail:
 // file ../dbus/params.c line 96
 union jackctl_parameter_value controlapi_parameter_get_default_value(void *obj)
 {
-  union jackctl_parameter_value return_value_jackctl_parameter_get_default_value$1;
-  return_value_jackctl_parameter_get_default_value$1=jackctl_parameter_get_default_value((struct jackctl_parameter *)obj);
-  return return_value_jackctl_parameter_get_default_value$1;
+  union jackctl_parameter_value return_value_jackctl_parameter_get_default_value_1;
+  return_value_jackctl_parameter_get_default_value_1=jackctl_parameter_get_default_value((struct jackctl_parameter *)obj);
+  return return_value_jackctl_parameter_get_default_value_1;
 }
 
 // controlapi_parameter_get_value
 // file ../dbus/params.c line 86
 union jackctl_parameter_value controlapi_parameter_get_value(void *obj)
 {
-  union jackctl_parameter_value return_value_jackctl_parameter_get_value$1;
-  return_value_jackctl_parameter_get_value$1=jackctl_parameter_get_value((struct jackctl_parameter *)obj);
-  return return_value_jackctl_parameter_get_value$1;
+  union jackctl_parameter_value return_value_jackctl_parameter_get_value_1;
+  return_value_jackctl_parameter_get_value_1=jackctl_parameter_get_value((struct jackctl_parameter *)obj);
+  return return_value_jackctl_parameter_get_value_1;
 }
 
 // controlapi_parameter_is_set
 // file ../dbus/params.c line 76
 static _Bool controlapi_parameter_is_set(void *obj)
 {
-  _Bool return_value_jackctl_parameter_is_set$1;
-  return_value_jackctl_parameter_is_set$1=jackctl_parameter_is_set((struct jackctl_parameter *)obj);
-  return return_value_jackctl_parameter_is_set$1;
+  _Bool return_value_jackctl_parameter_is_set_1;
+  return_value_jackctl_parameter_is_set_1=jackctl_parameter_is_set((struct jackctl_parameter *)obj);
+  return return_value_jackctl_parameter_is_set_1;
 }
 
 // controlapi_parameter_reset
 // file ../dbus/params.c line 81
 static _Bool controlapi_parameter_reset(void *obj)
 {
-  _Bool return_value_jackctl_parameter_reset$1;
-  return_value_jackctl_parameter_reset$1=jackctl_parameter_reset((struct jackctl_parameter *)obj);
-  return return_value_jackctl_parameter_reset$1;
+  _Bool return_value_jackctl_parameter_reset_1;
+  return_value_jackctl_parameter_reset_1=jackctl_parameter_reset((struct jackctl_parameter *)obj);
+  return return_value_jackctl_parameter_reset_1;
 }
 
 // controlapi_parameter_set_value
 // file ../dbus/params.c line 91
 _Bool controlapi_parameter_set_value(void *obj, union jackctl_parameter_value *value_ptr)
 {
-  _Bool return_value_jackctl_parameter_set_value$1;
-  return_value_jackctl_parameter_set_value$1=jackctl_parameter_set_value((struct jackctl_parameter *)obj, value_ptr);
-  return return_value_jackctl_parameter_set_value$1;
+  _Bool return_value_jackctl_parameter_set_value_1;
+  return_value_jackctl_parameter_set_value_1=jackctl_parameter_set_value((struct jackctl_parameter *)obj, value_ptr);
+  return return_value_jackctl_parameter_set_value_1;
 }
 
 // create_container
@@ -3284,9 +3284,9 @@ _Bool controlapi_parameter_set_value(void *obj, union jackctl_parameter_value *v
 static struct jack_parameter_container * create_container(struct list_head *parent_list_ptr, const char *name)
 {
   struct jack_parameter_container *container_ptr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct jack_parameter_container) /*64ul*/ );
-  container_ptr = (struct jack_parameter_container *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct jack_parameter_container) /*64ul*/ );
+  container_ptr = (struct jack_parameter_container *)return_value_malloc_1;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
     jack_error("Ran out of memory trying to allocate struct jack_parameter_container");
 
@@ -3301,8 +3301,8 @@ static struct jack_parameter_container * create_container(struct list_head *pare
       container_ptr->leaf = (_Bool)0;
       container_ptr->symlink = (struct jack_parameter_container *)(void *)0;
       container_ptr->obj = (void *)0;
-      INIT_LIST_HEAD$link1(&container_ptr->children);
-      list_add_tail$link1(&container_ptr->siblings, parent_list_ptr);
+      INIT_LIST_HEAD_link1(&container_ptr->children);
+      list_add_tail_link1(&container_ptr->siblings, parent_list_ptr);
       return container_ptr;
     }
 
@@ -3345,9 +3345,9 @@ static _Bool engine_driver_parameter_is_set(void *obj)
 // file ../dbus/params.c line 400
 static _Bool engine_driver_parameter_reset(void *obj)
 {
-  _Bool return_value_jack_params_set_driver$1;
-  return_value_jack_params_set_driver$1=jack_params_set_driver((struct _jack_params *)obj, "dummy");
-  if(return_value_jack_params_set_driver$1 == (_Bool)0)
+  _Bool return_value_jack_params_set_driver_1;
+  return_value_jack_params_set_driver_1=jack_params_set_driver((struct _jack_params *)obj, "dummy");
+  if(return_value_jack_params_set_driver_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -3361,9 +3361,9 @@ static _Bool engine_driver_parameter_reset(void *obj)
 // file ../dbus/params.c line 421
 _Bool engine_driver_parameter_set_value(void *obj, union jackctl_parameter_value *value_ptr)
 {
-  _Bool return_value_jack_params_set_driver$1;
-  return_value_jack_params_set_driver$1=jack_params_set_driver((struct _jack_params *)obj, value_ptr->str);
-  return return_value_jack_params_set_driver$1;
+  _Bool return_value_jack_params_set_driver_1;
+  return_value_jack_params_set_driver_1=jack_params_set_driver((struct _jack_params *)obj, value_ptr->str);
+  return return_value_jack_params_set_driver_1;
 }
 
 // ensure_dir_exist
@@ -3371,26 +3371,26 @@ _Bool engine_driver_parameter_set_value(void *obj, union jackctl_parameter_value
 _Bool ensure_dir_exist(const char *dirname, signed int mode)
 {
   struct stat st;
-  signed int return_value_stat$9;
-  return_value_stat$9=stat(dirname, &st);
-  if(!(return_value_stat$9 == 0))
+  signed int return_value_stat_9;
+  return_value_stat_9=stat(dirname, &st);
+  if(!(return_value_stat_9 == 0))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    if(*return_value___errno_location$8 == 2)
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    if(*return_value___errno_location_8 == 2)
     {
       printf("Directory \"%s\" does not exist. Creating...\n", dirname);
-      signed int return_value_mkdir$4;
-      return_value_mkdir$4=mkdir(dirname, (unsigned int)mode);
-      if(!(return_value_mkdir$4 == 0))
+      signed int return_value_mkdir_4;
+      return_value_mkdir_4=mkdir(dirname, (unsigned int)mode);
+      if(!(return_value_mkdir_4 == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fprintf(stderr, "Failed to create \"%s\" directory: %d (%s)\n", dirname, *return_value___errno_location$1, return_value_strerror$3);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fprintf(stderr, "Failed to create \"%s\" directory: %d (%s)\n", dirname, *return_value___errno_location_1, return_value_strerror_3);
         return (_Bool)0;
       }
 
@@ -3398,13 +3398,13 @@ _Bool ensure_dir_exist(const char *dirname, signed int mode)
 
     else
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      fprintf(stderr, "Failed to stat \"%s\": %d (%s)\n", dirname, *return_value___errno_location$5, return_value_strerror$7);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      fprintf(stderr, "Failed to stat \"%s\": %d (%s)\n", dirname, *return_value___errno_location_5, return_value_strerror_7);
       return (_Bool)0;
     }
   }
@@ -3421,26 +3421,26 @@ _Bool ensure_dir_exist(const char *dirname, signed int mode)
 
 // filter_handler
 // file ../dbus/reserve.c line 294
-static enum anonymous$8 filter_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata)
+static enum anonymous_8 filter_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata)
 {
   struct DBusMessage *reply;
   struct rd_device *d;
   struct DBusError error;
   dbus_error_init(&error);
   d = (struct rd_device *)userdata;
-  unsigned int return_value_dbus_message_is_signal$3;
-  return_value_dbus_message_is_signal$3=dbus_message_is_signal(m, "org.freedesktop.DBus", "NameLost");
-  if(!(return_value_dbus_message_is_signal$3 == 0u))
+  unsigned int return_value_dbus_message_is_signal_3;
+  return_value_dbus_message_is_signal_3=dbus_message_is_signal(m, "org.freedesktop.DBus", "NameLost");
+  if(!(return_value_dbus_message_is_signal_3 == 0u))
   {
     const char *name;
-    unsigned int return_value_dbus_message_get_args$1;
-    return_value_dbus_message_get_args$1=dbus_message_get_args(m, &error, (signed int)115, &name, (signed int)0);
-    if(return_value_dbus_message_get_args$1 == 0u)
+    unsigned int return_value_dbus_message_get_args_1;
+    return_value_dbus_message_get_args_1=dbus_message_get_args(m, &error, (signed int)115, &name, (signed int)0);
+    if(return_value_dbus_message_get_args_1 == 0u)
       goto invalid;
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(name, d->service_name);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(name, d->service_name);
+    if(return_value_strcmp_2 == 0)
     {
       if(!(d->owning == 0))
       {
@@ -3455,28 +3455,28 @@ static enum anonymous$8 filter_handler(struct DBusConnection *c, struct DBusMess
           rd_release(d);
         }
 
-        return (enum anonymous$8)DBUS_HANDLER_RESULT_HANDLED;
+        return (enum anonymous_8)DBUS_HANDLER_RESULT_HANDLED;
       }
 
     }
 
   }
 
-  return (enum anonymous$8)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+  return (enum anonymous_8)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
 
 invalid:
   ;
   reply=dbus_message_new_error(m, "org.freedesktop.DBus.Error.InvalidArgs", "Invalid arguments");
-  unsigned int return_value_dbus_connection_send$4;
+  unsigned int return_value_dbus_connection_send_4;
   if(!(reply == ((struct DBusMessage *)NULL)))
   {
-    return_value_dbus_connection_send$4=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
-    if(return_value_dbus_connection_send$4 == 0u)
+    return_value_dbus_connection_send_4=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
+    if(return_value_dbus_connection_send_4 == 0u)
       goto oom;
 
     dbus_message_unref(reply);
     dbus_error_free(&error);
-    return (enum anonymous$8)DBUS_HANDLER_RESULT_HANDLED;
+    return (enum anonymous_8)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -3488,7 +3488,7 @@ invalid:
       dbus_message_unref(reply);
 
     dbus_error_free(&error);
-    return (enum anonymous$8)DBUS_HANDLER_RESULT_NEED_MEMORY;
+    return (enum anonymous_8)DBUS_HANDLER_RESULT_NEED_MEMORY;
   }
 }
 
@@ -3498,14 +3498,14 @@ static struct jack_parameter_container * find_container(struct jack_parameter_co
 {
   struct list_head *node_ptr;
   struct jack_parameter_container *container_ptr;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(max_depth == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *address == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  struct jack_parameter_container *tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = *address == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  struct jack_parameter_container *tmp_statement_expression_2;
+  if(tmp_if_expr_1)
     return parent_ptr;
 
   else
@@ -3525,18 +3525,18 @@ static struct jack_parameter_container * find_container(struct jack_parameter_co
           break;
 
         const struct list_head *__mptr = node_ptr;
-        tmp_statement_expression$2 = (struct jack_parameter_container *)((char *)__mptr - (signed long int)0ul);
-        container_ptr = tmp_statement_expression$2;
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(container_ptr->name, *address);
-        if(return_value_strcmp$4 == 0)
+        tmp_statement_expression_2 = (struct jack_parameter_container *)((char *)__mptr - (signed long int)0ul);
+        container_ptr = tmp_statement_expression_2;
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(container_ptr->name, *address);
+        if(return_value_strcmp_4 == 0)
         {
           if(!(container_ptr->symlink == ((struct jack_parameter_container *)NULL)))
             container_ptr = container_ptr->symlink;
 
-          struct jack_parameter_container *return_value_find_container$3;
-          return_value_find_container$3=find_container(container_ptr, address + (signed long int)1, max_depth);
-          return return_value_find_container$3;
+          struct jack_parameter_container *return_value_find_container_3;
+          return_value_find_container_3=find_container(container_ptr, address + (signed long int)1, max_depth);
+          return return_value_find_container_3;
         }
 
         node_ptr = node_ptr->next;
@@ -3551,18 +3551,18 @@ static struct jack_parameter_container * find_container(struct jack_parameter_co
 static void free_containers(struct list_head *parent_list_ptr)
 {
   struct jack_parameter_container *container_ptr;
-  signed int return_value_list_empty$1;
-  struct jack_parameter_container *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct jack_parameter_container *tmp_statement_expression_2;
   do
   {
-    return_value_list_empty$1=list_empty$link1(parent_list_ptr);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty_link1(parent_list_ptr);
+    if(!(return_value_list_empty_1 == 0))
       break;
 
     const struct list_head *__mptr = parent_list_ptr->next;
-    tmp_statement_expression$2 = (struct jack_parameter_container *)((char *)__mptr - (signed long int)0ul);
-    container_ptr = tmp_statement_expression$2;
-    list_del$link1(&container_ptr->siblings);
+    tmp_statement_expression_2 = (struct jack_parameter_container *)((char *)__mptr - (signed long int)0ul);
+    container_ptr = tmp_statement_expression_2;
+    list_del_link1(&container_ptr->siblings);
     if(!(container_ptr->leaf == (_Bool)0))
       free_params(&container_ptr->children);
 
@@ -3579,18 +3579,18 @@ static void free_containers(struct list_head *parent_list_ptr)
 static void free_params(struct list_head *parent_list_ptr)
 {
   struct jack_parameter *param_ptr;
-  signed int return_value_list_empty$1;
-  struct jack_parameter *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct jack_parameter *tmp_statement_expression_2;
   do
   {
-    return_value_list_empty$1=list_empty$link1(parent_list_ptr);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty_link1(parent_list_ptr);
+    if(!(return_value_list_empty_1 == 0))
       break;
 
     const struct list_head *__mptr = parent_list_ptr->next;
-    tmp_statement_expression$2 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
-    param_ptr = tmp_statement_expression$2;
-    list_del$link1(&param_ptr->siblings);
+    tmp_statement_expression_2 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
+    param_ptr = tmp_statement_expression_2;
+    list_del_link1(&param_ptr->siblings);
     if(param_ptr->ext == (_Bool)0)
     {
       if(!((1u & param_ptr->constraint_flags) == 0u))
@@ -3634,7 +3634,7 @@ static _Bool init_drivers(struct jack_params *params_ptr)
   const struct _JSList *list;
   struct jack_parameter_container *container_ptr;
   container_ptr=create_container(&params_ptr->root.children, "drivers");
-  struct _JSList *tmp_if_expr$4;
+  struct _JSList *tmp_if_expr_4;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
     return (_Bool)0;
 
@@ -3645,22 +3645,22 @@ static _Bool init_drivers(struct jack_params *params_ptr)
     list=jackctl_server_get_drivers_list(params_ptr->server);
     while(!(list == ((const struct _JSList *)NULL)))
     {
-      const char *return_value_jackctl_driver_get_name$1;
-      return_value_jackctl_driver_get_name$1=jackctl_driver_get_name((struct jackctl_driver *)list->data);
-      const struct _JSList *return_value_jackctl_driver_get_parameters$2;
-      return_value_jackctl_driver_get_parameters$2=jackctl_driver_get_parameters((struct jackctl_driver *)list->data);
-      _Bool return_value_init_leaf$3;
-      return_value_init_leaf$3=init_leaf(&container_ptr->children, return_value_jackctl_driver_get_name$1, return_value_jackctl_driver_get_parameters$2, list->data);
-      if(return_value_init_leaf$3 == (_Bool)0)
+      const char *return_value_jackctl_driver_get_name_1;
+      return_value_jackctl_driver_get_name_1=jackctl_driver_get_name((struct jackctl_driver *)list->data);
+      const struct _JSList *return_value_jackctl_driver_get_parameters_2;
+      return_value_jackctl_driver_get_parameters_2=jackctl_driver_get_parameters((struct jackctl_driver *)list->data);
+      _Bool return_value_init_leaf_3;
+      return_value_init_leaf_3=init_leaf(&container_ptr->children, return_value_jackctl_driver_get_name_1, return_value_jackctl_driver_get_parameters_2, list->data);
+      if(return_value_init_leaf_3 == (_Bool)0)
         return (_Bool)0;
 
       params_ptr->drivers_count = params_ptr->drivers_count + 1u;
       if(!(list == ((const struct _JSList *)NULL)))
-        tmp_if_expr$4 = ((struct _JSList *)list)->next;
+        tmp_if_expr_4 = ((struct _JSList *)list)->next;
 
       else
-        tmp_if_expr$4 = (struct _JSList *)(void *)0;
-      list = tmp_if_expr$4;
+        tmp_if_expr_4 = (struct _JSList *)(void *)0;
+      list = tmp_if_expr_4;
     }
     return (_Bool)1;
   }
@@ -3670,11 +3670,11 @@ static _Bool init_drivers(struct jack_params *params_ptr)
 // file ../dbus/params.c line 318
 static _Bool init_engine(struct jack_params *params_ptr)
 {
-  const struct _JSList *return_value_jackctl_server_get_parameters$1;
-  return_value_jackctl_server_get_parameters$1=jackctl_server_get_parameters(params_ptr->server);
-  _Bool return_value_init_leaf$2;
-  return_value_init_leaf$2=init_leaf(&params_ptr->root.children, "engine", return_value_jackctl_server_get_parameters$1, (void *)0);
-  return return_value_init_leaf$2;
+  const struct _JSList *return_value_jackctl_server_get_parameters_1;
+  return_value_jackctl_server_get_parameters_1=jackctl_server_get_parameters(params_ptr->server);
+  _Bool return_value_init_leaf_2;
+  return_value_init_leaf_2=init_leaf(&params_ptr->root.children, "engine", return_value_jackctl_server_get_parameters_1, (void *)0);
+  return return_value_init_leaf_2;
 }
 
 // init_engine_driver_parameter
@@ -3686,15 +3686,15 @@ static _Bool init_engine_driver_parameter(struct jack_params *params_ptr)
   struct jack_parameter_container *engine_ptr;
   struct jack_parameter_enum *possible_value;
   engine_ptr=find_container(&params_ptr->root, address, 3);
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   if(engine_ptr == ((struct jack_parameter_container *)NULL))
     return (_Bool)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct jack_parameter) /*360ul*/ );
-    param_ptr = (struct jack_parameter *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct jack_parameter) /*360ul*/ );
+    param_ptr = (struct jack_parameter *)return_value_malloc_1;
     if(param_ptr == ((struct jack_parameter *)NULL))
       jack_error("Ran out of memory trying to allocate struct jack_parameter");
 
@@ -3707,15 +3707,15 @@ static _Bool init_engine_driver_parameter(struct jack_params *params_ptr)
       param_ptr->vtable.get_value = engine_driver_parameter_get_value;
       param_ptr->vtable.set_value = engine_driver_parameter_set_value;
       param_ptr->vtable.get_default_value = engine_driver_parameter_get_default_value;
-      param_ptr->type = (enum anonymous$1)JackParamString;
+      param_ptr->type = (enum anonymous_1)JackParamString;
       param_ptr->name = "driver";
       param_ptr->short_decr = "Driver to use";
       param_ptr->long_descr = "";
       param_ptr->constraint_flags = (unsigned int)1 | (unsigned int)2 | (unsigned int)4;
       param_ptr->constraint_range = (_Bool)0;
       param_ptr->constraint.enumeration.count = params_ptr->drivers_count;
-      return_value_malloc$2=malloc(sizeof(struct jack_parameter_enum) /*136ul*/  * (unsigned long int)params_ptr->drivers_count);
-      param_ptr->constraint.enumeration.possible_values_array = (struct jack_parameter_enum *)return_value_malloc$2;
+      return_value_malloc_2=malloc(sizeof(struct jack_parameter_enum) /*136ul*/  * (unsigned long int)params_ptr->drivers_count);
+      param_ptr->constraint.enumeration.possible_values_array = (struct jack_parameter_enum *)return_value_malloc_2;
       if(!(param_ptr->constraint.enumeration.possible_values_array == ((struct jack_parameter_enum *)NULL)))
       {
         address[(signed long int)0] = "drivers";
@@ -3744,7 +3744,7 @@ static _Bool init_internals(struct jack_params *params_ptr)
   const struct _JSList *list;
   struct jack_parameter_container *container_ptr;
   container_ptr=create_container(&params_ptr->root.children, "internals");
-  struct _JSList *tmp_if_expr$4;
+  struct _JSList *tmp_if_expr_4;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
     return (_Bool)0;
 
@@ -3753,21 +3753,21 @@ static _Bool init_internals(struct jack_params *params_ptr)
     list=jackctl_server_get_internals_list(params_ptr->server);
     while(!(list == ((const struct _JSList *)NULL)))
     {
-      const char *return_value_jackctl_internal_get_name$1;
-      return_value_jackctl_internal_get_name$1=jackctl_internal_get_name((struct jackctl_internal *)list->data);
-      const struct _JSList *return_value_jackctl_internal_get_parameters$2;
-      return_value_jackctl_internal_get_parameters$2=jackctl_internal_get_parameters((struct jackctl_internal *)list->data);
-      _Bool return_value_init_leaf$3;
-      return_value_init_leaf$3=init_leaf(&container_ptr->children, return_value_jackctl_internal_get_name$1, return_value_jackctl_internal_get_parameters$2, (void *)0);
-      if(return_value_init_leaf$3 == (_Bool)0)
+      const char *return_value_jackctl_internal_get_name_1;
+      return_value_jackctl_internal_get_name_1=jackctl_internal_get_name((struct jackctl_internal *)list->data);
+      const struct _JSList *return_value_jackctl_internal_get_parameters_2;
+      return_value_jackctl_internal_get_parameters_2=jackctl_internal_get_parameters((struct jackctl_internal *)list->data);
+      _Bool return_value_init_leaf_3;
+      return_value_init_leaf_3=init_leaf(&container_ptr->children, return_value_jackctl_internal_get_name_1, return_value_jackctl_internal_get_parameters_2, (void *)0);
+      if(return_value_init_leaf_3 == (_Bool)0)
         return (_Bool)0;
 
       if(!(list == ((const struct _JSList *)NULL)))
-        tmp_if_expr$4 = ((struct _JSList *)list)->next;
+        tmp_if_expr_4 = ((struct _JSList *)list)->next;
 
       else
-        tmp_if_expr$4 = (struct _JSList *)(void *)0;
-      list = tmp_if_expr$4;
+        tmp_if_expr_4 = (struct _JSList *)(void *)0;
+      list = tmp_if_expr_4;
     }
     return (_Bool)1;
   }
@@ -3779,7 +3779,7 @@ static _Bool init_leaf(struct list_head *parent_list_ptr, const char *name, cons
 {
   struct jack_parameter_container *container_ptr;
   container_ptr=create_container(parent_list_ptr, name);
-  struct _JSList *tmp_if_expr$2;
+  struct _JSList *tmp_if_expr_2;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
     return (_Bool)0;
 
@@ -3789,17 +3789,17 @@ static _Bool init_leaf(struct list_head *parent_list_ptr, const char *name, cons
     container_ptr->obj = obj;
     while(!(params_list == ((const struct _JSList *)NULL)))
     {
-      _Bool return_value_add_controlapi_param$1;
-      return_value_add_controlapi_param$1=add_controlapi_param(&container_ptr->children, (struct jackctl_parameter *)params_list->data);
-      if(return_value_add_controlapi_param$1 == (_Bool)0)
+      _Bool return_value_add_controlapi_param_1;
+      return_value_add_controlapi_param_1=add_controlapi_param(&container_ptr->children, (struct jackctl_parameter *)params_list->data);
+      if(return_value_add_controlapi_param_1 == (_Bool)0)
         return (_Bool)0;
 
       if(!(params_list == ((const struct _JSList *)NULL)))
-        tmp_if_expr$2 = ((struct _JSList *)params_list)->next;
+        tmp_if_expr_2 = ((struct _JSList *)params_list)->next;
 
       else
-        tmp_if_expr$2 = (struct _JSList *)(void *)0;
-      params_list = tmp_if_expr$2;
+        tmp_if_expr_2 = (struct _JSList *)(void *)0;
+      params_list = tmp_if_expr_2;
     }
     return (_Bool)1;
   }
@@ -3811,33 +3811,33 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 {
   signed int ret;
   signed int type;
-  union anonymous$5 arg;
+  union anonymous_5 arg;
   type = (signed int)0;
-  signed int return_value_strcmp$33;
-  return_value_strcmp$33=strcmp(call->method_name, "Exit");
-  signed int return_value_strcmp$32;
-  signed int return_value_strcmp$31;
-  signed int return_value_strcmp$30;
-  signed int return_value_strcmp$29;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$26;
-  signed int return_value_strcmp$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  if(return_value_strcmp$33 == 0)
+  signed int return_value_strcmp_33;
+  return_value_strcmp_33=strcmp(call->method_name, "Exit");
+  signed int return_value_strcmp_32;
+  signed int return_value_strcmp_31;
+  signed int return_value_strcmp_30;
+  signed int return_value_strcmp_29;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_26;
+  signed int return_value_strcmp_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  if(return_value_strcmp_33 == 0)
     g_exit_command = 1;
 
   else
   {
-    return_value_strcmp$32=strcmp(call->method_name, "IsStarted");
-    if(return_value_strcmp$32 == 0)
+    return_value_strcmp_32=strcmp(call->method_name, "IsStarted");
+    if(return_value_strcmp_32 == 0)
     {
       type = (signed int)98;
       arg.boolean = (unsigned int)(((struct jack_controller *)call->context)->started != (_Bool)0 ? 1 : 0);
@@ -3845,17 +3845,17 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
     else
     {
-      return_value_strcmp$31=strcmp(call->method_name, "StartServer");
-      if(return_value_strcmp$31 == 0)
+      return_value_strcmp_31=strcmp(call->method_name, "StartServer");
+      if(return_value_strcmp_31 == 0)
       {
         if(!(((struct jack_controller *)call->context)->started == (_Bool)0))
           jack_info("Ignoring JACK server start request because server is already started.");
 
         else
         {
-          _Bool return_value_jack_controller_start_server$1;
-          return_value_jack_controller_start_server$1=jack_controller_start_server((struct jack_controller *)call->context, (void *)call);
-          if(return_value_jack_controller_start_server$1 == (_Bool)0)
+          _Bool return_value_jack_controller_start_server_1;
+          return_value_jack_controller_start_server_1=jack_controller_start_server((struct jack_controller *)call->context, (void *)call);
+          if(return_value_jack_controller_start_server_1 == (_Bool)0)
           {
             /* assertion call->reply != ((void *)0) */
             assert(call->reply != (struct DBusMessage *)(void *)0);
@@ -3868,17 +3868,17 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
       else
       {
-        return_value_strcmp$30=strcmp(call->method_name, "StopServer");
-        if(return_value_strcmp$30 == 0)
+        return_value_strcmp_30=strcmp(call->method_name, "StopServer");
+        if(return_value_strcmp_30 == 0)
         {
           if(((struct jack_controller *)call->context)->started == (_Bool)0)
             jack_info("Ignoring JACK server stop request because server is already stopped.");
 
           else
           {
-            _Bool return_value_jack_controller_stop_server$2;
-            return_value_jack_controller_stop_server$2=jack_controller_stop_server((struct jack_controller *)call->context, (void *)call);
-            if(return_value_jack_controller_stop_server$2 == (_Bool)0)
+            _Bool return_value_jack_controller_stop_server_2;
+            return_value_jack_controller_stop_server_2=jack_controller_stop_server((struct jack_controller *)call->context, (void *)call);
+            if(return_value_jack_controller_stop_server_2 == (_Bool)0)
             {
               /* assertion call->reply != ((void *)0) */
               assert(call->reply != (struct DBusMessage *)(void *)0);
@@ -3891,17 +3891,17 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
         else
         {
-          return_value_strcmp$29=strcmp(call->method_name, "SwitchMaster");
-          if(return_value_strcmp$29 == 0)
+          return_value_strcmp_29=strcmp(call->method_name, "SwitchMaster");
+          if(return_value_strcmp_29 == 0)
           {
             if(((struct jack_controller *)call->context)->started == (_Bool)0)
               goto not_started;
 
             else
             {
-              _Bool return_value_jack_controller_switch_master$3;
-              return_value_jack_controller_switch_master$3=jack_controller_switch_master((struct jack_controller *)call->context, (void *)call);
-              if(return_value_jack_controller_switch_master$3 == (_Bool)0)
+              _Bool return_value_jack_controller_switch_master_3;
+              return_value_jack_controller_switch_master_3=jack_controller_switch_master((struct jack_controller *)call->context, (void *)call);
+              if(return_value_jack_controller_switch_master_3 == (_Bool)0)
               {
                 /* assertion call->reply != ((void *)0) */
                 assert(call->reply != (struct DBusMessage *)(void *)0);
@@ -3913,22 +3913,22 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
           else
           {
-            return_value_strcmp$28=strcmp(call->method_name, "GetLoad");
-            if(return_value_strcmp$28 == 0)
+            return_value_strcmp_28=strcmp(call->method_name, "GetLoad");
+            if(return_value_strcmp_28 == 0)
             {
               if(((struct jack_controller *)call->context)->started == (_Bool)0)
                 goto not_started;
 
               type = (signed int)100;
-              float return_value_jack_cpu_load$4;
-              return_value_jack_cpu_load$4=jack_cpu_load(((struct jack_controller *)call->context)->client);
-              arg.doubl = (double)return_value_jack_cpu_load$4;
+              float return_value_jack_cpu_load_4;
+              return_value_jack_cpu_load_4=jack_cpu_load(((struct jack_controller *)call->context)->client);
+              arg.doubl = (double)return_value_jack_cpu_load_4;
             }
 
             else
             {
-              return_value_strcmp$27=strcmp(call->method_name, "GetXruns");
-              if(return_value_strcmp$27 == 0)
+              return_value_strcmp_27=strcmp(call->method_name, "GetXruns");
+              if(return_value_strcmp_27 == 0)
               {
                 type = (signed int)117;
                 arg.uint32 = ((struct jack_controller *)call->context)->xruns;
@@ -3936,8 +3936,8 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
               else
               {
-                return_value_strcmp$26=strcmp(call->method_name, "GetSampleRate");
-                if(return_value_strcmp$26 == 0)
+                return_value_strcmp_26=strcmp(call->method_name, "GetSampleRate");
+                if(return_value_strcmp_26 == 0)
                 {
                   if(((struct jack_controller *)call->context)->started == (_Bool)0)
                     goto not_started;
@@ -3948,24 +3948,24 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
                 else
                 {
-                  return_value_strcmp$25=strcmp(call->method_name, "GetLatency");
-                  if(return_value_strcmp$25 == 0)
+                  return_value_strcmp_25=strcmp(call->method_name, "GetLatency");
+                  if(return_value_strcmp_25 == 0)
                   {
                     if(((struct jack_controller *)call->context)->started == (_Bool)0)
                       goto not_started;
 
                     type = (signed int)100;
-                    unsigned int return_value_jack_get_buffer_size$5;
-                    return_value_jack_get_buffer_size$5=jack_get_buffer_size(((struct jack_controller *)call->context)->client);
-                    unsigned int return_value_jack_get_sample_rate$6;
-                    return_value_jack_get_sample_rate$6=jack_get_sample_rate(((struct jack_controller *)call->context)->client);
-                    arg.doubl = (double)(((float)return_value_jack_get_buffer_size$5 / (float)return_value_jack_get_sample_rate$6) * 1000.0f);
+                    unsigned int return_value_jack_get_buffer_size_5;
+                    return_value_jack_get_buffer_size_5=jack_get_buffer_size(((struct jack_controller *)call->context)->client);
+                    unsigned int return_value_jack_get_sample_rate_6;
+                    return_value_jack_get_sample_rate_6=jack_get_sample_rate(((struct jack_controller *)call->context)->client);
+                    arg.doubl = (double)(((float)return_value_jack_get_buffer_size_5 / (float)return_value_jack_get_sample_rate_6) * 1000.0f);
                   }
 
                   else
                   {
-                    return_value_strcmp$24=strcmp(call->method_name, "GetBufferSize");
-                    if(return_value_strcmp$24 == 0)
+                    return_value_strcmp_24=strcmp(call->method_name, "GetBufferSize");
+                    if(return_value_strcmp_24 == 0)
                     {
                       if(((struct jack_controller *)call->context)->started == (_Bool)0)
                         goto not_started;
@@ -3976,16 +3976,16 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
                     else
                     {
-                      return_value_strcmp$23=strcmp(call->method_name, "SetBufferSize");
-                      if(return_value_strcmp$23 == 0)
+                      return_value_strcmp_23=strcmp(call->method_name, "SetBufferSize");
+                      if(return_value_strcmp_23 == 0)
                       {
                         unsigned int buffer_size;
                         if(((struct jack_controller *)call->context)->started == (_Bool)0)
                           goto not_started;
 
-                        _Bool return_value_jack_dbus_get_method_args$7;
-                        return_value_jack_dbus_get_method_args$7=jack_dbus_get_method_args(call, (signed int)117, &buffer_size, (signed int)0);
-                        if(return_value_jack_dbus_get_method_args$7 == (_Bool)0)
+                        _Bool return_value_jack_dbus_get_method_args_7;
+                        return_value_jack_dbus_get_method_args_7=jack_dbus_get_method_args(call, (signed int)117, &buffer_size, (signed int)0);
+                        if(return_value_jack_dbus_get_method_args_7 == (_Bool)0)
                           goto exit;
 
                         ret=jack_set_buffer_size(((struct jack_controller *)call->context)->client, buffer_size);
@@ -3999,56 +3999,56 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
                       else
                       {
-                        return_value_strcmp$22=strcmp(call->method_name, "IsRealtime");
-                        if(return_value_strcmp$22 == 0)
+                        return_value_strcmp_22=strcmp(call->method_name, "IsRealtime");
+                        if(return_value_strcmp_22 == 0)
                         {
                           type = (signed int)98;
-                          signed int return_value_jack_is_realtime$8;
-                          return_value_jack_is_realtime$8=jack_is_realtime(((struct jack_controller *)call->context)->client);
-                          arg.boolean = (unsigned int)(return_value_jack_is_realtime$8 != 0 ? 1 : 0);
+                          signed int return_value_jack_is_realtime_8;
+                          return_value_jack_is_realtime_8=jack_is_realtime(((struct jack_controller *)call->context)->client);
+                          arg.boolean = (unsigned int)(return_value_jack_is_realtime_8 != 0 ? 1 : 0);
                         }
 
                         else
                         {
-                          return_value_strcmp$21=strcmp(call->method_name, "ResetXruns");
-                          if(return_value_strcmp$21 == 0)
+                          return_value_strcmp_21=strcmp(call->method_name, "ResetXruns");
+                          if(return_value_strcmp_21 == 0)
                             ((struct jack_controller *)call->context)->xruns = (unsigned int)0;
 
                           else
                           {
-                            return_value_strcmp$20=strcmp(call->method_name, "LoadInternal");
-                            if(return_value_strcmp$20 == 0)
+                            return_value_strcmp_20=strcmp(call->method_name, "LoadInternal");
+                            if(return_value_strcmp_20 == 0)
                             {
                               const char *internal_name;
-                              _Bool return_value_jack_dbus_get_method_args$9;
-                              return_value_jack_dbus_get_method_args$9=jack_dbus_get_method_args(call, (signed int)115, &internal_name, (signed int)0);
-                              if(return_value_jack_dbus_get_method_args$9 == (_Bool)0)
+                              _Bool return_value_jack_dbus_get_method_args_9;
+                              return_value_jack_dbus_get_method_args_9=jack_dbus_get_method_args(call, (signed int)115, &internal_name, (signed int)0);
+                              if(return_value_jack_dbus_get_method_args_9 == (_Bool)0)
                                 goto exit;
 
-                              _Bool return_value_jack_controller_load_internal$10;
-                              return_value_jack_controller_load_internal$10=jack_controller_load_internal((struct jack_controller *)call->context, internal_name);
-                              if(return_value_jack_controller_load_internal$10 == (_Bool)0)
+                              _Bool return_value_jack_controller_load_internal_10;
+                              return_value_jack_controller_load_internal_10=jack_controller_load_internal((struct jack_controller *)call->context, internal_name);
+                              if(return_value_jack_controller_load_internal_10 == (_Bool)0)
                                 jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "jack_controller_load_internal failed for internal (%s)", internal_name);
 
                             }
 
                             else
                             {
-                              return_value_strcmp$19=strcmp(call->method_name, "AddSlaveDriver");
-                              if(return_value_strcmp$19 == 0)
+                              return_value_strcmp_19=strcmp(call->method_name, "AddSlaveDriver");
+                              if(return_value_strcmp_19 == 0)
                               {
                                 const char *driver_name;
                                 if(((struct jack_controller *)call->context)->started != (_Bool)0)
                                   goto fail_started;
 
-                                _Bool return_value_jack_dbus_get_method_args$11;
-                                return_value_jack_dbus_get_method_args$11=jack_dbus_get_method_args(call, (signed int)115, &driver_name, (signed int)0);
-                                if(return_value_jack_dbus_get_method_args$11 == (_Bool)0)
+                                _Bool return_value_jack_dbus_get_method_args_11;
+                                return_value_jack_dbus_get_method_args_11=jack_dbus_get_method_args(call, (signed int)115, &driver_name, (signed int)0);
+                                if(return_value_jack_dbus_get_method_args_11 == (_Bool)0)
                                   goto exit;
 
-                                _Bool return_value_jack_controller_add_slave_driver$12;
-                                return_value_jack_controller_add_slave_driver$12=jack_controller_add_slave_driver((struct jack_controller *)call->context, driver_name);
-                                if(return_value_jack_controller_add_slave_driver$12 == (_Bool)0)
+                                _Bool return_value_jack_controller_add_slave_driver_12;
+                                return_value_jack_controller_add_slave_driver_12=jack_controller_add_slave_driver((struct jack_controller *)call->context, driver_name);
+                                if(return_value_jack_controller_add_slave_driver_12 == (_Bool)0)
                                   jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "jack_controller_add_slave_driver failed for driver (%s)", driver_name);
 
                                 else
@@ -4057,22 +4057,22 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
                               else
                               {
-                                return_value_strcmp$18=strcmp(call->method_name, "RemoveSlaveDriver");
-                                if(return_value_strcmp$18 == 0)
+                                return_value_strcmp_18=strcmp(call->method_name, "RemoveSlaveDriver");
+                                if(return_value_strcmp_18 == 0)
                                 {
-                                  const char *jack_control_run_method$$1$$16$$driver_name;
+                                  const char *jack_control_run_method__1__16__driver_name;
                                   if(((struct jack_controller *)call->context)->started != (_Bool)0)
                                     goto fail_started;
 
-                                  _Bool return_value_jack_dbus_get_method_args$13;
-                                  return_value_jack_dbus_get_method_args$13=jack_dbus_get_method_args(call, (signed int)115, &jack_control_run_method$$1$$16$$driver_name, (signed int)0);
-                                  if(return_value_jack_dbus_get_method_args$13 == (_Bool)0)
+                                  _Bool return_value_jack_dbus_get_method_args_13;
+                                  return_value_jack_dbus_get_method_args_13=jack_dbus_get_method_args(call, (signed int)115, &jack_control_run_method__1__16__driver_name, (signed int)0);
+                                  if(return_value_jack_dbus_get_method_args_13 == (_Bool)0)
                                     goto exit;
 
-                                  _Bool return_value_jack_controller_remove_slave_driver$14;
-                                  return_value_jack_controller_remove_slave_driver$14=jack_controller_remove_slave_driver((struct jack_controller *)call->context, jack_control_run_method$$1$$16$$driver_name);
-                                  if(return_value_jack_controller_remove_slave_driver$14 == (_Bool)0)
-                                    jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "jack_controller_remove_slave_driver failed for driver (%s)", jack_control_run_method$$1$$16$$driver_name);
+                                  _Bool return_value_jack_controller_remove_slave_driver_14;
+                                  return_value_jack_controller_remove_slave_driver_14=jack_controller_remove_slave_driver((struct jack_controller *)call->context, jack_control_run_method__1__16__driver_name);
+                                  if(return_value_jack_controller_remove_slave_driver_14 == (_Bool)0)
+                                    jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "jack_controller_remove_slave_driver failed for driver (%s)", jack_control_run_method__1__16__driver_name);
 
                                   else
                                     jack_controller_pending_save((struct jack_controller *)call->context);
@@ -4080,19 +4080,19 @@ static _Bool jack_control_run_method(struct jack_dbus_method_call *call, struct 
 
                                 else
                                 {
-                                  return_value_strcmp$17=strcmp(call->method_name, "UnloadInternal");
-                                  if(return_value_strcmp$17 == 0)
+                                  return_value_strcmp_17=strcmp(call->method_name, "UnloadInternal");
+                                  if(return_value_strcmp_17 == 0)
                                   {
-                                    const char *jack_control_run_method$$1$$17$$internal_name;
-                                    _Bool return_value_jack_dbus_get_method_args$15;
-                                    return_value_jack_dbus_get_method_args$15=jack_dbus_get_method_args(call, (signed int)115, &jack_control_run_method$$1$$17$$internal_name, (signed int)0);
-                                    if(return_value_jack_dbus_get_method_args$15 == (_Bool)0)
+                                    const char *jack_control_run_method__1__17__internal_name;
+                                    _Bool return_value_jack_dbus_get_method_args_15;
+                                    return_value_jack_dbus_get_method_args_15=jack_dbus_get_method_args(call, (signed int)115, &jack_control_run_method__1__17__internal_name, (signed int)0);
+                                    if(return_value_jack_dbus_get_method_args_15 == (_Bool)0)
                                       goto exit;
 
-                                    _Bool return_value_jack_controller_unload_internal$16;
-                                    return_value_jack_controller_unload_internal$16=jack_controller_unload_internal((struct jack_controller *)call->context, jack_control_run_method$$1$$17$$internal_name);
-                                    if(return_value_jack_controller_unload_internal$16 == (_Bool)0)
-                                      jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "jack_controller_unload_internal failed for internal (%s)", jack_control_run_method$$1$$17$$internal_name);
+                                    _Bool return_value_jack_controller_unload_internal_16;
+                                    return_value_jack_controller_unload_internal_16=jack_controller_unload_internal((struct jack_controller *)call->context, jack_control_run_method__1__17__internal_name);
+                                    if(return_value_jack_controller_unload_internal_16 == (_Bool)0)
+                                      jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "jack_controller_unload_internal failed for internal (%s)", jack_control_run_method__1__17__internal_name);
 
                                   }
 
@@ -4141,7 +4141,7 @@ _Bool jack_controller_add_slave_driver(struct jack_controller *controller_ptr, c
   unsigned long int len_new;
   len_old=strlen(controller_ptr->slave_drivers_vparam_value.str);
   len_new=strlen(driver_name);
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_3;
   if(2ul + len_new + len_old >= 129ul)
   {
     jack_error("No more space for slave drivers.");
@@ -4159,9 +4159,9 @@ _Bool jack_controller_add_slave_driver(struct jack_controller *controller_ptr, c
 
     else
     {
-      _Bool return_value_jack_controller_check_slave_driver$1;
-      return_value_jack_controller_check_slave_driver$1=jack_controller_check_slave_driver(controller_ptr, driver_name);
-      if(!(return_value_jack_controller_check_slave_driver$1 == (_Bool)0))
+      _Bool return_value_jack_controller_check_slave_driver_1;
+      return_value_jack_controller_check_slave_driver_1=jack_controller_check_slave_driver(controller_ptr, driver_name);
+      if(!(return_value_jack_controller_check_slave_driver_1 == (_Bool)0))
       {
         jack_info("Driver \"%s\" is already slave", driver_name);
         return (_Bool)1;
@@ -4169,9 +4169,9 @@ _Bool jack_controller_add_slave_driver(struct jack_controller *controller_ptr, c
 
       else
       {
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(sizeof(struct jack_controller_slave_driver) /*40ul*/ );
-        driver_ptr = (struct jack_controller_slave_driver *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(sizeof(struct jack_controller_slave_driver) /*40ul*/ );
+        driver_ptr = (struct jack_controller_slave_driver *)return_value_malloc_2;
         if(driver_ptr == ((struct jack_controller_slave_driver *)NULL))
         {
           jack_error("malloc() failed to allocate jack_controller_slave_driver struct");
@@ -4196,9 +4196,9 @@ _Bool jack_controller_add_slave_driver(struct jack_controller *controller_ptr, c
             list_add_tail(&driver_ptr->siblings, &controller_ptr->slave_drivers);
             if(!(len_old == 0ul))
             {
-              tmp_post$3 = len_old;
+              tmp_post_3 = len_old;
               len_old = len_old + 1ul;
-              controller_ptr->slave_drivers_vparam_value.str[(signed long int)tmp_post$3] = (char)44;
+              controller_ptr->slave_drivers_vparam_value.str[(signed long int)tmp_post_3] = (char)44;
             }
 
             memcpy((void *)(controller_ptr->slave_drivers_vparam_value.str + (signed long int)len_old), (const void *)driver_name, len_new + (unsigned long int)1);
@@ -4218,7 +4218,7 @@ static _Bool jack_controller_check_slave_driver(struct jack_controller *controll
   struct list_head *node_ptr;
   struct jack_controller_slave_driver *driver_ptr;
   node_ptr = (&controller_ptr->slave_drivers)->next;
-  struct jack_controller_slave_driver *tmp_statement_expression$1;
+  struct jack_controller_slave_driver *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -4226,11 +4226,11 @@ static _Bool jack_controller_check_slave_driver(struct jack_controller *controll
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
-    driver_ptr = tmp_statement_expression$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(name, driver_ptr->name);
-    if(return_value_strcmp$2 == 0)
+    tmp_statement_expression_1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
+    driver_ptr = tmp_statement_expression_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(name, driver_ptr->name);
+    if(return_value_strcmp_2 == 0)
       return (_Bool)1;
 
     node_ptr = node_ptr->next;
@@ -4246,9 +4246,9 @@ void jack_controller_client_registration_callback(const char *client_name, signe
   if(!(created == 0))
   {
     jack_log("client '%s' created", client_name);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(client_name);
-    jack_controller_patchbay_create_client((struct jack_controller_patchbay *)((struct jack_controller *)context)->patchbay_context, client_name, return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(client_name);
+    jack_controller_patchbay_create_client((struct jack_controller_patchbay *)((struct jack_controller *)context)->patchbay_context, client_name, return_value_strlen_1);
   }
 
   else
@@ -4290,21 +4290,21 @@ void * jack_controller_create(struct DBusConnection *connection)
   signed int error;
   struct jack_controller *controller_ptr;
   const char *address[3l];
-  struct DBusObjectPathVTable jack_controller_create$$1$$vtable = { .unregister_function=jack_dbus_message_handler_unregister, .message_function=jack_dbus_message_handler,
+  struct DBusObjectPathVTable jack_controller_create__1__vtable = { .unregister_function=jack_dbus_message_handler_unregister, .message_function=jack_dbus_message_handler,
     .dbus_internal_pad1=(void (*)(void *))(void *)0,
     .dbus_internal_pad2=((void (*)(void *))NULL),
     .dbus_internal_pad3=((void (*)(void *))NULL),
     .dbus_internal_pad4=((void (*)(void *))NULL) };
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct jack_controller) /*640ul*/ );
-  controller_ptr = (struct jack_controller *)return_value_malloc$1;
-  unsigned int return_value_dbus_connection_register_object_path$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct jack_controller) /*640ul*/ );
+  controller_ptr = (struct jack_controller *)return_value_malloc_1;
+  unsigned int return_value_dbus_connection_register_object_path_2;
   if(controller_ptr == ((struct jack_controller *)NULL))
     jack_error("Ran out of memory trying to allocate struct jack_controller");
 
   else
   {
-    error=pthread_mutex_init(&controller_ptr->lock, (const union anonymous$6 *)(void *)0);
+    error=pthread_mutex_init(&controller_ptr->lock, (const union anonymous_6 *)(void *)0);
     if(!(error == 0))
       jack_error("Failed to initialize mutex. error %d", error);
 
@@ -4335,7 +4335,7 @@ void * jack_controller_create(struct DBusConnection *connection)
           controller_ptr->slave_drivers_vparam.vtable.get_value = slave_drivers_parameter_get_value;
           controller_ptr->slave_drivers_vparam.vtable.set_value = slave_drivers_parameter_set_value;
           controller_ptr->slave_drivers_vparam.vtable.get_default_value = slave_drivers_parameter_get_default_value;
-          controller_ptr->slave_drivers_vparam.type = (enum anonymous$1)JackParamString;
+          controller_ptr->slave_drivers_vparam.type = (enum anonymous_1)JackParamString;
           controller_ptr->slave_drivers_vparam.name = "slave-drivers";
           controller_ptr->slave_drivers_vparam.short_decr = "Slave drivers to use";
           controller_ptr->slave_drivers_vparam.long_descr = "A comma separated list of slave drivers";
@@ -4345,8 +4345,8 @@ void * jack_controller_create(struct DBusConnection *connection)
           jack_params_add_parameter(controller_ptr->params, address, (_Bool)1, &controller_ptr->slave_drivers_vparam);
           controller_ptr->dbus_descriptor.context = (void *)controller_ptr;
           controller_ptr->dbus_descriptor.interfaces = g_jackcontroller_interfaces;
-          return_value_dbus_connection_register_object_path$2=dbus_connection_register_object_path(connection, "/org/jackaudio/Controller", &jack_controller_create$$1$$vtable, (void *)&controller_ptr->dbus_descriptor);
-          if(return_value_dbus_connection_register_object_path$2 == 0u)
+          return_value_dbus_connection_register_object_path_2=dbus_connection_register_object_path(connection, "/org/jackaudio/Controller", &jack_controller_create__1__vtable, (void *)&controller_ptr->dbus_descriptor);
+          if(return_value_dbus_connection_register_object_path_2 == 0u)
             jack_error("Ran out of memory trying to register D-Bus object path");
 
           else
@@ -4388,15 +4388,15 @@ static void jack_controller_dbus_connect_ports_by_id(struct jack_dbus_method_cal
   unsigned long int port2_id;
   struct jack_graph_port *port1_ptr;
   struct jack_graph_port *port2_ptr;
-  _Bool return_value_jack_controller_patchbay_connect$2;
+  _Bool return_value_jack_controller_patchbay_connect_2;
   if(((struct jack_controller *)call->context)->started == (_Bool)0)
     jack_dbus_error((void *)call, "org.jackaudio.Error.ServerNotRunning", "Can't execute this method with stopped JACK server");
 
   else
   {
-    _Bool return_value_jack_dbus_get_method_args$1;
-    return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)116, &port1_id, (signed int)116, &port2_id, (signed int)0);
-    if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+    _Bool return_value_jack_dbus_get_method_args_1;
+    return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)116, &port1_id, (signed int)116, &port2_id, (signed int)0);
+    if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
     {
       pthread_mutex_lock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
       port1_ptr=jack_controller_patchbay_find_port_by_id((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context, port1_id);
@@ -4411,8 +4411,8 @@ static void jack_controller_dbus_connect_ports_by_id(struct jack_dbus_method_cal
 
         else
         {
-          return_value_jack_controller_patchbay_connect$2=jack_controller_patchbay_connect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
-          if(!(return_value_jack_controller_patchbay_connect$2 == (_Bool)0))
+          return_value_jack_controller_patchbay_connect_2=jack_controller_patchbay_connect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
+          if(!(return_value_jack_controller_patchbay_connect_2 == (_Bool)0))
             jack_dbus_construct_method_return_empty(call);
 
         }
@@ -4436,15 +4436,15 @@ static void jack_controller_dbus_connect_ports_by_name(struct jack_dbus_method_c
   const char *port2_name;
   struct jack_graph_port *port1_ptr;
   struct jack_graph_port *port2_ptr;
-  _Bool return_value_jack_controller_patchbay_connect$2;
+  _Bool return_value_jack_controller_patchbay_connect_2;
   if(((struct jack_controller *)call->context)->started == (_Bool)0)
     jack_dbus_error((void *)call, "org.jackaudio.Error.ServerNotRunning", "Can't execute this method with stopped JACK server");
 
   else
   {
-    _Bool return_value_jack_dbus_get_method_args$1;
-    return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)115, &client1_name, (signed int)115, &port1_name, (signed int)115, &client2_name, (signed int)115, &port2_name, (signed int)0);
-    if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+    _Bool return_value_jack_dbus_get_method_args_1;
+    return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)115, &client1_name, (signed int)115, &port1_name, (signed int)115, &client2_name, (signed int)115, &port2_name, (signed int)0);
+    if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
     {
       pthread_mutex_lock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
       port1_ptr=jack_controller_patchbay_find_port_by_names((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context, client1_name, port1_name);
@@ -4459,8 +4459,8 @@ static void jack_controller_dbus_connect_ports_by_name(struct jack_dbus_method_c
 
         else
         {
-          return_value_jack_controller_patchbay_connect$2=jack_controller_patchbay_connect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
-          if(!(return_value_jack_controller_patchbay_connect$2 == (_Bool)0))
+          return_value_jack_controller_patchbay_connect_2=jack_controller_patchbay_connect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
+          if(!(return_value_jack_controller_patchbay_connect_2 == (_Bool)0))
             jack_dbus_construct_method_return_empty(call);
 
         }
@@ -4480,10 +4480,10 @@ static void jack_controller_dbus_disconnect_ports_by_connection_id(struct jack_d
 {
   unsigned long int connection_id;
   struct jack_graph_connection *connection_ptr;
-  _Bool return_value_jack_dbus_get_method_args$1;
-  return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)116, &connection_id, (signed int)0);
-  _Bool return_value_jack_controller_patchbay_disconnect$2;
-  if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+  _Bool return_value_jack_dbus_get_method_args_1;
+  return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)116, &connection_id, (signed int)0);
+  _Bool return_value_jack_controller_patchbay_disconnect_2;
+  if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
   {
     pthread_mutex_lock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
     connection_ptr=jack_controller_patchbay_find_connection_by_id((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context, connection_id);
@@ -4492,8 +4492,8 @@ static void jack_controller_dbus_disconnect_ports_by_connection_id(struct jack_d
 
     else
     {
-      return_value_jack_controller_patchbay_disconnect$2=jack_controller_patchbay_disconnect(call, (struct jack_controller *)call->context, connection_ptr->port1, connection_ptr->port2);
-      if(!(return_value_jack_controller_patchbay_disconnect$2 == (_Bool)0))
+      return_value_jack_controller_patchbay_disconnect_2=jack_controller_patchbay_disconnect(call, (struct jack_controller *)call->context, connection_ptr->port1, connection_ptr->port2);
+      if(!(return_value_jack_controller_patchbay_disconnect_2 == (_Bool)0))
         jack_dbus_construct_method_return_empty(call);
 
     }
@@ -4513,15 +4513,15 @@ static void jack_controller_dbus_disconnect_ports_by_id(struct jack_dbus_method_
   unsigned long int port2_id;
   struct jack_graph_port *port1_ptr;
   struct jack_graph_port *port2_ptr;
-  _Bool return_value_jack_controller_patchbay_disconnect$2;
+  _Bool return_value_jack_controller_patchbay_disconnect_2;
   if(((struct jack_controller *)call->context)->started == (_Bool)0)
     jack_dbus_error((void *)call, "org.jackaudio.Error.ServerNotRunning", "Can't execute this method with stopped JACK server");
 
   else
   {
-    _Bool return_value_jack_dbus_get_method_args$1;
-    return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)116, &port1_id, (signed int)116, &port2_id, (signed int)0);
-    if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+    _Bool return_value_jack_dbus_get_method_args_1;
+    return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)116, &port1_id, (signed int)116, &port2_id, (signed int)0);
+    if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
     {
       pthread_mutex_lock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
       port1_ptr=jack_controller_patchbay_find_port_by_id((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context, port1_id);
@@ -4536,8 +4536,8 @@ static void jack_controller_dbus_disconnect_ports_by_id(struct jack_dbus_method_
 
         else
         {
-          return_value_jack_controller_patchbay_disconnect$2=jack_controller_patchbay_disconnect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
-          if(!(return_value_jack_controller_patchbay_disconnect$2 == (_Bool)0))
+          return_value_jack_controller_patchbay_disconnect_2=jack_controller_patchbay_disconnect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
+          if(!(return_value_jack_controller_patchbay_disconnect_2 == (_Bool)0))
             jack_dbus_construct_method_return_empty(call);
 
         }
@@ -4561,15 +4561,15 @@ static void jack_controller_dbus_disconnect_ports_by_name(struct jack_dbus_metho
   const char *port2_name;
   struct jack_graph_port *port1_ptr;
   struct jack_graph_port *port2_ptr;
-  _Bool return_value_jack_controller_patchbay_disconnect$2;
+  _Bool return_value_jack_controller_patchbay_disconnect_2;
   if(((struct jack_controller *)call->context)->started == (_Bool)0)
     jack_dbus_error((void *)call, "org.jackaudio.Error.ServerNotRunning", "Can't execute this method with stopped JACK server");
 
   else
   {
-    _Bool return_value_jack_dbus_get_method_args$1;
-    return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)115, &client1_name, (signed int)115, &port1_name, (signed int)115, &client2_name, (signed int)115, &port2_name, (signed int)0);
-    if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+    _Bool return_value_jack_dbus_get_method_args_1;
+    return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)115, &client1_name, (signed int)115, &port1_name, (signed int)115, &client2_name, (signed int)115, &port2_name, (signed int)0);
+    if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
     {
       pthread_mutex_lock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
       port1_ptr=jack_controller_patchbay_find_port_by_names((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context, client1_name, port1_name);
@@ -4584,8 +4584,8 @@ static void jack_controller_dbus_disconnect_ports_by_name(struct jack_dbus_metho
 
         else
         {
-          return_value_jack_controller_patchbay_disconnect$2=jack_controller_patchbay_disconnect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
-          if(!(return_value_jack_controller_patchbay_disconnect$2 == (_Bool)0))
+          return_value_jack_controller_patchbay_disconnect_2=jack_controller_patchbay_disconnect(call, (struct jack_controller *)call->context, port1_ptr, port2_ptr);
+          if(!(return_value_jack_controller_patchbay_disconnect_2 == (_Bool)0))
             jack_dbus_construct_method_return_empty(call);
 
         }
@@ -4611,10 +4611,10 @@ static void jack_controller_dbus_get_all_ports(struct jack_dbus_method_call *cal
   struct DBusMessageIter sub_iter;
   char fullname[320l];
   char *fullname_var = fullname;
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  struct jack_graph_client *tmp_statement_expression$2;
-  struct jack_graph_port *tmp_statement_expression$3;
-  unsigned int return_value_dbus_message_iter_close_container$5;
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  struct jack_graph_client *tmp_statement_expression_2;
+  struct jack_graph_port *tmp_statement_expression_3;
+  unsigned int return_value_dbus_message_iter_close_container_5;
   if(((struct jack_controller *)call->context)->started == (_Bool)0)
     jack_dbus_error((void *)call, "org.jackaudio.Error.ServerNotRunning", "Can't execute this method with stopped JACK server");
 
@@ -4624,8 +4624,8 @@ static void jack_controller_dbus_get_all_ports(struct jack_dbus_method_call *cal
     if(!(call->reply == ((struct DBusMessage *)NULL)))
     {
       dbus_message_iter_init_append(call->reply, &iter);
-      return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container(&iter, (signed int)97, "s", &sub_iter);
-      if(!(return_value_dbus_message_iter_open_container$1 == 0u))
+      return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container(&iter, (signed int)97, "s", &sub_iter);
+      if(!(return_value_dbus_message_iter_open_container_1 == 0u))
       {
         pthread_mutex_lock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
         client_node_ptr = (&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->graph.clients)->next;
@@ -4636,8 +4636,8 @@ static void jack_controller_dbus_get_all_ports(struct jack_dbus_method_call *cal
             break;
 
           const struct list_head *__mptr = client_node_ptr;
-          tmp_statement_expression$2 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
-          client_ptr = tmp_statement_expression$2;
+          tmp_statement_expression_2 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
+          client_ptr = tmp_statement_expression_2;
           port_node_ptr = (&client_ptr->ports)->next;
           do
           {
@@ -4645,14 +4645,14 @@ static void jack_controller_dbus_get_all_ports(struct jack_dbus_method_call *cal
             if(port_node_ptr == &client_ptr->ports)
               break;
 
-            const struct list_head *jack_controller_dbus_get_all_ports$$1$$4$$1$$2$$1$$1$$__mptr = port_node_ptr;
-            tmp_statement_expression$3 = (struct jack_graph_port *)((char *)jack_controller_dbus_get_all_ports$$1$$4$$1$$2$$1$$1$$__mptr - (signed long int)40ul);
-            port_ptr = tmp_statement_expression$3;
+            const struct list_head *jack_controller_dbus_get_all_ports__1__4__1__2__1__1____mptr = port_node_ptr;
+            tmp_statement_expression_3 = (struct jack_graph_port *)((char *)jack_controller_dbus_get_all_ports__1__4__1__2__1__1____mptr - (signed long int)40ul);
+            port_ptr = tmp_statement_expression_3;
             jack_info("%s:%s", client_ptr->name, port_ptr->name);
             sprintf(fullname, "%s:%s", client_ptr->name, port_ptr->name);
-            unsigned int return_value_dbus_message_iter_append_basic$4;
-            return_value_dbus_message_iter_append_basic$4=dbus_message_iter_append_basic(&sub_iter, (signed int)115, (const void *)&fullname_var);
-            if(return_value_dbus_message_iter_append_basic$4 == 0u)
+            unsigned int return_value_dbus_message_iter_append_basic_4;
+            return_value_dbus_message_iter_append_basic_4=dbus_message_iter_append_basic(&sub_iter, (signed int)115, (const void *)&fullname_var);
+            if(return_value_dbus_message_iter_append_basic_4 == 0u)
             {
               pthread_mutex_unlock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
               dbus_message_iter_close_container(&iter, &sub_iter);
@@ -4666,8 +4666,8 @@ static void jack_controller_dbus_get_all_ports(struct jack_dbus_method_call *cal
         }
         while((_Bool)1);
         pthread_mutex_unlock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
-        return_value_dbus_message_iter_close_container$5=dbus_message_iter_close_container(&iter, &sub_iter);
-        if(!(return_value_dbus_message_iter_close_container$5 == 0u))
+        return_value_dbus_message_iter_close_container_5=dbus_message_iter_close_container(&iter, &sub_iter);
+        if(!(return_value_dbus_message_iter_close_container_5 == 0u))
           goto __CPROVER_DUMP_L9;
 
       }
@@ -4695,9 +4695,9 @@ static void jack_controller_dbus_get_client_name_by_uuid(struct jack_dbus_method
 {
   const char *client_uuid;
   char *client_name;
-  _Bool return_value_jack_dbus_get_method_args$1;
-  return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)115, &client_uuid, (signed int)0);
-  if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+  _Bool return_value_jack_dbus_get_method_args_1;
+  return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)115, &client_uuid, (signed int)0);
+  if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
   {
     client_name=jack_get_client_name_by_uuid(((struct jack_controller *)call->context)->client, client_uuid);
     if(client_name == ((char *)NULL))
@@ -4705,7 +4705,7 @@ static void jack_controller_dbus_get_client_name_by_uuid(struct jack_dbus_method
 
     else
     {
-      jack_dbus_construct_method_return_single(call, (signed int)115, (union anonymous$5){ .string=(const char *)client_name });
+      jack_dbus_construct_method_return_single(call, (signed int)115, (union anonymous_5){ .string=(const char *)client_name });
       free((void *)client_name);
     }
   }
@@ -4718,10 +4718,10 @@ static void jack_controller_dbus_get_client_pid(struct jack_dbus_method_call *ca
 {
   unsigned long int client_id;
   struct jack_graph_client *client_ptr;
-  union anonymous$5 arg;
-  _Bool return_value_jack_dbus_get_method_args$1;
-  return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)116, &client_id, (signed int)0);
-  if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+  union anonymous_5 arg;
+  _Bool return_value_jack_dbus_get_method_args_1;
+  return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)116, &client_id, (signed int)0);
+  if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
   {
     pthread_mutex_lock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
     client_ptr=jack_controller_patchbay_find_client_by_id((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context, client_id);
@@ -4759,22 +4759,22 @@ static void jack_controller_dbus_get_graph(struct jack_dbus_method_call *call)
   unsigned long int version;
   struct DBusMessageIter connections_array_iter;
   struct DBusMessageIter connection_struct_iter;
-  unsigned int return_value_dbus_message_iter_append_basic$2;
-  unsigned int return_value_dbus_message_iter_open_container$3;
-  struct jack_graph_client *tmp_statement_expression$4;
-  struct jack_graph_port *tmp_statement_expression$9;
-  unsigned int return_value_dbus_message_iter_close_container$18;
-  unsigned int return_value_dbus_message_iter_open_container$19;
-  struct jack_graph_connection *tmp_statement_expression$20;
-  unsigned int return_value_dbus_message_iter_close_container$32;
+  unsigned int return_value_dbus_message_iter_append_basic_2;
+  unsigned int return_value_dbus_message_iter_open_container_3;
+  struct jack_graph_client *tmp_statement_expression_4;
+  struct jack_graph_port *tmp_statement_expression_9;
+  unsigned int return_value_dbus_message_iter_close_container_18;
+  unsigned int return_value_dbus_message_iter_open_container_19;
+  struct jack_graph_connection *tmp_statement_expression_20;
+  unsigned int return_value_dbus_message_iter_close_container_32;
   if(((struct jack_controller *)call->context)->started == (_Bool)0)
     jack_dbus_error((void *)call, "org.jackaudio.Error.ServerNotRunning", "Can't execute this method with stopped JACK server");
 
   else
   {
-    _Bool return_value_jack_dbus_get_method_args$1;
-    return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)116, &version, (signed int)0);
-    if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+    _Bool return_value_jack_dbus_get_method_args_1;
+    return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)116, &version, (signed int)0);
+    if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
     {
       call->reply=dbus_message_new_method_return(call->message);
       if(call->reply == ((struct DBusMessage *)NULL))
@@ -4792,11 +4792,11 @@ static void jack_controller_dbus_get_graph(struct jack_dbus_method_call *call)
 
         else
         {
-          return_value_dbus_message_iter_append_basic$2=dbus_message_iter_append_basic(&iter, (signed int)116, (const void *)&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->graph.version);
-          if(!(return_value_dbus_message_iter_append_basic$2 == 0u))
+          return_value_dbus_message_iter_append_basic_2=dbus_message_iter_append_basic(&iter, (signed int)116, (const void *)&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->graph.version);
+          if(!(return_value_dbus_message_iter_append_basic_2 == 0u))
           {
-            return_value_dbus_message_iter_open_container$3=dbus_message_iter_open_container(&iter, (signed int)97, "(tsa(tsuu))", &clients_array_iter);
-            if(!(return_value_dbus_message_iter_open_container$3 == 0u))
+            return_value_dbus_message_iter_open_container_3=dbus_message_iter_open_container(&iter, (signed int)97, "(tsa(tsuu))", &clients_array_iter);
+            if(!(return_value_dbus_message_iter_open_container_3 == 0u))
             {
               if(!(version >= ((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->graph.version))
               {
@@ -4808,26 +4808,26 @@ static void jack_controller_dbus_get_graph(struct jack_dbus_method_call *call)
                     break;
 
                   const struct list_head *__mptr = client_node_ptr;
-                  tmp_statement_expression$4 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
-                  client_ptr = tmp_statement_expression$4;
-                  unsigned int return_value_dbus_message_iter_open_container$5;
-                  return_value_dbus_message_iter_open_container$5=dbus_message_iter_open_container(&clients_array_iter, (signed int)114, (const char *)(void *)0, &client_struct_iter);
-                  if(return_value_dbus_message_iter_open_container$5 == 0u)
+                  tmp_statement_expression_4 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
+                  client_ptr = tmp_statement_expression_4;
+                  unsigned int return_value_dbus_message_iter_open_container_5;
+                  return_value_dbus_message_iter_open_container_5=dbus_message_iter_open_container(&clients_array_iter, (signed int)114, (const char *)(void *)0, &client_struct_iter);
+                  if(return_value_dbus_message_iter_open_container_5 == 0u)
                     goto nomem_close_clients_array;
 
-                  unsigned int return_value_dbus_message_iter_append_basic$6;
-                  return_value_dbus_message_iter_append_basic$6=dbus_message_iter_append_basic(&client_struct_iter, (signed int)116, (const void *)&client_ptr->id);
-                  if(return_value_dbus_message_iter_append_basic$6 == 0u)
+                  unsigned int return_value_dbus_message_iter_append_basic_6;
+                  return_value_dbus_message_iter_append_basic_6=dbus_message_iter_append_basic(&client_struct_iter, (signed int)116, (const void *)&client_ptr->id);
+                  if(return_value_dbus_message_iter_append_basic_6 == 0u)
                     goto nomem_close_client_struct;
 
-                  unsigned int return_value_dbus_message_iter_append_basic$7;
-                  return_value_dbus_message_iter_append_basic$7=dbus_message_iter_append_basic(&client_struct_iter, (signed int)115, (const void *)&client_ptr->name);
-                  if(return_value_dbus_message_iter_append_basic$7 == 0u)
+                  unsigned int return_value_dbus_message_iter_append_basic_7;
+                  return_value_dbus_message_iter_append_basic_7=dbus_message_iter_append_basic(&client_struct_iter, (signed int)115, (const void *)&client_ptr->name);
+                  if(return_value_dbus_message_iter_append_basic_7 == 0u)
                     goto nomem_close_client_struct;
 
-                  unsigned int return_value_dbus_message_iter_open_container$8;
-                  return_value_dbus_message_iter_open_container$8=dbus_message_iter_open_container(&client_struct_iter, (signed int)97, "(tsuu)", &ports_array_iter);
-                  if(return_value_dbus_message_iter_open_container$8 == 0u)
+                  unsigned int return_value_dbus_message_iter_open_container_8;
+                  return_value_dbus_message_iter_open_container_8=dbus_message_iter_open_container(&client_struct_iter, (signed int)97, "(tsuu)", &ports_array_iter);
+                  if(return_value_dbus_message_iter_open_container_8 == 0u)
                     goto nomem_close_client_struct;
 
                   port_node_ptr = (&client_ptr->ports)->next;
@@ -4837,50 +4837,50 @@ static void jack_controller_dbus_get_graph(struct jack_dbus_method_call *call)
                     if(port_node_ptr == &client_ptr->ports)
                       break;
 
-                    const struct list_head *jack_controller_dbus_get_graph$$1$$7$$1$$1$$6$$1$$1$$__mptr = port_node_ptr;
-                    tmp_statement_expression$9 = (struct jack_graph_port *)((char *)jack_controller_dbus_get_graph$$1$$7$$1$$1$$6$$1$$1$$__mptr - (signed long int)40ul);
-                    port_ptr = tmp_statement_expression$9;
-                    unsigned int return_value_dbus_message_iter_open_container$10;
-                    return_value_dbus_message_iter_open_container$10=dbus_message_iter_open_container(&ports_array_iter, (signed int)114, (const char *)(void *)0, &port_struct_iter);
-                    if(return_value_dbus_message_iter_open_container$10 == 0u)
+                    const struct list_head *jack_controller_dbus_get_graph__1__7__1__1__6__1__1____mptr = port_node_ptr;
+                    tmp_statement_expression_9 = (struct jack_graph_port *)((char *)jack_controller_dbus_get_graph__1__7__1__1__6__1__1____mptr - (signed long int)40ul);
+                    port_ptr = tmp_statement_expression_9;
+                    unsigned int return_value_dbus_message_iter_open_container_10;
+                    return_value_dbus_message_iter_open_container_10=dbus_message_iter_open_container(&ports_array_iter, (signed int)114, (const char *)(void *)0, &port_struct_iter);
+                    if(return_value_dbus_message_iter_open_container_10 == 0u)
                       goto nomem_close_ports_array;
 
-                    unsigned int return_value_dbus_message_iter_append_basic$11;
-                    return_value_dbus_message_iter_append_basic$11=dbus_message_iter_append_basic(&port_struct_iter, (signed int)116, (const void *)&port_ptr->id);
-                    if(return_value_dbus_message_iter_append_basic$11 == 0u)
+                    unsigned int return_value_dbus_message_iter_append_basic_11;
+                    return_value_dbus_message_iter_append_basic_11=dbus_message_iter_append_basic(&port_struct_iter, (signed int)116, (const void *)&port_ptr->id);
+                    if(return_value_dbus_message_iter_append_basic_11 == 0u)
                       goto nomem_close_port_struct;
 
-                    unsigned int return_value_dbus_message_iter_append_basic$12;
-                    return_value_dbus_message_iter_append_basic$12=dbus_message_iter_append_basic(&port_struct_iter, (signed int)115, (const void *)&port_ptr->name);
-                    if(return_value_dbus_message_iter_append_basic$12 == 0u)
+                    unsigned int return_value_dbus_message_iter_append_basic_12;
+                    return_value_dbus_message_iter_append_basic_12=dbus_message_iter_append_basic(&port_struct_iter, (signed int)115, (const void *)&port_ptr->name);
+                    if(return_value_dbus_message_iter_append_basic_12 == 0u)
                       goto nomem_close_port_struct;
 
-                    unsigned int return_value_dbus_message_iter_append_basic$13;
-                    return_value_dbus_message_iter_append_basic$13=dbus_message_iter_append_basic(&port_struct_iter, (signed int)117, (const void *)&port_ptr->flags);
-                    if(return_value_dbus_message_iter_append_basic$13 == 0u)
+                    unsigned int return_value_dbus_message_iter_append_basic_13;
+                    return_value_dbus_message_iter_append_basic_13=dbus_message_iter_append_basic(&port_struct_iter, (signed int)117, (const void *)&port_ptr->flags);
+                    if(return_value_dbus_message_iter_append_basic_13 == 0u)
                       goto nomem_close_port_struct;
 
-                    unsigned int return_value_dbus_message_iter_append_basic$14;
-                    return_value_dbus_message_iter_append_basic$14=dbus_message_iter_append_basic(&port_struct_iter, (signed int)117, (const void *)&port_ptr->type);
-                    if(return_value_dbus_message_iter_append_basic$14 == 0u)
+                    unsigned int return_value_dbus_message_iter_append_basic_14;
+                    return_value_dbus_message_iter_append_basic_14=dbus_message_iter_append_basic(&port_struct_iter, (signed int)117, (const void *)&port_ptr->type);
+                    if(return_value_dbus_message_iter_append_basic_14 == 0u)
                       goto nomem_close_port_struct;
 
-                    unsigned int return_value_dbus_message_iter_close_container$15;
-                    return_value_dbus_message_iter_close_container$15=dbus_message_iter_close_container(&ports_array_iter, &port_struct_iter);
-                    if(return_value_dbus_message_iter_close_container$15 == 0u)
+                    unsigned int return_value_dbus_message_iter_close_container_15;
+                    return_value_dbus_message_iter_close_container_15=dbus_message_iter_close_container(&ports_array_iter, &port_struct_iter);
+                    if(return_value_dbus_message_iter_close_container_15 == 0u)
                       goto nomem_close_ports_array;
 
                     port_node_ptr = port_node_ptr->next;
                   }
                   while((_Bool)1);
-                  unsigned int return_value_dbus_message_iter_close_container$16;
-                  return_value_dbus_message_iter_close_container$16=dbus_message_iter_close_container(&client_struct_iter, &ports_array_iter);
-                  if(return_value_dbus_message_iter_close_container$16 == 0u)
+                  unsigned int return_value_dbus_message_iter_close_container_16;
+                  return_value_dbus_message_iter_close_container_16=dbus_message_iter_close_container(&client_struct_iter, &ports_array_iter);
+                  if(return_value_dbus_message_iter_close_container_16 == 0u)
                     goto nomem_close_client_struct;
 
-                  unsigned int return_value_dbus_message_iter_close_container$17;
-                  return_value_dbus_message_iter_close_container$17=dbus_message_iter_close_container(&clients_array_iter, &client_struct_iter);
-                  if(return_value_dbus_message_iter_close_container$17 == 0u)
+                  unsigned int return_value_dbus_message_iter_close_container_17;
+                  return_value_dbus_message_iter_close_container_17=dbus_message_iter_close_container(&clients_array_iter, &client_struct_iter);
+                  if(return_value_dbus_message_iter_close_container_17 == 0u)
                     goto nomem_close_clients_array;
 
                   client_node_ptr = client_node_ptr->next;
@@ -4888,11 +4888,11 @@ static void jack_controller_dbus_get_graph(struct jack_dbus_method_call *call)
                 while((_Bool)1);
               }
 
-              return_value_dbus_message_iter_close_container$18=dbus_message_iter_close_container(&iter, &clients_array_iter);
-              if(!(return_value_dbus_message_iter_close_container$18 == 0u))
+              return_value_dbus_message_iter_close_container_18=dbus_message_iter_close_container(&iter, &clients_array_iter);
+              if(!(return_value_dbus_message_iter_close_container_18 == 0u))
               {
-                return_value_dbus_message_iter_open_container$19=dbus_message_iter_open_container(&iter, (signed int)97, "(tstststst)", &connections_array_iter);
-                if(!(return_value_dbus_message_iter_open_container$19 == 0u))
+                return_value_dbus_message_iter_open_container_19=dbus_message_iter_open_container(&iter, (signed int)97, "(tstststst)", &connections_array_iter);
+                if(!(return_value_dbus_message_iter_open_container_19 == 0u))
                 {
                   if(!(version >= ((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->graph.version))
                   {
@@ -4903,62 +4903,62 @@ static void jack_controller_dbus_get_graph(struct jack_dbus_method_call *call)
                       if(connection_node_ptr == &((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->graph.connections)
                         break;
 
-                      const struct list_head *jack_controller_dbus_get_graph$$1$$10$$1$$1$$1$$__mptr = connection_node_ptr;
-                      tmp_statement_expression$20 = (struct jack_graph_connection *)((char *)jack_controller_dbus_get_graph$$1$$10$$1$$1$$1$$__mptr - (signed long int)24ul);
-                      connection_ptr = tmp_statement_expression$20;
-                      unsigned int return_value_dbus_message_iter_open_container$21;
-                      return_value_dbus_message_iter_open_container$21=dbus_message_iter_open_container(&connections_array_iter, (signed int)114, (const char *)(void *)0, &connection_struct_iter);
-                      if(return_value_dbus_message_iter_open_container$21 == 0u)
+                      const struct list_head *jack_controller_dbus_get_graph__1__10__1__1__1____mptr = connection_node_ptr;
+                      tmp_statement_expression_20 = (struct jack_graph_connection *)((char *)jack_controller_dbus_get_graph__1__10__1__1__1____mptr - (signed long int)24ul);
+                      connection_ptr = tmp_statement_expression_20;
+                      unsigned int return_value_dbus_message_iter_open_container_21;
+                      return_value_dbus_message_iter_open_container_21=dbus_message_iter_open_container(&connections_array_iter, (signed int)114, (const char *)(void *)0, &connection_struct_iter);
+                      if(return_value_dbus_message_iter_open_container_21 == 0u)
                         goto nomem_close_connections_array;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$22;
-                      return_value_dbus_message_iter_append_basic$22=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port1->client->id);
-                      if(return_value_dbus_message_iter_append_basic$22 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_22;
+                      return_value_dbus_message_iter_append_basic_22=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port1->client->id);
+                      if(return_value_dbus_message_iter_append_basic_22 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$23;
-                      return_value_dbus_message_iter_append_basic$23=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port1->client->name);
-                      if(return_value_dbus_message_iter_append_basic$23 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_23;
+                      return_value_dbus_message_iter_append_basic_23=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port1->client->name);
+                      if(return_value_dbus_message_iter_append_basic_23 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$24;
-                      return_value_dbus_message_iter_append_basic$24=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port1->id);
-                      if(return_value_dbus_message_iter_append_basic$24 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_24;
+                      return_value_dbus_message_iter_append_basic_24=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port1->id);
+                      if(return_value_dbus_message_iter_append_basic_24 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$25;
-                      return_value_dbus_message_iter_append_basic$25=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port1->name);
-                      if(return_value_dbus_message_iter_append_basic$25 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_25;
+                      return_value_dbus_message_iter_append_basic_25=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port1->name);
+                      if(return_value_dbus_message_iter_append_basic_25 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$26;
-                      return_value_dbus_message_iter_append_basic$26=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port2->client->id);
-                      if(return_value_dbus_message_iter_append_basic$26 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_26;
+                      return_value_dbus_message_iter_append_basic_26=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port2->client->id);
+                      if(return_value_dbus_message_iter_append_basic_26 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$27;
-                      return_value_dbus_message_iter_append_basic$27=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port2->client->name);
-                      if(return_value_dbus_message_iter_append_basic$27 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_27;
+                      return_value_dbus_message_iter_append_basic_27=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port2->client->name);
+                      if(return_value_dbus_message_iter_append_basic_27 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$28;
-                      return_value_dbus_message_iter_append_basic$28=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port2->id);
-                      if(return_value_dbus_message_iter_append_basic$28 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_28;
+                      return_value_dbus_message_iter_append_basic_28=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->port2->id);
+                      if(return_value_dbus_message_iter_append_basic_28 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$29;
-                      return_value_dbus_message_iter_append_basic$29=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port2->name);
-                      if(return_value_dbus_message_iter_append_basic$29 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_29;
+                      return_value_dbus_message_iter_append_basic_29=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)115, (const void *)&connection_ptr->port2->name);
+                      if(return_value_dbus_message_iter_append_basic_29 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$30;
-                      return_value_dbus_message_iter_append_basic$30=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->id);
-                      if(return_value_dbus_message_iter_append_basic$30 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_30;
+                      return_value_dbus_message_iter_append_basic_30=dbus_message_iter_append_basic(&connection_struct_iter, (signed int)116, (const void *)&connection_ptr->id);
+                      if(return_value_dbus_message_iter_append_basic_30 == 0u)
                         goto nomem_close_connection_struct;
 
-                      unsigned int return_value_dbus_message_iter_close_container$31;
-                      return_value_dbus_message_iter_close_container$31=dbus_message_iter_close_container(&connections_array_iter, &connection_struct_iter);
-                      if(return_value_dbus_message_iter_close_container$31 == 0u)
+                      unsigned int return_value_dbus_message_iter_close_container_31;
+                      return_value_dbus_message_iter_close_container_31=dbus_message_iter_close_container(&connections_array_iter, &connection_struct_iter);
+                      if(return_value_dbus_message_iter_close_container_31 == 0u)
                         goto nomem_close_connections_array;
 
                       connection_node_ptr = connection_node_ptr->next;
@@ -4966,8 +4966,8 @@ static void jack_controller_dbus_get_graph(struct jack_dbus_method_call *call)
                     while((_Bool)1);
                   }
 
-                  return_value_dbus_message_iter_close_container$32=dbus_message_iter_close_container(&iter, &connections_array_iter);
-                  if(!(return_value_dbus_message_iter_close_container$32 == 0u))
+                  return_value_dbus_message_iter_close_container_32=dbus_message_iter_close_container(&iter, &connections_array_iter);
+                  if(!(return_value_dbus_message_iter_close_container_32 == 0u))
                   {
                     pthread_mutex_unlock(&((struct jack_controller_patchbay *)((struct jack_controller *)call->context)->patchbay_context)->lock);
                     goto __CPROVER_DUMP_L18;
@@ -5034,11 +5034,11 @@ static _Bool jack_controller_dbus_get_parameter_address(struct jack_dbus_method_
   struct DBusMessageIter iter;
   _Bool ret;
   ret=jack_controller_dbus_get_parameter_address_ex(call, &iter, address_array);
-  unsigned int return_value_dbus_message_iter_has_next$1;
+  unsigned int return_value_dbus_message_iter_has_next_1;
   if(!(ret == (_Bool)0))
   {
-    return_value_dbus_message_iter_has_next$1=dbus_message_iter_has_next(&iter);
-    if(return_value_dbus_message_iter_has_next$1 == 0u)
+    return_value_dbus_message_iter_has_next_1=dbus_message_iter_has_next(&iter);
+    if(return_value_dbus_message_iter_has_next_1 == 0u)
       goto __CPROVER_DUMP_L1;
 
     jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid arguments to method '%s'. Input arguments signature must be 'as'.", call->method_name);
@@ -5062,9 +5062,9 @@ static _Bool jack_controller_dbus_get_parameter_address_ex(struct jack_dbus_meth
   struct DBusMessageIter array_iter;
   signed int type;
   signed int index;
-  unsigned int return_value_dbus_message_iter_init$1;
-  return_value_dbus_message_iter_init$1=dbus_message_iter_init(call->message, iter_ptr);
-  if(return_value_dbus_message_iter_init$1 == 0u)
+  unsigned int return_value_dbus_message_iter_init_1;
+  return_value_dbus_message_iter_init_1=dbus_message_iter_init(call->message, iter_ptr);
+  if(return_value_dbus_message_iter_init_1 == 0u)
   {
     jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid arguments to method '%s'. No input arguments found.", call->method_name);
     return (_Bool)0;
@@ -5081,9 +5081,9 @@ static _Bool jack_controller_dbus_get_parameter_address_ex(struct jack_dbus_meth
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(signature, "as");
-      if(!(return_value_strcmp$2 == 0))
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(signature, "as");
+      if(!(return_value_strcmp_2 == 0))
       {
         jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid arguments to method '%s'. Input arguments signature '%s', must begin with 'as'.", call->method_name, signature);
         return (_Bool)0;
@@ -5135,15 +5135,15 @@ static void jack_controller_dbus_get_parameter_constraint(struct jack_dbus_metho
   struct DBusMessageIter array_iter;
   struct DBusMessageIter struct_iter;
   const char *descr;
-  union anonymous$5 value;
-  _Bool return_value_jack_controller_dbus_get_parameter_address$1;
-  return_value_jack_controller_dbus_get_parameter_address$1=jack_controller_dbus_get_parameter_address(call, address);
-  unsigned int return_value_dbus_message_iter_append_basic$2;
-  unsigned int return_value_dbus_message_iter_append_basic$3;
-  unsigned int return_value_dbus_message_iter_append_basic$4;
-  unsigned int return_value_dbus_message_iter_open_container$5;
-  unsigned int return_value_dbus_message_iter_close_container$18;
-  if(!(return_value_jack_controller_dbus_get_parameter_address$1 == (_Bool)0))
+  union anonymous_5 value;
+  _Bool return_value_jack_controller_dbus_get_parameter_address_1;
+  return_value_jack_controller_dbus_get_parameter_address_1=jack_controller_dbus_get_parameter_address(call, address);
+  unsigned int return_value_dbus_message_iter_append_basic_2;
+  unsigned int return_value_dbus_message_iter_append_basic_3;
+  unsigned int return_value_dbus_message_iter_append_basic_4;
+  unsigned int return_value_dbus_message_iter_open_container_5;
+  unsigned int return_value_dbus_message_iter_close_container_18;
+  if(!(return_value_jack_controller_dbus_get_parameter_address_1 == (_Bool)0))
   {
     param_ptr=jack_params_get_parameter(((struct jack_controller *)call->context)->params, address);
     if(param_ptr == ((struct jack_parameter *)NULL))
@@ -5160,70 +5160,70 @@ static void jack_controller_dbus_get_parameter_constraint(struct jack_dbus_metho
 
         else
           value.boolean = (unsigned int)0;
-        return_value_dbus_message_iter_append_basic$2=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&value);
-        if(!(return_value_dbus_message_iter_append_basic$2 == 0u))
+        return_value_dbus_message_iter_append_basic_2=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&value);
+        if(!(return_value_dbus_message_iter_append_basic_2 == 0u))
         {
           if(!((1u & param_ptr->constraint_flags) == 0u))
             value.boolean = (unsigned int)((param_ptr->constraint_flags & (unsigned int)2) != (unsigned int)0);
 
-          return_value_dbus_message_iter_append_basic$3=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&value);
-          if(!(return_value_dbus_message_iter_append_basic$3 == 0u))
+          return_value_dbus_message_iter_append_basic_3=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&value);
+          if(!(return_value_dbus_message_iter_append_basic_3 == 0u))
           {
             if(!((1u & param_ptr->constraint_flags) == 0u))
               value.boolean = (unsigned int)((param_ptr->constraint_flags & (unsigned int)4) != (unsigned int)0);
 
-            return_value_dbus_message_iter_append_basic$4=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&value);
-            if(!(return_value_dbus_message_iter_append_basic$4 == 0u))
+            return_value_dbus_message_iter_append_basic_4=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&value);
+            if(!(return_value_dbus_message_iter_append_basic_4 == 0u))
             {
-              return_value_dbus_message_iter_open_container$5=dbus_message_iter_open_container(&iter, (signed int)97, "(vs)", &array_iter);
-              if(!(return_value_dbus_message_iter_open_container$5 == 0u))
+              return_value_dbus_message_iter_open_container_5=dbus_message_iter_open_container(&iter, (signed int)97, "(vs)", &array_iter);
+              if(!(return_value_dbus_message_iter_open_container_5 == 0u))
               {
                 if(!((1u & param_ptr->constraint_flags) == 0u))
                 {
                   if(!(param_ptr->constraint_range == (_Bool)0))
                   {
-                    unsigned int return_value_dbus_message_iter_open_container$6;
-                    return_value_dbus_message_iter_open_container$6=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
-                    if(return_value_dbus_message_iter_open_container$6 == 0u)
+                    unsigned int return_value_dbus_message_iter_open_container_6;
+                    return_value_dbus_message_iter_open_container_6=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
+                    if(return_value_dbus_message_iter_open_container_6 == 0u)
                       goto fail_close_unref;
 
                     jack_controller_jack_to_dbus_variant(param_ptr->type, &param_ptr->constraint.range.min, &value);
-                    _Bool return_value_jack_dbus_message_append_variant$7;
-                    return_value_jack_dbus_message_append_variant$7=jack_dbus_message_append_variant(&struct_iter, (signed int)jack_controller_dbus_types[(signed long int)param_ptr->type], jack_controller_dbus_type_signatures[(signed long int)param_ptr->type], &value);
-                    if(return_value_jack_dbus_message_append_variant$7 == (_Bool)0)
+                    _Bool return_value_jack_dbus_message_append_variant_7;
+                    return_value_jack_dbus_message_append_variant_7=jack_dbus_message_append_variant(&struct_iter, (signed int)jack_controller_dbus_types[(signed long int)param_ptr->type], jack_controller_dbus_type_signatures[(signed long int)param_ptr->type], &value);
+                    if(return_value_jack_dbus_message_append_variant_7 == (_Bool)0)
                       goto fail_close2_unref;
 
                     descr = "min";
-                    unsigned int return_value_dbus_message_iter_append_basic$8;
-                    return_value_dbus_message_iter_append_basic$8=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&descr);
-                    if(return_value_dbus_message_iter_append_basic$8 == 0u)
+                    unsigned int return_value_dbus_message_iter_append_basic_8;
+                    return_value_dbus_message_iter_append_basic_8=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&descr);
+                    if(return_value_dbus_message_iter_append_basic_8 == 0u)
                       goto fail_close2_unref;
 
-                    unsigned int return_value_dbus_message_iter_close_container$9;
-                    return_value_dbus_message_iter_close_container$9=dbus_message_iter_close_container(&array_iter, &struct_iter);
-                    if(return_value_dbus_message_iter_close_container$9 == 0u)
+                    unsigned int return_value_dbus_message_iter_close_container_9;
+                    return_value_dbus_message_iter_close_container_9=dbus_message_iter_close_container(&array_iter, &struct_iter);
+                    if(return_value_dbus_message_iter_close_container_9 == 0u)
                       goto fail_close_unref;
 
-                    unsigned int return_value_dbus_message_iter_open_container$10;
-                    return_value_dbus_message_iter_open_container$10=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
-                    if(return_value_dbus_message_iter_open_container$10 == 0u)
+                    unsigned int return_value_dbus_message_iter_open_container_10;
+                    return_value_dbus_message_iter_open_container_10=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
+                    if(return_value_dbus_message_iter_open_container_10 == 0u)
                       goto fail_close_unref;
 
                     jack_controller_jack_to_dbus_variant(param_ptr->type, &param_ptr->constraint.range.max, &value);
-                    _Bool return_value_jack_dbus_message_append_variant$11;
-                    return_value_jack_dbus_message_append_variant$11=jack_dbus_message_append_variant(&struct_iter, (signed int)jack_controller_dbus_types[(signed long int)param_ptr->type], jack_controller_dbus_type_signatures[(signed long int)param_ptr->type], &value);
-                    if(return_value_jack_dbus_message_append_variant$11 == (_Bool)0)
+                    _Bool return_value_jack_dbus_message_append_variant_11;
+                    return_value_jack_dbus_message_append_variant_11=jack_dbus_message_append_variant(&struct_iter, (signed int)jack_controller_dbus_types[(signed long int)param_ptr->type], jack_controller_dbus_type_signatures[(signed long int)param_ptr->type], &value);
+                    if(return_value_jack_dbus_message_append_variant_11 == (_Bool)0)
                       goto fail_close2_unref;
 
                     descr = "max";
-                    unsigned int return_value_dbus_message_iter_append_basic$12;
-                    return_value_dbus_message_iter_append_basic$12=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&descr);
-                    if(return_value_dbus_message_iter_append_basic$12 == 0u)
+                    unsigned int return_value_dbus_message_iter_append_basic_12;
+                    return_value_dbus_message_iter_append_basic_12=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&descr);
+                    if(return_value_dbus_message_iter_append_basic_12 == 0u)
                       goto fail_close2_unref;
 
-                    unsigned int return_value_dbus_message_iter_close_container$13;
-                    return_value_dbus_message_iter_close_container$13=dbus_message_iter_close_container(&array_iter, &struct_iter);
-                    if(return_value_dbus_message_iter_close_container$13 == 0u)
+                    unsigned int return_value_dbus_message_iter_close_container_13;
+                    return_value_dbus_message_iter_close_container_13=dbus_message_iter_close_container(&array_iter, &struct_iter);
+                    if(return_value_dbus_message_iter_close_container_13 == 0u)
                       goto fail_close_unref;
 
                   }
@@ -5235,24 +5235,24 @@ static void jack_controller_dbus_get_parameter_constraint(struct jack_dbus_metho
                     {
                       descr = (param_ptr->constraint.enumeration.possible_values_array + (signed long int)index)->short_desc;
                       jack_controller_jack_to_dbus_variant(param_ptr->type, &(param_ptr->constraint.enumeration.possible_values_array + (signed long int)index)->value, &value);
-                      unsigned int return_value_dbus_message_iter_open_container$14;
-                      return_value_dbus_message_iter_open_container$14=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
-                      if(return_value_dbus_message_iter_open_container$14 == 0u)
+                      unsigned int return_value_dbus_message_iter_open_container_14;
+                      return_value_dbus_message_iter_open_container_14=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
+                      if(return_value_dbus_message_iter_open_container_14 == 0u)
                         goto fail_close_unref;
 
-                      _Bool return_value_jack_dbus_message_append_variant$15;
-                      return_value_jack_dbus_message_append_variant$15=jack_dbus_message_append_variant(&struct_iter, (signed int)jack_controller_dbus_types[(signed long int)param_ptr->type], jack_controller_dbus_type_signatures[(signed long int)param_ptr->type], &value);
-                      if(return_value_jack_dbus_message_append_variant$15 == (_Bool)0)
+                      _Bool return_value_jack_dbus_message_append_variant_15;
+                      return_value_jack_dbus_message_append_variant_15=jack_dbus_message_append_variant(&struct_iter, (signed int)jack_controller_dbus_types[(signed long int)param_ptr->type], jack_controller_dbus_type_signatures[(signed long int)param_ptr->type], &value);
+                      if(return_value_jack_dbus_message_append_variant_15 == (_Bool)0)
                         goto fail_close2_unref;
 
-                      unsigned int return_value_dbus_message_iter_append_basic$16;
-                      return_value_dbus_message_iter_append_basic$16=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&descr);
-                      if(return_value_dbus_message_iter_append_basic$16 == 0u)
+                      unsigned int return_value_dbus_message_iter_append_basic_16;
+                      return_value_dbus_message_iter_append_basic_16=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&descr);
+                      if(return_value_dbus_message_iter_append_basic_16 == 0u)
                         goto fail_close2_unref;
 
-                      unsigned int return_value_dbus_message_iter_close_container$17;
-                      return_value_dbus_message_iter_close_container$17=dbus_message_iter_close_container(&array_iter, &struct_iter);
-                      if(return_value_dbus_message_iter_close_container$17 == 0u)
+                      unsigned int return_value_dbus_message_iter_close_container_17;
+                      return_value_dbus_message_iter_close_container_17=dbus_message_iter_close_container(&array_iter, &struct_iter);
+                      if(return_value_dbus_message_iter_close_container_17 == 0u)
                         goto fail_close_unref;
 
                     }
@@ -5262,8 +5262,8 @@ static void jack_controller_dbus_get_parameter_constraint(struct jack_dbus_metho
 
               close:
                 ;
-                return_value_dbus_message_iter_close_container$18=dbus_message_iter_close_container(&iter, &array_iter);
-                if(!(return_value_dbus_message_iter_close_container$18 == 0u))
+                return_value_dbus_message_iter_close_container_18=dbus_message_iter_close_container(&iter, &array_iter);
+                if(!(return_value_dbus_message_iter_close_container_18 == 0u))
                 {
                   goto __CPROVER_DUMP_L14;
 
@@ -5310,10 +5310,10 @@ static void jack_controller_dbus_get_parameter_info(struct jack_dbus_method_call
   const char *address[3l];
   struct jack_parameter *param_ptr;
   struct DBusMessageIter iter;
-  _Bool return_value_jack_controller_dbus_get_parameter_address$1;
-  return_value_jack_controller_dbus_get_parameter_address$1=jack_controller_dbus_get_parameter_address(call, address);
-  _Bool return_value_append_parameter$2;
-  if(!(return_value_jack_controller_dbus_get_parameter_address$1 == (_Bool)0))
+  _Bool return_value_jack_controller_dbus_get_parameter_address_1;
+  return_value_jack_controller_dbus_get_parameter_address_1=jack_controller_dbus_get_parameter_address(call, address);
+  _Bool return_value_append_parameter_2;
+  if(!(return_value_jack_controller_dbus_get_parameter_address_1 == (_Bool)0))
   {
     param_ptr=jack_params_get_parameter(((struct jack_controller *)call->context)->params, address);
     if(param_ptr == ((struct jack_parameter *)NULL))
@@ -5325,8 +5325,8 @@ static void jack_controller_dbus_get_parameter_info(struct jack_dbus_method_call
       if(!(call->reply == ((struct DBusMessage *)NULL)))
       {
         dbus_message_iter_init_append(call->reply, &iter);
-        return_value_append_parameter$2=append_parameter((void *)&iter, param_ptr);
-        if(!(return_value_append_parameter$2 == (_Bool)0))
+        return_value_append_parameter_2=append_parameter((void *)&iter, param_ptr);
+        if(!(return_value_append_parameter_2 == (_Bool)0))
           goto __CPROVER_DUMP_L5;
 
 
@@ -5356,11 +5356,11 @@ static void jack_controller_dbus_get_parameter_value(struct jack_dbus_method_cal
   struct jack_parameter *param_ptr;
   union jackctl_parameter_value jackctl_value;
   union jackctl_parameter_value jackctl_default_value;
-  union anonymous$5 value;
-  union anonymous$5 default_value;
-  _Bool return_value_jack_controller_dbus_get_parameter_address$1;
-  return_value_jack_controller_dbus_get_parameter_address$1=jack_controller_dbus_get_parameter_address(call, address);
-  if(!(return_value_jack_controller_dbus_get_parameter_address$1 == (_Bool)0))
+  union anonymous_5 value;
+  union anonymous_5 default_value;
+  _Bool return_value_jack_controller_dbus_get_parameter_address_1;
+  return_value_jack_controller_dbus_get_parameter_address_1=jack_controller_dbus_get_parameter_address(call, address);
+  if(!(return_value_jack_controller_dbus_get_parameter_address_1 == (_Bool)0))
   {
     param_ptr=jack_params_get_parameter(((struct jack_controller *)call->context)->params, address);
     if(param_ptr == ((struct jack_parameter *)NULL))
@@ -5387,16 +5387,16 @@ static void jack_controller_dbus_get_parameters_info(struct jack_dbus_method_cal
   const char *address[3l];
   struct DBusMessageIter iter;
   struct DBusMessageIter array_iter;
-  _Bool return_value_jack_controller_dbus_get_parameter_address$1;
-  return_value_jack_controller_dbus_get_parameter_address$1=jack_controller_dbus_get_parameter_address(call, address);
-  unsigned int return_value_dbus_message_iter_open_container$3;
-  _Bool return_value_jack_params_iterate_params$4;
-  unsigned int return_value_dbus_message_iter_close_container$5;
-  if(!(return_value_jack_controller_dbus_get_parameter_address$1 == (_Bool)0))
+  _Bool return_value_jack_controller_dbus_get_parameter_address_1;
+  return_value_jack_controller_dbus_get_parameter_address_1=jack_controller_dbus_get_parameter_address(call, address);
+  unsigned int return_value_dbus_message_iter_open_container_3;
+  _Bool return_value_jack_params_iterate_params_4;
+  unsigned int return_value_dbus_message_iter_close_container_5;
+  if(!(return_value_jack_controller_dbus_get_parameter_address_1 == (_Bool)0))
   {
-    _Bool return_value_jack_params_check_address$2;
-    return_value_jack_params_check_address$2=jack_params_check_address(((struct jack_controller *)call->context)->params, address, (_Bool)1);
-    if(return_value_jack_params_check_address$2 == (_Bool)0)
+    _Bool return_value_jack_params_check_address_2;
+    return_value_jack_params_check_address_2=jack_params_check_address(((struct jack_controller *)call->context)->params, address, (_Bool)1);
+    if(return_value_jack_params_check_address_2 == (_Bool)0)
       jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid container address '%s':'%s':'%s' supplied to method '%s'.", address[(signed long int)0], address[(signed long int)1], address[(signed long int)2], call->method_name);
 
     else
@@ -5405,14 +5405,14 @@ static void jack_controller_dbus_get_parameters_info(struct jack_dbus_method_cal
       if(!(call->reply == ((struct DBusMessage *)NULL)))
       {
         dbus_message_iter_init_append(call->reply, &iter);
-        return_value_dbus_message_iter_open_container$3=dbus_message_iter_open_container(&iter, (signed int)97, "(ysss)", &array_iter);
-        if(!(return_value_dbus_message_iter_open_container$3 == 0u))
+        return_value_dbus_message_iter_open_container_3=dbus_message_iter_open_container(&iter, (signed int)97, "(ysss)", &array_iter);
+        if(!(return_value_dbus_message_iter_open_container_3 == 0u))
         {
-          return_value_jack_params_iterate_params$4=jack_params_iterate_params(((struct jack_controller *)call->context)->params, address, append_parameter, (void *)&array_iter);
-          if(!(return_value_jack_params_iterate_params$4 == (_Bool)0))
+          return_value_jack_params_iterate_params_4=jack_params_iterate_params(((struct jack_controller *)call->context)->params, address, append_parameter, (void *)&array_iter);
+          if(!(return_value_jack_params_iterate_params_4 == (_Bool)0))
           {
-            return_value_dbus_message_iter_close_container$5=dbus_message_iter_close_container(&iter, &array_iter);
-            if(return_value_dbus_message_iter_close_container$5 == 0u)
+            return_value_dbus_message_iter_close_container_5=dbus_message_iter_close_container(&iter, &array_iter);
+            if(return_value_dbus_message_iter_close_container_5 == 0u)
               goto fail_unref;
 
             goto __CPROVER_DUMP_L6;
@@ -5453,17 +5453,17 @@ static void jack_controller_dbus_get_session_state(struct jack_dbus_method_call 
   unsigned int type;
   _Bool append_failed;
   call->reply=dbus_message_new_method_return(call->message);
-  signed int return_value_list_empty$2;
-  struct jack_session_pending_command *tmp_statement_expression$1;
-  unsigned int return_value_dbus_message_iter_append_basic$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_message_iter_append_basic$4;
+  signed int return_value_list_empty_2;
+  struct jack_session_pending_command *tmp_statement_expression_1;
+  unsigned int return_value_dbus_message_iter_append_basic_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_message_iter_append_basic_4;
   if(!(call->reply == ((struct DBusMessage *)NULL)))
   {
     dbus_message_iter_init_append(call->reply, &iter);
     pthread_mutex_lock(&((struct jack_controller *)call->context)->lock);
-    return_value_list_empty$2=list_empty$link3(&((struct jack_controller *)call->context)->session_pending_commands);
-    if(!(return_value_list_empty$2 == 0))
+    return_value_list_empty_2=list_empty_link3(&((struct jack_controller *)call->context)->session_pending_commands);
+    if(!(return_value_list_empty_2 == 0))
     {
       type = (unsigned int)0;
       target = "";
@@ -5472,21 +5472,21 @@ static void jack_controller_dbus_get_session_state(struct jack_dbus_method_call 
     else
     {
       const struct list_head *__mptr = ((struct jack_controller *)call->context)->session_pending_commands.next;
-      tmp_statement_expression$1 = (struct jack_session_pending_command *)((char *)__mptr - (signed long int)0ul);
-      cmd_ptr = tmp_statement_expression$1;
+      tmp_statement_expression_1 = (struct jack_session_pending_command *)((char *)__mptr - (signed long int)0ul);
+      cmd_ptr = tmp_statement_expression_1;
       type = (unsigned int)cmd_ptr->type;
       target = cmd_ptr->target;
     }
-    return_value_dbus_message_iter_append_basic$3=dbus_message_iter_append_basic(&iter, (signed int)117, (const void *)&type);
-    if(return_value_dbus_message_iter_append_basic$3 == 0u)
-      tmp_if_expr$5 = (_Bool)1;
+    return_value_dbus_message_iter_append_basic_3=dbus_message_iter_append_basic(&iter, (signed int)117, (const void *)&type);
+    if(return_value_dbus_message_iter_append_basic_3 == 0u)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_dbus_message_iter_append_basic$4=dbus_message_iter_append_basic(&iter, (signed int)115, (const void *)&target);
-      tmp_if_expr$5 = !(return_value_dbus_message_iter_append_basic$4 != 0u) ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_message_iter_append_basic_4=dbus_message_iter_append_basic(&iter, (signed int)115, (const void *)&target);
+      tmp_if_expr_5 = !(return_value_dbus_message_iter_append_basic_4 != 0u) ? (_Bool)1 : (_Bool)0;
     }
-    append_failed = tmp_if_expr$5;
+    append_failed = tmp_if_expr_5;
     pthread_mutex_unlock(&((struct jack_controller *)call->context)->lock);
     if(append_failed == (_Bool)0)
       goto __CPROVER_DUMP_L7;
@@ -5510,9 +5510,9 @@ static void jack_controller_dbus_get_uuid_for_client_name(struct jack_dbus_metho
 {
   const char *client_name;
   char *client_uuid;
-  _Bool return_value_jack_dbus_get_method_args$1;
-  return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)115, &client_name, (signed int)0);
-  if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+  _Bool return_value_jack_dbus_get_method_args_1;
+  return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)115, &client_name, (signed int)0);
+  if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
   {
     client_uuid=jack_get_uuid_for_client_name(((struct jack_controller *)call->context)->client, client_name);
     if(client_uuid == ((char *)NULL))
@@ -5520,7 +5520,7 @@ static void jack_controller_dbus_get_uuid_for_client_name(struct jack_dbus_metho
 
     else
     {
-      jack_dbus_construct_method_return_single(call, (signed int)115, (union anonymous$5){ .string=(const char *)client_uuid });
+      jack_dbus_construct_method_return_single(call, (signed int)115, (union anonymous_5){ .string=(const char *)client_uuid });
       free((void *)client_uuid);
     }
   }
@@ -5533,10 +5533,10 @@ static void jack_controller_dbus_has_session_callback(struct jack_dbus_method_ca
 {
   signed int ret;
   const char *client_name;
-  union anonymous$5 retval;
-  _Bool return_value_jack_dbus_get_method_args$1;
-  return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)115, &client_name, (signed int)0);
-  if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+  union anonymous_5 retval;
+  _Bool return_value_jack_dbus_get_method_args_1;
+  return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)115, &client_name, (signed int)0);
+  if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
   {
     ret=jack_client_has_session_callback(((struct jack_controller *)call->context)->client, client_name);
     if(!(ret >= 0))
@@ -5555,7 +5555,7 @@ static void jack_controller_dbus_has_session_callback(struct jack_dbus_method_ca
 // file ../dbus/controller_iface_introspectable.c line 37
 static void jack_controller_dbus_introspect(struct jack_dbus_method_call *call)
 {
-  jack_dbus_construct_method_return_single(call, (signed int)115, (union anonymous$5){ .string=(const char *)g_xml_data });
+  jack_dbus_construct_method_return_single(call, (signed int)115, (union anonymous_5){ .string=(const char *)g_xml_data });
 }
 
 // jack_controller_dbus_read_container
@@ -5566,36 +5566,36 @@ static void jack_controller_dbus_read_container(struct jack_dbus_method_call *ca
   unsigned int leaf;
   struct DBusMessageIter iter;
   struct DBusMessageIter array_iter;
-  _Bool return_value_jack_controller_dbus_get_parameter_address$1;
-  return_value_jack_controller_dbus_get_parameter_address$1=jack_controller_dbus_get_parameter_address(call, address);
-  _Bool return_value_jack_params_check_address$2;
-  _Bool return_value_jack_params_is_leaf_container$3;
-  unsigned int return_value_dbus_message_iter_append_basic$4;
-  unsigned int return_value_dbus_message_iter_open_container$5;
-  _Bool return_value_jack_params_iterate_container$6;
-  if(!(return_value_jack_controller_dbus_get_parameter_address$1 == (_Bool)0))
+  _Bool return_value_jack_controller_dbus_get_parameter_address_1;
+  return_value_jack_controller_dbus_get_parameter_address_1=jack_controller_dbus_get_parameter_address(call, address);
+  _Bool return_value_jack_params_check_address_2;
+  _Bool return_value_jack_params_is_leaf_container_3;
+  unsigned int return_value_dbus_message_iter_append_basic_4;
+  unsigned int return_value_dbus_message_iter_open_container_5;
+  _Bool return_value_jack_params_iterate_container_6;
+  if(!(return_value_jack_controller_dbus_get_parameter_address_1 == (_Bool)0))
   {
     call->reply=dbus_message_new_method_return(call->message);
     if(!(call->reply == ((struct DBusMessage *)NULL)))
     {
       dbus_message_iter_init_append(call->reply, &iter);
-      return_value_jack_params_check_address$2=jack_params_check_address(((struct jack_controller *)call->context)->params, address, (_Bool)0);
-      if(return_value_jack_params_check_address$2 == (_Bool)0)
+      return_value_jack_params_check_address_2=jack_params_check_address(((struct jack_controller *)call->context)->params, address, (_Bool)0);
+      if(return_value_jack_params_check_address_2 == (_Bool)0)
       {
         jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid container address '%s':'%s':'%s' supplied to method '%s'.", address[(signed long int)0], address[(signed long int)1], address[(signed long int)2], call->method_name);
         goto __CPROVER_DUMP_L6;
       }
 
-      return_value_jack_params_is_leaf_container$3=jack_params_is_leaf_container(((struct jack_controller *)call->context)->params, address);
-      leaf = (unsigned int)return_value_jack_params_is_leaf_container$3;
-      return_value_dbus_message_iter_append_basic$4=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&leaf);
-      if(!(return_value_dbus_message_iter_append_basic$4 == 0u))
+      return_value_jack_params_is_leaf_container_3=jack_params_is_leaf_container(((struct jack_controller *)call->context)->params, address);
+      leaf = (unsigned int)return_value_jack_params_is_leaf_container_3;
+      return_value_dbus_message_iter_append_basic_4=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&leaf);
+      if(!(return_value_dbus_message_iter_append_basic_4 == 0u))
       {
-        return_value_dbus_message_iter_open_container$5=dbus_message_iter_open_container(&iter, (signed int)97, "s", &array_iter);
-        if(!(return_value_dbus_message_iter_open_container$5 == 0u))
+        return_value_dbus_message_iter_open_container_5=dbus_message_iter_open_container(&iter, (signed int)97, "s", &array_iter);
+        if(!(return_value_dbus_message_iter_open_container_5 == 0u))
         {
-          return_value_jack_params_iterate_container$6=jack_params_iterate_container(((struct jack_controller *)call->context)->params, address, append_node_name, (void *)&array_iter);
-          if(!(return_value_jack_params_iterate_container$6 == (_Bool)0))
+          return_value_jack_params_iterate_container_6=jack_params_iterate_container(((struct jack_controller *)call->context)->params, address, append_node_name, (void *)&array_iter);
+          if(!(return_value_jack_params_iterate_container_6 == (_Bool)0))
           {
             dbus_message_iter_close_container(&iter, &array_iter);
             goto __CPROVER_DUMP_L6;
@@ -5634,9 +5634,9 @@ static void jack_controller_dbus_reserve_client_name(struct jack_dbus_method_cal
   signed int ret;
   const char *client_name;
   const char *client_uuid;
-  _Bool return_value_jack_dbus_get_method_args$1;
-  return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)115, &client_name, (signed int)115, &client_uuid, (signed int)0);
-  if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+  _Bool return_value_jack_dbus_get_method_args_1;
+  return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)115, &client_name, (signed int)115, &client_uuid, (signed int)0);
+  if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
   {
     ret=jack_reserve_client_name(((struct jack_controller *)call->context)->client, client_name, client_uuid);
     if(!(ret >= 0))
@@ -5654,9 +5654,9 @@ static void jack_controller_dbus_reset_parameter_value(struct jack_dbus_method_c
 {
   const char *address[3l];
   struct jack_parameter *param_ptr;
-  _Bool return_value_jack_controller_dbus_get_parameter_address$1;
-  return_value_jack_controller_dbus_get_parameter_address$1=jack_controller_dbus_get_parameter_address(call, address);
-  if(!(return_value_jack_controller_dbus_get_parameter_address$1 == (_Bool)0))
+  _Bool return_value_jack_controller_dbus_get_parameter_address_1;
+  return_value_jack_controller_dbus_get_parameter_address_1=jack_controller_dbus_get_parameter_address(call, address);
+  if(!(return_value_jack_controller_dbus_get_parameter_address_1 == (_Bool)0))
   {
     param_ptr=jack_params_get_parameter(((struct jack_controller *)call->context)->params, address);
     if(param_ptr == ((struct jack_parameter *)NULL))
@@ -5687,9 +5687,9 @@ static void jack_controller_dbus_session_notify(struct jack_dbus_method_call *ca
 
   else
   {
-    _Bool return_value_jack_dbus_get_method_args$1;
-    return_value_jack_dbus_get_method_args$1=jack_dbus_get_method_args(call, (signed int)98, &queue, (signed int)115, &target, (signed int)117, &u32, (signed int)115, &path, (signed int)0);
-    if(!(return_value_jack_dbus_get_method_args$1 == (_Bool)0))
+    _Bool return_value_jack_dbus_get_method_args_1;
+    return_value_jack_dbus_get_method_args_1=jack_dbus_get_method_args(call, (signed int)98, &queue, (signed int)115, &target, (signed int)117, &u32, (signed int)115, &path, (signed int)0);
+    if(!(return_value_jack_dbus_get_method_args_1 == (_Bool)0))
     {
       if((signed int)*target == 0)
         target = (const char *)(void *)0;
@@ -5701,13 +5701,13 @@ static void jack_controller_dbus_session_notify(struct jack_dbus_method_call *ca
       else
       {
         pthread_mutex_lock(&((struct jack_controller *)call->context)->lock);
-        signed int return_value_list_empty$3;
-        return_value_list_empty$3=list_empty$link3(&((struct jack_controller *)call->context)->session_pending_commands);
-        if(!(return_value_list_empty$3 == 0))
+        signed int return_value_list_empty_3;
+        return_value_list_empty_3=list_empty_link3(&((struct jack_controller *)call->context)->session_pending_commands);
+        if(!(return_value_list_empty_3 == 0))
         {
-          _Bool return_value_start_detached_thread$2;
-          return_value_start_detached_thread$2=start_detached_thread(jack_controller_process_session_command_thread, (void *)(struct jack_controller *)call->context);
-          if(return_value_start_detached_thread$2 == (_Bool)0)
+          _Bool return_value_start_detached_thread_2;
+          return_value_start_detached_thread_2=start_detached_thread(jack_controller_process_session_command_thread, (void *)(struct jack_controller *)call->context);
+          if(return_value_start_detached_thread_2 == (_Bool)0)
           {
             jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "Cannot start thread to process the command");
             goto unlock;
@@ -5723,9 +5723,9 @@ static void jack_controller_dbus_session_notify(struct jack_dbus_method_call *ca
             goto unlock;
           }
 
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(struct jack_session_pending_command) /*56ul*/ );
-        cmd_ptr = (struct jack_session_pending_command *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(struct jack_session_pending_command) /*56ul*/ );
+        cmd_ptr = (struct jack_session_pending_command *)return_value_malloc_4;
         if(cmd_ptr == ((struct jack_session_pending_command *)NULL))
           jack_dbus_error((void *)call, "org.jackaudio.Error.Generic", "malloc() failed for jack_session_pending_command struct");
 
@@ -5737,7 +5737,7 @@ static void jack_controller_dbus_session_notify(struct jack_dbus_method_call *ca
           cmd_ptr->type = type;
           cmd_ptr->target = target;
           cmd_ptr->path = path;
-          list_add_tail$link3(&cmd_ptr->siblings, &((struct jack_controller *)call->context)->session_pending_commands);
+          list_add_tail_link3(&cmd_ptr->siblings, &((struct jack_controller *)call->context)->session_pending_commands);
           jack_log("Session notify scheduled. target='%s', type=%u, path='%s'", target, u32, path);
         }
 
@@ -5758,12 +5758,12 @@ static void jack_controller_dbus_set_parameter_value(struct jack_dbus_method_cal
   struct jack_parameter *param_ptr;
   struct DBusMessageIter iter;
   struct DBusMessageIter variant_iter;
-  union anonymous$5 arg;
+  union anonymous_5 arg;
   signed int arg_type;
   union jackctl_parameter_value value;
-  _Bool return_value_jack_controller_dbus_get_parameter_address_ex$1;
-  return_value_jack_controller_dbus_get_parameter_address_ex$1=jack_controller_dbus_get_parameter_address_ex(call, &iter, address);
-  if(!(return_value_jack_controller_dbus_get_parameter_address_ex$1 == (_Bool)0))
+  _Bool return_value_jack_controller_dbus_get_parameter_address_ex_1;
+  return_value_jack_controller_dbus_get_parameter_address_ex_1=jack_controller_dbus_get_parameter_address_ex(call, &iter, address);
+  if(!(return_value_jack_controller_dbus_get_parameter_address_ex_1 == (_Bool)0))
   {
     param_ptr=jack_params_get_parameter(((struct jack_controller *)call->context)->params, address);
     if(param_ptr == ((struct jack_parameter *)NULL))
@@ -5772,16 +5772,16 @@ static void jack_controller_dbus_set_parameter_value(struct jack_dbus_method_cal
     else
     {
       dbus_message_iter_next(&iter);
-      unsigned int return_value_dbus_message_iter_has_next$2;
-      return_value_dbus_message_iter_has_next$2=dbus_message_iter_has_next(&iter);
-      if(!(return_value_dbus_message_iter_has_next$2 == 0u))
+      unsigned int return_value_dbus_message_iter_has_next_2;
+      return_value_dbus_message_iter_has_next_2=dbus_message_iter_has_next(&iter);
+      if(!(return_value_dbus_message_iter_has_next_2 == 0u))
         jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid arguments to method '%s'. Too many arguments.", call->method_name);
 
       else
       {
-        signed int return_value_dbus_message_iter_get_arg_type$3;
-        return_value_dbus_message_iter_get_arg_type$3=dbus_message_iter_get_arg_type(&iter);
-        if(!(return_value_dbus_message_iter_get_arg_type$3 == 118))
+        signed int return_value_dbus_message_iter_get_arg_type_3;
+        return_value_dbus_message_iter_get_arg_type_3=dbus_message_iter_get_arg_type(&iter);
+        if(!(return_value_dbus_message_iter_get_arg_type_3 == 118))
           jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid arguments to method '%s'. Value to set must be variant.", call->method_name);
 
         else
@@ -5794,9 +5794,9 @@ static void jack_controller_dbus_set_parameter_value(struct jack_dbus_method_cal
 
           else
           {
-            _Bool return_value_jack_controller_dbus_to_jack_variant$4;
-            return_value_jack_controller_dbus_to_jack_variant$4=jack_controller_dbus_to_jack_variant(arg_type, &arg, &value);
-            if(return_value_jack_controller_dbus_to_jack_variant$4 == (_Bool)0)
+            _Bool return_value_jack_controller_dbus_to_jack_variant_4;
+            return_value_jack_controller_dbus_to_jack_variant_4=jack_controller_dbus_to_jack_variant(arg_type, &arg, &value);
+            if(return_value_jack_controller_dbus_to_jack_variant_4 == (_Bool)0)
               jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Cannot convert parameter value");
 
             else
@@ -5815,7 +5815,7 @@ static void jack_controller_dbus_set_parameter_value(struct jack_dbus_method_cal
 
 // jack_controller_dbus_to_jack_variant
 // file ../dbus/controller_iface_configure.c line 88
-static _Bool jack_controller_dbus_to_jack_variant(signed int type, const union anonymous$5 *dbusv_ptr, union jackctl_parameter_value *value_ptr)
+static _Bool jack_controller_dbus_to_jack_variant(signed int type, const union anonymous_5 *dbusv_ptr, union jackctl_parameter_value *value_ptr)
 {
   unsigned long int len;
   switch(type)
@@ -5868,10 +5868,10 @@ void jack_controller_deserialize_parameter_value(struct jack_controller *control
   union jackctl_parameter_value value;
   unsigned long int size;
   param_ptr=jack_params_get_parameter(controller_ptr->params, address);
-  unsigned long int return_value_strtoul$1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
+  unsigned long int return_value_strtoul_1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
   _Bool return_value;
   if(param_ptr == ((struct jack_parameter *)NULL))
     jack_error("Unknown parameter");
@@ -5888,18 +5888,18 @@ void jack_controller_deserialize_parameter_value(struct jack_controller *control
       }
       case JackParamUInt:
       {
-        return_value_strtoul$1=strtoul(option_value, (char ** restrict )(void *)0, 10);
-        value.ui = (unsigned int)return_value_strtoul$1;
+        return_value_strtoul_1=strtoul(option_value, (char ** restrict )(void *)0, 10);
+        value.ui = (unsigned int)return_value_strtoul_1;
         break;
       }
       case JackParamChar:
       {
         if((signed int)*option_value == 0)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)option_value[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)option_value[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           jack_error("invalid char option value \"%s\"", option_value);
           goto ignore;
@@ -5922,14 +5922,14 @@ void jack_controller_deserialize_parameter_value(struct jack_controller *control
       }
       case JackParamBool:
       {
-        return_value_strcmp$4=strcmp(option_value, "true");
-        if(return_value_strcmp$4 == 0)
+        return_value_strcmp_4=strcmp(option_value, "true");
+        if(return_value_strcmp_4 == 0)
           value.b = (_Bool)1;
 
         else
         {
-          return_value_strcmp$3=strcmp(option_value, "false");
-          if(return_value_strcmp$3 == 0)
+          return_value_strcmp_3=strcmp(option_value, "false");
+          if(return_value_strcmp_3 == 0)
             value.b = (_Bool)0;
 
           else
@@ -5959,12 +5959,12 @@ ignore:
 // file ../dbus/controller.h line 32
 void jack_controller_destroy(void *context)
 {
-  _Bool return_value_jack_controller_stop_server$1;
+  _Bool return_value_jack_controller_stop_server_1;
   if(!(((struct jack_controller *)context)->started == (_Bool)0))
     do
     {
-      return_value_jack_controller_stop_server$1=jack_controller_stop_server((struct jack_controller *)context, (void *)0);
-      if(return_value_jack_controller_stop_server$1 != (_Bool)0)
+      return_value_jack_controller_stop_server_1=jack_controller_stop_server((struct jack_controller *)context, (void *)0);
+      if(return_value_jack_controller_stop_server_1 != (_Bool)0)
         break;
 
       jack_info("jack server failed to stop, retrying in 3 seconds...");
@@ -5985,22 +5985,22 @@ static struct jackctl_driver * jack_controller_find_driver(struct jackctl_server
 {
   const struct _JSList *node_ptr;
   node_ptr=jackctl_server_get_drivers_list(server);
-  struct _JSList *tmp_if_expr$3;
+  struct _JSList *tmp_if_expr_3;
   while(!(node_ptr == ((const struct _JSList *)NULL)))
   {
-    const char *return_value_jackctl_driver_get_name$1;
-    return_value_jackctl_driver_get_name$1=jackctl_driver_get_name((struct jackctl_driver *)node_ptr->data);
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(return_value_jackctl_driver_get_name$1, driver_name);
-    if(return_value_strcmp$2 == 0)
+    const char *return_value_jackctl_driver_get_name_1;
+    return_value_jackctl_driver_get_name_1=jackctl_driver_get_name((struct jackctl_driver *)node_ptr->data);
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(return_value_jackctl_driver_get_name_1, driver_name);
+    if(return_value_strcmp_2 == 0)
       return (struct jackctl_driver *)node_ptr->data;
 
     if(!(node_ptr == ((const struct _JSList *)NULL)))
-      tmp_if_expr$3 = ((struct _JSList *)node_ptr)->next;
+      tmp_if_expr_3 = ((struct _JSList *)node_ptr)->next;
 
     else
-      tmp_if_expr$3 = (struct _JSList *)(void *)0;
-    node_ptr = tmp_if_expr$3;
+      tmp_if_expr_3 = (struct _JSList *)(void *)0;
+    node_ptr = tmp_if_expr_3;
   }
   return (struct jackctl_driver *)(void *)0;
 }
@@ -6011,22 +6011,22 @@ static struct jackctl_internal * jack_controller_find_internal(struct jackctl_se
 {
   const struct _JSList *node_ptr;
   node_ptr=jackctl_server_get_internals_list(server);
-  struct _JSList *tmp_if_expr$3;
+  struct _JSList *tmp_if_expr_3;
   while(!(node_ptr == ((const struct _JSList *)NULL)))
   {
-    const char *return_value_jackctl_internal_get_name$1;
-    return_value_jackctl_internal_get_name$1=jackctl_internal_get_name((struct jackctl_internal *)node_ptr->data);
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(return_value_jackctl_internal_get_name$1, internal_name);
-    if(return_value_strcmp$2 == 0)
+    const char *return_value_jackctl_internal_get_name_1;
+    return_value_jackctl_internal_get_name_1=jackctl_internal_get_name((struct jackctl_internal *)node_ptr->data);
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(return_value_jackctl_internal_get_name_1, internal_name);
+    if(return_value_strcmp_2 == 0)
       return (struct jackctl_internal *)node_ptr->data;
 
     if(!(node_ptr == ((const struct _JSList *)NULL)))
-      tmp_if_expr$3 = ((struct _JSList *)node_ptr)->next;
+      tmp_if_expr_3 = ((struct _JSList *)node_ptr)->next;
 
     else
-      tmp_if_expr$3 = (struct _JSList *)(void *)0;
-    node_ptr = tmp_if_expr$3;
+      tmp_if_expr_3 = (struct _JSList *)(void *)0;
+    node_ptr = tmp_if_expr_3;
   }
   return (struct jackctl_internal *)(void *)0;
 }
@@ -6051,11 +6051,11 @@ static signed int jack_controller_graph_order_callback(void *context)
       {
         jack_info("graph reorder: new port '%s'", ports[(signed long int)i]);
         port_ptr=jack_port_by_name(((struct jack_controller *)context)->client, ports[(signed long int)i]);
-        signed int return_value_jack_port_flags$1;
-        return_value_jack_port_flags$1=jack_port_flags(port_ptr);
-        unsigned int return_value_jack_port_type_id$2;
-        return_value_jack_port_type_id$2=jack_port_type_id(port_ptr);
-        jack_controller_patchbay_new_port((struct jack_controller_patchbay *)((struct jack_controller *)context)->patchbay_context, ports[(signed long int)i], (unsigned int)return_value_jack_port_flags$1, return_value_jack_port_type_id$2);
+        signed int return_value_jack_port_flags_1;
+        return_value_jack_port_flags_1=jack_port_flags(port_ptr);
+        unsigned int return_value_jack_port_type_id_2;
+        return_value_jack_port_type_id_2=jack_port_type_id(port_ptr);
+        jack_controller_patchbay_new_port((struct jack_controller_patchbay *)((struct jack_controller *)context)->patchbay_context, ports[(signed long int)i], (unsigned int)return_value_jack_port_flags_1, return_value_jack_port_type_id_2);
       }
       free((void *)ports);
     }
@@ -6118,7 +6118,7 @@ void jack_controller_introspect_init()
 
 // jack_controller_jack_to_dbus_variant
 // file ../dbus/controller_iface_configure.c line 57
-static _Bool jack_controller_jack_to_dbus_variant(enum anonymous$1 type, union jackctl_parameter_value *value_ptr, union anonymous$5 *dbusv_ptr)
+static _Bool jack_controller_jack_to_dbus_variant(enum anonymous_1 type, union jackctl_parameter_value *value_ptr, union anonymous_5 *dbusv_ptr)
 {
   switch((signed int)type)
   {
@@ -6169,9 +6169,9 @@ _Bool jack_controller_load_internal(struct jack_controller *controller_ptr, cons
   else
   {
     jack_info("internal \"%s\" selected", internal_name);
-    _Bool return_value_jackctl_server_load_internal$1;
-    return_value_jackctl_server_load_internal$1=jackctl_server_load_internal(controller_ptr->server, internal);
-    return return_value_jackctl_server_load_internal$1;
+    _Bool return_value_jackctl_server_load_internal_1;
+    return_value_jackctl_server_load_internal_1=jackctl_server_load_internal(controller_ptr->server, internal);
+    return return_value_jackctl_server_load_internal_1;
   }
 }
 
@@ -6182,7 +6182,7 @@ static _Bool jack_controller_load_slave_drivers(struct jack_controller *controll
   struct list_head *node_ptr;
   struct jack_controller_slave_driver *driver_ptr;
   node_ptr = (&controller_ptr->slave_drivers)->next;
-  struct jack_controller_slave_driver *tmp_statement_expression$1;
+  struct jack_controller_slave_driver *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -6190,15 +6190,15 @@ static _Bool jack_controller_load_slave_drivers(struct jack_controller *controll
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
-    driver_ptr = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
+    driver_ptr = tmp_statement_expression_1;
     /* assertion driver_ptr->handle != ((void *)0) */
     assert(driver_ptr->handle != (struct jackctl_driver *)(void *)0);
     /* assertion !driver_ptr->loaded */
     assert(!(driver_ptr->loaded != (_Bool)0));
-    _Bool return_value_jackctl_server_add_slave$2;
-    return_value_jackctl_server_add_slave$2=jackctl_server_add_slave(controller_ptr->server, driver_ptr->handle);
-    if(return_value_jackctl_server_add_slave$2 == (_Bool)0)
+    _Bool return_value_jackctl_server_add_slave_2;
+    return_value_jackctl_server_add_slave_2=jackctl_server_add_slave(controller_ptr->server, driver_ptr->handle);
+    if(return_value_jackctl_server_add_slave_2 == (_Bool)0)
     {
       jack_error("Driver \"%s\" cannot be loaded", driver_ptr->name);
       return (_Bool)0;
@@ -6236,18 +6236,18 @@ static _Bool jack_controller_patchbay_connect(struct jack_dbus_method_call *dbus
 static struct jack_graph_client * jack_controller_patchbay_create_client(struct jack_controller_patchbay *patchbay_ptr, const char *client_name, unsigned long int client_name_len)
 {
   struct jack_graph_client *client_ptr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct jack_graph_client) /*56ul*/ );
-  client_ptr = (struct jack_graph_client *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  unsigned long int tmp_post$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct jack_graph_client) /*56ul*/ );
+  client_ptr = (struct jack_graph_client *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  unsigned long int tmp_post_3;
   if(client_ptr == ((struct jack_graph_client *)NULL))
     jack_error("Memory allocation of jack_graph_client structure failed.");
 
   else
   {
-    return_value_malloc$2=malloc(client_name_len + (unsigned long int)1);
-    client_ptr->name = (char *)return_value_malloc$2;
+    return_value_malloc_2=malloc(client_name_len + (unsigned long int)1);
+    client_ptr->name = (char *)return_value_malloc_2;
     if(client_ptr->name == ((char *)NULL))
       jack_error("malloc() failed to allocate memory for client name.");
 
@@ -6257,12 +6257,12 @@ static struct jack_graph_client * jack_controller_patchbay_create_client(struct 
       client_ptr->name[(signed long int)client_name_len] = (char)0;
       client_ptr->pid=jack_get_client_pid(client_ptr->name);
       jack_info("New client '%s' with PID %d", client_ptr->name, client_ptr->pid);
-      tmp_post$3 = patchbay_ptr->next_client_id;
+      tmp_post_3 = patchbay_ptr->next_client_id;
       patchbay_ptr->next_client_id = patchbay_ptr->next_client_id + 1ul;
-      client_ptr->id = tmp_post$3;
-      INIT_LIST_HEAD$link2(&client_ptr->ports);
+      client_ptr->id = tmp_post_3;
+      INIT_LIST_HEAD_link2(&client_ptr->ports);
       pthread_mutex_lock(&patchbay_ptr->lock);
-      list_add_tail$link2(&client_ptr->siblings, &patchbay_ptr->graph.clients);
+      list_add_tail_link2(&client_ptr->siblings, &patchbay_ptr->graph.clients);
       patchbay_ptr->graph.version = patchbay_ptr->graph.version + 1ul;
       jack_controller_patchbay_send_signal_client_appeared(patchbay_ptr->graph.version, client_ptr->id, client_ptr->name);
       jack_controller_patchbay_send_signal_graph_changed(patchbay_ptr->graph.version);
@@ -6285,10 +6285,10 @@ fail:
 static struct jack_graph_connection * jack_controller_patchbay_create_connection(struct jack_controller_patchbay *patchbay_ptr, struct jack_graph_port *port1_ptr, struct jack_graph_port *port2_ptr)
 {
   struct jack_graph_connection *connection_ptr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct jack_graph_connection) /*40ul*/ );
-  connection_ptr = (struct jack_graph_connection *)return_value_malloc$1;
-  unsigned long int tmp_post$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct jack_graph_connection) /*40ul*/ );
+  connection_ptr = (struct jack_graph_connection *)return_value_malloc_1;
+  unsigned long int tmp_post_2;
   if(connection_ptr == ((struct jack_graph_connection *)NULL))
   {
     jack_error("Memory allocation of jack_graph_connection structure failed.");
@@ -6297,13 +6297,13 @@ static struct jack_graph_connection * jack_controller_patchbay_create_connection
 
   else
   {
-    tmp_post$2 = patchbay_ptr->next_connection_id;
+    tmp_post_2 = patchbay_ptr->next_connection_id;
     patchbay_ptr->next_connection_id = patchbay_ptr->next_connection_id + 1ul;
-    connection_ptr->id = tmp_post$2;
+    connection_ptr->id = tmp_post_2;
     connection_ptr->port1 = port1_ptr;
     connection_ptr->port2 = port2_ptr;
     pthread_mutex_lock(&patchbay_ptr->lock);
-    list_add_tail$link2(&connection_ptr->siblings, &patchbay_ptr->graph.connections);
+    list_add_tail_link2(&connection_ptr->siblings, &patchbay_ptr->graph.connections);
     patchbay_ptr->graph.version = patchbay_ptr->graph.version + 1ul;
     jack_controller_patchbay_send_signal_ports_connected(patchbay_ptr->graph.version, port1_ptr->client->id, port1_ptr->client->name, port1_ptr->id, port1_ptr->name, port2_ptr->client->id, port2_ptr->client->name, port2_ptr->id, port2_ptr->name, connection_ptr->id);
     jack_controller_patchbay_send_signal_graph_changed(patchbay_ptr->graph.version);
@@ -6318,7 +6318,7 @@ static void jack_controller_patchbay_destroy_client(struct jack_controller_patch
 {
   jack_info("Client '%s' with PID %d is out", client_ptr->name, client_ptr->pid);
   pthread_mutex_lock(&patchbay_ptr->lock);
-  list_del$link2(&client_ptr->siblings);
+  list_del_link2(&client_ptr->siblings);
   patchbay_ptr->graph.version = patchbay_ptr->graph.version + 1ul;
   jack_controller_patchbay_send_signal_client_disappeared(patchbay_ptr->graph.version, client_ptr->id, client_ptr->name);
   jack_controller_patchbay_send_signal_graph_changed(patchbay_ptr->graph.version);
@@ -6332,9 +6332,9 @@ static void jack_controller_patchbay_destroy_client(struct jack_controller_patch
 static void jack_controller_patchbay_destroy_client_by_name(struct jack_controller_patchbay *patchbay_ptr, const char *client_name)
 {
   struct jack_graph_client *client_ptr;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(client_name);
-  client_ptr=jack_controller_patchbay_find_client(patchbay_ptr, client_name, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(client_name);
+  client_ptr=jack_controller_patchbay_find_client(patchbay_ptr, client_name, return_value_strlen_1);
   if(client_ptr == ((struct jack_graph_client *)NULL))
     jack_error("Cannot destroy unknown client '%s'", client_name);
 
@@ -6347,7 +6347,7 @@ static void jack_controller_patchbay_destroy_client_by_name(struct jack_controll
 static void jack_controller_patchbay_destroy_connection(struct jack_controller_patchbay *patchbay_ptr, struct jack_graph_connection *connection_ptr)
 {
   pthread_mutex_lock(&patchbay_ptr->lock);
-  list_del$link2(&connection_ptr->siblings);
+  list_del_link2(&connection_ptr->siblings);
   patchbay_ptr->graph.version = patchbay_ptr->graph.version + 1ul;
   jack_controller_patchbay_send_signal_ports_disconnected(patchbay_ptr->graph.version, connection_ptr->port1->client->id, connection_ptr->port1->client->name, connection_ptr->port1->id, connection_ptr->port1->name, connection_ptr->port2->client->id, connection_ptr->port2->client->name, connection_ptr->port2->id, connection_ptr->port2->name, connection_ptr->id);
   jack_controller_patchbay_send_signal_graph_changed(patchbay_ptr->graph.version);
@@ -6382,8 +6382,8 @@ static struct jack_graph_client * jack_controller_patchbay_find_client(struct ja
   struct list_head *node_ptr;
   struct jack_graph_client *client_ptr;
   node_ptr = (&patchbay_ptr->graph.clients)->next;
-  struct jack_graph_client *tmp_statement_expression$1;
-  signed int return_value_strncmp$2;
+  struct jack_graph_client *tmp_statement_expression_1;
+  signed int return_value_strncmp_2;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -6391,14 +6391,14 @@ static struct jack_graph_client * jack_controller_patchbay_find_client(struct ja
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
-    client_ptr = tmp_statement_expression$1;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(client_ptr->name);
-    if(return_value_strlen$3 == client_name_len)
+    tmp_statement_expression_1 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
+    client_ptr = tmp_statement_expression_1;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(client_ptr->name);
+    if(return_value_strlen_3 == client_name_len)
     {
-      return_value_strncmp$2=strncmp(client_ptr->name, client_name, client_name_len);
-      if(return_value_strncmp$2 == 0)
+      return_value_strncmp_2=strncmp(client_ptr->name, client_name, client_name_len);
+      if(return_value_strncmp_2 == 0)
         return client_ptr;
 
     }
@@ -6416,7 +6416,7 @@ static struct jack_graph_client * jack_controller_patchbay_find_client_by_id(str
   struct list_head *node_ptr;
   struct jack_graph_client *client_ptr;
   node_ptr = (&patchbay_ptr->graph.clients)->next;
-  struct jack_graph_client *tmp_statement_expression$1;
+  struct jack_graph_client *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -6424,8 +6424,8 @@ static struct jack_graph_client * jack_controller_patchbay_find_client_by_id(str
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
-    client_ptr = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct jack_graph_client *)((char *)__mptr - (signed long int)24ul);
+    client_ptr = tmp_statement_expression_1;
     if(client_ptr->id == id)
       return client_ptr;
 
@@ -6442,7 +6442,7 @@ static struct jack_graph_port * jack_controller_patchbay_find_client_port_by_nam
   struct list_head *node_ptr;
   struct jack_graph_port *port_ptr;
   node_ptr = (&client_ptr->ports)->next;
-  struct jack_graph_port *tmp_statement_expression$1;
+  struct jack_graph_port *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -6450,11 +6450,11 @@ static struct jack_graph_port * jack_controller_patchbay_find_client_port_by_nam
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_graph_port *)((char *)__mptr - (signed long int)40ul);
-    port_ptr = tmp_statement_expression$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(port_ptr->name, port_name);
-    if(return_value_strcmp$2 == 0)
+    tmp_statement_expression_1 = (struct jack_graph_port *)((char *)__mptr - (signed long int)40ul);
+    port_ptr = tmp_statement_expression_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(port_ptr->name, port_name);
+    if(return_value_strcmp_2 == 0)
       return port_ptr;
 
     node_ptr = node_ptr->next;
@@ -6470,10 +6470,10 @@ static struct jack_graph_connection * jack_controller_patchbay_find_connection(s
   struct list_head *node_ptr;
   struct jack_graph_connection *connection_ptr;
   node_ptr = (&patchbay_ptr->graph.connections)->next;
-  struct jack_graph_connection *tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  struct jack_graph_connection *tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -6481,26 +6481,26 @@ static struct jack_graph_connection * jack_controller_patchbay_find_connection(s
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_graph_connection *)((char *)__mptr - (signed long int)24ul);
-    connection_ptr = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct jack_graph_connection *)((char *)__mptr - (signed long int)24ul);
+    connection_ptr = tmp_statement_expression_1;
     if(connection_ptr->port1 == port1_ptr)
-      tmp_if_expr$2 = connection_ptr->port2 == port2_ptr ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = connection_ptr->port2 == port2_ptr ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(connection_ptr->port1 == port2_ptr)
-        tmp_if_expr$3 = connection_ptr->port2 == port1_ptr ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = connection_ptr->port2 == port1_ptr ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       return connection_ptr;
 
     node_ptr = node_ptr->next;
@@ -6516,7 +6516,7 @@ static struct jack_graph_connection * jack_controller_patchbay_find_connection_b
   struct list_head *node_ptr;
   struct jack_graph_connection *connection_ptr;
   node_ptr = (&patchbay_ptr->graph.connections)->next;
-  struct jack_graph_connection *tmp_statement_expression$1;
+  struct jack_graph_connection *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -6524,8 +6524,8 @@ static struct jack_graph_connection * jack_controller_patchbay_find_connection_b
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_graph_connection *)((char *)__mptr - (signed long int)24ul);
-    connection_ptr = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct jack_graph_connection *)((char *)__mptr - (signed long int)24ul);
+    connection_ptr = tmp_statement_expression_1;
     if(connection_ptr->id == connection_id)
       return connection_ptr;
 
@@ -6562,9 +6562,9 @@ static struct jack_graph_port * jack_controller_patchbay_find_port_by_full_name(
 
     else
     {
-      struct jack_graph_port *return_value_jack_controller_patchbay_find_client_port_by_name$1;
-      return_value_jack_controller_patchbay_find_client_port_by_name$1=jack_controller_patchbay_find_client_port_by_name(patchbay_ptr, client_ptr, port_short_name);
-      return return_value_jack_controller_patchbay_find_client_port_by_name$1;
+      struct jack_graph_port *return_value_jack_controller_patchbay_find_client_port_by_name_1;
+      return_value_jack_controller_patchbay_find_client_port_by_name_1=jack_controller_patchbay_find_client_port_by_name(patchbay_ptr, client_ptr, port_short_name);
+      return return_value_jack_controller_patchbay_find_client_port_by_name_1;
     }
   }
 }
@@ -6576,7 +6576,7 @@ static struct jack_graph_port * jack_controller_patchbay_find_port_by_id(struct 
   struct list_head *node_ptr;
   struct jack_graph_port *port_ptr;
   node_ptr = (&patchbay_ptr->graph.ports)->next;
-  struct jack_graph_port *tmp_statement_expression$1;
+  struct jack_graph_port *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -6584,8 +6584,8 @@ static struct jack_graph_port * jack_controller_patchbay_find_port_by_id(struct 
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_graph_port *)((char *)__mptr - (signed long int)24ul);
-    port_ptr = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct jack_graph_port *)((char *)__mptr - (signed long int)24ul);
+    port_ptr = tmp_statement_expression_1;
     if(port_ptr->id == port_id)
       return port_ptr;
 
@@ -6600,9 +6600,9 @@ static struct jack_graph_port * jack_controller_patchbay_find_port_by_id(struct 
 static struct jack_graph_port * jack_controller_patchbay_find_port_by_names(struct jack_controller_patchbay *patchbay_ptr, const char *client_name, const char *port_name)
 {
   struct jack_graph_client *client_ptr;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(client_name);
-  client_ptr=jack_controller_patchbay_find_client(patchbay_ptr, client_name, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(client_name);
+  client_ptr=jack_controller_patchbay_find_client(patchbay_ptr, client_name, return_value_strlen_1);
   if(client_ptr == ((struct jack_graph_client *)NULL))
   {
     jack_error("cannot find client '%s'", client_name);
@@ -6611,9 +6611,9 @@ static struct jack_graph_port * jack_controller_patchbay_find_port_by_names(stru
 
   else
   {
-    struct jack_graph_port *return_value_jack_controller_patchbay_find_client_port_by_name$2;
-    return_value_jack_controller_patchbay_find_client_port_by_name$2=jack_controller_patchbay_find_client_port_by_name(patchbay_ptr, client_ptr, port_name);
-    return return_value_jack_controller_patchbay_find_client_port_by_name$2;
+    struct jack_graph_port *return_value_jack_controller_patchbay_find_client_port_by_name_2;
+    return_value_jack_controller_patchbay_find_client_port_by_name_2=jack_controller_patchbay_find_client_port_by_name(patchbay_ptr, client_ptr, port_name);
+    return return_value_jack_controller_patchbay_find_client_port_by_name_2;
   }
 }
 
@@ -6623,10 +6623,10 @@ _Bool jack_controller_patchbay_init(struct jack_controller *controller_ptr)
 {
   signed int ret;
   struct jack_controller_patchbay *patchbay_ptr;
-  union anonymous$6 attr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct jack_controller_patchbay) /*120ul*/ );
-  patchbay_ptr = (struct jack_controller_patchbay *)return_value_malloc$1;
+  union anonymous_6 attr;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct jack_controller_patchbay) /*120ul*/ );
+  patchbay_ptr = (struct jack_controller_patchbay *)return_value_malloc_1;
   if(patchbay_ptr == ((struct jack_controller_patchbay *)NULL))
     jack_error("Memory allocation of jack_controller_patchbay structure failed.");
 
@@ -6639,9 +6639,9 @@ _Bool jack_controller_patchbay_init(struct jack_controller *controller_ptr)
       if(ret == 0)
       {
         pthread_mutex_init(&patchbay_ptr->lock, &attr);
-        INIT_LIST_HEAD$link2(&patchbay_ptr->graph.clients);
-        INIT_LIST_HEAD$link2(&patchbay_ptr->graph.ports);
-        INIT_LIST_HEAD$link2(&patchbay_ptr->graph.connections);
+        INIT_LIST_HEAD_link2(&patchbay_ptr->graph.clients);
+        INIT_LIST_HEAD_link2(&patchbay_ptr->graph.ports);
+        INIT_LIST_HEAD_link2(&patchbay_ptr->graph.connections);
         patchbay_ptr->graph.version = (unsigned long int)1;
         patchbay_ptr->next_client_id = (unsigned long int)1;
         patchbay_ptr->next_port_id = (unsigned long int)1;
@@ -6705,7 +6705,7 @@ static void jack_controller_patchbay_new_port(struct jack_controller_patchbay *p
   const char *port_short_name;
   unsigned long int client_name_len;
   port_short_name=strchr(port_full_name, 58);
-  unsigned long int tmp_post$2;
+  unsigned long int tmp_post_2;
   if(port_short_name == ((const char *)NULL))
     jack_error("port name '%s' does not contain ':' separator char", port_full_name);
 
@@ -6728,9 +6728,9 @@ static void jack_controller_patchbay_new_port(struct jack_controller_patchbay *p
 
     __CPROVER_DUMP_L2:
       ;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct jack_graph_port) /*64ul*/ );
-      port_ptr = (struct jack_graph_port *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct jack_graph_port) /*64ul*/ );
+      port_ptr = (struct jack_graph_port *)return_value_malloc_1;
       if(port_ptr == ((struct jack_graph_port *)NULL))
         jack_error("Memory allocation of jack_graph_port structure failed.");
 
@@ -6745,15 +6745,15 @@ static void jack_controller_patchbay_new_port(struct jack_controller_patchbay *p
 
         else
         {
-          tmp_post$2 = patchbay_ptr->next_port_id;
+          tmp_post_2 = patchbay_ptr->next_port_id;
           patchbay_ptr->next_port_id = patchbay_ptr->next_port_id + 1ul;
-          port_ptr->id = tmp_post$2;
+          port_ptr->id = tmp_post_2;
           port_ptr->flags = port_flags;
           port_ptr->type = port_type;
           port_ptr->client = client_ptr;
           pthread_mutex_lock(&patchbay_ptr->lock);
-          list_add_tail$link2(&port_ptr->siblings_client, &client_ptr->ports);
-          list_add_tail$link2(&port_ptr->siblings_graph, &patchbay_ptr->graph.ports);
+          list_add_tail_link2(&port_ptr->siblings_client, &client_ptr->ports);
+          list_add_tail_link2(&port_ptr->siblings_graph, &patchbay_ptr->graph.ports);
           patchbay_ptr->graph.version = patchbay_ptr->graph.version + 1ul;
           jack_controller_patchbay_send_signal_port_appeared(patchbay_ptr->graph.version, client_ptr->id, client_ptr->name, port_ptr->id, port_ptr->name, port_ptr->flags, port_ptr->type);
           jack_controller_patchbay_send_signal_graph_changed(patchbay_ptr->graph.version);
@@ -6769,8 +6769,8 @@ static void jack_controller_patchbay_new_port(struct jack_controller_patchbay *p
 static void jack_controller_patchbay_remove_port(struct jack_controller_patchbay *patchbay_ptr, struct jack_graph_port *port_ptr)
 {
   pthread_mutex_lock(&patchbay_ptr->lock);
-  list_del$link2(&port_ptr->siblings_client);
-  list_del$link2(&port_ptr->siblings_graph);
+  list_del_link2(&port_ptr->siblings_client);
+  list_del_link2(&port_ptr->siblings_graph);
   patchbay_ptr->graph.version = patchbay_ptr->graph.version + 1ul;
   jack_controller_patchbay_send_signal_port_disappeared(patchbay_ptr->graph.version, port_ptr->client->id, port_ptr->client->name, port_ptr->id, port_ptr->name);
   jack_controller_patchbay_send_signal_graph_changed(patchbay_ptr->graph.version);
@@ -6841,31 +6841,31 @@ void jack_controller_patchbay_uninit(struct jack_controller *controller_ptr)
 {
   struct jack_graph_client *client_ptr;
   struct jack_graph_port *port_ptr;
-  signed int return_value_list_empty$1;
-  struct jack_graph_port *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct jack_graph_port *tmp_statement_expression_2;
   do
   {
-    return_value_list_empty$1=list_empty$link2(&((struct jack_controller_patchbay *)controller_ptr->patchbay_context)->graph.ports);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty_link2(&((struct jack_controller_patchbay *)controller_ptr->patchbay_context)->graph.ports);
+    if(!(return_value_list_empty_1 == 0))
       break;
 
     const struct list_head *__mptr = ((struct jack_controller_patchbay *)controller_ptr->patchbay_context)->graph.ports.next;
-    tmp_statement_expression$2 = (struct jack_graph_port *)((char *)__mptr - (signed long int)24ul);
-    port_ptr = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct jack_graph_port *)((char *)__mptr - (signed long int)24ul);
+    port_ptr = tmp_statement_expression_2;
     jack_controller_patchbay_remove_port((struct jack_controller_patchbay *)controller_ptr->patchbay_context, port_ptr);
   }
   while((_Bool)1);
-  signed int return_value_list_empty$3;
-  struct jack_graph_client *tmp_statement_expression$4;
+  signed int return_value_list_empty_3;
+  struct jack_graph_client *tmp_statement_expression_4;
   do
   {
-    return_value_list_empty$3=list_empty$link2(&((struct jack_controller_patchbay *)controller_ptr->patchbay_context)->graph.clients);
-    if(!(return_value_list_empty$3 == 0))
+    return_value_list_empty_3=list_empty_link2(&((struct jack_controller_patchbay *)controller_ptr->patchbay_context)->graph.clients);
+    if(!(return_value_list_empty_3 == 0))
       break;
 
-    const struct list_head *jack_controller_patchbay_uninit$$1$$2$$1$$__mptr = ((struct jack_controller_patchbay *)controller_ptr->patchbay_context)->graph.clients.next;
-    tmp_statement_expression$4 = (struct jack_graph_client *)((char *)jack_controller_patchbay_uninit$$1$$2$$1$$__mptr - (signed long int)24ul);
-    client_ptr = tmp_statement_expression$4;
+    const struct list_head *jack_controller_patchbay_uninit__1__2__1____mptr = ((struct jack_controller_patchbay *)controller_ptr->patchbay_context)->graph.clients.next;
+    tmp_statement_expression_4 = (struct jack_graph_client *)((char *)jack_controller_patchbay_uninit__1__2__1____mptr - (signed long int)24ul);
+    client_ptr = tmp_statement_expression_4;
     jack_controller_patchbay_destroy_client((struct jack_controller_patchbay *)controller_ptr->patchbay_context, client_ptr);
   }
   while((_Bool)1);
@@ -6877,13 +6877,13 @@ void jack_controller_patchbay_uninit(struct jack_controller *controller_ptr)
 void jack_controller_pending_save(struct jack_controller *controller_ptr)
 {
   struct sysinfo si;
-  signed int return_value_sysinfo$2;
-  return_value_sysinfo$2=sysinfo(&si);
-  if(!(return_value_sysinfo$2 == 0))
+  signed int return_value_sysinfo_2;
+  return_value_sysinfo_2=sysinfo(&si);
+  if(!(return_value_sysinfo_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    jack_error("sysinfo() failed with %d.", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    jack_error("sysinfo() failed with %d.", *return_value___errno_location_1);
     controller_ptr->pending_save = (signed long int)0;
     jack_controller_settings_save_auto(controller_ptr);
     goto __CPROVER_DUMP_L2;
@@ -6964,11 +6964,11 @@ void jack_controller_port_registration_callback(unsigned int port_id, signed int
   if(!(created == 0))
   {
     jack_log("port '%s' created", port_name);
-    signed int return_value_jack_port_flags$1;
-    return_value_jack_port_flags$1=jack_port_flags(port_ptr);
-    unsigned int return_value_jack_port_type_id$2;
-    return_value_jack_port_type_id$2=jack_port_type_id(port_ptr);
-    jack_controller_patchbay_new_port((struct jack_controller_patchbay *)((struct jack_controller *)context)->patchbay_context, port_name, (unsigned int)return_value_jack_port_flags$1, return_value_jack_port_type_id$2);
+    signed int return_value_jack_port_flags_1;
+    return_value_jack_port_flags_1=jack_port_flags(port_ptr);
+    unsigned int return_value_jack_port_type_id_2;
+    return_value_jack_port_type_id_2=jack_port_type_id(port_ptr);
+    jack_controller_patchbay_new_port((struct jack_controller_patchbay *)((struct jack_controller *)context)->patchbay_context, port_name, (unsigned int)return_value_jack_port_flags_1, return_value_jack_port_type_id_2);
   }
 
   else
@@ -7054,49 +7054,49 @@ signed int jack_controller_port_rename_callback(unsigned int port, const char *o
 void * jack_controller_process_session_command_thread(void *context)
 {
   struct jack_session_pending_command *pending_cmd_ptr;
-  struct anonymous$9 *commands;
+  struct anonymous_9 *commands;
   jack_log("jack_controller_process_session_command_thread enter");
   pthread_mutex_lock(&((struct jack_controller *)context)->lock);
-  signed int return_value_list_empty$1;
-  struct jack_session_pending_command *tmp_statement_expression$2;
-  signed int return_value_list_empty$3;
-  struct jack_session_pending_command *tmp_statement_expression$4;
-  signed int return_value_list_empty$5;
+  signed int return_value_list_empty_1;
+  struct jack_session_pending_command *tmp_statement_expression_2;
+  signed int return_value_list_empty_3;
+  struct jack_session_pending_command *tmp_statement_expression_4;
+  signed int return_value_list_empty_5;
   do
   {
 
   loop:
     ;
-    return_value_list_empty$1=list_empty$link3(&((struct jack_controller *)context)->session_pending_commands);
+    return_value_list_empty_1=list_empty_link3(&((struct jack_controller *)context)->session_pending_commands);
     /* assertion !list_empty(&((struct jack_controller *)context)->session_pending_commands) */
-    assert(!(return_value_list_empty$1 != 0));
+    assert(!(return_value_list_empty_1 != 0));
     const struct list_head *__mptr = ((struct jack_controller *)context)->session_pending_commands.next;
-    tmp_statement_expression$2 = (struct jack_session_pending_command *)((char *)__mptr - (signed long int)0ul);
-    pending_cmd_ptr = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct jack_session_pending_command *)((char *)__mptr - (signed long int)0ul);
+    pending_cmd_ptr = tmp_statement_expression_2;
     pthread_mutex_unlock(&((struct jack_controller *)context)->lock);
     jack_info("Session notify initiated. target='%s', type=%d, path='%s'", pending_cmd_ptr->target, (signed int)pending_cmd_ptr->type, pending_cmd_ptr->path);
     jack_controller_control_send_signal_session_state_changed(pending_cmd_ptr->type, pending_cmd_ptr->target);
     commands=jack_session_notify(((struct jack_controller *)context)->client, pending_cmd_ptr->target, pending_cmd_ptr->type, pending_cmd_ptr->path);
     send_session_notify_reply(pending_cmd_ptr, commands);
-    if(!(commands == ((struct anonymous$9 *)NULL)))
+    if(!(commands == ((struct anonymous_9 *)NULL)))
       jack_session_commands_free(commands);
 
     pthread_mutex_lock(&((struct jack_controller *)context)->lock);
     jack_controller_control_send_signal_session_state_changed((enum JackSessionEventType)0, (const char *)(void *)0);
-    return_value_list_empty$3=list_empty$link3(&((struct jack_controller *)context)->session_pending_commands);
+    return_value_list_empty_3=list_empty_link3(&((struct jack_controller *)context)->session_pending_commands);
     /* assertion !list_empty(&((struct jack_controller *)context)->session_pending_commands) */
-    assert(!(return_value_list_empty$3 != 0));
-    const struct list_head *jack_controller_process_session_command_thread$$1$$3$$__mptr = ((struct jack_controller *)context)->session_pending_commands.next;
-    tmp_statement_expression$4 = (struct jack_session_pending_command *)((char *)jack_controller_process_session_command_thread$$1$$3$$__mptr - (signed long int)0ul);
+    assert(!(return_value_list_empty_3 != 0));
+    const struct list_head *jack_controller_process_session_command_thread__1__3____mptr = ((struct jack_controller *)context)->session_pending_commands.next;
+    tmp_statement_expression_4 = (struct jack_session_pending_command *)((char *)jack_controller_process_session_command_thread__1__3____mptr - (signed long int)0ul);
     /* assertion pending_cmd_ptr == ({ const typeof( ((struct jack_session_pending_command *)0)->siblings ) *__mptr = (((struct jack_controller *)context)->session_pending_commands.next); (struct jack_session_pending_command *)( (char *)__mptr - __builtin_offsetof (struct jack_session_pending_command, siblings) );}) */
-    assert(pending_cmd_ptr == tmp_statement_expression$4);
-    list_del$link3(&pending_cmd_ptr->siblings);
+    assert(pending_cmd_ptr == tmp_statement_expression_4);
+    list_del_link3(&pending_cmd_ptr->siblings);
     dbus_message_unref(pending_cmd_ptr->message);
     dbus_connection_ref(pending_cmd_ptr->connection);
     free((void *)pending_cmd_ptr);
-    return_value_list_empty$5=list_empty$link3(&((struct jack_controller *)context)->session_pending_commands);
+    return_value_list_empty_5=list_empty_link3(&((struct jack_controller *)context)->session_pending_commands);
   }
-  while(return_value_list_empty$5 == 0);
+  while(return_value_list_empty_5 == 0);
   pthread_mutex_unlock(&((struct jack_controller *)context)->lock);
   jack_log("jack_controller_process_session_command_thread exit");
   return (void *)0;
@@ -7109,8 +7109,8 @@ _Bool jack_controller_remove_slave_driver(struct jack_controller *controller_ptr
   struct list_head *node_ptr;
   struct jack_controller_slave_driver *driver_ptr;
   node_ptr = (&controller_ptr->slave_drivers)->next;
-  struct jack_controller_slave_driver *tmp_statement_expression$1;
-  struct jack_controller_slave_driver *tmp_statement_expression$2;
+  struct jack_controller_slave_driver *tmp_statement_expression_1;
+  struct jack_controller_slave_driver *tmp_statement_expression_2;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -7118,11 +7118,11 @@ _Bool jack_controller_remove_slave_driver(struct jack_controller *controller_ptr
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
-    driver_ptr = tmp_statement_expression$1;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(driver_ptr->name, driver_name);
-    if(return_value_strcmp$3 == 0)
+    tmp_statement_expression_1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
+    driver_ptr = tmp_statement_expression_1;
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(driver_ptr->name, driver_name);
+    if(return_value_strcmp_3 == 0)
     {
       list_del(&driver_ptr->siblings);
       free((void *)driver_ptr->name);
@@ -7135,9 +7135,9 @@ _Bool jack_controller_remove_slave_driver(struct jack_controller *controller_ptr
         if(node_ptr == &controller_ptr->slave_drivers)
           break;
 
-        const struct list_head *jack_controller_remove_slave_driver$$1$$1$$1$$2$$1$$1$$1$$__mptr = node_ptr;
-        tmp_statement_expression$2 = (struct jack_controller_slave_driver *)((char *)jack_controller_remove_slave_driver$$1$$1$$1$$2$$1$$1$$1$$__mptr - (signed long int)0ul);
-        driver_ptr = tmp_statement_expression$2;
+        const struct list_head *jack_controller_remove_slave_driver__1__1__1__2__1__1__1____mptr = node_ptr;
+        tmp_statement_expression_2 = (struct jack_controller_slave_driver *)((char *)jack_controller_remove_slave_driver__1__1__1__2__1__1__1____mptr - (signed long int)0ul);
+        driver_ptr = tmp_statement_expression_2;
         if(!((signed int)controller_ptr->slave_drivers_vparam_value.str[0l] == 0))
           strcat(controller_ptr->slave_drivers_vparam_value.str, ",");
 
@@ -7160,17 +7160,17 @@ _Bool jack_controller_remove_slave_driver(struct jack_controller *controller_ptr
 static void jack_controller_remove_slave_drivers(struct jack_controller *controller_ptr)
 {
   struct jack_controller_slave_driver *driver_ptr;
-  signed int return_value_list_empty$1;
-  struct jack_controller_slave_driver *tmp_statement_expression$2;
+  signed int return_value_list_empty_1;
+  struct jack_controller_slave_driver *tmp_statement_expression_2;
   do
   {
-    return_value_list_empty$1=list_empty(&controller_ptr->slave_drivers);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty(&controller_ptr->slave_drivers);
+    if(!(return_value_list_empty_1 == 0))
       break;
 
     const struct list_head *__mptr = controller_ptr->slave_drivers.next;
-    tmp_statement_expression$2 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
-    driver_ptr = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
+    driver_ptr = tmp_statement_expression_2;
     /* assertion !driver_ptr->loaded */
     assert(!(driver_ptr->loaded != (_Bool)0));
     list_del(&driver_ptr->siblings);
@@ -7188,13 +7188,13 @@ void jack_controller_run(void *context)
   struct sysinfo si;
   if(!(((struct jack_controller *)context)->pending_save == 0l))
   {
-    signed int return_value_sysinfo$2;
-    return_value_sysinfo$2=sysinfo(&si);
-    if(!(return_value_sysinfo$2 == 0))
+    signed int return_value_sysinfo_2;
+    return_value_sysinfo_2=sysinfo(&si);
+    if(!(return_value_sysinfo_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      jack_error("sysinfo() failed with %d", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      jack_error("sysinfo() failed with %d", *return_value___errno_location_1);
     }
 
     else
@@ -7214,9 +7214,9 @@ __CPROVER_DUMP_L4:
 // file ../dbus/controller.c line 169
 _Bool jack_controller_select_driver(struct jack_controller *controller_ptr, const char *driver_name)
 {
-  _Bool return_value_jack_params_set_driver$1;
-  return_value_jack_params_set_driver$1=jack_params_set_driver(controller_ptr->params, driver_name);
-  if(return_value_jack_params_set_driver$1 == (_Bool)0)
+  _Bool return_value_jack_params_set_driver_1;
+  return_value_jack_params_set_driver_1=jack_params_set_driver(controller_ptr->params, driver_name);
+  if(return_value_jack_params_set_driver_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -7233,65 +7233,65 @@ static _Bool jack_controller_serialize_parameter(void *context, struct jack_para
   char value[128l];
   _Bool return_value;
   return_value=param_ptr->vtable.is_set(param_ptr->obj);
-  _Bool tmp_if_expr$3;
-  _Bool return_value_jack_controller_settings_write_string$2;
-  _Bool tmp_if_expr$5;
-  _Bool return_value_jack_controller_settings_write_string$4;
-  _Bool tmp_if_expr$7;
-  _Bool return_value_jack_controller_settings_write_string$6;
-  _Bool tmp_if_expr$9;
-  _Bool return_value_jack_controller_settings_write_string$8;
-  _Bool tmp_if_expr$11;
-  _Bool return_value_jack_controller_settings_write_string$10;
+  _Bool tmp_if_expr_3;
+  _Bool return_value_jack_controller_settings_write_string_2;
+  _Bool tmp_if_expr_5;
+  _Bool return_value_jack_controller_settings_write_string_4;
+  _Bool tmp_if_expr_7;
+  _Bool return_value_jack_controller_settings_write_string_6;
+  _Bool tmp_if_expr_9;
+  _Bool return_value_jack_controller_settings_write_string_8;
+  _Bool tmp_if_expr_11;
+  _Bool return_value_jack_controller_settings_write_string_10;
   if(return_value == (_Bool)0)
     return (_Bool)1;
 
   else
   {
     jack_controller_serialize_parameter_value(param_ptr, value);
-    _Bool return_value_jack_controller_settings_write_string$1;
-    return_value_jack_controller_settings_write_string$1=jack_controller_settings_write_string(((struct save_context *)context)->fd, ((struct save_context *)context)->indent, ((struct save_context *)context)->call);
-    if(!(return_value_jack_controller_settings_write_string$1 == (_Bool)0))
+    _Bool return_value_jack_controller_settings_write_string_1;
+    return_value_jack_controller_settings_write_string_1=jack_controller_settings_write_string(((struct save_context *)context)->fd, ((struct save_context *)context)->indent, ((struct save_context *)context)->call);
+    if(!(return_value_jack_controller_settings_write_string_1 == (_Bool)0))
     {
-      return_value_jack_controller_settings_write_string$2=jack_controller_settings_write_string(((struct save_context *)context)->fd, "<option name=\"", ((struct save_context *)context)->call);
-      tmp_if_expr$3 = return_value_jack_controller_settings_write_string$2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_jack_controller_settings_write_string_2=jack_controller_settings_write_string(((struct save_context *)context)->fd, "<option name=\"", ((struct save_context *)context)->call);
+      tmp_if_expr_3 = return_value_jack_controller_settings_write_string_2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_jack_controller_settings_write_string$4=jack_controller_settings_write_string(((struct save_context *)context)->fd, param_ptr->name, ((struct save_context *)context)->call);
-      tmp_if_expr$5 = return_value_jack_controller_settings_write_string$4 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_jack_controller_settings_write_string_4=jack_controller_settings_write_string(((struct save_context *)context)->fd, param_ptr->name, ((struct save_context *)context)->call);
+      tmp_if_expr_5 = return_value_jack_controller_settings_write_string_4 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      return_value_jack_controller_settings_write_string$6=jack_controller_settings_write_string(((struct save_context *)context)->fd, "\">", ((struct save_context *)context)->call);
-      tmp_if_expr$7 = return_value_jack_controller_settings_write_string$6 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_jack_controller_settings_write_string_6=jack_controller_settings_write_string(((struct save_context *)context)->fd, "\">", ((struct save_context *)context)->call);
+      tmp_if_expr_7 = return_value_jack_controller_settings_write_string_6 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
     {
-      return_value_jack_controller_settings_write_string$8=jack_controller_settings_write_string(((struct save_context *)context)->fd, value, ((struct save_context *)context)->call);
-      tmp_if_expr$9 = return_value_jack_controller_settings_write_string$8 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_jack_controller_settings_write_string_8=jack_controller_settings_write_string(((struct save_context *)context)->fd, value, ((struct save_context *)context)->call);
+      tmp_if_expr_9 = return_value_jack_controller_settings_write_string_8 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
     {
-      return_value_jack_controller_settings_write_string$10=jack_controller_settings_write_string(((struct save_context *)context)->fd, "</option>\n", ((struct save_context *)context)->call);
-      tmp_if_expr$11 = return_value_jack_controller_settings_write_string$10 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_jack_controller_settings_write_string_10=jack_controller_settings_write_string(((struct save_context *)context)->fd, "</option>\n", ((struct save_context *)context)->call);
+      tmp_if_expr_11 = return_value_jack_controller_settings_write_string_10 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    return tmp_if_expr$11;
+      tmp_if_expr_11 = (_Bool)0;
+    return tmp_if_expr_11;
   }
 }
 
@@ -7346,16 +7346,16 @@ void jack_controller_settings_callback_chrdata(void *data, const char *s, signed
 void jack_controller_settings_callback_elend(void *data, const char *el)
 {
   signed int i;
-  signed int return_value_strcmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  signed int return_value_strcmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(((struct parse_context *)data)->error == 0)
   {
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(el, "option");
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(el, "option");
+    if(return_value_strcmp_6 == 0)
     {
       /* assertion ((struct parse_context *)data)->option_value_capture */
       assert(((struct parse_context *)data)->option_value_capture != (_Bool)0);
@@ -7380,24 +7380,24 @@ void jack_controller_settings_callback_elend(void *data, const char *el)
 
       else
       {
-        return_value_strcmp$1=strcmp(el, "engine");
-        if(return_value_strcmp$1 == 0)
-          tmp_if_expr$3 = (_Bool)1;
+        return_value_strcmp_1=strcmp(el, "engine");
+        if(return_value_strcmp_1 == 0)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$2=strcmp(el, "drivers");
-          tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_2=strcmp(el, "drivers");
+          tmp_if_expr_3 = return_value_strcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
-          tmp_if_expr$5 = (_Bool)1;
+        if(tmp_if_expr_3)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$4=strcmp(el, "internals");
-          tmp_if_expr$5 = return_value_strcmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_4=strcmp(el, "internals");
+          tmp_if_expr_5 = return_value_strcmp_4 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           ((struct parse_context *)data)->address_index = ((struct parse_context *)data)->address_index - 1;
 
       }
@@ -7409,19 +7409,19 @@ void jack_controller_settings_callback_elend(void *data, const char *el)
 // file ../dbus/xml_expat.c line 88
 void jack_controller_settings_callback_elstart(void *data, const char *el, const char **attr)
 {
-  signed int tmp_post$2;
-  signed int tmp_post$4;
-  signed int tmp_post$6;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcmp$13;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcmp$9;
-  signed int tmp_post$11;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$17;
-  signed int return_value_strcmp$16;
-  signed int tmp_post$18;
+  signed int tmp_post_2;
+  signed int tmp_post_4;
+  signed int tmp_post_6;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcmp_13;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcmp_9;
+  signed int tmp_post_11;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_17;
+  signed int return_value_strcmp_16;
+  signed int tmp_post_18;
   if(((struct parse_context *)data)->error == 0)
   {
     if(((struct parse_context *)data)->address_index >= 3)
@@ -7434,69 +7434,69 @@ void jack_controller_settings_callback_elstart(void *data, const char *el, const
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(el, "jack");
-      if(!(return_value_strcmp$1 == 0))
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(el, "jack");
+      if(!(return_value_strcmp_1 == 0))
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(el, "engine");
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(el, "engine");
+        if(return_value_strcmp_3 == 0)
         {
-          tmp_post$2 = ((struct parse_context *)data)->address_index;
+          tmp_post_2 = ((struct parse_context *)data)->address_index;
           ((struct parse_context *)data)->address_index = ((struct parse_context *)data)->address_index + 1;
-          ((struct parse_context *)data)->address[(signed long int)tmp_post$2] = "engine";
+          ((struct parse_context *)data)->address[(signed long int)tmp_post_2] = "engine";
         }
 
         else
         {
-          signed int return_value_strcmp$5;
-          return_value_strcmp$5=strcmp(el, "drivers");
-          if(return_value_strcmp$5 == 0)
+          signed int return_value_strcmp_5;
+          return_value_strcmp_5=strcmp(el, "drivers");
+          if(return_value_strcmp_5 == 0)
           {
-            tmp_post$4 = ((struct parse_context *)data)->address_index;
+            tmp_post_4 = ((struct parse_context *)data)->address_index;
             ((struct parse_context *)data)->address_index = ((struct parse_context *)data)->address_index + 1;
-            ((struct parse_context *)data)->address[(signed long int)tmp_post$4] = "drivers";
+            ((struct parse_context *)data)->address[(signed long int)tmp_post_4] = "drivers";
           }
 
           else
           {
-            signed int return_value_strcmp$7;
-            return_value_strcmp$7=strcmp(el, "internals");
-            if(return_value_strcmp$7 == 0)
+            signed int return_value_strcmp_7;
+            return_value_strcmp_7=strcmp(el, "internals");
+            if(return_value_strcmp_7 == 0)
             {
-              tmp_post$6 = ((struct parse_context *)data)->address_index;
+              tmp_post_6 = ((struct parse_context *)data)->address_index;
               ((struct parse_context *)data)->address_index = ((struct parse_context *)data)->address_index + 1;
-              ((struct parse_context *)data)->address[(signed long int)tmp_post$6] = "internals";
+              ((struct parse_context *)data)->address[(signed long int)tmp_post_6] = "internals";
             }
 
             else
             {
-              signed int return_value_strcmp$12;
-              return_value_strcmp$12=strcmp(el, "driver");
-              if(return_value_strcmp$12 == 0)
-                tmp_if_expr$14 = (_Bool)1;
+              signed int return_value_strcmp_12;
+              return_value_strcmp_12=strcmp(el, "driver");
+              if(return_value_strcmp_12 == 0)
+                tmp_if_expr_14 = (_Bool)1;
 
               else
               {
-                return_value_strcmp$13=strcmp(el, "internal");
-                tmp_if_expr$14 = return_value_strcmp$13 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_strcmp_13=strcmp(el, "internal");
+                tmp_if_expr_14 = return_value_strcmp_13 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$14)
+              if(tmp_if_expr_14)
               {
                 if(*attr == ((const char *)NULL))
-                  tmp_if_expr$8 = (_Bool)1;
+                  tmp_if_expr_8 = (_Bool)1;
 
                 else
-                  tmp_if_expr$8 = attr[(signed long int)2] != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$8)
-                  tmp_if_expr$10 = (_Bool)1;
+                  tmp_if_expr_8 = attr[(signed long int)2] != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_8)
+                  tmp_if_expr_10 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$9=strcmp(attr[(signed long int)0], "name");
-                  tmp_if_expr$10 = return_value_strcmp$9 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_9=strcmp(attr[(signed long int)0], "name");
+                  tmp_if_expr_10 = return_value_strcmp_9 != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$10)
+                if(tmp_if_expr_10)
                 {
                   jack_error("<%s> XML element must contain exactly one attribute, named \"name\"", el);
                   ((struct parse_context *)data)->error = (unsigned char)1;
@@ -7511,30 +7511,30 @@ void jack_controller_settings_callback_elstart(void *data, const char *el, const
                   goto __CPROVER_DUMP_L21;
                 }
 
-                tmp_post$11 = ((struct parse_context *)data)->address_index;
+                tmp_post_11 = ((struct parse_context *)data)->address_index;
                 ((struct parse_context *)data)->address_index = ((struct parse_context *)data)->address_index + 1;
-                ((struct parse_context *)data)->address[(signed long int)tmp_post$11] = ((struct parse_context *)data)->container;
+                ((struct parse_context *)data)->address[(signed long int)tmp_post_11] = ((struct parse_context *)data)->container;
                 goto __CPROVER_DUMP_L21;
               }
 
-              signed int return_value_strcmp$19;
-              return_value_strcmp$19=strcmp(el, "option");
-              if(return_value_strcmp$19 == 0)
+              signed int return_value_strcmp_19;
+              return_value_strcmp_19=strcmp(el, "option");
+              if(return_value_strcmp_19 == 0)
               {
                 if(*attr == ((const char *)NULL))
-                  tmp_if_expr$15 = (_Bool)1;
+                  tmp_if_expr_15 = (_Bool)1;
 
                 else
-                  tmp_if_expr$15 = attr[(signed long int)2] != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$15)
-                  tmp_if_expr$17 = (_Bool)1;
+                  tmp_if_expr_15 = attr[(signed long int)2] != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_15)
+                  tmp_if_expr_17 = (_Bool)1;
 
                 else
                 {
-                  return_value_strcmp$16=strcmp(attr[(signed long int)0], "name");
-                  tmp_if_expr$17 = return_value_strcmp$16 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strcmp_16=strcmp(attr[(signed long int)0], "name");
+                  tmp_if_expr_17 = return_value_strcmp_16 != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$17)
+                if(tmp_if_expr_17)
                 {
                   jack_error("<option> XML element must contain exactly one attribute, named \"name\"");
                   ((struct parse_context *)data)->error = (unsigned char)1;
@@ -7549,9 +7549,9 @@ void jack_controller_settings_callback_elstart(void *data, const char *el, const
                   goto __CPROVER_DUMP_L21;
                 }
 
-                tmp_post$18 = ((struct parse_context *)data)->address_index;
+                tmp_post_18 = ((struct parse_context *)data)->address_index;
                 ((struct parse_context *)data)->address_index = ((struct parse_context *)data)->address_index + 1;
-                ((struct parse_context *)data)->address[(signed long int)tmp_post$18] = ((struct parse_context *)data)->name;
+                ((struct parse_context *)data)->address[(signed long int)tmp_post_18] = ((struct parse_context *)data)->name;
                 ((struct parse_context *)data)->option_value_capture = (_Bool)1;
                 ((struct parse_context *)data)->option_used = 0;
                 goto __CPROVER_DUMP_L21;
@@ -7593,12 +7593,12 @@ void jack_controller_settings_load(struct jack_controller *controller_ptr)
   enum XML_Status xmls;
   struct parse_context context;
   conf_len=strlen("/conf.xml");
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(g_jackdbus_config_dir_len + conf_len + (unsigned long int)1);
-  filename = (char *)return_value_malloc$1;
-  const char *return_value_XML_ExpatVersion$2;
-  signed int return_value_stat$6;
-  signed long int return_value_read$7;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(g_jackdbus_config_dir_len + conf_len + (unsigned long int)1);
+  filename = (char *)return_value_malloc_1;
+  const char *return_value_XML_ExpatVersion_2;
+  signed int return_value_stat_6;
+  signed long int return_value_read_7;
   if(filename == ((char *)NULL))
     jack_error("Out of memory.");
 
@@ -7607,18 +7607,18 @@ void jack_controller_settings_load(struct jack_controller *controller_ptr)
     memcpy((void *)filename, (const void *)g_jackdbus_config_dir, g_jackdbus_config_dir_len);
     memcpy((void *)(filename + (signed long int)g_jackdbus_config_dir_len), (const void *)"/conf.xml", conf_len);
     filename[(signed long int)(g_jackdbus_config_dir_len + conf_len)] = (char)0;
-    return_value_XML_ExpatVersion$2=XML_ExpatVersion();
-    jack_info("Loading settings from \"%s\" using %s ...", filename, return_value_XML_ExpatVersion$2);
-    return_value_stat$6=stat(filename, &st);
-    if(!(return_value_stat$6 == 0))
+    return_value_XML_ExpatVersion_2=XML_ExpatVersion();
+    jack_info("Loading settings from \"%s\" using %s ...", filename, return_value_XML_ExpatVersion_2);
+    return_value_stat_6=stat(filename, &st);
+    if(!(return_value_stat_6 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      jack_error("failed to stat \"%s\", error is %d (%s)", filename, *return_value___errno_location$3, return_value_strerror$5);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      jack_error("failed to stat \"%s\", error is %d (%s)", filename, *return_value___errno_location_3, return_value_strerror_5);
     }
 
     fd=open(filename, 00);
@@ -7639,8 +7639,8 @@ void jack_controller_settings_load(struct jack_controller *controller_ptr)
 
         else
         {
-          return_value_read$7=read(fd, buffer, (unsigned long int)st.st_size);
-          bytes_read = (signed int)return_value_read$7;
+          return_value_read_7=read(fd, buffer, (unsigned long int)st.st_size);
+          bytes_read = (signed int)return_value_read_7;
           if(!((signed long int)bytes_read == st.st_size))
             jack_error("read() returned unexpected result.");
 
@@ -7706,21 +7706,21 @@ _Bool jack_controller_settings_save(struct jack_controller *controller_ptr, void
   timestamp_str[(signed long int)24] = (char)0;
   ret = (_Bool)0;
   conf_len=strlen("/conf.xml");
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(g_jackdbus_config_dir_len + conf_len + (unsigned long int)1);
-  filename = (char *)return_value_malloc$1;
-  _Bool return_value_jack_controller_settings_write_string$5;
-  _Bool return_value_jack_controller_settings_write_string$6;
-  _Bool return_value_jack_controller_settings_write_string$7;
-  _Bool return_value_jack_controller_settings_write_string$8;
-  _Bool return_value_jack_controller_settings_write_string$9;
-  _Bool return_value_jack_controller_settings_write_string$10;
-  _Bool return_value_jack_controller_settings_write_string$11;
-  _Bool return_value_jack_controller_settings_write_string$12;
-  _Bool return_value_jack_controller_settings_write_string$13;
-  _Bool return_value_jack_params_iterate_params$14;
-  _Bool return_value_jack_controller_settings_write_string$15;
-  _Bool return_value_jack_controller_settings_write_string$23;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(g_jackdbus_config_dir_len + conf_len + (unsigned long int)1);
+  filename = (char *)return_value_malloc_1;
+  _Bool return_value_jack_controller_settings_write_string_5;
+  _Bool return_value_jack_controller_settings_write_string_6;
+  _Bool return_value_jack_controller_settings_write_string_7;
+  _Bool return_value_jack_controller_settings_write_string_8;
+  _Bool return_value_jack_controller_settings_write_string_9;
+  _Bool return_value_jack_controller_settings_write_string_10;
+  _Bool return_value_jack_controller_settings_write_string_11;
+  _Bool return_value_jack_controller_settings_write_string_12;
+  _Bool return_value_jack_controller_settings_write_string_13;
+  _Bool return_value_jack_params_iterate_params_14;
+  _Bool return_value_jack_controller_settings_write_string_15;
+  _Bool return_value_jack_controller_settings_write_string_23;
   if(filename == ((char *)NULL))
     jack_error("Out of memory.");
 
@@ -7733,70 +7733,70 @@ _Bool jack_controller_settings_save(struct jack_controller *controller_ptr, void
     fd=open(filename, 01 | 01000 | 0100, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
     if(fd == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      jack_error("open() failed to open conf filename. error is %d (%s)", *return_value___errno_location$2, return_value_strerror$4);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      jack_error("open() failed to open conf filename. error is %d (%s)", *return_value___errno_location_2, return_value_strerror_4);
       goto exit_free_filename;
     }
 
     context.fd = fd;
     context.call = dbus_call_context_ptr;
-    return_value_jack_controller_settings_write_string$5=jack_controller_settings_write_string(fd, "<?xml version=\"1.0\"?>\n", dbus_call_context_ptr);
-    if(!(return_value_jack_controller_settings_write_string$5 == (_Bool)0))
+    return_value_jack_controller_settings_write_string_5=jack_controller_settings_write_string(fd, "<?xml version=\"1.0\"?>\n", dbus_call_context_ptr);
+    if(!(return_value_jack_controller_settings_write_string_5 == (_Bool)0))
     {
-      return_value_jack_controller_settings_write_string$6=jack_controller_settings_write_string(fd, "<!--\n", dbus_call_context_ptr);
-      if(!(return_value_jack_controller_settings_write_string$6 == (_Bool)0))
+      return_value_jack_controller_settings_write_string_6=jack_controller_settings_write_string(fd, "<!--\n", dbus_call_context_ptr);
+      if(!(return_value_jack_controller_settings_write_string_6 == (_Bool)0))
       {
-        return_value_jack_controller_settings_write_string$7=jack_controller_settings_write_string(fd, "JACK settings, as persisted by D-Bus object.\nYou probably don't want to edit this because\nit will be overwritten next time jackdbus saves.\n", dbus_call_context_ptr);
-        if(!(return_value_jack_controller_settings_write_string$7 == (_Bool)0))
+        return_value_jack_controller_settings_write_string_7=jack_controller_settings_write_string(fd, "JACK settings, as persisted by D-Bus object.\nYou probably don't want to edit this because\nit will be overwritten next time jackdbus saves.\n", dbus_call_context_ptr);
+        if(!(return_value_jack_controller_settings_write_string_7 == (_Bool)0))
         {
-          return_value_jack_controller_settings_write_string$8=jack_controller_settings_write_string(fd, "-->\n", dbus_call_context_ptr);
-          if(!(return_value_jack_controller_settings_write_string$8 == (_Bool)0))
+          return_value_jack_controller_settings_write_string_8=jack_controller_settings_write_string(fd, "-->\n", dbus_call_context_ptr);
+          if(!(return_value_jack_controller_settings_write_string_8 == (_Bool)0))
           {
-            return_value_jack_controller_settings_write_string$9=jack_controller_settings_write_string(fd, "<!-- ", dbus_call_context_ptr);
-            if(!(return_value_jack_controller_settings_write_string$9 == (_Bool)0))
+            return_value_jack_controller_settings_write_string_9=jack_controller_settings_write_string(fd, "<!-- ", dbus_call_context_ptr);
+            if(!(return_value_jack_controller_settings_write_string_9 == (_Bool)0))
             {
-              return_value_jack_controller_settings_write_string$10=jack_controller_settings_write_string(fd, timestamp_str, dbus_call_context_ptr);
-              if(!(return_value_jack_controller_settings_write_string$10 == (_Bool)0))
+              return_value_jack_controller_settings_write_string_10=jack_controller_settings_write_string(fd, timestamp_str, dbus_call_context_ptr);
+              if(!(return_value_jack_controller_settings_write_string_10 == (_Bool)0))
               {
-                return_value_jack_controller_settings_write_string$11=jack_controller_settings_write_string(fd, " -->\n", dbus_call_context_ptr);
-                if(!(return_value_jack_controller_settings_write_string$11 == (_Bool)0))
+                return_value_jack_controller_settings_write_string_11=jack_controller_settings_write_string(fd, " -->\n", dbus_call_context_ptr);
+                if(!(return_value_jack_controller_settings_write_string_11 == (_Bool)0))
                 {
-                  return_value_jack_controller_settings_write_string$12=jack_controller_settings_write_string(fd, "<jack>\n", dbus_call_context_ptr);
-                  if(!(return_value_jack_controller_settings_write_string$12 == (_Bool)0))
+                  return_value_jack_controller_settings_write_string_12=jack_controller_settings_write_string(fd, "<jack>\n", dbus_call_context_ptr);
+                  if(!(return_value_jack_controller_settings_write_string_12 == (_Bool)0))
                   {
-                    return_value_jack_controller_settings_write_string$13=jack_controller_settings_write_string(fd, " <engine>\n", dbus_call_context_ptr);
-                    if(!(return_value_jack_controller_settings_write_string$13 == (_Bool)0))
+                    return_value_jack_controller_settings_write_string_13=jack_controller_settings_write_string(fd, " <engine>\n", dbus_call_context_ptr);
+                    if(!(return_value_jack_controller_settings_write_string_13 == (_Bool)0))
                     {
                       context.indent = "  ";
                       context.address[(signed long int)0] = "engine";
                       context.address[(signed long int)1] = (const char *)(void *)0;
-                      return_value_jack_params_iterate_params$14=jack_params_iterate_params(controller_ptr->params, context.address, jack_controller_serialize_parameter, (void *)&context);
-                      if(!(return_value_jack_params_iterate_params$14 == (_Bool)0))
+                      return_value_jack_params_iterate_params_14=jack_params_iterate_params(controller_ptr->params, context.address, jack_controller_serialize_parameter, (void *)&context);
+                      if(!(return_value_jack_params_iterate_params_14 == (_Bool)0))
                       {
-                        return_value_jack_controller_settings_write_string$15=jack_controller_settings_write_string(fd, " </engine>\n", dbus_call_context_ptr);
-                        if(!(return_value_jack_controller_settings_write_string$15 == (_Bool)0))
+                        return_value_jack_controller_settings_write_string_15=jack_controller_settings_write_string(fd, " </engine>\n", dbus_call_context_ptr);
+                        if(!(return_value_jack_controller_settings_write_string_15 == (_Bool)0))
                         {
                           i = (unsigned int)0;
                           for( ; !(modules[(signed long int)i] == ((const char *)NULL)); i = i + 1u)
                           {
-                            _Bool return_value_jack_controller_settings_write_string$16;
-                            return_value_jack_controller_settings_write_string$16=jack_controller_settings_write_string(fd, " <", dbus_call_context_ptr);
-                            if(return_value_jack_controller_settings_write_string$16 == (_Bool)0)
+                            _Bool return_value_jack_controller_settings_write_string_16;
+                            return_value_jack_controller_settings_write_string_16=jack_controller_settings_write_string(fd, " <", dbus_call_context_ptr);
+                            if(return_value_jack_controller_settings_write_string_16 == (_Bool)0)
                               goto exit_close;
 
-                            _Bool return_value_jack_controller_settings_write_string$17;
-                            return_value_jack_controller_settings_write_string$17=jack_controller_settings_write_string(fd, modules[(signed long int)i], dbus_call_context_ptr);
-                            if(return_value_jack_controller_settings_write_string$17 == (_Bool)0)
+                            _Bool return_value_jack_controller_settings_write_string_17;
+                            return_value_jack_controller_settings_write_string_17=jack_controller_settings_write_string(fd, modules[(signed long int)i], dbus_call_context_ptr);
+                            if(return_value_jack_controller_settings_write_string_17 == (_Bool)0)
                               goto exit_close;
 
-                            _Bool return_value_jack_controller_settings_write_string$18;
-                            return_value_jack_controller_settings_write_string$18=jack_controller_settings_write_string(fd, "s>\n", dbus_call_context_ptr);
-                            if(return_value_jack_controller_settings_write_string$18 == (_Bool)0)
+                            _Bool return_value_jack_controller_settings_write_string_18;
+                            return_value_jack_controller_settings_write_string_18=jack_controller_settings_write_string(fd, "s>\n", dbus_call_context_ptr);
+                            if(return_value_jack_controller_settings_write_string_18 == (_Bool)0)
                               goto exit_close;
 
                             context.indent = "  ";
@@ -7806,29 +7806,29 @@ _Bool jack_controller_settings_save(struct jack_controller *controller_ptr, void
                             strcat(buffer, "s");
                             context.address[(signed long int)0] = buffer;
                             context.address[(signed long int)1] = (const char *)(void *)0;
-                            _Bool return_value_jack_params_iterate_container$19;
-                            return_value_jack_params_iterate_container$19=jack_params_iterate_container(controller_ptr->params, context.address, serialize_modules, (void *)&context);
-                            if(return_value_jack_params_iterate_container$19 == (_Bool)0)
+                            _Bool return_value_jack_params_iterate_container_19;
+                            return_value_jack_params_iterate_container_19=jack_params_iterate_container(controller_ptr->params, context.address, serialize_modules, (void *)&context);
+                            if(return_value_jack_params_iterate_container_19 == (_Bool)0)
                               goto exit_close;
 
-                            _Bool return_value_jack_controller_settings_write_string$20;
-                            return_value_jack_controller_settings_write_string$20=jack_controller_settings_write_string(fd, " </", dbus_call_context_ptr);
-                            if(return_value_jack_controller_settings_write_string$20 == (_Bool)0)
+                            _Bool return_value_jack_controller_settings_write_string_20;
+                            return_value_jack_controller_settings_write_string_20=jack_controller_settings_write_string(fd, " </", dbus_call_context_ptr);
+                            if(return_value_jack_controller_settings_write_string_20 == (_Bool)0)
                               goto exit_close;
 
-                            _Bool return_value_jack_controller_settings_write_string$21;
-                            return_value_jack_controller_settings_write_string$21=jack_controller_settings_write_string(fd, modules[(signed long int)i], dbus_call_context_ptr);
-                            if(return_value_jack_controller_settings_write_string$21 == (_Bool)0)
+                            _Bool return_value_jack_controller_settings_write_string_21;
+                            return_value_jack_controller_settings_write_string_21=jack_controller_settings_write_string(fd, modules[(signed long int)i], dbus_call_context_ptr);
+                            if(return_value_jack_controller_settings_write_string_21 == (_Bool)0)
                               goto exit_close;
 
-                            _Bool return_value_jack_controller_settings_write_string$22;
-                            return_value_jack_controller_settings_write_string$22=jack_controller_settings_write_string(fd, "s>\n", dbus_call_context_ptr);
-                            if(return_value_jack_controller_settings_write_string$22 == (_Bool)0)
+                            _Bool return_value_jack_controller_settings_write_string_22;
+                            return_value_jack_controller_settings_write_string_22=jack_controller_settings_write_string(fd, "s>\n", dbus_call_context_ptr);
+                            if(return_value_jack_controller_settings_write_string_22 == (_Bool)0)
                               goto exit_close;
 
                           }
-                          return_value_jack_controller_settings_write_string$23=jack_controller_settings_write_string(fd, "</jack>\n", dbus_call_context_ptr);
-                          if(!(return_value_jack_controller_settings_write_string$23 == (_Bool)0))
+                          return_value_jack_controller_settings_write_string_23=jack_controller_settings_write_string(fd, "</jack>\n", dbus_call_context_ptr);
+                          if(!(return_value_jack_controller_settings_write_string_23 == (_Bool)0))
                             ret = (_Bool)1;
 
                         }
@@ -7888,9 +7888,9 @@ _Bool jack_controller_settings_write_string(signed int fd, const char *string, v
 {
   unsigned long int len;
   len=strlen(string);
-  signed long int return_value_write$1;
-  return_value_write$1=write(fd, (const void *)string, len);
-  if(!((unsigned long int)return_value_write$1 == len))
+  signed long int return_value_write_1;
+  return_value_write_1=write(fd, (const void *)string, len);
+  if(!((unsigned long int)return_value_write_1 == len))
   {
     jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "write() failed to write config file.");
     return (_Bool)0;
@@ -7909,22 +7909,22 @@ _Bool jack_controller_start_server(struct jack_controller *controller_ptr, void 
   /* assertion !controller_ptr->started */
   assert(!(controller_ptr->started != (_Bool)0));
   controller_ptr->xruns = (unsigned int)0;
-  struct jackctl_driver *return_value_jack_params_get_driver$1;
-  return_value_jack_params_get_driver$1=jack_params_get_driver(controller_ptr->params);
-  _Bool return_value_jackctl_server_open$2;
-  return_value_jackctl_server_open$2=jackctl_server_open(controller_ptr->server, return_value_jack_params_get_driver$1);
-  _Bool return_value_jackctl_server_start$3;
-  _Bool return_value_jack_controller_patchbay_init$4;
-  _Bool return_value_jackctl_server_stop$5;
-  _Bool return_value_jackctl_server_close$6;
-  if(return_value_jackctl_server_open$2 == (_Bool)0)
+  struct jackctl_driver *return_value_jack_params_get_driver_1;
+  return_value_jack_params_get_driver_1=jack_params_get_driver(controller_ptr->params);
+  _Bool return_value_jackctl_server_open_2;
+  return_value_jackctl_server_open_2=jackctl_server_open(controller_ptr->server, return_value_jack_params_get_driver_1);
+  _Bool return_value_jackctl_server_start_3;
+  _Bool return_value_jack_controller_patchbay_init_4;
+  _Bool return_value_jackctl_server_stop_5;
+  _Bool return_value_jackctl_server_close_6;
+  if(return_value_jackctl_server_open_2 == (_Bool)0)
     jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "Failed to open server");
 
   else
   {
     jack_controller_load_slave_drivers(controller_ptr);
-    return_value_jackctl_server_start$3=jackctl_server_start(controller_ptr->server);
-    if(return_value_jackctl_server_start$3 == (_Bool)0)
+    return_value_jackctl_server_start_3=jackctl_server_start(controller_ptr->server);
+    if(return_value_jackctl_server_start_3 == (_Bool)0)
       jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "Failed to start server");
 
     else
@@ -7941,8 +7941,8 @@ _Bool jack_controller_start_server(struct jack_controller *controller_ptr, void 
 
         else
         {
-          return_value_jack_controller_patchbay_init$4=jack_controller_patchbay_init(controller_ptr);
-          if(return_value_jack_controller_patchbay_init$4 == (_Bool)0)
+          return_value_jack_controller_patchbay_init_4=jack_controller_patchbay_init(controller_ptr);
+          if(return_value_jack_controller_patchbay_init_4 == (_Bool)0)
             jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "Failed to initialize patchbay district");
 
           else
@@ -7974,8 +7974,8 @@ _Bool jack_controller_start_server(struct jack_controller *controller_ptr, void 
 
     fail_stop_server:
       ;
-      return_value_jackctl_server_stop$5=jackctl_server_stop(controller_ptr->server);
-      if(return_value_jackctl_server_stop$5 == (_Bool)0)
+      return_value_jackctl_server_stop_5=jackctl_server_stop(controller_ptr->server);
+      if(return_value_jackctl_server_stop_5 == (_Bool)0)
         jack_error("failed to stop jack server");
 
     }
@@ -7983,8 +7983,8 @@ _Bool jack_controller_start_server(struct jack_controller *controller_ptr, void 
   fail_close_server:
     ;
     jack_controller_unload_slave_drivers(controller_ptr);
-    return_value_jackctl_server_close$6=jackctl_server_close(controller_ptr->server);
-    if(return_value_jackctl_server_close$6 == (_Bool)0)
+    return_value_jackctl_server_close_6=jackctl_server_close(controller_ptr->server);
+    if(return_value_jackctl_server_close_6 == (_Bool)0)
       jack_error("failed to close jack server");
 
   }
@@ -8000,9 +8000,9 @@ _Bool jack_controller_stop_server(struct jack_controller *controller_ptr, void *
 {
   signed int ret;
   pthread_mutex_lock(&controller_ptr->lock);
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty(&controller_ptr->session_pending_commands);
-  if(return_value_list_empty$1 == 0)
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty(&controller_ptr->session_pending_commands);
+  if(return_value_list_empty_1 == 0)
   {
     pthread_mutex_unlock(&controller_ptr->lock);
     jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "Refusing to stop JACK server because of pending session commands");
@@ -8025,9 +8025,9 @@ _Bool jack_controller_stop_server(struct jack_controller *controller_ptr, void *
       jack_error("jack_client_close() failed with error %d", ret);
 
     controller_ptr->client = (struct _jack_client *)(void *)0;
-    _Bool return_value_jackctl_server_stop$2;
-    return_value_jackctl_server_stop$2=jackctl_server_stop(controller_ptr->server);
-    if(return_value_jackctl_server_stop$2 == (_Bool)0)
+    _Bool return_value_jackctl_server_stop_2;
+    return_value_jackctl_server_stop_2=jackctl_server_stop(controller_ptr->server);
+    if(return_value_jackctl_server_stop_2 == (_Bool)0)
     {
       jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "Failed to stop server");
       return (_Bool)0;
@@ -8036,9 +8036,9 @@ _Bool jack_controller_stop_server(struct jack_controller *controller_ptr, void *
     else
     {
       jack_controller_unload_slave_drivers(controller_ptr);
-      _Bool return_value_jackctl_server_close$3;
-      return_value_jackctl_server_close$3=jackctl_server_close(controller_ptr->server);
-      if(return_value_jackctl_server_close$3 == (_Bool)0)
+      _Bool return_value_jackctl_server_close_3;
+      return_value_jackctl_server_close_3=jackctl_server_close(controller_ptr->server);
+      if(return_value_jackctl_server_close_3 == (_Bool)0)
       {
         jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "Failed to close server");
         return (_Bool)0;
@@ -8059,11 +8059,11 @@ _Bool jack_controller_switch_master(struct jack_controller *controller_ptr, void
 {
   /* assertion controller_ptr->started */
   assert(controller_ptr->started != (_Bool)0);
-  struct jackctl_driver *return_value_jack_params_get_driver$1;
-  return_value_jack_params_get_driver$1=jack_params_get_driver(controller_ptr->params);
-  _Bool return_value_jackctl_server_switch_master$2;
-  return_value_jackctl_server_switch_master$2=jackctl_server_switch_master(controller_ptr->server, return_value_jack_params_get_driver$1);
-  if(return_value_jackctl_server_switch_master$2 == (_Bool)0)
+  struct jackctl_driver *return_value_jack_params_get_driver_1;
+  return_value_jack_params_get_driver_1=jack_params_get_driver(controller_ptr->params);
+  _Bool return_value_jackctl_server_switch_master_2;
+  return_value_jackctl_server_switch_master_2=jackctl_server_switch_master(controller_ptr->server, return_value_jack_params_get_driver_1);
+  if(return_value_jackctl_server_switch_master_2 == (_Bool)0)
   {
     jack_dbus_error(dbus_call_context_ptr, "org.jackaudio.Error.Generic", "Failed to switch master");
     controller_ptr->started = (_Bool)0;
@@ -8086,9 +8086,9 @@ _Bool jack_controller_unload_internal(struct jack_controller *controller_ptr, co
   else
   {
     jack_info("internal \"%s\" selected", internal_name);
-    _Bool return_value_jackctl_server_unload_internal$1;
-    return_value_jackctl_server_unload_internal$1=jackctl_server_unload_internal(controller_ptr->server, internal);
-    return return_value_jackctl_server_unload_internal$1;
+    _Bool return_value_jackctl_server_unload_internal_1;
+    return_value_jackctl_server_unload_internal_1=jackctl_server_unload_internal(controller_ptr->server, internal);
+    return return_value_jackctl_server_unload_internal_1;
   }
 }
 
@@ -8099,7 +8099,7 @@ static void jack_controller_unload_slave_drivers(struct jack_controller *control
   struct list_head *node_ptr;
   struct jack_controller_slave_driver *driver_ptr;
   node_ptr = (&controller_ptr->slave_drivers)->next;
-  struct jack_controller_slave_driver *tmp_statement_expression$1;
+  struct jack_controller_slave_driver *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -8107,8 +8107,8 @@ static void jack_controller_unload_slave_drivers(struct jack_controller *control
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
-    driver_ptr = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct jack_controller_slave_driver *)((char *)__mptr - (signed long int)0ul);
+    driver_ptr = tmp_statement_expression_1;
     if(!(driver_ptr->loaded == (_Bool)0))
     {
       jackctl_server_remove_slave(controller_ptr->server, driver_ptr->handle);
@@ -8136,28 +8136,28 @@ void jack_dbus_construct_method_return_array_of_strings(struct jack_dbus_method_
   struct DBusMessageIter sub_iter;
   unsigned int i;
   call->reply=dbus_message_new_method_return(call->message);
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  unsigned int return_value_dbus_message_iter_close_container$3;
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  unsigned int return_value_dbus_message_iter_close_container_3;
   if(!(call->reply == ((struct DBusMessage *)NULL)))
   {
     dbus_message_iter_init_append(call->reply, &iter);
-    return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container(&iter, (signed int)97, "s", &sub_iter);
-    if(!(return_value_dbus_message_iter_open_container$1 == 0u))
+    return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container(&iter, (signed int)97, "s", &sub_iter);
+    if(!(return_value_dbus_message_iter_open_container_1 == 0u))
     {
       i = (unsigned int)0;
       for( ; !(i >= num_members); i = i + 1u)
       {
-        unsigned int return_value_dbus_message_iter_append_basic$2;
-        return_value_dbus_message_iter_append_basic$2=dbus_message_iter_append_basic(&sub_iter, (signed int)115, (const void *)&array[(signed long int)i]);
-        if(return_value_dbus_message_iter_append_basic$2 == 0u)
+        unsigned int return_value_dbus_message_iter_append_basic_2;
+        return_value_dbus_message_iter_append_basic_2=dbus_message_iter_append_basic(&sub_iter, (signed int)115, (const void *)&array[(signed long int)i]);
+        if(return_value_dbus_message_iter_append_basic_2 == 0u)
         {
           dbus_message_iter_close_container(&iter, &sub_iter);
           goto fail_unref;
         }
 
       }
-      return_value_dbus_message_iter_close_container$3=dbus_message_iter_close_container(&iter, &sub_iter);
-      if(!(return_value_dbus_message_iter_close_container$3 == 0u))
+      return_value_dbus_message_iter_close_container_3=dbus_message_iter_close_container(&iter, &sub_iter);
+      if(!(return_value_dbus_message_iter_close_container_3 == 0u))
         goto __CPROVER_DUMP_L6;
 
     }
@@ -8190,24 +8190,24 @@ void jack_dbus_construct_method_return_empty(struct jack_dbus_method_call *call)
 
 // jack_dbus_construct_method_return_parameter
 // file ../dbus/controller_iface_configure.c line 133
-static void jack_dbus_construct_method_return_parameter(struct jack_dbus_method_call *call, unsigned int is_set, signed int type, const char *signature, union anonymous$5 default_value, union anonymous$5 value)
+static void jack_dbus_construct_method_return_parameter(struct jack_dbus_method_call *call, unsigned int is_set, signed int type, const char *signature, union anonymous_5 default_value, union anonymous_5 value)
 {
   struct DBusMessageIter iter;
   call->reply=dbus_message_new_method_return(call->message);
-  unsigned int return_value_dbus_message_iter_append_basic$1;
-  _Bool return_value_jack_dbus_message_append_variant$2;
-  _Bool return_value_jack_dbus_message_append_variant$3;
+  unsigned int return_value_dbus_message_iter_append_basic_1;
+  _Bool return_value_jack_dbus_message_append_variant_2;
+  _Bool return_value_jack_dbus_message_append_variant_3;
   if(!(call->reply == ((struct DBusMessage *)NULL)))
   {
     dbus_message_iter_init_append(call->reply, &iter);
-    return_value_dbus_message_iter_append_basic$1=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&is_set);
-    if(!(return_value_dbus_message_iter_append_basic$1 == 0u))
+    return_value_dbus_message_iter_append_basic_1=dbus_message_iter_append_basic(&iter, (signed int)98, (const void *)&is_set);
+    if(!(return_value_dbus_message_iter_append_basic_1 == 0u))
     {
-      return_value_jack_dbus_message_append_variant$2=jack_dbus_message_append_variant(&iter, type, signature, &default_value);
-      if(!(return_value_jack_dbus_message_append_variant$2 == (_Bool)0))
+      return_value_jack_dbus_message_append_variant_2=jack_dbus_message_append_variant(&iter, type, signature, &default_value);
+      if(!(return_value_jack_dbus_message_append_variant_2 == (_Bool)0))
       {
-        return_value_jack_dbus_message_append_variant$3=jack_dbus_message_append_variant(&iter, type, signature, &value);
-        if(!(return_value_jack_dbus_message_append_variant$3 == (_Bool)0))
+        return_value_jack_dbus_message_append_variant_3=jack_dbus_message_append_variant(&iter, type, signature, &value);
+        if(!(return_value_jack_dbus_message_append_variant_3 == (_Bool)0))
           goto __CPROVER_DUMP_L3;
 
       }
@@ -8232,11 +8232,11 @@ __CPROVER_DUMP_L3:
 
 // jack_dbus_construct_method_return_single
 // file ../dbus/jackdbus.c line 468
-void jack_dbus_construct_method_return_single(struct jack_dbus_method_call *call, signed int type, union anonymous$5 arg)
+void jack_dbus_construct_method_return_single(struct jack_dbus_method_call *call, signed int type, union anonymous_5 arg)
 {
   struct DBusMessageIter iter;
   call->reply=dbus_message_new_method_return(call->message);
-  unsigned int return_value_dbus_message_iter_append_basic$1;
+  unsigned int return_value_dbus_message_iter_append_basic_1;
   if(!(call->reply == ((struct DBusMessage *)NULL)))
   {
     if(type == 0)
@@ -8247,8 +8247,8 @@ void jack_dbus_construct_method_return_single(struct jack_dbus_method_call *call
         arg.string = "";
 
     dbus_message_iter_init_append(call->reply, &iter);
-    return_value_dbus_message_iter_append_basic$1=dbus_message_iter_append_basic(&iter, type, (const void *)&arg);
-    if(return_value_dbus_message_iter_append_basic$1 == 0u)
+    return_value_dbus_message_iter_append_basic_1=dbus_message_iter_append_basic(&iter, type, (const void *)&arg);
+    if(return_value_dbus_message_iter_append_basic_1 == 0u)
     {
       dbus_message_unref(call->reply);
       call->reply = (struct DBusMessage *)(void *)0;
@@ -8301,9 +8301,9 @@ void jack_dbus_error_callback(const char *msg)
   time(&timestamp);
   ctime_r(&timestamp, timestamp_str);
   timestamp_str[(signed long int)24] = (char)0;
-  _Bool return_value_jack_dbus_log_open$1;
-  return_value_jack_dbus_log_open$1=jack_dbus_log_open();
-  if(!(return_value_jack_dbus_log_open$1 == (_Bool)0))
+  _Bool return_value_jack_dbus_log_open_1;
+  return_value_jack_dbus_log_open_1=jack_dbus_log_open();
+  if(!(return_value_jack_dbus_log_open_1 == (_Bool)0))
   {
     fprintf(g_logfile, "%s: \033[1m\033[31mERROR: %s\033[0m\n", (const void *)timestamp_str, msg);
     fflush(g_logfile);
@@ -8320,9 +8320,9 @@ _Bool jack_dbus_get_method_args(struct jack_dbus_method_call *call, signed int t
   _Bool retval = (_Bool)1;
   args = (void **)&type;
   dbus_error_init(&error);
-  unsigned int return_value_dbus_message_get_args_valist$1;
-  return_value_dbus_message_get_args_valist$1=dbus_message_get_args_valist(call->message, &error, type, args);
-  if(return_value_dbus_message_get_args_valist$1 == 0u)
+  unsigned int return_value_dbus_message_get_args_valist_1;
+  return_value_dbus_message_get_args_valist_1=dbus_message_get_args_valist(call->message, &error, type, args);
+  if(return_value_dbus_message_get_args_valist_1 == 0u)
   {
     jack_dbus_error((void *)call, "org.jackaudio.Error.InvalidArgs", "Invalid arguments to method \"%s\"", call->method_name);
     retval = (_Bool)0;
@@ -8335,23 +8335,23 @@ _Bool jack_dbus_get_method_args(struct jack_dbus_method_call *call, signed int t
 
 // jack_dbus_get_method_args_string_and_variant
 // file ../dbus/jackdbus.c line 316
-_Bool jack_dbus_get_method_args_string_and_variant(struct jack_dbus_method_call *call, const char **arg1, union anonymous$5 *arg2, signed int *type_ptr)
+_Bool jack_dbus_get_method_args_string_and_variant(struct jack_dbus_method_call *call, const char **arg1, union anonymous_5 *arg2, signed int *type_ptr)
 {
   struct DBusMessageIter iter;
   struct DBusMessageIter sub_iter;
-  unsigned int return_value_dbus_message_iter_init$3;
-  return_value_dbus_message_iter_init$3=dbus_message_iter_init(call->message, &iter);
-  signed int return_value_dbus_message_iter_get_arg_type$2;
-  if(!(return_value_dbus_message_iter_init$3 == 0u))
+  unsigned int return_value_dbus_message_iter_init_3;
+  return_value_dbus_message_iter_init_3=dbus_message_iter_init(call->message, &iter);
+  signed int return_value_dbus_message_iter_get_arg_type_2;
+  if(!(return_value_dbus_message_iter_init_3 == 0u))
   {
-    return_value_dbus_message_iter_get_arg_type$2=dbus_message_iter_get_arg_type(&iter);
-    if(return_value_dbus_message_iter_get_arg_type$2 == 115)
+    return_value_dbus_message_iter_get_arg_type_2=dbus_message_iter_get_arg_type(&iter);
+    if(return_value_dbus_message_iter_get_arg_type_2 == 115)
     {
       dbus_message_iter_get_basic(&iter, (void *)arg1);
       dbus_message_iter_next(&iter);
-      signed int return_value_dbus_message_iter_get_arg_type$1;
-      return_value_dbus_message_iter_get_arg_type$1=dbus_message_iter_get_arg_type(&iter);
-      if(return_value_dbus_message_iter_get_arg_type$1 == 118)
+      signed int return_value_dbus_message_iter_get_arg_type_1;
+      return_value_dbus_message_iter_get_arg_type_1=dbus_message_iter_get_arg_type(&iter);
+      if(return_value_dbus_message_iter_get_arg_type_1 == 118)
       {
         dbus_message_iter_recurse(&iter, &sub_iter);
         dbus_message_iter_get_basic(&sub_iter, (void *)arg2);
@@ -8369,30 +8369,30 @@ _Bool jack_dbus_get_method_args_string_and_variant(struct jack_dbus_method_call 
 
 // jack_dbus_get_method_args_two_strings_and_variant
 // file ../dbus/jackdbus.c line 356
-_Bool jack_dbus_get_method_args_two_strings_and_variant(struct jack_dbus_method_call *call, const char **arg1, const char **arg2, union anonymous$5 *arg3, signed int *type_ptr)
+_Bool jack_dbus_get_method_args_two_strings_and_variant(struct jack_dbus_method_call *call, const char **arg1, const char **arg2, union anonymous_5 *arg3, signed int *type_ptr)
 {
   struct DBusMessageIter iter;
   struct DBusMessageIter sub_iter;
-  unsigned int return_value_dbus_message_iter_init$4;
-  return_value_dbus_message_iter_init$4=dbus_message_iter_init(call->message, &iter);
-  signed int return_value_dbus_message_iter_get_arg_type$3;
-  if(!(return_value_dbus_message_iter_init$4 == 0u))
+  unsigned int return_value_dbus_message_iter_init_4;
+  return_value_dbus_message_iter_init_4=dbus_message_iter_init(call->message, &iter);
+  signed int return_value_dbus_message_iter_get_arg_type_3;
+  if(!(return_value_dbus_message_iter_init_4 == 0u))
   {
-    return_value_dbus_message_iter_get_arg_type$3=dbus_message_iter_get_arg_type(&iter);
-    if(return_value_dbus_message_iter_get_arg_type$3 == 115)
+    return_value_dbus_message_iter_get_arg_type_3=dbus_message_iter_get_arg_type(&iter);
+    if(return_value_dbus_message_iter_get_arg_type_3 == 115)
     {
       dbus_message_iter_get_basic(&iter, (void *)arg1);
       dbus_message_iter_next(&iter);
-      signed int return_value_dbus_message_iter_get_arg_type$1;
-      return_value_dbus_message_iter_get_arg_type$1=dbus_message_iter_get_arg_type(&iter);
-      if(!(return_value_dbus_message_iter_get_arg_type$1 == 115))
+      signed int return_value_dbus_message_iter_get_arg_type_1;
+      return_value_dbus_message_iter_get_arg_type_1=dbus_message_iter_get_arg_type(&iter);
+      if(!(return_value_dbus_message_iter_get_arg_type_1 == 115))
         return (_Bool)0;
 
       dbus_message_iter_get_basic(&iter, (void *)arg2);
       dbus_message_iter_next(&iter);
-      signed int return_value_dbus_message_iter_get_arg_type$2;
-      return_value_dbus_message_iter_get_arg_type$2=dbus_message_iter_get_arg_type(&iter);
-      if(return_value_dbus_message_iter_get_arg_type$2 == 118)
+      signed int return_value_dbus_message_iter_get_arg_type_2;
+      return_value_dbus_message_iter_get_arg_type_2=dbus_message_iter_get_arg_type(&iter);
+      if(return_value_dbus_message_iter_get_arg_type_2 == 118)
       {
         dbus_message_iter_recurse(&iter, &sub_iter);
         dbus_message_iter_get_basic(&sub_iter, (void *)arg3);
@@ -8417,9 +8417,9 @@ void jack_dbus_info_callback(const char *msg)
   time(&timestamp);
   ctime_r(&timestamp, timestamp_str);
   timestamp_str[(signed long int)24] = (char)0;
-  _Bool return_value_jack_dbus_log_open$1;
-  return_value_jack_dbus_log_open$1=jack_dbus_log_open();
-  if(!(return_value_jack_dbus_log_open$1 == (_Bool)0))
+  _Bool return_value_jack_dbus_log_open_1;
+  return_value_jack_dbus_log_open_1=jack_dbus_log_open();
+  if(!(return_value_jack_dbus_log_open_1 == (_Bool)0))
   {
     fprintf(g_logfile, "%s: %s\n", (const void *)timestamp_str, msg);
     fflush(g_logfile);
@@ -8457,13 +8457,13 @@ static _Bool jack_dbus_log_open(void)
       g_logfile=fopen(g_log_filename, "a");
       if(g_logfile == ((struct _IO_FILE *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fprintf(stderr, "Cannot open jackdbus log file \"%s\": %d (%s)\n", g_log_filename, *return_value___errno_location$1, return_value_strerror$3);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fprintf(stderr, "Cannot open jackdbus log file \"%s\": %d (%s)\n", g_log_filename, *return_value___errno_location_1, return_value_strerror_3);
         return (_Bool)0;
       }
 
@@ -8477,37 +8477,37 @@ static _Bool jack_dbus_log_open(void)
       fclose(g_logfile);
       g_logfile = (struct _IO_FILE *)(void *)0;
     }
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    fprintf(stderr, "Cannot stat just opened jackdbus log file \"%s\": %d (%s). %d retries\n", g_log_filename, *return_value___errno_location$4, return_value_strerror$6, retry);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    fprintf(stderr, "Cannot stat just opened jackdbus log file \"%s\": %d (%s). %d retries\n", g_log_filename, *return_value___errno_location_4, return_value_strerror_6, retry);
     return (_Bool)0;
   }
 }
 
 // jack_dbus_message_append_variant
 // file ../dbus/jackdbus.c line 406
-_Bool jack_dbus_message_append_variant(struct DBusMessageIter *iter, signed int type, const char *signature, union anonymous$5 *arg)
+_Bool jack_dbus_message_append_variant(struct DBusMessageIter *iter, signed int type, const char *signature, union anonymous_5 *arg)
 {
   struct DBusMessageIter sub_iter;
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container(iter, (signed int)118, signature, &sub_iter);
-  unsigned int return_value_dbus_message_iter_append_basic$2;
-  unsigned int return_value_dbus_message_iter_close_container$3;
-  if(!(return_value_dbus_message_iter_open_container$1 == 0u))
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container(iter, (signed int)118, signature, &sub_iter);
+  unsigned int return_value_dbus_message_iter_append_basic_2;
+  unsigned int return_value_dbus_message_iter_close_container_3;
+  if(!(return_value_dbus_message_iter_open_container_1 == 0u))
   {
-    return_value_dbus_message_iter_append_basic$2=dbus_message_iter_append_basic(&sub_iter, type, (const void *)arg);
-    if(return_value_dbus_message_iter_append_basic$2 == 0u)
+    return_value_dbus_message_iter_append_basic_2=dbus_message_iter_append_basic(&sub_iter, type, (const void *)arg);
+    if(return_value_dbus_message_iter_append_basic_2 == 0u)
     {
       dbus_message_iter_close_container(iter, &sub_iter);
       goto fail;
     }
 
-    return_value_dbus_message_iter_close_container$3=dbus_message_iter_close_container(iter, &sub_iter);
-    if(return_value_dbus_message_iter_close_container$3 == 0u)
+    return_value_dbus_message_iter_close_container_3=dbus_message_iter_close_container(iter, &sub_iter);
+    if(return_value_dbus_message_iter_close_container_3 == 0u)
       goto fail;
 
     return (_Bool)1;
@@ -8524,15 +8524,15 @@ _Bool jack_dbus_message_append_variant(struct DBusMessageIter *iter, signed int 
 
 // jack_dbus_message_handler
 // file ../dbus/jackdbus.c line 148
-enum anonymous$8 jack_dbus_message_handler(struct DBusConnection *connection, struct DBusMessage *message, void *data)
+enum anonymous_8 jack_dbus_message_handler(struct DBusConnection *connection, struct DBusMessage *message, void *data)
 {
   struct jack_dbus_method_call call;
   const char *interface_name;
   struct jack_dbus_interface_descriptor **interface_ptr_ptr;
-  signed int return_value_dbus_message_get_type$1;
-  return_value_dbus_message_get_type$1=dbus_message_get_type(message);
-  const char *return_value_dbus_message_get_signature$3;
-  if(return_value_dbus_message_get_type$1 == 1)
+  signed int return_value_dbus_message_get_type_1;
+  return_value_dbus_message_get_type_1=dbus_message_get_type(message);
+  const char *return_value_dbus_message_get_signature_3;
+  if(return_value_dbus_message_get_type_1 == 1)
   {
     call.method_name=dbus_message_get_member(message);
     if(call.method_name == ((const char *)NULL))
@@ -8550,9 +8550,9 @@ enum anonymous$8 jack_dbus_message_handler(struct DBusConnection *connection, st
         interface_ptr_ptr = ((struct jack_dbus_object_descriptor *)data)->interfaces;
         while(!(*interface_ptr_ptr == ((struct jack_dbus_interface_descriptor *)NULL)))
         {
-          signed int return_value_strcmp$2;
-          return_value_strcmp$2=strcmp(interface_name, (*interface_ptr_ptr)->name);
-          if(return_value_strcmp$2 == 0)
+          signed int return_value_strcmp_2;
+          return_value_strcmp_2=strcmp(interface_name, (*interface_ptr_ptr)->name);
+          if(return_value_strcmp_2 == 0)
           {
             _Bool return_value;
             return_value=(*interface_ptr_ptr)->handler(&call, (*interface_ptr_ptr)->methods);
@@ -8576,8 +8576,8 @@ enum anonymous$8 jack_dbus_message_handler(struct DBusConnection *connection, st
         }
 
       }
-      return_value_dbus_message_get_signature$3=dbus_message_get_signature(message);
-      jack_dbus_error((void *)&call, "org.jackaudio.Error.UnknownMethod", "Method \"%s\" with signature \"%s\" on interface \"%s\" doesn't exist", call.method_name, return_value_dbus_message_get_signature$3, interface_name);
+      return_value_dbus_message_get_signature_3=dbus_message_get_signature(message);
+      jack_dbus_error((void *)&call, "org.jackaudio.Error.UnknownMethod", "Method \"%s\" with signature \"%s\" on interface \"%s\" doesn't exist", call.method_name, return_value_dbus_message_get_signature_3, interface_name);
     }
 
   send_return:
@@ -8588,7 +8588,7 @@ enum anonymous$8 jack_dbus_message_handler(struct DBusConnection *connection, st
 
 handled:
   ;
-  return (enum anonymous$8)DBUS_HANDLER_RESULT_HANDLED;
+  return (enum anonymous_8)DBUS_HANDLER_RESULT_HANDLED;
 }
 
 // jack_dbus_message_handler_unregister
@@ -8623,9 +8623,9 @@ _Bool jack_dbus_run_method(struct jack_dbus_method_call *call, struct jack_dbus_
   struct jack_dbus_interface_method_descriptor *method_ptr = methods;
   while(!(method_ptr->name == ((const char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(call->method_name, method_ptr->name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(call->method_name, method_ptr->name);
+    if(return_value_strcmp_1 == 0)
     {
       method_ptr->handler(call);
       return (_Bool)1;
@@ -8647,9 +8647,9 @@ static void jack_dbus_send_method_return(struct jack_dbus_method_call *call)
 
     retry_send:
       ;
-      unsigned int return_value_dbus_connection_send$1;
-      return_value_dbus_connection_send$1=dbus_connection_send(call->connection, call->reply, (unsigned int *)(void *)0);
-      if(return_value_dbus_connection_send$1 == 0u)
+      unsigned int return_value_dbus_connection_send_1;
+      return_value_dbus_connection_send_1=dbus_connection_send(call->connection, call->reply, (unsigned int *)(void *)0);
+      if(return_value_dbus_connection_send_1 == 0u)
         jack_error("Ran out of memory trying to queue method return");
 
       dbus_connection_flush(call->connection);
@@ -8678,21 +8678,21 @@ void jack_dbus_send_signal(const char *sender_object_path, const char *iface, co
   struct DBusMessage *message_ptr;
   void **ap = (void **)&first_arg_type;
   message_ptr=dbus_message_new_signal(sender_object_path, iface, signal_name);
-  unsigned int return_value_dbus_message_append_args_valist$1;
-  unsigned int return_value_dbus_connection_send$2;
+  unsigned int return_value_dbus_message_append_args_valist_1;
+  unsigned int return_value_dbus_connection_send_2;
   if(message_ptr == ((struct DBusMessage *)NULL))
     jack_error("dbus_message_new_signal() failed.");
 
   else
   {
-    return_value_dbus_message_append_args_valist$1=dbus_message_append_args_valist(message_ptr, first_arg_type, ap);
-    if(return_value_dbus_message_append_args_valist$1 == 0u)
+    return_value_dbus_message_append_args_valist_1=dbus_message_append_args_valist(message_ptr, first_arg_type, ap);
+    if(return_value_dbus_message_append_args_valist_1 == 0u)
       jack_error("dbus_message_append_args_valist() failed.");
 
     else
     {
-      return_value_dbus_connection_send$2=dbus_connection_send(g_connection, message_ptr, (unsigned int *)(void *)0);
-      if(return_value_dbus_connection_send$2 == 0u)
+      return_value_dbus_connection_send_2=dbus_connection_send(g_connection, message_ptr, (unsigned int *)(void *)0);
+      if(return_value_dbus_connection_send_2 == 0u)
         jack_error("dbus_connection_send() failed.");
 
     }
@@ -8713,13 +8713,13 @@ void jack_params_add_parameter(struct _jack_params *params, const char * const *
 {
   struct jack_parameter_container *container_ptr;
   container_ptr=find_container(&((struct jack_params *)params)->root, address, 3);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(container_ptr->leaf != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(container_ptr->leaf != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     /* assertion 0 */
     assert(0 != 0);
 
@@ -8727,7 +8727,7 @@ void jack_params_add_parameter(struct _jack_params *params, const char * const *
   {
     param_ptr->ext = (_Bool)1;
     if(!(end == (_Bool)0))
-      list_add_tail$link1(&param_ptr->siblings, &container_ptr->children);
+      list_add_tail_link1(&param_ptr->siblings, &container_ptr->children);
 
     else
       list_add(&param_ptr->siblings, &container_ptr->children);
@@ -8770,19 +8770,19 @@ _Bool jack_params_check_address(struct _jack_params *params, const char * const 
 struct _jack_params * jack_params_create(struct jackctl_server *server)
 {
   struct jack_params *params_ptr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct jack_params) /*104ul*/ );
-  params_ptr = (struct jack_params *)return_value_malloc$1;
-  _Bool tmp_if_expr$4;
-  _Bool return_value_init_drivers$3;
-  _Bool tmp_if_expr$6;
-  _Bool return_value_init_driver$5;
-  _Bool tmp_if_expr$8;
-  _Bool return_value_init_engine_driver_parameter$7;
-  _Bool tmp_if_expr$10;
-  _Bool return_value_jack_params_set_driver$9;
-  _Bool tmp_if_expr$12;
-  _Bool return_value_init_internals$11;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct jack_params) /*104ul*/ );
+  params_ptr = (struct jack_params *)return_value_malloc_1;
+  _Bool tmp_if_expr_4;
+  _Bool return_value_init_drivers_3;
+  _Bool tmp_if_expr_6;
+  _Bool return_value_init_driver_5;
+  _Bool tmp_if_expr_8;
+  _Bool return_value_init_engine_driver_parameter_7;
+  _Bool tmp_if_expr_10;
+  _Bool return_value_jack_params_set_driver_9;
+  _Bool tmp_if_expr_12;
+  _Bool return_value_init_internals_11;
   if(params_ptr == ((struct jack_params *)NULL))
   {
     jack_error("Ran out of memory trying to allocate struct jack_params");
@@ -8792,52 +8792,52 @@ struct _jack_params * jack_params_create(struct jackctl_server *server)
   else
   {
     params_ptr->server = server;
-    INIT_LIST_HEAD$link1(&params_ptr->root.children);
+    INIT_LIST_HEAD_link1(&params_ptr->root.children);
     params_ptr->root.leaf = (_Bool)0;
     params_ptr->root.name = (char *)(void *)0;
-    _Bool return_value_init_engine$2;
-    return_value_init_engine$2=init_engine(params_ptr);
-    if(return_value_init_engine$2 == (_Bool)0)
-      tmp_if_expr$4 = (_Bool)1;
+    _Bool return_value_init_engine_2;
+    return_value_init_engine_2=init_engine(params_ptr);
+    if(return_value_init_engine_2 == (_Bool)0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_init_drivers$3=init_drivers(params_ptr);
-      tmp_if_expr$4 = !(return_value_init_drivers$3 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_init_drivers_3=init_drivers(params_ptr);
+      tmp_if_expr_4 = !(return_value_init_drivers_3 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_init_driver$5=init_driver(params_ptr);
-      tmp_if_expr$6 = !(return_value_init_driver$5 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_init_driver_5=init_driver(params_ptr);
+      tmp_if_expr_6 = !(return_value_init_driver_5 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_init_engine_driver_parameter$7=init_engine_driver_parameter(params_ptr);
-      tmp_if_expr$8 = !(return_value_init_engine_driver_parameter$7 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_init_engine_driver_parameter_7=init_engine_driver_parameter(params_ptr);
+      tmp_if_expr_8 = !(return_value_init_engine_driver_parameter_7 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_jack_params_set_driver$9=jack_params_set_driver((struct _jack_params *)params_ptr, "dummy");
-      tmp_if_expr$10 = !(return_value_jack_params_set_driver$9 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_jack_params_set_driver_9=jack_params_set_driver((struct _jack_params *)params_ptr, "dummy");
+      tmp_if_expr_10 = !(return_value_jack_params_set_driver_9 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_init_internals$11=init_internals(params_ptr);
-      tmp_if_expr$12 = !(return_value_init_internals$11 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_init_internals_11=init_internals(params_ptr);
+      tmp_if_expr_12 = !(return_value_init_internals_11 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
+    if(tmp_if_expr_12)
     {
       jack_params_destroy((struct _jack_params *)params_ptr);
       return (struct _jack_params *)(void *)0;
@@ -8846,10 +8846,10 @@ struct _jack_params * jack_params_create(struct jackctl_server *server)
     else
     {
       params_ptr->driver_set = (_Bool)0;
-      signed int return_value_strcmp$13;
-      return_value_strcmp$13=strcmp(params_ptr->driver_ptr->symlink->name, "dummy");
+      signed int return_value_strcmp_13;
+      return_value_strcmp_13=strcmp(params_ptr->driver_ptr->symlink->name, "dummy");
       /* assertion strcmp(params_ptr->driver_ptr->symlink->name, "dummy") == 0 */
-      assert(return_value_strcmp$13 == 0);
+      assert(return_value_strcmp_13 == 0);
       return (struct _jack_params *)params_ptr;
     }
   }
@@ -8885,14 +8885,14 @@ struct jack_parameter * jack_params_get_parameter(struct _jack_params *params, c
 
   depth = depth - 1;
   container_ptr=find_container(&((struct jack_params *)params)->root, address, depth);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(container_ptr->leaf != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  struct jack_parameter *tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(container_ptr->leaf != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  struct jack_parameter *tmp_statement_expression_2;
+  if(tmp_if_expr_1)
     return (struct jack_parameter *)(void *)0;
 
   else
@@ -8905,11 +8905,11 @@ struct jack_parameter * jack_params_get_parameter(struct _jack_params *params, c
         break;
 
       const struct list_head *__mptr = node_ptr;
-      tmp_statement_expression$2 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
-      param_ptr = tmp_statement_expression$2;
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(param_ptr->name, address[(signed long int)depth]);
-      if(return_value_strcmp$3 == 0)
+      tmp_statement_expression_2 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
+      param_ptr = tmp_statement_expression_2;
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(param_ptr->name, address[(signed long int)depth]);
+      if(return_value_strcmp_3 == 0)
         return param_ptr;
 
       node_ptr = node_ptr->next;
@@ -8944,8 +8944,8 @@ _Bool jack_params_iterate_container(struct _jack_params *params, const char * co
   struct list_head *node_ptr;
   const char *name;
   container_ptr=find_container(&((struct jack_params *)params)->root, address, 3);
-  struct jack_parameter *tmp_statement_expression$1;
-  struct jack_parameter_container *tmp_statement_expression$2;
+  struct jack_parameter *tmp_statement_expression_1;
+  struct jack_parameter_container *tmp_statement_expression_2;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
   {
     /* assertion 0 */
@@ -8962,15 +8962,15 @@ _Bool jack_params_iterate_container(struct _jack_params *params, const char * co
       if(!(container_ptr->leaf == (_Bool)0))
       {
         const struct list_head *__mptr = node_ptr;
-        tmp_statement_expression$1 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
-        name = tmp_statement_expression$1->name;
+        tmp_statement_expression_1 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
+        name = tmp_statement_expression_1->name;
       }
 
       else
       {
-        const struct list_head *jack_params_iterate_container$$1$$2$$1$$2$$1$$__mptr = node_ptr;
-        tmp_statement_expression$2 = (struct jack_parameter_container *)((char *)jack_params_iterate_container$$1$$2$$1$$2$$1$$__mptr - (signed long int)0ul);
-        name = tmp_statement_expression$2->name;
+        const struct list_head *jack_params_iterate_container__1__2__1__2__1____mptr = node_ptr;
+        tmp_statement_expression_2 = (struct jack_parameter_container *)((char *)jack_params_iterate_container__1__2__1__2__1____mptr - (signed long int)0ul);
+        name = tmp_statement_expression_2->name;
       }
       _Bool return_value;
       return_value=callback(context, name);
@@ -8992,14 +8992,14 @@ _Bool jack_params_iterate_params(struct _jack_params *params, const char * const
   struct list_head *node_ptr;
   struct jack_parameter *param_ptr;
   container_ptr=find_container(&((struct jack_params *)params)->root, address, 3);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(container_ptr == ((struct jack_parameter_container *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(container_ptr->leaf != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  struct jack_parameter *tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(container_ptr->leaf != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  struct jack_parameter *tmp_statement_expression_2;
+  if(tmp_if_expr_1)
   {
     /* assertion 0 */
     assert(0 != 0);
@@ -9013,8 +9013,8 @@ _Bool jack_params_iterate_params(struct _jack_params *params, const char * const
     if(!(node_ptr == &container_ptr->children))
     {
       const struct list_head *__mptr = node_ptr;
-      tmp_statement_expression$2 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
-      param_ptr = tmp_statement_expression$2;
+      tmp_statement_expression_2 = (struct jack_parameter *)((char *)__mptr - (signed long int)48ul);
+      param_ptr = tmp_statement_expression_2;
       _Bool return_value;
       return_value=callback(context, param_ptr);
       if(return_value == (_Bool)0)
@@ -9034,7 +9034,7 @@ _Bool jack_params_set_driver(struct _jack_params *params, const char *name)
   struct list_head *node_ptr;
   struct jack_parameter_container *container_ptr;
   node_ptr = ((struct jack_params *)params)->drivers_ptr->next;
-  struct jack_parameter_container *tmp_statement_expression$1;
+  struct jack_parameter_container *tmp_statement_expression_1;
   do
   {
     node_ptr->next = node_ptr->next;
@@ -9042,11 +9042,11 @@ _Bool jack_params_set_driver(struct _jack_params *params, const char *name)
       break;
 
     const struct list_head *__mptr = node_ptr;
-    tmp_statement_expression$1 = (struct jack_parameter_container *)((char *)__mptr - (signed long int)0ul);
-    container_ptr = tmp_statement_expression$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(container_ptr->name, name);
-    if(return_value_strcmp$2 == 0)
+    tmp_statement_expression_1 = (struct jack_parameter_container *)((char *)__mptr - (signed long int)0ul);
+    container_ptr = tmp_statement_expression_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(container_ptr->name, name);
+    if(return_value_strcmp_2 == 0)
     {
       ((struct jack_params *)params)->driver_ptr->symlink = container_ptr;
       ((struct jack_params *)params)->driver_set = (_Bool)1;
@@ -9061,15 +9061,15 @@ _Bool jack_params_set_driver(struct _jack_params *params, const char *name)
 
 // jack_ringbuffer_create
 // file ../common/ringbuffer.c line 68
-struct anonymous$0 * jack_ringbuffer_create(unsigned long int sz)
+struct anonymous_0 * jack_ringbuffer_create(unsigned long int sz)
 {
   signed int power_of_two;
-  struct anonymous$0 *rb;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$0) /*48ul*/ );
-  rb = (struct anonymous$0 *)return_value_malloc$1;
-  if(rb == ((struct anonymous$0 *)NULL))
-    return (struct anonymous$0 *)(void *)0;
+  struct anonymous_0 *rb;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_0) /*48ul*/ );
+  rb = (struct anonymous_0 *)return_value_malloc_1;
+  if(rb == ((struct anonymous_0 *)NULL))
+    return (struct anonymous_0 *)(void *)0;
 
   else
   {
@@ -9081,13 +9081,13 @@ struct anonymous$0 * jack_ringbuffer_create(unsigned long int sz)
     rb->size_mask = rb->size_mask - (unsigned long int)1;
     rb->write_ptr = (volatile unsigned long int)0;
     rb->read_ptr = (volatile unsigned long int)0;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(rb->size);
-    rb->buf = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(rb->size);
+    rb->buf = (char *)return_value_malloc_2;
     if(rb->buf == ((char *)NULL))
     {
       free((void *)rb);
-      return (struct anonymous$0 *)(void *)0;
+      return (struct anonymous_0 *)(void *)0;
     }
 
     else
@@ -9100,7 +9100,7 @@ struct anonymous$0 * jack_ringbuffer_create(unsigned long int sz)
 
 // jack_ringbuffer_free
 // file ../common/ringbuffer.c line 96
-void jack_ringbuffer_free(struct anonymous$0 *rb)
+void jack_ringbuffer_free(struct anonymous_0 *rb)
 {
   free((void *)rb->buf);
   free((void *)rb);
@@ -9108,7 +9108,7 @@ void jack_ringbuffer_free(struct anonymous$0 *rb)
 
 // jack_ringbuffer_get_read_vector
 // file ../common/ringbuffer.c line 326
-void jack_ringbuffer_get_read_vector(const struct anonymous$0 *rb, struct anonymous *vec)
+void jack_ringbuffer_get_read_vector(const struct anonymous_0 *rb, struct anonymous *vec)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -9140,7 +9140,7 @@ void jack_ringbuffer_get_read_vector(const struct anonymous$0 *rb, struct anonym
 
 // jack_ringbuffer_get_write_vector
 // file ../common/ringbuffer.c line 370
-void jack_ringbuffer_get_write_vector(const struct anonymous$0 *rb, struct anonymous *vec)
+void jack_ringbuffer_get_write_vector(const struct anonymous_0 *rb, struct anonymous *vec)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -9176,7 +9176,7 @@ void jack_ringbuffer_get_write_vector(const struct anonymous$0 *rb, struct anony
 
 // jack_ringbuffer_mlock
 // file ../common/ringbuffer.c line 110
-signed int jack_ringbuffer_mlock(struct anonymous$0 *rb)
+signed int jack_ringbuffer_mlock(struct anonymous_0 *rb)
 {
   rb->mlocked = 1;
   return 0;
@@ -9184,7 +9184,7 @@ signed int jack_ringbuffer_mlock(struct anonymous$0 *rb)
 
 // jack_ringbuffer_peek
 // file ../common/ringbuffer.c line 228
-unsigned long int jack_ringbuffer_peek(struct anonymous$0 *rb, char *dest, unsigned long int cnt)
+unsigned long int jack_ringbuffer_peek(struct anonymous_0 *rb, char *dest, unsigned long int cnt)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -9222,7 +9222,7 @@ unsigned long int jack_ringbuffer_peek(struct anonymous$0 *rb, char *dest, unsig
 
 // jack_ringbuffer_read
 // file ../common/ringbuffer.c line 189
-unsigned long int jack_ringbuffer_read(struct anonymous$0 *rb, char *dest, unsigned long int cnt)
+unsigned long int jack_ringbuffer_read(struct anonymous_0 *rb, char *dest, unsigned long int cnt)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -9262,7 +9262,7 @@ unsigned long int jack_ringbuffer_read(struct anonymous$0 *rb, char *dest, unsig
 
 // jack_ringbuffer_read_advance
 // file ../common/ringbuffer.c line 305
-void jack_ringbuffer_read_advance(struct anonymous$0 *rb, unsigned long int cnt)
+void jack_ringbuffer_read_advance(struct anonymous_0 *rb, unsigned long int cnt)
 {
   unsigned long int tmp = rb->read_ptr + cnt & rb->size_mask;
   rb->read_ptr = tmp;
@@ -9270,7 +9270,7 @@ void jack_ringbuffer_read_advance(struct anonymous$0 *rb, unsigned long int cnt)
 
 // jack_ringbuffer_read_space
 // file ../common/ringbuffer.c line 150
-unsigned long int jack_ringbuffer_read_space(const struct anonymous$0 *rb)
+unsigned long int jack_ringbuffer_read_space(const struct anonymous_0 *rb)
 {
   unsigned long int w;
   unsigned long int r;
@@ -9285,7 +9285,7 @@ unsigned long int jack_ringbuffer_read_space(const struct anonymous$0 *rb)
 
 // jack_ringbuffer_reset
 // file ../common/ringbuffer.c line 125
-void jack_ringbuffer_reset(struct anonymous$0 *rb)
+void jack_ringbuffer_reset(struct anonymous_0 *rb)
 {
   rb->read_ptr = (volatile unsigned long int)0;
   rb->write_ptr = (volatile unsigned long int)0;
@@ -9294,7 +9294,7 @@ void jack_ringbuffer_reset(struct anonymous$0 *rb)
 
 // jack_ringbuffer_reset_size
 // file ../common/ringbuffer.c line 136
-void jack_ringbuffer_reset_size(struct anonymous$0 *rb, unsigned long int sz)
+void jack_ringbuffer_reset_size(struct anonymous_0 *rb, unsigned long int sz)
 {
   rb->size = sz;
   rb->size_mask = rb->size;
@@ -9305,7 +9305,7 @@ void jack_ringbuffer_reset_size(struct anonymous$0 *rb, unsigned long int sz)
 
 // jack_ringbuffer_write
 // file ../common/ringbuffer.c line 268
-unsigned long int jack_ringbuffer_write(struct anonymous$0 *rb, const char *src, unsigned long int cnt)
+unsigned long int jack_ringbuffer_write(struct anonymous_0 *rb, const char *src, unsigned long int cnt)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -9345,7 +9345,7 @@ unsigned long int jack_ringbuffer_write(struct anonymous$0 *rb, const char *src,
 
 // jack_ringbuffer_write_advance
 // file ../common/ringbuffer.c line 314
-void jack_ringbuffer_write_advance(struct anonymous$0 *rb, unsigned long int cnt)
+void jack_ringbuffer_write_advance(struct anonymous_0 *rb, unsigned long int cnt)
 {
   unsigned long int tmp = rb->write_ptr + cnt & rb->size_mask;
   rb->write_ptr = tmp;
@@ -9353,7 +9353,7 @@ void jack_ringbuffer_write_advance(struct anonymous$0 *rb, unsigned long int cnt
 
 // jack_ringbuffer_write_space
 // file ../common/ringbuffer.c line 169
-unsigned long int jack_ringbuffer_write_space(const struct anonymous$0 *rb)
+unsigned long int jack_ringbuffer_write_space(const struct anonymous_0 *rb)
 {
   unsigned long int w;
   unsigned long int r;
@@ -9374,7 +9374,7 @@ unsigned long int jack_ringbuffer_write_space(const struct anonymous$0 *rb)
 // file ../dbus/list.h line 104
 static inline void list_add(struct list_head *new, struct list_head *head)
 {
-  __list_add$link1(new, head, head->next);
+  __list_add_link1(new, head, head->next);
 }
 
 // list_add_tail
@@ -9384,25 +9384,25 @@ static inline void list_add_tail(struct list_head *new, struct list_head *head)
   __list_add(new, head->prev, head);
 }
 
-// list_add_tail$link1
+// list_add_tail_link1
 // file ../dbus/list.h line 117
-static inline void list_add_tail$link1(struct list_head *new$link1, struct list_head *head$link1)
+static inline void list_add_tail_link1(struct list_head *new_link1, struct list_head *head_link1)
 {
-  __list_add$link1(new$link1, head$link1->prev, head$link1);
+  __list_add_link1(new_link1, head_link1->prev, head_link1);
 }
 
-// list_add_tail$link2
+// list_add_tail_link2
 // file ../dbus/list.h line 117
-static inline void list_add_tail$link2(struct list_head *new$link2, struct list_head *head$link2)
+static inline void list_add_tail_link2(struct list_head *new_link2, struct list_head *head_link2)
 {
-  __list_add$link2(new$link2, head$link2->prev, head$link2);
+  __list_add_link2(new_link2, head_link2->prev, head_link2);
 }
 
-// list_add_tail$link3
+// list_add_tail_link3
 // file ../dbus/list.h line 117
-static inline void list_add_tail$link3(struct list_head *new$link3, struct list_head *head$link3)
+static inline void list_add_tail_link3(struct list_head *new_link3, struct list_head *head_link3)
 {
-  __list_add$link3(new$link3, head$link3->prev, head$link3);
+  __list_add_link3(new_link3, head_link3->prev, head_link3);
 }
 
 // list_del
@@ -9414,31 +9414,31 @@ static inline void list_del(struct list_head *entry)
   entry->prev = (struct list_head *)(void *)0x00200200;
 }
 
-// list_del$link1
+// list_del_link1
 // file ../dbus/list.h line 200
-static inline void list_del$link1(struct list_head *entry$link1)
+static inline void list_del_link1(struct list_head *entry_link1)
 {
-  __list_del$link1(entry$link1->prev, entry$link1->next);
-  entry$link1->next = (struct list_head *)(void *)0x00100100;
-  entry$link1->prev = (struct list_head *)(void *)0x00200200;
+  __list_del_link1(entry_link1->prev, entry_link1->next);
+  entry_link1->next = (struct list_head *)(void *)0x00100100;
+  entry_link1->prev = (struct list_head *)(void *)0x00200200;
 }
 
-// list_del$link2
+// list_del_link2
 // file ../dbus/list.h line 200
-static inline void list_del$link2(struct list_head *entry$link2)
+static inline void list_del_link2(struct list_head *entry_link2)
 {
-  __list_del$link2(entry$link2->prev, entry$link2->next);
-  entry$link2->next = (struct list_head *)(void *)0x00100100;
-  entry$link2->prev = (struct list_head *)(void *)0x00200200;
+  __list_del_link2(entry_link2->prev, entry_link2->next);
+  entry_link2->next = (struct list_head *)(void *)0x00100100;
+  entry_link2->prev = (struct list_head *)(void *)0x00200200;
 }
 
-// list_del$link3
+// list_del_link3
 // file ../dbus/list.h line 200
-static inline void list_del$link3(struct list_head *entry$link3)
+static inline void list_del_link3(struct list_head *entry_link3)
 {
-  __list_del$link3(entry$link3->prev, entry$link3->next);
-  entry$link3->next = (struct list_head *)(void *)0x00100100;
-  entry$link3->prev = (struct list_head *)(void *)0x00200200;
+  __list_del_link3(entry_link3->prev, entry_link3->next);
+  entry_link3->next = (struct list_head *)(void *)0x00100100;
+  entry_link3->prev = (struct list_head *)(void *)0x00200200;
 }
 
 // list_empty
@@ -9448,25 +9448,25 @@ static inline signed int list_empty(struct list_head *head)
   return (signed int)(head->next == head);
 }
 
-// list_empty$link1
+// list_empty_link1
 // file ../dbus/list.h line 292
-static inline signed int list_empty$link1(struct list_head *head$link1)
+static inline signed int list_empty_link1(struct list_head *head_link1)
 {
-  return (signed int)(head$link1->next == head$link1);
+  return (signed int)(head_link1->next == head_link1);
 }
 
-// list_empty$link2
+// list_empty_link2
 // file ../dbus/list.h line 292
-static inline signed int list_empty$link2(struct list_head *head$link2)
+static inline signed int list_empty_link2(struct list_head *head_link2)
 {
-  return (signed int)(head$link2->next == head$link2);
+  return (signed int)(head_link2->next == head_link2);
 }
 
-// list_empty$link3
+// list_empty_link3
 // file ../dbus/list.h line 292
-static inline signed int list_empty$link3(struct list_head *head$link3)
+static inline signed int list_empty_link3(struct list_head *head_link3)
 {
-  return (signed int)(head$link3->next == head$link3);
+  return (signed int)(head_link3->next == head_link3);
 }
 
 // log_init
@@ -9475,9 +9475,9 @@ static _Bool log_init(void)
 {
   unsigned long int log_len;
   log_len=strlen("/jackdbus.log");
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(g_jackdbus_log_dir_len + log_len + (unsigned long int)1);
-  g_log_filename = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(g_jackdbus_log_dir_len + log_len + (unsigned long int)1);
+  g_log_filename = (char *)return_value_malloc_1;
   if(g_log_filename == ((char *)NULL))
   {
     fprintf(stderr, "Out of memory\n");
@@ -9489,9 +9489,9 @@ static _Bool log_init(void)
     memcpy((void *)g_log_filename, (const void *)g_jackdbus_log_dir, g_jackdbus_log_dir_len);
     memcpy((void *)(g_log_filename + (signed long int)g_jackdbus_log_dir_len), (const void *)"/jackdbus.log", log_len);
     g_log_filename[(signed long int)(g_jackdbus_log_dir_len + log_len)] = (char)0;
-    _Bool return_value_jack_dbus_log_open$2;
-    return_value_jack_dbus_log_open$2=jack_dbus_log_open();
-    if(return_value_jack_dbus_log_open$2 == (_Bool)0)
+    _Bool return_value_jack_dbus_log_open_2;
+    return_value_jack_dbus_log_open_2=jack_dbus_log_open();
+    if(return_value_jack_dbus_log_open_2 == (_Bool)0)
       return (_Bool)0;
 
     else
@@ -9522,30 +9522,30 @@ signed int main(signed int argc, char **argv)
   stat(argv[(signed long int)0], &st);
   ctime_r(&st.st_mtim.tv_sec, timestamp_str);
   timestamp_str[(signed long int)24] = (char)0;
-  _Bool return_value_jack_controller_settings_init$1;
-  return_value_jack_controller_settings_init$1=jack_controller_settings_init();
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  _Bool return_value_paths_init$4;
-  _Bool return_value_log_init$5;
-  const char *return_value_jack_get_version_string$6;
-  unsigned int return_value_dbus_threads_init_default$7;
-  unsigned int return_value_dbus_error_is_set$8;
-  unsigned int return_value_dbus_connection_read_write_dispatch$9;
-  if(return_value_jack_controller_settings_init$1 == (_Bool)0)
+  _Bool return_value_jack_controller_settings_init_1;
+  return_value_jack_controller_settings_init_1=jack_controller_settings_init();
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  _Bool return_value_paths_init_4;
+  _Bool return_value_log_init_5;
+  const char *return_value_jack_get_version_string_6;
+  unsigned int return_value_dbus_threads_init_default_7;
+  unsigned int return_value_dbus_error_is_set_8;
+  unsigned int return_value_dbus_connection_read_write_dispatch_9;
+  if(return_value_jack_controller_settings_init_1 == (_Bool)0)
     ret = 1;
 
   else
   {
     if(!(argc == 2))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$2=strcmp(argv[(signed long int)1], "auto");
-      tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_2=strcmp(argv[(signed long int)1], "auto");
+      tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       ret = 0;
       fprintf(stderr, "jackdbus should be auto-executed by D-Bus message bus daemon.\nIf you want to run it manually anyway, specify \"auto\" as only parameter\n");
@@ -9553,14 +9553,14 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_paths_init$4=paths_init();
-      if(return_value_paths_init$4 == (_Bool)0)
+      return_value_paths_init_4=paths_init();
+      if(return_value_paths_init_4 == (_Bool)0)
         ret = 1;
 
       else
       {
-        return_value_log_init$5=log_init();
-        if(return_value_log_init$5 == (_Bool)0)
+        return_value_log_init_5=log_init();
+        if(return_value_log_init_5 == (_Bool)0)
           ret = 1;
 
         else
@@ -9570,10 +9570,10 @@ signed int main(signed int argc, char **argv)
           jack_set_info_function(jack_dbus_info_callback);
           setup_sigsegv();
           jack_info("------------------");
-          return_value_jack_get_version_string$6=jack_get_version_string();
-          jack_info("Controller activated. Version %s (%s) built on %s", return_value_jack_get_version_string$6, (const void *)"unknown", (const void *)timestamp_str);
-          return_value_dbus_threads_init_default$7=dbus_threads_init_default();
-          if(return_value_dbus_threads_init_default$7 == 0u)
+          return_value_jack_get_version_string_6=jack_get_version_string();
+          jack_info("Controller activated. Version %s (%s) built on %s", return_value_jack_get_version_string_6, (const void *)"unknown", (const void *)timestamp_str);
+          return_value_dbus_threads_init_default_7=dbus_threads_init_default();
+          if(return_value_dbus_threads_init_default_7 == 0u)
           {
             jack_error("dbus_threads_init_default() failed");
             ret = 1;
@@ -9582,9 +9582,9 @@ signed int main(signed int argc, char **argv)
           else
           {
             dbus_error_init(&error);
-            g_connection=dbus_bus_get((enum anonymous$7)DBUS_BUS_SESSION, &error);
-            return_value_dbus_error_is_set$8=dbus_error_is_set(&error);
-            if(!(return_value_dbus_error_is_set$8 == 0u))
+            g_connection=dbus_bus_get((enum anonymous_7)DBUS_BUS_SESSION, &error);
+            return_value_dbus_error_is_set_8=dbus_error_is_set(&error);
+            if(!(return_value_dbus_error_is_set_8 == 0u))
             {
               jack_error("Cannot connect to D-Bus session bus: %s", error.message);
               ret = 1;
@@ -9619,8 +9619,8 @@ signed int main(signed int argc, char **argv)
                 g_exit_command = 0;
                 while(g_exit_command == 0)
                 {
-                  return_value_dbus_connection_read_write_dispatch$9=dbus_connection_read_write_dispatch(g_connection, 200);
-                  if(return_value_dbus_connection_read_write_dispatch$9 == 0u)
+                  return_value_dbus_connection_read_write_dispatch_9=dbus_connection_read_write_dispatch(g_connection, 200);
+                  if(return_value_dbus_connection_read_write_dispatch_9 == 0u)
                     break;
 
                   jack_controller_run(controller_ptr);
@@ -9659,7 +9659,7 @@ fail:
 
 // object_handler
 // file ../dbus/reserve.c line 118
-static enum anonymous$8 object_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata)
+static enum anonymous_8 object_handler(struct DBusConnection *c, struct DBusMessage *m, void *userdata)
 {
   struct rd_device *d;
   struct DBusError error;
@@ -9668,22 +9668,22 @@ static enum anonymous$8 object_handler(struct DBusConnection *c, struct DBusMess
   d = (struct rd_device *)userdata;
   /* assertion d->ref >= 1 */
   assert(d->ref >= 1);
-  unsigned int return_value_dbus_message_is_method_call$20;
-  return_value_dbus_message_is_method_call$20=dbus_message_is_method_call(m, "org.freedesktop.ReserveDevice1", "RequestRelease");
-  unsigned int return_value_dbus_message_is_method_call$19;
-  _Bool tmp_if_expr$13;
-  const char **tmp_if_expr$5;
-  signed int return_value_strcmp$11;
-  const char **tmp_if_expr$7;
-  signed int return_value_strcmp$10;
-  unsigned int return_value_dbus_message_is_method_call$18;
-  if(!(return_value_dbus_message_is_method_call$20 == 0u))
+  unsigned int return_value_dbus_message_is_method_call_20;
+  return_value_dbus_message_is_method_call_20=dbus_message_is_method_call(m, "org.freedesktop.ReserveDevice1", "RequestRelease");
+  unsigned int return_value_dbus_message_is_method_call_19;
+  _Bool tmp_if_expr_13;
+  const char **tmp_if_expr_5;
+  signed int return_value_strcmp_11;
+  const char **tmp_if_expr_7;
+  signed int return_value_strcmp_10;
+  unsigned int return_value_dbus_message_is_method_call_18;
+  if(!(return_value_dbus_message_is_method_call_20 == 0u))
   {
     signed int priority;
     unsigned int ret;
-    unsigned int return_value_dbus_message_get_args$1;
-    return_value_dbus_message_get_args$1=dbus_message_get_args(m, &error, (signed int)105, &priority, (signed int)0);
-    if(return_value_dbus_message_get_args$1 == 0u)
+    unsigned int return_value_dbus_message_get_args_1;
+    return_value_dbus_message_get_args_1=dbus_message_get_args(m, &error, (signed int)105, &priority, (signed int)0);
+    if(return_value_dbus_message_get_args_1 == 0u)
       goto invalid;
 
     ret = (unsigned int)0;
@@ -9709,95 +9709,95 @@ static enum anonymous$8 object_handler(struct DBusConnection *c, struct DBusMess
     if(reply == ((struct DBusMessage *)NULL))
       goto oom;
 
-    unsigned int return_value_dbus_message_append_args$2;
-    return_value_dbus_message_append_args$2=dbus_message_append_args(reply, (signed int)98, &ret, (signed int)0);
-    if(return_value_dbus_message_append_args$2 == 0u)
+    unsigned int return_value_dbus_message_append_args_2;
+    return_value_dbus_message_append_args_2=dbus_message_append_args(reply, (signed int)98, &ret, (signed int)0);
+    if(return_value_dbus_message_append_args_2 == 0u)
       goto oom;
 
-    unsigned int return_value_dbus_connection_send$3;
-    return_value_dbus_connection_send$3=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
-    if(return_value_dbus_connection_send$3 == 0u)
+    unsigned int return_value_dbus_connection_send_3;
+    return_value_dbus_connection_send_3=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
+    if(return_value_dbus_connection_send_3 == 0u)
       goto oom;
 
     dbus_message_unref(reply);
-    return (enum anonymous$8)DBUS_HANDLER_RESULT_HANDLED;
+    return (enum anonymous_8)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
   {
-    return_value_dbus_message_is_method_call$19=dbus_message_is_method_call(m, "org.freedesktop.DBus.Properties", "Get");
-    if(!(return_value_dbus_message_is_method_call$19 == 0u))
+    return_value_dbus_message_is_method_call_19=dbus_message_is_method_call(m, "org.freedesktop.DBus.Properties", "Get");
+    if(!(return_value_dbus_message_is_method_call_19 == 0u))
     {
       const char *interface;
       const char *property;
-      unsigned int return_value_dbus_message_get_args$4;
-      return_value_dbus_message_get_args$4=dbus_message_get_args(m, &error, (signed int)115, &interface, (signed int)115, &property, (signed int)0);
-      if(return_value_dbus_message_get_args$4 == 0u)
+      unsigned int return_value_dbus_message_get_args_4;
+      return_value_dbus_message_get_args_4=dbus_message_get_args(m, &error, (signed int)115, &interface, (signed int)115, &property, (signed int)0);
+      if(return_value_dbus_message_get_args_4 == 0u)
         goto invalid;
 
-      signed int return_value_strcmp$15;
-      return_value_strcmp$15=strcmp(interface, "org.freedesktop.ReserveDevice1");
-      if(return_value_strcmp$15 == 0)
+      signed int return_value_strcmp_15;
+      return_value_strcmp_15=strcmp(interface, "org.freedesktop.ReserveDevice1");
+      if(return_value_strcmp_15 == 0)
       {
         const char *empty = "";
-        signed int return_value_strcmp$12;
-        return_value_strcmp$12=strcmp(property, "ApplicationName");
-        if(return_value_strcmp$12 == 0)
-          tmp_if_expr$13 = d->application_name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        signed int return_value_strcmp_12;
+        return_value_strcmp_12=strcmp(property, "ApplicationName");
+        if(return_value_strcmp_12 == 0)
+          tmp_if_expr_13 = d->application_name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
         {
           reply=dbus_message_new_method_return(m);
           if(reply == ((struct DBusMessage *)NULL))
             goto oom;
 
           if(!(d->application_name == ((char *)NULL)))
-            tmp_if_expr$5 = (const char **)&d->application_name;
+            tmp_if_expr_5 = (const char **)&d->application_name;
 
           else
-            tmp_if_expr$5 = &empty;
-          unsigned int return_value_add_variant$6;
-          return_value_add_variant$6=add_variant(reply, (signed int)115, (const void *)tmp_if_expr$5);
-          if(return_value_add_variant$6 == 0u)
+            tmp_if_expr_5 = &empty;
+          unsigned int return_value_add_variant_6;
+          return_value_add_variant_6=add_variant(reply, (signed int)115, (const void *)tmp_if_expr_5);
+          if(return_value_add_variant_6 == 0u)
             goto oom;
 
         }
 
         else
         {
-          return_value_strcmp$11=strcmp(property, "ApplicationDeviceName");
-          if(return_value_strcmp$11 == 0)
+          return_value_strcmp_11=strcmp(property, "ApplicationDeviceName");
+          if(return_value_strcmp_11 == 0)
           {
             reply=dbus_message_new_method_return(m);
             if(reply == ((struct DBusMessage *)NULL))
               goto oom;
 
             if(!(d->application_device_name == ((char *)NULL)))
-              tmp_if_expr$7 = (const char **)&d->application_device_name;
+              tmp_if_expr_7 = (const char **)&d->application_device_name;
 
             else
-              tmp_if_expr$7 = &empty;
-            unsigned int return_value_add_variant$8;
-            return_value_add_variant$8=add_variant(reply, (signed int)115, (const void *)tmp_if_expr$7);
-            if(return_value_add_variant$8 == 0u)
+              tmp_if_expr_7 = &empty;
+            unsigned int return_value_add_variant_8;
+            return_value_add_variant_8=add_variant(reply, (signed int)115, (const void *)tmp_if_expr_7);
+            if(return_value_add_variant_8 == 0u)
               goto oom;
 
           }
 
           else
           {
-            return_value_strcmp$10=strcmp(property, "Priority");
-            if(return_value_strcmp$10 == 0)
+            return_value_strcmp_10=strcmp(property, "Priority");
+            if(return_value_strcmp_10 == 0)
             {
               reply=dbus_message_new_method_return(m);
               if(reply == ((struct DBusMessage *)NULL))
                 goto oom;
 
-              unsigned int return_value_add_variant$9;
-              return_value_add_variant$9=add_variant(reply, (signed int)105, (const void *)&d->priority);
-              if(return_value_add_variant$9 == 0u)
+              unsigned int return_value_add_variant_9;
+              return_value_add_variant_9=add_variant(reply, (signed int)105, (const void *)&d->priority);
+              if(return_value_add_variant_9 == 0u)
                 goto oom;
 
             }
@@ -9811,44 +9811,44 @@ static enum anonymous$8 object_handler(struct DBusConnection *c, struct DBusMess
             }
           }
         }
-        unsigned int return_value_dbus_connection_send$14;
-        return_value_dbus_connection_send$14=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
-        if(return_value_dbus_connection_send$14 == 0u)
+        unsigned int return_value_dbus_connection_send_14;
+        return_value_dbus_connection_send_14=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
+        if(return_value_dbus_connection_send_14 == 0u)
           goto oom;
 
         dbus_message_unref(reply);
-        return (enum anonymous$8)DBUS_HANDLER_RESULT_HANDLED;
+        return (enum anonymous_8)DBUS_HANDLER_RESULT_HANDLED;
       }
 
     }
 
     else
     {
-      return_value_dbus_message_is_method_call$18=dbus_message_is_method_call(m, "org.freedesktop.DBus.Introspectable", "Introspect");
-      if(!(return_value_dbus_message_is_method_call$18 == 0u))
+      return_value_dbus_message_is_method_call_18=dbus_message_is_method_call(m, "org.freedesktop.DBus.Introspectable", "Introspect");
+      if(!(return_value_dbus_message_is_method_call_18 == 0u))
       {
         const char *i = introspection;
         reply=dbus_message_new_method_return(m);
         if(reply == ((struct DBusMessage *)NULL))
           goto oom;
 
-        unsigned int return_value_dbus_message_append_args$16;
-        return_value_dbus_message_append_args$16=dbus_message_append_args(reply, (signed int)115, &i, (signed int)0);
-        if(return_value_dbus_message_append_args$16 == 0u)
+        unsigned int return_value_dbus_message_append_args_16;
+        return_value_dbus_message_append_args_16=dbus_message_append_args(reply, (signed int)115, &i, (signed int)0);
+        if(return_value_dbus_message_append_args_16 == 0u)
           goto oom;
 
-        unsigned int return_value_dbus_connection_send$17;
-        return_value_dbus_connection_send$17=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
-        if(return_value_dbus_connection_send$17 == 0u)
+        unsigned int return_value_dbus_connection_send_17;
+        return_value_dbus_connection_send_17=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
+        if(return_value_dbus_connection_send_17 == 0u)
           goto oom;
 
         dbus_message_unref(reply);
-        return (enum anonymous$8)DBUS_HANDLER_RESULT_HANDLED;
+        return (enum anonymous_8)DBUS_HANDLER_RESULT_HANDLED;
       }
 
     }
   }
-  return (enum anonymous$8)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+  return (enum anonymous_8)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
 
 invalid:
   ;
@@ -9856,16 +9856,16 @@ invalid:
     dbus_message_unref(reply);
 
   reply=dbus_message_new_error(m, "org.freedesktop.DBus.Error.InvalidArgs", "Invalid arguments");
-  unsigned int return_value_dbus_connection_send$21;
+  unsigned int return_value_dbus_connection_send_21;
   if(!(reply == ((struct DBusMessage *)NULL)))
   {
-    return_value_dbus_connection_send$21=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
-    if(return_value_dbus_connection_send$21 == 0u)
+    return_value_dbus_connection_send_21=dbus_connection_send(c, reply, (unsigned int *)(void *)0);
+    if(return_value_dbus_connection_send_21 == 0u)
       goto oom;
 
     dbus_message_unref(reply);
     dbus_error_free(&error);
-    return (enum anonymous$8)DBUS_HANDLER_RESULT_HANDLED;
+    return (enum anonymous_8)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -9877,7 +9877,7 @@ invalid:
       dbus_message_unref(reply);
 
     dbus_error_free(&error);
-    return (enum anonymous$8)DBUS_HANDLER_RESULT_NEED_MEMORY;
+    return (enum anonymous_8)DBUS_HANDLER_RESULT_NEED_MEMORY;
   }
 }
 
@@ -9889,19 +9889,19 @@ static _Bool on_device_acquire(const char *device_name)
   struct DBusError error;
   dbus_error_init(&error);
   ret=rd_acquire(&g_reserved_device[(signed long int)g_device_count].reserved_device, g_connection, device_name, "Jack audio server", 2147483647, (signed int (*)(struct rd_device *, signed int))(void *)0, &error);
-  const char *tmp_if_expr$2;
-  char *return_value_strerror$1;
+  const char *tmp_if_expr_2;
+  char *return_value_strerror_1;
   if(!(ret >= 0))
   {
     if(!(error.message == ((const char *)NULL)))
-      tmp_if_expr$2 = error.message;
+      tmp_if_expr_2 = error.message;
 
     else
     {
-      return_value_strerror$1=strerror(-ret);
-      tmp_if_expr$2 = return_value_strerror$1;
+      return_value_strerror_1=strerror(-ret);
+      tmp_if_expr_2 = return_value_strerror_1;
     }
-    jack_error("Failed to acquire device name : %s error : %s", device_name, tmp_if_expr$2);
+    jack_error("Failed to acquire device name : %s error : %s", device_name, tmp_if_expr_2);
     dbus_error_free(&error);
     return (_Bool)0;
   }
@@ -9919,9 +9919,9 @@ static void on_device_release(const char *device_name)
   signed int i = 0;
   for( ; !(i >= 2); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(g_reserved_device[(signed long int)i].device_name, device_name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(g_reserved_device[(signed long int)i].device_name, device_name);
+    if(return_value_strcmp_1 == 0)
       break;
 
   }
@@ -9944,15 +9944,15 @@ char * pathname_cat(const char *pathname_a, const char *pathname_b)
   signed int pathname_a_len;
   signed int pathname_b_len;
   signed int pathname_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pathname_a);
-  pathname_a_len = (signed int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(pathname_b);
-  pathname_b_len = (signed int)return_value_strlen$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)(pathname_a_len + pathname_b_len + 1));
-  pathname = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pathname_a);
+  pathname_a_len = (signed int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(pathname_b);
+  pathname_b_len = (signed int)return_value_strlen_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)(pathname_a_len + pathname_b_len + 1));
+  pathname = (char *)return_value_malloc_3;
   if(pathname == ((char *)NULL))
   {
     fprintf(stderr, "Out of memory\n");
@@ -9977,10 +9977,10 @@ _Bool paths_init()
   const char *xdg_config_home;
   const char *xdg_log_home;
   home_dir=getenv("HOME");
-  _Bool return_value_ensure_dir_exist$1;
-  _Bool return_value_ensure_dir_exist$2;
-  _Bool return_value_ensure_dir_exist$3;
-  _Bool return_value_ensure_dir_exist$4;
+  _Bool return_value_ensure_dir_exist_1;
+  _Bool return_value_ensure_dir_exist_2;
+  _Bool return_value_ensure_dir_exist_3;
+  _Bool return_value_ensure_dir_exist_4;
   if(home_dir == ((const char *)NULL))
     fprintf(stderr, "Environment variable HOME not set\n");
 
@@ -10004,21 +10004,21 @@ _Bool paths_init()
         g_jackdbus_log_dir=pathname_cat(xdg_log_home, "/jack");
         if(!(g_jackdbus_log_dir == ((char *)NULL)))
         {
-          return_value_ensure_dir_exist$1=ensure_dir_exist(xdg_config_home, 0700);
-          if(!(return_value_ensure_dir_exist$1 == (_Bool)0))
+          return_value_ensure_dir_exist_1=ensure_dir_exist(xdg_config_home, 0700);
+          if(!(return_value_ensure_dir_exist_1 == (_Bool)0))
           {
-            return_value_ensure_dir_exist$2=ensure_dir_exist(xdg_log_home, 0700);
-            if(!(return_value_ensure_dir_exist$2 == (_Bool)0))
+            return_value_ensure_dir_exist_2=ensure_dir_exist(xdg_log_home, 0700);
+            if(!(return_value_ensure_dir_exist_2 == (_Bool)0))
             {
-              return_value_ensure_dir_exist$3=ensure_dir_exist(g_jackdbus_config_dir, 0700);
-              if(return_value_ensure_dir_exist$3 == (_Bool)0)
+              return_value_ensure_dir_exist_3=ensure_dir_exist(g_jackdbus_config_dir, 0700);
+              if(return_value_ensure_dir_exist_3 == (_Bool)0)
                 free((void *)g_jackdbus_config_dir);
 
               else
               {
                 g_jackdbus_config_dir_len=strlen(g_jackdbus_config_dir);
-                return_value_ensure_dir_exist$4=ensure_dir_exist(g_jackdbus_log_dir, 0700);
-                if(return_value_ensure_dir_exist$4 == (_Bool)0)
+                return_value_ensure_dir_exist_4=ensure_dir_exist(g_jackdbus_log_dir, 0700);
+                if(return_value_ensure_dir_exist_4 == (_Bool)0)
                   free((void *)g_jackdbus_log_dir);
 
                 else
@@ -10070,19 +10070,19 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
     dbus_error_init(error);
   }
 
-  void *return_value_calloc$1;
-  unsigned long int return_value_strlen$2;
-  void *return_value_malloc$3;
-  unsigned long int return_value_strlen$4;
-  void *return_value_malloc$5;
-  unsigned int return_value_dbus_message_append_args$6;
-  _Bool tmp_if_expr$9;
-  unsigned int return_value_dbus_error_has_name$8;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_dbus_error_has_name$10;
-  unsigned int return_value_dbus_message_get_args$12;
-  unsigned int return_value_dbus_connection_try_register_object_path$13;
-  unsigned int return_value_dbus_connection_add_filter$14;
+  void *return_value_calloc_1;
+  unsigned long int return_value_strlen_2;
+  void *return_value_malloc_3;
+  unsigned long int return_value_strlen_4;
+  void *return_value_malloc_5;
+  unsigned int return_value_dbus_message_append_args_6;
+  _Bool tmp_if_expr_9;
+  unsigned int return_value_dbus_error_has_name_8;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_dbus_error_has_name_10;
+  unsigned int return_value_dbus_message_get_args_12;
+  unsigned int return_value_dbus_connection_try_register_object_path_13;
+  unsigned int return_value_dbus_connection_add_filter_14;
   if(_d == ((struct rd_device **)NULL))
   {
     /* assertion 0 */
@@ -10116,8 +10116,8 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
 
         else
         {
-          return_value_calloc$1=calloc(sizeof(struct rd_device) /*88ul*/ , (unsigned long int)1);
-          d = (struct rd_device *)return_value_calloc$1;
+          return_value_calloc_1=calloc(sizeof(struct rd_device) /*88ul*/ , (unsigned long int)1);
+          d = (struct rd_device *)return_value_calloc_1;
           if(d == ((struct rd_device *)NULL))
           {
             dbus_set_error(error, "org.freedesktop.ReserveDevice1.Error.NoMemory", "Cannot allocate memory for rd_device struct");
@@ -10148,9 +10148,9 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
                 d->priority = priority;
                 d->connection=dbus_connection_ref(connection);
                 d->request_cb = request_cb;
-                return_value_strlen$2=strlen(device_name);
-                return_value_malloc$3=malloc(sizeof(char [32l]) /*32ul*/  + return_value_strlen$2);
-                d->service_name = (char *)return_value_malloc$3;
+                return_value_strlen_2=strlen(device_name);
+                return_value_malloc_3=malloc(sizeof(char [32l]) /*32ul*/  + return_value_strlen_2);
+                d->service_name = (char *)return_value_malloc_3;
                 if(d->service_name == ((char *)NULL))
                 {
                   dbus_set_error(error, "org.freedesktop.ReserveDevice1.Error.NoMemory", "Cannot allocate memory for service name string");
@@ -10160,9 +10160,9 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
                 else
                 {
                   sprintf(d->service_name, "org.freedesktop.ReserveDevice1.%s", d->device_name);
-                  return_value_strlen$4=strlen(device_name);
-                  return_value_malloc$5=malloc(sizeof(char [33l]) /*33ul*/  + return_value_strlen$4);
-                  d->object_path = (char *)return_value_malloc$5;
+                  return_value_strlen_4=strlen(device_name);
+                  return_value_malloc_5=malloc(sizeof(char [33l]) /*33ul*/  + return_value_strlen_4);
+                  d->object_path = (char *)return_value_malloc_5;
                   if(d->object_path == ((char *)NULL))
                   {
                     dbus_set_error(error, "org.freedesktop.ReserveDevice1.Error.NoMemory", "Cannot allocate memory for object path string");
@@ -10217,8 +10217,8 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
 
                         else
                         {
-                          return_value_dbus_message_append_args$6=dbus_message_append_args(m, (signed int)105, &d->priority, (signed int)0);
-                          if(return_value_dbus_message_append_args$6 == 0u)
+                          return_value_dbus_message_append_args_6=dbus_message_append_args(m, (signed int)105, &d->priority, (signed int)0);
+                          if(return_value_dbus_message_append_args_6 == 0u)
                           {
                             dbus_set_error(error, "org.freedesktop.ReserveDevice1.Error.NoMemory", "Cannot append args for RequestRelease method call");
                             r = -12;
@@ -10229,25 +10229,25 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
                             reply=dbus_connection_send_with_reply_and_block(d->connection, m, 5000, error);
                             if(reply == ((struct DBusMessage *)NULL))
                             {
-                              unsigned int return_value_dbus_error_has_name$7;
-                              return_value_dbus_error_has_name$7=dbus_error_has_name(error, "org.freedesktop.DBus.Error.TimedOut");
-                              if(!(return_value_dbus_error_has_name$7 == 0u))
-                                tmp_if_expr$9 = (_Bool)1;
+                              unsigned int return_value_dbus_error_has_name_7;
+                              return_value_dbus_error_has_name_7=dbus_error_has_name(error, "org.freedesktop.DBus.Error.TimedOut");
+                              if(!(return_value_dbus_error_has_name_7 == 0u))
+                                tmp_if_expr_9 = (_Bool)1;
 
                               else
                               {
-                                return_value_dbus_error_has_name$8=dbus_error_has_name(error, "org.freedesktop.DBus.Error.UnknownMethod");
-                                tmp_if_expr$9 = return_value_dbus_error_has_name$8 != 0u ? (_Bool)1 : (_Bool)0;
+                                return_value_dbus_error_has_name_8=dbus_error_has_name(error, "org.freedesktop.DBus.Error.UnknownMethod");
+                                tmp_if_expr_9 = return_value_dbus_error_has_name_8 != 0u ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$9)
-                                tmp_if_expr$11 = (_Bool)1;
+                              if(tmp_if_expr_9)
+                                tmp_if_expr_11 = (_Bool)1;
 
                               else
                               {
-                                return_value_dbus_error_has_name$10=dbus_error_has_name(error, "org.freedesktop.DBus.Error.NoReply");
-                                tmp_if_expr$11 = return_value_dbus_error_has_name$10 != 0u ? (_Bool)1 : (_Bool)0;
+                                return_value_dbus_error_has_name_10=dbus_error_has_name(error, "org.freedesktop.DBus.Error.NoReply");
+                                tmp_if_expr_11 = return_value_dbus_error_has_name_10 != 0u ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$11)
+                              if(tmp_if_expr_11)
                               {
                                 jack_info("Device reservation request with priority %i denied for \"%s\": %s (%s)", priority, device_name, error->name, error->message);
                                 r = -16;
@@ -10259,8 +10259,8 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
                               goto fail;
                             }
 
-                            return_value_dbus_message_get_args$12=dbus_message_get_args(reply, error, (signed int)98, &good, (signed int)0);
-                            if(return_value_dbus_message_get_args$12 == 0u)
+                            return_value_dbus_message_get_args_12=dbus_message_get_args(reply, error, (signed int)98, &good, (signed int)0);
+                            if(return_value_dbus_message_get_args_12 == 0u)
                             {
                               jack_error("RequestRelease() reply is invalid.");
                               r = -5;
@@ -10295,8 +10295,8 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
                                   success:
                                     ;
                                     d->owning = 1;
-                                    return_value_dbus_connection_try_register_object_path$13=dbus_connection_try_register_object_path(d->connection, d->object_path, &vtable, (void *)d, error);
-                                    if(return_value_dbus_connection_try_register_object_path$13 == 0u)
+                                    return_value_dbus_connection_try_register_object_path_13=dbus_connection_try_register_object_path(d->connection, d->object_path, &vtable, (void *)d, error);
+                                    if(return_value_dbus_connection_try_register_object_path_13 == 0u)
                                     {
                                       jack_error("cannot register object path \"%s\": %s", d->object_path, error->message);
                                       r = -12;
@@ -10305,8 +10305,8 @@ signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, 
                                     else
                                     {
                                       d->registered = 1;
-                                      return_value_dbus_connection_add_filter$14=dbus_connection_add_filter(d->connection, filter_handler, (void *)d, (void (*)(void *))(void *)0);
-                                      if(return_value_dbus_connection_add_filter$14 == 0u)
+                                      return_value_dbus_connection_add_filter_14=dbus_connection_add_filter(d->connection, filter_handler, (void *)d, (void (*)(void *))(void *)0);
+                                      if(return_value_dbus_connection_add_filter_14 == 0u)
                                       {
                                         dbus_set_error(error, "org.freedesktop.ReserveDevice1.Error.NoMemory", "Cannot add filter");
                                         r = -12;
@@ -10444,19 +10444,19 @@ void rd_set_userdata(struct rd_device *d, void *userdata)
 
 // send_session_notify_reply
 // file ../dbus/controller_iface_session_manager.c line 97
-static void send_session_notify_reply(struct jack_session_pending_command *pending_cmd_ptr, struct anonymous$9 *commands)
+static void send_session_notify_reply(struct jack_session_pending_command *pending_cmd_ptr, struct anonymous_9 *commands)
 {
   struct jack_dbus_method_call call;
-  const struct anonymous$9 *cmd_ptr;
+  const struct anonymous_9 *cmd_ptr;
   struct DBusMessageIter top_iter;
   struct DBusMessageIter array_iter;
   struct DBusMessageIter struct_iter;
   unsigned int u32;
   call.message = pending_cmd_ptr->message;
   call.connection = pending_cmd_ptr->connection;
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  unsigned int return_value_dbus_message_iter_close_container$8;
-  if(commands == ((struct anonymous$9 *)NULL))
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  unsigned int return_value_dbus_message_iter_close_container_8;
+  if(commands == ((struct anonymous_9 *)NULL))
     jack_dbus_error((void *)&call, "org.jackaudio.Error.Generic", "jack_session_notify() failed");
 
   else
@@ -10467,48 +10467,48 @@ static void send_session_notify_reply(struct jack_session_pending_command *pendi
       goto oom;
 
     dbus_message_iter_init_append(call.reply, &top_iter);
-    return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container(&top_iter, (signed int)97, "(sssu)", &array_iter);
-    if(!(return_value_dbus_message_iter_open_container$1 == 0u))
+    return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container(&top_iter, (signed int)97, "(sssu)", &array_iter);
+    if(!(return_value_dbus_message_iter_open_container_1 == 0u))
     {
       cmd_ptr = commands;
       for( ; !(cmd_ptr->uuid == ((const char *)NULL)); cmd_ptr = cmd_ptr + 1l)
       {
-        unsigned int return_value_dbus_message_iter_open_container$2;
-        return_value_dbus_message_iter_open_container$2=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
-        if(return_value_dbus_message_iter_open_container$2 == 0u)
+        unsigned int return_value_dbus_message_iter_open_container_2;
+        return_value_dbus_message_iter_open_container_2=dbus_message_iter_open_container(&array_iter, (signed int)114, (const char *)(void *)0, &struct_iter);
+        if(return_value_dbus_message_iter_open_container_2 == 0u)
           goto close_array;
 
-        unsigned int return_value_dbus_message_iter_append_basic$3;
-        return_value_dbus_message_iter_append_basic$3=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&cmd_ptr->uuid);
-        if(return_value_dbus_message_iter_append_basic$3 == 0u)
+        unsigned int return_value_dbus_message_iter_append_basic_3;
+        return_value_dbus_message_iter_append_basic_3=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&cmd_ptr->uuid);
+        if(return_value_dbus_message_iter_append_basic_3 == 0u)
           goto close_struct;
 
-        unsigned int return_value_dbus_message_iter_append_basic$4;
-        return_value_dbus_message_iter_append_basic$4=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&cmd_ptr->client_name);
-        if(return_value_dbus_message_iter_append_basic$4 == 0u)
+        unsigned int return_value_dbus_message_iter_append_basic_4;
+        return_value_dbus_message_iter_append_basic_4=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&cmd_ptr->client_name);
+        if(return_value_dbus_message_iter_append_basic_4 == 0u)
           goto close_struct;
 
-        unsigned int return_value_dbus_message_iter_append_basic$5;
-        return_value_dbus_message_iter_append_basic$5=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&cmd_ptr->command);
-        if(return_value_dbus_message_iter_append_basic$5 == 0u)
+        unsigned int return_value_dbus_message_iter_append_basic_5;
+        return_value_dbus_message_iter_append_basic_5=dbus_message_iter_append_basic(&struct_iter, (signed int)115, (const void *)&cmd_ptr->command);
+        if(return_value_dbus_message_iter_append_basic_5 == 0u)
           goto close_struct;
 
         u32 = (unsigned int)cmd_ptr->flags;
-        unsigned int return_value_dbus_message_iter_append_basic$6;
-        return_value_dbus_message_iter_append_basic$6=dbus_message_iter_append_basic(&struct_iter, (signed int)117, (const void *)&u32);
-        if(return_value_dbus_message_iter_append_basic$6 == 0u)
+        unsigned int return_value_dbus_message_iter_append_basic_6;
+        return_value_dbus_message_iter_append_basic_6=dbus_message_iter_append_basic(&struct_iter, (signed int)117, (const void *)&u32);
+        if(return_value_dbus_message_iter_append_basic_6 == 0u)
           goto close_struct;
 
         jack_info("uuid='%s', client='%s', command='%s', flags=0x%X", cmd_ptr->uuid, cmd_ptr->client_name, cmd_ptr->command, u32);
-        unsigned int return_value_dbus_message_iter_close_container$7;
-        return_value_dbus_message_iter_close_container$7=dbus_message_iter_close_container(&array_iter, &struct_iter);
-        if(return_value_dbus_message_iter_close_container$7 == 0u)
+        unsigned int return_value_dbus_message_iter_close_container_7;
+        return_value_dbus_message_iter_close_container_7=dbus_message_iter_close_container(&array_iter, &struct_iter);
+        if(return_value_dbus_message_iter_close_container_7 == 0u)
           goto close_array;
 
       }
       jack_info("End of session commands.");
-      return_value_dbus_message_iter_close_container$8=dbus_message_iter_close_container(&top_iter, &array_iter);
-      if(!(return_value_dbus_message_iter_close_container$8 == 0u))
+      return_value_dbus_message_iter_close_container_8=dbus_message_iter_close_container(&top_iter, &array_iter);
+      if(!(return_value_dbus_message_iter_close_container_8 == 0u))
       {
         goto send_reply;
 
@@ -10534,9 +10534,9 @@ send_reply:
   ;
   if(!(call.reply == ((struct DBusMessage *)NULL)))
   {
-    unsigned int return_value_dbus_connection_send$9;
-    return_value_dbus_connection_send$9=dbus_connection_send(pending_cmd_ptr->connection, call.reply, (unsigned int *)(void *)0);
-    if(return_value_dbus_connection_send$9 == 0u)
+    unsigned int return_value_dbus_connection_send_9;
+    return_value_dbus_connection_send_9=dbus_connection_send(pending_cmd_ptr->connection, call.reply, (unsigned int *)(void *)0);
+    if(return_value_dbus_connection_send_9 == 0u)
       jack_error("Ran out of memory trying to queue method return");
 
     dbus_connection_flush(pending_cmd_ptr->connection);
@@ -10559,89 +10559,89 @@ _Bool serialize_modules(void *context, const char *name)
   ((struct save_context *)context)->indent = "   ";
   ((struct save_context *)context)->address[(signed long int)1] = name;
   ((struct save_context *)context)->address[(signed long int)2] = (const char *)(void *)0;
-  _Bool return_value_jack_controller_settings_write_string$1;
-  return_value_jack_controller_settings_write_string$1=jack_controller_settings_write_string(((struct save_context *)context)->fd, "  <", ((struct save_context *)context)->call);
-  _Bool tmp_if_expr$3;
-  _Bool return_value_jack_controller_settings_write_string$2;
-  if(!(return_value_jack_controller_settings_write_string$1 == (_Bool)0))
+  _Bool return_value_jack_controller_settings_write_string_1;
+  return_value_jack_controller_settings_write_string_1=jack_controller_settings_write_string(((struct save_context *)context)->fd, "  <", ((struct save_context *)context)->call);
+  _Bool tmp_if_expr_3;
+  _Bool return_value_jack_controller_settings_write_string_2;
+  if(!(return_value_jack_controller_settings_write_string_1 == (_Bool)0))
   {
-    return_value_jack_controller_settings_write_string$2=jack_controller_settings_write_string(((struct save_context *)context)->fd, ((struct save_context *)context)->str, ((struct save_context *)context)->call);
-    tmp_if_expr$3 = return_value_jack_controller_settings_write_string$2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_controller_settings_write_string_2=jack_controller_settings_write_string(((struct save_context *)context)->fd, ((struct save_context *)context)->str, ((struct save_context *)context)->call);
+    tmp_if_expr_3 = return_value_jack_controller_settings_write_string_2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool return_value_jack_controller_settings_write_string$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool return_value_jack_controller_settings_write_string_4;
+  if(tmp_if_expr_3)
   {
-    return_value_jack_controller_settings_write_string$4=jack_controller_settings_write_string(((struct save_context *)context)->fd, " name=\"", ((struct save_context *)context)->call);
-    tmp_if_expr$5 = return_value_jack_controller_settings_write_string$4 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_controller_settings_write_string_4=jack_controller_settings_write_string(((struct save_context *)context)->fd, " name=\"", ((struct save_context *)context)->call);
+    tmp_if_expr_5 = return_value_jack_controller_settings_write_string_4 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  _Bool return_value_jack_controller_settings_write_string$6;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  _Bool return_value_jack_controller_settings_write_string_6;
+  if(tmp_if_expr_5)
   {
-    return_value_jack_controller_settings_write_string$6=jack_controller_settings_write_string(((struct save_context *)context)->fd, name, ((struct save_context *)context)->call);
-    tmp_if_expr$7 = return_value_jack_controller_settings_write_string$6 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_controller_settings_write_string_6=jack_controller_settings_write_string(((struct save_context *)context)->fd, name, ((struct save_context *)context)->call);
+    tmp_if_expr_7 = return_value_jack_controller_settings_write_string_6 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  _Bool return_value_jack_controller_settings_write_string$8;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  _Bool return_value_jack_controller_settings_write_string_8;
+  if(tmp_if_expr_7)
   {
-    return_value_jack_controller_settings_write_string$8=jack_controller_settings_write_string(((struct save_context *)context)->fd, "\">\n", ((struct save_context *)context)->call);
-    tmp_if_expr$9 = return_value_jack_controller_settings_write_string$8 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_controller_settings_write_string_8=jack_controller_settings_write_string(((struct save_context *)context)->fd, "\">\n", ((struct save_context *)context)->call);
+    tmp_if_expr_9 = return_value_jack_controller_settings_write_string_8 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  _Bool tmp_if_expr$11;
-  _Bool return_value_jack_params_iterate_params$10;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  _Bool tmp_if_expr_11;
+  _Bool return_value_jack_params_iterate_params_10;
+  if(tmp_if_expr_9)
   {
-    return_value_jack_params_iterate_params$10=jack_params_iterate_params(((struct save_context *)context)->params, ((struct save_context *)context)->address, jack_controller_serialize_parameter, (void *)(struct save_context *)context);
-    tmp_if_expr$11 = return_value_jack_params_iterate_params$10 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_params_iterate_params_10=jack_params_iterate_params(((struct save_context *)context)->params, ((struct save_context *)context)->address, jack_controller_serialize_parameter, (void *)(struct save_context *)context);
+    tmp_if_expr_11 = return_value_jack_params_iterate_params_10 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  _Bool tmp_if_expr$13;
-  _Bool return_value_jack_controller_settings_write_string$12;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  _Bool tmp_if_expr_13;
+  _Bool return_value_jack_controller_settings_write_string_12;
+  if(tmp_if_expr_11)
   {
-    return_value_jack_controller_settings_write_string$12=jack_controller_settings_write_string(((struct save_context *)context)->fd, "  </", ((struct save_context *)context)->call);
-    tmp_if_expr$13 = return_value_jack_controller_settings_write_string$12 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_controller_settings_write_string_12=jack_controller_settings_write_string(((struct save_context *)context)->fd, "  </", ((struct save_context *)context)->call);
+    tmp_if_expr_13 = return_value_jack_controller_settings_write_string_12 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$13 = (_Bool)0;
-  _Bool tmp_if_expr$15;
-  _Bool return_value_jack_controller_settings_write_string$14;
-  if(tmp_if_expr$13)
+    tmp_if_expr_13 = (_Bool)0;
+  _Bool tmp_if_expr_15;
+  _Bool return_value_jack_controller_settings_write_string_14;
+  if(tmp_if_expr_13)
   {
-    return_value_jack_controller_settings_write_string$14=jack_controller_settings_write_string(((struct save_context *)context)->fd, ((struct save_context *)context)->str, ((struct save_context *)context)->call);
-    tmp_if_expr$15 = return_value_jack_controller_settings_write_string$14 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_controller_settings_write_string_14=jack_controller_settings_write_string(((struct save_context *)context)->fd, ((struct save_context *)context)->str, ((struct save_context *)context)->call);
+    tmp_if_expr_15 = return_value_jack_controller_settings_write_string_14 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$15 = (_Bool)0;
-  _Bool tmp_if_expr$17;
-  _Bool return_value_jack_controller_settings_write_string$16;
-  if(tmp_if_expr$15)
+    tmp_if_expr_15 = (_Bool)0;
+  _Bool tmp_if_expr_17;
+  _Bool return_value_jack_controller_settings_write_string_16;
+  if(tmp_if_expr_15)
   {
-    return_value_jack_controller_settings_write_string$16=jack_controller_settings_write_string(((struct save_context *)context)->fd, ">\n", ((struct save_context *)context)->call);
-    tmp_if_expr$17 = return_value_jack_controller_settings_write_string$16 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_jack_controller_settings_write_string_16=jack_controller_settings_write_string(((struct save_context *)context)->fd, ">\n", ((struct save_context *)context)->call);
+    tmp_if_expr_17 = return_value_jack_controller_settings_write_string_16 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$17 = (_Bool)0;
-  return tmp_if_expr$17;
+    tmp_if_expr_17 = (_Bool)0;
+  return tmp_if_expr_17;
 }
 
 // setup_sigsegv
@@ -10652,59 +10652,59 @@ signed int setup_sigsegv()
   memset((void *)&action, 0, sizeof(struct sigaction) /*152ul*/ );
   action.__sigaction_handler.sa_sigaction = signal_segv;
   action.sa_flags = 4;
-  signed int return_value_sigaction$4;
-  return_value_sigaction$4=sigaction(11, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$4 >= 0))
+  signed int return_value_sigaction_4;
+  return_value_sigaction_4=sigaction(11, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_4 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location$1, return_value_strerror$3);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location_1, return_value_strerror_3);
     return 0;
   }
 
-  signed int return_value_sigaction$8;
-  return_value_sigaction$8=sigaction(4, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$8 >= 0))
+  signed int return_value_sigaction_8;
+  return_value_sigaction_8=sigaction(4, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_8 >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location$5, return_value_strerror$7);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location_5, return_value_strerror_7);
     return 0;
   }
 
-  signed int return_value_sigaction$12;
-  return_value_sigaction$12=sigaction(6, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$12 >= 0))
+  signed int return_value_sigaction_12;
+  return_value_sigaction_12=sigaction(6, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_12 >= 0))
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    char *return_value_strerror$11;
-    return_value_strerror$11=strerror(*return_value___errno_location$10);
-    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location$9, return_value_strerror$11);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    char *return_value_strerror_11;
+    return_value_strerror_11=strerror(*return_value___errno_location_10);
+    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location_9, return_value_strerror_11);
     return 0;
   }
 
-  signed int return_value_sigaction$16;
-  return_value_sigaction$16=sigaction(8, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$16 >= 0))
+  signed int return_value_sigaction_16;
+  return_value_sigaction_16=sigaction(8, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_16 >= 0))
   {
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    signed int *return_value___errno_location$14;
-    return_value___errno_location$14=__errno_location();
-    char *return_value_strerror$15;
-    return_value_strerror$15=strerror(*return_value___errno_location$14);
-    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location$13, return_value_strerror$15);
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    signed int *return_value___errno_location_14;
+    return_value___errno_location_14=__errno_location();
+    char *return_value_strerror_15;
+    return_value_strerror_15=strerror(*return_value___errno_location_14);
+    jack_error("sigaction failed. errno is %d (%s)", *return_value___errno_location_13, return_value_strerror_15);
     return 0;
   }
 
@@ -10713,13 +10713,13 @@ signed int setup_sigsegv()
 
 // signal_segv
 // file ../dbus/sigsegv.c line 59
-static void signal_segv(signed int signum, struct anonymous$12 *info, void *ptr)
+static void signal_segv(signed int signum, struct anonymous_12 *info, void *ptr)
 {
   unsigned long int i;
   const char *si_code_str;
   struct ucontext *ucontext = (struct ucontext *)ptr;
   signed int f = 0;
-  struct anonymous$22 dlinfo;
+  struct anonymous_22 dlinfo;
   void **bp = ((void **)NULL);
   void *ip = NULL;
   if(signum == 11)
@@ -10739,14 +10739,14 @@ static void signal_segv(signed int signum, struct anonymous$12 *info, void *ptr)
 
         else
           jack_error("Unknown bad signal catched!");
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(info->si_code >= 0)
-    tmp_if_expr$1 = info->si_code < 3 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = info->si_code < 3 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   static const char *si_codes[3l] = { "", "SEGV_MAPERR", "SEGV_ACCERR" };
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
     si_code_str = si_codes[(signed long int)info->si_code];
 
   else
@@ -10761,12 +10761,12 @@ static void signal_segv(signed int signum, struct anonymous$12 *info, void *ptr)
   ip = (void *)ucontext->uc_mcontext.gregs[(signed long int)16];
   bp = (void **)ucontext->uc_mcontext.gregs[(signed long int)10];
   jack_error("Stack trace:");
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   while(!(ip == NULL) && !(bp == ((void **)NULL)))
   {
-    signed int return_value_dladdr$2;
-    return_value_dladdr$2=dladdr(ip, &dlinfo);
-    if(return_value_dladdr$2 == 0)
+    signed int return_value_dladdr_2;
+    return_value_dladdr_2=dladdr(ip, &dlinfo);
+    if(return_value_dladdr_2 == 0)
       break;
 
     const char *symname = dlinfo.dli_sname;
@@ -10783,8 +10783,8 @@ static void signal_segv(signed int signum, struct anonymous$12 *info, void *ptr)
 
     if(!(dlinfo.dli_sname == ((const char *)NULL)))
     {
-      return_value_strcmp$3=strcmp(dlinfo.dli_sname, "main");
-      if(return_value_strcmp$3 == 0)
+      return_value_strcmp_3=strcmp(dlinfo.dli_sname, "main");
+      if(return_value_strcmp_3 == 0)
         break;
 
     }
@@ -10874,9 +10874,9 @@ static _Bool slave_drivers_parameter_set_value(void *obj, union jackctl_paramete
       token=strtok_r(buffer, ",", &save);
       while(!(token == ((const char *)NULL)))
       {
-        _Bool return_value_jack_controller_add_slave_driver$1;
-        return_value_jack_controller_add_slave_driver$1=jack_controller_add_slave_driver((struct jack_controller *)obj, token);
-        if(return_value_jack_controller_add_slave_driver$1 == (_Bool)0)
+        _Bool return_value_jack_controller_add_slave_driver_1;
+        return_value_jack_controller_add_slave_driver_1=jack_controller_add_slave_driver((struct jack_controller *)obj, token);
+        if(return_value_jack_controller_add_slave_driver_1 == (_Bool)0)
         {
           jack_controller_remove_slave_drivers((struct jack_controller *)obj);
           ((struct jack_controller *)obj)->slave_drivers = old_list;
@@ -10950,9 +10950,9 @@ static void write_line(const char *line)
 static void write_line_format(const char *format, ...)
 {
   void **ap = (void **)&format;
-  signed int return_value_vsprintf$1;
-  return_value_vsprintf$1=vsprintf(g_buffer_ptr, format, ap);
-  g_buffer_ptr = g_buffer_ptr + (signed long int)return_value_vsprintf$1;
+  signed int return_value_vsprintf_1;
+  return_value_vsprintf_1=vsprintf(g_buffer_ptr, format, ap);
+  g_buffer_ptr = g_buffer_ptr + (signed long int)return_value_vsprintf_1;
   ap = ((void **)NULL);
 }
 

@@ -1,46 +1,46 @@
-// #anon_enum$SLICE_FREE=0$SLICE_NEW=1$SLICE_XMITTED=2$SLICE_ACKED=3$SLICE_PRE_FREE=4
+// #anon_enum_SLICE_FREE=0_SLICE_NEW=1_SLICE_XMITTED=2_SLICE_ACKED=3_SLICE_PRE_FREE=4
 // file senddata.c line 30
-volatile enum anonymous$10 { SLICE_FREE=0, SLICE_NEW=1, SLICE_XMITTED=2, SLICE_ACKED=3, SLICE_PRE_FREE=4 };
+volatile enum anonymous_10 { SLICE_FREE=0, SLICE_NEW=1, SLICE_XMITTED=2, SLICE_ACKED=3, SLICE_PRE_FREE=4 };
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'clNo'||SYM#tag-message#'msg'|]
 // file senddata.c line 77
 struct anonymous;
 
-// tag-#anon#UN[*{S8}$S8$'ifcu_buf'||*{SYM#tag-ifreq#}$SYM#tag-ifreq#$'ifcu_req'|]
+// tag-#anon#UN[*{S8}_S8_'ifcu_buf'||*{SYM#tag-ifreq#}_SYM#tag-ifreq#_'ifcu_req'|]
 // file /usr/include/net/if.h line 179
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/net/if.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$1;
+union anonymous_1;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -164,9 +164,9 @@ struct net_config;
 
 // tag-net_if
 // file socklib.h line 110
-struct net_if$0;
+struct net_if_0;
 
-// tag-net_if$link1
+// tag-net_if_link1
 // file socklib.h line 110
 struct net_if;
 
@@ -281,12 +281,12 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
-// __bswap_32$link2
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2);
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -637,16 +637,16 @@ static signed int printProcessStatus(const char *message, signed int status);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$8 *, const union anonymous$6 *);
+extern signed int pthread_cond_init(union anonymous_8 *, const union anonymous_6 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$8 *);
+extern signed int pthread_cond_signal(union anonymous_8 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$8 *, union anonymous$5 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_8 *, union anonymous_5 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$8 *, union anonymous$5 *);
+extern signed int pthread_cond_wait(union anonymous_8 *, union anonymous_5 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -655,13 +655,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // raise
 // file /usr/include/signal.h line 139
 extern signed int raise(signed int);
@@ -697,10 +697,10 @@ void rgWaitAll(struct net_config *cfg, signed int sock, unsigned int ip, signed 
 static signed int safe_inet_aton(const char *address, struct in_addr *ip);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$4 *, struct anonymous$4 *, struct anonymous$4 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_4 *, struct anonymous_4 *, struct anonymous_4 *, struct timeval *);
 // selectWithConsole
 // file console.h line 26
-signed int selectWithConsole(struct console_t *con, signed int maxFd, struct anonymous$4 *read_set, struct timeval *tv, signed int *keyPressed);
+signed int selectWithConsole(struct console_t *con, signed int maxFd, struct anonymous_4 *read_set, struct timeval *tv, signed int *keyPressed);
 // sendConnectionReply
 // file udps-negotiate.c line 42
 static signed int sendConnectionReply(struct participantsDb *db, signed int sock, struct net_config *config, struct sockaddr_in *client, signed int capabilities, unsigned int rcvbuf);
@@ -730,16 +730,16 @@ extern signed int setsockopt(signed int, signed int, signed int, const void *, u
 static signed int shouldPrint(struct stats *s, struct timeval *now, signed int isFinal);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$3 *, signed int);
+extern signed int sigaddset(struct anonymous_3 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$3 *);
+extern signed int sigemptyset(struct anonymous_3 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$3 *, struct anonymous$3 *);
+extern signed int sigprocmask(signed int, const struct anonymous_3 *, struct anonymous_3 *);
 // slow_addmul1
 // file fec.c line 301
 static void slow_addmul1(unsigned char *dst1, unsigned char *src1, unsigned char c, signed int sz);
@@ -871,7 +871,7 @@ unsigned short int udpc_getPort(struct sockaddr_in *addr);
 unsigned int udpc_getRcvBuf(signed int sock);
 // udpc_getSelectedSock
 // file socklib.c line 1089
-signed int udpc_getSelectedSock(signed int *socks, signed int nr, struct anonymous$4 *read_set);
+signed int udpc_getSelectedSock(signed int *socks, signed int nr, struct anonymous_4 *read_set);
 // udpc_getSendBuf
 // file socklib.c line 321
 signed int udpc_getSendBuf(signed int sock);
@@ -931,7 +931,7 @@ unsigned long int udpc_parseSize(char *sizeString);
 struct console_t * udpc_prepareConsole(signed int fd);
 // udpc_prepareForSelect
 // file socklib.c line 1074
-signed int udpc_prepareForSelect(signed int *socks, signed int nr, struct anonymous$4 *read_set);
+signed int udpc_prepareForSelect(signed int *socks, signed int nr, struct anonymous_4 *read_set);
 // udpc_printLongNum
 // file log.c line 96
 signed int udpc_printLongNum(unsigned long long int x);
@@ -1032,19 +1032,19 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file produconsum.c line 39
 static void wakeConsumer(struct produconsum *pc);
 
-struct anonymous$4
+struct anonymous_4
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __lock
   signed int __lock;
@@ -1140,7 +1140,7 @@ struct anonymous
   union message msg;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // ifcu_buf
   char *ifcu_buf;
@@ -1148,13 +1148,13 @@ union anonymous$2
   struct ifreq *ifcu_req;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -1162,10 +1162,10 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
-  struct anonymous$7 __data;
+  struct anonymous_7 __data;
   // __size
   char __size[48l];
   // __align
@@ -1200,7 +1200,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1234,7 +1234,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -1569,15 +1569,15 @@ struct ifconf
   // ifc_len
   signed int ifc_len;
   // ifc_ifcu
-  union anonymous$2 ifc_ifcu;
+  union anonymous_2 ifc_ifcu;
 };
 
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$0 ifr_ifrn;
+  union anonymous_0 ifr_ifrn;
   // ifr_ifru
-  union anonymous$1 ifr_ifru;
+  union anonymous_1 ifr_ifru;
 };
 
 struct iovec
@@ -1633,7 +1633,7 @@ struct rateGovernor_t
 struct net_config
 {
   // net_if
-  struct net_if$0 *net_if;
+  struct net_if_0 *net_if;
   // portBase
   signed int portBase;
   // blockSize
@@ -1700,7 +1700,7 @@ struct net_config
   signed int rehelloOffset;
 };
 
-struct net_if$0
+struct net_if_0
 {
   // addr
   struct in_addr addr;
@@ -1753,11 +1753,11 @@ struct produconsum
   // atEnd
   volatile signed int atEnd;
   // mutex
-  union anonymous$5 mutex;
+  union anonymous_5 mutex;
   // consumerIsWaiting
   volatile signed int consumerIsWaiting;
   // cond
-  union anonymous$8 cond;
+  union anonymous_8 cond;
   // name
   const char *name;
 };
@@ -1861,7 +1861,7 @@ struct slice
   // nextBlock
   signed int nextBlock;
   // state
-  volatile enum anonymous$10 state;
+  volatile enum anonymous_10 state;
   // rxmitMap
   char rxmitMap[128l];
   // isXmittedMap
@@ -2126,15 +2126,15 @@ const char *version = "20120424";
 static inline signed int INET_ATON(const char *a, struct in_addr *i)
 {
   i->s_addr=inet_addr(a);
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(i->s_addr == 0xffffffff)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(a, "255.255.255.255");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(a, "255.255.255.255");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     return 0;
@@ -2153,27 +2153,27 @@ static inline signed int INET_ATON(const char *a, struct in_addr *i)
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1$link1;
-  return_value___builtin_bswap32$1$link1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1$link1;
+  signed long int return_value___builtin_bswap32_1_link1;
+  return_value___builtin_bswap32_1_link1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1_link1;
 }
 
-// __bswap_32$link2
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2)
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2)
 {
-  signed long int return_value___builtin_bswap32$1$link2;
-  return_value___builtin_bswap32$1$link2=__builtin_bswap32((signed long int)__bsx$link2);
-  return (unsigned int)return_value___builtin_bswap32$1$link2;
+  signed long int return_value___builtin_bswap32_1_link2;
+  return_value___builtin_bswap32_1_link2=__builtin_bswap32((signed long int)__bsx_link2);
+  return (unsigned int)return_value___builtin_bswap32_1_link2;
 }
 
 // __strpbrk_c2
@@ -2217,17 +2217,17 @@ static signed int _consumeAny(struct produconsum *pc, unsigned int minAmount, st
 {
   unsigned int amount;
   pc->consumerIsWaiting = 1;
-  signed int return_value_getProducedAmount$1;
-  return_value_getProducedAmount$1=getProducedAmount(pc);
-  amount = (unsigned int)return_value_getProducedAmount$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_getProducedAmount_1;
+  return_value_getProducedAmount_1=getProducedAmount(pc);
+  amount = (unsigned int)return_value_getProducedAmount_1;
+  _Bool tmp_if_expr_2;
   if(amount >= minAmount)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = pc->atEnd != 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_getProducedAmount$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = pc->atEnd != 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_getProducedAmount_3;
+  if(tmp_if_expr_2)
   {
     pc->consumerIsWaiting = 0;
     return (signed int)amount;
@@ -2238,8 +2238,8 @@ static signed int _consumeAny(struct produconsum *pc, unsigned int minAmount, st
     pthread_mutex_lock(&pc->mutex);
     do
     {
-      return_value_getProducedAmount$3=getProducedAmount(pc);
-      amount = (unsigned int)return_value_getProducedAmount$3;
+      return_value_getProducedAmount_3=getProducedAmount(pc);
+      amount = (unsigned int)return_value_getProducedAmount_3;
       if(amount >= minAmount)
         break;
 
@@ -2255,9 +2255,9 @@ static signed int _consumeAny(struct produconsum *pc, unsigned int minAmount, st
         r=pthread_cond_timedwait(&pc->cond, &pc->mutex, ts);
         if(r == 110)
         {
-          signed int return_value_getProducedAmount$4;
-          return_value_getProducedAmount$4=getProducedAmount(pc);
-          amount = (unsigned int)return_value_getProducedAmount$4;
+          signed int return_value_getProducedAmount_4;
+          return_value_getProducedAmount_4=getProducedAmount(pc);
+          amount = (unsigned int)return_value_getProducedAmount_4;
           break;
         }
 
@@ -2295,7 +2295,7 @@ static signed int ackSlice(struct slice *slice, struct net_config *net_config, s
 
     }
 
-    slice->state = (volatile enum anonymous$10)SLICE_ACKED;
+    slice->state = (volatile enum anonymous_10)SLICE_ACKED;
     pc_produce(fifo->freeMemQueue, (unsigned int)slice->bytes);
     udpc_senderStatsAddBytes(stats, (signed long int)slice->bytes);
     if(!(slice->bytes == 0))
@@ -2319,9 +2319,9 @@ static void addmul(unsigned char *dst, unsigned char *src, unsigned char c, sign
 static void * allocAutoRate(void)
 {
   struct auto_rate_t *autoRate_l;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct auto_rate_t) /*12ul*/ );
-  autoRate_l = (struct auto_rate_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct auto_rate_t) /*12ul*/ );
+  autoRate_l = (struct auto_rate_t *)return_value_calloc_1;
   if(autoRate_l == ((struct auto_rate_t *)NULL))
     return (void *)0;
 
@@ -2337,9 +2337,9 @@ static void * allocAutoRate(void)
 static void * allocRateLimit(void)
 {
   struct rate_limit *rateLimit;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct rate_limit) /*24ul*/ );
-  rateLimit = (struct rate_limit *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct rate_limit) /*24ul*/ );
+  rateLimit = (struct rate_limit *)return_value_calloc_1;
   if(rateLimit == ((struct rate_limit *)NULL))
     return (void *)0;
 
@@ -2356,18 +2356,18 @@ static void * allocRateLimit(void)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // atol
 // file /usr/include/stdlib.h line 283
 static inline signed long int atol(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return return_value_strtol_1;
 }
 
 // cancelReturnChannel
@@ -2383,30 +2383,30 @@ static void cancelReturnChannel(struct returnChannel *returnChannel)
 static signed int checkClientWait(struct participantsDb *db, struct net_config *net_config, signed long int *firstConnected)
 {
   signed long int now;
-  signed int return_value_udpc_nrParticipants$1;
-  return_value_udpc_nrParticipants$1=udpc_nrParticipants(db);
-  _Bool tmp_if_expr$2;
-  if(firstConnected == ((signed long int *)NULL) || return_value_udpc_nrParticipants$1 == 0)
-    tmp_if_expr$2 = (_Bool)1;
+  signed int return_value_udpc_nrParticipants_1;
+  return_value_udpc_nrParticipants_1=udpc_nrParticipants(db);
+  _Bool tmp_if_expr_2;
+  if(firstConnected == ((signed long int *)NULL) || return_value_udpc_nrParticipants_1 == 0)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*firstConnected != 0l) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  signed int return_value_udpc_nrParticipants$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*firstConnected != 0l) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  signed int return_value_udpc_nrParticipants_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
     now=time(((signed long int *)NULL));
     if(!(net_config->max_receivers_wait == 0))
-      tmp_if_expr$6 = now >= *firstConnected + (signed long int)net_config->max_receivers_wait ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = now >= *firstConnected + (signed long int)net_config->max_receivers_wait ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
       syslog(6, "max wait[%d] passed: starting", net_config->max_receivers_wait);
       return 1;
@@ -2414,20 +2414,20 @@ static signed int checkClientWait(struct participantsDb *db, struct net_config *
 
     else
     {
-      return_value_udpc_nrParticipants$3=udpc_nrParticipants(db);
-      if(return_value_udpc_nrParticipants$3 >= net_config->min_receivers)
+      return_value_udpc_nrParticipants_3=udpc_nrParticipants(db);
+      if(return_value_udpc_nrParticipants_3 >= net_config->min_receivers)
       {
         if(net_config->min_receivers_wait == 0)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = now >= *firstConnected + (signed long int)net_config->min_receivers_wait ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = now >= *firstConnected + (signed long int)net_config->min_receivers_wait ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         syslog(6, "min receivers[%d] reached: starting", net_config->min_receivers);
         return 1;
@@ -2481,7 +2481,7 @@ static void doRateLimit(void *data, signed int fd, unsigned int ip, signed long 
   struct rate_limit *rateLimit = (struct rate_limit *)data;
   (void)fd;
   (void)ip;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(rateLimit == ((struct rate_limit *)NULL)))
   {
     signed long long int now;
@@ -2502,11 +2502,11 @@ static void doRateLimit(void *data, signed int fd, unsigned int ip, signed long 
     rateLimit->realDate = now;
     sleepTime = (signed int)(((signed long int)(rateLimit->queueSize * 8) * (signed long long int)1000000) / (signed long int)rateLimit->bitrate);
     if(sleepTime >= 40001)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = rateLimit->queueSize >= 100000 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = rateLimit->queueSize >= 100000 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       sleepTime = sleepTime - 10000;
       sleepTime = sleepTime - sleepTime % 10000;
@@ -2550,48 +2550,48 @@ static signed int doTransfer(signed int sock, struct participantsDb *db, struct 
   signed int isPtP;
   isPtP=isPointToPoint(db, net_config->flags);
   signed int printUncompressedPos;
-  signed int return_value_udpc_nrParticipants$2;
+  signed int return_value_udpc_nrParticipants_2;
   if(!((0x0008 & net_config->flags) == 0))
   {
-    return_value_udpc_nrParticipants$2=udpc_nrParticipants(db);
-    if(!(return_value_udpc_nrParticipants$2 == 1))
+    return_value_udpc_nrParticipants_2=udpc_nrParticipants(db);
+    if(!(return_value_udpc_nrParticipants_2 == 1))
     {
-      signed int return_value_udpc_nrParticipants$1;
-      return_value_udpc_nrParticipants$1=udpc_nrParticipants(db);
-      udpc_fatal(1, "pointopoint mode set, and %d participants instead of 1\n", return_value_udpc_nrParticipants$1);
+      signed int return_value_udpc_nrParticipants_1;
+      return_value_udpc_nrParticipants_1=udpc_nrParticipants(db);
+      udpc_fatal(1, "pointopoint mode set, and %d participants instead of 1\n", return_value_udpc_nrParticipants_1);
     }
 
   }
 
   net_config->rcvbuf = (unsigned int)0;
   i = 0;
-  signed int return_value_udpc_isParticipantValid$6;
-  struct sockaddr_in *return_value_udpc_getParticipantIp$3;
-  _Bool tmp_if_expr$5;
+  signed int return_value_udpc_isParticipantValid_6;
+  struct sockaddr_in *return_value_udpc_getParticipantIp_3;
+  _Bool tmp_if_expr_5;
   for( ; !(i >= 1024); i = i + 1)
   {
-    return_value_udpc_isParticipantValid$6=udpc_isParticipantValid(db, i);
-    if(!(return_value_udpc_isParticipantValid$6 == 0))
+    return_value_udpc_isParticipantValid_6=udpc_isParticipantValid(db, i);
+    if(!(return_value_udpc_isParticipantValid_6 == 0))
     {
       unsigned int pRcvBuf;
       pRcvBuf=udpc_getParticipantRcvBuf(db, i);
       if(!(isPtP == 0))
       {
-        return_value_udpc_getParticipantIp$3=udpc_getParticipantIp(db, i);
-        udpc_copyIpFrom(&net_config->dataMcastAddr, return_value_udpc_getParticipantIp$3);
+        return_value_udpc_getParticipantIp_3=udpc_getParticipantIp(db, i);
+        udpc_copyIpFrom(&net_config->dataMcastAddr, return_value_udpc_getParticipantIp_3);
       }
 
-      signed int return_value_udpc_getParticipantCapabilities$4;
-      return_value_udpc_getParticipantCapabilities$4=udpc_getParticipantCapabilities(db, i);
-      net_config->capabilities = net_config->capabilities & return_value_udpc_getParticipantCapabilities$4;
+      signed int return_value_udpc_getParticipantCapabilities_4;
+      return_value_udpc_getParticipantCapabilities_4=udpc_getParticipantCapabilities(db, i);
+      net_config->capabilities = net_config->capabilities & return_value_udpc_getParticipantCapabilities_4;
       if(!(pRcvBuf == 0u))
       {
         if(net_config->rcvbuf == 0u)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = net_config->rcvbuf > pRcvBuf ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = net_config->rcvbuf > pRcvBuf ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
           net_config->rcvbuf = pRcvBuf;
 
       }
@@ -2599,33 +2599,33 @@ static signed int doTransfer(signed int sock, struct participantsDb *db, struct 
     }
 
   }
-  signed int return_value_isMcastAddress$7;
-  return_value_isMcastAddress$7=isMcastAddress(&net_config->dataMcastAddr);
-  if(!(return_value_isMcastAddress$7 == 0))
+  signed int return_value_isMcastAddress_7;
+  return_value_isMcastAddress_7=isMcastAddress(&net_config->dataMcastAddr);
+  if(!(return_value_isMcastAddress_7 == 0))
     udpc_setMcastDestination(sock, net_config->net_if, &net_config->dataMcastAddr);
 
   udpc_flprintf("Starting transfer: %08x\n", net_config->capabilities);
-  char *tmp_if_expr$8;
+  char *tmp_if_expr_8;
   if(disk_config->fileName == ((const char *)NULL))
-    tmp_if_expr$8 = "";
+    tmp_if_expr_8 = "";
 
   else
-    tmp_if_expr$8 = disk_config->fileName;
-  char *tmp_if_expr$9;
+    tmp_if_expr_8 = disk_config->fileName;
+  char *tmp_if_expr_9;
   if(disk_config->pipeName == ((char *)NULL))
-    tmp_if_expr$9 = "";
+    tmp_if_expr_9 = "";
 
   else
-    tmp_if_expr$9 = disk_config->pipeName;
-  char *tmp_if_expr$10;
+    tmp_if_expr_9 = disk_config->pipeName;
+  char *tmp_if_expr_10;
   if(net_config->net_if->name == ((const char *)NULL))
-    tmp_if_expr$10 = "";
+    tmp_if_expr_10 = "";
 
   else
-    tmp_if_expr$10 = net_config->net_if->name;
-  signed int return_value_udpc_nrParticipants$11;
-  return_value_udpc_nrParticipants$11=udpc_nrParticipants(db);
-  syslog(6, "Starting transfer: file[%s] pipe[%s] port[%d] if[%s] participants[%d]", tmp_if_expr$8, tmp_if_expr$9, net_config->portBase, tmp_if_expr$10, return_value_udpc_nrParticipants$11);
+    tmp_if_expr_10 = net_config->net_if->name;
+  signed int return_value_udpc_nrParticipants_11;
+  return_value_udpc_nrParticipants_11=udpc_nrParticipants(db);
+  syslog(6, "Starting transfer: file[%s] pipe[%s] port[%d] if[%s] participants[%d]", tmp_if_expr_8, tmp_if_expr_9, net_config->portBase, tmp_if_expr_10, return_value_udpc_nrParticipants_11);
   if((0x0008 & net_config->capabilities) == 0)
     udpc_fatal(1, "Peer with incompatible endianness");
 
@@ -2667,18 +2667,18 @@ static signed int doTransfer(signed int sock, struct participantsDb *db, struct 
 // file process.c line 10
 static void dupFd(signed int src, signed int target)
 {
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(src == target))
   {
     close(target);
-    signed int return_value_dup2$3;
-    return_value_dup2$3=dup2(src, target);
-    if(!(return_value_dup2$3 >= 0))
+    signed int return_value_dup2_3;
+    return_value_dup2_3=dup2(src, target);
+    if(!(return_value_dup2_3 >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      udpc_fatal(1, "dup2 %d->%d: %s\n", src, target, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      udpc_fatal(1, "dup2 %d->%d: %s\n", src, target, return_value_strerror_2);
     }
 
     close(src);
@@ -2693,12 +2693,12 @@ static void * fecMain(void *args0)
   struct senderState *sendst = (struct senderState *)args0;
   struct slice *slice;
   signed int sliceNo = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while((_Bool)1)
   {
-    tmp_post$1 = sliceNo;
+    tmp_post_1 = sliceNo;
     sliceNo = sliceNo + 1;
-    slice=makeSlice(sendst, tmp_post$1);
+    slice=makeSlice(sendst, tmp_post_1);
     fec_encode_all_stripes(sendst, slice);
     pc_produce(sendst->fec_data_pc, (unsigned int)1);
   }
@@ -2757,8 +2757,8 @@ static void fec_encode_all_stripes(struct senderState *sendst, struct slice *sli
   signed int nrBlocks = ((bytes + config->blockSize) - 1) / config->blockSize;
   signed int leftOver = bytes % config->blockSize;
   unsigned char *fec_data = slice->fec_data;
-  const signed long int fec_data$array_size0 = (signed long int)redundancy;
-  unsigned char *fec_blocks[fec_data$array_size0];
+  const signed long int fec_data_array_size0 = (signed long int)redundancy;
+  unsigned char *fec_blocks[fec_data_array_size0];
   unsigned char *data_blocks[128l];
   if(!(leftOver == 0))
   {
@@ -2851,15 +2851,15 @@ static struct slice * findSlice(struct slice *slice1, struct slice *slice2, sign
 // file senddata.c line 132
 static signed int freeSlice(struct senderState *sendst, struct slice *slice)
 {
-  slice->state = (volatile enum anonymous$10)SLICE_PRE_FREE;
+  slice->state = (volatile enum anonymous_10)SLICE_PRE_FREE;
   while((_Bool)1)
   {
     signed int pos;
-    unsigned int return_value_pc_getProducerPosition$1;
-    return_value_pc_getProducerPosition$1=pc_getProducerPosition(sendst->free_slices_pc);
-    pos = (signed int)return_value_pc_getProducerPosition$1;
+    unsigned int return_value_pc_getProducerPosition_1;
+    return_value_pc_getProducerPosition_1=pc_getProducerPosition(sendst->free_slices_pc);
+    pos = (signed int)return_value_pc_getProducerPosition_1;
     if((signed int)sendst->slices[(signed long int)pos].state == SLICE_PRE_FREE)
-      sendst->slices[(signed long int)pos].state = (volatile enum anonymous$10)SLICE_FREE;
+      sendst->slices[(signed long int)pos].state = (volatile enum anonymous_10)SLICE_FREE;
 
     else
       break;
@@ -2915,9 +2915,9 @@ static void generate_gf(void)
 static signed int getCurrentQueueLength(signed int sock)
 {
   signed int length;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(sock, (unsigned long int)0x5411, &length);
-  if(!(return_value_ioctl$1 >= 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(sock, (unsigned long int)0x5411, &length);
+  if(!(return_value_ioctl_1 >= 0))
     return -1;
 
   else
@@ -2995,28 +2995,28 @@ static signed int handleDisconnect1(struct slice *slice, signed int clNo)
 static signed int handleNextMessage(struct senderState *sendst, struct slice *xmitSlice, struct slice *rexmitSlice)
 {
   signed int pos;
-  unsigned int return_value_pc_getConsumerPosition$1;
-  return_value_pc_getConsumerPosition$1=pc_getConsumerPosition(sendst->rc.incoming);
-  pos = (signed int)return_value_pc_getConsumerPosition$1;
+  unsigned int return_value_pc_getConsumerPosition_1;
+  return_value_pc_getConsumerPosition_1=pc_getConsumerPosition(sendst->rc.incoming);
+  pos = (signed int)return_value_pc_getConsumerPosition_1;
   union message *msg = &sendst->rc.q[(signed long int)pos].msg;
   signed int clNo = sendst->rc.q[(signed long int)pos].clNo;
   pc_consumeAny(sendst->rc.incoming);
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_2;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)msg->opCode;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$2 = __v;
-  unsigned int return_value___bswap_32$3;
-  struct slice *return_value_findSlice$4;
-  unsigned int return_value___bswap_32$5;
-  struct slice *return_value_findSlice$6;
-  switch((signed int)tmp_statement_expression$2)
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_2 = __v;
+  unsigned int return_value___bswap_32_3;
+  struct slice *return_value_findSlice_4;
+  unsigned int return_value___bswap_32_5;
+  struct slice *return_value_findSlice_6;
+  switch((signed int)tmp_statement_expression_2)
   {
     case 0:
     {
-      return_value___bswap_32$3=__bswap_32$link1((unsigned int)msg->ok.sliceNo);
-      return_value_findSlice$4=findSlice(xmitSlice, rexmitSlice, (signed int)return_value___bswap_32$3);
-      handleOk(sendst, return_value_findSlice$4, clNo);
+      return_value___bswap_32_3=__bswap_32_link1((unsigned int)msg->ok.sliceNo);
+      return_value_findSlice_4=findSlice(xmitSlice, rexmitSlice, (signed int)return_value___bswap_32_3);
+      handleOk(sendst, return_value_findSlice_4, clNo);
       break;
     }
     case 4:
@@ -3026,9 +3026,9 @@ static signed int handleNextMessage(struct senderState *sendst, struct slice *xm
     }
     case 1:
     {
-      return_value___bswap_32$5=__bswap_32$link1((unsigned int)msg->retransmit.sliceNo);
-      return_value_findSlice$6=findSlice(xmitSlice, rexmitSlice, (signed int)return_value___bswap_32$5);
-      handleRetransmit(sendst, return_value_findSlice$6, clNo, msg->retransmit.map, msg->retransmit.rxmit);
+      return_value___bswap_32_5=__bswap_32_link1((unsigned int)msg->retransmit.sliceNo);
+      return_value_findSlice_6=findSlice(xmitSlice, rexmitSlice, (signed int)return_value___bswap_32_5);
+      handleRetransmit(sendst, return_value_findSlice_6, clNo, msg->retransmit.map, msg->retransmit.rxmit);
       break;
     }
     default:
@@ -3048,9 +3048,9 @@ static signed int handleOk(struct senderState *sendst, struct slice *slice, sign
 
   else
   {
-    signed int return_value_udpc_isParticipantValid$1;
-    return_value_udpc_isParticipantValid$1=udpc_isParticipantValid(sendst->rc.participantsDb, clNo);
-    if(return_value_udpc_isParticipantValid$1 == 0)
+    signed int return_value_udpc_isParticipantValid_1;
+    return_value_udpc_isParticipantValid_1=udpc_isParticipantValid(sendst->rc.participantsDb, clNo);
+    if(return_value_udpc_isParticipantValid_1 == 0)
     {
       udpc_flprintf("Invalid participant %d\n", clNo);
       return 0;
@@ -3076,9 +3076,9 @@ static signed int handleOk(struct senderState *sendst, struct slice *slice, sign
 static signed int handleRetransmit(struct senderState *sendst, struct slice *slice, signed int clNo, unsigned char *map, signed int rxmit)
 {
   unsigned int i;
-  signed int return_value_udpc_isParticipantValid$1;
-  return_value_udpc_isParticipantValid$1=udpc_isParticipantValid(sendst->rc.participantsDb, clNo);
-  if(return_value_udpc_isParticipantValid$1 == 0)
+  signed int return_value_udpc_isParticipantValid_1;
+  return_value_udpc_isParticipantValid_1=udpc_isParticipantValid(sendst->rc.participantsDb, clNo);
+  if(return_value_udpc_isParticipantValid_1 == 0)
   {
     udpc_flprintf("Invalid participant %d\n", clNo);
     return 0;
@@ -3112,9 +3112,9 @@ static signed int hasLink(signed int s, const char *ifname)
   edata.cmd = (unsigned int)0x0000000a;
   __builtin_strncpy(ifr.ifr_ifrn.ifrn_name, ifname, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
   ifr.ifr_ifru.ifru_data = (char *)&edata;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(s, (unsigned long int)0x8946, &ifr);
-  if(return_value_ioctl$1 == -1)
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(s, (unsigned long int)0x8946, &ifr);
+  if(return_value_ioctl_1 == -1)
     return -1;
 
   else
@@ -3148,12 +3148,12 @@ static signed int initSockAddress(enum addr_type_t addr_type, struct net_if *net
 {
   memset((void *)(char *)addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   addr->sin_family = (unsigned short int)2;
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  addr->sin_port = tmp_statement_expression$1;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  addr->sin_port = tmp_statement_expression_1;
   if(net_if == ((struct net_if *)NULL) && !((signed int)addr_type == ADDR_TYPE_MCAST))
     udpc_fatal(1, "initSockAddr without ifname\n");
 
@@ -3195,14 +3195,14 @@ static void init_mul_table(void)
   signed int i;
   signed int j;
   i = 0;
-  unsigned char return_value_modnn$1;
+  unsigned char return_value_modnn_1;
   for( ; !(i >= 1); i = i + 1)
   {
     j = 0;
     for( ; !(j >= 1); j = j + 1)
     {
-      return_value_modnn$1=modnn(gf_log[(signed long int)i] + gf_log[(signed long int)j]);
-      gf_mul_table[(signed long int)((i << 8) + j)] = gf_exp[(signed long int)return_value_modnn$1];
+      return_value_modnn_1=modnn(gf_log[(signed long int)i] + gf_log[(signed long int)j]);
+      gf_mul_table[(signed long int)((i << 8) + j)] = gf_exp[(signed long int)return_value_modnn_1];
     }
   }
   j = 0;
@@ -3246,14 +3246,14 @@ static signed int invert_mat(unsigned char *src, signed int k)
   signed int i;
   signed int ix;
   signed int error = 1;
-  const signed long int error$array_size0 = (signed long int)k;
-  signed int indxc[error$array_size0];
-  const signed long int indxc$array_size0 = (signed long int)k;
-  signed int indxr[indxc$array_size0];
-  const signed long int indxr$array_size0 = (signed long int)k;
-  signed int ipiv[indxr$array_size0];
-  const signed long int ipiv$array_size0 = (signed long int)k;
-  unsigned char id_row[ipiv$array_size0];
+  const signed long int error_array_size0 = (signed long int)k;
+  signed int indxc[error_array_size0];
+  const signed long int indxc_array_size0 = (signed long int)k;
+  signed int indxr[indxc_array_size0];
+  const signed long int indxr_array_size0 = (signed long int)k;
+  signed int ipiv[indxr_array_size0];
+  const signed long int ipiv_array_size0 = (signed long int)k;
+  unsigned char id_row[ipiv_array_size0];
   memset((void *)id_row, 0, (unsigned long int)k * sizeof(unsigned char) /*1ul*/ );
   i = 0;
   for( ; !(i >= k); i = i + 1)
@@ -3346,9 +3346,9 @@ static signed int invert_mat(unsigned char *src, signed int k)
     }
 
     id_row[(signed long int)icol] = (unsigned char)1;
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)pivot_row, (const void *)id_row, (unsigned long int)k * sizeof(unsigned char) /*1ul*/ );
-    if(!(return_value_memcmp$1 == 0))
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)pivot_row, (const void *)id_row, (unsigned long int)k * sizeof(unsigned char) /*1ul*/ );
+    if(!(return_value_memcmp_1 == 0))
     {
       p = src;
       ix = 0;
@@ -3368,26 +3368,26 @@ static signed int invert_mat(unsigned char *src, signed int k)
     id_row[(signed long int)icol] = (unsigned char)0;
   }
   col = k - 1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   for( ; col >= 0; col = col - 1)
   {
     if(!(indxr[(signed long int)col] >= 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = indxr[(signed long int)col] >= k ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = indxr[(signed long int)col] >= k ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       fprintf(stderr, "AARGH, indxr[col] %d\n", indxr[(signed long int)col]);
 
     else
     {
       if(!(indxc[(signed long int)col] >= 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = indxc[(signed long int)col] >= k ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = indxc[(signed long int)col] >= k ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         fprintf(stderr, "AARGH, indxc[col] %d\n", indxc[(signed long int)col]);
 
       else
@@ -3396,9 +3396,9 @@ static signed int invert_mat(unsigned char *src, signed int k)
           row = 0;
           for( ; !(row >= k); row = row + 1)
           {
-            unsigned char invert_mat$$1$$3$$1$$1$$1$$1$$1$$tmp = src[(signed long int)(row * k + indxr[(signed long int)col])];
+            unsigned char invert_mat__1__3__1__1__1__1__1__tmp = src[(signed long int)(row * k + indxr[(signed long int)col])];
             src[(signed long int)(row * k + indxr[(signed long int)col])] = src[(signed long int)(row * k + indxc[(signed long int)col])];
-            src[(signed long int)(row * k + indxc[(signed long int)col])] = invert_mat$$1$$3$$1$$1$$1$$1$$1$$tmp;
+            src[(signed long int)(row * k + indxc[(signed long int)col])] = invert_mat__1__3__1__1__1__1__1__tmp;
           }
         }
 
@@ -3416,9 +3416,9 @@ fail:
 signed int isMcastAddress(struct sockaddr_in *addr)
 {
   signed int ip;
-  unsigned int return_value___bswap_32$1;
-  return_value___bswap_32$1=__bswap_32(addr->sin_addr.s_addr);
-  ip = (signed int)(return_value___bswap_32$1 >> 24);
+  unsigned int return_value___bswap_32_1;
+  return_value___bswap_32_1=__bswap_32(addr->sin_addr.s_addr);
+  ip = (signed int)(return_value___bswap_32_1 >> 24);
   return (signed int)(ip >= 0xe0 && ip < 0xf0);
 }
 
@@ -3435,9 +3435,9 @@ static signed int isPointToPoint(struct participantsDb *db, signed int flags)
 
     else
     {
-      signed int return_value_udpc_nrParticipants$1;
-      return_value_udpc_nrParticipants$1=udpc_nrParticipants(db);
-      return (signed int)(return_value_udpc_nrParticipants$1 == 1);
+      signed int return_value_udpc_nrParticipants_1;
+      return_value_udpc_nrParticipants_1=udpc_nrParticipants(db);
+      return (signed int)(return_value_udpc_nrParticipants_1 == 1);
     }
 }
 
@@ -3513,24 +3513,24 @@ signed int main(signed int argc, char **argv)
 
   else
     ptr = ptr + 1l;
-  net_config.net_if = (struct net_if$0 *)(void *)0;
-  signed int tmp_statement_expression$11;
+  net_config.net_if = (struct net_if_0 *)(void *)0;
+  signed int tmp_statement_expression_11;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$12;
-  return_value___builtin_strcmp$12=__builtin_strcmp(ptr, "init");
-  tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-  unsigned long int return_value_strtoul$2;
-  char *return_value___strdup$3;
+  signed int return_value___builtin_strcmp_12;
+  return_value___builtin_strcmp_12=__builtin_strcmp(ptr, "init");
+  tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+  unsigned long int return_value_strtoul_2;
+  char *return_value___strdup_3;
   void *gov;
-  signed int return_value_atoi$8;
-  unsigned long int return_value_udpc_parseSize$9;
-  signed long int return_value_atol$10;
-  if(tmp_statement_expression$11 == 0)
+  signed int return_value_atoi_8;
+  unsigned long int return_value_udpc_parseSize_9;
+  signed long int return_value_atol_10;
+  if(tmp_statement_expression_11 == 0)
   {
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup("/bin/gzip -c");
-    disk_config.pipeName = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup("/bin/gzip -c");
+    disk_config.pipeName = return_value___strdup_1;
     disk_config.fileName = "/dev/hda";
   }
 
@@ -3593,8 +3593,8 @@ signed int main(signed int argc, char **argv)
         }
         case 98:
         {
-          return_value_strtoul$2=strtoul(optarg, ((char ** restrict )NULL), 0);
-          net_config.blockSize = (signed int)return_value_strtoul$2;
+          return_value_strtoul_2=strtoul(optarg, ((char ** restrict )NULL), 0);
+          net_config.blockSize = (signed int)return_value_strtoul_2;
           net_config.blockSize = net_config.blockSize - net_config.blockSize % 4;
           if(!(net_config.blockSize >= 1))
           {
@@ -3624,8 +3624,8 @@ signed int main(signed int argc, char **argv)
         }
         case 77:
         {
-          return_value___strdup$3=__strdup(optarg);
-          net_config.mcastRdv = return_value___strdup$3;
+          return_value___strdup_3=__strdup(optarg);
+          net_config.mcastRdv = return_value___strdup_3;
           break;
         }
         case 114:
@@ -3668,14 +3668,14 @@ signed int main(signed int argc, char **argv)
         {
           net_config.flags = net_config.flags | 0x0010;
           char *eptr;
-          char *return_value___builtin_strchr$4;
-          return_value___builtin_strchr$4=__builtin_strchr(optarg, 120);
-          ptr = return_value___builtin_strchr$4;
+          char *return_value___builtin_strchr_4;
+          return_value___builtin_strchr_4=__builtin_strchr(optarg, 120);
+          ptr = return_value___builtin_strchr_4;
           if(!(ptr == ((char *)NULL)))
           {
-            unsigned long int return_value_strtoul$5;
-            return_value_strtoul$5=strtoul(optarg, &eptr, 10);
-            net_config.fec_stripes = (signed int)return_value_strtoul$5;
+            unsigned long int return_value_strtoul_5;
+            return_value_strtoul_5=strtoul(optarg, &eptr, 10);
+            net_config.fec_stripes = (signed int)return_value_strtoul_5;
             if(!(ptr == eptr))
             {
               udpc_flprintf("%s != %s\n", ptr, eptr);
@@ -3690,15 +3690,15 @@ signed int main(signed int argc, char **argv)
             net_config.fec_stripes = 8;
             ptr = optarg;
           }
-          unsigned long int return_value_strtoul$6;
-          return_value_strtoul$6=strtoul(ptr, &eptr, 10);
-          net_config.fec_redundancy = (signed int)return_value_strtoul$6;
+          unsigned long int return_value_strtoul_6;
+          return_value_strtoul_6=strtoul(ptr, &eptr, 10);
+          net_config.fec_redundancy = (signed int)return_value_strtoul_6;
           if((signed int)*eptr == 47)
           {
             ptr = eptr + (signed long int)1;
-            unsigned long int return_value_strtoul$7;
-            return_value_strtoul$7=strtoul(ptr, &eptr, 10);
-            net_config.fec_stripesize = (signed int)return_value_strtoul$7;
+            unsigned long int return_value_strtoul_7;
+            return_value_strtoul_7=strtoul(ptr, &eptr, 10);
+            net_config.fec_stripesize = (signed int)return_value_strtoul_7;
           }
 
           else
@@ -3714,8 +3714,8 @@ signed int main(signed int argc, char **argv)
         }
         case 122:
         {
-          return_value_atoi$8=atoi(optarg);
-          stat_config.statPeriod = return_value_atoi$8 * 1000;
+          return_value_atoi_8=atoi(optarg);
+          stat_config.statPeriod = return_value_atoi_8 * 1000;
           break;
         }
         case 120:
@@ -3745,8 +3745,8 @@ signed int main(signed int argc, char **argv)
         }
         case 115:
         {
-          return_value_udpc_parseSize$9=udpc_parseSize(optarg);
-          net_config.requestedBufSize = (signed int)return_value_udpc_parseSize$9;
+          return_value_udpc_parseSize_9=udpc_parseSize(optarg);
+          net_config.requestedBufSize = (signed int)return_value_udpc_parseSize_9;
           break;
         }
         case 67:
@@ -3811,8 +3811,8 @@ signed int main(signed int argc, char **argv)
         }
         case 89:
         {
-          return_value_atol$10=atol(optarg);
-          net_config.rehelloOffset = (signed int)return_value_atol$10;
+          return_value_atol_10=atol(optarg);
+          net_config.rehelloOffset = (signed int)return_value_atol_10;
           break;
         }
         case 63:
@@ -3825,7 +3825,7 @@ signed int main(signed int argc, char **argv)
   }
   if(!(doKill == 0))
   {
-    struct _IO_FILE *main$$1$$4$$p;
+    struct _IO_FILE *main__1__4__p;
     char line[80l];
     signed int pid;
     if(pidfile == ((const char *)NULL))
@@ -3834,22 +3834,22 @@ signed int main(signed int argc, char **argv)
       return 1;
     }
 
-    main$$1$$4$$p=fopen(pidfile, "r");
-    if(main$$1$$4$$p == ((struct _IO_FILE *)NULL))
+    main__1__4__p=fopen(pidfile, "r");
+    if(main__1__4__p == ((struct _IO_FILE *)NULL))
     {
       perror("Could not read pidfile");
       return 1;
     }
 
-    char *return_value_fgets$13;
-    return_value_fgets$13=fgets(line, (signed int)sizeof(char [80l]) /*80ul*/ , main$$1$$4$$p);
-    if(return_value_fgets$13 == ((char *)NULL))
+    char *return_value_fgets_13;
+    return_value_fgets_13=fgets(line, (signed int)sizeof(char [80l]) /*80ul*/ , main__1__4__p);
+    if(return_value_fgets_13 == ((char *)NULL))
     {
       fprintf(stderr, "Empty pid file\n");
       return 1;
     }
 
-    fclose(main$$1$$4$$p);
+    fclose(main__1__4__p);
     pid=atoi(line);
     if(!(pid >= 1))
     {
@@ -3857,13 +3857,13 @@ signed int main(signed int argc, char **argv)
       return -1;
     }
 
-    signed int return_value_kill$15;
-    return_value_kill$15=kill(pid, 15);
-    if(!(return_value_kill$15 >= 0))
+    signed int return_value_kill_15;
+    return_value_kill_15=kill(pid, 15);
+    if(!(return_value_kill_15 >= 0))
     {
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      if(*return_value___errno_location$14 == 3)
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      if(*return_value___errno_location_14 == 3)
         unlink(pidfile);
 
       perror("Kill");
@@ -3873,7 +3873,7 @@ signed int main(signed int argc, char **argv)
     return 0;
   }
 
-  signed int tmp_post$16;
+  signed int tmp_post_16;
   if(!((0x0004 & net_config.flags) == 0))
   {
     if(!(dataMcastSupplied == 0))
@@ -3893,9 +3893,9 @@ signed int main(signed int argc, char **argv)
     ;
     if(disk_config.fileName == ((const char *)NULL) && !(optind >= argc))
     {
-      tmp_post$16 = optind;
+      tmp_post_16 = optind;
       optind = optind + 1;
-      disk_config.fileName = argv[(signed long int)tmp_post$16];
+      disk_config.fileName = argv[(signed long int)tmp_post_16];
     }
 
     if(!(optind >= argc))
@@ -3949,9 +3949,9 @@ signed int main(signed int argc, char **argv)
     {
       net_config.flags = net_config.flags | 0x0080;
       stat_config.noProgress = 1;
-      signed int return_value_daemon$17;
-      return_value_daemon$17=daemon(1, 0);
-      if(!(return_value_daemon$17 >= 0))
+      signed int return_value_daemon_17;
+      return_value_daemon_17=daemon(1, 0);
+      if(!(return_value_daemon_17 >= 0))
       {
         perror("Could not daemonize");
         exit(1);
@@ -3961,9 +3961,9 @@ signed int main(signed int argc, char **argv)
       {
         struct _IO_FILE *p;
         p=fopen(pidfile, "w");
-        signed int return_value_getpid$18;
-        return_value_getpid$18=getpid();
-        fprintf(p, "%d\n", return_value_getpid$18);
+        signed int return_value_getpid_18;
+        return_value_getpid_18=getpid();
+        fprintf(p, "%d\n", return_value_getpid_18);
         fclose(p);
         signal(15, cleanPidfile);
       }
@@ -3985,7 +3985,7 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
 {
   struct sockaddr_in client;
   union message fromClient;
-  struct anonymous$4 read_set;
+  struct anonymous_4 read_set;
   signed int ret;
   signed int msgLength;
   signed int startNow = 0;
@@ -3993,15 +3993,15 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
   signed int keyPressed = 0;
   signed long int loopStart;
   loopStart=time(((signed long int *)NULL));
-  signed int return_value_udpc_nrParticipants$1;
-  return_value_udpc_nrParticipants$1=udpc_nrParticipants(db);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_udpc_nrParticipants$1 == 0))
-    tmp_if_expr$2 = (_Bool)1;
+  signed int return_value_udpc_nrParticipants_1;
+  return_value_udpc_nrParticipants_1=udpc_nrParticipants(db);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_udpc_nrParticipants_1 == 0))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (net_config->flags & 0x0004) != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (net_config->flags & 0x0004) != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if((0x0080 & net_config->flags) == 0)
     {
@@ -4012,13 +4012,13 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
 
   }
 
-  signed int return_value_udpc_nrParticipants$3;
+  signed int return_value_udpc_nrParticipants_3;
   if(!(firstConnected == ((signed long int *)NULL)))
   {
     if(*firstConnected == 0l)
     {
-      return_value_udpc_nrParticipants$3=udpc_nrParticipants(db);
-      if(!(return_value_udpc_nrParticipants$3 == 0))
+      return_value_udpc_nrParticipants_3=udpc_nrParticipants(db);
+      if(!(return_value_udpc_nrParticipants_3 == 0))
       {
         *firstConnected=time(((signed long int *)NULL));
         syslog(6, "first connection: min wait[%d] secs - max wait[%d] - min clients[%d]", net_config->min_receivers_wait, net_config->max_receivers_wait, net_config->min_receivers);
@@ -4028,12 +4028,12 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
 
   }
 
-  _Bool tmp_if_expr$5;
-  signed int return_value_udpc_nrParticipants$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_checkClientWait$7;
-  signed long int return_value_time$9;
+  _Bool tmp_if_expr_5;
+  signed int return_value_udpc_nrParticipants_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_checkClientWait_7;
+  signed long int return_value_time_9;
   while(startNow == 0)
   {
     struct timeval tv;
@@ -4052,18 +4052,18 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
     {
       if(!(firstConnected == ((signed long int *)NULL)))
       {
-        return_value_udpc_nrParticipants$4=udpc_nrParticipants(db);
-        tmp_if_expr$5 = return_value_udpc_nrParticipants$4 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_udpc_nrParticipants_4=udpc_nrParticipants(db);
+        tmp_if_expr_5 = return_value_udpc_nrParticipants_4 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = net_config->startTimeout != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = net_config->startTimeout != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         tv.tv_usec = (signed long int)0;
         tv.tv_sec = (signed long int)2;
@@ -4099,22 +4099,22 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
     if(!(firstConnected == ((signed long int *)NULL)))
     {
       if(!(startNow == 0))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value_checkClientWait$7=checkClientWait(db, net_config, firstConnected);
-        tmp_if_expr$8 = return_value_checkClientWait$7 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_checkClientWait_7=checkClientWait(db, net_config, firstConnected);
+        tmp_if_expr_8 = return_value_checkClientWait_7 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      startNow = (signed int)tmp_if_expr$8;
+      startNow = (signed int)tmp_if_expr_8;
     }
 
     if(startNow == 0)
     {
       if(!(net_config->startTimeout == 0))
       {
-        return_value_time$9=time(((signed long int *)NULL));
-        if(return_value_time$9 + -loopStart >= (signed long int)net_config->startTimeout)
+        return_value_time_9=time(((signed long int *)NULL));
+        if(return_value_time_9 + -loopStart >= (signed long int)net_config->startTimeout)
         {
           startNow = -1;
           break;
@@ -4132,9 +4132,9 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
   }
 
   selected=udpc_getSelectedSock(fd, nr, &read_set);
-  unsigned short int tmp_statement_expression$10;
-  unsigned int return_value___bswap_32$11;
-  unsigned int return_value___bswap_32$12;
+  unsigned short int tmp_statement_expression_10;
+  unsigned int return_value___bswap_32_11;
+  unsigned int return_value___bswap_32_12;
   if(selected == -1)
     return startNow;
 
@@ -4156,15 +4156,15 @@ static signed int mainDispatcher(signed int *fd, signed int nr, struct participa
       {
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)fromClient.opCode;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$10 = __v;
-        switch((signed int)tmp_statement_expression$10)
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_10 = __v;
+        switch((signed int)tmp_statement_expression_10)
         {
           case 3:
           {
-            return_value___bswap_32$11=__bswap_32$link2((unsigned int)fromClient.connectReq.capabilities);
-            return_value___bswap_32$12=__bswap_32$link2(fromClient.connectReq.rcvbuf);
-            sendConnectionReply(db, fd[(signed long int)0], net_config, &client, (signed int)((unsigned int)0x0008 | return_value___bswap_32$11), return_value___bswap_32$12);
+            return_value___bswap_32_11=__bswap_32_link2((unsigned int)fromClient.connectReq.capabilities);
+            return_value___bswap_32_12=__bswap_32_link2(fromClient.connectReq.rcvbuf);
+            sendConnectionReply(db, fd[(signed long int)0], net_config, &client, (signed int)((unsigned int)0x0008 | return_value___bswap_32_11), return_value___bswap_32_12);
             return startNow;
           }
           case 2:
@@ -4196,17 +4196,17 @@ static struct slice * makeSlice(struct senderState *sendst, signed int sliceNo)
   signed int i;
   struct slice *slice = (struct slice *)(void *)0;
   pc_consume(sendst->free_slices_pc, 1);
-  unsigned int return_value_pc_getConsumerPosition$1;
-  return_value_pc_getConsumerPosition$1=pc_getConsumerPosition(sendst->free_slices_pc);
-  i = (signed int)return_value_pc_getConsumerPosition$1;
+  unsigned int return_value_pc_getConsumerPosition_1;
+  return_value_pc_getConsumerPosition_1=pc_getConsumerPosition(sendst->free_slices_pc);
+  i = (signed int)return_value_pc_getConsumerPosition_1;
   slice = &sendst->slices[(signed long int)i];
   /* assertion slice->state == SLICE_FREE */
   assert((signed int)slice->state == SLICE_FREE);
   memset((void *)&(*slice), 0, sizeof(struct slice) /*584ul*/ );
   pc_consumed(sendst->free_slices_pc, 1);
-  unsigned int return_value_pc_getConsumerPosition$2;
-  return_value_pc_getConsumerPosition$2=pc_getConsumerPosition(sendst->fifo->data);
-  slice->base = (signed int)return_value_pc_getConsumerPosition$2;
+  unsigned int return_value_pc_getConsumerPosition_2;
+  return_value_pc_getConsumerPosition_2=pc_getConsumerPosition(sendst->fifo->data);
+  slice->base = (signed int)return_value_pc_getConsumerPosition_2;
   slice->sliceNo = sliceNo;
   slice->bytes=pc_consume(fifo->data, 10 * config->blockSize);
   if(!(config->blockSize * config->sliceSize >= slice->bytes))
@@ -4217,7 +4217,7 @@ static struct slice * makeSlice(struct senderState *sendst, signed int sliceNo)
 
   pc_consumed(fifo->data, slice->bytes);
   slice->nextBlock = 0;
-  slice->state = (volatile enum anonymous$10)SLICE_NEW;
+  slice->state = (volatile enum anonymous_10)SLICE_NEW;
   memset((void *)&slice->sl_reqack.readySet, 0, sizeof(char [128l]) /*128ul*/ );
   slice->nrReady = 0;
   slice->fec_data = sendst->fec_data + (signed long int)(i * config->fec_stripes * config->fec_redundancy * config->blockSize);
@@ -4240,9 +4240,9 @@ static void markParticipantAnswered(struct slice *slice, signed int clNo)
 // file socklib.c line 418
 static signed int mcastListen(signed int sock, struct net_if *net_if, struct sockaddr_in *addr)
 {
-  signed int return_value_mcastOp$1;
-  return_value_mcastOp$1=mcastOp(sock, net_if, ((struct sockaddr_in *)addr)->sin_addr, 35, "Subscribe to multicast group");
-  return return_value_mcastOp$1;
+  signed int return_value_mcastOp_1;
+  return_value_mcastOp_1=mcastOp(sock, net_if, ((struct sockaddr_in *)addr)->sin_addr, 35, "Subscribe to multicast group");
+  return return_value_mcastOp_1;
 }
 
 // mcastOp
@@ -4337,23 +4337,23 @@ static void * netSenderMain(void *args0)
 
   /* assertion config->sliceSize <= 1024 */
   assert(config->sliceSize <= 1024);
-  signed int return_value_isSliceXmitted$5;
-  signed int return_value_udpc_nrParticipants$7;
-  signed int tmp_post$9;
-  signed int return_value_udpc_nrParticipants$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_isSliceXmitted_5;
+  signed int return_value_udpc_nrParticipants_7;
+  signed int tmp_post_9;
+  signed int return_value_udpc_nrParticipants_1;
+  _Bool tmp_if_expr_2;
   while((_Bool)1)
   {
     if(!(rexmitSlice == ((struct slice *)NULL)))
     {
-      signed int return_value_udpc_nrParticipants$3;
-      return_value_udpc_nrParticipants$3=udpc_nrParticipants(sendst->rc.participantsDb);
-      if(rexmitSlice->nrReady == return_value_udpc_nrParticipants$3)
+      signed int return_value_udpc_nrParticipants_3;
+      return_value_udpc_nrParticipants_3=udpc_nrParticipants(sendst->rc.participantsDb);
+      if(rexmitSlice->nrReady == return_value_udpc_nrParticipants_3)
         ackSlice(rexmitSlice, sendst->config, sendst->fifo, sendst->stats);
 
-      signed int return_value_isSliceAcked$4;
-      return_value_isSliceAcked$4=isSliceAcked(rexmitSlice);
-      if(!(return_value_isSliceAcked$4 == 0))
+      signed int return_value_isSliceAcked_4;
+      return_value_isSliceAcked_4=isSliceAcked(rexmitSlice);
+      if(!(return_value_isSliceAcked_4 == 0))
       {
         freeSlice(sendst, rexmitSlice);
         rexmitSlice = (struct slice *)(void *)0;
@@ -4363,8 +4363,8 @@ static void * netSenderMain(void *args0)
 
     if(rexmitSlice == ((struct slice *)NULL) && !(xmitSlice == ((struct slice *)NULL)))
     {
-      return_value_isSliceXmitted$5=isSliceXmitted(xmitSlice);
-      if(!(return_value_isSliceXmitted$5 == 0))
+      return_value_isSliceXmitted_5=isSliceXmitted(xmitSlice);
+      if(!(return_value_isSliceXmitted_5 == 0))
       {
         rexmitSlice = xmitSlice;
         xmitSlice = (struct slice *)(void *)0;
@@ -4373,9 +4373,9 @@ static void * netSenderMain(void *args0)
 
     }
 
-    unsigned int return_value_pc_getWaiting$6;
-    return_value_pc_getWaiting$6=pc_getWaiting(sendst->rc.incoming);
-    if(!(return_value_pc_getWaiting$6 == 0u))
+    unsigned int return_value_pc_getWaiting_6;
+    return_value_pc_getWaiting_6=pc_getWaiting(sendst->rc.incoming);
+    if(!(return_value_pc_getWaiting_6 == 0u))
       handleNextMessage(sendst, xmitSlice, rexmitSlice);
 
     else
@@ -4394,8 +4394,8 @@ static void * netSenderMain(void *args0)
         ;
         if(!(rexmitSlice == ((struct slice *)NULL)))
         {
-          return_value_udpc_nrParticipants$7=udpc_nrParticipants(sendst->rc.participantsDb);
-          if(rexmitSlice->nrAnswered == return_value_udpc_nrParticipants$7)
+          return_value_udpc_nrParticipants_7=udpc_nrParticipants(sendst->rc.participantsDb);
+          if(rexmitSlice->nrAnswered == return_value_udpc_nrParticipants_7)
           {
             rexmitSlice->rxmitId = rexmitSlice->rxmitId + 1;
             sendReqack(rexmitSlice, sendst->config, sendst->fifo, sendst->stats, sendst->socket);
@@ -4411,18 +4411,18 @@ static void * netSenderMain(void *args0)
             {
               signed int i;
               pc_consume(sendst->fec_data_pc, 1);
-              unsigned int return_value_pc_getConsumerPosition$8;
-              return_value_pc_getConsumerPosition$8=pc_getConsumerPosition(sendst->fec_data_pc);
-              i = (signed int)return_value_pc_getConsumerPosition$8;
+              unsigned int return_value_pc_getConsumerPosition_8;
+              return_value_pc_getConsumerPosition_8=pc_getConsumerPosition(sendst->fec_data_pc);
+              i = (signed int)return_value_pc_getConsumerPosition_8;
               xmitSlice = &sendst->slices[(signed long int)i];
               pc_consumed(sendst->fec_data_pc, 1);
             }
 
             else
             {
-              tmp_post$9 = sliceNo;
+              tmp_post_9 = sliceNo;
               sliceNo = sliceNo + 1;
-              xmitSlice=makeSlice(sendst, tmp_post$9);
+              xmitSlice=makeSlice(sendst, tmp_post_9);
             }
             if(xmitSlice->bytes == 0)
               atEnd = 1;
@@ -4458,9 +4458,9 @@ static void * netSenderMain(void *args0)
           if(rexmitSlice->rxmitId >= 11)
             ts.tv_sec = ts.tv_sec + 1l;
 
-          signed int return_value_pc_consumeAnyWithTimeout$10;
-          return_value_pc_consumeAnyWithTimeout$10=pc_consumeAnyWithTimeout(sendst->rc.incoming, &ts);
-          if(!(return_value_pc_consumeAnyWithTimeout$10 == 0))
+          signed int return_value_pc_consumeAnyWithTimeout_10;
+          return_value_pc_consumeAnyWithTimeout_10=pc_consumeAnyWithTimeout(sendst->rc.incoming, &ts);
+          if(!(return_value_pc_consumeAnyWithTimeout_10 == 0))
           {
             struct timeval tv2;
             unsigned long int timeout;
@@ -4488,30 +4488,30 @@ static void * netSenderMain(void *args0)
               udpc_printNotSet(sendst->rc.participantsDb, rexmitSlice->answeredSet);
               udpc_flprintf(" notReady=");
               udpc_printNotSet(sendst->rc.participantsDb, rexmitSlice->sl_reqack.readySet);
-              signed int return_value_udpc_nrParticipants$11;
-              return_value_udpc_nrParticipants$11=udpc_nrParticipants(sendst->rc.participantsDb);
-              udpc_flprintf(" nrAns=%d nrRead=%d nrPart=%d avg=%ld\n", rexmitSlice->nrAnswered, rexmitSlice->nrReady, return_value_udpc_nrParticipants$11, waitAverage);
+              signed int return_value_udpc_nrParticipants_11;
+              return_value_udpc_nrParticipants_11=udpc_nrParticipants(sendst->rc.participantsDb);
+              udpc_flprintf(" nrAns=%d nrRead=%d nrPart=%d avg=%ld\n", rexmitSlice->nrAnswered, rexmitSlice->nrReady, return_value_udpc_nrParticipants_11, waitAverage);
               nrWaited = 0;
             }
 
             nrWaited = nrWaited + 1;
             if(!(config->retriesUntilDrop >= rexmitSlice->rxmitId))
             {
-              signed int netSenderMain$$1$$3$$12$$i = 0;
-              for( ; !(netSenderMain$$1$$3$$12$$i >= 1024); netSenderMain$$1$$3$$12$$i = netSenderMain$$1$$3$$12$$i + 1)
+              signed int netSenderMain__1__3__12__i = 0;
+              for( ; !(netSenderMain__1__3__12__i >= 1024); netSenderMain__1__3__12__i = netSenderMain__1__3__12__i + 1)
               {
-                signed int return_value_udpc_isParticipantValid$13;
-                return_value_udpc_isParticipantValid$13=udpc_isParticipantValid(sendst->rc.participantsDb, netSenderMain$$1$$3$$12$$i);
-                if(!(return_value_udpc_isParticipantValid$13 == 0))
+                signed int return_value_udpc_isParticipantValid_13;
+                return_value_udpc_isParticipantValid_13=udpc_isParticipantValid(sendst->rc.participantsDb, netSenderMain__1__3__12__i);
+                if(!(return_value_udpc_isParticipantValid_13 == 0))
                 {
-                  if((1 << (unsigned long int)netSenderMain$$1$$3$$12$$i % sizeof(char) * 8 /*8ul*/  & (signed int)rexmitSlice->sl_reqack.readySet[(signed long int)((unsigned long int)netSenderMain$$1$$3$$12$$i / sizeof(char) * 8 /*8ul*/ )]) == 0)
+                  if((1 << (unsigned long int)netSenderMain__1__3__12__i % sizeof(char) * 8 /*8ul*/  & (signed int)rexmitSlice->sl_reqack.readySet[(signed long int)((unsigned long int)netSenderMain__1__3__12__i / sizeof(char) * 8 /*8ul*/ )]) == 0)
                   {
-                    udpc_flprintf("Dropping client #%d because of timeout\n", netSenderMain$$1$$3$$12$$i);
-                    syslog(6, "dropped client #%d because of timeout", netSenderMain$$1$$3$$12$$i);
-                    udpc_removeParticipant(sendst->rc.participantsDb, netSenderMain$$1$$3$$12$$i);
-                    signed int return_value_udpc_nrParticipants$12;
-                    return_value_udpc_nrParticipants$12=udpc_nrParticipants(sendst->rc.participantsDb);
-                    if(return_value_udpc_nrParticipants$12 == 0)
+                    udpc_flprintf("Dropping client #%d because of timeout\n", netSenderMain__1__3__12__i);
+                    syslog(6, "dropped client #%d because of timeout", netSenderMain__1__3__12__i);
+                    udpc_removeParticipant(sendst->rc.participantsDb, netSenderMain__1__3__12__i);
+                    signed int return_value_udpc_nrParticipants_12;
+                    return_value_udpc_nrParticipants_12=udpc_nrParticipants(sendst->rc.participantsDb);
+                    if(return_value_udpc_nrParticipants_12 == 0)
                       goto exit_main_loop;
 
                   }
@@ -4530,13 +4530,13 @@ static void * netSenderMain(void *args0)
 
   __CPROVER_DUMP_L34:
     ;
-    return_value_udpc_nrParticipants$1=udpc_nrParticipants(sendst->rc.participantsDb);
-    if(!(return_value_udpc_nrParticipants$1 == 0))
-      tmp_if_expr$2 = (_Bool)1;
+    return_value_udpc_nrParticipants_1=udpc_nrParticipants(sendst->rc.participantsDb);
+    if(!(return_value_udpc_nrParticipants_1 == 0))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (config->flags & 0x0004) != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (config->flags & 0x0004) != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
   }
@@ -4554,8 +4554,8 @@ signed int open2(signed int in, signed int out, char **arg, signed int closeFd)
 {
   signed int pid;
   pid=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(pid == 0))
   {
     if(pid == -1)
@@ -4571,9 +4571,9 @@ signed int open2(signed int in, signed int out, char **arg, signed int closeFd)
       close(closeFd);
 
     execvp(arg[(signed long int)0], arg);
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    udpc_fatal(1, "exec %s: %s\n", arg[(signed long int)0], return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    udpc_fatal(1, "exec %s: %s\n", arg[(signed long int)0], return_value_strerror_2);
 
   __CPROVER_DUMP_L3:
     ;
@@ -4624,36 +4624,36 @@ static unsigned long int parseSpeed(const char *speedString)
 // file produconsum.h line 30
 signed int pc_consume(struct produconsum *pc, signed int amount)
 {
-  signed int return_value__consumeAny$1;
-  return_value__consumeAny$1=_consumeAny(pc, (unsigned int)amount, ((struct timespec *)NULL));
-  return return_value__consumeAny$1;
+  signed int return_value__consumeAny_1;
+  return_value__consumeAny_1=_consumeAny(pc, (unsigned int)amount, ((struct timespec *)NULL));
+  return return_value__consumeAny_1;
 }
 
 // pc_consumeAny
 // file produconsum.h line 9
 signed int pc_consumeAny(struct produconsum *pc)
 {
-  signed int return_value__consumeAny$1;
-  return_value__consumeAny$1=_consumeAny(pc, (unsigned int)1, ((struct timespec *)NULL));
-  return return_value__consumeAny$1;
+  signed int return_value__consumeAny_1;
+  return_value__consumeAny_1=_consumeAny(pc, (unsigned int)1, ((struct timespec *)NULL));
+  return return_value__consumeAny_1;
 }
 
 // pc_consumeAnyContiguous
 // file produconsum.c line 177
 signed int pc_consumeAnyContiguous(struct produconsum *pc)
 {
-  signed int return_value_pc_consumeContiguousMinAmount$1;
-  return_value_pc_consumeContiguousMinAmount$1=pc_consumeContiguousMinAmount(pc, 1);
-  return return_value_pc_consumeContiguousMinAmount$1;
+  signed int return_value_pc_consumeContiguousMinAmount_1;
+  return_value_pc_consumeContiguousMinAmount_1=pc_consumeContiguousMinAmount(pc, 1);
+  return return_value_pc_consumeContiguousMinAmount_1;
 }
 
 // pc_consumeAnyWithTimeout
 // file produconsum.h line 10
 signed int pc_consumeAnyWithTimeout(struct produconsum *pc, struct timespec *ts)
 {
-  signed int return_value__consumeAny$1;
-  return_value__consumeAny$1=_consumeAny(pc, (unsigned int)1, ts);
-  return return_value__consumeAny$1;
+  signed int return_value__consumeAny_1;
+  return_value__consumeAny_1=_consumeAny(pc, (unsigned int)1, ts);
+  return return_value__consumeAny_1;
 }
 
 // pc_consumeContiguousMinAmount
@@ -4708,9 +4708,9 @@ unsigned int pc_getSize(struct produconsum *pc)
 // file produconsum.h line 52
 unsigned int pc_getWaiting(struct produconsum *pc)
 {
-  signed int return_value_getProducedAmount$1;
-  return_value_getProducedAmount$1=getProducedAmount(pc);
-  return (unsigned int)return_value_getProducedAmount$1;
+  signed int return_value_getProducedAmount_1;
+  return_value_getProducedAmount_1=getProducedAmount(pc);
+  return (unsigned int)return_value_getProducedAmount_1;
 }
 
 // pc_makeProduconsum
@@ -4718,16 +4718,16 @@ unsigned int pc_getWaiting(struct produconsum *pc)
 struct produconsum * pc_makeProduconsum(signed int size, const char *name)
 {
   struct produconsum *pc;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct produconsum) /*120ul*/ );
-  pc = (struct produconsum *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct produconsum) /*120ul*/ );
+  pc = (struct produconsum *)return_value_calloc_1;
   pc->size = (unsigned int)size;
   pc->produced = (volatile unsigned int)0;
   pc->consumed = (unsigned int)0;
   pc->atEnd = 0;
-  pthread_mutex_init(&pc->mutex, (const union anonymous$6 *)(void *)0);
+  pthread_mutex_init(&pc->mutex, (const union anonymous_6 *)(void *)0);
   pc->consumerIsWaiting = 0;
-  pthread_cond_init(&pc->cond, (const union anonymous$6 *)(void *)0);
+  pthread_cond_init(&pc->cond, (const union anonymous_6 *)(void *)0);
   pc->name = name;
   return pc;
 }
@@ -4745,21 +4745,21 @@ void pc_produce(struct produconsum *pc, unsigned int amount)
   if(produced >= 2u * pc->size)
     produced = produced - (unsigned int)2 * pc->size;
 
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(pc->size + consumed >= produced))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(produced >= consumed))
-      tmp_if_expr$1 = produced > consumed - pc->size ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = produced > consumed - pc->size ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     udpc_fatal(1, "Buffer overflow in produce %s: %d > %d [%d] \n", pc->name, produced, consumed, pc->size);
 
   pc->produced = produced;
@@ -4778,7 +4778,7 @@ void pc_produceEnd(struct produconsum *pc)
 // file statistics.c line 94
 static void printFilePosition(signed int fd)
 {
-  char *tmp_statement_expression$2;
+  char *tmp_statement_expression_2;
   if(!(fd == -1))
   {
     char fn[80l];
@@ -4789,9 +4789,9 @@ static void printFilePosition(signed int fd)
     {
       char buf[161l];
       signed int n;
-      signed long int return_value_read$1;
-      return_value_read$1=read(pfd, (void *)buf, (unsigned long int)160);
-      n = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(pfd, (void *)buf, (unsigned long int)160);
+      n = (signed int)return_value_read_1;
       if(n >= 0)
       {
         char *num;
@@ -4800,13 +4800,13 @@ static void printFilePosition(signed int fd)
         char __a0;
         char __a1;
         char __a2;
-        char *return_value___builtin_strpbrk$3;
-        return_value___builtin_strpbrk$3=__builtin_strpbrk(buf, "0123456789");
-        tmp_statement_expression$2 = return_value___builtin_strpbrk$3;
-        num = tmp_statement_expression$2;
-        unsigned long long int return_value_strtoull$4;
-        return_value_strtoull$4=strtoull(num, ((char ** restrict )NULL), 10);
-        offset = (signed long long int)return_value_strtoull$4;
+        char *return_value___builtin_strpbrk_3;
+        return_value___builtin_strpbrk_3=__builtin_strpbrk(buf, "0123456789");
+        tmp_statement_expression_2 = return_value___builtin_strpbrk_3;
+        num = tmp_statement_expression_2;
+        unsigned long long int return_value_strtoull_4;
+        return_value_strtoull_4=strtoull(num, ((char ** restrict )NULL), 10);
+        offset = (signed long long int)return_value_strtoull_4;
         if(offset >= 0l)
           udpc_printLongNum((unsigned long long int)offset);
 
@@ -4817,11 +4817,11 @@ static void printFilePosition(signed int fd)
 
     else
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      fprintf(stderr, "%s --> %s\n", (const void *)fn, return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      fprintf(stderr, "%s --> %s\n", (const void *)fn, return_value_strerror_6);
     }
   }
 
@@ -4842,7 +4842,7 @@ static void printNewlineIfNeeded(void)
 static signed int printProcessStatus(const char *message, signed int status)
 {
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$9
+union anonymous_9
 {
   // __in
   signed int __in;
@@ -4856,8 +4856,8 @@ union anonymous$9
   {
     if(!((0xff00 & status) >> 8 == 0))
     {
-      udpc_flprintf("%s process died with code %d\n", message, (((union anonymous$9){ .__in=status }).__i & 0xff00) >> 8);
-      return (((union anonymous$9){ .__in=status }).__i & 0xff00) >> 8;
+      udpc_flprintf("%s process died with code %d\n", message, (((union anonymous_9){ .__in=status }).__i & 0xff00) >> 8);
+      return (((union anonymous_9){ .__in=status }).__i & 0xff00) >> 8;
     }
 
   }
@@ -4866,7 +4866,7 @@ union anonymous$9
   {
     if((signed int)((127 & (signed char)status) + 1) >> 1 >= 1)
     {
-      udpc_flprintf("%s process caught signal %d\n", message, ((union anonymous$9){ .__in=status }).__i & 0x7f);
+      udpc_flprintf("%s process caught signal %d\n", message, ((union anonymous_9){ .__in=status }).__i & 0x7f);
       return 1;
     }
 
@@ -4882,15 +4882,15 @@ static inline void reduce(unsigned int blockSize, unsigned char **data_blocks, u
 {
   signed int erasedIdx = 0;
   unsigned int col = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(col >= nr_data_blocks); col = col + 1u)
   {
     if(!(erasedIdx >= (signed int)nr_fec_blocks))
-      tmp_if_expr$1 = erased_blocks[(signed long int)erasedIdx] == col ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = erased_blocks[(signed long int)erasedIdx] == col ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       erasedIdx = erasedIdx + 1;
 
     else
@@ -4913,8 +4913,8 @@ static inline void reduce(unsigned int blockSize, unsigned char **data_blocks, u
 static inline void resolve(signed int blockSize, unsigned char **data_blocks, unsigned char **fec_blocks, unsigned int *fec_block_nos, unsigned int *erased_blocks, signed short int nr_fec_blocks)
 {
   signed int row;
-  const signed long int row$array_size0 = (signed long int)((signed int)nr_fec_blocks * (signed int)nr_fec_blocks);
-  unsigned char matrix[row$array_size0];
+  const signed long int row_array_size0 = (signed long int)((signed int)nr_fec_blocks * (signed int)nr_fec_blocks);
+  unsigned char matrix[row_array_size0];
   signed int ptr;
   signed int r;
   row = 0;
@@ -4934,7 +4934,7 @@ static inline void resolve(signed int blockSize, unsigned char **data_blocks, un
   r=invert_mat(matrix, (signed int)nr_fec_blocks);
   if(!(r == 0))
   {
-    signed int resolve$$1$$2$$col;
+    signed int resolve__1__2__col;
     fprintf(stderr, "Pivot not found\n");
     fprintf(stderr, "Rows: ");
     row = 0;
@@ -4942,11 +4942,11 @@ static inline void resolve(signed int blockSize, unsigned char **data_blocks, un
       fprintf(stderr, "%d ", (unsigned int)128 + fec_block_nos[(signed long int)row]);
     fprintf(stderr, "\n");
     fprintf(stderr, "Columns: ");
-    resolve$$1$$2$$col = 0;
-    for( ; !(resolve$$1$$2$$col >= (signed int)nr_fec_blocks); ptr = ptr + 1)
+    resolve__1__2__col = 0;
+    for( ; !(resolve__1__2__col >= (signed int)nr_fec_blocks); ptr = ptr + 1)
     {
-      fprintf(stderr, "%d ", erased_blocks[(signed long int)resolve$$1$$2$$col]);
-      resolve$$1$$2$$col = resolve$$1$$2$$col + 1;
+      fprintf(stderr, "%d ", erased_blocks[(signed long int)resolve__1__2__col]);
+      resolve__1__2__col = resolve__1__2__col + 1;
     }
     fprintf(stderr, "\n");
     /* assertion 0 */
@@ -4955,19 +4955,19 @@ static inline void resolve(signed int blockSize, unsigned char **data_blocks, un
 
   row = 0;
   ptr = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(row >= (signed int)nr_fec_blocks); row = row + 1)
   {
-    signed int resolve$$1$$3$$1$$col;
+    signed int resolve__1__3__1__col;
     unsigned char *target = data_blocks[(signed long int)erased_blocks[(signed long int)row]];
-    tmp_post$1 = ptr;
+    tmp_post_1 = ptr;
     ptr = ptr + 1;
-    mul(target, fec_blocks[(signed long int)0], matrix[(signed long int)tmp_post$1], blockSize);
-    resolve$$1$$3$$1$$col = 1;
-    for( ; !(resolve$$1$$3$$1$$col >= (signed int)nr_fec_blocks); ptr = ptr + 1)
+    mul(target, fec_blocks[(signed long int)0], matrix[(signed long int)tmp_post_1], blockSize);
+    resolve__1__3__1__col = 1;
+    for( ; !(resolve__1__3__1__col >= (signed int)nr_fec_blocks); ptr = ptr + 1)
     {
-      addmul(target, fec_blocks[(signed long int)resolve$$1$$3$$1$$col], matrix[(signed long int)ptr], blockSize);
-      resolve$$1$$3$$1$$col = resolve$$1$$3$$1$$col + 1;
+      addmul(target, fec_blocks[(signed long int)resolve__1__3__1__col], matrix[(signed long int)ptr], blockSize);
+      resolve__1__3__1__col = resolve__1__3__1__col + 1;
     }
   }
 }
@@ -4982,9 +4982,9 @@ static void * returnChannelMain(void *args)
     struct sockaddr_in from;
     signed int clNo;
     signed int pos;
-    unsigned int return_value_pc_getConsumerPosition$1;
-    return_value_pc_getConsumerPosition$1=pc_getConsumerPosition(returnChannel->freeSpace);
-    pos = (signed int)return_value_pc_getConsumerPosition$1;
+    unsigned int return_value_pc_getConsumerPosition_1;
+    return_value_pc_getConsumerPosition_1=pc_getConsumerPosition(returnChannel->freeSpace);
+    pos = (signed int)return_value_pc_getConsumerPosition_1;
     pc_consumeAny(returnChannel->freeSpace);
     udpc_doReceive(returnChannel->rcvSock, (void *)&returnChannel->q[(signed long int)pos].msg, sizeof(union message) /*140ul*/ , &from, returnChannel->config->portBase);
     clNo=udpc_lookupParticipant(returnChannel->participantsDb, &from);
@@ -5010,10 +5010,10 @@ void * rgInitGovernor(struct net_config *cfg, struct rateGovernor_t *gov)
   }
 
   cfg->rateGovernor[(signed long int)cfg->nrGovernors] = gov;
-  signed int tmp_post$1 = cfg->nrGovernors;
+  signed int tmp_post_1 = cfg->nrGovernors;
   cfg->nrGovernors = cfg->nrGovernors + 1;
-  cfg->rateGovernorData[(signed long int)tmp_post$1]=gov->rgInitialize();
-  return cfg->rateGovernorData[(signed long int)tmp_post$1];
+  cfg->rateGovernorData[(signed long int)tmp_post_1]=gov->rgInitialize();
+  return cfg->rateGovernorData[(signed long int)tmp_post_1];
 }
 
 // rgParseRateGovernor
@@ -5021,9 +5021,9 @@ void * rgInitGovernor(struct net_config *cfg, struct rateGovernor_t *gov)
 void rgParseRateGovernor(struct net_config *net_config, char *rg)
 {
   char *pos;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(rg, 58);
-  pos = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(rg, 58);
+  pos = return_value___builtin_strchr_1;
   char *dlname;
   char *params;
   char *error;
@@ -5032,9 +5032,9 @@ void rgParseRateGovernor(struct net_config *net_config, char *rg)
   void *data;
   if(!(pos == ((char *)NULL)))
   {
-    char *return_value___strndup$2;
-    return_value___strndup$2=__strndup(rg, (unsigned long int)(pos - rg));
-    dlname = return_value___strndup$2;
+    char *return_value___strndup_2;
+    return_value___strndup_2=__strndup(rg, (unsigned long int)(pos - rg));
+    dlname = return_value___strndup_2;
     params = pos + (signed long int)1;
   }
 
@@ -5046,16 +5046,16 @@ void rgParseRateGovernor(struct net_config *net_config, char *rg)
   rgdl=dlopen(dlname, 0x00001);
   if(rgdl == NULL)
   {
-    char *return_value_dlerror$3;
-    return_value_dlerror$3=dlerror();
-    fprintf(stderr, "Library load error %s\n", return_value_dlerror$3);
+    char *return_value_dlerror_3;
+    return_value_dlerror_3=dlerror();
+    fprintf(stderr, "Library load error %s\n", return_value_dlerror_3);
     exit(1);
   }
 
   dlerror();
-  void *return_value_dlsym$4;
-  return_value_dlsym$4=dlsym(rgdl, "governor");
-  gov = (struct rateGovernor_t *)return_value_dlsym$4;
+  void *return_value_dlsym_4;
+  return_value_dlsym_4=dlsym(rgdl, "governor");
+  gov = (struct rateGovernor_t *)return_value_dlsym_4;
   error=dlerror();
   if(!(error == ((char *)NULL)))
   {
@@ -5067,7 +5067,7 @@ void rgParseRateGovernor(struct net_config *net_config, char *rg)
     free((void *)dlname);
 
   data=rgInitGovernor(net_config, gov);
-  unsigned long int return_value_strlen$6;
+  unsigned long int return_value_strlen_6;
   if(!(gov->rgSetProp == ((void (*)(void *, const char *, const char *))NULL)))
   {
     if(!(params == ((char *)NULL)))
@@ -5077,34 +5077,34 @@ void rgParseRateGovernor(struct net_config *net_config, char *rg)
         char *eqPos;
         const char *key;
         const char *value;
-        char *return_value___builtin_strchr$5;
-        return_value___builtin_strchr$5=__builtin_strchr(params, 44);
-        pos = return_value___builtin_strchr$5;
+        char *return_value___builtin_strchr_5;
+        return_value___builtin_strchr_5=__builtin_strchr(params, 44);
+        pos = return_value___builtin_strchr_5;
         if(pos == ((char *)NULL))
         {
-          return_value_strlen$6=strlen(params);
-          pos = params + (signed long int)return_value_strlen$6;
+          return_value_strlen_6=strlen(params);
+          pos = params + (signed long int)return_value_strlen_6;
         }
 
-        char *return_value___builtin_strchr$7;
-        return_value___builtin_strchr$7=__builtin_strchr(params, 61);
-        eqPos = return_value___builtin_strchr$7;
+        char *return_value___builtin_strchr_7;
+        return_value___builtin_strchr_7=__builtin_strchr(params, 61);
+        eqPos = return_value___builtin_strchr_7;
         if(eqPos == ((char *)NULL) || eqPos >= pos)
         {
-          char *return_value___strndup$8;
-          return_value___strndup$8=__strndup(params, (unsigned long int)(pos - params));
-          key = return_value___strndup$8;
+          char *return_value___strndup_8;
+          return_value___strndup_8=__strndup(params, (unsigned long int)(pos - params));
+          key = return_value___strndup_8;
           value = (const char *)(void *)0;
         }
 
         else
         {
-          char *return_value___strndup$9;
-          return_value___strndup$9=__strndup(params, (unsigned long int)(eqPos - params));
-          key = return_value___strndup$9;
-          char *return_value___strndup$10;
-          return_value___strndup$10=__strndup(eqPos + (signed long int)1, (unsigned long int)(pos - (eqPos + (signed long int)1)));
-          value = return_value___strndup$10;
+          char *return_value___strndup_9;
+          return_value___strndup_9=__strndup(params, (unsigned long int)(eqPos - params));
+          key = return_value___strndup_9;
+          char *return_value___strndup_10;
+          return_value___strndup_10=__strndup(eqPos + (signed long int)1, (unsigned long int)(pos - (eqPos + (signed long int)1)));
+          value = return_value___strndup_10;
         }
         gov->rgSetProp(data, key, value);
         if(!(*pos == 0))
@@ -5152,9 +5152,9 @@ void rgWaitAll(struct net_config *cfg, signed int sock, unsigned int ip, signed 
 // file socklib.c line 266
 static signed int safe_inet_aton(const char *address, struct in_addr *ip)
 {
-  signed int return_value_INET_ATON$1;
-  return_value_INET_ATON$1=INET_ATON(address, ip);
-  if(return_value_INET_ATON$1 == 0)
+  signed int return_value_INET_ATON_1;
+  return_value_INET_ATON_1=INET_ATON(address, ip);
+  if(return_value_INET_ATON_1 == 0)
     udpc_fatal(-1, "Bad address %s", address);
 
   return 0;
@@ -5162,7 +5162,7 @@ static signed int safe_inet_aton(const char *address, struct in_addr *ip)
 
 // selectWithConsole
 // file console.h line 26
-signed int selectWithConsole(struct console_t *con, signed int maxFd, struct anonymous$4 *read_set, struct timeval *tv, signed int *keyPressed)
+signed int selectWithConsole(struct console_t *con, signed int maxFd, struct anonymous_4 *read_set, struct timeval *tv, signed int *keyPressed)
 {
   signed int ret;
   if(!(con == ((struct console_t *)NULL)))
@@ -5174,7 +5174,7 @@ signed int selectWithConsole(struct console_t *con, signed int maxFd, struct ano
 
   }
 
-  ret=select(maxFd, read_set, (struct anonymous$4 *)(void *)0, (struct anonymous$4 *)(void *)0, tv);
+  ret=select(maxFd, read_set, (struct anonymous_4 *)(void *)0, (struct anonymous_4 *)(void *)0, tv);
   if(!(ret >= 0))
     return -1;
 
@@ -5199,22 +5199,22 @@ static signed int sendConnectionReply(struct participantsDb *db, signed int sock
   if(rcvbuf == 0u)
     rcvbuf = (unsigned int)65536;
 
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   if(!((0x0008 & capabilities) == 0))
   {
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)7;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$1 = __v;
-    reply.opCode = tmp_statement_expression$1;
-    signed int return_value_udpc_addParticipant$2;
-    return_value_udpc_addParticipant$2=udpc_addParticipant(db, client, capabilities, rcvbuf, config->flags & 0x0008);
-    unsigned int return_value___bswap_32$3;
-    return_value___bswap_32$3=__bswap_32$link2((unsigned int)return_value_udpc_addParticipant$2);
-    reply.clNr = (signed int)return_value___bswap_32$3;
-    unsigned int return_value___bswap_32$4;
-    return_value___bswap_32$4=__bswap_32$link2((unsigned int)config->blockSize);
-    reply.blockSize = (signed int)return_value___bswap_32$4;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_1 = __v;
+    reply.opCode = tmp_statement_expression_1;
+    signed int return_value_udpc_addParticipant_2;
+    return_value_udpc_addParticipant_2=udpc_addParticipant(db, client, capabilities, rcvbuf, config->flags & 0x0008);
+    unsigned int return_value___bswap_32_3;
+    return_value___bswap_32_3=__bswap_32_link2((unsigned int)return_value_udpc_addParticipant_2);
+    reply.clNr = (signed int)return_value___bswap_32_3;
+    unsigned int return_value___bswap_32_4;
+    return_value___bswap_32_4=__bswap_32_link2((unsigned int)config->blockSize);
+    reply.blockSize = (signed int)return_value___bswap_32_4;
   }
 
   else
@@ -5223,14 +5223,14 @@ static signed int sendConnectionReply(struct participantsDb *db, signed int sock
   if(!((0x0008 & config->flags) == 0))
     udpc_copyIpFrom(&config->dataMcastAddr, client);
 
-  unsigned int return_value___bswap_32$5;
-  return_value___bswap_32$5=__bswap_32$link2((unsigned int)config->capabilities);
-  reply.capabilities = (signed int)return_value___bswap_32$5;
+  unsigned int return_value___bswap_32_5;
+  return_value___bswap_32_5=__bswap_32_link2((unsigned int)config->capabilities);
+  reply.capabilities = (signed int)return_value___bswap_32_5;
   udpc_copyToMessage(reply.mcastAddr, &config->dataMcastAddr);
   rgWaitAll(config, sock, client->sin_addr.s_addr, (signed int)sizeof(struct connectReply) /*32ul*/ );
-  signed int return_value_udpc_doSend$6;
-  return_value_udpc_doSend$6=udpc_doSend(sock, (void *)&reply, sizeof(struct connectReply) /*32ul*/ , &(*client));
-  if(!(return_value_udpc_doSend$6 >= 0))
+  signed int return_value_udpc_doSend_6;
+  return_value_udpc_doSend_6=udpc_doSend(sock, (void *)&reply, sizeof(struct connectReply) /*32ul*/ , &(*client));
+  if(!(return_value_udpc_doSend_6 >= 0))
   {
     perror("reply add new client");
     return -1;
@@ -5259,21 +5259,21 @@ static signed int sendRawData(signed int sock, struct net_config *config, char *
   initMsgHdr(&hdr);
   packetSize = dataSize + headerSize;
   rgWaitAll(config, sock, config->dataMcastAddr.sin_addr.s_addr, packetSize);
-  signed long int return_value_sendmsg$1;
-  return_value_sendmsg$1=sendmsg(sock, &hdr, 0);
-  ret = (signed int)return_value_sendmsg$1;
+  signed long int return_value_sendmsg_1;
+  return_value_sendmsg_1=sendmsg(sock, &hdr, 0);
+  ret = (signed int)return_value_sendmsg_1;
   if(!(ret >= 0))
   {
     char ipBuffer[16l];
-    char *return_value_udpc_getIpString$2;
-    return_value_udpc_getIpString$2=udpc_getIpString(&config->dataMcastAddr, ipBuffer);
-    unsigned short int return_value_udpc_getPort$3;
-    return_value_udpc_getPort$3=udpc_getPort(&config->dataMcastAddr);
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    udpc_fatal(1, "Could not broadcast data packet to %s:%d (%s)\n", return_value_udpc_getIpString$2, return_value_udpc_getPort$3, return_value_strerror$5);
+    char *return_value_udpc_getIpString_2;
+    return_value_udpc_getIpString_2=udpc_getIpString(&config->dataMcastAddr, ipBuffer);
+    unsigned short int return_value_udpc_getPort_3;
+    return_value_udpc_getPort_3=udpc_getPort(&config->dataMcastAddr);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    udpc_fatal(1, "Could not broadcast data packet to %s:%d (%s)\n", return_value_udpc_getIpString_2, return_value_udpc_getPort_3, return_value_strerror_5);
   }
 
   return 0;
@@ -5283,7 +5283,7 @@ static signed int sendRawData(signed int sock, struct net_config *config, char *
 // file senddata.c line 425
 static signed int sendReqack(struct slice *slice, struct net_config *net_config, struct fifo *fifo, struct sender_stats *stats, signed int sock)
 {
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   if(!((0x0004 & net_config->flags) == 0))
   {
     if(slice->bytes == 0)
@@ -5342,24 +5342,24 @@ static signed int sendReqack(struct slice *slice, struct net_config *net_config,
       slice->lastGoodBlock = 0;
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)6;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$1 = __v;
-      slice->sl_reqack.ra.opCode = tmp_statement_expression$1;
-      unsigned int return_value___bswap_32$2;
-      return_value___bswap_32$2=__bswap_32$link1((unsigned int)slice->sliceNo);
-      slice->sl_reqack.ra.sliceNo = (signed int)return_value___bswap_32$2;
-      unsigned int return_value___bswap_32$3;
-      return_value___bswap_32$3=__bswap_32$link1((unsigned int)slice->bytes);
-      slice->sl_reqack.ra.bytes = (signed int)return_value___bswap_32$3;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_1 = __v;
+      slice->sl_reqack.ra.opCode = tmp_statement_expression_1;
+      unsigned int return_value___bswap_32_2;
+      return_value___bswap_32_2=__bswap_32_link1((unsigned int)slice->sliceNo);
+      slice->sl_reqack.ra.sliceNo = (signed int)return_value___bswap_32_2;
+      unsigned int return_value___bswap_32_3;
+      return_value___bswap_32_3=__bswap_32_link1((unsigned int)slice->bytes);
+      slice->sl_reqack.ra.bytes = (signed int)return_value___bswap_32_3;
       slice->sl_reqack.ra.reserved = (signed short int)0;
       memcpy((void *)&slice->answeredSet, (void *)&slice->sl_reqack.readySet, sizeof(char [128l]) /*128ul*/ );
       slice->nrAnswered = slice->nrReady;
       slice->needRxmit = 0;
       memset((void *)slice->rxmitMap, 0, sizeof(char [128l]) /*128ul*/ );
       memset((void *)slice->isXmittedMap, 0, sizeof(char [128l]) /*128ul*/ );
-      unsigned int return_value___bswap_32$4;
-      return_value___bswap_32$4=__bswap_32$link1((unsigned int)slice->rxmitId);
-      slice->sl_reqack.ra.rxmit = (signed int)return_value___bswap_32$4;
+      unsigned int return_value___bswap_32_4;
+      return_value___bswap_32_4=__bswap_32_link1((unsigned int)slice->rxmitId);
+      slice->sl_reqack.ra.rxmit = (signed int)return_value___bswap_32_4;
       rgWaitAll(net_config, sock, net_config->dataMcastAddr.sin_addr.s_addr, (signed int)sizeof(struct reqackBm) /*144ul*/ );
       udpc_doSend(sock, (void *)&slice->sl_reqack, sizeof(struct reqackBm) /*144ul*/ , &net_config->dataMcastAddr);
       return 0;
@@ -5406,18 +5406,18 @@ static signed int sendSlice(struct senderState *sendst, struct slice *slice, sig
   else
     rehello = -1;
   i = slice->nextBlock;
-  _Bool tmp_if_expr$1;
-  unsigned int return_value_pc_getWaiting$2;
+  _Bool tmp_if_expr_1;
+  unsigned int return_value_pc_getWaiting_2;
   for( ; !(i >= fecBlocks + nrBlocks); i = i + 1)
   {
     if(!(retransmitting == 0))
     {
       if((1 << (unsigned long int)i % sizeof(char) * 8 /*8ul*/  & (signed int)slice->rxmitMap[(signed long int)((unsigned long int)i / sizeof(char) * 8 /*8ul*/ )]) == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = ((signed int)slice->isXmittedMap[(signed long int)((unsigned long int)i / (sizeof(char) /*1ul*/  * (unsigned long int)8))] & 1 << (unsigned long int)i % (sizeof(char) /*1ul*/  * (unsigned long int)8)) != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = ((signed int)slice->isXmittedMap[(signed long int)((unsigned long int)i / (sizeof(char) /*1ul*/  * (unsigned long int)8))] & 1 << (unsigned long int)i % (sizeof(char) /*1ul*/  * (unsigned long int)8)) != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         if(!(slice->lastGoodBlock >= i))
           slice->lastGoodBlock = i;
@@ -5439,8 +5439,8 @@ static signed int sendSlice(struct senderState *sendst, struct slice *slice, sig
       transmitFecBlock(sendst, slice, i - nrBlocks);
     if(retransmitting == 0)
     {
-      return_value_pc_getWaiting$2=pc_getWaiting(sendst->rc.incoming);
-      if(!(return_value_pc_getWaiting$2 == 0u))
+      return_value_pc_getWaiting_2=pc_getWaiting(sendst->rc.incoming);
+      if(!(return_value_pc_getWaiting_2 == 0u))
       {
         i = i + 1;
         break;
@@ -5460,7 +5460,7 @@ static signed int sendSlice(struct senderState *sendst, struct slice *slice, sig
   {
     slice->needRxmit = 0;
     if(retransmitting == 0)
-      slice->state = (volatile enum anonymous$10)SLICE_XMITTED;
+      slice->state = (volatile enum anonymous_10)SLICE_XMITTED;
 
     return 2;
   }
@@ -5474,19 +5474,19 @@ static signed int sendSlice(struct senderState *sendst, struct slice *slice, sig
 static void setProp(void *data, const char *key, const char *bitrate)
 {
   struct rate_limit *rateLimit = (struct rate_limit *)data;
-  signed int tmp_statement_expression$2;
-  unsigned long int return_value_parseSpeed$1;
+  signed int tmp_statement_expression_2;
+  unsigned long int return_value_parseSpeed_1;
   if(!(rateLimit == ((struct rate_limit *)NULL)))
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp("maxBitrate", key);
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp("maxBitrate", key);
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
     {
-      return_value_parseSpeed$1=parseSpeed(bitrate);
-      rateLimit->bitrate = (signed int)return_value_parseSpeed$1;
+      return_value_parseSpeed_1=parseSpeed(bitrate);
+      rateLimit->bitrate = (signed int)return_value_parseSpeed_1;
     }
 
   }
@@ -5599,26 +5599,26 @@ static signed int transmitDataBlock(struct senderState *sendst, struct slice *sl
   signed int size;
   /* assertion i < 1024 */
   assert(i < 1024);
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)8;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  msg.opCode = tmp_statement_expression$1;
-  unsigned int return_value___bswap_32$2;
-  return_value___bswap_32$2=__bswap_32$link1((unsigned int)slice->sliceNo);
-  msg.sliceNo = (signed int)return_value___bswap_32$2;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int transmitDataBlock$$1$$2$$__v;
-  unsigned short int transmitDataBlock$$1$$2$$__x = (unsigned short int)i;
-  asm("rorw $8, %w0" : "=r"(transmitDataBlock$$1$$2$$__v) : "0"(transmitDataBlock$$1$$2$$__x) : "cc");
-  tmp_statement_expression$3 = transmitDataBlock$$1$$2$$__v;
-  msg.blockNo = tmp_statement_expression$3;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  msg.opCode = tmp_statement_expression_1;
+  unsigned int return_value___bswap_32_2;
+  return_value___bswap_32_2=__bswap_32_link1((unsigned int)slice->sliceNo);
+  msg.sliceNo = (signed int)return_value___bswap_32_2;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int transmitDataBlock__1__2____v;
+  unsigned short int transmitDataBlock__1__2____x = (unsigned short int)i;
+  asm("rorw _8, %w0" : "=r"(transmitDataBlock__1__2____v) : "0"(transmitDataBlock__1__2____x) : "cc");
+  tmp_statement_expression_3 = transmitDataBlock__1__2____v;
+  msg.blockNo = tmp_statement_expression_3;
   msg.reserved = (signed short int)0;
   msg.reserved2 = (unsigned short int)0;
-  unsigned int return_value___bswap_32$4;
-  return_value___bswap_32$4=__bswap_32$link1((unsigned int)slice->bytes);
-  msg.bytes = (signed int)return_value___bswap_32$4;
+  unsigned int return_value___bswap_32_4;
+  return_value___bswap_32_4=__bswap_32_link1((unsigned int)slice->bytes);
+  msg.bytes = (signed int)return_value___bswap_32_4;
   size = slice->bytes - i * config->blockSize;
   if(!(size >= 0))
     size = 0;
@@ -5636,9 +5636,9 @@ static signed int transmitFecBlock(struct senderState *sendst, struct slice *sli
 {
   struct net_config *config = sendst->config;
   struct fecBlock msg;
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$4;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_4;
   if(slice->bytes == 0)
   {
     if(!((0x0004 & config->flags) == 0))
@@ -5655,28 +5655,28 @@ static signed int transmitFecBlock(struct senderState *sendst, struct slice *sli
     ;
     /* assertion i < config->fec_redundancy * config->fec_stripes */
     assert(i < config->fec_redundancy * config->fec_stripes);
-    unsigned short int transmitFecBlock$$1$$1$$__v;
-    unsigned short int transmitFecBlock$$1$$1$$__x = (unsigned short int)9;
-    asm("rorw $8, %w0" : "=r"(transmitFecBlock$$1$$1$$__v) : "0"(transmitFecBlock$$1$$1$$__x) : "cc");
-    tmp_statement_expression$1 = transmitFecBlock$$1$$1$$__v;
-    msg.opCode = tmp_statement_expression$1;
-    unsigned short int transmitFecBlock$$1$$2$$__v;
-    unsigned short int transmitFecBlock$$1$$2$$__x = (unsigned short int)config->fec_stripes;
-    asm("rorw $8, %w0" : "=r"(transmitFecBlock$$1$$2$$__v) : "0"(transmitFecBlock$$1$$2$$__x) : "cc");
-    tmp_statement_expression$2 = transmitFecBlock$$1$$2$$__v;
-    msg.stripes = (signed short int)tmp_statement_expression$2;
-    unsigned int return_value___bswap_32$3;
-    return_value___bswap_32$3=__bswap_32$link1((unsigned int)slice->sliceNo);
-    msg.sliceNo = (signed int)return_value___bswap_32$3;
+    unsigned short int transmitFecBlock__1__1____v;
+    unsigned short int transmitFecBlock__1__1____x = (unsigned short int)9;
+    asm("rorw _8, %w0" : "=r"(transmitFecBlock__1__1____v) : "0"(transmitFecBlock__1__1____x) : "cc");
+    tmp_statement_expression_1 = transmitFecBlock__1__1____v;
+    msg.opCode = tmp_statement_expression_1;
+    unsigned short int transmitFecBlock__1__2____v;
+    unsigned short int transmitFecBlock__1__2____x = (unsigned short int)config->fec_stripes;
+    asm("rorw _8, %w0" : "=r"(transmitFecBlock__1__2____v) : "0"(transmitFecBlock__1__2____x) : "cc");
+    tmp_statement_expression_2 = transmitFecBlock__1__2____v;
+    msg.stripes = (signed short int)tmp_statement_expression_2;
+    unsigned int return_value___bswap_32_3;
+    return_value___bswap_32_3=__bswap_32_link1((unsigned int)slice->sliceNo);
+    msg.sliceNo = (signed int)return_value___bswap_32_3;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)i;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$4 = __v;
-    msg.blockNo = tmp_statement_expression$4;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_4 = __v;
+    msg.blockNo = tmp_statement_expression_4;
     msg.reserved2 = (unsigned short int)0;
-    unsigned int return_value___bswap_32$5;
-    return_value___bswap_32$5=__bswap_32$link1((unsigned int)slice->bytes);
-    msg.bytes = (signed int)return_value___bswap_32$5;
+    unsigned int return_value___bswap_32_5;
+    return_value___bswap_32_5=__bswap_32_link1((unsigned int)slice->bytes);
+    msg.bytes = (signed int)return_value___bswap_32_5;
     sendRawData(sendst->socket, sendst->config, (char *)&msg, (signed int)sizeof(struct fecBlock) /*16ul*/ , slice->fec_data + (signed long int)(i * config->blockSize), config->blockSize);
     return 0;
   }
@@ -5703,12 +5703,12 @@ signed int udpc_addParticipant(struct participantsDb *db, struct sockaddr_in *ad
         db->clientTable[(signed long int)i].capabilities = capabilities;
         db->clientTable[(signed long int)i].rcvbuf = rcvbuf;
         db->udpc_nrParticipants = db->udpc_nrParticipants + 1;
-        char *return_value_udpc_getIpString$1;
-        return_value_udpc_getIpString$1=udpc_getIpString(addr, ipBuffer);
-        fprintf(stderr, "New connection from %s  (#%d) %08x\n", return_value_udpc_getIpString$1, i, capabilities);
-        char *return_value_udpc_getIpString$2;
-        return_value_udpc_getIpString$2=udpc_getIpString(addr, ipBuffer);
-        syslog(6, "New connection from %s  (#%d)\n", return_value_udpc_getIpString$2, i);
+        char *return_value_udpc_getIpString_1;
+        return_value_udpc_getIpString_1=udpc_getIpString(addr, ipBuffer);
+        fprintf(stderr, "New connection from %s  (#%d) %08x\n", return_value_udpc_getIpString_1, i, capabilities);
+        char *return_value_udpc_getIpString_2;
+        return_value_udpc_getIpString_2=udpc_getIpString(addr, ipBuffer);
+        syslog(6, "New connection from %s  (#%d)\n", return_value_udpc_getIpString_2, i);
         return i;
       }
 
@@ -5725,9 +5725,9 @@ signed int udpc_addParticipant(struct participantsDb *db, struct sockaddr_in *ad
 struct receiver_stats * udpc_allocReadStats(signed int fd, signed long int statPeriod, signed int printUncompressedPos, signed int noProgress)
 {
   struct receiver_stats *rs;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct receiver_stats) /*80ul*/ );
-  rs = (struct receiver_stats *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct receiver_stats) /*80ul*/ );
+  rs = (struct receiver_stats *)return_value_calloc_1;
   initStats(&rs->s, fd, statPeriod, printUncompressedPos, noProgress);
   return rs;
 }
@@ -5737,9 +5737,9 @@ struct receiver_stats * udpc_allocReadStats(signed int fd, signed long int statP
 struct sender_stats * udpc_allocSenderStats(signed int fd, struct _IO_FILE *logfile, signed long int bwPeriod, signed long int statPeriod, signed int printUncompressedPos, signed int noProgress)
 {
   struct sender_stats *ss;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct sender_stats) /*104ul*/ );
-  ss = (struct sender_stats *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct sender_stats) /*104ul*/ );
+  ss = (struct sender_stats *)return_value_calloc_1;
   ss->log = logfile;
   ss->bwPeriod = bwPeriod;
   gettimeofday(&ss->periodStart, ((struct timezone *)NULL));
@@ -5801,18 +5801,18 @@ void udpc_displayReceiverStats(struct receiver_stats *rs, signed int isFinal)
 {
   signed long long int timePassed;
   struct timeval tv_now;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(rs == ((struct receiver_stats *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = rs->s.noProgress != 0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = rs->s.noProgress != 0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     gettimeofday(&tv_now, ((struct timezone *)NULL));
-    signed int return_value_shouldPrint$2;
-    return_value_shouldPrint$2=shouldPrint(&rs->s, &tv_now, isFinal);
-    if(!(return_value_shouldPrint$2 == 0))
+    signed int return_value_shouldPrint_2;
+    return_value_shouldPrint_2=shouldPrint(&rs->s, &tv_now, isFinal);
+    if(!(return_value_shouldPrint_2 == 0))
     {
       fprintf(stderr, "bytes=");
       udpc_printLongNum((unsigned long long int)rs->totalBytes);
@@ -5847,18 +5847,18 @@ void udpc_displaySenderStats(struct sender_stats *ss, signed int blockSize, sign
   unsigned int blocks;
   unsigned int percent;
   struct timeval tv_now;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ss == ((struct sender_stats *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ss->s.noProgress != 0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = ss->s.noProgress != 0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     gettimeofday(&tv_now, ((struct timezone *)NULL));
-    signed int return_value_shouldPrint$2;
-    return_value_shouldPrint$2=shouldPrint(&ss->s, &tv_now, isFinal);
-    if(!(return_value_shouldPrint$2 == 0))
+    signed int return_value_shouldPrint_2;
+    return_value_shouldPrint_2=shouldPrint(&ss->s, &tv_now, isFinal);
+    if(!(return_value_shouldPrint_2 == 0))
     {
       blocks = (unsigned int)(((ss->totalBytes + (unsigned long int)blockSize) - (unsigned long int)1) / (unsigned long int)blockSize);
       if(blocks == 0u)
@@ -5889,30 +5889,30 @@ signed int udpc_doReceive(signed int s, void *message, unsigned long int len, st
   unsigned short int port;
   char ipBuffer[16l];
   slen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  signed long int return_value_recvfrom$1;
-  return_value_recvfrom$1=recvfrom(s, message, len, 0, (struct sockaddr *)from, &slen);
-  r = (signed int)return_value_recvfrom$1;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$4;
+  signed long int return_value_recvfrom_1;
+  return_value_recvfrom_1=recvfrom(s, message, len, 0, (struct sockaddr *)from, &slen);
+  r = (signed int)return_value_recvfrom_1;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_4;
   if(!(r >= 0))
     return r;
 
   else
   {
     unsigned short int __v;
-    unsigned short int udpc_doReceive$$1$$1$$__x = (unsigned short int)from->sin_port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(udpc_doReceive$$1$$1$$__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    port = tmp_statement_expression$2;
+    unsigned short int udpc_doReceive__1__1____x = (unsigned short int)from->sin_port;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(udpc_doReceive__1__1____x) : "cc");
+    tmp_statement_expression_2 = __v;
+    port = tmp_statement_expression_2;
     if(!((signed int)port == 1 + portBase) && !((signed int)port == portBase))
     {
-      char *return_value_udpc_getIpString$3;
-      return_value_udpc_getIpString$3=udpc_getIpString(from, ipBuffer);
-      unsigned short int udpc_doReceive$$1$$2$$1$$__v;
+      char *return_value_udpc_getIpString_3;
+      return_value_udpc_getIpString_3=udpc_getIpString(from, ipBuffer);
+      unsigned short int udpc_doReceive__1__2__1____v;
       unsigned short int __x = (unsigned short int)((struct sockaddr_in *)from)->sin_port;
-      asm("rorw $8, %w0" : "=r"(udpc_doReceive$$1$$2$$1$$__v) : "0"(__x) : "cc");
-      tmp_statement_expression$4 = udpc_doReceive$$1$$2$$1$$__v;
-      udpc_flprintf("Bad message from port %s.%d\n", return_value_udpc_getIpString$3, tmp_statement_expression$4);
+      asm("rorw _8, %w0" : "=r"(udpc_doReceive__1__2__1____v) : "0"(__x) : "cc");
+      tmp_statement_expression_4 = udpc_doReceive__1__2__1____v;
+      udpc_flprintf("Bad message from port %s.%d\n", return_value_udpc_getIpString_3, tmp_statement_expression_4);
       return -1;
     }
 
@@ -5924,9 +5924,9 @@ signed int udpc_doReceive(signed int s, void *message, unsigned long int len, st
 // file socklib.c line 288
 signed int udpc_doSend(signed int s, void *message, unsigned long int len, struct sockaddr_in *to)
 {
-  signed long int return_value_sendto$1;
-  return_value_sendto$1=sendto(s, message, len, 0, (struct sockaddr *)to, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  return (signed int)return_value_sendto$1;
+  signed long int return_value_sendto_1;
+  return_value_sendto_1=sendto(s, message, len, 0, (struct sockaddr *)to, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  return (signed int)return_value_sendto_1;
 }
 
 // udpc_fatal
@@ -5948,19 +5948,19 @@ signed int udpc_fatal(signed int code, const char *fmt, ...)
 signed int udpc_flprintf(const char *fmt, ...)
 {
   void **ap = (void **)&fmt;
-  signed int return_value_vlogprintf$1;
+  signed int return_value_vlogprintf_1;
   if(!(udpc_log == ((struct _IO_FILE *)NULL)))
   {
-    return_value_vlogprintf$1=vlogprintf(udpc_log, fmt, ap);
-    return return_value_vlogprintf$1;
+    return_value_vlogprintf_1=vlogprintf(udpc_log, fmt, ap);
+    return return_value_vlogprintf_1;
   }
 
   else
   {
     printNewlineIfNeeded();
-    signed int return_value_vfprintf$2;
-    return_value_vfprintf$2=vfprintf(stderr, fmt, ap);
-    return return_value_vfprintf$2;
+    signed int return_value_vfprintf_2;
+    return_value_vfprintf_2=vfprintf(stderr, fmt, ap);
+    return return_value_vfprintf_2;
   }
 }
 
@@ -5974,9 +5974,9 @@ signed int udpc_getBroadCastAddress(struct net_if *net_if, struct sockaddr_in *a
   {
     struct sockaddr_in ucast;
     initSockAddress((enum addr_type_t)ADDR_TYPE_UCAST, net_if, (unsigned int)0x00000000, (unsigned short int)port, &ucast);
-    unsigned int return_value___bswap_32$1;
-    return_value___bswap_32$1=__bswap_32(ucast.sin_addr.s_addr);
-    if((0xff000000 & return_value___bswap_32$1) == 2130706432u)
+    unsigned int return_value___bswap_32_1;
+    return_value___bswap_32_1=__bswap_32(ucast.sin_addr.s_addr);
+    if((0xff000000 & return_value___bswap_32_1) == 2130706432u)
       addr->sin_addr.s_addr = ucast.sin_addr.s_addr;
 
   }
@@ -5989,12 +5989,12 @@ signed int udpc_getBroadCastAddress(struct net_if *net_if, struct sockaddr_in *a
 void udpc_getDefaultMcastAddress(struct net_if *net_if, struct sockaddr_in *mcast)
 {
   udpc_getMyAddress(net_if, mcast);
-  unsigned int return_value___bswap_32$1;
-  return_value___bswap_32$1=__bswap_32((unsigned int)0x07ffffff);
-  mcast->sin_addr.s_addr = mcast->sin_addr.s_addr & return_value___bswap_32$1;
-  unsigned int return_value___bswap_32$2;
-  return_value___bswap_32$2=__bswap_32(0xe8000000);
-  mcast->sin_addr.s_addr = mcast->sin_addr.s_addr | return_value___bswap_32$2;
+  unsigned int return_value___bswap_32_1;
+  return_value___bswap_32_1=__bswap_32((unsigned int)0x07ffffff);
+  mcast->sin_addr.s_addr = mcast->sin_addr.s_addr & return_value___bswap_32_1;
+  unsigned int return_value___bswap_32_2;
+  return_value___bswap_32_2=__bswap_32(0xe8000000);
+  mcast->sin_addr.s_addr = mcast->sin_addr.s_addr | return_value___bswap_32_2;
 }
 
 // udpc_getIpString
@@ -6002,9 +6002,9 @@ void udpc_getDefaultMcastAddress(struct net_if *net_if, struct sockaddr_in *mcas
 char * udpc_getIpString(struct sockaddr_in *addr, char *buffer)
 {
   signed long int iaddr;
-  unsigned int return_value___bswap_32$1;
-  return_value___bswap_32$1=__bswap_32(((struct sockaddr_in *)addr)->sin_addr.s_addr);
-  iaddr = (signed long int)return_value___bswap_32$1;
+  unsigned int return_value___bswap_32_1;
+  return_value___bswap_32_1=__bswap_32(((struct sockaddr_in *)addr)->sin_addr.s_addr);
+  iaddr = (signed long int)return_value___bswap_32_1;
   sprintf(buffer, "%ld.%ld.%ld.%ld", iaddr >> 24 & (signed long int)0xff, iaddr >> 16 & (signed long int)0xff, iaddr >> 8 & (signed long int)0xff, iaddr & (signed long int)0xff);
   return buffer;
 }
@@ -6015,13 +6015,13 @@ signed int udpc_getMcastAllAddress(struct sockaddr_in *addr, const char *address
 {
   struct in_addr ip;
   signed int ret;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(address == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)address[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)address[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     safe_inet_aton("224.0.0.1", &ip);
 
   else
@@ -6031,18 +6031,18 @@ signed int udpc_getMcastAllAddress(struct sockaddr_in *addr, const char *address
       return ret;
 
   }
-  signed int return_value_initSockAddress$2;
-  return_value_initSockAddress$2=initSockAddress((enum addr_type_t)ADDR_TYPE_MCAST, (struct net_if *)(void *)0, ip.s_addr, (unsigned short int)port, addr);
-  return return_value_initSockAddress$2;
+  signed int return_value_initSockAddress_2;
+  return_value_initSockAddress_2=initSockAddress((enum addr_type_t)ADDR_TYPE_MCAST, (struct net_if *)(void *)0, ip.s_addr, (unsigned short int)port, addr);
+  return return_value_initSockAddress_2;
 }
 
 // udpc_getMyAddress
 // file socklib.c line 245
 signed int udpc_getMyAddress(struct net_if *net_if, struct sockaddr_in *addr)
 {
-  signed int return_value_initSockAddress$1;
-  return_value_initSockAddress$1=initSockAddress((enum addr_type_t)ADDR_TYPE_UCAST, net_if, (unsigned int)0x00000000, (unsigned short int)0, addr);
-  return return_value_initSockAddress$1;
+  signed int return_value_initSockAddress_1;
+  return_value_initSockAddress_1=initSockAddress((enum addr_type_t)ADDR_TYPE_UCAST, net_if, (unsigned int)0x00000000, (unsigned short int)0, addr);
+  return return_value_initSockAddress_1;
 }
 
 // udpc_getNetIf
@@ -6062,31 +6062,31 @@ struct net_if * udpc_getNetIf(const char *wanted)
   if(wanted == ((const char *)NULL))
     wanted=getenv("IFNAME");
 
-  _Bool tmp_if_expr$2;
-  signed int return_value_INET_ATON$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_INET_ATON_1;
   if(!(wanted == ((const char *)NULL)))
   {
-    return_value_INET_ATON$1=INET_ATON(wanted, &wantedAddress);
-    tmp_if_expr$2 = return_value_INET_ATON$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_INET_ATON_1=INET_ATON(wanted, &wantedAddress);
+    tmp_if_expr_2 = return_value_INET_ATON_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     isAddress = 1;
 
   else
     wantedAddress.s_addr = (unsigned int)0;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(wanted == ((const char *)NULL)))
   {
-    return_value_strlen$3=strlen(wanted);
-    wantedLen = (signed int)return_value_strlen$3;
+    return_value_strlen_3=strlen(wanted);
+    wantedLen = (signed int)return_value_strlen_3;
   }
 
-  void *return_value_calloc$4;
-  return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct net_if) /*24ul*/ );
-  net_if = (struct net_if *)return_value_calloc$4;
+  void *return_value_calloc_4;
+  return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct net_if) /*24ul*/ );
+  net_if = (struct net_if *)return_value_calloc_4;
   if(net_if == ((struct net_if *)NULL))
     udpc_fatal(1, "Out of memory error");
 
@@ -6101,15 +6101,15 @@ struct net_if * udpc_getNetIf(const char *wanted)
   while((_Bool)1)
   {
     signed int len = ifc.ifc_len;
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc((unsigned long int)ifc.ifc_len);
-    ifc.ifc_ifcu.ifcu_buf = (char *)return_value_malloc$5;
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc((unsigned long int)ifc.ifc_len);
+    ifc.ifc_ifcu.ifcu_buf = (char *)return_value_malloc_5;
     if(ifc.ifc_ifcu.ifcu_buf == ((char *)NULL))
       udpc_fatal(1, "Out of memory error");
 
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(s, (unsigned long int)0x8912, (char *)&ifc);
-    if(!(ifc.ifc_len >= (signed int)sizeof(struct ifreq) /*40*/ ) || !(return_value_ioctl$6 >= 0))
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(s, (unsigned long int)0x8912, (char *)&ifc);
+    if(!(ifc.ifc_len >= (signed int)sizeof(struct ifreq) /*40*/ ) || !(return_value_ioctl_6 >= 0))
     {
       perror("udpcast: SIOCGIFCONF: ");
       exit(1);
@@ -6127,19 +6127,19 @@ struct net_if * udpc_getNetIf(const char *wanted)
   ifend = (struct ifreq *)((char *)ifc.ifc_ifcu.ifcu_buf + (signed long int)ifc.ifc_len);
   chosen = (struct ifreq *)(void *)0;
   ifrp = (struct ifreq *)ifc.ifc_ifcu.ifcu_buf;
-  signed int tmp_statement_expression$9;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strncmp$7;
-  unsigned int return_value___bswap_32$20;
-  signed int tmp_statement_expression$15;
-  _Bool tmp_if_expr$19;
-  signed int tmp_statement_expression$17;
-  signed int return_value_strncmp$14;
-  signed int return_value_strncmp$11;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strncmp$12;
-  signed int *return_value___errno_location$22;
-  char *return_value_strerror$23;
+  signed int tmp_statement_expression_9;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strncmp_7;
+  unsigned int return_value___bswap_32_20;
+  signed int tmp_statement_expression_15;
+  _Bool tmp_if_expr_19;
+  signed int tmp_statement_expression_17;
+  signed int return_value_strncmp_14;
+  signed int return_value_strncmp_11;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strncmp_12;
+  signed int *return_value___errno_location_22;
+  char *return_value_strerror_23;
   for( ; !(ifrp >= ifend); ifrp = ifrp + 1l)
   {
     unsigned long int iaddr = (unsigned long int)((struct sockaddr_in *)&ifrp->ifr_ifru.ifru_addr)->sin_addr.s_addr;
@@ -6155,23 +6155,23 @@ struct net_if * udpc_getNetIf(const char *wanted)
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$10;
-          return_value___builtin_strcmp$10=__builtin_strcmp(wanted, ifrp->ifr_ifrn.ifrn_name);
-          tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-          if(tmp_statement_expression$9 == 0)
+          signed int return_value___builtin_strcmp_10;
+          return_value___builtin_strcmp_10=__builtin_strcmp(wanted, ifrp->ifr_ifrn.ifrn_name);
+          tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+          if(tmp_statement_expression_9 == 0)
             goodness = 12;
 
           else
           {
             if(!(wanted == ((const char *)NULL)))
             {
-              return_value_strncmp$7=strncmp(wanted, ifrp->ifr_ifrn.ifrn_name, (unsigned long int)wantedLen);
-              tmp_if_expr$8 = return_value_strncmp$7 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strncmp_7=strncmp(wanted, ifrp->ifr_ifrn.ifrn_name, (unsigned long int)wantedLen);
+              tmp_if_expr_8 = return_value_strncmp_7 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(tmp_if_expr_8)
               goodness = 7;
 
             else
@@ -6186,50 +6186,50 @@ struct net_if * udpc_getNetIf(const char *wanted)
 
         else
         {
-          return_value___bswap_32$20=__bswap_32((unsigned int)0x7f000001);
-          if(iaddr == (unsigned long int)return_value___bswap_32$20)
+          return_value___bswap_32_20=__bswap_32((unsigned int)0x7f000001);
+          if(iaddr == (unsigned long int)return_value___bswap_32_20)
             goodness = 2;
 
           else
           {
-            unsigned long int udpc_getNetIf$$1$$4$$1$$2$$3$$__s1_len;
-            unsigned long int udpc_getNetIf$$1$$4$$1$$2$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$16;
-            return_value___builtin_strcmp$16=__builtin_strcmp("eth0", ifrp->ifr_ifrn.ifrn_name);
-            tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-            if(tmp_statement_expression$15 == 0)
-              tmp_if_expr$19 = (_Bool)1;
+            unsigned long int udpc_getNetIf__1__4__1__2__3____s1_len;
+            unsigned long int udpc_getNetIf__1__4__1__2__3____s2_len;
+            signed int return_value___builtin_strcmp_16;
+            return_value___builtin_strcmp_16=__builtin_strcmp("eth0", ifrp->ifr_ifrn.ifrn_name);
+            tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+            if(tmp_statement_expression_15 == 0)
+              tmp_if_expr_19 = (_Bool)1;
 
             else
             {
-              unsigned long int udpc_getNetIf$$1$$4$$1$$2$$4$$__s1_len;
-              unsigned long int udpc_getNetIf$$1$$4$$1$$2$$4$$__s2_len;
-              signed int return_value___builtin_strcmp$18;
-              return_value___builtin_strcmp$18=__builtin_strcmp("en0", ifrp->ifr_ifrn.ifrn_name);
-              tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-              tmp_if_expr$19 = tmp_statement_expression$17 == 0 ? (_Bool)1 : (_Bool)0;
+              unsigned long int udpc_getNetIf__1__4__1__2__4____s1_len;
+              unsigned long int udpc_getNetIf__1__4__1__2__4____s2_len;
+              signed int return_value___builtin_strcmp_18;
+              return_value___builtin_strcmp_18=__builtin_strcmp("en0", ifrp->ifr_ifrn.ifrn_name);
+              tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+              tmp_if_expr_19 = tmp_statement_expression_17 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$19)
+            if(tmp_if_expr_19)
               goodness = 6;
 
             else
             {
-              return_value_strncmp$14=strncmp("eth0:", ifrp->ifr_ifrn.ifrn_name, (unsigned long int)5);
-              if(return_value_strncmp$14 == 0)
+              return_value_strncmp_14=strncmp("eth0:", ifrp->ifr_ifrn.ifrn_name, (unsigned long int)5);
+              if(return_value_strncmp_14 == 0)
                 goodness = 5;
 
               else
               {
-                return_value_strncmp$11=strncmp("eth", ifrp->ifr_ifrn.ifrn_name, (unsigned long int)3);
-                if(return_value_strncmp$11 == 0)
-                  tmp_if_expr$13 = (_Bool)1;
+                return_value_strncmp_11=strncmp("eth", ifrp->ifr_ifrn.ifrn_name, (unsigned long int)3);
+                if(return_value_strncmp_11 == 0)
+                  tmp_if_expr_13 = (_Bool)1;
 
                 else
                 {
-                  return_value_strncmp$12=strncmp("en", ifrp->ifr_ifrn.ifrn_name, (unsigned long int)2);
-                  tmp_if_expr$13 = return_value_strncmp$12 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strncmp_12=strncmp("en", ifrp->ifr_ifrn.ifrn_name, (unsigned long int)2);
+                  tmp_if_expr_13 = return_value_strncmp_12 == 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$13)
+                if(tmp_if_expr_13)
                   goodness = 4;
 
                 else
@@ -6238,21 +6238,21 @@ struct net_if * udpc_getNetIf(const char *wanted)
             }
           }
         }
-      signed int return_value_hasLink$21;
-      return_value_hasLink$21=hasLink(s, ifrp->ifr_ifrn.ifrn_name);
-      if(!(return_value_hasLink$21 == 0))
+      signed int return_value_hasLink_21;
+      return_value_hasLink_21=hasLink(s, ifrp->ifr_ifrn.ifrn_name);
+      if(!(return_value_hasLink_21 == 0))
         goodness = goodness + 3;
 
       goodness = goodness * 2;
       if(goodness >= lastGoodness)
       {
-        signed int return_value_ioctl$24;
-        return_value_ioctl$24=ioctl(s, (unsigned long int)0x8919, ifrp);
-        if(!(return_value_ioctl$24 >= 0))
+        signed int return_value_ioctl_24;
+        return_value_ioctl_24=ioctl(s, (unsigned long int)0x8919, ifrp);
+        if(!(return_value_ioctl_24 >= 0))
         {
-          return_value___errno_location$22=__errno_location();
-          return_value_strerror$23=strerror(*return_value___errno_location$22);
-          udpc_fatal(-1, "Error getting broadcast address for %s: %s", (const void *)ifrp->ifr_ifrn.ifrn_name, return_value_strerror$23);
+          return_value___errno_location_22=__errno_location();
+          return_value_strerror_23=strerror(*return_value___errno_location_22);
+          udpc_fatal(-1, "Error getting broadcast address for %s: %s", (const void *)ifrp->ifr_ifrn.ifrn_name, return_value_strerror_23);
         }
 
         if(!(((struct sockaddr_in *)&ifrp->ifr_ifru.ifru_broadaddr)->sin_addr.s_addr == 0u))
@@ -6283,39 +6283,39 @@ struct net_if * udpc_getNetIf(const char *wanted)
       char buffer[16l];
       if((signed int)ifrp->ifr_ifru.ifru_addr.sa_family == 2)
       {
-        char *return_value_udpc_getIpString$25;
-        return_value_udpc_getIpString$25=udpc_getIpString((struct sockaddr_in *)&ifrp->ifr_ifru.ifru_addr, buffer);
-        fprintf(stderr, "\t%s\t%s\n", (const void *)ifrp->ifr_ifrn.ifrn_name, return_value_udpc_getIpString$25);
+        char *return_value_udpc_getIpString_25;
+        return_value_udpc_getIpString_25=udpc_getIpString((struct sockaddr_in *)&ifrp->ifr_ifru.ifru_addr, buffer);
+        fprintf(stderr, "\t%s\t%s\n", (const void *)ifrp->ifr_ifrn.ifrn_name, return_value_udpc_getIpString_25);
       }
 
     }
     exit(1);
   }
 
-  char *return_value___strdup$26;
-  return_value___strdup$26=__strdup(chosen->ifr_ifrn.ifrn_name);
-  net_if->name = return_value___strdup$26;
-  signed int return_value_ioctl$29;
-  return_value_ioctl$29=ioctl(s, (unsigned long int)0x8933, chosen);
-  signed int *return_value___errno_location$27;
-  char *return_value_strerror$28;
-  if(!(return_value_ioctl$29 >= 0))
+  char *return_value___strdup_26;
+  return_value___strdup_26=__strdup(chosen->ifr_ifrn.ifrn_name);
+  net_if->name = return_value___strdup_26;
+  signed int return_value_ioctl_29;
+  return_value_ioctl_29=ioctl(s, (unsigned long int)0x8933, chosen);
+  signed int *return_value___errno_location_27;
+  char *return_value_strerror_28;
+  if(!(return_value_ioctl_29 >= 0))
   {
-    return_value___errno_location$27=__errno_location();
-    return_value_strerror$28=strerror(*return_value___errno_location$27);
-    udpc_fatal(-1, "Error getting index for %s: %s", net_if->name, return_value_strerror$28);
+    return_value___errno_location_27=__errno_location();
+    return_value_strerror_28=strerror(*return_value___errno_location_27);
+    udpc_fatal(-1, "Error getting index for %s: %s", net_if->name, return_value_strerror_28);
   }
 
   net_if->index = chosen->ifr_ifru.ifru_ivalue;
-  signed int return_value_ioctl$32;
-  return_value_ioctl$32=ioctl(s, (unsigned long int)0x8919, chosen);
-  signed int *return_value___errno_location$30;
-  char *return_value_strerror$31;
-  if(!(return_value_ioctl$32 >= 0))
+  signed int return_value_ioctl_32;
+  return_value_ioctl_32=ioctl(s, (unsigned long int)0x8919, chosen);
+  signed int *return_value___errno_location_30;
+  char *return_value_strerror_31;
+  if(!(return_value_ioctl_32 >= 0))
   {
-    return_value___errno_location$30=__errno_location();
-    return_value_strerror$31=strerror(*return_value___errno_location$30);
-    udpc_fatal(-1, "Error getting broadcast address for %s: %s", net_if->name, return_value_strerror$31);
+    return_value___errno_location_30=__errno_location();
+    return_value_strerror_31=strerror(*return_value___errno_location_30);
+    udpc_fatal(-1, "Error getting broadcast address for %s: %s", net_if->name, return_value_strerror_31);
   }
 
   net_if->bcast = ((struct sockaddr_in *)&chosen->ifr_ifru.ifru_broadaddr)->sin_addr;
@@ -6349,12 +6349,12 @@ unsigned int udpc_getParticipantRcvBuf(struct participantsDb *db, signed int i)
 // file socklib.c line 981
 unsigned short int udpc_getPort(struct sockaddr_in *addr)
 {
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)((struct sockaddr_in *)addr)->sin_port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  return tmp_statement_expression$1;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  return tmp_statement_expression_1;
 }
 
 // udpc_getRcvBuf
@@ -6363,9 +6363,9 @@ unsigned int udpc_getRcvBuf(signed int sock)
 {
   unsigned int bufsize;
   unsigned int len = (unsigned int)sizeof(signed int) /*4ul*/ ;
-  signed int return_value_getsockopt$1;
-  return_value_getsockopt$1=getsockopt(sock, 1, 8, (void *)(char *)&bufsize, &len);
-  if(!(return_value_getsockopt$1 >= 0))
+  signed int return_value_getsockopt_1;
+  return_value_getsockopt_1=getsockopt(sock, 1, 8, (void *)(char *)&bufsize, &len);
+  if(!(return_value_getsockopt_1 >= 0))
     return (unsigned int)-1;
 
   else
@@ -6374,7 +6374,7 @@ unsigned int udpc_getRcvBuf(signed int sock)
 
 // udpc_getSelectedSock
 // file socklib.c line 1089
-signed int udpc_getSelectedSock(signed int *socks, signed int nr, struct anonymous$4 *read_set)
+signed int udpc_getSelectedSock(signed int *socks, signed int nr, struct anonymous_4 *read_set)
 {
   signed int i = 0;
   for( ; !(i >= nr); i = i + 1)
@@ -6394,9 +6394,9 @@ signed int udpc_getSendBuf(signed int sock)
 {
   signed int bufsize;
   unsigned int len = (unsigned int)sizeof(signed int) /*4ul*/ ;
-  signed int return_value_getsockopt$1;
-  return_value_getsockopt$1=getsockopt(sock, 1, 7, (void *)(char *)&bufsize, &len);
-  if(!(return_value_getsockopt$1 >= 0))
+  signed int return_value_getsockopt_1;
+  return_value_getsockopt_1=getsockopt(sock, 1, 7, (void *)(char *)&bufsize, &len);
+  if(!(return_value_getsockopt_1 >= 0))
     return -1;
 
   else
@@ -6408,9 +6408,9 @@ signed int udpc_getSendBuf(signed int sock)
 void udpc_initFifo(struct fifo *fifo, signed int blockSize)
 {
   fifo->dataBufSize = (unsigned int)(blockSize * 4096);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(fifo->dataBufSize + (unsigned int)4096));
-  fifo->dataBuffer = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(fifo->dataBufSize + (unsigned int)4096));
+  fifo->dataBuffer = (unsigned char *)return_value_malloc_1;
   fifo->dataBuffer = fifo->dataBuffer + (signed long int)((unsigned long int)4096 - (unsigned long int)fifo->dataBuffer % (unsigned long int)4096);
   fifo->freeMemQueue=pc_makeProduconsum((signed int)fifo->dataBufSize, "free mem");
   pc_produce(fifo->freeMemQueue, fifo->dataBufSize);
@@ -6435,9 +6435,9 @@ signed int udpc_ipIsZero(struct sockaddr_in *ip)
 // file socklib.c line 1022
 signed int udpc_isAddressEqual(struct sockaddr_in *a, struct sockaddr_in *b)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)(char *)a, (const void *)(char *)b, (unsigned long int)8);
-  return (signed int)!(return_value_memcmp$1 != 0);
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)(char *)a, (const void *)(char *)b, (unsigned long int)8);
+  return (signed int)!(return_value_memcmp_1 != 0);
 }
 
 // udpc_isFullDuplex
@@ -6449,9 +6449,9 @@ signed int udpc_isFullDuplex(signed int s, const char *ifname)
   ecmd.cmd = (unsigned int)0x00000001;
   __builtin_strncpy(ifr.ifr_ifrn.ifrn_name, ifname, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
   ifr.ifr_ifru.ifru_data = (char *)&ecmd;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(s, (unsigned long int)0x8946, &ifr);
-  if(return_value_ioctl$1 == -1)
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(s, (unsigned long int)0x8946, &ifr);
+  if(return_value_ioctl_1 == -1)
     return -1;
 
   else
@@ -6472,9 +6472,9 @@ signed int udpc_localReader(struct fifo *fifo, signed int in)
   while((_Bool)1)
   {
     signed int pos;
-    unsigned int return_value_pc_getConsumerPosition$1;
-    return_value_pc_getConsumerPosition$1=pc_getConsumerPosition(fifo->freeMemQueue);
-    pos = (signed int)return_value_pc_getConsumerPosition$1;
+    unsigned int return_value_pc_getConsumerPosition_1;
+    return_value_pc_getConsumerPosition_1=pc_getConsumerPosition(fifo->freeMemQueue);
+    pos = (signed int)return_value_pc_getConsumerPosition_1;
     signed int bytes;
     bytes=pc_consumeContiguousMinAmount(fifo->freeMemQueue, 4096);
     if(!((bytes + pos) % 4096 >= bytes))
@@ -6483,9 +6483,9 @@ signed int udpc_localReader(struct fifo *fifo, signed int in)
     if(bytes == 0)
       break;
 
-    signed long int return_value_read$2;
-    return_value_read$2=read(in, (void *)(fifo->dataBuffer + (signed long int)pos), (unsigned long int)bytes);
-    bytes = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(in, (void *)(fifo->dataBuffer + (signed long int)pos), (unsigned long int)bytes);
+    bytes = (signed int)return_value_read_2;
     if(!(bytes >= 0))
     {
       perror("read");
@@ -6512,9 +6512,9 @@ signed int udpc_localReader(struct fifo *fifo, signed int in)
 signed int udpc_logprintf(struct _IO_FILE *logfile, const char *fmt, ...)
 {
   void **ap = (void **)&fmt;
-  signed int return_value_vlogprintf$1;
-  return_value_vlogprintf$1=vlogprintf(logfile, fmt, ap);
-  return return_value_vlogprintf$1;
+  signed int return_value_vlogprintf_1;
+  return_value_vlogprintf_1=vlogprintf(logfile, fmt, ap);
+  return return_value_vlogprintf_1;
 }
 
 // udpc_lookupParticipant
@@ -6522,12 +6522,12 @@ signed int udpc_logprintf(struct _IO_FILE *logfile, const char *fmt, ...)
 signed int udpc_lookupParticipant(struct participantsDb *db, struct sockaddr_in *addr)
 {
   signed int i = 0;
-  signed int return_value_udpc_ipIsEqual$1;
+  signed int return_value_udpc_ipIsEqual_1;
   for( ; !(i >= 1024); i = i + 1)
     if(!(db->clientTable[(signed long int)i].used == 0))
     {
-      return_value_udpc_ipIsEqual$1=udpc_ipIsEqual(&db->clientTable[(signed long int)i].addr, addr);
-      if(!(return_value_udpc_ipIsEqual$1 == 0))
+      return_value_udpc_ipIsEqual_1=udpc_ipIsEqual(&db->clientTable[(signed long int)i].addr, addr);
+      if(!(return_value_udpc_ipIsEqual_1 == 0))
         return i;
 
     }
@@ -6539,9 +6539,9 @@ signed int udpc_lookupParticipant(struct participantsDb *db, struct sockaddr_in 
 // file participants.h line 29
 struct participantsDb * udpc_makeParticipantsDb(void)
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct participantsDb) /*28676ul*/ );
-  return (struct participantsDb *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct participantsDb) /*28676ul*/ );
+  return (struct participantsDb *)return_value_calloc_1;
 }
 
 // udpc_makeSockAddr
@@ -6568,12 +6568,12 @@ signed int udpc_makeSockAddr(char *hostname, signed short int port, struct socka
   }
 
   ((struct sockaddr_in *)addr)->sin_family = (unsigned short int)2;
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  ((struct sockaddr_in *)addr)->sin_port = tmp_statement_expression$1;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  ((struct sockaddr_in *)addr)->sin_port = tmp_statement_expression_1;
   return 0;
 }
 
@@ -6611,15 +6611,15 @@ signed int udpc_makeSocket(enum addr_type_t addr_type, struct net_if *net_if, st
     if(!(ret >= 0))
     {
       char buffer[16l];
-      char *return_value_udpc_getIpString$1;
-      return_value_udpc_getIpString$1=udpc_getIpString(&myaddr, buffer);
-      unsigned short int return_value_udpc_getPort$2;
-      return_value_udpc_getPort$2=udpc_getPort(&myaddr);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      udpc_fatal(1, "bind socket to %s:%d (%s)\n", return_value_udpc_getIpString$1, return_value_udpc_getPort$2, return_value_strerror$4);
+      char *return_value_udpc_getIpString_1;
+      return_value_udpc_getIpString_1=udpc_getIpString(&myaddr, buffer);
+      unsigned short int return_value_udpc_getPort_2;
+      return_value_udpc_getPort_2=udpc_getPort(&myaddr);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      udpc_fatal(1, "bind socket to %s:%d (%s)\n", return_value_udpc_getIpString_1, return_value_udpc_getPort_2, return_value_strerror_4);
     }
 
     if((signed int)addr_type == ADDR_TYPE_MCAST)
@@ -6646,11 +6646,11 @@ signed int udpc_openFile(struct disk_config *config)
     in=open(config->fileName, 00 | 0, 0);
     if(!(in >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      udpc_fatal(1, "Could not open file %s: %s\n", config->fileName, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      udpc_fatal(1, "Could not open file %s: %s\n", config->fileName, return_value_strerror_2);
     }
 
     return in;
@@ -6665,9 +6665,9 @@ signed int udpc_openFile(struct disk_config *config)
 signed int udpc_openMainSenderSock(struct net_config *net_config, const char *ifName)
 {
   net_config->net_if=udpc_getNetIf(ifName);
-  signed int return_value_udpc_makeSocket$1;
-  return_value_udpc_makeSocket$1=udpc_makeSocket((enum addr_type_t)ADDR_TYPE_UCAST, net_config->net_if, (struct sockaddr_in *)(void *)0, net_config->portBase + 1);
-  return return_value_udpc_makeSocket$1;
+  signed int return_value_udpc_makeSocket_1;
+  return_value_udpc_makeSocket_1=udpc_makeSocket((enum addr_type_t)ADDR_TYPE_UCAST, net_config->net_if, (struct sockaddr_in *)(void *)0, net_config->portBase + 1);
+  return return_value_udpc_makeSocket_1;
 }
 
 // udpc_parseCommand
@@ -6679,7 +6679,7 @@ signed int udpc_parseCommand(char *pipeName, char **arg)
   signed int haveSpace = 1;
   i = 0;
   ptr = pipeName;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(*ptr == 0); ptr = ptr + 1l)
   {
     if((signed int)*ptr == 32)
@@ -6691,9 +6691,9 @@ signed int udpc_parseCommand(char *pipeName, char **arg)
     else
       if(!(haveSpace == 0))
       {
-        tmp_post$1 = i;
+        tmp_post_1 = i;
         i = i + 1;
-        arg[(signed long int)tmp_post$1] = ptr;
+        arg[(signed long int)tmp_post_1] = ptr;
         haveSpace = 0;
       }
 
@@ -6754,20 +6754,20 @@ struct console_t * udpc_prepareConsole(signed int fd)
     fd=open("/dev/tty", 02);
     if(!(fd >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "Could not open keyboard: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "Could not open keyboard: %s\n", return_value_strerror_2);
       return (struct console_t *)(void *)0;
     }
 
     needClose = 1;
   }
 
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct console_t) /*72ul*/ );
-  c = (struct console_t *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct console_t) /*72ul*/ );
+  c = (struct console_t *)return_value_calloc_3;
   if(c == ((struct console_t *)NULL))
     return c;
 
@@ -6776,18 +6776,18 @@ struct console_t * udpc_prepareConsole(signed int fd)
     c->fd = fd;
     c->needClose = needClose;
     c->needRestore = 0;
-    signed int return_value_tcgetattr$5;
-    return_value_tcgetattr$5=tcgetattr(c->fd, &c->oldtio);
-    if(return_value_tcgetattr$5 >= 0)
+    signed int return_value_tcgetattr_5;
+    return_value_tcgetattr_5=tcgetattr(c->fd, &c->oldtio);
+    if(return_value_tcgetattr_5 >= 0)
     {
       newtio = c->oldtio;
       newtio.c_lflag = newtio.c_lflag & (unsigned int)~0000010;
       newtio.c_lflag = newtio.c_lflag & (unsigned int)~0000002;
       newtio.c_cc[(signed long int)6] = (unsigned char)1;
       newtio.c_cc[(signed long int)5] = (unsigned char)0;
-      signed int return_value_tcsetattr$4;
-      return_value_tcsetattr$4=tcsetattr(c->fd, 2, &newtio);
-      if(!(return_value_tcsetattr$4 >= 0))
+      signed int return_value_tcsetattr_4;
+      return_value_tcsetattr_4=tcsetattr(c->fd, 2, &newtio);
+      if(!(return_value_tcsetattr_4 >= 0))
         perror("Set terminal to raw");
 
       else
@@ -6800,7 +6800,7 @@ struct console_t * udpc_prepareConsole(signed int fd)
 
 // udpc_prepareForSelect
 // file socklib.c line 1074
-signed int udpc_prepareForSelect(signed int *socks, signed int nr, struct anonymous$4 *read_set)
+signed int udpc_prepareForSelect(signed int *socks, signed int nr, struct anonymous_4 *read_set)
 {
   signed int i;
   signed int maxFd;
@@ -6808,7 +6808,7 @@ signed int udpc_prepareForSelect(signed int *socks, signed int nr, struct anonym
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&read_set->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&read_set->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   maxFd = -1;
@@ -6889,9 +6889,9 @@ void udpc_printMyIp(struct net_if *net_if)
   char buffer[16l];
   struct sockaddr_in myaddr;
   udpc_getMyAddress(net_if, &myaddr);
-  char *return_value_udpc_getIpString$1;
-  return_value_udpc_getIpString$1=udpc_getIpString(&myaddr, buffer);
-  udpc_flprintf("%s", return_value_udpc_getIpString$1);
+  char *return_value_udpc_getIpString_1;
+  return_value_udpc_getIpString_1=udpc_getIpString(&myaddr, buffer);
+  udpc_flprintf("%s", return_value_udpc_getIpString_1);
 }
 
 // udpc_printNotSet
@@ -6976,12 +6976,12 @@ signed int udpc_removeParticipant(struct participantsDb *db, signed int i)
   if(!(db->clientTable[(signed long int)i].used == 0))
   {
     char ipBuffer[16l];
-    char *return_value_udpc_getIpString$1;
-    return_value_udpc_getIpString$1=udpc_getIpString(&db->clientTable[(signed long int)i].addr, ipBuffer);
-    udpc_flprintf("Disconnecting #%d (%s)\n", i, return_value_udpc_getIpString$1);
-    char *return_value_udpc_getIpString$2;
-    return_value_udpc_getIpString$2=udpc_getIpString(&db->clientTable[(signed long int)i].addr, ipBuffer);
-    syslog(6, "Disconnecting #%d (%s)\n", i, return_value_udpc_getIpString$2);
+    char *return_value_udpc_getIpString_1;
+    return_value_udpc_getIpString_1=udpc_getIpString(&db->clientTable[(signed long int)i].addr, ipBuffer);
+    udpc_flprintf("Disconnecting #%d (%s)\n", i, return_value_udpc_getIpString_1);
+    char *return_value_udpc_getIpString_2;
+    return_value_udpc_getIpString_2=udpc_getIpString(&db->clientTable[(signed long int)i].addr, ipBuffer);
+    syslog(6, "Disconnecting #%d (%s)\n", i, return_value_udpc_getIpString_2);
     db->clientTable[(signed long int)i].used = 0;
     db->udpc_nrParticipants = db->udpc_nrParticipants - 1;
   }
@@ -6996,20 +6996,20 @@ void udpc_restoreConsole(struct console_t **cp, signed int doConsume)
   struct console_t *c = *cp;
   signed int ch = 0;
   signed int r;
-  signed int return_value_tcsetattr$2;
+  signed int return_value_tcsetattr_2;
   if(!(c == ((struct console_t *)NULL)))
   {
     if(!(doConsume == 0))
     {
-      signed long int return_value_read$1;
-      return_value_read$1=read(c->fd, (void *)&ch, (unsigned long int)1);
-      r = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(c->fd, (void *)&ch, (unsigned long int)1);
+      r = (signed int)return_value_read_1;
     }
 
     if(!(c->needRestore == 0))
     {
-      return_value_tcsetattr$2=tcsetattr(c->fd, 2, &c->oldtio);
-      if(!(return_value_tcsetattr$2 >= 0))
+      return_value_tcsetattr_2=tcsetattr(c->fd, 2, &c->oldtio);
+      if(!(return_value_tcsetattr_2 >= 0))
         perror("Restore terminal settings");
 
     }
@@ -7030,7 +7030,7 @@ void udpc_restoreConsole(struct console_t **cp, signed int doConsume)
 // file socklib.c line 1055
 signed int udpc_selectSock(signed int *socks, signed int nr, signed int startTimeout)
 {
-  struct anonymous$4 read_set;
+  struct anonymous_4 read_set;
   signed int r;
   signed int maxFd;
   struct timeval tv;
@@ -7045,15 +7045,15 @@ signed int udpc_selectSock(signed int *socks, signed int nr, signed int startTim
   else
     tvp = (struct timeval *)(void *)0;
   maxFd=udpc_prepareForSelect(socks, nr, &read_set);
-  r=select(maxFd + 1, &read_set, (struct anonymous$4 *)(void *)0, (struct anonymous$4 *)(void *)0, tvp);
+  r=select(maxFd + 1, &read_set, (struct anonymous_4 *)(void *)0, (struct anonymous_4 *)(void *)0, tvp);
   if(!(r >= 0))
     return r;
 
   else
   {
-    signed int return_value_udpc_getSelectedSock$1;
-    return_value_udpc_getSelectedSock$1=udpc_getSelectedSock(socks, nr, &read_set);
-    return return_value_udpc_getSelectedSock$1;
+    signed int return_value_udpc_getSelectedSock_1;
+    return_value_udpc_getSelectedSock_1=udpc_getSelectedSock(socks, nr, &read_set);
+    return return_value_udpc_getSelectedSock_1;
   }
 }
 
@@ -7062,36 +7062,36 @@ signed int udpc_selectSock(signed int *socks, signed int nr, signed int startTim
 void udpc_sendHello(struct net_config *net_config, signed int sock, signed int streaming)
 {
   struct hello hello;
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
   if(!(streaming == 0))
   {
     unsigned short int __v;
-    unsigned short int udpc_sendHello$$1$$1$$__x = (unsigned short int)11;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(udpc_sendHello$$1$$1$$__x) : "cc");
-    tmp_statement_expression$1 = __v;
-    hello.opCode = tmp_statement_expression$1;
+    unsigned short int udpc_sendHello__1__1____x = (unsigned short int)11;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(udpc_sendHello__1__1____x) : "cc");
+    tmp_statement_expression_1 = __v;
+    hello.opCode = tmp_statement_expression_1;
   }
 
   else
   {
-    unsigned short int udpc_sendHello$$1$$2$$__v;
-    unsigned short int udpc_sendHello$$1$$2$$__x = (unsigned short int)0x0500;
-    asm("rorw $8, %w0" : "=r"(udpc_sendHello$$1$$2$$__v) : "0"(udpc_sendHello$$1$$2$$__x) : "cc");
-    tmp_statement_expression$2 = udpc_sendHello$$1$$2$$__v;
-    hello.opCode = tmp_statement_expression$2;
+    unsigned short int udpc_sendHello__1__2____v;
+    unsigned short int udpc_sendHello__1__2____x = (unsigned short int)0x0500;
+    asm("rorw _8, %w0" : "=r"(udpc_sendHello__1__2____v) : "0"(udpc_sendHello__1__2____x) : "cc");
+    tmp_statement_expression_2 = udpc_sendHello__1__2____v;
+    hello.opCode = tmp_statement_expression_2;
   }
   hello.reserved = (signed short int)0;
-  unsigned int return_value___bswap_32$3;
-  return_value___bswap_32$3=__bswap_32$link2((unsigned int)net_config->capabilities);
-  hello.capabilities = (signed int)return_value___bswap_32$3;
+  unsigned int return_value___bswap_32_3;
+  return_value___bswap_32_3=__bswap_32_link2((unsigned int)net_config->capabilities);
+  hello.capabilities = (signed int)return_value___bswap_32_3;
   udpc_copyToMessage(hello.mcastAddr, &net_config->dataMcastAddr);
-  unsigned short int tmp_statement_expression$4;
-  unsigned short int udpc_sendHello$$1$$3$$__v;
+  unsigned short int tmp_statement_expression_4;
+  unsigned short int udpc_sendHello__1__3____v;
   unsigned short int __x = (unsigned short int)net_config->blockSize;
-  asm("rorw $8, %w0" : "=r"(udpc_sendHello$$1$$3$$__v) : "0"(__x) : "cc");
-  tmp_statement_expression$4 = udpc_sendHello$$1$$3$$__v;
-  hello.blockSize = (signed short int)tmp_statement_expression$4;
+  asm("rorw _8, %w0" : "=r"(udpc_sendHello__1__3____v) : "0"(__x) : "cc");
+  tmp_statement_expression_4 = udpc_sendHello__1__3____v;
+  hello.blockSize = (signed short int)tmp_statement_expression_4;
   rgWaitAll(net_config, sock, net_config->controlMcastAddr.sin_addr.s_addr, (signed int)sizeof(struct hello) /*28ul*/ );
   udpc_doSend(sock, (void *)&hello, sizeof(struct hello) /*28ul*/ , &net_config->controlMcastAddr);
 }
@@ -7163,30 +7163,30 @@ void udpc_setIpFromString(struct sockaddr_in *addr, char *ip)
 // file socklib.c line 424
 signed int udpc_setMcastDestination(signed int sock, struct net_if *net_if, struct sockaddr_in *addr)
 {
-  signed int return_value_mcastOp$1;
-  return_value_mcastOp$1=mcastOp(sock, net_if, ((struct sockaddr_in *)addr)->sin_addr, 32, "Set multicast send interface");
-  return return_value_mcastOp$1;
+  signed int return_value_mcastOp_1;
+  return_value_mcastOp_1=mcastOp(sock, net_if, ((struct sockaddr_in *)addr)->sin_addr, 32, "Set multicast send interface");
+  return return_value_mcastOp_1;
 }
 
 // udpc_setPort
 // file socklib.c line 985
 void udpc_setPort(struct sockaddr_in *addr, unsigned short int port)
 {
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  ((struct sockaddr_in *)addr)->sin_port = tmp_statement_expression$1;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  ((struct sockaddr_in *)addr)->sin_port = tmp_statement_expression_1;
 }
 
 // udpc_setRcvBuf
 // file socklib.c line 342
 void udpc_setRcvBuf(signed int sock, unsigned int bufsize)
 {
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 1, 8, (const void *)(char *)&bufsize, (unsigned int)sizeof(unsigned int) /*4ul*/ );
-  if(!(return_value_setsockopt$1 >= 0))
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 1, 8, (const void *)(char *)&bufsize, (unsigned int)sizeof(unsigned int) /*4ul*/ );
+  if(!(return_value_setsockopt_1 >= 0))
     perror("Set receiver buffer");
 
 }
@@ -7195,9 +7195,9 @@ void udpc_setRcvBuf(signed int sock, unsigned int bufsize)
 // file socklib.c line 329
 void udpc_setSendBuf(signed int sock, unsigned int bufsize)
 {
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 1, 7, (const void *)(char *)&bufsize, (unsigned int)sizeof(unsigned int) /*4ul*/ );
-  if(!(return_value_setsockopt$1 >= 0))
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 1, 7, (const void *)(char *)&bufsize, (unsigned int)sizeof(unsigned int) /*4ul*/ );
+  if(!(return_value_setsockopt_1 >= 0))
     perror("Set send buffer");
 
 }
@@ -7207,18 +7207,18 @@ void udpc_setSendBuf(signed int sock, unsigned int bufsize)
 signed int udpc_setSocketToBroadcast(signed int sock)
 {
   signed int p = 1;
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 1, 6, (const void *)(char *)&p, (unsigned int)sizeof(signed int) /*4ul*/ );
-  return return_value_setsockopt$1;
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 1, 6, (const void *)(char *)&p, (unsigned int)sizeof(signed int) /*4ul*/ );
+  return return_value_setsockopt_1;
 }
 
 // udpc_setTtl
 // file socklib.c line 354
 signed int udpc_setTtl(signed int sock, signed int ttl)
 {
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 0, 33, (const void *)(char *)&ttl, (unsigned int)sizeof(signed int) /*4ul*/ );
-  return return_value_setsockopt$1;
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 0, 33, (const void *)(char *)&ttl, (unsigned int)sizeof(signed int) /*4ul*/ );
+  return return_value_setsockopt_1;
 }
 
 // udpc_shouldPrintUncompressedPos
@@ -7250,18 +7250,18 @@ signed int udpc_spawnNetSender(struct fifo *fifo, signed int sock, struct net_co
 {
   signed int i;
   struct senderState *sendst;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct senderState) /*38144ul*/ );
-  sendst = (struct senderState *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct senderState) /*38144ul*/ );
+  sendst = (struct senderState *)return_value_calloc_1;
   sendst->fifo = fifo;
   sendst->socket = sock;
   sendst->config = config;
   sendst->stats = stats;
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   if(!((0x0010 & sendst->config->flags) == 0))
   {
-    return_value_malloc$2=malloc((unsigned long int)(2 * config->fec_stripes * config->fec_redundancy * config->blockSize));
-    sendst->fec_data = (unsigned char *)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)(2 * config->fec_stripes * config->fec_redundancy * config->blockSize));
+    sendst->fec_data = (unsigned char *)return_value_malloc_2;
   }
 
   sendst->rc.participantsDb = db;
@@ -7270,7 +7270,7 @@ signed int udpc_spawnNetSender(struct fifo *fifo, signed int sock, struct net_co
   pc_produce(sendst->free_slices_pc, (unsigned int)2);
   i = 0;
   for( ; !(i >= 2); i = i + 1)
-    sendst->slices[(signed long int)i].state = (volatile enum anonymous$10)SLICE_FREE;
+    sendst->slices[(signed long int)i].state = (volatile enum anonymous_10)SLICE_FREE;
   if(!((0x0010 & sendst->config->flags) == 0))
   {
     fec_init();
@@ -7297,17 +7297,17 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
   signed int sock[3l];
   signed int nr = 0;
   signed int fd;
-  struct anonymous$3 sig;
-  struct anonymous$3 oldsig;
+  struct anonymous_3 sig;
+  struct anonymous_3 oldsig;
   signed int shouldRestoreSig;
-  signed int tmp_post$1 = nr;
+  signed int tmp_post_1 = nr;
   nr = nr + 1;
-  sock[(signed long int)tmp_post$1] = mainSock;
+  sock[(signed long int)tmp_post_1] = mainSock;
   if((3 & net_config->flags) == 0)
   {
-    signed int return_value_udpc_isFullDuplex$2;
-    return_value_udpc_isFullDuplex$2=udpc_isFullDuplex(sock[(signed long int)0], net_config->net_if->name);
-    if(return_value_udpc_isFullDuplex$2 == 1)
+    signed int return_value_udpc_isFullDuplex_2;
+    return_value_udpc_isFullDuplex_2=udpc_isFullDuplex(sock[(signed long int)0], net_config->net_if->name);
+    if(return_value_udpc_isFullDuplex_2 == 1)
     {
       fprintf(stderr, "Using full duplex mode\n");
       net_config->flags = net_config->flags | 0x0001;
@@ -7316,12 +7316,12 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
   }
 
   fd=udpc_makeSocket((enum addr_type_t)ADDR_TYPE_BCAST, net_config->net_if, (struct sockaddr_in *)(void *)0, net_config->portBase + 1);
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(fd >= 0)
   {
-    tmp_post$3 = nr;
+    tmp_post_3 = nr;
     nr = nr + 1;
-    sock[(signed long int)tmp_post$3] = fd;
+    sock[(signed long int)tmp_post_3] = fd;
   }
 
   if(!(net_config->requestedBufSize == 0))
@@ -7338,33 +7338,33 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
 
   }
 
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(net_config->controlMcastAddr.sin_addr.s_addr == 0u)
   {
     udpc_getMcastAllAddress(&net_config->controlMcastAddr, net_config->mcastRdv, (signed short int)net_config->portBase);
-    signed int return_value_isMcastAddress$5;
-    return_value_isMcastAddress$5=isMcastAddress(&net_config->controlMcastAddr);
-    if(!(return_value_isMcastAddress$5 == 0))
+    signed int return_value_isMcastAddress_5;
+    return_value_isMcastAddress_5=isMcastAddress(&net_config->controlMcastAddr);
+    if(!(return_value_isMcastAddress_5 == 0))
     {
       udpc_setMcastDestination(sock[(signed long int)0], net_config->net_if, &net_config->controlMcastAddr);
       udpc_setTtl(sock[(signed long int)0], net_config->ttl);
-      tmp_post$4 = nr;
+      tmp_post_4 = nr;
       nr = nr + 1;
-      sock[(signed long int)tmp_post$4]=udpc_makeSocket((enum addr_type_t)ADDR_TYPE_MCAST, net_config->net_if, &net_config->controlMcastAddr, net_config->portBase + 1);
+      sock[(signed long int)tmp_post_4]=udpc_makeSocket((enum addr_type_t)ADDR_TYPE_MCAST, net_config->net_if, &net_config->controlMcastAddr, net_config->portBase + 1);
     }
 
   }
 
-  signed int return_value_udpc_ipIsZero$7;
+  signed int return_value_udpc_ipIsZero_7;
   if((0x0008 & net_config->flags) == 0)
   {
-    return_value_udpc_ipIsZero$7=udpc_ipIsZero(&net_config->dataMcastAddr);
-    if(!(return_value_udpc_ipIsZero$7 == 0))
+    return_value_udpc_ipIsZero_7=udpc_ipIsZero(&net_config->dataMcastAddr);
+    if(!(return_value_udpc_ipIsZero_7 == 0))
     {
       udpc_getDefaultMcastAddress(net_config->net_if, &net_config->dataMcastAddr);
-      char *return_value_udpc_getIpString$6;
-      return_value_udpc_getIpString$6=udpc_getIpString(&net_config->dataMcastAddr, ipBuffer);
-      udpc_flprintf("Using mcast address %s\n", return_value_udpc_getIpString$6);
+      char *return_value_udpc_getIpString_6;
+      return_value_udpc_getIpString_6=udpc_getIpString(&net_config->dataMcastAddr, ipBuffer);
+      udpc_flprintf("Using mcast address %s\n", return_value_udpc_getIpString_6);
     }
 
   }
@@ -7373,18 +7373,18 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
     udpc_clearIp(&net_config->dataMcastAddr);
 
   udpc_setPort(&net_config->dataMcastAddr, (unsigned short int)net_config->portBase);
-  char *tmp_if_expr$8;
+  char *tmp_if_expr_8;
   if(disk_config->fileName == ((const char *)NULL))
-    tmp_if_expr$8 = "(stdin)";
+    tmp_if_expr_8 = "(stdin)";
 
   else
-    tmp_if_expr$8 = disk_config->fileName;
-  udpc_flprintf("%sUDP sender for %s at ", disk_config->pipeName == (char *)(void *)0 ? "" : "Compressed ", tmp_if_expr$8);
+    tmp_if_expr_8 = disk_config->fileName;
+  udpc_flprintf("%sUDP sender for %s at ", disk_config->pipeName == (char *)(void *)0 ? "" : "Compressed ", tmp_if_expr_8);
   udpc_printMyIp(net_config->net_if);
   udpc_flprintf(" on %s \n", net_config->net_if->name);
-  char *return_value_udpc_getIpString$9;
-  return_value_udpc_getIpString$9=udpc_getIpString(&net_config->controlMcastAddr, ipBuffer);
-  udpc_flprintf("Broadcasting control to %s\n", return_value_udpc_getIpString$9);
+  char *return_value_udpc_getIpString_9;
+  return_value_udpc_getIpString_9=udpc_getIpString(&net_config->controlMcastAddr, ipBuffer);
+  udpc_flprintf("Broadcasting control to %s\n", return_value_udpc_getIpString_9);
   net_config->capabilities = 0x0001 | 0x0008;
   if(!((0x0004 & net_config->flags) == 0))
     net_config->capabilities = net_config->capabilities | 0x0020;
@@ -7395,19 +7395,19 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
   if((0x0080 & net_config->flags) == 0)
     console=udpc_prepareConsole(disk_config->fileName != (const char *)(void *)0 ? 0 : -1);
 
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if(!(net_config->min_receivers == 0))
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = net_config->min_receivers_wait != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$11 = (_Bool)1;
+    tmp_if_expr_10 = net_config->min_receivers_wait != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
-    tmp_if_expr$11 = net_config->max_receivers_wait != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = net_config->max_receivers_wait != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_11)
     firstConnectedP = &firstConnected;
 
   else
@@ -7427,28 +7427,28 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
 
   sigemptyset(&sig);
   sigaddset(&sig, 15);
-  signed int return_value_sigprocmask$12;
-  return_value_sigprocmask$12=sigprocmask(0, &sig, &oldsig);
-  if(return_value_sigprocmask$12 == 0)
+  signed int return_value_sigprocmask_12;
+  return_value_sigprocmask_12=sigprocmask(0, &sig, &oldsig);
+  if(return_value_sigprocmask_12 == 0)
     shouldRestoreSig = 1;
 
   udpc_restoreConsole(&console, 0);
-  _Bool tmp_if_expr$14;
-  signed int return_value_udpc_nrParticipants$13;
+  _Bool tmp_if_expr_14;
+  signed int return_value_udpc_nrParticipants_13;
   if(r == 1)
   {
     signed int i = 1;
     for( ; !(i >= nr); i = i + 1)
       udpc_closeSock(sock, nr, i);
     if(!((0x0004 & net_config->flags) == 0))
-      tmp_if_expr$14 = (_Bool)1;
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_udpc_nrParticipants$13=udpc_nrParticipants(db);
-      tmp_if_expr$14 = return_value_udpc_nrParticipants$13 > 0 ? (_Bool)1 : (_Bool)0;
+      return_value_udpc_nrParticipants_13=udpc_nrParticipants(db);
+      tmp_if_expr_14 = return_value_udpc_nrParticipants_13 > 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
+    if(tmp_if_expr_14)
       doTransfer(sock[(signed long int)0], db, disk_config, net_config, stat_config);
 
     else
@@ -7457,7 +7457,7 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
 
   free((void *)db);
   if(!(shouldRestoreSig == 0))
-    sigprocmask(2, &oldsig, (struct anonymous$3 *)(void *)0);
+    sigprocmask(2, &oldsig, (struct anonymous_3 *)(void *)0);
 
   return 0;
 }
@@ -7467,16 +7467,16 @@ signed int udpc_startSender(struct disk_config *disk_config, struct net_config *
 signed int udpc_waitForProcess(signed int pid, const char *message)
 {
   signed int status;
-  signed int return_value_waitpid$1;
-  return_value_waitpid$1=waitpid(pid, &status, 0);
-  if(!(return_value_waitpid$1 >= 0))
+  signed int return_value_waitpid_1;
+  return_value_waitpid_1=waitpid(pid, &status, 0);
+  if(!(return_value_waitpid_1 >= 0))
     return 0;
 
   else
   {
-    signed int return_value_printProcessStatus$2;
-    return_value_printProcessStatus$2=printProcessStatus(message, status);
-    return return_value_printProcessStatus$2;
+    signed int return_value_printProcessStatus_2;
+    return_value_printProcessStatus_2=printProcessStatus(message, status);
+    return return_value_printProcessStatus_2;
   }
 }
 
@@ -7499,9 +7499,9 @@ signed int udpcs_openPipe(struct disk_config *config, signed int in, signed int 
     char *arg[256l];
     signed int filedes[2l];
     udpc_parseCommand(config->pipeName, arg);
-    signed int return_value_pipe$1;
-    return_value_pipe$1=pipe(filedes);
-    if(!(return_value_pipe$1 >= 0))
+    signed int return_value_pipe_1;
+    return_value_pipe_1=pipe(filedes);
+    if(!(return_value_pipe_1 >= 0))
     {
       perror("pipe");
       exit(1);
@@ -7535,15 +7535,15 @@ static signed int vlogprintf(struct _IO_FILE *logfile, const char *fmt, void **a
     if(!(newlineSeen == 0))
     {
       gettimeofday(&tv, (struct timezone *)(void *)0);
-      struct tm *return_value_localtime$1;
-      return_value_localtime$1=localtime(&tv.tv_sec);
-      strftime(buf, sizeof(char [9l]) /*9ul*/ , "%H:%M:%S", return_value_localtime$1);
+      struct tm *return_value_localtime_1;
+      return_value_localtime_1=localtime(&tv.tv_sec);
+      strftime(buf, sizeof(char [9l]) /*9ul*/ , "%H:%M:%S", return_value_localtime_1);
       fprintf(logfile, "%s.%06ld ", (const void *)buf, tv.tv_usec);
     }
 
-    char *return_value___builtin_strchr$2;
-    return_value___builtin_strchr$2=__builtin_strchr(fmt, 10);
-    newlineSeen = (signed int)(return_value___builtin_strchr$2 != (char *)(void *)0);
+    char *return_value___builtin_strchr_2;
+    return_value___builtin_strchr_2=__builtin_strchr(fmt, 10);
+    newlineSeen = (signed int)(return_value___builtin_strchr_2 != (char *)(void *)0);
     r=vfprintf(logfile, fmt, ap);
     if(!(newlineSeen == 0))
       fflush(logfile);

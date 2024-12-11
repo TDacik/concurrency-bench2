@@ -1,58 +1,58 @@
-// tag-#anon#ST[*{U8}$U8$'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}$S32$'lacing_vals'||*{S64}$S64$'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}$U8$'header'||U16'$pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
+// tag-#anon#ST[*{U8}_U8_'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}_S32_'lacing_vals'||*{S64}_S64_'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}_U8_'header'||U16'_pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
 // file /usr/include/ogg/ogg.h line 53
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{U8}$U8$'header'||S64'header_len'||*{U8}$U8$'body'||S64'body_len'|]
+// tag-#anon#ST[*{U8}_U8_'header'||S64'header_len'||*{U8}_U8_'body'||S64'body_len'|]
 // file /usr/include/ogg/ogg.h line 43
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{U8}$U8$'packet'||S64'bytes'||S64'b_o_s'||S64'e_o_s'||S64'granulepos'||S64'packetno'|]
+// tag-#anon#ST[*{U8}_U8_'packet'||S64'bytes'||S64'b_o_s'||S64'e_o_s'||S64'granulepos'||S64'packetno'|]
 // file /usr/include/ogg/ogg.h line 90
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S64'endbyte'||S32'endbit'||U32'$pad0'||*{U8}$U8$'buffer'||*{U8}$U8$'ptr'||S64'storage'|]
+// tag-#anon#ST[S64'endbyte'||S32'endbit'||U32'_pad0'||*{U8}_U8_'buffer'||*{U8}_U8_'ptr'||S64'storage'|]
 // file /usr/include/ogg/ogg.h line 32
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
 union anonymous;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$10;
+union anonymous_10;
 
 // tag-ASIdentifiers_st
 // file /usr/include/openssl/x509.h line 293
@@ -1305,12 +1305,12 @@ void guacd_log_info(const char *format, ...);
 // listen
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 233
 extern signed int listen(signed int, signed int);
-// main::$tmp::return_value_signal$19$object
+// main::_tmp::return_value_signal_19_object
 //
-void return_value_signal$19$object(signed int);
-// main::$tmp::return_value_signal$20$object
+void return_value_signal_19_object(signed int);
+// main::_tmp::return_value_signal_20_object
 //
-void return_value_signal$20$object(signed int);
+void return_value_signal_20_object(signed int);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -1343,22 +1343,22 @@ void ogg_encoder_write_blocks(struct guac_audio_stream *audio);
 void ogg_encoder_write_handler(struct guac_audio_stream *audio, const unsigned char *pcm_data, signed int length);
 // ogg_page_eos
 // file /usr/include/ogg/ogg.h line 197
-extern signed int ogg_page_eos(const struct anonymous$2 *);
+extern signed int ogg_page_eos(const struct anonymous_2 *);
 // ogg_stream_clear
 // file /usr/include/ogg/ogg.h line 185
-extern signed int ogg_stream_clear(struct anonymous$4 *);
+extern signed int ogg_stream_clear(struct anonymous_4 *);
 // ogg_stream_flush
 // file /usr/include/ogg/ogg.h line 163
-extern signed int ogg_stream_flush(struct anonymous$4 *, struct anonymous$2 *);
+extern signed int ogg_stream_flush(struct anonymous_4 *, struct anonymous_2 *);
 // ogg_stream_init
 // file /usr/include/ogg/ogg.h line 184
-extern signed int ogg_stream_init(struct anonymous$4 *, signed int);
+extern signed int ogg_stream_init(struct anonymous_4 *, signed int);
 // ogg_stream_packetin
 // file /usr/include/ogg/ogg.h line 158
-extern signed int ogg_stream_packetin(struct anonymous$4 *, struct anonymous$5 *);
+extern signed int ogg_stream_packetin(struct anonymous_4 *, struct anonymous_5 *);
 // ogg_stream_pageout
 // file /usr/include/ogg/ogg.h line 161
-extern signed int ogg_stream_pageout(struct anonymous$4 *, struct anonymous$2 *);
+extern signed int ogg_stream_pageout(struct anonymous_4 *, struct anonymous_2 *);
 // open
 // file /usr/include/fcntl.h line 146
 extern signed int open(const char *, signed int, ...);
@@ -1406,22 +1406,22 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$10 *);
+extern signed int pthread_mutex_destroy(union anonymous_10 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$10 *, const union anonymous$11 *);
+extern signed int pthread_mutex_init(union anonymous_10 *, const union anonymous_11 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$10 *);
+extern signed int pthread_mutex_lock(union anonymous_10 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$10 *);
+extern signed int pthread_mutex_unlock(union anonymous_10 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$11 *);
+extern signed int pthread_mutexattr_init(union anonymous_11 *);
 // pthread_mutexattr_setpshared
 // file /usr/include/pthread.h line 822
-extern signed int pthread_mutexattr_setpshared(union anonymous$11 *, signed int);
+extern signed int pthread_mutexattr_setpshared(union anonymous_11 *, signed int);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -1442,7 +1442,7 @@ extern void * realloc(void *, unsigned long int);
 signed int redirect_fd(signed int fd, signed int flags);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$0 *, struct anonymous$0 *, struct anonymous$0 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_0 *, struct anonymous_0 *, struct anonymous_0 *, struct timeval *);
 // setsid
 // file /usr/include/unistd.h line 667
 extern signed int setsid(void);
@@ -1493,7 +1493,7 @@ void vguacd_log_error(const char *format, void **args);
 void vguacd_log_info(const char *format, void **args);
 // vorbis_analysis
 // file /usr/include/vorbis/codec.h line 196
-extern signed int vorbis_analysis(struct vorbis_block *, struct anonymous$5 *);
+extern signed int vorbis_analysis(struct vorbis_block *, struct anonymous_5 *);
 // vorbis_analysis_blockout
 // file /usr/include/vorbis/codec.h line 195
 extern signed int vorbis_analysis_blockout(struct vorbis_dsp_state *, struct vorbis_block *);
@@ -1502,7 +1502,7 @@ extern signed int vorbis_analysis_blockout(struct vorbis_dsp_state *, struct vor
 extern float ** vorbis_analysis_buffer(struct vorbis_dsp_state *, signed int);
 // vorbis_analysis_headerout
 // file /usr/include/vorbis/codec.h line 188
-extern signed int vorbis_analysis_headerout(struct vorbis_dsp_state *, struct vorbis_comment *, struct anonymous$5 *, struct anonymous$5 *, struct anonymous$5 *);
+extern signed int vorbis_analysis_headerout(struct vorbis_dsp_state *, struct vorbis_comment *, struct anonymous_5 *, struct anonymous_5 *, struct anonymous_5 *);
 // vorbis_analysis_init
 // file /usr/include/vorbis/codec.h line 186
 extern signed int vorbis_analysis_init(struct vorbis_dsp_state *, struct vorbis_info *);
@@ -1514,7 +1514,7 @@ extern signed int vorbis_analysis_wrote(struct vorbis_dsp_state *, signed int);
 extern signed int vorbis_bitrate_addblock(struct vorbis_block *);
 // vorbis_bitrate_flushpacket
 // file /usr/include/vorbis/codec.h line 199
-extern signed int vorbis_bitrate_flushpacket(struct vorbis_dsp_state *, struct anonymous$5 *);
+extern signed int vorbis_bitrate_flushpacket(struct vorbis_dsp_state *, struct anonymous_5 *);
 // vorbis_block_clear
 // file /usr/include/vorbis/codec.h line 177
 extern signed int vorbis_block_clear(struct vorbis_block *);
@@ -1558,7 +1558,7 @@ void wav_encoder_write_handler(struct guac_audio_stream *audio, const unsigned c
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$4
+struct anonymous_4
 {
   // body_data
   unsigned char *body_data;
@@ -1598,7 +1598,7 @@ struct anonymous$4
   signed long int granulepos;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // header
   unsigned char *header;
@@ -1610,7 +1610,7 @@ struct anonymous$2
   signed long int body_len;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // packet
   unsigned char *packet;
@@ -1626,7 +1626,7 @@ struct anonymous$5
   signed long int packetno;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -1680,19 +1680,19 @@ struct anonymous$3
   signed int cert_request;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // sess_connect
   signed int sess_connect;
@@ -1718,7 +1718,7 @@ struct anonymous$9
   signed int sess_cb_hit;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // endbyte
   signed long int endbyte;
@@ -1732,7 +1732,7 @@ struct anonymous$6
   signed long int storage;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -1772,7 +1772,7 @@ union anonymous
   struct ec_key_st *ec;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // ptr
   char *ptr;
@@ -1818,7 +1818,7 @@ union anonymous$13
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -1826,7 +1826,7 @@ union anonymous$12
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __size
   char __size[4l];
@@ -1862,7 +1862,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2121,7 +2121,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$7 __saved_mask;
+  struct anonymous_7 __saved_mask;
 };
 
 struct addrinfo
@@ -2185,7 +2185,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$13 value;
+  union anonymous_13 value;
 };
 
 struct bignum_st
@@ -2275,7 +2275,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$12 cb;
+  union anonymous_12 cb;
 };
 
 struct bn_mont_ctx_st
@@ -2935,9 +2935,9 @@ struct guac_socket
   // __threadsafe_instructions
   signed int __threadsafe_instructions;
   // __instruction_write_lock
-  union anonymous$10 __instruction_write_lock;
+  union anonymous_10 __instruction_write_lock;
   // __buffer_lock
-  union anonymous$10 __buffer_lock;
+  union anonymous_10 __buffer_lock;
 };
 
 struct guac_socket_ssl_data
@@ -3073,7 +3073,7 @@ struct vorbis_block
   // pcm
   float **pcm;
   // opb
-  struct anonymous$6 opb;
+  struct anonymous_6 opb;
   // lW
   signed long int lW;
   // W
@@ -3117,11 +3117,11 @@ struct vorbis_block
 struct ogg_encoder_state
 {
   // ogg_state
-  struct anonymous$4 ogg_state;
+  struct anonymous_4 ogg_state;
   // ogg_page
-  struct anonymous$2 ogg_page;
+  struct anonymous_2 ogg_page;
   // ogg_packet
-  struct anonymous$5 ogg_packet;
+  struct anonymous_5 ogg_packet;
   // info
   struct vorbis_info info;
   // comment
@@ -3907,7 +3907,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$1 tmp;
+  struct anonymous_1 tmp;
 };
 
 struct ssl3_buffer_st
@@ -4027,7 +4027,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$3 tmp;
+  struct anonymous_3 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -4115,7 +4115,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$9 stats;
+  struct anonymous_9 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -5055,14 +5055,14 @@ enum guac_status * __guac_error()
 {
   enum guac_status *status;
   pthread_once(&__guac_error_key_init, (void (*)(void))__guac_alloc_error_key);
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(__guac_error_key);
-  status = (enum guac_status *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(__guac_error_key);
+  status = (enum guac_status *)return_value_pthread_getspecific_1;
   if(status == ((enum guac_status *)NULL))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(enum guac_status) /*4ul*/ );
-    status = (enum guac_status *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(enum guac_status) /*4ul*/ );
+    status = (enum guac_status *)return_value_malloc_2;
     pthread_setspecific(__guac_error_key, (const void *)status);
   }
 
@@ -5075,14 +5075,14 @@ const char ** __guac_error_message()
 {
   const char **message;
   pthread_once(&__guac_error_message_key_init, (void (*)(void))__guac_alloc_error_message_key);
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(__guac_error_message_key);
-  message = (const char **)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(__guac_error_message_key);
+  message = (const char **)return_value_pthread_getspecific_1;
   if(message == ((const char **)NULL))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(const char *) /*8ul*/ );
-    message = (const char **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(const char *) /*8ul*/ );
+    message = (const char **)return_value_malloc_2;
     pthread_setspecific(__guac_error_message_key, (const void *)message);
   }
 
@@ -5094,17 +5094,17 @@ const char ** __guac_error_message()
 signed int __guac_fill_instructionbuf(struct guac_socket *socket)
 {
   signed int retval;
-  signed long int return_value_guac_socket_read$1;
-  return_value_guac_socket_read$1=guac_socket_read(socket, (void *)(socket->__instructionbuf + (signed long int)socket->__instructionbuf_used_length), (unsigned long int)(socket->__instructionbuf_size - socket->__instructionbuf_used_length));
-  retval = (signed int)return_value_guac_socket_read$1;
+  signed long int return_value_guac_socket_read_1;
+  return_value_guac_socket_read_1=guac_socket_read(socket, (void *)(socket->__instructionbuf + (signed long int)socket->__instructionbuf_used_length), (unsigned long int)(socket->__instructionbuf_size - socket->__instructionbuf_used_length));
+  retval = (signed int)return_value_guac_socket_read_1;
   if(!(retval >= 0))
   {
-    enum guac_status *return_value___guac_error$2;
-    return_value___guac_error$2=__guac_error();
-    *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
-    const char **return_value___guac_error_message$3;
-    return_value___guac_error_message$3=__guac_error_message();
-    *return_value___guac_error_message$3 = "Error filling instruction buffer";
+    enum guac_status *return_value___guac_error_2;
+    return_value___guac_error_2=__guac_error();
+    *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
+    const char **return_value___guac_error_message_3;
+    return_value___guac_error_message_3=__guac_error_message();
+    *return_value___guac_error_message_3 = "Error filling instruction buffer";
     return retval;
   }
 
@@ -5112,9 +5112,9 @@ signed int __guac_fill_instructionbuf(struct guac_socket *socket)
   if(!(socket->__instructionbuf_size / 2 >= socket->__instructionbuf_used_length))
   {
     socket->__instructionbuf_size = socket->__instructionbuf_size * 2;
-    void *return_value_realloc$4;
-    return_value_realloc$4=realloc((void *)socket->__instructionbuf, (unsigned long int)socket->__instructionbuf_size);
-    socket->__instructionbuf = (char *)return_value_realloc$4;
+    void *return_value_realloc_4;
+    return_value_realloc_4=realloc((void *)socket->__instructionbuf, (unsigned long int)socket->__instructionbuf_size);
+    socket->__instructionbuf = (char *)return_value_realloc_4;
   }
 
   return retval;
@@ -5153,14 +5153,14 @@ signed int __guac_handle_disconnect(struct guac_client *client, struct guac_inst
 // file client-handlers.c line 100
 signed int __guac_handle_key(struct guac_client *client, struct guac_instruction *instruction)
 {
-  signed int return_value_atoi$1;
-  signed int return_value_atoi$2;
+  signed int return_value_atoi_1;
+  signed int return_value_atoi_2;
   signed int return_value;
   if(!(client->key_handler == ((signed int (*)(struct guac_client *, signed int, signed int))NULL)))
   {
-    return_value_atoi$1=atoi(instruction->argv[(signed long int)0]);
-    return_value_atoi$2=atoi(instruction->argv[(signed long int)1]);
-    return_value=client->key_handler(client, return_value_atoi$1, return_value_atoi$2);
+    return_value_atoi_1=atoi(instruction->argv[(signed long int)0]);
+    return_value_atoi_2=atoi(instruction->argv[(signed long int)1]);
+    return_value=client->key_handler(client, return_value_atoi_1, return_value_atoi_2);
     return return_value;
   }
 
@@ -5172,16 +5172,16 @@ signed int __guac_handle_key(struct guac_client *client, struct guac_instruction
 // file client-handlers.c line 89
 signed int __guac_handle_mouse(struct guac_client *client, struct guac_instruction *instruction)
 {
-  signed int return_value_atoi$1;
-  signed int return_value_atoi$2;
-  signed int return_value_atoi$3;
+  signed int return_value_atoi_1;
+  signed int return_value_atoi_2;
+  signed int return_value_atoi_3;
   signed int return_value;
   if(!(client->mouse_handler == ((signed int (*)(struct guac_client *, signed int, signed int, signed int))NULL)))
   {
-    return_value_atoi$1=atoi(instruction->argv[(signed long int)0]);
-    return_value_atoi$2=atoi(instruction->argv[(signed long int)1]);
-    return_value_atoi$3=atoi(instruction->argv[(signed long int)2]);
-    return_value=client->mouse_handler(client, return_value_atoi$1, return_value_atoi$2, return_value_atoi$3);
+    return_value_atoi_1=atoi(instruction->argv[(signed long int)0]);
+    return_value_atoi_2=atoi(instruction->argv[(signed long int)1]);
+    return_value_atoi_3=atoi(instruction->argv[(signed long int)2]);
+    return_value=client->mouse_handler(client, return_value_atoi_1, return_value_atoi_2, return_value_atoi_3);
     return return_value;
   }
 
@@ -5193,14 +5193,14 @@ signed int __guac_handle_mouse(struct guac_client *client, struct guac_instructi
 // file client-handlers.c line 119
 signed int __guac_handle_size(struct guac_client *client, struct guac_instruction *instruction)
 {
-  signed int return_value_atoi$1;
-  signed int return_value_atoi$2;
+  signed int return_value_atoi_1;
+  signed int return_value_atoi_2;
   signed int return_value;
   if(!(client->size_handler == ((signed int (*)(struct guac_client *, signed int, signed int))NULL)))
   {
-    return_value_atoi$1=atoi(instruction->argv[(signed long int)0]);
-    return_value_atoi$2=atoi(instruction->argv[(signed long int)1]);
-    return_value=client->size_handler(client, return_value_atoi$1, return_value_atoi$2);
+    return_value_atoi_1=atoi(instruction->argv[(signed long int)0]);
+    return_value_atoi_2=atoi(instruction->argv[(signed long int)1]);
+    return_value=client->size_handler(client, return_value_atoi_1, return_value_atoi_2);
     return return_value;
   }
 
@@ -5244,9 +5244,9 @@ signed long int __guac_parse_int(const char *str)
 static signed int __guac_protocol_send_args(struct guac_socket *socket, const char **args)
 {
   signed int i;
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.args");
-  if(!(return_value_guac_socket_write_string$1 == 0l))
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.args");
+  if(!(return_value_guac_socket_write_string_1 == 0l))
     return -1;
 
   else
@@ -5254,20 +5254,20 @@ static signed int __guac_protocol_send_args(struct guac_socket *socket, const ch
     i = 0;
     for( ; !(args[(signed long int)i] == ((const char *)NULL)); i = i + 1)
     {
-      signed long int return_value_guac_socket_write_string$2;
-      return_value_guac_socket_write_string$2=guac_socket_write_string(socket, ",");
-      if(!(return_value_guac_socket_write_string$2 == 0l))
+      signed long int return_value_guac_socket_write_string_2;
+      return_value_guac_socket_write_string_2=guac_socket_write_string(socket, ",");
+      if(!(return_value_guac_socket_write_string_2 == 0l))
         return -1;
 
-      signed long int return_value___guac_socket_write_length_string$3;
-      return_value___guac_socket_write_length_string$3=__guac_socket_write_length_string(socket, args[(signed long int)i]);
-      if(!(return_value___guac_socket_write_length_string$3 == 0l))
+      signed long int return_value___guac_socket_write_length_string_3;
+      return_value___guac_socket_write_length_string_3=__guac_socket_write_length_string(socket, args[(signed long int)i]);
+      if(!(return_value___guac_socket_write_length_string_3 == 0l))
         return -1;
 
     }
-    signed long int return_value_guac_socket_write_string$4;
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    return (signed int)return_value_guac_socket_write_string$4;
+    signed long int return_value_guac_socket_write_string_4;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    return (signed int)return_value_guac_socket_write_string_4;
   }
 }
 
@@ -5276,9 +5276,9 @@ static signed int __guac_protocol_send_args(struct guac_socket *socket, const ch
 static signed int __guac_protocol_send_connect(struct guac_socket *socket, const char **args)
 {
   signed int i;
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "7.connect");
-  if(!(return_value_guac_socket_write_string$1 == 0l))
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "7.connect");
+  if(!(return_value_guac_socket_write_string_1 == 0l))
     return -1;
 
   else
@@ -5286,20 +5286,20 @@ static signed int __guac_protocol_send_connect(struct guac_socket *socket, const
     i = 0;
     for( ; !(args[(signed long int)i] == ((const char *)NULL)); i = i + 1)
     {
-      signed long int return_value_guac_socket_write_string$2;
-      return_value_guac_socket_write_string$2=guac_socket_write_string(socket, ",");
-      if(!(return_value_guac_socket_write_string$2 == 0l))
+      signed long int return_value_guac_socket_write_string_2;
+      return_value_guac_socket_write_string_2=guac_socket_write_string(socket, ",");
+      if(!(return_value_guac_socket_write_string_2 == 0l))
         return -1;
 
-      signed long int return_value___guac_socket_write_length_string$3;
-      return_value___guac_socket_write_length_string$3=__guac_socket_write_length_string(socket, args[(signed long int)i]);
-      if(!(return_value___guac_socket_write_length_string$3 == 0l))
+      signed long int return_value___guac_socket_write_length_string_3;
+      return_value___guac_socket_write_length_string_3=__guac_socket_write_length_string(socket, args[(signed long int)i]);
+      if(!(return_value___guac_socket_write_length_string_3 == 0l))
         return -1;
 
     }
-    signed long int return_value_guac_socket_write_string$4;
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    return (signed int)return_value_guac_socket_write_string$4;
+    signed long int return_value_guac_socket_write_string_4;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    return (signed int)return_value_guac_socket_write_string_4;
   }
 }
 
@@ -5309,17 +5309,17 @@ signed long int __guac_socket_fd_read_handler(struct guac_socket *socket, void *
 {
   struct __guac_socket_fd_data *data = (struct __guac_socket_fd_data *)socket->data;
   signed int retval;
-  signed long int return_value_read$1;
-  return_value_read$1=read(data->fd, buf, count);
-  retval = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(data->fd, buf, count);
+  retval = (signed int)return_value_read_1;
   if(!(retval >= 0))
   {
-    enum guac_status *return_value___guac_error$2;
-    return_value___guac_error$2=__guac_error();
-    *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
-    const char **return_value___guac_error_message$3;
-    return_value___guac_error_message$3=__guac_error_message();
-    *return_value___guac_error_message$3 = "Error reading data from socket";
+    enum guac_status *return_value___guac_error_2;
+    return_value___guac_error_2=__guac_error();
+    *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
+    const char **return_value___guac_error_message_3;
+    return_value___guac_error_message_3=__guac_error_message();
+    *return_value___guac_error_message_3 = "Error reading data from socket";
   }
 
   return (signed long int)retval;
@@ -5330,11 +5330,11 @@ signed long int __guac_socket_fd_read_handler(struct guac_socket *socket, void *
 signed int __guac_socket_fd_select_handler(struct guac_socket *socket, signed int usec_timeout)
 {
   struct __guac_socket_fd_data *data = (struct __guac_socket_fd_data *)socket->data;
-  struct anonymous$0 fds;
+  struct anonymous_0 fds;
   struct timeval timeout;
   signed int retval;
   if(!(usec_timeout >= 0))
-    retval=select(data->fd + 1, &fds, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, (struct timeval *)(void *)0);
+    retval=select(data->fd + 1, &fds, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, (struct timeval *)(void *)0);
 
   else
   {
@@ -5344,30 +5344,30 @@ signed int __guac_socket_fd_select_handler(struct guac_socket *socket, signed in
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&fds)->__fds_bits[(signed long int)(data->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)(data->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << data->fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    retval=select(data->fd + 1, &fds, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, &timeout);
+    retval=select(data->fd + 1, &fds, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, &timeout);
   }
   if(!(retval >= 0))
   {
-    enum guac_status *return_value___guac_error$1;
-    return_value___guac_error$1=__guac_error();
-    *return_value___guac_error$1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
-    const char **return_value___guac_error_message$2;
-    return_value___guac_error_message$2=__guac_error_message();
-    *return_value___guac_error_message$2 = "Error while waiting for data on socket";
+    enum guac_status *return_value___guac_error_1;
+    return_value___guac_error_1=__guac_error();
+    *return_value___guac_error_1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
+    const char **return_value___guac_error_message_2;
+    return_value___guac_error_message_2=__guac_error_message();
+    *return_value___guac_error_message_2 = "Error while waiting for data on socket";
   }
 
   if(retval == 0)
   {
-    enum guac_status *return_value___guac_error$3;
-    return_value___guac_error$3=__guac_error();
-    *return_value___guac_error$3 = (enum guac_status)GUAC_STATUS_INPUT_TIMEOUT;
-    const char **return_value___guac_error_message$4;
-    return_value___guac_error_message$4=__guac_error_message();
-    *return_value___guac_error_message$4 = "Timeout while waiting for data on socket";
+    enum guac_status *return_value___guac_error_3;
+    return_value___guac_error_3=__guac_error();
+    *return_value___guac_error_3 = (enum guac_status)GUAC_STATUS_INPUT_TIMEOUT;
+    const char **return_value___guac_error_message_4;
+    return_value___guac_error_message_4=__guac_error_message();
+    *return_value___guac_error_message_4 = "Timeout while waiting for data on socket";
   }
 
   return retval;
@@ -5379,17 +5379,17 @@ signed long int __guac_socket_fd_write_handler(struct guac_socket *socket, const
 {
   struct __guac_socket_fd_data *data = (struct __guac_socket_fd_data *)socket->data;
   signed int retval;
-  signed long int return_value_write$1;
-  return_value_write$1=write(data->fd, buf, count);
-  retval = (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(data->fd, buf, count);
+  retval = (signed int)return_value_write_1;
   if(!(retval >= 0))
   {
-    enum guac_status *return_value___guac_error$2;
-    return_value___guac_error$2=__guac_error();
-    *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
-    const char **return_value___guac_error_message$3;
-    return_value___guac_error_message$3=__guac_error_message();
-    *return_value___guac_error_message$3 = "Error writing data to socket";
+    enum guac_status *return_value___guac_error_2;
+    return_value___guac_error_2=__guac_error();
+    *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
+    const char **return_value___guac_error_message_3;
+    return_value___guac_error_message_3=__guac_error_message();
+    *return_value___guac_error_message_3 = "Error writing data to socket";
   }
 
   return (signed long int)retval;
@@ -5425,9 +5425,9 @@ signed long int __guac_socket_nest_write_handler(struct guac_socket *socket, con
 
     else
     {
-      unsigned long int return_value_guac_utf8_charsize$1;
-      return_value_guac_utf8_charsize$1=guac_utf8_charsize(c);
-      skip = (signed int)(return_value_guac_utf8_charsize$1 - (unsigned long int)1);
+      unsigned long int return_value_guac_utf8_charsize_1;
+      return_value_guac_utf8_charsize_1=guac_utf8_charsize(c);
+      skip = (signed int)(return_value_guac_utf8_charsize_1 - (unsigned long int)1);
       if(!(remaining >= skip))
         break;
 
@@ -5460,12 +5460,12 @@ static signed long int __guac_socket_ssl_read_handler(struct guac_socket *socket
   retval=SSL_read(data->ssl, buf, (signed int)count);
   if(!(retval >= 1))
   {
-    enum guac_status *return_value___guac_error$1;
-    return_value___guac_error$1=__guac_error();
-    *return_value___guac_error$1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
-    const char **return_value___guac_error_message$2;
-    return_value___guac_error_message$2=__guac_error_message();
-    *return_value___guac_error_message$2 = "Error reading data from secure socket";
+    enum guac_status *return_value___guac_error_1;
+    return_value___guac_error_1=__guac_error();
+    *return_value___guac_error_1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
+    const char **return_value___guac_error_message_2;
+    return_value___guac_error_message_2=__guac_error_message();
+    *return_value___guac_error_message_2 = "Error reading data from secure socket";
   }
 
   return (signed long int)retval;
@@ -5476,11 +5476,11 @@ static signed long int __guac_socket_ssl_read_handler(struct guac_socket *socket
 static signed int __guac_socket_ssl_select_handler(struct guac_socket *socket, signed int usec_timeout)
 {
   struct guac_socket_ssl_data *data = (struct guac_socket_ssl_data *)socket->data;
-  struct anonymous$0 fds;
+  struct anonymous_0 fds;
   struct timeval timeout;
   signed int retval;
   if(!(usec_timeout >= 0))
-    retval=select(data->fd + 1, &fds, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, (struct timeval *)(void *)0);
+    retval=select(data->fd + 1, &fds, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, (struct timeval *)(void *)0);
 
   else
   {
@@ -5490,30 +5490,30 @@ static signed int __guac_socket_ssl_select_handler(struct guac_socket *socket, s
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&fds)->__fds_bits[(signed long int)(data->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)(data->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << data->fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    retval=select(data->fd + 1, &fds, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, &timeout);
+    retval=select(data->fd + 1, &fds, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, &timeout);
   }
   if(!(retval >= 0))
   {
-    enum guac_status *return_value___guac_error$1;
-    return_value___guac_error$1=__guac_error();
-    *return_value___guac_error$1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
-    const char **return_value___guac_error_message$2;
-    return_value___guac_error_message$2=__guac_error_message();
-    *return_value___guac_error_message$2 = "Error while waiting for data on secure socket";
+    enum guac_status *return_value___guac_error_1;
+    return_value___guac_error_1=__guac_error();
+    *return_value___guac_error_1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
+    const char **return_value___guac_error_message_2;
+    return_value___guac_error_message_2=__guac_error_message();
+    *return_value___guac_error_message_2 = "Error while waiting for data on secure socket";
   }
 
   if(retval == 0)
   {
-    enum guac_status *return_value___guac_error$3;
-    return_value___guac_error$3=__guac_error();
-    *return_value___guac_error$3 = (enum guac_status)GUAC_STATUS_INPUT_TIMEOUT;
-    const char **return_value___guac_error_message$4;
-    return_value___guac_error_message$4=__guac_error_message();
-    *return_value___guac_error_message$4 = "Timeout while waiting for data on secure socket";
+    enum guac_status *return_value___guac_error_3;
+    return_value___guac_error_3=__guac_error();
+    *return_value___guac_error_3 = (enum guac_status)GUAC_STATUS_INPUT_TIMEOUT;
+    const char **return_value___guac_error_message_4;
+    return_value___guac_error_message_4=__guac_error_message();
+    *return_value___guac_error_message_4 = "Timeout while waiting for data on secure socket";
   }
 
   return retval;
@@ -5528,12 +5528,12 @@ static signed long int __guac_socket_ssl_write_handler(struct guac_socket *socke
   retval=SSL_write(data->ssl, buf, (signed int)count);
   if(!(retval >= 1))
   {
-    enum guac_status *return_value___guac_error$1;
-    return_value___guac_error$1=__guac_error();
-    *return_value___guac_error$1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
-    const char **return_value___guac_error_message$2;
-    return_value___guac_error_message$2=__guac_error_message();
-    *return_value___guac_error_message$2 = "Error writing data to secure socket";
+    enum guac_status *return_value___guac_error_1;
+    return_value___guac_error_1=__guac_error();
+    *return_value___guac_error_1 = (enum guac_status)GUAC_STATUS_SEE_ERRNO;
+    const char **return_value___guac_error_message_2;
+    return_value___guac_error_message_2=__guac_error_message();
+    *return_value___guac_error_message_2 = "Error writing data to secure socket";
   }
 
   return (signed long int)retval;
@@ -5560,14 +5560,14 @@ signed long int __guac_socket_write_base64_byte(struct guac_socket *socket, sign
 {
   signed int *__ready_buf = socket->__ready_buf;
   signed int retval;
-  signed int tmp_post$1 = socket->__ready;
+  signed int tmp_post_1 = socket->__ready;
   socket->__ready = socket->__ready + 1;
-  __ready_buf[(signed long int)tmp_post$1] = buf;
+  __ready_buf[(signed long int)tmp_post_1] = buf;
   if(socket->__ready == 3)
   {
-    signed long int return_value___guac_socket_write_base64_triplet$2;
-    return_value___guac_socket_write_base64_triplet$2=__guac_socket_write_base64_triplet(socket, __ready_buf[(signed long int)0], __ready_buf[(signed long int)1], __ready_buf[(signed long int)2]);
-    retval = (signed int)return_value___guac_socket_write_base64_triplet$2;
+    signed long int return_value___guac_socket_write_base64_triplet_2;
+    return_value___guac_socket_write_base64_triplet_2=__guac_socket_write_base64_triplet(socket, __ready_buf[(signed long int)0], __ready_buf[(signed long int)1], __ready_buf[(signed long int)2]);
+    retval = (signed int)return_value___guac_socket_write_base64_triplet_2;
     if(!(retval >= 0))
       return (signed long int)retval;
 
@@ -5582,60 +5582,60 @@ signed long int __guac_socket_write_base64_byte(struct guac_socket *socket, sign
 signed long int __guac_socket_write_base64_triplet(struct guac_socket *socket, signed int a, signed int b, signed int c)
 {
   char *__out_buf = socket->__out_buf;
-  signed int tmp_post$1 = socket->__written;
+  signed int tmp_post_1 = socket->__written;
   socket->__written = socket->__written + 1;
-  __out_buf[(signed long int)tmp_post$1] = __guac_socket_BASE64_CHARACTERS[(signed long int)((a & 0xFC) >> 2)];
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
+  __out_buf[(signed long int)tmp_post_1] = __guac_socket_BASE64_CHARACTERS[(signed long int)((a & 0xFC) >> 2)];
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
   if(b >= 0)
   {
-    tmp_post$2 = socket->__written;
+    tmp_post_2 = socket->__written;
     socket->__written = socket->__written + 1;
-    __out_buf[(signed long int)tmp_post$2] = __guac_socket_BASE64_CHARACTERS[(signed long int)((a & 0x03) << 4 | (b & 0xF0) >> 4)];
+    __out_buf[(signed long int)tmp_post_2] = __guac_socket_BASE64_CHARACTERS[(signed long int)((a & 0x03) << 4 | (b & 0xF0) >> 4)];
     if(c >= 0)
     {
-      tmp_post$3 = socket->__written;
+      tmp_post_3 = socket->__written;
       socket->__written = socket->__written + 1;
-      __out_buf[(signed long int)tmp_post$3] = __guac_socket_BASE64_CHARACTERS[(signed long int)((b & 0x0F) << 2 | (c & 0xC0) >> 6)];
-      tmp_post$4 = socket->__written;
+      __out_buf[(signed long int)tmp_post_3] = __guac_socket_BASE64_CHARACTERS[(signed long int)((b & 0x0F) << 2 | (c & 0xC0) >> 6)];
+      tmp_post_4 = socket->__written;
       socket->__written = socket->__written + 1;
-      __out_buf[(signed long int)tmp_post$4] = __guac_socket_BASE64_CHARACTERS[(signed long int)(c & 0x3F)];
+      __out_buf[(signed long int)tmp_post_4] = __guac_socket_BASE64_CHARACTERS[(signed long int)(c & 0x3F)];
     }
 
     else
     {
-      tmp_post$5 = socket->__written;
+      tmp_post_5 = socket->__written;
       socket->__written = socket->__written + 1;
-      __out_buf[(signed long int)tmp_post$5] = __guac_socket_BASE64_CHARACTERS[(signed long int)((b & 0x0F) << 2)];
-      tmp_post$6 = socket->__written;
+      __out_buf[(signed long int)tmp_post_5] = __guac_socket_BASE64_CHARACTERS[(signed long int)((b & 0x0F) << 2)];
+      tmp_post_6 = socket->__written;
       socket->__written = socket->__written + 1;
-      __out_buf[(signed long int)tmp_post$6] = (char)61;
+      __out_buf[(signed long int)tmp_post_6] = (char)61;
     }
   }
 
   else
   {
-    tmp_post$7 = socket->__written;
+    tmp_post_7 = socket->__written;
     socket->__written = socket->__written + 1;
-    __out_buf[(signed long int)tmp_post$7] = __guac_socket_BASE64_CHARACTERS[(signed long int)((a & 0x03) << 4)];
-    tmp_post$8 = socket->__written;
+    __out_buf[(signed long int)tmp_post_7] = __guac_socket_BASE64_CHARACTERS[(signed long int)((a & 0x03) << 4)];
+    tmp_post_8 = socket->__written;
     socket->__written = socket->__written + 1;
-    __out_buf[(signed long int)tmp_post$8] = (char)61;
-    tmp_post$9 = socket->__written;
+    __out_buf[(signed long int)tmp_post_8] = (char)61;
+    tmp_post_9 = socket->__written;
     socket->__written = socket->__written + 1;
-    __out_buf[(signed long int)tmp_post$9] = (char)61;
+    __out_buf[(signed long int)tmp_post_9] = (char)61;
   }
   if(socket->__written >= 8189)
   {
-    signed long int return_value_guac_socket_write$10;
-    return_value_guac_socket_write$10=guac_socket_write(socket, (const void *)__out_buf, (unsigned long int)socket->__written);
-    if(!(return_value_guac_socket_write$10 == 0l))
+    signed long int return_value_guac_socket_write_10;
+    return_value_guac_socket_write_10=guac_socket_write(socket, (const void *)__out_buf, (unsigned long int)socket->__written);
+    if(!(return_value_guac_socket_write_10 == 0l))
       return (signed long int)-1;
 
     socket->__written = 0;
@@ -5658,9 +5658,9 @@ signed long int __guac_socket_write_length_double(struct guac_socket *socket, do
 {
   char buffer[128l];
   snprintf(buffer, sizeof(char [128l]) /*128ul*/ , "%.16g", d);
-  signed long int return_value___guac_socket_write_length_string$1;
-  return_value___guac_socket_write_length_string$1=__guac_socket_write_length_string(socket, buffer);
-  return return_value___guac_socket_write_length_string$1;
+  signed long int return_value___guac_socket_write_length_string_1;
+  return_value___guac_socket_write_length_string_1=__guac_socket_write_length_string(socket, buffer);
+  return return_value___guac_socket_write_length_string_1;
 }
 
 // __guac_socket_write_length_int
@@ -5669,9 +5669,9 @@ signed long int __guac_socket_write_length_int(struct guac_socket *socket, signe
 {
   char buffer[128l];
   snprintf(buffer, sizeof(char [128l]) /*128ul*/ , "%li", i);
-  signed long int return_value___guac_socket_write_length_string$1;
-  return_value___guac_socket_write_length_string$1=__guac_socket_write_length_string(socket, buffer);
-  return return_value___guac_socket_write_length_string$1;
+  signed long int return_value___guac_socket_write_length_string_1;
+  return_value___guac_socket_write_length_string_1=__guac_socket_write_length_string(socket, buffer);
+  return return_value___guac_socket_write_length_string_1;
 }
 
 // __guac_socket_write_length_png
@@ -5696,18 +5696,18 @@ signed int __guac_socket_write_length_png(struct guac_socket *socket, struct _ca
   stride=cairo_image_surface_get_stride(surface);
   unsigned char *data;
   data=cairo_image_surface_get_data(surface);
-  signed int return_value___guac_socket_write_length_png_cairo$1;
-  signed int return_value___guac_socket_write_length_png_cairo$2;
-  _Bool tmp_if_expr$16;
-  signed long int return_value_guac_socket_write_string$15;
-  _Bool tmp_if_expr$18;
-  signed long int return_value_guac_socket_write_base64$17;
-  _Bool tmp_if_expr$20;
-  signed long int return_value_guac_socket_flush_base64$19;
+  signed int return_value___guac_socket_write_length_png_cairo_1;
+  signed int return_value___guac_socket_write_length_png_cairo_2;
+  _Bool tmp_if_expr_16;
+  signed long int return_value_guac_socket_write_string_15;
+  _Bool tmp_if_expr_18;
+  signed long int return_value_guac_socket_write_base64_17;
+  _Bool tmp_if_expr_20;
+  signed long int return_value_guac_socket_flush_base64_19;
   if(data == ((unsigned char *)NULL) || !((signed int)format == CAIRO_FORMAT_RGB24))
   {
-    return_value___guac_socket_write_length_png_cairo$1=__guac_socket_write_length_png_cairo(socket, surface);
-    return return_value___guac_socket_write_length_png_cairo$1;
+    return_value___guac_socket_write_length_png_cairo_1=__guac_socket_write_length_png_cairo(socket, surface);
+    return return_value___guac_socket_write_length_png_cairo_1;
   }
 
   else
@@ -5717,8 +5717,8 @@ signed int __guac_socket_write_length_png(struct guac_socket *socket, struct _ca
     palette=guac_palette_alloc(surface);
     if(palette == ((struct guac_palette *)NULL))
     {
-      return_value___guac_socket_write_length_png_cairo$2=__guac_socket_write_length_png_cairo(socket, surface);
-      return return_value___guac_socket_write_length_png_cairo$2;
+      return_value___guac_socket_write_length_png_cairo_2=__guac_socket_write_length_png_cairo(socket, surface);
+      return return_value___guac_socket_write_length_png_cairo_2;
     }
 
     else
@@ -5739,12 +5739,12 @@ signed int __guac_socket_write_length_png(struct guac_socket *socket, struct _ca
       png=png_create_write_struct("1.2.54", (void *)0, (void (*)(struct png_struct_def *, const char *))(void *)0, (void (*)(struct png_struct_def *, const char *))(void *)0);
       if(png == ((struct png_struct_def *)NULL))
       {
-        enum guac_status *return_value___guac_error$3;
-        return_value___guac_error$3=__guac_error();
-        *return_value___guac_error$3 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
-        const char **return_value___guac_error_message$4;
-        return_value___guac_error_message$4=__guac_error_message();
-        *return_value___guac_error_message$4 = "libpng failed to create write structure";
+        enum guac_status *return_value___guac_error_3;
+        return_value___guac_error_3=__guac_error();
+        *return_value___guac_error_3 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
+        const char **return_value___guac_error_message_4;
+        return_value___guac_error_message_4=__guac_error_message();
+        *return_value___guac_error_message_4 = "libpng failed to create write structure";
         return -1;
       }
 
@@ -5752,54 +5752,54 @@ signed int __guac_socket_write_length_png(struct guac_socket *socket, struct _ca
       if(png_info == ((struct png_info_struct *)NULL))
       {
         png_destroy_write_struct(&png, (struct png_info_struct **)(void *)0);
-        enum guac_status *return_value___guac_error$5;
-        return_value___guac_error$5=__guac_error();
-        *return_value___guac_error$5 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
-        const char **return_value___guac_error_message$6;
-        return_value___guac_error_message$6=__guac_error_message();
-        *return_value___guac_error_message$6 = "libpng failed to create info structure";
+        enum guac_status *return_value___guac_error_5;
+        return_value___guac_error_5=__guac_error();
+        *return_value___guac_error_5 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
+        const char **return_value___guac_error_message_6;
+        return_value___guac_error_message_6=__guac_error_message();
+        *return_value___guac_error_message_6 = "libpng failed to create info structure";
         return -1;
       }
 
-      signed int return_value__setjmp$9;
-      return_value__setjmp$9=_setjmp(png->jmpbuf);
-      if(!(return_value__setjmp$9 == 0))
+      signed int return_value__setjmp_9;
+      return_value__setjmp_9=_setjmp(png->jmpbuf);
+      if(!(return_value__setjmp_9 == 0))
       {
         png_destroy_write_struct(&png, &png_info);
-        enum guac_status *return_value___guac_error$7;
-        return_value___guac_error$7=__guac_error();
-        *return_value___guac_error$7 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
-        const char **return_value___guac_error_message$8;
-        return_value___guac_error_message$8=__guac_error_message();
-        *return_value___guac_error_message$8 = "libpng output error";
+        enum guac_status *return_value___guac_error_7;
+        return_value___guac_error_7=__guac_error();
+        *return_value___guac_error_7 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
+        const char **return_value___guac_error_message_8;
+        return_value___guac_error_message_8=__guac_error_message();
+        *return_value___guac_error_message_8 = "libpng output error";
         return -1;
       }
 
       png_data.socket = socket;
       png_data.buffer_size = 8192;
-      void *return_value_malloc$10;
-      return_value_malloc$10=malloc((unsigned long int)png_data.buffer_size);
-      png_data.buffer = (char *)return_value_malloc$10;
+      void *return_value_malloc_10;
+      return_value_malloc_10=malloc((unsigned long int)png_data.buffer_size);
+      png_data.buffer = (char *)return_value_malloc_10;
       png_data.data_size = 0;
       png_set_write_fn(png, (void *)&png_data, __guac_socket_write_png, __guac_socket_flush_png);
-      void *return_value_malloc$11;
-      return_value_malloc$11=malloc(sizeof(unsigned char *) /*8ul*/  * (unsigned long int)height);
-      png_rows = (unsigned char **)return_value_malloc$11;
+      void *return_value_malloc_11;
+      return_value_malloc_11=malloc(sizeof(unsigned char *) /*8ul*/  * (unsigned long int)height);
+      png_rows = (unsigned char **)return_value_malloc_11;
       y = 0;
       for( ; !(y >= height); y = y + 1)
       {
         unsigned char *row;
-        void *return_value_malloc$12;
-        return_value_malloc$12=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)width);
-        row = (unsigned char *)return_value_malloc$12;
+        void *return_value_malloc_12;
+        return_value_malloc_12=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)width);
+        row = (unsigned char *)return_value_malloc_12;
         png_rows[(signed long int)y] = row;
         x = 0;
         for( ; !(x >= width); x = x + 1)
         {
           signed int color = (signed int)(((unsigned int *)data)[(signed long int)x] & (unsigned int)0xFFFFFF);
-          signed int return_value_guac_palette_find$13;
-          return_value_guac_palette_find$13=guac_palette_find(palette, color);
-          row[(signed long int)x] = (unsigned char)return_value_guac_palette_find$13;
+          signed int return_value_guac_palette_find_13;
+          return_value_guac_palette_find_13=guac_palette_find(palette, color);
+          row[(signed long int)x] = (unsigned char)return_value_guac_palette_find_13;
         }
         data = data + (signed long int)stride;
       }
@@ -5814,33 +5814,33 @@ signed int __guac_socket_write_length_png(struct guac_socket *socket, struct _ca
         free((void *)png_rows[(signed long int)y]);
       free((void *)png_rows);
       base64_length = ((png_data.data_size + 2) / 3) * 4;
-      signed long int return_value_guac_socket_write_int$14;
-      return_value_guac_socket_write_int$14=guac_socket_write_int(socket, (signed long int)base64_length);
-      if(!(return_value_guac_socket_write_int$14 == 0l))
-        tmp_if_expr$16 = (_Bool)1;
+      signed long int return_value_guac_socket_write_int_14;
+      return_value_guac_socket_write_int_14=guac_socket_write_int(socket, (signed long int)base64_length);
+      if(!(return_value_guac_socket_write_int_14 == 0l))
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value_guac_socket_write_string$15=guac_socket_write_string(socket, ".");
-        tmp_if_expr$16 = return_value_guac_socket_write_string$15 != 0l ? (_Bool)1 : (_Bool)0;
+        return_value_guac_socket_write_string_15=guac_socket_write_string(socket, ".");
+        tmp_if_expr_16 = return_value_guac_socket_write_string_15 != 0l ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
-        tmp_if_expr$18 = (_Bool)1;
+      if(tmp_if_expr_16)
+        tmp_if_expr_18 = (_Bool)1;
 
       else
       {
-        return_value_guac_socket_write_base64$17=guac_socket_write_base64(socket, (const void *)png_data.buffer, (unsigned long int)png_data.data_size);
-        tmp_if_expr$18 = return_value_guac_socket_write_base64$17 != 0l ? (_Bool)1 : (_Bool)0;
+        return_value_guac_socket_write_base64_17=guac_socket_write_base64(socket, (const void *)png_data.buffer, (unsigned long int)png_data.data_size);
+        tmp_if_expr_18 = return_value_guac_socket_write_base64_17 != 0l ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$18)
-        tmp_if_expr$20 = (_Bool)1;
+      if(tmp_if_expr_18)
+        tmp_if_expr_20 = (_Bool)1;
 
       else
       {
-        return_value_guac_socket_flush_base64$19=guac_socket_flush_base64(socket);
-        tmp_if_expr$20 = return_value_guac_socket_flush_base64$19 != 0l ? (_Bool)1 : (_Bool)0;
+        return_value_guac_socket_flush_base64_19=guac_socket_flush_base64(socket);
+        tmp_if_expr_20 = return_value_guac_socket_flush_base64_19 != 0l ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$20)
+      if(tmp_if_expr_20)
       {
         free((void *)png_data.buffer);
         return -1;
@@ -5863,57 +5863,57 @@ signed int __guac_socket_write_length_png_cairo(struct guac_socket *socket, stru
   signed int base64_length;
   png_data.socket = socket;
   png_data.buffer_size = 8192;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)png_data.buffer_size);
-  png_data.buffer = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)png_data.buffer_size);
+  png_data.buffer = (char *)return_value_malloc_1;
   png_data.data_size = 0;
-  enum _cairo_status return_value_cairo_surface_write_to_png_stream$4;
-  return_value_cairo_surface_write_to_png_stream$4=cairo_surface_write_to_png_stream(surface, __guac_socket_write_png_cairo, (void *)&png_data);
-  if(!((signed int)return_value_cairo_surface_write_to_png_stream$4 == CAIRO_STATUS_SUCCESS))
+  enum _cairo_status return_value_cairo_surface_write_to_png_stream_4;
+  return_value_cairo_surface_write_to_png_stream_4=cairo_surface_write_to_png_stream(surface, __guac_socket_write_png_cairo, (void *)&png_data);
+  if(!((signed int)return_value_cairo_surface_write_to_png_stream_4 == CAIRO_STATUS_SUCCESS))
   {
-    enum guac_status *return_value___guac_error$2;
-    return_value___guac_error$2=__guac_error();
-    *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
-    const char **return_value___guac_error_message$3;
-    return_value___guac_error_message$3=__guac_error_message();
-    *return_value___guac_error_message$3 = "Cairo PNG backend failed";
+    enum guac_status *return_value___guac_error_2;
+    return_value___guac_error_2=__guac_error();
+    *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_OUTPUT_ERROR;
+    const char **return_value___guac_error_message_3;
+    return_value___guac_error_message_3=__guac_error_message();
+    *return_value___guac_error_message_3 = "Cairo PNG backend failed";
     return -1;
   }
 
   base64_length = ((png_data.data_size + 2) / 3) * 4;
-  signed long int return_value_guac_socket_write_int$5;
-  return_value_guac_socket_write_int$5=guac_socket_write_int(socket, (signed long int)base64_length);
-  _Bool tmp_if_expr$7;
-  signed long int return_value_guac_socket_write_string$6;
-  if(!(return_value_guac_socket_write_int$5 == 0l))
-    tmp_if_expr$7 = (_Bool)1;
+  signed long int return_value_guac_socket_write_int_5;
+  return_value_guac_socket_write_int_5=guac_socket_write_int(socket, (signed long int)base64_length);
+  _Bool tmp_if_expr_7;
+  signed long int return_value_guac_socket_write_string_6;
+  if(!(return_value_guac_socket_write_int_5 == 0l))
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$6=guac_socket_write_string(socket, ".");
-    tmp_if_expr$7 = return_value_guac_socket_write_string$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_6=guac_socket_write_string(socket, ".");
+    tmp_if_expr_7 = return_value_guac_socket_write_string_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_base64$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_base64_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_base64$8=guac_socket_write_base64(socket, (const void *)png_data.buffer, (unsigned long int)png_data.data_size);
-    tmp_if_expr$9 = return_value_guac_socket_write_base64$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_base64_8=guac_socket_write_base64(socket, (const void *)png_data.buffer, (unsigned long int)png_data.data_size);
+    tmp_if_expr_9 = return_value_guac_socket_write_base64_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value_guac_socket_flush_base64$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value_guac_socket_flush_base64_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_flush_base64$10=guac_socket_flush_base64(socket);
-    tmp_if_expr$11 = return_value_guac_socket_flush_base64$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_flush_base64_10=guac_socket_flush_base64(socket);
+    tmp_if_expr_11 = return_value_guac_socket_flush_base64_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$11)
+  if(tmp_if_expr_11)
   {
     free((void *)png_data.buffer);
     return -1;
@@ -5930,31 +5930,31 @@ signed int __guac_socket_write_length_png_cairo(struct guac_socket *socket, stru
 // file protocol.c line 64
 signed long int __guac_socket_write_length_string(struct guac_socket *socket, const char *str)
 {
-  unsigned long int return_value_guac_utf8_strlen$1;
-  return_value_guac_utf8_strlen$1=guac_utf8_strlen(str);
-  signed long int return_value_guac_socket_write_int$2;
-  return_value_guac_socket_write_int$2=guac_socket_write_int(socket, (signed long int)return_value_guac_utf8_strlen$1);
-  _Bool tmp_if_expr$4;
-  signed long int return_value_guac_socket_write_string$3;
-  if(!(return_value_guac_socket_write_int$2 == 0l))
-    tmp_if_expr$4 = (_Bool)1;
+  unsigned long int return_value_guac_utf8_strlen_1;
+  return_value_guac_utf8_strlen_1=guac_utf8_strlen(str);
+  signed long int return_value_guac_socket_write_int_2;
+  return_value_guac_socket_write_int_2=guac_socket_write_int(socket, (signed long int)return_value_guac_utf8_strlen_1);
+  _Bool tmp_if_expr_4;
+  signed long int return_value_guac_socket_write_string_3;
+  if(!(return_value_guac_socket_write_int_2 == 0l))
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$3=guac_socket_write_string(socket, ".");
-    tmp_if_expr$4 = return_value_guac_socket_write_string$3 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_3=guac_socket_write_string(socket, ".");
+    tmp_if_expr_4 = return_value_guac_socket_write_string_3 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  signed long int return_value_guac_socket_write_string$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  signed long int return_value_guac_socket_write_string_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$5=guac_socket_write_string(socket, str);
-    tmp_if_expr$6 = return_value_guac_socket_write_string$5 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_5=guac_socket_write_string(socket, str);
+    tmp_if_expr_6 = return_value_guac_socket_write_string_5 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  return (signed long int)tmp_if_expr$6;
+  return (signed long int)tmp_if_expr_6;
 }
 
 // __guac_socket_write_png
@@ -5962,9 +5962,9 @@ signed long int __guac_socket_write_length_string(struct guac_socket *socket, co
 void __guac_socket_write_png(struct png_struct_def *png, unsigned char *data, unsigned long int length)
 {
   struct __guac_socket_write_png_data *png_data;
-  void *return_value_png_get_io_ptr$1;
-  return_value_png_get_io_ptr$1=png_get_io_ptr(png);
-  png_data = (struct __guac_socket_write_png_data *)return_value_png_get_io_ptr$1;
+  void *return_value_png_get_io_ptr_1;
+  return_value_png_get_io_ptr_1=png_get_io_ptr(png);
+  png_data = (struct __guac_socket_write_png_data *)return_value_png_get_io_ptr_1;
   signed int next_size = (signed int)((unsigned long int)png_data->data_size + length);
   if(!(png_data->buffer_size >= next_size))
   {
@@ -5972,9 +5972,9 @@ void __guac_socket_write_png(struct png_struct_def *png, unsigned char *data, un
     do
       png_data->buffer_size = png_data->buffer_size << 1;
     while(!(png_data->buffer_size >= next_size));
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)png_data->buffer, (unsigned long int)png_data->buffer_size);
-    new_buffer = (char *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)png_data->buffer, (unsigned long int)png_data->buffer_size);
+    new_buffer = (char *)return_value_realloc_2;
     png_data->buffer = new_buffer;
   }
 
@@ -5994,9 +5994,9 @@ enum _cairo_status __guac_socket_write_png_cairo(void *closure, const unsigned c
     do
       png_data->buffer_size = png_data->buffer_size << 1;
     while(!(png_data->buffer_size >= next_size));
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)png_data->buffer, (unsigned long int)png_data->buffer_size);
-    new_buffer = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)png_data->buffer, (unsigned long int)png_data->buffer_size);
+    new_buffer = (char *)return_value_realloc_1;
     png_data->buffer = new_buffer;
   }
 
@@ -6010,11 +6010,11 @@ enum _cairo_status __guac_socket_write_png_cairo(void *closure, const unsigned c
 void * __guacd_client_input_thread(void *data)
 {
   struct guac_client *client = (struct guac_client *)data;
-  struct guac_socket *__guacd_client_input_thread$$1$$socket = client->socket;
+  struct guac_socket *__guacd_client_input_thread__1__socket = client->socket;
   while((signed int)client->state == GUAC_CLIENT_RUNNING)
   {
     struct guac_instruction *instruction;
-    instruction=guac_instruction_read(__guacd_client_input_thread$$1$$socket, 15000 * 1000);
+    instruction=guac_instruction_read(__guacd_client_input_thread__1__socket, 15000 * 1000);
     if(instruction == ((struct guac_instruction *)NULL))
     {
       guacd_client_log_guac_error(client, "Error reading instruction");
@@ -6022,15 +6022,15 @@ void * __guacd_client_input_thread(void *data)
       return (void *)0;
     }
 
-    enum guac_status *return_value___guac_error$1;
-    return_value___guac_error$1=__guac_error();
-    *return_value___guac_error$1 = (enum guac_status)GUAC_STATUS_SUCCESS;
-    const char **return_value___guac_error_message$2;
-    return_value___guac_error_message$2=__guac_error_message();
-    *return_value___guac_error_message$2 = (const char *)(void *)0;
-    signed int return_value_guac_client_handle_instruction$3;
-    return_value_guac_client_handle_instruction$3=guac_client_handle_instruction(client, instruction);
-    if(!(return_value_guac_client_handle_instruction$3 >= 0))
+    enum guac_status *return_value___guac_error_1;
+    return_value___guac_error_1=__guac_error();
+    *return_value___guac_error_1 = (enum guac_status)GUAC_STATUS_SUCCESS;
+    const char **return_value___guac_error_message_2;
+    return_value___guac_error_message_2=__guac_error_message();
+    *return_value___guac_error_message_2 = (const char *)(void *)0;
+    signed int return_value_guac_client_handle_instruction_3;
+    return_value_guac_client_handle_instruction_3=guac_client_handle_instruction(client, instruction);
+    if(!(return_value_guac_client_handle_instruction_3 >= 0))
     {
       guacd_client_log_guac_error(client, "Client instruction handler error");
       guac_client_log_info(client, "Failing instruction handler in client was \"%s\"", instruction->opcode);
@@ -6049,7 +6049,7 @@ void * __guacd_client_input_thread(void *data)
 void * __guacd_client_output_thread(void *data)
 {
   struct guac_client *client = (struct guac_client *)data;
-  struct guac_socket *__guacd_client_output_thread$$1$$socket = client->socket;
+  struct guac_socket *__guacd_client_output_thread__1__socket = client->socket;
   signed long int last_ping_timestamp;
   last_ping_timestamp=guac_timestamp_current();
   while((signed int)client->state == GUAC_CLIENT_RUNNING)
@@ -6059,18 +6059,18 @@ void * __guacd_client_output_thread(void *data)
     if(timestamp + -last_ping_timestamp >= 5001l)
     {
       last_ping_timestamp = timestamp;
-      signed int return_value_guac_protocol_send_sync$1;
-      return_value_guac_protocol_send_sync$1=guac_protocol_send_sync(__guacd_client_output_thread$$1$$socket, client->last_sent_timestamp);
-      if(!(return_value_guac_protocol_send_sync$1 == 0))
+      signed int return_value_guac_protocol_send_sync_1;
+      return_value_guac_protocol_send_sync_1=guac_protocol_send_sync(__guacd_client_output_thread__1__socket, client->last_sent_timestamp);
+      if(!(return_value_guac_protocol_send_sync_1 == 0))
       {
         guacd_client_log_guac_error(client, "Error sending \"sync\" instruction");
         guac_client_stop(client);
         return (void *)0;
       }
 
-      signed long int return_value_guac_socket_flush$2;
-      return_value_guac_socket_flush$2=guac_socket_flush(__guacd_client_output_thread$$1$$socket);
-      if(!(return_value_guac_socket_flush$2 == 0l))
+      signed long int return_value_guac_socket_flush_2;
+      return_value_guac_socket_flush_2=guac_socket_flush(__guacd_client_output_thread__1__socket);
+      if(!(return_value_guac_socket_flush_2 == 0l))
       {
         guacd_client_log_guac_error(client, "Error flushing output");
         guac_client_stop(client);
@@ -6093,18 +6093,18 @@ void * __guacd_client_output_thread(void *data)
         }
 
         client->last_sent_timestamp=guac_timestamp_current();
-        signed int return_value_guac_protocol_send_sync$3;
-        return_value_guac_protocol_send_sync$3=guac_protocol_send_sync(__guacd_client_output_thread$$1$$socket, client->last_sent_timestamp);
-        if(!(return_value_guac_protocol_send_sync$3 == 0))
+        signed int return_value_guac_protocol_send_sync_3;
+        return_value_guac_protocol_send_sync_3=guac_protocol_send_sync(__guacd_client_output_thread__1__socket, client->last_sent_timestamp);
+        if(!(return_value_guac_protocol_send_sync_3 == 0))
         {
           guacd_client_log_guac_error(client, "Error sending \"sync\" instruction");
           guac_client_stop(client);
           return (void *)0;
         }
 
-        signed long int return_value_guac_socket_flush$4;
-        return_value_guac_socket_flush$4=guac_socket_flush(__guacd_client_output_thread$$1$$socket);
-        if(!(return_value_guac_socket_flush$4 == 0l))
+        signed long int return_value_guac_socket_flush_4;
+        return_value_guac_socket_flush_4=guac_socket_flush(__guacd_client_output_thread__1__socket);
+        if(!(return_value_guac_socket_flush_4 == 0l))
         {
           guacd_client_log_guac_error(client, "Error flushing output");
           guac_client_stop(client);
@@ -6171,11 +6171,11 @@ signed int daemonize()
   pid=fork();
   if(!(pid >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    guacd_log_error("Could not fork() parent: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    guacd_log_error("Could not fork() parent: %s", return_value_strerror_2);
     return 1;
   }
 
@@ -6189,11 +6189,11 @@ signed int daemonize()
   pid=fork();
   if(!(pid >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    guacd_log_error("Could not fork() group leader: %s", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    guacd_log_error("Could not fork() group leader: %s", return_value_strerror_4);
     return 1;
   }
 
@@ -6203,13 +6203,13 @@ signed int daemonize()
     _exit(0);
   }
 
-  signed int return_value_chdir$5;
-  return_value_chdir$5=chdir("/");
-  _Bool tmp_if_expr$8;
-  signed int return_value_redirect_fd$7;
-  _Bool tmp_if_expr$10;
-  signed int return_value_redirect_fd$9;
-  if(!(return_value_chdir$5 >= 0))
+  signed int return_value_chdir_5;
+  return_value_chdir_5=chdir("/");
+  _Bool tmp_if_expr_8;
+  signed int return_value_redirect_fd_7;
+  _Bool tmp_if_expr_10;
+  signed int return_value_redirect_fd_9;
+  if(!(return_value_chdir_5 >= 0))
   {
     guacd_log_error("Unable to change working directory to /");
     return 1;
@@ -6217,25 +6217,25 @@ signed int daemonize()
 
   else
   {
-    signed int return_value_redirect_fd$6;
-    return_value_redirect_fd$6=redirect_fd(0, 00);
-    if(!(return_value_redirect_fd$6 == 0))
-      tmp_if_expr$8 = (_Bool)1;
+    signed int return_value_redirect_fd_6;
+    return_value_redirect_fd_6=redirect_fd(0, 00);
+    if(!(return_value_redirect_fd_6 == 0))
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_redirect_fd$7=redirect_fd(1, 01);
-      tmp_if_expr$8 = return_value_redirect_fd$7 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_redirect_fd_7=redirect_fd(1, 01);
+      tmp_if_expr_8 = return_value_redirect_fd_7 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_redirect_fd$9=redirect_fd(2, 01);
-      tmp_if_expr$10 = return_value_redirect_fd$9 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_redirect_fd_9=redirect_fd(2, 01);
+      tmp_if_expr_10 = return_value_redirect_fd_9 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
+    if(tmp_if_expr_10)
     {
       guacd_log_error("Unable to redirect standard file descriptors to /dev/null");
       return 1;
@@ -6257,17 +6257,17 @@ struct guac_audio_stream * guac_audio_stream_alloc(struct guac_client *client, s
     for( ; !(client->info.audio_mimetypes[(signed long int)i] == ((const char *)NULL)); i = i + 1)
     {
       const char *mimetype = client->info.audio_mimetypes[(signed long int)i];
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(mimetype, ogg_encoder->mimetype);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(mimetype, ogg_encoder->mimetype);
+      if(return_value_strcmp_1 == 0)
       {
         encoder = ogg_encoder;
         break;
       }
 
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(mimetype, wav_encoder->mimetype);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(mimetype, wav_encoder->mimetype);
+      if(return_value_strcmp_2 == 0)
       {
         encoder = wav_encoder;
         break;
@@ -6279,20 +6279,20 @@ struct guac_audio_stream * guac_audio_stream_alloc(struct guac_client *client, s
 
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct guac_audio_stream) /*80ul*/ );
-  audio = (struct guac_audio_stream *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct guac_audio_stream) /*80ul*/ );
+  audio = (struct guac_audio_stream *)return_value_malloc_3;
   audio->client = client;
   audio->used = 0;
   audio->length = 0x40000;
   audio->encoded_data_used = 0;
   audio->encoded_data_length = 0x40000;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)audio->length);
-  audio->pcm_data = (unsigned char *)return_value_malloc$4;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)audio->encoded_data_length);
-  audio->encoded_data = (unsigned char *)return_value_malloc$5;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)audio->length);
+  audio->pcm_data = (unsigned char *)return_value_malloc_4;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)audio->encoded_data_length);
+  audio->encoded_data = (unsigned char *)return_value_malloc_5;
   audio->encoder = encoder;
   audio->stream=guac_client_alloc_stream(client);
   guac_socket_require_threadsafe(audio->stream->socket);
@@ -6349,9 +6349,9 @@ void guac_audio_stream_write_encoded(struct guac_audio_stream *audio, const unsi
   if(!(audio->encoded_data_length >= audio->encoded_data_used + length))
   {
     audio->encoded_data_length = (audio->encoded_data_length + length) * 2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)audio->encoded_data, (unsigned long int)audio->encoded_data_length);
-    audio->encoded_data = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)audio->encoded_data, (unsigned long int)audio->encoded_data_length);
+    audio->encoded_data = (unsigned char *)return_value_realloc_1;
   }
 
   memcpy((void *)&audio->encoded_data[(signed long int)audio->encoded_data_used], (const void *)data, (unsigned long int)length);
@@ -6366,9 +6366,9 @@ void guac_audio_stream_write_pcm(struct guac_audio_stream *audio, const unsigned
   if(!(audio->length >= length))
   {
     audio->length = length * 2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)audio->pcm_data, (unsigned long int)audio->length);
-    audio->pcm_data = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)audio->pcm_data, (unsigned long int)audio->length);
+    audio->pcm_data = (unsigned char *)return_value_realloc_1;
   }
 
   if(!(audio->length >= audio->used + length))
@@ -6383,17 +6383,17 @@ void guac_audio_stream_write_pcm(struct guac_audio_stream *audio, const unsigned
 struct guac_client * guac_client_alloc()
 {
   struct guac_client *client;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_client) /*152ul*/ );
-  client = (struct guac_client *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_client) /*152ul*/ );
+  client = (struct guac_client *)return_value_malloc_1;
   if(client == ((struct guac_client *)NULL))
   {
-    enum guac_status *return_value___guac_error$2;
-    return_value___guac_error$2=__guac_error();
-    *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-    const char **return_value___guac_error_message$3;
-    return_value___guac_error_message$3=__guac_error_message();
-    *return_value___guac_error_message$3 = "Could not allocate memory for client";
+    enum guac_status *return_value___guac_error_2;
+    return_value___guac_error_2=__guac_error();
+    *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+    const char **return_value___guac_error_message_3;
+    return_value___guac_error_message_3=__guac_error_message();
+    *return_value___guac_error_message_3 = "Could not allocate memory for client";
     return (struct guac_client *)(void *)0;
   }
 
@@ -6412,12 +6412,12 @@ struct guac_client * guac_client_alloc()
 struct guac_layer * guac_client_alloc_buffer(struct guac_client *client)
 {
   struct guac_layer *allocd_layer;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_layer) /*4ul*/ );
-  allocd_layer = (struct guac_layer *)return_value_malloc$1;
-  signed int return_value_guac_pool_next_int$2;
-  return_value_guac_pool_next_int$2=guac_pool_next_int(client->__buffer_pool);
-  allocd_layer->index = -return_value_guac_pool_next_int$2 - 1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_layer) /*4ul*/ );
+  allocd_layer = (struct guac_layer *)return_value_malloc_1;
+  signed int return_value_guac_pool_next_int_2;
+  return_value_guac_pool_next_int_2=guac_pool_next_int(client->__buffer_pool);
+  allocd_layer->index = -return_value_guac_pool_next_int_2 - 1;
   return allocd_layer;
 }
 
@@ -6426,12 +6426,12 @@ struct guac_layer * guac_client_alloc_buffer(struct guac_client *client)
 struct guac_layer * guac_client_alloc_layer(struct guac_client *client)
 {
   struct guac_layer *allocd_layer;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_layer) /*4ul*/ );
-  allocd_layer = (struct guac_layer *)return_value_malloc$1;
-  signed int return_value_guac_pool_next_int$2;
-  return_value_guac_pool_next_int$2=guac_pool_next_int(client->__layer_pool);
-  allocd_layer->index = return_value_guac_pool_next_int$2 + 1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_layer) /*4ul*/ );
+  allocd_layer = (struct guac_layer *)return_value_malloc_1;
+  signed int return_value_guac_pool_next_int_2;
+  return_value_guac_pool_next_int_2=guac_pool_next_int(client->__layer_pool);
+  allocd_layer->index = return_value_guac_pool_next_int_2 + 1;
   return allocd_layer;
 }
 
@@ -6440,9 +6440,9 @@ struct guac_layer * guac_client_alloc_layer(struct guac_client *client)
 struct guac_stream * guac_client_alloc_stream(struct guac_client *client)
 {
   struct guac_stream *allocd_stream;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_stream) /*16ul*/ );
-  allocd_stream = (struct guac_stream *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_stream) /*16ul*/ );
+  allocd_stream = (struct guac_stream *)return_value_malloc_1;
   allocd_stream->index=guac_pool_next_int(client->__stream_pool);
   allocd_stream->socket=guac_socket_nest(client->socket, allocd_stream->index);
   return allocd_stream;
@@ -6494,9 +6494,9 @@ signed int guac_client_handle_instruction(struct guac_client *client, struct gua
   signed int return_value;
   while(!(current->opcode == ((char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(instruction->opcode, current->opcode);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(instruction->opcode, current->opcode);
+    if(return_value_strcmp_1 == 0)
     {
       return_value=current->handler(client, instruction);
       return return_value;
@@ -6529,16 +6529,16 @@ void guac_client_log_info(struct guac_client *client, const char *format, ...)
 // file ../../src/libguac/guacamole/plugin.h line 129
 signed int guac_client_plugin_close(struct guac_client_plugin *plugin)
 {
-  signed int return_value_dlclose$3;
-  return_value_dlclose$3=dlclose(plugin->__client_plugin_handle);
-  if(!(return_value_dlclose$3 == 0))
+  signed int return_value_dlclose_3;
+  return_value_dlclose_3=dlclose(plugin->__client_plugin_handle);
+  if(!(return_value_dlclose_3 == 0))
   {
-    enum guac_status *return_value___guac_error$1;
-    return_value___guac_error$1=__guac_error();
-    *return_value___guac_error$1 = (enum guac_status)GUAC_STATUS_BAD_STATE;
-    const char **return_value___guac_error_message$2;
-    return_value___guac_error_message$2=__guac_error_message();
-    *return_value___guac_error_message$2=dlerror();
+    enum guac_status *return_value___guac_error_1;
+    return_value___guac_error_1=__guac_error();
+    *return_value___guac_error_1 = (enum guac_status)GUAC_STATUS_BAD_STATE;
+    const char **return_value___guac_error_message_2;
+    return_value___guac_error_message_2=__guac_error_message();
+    *return_value___guac_error_message_2=dlerror();
     return -1;
   }
 
@@ -6563,8 +6563,8 @@ struct guac_client_plugin * guac_client_plugin_open(const char *protocol)
   void *client_plugin_handle;
   const char **client_args;
   char protocol_lib[274l] = { 'l', 'i', 'b', 'g', 'u', 'a', 'c', '-', 'c', 'l', 'i', 'e', 'n', 't', '-', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  /* tag-#anon#lUN[l*{S32(*{SYM#tag-guac_client#}$SYM#tag-guac_client#$|S32|*{*{S8}$S8$}$*{S8}$S8$$)->S32}$S32(*{SYM#tag-guac_client#}$SYM#tag-guac_client#$|S32|*{*{S8}$S8$}$*{S8}$S8$$)->S32$'client_init'||l*{lV}$lV$'obj'|] */
-union anonymous$8
+  /* tag-#anon#lUN[l*{S32(*{SYM#tag-guac_client#}_SYM#tag-guac_client#_|S32|*{*{S8}_S8_}_*{S8}_S8__)->S32}_S32(*{SYM#tag-guac_client#}_SYM#tag-guac_client#_|S32|*{*{S8}_S8_}_*{S8}_S8__)->S32_'client_init'||l*{lV}_lV_'obj'|] */
+union anonymous_8
 {
   // client_init
   signed int (*client_init)(struct guac_client *, signed int, char **);
@@ -6574,63 +6574,63 @@ union anonymous$8
 
 /* */
   ;
-  union anonymous$8 alias;
+  union anonymous_8 alias;
   strncat(protocol_lib, protocol, (unsigned long int)(256 - 1));
   strcat(protocol_lib, ".so");
   client_plugin_handle=dlopen(protocol_lib, 0x00001);
   if(client_plugin_handle == NULL)
   {
-    enum guac_status *return_value___guac_error$1;
-    return_value___guac_error$1=__guac_error();
-    *return_value___guac_error$1 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
-    const char **return_value___guac_error_message$2;
-    return_value___guac_error_message$2=__guac_error_message();
-    *return_value___guac_error_message$2=dlerror();
+    enum guac_status *return_value___guac_error_1;
+    return_value___guac_error_1=__guac_error();
+    *return_value___guac_error_1 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
+    const char **return_value___guac_error_message_2;
+    return_value___guac_error_message_2=__guac_error_message();
+    *return_value___guac_error_message_2=dlerror();
     return (struct guac_client_plugin *)(void *)0;
   }
 
   dlerror();
   alias.obj=dlsym(client_plugin_handle, "guac_client_init");
-  char *return_value_dlerror$5;
-  return_value_dlerror$5=dlerror();
-  if(!(return_value_dlerror$5 == ((char *)NULL)))
+  char *return_value_dlerror_5;
+  return_value_dlerror_5=dlerror();
+  if(!(return_value_dlerror_5 == ((char *)NULL)))
   {
-    enum guac_status *return_value___guac_error$3;
-    return_value___guac_error$3=__guac_error();
-    *return_value___guac_error$3 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
-    const char **return_value___guac_error_message$4;
-    return_value___guac_error_message$4=__guac_error_message();
-    *return_value___guac_error_message$4=dlerror();
+    enum guac_status *return_value___guac_error_3;
+    return_value___guac_error_3=__guac_error();
+    *return_value___guac_error_3 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
+    const char **return_value___guac_error_message_4;
+    return_value___guac_error_message_4=__guac_error_message();
+    *return_value___guac_error_message_4=dlerror();
     return (struct guac_client_plugin *)(void *)0;
   }
 
-  void *return_value_dlsym$6;
-  return_value_dlsym$6=dlsym(client_plugin_handle, "GUAC_CLIENT_ARGS");
-  client_args = (const char **)return_value_dlsym$6;
-  char *return_value_dlerror$9;
-  return_value_dlerror$9=dlerror();
-  if(!(return_value_dlerror$9 == ((char *)NULL)))
+  void *return_value_dlsym_6;
+  return_value_dlsym_6=dlsym(client_plugin_handle, "GUAC_CLIENT_ARGS");
+  client_args = (const char **)return_value_dlsym_6;
+  char *return_value_dlerror_9;
+  return_value_dlerror_9=dlerror();
+  if(!(return_value_dlerror_9 == ((char *)NULL)))
   {
-    enum guac_status *return_value___guac_error$7;
-    return_value___guac_error$7=__guac_error();
-    *return_value___guac_error$7 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
-    const char **return_value___guac_error_message$8;
-    return_value___guac_error_message$8=__guac_error_message();
-    *return_value___guac_error_message$8=dlerror();
+    enum guac_status *return_value___guac_error_7;
+    return_value___guac_error_7=__guac_error();
+    *return_value___guac_error_7 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
+    const char **return_value___guac_error_message_8;
+    return_value___guac_error_message_8=__guac_error_message();
+    *return_value___guac_error_message_8=dlerror();
     return (struct guac_client_plugin *)(void *)0;
   }
 
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(sizeof(struct guac_client_plugin) /*24ul*/ );
-  plugin = (struct guac_client_plugin *)return_value_malloc$10;
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(sizeof(struct guac_client_plugin) /*24ul*/ );
+  plugin = (struct guac_client_plugin *)return_value_malloc_10;
   if(plugin == ((struct guac_client_plugin *)NULL))
   {
-    enum guac_status *return_value___guac_error$11;
-    return_value___guac_error$11=__guac_error();
-    *return_value___guac_error$11 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-    const char **return_value___guac_error_message$12;
-    return_value___guac_error_message$12=__guac_error_message();
-    *return_value___guac_error_message$12 = "Could not allocate memory for client plugin";
+    enum guac_status *return_value___guac_error_11;
+    return_value___guac_error_11=__guac_error();
+    *return_value___guac_error_11 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+    const char **return_value___guac_error_message_12;
+    return_value___guac_error_message_12=__guac_error_message();
+    *return_value___guac_error_message_12 = "Could not allocate memory for client plugin";
     return (struct guac_client_plugin *)(void *)0;
   }
 
@@ -6672,14 +6672,14 @@ unsigned int guac_hash_surface(struct _cairo_surface *surface)
     {
       unsigned int color = *row;
       row = row + 1l;
-      unsigned int return_value__guac_rotate$1;
-      return_value__guac_rotate$1=_guac_rotate(hash_value, 1);
-      hash_value = return_value__guac_rotate$1 ^ color ^ (unsigned int)0x1B872E69;
+      unsigned int return_value__guac_rotate_1;
+      return_value__guac_rotate_1=_guac_rotate(hash_value, 1);
+      hash_value = return_value__guac_rotate_1 ^ color ^ (unsigned int)0x1B872E69;
     }
   }
-  unsigned int return_value__guac_hash_32to24$2;
-  return_value__guac_hash_32to24$2=_guac_hash_32to24(hash_value);
-  return return_value__guac_hash_32to24$2;
+  unsigned int return_value__guac_hash_32to24_2;
+  return_value__guac_hash_32to24_2=_guac_hash_32to24(hash_value);
+  return return_value__guac_hash_32to24_2;
 }
 
 // guac_instruction_expect
@@ -6687,9 +6687,9 @@ unsigned int guac_hash_surface(struct _cairo_surface *surface)
 struct guac_instruction * guac_instruction_expect(struct guac_socket *socket, signed int usec_timeout, const char *opcode)
 {
   struct guac_instruction *instruction;
-  signed int return_value_guac_instruction_waiting$1;
-  return_value_guac_instruction_waiting$1=guac_instruction_waiting(socket, usec_timeout);
-  if(!(return_value_guac_instruction_waiting$1 >= 1))
+  signed int return_value_guac_instruction_waiting_1;
+  return_value_guac_instruction_waiting_1=guac_instruction_waiting(socket, usec_timeout);
+  if(!(return_value_guac_instruction_waiting_1 >= 1))
     return (struct guac_instruction *)(void *)0;
 
   else
@@ -6700,16 +6700,16 @@ struct guac_instruction * guac_instruction_expect(struct guac_socket *socket, si
 
     else
     {
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(instruction->opcode, opcode);
-      if(!(return_value_strcmp$4 == 0))
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(instruction->opcode, opcode);
+      if(!(return_value_strcmp_4 == 0))
       {
-        enum guac_status *return_value___guac_error$2;
-        return_value___guac_error$2=__guac_error();
-        *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_BAD_STATE;
-        const char **return_value___guac_error_message$3;
-        return_value___guac_error_message$3=__guac_error_message();
-        *return_value___guac_error_message$3 = "Instruction read did not have expected opcode";
+        enum guac_status *return_value___guac_error_2;
+        return_value___guac_error_2=__guac_error();
+        *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_BAD_STATE;
+        const char **return_value___guac_error_message_3;
+        return_value___guac_error_message_3=__guac_error_message();
+        *return_value___guac_error_message_3 = "Instruction read did not have expected opcode";
         guac_instruction_free(instruction);
         return (struct guac_instruction *)(void *)0;
       }
@@ -6743,8 +6743,8 @@ void guac_instruction_free(struct guac_instruction *instruction)
 struct guac_instruction * guac_instruction_read(struct guac_socket *socket, signed int usec_timeout)
 {
   signed int retval;
-  signed int tmp_post$1;
-  signed int tmp_post$3;
+  signed int tmp_post_1;
+  signed int tmp_post_3;
   do
   {
     signed int element_length = 0;
@@ -6754,9 +6754,9 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
     while(!(i >= socket->__instructionbuf_used_length))
     {
       char c;
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      c = socket->__instructionbuf[(signed long int)tmp_post$1];
+      c = socket->__instructionbuf[(signed long int)tmp_post_1];
       if((signed int)c >= 48 && !((signed int)c >= 58))
         element_length = (element_length * 10 + (signed int)c) - 48;
 
@@ -6769,9 +6769,9 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
               break;
 
             c = socket->__instructionbuf[(signed long int)(i + element_byte_length)];
-            unsigned long int return_value_guac_utf8_charsize$2;
-            return_value_guac_utf8_charsize$2=guac_utf8_charsize((unsigned char)(unsigned int)c);
-            element_byte_length = element_byte_length + (signed int)return_value_guac_utf8_charsize$2;
+            unsigned long int return_value_guac_utf8_charsize_2;
+            return_value_guac_utf8_charsize_2=guac_utf8_charsize((unsigned char)(unsigned int)c);
+            element_byte_length = element_byte_length + (signed int)return_value_guac_utf8_charsize_2;
             current_unicode_length = current_unicode_length + 1;
           }
           if(current_unicode_length == element_length)
@@ -6784,39 +6784,39 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
             element_byte_length = current_unicode_length;
             element_length = element_byte_length;
             socket->__instructionbuf_parse_start = i;
-            tmp_post$3 = socket->__instructionbuf_elementc;
+            tmp_post_3 = socket->__instructionbuf_elementc;
             socket->__instructionbuf_elementc = socket->__instructionbuf_elementc + 1;
-            socket->__instructionbuf_elementv[(signed long int)tmp_post$3] = elementv;
+            socket->__instructionbuf_elementv[(signed long int)tmp_post_3] = elementv;
             if((signed int)terminator == 59)
             {
               struct guac_instruction *parsed_instruction;
               signed int j;
-              void *return_value_malloc$4;
-              return_value_malloc$4=malloc(sizeof(struct guac_instruction) /*24ul*/ );
-              parsed_instruction = (struct guac_instruction *)return_value_malloc$4;
+              void *return_value_malloc_4;
+              return_value_malloc_4=malloc(sizeof(struct guac_instruction) /*24ul*/ );
+              parsed_instruction = (struct guac_instruction *)return_value_malloc_4;
               if(parsed_instruction == ((struct guac_instruction *)NULL))
               {
-                enum guac_status *return_value___guac_error$5;
-                return_value___guac_error$5=__guac_error();
-                *return_value___guac_error$5 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-                const char **return_value___guac_error_message$6;
-                return_value___guac_error_message$6=__guac_error_message();
-                *return_value___guac_error_message$6 = "Could not allocate memory for parsed instruction";
+                enum guac_status *return_value___guac_error_5;
+                return_value___guac_error_5=__guac_error();
+                *return_value___guac_error_5 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+                const char **return_value___guac_error_message_6;
+                return_value___guac_error_message_6=__guac_error_message();
+                *return_value___guac_error_message_6 = "Could not allocate memory for parsed instruction";
                 return (struct guac_instruction *)(void *)0;
               }
 
               parsed_instruction->argc = socket->__instructionbuf_elementc - 1;
-              void *return_value_malloc$7;
-              return_value_malloc$7=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)parsed_instruction->argc);
-              parsed_instruction->argv = (char **)return_value_malloc$7;
+              void *return_value_malloc_7;
+              return_value_malloc_7=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)parsed_instruction->argc);
+              parsed_instruction->argv = (char **)return_value_malloc_7;
               if(parsed_instruction->argv == ((char **)NULL))
               {
-                enum guac_status *return_value___guac_error$8;
-                return_value___guac_error$8=__guac_error();
-                *return_value___guac_error$8 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-                const char **return_value___guac_error_message$9;
-                return_value___guac_error_message$9=__guac_error_message();
-                *return_value___guac_error_message$9 = "Could not allocate memory for arguments of parsed instruction";
+                enum guac_status *return_value___guac_error_8;
+                return_value___guac_error_8=__guac_error();
+                *return_value___guac_error_8 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+                const char **return_value___guac_error_message_9;
+                return_value___guac_error_message_9=__guac_error_message();
+                *return_value___guac_error_message_9 = "Could not allocate memory for arguments of parsed instruction";
                 free((void *)parsed_instruction);
                 return (struct guac_instruction *)(void *)0;
               }
@@ -6824,12 +6824,12 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
               parsed_instruction->opcode=strdup(socket->__instructionbuf_elementv[(signed long int)0]);
               if(parsed_instruction->opcode == ((char *)NULL))
               {
-                enum guac_status *return_value___guac_error$10;
-                return_value___guac_error$10=__guac_error();
-                *return_value___guac_error$10 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-                const char **return_value___guac_error_message$11;
-                return_value___guac_error_message$11=__guac_error_message();
-                *return_value___guac_error_message$11 = "Could not allocate memory for opcode of parsed instruction";
+                enum guac_status *return_value___guac_error_10;
+                return_value___guac_error_10=__guac_error();
+                *return_value___guac_error_10 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+                const char **return_value___guac_error_message_11;
+                return_value___guac_error_message_11=__guac_error_message();
+                *return_value___guac_error_message_11 = "Could not allocate memory for opcode of parsed instruction";
                 free((void *)parsed_instruction->argv);
                 free((void *)parsed_instruction);
                 return (struct guac_instruction *)(void *)0;
@@ -6841,12 +6841,12 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
                 parsed_instruction->argv[(signed long int)j]=strdup(socket->__instructionbuf_elementv[(signed long int)(j + 1)]);
                 if(parsed_instruction->argv[(signed long int)j] == ((char *)NULL))
                 {
-                  enum guac_status *return_value___guac_error$12;
-                  return_value___guac_error$12=__guac_error();
-                  *return_value___guac_error$12 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-                  const char **return_value___guac_error_message$13;
-                  return_value___guac_error_message$13=__guac_error_message();
-                  *return_value___guac_error_message$13 = "Could not allocate memory for single argument of parsed instruction";
+                  enum guac_status *return_value___guac_error_12;
+                  return_value___guac_error_12=__guac_error();
+                  *return_value___guac_error_12 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+                  const char **return_value___guac_error_message_13;
+                  return_value___guac_error_message_13=__guac_error_message();
+                  *return_value___guac_error_message_13 = "Could not allocate memory for single argument of parsed instruction";
                   do
                   {
                     j = j - 1;
@@ -6873,12 +6873,12 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
             else
               if(!((signed int)terminator == 44))
               {
-                enum guac_status *return_value___guac_error$14;
-                return_value___guac_error$14=__guac_error();
-                *return_value___guac_error$14 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
-                const char **return_value___guac_error_message$15;
-                return_value___guac_error_message$15=__guac_error_message();
-                *return_value___guac_error_message$15 = "Element terminator of instruction was not ';' nor ','";
+                enum guac_status *return_value___guac_error_14;
+                return_value___guac_error_14=__guac_error();
+                *return_value___guac_error_14 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
+                const char **return_value___guac_error_message_15;
+                return_value___guac_error_message_15=__guac_error_message();
+                *return_value___guac_error_message_15 = "Element terminator of instruction was not ';' nor ','";
                 return (struct guac_instruction *)(void *)0;
               }
 
@@ -6890,12 +6890,12 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
 
         else
         {
-          enum guac_status *return_value___guac_error$16;
-          return_value___guac_error$16=__guac_error();
-          *return_value___guac_error$16 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
-          const char **return_value___guac_error_message$17;
-          return_value___guac_error_message$17=__guac_error_message();
-          *return_value___guac_error_message$17 = "Non-numeric character in element length";
+          enum guac_status *return_value___guac_error_16;
+          return_value___guac_error_16=__guac_error();
+          *return_value___guac_error_16 = (enum guac_status)GUAC_STATUS_BAD_ARGUMENT;
+          const char **return_value___guac_error_message_17;
+          return_value___guac_error_message_17=__guac_error_message();
+          *return_value___guac_error_message_17 = "Non-numeric character in element length";
           return (struct guac_instruction *)(void *)0;
         }
     }
@@ -6909,12 +6909,12 @@ struct guac_instruction * guac_instruction_read(struct guac_socket *socket, sign
 
     if(retval == 0)
     {
-      enum guac_status *return_value___guac_error$18;
-      return_value___guac_error$18=__guac_error();
-      *return_value___guac_error$18 = (enum guac_status)GUAC_STATUS_NO_INPUT;
-      const char **return_value___guac_error_message$19;
-      return_value___guac_error_message$19=__guac_error_message();
-      *return_value___guac_error_message$19 = "End of stream reached while reading instruction";
+      enum guac_status *return_value___guac_error_18;
+      return_value___guac_error_18=__guac_error();
+      *return_value___guac_error_18 = (enum guac_status)GUAC_STATUS_NO_INPUT;
+      const char **return_value___guac_error_message_19;
+      return_value___guac_error_message_19=__guac_error_message();
+      *return_value___guac_error_message_19 = "End of stream reached while reading instruction";
       return (struct guac_instruction *)(void *)0;
     }
 
@@ -6931,9 +6931,9 @@ signed int guac_instruction_waiting(struct guac_socket *socket, signed int usec_
 
   else
   {
-    signed int return_value_guac_socket_select$1;
-    return_value_guac_socket_select$1=guac_socket_select(socket, usec_timeout);
-    return return_value_guac_socket_select$1;
+    signed int return_value_guac_socket_select_1;
+    return_value_guac_socket_select_1=guac_socket_select(socket, usec_timeout);
+    return return_value_guac_socket_select_1;
   }
 }
 
@@ -6952,9 +6952,9 @@ struct guac_palette * guac_palette_alloc(struct _cairo_surface *surface)
   unsigned char *data;
   data=cairo_image_surface_get_data(surface);
   struct guac_palette *palette;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_palette) /*33540ul*/ );
-  palette = (struct guac_palette *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_palette) /*33540ul*/ );
+  palette = (struct guac_palette *)return_value_malloc_1;
   memset((void *)palette, 0, sizeof(struct guac_palette) /*33540ul*/ );
   y = 0;
   for( ; !(y >= height); y = y + 1)
@@ -7031,9 +7031,9 @@ void guac_palette_free(struct guac_palette *palette)
 struct guac_pool * guac_pool_alloc(signed int size)
 {
   struct guac_pool *pool;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_pool) /*24ul*/ );
-  pool = (struct guac_pool *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_pool) /*24ul*/ );
+  pool = (struct guac_pool *)return_value_malloc_1;
   if(pool == ((struct guac_pool *)NULL))
     return (struct guac_pool *)(void *)0;
 
@@ -7066,9 +7066,9 @@ void guac_pool_free(struct guac_pool *pool)
 void guac_pool_free_int(struct guac_pool *pool, signed int value)
 {
   struct guac_pool_int *pool_int;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_pool_int) /*16ul*/ );
-  pool_int = (struct guac_pool_int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_pool_int) /*16ul*/ );
+  pool_int = (struct guac_pool_int *)return_value_malloc_1;
   pool_int->value = value;
   pool_int->__next = (struct guac_pool_int *)(void *)0;
   if(pool->__tail == ((struct guac_pool_int *)NULL))
@@ -7089,18 +7089,18 @@ void guac_pool_free_int(struct guac_pool *pool, signed int value)
 signed int guac_pool_next_int(struct guac_pool *pool)
 {
   signed int value;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(pool->__head == ((struct guac_pool_int *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = pool->__next_value < pool->min_size ? (_Bool)1 : (_Bool)0;
-  signed int tmp_post$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = pool->__next_value < pool->min_size ? (_Bool)1 : (_Bool)0;
+  signed int tmp_post_1;
+  if(tmp_if_expr_2)
   {
-    tmp_post$1 = pool->__next_value;
+    tmp_post_1 = pool->__next_value;
     pool->__next_value = pool->__next_value + 1;
-    return tmp_post$1;
+    return tmp_post_1;
   }
 
   else
@@ -7129,149 +7129,149 @@ signed int guac_protocol_send_arc(struct guac_socket *socket, const struct guac_
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "3.arc,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "3.arc,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)radius);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)radius);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_double$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_double_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$18=__guac_socket_write_length_double(socket, startAngle);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_double$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_18=__guac_socket_write_length_double(socket, startAngle);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_double_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_double$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_double_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$22=__guac_socket_write_length_double(socket, endAngle);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_double$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_22=__guac_socket_write_length_double(socket, endAngle);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_double_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value_guac_socket_write_string$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value_guac_socket_write_string_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$26=guac_socket_write_string(socket, negative != 0 ? "1.1" : "1.0");
-    tmp_if_expr$27 = return_value_guac_socket_write_string$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_26=guac_socket_write_string(socket, negative != 0 ? "1.1" : "1.0");
+    tmp_if_expr_27 = return_value_guac_socket_write_string_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ";");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ";");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$29;
+  ret_val = (signed int)tmp_if_expr_29;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7291,30 +7291,30 @@ signed int guac_protocol_send_args(struct guac_socket *socket, const char **args
 // file ./guacamole/protocol.h line 290
 signed int guac_protocol_send_audio(struct guac_socket *socket, signed int channel, const char *mimetype, double duration, void *data, signed int size)
 {
-  signed int return_value_guac_protocol_send_audio_header$1;
-  return_value_guac_protocol_send_audio_header$1=guac_protocol_send_audio_header(socket, channel, mimetype, duration, size);
-  _Bool tmp_if_expr$3;
-  signed int return_value_guac_protocol_send_audio_data$2;
-  if(!(return_value_guac_protocol_send_audio_header$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_guac_protocol_send_audio_header_1;
+  return_value_guac_protocol_send_audio_header_1=guac_protocol_send_audio_header(socket, channel, mimetype, duration, size);
+  _Bool tmp_if_expr_3;
+  signed int return_value_guac_protocol_send_audio_data_2;
+  if(!(return_value_guac_protocol_send_audio_header_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_guac_protocol_send_audio_data$2=guac_protocol_send_audio_data(socket, data, size);
-    tmp_if_expr$3 = return_value_guac_protocol_send_audio_data$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_guac_protocol_send_audio_data_2=guac_protocol_send_audio_data(socket, data, size);
+    tmp_if_expr_3 = return_value_guac_protocol_send_audio_data_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_guac_protocol_send_audio_end$4;
-  return_value_guac_protocol_send_audio_end$4=guac_protocol_send_audio_end(socket);
-  return (signed int)tmp_if_expr$3 | return_value_guac_protocol_send_audio_end$4;
+  signed int return_value_guac_protocol_send_audio_end_4;
+  return_value_guac_protocol_send_audio_end_4=guac_protocol_send_audio_end(socket);
+  return (signed int)tmp_if_expr_3 | return_value_guac_protocol_send_audio_end_4;
 }
 
 // guac_protocol_send_audio_data
 // file protocol.c line 450
 signed int guac_protocol_send_audio_data(struct guac_socket *socket, void *data, signed int count)
 {
-  signed long int return_value_guac_socket_write_base64$1;
-  return_value_guac_socket_write_base64$1=guac_socket_write_base64(socket, data, (unsigned long int)count);
-  return (signed int)return_value_guac_socket_write_base64$1;
+  signed long int return_value_guac_socket_write_base64_1;
+  return_value_guac_socket_write_base64_1=guac_socket_write_base64(socket, data, (unsigned long int)count);
+  return (signed int)return_value_guac_socket_write_base64_1;
 }
 
 // guac_protocol_send_audio_end
@@ -7322,19 +7322,19 @@ signed int guac_protocol_send_audio_data(struct guac_socket *socket, void *data,
 signed int guac_protocol_send_audio_end(struct guac_socket *socket)
 {
   signed int ret_val;
-  signed long int return_value_guac_socket_flush_base64$1;
-  return_value_guac_socket_flush_base64$1=guac_socket_flush_base64(socket);
-  _Bool tmp_if_expr$3;
-  signed long int return_value_guac_socket_write_string$2;
-  if(!(return_value_guac_socket_flush_base64$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_flush_base64_1;
+  return_value_guac_socket_flush_base64_1=guac_socket_flush_base64(socket);
+  _Bool tmp_if_expr_3;
+  signed long int return_value_guac_socket_write_string_2;
+  if(!(return_value_guac_socket_flush_base64_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$2=guac_socket_write_string(socket, ";");
-    tmp_if_expr$3 = return_value_guac_socket_write_string$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_2=guac_socket_write_string(socket, ";");
+    tmp_if_expr_3 = return_value_guac_socket_write_string_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$3;
+  ret_val = (signed int)tmp_if_expr_3;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7345,89 +7345,89 @@ signed int guac_protocol_send_audio_header(struct guac_socket *socket, signed in
 {
   signed int base64_length = ((size + 2) / 3) * 4;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.audio,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.audio,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)channel);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)channel);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_string$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_string_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$6=__guac_socket_write_length_string(socket, mimetype);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_string$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_6=__guac_socket_write_length_string(socket, mimetype);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_string_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_double$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_double_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$10=__guac_socket_write_length_double(socket, duration);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_double$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_10=__guac_socket_write_length_double(socket, duration);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_double_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value_guac_socket_write_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value_guac_socket_write_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_int$14=guac_socket_write_int(socket, (signed long int)base64_length);
-    tmp_if_expr$15 = return_value_guac_socket_write_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_int_14=guac_socket_write_int(socket, (signed long int)base64_length);
+    tmp_if_expr_15 = return_value_guac_socket_write_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ".");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ".");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$17;
+  return (signed int)tmp_if_expr_17;
 }
 
 // guac_protocol_send_blob
@@ -7437,79 +7437,79 @@ signed int guac_protocol_send_blob(struct guac_socket *socket, signed int index,
   signed int base64_length = ((count + 2) / 3) * 4;
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.blob,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.blob,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value_guac_socket_write_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value_guac_socket_write_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_int$6=guac_socket_write_int(socket, (signed long int)base64_length);
-    tmp_if_expr$7 = return_value_guac_socket_write_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_int_6=guac_socket_write_int(socket, (signed long int)base64_length);
+    tmp_if_expr_7 = return_value_guac_socket_write_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ".");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ".");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value_guac_socket_write_base64$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value_guac_socket_write_base64_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_base64$10=guac_socket_write_base64(socket, data, (unsigned long int)count);
-    tmp_if_expr$11 = return_value_guac_socket_write_base64$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_base64_10=guac_socket_write_base64(socket, data, (unsigned long int)count);
+    tmp_if_expr_11 = return_value_guac_socket_write_base64_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_flush_base64$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_flush_base64_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_flush_base64$12=guac_socket_flush_base64(socket);
-    tmp_if_expr$13 = return_value_guac_socket_flush_base64$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_flush_base64_12=guac_socket_flush_base64(socket);
+    tmp_if_expr_13 = return_value_guac_socket_flush_base64_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value_guac_socket_write_string$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value_guac_socket_write_string_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$14=guac_socket_write_string(socket, ";");
-    tmp_if_expr$15 = return_value_guac_socket_write_string$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_14=guac_socket_write_string(socket, ";");
+    tmp_if_expr_15 = return_value_guac_socket_write_string_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$15;
+  ret_val = (signed int)tmp_if_expr_15;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7520,129 +7520,129 @@ signed int guac_protocol_send_cfill(struct guac_socket *socket, enum guac_compos
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.cfill,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.cfill,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)mode);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)mode);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)r);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)r);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)g);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)g);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)b);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)b);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_int$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_int_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$22=__guac_socket_write_length_int(socket, (signed long int)a);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_int$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_22=__guac_socket_write_length_int(socket, (signed long int)a);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_int_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ";");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ";");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$25;
+  ret_val = (signed int)tmp_if_expr_25;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7653,29 +7653,29 @@ signed int guac_protocol_send_clip(struct guac_socket *socket, const struct guac
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.clip,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.clip,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7686,29 +7686,29 @@ signed int guac_protocol_send_clipboard(struct guac_socket *socket, const char *
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "9.clipboard,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_string$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "9.clipboard,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_string_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$2=__guac_socket_write_length_string(socket, data);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_string$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_2=__guac_socket_write_length_string(socket, data);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_string_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7719,29 +7719,29 @@ signed int guac_protocol_send_close(struct guac_socket *socket, const struct gua
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.close,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.close,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7763,189 +7763,189 @@ signed int guac_protocol_send_copy(struct guac_socket *socket, const struct guac
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.copy,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.copy,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)srcx);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)srcx);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)srcy);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)srcy);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)w);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)w);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)h);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)h);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_int$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_int_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$22=__guac_socket_write_length_int(socket, (signed long int)mode);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_int$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_22=__guac_socket_write_length_int(socket, (signed long int)mode);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_int_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value___guac_socket_write_length_int$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value___guac_socket_write_length_int_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$26=__guac_socket_write_length_int(socket, (signed long int)dstl->index);
-    tmp_if_expr$27 = return_value___guac_socket_write_length_int$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_26=__guac_socket_write_length_int(socket, (signed long int)dstl->index);
+    tmp_if_expr_27 = return_value___guac_socket_write_length_int_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ",");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ",");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$31;
-  signed long int return_value___guac_socket_write_length_int$30;
-  if(tmp_if_expr$29)
-    tmp_if_expr$31 = (_Bool)1;
+  _Bool tmp_if_expr_31;
+  signed long int return_value___guac_socket_write_length_int_30;
+  if(tmp_if_expr_29)
+    tmp_if_expr_31 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$30=__guac_socket_write_length_int(socket, (signed long int)dstx);
-    tmp_if_expr$31 = return_value___guac_socket_write_length_int$30 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_30=__guac_socket_write_length_int(socket, (signed long int)dstx);
+    tmp_if_expr_31 = return_value___guac_socket_write_length_int_30 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$33;
-  signed long int return_value_guac_socket_write_string$32;
-  if(tmp_if_expr$31)
-    tmp_if_expr$33 = (_Bool)1;
+  _Bool tmp_if_expr_33;
+  signed long int return_value_guac_socket_write_string_32;
+  if(tmp_if_expr_31)
+    tmp_if_expr_33 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$32=guac_socket_write_string(socket, ",");
-    tmp_if_expr$33 = return_value_guac_socket_write_string$32 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_32=guac_socket_write_string(socket, ",");
+    tmp_if_expr_33 = return_value_guac_socket_write_string_32 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$35;
-  signed long int return_value___guac_socket_write_length_int$34;
-  if(tmp_if_expr$33)
-    tmp_if_expr$35 = (_Bool)1;
+  _Bool tmp_if_expr_35;
+  signed long int return_value___guac_socket_write_length_int_34;
+  if(tmp_if_expr_33)
+    tmp_if_expr_35 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$34=__guac_socket_write_length_int(socket, (signed long int)dsty);
-    tmp_if_expr$35 = return_value___guac_socket_write_length_int$34 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_34=__guac_socket_write_length_int(socket, (signed long int)dsty);
+    tmp_if_expr_35 = return_value___guac_socket_write_length_int_34 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$37;
-  signed long int return_value_guac_socket_write_string$36;
-  if(tmp_if_expr$35)
-    tmp_if_expr$37 = (_Bool)1;
+  _Bool tmp_if_expr_37;
+  signed long int return_value_guac_socket_write_string_36;
+  if(tmp_if_expr_35)
+    tmp_if_expr_37 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$36=guac_socket_write_string(socket, ";");
-    tmp_if_expr$37 = return_value_guac_socket_write_string$36 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_36=guac_socket_write_string(socket, ";");
+    tmp_if_expr_37 = return_value_guac_socket_write_string_36 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$37;
+  ret_val = (signed int)tmp_if_expr_37;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -7956,189 +7956,189 @@ signed int guac_protocol_send_cstroke(struct guac_socket *socket, enum guac_comp
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "7.cstroke,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "7.cstroke,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)mode);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)mode);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)cap);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)cap);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)join);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)join);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)thickness);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)thickness);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_int$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_int_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$22=__guac_socket_write_length_int(socket, (signed long int)r);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_int$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_22=__guac_socket_write_length_int(socket, (signed long int)r);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_int_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value___guac_socket_write_length_int$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value___guac_socket_write_length_int_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$26=__guac_socket_write_length_int(socket, (signed long int)g);
-    tmp_if_expr$27 = return_value___guac_socket_write_length_int$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_26=__guac_socket_write_length_int(socket, (signed long int)g);
+    tmp_if_expr_27 = return_value___guac_socket_write_length_int_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ",");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ",");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$31;
-  signed long int return_value___guac_socket_write_length_int$30;
-  if(tmp_if_expr$29)
-    tmp_if_expr$31 = (_Bool)1;
+  _Bool tmp_if_expr_31;
+  signed long int return_value___guac_socket_write_length_int_30;
+  if(tmp_if_expr_29)
+    tmp_if_expr_31 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$30=__guac_socket_write_length_int(socket, (signed long int)b);
-    tmp_if_expr$31 = return_value___guac_socket_write_length_int$30 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_30=__guac_socket_write_length_int(socket, (signed long int)b);
+    tmp_if_expr_31 = return_value___guac_socket_write_length_int_30 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$33;
-  signed long int return_value_guac_socket_write_string$32;
-  if(tmp_if_expr$31)
-    tmp_if_expr$33 = (_Bool)1;
+  _Bool tmp_if_expr_33;
+  signed long int return_value_guac_socket_write_string_32;
+  if(tmp_if_expr_31)
+    tmp_if_expr_33 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$32=guac_socket_write_string(socket, ",");
-    tmp_if_expr$33 = return_value_guac_socket_write_string$32 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_32=guac_socket_write_string(socket, ",");
+    tmp_if_expr_33 = return_value_guac_socket_write_string_32 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$35;
-  signed long int return_value___guac_socket_write_length_int$34;
-  if(tmp_if_expr$33)
-    tmp_if_expr$35 = (_Bool)1;
+  _Bool tmp_if_expr_35;
+  signed long int return_value___guac_socket_write_length_int_34;
+  if(tmp_if_expr_33)
+    tmp_if_expr_35 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$34=__guac_socket_write_length_int(socket, (signed long int)a);
-    tmp_if_expr$35 = return_value___guac_socket_write_length_int$34 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_34=__guac_socket_write_length_int(socket, (signed long int)a);
+    tmp_if_expr_35 = return_value___guac_socket_write_length_int_34 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$37;
-  signed long int return_value_guac_socket_write_string$36;
-  if(tmp_if_expr$35)
-    tmp_if_expr$37 = (_Bool)1;
+  _Bool tmp_if_expr_37;
+  signed long int return_value_guac_socket_write_string_36;
+  if(tmp_if_expr_35)
+    tmp_if_expr_37 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$36=guac_socket_write_string(socket, ";");
-    tmp_if_expr$37 = return_value_guac_socket_write_string$36 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_36=guac_socket_write_string(socket, ";");
+    tmp_if_expr_37 = return_value_guac_socket_write_string_36 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$37;
+  ret_val = (signed int)tmp_if_expr_37;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8149,149 +8149,149 @@ signed int guac_protocol_send_cursor(struct guac_socket *socket, signed int x, s
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "6.cursor,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "6.cursor,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)srcx);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)srcx);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)srcy);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)srcy);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_int$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_int_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$22=__guac_socket_write_length_int(socket, (signed long int)w);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_int$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_22=__guac_socket_write_length_int(socket, (signed long int)w);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_int_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value___guac_socket_write_length_int$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value___guac_socket_write_length_int_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$26=__guac_socket_write_length_int(socket, (signed long int)h);
-    tmp_if_expr$27 = return_value___guac_socket_write_length_int$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_26=__guac_socket_write_length_int(socket, (signed long int)h);
+    tmp_if_expr_27 = return_value___guac_socket_write_length_int_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ";");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ";");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$29;
+  ret_val = (signed int)tmp_if_expr_29;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8302,149 +8302,149 @@ signed int guac_protocol_send_curve(struct guac_socket *socket, const struct gua
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.curve,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.curve,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)cp1x);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)cp1x);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)cp1y);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)cp1y);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)cp2x);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)cp2x);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)cp2y);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)cp2y);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_int$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_int_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$22=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_int$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_22=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_int_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value___guac_socket_write_length_int$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value___guac_socket_write_length_int_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$26=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$27 = return_value___guac_socket_write_length_int$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_26=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_27 = return_value___guac_socket_write_length_int_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ";");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ";");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$29;
+  ret_val = (signed int)tmp_if_expr_29;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8455,9 +8455,9 @@ signed int guac_protocol_send_disconnect(struct guac_socket *socket)
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "10.disconnect;");
-  ret_val = (signed int)return_value_guac_socket_write_string$1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "10.disconnect;");
+  ret_val = (signed int)return_value_guac_socket_write_string_1;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8468,29 +8468,29 @@ signed int guac_protocol_send_dispose(struct guac_socket *socket, const struct g
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "7.dispose,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "7.dispose,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8501,149 +8501,149 @@ signed int guac_protocol_send_distort(struct guac_socket *socket, const struct g
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "7.distort,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "7.distort,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_double$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_double_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$6=__guac_socket_write_length_double(socket, a);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_double$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_6=__guac_socket_write_length_double(socket, a);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_double_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_double$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_double_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$10=__guac_socket_write_length_double(socket, b);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_double$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_10=__guac_socket_write_length_double(socket, b);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_double_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_double$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_double_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$14=__guac_socket_write_length_double(socket, c);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_double$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_14=__guac_socket_write_length_double(socket, c);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_double_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_double$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_double_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$18=__guac_socket_write_length_double(socket, d);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_double$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_18=__guac_socket_write_length_double(socket, d);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_double_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_double$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_double_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$22=__guac_socket_write_length_double(socket, e);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_double$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_22=__guac_socket_write_length_double(socket, e);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_double_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value___guac_socket_write_length_double$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value___guac_socket_write_length_double_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$26=__guac_socket_write_length_double(socket, f);
-    tmp_if_expr$27 = return_value___guac_socket_write_length_double$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_26=__guac_socket_write_length_double(socket, f);
+    tmp_if_expr_27 = return_value___guac_socket_write_length_double_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ";");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ";");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$29;
+  ret_val = (signed int)tmp_if_expr_29;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8654,29 +8654,29 @@ signed int guac_protocol_send_end(struct guac_socket *socket, signed int index)
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "3.end,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "3.end,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8687,29 +8687,29 @@ signed int guac_protocol_send_error(struct guac_socket *socket, const char *erro
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.error,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_string$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.error,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_string_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$2=__guac_socket_write_length_string(socket, error);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_string$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_2=__guac_socket_write_length_string(socket, error);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_string_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8720,69 +8720,69 @@ signed int guac_protocol_send_file(struct guac_socket *socket, signed int index,
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.file,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.file,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_string$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_string_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$6=__guac_socket_write_length_string(socket, mimetype);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_string$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_6=__guac_socket_write_length_string(socket, mimetype);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_string_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_string$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_string_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$10=__guac_socket_write_length_string(socket, name);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_string$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_10=__guac_socket_write_length_string(socket, name);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_string_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ";");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ";");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$13;
+  ret_val = (signed int)tmp_if_expr_13;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8793,29 +8793,29 @@ signed int guac_protocol_send_identity(struct guac_socket *socket, const struct 
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "8.identity,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "8.identity,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8826,69 +8826,69 @@ signed int guac_protocol_send_lfill(struct guac_socket *socket, enum guac_compos
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.lfill,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.lfill,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)mode);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)mode);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ";");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ";");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$13;
+  ret_val = (signed int)tmp_if_expr_13;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8899,69 +8899,69 @@ signed int guac_protocol_send_line(struct guac_socket *socket, const struct guac
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.line,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.line,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ";");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ";");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$13;
+  ret_val = (signed int)tmp_if_expr_13;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -8972,129 +8972,129 @@ signed int guac_protocol_send_lstroke(struct guac_socket *socket, enum guac_comp
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "7.lstroke,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "7.lstroke,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)mode);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)mode);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)cap);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)cap);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)join);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)join);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)thickness);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)thickness);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_int$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_int_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$22=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_int$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_22=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_int_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ";");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ";");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$25;
+  ret_val = (signed int)tmp_if_expr_25;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9105,109 +9105,109 @@ signed int guac_protocol_send_move(struct guac_socket *socket, const struct guac
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.move,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.move,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)parent->index);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)parent->index);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)z);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)z);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ";");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ";");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$21;
+  ret_val = (signed int)tmp_if_expr_21;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9218,29 +9218,29 @@ signed int guac_protocol_send_name(struct guac_socket *socket, const char *name)
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.name,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_string$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.name,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_string_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$2=__guac_socket_write_length_string(socket, name);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_string$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_2=__guac_socket_write_length_string(socket, name);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_string_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9251,49 +9251,49 @@ signed int guac_protocol_send_nest(struct guac_socket *socket, signed int index,
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.nest,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.nest,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_string$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_string_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$6=__guac_socket_write_length_string(socket, data);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_string$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_6=__guac_socket_write_length_string(socket, data);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_string_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ";");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ";");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$9;
+  ret_val = (signed int)tmp_if_expr_9;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9304,109 +9304,109 @@ signed int guac_protocol_send_png(struct guac_socket *socket, enum guac_composit
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "3.png,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "3.png,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)mode);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)mode);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed int return_value___guac_socket_write_length_png$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed int return_value___guac_socket_write_length_png_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_png$18=__guac_socket_write_length_png(socket, surface);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_png$18 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_png_18=__guac_socket_write_length_png(socket, surface);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_png_18 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ";");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ";");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$21;
+  ret_val = (signed int)tmp_if_expr_21;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9417,29 +9417,29 @@ signed int guac_protocol_send_pop(struct guac_socket *socket, const struct guac_
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "3.pop,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "3.pop,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9450,29 +9450,29 @@ signed int guac_protocol_send_push(struct guac_socket *socket, const struct guac
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.push,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.push,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9483,109 +9483,109 @@ signed int guac_protocol_send_rect(struct guac_socket *socket, const struct guac
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.rect,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.rect,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)width);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)width);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)height);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)height);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ";");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ";");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$21;
+  ret_val = (signed int)tmp_if_expr_21;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9596,29 +9596,29 @@ signed int guac_protocol_send_reset(struct guac_socket *socket, const struct gua
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.reset,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.reset,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9629,29 +9629,29 @@ signed int guac_protocol_send_select(struct guac_socket *socket, const char *pro
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "6.select,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_string$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "6.select,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_string_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$2=__guac_socket_write_length_string(socket, protocol);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_string$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_2=__guac_socket_write_length_string(socket, protocol);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_string_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9662,69 +9662,69 @@ signed int guac_protocol_send_set(struct guac_socket *socket, const struct guac_
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "3.set,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "3.set,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_string$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_string_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$6=__guac_socket_write_length_string(socket, name);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_string$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_6=__guac_socket_write_length_string(socket, name);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_string_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_string$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_string_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$10=__guac_socket_write_length_string(socket, value);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_string$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_10=__guac_socket_write_length_string(socket, value);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_string_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ";");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ";");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$13;
+  ret_val = (signed int)tmp_if_expr_13;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9735,49 +9735,49 @@ signed int guac_protocol_send_shade(struct guac_socket *socket, const struct gua
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.shade,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.shade,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)a);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)a);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ";");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ";");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$9;
+  ret_val = (signed int)tmp_if_expr_9;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9788,69 +9788,69 @@ signed int guac_protocol_send_size(struct guac_socket *socket, const struct guac
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.size,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.size,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)w);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)w);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)h);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)h);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ";");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ";");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$13;
+  ret_val = (signed int)tmp_if_expr_13;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9861,69 +9861,69 @@ signed int guac_protocol_send_start(struct guac_socket *socket, const struct gua
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.start,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.start,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)x);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)x);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)y);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)y);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ";");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ";");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$13;
+  ret_val = (signed int)tmp_if_expr_13;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9934,29 +9934,29 @@ signed int guac_protocol_send_sync(struct guac_socket *socket, signed long int t
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "4.sync,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "4.sync,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, timestamp);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, timestamp);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ";");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ";");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$5;
+  ret_val = (signed int)tmp_if_expr_5;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -9967,189 +9967,189 @@ signed int guac_protocol_send_transfer(struct guac_socket *socket, const struct 
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "8.transfer,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "8.transfer,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)srcl->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_int$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_int_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$6=__guac_socket_write_length_int(socket, (signed long int)srcx);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_int$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_6=__guac_socket_write_length_int(socket, (signed long int)srcx);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_int_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_int$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_int_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$10=__guac_socket_write_length_int(socket, (signed long int)srcy);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_int$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_10=__guac_socket_write_length_int(socket, (signed long int)srcy);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_int_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$14=__guac_socket_write_length_int(socket, (signed long int)w);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_14=__guac_socket_write_length_int(socket, (signed long int)w);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_int$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_int_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$18=__guac_socket_write_length_int(socket, (signed long int)h);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_int$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_18=__guac_socket_write_length_int(socket, (signed long int)h);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_int_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_int$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_int_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$22=__guac_socket_write_length_int(socket, (signed long int)fn);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_int$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_22=__guac_socket_write_length_int(socket, (signed long int)fn);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_int_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value___guac_socket_write_length_int$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value___guac_socket_write_length_int_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$26=__guac_socket_write_length_int(socket, (signed long int)dstl->index);
-    tmp_if_expr$27 = return_value___guac_socket_write_length_int$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_26=__guac_socket_write_length_int(socket, (signed long int)dstl->index);
+    tmp_if_expr_27 = return_value___guac_socket_write_length_int_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ",");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ",");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$31;
-  signed long int return_value___guac_socket_write_length_int$30;
-  if(tmp_if_expr$29)
-    tmp_if_expr$31 = (_Bool)1;
+  _Bool tmp_if_expr_31;
+  signed long int return_value___guac_socket_write_length_int_30;
+  if(tmp_if_expr_29)
+    tmp_if_expr_31 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$30=__guac_socket_write_length_int(socket, (signed long int)dstx);
-    tmp_if_expr$31 = return_value___guac_socket_write_length_int$30 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_30=__guac_socket_write_length_int(socket, (signed long int)dstx);
+    tmp_if_expr_31 = return_value___guac_socket_write_length_int_30 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$33;
-  signed long int return_value_guac_socket_write_string$32;
-  if(tmp_if_expr$31)
-    tmp_if_expr$33 = (_Bool)1;
+  _Bool tmp_if_expr_33;
+  signed long int return_value_guac_socket_write_string_32;
+  if(tmp_if_expr_31)
+    tmp_if_expr_33 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$32=guac_socket_write_string(socket, ",");
-    tmp_if_expr$33 = return_value_guac_socket_write_string$32 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_32=guac_socket_write_string(socket, ",");
+    tmp_if_expr_33 = return_value_guac_socket_write_string_32 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$35;
-  signed long int return_value___guac_socket_write_length_int$34;
-  if(tmp_if_expr$33)
-    tmp_if_expr$35 = (_Bool)1;
+  _Bool tmp_if_expr_35;
+  signed long int return_value___guac_socket_write_length_int_34;
+  if(tmp_if_expr_33)
+    tmp_if_expr_35 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$34=__guac_socket_write_length_int(socket, (signed long int)dsty);
-    tmp_if_expr$35 = return_value___guac_socket_write_length_int$34 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_34=__guac_socket_write_length_int(socket, (signed long int)dsty);
+    tmp_if_expr_35 = return_value___guac_socket_write_length_int_34 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$37;
-  signed long int return_value_guac_socket_write_string$36;
-  if(tmp_if_expr$35)
-    tmp_if_expr$37 = (_Bool)1;
+  _Bool tmp_if_expr_37;
+  signed long int return_value_guac_socket_write_string_36;
+  if(tmp_if_expr_35)
+    tmp_if_expr_37 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$36=guac_socket_write_string(socket, ";");
-    tmp_if_expr$37 = return_value_guac_socket_write_string$36 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_36=guac_socket_write_string(socket, ";");
+    tmp_if_expr_37 = return_value_guac_socket_write_string_36 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$37;
+  ret_val = (signed int)tmp_if_expr_37;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -10160,149 +10160,149 @@ signed int guac_protocol_send_transform(struct guac_socket *socket, const struct
 {
   signed int ret_val;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "9.transform,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "9.transform,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_double$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_double_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$6=__guac_socket_write_length_double(socket, a);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_double$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_6=__guac_socket_write_length_double(socket, a);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_double_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_double$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_double_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$10=__guac_socket_write_length_double(socket, b);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_double$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_10=__guac_socket_write_length_double(socket, b);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_double_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value___guac_socket_write_length_double$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value___guac_socket_write_length_double_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$14=__guac_socket_write_length_double(socket, c);
-    tmp_if_expr$15 = return_value___guac_socket_write_length_double$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_14=__guac_socket_write_length_double(socket, c);
+    tmp_if_expr_15 = return_value___guac_socket_write_length_double_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ",");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ",");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed long int return_value___guac_socket_write_length_double$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed long int return_value___guac_socket_write_length_double_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$18=__guac_socket_write_length_double(socket, d);
-    tmp_if_expr$19 = return_value___guac_socket_write_length_double$18 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_18=__guac_socket_write_length_double(socket, d);
+    tmp_if_expr_19 = return_value___guac_socket_write_length_double_18 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed long int return_value_guac_socket_write_string$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed long int return_value_guac_socket_write_string_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$20=guac_socket_write_string(socket, ",");
-    tmp_if_expr$21 = return_value_guac_socket_write_string$20 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_20=guac_socket_write_string(socket, ",");
+    tmp_if_expr_21 = return_value_guac_socket_write_string_20 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  signed long int return_value___guac_socket_write_length_double$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  signed long int return_value___guac_socket_write_length_double_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$22=__guac_socket_write_length_double(socket, e);
-    tmp_if_expr$23 = return_value___guac_socket_write_length_double$22 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_22=__guac_socket_write_length_double(socket, e);
+    tmp_if_expr_23 = return_value___guac_socket_write_length_double_22 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed long int return_value_guac_socket_write_string$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed long int return_value_guac_socket_write_string_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$24=guac_socket_write_string(socket, ",");
-    tmp_if_expr$25 = return_value_guac_socket_write_string$24 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_24=guac_socket_write_string(socket, ",");
+    tmp_if_expr_25 = return_value_guac_socket_write_string_24 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed long int return_value___guac_socket_write_length_double$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed long int return_value___guac_socket_write_length_double_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$26=__guac_socket_write_length_double(socket, f);
-    tmp_if_expr$27 = return_value___guac_socket_write_length_double$26 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_26=__guac_socket_write_length_double(socket, f);
+    tmp_if_expr_27 = return_value___guac_socket_write_length_double_26 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed long int return_value_guac_socket_write_string$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed long int return_value_guac_socket_write_string_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$28=guac_socket_write_string(socket, ";");
-    tmp_if_expr$29 = return_value_guac_socket_write_string$28 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_28=guac_socket_write_string(socket, ";");
+    tmp_if_expr_29 = return_value_guac_socket_write_string_28 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$29;
+  ret_val = (signed int)tmp_if_expr_29;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -10311,30 +10311,30 @@ signed int guac_protocol_send_transform(struct guac_socket *socket, const struct
 // file protocol.c line 1253
 signed int guac_protocol_send_video(struct guac_socket *socket, const struct guac_layer *layer, const char *mimetype, double duration, void *data, signed int size)
 {
-  signed int return_value_guac_protocol_send_video_header$1;
-  return_value_guac_protocol_send_video_header$1=guac_protocol_send_video_header(socket, layer, mimetype, duration, size);
-  _Bool tmp_if_expr$3;
-  signed int return_value_guac_protocol_send_video_data$2;
-  if(!(return_value_guac_protocol_send_video_header$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_guac_protocol_send_video_header_1;
+  return_value_guac_protocol_send_video_header_1=guac_protocol_send_video_header(socket, layer, mimetype, duration, size);
+  _Bool tmp_if_expr_3;
+  signed int return_value_guac_protocol_send_video_data_2;
+  if(!(return_value_guac_protocol_send_video_header_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_guac_protocol_send_video_data$2=guac_protocol_send_video_data(socket, data, size);
-    tmp_if_expr$3 = return_value_guac_protocol_send_video_data$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_guac_protocol_send_video_data_2=guac_protocol_send_video_data(socket, data, size);
+    tmp_if_expr_3 = return_value_guac_protocol_send_video_data_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_guac_protocol_send_video_end$4;
-  return_value_guac_protocol_send_video_end$4=guac_protocol_send_video_end(socket);
-  return (signed int)tmp_if_expr$3 | return_value_guac_protocol_send_video_end$4;
+  signed int return_value_guac_protocol_send_video_end_4;
+  return_value_guac_protocol_send_video_end_4=guac_protocol_send_video_end(socket);
+  return (signed int)tmp_if_expr_3 | return_value_guac_protocol_send_video_end_4;
 }
 
 // guac_protocol_send_video_data
 // file protocol.c line 1284
 signed int guac_protocol_send_video_data(struct guac_socket *socket, void *data, signed int count)
 {
-  signed long int return_value_guac_socket_write_base64$1;
-  return_value_guac_socket_write_base64$1=guac_socket_write_base64(socket, data, (unsigned long int)count);
-  return (signed int)return_value_guac_socket_write_base64$1;
+  signed long int return_value_guac_socket_write_base64_1;
+  return_value_guac_socket_write_base64_1=guac_socket_write_base64(socket, data, (unsigned long int)count);
+  return (signed int)return_value_guac_socket_write_base64_1;
 }
 
 // guac_protocol_send_video_end
@@ -10342,19 +10342,19 @@ signed int guac_protocol_send_video_data(struct guac_socket *socket, void *data,
 signed int guac_protocol_send_video_end(struct guac_socket *socket)
 {
   signed int ret_val;
-  signed long int return_value_guac_socket_flush_base64$1;
-  return_value_guac_socket_flush_base64$1=guac_socket_flush_base64(socket);
-  _Bool tmp_if_expr$3;
-  signed long int return_value_guac_socket_write_string$2;
-  if(!(return_value_guac_socket_flush_base64$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_flush_base64_1;
+  return_value_guac_socket_flush_base64_1=guac_socket_flush_base64(socket);
+  _Bool tmp_if_expr_3;
+  signed long int return_value_guac_socket_write_string_2;
+  if(!(return_value_guac_socket_flush_base64_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$2=guac_socket_write_string(socket, ";");
-    tmp_if_expr$3 = return_value_guac_socket_write_string$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_2=guac_socket_write_string(socket, ";");
+    tmp_if_expr_3 = return_value_guac_socket_write_string_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  ret_val = (signed int)tmp_if_expr$3;
+  ret_val = (signed int)tmp_if_expr_3;
   guac_socket_instruction_end(socket);
   return ret_val;
 }
@@ -10365,143 +10365,143 @@ signed int guac_protocol_send_video_header(struct guac_socket *socket, const str
 {
   signed int base64_length = ((size + 2) / 3) * 4;
   guac_socket_instruction_begin(socket);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, "5.video,");
-  _Bool tmp_if_expr$3;
-  signed long int return_value___guac_socket_write_length_int$2;
-  if(!(return_value_guac_socket_write_string$1 == 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, "5.video,");
+  _Bool tmp_if_expr_3;
+  signed long int return_value___guac_socket_write_length_int_2;
+  if(!(return_value_guac_socket_write_string_1 == 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_int$2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
-    tmp_if_expr$3 = return_value___guac_socket_write_length_int$2 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_int_2=__guac_socket_write_length_int(socket, (signed long int)layer->index);
+    tmp_if_expr_3 = return_value___guac_socket_write_length_int_2 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed long int return_value_guac_socket_write_string$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed long int return_value_guac_socket_write_string_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$4=guac_socket_write_string(socket, ",");
-    tmp_if_expr$5 = return_value_guac_socket_write_string$4 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_4=guac_socket_write_string(socket, ",");
+    tmp_if_expr_5 = return_value_guac_socket_write_string_4 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed long int return_value___guac_socket_write_length_string$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed long int return_value___guac_socket_write_length_string_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_string$6=__guac_socket_write_length_string(socket, mimetype);
-    tmp_if_expr$7 = return_value___guac_socket_write_length_string$6 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_string_6=__guac_socket_write_length_string(socket, mimetype);
+    tmp_if_expr_7 = return_value___guac_socket_write_length_string_6 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed long int return_value_guac_socket_write_string$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_guac_socket_write_string_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$8=guac_socket_write_string(socket, ",");
-    tmp_if_expr$9 = return_value_guac_socket_write_string$8 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_8=guac_socket_write_string(socket, ",");
+    tmp_if_expr_9 = return_value_guac_socket_write_string_8 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed long int return_value___guac_socket_write_length_double$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed long int return_value___guac_socket_write_length_double_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value___guac_socket_write_length_double$10=__guac_socket_write_length_double(socket, duration);
-    tmp_if_expr$11 = return_value___guac_socket_write_length_double$10 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value___guac_socket_write_length_double_10=__guac_socket_write_length_double(socket, duration);
+    tmp_if_expr_11 = return_value___guac_socket_write_length_double_10 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed long int return_value_guac_socket_write_string$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed long int return_value_guac_socket_write_string_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$12=guac_socket_write_string(socket, ",");
-    tmp_if_expr$13 = return_value_guac_socket_write_string$12 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_12=guac_socket_write_string(socket, ",");
+    tmp_if_expr_13 = return_value_guac_socket_write_string_12 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed long int return_value_guac_socket_write_int$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed long int return_value_guac_socket_write_int_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_int$14=guac_socket_write_int(socket, (signed long int)base64_length);
-    tmp_if_expr$15 = return_value_guac_socket_write_int$14 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_int_14=guac_socket_write_int(socket, (signed long int)base64_length);
+    tmp_if_expr_15 = return_value_guac_socket_write_int_14 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed long int return_value_guac_socket_write_string$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed long int return_value_guac_socket_write_string_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_guac_socket_write_string$16=guac_socket_write_string(socket, ".");
-    tmp_if_expr$17 = return_value_guac_socket_write_string$16 != 0l ? (_Bool)1 : (_Bool)0;
+    return_value_guac_socket_write_string_16=guac_socket_write_string(socket, ".");
+    tmp_if_expr_17 = return_value_guac_socket_write_string_16 != 0l ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$17;
+  return (signed int)tmp_if_expr_17;
 }
 
 // guac_socket_alloc
 // file ../../src/libguac/guacamole/socket.h line 222
 struct guac_socket * guac_socket_alloc()
 {
-  union anonymous$11 lock_attributes;
-  struct guac_socket *guac_socket_alloc$$1$$socket;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_socket) /*8880ul*/ );
-  guac_socket_alloc$$1$$socket = (struct guac_socket *)return_value_malloc$1;
-  if(guac_socket_alloc$$1$$socket == ((struct guac_socket *)NULL))
+  union anonymous_11 lock_attributes;
+  struct guac_socket *guac_socket_alloc__1__socket;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_socket) /*8880ul*/ );
+  guac_socket_alloc__1__socket = (struct guac_socket *)return_value_malloc_1;
+  if(guac_socket_alloc__1__socket == ((struct guac_socket *)NULL))
   {
-    enum guac_status *return_value___guac_error$2;
-    return_value___guac_error$2=__guac_error();
-    *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-    const char **return_value___guac_error_message$3;
-    return_value___guac_error_message$3=__guac_error_message();
-    *return_value___guac_error_message$3 = "Could not allocate memory for socket";
+    enum guac_status *return_value___guac_error_2;
+    return_value___guac_error_2=__guac_error();
+    *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+    const char **return_value___guac_error_message_3;
+    return_value___guac_error_message_3=__guac_error_message();
+    *return_value___guac_error_message_3 = "Could not allocate memory for socket";
     return (struct guac_socket *)(void *)0;
   }
 
-  guac_socket_alloc$$1$$socket->__ready = 0;
-  guac_socket_alloc$$1$$socket->__written = 0;
-  guac_socket_alloc$$1$$socket->data = (void *)0;
-  guac_socket_alloc$$1$$socket->__instructionbuf_size = 1024;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)guac_socket_alloc$$1$$socket->__instructionbuf_size);
-  guac_socket_alloc$$1$$socket->__instructionbuf = (char *)return_value_malloc$4;
-  if(guac_socket_alloc$$1$$socket->__instructionbuf == ((char *)NULL))
+  guac_socket_alloc__1__socket->__ready = 0;
+  guac_socket_alloc__1__socket->__written = 0;
+  guac_socket_alloc__1__socket->data = (void *)0;
+  guac_socket_alloc__1__socket->__instructionbuf_size = 1024;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)guac_socket_alloc__1__socket->__instructionbuf_size);
+  guac_socket_alloc__1__socket->__instructionbuf = (char *)return_value_malloc_4;
+  if(guac_socket_alloc__1__socket->__instructionbuf == ((char *)NULL))
   {
-    enum guac_status *return_value___guac_error$5;
-    return_value___guac_error$5=__guac_error();
-    *return_value___guac_error$5 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
-    const char **return_value___guac_error_message$6;
-    return_value___guac_error_message$6=__guac_error_message();
-    *return_value___guac_error_message$6 = "Could not allocate memory for instruction buffer";
-    free((void *)guac_socket_alloc$$1$$socket);
+    enum guac_status *return_value___guac_error_5;
+    return_value___guac_error_5=__guac_error();
+    *return_value___guac_error_5 = (enum guac_status)GUAC_STATUS_NO_MEMORY;
+    const char **return_value___guac_error_message_6;
+    return_value___guac_error_message_6=__guac_error_message();
+    *return_value___guac_error_message_6 = "Could not allocate memory for instruction buffer";
+    free((void *)guac_socket_alloc__1__socket);
     return (struct guac_socket *)(void *)0;
   }
 
-  guac_socket_alloc$$1$$socket->__instructionbuf_used_length = 0;
-  guac_socket_alloc$$1$$socket->__instructionbuf_parse_start = 0;
-  guac_socket_alloc$$1$$socket->__instructionbuf_elementc = 0;
-  guac_socket_alloc$$1$$socket->__threadsafe_instructions = 0;
+  guac_socket_alloc__1__socket->__instructionbuf_used_length = 0;
+  guac_socket_alloc__1__socket->__instructionbuf_parse_start = 0;
+  guac_socket_alloc__1__socket->__instructionbuf_elementc = 0;
+  guac_socket_alloc__1__socket->__threadsafe_instructions = 0;
   pthread_mutexattr_init(&lock_attributes);
   pthread_mutexattr_setpshared(&lock_attributes, 1);
-  pthread_mutex_init(&guac_socket_alloc$$1$$socket->__instruction_write_lock, &lock_attributes);
-  pthread_mutex_init(&guac_socket_alloc$$1$$socket->__buffer_lock, &lock_attributes);
-  guac_socket_alloc$$1$$socket->read_handler = (signed long int (*)(struct guac_socket *, void *, unsigned long int))(void *)0;
-  guac_socket_alloc$$1$$socket->write_handler = (signed long int (*)(struct guac_socket *, const void *, unsigned long int))(void *)0;
-  guac_socket_alloc$$1$$socket->select_handler = (signed int (*)(struct guac_socket *, signed int))(void *)0;
-  guac_socket_alloc$$1$$socket->free_handler = (signed int (*)(struct guac_socket *))(void *)0;
-  return guac_socket_alloc$$1$$socket;
+  pthread_mutex_init(&guac_socket_alloc__1__socket->__instruction_write_lock, &lock_attributes);
+  pthread_mutex_init(&guac_socket_alloc__1__socket->__buffer_lock, &lock_attributes);
+  guac_socket_alloc__1__socket->read_handler = (signed long int (*)(struct guac_socket *, void *, unsigned long int))(void *)0;
+  guac_socket_alloc__1__socket->write_handler = (signed long int (*)(struct guac_socket *, const void *, unsigned long int))(void *)0;
+  guac_socket_alloc__1__socket->select_handler = (signed int (*)(struct guac_socket *, signed int))(void *)0;
+  guac_socket_alloc__1__socket->free_handler = (signed int (*)(struct guac_socket *))(void *)0;
+  return guac_socket_alloc__1__socket;
 }
 
 // guac_socket_flush
@@ -10511,9 +10511,9 @@ signed long int guac_socket_flush(struct guac_socket *socket)
   guac_socket_update_buffer_begin(socket);
   if(socket->__written >= 1)
   {
-    signed long int return_value_guac_socket_write$1;
-    return_value_guac_socket_write$1=guac_socket_write(socket, (const void *)socket->__out_buf, (unsigned long int)socket->__written);
-    if(!(return_value_guac_socket_write$1 == 0l))
+    signed long int return_value_guac_socket_write_1;
+    return_value_guac_socket_write_1=guac_socket_write(socket, (const void *)socket->__out_buf, (unsigned long int)socket->__written);
+    if(!(return_value_guac_socket_write_1 == 0l))
     {
       guac_socket_update_buffer_end(socket);
       return (signed long int)1;
@@ -10534,9 +10534,9 @@ signed long int guac_socket_flush_base64(struct guac_socket *socket)
   guac_socket_update_buffer_begin(socket);
   while(socket->__ready >= 1)
   {
-    signed long int return_value___guac_socket_write_base64_byte$1;
-    return_value___guac_socket_write_base64_byte$1=__guac_socket_write_base64_byte(socket, -1);
-    retval = (signed int)return_value___guac_socket_write_base64_byte$1;
+    signed long int return_value___guac_socket_write_base64_byte_1;
+    return_value___guac_socket_write_base64_byte_1=__guac_socket_write_base64_byte(socket, -1);
+    retval = (signed int)return_value___guac_socket_write_base64_byte_1;
     if(!(retval >= 0))
     {
       guac_socket_update_buffer_end(socket);
@@ -10583,71 +10583,71 @@ void guac_socket_instruction_end(struct guac_socket *socket)
 // file guacamole/socket.h line 305
 struct guac_socket * guac_socket_nest(struct guac_socket *parent, signed int index)
 {
-  struct guac_socket *guac_socket_nest$$1$$socket;
-  guac_socket_nest$$1$$socket=guac_socket_alloc();
+  struct guac_socket *guac_socket_nest__1__socket;
+  guac_socket_nest__1__socket=guac_socket_alloc();
   struct __guac_socket_nest_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct __guac_socket_nest_data) /*8208ul*/ );
-  data = (struct __guac_socket_nest_data *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct __guac_socket_nest_data) /*8208ul*/ );
+  data = (struct __guac_socket_nest_data *)return_value_malloc_1;
   data->parent = parent;
-  guac_socket_nest$$1$$socket->data = (void *)data;
-  guac_socket_nest$$1$$socket->write_handler = __guac_socket_nest_write_handler;
-  return guac_socket_nest$$1$$socket;
+  guac_socket_nest__1__socket->data = (void *)data;
+  guac_socket_nest__1__socket->write_handler = __guac_socket_nest_write_handler;
+  return guac_socket_nest__1__socket;
 }
 
 // guac_socket_open
 // file ../../src/libguac/guacamole/socket.h line 289
 struct guac_socket * guac_socket_open(signed int fd)
 {
-  struct guac_socket *guac_socket_open$$1$$socket;
-  guac_socket_open$$1$$socket=guac_socket_alloc();
+  struct guac_socket *guac_socket_open__1__socket;
+  guac_socket_open__1__socket=guac_socket_alloc();
   struct __guac_socket_fd_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct __guac_socket_fd_data) /*4ul*/ );
-  data = (struct __guac_socket_fd_data *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct __guac_socket_fd_data) /*4ul*/ );
+  data = (struct __guac_socket_fd_data *)return_value_malloc_1;
   data->fd = fd;
-  guac_socket_open$$1$$socket->data = (void *)data;
-  guac_socket_open$$1$$socket->read_handler = __guac_socket_fd_read_handler;
-  guac_socket_open$$1$$socket->write_handler = __guac_socket_fd_write_handler;
-  guac_socket_open$$1$$socket->select_handler = __guac_socket_fd_select_handler;
-  return guac_socket_open$$1$$socket;
+  guac_socket_open__1__socket->data = (void *)data;
+  guac_socket_open__1__socket->read_handler = __guac_socket_fd_read_handler;
+  guac_socket_open__1__socket->write_handler = __guac_socket_fd_write_handler;
+  guac_socket_open__1__socket->select_handler = __guac_socket_fd_select_handler;
+  return guac_socket_open__1__socket;
 }
 
 // guac_socket_open_secure
 // file socket-ssl.h line 71
 struct guac_socket * guac_socket_open_secure(struct ssl_ctx_st *context, signed int fd)
 {
-  struct guac_socket *guac_socket_open_secure$$1$$socket;
-  guac_socket_open_secure$$1$$socket=guac_socket_alloc();
+  struct guac_socket *guac_socket_open_secure__1__socket;
+  guac_socket_open_secure__1__socket=guac_socket_alloc();
   struct guac_socket_ssl_data *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct guac_socket_ssl_data) /*24ul*/ );
-  data = (struct guac_socket_ssl_data *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct guac_socket_ssl_data) /*24ul*/ );
+  data = (struct guac_socket_ssl_data *)return_value_malloc_1;
   data->context = context;
   data->ssl=SSL_new(context);
   SSL_set_fd(data->ssl, fd);
-  signed int return_value_SSL_accept$4;
-  return_value_SSL_accept$4=SSL_accept(data->ssl);
-  if(!(return_value_SSL_accept$4 >= 1))
+  signed int return_value_SSL_accept_4;
+  return_value_SSL_accept_4=SSL_accept(data->ssl);
+  if(!(return_value_SSL_accept_4 >= 1))
   {
-    enum guac_status *return_value___guac_error$2;
-    return_value___guac_error$2=__guac_error();
-    *return_value___guac_error$2 = (enum guac_status)GUAC_STATUS_BAD_STATE;
-    const char **return_value___guac_error_message$3;
-    return_value___guac_error_message$3=__guac_error_message();
-    *return_value___guac_error_message$3 = "SSL accept failed";
+    enum guac_status *return_value___guac_error_2;
+    return_value___guac_error_2=__guac_error();
+    *return_value___guac_error_2 = (enum guac_status)GUAC_STATUS_BAD_STATE;
+    const char **return_value___guac_error_message_3;
+    return_value___guac_error_message_3=__guac_error_message();
+    *return_value___guac_error_message_3 = "SSL accept failed";
     free((void *)data);
-    guac_socket_free(guac_socket_open_secure$$1$$socket);
+    guac_socket_free(guac_socket_open_secure__1__socket);
     return (struct guac_socket *)(void *)0;
   }
 
   data->fd = fd;
-  guac_socket_open_secure$$1$$socket->data = (void *)data;
-  guac_socket_open_secure$$1$$socket->read_handler = __guac_socket_ssl_read_handler;
-  guac_socket_open_secure$$1$$socket->write_handler = __guac_socket_ssl_write_handler;
-  guac_socket_open_secure$$1$$socket->select_handler = __guac_socket_ssl_select_handler;
-  guac_socket_open_secure$$1$$socket->free_handler = __guac_socket_ssl_free_handler;
-  return guac_socket_open_secure$$1$$socket;
+  guac_socket_open_secure__1__socket->data = (void *)data;
+  guac_socket_open_secure__1__socket->read_handler = __guac_socket_ssl_read_handler;
+  guac_socket_open_secure__1__socket->write_handler = __guac_socket_ssl_write_handler;
+  guac_socket_open_secure__1__socket->select_handler = __guac_socket_ssl_select_handler;
+  guac_socket_open_secure__1__socket->free_handler = __guac_socket_ssl_free_handler;
+  return guac_socket_open_secure__1__socket;
 }
 
 // guac_socket_read
@@ -10713,9 +10713,9 @@ signed long int guac_socket_write(struct guac_socket *socket, const void *buf, u
   while(count >= 1ul)
   {
     signed int written;
-    signed long int return_value___guac_socket_write$1;
-    return_value___guac_socket_write$1=__guac_socket_write(socket, (const void *)buffer, count);
-    written = (signed int)return_value___guac_socket_write$1;
+    signed long int return_value___guac_socket_write_1;
+    return_value___guac_socket_write_1=__guac_socket_write(socket, (const void *)buffer, count);
+    written = (signed int)return_value___guac_socket_write_1;
     if(written == -1)
       return (signed long int)1;
 
@@ -10733,14 +10733,14 @@ signed long int guac_socket_write_base64(struct guac_socket *socket, const void 
   const unsigned char *char_buf = (const unsigned char *)buf;
   const unsigned char *end = char_buf + (signed long int)count;
   guac_socket_update_buffer_begin(socket);
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   while(!(char_buf >= end))
   {
-    tmp_post$1 = char_buf;
+    tmp_post_1 = char_buf;
     char_buf = char_buf + 1l;
-    signed long int return_value___guac_socket_write_base64_byte$2;
-    return_value___guac_socket_write_base64_byte$2=__guac_socket_write_base64_byte(socket, (signed int)*tmp_post$1);
-    retval = (signed int)return_value___guac_socket_write_base64_byte$2;
+    signed long int return_value___guac_socket_write_base64_byte_2;
+    return_value___guac_socket_write_base64_byte_2=__guac_socket_write_base64_byte(socket, (signed int)*tmp_post_1);
+    retval = (signed int)return_value___guac_socket_write_base64_byte_2;
     if(!(retval >= 0))
     {
       guac_socket_update_buffer_end(socket);
@@ -10758,9 +10758,9 @@ signed long int guac_socket_write_int(struct guac_socket *socket, signed long in
 {
   char buffer[128l];
   snprintf(buffer, sizeof(char [128l]) /*128ul*/ , "%li", i);
-  signed long int return_value_guac_socket_write_string$1;
-  return_value_guac_socket_write_string$1=guac_socket_write_string(socket, buffer);
-  return return_value_guac_socket_write_string$1;
+  signed long int return_value_guac_socket_write_string_1;
+  return_value_guac_socket_write_string_1=guac_socket_write_string(socket, buffer);
+  return return_value_guac_socket_write_string_1;
 }
 
 // guac_socket_write_string
@@ -10769,17 +10769,17 @@ signed long int guac_socket_write_string(struct guac_socket *socket, const char 
 {
   char *__out_buf = socket->__out_buf;
   guac_socket_update_buffer_begin(socket);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !((signed int)*str == 0); str = str + 1l)
   {
-    tmp_post$1 = socket->__written;
+    tmp_post_1 = socket->__written;
     socket->__written = socket->__written + 1;
-    __out_buf[(signed long int)tmp_post$1] = *str;
+    __out_buf[(signed long int)tmp_post_1] = *str;
     if(socket->__written >= 8189)
     {
-      signed long int return_value_guac_socket_write$2;
-      return_value_guac_socket_write$2=guac_socket_write(socket, (const void *)__out_buf, (unsigned long int)socket->__written);
-      if(!(return_value_guac_socket_write$2 == 0l))
+      signed long int return_value_guac_socket_write_2;
+      return_value_guac_socket_write_2=guac_socket_write(socket, (const void *)__out_buf, (unsigned long int)socket->__written);
+      if(!(return_value_guac_socket_write_2 == 0l))
       {
         guac_socket_update_buffer_end(socket);
         return (signed long int)1;
@@ -10797,8 +10797,8 @@ signed long int guac_socket_write_string(struct guac_socket *socket, const char 
 // file ../../src/libguac/guacamole/error.h line 105
 const char * guac_status_string(enum guac_status status)
 {
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   switch((signed int)status)
   {
     case GUAC_STATUS_SUCCESS:
@@ -10811,9 +10811,9 @@ const char * guac_status_string(enum guac_status status)
       return __GUAC_STATUS_INPUT_TIMEOUT_STR;
     case GUAC_STATUS_SEE_ERRNO:
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      return return_value_strerror$2;
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      return return_value_strerror_2;
     }
     case GUAC_STATUS_OUTPUT_ERROR:
       return __GUAC_STATUS_OUTPUT_ERROR_STR;
@@ -10911,16 +10911,16 @@ signed int guac_utf8_read(const char *utf8, signed int length, signed int *codep
   signed int bytes;
   signed int result;
   signed int i;
-  const char *tmp_post$1;
-  const char *tmp_post$2;
+  const char *tmp_post_1;
+  const char *tmp_post_2;
   if(!(length >= 1))
     return 0;
 
   else
   {
-    tmp_post$1 = utf8;
+    tmp_post_1 = utf8;
     utf8 = utf8 + 1l;
-    initial = (unsigned char)*tmp_post$1;
+    initial = (unsigned char)*tmp_post_1;
     if((0x7F | (signed int)initial) == 0x7F)
     {
       result = (signed int)initial;
@@ -10962,9 +10962,9 @@ signed int guac_utf8_read(const char *utf8, signed int length, signed int *codep
       for( ; !(i >= bytes); i = i + 1)
       {
         result = result << 6;
-        tmp_post$2 = utf8;
+        tmp_post_2 = utf8;
         utf8 = utf8 + 1l;
-        result = result | (signed int)*tmp_post$2 & 0x3F;
+        result = result | (signed int)*tmp_post_2 & 0x3F;
       }
       *codepoint = result;
       return bytes;
@@ -10985,9 +10985,9 @@ unsigned long int guac_utf8_strlen(const char *str)
     else
     {
       unsigned char c = (unsigned char)*str;
-      unsigned long int return_value_guac_utf8_charsize$1;
-      return_value_guac_utf8_charsize$1=guac_utf8_charsize(c);
-      skip = (signed int)(return_value_guac_utf8_charsize$1 - (unsigned long int)1);
+      unsigned long int return_value_guac_utf8_charsize_1;
+      return_value_guac_utf8_charsize_1=guac_utf8_charsize(c);
+      skip = (signed int)(return_value_guac_utf8_charsize_1 - (unsigned long int)1);
       length = length + 1;
     }
   return (unsigned long int)length;
@@ -11000,8 +11000,8 @@ signed int guac_utf8_write(signed int codepoint, char *utf8, signed int length)
   signed int i;
   signed int mask;
   signed int bytes;
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   if(!(length >= 1))
     return 0;
 
@@ -11036,9 +11036,9 @@ signed int guac_utf8_write(signed int codepoint, char *utf8, signed int length)
 
           else
           {
-            tmp_post$1 = utf8;
+            tmp_post_1 = utf8;
             utf8 = utf8 + 1l;
-            *tmp_post$1 = (char)63;
+            *tmp_post_1 = (char)63;
             return 1;
           }
     if(!(length >= bytes))
@@ -11050,9 +11050,9 @@ signed int guac_utf8_write(signed int codepoint, char *utf8, signed int length)
       i = 1;
       for( ; !(i >= bytes); i = i + 1)
       {
-        tmp_post$2 = utf8;
+        tmp_post_2 = utf8;
         utf8 = utf8 - 1l;
-        *tmp_post$2 = (char)(0x80 | codepoint & 0x3F);
+        *tmp_post_2 = (char)(0x80 | codepoint & 0x3F);
         codepoint = codepoint >> 6;
       }
       *utf8 = (char)(mask | codepoint);
@@ -11072,26 +11072,26 @@ void guacd_client_log_error(struct guac_client *client, const char *format, void
 // file log.h line 54
 void guacd_client_log_guac_error(struct guac_client *client, const char *message)
 {
-  const char **return_value___guac_error_message$6;
-  return_value___guac_error_message$6=__guac_error_message();
-  enum guac_status *return_value___guac_error$1;
-  const char *return_value_guac_status_string$2;
-  const char **return_value___guac_error_message$3;
-  enum guac_status *return_value___guac_error$4;
-  const char *return_value_guac_status_string$5;
-  if(!(*return_value___guac_error_message$6 == ((const char *)NULL)))
+  const char **return_value___guac_error_message_6;
+  return_value___guac_error_message_6=__guac_error_message();
+  enum guac_status *return_value___guac_error_1;
+  const char *return_value_guac_status_string_2;
+  const char **return_value___guac_error_message_3;
+  enum guac_status *return_value___guac_error_4;
+  const char *return_value_guac_status_string_5;
+  if(!(*return_value___guac_error_message_6 == ((const char *)NULL)))
   {
-    return_value___guac_error$1=__guac_error();
-    return_value_guac_status_string$2=guac_status_string(*return_value___guac_error$1);
-    return_value___guac_error_message$3=__guac_error_message();
-    guac_client_log_error(client, "%s: %s: %s", message, return_value_guac_status_string$2, *return_value___guac_error_message$3);
+    return_value___guac_error_1=__guac_error();
+    return_value_guac_status_string_2=guac_status_string(*return_value___guac_error_1);
+    return_value___guac_error_message_3=__guac_error_message();
+    guac_client_log_error(client, "%s: %s: %s", message, return_value_guac_status_string_2, *return_value___guac_error_message_3);
   }
 
   else
   {
-    return_value___guac_error$4=__guac_error();
-    return_value_guac_status_string$5=guac_status_string(*return_value___guac_error$4);
-    guac_client_log_error(client, "%s: %s", message, return_value_guac_status_string$5);
+    return_value___guac_error_4=__guac_error();
+    return_value_guac_status_string_5=guac_status_string(*return_value___guac_error_4);
+    guac_client_log_error(client, "%s: %s", message, return_value_guac_status_string_5);
   }
 }
 
@@ -11108,9 +11108,9 @@ signed int guacd_client_start(struct guac_client *client)
 {
   unsigned long int input_thread;
   unsigned long int output_thread;
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&output_thread, (const union pthread_attr_t *)(void *)0, __guacd_client_output_thread, (void *)client);
-  if(!(return_value_pthread_create$1 == 0))
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&output_thread, (const union pthread_attr_t *)(void *)0, __guacd_client_output_thread, (void *)client);
+  if(!(return_value_pthread_create_1 == 0))
   {
     guac_client_log_error(client, "Unable to start output thread");
     return -1;
@@ -11118,9 +11118,9 @@ signed int guacd_client_start(struct guac_client *client)
 
   else
   {
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&input_thread, (const union pthread_attr_t *)(void *)0, __guacd_client_input_thread, (void *)client);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&input_thread, (const union pthread_attr_t *)(void *)0, __guacd_client_input_thread, (void *)client);
+    if(!(return_value_pthread_create_2 == 0))
     {
       guac_client_log_error(client, "Unable to start input thread");
       guac_client_stop(client);
@@ -11143,33 +11143,33 @@ void guacd_handle_connection(struct guac_socket *socket)
 {
   struct guac_client *client;
   struct guac_client_plugin *plugin;
-  struct guac_instruction *guacd_handle_connection$$1$$select;
+  struct guac_instruction *guacd_handle_connection__1__select;
   struct guac_instruction *size;
   struct guac_instruction *audio;
   struct guac_instruction *video;
   struct guac_instruction *connect;
   signed int init_result;
-  guacd_handle_connection$$1$$select=guac_instruction_expect(socket, 15000 * 1000, "select");
-  _Bool tmp_if_expr$4;
-  signed long int return_value_guac_socket_flush$3;
-  if(guacd_handle_connection$$1$$select == ((struct guac_instruction *)NULL))
+  guacd_handle_connection__1__select=guac_instruction_expect(socket, 15000 * 1000, "select");
+  _Bool tmp_if_expr_4;
+  signed long int return_value_guac_socket_flush_3;
+  if(guacd_handle_connection__1__select == ((struct guac_instruction *)NULL))
   {
     guacd_log_guac_error("Error reading \"select\"");
     guac_socket_free(socket);
   }
 
   else
-    if(!(guacd_handle_connection$$1$$select->argc == 1))
+    if(!(guacd_handle_connection__1__select->argc == 1))
     {
-      guacd_log_error("Bad number of arguments to \"select\" (%i)", guacd_handle_connection$$1$$select->argc);
+      guacd_log_error("Bad number of arguments to \"select\" (%i)", guacd_handle_connection__1__select->argc);
       guac_socket_free(socket);
     }
 
     else
     {
-      guacd_log_info("Protocol \"%s\" selected", guacd_handle_connection$$1$$select->argv[(signed long int)0]);
-      plugin=guac_client_plugin_open(guacd_handle_connection$$1$$select->argv[(signed long int)0]);
-      guac_instruction_free(guacd_handle_connection$$1$$select);
+      guacd_log_info("Protocol \"%s\" selected", guacd_handle_connection__1__select->argv[(signed long int)0]);
+      plugin=guac_client_plugin_open(guacd_handle_connection__1__select->argv[(signed long int)0]);
+      guac_instruction_free(guacd_handle_connection__1__select);
       if(plugin == ((struct guac_client_plugin *)NULL))
       {
         guacd_log_guac_error("Error loading client plugin");
@@ -11178,22 +11178,22 @@ void guacd_handle_connection(struct guac_socket *socket)
 
       else
       {
-        signed int return_value_guac_protocol_send_args$2;
-        return_value_guac_protocol_send_args$2=guac_protocol_send_args(socket, plugin->args);
-        if(!(return_value_guac_protocol_send_args$2 == 0))
-          tmp_if_expr$4 = (_Bool)1;
+        signed int return_value_guac_protocol_send_args_2;
+        return_value_guac_protocol_send_args_2=guac_protocol_send_args(socket, plugin->args);
+        if(!(return_value_guac_protocol_send_args_2 == 0))
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_guac_socket_flush$3=guac_socket_flush(socket);
-          tmp_if_expr$4 = return_value_guac_socket_flush$3 != 0l ? (_Bool)1 : (_Bool)0;
+          return_value_guac_socket_flush_3=guac_socket_flush(socket);
+          tmp_if_expr_4 = return_value_guac_socket_flush_3 != 0l ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           guacd_log_guac_error("Error sending \"args\"");
-          signed int return_value_guac_client_plugin_close$1;
-          return_value_guac_client_plugin_close$1=guac_client_plugin_close(plugin);
-          if(!(return_value_guac_client_plugin_close$1 == 0))
+          signed int return_value_guac_client_plugin_close_1;
+          return_value_guac_client_plugin_close_1=guac_client_plugin_close(plugin);
+          if(!(return_value_guac_client_plugin_close_1 == 0))
             guacd_log_guac_error("Error closing client plugin");
 
           guac_socket_free(socket);
@@ -11231,9 +11231,9 @@ void guacd_handle_connection(struct guac_socket *socket)
               if(connect == ((struct guac_instruction *)NULL))
               {
                 guacd_log_guac_error("Error reading \"connect\"");
-                signed int return_value_guac_client_plugin_close$5;
-                return_value_guac_client_plugin_close$5=guac_client_plugin_close(plugin);
-                if(!(return_value_guac_client_plugin_close$5 == 0))
+                signed int return_value_guac_client_plugin_close_5;
+                return_value_guac_client_plugin_close_5=guac_client_plugin_close(plugin);
+                if(!(return_value_guac_client_plugin_close_5 == 0))
                   guacd_log_guac_error("Error closing client plugin");
 
                 guac_socket_free(socket);
@@ -11246,14 +11246,14 @@ void guacd_handle_connection(struct guac_socket *socket)
               client->log_error_handler = guacd_client_log_error;
               client->info.optimal_width=atoi(size->argv[(signed long int)0]);
               client->info.optimal_height=atoi(size->argv[(signed long int)1]);
-              void *return_value_malloc$6;
-              return_value_malloc$6=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(audio->argc + 1));
-              client->info.audio_mimetypes = (const char **)return_value_malloc$6;
+              void *return_value_malloc_6;
+              return_value_malloc_6=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(audio->argc + 1));
+              client->info.audio_mimetypes = (const char **)return_value_malloc_6;
               memcpy((void *)client->info.audio_mimetypes, (const void *)audio->argv, sizeof(char *) /*8ul*/  * (unsigned long int)audio->argc);
               client->info.audio_mimetypes[(signed long int)audio->argc] = (const char *)(void *)0;
-              void *return_value_malloc$7;
-              return_value_malloc$7=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(video->argc + 1));
-              client->info.video_mimetypes = (const char **)return_value_malloc$7;
+              void *return_value_malloc_7;
+              return_value_malloc_7=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(video->argc + 1));
+              client->info.video_mimetypes = (const char **)return_value_malloc_7;
               memcpy((void *)client->info.video_mimetypes, (const void *)video->argv, sizeof(char *) /*8ul*/  * (unsigned long int)video->argc);
               client->info.video_mimetypes[(signed long int)video->argc] = (const char *)(void *)0;
               init_result=guac_client_plugin_init_client(plugin, client, connect->argc, connect->argv);
@@ -11262,9 +11262,9 @@ void guacd_handle_connection(struct guac_socket *socket)
               {
                 guac_client_free(client);
                 guacd_log_guac_error("Error instantiating client");
-                signed int return_value_guac_client_plugin_close$8;
-                return_value_guac_client_plugin_close$8=guac_client_plugin_close(plugin);
-                if(!(return_value_guac_client_plugin_close$8 == 0))
+                signed int return_value_guac_client_plugin_close_8;
+                return_value_guac_client_plugin_close_8=guac_client_plugin_close(plugin);
+                if(!(return_value_guac_client_plugin_close_8 == 0))
                   guacd_log_guac_error("Error closing client plugin");
 
                 guac_socket_free(socket);
@@ -11272,9 +11272,9 @@ void guacd_handle_connection(struct guac_socket *socket)
               }
 
               guacd_log_info("Starting client");
-              signed int return_value_guacd_client_start$9;
-              return_value_guacd_client_start$9=guacd_client_start(client);
-              if(!(return_value_guacd_client_start$9 == 0))
+              signed int return_value_guacd_client_start_9;
+              return_value_guacd_client_start_9=guacd_client_start(client);
+              if(!(return_value_guacd_client_start_9 == 0))
                 guacd_log_error("Client finished abnormally");
 
               else
@@ -11285,9 +11285,9 @@ void guacd_handle_connection(struct guac_socket *socket)
               guac_instruction_free(video);
               guac_instruction_free(size);
               guac_client_free(client);
-              signed int return_value_guac_client_plugin_close$10;
-              return_value_guac_client_plugin_close$10=guac_client_plugin_close(plugin);
-              if(!(return_value_guac_client_plugin_close$10 == 0))
+              signed int return_value_guac_client_plugin_close_10;
+              return_value_guac_client_plugin_close_10=guac_client_plugin_close(plugin);
+              if(!(return_value_guac_client_plugin_close_10 == 0))
                 guacd_log_error("Error closing client plugin");
 
               guac_socket_free(socket);
@@ -11314,26 +11314,26 @@ void guacd_log_error(const char *format, ...)
 // file log.h line 53
 void guacd_log_guac_error(const char *message)
 {
-  const char **return_value___guac_error_message$6;
-  return_value___guac_error_message$6=__guac_error_message();
-  enum guac_status *return_value___guac_error$1;
-  const char *return_value_guac_status_string$2;
-  const char **return_value___guac_error_message$3;
-  enum guac_status *return_value___guac_error$4;
-  const char *return_value_guac_status_string$5;
-  if(!(*return_value___guac_error_message$6 == ((const char *)NULL)))
+  const char **return_value___guac_error_message_6;
+  return_value___guac_error_message_6=__guac_error_message();
+  enum guac_status *return_value___guac_error_1;
+  const char *return_value_guac_status_string_2;
+  const char **return_value___guac_error_message_3;
+  enum guac_status *return_value___guac_error_4;
+  const char *return_value_guac_status_string_5;
+  if(!(*return_value___guac_error_message_6 == ((const char *)NULL)))
   {
-    return_value___guac_error$1=__guac_error();
-    return_value_guac_status_string$2=guac_status_string(*return_value___guac_error$1);
-    return_value___guac_error_message$3=__guac_error_message();
-    guacd_log_error("%s: %s: %s", message, return_value_guac_status_string$2, *return_value___guac_error_message$3);
+    return_value___guac_error_1=__guac_error();
+    return_value_guac_status_string_2=guac_status_string(*return_value___guac_error_1);
+    return_value___guac_error_message_3=__guac_error_message();
+    guacd_log_error("%s: %s: %s", message, return_value_guac_status_string_2, *return_value___guac_error_message_3);
   }
 
   else
   {
-    return_value___guac_error$4=__guac_error();
-    return_value_guac_status_string$5=guac_status_string(*return_value___guac_error$4);
-    guacd_log_error("%s: %s", message, return_value_guac_status_string$5);
+    return_value___guac_error_4=__guac_error();
+    return_value_guac_status_string_5=guac_status_string(*return_value___guac_error_4);
+    guacd_log_error("%s: %s", message, return_value_guac_status_string_5);
   }
 }
 
@@ -11407,59 +11407,59 @@ signed int main(signed int argc, char **argv)
               }
   }
   while((_Bool)1);
-  char *return_value___xpg_basename$1;
-  return_value___xpg_basename$1=__xpg_basename(argv[(signed long int)0]);
-  strncpy(log_prefix, return_value___xpg_basename$1, sizeof(char [64l]) /*64ul*/ );
+  char *return_value___xpg_basename_1;
+  return_value___xpg_basename_1=__xpg_basename(argv[(signed long int)0]);
+  strncpy(log_prefix, return_value___xpg_basename_1, sizeof(char [64l]) /*64ul*/ );
   openlog((const char *)(void *)0, 0x01, 3 << 3);
   guacd_log_info("Guacamole proxy daemon (guacd) version 0.8.3");
   retval=getaddrinfo(listen_address, listen_port, &hints, &addresses);
   if(!(retval == 0))
   {
-    const char *return_value_gai_strerror$2;
-    return_value_gai_strerror$2=gai_strerror(retval);
-    guacd_log_error("Error parsing given address or port: %s", return_value_gai_strerror$2);
+    const char *return_value_gai_strerror_2;
+    return_value_gai_strerror_2=gai_strerror(retval);
+    guacd_log_error("Error parsing given address or port: %s", return_value_gai_strerror_2);
     exit(1);
   }
 
   socket_fd=socket(2, 1, 0);
   if(!(socket_fd >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    guacd_log_error("Error opening socket: %s", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    guacd_log_error("Error opening socket: %s", return_value_strerror_4);
     exit(1);
   }
 
-  signed int return_value_setsockopt$7;
-  return_value_setsockopt$7=setsockopt(socket_fd, 1, 2, (void *)&opt_on, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(!(return_value_setsockopt$7 == 0))
+  signed int return_value_setsockopt_7;
+  return_value_setsockopt_7=setsockopt(socket_fd, 1, 2, (void *)&opt_on, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(!(return_value_setsockopt_7 == 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    guacd_log_info("Unable to set socket options for reuse: %s", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    guacd_log_info("Unable to set socket options for reuse: %s", return_value_strerror_6);
   }
 
   current_address = addresses;
-  const char *return_value_gai_strerror$8;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  const char *return_value_gai_strerror_8;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   while(!(current_address == ((struct addrinfo *)NULL)))
   {
-    signed int main$$1$$5$$retval;
-    main$$1$$5$$retval=getnameinfo(current_address->ai_addr, current_address->ai_addrlen, bound_address, (unsigned int)sizeof(char [1024l]) /*1024ul*/ , bound_port, (unsigned int)sizeof(char [64l]) /*64ul*/ , 1 | 2);
-    if(!(main$$1$$5$$retval == 0))
+    signed int main__1__5__retval;
+    main__1__5__retval=getnameinfo(current_address->ai_addr, current_address->ai_addrlen, bound_address, (unsigned int)sizeof(char [1024l]) /*1024ul*/ , bound_port, (unsigned int)sizeof(char [64l]) /*64ul*/ , 1 | 2);
+    if(!(main__1__5__retval == 0))
     {
-      return_value_gai_strerror$8=gai_strerror(main$$1$$5$$retval);
-      guacd_log_error("Unable to resolve host: %s", return_value_gai_strerror$8);
+      return_value_gai_strerror_8=gai_strerror(main__1__5__retval);
+      guacd_log_error("Unable to resolve host: %s", return_value_gai_strerror_8);
     }
 
-    signed int return_value_bind$11;
-    return_value_bind$11=bind(socket_fd, current_address->ai_addr, current_address->ai_addrlen);
-    if(return_value_bind$11 == 0)
+    signed int return_value_bind_11;
+    return_value_bind_11=bind(socket_fd, current_address->ai_addr, current_address->ai_addrlen);
+    if(return_value_bind_11 == 0)
     {
       guacd_log_info("Successfully bound socket to host %s, port %s", (const void *)bound_address, (const void *)bound_port);
       break;
@@ -11467,9 +11467,9 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value___errno_location$9=__errno_location();
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      guacd_log_info("Unable to bind socket to host %s, port %s: %s", (const void *)bound_address, (const void *)bound_port, return_value_strerror$10);
+      return_value___errno_location_9=__errno_location();
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      guacd_log_info("Unable to bind socket to host %s, port %s: %s", (const void *)bound_address, (const void *)bound_port, return_value_strerror_10);
     }
     current_address = current_address->ai_next;
   }
@@ -11484,15 +11484,15 @@ signed int main(signed int argc, char **argv)
     guacd_log_info("Communication will require SSL/TLS.");
     SSL_library_init();
     SSL_load_error_strings();
-    const struct ssl_method_st *return_value_SSLv23_server_method$12;
-    return_value_SSLv23_server_method$12=SSLv23_server_method();
-    ssl_context=SSL_CTX_new(return_value_SSLv23_server_method$12);
+    const struct ssl_method_st *return_value_SSLv23_server_method_12;
+    return_value_SSLv23_server_method_12=SSLv23_server_method();
+    ssl_context=SSL_CTX_new(return_value_SSLv23_server_method_12);
     if(!(key_file == ((char *)NULL)))
     {
       guacd_log_info("Using PEM keyfile %s", key_file);
-      signed int return_value_SSL_CTX_use_PrivateKey_file$13;
-      return_value_SSL_CTX_use_PrivateKey_file$13=SSL_CTX_use_PrivateKey_file(ssl_context, key_file, 1);
-      if(return_value_SSL_CTX_use_PrivateKey_file$13 == 0)
+      signed int return_value_SSL_CTX_use_PrivateKey_file_13;
+      return_value_SSL_CTX_use_PrivateKey_file_13=SSL_CTX_use_PrivateKey_file(ssl_context, key_file, 1);
+      if(return_value_SSL_CTX_use_PrivateKey_file_13 == 0)
       {
         guacd_log_error("Unable to load keyfile.");
         exit(1);
@@ -11505,9 +11505,9 @@ signed int main(signed int argc, char **argv)
     if(!(cert_file == ((char *)NULL)))
     {
       guacd_log_info("Using certificate file %s", cert_file);
-      signed int return_value_SSL_CTX_use_certificate_file$14;
-      return_value_SSL_CTX_use_certificate_file$14=SSL_CTX_use_certificate_file(ssl_context, cert_file, 1);
-      if(return_value_SSL_CTX_use_certificate_file$14 == 0)
+      signed int return_value_SSL_CTX_use_certificate_file_14;
+      return_value_SSL_CTX_use_certificate_file_14=SSL_CTX_use_certificate_file(ssl_context, cert_file, 1);
+      if(return_value_SSL_CTX_use_certificate_file_14 == 0)
       {
         guacd_log_error("Unable to load certificate.");
         exit(1);
@@ -11521,9 +11521,9 @@ signed int main(signed int argc, char **argv)
 
   if(foreground == 0)
   {
-    signed int return_value_daemonize$15;
-    return_value_daemonize$15=daemonize();
-    if(!(return_value_daemonize$15 == 0))
+    signed int return_value_daemonize_15;
+    return_value_daemonize_15=daemonize();
+    if(!(return_value_daemonize_15 == 0))
     {
       guacd_log_error("Could not become a daemon.");
       exit(1);
@@ -11537,50 +11537,50 @@ signed int main(signed int argc, char **argv)
     pidf=fopen(pidfile, "w");
     if(!(pidf == ((struct _IO_FILE *)NULL)))
     {
-      signed int return_value_getpid$16;
-      return_value_getpid$16=getpid();
-      fprintf(pidf, "%d\n", return_value_getpid$16);
+      signed int return_value_getpid_16;
+      return_value_getpid_16=getpid();
+      fprintf(pidf, "%d\n", return_value_getpid_16);
       fclose(pidf);
     }
 
     else
     {
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      char *return_value_strerror$18;
-      return_value_strerror$18=strerror(*return_value___errno_location$17);
-      guacd_log_error("Could not write PID file: %s", return_value_strerror$18);
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      char *return_value_strerror_18;
+      return_value_strerror_18=strerror(*return_value___errno_location_17);
+      guacd_log_error("Could not write PID file: %s", return_value_strerror_18);
       exit(1);
     }
   }
 
-  void (*return_value_signal$19)(signed int);
-  return_value_signal$19=signal(13, (void (*)(signed int))1);
-  if(return_value_signal$19 == (void (*)(signed int))-1)
+  void (*return_value_signal_19)(signed int);
+  return_value_signal_19=signal(13, (void (*)(signed int))1);
+  if(return_value_signal_19 == (void (*)(signed int))-1)
     guacd_log_info("Could not set handler for SIGPIPE to ignore. SIGPIPE may cause termination of the daemon.");
 
-  void (*return_value_signal$20)(signed int);
-  return_value_signal$20=signal(17, (void (*)(signed int))1);
-  if(return_value_signal$20 == (void (*)(signed int))-1)
+  void (*return_value_signal_20)(signed int);
+  return_value_signal_20=signal(17, (void (*)(signed int))1);
+  if(return_value_signal_20 == (void (*)(signed int))-1)
     guacd_log_info("Could not set handler for SIGCHLD to ignore. Child processes may pile up in the process table.");
 
   guacd_log_info("Listening on host %s, port %s", (const void *)bound_address, (const void *)bound_port);
   freeaddrinfo(addresses);
-  signed int *return_value___errno_location$26;
-  char *return_value_strerror$27;
-  signed int return_value_close$30;
+  signed int *return_value___errno_location_26;
+  char *return_value_strerror_27;
+  signed int return_value_close_30;
   do
   {
     signed int child_pid;
-    signed int return_value_listen$23;
-    return_value_listen$23=listen(socket_fd, 5);
-    if(!(return_value_listen$23 >= 0))
+    signed int return_value_listen_23;
+    return_value_listen_23=listen(socket_fd, 5);
+    if(!(return_value_listen_23 >= 0))
     {
-      signed int *return_value___errno_location$21;
-      return_value___errno_location$21=__errno_location();
-      char *return_value_strerror$22;
-      return_value_strerror$22=strerror(*return_value___errno_location$21);
-      guacd_log_error("Could not listen on socket: %s", return_value_strerror$22);
+      signed int *return_value___errno_location_21;
+      return_value___errno_location_21=__errno_location();
+      char *return_value_strerror_22;
+      return_value_strerror_22=strerror(*return_value___errno_location_21);
+      guacd_log_error("Could not listen on socket: %s", return_value_strerror_22);
       return 3;
     }
 
@@ -11588,30 +11588,30 @@ signed int main(signed int argc, char **argv)
     connected_socket_fd=accept(socket_fd, (struct sockaddr *)&client_addr, &client_addr_len);
     if(!(connected_socket_fd >= 0))
     {
-      signed int *return_value___errno_location$24;
-      return_value___errno_location$24=__errno_location();
-      char *return_value_strerror$25;
-      return_value_strerror$25=strerror(*return_value___errno_location$24);
-      guacd_log_error("Could not accept client connection: %s", return_value_strerror$25);
+      signed int *return_value___errno_location_24;
+      return_value___errno_location_24=__errno_location();
+      char *return_value_strerror_25;
+      return_value_strerror_25=strerror(*return_value___errno_location_24);
+      guacd_log_error("Could not accept client connection: %s", return_value_strerror_25);
       return 3;
     }
 
     child_pid=fork();
     if(child_pid == -1)
     {
-      return_value___errno_location$26=__errno_location();
-      return_value_strerror$27=strerror(*return_value___errno_location$26);
-      guacd_log_error("Error forking child process: %s", return_value_strerror$27);
+      return_value___errno_location_26=__errno_location();
+      return_value_strerror_27=strerror(*return_value___errno_location_26);
+      guacd_log_error("Error forking child process: %s", return_value_strerror_27);
     }
 
     else
       if(child_pid == 0)
       {
-        struct guac_socket *main$$1$$12$$1$$3$$socket;
+        struct guac_socket *main__1__12__1__3__socket;
         if(!(ssl_context == ((struct ssl_ctx_st *)NULL)))
         {
-          main$$1$$12$$1$$3$$socket=guac_socket_open_secure(ssl_context, connected_socket_fd);
-          if(main$$1$$12$$1$$3$$socket == ((struct guac_socket *)NULL))
+          main__1__12__1__3__socket=guac_socket_open_secure(ssl_context, connected_socket_fd);
+          if(main__1__12__1__3__socket == ((struct guac_socket *)NULL))
           {
             guacd_log_guac_error("Error opening secure connection");
             return 0;
@@ -11620,36 +11620,36 @@ signed int main(signed int argc, char **argv)
         }
 
         else
-          main$$1$$12$$1$$3$$socket=guac_socket_open(connected_socket_fd);
-        guacd_handle_connection(main$$1$$12$$1$$3$$socket);
+          main__1__12__1__3__socket=guac_socket_open(connected_socket_fd);
+        guacd_handle_connection(main__1__12__1__3__socket);
         close(connected_socket_fd);
         return 0;
       }
 
       else
       {
-        return_value_close$30=close(connected_socket_fd);
-        if(!(return_value_close$30 >= 0))
+        return_value_close_30=close(connected_socket_fd);
+        if(!(return_value_close_30 >= 0))
         {
-          signed int *return_value___errno_location$28;
-          return_value___errno_location$28=__errno_location();
-          char *return_value_strerror$29;
-          return_value_strerror$29=strerror(*return_value___errno_location$28);
-          guacd_log_error("Error closing daemon reference to child descriptor: %s", return_value_strerror$29);
+          signed int *return_value___errno_location_28;
+          return_value___errno_location_28=__errno_location();
+          char *return_value_strerror_29;
+          return_value_strerror_29=strerror(*return_value___errno_location_28);
+          guacd_log_error("Error closing daemon reference to child descriptor: %s", return_value_strerror_29);
         }
 
       }
   }
   while((_Bool)1);
-  signed int return_value_close$33;
-  return_value_close$33=close(socket_fd);
-  if(!(return_value_close$33 >= 0))
+  signed int return_value_close_33;
+  return_value_close_33=close(socket_fd);
+  if(!(return_value_close_33 >= 0))
   {
-    signed int *return_value___errno_location$31;
-    return_value___errno_location$31=__errno_location();
-    char *return_value_strerror$32;
-    return_value_strerror$32=strerror(*return_value___errno_location$31);
-    guacd_log_error("Could not close socket: %s", return_value_strerror$32);
+    signed int *return_value___errno_location_31;
+    return_value___errno_location_31=__errno_location();
+    char *return_value_strerror_32;
+    return_value_strerror_32=strerror(*return_value___errno_location_31);
+    guacd_log_error("Could not close socket: %s", return_value_strerror_32);
     return 3;
   }
 
@@ -11661,30 +11661,30 @@ signed int main(signed int argc, char **argv)
 void ogg_encoder_begin_handler(struct guac_audio_stream *audio)
 {
   struct ogg_encoder_state *state;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ogg_encoder_state) /*912ul*/ );
-  state = (struct ogg_encoder_state *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ogg_encoder_state) /*912ul*/ );
+  state = (struct ogg_encoder_state *)return_value_malloc_1;
   vorbis_info_init(&state->info);
   vorbis_encode_init_vbr(&state->info, (signed long int)audio->channels, (signed long int)audio->rate, (float)0.4);
   vorbis_analysis_init(&state->vorbis_state, &state->info);
   vorbis_block_init(&state->vorbis_state, &state->vorbis_block);
   vorbis_comment_init(&state->comment);
   vorbis_comment_add_tag(&state->comment, "ENCODER", "libguac-client-rdp");
-  signed int return_value_rand$2;
-  return_value_rand$2=rand();
-  ogg_stream_init(&state->ogg_state, return_value_rand$2);
-  struct anonymous$5 header;
-  struct anonymous$5 header_comm;
-  struct anonymous$5 header_code;
+  signed int return_value_rand_2;
+  return_value_rand_2=rand();
+  ogg_stream_init(&state->ogg_state, return_value_rand_2);
+  struct anonymous_5 header;
+  struct anonymous_5 header_comm;
+  struct anonymous_5 header_code;
   vorbis_analysis_headerout(&state->vorbis_state, &state->comment, &header, &header_comm, &header_code);
   ogg_stream_packetin(&state->ogg_state, &header);
   ogg_stream_packetin(&state->ogg_state, &header_comm);
   ogg_stream_packetin(&state->ogg_state, &header_code);
-  signed int return_value_ogg_stream_flush$3;
+  signed int return_value_ogg_stream_flush_3;
   do
   {
-    return_value_ogg_stream_flush$3=ogg_stream_flush(&state->ogg_state, &state->ogg_page);
-    if(return_value_ogg_stream_flush$3 == 0)
+    return_value_ogg_stream_flush_3=ogg_stream_flush(&state->ogg_state, &state->ogg_page);
+    if(return_value_ogg_stream_flush_3 == 0)
       break;
 
     guac_audio_stream_write_encoded(audio, state->ogg_page.header, (signed int)state->ogg_page.header_len);
@@ -11714,35 +11714,35 @@ void ogg_encoder_end_handler(struct guac_audio_stream *audio)
 void ogg_encoder_write_blocks(struct guac_audio_stream *audio)
 {
   struct ogg_encoder_state *state = (struct ogg_encoder_state *)audio->data;
-  signed int return_value_vorbis_analysis_blockout$1;
-  signed int return_value_vorbis_bitrate_flushpacket$2;
-  signed int return_value_ogg_stream_pageout$3;
+  signed int return_value_vorbis_analysis_blockout_1;
+  signed int return_value_vorbis_bitrate_flushpacket_2;
+  signed int return_value_ogg_stream_pageout_3;
   do
   {
-    return_value_vorbis_analysis_blockout$1=vorbis_analysis_blockout(&state->vorbis_state, &state->vorbis_block);
-    if(!(return_value_vorbis_analysis_blockout$1 == 1))
+    return_value_vorbis_analysis_blockout_1=vorbis_analysis_blockout(&state->vorbis_state, &state->vorbis_block);
+    if(!(return_value_vorbis_analysis_blockout_1 == 1))
       break;
 
-    vorbis_analysis(&state->vorbis_block, (struct anonymous$5 *)(void *)0);
+    vorbis_analysis(&state->vorbis_block, (struct anonymous_5 *)(void *)0);
     vorbis_bitrate_addblock(&state->vorbis_block);
     do
     {
-      return_value_vorbis_bitrate_flushpacket$2=vorbis_bitrate_flushpacket(&state->vorbis_state, &state->ogg_packet);
-      if(return_value_vorbis_bitrate_flushpacket$2 == 0)
+      return_value_vorbis_bitrate_flushpacket_2=vorbis_bitrate_flushpacket(&state->vorbis_state, &state->ogg_packet);
+      if(return_value_vorbis_bitrate_flushpacket_2 == 0)
         break;
 
       ogg_stream_packetin(&state->ogg_state, &state->ogg_packet);
       do
       {
-        return_value_ogg_stream_pageout$3=ogg_stream_pageout(&state->ogg_state, &state->ogg_page);
-        if(return_value_ogg_stream_pageout$3 == 0)
+        return_value_ogg_stream_pageout_3=ogg_stream_pageout(&state->ogg_state, &state->ogg_page);
+        if(return_value_ogg_stream_pageout_3 == 0)
           break;
 
         guac_audio_stream_write_encoded(audio, state->ogg_page.header, (signed int)state->ogg_page.header_len);
         guac_audio_stream_write_encoded(audio, state->ogg_page.body, (signed int)state->ogg_page.body_len);
-        signed int return_value_ogg_page_eos$4;
-        return_value_ogg_page_eos$4=ogg_page_eos(&state->ogg_page);
-        if(!(return_value_ogg_page_eos$4 == 0))
+        signed int return_value_ogg_page_eos_4;
+        return_value_ogg_page_eos_4=ogg_page_eos(&state->ogg_page);
+        if(!(return_value_ogg_page_eos_4 == 0))
           break;
 
       }
@@ -11821,9 +11821,9 @@ void vguacd_log_error(const char *format, void **args)
   char message[2048l];
   vsnprintf(message, sizeof(char [2048l]) /*2048ul*/ , format, args);
   syslog(3, "%s", (const void *)message);
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  fprintf(stderr, "%s[%i]: ERROR: %s\n", (const void *)log_prefix, return_value_getpid$1, (const void *)message);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  fprintf(stderr, "%s[%i]: ERROR: %s\n", (const void *)log_prefix, return_value_getpid_1, (const void *)message);
 }
 
 // vguacd_log_info
@@ -11833,9 +11833,9 @@ void vguacd_log_info(const char *format, void **args)
   char message[2048l];
   vsnprintf(message, sizeof(char [2048l]) /*2048ul*/ , format, args);
   syslog(6, "%s", (const void *)message);
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  fprintf(stderr, "%s[%i]: INFO:  %s\n", (const void *)log_prefix, return_value_getpid$1, (const void *)message);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  fprintf(stderr, "%s[%i]: INFO:  %s\n", (const void *)log_prefix, return_value_getpid_1, (const void *)message);
 }
 
 // wav_encoder_begin_handler
@@ -11843,14 +11843,14 @@ void vguacd_log_info(const char *format, void **args)
 void wav_encoder_begin_handler(struct guac_audio_stream *audio)
 {
   struct wav_encoder_state *state;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct wav_encoder_state) /*16ul*/ );
-  state = (struct wav_encoder_state *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct wav_encoder_state) /*16ul*/ );
+  state = (struct wav_encoder_state *)return_value_malloc_1;
   state->length = 0x4000;
   state->used = 0;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)state->length);
-  state->data_buffer = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)state->length);
+  state->data_buffer = (unsigned char *)return_value_malloc_2;
   audio->data = (void *)state;
 }
 
@@ -11887,9 +11887,9 @@ void wav_encoder_write_handler(struct guac_audio_stream *audio, const unsigned c
   if(!(state->length >= state->used + length))
   {
     state->length = (state->length + length) * 2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)state->data_buffer, (unsigned long int)state->length);
-    state->data_buffer = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)state->data_buffer, (unsigned long int)state->length);
+    state->data_buffer = (unsigned char *)return_value_realloc_1;
   }
 
   memcpy((void *)&state->data_buffer[(signed long int)state->used], (const void *)pcm_data, (unsigned long int)length);

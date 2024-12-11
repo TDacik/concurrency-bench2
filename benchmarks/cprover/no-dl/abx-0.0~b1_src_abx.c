@@ -1,210 +1,210 @@
-// #anon_enum$CMD_PAUSE=0$CMD_PLAY=1$CMD_SEEK=2$CMD_STOP=3$CMD_TERM=4
+// #anon_enum_CMD_PAUSE=0_CMD_PLAY=1_CMD_SEEK=2_CMD_STOP=3_CMD_TERM=4
 // file player.c line 55
-enum anonymous$37 { CMD_PAUSE=0, CMD_PLAY=1, CMD_SEEK=2, CMD_STOP=3, CMD_TERM=4 };
+enum anonymous_37 { CMD_PAUSE=0, CMD_PLAY=1, CMD_SEEK=2, CMD_STOP=3, CMD_TERM=4 };
 
-// #anon_enum$GDK_ACTION_DEFAULT=1$GDK_ACTION_COPY=2$GDK_ACTION_MOVE=4$GDK_ACTION_LINK=8$GDK_ACTION_PRIVATE=16$GDK_ACTION_ASK=32
+// #anon_enum_GDK_ACTION_DEFAULT=1_GDK_ACTION_COPY=2_GDK_ACTION_MOVE=4_GDK_ACTION_LINK=8_GDK_ACTION_PRIVATE=16_GDK_ACTION_ASK=32
 // file /usr/include/gtk-2.0/gdk/gdkdnd.h line 40
-enum anonymous$11 { GDK_ACTION_DEFAULT=1, GDK_ACTION_COPY=2, GDK_ACTION_MOVE=4, GDK_ACTION_LINK=8, GDK_ACTION_PRIVATE=16, GDK_ACTION_ASK=32 };
+enum anonymous_11 { GDK_ACTION_DEFAULT=1, GDK_ACTION_COPY=2, GDK_ACTION_MOVE=4, GDK_ACTION_LINK=8, GDK_ACTION_PRIVATE=16, GDK_ACTION_ASK=32 };
 
-// #anon_enum$GDK_AXIS_IGNORE=0$GDK_AXIS_X=1$GDK_AXIS_Y=2$GDK_AXIS_PRESSURE=3$GDK_AXIS_XTILT=4$GDK_AXIS_YTILT=5$GDK_AXIS_WHEEL=6$GDK_AXIS_LAST=7
+// #anon_enum_GDK_AXIS_IGNORE=0_GDK_AXIS_X=1_GDK_AXIS_Y=2_GDK_AXIS_PRESSURE=3_GDK_AXIS_XTILT=4_GDK_AXIS_YTILT=5_GDK_AXIS_WHEEL=6_GDK_AXIS_LAST=7
 // file /usr/include/gtk-2.0/gdk/gdkinput.h line 73
-enum anonymous$20 { GDK_AXIS_IGNORE=0, GDK_AXIS_X=1, GDK_AXIS_Y=2, GDK_AXIS_PRESSURE=3, GDK_AXIS_XTILT=4, GDK_AXIS_YTILT=5, GDK_AXIS_WHEEL=6, GDK_AXIS_LAST=7 };
+enum anonymous_20 { GDK_AXIS_IGNORE=0, GDK_AXIS_X=1, GDK_AXIS_Y=2, GDK_AXIS_PRESSURE=3, GDK_AXIS_XTILT=4, GDK_AXIS_YTILT=5, GDK_AXIS_WHEEL=6, GDK_AXIS_LAST=7 };
 
-// #anon_enum$GDK_CROSSING_NORMAL=0$GDK_CROSSING_GRAB=1$GDK_CROSSING_UNGRAB=2$GDK_CROSSING_GTK_GRAB=3$GDK_CROSSING_GTK_UNGRAB=4$GDK_CROSSING_STATE_CHANGED=5
+// #anon_enum_GDK_CROSSING_NORMAL=0_GDK_CROSSING_GRAB=1_GDK_CROSSING_UNGRAB=2_GDK_CROSSING_GTK_GRAB=3_GDK_CROSSING_GTK_UNGRAB=4_GDK_CROSSING_STATE_CHANGED=5
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 225
-enum anonymous$8 { GDK_CROSSING_NORMAL=0, GDK_CROSSING_GRAB=1, GDK_CROSSING_UNGRAB=2, GDK_CROSSING_GTK_GRAB=3, GDK_CROSSING_GTK_UNGRAB=4, GDK_CROSSING_STATE_CHANGED=5 };
+enum anonymous_8 { GDK_CROSSING_NORMAL=0, GDK_CROSSING_GRAB=1, GDK_CROSSING_UNGRAB=2, GDK_CROSSING_GTK_GRAB=3, GDK_CROSSING_GTK_UNGRAB=4, GDK_CROSSING_STATE_CHANGED=5 };
 
-// #anon_enum$GDK_DRAG_PROTO_MOTIF=0$GDK_DRAG_PROTO_XDND=1$GDK_DRAG_PROTO_ROOTWIN=2$GDK_DRAG_PROTO_NONE=3$GDK_DRAG_PROTO_WIN32_DROPFILES=4$GDK_DRAG_PROTO_OLE2=5$GDK_DRAG_PROTO_LOCAL=6
+// #anon_enum_GDK_DRAG_PROTO_MOTIF=0_GDK_DRAG_PROTO_XDND=1_GDK_DRAG_PROTO_ROOTWIN=2_GDK_DRAG_PROTO_NONE=3_GDK_DRAG_PROTO_WIN32_DROPFILES=4_GDK_DRAG_PROTO_OLE2=5_GDK_DRAG_PROTO_LOCAL=6
 // file /usr/include/gtk-2.0/gdk/gdkdnd.h line 50
-enum anonymous$10 { GDK_DRAG_PROTO_MOTIF=0, GDK_DRAG_PROTO_XDND=1, GDK_DRAG_PROTO_ROOTWIN=2, GDK_DRAG_PROTO_NONE=3, GDK_DRAG_PROTO_WIN32_DROPFILES=4, GDK_DRAG_PROTO_OLE2=5, GDK_DRAG_PROTO_LOCAL=6 };
+enum anonymous_10 { GDK_DRAG_PROTO_MOTIF=0, GDK_DRAG_PROTO_XDND=1, GDK_DRAG_PROTO_ROOTWIN=2, GDK_DRAG_PROTO_NONE=3, GDK_DRAG_PROTO_WIN32_DROPFILES=4, GDK_DRAG_PROTO_OLE2=5, GDK_DRAG_PROTO_LOCAL=6 };
 
-// #anon_enum$GDK_FONT_FONT=0$GDK_FONT_FONTSET=1
+// #anon_enum_GDK_FONT_FONT=0_GDK_FONT_FONTSET=1
 // file /usr/include/gtk-2.0/gdk/gdkfont.h line 43
-enum anonymous$44 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
+enum anonymous_44 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
 
-// #anon_enum$GDK_LSB_FIRST=0$GDK_MSB_FIRST=1
+// #anon_enum_GDK_LSB_FIRST=0_GDK_MSB_FIRST=1
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 118
-enum anonymous$35 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
+enum anonymous_35 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
 
-// #anon_enum$GDK_MODE_DISABLED=0$GDK_MODE_SCREEN=1$GDK_MODE_WINDOW=2
+// #anon_enum_GDK_MODE_DISABLED=0_GDK_MODE_SCREEN=1_GDK_MODE_WINDOW=2
 // file /usr/include/gtk-2.0/gdk/gdkinput.h line 66
-enum anonymous$23 { GDK_MODE_DISABLED=0, GDK_MODE_SCREEN=1, GDK_MODE_WINDOW=2 };
+enum anonymous_23 { GDK_MODE_DISABLED=0, GDK_MODE_SCREEN=1, GDK_MODE_WINDOW=2 };
 
-// #anon_enum$GDK_NOTHING=-1$GDK_DELETE=0$GDK_DESTROY=1$GDK_EXPOSE=2$GDK_MOTION_NOTIFY=3$GDK_BUTTON_PRESS=4$GDK_2BUTTON_PRESS=5$GDK_3BUTTON_PRESS=6$GDK_BUTTON_RELEASE=7$GDK_KEY_PRESS=8$GDK_KEY_RELEASE=9$GDK_ENTER_NOTIFY=10$GDK_LEAVE_NOTIFY=11$GDK_FOCUS_CHANGE=12$GDK_CONFIGURE=13$GDK_MAP=14$GDK_UNMAP=15$GDK_PROPERTY_NOTIFY=16$GDK_SELECTION_CLEAR=17$GDK_SELECTION_REQUEST=18$GDK_SELECTION_NOTIFY=19$GDK_PROXIMITY_IN=20$GDK_PROXIMITY_OUT=21$GDK_DRAG_ENTER=22$GDK_DRAG_LEAVE=23$GDK_DRAG_MOTION=24$GDK_DRAG_STATUS=25$GDK_DROP_START=26$GDK_DROP_FINISHED=27$GDK_CLIENT_EVENT=28$GDK_VISIBILITY_NOTIFY=29$GDK_NO_EXPOSE=30$GDK_SCROLL=31$GDK_WINDOW_STATE=32$GDK_SETTING=33$GDK_OWNER_CHANGE=34$GDK_GRAB_BROKEN=35$GDK_DAMAGE=36$GDK_EVENT_LAST=37
+// #anon_enum_GDK_NOTHING=-1_GDK_DELETE=0_GDK_DESTROY=1_GDK_EXPOSE=2_GDK_MOTION_NOTIFY=3_GDK_BUTTON_PRESS=4_GDK_2BUTTON_PRESS=5_GDK_3BUTTON_PRESS=6_GDK_BUTTON_RELEASE=7_GDK_KEY_PRESS=8_GDK_KEY_RELEASE=9_GDK_ENTER_NOTIFY=10_GDK_LEAVE_NOTIFY=11_GDK_FOCUS_CHANGE=12_GDK_CONFIGURE=13_GDK_MAP=14_GDK_UNMAP=15_GDK_PROPERTY_NOTIFY=16_GDK_SELECTION_CLEAR=17_GDK_SELECTION_REQUEST=18_GDK_SELECTION_NOTIFY=19_GDK_PROXIMITY_IN=20_GDK_PROXIMITY_OUT=21_GDK_DRAG_ENTER=22_GDK_DRAG_LEAVE=23_GDK_DRAG_MOTION=24_GDK_DRAG_STATUS=25_GDK_DROP_START=26_GDK_DROP_FINISHED=27_GDK_CLIENT_EVENT=28_GDK_VISIBILITY_NOTIFY=29_GDK_NO_EXPOSE=30_GDK_SCROLL=31_GDK_WINDOW_STATE=32_GDK_SETTING=33_GDK_OWNER_CHANGE=34_GDK_GRAB_BROKEN=35_GDK_DAMAGE=36_GDK_EVENT_LAST=37
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 115
-enum anonymous$4 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
+enum anonymous_4 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
 
-// #anon_enum$GDK_NOTIFY_ANCESTOR=0$GDK_NOTIFY_VIRTUAL=1$GDK_NOTIFY_INFERIOR=2$GDK_NOTIFY_NONLINEAR=3$GDK_NOTIFY_NONLINEAR_VIRTUAL=4$GDK_NOTIFY_UNKNOWN=5
+// #anon_enum_GDK_NOTIFY_ANCESTOR=0_GDK_NOTIFY_VIRTUAL=1_GDK_NOTIFY_INFERIOR=2_GDK_NOTIFY_NONLINEAR=3_GDK_NOTIFY_NONLINEAR_VIRTUAL=4_GDK_NOTIFY_UNKNOWN=5
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 210
-enum anonymous$9 { GDK_NOTIFY_ANCESTOR=0, GDK_NOTIFY_VIRTUAL=1, GDK_NOTIFY_INFERIOR=2, GDK_NOTIFY_NONLINEAR=3, GDK_NOTIFY_NONLINEAR_VIRTUAL=4, GDK_NOTIFY_UNKNOWN=5 };
+enum anonymous_9 { GDK_NOTIFY_ANCESTOR=0, GDK_NOTIFY_VIRTUAL=1, GDK_NOTIFY_INFERIOR=2, GDK_NOTIFY_NONLINEAR=3, GDK_NOTIFY_NONLINEAR_VIRTUAL=4, GDK_NOTIFY_UNKNOWN=5 };
 
-// #anon_enum$GDK_OWNER_CHANGE_NEW_OWNER=0$GDK_OWNER_CHANGE_DESTROY=1$GDK_OWNER_CHANGE_CLOSE=2
+// #anon_enum_GDK_OWNER_CHANGE_NEW_OWNER=0_GDK_OWNER_CHANGE_DESTROY=1_GDK_OWNER_CHANGE_CLOSE=2
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 259
-enum anonymous$49 { GDK_OWNER_CHANGE_NEW_OWNER=0, GDK_OWNER_CHANGE_DESTROY=1, GDK_OWNER_CHANGE_CLOSE=2 };
+enum anonymous_49 { GDK_OWNER_CHANGE_NEW_OWNER=0, GDK_OWNER_CHANGE_DESTROY=1, GDK_OWNER_CHANGE_CLOSE=2 };
 
-// #anon_enum$GDK_SCROLL_UP=0$GDK_SCROLL_DOWN=1$GDK_SCROLL_LEFT=2$GDK_SCROLL_RIGHT=3
+// #anon_enum_GDK_SCROLL_UP=0_GDK_SCROLL_DOWN=1_GDK_SCROLL_LEFT=2_GDK_SCROLL_RIGHT=3
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 194
-enum anonymous$6 { GDK_SCROLL_UP=0, GDK_SCROLL_DOWN=1, GDK_SCROLL_LEFT=2, GDK_SCROLL_RIGHT=3 };
+enum anonymous_6 { GDK_SCROLL_UP=0, GDK_SCROLL_DOWN=1, GDK_SCROLL_LEFT=2, GDK_SCROLL_RIGHT=3 };
 
-// #anon_enum$GDK_SETTING_ACTION_NEW=0$GDK_SETTING_ACTION_CHANGED=1$GDK_SETTING_ACTION_DELETED=2
+// #anon_enum_GDK_SETTING_ACTION_NEW=0_GDK_SETTING_ACTION_CHANGED=1_GDK_SETTING_ACTION_DELETED=2
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 252
-enum anonymous$48 { GDK_SETTING_ACTION_NEW=0, GDK_SETTING_ACTION_CHANGED=1, GDK_SETTING_ACTION_DELETED=2 };
+enum anonymous_48 { GDK_SETTING_ACTION_NEW=0, GDK_SETTING_ACTION_CHANGED=1, GDK_SETTING_ACTION_DELETED=2 };
 
-// #anon_enum$GDK_SHIFT_MASK=1$GDK_LOCK_MASK=2$GDK_CONTROL_MASK=4$GDK_MOD1_MASK=8$GDK_MOD2_MASK=16$GDK_MOD3_MASK=32$GDK_MOD4_MASK=64$GDK_MOD5_MASK=128$GDK_BUTTON1_MASK=256$GDK_BUTTON2_MASK=512$GDK_BUTTON3_MASK=1024$GDK_BUTTON4_MASK=2048$GDK_BUTTON5_MASK=4096$GDK_SUPER_MASK=67108864$GDK_HYPER_MASK=134217728$GDK_META_MASK=268435456$GDK_RELEASE_MASK=1073741824$GDK_MODIFIER_MASK=1543512063
+// #anon_enum_GDK_SHIFT_MASK=1_GDK_LOCK_MASK=2_GDK_CONTROL_MASK=4_GDK_MOD1_MASK=8_GDK_MOD2_MASK=16_GDK_MOD3_MASK=32_GDK_MOD4_MASK=64_GDK_MOD5_MASK=128_GDK_BUTTON1_MASK=256_GDK_BUTTON2_MASK=512_GDK_BUTTON3_MASK=1024_GDK_BUTTON4_MASK=2048_GDK_BUTTON5_MASK=4096_GDK_SUPER_MASK=67108864_GDK_HYPER_MASK=134217728_GDK_META_MASK=268435456_GDK_RELEASE_MASK=1073741824_GDK_MODIFIER_MASK=1543512063
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 126
-enum anonymous$19 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
+enum anonymous_19 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
 
-// #anon_enum$GDK_SOURCE_MOUSE=0$GDK_SOURCE_PEN=1$GDK_SOURCE_ERASER=2$GDK_SOURCE_CURSOR=3
+// #anon_enum_GDK_SOURCE_MOUSE=0_GDK_SOURCE_PEN=1_GDK_SOURCE_ERASER=2_GDK_SOURCE_CURSOR=3
 // file /usr/include/gtk-2.0/gdk/gdkinput.h line 58
-enum anonymous$22 { GDK_SOURCE_MOUSE=0, GDK_SOURCE_PEN=1, GDK_SOURCE_ERASER=2, GDK_SOURCE_CURSOR=3 };
+enum anonymous_22 { GDK_SOURCE_MOUSE=0, GDK_SOURCE_PEN=1, GDK_SOURCE_ERASER=2, GDK_SOURCE_CURSOR=3 };
 
-// #anon_enum$GDK_VISIBILITY_UNOBSCURED=0$GDK_VISIBILITY_PARTIAL=1$GDK_VISIBILITY_FULLY_OBSCURED=2
+// #anon_enum_GDK_VISIBILITY_UNOBSCURED=0_GDK_VISIBILITY_PARTIAL=1_GDK_VISIBILITY_FULLY_OBSCURED=2
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 187
-enum anonymous$5 { GDK_VISIBILITY_UNOBSCURED=0, GDK_VISIBILITY_PARTIAL=1, GDK_VISIBILITY_FULLY_OBSCURED=2 };
+enum anonymous_5 { GDK_VISIBILITY_UNOBSCURED=0, GDK_VISIBILITY_PARTIAL=1, GDK_VISIBILITY_FULLY_OBSCURED=2 };
 
-// #anon_enum$GDK_VISUAL_STATIC_GRAY=0$GDK_VISUAL_GRAYSCALE=1$GDK_VISUAL_STATIC_COLOR=2$GDK_VISUAL_PSEUDO_COLOR=3$GDK_VISUAL_TRUE_COLOR=4$GDK_VISUAL_DIRECT_COLOR=5
+// #anon_enum_GDK_VISUAL_STATIC_GRAY=0_GDK_VISUAL_GRAYSCALE=1_GDK_VISUAL_STATIC_COLOR=2_GDK_VISUAL_PSEUDO_COLOR=3_GDK_VISUAL_TRUE_COLOR=4_GDK_VISUAL_DIRECT_COLOR=5
 // file /usr/include/gtk-2.0/gdk/gdkvisual.h line 55
-enum anonymous$34 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
+enum anonymous_34 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
 
-// #anon_enum$GDK_WINDOW_STATE_WITHDRAWN=1$GDK_WINDOW_STATE_ICONIFIED=2$GDK_WINDOW_STATE_MAXIMIZED=4$GDK_WINDOW_STATE_STICKY=8$GDK_WINDOW_STATE_FULLSCREEN=16$GDK_WINDOW_STATE_ABOVE=32$GDK_WINDOW_STATE_BELOW=64
+// #anon_enum_GDK_WINDOW_STATE_WITHDRAWN=1_GDK_WINDOW_STATE_ICONIFIED=2_GDK_WINDOW_STATE_MAXIMIZED=4_GDK_WINDOW_STATE_STICKY=8_GDK_WINDOW_STATE_FULLSCREEN=16_GDK_WINDOW_STATE_ABOVE=32_GDK_WINDOW_STATE_BELOW=64
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 241
-enum anonymous$12 { GDK_WINDOW_STATE_WITHDRAWN=1, GDK_WINDOW_STATE_ICONIFIED=2, GDK_WINDOW_STATE_MAXIMIZED=4, GDK_WINDOW_STATE_STICKY=8, GDK_WINDOW_STATE_FULLSCREEN=16, GDK_WINDOW_STATE_ABOVE=32, GDK_WINDOW_STATE_BELOW=64 };
+enum anonymous_12 { GDK_WINDOW_STATE_WITHDRAWN=1, GDK_WINDOW_STATE_ICONIFIED=2, GDK_WINDOW_STATE_MAXIMIZED=4, GDK_WINDOW_STATE_STICKY=8, GDK_WINDOW_STATE_FULLSCREEN=16, GDK_WINDOW_STATE_ABOVE=32, GDK_WINDOW_STATE_BELOW=64 };
 
-// #anon_enum$GTK_BUTTONS_NONE=0$GTK_BUTTONS_OK=1$GTK_BUTTONS_CLOSE=2$GTK_BUTTONS_CANCEL=3$GTK_BUTTONS_YES_NO=4$GTK_BUTTONS_OK_CANCEL=5
+// #anon_enum_GTK_BUTTONS_NONE=0_GTK_BUTTONS_OK=1_GTK_BUTTONS_CLOSE=2_GTK_BUTTONS_CANCEL=3_GTK_BUTTONS_YES_NO=4_GTK_BUTTONS_OK_CANCEL=5
 // file /usr/include/gtk-2.0/gtk/gtkmessagedialog.h line 89
-enum anonymous$31 { GTK_BUTTONS_NONE=0, GTK_BUTTONS_OK=1, GTK_BUTTONS_CLOSE=2, GTK_BUTTONS_CANCEL=3, GTK_BUTTONS_YES_NO=4, GTK_BUTTONS_OK_CANCEL=5 };
+enum anonymous_31 { GTK_BUTTONS_NONE=0, GTK_BUTTONS_OK=1, GTK_BUTTONS_CLOSE=2, GTK_BUTTONS_CANCEL=3, GTK_BUTTONS_YES_NO=4, GTK_BUTTONS_OK_CANCEL=5 };
 
-// #anon_enum$GTK_DIALOG_MODAL=1$GTK_DIALOG_DESTROY_WITH_PARENT=2$GTK_DIALOG_NO_SEPARATOR=4
+// #anon_enum_GTK_DIALOG_MODAL=1_GTK_DIALOG_DESTROY_WITH_PARENT=2_GTK_DIALOG_NO_SEPARATOR=4
 // file /usr/include/gtk-2.0/gtk/gtkdialog.h line 41
-enum anonymous$29 { GTK_DIALOG_MODAL=1, GTK_DIALOG_DESTROY_WITH_PARENT=2, GTK_DIALOG_NO_SEPARATOR=4 };
+enum anonymous_29 { GTK_DIALOG_MODAL=1, GTK_DIALOG_DESTROY_WITH_PARENT=2, GTK_DIALOG_NO_SEPARATOR=4 };
 
-// #anon_enum$GTK_FILE_CHOOSER_ACTION_OPEN=0$GTK_FILE_CHOOSER_ACTION_SAVE=1$GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2$GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3
+// #anon_enum_GTK_FILE_CHOOSER_ACTION_OPEN=0_GTK_FILE_CHOOSER_ACTION_SAVE=1_GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2_GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3
 // file /usr/include/gtk-2.0/gtk/gtkfilechooser.h line 56
-enum anonymous$3 { GTK_FILE_CHOOSER_ACTION_OPEN=0, GTK_FILE_CHOOSER_ACTION_SAVE=1, GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2, GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3 };
+enum anonymous_3 { GTK_FILE_CHOOSER_ACTION_OPEN=0, GTK_FILE_CHOOSER_ACTION_SAVE=1, GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER=2, GTK_FILE_CHOOSER_ACTION_CREATE_FOLDER=3 };
 
-// #anon_enum$GTK_ICON_SIZE_INVALID=0$GTK_ICON_SIZE_MENU=1$GTK_ICON_SIZE_SMALL_TOOLBAR=2$GTK_ICON_SIZE_LARGE_TOOLBAR=3$GTK_ICON_SIZE_BUTTON=4$GTK_ICON_SIZE_DND=5$GTK_ICON_SIZE_DIALOG=6
+// #anon_enum_GTK_ICON_SIZE_INVALID=0_GTK_ICON_SIZE_MENU=1_GTK_ICON_SIZE_SMALL_TOOLBAR=2_GTK_ICON_SIZE_LARGE_TOOLBAR=3_GTK_ICON_SIZE_BUTTON=4_GTK_ICON_SIZE_DND=5_GTK_ICON_SIZE_DIALOG=6
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 142
-enum anonymous$7 { GTK_ICON_SIZE_INVALID=0, GTK_ICON_SIZE_MENU=1, GTK_ICON_SIZE_SMALL_TOOLBAR=2, GTK_ICON_SIZE_LARGE_TOOLBAR=3, GTK_ICON_SIZE_BUTTON=4, GTK_ICON_SIZE_DND=5, GTK_ICON_SIZE_DIALOG=6 };
+enum anonymous_7 { GTK_ICON_SIZE_INVALID=0, GTK_ICON_SIZE_MENU=1, GTK_ICON_SIZE_SMALL_TOOLBAR=2, GTK_ICON_SIZE_LARGE_TOOLBAR=3, GTK_ICON_SIZE_BUTTON=4, GTK_ICON_SIZE_DND=5, GTK_ICON_SIZE_DIALOG=6 };
 
-// #anon_enum$GTK_MESSAGE_INFO=0$GTK_MESSAGE_WARNING=1$GTK_MESSAGE_QUESTION=2$GTK_MESSAGE_ERROR=3$GTK_MESSAGE_OTHER=4
+// #anon_enum_GTK_MESSAGE_INFO=0_GTK_MESSAGE_WARNING=1_GTK_MESSAGE_QUESTION=2_GTK_MESSAGE_ERROR=3_GTK_MESSAGE_OTHER=4
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 221
-enum anonymous$30 { GTK_MESSAGE_INFO=0, GTK_MESSAGE_WARNING=1, GTK_MESSAGE_QUESTION=2, GTK_MESSAGE_ERROR=3, GTK_MESSAGE_OTHER=4 };
+enum anonymous_30 { GTK_MESSAGE_INFO=0, GTK_MESSAGE_WARNING=1, GTK_MESSAGE_QUESTION=2, GTK_MESSAGE_ERROR=3, GTK_MESSAGE_OTHER=4 };
 
-// #anon_enum$GTK_ORIENTATION_HORIZONTAL=0$GTK_ORIENTATION_VERTICAL=1
+// #anon_enum_GTK_ORIENTATION_HORIZONTAL=0_GTK_ORIENTATION_VERTICAL=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 262
-enum anonymous$41 { GTK_ORIENTATION_HORIZONTAL=0, GTK_ORIENTATION_VERTICAL=1 };
+enum anonymous_41 { GTK_ORIENTATION_HORIZONTAL=0, GTK_ORIENTATION_VERTICAL=1 };
 
-// #anon_enum$GTK_POLICY_ALWAYS=0$GTK_POLICY_AUTOMATIC=1$GTK_POLICY_NEVER=2
+// #anon_enum_GTK_POLICY_ALWAYS=0_GTK_POLICY_AUTOMATIC=1_GTK_POLICY_NEVER=2
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 305
-enum anonymous$13 { GTK_POLICY_ALWAYS=0, GTK_POLICY_AUTOMATIC=1, GTK_POLICY_NEVER=2 };
+enum anonymous_13 { GTK_POLICY_ALWAYS=0, GTK_POLICY_AUTOMATIC=1, GTK_POLICY_NEVER=2 };
 
-// #anon_enum$GTK_RC_FG=1$GTK_RC_BG=2$GTK_RC_TEXT=4$GTK_RC_BASE=8
+// #anon_enum_GTK_RC_FG=1_GTK_RC_BG=2_GTK_RC_TEXT=4_GTK_RC_BASE=8
 // file /usr/include/gtk-2.0/gtk/gtkrc.h line 52
-enum anonymous$46 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
+enum anonymous_46 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
 
-// #anon_enum$GTK_SELECTION_NONE=0$GTK_SELECTION_SINGLE=1$GTK_SELECTION_BROWSE=2$GTK_SELECTION_MULTIPLE=3$GTK_SELECTION_EXTENDED=3
+// #anon_enum_GTK_SELECTION_NONE=0_GTK_SELECTION_SINGLE=1_GTK_SELECTION_BROWSE=2_GTK_SELECTION_MULTIPLE=3_GTK_SELECTION_EXTENDED=3
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 379
-enum anonymous$2 { GTK_SELECTION_NONE=0, GTK_SELECTION_SINGLE=1, GTK_SELECTION_BROWSE=2, GTK_SELECTION_MULTIPLE=3, GTK_SELECTION_EXTENDED=3 };
+enum anonymous_2 { GTK_SELECTION_NONE=0, GTK_SELECTION_SINGLE=1, GTK_SELECTION_BROWSE=2, GTK_SELECTION_MULTIPLE=3, GTK_SELECTION_EXTENDED=3 };
 
-// #anon_enum$GTK_SORT_ASCENDING=0$GTK_SORT_DESCENDING=1
+// #anon_enum_GTK_SORT_ASCENDING=0_GTK_SORT_DESCENDING=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 476
-enum anonymous$15 { GTK_SORT_ASCENDING=0, GTK_SORT_DESCENDING=1 };
+enum anonymous_15 { GTK_SORT_ASCENDING=0, GTK_SORT_DESCENDING=1 };
 
-// #anon_enum$GTK_TREE_VIEW_COLUMN_GROW_ONLY=0$GTK_TREE_VIEW_COLUMN_AUTOSIZE=1$GTK_TREE_VIEW_COLUMN_FIXED=2
+// #anon_enum_GTK_TREE_VIEW_COLUMN_GROW_ONLY=0_GTK_TREE_VIEW_COLUMN_AUTOSIZE=1_GTK_TREE_VIEW_COLUMN_FIXED=2
 // file /usr/include/gtk-2.0/gtk/gtktreeviewcolumn.h line 45
-enum anonymous$1 { GTK_TREE_VIEW_COLUMN_GROW_ONLY=0, GTK_TREE_VIEW_COLUMN_AUTOSIZE=1, GTK_TREE_VIEW_COLUMN_FIXED=2 };
+enum anonymous_1 { GTK_TREE_VIEW_COLUMN_GROW_ONLY=0, GTK_TREE_VIEW_COLUMN_AUTOSIZE=1, GTK_TREE_VIEW_COLUMN_FIXED=2 };
 
-// #anon_enum$GTK_UPDATE_ALWAYS=0$GTK_UPDATE_IF_VALID=1
+// #anon_enum_GTK_UPDATE_ALWAYS=0_GTK_UPDATE_IF_VALID=1
 // file /usr/include/gtk-2.0/gtk/gtkspinbutton.h line 53
-enum anonymous$18 { GTK_UPDATE_ALWAYS=0, GTK_UPDATE_IF_VALID=1 };
+enum anonymous_18 { GTK_UPDATE_ALWAYS=0, GTK_UPDATE_IF_VALID=1 };
 
-// #anon_enum$GTK_UPDATE_CONTINUOUS=0$GTK_UPDATE_DISCONTINUOUS=1$GTK_UPDATE_DELAYED=2
+// #anon_enum_GTK_UPDATE_CONTINUOUS=0_GTK_UPDATE_DISCONTINUOUS=1_GTK_UPDATE_DELAYED=2
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 434
-enum anonymous$39 { GTK_UPDATE_CONTINUOUS=0, GTK_UPDATE_DISCONTINUOUS=1, GTK_UPDATE_DELAYED=2 };
+enum anonymous_39 { GTK_UPDATE_CONTINUOUS=0, GTK_UPDATE_DISCONTINUOUS=1, GTK_UPDATE_DELAYED=2 };
 
-// #anon_enum$GTK_WINDOW_TOPLEVEL=0$GTK_WINDOW_POPUP=1
+// #anon_enum_GTK_WINDOW_TOPLEVEL=0_GTK_WINDOW_POPUP=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 460
-enum anonymous$36 { GTK_WINDOW_TOPLEVEL=0, GTK_WINDOW_POPUP=1 };
+enum anonymous_36 { GTK_WINDOW_TOPLEVEL=0, GTK_WINDOW_POPUP=1 };
 
-// #anon_enum$G_CONNECT_AFTER=1$G_CONNECT_SWAPPED=2
+// #anon_enum_G_CONNECT_AFTER=1_G_CONNECT_SWAPPED=2
 // file /usr/include/glib-2.0/gobject/gsignal.h line 155
-enum anonymous$24 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
+enum anonymous_24 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
 
-// #anon_enum$G_LOG_FLAG_RECURSION=1$G_LOG_FLAG_FATAL=2$G_LOG_LEVEL_ERROR=4$G_LOG_LEVEL_CRITICAL=8$G_LOG_LEVEL_WARNING=16$G_LOG_LEVEL_MESSAGE=32$G_LOG_LEVEL_INFO=64$G_LOG_LEVEL_DEBUG=128$G_LOG_LEVEL_MASK=-4
+// #anon_enum_G_LOG_FLAG_RECURSION=1_G_LOG_FLAG_FATAL=2_G_LOG_LEVEL_ERROR=4_G_LOG_LEVEL_CRITICAL=8_G_LOG_LEVEL_WARNING=16_G_LOG_LEVEL_MESSAGE=32_G_LOG_LEVEL_INFO=64_G_LOG_LEVEL_DEBUG=128_G_LOG_LEVEL_MASK=-4
 // file /usr/include/glib-2.0/glib/gmessages.h line 51
-enum anonymous$50 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
+enum anonymous_50 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
 
-// #anon_enum$G_OPTION_ARG_NONE=0$G_OPTION_ARG_STRING=1$G_OPTION_ARG_INT=2$G_OPTION_ARG_CALLBACK=3$G_OPTION_ARG_FILENAME=4$G_OPTION_ARG_STRING_ARRAY=5$G_OPTION_ARG_FILENAME_ARRAY=6$G_OPTION_ARG_DOUBLE=7$G_OPTION_ARG_INT64=8
+// #anon_enum_G_OPTION_ARG_NONE=0_G_OPTION_ARG_STRING=1_G_OPTION_ARG_INT=2_G_OPTION_ARG_CALLBACK=3_G_OPTION_ARG_FILENAME=4_G_OPTION_ARG_STRING_ARRAY=5_G_OPTION_ARG_FILENAME_ARRAY=6_G_OPTION_ARG_DOUBLE=7_G_OPTION_ARG_INT64=8
 // file /usr/include/glib-2.0/glib/goption.h line 118
-enum anonymous$0 { G_OPTION_ARG_NONE=0, G_OPTION_ARG_STRING=1, G_OPTION_ARG_INT=2, G_OPTION_ARG_CALLBACK=3, G_OPTION_ARG_FILENAME=4, G_OPTION_ARG_STRING_ARRAY=5, G_OPTION_ARG_FILENAME_ARRAY=6, G_OPTION_ARG_DOUBLE=7, G_OPTION_ARG_INT64=8 };
+enum anonymous_0 { G_OPTION_ARG_NONE=0, G_OPTION_ARG_STRING=1, G_OPTION_ARG_INT=2, G_OPTION_ARG_CALLBACK=3, G_OPTION_ARG_FILENAME=4, G_OPTION_ARG_STRING_ARRAY=5, G_OPTION_ARG_FILENAME_ARRAY=6, G_OPTION_ARG_DOUBLE=7, G_OPTION_ARG_INT64=8 };
 
-// #anon_enum$PLAYING=0$PAUSED=1$STOPPED=2
+// #anon_enum_PLAYING=0_PAUSED=1_STOPPED=2
 // file player.h line 32
-enum anonymous$16 { PLAYING=0, PAUSED=1, STOPPED=2 };
+enum anonymous_16 { PLAYING=0, PAUSED=1, STOPPED=2 };
 
-// #anon_enum$READER_RESUME=0$READER_RUNNING=1$READER_STOP=2$READER_STOPPED=3$READER_TERM=4
+// #anon_enum_READER_RESUME=0_READER_RUNNING=1_READER_STOP=2_READER_STOPPED=3_READER_TERM=4
 // file player.c line 91
-enum anonymous$40 { READER_RESUME=0, READER_RUNNING=1, READER_STOP=2, READER_STOPPED=3, READER_TERM=4 };
+enum anonymous_40 { READER_RESUME=0, READER_RUNNING=1, READER_STOP=2, READER_STOPPED=3, READER_TERM=4 };
 
-// #anon_enum$SAMPLE_A=0$SAMPLE_B=1$SAMPLE_NA=2
+// #anon_enum_SAMPLE_A=0_SAMPLE_B=1_SAMPLE_NA=2
 // file test.h line 27
-enum anonymous$14 { SAMPLE_A=0, SAMPLE_B=1, SAMPLE_NA=2 };
+enum anonymous_14 { SAMPLE_A=0, SAMPLE_B=1, SAMPLE_NA=2 };
 
-// tag-#anon#ST[*{F32}$F32$'begin'||*{F32}$F32$'end'||*{F32}$F32$'in'||*{F32}$F32$'out'||S32'bufsize'||S32'nframes'||SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#'prefill'||SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#'space'||S32'prefill_sem_ok'||S32'space_sem_ok'|]
+// tag-#anon#ST[*{F32}_F32_'begin'||*{F32}_F32_'end'||*{F32}_F32_'in'||*{F32}_F32_'out'||S32'bufsize'||S32'nframes'||SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#'prefill'||SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#'space'||S32'prefill_sem_ok'||S32'space_sem_ok'|]
 // file player.c line 75
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[*{S8}$S8$'filename'||S32'bits'||S32'channels'||S32'frames'||S32'rate'||F64'duration'||U32'minutes'||U32'seconds'|]
+// tag-#anon#ST[*{S8}_S8_'filename'||S32'bits'||S32'channels'||S32'frames'||S32'rate'||F64'duration'||U32'minutes'||U32'seconds'|]
 // file soundfile.h line 25
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[EN#anon_enum$CMD_PAUSE=0$CMD_PLAY=1$CMD_SEEK=2$CMD_STOP=3$CMD_TERM=4#{U32}$U32$'command'||U32'$pad0'||F64'offset'||S32'whence'||U32'$pad1'||*{SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#$'sem'|]
+// tag-#anon#ST[EN#anon_enum_CMD_PAUSE=0_CMD_PLAY=1_CMD_SEEK=2_CMD_STOP=3_CMD_TERM=4#{U32}_U32_'command'||U32'_pad0'||F64'offset'||S32'whence'||U32'_pad1'||*{SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#_'sem'|]
 // file player.c line 54
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[EN#anon_enum$PLAYING=0$PAUSED=1$STOPPED=2#{U32}$U32$'playback'||U32'$pad0'||F64'location'|]
+// tag-#anon#ST[EN#anon_enum_PLAYING=0_PAUSED=1_STOPPED=2#{U32}_U32_'playback'||U32'_pad0'||F64'location'|]
 // file player.h line 31
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[EN#anon_enum$READER_RESUME=0$READER_RUNNING=1$READER_STOP=2$READER_STOPPED=3$READER_TERM=4#{U32}$U32$'control'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'control_cond'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'control_cond_mutex'||U64'thread_id'||S32'thread_ok'||U32'$pad1'||SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#'sem'||SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#'notify'||S32'sem_ok'||S32'notify_ok'||*{SYM#tag-Sound_file#}$SYM#tag-Sound_file#$'sndfile'||SYM#tag-#anon#ST[*{S8}$S8$'filename'||S32'bits'||S32'channels'||S32'frames'||S32'rate'||F64'duration'||U32'minutes'||U32'seconds'|]#'metadata'||S8'is_eof'||U56'$pad2'|]
+// tag-#anon#ST[EN#anon_enum_READER_RESUME=0_READER_RUNNING=1_READER_STOP=2_READER_STOPPED=3_READER_TERM=4#{U32}_U32_'control'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'control_cond'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'control_cond_mutex'||U64'thread_id'||S32'thread_ok'||U32'_pad1'||SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#'sem'||SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#'notify'||S32'sem_ok'||S32'notify_ok'||*{SYM#tag-Sound_file#}_SYM#tag-Sound_file#_'sndfile'||SYM#tag-#anon#ST[*{S8}_S8_'filename'||S32'bits'||S32'channels'||S32'frames'||S32'rate'||F64'duration'||U32'minutes'||U32'seconds'|]#'metadata'||S8'is_eof'||U56'_pad2'|]
 // file player.c line 89
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S8'isvalid'||U24'$pad0'||U32'ntrials'||*{EN#anon_enum$SAMPLE_A=0$SAMPLE_B=1$SAMPLE_NA=2#{U32}$U32$}$EN#anon_enum$SAMPLE_A=0$SAMPLE_B=1$SAMPLE_NA=2#{U32}$U32$$'answers'||*{EN#anon_enum$SAMPLE_A=0$SAMPLE_B=1$SAMPLE_NA=2#{U32}$U32$}$EN#anon_enum$SAMPLE_A=0$SAMPLE_B=1$SAMPLE_NA=2#{U32}$U32$$'guesses'|]
+// tag-#anon#ST[S8'isvalid'||U24'_pad0'||U32'ntrials'||*{EN#anon_enum_SAMPLE_A=0_SAMPLE_B=1_SAMPLE_NA=2#{U32}_U32_}_EN#anon_enum_SAMPLE_A=0_SAMPLE_B=1_SAMPLE_NA=2#{U32}_U32__'answers'||*{EN#anon_enum_SAMPLE_A=0_SAMPLE_B=1_SAMPLE_NA=2#{U32}_U32_}_EN#anon_enum_SAMPLE_A=0_SAMPLE_B=1_SAMPLE_NA=2#{U32}_U32__'guesses'|]
 // file test.c line 28
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[U64'thread_id'||U64'thread_ok'||*{SYM#tag-_GAsyncQueue#}$SYM#tag-_GAsyncQueue#$'messages'|]
+// tag-#anon#ST[U64'thread_id'||U64'thread_ok'||*{SYM#tag-_GAsyncQueue#}_SYM#tag-_GAsyncQueue#_'messages'|]
 // file player.c line 115
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 445
 union anonymous;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$47;
+union anonymous_47;
 
-// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}$V$'v_pointer'|]
+// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}_V_'v_pointer'|]
 // file /usr/include/glib-2.0/gobject/gvalue.h line 112
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$43;
+union anonymous_43;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$45;
+union anonymous_45;
 
 // tag-PaDeviceInfo
 // file /usr/include/portaudio.h line 449
@@ -765,9 +765,9 @@ static void decide_button_clicked(struct _GtkWidget *widget, void *data);
 // delete_event_handler
 // file newtestwin.c line 96
 static signed int delete_event_handler(struct _GtkWidget *widget, union _GdkEvent *event, void *data);
-// delete_event_handler$link1
+// delete_event_handler_link1
 // file resultwin.c line 36
-static signed int delete_event_handler$link1(struct _GtkWidget *widget$link1, union _GdkEvent *event$link1, void *data$link1);
+static signed int delete_event_handler_link1(struct _GtkWidget *widget_link1, union _GdkEvent *event_link1, void *data_link1);
 // destroy_event_handler
 // file mainwin.c line 497
 static void destroy_event_handler(struct _GtkWidget *widget, void *data);
@@ -788,7 +788,7 @@ extern void g_async_queue_push(struct _GAsyncQueue *, void *);
 extern void g_free(void *);
 // g_log
 // file /usr/include/glib-2.0/glib/gmessages.h line 101
-extern void g_log(const char *, enum anonymous$50, const char *, ...);
+extern void g_log(const char *, enum anonymous_50, const char *, ...);
 // g_malloc
 // file /usr/include/glib-2.0/glib/gmem.h line 78
 extern void * g_malloc(unsigned long int);
@@ -821,7 +821,7 @@ extern char * g_path_get_basename(const char *);
 extern unsigned int g_random_int(void);
 // g_signal_connect_data
 // file /usr/include/glib-2.0/gobject/gsignal.h line 388
-extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous$24);
+extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous_24);
 // g_source_remove
 // file /usr/include/glib-2.0/glib/gmain.h line 545
 extern signed int g_source_remove(unsigned int);
@@ -851,25 +851,25 @@ extern unsigned int g_timeout_add(unsigned int, signed int (*)(void *), void *);
 extern struct _GTypeInstance * g_type_check_instance_cast(struct _GTypeInstance *, unsigned long int);
 // get_answer
 // file test.h line 34
-extern enum anonymous$14 get_answer(unsigned int t);
+extern enum anonymous_14 get_answer(unsigned int t);
 // get_guess
 // file test.h line 35
-extern enum anonymous$14 get_guess(unsigned int t);
+extern enum anonymous_14 get_guess(unsigned int t);
 // get_metadata
 // file soundfile.h line 42
-extern struct anonymous$32 get_metadata(struct Sound_file *sndfile);
+extern struct anonymous_32 get_metadata(struct Sound_file *sndfile);
 // get_metadatas
 // file playback.h line 31
-extern void get_metadatas(struct anonymous$32 *a, struct anonymous$32 *b);
+extern void get_metadatas(struct anonymous_32 *a, struct anonymous_32 *b);
 // get_playback_state
 // file playback.h line 32
-extern signed int get_playback_state(struct anonymous$17 *state);
+extern signed int get_playback_state(struct anonymous_17 *state);
 // get_player_metadata
 // file player.h line 39
-extern struct anonymous$32 get_player_metadata(struct Player *player);
+extern struct anonymous_32 get_player_metadata(struct Player *player);
 // get_player_state
 // file player.h line 40
-extern struct anonymous$17 get_player_state(struct Player *player);
+extern struct anonymous_17 get_player_state(struct Player *player);
 // gtk_adjustment_get_type
 // file /usr/include/gtk-2.0/gtk/gtkadjustment.h line 78
 unsigned long int gtk_adjustment_get_type(void);
@@ -920,7 +920,7 @@ unsigned long int gtk_dialog_get_type(void);
 signed int gtk_dialog_run(struct _GtkDialog *);
 // gtk_file_chooser_button_new
 // file /usr/include/gtk-2.0/gtk/gtkfilechooserbutton.h line 70
-struct _GtkWidget * gtk_file_chooser_button_new(const char *, enum anonymous$3);
+struct _GtkWidget * gtk_file_chooser_button_new(const char *, enum anonymous_3);
 // gtk_file_chooser_get_filename
 // file /usr/include/gtk-2.0/gtk/gtkfilechooser.h line 163
 char * gtk_file_chooser_get_filename(struct _GtkFileChooser *);
@@ -941,7 +941,7 @@ struct _GtkWidget * gtk_hscale_new(struct _GtkAdjustment *);
 struct _GtkWidget * gtk_image_menu_item_new_from_stock(const char *, struct _GtkAccelGroup *);
 // gtk_image_new_from_stock
 // file /usr/include/gtk-2.0/gtk/gtkimage.h line 199
-struct _GtkWidget * gtk_image_new_from_stock(const char *, enum anonymous$7);
+struct _GtkWidget * gtk_image_new_from_stock(const char *, enum anonymous_7);
 // gtk_init
 // file /usr/include/gtk-2.0/gtk/gtkmain.h line 94
 void gtk_init(signed int *, char ***);
@@ -1016,13 +1016,13 @@ void gtk_message_dialog_format_secondary_text(struct _GtkMessageDialog *, const 
 unsigned long int gtk_message_dialog_get_type(void);
 // gtk_message_dialog_new
 // file /usr/include/gtk-2.0/gtk/gtkmessagedialog.h line 101
-struct _GtkWidget * gtk_message_dialog_new(struct _GtkWindow *, enum anonymous$29, enum anonymous$30, enum anonymous$31, const char *, ...);
+struct _GtkWidget * gtk_message_dialog_new(struct _GtkWindow *, enum anonymous_29, enum anonymous_30, enum anonymous_31, const char *, ...);
 // gtk_range_get_type
 // file /usr/include/gtk-2.0/gtk/gtkrange.h line 136
 unsigned long int gtk_range_get_type(void);
 // gtk_range_set_update_policy
 // file /usr/include/gtk-2.0/gtk/gtkrange.h line 139
-void gtk_range_set_update_policy(struct _GtkRange *, enum anonymous$39);
+void gtk_range_set_update_policy(struct _GtkRange *, enum anonymous_39);
 // gtk_range_set_value
 // file /usr/include/gtk-2.0/gtk/gtkrange.h line 183
 void gtk_range_set_value(struct _GtkRange *, double);
@@ -1037,7 +1037,7 @@ unsigned long int gtk_scrolled_window_get_type(void);
 struct _GtkWidget * gtk_scrolled_window_new(struct _GtkAdjustment *, struct _GtkAdjustment *);
 // gtk_scrolled_window_set_policy
 // file /usr/include/gtk-2.0/gtk/gtkscrolledwindow.h line 113
-void gtk_scrolled_window_set_policy(struct _GtkScrolledWindow *, enum anonymous$13, enum anonymous$13);
+void gtk_scrolled_window_set_policy(struct _GtkScrolledWindow *, enum anonymous_13, enum anonymous_13);
 // gtk_show_about_dialog
 // file /usr/include/gtk-2.0/gtk/gtkaboutdialog.h line 75
 void gtk_show_about_dialog(struct _GtkWindow *, const char *, ...);
@@ -1127,7 +1127,7 @@ void gtk_widget_show_all(struct _GtkWidget *);
 unsigned long int gtk_window_get_type(void);
 // gtk_window_new
 // file /usr/include/gtk-2.0/gtk/gtkwindow.h line 179
-struct _GtkWidget * gtk_window_new(enum anonymous$36);
+struct _GtkWidget * gtk_window_new(enum anonymous_36);
 // gtk_window_present
 // file /usr/include/gtk-2.0/gtk/gtkwindow.h line 330
 void gtk_window_present(struct _GtkWindow *);
@@ -1181,7 +1181,7 @@ static void pause_button_clicked(struct _GtkWidget *widget, void *data);
 extern signed int pause_or_resume_playback(void);
 // pause_or_resume_player
 // file player.h line 44
-extern void pause_or_resume_player(struct Player *player, union anonymous$25 *sem);
+extern void pause_or_resume_player(struct Player *player, union anonymous_25 *sem);
 // play_button_clicked
 // file mainwin.c line 634
 static void play_button_clicked(struct _GtkWidget *widget, void *data);
@@ -1190,16 +1190,16 @@ static void play_button_clicked(struct _GtkWidget *widget, void *data);
 extern double pow(double, double);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$43 *);
+extern signed int pthread_cond_destroy(union anonymous_43 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$43 *, const union anonymous$47 *);
+extern signed int pthread_cond_init(union anonymous_43 *, const union anonymous_47 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$43 *);
+extern signed int pthread_cond_signal(union anonymous_43 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$43 *, union anonymous$45 *);
+extern signed int pthread_cond_wait(union anonymous_43 *, union anonymous_45 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1211,16 +1211,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$45 *);
+extern signed int pthread_mutex_destroy(union anonymous_45 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$45 *, const union anonymous$47 *);
+extern signed int pthread_mutex_init(union anonymous_45 *, const union anonymous_47 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$45 *);
+extern signed int pthread_mutex_lock(union anonymous_45 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$45 *);
+extern signed int pthread_mutex_unlock(union anonymous_45 *);
 // read_pcm_data
 // file soundfile.h line 45
 extern unsigned int read_pcm_data(struct Sound_file *sndfile, float *buf, unsigned int nframes);
@@ -1259,28 +1259,28 @@ static double seek(struct Player *player, double offset, signed int whence);
 extern void seek_playback(double offset);
 // seek_player
 // file player.h line 45
-extern void seek_player(struct Player *player, double offset, signed int whence, union anonymous$25 *sem);
+extern void seek_player(struct Player *player, double offset, signed int whence, union anonymous_25 *sem);
 // seek_sound_file
 // file soundfile.h line 43
 extern double seek_sound_file(struct Sound_file *sndfile, double offset, signed int whence);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$25 *);
+extern signed int sem_destroy(union anonymous_25 *);
 // sem_getvalue
 // file /usr/include/semaphore.h line 72
-extern signed int sem_getvalue(union anonymous$25 *, signed int *);
+extern signed int sem_getvalue(union anonymous_25 *, signed int *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$25 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_25 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$25 *);
+extern signed int sem_post(union anonymous_25 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$25 *);
+extern signed int sem_wait(union anonymous_25 *);
 // set_guess
 // file test.h line 36
-extern signed int set_guess(unsigned int t, enum anonymous$14 ans);
+extern signed int set_guess(unsigned int t, enum anonymous_14 ans);
 // sf_close
 // file /usr/include/sndfile.h line 632
 signed int sf_close(struct SNDFILE_tag *);
@@ -1310,13 +1310,13 @@ extern void show_result_window(void);
 extern void start_playback(signed int sample, double location);
 // start_player
 // file player.h line 42
-extern void start_player(struct Player *player, union anonymous$25 *sem);
+extern void start_player(struct Player *player, union anonymous_25 *sem);
 // stop_playback
 // file playback.h line 35
 extern void stop_playback(void);
 // stop_player
 // file player.h line 43
-extern void stop_player(struct Player *player, union anonymous$25 *sem);
+extern void stop_player(struct Player *player, union anonymous_25 *sem);
 // stop_reader_thread
 // file player.c line 282
 static signed int stop_reader_thread(struct Player *player);
@@ -1345,7 +1345,7 @@ static void update_location(void);
 // file gtkui.h line 41
 extern void update_main_window(void);
 
-union anonymous$25
+union anonymous_25
 {
   // __size
   char __size[32l];
@@ -1353,7 +1353,7 @@ union anonymous$25
   signed long int __align;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // begin
   float *begin;
@@ -1368,16 +1368,16 @@ struct anonymous$26
   // nframes
   signed int nframes;
   // prefill
-  union anonymous$25 prefill;
+  union anonymous_25 prefill;
   // space
-  union anonymous$25 space;
+  union anonymous_25 space;
   // prefill_sem_ok
   signed int prefill_sem_ok;
   // space_sem_ok
   signed int space_sem_ok;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // filename
   char *filename;
@@ -1397,27 +1397,27 @@ struct anonymous$32
   unsigned int seconds;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // command
-  enum anonymous$37 command;
+  enum anonymous_37 command;
   // offset
   double offset;
   // whence
   signed int whence;
   // sem
-  union anonymous$25 *sem;
+  union anonymous_25 *sem;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // playback
-  enum anonymous$16 playback;
+  enum anonymous_16 playback;
   // location
   double location;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // __lock
   signed int __lock;
@@ -1437,10 +1437,10 @@ struct anonymous$42
   unsigned int __broadcast_seq;
 };
 
-union anonymous$43
+union anonymous_43
 {
   // __data
-  struct anonymous$42 __data;
+  struct anonymous_42 __data;
   // __size
   char __size[48l];
   // __align
@@ -1475,7 +1475,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$45
+union anonymous_45
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1485,22 +1485,22 @@ union anonymous$45
   signed long int __align;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // control
-  enum anonymous$40 control;
+  enum anonymous_40 control;
   // control_cond
-  union anonymous$43 control_cond;
+  union anonymous_43 control_cond;
   // control_cond_mutex
-  union anonymous$45 control_cond_mutex;
+  union anonymous_45 control_cond_mutex;
   // thread_id
   unsigned long int thread_id;
   // thread_ok
   signed int thread_ok;
   // sem
-  union anonymous$25 sem;
+  union anonymous_25 sem;
   // notify
-  union anonymous$25 notify;
+  union anonymous_25 notify;
   // sem_ok
   signed int sem_ok;
   // notify_ok
@@ -1508,24 +1508,24 @@ struct anonymous$27
   // sndfile
   struct Sound_file *sndfile;
   // metadata
-  struct anonymous$32 metadata;
+  struct anonymous_32 metadata;
   // is_eof
   char is_eof;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // isvalid
   char isvalid;
   // ntrials
   unsigned int ntrials;
   // answers
-  enum anonymous$14 *answers;
+  enum anonymous_14 *answers;
   // guesses
-  enum anonymous$14 *guesses;
+  enum anonymous_14 *guesses;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // thread_id
   unsigned long int thread_id;
@@ -1545,7 +1545,7 @@ union anonymous
   signed long int l[5l];
 };
 
-union anonymous$47
+union anonymous_47
 {
   // __size
   char __size[4l];
@@ -1553,7 +1553,7 @@ union anonymous$47
   signed int __align;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // v_int
   signed int v_int;
@@ -1642,13 +1642,13 @@ struct PaStreamParameters
 struct Player
 {
   // buffer
-  struct anonymous$26 buffer;
+  struct anonymous_26 buffer;
   // reader
-  struct anonymous$27 reader;
+  struct anonymous_27 reader;
   // controller
-  struct anonymous$28 controller;
+  struct anonymous_28 controller;
   // state
-  struct anonymous$17 state;
+  struct anonymous_17 state;
   // origin
   double origin;
   // nplayed
@@ -1678,7 +1678,7 @@ struct Sound_file
   // sffile
   struct SNDFILE_tag *sffile;
   // metadata
-  struct anonymous$32 metadata;
+  struct anonymous_32 metadata;
 };
 
 struct _GArray
@@ -1772,7 +1772,7 @@ struct _GOptionEntry
   // flags
   signed int flags;
   // arg
-  enum anonymous$0 arg;
+  enum anonymous_0 arg;
   // arg_data
   void *arg_data;
   // description
@@ -1810,7 +1810,7 @@ struct _GValue
   // g_type
   unsigned long int g_type;
   // data
-  union anonymous$21 data[2l];
+  union anonymous_21 data[2l];
 };
 
 struct _GdkColor
@@ -1846,9 +1846,9 @@ struct _GdkDevice
   // name
   char *name;
   // source
-  enum anonymous$22 source;
+  enum anonymous_22 source;
   // mode
-  enum anonymous$23 mode;
+  enum anonymous_23 mode;
   // has_cursor
   signed int has_cursor;
   // num_axes
@@ -1864,7 +1864,7 @@ struct _GdkDevice
 struct _GdkDeviceAxis
 {
   // use
-  enum anonymous$20 use;
+  enum anonymous_20 use;
   // min
   double min;
   // max
@@ -1876,7 +1876,7 @@ struct _GdkDeviceKey
   // keyval
   unsigned int keyval;
   // modifiers
-  enum anonymous$19 modifiers;
+  enum anonymous_19 modifiers;
 };
 
 struct _GdkDragContext
@@ -1884,7 +1884,7 @@ struct _GdkDragContext
   // parent_instance
   struct _GObject parent_instance;
   // protocol
-  enum anonymous$10 protocol;
+  enum anonymous_10 protocol;
   // is_source
   signed int is_source;
   // source_window
@@ -1894,11 +1894,11 @@ struct _GdkDragContext
   // targets
   struct _GList *targets;
   // actions
-  enum anonymous$11 actions;
+  enum anonymous_11 actions;
   // suggested_action
-  enum anonymous$11 suggested_action;
+  enum anonymous_11 suggested_action;
   // action
-  enum anonymous$11 action;
+  enum anonymous_11 action;
   // start_time
   unsigned int start_time;
   // windowing_data
@@ -1914,7 +1914,7 @@ struct _GdkDrawable
 struct _GdkEventAny
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -1936,7 +1936,7 @@ struct _GdkRectangle
 struct _GdkEventExpose
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -1952,7 +1952,7 @@ struct _GdkEventExpose
 struct _GdkEventNoExpose
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -1962,19 +1962,19 @@ struct _GdkEventNoExpose
 struct _GdkEventVisibility
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
   signed char send_event;
   // state
-  enum anonymous$5 state;
+  enum anonymous_5 state;
 };
 
 struct _GdkEventMotion
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2002,7 +2002,7 @@ struct _GdkEventMotion
 struct _GdkEventButton
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2030,7 +2030,7 @@ struct _GdkEventButton
 struct _GdkEventScroll
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2044,7 +2044,7 @@ struct _GdkEventScroll
   // state
   unsigned int state;
   // direction
-  enum anonymous$6 direction;
+  enum anonymous_6 direction;
   // device
   struct _GdkDevice *device;
   // x_root
@@ -2056,7 +2056,7 @@ struct _GdkEventScroll
 struct _GdkEventKey
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2082,7 +2082,7 @@ struct _GdkEventKey
 struct _GdkEventCrossing
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2100,9 +2100,9 @@ struct _GdkEventCrossing
   // y_root
   double y_root;
   // mode
-  enum anonymous$8 mode;
+  enum anonymous_8 mode;
   // detail
-  enum anonymous$9 detail;
+  enum anonymous_9 detail;
   // focus
   signed int focus;
   // state
@@ -2112,7 +2112,7 @@ struct _GdkEventCrossing
 struct _GdkEventFocus
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2124,7 +2124,7 @@ struct _GdkEventFocus
 struct _GdkEventConfigure
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2142,7 +2142,7 @@ struct _GdkEventConfigure
 struct _GdkEventProperty
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2158,7 +2158,7 @@ struct _GdkEventProperty
 struct _GdkEventSelection
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2178,7 +2178,7 @@ struct _GdkEventSelection
 struct _GdkEventOwnerChange
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2186,7 +2186,7 @@ struct _GdkEventOwnerChange
   // owner
   unsigned int owner;
   // reason
-  enum anonymous$49 reason;
+  enum anonymous_49 reason;
   // selection
   struct _GdkAtom *selection;
   // time
@@ -2198,7 +2198,7 @@ struct _GdkEventOwnerChange
 struct _GdkEventProximity
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2212,7 +2212,7 @@ struct _GdkEventProximity
 struct _GdkEventClient
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2228,7 +2228,7 @@ struct _GdkEventClient
 struct _GdkEventDND
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2246,27 +2246,27 @@ struct _GdkEventDND
 struct _GdkEventWindowState
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
   signed char send_event;
   // changed_mask
-  enum anonymous$12 changed_mask;
+  enum anonymous_12 changed_mask;
   // new_window_state
-  enum anonymous$12 new_window_state;
+  enum anonymous_12 new_window_state;
 };
 
 struct _GdkEventSetting
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
   signed char send_event;
   // action
-  enum anonymous$48 action;
+  enum anonymous_48 action;
   // name
   char *name;
 };
@@ -2274,7 +2274,7 @@ struct _GdkEventSetting
 struct _GdkEventGrabBroken
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2290,7 +2290,7 @@ struct _GdkEventGrabBroken
 union _GdkEvent
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // any
   struct _GdkEventAny any;
   // expose
@@ -2336,7 +2336,7 @@ union _GdkEvent
 struct _GdkFont
 {
   // type
-  enum anonymous$44 type;
+  enum anonymous_44 type;
   // ascent
   signed int ascent;
   // descent
@@ -2382,11 +2382,11 @@ struct _GdkVisual
   // parent_instance
   struct _GObject parent_instance;
   // type
-  enum anonymous$34 type;
+  enum anonymous_34 type;
   // depth
   signed int depth;
   // byte_order
-  enum anonymous$35 byte_order;
+  enum anonymous_35 byte_order;
   // colormap_size
   signed int colormap_size;
   // bits_per_rgb
@@ -2418,7 +2418,7 @@ struct _GtkAccelGroup
   // lock_count
   unsigned int lock_count;
   // modifier_mask
-  enum anonymous$19 modifier_mask;
+  enum anonymous_19 modifier_mask;
   // acceleratables
   struct _GSList *acceleratables;
   // n_accels
@@ -2432,7 +2432,7 @@ struct _GtkAccelKey
   // accel_key
   unsigned int accel_key;
   // accel_mods
-  enum anonymous$19 accel_mods;
+  enum anonymous_19 accel_mods;
   // accel_flags
   unsigned int accel_flags : 16;
 };
@@ -2652,7 +2652,7 @@ struct _GtkWindow
   // keys_changed_handler
   unsigned int keys_changed_handler;
   // mnemonic_modifier
-  enum anonymous$19 mnemonic_modifier;
+  enum anonymous_19 mnemonic_modifier;
   // screen
   struct _GdkScreen *screen;
 };
@@ -2852,7 +2852,7 @@ struct _GtkListStore
   // sort_column_id
   signed int sort_column_id;
   // order
-  enum anonymous$15 order;
+  enum anonymous_15 order;
   // column_headers
   unsigned long int *column_headers;
   // length
@@ -2950,7 +2950,7 @@ struct _GtkRange
   // adjustment
   struct _GtkAdjustment *adjustment;
   // update_policy
-  enum anonymous$39 update_policy;
+  enum anonymous_39 update_policy;
   // inverted
   unsigned int inverted : 1;
   // flippable
@@ -2970,7 +2970,7 @@ struct _GtkRange
   // min_slider_size
   signed int min_slider_size;
   // orientation
-  enum anonymous$41 orientation;
+  enum anonymous_41 orientation;
   // range_rect
   struct _GdkRectangle range_rect;
   // slider_start
@@ -3008,7 +3008,7 @@ struct _GtkRcStyle
   // font_desc
   struct _PangoFontDescription *font_desc;
   // color_flags
-  enum anonymous$46 color_flags[5l];
+  enum anonymous_46 color_flags[5l];
   // fg
   struct _GdkColor fg[5l];
   // bg
@@ -3070,7 +3070,7 @@ struct _GtkSpinButton
   // timer_step
   double timer_step;
   // update_policy
-  enum anonymous$18 update_policy;
+  enum anonymous_18 update_policy;
   // in_child
   unsigned int in_child : 2;
   // click_child
@@ -3204,7 +3204,7 @@ struct _GtkTreeSelection
   // tree_view
   struct _GtkTreeView *tree_view;
   // type
-  enum anonymous$2 type;
+  enum anonymous_2 type;
   // user_func
   signed int (*user_func)(struct _GtkTreeSelection *, struct _GtkTreeModel *, struct _GtkTreePath *, signed int, void *);
   // user_data
@@ -3246,7 +3246,7 @@ struct _GtkTreeViewColumn
   // spacing
   signed int spacing;
   // column_type
-  enum anonymous$1 column_type;
+  enum anonymous_1 column_type;
   // requested_width
   signed int requested_width;
   // button_request
@@ -3276,7 +3276,7 @@ struct _GtkTreeViewColumn
   // sort_column_id
   signed int sort_column_id;
   // sort_order
-  enum anonymous$15 sort_order;
+  enum anonymous_15 sort_order;
   // visible
   unsigned int visible : 1;
   // resizable
@@ -3332,9 +3332,9 @@ static struct _GtkWidget *about_menu_item;
 // adjustment
 // file mainwin.c line 48
 static struct _GtkObject *adjustment;
-// adjustment$link1
+// adjustment_link1
 // file newtestwin.c line 31
-static struct _GtkObject *adjustment$link1;
+static struct _GtkObject *adjustment_link1;
 // answers
 // file resultwin.c line 32
 static struct _GtkWidget *answers;
@@ -3346,7 +3346,7 @@ static struct _GtkWidget *answers_box;
 static unsigned int audio_init_count;
 // audio_init_count_mutex
 // file player.c line 46
-union anonymous$45 audio_init_count_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_45 audio_init_count_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // basename_a
@@ -3372,8 +3372,8 @@ static struct _GtkWidget *close_button;
 static struct Player *current_player;
 // current_test
 // file test.c line 35
-static struct anonymous$33 current_test = { .isvalid=(char)0, .ntrials=(unsigned int)-1, .answers=(enum anonymous$14 *)(void *)0,
-    .guesses=(enum anonymous$14 *)(void *)0 };
+static struct anonymous_33 current_test = { .isvalid=(char)0, .ntrials=(unsigned int)-1, .answers=(enum anonymous_14 *)(void *)0,
+    .guesses=(enum anonymous_14 *)(void *)0 };
 // current_trial
 // file gtkui.c line 25
 signed int current_trial;
@@ -3404,9 +3404,9 @@ static signed int is_user_seeking;
 // main_box
 // file newtestwin.c line 25
 static struct _GtkWidget *main_box;
-// main_box$link1
+// main_box_link1
 // file resultwin.c line 27
-static struct _GtkWidget *main_box$link1;
+static struct _GtkWidget *main_box_link1;
 // main_window
 // file mainwin.c line 25
 struct _GtkWidget *main_window;
@@ -3424,10 +3424,10 @@ static struct _GtkWidget *meta_a_label;
 static struct _GtkWidget *meta_b_label;
 // metadata_a
 // file gtkui.c line 27
-struct anonymous$32 metadata_a;
+struct anonymous_32 metadata_a;
 // metadata_b
 // file gtkui.c line 28
-struct anonymous$32 metadata_b;
+struct anonymous_32 metadata_b;
 // ncorr_box
 // file resultwin.c line 28
 static struct _GtkWidget *ncorr_box;
@@ -3481,7 +3481,7 @@ static struct _GtkWidget *second_file_selector;
 static struct _GtkWidget *second_sample;
 // semaphore
 // file playback.c line 31
-static union anonymous$25 semaphore;
+static union anonymous_25 semaphore;
 // spinner
 // file newtestwin.c line 32
 static struct _GtkWidget *spinner;
@@ -3503,31 +3503,31 @@ static struct _GtkWidget *trial_label;
 // window
 // file newtestwin.c line 24
 static struct _GtkWidget *window;
-// window$link1
+// window_link1
 // file resultwin.c line 30
-static struct _GtkWidget *window$link1;
+static struct _GtkWidget *window_link1;
 
 // add_marker_clicked
 // file mainwin.c line 543
 static void add_marker_clicked(struct _GtkWidget *widget, void *data)
 {
   struct _GtkTreeIter new;
-  struct anonymous$17 state;
+  struct anonymous_17 state;
   gtk_list_store_append(marker_list, &new);
-  signed int return_value_get_playback_state$4;
-  return_value_get_playback_state$4=get_playback_state(&state);
-  if(!(return_value_get_playback_state$4 == -1))
+  signed int return_value_get_playback_state_4;
+  return_value_get_playback_state_4=get_playback_state(&state);
+  if(!(return_value_get_playback_state_4 == -1))
     gtk_list_store_set(marker_list, &new, 0, state.location, -1);
 
   else
   {
-    unsigned long int return_value_gtk_adjustment_get_type$1;
-    return_value_gtk_adjustment_get_type$1=gtk_adjustment_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type$1);
-    double return_value_gtk_adjustment_get_value$3;
-    return_value_gtk_adjustment_get_value$3=gtk_adjustment_get_value((struct _GtkAdjustment *)return_value_g_type_check_instance_cast$2);
-    gtk_list_store_set(marker_list, &new, 0, return_value_gtk_adjustment_get_value$3, -1);
+    unsigned long int return_value_gtk_adjustment_get_type_1;
+    return_value_gtk_adjustment_get_type_1=gtk_adjustment_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type_1);
+    double return_value_gtk_adjustment_get_value_3;
+    return_value_gtk_adjustment_get_value_3=gtk_adjustment_get_value((struct _GtkAdjustment *)return_value_g_type_check_instance_cast_2);
+    gtk_list_store_set(marker_list, &new, 0, return_value_gtk_adjustment_get_value_3, -1);
   }
 }
 
@@ -3554,18 +3554,18 @@ extern double calculate_p_value(void)
   signed int i;
   signed int ncorr = 0;
   i = 0;
-  signed int return_value_num_test_trials$1;
+  signed int return_value_num_test_trials_1;
   do
   {
-    return_value_num_test_trials$1=num_test_trials();
-    if(i >= return_value_num_test_trials$1)
+    return_value_num_test_trials_1=num_test_trials();
+    if(i >= return_value_num_test_trials_1)
       break;
 
-    enum anonymous$14 return_value_get_answer$2;
-    return_value_get_answer$2=get_answer((unsigned int)i);
-    enum anonymous$14 return_value_get_guess$3;
-    return_value_get_guess$3=get_guess((unsigned int)i);
-    if(return_value_get_answer$2 == return_value_get_guess$3)
+    enum anonymous_14 return_value_get_answer_2;
+    return_value_get_answer_2=get_answer((unsigned int)i);
+    enum anonymous_14 return_value_get_guess_3;
+    return_value_get_guess_3=get_guess((unsigned int)i);
+    if(return_value_get_answer_2 == return_value_get_guess_3)
       ncorr = ncorr + 1;
 
     i = i + 1;
@@ -3576,11 +3576,11 @@ extern double calculate_p_value(void)
 
   else
   {
-    signed int return_value_num_test_trials$4;
-    return_value_num_test_trials$4=num_test_trials();
-    double return_value_cdf_binomial$5;
-    return_value_cdf_binomial$5=cdf_binomial((unsigned int)(ncorr - 1), (unsigned int)return_value_num_test_trials$4, 0.5);
-    return 1.0 - return_value_cdf_binomial$5;
+    signed int return_value_num_test_trials_4;
+    return_value_num_test_trials_4=num_test_trials();
+    double return_value_cdf_binomial_5;
+    return_value_cdf_binomial_5=cdf_binomial((unsigned int)(ncorr - 1), (unsigned int)return_value_num_test_trials_4, 0.5);
+    return 1.0 - return_value_cdf_binomial_5;
   }
 }
 
@@ -3612,24 +3612,24 @@ static double cdf_binomial(unsigned int k, unsigned int n, double p)
 // file mainwin.c line 195
 static void clear_status_bar(void)
 {
-  unsigned long int return_value_gtk_statusbar_get_type$1;
-  return_value_gtk_statusbar_get_type$1=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$1);
-  gtk_statusbar_pop((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$2, (unsigned int)play_context);
-  unsigned long int return_value_gtk_statusbar_get_type$3;
-  return_value_gtk_statusbar_get_type$3=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$3);
-  gtk_statusbar_pop((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$4, (unsigned int)play_context);
+  unsigned long int return_value_gtk_statusbar_get_type_1;
+  return_value_gtk_statusbar_get_type_1=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_1);
+  gtk_statusbar_pop((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_2, (unsigned int)play_context);
+  unsigned long int return_value_gtk_statusbar_get_type_3;
+  return_value_gtk_statusbar_get_type_3=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_3);
+  gtk_statusbar_pop((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_4, (unsigned int)play_context);
 }
 
 // close_clicked
 // file resultwin.c line 43
 static void close_clicked(struct _GtkWidget *button, void *data)
 {
-  gtk_widget_destroy(window$link1);
-  window$link1 = (struct _GtkWidget *)(void *)0;
+  gtk_widget_destroy(window_link1);
+  window_link1 = (struct _GtkWidget *)(void *)0;
 }
 
 // close_playback
@@ -3648,26 +3648,26 @@ extern void close_playback(void)
 // file player.h line 37
 extern void close_player(struct Player *player)
 {
-  struct anonymous$38 *msg;
+  struct anonymous_38 *msg;
   /* assertion player */
   assert(player != ((struct Player *)NULL));
   if(!(player->controller.thread_ok == 0ul))
   {
-    void *return_value_g_malloc$1;
-    return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$38) /*32ul*/ );
-    msg = (struct anonymous$38 *)return_value_g_malloc$1;
-    msg->command = (enum anonymous$37)CMD_TERM;
-    msg->sem = (union anonymous$25 *)(void *)0;
+    void *return_value_g_malloc_1;
+    return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_38) /*32ul*/ );
+    msg = (struct anonymous_38 *)return_value_g_malloc_1;
+    msg->command = (enum anonymous_37)CMD_TERM;
+    msg->sem = (union anonymous_25 *)(void *)0;
     g_async_queue_push(player->controller.messages, (void *)msg);
     pthread_join(player->controller.thread_id, (void **)(void *)0);
   }
 
-  signed int return_value_close_sound_file$2;
+  signed int return_value_close_sound_file_2;
   if(!(player->reader.sndfile == ((struct Sound_file *)NULL)))
   {
-    return_value_close_sound_file$2=close_sound_file(player->reader.sndfile);
-    if(!(return_value_close_sound_file$2 == 0))
-      g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "failed to close sound file");
+    return_value_close_sound_file_2=close_sound_file(player->reader.sndfile);
+    if(!(return_value_close_sound_file_2 == 0))
+      g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "failed to close sound file");
 
   }
 
@@ -3675,10 +3675,10 @@ extern void close_player(struct Player *player)
   audio_init_count = audio_init_count - 1u;
   if(audio_init_count == 0u)
   {
-    signed int return_value_Pa_Terminate$3;
-    return_value_Pa_Terminate$3=Pa_Terminate();
-    if(!(return_value_Pa_Terminate$3 == 0))
-      g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "failed to shut down audio subsystem");
+    signed int return_value_Pa_Terminate_3;
+    return_value_Pa_Terminate_3=Pa_Terminate();
+    if(!(return_value_Pa_Terminate_3 == 0))
+      g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "failed to shut down audio subsystem");
 
   }
 
@@ -3729,13 +3729,13 @@ extern void close_test(void)
 static void * controller_main(void *arg)
 {
   struct Player *player = (struct Player *)arg;
-  struct anonymous$38 *msg;
+  struct anonymous_38 *msg;
   signed int term = 0;
   do
   {
-    void *return_value_g_async_queue_pop$1;
-    return_value_g_async_queue_pop$1=g_async_queue_pop(player->controller.messages);
-    msg = (struct anonymous$38 *)return_value_g_async_queue_pop$1;
+    void *return_value_g_async_queue_pop_1;
+    return_value_g_async_queue_pop_1=g_async_queue_pop(player->controller.messages);
+    msg = (struct anonymous_38 *)return_value_g_async_queue_pop_1;
     switch((signed int)msg->command)
     {
       case CMD_PAUSE:
@@ -3745,13 +3745,13 @@ static void * controller_main(void *arg)
           case PLAYING:
           {
             Pa_StopStream(player->stream);
-            player->state.playback = (enum anonymous$16)PAUSED;
+            player->state.playback = (enum anonymous_16)PAUSED;
             break;
           }
           case PAUSED:
           {
             Pa_StartStream(player->stream);
-            player->state.playback = (enum anonymous$16)PLAYING;
+            player->state.playback = (enum anonymous_16)PLAYING;
           }
         }
         break;
@@ -3759,7 +3759,7 @@ static void * controller_main(void *arg)
       case CMD_PLAY:
       {
         Pa_StartStream(player->stream);
-        player->state.playback = (enum anonymous$16)PLAYING;
+        player->state.playback = (enum anonymous_16)PLAYING;
         break;
       }
       case CMD_SEEK:
@@ -3770,7 +3770,7 @@ static void * controller_main(void *arg)
       case CMD_STOP:
       {
         Pa_StopStream(player->stream);
-        player->state.playback = (enum anonymous$16)STOPPED;
+        player->state.playback = (enum anonymous_16)STOPPED;
         break;
       }
       case CMD_TERM:
@@ -3778,10 +3778,10 @@ static void * controller_main(void *arg)
         if(!(player->stream == NULL))
         {
           Pa_StopStream(player->stream);
-          signed int return_value_Pa_CloseStream$2;
-          return_value_Pa_CloseStream$2=Pa_CloseStream(player->stream);
-          if(!(return_value_Pa_CloseStream$2 == 0))
-            g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "failed to close playback stream");
+          signed int return_value_Pa_CloseStream_2;
+          return_value_Pa_CloseStream_2=Pa_CloseStream(player->stream);
+          if(!(return_value_Pa_CloseStream_2 == 0))
+            g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "failed to close playback stream");
 
           player->stream = (void *)0;
         }
@@ -3792,7 +3792,7 @@ static void * controller_main(void *arg)
         term = 1;
       }
     }
-    if(!(msg->sem == ((union anonymous$25 *)NULL)))
+    if(!(msg->sem == ((union anonymous_25 *)NULL)))
       sem_post(msg->sem);
 
     g_free((void *)msg);
@@ -3810,13 +3810,13 @@ static void create_main_window(void)
 {
   struct _GtkWidget *left_box;
   struct _GtkWidget *main_hbox;
-  struct _GtkWidget *create_main_window$$1$$main_box;
+  struct _GtkWidget *create_main_window__1__main_box;
   struct _GtkWidget *playback_box;
   struct _GtkWidget *test_box;
   struct _GtkWidget *marker_box;
   struct _GtkWidget *meta_box;
   struct _GtkWidget *menu_bar;
-  main_window=gtk_window_new((enum anonymous$36)GTK_WINDOW_TOPLEVEL);
+  main_window=gtk_window_new((enum anonymous_36)GTK_WINDOW_TOPLEVEL);
   playback_box=create_playback_box();
   test_box=create_test_box();
   marker_box=create_marker_box();
@@ -3824,66 +3824,66 @@ static void create_main_window(void)
   menu_bar=create_menu_bar();
   create_status_bar();
   left_box=gtk_vbox_new(0, 10);
-  unsigned long int return_value_gtk_box_get_type$1;
-  return_value_gtk_box_get_type$1=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)left_box, return_value_gtk_box_get_type$1);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$2, test_box, (signed int)!(0 != 0), 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$3;
-  return_value_gtk_box_get_type$3=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)left_box, return_value_gtk_box_get_type$3);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$4, meta_box, (signed int)!(0 != 0), 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$5;
-  return_value_gtk_box_get_type$5=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)left_box, return_value_gtk_box_get_type$5);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$6, playback_box, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_1;
+  return_value_gtk_box_get_type_1=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)left_box, return_value_gtk_box_get_type_1);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_2, test_box, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_3;
+  return_value_gtk_box_get_type_3=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)left_box, return_value_gtk_box_get_type_3);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_4, meta_box, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_5;
+  return_value_gtk_box_get_type_5=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)left_box, return_value_gtk_box_get_type_5);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_6, playback_box, (signed int)!(0 != 0), 0, (unsigned int)0);
   main_hbox=gtk_hbox_new(0, 10);
-  unsigned long int return_value_gtk_container_get_type$7;
-  return_value_gtk_container_get_type$7=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)main_hbox, return_value_gtk_container_get_type$7);
-  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast$8, (unsigned int)10);
-  unsigned long int return_value_gtk_box_get_type$9;
-  return_value_gtk_box_get_type$9=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)main_hbox, return_value_gtk_box_get_type$9);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$10, left_box, 0, (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$11;
-  return_value_gtk_box_get_type$11=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)main_hbox, return_value_gtk_box_get_type$11);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$12, marker_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  create_main_window$$1$$main_box=gtk_vbox_new(0, 0);
-  unsigned long int return_value_gtk_box_get_type$13;
-  return_value_gtk_box_get_type$13=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)create_main_window$$1$$main_box, return_value_gtk_box_get_type$13);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$14, menu_bar, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$15;
-  return_value_gtk_box_get_type$15=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)create_main_window$$1$$main_box, return_value_gtk_box_get_type$15);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$16, main_hbox, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$17;
-  return_value_gtk_box_get_type$17=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)create_main_window$$1$$main_box, return_value_gtk_box_get_type$17);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$18, status_bar, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_window_get_type$19;
-  return_value_gtk_window_get_type$19=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_window_get_type$19);
-  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$20, "ABX Tester");
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
-  return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)main_window, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$21, "destroy", (void (*)(void))destroy_event_handler, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  unsigned long int return_value_gtk_container_get_type$22;
-  return_value_gtk_container_get_type$22=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-  return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_container_get_type$22);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$23, create_main_window$$1$$main_box);
+  unsigned long int return_value_gtk_container_get_type_7;
+  return_value_gtk_container_get_type_7=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)main_hbox, return_value_gtk_container_get_type_7);
+  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast_8, (unsigned int)10);
+  unsigned long int return_value_gtk_box_get_type_9;
+  return_value_gtk_box_get_type_9=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)main_hbox, return_value_gtk_box_get_type_9);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_10, left_box, 0, (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_11;
+  return_value_gtk_box_get_type_11=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)main_hbox, return_value_gtk_box_get_type_11);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_12, marker_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  create_main_window__1__main_box=gtk_vbox_new(0, 0);
+  unsigned long int return_value_gtk_box_get_type_13;
+  return_value_gtk_box_get_type_13=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)create_main_window__1__main_box, return_value_gtk_box_get_type_13);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_14, menu_bar, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_15;
+  return_value_gtk_box_get_type_15=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)create_main_window__1__main_box, return_value_gtk_box_get_type_15);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_16, main_hbox, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_17;
+  return_value_gtk_box_get_type_17=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)create_main_window__1__main_box, return_value_gtk_box_get_type_17);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_18, status_bar, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_window_get_type_19;
+  return_value_gtk_window_get_type_19=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_window_get_type_19);
+  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_20, "ABX Tester");
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
+  return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)main_window, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_21, "destroy", (void (*)(void))destroy_event_handler, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  unsigned long int return_value_gtk_container_get_type_22;
+  return_value_gtk_container_get_type_22=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+  return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_container_get_type_22);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_23, create_main_window__1__main_box);
 }
 
 // create_marker_box
@@ -3899,84 +3899,84 @@ static struct _GtkWidget * create_marker_box(void)
   struct _GtkWidget *marker_box;
   struct _GtkTreeViewColumn *column;
   marker_list=gtk_list_store_new(1, (unsigned long int)(15 << 2));
-  unsigned long int return_value_gtk_tree_model_get_type$1;
-  return_value_gtk_tree_model_get_type$1=gtk_tree_model_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type$1);
-  markers=gtk_tree_view_new_with_model((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$2);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)markers, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$3, "row-activated", (void (*)(void))marker_activated, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  struct _GtkCellRenderer *return_value_gtk_cell_renderer_text_new$4;
-  return_value_gtk_cell_renderer_text_new$4=gtk_cell_renderer_text_new();
-  column=gtk_tree_view_column_new_with_attributes("_Markers", return_value_gtk_cell_renderer_text_new$4, (const void *)"text", 0, (void *)0);
-  unsigned long int return_value_gtk_tree_view_get_type$5;
-  return_value_gtk_tree_view_get_type$5=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type$5);
-  gtk_tree_view_append_column((struct _GtkTreeView *)return_value_g_type_check_instance_cast$6, column);
+  unsigned long int return_value_gtk_tree_model_get_type_1;
+  return_value_gtk_tree_model_get_type_1=gtk_tree_model_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type_1);
+  markers=gtk_tree_view_new_with_model((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_2);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)markers, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_3, "row-activated", (void (*)(void))marker_activated, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  struct _GtkCellRenderer *return_value_gtk_cell_renderer_text_new_4;
+  return_value_gtk_cell_renderer_text_new_4=gtk_cell_renderer_text_new();
+  column=gtk_tree_view_column_new_with_attributes("_Markers", return_value_gtk_cell_renderer_text_new_4, (const void *)"text", 0, (void *)0);
+  unsigned long int return_value_gtk_tree_view_get_type_5;
+  return_value_gtk_tree_view_get_type_5=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type_5);
+  gtk_tree_view_append_column((struct _GtkTreeView *)return_value_g_type_check_instance_cast_6, column);
   add_marker=gtk_button_new_from_stock("gtk-add");
   remove_marker=gtk_button_new_from_stock("gtk-remove");
   clear_markers=gtk_button_new_from_stock("gtk-clear");
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)add_marker, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$7, "clicked", (void (*)(void))add_marker_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)remove_marker, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$8, "clicked", (void (*)(void))remove_marker_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$9;
-  return_value_g_type_check_instance_cast$9=g_type_check_instance_cast((struct _GTypeInstance *)clear_markers, (unsigned long int)(20 << 2));
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$9, "clicked", (void (*)(void))gtk_list_store_clear, (void *)(struct _GObject *)return_value_g_type_check_instance_cast$10, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)G_CONNECT_SWAPPED);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)add_marker, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_7, "clicked", (void (*)(void))add_marker_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)remove_marker, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_8, "clicked", (void (*)(void))remove_marker_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_9;
+  return_value_g_type_check_instance_cast_9=g_type_check_instance_cast((struct _GTypeInstance *)clear_markers, (unsigned long int)(20 << 2));
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_9, "clicked", (void (*)(void))gtk_list_store_clear, (void *)(struct _GObject *)return_value_g_type_check_instance_cast_10, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)G_CONNECT_SWAPPED);
   upper_buttons_box=gtk_hbox_new((signed int)!(0 != 0), 5);
-  unsigned long int return_value_gtk_box_get_type$11;
-  return_value_gtk_box_get_type$11=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)upper_buttons_box, return_value_gtk_box_get_type$11);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$12, add_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$13;
-  return_value_gtk_box_get_type$13=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)upper_buttons_box, return_value_gtk_box_get_type$13);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$14, remove_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_11;
+  return_value_gtk_box_get_type_11=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)upper_buttons_box, return_value_gtk_box_get_type_11);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_12, add_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_13;
+  return_value_gtk_box_get_type_13=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)upper_buttons_box, return_value_gtk_box_get_type_13);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_14, remove_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   marker_buttons_box=gtk_vbox_new((signed int)!(0 != 0), 5);
-  unsigned long int return_value_gtk_box_get_type$15;
-  return_value_gtk_box_get_type$15=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)marker_buttons_box, return_value_gtk_box_get_type$15);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$16, upper_buttons_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$17;
-  return_value_gtk_box_get_type$17=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)marker_buttons_box, return_value_gtk_box_get_type$17);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$18, clear_markers, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_15;
+  return_value_gtk_box_get_type_15=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)marker_buttons_box, return_value_gtk_box_get_type_15);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_16, upper_buttons_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_17;
+  return_value_gtk_box_get_type_17=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)marker_buttons_box, return_value_gtk_box_get_type_17);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_18, clear_markers, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   scrolled_window=gtk_scrolled_window_new((struct _GtkAdjustment *)(void *)0, (struct _GtkAdjustment *)(void *)0);
-  unsigned long int return_value_gtk_scrolled_window_get_type$19;
-  return_value_gtk_scrolled_window_get_type$19=gtk_scrolled_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)scrolled_window, return_value_gtk_scrolled_window_get_type$19);
-  gtk_scrolled_window_add_with_viewport((struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast$20, markers);
-  unsigned long int return_value_gtk_scrolled_window_get_type$21;
-  return_value_gtk_scrolled_window_get_type$21=gtk_scrolled_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-  return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)scrolled_window, return_value_gtk_scrolled_window_get_type$21);
-  gtk_scrolled_window_set_policy((struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast$22, (enum anonymous$13)GTK_POLICY_AUTOMATIC, (enum anonymous$13)GTK_POLICY_AUTOMATIC);
+  unsigned long int return_value_gtk_scrolled_window_get_type_19;
+  return_value_gtk_scrolled_window_get_type_19=gtk_scrolled_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)scrolled_window, return_value_gtk_scrolled_window_get_type_19);
+  gtk_scrolled_window_add_with_viewport((struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast_20, markers);
+  unsigned long int return_value_gtk_scrolled_window_get_type_21;
+  return_value_gtk_scrolled_window_get_type_21=gtk_scrolled_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+  return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)scrolled_window, return_value_gtk_scrolled_window_get_type_21);
+  gtk_scrolled_window_set_policy((struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast_22, (enum anonymous_13)GTK_POLICY_AUTOMATIC, (enum anonymous_13)GTK_POLICY_AUTOMATIC);
   marker_box=gtk_vbox_new(0, 5);
-  unsigned long int return_value_gtk_box_get_type$23;
-  return_value_gtk_box_get_type$23=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-  return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)marker_box, return_value_gtk_box_get_type$23);
-  unsigned long int return_value_gtk_widget_get_type$25;
-  return_value_gtk_widget_get_type$25=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$26;
-  return_value_g_type_check_instance_cast$26=g_type_check_instance_cast((struct _GTypeInstance *)scrolled_window, return_value_gtk_widget_get_type$25);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$24, (struct _GtkWidget *)return_value_g_type_check_instance_cast$26, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$27;
-  return_value_gtk_box_get_type$27=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-  return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)marker_box, return_value_gtk_box_get_type$27);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$28, marker_buttons_box, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_23;
+  return_value_gtk_box_get_type_23=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+  return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)marker_box, return_value_gtk_box_get_type_23);
+  unsigned long int return_value_gtk_widget_get_type_25;
+  return_value_gtk_widget_get_type_25=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_26;
+  return_value_g_type_check_instance_cast_26=g_type_check_instance_cast((struct _GTypeInstance *)scrolled_window, return_value_gtk_widget_get_type_25);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_24, (struct _GtkWidget *)return_value_g_type_check_instance_cast_26, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_27;
+  return_value_gtk_box_get_type_27=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+  return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)marker_box, return_value_gtk_box_get_type_27);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_28, marker_buttons_box, 0, 0, (unsigned int)0);
   return marker_box;
 }
 
@@ -3993,57 +3993,57 @@ static struct _GtkWidget * create_menu_bar(void)
   test_menu=gtk_menu_new();
   new_test_menu_item=gtk_image_menu_item_new_from_stock("gtk-new", (struct _GtkAccelGroup *)(void *)0);
   quit_menu_item=gtk_image_menu_item_new_from_stock("gtk-quit", (struct _GtkAccelGroup *)(void *)0);
-  unsigned long int return_value_gtk_menu_shell_get_type$1;
-  return_value_gtk_menu_shell_get_type$1=gtk_menu_shell_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)test_menu, return_value_gtk_menu_shell_get_type$1);
-  gtk_menu_shell_append((struct _GtkMenuShell *)return_value_g_type_check_instance_cast$2, new_test_menu_item);
-  unsigned long int return_value_gtk_menu_shell_get_type$3;
-  return_value_gtk_menu_shell_get_type$3=gtk_menu_shell_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)test_menu, return_value_gtk_menu_shell_get_type$3);
-  gtk_menu_shell_append((struct _GtkMenuShell *)return_value_g_type_check_instance_cast$4, quit_menu_item);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)new_test_menu_item, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$5, "activate", (void (*)(void))menu_item_clicked, (void *)"test.new", (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)quit_menu_item, (unsigned long int)(20 << 2));
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)main_window, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$6, "activate", (void (*)(void))gtk_widget_destroy, (void *)(struct _GObject *)return_value_g_type_check_instance_cast$7, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)G_CONNECT_SWAPPED);
+  unsigned long int return_value_gtk_menu_shell_get_type_1;
+  return_value_gtk_menu_shell_get_type_1=gtk_menu_shell_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)test_menu, return_value_gtk_menu_shell_get_type_1);
+  gtk_menu_shell_append((struct _GtkMenuShell *)return_value_g_type_check_instance_cast_2, new_test_menu_item);
+  unsigned long int return_value_gtk_menu_shell_get_type_3;
+  return_value_gtk_menu_shell_get_type_3=gtk_menu_shell_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)test_menu, return_value_gtk_menu_shell_get_type_3);
+  gtk_menu_shell_append((struct _GtkMenuShell *)return_value_g_type_check_instance_cast_4, quit_menu_item);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)new_test_menu_item, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_5, "activate", (void (*)(void))menu_item_clicked, (void *)"test.new", (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)quit_menu_item, (unsigned long int)(20 << 2));
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)main_window, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_6, "activate", (void (*)(void))gtk_widget_destroy, (void *)(struct _GObject *)return_value_g_type_check_instance_cast_7, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)G_CONNECT_SWAPPED);
   test_menu_item=gtk_menu_item_new_with_mnemonic("_Test");
-  unsigned long int return_value_gtk_menu_item_get_type$8;
-  return_value_gtk_menu_item_get_type$8=gtk_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$9;
-  return_value_g_type_check_instance_cast$9=g_type_check_instance_cast((struct _GTypeInstance *)test_menu_item, return_value_gtk_menu_item_get_type$8);
-  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast$9, test_menu);
+  unsigned long int return_value_gtk_menu_item_get_type_8;
+  return_value_gtk_menu_item_get_type_8=gtk_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_9;
+  return_value_g_type_check_instance_cast_9=g_type_check_instance_cast((struct _GTypeInstance *)test_menu_item, return_value_gtk_menu_item_get_type_8);
+  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast_9, test_menu);
   help_menu=gtk_menu_new();
   about_menu_item=gtk_image_menu_item_new_from_stock("gtk-about", (struct _GtkAccelGroup *)(void *)0);
-  unsigned long int return_value_gtk_menu_shell_get_type$10;
-  return_value_gtk_menu_shell_get_type$10=gtk_menu_shell_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$11;
-  return_value_g_type_check_instance_cast$11=g_type_check_instance_cast((struct _GTypeInstance *)help_menu, return_value_gtk_menu_shell_get_type$10);
-  gtk_menu_shell_append((struct _GtkMenuShell *)return_value_g_type_check_instance_cast$11, about_menu_item);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)about_menu_item, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$12, "activate", (void (*)(void))menu_item_clicked, (void *)"help.about", (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  unsigned long int return_value_gtk_menu_shell_get_type_10;
+  return_value_gtk_menu_shell_get_type_10=gtk_menu_shell_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_11;
+  return_value_g_type_check_instance_cast_11=g_type_check_instance_cast((struct _GTypeInstance *)help_menu, return_value_gtk_menu_shell_get_type_10);
+  gtk_menu_shell_append((struct _GtkMenuShell *)return_value_g_type_check_instance_cast_11, about_menu_item);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)about_menu_item, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_12, "activate", (void (*)(void))menu_item_clicked, (void *)"help.about", (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   help_menu_item=gtk_menu_item_new_with_mnemonic("_Help");
-  unsigned long int return_value_gtk_menu_item_get_type$13;
-  return_value_gtk_menu_item_get_type$13=gtk_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)help_menu_item, return_value_gtk_menu_item_get_type$13);
-  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast$14, help_menu);
+  unsigned long int return_value_gtk_menu_item_get_type_13;
+  return_value_gtk_menu_item_get_type_13=gtk_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)help_menu_item, return_value_gtk_menu_item_get_type_13);
+  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast_14, help_menu);
   menu_bar=gtk_menu_bar_new();
-  unsigned long int return_value_gtk_menu_bar_get_type$15;
-  return_value_gtk_menu_bar_get_type$15=gtk_menu_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)menu_bar, return_value_gtk_menu_bar_get_type$15);
-  gtk_menu_shell_append((struct _GtkMenuShell *)(struct _GtkMenuBar *)return_value_g_type_check_instance_cast$16, test_menu_item);
-  unsigned long int return_value_gtk_menu_bar_get_type$17;
-  return_value_gtk_menu_bar_get_type$17=gtk_menu_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)menu_bar, return_value_gtk_menu_bar_get_type$17);
-  gtk_menu_shell_append((struct _GtkMenuShell *)(struct _GtkMenuBar *)return_value_g_type_check_instance_cast$18, help_menu_item);
+  unsigned long int return_value_gtk_menu_bar_get_type_15;
+  return_value_gtk_menu_bar_get_type_15=gtk_menu_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)menu_bar, return_value_gtk_menu_bar_get_type_15);
+  gtk_menu_shell_append((struct _GtkMenuShell *)(struct _GtkMenuBar *)return_value_g_type_check_instance_cast_16, test_menu_item);
+  unsigned long int return_value_gtk_menu_bar_get_type_17;
+  return_value_gtk_menu_bar_get_type_17=gtk_menu_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)menu_bar, return_value_gtk_menu_bar_get_type_17);
+  gtk_menu_shell_append((struct _GtkMenuShell *)(struct _GtkMenuBar *)return_value_g_type_check_instance_cast_18, help_menu_item);
   return menu_bar;
 }
 
@@ -4058,27 +4058,27 @@ static struct _GtkWidget * create_metadata_box(void)
   meta_b_label=gtk_label_new("Sample B: (none)");
   meta_a_hbox=gtk_hbox_new(0, 0);
   meta_b_hbox=gtk_hbox_new(0, 0);
-  unsigned long int return_value_gtk_box_get_type$1;
-  return_value_gtk_box_get_type$1=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)meta_a_hbox, return_value_gtk_box_get_type$1);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$2, meta_a_label, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$3;
-  return_value_gtk_box_get_type$3=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)meta_b_hbox, return_value_gtk_box_get_type$3);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$4, meta_b_label, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_1;
+  return_value_gtk_box_get_type_1=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)meta_a_hbox, return_value_gtk_box_get_type_1);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_2, meta_a_label, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_3;
+  return_value_gtk_box_get_type_3=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)meta_b_hbox, return_value_gtk_box_get_type_3);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_4, meta_b_label, 0, 0, (unsigned int)0);
   meta_vbox=gtk_vbox_new((signed int)!(0 != 0), 5);
-  unsigned long int return_value_gtk_box_get_type$5;
-  return_value_gtk_box_get_type$5=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)meta_vbox, return_value_gtk_box_get_type$5);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$6, meta_a_hbox, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$7;
-  return_value_gtk_box_get_type$7=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)meta_vbox, return_value_gtk_box_get_type$7);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$8, meta_b_hbox, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_5;
+  return_value_gtk_box_get_type_5=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)meta_vbox, return_value_gtk_box_get_type_5);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_6, meta_a_hbox, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_7;
+  return_value_gtk_box_get_type_7=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)meta_vbox, return_value_gtk_box_get_type_7);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_8, meta_b_hbox, 0, 0, (unsigned int)0);
   return meta_vbox;
 }
 
@@ -4092,127 +4092,127 @@ static void create_new_test_window(void)
   sample_b_label=gtk_label_new_with_mnemonic("Sample _B:");
   struct _GtkWidget *trials_label;
   trials_label=gtk_label_new_with_mnemonic("Number of _trials:");
-  first_file_selector=gtk_file_chooser_button_new("Choose audio sample A", (enum anonymous$3)GTK_FILE_CHOOSER_ACTION_OPEN);
-  second_file_selector=gtk_file_chooser_button_new("Choose audio sample B", (enum anonymous$3)GTK_FILE_CHOOSER_ACTION_OPEN);
-  unsigned long int return_value_gtk_label_get_type$1;
-  return_value_gtk_label_get_type$1=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)sample_a_label, return_value_gtk_label_get_type$1);
-  gtk_label_set_mnemonic_widget((struct _GtkLabel *)return_value_g_type_check_instance_cast$2, first_file_selector);
-  unsigned long int return_value_gtk_label_get_type$3;
-  return_value_gtk_label_get_type$3=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)sample_b_label, return_value_gtk_label_get_type$3);
-  gtk_label_set_mnemonic_widget((struct _GtkLabel *)return_value_g_type_check_instance_cast$4, second_file_selector);
+  first_file_selector=gtk_file_chooser_button_new("Choose audio sample A", (enum anonymous_3)GTK_FILE_CHOOSER_ACTION_OPEN);
+  second_file_selector=gtk_file_chooser_button_new("Choose audio sample B", (enum anonymous_3)GTK_FILE_CHOOSER_ACTION_OPEN);
+  unsigned long int return_value_gtk_label_get_type_1;
+  return_value_gtk_label_get_type_1=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)sample_a_label, return_value_gtk_label_get_type_1);
+  gtk_label_set_mnemonic_widget((struct _GtkLabel *)return_value_g_type_check_instance_cast_2, first_file_selector);
+  unsigned long int return_value_gtk_label_get_type_3;
+  return_value_gtk_label_get_type_3=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)sample_b_label, return_value_gtk_label_get_type_3);
+  gtk_label_set_mnemonic_widget((struct _GtkLabel *)return_value_g_type_check_instance_cast_4, second_file_selector);
   first_file_box=gtk_hbox_new(0, 5);
-  unsigned long int return_value_gtk_box_get_type$5;
-  return_value_gtk_box_get_type$5=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)first_file_box, return_value_gtk_box_get_type$5);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$6, sample_a_label, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$7;
-  return_value_gtk_box_get_type$7=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)first_file_box, return_value_gtk_box_get_type$7);
-  unsigned long int return_value_gtk_widget_get_type$9;
-  return_value_gtk_widget_get_type$9=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)first_file_selector, return_value_gtk_widget_get_type$9);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$8, (struct _GtkWidget *)return_value_g_type_check_instance_cast$10, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_5;
+  return_value_gtk_box_get_type_5=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)first_file_box, return_value_gtk_box_get_type_5);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_6, sample_a_label, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_7;
+  return_value_gtk_box_get_type_7=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)first_file_box, return_value_gtk_box_get_type_7);
+  unsigned long int return_value_gtk_widget_get_type_9;
+  return_value_gtk_widget_get_type_9=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)first_file_selector, return_value_gtk_widget_get_type_9);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_8, (struct _GtkWidget *)return_value_g_type_check_instance_cast_10, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   second_file_box=gtk_hbox_new(0, 5);
-  unsigned long int return_value_gtk_box_get_type$11;
-  return_value_gtk_box_get_type$11=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)second_file_box, return_value_gtk_box_get_type$11);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$12, sample_b_label, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$13;
-  return_value_gtk_box_get_type$13=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)second_file_box, return_value_gtk_box_get_type$13);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$14, second_file_selector, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_11;
+  return_value_gtk_box_get_type_11=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)second_file_box, return_value_gtk_box_get_type_11);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_12, sample_b_label, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_13;
+  return_value_gtk_box_get_type_13=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)second_file_box, return_value_gtk_box_get_type_13);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_14, second_file_selector, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   file_box=gtk_vbox_new(0, 5);
-  unsigned long int return_value_gtk_box_get_type$15;
-  return_value_gtk_box_get_type$15=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)file_box, return_value_gtk_box_get_type$15);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$16, first_file_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$17;
-  return_value_gtk_box_get_type$17=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)file_box, return_value_gtk_box_get_type$17);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$18, second_file_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  adjustment$link1=gtk_adjustment_new((double)1, (double)1, (double)50, 1.0, 10.0, (double)0);
-  unsigned long int return_value_gtk_adjustment_get_type$19;
-  return_value_gtk_adjustment_get_type$19=gtk_adjustment_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)adjustment$link1, return_value_gtk_adjustment_get_type$19);
-  spinner=gtk_spin_button_new((struct _GtkAdjustment *)return_value_g_type_check_instance_cast$20, (double)1, (unsigned int)0);
-  unsigned long int return_value_gtk_label_get_type$21;
-  return_value_gtk_label_get_type$21=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-  return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)trials_label, return_value_gtk_label_get_type$21);
-  gtk_label_set_mnemonic_widget((struct _GtkLabel *)return_value_g_type_check_instance_cast$22, spinner);
+  unsigned long int return_value_gtk_box_get_type_15;
+  return_value_gtk_box_get_type_15=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)file_box, return_value_gtk_box_get_type_15);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_16, first_file_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_17;
+  return_value_gtk_box_get_type_17=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)file_box, return_value_gtk_box_get_type_17);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_18, second_file_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  adjustment_link1=gtk_adjustment_new((double)1, (double)1, (double)50, 1.0, 10.0, (double)0);
+  unsigned long int return_value_gtk_adjustment_get_type_19;
+  return_value_gtk_adjustment_get_type_19=gtk_adjustment_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)adjustment_link1, return_value_gtk_adjustment_get_type_19);
+  spinner=gtk_spin_button_new((struct _GtkAdjustment *)return_value_g_type_check_instance_cast_20, (double)1, (unsigned int)0);
+  unsigned long int return_value_gtk_label_get_type_21;
+  return_value_gtk_label_get_type_21=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+  return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)trials_label, return_value_gtk_label_get_type_21);
+  gtk_label_set_mnemonic_widget((struct _GtkLabel *)return_value_g_type_check_instance_cast_22, spinner);
   spinner_box=gtk_hbox_new(0, 5);
-  unsigned long int return_value_gtk_box_get_type$23;
-  return_value_gtk_box_get_type$23=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-  return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)spinner_box, return_value_gtk_box_get_type$23);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$24, trials_label, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$25;
-  return_value_gtk_box_get_type$25=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$26;
-  return_value_g_type_check_instance_cast$26=g_type_check_instance_cast((struct _GTypeInstance *)spinner_box, return_value_gtk_box_get_type$25);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$26, spinner, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_23;
+  return_value_gtk_box_get_type_23=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+  return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)spinner_box, return_value_gtk_box_get_type_23);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_24, trials_label, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_25;
+  return_value_gtk_box_get_type_25=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_26;
+  return_value_g_type_check_instance_cast_26=g_type_check_instance_cast((struct _GTypeInstance *)spinner_box, return_value_gtk_box_get_type_25);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_26, spinner, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   ok=gtk_button_new_from_stock("gtk-ok");
   cancel=gtk_button_new_from_stock("gtk-cancel");
   button_box=gtk_hbox_new((signed int)!(0 != 0), 5);
-  unsigned long int return_value_gtk_box_get_type$27;
-  return_value_gtk_box_get_type$27=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-  return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)button_box, return_value_gtk_box_get_type$27);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$28, ok, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$29;
-  return_value_gtk_box_get_type$29=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$30;
-  return_value_g_type_check_instance_cast$30=g_type_check_instance_cast((struct _GTypeInstance *)button_box, return_value_gtk_box_get_type$29);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$30, cancel, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  g_signal_connect_data((void *)ok, "clicked", (void (*)(void))button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  g_signal_connect_data((void *)cancel, "clicked", (void (*)(void))button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  window=gtk_window_new((enum anonymous$36)GTK_WINDOW_TOPLEVEL);
-  unsigned long int return_value_gtk_window_get_type$31;
-  return_value_gtk_window_get_type$31=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$32;
-  return_value_g_type_check_instance_cast$32=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_window_get_type$31);
-  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$32, "New test");
+  unsigned long int return_value_gtk_box_get_type_27;
+  return_value_gtk_box_get_type_27=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+  return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)button_box, return_value_gtk_box_get_type_27);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_28, ok, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_29;
+  return_value_gtk_box_get_type_29=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_30;
+  return_value_g_type_check_instance_cast_30=g_type_check_instance_cast((struct _GTypeInstance *)button_box, return_value_gtk_box_get_type_29);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_30, cancel, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  g_signal_connect_data((void *)ok, "clicked", (void (*)(void))button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  g_signal_connect_data((void *)cancel, "clicked", (void (*)(void))button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  window=gtk_window_new((enum anonymous_36)GTK_WINDOW_TOPLEVEL);
+  unsigned long int return_value_gtk_window_get_type_31;
+  return_value_gtk_window_get_type_31=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_32;
+  return_value_g_type_check_instance_cast_32=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_window_get_type_31);
+  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_32, "New test");
   main_box=gtk_vbox_new(0, 5);
-  unsigned long int return_value_gtk_container_get_type$33;
-  return_value_gtk_container_get_type$33=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$34;
-  return_value_g_type_check_instance_cast$34=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_container_get_type$33);
-  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast$34, (unsigned int)10);
-  unsigned long int return_value_gtk_box_get_type$35;
-  return_value_gtk_box_get_type$35=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$36;
-  return_value_g_type_check_instance_cast$36=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_box_get_type$35);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$36, file_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$37;
-  return_value_gtk_box_get_type$37=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$38;
-  return_value_g_type_check_instance_cast$38=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_box_get_type$37);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$38, spinner_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)5);
-  unsigned long int return_value_gtk_box_get_type$39;
-  return_value_gtk_box_get_type$39=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$40;
-  return_value_g_type_check_instance_cast$40=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_box_get_type$39);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$40, button_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$41;
-  return_value_g_type_check_instance_cast$41=g_type_check_instance_cast((struct _GTypeInstance *)window, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$41, "delete_event", (void (*)(void))delete_event_handler, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  unsigned long int return_value_gtk_container_get_type$42;
-  return_value_gtk_container_get_type$42=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$43;
-  return_value_g_type_check_instance_cast$43=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_container_get_type$42);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$43, main_box);
+  unsigned long int return_value_gtk_container_get_type_33;
+  return_value_gtk_container_get_type_33=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_34;
+  return_value_g_type_check_instance_cast_34=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_container_get_type_33);
+  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast_34, (unsigned int)10);
+  unsigned long int return_value_gtk_box_get_type_35;
+  return_value_gtk_box_get_type_35=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_36;
+  return_value_g_type_check_instance_cast_36=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_box_get_type_35);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_36, file_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_37;
+  return_value_gtk_box_get_type_37=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_38;
+  return_value_g_type_check_instance_cast_38=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_box_get_type_37);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_38, spinner_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)5);
+  unsigned long int return_value_gtk_box_get_type_39;
+  return_value_gtk_box_get_type_39=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_40;
+  return_value_g_type_check_instance_cast_40=g_type_check_instance_cast((struct _GTypeInstance *)main_box, return_value_gtk_box_get_type_39);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_40, button_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_41;
+  return_value_g_type_check_instance_cast_41=g_type_check_instance_cast((struct _GTypeInstance *)window, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_41, "delete_event", (void (*)(void))delete_event_handler, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  unsigned long int return_value_gtk_container_get_type_42;
+  return_value_gtk_container_get_type_42=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_43;
+  return_value_g_type_check_instance_cast_43=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_container_get_type_42);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_43, main_box);
 }
 
 // create_play_button
@@ -4223,25 +4223,25 @@ static struct _GtkWidget * create_play_button(char *label)
   aligned_box=gtk_hbox_new((signed int)!(0 != 0), 0);
   struct _GtkWidget *box;
   box=gtk_hbox_new(0, 3);
-  unsigned long int return_value_gtk_box_get_type$1;
-  return_value_gtk_box_get_type$1=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)box, return_value_gtk_box_get_type$1);
-  struct _GtkWidget *return_value_gtk_image_new_from_stock$3;
-  return_value_gtk_image_new_from_stock$3=gtk_image_new_from_stock("gtk-media-play", (enum anonymous$7)GTK_ICON_SIZE_BUTTON);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$2, return_value_gtk_image_new_from_stock$3, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$4;
-  return_value_gtk_box_get_type$4=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)box, return_value_gtk_box_get_type$4);
-  struct _GtkWidget *return_value_gtk_label_new_with_mnemonic$6;
-  return_value_gtk_label_new_with_mnemonic$6=gtk_label_new_with_mnemonic(label);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$5, return_value_gtk_label_new_with_mnemonic$6, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$7;
-  return_value_gtk_box_get_type$7=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)aligned_box, return_value_gtk_box_get_type$7);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$8, box, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_1;
+  return_value_gtk_box_get_type_1=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)box, return_value_gtk_box_get_type_1);
+  struct _GtkWidget *return_value_gtk_image_new_from_stock_3;
+  return_value_gtk_image_new_from_stock_3=gtk_image_new_from_stock("gtk-media-play", (enum anonymous_7)GTK_ICON_SIZE_BUTTON);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_2, return_value_gtk_image_new_from_stock_3, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_4;
+  return_value_gtk_box_get_type_4=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)box, return_value_gtk_box_get_type_4);
+  struct _GtkWidget *return_value_gtk_label_new_with_mnemonic_6;
+  return_value_gtk_label_new_with_mnemonic_6=gtk_label_new_with_mnemonic(label);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_5, return_value_gtk_label_new_with_mnemonic_6, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_7;
+  return_value_gtk_box_get_type_7=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)aligned_box, return_value_gtk_box_get_type_7);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_8, box, (signed int)!(0 != 0), 0, (unsigned int)0);
   return aligned_box;
 }
 
@@ -4250,126 +4250,126 @@ static struct _GtkWidget * create_play_button(char *label)
 static struct _GtkWidget * create_playback_box(void)
 {
   struct _GtkWidget *playback_box;
-  struct _GtkWidget *create_playback_box$$1$$button_box;
+  struct _GtkWidget *create_playback_box__1__button_box;
   struct _GtkWidget *first_row;
   struct _GtkWidget *second_row;
   adjustment=gtk_adjustment_new((double)0, (double)0, (double)60, 1.0, 15.0, (double)0);
-  unsigned long int return_value_gtk_adjustment_get_type$1;
-  return_value_gtk_adjustment_get_type$1=gtk_adjustment_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type$1);
-  scale=gtk_hscale_new((struct _GtkAdjustment *)return_value_g_type_check_instance_cast$2);
-  unsigned long int return_value_gtk_range_get_type$3;
-  return_value_gtk_range_get_type$3=gtk_range_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)scale, return_value_gtk_range_get_type$3);
-  gtk_range_set_update_policy((struct _GtkRange *)return_value_g_type_check_instance_cast$4, (enum anonymous$39)GTK_UPDATE_DISCONTINUOUS);
+  unsigned long int return_value_gtk_adjustment_get_type_1;
+  return_value_gtk_adjustment_get_type_1=gtk_adjustment_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type_1);
+  scale=gtk_hscale_new((struct _GtkAdjustment *)return_value_g_type_check_instance_cast_2);
+  unsigned long int return_value_gtk_range_get_type_3;
+  return_value_gtk_range_get_type_3=gtk_range_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)scale, return_value_gtk_range_get_type_3);
+  gtk_range_set_update_policy((struct _GtkRange *)return_value_g_type_check_instance_cast_4, (enum anonymous_39)GTK_UPDATE_DISCONTINUOUS);
   is_user_seeking = 0;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)scale, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$5, "button_press_event", (void (*)(void))scale_button_pressed_or_released, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)scale, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$6, "button_release_event", (void (*)(void))scale_button_pressed_or_released, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)scale, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_5, "button_press_event", (void (*)(void))scale_button_pressed_or_released, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)scale, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_6, "button_release_event", (void (*)(void))scale_button_pressed_or_released, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   first_sample=gtk_button_new();
-  unsigned long int return_value_gtk_container_get_type$7;
-  return_value_gtk_container_get_type$7=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)first_sample, return_value_gtk_container_get_type$7);
-  struct _GtkWidget *return_value_create_play_button$9;
-  return_value_create_play_button$9=create_play_button("Play _A");
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$8, return_value_create_play_button$9);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)first_sample, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$10, "clicked", (void (*)(void))play_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  unsigned long int return_value_gtk_container_get_type_7;
+  return_value_gtk_container_get_type_7=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)first_sample, return_value_gtk_container_get_type_7);
+  struct _GtkWidget *return_value_create_play_button_9;
+  return_value_create_play_button_9=create_play_button("Play _A");
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_8, return_value_create_play_button_9);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)first_sample, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_10, "clicked", (void (*)(void))play_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   second_sample=gtk_button_new();
-  unsigned long int return_value_gtk_container_get_type$11;
-  return_value_gtk_container_get_type$11=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)second_sample, return_value_gtk_container_get_type$11);
-  struct _GtkWidget *return_value_create_play_button$13;
-  return_value_create_play_button$13=create_play_button("Play _B");
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$12, return_value_create_play_button$13);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)second_sample, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$14, "clicked", (void (*)(void))play_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  unsigned long int return_value_gtk_container_get_type_11;
+  return_value_gtk_container_get_type_11=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)second_sample, return_value_gtk_container_get_type_11);
+  struct _GtkWidget *return_value_create_play_button_13;
+  return_value_create_play_button_13=create_play_button("Play _B");
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_12, return_value_create_play_button_13);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)second_sample, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_14, "clicked", (void (*)(void))play_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   test_sample=gtk_button_new();
-  unsigned long int return_value_gtk_container_get_type$15;
-  return_value_gtk_container_get_type$15=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)test_sample, return_value_gtk_container_get_type$15);
-  struct _GtkWidget *return_value_create_play_button$17;
-  return_value_create_play_button$17=create_play_button("Play _X");
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$16, return_value_create_play_button$17);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)test_sample, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$18, "clicked", (void (*)(void))play_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  unsigned long int return_value_gtk_container_get_type_15;
+  return_value_gtk_container_get_type_15=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)test_sample, return_value_gtk_container_get_type_15);
+  struct _GtkWidget *return_value_create_play_button_17;
+  return_value_create_play_button_17=create_play_button("Play _X");
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_16, return_value_create_play_button_17);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)test_sample, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_18, "clicked", (void (*)(void))play_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   pause_button=gtk_button_new_from_stock("gtk-media-pause");
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$19;
-  return_value_g_type_check_instance_cast$19=g_type_check_instance_cast((struct _GTypeInstance *)pause_button, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$19, "clicked", (void (*)(void))pause_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_19;
+  return_value_g_type_check_instance_cast_19=g_type_check_instance_cast((struct _GTypeInstance *)pause_button, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_19, "clicked", (void (*)(void))pause_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   prev_marker=gtk_button_new_from_stock("gtk-media-previous");
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)prev_marker, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$20, "clicked", (void (*)(void))rewind_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)prev_marker, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_20, "clicked", (void (*)(void))rewind_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   next_marker=gtk_button_new_from_stock("gtk-media-next");
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
-  return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)next_marker, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$21, "clicked", (void (*)(void))rewind_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  create_playback_box$$1$$button_box=gtk_vbox_new((signed int)!(0 != 0), 5);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
+  return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)next_marker, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_21, "clicked", (void (*)(void))rewind_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  create_playback_box__1__button_box=gtk_vbox_new((signed int)!(0 != 0), 5);
   first_row=gtk_hbox_new((signed int)!(0 != 0), 5);
   second_row=gtk_hbox_new((signed int)!(0 != 0), 5);
-  unsigned long int return_value_gtk_box_get_type$22;
-  return_value_gtk_box_get_type$22=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-  return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)first_row, return_value_gtk_box_get_type$22);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$23, first_sample, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$24;
-  return_value_gtk_box_get_type$24=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$25;
-  return_value_g_type_check_instance_cast$25=g_type_check_instance_cast((struct _GTypeInstance *)first_row, return_value_gtk_box_get_type$24);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$25, second_sample, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$26;
-  return_value_gtk_box_get_type$26=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$27;
-  return_value_g_type_check_instance_cast$27=g_type_check_instance_cast((struct _GTypeInstance *)first_row, return_value_gtk_box_get_type$26);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$27, test_sample, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$28;
-  return_value_gtk_box_get_type$28=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$29;
-  return_value_g_type_check_instance_cast$29=g_type_check_instance_cast((struct _GTypeInstance *)second_row, return_value_gtk_box_get_type$28);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$29, pause_button, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$30;
-  return_value_gtk_box_get_type$30=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$31;
-  return_value_g_type_check_instance_cast$31=g_type_check_instance_cast((struct _GTypeInstance *)second_row, return_value_gtk_box_get_type$30);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$31, prev_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$32;
-  return_value_gtk_box_get_type$32=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$33;
-  return_value_g_type_check_instance_cast$33=g_type_check_instance_cast((struct _GTypeInstance *)second_row, return_value_gtk_box_get_type$32);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$33, next_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$34;
-  return_value_gtk_box_get_type$34=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$35;
-  return_value_g_type_check_instance_cast$35=g_type_check_instance_cast((struct _GTypeInstance *)create_playback_box$$1$$button_box, return_value_gtk_box_get_type$34);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$35, first_row, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$36;
-  return_value_gtk_box_get_type$36=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$37;
-  return_value_g_type_check_instance_cast$37=g_type_check_instance_cast((struct _GTypeInstance *)create_playback_box$$1$$button_box, return_value_gtk_box_get_type$36);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$37, second_row, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_22;
+  return_value_gtk_box_get_type_22=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+  return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)first_row, return_value_gtk_box_get_type_22);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_23, first_sample, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_24;
+  return_value_gtk_box_get_type_24=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_25;
+  return_value_g_type_check_instance_cast_25=g_type_check_instance_cast((struct _GTypeInstance *)first_row, return_value_gtk_box_get_type_24);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_25, second_sample, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_26;
+  return_value_gtk_box_get_type_26=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_27;
+  return_value_g_type_check_instance_cast_27=g_type_check_instance_cast((struct _GTypeInstance *)first_row, return_value_gtk_box_get_type_26);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_27, test_sample, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_28;
+  return_value_gtk_box_get_type_28=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_29;
+  return_value_g_type_check_instance_cast_29=g_type_check_instance_cast((struct _GTypeInstance *)second_row, return_value_gtk_box_get_type_28);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_29, pause_button, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_30;
+  return_value_gtk_box_get_type_30=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_31;
+  return_value_g_type_check_instance_cast_31=g_type_check_instance_cast((struct _GTypeInstance *)second_row, return_value_gtk_box_get_type_30);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_31, prev_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_32;
+  return_value_gtk_box_get_type_32=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_33;
+  return_value_g_type_check_instance_cast_33=g_type_check_instance_cast((struct _GTypeInstance *)second_row, return_value_gtk_box_get_type_32);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_33, next_marker, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_34;
+  return_value_gtk_box_get_type_34=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_35;
+  return_value_g_type_check_instance_cast_35=g_type_check_instance_cast((struct _GTypeInstance *)create_playback_box__1__button_box, return_value_gtk_box_get_type_34);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_35, first_row, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_36;
+  return_value_gtk_box_get_type_36=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_37;
+  return_value_g_type_check_instance_cast_37=g_type_check_instance_cast((struct _GTypeInstance *)create_playback_box__1__button_box, return_value_gtk_box_get_type_36);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_37, second_row, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   playback_box=gtk_vbox_new(0, 5);
-  unsigned long int return_value_gtk_box_get_type$38;
-  return_value_gtk_box_get_type$38=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$39;
-  return_value_g_type_check_instance_cast$39=g_type_check_instance_cast((struct _GTypeInstance *)playback_box, return_value_gtk_box_get_type$38);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$39, scale, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$40;
-  return_value_gtk_box_get_type$40=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$41;
-  return_value_g_type_check_instance_cast$41=g_type_check_instance_cast((struct _GTypeInstance *)playback_box, return_value_gtk_box_get_type$40);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$41, create_playback_box$$1$$button_box, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_38;
+  return_value_gtk_box_get_type_38=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_39;
+  return_value_g_type_check_instance_cast_39=g_type_check_instance_cast((struct _GTypeInstance *)playback_box, return_value_gtk_box_get_type_38);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_39, scale, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_40;
+  return_value_gtk_box_get_type_40=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_41;
+  return_value_g_type_check_instance_cast_41=g_type_check_instance_cast((struct _GTypeInstance *)playback_box, return_value_gtk_box_get_type_40);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_41, create_playback_box__1__button_box, 0, 0, (unsigned int)0);
   return playback_box;
 }
 
@@ -4378,25 +4378,25 @@ static struct _GtkWidget * create_playback_box(void)
 static void create_status_bar(void)
 {
   status_bar=gtk_statusbar_new();
-  unsigned long int return_value_gtk_statusbar_get_type$1;
-  return_value_gtk_statusbar_get_type$1=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$1);
-  unsigned int return_value_gtk_statusbar_get_context_id$3;
-  return_value_gtk_statusbar_get_context_id$3=gtk_statusbar_get_context_id((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$2, "Playback status");
-  play_context = (signed int)return_value_gtk_statusbar_get_context_id$3;
-  unsigned long int return_value_gtk_statusbar_get_type$4;
-  return_value_gtk_statusbar_get_type$4=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$4);
-  unsigned int return_value_gtk_statusbar_get_context_id$6;
-  return_value_gtk_statusbar_get_context_id$6=gtk_statusbar_get_context_id((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$5, "Non-playback status");
-  non_play_context = (signed int)return_value_gtk_statusbar_get_context_id$6;
-  unsigned long int return_value_gtk_statusbar_get_type$7;
-  return_value_gtk_statusbar_get_type$7=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$7);
-  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$8, (unsigned int)non_play_context, "Stopped");
+  unsigned long int return_value_gtk_statusbar_get_type_1;
+  return_value_gtk_statusbar_get_type_1=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_1);
+  unsigned int return_value_gtk_statusbar_get_context_id_3;
+  return_value_gtk_statusbar_get_context_id_3=gtk_statusbar_get_context_id((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_2, "Playback status");
+  play_context = (signed int)return_value_gtk_statusbar_get_context_id_3;
+  unsigned long int return_value_gtk_statusbar_get_type_4;
+  return_value_gtk_statusbar_get_type_4=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_4);
+  unsigned int return_value_gtk_statusbar_get_context_id_6;
+  return_value_gtk_statusbar_get_context_id_6=gtk_statusbar_get_context_id((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_5, "Non-playback status");
+  non_play_context = (signed int)return_value_gtk_statusbar_get_context_id_6;
+  unsigned long int return_value_gtk_statusbar_get_type_7;
+  return_value_gtk_statusbar_get_type_7=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_7);
+  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_8, (unsigned int)non_play_context, "Stopped");
 }
 
 // create_test_box
@@ -4407,20 +4407,20 @@ static struct _GtkWidget * create_test_box(void)
   test_box=gtk_hbox_new(0, 5);
   struct _GtkWidget *decide;
   decide=gtk_button_new_with_mnemonic("_Decide X");
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$1;
-  return_value_g_type_check_instance_cast$1=g_type_check_instance_cast((struct _GTypeInstance *)decide, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$1, "clicked", (void (*)(void))decide_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_1;
+  return_value_g_type_check_instance_cast_1=g_type_check_instance_cast((struct _GTypeInstance *)decide, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_1, "clicked", (void (*)(void))decide_button_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   trial_label=gtk_label_new("(no test in progress)");
-  unsigned long int return_value_gtk_box_get_type$2;
-  return_value_gtk_box_get_type$2=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)test_box, return_value_gtk_box_get_type$2);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$3, trial_label, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$4;
-  return_value_gtk_box_get_type$4=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)test_box, return_value_gtk_box_get_type$4);
-  gtk_box_pack_end((struct _GtkBox *)return_value_g_type_check_instance_cast$5, decide, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_2;
+  return_value_gtk_box_get_type_2=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)test_box, return_value_gtk_box_get_type_2);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_3, trial_label, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_4;
+  return_value_gtk_box_get_type_4=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)test_box, return_value_gtk_box_get_type_4);
+  gtk_box_pack_end((struct _GtkBox *)return_value_g_type_check_instance_cast_5, decide, 0, 0, (unsigned int)0);
   return test_box;
 }
 
@@ -4432,11 +4432,11 @@ static void decide_button_clicked(struct _GtkWidget *widget, void *data)
   {
     stop_playback();
     clear_status_bar();
-    unsigned long int return_value_gtk_window_get_type$1;
-    return_value_gtk_window_get_type$1=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_window_get_type$1);
-    show_decide_dialog((struct _GtkWindow *)return_value_g_type_check_instance_cast$2);
+    unsigned long int return_value_gtk_window_get_type_1;
+    return_value_gtk_window_get_type_1=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_window_get_type_1);
+    show_decide_dialog((struct _GtkWindow *)return_value_g_type_check_instance_cast_2);
   }
 
 }
@@ -4449,11 +4449,11 @@ static signed int delete_event_handler(struct _GtkWidget *widget, union _GdkEven
   return 0;
 }
 
-// delete_event_handler$link1
+// delete_event_handler_link1
 // file resultwin.c line 36
-static signed int delete_event_handler$link1(struct _GtkWidget *widget$link1, union _GdkEvent *event$link1, void *data$link1)
+static signed int delete_event_handler_link1(struct _GtkWidget *widget_link1, union _GdkEvent *event_link1, void *data_link1)
 {
-  window$link1 = (struct _GtkWidget *)(void *)0;
+  window_link1 = (struct _GtkWidget *)(void *)0;
   return 0;
 }
 
@@ -4469,32 +4469,32 @@ static void destroy_event_handler(struct _GtkWidget *widget, void *data)
 extern void error_dialog(struct _GtkWidget *parent_win, char *msg)
 {
   struct _GtkWidget *errdialog;
-  unsigned long int return_value_gtk_window_get_type$1;
-  return_value_gtk_window_get_type$1=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)parent_win, return_value_gtk_window_get_type$1);
-  errdialog=gtk_message_dialog_new((struct _GtkWindow *)return_value_g_type_check_instance_cast$2, (enum anonymous$29)GTK_DIALOG_DESTROY_WITH_PARENT, (enum anonymous$30)GTK_MESSAGE_ERROR, (enum anonymous$31)GTK_BUTTONS_CLOSE, "%s", msg);
-  unsigned long int return_value_gtk_window_get_type$3;
-  return_value_gtk_window_get_type$3=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)errdialog, return_value_gtk_window_get_type$3);
-  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$4, "Error");
-  unsigned long int return_value_gtk_dialog_get_type$5;
-  return_value_gtk_dialog_get_type$5=gtk_dialog_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)errdialog, return_value_gtk_dialog_get_type$5);
-  gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast$6);
+  unsigned long int return_value_gtk_window_get_type_1;
+  return_value_gtk_window_get_type_1=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)parent_win, return_value_gtk_window_get_type_1);
+  errdialog=gtk_message_dialog_new((struct _GtkWindow *)return_value_g_type_check_instance_cast_2, (enum anonymous_29)GTK_DIALOG_DESTROY_WITH_PARENT, (enum anonymous_30)GTK_MESSAGE_ERROR, (enum anonymous_31)GTK_BUTTONS_CLOSE, "%s", msg);
+  unsigned long int return_value_gtk_window_get_type_3;
+  return_value_gtk_window_get_type_3=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)errdialog, return_value_gtk_window_get_type_3);
+  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_4, "Error");
+  unsigned long int return_value_gtk_dialog_get_type_5;
+  return_value_gtk_dialog_get_type_5=gtk_dialog_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)errdialog, return_value_gtk_dialog_get_type_5);
+  gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast_6);
   gtk_widget_destroy(errdialog);
 }
 
 // get_answer
 // file test.h line 34
-extern enum anonymous$14 get_answer(unsigned int t)
+extern enum anonymous_14 get_answer(unsigned int t)
 {
-  signed int return_value_is_test_valid$1;
-  return_value_is_test_valid$1=is_test_valid();
-  if(return_value_is_test_valid$1 == 0 || !(current_test.ntrials >= t))
-    return (enum anonymous$14)-1;
+  signed int return_value_is_test_valid_1;
+  return_value_is_test_valid_1=is_test_valid();
+  if(return_value_is_test_valid_1 == 0 || !(current_test.ntrials >= t))
+    return (enum anonymous_14)-1;
 
   else
     return current_test.answers[(signed long int)t];
@@ -4502,12 +4502,12 @@ extern enum anonymous$14 get_answer(unsigned int t)
 
 // get_guess
 // file test.h line 35
-extern enum anonymous$14 get_guess(unsigned int t)
+extern enum anonymous_14 get_guess(unsigned int t)
 {
-  signed int return_value_is_test_valid$1;
-  return_value_is_test_valid$1=is_test_valid();
-  if(return_value_is_test_valid$1 == 0 || !(current_test.ntrials >= t))
-    return (enum anonymous$14)-1;
+  signed int return_value_is_test_valid_1;
+  return_value_is_test_valid_1=is_test_valid();
+  if(return_value_is_test_valid_1 == 0 || !(current_test.ntrials >= t))
+    return (enum anonymous_14)-1;
 
   else
     return current_test.guesses[(signed long int)t];
@@ -4515,7 +4515,7 @@ extern enum anonymous$14 get_guess(unsigned int t)
 
 // get_metadata
 // file soundfile.h line 42
-extern struct anonymous$32 get_metadata(struct Sound_file *sndfile)
+extern struct anonymous_32 get_metadata(struct Sound_file *sndfile)
 {
   /* assertion sndfile */
   assert(sndfile != ((struct Sound_file *)NULL));
@@ -4524,20 +4524,20 @@ extern struct anonymous$32 get_metadata(struct Sound_file *sndfile)
 
 // get_metadatas
 // file playback.h line 31
-extern void get_metadatas(struct anonymous$32 *a, struct anonymous$32 *b)
+extern void get_metadatas(struct anonymous_32 *a, struct anonymous_32 *b)
 {
   /* assertion a && b */
-  assert(a != ((struct anonymous$32 *)NULL) && b != ((struct anonymous$32 *)NULL));
+  assert(a != ((struct anonymous_32 *)NULL) && b != ((struct anonymous_32 *)NULL));
   *a=get_player_metadata(player_a);
   *b=get_player_metadata(player_b);
 }
 
 // get_playback_state
 // file playback.h line 32
-extern signed int get_playback_state(struct anonymous$17 *state)
+extern signed int get_playback_state(struct anonymous_17 *state)
 {
   /* assertion state */
-  assert(state != ((struct anonymous$17 *)NULL));
+  assert(state != ((struct anonymous_17 *)NULL));
   if(current_player == ((struct Player *)NULL))
     return -1;
 
@@ -4557,7 +4557,7 @@ extern signed int get_playback_state(struct anonymous$17 *state)
 
 // get_player_metadata
 // file player.h line 39
-extern struct anonymous$32 get_player_metadata(struct Player *player)
+extern struct anonymous_32 get_player_metadata(struct Player *player)
 {
   /* assertion player */
   assert(player != ((struct Player *)NULL));
@@ -4566,7 +4566,7 @@ extern struct anonymous$32 get_player_metadata(struct Player *player)
 
 // get_player_state
 // file player.h line 40
-extern struct anonymous$17 get_player_state(struct Player *player)
+extern struct anonymous_17 get_player_state(struct Player *player)
 {
   /* assertion player */
   assert(player != ((struct Player *)NULL));
@@ -4586,10 +4586,10 @@ extern void hide_decide_dialog(void)
 // file gtkui.h line 52
 extern void hide_result_window(void)
 {
-  if(!(window$link1 == ((struct _GtkWidget *)NULL)))
+  if(!(window_link1 == ((struct _GtkWidget *)NULL)))
   {
-    gtk_widget_destroy(window$link1);
-    window$link1 = (struct _GtkWidget *)(void *)0;
+    gtk_widget_destroy(window_link1);
+    window_link1 = (struct _GtkWidget *)(void *)0;
   }
 
 }
@@ -4602,16 +4602,16 @@ static void init_new_test(void)
   char *b;
   char *s;
   signed int testsucc;
-  unsigned long int return_value_gtk_file_chooser_get_type$1;
-  return_value_gtk_file_chooser_get_type$1=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)first_file_selector, return_value_gtk_file_chooser_get_type$1);
-  a=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$2);
-  unsigned long int return_value_gtk_file_chooser_get_type$3;
-  return_value_gtk_file_chooser_get_type$3=gtk_file_chooser_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)second_file_selector, return_value_gtk_file_chooser_get_type$3);
-  b=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast$4);
+  unsigned long int return_value_gtk_file_chooser_get_type_1;
+  return_value_gtk_file_chooser_get_type_1=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)first_file_selector, return_value_gtk_file_chooser_get_type_1);
+  a=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_2);
+  unsigned long int return_value_gtk_file_chooser_get_type_3;
+  return_value_gtk_file_chooser_get_type_3=gtk_file_chooser_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)second_file_selector, return_value_gtk_file_chooser_get_type_3);
+  b=gtk_file_chooser_get_filename((struct _GtkFileChooser *)return_value_g_type_check_instance_cast_4);
   if(a == ((char *)NULL))
     error_dialog(window, "You have not chosen sample file A.");
 
@@ -4621,13 +4621,13 @@ static void init_new_test(void)
 
     else
     {
-      unsigned long int return_value_gtk_spin_button_get_type$5;
-      return_value_gtk_spin_button_get_type$5=gtk_spin_button_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-      return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)spinner, return_value_gtk_spin_button_get_type$5);
-      signed int return_value_gtk_spin_button_get_value_as_int$7;
-      return_value_gtk_spin_button_get_value_as_int$7=gtk_spin_button_get_value_as_int((struct _GtkSpinButton *)return_value_g_type_check_instance_cast$6);
-      testsucc=init_test(a, b, (unsigned int)return_value_gtk_spin_button_get_value_as_int$7, -1);
+      unsigned long int return_value_gtk_spin_button_get_type_5;
+      return_value_gtk_spin_button_get_type_5=gtk_spin_button_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+      return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)spinner, return_value_gtk_spin_button_get_type_5);
+      signed int return_value_gtk_spin_button_get_value_as_int_7;
+      return_value_gtk_spin_button_get_value_as_int_7=gtk_spin_button_get_value_as_int((struct _GtkSpinButton *)return_value_g_type_check_instance_cast_6);
+      testsucc=init_test(a, b, (unsigned int)return_value_gtk_spin_button_get_value_as_int_7, -1);
       switch(testsucc)
       {
         case 0:
@@ -4661,8 +4661,8 @@ static void init_new_test(void)
 // file playback.c line 46
 extern signed int init_playback(const char *a, const char *b, signed int outdev)
 {
-  struct anonymous$32 ma;
-  struct anonymous$32 mb;
+  struct anonymous_32 ma;
+  struct anonymous_32 mb;
   struct Player *pa;
   struct Player *pb;
   if(!(player_a == ((struct Player *)NULL)))
@@ -4677,7 +4677,7 @@ extern signed int init_playback(const char *a, const char *b, signed int outdev)
     pa=init_player(a, outdev);
     if(pa == ((struct Player *)NULL))
     {
-      g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't initialize player for '%s'", a);
+      g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't initialize player for '%s'", a);
       return 2;
     }
 
@@ -4686,7 +4686,7 @@ extern signed int init_playback(const char *a, const char *b, signed int outdev)
       pb=init_player(b, outdev);
       if(pb == ((struct Player *)NULL))
       {
-        g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't initialize player for '%s'", b);
+        g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't initialize player for '%s'", b);
         close_player(pa);
         return 3;
       }
@@ -4697,7 +4697,7 @@ extern signed int init_playback(const char *a, const char *b, signed int outdev)
         mb=get_player_metadata(pb);
         if(IEEE_FLOAT_NOTEQUAL(ma.duration, mb.duration))
         {
-          g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "samples '%s' and '%s' have different duration", a, b);
+          g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "samples '%s' and '%s' have different duration", a, b);
           close_player(pa);
           close_player(pb);
           return 4;
@@ -4723,16 +4723,16 @@ extern struct Player * init_player(const char *filename, signed int outdev)
   signed int pa_rval;
   unsigned long int nbytes;
   struct PaStreamParameters strparams;
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct Player) /*416ul*/ );
-  player = (struct Player *)return_value_g_malloc$1;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct Player) /*416ul*/ );
+  player = (struct Player *)return_value_g_malloc_1;
   player->stream = (void *)0;
   player->reader.sndfile = (struct Sound_file *)(void *)0;
   player->reader.thread_ok = 0;
   player->reader.sem_ok = player->reader.thread_ok;
   player->reader.is_eof = (char)0;
-  pthread_mutex_init(&player->reader.control_cond_mutex, (const union anonymous$47 *)(void *)0);
-  pthread_cond_init(&player->reader.control_cond, (const union anonymous$47 *)(void *)0);
+  pthread_mutex_init(&player->reader.control_cond_mutex, (const union anonymous_47 *)(void *)0);
+  pthread_cond_init(&player->reader.control_cond, (const union anonymous_47 *)(void *)0);
   player->controller.messages = (struct _GAsyncQueue *)(void *)0;
   player->controller.thread_ok = (unsigned long int)0;
   player->buffer.end = (float *)(void *)0;
@@ -4748,9 +4748,9 @@ extern struct Player * init_player(const char *filename, signed int outdev)
     pa_rval=Pa_Initialize();
     if(!(pa_rval == 0))
     {
-      const char *return_value_Pa_GetErrorText$2;
-      return_value_Pa_GetErrorText$2=Pa_GetErrorText(pa_rval);
-      g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't initialize audio subsystem: %s", return_value_Pa_GetErrorText$2);
+      const char *return_value_Pa_GetErrorText_2;
+      return_value_Pa_GetErrorText_2=Pa_GetErrorText(pa_rval);
+      g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't initialize audio subsystem: %s", return_value_Pa_GetErrorText_2);
       close_player(player);
       pthread_mutex_unlock(&audio_init_count_mutex);
       return (struct Player *)(void *)0;
@@ -4763,11 +4763,11 @@ extern struct Player * init_player(const char *filename, signed int outdev)
   if(outdev == -1)
     outdev=scan_audio_output();
 
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(outdev == -1)
   {
-    g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't find default output audio device");
+    g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't find default output audio device");
     close_player(player);
     return (struct Player *)(void *)0;
   }
@@ -4780,7 +4780,7 @@ extern struct Player * init_player(const char *filename, signed int outdev)
 
     else
     {
-      g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't open file '%s'", filename);
+      g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't open file '%s'", filename);
       close_player(player);
       return (struct Player *)(void *)0;
     }
@@ -4788,16 +4788,16 @@ extern struct Player * init_player(const char *filename, signed int outdev)
     strparams.channelCount = player->reader.metadata.channels;
     strparams.device = outdev;
     strparams.sampleFormat = (unsigned long int)0x00000001;
-    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo$3;
-    return_value_Pa_GetDeviceInfo$3=Pa_GetDeviceInfo(outdev);
-    strparams.suggestedLatency = return_value_Pa_GetDeviceInfo$3->defaultHighOutputLatency;
+    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo_3;
+    return_value_Pa_GetDeviceInfo_3=Pa_GetDeviceInfo(outdev);
+    strparams.suggestedLatency = return_value_Pa_GetDeviceInfo_3->defaultHighOutputLatency;
     strparams.hostApiSpecificStreamInfo = (void *)0;
     pa_rval=Pa_OpenStream(&player->stream, (const struct PaStreamParameters *)(void *)0, &strparams, (double)player->reader.metadata.rate, (unsigned long int)0, (unsigned long int)0, stream_callback, (void *)player);
     if(!(pa_rval == 0))
     {
-      const char *return_value_Pa_GetErrorText$4;
-      return_value_Pa_GetErrorText$4=Pa_GetErrorText(pa_rval);
-      g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't open audio stream for playback: %s", return_value_Pa_GetErrorText$4);
+      const char *return_value_Pa_GetErrorText_4;
+      return_value_Pa_GetErrorText_4=Pa_GetErrorText(pa_rval);
+      g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't open audio stream for playback: %s", return_value_Pa_GetErrorText_4);
       player->stream = (void *)0;
       close_player(player);
       return (struct Player *)(void *)0;
@@ -4807,33 +4807,33 @@ extern struct Player * init_player(const char *filename, signed int outdev)
     nbytes = (unsigned long int)(1024 * BUFFER_SIZE);
     nbytes = nbytes - nbytes % ((unsigned long int)player->reader.metadata.channels * sizeof(float) /*4ul*/ );
     player->buffer.bufsize = (signed int)(nbytes / sizeof(float) /*4ul*/ );
-    void *return_value_g_malloc$5;
-    return_value_g_malloc$5=g_malloc(nbytes);
-    player->buffer.begin = (float *)return_value_g_malloc$5;
+    void *return_value_g_malloc_5;
+    return_value_g_malloc_5=g_malloc(nbytes);
+    player->buffer.begin = (float *)return_value_g_malloc_5;
     player->buffer.end = player->buffer.begin + (signed long int)player->buffer.bufsize;
     player->buffer.out = player->buffer.begin;
     player->buffer.in = player->buffer.out;
     player->buffer.nframes = 0;
-    signed int return_value_sem_init$6;
-    return_value_sem_init$6=sem_init(&player->buffer.space, 0, (unsigned int)1);
-    player->buffer.space_sem_ok = (signed int)(return_value_sem_init$6 == 0);
-    signed int return_value_sem_init$7;
-    return_value_sem_init$7=sem_init(&player->reader.sem, 0, (unsigned int)0);
-    player->reader.sem_ok = (signed int)(return_value_sem_init$7 == 0);
-    signed int return_value_sem_init$8;
-    return_value_sem_init$8=sem_init(&player->reader.notify, 0, (unsigned int)0);
-    player->reader.notify_ok = (signed int)(return_value_sem_init$8 == 0);
+    signed int return_value_sem_init_6;
+    return_value_sem_init_6=sem_init(&player->buffer.space, 0, (unsigned int)1);
+    player->buffer.space_sem_ok = (signed int)(return_value_sem_init_6 == 0);
+    signed int return_value_sem_init_7;
+    return_value_sem_init_7=sem_init(&player->reader.sem, 0, (unsigned int)0);
+    player->reader.sem_ok = (signed int)(return_value_sem_init_7 == 0);
+    signed int return_value_sem_init_8;
+    return_value_sem_init_8=sem_init(&player->reader.notify, 0, (unsigned int)0);
+    player->reader.notify_ok = (signed int)(return_value_sem_init_8 == 0);
     if(player->buffer.space_sem_ok == 0)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = !(player->reader.sem_ok != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_9 = !(player->reader.sem_ok != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = !(player->reader.notify_ok != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = !(player->reader.notify_ok != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
     {
       close_player(player);
       return (struct Player *)(void *)0;
@@ -4842,25 +4842,25 @@ extern struct Player * init_player(const char *filename, signed int outdev)
     else
     {
       player->controller.messages=g_async_queue_new();
-      signed int return_value_pthread_create$11;
-      return_value_pthread_create$11=pthread_create(&player->controller.thread_id, (const union pthread_attr_t *)(void *)0, controller_main, (void *)player);
-      player->controller.thread_ok = (unsigned long int)(return_value_pthread_create$11 == 0);
+      signed int return_value_pthread_create_11;
+      return_value_pthread_create_11=pthread_create(&player->controller.thread_id, (const union pthread_attr_t *)(void *)0, controller_main, (void *)player);
+      player->controller.thread_ok = (unsigned long int)(return_value_pthread_create_11 == 0);
       if(player->controller.thread_ok == 0ul)
       {
-        g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't create controller thread");
+        g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't create controller thread");
         close_player(player);
         return (struct Player *)(void *)0;
       }
 
       else
       {
-        player->reader.control = (enum anonymous$40)READER_STOP;
-        signed int return_value_pthread_create$12;
-        return_value_pthread_create$12=pthread_create(&player->reader.thread_id, (const union pthread_attr_t *)(void *)0, reader_main, (void *)player);
-        player->reader.thread_ok = (signed int)(return_value_pthread_create$12 == 0);
+        player->reader.control = (enum anonymous_40)READER_STOP;
+        signed int return_value_pthread_create_12;
+        return_value_pthread_create_12=pthread_create(&player->reader.thread_id, (const union pthread_attr_t *)(void *)0, reader_main, (void *)player);
+        player->reader.thread_ok = (signed int)(return_value_pthread_create_12 == 0);
         if(player->reader.thread_ok == 0)
         {
-          g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't create reader thread");
+          g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't create reader thread");
           close_player(player);
           return (struct Player *)(void *)0;
         }
@@ -4879,14 +4879,14 @@ extern struct Player * init_player(const char *filename, signed int outdev)
 // file test.h line 29
 extern signed int init_test(const char *a, const char *b, unsigned int ntrials, signed int outdev)
 {
-  struct anonymous$33 test;
+  struct anonymous_33 test;
   signed int i;
   signed int res;
   close_test();
   res=init_playback(a, b, outdev);
   if(res == 2 || res == 3 || res == 4)
   {
-    g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't initialize playback");
+    g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't initialize playback");
     test.isvalid = (char)0;
     return res - 1;
   }
@@ -4894,30 +4894,30 @@ extern signed int init_test(const char *a, const char *b, unsigned int ntrials, 
   else
     if(ntrials == 0u)
     {
-      g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "number of trials is zero");
+      g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "number of trials is zero");
       test.isvalid = (char)0;
       return 4;
     }
 
     else
     {
-      void *return_value_g_malloc$1;
-      return_value_g_malloc$1=g_malloc((unsigned long int)ntrials * sizeof(enum anonymous$14) /*4ul*/ );
-      test.guesses = (enum anonymous$14 *)return_value_g_malloc$1;
-      void *return_value_g_malloc$2;
-      return_value_g_malloc$2=g_malloc((unsigned long int)ntrials * sizeof(enum anonymous$14) /*4ul*/ );
-      test.answers = (enum anonymous$14 *)return_value_g_malloc$2;
+      void *return_value_g_malloc_1;
+      return_value_g_malloc_1=g_malloc((unsigned long int)ntrials * sizeof(enum anonymous_14) /*4ul*/ );
+      test.guesses = (enum anonymous_14 *)return_value_g_malloc_1;
+      void *return_value_g_malloc_2;
+      return_value_g_malloc_2=g_malloc((unsigned long int)ntrials * sizeof(enum anonymous_14) /*4ul*/ );
+      test.answers = (enum anonymous_14 *)return_value_g_malloc_2;
       i = 0;
       for( ; !((unsigned int)i >= ntrials); i = i + 1)
       {
-        unsigned int return_value_g_random_int$3;
-        return_value_g_random_int$3=g_random_int();
-        if(!((32768u & return_value_g_random_int$3) == 0u) == (_Bool)1)
-          test.answers[(signed long int)i] = (enum anonymous$14)SAMPLE_A;
+        unsigned int return_value_g_random_int_3;
+        return_value_g_random_int_3=g_random_int();
+        if(!((32768u & return_value_g_random_int_3) == 0u) == (_Bool)1)
+          test.answers[(signed long int)i] = (enum anonymous_14)SAMPLE_A;
 
         else
-          test.answers[(signed long int)i] = (enum anonymous$14)SAMPLE_B;
-        test.guesses[(signed long int)i] = (enum anonymous$14)SAMPLE_NA;
+          test.answers[(signed long int)i] = (enum anonymous_14)SAMPLE_B;
+        test.guesses[(signed long int)i] = (enum anonymous_14)SAMPLE_NA;
       }
       test.ntrials = ntrials;
       test.isvalid = (char)1;
@@ -4948,22 +4948,22 @@ static void marker_activated(struct _GtkTreeView *markers, struct _GtkTreePath *
 {
   struct _GtkTreeIter iter;
   double marker;
-  unsigned long int return_value_gtk_tree_model_get_type$1;
-  return_value_gtk_tree_model_get_type$1=gtk_tree_model_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type$1);
-  signed int return_value_gtk_tree_model_get_iter$3;
-  return_value_gtk_tree_model_get_iter$3=gtk_tree_model_get_iter((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$2, &iter, path);
-  if(return_value_gtk_tree_model_get_iter$3 == 0)
-    g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't get iterator for marked item");
+  unsigned long int return_value_gtk_tree_model_get_type_1;
+  return_value_gtk_tree_model_get_type_1=gtk_tree_model_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type_1);
+  signed int return_value_gtk_tree_model_get_iter_3;
+  return_value_gtk_tree_model_get_iter_3=gtk_tree_model_get_iter((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_2, &iter, path);
+  if(return_value_gtk_tree_model_get_iter_3 == 0)
+    g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't get iterator for marked item");
 
   else
   {
-    unsigned long int return_value_gtk_tree_model_get_type$4;
-    return_value_gtk_tree_model_get_type$4=gtk_tree_model_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-    return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type$4);
-    gtk_tree_model_get((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$5, &iter, 0, &marker, -1);
+    unsigned long int return_value_gtk_tree_model_get_type_4;
+    return_value_gtk_tree_model_get_type_4=gtk_tree_model_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+    return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type_4);
+    gtk_tree_model_get((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_5, &iter, 0, &marker, -1);
     seek_playback(marker);
     update_location();
   }
@@ -4992,9 +4992,9 @@ static void menu_item_clicked(struct _GtkWidget *widget, void *data)
 // file test.h line 33
 extern signed int num_test_trials(void)
 {
-  signed int return_value_is_test_valid$1;
-  return_value_is_test_valid$1=is_test_valid();
-  if(return_value_is_test_valid$1 == 0)
+  signed int return_value_is_test_valid_1;
+  return_value_is_test_valid_1=is_test_valid();
+  if(return_value_is_test_valid_1 == 0)
     return -1;
 
   else
@@ -5020,9 +5020,9 @@ extern struct Sound_file * open_sound_file(const char *filename)
 
     else
     {
-      void *return_value_g_malloc$1;
-      return_value_g_malloc$1=g_malloc(sizeof(struct Sound_file) /*48ul*/ );
-      sndfile = (struct Sound_file *)return_value_g_malloc$1;
+      void *return_value_g_malloc_1;
+      return_value_g_malloc_1=g_malloc(sizeof(struct Sound_file) /*48ul*/ );
+      sndfile = (struct Sound_file *)return_value_g_malloc_1;
       sndfile->sffile = sffile;
       if(!((1 & sfinfo.format) == 0))
         sndfile->metadata.bits = 8;
@@ -5041,7 +5041,7 @@ extern struct Sound_file * open_sound_file(const char *filename)
 
             else
             {
-              g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_ERROR, "unsupported bits per sample (must be 8, 16, 24, or 32)");
+              g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_ERROR, "unsupported bits per sample (must be 8, 16, 24, or 32)");
 
             __CPROVER_DUMP_L7:
               ;
@@ -5066,26 +5066,26 @@ static void parse_options(signed int *argc, char ***argv)
   struct _GError *error = (struct _GError *)(void *)0;
   struct _GOptionContext *context;
   struct _GOptionEntry entries[3l] = { { .long_name="num-trials", .short_name=(char)105, .flags=0,
-    .arg=(enum anonymous$0)G_OPTION_ARG_INT, .arg_data=(void *)&ntrials,
+    .arg=(enum anonymous_0)G_OPTION_ARG_INT, .arg_data=(void *)&ntrials,
     .description="Do N trials.", .arg_description="N" },
     { .long_name="audio-device", .short_name=(char)100, .flags=0,
-    .arg=(enum anonymous$0)G_OPTION_ARG_INT, .arg_data=(void *)&outdev,
+    .arg=(enum anonymous_0)G_OPTION_ARG_INT, .arg_data=(void *)&outdev,
     .description="Use PortAudio audio device ID", .arg_description="ID" },
     { .long_name=(const char *)(void *)0, .short_name=0, .flags=0,
-    .arg=(enum anonymous$0)0, .arg_data=NULL, .description=((const char *)NULL),
+    .arg=(enum anonymous_0)0, .arg_data=NULL, .description=((const char *)NULL),
     .arg_description=((const char *)NULL) } };
   context=g_option_context_new("[SAMPLE-A SAMPLE-B]");
   g_option_context_set_summary(context, "Test for audible differences in fidelity between two audio samples\nwith ABX test.");
   g_option_context_set_description(context, "Report bugs to <petterih@iki.fi>.");
   g_option_context_add_main_entries(context, entries, (const char *)(void *)0);
-  struct _GOptionGroup *return_value_gtk_get_option_group$1;
-  return_value_gtk_get_option_group$1=gtk_get_option_group((signed int)!(0 != 0));
-  g_option_context_add_group(context, return_value_gtk_get_option_group$1);
-  signed int return_value_g_option_context_parse$2;
-  return_value_g_option_context_parse$2=g_option_context_parse(context, argc, argv, &error);
-  if(return_value_g_option_context_parse$2 == 0)
+  struct _GOptionGroup *return_value_gtk_get_option_group_1;
+  return_value_gtk_get_option_group_1=gtk_get_option_group((signed int)!(0 != 0));
+  g_option_context_add_group(context, return_value_gtk_get_option_group_1);
+  signed int return_value_g_option_context_parse_2;
+  return_value_g_option_context_parse_2=g_option_context_parse(context, argc, argv, &error);
+  if(return_value_g_option_context_parse_2 == 0)
   {
-    g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_ERROR, "option parsing failed: %s\n", error->message);
+    g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_ERROR, "option parsing failed: %s\n", error->message);
 
   __CPROVER_DUMP_L2:
     ;
@@ -5103,24 +5103,24 @@ static void pause_button_clicked(struct _GtkWidget *widget, void *data)
 {
   signed int paused;
   paused=pause_or_resume_playback();
-  unsigned long int return_value_gtk_statusbar_get_type$1;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  unsigned long int return_value_gtk_statusbar_get_type$3;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
+  unsigned long int return_value_gtk_statusbar_get_type_1;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  unsigned long int return_value_gtk_statusbar_get_type_3;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
   switch(paused)
   {
     case 0:
     {
-      return_value_gtk_statusbar_get_type$1=gtk_statusbar_get_type();
-      return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$1);
-      gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$2, (unsigned int)play_context, "Paused");
+      return_value_gtk_statusbar_get_type_1=gtk_statusbar_get_type();
+      return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_1);
+      gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_2, (unsigned int)play_context, "Paused");
       break;
     }
     case 1:
     {
-      return_value_gtk_statusbar_get_type$3=gtk_statusbar_get_type();
-      return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$3);
-      gtk_statusbar_pop((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$4, (unsigned int)play_context);
+      return_value_gtk_statusbar_get_type_3=gtk_statusbar_get_type();
+      return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_3);
+      gtk_statusbar_pop((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_4, (unsigned int)play_context);
       break;
     }
     default:
@@ -5133,7 +5133,7 @@ static void pause_button_clicked(struct _GtkWidget *widget, void *data)
 // file playback.h line 36
 extern signed int pause_or_resume_playback(void)
 {
-  struct anonymous$17 state;
+  struct anonymous_17 state;
   if(current_player == ((struct Player *)NULL))
     return 2;
 
@@ -5158,15 +5158,15 @@ extern signed int pause_or_resume_playback(void)
 
 // pause_or_resume_player
 // file player.h line 44
-extern void pause_or_resume_player(struct Player *player, union anonymous$25 *sem)
+extern void pause_or_resume_player(struct Player *player, union anonymous_25 *sem)
 {
-  struct anonymous$38 *msg;
+  struct anonymous_38 *msg;
   /* assertion player */
   assert(player != ((struct Player *)NULL));
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$38) /*32ul*/ );
-  msg = (struct anonymous$38 *)return_value_g_malloc$1;
-  msg->command = (enum anonymous$37)CMD_PAUSE;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_38) /*32ul*/ );
+  msg = (struct anonymous_38 *)return_value_g_malloc_1;
+  msg->command = (enum anonymous_37)CMD_PAUSE;
   msg->sem = sem;
   g_async_queue_push(player->controller.messages, (void *)msg);
 }
@@ -5189,74 +5189,74 @@ static void play_button_clicked(struct _GtkWidget *widget, void *data)
 
       else
       {
-        enum anonymous$14 return_value_get_answer$1;
-        return_value_get_answer$1=get_answer((unsigned int)current_trial);
-        sampleid = (signed int)return_value_get_answer$1;
+        enum anonymous_14 return_value_get_answer_1;
+        return_value_get_answer_1=get_answer((unsigned int)current_trial);
+        sampleid = (signed int)return_value_get_answer_1;
       }
-    unsigned long int return_value_gtk_tree_view_get_type$8;
-    return_value_gtk_tree_view_get_type$8=gtk_tree_view_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$9;
-    return_value_g_type_check_instance_cast$9=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type$8);
-    struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection$10;
-    return_value_gtk_tree_view_get_selection$10=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast$9);
-    signed int return_value_gtk_tree_selection_get_selected$11;
-    return_value_gtk_tree_selection_get_selected$11=gtk_tree_selection_get_selected(return_value_gtk_tree_view_get_selection$10, (struct _GtkTreeModel **)(void *)0, &iter);
-    if(!(return_value_gtk_tree_selection_get_selected$11 == 0))
+    unsigned long int return_value_gtk_tree_view_get_type_8;
+    return_value_gtk_tree_view_get_type_8=gtk_tree_view_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_9;
+    return_value_g_type_check_instance_cast_9=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type_8);
+    struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection_10;
+    return_value_gtk_tree_view_get_selection_10=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast_9);
+    signed int return_value_gtk_tree_selection_get_selected_11;
+    return_value_gtk_tree_selection_get_selected_11=gtk_tree_selection_get_selected(return_value_gtk_tree_view_get_selection_10, (struct _GtkTreeModel **)(void *)0, &iter);
+    if(!(return_value_gtk_tree_selection_get_selected_11 == 0))
     {
-      unsigned long int return_value_gtk_tree_model_get_type$2;
-      return_value_gtk_tree_model_get_type$2=gtk_tree_model_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-      return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type$2);
-      gtk_tree_model_get((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$3, &iter, 0, &marker, -1);
+      unsigned long int return_value_gtk_tree_model_get_type_2;
+      return_value_gtk_tree_model_get_type_2=gtk_tree_model_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+      return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type_2);
+      gtk_tree_model_get((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_3, &iter, 0, &marker, -1);
       start_playback(sampleid, marker);
     }
 
     else
     {
-      struct anonymous$17 state;
-      signed int return_value_get_playback_state$7;
-      return_value_get_playback_state$7=get_playback_state(&state);
-      if((signed int)state.playback == PLAYING && !(return_value_get_playback_state$7 == -1))
+      struct anonymous_17 state;
+      signed int return_value_get_playback_state_7;
+      return_value_get_playback_state_7=get_playback_state(&state);
+      if((signed int)state.playback == PLAYING && !(return_value_get_playback_state_7 == -1))
         start_playback(sampleid, state.location);
 
       else
       {
-        unsigned long int return_value_gtk_adjustment_get_type$4;
-        return_value_gtk_adjustment_get_type$4=gtk_adjustment_get_type();
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-        return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type$4);
-        double return_value_gtk_adjustment_get_value$6;
-        return_value_gtk_adjustment_get_value$6=gtk_adjustment_get_value((struct _GtkAdjustment *)return_value_g_type_check_instance_cast$5);
-        start_playback(sampleid, return_value_gtk_adjustment_get_value$6);
+        unsigned long int return_value_gtk_adjustment_get_type_4;
+        return_value_gtk_adjustment_get_type_4=gtk_adjustment_get_type();
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+        return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type_4);
+        double return_value_gtk_adjustment_get_value_6;
+        return_value_gtk_adjustment_get_value_6=gtk_adjustment_get_value((struct _GtkAdjustment *)return_value_g_type_check_instance_cast_5);
+        start_playback(sampleid, return_value_gtk_adjustment_get_value_6);
       }
     }
     clear_status_bar();
     if(widget == first_sample)
     {
-      unsigned long int return_value_gtk_statusbar_get_type$12;
-      return_value_gtk_statusbar_get_type$12=gtk_statusbar_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$13;
-      return_value_g_type_check_instance_cast$13=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$12);
-      gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$13, (unsigned int)play_context, "Playing sample A");
+      unsigned long int return_value_gtk_statusbar_get_type_12;
+      return_value_gtk_statusbar_get_type_12=gtk_statusbar_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_13;
+      return_value_g_type_check_instance_cast_13=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_12);
+      gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_13, (unsigned int)play_context, "Playing sample A");
     }
 
     else
       if(widget == second_sample)
       {
-        unsigned long int return_value_gtk_statusbar_get_type$14;
-        return_value_gtk_statusbar_get_type$14=gtk_statusbar_get_type();
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$15;
-        return_value_g_type_check_instance_cast$15=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$14);
-        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$15, (unsigned int)play_context, "Playing sample B");
+        unsigned long int return_value_gtk_statusbar_get_type_14;
+        return_value_gtk_statusbar_get_type_14=gtk_statusbar_get_type();
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_15;
+        return_value_g_type_check_instance_cast_15=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_14);
+        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_15, (unsigned int)play_context, "Playing sample B");
       }
 
       else
       {
-        unsigned long int return_value_gtk_statusbar_get_type$16;
-        return_value_gtk_statusbar_get_type$16=gtk_statusbar_get_type();
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-        return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type$16);
-        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$17, (unsigned int)play_context, "Playing sample X");
+        unsigned long int return_value_gtk_statusbar_get_type_16;
+        return_value_gtk_statusbar_get_type_16=gtk_statusbar_get_type();
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+        return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)status_bar, return_value_gtk_statusbar_get_type_16);
+        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_17, (unsigned int)play_context, "Playing sample X");
       }
     update_location();
   }
@@ -5269,9 +5269,9 @@ extern unsigned int read_pcm_data(struct Sound_file *sndfile, float *buf, unsign
 {
   /* assertion sndfile && buf && nframes >= 0 */
   assert(sndfile != ((struct Sound_file *)NULL) && buf != ((float *)NULL) && nframes >= (unsigned int)0);
-  signed long int return_value_sf_readf_float$1;
-  return_value_sf_readf_float$1=sf_readf_float(sndfile->sffile, buf, (signed long int)nframes);
-  return (unsigned int)return_value_sf_readf_float$1;
+  signed long int return_value_sf_readf_float_1;
+  return_value_sf_readf_float_1=sf_readf_float(sndfile->sffile, buf, (signed long int)nframes);
+  return (unsigned int)return_value_sf_readf_float_1;
 }
 
 // reader_main
@@ -5283,10 +5283,10 @@ static void * reader_main(void *arg)
   signed int notify;
   player = (struct Player *)arg;
   nchannels = player->reader.metadata.channels;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   do
   {
     pthread_mutex_lock(&player->reader.control_cond_mutex);
@@ -5309,15 +5309,15 @@ static void * reader_main(void *arg)
       if((signed int)player->reader.control == READER_STOP)
         sem_post(&player->reader.sem);
 
-      player->reader.control = (enum anonymous$40)READER_STOPPED;
+      player->reader.control = (enum anonymous_40)READER_STOPPED;
       pthread_cond_wait(&player->reader.control_cond, &player->reader.control_cond_mutex);
       if((signed int)player->reader.control == READER_RESUME)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)player->reader.control == READER_TERM ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)player->reader.control == READER_TERM ? (_Bool)1 : (_Bool)0;
       /* assertion player->reader.control == READER_RESUME || player->reader.control == READER_TERM */
-      assert(tmp_if_expr$1);
+      assert(tmp_if_expr_1);
       sem_post(&player->reader.sem);
     }
 
@@ -5328,30 +5328,30 @@ static void * reader_main(void *arg)
 
     else
       notify = 0;
-    player->reader.control = (enum anonymous$40)READER_RUNNING;
+    player->reader.control = (enum anonymous_40)READER_RUNNING;
     pthread_mutex_unlock(&player->reader.control_cond_mutex);
     sem_wait(&player->buffer.space);
     if((signed int)player->reader.control == READER_STOP)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)player->reader.control == READER_TERM ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)player->reader.control == READER_TERM ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
       do
       {
         signed int nitems;
         signed int nread;
         if(player->buffer.in == player->buffer.end)
-          tmp_if_expr$3 = player->buffer.out == player->buffer.begin ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = player->buffer.out == player->buffer.begin ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = player->buffer.in + (signed long int)nchannels == player->buffer.out ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = player->buffer.in + (signed long int)nchannels == player->buffer.out ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           if(!(notify == 0))
             sem_post(&player->reader.notify);
@@ -5369,9 +5369,9 @@ static void * reader_main(void *arg)
           nitems = (signed int)((player->buffer.out - player->buffer.in) / (signed long int)nchannels - (signed long int)1);
         /* assertion nitems > 0 */
         assert(nitems > 0);
-        unsigned int return_value_read_pcm_data$5;
-        return_value_read_pcm_data$5=read_pcm_data(player->reader.sndfile, player->buffer.in, (unsigned int)nitems);
-        nread = (signed int)return_value_read_pcm_data$5;
+        unsigned int return_value_read_pcm_data_5;
+        return_value_read_pcm_data_5=read_pcm_data(player->reader.sndfile, player->buffer.in, (unsigned int)nitems);
+        nread = (signed int)return_value_read_pcm_data_5;
         player->buffer.nframes = player->buffer.nframes + nread;
         player->buffer.in = player->buffer.in + (signed long int)(nread * nchannels);
         /* assertion player->buffer.nframes <= player->buffer.bufsize */
@@ -5411,16 +5411,16 @@ static signed int recurrent_update_location(void *data)
 {
   if(is_user_seeking == 0)
   {
-    struct anonymous$17 state;
-    signed int return_value_get_playback_state$3;
-    return_value_get_playback_state$3=get_playback_state(&state);
-    if(!(return_value_get_playback_state$3 == -1))
+    struct anonymous_17 state;
+    signed int return_value_get_playback_state_3;
+    return_value_get_playback_state_3=get_playback_state(&state);
+    if(!(return_value_get_playback_state_3 == -1))
     {
-      unsigned long int return_value_gtk_range_get_type$1;
-      return_value_gtk_range_get_type$1=gtk_range_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-      return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)scale, return_value_gtk_range_get_type$1);
-      gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast$2, state.location);
+      unsigned long int return_value_gtk_range_get_type_1;
+      return_value_gtk_range_get_type_1=gtk_range_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+      return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)scale, return_value_gtk_range_get_type_1);
+      gtk_range_set_value((struct _GtkRange *)return_value_g_type_check_instance_cast_2, state.location);
       if((signed int)state.playback == STOPPED)
       {
         timeout_id = (unsigned int)0;
@@ -5445,15 +5445,15 @@ static signed int recurrent_update_location(void *data)
 static void remove_marker_clicked(struct _GtkWidget *widget, void *data)
 {
   struct _GtkTreeIter iter;
-  unsigned long int return_value_gtk_tree_view_get_type$1;
-  return_value_gtk_tree_view_get_type$1=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type$1);
-  struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection$3;
-  return_value_gtk_tree_view_get_selection$3=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast$2);
-  signed int return_value_gtk_tree_selection_get_selected$4;
-  return_value_gtk_tree_selection_get_selected$4=gtk_tree_selection_get_selected(return_value_gtk_tree_view_get_selection$3, (struct _GtkTreeModel **)(void *)0, &iter);
-  if(!(return_value_gtk_tree_selection_get_selected$4 == 0))
+  unsigned long int return_value_gtk_tree_view_get_type_1;
+  return_value_gtk_tree_view_get_type_1=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type_1);
+  struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection_3;
+  return_value_gtk_tree_view_get_selection_3=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast_2);
+  signed int return_value_gtk_tree_selection_get_selected_4;
+  return_value_gtk_tree_selection_get_selected_4=gtk_tree_selection_get_selected(return_value_gtk_tree_view_get_selection_3, (struct _GtkTreeModel **)(void *)0, &iter);
+  if(!(return_value_gtk_tree_selection_get_selected_4 == 0))
     gtk_list_store_remove(marker_list, &iter);
 
 }
@@ -5481,17 +5481,17 @@ extern void reset_test(void)
 // file decidewin.c line 31
 static void response_handler(struct _GtkWidget *widget, signed int response, void *data)
 {
-  signed int return_value_num_test_trials$1;
+  signed int return_value_num_test_trials_1;
   switch(response)
   {
     case 0:
 
     case 1:
     {
-      set_guess((unsigned int)current_trial, (enum anonymous$14)response);
+      set_guess((unsigned int)current_trial, (enum anonymous_14)response);
       gtk_widget_hide_all(dialog);
-      return_value_num_test_trials$1=num_test_trials();
-      if(current_trial == return_value_num_test_trials$1 + -1)
+      return_value_num_test_trials_1=num_test_trials();
+      if(current_trial == return_value_num_test_trials_1 + -1)
       {
         show_result_window();
         close_test();
@@ -5530,7 +5530,7 @@ static signed int resume_reader_thread(struct Player *player)
 
   else
   {
-    player->reader.control = (enum anonymous$40)READER_RESUME;
+    player->reader.control = (enum anonymous_40)READER_RESUME;
     pthread_cond_signal(&player->reader.control_cond);
     pthread_mutex_unlock(&player->reader.control_cond_mutex);
     sem_wait(&player->reader.sem);
@@ -5547,31 +5547,31 @@ static void rewind_button_clicked(struct _GtkWidget *widget, void *data)
   struct _GtkTreeIter iter;
   struct _GtkTreePath *path;
   double marker;
-  unsigned long int return_value_gtk_tree_view_get_type$1;
-  return_value_gtk_tree_view_get_type$1=gtk_tree_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type$1);
-  selection=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast$2);
-  signed int return_value_gtk_tree_selection_get_selected$3;
-  return_value_gtk_tree_selection_get_selected$3=gtk_tree_selection_get_selected(selection, (struct _GtkTreeModel **)(void *)0, &iter);
-  _Bool tmp_if_expr$7;
-  signed int return_value_gtk_tree_path_prev$6;
-  if(!(return_value_gtk_tree_selection_get_selected$3 == 0))
+  unsigned long int return_value_gtk_tree_view_get_type_1;
+  return_value_gtk_tree_view_get_type_1=gtk_tree_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type_1);
+  selection=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast_2);
+  signed int return_value_gtk_tree_selection_get_selected_3;
+  return_value_gtk_tree_selection_get_selected_3=gtk_tree_selection_get_selected(selection, (struct _GtkTreeModel **)(void *)0, &iter);
+  _Bool tmp_if_expr_7;
+  signed int return_value_gtk_tree_path_prev_6;
+  if(!(return_value_gtk_tree_selection_get_selected_3 == 0))
   {
-    unsigned long int return_value_gtk_tree_model_get_type$4;
-    return_value_gtk_tree_model_get_type$4=gtk_tree_model_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-    return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type$4);
-    path=gtk_tree_model_get_path((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$5, &iter);
+    unsigned long int return_value_gtk_tree_model_get_type_4;
+    return_value_gtk_tree_model_get_type_4=gtk_tree_model_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+    return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type_4);
+    path=gtk_tree_model_get_path((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_5, &iter);
     if(widget == prev_marker)
     {
-      return_value_gtk_tree_path_prev$6=gtk_tree_path_prev(path);
-      tmp_if_expr$7 = return_value_gtk_tree_path_prev$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_gtk_tree_path_prev_6=gtk_tree_path_prev(path);
+      tmp_if_expr_7 = return_value_gtk_tree_path_prev_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
       gtk_tree_selection_select_path(selection, path);
 
     else
@@ -5581,21 +5581,21 @@ static void rewind_button_clicked(struct _GtkWidget *widget, void *data)
         gtk_tree_selection_select_path(selection, path);
       }
 
-    unsigned long int return_value_gtk_tree_view_get_type$10;
-    return_value_gtk_tree_view_get_type$10=gtk_tree_view_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$11;
-    return_value_g_type_check_instance_cast$11=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type$10);
-    struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection$12;
-    return_value_gtk_tree_view_get_selection$12=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast$11);
-    signed int return_value_gtk_tree_selection_get_selected$13;
-    return_value_gtk_tree_selection_get_selected$13=gtk_tree_selection_get_selected(return_value_gtk_tree_view_get_selection$12, (struct _GtkTreeModel **)(void *)0, &iter);
-    if(!(return_value_gtk_tree_selection_get_selected$13 == 0))
+    unsigned long int return_value_gtk_tree_view_get_type_10;
+    return_value_gtk_tree_view_get_type_10=gtk_tree_view_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_11;
+    return_value_g_type_check_instance_cast_11=g_type_check_instance_cast((struct _GTypeInstance *)markers, return_value_gtk_tree_view_get_type_10);
+    struct _GtkTreeSelection *return_value_gtk_tree_view_get_selection_12;
+    return_value_gtk_tree_view_get_selection_12=gtk_tree_view_get_selection((struct _GtkTreeView *)return_value_g_type_check_instance_cast_11);
+    signed int return_value_gtk_tree_selection_get_selected_13;
+    return_value_gtk_tree_selection_get_selected_13=gtk_tree_selection_get_selected(return_value_gtk_tree_view_get_selection_12, (struct _GtkTreeModel **)(void *)0, &iter);
+    if(!(return_value_gtk_tree_selection_get_selected_13 == 0))
     {
-      unsigned long int return_value_gtk_tree_model_get_type$8;
-      return_value_gtk_tree_model_get_type$8=gtk_tree_model_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$9;
-      return_value_g_type_check_instance_cast$9=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type$8);
-      gtk_tree_model_get((struct _GtkTreeModel *)return_value_g_type_check_instance_cast$9, &iter, 0, &marker, -1);
+      unsigned long int return_value_gtk_tree_model_get_type_8;
+      return_value_gtk_tree_model_get_type_8=gtk_tree_model_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_9;
+      return_value_g_type_check_instance_cast_9=g_type_check_instance_cast((struct _GTypeInstance *)marker_list, return_value_gtk_tree_model_get_type_8);
+      gtk_tree_model_get((struct _GtkTreeModel *)return_value_g_type_check_instance_cast_9, &iter, 0, &marker, -1);
       seek_playback(marker);
       update_location();
     }
@@ -5616,13 +5616,13 @@ static signed int scale_button_pressed_or_released(struct _GtkWidget *widget, st
     if((signed int)event->type == GDK_BUTTON_RELEASE)
     {
       is_user_seeking = 0;
-      unsigned long int return_value_gtk_adjustment_get_type$1;
-      return_value_gtk_adjustment_get_type$1=gtk_adjustment_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-      return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type$1);
-      double return_value_gtk_adjustment_get_value$3;
-      return_value_gtk_adjustment_get_value$3=gtk_adjustment_get_value((struct _GtkAdjustment *)return_value_g_type_check_instance_cast$2);
-      seek_playback(return_value_gtk_adjustment_get_value$3);
+      unsigned long int return_value_gtk_adjustment_get_type_1;
+      return_value_gtk_adjustment_get_type_1=gtk_adjustment_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+      return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)adjustment, return_value_gtk_adjustment_get_type_1);
+      double return_value_gtk_adjustment_get_value_3;
+      return_value_gtk_adjustment_get_value_3=gtk_adjustment_get_value((struct _GtkAdjustment *)return_value_g_type_check_instance_cast_2);
+      seek_playback(return_value_gtk_adjustment_get_value_3);
       update_location();
     }
 
@@ -5635,14 +5635,14 @@ static signed int scan_audio_output(void)
 {
   const struct PaDeviceInfo *devinfo;
   signed int i;
-  signed int scan_audio_output$$1$$outdev = -1;
+  signed int scan_audio_output__1__outdev = -1;
   signed int ndevices;
   ndevices=Pa_GetDeviceCount();
   if(!(ndevices >= 0))
   {
-    const char *return_value_Pa_GetErrorText$1;
-    return_value_Pa_GetErrorText$1=Pa_GetErrorText(ndevices);
-    g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "can't find available audio devices: %s", return_value_Pa_GetErrorText$1);
+    const char *return_value_Pa_GetErrorText_1;
+    return_value_Pa_GetErrorText_1=Pa_GetErrorText(ndevices);
+    g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "can't find available audio devices: %s", return_value_Pa_GetErrorText_1);
   }
 
   i = 0;
@@ -5651,18 +5651,18 @@ static signed int scan_audio_output(void)
     devinfo=Pa_GetDeviceInfo(i);
     if(!(devinfo == ((const struct PaDeviceInfo *)NULL)))
     {
-      const struct PaHostApiInfo *return_value_Pa_GetHostApiInfo$2;
-      return_value_Pa_GetHostApiInfo$2=Pa_GetHostApiInfo(devinfo->hostApi);
-      if(i == return_value_Pa_GetHostApiInfo$2->defaultOutputDevice)
+      const struct PaHostApiInfo *return_value_Pa_GetHostApiInfo_2;
+      return_value_Pa_GetHostApiInfo_2=Pa_GetHostApiInfo(devinfo->hostApi);
+      if(i == return_value_Pa_GetHostApiInfo_2->defaultOutputDevice)
       {
-        scan_audio_output$$1$$outdev = i;
+        scan_audio_output__1__outdev = i;
         break;
       }
 
     }
 
   }
-  return scan_audio_output$$1$$outdev;
+  return scan_audio_output__1__outdev;
 }
 
 // seek
@@ -5690,13 +5690,13 @@ static double seek(struct Player *player, double offset, signed int whence)
     case 2:
       loc = player->reader.metadata.duration + offset;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(loc < 0.000000)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = loc > player->reader.metadata.duration ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = loc > player->reader.metadata.duration ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (double)-1;
 
   else
@@ -5707,9 +5707,9 @@ static double seek(struct Player *player, double offset, signed int whence)
     player->buffer.out = player->buffer.begin;
     player->buffer.in = player->buffer.out;
     player->buffer.nframes = 0;
-    double return_value_seek_sound_file$2;
-    return_value_seek_sound_file$2=seek_sound_file(player->reader.sndfile, loc, 0);
-    if(IEEE_FLOAT_EQUAL(return_value_seek_sound_file$2, -1.000000))
+    double return_value_seek_sound_file_2;
+    return_value_seek_sound_file_2=seek_sound_file(player->reader.sndfile, loc, 0);
+    if(IEEE_FLOAT_EQUAL(return_value_seek_sound_file_2, -1.000000))
       return (double)-1;
 
     else
@@ -5724,7 +5724,7 @@ static double seek(struct Player *player, double offset, signed int whence)
       if(state == PLAYING)
       {
         Pa_StartStream(player->stream);
-        player->state.playback = (enum anonymous$16)PLAYING;
+        player->state.playback = (enum anonymous_16)PLAYING;
       }
 
       return loc;
@@ -5746,15 +5746,15 @@ extern void seek_playback(double offset)
 
 // seek_player
 // file player.h line 45
-extern void seek_player(struct Player *player, double offset, signed int whence, union anonymous$25 *sem)
+extern void seek_player(struct Player *player, double offset, signed int whence, union anonymous_25 *sem)
 {
-  struct anonymous$38 *msg;
+  struct anonymous_38 *msg;
   /* assertion player */
   assert(player != ((struct Player *)NULL));
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$38) /*32ul*/ );
-  msg = (struct anonymous$38 *)return_value_g_malloc$1;
-  msg->command = (enum anonymous$37)CMD_SEEK;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_38) /*32ul*/ );
+  msg = (struct anonymous_38 *)return_value_g_malloc_1;
+  msg->command = (enum anonymous_37)CMD_SEEK;
   msg->offset = offset;
   msg->whence = whence;
   msg->sem = sem;
@@ -5779,11 +5779,11 @@ extern double seek_sound_file(struct Sound_file *sndfile, double offset, signed 
 
 // set_guess
 // file test.h line 36
-extern signed int set_guess(unsigned int t, enum anonymous$14 ans)
+extern signed int set_guess(unsigned int t, enum anonymous_14 ans)
 {
-  signed int return_value_is_test_valid$1;
-  return_value_is_test_valid$1=is_test_valid();
-  if(return_value_is_test_valid$1 == 0 || !(current_test.ntrials >= t))
+  signed int return_value_is_test_valid_1;
+  return_value_is_test_valid_1=is_test_valid();
+  if(return_value_is_test_valid_1 == 0 || !(current_test.ntrials >= t))
     return -1;
 
   else
@@ -5802,33 +5802,33 @@ extern void show_decide_dialog(struct _GtkWindow *parent)
 
   else
   {
-    dialog=gtk_message_dialog_new(parent, (enum anonymous$29)GTK_DIALOG_DESTROY_WITH_PARENT, (enum anonymous$30)GTK_MESSAGE_QUESTION, (enum anonymous$31)GTK_BUTTONS_NONE, "Decide X");
-    unsigned long int return_value_gtk_window_get_type$1;
-    return_value_gtk_window_get_type$1=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_window_get_type$1);
-    gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$2, "Decision");
-    unsigned long int return_value_gtk_message_dialog_get_type$3;
-    return_value_gtk_message_dialog_get_type$3=gtk_message_dialog_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_message_dialog_get_type$3);
-    gtk_message_dialog_format_secondary_text((struct _GtkMessageDialog *)return_value_g_type_check_instance_cast$4, "Which one is X, A or B?");
-    unsigned long int return_value_gtk_dialog_get_type$5;
-    return_value_gtk_dialog_get_type$5=gtk_dialog_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type$5);
-    gtk_dialog_add_button((struct _GtkDialog *)return_value_g_type_check_instance_cast$6, "_A", 0);
-    unsigned long int return_value_gtk_dialog_get_type$7;
-    return_value_gtk_dialog_get_type$7=gtk_dialog_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type$7);
-    gtk_dialog_add_button((struct _GtkDialog *)return_value_g_type_check_instance_cast$8, "_B", 1);
-    unsigned long int return_value_gtk_dialog_get_type$9;
-    return_value_gtk_dialog_get_type$9=gtk_dialog_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-    return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type$9);
-    gtk_dialog_add_button((struct _GtkDialog *)return_value_g_type_check_instance_cast$10, "gtk-cancel", -6);
-    g_signal_connect_data((void *)dialog, "response", (void (*)(void))response_handler, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+    dialog=gtk_message_dialog_new(parent, (enum anonymous_29)GTK_DIALOG_DESTROY_WITH_PARENT, (enum anonymous_30)GTK_MESSAGE_QUESTION, (enum anonymous_31)GTK_BUTTONS_NONE, "Decide X");
+    unsigned long int return_value_gtk_window_get_type_1;
+    return_value_gtk_window_get_type_1=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_window_get_type_1);
+    gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_2, "Decision");
+    unsigned long int return_value_gtk_message_dialog_get_type_3;
+    return_value_gtk_message_dialog_get_type_3=gtk_message_dialog_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_message_dialog_get_type_3);
+    gtk_message_dialog_format_secondary_text((struct _GtkMessageDialog *)return_value_g_type_check_instance_cast_4, "Which one is X, A or B?");
+    unsigned long int return_value_gtk_dialog_get_type_5;
+    return_value_gtk_dialog_get_type_5=gtk_dialog_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type_5);
+    gtk_dialog_add_button((struct _GtkDialog *)return_value_g_type_check_instance_cast_6, "_A", 0);
+    unsigned long int return_value_gtk_dialog_get_type_7;
+    return_value_gtk_dialog_get_type_7=gtk_dialog_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type_7);
+    gtk_dialog_add_button((struct _GtkDialog *)return_value_g_type_check_instance_cast_8, "_B", 1);
+    unsigned long int return_value_gtk_dialog_get_type_9;
+    return_value_gtk_dialog_get_type_9=gtk_dialog_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+    return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type_9);
+    gtk_dialog_add_button((struct _GtkDialog *)return_value_g_type_check_instance_cast_10, "gtk-cancel", -6);
+    g_signal_connect_data((void *)dialog, "response", (void (*)(void))response_handler, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
     gtk_widget_show_all(dialog);
   }
 }
@@ -5845,11 +5845,11 @@ extern void show_main_window(void)
 
   else
   {
-    unsigned long int return_value_gtk_window_get_type$1;
-    return_value_gtk_window_get_type$1=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_window_get_type$1);
-    gtk_window_present((struct _GtkWindow *)return_value_g_type_check_instance_cast$2);
+    unsigned long int return_value_gtk_window_get_type_1;
+    return_value_gtk_window_get_type_1=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)main_window, return_value_gtk_window_get_type_1);
+    gtk_window_present((struct _GtkWindow *)return_value_g_type_check_instance_cast_2);
   }
 }
 
@@ -5865,11 +5865,11 @@ extern void show_new_test_window(void)
 
   else
   {
-    unsigned long int return_value_gtk_window_get_type$1;
-    return_value_gtk_window_get_type$1=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_window_get_type$1);
-    gtk_window_present((struct _GtkWindow *)return_value_g_type_check_instance_cast$2);
+    unsigned long int return_value_gtk_window_get_type_1;
+    return_value_gtk_window_get_type_1=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_window_get_type_1);
+    gtk_window_present((struct _GtkWindow *)return_value_g_type_check_instance_cast_2);
   }
 }
 
@@ -5881,51 +5881,51 @@ extern void show_result_window(void)
   struct _GString *gs;
   signed int i;
   signed int ncorr;
-  window$link1=gtk_window_new((enum anonymous$36)GTK_WINDOW_TOPLEVEL);
-  unsigned long int return_value_gtk_window_get_type$1;
-  return_value_gtk_window_get_type$1=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)window$link1, return_value_gtk_window_get_type$1);
-  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$2, "Test results");
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$3;
-  return_value_g_type_check_instance_cast$3=g_type_check_instance_cast((struct _GTypeInstance *)window$link1, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$3, "delete_event", (void (*)(void))delete_event_handler$link1, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
+  window_link1=gtk_window_new((enum anonymous_36)GTK_WINDOW_TOPLEVEL);
+  unsigned long int return_value_gtk_window_get_type_1;
+  return_value_gtk_window_get_type_1=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)window_link1, return_value_gtk_window_get_type_1);
+  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_2, "Test results");
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_3;
+  return_value_g_type_check_instance_cast_3=g_type_check_instance_cast((struct _GTypeInstance *)window_link1, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_3, "delete_event", (void (*)(void))delete_event_handler_link1, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
   close_button=gtk_button_new_from_stock("gtk-close");
-  g_signal_connect_data((void *)close_button, "clicked", (void (*)(void))close_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$24)0);
-  enum anonymous$14 return_value_get_answer$4;
-  return_value_get_answer$4=get_answer((unsigned int)0);
-  enum anonymous$14 return_value_get_guess$5;
-  return_value_get_guess$5=get_guess((unsigned int)0);
-  if(return_value_get_answer$4 == return_value_get_guess$5)
+  g_signal_connect_data((void *)close_button, "clicked", (void (*)(void))close_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_24)0);
+  enum anonymous_14 return_value_get_answer_4;
+  return_value_get_answer_4=get_answer((unsigned int)0);
+  enum anonymous_14 return_value_get_guess_5;
+  return_value_get_guess_5=get_guess((unsigned int)0);
+  if(return_value_get_answer_4 == return_value_get_guess_5)
     ncorr = 1;
 
   else
     ncorr = 0;
-  enum anonymous$14 return_value_get_answer$6;
-  return_value_get_answer$6=get_answer((unsigned int)0);
-  as=g_string_new((signed int)return_value_get_answer$6 == SAMPLE_A ? "<tt>A" : "<tt>B");
-  enum anonymous$14 return_value_get_guess$7;
-  return_value_get_guess$7=get_guess((unsigned int)0);
-  gs=g_string_new((signed int)return_value_get_guess$7 == SAMPLE_A ? "<tt>A" : "<tt>B");
+  enum anonymous_14 return_value_get_answer_6;
+  return_value_get_answer_6=get_answer((unsigned int)0);
+  as=g_string_new((signed int)return_value_get_answer_6 == SAMPLE_A ? "<tt>A" : "<tt>B");
+  enum anonymous_14 return_value_get_guess_7;
+  return_value_get_guess_7=get_guess((unsigned int)0);
+  gs=g_string_new((signed int)return_value_get_guess_7 == SAMPLE_A ? "<tt>A" : "<tt>B");
   i = 1;
-  signed int return_value_num_test_trials$8;
+  signed int return_value_num_test_trials_8;
   do
   {
-    return_value_num_test_trials$8=num_test_trials();
-    if(i >= return_value_num_test_trials$8)
+    return_value_num_test_trials_8=num_test_trials();
+    if(i >= return_value_num_test_trials_8)
       break;
 
-    enum anonymous$14 return_value_get_answer$9;
-    return_value_get_answer$9=get_answer((unsigned int)i);
-    g_string_append(as, (signed int)return_value_get_answer$9 == SAMPLE_A ? " A" : " B");
-    enum anonymous$14 return_value_get_guess$10;
-    return_value_get_guess$10=get_guess((unsigned int)i);
-    g_string_append(gs, (signed int)return_value_get_guess$10 == SAMPLE_A ? " A" : " B");
-    enum anonymous$14 return_value_get_answer$11;
-    return_value_get_answer$11=get_answer((unsigned int)i);
-    enum anonymous$14 return_value_get_guess$12;
-    return_value_get_guess$12=get_guess((unsigned int)i);
-    if(return_value_get_answer$11 == return_value_get_guess$12)
+    enum anonymous_14 return_value_get_answer_9;
+    return_value_get_answer_9=get_answer((unsigned int)i);
+    g_string_append(as, (signed int)return_value_get_answer_9 == SAMPLE_A ? " A" : " B");
+    enum anonymous_14 return_value_get_guess_10;
+    return_value_get_guess_10=get_guess((unsigned int)i);
+    g_string_append(gs, (signed int)return_value_get_guess_10 == SAMPLE_A ? " A" : " B");
+    enum anonymous_14 return_value_get_answer_11;
+    return_value_get_answer_11=get_answer((unsigned int)i);
+    enum anonymous_14 return_value_get_guess_12;
+    return_value_get_guess_12=get_guess((unsigned int)i);
+    if(return_value_get_answer_11 == return_value_get_guess_12)
       ncorr = ncorr + 1;
 
     i = i + 1;
@@ -5934,108 +5934,108 @@ extern void show_result_window(void)
   g_string_append(as, "</tt>");
   g_string_append(gs, "</tt>");
   answers=gtk_label_new((const char *)(void *)0);
-  unsigned long int return_value_gtk_label_get_type$13;
-  return_value_gtk_label_get_type$13=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)answers, return_value_gtk_label_get_type$13);
-  gtk_label_set_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$14, as->str);
+  unsigned long int return_value_gtk_label_get_type_13;
+  return_value_gtk_label_get_type_13=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)answers, return_value_gtk_label_get_type_13);
+  gtk_label_set_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_14, as->str);
   guesses=gtk_label_new((const char *)(void *)0);
-  unsigned long int return_value_gtk_label_get_type$15;
-  return_value_gtk_label_get_type$15=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)guesses, return_value_gtk_label_get_type$15);
-  gtk_label_set_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$16, gs->str);
+  unsigned long int return_value_gtk_label_get_type_15;
+  return_value_gtk_label_get_type_15=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)guesses, return_value_gtk_label_get_type_15);
+  gtk_label_set_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_16, gs->str);
   answers_box=gtk_hbox_new(0, 5);
   guesses_box=gtk_hbox_new(0, 5);
   ncorr_box=gtk_hbox_new(0, 5);
   pval_box=gtk_hbox_new(0, 5);
   close_box=gtk_hbox_new(0, 5);
-  unsigned long int return_value_gtk_box_get_type$17;
-  return_value_gtk_box_get_type$17=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)answers_box, return_value_gtk_box_get_type$17);
-  struct _GtkWidget *return_value_gtk_label_new$19;
-  return_value_gtk_label_new$19=gtk_label_new("Correct decisions:");
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$18, return_value_gtk_label_new$19, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$20;
-  return_value_gtk_box_get_type$20=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$21;
-  return_value_g_type_check_instance_cast$21=g_type_check_instance_cast((struct _GTypeInstance *)answers_box, return_value_gtk_box_get_type$20);
-  gtk_box_pack_end((struct _GtkBox *)return_value_g_type_check_instance_cast$21, answers, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$22;
-  return_value_gtk_box_get_type$22=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$23;
-  return_value_g_type_check_instance_cast$23=g_type_check_instance_cast((struct _GTypeInstance *)guesses_box, return_value_gtk_box_get_type$22);
-  struct _GtkWidget *return_value_gtk_label_new$24;
-  return_value_gtk_label_new$24=gtk_label_new("Your decisions:");
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$23, return_value_gtk_label_new$24, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$25;
-  return_value_gtk_box_get_type$25=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$26;
-  return_value_g_type_check_instance_cast$26=g_type_check_instance_cast((struct _GTypeInstance *)guesses_box, return_value_gtk_box_get_type$25);
-  gtk_box_pack_end((struct _GtkBox *)return_value_g_type_check_instance_cast$26, guesses, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$27;
-  return_value_gtk_box_get_type$27=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-  return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)ncorr_box, return_value_gtk_box_get_type$27);
-  char *return_value_g_strdup_printf$29;
-  return_value_g_strdup_printf$29=g_strdup_printf("Number of correct decisions: %d", ncorr);
-  struct _GtkWidget *return_value_gtk_label_new$30;
-  return_value_gtk_label_new$30=gtk_label_new(return_value_g_strdup_printf$29);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$28, return_value_gtk_label_new$30, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$31;
-  return_value_gtk_box_get_type$31=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$32;
-  return_value_g_type_check_instance_cast$32=g_type_check_instance_cast((struct _GTypeInstance *)pval_box, return_value_gtk_box_get_type$31);
-  double return_value_calculate_p_value$33;
-  return_value_calculate_p_value$33=calculate_p_value();
-  char *return_value_g_strdup_printf$34;
-  return_value_g_strdup_printf$34=g_strdup_printf("p-value: %f", return_value_calculate_p_value$33);
-  struct _GtkWidget *return_value_gtk_label_new$35;
-  return_value_gtk_label_new$35=gtk_label_new(return_value_g_strdup_printf$34);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$32, return_value_gtk_label_new$35, 0, 0, (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$36;
-  return_value_gtk_box_get_type$36=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$37;
-  return_value_g_type_check_instance_cast$37=g_type_check_instance_cast((struct _GTypeInstance *)close_box, return_value_gtk_box_get_type$36);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$37, close_button, (signed int)!(0 != 0), 0, (unsigned int)0);
-  main_box$link1=gtk_vbox_new(0, 5);
-  unsigned long int return_value_gtk_container_get_type$38;
-  return_value_gtk_container_get_type$38=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$39;
-  return_value_g_type_check_instance_cast$39=g_type_check_instance_cast((struct _GTypeInstance *)main_box$link1, return_value_gtk_container_get_type$38);
-  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast$39, (unsigned int)10);
-  unsigned long int return_value_gtk_box_get_type$40;
-  return_value_gtk_box_get_type$40=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$41;
-  return_value_g_type_check_instance_cast$41=g_type_check_instance_cast((struct _GTypeInstance *)main_box$link1, return_value_gtk_box_get_type$40);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$41, answers_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$42;
-  return_value_gtk_box_get_type$42=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$43;
-  return_value_g_type_check_instance_cast$43=g_type_check_instance_cast((struct _GTypeInstance *)main_box$link1, return_value_gtk_box_get_type$42);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$43, guesses_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$44;
-  return_value_gtk_box_get_type$44=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$45;
-  return_value_g_type_check_instance_cast$45=g_type_check_instance_cast((struct _GTypeInstance *)main_box$link1, return_value_gtk_box_get_type$44);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$45, ncorr_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$46;
-  return_value_gtk_box_get_type$46=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$47;
-  return_value_g_type_check_instance_cast$47=g_type_check_instance_cast((struct _GTypeInstance *)main_box$link1, return_value_gtk_box_get_type$46);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$47, pval_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_box_get_type$48;
-  return_value_gtk_box_get_type$48=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$49;
-  return_value_g_type_check_instance_cast$49=g_type_check_instance_cast((struct _GTypeInstance *)main_box$link1, return_value_gtk_box_get_type$48);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$49, close_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_container_get_type$50;
-  return_value_gtk_container_get_type$50=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$51;
-  return_value_g_type_check_instance_cast$51=g_type_check_instance_cast((struct _GTypeInstance *)window$link1, return_value_gtk_container_get_type$50);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$51, main_box$link1);
-  gtk_widget_show_all(window$link1);
+  unsigned long int return_value_gtk_box_get_type_17;
+  return_value_gtk_box_get_type_17=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)answers_box, return_value_gtk_box_get_type_17);
+  struct _GtkWidget *return_value_gtk_label_new_19;
+  return_value_gtk_label_new_19=gtk_label_new("Correct decisions:");
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_18, return_value_gtk_label_new_19, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_20;
+  return_value_gtk_box_get_type_20=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_21;
+  return_value_g_type_check_instance_cast_21=g_type_check_instance_cast((struct _GTypeInstance *)answers_box, return_value_gtk_box_get_type_20);
+  gtk_box_pack_end((struct _GtkBox *)return_value_g_type_check_instance_cast_21, answers, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_22;
+  return_value_gtk_box_get_type_22=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_23;
+  return_value_g_type_check_instance_cast_23=g_type_check_instance_cast((struct _GTypeInstance *)guesses_box, return_value_gtk_box_get_type_22);
+  struct _GtkWidget *return_value_gtk_label_new_24;
+  return_value_gtk_label_new_24=gtk_label_new("Your decisions:");
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_23, return_value_gtk_label_new_24, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_25;
+  return_value_gtk_box_get_type_25=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_26;
+  return_value_g_type_check_instance_cast_26=g_type_check_instance_cast((struct _GTypeInstance *)guesses_box, return_value_gtk_box_get_type_25);
+  gtk_box_pack_end((struct _GtkBox *)return_value_g_type_check_instance_cast_26, guesses, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_27;
+  return_value_gtk_box_get_type_27=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+  return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)ncorr_box, return_value_gtk_box_get_type_27);
+  char *return_value_g_strdup_printf_29;
+  return_value_g_strdup_printf_29=g_strdup_printf("Number of correct decisions: %d", ncorr);
+  struct _GtkWidget *return_value_gtk_label_new_30;
+  return_value_gtk_label_new_30=gtk_label_new(return_value_g_strdup_printf_29);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_28, return_value_gtk_label_new_30, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_31;
+  return_value_gtk_box_get_type_31=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_32;
+  return_value_g_type_check_instance_cast_32=g_type_check_instance_cast((struct _GTypeInstance *)pval_box, return_value_gtk_box_get_type_31);
+  double return_value_calculate_p_value_33;
+  return_value_calculate_p_value_33=calculate_p_value();
+  char *return_value_g_strdup_printf_34;
+  return_value_g_strdup_printf_34=g_strdup_printf("p-value: %f", return_value_calculate_p_value_33);
+  struct _GtkWidget *return_value_gtk_label_new_35;
+  return_value_gtk_label_new_35=gtk_label_new(return_value_g_strdup_printf_34);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_32, return_value_gtk_label_new_35, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_36;
+  return_value_gtk_box_get_type_36=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_37;
+  return_value_g_type_check_instance_cast_37=g_type_check_instance_cast((struct _GTypeInstance *)close_box, return_value_gtk_box_get_type_36);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_37, close_button, (signed int)!(0 != 0), 0, (unsigned int)0);
+  main_box_link1=gtk_vbox_new(0, 5);
+  unsigned long int return_value_gtk_container_get_type_38;
+  return_value_gtk_container_get_type_38=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_39;
+  return_value_g_type_check_instance_cast_39=g_type_check_instance_cast((struct _GTypeInstance *)main_box_link1, return_value_gtk_container_get_type_38);
+  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast_39, (unsigned int)10);
+  unsigned long int return_value_gtk_box_get_type_40;
+  return_value_gtk_box_get_type_40=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_41;
+  return_value_g_type_check_instance_cast_41=g_type_check_instance_cast((struct _GTypeInstance *)main_box_link1, return_value_gtk_box_get_type_40);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_41, answers_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_42;
+  return_value_gtk_box_get_type_42=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_43;
+  return_value_g_type_check_instance_cast_43=g_type_check_instance_cast((struct _GTypeInstance *)main_box_link1, return_value_gtk_box_get_type_42);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_43, guesses_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_44;
+  return_value_gtk_box_get_type_44=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_45;
+  return_value_g_type_check_instance_cast_45=g_type_check_instance_cast((struct _GTypeInstance *)main_box_link1, return_value_gtk_box_get_type_44);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_45, ncorr_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_46;
+  return_value_gtk_box_get_type_46=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_47;
+  return_value_g_type_check_instance_cast_47=g_type_check_instance_cast((struct _GTypeInstance *)main_box_link1, return_value_gtk_box_get_type_46);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_47, pval_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_48;
+  return_value_gtk_box_get_type_48=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_49;
+  return_value_g_type_check_instance_cast_49=g_type_check_instance_cast((struct _GTypeInstance *)main_box_link1, return_value_gtk_box_get_type_48);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_49, close_box, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_container_get_type_50;
+  return_value_gtk_container_get_type_50=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_51;
+  return_value_g_type_check_instance_cast_51=g_type_check_instance_cast((struct _GTypeInstance *)window_link1, return_value_gtk_container_get_type_50);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_51, main_box_link1);
+  gtk_widget_show_all(window_link1);
 }
 
 // start_playback
@@ -6049,7 +6049,7 @@ extern void start_playback(signed int sample, double location)
   else
     pl = player_b;
   stop_playback();
-  seek_player(pl, location, 0, (union anonymous$25 *)(void *)0);
+  seek_player(pl, location, 0, (union anonymous_25 *)(void *)0);
   start_player(pl, &semaphore);
   current_player = pl;
   sem_wait(&semaphore);
@@ -6057,15 +6057,15 @@ extern void start_playback(signed int sample, double location)
 
 // start_player
 // file player.h line 42
-extern void start_player(struct Player *player, union anonymous$25 *sem)
+extern void start_player(struct Player *player, union anonymous_25 *sem)
 {
-  struct anonymous$38 *msg;
+  struct anonymous_38 *msg;
   /* assertion player */
   assert(player != ((struct Player *)NULL));
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$38) /*32ul*/ );
-  msg = (struct anonymous$38 *)return_value_g_malloc$1;
-  msg->command = (enum anonymous$37)CMD_PLAY;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_38) /*32ul*/ );
+  msg = (struct anonymous_38 *)return_value_g_malloc_1;
+  msg->command = (enum anonymous_37)CMD_PLAY;
   msg->sem = sem;
   g_async_queue_push(player->controller.messages, (void *)msg);
 }
@@ -6085,15 +6085,15 @@ extern void stop_playback(void)
 
 // stop_player
 // file player.h line 43
-extern void stop_player(struct Player *player, union anonymous$25 *sem)
+extern void stop_player(struct Player *player, union anonymous_25 *sem)
 {
-  struct anonymous$38 *msg;
+  struct anonymous_38 *msg;
   /* assertion player */
   assert(player != ((struct Player *)NULL));
-  void *return_value_g_malloc$1;
-  return_value_g_malloc$1=g_malloc(sizeof(struct anonymous$38) /*32ul*/ );
-  msg = (struct anonymous$38 *)return_value_g_malloc$1;
-  msg->command = (enum anonymous$37)CMD_STOP;
+  void *return_value_g_malloc_1;
+  return_value_g_malloc_1=g_malloc(sizeof(struct anonymous_38) /*32ul*/ );
+  msg = (struct anonymous_38 *)return_value_g_malloc_1;
+  msg->command = (enum anonymous_37)CMD_STOP;
   msg->sem = sem;
   g_async_queue_push(player->controller.messages, (void *)msg);
 }
@@ -6114,7 +6114,7 @@ static signed int stop_reader_thread(struct Player *player)
   else
   {
     signed int space;
-    player->reader.control = (enum anonymous$40)READER_STOP;
+    player->reader.control = (enum anonymous_40)READER_STOP;
     sem_getvalue(&player->buffer.space, &space);
     /* assertion space == 0 || space == 1 */
     assert(space == 0 || space == 1);
@@ -6136,9 +6136,9 @@ static signed int stream_callback(const void *input, void *output, unsigned long
   signed int nchannels = player->reader.metadata.channels;
   float *outbuf = (float *)output;
   player->nplayed = player->nplayed + (signed int)nframes;
-  float *tmp_post$1;
-  float *tmp_post$2;
-  float *tmp_post$3;
+  float *tmp_post_1;
+  float *tmp_post_2;
+  float *tmp_post_3;
   while(nframes >= 1ul)
   {
     unsigned long int i;
@@ -6148,7 +6148,7 @@ static signed int stream_callback(const void *input, void *output, unsigned long
     if(player->buffer.out == player->buffer.in)
     {
       if(player->reader.is_eof == 0)
-        g_log((char *)0, (enum anonymous$50)G_LOG_LEVEL_WARNING, "buffer underflow");
+        g_log((char *)0, (enum anonymous_50)G_LOG_LEVEL_WARNING, "buffer underflow");
 
       else
         eof = (char)1;
@@ -6157,9 +6157,9 @@ static signed int stream_callback(const void *input, void *output, unsigned long
         i = (unsigned long int)0;
         for( ; !(i >= (unsigned long int)nchannels); i = i + 1ul)
         {
-          tmp_post$1 = outbuf;
+          tmp_post_1 = outbuf;
           outbuf = outbuf + 1l;
-          *tmp_post$1 = -1.0f;
+          *tmp_post_1 = -1.0f;
         }
       }
     }
@@ -6169,11 +6169,11 @@ static signed int stream_callback(const void *input, void *output, unsigned long
       i = (unsigned long int)0;
       for( ; !(i >= (unsigned long int)nchannels); i = i + 1ul)
       {
-        tmp_post$2 = outbuf;
+        tmp_post_2 = outbuf;
         outbuf = outbuf + 1l;
-        tmp_post$3 = player->buffer.out;
+        tmp_post_3 = player->buffer.out;
         player->buffer.out = player->buffer.out + 1l;
-        *tmp_post$2 = *tmp_post$3;
+        *tmp_post_2 = *tmp_post_3;
       }
       player->buffer.nframes = player->buffer.nframes - 1;
       nframes = nframes - 1ul;
@@ -6203,7 +6203,7 @@ static signed int stream_callback(const void *input, void *output, unsigned long
 static void stream_finished_callback(void *userdata)
 {
   struct Player *player = (struct Player *)userdata;
-  player->state.playback = (enum anonymous$16)STOPPED;
+  player->state.playback = (enum anonymous_16)STOPPED;
 }
 
 // terminate_reader_thread
@@ -6214,7 +6214,7 @@ static void terminate_reader_thread(struct Player *player)
   /* assertion player->reader.control != READER_TERM */
   assert((signed int)player->reader.control != READER_TERM);
   pthread_mutex_lock(&player->reader.control_cond_mutex);
-  player->reader.control = (enum anonymous$40)READER_TERM;
+  player->reader.control = (enum anonymous_40)READER_TERM;
   sem_getvalue(&player->buffer.space, &space);
   /* assertion space == 0 || space == 1 */
   assert(space == 0 || space == 1);
@@ -6234,9 +6234,9 @@ extern void ui_main(signed int argc, char **argv)
   gtk_init(&argc, &argv);
   if(argc >= 3)
   {
-    signed int return_value_init_test$1;
-    return_value_init_test$1=init_test(argv[(signed long int)1], argv[(signed long int)2], (unsigned int)ntrials, outdev);
-    switch(return_value_init_test$1)
+    signed int return_value_init_test_1;
+    return_value_init_test_1=init_test(argv[(signed long int)1], argv[(signed long int)2], (unsigned int)ntrials, outdev);
+    switch(return_value_init_test_1)
     {
       case 0:
       {
@@ -6292,9 +6292,9 @@ static void update_location(void)
     timeout_id = (unsigned int)0;
   }
 
-  signed int return_value_recurrent_update_location$1;
-  return_value_recurrent_update_location$1=recurrent_update_location((void *)0);
-  if(!(return_value_recurrent_update_location$1 == 0))
+  signed int return_value_recurrent_update_location_1;
+  return_value_recurrent_update_location_1=recurrent_update_location((void *)0);
+  if(!(return_value_recurrent_update_location_1 == 0))
     timeout_id=g_timeout_add((unsigned int)UPDATE_LOCATION_TIMEOUT, recurrent_update_location, (void *)0);
 
 }
@@ -6327,9 +6327,9 @@ extern void update_main_window(void)
   else
     if(current_trial == 0)
     {
-      signed int return_value_num_test_trials$1;
-      return_value_num_test_trials$1=num_test_trials();
-      g_string_printf(label, "Test trial 1 of %d", return_value_num_test_trials$1);
+      signed int return_value_num_test_trials_1;
+      return_value_num_test_trials_1=num_test_trials();
+      g_string_printf(label, "Test trial 1 of %d", return_value_num_test_trials_1);
       g_string_printf(meta_a, "Sample A: '%s', %d Hz, %d bits, %d channels", basename_a, metadata_a.rate, metadata_a.bits, metadata_a.channels);
       g_string_printf(meta_b, "Sample B: '%s', %d Hz, %d bits, %d channels", basename_b, metadata_b.rate, metadata_b.bits, metadata_b.channels);
       g_object_set((void *)adjustment, "upper", (double)metadata_a.duration, (const void *)"value", 0.0, (void *)0);
@@ -6338,24 +6338,24 @@ extern void update_main_window(void)
 
     else
     {
-      signed int return_value_num_test_trials$2;
-      return_value_num_test_trials$2=num_test_trials();
-      g_string_printf(label, "Test trial %d of %d", current_trial + 1, return_value_num_test_trials$2);
+      signed int return_value_num_test_trials_2;
+      return_value_num_test_trials_2=num_test_trials();
+      g_string_printf(label, "Test trial %d of %d", current_trial + 1, return_value_num_test_trials_2);
     }
-  unsigned long int return_value_gtk_label_get_type$3;
-  return_value_gtk_label_get_type$3=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)trial_label, return_value_gtk_label_get_type$3);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$4, label->str);
-  unsigned long int return_value_gtk_label_get_type$5;
-  return_value_gtk_label_get_type$5=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)meta_a_label, return_value_gtk_label_get_type$5);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$6, meta_a->str);
-  unsigned long int return_value_gtk_label_get_type$7;
-  return_value_gtk_label_get_type$7=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)meta_b_label, return_value_gtk_label_get_type$7);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$8, meta_b->str);
+  unsigned long int return_value_gtk_label_get_type_3;
+  return_value_gtk_label_get_type_3=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)trial_label, return_value_gtk_label_get_type_3);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_4, label->str);
+  unsigned long int return_value_gtk_label_get_type_5;
+  return_value_gtk_label_get_type_5=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)meta_a_label, return_value_gtk_label_get_type_5);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_6, meta_a->str);
+  unsigned long int return_value_gtk_label_get_type_7;
+  return_value_gtk_label_get_type_7=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)meta_b_label, return_value_gtk_label_get_type_7);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_8, meta_b->str);
 }
 

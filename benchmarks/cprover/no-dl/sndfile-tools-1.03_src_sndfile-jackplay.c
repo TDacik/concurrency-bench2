@@ -1,22 +1,22 @@
-// tag-#anon#ST[*{S8}$S8$'buf'||U64'len'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||U64'len'|]
 // file /usr/include/jack/ringbuffer.h line 44
 struct anonymous;
 
-// tag-#anon#ST[*{S8}$S8$'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'_pad0'|]
 // file /usr/include/jack/ringbuffer.h line 51
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-SF_INFO
 // file /usr/include/sndfile.h line 328
@@ -112,19 +112,19 @@ const char * jack_port_name(const struct _jack_port *);
 struct _jack_port * jack_port_register(struct _jack_client *, const char *, const char *, unsigned long int, unsigned long int);
 // jack_ringbuffer_create
 // file /usr/include/jack/ringbuffer.h line 72
-struct anonymous$2 * jack_ringbuffer_create(unsigned long int);
+struct anonymous_2 * jack_ringbuffer_create(unsigned long int);
 // jack_ringbuffer_free
 // file /usr/include/jack/ringbuffer.h line 80
-void jack_ringbuffer_free(struct anonymous$2 *);
+void jack_ringbuffer_free(struct anonymous_2 *);
 // jack_ringbuffer_get_write_vector
 // file /usr/include/jack/ringbuffer.h line 124
-void jack_ringbuffer_get_write_vector(const struct anonymous$2 *, struct anonymous *);
+void jack_ringbuffer_get_write_vector(const struct anonymous_2 *, struct anonymous *);
 // jack_ringbuffer_read
 // file /usr/include/jack/ringbuffer.h line 137
-unsigned long int jack_ringbuffer_read(struct anonymous$2 *, char *, unsigned long int);
+unsigned long int jack_ringbuffer_read(struct anonymous_2 *, char *, unsigned long int);
 // jack_ringbuffer_write_advance
 // file /usr/include/jack/ringbuffer.h line 219
-void jack_ringbuffer_write_advance(struct anonymous$2 *, unsigned long int);
+void jack_ringbuffer_write_advance(struct anonymous_2 *, unsigned long int);
 // jack_set_process_callback
 // file /usr/include/jack/jack.h line 342
 signed int jack_set_process_callback(struct _jack_client *, signed int (*)(unsigned int, void *), void *);
@@ -142,22 +142,22 @@ static void print_time(unsigned int pos, signed int jack_sr);
 static signed int process(unsigned int nframes, void *arg);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$3 *);
+extern signed int pthread_mutex_trylock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_setcanceltype
 // file /usr/include/pthread.h line 512
 extern signed int pthread_setcanceltype(signed int, signed int *);
@@ -188,7 +188,7 @@ struct anonymous
   unsigned long int len;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // buf
   char *buf;
@@ -204,7 +204,7 @@ struct anonymous$2
   signed int mlocked;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -224,10 +224,10 @@ struct anonymous$0
   unsigned int __broadcast_seq;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
@@ -262,7 +262,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -391,13 +391,13 @@ union pthread_attr_t
 
 // data_ready
 // file src/sndfile-jackplay.c line 52
-union anonymous$1 data_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_1 data_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // disk_thread_lock
 // file src/sndfile-jackplay.c line 51
-union anonymous$3 disk_thread_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 disk_thread_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // output_port
@@ -408,7 +408,7 @@ static struct _jack_port **output_port;
 static float **outs;
 // ringbuf
 // file src/sndfile-jackplay.c line 54
-static struct anonymous$2 *ringbuf;
+static struct anonymous_2 *ringbuf;
 // sample_size
 // file src/sndfile-jackplay.c line 57
 const unsigned long int sample_size = sizeof(float) /*4ul*/ ;
@@ -441,9 +441,9 @@ static void * disk_thread(void *arg)
       if(!(vec[1l].len == 0ul))
       {
         buf_avail = (signed long int)(vec[(signed long int)1].len / bytes_per_frame);
-        signed long int return_value_sf_readf_float$1;
-        return_value_sf_readf_float$1=sf_readf_float(info->sndfile, (float *)vec[(signed long int)1].buf, buf_avail);
-        read_frames = read_frames + return_value_sf_readf_float$1;
+        signed long int return_value_sf_readf_float_1;
+        return_value_sf_readf_float_1=sf_readf_float(info->sndfile, (float *)vec[(signed long int)1].buf, buf_avail);
+        read_frames = read_frames + return_value_sf_readf_float_1;
       }
 
     }
@@ -495,9 +495,9 @@ signed int main(signed int narg, char **args)
 
     else
     {
-      unsigned int return_value_jack_get_sample_rate$1;
-      return_value_jack_get_sample_rate$1=jack_get_sample_rate(client);
-      jack_sr = (signed int)return_value_jack_get_sample_rate$1;
+      unsigned int return_value_jack_get_sample_rate_1;
+      return_value_jack_get_sample_rate_1=jack_get_sample_rate(client);
+      jack_sr = (signed int)return_value_jack_get_sample_rate_1;
       sndfileinfo.format = 0;
       sndfile=sf_open(args[(signed long int)1], 16, &sndfileinfo);
       if(sndfile == ((struct SNDFILE_tag *)NULL))
@@ -524,12 +524,12 @@ signed int main(signed int narg, char **args)
         info.pos = (unsigned int)0;
         jack_set_process_callback(client, process, (void *)&info);
         jack_on_shutdown(client, jack_shutdown, NULL);
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)sndfileinfo.channels, sizeof(struct _jack_port *) /*8ul*/ );
-        output_port = (struct _jack_port **)return_value_calloc$2;
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc((unsigned long int)sndfileinfo.channels, sizeof(float *) /*8ul*/ );
-        outs = (float **)return_value_calloc$3;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)sndfileinfo.channels, sizeof(struct _jack_port *) /*8ul*/ );
+        output_port = (struct _jack_port **)return_value_calloc_2;
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc((unsigned long int)sndfileinfo.channels, sizeof(float *) /*8ul*/ );
+        outs = (float **)return_value_calloc_3;
         i = 0;
         for( ; !(i >= sndfileinfo.channels); i = i + 1)
         {
@@ -539,9 +539,9 @@ signed int main(signed int narg, char **args)
         }
         ringbuf=jack_ringbuffer_create(sizeof(float) /*4ul*/  * (unsigned long int)(1 << 16));
         memset((void *)ringbuf->buf, 0, ringbuf->size);
-        signed int return_value_jack_activate$4;
-        return_value_jack_activate$4=jack_activate(client);
-        if(!(return_value_jack_activate$4 == 0))
+        signed int return_value_jack_activate_4;
+        return_value_jack_activate_4=jack_activate(client);
+        if(!(return_value_jack_activate_4 == 0))
         {
           fprintf(stderr, "Cannot activate client.\n");
           return 1;
@@ -552,14 +552,14 @@ signed int main(signed int narg, char **args)
           i = 0;
           for( ; !(i >= sndfileinfo.channels); i = i + 1)
           {
-            char main$$1$$6$$1$$name[64l];
-            snprintf(main$$1$$6$$1$$name, sizeof(char [64l]) /*64ul*/ , "alsa_pcm:playback_%d", i + 1);
-            const char *return_value_jack_port_name$5;
-            return_value_jack_port_name$5=jack_port_name(output_port[(signed long int)i]);
-            signed int return_value_jack_connect$6;
-            return_value_jack_connect$6=jack_connect(client, return_value_jack_port_name$5, main$$1$$6$$1$$name);
-            if(!(return_value_jack_connect$6 == 0))
-              fprintf(stderr, "Cannot connect output port %d (%s).\n", i, (const void *)main$$1$$6$$1$$name);
+            char main__1__6__1__name[64l];
+            snprintf(main__1__6__1__name, sizeof(char [64l]) /*64ul*/ , "alsa_pcm:playback_%d", i + 1);
+            const char *return_value_jack_port_name_5;
+            return_value_jack_port_name_5=jack_port_name(output_port[(signed long int)i]);
+            signed int return_value_jack_connect_6;
+            return_value_jack_connect_6=jack_connect(client, return_value_jack_port_name_5, main__1__6__1__name);
+            if(!(return_value_jack_connect_6 == 0))
+              fprintf(stderr, "Cannot connect output port %d (%s).\n", i, (const void *)main__1__6__1__name);
 
           }
           pthread_create(&info.thread_id, (const union pthread_attr_t *)(void *)0, disk_thread, (void *)&info);
@@ -589,9 +589,9 @@ static void print_time(unsigned int pos, signed int jack_sr)
 {
   float sec = (float)((double)pos / (1.0 * (double)jack_sr));
   signed int min = (signed int)((double)sec / 60.0);
-  double return_value_fmod$1;
-  return_value_fmod$1=fmod((double)sec, 60.0);
-  fprintf(stderr, "%02d:%05.2f", min, return_value_fmod$1);
+  double return_value_fmod_1;
+  return_value_fmod_1=fmod((double)sec, 60.0);
+  fprintf(stderr, "%02d:%05.2f", min, return_value_fmod_1);
 }
 
 // process
@@ -599,11 +599,11 @@ static void print_time(unsigned int pos, signed int jack_sr)
 static signed int process(unsigned int nframes, void *arg)
 {
   struct _thread_info *info = (struct _thread_info *)arg;
-  const signed long int info$array_size0 = (signed long int)info->channels;
-  float buf[info$array_size0];
+  const signed long int info_array_size0 = (signed long int)info->channels;
+  float buf[info_array_size0];
   unsigned int i;
   unsigned int n;
-  void *return_value_jack_port_get_buffer$1;
+  void *return_value_jack_port_get_buffer_1;
   if(info->can_process == 0)
     return 0;
 
@@ -612,8 +612,8 @@ static signed int process(unsigned int nframes, void *arg)
     n = (unsigned int)0;
     for( ; !(n >= info->channels); n = n + 1u)
     {
-      return_value_jack_port_get_buffer$1=jack_port_get_buffer(output_port[(signed long int)n], nframes);
-      outs[(signed long int)n] = (float *)return_value_jack_port_get_buffer$1;
+      return_value_jack_port_get_buffer_1=jack_port_get_buffer(output_port[(signed long int)n], nframes);
+      outs[(signed long int)n] = (float *)return_value_jack_port_get_buffer_1;
     }
     i = (unsigned int)0;
     for( ; !(i >= nframes); i = i + 1u)
@@ -635,9 +635,9 @@ static signed int process(unsigned int nframes, void *arg)
       for( ; !(n >= info->channels); n = n + 1u)
         outs[(signed long int)n][(signed long int)i] = buf[(signed long int)n];
     }
-    signed int return_value_pthread_mutex_trylock$2;
-    return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&disk_thread_lock);
-    if(return_value_pthread_mutex_trylock$2 == 0)
+    signed int return_value_pthread_mutex_trylock_2;
+    return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&disk_thread_lock);
+    if(return_value_pthread_mutex_trylock_2 == 0)
     {
       pthread_cond_signal(&data_ready);
       pthread_mutex_unlock(&disk_thread_lock);

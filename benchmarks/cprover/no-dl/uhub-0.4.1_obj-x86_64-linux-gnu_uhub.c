@@ -1,22 +1,22 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
@@ -24,83 +24,83 @@ struct anonymous;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[S32'integer'||*{S8}$S8$'string'||*{SYM#tag-hub_user#}$SYM#tag-hub_user#$'user'||*{SYM#tag-ip_addr_encap#}$SYM#tag-ip_addr_encap#$'address'||*{SYM#tag-ip_range#}$SYM#tag-ip_range#$'range'||ENtag-auth_credentials#{U32}$U32$'credentials'||*{SYM#tag-command_handle#}$SYM#tag-command_handle#$'command'|]
+// tag-#anon#UN[S32'integer'||*{S8}_S8_'string'||*{SYM#tag-hub_user#}_SYM#tag-hub_user#_'user'||*{SYM#tag-ip_addr_encap#}_SYM#tag-ip_addr_encap#_'address'||*{SYM#tag-ip_range#}_SYM#tag-ip_range#_'range'||ENtag-auth_credentials#{U32}_U32_'credentials'||*{SYM#tag-command_handle#}_SYM#tag-command_handle#_'command'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/command_parser.h line 74
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[S32'integer'||*{S8}$S8$'string'||*{SYM#tag-plugin_user#}$SYM#tag-plugin_user#$'user'||*{SYM#tag-ip_addr_encap#}$SYM#tag-ip_addr_encap#$'address'||*{SYM#tag-ip_range#}$SYM#tag-ip_range#$'range'||ENtag-auth_credentials#{U32}$U32$'credentials'|]
+// tag-#anon#UN[S32'integer'||*{S8}_S8_'string'||*{SYM#tag-plugin_user#}_SYM#tag-plugin_user#_'user'||*{SYM#tag-ip_addr_encap#}_SYM#tag-ip_addr_encap#_'address'||*{SYM#tag-ip_range#}_SYM#tag-ip_range#_'range'||ENtag-auth_credentials#{U32}_U32_'credentials'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/plugin_api/command_api.h line 41
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$20;
+union anonymous_20;
 
 // tag-#anon#UN[SYM#tag-in_addr#'in'||SYM#tag-in6_addr#'in6'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.h line 30
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-ASIdentifiers_st
 // file /usr/include/openssl/x509.h line 293
@@ -1053,7 +1053,7 @@ extern char * __strdup(const char *);
 extern char * __strndup(const char *, unsigned long int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$2, unsigned int *);
+extern signed int accept(signed int, union anonymous_2, unsigned int *);
 // acl_delete_user
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/auth.c line 306
 extern signed int acl_delete_user(struct hub_info *hub, const char *name);
@@ -1213,15 +1213,15 @@ void adc_msg_unterminate(struct adc_message *cmd);
 // add_builtin
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/commands.c line 585
 static struct command_handle * add_builtin(struct command_base *cbase, const char *prefix, const char *args, enum auth_credentials cred, signed int (*handler)(struct command_base *, struct hub_user *, struct hub_command *), const char *description);
-// add_builtin::handler$object
+// add_builtin::handler_object
 //
-signed int handler$object(struct command_base *, struct hub_user *, struct hub_command *);
+signed int handler_object(struct command_base *, struct hub_user *, struct hub_command *);
 // add_io_stats
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 81
 static void add_io_stats(struct net_ssl_openssl *handle);
-// add_io_stats$link1
+// add_io_stats_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 81
-static void add_io_stats$link1(struct net_ssl_openssl *handle$link1);
+static void add_io_stats_link1(struct net_ssl_openssl *handle_link1);
 // add_ip_range
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/auth.c line 100
 static void add_ip_range(struct linked_list *list, struct ip_range *info);
@@ -1263,7 +1263,7 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
 extern void base32_encode(const unsigned char *buffer, unsigned long int len, char *result);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$2, unsigned int);
+extern signed int bind(signed int, union anonymous_2, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -1390,15 +1390,15 @@ static signed int check_hash_tiger(const char *cid, const char *pid);
 // check_ip_mask
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 413
 static signed int check_ip_mask(const char *text_addr, signed int bits, struct ip_range *range);
-// check_ip_mask$link1
+// check_ip_mask_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 413
-static signed int check_ip_mask$link1(const char *text_addr$link1, signed int bits$link1, struct ip_range *range$link1);
+static signed int check_ip_mask_link1(const char *text_addr_link1, signed int bits_link1, struct ip_range *range_link1);
 // check_ip_range
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 432
 static signed int check_ip_range(const char *lo, const char *hi, struct ip_range *range);
-// check_ip_range$link1
+// check_ip_range_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 432
-static signed int check_ip_range$link1(const char *lo$link1, const char *hi$link1, struct ip_range *range$link1);
+static signed int check_ip_range_link1(const char *lo_link1, const char *hi_link1, struct ip_range *range_link1);
 // check_is_hub_full
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/inf.c line 587
 static signed int check_is_hub_full(struct hub_info *hub, struct hub_user *user);
@@ -1533,16 +1533,16 @@ extern void config_defaults(struct hub_config *config);
 static signed int config_parse_line(char *line, signed int line_count, void *ptr_data);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$2, unsigned int);
+extern signed int connect(signed int, union anonymous_2, unsigned int);
 // convert_support_fourcc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.c line 147
 static signed int convert_support_fourcc(signed int fourcc);
 // convert_user_type
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugincallback.c line 54
 static struct hub_user * convert_user_type(struct plugin_user *user);
-// convert_user_type$link1
+// convert_user_type_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugininvoke.c line 77
-static struct plugin_user * convert_user_type$link1(struct hub_user *user$link1);
+static struct plugin_user * convert_user_type_link1(struct hub_user *user_link1);
 // create_node
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 38
 static struct rb_node * create_node(struct rb_tree *tree, const void *key, const void *value);
@@ -1567,9 +1567,9 @@ signed int drop_privileges();
 // dummy_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 112
 static void dummy_free(void *ptr);
-// dummy_free$link1
+// dummy_free_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 112
-static void dummy_free$link1(void *ptr$link1);
+static void dummy_free_link1(void *ptr_link1);
 // dump_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/config.h line 51
 extern void dump_config(struct hub_config *config, signed int ignore_defaults);
@@ -1594,9 +1594,9 @@ static void event_queue_cleanup_callback(void *ptr);
 // event_queue_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/eventqueue.c line 30
 extern signed int event_queue_initialize(struct event_queue **queue, void (*callback)(void *, struct event_data *), void *ptr);
-// event_queue_initialize::callback$object
+// event_queue_initialize::callback_object
 //
-void callback$object(void *, struct event_data *);
+void callback_object(void *, struct event_data *);
 // event_queue_post
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/eventqueue.c line 113
 extern void event_queue_post(struct event_queue *queue, struct event_data *message);
@@ -1627,21 +1627,21 @@ static signed int file_read_line_handler(char *line, signed int count, void *ptr
 // file_read_lines
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 58
 extern signed int file_read_lines(const char *file, void *data, signed int (*handler)(char *, signed int, void *));
-// file_read_lines::handler$object
+// file_read_lines::handler_object
 //
-signed int handler$object(char *, signed int, void *);
+signed int handler_object(char *, signed int, void *);
 // find_and_remove_job
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 273
 static struct net_dns_job * find_and_remove_job(struct net_dns_job *job);
-// find_and_remove_job$link1
+// find_and_remove_job_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 273
-static struct net_dns_job * find_and_remove_job$link1(struct net_dns_job *job$link1);
+static struct net_dns_job * find_and_remove_job_link1(struct net_dns_job *job_link1);
 // find_and_remove_result
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 288
 static struct net_dns_result * find_and_remove_result(struct net_dns_job *job);
-// find_and_remove_result$link1
+// find_and_remove_result_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 288
-static struct net_dns_result * find_and_remove_result$link1(struct net_dns_job *job$link1);
+static struct net_dns_result * find_and_remove_result_link1(struct net_dns_job *job_link1);
 // flood_control_check
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/floodctl.h line 43
 signed int flood_control_check(struct flood_control *data, unsigned long int max_count, unsigned long int time_delay, signed long int now);
@@ -1669,9 +1669,9 @@ extern void free_config(struct hub_config *config);
 // free_job
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 47
 static void free_job(struct net_dns_job *job);
-// free_job$link1
+// free_job_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 47
-static void free_job$link1(struct net_dns_job *job$link1);
+static void free_job_link1(struct net_dns_job *job_link1);
 // freeaddrinfo
 // file /usr/include/netdb.h line 668
 extern void freeaddrinfo(struct addrinfo *);
@@ -1681,9 +1681,9 @@ static struct plugin_callback_data * get_callback_data(struct plugin_handle *plu
 // get_handle
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 46
 static struct net_ssl_openssl * get_handle(struct net_connection *con);
-// get_handle$link1
+// get_handle_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 46
-static struct net_ssl_openssl * get_handle$link1(struct net_connection *con$link1);
+static struct net_ssl_openssl * get_handle_link1(struct net_connection *con_link1);
 // get_internals
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/pluginloader.h line 64
 extern struct plugin_hub_internals * get_internals(struct plugin_handle *handle);
@@ -1710,7 +1710,7 @@ extern struct group * getgrent(void);
 extern signed int getopt(signed int, char * const *, const char *);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous$2, unsigned int *);
+extern signed int getpeername(signed int, union anonymous_2, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -1722,7 +1722,7 @@ extern struct passwd * getpwent(void);
 extern signed int getrlimit(enum __rlimit_resource, struct rlimit *);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$2, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_2, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1735,9 +1735,9 @@ extern signed int handle_net_write(struct hub_user *user);
 // handle_openssl_error
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 161
 static signed int handle_openssl_error(struct net_connection *con, signed int ret, enum ssl_state forced_rwstate);
-// handle_openssl_error$link1
+// handle_openssl_error_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 161
-static signed int handle_openssl_error$link1(struct net_connection *con$link1, signed int ret$link1, enum ssl_state forced_rwstate$link1);
+static signed int handle_openssl_error_link1(struct net_connection *con_link1, signed int ret_link1, enum ssl_state forced_rwstate_link1);
 // hub_command_arg_next
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/command_parser.h line 129
 extern struct hub_command_arg_data * hub_command_arg_next(struct hub_command *cmd, enum hub_command_arg_type type);
@@ -1990,9 +1990,9 @@ extern signed int ip_mask_create_right(signed int af, signed int bits, struct ip
 // is_blocked_or_interrupted
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 23
 static signed int is_blocked_or_interrupted();
-// is_blocked_or_interrupted$link1
+// is_blocked_or_interrupted_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 23
-static signed int is_blocked_or_interrupted$link1();
+static signed int is_blocked_or_interrupted_link1();
 // is_num
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 27
 extern signed int is_num(char c);
@@ -2026,18 +2026,18 @@ extern signed int is_white_space(char c);
 // job_thread_resolve_name
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 155
 static void * job_thread_resolve_name(void *ptr);
-// job_thread_resolve_name$link1
+// job_thread_resolve_name_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 155
-static void * job_thread_resolve_name$link1(void *ptr$link1);
+static void * job_thread_resolve_name_link1(void *ptr_link1);
 // list_append
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/list.h line 43
 extern void list_append(struct linked_list *list, void *data_ptr);
 // list_clear
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/list.h line 40
 extern void list_clear(struct linked_list *list, void (*free_handle)(void *));
-// list_clear::free_handle$object
+// list_clear::free_handle_object
 //
-void free_handle$object(void *);
+void free_handle_object(void *);
 // list_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/list.h line 38
 extern struct linked_list * list_create();
@@ -2149,15 +2149,15 @@ void net_backend_process_select(struct net_backend *data, signed int res);
 // net_backend_set_handlers
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/select.c line 170
 static void net_backend_set_handlers(struct net_backend_handler *handler);
-// net_backend_set_handlers$link1
+// net_backend_set_handlers_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 174
-static void net_backend_set_handlers$link1(struct net_backend_handler *handler$link1);
-// net_backend_set_handlers$link2
+static void net_backend_set_handlers_link1(struct net_backend_handler *handler_link1);
+// net_backend_set_handlers_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/select.c line 170
-static void net_backend_set_handlers$link2(struct net_backend_handler *handler$link2);
-// net_backend_set_handlers$link3
+static void net_backend_set_handlers_link2(struct net_backend_handler *handler_link2);
+// net_backend_set_handlers_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 174
-static void net_backend_set_handlers$link3(struct net_backend_handler *handler$link3);
+static void net_backend_set_handlers_link3(struct net_backend_handler *handler_link3);
 // net_backend_shutdown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.h line 71
 extern void net_backend_shutdown();
@@ -2233,30 +2233,30 @@ extern signed int net_con_get_sd(struct net_connection *con);
 // net_con_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.h line 42
 extern void net_con_initialize(struct net_connection *con, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr, signed int events);
-// net_con_initialize::callback$link1$object
+// net_con_initialize::callback_link1_object
 //
-void callback$link1$object(struct net_connection *, signed int, void *);
-// net_con_initialize::callback$object
+void callback_link1_object(struct net_connection *, signed int, void *);
+// net_con_initialize::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_initialize_epoll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 84
 void net_con_initialize_epoll(struct net_backend *data, struct net_connection *con_, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr);
-// net_con_initialize_epoll::callback$link1$object
+// net_con_initialize_epoll::callback_link1_object
 //
-void callback$link1$object(struct net_connection *, signed int, void *);
-// net_con_initialize_epoll::callback$object
+void callback_link1_object(struct net_connection *, signed int, void *);
+// net_con_initialize_epoll::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_initialize_select
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/select.c line 119
 void net_con_initialize_select(struct net_backend *data, struct net_connection *con_, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr);
-// net_con_initialize_select::callback$link1$object
+// net_con_initialize_select::callback_link1_object
 //
-void callback$link1$object(struct net_connection *, signed int, void *);
-// net_con_initialize_select::callback$object
+void callback_link1_object(struct net_connection *, signed int, void *);
+// net_con_initialize_select::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_is_ssl
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 103
 extern signed int net_con_is_ssl(struct net_connection *con);
@@ -2269,12 +2269,12 @@ extern signed long int net_con_recv(struct net_connection *con, void *buf, unsig
 // net_con_reinitialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.h line 43
 extern void net_con_reinitialize(struct net_connection *con, void (*callback)(struct net_connection *, signed int, void *), const void *ptr, signed int events);
-// net_con_reinitialize::callback$link1$object
+// net_con_reinitialize::callback_link1_object
 //
-void callback$link1$object(struct net_connection *, signed int, void *);
-// net_con_reinitialize::callback$object
+void callback_link1_object(struct net_connection *, signed int, void *);
+// net_con_reinitialize::callback_object
 //
-void callback$object(struct net_connection *, signed int, void *);
+void callback_object(struct net_connection *, signed int, void *);
 // net_con_send
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.h line 61
 extern signed long int net_con_send(struct net_connection *con, const void *buf, unsigned long int len);
@@ -2305,21 +2305,21 @@ void net_dns_destroy();
 // net_dns_gethostbyaddr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 255
 extern struct net_dns_job * net_dns_gethostbyaddr(struct ip_addr_encap *ipaddr, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr);
-// net_dns_gethostbyaddr::callback$link1$object
+// net_dns_gethostbyaddr::callback_link1_object
 //
-signed int callback$link1$object(struct net_dns_job *, struct net_dns_result *);
-// net_dns_gethostbyaddr::callback$object
+signed int callback_link1_object(struct net_dns_job *, struct net_dns_result *);
+// net_dns_gethostbyaddr::callback_object
 //
-signed int callback$object(struct net_dns_job *, struct net_dns_result *);
+signed int callback_object(struct net_dns_job *, struct net_dns_result *);
 // net_dns_gethostbyname
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 224
 extern struct net_dns_job * net_dns_gethostbyname(const char *host, signed int af, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr);
-// net_dns_gethostbyname::callback$link1$object
+// net_dns_gethostbyname::callback_link1_object
 //
-signed int callback$link1$object(struct net_dns_job *, struct net_dns_result *);
-// net_dns_gethostbyname::callback$object
+signed int callback_link1_object(struct net_dns_job *, struct net_dns_result *);
+// net_dns_gethostbyname::callback_object
 //
-signed int callback$object(struct net_dns_job *, struct net_dns_result *);
+signed int callback_object(struct net_dns_job *, struct net_dns_result *);
 // net_dns_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 83
 void net_dns_initialize();
@@ -2353,9 +2353,9 @@ extern signed int net_error();
 // net_error_out
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 117
 static void net_error_out(signed int fd, const char *func);
-// net_error_out$link1
+// net_error_out_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 117
-static void net_error_out$link1(signed int fd$link1, const char *func$link1);
+static void net_error_out_link1(signed int fd_link1, const char *func_link1);
 // net_error_string
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 75
 extern const char * net_error_string(signed int code);
@@ -2383,9 +2383,9 @@ signed long int net_get_time();
 // net_getsockopt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 162
 static signed int net_getsockopt(signed int fd, signed int level, signed int opt, void *optval, unsigned int *optlen);
-// net_getsockopt$link1
+// net_getsockopt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 162
-static signed int net_getsockopt$link1(signed int fd$link1, signed int level$link1, signed int opt$link1, void *optval$link1, unsigned int *optlen$link1);
+static signed int net_getsockopt_link1(signed int fd_link1, signed int level_link1, signed int opt_link1, void *optval_link1, unsigned int *optlen_link1);
 // net_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 44
 extern signed int net_initialize();
@@ -2431,9 +2431,9 @@ extern signed int net_set_sendbuf_size(signed int fd, unsigned long int size);
 // net_setsockopt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 145
 static signed int net_setsockopt(signed int fd, signed int level, signed int opt, const void *optval, unsigned int optlen);
-// net_setsockopt$link1
+// net_setsockopt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 145
-static signed int net_setsockopt$link1(signed int fd$link1, signed int level$link1, signed int opt$link1, const void *optval$link1, unsigned int optlen$link1);
+static signed int net_setsockopt_link1(signed int fd_link1, signed int level_link1, signed int opt_link1, const void *optval_link1, unsigned int optlen_link1);
 // net_shutdown_r
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 92
 extern signed int net_shutdown_r(signed int fd);
@@ -2518,9 +2518,9 @@ static signed int nick_length_ok(const char *nick);
 // null_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/commands.c line 34
 static void null_free(void *ptr);
-// null_free$link1
+// null_free_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 321
-static void null_free$link1(void *ptr$link1);
+static void null_free_link1(void *ptr_link1);
 // null_node_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 193
 void null_node_free(struct rb_node *n);
@@ -2611,12 +2611,12 @@ extern signed int plugin_initialize(struct hub_config *config, struct hub_info *
 // plugin_load
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/pluginloader.c line 98
 extern struct plugin_handle * plugin_load(const char *filename, const char *config, struct hub_info *hub);
-// plugin_load::1::register_f$object
+// plugin_load::1::register_f_object
 //
-signed int register_f$object(struct plugin_handle *, const char *);
-// plugin_load::1::unregister_f$object
+signed int register_f_object(struct plugin_handle *, const char *);
+// plugin_load::1::unregister_f_object
 //
-signed int unregister_f$object(struct plugin_handle *);
+signed int unregister_f_object(struct plugin_handle *);
 // plugin_log_chat_message
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugininvoke.c line 134
 void plugin_log_chat_message(struct hub_info *hub, struct hub_user *who, const char *message, signed int flags);
@@ -2694,19 +2694,19 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$20 *);
+extern signed int pthread_mutex_destroy(union anonymous_20 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$20 *, const union anonymous$24 *);
+extern signed int pthread_mutex_init(union anonymous_20 *, const union anonymous_24 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$20 *);
+extern signed int pthread_mutex_lock(union anonymous_20 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$20 *);
+extern signed int pthread_mutex_trylock(union anonymous_20 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$20 *);
+extern signed int pthread_mutex_unlock(union anonymous_20 *);
 // push
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 302
 static void push(struct rb_tree *tree, struct rb_node *n);
@@ -2719,15 +2719,15 @@ static struct rb_node * rb_it_set(struct rb_tree *tree, struct rb_node *n);
 // rb_tree_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 158
 extern struct rb_tree * rb_tree_create(signed int (*compare)(const void *, const void *), void * (*a)(unsigned long int), void (*f)(void *));
-// rb_tree_create::a$object
+// rb_tree_create::a_object
 //
-void * a$object(unsigned long int);
-// rb_tree_create::compare$object
+void * a_object(unsigned long int);
+// rb_tree_create::compare_object
 //
-signed int compare$object(const void *, const void *);
-// rb_tree_create::f$object
+signed int compare_object(const void *, const void *);
+// rb_tree_create::f_object
 //
-void f$object(void *);
+void f_object(void *);
 // rb_tree_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 172
 extern void rb_tree_destroy(struct rb_tree *tree);
@@ -2755,9 +2755,9 @@ extern signed int rb_tree_remove(struct rb_tree *tree, const void *key);
 // rb_tree_remove_node
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 200
 extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, void (*freecb)(struct rb_node *));
-// rb_tree_remove_node::freecb$object
+// rb_tree_remove_node::freecb_object
 //
-void freecb$object(struct rb_node *);
+void freecb_object(struct rb_node *);
 // rb_tree_rotate_double
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 112
 static struct rb_node * rb_tree_rotate_double(struct rb_node *node, signed int dir);
@@ -2805,7 +2805,7 @@ extern signed int route_to_subscribers(struct hub_info *hub, struct adc_message 
 extern signed int route_to_user(struct hub_info *hub, struct hub_user *user, struct adc_message *msg);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$19 *, struct anonymous$19 *, struct anonymous$19 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_19 *, struct anonymous_19 *, struct anonymous_19 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -2866,15 +2866,15 @@ extern signed int shutdown(signed int, signed int);
 // shutdown_free_jobs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 56
 static void shutdown_free_jobs(void *ptr);
-// shutdown_free_jobs$link1
+// shutdown_free_jobs_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 56
-static void shutdown_free_jobs$link1(void *ptr$link1);
+static void shutdown_free_jobs_link1(void *ptr_link1);
 // shutdown_free_results
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 64
 static void shutdown_free_results(void *ptr);
-// shutdown_free_results$link1
+// shutdown_free_results_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 64
-static void shutdown_free_results$link1(void *ptr$link1);
+static void shutdown_free_results_link1(void *ptr_link1);
 // shutdown_signal_handlers
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/main.c line 96
 void shutdown_signal_handlers(struct hub_info *hub);
@@ -2901,7 +2901,7 @@ extern char * sid_to_string(unsigned int sid_);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$3 *);
+extern signed int sigemptyset(struct anonymous_3 *);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -2938,9 +2938,9 @@ extern unsigned long int strftime(char *, unsigned long int, const char *, struc
 // string_split
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 95
 extern signed int string_split(const char *string, const char *split, void *data, signed int (*handler)(char *, signed int, void *));
-// string_split::handler$object
+// string_split::handler_object
 //
-signed int handler$object(char *, signed int, void *);
+signed int handler_object(char *, signed int, void *);
 // string_to_boolean
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 67
 extern signed int string_to_boolean(const char *str, signed int *boolean);
@@ -2995,18 +2995,18 @@ extern signed long int time(signed long int *);
 // timeout_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timer.c line 23
 static void timeout_callback(struct timeout_evt *evt);
-// timeout_callback$link1
+// timeout_callback_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timer.c line 23
-static void timeout_callback$link1(struct timeout_evt *evt$link1);
+static void timeout_callback_link1(struct timeout_evt *evt_link1);
 // timeout_evt_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.h line 37
 void timeout_evt_initialize(struct timeout_evt *t, void (*cb)(struct timeout_evt *), void *ptr);
-// timeout_evt_initialize::cb$link1$object
+// timeout_evt_initialize::cb_link1_object
 //
-void cb$link1$object(struct timeout_evt *);
-// timeout_evt_initialize::cb$object
+void cb_link1_object(struct timeout_evt *);
+// timeout_evt_initialize::cb_object
 //
-void cb$object(struct timeout_evt *);
+void cb_object(struct timeout_evt *);
 // timeout_evt_is_scheduled
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.c line 36
 signed int timeout_evt_is_scheduled(struct timeout_evt *t);
@@ -3045,28 +3045,28 @@ extern signed int uhub_atoi(const char *value);
 extern const char * uhub_itoa(signed int val);
 // uhub_mutex_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 38
-extern void uhub_mutex_destroy(union anonymous$20 *mutex);
+extern void uhub_mutex_destroy(union anonymous_20 *mutex);
 // uhub_mutex_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 37
-extern void uhub_mutex_init(union anonymous$20 *mutex);
+extern void uhub_mutex_init(union anonymous_20 *mutex);
 // uhub_mutex_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 39
-extern void uhub_mutex_lock(union anonymous$20 *mutex);
+extern void uhub_mutex_lock(union anonymous_20 *mutex);
 // uhub_mutex_trylock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 49
-extern signed int uhub_mutex_trylock(union anonymous$20 *mutex);
+extern signed int uhub_mutex_trylock(union anonymous_20 *mutex);
 // uhub_mutex_unlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 40
-extern void uhub_mutex_unlock(union anonymous$20 *mutex);
+extern void uhub_mutex_unlock(union anonymous_20 *mutex);
 // uhub_thread_cancel
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 45
 void uhub_thread_cancel(struct pthread_data *thread);
 // uhub_thread_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 44
 struct pthread_data * uhub_thread_create(void * (*start)(void *), void *arg);
-// uhub_thread_create::start$object
+// uhub_thread_create::start_object
 //
-void * start$object(void *);
+void * start_object(void *);
 // uhub_thread_join
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 46
 void * uhub_thread_join(struct pthread_data *thread);
@@ -3191,7 +3191,7 @@ extern void user_update_info(struct hub_user *u, struct adc_message *cmd);
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 
-struct anonymous$15
+struct anonymous_15
 {
   // _call_addr
   void *_call_addr;
@@ -3201,7 +3201,7 @@ struct anonymous$15
   unsigned int _arch;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_addr
   void *si_addr;
@@ -3209,7 +3209,7 @@ struct anonymous$13
   signed short int si_addr_lsb;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -3263,13 +3263,13 @@ struct anonymous$1
   signed int cert_request;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __val
   unsigned long int __val[16l];
@@ -3301,7 +3301,7 @@ struct anonymous
   signed int sess_cb_hit;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_pid
   signed int si_pid;
@@ -3309,7 +3309,7 @@ struct anonymous$9
   unsigned int si_uid;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -3331,7 +3331,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_pid
   signed int si_pid;
@@ -3341,7 +3341,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_tid
   signed int si_tid;
@@ -3351,7 +3351,7 @@ struct anonymous$10
   union sigval si_sigval;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_band
   signed long int si_band;
@@ -3359,27 +3359,27 @@ struct anonymous$14
   signed int si_fd;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$9 _kill;
+  struct anonymous_9 _kill;
   // _timer
-  struct anonymous$10 _timer;
+  struct anonymous_10 _timer;
   // _rt
-  struct anonymous$11 _rt;
+  struct anonymous_11 _rt;
   // _sigchld
-  struct anonymous$12 _sigchld;
+  struct anonymous_12 _sigchld;
   // _sigfault
-  struct anonymous$13 _sigfault;
+  struct anonymous_13 _sigfault;
   // _sigpoll
-  struct anonymous$14 _sigpoll;
+  struct anonymous_14 _sigpoll;
   // _sigsys
-  struct anonymous$15 _sigsys;
+  struct anonymous_15 _sigsys;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_signo
   signed int si_signo;
@@ -3388,10 +3388,10 @@ struct anonymous$6
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$16 _sifields;
+  union anonymous_16 _sifields;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -3417,7 +3417,7 @@ struct anonymous$0
   unsigned int rlen;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // ptr
   char *ptr;
@@ -3431,7 +3431,7 @@ union anonymous$8
   struct ec_key_st *ec;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // ptr
   char *ptr;
@@ -3477,15 +3477,15 @@ union anonymous$7
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$6 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_6 *, void *);
 };
 
-union anonymous$5
+union anonymous_5
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -3493,7 +3493,7 @@ union anonymous$5
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$18
+union anonymous_18
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3503,7 +3503,7 @@ union anonymous$18
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$24
+union anonymous_24
 {
   // __size
   char __size[4l];
@@ -3511,7 +3511,7 @@ union anonymous$24
   signed int __align;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // integer
   signed int integer;
@@ -3529,7 +3529,7 @@ union anonymous$22
   struct command_handle *command;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // integer
   signed int integer;
@@ -3573,7 +3573,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3592,10 +3592,10 @@ struct in_addr
 struct in6_addr
 {
   // __in6_u
-  union anonymous$18 __in6_u;
+  union anonymous_18 __in6_u;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // in
   struct in_addr in;
@@ -3603,7 +3603,7 @@ union anonymous$17
   struct in6_addr in6;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3633,7 +3633,7 @@ union anonymous$21
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3962,7 +3962,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$7 value;
+  union anonymous_7 value;
 };
 
 struct auth_info
@@ -4062,7 +4062,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$5 cb;
+  union anonymous_5 cb;
 };
 
 struct bn_mont_ctx_st
@@ -4612,7 +4612,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$8 pkey;
+  union anonymous_8 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -4686,7 +4686,7 @@ struct hub_command_arg_data
   // type
   enum hub_command_arg_type type;
   // data
-  union anonymous$22 data;
+  union anonymous_22 data;
 };
 
 struct hub_config
@@ -4918,7 +4918,7 @@ struct ip_addr_encap
   // af
   signed int af;
   // internal_ip_data
-  union anonymous$17 internal_ip_data;
+  union anonymous_17 internal_ip_data;
 };
 
 struct hub_logout_info
@@ -5150,11 +5150,11 @@ struct net_backend_select
   // conns
   struct net_connection_select **conns;
   // rfds
-  struct anonymous$19 rfds;
+  struct anonymous_19 rfds;
   // wfds
-  struct anonymous$19 wfds;
+  struct anonymous_19 wfds;
   // xfds
-  struct anonymous$19 xfds;
+  struct anonymous_19 xfds;
   // maxfd
   signed int maxfd;
   // common
@@ -5258,7 +5258,7 @@ struct net_dns_subsystem
   // results
   struct linked_list *results;
   // mutex
-  union anonymous$20 mutex;
+  union anonymous_20 mutex;
 };
 
 struct net_ssl_openssl
@@ -5342,7 +5342,7 @@ struct plugin_command_arg_data
   // type
   enum plugin_command_arg_type type;
   // data
-  union anonymous$23 data;
+  union anonymous_23 data;
 };
 
 struct plugin_command_handle
@@ -5662,9 +5662,9 @@ struct sid_pool
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$4 __sigaction_handler;
+  union anonymous_4 __sigaction_handler;
   // sa_mask
-  struct anonymous$3 sa_mask;
+  struct anonymous_3 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -5828,7 +5828,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$0 tmp;
+  struct anonymous_0 tmp;
 };
 
 struct ssl3_buffer_st
@@ -5948,7 +5948,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$1 tmp;
+  struct anonymous_1 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -6865,9 +6865,9 @@ struct x509_store_st
 // BASE32_ALPHABET
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/adc/sid.c line 22
 const char *BASE32_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
-// BASE32_ALPHABET$link1
+// BASE32_ALPHABET_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 22
-static const char *BASE32_ALPHABET$link1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
+static const char *BASE32_ALPHABET_link1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
 // arg_check_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/main.c line 24
 static signed int arg_check_config = 0;
@@ -6904,24 +6904,24 @@ static signed int arg_verbose = 5;
 // g_backend
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 44
 static struct net_backend *g_backend;
-// g_backend$link1
+// g_backend_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 44
-static struct net_backend *g_backend$link1;
+static struct net_backend *g_backend_link1;
 // g_dns
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 81
 static struct net_dns_subsystem *g_dns = (struct net_dns_subsystem *)(void *)0;
-// g_dns$link1
+// g_dns_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 81
-static struct net_dns_subsystem *g_dns$link1 = (struct net_dns_subsystem *)(void *)0;
+static struct net_dns_subsystem *g_dns_link1 = (struct net_dns_subsystem *)(void *)0;
 // g_hub
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hub.c line 22
 struct hub_info *g_hub = ((struct hub_info *)NULL);
 // is_ipv6_supported
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 22
 static signed int is_ipv6_supported = -1;
-// is_ipv6_supported$link1
+// is_ipv6_supported_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 22
-static signed int is_ipv6_supported$link1 = -1;
+static signed int is_ipv6_supported_link1 = -1;
 // logfile
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/log.c line 29
 static struct _IO_FILE *logfile = (struct _IO_FILE *)(void *)0;
@@ -6931,18 +6931,18 @@ static struct net_backend * (*net_backend_init_funcs[3l])(struct net_backend_han
 // net_backend_init_funcs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 59
 static struct net_backend * (*net_backend_init_funcs[3l])(struct net_backend_handler *, struct net_backend_common *) = { net_backend_init_epoll, net_backend_init_select, ((struct net_backend * (*)(struct net_backend_handler *, struct net_backend_common *))NULL) };
-// net_backend_init_funcs$link1
+// net_backend_init_funcs_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 59
-static struct net_backend * (*net_backend_init_funcs$link1[3l])(struct net_backend_handler *, struct net_backend_common *);
-// net_backend_init_funcs$link1
+static struct net_backend * (*net_backend_init_funcs_link1[3l])(struct net_backend_handler *, struct net_backend_common *);
+// net_backend_init_funcs_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 59
-static struct net_backend * (*net_backend_init_funcs$link1[3l])(struct net_backend_handler *, struct net_backend_common *) = { net_backend_init_epoll, net_backend_init_select, ((struct net_backend * (*)(struct net_backend_handler *, struct net_backend_common *))NULL) };
+static struct net_backend * (*net_backend_init_funcs_link1[3l])(struct net_backend_handler *, struct net_backend_common *) = { net_backend_init_epoll, net_backend_init_select, ((struct net_backend * (*)(struct net_backend_handler *, struct net_backend_common *))NULL) };
 // net_initialized
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 23
 static signed int net_initialized = 0;
-// net_initialized$link1
+// net_initialized_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 23
-static signed int net_initialized$link1 = 0;
+static signed int net_initialized_link1 = 0;
 // optarg
 // file /usr/include/getopt.h line 57
 extern char *optarg;
@@ -6958,15 +6958,15 @@ static signed int signals[5l] = { 2, 15, 13, 1, 0 };
 // stats
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 25
 static struct net_statistics stats;
-// stats$link1
+// stats_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 25
-static struct net_statistics stats$link1;
+static struct net_statistics stats_link1;
 // stats_total
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 26
 static struct net_statistics stats_total;
-// stats_total$link1
+// stats_total_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 26
-static struct net_statistics stats_total$link1;
+static struct net_statistics stats_total_link1;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -6995,9 +6995,9 @@ extern signed int acl_delete_user(struct hub_info *hub, const char *name)
   data.nickname[(signed long int)64] = (char)0;
   data.password[(signed long int)0] = (char)0;
   data.credentials = (enum auth_credentials)auth_cred_none;
-  enum plugin_status return_value_plugin_auth_delete_user$1;
-  return_value_plugin_auth_delete_user$1=plugin_auth_delete_user(hub, &data);
-  if(!((signed int)return_value_plugin_auth_delete_user$1 == st_allow))
+  enum plugin_status return_value_plugin_auth_delete_user_1;
+  return_value_plugin_auth_delete_user_1=plugin_auth_delete_user(hub, &data);
+  if(!((signed int)return_value_plugin_auth_delete_user_1 == st_allow))
     return 0;
 
   else
@@ -7029,12 +7029,12 @@ static void acl_free_ip_info(void *ptr)
 extern struct auth_info * acl_get_access_info(struct hub_info *hub, const char *name)
 {
   struct auth_info *info = ((struct auth_info *)NULL);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct auth_info) /*136ul*/ );
-  info = (struct auth_info *)return_value_malloc$1;
-  enum plugin_status return_value_plugin_auth_get_user$2;
-  return_value_plugin_auth_get_user$2=plugin_auth_get_user(hub, name, info);
-  if(!((signed int)return_value_plugin_auth_get_user$2 == st_allow))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct auth_info) /*136ul*/ );
+  info = (struct auth_info *)return_value_malloc_1;
+  enum plugin_status return_value_plugin_auth_get_user_2;
+  return_value_plugin_auth_get_user_2=plugin_auth_get_user(hub, name, info);
+  if(!((signed int)return_value_plugin_auth_get_user_2 == st_allow))
   {
     free((void *)info);
     return (struct auth_info *)(void *)0;
@@ -7056,37 +7056,37 @@ extern signed int acl_initialize(struct hub_config *config, struct acl_handle *h
   handle->cids=list_create();
   handle->networks=list_create();
   handle->nat_override=list_create();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(handle->users == ((struct linked_list *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(handle->cids != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(handle->cids != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(handle->networks != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !(handle->networks != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !(handle->users_denied != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = !(handle->users_denied != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = !(handle->users_banned != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = !(handle->users_banned != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = !(handle->nat_override != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = !(handle->nat_override != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     hub_log(0, "acl_initialize: Out of memory");
     list_destroy(handle->users);
@@ -7130,19 +7130,19 @@ extern signed int acl_is_cid_banned(struct acl_handle *handle, const char *data)
 
   else
   {
-    void *return_value_list_get_first$1;
-    return_value_list_get_first$1=list_get_first(handle->cids);
-    str = (char *)return_value_list_get_first$1;
+    void *return_value_list_get_first_1;
+    return_value_list_get_first_1=list_get_first(handle->cids);
+    str = (char *)return_value_list_get_first_1;
     while(!(str == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(str, data);
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(str, data);
+      if(return_value_strcasecmp_2 == 0)
         return 1;
 
-      void *return_value_list_get_next$3;
-      return_value_list_get_next$3=list_get_next(handle->cids);
-      str = (char *)return_value_list_get_next$3;
+      void *return_value_list_get_next_3;
+      return_value_list_get_next_3=list_get_next(handle->cids);
+      str = (char *)return_value_list_get_next_3;
     }
     return 0;
   }
@@ -7154,20 +7154,20 @@ extern signed int acl_is_ip_banned(struct acl_handle *handle, const char *ip_add
 {
   struct ip_addr_encap raw;
   struct ip_range *info;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(handle->networks);
-  info = (struct ip_range *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(handle->networks);
+  info = (struct ip_range *)return_value_list_get_first_1;
   ip_convert_to_binary(ip_address, &raw);
   while(!(info == ((struct ip_range *)NULL)))
   {
-    signed int return_value_ip_in_range$2;
-    return_value_ip_in_range$2=ip_in_range(&raw, info);
-    if(!(return_value_ip_in_range$2 == 0))
+    signed int return_value_ip_in_range_2;
+    return_value_ip_in_range_2=ip_in_range(&raw, info);
+    if(!(return_value_ip_in_range_2 == 0))
       return 1;
 
-    void *return_value_list_get_next$3;
-    return_value_list_get_next$3=list_get_next(handle->networks);
-    info = (struct ip_range *)return_value_list_get_next$3;
+    void *return_value_list_get_next_3;
+    return_value_list_get_next_3=list_get_next(handle->networks);
+    info = (struct ip_range *)return_value_list_get_next_3;
   }
   return 0;
 }
@@ -7178,20 +7178,20 @@ extern signed int acl_is_ip_nat_override(struct acl_handle *handle, const char *
 {
   struct ip_addr_encap raw;
   struct ip_range *info;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(handle->nat_override);
-  info = (struct ip_range *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(handle->nat_override);
+  info = (struct ip_range *)return_value_list_get_first_1;
   ip_convert_to_binary(ip_address, &raw);
   while(!(info == ((struct ip_range *)NULL)))
   {
-    signed int return_value_ip_in_range$2;
-    return_value_ip_in_range$2=ip_in_range(&raw, info);
-    if(!(return_value_ip_in_range$2 == 0))
+    signed int return_value_ip_in_range_2;
+    return_value_ip_in_range_2=ip_in_range(&raw, info);
+    if(!(return_value_ip_in_range_2 == 0))
       return 1;
 
-    void *return_value_list_get_next$3;
-    return_value_list_get_next$3=list_get_next(handle->nat_override);
-    info = (struct ip_range *)return_value_list_get_next$3;
+    void *return_value_list_get_next_3;
+    return_value_list_get_next_3=list_get_next(handle->nat_override);
+    info = (struct ip_range *)return_value_list_get_next_3;
   }
   return 0;
 }
@@ -7206,19 +7206,19 @@ extern signed int acl_is_user_banned(struct acl_handle *handle, const char *data
 
   else
   {
-    void *return_value_list_get_first$1;
-    return_value_list_get_first$1=list_get_first(handle->users_banned);
-    str = (char *)return_value_list_get_first$1;
+    void *return_value_list_get_first_1;
+    return_value_list_get_first_1=list_get_first(handle->users_banned);
+    str = (char *)return_value_list_get_first_1;
     while(!(str == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(str, data);
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(str, data);
+      if(return_value_strcasecmp_2 == 0)
         return 1;
 
-      void *return_value_list_get_next$3;
-      return_value_list_get_next$3=list_get_next(handle->users_banned);
-      str = (char *)return_value_list_get_next$3;
+      void *return_value_list_get_next_3;
+      return_value_list_get_next_3=list_get_next(handle->users_banned);
+      str = (char *)return_value_list_get_next_3;
     }
     return 0;
   }
@@ -7234,19 +7234,19 @@ extern signed int acl_is_user_denied(struct acl_handle *handle, const char *data
 
   else
   {
-    void *return_value_list_get_first$1;
-    return_value_list_get_first$1=list_get_first(handle->users_denied);
-    str = (char *)return_value_list_get_first$1;
+    void *return_value_list_get_first_1;
+    return_value_list_get_first_1=list_get_first(handle->users_denied);
+    str = (char *)return_value_list_get_first_1;
     while(!(str == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(str, data);
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(str, data);
+      if(return_value_strcasecmp_2 == 0)
         return 1;
 
-      void *return_value_list_get_next$3;
-      return_value_list_get_next$3=list_get_next(handle->users_denied);
-      str = (char *)return_value_list_get_next$3;
+      void *return_value_list_get_next_3;
+      return_value_list_get_next_3=list_get_next(handle->users_denied);
+      str = (char *)return_value_list_get_next_3;
     }
     return 0;
   }
@@ -7367,12 +7367,12 @@ extern const char * acl_password_generate_challenge(struct hub_info *hub, struct
 {
   char buf[64l];
   unsigned long int tiger_res[3l];
-  signed int return_value_net_con_get_sd$1;
-  return_value_net_con_get_sd$1=net_con_get_sd(user->connection);
-  snprintf(buf, (unsigned long int)64, "%p%d%d", user, (signed int)user->id.sid, (signed int)return_value_net_con_get_sd$1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(buf);
-  tiger((unsigned long int *)buf, return_value_strlen$2, (unsigned long int *)tiger_res);
+  signed int return_value_net_con_get_sd_1;
+  return_value_net_con_get_sd_1=net_con_get_sd(user->connection);
+  snprintf(buf, (unsigned long int)64, "%p%d%d", user, (signed int)user->id.sid, (signed int)return_value_net_con_get_sd_1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(buf);
+  tiger((unsigned long int *)buf, return_value_strlen_2, (unsigned long int *)tiger_res);
   static char tiger_buf[40l];
   base32_encode((unsigned char *)tiger_res, (unsigned long int)24, tiger_buf);
   tiger_buf[(signed long int)39] = (char)0;
@@ -7390,17 +7390,17 @@ extern signed int acl_password_verify(struct hub_info *hub, struct hub_user *use
   char password_calc[64l];
   unsigned long int tiger_res[3l];
   unsigned long int password_len;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(password == ((const char *)NULL) || user == ((struct hub_user *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(password);
-    tmp_if_expr$2 = return_value_strlen$1 != (unsigned long int)39 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(password);
+    tmp_if_expr_2 = return_value_strlen_1 != (unsigned long int)39 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -7420,9 +7420,9 @@ extern signed int acl_password_verify(struct hub_info *hub, struct hub_user *use
       base32_encode((unsigned char *)tiger_res, (unsigned long int)24, password_calc);
       password_calc[(signed long int)39] = (char)0;
       free((void *)access);
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(password, password_calc);
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(password, password_calc);
+      if(return_value_strcasecmp_3 == 0)
         return 1;
 
       else
@@ -7435,9 +7435,9 @@ extern signed int acl_password_verify(struct hub_info *hub, struct hub_user *use
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/auth.c line 288
 extern signed int acl_register_user(struct hub_info *hub, struct auth_info *info)
 {
-  enum plugin_status return_value_plugin_auth_register_user$1;
-  return_value_plugin_auth_register_user$1=plugin_auth_register_user(hub, info);
-  if(!((signed int)return_value_plugin_auth_register_user$1 == st_allow))
+  enum plugin_status return_value_plugin_auth_register_user_1;
+  return_value_plugin_auth_register_user_1=plugin_auth_register_user(hub, info);
+  if(!((signed int)return_value_plugin_auth_register_user_1 == st_allow))
     return 0;
 
   else
@@ -7492,9 +7492,9 @@ extern signed int acl_shutdown(struct acl_handle *handle)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/auth.c line 297
 extern signed int acl_update_user(struct hub_info *hub, struct auth_info *info)
 {
-  enum plugin_status return_value_plugin_auth_update_user$1;
-  return_value_plugin_auth_update_user$1=plugin_auth_update_user(hub, info);
-  if(!((signed int)return_value_plugin_auth_update_user$1 == st_allow))
+  enum plugin_status return_value_plugin_auth_update_user_1;
+  return_value_plugin_auth_update_user_1=plugin_auth_update_user(hub, info);
+  if(!((signed int)return_value_plugin_auth_update_user_1 == st_allow))
     return 0;
 
   else
@@ -7506,9 +7506,9 @@ extern signed int acl_update_user(struct hub_info *hub, struct auth_info *info)
 extern signed int acl_user_ban_cid(struct acl_handle *handle, const char *cid)
 {
   char *data;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(cid);
-  data = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(cid);
+  data = return_value___strdup_1;
   if(data == ((char *)NULL))
   {
     hub_log(1, "ACL error: Out of memory!");
@@ -7527,9 +7527,9 @@ extern signed int acl_user_ban_cid(struct acl_handle *handle, const char *cid)
 extern signed int acl_user_ban_nick(struct acl_handle *handle, const char *nick)
 {
   char *data;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(nick);
-  data = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(nick);
+  data = return_value___strdup_1;
   if(data == ((char *)NULL))
   {
     hub_log(1, "ACL error: Out of memory!");
@@ -7566,9 +7566,9 @@ __CPROVER_DUMP_L1:
   ;
   adc_msg_unterminate(cmd);
   adc_msg_cache_append(cmd, " ", (unsigned long int)1);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  adc_msg_cache_append(cmd, string, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  adc_msg_cache_append(cmd, string, return_value_strlen_1);
   adc_msg_terminate(cmd);
   return 0;
 }
@@ -7589,9 +7589,9 @@ extern signed int adc_msg_add_named_argument(struct adc_message *cmd, const char
     adc_msg_unterminate(cmd);
     adc_msg_cache_append(cmd, " ", (unsigned long int)1);
     adc_msg_cache_append(cmd, prefix, (unsigned long int)2);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(string);
-    adc_msg_cache_append(cmd, string, return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(string);
+    adc_msg_cache_append(cmd, string, return_value_strlen_1);
     adc_msg_terminate(cmd);
     return ret;
   }
@@ -7635,9 +7635,9 @@ extern signed int adc_msg_add_named_argument_uint64(struct adc_message *cmd, con
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/adc/message.c line 146
 static signed int adc_msg_cache_append(struct adc_message *msg, const char *string, unsigned long int len)
 {
-  signed int return_value_adc_msg_grow$1;
-  return_value_adc_msg_grow$1=adc_msg_grow(msg, msg->length + len);
-  if(return_value_adc_msg_grow$1 == 0)
+  signed int return_value_adc_msg_grow_1;
+  return_value_adc_msg_grow_1=adc_msg_grow(msg, msg->length + len);
+  if(return_value_adc_msg_grow_1 == 0)
     return 0;
 
   else
@@ -7654,17 +7654,17 @@ static signed int adc_msg_cache_append(struct adc_message *msg, const char *stri
 extern struct adc_message * adc_msg_construct(unsigned int fourcc, unsigned long int size)
 {
   struct adc_message *msg;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct adc_message) /*72ul*/ );
-  msg = (struct adc_message *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct adc_message) /*72ul*/ );
+  msg = (struct adc_message *)return_value_hub_malloc_zero_1;
   if(msg == ((struct adc_message *)NULL))
     return (struct adc_message *)(void *)0;
 
   else
   {
-    signed int return_value_adc_msg_grow$2;
-    return_value_adc_msg_grow$2=adc_msg_grow(msg, sizeof(unsigned int) /*4ul*/  + size + (unsigned long int)1);
-    if(return_value_adc_msg_grow$2 == 0)
+    signed int return_value_adc_msg_grow_2;
+    return_value_adc_msg_grow_2=adc_msg_grow(msg, sizeof(unsigned int) /*4ul*/  + size + (unsigned long int)1);
+    if(return_value_adc_msg_grow_2 == 0)
     {
       free((void *)msg);
       return (struct adc_message *)(void *)0;
@@ -7702,9 +7702,9 @@ extern struct adc_message * adc_msg_construct_source(unsigned int fourcc, unsign
 
   else
   {
-    char *return_value_sid_to_string$1;
-    return_value_sid_to_string$1=sid_to_string(source);
-    adc_msg_add_argument(msg, return_value_sid_to_string$1);
+    char *return_value_sid_to_string_1;
+    return_value_sid_to_string_1=sid_to_string(source);
+    adc_msg_add_argument(msg, return_value_sid_to_string_1);
     msg->source = source;
     return msg;
   }
@@ -7721,12 +7721,12 @@ extern struct adc_message * adc_msg_construct_source_dest(unsigned int fourcc, u
 
   else
   {
-    char *return_value_sid_to_string$1;
-    return_value_sid_to_string$1=sid_to_string(source);
-    adc_msg_add_argument(msg, return_value_sid_to_string$1);
-    char *return_value_sid_to_string$2;
-    return_value_sid_to_string$2=sid_to_string(dest);
-    adc_msg_add_argument(msg, return_value_sid_to_string$2);
+    char *return_value_sid_to_string_1;
+    return_value_sid_to_string_1=sid_to_string(source);
+    adc_msg_add_argument(msg, return_value_sid_to_string_1);
+    char *return_value_sid_to_string_2;
+    return_value_sid_to_string_2=sid_to_string(dest);
+    adc_msg_add_argument(msg, return_value_sid_to_string_2);
     msg->source = source;
     msg->target = dest;
     return msg;
@@ -7739,9 +7739,9 @@ extern struct adc_message * adc_msg_copy(struct adc_message *cmd)
 {
   char *tmp = ((char *)NULL);
   struct adc_message *copy;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct adc_message) /*72ul*/ );
-  copy = (struct adc_message *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct adc_message) /*72ul*/ );
+  copy = (struct adc_message *)return_value_hub_malloc_zero_1;
   if(copy == ((struct adc_message *)NULL))
     return (struct adc_message *)(void *)0;
 
@@ -7760,9 +7760,9 @@ extern struct adc_message * adc_msg_copy(struct adc_message *cmd)
     copy->references = (unsigned long int)1;
     copy->feature_cast_include = ((struct linked_list *)NULL);
     copy->feature_cast_exclude = ((struct linked_list *)NULL);
-    signed int return_value_adc_msg_grow$2;
-    return_value_adc_msg_grow$2=adc_msg_grow(copy, copy->length);
-    if(return_value_adc_msg_grow$2 == 0)
+    signed int return_value_adc_msg_grow_2;
+    return_value_adc_msg_grow_2=adc_msg_grow(copy, copy->length);
+    if(return_value_adc_msg_grow_2 == 0)
     {
       adc_msg_free(copy);
       return (struct adc_message *)(void *)0;
@@ -7782,34 +7782,34 @@ extern struct adc_message * adc_msg_copy(struct adc_message *cmd)
         if(!(cmd->feature_cast_include == ((struct linked_list *)NULL)))
         {
           copy->feature_cast_include=list_create();
-          void *return_value_list_get_first$3;
-          return_value_list_get_first$3=list_get_first(cmd->feature_cast_include);
-          tmp = (char *)return_value_list_get_first$3;
+          void *return_value_list_get_first_3;
+          return_value_list_get_first_3=list_get_first(cmd->feature_cast_include);
+          tmp = (char *)return_value_list_get_first_3;
           while(!(tmp == ((char *)NULL)))
           {
-            char *return_value___strdup$4;
-            return_value___strdup$4=__strdup(tmp);
-            list_append(copy->feature_cast_include, (void *)return_value___strdup$4);
-            void *return_value_list_get_next$5;
-            return_value_list_get_next$5=list_get_next(cmd->feature_cast_include);
-            tmp = (char *)return_value_list_get_next$5;
+            char *return_value___strdup_4;
+            return_value___strdup_4=__strdup(tmp);
+            list_append(copy->feature_cast_include, (void *)return_value___strdup_4);
+            void *return_value_list_get_next_5;
+            return_value_list_get_next_5=list_get_next(cmd->feature_cast_include);
+            tmp = (char *)return_value_list_get_next_5;
           }
         }
 
         if(!(cmd->feature_cast_exclude == ((struct linked_list *)NULL)))
         {
           copy->feature_cast_exclude=list_create();
-          void *return_value_list_get_first$6;
-          return_value_list_get_first$6=list_get_first(cmd->feature_cast_exclude);
-          tmp = (char *)return_value_list_get_first$6;
+          void *return_value_list_get_first_6;
+          return_value_list_get_first_6=list_get_first(cmd->feature_cast_exclude);
+          tmp = (char *)return_value_list_get_first_6;
           while(!(tmp == ((char *)NULL)))
           {
-            char *return_value___strdup$7;
-            return_value___strdup$7=__strdup(tmp);
-            list_append(copy->feature_cast_exclude, (void *)return_value___strdup$7);
-            void *return_value_list_get_next$8;
-            return_value_list_get_next$8=list_get_next(cmd->feature_cast_exclude);
-            tmp = (char *)return_value_list_get_next$8;
+            char *return_value___strdup_7;
+            return_value___strdup_7=__strdup(tmp);
+            list_append(copy->feature_cast_exclude, (void *)return_value___strdup_7);
+            void *return_value_list_get_next_8;
+            return_value_list_get_next_8=list_get_next(cmd->feature_cast_exclude);
+            tmp = (char *)return_value_list_get_next_8;
           }
         }
 
@@ -7825,11 +7825,11 @@ extern struct adc_message * adc_msg_copy(struct adc_message *cmd)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/adc/message.c line 530
 extern struct adc_message * adc_msg_create(const char *line)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  struct adc_message *return_value_adc_msg_parse$2;
-  return_value_adc_msg_parse$2=adc_msg_parse(line, return_value_strlen$1);
-  return return_value_adc_msg_parse$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  struct adc_message *return_value_adc_msg_parse_2;
+  return_value_adc_msg_parse_2=adc_msg_parse(line, return_value_strlen_1);
+  return return_value_adc_msg_parse_2;
 }
 
 // adc_msg_escape
@@ -7837,65 +7837,65 @@ extern struct adc_message * adc_msg_create(const char *line)
 extern char * adc_msg_escape(const char *string)
 {
   char *str;
-  signed int return_value_adc_msg_escape_length$1;
-  return_value_adc_msg_escape_length$1=adc_msg_escape_length(string);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(return_value_adc_msg_escape_length$1 + 1));
-  str = (char *)return_value_malloc$2;
+  signed int return_value_adc_msg_escape_length_1;
+  return_value_adc_msg_escape_length_1=adc_msg_escape_length(string);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(return_value_adc_msg_escape_length_1 + 1));
+  str = (char *)return_value_malloc_2;
   unsigned long int n = (unsigned long int)0;
   unsigned long int i = (unsigned long int)0;
   i = (unsigned long int)0;
-  unsigned long int return_value_strlen$3;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
-  unsigned long int tmp_post$7;
-  unsigned long int tmp_post$8;
-  unsigned long int tmp_post$9;
-  unsigned long int tmp_post$10;
+  unsigned long int return_value_strlen_3;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
+  unsigned long int tmp_post_7;
+  unsigned long int tmp_post_8;
+  unsigned long int tmp_post_9;
+  unsigned long int tmp_post_10;
   do
   {
-    return_value_strlen$3=strlen(string);
-    if(i >= return_value_strlen$3)
+    return_value_strlen_3=strlen(string);
+    if(i >= return_value_strlen_3)
       break;
 
     switch((signed int)string[(signed long int)i])
     {
       case 92:
       {
-        tmp_post$4 = n;
+        tmp_post_4 = n;
         n = n + 1ul;
-        str[(signed long int)tmp_post$4] = (char)92;
-        tmp_post$5 = n;
+        str[(signed long int)tmp_post_4] = (char)92;
+        tmp_post_5 = n;
         n = n + 1ul;
-        str[(signed long int)tmp_post$5] = (char)92;
+        str[(signed long int)tmp_post_5] = (char)92;
         break;
       }
       case 10:
       {
-        tmp_post$6 = n;
+        tmp_post_6 = n;
         n = n + 1ul;
-        str[(signed long int)tmp_post$6] = (char)92;
-        tmp_post$7 = n;
+        str[(signed long int)tmp_post_6] = (char)92;
+        tmp_post_7 = n;
         n = n + 1ul;
-        str[(signed long int)tmp_post$7] = (char)110;
+        str[(signed long int)tmp_post_7] = (char)110;
         break;
       }
       case 32:
       {
-        tmp_post$8 = n;
+        tmp_post_8 = n;
         n = n + 1ul;
-        str[(signed long int)tmp_post$8] = (char)92;
-        tmp_post$9 = n;
+        str[(signed long int)tmp_post_8] = (char)92;
+        tmp_post_9 = n;
         n = n + 1ul;
-        str[(signed long int)tmp_post$9] = (char)115;
+        str[(signed long int)tmp_post_9] = (char)115;
         break;
       }
       default:
       {
-        tmp_post$10 = n;
+        tmp_post_10 = n;
         n = n + 1ul;
-        str[(signed long int)tmp_post$10] = string[(signed long int)i];
+        str[(signed long int)tmp_post_10] = string[(signed long int)i];
       }
     }
     i = i + 1ul;
@@ -7911,21 +7911,21 @@ signed int adc_msg_escape_length(const char *str)
 {
   signed int add = 0;
   signed int n = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   for( ; !(str[(signed long int)n] == 0); n = n + 1)
   {
     if((signed int)str[(signed long int)n] == 32)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)str[(signed long int)n] == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)str[(signed long int)n] == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)str[(signed long int)n] == 92 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)str[(signed long int)n] == 92 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       add = add + 1;
 
   }
@@ -7970,15 +7970,15 @@ extern void adc_msg_free(struct adc_message *msg)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/adc/message.h line 235
 signed int adc_msg_get_arg_offset(struct adc_message *msg)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(msg == ((struct adc_message *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(msg->cache != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  unsigned long int return_value_list_size$2;
-  unsigned long int return_value_list_size$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(msg->cache != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  unsigned long int return_value_list_size_2;
+  unsigned long int return_value_list_size_3;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -7996,9 +7996,9 @@ signed int adc_msg_get_arg_offset(struct adc_message *msg)
         return 9;
       case 70:
       {
-        return_value_list_size$2=list_size(msg->feature_cast_include);
-        return_value_list_size$3=list_size(msg->feature_cast_exclude);
-        return (signed int)((unsigned long int)10 + return_value_list_size$2 * (unsigned long int)5 + return_value_list_size$3 * (unsigned long int)5);
+        return_value_list_size_2=list_size(msg->feature_cast_include);
+        return_value_list_size_3=list_size(msg->feature_cast_exclude);
+        return (signed int)((unsigned long int)10 + return_value_list_size_2 * (unsigned long int)5 + return_value_list_size_3 * (unsigned long int)5);
       }
       case 68:
 
@@ -8021,41 +8021,41 @@ extern char * adc_msg_get_argument(struct adc_message *cmd, signed int offset)
 __CPROVER_DUMP_L1:
   ;
   adc_msg_unterminate(cmd);
-  signed int return_value_adc_msg_get_arg_offset$1;
-  return_value_adc_msg_get_arg_offset$1=adc_msg_get_arg_offset(cmd);
-  char *return_value___builtin_strchr$2;
-  return_value___builtin_strchr$2=__builtin_strchr(&cmd->cache[(signed long int)(return_value_adc_msg_get_arg_offset$1 - 1)], 32);
-  start = return_value___builtin_strchr$2;
-  unsigned long int return_value_strlen$7;
-  unsigned long int return_value_strlen$6;
+  signed int return_value_adc_msg_get_arg_offset_1;
+  return_value_adc_msg_get_arg_offset_1=adc_msg_get_arg_offset(cmd);
+  char *return_value___builtin_strchr_2;
+  return_value___builtin_strchr_2=__builtin_strchr(&cmd->cache[(signed long int)(return_value_adc_msg_get_arg_offset_1 - 1)], 32);
+  start = return_value___builtin_strchr_2;
+  unsigned long int return_value_strlen_7;
+  unsigned long int return_value_strlen_6;
   while(!(start == ((char *)NULL)))
   {
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(&start[(signed long int)1], 32);
-    end = return_value___builtin_strchr$3;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(&start[(signed long int)1], 32);
+    end = return_value___builtin_strchr_3;
     if(count == offset)
     {
       if(!(end == ((char *)NULL)))
       {
-        char *return_value___strndup$4;
-        return_value___strndup$4=__strndup(&start[(signed long int)1], (unsigned long int)(&end[(signed long int)0] - &start[(signed long int)1]));
-        argument = return_value___strndup$4;
+        char *return_value___strndup_4;
+        return_value___strndup_4=__strndup(&start[(signed long int)1], (unsigned long int)(&end[(signed long int)0] - &start[(signed long int)1]));
+        argument = return_value___strndup_4;
       }
 
       else
       {
-        char *return_value___strdup$5;
-        return_value___strdup$5=__strdup(&start[(signed long int)1]);
-        argument = return_value___strdup$5;
+        char *return_value___strdup_5;
+        return_value___strdup_5=__strdup(&start[(signed long int)1]);
+        argument = return_value___strdup_5;
         if(!(argument == ((char *)NULL)))
         {
           if(!(*argument == 0))
           {
-            return_value_strlen$7=strlen(argument);
-            if((signed int)argument[-1l + (signed long int)return_value_strlen$7] == 10)
+            return_value_strlen_7=strlen(argument);
+            if((signed int)argument[-1l + (signed long int)return_value_strlen_7] == 10)
             {
-              return_value_strlen$6=strlen(argument);
-              argument[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
+              return_value_strlen_6=strlen(argument);
+              argument[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
             }
 
           }
@@ -8094,16 +8094,16 @@ signed int adc_msg_get_argument_index(struct adc_message *cmd, const char *prefi
 __CPROVER_DUMP_L1:
   ;
   adc_msg_unterminate(cmd);
-  signed int return_value_adc_msg_get_arg_offset$1;
-  return_value_adc_msg_get_arg_offset$1=adc_msg_get_arg_offset(cmd);
-  char *return_value___builtin_strchr$2;
-  return_value___builtin_strchr$2=__builtin_strchr(&cmd->cache[(signed long int)(return_value_adc_msg_get_arg_offset$1 - 1)], 32);
-  start = return_value___builtin_strchr$2;
+  signed int return_value_adc_msg_get_arg_offset_1;
+  return_value_adc_msg_get_arg_offset_1=adc_msg_get_arg_offset(cmd);
+  char *return_value___builtin_strchr_2;
+  return_value___builtin_strchr_2=__builtin_strchr(&cmd->cache[(signed long int)(return_value_adc_msg_get_arg_offset_1 - 1)], 32);
+  start = return_value___builtin_strchr_2;
   while(!(start == ((char *)NULL)))
   {
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(&start[(signed long int)1], 32);
-    end = return_value___builtin_strchr$3;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(&start[(signed long int)1], 32);
+    end = return_value___builtin_strchr_3;
     if(end - (start + 1l) >= 3l)
     {
       if(start[1l] == *prefix)
@@ -8139,25 +8139,25 @@ extern char * adc_msg_get_named_argument(struct adc_message *cmd, const char *pr
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_memmem$1;
-  return_value_memmem$1=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
-  start = (char *)return_value_memmem$1;
+  void *return_value_memmem_1;
+  return_value_memmem_1=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
+  start = (char *)return_value_memmem_1;
   if(start == ((char *)NULL))
     return (char *)(void *)0;
 
   else
   {
     start = &start[(signed long int)3];
-    char *return_value___builtin_strchr$2;
-    return_value___builtin_strchr$2=__builtin_strchr(start, 32);
-    end = return_value___builtin_strchr$2;
+    char *return_value___builtin_strchr_2;
+    return_value___builtin_strchr_2=__builtin_strchr(start, 32);
+    end = return_value___builtin_strchr_2;
     if(end == ((char *)NULL))
       end = &cmd->cache[(signed long int)cmd->length];
 
     length = (unsigned long int)(&end[(signed long int)0] - &start[(signed long int)0]);
-    char *return_value___strndup$3;
-    return_value___strndup$3=__strndup(start, length);
-    argument = return_value___strndup$3;
+    char *return_value___strndup_3;
+    return_value___strndup_3=__strndup(start, length);
+    argument = return_value___strndup_3;
     if(length >= 1ul)
     {
       if((signed int)argument[-1l + (signed long int)length] == 10)
@@ -8187,9 +8187,9 @@ static signed int adc_msg_grow(struct adc_message *msg, unsigned long int size)
       newsize = size;
       newsize = newsize + (unsigned long int)2;
       newsize = newsize + newsize % sizeof(unsigned long int) /*8ul*/ ;
-      void *return_value_hub_malloc_zero$1;
-      return_value_hub_malloc_zero$1=hub_malloc_zero(newsize);
-      buf = (char *)return_value_hub_malloc_zero$1;
+      void *return_value_hub_malloc_zero_1;
+      return_value_hub_malloc_zero_1=hub_malloc_zero(newsize);
+      buf = (char *)return_value_hub_malloc_zero_1;
       if(buf == ((char *)NULL))
         return 0;
 
@@ -8220,17 +8220,17 @@ extern signed int adc_msg_has_named_argument(struct adc_message *cmd, const char
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_memmem$1;
-  return_value_memmem$1=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
-  start = (char *)return_value_memmem$1;
-  void *return_value_memmem$2;
+  void *return_value_memmem_1;
+  return_value_memmem_1=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
+  start = (char *)return_value_memmem_1;
+  void *return_value_memmem_2;
   while(!(start == ((char *)NULL)))
   {
     count = count + 1;
     if(!((unsigned long int)(start - cmd->cache) >= 1ul + cmd->length))
     {
-      return_value_memmem$2=memmem((const void *)&start[(signed long int)1], (unsigned long int)(&cmd->cache[(signed long int)cmd->length] - &start[(signed long int)0]), (const void *)prefix, (unsigned long int)3);
-      start = (char *)return_value_memmem$2;
+      return_value_memmem_2=memmem((const void *)&start[(signed long int)1], (unsigned long int)(&cmd->cache[(signed long int)cmd->length] - &start[(signed long int)0]), (const void *)prefix, (unsigned long int)3);
+      start = (char *)return_value_memmem_2;
     }
 
     else
@@ -8269,69 +8269,69 @@ extern signed int adc_msg_is_empty(struct adc_message *msg)
 extern struct adc_message * adc_msg_parse(const char *line, unsigned long int length)
 {
   struct adc_message *command;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct adc_message) /*72ul*/ );
-  command = (struct adc_message *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct adc_message) /*72ul*/ );
+  command = (struct adc_message *)return_value_hub_malloc_zero_1;
   char prefix = line[(signed long int)0];
   unsigned long int n = (unsigned long int)0;
   char temp_sid[5l];
   signed int ok = 1;
   signed int need_terminate = 0;
   struct linked_list *feature_cast_list;
-  _Bool tmp_if_expr$6;
-  signed int return_value_is_space$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_is_valid_base32_char$7;
-  _Bool tmp_if_expr$10;
-  signed int return_value_is_valid_base32_char$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_is_valid_base32_char$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_is_valid_base32_char$13;
-  _Bool tmp_if_expr$16;
-  signed int return_value_is_space$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_is_valid_base32_char$17;
-  _Bool tmp_if_expr$20;
-  signed int return_value_is_valid_base32_char$19;
-  _Bool tmp_if_expr$22;
-  signed int return_value_is_valid_base32_char$21;
-  _Bool tmp_if_expr$24;
-  signed int return_value_is_valid_base32_char$23;
-  _Bool tmp_if_expr$25;
-  unsigned long int tmp_post$26;
-  unsigned long int tmp_post$27;
-  unsigned long int tmp_post$28;
-  unsigned long int tmp_post$29;
-  unsigned long int tmp_post$30;
-  _Bool tmp_if_expr$33;
-  signed int return_value_is_space$32;
-  _Bool tmp_if_expr$35;
-  signed int return_value_is_valid_base32_char$34;
-  _Bool tmp_if_expr$37;
-  signed int return_value_is_valid_base32_char$36;
-  _Bool tmp_if_expr$39;
-  signed int return_value_is_valid_base32_char$38;
-  _Bool tmp_if_expr$41;
-  signed int return_value_is_valid_base32_char$40;
-  _Bool tmp_if_expr$43;
-  signed int return_value_is_space$42;
-  _Bool tmp_if_expr$45;
-  signed int return_value_is_valid_base32_char$44;
-  _Bool tmp_if_expr$47;
-  signed int return_value_is_valid_base32_char$46;
-  _Bool tmp_if_expr$49;
-  signed int return_value_is_valid_base32_char$48;
-  _Bool tmp_if_expr$51;
-  signed int return_value_is_valid_base32_char$50;
+  _Bool tmp_if_expr_6;
+  signed int return_value_is_space_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_is_valid_base32_char_7;
+  _Bool tmp_if_expr_10;
+  signed int return_value_is_valid_base32_char_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_is_valid_base32_char_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_is_valid_base32_char_13;
+  _Bool tmp_if_expr_16;
+  signed int return_value_is_space_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_is_valid_base32_char_17;
+  _Bool tmp_if_expr_20;
+  signed int return_value_is_valid_base32_char_19;
+  _Bool tmp_if_expr_22;
+  signed int return_value_is_valid_base32_char_21;
+  _Bool tmp_if_expr_24;
+  signed int return_value_is_valid_base32_char_23;
+  _Bool tmp_if_expr_25;
+  unsigned long int tmp_post_26;
+  unsigned long int tmp_post_27;
+  unsigned long int tmp_post_28;
+  unsigned long int tmp_post_29;
+  unsigned long int tmp_post_30;
+  _Bool tmp_if_expr_33;
+  signed int return_value_is_space_32;
+  _Bool tmp_if_expr_35;
+  signed int return_value_is_valid_base32_char_34;
+  _Bool tmp_if_expr_37;
+  signed int return_value_is_valid_base32_char_36;
+  _Bool tmp_if_expr_39;
+  signed int return_value_is_valid_base32_char_38;
+  _Bool tmp_if_expr_41;
+  signed int return_value_is_valid_base32_char_40;
+  _Bool tmp_if_expr_43;
+  signed int return_value_is_space_42;
+  _Bool tmp_if_expr_45;
+  signed int return_value_is_valid_base32_char_44;
+  _Bool tmp_if_expr_47;
+  signed int return_value_is_valid_base32_char_46;
+  _Bool tmp_if_expr_49;
+  signed int return_value_is_valid_base32_char_48;
+  _Bool tmp_if_expr_51;
+  signed int return_value_is_valid_base32_char_50;
   if(command == ((struct adc_message *)NULL))
     return (struct adc_message *)(void *)0;
 
   else
   {
-    signed int return_value_is_printable_utf8$2;
-    return_value_is_printable_utf8$2=is_printable_utf8(line, length);
-    if(return_value_is_printable_utf8$2 == 0)
+    signed int return_value_is_printable_utf8_2;
+    return_value_is_printable_utf8_2=is_printable_utf8(line, length);
+    if(return_value_is_printable_utf8_2 == 0)
     {
 
     __CPROVER_DUMP_L2:
@@ -8342,9 +8342,9 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
 
     else
     {
-      signed int return_value_msg_check_escapes$3;
-      return_value_msg_check_escapes$3=msg_check_escapes(line, length);
-      if(return_value_msg_check_escapes$3 == 0)
+      signed int return_value_msg_check_escapes_3;
+      return_value_msg_check_escapes_3=msg_check_escapes(line, length);
+      if(return_value_msg_check_escapes_3 == 0)
       {
 
       __CPROVER_DUMP_L4:
@@ -8358,9 +8358,9 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
         if(!((signed int)line[-1l + (signed long int)length] == 10))
           need_terminate = 1;
 
-        signed int return_value_adc_msg_grow$4;
-        return_value_adc_msg_grow$4=adc_msg_grow(command, length + (unsigned long int)need_terminate);
-        if(return_value_adc_msg_grow$4 == 0)
+        signed int return_value_adc_msg_grow_4;
+        return_value_adc_msg_grow_4=adc_msg_grow(command, length + (unsigned long int)need_terminate);
+        if(return_value_adc_msg_grow_4 == 0)
         {
           free((void *)command);
           return (struct adc_message *)(void *)0;
@@ -8395,45 +8395,45 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
             {
               if(length >= 9ul)
               {
-                return_value_is_space$5=is_space(line[(signed long int)4]);
-                tmp_if_expr$6 = return_value_is_space$5 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_space_5=is_space(line[(signed long int)4]);
+                tmp_if_expr_6 = return_value_is_space_5 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
               {
-                return_value_is_valid_base32_char$7=is_valid_base32_char(line[(signed long int)5]);
-                tmp_if_expr$8 = return_value_is_valid_base32_char$7 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_7=is_valid_base32_char(line[(signed long int)5]);
+                tmp_if_expr_8 = return_value_is_valid_base32_char_7 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$8 = (_Bool)0;
-              if(tmp_if_expr$8)
+                tmp_if_expr_8 = (_Bool)0;
+              if(tmp_if_expr_8)
               {
-                return_value_is_valid_base32_char$9=is_valid_base32_char(line[(signed long int)6]);
-                tmp_if_expr$10 = return_value_is_valid_base32_char$9 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_9=is_valid_base32_char(line[(signed long int)6]);
+                tmp_if_expr_10 = return_value_is_valid_base32_char_9 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$10 = (_Bool)0;
-              if(tmp_if_expr$10)
+                tmp_if_expr_10 = (_Bool)0;
+              if(tmp_if_expr_10)
               {
-                return_value_is_valid_base32_char$11=is_valid_base32_char(line[(signed long int)7]);
-                tmp_if_expr$12 = return_value_is_valid_base32_char$11 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_11=is_valid_base32_char(line[(signed long int)7]);
+                tmp_if_expr_12 = return_value_is_valid_base32_char_11 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$12 = (_Bool)0;
-              if(tmp_if_expr$12)
+                tmp_if_expr_12 = (_Bool)0;
+              if(tmp_if_expr_12)
               {
-                return_value_is_valid_base32_char$13=is_valid_base32_char(line[(signed long int)8]);
-                tmp_if_expr$14 = return_value_is_valid_base32_char$13 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_13=is_valid_base32_char(line[(signed long int)8]);
+                tmp_if_expr_14 = return_value_is_valid_base32_char_13 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$14 = (_Bool)0;
-              ok = (signed int)tmp_if_expr$14;
+                tmp_if_expr_14 = (_Bool)0;
+              ok = (signed int)tmp_if_expr_14;
               if(ok == 0)
                 break;
 
@@ -8449,45 +8449,45 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
             {
               if(length >= 9ul)
               {
-                return_value_is_space$15=is_space(line[(signed long int)4]);
-                tmp_if_expr$16 = return_value_is_space$15 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_space_15=is_space(line[(signed long int)4]);
+                tmp_if_expr_16 = return_value_is_space_15 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$16 = (_Bool)0;
-              if(tmp_if_expr$16)
+                tmp_if_expr_16 = (_Bool)0;
+              if(tmp_if_expr_16)
               {
-                return_value_is_valid_base32_char$17=is_valid_base32_char(line[(signed long int)5]);
-                tmp_if_expr$18 = return_value_is_valid_base32_char$17 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_17=is_valid_base32_char(line[(signed long int)5]);
+                tmp_if_expr_18 = return_value_is_valid_base32_char_17 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$18 = (_Bool)0;
-              if(tmp_if_expr$18)
+                tmp_if_expr_18 = (_Bool)0;
+              if(tmp_if_expr_18)
               {
-                return_value_is_valid_base32_char$19=is_valid_base32_char(line[(signed long int)6]);
-                tmp_if_expr$20 = return_value_is_valid_base32_char$19 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_19=is_valid_base32_char(line[(signed long int)6]);
+                tmp_if_expr_20 = return_value_is_valid_base32_char_19 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$20 = (_Bool)0;
-              if(tmp_if_expr$20)
+                tmp_if_expr_20 = (_Bool)0;
+              if(tmp_if_expr_20)
               {
-                return_value_is_valid_base32_char$21=is_valid_base32_char(line[(signed long int)7]);
-                tmp_if_expr$22 = return_value_is_valid_base32_char$21 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_21=is_valid_base32_char(line[(signed long int)7]);
+                tmp_if_expr_22 = return_value_is_valid_base32_char_21 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$22 = (_Bool)0;
-              if(tmp_if_expr$22)
+                tmp_if_expr_22 = (_Bool)0;
+              if(tmp_if_expr_22)
               {
-                return_value_is_valid_base32_char$23=is_valid_base32_char(line[(signed long int)8]);
-                tmp_if_expr$24 = return_value_is_valid_base32_char$23 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_23=is_valid_base32_char(line[(signed long int)8]);
+                tmp_if_expr_24 = return_value_is_valid_base32_char_23 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$24 = (_Bool)0;
-              ok = (signed int)tmp_if_expr$24;
+                tmp_if_expr_24 = (_Bool)0;
+              ok = (signed int)tmp_if_expr_24;
               if(ok == 0)
                 break;
 
@@ -8500,11 +8500,11 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
               command->feature_cast_include=list_create();
               command->feature_cast_exclude=list_create();
               if(command->feature_cast_include == ((struct linked_list *)NULL))
-                tmp_if_expr$25 = (_Bool)1;
+                tmp_if_expr_25 = (_Bool)1;
 
               else
-                tmp_if_expr$25 = !(command->feature_cast_exclude != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$25)
+                tmp_if_expr_25 = !(command->feature_cast_exclude != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_25)
               {
                 list_destroy(command->feature_cast_include);
                 list_destroy(command->feature_cast_exclude);
@@ -8523,29 +8523,29 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
 
                 }
 
-                tmp_post$26 = n;
+                tmp_post_26 = n;
                 n = n + 1ul;
-                if((signed int)line[(signed long int)tmp_post$26] == 43)
+                if((signed int)line[(signed long int)tmp_post_26] == 43)
                   feature_cast_list = command->feature_cast_include;
 
                 else
                   feature_cast_list = command->feature_cast_exclude;
-                tmp_post$27 = n;
+                tmp_post_27 = n;
                 n = n + 1ul;
-                temp_sid[(signed long int)0] = line[(signed long int)tmp_post$27];
-                tmp_post$28 = n;
+                temp_sid[(signed long int)0] = line[(signed long int)tmp_post_27];
+                tmp_post_28 = n;
                 n = n + 1ul;
-                temp_sid[(signed long int)1] = line[(signed long int)tmp_post$28];
-                tmp_post$29 = n;
+                temp_sid[(signed long int)1] = line[(signed long int)tmp_post_28];
+                tmp_post_29 = n;
                 n = n + 1ul;
-                temp_sid[(signed long int)2] = line[(signed long int)tmp_post$29];
-                tmp_post$30 = n;
+                temp_sid[(signed long int)2] = line[(signed long int)tmp_post_29];
+                tmp_post_30 = n;
                 n = n + 1ul;
-                temp_sid[(signed long int)3] = line[(signed long int)tmp_post$30];
+                temp_sid[(signed long int)3] = line[(signed long int)tmp_post_30];
                 temp_sid[(signed long int)4] = (char)0;
-                char *return_value___strdup$31;
-                return_value___strdup$31=__strdup(temp_sid);
-                list_append(feature_cast_list, (void *)return_value___strdup$31);
+                char *return_value___strdup_31;
+                return_value___strdup_31=__strdup(temp_sid);
+                list_append(feature_cast_list, (void *)return_value___strdup_31);
               }
 
             __CPROVER_DUMP_L41:
@@ -8561,85 +8561,85 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
             {
               if(length >= 14ul)
               {
-                return_value_is_space$32=is_space(line[(signed long int)4]);
-                tmp_if_expr$33 = return_value_is_space$32 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_space_32=is_space(line[(signed long int)4]);
+                tmp_if_expr_33 = return_value_is_space_32 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$33 = (_Bool)0;
-              if(tmp_if_expr$33)
+                tmp_if_expr_33 = (_Bool)0;
+              if(tmp_if_expr_33)
               {
-                return_value_is_valid_base32_char$34=is_valid_base32_char(line[(signed long int)5]);
-                tmp_if_expr$35 = return_value_is_valid_base32_char$34 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_34=is_valid_base32_char(line[(signed long int)5]);
+                tmp_if_expr_35 = return_value_is_valid_base32_char_34 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$35 = (_Bool)0;
-              if(tmp_if_expr$35)
+                tmp_if_expr_35 = (_Bool)0;
+              if(tmp_if_expr_35)
               {
-                return_value_is_valid_base32_char$36=is_valid_base32_char(line[(signed long int)6]);
-                tmp_if_expr$37 = return_value_is_valid_base32_char$36 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_36=is_valid_base32_char(line[(signed long int)6]);
+                tmp_if_expr_37 = return_value_is_valid_base32_char_36 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$37 = (_Bool)0;
-              if(tmp_if_expr$37)
+                tmp_if_expr_37 = (_Bool)0;
+              if(tmp_if_expr_37)
               {
-                return_value_is_valid_base32_char$38=is_valid_base32_char(line[(signed long int)7]);
-                tmp_if_expr$39 = return_value_is_valid_base32_char$38 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_38=is_valid_base32_char(line[(signed long int)7]);
+                tmp_if_expr_39 = return_value_is_valid_base32_char_38 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$39 = (_Bool)0;
-              if(tmp_if_expr$39)
+                tmp_if_expr_39 = (_Bool)0;
+              if(tmp_if_expr_39)
               {
-                return_value_is_valid_base32_char$40=is_valid_base32_char(line[(signed long int)8]);
-                tmp_if_expr$41 = return_value_is_valid_base32_char$40 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_40=is_valid_base32_char(line[(signed long int)8]);
+                tmp_if_expr_41 = return_value_is_valid_base32_char_40 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$41 = (_Bool)0;
-              if(tmp_if_expr$41)
+                tmp_if_expr_41 = (_Bool)0;
+              if(tmp_if_expr_41)
               {
-                return_value_is_space$42=is_space(line[(signed long int)9]);
-                tmp_if_expr$43 = return_value_is_space$42 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_space_42=is_space(line[(signed long int)9]);
+                tmp_if_expr_43 = return_value_is_space_42 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$43 = (_Bool)0;
-              if(tmp_if_expr$43)
+                tmp_if_expr_43 = (_Bool)0;
+              if(tmp_if_expr_43)
               {
-                return_value_is_valid_base32_char$44=is_valid_base32_char(line[(signed long int)10]);
-                tmp_if_expr$45 = return_value_is_valid_base32_char$44 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_44=is_valid_base32_char(line[(signed long int)10]);
+                tmp_if_expr_45 = return_value_is_valid_base32_char_44 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$45 = (_Bool)0;
-              if(tmp_if_expr$45)
+                tmp_if_expr_45 = (_Bool)0;
+              if(tmp_if_expr_45)
               {
-                return_value_is_valid_base32_char$46=is_valid_base32_char(line[(signed long int)11]);
-                tmp_if_expr$47 = return_value_is_valid_base32_char$46 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_46=is_valid_base32_char(line[(signed long int)11]);
+                tmp_if_expr_47 = return_value_is_valid_base32_char_46 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$47 = (_Bool)0;
-              if(tmp_if_expr$47)
+                tmp_if_expr_47 = (_Bool)0;
+              if(tmp_if_expr_47)
               {
-                return_value_is_valid_base32_char$48=is_valid_base32_char(line[(signed long int)12]);
-                tmp_if_expr$49 = return_value_is_valid_base32_char$48 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_48=is_valid_base32_char(line[(signed long int)12]);
+                tmp_if_expr_49 = return_value_is_valid_base32_char_48 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$49 = (_Bool)0;
-              if(tmp_if_expr$49)
+                tmp_if_expr_49 = (_Bool)0;
+              if(tmp_if_expr_49)
               {
-                return_value_is_valid_base32_char$50=is_valid_base32_char(line[(signed long int)13]);
-                tmp_if_expr$51 = return_value_is_valid_base32_char$50 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_is_valid_base32_char_50=is_valid_base32_char(line[(signed long int)13]);
+                tmp_if_expr_51 = return_value_is_valid_base32_char_50 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$51 = (_Bool)0;
-              ok = (signed int)tmp_if_expr$51;
+                tmp_if_expr_51 = (_Bool)0;
+              ok = (signed int)tmp_if_expr_51;
               if(ok == 0)
                 break;
 
@@ -8671,9 +8671,9 @@ extern struct adc_message * adc_msg_parse(const char *line, unsigned long int le
 
           else
           {
-            signed int return_value_adc_msg_get_arg_offset$52;
-            return_value_adc_msg_get_arg_offset$52=adc_msg_get_arg_offset(command);
-            n = (unsigned long int)return_value_adc_msg_get_arg_offset$52;
+            signed int return_value_adc_msg_get_arg_offset_52;
+            return_value_adc_msg_get_arg_offset_52=adc_msg_get_arg_offset(command);
+            n = (unsigned long int)return_value_adc_msg_get_arg_offset_52;
             if((signed int)command->cache[(signed long int)n] == 32)
             {
               if((signed int)command->cache[1l + (signed long int)n] == 32)
@@ -8713,7 +8713,7 @@ extern struct adc_message * adc_msg_parse_verify(struct hub_user *u, const char 
 {
   struct adc_message *command;
   command=adc_msg_parse(line, length);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(command == ((struct adc_message *)NULL))
     return ((struct adc_message *)NULL);
 
@@ -8721,11 +8721,11 @@ extern struct adc_message * adc_msg_parse_verify(struct hub_user *u, const char 
     if(!(command->source == 0u))
     {
       if(u == ((struct hub_user *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = command->source != u->id.sid ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = command->source != u->id.sid ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_1)
         goto __CPROVER_DUMP_L5;
 
 
@@ -8758,17 +8758,17 @@ extern signed int adc_msg_remove_named_argument(struct adc_message *cmd, const c
   arg_offset=adc_msg_get_arg_offset(cmd);
   unsigned long int temp_len = (unsigned long int)0;
   adc_msg_unterminate(cmd);
-  void *return_value_memmem$1;
-  return_value_memmem$1=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
-  start = (char *)return_value_memmem$1;
+  void *return_value_memmem_1;
+  return_value_memmem_1=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
+  start = (char *)return_value_memmem_1;
   while(!(start == ((char *)NULL)))
   {
     endInfo = &cmd->cache[(signed long int)cmd->length];
     if(!(start >= endInfo))
     {
-      void *return_value_memchr$2;
-      return_value_memchr$2=memchr((const void *)&start[(signed long int)1], 32, (unsigned long int)(&endInfo[(signed long int)0] - &start[(signed long int)1]));
-      end = (char *)return_value_memchr$2;
+      void *return_value_memchr_2;
+      return_value_memchr_2=memchr((const void *)&start[(signed long int)1], 32, (unsigned long int)(&endInfo[(signed long int)0] - &start[(signed long int)1]));
+      end = (char *)return_value_memchr_2;
     }
 
     else
@@ -8786,15 +8786,15 @@ extern signed int adc_msg_remove_named_argument(struct adc_message *cmd, const c
     else
     {
       found = found + 1;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(start);
-      adc_msg_set_length(cmd, cmd->length - return_value_strlen$3);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(start);
+      adc_msg_set_length(cmd, cmd->length - return_value_strlen_3);
       start[(signed long int)0] = (char)0;
       break;
     }
-    void *return_value_memmem$4;
-    return_value_memmem$4=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
-    start = (char *)return_value_memmem$4;
+    void *return_value_memmem_4;
+    return_value_memmem_4=memmem((const void *)&cmd->cache[(signed long int)arg_offset], cmd->length - (unsigned long int)arg_offset, (const void *)prefix, (unsigned long int)3);
+    start = (char *)return_value_memmem_4;
   }
   adc_msg_terminate(cmd);
   return found;
@@ -8807,19 +8807,19 @@ extern signed int adc_msg_replace_named_argument(struct adc_message *cmd, const 
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_adc_msg_has_named_argument$1;
+  signed int return_value_adc_msg_has_named_argument_1;
   do
   {
-    return_value_adc_msg_has_named_argument$1=adc_msg_has_named_argument(cmd, prefix);
-    if(return_value_adc_msg_has_named_argument$1 == 0)
+    return_value_adc_msg_has_named_argument_1=adc_msg_has_named_argument(cmd, prefix);
+    if(return_value_adc_msg_has_named_argument_1 == 0)
       break;
 
     adc_msg_remove_named_argument(cmd, prefix);
   }
   while((_Bool)1);
-  signed int return_value_adc_msg_add_named_argument$2;
-  return_value_adc_msg_add_named_argument$2=adc_msg_add_named_argument(cmd, prefix, string);
-  if(return_value_adc_msg_add_named_argument$2 == -1)
+  signed int return_value_adc_msg_add_named_argument_2;
+  return_value_adc_msg_add_named_argument_2=adc_msg_add_named_argument(cmd, prefix, string);
+  if(return_value_adc_msg_add_named_argument_2 == -1)
     return -1;
 
   else
@@ -8855,50 +8855,50 @@ __CPROVER_DUMP_L1:
 extern char * adc_msg_unescape(const char *string)
 {
   char *new_string;
-  signed int return_value_adc_msg_unescape_length$1;
-  return_value_adc_msg_unescape_length$1=adc_msg_unescape_length(string);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(return_value_adc_msg_unescape_length$1 + 1));
-  new_string = (char *)return_value_malloc$2;
+  signed int return_value_adc_msg_unescape_length_1;
+  return_value_adc_msg_unescape_length_1=adc_msg_unescape_length(string);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(return_value_adc_msg_unescape_length_1 + 1));
+  new_string = (char *)return_value_malloc_2;
   char *ptr = (char *)new_string;
   char *str = (char *)string;
   signed int escaped = 0;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
   for( ; !(*str == 0); str = str + 1l)
     if(!(escaped == 0))
     {
       if((signed int)*str == 115)
       {
-        tmp_post$3 = ptr;
+        tmp_post_3 = ptr;
         ptr = ptr + 1l;
-        *tmp_post$3 = (char)32;
+        *tmp_post_3 = (char)32;
       }
 
       else
         if((signed int)*str == 92)
         {
-          tmp_post$4 = ptr;
+          tmp_post_4 = ptr;
           ptr = ptr + 1l;
-          *tmp_post$4 = (char)92;
+          *tmp_post_4 = (char)92;
         }
 
         else
           if((signed int)*str == 110)
           {
-            tmp_post$5 = ptr;
+            tmp_post_5 = ptr;
             ptr = ptr + 1l;
-            *tmp_post$5 = (char)10;
+            *tmp_post_5 = (char)10;
           }
 
           else
           {
-            tmp_post$6 = ptr;
+            tmp_post_6 = ptr;
             ptr = ptr + 1l;
-            *tmp_post$6 = *str;
+            *tmp_post_6 = *str;
           }
       escaped = 0;
     }
@@ -8909,9 +8909,9 @@ extern char * adc_msg_unescape(const char *string)
 
       else
       {
-        tmp_post$7 = ptr;
+        tmp_post_7 = ptr;
         ptr = ptr + 1l;
-        *tmp_post$7 = *str;
+        *tmp_post_7 = *str;
       }
   *ptr = (char)0;
   return new_string;
@@ -8946,11 +8946,11 @@ extern signed int adc_msg_unescape_to_target(const char *string, char *target, u
   char *ptr = (char *)target;
   char *str = (char *)string;
   signed int escaped = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
   for( ; !(*str == 0); str = str + 1l)
   {
     if(w >= target_size + 18446744073709551615ul)
@@ -8960,32 +8960,32 @@ extern signed int adc_msg_unescape_to_target(const char *string, char *target, u
     {
       if((signed int)*str == 115)
       {
-        tmp_post$1 = ptr;
+        tmp_post_1 = ptr;
         ptr = ptr + 1l;
-        *tmp_post$1 = (char)32;
+        *tmp_post_1 = (char)32;
       }
 
       else
         if((signed int)*str == 92)
         {
-          tmp_post$2 = ptr;
+          tmp_post_2 = ptr;
           ptr = ptr + 1l;
-          *tmp_post$2 = (char)92;
+          *tmp_post_2 = (char)92;
         }
 
         else
           if((signed int)*str == 110)
           {
-            tmp_post$3 = ptr;
+            tmp_post_3 = ptr;
             ptr = ptr + 1l;
-            *tmp_post$3 = (char)10;
+            *tmp_post_3 = (char)10;
           }
 
           else
           {
-            tmp_post$4 = ptr;
+            tmp_post_4 = ptr;
             ptr = ptr + 1l;
-            *tmp_post$4 = *str;
+            *tmp_post_4 = *str;
           }
       w = w + 1ul;
       escaped = 0;
@@ -8997,9 +8997,9 @@ extern signed int adc_msg_unescape_to_target(const char *string, char *target, u
 
       else
       {
-        tmp_post$5 = ptr;
+        tmp_post_5 = ptr;
         ptr = ptr + 1l;
-        *tmp_post$5 = *str;
+        *tmp_post_5 = *str;
         w = w + 1ul;
       }
   }
@@ -9032,9 +9032,9 @@ __CPROVER_DUMP_L1:
 static struct command_handle * add_builtin(struct command_base *cbase, const char *prefix, const char *args, enum auth_credentials cred, signed int (*handler)(struct command_base *, struct hub_user *, struct hub_command *), const char *description)
 {
   struct command_handle *handle;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct command_handle) /*64ul*/ );
-  handle = (struct command_handle *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct command_handle) /*64ul*/ );
+  handle = (struct command_handle *)return_value_hub_malloc_zero_1;
   handle->prefix = prefix;
   handle->length=strlen(prefix);
   handle->args = args;
@@ -9064,20 +9064,20 @@ static void add_io_stats(struct net_ssl_openssl *handle)
 
 }
 
-// add_io_stats$link1
+// add_io_stats_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 81
-static void add_io_stats$link1(struct net_ssl_openssl *handle$link1)
+static void add_io_stats_link1(struct net_ssl_openssl *handle_link1)
 {
-  if(!(handle$link1->bytes_rx >= handle$link1->bio->num_read))
+  if(!(handle_link1->bytes_rx >= handle_link1->bio->num_read))
   {
-    net_stats_add_rx(handle$link1->bio->num_read - handle$link1->bytes_rx);
-    handle$link1->bytes_rx = handle$link1->bio->num_read;
+    net_stats_add_rx(handle_link1->bio->num_read - handle_link1->bytes_rx);
+    handle_link1->bytes_rx = handle_link1->bio->num_read;
   }
 
-  if(!(handle$link1->bytes_tx >= handle$link1->bio->num_write))
+  if(!(handle_link1->bytes_tx >= handle_link1->bio->num_write))
   {
-    net_stats_add_tx(handle$link1->bio->num_write - handle$link1->bytes_tx);
-    handle$link1->bytes_tx = handle$link1->bio->num_write;
+    net_stats_add_tx(handle_link1->bio->num_write - handle_link1->bytes_tx);
+    handle_link1->bytes_tx = handle_link1->bio->num_write;
   }
 
 }
@@ -9111,9 +9111,9 @@ __CPROVER_DUMP_L2:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/config.c line 32
 static signed int apply_boolean(const char *key, const char *data, signed int *target)
 {
-  signed int return_value_string_to_boolean$1;
-  return_value_string_to_boolean$1=string_to_boolean(data, target);
-  return return_value_string_to_boolean$1;
+  signed int return_value_string_to_boolean_1;
+  return_value_string_to_boolean_1=string_to_boolean(data, target);
+  return return_value_string_to_boolean_1;
 }
 
 // apply_config
@@ -9122,17 +9122,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
 {
   signed int max = 0;
   signed int min = 0;
-  signed int tmp_statement_expression$2;
-  unsigned long int apply_config$$1$$1$$__s1_len;
-  unsigned long int apply_config$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$3;
-  return_value___builtin_strcmp$3=__builtin_strcmp(key, "hub_enabled");
-  tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-  if(tmp_statement_expression$2 == 0)
+  signed int tmp_statement_expression_2;
+  unsigned long int apply_config__1__1____s1_len;
+  unsigned long int apply_config__1__1____s2_len;
+  signed int return_value___builtin_strcmp_3;
+  return_value___builtin_strcmp_3=__builtin_strcmp(key, "hub_enabled");
+  tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+  if(tmp_statement_expression_2 == 0)
   {
-    signed int return_value_apply_boolean$1;
-    return_value_apply_boolean$1=apply_boolean(key, data, &config->hub_enabled);
-    if(return_value_apply_boolean$1 == 0)
+    signed int return_value_apply_boolean_1;
+    return_value_apply_boolean_1=apply_boolean(key, data, &config->hub_enabled);
+    if(return_value_apply_boolean_1 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9141,19 +9141,19 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$5;
-  unsigned long int apply_config$$1$$3$$__s1_len;
-  unsigned long int apply_config$$1$$3$$__s2_len;
-  signed int return_value___builtin_strcmp$6;
-  return_value___builtin_strcmp$6=__builtin_strcmp(key, "server_port");
-  tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-  if(tmp_statement_expression$5 == 0)
+  signed int tmp_statement_expression_5;
+  unsigned long int apply_config__1__3____s1_len;
+  unsigned long int apply_config__1__3____s2_len;
+  signed int return_value___builtin_strcmp_6;
+  return_value___builtin_strcmp_6=__builtin_strcmp(key, "server_port");
+  tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+  if(tmp_statement_expression_5 == 0)
   {
     min = 1;
     max = 65535;
-    signed int return_value_apply_integer$4;
-    return_value_apply_integer$4=apply_integer(key, data, &config->server_port, &min, &max);
-    if(return_value_apply_integer$4 == 0)
+    signed int return_value_apply_integer_4;
+    return_value_apply_integer_4=apply_integer(key, data, &config->server_port, &min, &max);
+    if(return_value_apply_integer_4 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9162,17 +9162,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$8;
-  unsigned long int apply_config$$1$$5$$__s1_len;
-  unsigned long int apply_config$$1$$5$$__s2_len;
-  signed int return_value___builtin_strcmp$9;
-  return_value___builtin_strcmp$9=__builtin_strcmp(key, "server_bind_addr");
-  tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-  if(tmp_statement_expression$8 == 0)
+  signed int tmp_statement_expression_8;
+  unsigned long int apply_config__1__5____s1_len;
+  unsigned long int apply_config__1__5____s2_len;
+  signed int return_value___builtin_strcmp_9;
+  return_value___builtin_strcmp_9=__builtin_strcmp(key, "server_bind_addr");
+  tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+  if(tmp_statement_expression_8 == 0)
   {
-    signed int return_value_apply_string$7;
-    return_value_apply_string$7=apply_string(key, data, &config->server_bind_addr, (char *)"");
-    if(return_value_apply_string$7 == 0)
+    signed int return_value_apply_string_7;
+    return_value_apply_string_7=apply_string(key, data, &config->server_bind_addr, (char *)"");
+    if(return_value_apply_string_7 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9181,18 +9181,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$11;
-  unsigned long int apply_config$$1$$7$$__s1_len;
-  unsigned long int apply_config$$1$$7$$__s2_len;
-  signed int return_value___builtin_strcmp$12;
-  return_value___builtin_strcmp$12=__builtin_strcmp(key, "server_listen_backlog");
-  tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-  if(tmp_statement_expression$11 == 0)
+  signed int tmp_statement_expression_11;
+  unsigned long int apply_config__1__7____s1_len;
+  unsigned long int apply_config__1__7____s2_len;
+  signed int return_value___builtin_strcmp_12;
+  return_value___builtin_strcmp_12=__builtin_strcmp(key, "server_listen_backlog");
+  tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+  if(tmp_statement_expression_11 == 0)
   {
     min = 5;
-    signed int return_value_apply_integer$10;
-    return_value_apply_integer$10=apply_integer(key, data, &config->server_listen_backlog, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$10 == 0)
+    signed int return_value_apply_integer_10;
+    return_value_apply_integer_10=apply_integer(key, data, &config->server_listen_backlog, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_10 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9201,17 +9201,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$14;
-  unsigned long int apply_config$$1$$9$$__s1_len;
-  unsigned long int apply_config$$1$$9$$__s2_len;
-  signed int return_value___builtin_strcmp$15;
-  return_value___builtin_strcmp$15=__builtin_strcmp(key, "server_alt_ports");
-  tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-  if(tmp_statement_expression$14 == 0)
+  signed int tmp_statement_expression_14;
+  unsigned long int apply_config__1__9____s1_len;
+  unsigned long int apply_config__1__9____s2_len;
+  signed int return_value___builtin_strcmp_15;
+  return_value___builtin_strcmp_15=__builtin_strcmp(key, "server_alt_ports");
+  tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+  if(tmp_statement_expression_14 == 0)
   {
-    signed int return_value_apply_string$13;
-    return_value_apply_string$13=apply_string(key, data, &config->server_alt_ports, (char *)"");
-    if(return_value_apply_string$13 == 0)
+    signed int return_value_apply_string_13;
+    return_value_apply_string_13=apply_string(key, data, &config->server_alt_ports, (char *)"");
+    if(return_value_apply_string_13 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9220,17 +9220,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$17;
-  unsigned long int apply_config$$1$$11$$__s1_len;
-  unsigned long int apply_config$$1$$11$$__s2_len;
-  signed int return_value___builtin_strcmp$18;
-  return_value___builtin_strcmp$18=__builtin_strcmp(key, "show_banner");
-  tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-  if(tmp_statement_expression$17 == 0)
+  signed int tmp_statement_expression_17;
+  unsigned long int apply_config__1__11____s1_len;
+  unsigned long int apply_config__1__11____s2_len;
+  signed int return_value___builtin_strcmp_18;
+  return_value___builtin_strcmp_18=__builtin_strcmp(key, "show_banner");
+  tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+  if(tmp_statement_expression_17 == 0)
   {
-    signed int return_value_apply_boolean$16;
-    return_value_apply_boolean$16=apply_boolean(key, data, &config->show_banner);
-    if(return_value_apply_boolean$16 == 0)
+    signed int return_value_apply_boolean_16;
+    return_value_apply_boolean_16=apply_boolean(key, data, &config->show_banner);
+    if(return_value_apply_boolean_16 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9239,17 +9239,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$20;
-  unsigned long int apply_config$$1$$13$$__s1_len;
-  unsigned long int apply_config$$1$$13$$__s2_len;
-  signed int return_value___builtin_strcmp$21;
-  return_value___builtin_strcmp$21=__builtin_strcmp(key, "show_banner_sys_info");
-  tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-  if(tmp_statement_expression$20 == 0)
+  signed int tmp_statement_expression_20;
+  unsigned long int apply_config__1__13____s1_len;
+  unsigned long int apply_config__1__13____s2_len;
+  signed int return_value___builtin_strcmp_21;
+  return_value___builtin_strcmp_21=__builtin_strcmp(key, "show_banner_sys_info");
+  tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+  if(tmp_statement_expression_20 == 0)
   {
-    signed int return_value_apply_boolean$19;
-    return_value_apply_boolean$19=apply_boolean(key, data, &config->show_banner_sys_info);
-    if(return_value_apply_boolean$19 == 0)
+    signed int return_value_apply_boolean_19;
+    return_value_apply_boolean_19=apply_boolean(key, data, &config->show_banner_sys_info);
+    if(return_value_apply_boolean_19 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9258,19 +9258,19 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$23;
-  unsigned long int apply_config$$1$$15$$__s1_len;
-  unsigned long int apply_config$$1$$15$$__s2_len;
-  signed int return_value___builtin_strcmp$24;
-  return_value___builtin_strcmp$24=__builtin_strcmp(key, "max_users");
-  tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-  if(tmp_statement_expression$23 == 0)
+  signed int tmp_statement_expression_23;
+  unsigned long int apply_config__1__15____s1_len;
+  unsigned long int apply_config__1__15____s2_len;
+  signed int return_value___builtin_strcmp_24;
+  return_value___builtin_strcmp_24=__builtin_strcmp(key, "max_users");
+  tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+  if(tmp_statement_expression_23 == 0)
   {
     min = 1;
     max = 1048576;
-    signed int return_value_apply_integer$22;
-    return_value_apply_integer$22=apply_integer(key, data, &config->max_users, &min, &max);
-    if(return_value_apply_integer$22 == 0)
+    signed int return_value_apply_integer_22;
+    return_value_apply_integer_22=apply_integer(key, data, &config->max_users, &min, &max);
+    if(return_value_apply_integer_22 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9279,17 +9279,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$26;
-  unsigned long int apply_config$$1$$17$$__s1_len;
-  unsigned long int apply_config$$1$$17$$__s2_len;
-  signed int return_value___builtin_strcmp$27;
-  return_value___builtin_strcmp$27=__builtin_strcmp(key, "registered_users_only");
-  tmp_statement_expression$26 = return_value___builtin_strcmp$27;
-  if(tmp_statement_expression$26 == 0)
+  signed int tmp_statement_expression_26;
+  unsigned long int apply_config__1__17____s1_len;
+  unsigned long int apply_config__1__17____s2_len;
+  signed int return_value___builtin_strcmp_27;
+  return_value___builtin_strcmp_27=__builtin_strcmp(key, "registered_users_only");
+  tmp_statement_expression_26 = return_value___builtin_strcmp_27;
+  if(tmp_statement_expression_26 == 0)
   {
-    signed int return_value_apply_boolean$25;
-    return_value_apply_boolean$25=apply_boolean(key, data, &config->registered_users_only);
-    if(return_value_apply_boolean$25 == 0)
+    signed int return_value_apply_boolean_25;
+    return_value_apply_boolean_25=apply_boolean(key, data, &config->registered_users_only);
+    if(return_value_apply_boolean_25 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9298,17 +9298,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$29;
-  unsigned long int apply_config$$1$$19$$__s1_len;
-  unsigned long int apply_config$$1$$19$$__s2_len;
-  signed int return_value___builtin_strcmp$30;
-  return_value___builtin_strcmp$30=__builtin_strcmp(key, "register_self");
-  tmp_statement_expression$29 = return_value___builtin_strcmp$30;
-  if(tmp_statement_expression$29 == 0)
+  signed int tmp_statement_expression_29;
+  unsigned long int apply_config__1__19____s1_len;
+  unsigned long int apply_config__1__19____s2_len;
+  signed int return_value___builtin_strcmp_30;
+  return_value___builtin_strcmp_30=__builtin_strcmp(key, "register_self");
+  tmp_statement_expression_29 = return_value___builtin_strcmp_30;
+  if(tmp_statement_expression_29 == 0)
   {
-    signed int return_value_apply_boolean$28;
-    return_value_apply_boolean$28=apply_boolean(key, data, &config->register_self);
-    if(return_value_apply_boolean$28 == 0)
+    signed int return_value_apply_boolean_28;
+    return_value_apply_boolean_28=apply_boolean(key, data, &config->register_self);
+    if(return_value_apply_boolean_28 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9317,17 +9317,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$32;
-  unsigned long int apply_config$$1$$21$$__s1_len;
-  unsigned long int apply_config$$1$$21$$__s2_len;
-  signed int return_value___builtin_strcmp$33;
-  return_value___builtin_strcmp$33=__builtin_strcmp(key, "obsolete_clients");
-  tmp_statement_expression$32 = return_value___builtin_strcmp$33;
-  if(tmp_statement_expression$32 == 0)
+  signed int tmp_statement_expression_32;
+  unsigned long int apply_config__1__21____s1_len;
+  unsigned long int apply_config__1__21____s2_len;
+  signed int return_value___builtin_strcmp_33;
+  return_value___builtin_strcmp_33=__builtin_strcmp(key, "obsolete_clients");
+  tmp_statement_expression_32 = return_value___builtin_strcmp_33;
+  if(tmp_statement_expression_32 == 0)
   {
-    signed int return_value_apply_boolean$31;
-    return_value_apply_boolean$31=apply_boolean(key, data, &config->obsolete_clients);
-    if(return_value_apply_boolean$31 == 0)
+    signed int return_value_apply_boolean_31;
+    return_value_apply_boolean_31=apply_boolean(key, data, &config->obsolete_clients);
+    if(return_value_apply_boolean_31 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9336,17 +9336,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$35;
-  unsigned long int apply_config$$1$$23$$__s1_len;
-  unsigned long int apply_config$$1$$23$$__s2_len;
-  signed int return_value___builtin_strcmp$36;
-  return_value___builtin_strcmp$36=__builtin_strcmp(key, "chat_is_privileged");
-  tmp_statement_expression$35 = return_value___builtin_strcmp$36;
-  if(tmp_statement_expression$35 == 0)
+  signed int tmp_statement_expression_35;
+  unsigned long int apply_config__1__23____s1_len;
+  unsigned long int apply_config__1__23____s2_len;
+  signed int return_value___builtin_strcmp_36;
+  return_value___builtin_strcmp_36=__builtin_strcmp(key, "chat_is_privileged");
+  tmp_statement_expression_35 = return_value___builtin_strcmp_36;
+  if(tmp_statement_expression_35 == 0)
   {
-    signed int return_value_apply_boolean$34;
-    return_value_apply_boolean$34=apply_boolean(key, data, &config->chat_is_privileged);
-    if(return_value_apply_boolean$34 == 0)
+    signed int return_value_apply_boolean_34;
+    return_value_apply_boolean_34=apply_boolean(key, data, &config->chat_is_privileged);
+    if(return_value_apply_boolean_34 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9355,17 +9355,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$38;
-  unsigned long int apply_config$$1$$25$$__s1_len;
-  unsigned long int apply_config$$1$$25$$__s2_len;
-  signed int return_value___builtin_strcmp$39;
-  return_value___builtin_strcmp$39=__builtin_strcmp(key, "hub_name");
-  tmp_statement_expression$38 = return_value___builtin_strcmp$39;
-  if(tmp_statement_expression$38 == 0)
+  signed int tmp_statement_expression_38;
+  unsigned long int apply_config__1__25____s1_len;
+  unsigned long int apply_config__1__25____s2_len;
+  signed int return_value___builtin_strcmp_39;
+  return_value___builtin_strcmp_39=__builtin_strcmp(key, "hub_name");
+  tmp_statement_expression_38 = return_value___builtin_strcmp_39;
+  if(tmp_statement_expression_38 == 0)
   {
-    signed int return_value_apply_string$37;
-    return_value_apply_string$37=apply_string(key, data, &config->hub_name, (char *)"");
-    if(return_value_apply_string$37 == 0)
+    signed int return_value_apply_string_37;
+    return_value_apply_string_37=apply_string(key, data, &config->hub_name, (char *)"");
+    if(return_value_apply_string_37 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9374,17 +9374,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$41;
-  unsigned long int apply_config$$1$$27$$__s1_len;
-  unsigned long int apply_config$$1$$27$$__s2_len;
-  signed int return_value___builtin_strcmp$42;
-  return_value___builtin_strcmp$42=__builtin_strcmp(key, "hub_description");
-  tmp_statement_expression$41 = return_value___builtin_strcmp$42;
-  if(tmp_statement_expression$41 == 0)
+  signed int tmp_statement_expression_41;
+  unsigned long int apply_config__1__27____s1_len;
+  unsigned long int apply_config__1__27____s2_len;
+  signed int return_value___builtin_strcmp_42;
+  return_value___builtin_strcmp_42=__builtin_strcmp(key, "hub_description");
+  tmp_statement_expression_41 = return_value___builtin_strcmp_42;
+  if(tmp_statement_expression_41 == 0)
   {
-    signed int return_value_apply_string$40;
-    return_value_apply_string$40=apply_string(key, data, &config->hub_description, (char *)"");
-    if(return_value_apply_string$40 == 0)
+    signed int return_value_apply_string_40;
+    return_value_apply_string_40=apply_string(key, data, &config->hub_description, (char *)"");
+    if(return_value_apply_string_40 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9393,17 +9393,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$44;
-  unsigned long int apply_config$$1$$29$$__s1_len;
-  unsigned long int apply_config$$1$$29$$__s2_len;
-  signed int return_value___builtin_strcmp$45;
-  return_value___builtin_strcmp$45=__builtin_strcmp(key, "redirect_addr");
-  tmp_statement_expression$44 = return_value___builtin_strcmp$45;
-  if(tmp_statement_expression$44 == 0)
+  signed int tmp_statement_expression_44;
+  unsigned long int apply_config__1__29____s1_len;
+  unsigned long int apply_config__1__29____s2_len;
+  signed int return_value___builtin_strcmp_45;
+  return_value___builtin_strcmp_45=__builtin_strcmp(key, "redirect_addr");
+  tmp_statement_expression_44 = return_value___builtin_strcmp_45;
+  if(tmp_statement_expression_44 == 0)
   {
-    signed int return_value_apply_string$43;
-    return_value_apply_string$43=apply_string(key, data, &config->redirect_addr, (char *)"");
-    if(return_value_apply_string$43 == 0)
+    signed int return_value_apply_string_43;
+    return_value_apply_string_43=apply_string(key, data, &config->redirect_addr, (char *)"");
+    if(return_value_apply_string_43 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9412,19 +9412,19 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$47;
-  unsigned long int apply_config$$1$$31$$__s1_len;
-  unsigned long int apply_config$$1$$31$$__s2_len;
-  signed int return_value___builtin_strcmp$48;
-  return_value___builtin_strcmp$48=__builtin_strcmp(key, "max_recv_buffer");
-  tmp_statement_expression$47 = return_value___builtin_strcmp$48;
-  if(tmp_statement_expression$47 == 0)
+  signed int tmp_statement_expression_47;
+  unsigned long int apply_config__1__31____s1_len;
+  unsigned long int apply_config__1__31____s2_len;
+  signed int return_value___builtin_strcmp_48;
+  return_value___builtin_strcmp_48=__builtin_strcmp(key, "max_recv_buffer");
+  tmp_statement_expression_47 = return_value___builtin_strcmp_48;
+  if(tmp_statement_expression_47 == 0)
   {
     min = 1024;
     max = 1048576;
-    signed int return_value_apply_integer$46;
-    return_value_apply_integer$46=apply_integer(key, data, &config->max_recv_buffer, &min, &max);
-    if(return_value_apply_integer$46 == 0)
+    signed int return_value_apply_integer_46;
+    return_value_apply_integer_46=apply_integer(key, data, &config->max_recv_buffer, &min, &max);
+    if(return_value_apply_integer_46 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9433,18 +9433,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$50;
-  unsigned long int apply_config$$1$$33$$__s1_len;
-  unsigned long int apply_config$$1$$33$$__s2_len;
-  signed int return_value___builtin_strcmp$51;
-  return_value___builtin_strcmp$51=__builtin_strcmp(key, "max_send_buffer");
-  tmp_statement_expression$50 = return_value___builtin_strcmp$51;
-  if(tmp_statement_expression$50 == 0)
+  signed int tmp_statement_expression_50;
+  unsigned long int apply_config__1__33____s1_len;
+  unsigned long int apply_config__1__33____s2_len;
+  signed int return_value___builtin_strcmp_51;
+  return_value___builtin_strcmp_51=__builtin_strcmp(key, "max_send_buffer");
+  tmp_statement_expression_50 = return_value___builtin_strcmp_51;
+  if(tmp_statement_expression_50 == 0)
   {
     min = 2048;
-    signed int return_value_apply_integer$49;
-    return_value_apply_integer$49=apply_integer(key, data, &config->max_send_buffer, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$49 == 0)
+    signed int return_value_apply_integer_49;
+    return_value_apply_integer_49=apply_integer(key, data, &config->max_send_buffer, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_49 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9453,18 +9453,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$53;
-  unsigned long int apply_config$$1$$35$$__s1_len;
-  unsigned long int apply_config$$1$$35$$__s2_len;
-  signed int return_value___builtin_strcmp$54;
-  return_value___builtin_strcmp$54=__builtin_strcmp(key, "max_send_buffer_soft");
-  tmp_statement_expression$53 = return_value___builtin_strcmp$54;
-  if(tmp_statement_expression$53 == 0)
+  signed int tmp_statement_expression_53;
+  unsigned long int apply_config__1__35____s1_len;
+  unsigned long int apply_config__1__35____s2_len;
+  signed int return_value___builtin_strcmp_54;
+  return_value___builtin_strcmp_54=__builtin_strcmp(key, "max_send_buffer_soft");
+  tmp_statement_expression_53 = return_value___builtin_strcmp_54;
+  if(tmp_statement_expression_53 == 0)
   {
     min = 1024;
-    signed int return_value_apply_integer$52;
-    return_value_apply_integer$52=apply_integer(key, data, &config->max_send_buffer_soft, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$52 == 0)
+    signed int return_value_apply_integer_52;
+    return_value_apply_integer_52=apply_integer(key, data, &config->max_send_buffer_soft, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_52 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9473,17 +9473,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$56;
-  unsigned long int apply_config$$1$$37$$__s1_len;
-  unsigned long int apply_config$$1$$37$$__s2_len;
-  signed int return_value___builtin_strcmp$57;
-  return_value___builtin_strcmp$57=__builtin_strcmp(key, "low_bandwidth_mode");
-  tmp_statement_expression$56 = return_value___builtin_strcmp$57;
-  if(tmp_statement_expression$56 == 0)
+  signed int tmp_statement_expression_56;
+  unsigned long int apply_config__1__37____s1_len;
+  unsigned long int apply_config__1__37____s2_len;
+  signed int return_value___builtin_strcmp_57;
+  return_value___builtin_strcmp_57=__builtin_strcmp(key, "low_bandwidth_mode");
+  tmp_statement_expression_56 = return_value___builtin_strcmp_57;
+  if(tmp_statement_expression_56 == 0)
   {
-    signed int return_value_apply_boolean$55;
-    return_value_apply_boolean$55=apply_boolean(key, data, &config->low_bandwidth_mode);
-    if(return_value_apply_boolean$55 == 0)
+    signed int return_value_apply_boolean_55;
+    return_value_apply_boolean_55=apply_boolean(key, data, &config->low_bandwidth_mode);
+    if(return_value_apply_boolean_55 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9492,19 +9492,19 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$59;
-  unsigned long int apply_config$$1$$39$$__s1_len;
-  unsigned long int apply_config$$1$$39$$__s2_len;
-  signed int return_value___builtin_strcmp$60;
-  return_value___builtin_strcmp$60=__builtin_strcmp(key, "max_chat_history");
-  tmp_statement_expression$59 = return_value___builtin_strcmp$60;
-  if(tmp_statement_expression$59 == 0)
+  signed int tmp_statement_expression_59;
+  unsigned long int apply_config__1__39____s1_len;
+  unsigned long int apply_config__1__39____s2_len;
+  signed int return_value___builtin_strcmp_60;
+  return_value___builtin_strcmp_60=__builtin_strcmp(key, "max_chat_history");
+  tmp_statement_expression_59 = return_value___builtin_strcmp_60;
+  if(tmp_statement_expression_59 == 0)
   {
     min = 0;
     max = 250;
-    signed int return_value_apply_integer$58;
-    return_value_apply_integer$58=apply_integer(key, data, &config->max_chat_history, &min, &max);
-    if(return_value_apply_integer$58 == 0)
+    signed int return_value_apply_integer_58;
+    return_value_apply_integer_58=apply_integer(key, data, &config->max_chat_history, &min, &max);
+    if(return_value_apply_integer_58 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9513,19 +9513,19 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$62;
-  unsigned long int apply_config$$1$$41$$__s1_len;
-  unsigned long int apply_config$$1$$41$$__s2_len;
-  signed int return_value___builtin_strcmp$63;
-  return_value___builtin_strcmp$63=__builtin_strcmp(key, "max_logout_log");
-  tmp_statement_expression$62 = return_value___builtin_strcmp$63;
-  if(tmp_statement_expression$62 == 0)
+  signed int tmp_statement_expression_62;
+  unsigned long int apply_config__1__41____s1_len;
+  unsigned long int apply_config__1__41____s2_len;
+  signed int return_value___builtin_strcmp_63;
+  return_value___builtin_strcmp_63=__builtin_strcmp(key, "max_logout_log");
+  tmp_statement_expression_62 = return_value___builtin_strcmp_63;
+  if(tmp_statement_expression_62 == 0)
   {
     min = 0;
     max = 2000;
-    signed int return_value_apply_integer$61;
-    return_value_apply_integer$61=apply_integer(key, data, &config->max_logout_log, &min, &max);
-    if(return_value_apply_integer$61 == 0)
+    signed int return_value_apply_integer_61;
+    return_value_apply_integer_61=apply_integer(key, data, &config->max_logout_log, &min, &max);
+    if(return_value_apply_integer_61 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9534,18 +9534,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$65;
-  unsigned long int apply_config$$1$$43$$__s1_len;
-  unsigned long int apply_config$$1$$43$$__s2_len;
-  signed int return_value___builtin_strcmp$66;
-  return_value___builtin_strcmp$66=__builtin_strcmp(key, "limit_max_hubs_user");
-  tmp_statement_expression$65 = return_value___builtin_strcmp$66;
-  if(tmp_statement_expression$65 == 0)
+  signed int tmp_statement_expression_65;
+  unsigned long int apply_config__1__43____s1_len;
+  unsigned long int apply_config__1__43____s2_len;
+  signed int return_value___builtin_strcmp_66;
+  return_value___builtin_strcmp_66=__builtin_strcmp(key, "limit_max_hubs_user");
+  tmp_statement_expression_65 = return_value___builtin_strcmp_66;
+  if(tmp_statement_expression_65 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$64;
-    return_value_apply_integer$64=apply_integer(key, data, &config->limit_max_hubs_user, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$64 == 0)
+    signed int return_value_apply_integer_64;
+    return_value_apply_integer_64=apply_integer(key, data, &config->limit_max_hubs_user, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_64 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9554,18 +9554,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$68;
-  unsigned long int apply_config$$1$$45$$__s1_len;
-  unsigned long int apply_config$$1$$45$$__s2_len;
-  signed int return_value___builtin_strcmp$69;
-  return_value___builtin_strcmp$69=__builtin_strcmp(key, "limit_max_hubs_reg");
-  tmp_statement_expression$68 = return_value___builtin_strcmp$69;
-  if(tmp_statement_expression$68 == 0)
+  signed int tmp_statement_expression_68;
+  unsigned long int apply_config__1__45____s1_len;
+  unsigned long int apply_config__1__45____s2_len;
+  signed int return_value___builtin_strcmp_69;
+  return_value___builtin_strcmp_69=__builtin_strcmp(key, "limit_max_hubs_reg");
+  tmp_statement_expression_68 = return_value___builtin_strcmp_69;
+  if(tmp_statement_expression_68 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$67;
-    return_value_apply_integer$67=apply_integer(key, data, &config->limit_max_hubs_reg, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$67 == 0)
+    signed int return_value_apply_integer_67;
+    return_value_apply_integer_67=apply_integer(key, data, &config->limit_max_hubs_reg, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_67 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9574,18 +9574,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$71;
-  unsigned long int apply_config$$1$$47$$__s1_len;
-  unsigned long int apply_config$$1$$47$$__s2_len;
-  signed int return_value___builtin_strcmp$72;
-  return_value___builtin_strcmp$72=__builtin_strcmp(key, "limit_max_hubs_op");
-  tmp_statement_expression$71 = return_value___builtin_strcmp$72;
-  if(tmp_statement_expression$71 == 0)
+  signed int tmp_statement_expression_71;
+  unsigned long int apply_config__1__47____s1_len;
+  unsigned long int apply_config__1__47____s2_len;
+  signed int return_value___builtin_strcmp_72;
+  return_value___builtin_strcmp_72=__builtin_strcmp(key, "limit_max_hubs_op");
+  tmp_statement_expression_71 = return_value___builtin_strcmp_72;
+  if(tmp_statement_expression_71 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$70;
-    return_value_apply_integer$70=apply_integer(key, data, &config->limit_max_hubs_op, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$70 == 0)
+    signed int return_value_apply_integer_70;
+    return_value_apply_integer_70=apply_integer(key, data, &config->limit_max_hubs_op, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_70 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9594,18 +9594,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$74;
-  unsigned long int apply_config$$1$$49$$__s1_len;
-  unsigned long int apply_config$$1$$49$$__s2_len;
-  signed int return_value___builtin_strcmp$75;
-  return_value___builtin_strcmp$75=__builtin_strcmp(key, "limit_max_hubs");
-  tmp_statement_expression$74 = return_value___builtin_strcmp$75;
-  if(tmp_statement_expression$74 == 0)
+  signed int tmp_statement_expression_74;
+  unsigned long int apply_config__1__49____s1_len;
+  unsigned long int apply_config__1__49____s2_len;
+  signed int return_value___builtin_strcmp_75;
+  return_value___builtin_strcmp_75=__builtin_strcmp(key, "limit_max_hubs");
+  tmp_statement_expression_74 = return_value___builtin_strcmp_75;
+  if(tmp_statement_expression_74 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$73;
-    return_value_apply_integer$73=apply_integer(key, data, &config->limit_max_hubs, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$73 == 0)
+    signed int return_value_apply_integer_73;
+    return_value_apply_integer_73=apply_integer(key, data, &config->limit_max_hubs, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_73 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9614,18 +9614,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$77;
-  unsigned long int apply_config$$1$$51$$__s1_len;
-  unsigned long int apply_config$$1$$51$$__s2_len;
-  signed int return_value___builtin_strcmp$78;
-  return_value___builtin_strcmp$78=__builtin_strcmp(key, "limit_min_hubs_user");
-  tmp_statement_expression$77 = return_value___builtin_strcmp$78;
-  if(tmp_statement_expression$77 == 0)
+  signed int tmp_statement_expression_77;
+  unsigned long int apply_config__1__51____s1_len;
+  unsigned long int apply_config__1__51____s2_len;
+  signed int return_value___builtin_strcmp_78;
+  return_value___builtin_strcmp_78=__builtin_strcmp(key, "limit_min_hubs_user");
+  tmp_statement_expression_77 = return_value___builtin_strcmp_78;
+  if(tmp_statement_expression_77 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$76;
-    return_value_apply_integer$76=apply_integer(key, data, &config->limit_min_hubs_user, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$76 == 0)
+    signed int return_value_apply_integer_76;
+    return_value_apply_integer_76=apply_integer(key, data, &config->limit_min_hubs_user, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_76 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9634,18 +9634,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$80;
-  unsigned long int apply_config$$1$$53$$__s1_len;
-  unsigned long int apply_config$$1$$53$$__s2_len;
-  signed int return_value___builtin_strcmp$81;
-  return_value___builtin_strcmp$81=__builtin_strcmp(key, "limit_min_hubs_reg");
-  tmp_statement_expression$80 = return_value___builtin_strcmp$81;
-  if(tmp_statement_expression$80 == 0)
+  signed int tmp_statement_expression_80;
+  unsigned long int apply_config__1__53____s1_len;
+  unsigned long int apply_config__1__53____s2_len;
+  signed int return_value___builtin_strcmp_81;
+  return_value___builtin_strcmp_81=__builtin_strcmp(key, "limit_min_hubs_reg");
+  tmp_statement_expression_80 = return_value___builtin_strcmp_81;
+  if(tmp_statement_expression_80 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$79;
-    return_value_apply_integer$79=apply_integer(key, data, &config->limit_min_hubs_reg, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$79 == 0)
+    signed int return_value_apply_integer_79;
+    return_value_apply_integer_79=apply_integer(key, data, &config->limit_min_hubs_reg, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_79 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9654,18 +9654,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$83;
-  unsigned long int apply_config$$1$$55$$__s1_len;
-  unsigned long int apply_config$$1$$55$$__s2_len;
-  signed int return_value___builtin_strcmp$84;
-  return_value___builtin_strcmp$84=__builtin_strcmp(key, "limit_min_hubs_op");
-  tmp_statement_expression$83 = return_value___builtin_strcmp$84;
-  if(tmp_statement_expression$83 == 0)
+  signed int tmp_statement_expression_83;
+  unsigned long int apply_config__1__55____s1_len;
+  unsigned long int apply_config__1__55____s2_len;
+  signed int return_value___builtin_strcmp_84;
+  return_value___builtin_strcmp_84=__builtin_strcmp(key, "limit_min_hubs_op");
+  tmp_statement_expression_83 = return_value___builtin_strcmp_84;
+  if(tmp_statement_expression_83 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$82;
-    return_value_apply_integer$82=apply_integer(key, data, &config->limit_min_hubs_op, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$82 == 0)
+    signed int return_value_apply_integer_82;
+    return_value_apply_integer_82=apply_integer(key, data, &config->limit_min_hubs_op, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_82 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9674,18 +9674,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$86;
-  unsigned long int apply_config$$1$$57$$__s1_len;
-  unsigned long int apply_config$$1$$57$$__s2_len;
-  signed int return_value___builtin_strcmp$87;
-  return_value___builtin_strcmp$87=__builtin_strcmp(key, "limit_min_share");
-  tmp_statement_expression$86 = return_value___builtin_strcmp$87;
-  if(tmp_statement_expression$86 == 0)
+  signed int tmp_statement_expression_86;
+  unsigned long int apply_config__1__57____s1_len;
+  unsigned long int apply_config__1__57____s2_len;
+  signed int return_value___builtin_strcmp_87;
+  return_value___builtin_strcmp_87=__builtin_strcmp(key, "limit_min_share");
+  tmp_statement_expression_86 = return_value___builtin_strcmp_87;
+  if(tmp_statement_expression_86 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$85;
-    return_value_apply_integer$85=apply_integer(key, data, &config->limit_min_share, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$85 == 0)
+    signed int return_value_apply_integer_85;
+    return_value_apply_integer_85=apply_integer(key, data, &config->limit_min_share, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_85 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9694,18 +9694,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$89;
-  unsigned long int apply_config$$1$$59$$__s1_len;
-  unsigned long int apply_config$$1$$59$$__s2_len;
-  signed int return_value___builtin_strcmp$90;
-  return_value___builtin_strcmp$90=__builtin_strcmp(key, "limit_max_share");
-  tmp_statement_expression$89 = return_value___builtin_strcmp$90;
-  if(tmp_statement_expression$89 == 0)
+  signed int tmp_statement_expression_89;
+  unsigned long int apply_config__1__59____s1_len;
+  unsigned long int apply_config__1__59____s2_len;
+  signed int return_value___builtin_strcmp_90;
+  return_value___builtin_strcmp_90=__builtin_strcmp(key, "limit_max_share");
+  tmp_statement_expression_89 = return_value___builtin_strcmp_90;
+  if(tmp_statement_expression_89 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$88;
-    return_value_apply_integer$88=apply_integer(key, data, &config->limit_max_share, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$88 == 0)
+    signed int return_value_apply_integer_88;
+    return_value_apply_integer_88=apply_integer(key, data, &config->limit_max_share, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_88 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9714,18 +9714,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$92;
-  unsigned long int apply_config$$1$$61$$__s1_len;
-  unsigned long int apply_config$$1$$61$$__s2_len;
-  signed int return_value___builtin_strcmp$93;
-  return_value___builtin_strcmp$93=__builtin_strcmp(key, "limit_min_slots");
-  tmp_statement_expression$92 = return_value___builtin_strcmp$93;
-  if(tmp_statement_expression$92 == 0)
+  signed int tmp_statement_expression_92;
+  unsigned long int apply_config__1__61____s1_len;
+  unsigned long int apply_config__1__61____s2_len;
+  signed int return_value___builtin_strcmp_93;
+  return_value___builtin_strcmp_93=__builtin_strcmp(key, "limit_min_slots");
+  tmp_statement_expression_92 = return_value___builtin_strcmp_93;
+  if(tmp_statement_expression_92 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$91;
-    return_value_apply_integer$91=apply_integer(key, data, &config->limit_min_slots, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$91 == 0)
+    signed int return_value_apply_integer_91;
+    return_value_apply_integer_91=apply_integer(key, data, &config->limit_min_slots, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_91 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9734,18 +9734,18 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$95;
-  unsigned long int apply_config$$1$$63$$__s1_len;
-  unsigned long int apply_config$$1$$63$$__s2_len;
-  signed int return_value___builtin_strcmp$96;
-  return_value___builtin_strcmp$96=__builtin_strcmp(key, "limit_max_slots");
-  tmp_statement_expression$95 = return_value___builtin_strcmp$96;
-  if(tmp_statement_expression$95 == 0)
+  signed int tmp_statement_expression_95;
+  unsigned long int apply_config__1__63____s1_len;
+  unsigned long int apply_config__1__63____s2_len;
+  signed int return_value___builtin_strcmp_96;
+  return_value___builtin_strcmp_96=__builtin_strcmp(key, "limit_max_slots");
+  tmp_statement_expression_95 = return_value___builtin_strcmp_96;
+  if(tmp_statement_expression_95 == 0)
   {
     min = 0;
-    signed int return_value_apply_integer$94;
-    return_value_apply_integer$94=apply_integer(key, data, &config->limit_max_slots, &min, ((signed int *)NULL));
-    if(return_value_apply_integer$94 == 0)
+    signed int return_value_apply_integer_94;
+    return_value_apply_integer_94=apply_integer(key, data, &config->limit_max_slots, &min, ((signed int *)NULL));
+    if(return_value_apply_integer_94 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9754,19 +9754,19 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$98;
-  unsigned long int apply_config$$1$$65$$__s1_len;
-  unsigned long int apply_config$$1$$65$$__s2_len;
-  signed int return_value___builtin_strcmp$99;
-  return_value___builtin_strcmp$99=__builtin_strcmp(key, "flood_ctl_interval");
-  tmp_statement_expression$98 = return_value___builtin_strcmp$99;
-  if(tmp_statement_expression$98 == 0)
+  signed int tmp_statement_expression_98;
+  unsigned long int apply_config__1__65____s1_len;
+  unsigned long int apply_config__1__65____s2_len;
+  signed int return_value___builtin_strcmp_99;
+  return_value___builtin_strcmp_99=__builtin_strcmp(key, "flood_ctl_interval");
+  tmp_statement_expression_98 = return_value___builtin_strcmp_99;
+  if(tmp_statement_expression_98 == 0)
   {
     min = 1;
     max = 60;
-    signed int return_value_apply_integer$97;
-    return_value_apply_integer$97=apply_integer(key, data, &config->flood_ctl_interval, &min, &max);
-    if(return_value_apply_integer$97 == 0)
+    signed int return_value_apply_integer_97;
+    return_value_apply_integer_97=apply_integer(key, data, &config->flood_ctl_interval, &min, &max);
+    if(return_value_apply_integer_97 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9775,17 +9775,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$101;
-  unsigned long int apply_config$$1$$67$$__s1_len;
-  unsigned long int apply_config$$1$$67$$__s2_len;
-  signed int return_value___builtin_strcmp$102;
-  return_value___builtin_strcmp$102=__builtin_strcmp(key, "flood_ctl_chat");
-  tmp_statement_expression$101 = return_value___builtin_strcmp$102;
-  if(tmp_statement_expression$101 == 0)
+  signed int tmp_statement_expression_101;
+  unsigned long int apply_config__1__67____s1_len;
+  unsigned long int apply_config__1__67____s2_len;
+  signed int return_value___builtin_strcmp_102;
+  return_value___builtin_strcmp_102=__builtin_strcmp(key, "flood_ctl_chat");
+  tmp_statement_expression_101 = return_value___builtin_strcmp_102;
+  if(tmp_statement_expression_101 == 0)
   {
-    signed int return_value_apply_integer$100;
-    return_value_apply_integer$100=apply_integer(key, data, &config->flood_ctl_chat, ((signed int *)NULL), ((signed int *)NULL));
-    if(return_value_apply_integer$100 == 0)
+    signed int return_value_apply_integer_100;
+    return_value_apply_integer_100=apply_integer(key, data, &config->flood_ctl_chat, ((signed int *)NULL), ((signed int *)NULL));
+    if(return_value_apply_integer_100 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9794,17 +9794,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$104;
-  unsigned long int apply_config$$1$$69$$__s1_len;
-  unsigned long int apply_config$$1$$69$$__s2_len;
-  signed int return_value___builtin_strcmp$105;
-  return_value___builtin_strcmp$105=__builtin_strcmp(key, "flood_ctl_connect");
-  tmp_statement_expression$104 = return_value___builtin_strcmp$105;
-  if(tmp_statement_expression$104 == 0)
+  signed int tmp_statement_expression_104;
+  unsigned long int apply_config__1__69____s1_len;
+  unsigned long int apply_config__1__69____s2_len;
+  signed int return_value___builtin_strcmp_105;
+  return_value___builtin_strcmp_105=__builtin_strcmp(key, "flood_ctl_connect");
+  tmp_statement_expression_104 = return_value___builtin_strcmp_105;
+  if(tmp_statement_expression_104 == 0)
   {
-    signed int return_value_apply_integer$103;
-    return_value_apply_integer$103=apply_integer(key, data, &config->flood_ctl_connect, ((signed int *)NULL), ((signed int *)NULL));
-    if(return_value_apply_integer$103 == 0)
+    signed int return_value_apply_integer_103;
+    return_value_apply_integer_103=apply_integer(key, data, &config->flood_ctl_connect, ((signed int *)NULL), ((signed int *)NULL));
+    if(return_value_apply_integer_103 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9813,17 +9813,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$107;
-  unsigned long int apply_config$$1$$71$$__s1_len;
-  unsigned long int apply_config$$1$$71$$__s2_len;
-  signed int return_value___builtin_strcmp$108;
-  return_value___builtin_strcmp$108=__builtin_strcmp(key, "flood_ctl_search");
-  tmp_statement_expression$107 = return_value___builtin_strcmp$108;
-  if(tmp_statement_expression$107 == 0)
+  signed int tmp_statement_expression_107;
+  unsigned long int apply_config__1__71____s1_len;
+  unsigned long int apply_config__1__71____s2_len;
+  signed int return_value___builtin_strcmp_108;
+  return_value___builtin_strcmp_108=__builtin_strcmp(key, "flood_ctl_search");
+  tmp_statement_expression_107 = return_value___builtin_strcmp_108;
+  if(tmp_statement_expression_107 == 0)
   {
-    signed int return_value_apply_integer$106;
-    return_value_apply_integer$106=apply_integer(key, data, &config->flood_ctl_search, ((signed int *)NULL), ((signed int *)NULL));
-    if(return_value_apply_integer$106 == 0)
+    signed int return_value_apply_integer_106;
+    return_value_apply_integer_106=apply_integer(key, data, &config->flood_ctl_search, ((signed int *)NULL), ((signed int *)NULL));
+    if(return_value_apply_integer_106 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9832,17 +9832,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$110;
-  unsigned long int apply_config$$1$$73$$__s1_len;
-  unsigned long int apply_config$$1$$73$$__s2_len;
-  signed int return_value___builtin_strcmp$111;
-  return_value___builtin_strcmp$111=__builtin_strcmp(key, "flood_ctl_update");
-  tmp_statement_expression$110 = return_value___builtin_strcmp$111;
-  if(tmp_statement_expression$110 == 0)
+  signed int tmp_statement_expression_110;
+  unsigned long int apply_config__1__73____s1_len;
+  unsigned long int apply_config__1__73____s2_len;
+  signed int return_value___builtin_strcmp_111;
+  return_value___builtin_strcmp_111=__builtin_strcmp(key, "flood_ctl_update");
+  tmp_statement_expression_110 = return_value___builtin_strcmp_111;
+  if(tmp_statement_expression_110 == 0)
   {
-    signed int return_value_apply_integer$109;
-    return_value_apply_integer$109=apply_integer(key, data, &config->flood_ctl_update, ((signed int *)NULL), ((signed int *)NULL));
-    if(return_value_apply_integer$109 == 0)
+    signed int return_value_apply_integer_109;
+    return_value_apply_integer_109=apply_integer(key, data, &config->flood_ctl_update, ((signed int *)NULL), ((signed int *)NULL));
+    if(return_value_apply_integer_109 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9851,17 +9851,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$113;
-  unsigned long int apply_config$$1$$75$$__s1_len;
-  unsigned long int apply_config$$1$$75$$__s2_len;
-  signed int return_value___builtin_strcmp$114;
-  return_value___builtin_strcmp$114=__builtin_strcmp(key, "flood_ctl_extras");
-  tmp_statement_expression$113 = return_value___builtin_strcmp$114;
-  if(tmp_statement_expression$113 == 0)
+  signed int tmp_statement_expression_113;
+  unsigned long int apply_config__1__75____s1_len;
+  unsigned long int apply_config__1__75____s2_len;
+  signed int return_value___builtin_strcmp_114;
+  return_value___builtin_strcmp_114=__builtin_strcmp(key, "flood_ctl_extras");
+  tmp_statement_expression_113 = return_value___builtin_strcmp_114;
+  if(tmp_statement_expression_113 == 0)
   {
-    signed int return_value_apply_integer$112;
-    return_value_apply_integer$112=apply_integer(key, data, &config->flood_ctl_extras, ((signed int *)NULL), ((signed int *)NULL));
-    if(return_value_apply_integer$112 == 0)
+    signed int return_value_apply_integer_112;
+    return_value_apply_integer_112=apply_integer(key, data, &config->flood_ctl_extras, ((signed int *)NULL), ((signed int *)NULL));
+    if(return_value_apply_integer_112 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9870,17 +9870,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$116;
-  unsigned long int apply_config$$1$$77$$__s1_len;
-  unsigned long int apply_config$$1$$77$$__s2_len;
-  signed int return_value___builtin_strcmp$117;
-  return_value___builtin_strcmp$117=__builtin_strcmp(key, "tls_enable");
-  tmp_statement_expression$116 = return_value___builtin_strcmp$117;
-  if(tmp_statement_expression$116 == 0)
+  signed int tmp_statement_expression_116;
+  unsigned long int apply_config__1__77____s1_len;
+  unsigned long int apply_config__1__77____s2_len;
+  signed int return_value___builtin_strcmp_117;
+  return_value___builtin_strcmp_117=__builtin_strcmp(key, "tls_enable");
+  tmp_statement_expression_116 = return_value___builtin_strcmp_117;
+  if(tmp_statement_expression_116 == 0)
   {
-    signed int return_value_apply_boolean$115;
-    return_value_apply_boolean$115=apply_boolean(key, data, &config->tls_enable);
-    if(return_value_apply_boolean$115 == 0)
+    signed int return_value_apply_boolean_115;
+    return_value_apply_boolean_115=apply_boolean(key, data, &config->tls_enable);
+    if(return_value_apply_boolean_115 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9889,17 +9889,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$119;
-  unsigned long int apply_config$$1$$79$$__s1_len;
-  unsigned long int apply_config$$1$$79$$__s2_len;
-  signed int return_value___builtin_strcmp$120;
-  return_value___builtin_strcmp$120=__builtin_strcmp(key, "tls_require");
-  tmp_statement_expression$119 = return_value___builtin_strcmp$120;
-  if(tmp_statement_expression$119 == 0)
+  signed int tmp_statement_expression_119;
+  unsigned long int apply_config__1__79____s1_len;
+  unsigned long int apply_config__1__79____s2_len;
+  signed int return_value___builtin_strcmp_120;
+  return_value___builtin_strcmp_120=__builtin_strcmp(key, "tls_require");
+  tmp_statement_expression_119 = return_value___builtin_strcmp_120;
+  if(tmp_statement_expression_119 == 0)
   {
-    signed int return_value_apply_boolean$118;
-    return_value_apply_boolean$118=apply_boolean(key, data, &config->tls_require);
-    if(return_value_apply_boolean$118 == 0)
+    signed int return_value_apply_boolean_118;
+    return_value_apply_boolean_118=apply_boolean(key, data, &config->tls_require);
+    if(return_value_apply_boolean_118 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9908,17 +9908,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$122;
-  unsigned long int apply_config$$1$$81$$__s1_len;
-  unsigned long int apply_config$$1$$81$$__s2_len;
-  signed int return_value___builtin_strcmp$123;
-  return_value___builtin_strcmp$123=__builtin_strcmp(key, "tls_require_redirect_addr");
-  tmp_statement_expression$122 = return_value___builtin_strcmp$123;
-  if(tmp_statement_expression$122 == 0)
+  signed int tmp_statement_expression_122;
+  unsigned long int apply_config__1__81____s1_len;
+  unsigned long int apply_config__1__81____s2_len;
+  signed int return_value___builtin_strcmp_123;
+  return_value___builtin_strcmp_123=__builtin_strcmp(key, "tls_require_redirect_addr");
+  tmp_statement_expression_122 = return_value___builtin_strcmp_123;
+  if(tmp_statement_expression_122 == 0)
   {
-    signed int return_value_apply_string$121;
-    return_value_apply_string$121=apply_string(key, data, &config->tls_require_redirect_addr, (char *)"");
-    if(return_value_apply_string$121 == 0)
+    signed int return_value_apply_string_121;
+    return_value_apply_string_121=apply_string(key, data, &config->tls_require_redirect_addr, (char *)"");
+    if(return_value_apply_string_121 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9927,17 +9927,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$125;
-  unsigned long int apply_config$$1$$83$$__s1_len;
-  unsigned long int apply_config$$1$$83$$__s2_len;
-  signed int return_value___builtin_strcmp$126;
-  return_value___builtin_strcmp$126=__builtin_strcmp(key, "tls_certificate");
-  tmp_statement_expression$125 = return_value___builtin_strcmp$126;
-  if(tmp_statement_expression$125 == 0)
+  signed int tmp_statement_expression_125;
+  unsigned long int apply_config__1__83____s1_len;
+  unsigned long int apply_config__1__83____s2_len;
+  signed int return_value___builtin_strcmp_126;
+  return_value___builtin_strcmp_126=__builtin_strcmp(key, "tls_certificate");
+  tmp_statement_expression_125 = return_value___builtin_strcmp_126;
+  if(tmp_statement_expression_125 == 0)
   {
-    signed int return_value_apply_string$124;
-    return_value_apply_string$124=apply_string(key, data, &config->tls_certificate, (char *)"");
-    if(return_value_apply_string$124 == 0)
+    signed int return_value_apply_string_124;
+    return_value_apply_string_124=apply_string(key, data, &config->tls_certificate, (char *)"");
+    if(return_value_apply_string_124 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9946,17 +9946,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$128;
-  unsigned long int apply_config$$1$$85$$__s1_len;
-  unsigned long int apply_config$$1$$85$$__s2_len;
-  signed int return_value___builtin_strcmp$129;
-  return_value___builtin_strcmp$129=__builtin_strcmp(key, "tls_private_key");
-  tmp_statement_expression$128 = return_value___builtin_strcmp$129;
-  if(tmp_statement_expression$128 == 0)
+  signed int tmp_statement_expression_128;
+  unsigned long int apply_config__1__85____s1_len;
+  unsigned long int apply_config__1__85____s2_len;
+  signed int return_value___builtin_strcmp_129;
+  return_value___builtin_strcmp_129=__builtin_strcmp(key, "tls_private_key");
+  tmp_statement_expression_128 = return_value___builtin_strcmp_129;
+  if(tmp_statement_expression_128 == 0)
   {
-    signed int return_value_apply_string$127;
-    return_value_apply_string$127=apply_string(key, data, &config->tls_private_key, (char *)"");
-    if(return_value_apply_string$127 == 0)
+    signed int return_value_apply_string_127;
+    return_value_apply_string_127=apply_string(key, data, &config->tls_private_key, (char *)"");
+    if(return_value_apply_string_127 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9965,17 +9965,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$131;
-  unsigned long int apply_config$$1$$87$$__s1_len;
-  unsigned long int apply_config$$1$$87$$__s2_len;
-  signed int return_value___builtin_strcmp$132;
-  return_value___builtin_strcmp$132=__builtin_strcmp(key, "file_acl");
-  tmp_statement_expression$131 = return_value___builtin_strcmp$132;
-  if(tmp_statement_expression$131 == 0)
+  signed int tmp_statement_expression_131;
+  unsigned long int apply_config__1__87____s1_len;
+  unsigned long int apply_config__1__87____s2_len;
+  signed int return_value___builtin_strcmp_132;
+  return_value___builtin_strcmp_132=__builtin_strcmp(key, "file_acl");
+  tmp_statement_expression_131 = return_value___builtin_strcmp_132;
+  if(tmp_statement_expression_131 == 0)
   {
-    signed int return_value_apply_string$130;
-    return_value_apply_string$130=apply_string(key, data, &config->file_acl, (char *)"");
-    if(return_value_apply_string$130 == 0)
+    signed int return_value_apply_string_130;
+    return_value_apply_string_130=apply_string(key, data, &config->file_acl, (char *)"");
+    if(return_value_apply_string_130 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -9984,17 +9984,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$134;
-  unsigned long int apply_config$$1$$89$$__s1_len;
-  unsigned long int apply_config$$1$$89$$__s2_len;
-  signed int return_value___builtin_strcmp$135;
-  return_value___builtin_strcmp$135=__builtin_strcmp(key, "file_plugins");
-  tmp_statement_expression$134 = return_value___builtin_strcmp$135;
-  if(tmp_statement_expression$134 == 0)
+  signed int tmp_statement_expression_134;
+  unsigned long int apply_config__1__89____s1_len;
+  unsigned long int apply_config__1__89____s2_len;
+  signed int return_value___builtin_strcmp_135;
+  return_value___builtin_strcmp_135=__builtin_strcmp(key, "file_plugins");
+  tmp_statement_expression_134 = return_value___builtin_strcmp_135;
+  if(tmp_statement_expression_134 == 0)
   {
-    signed int return_value_apply_string$133;
-    return_value_apply_string$133=apply_string(key, data, &config->file_plugins, (char *)"");
-    if(return_value_apply_string$133 == 0)
+    signed int return_value_apply_string_133;
+    return_value_apply_string_133=apply_string(key, data, &config->file_plugins, (char *)"");
+    if(return_value_apply_string_133 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10003,17 +10003,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$137;
-  unsigned long int apply_config$$1$$91$$__s1_len;
-  unsigned long int apply_config$$1$$91$$__s2_len;
-  signed int return_value___builtin_strcmp$138;
-  return_value___builtin_strcmp$138=__builtin_strcmp(key, "msg_hub_full");
-  tmp_statement_expression$137 = return_value___builtin_strcmp$138;
-  if(tmp_statement_expression$137 == 0)
+  signed int tmp_statement_expression_137;
+  unsigned long int apply_config__1__91____s1_len;
+  unsigned long int apply_config__1__91____s2_len;
+  signed int return_value___builtin_strcmp_138;
+  return_value___builtin_strcmp_138=__builtin_strcmp(key, "msg_hub_full");
+  tmp_statement_expression_137 = return_value___builtin_strcmp_138;
+  if(tmp_statement_expression_137 == 0)
   {
-    signed int return_value_apply_string$136;
-    return_value_apply_string$136=apply_string(key, data, &config->msg_hub_full, (char *)"");
-    if(return_value_apply_string$136 == 0)
+    signed int return_value_apply_string_136;
+    return_value_apply_string_136=apply_string(key, data, &config->msg_hub_full, (char *)"");
+    if(return_value_apply_string_136 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10022,17 +10022,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$140;
-  unsigned long int apply_config$$1$$93$$__s1_len;
-  unsigned long int apply_config$$1$$93$$__s2_len;
-  signed int return_value___builtin_strcmp$141;
-  return_value___builtin_strcmp$141=__builtin_strcmp(key, "msg_hub_disabled");
-  tmp_statement_expression$140 = return_value___builtin_strcmp$141;
-  if(tmp_statement_expression$140 == 0)
+  signed int tmp_statement_expression_140;
+  unsigned long int apply_config__1__93____s1_len;
+  unsigned long int apply_config__1__93____s2_len;
+  signed int return_value___builtin_strcmp_141;
+  return_value___builtin_strcmp_141=__builtin_strcmp(key, "msg_hub_disabled");
+  tmp_statement_expression_140 = return_value___builtin_strcmp_141;
+  if(tmp_statement_expression_140 == 0)
   {
-    signed int return_value_apply_string$139;
-    return_value_apply_string$139=apply_string(key, data, &config->msg_hub_disabled, (char *)"");
-    if(return_value_apply_string$139 == 0)
+    signed int return_value_apply_string_139;
+    return_value_apply_string_139=apply_string(key, data, &config->msg_hub_disabled, (char *)"");
+    if(return_value_apply_string_139 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10041,17 +10041,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$143;
+  signed int tmp_statement_expression_143;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$144;
-  return_value___builtin_strcmp$144=__builtin_strcmp(key, "msg_hub_registered_users_only");
-  tmp_statement_expression$143 = return_value___builtin_strcmp$144;
-  if(tmp_statement_expression$143 == 0)
+  signed int return_value___builtin_strcmp_144;
+  return_value___builtin_strcmp_144=__builtin_strcmp(key, "msg_hub_registered_users_only");
+  tmp_statement_expression_143 = return_value___builtin_strcmp_144;
+  if(tmp_statement_expression_143 == 0)
   {
-    signed int return_value_apply_string$142;
-    return_value_apply_string$142=apply_string(key, data, &config->msg_hub_registered_users_only, (char *)"");
-    if(return_value_apply_string$142 == 0)
+    signed int return_value_apply_string_142;
+    return_value_apply_string_142=apply_string(key, data, &config->msg_hub_registered_users_only, (char *)"");
+    if(return_value_apply_string_142 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10060,17 +10060,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$146;
-  unsigned long int apply_config$$1$$97$$__s1_len;
-  unsigned long int apply_config$$1$$97$$__s2_len;
-  signed int return_value___builtin_strcmp$147;
-  return_value___builtin_strcmp$147=__builtin_strcmp(key, "msg_inf_error_nick_missing");
-  tmp_statement_expression$146 = return_value___builtin_strcmp$147;
-  if(tmp_statement_expression$146 == 0)
+  signed int tmp_statement_expression_146;
+  unsigned long int apply_config__1__97____s1_len;
+  unsigned long int apply_config__1__97____s2_len;
+  signed int return_value___builtin_strcmp_147;
+  return_value___builtin_strcmp_147=__builtin_strcmp(key, "msg_inf_error_nick_missing");
+  tmp_statement_expression_146 = return_value___builtin_strcmp_147;
+  if(tmp_statement_expression_146 == 0)
   {
-    signed int return_value_apply_string$145;
-    return_value_apply_string$145=apply_string(key, data, &config->msg_inf_error_nick_missing, (char *)"");
-    if(return_value_apply_string$145 == 0)
+    signed int return_value_apply_string_145;
+    return_value_apply_string_145=apply_string(key, data, &config->msg_inf_error_nick_missing, (char *)"");
+    if(return_value_apply_string_145 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10079,17 +10079,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$149;
-  unsigned long int apply_config$$1$$99$$__s1_len;
-  unsigned long int apply_config$$1$$99$$__s2_len;
-  signed int return_value___builtin_strcmp$150;
-  return_value___builtin_strcmp$150=__builtin_strcmp(key, "msg_inf_error_nick_multiple");
-  tmp_statement_expression$149 = return_value___builtin_strcmp$150;
-  if(tmp_statement_expression$149 == 0)
+  signed int tmp_statement_expression_149;
+  unsigned long int apply_config__1__99____s1_len;
+  unsigned long int apply_config__1__99____s2_len;
+  signed int return_value___builtin_strcmp_150;
+  return_value___builtin_strcmp_150=__builtin_strcmp(key, "msg_inf_error_nick_multiple");
+  tmp_statement_expression_149 = return_value___builtin_strcmp_150;
+  if(tmp_statement_expression_149 == 0)
   {
-    signed int return_value_apply_string$148;
-    return_value_apply_string$148=apply_string(key, data, &config->msg_inf_error_nick_multiple, (char *)"");
-    if(return_value_apply_string$148 == 0)
+    signed int return_value_apply_string_148;
+    return_value_apply_string_148=apply_string(key, data, &config->msg_inf_error_nick_multiple, (char *)"");
+    if(return_value_apply_string_148 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10098,17 +10098,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$152;
-  unsigned long int apply_config$$1$$101$$__s1_len;
-  unsigned long int apply_config$$1$$101$$__s2_len;
-  signed int return_value___builtin_strcmp$153;
-  return_value___builtin_strcmp$153=__builtin_strcmp(key, "msg_inf_error_nick_invalid");
-  tmp_statement_expression$152 = return_value___builtin_strcmp$153;
-  if(tmp_statement_expression$152 == 0)
+  signed int tmp_statement_expression_152;
+  unsigned long int apply_config__1__101____s1_len;
+  unsigned long int apply_config__1__101____s2_len;
+  signed int return_value___builtin_strcmp_153;
+  return_value___builtin_strcmp_153=__builtin_strcmp(key, "msg_inf_error_nick_invalid");
+  tmp_statement_expression_152 = return_value___builtin_strcmp_153;
+  if(tmp_statement_expression_152 == 0)
   {
-    signed int return_value_apply_string$151;
-    return_value_apply_string$151=apply_string(key, data, &config->msg_inf_error_nick_invalid, (char *)"");
-    if(return_value_apply_string$151 == 0)
+    signed int return_value_apply_string_151;
+    return_value_apply_string_151=apply_string(key, data, &config->msg_inf_error_nick_invalid, (char *)"");
+    if(return_value_apply_string_151 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10117,17 +10117,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$155;
-  unsigned long int apply_config$$1$$103$$__s1_len;
-  unsigned long int apply_config$$1$$103$$__s2_len;
-  signed int return_value___builtin_strcmp$156;
-  return_value___builtin_strcmp$156=__builtin_strcmp(key, "msg_inf_error_nick_long");
-  tmp_statement_expression$155 = return_value___builtin_strcmp$156;
-  if(tmp_statement_expression$155 == 0)
+  signed int tmp_statement_expression_155;
+  unsigned long int apply_config__1__103____s1_len;
+  unsigned long int apply_config__1__103____s2_len;
+  signed int return_value___builtin_strcmp_156;
+  return_value___builtin_strcmp_156=__builtin_strcmp(key, "msg_inf_error_nick_long");
+  tmp_statement_expression_155 = return_value___builtin_strcmp_156;
+  if(tmp_statement_expression_155 == 0)
   {
-    signed int return_value_apply_string$154;
-    return_value_apply_string$154=apply_string(key, data, &config->msg_inf_error_nick_long, (char *)"");
-    if(return_value_apply_string$154 == 0)
+    signed int return_value_apply_string_154;
+    return_value_apply_string_154=apply_string(key, data, &config->msg_inf_error_nick_long, (char *)"");
+    if(return_value_apply_string_154 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10136,17 +10136,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$158;
-  unsigned long int apply_config$$1$$105$$__s1_len;
-  unsigned long int apply_config$$1$$105$$__s2_len;
-  signed int return_value___builtin_strcmp$159;
-  return_value___builtin_strcmp$159=__builtin_strcmp(key, "msg_inf_error_nick_short");
-  tmp_statement_expression$158 = return_value___builtin_strcmp$159;
-  if(tmp_statement_expression$158 == 0)
+  signed int tmp_statement_expression_158;
+  unsigned long int apply_config__1__105____s1_len;
+  unsigned long int apply_config__1__105____s2_len;
+  signed int return_value___builtin_strcmp_159;
+  return_value___builtin_strcmp_159=__builtin_strcmp(key, "msg_inf_error_nick_short");
+  tmp_statement_expression_158 = return_value___builtin_strcmp_159;
+  if(tmp_statement_expression_158 == 0)
   {
-    signed int return_value_apply_string$157;
-    return_value_apply_string$157=apply_string(key, data, &config->msg_inf_error_nick_short, (char *)"");
-    if(return_value_apply_string$157 == 0)
+    signed int return_value_apply_string_157;
+    return_value_apply_string_157=apply_string(key, data, &config->msg_inf_error_nick_short, (char *)"");
+    if(return_value_apply_string_157 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10155,17 +10155,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$161;
-  unsigned long int apply_config$$1$$107$$__s1_len;
-  unsigned long int apply_config$$1$$107$$__s2_len;
-  signed int return_value___builtin_strcmp$162;
-  return_value___builtin_strcmp$162=__builtin_strcmp(key, "msg_inf_error_nick_spaces");
-  tmp_statement_expression$161 = return_value___builtin_strcmp$162;
-  if(tmp_statement_expression$161 == 0)
+  signed int tmp_statement_expression_161;
+  unsigned long int apply_config__1__107____s1_len;
+  unsigned long int apply_config__1__107____s2_len;
+  signed int return_value___builtin_strcmp_162;
+  return_value___builtin_strcmp_162=__builtin_strcmp(key, "msg_inf_error_nick_spaces");
+  tmp_statement_expression_161 = return_value___builtin_strcmp_162;
+  if(tmp_statement_expression_161 == 0)
   {
-    signed int return_value_apply_string$160;
-    return_value_apply_string$160=apply_string(key, data, &config->msg_inf_error_nick_spaces, (char *)"");
-    if(return_value_apply_string$160 == 0)
+    signed int return_value_apply_string_160;
+    return_value_apply_string_160=apply_string(key, data, &config->msg_inf_error_nick_spaces, (char *)"");
+    if(return_value_apply_string_160 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10174,17 +10174,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$164;
-  unsigned long int apply_config$$1$$109$$__s1_len;
-  unsigned long int apply_config$$1$$109$$__s2_len;
-  signed int return_value___builtin_strcmp$165;
-  return_value___builtin_strcmp$165=__builtin_strcmp(key, "msg_inf_error_nick_bad_chars");
-  tmp_statement_expression$164 = return_value___builtin_strcmp$165;
-  if(tmp_statement_expression$164 == 0)
+  signed int tmp_statement_expression_164;
+  unsigned long int apply_config__1__109____s1_len;
+  unsigned long int apply_config__1__109____s2_len;
+  signed int return_value___builtin_strcmp_165;
+  return_value___builtin_strcmp_165=__builtin_strcmp(key, "msg_inf_error_nick_bad_chars");
+  tmp_statement_expression_164 = return_value___builtin_strcmp_165;
+  if(tmp_statement_expression_164 == 0)
   {
-    signed int return_value_apply_string$163;
-    return_value_apply_string$163=apply_string(key, data, &config->msg_inf_error_nick_bad_chars, (char *)"");
-    if(return_value_apply_string$163 == 0)
+    signed int return_value_apply_string_163;
+    return_value_apply_string_163=apply_string(key, data, &config->msg_inf_error_nick_bad_chars, (char *)"");
+    if(return_value_apply_string_163 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10193,17 +10193,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$167;
-  unsigned long int apply_config$$1$$111$$__s1_len;
-  unsigned long int apply_config$$1$$111$$__s2_len;
-  signed int return_value___builtin_strcmp$168;
-  return_value___builtin_strcmp$168=__builtin_strcmp(key, "msg_inf_error_nick_not_utf8");
-  tmp_statement_expression$167 = return_value___builtin_strcmp$168;
-  if(tmp_statement_expression$167 == 0)
+  signed int tmp_statement_expression_167;
+  unsigned long int apply_config__1__111____s1_len;
+  unsigned long int apply_config__1__111____s2_len;
+  signed int return_value___builtin_strcmp_168;
+  return_value___builtin_strcmp_168=__builtin_strcmp(key, "msg_inf_error_nick_not_utf8");
+  tmp_statement_expression_167 = return_value___builtin_strcmp_168;
+  if(tmp_statement_expression_167 == 0)
   {
-    signed int return_value_apply_string$166;
-    return_value_apply_string$166=apply_string(key, data, &config->msg_inf_error_nick_not_utf8, (char *)"");
-    if(return_value_apply_string$166 == 0)
+    signed int return_value_apply_string_166;
+    return_value_apply_string_166=apply_string(key, data, &config->msg_inf_error_nick_not_utf8, (char *)"");
+    if(return_value_apply_string_166 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10212,17 +10212,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$170;
-  unsigned long int apply_config$$1$$113$$__s1_len;
-  unsigned long int apply_config$$1$$113$$__s2_len;
-  signed int return_value___builtin_strcmp$171;
-  return_value___builtin_strcmp$171=__builtin_strcmp(key, "msg_inf_error_nick_taken");
-  tmp_statement_expression$170 = return_value___builtin_strcmp$171;
-  if(tmp_statement_expression$170 == 0)
+  signed int tmp_statement_expression_170;
+  unsigned long int apply_config__1__113____s1_len;
+  unsigned long int apply_config__1__113____s2_len;
+  signed int return_value___builtin_strcmp_171;
+  return_value___builtin_strcmp_171=__builtin_strcmp(key, "msg_inf_error_nick_taken");
+  tmp_statement_expression_170 = return_value___builtin_strcmp_171;
+  if(tmp_statement_expression_170 == 0)
   {
-    signed int return_value_apply_string$169;
-    return_value_apply_string$169=apply_string(key, data, &config->msg_inf_error_nick_taken, (char *)"");
-    if(return_value_apply_string$169 == 0)
+    signed int return_value_apply_string_169;
+    return_value_apply_string_169=apply_string(key, data, &config->msg_inf_error_nick_taken, (char *)"");
+    if(return_value_apply_string_169 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10231,17 +10231,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$173;
-  unsigned long int apply_config$$1$$115$$__s1_len;
-  unsigned long int apply_config$$1$$115$$__s2_len;
-  signed int return_value___builtin_strcmp$174;
-  return_value___builtin_strcmp$174=__builtin_strcmp(key, "msg_inf_error_nick_restricted");
-  tmp_statement_expression$173 = return_value___builtin_strcmp$174;
-  if(tmp_statement_expression$173 == 0)
+  signed int tmp_statement_expression_173;
+  unsigned long int apply_config__1__115____s1_len;
+  unsigned long int apply_config__1__115____s2_len;
+  signed int return_value___builtin_strcmp_174;
+  return_value___builtin_strcmp_174=__builtin_strcmp(key, "msg_inf_error_nick_restricted");
+  tmp_statement_expression_173 = return_value___builtin_strcmp_174;
+  if(tmp_statement_expression_173 == 0)
   {
-    signed int return_value_apply_string$172;
-    return_value_apply_string$172=apply_string(key, data, &config->msg_inf_error_nick_restricted, (char *)"");
-    if(return_value_apply_string$172 == 0)
+    signed int return_value_apply_string_172;
+    return_value_apply_string_172=apply_string(key, data, &config->msg_inf_error_nick_restricted, (char *)"");
+    if(return_value_apply_string_172 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10250,17 +10250,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$176;
-  unsigned long int apply_config$$1$$117$$__s1_len;
-  unsigned long int apply_config$$1$$117$$__s2_len;
-  signed int return_value___builtin_strcmp$177;
-  return_value___builtin_strcmp$177=__builtin_strcmp(key, "msg_inf_error_cid_invalid");
-  tmp_statement_expression$176 = return_value___builtin_strcmp$177;
-  if(tmp_statement_expression$176 == 0)
+  signed int tmp_statement_expression_176;
+  unsigned long int apply_config__1__117____s1_len;
+  unsigned long int apply_config__1__117____s2_len;
+  signed int return_value___builtin_strcmp_177;
+  return_value___builtin_strcmp_177=__builtin_strcmp(key, "msg_inf_error_cid_invalid");
+  tmp_statement_expression_176 = return_value___builtin_strcmp_177;
+  if(tmp_statement_expression_176 == 0)
   {
-    signed int return_value_apply_string$175;
-    return_value_apply_string$175=apply_string(key, data, &config->msg_inf_error_cid_invalid, (char *)"");
-    if(return_value_apply_string$175 == 0)
+    signed int return_value_apply_string_175;
+    return_value_apply_string_175=apply_string(key, data, &config->msg_inf_error_cid_invalid, (char *)"");
+    if(return_value_apply_string_175 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10269,17 +10269,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$179;
-  unsigned long int apply_config$$1$$119$$__s1_len;
-  unsigned long int apply_config$$1$$119$$__s2_len;
-  signed int return_value___builtin_strcmp$180;
-  return_value___builtin_strcmp$180=__builtin_strcmp(key, "msg_inf_error_cid_missing");
-  tmp_statement_expression$179 = return_value___builtin_strcmp$180;
-  if(tmp_statement_expression$179 == 0)
+  signed int tmp_statement_expression_179;
+  unsigned long int apply_config__1__119____s1_len;
+  unsigned long int apply_config__1__119____s2_len;
+  signed int return_value___builtin_strcmp_180;
+  return_value___builtin_strcmp_180=__builtin_strcmp(key, "msg_inf_error_cid_missing");
+  tmp_statement_expression_179 = return_value___builtin_strcmp_180;
+  if(tmp_statement_expression_179 == 0)
   {
-    signed int return_value_apply_string$178;
-    return_value_apply_string$178=apply_string(key, data, &config->msg_inf_error_cid_missing, (char *)"");
-    if(return_value_apply_string$178 == 0)
+    signed int return_value_apply_string_178;
+    return_value_apply_string_178=apply_string(key, data, &config->msg_inf_error_cid_missing, (char *)"");
+    if(return_value_apply_string_178 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10288,17 +10288,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$182;
-  unsigned long int apply_config$$1$$121$$__s1_len;
-  unsigned long int apply_config$$1$$121$$__s2_len;
-  signed int return_value___builtin_strcmp$183;
-  return_value___builtin_strcmp$183=__builtin_strcmp(key, "msg_inf_error_cid_taken");
-  tmp_statement_expression$182 = return_value___builtin_strcmp$183;
-  if(tmp_statement_expression$182 == 0)
+  signed int tmp_statement_expression_182;
+  unsigned long int apply_config__1__121____s1_len;
+  unsigned long int apply_config__1__121____s2_len;
+  signed int return_value___builtin_strcmp_183;
+  return_value___builtin_strcmp_183=__builtin_strcmp(key, "msg_inf_error_cid_taken");
+  tmp_statement_expression_182 = return_value___builtin_strcmp_183;
+  if(tmp_statement_expression_182 == 0)
   {
-    signed int return_value_apply_string$181;
-    return_value_apply_string$181=apply_string(key, data, &config->msg_inf_error_cid_taken, (char *)"");
-    if(return_value_apply_string$181 == 0)
+    signed int return_value_apply_string_181;
+    return_value_apply_string_181=apply_string(key, data, &config->msg_inf_error_cid_taken, (char *)"");
+    if(return_value_apply_string_181 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10307,17 +10307,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$185;
-  unsigned long int apply_config$$1$$123$$__s1_len;
-  unsigned long int apply_config$$1$$123$$__s2_len;
-  signed int return_value___builtin_strcmp$186;
-  return_value___builtin_strcmp$186=__builtin_strcmp(key, "msg_inf_error_pid_missing");
-  tmp_statement_expression$185 = return_value___builtin_strcmp$186;
-  if(tmp_statement_expression$185 == 0)
+  signed int tmp_statement_expression_185;
+  unsigned long int apply_config__1__123____s1_len;
+  unsigned long int apply_config__1__123____s2_len;
+  signed int return_value___builtin_strcmp_186;
+  return_value___builtin_strcmp_186=__builtin_strcmp(key, "msg_inf_error_pid_missing");
+  tmp_statement_expression_185 = return_value___builtin_strcmp_186;
+  if(tmp_statement_expression_185 == 0)
   {
-    signed int return_value_apply_string$184;
-    return_value_apply_string$184=apply_string(key, data, &config->msg_inf_error_pid_missing, (char *)"");
-    if(return_value_apply_string$184 == 0)
+    signed int return_value_apply_string_184;
+    return_value_apply_string_184=apply_string(key, data, &config->msg_inf_error_pid_missing, (char *)"");
+    if(return_value_apply_string_184 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10326,17 +10326,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$188;
-  unsigned long int apply_config$$1$$125$$__s1_len;
-  unsigned long int apply_config$$1$$125$$__s2_len;
-  signed int return_value___builtin_strcmp$189;
-  return_value___builtin_strcmp$189=__builtin_strcmp(key, "msg_inf_error_pid_invalid");
-  tmp_statement_expression$188 = return_value___builtin_strcmp$189;
-  if(tmp_statement_expression$188 == 0)
+  signed int tmp_statement_expression_188;
+  unsigned long int apply_config__1__125____s1_len;
+  unsigned long int apply_config__1__125____s2_len;
+  signed int return_value___builtin_strcmp_189;
+  return_value___builtin_strcmp_189=__builtin_strcmp(key, "msg_inf_error_pid_invalid");
+  tmp_statement_expression_188 = return_value___builtin_strcmp_189;
+  if(tmp_statement_expression_188 == 0)
   {
-    signed int return_value_apply_string$187;
-    return_value_apply_string$187=apply_string(key, data, &config->msg_inf_error_pid_invalid, (char *)"");
-    if(return_value_apply_string$187 == 0)
+    signed int return_value_apply_string_187;
+    return_value_apply_string_187=apply_string(key, data, &config->msg_inf_error_pid_invalid, (char *)"");
+    if(return_value_apply_string_187 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10345,17 +10345,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$191;
-  unsigned long int apply_config$$1$$127$$__s1_len;
-  unsigned long int apply_config$$1$$127$$__s2_len;
-  signed int return_value___builtin_strcmp$192;
-  return_value___builtin_strcmp$192=__builtin_strcmp(key, "msg_ban_permanently");
-  tmp_statement_expression$191 = return_value___builtin_strcmp$192;
-  if(tmp_statement_expression$191 == 0)
+  signed int tmp_statement_expression_191;
+  unsigned long int apply_config__1__127____s1_len;
+  unsigned long int apply_config__1__127____s2_len;
+  signed int return_value___builtin_strcmp_192;
+  return_value___builtin_strcmp_192=__builtin_strcmp(key, "msg_ban_permanently");
+  tmp_statement_expression_191 = return_value___builtin_strcmp_192;
+  if(tmp_statement_expression_191 == 0)
   {
-    signed int return_value_apply_string$190;
-    return_value_apply_string$190=apply_string(key, data, &config->msg_ban_permanently, (char *)"");
-    if(return_value_apply_string$190 == 0)
+    signed int return_value_apply_string_190;
+    return_value_apply_string_190=apply_string(key, data, &config->msg_ban_permanently, (char *)"");
+    if(return_value_apply_string_190 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10364,17 +10364,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$194;
-  unsigned long int apply_config$$1$$129$$__s1_len;
-  unsigned long int apply_config$$1$$129$$__s2_len;
-  signed int return_value___builtin_strcmp$195;
-  return_value___builtin_strcmp$195=__builtin_strcmp(key, "msg_ban_temporarily");
-  tmp_statement_expression$194 = return_value___builtin_strcmp$195;
-  if(tmp_statement_expression$194 == 0)
+  signed int tmp_statement_expression_194;
+  unsigned long int apply_config__1__129____s1_len;
+  unsigned long int apply_config__1__129____s2_len;
+  signed int return_value___builtin_strcmp_195;
+  return_value___builtin_strcmp_195=__builtin_strcmp(key, "msg_ban_temporarily");
+  tmp_statement_expression_194 = return_value___builtin_strcmp_195;
+  if(tmp_statement_expression_194 == 0)
   {
-    signed int return_value_apply_string$193;
-    return_value_apply_string$193=apply_string(key, data, &config->msg_ban_temporarily, (char *)"");
-    if(return_value_apply_string$193 == 0)
+    signed int return_value_apply_string_193;
+    return_value_apply_string_193=apply_string(key, data, &config->msg_ban_temporarily, (char *)"");
+    if(return_value_apply_string_193 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10383,17 +10383,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$197;
-  unsigned long int apply_config$$1$$131$$__s1_len;
-  unsigned long int apply_config$$1$$131$$__s2_len;
-  signed int return_value___builtin_strcmp$198;
-  return_value___builtin_strcmp$198=__builtin_strcmp(key, "msg_auth_invalid_password");
-  tmp_statement_expression$197 = return_value___builtin_strcmp$198;
-  if(tmp_statement_expression$197 == 0)
+  signed int tmp_statement_expression_197;
+  unsigned long int apply_config__1__131____s1_len;
+  unsigned long int apply_config__1__131____s2_len;
+  signed int return_value___builtin_strcmp_198;
+  return_value___builtin_strcmp_198=__builtin_strcmp(key, "msg_auth_invalid_password");
+  tmp_statement_expression_197 = return_value___builtin_strcmp_198;
+  if(tmp_statement_expression_197 == 0)
   {
-    signed int return_value_apply_string$196;
-    return_value_apply_string$196=apply_string(key, data, &config->msg_auth_invalid_password, (char *)"");
-    if(return_value_apply_string$196 == 0)
+    signed int return_value_apply_string_196;
+    return_value_apply_string_196=apply_string(key, data, &config->msg_auth_invalid_password, (char *)"");
+    if(return_value_apply_string_196 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10402,17 +10402,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$200;
-  unsigned long int apply_config$$1$$133$$__s1_len;
-  unsigned long int apply_config$$1$$133$$__s2_len;
-  signed int return_value___builtin_strcmp$201;
-  return_value___builtin_strcmp$201=__builtin_strcmp(key, "msg_auth_user_not_found");
-  tmp_statement_expression$200 = return_value___builtin_strcmp$201;
-  if(tmp_statement_expression$200 == 0)
+  signed int tmp_statement_expression_200;
+  unsigned long int apply_config__1__133____s1_len;
+  unsigned long int apply_config__1__133____s2_len;
+  signed int return_value___builtin_strcmp_201;
+  return_value___builtin_strcmp_201=__builtin_strcmp(key, "msg_auth_user_not_found");
+  tmp_statement_expression_200 = return_value___builtin_strcmp_201;
+  if(tmp_statement_expression_200 == 0)
   {
-    signed int return_value_apply_string$199;
-    return_value_apply_string$199=apply_string(key, data, &config->msg_auth_user_not_found, (char *)"");
-    if(return_value_apply_string$199 == 0)
+    signed int return_value_apply_string_199;
+    return_value_apply_string_199=apply_string(key, data, &config->msg_auth_user_not_found, (char *)"");
+    if(return_value_apply_string_199 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10421,17 +10421,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$203;
-  unsigned long int apply_config$$1$$135$$__s1_len;
-  unsigned long int apply_config$$1$$135$$__s2_len;
-  signed int return_value___builtin_strcmp$204;
-  return_value___builtin_strcmp$204=__builtin_strcmp(key, "msg_error_no_memory");
-  tmp_statement_expression$203 = return_value___builtin_strcmp$204;
-  if(tmp_statement_expression$203 == 0)
+  signed int tmp_statement_expression_203;
+  unsigned long int apply_config__1__135____s1_len;
+  unsigned long int apply_config__1__135____s2_len;
+  signed int return_value___builtin_strcmp_204;
+  return_value___builtin_strcmp_204=__builtin_strcmp(key, "msg_error_no_memory");
+  tmp_statement_expression_203 = return_value___builtin_strcmp_204;
+  if(tmp_statement_expression_203 == 0)
   {
-    signed int return_value_apply_string$202;
-    return_value_apply_string$202=apply_string(key, data, &config->msg_error_no_memory, (char *)"");
-    if(return_value_apply_string$202 == 0)
+    signed int return_value_apply_string_202;
+    return_value_apply_string_202=apply_string(key, data, &config->msg_error_no_memory, (char *)"");
+    if(return_value_apply_string_202 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10440,17 +10440,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$206;
-  unsigned long int apply_config$$1$$137$$__s1_len;
-  unsigned long int apply_config$$1$$137$$__s2_len;
-  signed int return_value___builtin_strcmp$207;
-  return_value___builtin_strcmp$207=__builtin_strcmp(key, "msg_user_share_size_low");
-  tmp_statement_expression$206 = return_value___builtin_strcmp$207;
-  if(tmp_statement_expression$206 == 0)
+  signed int tmp_statement_expression_206;
+  unsigned long int apply_config__1__137____s1_len;
+  unsigned long int apply_config__1__137____s2_len;
+  signed int return_value___builtin_strcmp_207;
+  return_value___builtin_strcmp_207=__builtin_strcmp(key, "msg_user_share_size_low");
+  tmp_statement_expression_206 = return_value___builtin_strcmp_207;
+  if(tmp_statement_expression_206 == 0)
   {
-    signed int return_value_apply_string$205;
-    return_value_apply_string$205=apply_string(key, data, &config->msg_user_share_size_low, (char *)"");
-    if(return_value_apply_string$205 == 0)
+    signed int return_value_apply_string_205;
+    return_value_apply_string_205=apply_string(key, data, &config->msg_user_share_size_low, (char *)"");
+    if(return_value_apply_string_205 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10459,17 +10459,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$209;
-  unsigned long int apply_config$$1$$139$$__s1_len;
-  unsigned long int apply_config$$1$$139$$__s2_len;
-  signed int return_value___builtin_strcmp$210;
-  return_value___builtin_strcmp$210=__builtin_strcmp(key, "msg_user_share_size_high");
-  tmp_statement_expression$209 = return_value___builtin_strcmp$210;
-  if(tmp_statement_expression$209 == 0)
+  signed int tmp_statement_expression_209;
+  unsigned long int apply_config__1__139____s1_len;
+  unsigned long int apply_config__1__139____s2_len;
+  signed int return_value___builtin_strcmp_210;
+  return_value___builtin_strcmp_210=__builtin_strcmp(key, "msg_user_share_size_high");
+  tmp_statement_expression_209 = return_value___builtin_strcmp_210;
+  if(tmp_statement_expression_209 == 0)
   {
-    signed int return_value_apply_string$208;
-    return_value_apply_string$208=apply_string(key, data, &config->msg_user_share_size_high, (char *)"");
-    if(return_value_apply_string$208 == 0)
+    signed int return_value_apply_string_208;
+    return_value_apply_string_208=apply_string(key, data, &config->msg_user_share_size_high, (char *)"");
+    if(return_value_apply_string_208 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10478,17 +10478,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$212;
-  unsigned long int apply_config$$1$$141$$__s1_len;
-  unsigned long int apply_config$$1$$141$$__s2_len;
-  signed int return_value___builtin_strcmp$213;
-  return_value___builtin_strcmp$213=__builtin_strcmp(key, "msg_user_slots_low");
-  tmp_statement_expression$212 = return_value___builtin_strcmp$213;
-  if(tmp_statement_expression$212 == 0)
+  signed int tmp_statement_expression_212;
+  unsigned long int apply_config__1__141____s1_len;
+  unsigned long int apply_config__1__141____s2_len;
+  signed int return_value___builtin_strcmp_213;
+  return_value___builtin_strcmp_213=__builtin_strcmp(key, "msg_user_slots_low");
+  tmp_statement_expression_212 = return_value___builtin_strcmp_213;
+  if(tmp_statement_expression_212 == 0)
   {
-    signed int return_value_apply_string$211;
-    return_value_apply_string$211=apply_string(key, data, &config->msg_user_slots_low, (char *)"");
-    if(return_value_apply_string$211 == 0)
+    signed int return_value_apply_string_211;
+    return_value_apply_string_211=apply_string(key, data, &config->msg_user_slots_low, (char *)"");
+    if(return_value_apply_string_211 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10497,17 +10497,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$215;
-  unsigned long int apply_config$$1$$143$$__s1_len;
-  unsigned long int apply_config$$1$$143$$__s2_len;
-  signed int return_value___builtin_strcmp$216;
-  return_value___builtin_strcmp$216=__builtin_strcmp(key, "msg_user_slots_high");
-  tmp_statement_expression$215 = return_value___builtin_strcmp$216;
-  if(tmp_statement_expression$215 == 0)
+  signed int tmp_statement_expression_215;
+  unsigned long int apply_config__1__143____s1_len;
+  unsigned long int apply_config__1__143____s2_len;
+  signed int return_value___builtin_strcmp_216;
+  return_value___builtin_strcmp_216=__builtin_strcmp(key, "msg_user_slots_high");
+  tmp_statement_expression_215 = return_value___builtin_strcmp_216;
+  if(tmp_statement_expression_215 == 0)
   {
-    signed int return_value_apply_string$214;
-    return_value_apply_string$214=apply_string(key, data, &config->msg_user_slots_high, (char *)"");
-    if(return_value_apply_string$214 == 0)
+    signed int return_value_apply_string_214;
+    return_value_apply_string_214=apply_string(key, data, &config->msg_user_slots_high, (char *)"");
+    if(return_value_apply_string_214 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10516,17 +10516,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$218;
-  unsigned long int apply_config$$1$$145$$__s1_len;
-  unsigned long int apply_config$$1$$145$$__s2_len;
-  signed int return_value___builtin_strcmp$219;
-  return_value___builtin_strcmp$219=__builtin_strcmp(key, "msg_user_hub_limit_low");
-  tmp_statement_expression$218 = return_value___builtin_strcmp$219;
-  if(tmp_statement_expression$218 == 0)
+  signed int tmp_statement_expression_218;
+  unsigned long int apply_config__1__145____s1_len;
+  unsigned long int apply_config__1__145____s2_len;
+  signed int return_value___builtin_strcmp_219;
+  return_value___builtin_strcmp_219=__builtin_strcmp(key, "msg_user_hub_limit_low");
+  tmp_statement_expression_218 = return_value___builtin_strcmp_219;
+  if(tmp_statement_expression_218 == 0)
   {
-    signed int return_value_apply_string$217;
-    return_value_apply_string$217=apply_string(key, data, &config->msg_user_hub_limit_low, (char *)"");
-    if(return_value_apply_string$217 == 0)
+    signed int return_value_apply_string_217;
+    return_value_apply_string_217=apply_string(key, data, &config->msg_user_hub_limit_low, (char *)"");
+    if(return_value_apply_string_217 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10535,17 +10535,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$221;
-  unsigned long int apply_config$$1$$147$$__s1_len;
-  unsigned long int apply_config$$1$$147$$__s2_len;
-  signed int return_value___builtin_strcmp$222;
-  return_value___builtin_strcmp$222=__builtin_strcmp(key, "msg_user_hub_limit_high");
-  tmp_statement_expression$221 = return_value___builtin_strcmp$222;
-  if(tmp_statement_expression$221 == 0)
+  signed int tmp_statement_expression_221;
+  unsigned long int apply_config__1__147____s1_len;
+  unsigned long int apply_config__1__147____s2_len;
+  signed int return_value___builtin_strcmp_222;
+  return_value___builtin_strcmp_222=__builtin_strcmp(key, "msg_user_hub_limit_high");
+  tmp_statement_expression_221 = return_value___builtin_strcmp_222;
+  if(tmp_statement_expression_221 == 0)
   {
-    signed int return_value_apply_string$220;
-    return_value_apply_string$220=apply_string(key, data, &config->msg_user_hub_limit_high, (char *)"");
-    if(return_value_apply_string$220 == 0)
+    signed int return_value_apply_string_220;
+    return_value_apply_string_220=apply_string(key, data, &config->msg_user_hub_limit_high, (char *)"");
+    if(return_value_apply_string_220 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10554,17 +10554,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$224;
-  unsigned long int apply_config$$1$$149$$__s1_len;
-  unsigned long int apply_config$$1$$149$$__s2_len;
-  signed int return_value___builtin_strcmp$225;
-  return_value___builtin_strcmp$225=__builtin_strcmp(key, "msg_user_flood_chat");
-  tmp_statement_expression$224 = return_value___builtin_strcmp$225;
-  if(tmp_statement_expression$224 == 0)
+  signed int tmp_statement_expression_224;
+  unsigned long int apply_config__1__149____s1_len;
+  unsigned long int apply_config__1__149____s2_len;
+  signed int return_value___builtin_strcmp_225;
+  return_value___builtin_strcmp_225=__builtin_strcmp(key, "msg_user_flood_chat");
+  tmp_statement_expression_224 = return_value___builtin_strcmp_225;
+  if(tmp_statement_expression_224 == 0)
   {
-    signed int return_value_apply_string$223;
-    return_value_apply_string$223=apply_string(key, data, &config->msg_user_flood_chat, (char *)"");
-    if(return_value_apply_string$223 == 0)
+    signed int return_value_apply_string_223;
+    return_value_apply_string_223=apply_string(key, data, &config->msg_user_flood_chat, (char *)"");
+    if(return_value_apply_string_223 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10573,17 +10573,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$227;
-  unsigned long int apply_config$$1$$151$$__s1_len;
-  unsigned long int apply_config$$1$$151$$__s2_len;
-  signed int return_value___builtin_strcmp$228;
-  return_value___builtin_strcmp$228=__builtin_strcmp(key, "msg_user_flood_connect");
-  tmp_statement_expression$227 = return_value___builtin_strcmp$228;
-  if(tmp_statement_expression$227 == 0)
+  signed int tmp_statement_expression_227;
+  unsigned long int apply_config__1__151____s1_len;
+  unsigned long int apply_config__1__151____s2_len;
+  signed int return_value___builtin_strcmp_228;
+  return_value___builtin_strcmp_228=__builtin_strcmp(key, "msg_user_flood_connect");
+  tmp_statement_expression_227 = return_value___builtin_strcmp_228;
+  if(tmp_statement_expression_227 == 0)
   {
-    signed int return_value_apply_string$226;
-    return_value_apply_string$226=apply_string(key, data, &config->msg_user_flood_connect, (char *)"");
-    if(return_value_apply_string$226 == 0)
+    signed int return_value_apply_string_226;
+    return_value_apply_string_226=apply_string(key, data, &config->msg_user_flood_connect, (char *)"");
+    if(return_value_apply_string_226 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10592,17 +10592,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$230;
-  unsigned long int apply_config$$1$$153$$__s1_len;
-  unsigned long int apply_config$$1$$153$$__s2_len;
-  signed int return_value___builtin_strcmp$231;
-  return_value___builtin_strcmp$231=__builtin_strcmp(key, "msg_user_flood_search");
-  tmp_statement_expression$230 = return_value___builtin_strcmp$231;
-  if(tmp_statement_expression$230 == 0)
+  signed int tmp_statement_expression_230;
+  unsigned long int apply_config__1__153____s1_len;
+  unsigned long int apply_config__1__153____s2_len;
+  signed int return_value___builtin_strcmp_231;
+  return_value___builtin_strcmp_231=__builtin_strcmp(key, "msg_user_flood_search");
+  tmp_statement_expression_230 = return_value___builtin_strcmp_231;
+  if(tmp_statement_expression_230 == 0)
   {
-    signed int return_value_apply_string$229;
-    return_value_apply_string$229=apply_string(key, data, &config->msg_user_flood_search, (char *)"");
-    if(return_value_apply_string$229 == 0)
+    signed int return_value_apply_string_229;
+    return_value_apply_string_229=apply_string(key, data, &config->msg_user_flood_search, (char *)"");
+    if(return_value_apply_string_229 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10611,17 +10611,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$233;
-  unsigned long int apply_config$$1$$155$$__s1_len;
-  unsigned long int apply_config$$1$$155$$__s2_len;
-  signed int return_value___builtin_strcmp$234;
-  return_value___builtin_strcmp$234=__builtin_strcmp(key, "msg_user_flood_update");
-  tmp_statement_expression$233 = return_value___builtin_strcmp$234;
-  if(tmp_statement_expression$233 == 0)
+  signed int tmp_statement_expression_233;
+  unsigned long int apply_config__1__155____s1_len;
+  unsigned long int apply_config__1__155____s2_len;
+  signed int return_value___builtin_strcmp_234;
+  return_value___builtin_strcmp_234=__builtin_strcmp(key, "msg_user_flood_update");
+  tmp_statement_expression_233 = return_value___builtin_strcmp_234;
+  if(tmp_statement_expression_233 == 0)
   {
-    signed int return_value_apply_string$232;
-    return_value_apply_string$232=apply_string(key, data, &config->msg_user_flood_update, (char *)"");
-    if(return_value_apply_string$232 == 0)
+    signed int return_value_apply_string_232;
+    return_value_apply_string_232=apply_string(key, data, &config->msg_user_flood_update, (char *)"");
+    if(return_value_apply_string_232 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10630,17 +10630,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$236;
-  unsigned long int apply_config$$1$$157$$__s1_len;
-  unsigned long int apply_config$$1$$157$$__s2_len;
-  signed int return_value___builtin_strcmp$237;
-  return_value___builtin_strcmp$237=__builtin_strcmp(key, "msg_user_flood_extras");
-  tmp_statement_expression$236 = return_value___builtin_strcmp$237;
-  if(tmp_statement_expression$236 == 0)
+  signed int tmp_statement_expression_236;
+  unsigned long int apply_config__1__157____s1_len;
+  unsigned long int apply_config__1__157____s2_len;
+  signed int return_value___builtin_strcmp_237;
+  return_value___builtin_strcmp_237=__builtin_strcmp(key, "msg_user_flood_extras");
+  tmp_statement_expression_236 = return_value___builtin_strcmp_237;
+  if(tmp_statement_expression_236 == 0)
   {
-    signed int return_value_apply_string$235;
-    return_value_apply_string$235=apply_string(key, data, &config->msg_user_flood_extras, (char *)"");
-    if(return_value_apply_string$235 == 0)
+    signed int return_value_apply_string_235;
+    return_value_apply_string_235=apply_string(key, data, &config->msg_user_flood_extras, (char *)"");
+    if(return_value_apply_string_235 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10649,17 +10649,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$239;
-  unsigned long int apply_config$$1$$159$$__s1_len;
-  unsigned long int apply_config$$1$$159$$__s2_len;
-  signed int return_value___builtin_strcmp$240;
-  return_value___builtin_strcmp$240=__builtin_strcmp(key, "msg_proto_no_common_hash");
-  tmp_statement_expression$239 = return_value___builtin_strcmp$240;
-  if(tmp_statement_expression$239 == 0)
+  signed int tmp_statement_expression_239;
+  unsigned long int apply_config__1__159____s1_len;
+  unsigned long int apply_config__1__159____s2_len;
+  signed int return_value___builtin_strcmp_240;
+  return_value___builtin_strcmp_240=__builtin_strcmp(key, "msg_proto_no_common_hash");
+  tmp_statement_expression_239 = return_value___builtin_strcmp_240;
+  if(tmp_statement_expression_239 == 0)
   {
-    signed int return_value_apply_string$238;
-    return_value_apply_string$238=apply_string(key, data, &config->msg_proto_no_common_hash, (char *)"");
-    if(return_value_apply_string$238 == 0)
+    signed int return_value_apply_string_238;
+    return_value_apply_string_238=apply_string(key, data, &config->msg_proto_no_common_hash, (char *)"");
+    if(return_value_apply_string_238 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10668,17 +10668,17 @@ static signed int apply_config(struct hub_config *config, char *key, char *data,
     return 0;
   }
 
-  signed int tmp_statement_expression$242;
-  unsigned long int apply_config$$1$$161$$__s1_len;
-  unsigned long int apply_config$$1$$161$$__s2_len;
-  signed int return_value___builtin_strcmp$243;
-  return_value___builtin_strcmp$243=__builtin_strcmp(key, "msg_proto_obsolete_adc0");
-  tmp_statement_expression$242 = return_value___builtin_strcmp$243;
-  if(tmp_statement_expression$242 == 0)
+  signed int tmp_statement_expression_242;
+  unsigned long int apply_config__1__161____s1_len;
+  unsigned long int apply_config__1__161____s2_len;
+  signed int return_value___builtin_strcmp_243;
+  return_value___builtin_strcmp_243=__builtin_strcmp(key, "msg_proto_obsolete_adc0");
+  tmp_statement_expression_242 = return_value___builtin_strcmp_243;
+  if(tmp_statement_expression_242 == 0)
   {
-    signed int return_value_apply_string$241;
-    return_value_apply_string$241=apply_string(key, data, &config->msg_proto_obsolete_adc0, (char *)"");
-    if(return_value_apply_string$241 == 0)
+    signed int return_value_apply_string_241;
+    return_value_apply_string_241=apply_string(key, data, &config->msg_proto_obsolete_adc0, (char *)"");
+    if(return_value_apply_string_241 == 0)
     {
       hub_log(1, "Configuration parse error on line %d", line_count);
       return -1;
@@ -10697,28 +10697,28 @@ static signed int apply_integer(const char *key, const char *data, signed int *t
 {
   char *endptr;
   signed int val;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed long int return_value_strtol$2;
-  return_value_strtol$2=strtol(data, &endptr, 10);
-  val = (signed int)return_value_strtol$2;
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  _Bool tmp_if_expr$5;
-  if((val == 0x7fffffff || val == -2147483648) && *return_value___errno_location$3 == 34)
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed long int return_value_strtol_2;
+  return_value_strtol_2=strtol(data, &endptr, 10);
+  val = (signed int)return_value_strtol_2;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  _Bool tmp_if_expr_5;
+  if((val == 0x7fffffff || val == -2147483648) && *return_value___errno_location_3 == 34)
   {
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
     goto __CPROVER_DUMP_L3;
   }
 
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  tmp_if_expr$5 = (*return_value___errno_location$4 != 0 ? (val == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  tmp_if_expr_5 = (*return_value___errno_location_4 != 0 ? (val == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
 
 __CPROVER_DUMP_L3:
   ;
-  if(endptr == data || tmp_if_expr$5)
+  if(endptr == data || tmp_if_expr_5)
     return 0;
 
   else
@@ -10762,9 +10762,9 @@ static signed int apply_string(const char *key, const char *data, char **target,
   if(!(*target == ((char *)NULL)))
     free((void *)*target);
 
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(data);
-  *target = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(data);
+  *target = return_value___strdup_1;
   return 1;
 }
 
@@ -10772,18 +10772,18 @@ static signed int apply_string(const char *key, const char *data, char **target,
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // atoll
 // file /usr/include/stdlib.h line 292
 static inline signed long long int atoll(const char *__nptr)
 {
-  signed long long int return_value_strtoll$1;
-  return_value_strtoll$1=strtoll(__nptr, (char **)(void *)0, 10);
-  return return_value_strtoll$1;
+  signed long long int return_value_strtoll_1;
+  return_value_strtoll_1=strtoll(__nptr, (char **)(void *)0, 10);
+  return return_value_strtoll_1;
 }
 
 // auth_cred_is_protected
@@ -10837,35 +10837,35 @@ const char * auth_cred_to_string(enum auth_credentials cred)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/credentials.h line 55
 signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$12;
-  if(out == ((enum auth_credentials *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_12;
+  if(out == ((enum auth_credentials *)NULL) || tmp_if_expr_1)
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    switch(return_value_strlen$2)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    switch(return_value_strlen_2)
     {
       case (unsigned long int)2:
       {
-        return_value_strcasecmp$3=strcasecmp(str, "op");
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp(str, "op");
+        if(return_value_strcasecmp_3 == 0)
         {
           *out = (enum auth_credentials)auth_cred_operator;
           return 1;
@@ -10875,15 +10875,15 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)3:
       {
-        return_value_strcasecmp$4=strcasecmp(str, "bot");
-        if(return_value_strcasecmp$4 == 0)
+        return_value_strcasecmp_4=strcasecmp(str, "bot");
+        if(return_value_strcasecmp_4 == 0)
         {
           *out = (enum auth_credentials)auth_cred_bot;
           return 1;
         }
 
-        return_value_strcasecmp$5=strcasecmp(str, "reg");
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(str, "reg");
+        if(return_value_strcasecmp_5 == 0)
         {
           *out = (enum auth_credentials)auth_cred_user;
           return 1;
@@ -10893,22 +10893,22 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)4:
       {
-        return_value_strcasecmp$6=strcasecmp(str, "none");
-        if(return_value_strcasecmp$6 == 0)
+        return_value_strcasecmp_6=strcasecmp(str, "none");
+        if(return_value_strcasecmp_6 == 0)
         {
           *out = (enum auth_credentials)auth_cred_none;
           return 1;
         }
 
-        return_value_strcasecmp$7=strcasecmp(str, "user");
-        if(return_value_strcasecmp$7 == 0)
+        return_value_strcasecmp_7=strcasecmp(str, "user");
+        if(return_value_strcasecmp_7 == 0)
         {
           *out = (enum auth_credentials)auth_cred_user;
           return 1;
         }
 
-        return_value_strcasecmp$8=strcasecmp(str, "link");
-        if(return_value_strcasecmp$8 == 0)
+        return_value_strcasecmp_8=strcasecmp(str, "link");
+        if(return_value_strcasecmp_8 == 0)
         {
           *out = (enum auth_credentials)auth_cred_link;
           return 1;
@@ -10918,22 +10918,22 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)5:
       {
-        return_value_strcasecmp$9=strcasecmp(str, "admin");
-        if(return_value_strcasecmp$9 == 0)
+        return_value_strcasecmp_9=strcasecmp(str, "admin");
+        if(return_value_strcasecmp_9 == 0)
         {
           *out = (enum auth_credentials)auth_cred_admin;
           return 1;
         }
 
-        return_value_strcasecmp$10=strcasecmp(str, "super");
-        if(return_value_strcasecmp$10 == 0)
+        return_value_strcasecmp_10=strcasecmp(str, "super");
+        if(return_value_strcasecmp_10 == 0)
         {
           *out = (enum auth_credentials)auth_cred_super;
           return 1;
         }
 
-        return_value_strcasecmp$11=strcasecmp(str, "guest");
-        if(return_value_strcasecmp$11 == 0)
+        return_value_strcasecmp_11=strcasecmp(str, "guest");
+        if(return_value_strcasecmp_11 == 0)
         {
           *out = (enum auth_credentials)auth_cred_guest;
           return 1;
@@ -10943,8 +10943,8 @@ signed int auth_string_to_cred(const char *str, enum auth_credentials *out)
       }
       case (unsigned long int)8:
       {
-        return_value_strcasecmp$12=strcasecmp(str, "operator");
-        if(return_value_strcasecmp$12 == 0)
+        return_value_strcasecmp_12=strcasecmp(str, "operator");
+        if(return_value_strcasecmp_12 == 0)
         {
           *out = (enum auth_credentials)auth_cred_operator;
           return 1;
@@ -10967,13 +10967,13 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
   unsigned long int i = (unsigned long int)0;
   memset((void *)dst, 0, len);
   i = (unsigned long int)0;
-  unsigned long int tmp_post$1;
-  unsigned long int tmp_post$2;
+  unsigned long int tmp_post_1;
+  unsigned long int tmp_post_2;
   for( ; !(src[(signed long int)i] == 0); i = i + 1ul)
   {
     unsigned char n = (unsigned char)0;
     for( ; !((signed int)n >= 32); n = n + 1)
-      if(src[(signed long int)i] == BASE32_ALPHABET$link1[(signed long int)n])
+      if(src[(signed long int)i] == BASE32_ALPHABET_link1[(signed long int)n])
         break;
 
     if(!((signed int)n == 32))
@@ -10983,9 +10983,9 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
         index = (index + (unsigned long int)5) % (unsigned long int)8;
         if(index == 0ul)
         {
-          tmp_post$1 = offset;
+          tmp_post_1 = offset;
           offset = offset + 1ul;
-          dst[(signed long int)tmp_post$1] = dst[(signed long int)tmp_post$1] | n;
+          dst[(signed long int)tmp_post_1] = dst[(signed long int)tmp_post_1] | n;
           if(offset == len)
             break;
 
@@ -10998,9 +10998,9 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
       else
       {
         index = (index + (unsigned long int)5) % (unsigned long int)8;
-        tmp_post$2 = offset;
+        tmp_post_2 = offset;
         offset = offset + 1ul;
-        dst[(signed long int)tmp_post$2] = dst[(signed long int)tmp_post$2] | (unsigned char)((signed int)n >> index);
+        dst[(signed long int)tmp_post_2] = dst[(signed long int)tmp_post_2] | (unsigned char)((signed int)n >> index);
         if(offset == len)
           break;
 
@@ -11019,8 +11019,8 @@ extern void base32_encode(const unsigned char *buffer, unsigned long int len, ch
   unsigned long int n = (unsigned long int)0;
   unsigned long int i = (unsigned long int)0;
   unsigned long int index = (unsigned long int)0;
-  unsigned long int tmp_post$1;
-  for( ; !(i >= len); result[(signed long int)tmp_post$1] = BASE32_ALPHABET$link1[(signed long int)word])
+  unsigned long int tmp_post_1;
+  for( ; !(i >= len); result[(signed long int)tmp_post_1] = BASE32_ALPHABET_link1[(signed long int)word])
   {
     if(index >= 4ul)
     {
@@ -11041,7 +11041,7 @@ extern void base32_encode(const unsigned char *buffer, unsigned long int len, ch
         i = i + 1ul;
 
     }
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n + 1ul;
   }
   result[(signed long int)n] = (char)0;
@@ -11054,9 +11054,9 @@ static signed int cbfunc_command_add(struct plugin_handle *plugin, struct plugin
   struct plugin_callback_data *data;
   data=get_callback_data(plugin);
   struct command_handle *command;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct command_handle) /*64ul*/ );
-  command = (struct command_handle *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct command_handle) /*64ul*/ );
+  command = (struct command_handle *)return_value_hub_malloc_zero_1;
   command->prefix = cmdh->prefix;
   command->length = cmdh->length;
   command->args = cmdh->args;
@@ -11066,9 +11066,9 @@ static signed int cbfunc_command_add(struct plugin_handle *plugin, struct plugin
   command->handler = plugin_command_dispatch;
   cmdh->internal_handle = (void *)command;
   list_append(data->commands, (void *)cmdh);
-  struct hub_info *return_value_plugin_get_hub$2;
-  return_value_plugin_get_hub$2=plugin_get_hub(plugin);
-  command_add(return_value_plugin_get_hub$2->commands, command, (void *)plugin);
+  struct hub_info *return_value_plugin_get_hub_2;
+  return_value_plugin_get_hub_2=plugin_get_hub(plugin);
+  command_add(return_value_plugin_get_hub_2->commands, command, (void *)plugin);
   printf("*** Add plugin command: %s (%p, %p)\n", command->prefix, command, cmdh);
   return 0;
 }
@@ -11077,18 +11077,18 @@ static signed int cbfunc_command_add(struct plugin_handle *plugin, struct plugin
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugincallback.c line 130
 struct plugin_command_arg_data * cbfunc_command_arg_next(struct plugin_handle *plugin, struct plugin_command *cmd, enum plugin_command_arg_type t)
 {
-  struct hub_command_arg_data *return_value_hub_command_arg_next$1;
-  return_value_hub_command_arg_next$1=hub_command_arg_next((struct hub_command *)cmd, (enum hub_command_arg_type)t);
-  return (struct plugin_command_arg_data *)return_value_hub_command_arg_next$1;
+  struct hub_command_arg_data *return_value_hub_command_arg_next_1;
+  return_value_hub_command_arg_next_1=hub_command_arg_next((struct hub_command *)cmd, (enum hub_command_arg_type)t);
+  return (struct plugin_command_arg_data *)return_value_hub_command_arg_next_1;
 }
 
 // cbfunc_command_arg_reset
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugincallback.c line 124
 unsigned long int cbfunc_command_arg_reset(struct plugin_handle *plugin, struct plugin_command *cmd)
 {
-  unsigned long int return_value_hub_command_arg_reset$1;
-  return_value_hub_command_arg_reset$1=hub_command_arg_reset((struct hub_command *)cmd);
-  return return_value_hub_command_arg_reset$1;
+  unsigned long int return_value_hub_command_arg_reset_1;
+  return_value_hub_command_arg_reset_1=hub_command_arg_reset((struct hub_command *)cmd);
+  return return_value_hub_command_arg_reset_1;
 }
 
 // cbfunc_command_del
@@ -11100,9 +11100,9 @@ static signed int cbfunc_command_del(struct plugin_handle *plugin, struct plugin
   struct command_handle *command = (struct command_handle *)cmdh->internal_handle;
   printf("*** Del plugin command: %s (%p, %p)\n", command->prefix, command, cmdh);
   list_remove(data->commands, (void *)cmdh);
-  struct hub_info *return_value_plugin_get_hub$1;
-  return_value_plugin_get_hub$1=plugin_get_hub(plugin);
-  command_del(return_value_plugin_get_hub$1->commands, command);
+  struct hub_info *return_value_plugin_get_hub_1;
+  return_value_plugin_get_hub_1=plugin_get_hub(plugin);
+  command_del(return_value_plugin_get_hub_1->commands, command);
   free((void *)command);
   cmdh->internal_handle = (void *)0;
   return 0;
@@ -11143,15 +11143,15 @@ static signed int cbfunc_send_message(struct plugin_handle *plugin, struct plugi
   char *buffer;
   buffer=adc_msg_escape(message);
   struct adc_message *command;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buffer);
-  command=adc_msg_construct((unsigned int)(73 << 24 | 77 << 16 | 83 << 8 | 71), return_value_strlen$1 + (unsigned long int)6);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buffer);
+  command=adc_msg_construct((unsigned int)(73 << 24 | 77 << 16 | 83 << 8 | 71), return_value_strlen_1 + (unsigned long int)6);
   adc_msg_add_argument(command, buffer);
-  struct hub_info *return_value_plugin_get_hub$2;
-  return_value_plugin_get_hub$2=plugin_get_hub(plugin);
-  struct hub_user *return_value_convert_user_type$3;
-  return_value_convert_user_type$3=convert_user_type(user);
-  route_to_user(return_value_plugin_get_hub$2, return_value_convert_user_type$3, command);
+  struct hub_info *return_value_plugin_get_hub_2;
+  return_value_plugin_get_hub_2=plugin_get_hub(plugin);
+  struct hub_user *return_value_convert_user_type_3;
+  return_value_convert_user_type_3=convert_user_type(user);
+  route_to_user(return_value_plugin_get_hub_2, return_value_convert_user_type_3, command);
   adc_msg_free(command);
   free((void *)buffer);
   return 1;
@@ -11165,17 +11165,17 @@ static signed int cbfunc_send_status(struct plugin_handle *plugin, struct plugin
   char *buffer;
   buffer=adc_msg_escape(message);
   struct adc_message *command;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buffer);
-  command=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 84 << 8 | 65), return_value_strlen$1 + (unsigned long int)10);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buffer);
+  command=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 84 << 8 | 65), return_value_strlen_1 + (unsigned long int)10);
   snprintf(code_str, sizeof(char [4l]) /*4ul*/ , "%03d", code);
   adc_msg_add_argument(command, code_str);
   adc_msg_add_argument(command, buffer);
-  struct hub_info *return_value_plugin_get_hub$2;
-  return_value_plugin_get_hub$2=plugin_get_hub(plugin);
-  struct hub_user *return_value_convert_user_type$3;
-  return_value_convert_user_type$3=convert_user_type(user);
-  route_to_user(return_value_plugin_get_hub$2, return_value_convert_user_type$3, command);
+  struct hub_info *return_value_plugin_get_hub_2;
+  return_value_plugin_get_hub_2=plugin_get_hub(plugin);
+  struct hub_user *return_value_convert_user_type_3;
+  return_value_convert_user_type_3=convert_user_type(user);
+  route_to_user(return_value_plugin_get_hub_2, return_value_convert_user_type_3, command);
   adc_msg_free(command);
   free((void *)buffer);
   return 1;
@@ -11189,17 +11189,17 @@ static void cbfunc_set_hub_description(struct plugin_handle *plugin, const char 
   hub=plugin_get_hub(plugin);
   struct adc_message *command;
   char *new_str;
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(str == ((const char *)NULL)))
-    tmp_if_expr$1 = str;
+    tmp_if_expr_1 = str;
 
   else
-    tmp_if_expr$1 = hub->config->hub_description;
-  new_str=adc_msg_escape(tmp_if_expr$1);
+    tmp_if_expr_1 = hub->config->hub_description;
+  new_str=adc_msg_escape(tmp_if_expr_1);
   adc_msg_replace_named_argument(hub->command_info, "DE", new_str);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(new_str);
-  command=adc_msg_construct((unsigned int)(73 << 24 | 73 << 16 | 78 << 8 | 70), return_value_strlen$2 + (unsigned long int)8);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(new_str);
+  command=adc_msg_construct((unsigned int)(73 << 24 | 73 << 16 | 78 << 8 | 70), return_value_strlen_2 + (unsigned long int)8);
   adc_msg_add_named_argument(command, "DE", new_str);
   route_to_all(hub, command);
   adc_msg_free(command);
@@ -11214,17 +11214,17 @@ static void cbfunc_set_hub_name(struct plugin_handle *plugin, const char *str)
   hub=plugin_get_hub(plugin);
   struct adc_message *command;
   char *new_str;
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(str == ((const char *)NULL)))
-    tmp_if_expr$1 = str;
+    tmp_if_expr_1 = str;
 
   else
-    tmp_if_expr$1 = hub->config->hub_name;
-  new_str=adc_msg_escape(tmp_if_expr$1);
+    tmp_if_expr_1 = hub->config->hub_name;
+  new_str=adc_msg_escape(tmp_if_expr_1);
   adc_msg_replace_named_argument(hub->command_info, "NI", new_str);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(new_str);
-  command=adc_msg_construct((unsigned int)(73 << 24 | 73 << 16 | 78 << 8 | 70), return_value_strlen$2 + (unsigned long int)8);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(new_str);
+  command=adc_msg_construct((unsigned int)(73 << 24 | 73 << 16 | 78 << 8 | 70), return_value_strlen_2 + (unsigned long int)8);
   adc_msg_add_named_argument(command, "NI", new_str);
   route_to_all(hub, command);
   adc_msg_free(command);
@@ -11235,11 +11235,11 @@ static void cbfunc_set_hub_name(struct plugin_handle *plugin, const char *str)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugincallback.c line 85
 static signed int cbfunc_user_disconnect(struct plugin_handle *plugin, struct plugin_user *user)
 {
-  struct hub_info *return_value_plugin_get_hub$1;
-  return_value_plugin_get_hub$1=plugin_get_hub(plugin);
-  struct hub_user *return_value_convert_user_type$2;
-  return_value_convert_user_type$2=convert_user_type(user);
-  hub_disconnect_user(return_value_plugin_get_hub$1, return_value_convert_user_type$2, quit_kicked);
+  struct hub_info *return_value_plugin_get_hub_1;
+  return_value_plugin_get_hub_1=plugin_get_hub(plugin);
+  struct hub_user *return_value_convert_user_type_2;
+  return_value_convert_user_type_2=convert_user_type(user);
+  hub_disconnect_user(return_value_plugin_get_hub_1, return_value_convert_user_type_2, quit_kicked);
   return 0;
 }
 
@@ -11282,10 +11282,10 @@ extern void cbuf_append_format(struct cbuffer *buf, const char *format, ...)
 extern void cbuf_append_strftime(struct cbuffer *buf, const char *format, struct tm *tm)
 {
   signed int bytes;
-  unsigned long int return_value_strftime$1;
+  unsigned long int return_value_strftime_1;
   static char tmp[1024l];
-  return_value_strftime$1=strftime(tmp, sizeof(char [1024l]) /*1024ul*/ , format, tm);
-  bytes = (signed int)return_value_strftime$1;
+  return_value_strftime_1=strftime(tmp, sizeof(char [1024l]) /*1024ul*/ , format, tm);
+  bytes = (signed int)return_value_strftime_1;
   cbuf_append_bytes(buf, tmp, (unsigned long int)bytes);
 }
 
@@ -11294,15 +11294,15 @@ extern void cbuf_append_strftime(struct cbuffer *buf, const char *format, struct
 extern struct cbuffer * cbuf_create(unsigned long int capacity)
 {
   struct cbuffer *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cbuffer) /*32ul*/ );
-  buf = (struct cbuffer *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cbuffer) /*32ul*/ );
+  buf = (struct cbuffer *)return_value_malloc_1;
   buf->capacity = capacity;
   buf->size = (unsigned long int)0;
   buf->flags = (unsigned long int)0;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(capacity + (unsigned long int)1);
-  buf->buf = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(capacity + (unsigned long int)1);
+  buf->buf = (char *)return_value_malloc_2;
   buf->buf[(signed long int)0] = (char)0;
   return buf;
 }
@@ -11312,9 +11312,9 @@ extern struct cbuffer * cbuf_create(unsigned long int capacity)
 extern struct cbuffer * cbuf_create_const(const char *buffer)
 {
   struct cbuffer *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cbuffer) /*32ul*/ );
-  buf = (struct cbuffer *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cbuffer) /*32ul*/ );
+  buf = (struct cbuffer *)return_value_malloc_1;
   buf->capacity = (unsigned long int)0;
   buf->size=strlen(buffer);
   buf->flags = (unsigned long int)0x01;
@@ -11344,9 +11344,9 @@ extern const char * cbuf_get(struct cbuffer *buf)
 extern void cbuf_resize(struct cbuffer *buf, unsigned long int capacity)
 {
   buf->capacity = capacity;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)buf->buf, capacity + (unsigned long int)1);
-  buf->buf = (char *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)buf->buf, capacity + (unsigned long int)1);
+  buf->buf = (char *)return_value_realloc_1;
 }
 
 // cbuf_size
@@ -11390,92 +11390,92 @@ struct cfg_settings * cfg_settings_split(const char *line)
   struct cfg_settings *s = (struct cfg_settings *)(void *)0;
   struct cfg_tokens *tok = (struct cfg_tokens *)(void *)0;
   char *pos = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(line == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*line != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  char *return_value___builtin_strchr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
-
-  else
-  {
-    return_value___builtin_strchr$2=__builtin_strchr(line, 61);
-    pos = (char *)return_value___builtin_strchr$2;
-    tmp_if_expr$3 = pos == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  }
-  _Bool tmp_if_expr$5;
-  void *return_value_hub_malloc_zero$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_1 = !(*line != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  char *return_value___builtin_strchr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_hub_malloc_zero$4=hub_malloc_zero(sizeof(struct cfg_settings) /*16ul*/ );
-    s = (struct cfg_settings *)return_value_hub_malloc_zero$4;
-    tmp_if_expr$5 = s == (struct cfg_settings *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value___builtin_strchr_2=__builtin_strchr(line, 61);
+    pos = (char *)return_value___builtin_strchr_2;
+    tmp_if_expr_3 = pos == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  void *return_value_hub_malloc_zero_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
+
+  else
+  {
+    return_value_hub_malloc_zero_4=hub_malloc_zero(sizeof(struct cfg_settings) /*16ul*/ );
+    s = (struct cfg_settings *)return_value_hub_malloc_zero_4;
+    tmp_if_expr_5 = s == (struct cfg_settings *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  }
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
     tok=cfg_tokenize(line);
-    tmp_if_expr$6 = tok == (struct cfg_tokens *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = tok == (struct cfg_tokens *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  unsigned long int return_value_cfg_token_count$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  unsigned long int return_value_cfg_token_count_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_cfg_token_count$7=cfg_token_count(tok);
-    tmp_if_expr$8 = return_value_cfg_token_count$7 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+    return_value_cfg_token_count_7=cfg_token_count(tok);
+    tmp_if_expr_8 = return_value_cfg_token_count_7 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_cfg_token_count$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_cfg_token_count_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
-    return_value_cfg_token_count$9=cfg_token_count(tok);
-    tmp_if_expr$10 = return_value_cfg_token_count$9 > (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
+    return_value_cfg_token_count_9=cfg_token_count(tok);
+    tmp_if_expr_10 = return_value_cfg_token_count_9 > (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_cfg_token_count$11;
-  _Bool tmp_if_expr$15;
-  signed int tmp_statement_expression$12;
-  if(tmp_if_expr$10)
-    tmp_if_expr$16 = (_Bool)1;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_cfg_token_count_11;
+  _Bool tmp_if_expr_15;
+  signed int tmp_statement_expression_12;
+  if(tmp_if_expr_10)
+    tmp_if_expr_16 = (_Bool)1;
 
   else
   {
-    return_value_cfg_token_count$11=cfg_token_count(tok);
-    if(return_value_cfg_token_count$11 == 3ul)
+    return_value_cfg_token_count_11=cfg_token_count(tok);
+    if(return_value_cfg_token_count_11 == 3ul)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      char *return_value_cfg_token_get$13;
-      return_value_cfg_token_get$13=cfg_token_get(tok, (unsigned long int)1);
-      signed int return_value___builtin_strcmp$14;
-      return_value___builtin_strcmp$14=__builtin_strcmp(return_value_cfg_token_get$13, "=");
-      tmp_statement_expression$12 = return_value___builtin_strcmp$14;
-      tmp_if_expr$15 = tmp_statement_expression$12 != 0 ? (_Bool)1 : (_Bool)0;
+      char *return_value_cfg_token_get_13;
+      return_value_cfg_token_get_13=cfg_token_get(tok, (unsigned long int)1);
+      signed int return_value___builtin_strcmp_14;
+      return_value___builtin_strcmp_14=__builtin_strcmp(return_value_cfg_token_get_13, "=");
+      tmp_statement_expression_12 = return_value___builtin_strcmp_14;
+      tmp_if_expr_15 = tmp_statement_expression_12 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$15 = (_Bool)0;
-    tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_15 = (_Bool)0;
+    tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_cfg_token_count$31;
-  char *return_value___builtin_strchr$21;
-  if(tmp_if_expr$16)
+  unsigned long int return_value_cfg_token_count_31;
+  char *return_value___builtin_strchr_21;
+  if(tmp_if_expr_16)
   {
     cfg_tokens_free(tok);
     cfg_settings_free(s);
@@ -11484,15 +11484,15 @@ struct cfg_settings * cfg_settings_split(const char *line)
 
   else
   {
-    unsigned long int return_value_cfg_token_count$32;
-    return_value_cfg_token_count$32=cfg_token_count(tok);
-    if(return_value_cfg_token_count$32 == 1ul)
+    unsigned long int return_value_cfg_token_count_32;
+    return_value_cfg_token_count_32=cfg_token_count(tok);
+    if(return_value_cfg_token_count_32 == 1ul)
     {
       char *key;
       key=cfg_token_get_first(tok);
-      char *return_value___builtin_strchr$17;
-      return_value___builtin_strchr$17=__builtin_strchr(key, 61);
-      pos = return_value___builtin_strchr$17;
+      char *return_value___builtin_strchr_17;
+      return_value___builtin_strchr_17=__builtin_strchr(key, 61);
+      pos = return_value___builtin_strchr_17;
       if(pos == ((char *)NULL))
       {
         cfg_tokens_free(tok);
@@ -11509,38 +11509,38 @@ struct cfg_settings * cfg_settings_split(const char *line)
         return (struct cfg_settings *)(void *)0;
       }
 
-      char *return_value___strdup$18;
-      return_value___strdup$18=__strdup(key);
-      s->key = return_value___strdup$18;
-      char *return_value_strip_white_space$19;
-      return_value_strip_white_space$19=strip_white_space(pos + (signed long int)1);
-      char *return_value___strdup$20;
-      return_value___strdup$20=__strdup(return_value_strip_white_space$19);
-      s->value = return_value___strdup$20;
+      char *return_value___strdup_18;
+      return_value___strdup_18=__strdup(key);
+      s->key = return_value___strdup_18;
+      char *return_value_strip_white_space_19;
+      return_value_strip_white_space_19=strip_white_space(pos + (signed long int)1);
+      char *return_value___strdup_20;
+      return_value___strdup_20=__strdup(return_value_strip_white_space_19);
+      s->value = return_value___strdup_20;
     }
 
     else
     {
-      return_value_cfg_token_count$31=cfg_token_count(tok);
-      if(return_value_cfg_token_count$31 == 2ul)
+      return_value_cfg_token_count_31=cfg_token_count(tok);
+      if(return_value_cfg_token_count_31 == 2ul)
       {
-        char *cfg_settings_split$$1$$4$$key;
-        cfg_settings_split$$1$$4$$key=cfg_token_get_first(tok);
+        char *cfg_settings_split__1__4__key;
+        cfg_settings_split__1__4__key=cfg_token_get_first(tok);
         char *val;
         val=cfg_token_get_next(tok);
-        char *return_value___builtin_strchr$22;
-        return_value___builtin_strchr$22=__builtin_strchr(cfg_settings_split$$1$$4$$key, 61);
-        pos = return_value___builtin_strchr$22;
+        char *return_value___builtin_strchr_22;
+        return_value___builtin_strchr_22=__builtin_strchr(cfg_settings_split__1__4__key, 61);
+        pos = return_value___builtin_strchr_22;
         if(!(pos == ((char *)NULL)))
         {
           pos[(signed long int)0] = (char)0;
-          cfg_settings_split$$1$$4$$key=strip_white_space(cfg_settings_split$$1$$4$$key);
+          cfg_settings_split__1__4__key=strip_white_space(cfg_settings_split__1__4__key);
         }
 
         else
         {
-          return_value___builtin_strchr$21=__builtin_strchr(val, 61);
-          pos = return_value___builtin_strchr$21;
+          return_value___builtin_strchr_21=__builtin_strchr(val, 61);
+          pos = return_value___builtin_strchr_21;
           if(!(pos == ((char *)NULL)))
             val=strip_white_space(pos + (signed long int)1);
 
@@ -11551,37 +11551,37 @@ struct cfg_settings * cfg_settings_split(const char *line)
             return (struct cfg_settings *)(void *)0;
           }
         }
-        if(*cfg_settings_split$$1$$4$$key == 0)
+        if(*cfg_settings_split__1__4__key == 0)
         {
           cfg_tokens_free(tok);
           cfg_settings_free(s);
           return (struct cfg_settings *)(void *)0;
         }
 
-        char *return_value___strdup$23;
-        return_value___strdup$23=__strdup(cfg_settings_split$$1$$4$$key);
-        s->key = return_value___strdup$23;
-        char *return_value___strdup$24;
-        return_value___strdup$24=__strdup(val);
-        s->value = return_value___strdup$24;
+        char *return_value___strdup_23;
+        return_value___strdup_23=__strdup(cfg_settings_split__1__4__key);
+        s->key = return_value___strdup_23;
+        char *return_value___strdup_24;
+        return_value___strdup_24=__strdup(val);
+        s->value = return_value___strdup_24;
       }
 
       else
       {
-        char *return_value_cfg_token_get$25;
-        return_value_cfg_token_get$25=cfg_token_get(tok, (unsigned long int)0);
-        char *return_value_strip_white_space$26;
-        return_value_strip_white_space$26=strip_white_space(return_value_cfg_token_get$25);
-        char *return_value___strdup$27;
-        return_value___strdup$27=__strdup(return_value_strip_white_space$26);
-        s->key = return_value___strdup$27;
-        char *return_value_cfg_token_get$28;
-        return_value_cfg_token_get$28=cfg_token_get(tok, (unsigned long int)2);
-        char *return_value_strip_white_space$29;
-        return_value_strip_white_space$29=strip_white_space(return_value_cfg_token_get$28);
-        char *return_value___strdup$30;
-        return_value___strdup$30=__strdup(return_value_strip_white_space$29);
-        s->value = return_value___strdup$30;
+        char *return_value_cfg_token_get_25;
+        return_value_cfg_token_get_25=cfg_token_get(tok, (unsigned long int)0);
+        char *return_value_strip_white_space_26;
+        return_value_strip_white_space_26=strip_white_space(return_value_cfg_token_get_25);
+        char *return_value___strdup_27;
+        return_value___strdup_27=__strdup(return_value_strip_white_space_26);
+        s->key = return_value___strdup_27;
+        char *return_value_cfg_token_get_28;
+        return_value_cfg_token_get_28=cfg_token_get(tok, (unsigned long int)2);
+        char *return_value_strip_white_space_29;
+        return_value_strip_white_space_29=strip_white_space(return_value_cfg_token_get_28);
+        char *return_value___strdup_30;
+        return_value___strdup_30=__strdup(return_value_strip_white_space_29);
+        s->value = return_value___strdup_30;
       }
     }
     cfg_tokens_free(tok);
@@ -11595,9 +11595,9 @@ signed int cfg_token_add(struct cfg_tokens *tokens, char *new_token)
 {
   if(!(*new_token == 0))
   {
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(new_token);
-    list_append(tokens->list, (void *)return_value___strdup$1);
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(new_token);
+    list_append(tokens->list, (void *)return_value___strdup_1);
     return 1;
   }
 
@@ -11608,36 +11608,36 @@ signed int cfg_token_add(struct cfg_tokens *tokens, char *new_token)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.h line 30
 unsigned long int cfg_token_count(struct cfg_tokens *tokens)
 {
-  unsigned long int return_value_list_size$1;
-  return_value_list_size$1=list_size(tokens->list);
-  return return_value_list_size$1;
+  unsigned long int return_value_list_size_1;
+  return_value_list_size_1=list_size(tokens->list);
+  return return_value_list_size_1;
 }
 
 // cfg_token_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.c line 148
 char * cfg_token_get(struct cfg_tokens *tokens, unsigned long int offset)
 {
-  void *return_value_list_get_index$1;
-  return_value_list_get_index$1=list_get_index(tokens->list, offset);
-  return (char *)return_value_list_get_index$1;
+  void *return_value_list_get_index_1;
+  return_value_list_get_index_1=list_get_index(tokens->list, offset);
+  return (char *)return_value_list_get_index_1;
 }
 
 // cfg_token_get_first
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.h line 33
 char * cfg_token_get_first(struct cfg_tokens *tokens)
 {
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(tokens->list);
-  return (char *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(tokens->list);
+  return (char *)return_value_list_get_first_1;
 }
 
 // cfg_token_get_next
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/config_token.h line 34
 char * cfg_token_get_next(struct cfg_tokens *tokens)
 {
-  void *return_value_list_get_next$1;
-  return_value_list_get_next$1=list_get_next(tokens->list);
-  return (char *)return_value_list_get_next$1;
+  void *return_value_list_get_next_1;
+  return_value_list_get_next_1=list_get_next(tokens->list);
+  return (char *)return_value_list_get_next_1;
 }
 
 // cfg_tokenize
@@ -11645,15 +11645,15 @@ char * cfg_token_get_next(struct cfg_tokens *tokens)
 struct cfg_tokens * cfg_tokenize(const char *line)
 {
   struct cfg_tokens *tokens;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct cfg_tokens) /*8ul*/ );
-  tokens = (struct cfg_tokens *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct cfg_tokens) /*8ul*/ );
+  tokens = (struct cfg_tokens *)return_value_hub_malloc_zero_1;
   char *buffer;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  void *return_value_hub_malloc_zero$3;
-  return_value_hub_malloc_zero$3=hub_malloc_zero(return_value_strlen$2 + (unsigned long int)1);
-  buffer = (char *)return_value_hub_malloc_zero$3;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  void *return_value_hub_malloc_zero_3;
+  return_value_hub_malloc_zero_3=hub_malloc_zero(return_value_strlen_2 + (unsigned long int)1);
+  buffer = (char *)return_value_hub_malloc_zero_3;
   char *out = buffer;
   const char *p = line;
   signed int backslash = 0;
@@ -11717,9 +11717,9 @@ struct cfg_tokens * cfg_tokenize(const char *line)
               out = out + 1l;
               token_size = token_size + 1ul;
               out = buffer;
-              signed int return_value_cfg_token_add$4;
-              return_value_cfg_token_add$4=cfg_token_add(tokens, out);
-              if(!(return_value_cfg_token_add$4 == 0))
+              signed int return_value_cfg_token_add_4;
+              return_value_cfg_token_add_4=cfg_token_add(tokens, out);
+              if(!(return_value_cfg_token_add_4 == 0))
                 token_count = token_count + 1ul;
 
               token_size = (unsigned long int)0;
@@ -11791,9 +11791,9 @@ struct cfg_tokens * cfg_tokenize(const char *line)
               out = out + 1l;
               token_size = token_size + 1ul;
               out = buffer;
-              signed int return_value_cfg_token_add$5;
-              return_value_cfg_token_add$5=cfg_token_add(tokens, out);
-              if(!(return_value_cfg_token_add$5 == 0))
+              signed int return_value_cfg_token_add_5;
+              return_value_cfg_token_add_5=cfg_token_add(tokens, out);
+              if(!(return_value_cfg_token_add_5 == 0))
                 token_count = token_count + 1ul;
 
               token_size = (unsigned long int)0;
@@ -11820,9 +11820,9 @@ struct cfg_tokens * cfg_tokenize(const char *line)
     out = out + 1l;
     token_size = token_size + 1ul;
     out = buffer;
-    signed int return_value_cfg_token_add$6;
-    return_value_cfg_token_add$6=cfg_token_add(tokens, out);
-    if(!(return_value_cfg_token_add$6 == 0))
+    signed int return_value_cfg_token_add_6;
+    return_value_cfg_token_add_6=cfg_token_add(tokens, out);
+    if(!(return_value_cfg_token_add_6 == 0))
       token_count = token_count + 1ul;
 
     token_size = (unsigned long int)0;
@@ -11850,23 +11850,23 @@ void cfg_tokens_free(struct cfg_tokens *tokens)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/inf.c line 388
 static signed int check_acl(struct hub_info *hub, struct hub_user *user, struct adc_message *cmd)
 {
-  signed int return_value_acl_is_cid_banned$1;
-  return_value_acl_is_cid_banned$1=acl_is_cid_banned(hub->acl, user->id.cid);
-  if(!(return_value_acl_is_cid_banned$1 == 0))
+  signed int return_value_acl_is_cid_banned_1;
+  return_value_acl_is_cid_banned_1=acl_is_cid_banned(hub->acl, user->id.cid);
+  if(!(return_value_acl_is_cid_banned_1 == 0))
     return status_msg_ban_permanently;
 
   else
   {
-    signed int return_value_acl_is_user_banned$2;
-    return_value_acl_is_user_banned$2=acl_is_user_banned(hub->acl, user->id.nick);
-    if(!(return_value_acl_is_user_banned$2 == 0))
+    signed int return_value_acl_is_user_banned_2;
+    return_value_acl_is_user_banned_2=acl_is_user_banned(hub->acl, user->id.nick);
+    if(!(return_value_acl_is_user_banned_2 == 0))
       return status_msg_ban_permanently;
 
     else
     {
-      signed int return_value_acl_is_user_denied$3;
-      return_value_acl_is_user_denied$3=acl_is_user_denied(hub->acl, user->id.nick);
-      if(!(return_value_acl_is_user_denied$3 == 0))
+      signed int return_value_acl_is_user_denied_3;
+      return_value_acl_is_user_denied_3=acl_is_user_denied(hub->acl, user->id.nick);
+      if(!(return_value_acl_is_user_denied_3 == 0))
         return status_msg_inf_error_nick_restricted;
 
       else
@@ -11893,9 +11893,9 @@ static signed int check_cid(struct hub_info *hub, struct hub_user *user, struct 
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cid);
-    if(!(return_value_strlen$1 == 39ul))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cid);
+    if(!(return_value_strlen_1 == 39ul))
     {
       free((void *)cid);
       free((void *)pid);
@@ -11904,9 +11904,9 @@ static signed int check_cid(struct hub_info *hub, struct hub_user *user, struct 
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(pid);
-      if(!(return_value_strlen$2 == 39ul))
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(pid);
+      if(!(return_value_strlen_2 == 39ul))
       {
         free((void *)cid);
         free((void *)pid);
@@ -11918,18 +11918,18 @@ static signed int check_cid(struct hub_info *hub, struct hub_user *user, struct 
         pos = (unsigned long int)0;
         for( ; !(pos >= 39ul); pos = pos + 1ul)
         {
-          signed int return_value_is_valid_base32_char$3;
-          return_value_is_valid_base32_char$3=is_valid_base32_char(cid[(signed long int)pos]);
-          if(return_value_is_valid_base32_char$3 == 0)
+          signed int return_value_is_valid_base32_char_3;
+          return_value_is_valid_base32_char_3=is_valid_base32_char(cid[(signed long int)pos]);
+          if(return_value_is_valid_base32_char_3 == 0)
           {
             free((void *)cid);
             free((void *)pid);
             return status_msg_inf_error_cid_invalid;
           }
 
-          signed int return_value_is_valid_base32_char$4;
-          return_value_is_valid_base32_char$4=is_valid_base32_char(pid[(signed long int)pos]);
-          if(return_value_is_valid_base32_char$4 == 0)
+          signed int return_value_is_valid_base32_char_4;
+          return_value_is_valid_base32_char_4=is_valid_base32_char(pid[(signed long int)pos]);
+          if(return_value_is_valid_base32_char_4 == 0)
           {
             free((void *)cid);
             free((void *)pid);
@@ -11937,9 +11937,9 @@ static signed int check_cid(struct hub_info *hub, struct hub_user *user, struct 
           }
 
         }
-        signed int return_value_check_hash_tiger$5;
-        return_value_check_hash_tiger$5=check_hash_tiger(cid, pid);
-        if(return_value_check_hash_tiger$5 == 0)
+        signed int return_value_check_hash_tiger_5;
+        return_value_check_hash_tiger_5=check_hash_tiger(cid, pid);
+        if(return_value_check_hash_tiger_5 == 0)
         {
           free((void *)cid);
           free((void *)pid);
@@ -11965,15 +11965,15 @@ static signed int check_cmd_addr(const char *cmd, struct linked_list *list, char
 {
   char *data;
   struct ip_range *range = ((struct ip_range *)NULL);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(cmd);
-  signed int return_value_strncmp$5;
-  return_value_strncmp$5=strncmp(line, cmd, return_value_strlen$4);
-  if(return_value_strncmp$5 == 0)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(cmd);
+  signed int return_value_strncmp_5;
+  return_value_strncmp_5=strncmp(line, cmd, return_value_strlen_4);
+  if(return_value_strncmp_5 == 0)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cmd);
-    data = &line[(signed long int)return_value_strlen$1];
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cmd);
+    data = &line[(signed long int)return_value_strlen_1];
     data[(signed long int)0] = (char)0;
     data = data + 1l;
     data=strip_white_space(data);
@@ -11983,18 +11983,18 @@ static signed int check_cmd_addr(const char *cmd, struct linked_list *list, char
       return -1;
     }
 
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct ip_range) /*40ul*/ );
-    range = (struct ip_range *)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct ip_range) /*40ul*/ );
+    range = (struct ip_range *)return_value_hub_malloc_zero_2;
     if(range == ((struct ip_range *)NULL))
     {
       hub_log(1, "ACL parse error. Out of memory!");
       return -1;
     }
 
-    signed int return_value_ip_convert_address_to_range$3;
-    return_value_ip_convert_address_to_range$3=ip_convert_address_to_range(data, range);
-    if(!(return_value_ip_convert_address_to_range$3 == 0))
+    signed int return_value_ip_convert_address_to_range_3;
+    return_value_ip_convert_address_to_range_3=ip_convert_address_to_range(data, range);
+    if(!(return_value_ip_convert_address_to_range_3 == 0))
     {
       add_ip_range(list, range);
       return 1;
@@ -12011,15 +12011,15 @@ static signed int check_cmd_addr(const char *cmd, struct linked_list *list, char
 static signed int check_cmd_bool(const char *cmd, struct linked_list *list, char *line, signed int line_count)
 {
   char *data;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(cmd);
-  signed int return_value_strncmp$4;
-  return_value_strncmp$4=strncmp(line, cmd, return_value_strlen$3);
-  if(return_value_strncmp$4 == 0)
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(cmd);
+  signed int return_value_strncmp_4;
+  return_value_strncmp_4=strncmp(line, cmd, return_value_strlen_3);
+  if(return_value_strncmp_4 == 0)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cmd);
-    data = &line[(signed long int)return_value_strlen$1];
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cmd);
+    data = &line[(signed long int)return_value_strlen_1];
     data[(signed long int)0] = (char)0;
     data = data + 1l;
     data=strip_white_space(data);
@@ -12029,9 +12029,9 @@ static signed int check_cmd_bool(const char *cmd, struct linked_list *list, char
       return -1;
     }
 
-    char *return_value___strdup$2;
-    return_value___strdup$2=__strdup(data);
-    list_append(list, (void *)return_value___strdup$2);
+    char *return_value___strdup_2;
+    return_value___strdup_2=__strdup(data);
+    list_append(list, (void *)return_value___strdup_2);
 
   __CPROVER_DUMP_L2:
     ;
@@ -12048,15 +12048,15 @@ static signed int check_cmd_user(const char *cmd, signed int status, struct link
   char *data;
   char *data_extra;
   struct auth_info *info = ((struct auth_info *)NULL);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(cmd);
-  signed int return_value_strncmp$5;
-  return_value_strncmp$5=strncmp(line, cmd, return_value_strlen$4);
-  if(return_value_strncmp$5 == 0)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(cmd);
+  signed int return_value_strncmp_5;
+  return_value_strncmp_5=strncmp(line, cmd, return_value_strlen_4);
+  if(return_value_strncmp_5 == 0)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cmd);
-    data = &line[(signed long int)return_value_strlen$1];
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cmd);
+    data = &line[(signed long int)return_value_strlen_1];
     data_extra = ((char *)NULL);
     data[(signed long int)0] = (char)0;
     data = data + 1l;
@@ -12067,18 +12067,18 @@ static signed int check_cmd_user(const char *cmd, signed int status, struct link
       return -1;
     }
 
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct auth_info) /*136ul*/ );
-    info = (struct auth_info *)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct auth_info) /*136ul*/ );
+    info = (struct auth_info *)return_value_hub_malloc_zero_2;
     if(info == ((struct auth_info *)NULL))
     {
       hub_log(1, "ACL parse error. Out of memory!");
       return -1;
     }
 
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(cmd, "user_", (unsigned long int)5);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(cmd, "user_", (unsigned long int)5);
+    if(return_value_strncmp_3 == 0)
     {
       data_extra=strrchr(data, 58);
       if(!(data_extra == ((char *)NULL)))
@@ -12166,9 +12166,9 @@ static signed int check_hash_tiger(const char *cid, const char *pid)
   tiger((unsigned long int *)raw_pid, (unsigned long int)24, (unsigned long int *)tiger_res);
   base32_encode((unsigned char *)tiger_res, (unsigned long int)24, x_pid);
   x_pid[(signed long int)39] = (char)0;
-  signed int return_value_strncasecmp$1;
-  return_value_strncasecmp$1=strncasecmp(x_pid, cid, (unsigned long int)39);
-  if(return_value_strncasecmp$1 == 0)
+  signed int return_value_strncasecmp_1;
+  return_value_strncasecmp_1=strncasecmp(x_pid, cid, (unsigned long int)39);
+  if(return_value_strncasecmp_1 == 0)
     return 1;
 
   else
@@ -12179,19 +12179,19 @@ static signed int check_hash_tiger(const char *cid, const char *pid)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 413
 static signed int check_ip_mask(const char *text_addr, signed int bits, struct ip_range *range)
 {
-  signed int return_value_ip_is_valid_ipv4$1;
-  return_value_ip_is_valid_ipv4$1=ip_is_valid_ipv4(text_addr);
-  _Bool tmp_if_expr$3;
-  signed int return_value_ip_is_valid_ipv6$2;
-  if(!(return_value_ip_is_valid_ipv4$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_ip_is_valid_ipv4_1;
+  return_value_ip_is_valid_ipv4_1=ip_is_valid_ipv4(text_addr);
+  _Bool tmp_if_expr_3;
+  signed int return_value_ip_is_valid_ipv6_2;
+  if(!(return_value_ip_is_valid_ipv4_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_ip_is_valid_ipv6$2=ip_is_valid_ipv6(text_addr);
-    tmp_if_expr$3 = return_value_ip_is_valid_ipv6$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_is_valid_ipv6_2=ip_is_valid_ipv6(text_addr);
+    tmp_if_expr_3 = return_value_ip_is_valid_ipv6_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     struct ip_addr_encap addr;
     struct ip_addr_encap mask1;
@@ -12210,35 +12210,35 @@ static signed int check_ip_mask(const char *text_addr, signed int bits, struct i
   return 0;
 }
 
-// check_ip_mask$link1
+// check_ip_mask_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 413
-static signed int check_ip_mask$link1(const char *text_addr$link1, signed int bits$link1, struct ip_range *range$link1)
+static signed int check_ip_mask_link1(const char *text_addr_link1, signed int bits_link1, struct ip_range *range_link1)
 {
-  signed int return_value_ip_is_valid_ipv4$1$link1;
-  return_value_ip_is_valid_ipv4$1$link1=ip_is_valid_ipv4(text_addr$link1);
-  _Bool tmp_if_expr$3$link1;
-  signed int return_value_ip_is_valid_ipv6$2$link1;
-  if(!(return_value_ip_is_valid_ipv4$1$link1 == 0))
-    tmp_if_expr$3$link1 = (_Bool)1;
+  signed int return_value_ip_is_valid_ipv4_1_link1;
+  return_value_ip_is_valid_ipv4_1_link1=ip_is_valid_ipv4(text_addr_link1);
+  _Bool tmp_if_expr_3_link1;
+  signed int return_value_ip_is_valid_ipv6_2_link1;
+  if(!(return_value_ip_is_valid_ipv4_1_link1 == 0))
+    tmp_if_expr_3_link1 = (_Bool)1;
 
   else
   {
-    return_value_ip_is_valid_ipv6$2$link1=ip_is_valid_ipv6(text_addr$link1);
-    tmp_if_expr$3$link1 = return_value_ip_is_valid_ipv6$2$link1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_is_valid_ipv6_2_link1=ip_is_valid_ipv6(text_addr_link1);
+    tmp_if_expr_3_link1 = return_value_ip_is_valid_ipv6_2_link1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3$link1)
+  if(tmp_if_expr_3_link1)
   {
-    struct ip_addr_encap addr$link1;
-    struct ip_addr_encap mask1$link1;
-    struct ip_addr_encap mask2$link1;
-    signed int af$link1;
-    af$link1=ip_convert_to_binary(text_addr$link1, &addr$link1);
-    signed int maxbits$link1 = af$link1 == 10 ? 128 : 32;
-    bits$link1 = (bits$link1 > 0 ? bits$link1 : 0) < maxbits$link1 ? (bits$link1 > 0 ? bits$link1 : 0) : maxbits$link1;
-    ip_mask_create_left(af$link1, bits$link1, &mask1$link1);
-    ip_mask_create_right(af$link1, maxbits$link1 - bits$link1, &mask2$link1);
-    ip_mask_apply_AND(&addr$link1, &mask1$link1, &range$link1->lo);
-    ip_mask_apply_OR(&range$link1->lo, &mask2$link1, &range$link1->hi);
+    struct ip_addr_encap addr_link1;
+    struct ip_addr_encap mask1_link1;
+    struct ip_addr_encap mask2_link1;
+    signed int af_link1;
+    af_link1=ip_convert_to_binary(text_addr_link1, &addr_link1);
+    signed int maxbits_link1 = af_link1 == 10 ? 128 : 32;
+    bits_link1 = (bits_link1 > 0 ? bits_link1 : 0) < maxbits_link1 ? (bits_link1 > 0 ? bits_link1 : 0) : maxbits_link1;
+    ip_mask_create_left(af_link1, bits_link1, &mask1_link1);
+    ip_mask_create_right(af_link1, maxbits_link1 - bits_link1, &mask2_link1);
+    ip_mask_apply_AND(&addr_link1, &mask1_link1, &range_link1->lo);
+    ip_mask_apply_OR(&range_link1->lo, &mask2_link1, &range_link1->hi);
     return 1;
   }
 
@@ -12251,39 +12251,39 @@ static signed int check_ip_range(const char *lo, const char *hi, struct ip_range
 {
   signed int ret1;
   signed int ret2;
-  signed int return_value_ip_is_valid_ipv4$1;
-  return_value_ip_is_valid_ipv4$1=ip_is_valid_ipv4(lo);
-  _Bool tmp_if_expr$3;
-  signed int return_value_ip_is_valid_ipv4$2;
-  if(!(return_value_ip_is_valid_ipv4$1 == 0))
+  signed int return_value_ip_is_valid_ipv4_1;
+  return_value_ip_is_valid_ipv4_1=ip_is_valid_ipv4(lo);
+  _Bool tmp_if_expr_3;
+  signed int return_value_ip_is_valid_ipv4_2;
+  if(!(return_value_ip_is_valid_ipv4_1 == 0))
   {
-    return_value_ip_is_valid_ipv4$2=ip_is_valid_ipv4(hi);
-    tmp_if_expr$3 = return_value_ip_is_valid_ipv4$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_is_valid_ipv4_2=ip_is_valid_ipv4(hi);
+    tmp_if_expr_3 = return_value_ip_is_valid_ipv4_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  signed int return_value_ip_is_valid_ipv6$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_ip_is_valid_ipv6$5;
-  if(tmp_if_expr$3)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  signed int return_value_ip_is_valid_ipv6_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_ip_is_valid_ipv6_5;
+  if(tmp_if_expr_3)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_ip_is_valid_ipv6$4=ip_is_valid_ipv6(lo);
-    if(!(return_value_ip_is_valid_ipv6$4 == 0))
+    return_value_ip_is_valid_ipv6_4=ip_is_valid_ipv6(lo);
+    if(!(return_value_ip_is_valid_ipv6_4 == 0))
     {
-      return_value_ip_is_valid_ipv6$5=ip_is_valid_ipv6(hi);
-      tmp_if_expr$6 = return_value_ip_is_valid_ipv6$5 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_ip_is_valid_ipv6_5=ip_is_valid_ipv6(hi);
+      tmp_if_expr_6 = return_value_ip_is_valid_ipv6_5 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     ret1=ip_convert_to_binary(lo, &range->lo);
     ret2=ip_convert_to_binary(hi, &range->hi);
@@ -12297,49 +12297,49 @@ static signed int check_ip_range(const char *lo, const char *hi, struct ip_range
     return 0;
 }
 
-// check_ip_range$link1
+// check_ip_range_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.c line 432
-static signed int check_ip_range$link1(const char *lo$link1, const char *hi$link1, struct ip_range *range$link1)
+static signed int check_ip_range_link1(const char *lo_link1, const char *hi_link1, struct ip_range *range_link1)
 {
-  signed int ret1$link1;
-  signed int ret2$link1;
-  signed int return_value_ip_is_valid_ipv4$1$link1;
-  return_value_ip_is_valid_ipv4$1$link1=ip_is_valid_ipv4(lo$link1);
-  _Bool tmp_if_expr$3$link1;
-  signed int return_value_ip_is_valid_ipv4$2$link1;
-  if(!(return_value_ip_is_valid_ipv4$1$link1 == 0))
+  signed int ret1_link1;
+  signed int ret2_link1;
+  signed int return_value_ip_is_valid_ipv4_1_link1;
+  return_value_ip_is_valid_ipv4_1_link1=ip_is_valid_ipv4(lo_link1);
+  _Bool tmp_if_expr_3_link1;
+  signed int return_value_ip_is_valid_ipv4_2_link1;
+  if(!(return_value_ip_is_valid_ipv4_1_link1 == 0))
   {
-    return_value_ip_is_valid_ipv4$2$link1=ip_is_valid_ipv4(hi$link1);
-    tmp_if_expr$3$link1 = return_value_ip_is_valid_ipv4$2$link1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_is_valid_ipv4_2_link1=ip_is_valid_ipv4(hi_link1);
+    tmp_if_expr_3_link1 = return_value_ip_is_valid_ipv4_2_link1 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3$link1 = (_Bool)0;
-  _Bool tmp_if_expr$7$link1;
-  signed int return_value_ip_is_valid_ipv6$4$link1;
-  _Bool tmp_if_expr$6$link1;
-  signed int return_value_ip_is_valid_ipv6$5$link1;
-  if(tmp_if_expr$3$link1)
-    tmp_if_expr$7$link1 = (_Bool)1;
+    tmp_if_expr_3_link1 = (_Bool)0;
+  _Bool tmp_if_expr_7_link1;
+  signed int return_value_ip_is_valid_ipv6_4_link1;
+  _Bool tmp_if_expr_6_link1;
+  signed int return_value_ip_is_valid_ipv6_5_link1;
+  if(tmp_if_expr_3_link1)
+    tmp_if_expr_7_link1 = (_Bool)1;
 
   else
   {
-    return_value_ip_is_valid_ipv6$4$link1=ip_is_valid_ipv6(lo$link1);
-    if(!(return_value_ip_is_valid_ipv6$4$link1 == 0))
+    return_value_ip_is_valid_ipv6_4_link1=ip_is_valid_ipv6(lo_link1);
+    if(!(return_value_ip_is_valid_ipv6_4_link1 == 0))
     {
-      return_value_ip_is_valid_ipv6$5$link1=ip_is_valid_ipv6(hi$link1);
-      tmp_if_expr$6$link1 = return_value_ip_is_valid_ipv6$5$link1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_ip_is_valid_ipv6_5_link1=ip_is_valid_ipv6(hi_link1);
+      tmp_if_expr_6_link1 = return_value_ip_is_valid_ipv6_5_link1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6$link1 = (_Bool)0;
-    tmp_if_expr$7$link1 = tmp_if_expr$6$link1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6_link1 = (_Bool)0;
+    tmp_if_expr_7_link1 = tmp_if_expr_6_link1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7$link1)
+  if(tmp_if_expr_7_link1)
   {
-    ret1$link1=ip_convert_to_binary(lo$link1, &range$link1->lo);
-    ret2$link1=ip_convert_to_binary(hi$link1, &range$link1->hi);
-    if(ret1$link1 == -1 || ret2$link1 == -1 || !(ret1$link1 == ret2$link1))
+    ret1_link1=ip_convert_to_binary(lo_link1, &range_link1->lo);
+    ret2_link1=ip_convert_to_binary(hi_link1, &range_link1->hi);
+    if(ret1_link1 == -1 || ret2_link1 == -1 || !(ret1_link1 == ret2_link1))
       return 0;
 
     return 1;
@@ -12353,14 +12353,14 @@ static signed int check_ip_range$link1(const char *lo$link1, const char *hi$link
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/inf.c line 587
 static signed int check_is_hub_full(struct hub_info *hub, struct hub_user *user)
 {
-  signed int return_value_user_is_protected$1;
+  signed int return_value_user_is_protected_1;
   if(!(hub->config->max_users == 0))
   {
     if(!(hub->users->count >= (unsigned long int)hub->config->max_users))
       goto __CPROVER_DUMP_L1;
 
-    return_value_user_is_protected$1=user_is_protected(user);
-    if(!(return_value_user_is_protected$1 == 0))
+    return_value_user_is_protected_1=user_is_protected(user);
+    if(!(return_value_user_is_protected_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -12388,9 +12388,9 @@ static signed int check_limits(struct hub_info *hub, struct hub_user *user, stru
     if(!(shared_size >= 0l))
       shared_size = (signed long int)0;
 
-    signed int return_value_user_is_logged_in$1;
-    return_value_user_is_logged_in$1=user_is_logged_in(user);
-    if(!(return_value_user_is_logged_in$1 == 0))
+    signed int return_value_user_is_logged_in_1;
+    return_value_user_is_logged_in_1=user_is_logged_in(user);
+    if(!(return_value_user_is_logged_in_1 == 0))
     {
       hub->users->shared_size = hub->users->shared_size - user->limits.shared_size;
       hub->users->shared_size = hub->users->shared_size + (unsigned long int)shared_size;
@@ -12409,9 +12409,9 @@ static signed int check_limits(struct hub_info *hub, struct hub_user *user, stru
     if(!(shared_files >= 0))
       shared_files = 0;
 
-    signed int return_value_user_is_logged_in$2;
-    return_value_user_is_logged_in$2=user_is_logged_in(user);
-    if(!(return_value_user_is_logged_in$2 == 0))
+    signed int return_value_user_is_logged_in_2;
+    return_value_user_is_logged_in_2=user_is_logged_in(user);
+    if(!(return_value_user_is_logged_in_2 == 0))
     {
       hub->users->shared_files = hub->users->shared_files - user->limits.shared_files;
       hub->users->shared_files = hub->users->shared_files + (unsigned long int)shared_files;
@@ -12425,12 +12425,12 @@ static signed int check_limits(struct hub_info *hub, struct hub_user *user, stru
   arg=adc_msg_get_named_argument(cmd, "HN");
   if(!(arg == ((char *)NULL)))
   {
-    signed int check_limits$$1$$3$$num;
-    check_limits$$1$$3$$num=atoi(arg);
-    if(!(check_limits$$1$$3$$num >= 0))
-      check_limits$$1$$3$$num = 0;
+    signed int check_limits__1__3__num;
+    check_limits__1__3__num=atoi(arg);
+    if(!(check_limits__1__3__num >= 0))
+      check_limits__1__3__num = 0;
 
-    user->limits.hub_count_user = (unsigned long int)check_limits$$1$$3$$num;
+    user->limits.hub_count_user = (unsigned long int)check_limits__1__3__num;
     free((void *)arg);
     arg = ((char *)NULL);
   }
@@ -12451,12 +12451,12 @@ static signed int check_limits(struct hub_info *hub, struct hub_user *user, stru
   arg=adc_msg_get_named_argument(cmd, "HO");
   if(!(arg == ((char *)NULL)))
   {
-    signed int check_limits$$1$$5$$num;
-    check_limits$$1$$5$$num=atoi(arg);
-    if(!(check_limits$$1$$5$$num >= 0))
-      check_limits$$1$$5$$num = 0;
+    signed int check_limits__1__5__num;
+    check_limits__1__5__num=atoi(arg);
+    if(!(check_limits__1__5__num >= 0))
+      check_limits__1__5__num = 0;
 
-    user->limits.hub_count_operator = (unsigned long int)check_limits$$1$$5$$num;
+    user->limits.hub_count_operator = (unsigned long int)check_limits__1__5__num;
     free((void *)arg);
     arg = ((char *)NULL);
   }
@@ -12464,191 +12464,191 @@ static signed int check_limits(struct hub_info *hub, struct hub_user *user, stru
   arg=adc_msg_get_named_argument(cmd, "SL");
   if(!(arg == ((char *)NULL)))
   {
-    signed int check_limits$$1$$6$$num;
-    check_limits$$1$$6$$num=atoi(arg);
-    if(!(check_limits$$1$$6$$num >= 0))
-      check_limits$$1$$6$$num = 0;
+    signed int check_limits__1__6__num;
+    check_limits__1__6__num=atoi(arg);
+    if(!(check_limits__1__6__num >= 0))
+      check_limits__1__6__num = 0;
 
-    user->limits.upload_slots = (unsigned long int)check_limits$$1$$6$$num;
+    user->limits.upload_slots = (unsigned long int)check_limits__1__6__num;
     free((void *)arg);
     arg = ((char *)NULL);
   }
 
   user->limits.hub_count_total = user->limits.hub_count_user + user->limits.hub_count_registered + user->limits.hub_count_operator;
-  signed int return_value_user_is_protected$37;
-  return_value_user_is_protected$37=user_is_protected(user);
-  unsigned long int return_value_hub_get_min_share$3;
-  unsigned long int return_value_hub_get_max_share$5;
-  _Bool tmp_if_expr$9;
-  unsigned long int return_value_hub_get_max_hubs_user$8;
-  _Bool tmp_if_expr$13;
-  unsigned long int return_value_hub_get_max_hubs_reg$10;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_hub_get_max_hubs_reg$11;
-  _Bool tmp_if_expr$17;
-  unsigned long int return_value_hub_get_max_hubs_op$14;
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_hub_get_max_hubs_op$15;
-  _Bool tmp_if_expr$21;
-  unsigned long int return_value_hub_get_max_hubs_total$18;
-  _Bool tmp_if_expr$20;
-  unsigned long int return_value_hub_get_max_hubs_total$19;
-  _Bool tmp_if_expr$24;
-  unsigned long int return_value_hub_get_min_hubs_user$23;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_hub_get_min_hubs_reg$25;
-  _Bool tmp_if_expr$27;
-  unsigned long int return_value_hub_get_min_hubs_reg$26;
-  _Bool tmp_if_expr$32;
-  unsigned long int return_value_hub_get_min_hubs_op$29;
-  _Bool tmp_if_expr$31;
-  unsigned long int return_value_hub_get_min_hubs_op$30;
-  unsigned long int return_value_hub_get_min_slots$33;
-  unsigned long int return_value_hub_get_max_slots$35;
-  if(return_value_user_is_protected$37 == 0)
+  signed int return_value_user_is_protected_37;
+  return_value_user_is_protected_37=user_is_protected(user);
+  unsigned long int return_value_hub_get_min_share_3;
+  unsigned long int return_value_hub_get_max_share_5;
+  _Bool tmp_if_expr_9;
+  unsigned long int return_value_hub_get_max_hubs_user_8;
+  _Bool tmp_if_expr_13;
+  unsigned long int return_value_hub_get_max_hubs_reg_10;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_hub_get_max_hubs_reg_11;
+  _Bool tmp_if_expr_17;
+  unsigned long int return_value_hub_get_max_hubs_op_14;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_hub_get_max_hubs_op_15;
+  _Bool tmp_if_expr_21;
+  unsigned long int return_value_hub_get_max_hubs_total_18;
+  _Bool tmp_if_expr_20;
+  unsigned long int return_value_hub_get_max_hubs_total_19;
+  _Bool tmp_if_expr_24;
+  unsigned long int return_value_hub_get_min_hubs_user_23;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_hub_get_min_hubs_reg_25;
+  _Bool tmp_if_expr_27;
+  unsigned long int return_value_hub_get_min_hubs_reg_26;
+  _Bool tmp_if_expr_32;
+  unsigned long int return_value_hub_get_min_hubs_op_29;
+  _Bool tmp_if_expr_31;
+  unsigned long int return_value_hub_get_min_hubs_op_30;
+  unsigned long int return_value_hub_get_min_slots_33;
+  unsigned long int return_value_hub_get_max_slots_35;
+  if(return_value_user_is_protected_37 == 0)
   {
-    unsigned long int return_value_hub_get_min_share$4;
-    return_value_hub_get_min_share$4=hub_get_min_share(hub);
-    if(!(user->limits.shared_size >= return_value_hub_get_min_share$4))
+    unsigned long int return_value_hub_get_min_share_4;
+    return_value_hub_get_min_share_4=hub_get_min_share(hub);
+    if(!(user->limits.shared_size >= return_value_hub_get_min_share_4))
     {
-      return_value_hub_get_min_share$3=hub_get_min_share(hub);
-      if(!(return_value_hub_get_min_share$3 == 0ul))
+      return_value_hub_get_min_share_3=hub_get_min_share(hub);
+      if(!(return_value_hub_get_min_share_3 == 0ul))
         return status_msg_user_share_size_low;
 
     }
 
-    unsigned long int return_value_hub_get_max_share$6;
-    return_value_hub_get_max_share$6=hub_get_max_share(hub);
-    if(!(return_value_hub_get_max_share$6 >= user->limits.shared_size))
+    unsigned long int return_value_hub_get_max_share_6;
+    return_value_hub_get_max_share_6=hub_get_max_share(hub);
+    if(!(return_value_hub_get_max_share_6 >= user->limits.shared_size))
     {
-      return_value_hub_get_max_share$5=hub_get_max_share(hub);
-      if(!(return_value_hub_get_max_share$5 == 0ul))
+      return_value_hub_get_max_share_5=hub_get_max_share(hub);
+      if(!(return_value_hub_get_max_share_5 == 0ul))
         return status_msg_user_share_size_high;
 
     }
 
-    unsigned long int return_value_hub_get_max_hubs_user$7;
-    return_value_hub_get_max_hubs_user$7=hub_get_max_hubs_user(hub);
-    if(!(return_value_hub_get_max_hubs_user$7 >= user->limits.hub_count_user))
+    unsigned long int return_value_hub_get_max_hubs_user_7;
+    return_value_hub_get_max_hubs_user_7=hub_get_max_hubs_user(hub);
+    if(!(return_value_hub_get_max_hubs_user_7 >= user->limits.hub_count_user))
     {
-      return_value_hub_get_max_hubs_user$8=hub_get_max_hubs_user(hub);
-      tmp_if_expr$9 = return_value_hub_get_max_hubs_user$8 != 0ul ? (_Bool)1 : (_Bool)0;
+      return_value_hub_get_max_hubs_user_8=hub_get_max_hubs_user(hub);
+      tmp_if_expr_9 = return_value_hub_get_max_hubs_user_8 != 0ul ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_hub_get_max_hubs_reg$10=hub_get_max_hubs_reg(hub);
-      if(!(return_value_hub_get_max_hubs_reg$10 >= user->limits.hub_count_registered))
+      return_value_hub_get_max_hubs_reg_10=hub_get_max_hubs_reg(hub);
+      if(!(return_value_hub_get_max_hubs_reg_10 >= user->limits.hub_count_registered))
       {
-        return_value_hub_get_max_hubs_reg$11=hub_get_max_hubs_reg(hub);
-        tmp_if_expr$12 = return_value_hub_get_max_hubs_reg$11 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_hub_get_max_hubs_reg_11=hub_get_max_hubs_reg(hub);
+        tmp_if_expr_12 = return_value_hub_get_max_hubs_reg_11 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = (_Bool)0;
+      tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
-      tmp_if_expr$17 = (_Bool)1;
+    if(tmp_if_expr_13)
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
-      return_value_hub_get_max_hubs_op$14=hub_get_max_hubs_op(hub);
-      if(!(return_value_hub_get_max_hubs_op$14 >= user->limits.hub_count_operator))
+      return_value_hub_get_max_hubs_op_14=hub_get_max_hubs_op(hub);
+      if(!(return_value_hub_get_max_hubs_op_14 >= user->limits.hub_count_operator))
       {
-        return_value_hub_get_max_hubs_op$15=hub_get_max_hubs_op(hub);
-        tmp_if_expr$16 = return_value_hub_get_max_hubs_op$15 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_hub_get_max_hubs_op_15=hub_get_max_hubs_op(hub);
+        tmp_if_expr_16 = return_value_hub_get_max_hubs_op_15 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$16 = (_Bool)0;
-      tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (_Bool)0;
+      tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$17)
-      tmp_if_expr$21 = (_Bool)1;
+    if(tmp_if_expr_17)
+      tmp_if_expr_21 = (_Bool)1;
 
     else
     {
-      return_value_hub_get_max_hubs_total$18=hub_get_max_hubs_total(hub);
-      if(!(return_value_hub_get_max_hubs_total$18 >= user->limits.hub_count_total))
+      return_value_hub_get_max_hubs_total_18=hub_get_max_hubs_total(hub);
+      if(!(return_value_hub_get_max_hubs_total_18 >= user->limits.hub_count_total))
       {
-        return_value_hub_get_max_hubs_total$19=hub_get_max_hubs_total(hub);
-        tmp_if_expr$20 = return_value_hub_get_max_hubs_total$19 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_hub_get_max_hubs_total_19=hub_get_max_hubs_total(hub);
+        tmp_if_expr_20 = return_value_hub_get_max_hubs_total_19 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$20 = (_Bool)0;
-      tmp_if_expr$21 = tmp_if_expr$20 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_20 = (_Bool)0;
+      tmp_if_expr_21 = tmp_if_expr_20 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$21)
+    if(tmp_if_expr_21)
       return status_msg_user_hub_limit_high;
 
-    unsigned long int return_value_hub_get_min_hubs_user$22;
-    return_value_hub_get_min_hubs_user$22=hub_get_min_hubs_user(hub);
-    if(!(user->limits.hub_count_user >= return_value_hub_get_min_hubs_user$22))
+    unsigned long int return_value_hub_get_min_hubs_user_22;
+    return_value_hub_get_min_hubs_user_22=hub_get_min_hubs_user(hub);
+    if(!(user->limits.hub_count_user >= return_value_hub_get_min_hubs_user_22))
     {
-      return_value_hub_get_min_hubs_user$23=hub_get_min_hubs_user(hub);
-      tmp_if_expr$24 = return_value_hub_get_min_hubs_user$23 != 0ul ? (_Bool)1 : (_Bool)0;
+      return_value_hub_get_min_hubs_user_23=hub_get_min_hubs_user(hub);
+      tmp_if_expr_24 = return_value_hub_get_min_hubs_user_23 != 0ul ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$24 = (_Bool)0;
-    if(tmp_if_expr$24)
-      tmp_if_expr$28 = (_Bool)1;
+      tmp_if_expr_24 = (_Bool)0;
+    if(tmp_if_expr_24)
+      tmp_if_expr_28 = (_Bool)1;
 
     else
     {
-      return_value_hub_get_min_hubs_reg$25=hub_get_min_hubs_reg(hub);
-      if(!(user->limits.hub_count_registered >= return_value_hub_get_min_hubs_reg$25))
+      return_value_hub_get_min_hubs_reg_25=hub_get_min_hubs_reg(hub);
+      if(!(user->limits.hub_count_registered >= return_value_hub_get_min_hubs_reg_25))
       {
-        return_value_hub_get_min_hubs_reg$26=hub_get_min_hubs_reg(hub);
-        tmp_if_expr$27 = return_value_hub_get_min_hubs_reg$26 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_hub_get_min_hubs_reg_26=hub_get_min_hubs_reg(hub);
+        tmp_if_expr_27 = return_value_hub_get_min_hubs_reg_26 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$27 = (_Bool)0;
-      tmp_if_expr$28 = tmp_if_expr$27 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_27 = (_Bool)0;
+      tmp_if_expr_28 = tmp_if_expr_27 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$28)
-      tmp_if_expr$32 = (_Bool)1;
+    if(tmp_if_expr_28)
+      tmp_if_expr_32 = (_Bool)1;
 
     else
     {
-      return_value_hub_get_min_hubs_op$29=hub_get_min_hubs_op(hub);
-      if(!(user->limits.hub_count_operator >= return_value_hub_get_min_hubs_op$29))
+      return_value_hub_get_min_hubs_op_29=hub_get_min_hubs_op(hub);
+      if(!(user->limits.hub_count_operator >= return_value_hub_get_min_hubs_op_29))
       {
-        return_value_hub_get_min_hubs_op$30=hub_get_min_hubs_op(hub);
-        tmp_if_expr$31 = return_value_hub_get_min_hubs_op$30 != 0ul ? (_Bool)1 : (_Bool)0;
+        return_value_hub_get_min_hubs_op_30=hub_get_min_hubs_op(hub);
+        tmp_if_expr_31 = return_value_hub_get_min_hubs_op_30 != 0ul ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$31 = (_Bool)0;
-      tmp_if_expr$32 = tmp_if_expr$31 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_31 = (_Bool)0;
+      tmp_if_expr_32 = tmp_if_expr_31 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$32)
+    if(tmp_if_expr_32)
       return status_msg_user_hub_limit_low;
 
-    unsigned long int return_value_hub_get_min_slots$34;
-    return_value_hub_get_min_slots$34=hub_get_min_slots(hub);
-    if(!(user->limits.upload_slots >= return_value_hub_get_min_slots$34))
+    unsigned long int return_value_hub_get_min_slots_34;
+    return_value_hub_get_min_slots_34=hub_get_min_slots(hub);
+    if(!(user->limits.upload_slots >= return_value_hub_get_min_slots_34))
     {
-      return_value_hub_get_min_slots$33=hub_get_min_slots(hub);
-      if(!(return_value_hub_get_min_slots$33 == 0ul))
+      return_value_hub_get_min_slots_33=hub_get_min_slots(hub);
+      if(!(return_value_hub_get_min_slots_33 == 0ul))
         return status_msg_user_slots_low;
 
     }
 
-    unsigned long int return_value_hub_get_max_slots$36;
-    return_value_hub_get_max_slots$36=hub_get_max_slots(hub);
-    if(!(return_value_hub_get_max_slots$36 >= user->limits.upload_slots))
+    unsigned long int return_value_hub_get_max_slots_36;
+    return_value_hub_get_max_slots_36=hub_get_max_slots(hub);
+    if(!(return_value_hub_get_max_slots_36 >= user->limits.upload_slots))
     {
-      return_value_hub_get_max_slots$35=hub_get_max_slots(hub);
-      if(!(return_value_hub_get_max_slots$35 == 0ul))
+      return_value_hub_get_max_slots_35=hub_get_max_slots(hub);
+      if(!(return_value_hub_get_max_slots_35 == 0ul))
         return status_msg_user_slots_high;
 
     }
@@ -12705,10 +12705,10 @@ static signed int check_network(struct hub_info *hub, struct hub_user *user, str
 {
   const char *address;
   address=user_get_address(user);
-  signed int return_value_acl_is_ip_nat_override$3;
-  return_value_acl_is_ip_nat_override$3=acl_is_ip_nat_override(hub->acl, address);
-  signed int tmp_statement_expression$1;
-  if(!(return_value_acl_is_ip_nat_override$3 == 0))
+  signed int return_value_acl_is_ip_nat_override_3;
+  return_value_acl_is_ip_nat_override_3=acl_is_ip_nat_override(hub->acl, address);
+  signed int tmp_statement_expression_1;
+  if(!(return_value_acl_is_ip_nat_override_3 == 0))
   {
     char *client_given_ip;
     client_given_ip=adc_msg_get_named_argument(cmd, "I4");
@@ -12716,10 +12716,10 @@ static signed int check_network(struct hub_info *hub, struct hub_user *user, str
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(client_given_ip, "0.0.0.0");
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(!(tmp_statement_expression$1 == 0))
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(client_given_ip, "0.0.0.0");
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(!(tmp_statement_expression_1 == 0))
       {
         user_set_nat_override(user);
         adc_msg_remove_named_argument(cmd, "I6");
@@ -12733,10 +12733,10 @@ static signed int check_network(struct hub_info *hub, struct hub_user *user, str
     free((void *)client_given_ip);
   }
 
-  char *return_value___builtin_strchr$5;
-  return_value___builtin_strchr$5=__builtin_strchr(address, 46);
-  char *return_value___builtin_strchr$4;
-  if(!(return_value___builtin_strchr$5 == ((char *)NULL)))
+  char *return_value___builtin_strchr_5;
+  return_value___builtin_strchr_5=__builtin_strchr(address, 46);
+  char *return_value___builtin_strchr_4;
+  if(!(return_value___builtin_strchr_5 == ((char *)NULL)))
   {
     adc_msg_remove_named_argument(cmd, "I6");
     adc_msg_remove_named_argument(cmd, "U6");
@@ -12746,8 +12746,8 @@ static signed int check_network(struct hub_info *hub, struct hub_user *user, str
 
   else
   {
-    return_value___builtin_strchr$4=__builtin_strchr(address, 58);
-    if(!(return_value___builtin_strchr$4 == ((char *)NULL)))
+    return_value___builtin_strchr_4=__builtin_strchr(address, 58);
+    if(!(return_value___builtin_strchr_4 == ((char *)NULL)))
     {
       adc_msg_remove_named_argument(cmd, "I4");
       adc_msg_remove_named_argument(cmd, "U4");
@@ -12780,9 +12780,9 @@ static signed int check_nick(struct hub_info *hub, struct hub_user *user, struct
 
     else
     {
-      signed int return_value_nick_length_ok$1;
-      return_value_nick_length_ok$1=nick_length_ok(nick);
-      status = (enum nick_status)return_value_nick_length_ok$1;
+      signed int return_value_nick_length_ok_1;
+      return_value_nick_length_ok_1=nick_length_ok(nick);
+      status = (enum nick_status)return_value_nick_length_ok_1;
       if(!((signed int)status == nick_ok))
       {
         free((void *)nick);
@@ -12794,9 +12794,9 @@ static signed int check_nick(struct hub_info *hub, struct hub_user *user, struct
 
       else
       {
-        signed int return_value_nick_bad_characters$2;
-        return_value_nick_bad_characters$2=nick_bad_characters(nick);
-        status = (enum nick_status)return_value_nick_bad_characters$2;
+        signed int return_value_nick_bad_characters_2;
+        return_value_nick_bad_characters_2=nick_bad_characters(nick);
+        status = (enum nick_status)return_value_nick_bad_characters_2;
         if(!((signed int)status == nick_ok))
         {
           free((void *)nick);
@@ -12808,9 +12808,9 @@ static signed int check_nick(struct hub_info *hub, struct hub_user *user, struct
 
         else
         {
-          signed int return_value_nick_is_utf8$3;
-          return_value_nick_is_utf8$3=nick_is_utf8(nick);
-          status = (enum nick_status)return_value_nick_is_utf8$3;
+          signed int return_value_nick_is_utf8_3;
+          return_value_nick_is_utf8_3=nick_is_utf8(nick);
+          status = (enum nick_status)return_value_nick_is_utf8_3;
           if(!((signed int)status == nick_ok))
           {
             free((void *)nick);
@@ -12819,16 +12819,16 @@ static signed int check_nick(struct hub_info *hub, struct hub_user *user, struct
 
           else
           {
-            signed int return_value_user_is_connecting$6;
-            return_value_user_is_connecting$6=user_is_connecting(user);
-            if(!(return_value_user_is_connecting$6 == 0))
+            signed int return_value_user_is_connecting_6;
+            return_value_user_is_connecting_6=user_is_connecting(user);
+            if(!(return_value_user_is_connecting_6 == 0))
             {
-              unsigned long int return_value_strlen$4;
-              return_value_strlen$4=strlen(nick);
-              memcpy((void *)user->id.nick, (const void *)nick, return_value_strlen$4);
-              unsigned long int return_value_strlen$5;
-              return_value_strlen$5=strlen(nick);
-              user->id.nick[(signed long int)return_value_strlen$5] = (char)0;
+              unsigned long int return_value_strlen_4;
+              return_value_strlen_4=strlen(nick);
+              memcpy((void *)user->id.nick, (const void *)nick, return_value_strlen_4);
+              unsigned long int return_value_strlen_5;
+              return_value_strlen_5=strlen(nick);
+              user->id.nick[(signed long int)return_value_strlen_5] = (char)0;
             }
 
             free((void *)nick);
@@ -12844,11 +12844,11 @@ static signed int check_nick(struct hub_info *hub, struct hub_user *user, struct
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/inf.c line 601
 static signed int check_registered_users_only(struct hub_info *hub, struct hub_user *user)
 {
-  signed int return_value_user_is_registered$1;
+  signed int return_value_user_is_registered_1;
   if(!(hub->config->registered_users_only == 0))
   {
-    return_value_user_is_registered$1=user_is_registered(user);
-    if(!(return_value_user_is_registered$1 == 0))
+    return_value_user_is_registered_1=user_is_registered(user);
+    if(!(return_value_user_is_registered_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -12909,16 +12909,16 @@ static signed int check_required_login_flags(struct hub_info *hub, struct hub_us
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/route.c line 78
 static signed int check_send_queue(struct hub_info *hub, struct hub_user *user, struct adc_message *msg)
 {
-  signed int return_value_user_flag_get$1;
-  return_value_user_flag_get$1=user_flag_get(user, (enum user_flags)flag_user_list);
-  if(!(return_value_user_flag_get$1 == 0))
+  signed int return_value_user_flag_get_1;
+  return_value_user_flag_get_1=user_flag_get(user, (enum user_flags)flag_user_list);
+  if(!(return_value_user_flag_get_1 == 0))
     return 1;
 
   else
   {
-    unsigned long int return_value_get_max_send_queue$2;
-    return_value_get_max_send_queue$2=get_max_send_queue(hub);
-    if(!(return_value_get_max_send_queue$2 >= user->send_queue->size + msg->length))
+    unsigned long int return_value_get_max_send_queue_2;
+    return_value_get_max_send_queue_2=get_max_send_queue(hub);
+    if(!(return_value_get_max_send_queue_2 >= user->send_queue->size + msg->length))
     {
       hub_log(2, "send queue overflowed, message discarded.");
       return -1;
@@ -12926,9 +12926,9 @@ static signed int check_send_queue(struct hub_info *hub, struct hub_user *user, 
 
     else
     {
-      unsigned long int return_value_get_max_send_queue_soft$3;
-      return_value_get_max_send_queue_soft$3=get_max_send_queue_soft(hub);
-      if(!(return_value_get_max_send_queue_soft$3 >= user->send_queue->size))
+      unsigned long int return_value_get_max_send_queue_soft_3;
+      return_value_get_max_send_queue_soft_3=get_max_send_queue_soft(hub);
+      if(!(return_value_get_max_send_queue_soft_3 >= user->send_queue->size))
       {
         hub_log(2, "send queue soft overflowed.");
         return 0;
@@ -12947,24 +12947,24 @@ static signed int check_user_agent(struct hub_info *hub, struct hub_user *user, 
   char *ua_encoded = ((char *)NULL);
   char *ua = ((char *)NULL);
   ua_encoded=adc_msg_get_named_argument(cmd, "VE");
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
   if(!(ua_encoded == ((char *)NULL)))
   {
     ua=adc_msg_unescape(ua_encoded);
     if(!(ua == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(ua);
-      if(!(return_value_strlen$1 >= 32ul))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(ua);
+      if(!(return_value_strlen_1 >= 32ul))
       {
-        return_value_strlen$2=strlen(ua);
-        tmp_if_expr$3 = return_value_strlen$2;
+        return_value_strlen_2=strlen(ua);
+        tmp_if_expr_3 = return_value_strlen_2;
       }
 
       else
-        tmp_if_expr$3 = (unsigned long int)32;
-      memcpy((void *)user->id.user_agent, (const void *)ua, tmp_if_expr$3);
+        tmp_if_expr_3 = (unsigned long int)32;
+      memcpy((void *)user->id.user_agent, (const void *)ua, tmp_if_expr_3);
       free((void *)ua);
     }
 
@@ -12999,13 +12999,13 @@ static void clear_user_list_callback(void *ptr)
 extern signed int command_add(struct command_base *cbase, struct command_handle *cmd, void *ptr)
 {
   list_append(cbase->handlers, (void *)cmd);
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(cbase->prefix_length_max >= cmd->length))
-    tmp_if_expr$1 = cmd->length;
+    tmp_if_expr_1 = cmd->length;
 
   else
-    tmp_if_expr$1 = cbase->prefix_length_max;
-  cbase->prefix_length_max = tmp_if_expr$1;
+    tmp_if_expr_1 = cbase->prefix_length_max;
+  cbase->prefix_length_max = tmp_if_expr_1;
   cmd->ptr = ptr;
   return 1;
 }
@@ -13026,13 +13026,13 @@ static signed int command_broadcast(struct command_base *cbase, struct hub_user 
   struct cbuffer *buf;
   buf=cbuf_create((unsigned long int)128);
   struct adc_message *command = (struct adc_message *)(void *)0;
-  char *return_value_sid_to_string$1;
-  return_value_sid_to_string$1=sid_to_string(user->id.sid);
-  memcpy((void *)from_sid, (const void *)return_value_sid_to_string$1, sizeof(char [5l]) /*5ul*/ );
+  char *return_value_sid_to_string_1;
+  return_value_sid_to_string_1=sid_to_string(user->id.sid);
+  memcpy((void *)from_sid, (const void *)return_value_sid_to_string_1, sizeof(char [5l]) /*5ul*/ );
   memcpy((void *)(pm_flag + (signed long int)2), (const void *)from_sid, sizeof(char [5l]) /*5ul*/ );
-  void *return_value_list_get_first$2;
-  return_value_list_get_first$2=list_get_first(cbase->hub->users->list);
-  target = (struct hub_user *)return_value_list_get_first$2;
+  void *return_value_list_get_first_2;
+  return_value_list_get_first_2=list_get_first(cbase->hub->users->list);
+  target = (struct hub_user *)return_value_list_get_first_2;
   while(!(target == ((struct hub_user *)NULL)))
   {
     if(!(target == user))
@@ -13043,18 +13043,18 @@ static signed int command_broadcast(struct command_base *cbase, struct hub_user 
         break;
 
       adc_msg_add_argument(command, from_sid);
-      char *return_value_sid_to_string$3;
-      return_value_sid_to_string$3=sid_to_string(target->id.sid);
-      adc_msg_add_argument(command, return_value_sid_to_string$3);
+      char *return_value_sid_to_string_3;
+      return_value_sid_to_string_3=sid_to_string(target->id.sid);
+      adc_msg_add_argument(command, return_value_sid_to_string_3);
       adc_msg_add_argument(command, message);
       adc_msg_add_argument(command, pm_flag);
       route_to_user(cbase->hub, target, command);
       adc_msg_free(command);
     }
 
-    void *return_value_list_get_next$4;
-    return_value_list_get_next$4=list_get_next(cbase->hub->users->list);
-    target = (struct hub_user *)return_value_list_get_next$4;
+    void *return_value_list_get_next_4;
+    return_value_list_get_next_4=list_get_next(cbase->hub->users->list);
+    target = (struct hub_user *)return_value_list_get_next_4;
   }
   cbuf_append_format(buf, "*** %s: Delivered to %zu user%s", cmd->prefix, recipients, recipients != (unsigned long int)1 ? "s" : "");
   send_message(cbase, user, buf);
@@ -13070,11 +13070,11 @@ signed int command_check_args(struct hub_command *cmd, struct command_handle *ha
 
   else
   {
-    unsigned long int return_value_list_size$1;
-    return_value_list_size$1=list_size(cmd->args);
-    unsigned long int return_value_command_count_required_args$2;
-    return_value_command_count_required_args$2=command_count_required_args(handler);
-    if(return_value_list_size$1 >= return_value_command_count_required_args$2)
+    unsigned long int return_value_list_size_1;
+    return_value_list_size_1=list_size(cmd->args);
+    unsigned long int return_value_command_count_required_args_2;
+    return_value_command_count_required_args_2=command_count_required_args(handler);
+    if(return_value_list_size_1 >= return_value_command_count_required_args_2)
       return 1;
 
     else
@@ -13088,11 +13088,11 @@ static unsigned long int command_count_required_args(struct command_handle *hand
 {
   unsigned long int n = (unsigned long int)0;
   n = (unsigned long int)0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   do
   {
-    return_value_strlen$1=strlen(handler->args);
-    if(n >= return_value_strlen$1)
+    return_value_strlen_1=strlen(handler->args);
+    if(n >= return_value_strlen_1)
       break;
 
     if((signed int)handler->args[(signed long int)n] == 63)
@@ -13125,57 +13125,57 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
   unsigned long int size = (unsigned long int)0;
   struct hub_command_arg_data *data = (struct hub_command_arg_data *)(void *)0;
   enum command_parse_status status = (enum command_parse_status)cmd_status_ok;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(tokens);
-  token = (char *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(tokens);
+  token = (char *)return_value_list_get_first_1;
   list_remove(tokens, (void *)token);
   free((void *)token);
-  signed int tmp_post$2;
-  unsigned long int return_value_strlen$5;
-  void *return_value_list_get_next$4;
-  void *return_value_list_get_first$7;
-  _Bool tmp_if_expr$9;
-  void *return_value_malloc$10;
-  void *return_value_malloc$11;
-  void *return_value_malloc$12;
-  signed int return_value_ip_convert_to_binary$13;
-  void *return_value_malloc$14;
-  void *return_value_hub_malloc_zero$15;
-  signed int return_value_ip_convert_address_to_range$16;
-  void *return_value_malloc$17;
-  char *return_value___strdup$18;
-  void *return_value_malloc$19;
-  void *return_value_malloc$20;
-  signed int return_value_auth_string_to_cred$21;
-  void *return_value_malloc$22;
-  signed int return_value_is_number$23;
+  signed int tmp_post_2;
+  unsigned long int return_value_strlen_5;
+  void *return_value_list_get_next_4;
+  void *return_value_list_get_first_7;
+  _Bool tmp_if_expr_9;
+  void *return_value_malloc_10;
+  void *return_value_malloc_11;
+  void *return_value_malloc_12;
+  signed int return_value_ip_convert_to_binary_13;
+  void *return_value_malloc_14;
+  void *return_value_hub_malloc_zero_15;
+  signed int return_value_ip_convert_address_to_range_16;
+  void *return_value_malloc_17;
+  char *return_value___strdup_18;
+  void *return_value_malloc_19;
+  void *return_value_malloc_20;
+  signed int return_value_auth_string_to_cred_21;
+  void *return_value_malloc_22;
+  signed int return_value_is_number_23;
   while((signed int)status == cmd_status_ok)
   {
-    tmp_post$2 = arg;
+    tmp_post_2 = arg;
     arg = arg + 1;
-    arg_code = command->args[(signed long int)tmp_post$2];
+    arg_code = command->args[(signed long int)tmp_post_2];
     if(arg_code == 0)
       break;
 
     if(!(greedy == 0))
     {
       size = (unsigned long int)1;
-      void *return_value_list_get_first$3;
-      return_value_list_get_first$3=list_get_first(tokens);
-      tmp = (char *)return_value_list_get_first$3;
-      for( ; !(tmp == ((char *)NULL)); tmp = (char *)return_value_list_get_next$4)
+      void *return_value_list_get_first_3;
+      return_value_list_get_first_3=list_get_first(tokens);
+      tmp = (char *)return_value_list_get_first_3;
+      for( ; !(tmp == ((char *)NULL)); tmp = (char *)return_value_list_get_next_4)
       {
-        return_value_strlen$5=strlen(tmp);
-        size = size + return_value_strlen$5 + (unsigned long int)1;
-        return_value_list_get_next$4=list_get_next(tokens);
+        return_value_strlen_5=strlen(tmp);
+        size = size + return_value_strlen_5 + (unsigned long int)1;
+        return_value_list_get_next_4=list_get_next(tokens);
       }
-      void *return_value_hub_malloc_zero$6;
-      return_value_hub_malloc_zero$6=hub_malloc_zero(size);
-      token = (char *)return_value_hub_malloc_zero$6;
+      void *return_value_hub_malloc_zero_6;
+      return_value_hub_malloc_zero_6=hub_malloc_zero(size);
+      token = (char *)return_value_hub_malloc_zero_6;
       do
       {
-        return_value_list_get_first$7=list_get_first(tokens);
-        tmp = (char *)return_value_list_get_first$7;
+        return_value_list_get_first_7=list_get_first(tokens);
+        tmp = (char *)return_value_list_get_first_7;
         if(tmp == ((char *)NULL))
           break;
 
@@ -13191,16 +13191,16 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
 
     else
     {
-      void *return_value_list_get_first$8;
-      return_value_list_get_first$8=list_get_first(tokens);
-      token = (char *)return_value_list_get_first$8;
+      void *return_value_list_get_first_8;
+      return_value_list_get_first_8=list_get_first(tokens);
+      token = (char *)return_value_list_get_first_8;
     }
     if(token == ((char *)NULL))
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = !(*token != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = !(*token != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
       if(opt == 1 || (signed int)arg_code == 63)
         status = (enum command_parse_status)cmd_status_ok;
@@ -13224,8 +13224,8 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
       }
       case 117:
       {
-        return_value_malloc$10=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$10;
+        return_value_malloc_10=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_10;
         data->type = (enum hub_command_arg_type)type_user;
         data->data.user=uman_get_user_by_nick(hub->users, token);
         if(data->data.user == ((struct hub_user *)NULL))
@@ -13239,8 +13239,8 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
       }
       case 105:
       {
-        return_value_malloc$11=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$11;
+        return_value_malloc_11=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_11;
         data->type = (enum hub_command_arg_type)type_user;
         data->data.user=uman_get_user_by_cid(hub->users, token);
         if(data->data.user == ((struct hub_user *)NULL))
@@ -13254,11 +13254,11 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
       }
       case 97:
       {
-        return_value_malloc$12=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$12;
+        return_value_malloc_12=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_12;
         data->type = (enum hub_command_arg_type)type_address;
-        return_value_ip_convert_to_binary$13=ip_convert_to_binary(token, data->data.address);
-        if(return_value_ip_convert_to_binary$13 == -1)
+        return_value_ip_convert_to_binary_13=ip_convert_to_binary(token, data->data.address);
+        if(return_value_ip_convert_to_binary_13 == -1)
         {
           free((void *)data);
           data = (struct hub_command_arg_data *)(void *)0;
@@ -13269,13 +13269,13 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
       }
       case 114:
       {
-        return_value_malloc$14=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$14;
+        return_value_malloc_14=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_14;
         data->type = (enum hub_command_arg_type)type_range;
-        return_value_hub_malloc_zero$15=hub_malloc_zero(sizeof(struct ip_range) /*40ul*/ );
-        data->data.range = (struct ip_range *)return_value_hub_malloc_zero$15;
-        return_value_ip_convert_address_to_range$16=ip_convert_address_to_range(token, data->data.range);
-        if(return_value_ip_convert_address_to_range$16 == 0)
+        return_value_hub_malloc_zero_15=hub_malloc_zero(sizeof(struct ip_range) /*40ul*/ );
+        data->data.range = (struct ip_range *)return_value_hub_malloc_zero_15;
+        return_value_ip_convert_address_to_range_16=ip_convert_address_to_range(token, data->data.range);
+        if(return_value_ip_convert_address_to_range_16 == 0)
         {
           free((void *)data->data.range);
           free((void *)data);
@@ -13291,17 +13291,17 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
 
       case 112:
       {
-        return_value_malloc$17=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$17;
+        return_value_malloc_17=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_17;
         data->type = (enum hub_command_arg_type)type_string;
-        return_value___strdup$18=__strdup(token);
-        data->data.string = return_value___strdup$18;
+        return_value___strdup_18=__strdup(token);
+        data->data.string = return_value___strdup_18;
         goto __CPROVER_DUMP_L34;
       }
       case 99:
       {
-        return_value_malloc$19=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$19;
+        return_value_malloc_19=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_19;
         data->type = (enum hub_command_arg_type)type_command;
         data->data.command=command_handler_lookup(hub->commands, token);
         if(data->data.command == ((struct command_handle *)NULL))
@@ -13315,11 +13315,11 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
       }
       case 67:
       {
-        return_value_malloc$20=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$20;
+        return_value_malloc_20=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_20;
         data->type = (enum hub_command_arg_type)type_credentials;
-        return_value_auth_string_to_cred$21=auth_string_to_cred(token, &data->data.credentials);
-        if(return_value_auth_string_to_cred$21 == 0)
+        return_value_auth_string_to_cred_21=auth_string_to_cred(token, &data->data.credentials);
+        if(return_value_auth_string_to_cred_21 == 0)
         {
           free((void *)data);
           data = (struct hub_command_arg_data *)(void *)0;
@@ -13330,11 +13330,11 @@ static enum command_parse_status command_extract_arguments(struct hub_info *hub,
       }
       case 78:
       {
-        return_value_malloc$22=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
-        data = (struct hub_command_arg_data *)return_value_malloc$22;
+        return_value_malloc_22=malloc(sizeof(struct hub_command_arg_data) /*16ul*/ );
+        data = (struct hub_command_arg_data *)return_value_malloc_22;
         data->type = (enum hub_command_arg_type)type_integer;
-        return_value_is_number$23=is_number(token, &data->data.integer);
-        if(return_value_is_number$23 == 0)
+        return_value_is_number_23=is_number(token, &data->data.integer);
+        if(return_value_is_number_23 == 0)
         {
           free((void *)data);
           data = (struct hub_command_arg_data *)(void *)0;
@@ -13387,28 +13387,28 @@ extern void command_free(struct hub_command *cmd)
 static struct command_handle * command_get_handler(struct command_base *cbase, const char *prefix, struct hub_user *user, struct hub_command *cmd)
 {
   struct command_handle *handler = (struct command_handle *)(void *)0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(prefix == ((const char *)NULL)))
-    tmp_if_expr$2 = prefix[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = prefix[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = prefix[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = prefix[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     handler=command_handler_lookup(cbase, prefix + (signed long int)1);
     if(!(handler == ((struct command_handle *)NULL)))
     {
       cmd->ptr = handler->ptr;
       cmd->handler = handler->handler;
-      signed int return_value_command_is_available$1;
-      return_value_command_is_available$1=command_is_available(handler, user->credentials);
-      cmd->status = (enum command_parse_status)(return_value_command_is_available$1 != 0 ? cmd_status_ok : cmd_status_access_error);
+      signed int return_value_command_is_available_1;
+      return_value_command_is_available_1=command_is_available(handler, user->credentials);
+      cmd->status = (enum command_parse_status)(return_value_command_is_available_1 != 0 ? cmd_status_ok : cmd_status_access_error);
     }
 
     else
@@ -13430,16 +13430,16 @@ void command_get_syntax(struct command_handle *handler, struct cbuffer *buf)
   char arg_code;
   char last_arg = (char)-1;
   cbuf_append_format(buf, "!%s", handler->prefix);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(!(handler->args == ((const char *)NULL)))
   {
     arg_count=strlen(handler->args);
     n = (unsigned long int)0;
     for( ; !(n >= arg_count); n = n + 1ul)
     {
-      char *return_value___builtin_strchr$1;
-      return_value___builtin_strchr$1=__builtin_strchr("?+", (signed int)last_arg);
-      if(return_value___builtin_strchr$1 == ((char *)NULL))
+      char *return_value___builtin_strchr_1;
+      return_value___builtin_strchr_1=__builtin_strchr("?+", (signed int)last_arg);
+      if(return_value___builtin_strchr_1 == ((char *)NULL))
         cbuf_append(buf, " ");
 
       arg_code = handler->args[(signed long int)n];
@@ -13510,9 +13510,9 @@ void command_get_syntax(struct command_handle *handler, struct cbuffer *buf)
     }
     do
     {
-      tmp_post$2 = opt;
+      tmp_post_2 = opt;
       opt = opt - 1;
-      if(tmp_post$2 == 0)
+      if(tmp_post_2 == 0)
         break;
 
       cbuf_append(buf, "]");
@@ -13530,12 +13530,12 @@ static signed int command_getip(struct command_base *cbase, struct hub_user *use
   buf=cbuf_create((unsigned long int)128);
   struct hub_command_arg_data *arg;
   arg=hub_command_arg_next(cmd, (enum hub_command_arg_type)type_user);
-  const char *return_value_user_get_address$1;
-  return_value_user_get_address$1=user_get_address(arg->data.user);
-  cbuf_append_format(buf, "\"%s\" has address \"%s\"", (const void *)arg->data.user->id.nick, return_value_user_get_address$1);
-  signed int return_value_command_status$2;
-  return_value_command_status$2=command_status(cbase, user, cmd, buf);
-  return return_value_command_status$2;
+  const char *return_value_user_get_address_1;
+  return_value_user_get_address_1=user_get_address(arg->data.user);
+  cbuf_append_format(buf, "\"%s\" has address \"%s\"", (const void *)arg->data.user->id.nick, return_value_user_get_address_1);
+  signed int return_value_command_status_2;
+  return_value_command_status_2=command_status(cbase, user, cmd, buf);
+  return return_value_command_status_2;
 }
 
 // command_handler_lookup
@@ -13545,22 +13545,22 @@ struct command_handle * command_handler_lookup(struct command_base *cbase, const
   struct command_handle *handler = (struct command_handle *)(void *)0;
   unsigned long int prefix_len;
   prefix_len=strlen(prefix);
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(cbase->handlers);
-  handler = (struct command_handle *)return_value_list_get_first$1;
-  void *return_value_list_get_next$2;
-  for( ; !(handler == ((struct command_handle *)NULL)); handler = (struct command_handle *)return_value_list_get_next$2)
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(cbase->handlers);
+  handler = (struct command_handle *)return_value_list_get_first_1;
+  void *return_value_list_get_next_2;
+  for( ; !(handler == ((struct command_handle *)NULL)); handler = (struct command_handle *)return_value_list_get_next_2)
   {
     if(prefix_len == handler->length)
     {
-      signed int return_value_memcmp$3;
-      return_value_memcmp$3=memcmp((const void *)prefix, (const void *)handler->prefix, handler->length);
-      if(return_value_memcmp$3 == 0)
+      signed int return_value_memcmp_3;
+      return_value_memcmp_3=memcmp((const void *)prefix, (const void *)handler->prefix, handler->length);
+      if(return_value_memcmp_3 == 0)
         return handler;
 
     }
 
-    return_value_list_get_next$2=list_get_next(cbase->handlers);
+    return_value_list_get_next_2=list_get_next(cbase->handlers);
   }
   return (struct command_handle *)(void *)0;
 }
@@ -13575,18 +13575,18 @@ static signed int command_help(struct command_base *cbase, struct hub_user *user
   struct hub_command_arg_data *data;
   data=hub_command_arg_next(cmd, (enum hub_command_arg_type)type_command);
   struct command_handle *command;
-  void *return_value_list_get_next$2;
+  void *return_value_list_get_next_2;
   if(data == ((struct hub_command_arg_data *)NULL))
   {
     cbuf_append(buf, "Available commands:\n");
-    void *return_value_list_get_first$1;
-    return_value_list_get_first$1=list_get_first(cbase->handlers);
-    command = (struct command_handle *)return_value_list_get_first$1;
-    for( ; !(command == ((struct command_handle *)NULL)); command = (struct command_handle *)return_value_list_get_next$2)
+    void *return_value_list_get_first_1;
+    return_value_list_get_first_1=list_get_first(cbase->handlers);
+    command = (struct command_handle *)return_value_list_get_first_1;
+    for( ; !(command == ((struct command_handle *)NULL)); command = (struct command_handle *)return_value_list_get_next_2)
     {
-      signed int return_value_command_is_available$3;
-      return_value_command_is_available$3=command_is_available(command, user->credentials);
-      if(!(return_value_command_is_available$3 == 0))
+      signed int return_value_command_is_available_3;
+      return_value_command_is_available_3=command_is_available(command, user->credentials);
+      if(!(return_value_command_is_available_3 == 0))
       {
         cbuf_append_format(buf, "!%s", command->prefix);
         n=strlen(command->prefix);
@@ -13595,16 +13595,16 @@ static signed int command_help(struct command_base *cbase, struct hub_user *user
         cbuf_append_format(buf, " - %s\n", command->description);
       }
 
-      return_value_list_get_next$2=list_get_next(cbase->handlers);
+      return_value_list_get_next_2=list_get_next(cbase->handlers);
     }
   }
 
   else
   {
     command = data->data.command;
-    signed int return_value_command_is_available$4;
-    return_value_command_is_available$4=command_is_available(command, user->credentials);
-    if(!(return_value_command_is_available$4 == 0))
+    signed int return_value_command_is_available_4;
+    return_value_command_is_available_4=command_is_available(command, user->credentials);
+    if(!(return_value_command_is_available_4 == 0))
     {
       cbuf_append_format(buf, "Usage: ");
       command_get_syntax(command, buf);
@@ -13614,9 +13614,9 @@ static signed int command_help(struct command_base *cbase, struct hub_user *user
     else
       cbuf_append(buf, "This command is not available to you.\n");
   }
-  signed int return_value_command_status$5;
-  return_value_command_status$5=command_status(cbase, user, cmd, buf);
-  return return_value_command_status$5;
+  signed int return_value_command_status_5;
+  return_value_command_status_5=command_status(cbase, user, cmd, buf);
+  return return_value_command_status_5;
 }
 
 // command_initialize
@@ -13624,13 +13624,13 @@ static signed int command_help(struct command_base *cbase, struct hub_user *user
 extern struct command_base * command_initialize(struct hub_info *hub)
 {
   struct command_base *cbase;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct command_base) /*24ul*/ );
-  cbase = (struct command_base *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct command_base) /*24ul*/ );
+  cbase = (struct command_base *)return_value_malloc_1;
   cbase->hub = hub;
-  struct linked_list *return_value_list_create$2;
-  return_value_list_create$2=list_create();
-  cbase->handlers = (struct linked_list *)return_value_list_create$2;
+  struct linked_list *return_value_list_create_2;
+  return_value_list_create_2=list_create();
+  cbase->handlers = (struct linked_list *)return_value_list_create_2;
   cbase->prefix_length_max = (unsigned long int)0;
   commands_builtin_add(cbase);
   return cbase;
@@ -13711,9 +13711,9 @@ static signed int command_kick(struct command_base *cbase, struct hub_user *user
     cbuf_append_format(buf, "Kicking user \"%s\".", (const void *)target->id.nick);
     hub_disconnect_user(cbase->hub, target, quit_kicked);
   }
-  signed int return_value_command_status$1;
-  return_value_command_status$1=command_status(cbase, user, cmd, buf);
-  return return_value_command_status$1;
+  signed int return_value_command_status_1;
+  return_value_command_status_1=command_status(cbase, user, cmd, buf);
+  return return_value_command_status_1;
 }
 
 // command_log
@@ -13726,44 +13726,44 @@ static signed int command_log(struct command_base *cbase, struct hub_user *user,
   struct linked_list *messages = cbase->hub->logout_info;
   struct hub_logout_info *log;
   char *search;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(arg == ((struct hub_command_arg_data *)NULL)))
-    tmp_if_expr$1 = arg->data.string;
+    tmp_if_expr_1 = arg->data.string;
 
   else
-    tmp_if_expr$1 = "";
-  search = tmp_if_expr$1;
+    tmp_if_expr_1 = "";
+  search = tmp_if_expr_1;
   unsigned long int search_len;
   search_len=strlen(search);
   unsigned long int search_hits = (unsigned long int)0;
-  unsigned long int return_value_list_size$4;
-  return_value_list_size$4=list_size(messages);
-  if(return_value_list_size$4 == 0ul)
+  unsigned long int return_value_list_size_4;
+  return_value_list_size_4=list_size(messages);
+  if(return_value_list_size_4 == 0ul)
   {
-    struct cbuffer *return_value_cbuf_create_const$2;
-    return_value_cbuf_create_const$2=cbuf_create_const("No entries logged.");
-    signed int return_value_command_status$3;
-    return_value_command_status$3=command_status(cbase, user, cmd, return_value_cbuf_create_const$2);
-    return return_value_command_status$3;
+    struct cbuffer *return_value_cbuf_create_const_2;
+    return_value_cbuf_create_const_2=cbuf_create_const("No entries logged.");
+    signed int return_value_command_status_3;
+    return_value_command_status_3=command_status(cbase, user, cmd, return_value_cbuf_create_const_2);
+    return return_value_command_status_3;
   }
 
   buf=cbuf_create((unsigned long int)128);
-  unsigned long int return_value_list_size$5;
-  return_value_list_size$5=list_size(messages);
-  cbuf_append_format(buf, "Logged entries: %zu", return_value_list_size$5);
+  unsigned long int return_value_list_size_5;
+  return_value_list_size_5=list_size(messages);
+  cbuf_append_format(buf, "Logged entries: %zu", return_value_list_size_5);
   if(!(search_len == 0ul))
     cbuf_append_format(buf, ", searching for \"%s\"", search);
 
   command_status(cbase, user, cmd, buf);
   buf=cbuf_create((unsigned long int)512);
-  void *return_value_list_get_first$6;
-  return_value_list_get_first$6=list_get_first(messages);
-  log = (struct hub_logout_info *)return_value_list_get_first$6;
-  _Bool tmp_if_expr$9;
-  void *return_value_memmem$8;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_strlen$10;
-  void *return_value_memmem$11;
+  void *return_value_list_get_first_6;
+  return_value_list_get_first_6=list_get_first(messages);
+  log = (struct hub_logout_info *)return_value_list_get_first_6;
+  _Bool tmp_if_expr_9;
+  void *return_value_memmem_8;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_strlen_10;
+  void *return_value_memmem_11;
   while(!(log == ((struct hub_logout_info *)NULL)))
   {
     const char *address;
@@ -13771,26 +13771,26 @@ static signed int command_log(struct command_base *cbase, struct hub_user *user,
     signed int show = 0;
     if(!(search_len == 0ul))
     {
-      void *return_value_memmem$7;
-      return_value_memmem$7=memmem((const void *)log->cid, (unsigned long int)39, (const void *)search, search_len);
-      if(!(return_value_memmem$7 == NULL))
-        tmp_if_expr$9 = (_Bool)1;
+      void *return_value_memmem_7;
+      return_value_memmem_7=memmem((const void *)log->cid, (unsigned long int)39, (const void *)search, search_len);
+      if(!(return_value_memmem_7 == NULL))
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_memmem$8=memmem((const void *)log->nick, (unsigned long int)64, (const void *)search, search_len);
-        tmp_if_expr$9 = return_value_memmem$8 != NULL ? (_Bool)1 : (_Bool)0;
+        return_value_memmem_8=memmem((const void *)log->nick, (unsigned long int)64, (const void *)search, search_len);
+        tmp_if_expr_9 = return_value_memmem_8 != NULL ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
-        tmp_if_expr$12 = (_Bool)1;
+      if(tmp_if_expr_9)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value_strlen$10=strlen(address);
-        return_value_memmem$11=memmem((const void *)address, return_value_strlen$10, (const void *)search, search_len);
-        tmp_if_expr$12 = return_value_memmem$11 != NULL ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_10=strlen(address);
+        return_value_memmem_11=memmem((const void *)address, return_value_strlen_10, (const void *)search, search_len);
+        tmp_if_expr_12 = return_value_memmem_11 != NULL ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
+      if(tmp_if_expr_12)
       {
         search_hits = search_hits + 1ul;
         show = 1;
@@ -13802,20 +13802,20 @@ static signed int command_log(struct command_base *cbase, struct hub_user *user,
       show = 1;
     if(!(show == 0))
     {
-      const char *return_value_get_timestamp$13;
-      return_value_get_timestamp$13=get_timestamp(log->time);
-      const char *return_value_ip_convert_to_string$14;
-      return_value_ip_convert_to_string$14=ip_convert_to_string(&log->addr);
-      const char *return_value_user_get_quit_reason_string$15;
-      return_value_user_get_quit_reason_string$15=user_get_quit_reason_string(log->reason);
-      cbuf_append_format(buf, "* %s %s, %s [%s] - %s", return_value_get_timestamp$13, (const void *)log->cid, (const void *)log->nick, return_value_ip_convert_to_string$14, return_value_user_get_quit_reason_string$15);
+      const char *return_value_get_timestamp_13;
+      return_value_get_timestamp_13=get_timestamp(log->time);
+      const char *return_value_ip_convert_to_string_14;
+      return_value_ip_convert_to_string_14=ip_convert_to_string(&log->addr);
+      const char *return_value_user_get_quit_reason_string_15;
+      return_value_user_get_quit_reason_string_15=user_get_quit_reason_string(log->reason);
+      cbuf_append_format(buf, "* %s %s, %s [%s] - %s", return_value_get_timestamp_13, (const void *)log->cid, (const void *)log->nick, return_value_ip_convert_to_string_14, return_value_user_get_quit_reason_string_15);
       send_message(cbase, user, buf);
       buf=cbuf_create((unsigned long int)512);
     }
 
-    void *return_value_list_get_next$16;
-    return_value_list_get_next$16=list_get_next(messages);
-    log = (struct hub_logout_info *)return_value_list_get_next$16;
+    void *return_value_list_get_next_16;
+    return_value_list_get_next_16=list_get_next(messages);
+    log = (struct hub_logout_info *)return_value_list_get_next_16;
   }
   if(!(search_len == 0ul))
   {
@@ -13836,12 +13836,12 @@ static signed int command_myip(struct command_base *cbase, struct hub_user *user
 {
   struct cbuffer *buf;
   buf=cbuf_create((unsigned long int)128);
-  const char *return_value_user_get_address$1;
-  return_value_user_get_address$1=user_get_address(user);
-  cbuf_append_format(buf, "Your address is \"%s\"", return_value_user_get_address$1);
-  signed int return_value_command_status$2;
-  return_value_command_status$2=command_status(cbase, user, cmd, buf);
-  return return_value_command_status$2;
+  const char *return_value_user_get_address_1;
+  return_value_user_get_address_1=user_get_address(user);
+  cbuf_append_format(buf, "Your address is \"%s\"", return_value_user_get_address_1);
+  signed int return_value_command_status_2;
+  return_value_command_status_2=command_status(cbase, user, cmd, buf);
+  return return_value_command_status_2;
 }
 
 // command_parse
@@ -13852,29 +13852,29 @@ extern struct hub_command * command_parse(struct command_base *cbase, struct hub
   tokens=list_create();
   struct hub_command *cmd = (struct hub_command *)(void *)0;
   struct command_handle *handle = (struct command_handle *)(void *)0;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct hub_command) /*56ul*/ );
-  cmd = (struct hub_command *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct hub_command) /*56ul*/ );
+  cmd = (struct hub_command *)return_value_hub_malloc_zero_1;
   cmd->status = (enum command_parse_status)cmd_status_ok;
   cmd->message = message;
   cmd->prefix = (char *)(void *)0;
   cmd->args=list_create();
   cmd->user = user;
-  signed int return_value_split_string$2;
-  return_value_split_string$2=split_string(message, " ", tokens, 0);
-  void *return_value_list_get_first$3;
-  char *return_value___strdup$4;
-  void *return_value_list_get_first$5;
-  if(!(return_value_split_string$2 >= 1))
+  signed int return_value_split_string_2;
+  return_value_split_string_2=split_string(message, " ", tokens, 0);
+  void *return_value_list_get_first_3;
+  char *return_value___strdup_4;
+  void *return_value_list_get_first_5;
+  if(!(return_value_split_string_2 >= 1))
     cmd->status = (enum command_parse_status)cmd_status_syntax_error;
 
   else
   {
-    return_value_list_get_first$3=list_get_first(tokens);
-    return_value___strdup$4=__strdup((char *)return_value_list_get_first$3 + (signed long int)1);
-    cmd->prefix = return_value___strdup$4;
-    return_value_list_get_first$5=list_get_first(tokens);
-    handle=command_get_handler(cbase, (const char *)return_value_list_get_first$5, user, cmd);
+    return_value_list_get_first_3=list_get_first(tokens);
+    return_value___strdup_4=__strdup((char *)return_value_list_get_first_3 + (signed long int)1);
+    cmd->prefix = return_value___strdup_4;
+    return_value_list_get_first_5=list_get_first(tokens);
+    handle=command_get_handler(cbase, (const char *)return_value_list_get_first_5, user, cmd);
     if((signed int)cmd->status == cmd_status_ok)
       cmd->status=command_extract_arguments(hub, user, handle, tokens, cmd->args);
 
@@ -13892,11 +13892,11 @@ command_parse_cleanup:
 static signed int command_reload(struct command_base *cbase, struct hub_user *user, struct hub_command *cmd)
 {
   cbase->hub->status = 2;
-  struct cbuffer *return_value_cbuf_create_const$1;
-  return_value_cbuf_create_const$1=cbuf_create_const("Reloading configuration...");
-  signed int return_value_command_status$2;
-  return_value_command_status$2=command_status(cbase, user, cmd, return_value_cbuf_create_const$1);
-  return return_value_command_status$2;
+  struct cbuffer *return_value_cbuf_create_const_1;
+  return_value_cbuf_create_const_1=cbuf_create_const("Reloading configuration...");
+  signed int return_value_command_status_2;
+  return_value_command_status_2=command_status(cbase, user, cmd, return_value_cbuf_create_const_1);
+  return return_value_command_status_2;
 }
 
 // command_shutdown
@@ -13913,11 +13913,11 @@ extern void command_shutdown(struct command_base *cbase)
 static signed int command_shutdown_hub(struct command_base *cbase, struct hub_user *user, struct hub_command *cmd)
 {
   cbase->hub->status = 3;
-  struct cbuffer *return_value_cbuf_create_const$1;
-  return_value_cbuf_create_const$1=cbuf_create_const("Hub shutting down...");
-  signed int return_value_command_status$2;
-  return_value_command_status$2=command_status(cbase, user, cmd, return_value_cbuf_create_const$1);
-  return return_value_command_status$2;
+  struct cbuffer *return_value_cbuf_create_const_1;
+  return_value_cbuf_create_const_1=cbuf_create_const("Hub shutting down...");
+  signed int return_value_command_status_2;
+  return_value_command_status_2=command_status(cbase, user, cmd, return_value_cbuf_create_const_1);
+  return return_value_command_status_2;
 }
 
 // command_stats
@@ -13938,9 +13938,9 @@ static signed int command_stats(struct command_base *cbase, struct hub_user *use
   format_size(hub->stats.net_tx_total, txbuf, sizeof(char [64l]) /*64ul*/ );
   cbuf_append_format(buf, ", total_tx=%s", (const void *)txbuf);
   cbuf_append_format(buf, ", total_rx=%s", (const void *)rxbuf);
-  signed int return_value_command_status$1;
-  return_value_command_status$1=command_status(cbase, user, cmd, buf);
-  return return_value_command_status$1;
+  signed int return_value_command_status_1;
+  return_value_command_status_1=command_status(cbase, user, cmd, buf);
+  return return_value_command_status_1;
 }
 
 // command_status
@@ -13948,14 +13948,14 @@ static signed int command_stats(struct command_base *cbase, struct hub_user *use
 static signed int command_status(struct command_base *cbase, struct hub_user *user, struct hub_command *cmd, struct cbuffer *msg)
 {
   struct cbuffer *buf;
-  unsigned long int return_value_cbuf_size$1;
-  return_value_cbuf_size$1=cbuf_size(msg);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(cmd->prefix);
-  buf=cbuf_create(return_value_cbuf_size$1 + return_value_strlen$2 + (unsigned long int)7);
-  const char *return_value_cbuf_get$3;
-  return_value_cbuf_get$3=cbuf_get(msg);
-  cbuf_append_format(buf, "*** %s: %s", cmd->prefix, return_value_cbuf_get$3);
+  unsigned long int return_value_cbuf_size_1;
+  return_value_cbuf_size_1=cbuf_size(msg);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(cmd->prefix);
+  buf=cbuf_create(return_value_cbuf_size_1 + return_value_strlen_2 + (unsigned long int)7);
+  const char *return_value_cbuf_get_3;
+  return_value_cbuf_get_3=cbuf_get(msg);
+  cbuf_append_format(buf, "*** %s: %s", cmd->prefix, return_value_cbuf_get_3);
   send_message(cbase, user, buf);
   cbuf_destroy(msg);
   return 0;
@@ -13971,11 +13971,11 @@ static signed int command_uptime(struct command_base *cbase, struct hub_user *us
   unsigned long int h;
   unsigned long int m;
   unsigned long int D;
-  signed long int return_value_time$1;
-  return_value_time$1=time(((signed long int *)NULL));
-  double return_value_difftime$2;
-  return_value_difftime$2=difftime(return_value_time$1, cbase->hub->tm_started);
-  D = (unsigned long int)return_value_difftime$2;
+  signed long int return_value_time_1;
+  return_value_time_1=time(((signed long int *)NULL));
+  double return_value_difftime_2;
+  return_value_difftime_2=difftime(return_value_time_1, cbase->hub->tm_started);
+  D = (unsigned long int)return_value_difftime_2;
   d = D / (unsigned long int)(24 * 3600);
   D = D % (unsigned long int)(24 * 3600);
   h = D / (unsigned long int)3600;
@@ -13985,9 +13985,9 @@ static signed int command_uptime(struct command_base *cbase, struct hub_user *us
     cbuf_append_format(buf, "%d day%s, ", (signed int)d, d != (unsigned long int)1 ? "s" : "");
 
   cbuf_append_format(buf, "%02d:%02d", (signed int)h, (signed int)m);
-  signed int return_value_command_status$3;
-  return_value_command_status$3=command_status(cbase, user, cmd, buf);
-  return return_value_command_status$3;
+  signed int return_value_command_status_3;
+  return_value_command_status_3=command_status(cbase, user, cmd, buf);
+  return return_value_command_status_3;
 }
 
 // command_version
@@ -14000,9 +14000,9 @@ static signed int command_version(struct command_base *cbase, struct hub_user *u
 
   else
     buf=cbuf_create_const("Powered by uhub/0.4.1-release");
-  signed int return_value_command_status$1;
-  return_value_command_status$1=command_status(cbase, user, cmd, buf);
-  return return_value_command_status$1;
+  signed int return_value_command_status_1;
+  return_value_command_status_1=command_status(cbase, user, cmd, buf);
+  return return_value_command_status_1;
 }
 
 // command_whoip
@@ -14013,38 +14013,38 @@ static signed int command_whoip(struct command_base *cbase, struct hub_user *use
   struct hub_command_arg_data *arg;
   arg=hub_command_arg_next(cmd, (enum hub_command_arg_type)type_range);
   struct linked_list *users;
-  struct linked_list *return_value_list_create$1;
-  return_value_list_create$1=list_create();
-  users = (struct linked_list *)return_value_list_create$1;
+  struct linked_list *return_value_list_create_1;
+  return_value_list_create_1=list_create();
+  users = (struct linked_list *)return_value_list_create_1;
   struct hub_user *u;
   signed int ret = 0;
-  unsigned long int return_value_uman_get_user_by_addr$2;
-  return_value_uman_get_user_by_addr$2=uman_get_user_by_addr(cbase->hub->users, users, arg->data.range);
-  ret = (signed int)return_value_uman_get_user_by_addr$2;
+  unsigned long int return_value_uman_get_user_by_addr_2;
+  return_value_uman_get_user_by_addr_2=uman_get_user_by_addr(cbase->hub->users, users, arg->data.range);
+  ret = (signed int)return_value_uman_get_user_by_addr_2;
   if(ret == 0)
   {
     list_clear(users, null_free);
     list_destroy(users);
-    struct cbuffer *return_value_cbuf_create_const$3;
-    return_value_cbuf_create_const$3=cbuf_create_const("No users found.");
-    signed int return_value_command_status$4;
-    return_value_command_status$4=command_status(cbase, user, cmd, return_value_cbuf_create_const$3);
-    return return_value_command_status$4;
+    struct cbuffer *return_value_cbuf_create_const_3;
+    return_value_cbuf_create_const_3=cbuf_create_const("No users found.");
+    signed int return_value_command_status_4;
+    return_value_command_status_4=command_status(cbase, user, cmd, return_value_cbuf_create_const_3);
+    return return_value_command_status_4;
   }
 
   buf=cbuf_create((unsigned long int)(128 + (64 + 46 + 5) * ret));
   cbuf_append_format(buf, "*** %s: Found %d match%s:\n", cmd->prefix, ret, ret != 1 ? "es" : "");
-  void *return_value_list_get_first$5;
-  return_value_list_get_first$5=list_get_first(users);
-  u = (struct hub_user *)return_value_list_get_first$5;
+  void *return_value_list_get_first_5;
+  return_value_list_get_first_5=list_get_first(users);
+  u = (struct hub_user *)return_value_list_get_first_5;
   while(!(u == ((struct hub_user *)NULL)))
   {
-    const char *return_value_user_get_address$6;
-    return_value_user_get_address$6=user_get_address(u);
-    cbuf_append_format(buf, "%s (%s)\n", (const void *)u->id.nick, return_value_user_get_address$6);
-    void *return_value_list_get_next$7;
-    return_value_list_get_next$7=list_get_next(users);
-    u = (struct hub_user *)return_value_list_get_next$7;
+    const char *return_value_user_get_address_6;
+    return_value_user_get_address_6=user_get_address(u);
+    cbuf_append_format(buf, "%s (%s)\n", (const void *)u->id.nick, return_value_user_get_address_6);
+    void *return_value_list_get_next_7;
+    return_value_list_get_next_7=list_get_next(users);
+    u = (struct hub_user *)return_value_list_get_next_7;
   }
   cbuf_append(buf, "\n");
   send_message(cbase, user, buf);
@@ -14057,42 +14057,42 @@ static signed int command_whoip(struct command_base *cbase, struct hub_user *use
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/commands.c line 602
 extern void commands_builtin_add(struct command_base *cbase)
 {
-  struct command_handle *return_value_add_builtin$1;
-  return_value_add_builtin$1=add_builtin(cbase, "broadcast", "+m", (enum auth_credentials)auth_cred_operator, command_broadcast, "Send a message to all users");
-  command_add(cbase, return_value_add_builtin$1, (void *)0);
-  struct command_handle *return_value_add_builtin$2;
-  return_value_add_builtin$2=add_builtin(cbase, "getip", "u", (enum auth_credentials)auth_cred_operator, command_getip, "Show IP address for a user");
-  command_add(cbase, return_value_add_builtin$2, (void *)0);
-  struct command_handle *return_value_add_builtin$3;
-  return_value_add_builtin$3=add_builtin(cbase, "help", "?c", (enum auth_credentials)auth_cred_guest, command_help, "Show this help message.");
-  command_add(cbase, return_value_add_builtin$3, (void *)0);
-  struct command_handle *return_value_add_builtin$4;
-  return_value_add_builtin$4=add_builtin(cbase, "kick", "u", (enum auth_credentials)auth_cred_operator, command_kick, "Kick a user");
-  command_add(cbase, return_value_add_builtin$4, (void *)0);
-  struct command_handle *return_value_add_builtin$5;
-  return_value_add_builtin$5=add_builtin(cbase, "log", "?m", (enum auth_credentials)auth_cred_operator, command_log, "Display log");
-  command_add(cbase, return_value_add_builtin$5, (void *)0);
-  struct command_handle *return_value_add_builtin$6;
-  return_value_add_builtin$6=add_builtin(cbase, "myip", "", (enum auth_credentials)auth_cred_guest, command_myip, "Show your own IP.");
-  command_add(cbase, return_value_add_builtin$6, (void *)0);
-  struct command_handle *return_value_add_builtin$7;
-  return_value_add_builtin$7=add_builtin(cbase, "reload", "", (enum auth_credentials)auth_cred_admin, command_reload, "Reload configuration files.");
-  command_add(cbase, return_value_add_builtin$7, (void *)0);
-  struct command_handle *return_value_add_builtin$8;
-  return_value_add_builtin$8=add_builtin(cbase, "shutdown", "", (enum auth_credentials)auth_cred_admin, command_shutdown_hub, "Shutdown hub.");
-  command_add(cbase, return_value_add_builtin$8, (void *)0);
-  struct command_handle *return_value_add_builtin$9;
-  return_value_add_builtin$9=add_builtin(cbase, "stats", "", (enum auth_credentials)auth_cred_super, command_stats, "Show hub statistics.");
-  command_add(cbase, return_value_add_builtin$9, (void *)0);
-  struct command_handle *return_value_add_builtin$10;
-  return_value_add_builtin$10=add_builtin(cbase, "uptime", "", (enum auth_credentials)auth_cred_guest, command_uptime, "Display hub uptime info.");
-  command_add(cbase, return_value_add_builtin$10, (void *)0);
-  struct command_handle *return_value_add_builtin$11;
-  return_value_add_builtin$11=add_builtin(cbase, "version", "", (enum auth_credentials)auth_cred_guest, command_version, "Show hub version info.");
-  command_add(cbase, return_value_add_builtin$11, (void *)0);
-  struct command_handle *return_value_add_builtin$12;
-  return_value_add_builtin$12=add_builtin(cbase, "whoip", "r", (enum auth_credentials)auth_cred_operator, command_whoip, "Show users matching IP range");
-  command_add(cbase, return_value_add_builtin$12, (void *)0);
+  struct command_handle *return_value_add_builtin_1;
+  return_value_add_builtin_1=add_builtin(cbase, "broadcast", "+m", (enum auth_credentials)auth_cred_operator, command_broadcast, "Send a message to all users");
+  command_add(cbase, return_value_add_builtin_1, (void *)0);
+  struct command_handle *return_value_add_builtin_2;
+  return_value_add_builtin_2=add_builtin(cbase, "getip", "u", (enum auth_credentials)auth_cred_operator, command_getip, "Show IP address for a user");
+  command_add(cbase, return_value_add_builtin_2, (void *)0);
+  struct command_handle *return_value_add_builtin_3;
+  return_value_add_builtin_3=add_builtin(cbase, "help", "?c", (enum auth_credentials)auth_cred_guest, command_help, "Show this help message.");
+  command_add(cbase, return_value_add_builtin_3, (void *)0);
+  struct command_handle *return_value_add_builtin_4;
+  return_value_add_builtin_4=add_builtin(cbase, "kick", "u", (enum auth_credentials)auth_cred_operator, command_kick, "Kick a user");
+  command_add(cbase, return_value_add_builtin_4, (void *)0);
+  struct command_handle *return_value_add_builtin_5;
+  return_value_add_builtin_5=add_builtin(cbase, "log", "?m", (enum auth_credentials)auth_cred_operator, command_log, "Display log");
+  command_add(cbase, return_value_add_builtin_5, (void *)0);
+  struct command_handle *return_value_add_builtin_6;
+  return_value_add_builtin_6=add_builtin(cbase, "myip", "", (enum auth_credentials)auth_cred_guest, command_myip, "Show your own IP.");
+  command_add(cbase, return_value_add_builtin_6, (void *)0);
+  struct command_handle *return_value_add_builtin_7;
+  return_value_add_builtin_7=add_builtin(cbase, "reload", "", (enum auth_credentials)auth_cred_admin, command_reload, "Reload configuration files.");
+  command_add(cbase, return_value_add_builtin_7, (void *)0);
+  struct command_handle *return_value_add_builtin_8;
+  return_value_add_builtin_8=add_builtin(cbase, "shutdown", "", (enum auth_credentials)auth_cred_admin, command_shutdown_hub, "Shutdown hub.");
+  command_add(cbase, return_value_add_builtin_8, (void *)0);
+  struct command_handle *return_value_add_builtin_9;
+  return_value_add_builtin_9=add_builtin(cbase, "stats", "", (enum auth_credentials)auth_cred_super, command_stats, "Show hub statistics.");
+  command_add(cbase, return_value_add_builtin_9, (void *)0);
+  struct command_handle *return_value_add_builtin_10;
+  return_value_add_builtin_10=add_builtin(cbase, "uptime", "", (enum auth_credentials)auth_cred_guest, command_uptime, "Display hub uptime info.");
+  command_add(cbase, return_value_add_builtin_10, (void *)0);
+  struct command_handle *return_value_add_builtin_11;
+  return_value_add_builtin_11=add_builtin(cbase, "version", "", (enum auth_credentials)auth_cred_guest, command_version, "Show hub version info.");
+  command_add(cbase, return_value_add_builtin_11, (void *)0);
+  struct command_handle *return_value_add_builtin_12;
+  return_value_add_builtin_12=add_builtin(cbase, "whoip", "r", (enum auth_credentials)auth_cred_operator, command_whoip, "Show users matching IP range");
+  command_add(cbase, return_value_add_builtin_12, (void *)0);
 }
 
 // commands_builtin_remove
@@ -14100,11 +14100,11 @@ extern void commands_builtin_add(struct command_base *cbase)
 extern void commands_builtin_remove(struct command_base *cbase)
 {
   struct command_handle *command;
-  void *return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
   do
   {
-    return_value_list_get_first$1=list_get_first(cbase->handlers);
-    command = (struct command_handle *)return_value_list_get_first$1;
+    return_value_list_get_first_1=list_get_first(cbase->handlers);
+    command = (struct command_handle *)return_value_list_get_first_1;
     if(command == ((struct command_handle *)NULL))
       break;
 
@@ -14120,13 +14120,13 @@ extern void config_defaults(struct hub_config *config)
 {
   config->hub_enabled = 1;
   config->server_port = 1511;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup("any");
-  config->server_bind_addr = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup("any");
+  config->server_bind_addr = return_value___strdup_1;
   config->server_listen_backlog = 50;
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup("");
-  config->server_alt_ports = return_value___strdup$2;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup("");
+  config->server_alt_ports = return_value___strdup_2;
   config->show_banner = 1;
   config->show_banner_sys_info = 1;
   config->max_users = 500;
@@ -14134,15 +14134,15 @@ extern void config_defaults(struct hub_config *config)
   config->register_self = 0;
   config->obsolete_clients = 0;
   config->chat_is_privileged = 0;
-  char *return_value___strdup$3;
-  return_value___strdup$3=__strdup("uhub");
-  config->hub_name = return_value___strdup$3;
-  char *return_value___strdup$4;
-  return_value___strdup$4=__strdup("no description");
-  config->hub_description = return_value___strdup$4;
-  char *return_value___strdup$5;
-  return_value___strdup$5=__strdup("");
-  config->redirect_addr = return_value___strdup$5;
+  char *return_value___strdup_3;
+  return_value___strdup_3=__strdup("uhub");
+  config->hub_name = return_value___strdup_3;
+  char *return_value___strdup_4;
+  return_value___strdup_4=__strdup("no description");
+  config->hub_description = return_value___strdup_4;
+  char *return_value___strdup_5;
+  return_value___strdup_5=__strdup("");
+  config->redirect_addr = return_value___strdup_5;
   config->max_recv_buffer = 4096;
   config->max_send_buffer = 131072;
   config->max_send_buffer_soft = 98304;
@@ -14168,129 +14168,129 @@ extern void config_defaults(struct hub_config *config)
   config->flood_ctl_extras = 0;
   config->tls_enable = 0;
   config->tls_require = 0;
-  char *return_value___strdup$6;
-  return_value___strdup$6=__strdup("");
-  config->tls_require_redirect_addr = return_value___strdup$6;
-  char *return_value___strdup$7;
-  return_value___strdup$7=__strdup("");
-  config->tls_certificate = return_value___strdup$7;
-  char *return_value___strdup$8;
-  return_value___strdup$8=__strdup("");
-  config->tls_private_key = return_value___strdup$8;
-  char *return_value___strdup$9;
-  return_value___strdup$9=__strdup("");
-  config->file_acl = return_value___strdup$9;
-  char *return_value___strdup$10;
-  return_value___strdup$10=__strdup("");
-  config->file_plugins = return_value___strdup$10;
-  char *return_value___strdup$11;
-  return_value___strdup$11=__strdup("Hub is full");
-  config->msg_hub_full = return_value___strdup$11;
-  char *return_value___strdup$12;
-  return_value___strdup$12=__strdup("Hub is disabled");
-  config->msg_hub_disabled = return_value___strdup$12;
-  char *return_value___strdup$13;
-  return_value___strdup$13=__strdup("Hub is for registered users only");
-  config->msg_hub_registered_users_only = return_value___strdup$13;
-  char *return_value___strdup$14;
-  return_value___strdup$14=__strdup("No nickname given");
-  config->msg_inf_error_nick_missing = return_value___strdup$14;
-  char *return_value___strdup$15;
-  return_value___strdup$15=__strdup("Multiple nicknames given");
-  config->msg_inf_error_nick_multiple = return_value___strdup$15;
-  char *return_value___strdup$16;
-  return_value___strdup$16=__strdup("Nickname is invalid");
-  config->msg_inf_error_nick_invalid = return_value___strdup$16;
-  char *return_value___strdup$17;
-  return_value___strdup$17=__strdup("Nickname too long");
-  config->msg_inf_error_nick_long = return_value___strdup$17;
-  char *return_value___strdup$18;
-  return_value___strdup$18=__strdup("Nickname too short");
-  config->msg_inf_error_nick_short = return_value___strdup$18;
-  char *return_value___strdup$19;
-  return_value___strdup$19=__strdup("Nickname cannot start with spaces");
-  config->msg_inf_error_nick_spaces = return_value___strdup$19;
-  char *return_value___strdup$20;
-  return_value___strdup$20=__strdup("Nickname contains invalid characters");
-  config->msg_inf_error_nick_bad_chars = return_value___strdup$20;
-  char *return_value___strdup$21;
-  return_value___strdup$21=__strdup("Nickname is not valid UTF-8");
-  config->msg_inf_error_nick_not_utf8 = return_value___strdup$21;
-  char *return_value___strdup$22;
-  return_value___strdup$22=__strdup("Nickname is already in use");
-  config->msg_inf_error_nick_taken = return_value___strdup$22;
-  char *return_value___strdup$23;
-  return_value___strdup$23=__strdup("Nickname cannot be used on this hub");
-  config->msg_inf_error_nick_restricted = return_value___strdup$23;
-  char *return_value___strdup$24;
-  return_value___strdup$24=__strdup("CID is not valid");
-  config->msg_inf_error_cid_invalid = return_value___strdup$24;
-  char *return_value___strdup$25;
-  return_value___strdup$25=__strdup("CID is not specified");
-  config->msg_inf_error_cid_missing = return_value___strdup$25;
-  char *return_value___strdup$26;
-  return_value___strdup$26=__strdup("CID is taken");
-  config->msg_inf_error_cid_taken = return_value___strdup$26;
-  char *return_value___strdup$27;
-  return_value___strdup$27=__strdup("PID is not specified");
-  config->msg_inf_error_pid_missing = return_value___strdup$27;
-  char *return_value___strdup$28;
-  return_value___strdup$28=__strdup("PID is invalid");
-  config->msg_inf_error_pid_invalid = return_value___strdup$28;
-  char *return_value___strdup$29;
-  return_value___strdup$29=__strdup("Banned permanently");
-  config->msg_ban_permanently = return_value___strdup$29;
-  char *return_value___strdup$30;
-  return_value___strdup$30=__strdup("Banned temporarily");
-  config->msg_ban_temporarily = return_value___strdup$30;
-  char *return_value___strdup$31;
-  return_value___strdup$31=__strdup("Password is wrong");
-  config->msg_auth_invalid_password = return_value___strdup$31;
-  char *return_value___strdup$32;
-  return_value___strdup$32=__strdup("User not found in password database");
-  config->msg_auth_user_not_found = return_value___strdup$32;
-  char *return_value___strdup$33;
-  return_value___strdup$33=__strdup("No memory");
-  config->msg_error_no_memory = return_value___strdup$33;
-  char *return_value___strdup$34;
-  return_value___strdup$34=__strdup("User is not sharing enough");
-  config->msg_user_share_size_low = return_value___strdup$34;
-  char *return_value___strdup$35;
-  return_value___strdup$35=__strdup("User is sharing too much");
-  config->msg_user_share_size_high = return_value___strdup$35;
-  char *return_value___strdup$36;
-  return_value___strdup$36=__strdup("User have too few upload slots.");
-  config->msg_user_slots_low = return_value___strdup$36;
-  char *return_value___strdup$37;
-  return_value___strdup$37=__strdup("User have too many upload slots.");
-  config->msg_user_slots_high = return_value___strdup$37;
-  char *return_value___strdup$38;
-  return_value___strdup$38=__strdup("User is on too few hubs.");
-  config->msg_user_hub_limit_low = return_value___strdup$38;
-  char *return_value___strdup$39;
-  return_value___strdup$39=__strdup("User is on too many hubs.");
-  config->msg_user_hub_limit_high = return_value___strdup$39;
-  char *return_value___strdup$40;
-  return_value___strdup$40=__strdup("Chat flood detected, messages are dropped.");
-  config->msg_user_flood_chat = return_value___strdup$40;
-  char *return_value___strdup$41;
-  return_value___strdup$41=__strdup("Connect flood detected, connection refused.");
-  config->msg_user_flood_connect = return_value___strdup$41;
-  char *return_value___strdup$42;
-  return_value___strdup$42=__strdup("Search flood detected, search is stopped.");
-  config->msg_user_flood_search = return_value___strdup$42;
-  char *return_value___strdup$43;
-  return_value___strdup$43=__strdup("Update flood detected.");
-  config->msg_user_flood_update = return_value___strdup$43;
-  char *return_value___strdup$44;
-  return_value___strdup$44=__strdup("Flood detected.");
-  config->msg_user_flood_extras = return_value___strdup$44;
-  char *return_value___strdup$45;
-  return_value___strdup$45=__strdup("No common hash algorithm.");
-  config->msg_proto_no_common_hash = return_value___strdup$45;
-  char *return_value___strdup$46;
-  return_value___strdup$46=__strdup("Client is using an obsolete ADC protocol version.");
-  config->msg_proto_obsolete_adc0 = return_value___strdup$46;
+  char *return_value___strdup_6;
+  return_value___strdup_6=__strdup("");
+  config->tls_require_redirect_addr = return_value___strdup_6;
+  char *return_value___strdup_7;
+  return_value___strdup_7=__strdup("");
+  config->tls_certificate = return_value___strdup_7;
+  char *return_value___strdup_8;
+  return_value___strdup_8=__strdup("");
+  config->tls_private_key = return_value___strdup_8;
+  char *return_value___strdup_9;
+  return_value___strdup_9=__strdup("");
+  config->file_acl = return_value___strdup_9;
+  char *return_value___strdup_10;
+  return_value___strdup_10=__strdup("");
+  config->file_plugins = return_value___strdup_10;
+  char *return_value___strdup_11;
+  return_value___strdup_11=__strdup("Hub is full");
+  config->msg_hub_full = return_value___strdup_11;
+  char *return_value___strdup_12;
+  return_value___strdup_12=__strdup("Hub is disabled");
+  config->msg_hub_disabled = return_value___strdup_12;
+  char *return_value___strdup_13;
+  return_value___strdup_13=__strdup("Hub is for registered users only");
+  config->msg_hub_registered_users_only = return_value___strdup_13;
+  char *return_value___strdup_14;
+  return_value___strdup_14=__strdup("No nickname given");
+  config->msg_inf_error_nick_missing = return_value___strdup_14;
+  char *return_value___strdup_15;
+  return_value___strdup_15=__strdup("Multiple nicknames given");
+  config->msg_inf_error_nick_multiple = return_value___strdup_15;
+  char *return_value___strdup_16;
+  return_value___strdup_16=__strdup("Nickname is invalid");
+  config->msg_inf_error_nick_invalid = return_value___strdup_16;
+  char *return_value___strdup_17;
+  return_value___strdup_17=__strdup("Nickname too long");
+  config->msg_inf_error_nick_long = return_value___strdup_17;
+  char *return_value___strdup_18;
+  return_value___strdup_18=__strdup("Nickname too short");
+  config->msg_inf_error_nick_short = return_value___strdup_18;
+  char *return_value___strdup_19;
+  return_value___strdup_19=__strdup("Nickname cannot start with spaces");
+  config->msg_inf_error_nick_spaces = return_value___strdup_19;
+  char *return_value___strdup_20;
+  return_value___strdup_20=__strdup("Nickname contains invalid characters");
+  config->msg_inf_error_nick_bad_chars = return_value___strdup_20;
+  char *return_value___strdup_21;
+  return_value___strdup_21=__strdup("Nickname is not valid UTF-8");
+  config->msg_inf_error_nick_not_utf8 = return_value___strdup_21;
+  char *return_value___strdup_22;
+  return_value___strdup_22=__strdup("Nickname is already in use");
+  config->msg_inf_error_nick_taken = return_value___strdup_22;
+  char *return_value___strdup_23;
+  return_value___strdup_23=__strdup("Nickname cannot be used on this hub");
+  config->msg_inf_error_nick_restricted = return_value___strdup_23;
+  char *return_value___strdup_24;
+  return_value___strdup_24=__strdup("CID is not valid");
+  config->msg_inf_error_cid_invalid = return_value___strdup_24;
+  char *return_value___strdup_25;
+  return_value___strdup_25=__strdup("CID is not specified");
+  config->msg_inf_error_cid_missing = return_value___strdup_25;
+  char *return_value___strdup_26;
+  return_value___strdup_26=__strdup("CID is taken");
+  config->msg_inf_error_cid_taken = return_value___strdup_26;
+  char *return_value___strdup_27;
+  return_value___strdup_27=__strdup("PID is not specified");
+  config->msg_inf_error_pid_missing = return_value___strdup_27;
+  char *return_value___strdup_28;
+  return_value___strdup_28=__strdup("PID is invalid");
+  config->msg_inf_error_pid_invalid = return_value___strdup_28;
+  char *return_value___strdup_29;
+  return_value___strdup_29=__strdup("Banned permanently");
+  config->msg_ban_permanently = return_value___strdup_29;
+  char *return_value___strdup_30;
+  return_value___strdup_30=__strdup("Banned temporarily");
+  config->msg_ban_temporarily = return_value___strdup_30;
+  char *return_value___strdup_31;
+  return_value___strdup_31=__strdup("Password is wrong");
+  config->msg_auth_invalid_password = return_value___strdup_31;
+  char *return_value___strdup_32;
+  return_value___strdup_32=__strdup("User not found in password database");
+  config->msg_auth_user_not_found = return_value___strdup_32;
+  char *return_value___strdup_33;
+  return_value___strdup_33=__strdup("No memory");
+  config->msg_error_no_memory = return_value___strdup_33;
+  char *return_value___strdup_34;
+  return_value___strdup_34=__strdup("User is not sharing enough");
+  config->msg_user_share_size_low = return_value___strdup_34;
+  char *return_value___strdup_35;
+  return_value___strdup_35=__strdup("User is sharing too much");
+  config->msg_user_share_size_high = return_value___strdup_35;
+  char *return_value___strdup_36;
+  return_value___strdup_36=__strdup("User have too few upload slots.");
+  config->msg_user_slots_low = return_value___strdup_36;
+  char *return_value___strdup_37;
+  return_value___strdup_37=__strdup("User have too many upload slots.");
+  config->msg_user_slots_high = return_value___strdup_37;
+  char *return_value___strdup_38;
+  return_value___strdup_38=__strdup("User is on too few hubs.");
+  config->msg_user_hub_limit_low = return_value___strdup_38;
+  char *return_value___strdup_39;
+  return_value___strdup_39=__strdup("User is on too many hubs.");
+  config->msg_user_hub_limit_high = return_value___strdup_39;
+  char *return_value___strdup_40;
+  return_value___strdup_40=__strdup("Chat flood detected, messages are dropped.");
+  config->msg_user_flood_chat = return_value___strdup_40;
+  char *return_value___strdup_41;
+  return_value___strdup_41=__strdup("Connect flood detected, connection refused.");
+  config->msg_user_flood_connect = return_value___strdup_41;
+  char *return_value___strdup_42;
+  return_value___strdup_42=__strdup("Search flood detected, search is stopped.");
+  config->msg_user_flood_search = return_value___strdup_42;
+  char *return_value___strdup_43;
+  return_value___strdup_43=__strdup("Update flood detected.");
+  config->msg_user_flood_update = return_value___strdup_43;
+  char *return_value___strdup_44;
+  return_value___strdup_44=__strdup("Flood detected.");
+  config->msg_user_flood_extras = return_value___strdup_44;
+  char *return_value___strdup_45;
+  return_value___strdup_45=__strdup("No common hash algorithm.");
+  config->msg_proto_no_common_hash = return_value___strdup_45;
+  char *return_value___strdup_46;
+  return_value___strdup_46=__strdup("Client is using an obsolete ADC protocol version.");
+  config->msg_proto_obsolete_adc0 = return_value___strdup_46;
 }
 
 // config_parse_line
@@ -14302,7 +14302,7 @@ static signed int config_parse_line(char *line, signed int line_count, void *ptr
   char *data;
   struct hub_config *config = (struct hub_config *)ptr_data;
   strip_off_ini_line_comments(line, line_count);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(*line == 0)
     return 0;
 
@@ -14311,14 +14311,14 @@ static signed int config_parse_line(char *line, signed int line_count, void *ptr
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_is_valid_utf8$1;
-    return_value_is_valid_utf8$1=is_valid_utf8(line);
-    if(return_value_is_valid_utf8$1 == 0)
+    signed int return_value_is_valid_utf8_1;
+    return_value_is_valid_utf8_1=is_valid_utf8(line);
+    if(return_value_is_valid_utf8_1 == 0)
       hub_log(2, "Invalid utf-8 characters on line %d", line_count);
 
-    char *return_value___builtin_strchr$2;
-    return_value___builtin_strchr$2=__builtin_strchr(line, 61);
-    pos = return_value___builtin_strchr$2;
+    char *return_value___builtin_strchr_2;
+    return_value___builtin_strchr_2=__builtin_strchr(line, 61);
+    pos = return_value___builtin_strchr_2;
     if(!(pos == ((char *)NULL)))
       pos[(signed long int)0] = (char)0;
 
@@ -14330,11 +14330,11 @@ static signed int config_parse_line(char *line, signed int line_count, void *ptr
     data=strip_white_space(data);
     data=strip_off_quotes(data);
     if(*key == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !(*data != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = !(*data != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       hub_log(0, "Configuration parse error on line %d", line_count);
       return -1;
@@ -14345,9 +14345,9 @@ static signed int config_parse_line(char *line, signed int line_count, void *ptr
 
     __CPROVER_DUMP_L7:
       ;
-      signed int return_value_apply_config$4;
-      return_value_apply_config$4=apply_config(config, key, data, line_count);
-      return return_value_apply_config$4;
+      signed int return_value_apply_config_4;
+      return_value_apply_config_4=apply_config(config, key, data, line_count);
+      return return_value_apply_config_4;
     }
   }
 }
@@ -14455,11 +14455,11 @@ static struct hub_user * convert_user_type(struct plugin_user *user)
   return huser;
 }
 
-// convert_user_type$link1
+// convert_user_type_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugininvoke.c line 77
-static struct plugin_user * convert_user_type$link1(struct hub_user *user$link1)
+static struct plugin_user * convert_user_type_link1(struct hub_user *user_link1)
 {
-  struct plugin_user *puser = (struct plugin_user *)user$link1;
+  struct plugin_user *puser = (struct plugin_user *)user_link1;
   return puser;
 }
 
@@ -14489,7 +14489,7 @@ signed int drop_privileges()
   unsigned int perm_uid = (unsigned int)0;
   signed int gid_ok = 0;
   signed int ret = 0;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(!(arg_gid == ((const char *)NULL)))
   {
     ret = 0;
@@ -14501,10 +14501,10 @@ signed int drop_privileges()
 
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(perm_group->gr_name, arg_gid);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(perm_group->gr_name, arg_gid);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
       {
         perm_gid = perm_group->gr_gid;
         ret = 1;
@@ -14533,7 +14533,7 @@ signed int drop_privileges()
     gid_ok = 1;
   }
 
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_3;
   if(!(arg_uid == ((const char *)NULL)))
   {
     ret = 0;
@@ -14543,12 +14543,12 @@ signed int drop_privileges()
       if(perm_user == ((struct passwd *)NULL))
         break;
 
-      unsigned long int drop_privileges$$1$$2$$1$$1$$__s1_len;
-      unsigned long int drop_privileges$$1$$2$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(perm_user->pw_name, arg_uid);
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      unsigned long int drop_privileges__1__2__1__1____s1_len;
+      unsigned long int drop_privileges__1__2__1__1____s2_len;
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(perm_user->pw_name, arg_uid);
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
       {
         perm_uid = perm_user->pw_uid;
         if(gid_ok == 0)
@@ -14608,9 +14608,9 @@ static void dummy_free(void *ptr)
   ;
 }
 
-// dummy_free$link1
+// dummy_free_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 112
-static void dummy_free$link1(void *ptr$link1)
+static void dummy_free_link1(void *ptr_link1)
 {
   ;
 }
@@ -14619,1101 +14619,1101 @@ static void dummy_free$link1(void *ptr$link1)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/config.h line 51
 extern void dump_config(struct hub_config *config, signed int ignore_defaults)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ignore_defaults == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = config->hub_enabled != 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = config->hub_enabled != 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fprintf(stdout, "hub_enabled = %s\n", config->hub_enabled != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(ignore_defaults == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = config->server_port != 1511 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = config->server_port != 1511 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     fprintf(stdout, "server_port = %d\n", config->server_port);
 
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
   if(ignore_defaults == 0)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$1$$__s1_len;
-    unsigned long int dump_config$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp(config->server_bind_addr, "any");
-    tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-    tmp_if_expr$5 = tmp_statement_expression$3 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__1____s1_len;
+    unsigned long int dump_config__1__1____s2_len;
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp(config->server_bind_addr, "any");
+    tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+    tmp_if_expr_5 = tmp_statement_expression_3 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
     fprintf(stdout, "server_bind_addr = \"%s\"\n", config->server_bind_addr);
 
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(ignore_defaults == 0)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = config->server_listen_backlog != 50 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = config->server_listen_backlog != 50 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_6)
     fprintf(stdout, "server_listen_backlog = %d\n", config->server_listen_backlog);
 
-  _Bool tmp_if_expr$9;
-  signed int tmp_statement_expression$7;
+  _Bool tmp_if_expr_9;
+  signed int tmp_statement_expression_7;
   if(ignore_defaults == 0)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$2$$__s1_len;
-    unsigned long int dump_config$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$8;
-    return_value___builtin_strcmp$8=__builtin_strcmp(config->server_alt_ports, "");
-    tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-    tmp_if_expr$9 = tmp_statement_expression$7 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__2____s1_len;
+    unsigned long int dump_config__1__2____s2_len;
+    signed int return_value___builtin_strcmp_8;
+    return_value___builtin_strcmp_8=__builtin_strcmp(config->server_alt_ports, "");
+    tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+    tmp_if_expr_9 = tmp_statement_expression_7 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$9)
+  if(tmp_if_expr_9)
     fprintf(stdout, "server_alt_ports = \"%s\"\n", config->server_alt_ports);
 
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if(ignore_defaults == 0)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = config->show_banner != 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$10)
+    tmp_if_expr_10 = config->show_banner != 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_10)
     fprintf(stdout, "show_banner = %s\n", config->show_banner != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(ignore_defaults == 0)
-    tmp_if_expr$11 = (_Bool)1;
+    tmp_if_expr_11 = (_Bool)1;
 
   else
-    tmp_if_expr$11 = config->show_banner_sys_info != 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = config->show_banner_sys_info != 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_11)
     fprintf(stdout, "show_banner_sys_info = %s\n", config->show_banner_sys_info != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr_12;
   if(ignore_defaults == 0)
-    tmp_if_expr$12 = (_Bool)1;
+    tmp_if_expr_12 = (_Bool)1;
 
   else
-    tmp_if_expr$12 = config->max_users != 500 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$12)
+    tmp_if_expr_12 = config->max_users != 500 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_12)
     fprintf(stdout, "max_users = %d\n", config->max_users);
 
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   if(ignore_defaults == 0)
-    tmp_if_expr$13 = (_Bool)1;
+    tmp_if_expr_13 = (_Bool)1;
 
   else
-    tmp_if_expr$13 = config->registered_users_only != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$13)
+    tmp_if_expr_13 = config->registered_users_only != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_13)
     fprintf(stdout, "registered_users_only = %s\n", config->registered_users_only != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$14;
+  _Bool tmp_if_expr_14;
   if(ignore_defaults == 0)
-    tmp_if_expr$14 = (_Bool)1;
+    tmp_if_expr_14 = (_Bool)1;
 
   else
-    tmp_if_expr$14 = config->register_self != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = config->register_self != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_14)
     fprintf(stdout, "register_self = %s\n", config->register_self != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$15;
+  _Bool tmp_if_expr_15;
   if(ignore_defaults == 0)
-    tmp_if_expr$15 = (_Bool)1;
+    tmp_if_expr_15 = (_Bool)1;
 
   else
-    tmp_if_expr$15 = config->obsolete_clients != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$15)
+    tmp_if_expr_15 = config->obsolete_clients != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_15)
     fprintf(stdout, "obsolete_clients = %s\n", config->obsolete_clients != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$16;
+  _Bool tmp_if_expr_16;
   if(ignore_defaults == 0)
-    tmp_if_expr$16 = (_Bool)1;
+    tmp_if_expr_16 = (_Bool)1;
 
   else
-    tmp_if_expr$16 = config->chat_is_privileged != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$16)
+    tmp_if_expr_16 = config->chat_is_privileged != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_16)
     fprintf(stdout, "chat_is_privileged = %s\n", config->chat_is_privileged != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$19;
-  signed int tmp_statement_expression$17;
+  _Bool tmp_if_expr_19;
+  signed int tmp_statement_expression_17;
   if(ignore_defaults == 0)
-    tmp_if_expr$19 = (_Bool)1;
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$3$$__s1_len;
-    unsigned long int dump_config$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$18;
-    return_value___builtin_strcmp$18=__builtin_strcmp(config->hub_name, "uhub");
-    tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-    tmp_if_expr$19 = tmp_statement_expression$17 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__3____s1_len;
+    unsigned long int dump_config__1__3____s2_len;
+    signed int return_value___builtin_strcmp_18;
+    return_value___builtin_strcmp_18=__builtin_strcmp(config->hub_name, "uhub");
+    tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+    tmp_if_expr_19 = tmp_statement_expression_17 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$19)
+  if(tmp_if_expr_19)
     fprintf(stdout, "hub_name = \"%s\"\n", config->hub_name);
 
-  _Bool tmp_if_expr$22;
-  signed int tmp_statement_expression$20;
+  _Bool tmp_if_expr_22;
+  signed int tmp_statement_expression_20;
   if(ignore_defaults == 0)
-    tmp_if_expr$22 = (_Bool)1;
+    tmp_if_expr_22 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$4$$__s1_len;
-    unsigned long int dump_config$$1$$4$$__s2_len;
-    signed int return_value___builtin_strcmp$21;
-    return_value___builtin_strcmp$21=__builtin_strcmp(config->hub_description, "no description");
-    tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-    tmp_if_expr$22 = tmp_statement_expression$20 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__4____s1_len;
+    unsigned long int dump_config__1__4____s2_len;
+    signed int return_value___builtin_strcmp_21;
+    return_value___builtin_strcmp_21=__builtin_strcmp(config->hub_description, "no description");
+    tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+    tmp_if_expr_22 = tmp_statement_expression_20 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$22)
+  if(tmp_if_expr_22)
     fprintf(stdout, "hub_description = \"%s\"\n", config->hub_description);
 
-  _Bool tmp_if_expr$25;
-  signed int tmp_statement_expression$23;
+  _Bool tmp_if_expr_25;
+  signed int tmp_statement_expression_23;
   if(ignore_defaults == 0)
-    tmp_if_expr$25 = (_Bool)1;
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$5$$__s1_len;
-    unsigned long int dump_config$$1$$5$$__s2_len;
-    signed int return_value___builtin_strcmp$24;
-    return_value___builtin_strcmp$24=__builtin_strcmp(config->redirect_addr, "");
-    tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-    tmp_if_expr$25 = tmp_statement_expression$23 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__5____s1_len;
+    unsigned long int dump_config__1__5____s2_len;
+    signed int return_value___builtin_strcmp_24;
+    return_value___builtin_strcmp_24=__builtin_strcmp(config->redirect_addr, "");
+    tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+    tmp_if_expr_25 = tmp_statement_expression_23 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$25)
+  if(tmp_if_expr_25)
     fprintf(stdout, "redirect_addr = \"%s\"\n", config->redirect_addr);
 
-  _Bool tmp_if_expr$26;
+  _Bool tmp_if_expr_26;
   if(ignore_defaults == 0)
-    tmp_if_expr$26 = (_Bool)1;
+    tmp_if_expr_26 = (_Bool)1;
 
   else
-    tmp_if_expr$26 = config->max_recv_buffer != 4096 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$26)
+    tmp_if_expr_26 = config->max_recv_buffer != 4096 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_26)
     fprintf(stdout, "max_recv_buffer = %d\n", config->max_recv_buffer);
 
-  _Bool tmp_if_expr$27;
+  _Bool tmp_if_expr_27;
   if(ignore_defaults == 0)
-    tmp_if_expr$27 = (_Bool)1;
+    tmp_if_expr_27 = (_Bool)1;
 
   else
-    tmp_if_expr$27 = config->max_send_buffer != 131072 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$27)
+    tmp_if_expr_27 = config->max_send_buffer != 131072 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_27)
     fprintf(stdout, "max_send_buffer = %d\n", config->max_send_buffer);
 
-  _Bool tmp_if_expr$28;
+  _Bool tmp_if_expr_28;
   if(ignore_defaults == 0)
-    tmp_if_expr$28 = (_Bool)1;
+    tmp_if_expr_28 = (_Bool)1;
 
   else
-    tmp_if_expr$28 = config->max_send_buffer_soft != 98304 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$28)
+    tmp_if_expr_28 = config->max_send_buffer_soft != 98304 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_28)
     fprintf(stdout, "max_send_buffer_soft = %d\n", config->max_send_buffer_soft);
 
-  _Bool tmp_if_expr$29;
+  _Bool tmp_if_expr_29;
   if(ignore_defaults == 0)
-    tmp_if_expr$29 = (_Bool)1;
+    tmp_if_expr_29 = (_Bool)1;
 
   else
-    tmp_if_expr$29 = config->low_bandwidth_mode != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$29)
+    tmp_if_expr_29 = config->low_bandwidth_mode != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_29)
     fprintf(stdout, "low_bandwidth_mode = %s\n", config->low_bandwidth_mode != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$30;
+  _Bool tmp_if_expr_30;
   if(ignore_defaults == 0)
-    tmp_if_expr$30 = (_Bool)1;
+    tmp_if_expr_30 = (_Bool)1;
 
   else
-    tmp_if_expr$30 = config->max_chat_history != 20 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$30)
+    tmp_if_expr_30 = config->max_chat_history != 20 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_30)
     fprintf(stdout, "max_chat_history = %d\n", config->max_chat_history);
 
-  _Bool tmp_if_expr$31;
+  _Bool tmp_if_expr_31;
   if(ignore_defaults == 0)
-    tmp_if_expr$31 = (_Bool)1;
+    tmp_if_expr_31 = (_Bool)1;
 
   else
-    tmp_if_expr$31 = config->max_logout_log != 20 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$31)
+    tmp_if_expr_31 = config->max_logout_log != 20 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_31)
     fprintf(stdout, "max_logout_log = %d\n", config->max_logout_log);
 
-  _Bool tmp_if_expr$32;
+  _Bool tmp_if_expr_32;
   if(ignore_defaults == 0)
-    tmp_if_expr$32 = (_Bool)1;
+    tmp_if_expr_32 = (_Bool)1;
 
   else
-    tmp_if_expr$32 = config->limit_max_hubs_user != 10 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$32)
+    tmp_if_expr_32 = config->limit_max_hubs_user != 10 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_32)
     fprintf(stdout, "limit_max_hubs_user = %d\n", config->limit_max_hubs_user);
 
-  _Bool tmp_if_expr$33;
+  _Bool tmp_if_expr_33;
   if(ignore_defaults == 0)
-    tmp_if_expr$33 = (_Bool)1;
+    tmp_if_expr_33 = (_Bool)1;
 
   else
-    tmp_if_expr$33 = config->limit_max_hubs_reg != 10 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$33)
+    tmp_if_expr_33 = config->limit_max_hubs_reg != 10 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_33)
     fprintf(stdout, "limit_max_hubs_reg = %d\n", config->limit_max_hubs_reg);
 
-  _Bool tmp_if_expr$34;
+  _Bool tmp_if_expr_34;
   if(ignore_defaults == 0)
-    tmp_if_expr$34 = (_Bool)1;
+    tmp_if_expr_34 = (_Bool)1;
 
   else
-    tmp_if_expr$34 = config->limit_max_hubs_op != 10 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$34)
+    tmp_if_expr_34 = config->limit_max_hubs_op != 10 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_34)
     fprintf(stdout, "limit_max_hubs_op = %d\n", config->limit_max_hubs_op);
 
-  _Bool tmp_if_expr$35;
+  _Bool tmp_if_expr_35;
   if(ignore_defaults == 0)
-    tmp_if_expr$35 = (_Bool)1;
+    tmp_if_expr_35 = (_Bool)1;
 
   else
-    tmp_if_expr$35 = config->limit_max_hubs != 25 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$35)
+    tmp_if_expr_35 = config->limit_max_hubs != 25 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_35)
     fprintf(stdout, "limit_max_hubs = %d\n", config->limit_max_hubs);
 
-  _Bool tmp_if_expr$36;
+  _Bool tmp_if_expr_36;
   if(ignore_defaults == 0)
-    tmp_if_expr$36 = (_Bool)1;
+    tmp_if_expr_36 = (_Bool)1;
 
   else
-    tmp_if_expr$36 = config->limit_min_hubs_user != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$36)
+    tmp_if_expr_36 = config->limit_min_hubs_user != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_36)
     fprintf(stdout, "limit_min_hubs_user = %d\n", config->limit_min_hubs_user);
 
-  _Bool tmp_if_expr$37;
+  _Bool tmp_if_expr_37;
   if(ignore_defaults == 0)
-    tmp_if_expr$37 = (_Bool)1;
+    tmp_if_expr_37 = (_Bool)1;
 
   else
-    tmp_if_expr$37 = config->limit_min_hubs_reg != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$37)
+    tmp_if_expr_37 = config->limit_min_hubs_reg != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_37)
     fprintf(stdout, "limit_min_hubs_reg = %d\n", config->limit_min_hubs_reg);
 
-  _Bool tmp_if_expr$38;
+  _Bool tmp_if_expr_38;
   if(ignore_defaults == 0)
-    tmp_if_expr$38 = (_Bool)1;
+    tmp_if_expr_38 = (_Bool)1;
 
   else
-    tmp_if_expr$38 = config->limit_min_hubs_op != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$38)
+    tmp_if_expr_38 = config->limit_min_hubs_op != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_38)
     fprintf(stdout, "limit_min_hubs_op = %d\n", config->limit_min_hubs_op);
 
-  _Bool tmp_if_expr$39;
+  _Bool tmp_if_expr_39;
   if(ignore_defaults == 0)
-    tmp_if_expr$39 = (_Bool)1;
+    tmp_if_expr_39 = (_Bool)1;
 
   else
-    tmp_if_expr$39 = config->limit_min_share != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$39)
+    tmp_if_expr_39 = config->limit_min_share != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_39)
     fprintf(stdout, "limit_min_share = %d\n", config->limit_min_share);
 
-  _Bool tmp_if_expr$40;
+  _Bool tmp_if_expr_40;
   if(ignore_defaults == 0)
-    tmp_if_expr$40 = (_Bool)1;
+    tmp_if_expr_40 = (_Bool)1;
 
   else
-    tmp_if_expr$40 = config->limit_max_share != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$40)
+    tmp_if_expr_40 = config->limit_max_share != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_40)
     fprintf(stdout, "limit_max_share = %d\n", config->limit_max_share);
 
-  _Bool tmp_if_expr$41;
+  _Bool tmp_if_expr_41;
   if(ignore_defaults == 0)
-    tmp_if_expr$41 = (_Bool)1;
+    tmp_if_expr_41 = (_Bool)1;
 
   else
-    tmp_if_expr$41 = config->limit_min_slots != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$41)
+    tmp_if_expr_41 = config->limit_min_slots != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_41)
     fprintf(stdout, "limit_min_slots = %d\n", config->limit_min_slots);
 
-  _Bool tmp_if_expr$42;
+  _Bool tmp_if_expr_42;
   if(ignore_defaults == 0)
-    tmp_if_expr$42 = (_Bool)1;
+    tmp_if_expr_42 = (_Bool)1;
 
   else
-    tmp_if_expr$42 = config->limit_max_slots != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$42)
+    tmp_if_expr_42 = config->limit_max_slots != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_42)
     fprintf(stdout, "limit_max_slots = %d\n", config->limit_max_slots);
 
-  _Bool tmp_if_expr$43;
+  _Bool tmp_if_expr_43;
   if(ignore_defaults == 0)
-    tmp_if_expr$43 = (_Bool)1;
+    tmp_if_expr_43 = (_Bool)1;
 
   else
-    tmp_if_expr$43 = config->flood_ctl_interval != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$43)
+    tmp_if_expr_43 = config->flood_ctl_interval != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_43)
     fprintf(stdout, "flood_ctl_interval = %d\n", config->flood_ctl_interval);
 
-  _Bool tmp_if_expr$44;
+  _Bool tmp_if_expr_44;
   if(ignore_defaults == 0)
-    tmp_if_expr$44 = (_Bool)1;
+    tmp_if_expr_44 = (_Bool)1;
 
   else
-    tmp_if_expr$44 = config->flood_ctl_chat != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$44)
+    tmp_if_expr_44 = config->flood_ctl_chat != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_44)
     fprintf(stdout, "flood_ctl_chat = %d\n", config->flood_ctl_chat);
 
-  _Bool tmp_if_expr$45;
+  _Bool tmp_if_expr_45;
   if(ignore_defaults == 0)
-    tmp_if_expr$45 = (_Bool)1;
+    tmp_if_expr_45 = (_Bool)1;
 
   else
-    tmp_if_expr$45 = config->flood_ctl_connect != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$45)
+    tmp_if_expr_45 = config->flood_ctl_connect != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_45)
     fprintf(stdout, "flood_ctl_connect = %d\n", config->flood_ctl_connect);
 
-  _Bool tmp_if_expr$46;
+  _Bool tmp_if_expr_46;
   if(ignore_defaults == 0)
-    tmp_if_expr$46 = (_Bool)1;
+    tmp_if_expr_46 = (_Bool)1;
 
   else
-    tmp_if_expr$46 = config->flood_ctl_search != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$46)
+    tmp_if_expr_46 = config->flood_ctl_search != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_46)
     fprintf(stdout, "flood_ctl_search = %d\n", config->flood_ctl_search);
 
-  _Bool tmp_if_expr$47;
+  _Bool tmp_if_expr_47;
   if(ignore_defaults == 0)
-    tmp_if_expr$47 = (_Bool)1;
+    tmp_if_expr_47 = (_Bool)1;
 
   else
-    tmp_if_expr$47 = config->flood_ctl_update != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$47)
+    tmp_if_expr_47 = config->flood_ctl_update != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_47)
     fprintf(stdout, "flood_ctl_update = %d\n", config->flood_ctl_update);
 
-  _Bool tmp_if_expr$48;
+  _Bool tmp_if_expr_48;
   if(ignore_defaults == 0)
-    tmp_if_expr$48 = (_Bool)1;
+    tmp_if_expr_48 = (_Bool)1;
 
   else
-    tmp_if_expr$48 = config->flood_ctl_extras != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$48)
+    tmp_if_expr_48 = config->flood_ctl_extras != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_48)
     fprintf(stdout, "flood_ctl_extras = %d\n", config->flood_ctl_extras);
 
-  _Bool tmp_if_expr$49;
+  _Bool tmp_if_expr_49;
   if(ignore_defaults == 0)
-    tmp_if_expr$49 = (_Bool)1;
+    tmp_if_expr_49 = (_Bool)1;
 
   else
-    tmp_if_expr$49 = config->tls_enable != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$49)
+    tmp_if_expr_49 = config->tls_enable != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_49)
     fprintf(stdout, "tls_enable = %s\n", config->tls_enable != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$50;
+  _Bool tmp_if_expr_50;
   if(ignore_defaults == 0)
-    tmp_if_expr$50 = (_Bool)1;
+    tmp_if_expr_50 = (_Bool)1;
 
   else
-    tmp_if_expr$50 = config->tls_require != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$50)
+    tmp_if_expr_50 = config->tls_require != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_50)
     fprintf(stdout, "tls_require = %s\n", config->tls_require != 0 ? "yes" : "no");
 
-  _Bool tmp_if_expr$53;
-  signed int tmp_statement_expression$51;
+  _Bool tmp_if_expr_53;
+  signed int tmp_statement_expression_51;
   if(ignore_defaults == 0)
-    tmp_if_expr$53 = (_Bool)1;
+    tmp_if_expr_53 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$6$$__s1_len;
-    unsigned long int dump_config$$1$$6$$__s2_len;
-    signed int return_value___builtin_strcmp$52;
-    return_value___builtin_strcmp$52=__builtin_strcmp(config->tls_require_redirect_addr, "");
-    tmp_statement_expression$51 = return_value___builtin_strcmp$52;
-    tmp_if_expr$53 = tmp_statement_expression$51 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__6____s1_len;
+    unsigned long int dump_config__1__6____s2_len;
+    signed int return_value___builtin_strcmp_52;
+    return_value___builtin_strcmp_52=__builtin_strcmp(config->tls_require_redirect_addr, "");
+    tmp_statement_expression_51 = return_value___builtin_strcmp_52;
+    tmp_if_expr_53 = tmp_statement_expression_51 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$53)
+  if(tmp_if_expr_53)
     fprintf(stdout, "tls_require_redirect_addr = \"%s\"\n", config->tls_require_redirect_addr);
 
-  _Bool tmp_if_expr$56;
-  signed int tmp_statement_expression$54;
+  _Bool tmp_if_expr_56;
+  signed int tmp_statement_expression_54;
   if(ignore_defaults == 0)
-    tmp_if_expr$56 = (_Bool)1;
+    tmp_if_expr_56 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$7$$__s1_len;
-    unsigned long int dump_config$$1$$7$$__s2_len;
-    signed int return_value___builtin_strcmp$55;
-    return_value___builtin_strcmp$55=__builtin_strcmp(config->tls_certificate, "");
-    tmp_statement_expression$54 = return_value___builtin_strcmp$55;
-    tmp_if_expr$56 = tmp_statement_expression$54 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__7____s1_len;
+    unsigned long int dump_config__1__7____s2_len;
+    signed int return_value___builtin_strcmp_55;
+    return_value___builtin_strcmp_55=__builtin_strcmp(config->tls_certificate, "");
+    tmp_statement_expression_54 = return_value___builtin_strcmp_55;
+    tmp_if_expr_56 = tmp_statement_expression_54 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$56)
+  if(tmp_if_expr_56)
     fprintf(stdout, "tls_certificate = \"%s\"\n", config->tls_certificate);
 
-  _Bool tmp_if_expr$59;
-  signed int tmp_statement_expression$57;
+  _Bool tmp_if_expr_59;
+  signed int tmp_statement_expression_57;
   if(ignore_defaults == 0)
-    tmp_if_expr$59 = (_Bool)1;
+    tmp_if_expr_59 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$8$$__s1_len;
-    unsigned long int dump_config$$1$$8$$__s2_len;
-    signed int return_value___builtin_strcmp$58;
-    return_value___builtin_strcmp$58=__builtin_strcmp(config->tls_private_key, "");
-    tmp_statement_expression$57 = return_value___builtin_strcmp$58;
-    tmp_if_expr$59 = tmp_statement_expression$57 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__8____s1_len;
+    unsigned long int dump_config__1__8____s2_len;
+    signed int return_value___builtin_strcmp_58;
+    return_value___builtin_strcmp_58=__builtin_strcmp(config->tls_private_key, "");
+    tmp_statement_expression_57 = return_value___builtin_strcmp_58;
+    tmp_if_expr_59 = tmp_statement_expression_57 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$59)
+  if(tmp_if_expr_59)
     fprintf(stdout, "tls_private_key = \"%s\"\n", config->tls_private_key);
 
-  _Bool tmp_if_expr$62;
-  signed int tmp_statement_expression$60;
+  _Bool tmp_if_expr_62;
+  signed int tmp_statement_expression_60;
   if(ignore_defaults == 0)
-    tmp_if_expr$62 = (_Bool)1;
+    tmp_if_expr_62 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$9$$__s1_len;
-    unsigned long int dump_config$$1$$9$$__s2_len;
-    signed int return_value___builtin_strcmp$61;
-    return_value___builtin_strcmp$61=__builtin_strcmp(config->file_acl, "");
-    tmp_statement_expression$60 = return_value___builtin_strcmp$61;
-    tmp_if_expr$62 = tmp_statement_expression$60 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__9____s1_len;
+    unsigned long int dump_config__1__9____s2_len;
+    signed int return_value___builtin_strcmp_61;
+    return_value___builtin_strcmp_61=__builtin_strcmp(config->file_acl, "");
+    tmp_statement_expression_60 = return_value___builtin_strcmp_61;
+    tmp_if_expr_62 = tmp_statement_expression_60 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$62)
+  if(tmp_if_expr_62)
     fprintf(stdout, "file_acl = \"%s\"\n", config->file_acl);
 
-  _Bool tmp_if_expr$65;
-  signed int tmp_statement_expression$63;
+  _Bool tmp_if_expr_65;
+  signed int tmp_statement_expression_63;
   if(ignore_defaults == 0)
-    tmp_if_expr$65 = (_Bool)1;
+    tmp_if_expr_65 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$10$$__s1_len;
-    unsigned long int dump_config$$1$$10$$__s2_len;
-    signed int return_value___builtin_strcmp$64;
-    return_value___builtin_strcmp$64=__builtin_strcmp(config->file_plugins, "");
-    tmp_statement_expression$63 = return_value___builtin_strcmp$64;
-    tmp_if_expr$65 = tmp_statement_expression$63 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__10____s1_len;
+    unsigned long int dump_config__1__10____s2_len;
+    signed int return_value___builtin_strcmp_64;
+    return_value___builtin_strcmp_64=__builtin_strcmp(config->file_plugins, "");
+    tmp_statement_expression_63 = return_value___builtin_strcmp_64;
+    tmp_if_expr_65 = tmp_statement_expression_63 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$65)
+  if(tmp_if_expr_65)
     fprintf(stdout, "file_plugins = \"%s\"\n", config->file_plugins);
 
-  _Bool tmp_if_expr$68;
-  signed int tmp_statement_expression$66;
+  _Bool tmp_if_expr_68;
+  signed int tmp_statement_expression_66;
   if(ignore_defaults == 0)
-    tmp_if_expr$68 = (_Bool)1;
+    tmp_if_expr_68 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$11$$__s1_len;
-    unsigned long int dump_config$$1$$11$$__s2_len;
-    signed int return_value___builtin_strcmp$67;
-    return_value___builtin_strcmp$67=__builtin_strcmp(config->msg_hub_full, "Hub is full");
-    tmp_statement_expression$66 = return_value___builtin_strcmp$67;
-    tmp_if_expr$68 = tmp_statement_expression$66 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__11____s1_len;
+    unsigned long int dump_config__1__11____s2_len;
+    signed int return_value___builtin_strcmp_67;
+    return_value___builtin_strcmp_67=__builtin_strcmp(config->msg_hub_full, "Hub is full");
+    tmp_statement_expression_66 = return_value___builtin_strcmp_67;
+    tmp_if_expr_68 = tmp_statement_expression_66 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$68)
+  if(tmp_if_expr_68)
     fprintf(stdout, "msg_hub_full = \"%s\"\n", config->msg_hub_full);
 
-  _Bool tmp_if_expr$71;
-  signed int tmp_statement_expression$69;
+  _Bool tmp_if_expr_71;
+  signed int tmp_statement_expression_69;
   if(ignore_defaults == 0)
-    tmp_if_expr$71 = (_Bool)1;
+    tmp_if_expr_71 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$12$$__s1_len;
-    unsigned long int dump_config$$1$$12$$__s2_len;
-    signed int return_value___builtin_strcmp$70;
-    return_value___builtin_strcmp$70=__builtin_strcmp(config->msg_hub_disabled, "Hub is disabled");
-    tmp_statement_expression$69 = return_value___builtin_strcmp$70;
-    tmp_if_expr$71 = tmp_statement_expression$69 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__12____s1_len;
+    unsigned long int dump_config__1__12____s2_len;
+    signed int return_value___builtin_strcmp_70;
+    return_value___builtin_strcmp_70=__builtin_strcmp(config->msg_hub_disabled, "Hub is disabled");
+    tmp_statement_expression_69 = return_value___builtin_strcmp_70;
+    tmp_if_expr_71 = tmp_statement_expression_69 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$71)
+  if(tmp_if_expr_71)
     fprintf(stdout, "msg_hub_disabled = \"%s\"\n", config->msg_hub_disabled);
 
-  _Bool tmp_if_expr$74;
-  signed int tmp_statement_expression$72;
+  _Bool tmp_if_expr_74;
+  signed int tmp_statement_expression_72;
   if(ignore_defaults == 0)
-    tmp_if_expr$74 = (_Bool)1;
+    tmp_if_expr_74 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$13$$__s1_len;
-    unsigned long int dump_config$$1$$13$$__s2_len;
-    signed int return_value___builtin_strcmp$73;
-    return_value___builtin_strcmp$73=__builtin_strcmp(config->msg_hub_registered_users_only, "Hub is for registered users only");
-    tmp_statement_expression$72 = return_value___builtin_strcmp$73;
-    tmp_if_expr$74 = tmp_statement_expression$72 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__13____s1_len;
+    unsigned long int dump_config__1__13____s2_len;
+    signed int return_value___builtin_strcmp_73;
+    return_value___builtin_strcmp_73=__builtin_strcmp(config->msg_hub_registered_users_only, "Hub is for registered users only");
+    tmp_statement_expression_72 = return_value___builtin_strcmp_73;
+    tmp_if_expr_74 = tmp_statement_expression_72 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$74)
+  if(tmp_if_expr_74)
     fprintf(stdout, "msg_hub_registered_users_only = \"%s\"\n", config->msg_hub_registered_users_only);
 
-  _Bool tmp_if_expr$77;
-  signed int tmp_statement_expression$75;
+  _Bool tmp_if_expr_77;
+  signed int tmp_statement_expression_75;
   if(ignore_defaults == 0)
-    tmp_if_expr$77 = (_Bool)1;
+    tmp_if_expr_77 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$14$$__s1_len;
-    unsigned long int dump_config$$1$$14$$__s2_len;
-    signed int return_value___builtin_strcmp$76;
-    return_value___builtin_strcmp$76=__builtin_strcmp(config->msg_inf_error_nick_missing, "No nickname given");
-    tmp_statement_expression$75 = return_value___builtin_strcmp$76;
-    tmp_if_expr$77 = tmp_statement_expression$75 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__14____s1_len;
+    unsigned long int dump_config__1__14____s2_len;
+    signed int return_value___builtin_strcmp_76;
+    return_value___builtin_strcmp_76=__builtin_strcmp(config->msg_inf_error_nick_missing, "No nickname given");
+    tmp_statement_expression_75 = return_value___builtin_strcmp_76;
+    tmp_if_expr_77 = tmp_statement_expression_75 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$77)
+  if(tmp_if_expr_77)
     fprintf(stdout, "msg_inf_error_nick_missing = \"%s\"\n", config->msg_inf_error_nick_missing);
 
-  _Bool tmp_if_expr$80;
-  signed int tmp_statement_expression$78;
+  _Bool tmp_if_expr_80;
+  signed int tmp_statement_expression_78;
   if(ignore_defaults == 0)
-    tmp_if_expr$80 = (_Bool)1;
+    tmp_if_expr_80 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$15$$__s1_len;
-    unsigned long int dump_config$$1$$15$$__s2_len;
-    signed int return_value___builtin_strcmp$79;
-    return_value___builtin_strcmp$79=__builtin_strcmp(config->msg_inf_error_nick_multiple, "Multiple nicknames given");
-    tmp_statement_expression$78 = return_value___builtin_strcmp$79;
-    tmp_if_expr$80 = tmp_statement_expression$78 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__15____s1_len;
+    unsigned long int dump_config__1__15____s2_len;
+    signed int return_value___builtin_strcmp_79;
+    return_value___builtin_strcmp_79=__builtin_strcmp(config->msg_inf_error_nick_multiple, "Multiple nicknames given");
+    tmp_statement_expression_78 = return_value___builtin_strcmp_79;
+    tmp_if_expr_80 = tmp_statement_expression_78 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$80)
+  if(tmp_if_expr_80)
     fprintf(stdout, "msg_inf_error_nick_multiple = \"%s\"\n", config->msg_inf_error_nick_multiple);
 
-  _Bool tmp_if_expr$83;
-  signed int tmp_statement_expression$81;
+  _Bool tmp_if_expr_83;
+  signed int tmp_statement_expression_81;
   if(ignore_defaults == 0)
-    tmp_if_expr$83 = (_Bool)1;
+    tmp_if_expr_83 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$16$$__s1_len;
-    unsigned long int dump_config$$1$$16$$__s2_len;
-    signed int return_value___builtin_strcmp$82;
-    return_value___builtin_strcmp$82=__builtin_strcmp(config->msg_inf_error_nick_invalid, "Nickname is invalid");
-    tmp_statement_expression$81 = return_value___builtin_strcmp$82;
-    tmp_if_expr$83 = tmp_statement_expression$81 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__16____s1_len;
+    unsigned long int dump_config__1__16____s2_len;
+    signed int return_value___builtin_strcmp_82;
+    return_value___builtin_strcmp_82=__builtin_strcmp(config->msg_inf_error_nick_invalid, "Nickname is invalid");
+    tmp_statement_expression_81 = return_value___builtin_strcmp_82;
+    tmp_if_expr_83 = tmp_statement_expression_81 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$83)
+  if(tmp_if_expr_83)
     fprintf(stdout, "msg_inf_error_nick_invalid = \"%s\"\n", config->msg_inf_error_nick_invalid);
 
-  _Bool tmp_if_expr$86;
-  signed int tmp_statement_expression$84;
+  _Bool tmp_if_expr_86;
+  signed int tmp_statement_expression_84;
   if(ignore_defaults == 0)
-    tmp_if_expr$86 = (_Bool)1;
+    tmp_if_expr_86 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$17$$__s1_len;
-    unsigned long int dump_config$$1$$17$$__s2_len;
-    signed int return_value___builtin_strcmp$85;
-    return_value___builtin_strcmp$85=__builtin_strcmp(config->msg_inf_error_nick_long, "Nickname too long");
-    tmp_statement_expression$84 = return_value___builtin_strcmp$85;
-    tmp_if_expr$86 = tmp_statement_expression$84 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__17____s1_len;
+    unsigned long int dump_config__1__17____s2_len;
+    signed int return_value___builtin_strcmp_85;
+    return_value___builtin_strcmp_85=__builtin_strcmp(config->msg_inf_error_nick_long, "Nickname too long");
+    tmp_statement_expression_84 = return_value___builtin_strcmp_85;
+    tmp_if_expr_86 = tmp_statement_expression_84 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$86)
+  if(tmp_if_expr_86)
     fprintf(stdout, "msg_inf_error_nick_long = \"%s\"\n", config->msg_inf_error_nick_long);
 
-  _Bool tmp_if_expr$89;
-  signed int tmp_statement_expression$87;
+  _Bool tmp_if_expr_89;
+  signed int tmp_statement_expression_87;
   if(ignore_defaults == 0)
-    tmp_if_expr$89 = (_Bool)1;
+    tmp_if_expr_89 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$18$$__s1_len;
-    unsigned long int dump_config$$1$$18$$__s2_len;
-    signed int return_value___builtin_strcmp$88;
-    return_value___builtin_strcmp$88=__builtin_strcmp(config->msg_inf_error_nick_short, "Nickname too short");
-    tmp_statement_expression$87 = return_value___builtin_strcmp$88;
-    tmp_if_expr$89 = tmp_statement_expression$87 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__18____s1_len;
+    unsigned long int dump_config__1__18____s2_len;
+    signed int return_value___builtin_strcmp_88;
+    return_value___builtin_strcmp_88=__builtin_strcmp(config->msg_inf_error_nick_short, "Nickname too short");
+    tmp_statement_expression_87 = return_value___builtin_strcmp_88;
+    tmp_if_expr_89 = tmp_statement_expression_87 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$89)
+  if(tmp_if_expr_89)
     fprintf(stdout, "msg_inf_error_nick_short = \"%s\"\n", config->msg_inf_error_nick_short);
 
-  _Bool tmp_if_expr$92;
-  signed int tmp_statement_expression$90;
+  _Bool tmp_if_expr_92;
+  signed int tmp_statement_expression_90;
   if(ignore_defaults == 0)
-    tmp_if_expr$92 = (_Bool)1;
+    tmp_if_expr_92 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$19$$__s1_len;
-    unsigned long int dump_config$$1$$19$$__s2_len;
-    signed int return_value___builtin_strcmp$91;
-    return_value___builtin_strcmp$91=__builtin_strcmp(config->msg_inf_error_nick_spaces, "Nickname cannot start with spaces");
-    tmp_statement_expression$90 = return_value___builtin_strcmp$91;
-    tmp_if_expr$92 = tmp_statement_expression$90 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__19____s1_len;
+    unsigned long int dump_config__1__19____s2_len;
+    signed int return_value___builtin_strcmp_91;
+    return_value___builtin_strcmp_91=__builtin_strcmp(config->msg_inf_error_nick_spaces, "Nickname cannot start with spaces");
+    tmp_statement_expression_90 = return_value___builtin_strcmp_91;
+    tmp_if_expr_92 = tmp_statement_expression_90 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$92)
+  if(tmp_if_expr_92)
     fprintf(stdout, "msg_inf_error_nick_spaces = \"%s\"\n", config->msg_inf_error_nick_spaces);
 
-  _Bool tmp_if_expr$95;
-  signed int tmp_statement_expression$93;
+  _Bool tmp_if_expr_95;
+  signed int tmp_statement_expression_93;
   if(ignore_defaults == 0)
-    tmp_if_expr$95 = (_Bool)1;
+    tmp_if_expr_95 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$20$$__s1_len;
-    unsigned long int dump_config$$1$$20$$__s2_len;
-    signed int return_value___builtin_strcmp$94;
-    return_value___builtin_strcmp$94=__builtin_strcmp(config->msg_inf_error_nick_bad_chars, "Nickname contains invalid characters");
-    tmp_statement_expression$93 = return_value___builtin_strcmp$94;
-    tmp_if_expr$95 = tmp_statement_expression$93 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__20____s1_len;
+    unsigned long int dump_config__1__20____s2_len;
+    signed int return_value___builtin_strcmp_94;
+    return_value___builtin_strcmp_94=__builtin_strcmp(config->msg_inf_error_nick_bad_chars, "Nickname contains invalid characters");
+    tmp_statement_expression_93 = return_value___builtin_strcmp_94;
+    tmp_if_expr_95 = tmp_statement_expression_93 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$95)
+  if(tmp_if_expr_95)
     fprintf(stdout, "msg_inf_error_nick_bad_chars = \"%s\"\n", config->msg_inf_error_nick_bad_chars);
 
-  _Bool tmp_if_expr$98;
-  signed int tmp_statement_expression$96;
+  _Bool tmp_if_expr_98;
+  signed int tmp_statement_expression_96;
   if(ignore_defaults == 0)
-    tmp_if_expr$98 = (_Bool)1;
+    tmp_if_expr_98 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$21$$__s1_len;
-    unsigned long int dump_config$$1$$21$$__s2_len;
-    signed int return_value___builtin_strcmp$97;
-    return_value___builtin_strcmp$97=__builtin_strcmp(config->msg_inf_error_nick_not_utf8, "Nickname is not valid UTF-8");
-    tmp_statement_expression$96 = return_value___builtin_strcmp$97;
-    tmp_if_expr$98 = tmp_statement_expression$96 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__21____s1_len;
+    unsigned long int dump_config__1__21____s2_len;
+    signed int return_value___builtin_strcmp_97;
+    return_value___builtin_strcmp_97=__builtin_strcmp(config->msg_inf_error_nick_not_utf8, "Nickname is not valid UTF-8");
+    tmp_statement_expression_96 = return_value___builtin_strcmp_97;
+    tmp_if_expr_98 = tmp_statement_expression_96 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$98)
+  if(tmp_if_expr_98)
     fprintf(stdout, "msg_inf_error_nick_not_utf8 = \"%s\"\n", config->msg_inf_error_nick_not_utf8);
 
-  _Bool tmp_if_expr$101;
-  signed int tmp_statement_expression$99;
+  _Bool tmp_if_expr_101;
+  signed int tmp_statement_expression_99;
   if(ignore_defaults == 0)
-    tmp_if_expr$101 = (_Bool)1;
+    tmp_if_expr_101 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$22$$__s1_len;
-    unsigned long int dump_config$$1$$22$$__s2_len;
-    signed int return_value___builtin_strcmp$100;
-    return_value___builtin_strcmp$100=__builtin_strcmp(config->msg_inf_error_nick_taken, "Nickname is already in use");
-    tmp_statement_expression$99 = return_value___builtin_strcmp$100;
-    tmp_if_expr$101 = tmp_statement_expression$99 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__22____s1_len;
+    unsigned long int dump_config__1__22____s2_len;
+    signed int return_value___builtin_strcmp_100;
+    return_value___builtin_strcmp_100=__builtin_strcmp(config->msg_inf_error_nick_taken, "Nickname is already in use");
+    tmp_statement_expression_99 = return_value___builtin_strcmp_100;
+    tmp_if_expr_101 = tmp_statement_expression_99 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$101)
+  if(tmp_if_expr_101)
     fprintf(stdout, "msg_inf_error_nick_taken = \"%s\"\n", config->msg_inf_error_nick_taken);
 
-  _Bool tmp_if_expr$104;
-  signed int tmp_statement_expression$102;
+  _Bool tmp_if_expr_104;
+  signed int tmp_statement_expression_102;
   if(ignore_defaults == 0)
-    tmp_if_expr$104 = (_Bool)1;
+    tmp_if_expr_104 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$23$$__s1_len;
-    unsigned long int dump_config$$1$$23$$__s2_len;
-    signed int return_value___builtin_strcmp$103;
-    return_value___builtin_strcmp$103=__builtin_strcmp(config->msg_inf_error_nick_restricted, "Nickname cannot be used on this hub");
-    tmp_statement_expression$102 = return_value___builtin_strcmp$103;
-    tmp_if_expr$104 = tmp_statement_expression$102 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__23____s1_len;
+    unsigned long int dump_config__1__23____s2_len;
+    signed int return_value___builtin_strcmp_103;
+    return_value___builtin_strcmp_103=__builtin_strcmp(config->msg_inf_error_nick_restricted, "Nickname cannot be used on this hub");
+    tmp_statement_expression_102 = return_value___builtin_strcmp_103;
+    tmp_if_expr_104 = tmp_statement_expression_102 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$104)
+  if(tmp_if_expr_104)
     fprintf(stdout, "msg_inf_error_nick_restricted = \"%s\"\n", config->msg_inf_error_nick_restricted);
 
-  _Bool tmp_if_expr$107;
-  signed int tmp_statement_expression$105;
+  _Bool tmp_if_expr_107;
+  signed int tmp_statement_expression_105;
   if(ignore_defaults == 0)
-    tmp_if_expr$107 = (_Bool)1;
+    tmp_if_expr_107 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$24$$__s1_len;
-    unsigned long int dump_config$$1$$24$$__s2_len;
-    signed int return_value___builtin_strcmp$106;
-    return_value___builtin_strcmp$106=__builtin_strcmp(config->msg_inf_error_cid_invalid, "CID is not valid");
-    tmp_statement_expression$105 = return_value___builtin_strcmp$106;
-    tmp_if_expr$107 = tmp_statement_expression$105 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__24____s1_len;
+    unsigned long int dump_config__1__24____s2_len;
+    signed int return_value___builtin_strcmp_106;
+    return_value___builtin_strcmp_106=__builtin_strcmp(config->msg_inf_error_cid_invalid, "CID is not valid");
+    tmp_statement_expression_105 = return_value___builtin_strcmp_106;
+    tmp_if_expr_107 = tmp_statement_expression_105 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$107)
+  if(tmp_if_expr_107)
     fprintf(stdout, "msg_inf_error_cid_invalid = \"%s\"\n", config->msg_inf_error_cid_invalid);
 
-  _Bool tmp_if_expr$110;
-  signed int tmp_statement_expression$108;
+  _Bool tmp_if_expr_110;
+  signed int tmp_statement_expression_108;
   if(ignore_defaults == 0)
-    tmp_if_expr$110 = (_Bool)1;
+    tmp_if_expr_110 = (_Bool)1;
 
   else
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$109;
-    return_value___builtin_strcmp$109=__builtin_strcmp(config->msg_inf_error_cid_missing, "CID is not specified");
-    tmp_statement_expression$108 = return_value___builtin_strcmp$109;
-    tmp_if_expr$110 = tmp_statement_expression$108 != 0 ? (_Bool)1 : (_Bool)0;
+    signed int return_value___builtin_strcmp_109;
+    return_value___builtin_strcmp_109=__builtin_strcmp(config->msg_inf_error_cid_missing, "CID is not specified");
+    tmp_statement_expression_108 = return_value___builtin_strcmp_109;
+    tmp_if_expr_110 = tmp_statement_expression_108 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$110)
+  if(tmp_if_expr_110)
     fprintf(stdout, "msg_inf_error_cid_missing = \"%s\"\n", config->msg_inf_error_cid_missing);
 
-  _Bool tmp_if_expr$113;
-  signed int tmp_statement_expression$111;
+  _Bool tmp_if_expr_113;
+  signed int tmp_statement_expression_111;
   if(ignore_defaults == 0)
-    tmp_if_expr$113 = (_Bool)1;
+    tmp_if_expr_113 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$26$$__s1_len;
-    unsigned long int dump_config$$1$$26$$__s2_len;
-    signed int return_value___builtin_strcmp$112;
-    return_value___builtin_strcmp$112=__builtin_strcmp(config->msg_inf_error_cid_taken, "CID is taken");
-    tmp_statement_expression$111 = return_value___builtin_strcmp$112;
-    tmp_if_expr$113 = tmp_statement_expression$111 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__26____s1_len;
+    unsigned long int dump_config__1__26____s2_len;
+    signed int return_value___builtin_strcmp_112;
+    return_value___builtin_strcmp_112=__builtin_strcmp(config->msg_inf_error_cid_taken, "CID is taken");
+    tmp_statement_expression_111 = return_value___builtin_strcmp_112;
+    tmp_if_expr_113 = tmp_statement_expression_111 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$113)
+  if(tmp_if_expr_113)
     fprintf(stdout, "msg_inf_error_cid_taken = \"%s\"\n", config->msg_inf_error_cid_taken);
 
-  _Bool tmp_if_expr$116;
-  signed int tmp_statement_expression$114;
+  _Bool tmp_if_expr_116;
+  signed int tmp_statement_expression_114;
   if(ignore_defaults == 0)
-    tmp_if_expr$116 = (_Bool)1;
+    tmp_if_expr_116 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$27$$__s1_len;
-    unsigned long int dump_config$$1$$27$$__s2_len;
-    signed int return_value___builtin_strcmp$115;
-    return_value___builtin_strcmp$115=__builtin_strcmp(config->msg_inf_error_pid_missing, "PID is not specified");
-    tmp_statement_expression$114 = return_value___builtin_strcmp$115;
-    tmp_if_expr$116 = tmp_statement_expression$114 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__27____s1_len;
+    unsigned long int dump_config__1__27____s2_len;
+    signed int return_value___builtin_strcmp_115;
+    return_value___builtin_strcmp_115=__builtin_strcmp(config->msg_inf_error_pid_missing, "PID is not specified");
+    tmp_statement_expression_114 = return_value___builtin_strcmp_115;
+    tmp_if_expr_116 = tmp_statement_expression_114 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$116)
+  if(tmp_if_expr_116)
     fprintf(stdout, "msg_inf_error_pid_missing = \"%s\"\n", config->msg_inf_error_pid_missing);
 
-  _Bool tmp_if_expr$119;
-  signed int tmp_statement_expression$117;
+  _Bool tmp_if_expr_119;
+  signed int tmp_statement_expression_117;
   if(ignore_defaults == 0)
-    tmp_if_expr$119 = (_Bool)1;
+    tmp_if_expr_119 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$28$$__s1_len;
-    unsigned long int dump_config$$1$$28$$__s2_len;
-    signed int return_value___builtin_strcmp$118;
-    return_value___builtin_strcmp$118=__builtin_strcmp(config->msg_inf_error_pid_invalid, "PID is invalid");
-    tmp_statement_expression$117 = return_value___builtin_strcmp$118;
-    tmp_if_expr$119 = tmp_statement_expression$117 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__28____s1_len;
+    unsigned long int dump_config__1__28____s2_len;
+    signed int return_value___builtin_strcmp_118;
+    return_value___builtin_strcmp_118=__builtin_strcmp(config->msg_inf_error_pid_invalid, "PID is invalid");
+    tmp_statement_expression_117 = return_value___builtin_strcmp_118;
+    tmp_if_expr_119 = tmp_statement_expression_117 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$119)
+  if(tmp_if_expr_119)
     fprintf(stdout, "msg_inf_error_pid_invalid = \"%s\"\n", config->msg_inf_error_pid_invalid);
 
-  _Bool tmp_if_expr$122;
-  signed int tmp_statement_expression$120;
+  _Bool tmp_if_expr_122;
+  signed int tmp_statement_expression_120;
   if(ignore_defaults == 0)
-    tmp_if_expr$122 = (_Bool)1;
+    tmp_if_expr_122 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$29$$__s1_len;
-    unsigned long int dump_config$$1$$29$$__s2_len;
-    signed int return_value___builtin_strcmp$121;
-    return_value___builtin_strcmp$121=__builtin_strcmp(config->msg_ban_permanently, "Banned permanently");
-    tmp_statement_expression$120 = return_value___builtin_strcmp$121;
-    tmp_if_expr$122 = tmp_statement_expression$120 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__29____s1_len;
+    unsigned long int dump_config__1__29____s2_len;
+    signed int return_value___builtin_strcmp_121;
+    return_value___builtin_strcmp_121=__builtin_strcmp(config->msg_ban_permanently, "Banned permanently");
+    tmp_statement_expression_120 = return_value___builtin_strcmp_121;
+    tmp_if_expr_122 = tmp_statement_expression_120 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$122)
+  if(tmp_if_expr_122)
     fprintf(stdout, "msg_ban_permanently = \"%s\"\n", config->msg_ban_permanently);
 
-  _Bool tmp_if_expr$125;
-  signed int tmp_statement_expression$123;
+  _Bool tmp_if_expr_125;
+  signed int tmp_statement_expression_123;
   if(ignore_defaults == 0)
-    tmp_if_expr$125 = (_Bool)1;
+    tmp_if_expr_125 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$30$$__s1_len;
-    unsigned long int dump_config$$1$$30$$__s2_len;
-    signed int return_value___builtin_strcmp$124;
-    return_value___builtin_strcmp$124=__builtin_strcmp(config->msg_ban_temporarily, "Banned temporarily");
-    tmp_statement_expression$123 = return_value___builtin_strcmp$124;
-    tmp_if_expr$125 = tmp_statement_expression$123 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__30____s1_len;
+    unsigned long int dump_config__1__30____s2_len;
+    signed int return_value___builtin_strcmp_124;
+    return_value___builtin_strcmp_124=__builtin_strcmp(config->msg_ban_temporarily, "Banned temporarily");
+    tmp_statement_expression_123 = return_value___builtin_strcmp_124;
+    tmp_if_expr_125 = tmp_statement_expression_123 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$125)
+  if(tmp_if_expr_125)
     fprintf(stdout, "msg_ban_temporarily = \"%s\"\n", config->msg_ban_temporarily);
 
-  _Bool tmp_if_expr$128;
-  signed int tmp_statement_expression$126;
+  _Bool tmp_if_expr_128;
+  signed int tmp_statement_expression_126;
   if(ignore_defaults == 0)
-    tmp_if_expr$128 = (_Bool)1;
+    tmp_if_expr_128 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$31$$__s1_len;
-    unsigned long int dump_config$$1$$31$$__s2_len;
-    signed int return_value___builtin_strcmp$127;
-    return_value___builtin_strcmp$127=__builtin_strcmp(config->msg_auth_invalid_password, "Password is wrong");
-    tmp_statement_expression$126 = return_value___builtin_strcmp$127;
-    tmp_if_expr$128 = tmp_statement_expression$126 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__31____s1_len;
+    unsigned long int dump_config__1__31____s2_len;
+    signed int return_value___builtin_strcmp_127;
+    return_value___builtin_strcmp_127=__builtin_strcmp(config->msg_auth_invalid_password, "Password is wrong");
+    tmp_statement_expression_126 = return_value___builtin_strcmp_127;
+    tmp_if_expr_128 = tmp_statement_expression_126 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$128)
+  if(tmp_if_expr_128)
     fprintf(stdout, "msg_auth_invalid_password = \"%s\"\n", config->msg_auth_invalid_password);
 
-  _Bool tmp_if_expr$131;
-  signed int tmp_statement_expression$129;
+  _Bool tmp_if_expr_131;
+  signed int tmp_statement_expression_129;
   if(ignore_defaults == 0)
-    tmp_if_expr$131 = (_Bool)1;
+    tmp_if_expr_131 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$32$$__s1_len;
-    unsigned long int dump_config$$1$$32$$__s2_len;
-    signed int return_value___builtin_strcmp$130;
-    return_value___builtin_strcmp$130=__builtin_strcmp(config->msg_auth_user_not_found, "User not found in password database");
-    tmp_statement_expression$129 = return_value___builtin_strcmp$130;
-    tmp_if_expr$131 = tmp_statement_expression$129 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__32____s1_len;
+    unsigned long int dump_config__1__32____s2_len;
+    signed int return_value___builtin_strcmp_130;
+    return_value___builtin_strcmp_130=__builtin_strcmp(config->msg_auth_user_not_found, "User not found in password database");
+    tmp_statement_expression_129 = return_value___builtin_strcmp_130;
+    tmp_if_expr_131 = tmp_statement_expression_129 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$131)
+  if(tmp_if_expr_131)
     fprintf(stdout, "msg_auth_user_not_found = \"%s\"\n", config->msg_auth_user_not_found);
 
-  _Bool tmp_if_expr$134;
-  signed int tmp_statement_expression$132;
+  _Bool tmp_if_expr_134;
+  signed int tmp_statement_expression_132;
   if(ignore_defaults == 0)
-    tmp_if_expr$134 = (_Bool)1;
+    tmp_if_expr_134 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$33$$__s1_len;
-    unsigned long int dump_config$$1$$33$$__s2_len;
-    signed int return_value___builtin_strcmp$133;
-    return_value___builtin_strcmp$133=__builtin_strcmp(config->msg_error_no_memory, "No memory");
-    tmp_statement_expression$132 = return_value___builtin_strcmp$133;
-    tmp_if_expr$134 = tmp_statement_expression$132 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__33____s1_len;
+    unsigned long int dump_config__1__33____s2_len;
+    signed int return_value___builtin_strcmp_133;
+    return_value___builtin_strcmp_133=__builtin_strcmp(config->msg_error_no_memory, "No memory");
+    tmp_statement_expression_132 = return_value___builtin_strcmp_133;
+    tmp_if_expr_134 = tmp_statement_expression_132 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$134)
+  if(tmp_if_expr_134)
     fprintf(stdout, "msg_error_no_memory = \"%s\"\n", config->msg_error_no_memory);
 
-  _Bool tmp_if_expr$137;
-  signed int tmp_statement_expression$135;
+  _Bool tmp_if_expr_137;
+  signed int tmp_statement_expression_135;
   if(ignore_defaults == 0)
-    tmp_if_expr$137 = (_Bool)1;
+    tmp_if_expr_137 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$34$$__s1_len;
-    unsigned long int dump_config$$1$$34$$__s2_len;
-    signed int return_value___builtin_strcmp$136;
-    return_value___builtin_strcmp$136=__builtin_strcmp(config->msg_user_share_size_low, "User is not sharing enough");
-    tmp_statement_expression$135 = return_value___builtin_strcmp$136;
-    tmp_if_expr$137 = tmp_statement_expression$135 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__34____s1_len;
+    unsigned long int dump_config__1__34____s2_len;
+    signed int return_value___builtin_strcmp_136;
+    return_value___builtin_strcmp_136=__builtin_strcmp(config->msg_user_share_size_low, "User is not sharing enough");
+    tmp_statement_expression_135 = return_value___builtin_strcmp_136;
+    tmp_if_expr_137 = tmp_statement_expression_135 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$137)
+  if(tmp_if_expr_137)
     fprintf(stdout, "msg_user_share_size_low = \"%s\"\n", config->msg_user_share_size_low);
 
-  _Bool tmp_if_expr$140;
-  signed int tmp_statement_expression$138;
+  _Bool tmp_if_expr_140;
+  signed int tmp_statement_expression_138;
   if(ignore_defaults == 0)
-    tmp_if_expr$140 = (_Bool)1;
+    tmp_if_expr_140 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$35$$__s1_len;
-    unsigned long int dump_config$$1$$35$$__s2_len;
-    signed int return_value___builtin_strcmp$139;
-    return_value___builtin_strcmp$139=__builtin_strcmp(config->msg_user_share_size_high, "User is sharing too much");
-    tmp_statement_expression$138 = return_value___builtin_strcmp$139;
-    tmp_if_expr$140 = tmp_statement_expression$138 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__35____s1_len;
+    unsigned long int dump_config__1__35____s2_len;
+    signed int return_value___builtin_strcmp_139;
+    return_value___builtin_strcmp_139=__builtin_strcmp(config->msg_user_share_size_high, "User is sharing too much");
+    tmp_statement_expression_138 = return_value___builtin_strcmp_139;
+    tmp_if_expr_140 = tmp_statement_expression_138 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$140)
+  if(tmp_if_expr_140)
     fprintf(stdout, "msg_user_share_size_high = \"%s\"\n", config->msg_user_share_size_high);
 
-  _Bool tmp_if_expr$143;
-  signed int tmp_statement_expression$141;
+  _Bool tmp_if_expr_143;
+  signed int tmp_statement_expression_141;
   if(ignore_defaults == 0)
-    tmp_if_expr$143 = (_Bool)1;
+    tmp_if_expr_143 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$36$$__s1_len;
-    unsigned long int dump_config$$1$$36$$__s2_len;
-    signed int return_value___builtin_strcmp$142;
-    return_value___builtin_strcmp$142=__builtin_strcmp(config->msg_user_slots_low, "User have too few upload slots.");
-    tmp_statement_expression$141 = return_value___builtin_strcmp$142;
-    tmp_if_expr$143 = tmp_statement_expression$141 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__36____s1_len;
+    unsigned long int dump_config__1__36____s2_len;
+    signed int return_value___builtin_strcmp_142;
+    return_value___builtin_strcmp_142=__builtin_strcmp(config->msg_user_slots_low, "User have too few upload slots.");
+    tmp_statement_expression_141 = return_value___builtin_strcmp_142;
+    tmp_if_expr_143 = tmp_statement_expression_141 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$143)
+  if(tmp_if_expr_143)
     fprintf(stdout, "msg_user_slots_low = \"%s\"\n", config->msg_user_slots_low);
 
-  _Bool tmp_if_expr$146;
-  signed int tmp_statement_expression$144;
+  _Bool tmp_if_expr_146;
+  signed int tmp_statement_expression_144;
   if(ignore_defaults == 0)
-    tmp_if_expr$146 = (_Bool)1;
+    tmp_if_expr_146 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$37$$__s1_len;
-    unsigned long int dump_config$$1$$37$$__s2_len;
-    signed int return_value___builtin_strcmp$145;
-    return_value___builtin_strcmp$145=__builtin_strcmp(config->msg_user_slots_high, "User have too many upload slots.");
-    tmp_statement_expression$144 = return_value___builtin_strcmp$145;
-    tmp_if_expr$146 = tmp_statement_expression$144 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__37____s1_len;
+    unsigned long int dump_config__1__37____s2_len;
+    signed int return_value___builtin_strcmp_145;
+    return_value___builtin_strcmp_145=__builtin_strcmp(config->msg_user_slots_high, "User have too many upload slots.");
+    tmp_statement_expression_144 = return_value___builtin_strcmp_145;
+    tmp_if_expr_146 = tmp_statement_expression_144 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$146)
+  if(tmp_if_expr_146)
     fprintf(stdout, "msg_user_slots_high = \"%s\"\n", config->msg_user_slots_high);
 
-  _Bool tmp_if_expr$149;
-  signed int tmp_statement_expression$147;
+  _Bool tmp_if_expr_149;
+  signed int tmp_statement_expression_147;
   if(ignore_defaults == 0)
-    tmp_if_expr$149 = (_Bool)1;
+    tmp_if_expr_149 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$38$$__s1_len;
-    unsigned long int dump_config$$1$$38$$__s2_len;
-    signed int return_value___builtin_strcmp$148;
-    return_value___builtin_strcmp$148=__builtin_strcmp(config->msg_user_hub_limit_low, "User is on too few hubs.");
-    tmp_statement_expression$147 = return_value___builtin_strcmp$148;
-    tmp_if_expr$149 = tmp_statement_expression$147 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__38____s1_len;
+    unsigned long int dump_config__1__38____s2_len;
+    signed int return_value___builtin_strcmp_148;
+    return_value___builtin_strcmp_148=__builtin_strcmp(config->msg_user_hub_limit_low, "User is on too few hubs.");
+    tmp_statement_expression_147 = return_value___builtin_strcmp_148;
+    tmp_if_expr_149 = tmp_statement_expression_147 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$149)
+  if(tmp_if_expr_149)
     fprintf(stdout, "msg_user_hub_limit_low = \"%s\"\n", config->msg_user_hub_limit_low);
 
-  _Bool tmp_if_expr$152;
-  signed int tmp_statement_expression$150;
+  _Bool tmp_if_expr_152;
+  signed int tmp_statement_expression_150;
   if(ignore_defaults == 0)
-    tmp_if_expr$152 = (_Bool)1;
+    tmp_if_expr_152 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$39$$__s1_len;
-    unsigned long int dump_config$$1$$39$$__s2_len;
-    signed int return_value___builtin_strcmp$151;
-    return_value___builtin_strcmp$151=__builtin_strcmp(config->msg_user_hub_limit_high, "User is on too many hubs.");
-    tmp_statement_expression$150 = return_value___builtin_strcmp$151;
-    tmp_if_expr$152 = tmp_statement_expression$150 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__39____s1_len;
+    unsigned long int dump_config__1__39____s2_len;
+    signed int return_value___builtin_strcmp_151;
+    return_value___builtin_strcmp_151=__builtin_strcmp(config->msg_user_hub_limit_high, "User is on too many hubs.");
+    tmp_statement_expression_150 = return_value___builtin_strcmp_151;
+    tmp_if_expr_152 = tmp_statement_expression_150 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$152)
+  if(tmp_if_expr_152)
     fprintf(stdout, "msg_user_hub_limit_high = \"%s\"\n", config->msg_user_hub_limit_high);
 
-  _Bool tmp_if_expr$155;
-  signed int tmp_statement_expression$153;
+  _Bool tmp_if_expr_155;
+  signed int tmp_statement_expression_153;
   if(ignore_defaults == 0)
-    tmp_if_expr$155 = (_Bool)1;
+    tmp_if_expr_155 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$40$$__s1_len;
-    unsigned long int dump_config$$1$$40$$__s2_len;
-    signed int return_value___builtin_strcmp$154;
-    return_value___builtin_strcmp$154=__builtin_strcmp(config->msg_user_flood_chat, "Chat flood detected, messages are dropped.");
-    tmp_statement_expression$153 = return_value___builtin_strcmp$154;
-    tmp_if_expr$155 = tmp_statement_expression$153 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__40____s1_len;
+    unsigned long int dump_config__1__40____s2_len;
+    signed int return_value___builtin_strcmp_154;
+    return_value___builtin_strcmp_154=__builtin_strcmp(config->msg_user_flood_chat, "Chat flood detected, messages are dropped.");
+    tmp_statement_expression_153 = return_value___builtin_strcmp_154;
+    tmp_if_expr_155 = tmp_statement_expression_153 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$155)
+  if(tmp_if_expr_155)
     fprintf(stdout, "msg_user_flood_chat = \"%s\"\n", config->msg_user_flood_chat);
 
-  _Bool tmp_if_expr$158;
-  signed int tmp_statement_expression$156;
+  _Bool tmp_if_expr_158;
+  signed int tmp_statement_expression_156;
   if(ignore_defaults == 0)
-    tmp_if_expr$158 = (_Bool)1;
+    tmp_if_expr_158 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$41$$__s1_len;
-    unsigned long int dump_config$$1$$41$$__s2_len;
-    signed int return_value___builtin_strcmp$157;
-    return_value___builtin_strcmp$157=__builtin_strcmp(config->msg_user_flood_connect, "Connect flood detected, connection refused.");
-    tmp_statement_expression$156 = return_value___builtin_strcmp$157;
-    tmp_if_expr$158 = tmp_statement_expression$156 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__41____s1_len;
+    unsigned long int dump_config__1__41____s2_len;
+    signed int return_value___builtin_strcmp_157;
+    return_value___builtin_strcmp_157=__builtin_strcmp(config->msg_user_flood_connect, "Connect flood detected, connection refused.");
+    tmp_statement_expression_156 = return_value___builtin_strcmp_157;
+    tmp_if_expr_158 = tmp_statement_expression_156 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$158)
+  if(tmp_if_expr_158)
     fprintf(stdout, "msg_user_flood_connect = \"%s\"\n", config->msg_user_flood_connect);
 
-  _Bool tmp_if_expr$161;
-  signed int tmp_statement_expression$159;
+  _Bool tmp_if_expr_161;
+  signed int tmp_statement_expression_159;
   if(ignore_defaults == 0)
-    tmp_if_expr$161 = (_Bool)1;
+    tmp_if_expr_161 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$42$$__s1_len;
-    unsigned long int dump_config$$1$$42$$__s2_len;
-    signed int return_value___builtin_strcmp$160;
-    return_value___builtin_strcmp$160=__builtin_strcmp(config->msg_user_flood_search, "Search flood detected, search is stopped.");
-    tmp_statement_expression$159 = return_value___builtin_strcmp$160;
-    tmp_if_expr$161 = tmp_statement_expression$159 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__42____s1_len;
+    unsigned long int dump_config__1__42____s2_len;
+    signed int return_value___builtin_strcmp_160;
+    return_value___builtin_strcmp_160=__builtin_strcmp(config->msg_user_flood_search, "Search flood detected, search is stopped.");
+    tmp_statement_expression_159 = return_value___builtin_strcmp_160;
+    tmp_if_expr_161 = tmp_statement_expression_159 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$161)
+  if(tmp_if_expr_161)
     fprintf(stdout, "msg_user_flood_search = \"%s\"\n", config->msg_user_flood_search);
 
-  _Bool tmp_if_expr$164;
-  signed int tmp_statement_expression$162;
+  _Bool tmp_if_expr_164;
+  signed int tmp_statement_expression_162;
   if(ignore_defaults == 0)
-    tmp_if_expr$164 = (_Bool)1;
+    tmp_if_expr_164 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$43$$__s1_len;
-    unsigned long int dump_config$$1$$43$$__s2_len;
-    signed int return_value___builtin_strcmp$163;
-    return_value___builtin_strcmp$163=__builtin_strcmp(config->msg_user_flood_update, "Update flood detected.");
-    tmp_statement_expression$162 = return_value___builtin_strcmp$163;
-    tmp_if_expr$164 = tmp_statement_expression$162 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__43____s1_len;
+    unsigned long int dump_config__1__43____s2_len;
+    signed int return_value___builtin_strcmp_163;
+    return_value___builtin_strcmp_163=__builtin_strcmp(config->msg_user_flood_update, "Update flood detected.");
+    tmp_statement_expression_162 = return_value___builtin_strcmp_163;
+    tmp_if_expr_164 = tmp_statement_expression_162 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$164)
+  if(tmp_if_expr_164)
     fprintf(stdout, "msg_user_flood_update = \"%s\"\n", config->msg_user_flood_update);
 
-  _Bool tmp_if_expr$167;
-  signed int tmp_statement_expression$165;
+  _Bool tmp_if_expr_167;
+  signed int tmp_statement_expression_165;
   if(ignore_defaults == 0)
-    tmp_if_expr$167 = (_Bool)1;
+    tmp_if_expr_167 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$44$$__s1_len;
-    unsigned long int dump_config$$1$$44$$__s2_len;
-    signed int return_value___builtin_strcmp$166;
-    return_value___builtin_strcmp$166=__builtin_strcmp(config->msg_user_flood_extras, "Flood detected.");
-    tmp_statement_expression$165 = return_value___builtin_strcmp$166;
-    tmp_if_expr$167 = tmp_statement_expression$165 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__44____s1_len;
+    unsigned long int dump_config__1__44____s2_len;
+    signed int return_value___builtin_strcmp_166;
+    return_value___builtin_strcmp_166=__builtin_strcmp(config->msg_user_flood_extras, "Flood detected.");
+    tmp_statement_expression_165 = return_value___builtin_strcmp_166;
+    tmp_if_expr_167 = tmp_statement_expression_165 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$167)
+  if(tmp_if_expr_167)
     fprintf(stdout, "msg_user_flood_extras = \"%s\"\n", config->msg_user_flood_extras);
 
-  _Bool tmp_if_expr$170;
-  signed int tmp_statement_expression$168;
+  _Bool tmp_if_expr_170;
+  signed int tmp_statement_expression_168;
   if(ignore_defaults == 0)
-    tmp_if_expr$170 = (_Bool)1;
+    tmp_if_expr_170 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$45$$__s1_len;
-    unsigned long int dump_config$$1$$45$$__s2_len;
-    signed int return_value___builtin_strcmp$169;
-    return_value___builtin_strcmp$169=__builtin_strcmp(config->msg_proto_no_common_hash, "No common hash algorithm.");
-    tmp_statement_expression$168 = return_value___builtin_strcmp$169;
-    tmp_if_expr$170 = tmp_statement_expression$168 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__45____s1_len;
+    unsigned long int dump_config__1__45____s2_len;
+    signed int return_value___builtin_strcmp_169;
+    return_value___builtin_strcmp_169=__builtin_strcmp(config->msg_proto_no_common_hash, "No common hash algorithm.");
+    tmp_statement_expression_168 = return_value___builtin_strcmp_169;
+    tmp_if_expr_170 = tmp_statement_expression_168 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$170)
+  if(tmp_if_expr_170)
     fprintf(stdout, "msg_proto_no_common_hash = \"%s\"\n", config->msg_proto_no_common_hash);
 
-  _Bool tmp_if_expr$173;
-  signed int tmp_statement_expression$171;
+  _Bool tmp_if_expr_173;
+  signed int tmp_statement_expression_171;
   if(ignore_defaults == 0)
-    tmp_if_expr$173 = (_Bool)1;
+    tmp_if_expr_173 = (_Bool)1;
 
   else
   {
-    unsigned long int dump_config$$1$$46$$__s1_len;
-    unsigned long int dump_config$$1$$46$$__s2_len;
-    signed int return_value___builtin_strcmp$172;
-    return_value___builtin_strcmp$172=__builtin_strcmp(config->msg_proto_obsolete_adc0, "Client is using an obsolete ADC protocol version.");
-    tmp_statement_expression$171 = return_value___builtin_strcmp$172;
-    tmp_if_expr$173 = tmp_statement_expression$171 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int dump_config__1__46____s1_len;
+    unsigned long int dump_config__1__46____s2_len;
+    signed int return_value___builtin_strcmp_172;
+    return_value___builtin_strcmp_172=__builtin_strcmp(config->msg_proto_obsolete_adc0, "Client is using an obsolete ADC protocol version.");
+    tmp_statement_expression_171 = return_value___builtin_strcmp_172;
+    tmp_if_expr_173 = tmp_statement_expression_171 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$173)
+  if(tmp_if_expr_173)
     fprintf(stdout, "msg_proto_obsolete_adc0 = \"%s\"\n", config->msg_proto_obsolete_adc0);
 
 }
@@ -15729,10 +15729,10 @@ static void event_queue_cleanup_callback(void *ptr)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/eventqueue.c line 30
 extern signed int event_queue_initialize(struct event_queue **queue, void (*callback)(void *, struct event_data *), void *ptr)
 {
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct event_queue) /*40ul*/ );
-  *queue = (struct event_queue *)return_value_hub_malloc_zero$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct event_queue) /*40ul*/ );
+  *queue = (struct event_queue *)return_value_hub_malloc_zero_1;
+  _Bool tmp_if_expr_2;
   if(*queue == ((struct event_queue *)NULL))
     return -1;
 
@@ -15741,11 +15741,11 @@ extern signed int event_queue_initialize(struct event_queue **queue, void (*call
     (*queue)->q1=list_create();
     (*queue)->q2=list_create();
     if((*queue)->q1 == ((struct linked_list *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !((*queue)->q2 != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = !((*queue)->q2 != ((struct linked_list *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       list_destroy((*queue)->q1);
       list_destroy((*queue)->q2);
@@ -15766,17 +15766,17 @@ extern signed int event_queue_initialize(struct event_queue **queue, void (*call
 extern void event_queue_post(struct event_queue *queue, struct event_data *message)
 {
   struct linked_list *q;
-  struct linked_list *tmp_if_expr$1;
+  struct linked_list *tmp_if_expr_1;
   if(queue->locked == 0)
-    tmp_if_expr$1 = queue->q1;
+    tmp_if_expr_1 = queue->q1;
 
   else
-    tmp_if_expr$1 = queue->q2;
-  q = tmp_if_expr$1;
+    tmp_if_expr_1 = queue->q2;
+  q = tmp_if_expr_1;
   struct event_data *data;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct event_data) /*24ul*/ );
-  data = (struct event_data *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct event_data) /*24ul*/ );
+  data = (struct event_data *)return_value_malloc_2;
   if(!(data == ((struct event_data *)NULL)))
   {
     data->id = message->id;
@@ -15800,33 +15800,33 @@ extern signed int event_queue_process(struct event_queue *queue)
   else
   {
     queue->locked = 1;
-    void *return_value_list_get_first$1;
-    return_value_list_get_first$1=list_get_first(queue->q1);
-    data = (struct event_data *)return_value_list_get_first$1;
+    void *return_value_list_get_first_1;
+    return_value_list_get_first_1=list_get_first(queue->q1);
+    data = (struct event_data *)return_value_list_get_first_1;
     if(!(data == ((struct event_data *)NULL)))
     {
       queue->callback(queue->callback_data, data);
-      void *return_value_list_get_next$2;
-      return_value_list_get_next$2=list_get_next(queue->q1);
-      data = (struct event_data *)return_value_list_get_next$2;
+      void *return_value_list_get_next_2;
+      return_value_list_get_next_2=list_get_next(queue->q1);
+      data = (struct event_data *)return_value_list_get_next_2;
     }
 
     list_clear(queue->q1, event_queue_cleanup_callback);
     queue->locked = 0;
-    void *return_value_list_get_first$3;
-    return_value_list_get_first$3=list_get_first(queue->q2);
-    data = (struct event_data *)return_value_list_get_first$3;
+    void *return_value_list_get_first_3;
+    return_value_list_get_first_3=list_get_first(queue->q2);
+    data = (struct event_data *)return_value_list_get_first_3;
     while(!(data == ((struct event_data *)NULL)))
     {
       list_remove(queue->q2, (void *)data);
       list_append(queue->q1, (void *)data);
-      void *return_value_list_get_first$4;
-      return_value_list_get_first$4=list_get_first(queue->q2);
-      data = (struct event_data *)return_value_list_get_first$4;
+      void *return_value_list_get_first_4;
+      return_value_list_get_first_4=list_get_first(queue->q2);
+      data = (struct event_data *)return_value_list_get_first_4;
     }
-    unsigned long int return_value_list_size$5;
-    return_value_list_size$5=list_size(queue->q1);
-    if(!(return_value_list_size$5 == 0ul))
+    unsigned long int return_value_list_size_5;
+    return_value_list_size_5=list_size(queue->q1);
+    if(!(return_value_list_size_5 == 0ul))
       return 1;
 
     else
@@ -15847,11 +15847,11 @@ extern void event_queue_shutdown(struct event_queue *queue)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/eventqueue.c line 138
 extern unsigned long int event_queue_size(struct event_queue *queue)
 {
-  unsigned long int return_value_list_size$1;
-  return_value_list_size$1=list_size(queue->q1);
-  unsigned long int return_value_list_size$2;
-  return_value_list_size$2=list_size(queue->q2);
-  return return_value_list_size$1 + return_value_list_size$2;
+  unsigned long int return_value_list_size_1;
+  return_value_list_size_1=list_size(queue->q1);
+  unsigned long int return_value_list_size_2;
+  return_value_list_size_2=list_size(queue->q2);
+  return return_value_list_size_1 + return_value_list_size_2;
 }
 
 // file_read_line_handler
@@ -15886,11 +15886,11 @@ __CPROVER_DUMP_L1:
   fd=open(file, 0);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    hub_log(1, "Unable to open file %s: %s", file, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    hub_log(1, "Unable to open file %s: %s", file, return_value_strerror_2);
     return -2;
   }
 
@@ -15898,11 +15898,11 @@ __CPROVER_DUMP_L1:
   close(fd);
   if(!(ret >= 0l))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    hub_log(1, "Unable to read from file %s: %s", file, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    hub_log(1, "Unable to read from file %s: %s", file, return_value_strerror_4);
     return -1;
   }
 
@@ -15916,9 +15916,9 @@ __CPROVER_DUMP_L1:
   buf[ret] = (char)0;
   split_data.handler = handler;
   split_data.data = data;
-  signed int return_value_string_split$5;
-  return_value_string_split$5=string_split(buf, "\n", (void *)&split_data, file_read_line_handler);
-  return return_value_string_split$5;
+  signed int return_value_string_split_5;
+  return_value_string_split_5=string_split(buf, "\n", (void *)&split_data, file_read_line_handler);
+  return return_value_string_split_5;
 }
 
 // find_and_remove_job
@@ -15926,11 +15926,11 @@ __CPROVER_DUMP_L1:
 static struct net_dns_job * find_and_remove_job(struct net_dns_job *job)
 {
   struct net_dns_job *it;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(g_dns->jobs);
-  it = (struct net_dns_job *)return_value_list_get_first$1;
-  void *return_value_list_get_next$2;
-  for( ; !(it == ((struct net_dns_job *)NULL)); it = (struct net_dns_job *)return_value_list_get_next$2)
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(g_dns->jobs);
+  it = (struct net_dns_job *)return_value_list_get_first_1;
+  void *return_value_list_get_next_2;
+  for( ; !(it == ((struct net_dns_job *)NULL)); it = (struct net_dns_job *)return_value_list_get_next_2)
   {
     if(it == job)
     {
@@ -15938,29 +15938,29 @@ static struct net_dns_job * find_and_remove_job(struct net_dns_job *job)
       return job;
     }
 
-    return_value_list_get_next$2=list_get_next(g_dns->jobs);
+    return_value_list_get_next_2=list_get_next(g_dns->jobs);
   }
   return (struct net_dns_job *)(void *)0;
 }
 
-// find_and_remove_job$link1
+// find_and_remove_job_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 273
-static struct net_dns_job * find_and_remove_job$link1(struct net_dns_job *job$link1)
+static struct net_dns_job * find_and_remove_job_link1(struct net_dns_job *job_link1)
 {
-  struct net_dns_job *it$link1;
-  void *return_value_list_get_first$1$link1;
-  return_value_list_get_first$1$link1=list_get_first(g_dns$link1->jobs);
-  it$link1 = (struct net_dns_job *)return_value_list_get_first$1$link1;
-  void *return_value_list_get_next$2$link1;
-  for( ; !(it$link1 == ((struct net_dns_job *)NULL)); it$link1 = (struct net_dns_job *)return_value_list_get_next$2$link1)
+  struct net_dns_job *it_link1;
+  void *return_value_list_get_first_1_link1;
+  return_value_list_get_first_1_link1=list_get_first(g_dns_link1->jobs);
+  it_link1 = (struct net_dns_job *)return_value_list_get_first_1_link1;
+  void *return_value_list_get_next_2_link1;
+  for( ; !(it_link1 == ((struct net_dns_job *)NULL)); it_link1 = (struct net_dns_job *)return_value_list_get_next_2_link1)
   {
-    if(it$link1 == job$link1)
+    if(it_link1 == job_link1)
     {
-      list_remove(g_dns$link1->jobs, (void *)it$link1);
-      return job$link1;
+      list_remove(g_dns_link1->jobs, (void *)it_link1);
+      return job_link1;
     }
 
-    return_value_list_get_next$2$link1=list_get_next(g_dns$link1->jobs);
+    return_value_list_get_next_2_link1=list_get_next(g_dns_link1->jobs);
   }
   return (struct net_dns_job *)(void *)0;
 }
@@ -15970,11 +15970,11 @@ static struct net_dns_job * find_and_remove_job$link1(struct net_dns_job *job$li
 static struct net_dns_result * find_and_remove_result(struct net_dns_job *job)
 {
   struct net_dns_result *it;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(g_dns->results);
-  it = (struct net_dns_result *)return_value_list_get_first$1;
-  void *return_value_list_get_next$2;
-  for( ; !(it == ((struct net_dns_result *)NULL)); it = (struct net_dns_result *)return_value_list_get_next$2)
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(g_dns->results);
+  it = (struct net_dns_result *)return_value_list_get_first_1;
+  void *return_value_list_get_next_2;
+  for( ; !(it == ((struct net_dns_result *)NULL)); it = (struct net_dns_result *)return_value_list_get_next_2)
   {
     if(it->job == job)
     {
@@ -15982,29 +15982,29 @@ static struct net_dns_result * find_and_remove_result(struct net_dns_job *job)
       return it;
     }
 
-    return_value_list_get_next$2=list_get_next(g_dns->results);
+    return_value_list_get_next_2=list_get_next(g_dns->results);
   }
   return (struct net_dns_result *)(void *)0;
 }
 
-// find_and_remove_result$link1
+// find_and_remove_result_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 288
-static struct net_dns_result * find_and_remove_result$link1(struct net_dns_job *job$link1)
+static struct net_dns_result * find_and_remove_result_link1(struct net_dns_job *job_link1)
 {
-  struct net_dns_result *it$link1;
-  void *return_value_list_get_first$1$link1;
-  return_value_list_get_first$1$link1=list_get_first(g_dns$link1->results);
-  it$link1 = (struct net_dns_result *)return_value_list_get_first$1$link1;
-  void *return_value_list_get_next$2$link1;
-  for( ; !(it$link1 == ((struct net_dns_result *)NULL)); it$link1 = (struct net_dns_result *)return_value_list_get_next$2$link1)
+  struct net_dns_result *it_link1;
+  void *return_value_list_get_first_1_link1;
+  return_value_list_get_first_1_link1=list_get_first(g_dns_link1->results);
+  it_link1 = (struct net_dns_result *)return_value_list_get_first_1_link1;
+  void *return_value_list_get_next_2_link1;
+  for( ; !(it_link1 == ((struct net_dns_result *)NULL)); it_link1 = (struct net_dns_result *)return_value_list_get_next_2_link1)
   {
-    if(it$link1->job == job$link1)
+    if(it_link1->job == job_link1)
     {
-      list_remove(g_dns$link1->results, (void *)it$link1);
-      return it$link1;
+      list_remove(g_dns_link1->results, (void *)it_link1);
+      return it_link1;
     }
 
-    return_value_list_get_next$2$link1=list_get_next(g_dns$link1->results);
+    return_value_list_get_next_2_link1=list_get_next(g_dns_link1->results);
   }
   return (struct net_dns_result *)(void *)0;
 }
@@ -16135,14 +16135,14 @@ static void free_job(struct net_dns_job *job)
 
 }
 
-// free_job$link1
+// free_job_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 47
-static void free_job$link1(struct net_dns_job *job$link1)
+static void free_job_link1(struct net_dns_job *job_link1)
 {
-  if(!(job$link1 == ((struct net_dns_job *)NULL)))
+  if(!(job_link1 == ((struct net_dns_job *)NULL)))
   {
-    free((void *)job$link1->host);
-    free((void *)job$link1);
+    free((void *)job_link1->host);
+    free((void *)job_link1);
   }
 
 }
@@ -16151,9 +16151,9 @@ static void free_job$link1(struct net_dns_job *job$link1)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/plugincallback.c line 28
 static struct plugin_callback_data * get_callback_data(struct plugin_handle *plugin)
 {
-  struct plugin_hub_internals *return_value_get_internals$1;
-  return_value_get_internals$1=get_internals(plugin);
-  return return_value_get_internals$1->callback_data;
+  struct plugin_hub_internals *return_value_get_internals_1;
+  return_value_get_internals_1=get_internals(plugin);
+  return return_value_get_internals_1->callback_data;
 }
 
 // get_handle
@@ -16163,11 +16163,11 @@ static struct net_ssl_openssl * get_handle(struct net_connection *con)
   return (struct net_ssl_openssl *)con->ssl;
 }
 
-// get_handle$link1
+// get_handle_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 46
-static struct net_ssl_openssl * get_handle$link1(struct net_connection *con$link1)
+static struct net_ssl_openssl * get_handle_link1(struct net_connection *con_link1)
 {
-  return (struct net_ssl_openssl *)con$link1->ssl;
+  return (struct net_ssl_openssl *)con_link1->ssl;
 }
 
 // get_internals
@@ -16212,17 +16212,17 @@ extern signed int handle_net_read(struct hub_user *user)
   static char buf[65535l];
   buf_size=ioq_recv_get(q, (void *)buf, (unsigned long int)65535);
   signed long int size;
-  signed int return_value_user_flag_get$1;
-  return_value_user_flag_get$1=user_flag_get(user, (enum user_flags)flag_maxbuf);
-  if(!(return_value_user_flag_get$1 == 0))
+  signed int return_value_user_flag_get_1;
+  return_value_user_flag_get_1=user_flag_get(user, (enum user_flags)flag_maxbuf);
+  if(!(return_value_user_flag_get_1 == 0))
     buf_size = (unsigned long int)0;
 
   size=net_con_recv(user->connection, (void *)(buf + (signed long int)buf_size), (unsigned long int)65535 - buf_size);
   if(size >= 1l)
     buf_size = buf_size + (unsigned long int)size;
 
-  void *return_value_memchr$2;
-  char *tmp_if_expr$5;
+  void *return_value_memchr_2;
+  char *tmp_if_expr_5;
   if(!(size >= 0l))
   {
     if(size == -1l)
@@ -16244,16 +16244,16 @@ extern signed int handle_net_read(struct hub_user *user)
       unsigned long int remaining = buf_size;
       do
       {
-        return_value_memchr$2=memchr((const void *)start, 10, remaining);
-        pos = (char *)return_value_memchr$2;
+        return_value_memchr_2=memchr((const void *)start, 10, remaining);
+        pos = (char *)return_value_memchr_2;
         if(pos == ((char *)NULL))
           break;
 
         lastPos = pos + (signed long int)1;
         pos[(signed long int)0] = (char)0;
-        signed int return_value_user_flag_get$4;
-        return_value_user_flag_get$4=user_flag_get(user, (enum user_flags)flag_maxbuf);
-        if(!(return_value_user_flag_get$4 == 0))
+        signed int return_value_user_flag_get_4;
+        return_value_user_flag_get_4=user_flag_get(user, (enum user_flags)flag_maxbuf);
+        if(!(return_value_user_flag_get_4 == 0))
           user_flag_unset(user, (enum user_flags)flag_maxbuf);
 
         else
@@ -16261,9 +16261,9 @@ extern signed int handle_net_read(struct hub_user *user)
           {
             if(!(pos - start >= (signed long int)user->hub->config->max_recv_buffer))
             {
-              signed int return_value_hub_handle_message$3;
-              return_value_hub_handle_message$3=hub_handle_message(user->hub, user, start, (unsigned long int)(pos - start));
-              if(return_value_hub_handle_message$3 == -1)
+              signed int return_value_hub_handle_message_3;
+              return_value_hub_handle_message_3=hub_handle_message(user->hub, user, start, (unsigned long int)(pos - start));
+              if(return_value_hub_handle_message_3 == -1)
                 return quit_protocol_error;
 
             }
@@ -16281,11 +16281,11 @@ extern signed int handle_net_read(struct hub_user *user)
         if(!(remaining >= (unsigned long int)user->hub->config->max_recv_buffer))
         {
           if(!(lastPos == ((char *)NULL)))
-            tmp_if_expr$5 = lastPos;
+            tmp_if_expr_5 = lastPos;
 
           else
-            tmp_if_expr$5 = buf;
-          ioq_recv_set(q, (void *)tmp_if_expr$5, remaining);
+            tmp_if_expr_5 = buf;
+          ioq_recv_set(q, (void *)tmp_if_expr_5, remaining);
         }
 
         else
@@ -16307,11 +16307,11 @@ extern signed int handle_net_read(struct hub_user *user)
 extern signed int handle_net_write(struct hub_user *user)
 {
   signed int ret = 0;
-  unsigned long int return_value_ioq_send_get_bytes$1;
+  unsigned long int return_value_ioq_send_get_bytes_1;
   do
   {
-    return_value_ioq_send_get_bytes$1=ioq_send_get_bytes(user->send_queue);
-    if(return_value_ioq_send_get_bytes$1 == 0ul)
+    return_value_ioq_send_get_bytes_1=ioq_send_get_bytes(user->send_queue);
+    if(return_value_ioq_send_get_bytes_1 == 0ul)
       break;
 
     ret=ioq_send_send(user->send_queue, user->connection);
@@ -16325,9 +16325,9 @@ extern signed int handle_net_write(struct hub_user *user)
 
   else
   {
-    unsigned long int return_value_ioq_send_get_bytes$2;
-    return_value_ioq_send_get_bytes$2=ioq_send_get_bytes(user->send_queue);
-    if(!(return_value_ioq_send_get_bytes$2 == 0ul))
+    unsigned long int return_value_ioq_send_get_bytes_2;
+    return_value_ioq_send_get_bytes_2=ioq_send_get_bytes(user->send_queue);
+    if(!(return_value_ioq_send_get_bytes_2 == 0ul))
       user_net_io_want_write(user);
 
     else
@@ -16370,33 +16370,33 @@ static signed int handle_openssl_error(struct net_connection *con, signed int re
   }
 }
 
-// handle_openssl_error$link1
+// handle_openssl_error_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/openssl.c line 161
-static signed int handle_openssl_error$link1(struct net_connection *con$link1, signed int ret$link1, enum ssl_state forced_rwstate$link1)
+static signed int handle_openssl_error_link1(struct net_connection *con_link1, signed int ret_link1, enum ssl_state forced_rwstate_link1)
 {
-  struct net_ssl_openssl *handle$link1;
-  handle$link1=get_handle$link1(con$link1);
-  signed int err$link1;
-  err$link1=SSL_get_error(handle$link1->ssl, ret$link1);
-  switch(err$link1)
+  struct net_ssl_openssl *handle_link1;
+  handle_link1=get_handle_link1(con_link1);
+  signed int err_link1;
+  err_link1=SSL_get_error(handle_link1->ssl, ret_link1);
+  switch(err_link1)
   {
     case 6:
       return -1;
     case 2:
     {
-      handle$link1->state = forced_rwstate$link1;
-      net_con_update(con$link1, 0x0002);
+      handle_link1->state = forced_rwstate_link1;
+      net_con_update(con_link1, 0x0002);
       return 0;
     }
     case 3:
     {
-      handle$link1->state = forced_rwstate$link1;
-      net_con_update(con$link1, 0x0004);
+      handle_link1->state = forced_rwstate_link1;
+      net_con_update(con_link1, 0x0004);
       return 0;
     }
     case 5:
     {
-      handle$link1->state = (enum ssl_state)tls_st_error;
+      handle_link1->state = (enum ssl_state)tls_st_error;
       return -2;
     }
     default:
@@ -16409,9 +16409,9 @@ static signed int handle_openssl_error$link1(struct net_connection *con$link1, s
 extern struct hub_command_arg_data * hub_command_arg_next(struct hub_command *cmd, enum hub_command_arg_type type)
 {
   struct hub_command_arg_data *ptr;
-  void *return_value_list_get_next$1;
-  return_value_list_get_next$1=list_get_next(cmd->args);
-  ptr = (struct hub_command_arg_data *)return_value_list_get_next$1;
+  void *return_value_list_get_next_1;
+  return_value_list_get_next_1=list_get_next(cmd->args);
+  ptr = (struct hub_command_arg_data *)return_value_list_get_next_1;
   if(ptr == ((struct hub_command_arg_data *)NULL))
     return (struct hub_command_arg_data *)(void *)0;
 
@@ -16428,9 +16428,9 @@ extern struct hub_command_arg_data * hub_command_arg_next(struct hub_command *cm
 extern unsigned long int hub_command_arg_reset(struct hub_command *cmd)
 {
   cmd->args->iterator = (struct node *)(void *)0;
-  unsigned long int return_value_list_size$1;
-  return_value_list_size$1=list_size(cmd->args);
-  return return_value_list_size$1;
+  unsigned long int return_value_list_size_1;
+  return_value_list_size_1=list_size(cmd->args);
+  return return_value_list_size_1;
 }
 
 // hub_command_args_free
@@ -16438,13 +16438,13 @@ extern unsigned long int hub_command_arg_reset(struct hub_command *cmd)
 static void hub_command_args_free(struct hub_command *cmd)
 {
   struct hub_command_arg_data *data = (struct hub_command_arg_data *)(void *)0;
-  void *return_value_list_get_next$2;
+  void *return_value_list_get_next_2;
   if(!(cmd->args == ((struct linked_list *)NULL)))
   {
-    void *return_value_list_get_first$1;
-    return_value_list_get_first$1=list_get_first(cmd->args);
-    data = (struct hub_command_arg_data *)return_value_list_get_first$1;
-    for( ; !(data == ((struct hub_command_arg_data *)NULL)); data = (struct hub_command_arg_data *)return_value_list_get_next$2)
+    void *return_value_list_get_first_1;
+    return_value_list_get_first_1=list_get_first(cmd->args);
+    data = (struct hub_command_arg_data *)return_value_list_get_first_1;
+    for( ; !(data == ((struct hub_command_arg_data *)NULL)); data = (struct hub_command_arg_data *)return_value_list_get_next_2)
     {
       switch((signed int)data->type)
       {
@@ -16456,7 +16456,7 @@ static void hub_command_args_free(struct hub_command *cmd)
         case type_range:
           free((void *)data->data.range);
       }
-      return_value_list_get_next$2=list_get_next(cmd->args);
+      return_value_list_get_next_2=list_get_next(cmd->args);
     }
     list_clear(cmd->args, free);
     list_destroy(cmd->args);
@@ -16482,27 +16482,27 @@ extern void hub_disconnect_user(struct hub_info *hub, struct hub_user *user, sig
 {
   struct event_data post;
   signed int need_notify = 0;
-  signed int return_value_user_is_disconnecting$1;
-  return_value_user_is_disconnecting$1=user_is_disconnecting(user);
-  _Bool tmp_if_expr$4;
-  if(return_value_user_is_disconnecting$1 == 0)
+  signed int return_value_user_is_disconnecting_1;
+  return_value_user_is_disconnecting_1=user_is_disconnecting(user);
+  _Bool tmp_if_expr_4;
+  if(return_value_user_is_disconnecting_1 == 0)
   {
-    signed int return_value_net_con_get_sd$2;
-    return_value_net_con_get_sd$2=net_con_get_sd(user->connection);
-    net_shutdown_r(return_value_net_con_get_sd$2);
+    signed int return_value_net_con_get_sd_2;
+    return_value_net_con_get_sd_2=net_con_get_sd(user->connection);
+    net_shutdown_r(return_value_net_con_get_sd_2);
     net_con_close(user->connection);
     user->connection = ((struct net_connection *)NULL);
 
   __CPROVER_DUMP_L2:
     ;
-    signed int return_value_user_is_logged_in$3;
-    return_value_user_is_logged_in$3=user_is_logged_in(user);
-    if(!(return_value_user_is_logged_in$3 == 0))
-      tmp_if_expr$4 = hub->status == 1 ? (_Bool)1 : (_Bool)0;
+    signed int return_value_user_is_logged_in_3;
+    return_value_user_is_logged_in_3=user_is_logged_in(user);
+    if(!(return_value_user_is_logged_in_3 == 0))
+      tmp_if_expr_4 = hub->status == 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    need_notify = (signed int)tmp_if_expr$4;
+      tmp_if_expr_4 = (_Bool)0;
+    need_notify = (signed int)tmp_if_expr_4;
     user->quit_reason = (enum user_quit_reason)reason;
     user_set_state(user, (enum user_state)state_cleanup);
     if(!(need_notify == 0))
@@ -16526,15 +16526,15 @@ static void hub_event_dispatcher(void *callback_data, struct event_data *message
   signed int status;
   struct hub_info *hub = (struct hub_info *)callback_data;
   struct hub_user *user = (struct hub_user *)message->ptr;
-  signed int return_value_user_is_disconnecting$1;
+  signed int return_value_user_is_disconnecting_1;
   struct hub_user *u;
-  void *return_value_list_get_first$2;
+  void *return_value_list_get_first_2;
   switch(message->id)
   {
     case 0x1001:
     {
-      return_value_user_is_disconnecting$1=user_is_disconnecting(user);
-      if(!(return_value_user_is_disconnecting$1 == 0))
+      return_value_user_is_disconnecting_1=user_is_disconnecting(user);
+      if(!(return_value_user_is_disconnecting_1 == 0))
         break;
 
       if(!(message->flags == 0))
@@ -16566,15 +16566,15 @@ static void hub_event_dispatcher(void *callback_data, struct event_data *message
     }
     case 0x3001:
     {
-      return_value_list_get_first$2=list_get_first(hub->users->list);
-      u = (struct hub_user *)return_value_list_get_first$2;
+      return_value_list_get_first_2=list_get_first(hub->users->list);
+      u = (struct hub_user *)return_value_list_get_first_2;
       while(!(u == ((struct hub_user *)NULL)))
       {
         uman_remove(hub->users, u);
         user_destroy(u);
-        void *return_value_list_get_first$3;
-        return_value_list_get_first$3=list_get_first(hub->users->list);
-        u = (struct hub_user *)return_value_list_get_first$3;
+        void *return_value_list_get_first_3;
+        return_value_list_get_first_3=list_get_first(hub->users->list);
+        u = (struct hub_user *)return_value_list_get_first_3;
       }
     }
   }
@@ -16584,18 +16584,18 @@ static void hub_event_dispatcher(void *callback_data, struct event_data *message
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hub.h line 336
 extern void hub_event_loop(struct hub_info *hub)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     net_backend_process();
     event_queue_process(hub->queue);
     if(hub->status == 1)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = hub->status == 5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = hub->status == 5 ? (_Bool)1 : (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   if(hub->status == 3)
   {
 
@@ -16889,12 +16889,12 @@ extern signed int hub_handle_chat_message(struct hub_info *hub, struct hub_user 
   signed int private_msg;
   signed int command;
   signed int offset;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_user_is_protected$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_user_flag_get$6;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_user_is_protected_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_user_flag_get_6;
   if(message == ((char *)NULL))
     return 0;
 
@@ -16909,9 +16909,9 @@ extern signed int hub_handle_chat_message(struct hub_info *hub, struct hub_user 
 
     else
     {
-      signed int return_value_user_is_logged_in$1;
-      return_value_user_is_logged_in$1=user_is_logged_in(u);
-      if(return_value_user_is_logged_in$1 == 0)
+      signed int return_value_user_is_logged_in_1;
+      return_value_user_is_logged_in_1=user_is_logged_in(u);
+      if(return_value_user_is_logged_in_1 == 0)
       {
         free((void *)message);
         return 0;
@@ -16921,17 +16921,17 @@ extern signed int hub_handle_chat_message(struct hub_info *hub, struct hub_user 
       {
         broadcast = (signed int)((signed int)cmd->cache[(signed long int)0] == 66);
         if((signed int)*cmd->cache == 68)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)cmd->cache[(signed long int)0] == 69 ? (_Bool)1 : (_Bool)0;
-        private_msg = (signed int)tmp_if_expr$2;
+          tmp_if_expr_2 = (signed int)cmd->cache[(signed long int)0] == 69 ? (_Bool)1 : (_Bool)0;
+        private_msg = (signed int)tmp_if_expr_2;
         if((signed int)*message == 33)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)message[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-        command = (signed int)tmp_if_expr$3;
+          tmp_if_expr_3 = (signed int)message[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+        command = (signed int)tmp_if_expr_3;
         if(!(broadcast == 0) && !(command == 0))
         {
           if(message[1l] == *message)
@@ -16950,21 +16950,21 @@ extern signed int hub_handle_chat_message(struct hub_info *hub, struct hub_user 
         {
           if(!(hub->config->chat_is_privileged == 0))
           {
-            return_value_user_is_protected$4=user_is_protected(u);
-            tmp_if_expr$5 = !(return_value_user_is_protected$4 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_user_is_protected_4=user_is_protected(u);
+            tmp_if_expr_5 = !(return_value_user_is_protected_4 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_user_flag_get$6=user_flag_get(u, (enum user_flags)flag_muted);
-            tmp_if_expr$7 = return_value_user_flag_get$6 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_user_flag_get_6=user_flag_get(u, (enum user_flags)flag_muted);
+            tmp_if_expr_7 = return_value_user_flag_get_6 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
           {
             if(!(broadcast == 0))
               relay = 0;
@@ -17026,9 +17026,9 @@ extern signed int hub_handle_info(struct hub_info *hub, struct hub_user *user, s
   {
     cmd->priority = (unsigned long int)1;
     hub_handle_info_common(user, cmd);
-    signed int return_value_user_is_connecting$3;
-    return_value_user_is_connecting$3=user_is_connecting(user);
-    if(!(return_value_user_is_connecting$3 == 0))
+    signed int return_value_user_is_connecting_3;
+    return_value_user_is_connecting_3=user_is_connecting(user);
+    if(!(return_value_user_is_connecting_3 == 0))
     {
       if(!(user->info == ((struct adc_message *)NULL)))
       {
@@ -17061,9 +17061,9 @@ extern signed int hub_handle_info(struct hub_info *hub, struct hub_user *user, s
     {
       adc_msg_remove_named_argument(cmd, "PD");
       adc_msg_remove_named_argument(cmd, "ID");
-      signed int return_value_adc_msg_has_named_argument$1;
-      return_value_adc_msg_has_named_argument$1=adc_msg_has_named_argument(cmd, "NI");
-      if(!(return_value_adc_msg_has_named_argument$1 == 0))
+      signed int return_value_adc_msg_has_named_argument_1;
+      return_value_adc_msg_has_named_argument_1=adc_msg_has_named_argument(cmd, "NI");
+      if(!(return_value_adc_msg_has_named_argument_1 == 0))
         adc_msg_remove_named_argument(cmd, "NI");
 
       ret=check_limits(hub, user, cmd);
@@ -17077,9 +17077,9 @@ extern signed int hub_handle_info(struct hub_info *hub, struct hub_user *user, s
       strip_network(user, cmd);
       hub_handle_info_low_bandwidth(hub, user, cmd);
       user_update_info(user, cmd);
-      signed int return_value_adc_msg_is_empty$2;
-      return_value_adc_msg_is_empty$2=adc_msg_is_empty(cmd);
-      if(return_value_adc_msg_is_empty$2 == 0)
+      signed int return_value_adc_msg_is_empty_2;
+      return_value_adc_msg_is_empty_2=adc_msg_is_empty(cmd);
+      if(return_value_adc_msg_is_empty_2 == 0)
         route_message(hub, user, cmd);
 
       adc_msg_free(cmd);
@@ -17113,26 +17113,26 @@ signed int hub_handle_info_login(struct hub_info *hub, struct hub_user *user, st
   while((_Bool)0);
   adc_msg_remove_named_argument(cmd, "PD");
   code=set_credentials(hub, user, cmd);
-  signed int return_value_check_is_hub_full$1;
-  return_value_check_is_hub_full$1=check_is_hub_full(hub, user);
-  if(!(return_value_check_is_hub_full$1 == 0))
+  signed int return_value_check_is_hub_full_1;
+  return_value_check_is_hub_full_1=check_is_hub_full(hub, user);
+  if(!(return_value_check_is_hub_full_1 == 0))
     return status_msg_hub_full;
 
   else
   {
-    signed int return_value_check_registered_users_only$2;
-    return_value_check_registered_users_only$2=check_registered_users_only(hub, user);
-    if(!(return_value_check_registered_users_only$2 == 0))
+    signed int return_value_check_registered_users_only_2;
+    return_value_check_registered_users_only_2=check_registered_users_only(hub, user);
+    if(!(return_value_check_registered_users_only_2 == 0))
       return status_msg_hub_registered_users_only;
 
     else
     {
       do
       {
-        signed int hub_handle_info_login$$1$$4$$ret;
-        hub_handle_info_login$$1$$4$$ret=check_limits(hub, user, cmd);
-        if(!(hub_handle_info_login$$1$$4$$ret >= 0))
-          return hub_handle_info_login$$1$$4$$ret;
+        signed int hub_handle_info_login__1__4__ret;
+        hub_handle_info_login__1__4__ret=check_limits(hub, user, cmd);
+        if(!(hub_handle_info_login__1__4__ret >= 0))
+          return hub_handle_info_login__1__4__ret;
 
       }
       while((_Bool)0);
@@ -17175,40 +17175,40 @@ extern signed int hub_handle_message(struct hub_info *hub, struct hub_user *u, c
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_user_is_disconnecting$1;
-  return_value_user_is_disconnecting$1=user_is_disconnecting(u);
-  signed long int return_value_net_get_time$2;
-  signed int return_value_flood_control_check$3;
-  signed long int return_value_net_get_time$4;
-  signed int return_value_flood_control_check$5;
-  signed long int return_value_net_get_time$6;
-  signed int return_value_flood_control_check$7;
-  signed long int return_value_net_get_time$8;
-  signed int return_value_flood_control_check$9;
-  signed long int return_value_net_get_time$10;
-  signed int return_value_flood_control_check$11;
-  enum plugin_status return_value_plugin_handle_search$12;
-  signed long int return_value_net_get_time$13;
-  signed int return_value_flood_control_check$14;
-  signed int return_value_user_is_logged_in$15;
-  signed long int return_value_net_get_time$16;
-  signed int return_value_flood_control_check$17;
-  struct hub_user *return_value_uman_get_user_by_sid$18;
-  enum plugin_status return_value_plugin_handle_search_result$19;
-  signed int return_value_user_is_logged_in$20;
-  struct hub_user *return_value_uman_get_user_by_sid$21;
-  enum plugin_status return_value_plugin_handle_revconnect$22;
-  signed long int return_value_net_get_time$23;
-  signed int return_value_flood_control_check$24;
-  signed int return_value_user_is_logged_in$25;
-  struct hub_user *return_value_uman_get_user_by_sid$26;
-  enum plugin_status return_value_plugin_handle_connect$27;
-  signed long int return_value_net_get_time$28;
-  signed int return_value_flood_control_check$29;
-  signed int return_value_user_is_logged_in$30;
-  signed long int return_value_net_get_time$31;
-  signed int return_value_flood_control_check$32;
-  if(!(return_value_user_is_disconnecting$1 == 0))
+  signed int return_value_user_is_disconnecting_1;
+  return_value_user_is_disconnecting_1=user_is_disconnecting(u);
+  signed long int return_value_net_get_time_2;
+  signed int return_value_flood_control_check_3;
+  signed long int return_value_net_get_time_4;
+  signed int return_value_flood_control_check_5;
+  signed long int return_value_net_get_time_6;
+  signed int return_value_flood_control_check_7;
+  signed long int return_value_net_get_time_8;
+  signed int return_value_flood_control_check_9;
+  signed long int return_value_net_get_time_10;
+  signed int return_value_flood_control_check_11;
+  enum plugin_status return_value_plugin_handle_search_12;
+  signed long int return_value_net_get_time_13;
+  signed int return_value_flood_control_check_14;
+  signed int return_value_user_is_logged_in_15;
+  signed long int return_value_net_get_time_16;
+  signed int return_value_flood_control_check_17;
+  struct hub_user *return_value_uman_get_user_by_sid_18;
+  enum plugin_status return_value_plugin_handle_search_result_19;
+  signed int return_value_user_is_logged_in_20;
+  struct hub_user *return_value_uman_get_user_by_sid_21;
+  enum plugin_status return_value_plugin_handle_revconnect_22;
+  signed long int return_value_net_get_time_23;
+  signed int return_value_flood_control_check_24;
+  signed int return_value_user_is_logged_in_25;
+  struct hub_user *return_value_uman_get_user_by_sid_26;
+  enum plugin_status return_value_plugin_handle_connect_27;
+  signed long int return_value_net_get_time_28;
+  signed int return_value_flood_control_check_29;
+  signed int return_value_user_is_logged_in_30;
+  signed long int return_value_net_get_time_31;
+  signed int return_value_flood_control_check_32;
+  if(!(return_value_user_is_disconnecting_1 == 0))
     return -1;
 
   else
@@ -17252,9 +17252,9 @@ __CPROVER_DUMP_L1:
 
       else
       {
-        return_value_net_get_time$2=net_get_time();
-        return_value_flood_control_check$3=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$2);
-        if(!(return_value_flood_control_check$3 == 0))
+        return_value_net_get_time_2=net_get_time();
+        return_value_flood_control_check_3=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_2);
+        if(!(return_value_flood_control_check_3 == 0))
           goto __CPROVER_DUMP_L51;
 
         ret=hub_handle_support(hub, u, cmd);
@@ -17262,9 +17262,9 @@ __CPROVER_DUMP_L1:
 
       __CPROVER_DUMP_L6:
         ;
-        return_value_net_get_time$4=net_get_time();
-        return_value_flood_control_check$5=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$4);
-        if(!(return_value_flood_control_check$5 == 0))
+        return_value_net_get_time_4=net_get_time();
+        return_value_flood_control_check_5=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_4);
+        if(!(return_value_flood_control_check_5 == 0))
           goto __CPROVER_DUMP_L51;
 
         ret=hub_handle_password(hub, u, cmd);
@@ -17272,9 +17272,9 @@ __CPROVER_DUMP_L1:
 
       __CPROVER_DUMP_L9:
         ;
-        return_value_net_get_time$6=net_get_time();
-        return_value_flood_control_check$7=flood_control_check(&u->flood_update, (unsigned long int)hub->config->flood_ctl_update, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$6);
-        if(!(return_value_flood_control_check$7 == 0))
+        return_value_net_get_time_6=net_get_time();
+        return_value_flood_control_check_7=flood_control_check(&u->flood_update, (unsigned long int)hub->config->flood_ctl_update, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_6);
+        if(!(return_value_flood_control_check_7 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_update);
           goto __CPROVER_DUMP_L51;
@@ -17285,9 +17285,9 @@ __CPROVER_DUMP_L1:
 
       __CPROVER_DUMP_L12:
         ;
-        return_value_net_get_time$8=net_get_time();
-        return_value_flood_control_check$9=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$8);
-        if(!(return_value_flood_control_check$9 == 0))
+        return_value_net_get_time_8=net_get_time();
+        return_value_flood_control_check_9=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_8);
+        if(!(return_value_flood_control_check_9 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_extras);
           goto __CPROVER_DUMP_L51;
@@ -17297,9 +17297,9 @@ __CPROVER_DUMP_L1:
 
       __CPROVER_DUMP_L15:
         ;
-        return_value_net_get_time$10=net_get_time();
-        return_value_flood_control_check$11=flood_control_check(&u->flood_chat, (unsigned long int)hub->config->flood_ctl_chat, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$10);
-        if(!(return_value_flood_control_check$11 == 0))
+        return_value_net_get_time_10=net_get_time();
+        return_value_flood_control_check_11=flood_control_check(&u->flood_chat, (unsigned long int)hub->config->flood_ctl_chat, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_10);
+        if(!(return_value_flood_control_check_11 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_chat);
           goto __CPROVER_DUMP_L51;
@@ -17311,20 +17311,20 @@ __CPROVER_DUMP_L1:
       __CPROVER_DUMP_L18:
         ;
         cmd->priority = (unsigned long int)-1;
-        return_value_plugin_handle_search$12=plugin_handle_search(hub, u, cmd->cache);
-        if((signed int)return_value_plugin_handle_search$12 == st_deny)
+        return_value_plugin_handle_search_12=plugin_handle_search(hub, u, cmd->cache);
+        if((signed int)return_value_plugin_handle_search_12 == st_deny)
           goto __CPROVER_DUMP_L51;
 
-        return_value_net_get_time$13=net_get_time();
-        return_value_flood_control_check$14=flood_control_check(&u->flood_search, (unsigned long int)hub->config->flood_ctl_search, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$13);
-        if(!(return_value_flood_control_check$14 == 0))
+        return_value_net_get_time_13=net_get_time();
+        return_value_flood_control_check_14=flood_control_check(&u->flood_search, (unsigned long int)hub->config->flood_ctl_search, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_13);
+        if(!(return_value_flood_control_check_14 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_search);
           goto __CPROVER_DUMP_L51;
         }
 
-        return_value_user_is_logged_in$15=user_is_logged_in(u);
-        if(!(return_value_user_is_logged_in$15 == 0))
+        return_value_user_is_logged_in_15=user_is_logged_in(u);
+        if(!(return_value_user_is_logged_in_15 == 0))
           ret=route_message(hub, u, cmd);
 
         else
@@ -17333,9 +17333,9 @@ __CPROVER_DUMP_L1:
 
       __CPROVER_DUMP_L24:
         ;
-        return_value_net_get_time$16=net_get_time();
-        return_value_flood_control_check$17=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$16);
-        if(!(return_value_flood_control_check$17 == 0))
+        return_value_net_get_time_16=net_get_time();
+        return_value_flood_control_check_17=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_16);
+        if(!(return_value_flood_control_check_17 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_extras);
           goto __CPROVER_DUMP_L51;
@@ -17346,13 +17346,13 @@ __CPROVER_DUMP_L1:
       __CPROVER_DUMP_L27:
         ;
         cmd->priority = (unsigned long int)-1;
-        return_value_uman_get_user_by_sid$18=uman_get_user_by_sid(hub->users, cmd->target);
-        return_value_plugin_handle_search_result$19=plugin_handle_search_result(hub, u, return_value_uman_get_user_by_sid$18, cmd->cache);
-        if((signed int)return_value_plugin_handle_search_result$19 == st_deny)
+        return_value_uman_get_user_by_sid_18=uman_get_user_by_sid(hub->users, cmd->target);
+        return_value_plugin_handle_search_result_19=plugin_handle_search_result(hub, u, return_value_uman_get_user_by_sid_18, cmd->cache);
+        if((signed int)return_value_plugin_handle_search_result_19 == st_deny)
           goto __CPROVER_DUMP_L51;
 
-        return_value_user_is_logged_in$20=user_is_logged_in(u);
-        if(!(return_value_user_is_logged_in$20 == 0))
+        return_value_user_is_logged_in_20=user_is_logged_in(u);
+        if(!(return_value_user_is_logged_in_20 == 0))
           ret=route_message(hub, u, cmd);
 
         else
@@ -17362,21 +17362,21 @@ __CPROVER_DUMP_L1:
       __CPROVER_DUMP_L31:
         ;
         cmd->priority = (unsigned long int)-1;
-        return_value_uman_get_user_by_sid$21=uman_get_user_by_sid(hub->users, cmd->target);
-        return_value_plugin_handle_revconnect$22=plugin_handle_revconnect(hub, u, return_value_uman_get_user_by_sid$21);
-        if((signed int)return_value_plugin_handle_revconnect$22 == st_deny)
+        return_value_uman_get_user_by_sid_21=uman_get_user_by_sid(hub->users, cmd->target);
+        return_value_plugin_handle_revconnect_22=plugin_handle_revconnect(hub, u, return_value_uman_get_user_by_sid_21);
+        if((signed int)return_value_plugin_handle_revconnect_22 == st_deny)
           goto __CPROVER_DUMP_L51;
 
-        return_value_net_get_time$23=net_get_time();
-        return_value_flood_control_check$24=flood_control_check(&u->flood_connect, (unsigned long int)hub->config->flood_ctl_connect, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$23);
-        if(!(return_value_flood_control_check$24 == 0))
+        return_value_net_get_time_23=net_get_time();
+        return_value_flood_control_check_24=flood_control_check(&u->flood_connect, (unsigned long int)hub->config->flood_ctl_connect, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_23);
+        if(!(return_value_flood_control_check_24 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_connect);
           goto __CPROVER_DUMP_L51;
         }
 
-        return_value_user_is_logged_in$25=user_is_logged_in(u);
-        if(!(return_value_user_is_logged_in$25 == 0))
+        return_value_user_is_logged_in_25=user_is_logged_in(u);
+        if(!(return_value_user_is_logged_in_25 == 0))
           ret=route_message(hub, u, cmd);
 
         else
@@ -17386,21 +17386,21 @@ __CPROVER_DUMP_L1:
       __CPROVER_DUMP_L37:
         ;
         cmd->priority = (unsigned long int)-1;
-        return_value_uman_get_user_by_sid$26=uman_get_user_by_sid(hub->users, cmd->target);
-        return_value_plugin_handle_connect$27=plugin_handle_connect(hub, u, return_value_uman_get_user_by_sid$26);
-        if((signed int)return_value_plugin_handle_connect$27 == st_deny)
+        return_value_uman_get_user_by_sid_26=uman_get_user_by_sid(hub->users, cmd->target);
+        return_value_plugin_handle_connect_27=plugin_handle_connect(hub, u, return_value_uman_get_user_by_sid_26);
+        if((signed int)return_value_plugin_handle_connect_27 == st_deny)
           goto __CPROVER_DUMP_L51;
 
-        return_value_net_get_time$28=net_get_time();
-        return_value_flood_control_check$29=flood_control_check(&u->flood_connect, (unsigned long int)hub->config->flood_ctl_connect, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$28);
-        if(!(return_value_flood_control_check$29 == 0))
+        return_value_net_get_time_28=net_get_time();
+        return_value_flood_control_check_29=flood_control_check(&u->flood_connect, (unsigned long int)hub->config->flood_ctl_connect, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_28);
+        if(!(return_value_flood_control_check_29 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_connect);
           goto __CPROVER_DUMP_L51;
         }
 
-        return_value_user_is_logged_in$30=user_is_logged_in(u);
-        if(!(return_value_user_is_logged_in$30 == 0))
+        return_value_user_is_logged_in_30=user_is_logged_in(u);
+        if(!(return_value_user_is_logged_in_30 == 0))
           ret=route_message(hub, u, cmd);
 
         else
@@ -17409,9 +17409,9 @@ __CPROVER_DUMP_L1:
 
       __CPROVER_DUMP_L43:
         ;
-        return_value_net_get_time$31=net_get_time();
-        return_value_flood_control_check$32=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$31);
-        if(!(return_value_flood_control_check$32 == 0))
+        return_value_net_get_time_31=net_get_time();
+        return_value_flood_control_check_32=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_31);
+        if(!(return_value_flood_control_check_32 == 0))
         {
           hub_send_flood_warning(hub, u, hub->config->msg_user_flood_extras);
           goto __CPROVER_DUMP_L51;
@@ -17419,18 +17419,18 @@ __CPROVER_DUMP_L1:
 
         goto __CPROVER_DUMP_L51;
       }
-      signed long int return_value_net_get_time$33;
-      return_value_net_get_time$33=net_get_time();
-      signed int return_value_flood_control_check$34;
-      return_value_flood_control_check$34=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time$33);
-      if(!(return_value_flood_control_check$34 == 0))
+      signed long int return_value_net_get_time_33;
+      return_value_net_get_time_33=net_get_time();
+      signed int return_value_flood_control_check_34;
+      return_value_flood_control_check_34=flood_control_check(&u->flood_extras, (unsigned long int)hub->config->flood_ctl_extras, (unsigned long int)hub->config->flood_ctl_interval, return_value_net_get_time_33);
+      if(!(return_value_flood_control_check_34 == 0))
         hub_send_flood_warning(hub, u, hub->config->msg_user_flood_extras);
 
       else
       {
-        signed int return_value_user_is_logged_in$35;
-        return_value_user_is_logged_in$35=user_is_logged_in(u);
-        if(!(return_value_user_is_logged_in$35 == 0))
+        signed int return_value_user_is_logged_in_35;
+        return_value_user_is_logged_in_35=user_is_logged_in(u);
+        if(!(return_value_user_is_logged_in_35 == 0))
           ret=route_message(hub, u, cmd);
 
         else
@@ -17445,9 +17445,9 @@ __CPROVER_DUMP_L1:
 
     else
     {
-      signed int return_value_user_is_logged_in$36;
-      return_value_user_is_logged_in$36=user_is_logged_in(u);
-      if(return_value_user_is_logged_in$36 == 0)
+      signed int return_value_user_is_logged_in_36;
+      return_value_user_is_logged_in_36=user_is_logged_in(u);
+      if(return_value_user_is_logged_in_36 == 0)
         ret = -1;
 
     }
@@ -17464,9 +17464,9 @@ extern signed int hub_handle_password(struct hub_info *hub, struct hub_user *u, 
   signed int ret = 0;
   if((signed int)u->state == state_verify)
   {
-    signed int return_value_acl_password_verify$1;
-    return_value_acl_password_verify$1=acl_password_verify(hub, u, password);
-    if(!(return_value_acl_password_verify$1 == 0))
+    signed int return_value_acl_password_verify_1;
+    return_value_acl_password_verify_1=acl_password_verify(hub, u, password);
+    if(!(return_value_acl_password_verify_1 == 0))
       on_login_success(hub, u);
 
     else
@@ -17525,8 +17525,8 @@ extern signed int hub_handle_support(struct hub_info *hub, struct hub_user *u, s
   signed int ok = 1;
   char *arg;
   arg=adc_msg_get_argument(cmd, index);
-  signed int return_value_strncmp$1;
-  signed int return_value_user_flag_get$6;
+  signed int return_value_strncmp_1;
+  signed int return_value_user_flag_get_6;
   if(hub->status == 5)
   {
     if(!((signed int)u->state == state_protocol))
@@ -17544,20 +17544,20 @@ extern signed int hub_handle_support(struct hub_info *hub, struct hub_user *u, s
     ;
     while(!(arg == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(arg);
-      if(return_value_strlen$3 == 6ul)
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(arg);
+      if(return_value_strlen_3 == 6ul)
       {
         unsigned int fourcc = (unsigned int)((signed int)arg[(signed long int)2] << 24 | (signed int)arg[(signed long int)3] << 16 | (signed int)arg[(signed long int)4] << 8 | (signed int)arg[(signed long int)5]);
-        signed int return_value_strncmp$2;
-        return_value_strncmp$2=strncmp(arg, "AD", (unsigned long int)2);
-        if(return_value_strncmp$2 == 0)
+        signed int return_value_strncmp_2;
+        return_value_strncmp_2=strncmp(arg, "AD", (unsigned long int)2);
+        if(return_value_strncmp_2 == 0)
           user_support_add(u, (signed int)fourcc);
 
         else
         {
-          return_value_strncmp$1=strncmp(arg, "RM", (unsigned long int)2);
-          if(return_value_strncmp$1 == 0)
+          return_value_strncmp_1=strncmp(arg, "RM", (unsigned long int)2);
+          if(return_value_strncmp_1 == 0)
             user_support_remove(u, (signed int)fourcc);
 
           else
@@ -17582,13 +17582,13 @@ extern signed int hub_handle_support(struct hub_info *hub, struct hub_user *u, s
         return -1;
       }
 
-      signed int return_value_user_flag_get$7;
-      return_value_user_flag_get$7=user_flag_get(u, (enum user_flags)feature_base);
-      if(!(return_value_user_flag_get$7 == 0))
+      signed int return_value_user_flag_get_7;
+      return_value_user_flag_get_7=user_flag_get(u, (enum user_flags)feature_base);
+      if(!(return_value_user_flag_get_7 == 0))
       {
-        signed int return_value_user_flag_get$4;
-        return_value_user_flag_get$4=user_flag_get(u, (enum user_flags)feature_tiger);
-        if(!(return_value_user_flag_get$4 == 0))
+        signed int return_value_user_flag_get_4;
+        return_value_user_flag_get_4=user_flag_get(u, (enum user_flags)feature_tiger);
+        if(!(return_value_user_flag_get_4 == 0))
         {
           hub_send_handshake(hub, u);
           net_con_set_timeout(u->connection, 30);
@@ -17603,8 +17603,8 @@ extern signed int hub_handle_support(struct hub_info *hub, struct hub_user *u, s
 
       else
       {
-        return_value_user_flag_get$6=user_flag_get(u, (enum user_flags)feature_bas0);
-        if(!(return_value_user_flag_get$6 == 0))
+        return_value_user_flag_get_6=user_flag_get(u, (enum user_flags)feature_bas0);
+        if(!(return_value_user_flag_get_6 == 0))
         {
           if(!(hub->config->obsolete_clients == 0))
           {
@@ -17617,9 +17617,9 @@ extern signed int hub_handle_support(struct hub_info *hub, struct hub_user *u, s
             char *tmp;
             tmp=adc_msg_escape(hub->config->msg_proto_obsolete_adc0);
             struct adc_message *message;
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(tmp);
-            message=adc_msg_construct((unsigned int)(73 << 24 | 77 << 16 | 83 << 8 | 71), (unsigned long int)6 + return_value_strlen$5);
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(tmp);
+            message=adc_msg_construct((unsigned int)(73 << 24 | 77 << 16 | 83 << 8 | 71), (unsigned long int)6 + return_value_strlen_5);
             adc_msg_add_argument(message, tmp);
             free((void *)tmp);
             route_to_user(hub, u, message);
@@ -17766,10 +17766,10 @@ extern void hub_log_shutdown()
 extern void hub_logout_log(struct hub_info *hub, struct hub_user *user)
 {
   struct hub_logout_info *loginfo;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct hub_logout_info) /*144ul*/ );
-  loginfo = (struct hub_logout_info *)return_value_hub_malloc_zero$1;
-  unsigned long int return_value_list_size$2;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct hub_logout_info) /*144ul*/ );
+  loginfo = (struct hub_logout_info *)return_value_hub_malloc_zero_1;
+  unsigned long int return_value_list_size_2;
   if(!(loginfo == ((struct hub_logout_info *)NULL)))
   {
     loginfo->time=time((signed long int *)(void *)0);
@@ -17780,14 +17780,14 @@ extern void hub_logout_log(struct hub_info *hub, struct hub_user *user)
     list_append(hub->logout_info, (void *)loginfo);
     do
     {
-      return_value_list_size$2=list_size(hub->logout_info);
-      if((unsigned long int)hub->config->max_logout_log >= return_value_list_size$2)
+      return_value_list_size_2=list_size(hub->logout_info);
+      if((unsigned long int)hub->config->max_logout_log >= return_value_list_size_2)
         break;
 
       struct hub_logout_info *entry;
-      void *return_value_list_get_first$3;
-      return_value_list_get_first$3=list_get_first(hub->logout_info);
-      entry = (struct hub_logout_info *)return_value_list_get_first$3;
+      void *return_value_list_get_first_3;
+      return_value_list_get_first_3=list_get_first(hub->logout_info);
+      entry = (struct hub_logout_info *)return_value_list_get_first_3;
       list_remove(hub->logout_info, (void *)entry);
       free((void *)entry);
     }
@@ -17814,55 +17814,55 @@ static signed int hub_perform_login_checks(struct hub_info *hub, struct hub_user
 {
   do
   {
-    signed int hub_perform_login_checks$$1$$1$$ret;
-    hub_perform_login_checks$$1$$1$$ret=check_required_login_flags(hub, user, cmd);
-    if(!(hub_perform_login_checks$$1$$1$$ret >= 0))
-      return hub_perform_login_checks$$1$$1$$ret;
+    signed int hub_perform_login_checks__1__1__ret;
+    hub_perform_login_checks__1__1__ret=check_required_login_flags(hub, user, cmd);
+    if(!(hub_perform_login_checks__1__1__ret >= 0))
+      return hub_perform_login_checks__1__1__ret;
 
   }
   while((_Bool)0);
   do
   {
-    signed int hub_perform_login_checks$$1$$2$$ret;
-    hub_perform_login_checks$$1$$2$$ret=check_cid(hub, user, cmd);
-    if(!(hub_perform_login_checks$$1$$2$$ret >= 0))
-      return hub_perform_login_checks$$1$$2$$ret;
+    signed int hub_perform_login_checks__1__2__ret;
+    hub_perform_login_checks__1__2__ret=check_cid(hub, user, cmd);
+    if(!(hub_perform_login_checks__1__2__ret >= 0))
+      return hub_perform_login_checks__1__2__ret;
 
   }
   while((_Bool)0);
   do
   {
-    signed int hub_perform_login_checks$$1$$3$$ret;
-    hub_perform_login_checks$$1$$3$$ret=check_nick(hub, user, cmd);
-    if(!(hub_perform_login_checks$$1$$3$$ret >= 0))
-      return hub_perform_login_checks$$1$$3$$ret;
+    signed int hub_perform_login_checks__1__3__ret;
+    hub_perform_login_checks__1__3__ret=check_nick(hub, user, cmd);
+    if(!(hub_perform_login_checks__1__3__ret >= 0))
+      return hub_perform_login_checks__1__3__ret;
 
   }
   while((_Bool)0);
   do
   {
-    signed int hub_perform_login_checks$$1$$4$$ret;
-    hub_perform_login_checks$$1$$4$$ret=check_network(hub, user, cmd);
-    if(!(hub_perform_login_checks$$1$$4$$ret >= 0))
-      return hub_perform_login_checks$$1$$4$$ret;
+    signed int hub_perform_login_checks__1__4__ret;
+    hub_perform_login_checks__1__4__ret=check_network(hub, user, cmd);
+    if(!(hub_perform_login_checks__1__4__ret >= 0))
+      return hub_perform_login_checks__1__4__ret;
 
   }
   while((_Bool)0);
   do
   {
-    signed int hub_perform_login_checks$$1$$5$$ret;
-    hub_perform_login_checks$$1$$5$$ret=check_user_agent(hub, user, cmd);
-    if(!(hub_perform_login_checks$$1$$5$$ret >= 0))
-      return hub_perform_login_checks$$1$$5$$ret;
+    signed int hub_perform_login_checks__1__5__ret;
+    hub_perform_login_checks__1__5__ret=check_user_agent(hub, user, cmd);
+    if(!(hub_perform_login_checks__1__5__ret >= 0))
+      return hub_perform_login_checks__1__5__ret;
 
   }
   while((_Bool)0);
   do
   {
-    signed int hub_perform_login_checks$$1$$6$$ret;
-    hub_perform_login_checks$$1$$6$$ret=check_acl(hub, user, cmd);
-    if(!(hub_perform_login_checks$$1$$6$$ret >= 0))
-      return hub_perform_login_checks$$1$$6$$ret;
+    signed int hub_perform_login_checks__1__6__ret;
+    hub_perform_login_checks__1__6__ret=check_acl(hub, user, cmd);
+    if(!(hub_perform_login_checks__1__6__ret >= 0))
+      return hub_perform_login_checks__1__6__ret;
 
   }
   while((_Bool)0);
@@ -17882,28 +17882,28 @@ static signed int hub_perform_login_checks(struct hub_info *hub, struct hub_user
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hub.c line 870
 signed int hub_plugins_load(struct hub_info *hub)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(hub->config->file_plugins == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*hub->config->file_plugins != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*hub->config->file_plugins != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct uhub_plugins) /*8ul*/ );
-    hub->plugins = (struct uhub_plugins *)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct uhub_plugins) /*8ul*/ );
+    hub->plugins = (struct uhub_plugins *)return_value_hub_malloc_zero_2;
     if(hub->plugins == ((struct uhub_plugins *)NULL))
       return -1;
 
     else
     {
-      signed int return_value_plugin_initialize$3;
-      return_value_plugin_initialize$3=plugin_initialize(hub->config, hub);
-      if(!(return_value_plugin_initialize$3 >= 0))
+      signed int return_value_plugin_initialize_3;
+      return_value_plugin_initialize_3=plugin_initialize(hub->config, hub);
+      if(!(return_value_plugin_initialize_3 >= 0))
       {
         free((void *)hub->plugins);
         hub->plugins = ((struct uhub_plugins *)NULL);
@@ -17949,9 +17949,9 @@ extern void hub_send_flood_warning(struct hub_info *hub, struct hub_user *u, con
 {
   struct adc_message *msg;
   char *tmp;
-  signed int return_value_user_flag_get$1;
-  return_value_user_flag_get$1=user_flag_get(u, (enum user_flags)flag_flood);
-  if(return_value_user_flag_get$1 == 0)
+  signed int return_value_user_flag_get_1;
+  return_value_user_flag_get_1=user_flag_get(u, (enum user_flags)flag_flood);
+  if(return_value_user_flag_get_1 == 0)
   {
     msg=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 84 << 8 | 65), (unsigned long int)128);
     if(!(msg == ((struct adc_message *)NULL)))
@@ -17978,9 +17978,9 @@ extern void hub_send_handshake(struct hub_info *hub, struct hub_user *u)
   hub_send_sid(hub, u);
   hub_send_hubinfo(hub, u);
   route_flush_pipeline(hub, u);
-  signed int return_value_user_is_disconnecting$1;
-  return_value_user_is_disconnecting$1=user_is_disconnecting(u);
-  if(return_value_user_is_disconnecting$1 == 0)
+  signed int return_value_user_is_disconnecting_1;
+  return_value_user_is_disconnecting_1=user_is_disconnecting(u);
+  if(return_value_user_is_disconnecting_1 == 0)
     user_set_state(u, (enum user_state)state_identify);
 
 }
@@ -17993,156 +17993,156 @@ extern void hub_send_hubinfo(struct hub_info *hub, struct hub_user *u)
   info=adc_msg_copy(hub->command_info);
   signed int value = 0;
   unsigned long int size = (unsigned long int)0;
-  signed int return_value_user_flag_get$30;
-  return_value_user_flag_get$30=user_flag_get(u, (enum user_flags)feature_ping);
-  const char *return_value_uhub_ulltoa$9;
-  const char *return_value_uhub_ulltoa$10;
-  const char *return_value_uhub_itoa$12;
-  const char *return_value_uhub_itoa$14;
-  const char *return_value_uhub_itoa$16;
-  const char *return_value_uhub_itoa$18;
-  const char *return_value_uhub_itoa$20;
-  const char *return_value_uhub_itoa$22;
-  const char *return_value_uhub_itoa$24;
-  const char *return_value_uhub_itoa$26;
-  if(!(return_value_user_flag_get$30 == 0))
+  signed int return_value_user_flag_get_30;
+  return_value_user_flag_get_30=user_flag_get(u, (enum user_flags)feature_ping);
+  const char *return_value_uhub_ulltoa_9;
+  const char *return_value_uhub_ulltoa_10;
+  const char *return_value_uhub_itoa_12;
+  const char *return_value_uhub_itoa_14;
+  const char *return_value_uhub_itoa_16;
+  const char *return_value_uhub_itoa_18;
+  const char *return_value_uhub_itoa_20;
+  const char *return_value_uhub_itoa_22;
+  const char *return_value_uhub_itoa_24;
+  const char *return_value_uhub_itoa_26;
+  if(!(return_value_user_flag_get_30 == 0))
   {
-    unsigned long int return_value_hub_get_user_count$1;
-    return_value_hub_get_user_count$1=hub_get_user_count(hub);
-    const char *return_value_uhub_itoa$2;
-    return_value_uhub_itoa$2=uhub_itoa((signed int)return_value_hub_get_user_count$1);
-    adc_msg_add_named_argument(info, "UC", return_value_uhub_itoa$2);
-    unsigned long int return_value_hub_get_max_user_count$3;
-    return_value_hub_get_max_user_count$3=hub_get_max_user_count(hub);
-    const char *return_value_uhub_itoa$4;
-    return_value_uhub_itoa$4=uhub_itoa((signed int)return_value_hub_get_max_user_count$3);
-    adc_msg_add_named_argument(info, "MC", return_value_uhub_itoa$4);
-    unsigned long int return_value_hub_get_shared_size$5;
-    return_value_hub_get_shared_size$5=hub_get_shared_size(hub);
-    const char *return_value_uhub_ulltoa$6;
-    return_value_uhub_ulltoa$6=uhub_ulltoa(return_value_hub_get_shared_size$5);
-    adc_msg_add_named_argument(info, "SS", return_value_uhub_ulltoa$6);
-    unsigned long int return_value_hub_get_shared_files$7;
-    return_value_hub_get_shared_files$7=hub_get_shared_files(hub);
-    const char *return_value_uhub_ulltoa$8;
-    return_value_uhub_ulltoa$8=uhub_ulltoa(return_value_hub_get_shared_files$7);
-    adc_msg_add_named_argument(info, "SF", return_value_uhub_ulltoa$8);
+    unsigned long int return_value_hub_get_user_count_1;
+    return_value_hub_get_user_count_1=hub_get_user_count(hub);
+    const char *return_value_uhub_itoa_2;
+    return_value_uhub_itoa_2=uhub_itoa((signed int)return_value_hub_get_user_count_1);
+    adc_msg_add_named_argument(info, "UC", return_value_uhub_itoa_2);
+    unsigned long int return_value_hub_get_max_user_count_3;
+    return_value_hub_get_max_user_count_3=hub_get_max_user_count(hub);
+    const char *return_value_uhub_itoa_4;
+    return_value_uhub_itoa_4=uhub_itoa((signed int)return_value_hub_get_max_user_count_3);
+    adc_msg_add_named_argument(info, "MC", return_value_uhub_itoa_4);
+    unsigned long int return_value_hub_get_shared_size_5;
+    return_value_hub_get_shared_size_5=hub_get_shared_size(hub);
+    const char *return_value_uhub_ulltoa_6;
+    return_value_uhub_ulltoa_6=uhub_ulltoa(return_value_hub_get_shared_size_5);
+    adc_msg_add_named_argument(info, "SS", return_value_uhub_ulltoa_6);
+    unsigned long int return_value_hub_get_shared_files_7;
+    return_value_hub_get_shared_files_7=hub_get_shared_files(hub);
+    const char *return_value_uhub_ulltoa_8;
+    return_value_uhub_ulltoa_8=uhub_ulltoa(return_value_hub_get_shared_files_7);
+    adc_msg_add_named_argument(info, "SF", return_value_uhub_ulltoa_8);
     size=hub_get_max_share(hub);
     if(!(size == 0ul))
     {
-      return_value_uhub_ulltoa$9=uhub_ulltoa(size);
-      adc_msg_add_named_argument(info, "XS", return_value_uhub_ulltoa$9);
+      return_value_uhub_ulltoa_9=uhub_ulltoa(size);
+      adc_msg_add_named_argument(info, "XS", return_value_uhub_ulltoa_9);
     }
 
     size=hub_get_min_share(hub);
     if(!(size == 0ul))
     {
-      return_value_uhub_ulltoa$10=uhub_ulltoa(size);
-      adc_msg_add_named_argument(info, "MS", return_value_uhub_ulltoa$10);
+      return_value_uhub_ulltoa_10=uhub_ulltoa(size);
+      adc_msg_add_named_argument(info, "MS", return_value_uhub_ulltoa_10);
     }
 
-    unsigned long int return_value_hub_get_max_slots$11;
-    return_value_hub_get_max_slots$11=hub_get_max_slots(hub);
-    value = (signed int)return_value_hub_get_max_slots$11;
+    unsigned long int return_value_hub_get_max_slots_11;
+    return_value_hub_get_max_slots_11=hub_get_max_slots(hub);
+    value = (signed int)return_value_hub_get_max_slots_11;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$12=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "XL", return_value_uhub_itoa$12);
+      return_value_uhub_itoa_12=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "XL", return_value_uhub_itoa_12);
     }
 
-    unsigned long int return_value_hub_get_min_slots$13;
-    return_value_hub_get_min_slots$13=hub_get_min_slots(hub);
-    value = (signed int)return_value_hub_get_min_slots$13;
+    unsigned long int return_value_hub_get_min_slots_13;
+    return_value_hub_get_min_slots_13=hub_get_min_slots(hub);
+    value = (signed int)return_value_hub_get_min_slots_13;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$14=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "ML", return_value_uhub_itoa$14);
+      return_value_uhub_itoa_14=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "ML", return_value_uhub_itoa_14);
     }
 
-    unsigned long int return_value_hub_get_max_hubs_user$15;
-    return_value_hub_get_max_hubs_user$15=hub_get_max_hubs_user(hub);
-    value = (signed int)return_value_hub_get_max_hubs_user$15;
+    unsigned long int return_value_hub_get_max_hubs_user_15;
+    return_value_hub_get_max_hubs_user_15=hub_get_max_hubs_user(hub);
+    value = (signed int)return_value_hub_get_max_hubs_user_15;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$16=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "XU", return_value_uhub_itoa$16);
+      return_value_uhub_itoa_16=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "XU", return_value_uhub_itoa_16);
     }
 
-    unsigned long int return_value_hub_get_min_hubs_user$17;
-    return_value_hub_get_min_hubs_user$17=hub_get_min_hubs_user(hub);
-    value = (signed int)return_value_hub_get_min_hubs_user$17;
+    unsigned long int return_value_hub_get_min_hubs_user_17;
+    return_value_hub_get_min_hubs_user_17=hub_get_min_hubs_user(hub);
+    value = (signed int)return_value_hub_get_min_hubs_user_17;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$18=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "MU", return_value_uhub_itoa$18);
+      return_value_uhub_itoa_18=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "MU", return_value_uhub_itoa_18);
     }
 
-    unsigned long int return_value_hub_get_max_hubs_reg$19;
-    return_value_hub_get_max_hubs_reg$19=hub_get_max_hubs_reg(hub);
-    value = (signed int)return_value_hub_get_max_hubs_reg$19;
+    unsigned long int return_value_hub_get_max_hubs_reg_19;
+    return_value_hub_get_max_hubs_reg_19=hub_get_max_hubs_reg(hub);
+    value = (signed int)return_value_hub_get_max_hubs_reg_19;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$20=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "XR", return_value_uhub_itoa$20);
+      return_value_uhub_itoa_20=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "XR", return_value_uhub_itoa_20);
     }
 
-    unsigned long int return_value_hub_get_min_hubs_reg$21;
-    return_value_hub_get_min_hubs_reg$21=hub_get_min_hubs_reg(hub);
-    value = (signed int)return_value_hub_get_min_hubs_reg$21;
+    unsigned long int return_value_hub_get_min_hubs_reg_21;
+    return_value_hub_get_min_hubs_reg_21=hub_get_min_hubs_reg(hub);
+    value = (signed int)return_value_hub_get_min_hubs_reg_21;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$22=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "MR", return_value_uhub_itoa$22);
+      return_value_uhub_itoa_22=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "MR", return_value_uhub_itoa_22);
     }
 
-    unsigned long int return_value_hub_get_max_hubs_op$23;
-    return_value_hub_get_max_hubs_op$23=hub_get_max_hubs_op(hub);
-    value = (signed int)return_value_hub_get_max_hubs_op$23;
+    unsigned long int return_value_hub_get_max_hubs_op_23;
+    return_value_hub_get_max_hubs_op_23=hub_get_max_hubs_op(hub);
+    value = (signed int)return_value_hub_get_max_hubs_op_23;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$24=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "XO", return_value_uhub_itoa$24);
+      return_value_uhub_itoa_24=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "XO", return_value_uhub_itoa_24);
     }
 
-    unsigned long int return_value_hub_get_min_hubs_op$25;
-    return_value_hub_get_min_hubs_op$25=hub_get_min_hubs_op(hub);
-    value = (signed int)return_value_hub_get_min_hubs_op$25;
+    unsigned long int return_value_hub_get_min_hubs_op_25;
+    return_value_hub_get_min_hubs_op_25=hub_get_min_hubs_op(hub);
+    value = (signed int)return_value_hub_get_min_hubs_op_25;
     if(!(value == 0))
     {
-      return_value_uhub_itoa$26=uhub_itoa(value);
-      adc_msg_add_named_argument(info, "MO", return_value_uhub_itoa$26);
+      return_value_uhub_itoa_26=uhub_itoa(value);
+      adc_msg_add_named_argument(info, "MO", return_value_uhub_itoa_26);
     }
 
-    signed long int return_value_time$27;
-    return_value_time$27=time(((signed long int *)NULL));
-    double return_value_difftime$28;
-    return_value_difftime$28=difftime(return_value_time$27, hub->tm_started);
-    const char *return_value_uhub_itoa$29;
-    return_value_uhub_itoa$29=uhub_itoa((signed int)return_value_difftime$28);
-    adc_msg_add_named_argument(info, "UP", return_value_uhub_itoa$29);
+    signed long int return_value_time_27;
+    return_value_time_27=time(((signed long int *)NULL));
+    double return_value_difftime_28;
+    return_value_difftime_28=difftime(return_value_time_27, hub->tm_started);
+    const char *return_value_uhub_itoa_29;
+    return_value_uhub_itoa_29=uhub_itoa((signed int)return_value_difftime_28);
+    adc_msg_add_named_argument(info, "UP", return_value_uhub_itoa_29);
   }
 
-  signed int return_value_user_is_connecting$31;
-  return_value_user_is_connecting$31=user_is_connecting(u);
-  _Bool tmp_if_expr$33;
-  signed int return_value_user_is_logged_in$32;
-  if(!(return_value_user_is_connecting$31 == 0))
-    tmp_if_expr$33 = (_Bool)1;
+  signed int return_value_user_is_connecting_31;
+  return_value_user_is_connecting_31=user_is_connecting(u);
+  _Bool tmp_if_expr_33;
+  signed int return_value_user_is_logged_in_32;
+  if(!(return_value_user_is_connecting_31 == 0))
+    tmp_if_expr_33 = (_Bool)1;
 
   else
   {
-    return_value_user_is_logged_in$32=user_is_logged_in(u);
-    tmp_if_expr$33 = return_value_user_is_logged_in$32 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_user_is_logged_in_32=user_is_logged_in(u);
+    tmp_if_expr_33 = return_value_user_is_logged_in_32 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$33)
+  if(tmp_if_expr_33)
     route_to_user(hub, u, info);
 
   adc_msg_free(info);
-  signed int return_value_user_is_connecting$34;
+  signed int return_value_user_is_connecting_34;
   if(!(hub->config->show_banner == 0))
   {
-    return_value_user_is_connecting$34=user_is_connecting(u);
-    if(!(return_value_user_is_connecting$34 == 0))
+    return_value_user_is_connecting_34=user_is_connecting(u);
+    if(!(return_value_user_is_connecting_34 == 0))
       route_to_user(hub, u, hub->command_banner);
 
   }
@@ -18155,9 +18155,9 @@ extern void hub_send_password_challenge(struct hub_info *hub, struct hub_user *u
 {
   struct adc_message *igpa;
   igpa=adc_msg_construct((unsigned int)(73 << 24 | 71 << 16 | 80 << 8 | 65), (unsigned long int)38);
-  const char *return_value_acl_password_generate_challenge$1;
-  return_value_acl_password_generate_challenge$1=acl_password_generate_challenge(hub, u);
-  adc_msg_add_argument(igpa, return_value_acl_password_generate_challenge$1);
+  const char *return_value_acl_password_generate_challenge_1;
+  return_value_acl_password_generate_challenge_1=acl_password_generate_challenge(hub, u);
+  adc_msg_add_argument(igpa, return_value_acl_password_generate_challenge_1);
   user_set_state(u, (enum user_state)state_verify);
   route_to_user(hub, u, igpa);
   adc_msg_free(igpa);
@@ -18183,15 +18183,15 @@ extern void hub_send_sid(struct hub_info *hub, struct hub_user *u)
 {
   unsigned int sid;
   struct adc_message *command;
-  signed int return_value_user_is_connecting$2;
-  return_value_user_is_connecting$2=user_is_connecting(u);
-  if(!(return_value_user_is_connecting$2 == 0))
+  signed int return_value_user_is_connecting_2;
+  return_value_user_is_connecting_2=user_is_connecting(u);
+  if(!(return_value_user_is_connecting_2 == 0))
   {
     command=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 73 << 8 | 68), (unsigned long int)10);
     sid=uman_get_free_sid(hub->users, u);
-    char *return_value_sid_to_string$1;
-    return_value_sid_to_string$1=sid_to_string(sid);
-    adc_msg_add_argument(command, (const char *)return_value_sid_to_string$1);
+    char *return_value_sid_to_string_1;
+    return_value_sid_to_string_1=sid_to_string(sid);
+    adc_msg_add_argument(command, (const char *)return_value_sid_to_string_1);
     route_to_user(hub, u, command);
     adc_msg_free(command);
   }
@@ -18512,9 +18512,9 @@ extern void hub_send_status(struct hub_info *hub, struct hub_user *user, enum st
     route_to_user(hub, user, cmd);
     if((signed int)level >= status_level_fatal)
     {
-      char *return_value_sid_to_string$1;
-      return_value_sid_to_string$1=sid_to_string(user->id.sid);
-      adc_msg_add_argument(qui, return_value_sid_to_string$1);
+      char *return_value_sid_to_string_1;
+      return_value_sid_to_string_1=sid_to_string(user->id.sid);
+      adc_msg_add_argument(qui, return_value_sid_to_string_1);
       snprintf(buf, (unsigned long int)230, "MS%s", escaped_text);
       adc_msg_add_argument(qui, buf);
       if(!(reconnect_time == 0))
@@ -18546,19 +18546,19 @@ extern void hub_send_status(struct hub_info *hub, struct hub_user *user, enum st
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hub.c line 368
 extern void hub_send_support(struct hub_info *hub, struct hub_user *u)
 {
-  signed int return_value_user_is_connecting$1;
-  return_value_user_is_connecting$1=user_is_connecting(u);
-  _Bool tmp_if_expr$3;
-  signed int return_value_user_is_logged_in$2;
-  if(!(return_value_user_is_connecting$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_user_is_connecting_1;
+  return_value_user_is_connecting_1=user_is_connecting(u);
+  _Bool tmp_if_expr_3;
+  signed int return_value_user_is_logged_in_2;
+  if(!(return_value_user_is_connecting_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_user_is_logged_in$2=user_is_logged_in(u);
-    tmp_if_expr$3 = return_value_user_is_logged_in$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_user_is_logged_in_2=user_is_logged_in(u);
+    tmp_if_expr_3 = return_value_user_is_logged_in_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     route_to_user(hub, u, hub->command_support);
 
 }
@@ -18591,15 +18591,15 @@ extern void hub_set_variables(struct hub_info *hub, struct acl_handle *acl)
     free((void *)tmp);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("ADBASE ADTIGR ADPING ADUCMD");
-  hub->command_support=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 85 << 8 | 80), (unsigned long int)6 + return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("ADBASE ADTIGR ADPING ADUCMD");
+  hub->command_support=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 85 << 8 | 80), (unsigned long int)6 + return_value_strlen_1);
   if(!(hub->command_support == ((struct adc_message *)NULL)))
     adc_msg_add_argument(hub->command_support, "ADBASE ADTIGR ADPING ADUCMD");
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(server);
-  hub->command_banner=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 84 << 8 | 65), (unsigned long int)100 + return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(server);
+  hub->command_banner=adc_msg_construct((unsigned int)(73 << 24 | 83 << 16 | 84 << 8 | 65), (unsigned long int)100 + return_value_strlen_2);
   if(!(hub->command_banner == ((struct adc_message *)NULL)))
   {
     if(!(hub->config->show_banner_sys_info == 0))
@@ -18612,9 +18612,9 @@ extern void hub_set_variables(struct hub_info *hub, struct acl_handle *acl)
     free((void *)tmp);
   }
 
-  signed int return_value_hub_plugins_load$3;
-  return_value_hub_plugins_load$3=hub_plugins_load(hub);
-  if(!(return_value_hub_plugins_load$3 >= 0))
+  signed int return_value_hub_plugins_load_3;
+  return_value_hub_plugins_load_3=hub_plugins_load(hub);
+  if(!(return_value_hub_plugins_load_3 >= 0))
   {
     hub_log(0, "Unable to load plugins.");
     hub->status = 3;
@@ -18632,13 +18632,13 @@ extern void hub_shutdown_service(struct hub_info *hub)
 
 __CPROVER_DUMP_L1:
   ;
-  struct timeout_queue *return_value_net_backend_get_timeout_queue$2;
-  return_value_net_backend_get_timeout_queue$2=net_backend_get_timeout_queue();
-  if(!(return_value_net_backend_get_timeout_queue$2 == ((struct timeout_queue *)NULL)))
+  struct timeout_queue *return_value_net_backend_get_timeout_queue_2;
+  return_value_net_backend_get_timeout_queue_2=net_backend_get_timeout_queue();
+  if(!(return_value_net_backend_get_timeout_queue_2 == ((struct timeout_queue *)NULL)))
   {
-    struct timeout_queue *return_value_net_backend_get_timeout_queue$1;
-    return_value_net_backend_get_timeout_queue$1=net_backend_get_timeout_queue();
-    timeout_queue_remove(return_value_net_backend_get_timeout_queue$1, hub->stats.timeout);
+    struct timeout_queue *return_value_net_backend_get_timeout_queue_1;
+    return_value_net_backend_get_timeout_queue_1=net_backend_get_timeout_queue();
+    timeout_queue_remove(return_value_net_backend_get_timeout_queue_1, hub->stats.timeout);
     free((void *)hub->stats.timeout);
   }
 
@@ -18664,10 +18664,10 @@ extern struct hub_info * hub_start_service(struct hub_config *config)
 {
   struct hub_info *hub = ((struct hub_info *)NULL);
   signed int ipv6_supported;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct hub_info) /*192ul*/ );
-  hub = (struct hub_info *)return_value_hub_malloc_zero$1;
-  _Bool tmp_if_expr$7;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct hub_info) /*192ul*/ );
+  hub = (struct hub_info *)return_value_hub_malloc_zero_1;
+  _Bool tmp_if_expr_7;
   if(hub == ((struct hub_info *)NULL))
   {
     hub_log(0, "Unable to allocate memory for hub");
@@ -18697,12 +18697,12 @@ extern struct hub_info * hub_start_service(struct hub_config *config)
 
     else
     {
-      const char *return_value_net_get_local_address$2;
-      return_value_net_get_local_address$2=net_get_local_address(hub->server->sd);
-      hub_log(4, "Starting uhub/0.4.1, listening on %s:%d...", return_value_net_get_local_address$2, config->server_port);
-      signed int return_value_load_ssl_certificates$3;
-      return_value_load_ssl_certificates$3=load_ssl_certificates(hub, config);
-      if(return_value_load_ssl_certificates$3 == 0)
+      const char *return_value_net_get_local_address_2;
+      return_value_net_get_local_address_2=net_get_local_address(hub->server->sd);
+      hub_log(4, "Starting uhub/0.4.1, listening on %s:%d...", return_value_net_get_local_address_2, config->server_port);
+      signed int return_value_load_ssl_certificates_3;
+      return_value_load_ssl_certificates_3=load_ssl_certificates(hub, config);
+      if(return_value_load_ssl_certificates_3 == 0)
       {
         free((void *)hub);
         return ((struct hub_info *)NULL);
@@ -18722,9 +18722,9 @@ extern struct hub_info * hub_start_service(struct hub_config *config)
 
         else
         {
-          signed int return_value_event_queue_initialize$4;
-          return_value_event_queue_initialize$4=event_queue_initialize(&hub->queue, hub_event_dispatcher, (void *)hub);
-          if(return_value_event_queue_initialize$4 == -1)
+          signed int return_value_event_queue_initialize_4;
+          return_value_event_queue_initialize_4=event_queue_initialize(&hub->queue, hub_event_dispatcher, (void *)hub);
+          if(return_value_event_queue_initialize_4 == -1)
           {
             net_con_close(hub->server);
             uman_shutdown(hub->users);
@@ -18734,18 +18734,18 @@ extern struct hub_info * hub_start_service(struct hub_config *config)
 
           else
           {
-            void *return_value_malloc$5;
-            return_value_malloc$5=malloc((unsigned long int)65535);
-            hub->recvbuf = (char *)return_value_malloc$5;
-            void *return_value_malloc$6;
-            return_value_malloc$6=malloc((unsigned long int)65535);
-            hub->sendbuf = (char *)return_value_malloc$6;
+            void *return_value_malloc_5;
+            return_value_malloc_5=malloc((unsigned long int)65535);
+            hub->recvbuf = (char *)return_value_malloc_5;
+            void *return_value_malloc_6;
+            return_value_malloc_6=malloc((unsigned long int)65535);
+            hub->sendbuf = (char *)return_value_malloc_6;
             if(hub->recvbuf == ((char *)NULL))
-              tmp_if_expr$7 = (_Bool)1;
+              tmp_if_expr_7 = (_Bool)1;
 
             else
-              tmp_if_expr$7 = !(hub->sendbuf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = !(hub->sendbuf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_7)
             {
               net_con_close(hub->server);
               free((void *)hub->recvbuf);
@@ -18757,23 +18757,23 @@ extern struct hub_info * hub_start_service(struct hub_config *config)
 
             else
             {
-              struct linked_list *return_value_list_create$8;
-              return_value_list_create$8=list_create();
-              hub->logout_info = (struct linked_list *)return_value_list_create$8;
+              struct linked_list *return_value_list_create_8;
+              return_value_list_create_8=list_create();
+              hub->logout_info = (struct linked_list *)return_value_list_create_8;
               server_alt_port_start(hub, config);
               hub->status = 1;
               g_hub = hub;
-              struct timeout_queue *return_value_net_backend_get_timeout_queue$11;
-              return_value_net_backend_get_timeout_queue$11=net_backend_get_timeout_queue();
-              if(!(return_value_net_backend_get_timeout_queue$11 == ((struct timeout_queue *)NULL)))
+              struct timeout_queue *return_value_net_backend_get_timeout_queue_11;
+              return_value_net_backend_get_timeout_queue_11=net_backend_get_timeout_queue();
+              if(!(return_value_net_backend_get_timeout_queue_11 == ((struct timeout_queue *)NULL)))
               {
-                void *return_value_hub_malloc_zero$9;
-                return_value_hub_malloc_zero$9=hub_malloc_zero(sizeof(struct timeout_evt) /*40ul*/ );
-                hub->stats.timeout = (struct timeout_evt *)return_value_hub_malloc_zero$9;
+                void *return_value_hub_malloc_zero_9;
+                return_value_hub_malloc_zero_9=hub_malloc_zero(sizeof(struct timeout_evt) /*40ul*/ );
+                hub->stats.timeout = (struct timeout_evt *)return_value_hub_malloc_zero_9;
                 timeout_evt_initialize(hub->stats.timeout, hub_timer_statistics, (void *)hub);
-                struct timeout_queue *return_value_net_backend_get_timeout_queue$10;
-                return_value_net_backend_get_timeout_queue$10=net_backend_get_timeout_queue();
-                timeout_queue_insert(return_value_net_backend_get_timeout_queue$10, hub->stats.timeout, (unsigned long int)10);
+                struct timeout_queue *return_value_net_backend_get_timeout_queue_10;
+                return_value_net_backend_get_timeout_queue_10=net_backend_get_timeout_queue();
+                timeout_queue_insert(return_value_net_backend_get_timeout_queue_10, hub->stats.timeout, (unsigned long int)10);
               }
 
               hub->commands=command_initialize(hub);
@@ -18792,9 +18792,9 @@ static void hub_timer_statistics(struct timeout_evt *t)
 {
   struct hub_info *hub = (struct hub_info *)t->ptr;
   hub_update_stats(hub);
-  struct timeout_queue *return_value_net_backend_get_timeout_queue$1;
-  return_value_net_backend_get_timeout_queue$1=net_backend_get_timeout_queue();
-  timeout_queue_reschedule(return_value_net_backend_get_timeout_queue$1, hub->stats.timeout, (unsigned long int)10);
+  struct timeout_queue *return_value_net_backend_get_timeout_queue_1;
+  return_value_net_backend_get_timeout_queue_1=net_backend_get_timeout_queue();
+  timeout_queue_reschedule(return_value_net_backend_get_timeout_queue_1, hub->stats.timeout, (unsigned long int)10);
 }
 
 // hub_update_stats
@@ -18807,20 +18807,20 @@ static void hub_update_stats(struct hub_info *hub)
   net_stats_get(&intermediate, &total);
   hub->stats.net_tx = intermediate->tx / (unsigned long int)factor;
   hub->stats.net_rx = intermediate->rx / (unsigned long int)factor;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(hub->stats.net_tx_peak >= hub->stats.net_tx))
-    tmp_if_expr$1 = hub->stats.net_tx;
+    tmp_if_expr_1 = hub->stats.net_tx;
 
   else
-    tmp_if_expr$1 = hub->stats.net_tx_peak;
-  hub->stats.net_tx_peak = tmp_if_expr$1;
-  unsigned long int tmp_if_expr$2;
+    tmp_if_expr_1 = hub->stats.net_tx_peak;
+  hub->stats.net_tx_peak = tmp_if_expr_1;
+  unsigned long int tmp_if_expr_2;
   if(!(hub->stats.net_rx_peak >= hub->stats.net_rx))
-    tmp_if_expr$2 = hub->stats.net_rx;
+    tmp_if_expr_2 = hub->stats.net_rx;
 
   else
-    tmp_if_expr$2 = hub->stats.net_rx_peak;
-  hub->stats.net_rx_peak = tmp_if_expr$2;
+    tmp_if_expr_2 = hub->stats.net_rx_peak;
+  hub->stats.net_rx_peak = tmp_if_expr_2;
   hub->stats.net_tx_total = total->tx;
   hub->stats.net_rx_total = total->rx;
   net_stats_reset();
@@ -18831,9 +18831,9 @@ static void hub_update_stats(struct hub_info *hub)
 extern struct ioq_recv * ioq_recv_create()
 {
   struct ioq_recv *q;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct ioq_recv) /*16ul*/ );
-  q = (struct ioq_recv *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct ioq_recv) /*16ul*/ );
+  q = (struct ioq_recv *)return_value_hub_malloc_zero_1;
   return q;
 }
 
@@ -18882,9 +18882,9 @@ extern unsigned long int ioq_recv_set(struct ioq_recv *q, void *buf, unsigned lo
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(bufsize);
-    q->buf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(bufsize);
+    q->buf = (char *)return_value_malloc_1;
     if(q->buf == ((char *)NULL))
       return (unsigned long int)0;
 
@@ -18912,9 +18912,9 @@ extern void ioq_send_add(struct ioq_send *q, struct adc_message *msg_)
 extern struct ioq_send * ioq_send_create()
 {
   struct ioq_send *q;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct ioq_send) /*32ul*/ );
-  q = (struct ioq_send *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct ioq_send) /*32ul*/ );
+  q = (struct ioq_send *)return_value_hub_malloc_zero_1;
   if(q == ((struct ioq_send *)NULL))
     return ((struct ioq_send *)NULL);
 
@@ -18975,17 +18975,17 @@ extern signed int ioq_send_send(struct ioq_send *q, struct net_connection *con)
 {
   signed int ret;
   struct adc_message *msg;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(q->queue);
-  msg = (struct adc_message *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(q->queue);
+  msg = (struct adc_message *)return_value_list_get_first_1;
   if(msg == ((struct adc_message *)NULL))
     return 0;
 
   else
   {
-    signed long int return_value_net_con_send$2;
-    return_value_net_con_send$2=net_con_send(con, (const void *)(msg->cache + (signed long int)q->offset), msg->length - q->offset);
-    ret = (signed int)return_value_net_con_send$2;
+    signed long int return_value_net_con_send_2;
+    return_value_net_con_send_2=net_con_send(con, (const void *)(msg->cache + (signed long int)q->offset), msg->length - q->offset);
+    ret = (signed int)return_value_net_con_send_2;
     if(ret >= 1)
     {
       q->offset = q->offset + (unsigned long int)ret;
@@ -19046,14 +19046,14 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
   const char *taddr = ((const char *)NULL);
   signed int ipv6sup;
   ipv6sup=net_is_ipv6_supported();
-  signed int tmp_statement_expression$3;
-  unsigned long int ip_convert_address$$1$$1$$__s1_len;
-  unsigned long int ip_convert_address$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$4;
-  return_value___builtin_strcmp$4=__builtin_strcmp(text_address, "any");
-  tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-  signed int tmp_statement_expression$1;
-  if(tmp_statement_expression$3 == 0)
+  signed int tmp_statement_expression_3;
+  unsigned long int ip_convert_address__1__1____s1_len;
+  unsigned long int ip_convert_address__1__1____s2_len;
+  signed int return_value___builtin_strcmp_4;
+  return_value___builtin_strcmp_4=__builtin_strcmp(text_address, "any");
+  tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+  signed int tmp_statement_expression_1;
+  if(tmp_statement_expression_3 == 0)
   {
     if(!(ipv6sup == 0))
       taddr = "::";
@@ -19066,10 +19066,10 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(text_address, "loopback");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(text_address, "loopback");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
     {
       if(!(ipv6sup == 0))
         taddr = "::1";
@@ -19081,24 +19081,24 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
     else
       taddr = text_address;
   }
-  signed int return_value_ip_is_valid_ipv6$10;
-  return_value_ip_is_valid_ipv6$10=ip_is_valid_ipv6(taddr);
-  unsigned short int tmp_statement_expression$5;
-  signed int return_value_ip_is_valid_ipv4$9;
-  unsigned short int tmp_statement_expression$7;
-  if(!(return_value_ip_is_valid_ipv6$10 == 0) && !(ipv6sup == 0))
+  signed int return_value_ip_is_valid_ipv6_10;
+  return_value_ip_is_valid_ipv6_10=ip_is_valid_ipv6(taddr);
+  unsigned short int tmp_statement_expression_5;
+  signed int return_value_ip_is_valid_ipv4_9;
+  unsigned short int tmp_statement_expression_7;
+  if(!(return_value_ip_is_valid_ipv6_10 == 0) && !(ipv6sup == 0))
   {
     sockaddr_size = sizeof(struct sockaddr_in6) /*28ul*/ ;
     memset((void *)&addr6, 0, sockaddr_size);
     addr6.sin6_family = (unsigned short int)10;
-    unsigned short int ip_convert_address$$1$$6$$1$$__v;
-    unsigned short int ip_convert_address$$1$$6$$1$$__x = (unsigned short int)port;
-    asm("rorw $8, %w0" : "=r"(ip_convert_address$$1$$6$$1$$__v) : "0"(ip_convert_address$$1$$6$$1$$__x) : "cc");
-    tmp_statement_expression$5 = ip_convert_address$$1$$6$$1$$__v;
-    addr6.sin6_port = tmp_statement_expression$5;
-    signed int return_value_net_string_to_address$6;
-    return_value_net_string_to_address$6=net_string_to_address(10, taddr, (void *)&addr6.sin6_addr);
-    if(!(return_value_net_string_to_address$6 >= 1))
+    unsigned short int ip_convert_address__1__6__1____v;
+    unsigned short int ip_convert_address__1__6__1____x = (unsigned short int)port;
+    asm("rorw _8, %w0" : "=r"(ip_convert_address__1__6__1____v) : "0"(ip_convert_address__1__6__1____x) : "cc");
+    tmp_statement_expression_5 = ip_convert_address__1__6__1____v;
+    addr6.sin6_port = tmp_statement_expression_5;
+    signed int return_value_net_string_to_address_6;
+    return_value_net_string_to_address_6=net_string_to_address(10, taddr, (void *)&addr6.sin6_addr);
+    if(!(return_value_net_string_to_address_6 >= 1))
     {
       hub_log(1, "Unable to convert socket address (ipv6)");
       return 0;
@@ -19110,20 +19110,20 @@ extern signed int ip_convert_address(const char *text_address, signed int port, 
 
   else
   {
-    return_value_ip_is_valid_ipv4$9=ip_is_valid_ipv4(taddr);
-    if(!(return_value_ip_is_valid_ipv4$9 == 0))
+    return_value_ip_is_valid_ipv4_9=ip_is_valid_ipv4(taddr);
+    if(!(return_value_ip_is_valid_ipv4_9 == 0))
     {
       sockaddr_size = sizeof(struct sockaddr_in) /*16ul*/ ;
       memset((void *)&addr4, 0, sockaddr_size);
       addr4.sin_family = (unsigned short int)2;
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$7 = __v;
-      addr4.sin_port = tmp_statement_expression$7;
-      signed int return_value_net_string_to_address$8;
-      return_value_net_string_to_address$8=net_string_to_address(2, taddr, (void *)&addr4.sin_addr);
-      if(!(return_value_net_string_to_address$8 >= 1))
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_7 = __v;
+      addr4.sin_port = tmp_statement_expression_7;
+      signed int return_value_net_string_to_address_8;
+      return_value_net_string_to_address_8=net_string_to_address(2, taddr, (void *)&addr4.sin_addr);
+      if(!(return_value_net_string_to_address_8 >= 1))
       {
         hub_log(1, "Unable to convert socket address (ipv4)");
         return 0;
@@ -19150,8 +19150,8 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
   signed int ret = 0;
   char *addr = ((char *)NULL);
   const char *split;
-  _Bool tmp_if_expr$6;
-  signed int return_value_ip_is_valid_ipv6$5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_ip_is_valid_ipv6_5;
   if(address == ((const char *)NULL) || range == ((struct ip_range *)NULL))
     return 0;
 
@@ -19169,9 +19169,9 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
 
       }
 
-      char *return_value___strndup$1;
-      return_value___strndup$1=__strndup(address, (unsigned long int)(split - address));
-      addr = return_value___strndup$1;
+      char *return_value___strndup_1;
+      return_value___strndup_1=__strndup(address, (unsigned long int)(split - address));
+      addr = return_value___strndup_1;
       ret=check_ip_mask(addr, mask, range);
       free((void *)addr);
       return ret;
@@ -19180,29 +19180,29 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
     split=strrchr(address, 45);
     if(!(split == ((const char *)NULL)))
     {
-      char *return_value___strndup$2;
-      return_value___strndup$2=__strndup(address, (unsigned long int)(split - address));
-      addr = return_value___strndup$2;
+      char *return_value___strndup_2;
+      return_value___strndup_2=__strndup(address, (unsigned long int)(split - address));
+      addr = return_value___strndup_2;
       ret=check_ip_range(addr, split + (signed long int)1, range);
       free((void *)addr);
       return ret;
     }
 
-    signed int return_value_ip_is_valid_ipv4$4;
-    return_value_ip_is_valid_ipv4$4=ip_is_valid_ipv4(address);
-    if(!(return_value_ip_is_valid_ipv4$4 == 0))
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_ip_is_valid_ipv4_4;
+    return_value_ip_is_valid_ipv4_4=ip_is_valid_ipv4(address);
+    if(!(return_value_ip_is_valid_ipv4_4 == 0))
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_ip_is_valid_ipv6$5=ip_is_valid_ipv6(address);
-      tmp_if_expr$6 = return_value_ip_is_valid_ipv6$5 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_ip_is_valid_ipv6_5=ip_is_valid_ipv6(address);
+      tmp_if_expr_6 = return_value_ip_is_valid_ipv6_5 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
-      signed int return_value_ip_convert_to_binary$3;
-      return_value_ip_convert_to_binary$3=ip_convert_to_binary(address, &range->lo);
-      if(return_value_ip_convert_to_binary$3 == -1)
+      signed int return_value_ip_convert_to_binary_3;
+      return_value_ip_convert_to_binary_3=ip_convert_to_binary(address, &range->lo);
+      if(return_value_ip_convert_to_binary_3 == -1)
         return 0;
 
       memcpy((void *)&range->hi, (const void *)&range->lo, sizeof(struct ip_addr_encap) /*20ul*/ );
@@ -19217,14 +19217,14 @@ extern signed int ip_convert_address_to_range(const char *address, struct ip_ran
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.h line 42
 extern signed int ip_convert_to_binary(const char *taddr, struct ip_addr_encap *raw)
 {
-  signed int return_value_ip_is_valid_ipv6$4;
-  return_value_ip_is_valid_ipv6$4=ip_is_valid_ipv6(taddr);
-  signed int return_value_ip_is_valid_ipv4$3;
-  if(!(return_value_ip_is_valid_ipv6$4 == 0))
+  signed int return_value_ip_is_valid_ipv6_4;
+  return_value_ip_is_valid_ipv6_4=ip_is_valid_ipv6(taddr);
+  signed int return_value_ip_is_valid_ipv4_3;
+  if(!(return_value_ip_is_valid_ipv6_4 == 0))
   {
-    signed int return_value_net_string_to_address$1;
-    return_value_net_string_to_address$1=net_string_to_address(10, taddr, (void *)&raw->internal_ip_data.in6);
-    if(!(return_value_net_string_to_address$1 >= 1))
+    signed int return_value_net_string_to_address_1;
+    return_value_net_string_to_address_1=net_string_to_address(10, taddr, (void *)&raw->internal_ip_data.in6);
+    if(!(return_value_net_string_to_address_1 >= 1))
       return -1;
 
     raw->af = 10;
@@ -19233,12 +19233,12 @@ extern signed int ip_convert_to_binary(const char *taddr, struct ip_addr_encap *
 
   else
   {
-    return_value_ip_is_valid_ipv4$3=ip_is_valid_ipv4(taddr);
-    if(!(return_value_ip_is_valid_ipv4$3 == 0))
+    return_value_ip_is_valid_ipv4_3=ip_is_valid_ipv4(taddr);
+    if(!(return_value_ip_is_valid_ipv4_3 == 0))
     {
-      signed int return_value_net_string_to_address$2;
-      return_value_net_string_to_address$2=net_string_to_address(2, taddr, (void *)&raw->internal_ip_data.in);
-      if(!(return_value_net_string_to_address$2 >= 1))
+      signed int return_value_net_string_to_address_2;
+      return_value_net_string_to_address_2=net_string_to_address(2, taddr, (void *)&raw->internal_ip_data.in);
+      if(!(return_value_net_string_to_address_2 >= 1))
         return -1;
 
       raw->af = 2;
@@ -19256,9 +19256,9 @@ extern const char * ip_convert_to_string(struct ip_addr_encap *raw)
   static char address[47l];
   memset((void *)address, 0, (unsigned long int)46);
   net_address_to_string(raw->af, (void *)&raw->internal_ip_data, address, (unsigned int)(46 + 1));
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(address, "::ffff:", (unsigned long int)7);
-  if(return_value_strncmp$1 == 0)
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(address, "::ffff:", (unsigned long int)7);
+  if(return_value_strncmp_1 == 0)
     return &address[(signed long int)7];
 
   else
@@ -19269,27 +19269,27 @@ extern const char * ip_convert_to_string(struct ip_addr_encap *raw)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/ipcalc.h line 71
 extern signed int ip_in_range(struct ip_addr_encap *addr, struct ip_range *range)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_ip_compare$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_ip_compare_1;
   if(addr->af == range->lo.af)
   {
-    return_value_ip_compare$1=ip_compare(&range->lo, addr);
-    tmp_if_expr$2 = return_value_ip_compare$1 <= 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_compare_1=ip_compare(&range->lo, addr);
+    tmp_if_expr_2 = return_value_ip_compare_1 <= 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_ip_compare$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  signed int return_value_ip_compare_3;
+  if(tmp_if_expr_2)
   {
-    return_value_ip_compare$3=ip_compare(addr, &range->hi);
-    tmp_if_expr$4 = return_value_ip_compare$3 <= 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ip_compare_3=ip_compare(addr, &range->hi);
+    tmp_if_expr_4 = return_value_ip_compare_3 <= 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return (signed int)tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return (signed int)tmp_if_expr_4;
 }
 
 // ip_is_valid_ipv4
@@ -19300,41 +19300,41 @@ extern signed int ip_is_valid_ipv4(const char *address)
   signed int o = 0;
   signed int n = 0;
   signed int d = 0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(address == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(address);
-    tmp_if_expr$2 = return_value_strlen$1 > (unsigned long int)15 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(address);
+    tmp_if_expr_2 = return_value_strlen_1 > (unsigned long int)15 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strlen$3=strlen(address);
-    tmp_if_expr$4 = return_value_strlen$3 < (unsigned long int)7 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_3=strlen(address);
+    tmp_if_expr_4 = return_value_strlen_3 < (unsigned long int)7 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_strlen$5;
-  if(tmp_if_expr$4)
+  unsigned long int return_value_strlen_5;
+  if(tmp_if_expr_4)
     return 0;
 
   else
   {
     do
     {
-      return_value_strlen$5=strlen(address);
-      if(i >= return_value_strlen$5)
+      return_value_strlen_5=strlen(address);
+      if(i >= return_value_strlen_5)
         break;
 
-      signed int return_value_is_num$6;
-      return_value_is_num$6=is_num(address[(signed long int)i]);
-      if(!(return_value_is_num$6 == 0))
+      signed int return_value_is_num_6;
+      return_value_is_num_6=is_num(address[(signed long int)i]);
+      if(!(return_value_is_num_6 == 0))
       {
         n = n + 1;
         o = o * 10;
@@ -19552,13 +19552,13 @@ static signed int is_blocked_or_interrupted()
   return (signed int)(err == 11 || err == 4);
 }
 
-// is_blocked_or_interrupted$link1
+// is_blocked_or_interrupted_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 23
-static signed int is_blocked_or_interrupted$link1()
+static signed int is_blocked_or_interrupted_link1()
 {
-  signed int err$link1;
-  err$link1=net_error();
-  return (signed int)(err$link1 == 11 || err$link1 == 4);
+  signed int err_link1;
+  err_link1=net_error();
+  return (signed int)(err_link1 == 11 || err_link1 == 4);
 }
 
 // is_num
@@ -19577,13 +19577,13 @@ extern signed int is_num(char c)
 extern signed int is_number(const char *value, signed int *num)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(value);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(value);
+  len = (signed int)return_value_strlen_1;
   signed int offset = (signed int)value[(signed long int)0] == 45 ? 1 : 0;
   signed int val = 0;
   signed int i = offset;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(value[(signed long int)offset] == 0)
     return 0;
 
@@ -19592,11 +19592,11 @@ extern signed int is_number(const char *value, signed int *num)
     for( ; !(i >= len); i = i + 1)
     {
       if((signed int)value[(signed long int)i] >= 58)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return 0;
 
     }
@@ -19631,28 +19631,28 @@ extern signed int is_printable_utf8(const char *string, unsigned long int length
   pos = (unsigned long int)0;
   for( ; !(pos >= length); pos = pos + 1ul)
   {
-    signed int return_value_is_printable$1;
-    return_value_is_printable$1=is_printable((unsigned char)string[(signed long int)pos]);
-    if(return_value_is_printable$1 == 0)
+    signed int return_value_is_printable_1;
+    return_value_is_printable_1=is_printable((unsigned char)string[(signed long int)pos]);
+    if(return_value_is_printable_1 == 0)
       return 0;
 
   }
-  signed int return_value_is_valid_utf8_str$2;
-  return_value_is_valid_utf8_str$2=is_valid_utf8_str(string, length);
-  return return_value_is_valid_utf8_str$2;
+  signed int return_value_is_valid_utf8_str_2;
+  return_value_is_valid_utf8_str_2=is_valid_utf8_str(string, length);
+  return return_value_is_valid_utf8_str_2;
 }
 
 // is_red
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 49
 static signed int is_red(struct rb_node *node)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(node == ((struct rb_node *)NULL)))
-    tmp_if_expr$1 = node->red != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = node->red != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // is_space
@@ -19681,11 +19681,11 @@ extern signed int is_valid_base32_char(char c)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 30
 extern signed int is_valid_utf8(const char *string)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  signed int return_value_is_valid_utf8_str$2;
-  return_value_is_valid_utf8_str$2=is_valid_utf8_str(string, return_value_strlen$1);
-  return return_value_is_valid_utf8_str$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  signed int return_value_is_valid_utf8_str_2;
+  return_value_is_valid_utf8_str_2=is_valid_utf8_str(string, return_value_strlen_1);
+  return return_value_is_valid_utf8_str_2;
 }
 
 // is_valid_utf8_str
@@ -19765,9 +19765,9 @@ static void * job_thread_resolve_name(void *ptr)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct net_dns_result) /*16ul*/ );
-    dns_results = (struct net_dns_result *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct net_dns_result) /*16ul*/ );
+    dns_results = (struct net_dns_result *)return_value_malloc_1;
     dns_results->addr_list=list_create();
     dns_results->job = job;
     if(!(ret == -2))
@@ -19776,9 +19776,9 @@ static void * job_thread_resolve_name(void *ptr)
       for( ; !(it == ((struct addrinfo *)NULL)); it = it->ai_next)
       {
         struct ip_addr_encap *ipaddr;
-        void *return_value_hub_malloc_zero$2;
-        return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct ip_addr_encap) /*20ul*/ );
-        ipaddr = (struct ip_addr_encap *)return_value_hub_malloc_zero$2;
+        void *return_value_hub_malloc_zero_2;
+        return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct ip_addr_encap) /*20ul*/ );
+        ipaddr = (struct ip_addr_encap *)return_value_hub_malloc_zero_2;
         ipaddr->af = it->ai_family;
         if(it->ai_family == 2)
         {
@@ -19820,21 +19820,21 @@ static void * job_thread_resolve_name(void *ptr)
   }
 }
 
-// job_thread_resolve_name$link1
+// job_thread_resolve_name_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 155
-static void * job_thread_resolve_name$link1(void *ptr$link1)
+static void * job_thread_resolve_name_link1(void *ptr_link1)
 {
-  struct net_dns_job *job$link1 = (struct net_dns_job *)ptr$link1;
-  struct addrinfo hints$link1;
-  struct addrinfo *result$link1;
-  struct addrinfo *it$link1;
-  struct net_dns_result *dns_results$link1;
-  signed int ret$link1;
-  memset((void *)&hints$link1, 0, sizeof(struct addrinfo) /*48ul*/ );
-  hints$link1.ai_family = job$link1->af;
-  hints$link1.ai_protocol = 6;
-  ret$link1=getaddrinfo(job$link1->host, (const char *)(void *)0, &hints$link1, &result$link1);
-  if(!(ret$link1 == 0) && !(ret$link1 == -2))
+  struct net_dns_job *job_link1 = (struct net_dns_job *)ptr_link1;
+  struct addrinfo hints_link1;
+  struct addrinfo *result_link1;
+  struct addrinfo *it_link1;
+  struct net_dns_result *dns_results_link1;
+  signed int ret_link1;
+  memset((void *)&hints_link1, 0, sizeof(struct addrinfo) /*48ul*/ );
+  hints_link1.ai_family = job_link1->af;
+  hints_link1.ai_protocol = 6;
+  ret_link1=getaddrinfo(job_link1->host, (const char *)(void *)0, &hints_link1, &result_link1);
+  if(!(ret_link1 == 0) && !(ret_link1 == -2))
   {
 
   __CPROVER_DUMP_L1:
@@ -19844,32 +19844,32 @@ static void * job_thread_resolve_name$link1(void *ptr$link1)
 
   else
   {
-    void *return_value_malloc$1$link1;
-    return_value_malloc$1$link1=malloc(sizeof(struct net_dns_result) /*16ul*/ );
-    dns_results$link1 = (struct net_dns_result *)return_value_malloc$1$link1;
-    dns_results$link1->addr_list=list_create();
-    dns_results$link1->job = job$link1;
-    if(!(ret$link1 == -2))
+    void *return_value_malloc_1_link1;
+    return_value_malloc_1_link1=malloc(sizeof(struct net_dns_result) /*16ul*/ );
+    dns_results_link1 = (struct net_dns_result *)return_value_malloc_1_link1;
+    dns_results_link1->addr_list=list_create();
+    dns_results_link1->job = job_link1;
+    if(!(ret_link1 == -2))
     {
-      it$link1 = result$link1;
-      for( ; !(it$link1 == ((struct addrinfo *)NULL)); it$link1 = it$link1->ai_next)
+      it_link1 = result_link1;
+      for( ; !(it_link1 == ((struct addrinfo *)NULL)); it_link1 = it_link1->ai_next)
       {
-        struct ip_addr_encap *ipaddr$link1;
-        void *return_value_hub_malloc_zero$2$link1;
-        return_value_hub_malloc_zero$2$link1=hub_malloc_zero(sizeof(struct ip_addr_encap) /*20ul*/ );
-        ipaddr$link1 = (struct ip_addr_encap *)return_value_hub_malloc_zero$2$link1;
-        ipaddr$link1->af = it$link1->ai_family;
-        if(it$link1->ai_family == 2)
+        struct ip_addr_encap *ipaddr_link1;
+        void *return_value_hub_malloc_zero_2_link1;
+        return_value_hub_malloc_zero_2_link1=hub_malloc_zero(sizeof(struct ip_addr_encap) /*20ul*/ );
+        ipaddr_link1 = (struct ip_addr_encap *)return_value_hub_malloc_zero_2_link1;
+        ipaddr_link1->af = it_link1->ai_family;
+        if(it_link1->ai_family == 2)
         {
-          struct sockaddr_in *addr4$link1 = (struct sockaddr_in *)it$link1->ai_addr;
-          memcpy((void *)&ipaddr$link1->internal_ip_data.in, (const void *)&addr4$link1->sin_addr, sizeof(struct in_addr) /*4ul*/ );
+          struct sockaddr_in *addr4_link1 = (struct sockaddr_in *)it_link1->ai_addr;
+          memcpy((void *)&ipaddr_link1->internal_ip_data.in, (const void *)&addr4_link1->sin_addr, sizeof(struct in_addr) /*4ul*/ );
         }
 
         else
-          if(it$link1->ai_family == 10)
+          if(it_link1->ai_family == 10)
           {
-            struct sockaddr_in6 *addr6$link1 = (struct sockaddr_in6 *)it$link1->ai_addr;
-            memcpy((void *)&ipaddr$link1->internal_ip_data.in6, (const void *)&addr6$link1->sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
+            struct sockaddr_in6 *addr6_link1 = (struct sockaddr_in6 *)it_link1->ai_addr;
+            memcpy((void *)&ipaddr_link1->internal_ip_data.in6, (const void *)&addr6_link1->sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
           }
 
           else
@@ -19877,25 +19877,25 @@ static void * job_thread_resolve_name$link1(void *ptr$link1)
 
           __CPROVER_DUMP_L5:
             ;
-            free((void *)ipaddr$link1);
+            free((void *)ipaddr_link1);
             goto __CPROVER_DUMP_L7;
           }
 
       __CPROVER_DUMP_L6:
         ;
-        list_append(dns_results$link1->addr_list, (void *)ipaddr$link1);
+        list_append(dns_results_link1->addr_list, (void *)ipaddr_link1);
 
       __CPROVER_DUMP_L7:
         ;
       }
-      freeaddrinfo(result$link1);
+      freeaddrinfo(result_link1);
     }
 
-    uhub_mutex_lock(&g_dns$link1->mutex);
-    list_remove(g_dns$link1->jobs, (void *)job$link1);
-    list_append(g_dns$link1->results, (void *)dns_results$link1);
-    uhub_mutex_unlock(&g_dns$link1->mutex);
-    return (void *)dns_results$link1;
+    uhub_mutex_lock(&g_dns_link1->mutex);
+    list_remove(g_dns_link1->jobs, (void *)job_link1);
+    list_append(g_dns_link1->results, (void *)dns_results_link1);
+    uhub_mutex_unlock(&g_dns_link1->mutex);
+    return (void *)dns_results_link1;
   }
 }
 
@@ -19904,9 +19904,9 @@ static void * job_thread_resolve_name$link1(void *ptr$link1)
 extern void list_append(struct linked_list *list, void *data_ptr)
 {
   struct node *new_node;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct node) /*24ul*/ );
-  new_node = (struct node *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct node) /*24ul*/ );
+  new_node = (struct node *)return_value_hub_malloc_zero_1;
   if(new_node == ((struct node *)NULL))
     hub_log(0, "Unable to allocate memory");
 
@@ -19948,9 +19948,9 @@ extern void list_clear(struct linked_list *list, void (*free_handle)(void *))
 extern struct linked_list * list_create()
 {
   struct linked_list *list = (struct linked_list *)(void *)0;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct linked_list) /*32ul*/ );
-  list = (struct linked_list *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct linked_list) /*32ul*/ );
+  list = (struct linked_list *)return_value_hub_malloc_zero_1;
   if(list == ((struct linked_list *)NULL))
     return (struct linked_list *)(void *)0;
 
@@ -20108,24 +20108,24 @@ extern unsigned long int list_size(struct linked_list *list)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hub.c line 730
 static signed int load_ssl_certificates(struct hub_info *hub, struct hub_config *config)
 {
-  signed int return_value_ssl_load_private_key$3;
-  signed int return_value_ssl_check_private_key$2;
+  signed int return_value_ssl_load_private_key_3;
+  signed int return_value_ssl_check_private_key_2;
   if(!(config->tls_enable == 0))
   {
     hub->ctx=net_ssl_context_create();
-    signed int return_value_ssl_load_certificate$4;
-    return_value_ssl_load_certificate$4=ssl_load_certificate(hub->ctx, config->tls_certificate);
-    if(!(return_value_ssl_load_certificate$4 == 0))
+    signed int return_value_ssl_load_certificate_4;
+    return_value_ssl_load_certificate_4=ssl_load_certificate(hub->ctx, config->tls_certificate);
+    if(!(return_value_ssl_load_certificate_4 == 0))
     {
-      return_value_ssl_load_private_key$3=ssl_load_private_key(hub->ctx, config->tls_private_key);
-      if(!(return_value_ssl_load_private_key$3 == 0))
+      return_value_ssl_load_private_key_3=ssl_load_private_key(hub->ctx, config->tls_private_key);
+      if(!(return_value_ssl_load_private_key_3 == 0))
       {
-        return_value_ssl_check_private_key$2=ssl_check_private_key(hub->ctx);
-        if(!(return_value_ssl_check_private_key$2 == 0))
+        return_value_ssl_check_private_key_2=ssl_check_private_key(hub->ctx);
+        if(!(return_value_ssl_check_private_key_2 == 0))
         {
-          const char *return_value_net_ssl_get_provider$1;
-          return_value_net_ssl_get_provider$1=net_ssl_get_provider();
-          hub_log(4, "Enabling TLS (%s), using certificate: %s, private key: %s", return_value_net_ssl_get_provider$1, config->tls_certificate, config->tls_private_key);
+          const char *return_value_net_ssl_get_provider_1;
+          return_value_net_ssl_get_provider_1=net_ssl_get_provider();
+          hub_log(4, "Enabling TLS (%s), using certificate: %s, private key: %s", return_value_net_ssl_get_provider_1, config->tls_certificate, config->tls_private_key);
           return 1;
         }
 
@@ -20147,9 +20147,9 @@ signed int main(signed int argc, char **argv)
   parse_command_line(argc, argv);
   if(!(arg_check_config == 0))
   {
-    signed int return_value_check_configuration$1;
-    return_value_check_configuration$1=check_configuration(arg_dump_config);
-    return return_value_check_configuration$1;
+    signed int return_value_check_configuration_1;
+    return_value_check_configuration_1=check_configuration(arg_dump_config);
+    return return_value_check_configuration_1;
   }
 
   if(!(arg_fork == 0))
@@ -20183,16 +20183,16 @@ signed int main(signed int argc, char **argv)
 
   __CPROVER_DUMP_L4:
     ;
-    signed int return_value_pidfile_create$2;
-    return_value_pidfile_create$2=pidfile_create();
-    if(return_value_pidfile_create$2 == -1)
+    signed int return_value_pidfile_create_2;
+    return_value_pidfile_create_2=pidfile_create();
+    if(return_value_pidfile_create_2 == -1)
       return -1;
 
     else
     {
-      signed int return_value_drop_privileges$3;
-      return_value_drop_privileges$3=drop_privileges();
-      if(return_value_drop_privileges$3 == -1)
+      signed int return_value_drop_privileges_3;
+      return_value_drop_privileges_3=drop_privileges();
+      if(return_value_drop_privileges_3 == -1)
         return -1;
 
       else
@@ -20212,9 +20212,9 @@ signed int main_loop()
   struct hub_config configuration;
   struct acl_handle acl;
   struct hub_info *hub = ((struct hub_info *)NULL);
-  signed int return_value_net_initialize$1;
-  return_value_net_initialize$1=net_initialize();
-  if(return_value_net_initialize$1 == -1)
+  signed int return_value_net_initialize_1;
+  return_value_net_initialize_1=net_initialize();
+  if(return_value_net_initialize_1 == -1)
     return -1;
 
   else
@@ -20232,14 +20232,14 @@ signed int main_loop()
         hub_set_log_verbosity(arg_verbose);
       }
 
-      signed int return_value_read_config$2;
-      return_value_read_config$2=read_config(arg_config, &configuration, (signed int)!(arg_have_config != 0));
-      if(return_value_read_config$2 == -1)
+      signed int return_value_read_config_2;
+      return_value_read_config_2=read_config(arg_config, &configuration, (signed int)!(arg_have_config != 0));
+      if(return_value_read_config_2 == -1)
         return -1;
 
-      signed int return_value_acl_initialize$3;
-      return_value_acl_initialize$3=acl_initialize(&configuration, &acl);
-      if(return_value_acl_initialize$3 == -1)
+      signed int return_value_acl_initialize_3;
+      return_value_acl_initialize_3=acl_initialize(&configuration, &acl);
+      if(return_value_acl_initialize_3 == -1)
         return -1;
 
       if(hub == ((struct hub_info *)NULL))
@@ -20281,11 +20281,11 @@ signed int main_loop()
 static signed int msg_check_escapes(const char *string, unsigned long int len)
 {
   char *start = (char *)string;
-  void *return_value_memchr$1;
+  void *return_value_memchr_1;
   do
   {
-    return_value_memchr$1=memchr((const void *)start, 92, len - (unsigned long int)(start - string));
-    start = (char *)return_value_memchr$1;
+    return_value_memchr_1=memchr((const void *)start, 92, len - (unsigned long int)(start - string));
+    start = (char *)return_value_memchr_1;
     if(start == ((char *)NULL))
       break;
 
@@ -20319,12 +20319,12 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
   addr4 = (struct sockaddr_in *)&addr;
   addr6 = (struct sockaddr_in6 *)&addr;
   ret=accept(fd, (struct sockaddr *)&addr, &addr_size);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(ret == -1)
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    switch(return_value_net_error$1)
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    switch(return_value_net_error_1)
     {
       case 100:
 
@@ -20340,8 +20340,8 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
 
       case 95:
       {
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 11;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 11;
       }
       case 11:
         break;
@@ -20365,9 +20365,9 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
       {
         char address[47l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         net_address_to_string(10, (void *)&addr6->sin6_addr, address, (unsigned int)(46 + 1));
-        char *return_value___builtin_strchr$3;
-        return_value___builtin_strchr$3=__builtin_strchr(address, 46);
-        if(!(return_value___builtin_strchr$3 == ((char *)NULL)))
+        char *return_value___builtin_strchr_3;
+        return_value___builtin_strchr_3=__builtin_strchr(address, 46);
+        if(!(return_value___builtin_strchr_3 == ((char *)NULL)))
         {
           ipaddr->af = 2;
           net_string_to_address(2, address, (void *)&ipaddr->internal_ip_data.in);
@@ -20389,15 +20389,15 @@ extern signed int net_accept(signed int fd, struct ip_addr_encap *ipaddr)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 231
 extern const char * net_address_to_string(signed int af, const void *src, char *dst, unsigned int cnt)
 {
-  const char *return_value_inet_ntop$2;
-  return_value_inet_ntop$2=inet_ntop(af, src, dst, cnt);
-  signed int return_value_strncmp$1;
-  if(!(return_value_inet_ntop$2 == ((const char *)NULL)))
+  const char *return_value_inet_ntop_2;
+  return_value_inet_ntop_2=inet_ntop(af, src, dst, cnt);
+  signed int return_value_strncmp_1;
+  if(!(return_value_inet_ntop_2 == ((const char *)NULL)))
   {
     if(af == 10)
     {
-      return_value_strncmp$1=strncmp(dst, "::ffff:", (unsigned long int)7);
-      if(return_value_strncmp$1 == 0)
+      return_value_strncmp_1=strncmp(dst, "::ffff:", (unsigned long int)7);
+      if(return_value_strncmp_1 == 0)
         memmove((void *)dst, (const void *)(dst + (signed long int)7), (unsigned long int)(cnt - (unsigned int)7));
 
     }
@@ -20424,9 +20424,9 @@ extern struct timeout_queue * net_backend_get_timeout_queue()
 extern signed int net_backend_init()
 {
   unsigned long int n;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_backend) /*136ul*/ );
-  g_backend = (struct net_backend *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_backend) /*136ul*/ );
+  g_backend = (struct net_backend *)return_value_hub_malloc_zero_1;
   g_backend->common.num = (unsigned long int)0;
   g_backend->common.max=net_get_max_sockets();
   g_backend->now=time(((signed long int *)NULL));
@@ -20451,16 +20451,16 @@ extern signed int net_backend_init()
 struct net_backend * net_backend_init_epoll(struct net_backend_handler *handler, struct net_backend_common *common)
 {
   struct net_backend_epoll *backend;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("EVENT_NOEPOLL");
-  if(!(return_value_getenv$1 == ((char *)NULL)))
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("EVENT_NOEPOLL");
+  if(!(return_value_getenv_1 == ((char *)NULL)))
     return ((struct net_backend *)NULL);
 
   else
   {
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct net_backend_epoll) /*6168ul*/ );
-    backend = (struct net_backend_epoll *)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct net_backend_epoll) /*6168ul*/ );
+    backend = (struct net_backend_epoll *)return_value_hub_malloc_zero_2;
     backend->epfd=epoll_create((signed int)common->max);
     if(backend->epfd == -1)
     {
@@ -20471,11 +20471,11 @@ struct net_backend * net_backend_init_epoll(struct net_backend_handler *handler,
 
     else
     {
-      void *return_value_hub_malloc_zero$3;
-      return_value_hub_malloc_zero$3=hub_malloc_zero(sizeof(struct net_connection_epoll *) /*8ul*/  * common->max);
-      backend->conns = (struct net_connection_epoll **)return_value_hub_malloc_zero$3;
+      void *return_value_hub_malloc_zero_3;
+      return_value_hub_malloc_zero_3=hub_malloc_zero(sizeof(struct net_connection_epoll *) /*8ul*/  * common->max);
+      backend->conns = (struct net_connection_epoll **)return_value_hub_malloc_zero_3;
       backend->common = common;
-      net_backend_set_handlers$link1(handler);
+      net_backend_set_handlers_link1(handler);
       return (struct net_backend *)backend;
     }
   }
@@ -20486,33 +20486,33 @@ struct net_backend * net_backend_init_epoll(struct net_backend_handler *handler,
 struct net_backend * net_backend_init_select(struct net_backend_handler *handler, struct net_backend_common *common)
 {
   struct net_backend_select *backend;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("EVENT_NOSELECT");
-  if(!(return_value_getenv$1 == ((char *)NULL)))
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("EVENT_NOSELECT");
+  if(!(return_value_getenv_1 == ((char *)NULL)))
     return ((struct net_backend *)NULL);
 
   else
   {
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct net_backend_select) /*408ul*/ );
-    backend = (struct net_backend_select *)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct net_backend_select) /*408ul*/ );
+    backend = (struct net_backend_select *)return_value_hub_malloc_zero_2;
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int net_backend_init_select$$1$$2$$__d0;
-      signed int net_backend_init_select$$1$$2$$__d1;
-      asm("cld; rep; stosq" : "=c"(net_backend_init_select$$1$$2$$__d0), "=D"(net_backend_init_select$$1$$2$$__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
+      signed int net_backend_init_select__1__2____d0;
+      signed int net_backend_init_select__1__2____d1;
+      asm("cld; rep; stosq" : "=c"(net_backend_init_select__1__2____d0), "=D"(net_backend_init_select__1__2____d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
-    void *return_value_hub_malloc_zero$3;
-    return_value_hub_malloc_zero$3=hub_malloc_zero(sizeof(struct net_connection_select *) /*8ul*/  * common->max);
-    backend->conns = (struct net_connection_select **)return_value_hub_malloc_zero$3;
+    void *return_value_hub_malloc_zero_3;
+    return_value_hub_malloc_zero_3=hub_malloc_zero(sizeof(struct net_connection_select *) /*8ul*/  * common->max);
+    backend->conns = (struct net_connection_select **)return_value_hub_malloc_zero_3;
     backend->common = common;
     net_backend_set_handlers(handler);
     return (struct net_backend *)backend;
@@ -20539,18 +20539,18 @@ signed int net_backend_poll_epoll(struct net_backend *data, signed int ms)
 {
   struct net_backend_epoll *backend = (struct net_backend_epoll *)data;
   signed int res;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(backend->common->num >= 512ul))
-    tmp_if_expr$1 = backend->common->num;
+    tmp_if_expr_1 = backend->common->num;
 
   else
-    tmp_if_expr$1 = (unsigned long int)512;
-  res=epoll_wait(backend->epfd, backend->events, (signed int)tmp_if_expr$1, ms);
-  signed int *return_value___errno_location$2;
+    tmp_if_expr_1 = (unsigned long int)512;
+  res=epoll_wait(backend->epfd, backend->events, (signed int)tmp_if_expr_1, ms);
+  signed int *return_value___errno_location_2;
   if(res == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
       goto __CPROVER_DUMP_L3;
 
     return 0;
@@ -20580,35 +20580,35 @@ signed int net_backend_poll_select(struct net_backend *data, signed int ms)
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->rfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
-    signed int net_backend_poll_select$$1$$2$$__d0;
-    signed int net_backend_poll_select$$1$$2$$__d1;
-    asm("cld; rep; stosq" : "=c"(net_backend_poll_select$$1$$2$$__d0), "=D"(net_backend_poll_select$$1$$2$$__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
+    signed int net_backend_poll_select__1__2____d0;
+    signed int net_backend_poll_select__1__2____d1;
+    asm("cld; rep; stosq" : "=c"(net_backend_poll_select__1__2____d0), "=D"(net_backend_poll_select__1__2____d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->wfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
-    signed int net_backend_poll_select$$1$$3$$__d0;
-    signed int net_backend_poll_select$$1$$3$$__d1;
-    asm("cld; rep; stosq" : "=c"(net_backend_poll_select$$1$$3$$__d0), "=D"(net_backend_poll_select$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->xfds)->fds_bits[(signed long int)0]) : "memory");
+    signed int net_backend_poll_select__1__3____d0;
+    signed int net_backend_poll_select__1__3____d1;
+    asm("cld; rep; stosq" : "=c"(net_backend_poll_select__1__3____d0), "=D"(net_backend_poll_select__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_19) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&backend->xfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   backend->maxfd = -1;
   n = (unsigned long int)0;
   found = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(found >= backend->common->num))
-      tmp_if_expr$1 = n < backend->common->max ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = n < backend->common->max ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     struct net_connection_select *con = backend->conns[(signed long int)n];
@@ -20631,14 +20631,14 @@ signed int net_backend_poll_select(struct net_backend *data, signed int ms)
   res=select(backend->maxfd, &backend->rfds, &backend->wfds, &backend->xfds, &tval);
   if(res == -1)
   {
-    signed int return_value_net_error$2;
-    return_value_net_error$2=net_error();
-    if(return_value_net_error$2 == 4)
+    signed int return_value_net_error_2;
+    return_value_net_error_2=net_error();
+    if(return_value_net_error_2 == 4)
       return 0;
 
-    signed int return_value_net_error$3;
-    return_value_net_error$3=net_error();
-    printf("Error: %d\n", return_value_net_error$3);
+    signed int return_value_net_error_3;
+    return_value_net_error_3=net_error();
+    printf("Error: %d\n", return_value_net_error_3);
   }
 
   return res;
@@ -20704,15 +20704,15 @@ void net_backend_process_select(struct net_backend *data, signed int res)
   struct net_backend_select *backend = (struct net_backend_select *)data;
   n = 0;
   found = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(found >= res))
-      tmp_if_expr$1 = n < backend->maxfd ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = n < backend->maxfd ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     struct net_connection_select *con = backend->conns[(signed long int)n];
@@ -20753,49 +20753,49 @@ static void net_backend_set_handlers(struct net_backend_handler *handler)
   handler->con_del = net_con_backend_del_select;
 }
 
-// net_backend_set_handlers$link1
+// net_backend_set_handlers_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 174
-static void net_backend_set_handlers$link1(struct net_backend_handler *handler$link1)
+static void net_backend_set_handlers_link1(struct net_backend_handler *handler_link1)
 {
-  handler$link1->backend_name = net_backend_name_epoll;
-  handler$link1->backend_poll = net_backend_poll_epoll;
-  handler$link1->backend_process = net_backend_process_epoll;
-  handler$link1->backend_shutdown = net_backend_shutdown_epoll;
-  handler$link1->con_create = net_con_create_epoll;
-  handler$link1->con_init = net_con_initialize_epoll;
-  handler$link1->con_add = net_con_backend_add_epoll;
-  handler$link1->con_mod = net_con_backend_mod_epoll;
-  handler$link1->con_del = net_con_backend_del_epoll;
+  handler_link1->backend_name = net_backend_name_epoll;
+  handler_link1->backend_poll = net_backend_poll_epoll;
+  handler_link1->backend_process = net_backend_process_epoll;
+  handler_link1->backend_shutdown = net_backend_shutdown_epoll;
+  handler_link1->con_create = net_con_create_epoll;
+  handler_link1->con_init = net_con_initialize_epoll;
+  handler_link1->con_add = net_con_backend_add_epoll;
+  handler_link1->con_mod = net_con_backend_mod_epoll;
+  handler_link1->con_del = net_con_backend_del_epoll;
 }
 
-// net_backend_set_handlers$link2
+// net_backend_set_handlers_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/select.c line 170
-static void net_backend_set_handlers$link2(struct net_backend_handler *handler$link2)
+static void net_backend_set_handlers_link2(struct net_backend_handler *handler_link2)
 {
-  handler$link2->backend_name = net_backend_name_select;
-  handler$link2->backend_poll = net_backend_poll_select;
-  handler$link2->backend_process = net_backend_process_select;
-  handler$link2->backend_shutdown = net_backend_shutdown_select;
-  handler$link2->con_create = net_con_create_select;
-  handler$link2->con_init = net_con_initialize_select;
-  handler$link2->con_add = net_con_backend_add_select;
-  handler$link2->con_mod = net_con_backend_mod_select;
-  handler$link2->con_del = net_con_backend_del_select;
+  handler_link2->backend_name = net_backend_name_select;
+  handler_link2->backend_poll = net_backend_poll_select;
+  handler_link2->backend_process = net_backend_process_select;
+  handler_link2->backend_shutdown = net_backend_shutdown_select;
+  handler_link2->con_create = net_con_create_select;
+  handler_link2->con_init = net_con_initialize_select;
+  handler_link2->con_add = net_con_backend_add_select;
+  handler_link2->con_mod = net_con_backend_mod_select;
+  handler_link2->con_del = net_con_backend_del_select;
 }
 
-// net_backend_set_handlers$link3
+// net_backend_set_handlers_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 174
-static void net_backend_set_handlers$link3(struct net_backend_handler *handler$link3)
+static void net_backend_set_handlers_link3(struct net_backend_handler *handler_link3)
 {
-  handler$link3->backend_name = net_backend_name_epoll;
-  handler$link3->backend_poll = net_backend_poll_epoll;
-  handler$link3->backend_process = net_backend_process_epoll;
-  handler$link3->backend_shutdown = net_backend_shutdown_epoll;
-  handler$link3->con_create = net_con_create_epoll;
-  handler$link3->con_init = net_con_initialize_epoll;
-  handler$link3->con_add = net_con_backend_add_epoll;
-  handler$link3->con_mod = net_con_backend_mod_epoll;
-  handler$link3->con_del = net_con_backend_del_epoll;
+  handler_link3->backend_name = net_backend_name_epoll;
+  handler_link3->backend_poll = net_backend_poll_epoll;
+  handler_link3->backend_process = net_backend_process_epoll;
+  handler_link3->backend_shutdown = net_backend_shutdown_epoll;
+  handler_link3->con_create = net_con_create_epoll;
+  handler_link3->con_init = net_con_initialize_epoll;
+  handler_link3->con_add = net_con_backend_add_epoll;
+  handler_link3->con_mod = net_con_backend_mod_epoll;
+  handler_link3->con_del = net_con_backend_del_epoll;
 }
 
 // net_backend_shutdown
@@ -20847,9 +20847,9 @@ extern signed int net_bind(signed int fd, struct sockaddr *my_addr, unsigned int
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 212
 void net_cleanup_delayed_free(struct net_cleanup_handler *handler, struct net_connection *con)
 {
-  unsigned long int tmp_post$1 = handler->num;
+  unsigned long int tmp_post_1 = handler->num;
   handler->num = handler->num + 1ul;
-  handler->queue[(signed long int)tmp_post$1] = con;
+  handler->queue[(signed long int)tmp_post_1] = con;
   con->flags = con->flags | (unsigned int)0x8000;
 }
 
@@ -20858,14 +20858,14 @@ void net_cleanup_delayed_free(struct net_cleanup_handler *handler, struct net_co
 struct net_cleanup_handler * net_cleanup_initialize(unsigned long int max)
 {
   struct net_cleanup_handler *handler;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct net_cleanup_handler) /*24ul*/ );
-  handler = (struct net_cleanup_handler *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct net_cleanup_handler) /*24ul*/ );
+  handler = (struct net_cleanup_handler *)return_value_malloc_1;
   handler->num = (unsigned long int)0;
   handler->max = max;
-  void *return_value_hub_malloc_zero$2;
-  return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct net_connection *) /*8ul*/  * max);
-  handler->queue = (struct net_connection **)return_value_hub_malloc_zero$2;
+  void *return_value_hub_malloc_zero_2;
+  return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct net_connection *) /*8ul*/  * max);
+  handler->queue = (struct net_connection **)return_value_hub_malloc_zero_2;
   return handler;
 }
 
@@ -20923,9 +20923,9 @@ void net_con_backend_add_epoll(struct net_backend *data, struct net_connection *
   if(!((0x0004 & events) == 0))
     con->ev.events = con->ev.events | (unsigned int)4;
 
-  signed int return_value_epoll_ctl$1;
-  return_value_epoll_ctl$1=epoll_ctl(backend->epfd, 1, con->sd, &con->ev);
-  if(return_value_epoll_ctl$1 == -1)
+  signed int return_value_epoll_ctl_1;
+  return_value_epoll_ctl_1=epoll_ctl(backend->epfd, 1, con->sd, &con->ev);
+  if(return_value_epoll_ctl_1 == -1)
 
     __CPROVER_DUMP_L3:
       ;
@@ -20948,9 +20948,9 @@ void net_con_backend_del_epoll(struct net_backend *data, struct net_connection *
   struct net_backend_epoll *backend = (struct net_backend_epoll *)data;
   struct net_connection_epoll *con = (struct net_connection_epoll *)con_;
   backend->conns[(signed long int)con->sd] = ((struct net_connection_epoll *)NULL);
-  signed int return_value_epoll_ctl$1;
-  return_value_epoll_ctl$1=epoll_ctl(backend->epfd, 2, con->sd, &con->ev);
-  if(return_value_epoll_ctl$1 == -1)
+  signed int return_value_epoll_ctl_1;
+  return_value_epoll_ctl_1=epoll_ctl(backend->epfd, 2, con->sd, &con->ev);
+  if(return_value_epoll_ctl_1 == -1)
     hub_log(2, "epoll_ctl() delete failed.");
 
 }
@@ -20979,9 +20979,9 @@ void net_con_backend_mod_epoll(struct net_backend *data, struct net_connection *
   if(!((unsigned int)newev == con->ev.events))
   {
     con->ev.events = (unsigned int)newev;
-    signed int return_value_epoll_ctl$1;
-    return_value_epoll_ctl$1=epoll_ctl(backend->epfd, 3, con->sd, &con->ev);
-    if(return_value_epoll_ctl$1 == -1)
+    signed int return_value_epoll_ctl_1;
+    return_value_epoll_ctl_1=epoll_ctl(backend->epfd, 3, con->sd, &con->ev);
+    if(return_value_epoll_ctl_1 == -1)
 
       __CPROVER_DUMP_L4:
         ;
@@ -21025,15 +21025,15 @@ extern void net_con_callback(struct net_connection *con, signed int events)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.h line 85
 extern void net_con_clear_timeout(struct net_connection *con)
 {
-  signed int return_value_timeout_evt_is_scheduled$2;
+  signed int return_value_timeout_evt_is_scheduled_2;
   if(!(con->timeout == ((struct timeout_evt *)NULL)))
   {
-    return_value_timeout_evt_is_scheduled$2=timeout_evt_is_scheduled(con->timeout);
-    if(!(return_value_timeout_evt_is_scheduled$2 == 0))
+    return_value_timeout_evt_is_scheduled_2=timeout_evt_is_scheduled(con->timeout);
+    if(!(return_value_timeout_evt_is_scheduled_2 == 0))
     {
-      struct timeout_queue *return_value_net_backend_get_timeout_queue$1;
-      return_value_net_backend_get_timeout_queue$1=net_backend_get_timeout_queue();
-      timeout_queue_remove(return_value_net_backend_get_timeout_queue$1, con->timeout);
+      struct timeout_queue *return_value_net_backend_get_timeout_queue_1;
+      return_value_net_backend_get_timeout_queue_1=net_backend_get_timeout_queue();
+      timeout_queue_remove(return_value_net_backend_get_timeout_queue_1, con->timeout);
       free((void *)con->timeout);
       con->timeout = ((struct timeout_evt *)NULL);
     }
@@ -21075,9 +21075,9 @@ extern struct net_connection * net_con_create()
 struct net_connection * net_con_create_epoll(struct net_backend *data)
 {
   struct net_connection *con;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_connection_epoll) /*56ul*/ );
-  con = (struct net_connection *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_connection_epoll) /*56ul*/ );
+  con = (struct net_connection *)return_value_hub_malloc_zero_1;
   con->sd = -1;
   return con;
 }
@@ -21087,9 +21087,9 @@ struct net_connection * net_con_create_epoll(struct net_backend *data)
 struct net_connection * net_con_create_select(struct net_backend *data)
 {
   struct net_connection *con;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_connection_select) /*40ul*/ );
-  con = (struct net_connection *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_connection_select) /*40ul*/ );
+  con = (struct net_connection *)return_value_hub_malloc_zero_1;
   con->sd = -1;
   return con;
 }
@@ -21165,19 +21165,19 @@ extern signed int net_con_is_ssl(struct net_connection *con)
 extern signed long int net_con_peek(struct net_connection *con, void *buf, unsigned long int len)
 {
   signed int ret;
-  signed long int return_value_net_recv$1;
-  return_value_net_recv$1=net_recv(con->sd, buf, len, 2);
-  ret = (signed int)return_value_net_recv$1;
+  signed long int return_value_net_recv_1;
+  return_value_net_recv_1=net_recv(con->sd, buf, len, 2);
+  ret = (signed int)return_value_net_recv_1;
   if(ret == -1)
   {
-    signed int return_value_is_blocked_or_interrupted$2;
-    return_value_is_blocked_or_interrupted$2=is_blocked_or_interrupted();
-    if(!(return_value_is_blocked_or_interrupted$2 == 0))
+    signed int return_value_is_blocked_or_interrupted_2;
+    return_value_is_blocked_or_interrupted_2=is_blocked_or_interrupted();
+    if(!(return_value_is_blocked_or_interrupted_2 == 0))
       return (signed long int)0;
 
-    signed int return_value_net_error$3;
-    return_value_net_error$3=net_error();
-    return (signed long int)-return_value_net_error$3;
+    signed int return_value_net_error_3;
+    return_value_net_error_3=net_error();
+    return (signed long int)-return_value_net_error_3;
   }
 
   else
@@ -21194,19 +21194,19 @@ extern signed long int net_con_recv(struct net_connection *con, void *buf, unsig
   signed int ret;
   if(con->ssl == ((struct ssl_handle *)NULL))
   {
-    signed long int return_value_net_recv$1;
-    return_value_net_recv$1=net_recv(con->sd, buf, len, 0);
-    ret = (signed int)return_value_net_recv$1;
+    signed long int return_value_net_recv_1;
+    return_value_net_recv_1=net_recv(con->sd, buf, len, 0);
+    ret = (signed int)return_value_net_recv_1;
     if(ret == -1)
     {
-      signed int return_value_is_blocked_or_interrupted$2;
-      return_value_is_blocked_or_interrupted$2=is_blocked_or_interrupted();
-      if(!(return_value_is_blocked_or_interrupted$2 == 0))
+      signed int return_value_is_blocked_or_interrupted_2;
+      return_value_is_blocked_or_interrupted_2=is_blocked_or_interrupted();
+      if(!(return_value_is_blocked_or_interrupted_2 == 0))
         return (signed long int)0;
 
-      signed int return_value_net_error$3;
-      return_value_net_error$3=net_error();
-      return (signed long int)-return_value_net_error$3;
+      signed int return_value_net_error_3;
+      return_value_net_error_3=net_error();
+      return (signed long int)-return_value_net_error_3;
     }
 
     else
@@ -21217,9 +21217,9 @@ extern signed long int net_con_recv(struct net_connection *con, void *buf, unsig
 
   else
   {
-    signed long int return_value_net_ssl_recv$4;
-    return_value_net_ssl_recv$4=net_ssl_recv(con, buf, len);
-    ret = (signed int)return_value_net_ssl_recv$4;
+    signed long int return_value_net_ssl_recv_4;
+    return_value_net_ssl_recv_4=net_ssl_recv(con, buf, len);
+    ret = (signed int)return_value_net_ssl_recv_4;
   }
   return (signed long int)ret;
 }
@@ -21240,14 +21240,14 @@ extern signed long int net_con_send(struct net_connection *con, const void *buf,
   signed int ret;
   if(con->ssl == ((struct ssl_handle *)NULL))
   {
-    signed long int return_value_net_send$1;
-    return_value_net_send$1=net_send(con->sd, buf, len, 16384);
-    ret = (signed int)return_value_net_send$1;
+    signed long int return_value_net_send_1;
+    return_value_net_send_1=net_send(con->sd, buf, len, 16384);
+    ret = (signed int)return_value_net_send_1;
     if(ret == -1)
     {
-      signed int return_value_is_blocked_or_interrupted$2;
-      return_value_is_blocked_or_interrupted$2=is_blocked_or_interrupted();
-      if(!(return_value_is_blocked_or_interrupted$2 == 0))
+      signed int return_value_is_blocked_or_interrupted_2;
+      return_value_is_blocked_or_interrupted_2=is_blocked_or_interrupted();
+      if(!(return_value_is_blocked_or_interrupted_2 == 0))
         return (signed long int)0;
 
       return (signed long int)-1;
@@ -21257,9 +21257,9 @@ extern signed long int net_con_send(struct net_connection *con, const void *buf,
 
   else
   {
-    signed long int return_value_net_ssl_send$3;
-    return_value_net_ssl_send$3=net_ssl_send(con, buf, len);
-    ret = (signed int)return_value_net_ssl_send$3;
+    signed long int return_value_net_ssl_send_3;
+    return_value_net_ssl_send_3=net_ssl_send(con, buf, len);
+    ret = (signed int)return_value_net_ssl_send_3;
   }
   return (signed long int)ret;
 }
@@ -21270,20 +21270,20 @@ extern void net_con_set_timeout(struct net_connection *con, signed int seconds)
 {
   if(con->timeout == ((struct timeout_evt *)NULL))
   {
-    void *return_value_hub_malloc_zero$1;
-    return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct timeout_evt) /*40ul*/ );
-    con->timeout = (struct timeout_evt *)return_value_hub_malloc_zero$1;
+    void *return_value_hub_malloc_zero_1;
+    return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct timeout_evt) /*40ul*/ );
+    con->timeout = (struct timeout_evt *)return_value_hub_malloc_zero_1;
     timeout_evt_initialize(con->timeout, timeout_callback, (void *)con);
-    struct timeout_queue *return_value_net_backend_get_timeout_queue$2;
-    return_value_net_backend_get_timeout_queue$2=net_backend_get_timeout_queue();
-    timeout_queue_insert(return_value_net_backend_get_timeout_queue$2, con->timeout, (unsigned long int)seconds);
+    struct timeout_queue *return_value_net_backend_get_timeout_queue_2;
+    return_value_net_backend_get_timeout_queue_2=net_backend_get_timeout_queue();
+    timeout_queue_insert(return_value_net_backend_get_timeout_queue_2, con->timeout, (unsigned long int)seconds);
   }
 
   else
   {
-    struct timeout_queue *return_value_net_backend_get_timeout_queue$3;
-    return_value_net_backend_get_timeout_queue$3=net_backend_get_timeout_queue();
-    timeout_queue_reschedule(return_value_net_backend_get_timeout_queue$3, con->timeout, (unsigned long int)seconds);
+    struct timeout_queue *return_value_net_backend_get_timeout_queue_3;
+    return_value_net_backend_get_timeout_queue_3=net_backend_get_timeout_queue();
+    timeout_queue_reschedule(return_value_net_backend_get_timeout_queue_3, con->timeout, (unsigned long int)seconds);
   }
 }
 
@@ -21295,9 +21295,9 @@ extern signed long int net_con_ssl_accept(struct net_connection *con)
   handle=get_handle(con);
   handle->state = (enum ssl_state)tls_st_accepting;
   signed long int ret;
-  signed int return_value_SSL_accept$1;
-  return_value_SSL_accept$1=SSL_accept(handle->ssl);
-  ret = (signed long int)return_value_SSL_accept$1;
+  signed int return_value_SSL_accept_1;
+  return_value_SSL_accept_1=SSL_accept(handle->ssl);
+  ret = (signed long int)return_value_SSL_accept_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -21310,9 +21310,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    signed int return_value_handle_openssl_error$2;
-    return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_accepting);
-    return (signed long int)return_value_handle_openssl_error$2;
+    signed int return_value_handle_openssl_error_2;
+    return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_accepting);
+    return (signed long int)return_value_handle_openssl_error_2;
   }
 }
 
@@ -21324,9 +21324,9 @@ extern signed long int net_con_ssl_connect(struct net_connection *con)
   handle=get_handle(con);
   signed long int ret;
   handle->state = (enum ssl_state)tls_st_connecting;
-  signed int return_value_SSL_connect$1;
-  return_value_SSL_connect$1=SSL_connect(handle->ssl);
-  ret = (signed long int)return_value_SSL_connect$1;
+  signed int return_value_SSL_connect_1;
+  return_value_SSL_connect_1=SSL_connect(handle->ssl);
+  ret = (signed long int)return_value_SSL_connect_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -21339,9 +21339,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    signed int return_value_handle_openssl_error$2;
-    return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_connecting);
-    return (signed long int)return_value_handle_openssl_error$2;
+    signed int return_value_handle_openssl_error_2;
+    return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_connecting);
+    return (signed long int)return_value_handle_openssl_error_2;
   }
 }
 
@@ -21351,9 +21351,9 @@ extern signed long int net_con_ssl_handshake(struct net_connection *con, enum ne
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ssl_ctx;
   struct net_ssl_openssl *handle;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_ssl_openssl) /*40ul*/ );
-  handle = (struct net_ssl_openssl *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_ssl_openssl) /*40ul*/ );
+  handle = (struct net_ssl_openssl *)return_value_hub_malloc_zero_1;
   if((signed int)ssl_mode == net_con_ssl_mode_server)
   {
     handle->ssl=SSL_new(ctx->ssl_ctx);
@@ -21366,24 +21366,24 @@ extern signed long int net_con_ssl_handshake(struct net_connection *con, enum ne
     SSL_set_fd(handle->ssl, con->sd);
     handle->bio=SSL_get_rbio(handle->ssl);
     con->ssl = (struct ssl_handle *)handle;
-    signed long int return_value_net_con_ssl_accept$2;
-    return_value_net_con_ssl_accept$2=net_con_ssl_accept(con);
-    return return_value_net_con_ssl_accept$2;
+    signed long int return_value_net_con_ssl_accept_2;
+    return_value_net_con_ssl_accept_2=net_con_ssl_accept(con);
+    return return_value_net_con_ssl_accept_2;
   }
 
   else
   {
-    const struct ssl_method_st *return_value_TLSv1_method$3;
-    return_value_TLSv1_method$3=TLSv1_method();
-    struct ssl_ctx_st *return_value_SSL_CTX_new$4;
-    return_value_SSL_CTX_new$4=SSL_CTX_new(return_value_TLSv1_method$3);
-    handle->ssl=SSL_new(return_value_SSL_CTX_new$4);
+    const struct ssl_method_st *return_value_TLSv1_method_3;
+    return_value_TLSv1_method_3=TLSv1_method();
+    struct ssl_ctx_st *return_value_SSL_CTX_new_4;
+    return_value_SSL_CTX_new_4=SSL_CTX_new(return_value_TLSv1_method_3);
+    handle->ssl=SSL_new(return_value_SSL_CTX_new_4);
     SSL_set_fd(handle->ssl, con->sd);
     handle->bio=SSL_get_rbio(handle->ssl);
     con->ssl = (struct ssl_handle *)handle;
-    signed long int return_value_net_con_ssl_connect$5;
-    return_value_net_con_ssl_connect$5=net_con_ssl_connect(con);
-    return return_value_net_con_ssl_connect$5;
+    signed long int return_value_net_con_ssl_connect_5;
+    return_value_net_con_ssl_connect_5=net_con_ssl_connect(con);
+    return return_value_net_con_ssl_connect_5;
   }
 }
 
@@ -21402,9 +21402,9 @@ extern signed int net_connect(signed int fd, struct sockaddr *serv_addr, unsigne
   ret=connect(fd, serv_addr, addrlen);
   if(ret == -1)
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    if(!(return_value_net_error$1 == 115))
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    if(!(return_value_net_error_1 == 115))
     {
       net_error_out(fd, "net_connect");
       net_stats_add_error();
@@ -21463,9 +21463,9 @@ __CPROVER_DUMP_L2:
 extern struct net_dns_job * net_dns_gethostbyaddr(struct ip_addr_encap *ipaddr, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr)
 {
   struct net_dns_job *job;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
-  job = (struct net_dns_job *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
+  job = (struct net_dns_job *)return_value_hub_malloc_zero_1;
   job->af = ipaddr->af;
   job->callback = callback;
   job->ptr = ptr;
@@ -21477,12 +21477,12 @@ extern struct net_dns_job * net_dns_gethostbyaddr(struct ip_addr_encap *ipaddr, 
 extern struct net_dns_job * net_dns_gethostbyname(const char *host, signed int af, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr)
 {
   struct net_dns_job *job;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
-  job = (struct net_dns_job *)return_value_hub_malloc_zero$1;
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup(host);
-  job->host = return_value___strdup$2;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_dns_job) /*40ul*/ );
+  job = (struct net_dns_job *)return_value_hub_malloc_zero_1;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup(host);
+  job->host = return_value___strdup_2;
   job->af = af;
   job->callback = callback;
   job->ptr = ptr;
@@ -21508,9 +21508,9 @@ void net_dns_initialize()
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_dns_subsystem) /*56ul*/ );
-  g_dns = (struct net_dns_subsystem *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_dns_subsystem) /*56ul*/ );
+  g_dns = (struct net_dns_subsystem *)return_value_hub_malloc_zero_1;
   g_dns->jobs=list_create();
   g_dns->results=list_create();
   uhub_mutex_init(&g_dns->mutex);
@@ -21526,9 +21526,9 @@ extern signed int net_dns_job_cancel(struct net_dns_job *job)
 __CPROVER_DUMP_L1:
   ;
   uhub_mutex_lock(&g_dns->mutex);
-  struct net_dns_job *return_value_find_and_remove_job$1;
-  return_value_find_and_remove_job$1=find_and_remove_job(job);
-  if(!(return_value_find_and_remove_job$1 == ((struct net_dns_job *)NULL)))
+  struct net_dns_job *return_value_find_and_remove_job_1;
+  return_value_find_and_remove_job_1=find_and_remove_job(job);
+  if(!(return_value_find_and_remove_job_1 == ((struct net_dns_job *)NULL)))
   {
     uhub_thread_cancel(job->thread_handle);
     uhub_thread_join(job->thread_handle);
@@ -21580,10 +21580,10 @@ void net_dns_process()
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(g_dns->results);
-  result = (struct net_dns_result *)return_value_list_get_first$1;
-  void *return_value_list_get_next$2;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(g_dns->results);
+  result = (struct net_dns_result *)return_value_list_get_first_1;
+  void *return_value_list_get_next_2;
   if(!(result == ((struct net_dns_result *)NULL)))
   {
     struct net_dns_job *job = result->job;
@@ -21598,8 +21598,8 @@ __CPROVER_DUMP_L1:
       result->job = (struct net_dns_job *)(void *)0;
       free_job(job);
     }
-    return_value_list_get_next$2=list_get_next(g_dns->results);
-    result = (struct net_dns_result *)return_value_list_get_next$2;
+    return_value_list_get_next_2=list_get_next(g_dns->results);
+    result = (struct net_dns_result *)return_value_list_get_next_2;
   }
 
   list_clear(g_dns->results, dummy_free);
@@ -21611,9 +21611,9 @@ __CPROVER_DUMP_L1:
 extern struct ip_addr_encap * net_dns_result_first(struct net_dns_result *res)
 {
   struct ip_addr_encap *ipaddr;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(res->addr_list);
-  ipaddr = (struct ip_addr_encap *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(res->addr_list);
+  ipaddr = (struct ip_addr_encap *)return_value_list_get_first_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -21635,9 +21635,9 @@ extern void net_dns_result_free(struct net_dns_result *res)
 extern struct ip_addr_encap * net_dns_result_next(struct net_dns_result *res)
 {
   struct ip_addr_encap *ipaddr;
-  void *return_value_list_get_next$1;
-  return_value_list_get_next$1=list_get_next(res->addr_list);
-  ipaddr = (struct ip_addr_encap *)return_value_list_get_next$1;
+  void *return_value_list_get_next_1;
+  return_value_list_get_next_1=list_get_next(res->addr_list);
+  ipaddr = (struct ip_addr_encap *)return_value_list_get_next_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -21648,18 +21648,18 @@ __CPROVER_DUMP_L1:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 361
 extern unsigned long int net_dns_result_size(struct net_dns_result *res)
 {
-  unsigned long int return_value_list_size$1;
-  return_value_list_size$1=list_size(res->addr_list);
-  return return_value_list_size$1;
+  unsigned long int return_value_list_size_1;
+  return_value_list_size_1=list_size(res->addr_list);
+  return return_value_list_size_1;
 }
 
 // net_error
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 74
 extern signed int net_error()
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  return *return_value___errno_location_1;
 }
 
 // net_error_out
@@ -21668,29 +21668,29 @@ static void net_error_out(signed int fd, const char *func)
 {
   signed int err;
   err=net_error();
-  const char *return_value_net_error_string$1;
-  return_value_net_error_string$1=net_error_string(err);
-  hub_log(1, "%s, fd=%d: %s (%d)", func, fd, return_value_net_error_string$1, err);
+  const char *return_value_net_error_string_1;
+  return_value_net_error_string_1=net_error_string(err);
+  hub_log(1, "%s, fd=%d: %s (%d)", func, fd, return_value_net_error_string_1, err);
 }
 
-// net_error_out$link1
+// net_error_out_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 117
-static void net_error_out$link1(signed int fd$link1, const char *func$link1)
+static void net_error_out_link1(signed int fd_link1, const char *func_link1)
 {
-  signed int err$link1;
-  err$link1=net_error();
-  const char *return_value_net_error_string$1$link1;
-  return_value_net_error_string$1$link1=net_error_string(err$link1);
-  hub_log(1, "%s, fd=%d: %s (%d)", func$link1, fd$link1, return_value_net_error_string$1$link1, err$link1);
+  signed int err_link1;
+  err_link1=net_error();
+  const char *return_value_net_error_string_1_link1;
+  return_value_net_error_string_1_link1=net_error_string(err_link1);
+  hub_log(1, "%s, fd=%d: %s (%d)", func_link1, fd_link1, return_value_net_error_string_1_link1, err_link1);
 }
 
 // net_error_string
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 75
 extern const char * net_error_string(signed int code)
 {
-  char *return_value_strerror$1;
-  return_value_strerror$1=strerror(code);
-  return return_value_strerror$1;
+  char *return_value_strerror_1;
+  return_value_strerror_1=strerror(code);
+  return return_value_strerror_1;
 }
 
 // net_event
@@ -21701,9 +21701,9 @@ extern void net_event(struct net_connection *con, signed int event, void *arg)
   signed int flag_close = 0;
   if(event == 0x0001)
   {
-    signed int return_value_user_is_connecting$1;
-    return_value_user_is_connecting$1=user_is_connecting(user);
-    if(!(return_value_user_is_connecting$1 == 0))
+    signed int return_value_user_is_connecting_1;
+    return_value_user_is_connecting_1=user_is_connecting(user);
+    if(!(return_value_user_is_connecting_1 == 0))
       hub_disconnect_user(user->hub, user, quit_timeout);
 
     goto __CPROVER_DUMP_L5;
@@ -21758,9 +21758,9 @@ extern const char * net_get_local_address(signed int fd)
   name6 = (struct sockaddr_in6 *)&storage;
   name4 = (struct sockaddr_in *)&storage;
   name = (struct sockaddr *)&storage;
-  signed int return_value_getsockname$1;
-  return_value_getsockname$1=getsockname(fd, (struct sockaddr *)name, &namelen);
-  if(!(return_value_getsockname$1 == -1))
+  signed int return_value_getsockname_1;
+  return_value_getsockname_1=getsockname(fd, (struct sockaddr *)name, &namelen);
+  if(!(return_value_getsockname_1 == -1))
   {
     signed int af = (signed int)storage.ss_family;
     if(af == 10)
@@ -21784,9 +21784,9 @@ extern const char * net_get_local_address(signed int fd)
 extern unsigned long int net_get_max_sockets()
 {
   struct rlimit limits;
-  signed int return_value_getrlimit$1;
-  return_value_getrlimit$1=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &limits);
-  if(return_value_getrlimit$1 == 0)
+  signed int return_value_getrlimit_1;
+  return_value_getrlimit_1=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &limits);
+  if(return_value_getrlimit_1 == 0)
     return limits.rlim_max < (unsigned long int)65536 ? limits.rlim_max : (unsigned long int)65536;
 
   else
@@ -21812,9 +21812,9 @@ extern const char * net_get_peer_address(signed int fd)
   name6 = (struct sockaddr_in6 *)&storage;
   name4 = (struct sockaddr_in *)&storage;
   name = (struct sockaddr *)&storage;
-  signed int return_value_getpeername$1;
-  return_value_getpeername$1=getpeername(fd, (struct sockaddr *)name, &namelen);
-  if(!(return_value_getpeername$1 == -1))
+  signed int return_value_getpeername_1;
+  return_value_getpeername_1=getpeername(fd, (struct sockaddr *)name, &namelen);
+  if(!(return_value_getpeername_1 == -1))
   {
     signed int af = (signed int)storage.ss_family;
     if(af == 10)
@@ -21838,9 +21838,9 @@ extern const char * net_get_peer_address(signed int fd)
 extern signed int net_get_recvbuf_size(signed int fd, unsigned long int *size)
 {
   unsigned int sz = (unsigned int)sizeof(unsigned long int) /*8ul*/ ;
-  signed int return_value_net_getsockopt$1;
-  return_value_net_getsockopt$1=net_getsockopt(fd, 1, 8, (void *)size, &sz);
-  return return_value_net_getsockopt$1;
+  signed int return_value_net_getsockopt_1;
+  return_value_net_getsockopt_1=net_getsockopt(fd, 1, 8, (void *)size, &sz);
+  return return_value_net_getsockopt_1;
 }
 
 // net_get_sendbuf_size
@@ -21848,9 +21848,9 @@ extern signed int net_get_recvbuf_size(signed int fd, unsigned long int *size)
 extern signed int net_get_sendbuf_size(signed int fd, unsigned long int *size)
 {
   unsigned int sz = (unsigned int)sizeof(unsigned long int) /*8ul*/ ;
-  signed int return_value_net_getsockopt$1;
-  return_value_net_getsockopt$1=net_getsockopt(fd, 1, 7, (void *)size, &sz);
-  return return_value_net_getsockopt$1;
+  signed int return_value_net_getsockopt_1;
+  return_value_net_getsockopt_1=net_getsockopt(fd, 1, 7, (void *)size, &sz);
+  return return_value_net_getsockopt_1;
 }
 
 // net_get_time
@@ -21872,40 +21872,40 @@ static signed int net_getsockopt(signed int fd, signed int level, signed int opt
   return ret;
 }
 
-// net_getsockopt$link1
+// net_getsockopt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 162
-static signed int net_getsockopt$link1(signed int fd$link1, signed int level$link1, signed int opt$link1, void *optval$link1, unsigned int *optlen$link1)
+static signed int net_getsockopt_link1(signed int fd_link1, signed int level_link1, signed int opt_link1, void *optval_link1, unsigned int *optlen_link1)
 {
-  signed int ret$link1 = -1;
-  ret$link1=getsockopt(fd$link1, level$link1, opt$link1, optval$link1, optlen$link1);
-  if(ret$link1 == -1)
-    net_error_out$link1(fd$link1, "net_getsockopt");
+  signed int ret_link1 = -1;
+  ret_link1=getsockopt(fd_link1, level_link1, opt_link1, optval_link1, optlen_link1);
+  if(ret_link1 == -1)
+    net_error_out_link1(fd_link1, "net_getsockopt");
 
-  return ret$link1;
+  return ret_link1;
 }
 
 // net_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 44
 extern signed int net_initialize()
 {
-  _Bool tmp_if_expr$3;
-  signed int return_value_net_ssl_library_init$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_net_ssl_library_init_2;
   if(net_initialized == 0)
   {
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_net_backend_init$1;
-    return_value_net_backend_init$1=net_backend_init();
-    if(return_value_net_backend_init$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_net_backend_init_1;
+    return_value_net_backend_init_1=net_backend_init();
+    if(return_value_net_backend_init_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_net_ssl_library_init$2=net_ssl_library_init();
-      tmp_if_expr$3 = !(return_value_net_ssl_library_init$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_net_ssl_library_init_2=net_ssl_library_init();
+      tmp_if_expr_3 = !(return_value_net_ssl_library_init_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return -1;
 
     net_dns_initialize();
@@ -21927,9 +21927,9 @@ extern signed int net_is_ipv6_supported()
     ret=socket(10, 2, 17);
     if(ret == -1)
     {
-      signed int return_value_net_error$1;
-      return_value_net_error$1=net_error();
-      if(return_value_net_error$1 == 97)
+      signed int return_value_net_error_1;
+      return_value_net_error_1=net_error();
+      if(return_value_net_error_1 == 97)
       {
 
       __CPROVER_DUMP_L1:
@@ -21944,9 +21944,9 @@ extern signed int net_is_ipv6_supported()
     else
     {
       signed int off = 0;
-      signed int return_value_net_setsockopt$2;
-      return_value_net_setsockopt$2=net_setsockopt(ret, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_net_setsockopt$2 >= 0))
+      signed int return_value_net_setsockopt_2;
+      return_value_net_setsockopt_2=net_setsockopt(ret, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_net_setsockopt_2 >= 0))
       {
         hub_log(1, "net_socket_create(): Dual stack IPv6/IPv4 is not supported.");
         is_ipv6_supported = 0;
@@ -21992,20 +21992,20 @@ extern void net_on_accept(struct net_connection *con, signed int event, void *ar
     fd=net_accept(server_fd, &ipaddr);
     if(fd == -1)
     {
-      signed int return_value_net_error$4;
-      return_value_net_error$4=net_error();
-      if(return_value_net_error$4 == 11)
+      signed int return_value_net_error_4;
+      return_value_net_error_4=net_error();
+      if(return_value_net_error_4 == 11)
         break;
 
       else
       {
-        signed int return_value_net_error$1;
-        return_value_net_error$1=net_error();
-        signed int return_value_net_error$2;
-        return_value_net_error$2=net_error();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(return_value_net_error$2);
-        hub_log(1, "Accept error: %d %s", return_value_net_error$1, return_value_strerror$3);
+        signed int return_value_net_error_1;
+        return_value_net_error_1=net_error();
+        signed int return_value_net_error_2;
+        return_value_net_error_2=net_error();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(return_value_net_error_2);
+        hub_log(1, "Accept error: %d %s", return_value_net_error_1, return_value_strerror_3);
         break;
       }
     }
@@ -22044,9 +22044,9 @@ extern signed long int net_recv(signed int fd, void *buf, unsigned long int len,
 
   else
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    if(!(return_value_net_error$1 == 11))
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    if(!(return_value_net_error_1 == 11))
       net_stats_add_error();
 
   }
@@ -22064,9 +22064,9 @@ extern signed long int net_send(signed int fd, const void *buf, unsigned long in
 
   else
   {
-    signed int return_value_net_error$1;
-    return_value_net_error$1=net_error();
-    if(!(return_value_net_error$1 == 11))
+    signed int return_value_net_error_1;
+    return_value_net_error_1=net_error();
+    if(!(return_value_net_error_1 == 11))
       net_stats_add_error();
 
   }
@@ -22077,9 +22077,9 @@ extern signed long int net_send(signed int fd, const void *buf, unsigned long in
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 220
 extern signed int net_set_close_on_exec(signed int fd, signed int toggle)
 {
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, 2, toggle);
-  return return_value_fcntl$1;
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, 2, toggle);
+  return return_value_fcntl_1;
 }
 
 // net_set_keepalive
@@ -22130,9 +22130,9 @@ extern signed int net_set_nosigpipe(signed int fd, signed int toggle)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 274
 extern signed int net_set_recvbuf_size(signed int fd, unsigned long int size)
 {
-  signed int return_value_net_setsockopt$1;
-  return_value_net_setsockopt$1=net_setsockopt(fd, 1, 8, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
-  return return_value_net_setsockopt$1;
+  signed int return_value_net_setsockopt_1;
+  return_value_net_setsockopt_1=net_setsockopt(fd, 1, 8, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
+  return return_value_net_setsockopt_1;
 }
 
 // net_set_reuseaddress
@@ -22151,9 +22151,9 @@ extern signed int net_set_reuseaddress(signed int fd, signed int toggle)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 263
 extern signed int net_set_sendbuf_size(signed int fd, unsigned long int size)
 {
-  signed int return_value_net_setsockopt$1;
-  return_value_net_setsockopt$1=net_setsockopt(fd, 1, 7, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
-  return return_value_net_setsockopt$1;
+  signed int return_value_net_setsockopt_1;
+  return_value_net_setsockopt_1=net_setsockopt(fd, 1, 7, (const void *)&size, (unsigned int)sizeof(unsigned long int) /*8ul*/ );
+  return return_value_net_setsockopt_1;
 }
 
 // net_setsockopt
@@ -22168,43 +22168,43 @@ static signed int net_setsockopt(signed int fd, signed int level, signed int opt
   return ret;
 }
 
-// net_setsockopt$link1
+// net_setsockopt_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 145
-static signed int net_setsockopt$link1(signed int fd$link1, signed int level$link1, signed int opt$link1, const void *optval$link1, unsigned int optlen$link1)
+static signed int net_setsockopt_link1(signed int fd_link1, signed int level_link1, signed int opt_link1, const void *optval_link1, unsigned int optlen_link1)
 {
-  signed int ret$link1 = -1;
-  ret$link1=setsockopt(fd$link1, level$link1, opt$link1, optval$link1, optlen$link1);
-  if(ret$link1 == -1)
-    net_error_out$link1(fd$link1, "net_setsockopt");
+  signed int ret_link1 = -1;
+  ret_link1=setsockopt(fd_link1, level_link1, opt_link1, optval_link1, optlen_link1);
+  if(ret_link1 == -1)
+    net_error_out_link1(fd_link1, "net_setsockopt");
 
-  return ret$link1;
+  return ret_link1;
 }
 
 // net_shutdown_r
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.h line 92
 extern signed int net_shutdown_r(signed int fd)
 {
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 0);
-  return return_value_shutdown$1;
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 0);
+  return return_value_shutdown_1;
 }
 
 // net_shutdown_rw
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 327
 extern signed int net_shutdown_rw(signed int fd)
 {
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 2);
-  return return_value_shutdown$1;
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 2);
+  return return_value_shutdown_1;
 }
 
 // net_shutdown_w
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 318
 extern signed int net_shutdown_w(signed int fd)
 {
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(fd, 1);
-  return return_value_shutdown$1;
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(fd, 1);
+  return return_value_shutdown_1;
 }
 
 // net_socket_create
@@ -22224,17 +22224,17 @@ extern signed int net_socket_create(signed int af, signed int type, signed int p
     if(af == 10)
     {
       signed int off = 0;
-      signed int return_value_net_setsockopt$4;
-      return_value_net_setsockopt$4=net_setsockopt(sd, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_net_setsockopt$4 >= 0))
+      signed int return_value_net_setsockopt_4;
+      return_value_net_setsockopt_4=net_setsockopt(sd, 41, 26, (const void *)(char *)&off, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_net_setsockopt_4 >= 0))
       {
-        signed int return_value_net_error$1;
-        return_value_net_error$1=net_error();
-        signed int return_value_net_error$2;
-        return_value_net_error$2=net_error();
-        const char *return_value_net_error_string$3;
-        return_value_net_error_string$3=net_error_string(return_value_net_error$2);
-        hub_log(1, "net_socket_create():  Cannot set socket to dual stack mode IPv6/IPv4 (%d - %s).", return_value_net_error$1, return_value_net_error_string$3);
+        signed int return_value_net_error_1;
+        return_value_net_error_1=net_error();
+        signed int return_value_net_error_2;
+        return_value_net_error_2=net_error();
+        const char *return_value_net_error_string_3;
+        return_value_net_error_string_3=net_error_string(return_value_net_error_2);
+        hub_log(1, "net_socket_create():  Cannot set socket to dual stack mode IPv6/IPv4 (%d - %s).", return_value_net_error_1, return_value_net_error_string_3);
       }
 
     }
@@ -22249,8 +22249,8 @@ extern void net_ssl_callback(struct net_connection *con, signed int events)
 {
   struct net_ssl_openssl *handle;
   handle=get_handle(con);
-  signed long int return_value_net_con_ssl_accept$1;
-  signed long int return_value_net_con_ssl_connect$2;
+  signed long int return_value_net_con_ssl_accept_1;
+  signed long int return_value_net_con_ssl_connect_2;
   switch((signed int)handle->state)
   {
     case tls_st_none:
@@ -22259,16 +22259,16 @@ extern void net_ssl_callback(struct net_connection *con, signed int events)
       con->callback(con, 0x0002, con->ptr);
     case tls_st_accepting:
     {
-      return_value_net_con_ssl_accept$1=net_con_ssl_accept(con);
-      if(!(return_value_net_con_ssl_accept$1 == 0l))
+      return_value_net_con_ssl_accept_1=net_con_ssl_accept(con);
+      if(!(return_value_net_con_ssl_accept_1 == 0l))
         con->callback(con, 0x0002, con->ptr);
 
       goto __CPROVER_DUMP_L11;
     }
     case tls_st_connecting:
     {
-      return_value_net_con_ssl_connect$2=net_con_ssl_connect(con);
-      if(!(return_value_net_con_ssl_connect$2 == 0l))
+      return_value_net_con_ssl_connect_2=net_con_ssl_connect(con);
+      if(!(return_value_net_con_ssl_connect_2 == 0l))
         con->callback(con, 0x0002, con->ptr);
 
       goto __CPROVER_DUMP_L11;
@@ -22293,12 +22293,12 @@ extern void net_ssl_callback(struct net_connection *con, signed int events)
 extern struct ssl_context_handle * net_ssl_context_create()
 {
   struct net_context_openssl *ctx;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct net_context_openssl) /*16ul*/ );
-  ctx = (struct net_context_openssl *)return_value_hub_malloc_zero$1;
-  const struct ssl_method_st *return_value_SSLv23_method$2;
-  return_value_SSLv23_method$2=SSLv23_method();
-  ctx->ssl_method = (struct ssl_method_st *)return_value_SSLv23_method$2;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct net_context_openssl) /*16ul*/ );
+  ctx = (struct net_context_openssl *)return_value_hub_malloc_zero_1;
+  const struct ssl_method_st *return_value_SSLv23_method_2;
+  return_value_SSLv23_method_2=SSLv23_method();
+  ctx->ssl_method = (struct ssl_method_st *)return_value_SSLv23_method_2;
   ctx->ssl_ctx=SSL_CTX_new(ctx->ssl_method);
   SSL_CTX_ctrl(ctx->ssl_ctx, 32, 0x01000000L, (void *)0);
 
@@ -22373,9 +22373,9 @@ extern signed long int net_ssl_recv(struct net_connection *con, void *buf, unsig
   else
   {
     ERR_clear_error();
-    signed int return_value_SSL_read$1;
-    return_value_SSL_read$1=SSL_read(handle->ssl, buf, (signed int)len);
-    ret = (signed long int)return_value_SSL_read$1;
+    signed int return_value_SSL_read_1;
+    return_value_SSL_read_1=SSL_read(handle->ssl, buf, (signed int)len);
+    ret = (signed long int)return_value_SSL_read_1;
     add_io_stats(handle);
 
   __CPROVER_DUMP_L2:
@@ -22388,9 +22388,9 @@ extern signed long int net_ssl_recv(struct net_connection *con, void *buf, unsig
 
     else
     {
-      signed int return_value_handle_openssl_error$2;
-      return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_read);
-      return (signed long int)return_value_handle_openssl_error$2;
+      signed int return_value_handle_openssl_error_2;
+      return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_read);
+      return (signed long int)return_value_handle_openssl_error_2;
     }
   }
 }
@@ -22403,9 +22403,9 @@ extern signed long int net_ssl_send(struct net_connection *con, const void *buf,
   handle=get_handle(con);
   ERR_clear_error();
   signed long int ret;
-  signed int return_value_SSL_write$1;
-  return_value_SSL_write$1=SSL_write(handle->ssl, buf, (signed int)len);
-  ret = (signed long int)return_value_SSL_write$1;
+  signed int return_value_SSL_write_1;
+  return_value_SSL_write_1=SSL_write(handle->ssl, buf, (signed int)len);
+  ret = (signed long int)return_value_SSL_write_1;
   add_io_stats(handle);
 
 __CPROVER_DUMP_L1:
@@ -22418,9 +22418,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    signed int return_value_handle_openssl_error$2;
-    return_value_handle_openssl_error$2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_write);
-    return (signed long int)return_value_handle_openssl_error$2;
+    signed int return_value_handle_openssl_error_2;
+    return_value_handle_openssl_error_2=handle_openssl_error(con, (signed int)ret, (enum ssl_state)tls_st_need_write);
+    return (signed long int)return_value_handle_openssl_error_2;
   }
 }
 
@@ -22504,20 +22504,20 @@ extern void net_stats_reset()
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 778
 extern signed int net_stats_timeout()
 {
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  double return_value_difftime$2;
-  return_value_difftime$2=difftime(return_value_time$1, stats.timestamp);
-  return return_value_difftime$2 > (double)10 ? 1 : 0;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  double return_value_difftime_2;
+  return_value_difftime_2=difftime(return_value_time_1, stats.timestamp);
+  return return_value_difftime_2 > (double)10 ? 1 : 0;
 }
 
 // net_string_to_address
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/network.c line 554
 extern signed int net_string_to_address(signed int af, const char *src, void *dst)
 {
-  signed int return_value_inet_pton$1;
-  return_value_inet_pton$1=inet_pton(af, src, dst);
-  return return_value_inet_pton$1;
+  signed int return_value_inet_pton_1;
+  return_value_inet_pton_1=inet_pton(af, src, dst);
+  return return_value_inet_pton_1;
 }
 
 // nick_bad_characters
@@ -22547,9 +22547,9 @@ static signed int nick_bad_characters(const char *nick)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/inf.c line 266
 static signed int nick_is_utf8(const char *nick)
 {
-  signed int return_value_is_valid_utf8$1;
-  return_value_is_valid_utf8$1=is_valid_utf8(nick);
-  if(return_value_is_valid_utf8$1 == 0)
+  signed int return_value_is_valid_utf8_1;
+  return_value_is_valid_utf8_1=is_valid_utf8(nick);
+  if(return_value_is_valid_utf8_1 == 0)
     return nick_invalid_bad_utf8;
 
   else
@@ -22580,9 +22580,9 @@ static void null_free(void *ptr)
   ;
 }
 
-// null_free$link1
+// null_free_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 321
-static void null_free$link1(void *ptr$link1)
+static void null_free_link1(void *ptr_link1)
 {
   ;
 }
@@ -22598,9 +22598,9 @@ void null_node_free(struct rb_node *n)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hubevent.c line 44
 extern void on_login_failure(struct hub_info *hub, struct hub_user *u, enum status_message msg)
 {
-  const char *return_value_hub_get_status_message_log$1;
-  return_value_hub_get_status_message_log$1=hub_get_status_message_log(hub, msg);
-  plugin_log_user_login_error(hub, u, return_value_hub_get_status_message_log$1);
+  const char *return_value_hub_get_status_message_log_1;
+  return_value_hub_get_status_message_log_1=hub_get_status_message_log(hub, msg);
+  plugin_log_user_login_error(hub, u, return_value_hub_get_status_message_log_1);
   hub_send_status(hub, u, msg, (enum msg_status_level)status_level_fatal);
   hub_disconnect_user(hub, u, quit_logon_error);
 }
@@ -22609,15 +22609,15 @@ extern void on_login_failure(struct hub_info *hub, struct hub_user *u, enum stat
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hubevent.c line 24
 extern void on_login_success(struct hub_info *hub, struct hub_user *u)
 {
-  signed int return_value_uman_send_user_list$1;
-  return_value_uman_send_user_list$1=uman_send_user_list(hub, hub->users, u);
-  if(!(return_value_uman_send_user_list$1 == 0))
+  signed int return_value_uman_send_user_list_1;
+  return_value_uman_send_user_list_1=uman_send_user_list(hub, hub->users, u);
+  if(!(return_value_uman_send_user_list_1 == 0))
   {
     user_set_state(u, (enum user_state)state_normal);
     uman_add(hub->users, u);
-    signed int return_value_user_is_logged_in$2;
-    return_value_user_is_logged_in$2=user_is_logged_in(u);
-    if(!(return_value_user_is_logged_in$2 == 0))
+    signed int return_value_user_is_logged_in_2;
+    return_value_user_is_logged_in_2=user_is_logged_in(u);
+    if(!(return_value_user_is_logged_in_2 == 0))
       route_info_message(hub, u);
 
     plugin_log_user_login_success(hub, u);
@@ -22640,9 +22640,9 @@ extern void on_logout_user(struct hub_info *hub, struct hub_user *user)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hubevent.c line 58
 extern void on_nick_change(struct hub_info *hub, struct hub_user *u, const char *nick)
 {
-  signed int return_value_user_is_logged_in$1;
-  return_value_user_is_logged_in$1=user_is_logged_in(u);
-  if(!(return_value_user_is_logged_in$1 == 0))
+  signed int return_value_user_is_logged_in_1;
+  return_value_user_is_logged_in_1=user_is_logged_in(u);
+  if(!(return_value_user_is_logged_in_1 == 0))
     plugin_log_user_nick_change(hub, u, nick);
 
 }
@@ -22651,9 +22651,9 @@ extern void on_nick_change(struct hub_info *hub, struct hub_user *u, const char 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/hubevent.c line 51
 extern void on_update_failure(struct hub_info *hub, struct hub_user *u, enum status_message msg)
 {
-  const char *return_value_hub_get_status_message_log$1;
-  return_value_hub_get_status_message_log$1=hub_get_status_message_log(hub, msg);
-  plugin_log_user_update_error(hub, u, return_value_hub_get_status_message_log$1);
+  const char *return_value_hub_get_status_message_log_1;
+  return_value_hub_get_status_message_log_1=hub_get_status_message_log(hub, msg);
+  plugin_log_user_update_error(hub, u, return_value_hub_get_status_message_log_1);
   hub_send_status(hub, u, msg, (enum msg_status_level)status_level_fatal);
   hub_disconnect_user(hub, u, quit_update_error);
 }
@@ -22771,9 +22771,9 @@ signed int pidfile_create()
       return -1;
     }
 
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    fprintf(pidfile, "%d", (signed int)return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    fprintf(pidfile, "%d", (signed int)return_value_getpid_1);
     fclose(pidfile);
   }
 
@@ -22786,9 +22786,9 @@ signed int pidfile_destroy()
 {
   if(!(arg_pid == ((const char *)NULL)))
   {
-    signed int return_value_unlink$1;
-    return_value_unlink$1=unlink(arg_pid);
-    return return_value_unlink$1;
+    signed int return_value_unlink_1;
+    return_value_unlink_1=unlink(arg_pid);
+    return return_value_unlink_1;
   }
 
   return 0;
@@ -22807,9 +22807,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.auth_delete_user == ((enum plugin_status (*)(struct plugin_handle *, struct auth_info *))NULL)))
@@ -22820,9 +22820,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -22844,9 +22844,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.auth_get_user == ((enum plugin_status (*)(struct plugin_handle *, const char *, struct auth_info *))NULL)))
@@ -22857,9 +22857,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -22881,9 +22881,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.auth_register_user == ((enum plugin_status (*)(struct plugin_handle *, struct auth_info *))NULL)))
@@ -22894,9 +22894,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -22918,9 +22918,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.auth_update_user == ((enum plugin_status (*)(struct plugin_handle *, struct auth_info *))NULL)))
@@ -22931,9 +22931,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -22947,9 +22947,9 @@ __CPROVER_DUMP_L2:
 extern struct plugin_callback_data * plugin_callback_data_create()
 {
   struct plugin_callback_data *data;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct plugin_callback_data) /*8ul*/ );
-  data = (struct plugin_callback_data *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct plugin_callback_data) /*8ul*/ );
+  data = (struct plugin_callback_data *)return_value_hub_malloc_zero_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -22964,14 +22964,14 @@ extern void plugin_callback_data_destroy(struct plugin_handle *plugin, struct pl
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
   if(!(data->commands == ((struct linked_list *)NULL)))
   {
     struct plugin_command_handle *cmd;
     do
     {
-      return_value_list_get_first$1=list_get_first(data->commands);
-      cmd = (struct plugin_command_handle *)return_value_list_get_first$1;
+      return_value_list_get_first_1=list_get_first(data->commands);
+      cmd = (struct plugin_command_handle *)return_value_list_get_first_1;
       if(cmd == ((struct plugin_command_handle *)NULL))
         break;
 
@@ -22997,9 +22997,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_check_ip_early == ((enum plugin_status (*)(struct plugin_handle *, struct ip_addr_encap *))NULL)))
@@ -23010,9 +23010,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23026,7 +23026,7 @@ __CPROVER_DUMP_L2:
 enum plugin_status plugin_check_ip_late(struct hub_info *hub, struct hub_user *who, struct ip_addr_encap *addr)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(who);
+  user=convert_user_type_link1(who);
   enum plugin_status status = (enum plugin_status)st_default;
 
 __CPROVER_DUMP_L2:
@@ -23036,9 +23036,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_check_ip_late == ((enum plugin_status (*)(struct plugin_handle *, struct plugin_user *, struct ip_addr_encap *))NULL)))
@@ -23049,9 +23049,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23089,27 +23089,27 @@ static signed int plugin_command_dispatch(struct command_base *cbase, struct hub
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(data->commands);
-  cmdh = (struct plugin_command_handle *)return_value_list_get_first$1;
-  signed int tmp_statement_expression$2;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(data->commands);
+  cmdh = (struct plugin_command_handle *)return_value_list_get_first_1;
+  signed int tmp_statement_expression_2;
   signed int return_value;
   while(!(cmdh == ((struct plugin_command_handle *)NULL)))
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp(cmdh->prefix, cmd->prefix);
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp(cmdh->prefix, cmd->prefix);
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
     {
       return_value=cmdh->handler(plugin, puser, pcommand);
       return return_value;
     }
 
-    void *return_value_list_get_next$4;
-    return_value_list_get_next$4=list_get_next(data->commands);
-    cmdh = (struct plugin_command_handle *)return_value_list_get_next$4;
+    void *return_value_list_get_next_4;
+    return_value_list_get_next_4=list_get_next(data->commands);
+    cmdh = (struct plugin_command_handle *)return_value_list_get_next_4;
   }
   return 0;
 }
@@ -23128,7 +23128,7 @@ extern struct hub_info * plugin_get_hub(struct plugin_handle *plugin)
 enum plugin_status plugin_handle_chat_message(struct hub_info *hub, struct hub_user *from, const char *message, signed int flags)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(from);
+  user=convert_user_type_link1(from);
   enum plugin_status status = (enum plugin_status)st_default;
 
 __CPROVER_DUMP_L2:
@@ -23138,9 +23138,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_chat_msg == ((enum plugin_status (*)(struct plugin_handle *, struct plugin_user *, const char *))NULL)))
@@ -23151,9 +23151,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23167,9 +23167,9 @@ __CPROVER_DUMP_L2:
 enum plugin_status plugin_handle_connect(struct hub_info *hub, struct hub_user *from, struct hub_user *to)
 {
   struct plugin_user *user1;
-  user1=convert_user_type$link1(from);
+  user1=convert_user_type_link1(from);
   struct plugin_user *user2;
-  user2=convert_user_type$link1(to);
+  user2=convert_user_type_link1(to);
   enum plugin_status status = (enum plugin_status)st_default;
 
 __CPROVER_DUMP_L2:
@@ -23179,9 +23179,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_p2p_connect == ((enum plugin_status (*)(struct plugin_handle *, struct plugin_user *, struct plugin_user *))NULL)))
@@ -23192,9 +23192,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23208,9 +23208,9 @@ __CPROVER_DUMP_L2:
 enum plugin_status plugin_handle_private_message(struct hub_info *hub, struct hub_user *from, struct hub_user *to, const char *message, signed int flags)
 {
   struct plugin_user *user1;
-  user1=convert_user_type$link1(from);
+  user1=convert_user_type_link1(from);
   struct plugin_user *user2;
-  user2=convert_user_type$link1(to);
+  user2=convert_user_type_link1(to);
   enum plugin_status status = (enum plugin_status)st_default;
 
 __CPROVER_DUMP_L2:
@@ -23220,9 +23220,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_private_msg == ((enum plugin_status (*)(struct plugin_handle *, struct plugin_user *, struct plugin_user *, const char *))NULL)))
@@ -23233,9 +23233,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23249,9 +23249,9 @@ __CPROVER_DUMP_L2:
 enum plugin_status plugin_handle_revconnect(struct hub_info *hub, struct hub_user *from, struct hub_user *to)
 {
   struct plugin_user *user1;
-  user1=convert_user_type$link1(from);
+  user1=convert_user_type_link1(from);
   struct plugin_user *user2;
-  user2=convert_user_type$link1(to);
+  user2=convert_user_type_link1(to);
   enum plugin_status status = (enum plugin_status)st_default;
 
 __CPROVER_DUMP_L2:
@@ -23261,9 +23261,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_p2p_revconnect == ((enum plugin_status (*)(struct plugin_handle *, struct plugin_user *, struct plugin_user *))NULL)))
@@ -23274,9 +23274,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23290,7 +23290,7 @@ __CPROVER_DUMP_L2:
 enum plugin_status plugin_handle_search(struct hub_info *hub, struct hub_user *from, const char *data)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(from);
+  user=convert_user_type_link1(from);
   enum plugin_status status = (enum plugin_status)st_default;
 
 __CPROVER_DUMP_L2:
@@ -23300,9 +23300,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_search == ((enum plugin_status (*)(struct plugin_handle *, struct plugin_user *, const char *))NULL)))
@@ -23313,9 +23313,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23329,9 +23329,9 @@ __CPROVER_DUMP_L2:
 enum plugin_status plugin_handle_search_result(struct hub_info *hub, struct hub_user *from, struct hub_user *to, const char *data)
 {
   struct plugin_user *user1;
-  user1=convert_user_type$link1(from);
+  user1=convert_user_type_link1(from);
   struct plugin_user *user2;
-  user2=convert_user_type$link1(to);
+  user2=convert_user_type_link1(to);
   enum plugin_status status = (enum plugin_status)st_default;
 
 __CPROVER_DUMP_L2:
@@ -23341,9 +23341,9 @@ __CPROVER_DUMP_L2:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_search_result == ((enum plugin_status (*)(struct plugin_handle *, struct plugin_user *, struct plugin_user *, const char *))NULL)))
@@ -23354,9 +23354,9 @@ __CPROVER_DUMP_L2:
 
         }
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23407,13 +23407,13 @@ extern struct plugin_handle * plugin_load(const char *filename, const char *conf
   signed int (*unregister_f)(struct plugin_handle *);
   signed int ret;
   struct plugin_handle *handle;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct plugin_handle) /*352ul*/ );
-  handle = (struct plugin_handle *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct plugin_handle) /*352ul*/ );
+  handle = (struct plugin_handle *)return_value_hub_malloc_zero_1;
   struct uhub_plugin *plugin;
   plugin=plugin_open(filename);
   struct plugin_hub_internals *internals = (struct plugin_hub_internals *)plugin->internals;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(plugin == ((struct uhub_plugin *)NULL))
     return (struct plugin_handle *)(void *)0;
 
@@ -23427,12 +23427,12 @@ extern struct plugin_handle * plugin_load(const char *filename, const char *conf
     else
     {
       handle->handle = plugin;
-      void *return_value_plugin_lookup_symbol$2;
-      return_value_plugin_lookup_symbol$2=plugin_lookup_symbol(plugin, "plugin_register");
-      register_f = (signed int (*)(struct plugin_handle *, const char *))return_value_plugin_lookup_symbol$2;
-      void *return_value_plugin_lookup_symbol$3;
-      return_value_plugin_lookup_symbol$3=plugin_lookup_symbol(plugin, "plugin_unregister");
-      unregister_f = (signed int (*)(struct plugin_handle *))return_value_plugin_lookup_symbol$3;
+      void *return_value_plugin_lookup_symbol_2;
+      return_value_plugin_lookup_symbol_2=plugin_lookup_symbol(plugin, "plugin_register");
+      register_f = (signed int (*)(struct plugin_handle *, const char *))return_value_plugin_lookup_symbol_2;
+      void *return_value_plugin_lookup_symbol_3;
+      return_value_plugin_lookup_symbol_3=plugin_lookup_symbol(plugin, "plugin_unregister");
+      unregister_f = (signed int (*)(struct plugin_handle *))return_value_plugin_lookup_symbol_3;
       internals->unregister = unregister_f;
       internals->hub = hub;
       internals->callback_data=plugin_callback_data_create();
@@ -23443,11 +23443,11 @@ extern struct plugin_handle * plugin_load(const char *filename, const char *conf
         if(ret == 0)
         {
           if(handle->plugin_api_version == 1ul)
-            tmp_if_expr$4 = handle->plugin_funcs_size == sizeof(struct plugin_funcs) /*200ul*/  ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = handle->plugin_funcs_size == sizeof(struct plugin_funcs) /*200ul*/  ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
           {
             hub_log(4, "Loaded plugin: %s: %s, version %s.", filename, handle->name, handle->version);
             return handle;
@@ -23472,7 +23472,7 @@ extern struct plugin_handle * plugin_load(const char *filename, const char *conf
 void plugin_log_chat_message(struct hub_info *hub, struct hub_user *who, const char *message, signed int flags)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(who);
+  user=convert_user_type_link1(who);
 
 __CPROVER_DUMP_L1:
   ;
@@ -23481,17 +23481,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_user_chat_message == ((void (*)(struct plugin_handle *, struct plugin_user *, const char *, signed int))NULL)))
           plugin->funcs.on_user_chat_message(plugin, user, message, flags);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23511,17 +23511,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_connection_accepted == ((void (*)(struct plugin_handle *, struct ip_addr_encap *))NULL)))
           plugin->funcs.on_connection_accepted(plugin, ipaddr);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23541,17 +23541,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_connection_refused == ((void (*)(struct plugin_handle *, struct ip_addr_encap *))NULL)))
           plugin->funcs.on_connection_refused(plugin, ipaddr);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23564,7 +23564,7 @@ __CPROVER_DUMP_L1:
 void plugin_log_user_login_error(struct hub_info *hub, struct hub_user *who, const char *reason)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(who);
+  user=convert_user_type_link1(who);
 
 __CPROVER_DUMP_L1:
   ;
@@ -23573,17 +23573,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_user_login_error == ((void (*)(struct plugin_handle *, struct plugin_user *, const char *))NULL)))
           plugin->funcs.on_user_login_error(plugin, user, reason);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23596,7 +23596,7 @@ __CPROVER_DUMP_L1:
 void plugin_log_user_login_success(struct hub_info *hub, struct hub_user *who)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(who);
+  user=convert_user_type_link1(who);
 
 __CPROVER_DUMP_L1:
   ;
@@ -23605,17 +23605,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_user_login == ((void (*)(struct plugin_handle *, struct plugin_user *))NULL)))
           plugin->funcs.on_user_login(plugin, user);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23628,7 +23628,7 @@ __CPROVER_DUMP_L1:
 void plugin_log_user_logout(struct hub_info *hub, struct hub_user *who, const char *reason)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(who);
+  user=convert_user_type_link1(who);
 
 __CPROVER_DUMP_L1:
   ;
@@ -23637,17 +23637,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_user_logout == ((void (*)(struct plugin_handle *, struct plugin_user *, const char *))NULL)))
           plugin->funcs.on_user_logout(plugin, user, reason);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23660,7 +23660,7 @@ __CPROVER_DUMP_L1:
 void plugin_log_user_nick_change(struct hub_info *hub, struct hub_user *who, const char *new_nick)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(who);
+  user=convert_user_type_link1(who);
 
 __CPROVER_DUMP_L1:
   ;
@@ -23669,17 +23669,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_user_nick_change == ((void (*)(struct plugin_handle *, struct plugin_user *, const char *))NULL)))
           plugin->funcs.on_user_nick_change(plugin, user, new_nick);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23692,7 +23692,7 @@ __CPROVER_DUMP_L1:
 void plugin_log_user_update_error(struct hub_info *hub, struct hub_user *who, const char *reason)
 {
   struct plugin_user *user;
-  user=convert_user_type$link1(who);
+  user=convert_user_type_link1(who);
 
 __CPROVER_DUMP_L1:
   ;
@@ -23701,17 +23701,17 @@ __CPROVER_DUMP_L1:
     if(!(hub->plugins->loaded == ((struct linked_list *)NULL)))
     {
       struct plugin_handle *plugin;
-      void *return_value_list_get_first$1;
-      return_value_list_get_first$1=list_get_first(hub->plugins->loaded);
-      plugin = (struct plugin_handle *)return_value_list_get_first$1;
+      void *return_value_list_get_first_1;
+      return_value_list_get_first_1=list_get_first(hub->plugins->loaded);
+      plugin = (struct plugin_handle *)return_value_list_get_first_1;
       while(!(plugin == ((struct plugin_handle *)NULL)))
       {
         if(!(plugin->funcs.on_user_update_error == ((void (*)(struct plugin_handle *, struct plugin_user *, const char *))NULL)))
           plugin->funcs.on_user_update_error(plugin, user, reason);
 
-        void *return_value_list_get_next$2;
-        return_value_list_get_next$2=list_get_next(hub->plugins->loaded);
-        plugin = (struct plugin_handle *)return_value_list_get_next$2;
+        void *return_value_list_get_next_2;
+        return_value_list_get_next_2=list_get_next(hub->plugins->loaded);
+        plugin = (struct plugin_handle *)return_value_list_get_next_2;
       }
     }
 
@@ -23736,9 +23736,9 @@ extern struct uhub_plugin * plugin_open(const char *filename)
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct uhub_plugin) /*32ul*/ );
-  plugin = (struct uhub_plugin *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct uhub_plugin) /*32ul*/ );
+  plugin = (struct uhub_plugin *)return_value_hub_malloc_zero_1;
   if(plugin == ((struct uhub_plugin *)NULL))
     return ((struct uhub_plugin *)NULL);
 
@@ -23747,16 +23747,16 @@ __CPROVER_DUMP_L1:
     plugin->handle=dlopen(filename, 0x00001);
     if(plugin->handle == NULL)
     {
-      char *return_value_dlerror$2;
-      return_value_dlerror$2=dlerror();
-      hub_log(1, "Unable to open plugin %s: %s", filename, return_value_dlerror$2);
+      char *return_value_dlerror_2;
+      return_value_dlerror_2=dlerror();
+      hub_log(1, "Unable to open plugin %s: %s", filename, return_value_dlerror_2);
       free((void *)plugin);
       return ((struct uhub_plugin *)NULL);
     }
 
-    char *return_value___strdup$3;
-    return_value___strdup$3=__strdup(filename);
-    plugin->filename = return_value___strdup$3;
+    char *return_value___strdup_3;
+    return_value___strdup_3=__strdup(filename);
+    plugin->filename = return_value___strdup_3;
     plugin->internals=hub_malloc_zero(sizeof(struct plugin_hub_internals) /*24ul*/ );
     return plugin;
   }
@@ -23774,10 +23774,10 @@ static signed int plugin_parse_line(char *line, signed int line_count, void *ptr
   char *directive;
   char *soname;
   char *params;
-  unsigned long int return_value_cfg_token_count$1;
-  return_value_cfg_token_count$1=cfg_token_count(tokens);
-  signed int tmp_statement_expression$3;
-  if(return_value_cfg_token_count$1 == 0ul)
+  unsigned long int return_value_cfg_token_count_1;
+  return_value_cfg_token_count_1=cfg_token_count(tokens);
+  signed int tmp_statement_expression_3;
+  if(return_value_cfg_token_count_1 == 0ul)
   {
     cfg_tokens_free(tokens);
     return 0;
@@ -23785,9 +23785,9 @@ static signed int plugin_parse_line(char *line, signed int line_count, void *ptr
 
   else
   {
-    unsigned long int return_value_cfg_token_count$2;
-    return_value_cfg_token_count$2=cfg_token_count(tokens);
-    if(!(return_value_cfg_token_count$2 >= 2ul))
+    unsigned long int return_value_cfg_token_count_2;
+    return_value_cfg_token_count_2=cfg_token_count(tokens);
+    if(!(return_value_cfg_token_count_2 >= 2ul))
     {
       cfg_tokens_free(tokens);
       return -1;
@@ -23800,10 +23800,10 @@ static signed int plugin_parse_line(char *line, signed int line_count, void *ptr
       params=cfg_token_get_next(tokens);
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(directive, "plugin");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(directive, "plugin");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
       {
         if(soname == ((char *)NULL))
           goto __CPROVER_DUMP_L4;
@@ -23860,16 +23860,16 @@ extern void plugin_register_callback_functions(struct plugin_handle *handle)
 extern void plugin_shutdown(struct uhub_plugins *handle)
 {
   struct plugin_handle *plugin;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(handle->loaded);
-  plugin = (struct plugin_handle *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(handle->loaded);
+  plugin = (struct plugin_handle *)return_value_list_get_first_1;
   while(!(plugin == ((struct plugin_handle *)NULL)))
   {
     list_remove(handle->loaded, (void *)plugin);
     plugin_unload(plugin);
-    void *return_value_list_get_first$2;
-    return_value_list_get_first$2=list_get_first(handle->loaded);
-    plugin = (struct plugin_handle *)return_value_list_get_first$2;
+    void *return_value_list_get_first_2;
+    return_value_list_get_first_2=list_get_first(handle->loaded);
+    plugin = (struct plugin_handle *)return_value_list_get_first_2;
   }
   list_destroy(handle->loaded);
 }
@@ -23898,9 +23898,9 @@ extern void plugin_unregister_callback_functions(struct plugin_handle *handle)
 static struct rb_node * pop(struct rb_tree *tree)
 {
   struct rb_node *n;
-  void *return_value_list_get_last$1;
-  return_value_list_get_last$1=list_get_last(tree->iterator.stack);
-  n = (struct rb_node *)return_value_list_get_last$1;
+  void *return_value_list_get_last_1;
+  return_value_list_get_last_1=list_get_last(tree->iterator.stack);
+  n = (struct rb_node *)return_value_list_get_last_1;
   if(!(n == ((struct rb_node *)NULL)))
     list_remove(tree->iterator.stack, (void *)n);
 
@@ -23930,9 +23930,9 @@ void print_version()
 extern struct hub_probe * probe_create(struct hub_info *hub, signed int sd, struct ip_addr_encap *addr)
 {
   struct hub_probe *probe;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct hub_probe) /*40ul*/ );
-  probe = (struct hub_probe *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct hub_probe) /*40ul*/ );
+  probe = (struct hub_probe *)return_value_hub_malloc_zero_1;
   if(probe == ((struct hub_probe *)NULL))
     return (struct hub_probe *)(void *)0;
 
@@ -23971,15 +23971,15 @@ __CPROVER_DUMP_L1:
 static void probe_net_event(struct net_connection *con, signed int events, void *arg)
 {
   struct hub_probe *probe;
-  void *return_value_net_con_get_ptr$1;
-  return_value_net_con_get_ptr$1=net_con_get_ptr(con);
-  probe = (struct hub_probe *)return_value_net_con_get_ptr$1;
-  _Bool tmp_if_expr$5;
-  struct hub_user *return_value_user_create$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  void *return_value_net_con_get_ptr_1;
+  return_value_net_con_get_ptr_1=net_con_get_ptr(con);
+  probe = (struct hub_probe *)return_value_net_con_get_ptr_1;
+  _Bool tmp_if_expr_5;
+  struct hub_user *return_value_user_create_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(events == 0x0001)
     probe_destroy(probe);
 
@@ -23987,9 +23987,9 @@ static void probe_net_event(struct net_connection *con, signed int events, void 
     if(!((0x0002 & events) == 0))
     {
       signed int bytes;
-      signed long int return_value_net_con_peek$2;
-      return_value_net_con_peek$2=net_con_peek(con, (void *)probe_recvbuf, (unsigned long int)12);
-      bytes = (signed int)return_value_net_con_peek$2;
+      signed long int return_value_net_con_peek_2;
+      return_value_net_con_peek_2=net_con_peek(con, (void *)probe_recvbuf, (unsigned long int)12);
+      bytes = (signed int)return_value_net_con_peek_2;
       if(!(bytes >= 0))
       {
         probe_destroy(probe);
@@ -23998,19 +23998,19 @@ static void probe_net_event(struct net_connection *con, signed int events, void 
 
       if(bytes >= 4)
       {
-        signed int return_value_memcmp$11;
-        return_value_memcmp$11=memcmp((const void *)probe_recvbuf, (const void *)"HSUP", (unsigned long int)4);
-        if(return_value_memcmp$11 == 0)
+        signed int return_value_memcmp_11;
+        return_value_memcmp_11=memcmp((const void *)probe_recvbuf, (const void *)"HSUP", (unsigned long int)4);
+        if(return_value_memcmp_11 == 0)
         {
 
         __CPROVER_DUMP_L3:
           ;
           if(!(probe->hub->config->tls_enable == 0))
-            tmp_if_expr$5 = probe->hub->config->tls_require != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = probe->hub->config->tls_require != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
           {
 
           __CPROVER_DUMP_L6:
@@ -24019,9 +24019,9 @@ static void probe_net_event(struct net_connection *con, signed int events, void 
             {
               char buf[512l];
               signed long int len;
-              signed int return_value_snprintf$3;
-              return_value_snprintf$3=snprintf(buf, sizeof(char [512l]) /*512ul*/ , "ISUP ADBASE ADTIGR ADPING ADUCMD\nISID AAAB\nIINF NIRedirecting...\nIQUI AAAB RD%s\n", probe->hub->config->tls_require_redirect_addr);
-              len = (signed long int)return_value_snprintf$3;
+              signed int return_value_snprintf_3;
+              return_value_snprintf_3=snprintf(buf, sizeof(char [512l]) /*512ul*/ , "ISUP ADBASE ADTIGR ADPING ADUCMD\nISID AAAB\nIINF NIRedirecting...\nIQUI AAAB RD%s\n", probe->hub->config->tls_require_redirect_addr);
+              len = (signed long int)return_value_snprintf_3;
               net_con_send(con, (const void *)buf, (unsigned long int)len);
             }
 
@@ -24033,8 +24033,8 @@ static void probe_net_event(struct net_connection *con, signed int events, void 
 
           else
           {
-            return_value_user_create$4=user_create(probe->hub, probe->connection, &probe->addr);
-            if(!(return_value_user_create$4 == ((struct hub_user *)NULL)))
+            return_value_user_create_4=user_create(probe->hub, probe->connection, &probe->addr);
+            if(!(return_value_user_create_4 == ((struct hub_user *)NULL)))
               probe->connection = ((struct net_connection *)NULL);
 
           }
@@ -24048,35 +24048,35 @@ static void probe_net_event(struct net_connection *con, signed int events, void 
         else
         {
           if(bytes >= 11)
-            tmp_if_expr$7 = (signed int)probe_recvbuf[(signed long int)0] == 22 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (signed int)probe_recvbuf[(signed long int)0] == 22 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
-            tmp_if_expr$8 = (signed int)probe_recvbuf[(signed long int)1] == 3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
+            tmp_if_expr_8 = (signed int)probe_recvbuf[(signed long int)1] == 3 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(tmp_if_expr$8)
-            tmp_if_expr$9 = (signed int)probe_recvbuf[(signed long int)5] == 1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (_Bool)0;
+          if(tmp_if_expr_8)
+            tmp_if_expr_9 = (signed int)probe_recvbuf[(signed long int)5] == 1 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
-            tmp_if_expr$10 = probe_recvbuf[(signed long int)9] == probe_recvbuf[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
+            tmp_if_expr_10 = probe_recvbuf[(signed long int)9] == probe_recvbuf[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
           {
             if(!(probe->hub->config->tls_enable == 0))
             {
 
             __CPROVER_DUMP_L21:
               ;
-              struct hub_user *return_value_user_create$6;
-              return_value_user_create$6=user_create(probe->hub, probe->connection, &probe->addr);
-              if(!(return_value_user_create$6 == ((struct hub_user *)NULL)))
+              struct hub_user *return_value_user_create_6;
+              return_value_user_create_6=user_create(probe->hub, probe->connection, &probe->addr);
+              if(!(return_value_user_create_6 == ((struct hub_user *)NULL)))
                 probe->connection = ((struct net_connection *)NULL);
 
               net_con_ssl_handshake(con, (enum net_con_ssl_mode)net_con_ssl_mode_server, probe->hub->ctx);
@@ -24150,12 +24150,12 @@ extern void rb_tree_destroy(struct rb_tree *tree)
 extern struct rb_node * rb_tree_first(struct rb_tree *tree)
 {
   struct rb_node *n = tree->root;
-  list_clear(tree->iterator.stack, null_free$link1);
+  list_clear(tree->iterator.stack, null_free_link1);
   for( ; !(n->link[0l] == ((struct rb_node *)NULL)); n = n->link[(signed long int)0])
     push(tree, n);
-  struct rb_node *return_value_rb_it_set$1;
-  return_value_rb_it_set$1=rb_it_set(tree, n);
-  return return_value_rb_it_set$1;
+  struct rb_node *return_value_rb_it_set_1;
+  return_value_rb_it_set_1=rb_it_set(tree, n);
+  return return_value_rb_it_set_1;
 }
 
 // rb_tree_get
@@ -24176,9 +24176,9 @@ extern void * rb_tree_get(struct rb_tree *tree, const void *key)
 extern signed int rb_tree_insert(struct rb_tree *tree, const void *key, const void *value)
 {
   struct rb_node *node;
-  struct rb_node *return_value_tree_search$1;
-  return_value_tree_search$1=tree_search(tree, key);
-  if(!(return_value_tree_search$1 == ((struct rb_node *)NULL)))
+  struct rb_node *return_value_tree_search_1;
+  return_value_tree_search_1=tree_search(tree, key);
+  if(!(return_value_tree_search_1 == ((struct rb_node *)NULL)))
     return 0;
 
   else
@@ -24196,12 +24196,12 @@ extern signed int rb_tree_insert(struct rb_tree *tree, const void *key, const vo
 static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *node, const void *key, const void *value)
 {
   signed int res;
-  struct rb_node *return_value_create_node$1;
-  signed int return_value_is_red$2;
+  struct rb_node *return_value_create_node_1;
+  signed int return_value_is_red_2;
   if(node == ((struct rb_node *)NULL))
   {
-    return_value_create_node$1=create_node(tree, key, value);
-    return return_value_create_node$1;
+    return_value_create_node_1=create_node(tree, key, value);
+    return return_value_create_node_1;
   }
 
   else
@@ -24217,13 +24217,13 @@ static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *n
     {
       signed int dir = (signed int)(res < 0);
       node->link[(signed long int)dir]=rb_tree_insert_r(tree, node->link[(signed long int)dir], key, value);
-      signed int return_value_is_red$5;
-      return_value_is_red$5=is_red(node->link[(signed long int)dir]);
-      if(!(return_value_is_red$5 == 0))
+      signed int return_value_is_red_5;
+      return_value_is_red_5=is_red(node->link[(signed long int)dir]);
+      if(!(return_value_is_red_5 == 0))
       {
-        signed int return_value_is_red$4;
-        return_value_is_red$4=is_red(node->link[(signed long int)!(dir != 0)]);
-        if(!(return_value_is_red$4 == 0))
+        signed int return_value_is_red_4;
+        return_value_is_red_4=is_red(node->link[(signed long int)!(dir != 0)]);
+        if(!(return_value_is_red_4 == 0))
         {
           node->red = 1;
           node->link[(signed long int)0]->red = 0;
@@ -24232,15 +24232,15 @@ static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *n
 
         else
         {
-          signed int return_value_is_red$3;
-          return_value_is_red$3=is_red(node->link[(signed long int)dir]->link[(signed long int)dir]);
-          if(!(return_value_is_red$3 == 0))
+          signed int return_value_is_red_3;
+          return_value_is_red_3=is_red(node->link[(signed long int)dir]->link[(signed long int)dir]);
+          if(!(return_value_is_red_3 == 0))
             node=rb_tree_rotate_single(node, (signed int)!(dir != 0));
 
           else
           {
-            return_value_is_red$2=is_red(node->link[(signed long int)dir]->link[(signed long int)!(dir != 0)]);
-            if(!(return_value_is_red$2 == 0))
+            return_value_is_red_2=is_red(node->link[(signed long int)dir]->link[(signed long int)!(dir != 0)]);
+            if(!(return_value_is_red_2 == 0))
               node=rb_tree_rotate_double(node, (signed int)!(dir != 0));
 
           }
@@ -24256,27 +24256,27 @@ static struct rb_node * rb_tree_insert_r(struct rb_tree *tree, struct rb_node *n
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 374
 extern struct rb_node * rb_tree_next(struct rb_tree *tree)
 {
-  struct rb_node *return_value_rb_tree_traverse$1;
-  return_value_rb_tree_traverse$1=rb_tree_traverse(tree, 1);
-  return return_value_rb_tree_traverse$1;
+  struct rb_node *return_value_rb_tree_traverse_1;
+  return_value_rb_tree_traverse_1=rb_tree_traverse(tree, 1);
+  return return_value_rb_tree_traverse_1;
 }
 
 // rb_tree_prev
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 379
 extern struct rb_node * rb_tree_prev(struct rb_tree *tree)
 {
-  struct rb_node *return_value_rb_tree_traverse$1;
-  return_value_rb_tree_traverse$1=rb_tree_traverse(tree, 0);
-  return return_value_rb_tree_traverse$1;
+  struct rb_node *return_value_rb_tree_traverse_1;
+  return_value_rb_tree_traverse_1=rb_tree_traverse(tree, 0);
+  return return_value_rb_tree_traverse_1;
 }
 
 // rb_tree_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 195
 extern signed int rb_tree_remove(struct rb_tree *tree, const void *key)
 {
-  signed int return_value_rb_tree_remove_node$1;
-  return_value_rb_tree_remove_node$1=rb_tree_remove_node(tree, key, null_node_free);
-  return return_value_rb_tree_remove_node$1;
+  signed int return_value_rb_tree_remove_node_1;
+  return_value_rb_tree_remove_node_1=rb_tree_remove_node(tree, key, null_node_free);
+  return return_value_rb_tree_remove_node_1;
 }
 
 // rb_tree_remove_node
@@ -24289,11 +24289,11 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
   struct rb_node *g;
   struct rb_node *f = (struct rb_node *)(void *)0;
   signed int dir = 1;
-  signed int return_value_is_red$8;
-  signed int return_value_is_red$6;
-  _Bool tmp_if_expr$5;
-  signed int return_value_is_red$4;
-  signed int return_value_is_red$1;
+  signed int return_value_is_red_8;
+  signed int return_value_is_red_6;
+  _Bool tmp_if_expr_5;
+  signed int return_value_is_red_4;
+  signed int return_value_is_red_1;
   if(tree->root == ((struct rb_node *)NULL))
     return 0;
 
@@ -24315,16 +24315,16 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
       if(res == 0)
         f = q;
 
-      signed int return_value_is_red$9;
-      return_value_is_red$9=is_red(q);
-      if(return_value_is_red$9 == 0)
+      signed int return_value_is_red_9;
+      return_value_is_red_9=is_red(q);
+      if(return_value_is_red_9 == 0)
       {
-        return_value_is_red$8=is_red(q->link[(signed long int)dir]);
-        if(return_value_is_red$8 == 0)
+        return_value_is_red_8=is_red(q->link[(signed long int)dir]);
+        if(return_value_is_red_8 == 0)
         {
-          signed int return_value_is_red$7;
-          return_value_is_red$7=is_red(q->link[(signed long int)!(dir != 0)]);
-          if(!(return_value_is_red$7 == 0))
+          signed int return_value_is_red_7;
+          return_value_is_red_7=is_red(q->link[(signed long int)!(dir != 0)]);
+          if(!(return_value_is_red_7 == 0))
           {
             p->link[(signed long int)last]=rb_tree_rotate_single(q, dir);
             p = p->link[(signed long int)last];
@@ -24332,23 +24332,23 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
 
           else
           {
-            return_value_is_red$6=is_red(q->link[(signed long int)!(dir != 0)]);
-            if(return_value_is_red$6 == 0)
+            return_value_is_red_6=is_red(q->link[(signed long int)!(dir != 0)]);
+            if(return_value_is_red_6 == 0)
             {
               struct rb_node *s = p->link[(signed long int)!(last != 0)];
               if(!(s == ((struct rb_node *)NULL)))
               {
-                signed int return_value_is_red$3;
-                return_value_is_red$3=is_red(s->link[(signed long int)!(last != 0)]);
-                if(return_value_is_red$3 == 0)
+                signed int return_value_is_red_3;
+                return_value_is_red_3=is_red(s->link[(signed long int)!(last != 0)]);
+                if(return_value_is_red_3 == 0)
                 {
-                  return_value_is_red$4=is_red(s->link[(signed long int)last]);
-                  tmp_if_expr$5 = !(return_value_is_red$4 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_is_red_4=is_red(s->link[(signed long int)last]);
+                  tmp_if_expr_5 = !(return_value_is_red_4 != 0) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(tmp_if_expr_5)
                 {
                   p->red = 0;
                   s->red = 1;
@@ -24358,15 +24358,15 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
                 else
                 {
                   signed int dir2 = (signed int)(g->link[(signed long int)1] == p);
-                  signed int return_value_is_red$2;
-                  return_value_is_red$2=is_red(s->link[(signed long int)last]);
-                  if(!(return_value_is_red$2 == 0))
+                  signed int return_value_is_red_2;
+                  return_value_is_red_2=is_red(s->link[(signed long int)last]);
+                  if(!(return_value_is_red_2 == 0))
                     g->link[(signed long int)dir2]=rb_tree_rotate_double(p, last);
 
                   else
                   {
-                    return_value_is_red$1=is_red(s->link[(signed long int)!(last != 0)]);
-                    if(!(return_value_is_red$1 == 0))
+                    return_value_is_red_1=is_red(s->link[(signed long int)!(last != 0)]);
+                    if(!(return_value_is_red_1 == 0))
                       g->link[(signed long int)dir2]=rb_tree_rotate_single(p, last);
 
                   }
@@ -24409,9 +24409,9 @@ extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, voi
 static struct rb_node * rb_tree_rotate_double(struct rb_node *node, signed int dir)
 {
   node->link[(signed long int)!(dir != 0)]=rb_tree_rotate_single(node->link[(signed long int)!(dir != 0)], (signed int)!(dir != 0));
-  struct rb_node *return_value_rb_tree_rotate_single$1;
-  return_value_rb_tree_rotate_single$1=rb_tree_rotate_single(node, dir);
-  return return_value_rb_tree_rotate_single$1;
+  struct rb_node *return_value_rb_tree_rotate_single_1;
+  return_value_rb_tree_rotate_single_1=rb_tree_rotate_single(node, dir);
+  return return_value_rb_tree_rotate_single_1;
 }
 
 // rb_tree_rotate_single
@@ -24445,20 +24445,20 @@ static struct rb_node * rb_tree_traverse(struct rb_tree *tree, signed int dir)
     n = n->link[(signed long int)dir];
     for( ; !(n->link[(signed long int)(dir == 0)] == ((struct rb_node *)NULL)); n = n->link[(signed long int)!(dir != 0)])
       list_append(tree->iterator.stack, (void *)n);
-    struct rb_node *return_value_rb_it_set$1;
-    return_value_rb_it_set$1=rb_it_set(tree, n);
-    return return_value_rb_it_set$1;
+    struct rb_node *return_value_rb_it_set_1;
+    return_value_rb_it_set_1=rb_it_set(tree, n);
+    return return_value_rb_it_set_1;
   }
 
   p=pop(tree);
-  struct rb_node *return_value_rb_it_set$2;
-  struct rb_node *return_value_rb_it_set$3;
+  struct rb_node *return_value_rb_it_set_2;
+  struct rb_node *return_value_rb_it_set_3;
   if(!(p == ((struct rb_node *)NULL)))
   {
     if(p->link[(signed long int)(dir == 0)] == n)
     {
-      return_value_rb_it_set$2=rb_it_set(tree, p);
-      return return_value_rb_it_set$2;
+      return_value_rb_it_set_2=rb_it_set(tree, p);
+      return return_value_rb_it_set_2;
     }
 
     while(p->link[(signed long int)dir] == n)
@@ -24467,19 +24467,19 @@ static struct rb_node * rb_tree_traverse(struct rb_tree *tree, signed int dir)
       p=pop(tree);
       if(p == ((struct rb_node *)NULL))
       {
-        return_value_rb_it_set$3=rb_it_set(tree, (struct rb_node *)(void *)0);
-        return return_value_rb_it_set$3;
+        return_value_rb_it_set_3=rb_it_set(tree, (struct rb_node *)(void *)0);
+        return return_value_rb_it_set_3;
       }
 
     }
-    struct rb_node *return_value_rb_it_set$4;
-    return_value_rb_it_set$4=rb_it_set(tree, p);
-    return return_value_rb_it_set$4;
+    struct rb_node *return_value_rb_it_set_4;
+    return_value_rb_it_set_4=rb_it_set(tree, p);
+    return return_value_rb_it_set_4;
   }
 
-  struct rb_node *return_value_rb_it_set$5;
-  return_value_rb_it_set$5=rb_it_set(tree, (struct rb_node *)(void *)0);
-  return return_value_rb_it_set$5;
+  struct rb_node *return_value_rb_it_set_5;
+  return_value_rb_it_set_5=rb_it_set(tree, (struct rb_node *)(void *)0);
+  return return_value_rb_it_set_5;
 }
 
 // read_config
@@ -24530,9 +24530,9 @@ static void remove_server_restricted_flags(struct adc_message *cmd)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/route.c line 129
 extern signed int route_flush_pipeline(struct hub_info *hub, struct hub_user *u)
 {
-  signed int return_value_ioq_send_is_empty$1;
-  return_value_ioq_send_is_empty$1=ioq_send_is_empty(u->send_queue);
-  if(!(return_value_ioq_send_is_empty$1 == 0))
+  signed int return_value_ioq_send_is_empty_1;
+  return_value_ioq_send_is_empty_1=ioq_send_is_empty(u->send_queue);
+  if(!(return_value_ioq_send_is_empty_1 == 0))
     return 0;
 
   else
@@ -24547,13 +24547,13 @@ extern signed int route_flush_pipeline(struct hub_info *hub, struct hub_user *u)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/route.h line 53
 extern signed int route_info_message(struct hub_info *hub, struct hub_user *u)
 {
-  signed int return_value_user_is_nat_override$5;
-  return_value_user_is_nat_override$5=user_is_nat_override(u);
-  if(return_value_user_is_nat_override$5 == 0)
+  signed int return_value_user_is_nat_override_5;
+  return_value_user_is_nat_override_5=user_is_nat_override(u);
+  if(return_value_user_is_nat_override_5 == 0)
   {
-    signed int return_value_route_to_all$1;
-    return_value_route_to_all$1=route_to_all(hub, u->info);
-    return return_value_route_to_all$1;
+    signed int return_value_route_to_all_1;
+    return_value_route_to_all_1=route_to_all(hub, u->info);
+    return return_value_route_to_all_1;
   }
 
   else
@@ -24565,21 +24565,21 @@ extern signed int route_info_message(struct hub_info *hub, struct hub_user *u)
     struct hub_user *user = ((struct hub_user *)NULL);
     adc_msg_remove_named_argument(cmd, "I4");
     adc_msg_add_named_argument(cmd, "I4", address);
-    void *return_value_list_get_first$2;
-    return_value_list_get_first$2=list_get_first(hub->users->list);
-    user = (struct hub_user *)return_value_list_get_first$2;
+    void *return_value_list_get_first_2;
+    return_value_list_get_first_2=list_get_first(hub->users->list);
+    user = (struct hub_user *)return_value_list_get_first_2;
     while(!(user == ((struct hub_user *)NULL)))
     {
-      signed int return_value_user_is_nat_override$3;
-      return_value_user_is_nat_override$3=user_is_nat_override(user);
-      if(!(return_value_user_is_nat_override$3 == 0))
+      signed int return_value_user_is_nat_override_3;
+      return_value_user_is_nat_override_3=user_is_nat_override(user);
+      if(!(return_value_user_is_nat_override_3 == 0))
         route_to_user(hub, user, cmd);
 
       else
         route_to_user(hub, user, u->info);
-      void *return_value_list_get_next$4;
-      return_value_list_get_next$4=list_get_next(hub->users->list);
-      user = (struct hub_user *)return_value_list_get_next$4;
+      void *return_value_list_get_next_4;
+      return_value_list_get_next_4=list_get_next(hub->users->list);
+      user = (struct hub_user *)return_value_list_get_next_4;
     }
     adc_msg_free(cmd);
   }
@@ -24628,15 +24628,15 @@ extern signed int route_message(struct hub_info *hub, struct hub_user *u, struct
 extern signed int route_to_all(struct hub_info *hub, struct adc_message *command)
 {
   struct hub_user *user;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(hub->users->list);
-  user = (struct hub_user *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(hub->users->list);
+  user = (struct hub_user *)return_value_list_get_first_1;
   while(!(user == ((struct hub_user *)NULL)))
   {
     route_to_user(hub, user, command);
-    void *return_value_list_get_next$2;
-    return_value_list_get_next$2=list_get_next(hub->users->list);
-    user = (struct hub_user *)return_value_list_get_next$2;
+    void *return_value_list_get_next_2;
+    return_value_list_get_next_2=list_get_next(hub->users->list);
+    user = (struct hub_user *)return_value_list_get_next_2;
   }
   return 0;
 }
@@ -24648,64 +24648,64 @@ extern signed int route_to_subscribers(struct hub_info *hub, struct adc_message 
   signed int do_send;
   char *tmp;
   struct hub_user *user;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(hub->users->list);
-  user = (struct hub_user *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(hub->users->list);
+  user = (struct hub_user *)return_value_list_get_first_1;
   while(!(user == ((struct hub_user *)NULL)))
   {
     if(!(user->feature_cast == ((struct linked_list *)NULL)))
     {
       do_send = 1;
-      void *return_value_list_get_first$2;
-      return_value_list_get_first$2=list_get_first(command->feature_cast_include);
-      tmp = (char *)return_value_list_get_first$2;
+      void *return_value_list_get_first_2;
+      return_value_list_get_first_2=list_get_first(command->feature_cast_include);
+      tmp = (char *)return_value_list_get_first_2;
       while(!(tmp == ((char *)NULL)))
       {
-        signed int return_value_user_have_feature_cast_support$3;
-        return_value_user_have_feature_cast_support$3=user_have_feature_cast_support(user, tmp);
-        if(return_value_user_have_feature_cast_support$3 == 0)
+        signed int return_value_user_have_feature_cast_support_3;
+        return_value_user_have_feature_cast_support_3=user_have_feature_cast_support(user, tmp);
+        if(return_value_user_have_feature_cast_support_3 == 0)
         {
           do_send = 0;
           break;
         }
 
-        void *return_value_list_get_next$4;
-        return_value_list_get_next$4=list_get_next(command->feature_cast_include);
-        tmp = (char *)return_value_list_get_next$4;
+        void *return_value_list_get_next_4;
+        return_value_list_get_next_4=list_get_next(command->feature_cast_include);
+        tmp = (char *)return_value_list_get_next_4;
       }
       if(do_send == 0)
       {
-        void *return_value_list_get_next$5;
-        return_value_list_get_next$5=list_get_next(hub->users->list);
-        user = (struct hub_user *)return_value_list_get_next$5;
+        void *return_value_list_get_next_5;
+        return_value_list_get_next_5=list_get_next(hub->users->list);
+        user = (struct hub_user *)return_value_list_get_next_5;
         continue;
       }
 
-      void *return_value_list_get_first$6;
-      return_value_list_get_first$6=list_get_first(command->feature_cast_exclude);
-      tmp = (char *)return_value_list_get_first$6;
+      void *return_value_list_get_first_6;
+      return_value_list_get_first_6=list_get_first(command->feature_cast_exclude);
+      tmp = (char *)return_value_list_get_first_6;
       while(!(tmp == ((char *)NULL)))
       {
-        signed int return_value_user_have_feature_cast_support$7;
-        return_value_user_have_feature_cast_support$7=user_have_feature_cast_support(user, tmp);
-        if(!(return_value_user_have_feature_cast_support$7 == 0))
+        signed int return_value_user_have_feature_cast_support_7;
+        return_value_user_have_feature_cast_support_7=user_have_feature_cast_support(user, tmp);
+        if(!(return_value_user_have_feature_cast_support_7 == 0))
         {
           do_send = 0;
           break;
         }
 
-        void *return_value_list_get_next$8;
-        return_value_list_get_next$8=list_get_next(command->feature_cast_exclude);
-        tmp = (char *)return_value_list_get_next$8;
+        void *return_value_list_get_next_8;
+        return_value_list_get_next_8=list_get_next(command->feature_cast_exclude);
+        tmp = (char *)return_value_list_get_next_8;
       }
       if(!(do_send == 0))
         route_to_user(hub, user, command);
 
     }
 
-    void *return_value_list_get_next$9;
-    return_value_list_get_next$9=list_get_next(hub->users->list);
-    user = (struct hub_user *)return_value_list_get_next$9;
+    void *return_value_list_get_next_9;
+    return_value_list_get_next_9=list_get_next(hub->users->list);
+    user = (struct hub_user *)return_value_list_get_next_9;
   }
   return 0;
 }
@@ -24714,24 +24714,24 @@ extern signed int route_to_subscribers(struct hub_info *hub, struct adc_message 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/route.h line 36
 extern signed int route_to_user(struct hub_info *hub, struct hub_user *user, struct adc_message *msg)
 {
-  _Bool tmp_if_expr$5;
-  signed int return_value_user_flag_get$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_user_flag_get_4;
   if(user->connection == ((struct net_connection *)NULL))
     return 0;
 
   else
   {
-    signed int return_value_ioq_send_is_empty$3;
-    return_value_ioq_send_is_empty$3=ioq_send_is_empty(user->send_queue);
-    if(!(return_value_ioq_send_is_empty$3 == 0))
+    signed int return_value_ioq_send_is_empty_3;
+    return_value_ioq_send_is_empty_3=ioq_send_is_empty(user->send_queue);
+    if(!(return_value_ioq_send_is_empty_3 == 0))
     {
-      return_value_user_flag_get$4=user_flag_get(user, (enum user_flags)flag_pipeline);
-      tmp_if_expr$5 = !(return_value_user_flag_get$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_user_flag_get_4=user_flag_get(user, (enum user_flags)flag_pipeline);
+      tmp_if_expr_5 = !(return_value_user_flag_get_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       ioq_send_add(user->send_queue, msg);
       handle_net_write(user);
@@ -24739,14 +24739,14 @@ extern signed int route_to_user(struct hub_info *hub, struct hub_user *user, str
 
     else
     {
-      signed int return_value_check_send_queue$2;
-      return_value_check_send_queue$2=check_send_queue(hub, user, msg);
-      if(return_value_check_send_queue$2 >= 0)
+      signed int return_value_check_send_queue_2;
+      return_value_check_send_queue_2=check_send_queue(hub, user, msg);
+      if(return_value_check_send_queue_2 >= 0)
       {
         ioq_send_add(user->send_queue, msg);
-        signed int return_value_user_flag_get$1;
-        return_value_user_flag_get$1=user_flag_get(user, (enum user_flags)flag_pipeline);
-        if(return_value_user_flag_get$1 == 0)
+        signed int return_value_user_flag_get_1;
+        return_value_user_flag_get_1=user_flag_get(user, (enum user_flags)flag_pipeline);
+        if(return_value_user_flag_get_1 == 0)
           user_net_io_want_write(user);
 
       }
@@ -24805,13 +24805,13 @@ static signed int send_command_syntax_error(struct command_base *cbase, struct h
 void send_message(struct command_base *cbase, struct hub_user *user, struct cbuffer *buf)
 {
   char *buffer;
-  const char *return_value_cbuf_get$1;
-  return_value_cbuf_get$1=cbuf_get(buf);
-  buffer=adc_msg_escape(return_value_cbuf_get$1);
+  const char *return_value_cbuf_get_1;
+  return_value_cbuf_get_1=cbuf_get(buf);
+  buffer=adc_msg_escape(return_value_cbuf_get_1);
   struct adc_message *command;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(buffer);
-  command=adc_msg_construct((unsigned int)(73 << 24 | 77 << 16 | 83 << 8 | 71), return_value_strlen$2 + (unsigned long int)6);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(buffer);
+  command=adc_msg_construct((unsigned int)(73 << 24 | 77 << 16 | 83 << 8 | 71), return_value_strlen_2 + (unsigned long int)6);
   adc_msg_add_argument(command, buffer);
   route_to_user(cbase->hub, user, command);
   adc_msg_free(command);
@@ -24837,17 +24837,17 @@ static void server_alt_port_clear(void *ptr)
 static void server_alt_port_start(struct hub_info *hub, struct hub_config *config)
 {
   struct server_alt_port_data data;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(config->server_alt_ports == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*config->server_alt_ports != 0) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(*config->server_alt_ports != 0) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
-    struct linked_list *return_value_list_create$2;
-    return_value_list_create$2=list_create();
-    hub->server_alt_ports = (struct linked_list *)return_value_list_create$2;
+    struct linked_list *return_value_list_create_2;
+    return_value_list_create_2=list_create();
+    hub->server_alt_ports = (struct linked_list *)return_value_list_create_2;
     data.hub = hub;
     data.config = config;
     string_split(config->server_alt_ports, ",", (void *)&data, server_alt_port_start_one);
@@ -24949,10 +24949,10 @@ static signed int set_feature_cast_supports(struct hub_user *u, struct adc_messa
 {
   char *it;
   char *tmp;
-  signed int return_value_adc_msg_has_named_argument$2;
-  return_value_adc_msg_has_named_argument$2=adc_msg_has_named_argument(cmd, "SU");
-  unsigned long int return_value_strlen$1;
-  if(!(return_value_adc_msg_has_named_argument$2 == 0))
+  signed int return_value_adc_msg_has_named_argument_2;
+  return_value_adc_msg_has_named_argument_2=adc_msg_has_named_argument(cmd, "SU");
+  unsigned long int return_value_strlen_1;
+  if(!(return_value_adc_msg_has_named_argument_2 == 0))
   {
     tmp=adc_msg_get_named_argument(cmd, "SU");
     if(tmp == ((char *)NULL))
@@ -24962,8 +24962,8 @@ static signed int set_feature_cast_supports(struct hub_user *u, struct adc_messa
     it = tmp;
     do
     {
-      return_value_strlen$1=strlen(it);
-      if(!(return_value_strlen$1 >= 5ul))
+      return_value_strlen_1=strlen(it);
+      if(!(return_value_strlen_1 >= 5ul))
         break;
 
       it[(signed long int)4] = (char)0;
@@ -24994,7 +24994,7 @@ static void set_status_code(enum msg_status_level level, signed int code, char *
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/main.c line 76
 void setup_signal_handlers(struct hub_info *hub)
 {
-  struct anonymous$3 sig_set;
+  struct anonymous_3 sig_set;
   struct sigaction act;
   signed int i;
   sigemptyset(&sig_set);
@@ -25004,9 +25004,9 @@ void setup_signal_handlers(struct hub_info *hub)
   i = 0;
   for( ; !(signals[(signed long int)i] == 0); i = i + 1)
   {
-    signed int return_value_sigaction$1;
-    return_value_sigaction$1=sigaction(signals[(signed long int)i], &act, ((struct sigaction *)NULL));
-    if(!(return_value_sigaction$1 == 0))
+    signed int return_value_sigaction_1;
+    return_value_sigaction_1=sigaction(signals[(signed long int)i], &act, ((struct sigaction *)NULL));
+    if(!(return_value_sigaction_1 == 0))
       hub_log(1, "Error setting signal handler %d", signals[(signed long int)i]);
 
   }
@@ -25022,14 +25022,14 @@ static void shutdown_free_jobs(void *ptr)
   free_job(job);
 }
 
-// shutdown_free_jobs$link1
+// shutdown_free_jobs_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 56
-static void shutdown_free_jobs$link1(void *ptr$link1)
+static void shutdown_free_jobs_link1(void *ptr_link1)
 {
-  struct net_dns_job *job$link1 = (struct net_dns_job *)ptr$link1;
-  uhub_thread_cancel(job$link1->thread_handle);
-  uhub_thread_join(job$link1->thread_handle);
-  free_job$link1(job$link1);
+  struct net_dns_job *job_link1 = (struct net_dns_job *)ptr_link1;
+  uhub_thread_cancel(job_link1->thread_handle);
+  uhub_thread_join(job_link1->thread_handle);
+  free_job_link1(job_link1);
 }
 
 // shutdown_free_results
@@ -25041,13 +25041,13 @@ static void shutdown_free_results(void *ptr)
   net_dns_result_free(result);
 }
 
-// shutdown_free_results$link1
+// shutdown_free_results_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 64
-static void shutdown_free_results$link1(void *ptr$link1)
+static void shutdown_free_results_link1(void *ptr_link1)
 {
-  struct net_dns_result *result$link1 = (struct net_dns_result *)ptr$link1;
-  uhub_thread_join(result$link1->job->thread_handle);
-  net_dns_result_free(result$link1);
+  struct net_dns_result *result_link1 = (struct net_dns_result *)ptr_link1;
+  uhub_thread_join(result_link1->job->thread_handle);
+  net_dns_result_free(result_link1);
 }
 
 // shutdown_signal_handlers
@@ -25088,13 +25088,13 @@ extern void sid_free(struct sid_pool *pool, unsigned int sid)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/adc/sid.h line 36
 extern struct hub_user * sid_lookup(struct sid_pool *pool, unsigned int sid)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sid == 0u)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = sid >= pool->max ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = sid >= pool->max ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return ((struct hub_user *)NULL);
 
   else
@@ -25106,9 +25106,9 @@ extern struct hub_user * sid_lookup(struct sid_pool *pool, unsigned int sid)
 extern struct sid_pool * sid_pool_create(unsigned int max)
 {
   struct sid_pool *pool;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct sid_pool) /*24ul*/ );
-  pool = (struct sid_pool *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct sid_pool) /*24ul*/ );
+  pool = (struct sid_pool *)return_value_malloc_1;
   if(pool == ((struct sid_pool *)NULL))
     return ((struct sid_pool *)NULL);
 
@@ -25117,9 +25117,9 @@ extern struct sid_pool * sid_pool_create(unsigned int max)
     pool->min = (unsigned int)1;
     pool->max = max + (unsigned int)1;
     pool->count = (unsigned int)0;
-    void *return_value_hub_malloc_zero$2;
-    return_value_hub_malloc_zero$2=hub_malloc_zero(sizeof(struct hub_user *) /*8ul*/  * (unsigned long int)pool->max);
-    pool->map = (struct hub_user **)return_value_hub_malloc_zero$2;
+    void *return_value_hub_malloc_zero_2;
+    return_value_hub_malloc_zero_2=hub_malloc_zero(sizeof(struct hub_user *) /*8ul*/  * (unsigned long int)pool->max);
+    pool->map = (struct hub_user **)return_value_hub_malloc_zero_2;
     if(pool->map == ((struct hub_user **)NULL))
     {
       free((void *)pool);
@@ -25174,21 +25174,21 @@ extern signed int split_string(const char *string, const char *split, struct lin
   char *tmp1;
   char *tmp2;
   signed int n = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(string == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*string != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(split == ((const char *)NULL) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(*string != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(split == ((const char *)NULL) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*split != 0) ? (_Bool)1 : (_Bool)0;
-  char *return_value___strndup$3;
-  char *return_value___strdup$4;
-  if(list == ((struct linked_list *)NULL) || tmp_if_expr$2)
+    tmp_if_expr_2 = !(*split != 0) ? (_Bool)1 : (_Bool)0;
+  char *return_value___strndup_3;
+  char *return_value___strdup_4;
+  if(list == ((struct linked_list *)NULL) || tmp_if_expr_2)
     return -1;
 
   else
@@ -25198,14 +25198,14 @@ extern signed int split_string(const char *string, const char *split, struct lin
       tmp1=strstr(string, split);
       if(!(tmp1 == ((char *)NULL)))
       {
-        return_value___strndup$3=__strndup(string, (unsigned long int)(tmp1 - string));
-        tmp2 = return_value___strndup$3;
+        return_value___strndup_3=__strndup(string, (unsigned long int)(tmp1 - string));
+        tmp2 = return_value___strndup_3;
       }
 
       else
       {
-        return_value___strdup$4=__strdup(string);
-        tmp2 = return_value___strdup$4;
+        return_value___strdup_4=__strdup(string);
+        tmp2 = return_value___strdup_4;
       }
       if(tmp2 == ((char *)NULL))
       {
@@ -25225,9 +25225,9 @@ extern signed int split_string(const char *string, const char *split, struct lin
         break;
 
       string = tmp1;
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(split);
-      string = string + (signed long int)return_value_strlen$5;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(split);
+      string = string + (signed long int)return_value_strlen_5;
     }
     while((_Bool)1);
     return n;
@@ -25239,15 +25239,15 @@ extern signed int split_string(const char *string, const char *split, struct lin
 extern signed int ssl_check_private_key(struct ssl_context_handle *ctx_)
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ctx_;
-  signed int return_value_SSL_CTX_check_private_key$3;
-  return_value_SSL_CTX_check_private_key$3=SSL_CTX_check_private_key(ctx->ssl_ctx);
-  if(!(return_value_SSL_CTX_check_private_key$3 == 1))
+  signed int return_value_SSL_CTX_check_private_key_3;
+  return_value_SSL_CTX_check_private_key_3=SSL_CTX_check_private_key(ctx->ssl_ctx);
+  if(!(return_value_SSL_CTX_check_private_key_3 == 1))
   {
-    unsigned long int return_value_ERR_get_error$1;
-    return_value_ERR_get_error$1=ERR_get_error();
-    char *return_value_ERR_error_string$2;
-    return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-    hub_log(0, "SSL_CTX_check_private_key: Private key does not match the certificate public key: %s", return_value_ERR_error_string$2);
+    unsigned long int return_value_ERR_get_error_1;
+    return_value_ERR_get_error_1=ERR_get_error();
+    char *return_value_ERR_error_string_2;
+    return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+    hub_log(0, "SSL_CTX_check_private_key: Private key does not match the certificate public key: %s", return_value_ERR_error_string_2);
     return 0;
   }
 
@@ -25259,15 +25259,15 @@ extern signed int ssl_check_private_key(struct ssl_context_handle *ctx_)
 extern signed int ssl_load_certificate(struct ssl_context_handle *ctx_, const char *pem_file)
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ctx_;
-  signed int return_value_SSL_CTX_use_certificate_file$3;
-  return_value_SSL_CTX_use_certificate_file$3=SSL_CTX_use_certificate_file(ctx->ssl_ctx, pem_file, 1);
-  if(!(return_value_SSL_CTX_use_certificate_file$3 >= 0))
+  signed int return_value_SSL_CTX_use_certificate_file_3;
+  return_value_SSL_CTX_use_certificate_file_3=SSL_CTX_use_certificate_file(ctx->ssl_ctx, pem_file, 1);
+  if(!(return_value_SSL_CTX_use_certificate_file_3 >= 0))
   {
-    unsigned long int return_value_ERR_get_error$1;
-    return_value_ERR_get_error$1=ERR_get_error();
-    char *return_value_ERR_error_string$2;
-    return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-    hub_log(1, "SSL_CTX_use_certificate_file: %s", return_value_ERR_error_string$2);
+    unsigned long int return_value_ERR_get_error_1;
+    return_value_ERR_get_error_1=ERR_get_error();
+    char *return_value_ERR_error_string_2;
+    return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+    hub_log(1, "SSL_CTX_use_certificate_file: %s", return_value_ERR_error_string_2);
     return 0;
   }
 
@@ -25279,15 +25279,15 @@ extern signed int ssl_load_certificate(struct ssl_context_handle *ctx_, const ch
 extern signed int ssl_load_private_key(struct ssl_context_handle *ctx_, const char *pem_file)
 {
   struct net_context_openssl *ctx = (struct net_context_openssl *)ctx_;
-  signed int return_value_SSL_CTX_use_PrivateKey_file$3;
-  return_value_SSL_CTX_use_PrivateKey_file$3=SSL_CTX_use_PrivateKey_file(ctx->ssl_ctx, pem_file, 1);
-  if(!(return_value_SSL_CTX_use_PrivateKey_file$3 >= 0))
+  signed int return_value_SSL_CTX_use_PrivateKey_file_3;
+  return_value_SSL_CTX_use_PrivateKey_file_3=SSL_CTX_use_PrivateKey_file(ctx->ssl_ctx, pem_file, 1);
+  if(!(return_value_SSL_CTX_use_PrivateKey_file_3 >= 0))
   {
-    unsigned long int return_value_ERR_get_error$1;
-    return_value_ERR_get_error$1=ERR_get_error();
-    char *return_value_ERR_error_string$2;
-    return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-    hub_log(1, "SSL_CTX_use_PrivateKey_file: %s", return_value_ERR_error_string$2);
+    unsigned long int return_value_ERR_get_error_1;
+    return_value_ERR_get_error_1=ERR_get_error();
+    char *return_value_ERR_error_string_2;
+    return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+    hub_log(1, "SSL_CTX_use_PrivateKey_file: %s", return_value_ERR_error_string_2);
     return 0;
   }
 
@@ -25303,11 +25303,11 @@ static struct net_connection * start_listening_socket(const char *bind_addr, uns
   unsigned int sockaddr_size;
   signed int sd;
   signed int ret;
-  signed int return_value_ip_convert_address$1;
-  return_value_ip_convert_address$1=ip_convert_address(bind_addr, (signed int)port, (struct sockaddr *)&addr, &sockaddr_size);
-  _Bool tmp_if_expr$4;
-  signed int return_value_net_set_nonblocking$3;
-  if(return_value_ip_convert_address$1 == -1)
+  signed int return_value_ip_convert_address_1;
+  return_value_ip_convert_address_1=ip_convert_address(bind_addr, (signed int)port, (struct sockaddr *)&addr, &sockaddr_size);
+  _Bool tmp_if_expr_4;
+  signed int return_value_net_set_nonblocking_3;
+  if(return_value_ip_convert_address_1 == -1)
     return ((struct net_connection *)NULL);
 
   else
@@ -25318,17 +25318,17 @@ static struct net_connection * start_listening_socket(const char *bind_addr, uns
 
     else
     {
-      signed int return_value_net_set_reuseaddress$2;
-      return_value_net_set_reuseaddress$2=net_set_reuseaddress(sd, 1);
-      if(return_value_net_set_reuseaddress$2 == -1)
-        tmp_if_expr$4 = (_Bool)1;
+      signed int return_value_net_set_reuseaddress_2;
+      return_value_net_set_reuseaddress_2=net_set_reuseaddress(sd, 1);
+      if(return_value_net_set_reuseaddress_2 == -1)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_net_set_nonblocking$3=net_set_nonblocking(sd, 1);
-        tmp_if_expr$4 = return_value_net_set_nonblocking$3 == -1 ? (_Bool)1 : (_Bool)0;
+        return_value_net_set_nonblocking_3=net_set_nonblocking(sd, 1);
+        tmp_if_expr_4 = return_value_net_set_nonblocking_3 == -1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         net_close(sd);
         return ((struct net_connection *)NULL);
@@ -25339,13 +25339,13 @@ static struct net_connection * start_listening_socket(const char *bind_addr, uns
         ret=net_bind(sd, (struct sockaddr *)&addr, sockaddr_size);
         if(ret == -1)
         {
-          signed int return_value_net_error$5;
-          return_value_net_error$5=net_error();
-          signed int return_value_net_error$6;
-          return_value_net_error$6=net_error();
-          const char *return_value_net_error_string$7;
-          return_value_net_error_string$7=net_error_string(return_value_net_error$6);
-          hub_log(1, "hub_start_service(): Unable to bind to TCP local address. errno=%d, str=%s", return_value_net_error$5, return_value_net_error_string$7);
+          signed int return_value_net_error_5;
+          return_value_net_error_5=net_error();
+          signed int return_value_net_error_6;
+          return_value_net_error_6=net_error();
+          const char *return_value_net_error_string_7;
+          return_value_net_error_string_7=net_error_string(return_value_net_error_6);
+          hub_log(1, "hub_start_service(): Unable to bind to TCP local address. errno=%d, str=%s", return_value_net_error_5, return_value_net_error_string_7);
           net_close(sd);
           return ((struct net_connection *)NULL);
         }
@@ -25374,9 +25374,9 @@ static struct net_connection * start_listening_socket(const char *bind_addr, uns
 extern signed int string_split(const char *string, const char *split, void *data, signed int (*handler)(char *, signed int, void *))
 {
   char *buf;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(string);
-  buf = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(string);
+  buf = return_value___strdup_1;
   char *start;
   char *pos;
   signed int count = 0;
@@ -25426,26 +25426,26 @@ extern signed int string_split(const char *string, const char *split, void *data
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 67
 extern signed int string_to_boolean(const char *str, signed int *boolean)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$8;
-  if(boolean == ((signed int *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = !(*str != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_8;
+  if(boolean == ((signed int *)NULL) || tmp_if_expr_1)
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    switch(return_value_strlen$2)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    switch(return_value_strlen_2)
     {
       case (unsigned long int)1:
       {
@@ -25466,15 +25466,15 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)2:
       {
-        return_value_strcasecmp$3=strcasecmp(str, "on");
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp(str, "on");
+        if(return_value_strcasecmp_3 == 0)
         {
           *boolean = 1;
           return 1;
         }
 
-        return_value_strcasecmp$4=strcasecmp(str, "no");
-        if(return_value_strcasecmp$4 == 0)
+        return_value_strcasecmp_4=strcasecmp(str, "no");
+        if(return_value_strcasecmp_4 == 0)
         {
           *boolean = 0;
           return 1;
@@ -25484,15 +25484,15 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)3:
       {
-        return_value_strcasecmp$5=strcasecmp(str, "yes");
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(str, "yes");
+        if(return_value_strcasecmp_5 == 0)
         {
           *boolean = 1;
           return 1;
         }
 
-        return_value_strcasecmp$6=strcasecmp(str, "off");
-        if(return_value_strcasecmp$6 == 0)
+        return_value_strcasecmp_6=strcasecmp(str, "off");
+        if(return_value_strcasecmp_6 == 0)
         {
           *boolean = 0;
           return 1;
@@ -25502,8 +25502,8 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)4:
       {
-        return_value_strcasecmp$7=strcasecmp(str, "true");
-        if(return_value_strcasecmp$7 == 0)
+        return_value_strcasecmp_7=strcasecmp(str, "true");
+        if(return_value_strcasecmp_7 == 0)
         {
           *boolean = 1;
           return 1;
@@ -25513,8 +25513,8 @@ extern signed int string_to_boolean(const char *str, signed int *boolean)
       }
       case (unsigned long int)5:
       {
-        return_value_strcasecmp$8=strcasecmp(str, "false");
-        if(return_value_strcasecmp$8 == 0)
+        return_value_strcasecmp_8=strcasecmp(str, "false");
+        if(return_value_strcasecmp_8 == 0)
         {
           *boolean = 0;
           return 1;
@@ -25536,18 +25536,18 @@ extern unsigned int string_to_sid(const char *sid)
   unsigned int n;
   unsigned int x;
   unsigned int factors[4l] = { (unsigned int)32768, (unsigned int)1024, (unsigned int)32, (unsigned int)1 };
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(sid == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(sid);
-    tmp_if_expr$2 = return_value_strlen$1 != (unsigned long int)4 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(sid);
+    tmp_if_expr_2 = return_value_strlen_1 != (unsigned long int)4 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$2)
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_2)
     return (unsigned int)0;
 
   else
@@ -25558,8 +25558,8 @@ extern unsigned int string_to_sid(const char *sid)
       x = (unsigned int)0;
       do
       {
-        return_value_strlen$3=strlen(BASE32_ALPHABET);
-        if((unsigned long int)x >= return_value_strlen$3)
+        return_value_strlen_3=strlen(BASE32_ALPHABET);
+        if((unsigned long int)x >= return_value_strlen_3)
           break;
 
         if(sid[(signed long int)n] == BASE32_ALPHABET[(signed long int)x])
@@ -25592,8 +25592,8 @@ extern void strip_off_ini_line_comments(char *line, signed int line_count)
   char *p = line;
   char *out = line;
   signed int backslash = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(*line == 0))
   {
     for( ; !(*p == 0); p = p + 1l)
@@ -25620,16 +25620,16 @@ extern void strip_off_ini_line_comments(char *line, signed int line_count)
       else
       {
         if((signed int)*p == 92)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)*p == 35 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_1 = (signed int)*p == 35 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)*p == 34 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)*p == 34 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           *out = *p;
           out = out + 1l;
@@ -25653,9 +25653,9 @@ extern void strip_off_ini_line_comments(char *line, signed int line_count)
 extern char * strip_off_quotes(char *line)
 {
   unsigned long int len;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(*line == 0)
     return line;
 
@@ -25668,23 +25668,23 @@ extern char * strip_off_quotes(char *line)
     else
     {
       if((signed int)*line == 34)
-        tmp_if_expr$1 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 34 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 34 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if((signed int)*line == 39)
-          tmp_if_expr$2 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 39 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)line[(signed long int)(len - (unsigned long int)1)] == 39 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         line[(signed long int)(len - (unsigned long int)1)] = (char)0;
         return line + (signed long int)1;
@@ -25701,8 +25701,8 @@ extern char * strip_off_quotes(char *line)
 extern char * strip_white_space(char *string)
 {
   char *pos;
-  signed int return_value_is_white_space$1;
-  signed int return_value_is_white_space$3;
+  signed int return_value_is_white_space_1;
+  signed int return_value_is_white_space_3;
   if(string == ((char *)NULL))
     return "";
 
@@ -25710,8 +25710,8 @@ extern char * strip_white_space(char *string)
   {
     for( ; !(*string == 0); string = string + 1l)
     {
-      return_value_is_white_space$1=is_white_space(string[(signed long int)0]);
-      if(return_value_is_white_space$1 == 0)
+      return_value_is_white_space_1=is_white_space(string[(signed long int)0]);
+      if(return_value_is_white_space_1 == 0)
         break;
 
     }
@@ -25720,13 +25720,13 @@ extern char * strip_white_space(char *string)
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(string);
-      pos = &string[(signed long int)(return_value_strlen$2 - (unsigned long int)1)];
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(string);
+      pos = &string[(signed long int)(return_value_strlen_2 - (unsigned long int)1)];
       for( ; !(string >= pos); pos = pos - 1l)
       {
-        return_value_is_white_space$3=is_white_space(pos[(signed long int)0]);
-        if(return_value_is_white_space$3 == 0)
+        return_value_is_white_space_3=is_white_space(pos[(signed long int)0]);
+        if(return_value_is_white_space_3 == 0)
           break;
 
         pos[(signed long int)0] = (char)0;
@@ -25755,9 +25755,9 @@ extern void tiger(unsigned long int *str, unsigned long int length, unsigned lon
   j = (unsigned long int)0;
   for( ; !(j >= i); j = j + 1ul)
     temp[(signed long int)j] = ((unsigned char *)str)[(signed long int)j];
-  unsigned long int tmp_post$1 = j;
+  unsigned long int tmp_post_1 = j;
   j = j + 1ul;
-  temp[(signed long int)tmp_post$1] = (unsigned char)0x01;
+  temp[(signed long int)tmp_post_1] = (unsigned char)0x01;
   for( ; !((7ul & j) == 0ul); j = j + 1ul)
     temp[(signed long int)j] = (unsigned char)0;
   if(j >= 57ul)
@@ -25949,11 +25949,11 @@ static void timeout_callback(struct timeout_evt *evt)
   net_con_callback((struct net_connection *)evt->ptr, 0x0001);
 }
 
-// timeout_callback$link1
+// timeout_callback_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timer.c line 23
-static void timeout_callback$link1(struct timeout_evt *evt$link1)
+static void timeout_callback_link1(struct timeout_evt *evt_link1)
 {
-  net_con_callback((struct net_connection *)evt$link1->ptr, 0x0001);
+  net_con_callback((struct net_connection *)evt_link1->ptr, 0x0001);
 }
 
 // timeout_evt_initialize
@@ -26003,9 +26003,9 @@ void timeout_queue_initialize(struct timeout_queue *t, signed long int now, unsi
 {
   t->last = now;
   t->max = max;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(max * sizeof(struct timeout_evt *) /*8ul*/ );
-  t->events = (struct timeout_evt **)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(max * sizeof(struct timeout_evt *) /*8ul*/ );
+  t->events = (struct timeout_evt **)return_value_hub_malloc_zero_1;
 }
 
 // timeout_queue_insert
@@ -26060,13 +26060,13 @@ void timeout_queue_remove(struct timeout_queue *t, struct timeout_evt *evt)
 {
   unsigned long int pos = (unsigned long int)evt->timestamp % t->max;
   struct timeout_evt *first = t->events[(signed long int)pos];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(first == ((struct timeout_evt *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(evt->prev != ((struct timeout_evt *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(evt->prev != ((struct timeout_evt *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     if(first == evt)
     {
@@ -26101,9 +26101,9 @@ void timeout_queue_remove(struct timeout_queue *t, struct timeout_evt *evt)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.h line 54
 void timeout_queue_reschedule(struct timeout_queue *t, struct timeout_evt *evt, unsigned long int seconds)
 {
-  signed int return_value_timeout_evt_is_scheduled$1;
-  return_value_timeout_evt_is_scheduled$1=timeout_evt_is_scheduled(evt);
-  if(!(return_value_timeout_evt_is_scheduled$1 == 0))
+  signed int return_value_timeout_evt_is_scheduled_1;
+  return_value_timeout_evt_is_scheduled_1=timeout_evt_is_scheduled(evt);
+  if(!(return_value_timeout_evt_is_scheduled_1 == 0))
     timeout_queue_remove(t, evt);
 
   timeout_queue_insert(t, evt, seconds);
@@ -26140,21 +26140,21 @@ static struct rb_node * tree_search(struct rb_tree *tree, const void *key)
 extern signed int uhub_atoi(const char *value)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(value);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(value);
+  len = (signed int)return_value_strlen_1;
   signed int offset = 0;
   signed int val = 0;
   signed int i = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   for( ; !(i >= len); i = i + 1)
   {
     if((signed int)value[(signed long int)i] >= 58)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)value[(signed long int)i] < 48 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       offset = offset + 1;
 
   }
@@ -26168,42 +26168,42 @@ extern signed int uhub_atoi(const char *value)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 74
 extern const char * uhub_itoa(signed int val)
 {
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   static char buf[22l];
-  return_value_snprintf$1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%d", val);
-  char *tmp_if_expr$2;
-  if(!(return_value_snprintf$1 >= 0))
-    tmp_if_expr$2 = (char *)(void *)0;
+  return_value_snprintf_1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%d", val);
+  char *tmp_if_expr_2;
+  if(!(return_value_snprintf_1 >= 0))
+    tmp_if_expr_2 = (char *)(void *)0;
 
   else
-    tmp_if_expr$2 = buf;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = buf;
+  return tmp_if_expr_2;
 }
 
 // uhub_mutex_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 38
-extern void uhub_mutex_destroy(union anonymous$20 *mutex)
+extern void uhub_mutex_destroy(union anonymous_20 *mutex)
 {
   pthread_mutex_destroy(mutex);
 }
 
 // uhub_mutex_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 37
-extern void uhub_mutex_init(union anonymous$20 *mutex)
+extern void uhub_mutex_init(union anonymous_20 *mutex)
 {
-  pthread_mutex_init(mutex, (const union anonymous$24 *)(void *)0);
+  pthread_mutex_init(mutex, (const union anonymous_24 *)(void *)0);
 }
 
 // uhub_mutex_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 39
-extern void uhub_mutex_lock(union anonymous$20 *mutex)
+extern void uhub_mutex_lock(union anonymous_20 *mutex)
 {
   pthread_mutex_lock(mutex);
 }
 
 // uhub_mutex_trylock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.c line 49
-extern signed int uhub_mutex_trylock(union anonymous$20 *mutex)
+extern signed int uhub_mutex_trylock(union anonymous_20 *mutex)
 {
   signed int ret;
   ret=pthread_mutex_trylock(mutex);
@@ -26212,7 +26212,7 @@ extern signed int uhub_mutex_trylock(union anonymous$20 *mutex)
 
 // uhub_mutex_unlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/threads.h line 40
-extern void uhub_mutex_unlock(union anonymous$20 *mutex)
+extern void uhub_mutex_unlock(union anonymous_20 *mutex)
 {
   pthread_mutex_unlock(mutex);
 }
@@ -26229,9 +26229,9 @@ void uhub_thread_cancel(struct pthread_data *thread)
 struct pthread_data * uhub_thread_create(void * (*start)(void *), void *arg)
 {
   struct pthread_data *thread;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct pthread_data) /*8ul*/ );
-  thread = (struct pthread_data *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct pthread_data) /*8ul*/ );
+  thread = (struct pthread_data *)return_value_hub_malloc_zero_1;
   signed int ret;
   ret=pthread_create(&thread->handle, (const union pthread_attr_t *)(void *)0, start, arg);
   if(!(ret == 0))
@@ -26257,23 +26257,23 @@ void * uhub_thread_join(struct pthread_data *thread)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.h line 75
 extern const char * uhub_ulltoa(unsigned long int val)
 {
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   static char buf[22l];
-  return_value_snprintf$1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%lu", val);
-  char *tmp_if_expr$2;
-  if(!(return_value_snprintf$1 >= 0))
-    tmp_if_expr$2 = (char *)(void *)0;
+  return_value_snprintf_1=snprintf(buf, sizeof(char [22l]) /*22ul*/ , "%lu", val);
+  char *tmp_if_expr_2;
+  if(!(return_value_snprintf_1 >= 0))
+    tmp_if_expr_2 = (char *)(void *)0;
 
   else
-    tmp_if_expr$2 = buf;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = buf;
+  return tmp_if_expr_2;
 }
 
 // uman_add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/usermanager.h line 59
 extern signed int uman_add(struct hub_user_manager *users, struct hub_user *user)
 {
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(user == ((struct hub_user *)NULL) || users == ((struct hub_user_manager *)NULL))
     return -1;
 
@@ -26282,11 +26282,11 @@ extern signed int uman_add(struct hub_user_manager *users, struct hub_user *user
     list_append(users->list, (void *)user);
     users->count = users->count + 1ul;
     if(!(users->count_peak >= users->count))
-      tmp_if_expr$1 = users->count;
+      tmp_if_expr_1 = users->count;
 
     else
-      tmp_if_expr$1 = users->count_peak;
-    users->count_peak = tmp_if_expr$1;
+      tmp_if_expr_1 = users->count_peak;
+    users->count_peak = tmp_if_expr_1;
     users->shared_size = users->shared_size + user->limits.shared_size;
     users->shared_files = users->shared_files + user->limits.shared_files;
     return 0;
@@ -26309,22 +26309,22 @@ extern unsigned long int uman_get_user_by_addr(struct hub_user_manager *users, s
 {
   unsigned long int num = (unsigned long int)0;
   struct hub_user *user;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(users->list);
-  user = (struct hub_user *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(users->list);
+  user = (struct hub_user *)return_value_list_get_first_1;
   while(!(user == ((struct hub_user *)NULL)))
   {
-    signed int return_value_ip_in_range$2;
-    return_value_ip_in_range$2=ip_in_range(&user->id.addr, range);
-    if(!(return_value_ip_in_range$2 == 0))
+    signed int return_value_ip_in_range_2;
+    return_value_ip_in_range_2=ip_in_range(&user->id.addr, range);
+    if(!(return_value_ip_in_range_2 == 0))
     {
       list_append(target, (void *)user);
       num = num + 1ul;
     }
 
-    void *return_value_list_get_next$3;
-    return_value_list_get_next$3=list_get_next(users->list);
-    user = (struct hub_user *)return_value_list_get_next$3;
+    void *return_value_list_get_next_3;
+    return_value_list_get_next_3=list_get_next(users->list);
+    user = (struct hub_user *)return_value_list_get_next_3;
   }
   return num;
 }
@@ -26334,23 +26334,23 @@ extern unsigned long int uman_get_user_by_addr(struct hub_user_manager *users, s
 extern struct hub_user * uman_get_user_by_cid(struct hub_user_manager *users, const char *cid)
 {
   struct hub_user *user;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(users->list);
-  user = (struct hub_user *)return_value_list_get_first$1;
-  signed int tmp_statement_expression$2;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(users->list);
+  user = (struct hub_user *)return_value_list_get_first_1;
+  signed int tmp_statement_expression_2;
   while(!(user == ((struct hub_user *)NULL)))
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp(user->id.cid, cid);
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp(user->id.cid, cid);
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
       return user;
 
-    void *return_value_list_get_next$4;
-    return_value_list_get_next$4=list_get_next(users->list);
-    user = (struct hub_user *)return_value_list_get_next$4;
+    void *return_value_list_get_next_4;
+    return_value_list_get_next_4=list_get_next(users->list);
+    user = (struct hub_user *)return_value_list_get_next_4;
   }
   return (struct hub_user *)(void *)0;
 }
@@ -26360,23 +26360,23 @@ extern struct hub_user * uman_get_user_by_cid(struct hub_user_manager *users, co
 extern struct hub_user * uman_get_user_by_nick(struct hub_user_manager *users, const char *nick)
 {
   struct hub_user *user;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(users->list);
-  user = (struct hub_user *)return_value_list_get_first$1;
-  signed int tmp_statement_expression$2;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(users->list);
+  user = (struct hub_user *)return_value_list_get_first_1;
+  signed int tmp_statement_expression_2;
   while(!(user == ((struct hub_user *)NULL)))
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp(user->id.nick, nick);
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp(user->id.nick, nick);
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
       return user;
 
-    void *return_value_list_get_next$4;
-    return_value_list_get_next$4=list_get_next(users->list);
-    user = (struct hub_user *)return_value_list_get_next$4;
+    void *return_value_list_get_next_4;
+    return_value_list_get_next_4=list_get_next(users->list);
+    user = (struct hub_user *)return_value_list_get_next_4;
   }
   return (struct hub_user *)(void *)0;
 }
@@ -26385,9 +26385,9 @@ extern struct hub_user * uman_get_user_by_nick(struct hub_user_manager *users, c
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/usermanager.c line 115
 extern struct hub_user * uman_get_user_by_sid(struct hub_user_manager *users, unsigned int sid)
 {
-  struct hub_user *return_value_sid_lookup$1;
-  return_value_sid_lookup$1=sid_lookup(users->sids, sid);
-  return return_value_sid_lookup$1;
+  struct hub_user *return_value_sid_lookup_1;
+  return_value_sid_lookup_1=sid_lookup(users->sids, sid);
+  return return_value_sid_lookup_1;
 }
 
 // uman_init
@@ -26395,18 +26395,18 @@ extern struct hub_user * uman_get_user_by_sid(struct hub_user_manager *users, un
 extern struct hub_user_manager * uman_init()
 {
   struct hub_user_manager *users;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct hub_user_manager) /*48ul*/ );
-  users = (struct hub_user_manager *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct hub_user_manager) /*48ul*/ );
+  users = (struct hub_user_manager *)return_value_hub_malloc_zero_1;
   if(users == ((struct hub_user_manager *)NULL))
     return (struct hub_user_manager *)(void *)0;
 
   else
   {
     users->list=list_create();
-    unsigned long int return_value_net_get_max_sockets$2;
-    return_value_net_get_max_sockets$2=net_get_max_sockets();
-    users->sids=sid_pool_create((unsigned int)return_value_net_get_max_sockets$2);
+    unsigned long int return_value_net_get_max_sockets_2;
+    return_value_net_get_max_sockets_2=net_get_max_sockets();
+    users->sids=sid_pool_create((unsigned int)return_value_net_get_max_sockets_2);
     if(users->list == ((struct linked_list *)NULL))
     {
       list_destroy(users->list);
@@ -26444,16 +26444,16 @@ extern void uman_send_quit_message(struct hub_info *hub, struct hub_user_manager
 {
   struct adc_message *command;
   command=adc_msg_construct((unsigned int)(73 << 24 | 81 << 16 | 85 << 8 | 73), (unsigned long int)6);
-  char *return_value_sid_to_string$1;
-  return_value_sid_to_string$1=sid_to_string(leaving->id.sid);
-  adc_msg_add_argument(command, (const char *)return_value_sid_to_string$1);
-  _Bool tmp_if_expr$2;
+  char *return_value_sid_to_string_1;
+  return_value_sid_to_string_1=sid_to_string(leaving->id.sid);
+  adc_msg_add_argument(command, (const char *)return_value_sid_to_string_1);
+  _Bool tmp_if_expr_2;
   if((signed int)leaving->quit_reason == quit_banned)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)leaving->quit_reason == quit_kicked ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)leaving->quit_reason == quit_kicked ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     adc_msg_add_argument(command, "DI");
 
   route_to_all(hub, command);
@@ -26467,14 +26467,14 @@ extern signed int uman_send_user_list(struct hub_info *hub, struct hub_user_mana
   signed int ret = 1;
   struct hub_user *user;
   user_flag_set(target, (enum user_flags)flag_user_list);
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(users->list);
-  user = (struct hub_user *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(users->list);
+  user = (struct hub_user *)return_value_list_get_first_1;
   while(!(user == ((struct hub_user *)NULL)))
   {
-    signed int return_value_user_is_logged_in$2;
-    return_value_user_is_logged_in$2=user_is_logged_in(user);
-    if(!(return_value_user_is_logged_in$2 == 0))
+    signed int return_value_user_is_logged_in_2;
+    return_value_user_is_logged_in_2=user_is_logged_in(user);
+    if(!(return_value_user_is_logged_in_2 == 0))
     {
       ret=route_to_user(hub, target, user->info);
       if(ret == 0)
@@ -26482,9 +26482,9 @@ extern signed int uman_send_user_list(struct hub_info *hub, struct hub_user_mana
 
     }
 
-    void *return_value_list_get_next$3;
-    return_value_list_get_next$3=list_get_next(users->list);
-    user = (struct hub_user *)return_value_list_get_next$3;
+    void *return_value_list_get_next_3;
+    return_value_list_get_next_3=list_get_next(users->list);
+    user = (struct hub_user *)return_value_list_get_next_3;
   }
   return ret;
 }
@@ -26540,9 +26540,9 @@ extern struct hub_user * user_create(struct hub_info *hub, struct net_connection
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_hub_malloc_zero$1;
-  return_value_hub_malloc_zero$1=hub_malloc_zero(sizeof(struct hub_user) /*368ul*/ );
-  user = (struct hub_user *)return_value_hub_malloc_zero$1;
+  void *return_value_hub_malloc_zero_1;
+  return_value_hub_malloc_zero_1=hub_malloc_zero(sizeof(struct hub_user) /*368ul*/ );
+  user = (struct hub_user *)return_value_hub_malloc_zero_1;
   if(user == ((struct hub_user *)NULL))
     return (struct hub_user *)(void *)0;
 
@@ -26611,9 +26611,9 @@ extern void user_flag_unset(struct hub_user *user, enum user_flags flag)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.h line 222
 extern const char * user_get_address(struct hub_user *user)
 {
-  const char *return_value_ip_convert_to_string$1;
-  return_value_ip_convert_to_string$1=ip_convert_to_string(&user->id.addr);
-  return return_value_ip_convert_to_string$1;
+  const char *return_value_ip_convert_to_string_1;
+  return_value_ip_convert_to_string_1=ip_convert_to_string(&user->id.addr);
+  return return_value_ip_convert_to_string_1;
 }
 
 // user_get_quit_reason_string
@@ -26658,19 +26658,19 @@ extern const char * user_get_quit_reason_string(enum user_quit_reason reason)
 extern signed int user_have_feature_cast_support(struct hub_user *user, char *feature)
 {
   char *tmp;
-  void *return_value_list_get_first$1;
-  return_value_list_get_first$1=list_get_first(user->feature_cast);
-  tmp = (char *)return_value_list_get_first$1;
+  void *return_value_list_get_first_1;
+  return_value_list_get_first_1=list_get_first(user->feature_cast);
+  tmp = (char *)return_value_list_get_first_1;
   while(!(tmp == ((char *)NULL)))
   {
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(tmp, feature, (unsigned long int)4);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(tmp, feature, (unsigned long int)4);
+    if(return_value_strncmp_2 == 0)
       return 1;
 
-    void *return_value_list_get_next$3;
-    return_value_list_get_next$3=list_get_next(user->feature_cast);
-    tmp = (char *)return_value_list_get_next$3;
+    void *return_value_list_get_next_3;
+    return_value_list_get_next_3=list_get_next(user->feature_cast);
+    tmp = (char *)return_value_list_get_next_3;
   }
   return 0;
 }
@@ -26679,19 +26679,19 @@ extern signed int user_have_feature_cast_support(struct hub_user *user, char *fe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.h line 186
 extern signed int user_is_connecting(struct hub_user *user)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)user->state == state_protocol)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)user->state == state_identify ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)user->state == state_identify ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)user->state == state_verify ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)user->state == state_verify ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 1;
 
   else
@@ -26702,13 +26702,13 @@ extern signed int user_is_connecting(struct hub_user *user)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.c line 294
 extern signed int user_is_disconnecting(struct hub_user *user)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)user->state == state_cleanup)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)user->state == state_disconnected ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)user->state == state_disconnected ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 1;
 
   else
@@ -26730,18 +26730,18 @@ extern signed int user_is_logged_in(struct hub_user *user)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.c line 222
 extern signed int user_is_nat_override(struct hub_user *user)
 {
-  signed int return_value_user_flag_get$1;
-  return_value_user_flag_get$1=user_flag_get(user, (enum user_flags)flag_nat);
-  return return_value_user_flag_get$1;
+  signed int return_value_user_flag_get_1;
+  return_value_user_flag_get_1=user_flag_get(user, (enum user_flags)flag_nat);
+  return return_value_user_flag_get_1;
 }
 
 // user_is_protected
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.h line 197
 extern signed int user_is_protected(struct hub_user *user)
 {
-  signed int return_value_auth_cred_is_protected$1;
-  return_value_auth_cred_is_protected$1=auth_cred_is_protected(user->credentials);
-  return return_value_auth_cred_is_protected$1;
+  signed int return_value_auth_cred_is_protected_1;
+  return_value_auth_cred_is_protected_1=auth_cred_is_protected(user->credentials);
+  return return_value_auth_cred_is_protected_1;
 }
 
 // user_is_protocol_negotiating
@@ -26759,9 +26759,9 @@ extern signed int user_is_protocol_negotiating(struct hub_user *user)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.h line 202
 extern signed int user_is_registered(struct hub_user *user)
 {
-  signed int return_value_auth_cred_is_registered$1;
-  return_value_auth_cred_is_registered$1=auth_cred_is_registered(user->credentials);
-  return return_value_auth_cred_is_registered$1;
+  signed int return_value_auth_cred_is_registered_1;
+  return_value_auth_cred_is_registered_1=auth_cred_is_registered(user->credentials);
+  return return_value_auth_cred_is_registered_1;
 }
 
 // user_net_io_want_read
@@ -26790,9 +26790,9 @@ extern signed int user_set_feature_cast_support(struct hub_user *u, char *featur
 
   else
   {
-    char *return_value___strndup$1;
-    return_value___strndup$1=__strndup(feature, (unsigned long int)4);
-    list_append(u->feature_cast, (void *)return_value___strndup$1);
+    char *return_value___strndup_1;
+    return_value___strndup_1=__strndup(feature, (unsigned long int)4);
+    list_append(u->feature_cast, (void *)return_value___strndup_1);
     return 1;
   }
 }
@@ -26820,13 +26820,13 @@ extern void user_set_nat_override(struct hub_user *user)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/core/user.h line 169
 extern void user_set_state(struct hub_user *user, enum user_state state)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)user->state == state_cleanup && !((signed int)state == state_disconnected))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)user->state == state_disconnected ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)user->state == state_disconnected ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
     user->state = state;
 
 }
@@ -26858,18 +26858,18 @@ extern void user_update_info(struct hub_user *u, struct adc_message *cmd)
   unsigned long int n = (unsigned long int)0;
   struct adc_message *cmd_new;
   cmd_new=adc_msg_copy(u->info);
-  unsigned long int tmp_post$1;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_1;
+  unsigned long int tmp_post_3;
   if(!(cmd_new == ((struct adc_message *)NULL)))
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n + 1ul;
-    argument=adc_msg_get_argument(cmd, (signed int)tmp_post$1);
+    argument=adc_msg_get_argument(cmd, (signed int)tmp_post_1);
     while(!(argument == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(argument);
-      if(return_value_strlen$2 >= 2ul)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(argument);
+      if(return_value_strlen_2 >= 2ul)
       {
         prefix[(signed long int)0] = argument[(signed long int)0];
         prefix[(signed long int)1] = argument[(signed long int)1];
@@ -26877,9 +26877,9 @@ extern void user_update_info(struct hub_user *u, struct adc_message *cmd)
       }
 
       free((void *)argument);
-      tmp_post$3 = n;
+      tmp_post_3 = n;
       n = n + 1ul;
-      argument=adc_msg_get_argument(cmd, (signed int)tmp_post$3);
+      argument=adc_msg_get_argument(cmd, (signed int)tmp_post_3);
     }
     user_set_info(u, cmd_new);
     adc_msg_free(cmd_new);

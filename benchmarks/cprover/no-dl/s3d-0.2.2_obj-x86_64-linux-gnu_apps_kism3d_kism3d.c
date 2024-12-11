@@ -1,68 +1,68 @@
-// #anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4
+// #anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4
 // file /usr/include/g3d/types.h line 132
-enum anonymous$8 { G3D_TEXENV_UNSPECIFIED=0, G3D_TEXENV_BLEND=1, G3D_TEXENV_DECAL=2, G3D_TEXENV_MODULATE=3, G3D_TEXENV_REPLACE=4 };
+enum anonymous_8 { G3D_TEXENV_UNSPECIFIED=0, G3D_TEXENV_BLEND=1, G3D_TEXENV_DECAL=2, G3D_TEXENV_MODULATE=3, G3D_TEXENV_REPLACE=4 };
 
-// tag-#anon#ST[*{S8}$S8$'filename'||*{SYM#tag-#anon#ST[*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'plugins'||*{V}$V$'magic_cookie'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'exts_import'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'exts_image'||*{S32(F32|F32|F32|F32|*{V}$V$)->S32}$S32(F32|F32|F32|F32|*{V}$V$)->S32$'set_bgcolor_func'||*{V}$V$'set_bgcolor_data'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'update_interface_func'||*{V}$V$'update_interface_data'||*{S32(F32|S32|*{V}$V$)->S32}$S32(F32|S32|*{V}$V$)->S32$'update_progress_bar_func'||*{V}$V$'update_progress_bar_data'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'plugins'||*{V}$V$'magic_cookie'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'exts_import'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'exts_image'||*{S32(F32|F32|F32|F32|*{V}$V$)->S32}$S32(F32|F32|F32|F32|*{V}$V$)->S32$'set_bgcolor_func'||*{V}$V$'set_bgcolor_data'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'update_interface_func'||*{V}$V$'update_interface_data'||*{S32(F32|S32|*{V}$V$)->S32}$S32(F32|S32|*{V}$V$)->S32$'update_progress_bar_func'||*{V}$V$'update_progress_bar_data'|]#$'context'||*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'materials'||*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'objects'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'tex_images'||*{SYM#tag-_G3DPlugin#}$SYM#tag-_G3DPlugin#$'plugin'|]
+// tag-#anon#ST[*{S8}_S8_'filename'||*{SYM#tag-#anon#ST[*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'plugins'||*{V}_V_'magic_cookie'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'exts_import'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'exts_image'||*{S32(F32|F32|F32|F32|*{V}_V_)->S32}_S32(F32|F32|F32|F32|*{V}_V_)->S32_'set_bgcolor_func'||*{V}_V_'set_bgcolor_data'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'update_interface_func'||*{V}_V_'update_interface_data'||*{S32(F32|S32|*{V}_V_)->S32}_S32(F32|S32|*{V}_V_)->S32_'update_progress_bar_func'||*{V}_V_'update_progress_bar_data'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'plugins'||*{V}_V_'magic_cookie'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'exts_import'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'exts_image'||*{S32(F32|F32|F32|F32|*{V}_V_)->S32}_S32(F32|F32|F32|F32|*{V}_V_)->S32_'set_bgcolor_func'||*{V}_V_'set_bgcolor_data'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'update_interface_func'||*{V}_V_'update_interface_data'||*{S32(F32|S32|*{V}_V_)->S32}_S32(F32|S32|*{V}_V_)->S32_'update_progress_bar_func'||*{V}_V_'update_progress_bar_data'|]#_'context'||*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'materials'||*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'objects'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'tex_images'||*{SYM#tag-_G3DPlugin#}_SYM#tag-_G3DPlugin#_'plugin'|]
 // file /usr/include/g3d/types.h line 412
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'materials'||*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'faces'||*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'objects'||*{SYM#tag-#anon#ST[ARR16{F32}$F32$'matrix'||U32'flags'|]#}$SYM#tag-#anon#ST[ARR16{F32}$F32$'matrix'||U32'flags'|]#$'transformation'||S32'hide'||U32'vertex_count'||*{F32}$F32$'vertex_data'||U32'tex_vertex_count'||U32'$pad0'||*{F32}$F32$'tex_vertex_data'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'||*{F32}$F32$'_normals'||*{*{SYM#tag-#anon#ST[*{S8}$S8$'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}$F32$'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}$F32$'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'|]#$}$*{SYM#tag-#anon#ST[*{S8}$S8$'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}$F32$'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}$F32$'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'|]#$$'_materials'||U32'_num_faces'||U32'$pad1'||*{U32}$U32$'_indices'||*{U32}$U32$'_flags'||*{U32}$U32$'_tex_images'||*{F32}$F32$'_tex_coords'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'materials'||*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'faces'||*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'objects'||*{SYM#tag-#anon#ST[ARR16{F32}_F32_'matrix'||U32'flags'|]#}_SYM#tag-#anon#ST[ARR16{F32}_F32_'matrix'||U32'flags'|]#_'transformation'||S32'hide'||U32'vertex_count'||*{F32}_F32_'vertex_data'||U32'tex_vertex_count'||U32'_pad0'||*{F32}_F32_'tex_vertex_data'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'||*{F32}_F32_'_normals'||*{*{SYM#tag-#anon#ST[*{S8}_S8_'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}_F32_'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}_F32_'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'|]#_}_*{SYM#tag-#anon#ST[*{S8}_S8_'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}_F32_'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}_F32_'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'|]#__'_materials'||U32'_num_faces'||U32'_pad1'||*{U32}_U32_'_indices'||*{U32}_U32_'_flags'||*{U32}_U32_'_tex_images'||*{F32}_F32_'_tex_coords'|]
 // file /usr/include/g3d/types.h line 287
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{S8}$S8$'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}$F32$'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'|]
+// tag-#anon#ST[*{S8}_S8_'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}_F32_'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'|]
 // file /usr/include/g3d/types.h line 196
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]
+// tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]
 // file /usr/include/g3d/types.h line 155
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-_GSList#}$SYM#tag-_GSList#$'plugins'||*{V}$V$'magic_cookie'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'exts_import'||*{SYM#tag-_GHashTable#}$SYM#tag-_GHashTable#$'exts_image'||*{S32(F32|F32|F32|F32|*{V}$V$)->S32}$S32(F32|F32|F32|F32|*{V}$V$)->S32$'set_bgcolor_func'||*{V}$V$'set_bgcolor_data'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'update_interface_func'||*{V}$V$'update_interface_data'||*{S32(F32|S32|*{V}$V$)->S32}$S32(F32|S32|*{V}$V$)->S32$'update_progress_bar_func'||*{V}$V$'update_progress_bar_data'|]
+// tag-#anon#ST[*{SYM#tag-_GSList#}_SYM#tag-_GSList#_'plugins'||*{V}_V_'magic_cookie'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'exts_import'||*{SYM#tag-_GHashTable#}_SYM#tag-_GHashTable#_'exts_image'||*{S32(F32|F32|F32|F32|*{V}_V_)->S32}_S32(F32|F32|F32|F32|*{V}_V_)->S32_'set_bgcolor_func'||*{V}_V_'set_bgcolor_data'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'update_interface_func'||*{V}_V_'update_interface_data'||*{S32(F32|S32|*{V}_V_)->S32}_S32(F32|S32|*{V}_V_)->S32_'update_progress_bar_func'||*{V}_V_'update_progress_bar_data'|]
 // file /usr/include/g3d/types.h line 378
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR16{F32}$F32$'matrix'||U32'flags'|]
+// tag-#anon#ST[ARR16{F32}_F32_'matrix'||U32'flags'|]
 // file /usr/include/g3d/types.h line 264
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[F64'x'||F64'y'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_triangulate.h line 49
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'lseg'||S32'rseg'||SYM#tag-#anon#ST[F64'x'||F64'y'|]#'hi'||SYM#tag-#anon#ST[F64'x'||F64'y'|]#'lo'||S32'u0'||S32'u1'||S32'd0'||S32'd1'||S32'sink'||S32'usave'||S32'uside'||S32'state'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_triangulate.h line 67
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'nodetype'||S32'segnum'||SYM#tag-#anon#ST[F64'x'||F64'y'|]#'yval'||S32'trnum'||S32'parent'||S32'left'||S32'right'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_triangulate.h line 80
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[S32'vnum'||S32'next'||S32'prev'||S32'marked'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_triangulate.h line 90
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[F64'x'||F64'y'|]#'pt'||ARR4{S32}$S32$'vnext'||ARR4{S32}$S32$'vpos'||S32'nextfree'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[F64'x'||F64'y'|]#'pt'||ARR4{S32}_S32_'vnext'||ARR4{S32}_S32_'vpos'||S32'nextfree'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_triangulate.h line 98
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[F64'x'||F64'y'|]#'v0'||SYM#tag-#anon#ST[F64'x'||F64'y'|]#'v1'||S32'is_inserted'||S32'root0'||S32'root1'||S32'next'||S32'prev'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[F64'x'||F64'y'|]#'v0'||SYM#tag-#anon#ST[F64'x'||F64'y'|]#'v1'||S32'is_inserted'||S32'root0'||S32'root1'||S32'next'||S32'prev'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_triangulate.h line 56
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[U32'vertex_count'||U32'$pad0'||*{U32}$U32$'vertex_indices'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}$F32$'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}$F32$'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'|]#$'material'||U32'flags'||U32'$pad1'||*{F32}$F32$'normals'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'width'||U32'height'||U8'depth'||U24'$pad0'||U32'flags'||*{U8}$U8$'pixeldata'||U32'tex_id'||EN#anon_enum$G3D_TEXENV_UNSPECIFIED=0$G3D_TEXENV_BLEND=1$G3D_TEXENV_DECAL=2$G3D_TEXENV_MODULATE=3$G3D_TEXENV_REPLACE=4#{U32}$U32$'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#$'tex_image'||U32'tex_vertex_count'||U32'$pad2'||*{F32}$F32$'tex_vertex_data'|]
+// tag-#anon#ST[U32'vertex_count'||U32'_pad0'||*{U32}_U32_'vertex_indices'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}_F32_'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||F32'r'||F32'g'||F32'b'||F32'a'||F32'shininess'||ARR4{F32}_F32_'specular'||U32'flags'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'|]#_'material'||U32'flags'||U32'_pad1'||*{F32}_F32_'normals'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'width'||U32'height'||U8'depth'||U24'_pad0'||U32'flags'||*{U8}_U8_'pixeldata'||U32'tex_id'||EN#anon_enum_G3D_TEXENV_UNSPECIFIED=0_G3D_TEXENV_BLEND=1_G3D_TEXENV_DECAL=2_G3D_TEXENV_MODULATE=3_G3D_TEXENV_REPLACE=4#{U32}_U32_'tex_env'||F32'tex_scale_u'||F32'tex_scale_v'|]#_'tex_image'||U32'tex_vertex_count'||U32'_pad2'||*{F32}_F32_'tex_vertex_data'|]
 // file /usr/include/g3d/types.h line 238
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#cST[S32'err_code'||U32'$pad0'||*{cS8}$cS8$'err_msg'|]
+// tag-#anon#cST[S32'err_code'||U32'_pad0'||*{cS8}_cS8_'err_msg'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 39
 struct anonymous;
 
@@ -403,28 +403,28 @@ static inline void __list_add(struct list_head *n, struct list_head *prev, struc
 static inline void __list_del(struct list_head *prev, struct list_head *next);
 // _equal_to
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 123
-extern signed int _equal_to(struct anonymous$1 *v0, struct anonymous$1 *v1);
+extern signed int _equal_to(struct anonymous_1 *v0, struct anonymous_1 *v1);
 // _greater_than
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 112
-extern signed int _greater_than(struct anonymous$1 *v0, struct anonymous$1 *v1);
+extern signed int _greater_than(struct anonymous_1 *v0, struct anonymous_1 *v1);
 // _greater_than_equal_to
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 128
-extern signed int _greater_than_equal_to(struct anonymous$1 *v0, struct anonymous$1 *v1);
+extern signed int _greater_than_equal_to(struct anonymous_1 *v0, struct anonymous_1 *v1);
 // _less_than
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 138
-extern signed int _less_than(struct anonymous$1 *v0, struct anonymous$1 *v1);
+extern signed int _less_than(struct anonymous_1 *v0, struct anonymous_1 *v1);
 // _max
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 79
-static signed int _max(struct anonymous$1 *yval, struct anonymous$1 *v0, struct anonymous$1 *v1);
-// _max$link1
+static signed int _max(struct anonymous_1 *yval, struct anonymous_1 *v0, struct anonymous_1 *v1);
+// _max_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 79
-static signed int _max$link1(struct anonymous$1 *yval$link1, struct anonymous$1 *v0$link1, struct anonymous$1 *v1$link1);
+static signed int _max_link1(struct anonymous_1 *yval_link1, struct anonymous_1 *v0_link1, struct anonymous_1 *v1_link1);
 // _min
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 96
-static signed int _min(struct anonymous$1 *yval, struct anonymous$1 *v0, struct anonymous$1 *v1);
-// _min$link1
+static signed int _min(struct anonymous_1 *yval, struct anonymous_1 *v0, struct anonymous_1 *v1);
+// _min_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 96
-static signed int _min$link1(struct anonymous$1 *yval$link1, struct anonymous$1 *v0$link1, struct anonymous$1 *v1$link1);
+static signed int _min_link1(struct anonymous_1 *yval_link1, struct anonymous_1 *v0_link1, struct anonymous_1 *v1_link1);
 // _queue_fill
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/object_queue.c line 62
 signed int _queue_fill(void);
@@ -443,39 +443,39 @@ unsigned int _queue_want_object(void);
 // _s3d_add_tessbuf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 116
 static signed int _s3d_add_tessbuf(unsigned short int a);
-// _s3d_add_tessbuf$link1
+// _s3d_add_tessbuf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 116
-static signed int _s3d_add_tessbuf$link1(unsigned short int a$link1);
+static signed int _s3d_add_tessbuf_link1(unsigned short int a_link1);
 // _s3d_choose_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 40
 static signed int _s3d_choose_cb(const void *d1, signed int size);
-// _s3d_choose_cb$link1
+// _s3d_choose_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 40
-static signed int _s3d_choose_cb$link1(const void *d1$link1, signed int size$link1);
+static signed int _s3d_choose_cb_link1(const void *d1_link1, signed int size_link1);
 // _s3d_clear_tessbuf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 97
 static signed int _s3d_clear_tessbuf(void);
-// _s3d_clear_tessbuf$link1
+// _s3d_clear_tessbuf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 97
-static signed int _s3d_clear_tessbuf$link1(void);
+static signed int _s3d_clear_tessbuf_link1(void);
 // _s3d_compare_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 46
 static signed int _s3d_compare_cb(const void *d1, const void *d2);
-// _s3d_compare_cb$link1
+// _s3d_compare_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 46
-static signed int _s3d_compare_cb$link1(const void *d1$link1, const void *d2$link1);
+static signed int _s3d_compare_cb_link1(const void *d1_link1, const void *d2_link1);
 // _s3d_draw_tessbuf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 261
 static signed int _s3d_draw_tessbuf(signed int oid, unsigned short int a, signed int *voff, float *xoff);
-// _s3d_draw_tessbuf$link1
+// _s3d_draw_tessbuf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 261
-static signed int _s3d_draw_tessbuf$link1(signed int oid$link1, unsigned short int a$link1, signed int *voff$link1, float *xoff$link1);
+static signed int _s3d_draw_tessbuf_link1(signed int oid_link1, unsigned short int a_link1, signed int *voff_link1, float *xoff_link1);
 // _s3d_free_s3dtex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 56
 static void _s3d_free_s3dtex(void *d1);
-// _s3d_free_s3dtex$link1
+// _s3d_free_s3dtex_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 56
-static void _s3d_free_s3dtex$link1(void *d1$link1);
+static void _s3d_free_s3dtex_link1(void *d1_link1);
 // _s3d_handle_texshm
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 70
 void _s3d_handle_texshm(struct s3d_texshm *tshm);
@@ -488,12 +488,12 @@ void _s3d_hash_debug(struct hashtable_t *hash);
 // _s3d_hash_delete
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/hash.c line 45
 void _s3d_hash_delete(struct hashtable_t *hash, void (*free_cb)(void *));
-// _s3d_hash_delete::free_cb$link1$object
+// _s3d_hash_delete::free_cb_link1_object
 //
-void free_cb$link1$object(void *);
-// _s3d_hash_delete::free_cb$object
+void free_cb_link1_object(void *);
+// _s3d_hash_delete::free_cb_object
 //
-void free_cb$object(void *);
+void free_cb_object(void *);
 // _s3d_hash_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/hash.c line 71
 void _s3d_hash_destroy(struct hashtable_t *hash);
@@ -509,18 +509,18 @@ struct hash_it_t * _s3d_hash_iterate(struct hashtable_t *hash, struct hash_it_t 
 // _s3d_hash_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/hash.c line 154
 struct hashtable_t * _s3d_hash_new(signed int size, signed int (*compare)(const void *, const void *), signed int (*choose)(const void *, signed int));
-// _s3d_hash_new::choose$link1$object
+// _s3d_hash_new::choose_link1_object
 //
-signed int choose$link1$object(const void *, signed int);
-// _s3d_hash_new::choose$object
+signed int choose_link1_object(const void *, signed int);
+// _s3d_hash_new::choose_object
 //
-signed int choose$object(const void *, signed int);
-// _s3d_hash_new::compare$link1$object
+signed int choose_object(const void *, signed int);
+// _s3d_hash_new::compare_link1_object
 //
-signed int compare$link1$object(const void *, const void *);
-// _s3d_hash_new::compare$object
+signed int compare_link1_object(const void *, const void *);
+// _s3d_hash_new::compare_object
 //
-signed int compare$object(const void *, const void *);
+signed int compare_object(const void *, const void *);
 // _s3d_hash_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/hash.c line 256
 void * _s3d_hash_remove(struct hashtable_t *hash, void *data);
@@ -533,18 +533,18 @@ struct hashtable_t * _s3d_hash_resize(struct hashtable_t *hash, signed int size)
 // _s3d_ignore
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/callback.c line 54
 static signed int _s3d_ignore(struct s3d_evt *evt);
-// _s3d_ignore$link1
+// _s3d_ignore_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/callback.c line 54
-static signed int _s3d_ignore$link1(struct s3d_evt *evt$link1);
+static signed int _s3d_ignore_link1(struct s3d_evt *evt_link1);
 // _s3d_load_texture_shm
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 96
 signed int _s3d_load_texture_shm(signed int object, unsigned int tid, unsigned short int xpos, unsigned short int ypos, unsigned short int w, unsigned short int h, const unsigned char *data);
 // _s3d_net_receive
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/network.c line 63
 static signed int _s3d_net_receive(void);
-// _s3d_net_receive$link1
+// _s3d_net_receive_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/network.c line 63
-static signed int _s3d_net_receive$link1(void);
+static signed int _s3d_net_receive_link1(void);
 // _s3d_tcp_net_receive
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 143
 signed int _s3d_tcp_net_receive(void);
@@ -581,18 +581,18 @@ signed int _shm_quit(void);
 // _tcp_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 56
 signed int _tcp_init(const char *sv, signed int pn);
-// _tcp_init::$tmp::return_value_signal$10$link1$object
+// _tcp_init::_tmp::return_value_signal_10_link1_object
 //
-void return_value_signal$10$link1$object(signed int);
-// _tcp_init::$tmp::return_value_signal$10$object
+void return_value_signal_10_link1_object(signed int);
+// _tcp_init::_tmp::return_value_signal_10_object
 //
-void return_value_signal$10$object(signed int);
-// _tcp_init::$tmp::return_value_signal$12$link1$object
+void return_value_signal_10_object(signed int);
+// _tcp_init::_tmp::return_value_signal_12_link1_object
 //
-void return_value_signal$12$link1$object(signed int);
-// _tcp_init::$tmp::return_value_signal$12$object
+void return_value_signal_12_link1_object(signed int);
+// _tcp_init::_tmp::return_value_signal_12_object
 //
-void return_value_signal$12$object(signed int);
+void return_value_signal_12_object(signed int);
 // _tcp_quit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 109
 signed int _tcp_quit(void);
@@ -602,9 +602,9 @@ extern double acos(double);
 // add_segment
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 419
 static signed int add_segment(signed int segnum);
-// add_segment$link1
+// add_segment_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 419
-static signed int add_segment$link1(signed int segnum$link1);
+static signed int add_segment_link1(signed int segnum_link1);
 // alloc_memory
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 55
 void * alloc_memory(signed int len);
@@ -635,15 +635,15 @@ extern double cos(double);
 // errdn
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 111
 static inline void errdn(signed int relevance, const char *func, signed int en);
-// errdn$link1
+// errdn_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 111
-static inline void errdn$link1(signed int relevance$link1, const char *func$link1, signed int en$link1);
+static inline void errdn_link1(signed int relevance_link1, const char *func_link1, signed int en_link1);
 // errds
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 114
 static inline void errds(signed int relevance, const char *func, const char *fmt, ...);
-// errds$link1
+// errds_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 114
-static inline void errds$link1(signed int relevance$link1, const char *func$link1, const char *fmt$link1, ...);
+static inline void errds_link1(signed int relevance_link1, const char *func_link1, const char *fmt_link1, ...);
 // errn
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/error.c line 63
 void errn(const char *func, signed int en);
@@ -671,9 +671,9 @@ extern signed int fileno(struct _IO_FILE *);
 // find_new_roots
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 903
 static signed int find_new_roots(signed int segnum);
-// find_new_roots$link1
+// find_new_roots_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 903
-static signed int find_new_roots$link1(signed int segnum$link1);
+static signed int find_new_roots_link1(signed int segnum_link1);
 // find_wlan_network
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/network.c line 81
 struct wlan_network * find_wlan_network(char *bssid);
@@ -697,10 +697,10 @@ extern signed int fstat(signed int, struct stat *);
 extern signed int ftok(const char *, signed int);
 // g3d_context_free
 // file /usr/include/g3d/context.h line 57
-void g3d_context_free(struct anonymous$4 *);
+void g3d_context_free(struct anonymous_4 *);
 // g3d_context_new
 // file /usr/include/g3d/context.h line 48
-struct anonymous$4 * g3d_context_new(void);
+struct anonymous_4 * g3d_context_new(void);
 // g3d_matrix_identity
 // file /usr/include/g3d/matrix.h line 50
 signed int g3d_matrix_identity(float *);
@@ -709,37 +709,37 @@ signed int g3d_matrix_identity(float *);
 signed int g3d_matrix_rotate_xyz(float, float, float, float *);
 // g3d_model_free
 // file /usr/include/g3d/model.h line 140
-void g3d_model_free(struct anonymous$5 *);
+void g3d_model_free(struct anonymous_5 *);
 // g3d_model_load_full
 // file /usr/include/g3d/model.h line 90
-struct anonymous$5 * g3d_model_load_full(struct anonymous$4 *, const char *, unsigned int);
+struct anonymous_5 * g3d_model_load_full(struct anonymous_4 *, const char *, unsigned int);
 // g3d_model_transform
 // file /usr/include/g3d/model.h line 162
-signed int g3d_model_transform(struct anonymous$5 *, float *);
+signed int g3d_model_transform(struct anonymous_5 *, float *);
 // generate_random_ordering
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 53
 extern signed int generate_random_ordering(signed int n);
 // get_angle
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 100
-static double get_angle(struct anonymous$1 *vp0, struct anonymous$1 *vpnext, struct anonymous$1 *vp1);
-// get_angle$link1
+static double get_angle(struct anonymous_1 *vp0, struct anonymous_1 *vpnext, struct anonymous_1 *vp1);
+// get_angle_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 100
-static double get_angle$link1(struct anonymous$1 *vp0$link1, struct anonymous$1 *vpnext$link1, struct anonymous$1 *vp1$link1);
+static double get_angle_link1(struct anonymous_1 *vp0_link1, struct anonymous_1 *vpnext_link1, struct anonymous_1 *vp1_link1);
 // get_mat2tex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 91
 static struct material2texture * get_mat2tex(struct material2texture **mat2tex, void *mat_ptr);
-// get_mat2tex$link1
+// get_mat2tex_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 91
-static struct material2texture * get_mat2tex$link1(struct material2texture **mat2tex$link1, void *mat_ptr$link1);
+static struct material2texture * get_mat2tex_link1(struct material2texture **mat2tex_link1, void *mat_ptr_link1);
 // get_time
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 73
 unsigned int get_time(void);
 // get_vertex_positions
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 119
 static signed int get_vertex_positions(signed int v0, signed int v1, signed int *ip, signed int *iq);
-// get_vertex_positions$link1
+// get_vertex_positions_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 119
-static signed int get_vertex_positions$link1(signed int v0$link1, signed int v1$link1, signed int *ip$link1, signed int *iq$link1);
+static signed int get_vertex_positions_link1(signed int v0_link1, signed int v1_link1, signed int *ip_link1, signed int *iq_link1);
 // get_wlan_client
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/client.c line 32
 struct wlan_client * get_wlan_client(char *mac);
@@ -794,33 +794,33 @@ extern signed int inet_pton(signed int, const char *, void *);
 // init_query_structure
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 162
 static signed int init_query_structure(signed int segnum);
-// init_query_structure$link1
+// init_query_structure_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 162
-static signed int init_query_structure$link1(signed int segnum$link1);
+static signed int init_query_structure_link1(signed int segnum_link1);
 // initialise
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_tri.c line 45
 static signed int initialise(signed int n);
-// initialise$link1
+// initialise_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_tri.c line 45
-static signed int initialise$link1(signed int n$link1);
+static signed int initialise_link1(signed int n_link1);
 // inserted
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 288
 static signed int inserted(signed int segnum, signed int whichpt);
-// inserted$link1
+// inserted_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 288
-static signed int inserted$link1(signed int segnum$link1, signed int whichpt$link1);
+static signed int inserted_link1(signed int segnum_link1, signed int whichpt_link1);
 // inside_polygon
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 68
-static signed int inside_polygon(struct anonymous$3 *t);
-// inside_polygon$link1
+static signed int inside_polygon(struct anonymous_3 *t);
+// inside_polygon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 68
-static signed int inside_polygon$link1(struct anonymous$3 *t$link1);
+static signed int inside_polygon_link1(struct anonymous_3 *t_link1);
 // is_left_of
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 243
-static signed int is_left_of(signed int segnum, struct anonymous$1 *v);
-// is_left_of$link1
+static signed int is_left_of(signed int segnum, struct anonymous_1 *v);
+// is_left_of_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 243
-static signed int is_left_of$link1(signed int segnum$link1, struct anonymous$1 *v$link1);
+static signed int is_left_of_link1(signed int segnum_link1, struct anonymous_1 *v_link1);
 // list_add_tail
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/list.h line 101
 static inline void list_add_tail(struct list_head *n, struct list_head *head);
@@ -829,7 +829,7 @@ static inline void list_add_tail(struct list_head *n, struct list_head *head);
 static inline void list_del(struct list_head *entry);
 // locate_endpoint
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 300
-extern signed int locate_endpoint(struct anonymous$1 *v, struct anonymous$1 *vo, signed int r);
+extern signed int locate_endpoint(struct anonymous_1 *v, struct anonymous_1 *vo, signed int r);
 // log
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 109
 extern double log(double);
@@ -842,9 +842,9 @@ static void mainloop(void);
 // make_new_monotone_poly
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 171
 static signed int make_new_monotone_poly(signed int mcur, signed int v0, signed int v1);
-// make_new_monotone_poly$link1
+// make_new_monotone_poly_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 171
-static signed int make_new_monotone_poly$link1(signed int mcur$link1, signed int v0$link1, signed int v1$link1);
+static signed int make_new_monotone_poly_link1(signed int mcur_link1, signed int v0_link1, signed int v1_link1);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -866,21 +866,21 @@ extern void * memset(void *, signed int, unsigned long int);
 // merge_trapezoids
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 354
 static signed int merge_trapezoids(signed int segnum, signed int tfirst, signed int tlast, signed int side);
-// merge_trapezoids$link1
+// merge_trapezoids_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 354
-static signed int merge_trapezoids$link1(signed int segnum$link1, signed int tfirst$link1, signed int tlast$link1, signed int side$link1);
+static signed int merge_trapezoids_link1(signed int segnum_link1, signed int tfirst_link1, signed int tlast_link1, signed int side_link1);
 // mlog2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 47
 static double mlog2(double x);
-// mlog2$link1
+// mlog2_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 47
-static double mlog2$link1(double x$link1);
+static double mlog2_link1(double x_link1);
 // model_load
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 125
 static signed int model_load(char *file);
-// model_load$link1
+// model_load_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 125
-static signed int model_load$link1(char *file$link1);
+static signed int model_load_link1(char *file_link1);
 // monotonate_trapezoids
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 230
 extern signed int monotonate_trapezoids(signed int n);
@@ -896,27 +896,27 @@ signed int net_send(unsigned char opcode, char *buf, unsigned short int length);
 // new_chain_element
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 94
 static signed int new_chain_element(void);
-// new_chain_element$link1
+// new_chain_element_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 94
-static signed int new_chain_element$link1(void);
+static signed int new_chain_element_link1(void);
 // newmon
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 87
 static signed int newmon(void);
-// newmon$link1
+// newmon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 87
-static signed int newmon$link1(void);
+static signed int newmon_link1(void);
 // newnode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 53
 static signed int newnode(void);
-// newnode$link1
+// newnode_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 53
-static signed int newnode$link1(void);
+static signed int newnode_link1(void);
 // newtrap
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 64
 static signed int newtrap(void);
-// newtrap$link1
+// newtrap_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 64
-static signed int newtrap$link1(void);
+static signed int newtrap_link1(void);
 // ntohfb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/endian.c line 39
 void ntohfb(float *netfloat, signed int num);
@@ -941,9 +941,9 @@ static signed int object_info(struct s3d_evt *hrmz);
 // parse_args
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 80
 static signed int parse_args(signed int *argc, char ***argv);
-// parse_args$link1
+// parse_args_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 80
-static signed int parse_args$link1(signed int *argc$link1, char ***argv$link1);
+static signed int parse_args_link1(signed int *argc_link1, char ***argv_link1);
 // parse_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 86
 static void parse_buffer(struct kismet_src *kismet_src);
@@ -958,10 +958,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -1007,15 +1007,15 @@ signed int s3d_flags_on(signed int object, unsigned int flags);
 // s3d_ft_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 63
 static signed int s3d_ft_init(void);
-// s3d_ft_init$link1
+// s3d_ft_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 63
-static signed int s3d_ft_init$link1(void);
+static signed int s3d_ft_init_link1(void);
 // s3d_ft_load_font
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 79
 static signed int s3d_ft_load_font(void);
-// s3d_ft_load_font$link1
+// s3d_ft_load_font_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 79
-static signed int s3d_ft_load_font$link1(void);
+static signed int s3d_ft_load_font_link1(void);
 // s3d_get_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/callback.c line 115
 signed int (*s3d_get_callback(unsigned char event))(struct s3d_evt *);
@@ -1028,18 +1028,18 @@ signed int s3d_import_model_file(const char *fname);
 // s3d_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 153
 signed int s3d_init(signed int *argc, char ***argv, const char *name);
-// s3d_init::$tmp::return_value_signal$7$link1$object
+// s3d_init::_tmp::return_value_signal_7_link1_object
 //
-void return_value_signal$7$link1$object(signed int);
-// s3d_init::$tmp::return_value_signal$7$object
+void return_value_signal_7_link1_object(signed int);
+// s3d_init::_tmp::return_value_signal_7_object
 //
-void return_value_signal$7$object(signed int);
-// s3d_init::$tmp::return_value_signal$9$link1$object
+void return_value_signal_7_object(signed int);
+// s3d_init::_tmp::return_value_signal_9_link1_object
 //
-void return_value_signal$9$link1$object(signed int);
-// s3d_init::$tmp::return_value_signal$9$object
+void return_value_signal_9_link1_object(signed int);
+// s3d_init::_tmp::return_value_signal_9_object
 //
-void return_value_signal$9$object(signed int);
+void return_value_signal_9_object(signed int);
 // s3d_link
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 212
 signed int s3d_link(signed int oid_from, signed int oid_to);
@@ -1061,12 +1061,12 @@ signed int s3d_load_texture(signed int object, unsigned int tex, unsigned short 
 // s3d_mainloop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 155
 signed int s3d_mainloop(void (*f)(void));
-// s3d_mainloop::f$link1$object
+// s3d_mainloop::f_link1_object
 //
-void f$link1$object(void);
-// s3d_mainloop::f$object
+void f_link1_object(void);
+// s3d_mainloop::f_object
 //
-void f$object(void);
+void f_object(void);
 // s3d_mcp_focus
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/proto_out.c line 1265
 signed int s3d_mcp_focus(signed int object);
@@ -1139,21 +1139,21 @@ signed int s3d_pop_vertex(signed int object, unsigned int n);
 // s3d_process_stack
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/event.c line 129
 void s3d_process_stack(void);
-// s3d_process_stack::1::cb$link1$object
+// s3d_process_stack::1::cb_link1_object
 //
-signed int cb$link1$object(struct s3d_evt *);
-// s3d_process_stack::1::cb$object
+signed int cb_link1_object(struct s3d_evt *);
+// s3d_process_stack::1::cb_object
 //
-signed int cb$object(struct s3d_evt *);
+signed int cb_object(struct s3d_evt *);
 // s3d_push_event
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/event.c line 38
 void s3d_push_event(struct s3d_evt *newevt);
-// s3d_push_event::1::cb$link1$object
+// s3d_push_event::1::cb_link1_object
 //
-signed int cb$link1$object(struct s3d_evt *);
-// s3d_push_event::1::cb$object
+signed int cb_link1_object(struct s3d_evt *);
+// s3d_push_event::1::cb_object
 //
-signed int cb$object(struct s3d_evt *);
+signed int cb_object(struct s3d_evt *);
 // s3d_push_line
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/proto_out.c line 381
 signed int s3d_push_line(signed int object, unsigned int v1, unsigned int v2, unsigned int material);
@@ -1202,12 +1202,12 @@ signed int s3d_select_font(const char *path);
 // s3d_set_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 243
 void s3d_set_callback(unsigned char event, signed int (*func)(struct s3d_evt *));
-// s3d_set_callback::func$link1$object
+// s3d_set_callback::func_link1_object
 //
-signed int func$link1$object(struct s3d_evt *);
-// s3d_set_callback::func$object
+signed int func_link1_object(struct s3d_evt *);
+// s3d_set_callback::func_object
 //
-signed int func$object(struct s3d_evt *);
+signed int func_object(struct s3d_evt *);
 // s3d_strlen
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 226
 float s3d_strlen(const char *str);
@@ -1238,12 +1238,12 @@ void s3d_vector_subtract(const float *vector1, const float *vector2, float *resu
 // s3dprintf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 109
 static inline void s3dprintf(signed int relevance, const char *fmt, ...);
-// s3dprintf$link1
+// s3dprintf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 109
-static inline void s3dprintf$link1(signed int relevance$link1, const char *fmt$link1, ...);
-// s3dprintf$link2
+static inline void s3dprintf_link1(signed int relevance_link1, const char *fmt_link1, ...);
+// s3dprintf_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 109
-static inline void s3dprintf$link2(signed int relevance$link2, const char *fmt$link2, ...);
+static inline void s3dprintf_link2(signed int relevance_link2, const char *fmt_link2, ...);
 // s3dw_ani_add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3dw/animate.c line 47
 void s3dw_ani_add(struct _s3dw_widget *f);
@@ -1531,7 +1531,7 @@ void s3dw_widget_visible(struct _s3dw_widget *widget);
 extern signed int sei_triangulate_polygon(signed int ncontours, signed int *cntr, double (*vertices)[2l], signed int (*triangles)[3l]);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$13 *, struct anonymous$13 *, struct anonymous$13 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_13 *, struct anonymous_13 *, struct anonymous_13 *, struct timeval *);
 // shm_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm_ringbuf.c line 75
 unsigned int shm_read(struct buf_t *rb, char *buf, unsigned int n);
@@ -1559,24 +1559,24 @@ extern signed int shmget(signed int, unsigned long int, signed int);
 // sigint_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 59
 static void sigint_handler(signed int sig, signed int code);
-// sigint_handler$link1
+// sigint_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 59
-static void sigint_handler$link1(signed int sig$link1, signed int code$link1);
+static void sigint_handler_link1(signed int sig_link1, signed int code_link1);
 // sigio_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 50
 static void sigio_handler(signed int sig, signed int code);
-// sigio_handler$link1
+// sigio_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 50
-static void sigio_handler$link1(signed int sig$link1, signed int code$link1);
+static void sigio_handler_link1(signed int sig_link1, signed int code_link1);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
 // sigpipe_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 46
 static void sigpipe_handler(signed int sig, signed int code);
-// sigpipe_handler$link1
+// sigpipe_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 46
-static void sigpipe_handler$link1(signed int sig$link1, signed int code$link1);
+static void sigpipe_handler_link1(signed int sig_link1, signed int code_link1);
 // sin
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 65
 extern double sin(double);
@@ -1634,18 +1634,18 @@ signed int tcp_writen(char *str, signed int s);
 // traverse_polygon
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 277
 static signed int traverse_polygon(signed int mcur, signed int trnum, signed int from, signed int dir);
-// traverse_polygon$link1
+// traverse_polygon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 277
-static signed int traverse_polygon$link1(signed int mcur$link1, signed int trnum$link1, signed int from$link1, signed int dir$link1);
+static signed int traverse_polygon_link1(signed int mcur_link1, signed int trnum_link1, signed int from_link1, signed int dir_link1);
 // triangulate_monotone_polygons
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 495
 extern signed int triangulate_monotone_polygons(signed int nvert, signed int nmonpoly, signed int (*op)[3l]);
 // triangulate_single_polygon
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 558
 static signed int triangulate_single_polygon(signed int nvert, signed int posmax, signed int side, signed int (*op)[3l]);
-// triangulate_single_polygon$link1
+// triangulate_single_polygon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 558
-static signed int triangulate_single_polygon$link1(signed int nvert$link1, signed int posmax$link1, signed int side$link1, signed int (*op$link1)[3l]);
+static signed int triangulate_single_polygon_link1(signed int nvert_link1, signed int posmax_link1, signed int side_link1, signed int (*op_link1)[3l]);
 // wire_sphere
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/gui.c line 52
 static signed int wire_sphere(signed int slices, signed int stacks);
@@ -1653,12 +1653,12 @@ static signed int wire_sphere(signed int slices, signed int stacks);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$5
+struct anonymous_5
 {
   // filename
   char *filename;
   // context
-  struct anonymous$4 *context;
+  struct anonymous_4 *context;
   // materials
   struct _GSList *materials;
   // objects
@@ -1669,7 +1669,7 @@ struct anonymous$5
   struct _G3DPlugin *plugin;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // name
   char *name;
@@ -1680,7 +1680,7 @@ struct anonymous$11
   // objects
   struct _GSList *objects;
   // transformation
-  struct anonymous$6 *transformation;
+  struct anonymous_6 *transformation;
   // hide
   signed int hide;
   // vertex_count
@@ -1692,11 +1692,11 @@ struct anonymous$11
   // tex_vertex_data
   float *tex_vertex_data;
   // tex_image
-  struct anonymous$9 *tex_image;
+  struct anonymous_9 *tex_image;
   // _normals
   float *_normals;
   // _materials
-  struct anonymous$10 **_materials;
+  struct anonymous_10 **_materials;
   // _num_faces
   unsigned int _num_faces;
   // _indices
@@ -1709,7 +1709,7 @@ struct anonymous$11
   float *_tex_coords;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // name
   char *name;
@@ -1728,10 +1728,10 @@ struct anonymous$10
   // flags
   unsigned int flags;
   // tex_image
-  struct anonymous$9 *tex_image;
+  struct anonymous_9 *tex_image;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // name
   char *name;
@@ -1748,14 +1748,14 @@ struct anonymous$9
   // tex_id
   unsigned int tex_id;
   // tex_env
-  enum anonymous$8 tex_env;
+  enum anonymous_8 tex_env;
   // tex_scale_u
   float tex_scale_u;
   // tex_scale_v
   float tex_scale_v;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // plugins
   struct _GSList *plugins;
@@ -1779,7 +1779,7 @@ struct anonymous$4
   void *update_progress_bar_data;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // matrix
   float matrix[16l];
@@ -1787,13 +1787,13 @@ struct anonymous$6
   unsigned int flags;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // x
   double x;
@@ -1801,16 +1801,16 @@ struct anonymous$1
   double y;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // lseg
   signed int lseg;
   // rseg
   signed int rseg;
   // hi
-  struct anonymous$1 hi;
+  struct anonymous_1 hi;
   // lo
-  struct anonymous$1 lo;
+  struct anonymous_1 lo;
   // u0
   signed int u0;
   // u1
@@ -1829,14 +1829,14 @@ struct anonymous$3
   signed int state;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // nodetype
   signed int nodetype;
   // segnum
   signed int segnum;
   // yval
-  struct anonymous$1 yval;
+  struct anonymous_1 yval;
   // trnum
   signed int trnum;
   // parent
@@ -1847,7 +1847,7 @@ struct anonymous$15
   signed int right;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // vnum
   signed int vnum;
@@ -1859,10 +1859,10 @@ struct anonymous$0
   signed int marked;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // pt
-  struct anonymous$1 pt;
+  struct anonymous_1 pt;
   // vnext
   signed int vnext[4l];
   // vpos
@@ -1871,12 +1871,12 @@ struct anonymous$2
   signed int nextfree;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // v0
-  struct anonymous$1 v0;
+  struct anonymous_1 v0;
   // v1
-  struct anonymous$1 v1;
+  struct anonymous_1 v1;
   // is_inserted
   signed int is_inserted;
   // root0
@@ -1889,20 +1889,20 @@ struct anonymous$14
   signed int prev;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // vertex_count
   unsigned int vertex_count;
   // vertex_indices
   unsigned int *vertex_indices;
   // material
-  struct anonymous$10 *material;
+  struct anonymous_10 *material;
   // flags
   unsigned int flags;
   // normals
   float *normals;
   // tex_image
-  struct anonymous$9 *tex_image;
+  struct anonymous_9 *tex_image;
   // tex_vertex_count
   unsigned int tex_vertex_count;
   // tex_vertex_data
@@ -1937,7 +1937,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2964,7 +2964,7 @@ struct list_head Client_list;
 struct list_head Client_list = { .next=&Client_list, .prev=&Client_list };
 // Client_list_mutex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 47
-union anonymous$7 Client_list_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_7 Client_list_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // Client_obj
@@ -2987,7 +2987,7 @@ struct list_head Network_list;
 struct list_head Network_list = { .next=&Network_list, .prev=&Network_list };
 // Network_list_mutex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 46
-union anonymous$7 Network_list_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_7 Network_list_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // Num_networks
@@ -3020,30 +3020,30 @@ signed int cb_lock = 2;
 // chain_idx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 61
 static signed int chain_idx;
-// chain_idx$link1
+// chain_idx_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 61
-static signed int chain_idx$link1;
+static signed int chain_idx_link1;
 // choose_idx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 45
 static signed int choose_idx;
-// choose_idx$link1
+// choose_idx_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 45
-static signed int choose_idx$link1;
+static signed int choose_idx_link1;
 // con_type
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/network.c line 32
 signed int con_type = 0;
 // data_in
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 47
 static struct buf_t *data_in;
-// data_in$link1
+// data_in_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 47
-static struct buf_t *data_in$link1;
+static struct buf_t *data_in_link1;
 // data_out
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 47
 static struct buf_t *data_out;
-// data_out$link1
+// data_out_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 47
-static struct buf_t *data_out$link1;
+static struct buf_t *data_out_link1;
 // def_style
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3dw/style.c line 31
 struct _s3dw_style def_style = { .name="default", .fontface="vera", .surface_mat={ (float)0.7, (float)0.7, (float)0.7, (float)1.0, (float)0.7, (float)0.7, (float)0.7, (float)1.0, (float)0.7, (float)0.7, (float)0.7, (float)1.0 }, .input_mat={ (float)0.7, (float)0.7, (float)0.7, (float)1.0, (float)0.7, (float)0.7, (float)0.7, (float)1.0, (float)0.7, (float)0.7, (float)0.7, (float)1.0 },
@@ -3054,15 +3054,15 @@ struct _s3dw_style def_style = { .name="default", .fontface="vera", .surface_mat
 // face
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 51
 static struct FT_FaceRec_ *face;
-// face$link1
+// face_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 51
-static struct FT_FaceRec_ *face$link1;
+static struct FT_FaceRec_ *face_link1;
 // face_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 56
 static signed int face_init = 0;
-// face_init$link1
+// face_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 56
-static signed int face_init$link1 = 0;
+static signed int face_init_link1 = 0;
 // ft_errors
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 42
 static struct anonymous ft_errors[92l] = { { .err_code=0, .err_msg="no error" }, { .err_code=1, .err_msg="cannot open resource" },
@@ -3155,9 +3155,9 @@ static struct anonymous ft_errors[92l] = { { .err_code=0, .err_msg="no error" },
     { .err_code=185, .err_msg="Font header corrupted or missing fields" },
     { .err_code=186, .err_msg="Font glyphs corrupted or missing fields" },
     { .err_code=0, .err_msg=((const char *)NULL) } };
-// ft_errors$link1
+// ft_errors_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 42
-static struct anonymous ft_errors$link1[92l] = { { .err_code=0, .err_msg="no error" }, { .err_code=1, .err_msg="cannot open resource" },
+static struct anonymous ft_errors_link1[92l] = { { .err_code=0, .err_msg="no error" }, { .err_code=1, .err_msg="cannot open resource" },
     { .err_code=2, .err_msg="unknown file format" },
     { .err_code=3, .err_msg="broken file" },
     { .err_code=4, .err_msg="invalid FreeType version" },
@@ -3250,9 +3250,9 @@ static struct anonymous ft_errors$link1[92l] = { { .err_code=0, .err_msg="no err
 // ft_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 55
 static signed int ft_init = 0;
-// ft_init$link1
+// ft_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 55
-static signed int ft_init$link1 = 0;
+static signed int ft_init_link1 = 0;
 // kismet_src_list
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 41
 static struct list_head kismet_src_list;
@@ -3262,57 +3262,57 @@ static struct list_head kismet_src_list = { .next=&kismet_src_list, .prev=&kisme
 // library
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 50
 static struct FT_LibraryRec_ *library;
-// library$link1
+// library_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 50
-static struct FT_LibraryRec_ *library$link1;
+static struct FT_LibraryRec_ *library_link1;
 // mat2tex_root
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 42
 static struct material2texture *mat2tex_root = (struct material2texture *)(void *)0;
-// mat2tex_root$link1
+// mat2tex_root_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 42
-static struct material2texture *mat2tex_root$link1 = (struct material2texture *)(void *)0;
+static struct material2texture *mat2tex_root_link1 = (struct material2texture *)(void *)0;
 // mchain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 47
-static struct anonymous$0 mchain[800l];
-// mchain$link1
+static struct anonymous_0 mchain[800l];
+// mchain_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 47
-static struct anonymous$0 mchain$link1[800l];
+static struct anonymous_0 mchain_link1[800l];
 // memory_font
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 52
 static char *memory_font = (char *)(void *)0;
-// memory_font$link1
+// memory_font_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 52
-static char *memory_font$link1 = (char *)(void *)0;
+static char *memory_font_link1 = (char *)(void *)0;
 // memory_font_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 54
 static signed int memory_font_size = 0;
-// memory_font_size$link1
+// memory_font_size_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 54
-static signed int memory_font_size$link1 = 0;
+static signed int memory_font_size_link1 = 0;
 // mon
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 58
 static signed int mon[200l];
-// mon$link1
+// mon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 58
-static signed int mon$link1[200l];
+static signed int mon_link1[200l];
 // mon_idx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 61
 static signed int mon_idx;
-// mon_idx$link1
+// mon_idx_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 61
-static signed int mon_idx$link1;
+static signed int mon_idx_link1;
 // oldfontpath
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 53
 static char oldfontpath[256l];
-// oldfontpath$link1
+// oldfontpath_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 53
-static char oldfontpath$link1[256l];
+static char oldfontpath_link1[256l];
 // op_idx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 61
 static signed int op_idx;
-// op_idx$link1
+// op_idx_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 61
-static signed int op_idx$link1;
+static signed int op_idx_link1;
 // optarg
 // file /usr/include/getopt.h line 57
 extern char *optarg;
@@ -3325,36 +3325,36 @@ extern signed int optind;
 // permute
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 46
 static signed int permute[200l];
-// permute$link1
+// permute_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 46
-static signed int permute$link1[200l];
+static signed int permute_link1[200l];
 // q_idx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 49
 static signed int q_idx;
-// q_idx$link1
+// q_idx_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 49
-static signed int q_idx$link1;
+static signed int q_idx_link1;
 // qs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 45
-struct anonymous$15 qs[1600l];
+struct anonymous_15 qs[1600l];
 // queue
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/object_queue.c line 44
 static unsigned int *queue;
-// queue$link1
+// queue_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/object_queue.c line 44
-static unsigned int *queue$link1;
+static unsigned int *queue_link1;
 // queue_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/object_queue.c line 45
 static signed int queue_size = 0;
-// queue_size$link1
+// queue_size_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/object_queue.c line 45
-static signed int queue_size$link1 = 0;
+static signed int queue_size_link1 = 0;
 // requested
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/object_queue.c line 46
 static signed int requested;
-// requested$link1
+// requested_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/object_queue.c line 46
-static signed int requested$link1;
+static signed int requested_link1;
 // root
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3dw/root.c line 36
 static struct _s3dw_widget *root = (struct _s3dw_widget *)(void *)0;
@@ -3614,15 +3614,15 @@ signed int (*s3d_cb_list[256l])(struct s3d_evt *) = { (signed int (*)(struct s3d
 // s3d_socket
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 43
 static signed int s3d_socket;
-// s3d_socket$link1
+// s3d_socket_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 43
-static signed int s3d_socket$link1;
+static signed int s3d_socket_link1;
 // s3d_stack
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/event.c line 30
 static struct s3d_evt *s3d_stack;
-// s3d_stack$link1
+// s3d_stack_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/event.c line 30
-static struct s3d_evt *s3d_stack$link1;
+static struct s3d_evt *s3d_stack_link1;
 // s3d_thread_id
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 45
 static unsigned long int s3d_thread_id;
@@ -3643,25 +3643,25 @@ signed int (*s3dwcb_key[8l])(struct _s3dw_widget *, struct s3d_key_event *);
 void (*s3dwcb_show[8l])(struct _s3dw_widget *);
 // seg
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 47
-struct anonymous$14 seg[200l];
+struct anonymous_14 seg[200l];
 // shm_idle
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 49
 static signed int shm_idle = 0;
-// shm_idle$link1
+// shm_idle_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 49
-static signed int shm_idle$link1 = 0;
+static signed int shm_idle_link1 = 0;
 // shmid_in
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 48
 static signed int shmid_in;
-// shmid_in$link1
+// shmid_in_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 48
-static signed int shmid_in$link1;
+static signed int shmid_in_link1;
 // shmid_out
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 48
 static signed int shmid_out;
-// shmid_out$link1
+// shmid_out_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 48
-static signed int shmid_out$link1;
+static signed int shmid_out_link1;
 // sleeptime
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/gui.c line 46
 static struct timespec sleeptime = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(100 * 1000 * 1000) };
@@ -3671,51 +3671,51 @@ extern struct _IO_FILE *stderr;
 // t
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 50
 static struct timespec t = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(10 * 1000 * 1000) };
-// t$link1
+// t_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 50
-static struct timespec t$link1 = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(10 * 1000 * 1000) };
+static struct timespec t_link1 = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(10 * 1000 * 1000) };
 // tess_buf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 58
 static struct t_buf tess_buf[256l];
-// tess_buf$link1
+// tess_buf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 58
-static struct t_buf tess_buf$link1[256l];
+static struct t_buf tess_buf_link1[256l];
 // tex_hash
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 38
 static struct hashtable_t *tex_hash = (struct hashtable_t *)(void *)0;
-// tex_hash$link1
+// tex_hash_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 38
-static struct hashtable_t *tex_hash$link1 = (struct hashtable_t *)(void *)0;
+static struct hashtable_t *tex_hash_link1 = (struct hashtable_t *)(void *)0;
 // thread_running
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/kism3d.c line 49
 static signed int thread_running = 0;
 // tr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 46
-struct anonymous$3 tr[800l];
+struct anonymous_3 tr[800l];
 // tr_idx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 50
 static signed int tr_idx;
-// tr_idx$link1
+// tr_idx_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 50
-static signed int tr_idx$link1;
+static signed int tr_idx_link1;
 // url
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 55
 static char *url = (char *)(void *)0;
-// url$link1
+// url_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 55
-static char *url$link1 = (char *)(void *)0;
+static char *url_link1 = (char *)(void *)0;
 // vert
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 51
-static struct anonymous$2 vert[200l];
-// vert$link1
+static struct anonymous_2 vert[200l];
+// vert_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 51
-static struct anonymous$2 vert$link1[200l];
+static struct anonymous_2 vert_link1[200l];
 // visited
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 60
 static signed int visited[800l];
-// visited$link1
+// visited_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 60
-static signed int visited$link1[800l];
+static signed int visited_link1[800l];
 
 // __list_add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/list.h line 81
@@ -3737,26 +3737,26 @@ static inline void __list_del(struct list_head *prev, struct list_head *next)
 
 // _equal_to
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 123
-extern signed int _equal_to(struct anonymous$1 *v0, struct anonymous$1 *v1)
+extern signed int _equal_to(struct anonymous_1 *v0, struct anonymous_1 *v1)
 {
-  double return_value_fabs$1;
-  return_value_fabs$1=fabs(v0->y - v1->y);
-  _Bool tmp_if_expr$3;
-  double return_value_fabs$2;
-  if(return_value_fabs$1 <= 1.0e-7)
+  double return_value_fabs_1;
+  return_value_fabs_1=fabs(v0->y - v1->y);
+  _Bool tmp_if_expr_3;
+  double return_value_fabs_2;
+  if(return_value_fabs_1 <= 1.0e-7)
   {
-    return_value_fabs$2=fabs(v0->x - v1->x);
-    tmp_if_expr$3 = return_value_fabs$2 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
+    return_value_fabs_2=fabs(v0->x - v1->x);
+    tmp_if_expr_3 = return_value_fabs_2 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  return (signed int)tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  return (signed int)tmp_if_expr_3;
 }
 
 // _greater_than
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 112
-extern signed int _greater_than(struct anonymous$1 *v0, struct anonymous$1 *v1)
+extern signed int _greater_than(struct anonymous_1 *v0, struct anonymous_1 *v1)
 {
   if(v0->y > v1->y + 1.0e-7)
     return 1;
@@ -3771,7 +3771,7 @@ extern signed int _greater_than(struct anonymous$1 *v0, struct anonymous$1 *v1)
 
 // _greater_than_equal_to
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 128
-extern signed int _greater_than_equal_to(struct anonymous$1 *v0, struct anonymous$1 *v1)
+extern signed int _greater_than_equal_to(struct anonymous_1 *v0, struct anonymous_1 *v1)
 {
   if(v0->y > v1->y + 1.0e-7)
     return 1;
@@ -3786,7 +3786,7 @@ extern signed int _greater_than_equal_to(struct anonymous$1 *v0, struct anonymou
 
 // _less_than
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 138
-extern signed int _less_than(struct anonymous$1 *v0, struct anonymous$1 *v1)
+extern signed int _less_than(struct anonymous_1 *v0, struct anonymous_1 *v1)
 {
   if(v0->y < v1->y + -1.000000e-7)
     return 1;
@@ -3801,16 +3801,16 @@ extern signed int _less_than(struct anonymous$1 *v0, struct anonymous$1 *v1)
 
 // _max
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 79
-static signed int _max(struct anonymous$1 *yval, struct anonymous$1 *v0, struct anonymous$1 *v1)
+static signed int _max(struct anonymous_1 *yval, struct anonymous_1 *v0, struct anonymous_1 *v1)
 {
-  double return_value_fabs$1;
+  double return_value_fabs_1;
   if(v0->y > v1->y + 1.0e-7)
     *yval = *v0;
 
   else
   {
-    return_value_fabs$1=fabs(v0->y - v1->y);
-    if(return_value_fabs$1 <= 1.0e-7)
+    return_value_fabs_1=fabs(v0->y - v1->y);
+    if(return_value_fabs_1 <= 1.0e-7)
     {
       if(v0->x > v1->x + 1.0e-7)
         *yval = *v0;
@@ -3825,44 +3825,44 @@ static signed int _max(struct anonymous$1 *yval, struct anonymous$1 *v0, struct 
   return 0;
 }
 
-// _max$link1
+// _max_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 79
-static signed int _max$link1(struct anonymous$1 *yval$link1, struct anonymous$1 *v0$link1, struct anonymous$1 *v1$link1)
+static signed int _max_link1(struct anonymous_1 *yval_link1, struct anonymous_1 *v0_link1, struct anonymous_1 *v1_link1)
 {
-  double return_value_fabs$1$link1;
-  if(v0$link1->y > v1$link1->y + 1.0e-7)
-    *yval$link1 = *v0$link1;
+  double return_value_fabs_1_link1;
+  if(v0_link1->y > v1_link1->y + 1.0e-7)
+    *yval_link1 = *v0_link1;
 
   else
   {
-    return_value_fabs$1$link1=fabs(v0$link1->y - v1$link1->y);
-    if(return_value_fabs$1$link1 <= 1.0e-7)
+    return_value_fabs_1_link1=fabs(v0_link1->y - v1_link1->y);
+    if(return_value_fabs_1_link1 <= 1.0e-7)
     {
-      if(v0$link1->x > v1$link1->x + 1.0e-7)
-        *yval$link1 = *v0$link1;
+      if(v0_link1->x > v1_link1->x + 1.0e-7)
+        *yval_link1 = *v0_link1;
 
       else
-        *yval$link1 = *v1$link1;
+        *yval_link1 = *v1_link1;
     }
 
     else
-      *yval$link1 = *v1$link1;
+      *yval_link1 = *v1_link1;
   }
   return 0;
 }
 
 // _min
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 96
-static signed int _min(struct anonymous$1 *yval, struct anonymous$1 *v0, struct anonymous$1 *v1)
+static signed int _min(struct anonymous_1 *yval, struct anonymous_1 *v0, struct anonymous_1 *v1)
 {
-  double return_value_fabs$1;
+  double return_value_fabs_1;
   if(v0->y < v1->y + -1.000000e-7)
     *yval = *v0;
 
   else
   {
-    return_value_fabs$1=fabs(v0->y - v1->y);
-    if(return_value_fabs$1 <= 1.0e-7)
+    return_value_fabs_1=fabs(v0->y - v1->y);
+    if(return_value_fabs_1 <= 1.0e-7)
     {
       if(v0->x < v1->x)
         *yval = *v0;
@@ -3877,28 +3877,28 @@ static signed int _min(struct anonymous$1 *yval, struct anonymous$1 *v0, struct 
   return 0;
 }
 
-// _min$link1
+// _min_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 96
-static signed int _min$link1(struct anonymous$1 *yval$link1, struct anonymous$1 *v0$link1, struct anonymous$1 *v1$link1)
+static signed int _min_link1(struct anonymous_1 *yval_link1, struct anonymous_1 *v0_link1, struct anonymous_1 *v1_link1)
 {
-  double return_value_fabs$1$link1;
-  if(v0$link1->y < v1$link1->y + -1.000000e-7)
-    *yval$link1 = *v0$link1;
+  double return_value_fabs_1_link1;
+  if(v0_link1->y < v1_link1->y + -1.000000e-7)
+    *yval_link1 = *v0_link1;
 
   else
   {
-    return_value_fabs$1$link1=fabs(v0$link1->y - v1$link1->y);
-    if(return_value_fabs$1$link1 <= 1.0e-7)
+    return_value_fabs_1_link1=fabs(v0_link1->y - v1_link1->y);
+    if(return_value_fabs_1_link1 <= 1.0e-7)
     {
-      if(v0$link1->x < v1$link1->x)
-        *yval$link1 = *v0$link1;
+      if(v0_link1->x < v1_link1->x)
+        *yval_link1 = *v0_link1;
 
       else
-        *yval$link1 = *v1$link1;
+        *yval_link1 = *v1_link1;
     }
 
     else
-      *yval$link1 = *v1$link1;
+      *yval_link1 = *v1_link1;
   }
   return 0;
 }
@@ -3922,9 +3922,9 @@ signed int _queue_init(void)
   signed int i;
   queue_size = 1;
   requested = 0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)queue_size);
-  queue = (unsigned int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)queue_size);
+  queue = (unsigned int *)return_value_malloc_1;
   i = 0;
   for( ; !(i >= queue_size); i = i + 1)
     queue[(signed long int)i] = (unsigned int)~0;
@@ -3950,9 +3950,9 @@ signed int _queue_new_object(unsigned int oid)
 
   else
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)queue, sizeof(unsigned int) /*4ul*/  * (unsigned long int)(queue_size + 1));
-    queue = (unsigned int *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)queue, sizeof(unsigned int) /*4ul*/  * (unsigned long int)(queue_size + 1));
+    queue = (unsigned int *)return_value_realloc_1;
     queue_size = queue_size + 1;
     requested = requested - 1;
     queue[(signed long int)(queue_size - 1)] = oid;
@@ -3981,7 +3981,7 @@ unsigned int _queue_want_object(void)
   unsigned int ret;
   signed int i;
   signed int j = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     i = 0;
@@ -4004,12 +4004,12 @@ unsigned int _queue_want_object(void)
     }
 
     s3d_net_check();
-    static struct timespec _queue_want_object$$1$$t = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(10 * 1000) };
-    nanosleep(&_queue_want_object$$1$$t, (struct timespec *)(void *)0);
-    tmp_post$1 = j;
+    static struct timespec _queue_want_object__1__t = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(10 * 1000) };
+    nanosleep(&_queue_want_object__1__t, (struct timespec *)(void *)0);
+    tmp_post_1 = j;
     j = j + 1;
   }
-  while(!(tmp_post$1 >= 100000));
+  while(!(tmp_post_1 >= 100000));
   errds(2, "_queue_want_object()", "timeout is reached. server is extremly slow/laggy or dead");
   return (unsigned int)-1;
 }
@@ -4053,16 +4053,16 @@ static signed int _s3d_add_tessbuf(unsigned short int a)
 
   else
   {
-    s3dprintf$link1(1, "[T]riangulating character %c", a);
+    s3dprintf_link1(1, "[T]riangulating character %c", a);
     norm = (float)(1.0 / (double)face->glyph->metrics.vertAdvance);
     if((signed int)face->glyph->outline.n_points >= 1)
     {
       if(!((signed int)face->glyph->outline.n_points >= 200))
       {
         tess_buf[(signed long int)a].vn = (signed int)face->glyph->outline.n_points;
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)face->glyph->outline.n_points * (unsigned long int)3);
-        tess_buf[(signed long int)a].vbuf = (float *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)face->glyph->outline.n_points * (unsigned long int)3);
+        tess_buf[(signed long int)a].vbuf = (float *)return_value_malloc_1;
         j = 0;
         ncontours = (signed int)face->glyph->outline.n_contours;
         c = 0;
@@ -4084,7 +4084,7 @@ static signed int _s3d_add_tessbuf(unsigned short int a)
             j = j + 1;
           }
           ar = 0.5f * norm * norm * ar;
-          s3dprintf$link1(1, "contour %d has area of %3.3f, cntr is %d, contour starts at %d, ncon %d", c, ar, cntr[(signed long int)c], csta[(signed long int)c], ncon);
+          s3dprintf_link1(1, "contour %d has area of %3.3f, cntr is %d, contour starts at %d, ncon %d", c, ar, cntr[(signed long int)c], csta[(signed long int)c], ncon);
           area[(signed long int)c] = ar;
         }
         n = ncontours;
@@ -4104,7 +4104,7 @@ static signed int _s3d_add_tessbuf(unsigned short int a)
 
           if(outl == -1)
           {
-            s3dprintf$link1(4, "hole without outline found, exiting ... %c", a);
+            s3dprintf_link1(4, "hole without outline found, exiting ... %c", a);
             return -1;
           }
 
@@ -4120,18 +4120,18 @@ static signed int _s3d_add_tessbuf(unsigned short int a)
               j = s;
               for( ; !(j >= e); j = j + 1)
               {
-                double return_value_atan2$2;
-                return_value_atan2$2=atan2((vertices[(signed long int)(j + 1)][(signed long int)1] - (double)ya) * (vertices[(signed long int)j][(signed long int)0] - (double)xa) - (vertices[(signed long int)(j + 1)][(signed long int)0] - (double)xa) * (vertices[(signed long int)j][(signed long int)1] - (double)ya), (vertices[(signed long int)(j + 1)][(signed long int)0] - (double)xa) * (vertices[(signed long int)j][(signed long int)0] - (double)xa) + (vertices[(signed long int)(j + 1)][(signed long int)1] - (double)ya) * (vertices[(signed long int)j][(signed long int)1] - (double)ya));
-                ar = ar + (float)return_value_atan2$2;
+                double return_value_atan2_2;
+                return_value_atan2_2=atan2((vertices[(signed long int)(j + 1)][(signed long int)1] - (double)ya) * (vertices[(signed long int)j][(signed long int)0] - (double)xa) - (vertices[(signed long int)(j + 1)][(signed long int)0] - (double)xa) * (vertices[(signed long int)j][(signed long int)1] - (double)ya), (vertices[(signed long int)(j + 1)][(signed long int)0] - (double)xa) * (vertices[(signed long int)j][(signed long int)0] - (double)xa) + (vertices[(signed long int)(j + 1)][(signed long int)1] - (double)ya) * (vertices[(signed long int)j][(signed long int)1] - (double)ya));
+                ar = ar + (float)return_value_atan2_2;
               }
-              double return_value_atan2$3;
-              return_value_atan2$3=atan2((vertices[(signed long int)s][(signed long int)1] - (double)ya) * (vertices[(signed long int)e][(signed long int)0] - (double)xa) - (vertices[(signed long int)s][(signed long int)0] - (double)xa) * (vertices[(signed long int)e][(signed long int)1] - (double)ya), (vertices[(signed long int)s][(signed long int)0] - (double)xa) * (vertices[(signed long int)e][(signed long int)0] - (double)xa) + (vertices[(signed long int)s][(signed long int)1] - (double)ya) * (vertices[(signed long int)e][(signed long int)1] - (double)ya));
-              ar = ar + (float)return_value_atan2$3;
-              float return_value_fabsf$4;
-              return_value_fabsf$4=fabsf(ar);
-              if(return_value_fabsf$4 > 1.000000f)
+              double return_value_atan2_3;
+              return_value_atan2_3=atan2((vertices[(signed long int)s][(signed long int)1] - (double)ya) * (vertices[(signed long int)e][(signed long int)0] - (double)xa) - (vertices[(signed long int)s][(signed long int)0] - (double)xa) * (vertices[(signed long int)e][(signed long int)1] - (double)ya), (vertices[(signed long int)s][(signed long int)0] - (double)xa) * (vertices[(signed long int)e][(signed long int)0] - (double)xa) + (vertices[(signed long int)s][(signed long int)1] - (double)ya) * (vertices[(signed long int)e][(signed long int)1] - (double)ya));
+              ar = ar + (float)return_value_atan2_3;
+              float return_value_fabsf_4;
+              return_value_fabsf_4=fabsf(ar);
+              if(return_value_fabsf_4 > 1.000000f)
               {
-                s3dprintf$link1(1, "hole %d (%d) in %d (%d): interior angle sum %f (n=%d)", i, perm[(signed long int)i], outl, perm[(signed long int)outl], ar, n);
+                s3dprintf_link1(1, "hole %d (%d) in %d (%d): interior angle sum %f (n=%d)", i, perm[(signed long int)i], outl, perm[(signed long int)outl], ar, n);
                 j = perm[(signed long int)(n - 1)];
                 perm[(signed long int)(n - 1)] = perm[(signed long int)i];
                 perm[(signed long int)i] = j;
@@ -4166,9 +4166,9 @@ static signed int _s3d_add_tessbuf(unsigned short int a)
           ncntr[(signed long int)c] = cntr[(signed long int)perm[(signed long int)c]];
         }
         n = 0;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)((signed int)face->glyph->outline.n_points + 2 * (signed int)face->glyph->outline.n_contours));
-        tess_buf[(signed long int)a].pbuf = (unsigned int *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)((signed int)face->glyph->outline.n_points + 2 * (signed int)face->glyph->outline.n_contours));
+        tess_buf[(signed long int)a].pbuf = (unsigned int *)return_value_malloc_5;
         k = 0;
         c = ncontours - 1;
         for( ; c >= 0; c = c - 1)
@@ -4176,7 +4176,7 @@ static signed int _s3d_add_tessbuf(unsigned short int a)
           n = n + 1;
           if(area[(signed long int)perm[(signed long int)c]] > 0.000000f)
           {
-            s3dprintf$link1(1, "[T]riangulation from outline %d (%d contours, area = %f)", perm[(signed long int)c], n, area[(signed long int)perm[(signed long int)c]]);
+            s3dprintf_link1(1, "[T]riangulation from outline %d (%d contours, area = %f)", perm[(signed long int)c], n, area[(signed long int)perm[(signed long int)c]]);
             np=sei_triangulate_polygon(n, ncntr + (signed long int)c, nvertices + (signed long int)ncsta[(signed long int)c], triangles);
             i = 0;
             for( ; !(i >= np); i = i + 1)
@@ -4201,189 +4201,189 @@ static signed int _s3d_add_tessbuf(unsigned short int a)
   }
 }
 
-// _s3d_add_tessbuf$link1
+// _s3d_add_tessbuf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 116
-static signed int _s3d_add_tessbuf$link1(unsigned short int a$link1)
+static signed int _s3d_add_tessbuf_link1(unsigned short int a_link1)
 {
-  float norm$link1;
-  float ar$link1;
-  float xa$link1;
-  float ya$link1;
-  signed int i$link1;
-  signed int j$link1;
-  signed int k$link1;
-  signed int c$link1;
-  signed int n$link1;
-  signed int outl$link1;
-  signed int s$link1;
-  signed int e$link1;
-  signed int np$link1;
-  signed int pos$link1;
-  signed int triangles$link1[400l][3l];
-  signed int ncontours$link1;
-  signed int ncon$link1;
-  signed int cntr$link1[200l];
-  signed int ncntr$link1[200l];
-  signed int csta$link1[200l];
-  signed int ncsta$link1[200l];
-  signed int perm$link1[200l];
-  float area$link1[200l];
-  double vertices$link1[201l][2l];
-  double nvertices$link1[201l][2l];
-  signed int error$link1;
-  error$link1=FT_Load_Char(face$link1, (unsigned long int)a$link1, (signed int)(1L << 3 | 1L << 0));
-  if(!(error$link1 == 0))
+  float norm_link1;
+  float ar_link1;
+  float xa_link1;
+  float ya_link1;
+  signed int i_link1;
+  signed int j_link1;
+  signed int k_link1;
+  signed int c_link1;
+  signed int n_link1;
+  signed int outl_link1;
+  signed int s_link1;
+  signed int e_link1;
+  signed int np_link1;
+  signed int pos_link1;
+  signed int triangles_link1[400l][3l];
+  signed int ncontours_link1;
+  signed int ncon_link1;
+  signed int cntr_link1[200l];
+  signed int ncntr_link1[200l];
+  signed int csta_link1[200l];
+  signed int ncsta_link1[200l];
+  signed int perm_link1[200l];
+  float area_link1[200l];
+  double vertices_link1[201l][2l];
+  double nvertices_link1[201l][2l];
+  signed int error_link1;
+  error_link1=FT_Load_Char(face_link1, (unsigned long int)a_link1, (signed int)(1L << 3 | 1L << 0));
+  if(!(error_link1 == 0))
   {
-    errds$link1(5, "_s3d_add_tessbuf():FT_Load_Char()", "can't load character %d : (%d) %s", a$link1, ft_errors$link1[(signed long int)error$link1].err_code, ft_errors$link1[(signed long int)error$link1].err_msg);
+    errds_link1(5, "_s3d_add_tessbuf():FT_Load_Char()", "can't load character %d : (%d) %s", a_link1, ft_errors_link1[(signed long int)error_link1].err_code, ft_errors_link1[(signed long int)error_link1].err_msg);
     return -1;
   }
 
   else
   {
-    s3dprintf$link2(1, "[T]riangulating character %c", a$link1);
-    norm$link1 = (float)(1.0 / (double)face$link1->glyph->metrics.vertAdvance);
-    if((signed int)face$link1->glyph->outline.n_points >= 1)
+    s3dprintf_link2(1, "[T]riangulating character %c", a_link1);
+    norm_link1 = (float)(1.0 / (double)face_link1->glyph->metrics.vertAdvance);
+    if((signed int)face_link1->glyph->outline.n_points >= 1)
     {
-      if(!((signed int)face$link1->glyph->outline.n_points >= 200))
+      if(!((signed int)face_link1->glyph->outline.n_points >= 200))
       {
-        tess_buf$link1[(signed long int)a$link1].vn = (signed int)face$link1->glyph->outline.n_points;
-        void *return_value_malloc$1$link1;
-        return_value_malloc$1$link1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)face$link1->glyph->outline.n_points * (unsigned long int)3);
-        tess_buf$link1[(signed long int)a$link1].vbuf = (float *)return_value_malloc$1$link1;
-        j$link1 = 0;
-        ncontours$link1 = (signed int)face$link1->glyph->outline.n_contours;
-        c$link1 = 0;
-        for( ; !(c$link1 >= ncontours$link1); c$link1 = c$link1 + 1)
+        tess_buf_link1[(signed long int)a_link1].vn = (signed int)face_link1->glyph->outline.n_points;
+        void *return_value_malloc_1_link1;
+        return_value_malloc_1_link1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)face_link1->glyph->outline.n_points * (unsigned long int)3);
+        tess_buf_link1[(signed long int)a_link1].vbuf = (float *)return_value_malloc_1_link1;
+        j_link1 = 0;
+        ncontours_link1 = (signed int)face_link1->glyph->outline.n_contours;
+        c_link1 = 0;
+        for( ; !(c_link1 >= ncontours_link1); c_link1 = c_link1 + 1)
         {
-          i$link1 = 0;
-          ncon$link1 = (signed int)face$link1->glyph->outline.contours[(signed long int)c$link1];
-          cntr$link1[(signed long int)c$link1] = (ncon$link1 - j$link1) + 1;
-          csta$link1[(signed long int)c$link1] = j$link1 + 1;
-          ar$link1 = 0.0f;
-          for( ; !(j$link1 >= 1 + ncon$link1); i$link1 = i$link1 + 1)
+          i_link1 = 0;
+          ncon_link1 = (signed int)face_link1->glyph->outline.contours[(signed long int)c_link1];
+          cntr_link1[(signed long int)c_link1] = (ncon_link1 - j_link1) + 1;
+          csta_link1[(signed long int)c_link1] = j_link1 + 1;
+          ar_link1 = 0.0f;
+          for( ; !(j_link1 >= 1 + ncon_link1); i_link1 = i_link1 + 1)
           {
-            k$link1 = (((j$link1 + 2) - csta$link1[(signed long int)c$link1]) % cntr$link1[(signed long int)c$link1] + csta$link1[(signed long int)c$link1]) - 1;
-            ar$link1 = ar$link1 - (float)((face$link1->glyph->outline.points + (signed long int)j$link1)->x * (face$link1->glyph->outline.points + (signed long int)k$link1)->y);
-            ar$link1 = ar$link1 + (float)((face$link1->glyph->outline.points + (signed long int)k$link1)->x * (face$link1->glyph->outline.points + (signed long int)j$link1)->y);
-            pos$link1 = ncon$link1 - i$link1;
-            vertices$link1[(signed long int)(pos$link1 + 1)][(signed long int)0] = (double)((float)(face$link1->glyph->outline.points + (signed long int)j$link1)->x * norm$link1);
-            vertices$link1[(signed long int)(pos$link1 + 1)][(signed long int)1] = (double)((float)(face$link1->glyph->outline.points + (signed long int)j$link1)->y * norm$link1);
-            j$link1 = j$link1 + 1;
+            k_link1 = (((j_link1 + 2) - csta_link1[(signed long int)c_link1]) % cntr_link1[(signed long int)c_link1] + csta_link1[(signed long int)c_link1]) - 1;
+            ar_link1 = ar_link1 - (float)((face_link1->glyph->outline.points + (signed long int)j_link1)->x * (face_link1->glyph->outline.points + (signed long int)k_link1)->y);
+            ar_link1 = ar_link1 + (float)((face_link1->glyph->outline.points + (signed long int)k_link1)->x * (face_link1->glyph->outline.points + (signed long int)j_link1)->y);
+            pos_link1 = ncon_link1 - i_link1;
+            vertices_link1[(signed long int)(pos_link1 + 1)][(signed long int)0] = (double)((float)(face_link1->glyph->outline.points + (signed long int)j_link1)->x * norm_link1);
+            vertices_link1[(signed long int)(pos_link1 + 1)][(signed long int)1] = (double)((float)(face_link1->glyph->outline.points + (signed long int)j_link1)->y * norm_link1);
+            j_link1 = j_link1 + 1;
           }
-          ar$link1 = 0.5f * norm$link1 * norm$link1 * ar$link1;
-          s3dprintf$link2(1, "contour %d has area of %3.3f, cntr is %d, contour starts at %d, ncon %d", c$link1, ar$link1, cntr$link1[(signed long int)c$link1], csta$link1[(signed long int)c$link1], ncon$link1);
-          area$link1[(signed long int)c$link1] = ar$link1;
+          ar_link1 = 0.5f * norm_link1 * norm_link1 * ar_link1;
+          s3dprintf_link2(1, "contour %d has area of %3.3f, cntr is %d, contour starts at %d, ncon %d", c_link1, ar_link1, cntr_link1[(signed long int)c_link1], csta_link1[(signed long int)c_link1], ncon_link1);
+          area_link1[(signed long int)c_link1] = ar_link1;
         }
-        n$link1 = ncontours$link1;
-        i$link1 = 0;
-        for( ; !(i$link1 >= n$link1); i$link1 = i$link1 + 1)
-          perm$link1[(signed long int)i$link1] = i$link1;
-        for( ; !(n$link1 == 0); n$link1 = n$link1 - 1)
+        n_link1 = ncontours_link1;
+        i_link1 = 0;
+        for( ; !(i_link1 >= n_link1); i_link1 = i_link1 + 1)
+          perm_link1[(signed long int)i_link1] = i_link1;
+        for( ; !(n_link1 == 0); n_link1 = n_link1 - 1)
         {
-          outl$link1 = -1;
-          i$link1 = 0;
-          for( ; !(i$link1 >= n$link1); i$link1 = i$link1 + 1)
-            if(area$link1[(signed long int)perm$link1[(signed long int)i$link1]] > 0.000000f)
+          outl_link1 = -1;
+          i_link1 = 0;
+          for( ; !(i_link1 >= n_link1); i_link1 = i_link1 + 1)
+            if(area_link1[(signed long int)perm_link1[(signed long int)i_link1]] > 0.000000f)
             {
-              outl$link1 = i$link1;
+              outl_link1 = i_link1;
               break;
             }
 
-          if(outl$link1 == -1)
+          if(outl_link1 == -1)
           {
-            s3dprintf$link2(4, "hole without outline found, exiting ... %c", a$link1);
+            s3dprintf_link2(4, "hole without outline found, exiting ... %c", a_link1);
             return -1;
           }
 
-          i$link1 = 0;
-          for( ; !(i$link1 >= n$link1); i$link1 = i$link1 + 1)
-            if(area$link1[(signed long int)perm$link1[(signed long int)i$link1]] < 0.000000f)
+          i_link1 = 0;
+          for( ; !(i_link1 >= n_link1); i_link1 = i_link1 + 1)
+            if(area_link1[(signed long int)perm_link1[(signed long int)i_link1]] < 0.000000f)
             {
-              xa$link1 = (float)vertices$link1[(signed long int)csta$link1[(signed long int)perm$link1[(signed long int)i$link1]]][(signed long int)0];
-              ya$link1 = (float)vertices$link1[(signed long int)csta$link1[(signed long int)perm$link1[(signed long int)i$link1]]][(signed long int)1];
-              s$link1 = csta$link1[(signed long int)perm$link1[(signed long int)outl$link1]];
-              e$link1 = (csta$link1[(signed long int)perm$link1[(signed long int)outl$link1]] + cntr$link1[(signed long int)perm$link1[(signed long int)outl$link1]]) - 1;
-              ar$link1 = (float)0;
-              j$link1 = s$link1;
-              for( ; !(j$link1 >= e$link1); j$link1 = j$link1 + 1)
+              xa_link1 = (float)vertices_link1[(signed long int)csta_link1[(signed long int)perm_link1[(signed long int)i_link1]]][(signed long int)0];
+              ya_link1 = (float)vertices_link1[(signed long int)csta_link1[(signed long int)perm_link1[(signed long int)i_link1]]][(signed long int)1];
+              s_link1 = csta_link1[(signed long int)perm_link1[(signed long int)outl_link1]];
+              e_link1 = (csta_link1[(signed long int)perm_link1[(signed long int)outl_link1]] + cntr_link1[(signed long int)perm_link1[(signed long int)outl_link1]]) - 1;
+              ar_link1 = (float)0;
+              j_link1 = s_link1;
+              for( ; !(j_link1 >= e_link1); j_link1 = j_link1 + 1)
               {
-                double return_value_atan2$2$link1;
-                return_value_atan2$2$link1=atan2((vertices$link1[(signed long int)(j$link1 + 1)][(signed long int)1] - (double)ya$link1) * (vertices$link1[(signed long int)j$link1][(signed long int)0] - (double)xa$link1) - (vertices$link1[(signed long int)(j$link1 + 1)][(signed long int)0] - (double)xa$link1) * (vertices$link1[(signed long int)j$link1][(signed long int)1] - (double)ya$link1), (vertices$link1[(signed long int)(j$link1 + 1)][(signed long int)0] - (double)xa$link1) * (vertices$link1[(signed long int)j$link1][(signed long int)0] - (double)xa$link1) + (vertices$link1[(signed long int)(j$link1 + 1)][(signed long int)1] - (double)ya$link1) * (vertices$link1[(signed long int)j$link1][(signed long int)1] - (double)ya$link1));
-                ar$link1 = ar$link1 + (float)return_value_atan2$2$link1;
+                double return_value_atan2_2_link1;
+                return_value_atan2_2_link1=atan2((vertices_link1[(signed long int)(j_link1 + 1)][(signed long int)1] - (double)ya_link1) * (vertices_link1[(signed long int)j_link1][(signed long int)0] - (double)xa_link1) - (vertices_link1[(signed long int)(j_link1 + 1)][(signed long int)0] - (double)xa_link1) * (vertices_link1[(signed long int)j_link1][(signed long int)1] - (double)ya_link1), (vertices_link1[(signed long int)(j_link1 + 1)][(signed long int)0] - (double)xa_link1) * (vertices_link1[(signed long int)j_link1][(signed long int)0] - (double)xa_link1) + (vertices_link1[(signed long int)(j_link1 + 1)][(signed long int)1] - (double)ya_link1) * (vertices_link1[(signed long int)j_link1][(signed long int)1] - (double)ya_link1));
+                ar_link1 = ar_link1 + (float)return_value_atan2_2_link1;
               }
-              double return_value_atan2$3$link1;
-              return_value_atan2$3$link1=atan2((vertices$link1[(signed long int)s$link1][(signed long int)1] - (double)ya$link1) * (vertices$link1[(signed long int)e$link1][(signed long int)0] - (double)xa$link1) - (vertices$link1[(signed long int)s$link1][(signed long int)0] - (double)xa$link1) * (vertices$link1[(signed long int)e$link1][(signed long int)1] - (double)ya$link1), (vertices$link1[(signed long int)s$link1][(signed long int)0] - (double)xa$link1) * (vertices$link1[(signed long int)e$link1][(signed long int)0] - (double)xa$link1) + (vertices$link1[(signed long int)s$link1][(signed long int)1] - (double)ya$link1) * (vertices$link1[(signed long int)e$link1][(signed long int)1] - (double)ya$link1));
-              ar$link1 = ar$link1 + (float)return_value_atan2$3$link1;
-              float return_value_fabsf$4$link1;
-              return_value_fabsf$4$link1=fabsf(ar$link1);
-              if(return_value_fabsf$4$link1 > 1.000000f)
+              double return_value_atan2_3_link1;
+              return_value_atan2_3_link1=atan2((vertices_link1[(signed long int)s_link1][(signed long int)1] - (double)ya_link1) * (vertices_link1[(signed long int)e_link1][(signed long int)0] - (double)xa_link1) - (vertices_link1[(signed long int)s_link1][(signed long int)0] - (double)xa_link1) * (vertices_link1[(signed long int)e_link1][(signed long int)1] - (double)ya_link1), (vertices_link1[(signed long int)s_link1][(signed long int)0] - (double)xa_link1) * (vertices_link1[(signed long int)e_link1][(signed long int)0] - (double)xa_link1) + (vertices_link1[(signed long int)s_link1][(signed long int)1] - (double)ya_link1) * (vertices_link1[(signed long int)e_link1][(signed long int)1] - (double)ya_link1));
+              ar_link1 = ar_link1 + (float)return_value_atan2_3_link1;
+              float return_value_fabsf_4_link1;
+              return_value_fabsf_4_link1=fabsf(ar_link1);
+              if(return_value_fabsf_4_link1 > 1.000000f)
               {
-                s3dprintf$link2(1, "hole %d (%d) in %d (%d): interior angle sum %f (n=%d)", i$link1, perm$link1[(signed long int)i$link1], outl$link1, perm$link1[(signed long int)outl$link1], ar$link1, n$link1);
-                j$link1 = perm$link1[(signed long int)(n$link1 - 1)];
-                perm$link1[(signed long int)(n$link1 - 1)] = perm$link1[(signed long int)i$link1];
-                perm$link1[(signed long int)i$link1] = j$link1;
-                if(outl$link1 == n$link1 + -1)
-                  outl$link1 = i$link1;
+                s3dprintf_link2(1, "hole %d (%d) in %d (%d): interior angle sum %f (n=%d)", i_link1, perm_link1[(signed long int)i_link1], outl_link1, perm_link1[(signed long int)outl_link1], ar_link1, n_link1);
+                j_link1 = perm_link1[(signed long int)(n_link1 - 1)];
+                perm_link1[(signed long int)(n_link1 - 1)] = perm_link1[(signed long int)i_link1];
+                perm_link1[(signed long int)i_link1] = j_link1;
+                if(outl_link1 == n_link1 + -1)
+                  outl_link1 = i_link1;
 
-                n$link1 = n$link1 - 1;
-                i$link1 = i$link1 - 1;
+                n_link1 = n_link1 - 1;
+                i_link1 = i_link1 - 1;
               }
 
             }
 
-          j$link1 = perm$link1[(signed long int)(n$link1 - 1)];
-          perm$link1[(signed long int)(n$link1 - 1)] = perm$link1[(signed long int)outl$link1];
-          perm$link1[(signed long int)outl$link1] = j$link1;
+          j_link1 = perm_link1[(signed long int)(n_link1 - 1)];
+          perm_link1[(signed long int)(n_link1 - 1)] = perm_link1[(signed long int)outl_link1];
+          perm_link1[(signed long int)outl_link1] = j_link1;
         }
-        n$link1 = 1;
-        c$link1 = 0;
-        for( ; !(c$link1 >= ncontours$link1); c$link1 = c$link1 + 1)
+        n_link1 = 1;
+        c_link1 = 0;
+        for( ; !(c_link1 >= ncontours_link1); c_link1 = c_link1 + 1)
         {
-          ncsta$link1[(signed long int)c$link1] = n$link1 - 1;
-          j$link1 = csta$link1[(signed long int)perm$link1[(signed long int)c$link1]];
-          for( ; !(j$link1 >= cntr$link1[(signed long int)perm$link1[(signed long int)c$link1]] + csta$link1[(signed long int)perm$link1[(signed long int)c$link1]]); j$link1 = j$link1 + 1)
+          ncsta_link1[(signed long int)c_link1] = n_link1 - 1;
+          j_link1 = csta_link1[(signed long int)perm_link1[(signed long int)c_link1]];
+          for( ; !(j_link1 >= cntr_link1[(signed long int)perm_link1[(signed long int)c_link1]] + csta_link1[(signed long int)perm_link1[(signed long int)c_link1]]); j_link1 = j_link1 + 1)
           {
-            nvertices$link1[(signed long int)n$link1][(signed long int)0] = vertices$link1[(signed long int)j$link1][(signed long int)0];
-            nvertices$link1[(signed long int)n$link1][(signed long int)1] = vertices$link1[(signed long int)j$link1][(signed long int)1];
-            tess_buf$link1[(signed long int)a$link1].vbuf[(signed long int)((n$link1 - 1) * 3)] = (float)nvertices$link1[(signed long int)n$link1][(signed long int)0];
-            tess_buf$link1[(signed long int)a$link1].vbuf[(signed long int)((n$link1 - 1) * 3 + 1)] = (float)nvertices$link1[(signed long int)n$link1][(signed long int)1];
-            tess_buf$link1[(signed long int)a$link1].vbuf[(signed long int)((n$link1 - 1) * 3 + 2)] = (float)0;
-            n$link1 = n$link1 + 1;
+            nvertices_link1[(signed long int)n_link1][(signed long int)0] = vertices_link1[(signed long int)j_link1][(signed long int)0];
+            nvertices_link1[(signed long int)n_link1][(signed long int)1] = vertices_link1[(signed long int)j_link1][(signed long int)1];
+            tess_buf_link1[(signed long int)a_link1].vbuf[(signed long int)((n_link1 - 1) * 3)] = (float)nvertices_link1[(signed long int)n_link1][(signed long int)0];
+            tess_buf_link1[(signed long int)a_link1].vbuf[(signed long int)((n_link1 - 1) * 3 + 1)] = (float)nvertices_link1[(signed long int)n_link1][(signed long int)1];
+            tess_buf_link1[(signed long int)a_link1].vbuf[(signed long int)((n_link1 - 1) * 3 + 2)] = (float)0;
+            n_link1 = n_link1 + 1;
           }
-          ncntr$link1[(signed long int)c$link1] = cntr$link1[(signed long int)perm$link1[(signed long int)c$link1]];
+          ncntr_link1[(signed long int)c_link1] = cntr_link1[(signed long int)perm_link1[(signed long int)c_link1]];
         }
-        n$link1 = 0;
-        void *return_value_malloc$5$link1;
-        return_value_malloc$5$link1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)((signed int)face$link1->glyph->outline.n_points + 2 * (signed int)face$link1->glyph->outline.n_contours));
-        tess_buf$link1[(signed long int)a$link1].pbuf = (unsigned int *)return_value_malloc$5$link1;
-        k$link1 = 0;
-        c$link1 = ncontours$link1 - 1;
-        for( ; c$link1 >= 0; c$link1 = c$link1 - 1)
+        n_link1 = 0;
+        void *return_value_malloc_5_link1;
+        return_value_malloc_5_link1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)((signed int)face_link1->glyph->outline.n_points + 2 * (signed int)face_link1->glyph->outline.n_contours));
+        tess_buf_link1[(signed long int)a_link1].pbuf = (unsigned int *)return_value_malloc_5_link1;
+        k_link1 = 0;
+        c_link1 = ncontours_link1 - 1;
+        for( ; c_link1 >= 0; c_link1 = c_link1 - 1)
         {
-          n$link1 = n$link1 + 1;
-          if(area$link1[(signed long int)perm$link1[(signed long int)c$link1]] > 0.000000f)
+          n_link1 = n_link1 + 1;
+          if(area_link1[(signed long int)perm_link1[(signed long int)c_link1]] > 0.000000f)
           {
-            s3dprintf$link2(1, "[T]riangulation from outline %d (%d contours, area = %f)", perm$link1[(signed long int)c$link1], n$link1, area$link1[(signed long int)perm$link1[(signed long int)c$link1]]);
-            np$link1=sei_triangulate_polygon(n$link1, ncntr$link1 + (signed long int)c$link1, nvertices$link1 + (signed long int)ncsta$link1[(signed long int)c$link1], triangles$link1);
-            i$link1 = 0;
-            for( ; !(i$link1 >= np$link1); i$link1 = i$link1 + 1)
+            s3dprintf_link2(1, "[T]riangulation from outline %d (%d contours, area = %f)", perm_link1[(signed long int)c_link1], n_link1, area_link1[(signed long int)perm_link1[(signed long int)c_link1]]);
+            np_link1=sei_triangulate_polygon(n_link1, ncntr_link1 + (signed long int)c_link1, nvertices_link1 + (signed long int)ncsta_link1[(signed long int)c_link1], triangles_link1);
+            i_link1 = 0;
+            for( ; !(i_link1 >= np_link1); i_link1 = i_link1 + 1)
             {
-              tess_buf$link1[(signed long int)a$link1].pbuf[(signed long int)(k$link1 * 4)] = (unsigned int)((triangles$link1[(signed long int)i$link1][(signed long int)0] + ncsta$link1[(signed long int)c$link1]) - 1);
-              tess_buf$link1[(signed long int)a$link1].pbuf[(signed long int)(k$link1 * 4 + 1)] = (unsigned int)((triangles$link1[(signed long int)i$link1][(signed long int)2] + ncsta$link1[(signed long int)c$link1]) - 1);
-              tess_buf$link1[(signed long int)a$link1].pbuf[(signed long int)(k$link1 * 4 + 2)] = (unsigned int)((triangles$link1[(signed long int)i$link1][(signed long int)1] + ncsta$link1[(signed long int)c$link1]) - 1);
-              tess_buf$link1[(signed long int)a$link1].pbuf[(signed long int)(k$link1 * 4 + 3)] = (unsigned int)0;
-              k$link1 = k$link1 + 1;
+              tess_buf_link1[(signed long int)a_link1].pbuf[(signed long int)(k_link1 * 4)] = (unsigned int)((triangles_link1[(signed long int)i_link1][(signed long int)0] + ncsta_link1[(signed long int)c_link1]) - 1);
+              tess_buf_link1[(signed long int)a_link1].pbuf[(signed long int)(k_link1 * 4 + 1)] = (unsigned int)((triangles_link1[(signed long int)i_link1][(signed long int)2] + ncsta_link1[(signed long int)c_link1]) - 1);
+              tess_buf_link1[(signed long int)a_link1].pbuf[(signed long int)(k_link1 * 4 + 2)] = (unsigned int)((triangles_link1[(signed long int)i_link1][(signed long int)1] + ncsta_link1[(signed long int)c_link1]) - 1);
+              tess_buf_link1[(signed long int)a_link1].pbuf[(signed long int)(k_link1 * 4 + 3)] = (unsigned int)0;
+              k_link1 = k_link1 + 1;
             }
-            n$link1 = 0;
+            n_link1 = 0;
           }
 
         }
-        tess_buf$link1[(signed long int)a$link1].pn = k$link1;
+        tess_buf_link1[(signed long int)a_link1].pn = k_link1;
       }
 
     }
 
-    tess_buf$link1[(signed long int)a$link1].xoff = (float)(1.0 * (double)face$link1->glyph->metrics.horiAdvance * (double)norm$link1);
+    tess_buf_link1[(signed long int)a_link1].xoff = (float)(1.0 * (double)face_link1->glyph->metrics.horiAdvance * (double)norm_link1);
     return 0;
   }
 }
@@ -4396,12 +4396,12 @@ static signed int _s3d_choose_cb(const void *d1, signed int size)
   return (t1->oid * 32 + t1->tex) % size;
 }
 
-// _s3d_choose_cb$link1
+// _s3d_choose_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 40
-static signed int _s3d_choose_cb$link1(const void *d1$link1, signed int size$link1)
+static signed int _s3d_choose_cb_link1(const void *d1_link1, signed int size_link1)
 {
-  struct s3d_texshm *t1$link1 = (struct s3d_texshm *)d1$link1;
-  return (t1$link1->oid * 32 + t1$link1->tex) % size$link1;
+  struct s3d_texshm *t1_link1 = (struct s3d_texshm *)d1_link1;
+  return (t1_link1->oid * 32 + t1_link1->tex) % size_link1;
 }
 
 // _s3d_clear_tessbuf
@@ -4427,25 +4427,25 @@ static signed int _s3d_clear_tessbuf(void)
   return 0;
 }
 
-// _s3d_clear_tessbuf$link1
+// _s3d_clear_tessbuf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 97
-static signed int _s3d_clear_tessbuf$link1(void)
+static signed int _s3d_clear_tessbuf_link1(void)
 {
-  signed int i$link1 = 0;
-  for( ; !(i$link1 >= 256); i$link1 = i$link1 + 1)
+  signed int i_link1 = 0;
+  for( ; !(i_link1 >= 256); i_link1 = i_link1 + 1)
   {
-    if(!(tess_buf$link1[(signed long int)i$link1].vbuf == ((float *)NULL)))
-      free((void *)tess_buf$link1[(signed long int)i$link1].vbuf);
+    if(!(tess_buf_link1[(signed long int)i_link1].vbuf == ((float *)NULL)))
+      free((void *)tess_buf_link1[(signed long int)i_link1].vbuf);
 
-    if(!(tess_buf$link1[(signed long int)i$link1].pbuf == ((unsigned int *)NULL)))
-      free((void *)tess_buf$link1[(signed long int)i$link1].pbuf);
+    if(!(tess_buf_link1[(signed long int)i_link1].pbuf == ((unsigned int *)NULL)))
+      free((void *)tess_buf_link1[(signed long int)i_link1].pbuf);
 
   }
-  i$link1 = 0;
-  for( ; !(i$link1 >= 256); i$link1 = i$link1 + 1)
+  i_link1 = 0;
+  for( ; !(i_link1 >= 256); i_link1 = i_link1 + 1)
   {
-    tess_buf$link1[(signed long int)i$link1].vbuf = (float *)(void *)0;
-    tess_buf$link1[(signed long int)i$link1].pbuf = (unsigned int *)(void *)0;
+    tess_buf_link1[(signed long int)i_link1].vbuf = (float *)(void *)0;
+    tess_buf_link1[(signed long int)i_link1].pbuf = (unsigned int *)(void *)0;
   }
   return 0;
 }
@@ -4475,17 +4475,17 @@ static signed int _s3d_compare_cb(const void *d1, const void *d2)
   }
 }
 
-// _s3d_compare_cb$link1
+// _s3d_compare_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 46
-static signed int _s3d_compare_cb$link1(const void *d1$link1, const void *d2$link1)
+static signed int _s3d_compare_cb_link1(const void *d1_link1, const void *d2_link1)
 {
-  struct s3d_texshm *t1$link1;
-  struct s3d_texshm *t2$link1;
-  t1$link1 = (struct s3d_texshm *)d1$link1;
-  t2$link1 = (struct s3d_texshm *)d2$link1;
-  if(t1$link1->oid == t2$link1->oid)
+  struct s3d_texshm *t1_link1;
+  struct s3d_texshm *t2_link1;
+  t1_link1 = (struct s3d_texshm *)d1_link1;
+  t2_link1 = (struct s3d_texshm *)d2_link1;
+  if(t1_link1->oid == t2_link1->oid)
   {
-    if(!(t1$link1->tex == t2$link1->tex))
+    if(!(t1_link1->tex == t2_link1->tex))
       goto __CPROVER_DUMP_L1;
 
     return 0;
@@ -4507,25 +4507,25 @@ static signed int _s3d_draw_tessbuf(signed int oid, unsigned short int a, signed
   float *vbuf;
   unsigned int *pbuf;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(tess_buf[(signed long int)a].vbuf == ((float *)NULL)))
-    tmp_if_expr$1 = tess_buf[(signed long int)a].pbuf != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = tess_buf[(signed long int)a].pbuf != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     _s3d_add_tessbuf(a);
 
   if(!(tess_buf[(signed long int)a].pn == 0))
   {
     if(!(tess_buf[(signed long int)a].vn == 0))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)tess_buf[(signed long int)a].vn);
-      vbuf = (float *)return_value_malloc$2;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)tess_buf[(signed long int)a].pn);
-      pbuf = (unsigned int *)return_value_malloc$3;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)tess_buf[(signed long int)a].vn);
+      vbuf = (float *)return_value_malloc_2;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)tess_buf[(signed long int)a].pn);
+      pbuf = (unsigned int *)return_value_malloc_3;
       memcpy((void *)vbuf, (const void *)tess_buf[(signed long int)a].vbuf, sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)tess_buf[(signed long int)a].vn);
       memcpy((void *)pbuf, (const void *)tess_buf[(signed long int)a].pbuf, sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)tess_buf[(signed long int)a].pn);
       i = 0;
@@ -4538,7 +4538,7 @@ static signed int _s3d_draw_tessbuf(signed int oid, unsigned short int a, signed
         pbuf[(signed long int)(i * 4 + 1)] = pbuf[(signed long int)(i * 4 + 1)] + (unsigned int)*voff;
         pbuf[(signed long int)(i * 4 + 2)] = pbuf[(signed long int)(i * 4 + 2)] + (unsigned int)*voff;
       }
-      s3dprintf$link1(1, "commiting %d vertices, %d polygons", tess_buf[(signed long int)a].vn, tess_buf[(signed long int)a].pn);
+      s3dprintf_link1(1, "commiting %d vertices, %d polygons", tess_buf[(signed long int)a].vn, tess_buf[(signed long int)a].pn);
       s3d_push_vertices(oid, vbuf, (unsigned short int)tess_buf[(signed long int)a].vn);
       s3d_push_polygons(oid, pbuf, (unsigned short int)tess_buf[(signed long int)a].pn);
       *voff = *voff + tess_buf[(signed long int)a].vn;
@@ -4552,55 +4552,55 @@ static signed int _s3d_draw_tessbuf(signed int oid, unsigned short int a, signed
   return 0;
 }
 
-// _s3d_draw_tessbuf$link1
+// _s3d_draw_tessbuf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 261
-static signed int _s3d_draw_tessbuf$link1(signed int oid$link1, unsigned short int a$link1, signed int *voff$link1, float *xoff$link1)
+static signed int _s3d_draw_tessbuf_link1(signed int oid_link1, unsigned short int a_link1, signed int *voff_link1, float *xoff_link1)
 {
-  float *vbuf$link1;
-  unsigned int *pbuf$link1;
-  signed int i$link1;
-  _Bool tmp_if_expr$1$link1;
-  if(!(tess_buf$link1[(signed long int)a$link1].vbuf == ((float *)NULL)))
-    tmp_if_expr$1$link1 = tess_buf$link1[(signed long int)a$link1].pbuf != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+  float *vbuf_link1;
+  unsigned int *pbuf_link1;
+  signed int i_link1;
+  _Bool tmp_if_expr_1_link1;
+  if(!(tess_buf_link1[(signed long int)a_link1].vbuf == ((float *)NULL)))
+    tmp_if_expr_1_link1 = tess_buf_link1[(signed long int)a_link1].pbuf != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1$link1 = (_Bool)0;
-  if(!tmp_if_expr$1$link1)
-    _s3d_add_tessbuf$link1(a$link1);
+    tmp_if_expr_1_link1 = (_Bool)0;
+  if(!tmp_if_expr_1_link1)
+    _s3d_add_tessbuf_link1(a_link1);
 
-  if(!(tess_buf$link1[(signed long int)a$link1].pn == 0))
+  if(!(tess_buf_link1[(signed long int)a_link1].pn == 0))
   {
-    if(!(tess_buf$link1[(signed long int)a$link1].vn == 0))
+    if(!(tess_buf_link1[(signed long int)a_link1].vn == 0))
     {
-      void *return_value_malloc$2$link1;
-      return_value_malloc$2$link1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)tess_buf$link1[(signed long int)a$link1].vn);
-      vbuf$link1 = (float *)return_value_malloc$2$link1;
-      void *return_value_malloc$3$link1;
-      return_value_malloc$3$link1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)tess_buf$link1[(signed long int)a$link1].pn);
-      pbuf$link1 = (unsigned int *)return_value_malloc$3$link1;
-      memcpy((void *)vbuf$link1, (const void *)tess_buf$link1[(signed long int)a$link1].vbuf, sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)tess_buf$link1[(signed long int)a$link1].vn);
-      memcpy((void *)pbuf$link1, (const void *)tess_buf$link1[(signed long int)a$link1].pbuf, sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)tess_buf$link1[(signed long int)a$link1].pn);
-      i$link1 = 0;
-      for( ; !(i$link1 >= tess_buf$link1[(signed long int)a$link1].vn); i$link1 = i$link1 + 1)
-        vbuf$link1[(signed long int)(i$link1 * 3)] = vbuf$link1[(signed long int)(i$link1 * 3)] + *xoff$link1;
-      i$link1 = 0;
-      for( ; !(i$link1 >= tess_buf$link1[(signed long int)a$link1].pn); i$link1 = i$link1 + 1)
+      void *return_value_malloc_2_link1;
+      return_value_malloc_2_link1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)tess_buf_link1[(signed long int)a_link1].vn);
+      vbuf_link1 = (float *)return_value_malloc_2_link1;
+      void *return_value_malloc_3_link1;
+      return_value_malloc_3_link1=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)tess_buf_link1[(signed long int)a_link1].pn);
+      pbuf_link1 = (unsigned int *)return_value_malloc_3_link1;
+      memcpy((void *)vbuf_link1, (const void *)tess_buf_link1[(signed long int)a_link1].vbuf, sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)tess_buf_link1[(signed long int)a_link1].vn);
+      memcpy((void *)pbuf_link1, (const void *)tess_buf_link1[(signed long int)a_link1].pbuf, sizeof(unsigned int) /*4ul*/  * (unsigned long int)4 * (unsigned long int)tess_buf_link1[(signed long int)a_link1].pn);
+      i_link1 = 0;
+      for( ; !(i_link1 >= tess_buf_link1[(signed long int)a_link1].vn); i_link1 = i_link1 + 1)
+        vbuf_link1[(signed long int)(i_link1 * 3)] = vbuf_link1[(signed long int)(i_link1 * 3)] + *xoff_link1;
+      i_link1 = 0;
+      for( ; !(i_link1 >= tess_buf_link1[(signed long int)a_link1].pn); i_link1 = i_link1 + 1)
       {
-        pbuf$link1[(signed long int)(i$link1 * 4)] = pbuf$link1[(signed long int)(i$link1 * 4)] + (unsigned int)*voff$link1;
-        pbuf$link1[(signed long int)(i$link1 * 4 + 1)] = pbuf$link1[(signed long int)(i$link1 * 4 + 1)] + (unsigned int)*voff$link1;
-        pbuf$link1[(signed long int)(i$link1 * 4 + 2)] = pbuf$link1[(signed long int)(i$link1 * 4 + 2)] + (unsigned int)*voff$link1;
+        pbuf_link1[(signed long int)(i_link1 * 4)] = pbuf_link1[(signed long int)(i_link1 * 4)] + (unsigned int)*voff_link1;
+        pbuf_link1[(signed long int)(i_link1 * 4 + 1)] = pbuf_link1[(signed long int)(i_link1 * 4 + 1)] + (unsigned int)*voff_link1;
+        pbuf_link1[(signed long int)(i_link1 * 4 + 2)] = pbuf_link1[(signed long int)(i_link1 * 4 + 2)] + (unsigned int)*voff_link1;
       }
-      s3dprintf$link2(1, "commiting %d vertices, %d polygons", tess_buf$link1[(signed long int)a$link1].vn, tess_buf$link1[(signed long int)a$link1].pn);
-      s3d_push_vertices(oid$link1, vbuf$link1, (unsigned short int)tess_buf$link1[(signed long int)a$link1].vn);
-      s3d_push_polygons(oid$link1, pbuf$link1, (unsigned short int)tess_buf$link1[(signed long int)a$link1].pn);
-      *voff$link1 = *voff$link1 + tess_buf$link1[(signed long int)a$link1].vn;
-      free((void *)vbuf$link1);
-      free((void *)pbuf$link1);
+      s3dprintf_link2(1, "commiting %d vertices, %d polygons", tess_buf_link1[(signed long int)a_link1].vn, tess_buf_link1[(signed long int)a_link1].pn);
+      s3d_push_vertices(oid_link1, vbuf_link1, (unsigned short int)tess_buf_link1[(signed long int)a_link1].vn);
+      s3d_push_polygons(oid_link1, pbuf_link1, (unsigned short int)tess_buf_link1[(signed long int)a_link1].pn);
+      *voff_link1 = *voff_link1 + tess_buf_link1[(signed long int)a_link1].vn;
+      free((void *)vbuf_link1);
+      free((void *)pbuf_link1);
     }
 
   }
 
-  *xoff$link1 = *xoff$link1 + tess_buf$link1[(signed long int)a$link1].xoff;
+  *xoff_link1 = *xoff_link1 + tess_buf_link1[(signed long int)a_link1].xoff;
   return 0;
 }
 
@@ -4623,19 +4623,19 @@ __CPROVER_DUMP_L2:
   ;
 }
 
-// _s3d_free_s3dtex$link1
+// _s3d_free_s3dtex_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/texture.c line 56
-static void _s3d_free_s3dtex$link1(void *d1$link1)
+static void _s3d_free_s3dtex_link1(void *d1_link1)
 {
-  struct s3d_tex *tex$link1 = (struct s3d_tex *)d1$link1;
-  if(!(tex$link1->buf == ((char *)NULL)))
+  struct s3d_tex *tex_link1 = (struct s3d_tex *)d1_link1;
+  if(!(tex_link1->buf == ((char *)NULL)))
   {
-    shmdt((const void *)tex$link1->buf);
-    tex$link1->buf = (char *)(void *)0;
+    shmdt((const void *)tex_link1->buf);
+    tex_link1->buf = (char *)(void *)0;
   }
 
-  shmctl(tex$link1->tshm.shmid, 0, (struct shmid_ds *)(void *)0);
-  free((void *)tex$link1);
+  shmctl(tex_link1->tshm.shmid, 0, (struct shmid_ds *)(void *)0);
+  free((void *)tex_link1);
   goto __CPROVER_DUMP_L2;
 
 __CPROVER_DUMP_L2:
@@ -4647,34 +4647,34 @@ __CPROVER_DUMP_L2:
 void _s3d_handle_texshm(struct s3d_texshm *tshm)
 {
   struct s3d_tex *tex = (struct s3d_tex *)(void *)0;
-  s3dprintf$link1(4, "handling new texture ...");
+  s3dprintf_link1(4, "handling new texture ...");
   if(!(tex_hash == ((struct hashtable_t *)NULL)))
   {
-    void *return_value__s3d_hash_remove$1;
-    return_value__s3d_hash_remove$1=_s3d_hash_remove(tex_hash, (void *)tshm);
-    tex = (struct s3d_tex *)return_value__s3d_hash_remove$1;
+    void *return_value__s3d_hash_remove_1;
+    return_value__s3d_hash_remove_1=_s3d_hash_remove(tex_hash, (void *)tshm);
+    tex = (struct s3d_tex *)return_value__s3d_hash_remove_1;
     if(!(tex == ((struct s3d_tex *)NULL)))
       _s3d_free_s3dtex((void *)tex);
 
     if(!(tshm->shmid == -1))
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct s3d_tex) /*28ul*/ );
-      tex = (struct s3d_tex *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct s3d_tex) /*28ul*/ );
+      tex = (struct s3d_tex *)return_value_malloc_2;
       tex->tshm = *tshm;
-      void *return_value_shmat$3;
-      return_value_shmat$3=shmat(tex->tshm.shmid, (void *)0, 0);
-      tex->buf = (char *)return_value_shmat$3;
+      void *return_value_shmat_3;
+      return_value_shmat_3=shmat(tex->tshm.shmid, (void *)0, 0);
+      tex->buf = (char *)return_value_shmat_3;
       if((signed int *)tex->buf == (signed int *)-1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        errn("shm_init():shmat()", *return_value___errno_location$4);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        errn("shm_init():shmat()", *return_value___errno_location_4);
         free((void *)tex);
         goto __CPROVER_DUMP_L5;
       }
 
-      s3dprintf$link1(4, "adding new texture ...");
+      s3dprintf_link1(4, "adding new texture ...");
       _s3d_hash_add(tex_hash, (void *)tex);
       goto __CPROVER_DUMP_L5;
     }
@@ -4706,9 +4706,9 @@ signed int _s3d_hash_add(struct hashtable_t *hash, void *data)
     bucket = bucket->next;
   }
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct element_t) /*16ul*/ );
-  bucket = (struct element_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct element_t) /*16ul*/ );
+  bucket = (struct element_t *)return_value_malloc_1;
   if(bucket == ((struct element_t *)NULL))
     return -1;
 
@@ -4814,9 +4814,9 @@ struct hash_it_t * _s3d_hash_iterate(struct hashtable_t *hash, struct hash_it_t 
   struct hash_it_t *iter;
   if(iter_in == ((struct hash_it_t *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct hash_it_t) /*32ul*/ );
-    iter = (struct hash_it_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct hash_it_t) /*32ul*/ );
+    iter = (struct hash_it_t *)return_value_malloc_1;
     iter->index = -1;
     iter->bucket = (struct element_t *)(void *)0;
     iter->prev_bucket = (struct element_t *)(void *)0;
@@ -4892,18 +4892,18 @@ struct hash_it_t * _s3d_hash_iterate(struct hashtable_t *hash, struct hash_it_t 
 struct hashtable_t * _s3d_hash_new(signed int size, signed int (*compare)(const void *, const void *), signed int (*choose)(const void *, signed int))
 {
   struct hashtable_t *hash;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hashtable_t) /*32ul*/ );
-  hash = (struct hashtable_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hashtable_t) /*32ul*/ );
+  hash = (struct hashtable_t *)return_value_malloc_1;
   if(hash == ((struct hashtable_t *)NULL))
     return (struct hashtable_t *)(void *)0;
 
   else
   {
     hash->size = size;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct element_t *) /*8ul*/  * (unsigned long int)size);
-    hash->table = (struct element_t **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct element_t *) /*8ul*/  * (unsigned long int)size);
+    hash->table = (struct element_t **)return_value_malloc_2;
     if(hash->table == ((struct element_t **)NULL))
     {
       free((void *)hash);
@@ -4928,7 +4928,7 @@ void * _s3d_hash_remove(struct hashtable_t *hash, void *data)
   hash_it_t.index=hash->choose(data, hash->size);
   hash_it_t.bucket = hash->table[(signed long int)hash_it_t.index];
   hash_it_t.prev_bucket = (struct element_t *)(void *)0;
-  struct element_t **tmp_if_expr$1;
+  struct element_t **tmp_if_expr_1;
   if(!(hash_it_t.bucket == ((struct element_t *)NULL)))
   {
     signed int return_value;
@@ -4936,14 +4936,14 @@ void * _s3d_hash_remove(struct hashtable_t *hash, void *data)
     if(return_value == 0)
     {
       if(hash_it_t.bucket == hash->table[(signed long int)hash_it_t.index])
-        tmp_if_expr$1 = &hash->table[(signed long int)hash_it_t.index];
+        tmp_if_expr_1 = &hash->table[(signed long int)hash_it_t.index];
 
       else
-        tmp_if_expr$1 = (struct element_t **)(void *)0;
-      hash_it_t.first_bucket = tmp_if_expr$1;
-      void *return_value__s3d_hash_remove_bucket$2;
-      return_value__s3d_hash_remove_bucket$2=_s3d_hash_remove_bucket(hash, &hash_it_t);
-      return return_value__s3d_hash_remove_bucket$2;
+        tmp_if_expr_1 = (struct element_t **)(void *)0;
+      hash_it_t.first_bucket = tmp_if_expr_1;
+      void *return_value__s3d_hash_remove_bucket_2;
+      return_value__s3d_hash_remove_bucket_2=_s3d_hash_remove_bucket(hash, &hash_it_t);
+      return return_value__s3d_hash_remove_bucket_2;
     }
 
     hash_it_t.prev_bucket = hash_it_t.bucket;
@@ -5002,9 +5002,9 @@ static signed int _s3d_ignore(struct s3d_evt *evt)
   return 0;
 }
 
-// _s3d_ignore$link1
+// _s3d_ignore_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/callback.c line 54
-static signed int _s3d_ignore$link1(struct s3d_evt *evt$link1)
+static signed int _s3d_ignore_link1(struct s3d_evt *evt_link1)
 {
   return 0;
 }
@@ -5028,15 +5028,15 @@ signed int _s3d_load_texture_shm(signed int object, unsigned int tid, unsigned s
   {
     check.oid = object;
     check.tex = (signed int)tid;
-    void *return_value__s3d_hash_find$1;
-    return_value__s3d_hash_find$1=_s3d_hash_find(tex_hash, (void *)&check);
-    tex = (struct s3d_tex *)return_value__s3d_hash_find$1;
+    void *return_value__s3d_hash_find_1;
+    return_value__s3d_hash_find_1=_s3d_hash_find(tex_hash, (void *)&check);
+    tex = (struct s3d_tex *)return_value__s3d_hash_find_1;
     if(tex == ((struct s3d_tex *)NULL))
       return -1;
 
     else
     {
-      s3dprintf$link1(1, "texture: oid %d, tex %d, shmid %d, tw %d, th %d, w %d, h %d ...", tex->tshm.oid, tex->tshm.tex, tex->tshm.shmid, tex->tshm.tw, tex->tshm.th, tex->tshm.w, tex->tshm.th);
+      s3dprintf_link1(1, "texture: oid %d, tex %d, shmid %d, tw %d, th %d, w %d, h %d ...", tex->tshm.oid, tex->tshm.tex, tex->tshm.shmid, tex->tshm.tw, tex->tshm.th, tex->tshm.w, tex->tshm.th);
       m = (signed int)tex->tshm.w * (signed int)tex->tshm.th + (signed int)tex->tshm.tw;
       if(!((signed int)tex->tshm.tw >= (signed int)w + (signed int)xpos))
         mw = (signed short int)((signed int)tex->tshm.tw - (signed int)xpos);
@@ -5073,25 +5073,25 @@ signed int _s3d_load_texture_shm(signed int object, unsigned int tid, unsigned s
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/network.c line 63
 static signed int _s3d_net_receive(void)
 {
-  signed int return_value__s3d_tcp_net_receive$1;
-  return_value__s3d_tcp_net_receive$1=_s3d_tcp_net_receive();
-  return return_value__s3d_tcp_net_receive$1;
+  signed int return_value__s3d_tcp_net_receive_1;
+  return_value__s3d_tcp_net_receive_1=_s3d_tcp_net_receive();
+  return return_value__s3d_tcp_net_receive_1;
 }
 
-// _s3d_net_receive$link1
+// _s3d_net_receive_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/network.c line 63
-static signed int _s3d_net_receive$link1(void)
+static signed int _s3d_net_receive_link1(void)
 {
-  signed int return_value__s3d_tcp_net_receive$1$link1;
-  return_value__s3d_tcp_net_receive$1$link1=_s3d_tcp_net_receive();
-  return return_value__s3d_tcp_net_receive$1$link1;
+  signed int return_value__s3d_tcp_net_receive_1_link1;
+  return_value__s3d_tcp_net_receive_1_link1=_s3d_tcp_net_receive();
+  return return_value__s3d_tcp_net_receive_1_link1;
 }
 
 // _s3d_tcp_net_receive
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 143
 signed int _s3d_tcp_net_receive(void)
 {
-  struct anonymous$13 fs_proc;
+  struct anonymous_13 fs_proc;
   struct timeval tv;
   signed int found = 0;
   char opcode;
@@ -5103,33 +5103,33 @@ signed int _s3d_tcp_net_receive(void)
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$13) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs_proc)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_13) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fs_proc)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     tv.tv_usec = (signed long int)0;
     tv.tv_sec = tv.tv_usec;
     (&fs_proc)->__fds_bits[(signed long int)(s3d_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fs_proc)->__fds_bits[(signed long int)(s3d_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << s3d_socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    signed int return_value_select$4;
-    return_value_select$4=select(1024, &fs_proc, (struct anonymous$13 *)(void *)0, (struct anonymous$13 *)(void *)0, &tv);
-    if(return_value_select$4 == -1)
+    signed int return_value_select_4;
+    return_value_select_4=select(1024, &fs_proc, (struct anonymous_13 *)(void *)0, (struct anonymous_13 *)(void *)0, &tv);
+    if(return_value_select_4 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      errn("select()", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      errn("select()", *return_value___errno_location_1);
     }
 
     else
       if(!((fs_proc.__fds_bits[(signed long int)(s3d_socket / 8)] & (signed long int)(1UL << s3d_socket % 8)) == 0l))
       {
-        signed int return_value_tcp_readn$3;
-        return_value_tcp_readn$3=tcp_readn(&opcode, 1);
-        if(return_value_tcp_readn$3 == 1)
+        signed int return_value_tcp_readn_3;
+        return_value_tcp_readn_3=tcp_readn(&opcode, 1);
+        if(return_value_tcp_readn_3 == 1)
         {
           tcp_readn((char *)&length, 2);
           length=ntohs(length);
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc((unsigned long int)length);
-          buf = (char *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc((unsigned long int)length);
+          buf = (char *)return_value_malloc_2;
           tcp_readn(buf, (signed int)length);
           net_prot_in((unsigned char)opcode, length, buf);
           found = 1;
@@ -5137,7 +5137,7 @@ signed int _s3d_tcp_net_receive(void)
 
         else
         {
-          s3dprintf$link1(4, "socket seems to be dead ...");
+          s3dprintf_link1(4, "socket seems to be dead ...");
           s3d_quit();
         }
       }
@@ -5232,38 +5232,38 @@ signed int _shm_init(char *ftoken)
   signed int key;
   signed int key_out;
   signed int key_in;
-  s3dprintf$link1(3, "connecting to shm token %s", ftoken);
+  s3dprintf_link1(3, "connecting to shm token %s", ftoken);
   key=ftok(ftoken, 82);
   if(key == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    errn("shm_init():ftok()", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    errn("shm_init():ftok()", *return_value___errno_location_1);
     return 1;
   }
 
-  s3dprintf$link1(3, "init key is 0x%08x", key);
+  s3dprintf_link1(3, "init key is 0x%08x", key);
   shmid=shmget(key, sizeof(signed int) /*4ul*/  * (unsigned long int)2, 0644);
   if(shmid == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    errn("shm_init():shmget()", *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    errn("shm_init():shmget()", *return_value___errno_location_2);
     return 1;
   }
 
-  void *return_value_shmat$3;
-  return_value_shmat$3=shmat(shmid, (void *)0, 0);
-  next_key = (unsigned int *)return_value_shmat$3;
+  void *return_value_shmat_3;
+  return_value_shmat_3=shmat(shmid, (void *)0, 0);
+  next_key = (unsigned int *)return_value_shmat_3;
   if(next_key == (unsigned int *)-1)
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    errn("shm_init():shmat()", *return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    errn("shm_init():shmat()", *return_value___errno_location_4);
     return 1;
   }
 
-  s3dprintf$link1(3, "right now, next_keys are: %08x, %08x", next_key[(signed long int)0], next_key[(signed long int)1]);
+  s3dprintf_link1(3, "right now, next_keys are: %08x, %08x", next_key[(signed long int)0], next_key[(signed long int)1]);
   do
   {
     key_in = (signed int)next_key[(signed long int)1];
@@ -5279,54 +5279,54 @@ signed int _shm_init(char *ftoken)
   while((_Bool)1);
   next_key[(signed long int)1] = (unsigned int)0;
   next_key[(signed long int)0] = next_key[(signed long int)1];
-  s3dprintf$link1(3, "right now, next_keys are: %08x, %08x", key_in, key_out);
-  signed int return_value_shmdt$6;
-  return_value_shmdt$6=shmdt((const void *)next_key);
-  if(return_value_shmdt$6 == -1)
+  s3dprintf_link1(3, "right now, next_keys are: %08x, %08x", key_in, key_out);
+  signed int return_value_shmdt_6;
+  return_value_shmdt_6=shmdt((const void *)next_key);
+  if(return_value_shmdt_6 == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    errn("shm_init():shmdt()", *return_value___errno_location$5);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    errn("shm_init():shmdt()", *return_value___errno_location_5);
     return 1;
   }
 
   shmid_in=shmget(key_in, (unsigned long int)(1024 * 512), 0644);
   if(shmid_in == -1)
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    errn("shm_init():shmget()", *return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    errn("shm_init():shmget()", *return_value___errno_location_7);
     return 1;
   }
 
-  void *return_value_shmat$8;
-  return_value_shmat$8=shmat(shmid_in, (void *)0, 0);
-  data_in = (struct buf_t *)return_value_shmat$8;
+  void *return_value_shmat_8;
+  return_value_shmat_8=shmat(shmid_in, (void *)0, 0);
+  data_in = (struct buf_t *)return_value_shmat_8;
   if(data_in == (struct buf_t *)-1)
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    errn("shm_init():shmat()", *return_value___errno_location$9);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    errn("shm_init():shmat()", *return_value___errno_location_9);
     return 1;
   }
 
   shmid_out=shmget(key_out, (unsigned long int)(1024 * 512), 0644);
   if(shmid_out == -1)
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    errn("shm_init():shmget()", *return_value___errno_location$10);
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    errn("shm_init():shmget()", *return_value___errno_location_10);
     return 1;
   }
 
-  void *return_value_shmat$11;
-  return_value_shmat$11=shmat(shmid_out, (void *)0, 0);
-  data_out = (struct buf_t *)return_value_shmat$11;
+  void *return_value_shmat_11;
+  return_value_shmat_11=shmat(shmid_out, (void *)0, 0);
+  data_out = (struct buf_t *)return_value_shmat_11;
   if(data_out == (struct buf_t *)-1)
   {
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    errn("shm_init():shmat()", *return_value___errno_location$12);
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    errn("shm_init():shmat()", *return_value___errno_location_12);
     return 1;
   }
 
@@ -5342,7 +5342,7 @@ signed int _shm_net_receive(void)
   char *buf;
   unsigned short int length;
   struct shmid_ds d;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(data_in == ((struct buf_t *)NULL))
     return found;
 
@@ -5350,15 +5350,15 @@ signed int _shm_net_receive(void)
   {
     if(!(data_in->start == data_in->end))
     {
-      signed int return_value_shm_readn$2;
-      return_value_shm_readn$2=shm_readn(&opcode, 1);
-      if(return_value_shm_readn$2 == 1)
+      signed int return_value_shm_readn_2;
+      return_value_shm_readn_2=shm_readn(&opcode, 1);
+      if(return_value_shm_readn_2 == 1)
       {
         shm_readn((char *)&length, 2);
         length=ntohs(length);
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc((unsigned long int)length);
-        buf = (char *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc((unsigned long int)length);
+        buf = (char *)return_value_malloc_1;
         shm_readn(buf, (signed int)length);
         net_prot_in((unsigned char)opcode, length, buf);
         found = 1;
@@ -5366,21 +5366,21 @@ signed int _shm_net_receive(void)
 
       else
       {
-        s3dprintf$link1(4, "socket seems to be dead ...");
+        s3dprintf_link1(4, "socket seems to be dead ...");
         s3d_quit();
       }
     }
 
     else
     {
-      tmp_post$3 = shm_idle;
+      tmp_post_3 = shm_idle;
       shm_idle = shm_idle + 1;
-      if(tmp_post$3 >= 201)
+      if(tmp_post_3 >= 201)
       {
         shmctl(shmid_in, 2, &d);
         if(d.shm_nattch == 1ul)
         {
-          s3dprintf$link1(3, "server vanished ... ");
+          s3dprintf_link1(3, "server vanished ... ");
           s3d_quit();
         }
 
@@ -5397,23 +5397,23 @@ signed int _shm_net_receive(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/shm.c line 115
 signed int _shm_quit(void)
 {
-  signed int return_value_shmdt$2;
-  return_value_shmdt$2=shmdt((const void *)data_in);
-  if(return_value_shmdt$2 == -1)
+  signed int return_value_shmdt_2;
+  return_value_shmdt_2=shmdt((const void *)data_in);
+  if(return_value_shmdt_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    errn("shm_init():shmdt()", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    errn("shm_init():shmdt()", *return_value___errno_location_1);
     return 1;
   }
 
-  signed int return_value_shmdt$4;
-  return_value_shmdt$4=shmdt((const void *)data_out);
-  if(return_value_shmdt$4 == -1)
+  signed int return_value_shmdt_4;
+  return_value_shmdt_4=shmdt((const void *)data_out);
+  if(return_value_shmdt_4 == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    errn("shm_init():shmdt()", *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    errn("shm_init():shmdt()", *return_value___errno_location_3);
     return 1;
   }
 
@@ -5434,9 +5434,9 @@ signed int _tcp_init(const char *sv, signed int pn)
   sd=socket(2, 1, 6);
   if(!(sd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    errn("_tcp_init()():socket()", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    errn("_tcp_init()():socket()", *return_value___errno_location_1);
     return -1;
   }
 
@@ -5450,61 +5450,61 @@ signed int _tcp_init(const char *sv, signed int pn)
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    errn("_tcp_init()():gethostbyname()", *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    errn("_tcp_init()():gethostbyname()", *return_value___errno_location_2);
     return -1;
   }
   sock.sin_port=htons((unsigned short int)pn);
   res=connect(sd, (struct sockaddr *)&sock, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
   if(!(res >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    errn("_tcp_init()():connect()", *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    errn("_tcp_init()():connect()", *return_value___errno_location_3);
     return -1;
   }
 
-  signed int return_value_fcntl$5;
-  return_value_fcntl$5=fcntl(sd, 4, 020000);
-  signed int *return_value___errno_location$4;
-  if(!(return_value_fcntl$5 >= 0))
+  signed int return_value_fcntl_5;
+  return_value_fcntl_5=fcntl(sd, 4, 020000);
+  signed int *return_value___errno_location_4;
+  if(!(return_value_fcntl_5 >= 0))
   {
-    return_value___errno_location$4=__errno_location();
-    errn("fcntl()", *return_value___errno_location$4);
+    return_value___errno_location_4=__errno_location();
+    errn("fcntl()", *return_value___errno_location_4);
   }
 
-  signed int return_value_getpid$7;
-  return_value_getpid$7=getpid();
-  signed int return_value_fcntl$8;
-  return_value_fcntl$8=fcntl(sd, 8, return_value_getpid$7);
-  signed int *return_value___errno_location$6;
-  if(!(return_value_fcntl$8 >= 0))
+  signed int return_value_getpid_7;
+  return_value_getpid_7=getpid();
+  signed int return_value_fcntl_8;
+  return_value_fcntl_8=fcntl(sd, 8, return_value_getpid_7);
+  signed int *return_value___errno_location_6;
+  if(!(return_value_fcntl_8 >= 0))
   {
-    return_value___errno_location$6=__errno_location();
-    errn("fcntl()", *return_value___errno_location$6);
+    return_value___errno_location_6=__errno_location();
+    errn("fcntl()", *return_value___errno_location_6);
   }
 
-  void (*return_value_signal$10)(signed int);
-  return_value_signal$10=signal(13, (void (*)(signed int))sigpipe_handler);
-  signed int *return_value___errno_location$9;
-  if(return_value_signal$10 == (void (*)(signed int))-1)
+  void (*return_value_signal_10)(signed int);
+  return_value_signal_10=signal(13, (void (*)(signed int))sigpipe_handler);
+  signed int *return_value___errno_location_9;
+  if(return_value_signal_10 == (void (*)(signed int))-1)
   {
-    return_value___errno_location$9=__errno_location();
-    errn("_tcp_init():signal()", *return_value___errno_location$9);
+    return_value___errno_location_9=__errno_location();
+    errn("_tcp_init():signal()", *return_value___errno_location_9);
   }
 
-  void (*return_value_signal$12)(signed int);
-  return_value_signal$12=signal(29, (void (*)(signed int))sigio_handler);
-  signed int *return_value___errno_location$11;
-  if(return_value_signal$12 == (void (*)(signed int))-1)
+  void (*return_value_signal_12)(signed int);
+  return_value_signal_12=signal(29, (void (*)(signed int))sigio_handler);
+  signed int *return_value___errno_location_11;
+  if(return_value_signal_12 == (void (*)(signed int))-1)
   {
-    return_value___errno_location$11=__errno_location();
-    errn("_tcp_init():signal()", *return_value___errno_location$11);
+    return_value___errno_location_11=__errno_location();
+    errn("_tcp_init():signal()", *return_value___errno_location_11);
   }
 
   s3d_socket = sd;
-  s3dprintf$link1(3, "connection to %s:%d established", sv, pn);
+  s3dprintf_link1(3, "connection to %s:%d established", sv, pn);
   return 0;
 }
 
@@ -5514,7 +5514,7 @@ signed int _tcp_quit(void)
 {
   if(!(s3d_socket == 0))
   {
-    s3dprintf$link1(3, "closing socket %d", s3d_socket);
+    s3dprintf_link1(3, "closing socket %d", s3d_socket);
     close(s3d_socket);
     s3d_socket = 0;
   }
@@ -5526,7 +5526,7 @@ signed int _tcp_quit(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 419
 static signed int add_segment(signed int segnum)
 {
-  struct anonymous$14 s;
+  struct anonymous_14 s;
   signed int tu;
   signed int tl;
   signed int sk;
@@ -5538,17 +5538,17 @@ static signed int add_segment(signed int segnum)
   signed int tlastl;
   signed int i1;
   signed int i2;
-  signed int add_segment$$1$$t;
+  signed int add_segment__1__t;
   signed int tn;
-  struct anonymous$1 tpt;
+  struct anonymous_1 tpt;
   signed int tribot = 0;
   signed int is_swapped = 0;
   signed int tmptriseg;
   signed int tmpseg = 1;
   s = seg[(signed long int)segnum];
-  signed int return_value__greater_than$1;
-  return_value__greater_than$1=_greater_than(&s.v1, &s.v0);
-  if(!(return_value__greater_than$1 == 0))
+  signed int return_value__greater_than_1;
+  return_value__greater_than_1=_greater_than(&s.v1, &s.v0);
+  if(!(return_value__greater_than_1 == 0))
   {
     signed int tmp;
     tpt = s.v0;
@@ -5560,21 +5560,21 @@ static signed int add_segment(signed int segnum)
     is_swapped = 1;
   }
 
-  signed int tmp_if_expr$4;
-  signed int return_value_inserted$2;
-  signed int return_value_inserted$3;
+  signed int tmp_if_expr_4;
+  signed int return_value_inserted_2;
+  signed int return_value_inserted_3;
   if(!(is_swapped == 0))
   {
-    return_value_inserted$2=inserted(segnum, 2);
-    tmp_if_expr$4 = (signed int)!(return_value_inserted$2 != 0);
+    return_value_inserted_2=inserted(segnum, 2);
+    tmp_if_expr_4 = (signed int)!(return_value_inserted_2 != 0);
   }
 
   else
   {
-    return_value_inserted$3=inserted(segnum, 1);
-    tmp_if_expr$4 = (signed int)!(return_value_inserted$3 != 0);
+    return_value_inserted_3=inserted(segnum, 1);
+    tmp_if_expr_4 = (signed int)!(return_value_inserted_3 != 0);
   }
-  if(!(tmp_if_expr$4 == 0))
+  if(!(tmp_if_expr_4 == 0))
   {
     signed int tmp_d;
     tu=locate_endpoint(&s.v0, &s.v1, s.root0);
@@ -5642,23 +5642,23 @@ static signed int add_segment(signed int segnum)
 
   else
     tfirst=locate_endpoint(&s.v0, &s.v1, s.root0);
-  signed int tmp_if_expr$7;
-  signed int return_value_inserted$5;
-  signed int return_value_inserted$6;
+  signed int tmp_if_expr_7;
+  signed int return_value_inserted_5;
+  signed int return_value_inserted_6;
   if(!(is_swapped == 0))
   {
-    return_value_inserted$5=inserted(segnum, 1);
-    tmp_if_expr$7 = (signed int)!(return_value_inserted$5 != 0);
+    return_value_inserted_5=inserted(segnum, 1);
+    tmp_if_expr_7 = (signed int)!(return_value_inserted_5 != 0);
   }
 
   else
   {
-    return_value_inserted$6=inserted(segnum, 2);
-    tmp_if_expr$7 = (signed int)!(return_value_inserted$6 != 0);
+    return_value_inserted_6=inserted(segnum, 2);
+    tmp_if_expr_7 = (signed int)!(return_value_inserted_6 != 0);
   }
-  if(!(tmp_if_expr$7 == 0))
+  if(!(tmp_if_expr_7 == 0))
   {
-    signed int add_segment$$1$$4$$tmp_d;
+    signed int add_segment__1__4__tmp_d;
     tu=locate_endpoint(&s.v1, &s.v0, s.root1);
     tl=newtrap();
     tr[(signed long int)tl].state = 1;
@@ -5671,35 +5671,35 @@ static signed int add_segment(signed int segnum)
     tr[(signed long int)tu].d1 = 0;
     tr[(signed long int)tl].u0 = tu;
     tr[(signed long int)tl].u1 = 0;
-    add_segment$$1$$4$$tmp_d = tr[(signed long int)tl].d0;
-    if(add_segment$$1$$4$$tmp_d >= 1)
+    add_segment__1__4__tmp_d = tr[(signed long int)tl].d0;
+    if(add_segment__1__4__tmp_d >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d].u0 == tu)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d].u0 = tl;
+      if(tr[(signed long int)add_segment__1__4__tmp_d].u0 == tu)
+        tr[(signed long int)add_segment__1__4__tmp_d].u0 = tl;
 
     }
 
-    add_segment$$1$$4$$tmp_d = tr[(signed long int)tl].d0;
-    if(add_segment$$1$$4$$tmp_d >= 1)
+    add_segment__1__4__tmp_d = tr[(signed long int)tl].d0;
+    if(add_segment__1__4__tmp_d >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d].u1 == tu)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d].u1 = tl;
+      if(tr[(signed long int)add_segment__1__4__tmp_d].u1 == tu)
+        tr[(signed long int)add_segment__1__4__tmp_d].u1 = tl;
 
     }
 
-    add_segment$$1$$4$$tmp_d = tr[(signed long int)tl].d1;
-    if(add_segment$$1$$4$$tmp_d >= 1)
+    add_segment__1__4__tmp_d = tr[(signed long int)tl].d1;
+    if(add_segment__1__4__tmp_d >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d].u0 == tu)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d].u0 = tl;
+      if(tr[(signed long int)add_segment__1__4__tmp_d].u0 == tu)
+        tr[(signed long int)add_segment__1__4__tmp_d].u0 = tl;
 
     }
 
-    add_segment$$1$$4$$tmp_d = tr[(signed long int)tl].d1;
-    if(add_segment$$1$$4$$tmp_d >= 1)
+    add_segment__1__4__tmp_d = tr[(signed long int)tl].d1;
+    if(add_segment__1__4__tmp_d >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d].u1 == tu)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d].u1 = tl;
+      if(tr[(signed long int)add_segment__1__4__tmp_d].u1 == tu)
+        tr[(signed long int)add_segment__1__4__tmp_d].u1 = tl;
 
     }
 
@@ -5727,42 +5727,42 @@ static signed int add_segment(signed int segnum)
     tlast=locate_endpoint(&s.v1, &s.v0, s.root1);
     tribot = 1;
   }
-  add_segment$$1$$t = tfirst;
-  signed int return_value__greater_than_equal_to$8;
-  _Bool tmp_if_expr$39;
-  _Bool tmp_if_expr$38;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  signed int return_value_is_left_of$10;
-  _Bool tmp_if_expr$18;
-  double return_value_fabs$17;
-  _Bool tmp_if_expr$15;
-  signed int return_value_is_left_of$14;
-  _Bool tmp_if_expr$37;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$20;
-  signed int return_value_is_left_of$19;
-  _Bool tmp_if_expr$27;
-  double return_value_fabs$26;
-  _Bool tmp_if_expr$24;
-  signed int return_value_is_left_of$23;
-  _Bool tmp_if_expr$33;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$31;
-  signed int return_value_is_left_of$30;
-  _Bool tmp_if_expr$36;
-  double return_value_fabs$35;
-  while(add_segment$$1$$t >= 1)
+  add_segment__1__t = tfirst;
+  signed int return_value__greater_than_equal_to_8;
+  _Bool tmp_if_expr_39;
+  _Bool tmp_if_expr_38;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  signed int return_value_is_left_of_10;
+  _Bool tmp_if_expr_18;
+  double return_value_fabs_17;
+  _Bool tmp_if_expr_15;
+  signed int return_value_is_left_of_14;
+  _Bool tmp_if_expr_37;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_20;
+  signed int return_value_is_left_of_19;
+  _Bool tmp_if_expr_27;
+  double return_value_fabs_26;
+  _Bool tmp_if_expr_24;
+  signed int return_value_is_left_of_23;
+  _Bool tmp_if_expr_33;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_31;
+  signed int return_value_is_left_of_30;
+  _Bool tmp_if_expr_36;
+  double return_value_fabs_35;
+  while(add_segment__1__t >= 1)
   {
-    return_value__greater_than_equal_to$8=_greater_than_equal_to(&tr[(signed long int)add_segment$$1$$t].lo, &tr[(signed long int)tlast].lo);
-    if(return_value__greater_than_equal_to$8 == 0)
+    return_value__greater_than_equal_to_8=_greater_than_equal_to(&tr[(signed long int)add_segment__1__t].lo, &tr[(signed long int)tlast].lo);
+    if(return_value__greater_than_equal_to_8 == 0)
       break;
 
     signed int t_sav;
     signed int tn_sav;
-    sk = tr[(signed long int)add_segment$$1$$t].sink;
+    sk = tr[(signed long int)add_segment__1__t].sink;
     i1=newnode();
     i2=newnode();
     qs[(signed long int)sk].nodetype = 1;
@@ -5770,32 +5770,32 @@ static signed int add_segment(signed int segnum)
     qs[(signed long int)sk].left = i1;
     qs[(signed long int)sk].right = i2;
     qs[(signed long int)i1].nodetype = 3;
-    qs[(signed long int)i1].trnum = add_segment$$1$$t;
+    qs[(signed long int)i1].trnum = add_segment__1__t;
     qs[(signed long int)i1].parent = sk;
     qs[(signed long int)i2].nodetype = 3;
     tn=newtrap();
     qs[(signed long int)i2].trnum = tn;
     tr[(signed long int)tn].state = 1;
     qs[(signed long int)i2].parent = sk;
-    if(add_segment$$1$$t == tfirst)
+    if(add_segment__1__t == tfirst)
       tfirstr = tn;
 
-    signed int return_value__equal_to$9;
-    return_value__equal_to$9=_equal_to(&tr[(signed long int)add_segment$$1$$t].lo, &tr[(signed long int)tlast].lo);
-    if(!(return_value__equal_to$9 == 0))
+    signed int return_value__equal_to_9;
+    return_value__equal_to_9=_equal_to(&tr[(signed long int)add_segment__1__t].lo, &tr[(signed long int)tlast].lo);
+    if(!(return_value__equal_to_9 == 0))
       tlastr = tn;
 
-    tr[(signed long int)tn] = tr[(signed long int)add_segment$$1$$t];
-    tr[(signed long int)add_segment$$1$$t].sink = i1;
+    tr[(signed long int)tn] = tr[(signed long int)add_segment__1__t];
+    tr[(signed long int)add_segment__1__t].sink = i1;
     tr[(signed long int)tn].sink = i2;
-    t_sav = add_segment$$1$$t;
+    t_sav = add_segment__1__t;
     tn_sav = tn;
-    if(!(tr[(signed long int)add_segment$$1$$t].d0 >= 1))
-      tmp_if_expr$39 = tr[(signed long int)add_segment$$1$$t].d1 <= 0 ? (_Bool)1 : (_Bool)0;
+    if(!(tr[(signed long int)add_segment__1__t].d0 >= 1))
+      tmp_if_expr_39 = tr[(signed long int)add_segment__1__t].d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$39 = (_Bool)0;
-    if(tmp_if_expr$39)
+      tmp_if_expr_39 = (_Bool)0;
+    if(tmp_if_expr_39)
     {
       errs("sei:add_segment()", "error");
       break;
@@ -5803,28 +5803,28 @@ static signed int add_segment(signed int segnum)
 
     else
     {
-      if(tr[(signed long int)add_segment$$1$$t].d0 >= 1)
-        tmp_if_expr$38 = tr[(signed long int)add_segment$$1$$t].d1 <= 0 ? (_Bool)1 : (_Bool)0;
+      if(tr[(signed long int)add_segment__1__t].d0 >= 1)
+        tmp_if_expr_38 = tr[(signed long int)add_segment__1__t].d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$38 = (_Bool)0;
-      if(tmp_if_expr$38)
+        tmp_if_expr_38 = (_Bool)0;
+      if(tmp_if_expr_38)
       {
-        if(tr[(signed long int)add_segment$$1$$t].u0 >= 1)
-          tmp_if_expr$13 = tr[(signed long int)add_segment$$1$$t].u1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(tr[(signed long int)add_segment__1__t].u0 >= 1)
+          tmp_if_expr_13 = tr[(signed long int)add_segment__1__t].u1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
         {
-          if(tr[(signed long int)add_segment$$1$$t].usave >= 1)
+          if(tr[(signed long int)add_segment__1__t].usave >= 1)
           {
-            if(tr[(signed long int)add_segment$$1$$t].uside == 1)
+            if(tr[(signed long int)add_segment__1__t].uside == 1)
             {
-              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
-              tr[(signed long int)add_segment$$1$$t].u1 = -1;
-              tr[(signed long int)tn].u1 = tr[(signed long int)add_segment$$1$$t].usave;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
+              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
+              tr[(signed long int)add_segment__1__t].u1 = -1;
+              tr[(signed long int)tn].u1 = tr[(signed long int)add_segment__1__t].usave;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
               tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
               tr[(signed long int)tr[(signed long int)tn].u1].d0 = tn;
             }
@@ -5832,79 +5832,79 @@ static signed int add_segment(signed int segnum)
             else
             {
               tr[(signed long int)tn].u1 = -1;
-              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
-              tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)add_segment$$1$$t].u0;
-              tr[(signed long int)add_segment$$1$$t].u0 = tr[(signed long int)add_segment$$1$$t].usave;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u1].d0 = add_segment$$1$$t;
+              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
+              tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)add_segment__1__t].u0;
+              tr[(signed long int)add_segment__1__t].u0 = tr[(signed long int)add_segment__1__t].usave;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u1].d0 = add_segment__1__t;
               tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
             }
             tr[(signed long int)tn].usave = 0;
-            tr[(signed long int)add_segment$$1$$t].usave = tr[(signed long int)tn].usave;
+            tr[(signed long int)add_segment__1__t].usave = tr[(signed long int)tn].usave;
           }
 
           else
           {
-            tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
+            tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
             tr[(signed long int)tn].u1 = -1;
-            tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)tn].u1;
+            tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)tn].u1;
             tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
           }
         }
 
         else
         {
-          signed int tmp_u = tr[(signed long int)add_segment$$1$$t].u0;
-          signed int add_segment$$1$$6$$2$$2$$td0 = tr[(signed long int)tmp_u].d0;
-          if(add_segment$$1$$6$$2$$2$$td0 >= 1)
-            tmp_if_expr$12 = tr[(signed long int)tmp_u].d1 > 0 ? (_Bool)1 : (_Bool)0;
+          signed int tmp_u = tr[(signed long int)add_segment__1__t].u0;
+          signed int add_segment__1__6__2__2__td0 = tr[(signed long int)tmp_u].d0;
+          if(add_segment__1__6__2__2__td0 >= 1)
+            tmp_if_expr_12 = tr[(signed long int)tmp_u].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          if(tmp_if_expr$12)
+            tmp_if_expr_12 = (_Bool)0;
+          if(tmp_if_expr_12)
           {
-            if(tr[(signed long int)add_segment$$1$$6$$2$$2$$td0].rseg >= 1)
+            if(tr[(signed long int)add_segment__1__6__2__2__td0].rseg >= 1)
             {
-              return_value_is_left_of$10=is_left_of(tr[(signed long int)add_segment$$1$$6$$2$$2$$td0].rseg, &s.v1);
-              tmp_if_expr$11 = !(return_value_is_left_of$10 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_is_left_of_10=is_left_of(tr[(signed long int)add_segment__1__6__2__2__td0].rseg, &s.v1);
+              tmp_if_expr_11 = !(return_value_is_left_of_10 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$11 = (_Bool)0;
-            if(tmp_if_expr$11)
+              tmp_if_expr_11 = (_Bool)0;
+            if(tmp_if_expr_11)
             {
               tr[(signed long int)tn].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)tn].u1;
-              tr[(signed long int)add_segment$$1$$t].u0 = tr[(signed long int)add_segment$$1$$t].u1;
+              tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)tn].u1;
+              tr[(signed long int)add_segment__1__t].u0 = tr[(signed long int)add_segment__1__t].u1;
               tr[(signed long int)tr[(signed long int)tn].u0].d1 = tn;
             }
 
             else
             {
-              tr[(signed long int)add_segment$$1$$t].u1 = -1;
-              tr[(signed long int)tn].u1 = tr[(signed long int)add_segment$$1$$t].u1;
+              tr[(signed long int)add_segment__1__t].u1 = -1;
+              tr[(signed long int)tn].u1 = tr[(signed long int)add_segment__1__t].u1;
               tr[(signed long int)tn].u0 = tr[(signed long int)tn].u1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
             }
           }
 
           else
           {
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d1 = tn;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d1 = tn;
           }
         }
-        double return_value_fabs$16;
-        return_value_fabs$16=fabs(tr[(signed long int)add_segment$$1$$t].lo.y - tr[(signed long int)tlast].lo.y);
-        if(return_value_fabs$16 <= 1.0e-7)
+        double return_value_fabs_16;
+        return_value_fabs_16=fabs(tr[(signed long int)add_segment__1__t].lo.y - tr[(signed long int)tlast].lo.y);
+        if(return_value_fabs_16 <= 1.0e-7)
         {
-          return_value_fabs$17=fabs(tr[(signed long int)add_segment$$1$$t].lo.x - tr[(signed long int)tlast].lo.x);
-          tmp_if_expr$18 = return_value_fabs$17 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
+          return_value_fabs_17=fabs(tr[(signed long int)add_segment__1__t].lo.x - tr[(signed long int)tlast].lo.x);
+          tmp_if_expr_18 = return_value_fabs_17 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(!(tribot == 0) && tmp_if_expr$18)
+          tmp_if_expr_18 = (_Bool)0;
+        if(!(tribot == 0) && tmp_if_expr_18)
         {
           if(!(is_swapped == 0))
             tmptriseg = seg[(signed long int)segnum].prev;
@@ -5913,15 +5913,15 @@ static signed int add_segment(signed int segnum)
             tmptriseg = seg[(signed long int)segnum].next;
           if(tmptriseg >= 1)
           {
-            return_value_is_left_of$14=is_left_of(tmptriseg, &s.v0);
-            tmp_if_expr$15 = return_value_is_left_of$14 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_is_left_of_14=is_left_of(tmptriseg, &s.v0);
+            tmp_if_expr_15 = return_value_is_left_of_14 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$15 = (_Bool)0;
-          if(tmp_if_expr$15)
+            tmp_if_expr_15 = (_Bool)0;
+          if(tmp_if_expr_15)
           {
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0 = add_segment$$1$$t;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0 = add_segment__1__t;
             tr[(signed long int)tn].d1 = -1;
             tr[(signed long int)tn].d0 = tr[(signed long int)tn].d1;
           }
@@ -5929,62 +5929,62 @@ static signed int add_segment(signed int segnum)
           else
           {
             tr[(signed long int)tr[(signed long int)tn].d0].u1 = tn;
-            tr[(signed long int)add_segment$$1$$t].d1 = -1;
-            tr[(signed long int)add_segment$$1$$t].d0 = tr[(signed long int)add_segment$$1$$t].d1;
+            tr[(signed long int)add_segment__1__t].d1 = -1;
+            tr[(signed long int)add_segment__1__t].d0 = tr[(signed long int)add_segment__1__t].d1;
           }
         }
 
         else
         {
-          if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0 >= 1)
+          if(tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0 >= 1)
           {
-            if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u1 >= 1)
+            if(tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u1 >= 1)
             {
-              if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0 == add_segment$$1$$t)
+              if(tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0 == add_segment__1__t)
               {
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].uside = 1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].uside = 1;
               }
 
               else
               {
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].uside = 2;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].uside = 2;
               }
             }
 
           }
 
-          tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0 = add_segment$$1$$t;
-          tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u1 = tn;
+          tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0 = add_segment__1__t;
+          tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u1 = tn;
         }
-        add_segment$$1$$t = tr[(signed long int)add_segment$$1$$t].d0;
+        add_segment__1__t = tr[(signed long int)add_segment__1__t].d0;
       }
 
       else
       {
-        if(!(tr[(signed long int)add_segment$$1$$t].d0 >= 1))
-          tmp_if_expr$37 = tr[(signed long int)add_segment$$1$$t].d1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(!(tr[(signed long int)add_segment__1__t].d0 >= 1))
+          tmp_if_expr_37 = tr[(signed long int)add_segment__1__t].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$37 = (_Bool)0;
-        if(tmp_if_expr$37)
+          tmp_if_expr_37 = (_Bool)0;
+        if(tmp_if_expr_37)
         {
-          if(tr[(signed long int)add_segment$$1$$t].u0 >= 1)
-            tmp_if_expr$22 = tr[(signed long int)add_segment$$1$$t].u1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(tr[(signed long int)add_segment__1__t].u0 >= 1)
+            tmp_if_expr_22 = tr[(signed long int)add_segment__1__t].u1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$22 = (_Bool)0;
-          if(tmp_if_expr$22)
+            tmp_if_expr_22 = (_Bool)0;
+          if(tmp_if_expr_22)
           {
-            if(tr[(signed long int)add_segment$$1$$t].usave >= 1)
+            if(tr[(signed long int)add_segment__1__t].usave >= 1)
             {
-              if(tr[(signed long int)add_segment$$1$$t].uside == 1)
+              if(tr[(signed long int)add_segment__1__t].uside == 1)
               {
-                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
-                tr[(signed long int)add_segment$$1$$t].u1 = -1;
-                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment$$1$$t].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
+                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = -1;
+                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment__1__t].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
                 tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
                 tr[(signed long int)tr[(signed long int)tn].u1].d0 = tn;
               }
@@ -5992,91 +5992,91 @@ static signed int add_segment(signed int segnum)
               else
               {
                 tr[(signed long int)tn].u1 = -1;
-                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
-                tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)add_segment$$1$$t].u0;
-                tr[(signed long int)add_segment$$1$$t].u0 = tr[(signed long int)add_segment$$1$$t].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u1].d0 = add_segment$$1$$t;
+                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)add_segment__1__t].u0;
+                tr[(signed long int)add_segment__1__t].u0 = tr[(signed long int)add_segment__1__t].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u1].d0 = add_segment__1__t;
                 tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
               }
               tr[(signed long int)tn].usave = 0;
-              tr[(signed long int)add_segment$$1$$t].usave = tr[(signed long int)tn].usave;
+              tr[(signed long int)add_segment__1__t].usave = tr[(signed long int)tn].usave;
             }
 
             else
             {
-              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
+              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
               tr[(signed long int)tn].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)tn].u1;
+              tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)tn].u1;
               tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
             }
           }
 
           else
           {
-            signed int add_segment$$1$$6$$3$$2$$tmp_u = tr[(signed long int)add_segment$$1$$t].u0;
-            signed int add_segment$$1$$6$$3$$2$$td0 = tr[(signed long int)add_segment$$1$$6$$3$$2$$tmp_u].d0;
-            if(add_segment$$1$$6$$3$$2$$td0 >= 1)
-              tmp_if_expr$21 = tr[(signed long int)add_segment$$1$$6$$3$$2$$tmp_u].d1 > 0 ? (_Bool)1 : (_Bool)0;
+            signed int add_segment__1__6__3__2__tmp_u = tr[(signed long int)add_segment__1__t].u0;
+            signed int add_segment__1__6__3__2__td0 = tr[(signed long int)add_segment__1__6__3__2__tmp_u].d0;
+            if(add_segment__1__6__3__2__td0 >= 1)
+              tmp_if_expr_21 = tr[(signed long int)add_segment__1__6__3__2__tmp_u].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$21 = (_Bool)0;
-            if(tmp_if_expr$21)
+              tmp_if_expr_21 = (_Bool)0;
+            if(tmp_if_expr_21)
             {
-              if(tr[(signed long int)add_segment$$1$$6$$3$$2$$td0].rseg >= 1)
+              if(tr[(signed long int)add_segment__1__6__3__2__td0].rseg >= 1)
               {
-                return_value_is_left_of$19=is_left_of(tr[(signed long int)add_segment$$1$$6$$3$$2$$td0].rseg, &s.v1);
-                tmp_if_expr$20 = !(return_value_is_left_of$19 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_is_left_of_19=is_left_of(tr[(signed long int)add_segment__1__6__3__2__td0].rseg, &s.v1);
+                tmp_if_expr_20 = !(return_value_is_left_of_19 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$20 = (_Bool)0;
-              if(tmp_if_expr$20)
+                tmp_if_expr_20 = (_Bool)0;
+              if(tmp_if_expr_20)
               {
                 tr[(signed long int)tn].u1 = -1;
-                tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)tn].u1;
-                tr[(signed long int)add_segment$$1$$t].u0 = tr[(signed long int)add_segment$$1$$t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)tn].u1;
+                tr[(signed long int)add_segment__1__t].u0 = tr[(signed long int)add_segment__1__t].u1;
                 tr[(signed long int)tr[(signed long int)tn].u0].d1 = tn;
               }
 
               else
               {
-                tr[(signed long int)add_segment$$1$$t].u1 = -1;
-                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment$$1$$t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = -1;
+                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment__1__t].u1;
                 tr[(signed long int)tn].u0 = tr[(signed long int)tn].u1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
               }
             }
 
             else
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d1 = tn;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d1 = tn;
             }
           }
-          double return_value_fabs$25;
-          return_value_fabs$25=fabs(tr[(signed long int)add_segment$$1$$t].lo.y - tr[(signed long int)tlast].lo.y);
-          if(return_value_fabs$25 <= 1.0e-7)
+          double return_value_fabs_25;
+          return_value_fabs_25=fabs(tr[(signed long int)add_segment__1__t].lo.y - tr[(signed long int)tlast].lo.y);
+          if(return_value_fabs_25 <= 1.0e-7)
           {
-            return_value_fabs$26=fabs(tr[(signed long int)add_segment$$1$$t].lo.x - tr[(signed long int)tlast].lo.x);
-            tmp_if_expr$27 = return_value_fabs$26 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
+            return_value_fabs_26=fabs(tr[(signed long int)add_segment__1__t].lo.x - tr[(signed long int)tlast].lo.x);
+            tmp_if_expr_27 = return_value_fabs_26 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$27 = (_Bool)0;
-          if(!(tribot == 0) && tmp_if_expr$27)
+            tmp_if_expr_27 = (_Bool)0;
+          if(!(tribot == 0) && tmp_if_expr_27)
           {
             if(tmpseg >= 1)
             {
-              return_value_is_left_of$23=is_left_of(tmpseg, &s.v0);
-              tmp_if_expr$24 = return_value_is_left_of$23 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_is_left_of_23=is_left_of(tmpseg, &s.v0);
+              tmp_if_expr_24 = return_value_is_left_of_23 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$24 = (_Bool)0;
-            if(tmp_if_expr$24)
+              tmp_if_expr_24 = (_Bool)0;
+            if(tmp_if_expr_24)
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0 = add_segment$$1$$t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0 = add_segment__1__t;
               tr[(signed long int)tn].d1 = -1;
               tr[(signed long int)tn].d0 = tr[(signed long int)tn].d1;
             }
@@ -6084,83 +6084,83 @@ static signed int add_segment(signed int segnum)
             else
             {
               tr[(signed long int)tr[(signed long int)tn].d1].u1 = tn;
-              tr[(signed long int)add_segment$$1$$t].d1 = -1;
-              tr[(signed long int)add_segment$$1$$t].d0 = tr[(signed long int)add_segment$$1$$t].d1;
+              tr[(signed long int)add_segment__1__t].d1 = -1;
+              tr[(signed long int)add_segment__1__t].d0 = tr[(signed long int)add_segment__1__t].d1;
             }
           }
 
           else
           {
-            if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0 >= 1)
+            if(tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0 >= 1)
             {
-              if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u1 >= 1)
+              if(tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u1 >= 1)
               {
-                if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0 == add_segment$$1$$t)
+                if(tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0 == add_segment__1__t)
                 {
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u1;
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].uside = 1;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u1;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].uside = 1;
                 }
 
                 else
                 {
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0;
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].uside = 2;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].uside = 2;
                 }
               }
 
             }
 
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0 = add_segment$$1$$t;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u1 = tn;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0 = add_segment__1__t;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u1 = tn;
           }
-          add_segment$$1$$t = tr[(signed long int)add_segment$$1$$t].d1;
+          add_segment__1__t = tr[(signed long int)add_segment__1__t].d1;
         }
 
         else
         {
           double y0;
           double yt;
-          struct anonymous$1 tmppt;
+          struct anonymous_1 tmppt;
           signed int tnext;
           signed int i_d0;
-          tmpseg = tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].rseg;
+          tmpseg = tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].rseg;
           i_d0 = 0;
-          double return_value_fabs$29;
-          return_value_fabs$29=fabs(tr[(signed long int)add_segment$$1$$t].lo.y - s.v0.y);
-          if(return_value_fabs$29 <= 1.0e-7)
+          double return_value_fabs_29;
+          return_value_fabs_29=fabs(tr[(signed long int)add_segment__1__t].lo.y - s.v0.y);
+          if(return_value_fabs_29 <= 1.0e-7)
           {
-            if(tr[(signed long int)add_segment$$1$$t].lo.x > s.v0.x)
+            if(tr[(signed long int)add_segment__1__t].lo.x > s.v0.x)
               i_d0 = 1;
 
           }
 
           else
           {
-            y0 = tr[(signed long int)add_segment$$1$$t].lo.y;
+            y0 = tr[(signed long int)add_segment__1__t].lo.y;
             tmppt.y = y0;
             yt = (y0 - s.v0.y) / (s.v1.y - s.v0.y);
             tmppt.x = s.v0.x + yt * (s.v1.x - s.v0.x);
-            signed int return_value__less_than$28;
-            return_value__less_than$28=_less_than(&tmppt, &tr[(signed long int)add_segment$$1$$t].lo);
-            if(!(return_value__less_than$28 == 0))
+            signed int return_value__less_than_28;
+            return_value__less_than_28=_less_than(&tmppt, &tr[(signed long int)add_segment__1__t].lo);
+            if(!(return_value__less_than_28 == 0))
               i_d0 = 1;
 
           }
-          if(tr[(signed long int)add_segment$$1$$t].u0 >= 1)
-            tmp_if_expr$33 = tr[(signed long int)add_segment$$1$$t].u1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(tr[(signed long int)add_segment__1__t].u0 >= 1)
+            tmp_if_expr_33 = tr[(signed long int)add_segment__1__t].u1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$33 = (_Bool)0;
-          if(tmp_if_expr$33)
+            tmp_if_expr_33 = (_Bool)0;
+          if(tmp_if_expr_33)
           {
-            if(tr[(signed long int)add_segment$$1$$t].usave >= 1)
+            if(tr[(signed long int)add_segment__1__t].usave >= 1)
             {
-              if(tr[(signed long int)add_segment$$1$$t].uside == 1)
+              if(tr[(signed long int)add_segment__1__t].uside == 1)
               {
-                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
-                tr[(signed long int)add_segment$$1$$t].u1 = -1;
-                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment$$1$$t].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
+                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = -1;
+                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment__1__t].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
                 tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
                 tr[(signed long int)tr[(signed long int)tn].u1].d0 = tn;
               }
@@ -6168,112 +6168,112 @@ static signed int add_segment(signed int segnum)
               else
               {
                 tr[(signed long int)tn].u1 = -1;
-                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
-                tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)add_segment$$1$$t].u0;
-                tr[(signed long int)add_segment$$1$$t].u0 = tr[(signed long int)add_segment$$1$$t].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u1].d0 = add_segment$$1$$t;
+                tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)add_segment__1__t].u0;
+                tr[(signed long int)add_segment__1__t].u0 = tr[(signed long int)add_segment__1__t].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u1].d0 = add_segment__1__t;
                 tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
               }
               tr[(signed long int)tn].usave = 0;
-              tr[(signed long int)add_segment$$1$$t].usave = tr[(signed long int)tn].usave;
+              tr[(signed long int)add_segment__1__t].usave = tr[(signed long int)tn].usave;
             }
 
             else
             {
-              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment$$1$$t].u1;
+              tr[(signed long int)tn].u0 = tr[(signed long int)add_segment__1__t].u1;
               tr[(signed long int)tn].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t].u1 = -1;
+              tr[(signed long int)add_segment__1__t].u1 = -1;
               tr[(signed long int)tr[(signed long int)tn].u0].d0 = tn;
             }
           }
 
           else
           {
-            signed int add_segment$$1$$6$$4$$4$$tmp_u = tr[(signed long int)add_segment$$1$$t].u0;
-            signed int td0 = tr[(signed long int)add_segment$$1$$6$$4$$4$$tmp_u].d0;
+            signed int add_segment__1__6__4__4__tmp_u = tr[(signed long int)add_segment__1__t].u0;
+            signed int td0 = tr[(signed long int)add_segment__1__6__4__4__tmp_u].d0;
             if(td0 >= 1)
-              tmp_if_expr$32 = tr[(signed long int)add_segment$$1$$6$$4$$4$$tmp_u].d1 > 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_32 = tr[(signed long int)add_segment__1__6__4__4__tmp_u].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$32 = (_Bool)0;
-            if(tmp_if_expr$32)
+              tmp_if_expr_32 = (_Bool)0;
+            if(tmp_if_expr_32)
             {
               if(tr[(signed long int)td0].rseg >= 1)
               {
-                return_value_is_left_of$30=is_left_of(tr[(signed long int)td0].rseg, &s.v1);
-                tmp_if_expr$31 = !(return_value_is_left_of$30 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_is_left_of_30=is_left_of(tr[(signed long int)td0].rseg, &s.v1);
+                tmp_if_expr_31 = !(return_value_is_left_of_30 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$31 = (_Bool)0;
-              if(tmp_if_expr$31)
+                tmp_if_expr_31 = (_Bool)0;
+              if(tmp_if_expr_31)
               {
                 tr[(signed long int)tn].u1 = -1;
-                tr[(signed long int)add_segment$$1$$t].u1 = tr[(signed long int)tn].u1;
-                tr[(signed long int)add_segment$$1$$t].u0 = tr[(signed long int)add_segment$$1$$t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = tr[(signed long int)tn].u1;
+                tr[(signed long int)add_segment__1__t].u0 = tr[(signed long int)add_segment__1__t].u1;
                 tr[(signed long int)tr[(signed long int)tn].u0].d1 = tn;
               }
 
               else
               {
-                tr[(signed long int)add_segment$$1$$t].u1 = -1;
-                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment$$1$$t].u1;
+                tr[(signed long int)add_segment__1__t].u1 = -1;
+                tr[(signed long int)tn].u1 = tr[(signed long int)add_segment__1__t].u1;
                 tr[(signed long int)tn].u0 = tr[(signed long int)tn].u1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
               }
             }
 
             else
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d0 = add_segment$$1$$t;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].u0].d1 = tn;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d0 = add_segment__1__t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].u0].d1 = tn;
             }
           }
-          double return_value_fabs$34;
-          return_value_fabs$34=fabs(tr[(signed long int)add_segment$$1$$t].lo.y - tr[(signed long int)tlast].lo.y);
-          if(return_value_fabs$34 <= 1.0e-7)
+          double return_value_fabs_34;
+          return_value_fabs_34=fabs(tr[(signed long int)add_segment__1__t].lo.y - tr[(signed long int)tlast].lo.y);
+          if(return_value_fabs_34 <= 1.0e-7)
           {
-            return_value_fabs$35=fabs(tr[(signed long int)add_segment$$1$$t].lo.x - tr[(signed long int)tlast].lo.x);
-            tmp_if_expr$36 = return_value_fabs$35 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
+            return_value_fabs_35=fabs(tr[(signed long int)add_segment__1__t].lo.x - tr[(signed long int)tlast].lo.x);
+            tmp_if_expr_36 = return_value_fabs_35 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$36 = (_Bool)0;
-          if(!(tribot == 0) && tmp_if_expr$36)
+            tmp_if_expr_36 = (_Bool)0;
+          if(!(tribot == 0) && tmp_if_expr_36)
           {
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0 = add_segment$$1$$t;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u1 = -1;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0 = tn;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u1 = -1;
-            tr[(signed long int)tn].d0 = tr[(signed long int)add_segment$$1$$t].d1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0 = add_segment__1__t;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u1 = -1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0 = tn;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u1 = -1;
+            tr[(signed long int)tn].d0 = tr[(signed long int)add_segment__1__t].d1;
             tr[(signed long int)tn].d1 = -1;
-            tr[(signed long int)add_segment$$1$$t].d1 = tr[(signed long int)tn].d1;
-            tnext = tr[(signed long int)add_segment$$1$$t].d1;
+            tr[(signed long int)add_segment__1__t].d1 = tr[(signed long int)tn].d1;
+            tnext = tr[(signed long int)add_segment__1__t].d1;
           }
 
           else
             if(!(i_d0 == 0))
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0 = add_segment$$1$$t;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u1 = tn;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0 = tn;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t].d1 = -1;
-              tnext = tr[(signed long int)add_segment$$1$$t].d0;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0 = add_segment__1__t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u1 = tn;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0 = tn;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u1 = -1;
+              tr[(signed long int)add_segment__1__t].d1 = -1;
+              tnext = tr[(signed long int)add_segment__1__t].d0;
             }
 
             else
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u0 = add_segment$$1$$t;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d0].u1 = -1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u0 = add_segment$$1$$t;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t].d1].u1 = tn;
-              tr[(signed long int)tn].d0 = tr[(signed long int)add_segment$$1$$t].d1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u0 = add_segment__1__t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d0].u1 = -1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u0 = add_segment__1__t;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t].d1].u1 = tn;
+              tr[(signed long int)tn].d0 = tr[(signed long int)add_segment__1__t].d1;
               tr[(signed long int)tn].d1 = -1;
-              tnext = tr[(signed long int)add_segment$$1$$t].d1;
+              tnext = tr[(signed long int)add_segment__1__t].d1;
             }
-          add_segment$$1$$t = tnext;
+          add_segment__1__t = tnext;
         }
       }
     }
@@ -6288,280 +6288,280 @@ static signed int add_segment(signed int segnum)
   return 0;
 }
 
-// add_segment$link1
+// add_segment_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 419
-static signed int add_segment$link1(signed int segnum$link1)
+static signed int add_segment_link1(signed int segnum_link1)
 {
-  struct anonymous$14 s$link1;
-  signed int tu$link1;
-  signed int tl$link1;
-  signed int sk$link1;
-  signed int tfirst$link1;
-  signed int tlast$link1;
-  signed int tfirstr$link1 = 0;
-  signed int tlastr$link1 = 0;
-  signed int tfirstl$link1;
-  signed int tlastl$link1;
-  signed int i1$link1;
-  signed int i2$link1;
-  signed int add_segment$$1$$t$link1;
-  signed int tn$link1;
-  struct anonymous$1 tpt$link1;
-  signed int tribot$link1 = 0;
-  signed int is_swapped$link1 = 0;
-  signed int tmptriseg$link1;
-  signed int tmpseg$link1 = 1;
-  s$link1 = seg[(signed long int)segnum$link1];
-  signed int return_value__greater_than$1$link1;
-  return_value__greater_than$1$link1=_greater_than(&s$link1.v1, &s$link1.v0);
-  if(!(return_value__greater_than$1$link1 == 0))
+  struct anonymous_14 s_link1;
+  signed int tu_link1;
+  signed int tl_link1;
+  signed int sk_link1;
+  signed int tfirst_link1;
+  signed int tlast_link1;
+  signed int tfirstr_link1 = 0;
+  signed int tlastr_link1 = 0;
+  signed int tfirstl_link1;
+  signed int tlastl_link1;
+  signed int i1_link1;
+  signed int i2_link1;
+  signed int add_segment__1__t_link1;
+  signed int tn_link1;
+  struct anonymous_1 tpt_link1;
+  signed int tribot_link1 = 0;
+  signed int is_swapped_link1 = 0;
+  signed int tmptriseg_link1;
+  signed int tmpseg_link1 = 1;
+  s_link1 = seg[(signed long int)segnum_link1];
+  signed int return_value__greater_than_1_link1;
+  return_value__greater_than_1_link1=_greater_than(&s_link1.v1, &s_link1.v0);
+  if(!(return_value__greater_than_1_link1 == 0))
   {
-    signed int tmp$link1;
-    tpt$link1 = s$link1.v0;
-    s$link1.v0 = s$link1.v1;
-    s$link1.v1 = tpt$link1;
-    tmp$link1 = s$link1.root0;
-    s$link1.root0 = s$link1.root1;
-    s$link1.root1 = tmp$link1;
-    is_swapped$link1 = 1;
+    signed int tmp_link1;
+    tpt_link1 = s_link1.v0;
+    s_link1.v0 = s_link1.v1;
+    s_link1.v1 = tpt_link1;
+    tmp_link1 = s_link1.root0;
+    s_link1.root0 = s_link1.root1;
+    s_link1.root1 = tmp_link1;
+    is_swapped_link1 = 1;
   }
 
-  signed int tmp_if_expr$4$link1;
-  signed int return_value_inserted$2$link1;
-  signed int return_value_inserted$3$link1;
-  if(!(is_swapped$link1 == 0))
+  signed int tmp_if_expr_4_link1;
+  signed int return_value_inserted_2_link1;
+  signed int return_value_inserted_3_link1;
+  if(!(is_swapped_link1 == 0))
   {
-    return_value_inserted$2$link1=inserted$link1(segnum$link1, 2);
-    tmp_if_expr$4$link1 = (signed int)!(return_value_inserted$2$link1 != 0);
-  }
-
-  else
-  {
-    return_value_inserted$3$link1=inserted$link1(segnum$link1, 1);
-    tmp_if_expr$4$link1 = (signed int)!(return_value_inserted$3$link1 != 0);
-  }
-  if(!(tmp_if_expr$4$link1 == 0))
-  {
-    signed int tmp_d$link1;
-    tu$link1=locate_endpoint(&s$link1.v0, &s$link1.v1, s$link1.root0);
-    tl$link1=newtrap$link1();
-    tr[(signed long int)tl$link1].state = 1;
-    tr[(signed long int)tl$link1] = tr[(signed long int)tu$link1];
-    tr[(signed long int)tl$link1].hi.y = s$link1.v0.y;
-    tr[(signed long int)tu$link1].lo.y = tr[(signed long int)tl$link1].hi.y;
-    tr[(signed long int)tl$link1].hi.x = s$link1.v0.x;
-    tr[(signed long int)tu$link1].lo.x = tr[(signed long int)tl$link1].hi.x;
-    tr[(signed long int)tu$link1].d0 = tl$link1;
-    tr[(signed long int)tu$link1].d1 = 0;
-    tr[(signed long int)tl$link1].u0 = tu$link1;
-    tr[(signed long int)tl$link1].u1 = 0;
-    tmp_d$link1 = tr[(signed long int)tl$link1].d0;
-    if(tmp_d$link1 >= 1)
-    {
-      if(tr[(signed long int)tmp_d$link1].u0 == tu$link1)
-        tr[(signed long int)tmp_d$link1].u0 = tl$link1;
-
-    }
-
-    tmp_d$link1 = tr[(signed long int)tl$link1].d0;
-    if(tmp_d$link1 >= 1)
-    {
-      if(tr[(signed long int)tmp_d$link1].u1 == tu$link1)
-        tr[(signed long int)tmp_d$link1].u1 = tl$link1;
-
-    }
-
-    tmp_d$link1 = tr[(signed long int)tl$link1].d1;
-    if(tmp_d$link1 >= 1)
-    {
-      if(tr[(signed long int)tmp_d$link1].u0 == tu$link1)
-        tr[(signed long int)tmp_d$link1].u0 = tl$link1;
-
-    }
-
-    tmp_d$link1 = tr[(signed long int)tl$link1].d1;
-    if(tmp_d$link1 >= 1)
-    {
-      if(tr[(signed long int)tmp_d$link1].u1 == tu$link1)
-        tr[(signed long int)tmp_d$link1].u1 = tl$link1;
-
-    }
-
-    i1$link1=newnode$link1();
-    i2$link1=newnode$link1();
-    sk$link1 = tr[(signed long int)tu$link1].sink;
-    qs[(signed long int)sk$link1].nodetype = 2;
-    qs[(signed long int)sk$link1].yval = s$link1.v0;
-    qs[(signed long int)sk$link1].segnum = segnum$link1;
-    qs[(signed long int)sk$link1].left = i2$link1;
-    qs[(signed long int)sk$link1].right = i1$link1;
-    qs[(signed long int)i1$link1].nodetype = 3;
-    qs[(signed long int)i1$link1].trnum = tu$link1;
-    qs[(signed long int)i1$link1].parent = sk$link1;
-    qs[(signed long int)i2$link1].nodetype = 3;
-    qs[(signed long int)i2$link1].trnum = tl$link1;
-    qs[(signed long int)i2$link1].parent = sk$link1;
-    tr[(signed long int)tu$link1].sink = i1$link1;
-    tr[(signed long int)tl$link1].sink = i2$link1;
-    tfirst$link1 = tl$link1;
-  }
-
-  else
-    tfirst$link1=locate_endpoint(&s$link1.v0, &s$link1.v1, s$link1.root0);
-  signed int tmp_if_expr$7$link1;
-  signed int return_value_inserted$5$link1;
-  signed int return_value_inserted$6$link1;
-  if(!(is_swapped$link1 == 0))
-  {
-    return_value_inserted$5$link1=inserted$link1(segnum$link1, 1);
-    tmp_if_expr$7$link1 = (signed int)!(return_value_inserted$5$link1 != 0);
+    return_value_inserted_2_link1=inserted_link1(segnum_link1, 2);
+    tmp_if_expr_4_link1 = (signed int)!(return_value_inserted_2_link1 != 0);
   }
 
   else
   {
-    return_value_inserted$6$link1=inserted$link1(segnum$link1, 2);
-    tmp_if_expr$7$link1 = (signed int)!(return_value_inserted$6$link1 != 0);
+    return_value_inserted_3_link1=inserted_link1(segnum_link1, 1);
+    tmp_if_expr_4_link1 = (signed int)!(return_value_inserted_3_link1 != 0);
   }
-  if(!(tmp_if_expr$7$link1 == 0))
+  if(!(tmp_if_expr_4_link1 == 0))
   {
-    signed int add_segment$$1$$4$$tmp_d$link1;
-    tu$link1=locate_endpoint(&s$link1.v1, &s$link1.v0, s$link1.root1);
-    tl$link1=newtrap$link1();
-    tr[(signed long int)tl$link1].state = 1;
-    tr[(signed long int)tl$link1] = tr[(signed long int)tu$link1];
-    tr[(signed long int)tl$link1].hi.y = s$link1.v1.y;
-    tr[(signed long int)tu$link1].lo.y = tr[(signed long int)tl$link1].hi.y;
-    tr[(signed long int)tl$link1].hi.x = s$link1.v1.x;
-    tr[(signed long int)tu$link1].lo.x = tr[(signed long int)tl$link1].hi.x;
-    tr[(signed long int)tu$link1].d0 = tl$link1;
-    tr[(signed long int)tu$link1].d1 = 0;
-    tr[(signed long int)tl$link1].u0 = tu$link1;
-    tr[(signed long int)tl$link1].u1 = 0;
-    add_segment$$1$$4$$tmp_d$link1 = tr[(signed long int)tl$link1].d0;
-    if(add_segment$$1$$4$$tmp_d$link1 >= 1)
+    signed int tmp_d_link1;
+    tu_link1=locate_endpoint(&s_link1.v0, &s_link1.v1, s_link1.root0);
+    tl_link1=newtrap_link1();
+    tr[(signed long int)tl_link1].state = 1;
+    tr[(signed long int)tl_link1] = tr[(signed long int)tu_link1];
+    tr[(signed long int)tl_link1].hi.y = s_link1.v0.y;
+    tr[(signed long int)tu_link1].lo.y = tr[(signed long int)tl_link1].hi.y;
+    tr[(signed long int)tl_link1].hi.x = s_link1.v0.x;
+    tr[(signed long int)tu_link1].lo.x = tr[(signed long int)tl_link1].hi.x;
+    tr[(signed long int)tu_link1].d0 = tl_link1;
+    tr[(signed long int)tu_link1].d1 = 0;
+    tr[(signed long int)tl_link1].u0 = tu_link1;
+    tr[(signed long int)tl_link1].u1 = 0;
+    tmp_d_link1 = tr[(signed long int)tl_link1].d0;
+    if(tmp_d_link1 >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u0 == tu$link1)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u0 = tl$link1;
+      if(tr[(signed long int)tmp_d_link1].u0 == tu_link1)
+        tr[(signed long int)tmp_d_link1].u0 = tl_link1;
 
     }
 
-    add_segment$$1$$4$$tmp_d$link1 = tr[(signed long int)tl$link1].d0;
-    if(add_segment$$1$$4$$tmp_d$link1 >= 1)
+    tmp_d_link1 = tr[(signed long int)tl_link1].d0;
+    if(tmp_d_link1 >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u1 == tu$link1)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u1 = tl$link1;
+      if(tr[(signed long int)tmp_d_link1].u1 == tu_link1)
+        tr[(signed long int)tmp_d_link1].u1 = tl_link1;
 
     }
 
-    add_segment$$1$$4$$tmp_d$link1 = tr[(signed long int)tl$link1].d1;
-    if(add_segment$$1$$4$$tmp_d$link1 >= 1)
+    tmp_d_link1 = tr[(signed long int)tl_link1].d1;
+    if(tmp_d_link1 >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u0 == tu$link1)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u0 = tl$link1;
+      if(tr[(signed long int)tmp_d_link1].u0 == tu_link1)
+        tr[(signed long int)tmp_d_link1].u0 = tl_link1;
 
     }
 
-    add_segment$$1$$4$$tmp_d$link1 = tr[(signed long int)tl$link1].d1;
-    if(add_segment$$1$$4$$tmp_d$link1 >= 1)
+    tmp_d_link1 = tr[(signed long int)tl_link1].d1;
+    if(tmp_d_link1 >= 1)
     {
-      if(tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u1 == tu$link1)
-        tr[(signed long int)add_segment$$1$$4$$tmp_d$link1].u1 = tl$link1;
+      if(tr[(signed long int)tmp_d_link1].u1 == tu_link1)
+        tr[(signed long int)tmp_d_link1].u1 = tl_link1;
 
     }
 
-    i1$link1=newnode$link1();
-    i2$link1=newnode$link1();
-    sk$link1 = tr[(signed long int)tu$link1].sink;
-    qs[(signed long int)sk$link1].nodetype = 2;
-    qs[(signed long int)sk$link1].yval = s$link1.v1;
-    qs[(signed long int)sk$link1].segnum = segnum$link1;
-    qs[(signed long int)sk$link1].left = i2$link1;
-    qs[(signed long int)sk$link1].right = i1$link1;
-    qs[(signed long int)i1$link1].nodetype = 3;
-    qs[(signed long int)i1$link1].trnum = tu$link1;
-    qs[(signed long int)i1$link1].parent = sk$link1;
-    qs[(signed long int)i2$link1].nodetype = 3;
-    qs[(signed long int)i2$link1].trnum = tl$link1;
-    qs[(signed long int)i2$link1].parent = sk$link1;
-    tr[(signed long int)tu$link1].sink = i1$link1;
-    tr[(signed long int)tl$link1].sink = i2$link1;
-    tlast$link1 = tu$link1;
+    i1_link1=newnode_link1();
+    i2_link1=newnode_link1();
+    sk_link1 = tr[(signed long int)tu_link1].sink;
+    qs[(signed long int)sk_link1].nodetype = 2;
+    qs[(signed long int)sk_link1].yval = s_link1.v0;
+    qs[(signed long int)sk_link1].segnum = segnum_link1;
+    qs[(signed long int)sk_link1].left = i2_link1;
+    qs[(signed long int)sk_link1].right = i1_link1;
+    qs[(signed long int)i1_link1].nodetype = 3;
+    qs[(signed long int)i1_link1].trnum = tu_link1;
+    qs[(signed long int)i1_link1].parent = sk_link1;
+    qs[(signed long int)i2_link1].nodetype = 3;
+    qs[(signed long int)i2_link1].trnum = tl_link1;
+    qs[(signed long int)i2_link1].parent = sk_link1;
+    tr[(signed long int)tu_link1].sink = i1_link1;
+    tr[(signed long int)tl_link1].sink = i2_link1;
+    tfirst_link1 = tl_link1;
+  }
+
+  else
+    tfirst_link1=locate_endpoint(&s_link1.v0, &s_link1.v1, s_link1.root0);
+  signed int tmp_if_expr_7_link1;
+  signed int return_value_inserted_5_link1;
+  signed int return_value_inserted_6_link1;
+  if(!(is_swapped_link1 == 0))
+  {
+    return_value_inserted_5_link1=inserted_link1(segnum_link1, 1);
+    tmp_if_expr_7_link1 = (signed int)!(return_value_inserted_5_link1 != 0);
   }
 
   else
   {
-    tlast$link1=locate_endpoint(&s$link1.v1, &s$link1.v0, s$link1.root1);
-    tribot$link1 = 1;
+    return_value_inserted_6_link1=inserted_link1(segnum_link1, 2);
+    tmp_if_expr_7_link1 = (signed int)!(return_value_inserted_6_link1 != 0);
   }
-  add_segment$$1$$t$link1 = tfirst$link1;
-  signed int return_value__greater_than_equal_to$8$link1;
-  _Bool tmp_if_expr$39$link1;
-  _Bool tmp_if_expr$38$link1;
-  _Bool tmp_if_expr$13$link1;
-  _Bool tmp_if_expr$12$link1;
-  _Bool tmp_if_expr$11$link1;
-  signed int return_value_is_left_of$10$link1;
-  _Bool tmp_if_expr$18$link1;
-  double return_value_fabs$17$link1;
-  _Bool tmp_if_expr$15$link1;
-  signed int return_value_is_left_of$14$link1;
-  _Bool tmp_if_expr$37$link1;
-  _Bool tmp_if_expr$22$link1;
-  _Bool tmp_if_expr$21$link1;
-  _Bool tmp_if_expr$20$link1;
-  signed int return_value_is_left_of$19$link1;
-  _Bool tmp_if_expr$27$link1;
-  double return_value_fabs$26$link1;
-  _Bool tmp_if_expr$24$link1;
-  signed int return_value_is_left_of$23$link1;
-  _Bool tmp_if_expr$33$link1;
-  _Bool tmp_if_expr$32$link1;
-  _Bool tmp_if_expr$31$link1;
-  signed int return_value_is_left_of$30$link1;
-  _Bool tmp_if_expr$36$link1;
-  double return_value_fabs$35$link1;
-  while(add_segment$$1$$t$link1 >= 1)
+  if(!(tmp_if_expr_7_link1 == 0))
   {
-    return_value__greater_than_equal_to$8$link1=_greater_than_equal_to(&tr[(signed long int)add_segment$$1$$t$link1].lo, &tr[(signed long int)tlast$link1].lo);
-    if(return_value__greater_than_equal_to$8$link1 == 0)
+    signed int add_segment__1__4__tmp_d_link1;
+    tu_link1=locate_endpoint(&s_link1.v1, &s_link1.v0, s_link1.root1);
+    tl_link1=newtrap_link1();
+    tr[(signed long int)tl_link1].state = 1;
+    tr[(signed long int)tl_link1] = tr[(signed long int)tu_link1];
+    tr[(signed long int)tl_link1].hi.y = s_link1.v1.y;
+    tr[(signed long int)tu_link1].lo.y = tr[(signed long int)tl_link1].hi.y;
+    tr[(signed long int)tl_link1].hi.x = s_link1.v1.x;
+    tr[(signed long int)tu_link1].lo.x = tr[(signed long int)tl_link1].hi.x;
+    tr[(signed long int)tu_link1].d0 = tl_link1;
+    tr[(signed long int)tu_link1].d1 = 0;
+    tr[(signed long int)tl_link1].u0 = tu_link1;
+    tr[(signed long int)tl_link1].u1 = 0;
+    add_segment__1__4__tmp_d_link1 = tr[(signed long int)tl_link1].d0;
+    if(add_segment__1__4__tmp_d_link1 >= 1)
+    {
+      if(tr[(signed long int)add_segment__1__4__tmp_d_link1].u0 == tu_link1)
+        tr[(signed long int)add_segment__1__4__tmp_d_link1].u0 = tl_link1;
+
+    }
+
+    add_segment__1__4__tmp_d_link1 = tr[(signed long int)tl_link1].d0;
+    if(add_segment__1__4__tmp_d_link1 >= 1)
+    {
+      if(tr[(signed long int)add_segment__1__4__tmp_d_link1].u1 == tu_link1)
+        tr[(signed long int)add_segment__1__4__tmp_d_link1].u1 = tl_link1;
+
+    }
+
+    add_segment__1__4__tmp_d_link1 = tr[(signed long int)tl_link1].d1;
+    if(add_segment__1__4__tmp_d_link1 >= 1)
+    {
+      if(tr[(signed long int)add_segment__1__4__tmp_d_link1].u0 == tu_link1)
+        tr[(signed long int)add_segment__1__4__tmp_d_link1].u0 = tl_link1;
+
+    }
+
+    add_segment__1__4__tmp_d_link1 = tr[(signed long int)tl_link1].d1;
+    if(add_segment__1__4__tmp_d_link1 >= 1)
+    {
+      if(tr[(signed long int)add_segment__1__4__tmp_d_link1].u1 == tu_link1)
+        tr[(signed long int)add_segment__1__4__tmp_d_link1].u1 = tl_link1;
+
+    }
+
+    i1_link1=newnode_link1();
+    i2_link1=newnode_link1();
+    sk_link1 = tr[(signed long int)tu_link1].sink;
+    qs[(signed long int)sk_link1].nodetype = 2;
+    qs[(signed long int)sk_link1].yval = s_link1.v1;
+    qs[(signed long int)sk_link1].segnum = segnum_link1;
+    qs[(signed long int)sk_link1].left = i2_link1;
+    qs[(signed long int)sk_link1].right = i1_link1;
+    qs[(signed long int)i1_link1].nodetype = 3;
+    qs[(signed long int)i1_link1].trnum = tu_link1;
+    qs[(signed long int)i1_link1].parent = sk_link1;
+    qs[(signed long int)i2_link1].nodetype = 3;
+    qs[(signed long int)i2_link1].trnum = tl_link1;
+    qs[(signed long int)i2_link1].parent = sk_link1;
+    tr[(signed long int)tu_link1].sink = i1_link1;
+    tr[(signed long int)tl_link1].sink = i2_link1;
+    tlast_link1 = tu_link1;
+  }
+
+  else
+  {
+    tlast_link1=locate_endpoint(&s_link1.v1, &s_link1.v0, s_link1.root1);
+    tribot_link1 = 1;
+  }
+  add_segment__1__t_link1 = tfirst_link1;
+  signed int return_value__greater_than_equal_to_8_link1;
+  _Bool tmp_if_expr_39_link1;
+  _Bool tmp_if_expr_38_link1;
+  _Bool tmp_if_expr_13_link1;
+  _Bool tmp_if_expr_12_link1;
+  _Bool tmp_if_expr_11_link1;
+  signed int return_value_is_left_of_10_link1;
+  _Bool tmp_if_expr_18_link1;
+  double return_value_fabs_17_link1;
+  _Bool tmp_if_expr_15_link1;
+  signed int return_value_is_left_of_14_link1;
+  _Bool tmp_if_expr_37_link1;
+  _Bool tmp_if_expr_22_link1;
+  _Bool tmp_if_expr_21_link1;
+  _Bool tmp_if_expr_20_link1;
+  signed int return_value_is_left_of_19_link1;
+  _Bool tmp_if_expr_27_link1;
+  double return_value_fabs_26_link1;
+  _Bool tmp_if_expr_24_link1;
+  signed int return_value_is_left_of_23_link1;
+  _Bool tmp_if_expr_33_link1;
+  _Bool tmp_if_expr_32_link1;
+  _Bool tmp_if_expr_31_link1;
+  signed int return_value_is_left_of_30_link1;
+  _Bool tmp_if_expr_36_link1;
+  double return_value_fabs_35_link1;
+  while(add_segment__1__t_link1 >= 1)
+  {
+    return_value__greater_than_equal_to_8_link1=_greater_than_equal_to(&tr[(signed long int)add_segment__1__t_link1].lo, &tr[(signed long int)tlast_link1].lo);
+    if(return_value__greater_than_equal_to_8_link1 == 0)
       break;
 
-    signed int t_sav$link1;
-    signed int tn_sav$link1;
-    sk$link1 = tr[(signed long int)add_segment$$1$$t$link1].sink;
-    i1$link1=newnode$link1();
-    i2$link1=newnode$link1();
-    qs[(signed long int)sk$link1].nodetype = 1;
-    qs[(signed long int)sk$link1].segnum = segnum$link1;
-    qs[(signed long int)sk$link1].left = i1$link1;
-    qs[(signed long int)sk$link1].right = i2$link1;
-    qs[(signed long int)i1$link1].nodetype = 3;
-    qs[(signed long int)i1$link1].trnum = add_segment$$1$$t$link1;
-    qs[(signed long int)i1$link1].parent = sk$link1;
-    qs[(signed long int)i2$link1].nodetype = 3;
-    tn$link1=newtrap$link1();
-    qs[(signed long int)i2$link1].trnum = tn$link1;
-    tr[(signed long int)tn$link1].state = 1;
-    qs[(signed long int)i2$link1].parent = sk$link1;
-    if(add_segment$$1$$t$link1 == tfirst$link1)
-      tfirstr$link1 = tn$link1;
+    signed int t_sav_link1;
+    signed int tn_sav_link1;
+    sk_link1 = tr[(signed long int)add_segment__1__t_link1].sink;
+    i1_link1=newnode_link1();
+    i2_link1=newnode_link1();
+    qs[(signed long int)sk_link1].nodetype = 1;
+    qs[(signed long int)sk_link1].segnum = segnum_link1;
+    qs[(signed long int)sk_link1].left = i1_link1;
+    qs[(signed long int)sk_link1].right = i2_link1;
+    qs[(signed long int)i1_link1].nodetype = 3;
+    qs[(signed long int)i1_link1].trnum = add_segment__1__t_link1;
+    qs[(signed long int)i1_link1].parent = sk_link1;
+    qs[(signed long int)i2_link1].nodetype = 3;
+    tn_link1=newtrap_link1();
+    qs[(signed long int)i2_link1].trnum = tn_link1;
+    tr[(signed long int)tn_link1].state = 1;
+    qs[(signed long int)i2_link1].parent = sk_link1;
+    if(add_segment__1__t_link1 == tfirst_link1)
+      tfirstr_link1 = tn_link1;
 
-    signed int return_value__equal_to$9$link1;
-    return_value__equal_to$9$link1=_equal_to(&tr[(signed long int)add_segment$$1$$t$link1].lo, &tr[(signed long int)tlast$link1].lo);
-    if(!(return_value__equal_to$9$link1 == 0))
-      tlastr$link1 = tn$link1;
+    signed int return_value__equal_to_9_link1;
+    return_value__equal_to_9_link1=_equal_to(&tr[(signed long int)add_segment__1__t_link1].lo, &tr[(signed long int)tlast_link1].lo);
+    if(!(return_value__equal_to_9_link1 == 0))
+      tlastr_link1 = tn_link1;
 
-    tr[(signed long int)tn$link1] = tr[(signed long int)add_segment$$1$$t$link1];
-    tr[(signed long int)add_segment$$1$$t$link1].sink = i1$link1;
-    tr[(signed long int)tn$link1].sink = i2$link1;
-    t_sav$link1 = add_segment$$1$$t$link1;
-    tn_sav$link1 = tn$link1;
-    if(!(tr[(signed long int)add_segment$$1$$t$link1].d0 >= 1))
-      tmp_if_expr$39$link1 = tr[(signed long int)add_segment$$1$$t$link1].d1 <= 0 ? (_Bool)1 : (_Bool)0;
+    tr[(signed long int)tn_link1] = tr[(signed long int)add_segment__1__t_link1];
+    tr[(signed long int)add_segment__1__t_link1].sink = i1_link1;
+    tr[(signed long int)tn_link1].sink = i2_link1;
+    t_sav_link1 = add_segment__1__t_link1;
+    tn_sav_link1 = tn_link1;
+    if(!(tr[(signed long int)add_segment__1__t_link1].d0 >= 1))
+      tmp_if_expr_39_link1 = tr[(signed long int)add_segment__1__t_link1].d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$39$link1 = (_Bool)0;
-    if(tmp_if_expr$39$link1)
+      tmp_if_expr_39_link1 = (_Bool)0;
+    if(tmp_if_expr_39_link1)
     {
       errs("sei:add_segment()", "error");
       break;
@@ -6569,488 +6569,488 @@ static signed int add_segment$link1(signed int segnum$link1)
 
     else
     {
-      if(tr[(signed long int)add_segment$$1$$t$link1].d0 >= 1)
-        tmp_if_expr$38$link1 = tr[(signed long int)add_segment$$1$$t$link1].d1 <= 0 ? (_Bool)1 : (_Bool)0;
+      if(tr[(signed long int)add_segment__1__t_link1].d0 >= 1)
+        tmp_if_expr_38_link1 = tr[(signed long int)add_segment__1__t_link1].d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$38$link1 = (_Bool)0;
-      if(tmp_if_expr$38$link1)
+        tmp_if_expr_38_link1 = (_Bool)0;
+      if(tmp_if_expr_38_link1)
       {
-        if(tr[(signed long int)add_segment$$1$$t$link1].u0 >= 1)
-          tmp_if_expr$13$link1 = tr[(signed long int)add_segment$$1$$t$link1].u1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(tr[(signed long int)add_segment__1__t_link1].u0 >= 1)
+          tmp_if_expr_13_link1 = tr[(signed long int)add_segment__1__t_link1].u1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13$link1 = (_Bool)0;
-        if(tmp_if_expr$13$link1)
+          tmp_if_expr_13_link1 = (_Bool)0;
+        if(tmp_if_expr_13_link1)
         {
-          if(tr[(signed long int)add_segment$$1$$t$link1].usave >= 1)
+          if(tr[(signed long int)add_segment__1__t_link1].usave >= 1)
           {
-            if(tr[(signed long int)add_segment$$1$$t$link1].uside == 1)
+            if(tr[(signed long int)add_segment__1__t_link1].uside == 1)
             {
-              tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-              tr[(signed long int)add_segment$$1$$t$link1].u1 = -1;
-              tr[(signed long int)tn$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].usave;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
-              tr[(signed long int)tr[(signed long int)tn$link1].u1].d0 = tn$link1;
+              tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+              tr[(signed long int)add_segment__1__t_link1].u1 = -1;
+              tr[(signed long int)tn_link1].u1 = tr[(signed long int)add_segment__1__t_link1].usave;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
+              tr[(signed long int)tr[(signed long int)tn_link1].u1].d0 = tn_link1;
             }
 
             else
             {
-              tr[(signed long int)tn$link1].u1 = -1;
-              tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-              tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].u0;
-              tr[(signed long int)add_segment$$1$$t$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].usave;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u1].d0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
+              tr[(signed long int)tn_link1].u1 = -1;
+              tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+              tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)add_segment__1__t_link1].u0;
+              tr[(signed long int)add_segment__1__t_link1].u0 = tr[(signed long int)add_segment__1__t_link1].usave;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u1].d0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
             }
-            tr[(signed long int)tn$link1].usave = 0;
-            tr[(signed long int)add_segment$$1$$t$link1].usave = tr[(signed long int)tn$link1].usave;
+            tr[(signed long int)tn_link1].usave = 0;
+            tr[(signed long int)add_segment__1__t_link1].usave = tr[(signed long int)tn_link1].usave;
           }
 
           else
           {
-            tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-            tr[(signed long int)tn$link1].u1 = -1;
-            tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)tn$link1].u1;
-            tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
+            tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+            tr[(signed long int)tn_link1].u1 = -1;
+            tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)tn_link1].u1;
+            tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
           }
         }
 
         else
         {
-          signed int tmp_u$link1 = tr[(signed long int)add_segment$$1$$t$link1].u0;
-          signed int add_segment$$1$$6$$2$$2$$td0$link1 = tr[(signed long int)tmp_u$link1].d0;
-          if(add_segment$$1$$6$$2$$2$$td0$link1 >= 1)
-            tmp_if_expr$12$link1 = tr[(signed long int)tmp_u$link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
+          signed int tmp_u_link1 = tr[(signed long int)add_segment__1__t_link1].u0;
+          signed int add_segment__1__6__2__2__td0_link1 = tr[(signed long int)tmp_u_link1].d0;
+          if(add_segment__1__6__2__2__td0_link1 >= 1)
+            tmp_if_expr_12_link1 = tr[(signed long int)tmp_u_link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$12$link1 = (_Bool)0;
-          if(tmp_if_expr$12$link1)
+            tmp_if_expr_12_link1 = (_Bool)0;
+          if(tmp_if_expr_12_link1)
           {
-            if(tr[(signed long int)add_segment$$1$$6$$2$$2$$td0$link1].rseg >= 1)
+            if(tr[(signed long int)add_segment__1__6__2__2__td0_link1].rseg >= 1)
             {
-              return_value_is_left_of$10$link1=is_left_of$link1(tr[(signed long int)add_segment$$1$$6$$2$$2$$td0$link1].rseg, &s$link1.v1);
-              tmp_if_expr$11$link1 = !(return_value_is_left_of$10$link1 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_is_left_of_10_link1=is_left_of_link1(tr[(signed long int)add_segment__1__6__2__2__td0_link1].rseg, &s_link1.v1);
+              tmp_if_expr_11_link1 = !(return_value_is_left_of_10_link1 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$11$link1 = (_Bool)0;
-            if(tmp_if_expr$11$link1)
+              tmp_if_expr_11_link1 = (_Bool)0;
+            if(tmp_if_expr_11_link1)
             {
-              tr[(signed long int)tn$link1].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)tn$link1].u1;
-              tr[(signed long int)add_segment$$1$$t$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-              tr[(signed long int)tr[(signed long int)tn$link1].u0].d1 = tn$link1;
+              tr[(signed long int)tn_link1].u1 = -1;
+              tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)tn_link1].u1;
+              tr[(signed long int)add_segment__1__t_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+              tr[(signed long int)tr[(signed long int)tn_link1].u0].d1 = tn_link1;
             }
 
             else
             {
-              tr[(signed long int)add_segment$$1$$t$link1].u1 = -1;
-              tr[(signed long int)tn$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-              tr[(signed long int)tn$link1].u0 = tr[(signed long int)tn$link1].u1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
+              tr[(signed long int)add_segment__1__t_link1].u1 = -1;
+              tr[(signed long int)tn_link1].u1 = tr[(signed long int)add_segment__1__t_link1].u1;
+              tr[(signed long int)tn_link1].u0 = tr[(signed long int)tn_link1].u1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
             }
           }
 
           else
           {
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d1 = tn$link1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d1 = tn_link1;
           }
         }
-        double return_value_fabs$16$link1;
-        return_value_fabs$16$link1=fabs(tr[(signed long int)add_segment$$1$$t$link1].lo.y - tr[(signed long int)tlast$link1].lo.y);
-        if(return_value_fabs$16$link1 <= 1.0e-7)
+        double return_value_fabs_16_link1;
+        return_value_fabs_16_link1=fabs(tr[(signed long int)add_segment__1__t_link1].lo.y - tr[(signed long int)tlast_link1].lo.y);
+        if(return_value_fabs_16_link1 <= 1.0e-7)
         {
-          return_value_fabs$17$link1=fabs(tr[(signed long int)add_segment$$1$$t$link1].lo.x - tr[(signed long int)tlast$link1].lo.x);
-          tmp_if_expr$18$link1 = return_value_fabs$17$link1 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
-        }
-
-        else
-          tmp_if_expr$18$link1 = (_Bool)0;
-        if(!(tribot$link1 == 0) && tmp_if_expr$18$link1)
-        {
-          if(!(is_swapped$link1 == 0))
-            tmptriseg$link1 = seg[(signed long int)segnum$link1].prev;
-
-          else
-            tmptriseg$link1 = seg[(signed long int)segnum$link1].next;
-          if(tmptriseg$link1 >= 1)
-          {
-            return_value_is_left_of$14$link1=is_left_of$link1(tmptriseg$link1, &s$link1.v0);
-            tmp_if_expr$15$link1 = return_value_is_left_of$14$link1 != 0 ? (_Bool)1 : (_Bool)0;
-          }
-
-          else
-            tmp_if_expr$15$link1 = (_Bool)0;
-          if(tmp_if_expr$15$link1)
-          {
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0 = add_segment$$1$$t$link1;
-            tr[(signed long int)tn$link1].d1 = -1;
-            tr[(signed long int)tn$link1].d0 = tr[(signed long int)tn$link1].d1;
-          }
-
-          else
-          {
-            tr[(signed long int)tr[(signed long int)tn$link1].d0].u1 = tn$link1;
-            tr[(signed long int)add_segment$$1$$t$link1].d1 = -1;
-            tr[(signed long int)add_segment$$1$$t$link1].d0 = tr[(signed long int)add_segment$$1$$t$link1].d1;
-          }
+          return_value_fabs_17_link1=fabs(tr[(signed long int)add_segment__1__t_link1].lo.x - tr[(signed long int)tlast_link1].lo.x);
+          tmp_if_expr_18_link1 = return_value_fabs_17_link1 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
         }
 
         else
+          tmp_if_expr_18_link1 = (_Bool)0;
+        if(!(tribot_link1 == 0) && tmp_if_expr_18_link1)
         {
-          if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0 >= 1)
+          if(!(is_swapped_link1 == 0))
+            tmptriseg_link1 = seg[(signed long int)segnum_link1].prev;
+
+          else
+            tmptriseg_link1 = seg[(signed long int)segnum_link1].next;
+          if(tmptriseg_link1 >= 1)
           {
-            if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u1 >= 1)
+            return_value_is_left_of_14_link1=is_left_of_link1(tmptriseg_link1, &s_link1.v0);
+            tmp_if_expr_15_link1 = return_value_is_left_of_14_link1 != 0 ? (_Bool)1 : (_Bool)0;
+          }
+
+          else
+            tmp_if_expr_15_link1 = (_Bool)0;
+          if(tmp_if_expr_15_link1)
+          {
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0 = add_segment__1__t_link1;
+            tr[(signed long int)tn_link1].d1 = -1;
+            tr[(signed long int)tn_link1].d0 = tr[(signed long int)tn_link1].d1;
+          }
+
+          else
+          {
+            tr[(signed long int)tr[(signed long int)tn_link1].d0].u1 = tn_link1;
+            tr[(signed long int)add_segment__1__t_link1].d1 = -1;
+            tr[(signed long int)add_segment__1__t_link1].d0 = tr[(signed long int)add_segment__1__t_link1].d1;
+          }
+        }
+
+        else
+        {
+          if(tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0 >= 1)
+          {
+            if(tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u1 >= 1)
             {
-              if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0 == add_segment$$1$$t$link1)
+              if(tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0 == add_segment__1__t_link1)
               {
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].uside = 1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].uside = 1;
               }
 
               else
               {
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].uside = 2;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].uside = 2;
               }
             }
 
           }
 
-          tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0 = add_segment$$1$$t$link1;
-          tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u1 = tn$link1;
+          tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0 = add_segment__1__t_link1;
+          tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u1 = tn_link1;
         }
-        add_segment$$1$$t$link1 = tr[(signed long int)add_segment$$1$$t$link1].d0;
+        add_segment__1__t_link1 = tr[(signed long int)add_segment__1__t_link1].d0;
       }
 
       else
       {
-        if(!(tr[(signed long int)add_segment$$1$$t$link1].d0 >= 1))
-          tmp_if_expr$37$link1 = tr[(signed long int)add_segment$$1$$t$link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(!(tr[(signed long int)add_segment__1__t_link1].d0 >= 1))
+          tmp_if_expr_37_link1 = tr[(signed long int)add_segment__1__t_link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$37$link1 = (_Bool)0;
-        if(tmp_if_expr$37$link1)
+          tmp_if_expr_37_link1 = (_Bool)0;
+        if(tmp_if_expr_37_link1)
         {
-          if(tr[(signed long int)add_segment$$1$$t$link1].u0 >= 1)
-            tmp_if_expr$22$link1 = tr[(signed long int)add_segment$$1$$t$link1].u1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(tr[(signed long int)add_segment__1__t_link1].u0 >= 1)
+            tmp_if_expr_22_link1 = tr[(signed long int)add_segment__1__t_link1].u1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$22$link1 = (_Bool)0;
-          if(tmp_if_expr$22$link1)
+            tmp_if_expr_22_link1 = (_Bool)0;
+          if(tmp_if_expr_22_link1)
           {
-            if(tr[(signed long int)add_segment$$1$$t$link1].usave >= 1)
+            if(tr[(signed long int)add_segment__1__t_link1].usave >= 1)
             {
-              if(tr[(signed long int)add_segment$$1$$t$link1].uside == 1)
+              if(tr[(signed long int)add_segment__1__t_link1].uside == 1)
               {
-                tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = -1;
-                tr[(signed long int)tn$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u1].d0 = tn$link1;
+                tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = -1;
+                tr[(signed long int)tn_link1].u1 = tr[(signed long int)add_segment__1__t_link1].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u1].d0 = tn_link1;
               }
 
               else
               {
-                tr[(signed long int)tn$link1].u1 = -1;
-                tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].u0;
-                tr[(signed long int)add_segment$$1$$t$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u1].d0 = add_segment$$1$$t$link1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
+                tr[(signed long int)tn_link1].u1 = -1;
+                tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)add_segment__1__t_link1].u0;
+                tr[(signed long int)add_segment__1__t_link1].u0 = tr[(signed long int)add_segment__1__t_link1].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u1].d0 = add_segment__1__t_link1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
               }
-              tr[(signed long int)tn$link1].usave = 0;
-              tr[(signed long int)add_segment$$1$$t$link1].usave = tr[(signed long int)tn$link1].usave;
+              tr[(signed long int)tn_link1].usave = 0;
+              tr[(signed long int)add_segment__1__t_link1].usave = tr[(signed long int)tn_link1].usave;
             }
 
             else
             {
-              tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-              tr[(signed long int)tn$link1].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)tn$link1].u1;
-              tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
+              tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+              tr[(signed long int)tn_link1].u1 = -1;
+              tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)tn_link1].u1;
+              tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
             }
           }
 
           else
           {
-            signed int add_segment$$1$$6$$3$$2$$tmp_u$link1 = tr[(signed long int)add_segment$$1$$t$link1].u0;
-            signed int add_segment$$1$$6$$3$$2$$td0$link1 = tr[(signed long int)add_segment$$1$$6$$3$$2$$tmp_u$link1].d0;
-            if(add_segment$$1$$6$$3$$2$$td0$link1 >= 1)
-              tmp_if_expr$21$link1 = tr[(signed long int)add_segment$$1$$6$$3$$2$$tmp_u$link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
+            signed int add_segment__1__6__3__2__tmp_u_link1 = tr[(signed long int)add_segment__1__t_link1].u0;
+            signed int add_segment__1__6__3__2__td0_link1 = tr[(signed long int)add_segment__1__6__3__2__tmp_u_link1].d0;
+            if(add_segment__1__6__3__2__td0_link1 >= 1)
+              tmp_if_expr_21_link1 = tr[(signed long int)add_segment__1__6__3__2__tmp_u_link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$21$link1 = (_Bool)0;
-            if(tmp_if_expr$21$link1)
+              tmp_if_expr_21_link1 = (_Bool)0;
+            if(tmp_if_expr_21_link1)
             {
-              if(tr[(signed long int)add_segment$$1$$6$$3$$2$$td0$link1].rseg >= 1)
+              if(tr[(signed long int)add_segment__1__6__3__2__td0_link1].rseg >= 1)
               {
-                return_value_is_left_of$19$link1=is_left_of$link1(tr[(signed long int)add_segment$$1$$6$$3$$2$$td0$link1].rseg, &s$link1.v1);
-                tmp_if_expr$20$link1 = !(return_value_is_left_of$19$link1 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_is_left_of_19_link1=is_left_of_link1(tr[(signed long int)add_segment__1__6__3__2__td0_link1].rseg, &s_link1.v1);
+                tmp_if_expr_20_link1 = !(return_value_is_left_of_19_link1 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$20$link1 = (_Bool)0;
-              if(tmp_if_expr$20$link1)
+                tmp_if_expr_20_link1 = (_Bool)0;
+              if(tmp_if_expr_20_link1)
               {
-                tr[(signed long int)tn$link1].u1 = -1;
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)tn$link1].u1;
-                tr[(signed long int)add_segment$$1$$t$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u0].d1 = tn$link1;
+                tr[(signed long int)tn_link1].u1 = -1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)tn_link1].u1;
+                tr[(signed long int)add_segment__1__t_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u0].d1 = tn_link1;
               }
 
               else
               {
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = -1;
-                tr[(signed long int)tn$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)tn$link1].u0 = tr[(signed long int)tn$link1].u1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = -1;
+                tr[(signed long int)tn_link1].u1 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)tn_link1].u0 = tr[(signed long int)tn_link1].u1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
               }
             }
 
             else
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d1 = tn$link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d1 = tn_link1;
             }
           }
-          double return_value_fabs$25$link1;
-          return_value_fabs$25$link1=fabs(tr[(signed long int)add_segment$$1$$t$link1].lo.y - tr[(signed long int)tlast$link1].lo.y);
-          if(return_value_fabs$25$link1 <= 1.0e-7)
+          double return_value_fabs_25_link1;
+          return_value_fabs_25_link1=fabs(tr[(signed long int)add_segment__1__t_link1].lo.y - tr[(signed long int)tlast_link1].lo.y);
+          if(return_value_fabs_25_link1 <= 1.0e-7)
           {
-            return_value_fabs$26$link1=fabs(tr[(signed long int)add_segment$$1$$t$link1].lo.x - tr[(signed long int)tlast$link1].lo.x);
-            tmp_if_expr$27$link1 = return_value_fabs$26$link1 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
-          }
-
-          else
-            tmp_if_expr$27$link1 = (_Bool)0;
-          if(!(tribot$link1 == 0) && tmp_if_expr$27$link1)
-          {
-            if(tmpseg$link1 >= 1)
-            {
-              return_value_is_left_of$23$link1=is_left_of$link1(tmpseg$link1, &s$link1.v0);
-              tmp_if_expr$24$link1 = return_value_is_left_of$23$link1 != 0 ? (_Bool)1 : (_Bool)0;
-            }
-
-            else
-              tmp_if_expr$24$link1 = (_Bool)0;
-            if(tmp_if_expr$24$link1)
-            {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tn$link1].d1 = -1;
-              tr[(signed long int)tn$link1].d0 = tr[(signed long int)tn$link1].d1;
-            }
-
-            else
-            {
-              tr[(signed long int)tr[(signed long int)tn$link1].d1].u1 = tn$link1;
-              tr[(signed long int)add_segment$$1$$t$link1].d1 = -1;
-              tr[(signed long int)add_segment$$1$$t$link1].d0 = tr[(signed long int)add_segment$$1$$t$link1].d1;
-            }
+            return_value_fabs_26_link1=fabs(tr[(signed long int)add_segment__1__t_link1].lo.x - tr[(signed long int)tlast_link1].lo.x);
+            tmp_if_expr_27_link1 = return_value_fabs_26_link1 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
           }
 
           else
+            tmp_if_expr_27_link1 = (_Bool)0;
+          if(!(tribot_link1 == 0) && tmp_if_expr_27_link1)
           {
-            if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0 >= 1)
+            if(tmpseg_link1 >= 1)
             {
-              if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u1 >= 1)
+              return_value_is_left_of_23_link1=is_left_of_link1(tmpseg_link1, &s_link1.v0);
+              tmp_if_expr_24_link1 = return_value_is_left_of_23_link1 != 0 ? (_Bool)1 : (_Bool)0;
+            }
+
+            else
+              tmp_if_expr_24_link1 = (_Bool)0;
+            if(tmp_if_expr_24_link1)
+            {
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0 = add_segment__1__t_link1;
+              tr[(signed long int)tn_link1].d1 = -1;
+              tr[(signed long int)tn_link1].d0 = tr[(signed long int)tn_link1].d1;
+            }
+
+            else
+            {
+              tr[(signed long int)tr[(signed long int)tn_link1].d1].u1 = tn_link1;
+              tr[(signed long int)add_segment__1__t_link1].d1 = -1;
+              tr[(signed long int)add_segment__1__t_link1].d0 = tr[(signed long int)add_segment__1__t_link1].d1;
+            }
+          }
+
+          else
+          {
+            if(tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0 >= 1)
+            {
+              if(tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u1 >= 1)
               {
-                if(tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0 == add_segment$$1$$t$link1)
+                if(tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0 == add_segment__1__t_link1)
                 {
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u1;
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].uside = 1;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u1;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].uside = 1;
                 }
 
                 else
                 {
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].usave = tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0;
-                  tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].uside = 2;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].usave = tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0;
+                  tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].uside = 2;
                 }
               }
 
             }
 
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0 = add_segment$$1$$t$link1;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u1 = tn$link1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0 = add_segment__1__t_link1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u1 = tn_link1;
           }
-          add_segment$$1$$t$link1 = tr[(signed long int)add_segment$$1$$t$link1].d1;
+          add_segment__1__t_link1 = tr[(signed long int)add_segment__1__t_link1].d1;
         }
 
         else
         {
-          double y0$link1;
-          double yt$link1;
-          struct anonymous$1 tmppt$link1;
-          signed int tnext$link1;
-          signed int i_d0$link1;
-          tmpseg$link1 = tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].rseg;
-          i_d0$link1 = 0;
-          double return_value_fabs$29$link1;
-          return_value_fabs$29$link1=fabs(tr[(signed long int)add_segment$$1$$t$link1].lo.y - s$link1.v0.y);
-          if(return_value_fabs$29$link1 <= 1.0e-7)
+          double y0_link1;
+          double yt_link1;
+          struct anonymous_1 tmppt_link1;
+          signed int tnext_link1;
+          signed int i_d0_link1;
+          tmpseg_link1 = tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].rseg;
+          i_d0_link1 = 0;
+          double return_value_fabs_29_link1;
+          return_value_fabs_29_link1=fabs(tr[(signed long int)add_segment__1__t_link1].lo.y - s_link1.v0.y);
+          if(return_value_fabs_29_link1 <= 1.0e-7)
           {
-            if(tr[(signed long int)add_segment$$1$$t$link1].lo.x > s$link1.v0.x)
-              i_d0$link1 = 1;
+            if(tr[(signed long int)add_segment__1__t_link1].lo.x > s_link1.v0.x)
+              i_d0_link1 = 1;
 
           }
 
           else
           {
-            y0$link1 = tr[(signed long int)add_segment$$1$$t$link1].lo.y;
-            tmppt$link1.y = y0$link1;
-            yt$link1 = (y0$link1 - s$link1.v0.y) / (s$link1.v1.y - s$link1.v0.y);
-            tmppt$link1.x = s$link1.v0.x + yt$link1 * (s$link1.v1.x - s$link1.v0.x);
-            signed int return_value__less_than$28$link1;
-            return_value__less_than$28$link1=_less_than(&tmppt$link1, &tr[(signed long int)add_segment$$1$$t$link1].lo);
-            if(!(return_value__less_than$28$link1 == 0))
-              i_d0$link1 = 1;
+            y0_link1 = tr[(signed long int)add_segment__1__t_link1].lo.y;
+            tmppt_link1.y = y0_link1;
+            yt_link1 = (y0_link1 - s_link1.v0.y) / (s_link1.v1.y - s_link1.v0.y);
+            tmppt_link1.x = s_link1.v0.x + yt_link1 * (s_link1.v1.x - s_link1.v0.x);
+            signed int return_value__less_than_28_link1;
+            return_value__less_than_28_link1=_less_than(&tmppt_link1, &tr[(signed long int)add_segment__1__t_link1].lo);
+            if(!(return_value__less_than_28_link1 == 0))
+              i_d0_link1 = 1;
 
           }
-          if(tr[(signed long int)add_segment$$1$$t$link1].u0 >= 1)
-            tmp_if_expr$33$link1 = tr[(signed long int)add_segment$$1$$t$link1].u1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(tr[(signed long int)add_segment__1__t_link1].u0 >= 1)
+            tmp_if_expr_33_link1 = tr[(signed long int)add_segment__1__t_link1].u1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$33$link1 = (_Bool)0;
-          if(tmp_if_expr$33$link1)
+            tmp_if_expr_33_link1 = (_Bool)0;
+          if(tmp_if_expr_33_link1)
           {
-            if(tr[(signed long int)add_segment$$1$$t$link1].usave >= 1)
+            if(tr[(signed long int)add_segment__1__t_link1].usave >= 1)
             {
-              if(tr[(signed long int)add_segment$$1$$t$link1].uside == 1)
+              if(tr[(signed long int)add_segment__1__t_link1].uside == 1)
               {
-                tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = -1;
-                tr[(signed long int)tn$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u1].d0 = tn$link1;
+                tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = -1;
+                tr[(signed long int)tn_link1].u1 = tr[(signed long int)add_segment__1__t_link1].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u1].d0 = tn_link1;
               }
 
               else
               {
-                tr[(signed long int)tn$link1].u1 = -1;
-                tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].u0;
-                tr[(signed long int)add_segment$$1$$t$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].usave;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u1].d0 = add_segment$$1$$t$link1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
+                tr[(signed long int)tn_link1].u1 = -1;
+                tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)add_segment__1__t_link1].u0;
+                tr[(signed long int)add_segment__1__t_link1].u0 = tr[(signed long int)add_segment__1__t_link1].usave;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u1].d0 = add_segment__1__t_link1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
               }
-              tr[(signed long int)tn$link1].usave = 0;
-              tr[(signed long int)add_segment$$1$$t$link1].usave = tr[(signed long int)tn$link1].usave;
+              tr[(signed long int)tn_link1].usave = 0;
+              tr[(signed long int)add_segment__1__t_link1].usave = tr[(signed long int)tn_link1].usave;
             }
 
             else
             {
-              tr[(signed long int)tn$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-              tr[(signed long int)tn$link1].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t$link1].u1 = -1;
-              tr[(signed long int)tr[(signed long int)tn$link1].u0].d0 = tn$link1;
+              tr[(signed long int)tn_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+              tr[(signed long int)tn_link1].u1 = -1;
+              tr[(signed long int)add_segment__1__t_link1].u1 = -1;
+              tr[(signed long int)tr[(signed long int)tn_link1].u0].d0 = tn_link1;
             }
           }
 
           else
           {
-            signed int add_segment$$1$$6$$4$$4$$tmp_u$link1 = tr[(signed long int)add_segment$$1$$t$link1].u0;
-            signed int td0$link1 = tr[(signed long int)add_segment$$1$$6$$4$$4$$tmp_u$link1].d0;
-            if(td0$link1 >= 1)
-              tmp_if_expr$32$link1 = tr[(signed long int)add_segment$$1$$6$$4$$4$$tmp_u$link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
+            signed int add_segment__1__6__4__4__tmp_u_link1 = tr[(signed long int)add_segment__1__t_link1].u0;
+            signed int td0_link1 = tr[(signed long int)add_segment__1__6__4__4__tmp_u_link1].d0;
+            if(td0_link1 >= 1)
+              tmp_if_expr_32_link1 = tr[(signed long int)add_segment__1__6__4__4__tmp_u_link1].d1 > 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$32$link1 = (_Bool)0;
-            if(tmp_if_expr$32$link1)
+              tmp_if_expr_32_link1 = (_Bool)0;
+            if(tmp_if_expr_32_link1)
             {
-              if(tr[(signed long int)td0$link1].rseg >= 1)
+              if(tr[(signed long int)td0_link1].rseg >= 1)
               {
-                return_value_is_left_of$30$link1=is_left_of$link1(tr[(signed long int)td0$link1].rseg, &s$link1.v1);
-                tmp_if_expr$31$link1 = !(return_value_is_left_of$30$link1 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_is_left_of_30_link1=is_left_of_link1(tr[(signed long int)td0_link1].rseg, &s_link1.v1);
+                tmp_if_expr_31_link1 = !(return_value_is_left_of_30_link1 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$31$link1 = (_Bool)0;
-              if(tmp_if_expr$31$link1)
+                tmp_if_expr_31_link1 = (_Bool)0;
+              if(tmp_if_expr_31_link1)
               {
-                tr[(signed long int)tn$link1].u1 = -1;
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = tr[(signed long int)tn$link1].u1;
-                tr[(signed long int)add_segment$$1$$t$link1].u0 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)tr[(signed long int)tn$link1].u0].d1 = tn$link1;
+                tr[(signed long int)tn_link1].u1 = -1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = tr[(signed long int)tn_link1].u1;
+                tr[(signed long int)add_segment__1__t_link1].u0 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)tr[(signed long int)tn_link1].u0].d1 = tn_link1;
               }
 
               else
               {
-                tr[(signed long int)add_segment$$1$$t$link1].u1 = -1;
-                tr[(signed long int)tn$link1].u1 = tr[(signed long int)add_segment$$1$$t$link1].u1;
-                tr[(signed long int)tn$link1].u0 = tr[(signed long int)tn$link1].u1;
-                tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
+                tr[(signed long int)add_segment__1__t_link1].u1 = -1;
+                tr[(signed long int)tn_link1].u1 = tr[(signed long int)add_segment__1__t_link1].u1;
+                tr[(signed long int)tn_link1].u0 = tr[(signed long int)tn_link1].u1;
+                tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
               }
             }
 
             else
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].u0].d1 = tn$link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].u0].d1 = tn_link1;
             }
           }
-          double return_value_fabs$34$link1;
-          return_value_fabs$34$link1=fabs(tr[(signed long int)add_segment$$1$$t$link1].lo.y - tr[(signed long int)tlast$link1].lo.y);
-          if(return_value_fabs$34$link1 <= 1.0e-7)
+          double return_value_fabs_34_link1;
+          return_value_fabs_34_link1=fabs(tr[(signed long int)add_segment__1__t_link1].lo.y - tr[(signed long int)tlast_link1].lo.y);
+          if(return_value_fabs_34_link1 <= 1.0e-7)
           {
-            return_value_fabs$35$link1=fabs(tr[(signed long int)add_segment$$1$$t$link1].lo.x - tr[(signed long int)tlast$link1].lo.x);
-            tmp_if_expr$36$link1 = return_value_fabs$35$link1 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
+            return_value_fabs_35_link1=fabs(tr[(signed long int)add_segment__1__t_link1].lo.x - tr[(signed long int)tlast_link1].lo.x);
+            tmp_if_expr_36_link1 = return_value_fabs_35_link1 <= 1.0e-7 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$36$link1 = (_Bool)0;
-          if(!(tribot$link1 == 0) && tmp_if_expr$36$link1)
+            tmp_if_expr_36_link1 = (_Bool)0;
+          if(!(tribot_link1 == 0) && tmp_if_expr_36_link1)
           {
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0 = add_segment$$1$$t$link1;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u1 = -1;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0 = tn$link1;
-            tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u1 = -1;
-            tr[(signed long int)tn$link1].d0 = tr[(signed long int)add_segment$$1$$t$link1].d1;
-            tr[(signed long int)tn$link1].d1 = -1;
-            tr[(signed long int)add_segment$$1$$t$link1].d1 = tr[(signed long int)tn$link1].d1;
-            tnext$link1 = tr[(signed long int)add_segment$$1$$t$link1].d1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0 = add_segment__1__t_link1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u1 = -1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0 = tn_link1;
+            tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u1 = -1;
+            tr[(signed long int)tn_link1].d0 = tr[(signed long int)add_segment__1__t_link1].d1;
+            tr[(signed long int)tn_link1].d1 = -1;
+            tr[(signed long int)add_segment__1__t_link1].d1 = tr[(signed long int)tn_link1].d1;
+            tnext_link1 = tr[(signed long int)add_segment__1__t_link1].d1;
           }
 
           else
-            if(!(i_d0$link1 == 0))
+            if(!(i_d0_link1 == 0))
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u1 = tn$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0 = tn$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u1 = -1;
-              tr[(signed long int)add_segment$$1$$t$link1].d1 = -1;
-              tnext$link1 = tr[(signed long int)add_segment$$1$$t$link1].d0;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u1 = tn_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0 = tn_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u1 = -1;
+              tr[(signed long int)add_segment__1__t_link1].d1 = -1;
+              tnext_link1 = tr[(signed long int)add_segment__1__t_link1].d0;
             }
 
             else
             {
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d0].u1 = -1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u0 = add_segment$$1$$t$link1;
-              tr[(signed long int)tr[(signed long int)add_segment$$1$$t$link1].d1].u1 = tn$link1;
-              tr[(signed long int)tn$link1].d0 = tr[(signed long int)add_segment$$1$$t$link1].d1;
-              tr[(signed long int)tn$link1].d1 = -1;
-              tnext$link1 = tr[(signed long int)add_segment$$1$$t$link1].d1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d0].u1 = -1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u0 = add_segment__1__t_link1;
+              tr[(signed long int)tr[(signed long int)add_segment__1__t_link1].d1].u1 = tn_link1;
+              tr[(signed long int)tn_link1].d0 = tr[(signed long int)add_segment__1__t_link1].d1;
+              tr[(signed long int)tn_link1].d1 = -1;
+              tnext_link1 = tr[(signed long int)add_segment__1__t_link1].d1;
             }
-          add_segment$$1$$t$link1 = tnext$link1;
+          add_segment__1__t_link1 = tnext_link1;
         }
       }
     }
-    tr[(signed long int)tn_sav$link1].lseg = segnum$link1;
-    tr[(signed long int)t_sav$link1].rseg = tr[(signed long int)tn_sav$link1].lseg;
+    tr[(signed long int)tn_sav_link1].lseg = segnum_link1;
+    tr[(signed long int)t_sav_link1].rseg = tr[(signed long int)tn_sav_link1].lseg;
   }
-  tfirstl$link1 = tfirst$link1;
-  tlastl$link1 = tlast$link1;
-  merge_trapezoids$link1(segnum$link1, tfirstl$link1, tlastl$link1, 1);
-  merge_trapezoids$link1(segnum$link1, tfirstr$link1, tlastr$link1, 2);
-  seg[(signed long int)segnum$link1].is_inserted = 1;
+  tfirstl_link1 = tfirst_link1;
+  tlastl_link1 = tlast_link1;
+  merge_trapezoids_link1(segnum_link1, tfirstl_link1, tlastl_link1, 1);
+  merge_trapezoids_link1(segnum_link1, tfirstr_link1, tlastr_link1, 2);
+  seg[(signed long int)segnum_link1].is_inserted = 1;
   return 0;
 }
 
@@ -7062,11 +7062,11 @@ void * alloc_memory(signed int len)
   res=malloc((unsigned long int)len);
   if(res == NULL)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("Error - can't allocate memory: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("Error - can't allocate memory: %s\n", return_value_strerror_2);
     exit(1);
   }
 
@@ -7079,9 +7079,9 @@ void * alloc_memory(signed int len)
 extern signed int choose_segment(void)
 {
   errds(1, "sei:choose_segment()", "%d", permute[(signed long int)choose_idx]);
-  signed int tmp_post$1 = choose_idx;
+  signed int tmp_post_1 = choose_idx;
   choose_idx = choose_idx + 1;
-  return permute[(signed long int)tmp_post$1];
+  return permute[(signed long int)tmp_post_1];
 }
 
 // construct_trapezoids
@@ -7089,38 +7089,38 @@ extern signed int choose_segment(void)
 extern signed int construct_trapezoids(signed int nseg)
 {
   signed int i;
-  signed int construct_trapezoids$$1$$root;
+  signed int construct_trapezoids__1__root;
   signed int h;
-  signed int return_value_choose_segment$1;
-  return_value_choose_segment$1=choose_segment();
-  construct_trapezoids$$1$$root=init_query_structure(return_value_choose_segment$1);
+  signed int return_value_choose_segment_1;
+  return_value_choose_segment_1=choose_segment();
+  construct_trapezoids__1__root=init_query_structure(return_value_choose_segment_1);
   i = 1;
   for( ; nseg >= i; i = i + 1)
   {
-    seg[(signed long int)i].root1 = construct_trapezoids$$1$$root;
+    seg[(signed long int)i].root1 = construct_trapezoids__1__root;
     seg[(signed long int)i].root0 = seg[(signed long int)i].root1;
   }
   h = 1;
-  signed int return_value_math_logstar_n$2;
-  signed int return_value_math_N$4;
-  signed int return_value_choose_segment$5;
+  signed int return_value_math_logstar_n_2;
+  signed int return_value_math_N_4;
+  signed int return_value_choose_segment_5;
   do
   {
-    return_value_math_logstar_n$2=math_logstar_n(nseg);
-    if(!(return_value_math_logstar_n$2 >= h))
+    return_value_math_logstar_n_2=math_logstar_n(nseg);
+    if(!(return_value_math_logstar_n_2 >= h))
       break;
 
-    signed int return_value_math_N$3;
-    return_value_math_N$3=math_N(nseg, h - 1);
-    i = return_value_math_N$3 + 1;
+    signed int return_value_math_N_3;
+    return_value_math_N_3=math_N(nseg, h - 1);
+    i = return_value_math_N_3 + 1;
     do
     {
-      return_value_math_N$4=math_N(nseg, h);
-      if(!(return_value_math_N$4 >= i))
+      return_value_math_N_4=math_N(nseg, h);
+      if(!(return_value_math_N_4 >= i))
         break;
 
-      return_value_choose_segment$5=choose_segment();
-      add_segment(return_value_choose_segment$5);
+      return_value_choose_segment_5=choose_segment();
+      add_segment(return_value_choose_segment_5);
       i = i + 1;
     }
     while((_Bool)1);
@@ -7130,16 +7130,16 @@ extern signed int construct_trapezoids(signed int nseg)
     h = h + 1;
   }
   while((_Bool)1);
-  signed int return_value_math_logstar_n$6;
-  return_value_math_logstar_n$6=math_logstar_n(nseg);
-  signed int return_value_math_N$7;
-  return_value_math_N$7=math_N(nseg, return_value_math_logstar_n$6);
-  i = return_value_math_N$7 + 1;
-  signed int return_value_choose_segment$8;
+  signed int return_value_math_logstar_n_6;
+  return_value_math_logstar_n_6=math_logstar_n(nseg);
+  signed int return_value_math_N_7;
+  return_value_math_N_7=math_N(nseg, return_value_math_logstar_n_6);
+  i = return_value_math_N_7 + 1;
+  signed int return_value_choose_segment_8;
   for( ; nseg >= i; i = i + 1)
   {
-    return_value_choose_segment$8=choose_segment();
-    add_segment(return_value_choose_segment$8);
+    return_value_choose_segment_8=choose_segment();
+    add_segment(return_value_choose_segment_8);
   }
   return 0;
 }
@@ -7151,9 +7151,9 @@ static inline void errdn(signed int relevance, const char *func, signed int en)
   ;
 }
 
-// errdn$link1
+// errdn_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 111
-static inline void errdn$link1(signed int relevance$link1, const char *func$link1, signed int en$link1)
+static inline void errdn_link1(signed int relevance_link1, const char *func_link1, signed int en_link1)
 {
   ;
 }
@@ -7165,9 +7165,9 @@ static inline void errds(signed int relevance, const char *func, const char *fmt
   ;
 }
 
-// errds$link1
+// errds_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 114
-static inline void errds$link1(signed int relevance$link1, const char *func$link1, const char *fmt$link1, ...)
+static inline void errds_link1(signed int relevance_link1, const char *func_link1, const char *fmt_link1, ...)
 {
   ;
 }
@@ -7176,9 +7176,9 @@ static inline void errds$link1(signed int relevance$link1, const char *func$link
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/error.c line 63
 void errn(const char *func, signed int en)
 {
-  char *return_value_strerror$1;
-  return_value_strerror$1=strerror(en);
-  fprintf(stderr, "s3dlib error: %s: (%d) %s\n", func, en, return_value_strerror$1);
+  char *return_value_strerror_1;
+  return_value_strerror_1=strerror(en);
+  fprintf(stderr, "s3dlib error: %s: (%d) %s\n", func, en, return_value_strerror_1);
 }
 
 // errs
@@ -7192,7 +7192,7 @@ void errs(const char *func, const char *msg)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 903
 static signed int find_new_roots(signed int segnum)
 {
-  struct anonymous$14 *s = &seg[(signed long int)segnum];
+  struct anonymous_14 *s = &seg[(signed long int)segnum];
   if(!(s->is_inserted == 0))
     return 0;
 
@@ -7206,20 +7206,20 @@ static signed int find_new_roots(signed int segnum)
   }
 }
 
-// find_new_roots$link1
+// find_new_roots_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 903
-static signed int find_new_roots$link1(signed int segnum$link1)
+static signed int find_new_roots_link1(signed int segnum_link1)
 {
-  struct anonymous$14 *s$link1 = &seg[(signed long int)segnum$link1];
-  if(!(s$link1->is_inserted == 0))
+  struct anonymous_14 *s_link1 = &seg[(signed long int)segnum_link1];
+  if(!(s_link1->is_inserted == 0))
     return 0;
 
   else
   {
-    s$link1->root0=locate_endpoint(&s$link1->v0, &s$link1->v1, s$link1->root0);
-    s$link1->root0 = tr[(signed long int)s$link1->root0].sink;
-    s$link1->root1=locate_endpoint(&s$link1->v1, &s$link1->v0, s$link1->root1);
-    s$link1->root1 = tr[(signed long int)s$link1->root1].sink;
+    s_link1->root0=locate_endpoint(&s_link1->v0, &s_link1->v1, s_link1->root0);
+    s_link1->root0 = tr[(signed long int)s_link1->root0].sink;
+    s_link1->root1=locate_endpoint(&s_link1->v1, &s_link1->v0, s_link1->root1);
+    s_link1->root1 = tr[(signed long int)s_link1->root1].sink;
     return 0;
   }
 }
@@ -7234,9 +7234,9 @@ struct wlan_network * find_wlan_network(char *bssid)
   for( ; !(network_pos == &Network_list); network_pos = network_pos->next)
   {
     wlan_network = (struct wlan_network *)((char *)network_pos - (signed long int)(unsigned long int)&((struct wlan_network *)0)->list);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(wlan_network->bssid, bssid, (unsigned long int)18);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(wlan_network->bssid, bssid, (unsigned long int)18);
+    if(return_value_strncmp_1 == 0)
       return wlan_network;
 
   }
@@ -7262,9 +7262,9 @@ extern signed int generate_random_ordering(signed int n)
   i = 1;
   for( ; n >= i; p = p + 1l)
   {
-    signed long int return_value_lrand48$1;
-    return_value_lrand48$1=lrand48();
-    m = (signed int)(return_value_lrand48$1 % (signed long int)((n + 1) - i) + (signed long int)1);
+    signed long int return_value_lrand48_1;
+    return_value_lrand48_1=lrand48();
+    m = (signed int)(return_value_lrand48_1 % (signed long int)((n + 1) - i) + (signed long int)1);
     permute[(signed long int)i] = p[(signed long int)m];
     if(!(m == 1))
       p[(signed long int)m] = p[(signed long int)1];
@@ -7276,59 +7276,59 @@ extern signed int generate_random_ordering(signed int n)
 
 // get_angle
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 100
-static double get_angle(struct anonymous$1 *vp0, struct anonymous$1 *vpnext, struct anonymous$1 *vp1)
+static double get_angle(struct anonymous_1 *vp0, struct anonymous_1 *vpnext, struct anonymous_1 *vp1)
 {
-  struct anonymous$1 v0;
-  struct anonymous$1 v1;
+  struct anonymous_1 v0;
+  struct anonymous_1 v1;
   v0.x = vpnext->x - vp0->x;
   v0.y = vpnext->y - vp0->y;
   v1.x = vp1->x - vp0->x;
   v1.y = vp1->y - vp0->y;
-  double return_value_sqrt$1;
-  double return_value_sqrt$2;
-  double return_value_sqrt$3;
-  double return_value_sqrt$4;
+  double return_value_sqrt_1;
+  double return_value_sqrt_2;
+  double return_value_sqrt_3;
+  double return_value_sqrt_4;
   if(v0.x * v1.y + -(v1.x * v0.y) >= 0.000000)
   {
-    return_value_sqrt$1=sqrt(v0.x * v0.x + v0.y * v0.y);
-    return_value_sqrt$2=sqrt(v1.x * v1.x + v1.y * v1.y);
-    return ((v0.x * v1.x + v0.y * v1.y) / return_value_sqrt$1) / return_value_sqrt$2;
+    return_value_sqrt_1=sqrt(v0.x * v0.x + v0.y * v0.y);
+    return_value_sqrt_2=sqrt(v1.x * v1.x + v1.y * v1.y);
+    return ((v0.x * v1.x + v0.y * v1.y) / return_value_sqrt_1) / return_value_sqrt_2;
   }
 
   else
   {
-    return_value_sqrt$3=sqrt(v0.x * v0.x + v0.y * v0.y);
-    return_value_sqrt$4=sqrt(v1.x * v1.x + v1.y * v1.y);
-    return ((-1.0 * (v0.x * v1.x + v0.y * v1.y)) / return_value_sqrt$3) / return_value_sqrt$4 - (double)2;
+    return_value_sqrt_3=sqrt(v0.x * v0.x + v0.y * v0.y);
+    return_value_sqrt_4=sqrt(v1.x * v1.x + v1.y * v1.y);
+    return ((-1.0 * (v0.x * v1.x + v0.y * v1.y)) / return_value_sqrt_3) / return_value_sqrt_4 - (double)2;
   }
 }
 
-// get_angle$link1
+// get_angle_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 100
-static double get_angle$link1(struct anonymous$1 *vp0$link1, struct anonymous$1 *vpnext$link1, struct anonymous$1 *vp1$link1)
+static double get_angle_link1(struct anonymous_1 *vp0_link1, struct anonymous_1 *vpnext_link1, struct anonymous_1 *vp1_link1)
 {
-  struct anonymous$1 v0$link1;
-  struct anonymous$1 v1$link1;
-  v0$link1.x = vpnext$link1->x - vp0$link1->x;
-  v0$link1.y = vpnext$link1->y - vp0$link1->y;
-  v1$link1.x = vp1$link1->x - vp0$link1->x;
-  v1$link1.y = vp1$link1->y - vp0$link1->y;
-  double return_value_sqrt$1$link1;
-  double return_value_sqrt$2$link1;
-  double return_value_sqrt$3$link1;
-  double return_value_sqrt$4$link1;
-  if(v0$link1.x * v1$link1.y + -(v1$link1.x * v0$link1.y) >= 0.000000)
+  struct anonymous_1 v0_link1;
+  struct anonymous_1 v1_link1;
+  v0_link1.x = vpnext_link1->x - vp0_link1->x;
+  v0_link1.y = vpnext_link1->y - vp0_link1->y;
+  v1_link1.x = vp1_link1->x - vp0_link1->x;
+  v1_link1.y = vp1_link1->y - vp0_link1->y;
+  double return_value_sqrt_1_link1;
+  double return_value_sqrt_2_link1;
+  double return_value_sqrt_3_link1;
+  double return_value_sqrt_4_link1;
+  if(v0_link1.x * v1_link1.y + -(v1_link1.x * v0_link1.y) >= 0.000000)
   {
-    return_value_sqrt$1$link1=sqrt(v0$link1.x * v0$link1.x + v0$link1.y * v0$link1.y);
-    return_value_sqrt$2$link1=sqrt(v1$link1.x * v1$link1.x + v1$link1.y * v1$link1.y);
-    return ((v0$link1.x * v1$link1.x + v0$link1.y * v1$link1.y) / return_value_sqrt$1$link1) / return_value_sqrt$2$link1;
+    return_value_sqrt_1_link1=sqrt(v0_link1.x * v0_link1.x + v0_link1.y * v0_link1.y);
+    return_value_sqrt_2_link1=sqrt(v1_link1.x * v1_link1.x + v1_link1.y * v1_link1.y);
+    return ((v0_link1.x * v1_link1.x + v0_link1.y * v1_link1.y) / return_value_sqrt_1_link1) / return_value_sqrt_2_link1;
   }
 
   else
   {
-    return_value_sqrt$3$link1=sqrt(v0$link1.x * v0$link1.x + v0$link1.y * v0$link1.y);
-    return_value_sqrt$4$link1=sqrt(v1$link1.x * v1$link1.x + v1$link1.y * v1$link1.y);
-    return ((-1.0 * (v0$link1.x * v1$link1.x + v0$link1.y * v1$link1.y)) / return_value_sqrt$3$link1) / return_value_sqrt$4$link1 - (double)2;
+    return_value_sqrt_3_link1=sqrt(v0_link1.x * v0_link1.x + v0_link1.y * v0_link1.y);
+    return_value_sqrt_4_link1=sqrt(v1_link1.x * v1_link1.x + v1_link1.y * v1_link1.y);
+    return ((-1.0 * (v0_link1.x * v1_link1.x + v0_link1.y * v1_link1.y)) / return_value_sqrt_3_link1) / return_value_sqrt_4_link1 - (double)2;
   }
 }
 
@@ -7342,9 +7342,9 @@ static struct material2texture * get_mat2tex(struct material2texture **mat2tex, 
 
   if(*mat2tex == ((struct material2texture *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct material2texture) /*32ul*/ );
-    *mat2tex = (struct material2texture *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct material2texture) /*32ul*/ );
+    *mat2tex = (struct material2texture *)return_value_malloc_1;
     if(*mat2tex == ((struct material2texture *)NULL))
     {
       errs("model_import()", "Sorry - you ran out of memory !\n");
@@ -7362,31 +7362,31 @@ static struct material2texture * get_mat2tex(struct material2texture **mat2tex, 
   return (struct material2texture *)(void *)0;
 }
 
-// get_mat2tex$link1
+// get_mat2tex_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 91
-static struct material2texture * get_mat2tex$link1(struct material2texture **mat2tex$link1, void *mat_ptr$link1)
+static struct material2texture * get_mat2tex_link1(struct material2texture **mat2tex_link1, void *mat_ptr_link1)
 {
-  for( ; !(*mat2tex$link1 == ((struct material2texture *)NULL)); mat2tex$link1 = &(*mat2tex$link1)->next_ptr)
-    if((*mat2tex$link1)->material_ptr == mat_ptr$link1)
-      return *mat2tex$link1;
+  for( ; !(*mat2tex_link1 == ((struct material2texture *)NULL)); mat2tex_link1 = &(*mat2tex_link1)->next_ptr)
+    if((*mat2tex_link1)->material_ptr == mat_ptr_link1)
+      return *mat2tex_link1;
 
-  if(*mat2tex$link1 == ((struct material2texture *)NULL))
+  if(*mat2tex_link1 == ((struct material2texture *)NULL))
   {
-    void *return_value_malloc$1$link1;
-    return_value_malloc$1$link1=malloc(sizeof(struct material2texture) /*32ul*/ );
-    *mat2tex$link1 = (struct material2texture *)return_value_malloc$1$link1;
-    if(*mat2tex$link1 == ((struct material2texture *)NULL))
+    void *return_value_malloc_1_link1;
+    return_value_malloc_1_link1=malloc(sizeof(struct material2texture) /*32ul*/ );
+    *mat2tex_link1 = (struct material2texture *)return_value_malloc_1_link1;
+    if(*mat2tex_link1 == ((struct material2texture *)NULL))
     {
       errs("model_import()", "Sorry - you ran out of memory !\n");
       exit(8);
     }
 
-    (*mat2tex$link1)->next_ptr = (struct material2texture *)(void *)0;
-    (*mat2tex$link1)->material_ptr = mat_ptr$link1;
-    (*mat2tex$link1)->texture_ptr = (void *)0;
-    (*mat2tex$link1)->material_id = -1;
-    (*mat2tex$link1)->texture_id = -1;
-    return *mat2tex$link1;
+    (*mat2tex_link1)->next_ptr = (struct material2texture *)(void *)0;
+    (*mat2tex_link1)->material_ptr = mat_ptr_link1;
+    (*mat2tex_link1)->texture_ptr = (void *)0;
+    (*mat2tex_link1)->material_id = -1;
+    (*mat2tex_link1)->texture_id = -1;
+    return *mat2tex_link1;
   }
 
   return (struct material2texture *)(void *)0;
@@ -7405,8 +7405,8 @@ unsigned int get_time(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 119
 static signed int get_vertex_positions(signed int v0, signed int v1, signed int *ip, signed int *iq)
 {
-  struct anonymous$2 *vp0;
-  struct anonymous$2 *vp1;
+  struct anonymous_2 *vp0;
+  struct anonymous_2 *vp1;
   signed int i;
   double angle;
   double temp;
@@ -7448,50 +7448,50 @@ static signed int get_vertex_positions(signed int v0, signed int v1, signed int 
   return 0;
 }
 
-// get_vertex_positions$link1
+// get_vertex_positions_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 119
-static signed int get_vertex_positions$link1(signed int v0$link1, signed int v1$link1, signed int *ip$link1, signed int *iq$link1)
+static signed int get_vertex_positions_link1(signed int v0_link1, signed int v1_link1, signed int *ip_link1, signed int *iq_link1)
 {
-  struct anonymous$2 *vp0$link1;
-  struct anonymous$2 *vp1$link1;
-  signed int i$link1;
-  double angle$link1;
-  double temp$link1;
-  signed int tp$link1;
-  signed int tq$link1 = 0;
-  tp$link1 = tq$link1;
-  vp0$link1 = &vert$link1[(signed long int)v0$link1];
-  vp1$link1 = &vert$link1[(signed long int)v1$link1];
-  angle$link1 = -4.0;
-  i$link1 = 0;
-  for( ; !(i$link1 >= 4); i$link1 = i$link1 + 1)
-    if(vp0$link1->vnext[(signed long int)i$link1] >= 1)
+  struct anonymous_2 *vp0_link1;
+  struct anonymous_2 *vp1_link1;
+  signed int i_link1;
+  double angle_link1;
+  double temp_link1;
+  signed int tp_link1;
+  signed int tq_link1 = 0;
+  tp_link1 = tq_link1;
+  vp0_link1 = &vert_link1[(signed long int)v0_link1];
+  vp1_link1 = &vert_link1[(signed long int)v1_link1];
+  angle_link1 = -4.0;
+  i_link1 = 0;
+  for( ; !(i_link1 >= 4); i_link1 = i_link1 + 1)
+    if(vp0_link1->vnext[(signed long int)i_link1] >= 1)
     {
-      temp$link1=get_angle$link1(&vp0$link1->pt, &vert$link1[(signed long int)vp0$link1->vnext[(signed long int)i$link1]].pt, &vp1$link1->pt);
-      if(temp$link1 > angle$link1)
+      temp_link1=get_angle_link1(&vp0_link1->pt, &vert_link1[(signed long int)vp0_link1->vnext[(signed long int)i_link1]].pt, &vp1_link1->pt);
+      if(temp_link1 > angle_link1)
       {
-        angle$link1 = temp$link1;
-        tp$link1 = i$link1;
+        angle_link1 = temp_link1;
+        tp_link1 = i_link1;
       }
 
     }
 
-  *ip$link1 = tp$link1;
-  angle$link1 = -4.0;
-  i$link1 = 0;
-  for( ; !(i$link1 >= 4); i$link1 = i$link1 + 1)
-    if(vp1$link1->vnext[(signed long int)i$link1] >= 1)
+  *ip_link1 = tp_link1;
+  angle_link1 = -4.0;
+  i_link1 = 0;
+  for( ; !(i_link1 >= 4); i_link1 = i_link1 + 1)
+    if(vp1_link1->vnext[(signed long int)i_link1] >= 1)
     {
-      temp$link1=get_angle$link1(&vp1$link1->pt, &vert$link1[(signed long int)vp1$link1->vnext[(signed long int)i$link1]].pt, &vp0$link1->pt);
-      if(temp$link1 > angle$link1)
+      temp_link1=get_angle_link1(&vp1_link1->pt, &vert_link1[(signed long int)vp1_link1->vnext[(signed long int)i_link1]].pt, &vp0_link1->pt);
+      if(temp_link1 > angle_link1)
       {
-        angle$link1 = temp$link1;
-        tq$link1 = i$link1;
+        angle_link1 = temp_link1;
+        tq_link1 = i_link1;
       }
 
     }
 
-  *iq$link1 = tq$link1;
+  *iq_link1 = tq_link1;
   return 0;
 }
 
@@ -7505,15 +7505,15 @@ struct wlan_client * get_wlan_client(char *mac)
   for( ; !(client_pos == &Client_list); client_pos = client_pos->next)
   {
     wlan_client = (struct wlan_client *)((char *)client_pos - (signed long int)(unsigned long int)&((struct wlan_client *)0)->list);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(wlan_client->mac, mac, (unsigned long int)18);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(wlan_client->mac, mac, (unsigned long int)18);
+    if(return_value_strncmp_1 == 0)
       return wlan_client;
 
   }
-  void *return_value_alloc_memory$2;
-  return_value_alloc_memory$2=alloc_memory((signed int)sizeof(struct wlan_client) /*128ul*/ );
-  wlan_client = (struct wlan_client *)return_value_alloc_memory$2;
+  void *return_value_alloc_memory_2;
+  return_value_alloc_memory_2=alloc_memory((signed int)sizeof(struct wlan_client) /*128ul*/ );
+  wlan_client = (struct wlan_client *)return_value_alloc_memory_2;
   do
   {
     (&wlan_client->list)->next = &wlan_client->list;
@@ -7524,15 +7524,15 @@ struct wlan_client * get_wlan_client(char *mac)
   wlan_client->wlan_network = (struct wlan_network *)(void *)0;
   wlan_client->props_changed = 1;
   wlan_client->visible = 1;
-  signed int return_value_rand$3;
-  return_value_rand$3=rand();
-  wlan_client->pos_vec[(signed long int)0] = (float)((double)(((float)2.0 * (float)return_value_rand$3) / (float)2147483647) - 1.0);
-  signed int return_value_rand$4;
-  return_value_rand$4=rand();
-  wlan_client->pos_vec[(signed long int)1] = (float)((double)(((float)2.0 * (float)return_value_rand$4) / (float)2147483647) - 1.0);
-  signed int return_value_rand$5;
-  return_value_rand$5=rand();
-  wlan_client->pos_vec[(signed long int)2] = (float)((double)(((float)2.0 * (float)return_value_rand$5) / (float)2147483647) - 1.0);
+  signed int return_value_rand_3;
+  return_value_rand_3=rand();
+  wlan_client->pos_vec[(signed long int)0] = (float)((double)(((float)2.0 * (float)return_value_rand_3) / (float)2147483647) - 1.0);
+  signed int return_value_rand_4;
+  return_value_rand_4=rand();
+  wlan_client->pos_vec[(signed long int)1] = (float)((double)(((float)2.0 * (float)return_value_rand_4) / (float)2147483647) - 1.0);
+  signed int return_value_rand_5;
+  return_value_rand_5=rand();
+  wlan_client->pos_vec[(signed long int)2] = (float)((double)(((float)2.0 * (float)return_value_rand_5) / (float)2147483647) - 1.0);
   wlan_client->mov_vec[(signed long int)2] = (float)0.0;
   wlan_client->mov_vec[(signed long int)1] = wlan_client->mov_vec[(signed long int)2];
   wlan_client->mov_vec[(signed long int)0] = wlan_client->mov_vec[(signed long int)1];
@@ -7553,9 +7553,9 @@ struct wlan_network * get_wlan_network(char *bssid)
 
   else
   {
-    void *return_value_alloc_memory$1;
-    return_value_alloc_memory$1=alloc_memory((signed int)sizeof(struct wlan_network) /*120ul*/ );
-    wlan_network = (struct wlan_network *)return_value_alloc_memory$1;
+    void *return_value_alloc_memory_1;
+    return_value_alloc_memory_1=alloc_memory((signed int)sizeof(struct wlan_network) /*120ul*/ );
+    wlan_network = (struct wlan_network *)return_value_alloc_memory_1;
     do
     {
       (&wlan_network->list)->next = &wlan_network->list;
@@ -7588,13 +7588,13 @@ struct wlan_network * get_wlan_network(char *bssid)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/apps/kism3d/gui.c line 426
 void * gui_main(void *unused)
 {
-  signed int return_value_s3d_init$2;
-  return_value_s3d_init$2=s3d_init((signed int *)(void *)0, (char ***)(void *)0, "kism3d");
-  if(return_value_s3d_init$2 == 0)
+  signed int return_value_s3d_init_2;
+  return_value_s3d_init_2=s3d_init((signed int *)(void *)0, (char ***)(void *)0, "kism3d");
+  if(return_value_s3d_init_2 == 0)
   {
-    signed int return_value_s3d_select_font$1;
-    return_value_s3d_select_font$1=s3d_select_font("vera");
-    if(!(return_value_s3d_select_font$1 == 0))
+    signed int return_value_s3d_select_font_1;
+    return_value_s3d_select_font_1=s3d_select_font("vera");
+    if(!(return_value_s3d_select_font_1 == 0))
       printf("font 'vera' not found\n");
 
     else
@@ -7649,11 +7649,11 @@ static signed int handle_clients(void)
 
       angle=s3d_angle_to_cam(wlan_client->pos_vec, CamPosition[(signed long int)0], &angle_rad);
       s3d_rotate(wlan_client->ip_id, (float)0, angle, (float)0);
-      double return_value_cos$1;
-      return_value_cos$1=cos((double)angle_rad);
-      double return_value_sin$2;
-      return_value_sin$2=sin((double)angle_rad);
-      s3d_translate(wlan_client->ip_id, (float)((-return_value_cos$1 * 0.2 * (double)wlan_client->ip_len) / (double)2), (float)2, (float)((return_value_sin$2 * 0.2 * (double)wlan_client->ip_len) / (double)2));
+      double return_value_cos_1;
+      return_value_cos_1=cos((double)angle_rad);
+      double return_value_sin_2;
+      return_value_sin_2=sin((double)angle_rad);
+      s3d_translate(wlan_client->ip_id, (float)((-return_value_cos_1 * 0.2 * (double)wlan_client->ip_len) / (double)2), (float)2, (float)((return_value_sin_2 * 0.2 * (double)wlan_client->ip_len) / (double)2));
     }
 
   }
@@ -7677,10 +7677,10 @@ static signed int handle_networks(void)
   float templen;
   pthread_mutex_lock(&Network_list_mutex);
   network_pos = (&Network_list)->next;
-  _Bool tmp_if_expr$7;
-  double return_value_fabs$6;
-  char *tmp_if_expr$9;
-  char *tmp_if_expr$8;
+  _Bool tmp_if_expr_7;
+  double return_value_fabs_6;
+  char *tmp_if_expr_9;
+  char *tmp_if_expr_8;
   for( ; !(network_pos == &Network_list); network_pos = network_pos->next)
   {
     wlan_network = (struct wlan_network *)((char *)network_pos - (signed long int)(unsigned long int)&((struct wlan_network *)0)->list);
@@ -7698,32 +7698,32 @@ static signed int handle_networks(void)
       wlan_network->scale_fac = wlan_network->num_wlan_clients + 2;
       s3d_translate(wlan_network->wrsphr_id, (float)0, (float)0, (float)0);
       s3d_scale(wlan_network->obj_id, (float)wlan_network->scale_fac);
-      double return_value_sin$1;
-      return_value_sin$1=sin((2.0 * 3.14159265358979323846 * (double)network_index) / (double)(float)Num_networks);
-      real_node_pos_x = (float)(return_value_sin$1 * (double)((1 * Num_networks) / 2) * 3.14159265358979323846);
-      double return_value_cos$2;
-      return_value_cos$2=cos((2.0 * 3.14159265358979323846 * (double)network_index) / (double)(float)Num_networks);
-      real_node_pos_z = (float)(return_value_cos$2 * (double)((1 * Num_networks) / 2) * 3.14159265358979323846);
-      double return_value_fabs$5;
-      return_value_fabs$5=fabs((double)(wlan_network->pos_vec[(signed long int)0] - real_node_pos_x));
-      if(return_value_fabs$5 > 0.5)
-        tmp_if_expr$7 = (_Bool)1;
+      double return_value_sin_1;
+      return_value_sin_1=sin((2.0 * 3.14159265358979323846 * (double)network_index) / (double)(float)Num_networks);
+      real_node_pos_x = (float)(return_value_sin_1 * (double)((1 * Num_networks) / 2) * 3.14159265358979323846);
+      double return_value_cos_2;
+      return_value_cos_2=cos((2.0 * 3.14159265358979323846 * (double)network_index) / (double)(float)Num_networks);
+      real_node_pos_z = (float)(return_value_cos_2 * (double)((1 * Num_networks) / 2) * 3.14159265358979323846);
+      double return_value_fabs_5;
+      return_value_fabs_5=fabs((double)(wlan_network->pos_vec[(signed long int)0] - real_node_pos_x));
+      if(return_value_fabs_5 > 0.5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_fabs$6=fabs((double)(wlan_network->pos_vec[(signed long int)2] - real_node_pos_z));
-        tmp_if_expr$7 = return_value_fabs$6 > 0.5 ? (_Bool)1 : (_Bool)0;
+        return_value_fabs_6=fabs((double)(wlan_network->pos_vec[(signed long int)2] - real_node_pos_z));
+        tmp_if_expr_7 = return_value_fabs_6 > 0.5 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
-        double return_value_fabs$3;
-        return_value_fabs$3=fabs((double)(wlan_network->pos_vec[(signed long int)0] - real_node_pos_x));
-        if(return_value_fabs$3 > 0.5)
+        double return_value_fabs_3;
+        return_value_fabs_3=fabs((double)(wlan_network->pos_vec[(signed long int)0] - real_node_pos_x));
+        if(return_value_fabs_3 > 0.5)
           wlan_network->pos_vec[(signed long int)0] = (wlan_network->pos_vec[(signed long int)0] * (float)9 + real_node_pos_x) / (float)10;
 
-        double return_value_fabs$4;
-        return_value_fabs$4=fabs((double)(wlan_network->pos_vec[(signed long int)2] - real_node_pos_z));
-        if(return_value_fabs$4 > 0.5)
+        double return_value_fabs_4;
+        return_value_fabs_4=fabs((double)(wlan_network->pos_vec[(signed long int)2] - real_node_pos_z));
+        if(return_value_fabs_4 > 0.5)
           wlan_network->pos_vec[(signed long int)2] = (wlan_network->pos_vec[(signed long int)2] * (float)9 + real_node_pos_z) / (float)10;
 
         s3d_translate(wlan_network->obj_id, wlan_network->pos_vec[(signed long int)0], wlan_network->pos_vec[(signed long int)1], wlan_network->pos_vec[(signed long int)2]);
@@ -7732,18 +7732,18 @@ static signed int handle_networks(void)
       if(!(wlan_network->props_changed == 0))
       {
         if(wlan_network->type == 0)
-          tmp_if_expr$9 = "Managed";
+          tmp_if_expr_9 = "Managed";
 
         else
         {
           if(wlan_network->type == 1)
-            tmp_if_expr$8 = "Ad-Hoc";
+            tmp_if_expr_8 = "Ad-Hoc";
 
           else
-            tmp_if_expr$8 = wlan_network->type == 2 ? "Prober" : "unknown";
-          tmp_if_expr$9 = tmp_if_expr$8;
+            tmp_if_expr_8 = wlan_network->type == 2 ? "Prober" : "unknown";
+          tmp_if_expr_9 = tmp_if_expr_8;
         }
-        snprintf(label_str, (unsigned long int)100, "Type: %s, CH: %i, Clients: %i", tmp_if_expr$9, wlan_network->chan, wlan_network->num_wlan_clients);
+        snprintf(label_str, (unsigned long int)100, "Type: %s, CH: %i, Clients: %i", tmp_if_expr_9, wlan_network->chan, wlan_network->num_wlan_clients);
         maxlen=s3d_strlen(label_str);
         templen=s3d_strlen(wlan_network->ssid);
         if(templen > maxlen)
@@ -7792,11 +7792,11 @@ static signed int handle_networks(void)
 
       angle=s3d_angle_to_cam(wlan_network->pos_vec, CamPosition[(signed long int)0], &angle_rad);
       s3d_rotate(wlan_network->bssid_id, (float)0, angle, (float)0);
-      double return_value_cos$10;
-      return_value_cos$10=cos((double)angle_rad);
-      double return_value_sin$11;
-      return_value_sin$11=sin((double)angle_rad);
-      s3d_translate(wlan_network->bssid_id, (float)((-return_value_cos$10 * 0.2 * (double)wlan_network->text_width) / (double)2), (float)2, (float)((return_value_sin$11 * 0.2 * (double)wlan_network->text_width) / (double)2));
+      double return_value_cos_10;
+      return_value_cos_10=cos((double)angle_rad);
+      double return_value_sin_11;
+      return_value_sin_11=sin((double)angle_rad);
+      s3d_translate(wlan_network->bssid_id, (float)((-return_value_cos_10 * 0.2 * (double)wlan_network->text_width) / (double)2), (float)2, (float)((return_value_sin_11 * 0.2 * (double)wlan_network->text_width) / (double)2));
       wlan_network->rotation = (wlan_network->rotation + 1) % 360;
       s3d_rotate(wlan_network->wrsphr_id, (float)0, (float)wlan_network->rotation, (float)0);
     }
@@ -7844,20 +7844,20 @@ static signed int init_query_structure(signed int segnum)
   signed int i5;
   signed int i6;
   signed int i7;
-  signed int init_query_structure$$1$$root;
+  signed int init_query_structure__1__root;
   signed int t1;
   signed int t2;
   signed int t3;
   signed int t4;
-  struct anonymous$14 *s = &seg[(signed long int)segnum];
+  struct anonymous_14 *s = &seg[(signed long int)segnum];
   tr_idx = 1;
   q_idx = tr_idx;
-  memset((void *)tr, 0, sizeof(struct anonymous$3 [800l]) /*57600ul*/ );
-  memset((void *)qs, 0, sizeof(struct anonymous$15 [1600l]) /*64000ul*/ );
+  memset((void *)tr, 0, sizeof(struct anonymous_3 [800l]) /*57600ul*/ );
+  memset((void *)qs, 0, sizeof(struct anonymous_15 [1600l]) /*64000ul*/ );
   i1=newnode();
   qs[(signed long int)i1].nodetype = 2;
   _max(&qs[(signed long int)i1].yval, &s->v0, &s->v1);
-  init_query_structure$$1$$root = i1;
+  init_query_structure__1__root = i1;
   i2=newnode();
   qs[(signed long int)i1].right = i2;
   qs[(signed long int)i2].nodetype = 3;
@@ -7896,12 +7896,12 @@ static signed int init_query_structure(signed int segnum)
   tr[(signed long int)t1].lo = tr[(signed long int)t2].lo;
   tr[(signed long int)t4].hi.y=__builtin_huge_val();
   tr[(signed long int)t4].hi.x=__builtin_huge_val();
-  double return_value___builtin_huge_val$1;
-  return_value___builtin_huge_val$1=__builtin_huge_val();
-  tr[(signed long int)t3].lo.y = -return_value___builtin_huge_val$1;
-  double return_value___builtin_huge_val$2;
-  return_value___builtin_huge_val$2=__builtin_huge_val();
-  tr[(signed long int)t3].lo.x = -return_value___builtin_huge_val$2;
+  double return_value___builtin_huge_val_1;
+  return_value___builtin_huge_val_1=__builtin_huge_val();
+  tr[(signed long int)t3].lo.y = -return_value___builtin_huge_val_1;
+  double return_value___builtin_huge_val_2;
+  return_value___builtin_huge_val_2=__builtin_huge_val();
+  tr[(signed long int)t3].lo.x = -return_value___builtin_huge_val_2;
   tr[(signed long int)t2].lseg = segnum;
   tr[(signed long int)t1].rseg = tr[(signed long int)t2].lseg;
   tr[(signed long int)t2].u0 = t4;
@@ -7925,102 +7925,102 @@ static signed int init_query_structure(signed int segnum)
   qs[(signed long int)i6].trnum = t1;
   qs[(signed long int)i7].trnum = t2;
   s->is_inserted = 1;
-  return init_query_structure$$1$$root;
+  return init_query_structure__1__root;
 }
 
-// init_query_structure$link1
+// init_query_structure_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 162
-static signed int init_query_structure$link1(signed int segnum$link1)
+static signed int init_query_structure_link1(signed int segnum_link1)
 {
-  signed int i1$link1;
-  signed int i2$link1;
-  signed int i3$link1;
-  signed int i4$link1;
-  signed int i5$link1;
-  signed int i6$link1;
-  signed int i7$link1;
-  signed int root$link1;
-  signed int t1$link1;
-  signed int t2$link1;
-  signed int t3$link1;
-  signed int t4$link1;
-  struct anonymous$14 *s$link1 = &seg[(signed long int)segnum$link1];
-  tr_idx$link1 = 1;
-  q_idx$link1 = tr_idx$link1;
-  memset((void *)tr, 0, sizeof(struct anonymous$3 [800l]) /*57600ul*/ );
-  memset((void *)qs, 0, sizeof(struct anonymous$15 [1600l]) /*64000ul*/ );
-  i1$link1=newnode$link1();
-  qs[(signed long int)i1$link1].nodetype = 2;
-  _max$link1(&qs[(signed long int)i1$link1].yval, &s$link1->v0, &s$link1->v1);
-  root$link1 = i1$link1;
-  i2$link1=newnode$link1();
-  qs[(signed long int)i1$link1].right = i2$link1;
-  qs[(signed long int)i2$link1].nodetype = 3;
-  qs[(signed long int)i2$link1].parent = i1$link1;
-  i3$link1=newnode$link1();
-  qs[(signed long int)i1$link1].left = i3$link1;
-  qs[(signed long int)i3$link1].nodetype = 2;
-  _min$link1(&qs[(signed long int)i3$link1].yval, &s$link1->v0, &s$link1->v1);
-  qs[(signed long int)i3$link1].parent = i1$link1;
-  i4$link1=newnode$link1();
-  qs[(signed long int)i3$link1].left = i4$link1;
-  qs[(signed long int)i4$link1].nodetype = 3;
-  qs[(signed long int)i4$link1].parent = i3$link1;
-  i5$link1=newnode$link1();
-  qs[(signed long int)i3$link1].right = i5$link1;
-  qs[(signed long int)i5$link1].nodetype = 1;
-  qs[(signed long int)i5$link1].segnum = segnum$link1;
-  qs[(signed long int)i5$link1].parent = i3$link1;
-  i6$link1=newnode$link1();
-  qs[(signed long int)i5$link1].left = i6$link1;
-  qs[(signed long int)i6$link1].nodetype = 3;
-  qs[(signed long int)i6$link1].parent = i5$link1;
-  i7$link1=newnode$link1();
-  qs[(signed long int)i5$link1].right = i7$link1;
-  qs[(signed long int)i7$link1].nodetype = 3;
-  qs[(signed long int)i7$link1].parent = i5$link1;
-  t1$link1=newtrap$link1();
-  t2$link1=newtrap$link1();
-  t3$link1=newtrap$link1();
-  t4$link1=newtrap$link1();
-  tr[(signed long int)t4$link1].lo = qs[(signed long int)i1$link1].yval;
-  tr[(signed long int)t2$link1].hi = tr[(signed long int)t4$link1].lo;
-  tr[(signed long int)t1$link1].hi = tr[(signed long int)t2$link1].hi;
-  tr[(signed long int)t3$link1].hi = qs[(signed long int)i3$link1].yval;
-  tr[(signed long int)t2$link1].lo = tr[(signed long int)t3$link1].hi;
-  tr[(signed long int)t1$link1].lo = tr[(signed long int)t2$link1].lo;
-  tr[(signed long int)t4$link1].hi.y=__builtin_huge_val();
-  tr[(signed long int)t4$link1].hi.x=__builtin_huge_val();
-  double return_value___builtin_huge_val$1$link1;
-  return_value___builtin_huge_val$1$link1=__builtin_huge_val();
-  tr[(signed long int)t3$link1].lo.y = -return_value___builtin_huge_val$1$link1;
-  double return_value___builtin_huge_val$2$link1;
-  return_value___builtin_huge_val$2$link1=__builtin_huge_val();
-  tr[(signed long int)t3$link1].lo.x = -return_value___builtin_huge_val$2$link1;
-  tr[(signed long int)t2$link1].lseg = segnum$link1;
-  tr[(signed long int)t1$link1].rseg = tr[(signed long int)t2$link1].lseg;
-  tr[(signed long int)t2$link1].u0 = t4$link1;
-  tr[(signed long int)t1$link1].u0 = tr[(signed long int)t2$link1].u0;
-  tr[(signed long int)t2$link1].d0 = t3$link1;
-  tr[(signed long int)t1$link1].d0 = tr[(signed long int)t2$link1].d0;
-  tr[(signed long int)t3$link1].u0 = t1$link1;
-  tr[(signed long int)t4$link1].d0 = tr[(signed long int)t3$link1].u0;
-  tr[(signed long int)t3$link1].u1 = t2$link1;
-  tr[(signed long int)t4$link1].d1 = tr[(signed long int)t3$link1].u1;
-  tr[(signed long int)t1$link1].sink = i6$link1;
-  tr[(signed long int)t2$link1].sink = i7$link1;
-  tr[(signed long int)t3$link1].sink = i4$link1;
-  tr[(signed long int)t4$link1].sink = i2$link1;
-  tr[(signed long int)t2$link1].state = 1;
-  tr[(signed long int)t1$link1].state = tr[(signed long int)t2$link1].state;
-  tr[(signed long int)t4$link1].state = 1;
-  tr[(signed long int)t3$link1].state = tr[(signed long int)t4$link1].state;
-  qs[(signed long int)i2$link1].trnum = t4$link1;
-  qs[(signed long int)i4$link1].trnum = t3$link1;
-  qs[(signed long int)i6$link1].trnum = t1$link1;
-  qs[(signed long int)i7$link1].trnum = t2$link1;
-  s$link1->is_inserted = 1;
-  return root$link1;
+  signed int i1_link1;
+  signed int i2_link1;
+  signed int i3_link1;
+  signed int i4_link1;
+  signed int i5_link1;
+  signed int i6_link1;
+  signed int i7_link1;
+  signed int root_link1;
+  signed int t1_link1;
+  signed int t2_link1;
+  signed int t3_link1;
+  signed int t4_link1;
+  struct anonymous_14 *s_link1 = &seg[(signed long int)segnum_link1];
+  tr_idx_link1 = 1;
+  q_idx_link1 = tr_idx_link1;
+  memset((void *)tr, 0, sizeof(struct anonymous_3 [800l]) /*57600ul*/ );
+  memset((void *)qs, 0, sizeof(struct anonymous_15 [1600l]) /*64000ul*/ );
+  i1_link1=newnode_link1();
+  qs[(signed long int)i1_link1].nodetype = 2;
+  _max_link1(&qs[(signed long int)i1_link1].yval, &s_link1->v0, &s_link1->v1);
+  root_link1 = i1_link1;
+  i2_link1=newnode_link1();
+  qs[(signed long int)i1_link1].right = i2_link1;
+  qs[(signed long int)i2_link1].nodetype = 3;
+  qs[(signed long int)i2_link1].parent = i1_link1;
+  i3_link1=newnode_link1();
+  qs[(signed long int)i1_link1].left = i3_link1;
+  qs[(signed long int)i3_link1].nodetype = 2;
+  _min_link1(&qs[(signed long int)i3_link1].yval, &s_link1->v0, &s_link1->v1);
+  qs[(signed long int)i3_link1].parent = i1_link1;
+  i4_link1=newnode_link1();
+  qs[(signed long int)i3_link1].left = i4_link1;
+  qs[(signed long int)i4_link1].nodetype = 3;
+  qs[(signed long int)i4_link1].parent = i3_link1;
+  i5_link1=newnode_link1();
+  qs[(signed long int)i3_link1].right = i5_link1;
+  qs[(signed long int)i5_link1].nodetype = 1;
+  qs[(signed long int)i5_link1].segnum = segnum_link1;
+  qs[(signed long int)i5_link1].parent = i3_link1;
+  i6_link1=newnode_link1();
+  qs[(signed long int)i5_link1].left = i6_link1;
+  qs[(signed long int)i6_link1].nodetype = 3;
+  qs[(signed long int)i6_link1].parent = i5_link1;
+  i7_link1=newnode_link1();
+  qs[(signed long int)i5_link1].right = i7_link1;
+  qs[(signed long int)i7_link1].nodetype = 3;
+  qs[(signed long int)i7_link1].parent = i5_link1;
+  t1_link1=newtrap_link1();
+  t2_link1=newtrap_link1();
+  t3_link1=newtrap_link1();
+  t4_link1=newtrap_link1();
+  tr[(signed long int)t4_link1].lo = qs[(signed long int)i1_link1].yval;
+  tr[(signed long int)t2_link1].hi = tr[(signed long int)t4_link1].lo;
+  tr[(signed long int)t1_link1].hi = tr[(signed long int)t2_link1].hi;
+  tr[(signed long int)t3_link1].hi = qs[(signed long int)i3_link1].yval;
+  tr[(signed long int)t2_link1].lo = tr[(signed long int)t3_link1].hi;
+  tr[(signed long int)t1_link1].lo = tr[(signed long int)t2_link1].lo;
+  tr[(signed long int)t4_link1].hi.y=__builtin_huge_val();
+  tr[(signed long int)t4_link1].hi.x=__builtin_huge_val();
+  double return_value___builtin_huge_val_1_link1;
+  return_value___builtin_huge_val_1_link1=__builtin_huge_val();
+  tr[(signed long int)t3_link1].lo.y = -return_value___builtin_huge_val_1_link1;
+  double return_value___builtin_huge_val_2_link1;
+  return_value___builtin_huge_val_2_link1=__builtin_huge_val();
+  tr[(signed long int)t3_link1].lo.x = -return_value___builtin_huge_val_2_link1;
+  tr[(signed long int)t2_link1].lseg = segnum_link1;
+  tr[(signed long int)t1_link1].rseg = tr[(signed long int)t2_link1].lseg;
+  tr[(signed long int)t2_link1].u0 = t4_link1;
+  tr[(signed long int)t1_link1].u0 = tr[(signed long int)t2_link1].u0;
+  tr[(signed long int)t2_link1].d0 = t3_link1;
+  tr[(signed long int)t1_link1].d0 = tr[(signed long int)t2_link1].d0;
+  tr[(signed long int)t3_link1].u0 = t1_link1;
+  tr[(signed long int)t4_link1].d0 = tr[(signed long int)t3_link1].u0;
+  tr[(signed long int)t3_link1].u1 = t2_link1;
+  tr[(signed long int)t4_link1].d1 = tr[(signed long int)t3_link1].u1;
+  tr[(signed long int)t1_link1].sink = i6_link1;
+  tr[(signed long int)t2_link1].sink = i7_link1;
+  tr[(signed long int)t3_link1].sink = i4_link1;
+  tr[(signed long int)t4_link1].sink = i2_link1;
+  tr[(signed long int)t2_link1].state = 1;
+  tr[(signed long int)t1_link1].state = tr[(signed long int)t2_link1].state;
+  tr[(signed long int)t4_link1].state = 1;
+  tr[(signed long int)t3_link1].state = tr[(signed long int)t4_link1].state;
+  qs[(signed long int)i2_link1].trnum = t4_link1;
+  qs[(signed long int)i4_link1].trnum = t3_link1;
+  qs[(signed long int)i6_link1].trnum = t1_link1;
+  qs[(signed long int)i7_link1].trnum = t2_link1;
+  s_link1->is_inserted = 1;
+  return root_link1;
 }
 
 // initialise
@@ -8034,14 +8034,14 @@ static signed int initialise(signed int n)
   return 0;
 }
 
-// initialise$link1
+// initialise_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_tri.c line 45
-static signed int initialise$link1(signed int n$link1)
+static signed int initialise_link1(signed int n_link1)
 {
-  signed int i$link1 = 1;
-  for( ; n$link1 >= i$link1; i$link1 = i$link1 + 1)
-    seg[(signed long int)i$link1].is_inserted = 0;
-  generate_random_ordering(n$link1);
+  signed int i_link1 = 1;
+  for( ; n_link1 >= i_link1; i_link1 = i_link1 + 1)
+    seg[(signed long int)i_link1].is_inserted = 0;
+  generate_random_ordering(n_link1);
   return 0;
 }
 
@@ -8056,63 +8056,63 @@ static signed int inserted(signed int segnum, signed int whichpt)
     return seg[(signed long int)seg[(signed long int)segnum].next].is_inserted;
 }
 
-// inserted$link1
+// inserted_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 288
-static signed int inserted$link1(signed int segnum$link1, signed int whichpt$link1)
+static signed int inserted_link1(signed int segnum_link1, signed int whichpt_link1)
 {
-  if(whichpt$link1 == 1)
-    return seg[(signed long int)seg[(signed long int)segnum$link1].prev].is_inserted;
+  if(whichpt_link1 == 1)
+    return seg[(signed long int)seg[(signed long int)segnum_link1].prev].is_inserted;
 
   else
-    return seg[(signed long int)seg[(signed long int)segnum$link1].next].is_inserted;
+    return seg[(signed long int)seg[(signed long int)segnum_link1].next].is_inserted;
 }
 
 // inside_polygon
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 68
-static signed int inside_polygon(struct anonymous$3 *t)
+static signed int inside_polygon(struct anonymous_3 *t)
 {
   signed int rseg = t->rseg;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int return_value__greater_than$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int return_value__greater_than_2;
   if(t->state == 2)
     return 0;
 
   else
   {
     if(!(t->lseg >= 1))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = t->rseg <= 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = t->rseg <= 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
     {
       if(!(t->u0 >= 1))
-        tmp_if_expr$3 = t->u1 <= 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = t->u1 <= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
         if(!(t->d0 >= 1))
-          tmp_if_expr$4 = t->d1 <= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = t->d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
-        return_value__greater_than$2=_greater_than(&seg[(signed long int)rseg].v1, &seg[(signed long int)rseg].v0);
-        return return_value__greater_than$2;
+        return_value__greater_than_2=_greater_than(&seg[(signed long int)rseg].v1, &seg[(signed long int)rseg].v0);
+        return return_value__greater_than_2;
       }
 
       else
@@ -8121,52 +8121,52 @@ static signed int inside_polygon(struct anonymous$3 *t)
   }
 }
 
-// inside_polygon$link1
+// inside_polygon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 68
-static signed int inside_polygon$link1(struct anonymous$3 *t$link1)
+static signed int inside_polygon_link1(struct anonymous_3 *t_link1)
 {
-  signed int rseg$link1 = t$link1->rseg;
-  _Bool tmp_if_expr$1$link1;
-  _Bool tmp_if_expr$3$link1;
-  _Bool tmp_if_expr$5$link1;
-  _Bool tmp_if_expr$4$link1;
-  signed int return_value__greater_than$2$link1;
-  if(t$link1->state == 2)
+  signed int rseg_link1 = t_link1->rseg;
+  _Bool tmp_if_expr_1_link1;
+  _Bool tmp_if_expr_3_link1;
+  _Bool tmp_if_expr_5_link1;
+  _Bool tmp_if_expr_4_link1;
+  signed int return_value__greater_than_2_link1;
+  if(t_link1->state == 2)
     return 0;
 
   else
   {
-    if(!(t$link1->lseg >= 1))
-      tmp_if_expr$1$link1 = (_Bool)1;
+    if(!(t_link1->lseg >= 1))
+      tmp_if_expr_1_link1 = (_Bool)1;
 
     else
-      tmp_if_expr$1$link1 = t$link1->rseg <= 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1$link1)
+      tmp_if_expr_1_link1 = t_link1->rseg <= 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1_link1)
       return 0;
 
     else
     {
-      if(!(t$link1->u0 >= 1))
-        tmp_if_expr$3$link1 = t$link1->u1 <= 0 ? (_Bool)1 : (_Bool)0;
+      if(!(t_link1->u0 >= 1))
+        tmp_if_expr_3_link1 = t_link1->u1 <= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3$link1 = (_Bool)0;
-      if(tmp_if_expr$3$link1)
-        tmp_if_expr$5$link1 = (_Bool)1;
+        tmp_if_expr_3_link1 = (_Bool)0;
+      if(tmp_if_expr_3_link1)
+        tmp_if_expr_5_link1 = (_Bool)1;
 
       else
       {
-        if(!(t$link1->d0 >= 1))
-          tmp_if_expr$4$link1 = t$link1->d1 <= 0 ? (_Bool)1 : (_Bool)0;
+        if(!(t_link1->d0 >= 1))
+          tmp_if_expr_4_link1 = t_link1->d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4$link1 = (_Bool)0;
-        tmp_if_expr$5$link1 = tmp_if_expr$4$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4_link1 = (_Bool)0;
+        tmp_if_expr_5_link1 = tmp_if_expr_4_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5$link1)
+      if(tmp_if_expr_5_link1)
       {
-        return_value__greater_than$2$link1=_greater_than(&seg[(signed long int)rseg$link1].v1, &seg[(signed long int)rseg$link1].v0);
-        return return_value__greater_than$2$link1;
+        return_value__greater_than_2_link1=_greater_than(&seg[(signed long int)rseg_link1].v1, &seg[(signed long int)rseg_link1].v0);
+        return return_value__greater_than_2_link1;
       }
 
       else
@@ -8177,19 +8177,19 @@ static signed int inside_polygon$link1(struct anonymous$3 *t$link1)
 
 // is_left_of
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 243
-static signed int is_left_of(signed int segnum, struct anonymous$1 *v)
+static signed int is_left_of(signed int segnum, struct anonymous_1 *v)
 {
-  struct anonymous$14 *s = &seg[(signed long int)segnum];
+  struct anonymous_14 *s = &seg[(signed long int)segnum];
   double area;
-  signed int return_value__greater_than$5;
-  return_value__greater_than$5=_greater_than(&s->v1, &s->v0);
-  double return_value_fabs$1;
-  double return_value_fabs$3;
-  if(!(return_value__greater_than$5 == 0))
+  signed int return_value__greater_than_5;
+  return_value__greater_than_5=_greater_than(&s->v1, &s->v0);
+  double return_value_fabs_1;
+  double return_value_fabs_3;
+  if(!(return_value__greater_than_5 == 0))
   {
-    double return_value_fabs$2;
-    return_value_fabs$2=fabs(s->v1.y - v->y);
-    if(return_value_fabs$2 <= 1.0e-7)
+    double return_value_fabs_2;
+    return_value_fabs_2=fabs(s->v1.y - v->y);
+    if(return_value_fabs_2 <= 1.0e-7)
     {
       if(v->x < s->v1.x)
         area = 1.0;
@@ -8200,8 +8200,8 @@ static signed int is_left_of(signed int segnum, struct anonymous$1 *v)
 
     else
     {
-      return_value_fabs$1=fabs(s->v0.y - v->y);
-      if(return_value_fabs$1 <= 1.0e-7)
+      return_value_fabs_1=fabs(s->v0.y - v->y);
+      if(return_value_fabs_1 <= 1.0e-7)
       {
         if(v->x < s->v0.x)
           area = 1.0;
@@ -8217,9 +8217,9 @@ static signed int is_left_of(signed int segnum, struct anonymous$1 *v)
 
   else
   {
-    double return_value_fabs$4;
-    return_value_fabs$4=fabs(s->v1.y - v->y);
-    if(return_value_fabs$4 <= 1.0e-7)
+    double return_value_fabs_4;
+    return_value_fabs_4=fabs(s->v1.y - v->y);
+    if(return_value_fabs_4 <= 1.0e-7)
     {
       if(v->x < s->v1.x)
         area = 1.0;
@@ -8230,8 +8230,8 @@ static signed int is_left_of(signed int segnum, struct anonymous$1 *v)
 
     else
     {
-      return_value_fabs$3=fabs(s->v0.y - v->y);
-      if(return_value_fabs$3 <= 1.0e-7)
+      return_value_fabs_3=fabs(s->v0.y - v->y);
+      if(return_value_fabs_3 <= 1.0e-7)
       {
         if(v->x < s->v0.x)
           area = 1.0;
@@ -8251,76 +8251,76 @@ static signed int is_left_of(signed int segnum, struct anonymous$1 *v)
     return 0;
 }
 
-// is_left_of$link1
+// is_left_of_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 243
-static signed int is_left_of$link1(signed int segnum$link1, struct anonymous$1 *v$link1)
+static signed int is_left_of_link1(signed int segnum_link1, struct anonymous_1 *v_link1)
 {
-  struct anonymous$14 *s$link1 = &seg[(signed long int)segnum$link1];
-  double area$link1;
-  signed int return_value__greater_than$5$link1;
-  return_value__greater_than$5$link1=_greater_than(&s$link1->v1, &s$link1->v0);
-  double return_value_fabs$1$link1;
-  double return_value_fabs$3$link1;
-  if(!(return_value__greater_than$5$link1 == 0))
+  struct anonymous_14 *s_link1 = &seg[(signed long int)segnum_link1];
+  double area_link1;
+  signed int return_value__greater_than_5_link1;
+  return_value__greater_than_5_link1=_greater_than(&s_link1->v1, &s_link1->v0);
+  double return_value_fabs_1_link1;
+  double return_value_fabs_3_link1;
+  if(!(return_value__greater_than_5_link1 == 0))
   {
-    double return_value_fabs$2$link1;
-    return_value_fabs$2$link1=fabs(s$link1->v1.y - v$link1->y);
-    if(return_value_fabs$2$link1 <= 1.0e-7)
+    double return_value_fabs_2_link1;
+    return_value_fabs_2_link1=fabs(s_link1->v1.y - v_link1->y);
+    if(return_value_fabs_2_link1 <= 1.0e-7)
     {
-      if(v$link1->x < s$link1->v1.x)
-        area$link1 = 1.0;
+      if(v_link1->x < s_link1->v1.x)
+        area_link1 = 1.0;
 
       else
-        area$link1 = -1.0;
+        area_link1 = -1.0;
     }
 
     else
     {
-      return_value_fabs$1$link1=fabs(s$link1->v0.y - v$link1->y);
-      if(return_value_fabs$1$link1 <= 1.0e-7)
+      return_value_fabs_1_link1=fabs(s_link1->v0.y - v_link1->y);
+      if(return_value_fabs_1_link1 <= 1.0e-7)
       {
-        if(v$link1->x < s$link1->v0.x)
-          area$link1 = 1.0;
+        if(v_link1->x < s_link1->v0.x)
+          area_link1 = 1.0;
 
         else
-          area$link1 = -1.0;
+          area_link1 = -1.0;
       }
 
       else
-        area$link1 = (s$link1->v1.x - s$link1->v0.x) * (v$link1->y - s$link1->v0.y) - (s$link1->v1.y - s$link1->v0.y) * (v$link1->x - s$link1->v0.x);
+        area_link1 = (s_link1->v1.x - s_link1->v0.x) * (v_link1->y - s_link1->v0.y) - (s_link1->v1.y - s_link1->v0.y) * (v_link1->x - s_link1->v0.x);
     }
   }
 
   else
   {
-    double return_value_fabs$4$link1;
-    return_value_fabs$4$link1=fabs(s$link1->v1.y - v$link1->y);
-    if(return_value_fabs$4$link1 <= 1.0e-7)
+    double return_value_fabs_4_link1;
+    return_value_fabs_4_link1=fabs(s_link1->v1.y - v_link1->y);
+    if(return_value_fabs_4_link1 <= 1.0e-7)
     {
-      if(v$link1->x < s$link1->v1.x)
-        area$link1 = 1.0;
+      if(v_link1->x < s_link1->v1.x)
+        area_link1 = 1.0;
 
       else
-        area$link1 = -1.0;
+        area_link1 = -1.0;
     }
 
     else
     {
-      return_value_fabs$3$link1=fabs(s$link1->v0.y - v$link1->y);
-      if(return_value_fabs$3$link1 <= 1.0e-7)
+      return_value_fabs_3_link1=fabs(s_link1->v0.y - v_link1->y);
+      if(return_value_fabs_3_link1 <= 1.0e-7)
       {
-        if(v$link1->x < s$link1->v0.x)
-          area$link1 = 1.0;
+        if(v_link1->x < s_link1->v0.x)
+          area_link1 = 1.0;
 
         else
-          area$link1 = -1.0;
+          area_link1 = -1.0;
       }
 
       else
-        area$link1 = (s$link1->v0.x - s$link1->v1.x) * (v$link1->y - s$link1->v1.y) - (s$link1->v0.y - s$link1->v1.y) * (v$link1->x - s$link1->v1.x);
+        area_link1 = (s_link1->v0.x - s_link1->v1.x) * (v_link1->y - s_link1->v1.y) - (s_link1->v0.y - s_link1->v1.y) * (v_link1->x - s_link1->v1.x);
     }
   }
-  if(area$link1 > 0.0)
+  if(area_link1 > 0.0)
     return 1;
 
   else
@@ -8345,126 +8345,126 @@ static inline void list_del(struct list_head *entry)
 
 // locate_endpoint
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 300
-extern signed int locate_endpoint(struct anonymous$1 *v, struct anonymous$1 *vo, signed int r)
+extern signed int locate_endpoint(struct anonymous_1 *v, struct anonymous_1 *vo, signed int r)
 {
-  struct anonymous$15 *rptr = &qs[(signed long int)r];
-  signed int return_value__greater_than$7;
-  signed int return_value_locate_endpoint$1;
-  signed int return_value__equal_to$6;
-  signed int return_value_locate_endpoint$2;
-  signed int return_value_locate_endpoint$3;
-  signed int return_value_locate_endpoint$5;
-  signed int return_value__equal_to$17;
-  _Bool tmp_if_expr$19;
-  signed int return_value__equal_to$18;
-  signed int return_value_locate_endpoint$8;
-  signed int return_value_locate_endpoint$9;
-  signed int return_value_is_left_of$12;
-  signed int return_value_locate_endpoint$10;
-  signed int return_value_locate_endpoint$11;
-  signed int return_value_is_left_of$16;
-  signed int return_value_locate_endpoint$14;
-  signed int return_value_locate_endpoint$15;
+  struct anonymous_15 *rptr = &qs[(signed long int)r];
+  signed int return_value__greater_than_7;
+  signed int return_value_locate_endpoint_1;
+  signed int return_value__equal_to_6;
+  signed int return_value_locate_endpoint_2;
+  signed int return_value_locate_endpoint_3;
+  signed int return_value_locate_endpoint_5;
+  signed int return_value__equal_to_17;
+  _Bool tmp_if_expr_19;
+  signed int return_value__equal_to_18;
+  signed int return_value_locate_endpoint_8;
+  signed int return_value_locate_endpoint_9;
+  signed int return_value_is_left_of_12;
+  signed int return_value_locate_endpoint_10;
+  signed int return_value_locate_endpoint_11;
+  signed int return_value_is_left_of_16;
+  signed int return_value_locate_endpoint_14;
+  signed int return_value_locate_endpoint_15;
   switch(rptr->nodetype)
   {
     case 3:
       return rptr->trnum;
     case 2:
     {
-      return_value__greater_than$7=_greater_than(v, &rptr->yval);
-      if(!(return_value__greater_than$7 == 0))
+      return_value__greater_than_7=_greater_than(v, &rptr->yval);
+      if(!(return_value__greater_than_7 == 0))
       {
-        return_value_locate_endpoint$1=locate_endpoint(v, vo, rptr->right);
-        return return_value_locate_endpoint$1;
+        return_value_locate_endpoint_1=locate_endpoint(v, vo, rptr->right);
+        return return_value_locate_endpoint_1;
       }
 
       else
       {
-        return_value__equal_to$6=_equal_to(v, &rptr->yval);
-        if(!(return_value__equal_to$6 == 0))
+        return_value__equal_to_6=_equal_to(v, &rptr->yval);
+        if(!(return_value__equal_to_6 == 0))
         {
-          signed int return_value__greater_than$4;
-          return_value__greater_than$4=_greater_than(vo, &rptr->yval);
-          if(!(return_value__greater_than$4 == 0))
+          signed int return_value__greater_than_4;
+          return_value__greater_than_4=_greater_than(vo, &rptr->yval);
+          if(!(return_value__greater_than_4 == 0))
           {
-            return_value_locate_endpoint$2=locate_endpoint(v, vo, rptr->right);
-            return return_value_locate_endpoint$2;
+            return_value_locate_endpoint_2=locate_endpoint(v, vo, rptr->right);
+            return return_value_locate_endpoint_2;
           }
 
           else
           {
-            return_value_locate_endpoint$3=locate_endpoint(v, vo, rptr->left);
-            return return_value_locate_endpoint$3;
+            return_value_locate_endpoint_3=locate_endpoint(v, vo, rptr->left);
+            return return_value_locate_endpoint_3;
           }
         }
 
         else
         {
-          return_value_locate_endpoint$5=locate_endpoint(v, vo, rptr->left);
-          return return_value_locate_endpoint$5;
+          return_value_locate_endpoint_5=locate_endpoint(v, vo, rptr->left);
+          return return_value_locate_endpoint_5;
         }
       }
     }
     case 1:
     {
-      return_value__equal_to$17=_equal_to(v, &seg[(signed long int)rptr->segnum].v0);
-      if(!(return_value__equal_to$17 == 0))
-        tmp_if_expr$19 = (_Bool)1;
+      return_value__equal_to_17=_equal_to(v, &seg[(signed long int)rptr->segnum].v0);
+      if(!(return_value__equal_to_17 == 0))
+        tmp_if_expr_19 = (_Bool)1;
 
       else
       {
-        return_value__equal_to$18=_equal_to(v, &seg[(signed long int)rptr->segnum].v1);
-        tmp_if_expr$19 = return_value__equal_to$18 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value__equal_to_18=_equal_to(v, &seg[(signed long int)rptr->segnum].v1);
+        tmp_if_expr_19 = return_value__equal_to_18 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$19)
+      if(tmp_if_expr_19)
       {
-        double return_value_fabs$13;
-        return_value_fabs$13=fabs(v->y - vo->y);
-        if(return_value_fabs$13 <= 1.0e-7)
+        double return_value_fabs_13;
+        return_value_fabs_13=fabs(v->y - vo->y);
+        if(return_value_fabs_13 <= 1.0e-7)
         {
           if(vo->x < v->x)
           {
-            return_value_locate_endpoint$8=locate_endpoint(v, vo, rptr->left);
-            return return_value_locate_endpoint$8;
+            return_value_locate_endpoint_8=locate_endpoint(v, vo, rptr->left);
+            return return_value_locate_endpoint_8;
           }
 
           else
           {
-            return_value_locate_endpoint$9=locate_endpoint(v, vo, rptr->right);
-            return return_value_locate_endpoint$9;
+            return_value_locate_endpoint_9=locate_endpoint(v, vo, rptr->right);
+            return return_value_locate_endpoint_9;
           }
         }
 
         else
         {
-          return_value_is_left_of$12=is_left_of(rptr->segnum, vo);
-          if(!(return_value_is_left_of$12 == 0))
+          return_value_is_left_of_12=is_left_of(rptr->segnum, vo);
+          if(!(return_value_is_left_of_12 == 0))
           {
-            return_value_locate_endpoint$10=locate_endpoint(v, vo, rptr->left);
-            return return_value_locate_endpoint$10;
+            return_value_locate_endpoint_10=locate_endpoint(v, vo, rptr->left);
+            return return_value_locate_endpoint_10;
           }
 
           else
           {
-            return_value_locate_endpoint$11=locate_endpoint(v, vo, rptr->right);
-            return return_value_locate_endpoint$11;
+            return_value_locate_endpoint_11=locate_endpoint(v, vo, rptr->right);
+            return return_value_locate_endpoint_11;
           }
         }
       }
 
       else
       {
-        return_value_is_left_of$16=is_left_of(rptr->segnum, v);
-        if(!(return_value_is_left_of$16 == 0))
+        return_value_is_left_of_16=is_left_of(rptr->segnum, v);
+        if(!(return_value_is_left_of_16 == 0))
         {
-          return_value_locate_endpoint$14=locate_endpoint(v, vo, rptr->left);
-          return return_value_locate_endpoint$14;
+          return_value_locate_endpoint_14=locate_endpoint(v, vo, rptr->left);
+          return return_value_locate_endpoint_14;
         }
 
         else
         {
-          return_value_locate_endpoint$15=locate_endpoint(v, vo, rptr->right);
-          return return_value_locate_endpoint$15;
+          return_value_locate_endpoint_15=locate_endpoint(v, vo, rptr->right);
+          return return_value_locate_endpoint_15;
         }
       }
     }
@@ -8492,21 +8492,21 @@ signed int main(signed int argc, char **argv)
   signed int status;
   char *colon_ptr;
   char buff[1000l];
-  struct anonymous$13 wait_sockets;
-  struct anonymous$13 tmp_wait_sockets;
+  struct anonymous_13 wait_sockets;
+  struct anonymous_13 tmp_wait_sockets;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$13) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_13) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   while(!(found_args >= argc))
   {
-    void *return_value_alloc_memory$1;
-    return_value_alloc_memory$1=alloc_memory((signed int)sizeof(struct kismet_src) /*72ul*/ );
-    kismet_src = (struct kismet_src *)return_value_alloc_memory$1;
+    void *return_value_alloc_memory_1;
+    return_value_alloc_memory_1=alloc_memory((signed int)sizeof(struct kismet_src) /*72ul*/ );
+    kismet_src = (struct kismet_src *)return_value_alloc_memory_1;
     do
     {
       (&kismet_src->list)->next = &kismet_src->list;
@@ -8521,9 +8521,9 @@ signed int main(signed int argc, char **argv)
       colon_ptr = colon_ptr + 1l;
     }
 
-    signed int return_value_inet_pton$2;
-    return_value_inet_pton$2=inet_pton(2, argv[(signed long int)found_args], (void *)&tmp_ip_holder);
-    if(!(return_value_inet_pton$2 >= 1))
+    signed int return_value_inet_pton_2;
+    return_value_inet_pton_2=inet_pton(2, argv[(signed long int)found_args], (void *)&tmp_ip_holder);
+    if(!(return_value_inet_pton_2 >= 1))
     {
       printf("Invalid kismet IP specified: %s\n", argv[(signed long int)found_args]);
       free((void *)kismet_src);
@@ -8535,15 +8535,15 @@ signed int main(signed int argc, char **argv)
       kismet_src->ip = tmp_ip_holder.s_addr;
     if(!(colon_ptr == ((char *)NULL)))
     {
-      signed long int return_value_strtol$3;
-      return_value_strtol$3=strtol(colon_ptr, (char ** restrict )(void *)0, 10);
-      kismet_src->port = (signed int)return_value_strtol$3;
+      signed long int return_value_strtol_3;
+      return_value_strtol_3=strtol(colon_ptr, (char ** restrict )(void *)0, 10);
+      kismet_src->port = (signed int)return_value_strtol_3;
       if(!(kismet_src->port >= 1))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = kismet_src->port > 65535 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = kismet_src->port > 65535 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         printf("Invalid kismet PORT specified: %s\n", colon_ptr);
         free((void *)kismet_src);
@@ -8558,33 +8558,33 @@ signed int main(signed int argc, char **argv)
     kismet_src->kismet_addr.sin_family = (unsigned short int)2;
     kismet_src->kismet_addr.sin_port=htons((unsigned short int)kismet_src->port);
     kismet_src->kismet_addr.sin_addr.s_addr = kismet_src->ip;
-    void *return_value_alloc_memory$5;
-    return_value_alloc_memory$5=alloc_memory(16);
-    kismet_src->kismet_ip = (char *)return_value_alloc_memory$5;
+    void *return_value_alloc_memory_5;
+    return_value_alloc_memory_5=alloc_memory(16);
+    kismet_src->kismet_ip = (char *)return_value_alloc_memory_5;
     inet_ntop(2, (const void *)&kismet_src->ip, kismet_src->kismet_ip, (unsigned int)16);
     kismet_src->sock=socket(2, 1, 0);
     if(!(kismet_src->sock >= 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      printf("Error - can't create tcp socket (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      printf("Error - can't create tcp socket (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror_7);
       free((void *)kismet_src->kismet_ip);
       free((void *)kismet_src);
       found_args = found_args + 1;
       continue;
     }
 
-    signed int return_value_connect$10;
-    return_value_connect$10=connect(kismet_src->sock, (struct sockaddr *)&kismet_src->kismet_addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
-    if(!(return_value_connect$10 >= 0))
+    signed int return_value_connect_10;
+    return_value_connect_10=connect(kismet_src->sock, (struct sockaddr *)&kismet_src->kismet_addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
+    if(!(return_value_connect_10 >= 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      char *return_value_strerror$9;
-      return_value_strerror$9=strerror(*return_value___errno_location$8);
-      printf("Error - can't connect to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror$9);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      char *return_value_strerror_9;
+      return_value_strerror_9=strerror(*return_value___errno_location_8);
+      printf("Error - can't connect to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror_9);
       close(kismet_src->sock);
       free((void *)kismet_src->kismet_ip);
       free((void *)kismet_src);
@@ -8592,9 +8592,9 @@ signed int main(signed int argc, char **argv)
       continue;
     }
 
-    void *return_value_alloc_memory$11;
-    return_value_alloc_memory$11=alloc_memory(1500);
-    kismet_src->recv_buff = (char *)return_value_alloc_memory$11;
+    void *return_value_alloc_memory_11;
+    return_value_alloc_memory_11=alloc_memory(1500);
+    kismet_src->recv_buff = (char *)return_value_alloc_memory_11;
     (&wait_sockets)->__fds_bits[(signed long int)(kismet_src->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->__fds_bits[(signed long int)(kismet_src->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << kismet_src->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     if(!(max_sock >= kismet_src->sock))
       max_sock = kismet_src->sock;
@@ -8609,13 +8609,13 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  signed int *return_value___errno_location$21;
+  signed int *return_value___errno_location_21;
   while(Kism3d_aborted == 0 && num_kismet_sources >= 1)
   {
     tv.tv_sec = (signed long int)0;
     tv.tv_usec = (signed long int)250;
     tmp_wait_sockets = wait_sockets;
-    res=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous$13 *)(void *)0, (struct anonymous$13 *)(void *)0, &tv);
+    res=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous_13 *)(void *)0, (struct anonymous_13 *)(void *)0, &tv);
     if(res >= 1)
     {
       max_sock = -1;
@@ -8626,32 +8626,32 @@ signed int main(signed int argc, char **argv)
         kismet_src = (struct kismet_src *)((char *)kismet_pos - (signed long int)(unsigned long int)&((struct kismet_src *)0)->list);
         if(!((tmp_wait_sockets.__fds_bits[(signed long int)(kismet_src->sock / 8)] & (signed long int)(1UL << kismet_src->sock % 8)) == 0l))
         {
-          signed long int return_value_read$12;
-          return_value_read$12=read(kismet_src->sock, (void *)buff, sizeof(char [1000l]) /*1000ul*/ );
-          status = (signed int)return_value_read$12;
+          signed long int return_value_read_12;
+          return_value_read_12=read(kismet_src->sock, (void *)buff, sizeof(char [1000l]) /*1000ul*/ );
+          status = (signed int)return_value_read_12;
           if(status >= 1)
           {
             if(!(max_sock >= kismet_src->sock))
               max_sock = kismet_src->sock;
 
             buff[(signed long int)status] = (char)0;
-            unsigned long int return_value_strlen$15;
-            return_value_strlen$15=strlen(kismet_src->recv_buff);
-            unsigned long int return_value_strlen$16;
-            return_value_strlen$16=strlen(buff);
-            if(!(return_value_strlen$15 + return_value_strlen$16 >= 1500ul))
+            unsigned long int return_value_strlen_15;
+            return_value_strlen_15=strlen(kismet_src->recv_buff);
+            unsigned long int return_value_strlen_16;
+            return_value_strlen_16=strlen(buff);
+            if(!(return_value_strlen_15 + return_value_strlen_16 >= 1500ul))
               strncat(kismet_src->recv_buff, buff, (unsigned long int)1000);
 
             else
             {
-              unsigned long int return_value_strlen$14;
-              return_value_strlen$14=strlen(kismet_src->recv_buff);
-              if(!(return_value_strlen$14 >= 1500ul))
+              unsigned long int return_value_strlen_14;
+              return_value_strlen_14=strlen(kismet_src->recv_buff);
+              if(!(return_value_strlen_14 >= 1500ul))
               {
                 printf("WARNING: receive buffer almost filled without *any* carriage return within that data !\nAppending truncated buffer to receive buffer to prevent buffer overflow.\n");
-                unsigned long int return_value_strlen$13;
-                return_value_strlen$13=strlen(kismet_src->recv_buff);
-                strncat(kismet_src->recv_buff, buff, (unsigned long int)1500 - return_value_strlen$13);
+                unsigned long int return_value_strlen_13;
+                return_value_strlen_13=strlen(kismet_src->recv_buff);
+                strncat(kismet_src->recv_buff, buff, (unsigned long int)1500 - return_value_strlen_13);
               }
 
               else
@@ -8667,11 +8667,11 @@ signed int main(signed int argc, char **argv)
           {
             if(!(status >= 0))
             {
-              signed int *return_value___errno_location$17;
-              return_value___errno_location$17=__errno_location();
-              char *return_value_strerror$18;
-              return_value_strerror$18=strerror(*return_value___errno_location$17);
-              printf("Error - can't read message from %s:%i: %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror$18);
+              signed int *return_value___errno_location_17;
+              return_value___errno_location_17=__errno_location();
+              char *return_value_strerror_18;
+              return_value_strerror_18=strerror(*return_value___errno_location_17);
+              printf("Error - can't read message from %s:%i: %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror_18);
             }
 
             else
@@ -8696,14 +8696,14 @@ signed int main(signed int argc, char **argv)
     else
       if(!(res >= 0))
       {
-        return_value___errno_location$21=__errno_location();
-        if(!(*return_value___errno_location$21 == 4))
+        return_value___errno_location_21=__errno_location();
+        if(!(*return_value___errno_location_21 == 4))
         {
-          signed int *return_value___errno_location$19;
-          return_value___errno_location$19=__errno_location();
-          char *return_value_strerror$20;
-          return_value_strerror$20=strerror(*return_value___errno_location$19);
-          printf("Error - can't select: %s\n", return_value_strerror$20);
+          signed int *return_value___errno_location_19;
+          return_value___errno_location_19=__errno_location();
+          char *return_value_strerror_20;
+          return_value_strerror_20=strerror(*return_value___errno_location_19);
+          printf("Error - can't select: %s\n", return_value_strerror_20);
           break;
         }
 
@@ -8738,8 +8738,8 @@ static void mainloop(void)
   float tmp_vec[3l] = { (float)0.0, (float)0.0, (float)-1.0 };
   handle_networks();
   handle_clients();
-  double return_value_fabs$2;
-  double return_value_fabs$1;
+  double return_value_fabs_2;
+  double return_value_fabs_1;
   if(!(Cam_target == NULL))
   {
     CamPosition[(signed long int)0][(signed long int)0] = (CamPosition[(signed long int)0][(signed long int)0] * (float)4 + ((struct wlan_network *)Cam_target)->pos_vec[(signed long int)0] + (float)10) / (float)5;
@@ -8753,15 +8753,15 @@ static void mainloop(void)
     CamPosition[(signed long int)1][(signed long int)1] = (CamPosition[(signed long int)1][(signed long int)1] * (float)4 + angle) / (float)5;
     s3d_translate(0, CamPosition[(signed long int)0][(signed long int)0], CamPosition[(signed long int)0][(signed long int)1], CamPosition[(signed long int)0][(signed long int)2]);
     s3d_rotate(0, CamPosition[(signed long int)1][(signed long int)0], CamPosition[(signed long int)1][(signed long int)1], CamPosition[(signed long int)1][(signed long int)2]);
-    double return_value_fabs$3;
-    return_value_fabs$3=fabs((double)diff_vec[(signed long int)0]);
-    if(return_value_fabs$3 < 11.0)
+    double return_value_fabs_3;
+    return_value_fabs_3=fabs((double)diff_vec[(signed long int)0]);
+    if(return_value_fabs_3 < 11.0)
     {
-      return_value_fabs$2=fabs((double)(CamPosition[(signed long int)0][(signed long int)1] - ((struct wlan_network *)Cam_target)->pos_vec[(signed long int)1]));
-      if(return_value_fabs$2 < 1.0)
+      return_value_fabs_2=fabs((double)(CamPosition[(signed long int)0][(signed long int)1] - ((struct wlan_network *)Cam_target)->pos_vec[(signed long int)1]));
+      if(return_value_fabs_2 < 1.0)
       {
-        return_value_fabs$1=fabs((double)diff_vec[(signed long int)2]);
-        if(return_value_fabs$1 < 1.0)
+        return_value_fabs_1=fabs((double)diff_vec[(signed long int)2]);
+        if(return_value_fabs_1 < 1.0)
           Cam_target = (void *)0;
 
       }
@@ -8790,8 +8790,8 @@ static signed int make_new_monotone_poly(signed int mcur, signed int v0, signed 
   signed int j;
   signed int nf0;
   signed int nf1;
-  struct anonymous$2 *vp0;
-  struct anonymous$2 *vp1;
+  struct anonymous_2 *vp0;
+  struct anonymous_2 *vp1;
   vp0 = &vert[(signed long int)v0];
   vp1 = &vert[(signed long int)v1];
   get_vertex_positions(v0, v1, &ip, &iq);
@@ -8825,53 +8825,53 @@ static signed int make_new_monotone_poly(signed int mcur, signed int v0, signed 
   return mnew;
 }
 
-// make_new_monotone_poly$link1
+// make_new_monotone_poly_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 171
-static signed int make_new_monotone_poly$link1(signed int mcur$link1, signed int v0$link1, signed int v1$link1)
+static signed int make_new_monotone_poly_link1(signed int mcur_link1, signed int v0_link1, signed int v1_link1)
 {
-  signed int p$link1;
-  signed int q$link1;
-  signed int ip$link1;
-  signed int iq$link1;
-  signed int mnew$link1;
-  mnew$link1=newmon$link1();
-  signed int i$link1;
-  signed int j$link1;
-  signed int nf0$link1;
-  signed int nf1$link1;
-  struct anonymous$2 *vp0$link1;
-  struct anonymous$2 *vp1$link1;
-  vp0$link1 = &vert$link1[(signed long int)v0$link1];
-  vp1$link1 = &vert$link1[(signed long int)v1$link1];
-  get_vertex_positions$link1(v0$link1, v1$link1, &ip$link1, &iq$link1);
-  p$link1 = vp0$link1->vpos[(signed long int)ip$link1];
-  q$link1 = vp1$link1->vpos[(signed long int)iq$link1];
-  i$link1=new_chain_element$link1();
-  j$link1=new_chain_element$link1();
-  mchain$link1[(signed long int)i$link1].vnum = v0$link1;
-  mchain$link1[(signed long int)j$link1].vnum = v1$link1;
-  mchain$link1[(signed long int)i$link1].next = mchain$link1[(signed long int)p$link1].next;
-  mchain$link1[(signed long int)mchain$link1[(signed long int)p$link1].next].prev = i$link1;
-  mchain$link1[(signed long int)i$link1].prev = j$link1;
-  mchain$link1[(signed long int)j$link1].next = i$link1;
-  mchain$link1[(signed long int)j$link1].prev = mchain$link1[(signed long int)q$link1].prev;
-  mchain$link1[(signed long int)mchain$link1[(signed long int)q$link1].prev].next = j$link1;
-  mchain$link1[(signed long int)p$link1].next = q$link1;
-  mchain$link1[(signed long int)q$link1].prev = p$link1;
-  nf0$link1 = vp0$link1->nextfree;
-  nf1$link1 = vp1$link1->nextfree;
-  vp0$link1->vnext[(signed long int)ip$link1] = v1$link1;
-  vp0$link1->vpos[(signed long int)nf0$link1] = i$link1;
-  vp0$link1->vnext[(signed long int)nf0$link1] = mchain$link1[(signed long int)mchain$link1[(signed long int)i$link1].next].vnum;
-  vp1$link1->vpos[(signed long int)nf1$link1] = j$link1;
-  vp1$link1->vnext[(signed long int)nf1$link1] = v0$link1;
-  vp0$link1->nextfree = vp0$link1->nextfree + 1;
-  vp1$link1->nextfree = vp1$link1->nextfree + 1;
-  errds$link1(1, "sei:make_poly()", ": mcur = %d, (v0, v1) = (%d, %d)", mcur$link1, v0$link1, v1$link1);
-  errds$link1(1, "sei:make_poly()", "next posns = (p, q) = (%d, %d)", p$link1, q$link1);
-  mon$link1[(signed long int)mcur$link1] = p$link1;
-  mon$link1[(signed long int)mnew$link1] = i$link1;
-  return mnew$link1;
+  signed int p_link1;
+  signed int q_link1;
+  signed int ip_link1;
+  signed int iq_link1;
+  signed int mnew_link1;
+  mnew_link1=newmon_link1();
+  signed int i_link1;
+  signed int j_link1;
+  signed int nf0_link1;
+  signed int nf1_link1;
+  struct anonymous_2 *vp0_link1;
+  struct anonymous_2 *vp1_link1;
+  vp0_link1 = &vert_link1[(signed long int)v0_link1];
+  vp1_link1 = &vert_link1[(signed long int)v1_link1];
+  get_vertex_positions_link1(v0_link1, v1_link1, &ip_link1, &iq_link1);
+  p_link1 = vp0_link1->vpos[(signed long int)ip_link1];
+  q_link1 = vp1_link1->vpos[(signed long int)iq_link1];
+  i_link1=new_chain_element_link1();
+  j_link1=new_chain_element_link1();
+  mchain_link1[(signed long int)i_link1].vnum = v0_link1;
+  mchain_link1[(signed long int)j_link1].vnum = v1_link1;
+  mchain_link1[(signed long int)i_link1].next = mchain_link1[(signed long int)p_link1].next;
+  mchain_link1[(signed long int)mchain_link1[(signed long int)p_link1].next].prev = i_link1;
+  mchain_link1[(signed long int)i_link1].prev = j_link1;
+  mchain_link1[(signed long int)j_link1].next = i_link1;
+  mchain_link1[(signed long int)j_link1].prev = mchain_link1[(signed long int)q_link1].prev;
+  mchain_link1[(signed long int)mchain_link1[(signed long int)q_link1].prev].next = j_link1;
+  mchain_link1[(signed long int)p_link1].next = q_link1;
+  mchain_link1[(signed long int)q_link1].prev = p_link1;
+  nf0_link1 = vp0_link1->nextfree;
+  nf1_link1 = vp1_link1->nextfree;
+  vp0_link1->vnext[(signed long int)ip_link1] = v1_link1;
+  vp0_link1->vpos[(signed long int)nf0_link1] = i_link1;
+  vp0_link1->vnext[(signed long int)nf0_link1] = mchain_link1[(signed long int)mchain_link1[(signed long int)i_link1].next].vnum;
+  vp1_link1->vpos[(signed long int)nf1_link1] = j_link1;
+  vp1_link1->vnext[(signed long int)nf1_link1] = v0_link1;
+  vp0_link1->nextfree = vp0_link1->nextfree + 1;
+  vp1_link1->nextfree = vp1_link1->nextfree + 1;
+  errds_link1(1, "sei:make_poly()", ": mcur = %d, (v0, v1) = (%d, %d)", mcur_link1, v0_link1, v1_link1);
+  errds_link1(1, "sei:make_poly()", "next posns = (p, q) = (%d, %d)", p_link1, q_link1);
+  mon_link1[(signed long int)mcur_link1] = p_link1;
+  mon_link1[(signed long int)mnew_link1] = i_link1;
+  return mnew_link1;
 }
 
 // math_N
@@ -8884,9 +8884,9 @@ extern signed int math_N(signed int n, signed int h)
   v = (double)(signed int)n;
   for( ; !(i >= h); i = i + 1)
     v=mlog2(v);
-  double return_value_ceil$1;
-  return_value_ceil$1=ceil(((double)1.0 * (double)n) / v);
-  return (signed int)return_value_ceil$1;
+  double return_value_ceil_1;
+  return_value_ceil_1=ceil(((double)1.0 * (double)n) / v);
+  return (signed int)return_value_ceil_1;
 }
 
 // math_logstar_n
@@ -8906,244 +8906,244 @@ extern signed int math_logstar_n(signed int n)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 354
 static signed int merge_trapezoids(signed int segnum, signed int tfirst, signed int tlast, signed int side)
 {
-  signed int merge_trapezoids$$1$$t;
+  signed int merge_trapezoids__1__t;
   signed int tnext;
   signed int cond;
   signed int ptnext;
-  merge_trapezoids$$1$$t = tfirst;
-  signed int return_value__greater_than_equal_to$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  while(merge_trapezoids$$1$$t >= 1)
+  merge_trapezoids__1__t = tfirst;
+  signed int return_value__greater_than_equal_to_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  while(merge_trapezoids__1__t >= 1)
   {
-    return_value__greater_than_equal_to$1=_greater_than_equal_to(&tr[(signed long int)merge_trapezoids$$1$$t].lo, &tr[(signed long int)tlast].lo);
-    if(return_value__greater_than_equal_to$1 == 0)
+    return_value__greater_than_equal_to_1=_greater_than_equal_to(&tr[(signed long int)merge_trapezoids__1__t].lo, &tr[(signed long int)tlast].lo);
+    if(return_value__greater_than_equal_to_1 == 0)
       break;
 
     if(side == 1)
     {
-      tnext = tr[(signed long int)merge_trapezoids$$1$$t].d0;
+      tnext = tr[(signed long int)merge_trapezoids__1__t].d0;
       if(tnext >= 1)
-        tmp_if_expr$2 = tr[(signed long int)tnext].rseg == segnum ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = tr[(signed long int)tnext].rseg == segnum ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        tnext = tr[(signed long int)merge_trapezoids$$1$$t].d1;
+        tnext = tr[(signed long int)merge_trapezoids__1__t].d1;
         if(tnext >= 1)
-          tmp_if_expr$3 = tr[(signed long int)tnext].rseg == segnum ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tr[(signed long int)tnext].rseg == segnum ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      cond = (signed int)tmp_if_expr$4;
+      cond = (signed int)tmp_if_expr_4;
     }
 
     else
     {
-      tnext = tr[(signed long int)merge_trapezoids$$1$$t].d0;
+      tnext = tr[(signed long int)merge_trapezoids__1__t].d0;
       if(tnext >= 1)
-        tmp_if_expr$5 = tr[(signed long int)tnext].lseg == segnum ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = tr[(signed long int)tnext].lseg == segnum ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        tnext = tr[(signed long int)merge_trapezoids$$1$$t].d1;
+        tnext = tr[(signed long int)merge_trapezoids__1__t].d1;
         if(tnext >= 1)
-          tmp_if_expr$6 = tr[(signed long int)tnext].lseg == segnum ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = tr[(signed long int)tnext].lseg == segnum ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
       }
-      cond = (signed int)tmp_if_expr$7;
+      cond = (signed int)tmp_if_expr_7;
     }
     if(!(cond == 0))
     {
-      if(tr[(signed long int)merge_trapezoids$$1$$t].lseg == tr[(signed long int)tnext].lseg)
-        tmp_if_expr$8 = tr[(signed long int)merge_trapezoids$$1$$t].rseg == tr[(signed long int)tnext].rseg ? (_Bool)1 : (_Bool)0;
+      if(tr[(signed long int)merge_trapezoids__1__t].lseg == tr[(signed long int)tnext].lseg)
+        tmp_if_expr_8 = tr[(signed long int)merge_trapezoids__1__t].rseg == tr[(signed long int)tnext].rseg ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
         ptnext = qs[(signed long int)tr[(signed long int)tnext].sink].parent;
         if(qs[(signed long int)ptnext].left == tr[(signed long int)tnext].sink)
-          qs[(signed long int)ptnext].left = tr[(signed long int)merge_trapezoids$$1$$t].sink;
+          qs[(signed long int)ptnext].left = tr[(signed long int)merge_trapezoids__1__t].sink;
 
         else
-          qs[(signed long int)ptnext].right = tr[(signed long int)merge_trapezoids$$1$$t].sink;
-        tr[(signed long int)merge_trapezoids$$1$$t].d0 = tr[(signed long int)tnext].d0;
-        if(tr[(signed long int)merge_trapezoids$$1$$t].d0 >= 1)
+          qs[(signed long int)ptnext].right = tr[(signed long int)merge_trapezoids__1__t].sink;
+        tr[(signed long int)merge_trapezoids__1__t].d0 = tr[(signed long int)tnext].d0;
+        if(tr[(signed long int)merge_trapezoids__1__t].d0 >= 1)
         {
-          if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d0].u0 == tnext)
-            tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d0].u0 = merge_trapezoids$$1$$t;
+          if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d0].u0 == tnext)
+            tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d0].u0 = merge_trapezoids__1__t;
 
           else
-            if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d0].u1 == tnext)
-              tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d0].u1 = merge_trapezoids$$1$$t;
+            if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d0].u1 == tnext)
+              tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d0].u1 = merge_trapezoids__1__t;
 
         }
 
-        tr[(signed long int)merge_trapezoids$$1$$t].d1 = tr[(signed long int)tnext].d1;
-        if(tr[(signed long int)merge_trapezoids$$1$$t].d1 >= 1)
+        tr[(signed long int)merge_trapezoids__1__t].d1 = tr[(signed long int)tnext].d1;
+        if(tr[(signed long int)merge_trapezoids__1__t].d1 >= 1)
         {
-          if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d1].u0 == tnext)
-            tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d1].u0 = merge_trapezoids$$1$$t;
+          if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d1].u0 == tnext)
+            tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d1].u0 = merge_trapezoids__1__t;
 
           else
-            if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d1].u1 == tnext)
-              tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t].d1].u1 = merge_trapezoids$$1$$t;
+            if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d1].u1 == tnext)
+              tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t].d1].u1 = merge_trapezoids__1__t;
 
         }
 
-        tr[(signed long int)merge_trapezoids$$1$$t].lo = tr[(signed long int)tnext].lo;
+        tr[(signed long int)merge_trapezoids__1__t].lo = tr[(signed long int)tnext].lo;
         tr[(signed long int)tnext].state = 2;
       }
 
       else
-        merge_trapezoids$$1$$t = tnext;
+        merge_trapezoids__1__t = tnext;
     }
 
     else
-      merge_trapezoids$$1$$t = tnext;
+      merge_trapezoids__1__t = tnext;
   }
   return 0;
 }
 
-// merge_trapezoids$link1
+// merge_trapezoids_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 354
-static signed int merge_trapezoids$link1(signed int segnum$link1, signed int tfirst$link1, signed int tlast$link1, signed int side$link1)
+static signed int merge_trapezoids_link1(signed int segnum_link1, signed int tfirst_link1, signed int tlast_link1, signed int side_link1)
 {
-  signed int merge_trapezoids$$1$$t$link1;
-  signed int tnext$link1;
-  signed int cond$link1;
-  signed int ptnext$link1;
-  merge_trapezoids$$1$$t$link1 = tfirst$link1;
-  signed int return_value__greater_than_equal_to$1$link1;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$4$link1;
-  _Bool tmp_if_expr$3$link1;
-  _Bool tmp_if_expr$5$link1;
-  _Bool tmp_if_expr$7$link1;
-  _Bool tmp_if_expr$6$link1;
-  _Bool tmp_if_expr$8$link1;
-  while(merge_trapezoids$$1$$t$link1 >= 1)
+  signed int merge_trapezoids__1__t_link1;
+  signed int tnext_link1;
+  signed int cond_link1;
+  signed int ptnext_link1;
+  merge_trapezoids__1__t_link1 = tfirst_link1;
+  signed int return_value__greater_than_equal_to_1_link1;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_4_link1;
+  _Bool tmp_if_expr_3_link1;
+  _Bool tmp_if_expr_5_link1;
+  _Bool tmp_if_expr_7_link1;
+  _Bool tmp_if_expr_6_link1;
+  _Bool tmp_if_expr_8_link1;
+  while(merge_trapezoids__1__t_link1 >= 1)
   {
-    return_value__greater_than_equal_to$1$link1=_greater_than_equal_to(&tr[(signed long int)merge_trapezoids$$1$$t$link1].lo, &tr[(signed long int)tlast$link1].lo);
-    if(return_value__greater_than_equal_to$1$link1 == 0)
+    return_value__greater_than_equal_to_1_link1=_greater_than_equal_to(&tr[(signed long int)merge_trapezoids__1__t_link1].lo, &tr[(signed long int)tlast_link1].lo);
+    if(return_value__greater_than_equal_to_1_link1 == 0)
       break;
 
-    if(side$link1 == 1)
+    if(side_link1 == 1)
     {
-      tnext$link1 = tr[(signed long int)merge_trapezoids$$1$$t$link1].d0;
-      if(tnext$link1 >= 1)
-        tmp_if_expr$2$link1 = tr[(signed long int)tnext$link1].rseg == segnum$link1 ? (_Bool)1 : (_Bool)0;
+      tnext_link1 = tr[(signed long int)merge_trapezoids__1__t_link1].d0;
+      if(tnext_link1 >= 1)
+        tmp_if_expr_2_link1 = tr[(signed long int)tnext_link1].rseg == segnum_link1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2$link1 = (_Bool)0;
-      if(tmp_if_expr$2$link1)
-        tmp_if_expr$4$link1 = (_Bool)1;
+        tmp_if_expr_2_link1 = (_Bool)0;
+      if(tmp_if_expr_2_link1)
+        tmp_if_expr_4_link1 = (_Bool)1;
 
       else
       {
-        tnext$link1 = tr[(signed long int)merge_trapezoids$$1$$t$link1].d1;
-        if(tnext$link1 >= 1)
-          tmp_if_expr$3$link1 = tr[(signed long int)tnext$link1].rseg == segnum$link1 ? (_Bool)1 : (_Bool)0;
+        tnext_link1 = tr[(signed long int)merge_trapezoids__1__t_link1].d1;
+        if(tnext_link1 >= 1)
+          tmp_if_expr_3_link1 = tr[(signed long int)tnext_link1].rseg == segnum_link1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3$link1 = (_Bool)0;
-        tmp_if_expr$4$link1 = tmp_if_expr$3$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3_link1 = (_Bool)0;
+        tmp_if_expr_4_link1 = tmp_if_expr_3_link1 ? (_Bool)1 : (_Bool)0;
       }
-      cond$link1 = (signed int)tmp_if_expr$4$link1;
+      cond_link1 = (signed int)tmp_if_expr_4_link1;
     }
 
     else
     {
-      tnext$link1 = tr[(signed long int)merge_trapezoids$$1$$t$link1].d0;
-      if(tnext$link1 >= 1)
-        tmp_if_expr$5$link1 = tr[(signed long int)tnext$link1].lseg == segnum$link1 ? (_Bool)1 : (_Bool)0;
+      tnext_link1 = tr[(signed long int)merge_trapezoids__1__t_link1].d0;
+      if(tnext_link1 >= 1)
+        tmp_if_expr_5_link1 = tr[(signed long int)tnext_link1].lseg == segnum_link1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5$link1 = (_Bool)0;
-      if(tmp_if_expr$5$link1)
-        tmp_if_expr$7$link1 = (_Bool)1;
+        tmp_if_expr_5_link1 = (_Bool)0;
+      if(tmp_if_expr_5_link1)
+        tmp_if_expr_7_link1 = (_Bool)1;
 
       else
       {
-        tnext$link1 = tr[(signed long int)merge_trapezoids$$1$$t$link1].d1;
-        if(tnext$link1 >= 1)
-          tmp_if_expr$6$link1 = tr[(signed long int)tnext$link1].lseg == segnum$link1 ? (_Bool)1 : (_Bool)0;
+        tnext_link1 = tr[(signed long int)merge_trapezoids__1__t_link1].d1;
+        if(tnext_link1 >= 1)
+          tmp_if_expr_6_link1 = tr[(signed long int)tnext_link1].lseg == segnum_link1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6$link1 = (_Bool)0;
-        tmp_if_expr$7$link1 = tmp_if_expr$6$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6_link1 = (_Bool)0;
+        tmp_if_expr_7_link1 = tmp_if_expr_6_link1 ? (_Bool)1 : (_Bool)0;
       }
-      cond$link1 = (signed int)tmp_if_expr$7$link1;
+      cond_link1 = (signed int)tmp_if_expr_7_link1;
     }
-    if(!(cond$link1 == 0))
+    if(!(cond_link1 == 0))
     {
-      if(tr[(signed long int)merge_trapezoids$$1$$t$link1].lseg == tr[(signed long int)tnext$link1].lseg)
-        tmp_if_expr$8$link1 = tr[(signed long int)merge_trapezoids$$1$$t$link1].rseg == tr[(signed long int)tnext$link1].rseg ? (_Bool)1 : (_Bool)0;
+      if(tr[(signed long int)merge_trapezoids__1__t_link1].lseg == tr[(signed long int)tnext_link1].lseg)
+        tmp_if_expr_8_link1 = tr[(signed long int)merge_trapezoids__1__t_link1].rseg == tr[(signed long int)tnext_link1].rseg ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8$link1 = (_Bool)0;
-      if(tmp_if_expr$8$link1)
+        tmp_if_expr_8_link1 = (_Bool)0;
+      if(tmp_if_expr_8_link1)
       {
-        ptnext$link1 = qs[(signed long int)tr[(signed long int)tnext$link1].sink].parent;
-        if(qs[(signed long int)ptnext$link1].left == tr[(signed long int)tnext$link1].sink)
-          qs[(signed long int)ptnext$link1].left = tr[(signed long int)merge_trapezoids$$1$$t$link1].sink;
+        ptnext_link1 = qs[(signed long int)tr[(signed long int)tnext_link1].sink].parent;
+        if(qs[(signed long int)ptnext_link1].left == tr[(signed long int)tnext_link1].sink)
+          qs[(signed long int)ptnext_link1].left = tr[(signed long int)merge_trapezoids__1__t_link1].sink;
 
         else
-          qs[(signed long int)ptnext$link1].right = tr[(signed long int)merge_trapezoids$$1$$t$link1].sink;
-        tr[(signed long int)merge_trapezoids$$1$$t$link1].d0 = tr[(signed long int)tnext$link1].d0;
-        if(tr[(signed long int)merge_trapezoids$$1$$t$link1].d0 >= 1)
+          qs[(signed long int)ptnext_link1].right = tr[(signed long int)merge_trapezoids__1__t_link1].sink;
+        tr[(signed long int)merge_trapezoids__1__t_link1].d0 = tr[(signed long int)tnext_link1].d0;
+        if(tr[(signed long int)merge_trapezoids__1__t_link1].d0 >= 1)
         {
-          if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d0].u0 == tnext$link1)
-            tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d0].u0 = merge_trapezoids$$1$$t$link1;
+          if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d0].u0 == tnext_link1)
+            tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d0].u0 = merge_trapezoids__1__t_link1;
 
           else
-            if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d0].u1 == tnext$link1)
-              tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d0].u1 = merge_trapezoids$$1$$t$link1;
+            if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d0].u1 == tnext_link1)
+              tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d0].u1 = merge_trapezoids__1__t_link1;
 
         }
 
-        tr[(signed long int)merge_trapezoids$$1$$t$link1].d1 = tr[(signed long int)tnext$link1].d1;
-        if(tr[(signed long int)merge_trapezoids$$1$$t$link1].d1 >= 1)
+        tr[(signed long int)merge_trapezoids__1__t_link1].d1 = tr[(signed long int)tnext_link1].d1;
+        if(tr[(signed long int)merge_trapezoids__1__t_link1].d1 >= 1)
         {
-          if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d1].u0 == tnext$link1)
-            tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d1].u0 = merge_trapezoids$$1$$t$link1;
+          if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d1].u0 == tnext_link1)
+            tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d1].u0 = merge_trapezoids__1__t_link1;
 
           else
-            if(tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d1].u1 == tnext$link1)
-              tr[(signed long int)tr[(signed long int)merge_trapezoids$$1$$t$link1].d1].u1 = merge_trapezoids$$1$$t$link1;
+            if(tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d1].u1 == tnext_link1)
+              tr[(signed long int)tr[(signed long int)merge_trapezoids__1__t_link1].d1].u1 = merge_trapezoids__1__t_link1;
 
         }
 
-        tr[(signed long int)merge_trapezoids$$1$$t$link1].lo = tr[(signed long int)tnext$link1].lo;
-        tr[(signed long int)tnext$link1].state = 2;
+        tr[(signed long int)merge_trapezoids__1__t_link1].lo = tr[(signed long int)tnext_link1].lo;
+        tr[(signed long int)tnext_link1].state = 2;
       }
 
       else
-        merge_trapezoids$$1$$t$link1 = tnext$link1;
+        merge_trapezoids__1__t_link1 = tnext_link1;
     }
 
     else
-      merge_trapezoids$$1$$t$link1 = tnext$link1;
+      merge_trapezoids__1__t_link1 = tnext_link1;
   }
   return 0;
 }
@@ -9152,32 +9152,32 @@ static signed int merge_trapezoids$link1(signed int segnum$link1, signed int tfi
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 47
 static double mlog2(double x)
 {
-  double return_value_log$1;
-  return_value_log$1=log(x);
-  double return_value_log$2;
-  return_value_log$2=log((double)2);
-  return return_value_log$1 / return_value_log$2;
+  double return_value_log_1;
+  return_value_log_1=log(x);
+  double return_value_log_2;
+  return_value_log_2=log((double)2);
+  return return_value_log_1 / return_value_log_2;
 }
 
-// mlog2$link1
+// mlog2_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_misc.c line 47
-static double mlog2$link1(double x$link1)
+static double mlog2_link1(double x_link1)
 {
-  double return_value_log$1$link1;
-  return_value_log$1$link1=log(x$link1);
-  double return_value_log$2$link1;
-  return_value_log$2$link1=log((double)2);
-  return return_value_log$1$link1 / return_value_log$2$link1;
+  double return_value_log_1_link1;
+  return_value_log_1_link1=log(x_link1);
+  double return_value_log_2_link1;
+  return_value_log_2_link1=log((double)2);
+  return return_value_log_1_link1 / return_value_log_2_link1;
 }
 
 // model_load
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 125
 static signed int model_load(char *file)
 {
-  struct anonymous$4 *context;
-  struct anonymous$5 *model;
-  struct anonymous$11 *object;
-  struct anonymous$12 *model_load$$1$$face;
+  struct anonymous_4 *context;
+  struct anonymous_5 *model;
+  struct anonymous_11 *object;
+  struct anonymous_12 *model_load__1__face;
   struct _GSList *oitem;
   struct _GSList *oface;
   float rmatrix[16l];
@@ -9199,7 +9199,7 @@ static signed int model_load(char *file)
   context=g3d_context_new();
   obj_id = -1;
   model=g3d_model_load_full(context, file, (unsigned int)0);
-  if(!(model == ((struct anonymous$5 *)NULL)))
+  if(!(model == ((struct anonymous_5 *)NULL)))
   {
     g3d_matrix_identity(rmatrix);
     g3d_matrix_rotate_xyz((float)((3.1415926535897932384626433832795028841971693993751 * 90.0) / (double)180), (float)0.0, (float)0.0, rmatrix);
@@ -9211,7 +9211,7 @@ static signed int model_load(char *file)
     material_count = texture_count;
     while(!(oitem == ((struct _GSList *)NULL)))
     {
-      object = (struct anonymous$11 *)oitem->data;
+      object = (struct anonymous_11 *)oitem->data;
       i = (unsigned int)0;
       for( ; !(i >= object->vertex_count); i = i + 1u)
       {
@@ -9231,52 +9231,52 @@ static signed int model_load(char *file)
       else
       {
         npoly = (unsigned int)0;
-        oldflags = ((struct anonymous$12 *)oface->data)->flags;
+        oldflags = ((struct anonymous_12 *)oface->data)->flags;
         for( ; !(oface == ((struct _GSList *)NULL)); oface = oface->next)
         {
-          model_load$$1$$face = (struct anonymous$12 *)oface->data;
-          mat2tex=get_mat2tex(&mat2tex_root, (void *)model_load$$1$$face->material);
+          model_load__1__face = (struct anonymous_12 *)oface->data;
+          mat2tex=get_mat2tex(&mat2tex_root, (void *)model_load__1__face->material);
           if(mat2tex->material_id == -1)
           {
-            s3d_push_material_a(obj_id, model_load$$1$$face->material->r, model_load$$1$$face->material->g, model_load$$1$$face->material->b, model_load$$1$$face->material->a, model_load$$1$$face->material->specular[(signed long int)0], model_load$$1$$face->material->specular[(signed long int)1], model_load$$1$$face->material->specular[(signed long int)2], model_load$$1$$face->material->specular[(signed long int)3], model_load$$1$$face->material->r, model_load$$1$$face->material->g, model_load$$1$$face->material->b, model_load$$1$$face->material->a);
+            s3d_push_material_a(obj_id, model_load__1__face->material->r, model_load__1__face->material->g, model_load__1__face->material->b, model_load__1__face->material->a, model_load__1__face->material->specular[(signed long int)0], model_load__1__face->material->specular[(signed long int)1], model_load__1__face->material->specular[(signed long int)2], model_load__1__face->material->specular[(signed long int)3], model_load__1__face->material->r, model_load__1__face->material->g, model_load__1__face->material->b, model_load__1__face->material->a);
             mat2tex->material_id = material_count;
             material_count = material_count + 1;
-            if(!(model_load$$1$$face->tex_image == ((struct anonymous$9 *)NULL)))
+            if(!(model_load__1__face->tex_image == ((struct anonymous_9 *)NULL)))
             {
               if(!(s3d_pixeldata == ((unsigned char *)NULL)))
                 free((void *)s3d_pixeldata);
 
-              void *return_value_malloc$1;
-              return_value_malloc$1=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)model_load$$1$$face->tex_image->width * (unsigned long int)model_load$$1$$face->tex_image->height * (unsigned long int)32);
-              s3d_pixeldata = (unsigned char *)return_value_malloc$1;
+              void *return_value_malloc_1;
+              return_value_malloc_1=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)model_load__1__face->tex_image->width * (unsigned long int)model_load__1__face->tex_image->height * (unsigned long int)32);
+              s3d_pixeldata = (unsigned char *)return_value_malloc_1;
               if(s3d_pixeldata == ((unsigned char *)NULL))
               {
                 errs("model_load()", "Sorry - you ran out of memory !\n");
                 exit(8);
               }
 
-              j = (signed int)(model_load$$1$$face->tex_image->height - (unsigned int)1);
+              j = (signed int)(model_load__1__face->tex_image->height - (unsigned int)1);
               for( ; j >= 0; j = j - 1)
               {
                 k = (unsigned int)0;
-                for( ; !(k >= model_load$$1$$face->tex_image->width); k = k + 1u)
+                for( ; !(k >= model_load__1__face->tex_image->width); k = k + 1u)
                 {
-                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)0)] = model_load$$1$$face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)2)];
-                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)1)] = model_load$$1$$face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)1)];
-                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)2)] = model_load$$1$$face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)0)];
-                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)3)] = model_load$$1$$face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load$$1$$face->tex_image->width + k) * (unsigned int)4 + (unsigned int)3)];
+                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)0)] = model_load__1__face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)2)];
+                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)1)] = model_load__1__face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)1)];
+                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)2)] = model_load__1__face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)0)];
+                  s3d_pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)3)] = model_load__1__face->tex_image->pixeldata[(signed long int)(((unsigned int)j * model_load__1__face->tex_image->width + k) * (unsigned int)4 + (unsigned int)3)];
                 }
               }
-              s3d_push_texture(obj_id, (unsigned short int)model_load$$1$$face->tex_image->width, (unsigned short int)model_load$$1$$face->tex_image->height);
+              s3d_push_texture(obj_id, (unsigned short int)model_load__1__face->tex_image->width, (unsigned short int)model_load__1__face->tex_image->height);
               s3d_pep_material_texture(obj_id, (unsigned int)texture_count);
-              s3d_load_texture(obj_id, (unsigned int)texture_count, (unsigned short int)0, (unsigned short int)0, (unsigned short int)model_load$$1$$face->tex_image->width, (unsigned short int)model_load$$1$$face->tex_image->height, s3d_pixeldata);
+              s3d_load_texture(obj_id, (unsigned int)texture_count, (unsigned short int)0, (unsigned short int)0, (unsigned short int)model_load__1__face->tex_image->width, (unsigned short int)model_load__1__face->tex_image->height, s3d_pixeldata);
               mat2tex->texture_id = texture_count;
               texture_count = texture_count + 1;
             }
 
           }
 
-          if(npoly >= 100u || !(model_load$$1$$face->flags == oldflags))
+          if(npoly >= 100u || !(model_load__1__face->flags == oldflags))
           {
             s3d_push_polygons(obj_id, polybuf, (unsigned short int)npoly);
             if(!((1L & (signed long int)oldflags) == 0l))
@@ -9288,32 +9288,32 @@ static signed int model_load(char *file)
             npoly = (unsigned int)0;
           }
 
-          oldflags = model_load$$1$$face->flags;
-          polybuf[(signed long int)(npoly * (unsigned int)4 + (unsigned int)0)] = model_load$$1$$face->vertex_indices[(signed long int)0] + (unsigned int)voff;
-          polybuf[(signed long int)(npoly * (unsigned int)4 + (unsigned int)1)] = model_load$$1$$face->vertex_indices[(signed long int)2] + (unsigned int)voff;
-          polybuf[(signed long int)(npoly * (unsigned int)4 + (unsigned int)2)] = model_load$$1$$face->vertex_indices[(signed long int)1] + (unsigned int)voff;
+          oldflags = model_load__1__face->flags;
+          polybuf[(signed long int)(npoly * (unsigned int)4 + (unsigned int)0)] = model_load__1__face->vertex_indices[(signed long int)0] + (unsigned int)voff;
+          polybuf[(signed long int)(npoly * (unsigned int)4 + (unsigned int)1)] = model_load__1__face->vertex_indices[(signed long int)2] + (unsigned int)voff;
+          polybuf[(signed long int)(npoly * (unsigned int)4 + (unsigned int)2)] = model_load__1__face->vertex_indices[(signed long int)1] + (unsigned int)voff;
           polybuf[(signed long int)(npoly * (unsigned int)4 + (unsigned int)3)] = (unsigned int)mat2tex->material_id;
-          if(!((1L & (signed long int)model_load$$1$$face->flags) == 0l))
+          if(!((1L & (signed long int)model_load__1__face->flags) == 0l))
           {
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)0)] = -model_load$$1$$face->normals[(signed long int)0];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)1)] = -model_load$$1$$face->normals[(signed long int)2];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)2)] = model_load$$1$$face->normals[(signed long int)1];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)3)] = -model_load$$1$$face->normals[(signed long int)6];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)4)] = -model_load$$1$$face->normals[(signed long int)8];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)5)] = model_load$$1$$face->normals[(signed long int)7];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)6)] = -model_load$$1$$face->normals[(signed long int)3];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)7)] = -model_load$$1$$face->normals[(signed long int)5];
-            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)8)] = model_load$$1$$face->normals[(signed long int)4];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)0)] = -model_load__1__face->normals[(signed long int)0];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)1)] = -model_load__1__face->normals[(signed long int)2];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)2)] = model_load__1__face->normals[(signed long int)1];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)3)] = -model_load__1__face->normals[(signed long int)6];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)4)] = -model_load__1__face->normals[(signed long int)8];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)5)] = model_load__1__face->normals[(signed long int)7];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)6)] = -model_load__1__face->normals[(signed long int)3];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)7)] = -model_load__1__face->normals[(signed long int)5];
+            normalbuf[(signed long int)(npoly * (unsigned int)9 + (unsigned int)8)] = model_load__1__face->normals[(signed long int)4];
           }
 
-          if(!((2l & (signed long int)model_load$$1$$face->flags) == 0l))
+          if(!((2l & (signed long int)model_load__1__face->flags) == 0l))
           {
-            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)0)] = model_load$$1$$face->tex_vertex_data[(signed long int)0];
-            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)1)] = model_load$$1$$face->tex_vertex_data[(signed long int)1];
-            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)2)] = model_load$$1$$face->tex_vertex_data[(signed long int)4];
-            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)3)] = model_load$$1$$face->tex_vertex_data[(signed long int)5];
-            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)4)] = model_load$$1$$face->tex_vertex_data[(signed long int)2];
-            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)5)] = model_load$$1$$face->tex_vertex_data[(signed long int)3];
+            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)0)] = model_load__1__face->tex_vertex_data[(signed long int)0];
+            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)1)] = model_load__1__face->tex_vertex_data[(signed long int)1];
+            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)2)] = model_load__1__face->tex_vertex_data[(signed long int)4];
+            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)3)] = model_load__1__face->tex_vertex_data[(signed long int)5];
+            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)4)] = model_load__1__face->tex_vertex_data[(signed long int)2];
+            texcoordbuf[(signed long int)(npoly * (unsigned int)6 + (unsigned int)5)] = model_load__1__face->tex_vertex_data[(signed long int)3];
           }
 
           npoly = npoly + 1u;
@@ -9340,174 +9340,174 @@ static signed int model_load(char *file)
   return obj_id;
 }
 
-// model_load$link1
+// model_load_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/modelread.c line 125
-static signed int model_load$link1(char *file$link1)
+static signed int model_load_link1(char *file_link1)
 {
-  struct anonymous$4 *context$link1;
-  struct anonymous$5 *model$link1;
-  struct anonymous$11 *object$link1;
-  struct anonymous$12 *model_load$$1$$face$link1;
-  struct _GSList *oitem$link1;
-  struct _GSList *oface$link1;
-  float rmatrix$link1[16l];
-  struct material2texture *mat2tex$link1;
-  unsigned int i$link1;
-  unsigned int k$link1;
-  signed int j$link1;
-  signed int material_count$link1;
-  signed int texture_count$link1;
-  signed int voff$link1;
-  signed int obj_id$link1;
-  unsigned int polybuf$link1[400l];
-  unsigned int npoly$link1;
-  unsigned int oldflags$link1;
-  float normalbuf$link1[900l];
-  float texcoordbuf$link1[600l];
-  float swaph$link1;
-  unsigned char *s3d_pixeldata$link1 = (unsigned char *)(void *)0;
-  context$link1=g3d_context_new();
-  obj_id$link1 = -1;
-  model$link1=g3d_model_load_full(context$link1, file$link1, (unsigned int)0);
-  if(!(model$link1 == ((struct anonymous$5 *)NULL)))
+  struct anonymous_4 *context_link1;
+  struct anonymous_5 *model_link1;
+  struct anonymous_11 *object_link1;
+  struct anonymous_12 *model_load__1__face_link1;
+  struct _GSList *oitem_link1;
+  struct _GSList *oface_link1;
+  float rmatrix_link1[16l];
+  struct material2texture *mat2tex_link1;
+  unsigned int i_link1;
+  unsigned int k_link1;
+  signed int j_link1;
+  signed int material_count_link1;
+  signed int texture_count_link1;
+  signed int voff_link1;
+  signed int obj_id_link1;
+  unsigned int polybuf_link1[400l];
+  unsigned int npoly_link1;
+  unsigned int oldflags_link1;
+  float normalbuf_link1[900l];
+  float texcoordbuf_link1[600l];
+  float swaph_link1;
+  unsigned char *s3d_pixeldata_link1 = (unsigned char *)(void *)0;
+  context_link1=g3d_context_new();
+  obj_id_link1 = -1;
+  model_link1=g3d_model_load_full(context_link1, file_link1, (unsigned int)0);
+  if(!(model_link1 == ((struct anonymous_5 *)NULL)))
   {
-    g3d_matrix_identity(rmatrix$link1);
-    g3d_matrix_rotate_xyz((float)((3.1415926535897932384626433832795028841971693993751 * 90.0) / (double)180), (float)0.0, (float)0.0, rmatrix$link1);
-    g3d_model_transform(model$link1, rmatrix$link1);
-    oitem$link1 = model$link1->objects;
-    obj_id$link1=s3d_new_object();
-    voff$link1 = 0;
-    texture_count$link1 = voff$link1;
-    material_count$link1 = texture_count$link1;
-    while(!(oitem$link1 == ((struct _GSList *)NULL)))
+    g3d_matrix_identity(rmatrix_link1);
+    g3d_matrix_rotate_xyz((float)((3.1415926535897932384626433832795028841971693993751 * 90.0) / (double)180), (float)0.0, (float)0.0, rmatrix_link1);
+    g3d_model_transform(model_link1, rmatrix_link1);
+    oitem_link1 = model_link1->objects;
+    obj_id_link1=s3d_new_object();
+    voff_link1 = 0;
+    texture_count_link1 = voff_link1;
+    material_count_link1 = texture_count_link1;
+    while(!(oitem_link1 == ((struct _GSList *)NULL)))
     {
-      object$link1 = (struct anonymous$11 *)oitem$link1->data;
-      i$link1 = (unsigned int)0;
-      for( ; !(i$link1 >= object$link1->vertex_count); i$link1 = i$link1 + 1u)
+      object_link1 = (struct anonymous_11 *)oitem_link1->data;
+      i_link1 = (unsigned int)0;
+      for( ; !(i_link1 >= object_link1->vertex_count); i_link1 = i_link1 + 1u)
       {
-        object$link1->vertex_data[(signed long int)(i$link1 * (unsigned int)3 + (unsigned int)0)] = object$link1->vertex_data[(signed long int)(i$link1 * (unsigned int)3 + (unsigned int)0)];
-        swaph$link1 = object$link1->vertex_data[(signed long int)(i$link1 * (unsigned int)3 + (unsigned int)2)];
-        object$link1->vertex_data[(signed long int)(i$link1 * (unsigned int)3 + (unsigned int)2)] = -object$link1->vertex_data[(signed long int)(i$link1 * (unsigned int)3 + (unsigned int)1)];
-        object$link1->vertex_data[(signed long int)(i$link1 * (unsigned int)3 + (unsigned int)1)] = swaph$link1;
+        object_link1->vertex_data[(signed long int)(i_link1 * (unsigned int)3 + (unsigned int)0)] = object_link1->vertex_data[(signed long int)(i_link1 * (unsigned int)3 + (unsigned int)0)];
+        swaph_link1 = object_link1->vertex_data[(signed long int)(i_link1 * (unsigned int)3 + (unsigned int)2)];
+        object_link1->vertex_data[(signed long int)(i_link1 * (unsigned int)3 + (unsigned int)2)] = -object_link1->vertex_data[(signed long int)(i_link1 * (unsigned int)3 + (unsigned int)1)];
+        object_link1->vertex_data[(signed long int)(i_link1 * (unsigned int)3 + (unsigned int)1)] = swaph_link1;
       }
-      s3d_push_vertices(obj_id$link1, object$link1->vertex_data, (unsigned short int)object$link1->vertex_count);
-      oface$link1 = object$link1->faces;
-      if(oface$link1 == ((struct _GSList *)NULL))
+      s3d_push_vertices(obj_id_link1, object_link1->vertex_data, (unsigned short int)object_link1->vertex_count);
+      oface_link1 = object_link1->faces;
+      if(oface_link1 == ((struct _GSList *)NULL))
       {
-        voff$link1 = voff$link1 + (signed int)object$link1->vertex_count;
-        oitem$link1 = oitem$link1->next;
+        voff_link1 = voff_link1 + (signed int)object_link1->vertex_count;
+        oitem_link1 = oitem_link1->next;
       }
 
       else
       {
-        npoly$link1 = (unsigned int)0;
-        oldflags$link1 = ((struct anonymous$12 *)oface$link1->data)->flags;
-        for( ; !(oface$link1 == ((struct _GSList *)NULL)); oface$link1 = oface$link1->next)
+        npoly_link1 = (unsigned int)0;
+        oldflags_link1 = ((struct anonymous_12 *)oface_link1->data)->flags;
+        for( ; !(oface_link1 == ((struct _GSList *)NULL)); oface_link1 = oface_link1->next)
         {
-          model_load$$1$$face$link1 = (struct anonymous$12 *)oface$link1->data;
-          mat2tex$link1=get_mat2tex$link1(&mat2tex_root$link1, (void *)model_load$$1$$face$link1->material);
-          if(mat2tex$link1->material_id == -1)
+          model_load__1__face_link1 = (struct anonymous_12 *)oface_link1->data;
+          mat2tex_link1=get_mat2tex_link1(&mat2tex_root_link1, (void *)model_load__1__face_link1->material);
+          if(mat2tex_link1->material_id == -1)
           {
-            s3d_push_material_a(obj_id$link1, model_load$$1$$face$link1->material->r, model_load$$1$$face$link1->material->g, model_load$$1$$face$link1->material->b, model_load$$1$$face$link1->material->a, model_load$$1$$face$link1->material->specular[(signed long int)0], model_load$$1$$face$link1->material->specular[(signed long int)1], model_load$$1$$face$link1->material->specular[(signed long int)2], model_load$$1$$face$link1->material->specular[(signed long int)3], model_load$$1$$face$link1->material->r, model_load$$1$$face$link1->material->g, model_load$$1$$face$link1->material->b, model_load$$1$$face$link1->material->a);
-            mat2tex$link1->material_id = material_count$link1;
-            material_count$link1 = material_count$link1 + 1;
-            if(!(model_load$$1$$face$link1->tex_image == ((struct anonymous$9 *)NULL)))
+            s3d_push_material_a(obj_id_link1, model_load__1__face_link1->material->r, model_load__1__face_link1->material->g, model_load__1__face_link1->material->b, model_load__1__face_link1->material->a, model_load__1__face_link1->material->specular[(signed long int)0], model_load__1__face_link1->material->specular[(signed long int)1], model_load__1__face_link1->material->specular[(signed long int)2], model_load__1__face_link1->material->specular[(signed long int)3], model_load__1__face_link1->material->r, model_load__1__face_link1->material->g, model_load__1__face_link1->material->b, model_load__1__face_link1->material->a);
+            mat2tex_link1->material_id = material_count_link1;
+            material_count_link1 = material_count_link1 + 1;
+            if(!(model_load__1__face_link1->tex_image == ((struct anonymous_9 *)NULL)))
             {
-              if(!(s3d_pixeldata$link1 == ((unsigned char *)NULL)))
-                free((void *)s3d_pixeldata$link1);
+              if(!(s3d_pixeldata_link1 == ((unsigned char *)NULL)))
+                free((void *)s3d_pixeldata_link1);
 
-              void *return_value_malloc$1$link1;
-              return_value_malloc$1$link1=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)model_load$$1$$face$link1->tex_image->width * (unsigned long int)model_load$$1$$face$link1->tex_image->height * (unsigned long int)32);
-              s3d_pixeldata$link1 = (unsigned char *)return_value_malloc$1$link1;
-              if(s3d_pixeldata$link1 == ((unsigned char *)NULL))
+              void *return_value_malloc_1_link1;
+              return_value_malloc_1_link1=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)model_load__1__face_link1->tex_image->width * (unsigned long int)model_load__1__face_link1->tex_image->height * (unsigned long int)32);
+              s3d_pixeldata_link1 = (unsigned char *)return_value_malloc_1_link1;
+              if(s3d_pixeldata_link1 == ((unsigned char *)NULL))
               {
                 errs("model_load()", "Sorry - you ran out of memory !\n");
                 exit(8);
               }
 
-              j$link1 = (signed int)(model_load$$1$$face$link1->tex_image->height - (unsigned int)1);
-              for( ; j$link1 >= 0; j$link1 = j$link1 - 1)
+              j_link1 = (signed int)(model_load__1__face_link1->tex_image->height - (unsigned int)1);
+              for( ; j_link1 >= 0; j_link1 = j_link1 - 1)
               {
-                k$link1 = (unsigned int)0;
-                for( ; !(k$link1 >= model_load$$1$$face$link1->tex_image->width); k$link1 = k$link1 + 1u)
+                k_link1 = (unsigned int)0;
+                for( ; !(k_link1 >= model_load__1__face_link1->tex_image->width); k_link1 = k_link1 + 1u)
                 {
-                  s3d_pixeldata$link1[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)0)] = model_load$$1$$face$link1->tex_image->pixeldata[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)2)];
-                  s3d_pixeldata$link1[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)1)] = model_load$$1$$face$link1->tex_image->pixeldata[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)1)];
-                  s3d_pixeldata$link1[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)2)] = model_load$$1$$face$link1->tex_image->pixeldata[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)0)];
-                  s3d_pixeldata$link1[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)3)] = model_load$$1$$face$link1->tex_image->pixeldata[(signed long int)(((unsigned int)j$link1 * model_load$$1$$face$link1->tex_image->width + k$link1) * (unsigned int)4 + (unsigned int)3)];
+                  s3d_pixeldata_link1[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)0)] = model_load__1__face_link1->tex_image->pixeldata[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)2)];
+                  s3d_pixeldata_link1[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)1)] = model_load__1__face_link1->tex_image->pixeldata[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)1)];
+                  s3d_pixeldata_link1[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)2)] = model_load__1__face_link1->tex_image->pixeldata[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)0)];
+                  s3d_pixeldata_link1[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)3)] = model_load__1__face_link1->tex_image->pixeldata[(signed long int)(((unsigned int)j_link1 * model_load__1__face_link1->tex_image->width + k_link1) * (unsigned int)4 + (unsigned int)3)];
                 }
               }
-              s3d_push_texture(obj_id$link1, (unsigned short int)model_load$$1$$face$link1->tex_image->width, (unsigned short int)model_load$$1$$face$link1->tex_image->height);
-              s3d_pep_material_texture(obj_id$link1, (unsigned int)texture_count$link1);
-              s3d_load_texture(obj_id$link1, (unsigned int)texture_count$link1, (unsigned short int)0, (unsigned short int)0, (unsigned short int)model_load$$1$$face$link1->tex_image->width, (unsigned short int)model_load$$1$$face$link1->tex_image->height, s3d_pixeldata$link1);
-              mat2tex$link1->texture_id = texture_count$link1;
-              texture_count$link1 = texture_count$link1 + 1;
+              s3d_push_texture(obj_id_link1, (unsigned short int)model_load__1__face_link1->tex_image->width, (unsigned short int)model_load__1__face_link1->tex_image->height);
+              s3d_pep_material_texture(obj_id_link1, (unsigned int)texture_count_link1);
+              s3d_load_texture(obj_id_link1, (unsigned int)texture_count_link1, (unsigned short int)0, (unsigned short int)0, (unsigned short int)model_load__1__face_link1->tex_image->width, (unsigned short int)model_load__1__face_link1->tex_image->height, s3d_pixeldata_link1);
+              mat2tex_link1->texture_id = texture_count_link1;
+              texture_count_link1 = texture_count_link1 + 1;
             }
 
           }
 
-          if(npoly$link1 >= 100u || !(model_load$$1$$face$link1->flags == oldflags$link1))
+          if(npoly_link1 >= 100u || !(model_load__1__face_link1->flags == oldflags_link1))
           {
-            s3d_push_polygons(obj_id$link1, polybuf$link1, (unsigned short int)npoly$link1);
-            if(!((1L & (signed long int)oldflags$link1) == 0l))
-              s3d_pep_polygon_normals(obj_id$link1, normalbuf$link1, (unsigned short int)npoly$link1);
+            s3d_push_polygons(obj_id_link1, polybuf_link1, (unsigned short int)npoly_link1);
+            if(!((1L & (signed long int)oldflags_link1) == 0l))
+              s3d_pep_polygon_normals(obj_id_link1, normalbuf_link1, (unsigned short int)npoly_link1);
 
-            if(!((2l & (signed long int)oldflags$link1) == 0l))
-              s3d_pep_polygon_tex_coords(obj_id$link1, texcoordbuf$link1, (unsigned short int)npoly$link1);
+            if(!((2l & (signed long int)oldflags_link1) == 0l))
+              s3d_pep_polygon_tex_coords(obj_id_link1, texcoordbuf_link1, (unsigned short int)npoly_link1);
 
-            npoly$link1 = (unsigned int)0;
+            npoly_link1 = (unsigned int)0;
           }
 
-          oldflags$link1 = model_load$$1$$face$link1->flags;
-          polybuf$link1[(signed long int)(npoly$link1 * (unsigned int)4 + (unsigned int)0)] = model_load$$1$$face$link1->vertex_indices[(signed long int)0] + (unsigned int)voff$link1;
-          polybuf$link1[(signed long int)(npoly$link1 * (unsigned int)4 + (unsigned int)1)] = model_load$$1$$face$link1->vertex_indices[(signed long int)2] + (unsigned int)voff$link1;
-          polybuf$link1[(signed long int)(npoly$link1 * (unsigned int)4 + (unsigned int)2)] = model_load$$1$$face$link1->vertex_indices[(signed long int)1] + (unsigned int)voff$link1;
-          polybuf$link1[(signed long int)(npoly$link1 * (unsigned int)4 + (unsigned int)3)] = (unsigned int)mat2tex$link1->material_id;
-          if(!((1L & (signed long int)model_load$$1$$face$link1->flags) == 0l))
+          oldflags_link1 = model_load__1__face_link1->flags;
+          polybuf_link1[(signed long int)(npoly_link1 * (unsigned int)4 + (unsigned int)0)] = model_load__1__face_link1->vertex_indices[(signed long int)0] + (unsigned int)voff_link1;
+          polybuf_link1[(signed long int)(npoly_link1 * (unsigned int)4 + (unsigned int)1)] = model_load__1__face_link1->vertex_indices[(signed long int)2] + (unsigned int)voff_link1;
+          polybuf_link1[(signed long int)(npoly_link1 * (unsigned int)4 + (unsigned int)2)] = model_load__1__face_link1->vertex_indices[(signed long int)1] + (unsigned int)voff_link1;
+          polybuf_link1[(signed long int)(npoly_link1 * (unsigned int)4 + (unsigned int)3)] = (unsigned int)mat2tex_link1->material_id;
+          if(!((1L & (signed long int)model_load__1__face_link1->flags) == 0l))
           {
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)0)] = -model_load$$1$$face$link1->normals[(signed long int)0];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)1)] = -model_load$$1$$face$link1->normals[(signed long int)2];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)2)] = model_load$$1$$face$link1->normals[(signed long int)1];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)3)] = -model_load$$1$$face$link1->normals[(signed long int)6];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)4)] = -model_load$$1$$face$link1->normals[(signed long int)8];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)5)] = model_load$$1$$face$link1->normals[(signed long int)7];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)6)] = -model_load$$1$$face$link1->normals[(signed long int)3];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)7)] = -model_load$$1$$face$link1->normals[(signed long int)5];
-            normalbuf$link1[(signed long int)(npoly$link1 * (unsigned int)9 + (unsigned int)8)] = model_load$$1$$face$link1->normals[(signed long int)4];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)0)] = -model_load__1__face_link1->normals[(signed long int)0];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)1)] = -model_load__1__face_link1->normals[(signed long int)2];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)2)] = model_load__1__face_link1->normals[(signed long int)1];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)3)] = -model_load__1__face_link1->normals[(signed long int)6];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)4)] = -model_load__1__face_link1->normals[(signed long int)8];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)5)] = model_load__1__face_link1->normals[(signed long int)7];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)6)] = -model_load__1__face_link1->normals[(signed long int)3];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)7)] = -model_load__1__face_link1->normals[(signed long int)5];
+            normalbuf_link1[(signed long int)(npoly_link1 * (unsigned int)9 + (unsigned int)8)] = model_load__1__face_link1->normals[(signed long int)4];
           }
 
-          if(!((2l & (signed long int)model_load$$1$$face$link1->flags) == 0l))
+          if(!((2l & (signed long int)model_load__1__face_link1->flags) == 0l))
           {
-            texcoordbuf$link1[(signed long int)(npoly$link1 * (unsigned int)6 + (unsigned int)0)] = model_load$$1$$face$link1->tex_vertex_data[(signed long int)0];
-            texcoordbuf$link1[(signed long int)(npoly$link1 * (unsigned int)6 + (unsigned int)1)] = model_load$$1$$face$link1->tex_vertex_data[(signed long int)1];
-            texcoordbuf$link1[(signed long int)(npoly$link1 * (unsigned int)6 + (unsigned int)2)] = model_load$$1$$face$link1->tex_vertex_data[(signed long int)4];
-            texcoordbuf$link1[(signed long int)(npoly$link1 * (unsigned int)6 + (unsigned int)3)] = model_load$$1$$face$link1->tex_vertex_data[(signed long int)5];
-            texcoordbuf$link1[(signed long int)(npoly$link1 * (unsigned int)6 + (unsigned int)4)] = model_load$$1$$face$link1->tex_vertex_data[(signed long int)2];
-            texcoordbuf$link1[(signed long int)(npoly$link1 * (unsigned int)6 + (unsigned int)5)] = model_load$$1$$face$link1->tex_vertex_data[(signed long int)3];
+            texcoordbuf_link1[(signed long int)(npoly_link1 * (unsigned int)6 + (unsigned int)0)] = model_load__1__face_link1->tex_vertex_data[(signed long int)0];
+            texcoordbuf_link1[(signed long int)(npoly_link1 * (unsigned int)6 + (unsigned int)1)] = model_load__1__face_link1->tex_vertex_data[(signed long int)1];
+            texcoordbuf_link1[(signed long int)(npoly_link1 * (unsigned int)6 + (unsigned int)2)] = model_load__1__face_link1->tex_vertex_data[(signed long int)4];
+            texcoordbuf_link1[(signed long int)(npoly_link1 * (unsigned int)6 + (unsigned int)3)] = model_load__1__face_link1->tex_vertex_data[(signed long int)5];
+            texcoordbuf_link1[(signed long int)(npoly_link1 * (unsigned int)6 + (unsigned int)4)] = model_load__1__face_link1->tex_vertex_data[(signed long int)2];
+            texcoordbuf_link1[(signed long int)(npoly_link1 * (unsigned int)6 + (unsigned int)5)] = model_load__1__face_link1->tex_vertex_data[(signed long int)3];
           }
 
-          npoly$link1 = npoly$link1 + 1u;
+          npoly_link1 = npoly_link1 + 1u;
         }
-        if(npoly$link1 >= 1u)
+        if(npoly_link1 >= 1u)
         {
-          s3d_push_polygons(obj_id$link1, polybuf$link1, (unsigned short int)npoly$link1);
-          if(!((1L & (signed long int)oldflags$link1) == 0l))
-            s3d_pep_polygon_normals(obj_id$link1, normalbuf$link1, (unsigned short int)npoly$link1);
+          s3d_push_polygons(obj_id_link1, polybuf_link1, (unsigned short int)npoly_link1);
+          if(!((1L & (signed long int)oldflags_link1) == 0l))
+            s3d_pep_polygon_normals(obj_id_link1, normalbuf_link1, (unsigned short int)npoly_link1);
 
-          if(!((2l & (signed long int)oldflags$link1) == 0l))
-            s3d_pep_polygon_tex_coords(obj_id$link1, texcoordbuf$link1, (unsigned short int)npoly$link1);
+          if(!((2l & (signed long int)oldflags_link1) == 0l))
+            s3d_pep_polygon_tex_coords(obj_id_link1, texcoordbuf_link1, (unsigned short int)npoly_link1);
 
         }
 
-        voff$link1 = voff$link1 + (signed int)object$link1->vertex_count;
-        oitem$link1 = oitem$link1->next;
+        voff_link1 = voff_link1 + (signed int)object_link1->vertex_count;
+        oitem_link1 = oitem_link1->next;
       }
     }
-    g3d_model_free(model$link1);
+    g3d_model_free(model_link1);
   }
 
-  g3d_context_free(context$link1);
-  return obj_id$link1;
+  g3d_context_free(context_link1);
+  return obj_id_link1;
 }
 
 // monotonate_trapezoids
@@ -9516,16 +9516,16 @@ extern signed int monotonate_trapezoids(signed int n)
 {
   signed int i;
   signed int tr_start;
-  memset((void *)vert, 0, sizeof(struct anonymous$2 [200l]) /*11200ul*/ );
+  memset((void *)vert, 0, sizeof(struct anonymous_2 [200l]) /*11200ul*/ );
   memset((void *)visited, 0, sizeof(signed int [800l]) /*3200ul*/ );
-  memset((void *)mchain, 0, sizeof(struct anonymous$0 [800l]) /*12800ul*/ );
+  memset((void *)mchain, 0, sizeof(struct anonymous_0 [800l]) /*12800ul*/ );
   memset((void *)mon, 0, sizeof(signed int [200l]) /*800ul*/ );
   i = 0;
-  signed int return_value_inside_polygon$1;
+  signed int return_value_inside_polygon_1;
   for( ; !(i >= 4); i = i + 1)
   {
-    return_value_inside_polygon$1=inside_polygon(&tr[(signed long int)i]);
-    if(!(return_value_inside_polygon$1 == 0))
+    return_value_inside_polygon_1=inside_polygon(&tr[(signed long int)i]);
+    if(!(return_value_inside_polygon_1 == 0))
       break;
 
   }
@@ -9551,9 +9551,9 @@ extern signed int monotonate_trapezoids(signed int n)
     if(tr[(signed long int)tr_start].d0 >= 1)
       traverse_polygon(0, tr_start, tr[(signed long int)tr_start].d0, 2);
 
-  signed int return_value_newmon$2;
-  return_value_newmon$2=newmon();
-  return return_value_newmon$2;
+  signed int return_value_newmon_2;
+  return_value_newmon_2=newmon();
+  return return_value_newmon_2;
 }
 
 // net_prot_in
@@ -9569,13 +9569,13 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
   {
     case 1:
     {
-      s3dprintf$link1(3, "S3D_P_S_INIT: init!!");
+      s3dprintf_link1(3, "S3D_P_S_INIT: init!!");
       _s3d_ready = 1;
       break;
     }
     case 2:
     {
-      s3dprintf$link1(3, "S3D_P_S_QUIT: server wants us to go. well ...");
+      s3dprintf_link1(3, "S3D_P_S_QUIT: server wants us to go. well ...");
       s3d_quit();
       break;
     }
@@ -9584,9 +9584,9 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
       if((signed int)length == 4)
       {
         oid=ntohl(*((unsigned int *)buf));
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(struct s3d_evt) /*24ul*/ );
-        s3devt = (struct s3d_evt *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(struct s3d_evt) /*24ul*/ );
+        s3devt = (struct s3d_evt *)return_value_malloc_1;
         if(!(s3devt == ((struct s3d_evt *)NULL)))
         {
           *((unsigned int *)buf) = oid;
@@ -9595,7 +9595,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
           s3devt->buf = buf;
         }
 
-        s3dprintf$link1(3, "S3D_P_S_CLICK: %d got clicked ....", oid);
+        s3dprintf_link1(3, "S3D_P_S_CLICK: %d got clicked ....", oid);
       }
 
       break;
@@ -9606,7 +9606,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
       {
         oid=ntohl(*((unsigned int *)buf));
         _queue_new_object(oid);
-        s3dprintf$link1(1, "S3D_P_S_NEWOBJ: new object %d", oid);
+        s3dprintf_link1(1, "S3D_P_S_NEWOBJ: new object %d", oid);
       }
 
       break;
@@ -9615,9 +9615,9 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
     {
       if((signed int)length == 8)
       {
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(sizeof(struct s3d_evt) /*24ul*/ );
-        s3devt = (struct s3d_evt *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(sizeof(struct s3d_evt) /*24ul*/ );
+        s3devt = (struct s3d_evt *)return_value_malloc_2;
         if(!(s3devt == ((struct s3d_evt *)NULL)))
         {
           struct s3d_key_event *keyevent;
@@ -9629,7 +9629,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
           keyevent->state=ntohs(keyevent->state);
           s3devt->buf = buf;
           s3devt->event = (unsigned char)((signed int)keyevent->state == 0 ? 2 : 4);
-          s3dprintf$link1(1, "S3D_P_S_KEY: key %d hit!!", *((unsigned short int *)s3devt->buf));
+          s3dprintf_link1(1, "S3D_P_S_KEY: key %d hit!!", *((unsigned short int *)s3devt->buf));
         }
 
       }
@@ -9640,15 +9640,15 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
     {
       if((signed int)length == 2)
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct s3d_evt) /*24ul*/ );
-        s3devt = (struct s3d_evt *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct s3d_evt) /*24ul*/ );
+        s3devt = (struct s3d_evt *)return_value_malloc_3;
         if(!(s3devt == ((struct s3d_evt *)NULL)))
         {
           s3devt->event = (unsigned char)3;
           s3devt->length = 2;
           s3devt->buf = buf;
-          s3dprintf$link1(1, "S3D_P_S_MBUTTON: mbutton %d, state %d !!", *((unsigned char *)s3devt->buf), *((signed long int)1 + (unsigned char *)s3devt->buf));
+          s3dprintf_link1(1, "S3D_P_S_MBUTTON: mbutton %d, state %d !!", *((unsigned char *)s3devt->buf), *((signed long int)1 + (unsigned char *)s3devt->buf));
         }
 
       }
@@ -9659,9 +9659,9 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
     {
       if((unsigned long int)length == sizeof(struct mcp_object) /*276ul*/ )
       {
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(struct s3d_evt) /*24ul*/ );
-        s3devt = (struct s3d_evt *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(struct s3d_evt) /*24ul*/ );
+        s3devt = (struct s3d_evt *)return_value_malloc_4;
         if(!(s3devt == ((struct s3d_evt *)NULL)))
         {
           s3devt->event = (unsigned char)32;
@@ -9671,22 +9671,22 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
           ntohfb(&mo->trans_x, 4);
           buf[(signed long int)((signed int)length - 1)] = (char)0;
           s3devt->buf = buf;
-          s3dprintf$link1(1, "S3D_P_MCP_OBEJCT: something is happening to object %d, name %s", mo->object, (const void *)mo->name);
+          s3dprintf_link1(1, "S3D_P_MCP_OBEJCT: something is happening to object %d, name %s", mo->object, (const void *)mo->name);
         }
 
       }
 
       else
-        s3dprintf$link1(3, "wrong length for S3D_P_MCP_OBJECT length %d != %d", length, (signed int)sizeof(struct mcp_object) /*276ul*/ );
+        s3dprintf_link1(3, "wrong length for S3D_P_MCP_OBJECT length %d != %d", length, (signed int)sizeof(struct mcp_object) /*276ul*/ );
       break;
     }
     case 32:
     {
       if((unsigned long int)length == sizeof(struct s3d_obj_info) /*296ul*/ )
       {
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(sizeof(struct s3d_evt) /*24ul*/ );
-        s3devt = (struct s3d_evt *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(sizeof(struct s3d_evt) /*24ul*/ );
+        s3devt = (struct s3d_evt *)return_value_malloc_5;
         if(!(s3devt == ((struct s3d_evt *)NULL)))
         {
           s3devt->event = (unsigned char)17;
@@ -9697,13 +9697,13 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
           ntohfb(&oi->trans_x, 8);
           buf[(signed long int)((signed int)length - 1)] = (char)0;
           s3devt->buf = buf;
-          s3dprintf$link1(1, "S3D_P_S_OINFO: something is happening to object %d, name %s", oi->object, (const void *)oi->name);
+          s3dprintf_link1(1, "S3D_P_S_OINFO: something is happening to object %d, name %s", oi->object, (const void *)oi->name);
         }
 
       }
 
       else
-        s3dprintf$link1(3, "wrong length for S3D_P_S_OINFO length %d != %d", length, (signed int)sizeof(struct s3d_obj_info) /*296ul*/ );
+        s3dprintf_link1(3, "wrong length for S3D_P_S_OINFO length %d != %d", length, (signed int)sizeof(struct s3d_obj_info) /*296ul*/ );
       break;
     }
     case 6:
@@ -9711,41 +9711,41 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
       if((unsigned long int)length == sizeof(struct s3d_texshm) /*20ul*/ )
       {
         tshm = (struct s3d_texshm *)buf;
-        unsigned int return_value_ntohl$6;
-        return_value_ntohl$6=ntohl((unsigned int)tshm->oid);
-        tshm->oid = (signed int)return_value_ntohl$6;
-        unsigned int return_value_ntohl$7;
-        return_value_ntohl$7=ntohl((unsigned int)tshm->tex);
-        tshm->tex = (signed int)return_value_ntohl$7;
-        unsigned int return_value_ntohl$8;
-        return_value_ntohl$8=ntohl((unsigned int)tshm->shmid);
-        tshm->shmid = (signed int)return_value_ntohl$8;
+        unsigned int return_value_ntohl_6;
+        return_value_ntohl_6=ntohl((unsigned int)tshm->oid);
+        tshm->oid = (signed int)return_value_ntohl_6;
+        unsigned int return_value_ntohl_7;
+        return_value_ntohl_7=ntohl((unsigned int)tshm->tex);
+        tshm->tex = (signed int)return_value_ntohl_7;
+        unsigned int return_value_ntohl_8;
+        return_value_ntohl_8=ntohl((unsigned int)tshm->shmid);
+        tshm->shmid = (signed int)return_value_ntohl_8;
         tshm->tw=ntohs(tshm->tw);
         tshm->th=ntohs(tshm->th);
         tshm->w=ntohs(tshm->w);
         tshm->h=ntohs(tshm->h);
-        s3dprintf$link1(3, "S3D_P_S_SHMTEX: texture %d of object %d is available under shmid %d", tshm->tex, tshm->oid, tshm->shmid);
+        s3dprintf_link1(3, "S3D_P_S_SHMTEX: texture %d of object %d is available under shmid %d", tshm->tex, tshm->oid, tshm->shmid);
         _s3d_handle_texshm(tshm);
         free((void *)buf);
       }
 
       else
-        s3dprintf$link1(3, "wrong length for S3D_P_S_SHMTEX length %d != %d", length, (signed int)sizeof(struct s3d_texshm) /*20ul*/ );
+        s3dprintf_link1(3, "wrong length for S3D_P_S_SHMTEX length %d != %d", length, (signed int)sizeof(struct s3d_texshm) /*20ul*/ );
       break;
     }
     case 68:
     {
       if((signed int)length == 4)
       {
-        void *return_value_malloc$9;
-        return_value_malloc$9=malloc(sizeof(struct s3d_evt) /*24ul*/ );
-        s3devt = (struct s3d_evt *)return_value_malloc$9;
+        void *return_value_malloc_9;
+        return_value_malloc_9=malloc(sizeof(struct s3d_evt) /*24ul*/ );
+        s3devt = (struct s3d_evt *)return_value_malloc_9;
         if(!(s3devt == ((struct s3d_evt *)NULL)))
         {
           s3devt->event = (unsigned char)33;
           s3devt->length = (signed int)length;
           *((unsigned int *)buf)=ntohl(*((unsigned int *)buf));
-          s3dprintf$link1(3, "S3D_P_MCP_DEL_OBEJCT: deleting object %d", *((unsigned int *)buf));
+          s3dprintf_link1(3, "S3D_P_MCP_DEL_OBEJCT: deleting object %d", *((unsigned int *)buf));
           s3devt->buf = buf;
         }
 
@@ -9755,7 +9755,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
     }
     default:
     {
-      s3dprintf$link1(3, "don't know command %d", opcode);
+      s3dprintf_link1(3, "don't know command %d", opcode);
       if(!(buf == ((char *)NULL)))
         free((void *)buf);
 
@@ -9800,12 +9800,12 @@ static signed int new_chain_element(void)
   return chain_idx;
 }
 
-// new_chain_element$link1
+// new_chain_element_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 94
-static signed int new_chain_element$link1(void)
+static signed int new_chain_element_link1(void)
 {
-  chain_idx$link1 = chain_idx$link1 + 1;
-  return chain_idx$link1;
+  chain_idx_link1 = chain_idx_link1 + 1;
+  return chain_idx_link1;
 }
 
 // newmon
@@ -9816,24 +9816,24 @@ static signed int newmon(void)
   return mon_idx;
 }
 
-// newmon$link1
+// newmon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 87
-static signed int newmon$link1(void)
+static signed int newmon_link1(void)
 {
-  mon_idx$link1 = mon_idx$link1 + 1;
-  return mon_idx$link1;
+  mon_idx_link1 = mon_idx_link1 + 1;
+  return mon_idx_link1;
 }
 
 // newnode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 53
 static signed int newnode(void)
 {
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(q_idx >= 8))
   {
-    tmp_post$1 = q_idx;
+    tmp_post_1 = q_idx;
     q_idx = q_idx + 1;
-    return tmp_post$1;
+    return tmp_post_1;
   }
 
   else
@@ -9843,16 +9843,16 @@ static signed int newnode(void)
   }
 }
 
-// newnode$link1
+// newnode_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 53
-static signed int newnode$link1(void)
+static signed int newnode_link1(void)
 {
-  signed int tmp_post$1$link1;
-  if(!(q_idx$link1 >= 8))
+  signed int tmp_post_1_link1;
+  if(!(q_idx_link1 >= 8))
   {
-    tmp_post$1$link1 = q_idx$link1;
-    q_idx$link1 = q_idx$link1 + 1;
-    return tmp_post$1$link1;
+    tmp_post_1_link1 = q_idx_link1;
+    q_idx_link1 = q_idx_link1 + 1;
+    return tmp_post_1_link1;
   }
 
   else
@@ -9866,15 +9866,15 @@ static signed int newnode$link1(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 64
 static signed int newtrap(void)
 {
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(tr_idx >= 4))
   {
     tr[(signed long int)tr_idx].lseg = -1;
     tr[(signed long int)tr_idx].rseg = -1;
     tr[(signed long int)tr_idx].state = 1;
-    tmp_post$1 = tr_idx;
+    tmp_post_1 = tr_idx;
     tr_idx = tr_idx + 1;
-    return tmp_post$1;
+    return tmp_post_1;
   }
 
   else
@@ -9884,19 +9884,19 @@ static signed int newtrap(void)
   }
 }
 
-// newtrap$link1
+// newtrap_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_construct.c line 64
-static signed int newtrap$link1(void)
+static signed int newtrap_link1(void)
 {
-  signed int tmp_post$1$link1;
-  if(!(tr_idx$link1 >= 4))
+  signed int tmp_post_1_link1;
+  if(!(tr_idx_link1 >= 4))
   {
-    tr[(signed long int)tr_idx$link1].lseg = -1;
-    tr[(signed long int)tr_idx$link1].rseg = -1;
-    tr[(signed long int)tr_idx$link1].state = 1;
-    tmp_post$1$link1 = tr_idx$link1;
-    tr_idx$link1 = tr_idx$link1 + 1;
-    return tmp_post$1$link1;
+    tr[(signed long int)tr_idx_link1].lseg = -1;
+    tr[(signed long int)tr_idx_link1].rseg = -1;
+    tr[(signed long int)tr_idx_link1].state = 1;
+    tmp_post_1_link1 = tr_idx_link1;
+    tr_idx_link1 = tr_idx_link1 + 1;
+    return tmp_post_1_link1;
   }
 
   else
@@ -9941,11 +9941,11 @@ static signed int object_click(struct s3d_evt *evt)
   struct wlan_network *wlan_network;
   signed int clicked_id = (signed int)*((unsigned int *)evt->buf);
   s3dw_handle_click(evt);
-  unsigned int return_value_get_time$1;
+  unsigned int return_value_get_time_1;
   if(Last_Click_Oid == clicked_id)
   {
-    return_value_get_time$1=get_time();
-    if(!(return_value_get_time$1 >= 250u + Last_Click_Time))
+    return_value_get_time_1=get_time();
+    if(!(return_value_get_time_1 >= 250u + Last_Click_Time))
     {
       network_pos = (&Network_list)->next;
       for( ; !(network_pos == &Network_list); network_pos = network_pos->next)
@@ -9999,7 +9999,7 @@ static signed int parse_args(signed int *argc, char ***argv)
     { .name="s3d-help", .has_arg=0, .flag=(signed int *)(void *)0, .val=104 },
     { .name=(const char *)(void *)0, .has_arg=0, .flag=(signed int *)(void *)0,
     .val=0 } };
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(argv == ((char ***)NULL) || argc == ((signed int *)NULL))
     return 0;
 
@@ -10020,13 +10020,13 @@ static signed int parse_args(signed int *argc, char ***argv)
       {
         case 117:
         {
-          return_value_strcmp$1=strcmp(long_options[(signed long int)lopt_idx].name, "s3d-url");
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(long_options[(signed long int)lopt_idx].name, "s3d-url");
+          if(return_value_strcmp_1 == 0)
           {
             if(!(optarg == ((char *)NULL)))
             {
               url = optarg;
-              s3dprintf$link1(4, "connecting to %s", url);
+              s3dprintf_link1(4, "connecting to %s", url);
             }
 
           }
@@ -10059,47 +10059,47 @@ static signed int parse_args(signed int *argc, char ***argv)
   }
 }
 
-// parse_args$link1
+// parse_args_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 80
-static signed int parse_args$link1(signed int *argc$link1, char ***argv$link1)
+static signed int parse_args_link1(signed int *argc_link1, char ***argv_link1)
 {
-  signed int c$link1;
-  signed int lopt_idx$link1;
-  signed int old_argc$link1;
-  signed int curopt$link1;
-  struct option long_options$link1[4l] = { { .name="s3d-url", .has_arg=1, .flag=(signed int *)(void *)0, .val=117 },
+  signed int c_link1;
+  signed int lopt_idx_link1;
+  signed int old_argc_link1;
+  signed int curopt_link1;
+  struct option long_options_link1[4l] = { { .name="s3d-url", .has_arg=1, .flag=(signed int *)(void *)0, .val=117 },
     { .name="help", .has_arg=0, .flag=(signed int *)(void *)0, .val=104 },
     { .name="s3d-help", .has_arg=0, .flag=(signed int *)(void *)0, .val=104 },
     { .name=(const char *)(void *)0, .has_arg=0, .flag=(signed int *)(void *)0,
     .val=0 } };
-  signed int return_value_strcmp$1$link1;
-  if(argv$link1 == ((char ***)NULL) || argc$link1 == ((signed int *)NULL))
+  signed int return_value_strcmp_1_link1;
+  if(argv_link1 == ((char ***)NULL) || argc_link1 == ((signed int *)NULL))
     return 0;
 
   else
   {
-    old_argc$link1 = *argc$link1;
+    old_argc_link1 = *argc_link1;
     optind = 0;
     opterr = 0;
-    *argc$link1 = 1;
-    curopt$link1 = 1;
+    *argc_link1 = 1;
+    curopt_link1 = 1;
     do
     {
-      c$link1=getopt_long(old_argc$link1, *argv$link1, "-h", long_options$link1, &lopt_idx$link1);
-      if(c$link1 == -1)
+      c_link1=getopt_long(old_argc_link1, *argv_link1, "-h", long_options_link1, &lopt_idx_link1);
+      if(c_link1 == -1)
         break;
 
-      switch(c$link1)
+      switch(c_link1)
       {
         case 117:
         {
-          return_value_strcmp$1$link1=strcmp(long_options$link1[(signed long int)lopt_idx$link1].name, "s3d-url");
-          if(return_value_strcmp$1$link1 == 0)
+          return_value_strcmp_1_link1=strcmp(long_options_link1[(signed long int)lopt_idx_link1].name, "s3d-url");
+          if(return_value_strcmp_1_link1 == 0)
           {
             if(!(optarg == ((char *)NULL)))
             {
-              url$link1 = optarg;
-              s3dprintf$link2(4, "connecting to %s", url$link1);
+              url_link1 = optarg;
+              s3dprintf_link2(4, "connecting to %s", url_link1);
             }
 
           }
@@ -10108,24 +10108,24 @@ static signed int parse_args$link1(signed int *argc$link1, char ***argv$link1)
         }
         case 104:
         {
-          printf("usage: %s [options]", (*argv$link1)[(signed long int)0]);
+          printf("usage: %s [options]", (*argv_link1)[(signed long int)0]);
           s3d_usage();
           return -1;
         }
         default:
         {
-          (*argv$link1)[(signed long int)*argc$link1] = (*argv$link1)[(signed long int)curopt$link1];
-          *argc$link1 = *argc$link1 + 1;
+          (*argv_link1)[(signed long int)*argc_link1] = (*argv_link1)[(signed long int)curopt_link1];
+          *argc_link1 = *argc_link1 + 1;
         }
       }
-      curopt$link1 = optind;
+      curopt_link1 = optind;
     }
     while((_Bool)1);
-    c$link1 = optind;
-    for( ; !(c$link1 >= old_argc$link1); c$link1 = c$link1 + 1)
+    c_link1 = optind;
+    for( ; !(c_link1 >= old_argc_link1); c_link1 = c_link1 + 1)
     {
-      (*argv$link1)[(signed long int)*argc$link1] = (*argv$link1)[(signed long int)c$link1];
-      *argc$link1 = *argc$link1 + 1;
+      (*argv_link1)[(signed long int)*argc_link1] = (*argv_link1)[(signed long int)c_link1];
+      *argc_link1 = *argc_link1 + 1;
     }
     optind = 0;
     return 0;
@@ -10155,15 +10155,15 @@ static void parse_buffer(struct kismet_src *kismet_src)
   signed int count;
   read_ptr = kismet_src->recv_buff;
   line_ptr = kismet_src->recv_buff;
-  signed long int return_value_write$3;
-  signed long int return_value_write$6;
-  signed long int return_value_write$9;
-  unsigned long int return_value_strlen$18;
-  signed int return_value_strncmp$19;
-  unsigned long int return_value_strlen$16;
-  signed int return_value_strncmp$17;
-  unsigned long int return_value_strlen$14;
-  signed int return_value_strncmp$15;
+  signed long int return_value_write_3;
+  signed long int return_value_write_6;
+  signed long int return_value_write_9;
+  unsigned long int return_value_strlen_18;
+  signed int return_value_strncmp_19;
+  unsigned long int return_value_strlen_16;
+  signed int return_value_strncmp_17;
+  unsigned long int return_value_strlen_14;
+  signed int return_value_strncmp_15;
   for( ; !((signed int)*read_ptr == 0); read_ptr = read_ptr + 1l)
     if((signed int)*read_ptr == 10)
     {
@@ -10175,11 +10175,11 @@ static void parse_buffer(struct kismet_src *kismet_src)
       type = ssid;
       channel = type;
       bssid = channel;
-      unsigned long int return_value_strlen$20;
-      return_value_strlen$20=strlen("*TIME: ");
-      signed int return_value_strncmp$21;
-      return_value_strncmp$21=strncmp(line_ptr, "*TIME: ", return_value_strlen$20);
-      if(return_value_strncmp$21 == 0)
+      unsigned long int return_value_strlen_20;
+      return_value_strlen_20=strlen("*TIME: ");
+      signed int return_value_strncmp_21;
+      return_value_strncmp_21=strncmp(line_ptr, "*TIME: ", return_value_strlen_20);
+      if(return_value_strncmp_21 == 0)
       {
         if(!(kismet_src->enable_level >= 4))
         {
@@ -10187,42 +10187,42 @@ static void parse_buffer(struct kismet_src *kismet_src)
           {
             case 0:
             {
-              return_value_write$3=write(kismet_src->sock, (const void *)enable_alert, sizeof(char [19l]) /*19ul*/ );
-              if(!(return_value_write$3 >= 0l))
+              return_value_write_3=write(kismet_src->sock, (const void *)enable_alert, sizeof(char [19l]) /*19ul*/ );
+              if(!(return_value_write_3 >= 0l))
               {
-                signed int *return_value___errno_location$1;
-                return_value___errno_location$1=__errno_location();
-                char *return_value_strerror$2;
-                return_value_strerror$2=strerror(*return_value___errno_location$1);
-                printf("Warning - can't send ENABLE ALERT message to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror$2);
+                signed int *return_value___errno_location_1;
+                return_value___errno_location_1=__errno_location();
+                char *return_value_strerror_2;
+                return_value_strerror_2=strerror(*return_value___errno_location_1);
+                printf("Warning - can't send ENABLE ALERT message to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror_2);
               }
 
               break;
             }
             case 1:
             {
-              return_value_write$6=write(kismet_src->sock, (const void *)enable_client, sizeof(char [31l]) /*31ul*/ );
-              if(!(return_value_write$6 >= 0l))
+              return_value_write_6=write(kismet_src->sock, (const void *)enable_client, sizeof(char [31l]) /*31ul*/ );
+              if(!(return_value_write_6 >= 0l))
               {
-                signed int *return_value___errno_location$4;
-                return_value___errno_location$4=__errno_location();
-                char *return_value_strerror$5;
-                return_value_strerror$5=strerror(*return_value___errno_location$4);
-                printf("Warning - can't send ENABLE CLIENT message to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror$5);
+                signed int *return_value___errno_location_4;
+                return_value___errno_location_4=__errno_location();
+                char *return_value_strerror_5;
+                return_value_strerror_5=strerror(*return_value___errno_location_4);
+                printf("Warning - can't send ENABLE CLIENT message to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror_5);
               }
 
               break;
             }
             case 2:
             {
-              return_value_write$9=write(kismet_src->sock, (const void *)enable_network, sizeof(char [43l]) /*43ul*/ );
-              if(!(return_value_write$9 >= 0l))
+              return_value_write_9=write(kismet_src->sock, (const void *)enable_network, sizeof(char [43l]) /*43ul*/ );
+              if(!(return_value_write_9 >= 0l))
               {
-                signed int *return_value___errno_location$7;
-                return_value___errno_location$7=__errno_location();
-                char *return_value_strerror$8;
-                return_value_strerror$8=strerror(*return_value___errno_location$7);
-                printf("Warning - can't send ENABLE NETWORK message to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror$8);
+                signed int *return_value___errno_location_7;
+                return_value___errno_location_7=__errno_location();
+                char *return_value_strerror_8;
+                return_value_strerror_8=strerror(*return_value___errno_location_7);
+                printf("Warning - can't send ENABLE NETWORK message to kismet server (%s:%i): %s\n", kismet_src->kismet_ip, kismet_src->port, return_value_strerror_8);
               }
 
               break;
@@ -10242,13 +10242,13 @@ static void parse_buffer(struct kismet_src *kismet_src)
 
       else
       {
-        return_value_strlen$18=strlen("*NETWORK: ");
-        return_value_strncmp$19=strncmp(line_ptr, "*NETWORK: ", return_value_strlen$18);
-        if(return_value_strncmp$19 == 0)
+        return_value_strlen_18=strlen("*NETWORK: ");
+        return_value_strncmp_19=strncmp(line_ptr, "*NETWORK: ", return_value_strlen_18);
+        if(return_value_strncmp_19 == 0)
         {
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen("*NETWORK: ");
-          parse_end_ptr = line_ptr + (signed long int)return_value_strlen$10;
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen("*NETWORK: ");
+          parse_end_ptr = line_ptr + (signed long int)return_value_strlen_10;
           parse_begin_ptr = parse_end_ptr;
           count = 0;
           for( ; !((signed int)*parse_end_ptr == 0); parse_end_ptr = parse_end_ptr + 1l)
@@ -10307,24 +10307,24 @@ static void parse_buffer(struct kismet_src *kismet_src)
           if(!(wlan_network->ssid == ((char *)NULL)))
             free((void *)wlan_network->ssid);
 
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(ssid);
-          void *return_value_alloc_memory$12;
-          return_value_alloc_memory$12=alloc_memory((signed int)return_value_strlen$11);
-          wlan_network->ssid = (char *)return_value_alloc_memory$12;
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(ssid);
+          void *return_value_alloc_memory_12;
+          return_value_alloc_memory_12=alloc_memory((signed int)return_value_strlen_11);
+          wlan_network->ssid = (char *)return_value_alloc_memory_12;
           strcpy(wlan_network->ssid, ssid);
           pthread_mutex_unlock(&Network_list_mutex);
         }
 
         else
         {
-          return_value_strlen$16=strlen("*CLIENT: ");
-          return_value_strncmp$17=strncmp(line_ptr, "*CLIENT: ", return_value_strlen$16);
-          if(return_value_strncmp$17 == 0)
+          return_value_strlen_16=strlen("*CLIENT: ");
+          return_value_strncmp_17=strncmp(line_ptr, "*CLIENT: ", return_value_strlen_16);
+          if(return_value_strncmp_17 == 0)
           {
-            unsigned long int return_value_strlen$13;
-            return_value_strlen$13=strlen("*CLIENT: ");
-            parse_end_ptr = line_ptr + (signed long int)return_value_strlen$13;
+            unsigned long int return_value_strlen_13;
+            return_value_strlen_13=strlen("*CLIENT: ");
+            parse_end_ptr = line_ptr + (signed long int)return_value_strlen_13;
             parse_begin_ptr = parse_end_ptr;
             count = 0;
             for( ; !((signed int)*parse_end_ptr == 0); parse_end_ptr = parse_end_ptr + 1l)
@@ -10378,8 +10378,8 @@ static void parse_buffer(struct kismet_src *kismet_src)
 
           else
           {
-            return_value_strlen$14=strlen("*ALERT: ");
-            return_value_strncmp$15=strncmp(line_ptr, "*ALERT: ", return_value_strlen$14);
+            return_value_strlen_14=strlen("*ALERT: ");
+            return_value_strncmp_15=strncmp(line_ptr, "*ALERT: ", return_value_strlen_14);
           }
         }
       }
@@ -10387,11 +10387,11 @@ static void parse_buffer(struct kismet_src *kismet_src)
       line_ptr = last_cr_ptr + (signed long int)1;
     }
 
-  unsigned long int return_value_strlen$22;
+  unsigned long int return_value_strlen_22;
   if(!(last_cr_ptr == ((char *)NULL)))
   {
-    return_value_strlen$22=strlen(last_cr_ptr);
-    memmove((void *)kismet_src->recv_buff, (const void *)(last_cr_ptr + (signed long int)1), return_value_strlen$22);
+    return_value_strlen_22=strlen(last_cr_ptr);
+    memmove((void *)kismet_src->recv_buff, (const void *)(last_cr_ptr + (signed long int)1), return_value_strlen_22);
   }
 
 }
@@ -10433,9 +10433,9 @@ void s3d_clear_callback(unsigned char event)
 signed int s3d_clone(signed int oid)
 {
   unsigned int res;
-  signed int return_value_s3d_new_object$1;
-  return_value_s3d_new_object$1=s3d_new_object();
-  res = (unsigned int)return_value_s3d_new_object$1;
+  signed int return_value_s3d_new_object_1;
+  return_value_s3d_new_object_1=s3d_new_object();
+  res = (unsigned int)return_value_s3d_new_object_1;
   s3d_clone_target((signed int)res, oid);
   return (signed int)res;
 }
@@ -10496,11 +10496,11 @@ signed int s3d_draw_string(const char *str, float *xlen)
   signed int voff;
   signed int len;
   unsigned int f_oid;
-  signed int return_value_s3d_ft_init$1;
+  signed int return_value_s3d_ft_init_1;
   if(ft_init == 0)
   {
-    return_value_s3d_ft_init$1=s3d_ft_init();
-    if(return_value_s3d_ft_init$1 == 0)
+    return_value_s3d_ft_init_1=s3d_ft_init();
+    if(return_value_s3d_ft_init_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     errds(5, "s3d_draw_string()", "error in initializtation (ft_init())");
@@ -10520,15 +10520,15 @@ signed int s3d_draw_string(const char *str, float *xlen)
 
     else
     {
-      signed int return_value_s3d_new_object$2;
-      return_value_s3d_new_object$2=s3d_new_object();
-      f_oid = (unsigned int)return_value_s3d_new_object$2;
+      signed int return_value_s3d_new_object_2;
+      return_value_s3d_new_object_2=s3d_new_object();
+      f_oid = (unsigned int)return_value_s3d_new_object_2;
       s3d_push_material((signed int)f_oid, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0);
       xoff = (float)0;
       voff = 0;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(str);
-      len = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(str);
+      len = (signed int)return_value_strlen_3;
       i = 0;
       for( ; !(i >= len); i = i + 1)
         _s3d_draw_tessbuf((signed int)f_oid, (unsigned short int)(unsigned char)str[(signed long int)i], &voff, &xoff);
@@ -10563,16 +10563,16 @@ char * s3d_findfont(const char *mask)
   pattern=FcNameParse((unsigned char *)mask);
   FcConfigSubstitute((struct _FcConfig *)(void *)0, pattern, (enum _FcMatchKind)FcMatchPattern);
   FcDefaultSubstitute(pattern);
-  s3dprintf$link1(2, "Looking for font %s", mask);
+  s3dprintf_link1(2, "Looking for font %s", mask);
   match=FcFontMatch((struct _FcConfig *)(void *)0, pattern, &result);
   if(match == ((struct _FcPattern *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    enum _FcResult return_value_FcPatternGetString$1;
-    return_value_FcPatternGetString$1=FcPatternGetString(match, "file", 0, &file);
-    if(!((signed int)return_value_FcPatternGetString$1 == FcResultMatch))
+    enum _FcResult return_value_FcPatternGetString_1;
+    return_value_FcPatternGetString_1=FcPatternGetString(match, "file", 0, &file);
+    if(!((signed int)return_value_FcPatternGetString_1 == FcResultMatch))
       return (char *)(void *)0;
 
     else
@@ -10638,25 +10638,25 @@ static signed int s3d_ft_init(void)
   }
 }
 
-// s3d_ft_init$link1
+// s3d_ft_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 63
-static signed int s3d_ft_init$link1(void)
+static signed int s3d_ft_init_link1(void)
 {
-  signed int error$link1;
-  error$link1=FT_Init_FreeType(&library$link1);
-  signed int i$link1;
-  oldfontpath$link1[(signed long int)0] = (char)0;
-  if(!(error$link1 == 0))
+  signed int error_link1;
+  error_link1=FT_Init_FreeType(&library_link1);
+  signed int i_link1;
+  oldfontpath_link1[(signed long int)0] = (char)0;
+  if(!(error_link1 == 0))
     return -1;
 
   else
   {
-    ft_init$link1 = 1;
-    i$link1 = 0;
-    for( ; !(i$link1 >= 256); i$link1 = i$link1 + 1)
+    ft_init_link1 = 1;
+    i_link1 = 0;
+    for( ; !(i_link1 >= 256); i_link1 = i_link1 + 1)
     {
-      tess_buf$link1[(signed long int)i$link1].vbuf = (float *)(void *)0;
-      tess_buf$link1[(signed long int)i$link1].pbuf = (unsigned int *)(void *)0;
+      tess_buf_link1[(signed long int)i_link1].vbuf = (float *)(void *)0;
+      tess_buf_link1[(signed long int)i_link1].pbuf = (unsigned int *)(void *)0;
     }
     return 0;
   }
@@ -10685,38 +10685,38 @@ static signed int s3d_ft_load_font(void)
 
     else
     {
-      s3dprintf$link1(2, "Load Font successful ...");
+      s3dprintf_link1(2, "Load Font successful ...");
       face_init = 1;
       return 0;
     }
   }
 }
 
-// s3d_ft_load_font$link1
+// s3d_ft_load_font_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/freetype.c line 79
-static signed int s3d_ft_load_font$link1(void)
+static signed int s3d_ft_load_font_link1(void)
 {
-  signed int error$link1;
-  if(memory_font$link1 == ((char *)NULL) || memory_font_size$link1 == 0)
+  signed int error_link1;
+  if(memory_font_link1 == ((char *)NULL) || memory_font_size_link1 == 0)
   {
-    errds$link1(4, "s3d_ft_load_font()", "there is no font in memory, breaking");
+    errds_link1(4, "s3d_ft_load_font()", "there is no font in memory, breaking");
     return -1;
   }
 
   else
   {
-    face_init$link1 = 0;
-    error$link1=FT_New_Memory_Face(library$link1, (unsigned char *)memory_font$link1, (signed long int)memory_font_size$link1, (signed long int)0, &face$link1);
-    if(!(error$link1 == 0))
+    face_init_link1 = 0;
+    error_link1=FT_New_Memory_Face(library_link1, (unsigned char *)memory_font_link1, (signed long int)memory_font_size_link1, (signed long int)0, &face_link1);
+    if(!(error_link1 == 0))
     {
-      errds$link1(5, "s3d_ft_load_font():FT_New_Memory_Face", "can't load font : (%d) %s", ft_errors$link1[(signed long int)error$link1].err_code, ft_errors$link1[(signed long int)error$link1].err_msg);
+      errds_link1(5, "s3d_ft_load_font():FT_New_Memory_Face", "can't load font : (%d) %s", ft_errors_link1[(signed long int)error_link1].err_code, ft_errors_link1[(signed long int)error_link1].err_msg);
       return -1;
     }
 
     else
     {
-      s3dprintf$link2(2, "Load Font successful ...");
-      face_init$link1 = 1;
+      s3dprintf_link2(2, "Load Font successful ...");
+      face_init_link1 = 1;
       return 0;
     }
   }
@@ -10765,17 +10765,17 @@ signed int s3d_import_model_file(const char *fname)
         next = next + (signed long int)1;
       }
 
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(ptr);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(fname);
-      if(!(return_value_strlen$2 + return_value_strlen$3 >= 1024ul))
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(ptr);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(fname);
+      if(!(return_value_strlen_2 + return_value_strlen_3 >= 1024ul))
       {
         strcpy(path, ptr);
         strcat(path, fname);
-        signed int return_value_s3d_open_file$1;
-        return_value_s3d_open_file$1=s3d_open_file(path, &buf);
-        if(!(return_value_s3d_open_file$1 == -1))
+        signed int return_value_s3d_open_file_1;
+        return_value_s3d_open_file_1=s3d_open_file(path, &buf);
+        if(!(return_value_s3d_open_file_1 == -1))
         {
           free((void *)buf);
           oid=model_load(path);
@@ -10803,12 +10803,12 @@ signed int s3d_init(signed int *argc, char ***argv, const char *name)
   char urlc[256l];
   char buf[258l];
   signed int i;
-  struct timespec s3d_init$$1$$t = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(100 * 1000 * 1000) };
+  struct timespec s3d_init__1__t = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)(100 * 1000 * 1000) };
   cb_lock = 1;
   s=getenv("S3D");
   if(!(s == ((char *)NULL)))
   {
-    s3dprintf$link1(1, "at least we have the environment variable ... %s", s);
+    s3dprintf_link1(1, "at least we have the environment variable ... %s", s);
     url = s;
   }
 
@@ -10816,14 +10816,14 @@ signed int s3d_init(signed int *argc, char ***argv, const char *name)
   if(url == ((char *)NULL))
   {
     strncpy(urlc, "s3d:///tmp/.s3d:shm/", (unsigned long int)256);
-    signed int return_value_s3d_net_init$2;
-    return_value_s3d_net_init$2=s3d_net_init(urlc);
-    if(return_value_s3d_net_init$2 == 0)
+    signed int return_value_s3d_net_init_2;
+    return_value_s3d_net_init_2=s3d_net_init(urlc);
+    if(return_value_s3d_net_init_2 == 0)
     {
       strncpy(urlc, "s3d://127.0.0.1:6066/", (unsigned long int)256);
-      signed int return_value_s3d_net_init$1;
-      return_value_s3d_net_init$1=s3d_net_init(urlc);
-      if(return_value_s3d_net_init$1 == 0)
+      signed int return_value_s3d_net_init_1;
+      return_value_s3d_net_init_1=s3d_net_init(urlc);
+      if(return_value_s3d_net_init_1 == 0)
         return -1;
 
     }
@@ -10834,13 +10834,13 @@ signed int s3d_init(signed int *argc, char ***argv, const char *name)
   {
     strncpy(urlc, url, (unsigned long int)256);
     urlc[(signed long int)255] = (char)0;
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(urlc, "s3d:// ", (unsigned long int)6);
-    if(return_value_strncmp$4 == 0)
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(urlc, "s3d:// ", (unsigned long int)6);
+    if(return_value_strncmp_4 == 0)
     {
-      signed int return_value_s3d_net_init$3;
-      return_value_s3d_net_init$3=s3d_net_init(urlc);
-      if(return_value_s3d_net_init$3 == 0)
+      signed int return_value_s3d_net_init_3;
+      return_value_s3d_net_init_3=s3d_net_init(urlc);
+      if(return_value_s3d_net_init_3 == 0)
         return -1;
 
     }
@@ -10852,34 +10852,34 @@ signed int s3d_init(signed int *argc, char ***argv, const char *name)
     }
   }
   strncpy(buf, name, (unsigned long int)256);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(buf);
-  net_send((unsigned char)1, buf, (unsigned short int)return_value_strlen$5);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(buf);
+  net_send((unsigned char)1, buf, (unsigned short int)return_value_strlen_5);
   _queue_init();
   _s3d_texture_init();
-  void (*return_value_signal$7)(signed int);
-  return_value_signal$7=signal(2, (void (*)(signed int))sigint_handler);
-  signed int *return_value___errno_location$6;
-  if(return_value_signal$7 == (void (*)(signed int))-1)
+  void (*return_value_signal_7)(signed int);
+  return_value_signal_7=signal(2, (void (*)(signed int))sigint_handler);
+  signed int *return_value___errno_location_6;
+  if(return_value_signal_7 == (void (*)(signed int))-1)
   {
-    return_value___errno_location$6=__errno_location();
-    errdn(2, "s3d_init():signal()", *return_value___errno_location$6);
+    return_value___errno_location_6=__errno_location();
+    errdn(2, "s3d_init():signal()", *return_value___errno_location_6);
   }
 
-  void (*return_value_signal$9)(signed int);
-  return_value_signal$9=signal(15, (void (*)(signed int))sigint_handler);
-  signed int *return_value___errno_location$8;
-  if(return_value_signal$9 == (void (*)(signed int))-1)
+  void (*return_value_signal_9)(signed int);
+  return_value_signal_9=signal(15, (void (*)(signed int))sigint_handler);
+  signed int *return_value___errno_location_8;
+  if(return_value_signal_9 == (void (*)(signed int))-1)
   {
-    return_value___errno_location$8=__errno_location();
-    errdn(2, "s3d_init():signal()", *return_value___errno_location$8);
+    return_value___errno_location_8=__errno_location();
+    errdn(2, "s3d_init():signal()", *return_value___errno_location_8);
   }
 
   i = 0;
   for( ; !(i >= 100); i = i + 1)
   {
     s3d_net_check();
-    nanosleep(&s3d_init$$1$$t, (struct timespec *)(void *)0);
+    nanosleep(&s3d_init__1__t, (struct timespec *)(void *)0);
     if(!(_s3d_ready == 0))
     {
       cb_lock = cb_lock - 1;
@@ -11078,9 +11078,9 @@ signed int s3d_load_texture(signed int object, unsigned int tex, unsigned short 
   signed int linestep;
   signed int lines;
   signed int i;
-  signed int return_value__s3d_load_texture_shm$1;
-  return_value__s3d_load_texture_shm$1=_s3d_load_texture_shm(object, tex, xpos, ypos, w, h, data);
-  if(return_value__s3d_load_texture_shm$1 == 0)
+  signed int return_value__s3d_load_texture_shm_1;
+  return_value__s3d_load_texture_shm_1=_s3d_load_texture_shm(object, tex, xpos, ypos, w, h, data);
+  if(return_value__s3d_load_texture_shm_1 == 0)
   {
     _s3d_update_texture(object, tex, xpos, ypos, w, h);
     return 0;
@@ -11154,8 +11154,8 @@ signed int s3d_mcp_focus(signed int object)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/network.c line 75
 signed int s3d_net_check(void)
 {
-  signed int return_value__s3d_net_receive$1;
-  signed int return_value__shm_net_receive$2;
+  signed int return_value__s3d_net_receive_1;
+  signed int return_value__shm_net_receive_2;
   switch(con_type)
   {
     case 2:
@@ -11164,8 +11164,8 @@ signed int s3d_net_check(void)
       {
         do
         {
-          return_value__s3d_net_receive$1=_s3d_net_receive();
-          if(return_value__s3d_net_receive$1 == 0)
+          return_value__s3d_net_receive_1=_s3d_net_receive();
+          if(return_value__s3d_net_receive_1 == 0)
             break;
 
         }
@@ -11178,8 +11178,8 @@ signed int s3d_net_check(void)
     case 1:
       do
       {
-        return_value__shm_net_receive$2=_shm_net_receive();
-        if(return_value__shm_net_receive$2 == 0)
+        return_value__shm_net_receive_2=_shm_net_receive();
+        if(return_value__shm_net_receive_2 == 0)
           break;
 
       }
@@ -11240,23 +11240,23 @@ signed int s3d_net_init(char *urlc)
       if(!(first_slash == ((char *)NULL)))
         *first_slash = (char)0;
 
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(port, "shm", (unsigned long int)3);
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(port, "shm", (unsigned long int)3);
+    if(return_value_strncmp_1 == 0)
       tcp = 0;
 
     else
       shm = 0;
   }
-  signed int return_value__shm_init$2;
+  signed int return_value__shm_init_2;
   if(!(shm == 0))
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(port, "shm", (unsigned long int)3);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(port, "shm", (unsigned long int)3);
+    if(return_value_strncmp_3 == 0)
     {
-      return_value__shm_init$2=_shm_init(sv);
-      if(return_value__shm_init$2 == 0)
+      return_value__shm_init_2=_shm_init(sv);
+      if(return_value__shm_init_2 == 0)
       {
         con_type = 1;
         return con_type;
@@ -11274,17 +11274,17 @@ signed int s3d_net_init(char *urlc)
       pn=atoi(port);
       if(pn == 0)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        errn("s3d_init():atoi()", *return_value___errno_location$4);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        errn("s3d_init():atoi()", *return_value___errno_location_4);
         pn = 6066;
       }
 
     }
 
-    signed int return_value__tcp_init$5;
-    return_value__tcp_init$5=_tcp_init(sv, pn);
-    if(return_value__tcp_init$5 == 0)
+    signed int return_value__tcp_init_5;
+    return_value__tcp_init_5=_tcp_init(sv, pn);
+    if(return_value__tcp_init_5 == 0)
     {
       con_type = 2;
       return con_type;
@@ -11301,9 +11301,9 @@ signed int s3d_new_object(void)
 {
   signed int oid;
   cb_lock = cb_lock + 1;
-  unsigned int return_value__queue_want_object$1;
-  return_value__queue_want_object$1=_queue_want_object();
-  oid = (signed int)return_value__queue_want_object$1;
+  unsigned int return_value__queue_want_object_1;
+  return_value__queue_want_object_1=_queue_want_object();
+  oid = (signed int)return_value__queue_want_object_1;
   cb_lock = cb_lock - 1;
   return oid;
 }
@@ -11321,34 +11321,34 @@ signed int s3d_open_file(const char *fname, char **pointer)
   fp=fopen(fname, "rb");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    errdn(1, "s3d_open_file():fopen()", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    errdn(1, "s3d_open_file():fopen()", *return_value___errno_location_1);
     return -1;
   }
 
-  signed int return_value_fileno$3;
-  return_value_fileno$3=fileno(fp);
-  signed int return_value_fstat$4;
-  return_value_fstat$4=fstat(return_value_fileno$3, &bf);
-  if(!(return_value_fstat$4 == 0))
+  signed int return_value_fileno_3;
+  return_value_fileno_3=fileno(fp);
+  signed int return_value_fstat_4;
+  return_value_fstat_4=fstat(return_value_fileno_3, &bf);
+  if(!(return_value_fstat_4 == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    errdn(1, "s3d_open_file():fstat()", *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    errdn(1, "s3d_open_file():fstat()", *return_value___errno_location_2);
     fclose(fp);
     return -1;
   }
 
   filesize = (unsigned long int)bf.st_size;
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(filesize);
-  buf = (char *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(filesize);
+  buf = (char *)return_value_malloc_6;
   if(buf == ((char *)NULL))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    errn("s3d_open_3ds_file():malloc()", *return_value___errno_location$5);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    errn("s3d_open_3ds_file():malloc()", *return_value___errno_location_5);
     exit(-1);
   }
 
@@ -11356,9 +11356,9 @@ signed int s3d_open_file(const char *fname, char **pointer)
   fclose(fp);
   if(!(read_items == filesize))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    errdn(1, "s3d_open_file():fread()", *return_value___errno_location$7);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    errdn(1, "s3d_open_file():fread()", *return_value___errno_location_7);
     free((void *)buf);
     return -1;
   }
@@ -11721,11 +11721,11 @@ void s3d_process_stack(void)
   struct s3d_evt *p;
   signed int (*cb)(struct s3d_evt *);
   if(cb_lock >= 1)
-    s3dprintf$link1(1, "cb_lock = %d, processing later", cb_lock);
+    s3dprintf_link1(1, "cb_lock = %d, processing later", cb_lock);
 
   else
   {
-    s3dprintf$link1(1, "processing stack ...");
+    s3dprintf_link1(1, "processing stack ...");
     do
     {
       p=s3d_pop_event();
@@ -11755,7 +11755,7 @@ void s3d_push_event(struct s3d_evt *newevt)
 {
   struct s3d_evt *p;
   signed int (*cb)(struct s3d_evt *);
-  s3dprintf$link1(1, "pushed event %d, cb_lock = %d", newevt->event, cb_lock);
+  s3dprintf_link1(1, "pushed event %d, cb_lock = %d", newevt->event, cb_lock);
   if((signed int)newevt->event == 16)
     _queue_new_object(*((unsigned int *)newevt->buf));
 
@@ -12169,9 +12169,9 @@ signed int s3d_quit(void)
     }
     while((_Bool)1);
     cb_lock = 0;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct s3d_evt) /*24ul*/ );
-    ret = (struct s3d_evt *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct s3d_evt) /*24ul*/ );
+    ret = (struct s3d_evt *)return_value_malloc_1;
     ret->event = (unsigned char)255;
     ret->length = 0;
     s3d_push_event(ret);
@@ -12224,11 +12224,11 @@ signed int s3d_select_font(const char *path)
   signed int oldsize = memory_font_size;
   char *c;
   char **p;
-  signed int return_value_s3d_ft_init$1;
+  signed int return_value_s3d_ft_init_1;
   if(ft_init == 0)
   {
-    return_value_s3d_ft_init$1=s3d_ft_init();
-    if(return_value_s3d_ft_init$1 == 0)
+    return_value_s3d_ft_init_1=s3d_ft_init();
+    if(return_value_s3d_ft_init_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     errds(5, "s3d_select_font()", "error in initializtation (ft_init())");
@@ -12240,11 +12240,11 @@ signed int s3d_select_font(const char *path)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(oldfontpath, path, (unsigned long int)256);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(oldfontpath, path, (unsigned long int)256);
+    if(return_value_strncmp_2 == 0)
     {
-      s3dprintf$link1(1, "font already %s loaded.", path);
+      s3dprintf_link1(1, "font already %s loaded.", path);
       return -1;
     }
 
@@ -12253,15 +12253,15 @@ signed int s3d_select_font(const char *path)
       c=s3d_findfont(path);
       if(!(c == ((char *)NULL)))
       {
-        s3dprintf$link1(2, "Loading Font %s ... ", c);
+        s3dprintf_link1(2, "Loading Font %s ... ", c);
         _s3d_clear_tessbuf();
         p = &memory_font;
         memory_font_size=s3d_open_file(c, p);
         if(memory_font_size >= 1)
         {
-          signed int return_value_s3d_ft_load_font$3;
-          return_value_s3d_ft_load_font$3=s3d_ft_load_font();
-          if(return_value_s3d_ft_load_font$3 == 0)
+          signed int return_value_s3d_ft_load_font_3;
+          return_value_s3d_ft_load_font_3=s3d_ft_load_font();
+          if(return_value_s3d_ft_load_font_3 == 0)
           {
             if(!(oldfont == ((char *)NULL)))
               free((void *)oldfont);
@@ -12302,12 +12302,12 @@ float s3d_strlen(const char *str)
   float xoff;
   signed int len;
   unsigned short int a;
-  signed int return_value_s3d_ft_init$1;
-  _Bool tmp_if_expr$3;
+  signed int return_value_s3d_ft_init_1;
+  _Bool tmp_if_expr_3;
   if(ft_init == 0)
   {
-    return_value_s3d_ft_init$1=s3d_ft_init();
-    if(return_value_s3d_ft_init$1 == 0)
+    return_value_s3d_ft_init_1=s3d_ft_init();
+    if(return_value_s3d_ft_init_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     errds(5, "s3d_draw_string()", "error in initializtation (ft_init())");
@@ -12328,19 +12328,19 @@ float s3d_strlen(const char *str)
     else
     {
       xoff = (float)0;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(str);
-      len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(str);
+      len = (signed int)return_value_strlen_2;
       i = 0;
       for( ; !(i >= len); i = i + 1)
       {
         a = (unsigned short int)(unsigned char)str[(signed long int)i];
         if(!(tess_buf[(signed long int)a].vbuf == ((float *)NULL)))
-          tmp_if_expr$3 = tess_buf[(signed long int)a].pbuf != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tess_buf[(signed long int)a].pbuf != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           _s3d_add_tessbuf(a);
 
         xoff = xoff + tess_buf[(signed long int)a].xoff;
@@ -12393,15 +12393,15 @@ void s3d_usage(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 233
 float s3d_vector_angle(const float *vector1, const float *vector2)
 {
-  float return_value_s3d_vector_dot_product$1;
-  return_value_s3d_vector_dot_product$1=s3d_vector_dot_product(vector1, vector2);
-  float return_value_s3d_vector_length$2;
-  return_value_s3d_vector_length$2=s3d_vector_length(vector1);
-  float return_value_s3d_vector_length$3;
-  return_value_s3d_vector_length$3=s3d_vector_length(vector2);
-  double return_value_acos$4;
-  return_value_acos$4=acos((double)(return_value_s3d_vector_dot_product$1 / (return_value_s3d_vector_length$2 * return_value_s3d_vector_length$3)));
-  return (float)return_value_acos$4;
+  float return_value_s3d_vector_dot_product_1;
+  return_value_s3d_vector_dot_product_1=s3d_vector_dot_product(vector1, vector2);
+  float return_value_s3d_vector_length_2;
+  return_value_s3d_vector_length_2=s3d_vector_length(vector1);
+  float return_value_s3d_vector_length_3;
+  return_value_s3d_vector_length_3=s3d_vector_length(vector2);
+  double return_value_acos_4;
+  return_value_acos_4=acos((double)(return_value_s3d_vector_dot_product_1 / (return_value_s3d_vector_length_2 * return_value_s3d_vector_length_3)));
+  return (float)return_value_acos_4;
 }
 
 // s3d_vector_cross_product
@@ -12424,9 +12424,9 @@ float s3d_vector_dot_product(const float *vector1, const float *vector2)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 230
 float s3d_vector_length(const float *vector)
 {
-  double return_value_sqrt$1;
-  return_value_sqrt$1=sqrt((double)(vector[(signed long int)0] * vector[(signed long int)0] + vector[(signed long int)1] * vector[(signed long int)1] + vector[(signed long int)2] * vector[(signed long int)2]));
-  return (float)return_value_sqrt$1;
+  double return_value_sqrt_1;
+  return_value_sqrt_1=sqrt((double)(vector[(signed long int)0] * vector[(signed long int)0] + vector[(signed long int)1] * vector[(signed long int)1] + vector[(signed long int)2] * vector[(signed long int)2]));
+  return (float)return_value_sqrt_1;
 }
 
 // s3d_vector_subtract
@@ -12445,16 +12445,16 @@ static inline void s3dprintf(signed int relevance, const char *fmt, ...)
   ;
 }
 
-// s3dprintf$link1
+// s3dprintf_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 109
-static inline void s3dprintf$link1(signed int relevance$link1, const char *fmt$link1, ...)
+static inline void s3dprintf_link1(signed int relevance_link1, const char *fmt_link1, ...)
 {
   ;
 }
 
-// s3dprintf$link2
+// s3dprintf_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3dlib.h line 109
-static inline void s3dprintf$link2(signed int relevance$link2, const char *fmt$link2, ...)
+static inline void s3dprintf_link2(signed int relevance_link2, const char *fmt_link2, ...)
 {
   ;
 }
@@ -12463,9 +12463,9 @@ static inline void s3dprintf$link2(signed int relevance$link2, const char *fmt$l
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3dw/animate.c line 47
 void s3dw_ani_add(struct _s3dw_widget *f)
 {
-  const char *return_value_s3dw_get_type_string$1;
-  return_value_s3dw_get_type_string$1=s3dw_get_type_string(f->type);
-  s3dprintf(1, "[A]ni ADD (%10p), oid = %d, ani_n = %d, type is %s\n", (void *)f, f->oid, ani_n, return_value_s3dw_get_type_string$1);
+  const char *return_value_s3dw_get_type_string_1;
+  return_value_s3dw_get_type_string_1=s3dw_get_type_string(f->type);
+  s3dprintf(1, "[A]ni ADD (%10p), oid = %d, ani_n = %d, type is %s\n", (void *)f, f->oid, ani_n, return_value_s3dw_get_type_string_1);
   if(f->oid == 0u)
   {
     if(f->type == 1)
@@ -12481,9 +12481,9 @@ void s3dw_ani_add(struct _s3dw_widget *f)
     ;
     if(!(animation_on == 0) && !(ani_n >= 128))
     {
-      signed int return_value_s3dw_ani_stackpos$2;
-      return_value_s3dw_ani_stackpos$2=s3dw_ani_stackpos(f);
-      if(!(return_value_s3dw_ani_stackpos$2 == -1))
+      signed int return_value_s3dw_ani_stackpos_2;
+      return_value_s3dw_ani_stackpos_2=s3dw_ani_stackpos(f);
+      if(!(return_value_s3dw_ani_stackpos_2 == -1))
         goto __CPROVER_DUMP_L5;
 
       ani_s[(signed long int)ani_n] = f;
@@ -12515,29 +12515,29 @@ signed int s3dw_ani_check(struct _s3dw_widget *f)
   rx = f->arx - f->rx;
   ry = f->ary - f->ry;
   rz = f->arz - f->rz;
-  double return_value_fabs$1;
-  return_value_fabs$1=fabs((double)(f->as - f->s));
-  _Bool tmp_if_expr$3;
-  double return_value_sqrt$2;
-  if(return_value_fabs$1 / (double)f->s > 0.01)
-    tmp_if_expr$3 = (_Bool)1;
+  double return_value_fabs_1;
+  return_value_fabs_1=fabs((double)(f->as - f->s));
+  _Bool tmp_if_expr_3;
+  double return_value_sqrt_2;
+  if(return_value_fabs_1 / (double)f->s > 0.01)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_sqrt$2=sqrt((double)(x * x + y * y + z * z));
-    tmp_if_expr$3 = return_value_sqrt$2 > 0.01 ? (_Bool)1 : (_Bool)0;
+    return_value_sqrt_2=sqrt((double)(x * x + y * y + z * z));
+    tmp_if_expr_3 = return_value_sqrt_2 > 0.01 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  double return_value_sqrt$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  double return_value_sqrt_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_sqrt$4=sqrt((double)(rx * rx + ry * ry + rz * rz));
-    tmp_if_expr$5 = return_value_sqrt$4 > 0.01 ? (_Bool)1 : (_Bool)0;
+    return_value_sqrt_4=sqrt((double)(rx * rx + ry * ry + rz * rz));
+    tmp_if_expr_5 = return_value_sqrt_4 > 0.01 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
     return 0;
 
   else
@@ -12563,13 +12563,13 @@ void s3dw_ani_del(signed int i)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3dw/animate.c line 78
 void s3dw_ani_doit(struct _s3dw_widget *f)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(f->oid == 0u)
-    tmp_if_expr$1 = f->type != 1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = f->type != 1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     s3dprintf(4, "s3dw_ani_doit() assert failed: weird, moving cam but its not a cam object?");
 
   else
@@ -12628,9 +12628,9 @@ void s3dw_ani_mate(void)
   {
     f = ani_s[(signed long int)i];
     s3dw_ani_iterate(f);
-    signed int return_value_s3dw_ani_check$1;
-    return_value_s3dw_ani_check$1=s3dw_ani_check(f);
-    if(!(return_value_s3dw_ani_check$1 == 0))
+    signed int return_value_s3dw_ani_check_1;
+    return_value_s3dw_ani_check_1=s3dw_ani_check(f);
+    if(!(return_value_s3dw_ani_check_1 == 0))
     {
       s3dw_ani_finish(f, i);
       i = i - 1;
@@ -12675,15 +12675,15 @@ void s3dw_arr_normdir(float *dir)
     if(!IEEE_FLOAT_EQUAL(dirlen, 0.000000f))
       break;
 
-    signed int return_value_rand$1;
-    return_value_rand$1=rand();
-    dir[(signed long int)0] = (float)(((double)(float)return_value_rand$1 - (double)2147483647 / 2.0) / (double)2147483647);
-    signed int return_value_rand$2;
-    return_value_rand$2=rand();
-    dir[(signed long int)1] = (float)(((double)(float)return_value_rand$2 - (double)2147483647 / 2.0) / (double)2147483647);
-    signed int return_value_rand$3;
-    return_value_rand$3=rand();
-    dir[(signed long int)2] = (float)(((double)(float)return_value_rand$3 - (double)2147483647 / 2.0) / (double)2147483647);
+    signed int return_value_rand_1;
+    return_value_rand_1=rand();
+    dir[(signed long int)0] = (float)(((double)(float)return_value_rand_1 - (double)2147483647 / 2.0) / (double)2147483647);
+    signed int return_value_rand_2;
+    return_value_rand_2=rand();
+    dir[(signed long int)1] = (float)(((double)(float)return_value_rand_2 - (double)2147483647 / 2.0) / (double)2147483647);
+    signed int return_value_rand_3;
+    return_value_rand_3=rand();
+    dir[(signed long int)2] = (float)(((double)(float)return_value_rand_3 - (double)2147483647 / 2.0) / (double)2147483647);
   }
   while((_Bool)1);
   dir[(signed long int)0] = dir[(signed long int)0] / dirlen;
@@ -12704,28 +12704,28 @@ void s3dw_arr_widgetcenter(struct _s3dw_widget *widget, float *center)
   x = (widget->s * widget->width) / (float)2;
   y = (float)((double)((widget->s * -widget->height) / (float)2) + 0.5);
   z = (float)((double)widget->s * 0.5);
-  double return_value_cos$1;
-  return_value_cos$1=cos((double)widget->ry / ((double)180 / 3.14159265358979323846));
-  double return_value_sin$2;
-  return_value_sin$2=sin((double)widget->ry / ((double)180 / 3.14159265358979323846));
-  xt = (float)(return_value_cos$1 * (double)x + return_value_sin$2 * (double)z);
+  double return_value_cos_1;
+  return_value_cos_1=cos((double)widget->ry / ((double)180 / 3.14159265358979323846));
+  double return_value_sin_2;
+  return_value_sin_2=sin((double)widget->ry / ((double)180 / 3.14159265358979323846));
+  xt = (float)(return_value_cos_1 * (double)x + return_value_sin_2 * (double)z);
   yt = y;
-  double return_value_sin$3;
-  return_value_sin$3=sin((double)widget->ry / ((double)180 / 3.14159265358979323846));
-  double return_value_cos$4;
-  return_value_cos$4=cos((double)widget->ry / ((double)180 / 3.14159265358979323846));
-  zt = (float)(-return_value_sin$3 * (double)x + return_value_cos$4 * (double)z);
+  double return_value_sin_3;
+  return_value_sin_3=sin((double)widget->ry / ((double)180 / 3.14159265358979323846));
+  double return_value_cos_4;
+  return_value_cos_4=cos((double)widget->ry / ((double)180 / 3.14159265358979323846));
+  zt = (float)(-return_value_sin_3 * (double)x + return_value_cos_4 * (double)z);
   x = xt;
-  double return_value_cos$5;
-  return_value_cos$5=cos((double)widget->rx / ((double)180 / 3.14159265358979323846));
-  double return_value_sin$6;
-  return_value_sin$6=sin((double)widget->rx / ((double)180 / 3.14159265358979323846));
-  y = (float)(return_value_cos$5 * (double)yt + return_value_sin$6 * (double)zt);
-  double return_value_sin$7;
-  return_value_sin$7=sin((double)widget->rx / ((double)180 / 3.14159265358979323846));
-  double return_value_cos$8;
-  return_value_cos$8=cos((double)widget->rx / ((double)180 / 3.14159265358979323846));
-  z = (float)(-return_value_sin$7 * (double)yt + return_value_cos$8 * (double)zt);
+  double return_value_cos_5;
+  return_value_cos_5=cos((double)widget->rx / ((double)180 / 3.14159265358979323846));
+  double return_value_sin_6;
+  return_value_sin_6=sin((double)widget->rx / ((double)180 / 3.14159265358979323846));
+  y = (float)(return_value_cos_5 * (double)yt + return_value_sin_6 * (double)zt);
+  double return_value_sin_7;
+  return_value_sin_7=sin((double)widget->rx / ((double)180 / 3.14159265358979323846));
+  double return_value_cos_8;
+  return_value_cos_8=cos((double)widget->rx / ((double)180 / 3.14159265358979323846));
+  z = (float)(-return_value_sin_7 * (double)yt + return_value_cos_8 * (double)zt);
   center[(signed long int)0] = x;
   center[(signed long int)1] = y;
   center[(signed long int)2] = z;
@@ -12737,8 +12737,8 @@ void s3dw_arrange(void)
 {
   struct _s3dw_widget *w1;
   struct _s3dw_widget *w2;
-  struct _s3dw_widget *s3dw_arrange$$1$$root;
-  s3dw_arrange$$1$$root=s3dw_getroot();
+  struct _s3dw_widget *s3dw_arrange__1__root;
+  s3dw_arrange__1__root=s3dw_getroot();
   signed int i;
   signed int j;
   signed int arranged;
@@ -12754,16 +12754,16 @@ void s3dw_arrange(void)
   float dir[3l];
   arranged = 1;
   i = 0;
-  for( ; !(i >= s3dw_arrange$$1$$root->nobj); i = i + 1)
-    if((512 & s3dw_arrange$$1$$root->pobj[(signed long int)i]->flags) == 0)
+  for( ; !(i >= s3dw_arrange__1__root->nobj); i = i + 1)
+    if((512 & s3dw_arrange__1__root->pobj[(signed long int)i]->flags) == 0)
       arranged = 0;
 
   if(!(ani_need_arr == 0) || arranged == 0)
   {
     ani_need_arr = 0;
-    if(s3dw_arrange$$1$$root->nobj == 1)
+    if(s3dw_arrange__1__root->nobj == 1)
     {
-      w1 = s3dw_arrange$$1$$root->pobj[(signed long int)0];
+      w1 = s3dw_arrange__1__root->pobj[(signed long int)0];
       w1->flags = w1->flags | 512;
     }
 
@@ -12771,14 +12771,14 @@ void s3dw_arrange(void)
     {
       allarr = 1;
       i = 0;
-      for( ; !(i >= s3dw_arrange$$1$$root->nobj); i = i + 1)
+      for( ; !(i >= s3dw_arrange__1__root->nobj); i = i + 1)
       {
-        w1 = s3dw_arrange$$1$$root->pobj[(signed long int)i];
+        w1 = s3dw_arrange__1__root->pobj[(signed long int)i];
         arranged = 1;
         j = 0;
-        for( ; !(j >= s3dw_arrange$$1$$root->nobj); j = j + 1)
+        for( ; !(j >= s3dw_arrange__1__root->nobj); j = j + 1)
         {
-          w2 = s3dw_arrange$$1$$root->pobj[(signed long int)j];
+          w2 = s3dw_arrange__1__root->pobj[(signed long int)j];
           if(!(i == j))
           {
             if(!(w1->oid == 0u))
@@ -12872,9 +12872,9 @@ void s3dw_button_draw(struct _s3dw_widget *widget)
   float length;
   float vertices[24l];
   unsigned int polygons[40l] = { (unsigned int)0, (unsigned int)4, (unsigned int)5, (unsigned int)0, (unsigned int)0, (unsigned int)5, (unsigned int)1, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (unsigned int)0, (unsigned int)1, (unsigned int)6, (unsigned int)2, (unsigned int)0, (unsigned int)2, (unsigned int)6, (unsigned int)7, (unsigned int)0, (unsigned int)2, (unsigned int)7, (unsigned int)3, (unsigned int)0, (unsigned int)3, (unsigned int)7, (unsigned int)4, (unsigned int)0, (unsigned int)3, (unsigned int)4, (unsigned int)0, (unsigned int)0, (unsigned int)4, (unsigned int)7, (unsigned int)6, (unsigned int)0, (unsigned int)4, (unsigned int)6, (unsigned int)5, (unsigned int)0 };
-  signed int return_value_s3d_draw_string$1;
-  return_value_s3d_draw_string$1=s3d_draw_string(button->text, &length);
-  button->oid_text = (unsigned int)return_value_s3d_draw_string$1;
+  signed int return_value_s3d_draw_string_1;
+  return_value_s3d_draw_string_1=s3d_draw_string(button->text, &length);
+  button->oid_text = (unsigned int)return_value_s3d_draw_string_1;
   s3d_pep_materials_a((signed int)button->oid_text, widget->style->text_mat, (unsigned short int)1);
   vertices[(signed long int)(0 * 3 + 0)] = (float)0.0;
   vertices[(signed long int)(0 * 3 + 1)] = (float)0.0;
@@ -12900,9 +12900,9 @@ void s3dw_button_draw(struct _s3dw_widget *widget)
   vertices[(signed long int)(7 * 3 + 0)] = (float)((double)length + 0.75);
   vertices[(signed long int)(7 * 3 + 1)] = (float)-0.25;
   vertices[(signed long int)(7 * 3 + 2)] = (float)0.25;
-  signed int return_value_s3d_new_object$2;
-  return_value_s3d_new_object$2=s3d_new_object();
-  widget->oid = (unsigned int)return_value_s3d_new_object$2;
+  signed int return_value_s3d_new_object_2;
+  return_value_s3d_new_object_2=s3d_new_object();
+  widget->oid = (unsigned int)return_value_s3d_new_object_2;
   s3d_push_materials_a((signed int)widget->oid, widget->style->input_mat, (unsigned short int)1);
   s3d_push_vertices((signed int)widget->oid, vertices, (unsigned short int)8);
   s3d_push_polygons((signed int)widget->oid, polygons, (unsigned short int)10);
@@ -12928,13 +12928,13 @@ void s3dw_button_erase(struct _s3dw_widget *widget)
 signed int s3dw_button_event_click(struct _s3dw_widget *widget, unsigned int oid)
 {
   struct _s3dw_button *button = (struct _s3dw_button *)widget;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(button->oid_text == oid)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = widget->oid == oid ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = widget->oid == oid ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     button->onclick(widget);
     return 1;
@@ -12966,9 +12966,9 @@ struct _s3dw_button * s3dw_button_new(const struct _s3dw_surface *surface, const
 {
   struct _s3dw_button *button;
   struct _s3dw_widget *widget;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _s3dw_button) /*152ul*/ );
-  button = (struct _s3dw_button *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _s3dw_button) /*152ul*/ );
+  button = (struct _s3dw_button *)return_value_malloc_1;
   button->text=strdup(text);
   button->onclick = s3dw_nothing;
   widget=s3dw_widget_new((struct _s3dw_widget *)button);
@@ -13030,17 +13030,17 @@ __CPROVER_DUMP_L4:
 static void s3dw_follow(void)
 {
   struct _s3dw_widget *w;
-  struct _s3dw_widget *s3dw_follow$$1$$root;
-  s3dw_follow$$1$$root=s3dw_getroot();
+  struct _s3dw_widget *s3dw_follow__1__root;
+  s3dw_follow__1__root=s3dw_getroot();
   signed int i;
   float b[3l];
   float op[3l];
   float lsqr;
   float l;
   i = 0;
-  for( ; !(i >= s3dw_follow$$1$$root->nobj); i = i + 1)
+  for( ; !(i >= s3dw_follow__1__root->nobj); i = i + 1)
   {
-    w = s3dw_follow$$1$$root->pobj[(signed long int)i];
+    w = s3dw_follow__1__root->pobj[(signed long int)i];
     if(!(w->oid == 0u))
     {
       if(!((1024 & w->flags) == 0))
@@ -13052,9 +13052,9 @@ static void s3dw_follow(void)
         lsqr = b[(signed long int)0] * b[(signed long int)0] + b[(signed long int)1] * b[(signed long int)1] + b[(signed long int)2] * b[(signed long int)2];
         if(lsqr > 1600.000000f)
         {
-          double return_value_sqrt$1;
-          return_value_sqrt$1=sqrt((double)lsqr);
-          l = (float)return_value_sqrt$1;
+          double return_value_sqrt_1;
+          return_value_sqrt_1=sqrt((double)lsqr);
+          l = (float)return_value_sqrt_1;
           w->x = w->x + (float)((double)b[(signed long int)0] - ((double)b[(signed long int)0] * 40.0) / (double)l);
           w->y = w->y + (float)((double)b[(signed long int)1] - ((double)b[(signed long int)1] * 40.0) / (double)l);
           w->z = w->z + (float)((double)b[(signed long int)2] - ((double)b[(signed long int)2] * 40.0) / (double)l);
@@ -13103,19 +13103,19 @@ struct _s3dw_widget * s3dw_getroot(void)
 {
   if(root == ((struct _s3dw_widget *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _s3dw_widget) /*128ul*/ );
-    root = (struct _s3dw_widget *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _s3dw_widget) /*128ul*/ );
+    root = (struct _s3dw_widget *)return_value_malloc_1;
     root=s3dw_widget_new(root);
     root->type = 0;
-    signed int return_value_s3d_new_object$2;
-    return_value_s3d_new_object$2=s3d_new_object();
-    root->oid = (unsigned int)return_value_s3d_new_object$2;
+    signed int return_value_s3d_new_object_2;
+    return_value_s3d_new_object_2=s3d_new_object();
+    root->oid = (unsigned int)return_value_s3d_new_object_2;
     root->style = &def_style;
     root->flags = 1 | 2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct _s3dw_widget) /*128ul*/ );
-    _s3dw_cam = (struct _s3dw_widget *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct _s3dw_widget) /*128ul*/ );
+    _s3dw_cam = (struct _s3dw_widget *)return_value_malloc_3;
     s3dw_widget_new(_s3dw_cam);
     _s3dw_cam->type = 1;
     _s3dw_cam->oid = (unsigned int)0;
@@ -13174,11 +13174,11 @@ struct _s3dw_widget * s3dw_getroot(void)
 signed int s3dw_handle_click(struct s3d_evt *evt)
 {
   unsigned int oid = *((unsigned int *)evt->buf);
-  struct _s3dw_widget *return_value_s3dw_getroot$1;
-  return_value_s3dw_getroot$1=s3dw_getroot();
-  signed int return_value_s3dw_widget_event_click$2;
-  return_value_s3dw_widget_event_click$2=s3dw_widget_event_click(return_value_s3dw_getroot$1, oid);
-  return return_value_s3dw_widget_event_click$2;
+  struct _s3dw_widget *return_value_s3dw_getroot_1;
+  return_value_s3dw_getroot_1=s3dw_getroot();
+  signed int return_value_s3dw_widget_event_click_2;
+  return_value_s3dw_widget_event_click_2=s3dw_widget_event_click(return_value_s3dw_getroot_1, oid);
+  return return_value_s3dw_widget_event_click_2;
 }
 
 // s3dw_handle_key
@@ -13186,11 +13186,11 @@ signed int s3dw_handle_click(struct s3d_evt *evt)
 signed int s3dw_handle_key(struct s3d_evt *evt)
 {
   struct s3d_key_event *keys = (struct s3d_key_event *)evt->buf;
-  struct _s3dw_widget *return_value_s3dw_getroot$1;
-  return_value_s3dw_getroot$1=s3dw_getroot();
-  signed int return_value_s3dw_widget_event_key$2;
-  return_value_s3dw_widget_event_key$2=s3dw_widget_event_key(return_value_s3dw_getroot$1, keys);
-  return return_value_s3dw_widget_event_key$2;
+  struct _s3dw_widget *return_value_s3dw_getroot_1;
+  return_value_s3dw_getroot_1=s3dw_getroot();
+  signed int return_value_s3dw_widget_event_key_2;
+  return_value_s3dw_widget_event_key_2=s3dw_widget_event_key(return_value_s3dw_getroot_1, keys);
+  return return_value_s3dw_widget_event_key_2;
 }
 
 // s3dw_input_change_text
@@ -13267,9 +13267,9 @@ void s3dw_input_draw(struct _s3dw_widget *widget)
     vertices[(signed long int)(11 * 3 + 0)] = (float)((double)length + 0.75);
     vertices[(signed long int)(11 * 3 + 1)] = (float)-0.25;
     vertices[(signed long int)(11 * 3 + 2)] = (float)0.125;
-    signed int return_value_s3d_new_object$1;
-    return_value_s3d_new_object$1=s3d_new_object();
-    widget->oid = (unsigned int)return_value_s3d_new_object$1;
+    signed int return_value_s3d_new_object_1;
+    return_value_s3d_new_object_1=s3d_new_object();
+    widget->oid = (unsigned int)return_value_s3d_new_object_1;
     s3d_push_materials_a((signed int)widget->oid, widget->style->inputback_mat, (unsigned short int)1);
     s3d_push_materials_a((signed int)widget->oid, widget->style->input_mat, (unsigned short int)1);
     s3d_push_vertices((signed int)widget->oid, vertices, (unsigned short int)12);
@@ -13289,7 +13289,7 @@ unsigned int s3dw_input_draw_string(struct _s3dw_widget *widget)
   unsigned int oid_text;
   signed int i;
   float tlen;
-  float return_value_s3d_strlen$1;
+  float return_value_s3d_strlen_1;
   if(widget->width < 1.000000f)
     return (unsigned int)-1;
 
@@ -13298,16 +13298,16 @@ unsigned int s3dw_input_draw_string(struct _s3dw_widget *widget)
     i = 0;
     do
     {
-      return_value_s3d_strlen$1=s3d_strlen(input->text + (signed long int)i);
-      if(!(return_value_s3d_strlen$1 > widget->width + -1.000000f))
+      return_value_s3d_strlen_1=s3d_strlen(input->text + (signed long int)i);
+      if(!(return_value_s3d_strlen_1 > widget->width + -1.000000f))
         break;
 
       i = i + 1;
     }
     while((_Bool)1);
-    signed int return_value_s3d_draw_string$2;
-    return_value_s3d_draw_string$2=s3d_draw_string(input->text + (signed long int)i, &tlen);
-    oid_text = (unsigned int)return_value_s3d_draw_string$2;
+    signed int return_value_s3d_draw_string_2;
+    return_value_s3d_draw_string_2=s3d_draw_string(input->text + (signed long int)i, &tlen);
+    oid_text = (unsigned int)return_value_s3d_draw_string_2;
     s3d_pep_materials_a((signed int)oid_text, widget->style->text_mat, (unsigned short int)1);
     s3d_translate((signed int)oid_text, (float)0.5, (float)-1.5, (float)0.30);
     s3d_link((signed int)oid_text, (signed int)widget->oid);
@@ -13329,13 +13329,13 @@ void s3dw_input_erase(struct _s3dw_widget *widget)
 signed int s3dw_input_event_click(struct _s3dw_widget *widget, unsigned int oid)
 {
   struct _s3dw_input *input = (struct _s3dw_input *)widget;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(input->oid_text == oid)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = widget->oid == oid ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = widget->oid == oid ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     s3dw_focus(widget);
     input->onclick(widget);
@@ -13355,16 +13355,16 @@ signed int s3dw_input_event_key(struct _s3dw_widget *widget, struct s3d_key_even
   char key = (char)keys->unicode;
   signed int len;
   s3dprintf(3, "edit field got key %d!!", key);
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if((signed int)keys->keysym == 8)
   {
-    return_value_strlen$2=strlen(input->text);
-    len = (signed int)return_value_strlen$2;
+    return_value_strlen_2=strlen(input->text);
+    len = (signed int)return_value_strlen_2;
     if(len >= 1)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(len + 0));
-      newtext = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(len + 0));
+      newtext = (char *)return_value_malloc_1;
       strncpy(newtext, input->text, (unsigned long int)len);
       newtext[(signed long int)(len - 1)] = (char)0;
       s3dw_input_change_text(input, newtext);
@@ -13375,16 +13375,16 @@ signed int s3dw_input_event_key(struct _s3dw_widget *widget, struct s3d_key_even
     goto __CPROVER_DUMP_L5;
   }
 
-  const unsigned short int **return_value___ctype_b_loc$5;
-  return_value___ctype_b_loc$5=__ctype_b_loc();
-  if(!((16384 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)key]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_5;
+  return_value___ctype_b_loc_5=__ctype_b_loc();
+  if(!((16384 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)key]) == 0))
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(input->text);
-    len = (signed int)return_value_strlen$3;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)(len + 2));
-    newtext = (char *)return_value_malloc$4;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(input->text);
+    len = (signed int)return_value_strlen_3;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)(len + 2));
+    newtext = (char *)return_value_malloc_4;
     strcpy(newtext, input->text);
     newtext[(signed long int)len] = key;
     newtext[(signed long int)(len + 1)] = (char)0;
@@ -13403,9 +13403,9 @@ __CPROVER_DUMP_L5:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3dw/input.c line 253
 char * s3dw_input_gettext(struct _s3dw_input *input)
 {
-  char *return_value_strdup$1;
-  return_value_strdup$1=strdup(input->text);
-  return return_value_strdup$1;
+  char *return_value_strdup_1;
+  return_value_strdup_1=strdup(input->text);
+  return return_value_strdup_1;
 }
 
 // s3dw_input_hide
@@ -13423,9 +13423,9 @@ struct _s3dw_input * s3dw_input_new(const struct _s3dw_surface *surface, float w
 {
   struct _s3dw_input *input;
   struct _s3dw_widget *widget;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _s3dw_input) /*160ul*/ );
-  input = (struct _s3dw_input *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _s3dw_input) /*160ul*/ );
+  input = (struct _s3dw_input *)return_value_malloc_1;
   input->text=strdup("");
   input->onclick = s3dw_nothing;
   input->onedit = s3dw_nothing;
@@ -13486,9 +13486,9 @@ void s3dw_label_draw(struct _s3dw_widget *widget)
 {
   struct _s3dw_label *label = (struct _s3dw_label *)widget;
   float length;
-  signed int return_value_s3d_draw_string$1;
-  return_value_s3d_draw_string$1=s3d_draw_string(label->text, &length);
-  widget->oid = (unsigned int)return_value_s3d_draw_string$1;
+  signed int return_value_s3d_draw_string_1;
+  return_value_s3d_draw_string_1=s3d_draw_string(label->text, &length);
+  widget->oid = (unsigned int)return_value_s3d_draw_string_1;
   s3d_pep_materials_a((signed int)widget->oid, widget->style->text_mat, (unsigned short int)1);
   s3d_link((signed int)widget->oid, (signed int)widget->parent->oid);
   s3d_translate((signed int)widget->oid, widget->x, -widget->y, (float)0.1);
@@ -13538,9 +13538,9 @@ struct _s3dw_label * s3dw_label_new(const struct _s3dw_surface *surface, const c
 {
   struct _s3dw_label *label;
   struct _s3dw_widget *widget;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _s3dw_label) /*144ul*/ );
-  label = (struct _s3dw_label *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _s3dw_label) /*144ul*/ );
+  label = (struct _s3dw_label *)return_value_malloc_1;
   widget=s3dw_widget_new((struct _s3dw_widget *)label);
   widget->type = 4;
   widget->x = posx;
@@ -13632,20 +13632,20 @@ static void s3dw_scrollbar_draw(struct _s3dw_widget *widget)
   float w;
   float h;
   float temp;
-  float tmp_if_expr$1;
+  float tmp_if_expr_1;
   if(scrollbar->type == 1)
-    tmp_if_expr$1 = widget->width;
+    tmp_if_expr_1 = widget->width;
 
   else
-    tmp_if_expr$1 = widget->height;
-  w = tmp_if_expr$1;
-  float tmp_if_expr$2;
+    tmp_if_expr_1 = widget->height;
+  w = tmp_if_expr_1;
+  float tmp_if_expr_2;
   if(scrollbar->type == 1)
-    tmp_if_expr$2 = widget->height;
+    tmp_if_expr_2 = widget->height;
 
   else
-    tmp_if_expr$2 = widget->width;
-  h = tmp_if_expr$2;
+    tmp_if_expr_2 = widget->width;
+  h = tmp_if_expr_2;
   back_vertices[(signed long int)(0 * 3 + 0)] = (float)((double)w * 0.0);
   back_vertices[(signed long int)(0 * 3 + 1)] = (float)(0.0 - (double)h);
   back_vertices[(signed long int)(0 * 3 + 2)] = (float)0.0;
@@ -13810,9 +13810,9 @@ static void s3dw_scrollbar_draw(struct _s3dw_widget *widget)
     }
   }
 
-  signed int return_value_s3d_new_object$3;
-  return_value_s3d_new_object$3=s3d_new_object();
-  widget->oid = (unsigned int)return_value_s3d_new_object$3;
+  signed int return_value_s3d_new_object_3;
+  return_value_s3d_new_object_3=s3d_new_object();
+  widget->oid = (unsigned int)return_value_s3d_new_object_3;
   scrollbar->loid=s3d_new_object();
   scrollbar->roid=s3d_new_object();
   scrollbar->baroid=s3d_new_object();
@@ -13897,9 +13897,9 @@ struct _s3dw_scrollbar * s3dw_scrollbar_new(struct _s3dw_widget *parent, signed 
 {
   struct _s3dw_scrollbar *scrollbar;
   struct _s3dw_widget *widget;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _s3dw_scrollbar) /*168ul*/ );
-  scrollbar = (struct _s3dw_scrollbar *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _s3dw_scrollbar) /*168ul*/ );
+  scrollbar = (struct _s3dw_scrollbar *)return_value_malloc_1;
   widget=s3dw_widget_new((struct _s3dw_widget *)scrollbar);
   widget->type = 7;
   scrollbar->type = type;
@@ -13969,22 +13969,22 @@ void s3dw_surface_draw(struct _s3dw_widget *widget)
   unsigned int polygon[40l] = { (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)0, (unsigned int)2, (unsigned int)3, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (unsigned int)0, (unsigned int)1, (unsigned int)6, (unsigned int)2, (unsigned int)0, (unsigned int)2, (unsigned int)6, (unsigned int)7, (unsigned int)0, (unsigned int)2, (unsigned int)7, (unsigned int)3, (unsigned int)0, (unsigned int)4, (unsigned int)0, (unsigned int)3, (unsigned int)0, (unsigned int)4, (unsigned int)3, (unsigned int)7, (unsigned int)0, (unsigned int)5, (unsigned int)4, (unsigned int)7, (unsigned int)0, (unsigned int)5, (unsigned int)7, (unsigned int)6, (unsigned int)0 };
   unsigned int tpol[40l];
   signed int i;
-  signed int return_value_s3d_new_object$1;
-  return_value_s3d_new_object$1=s3d_new_object();
-  widget->oid = (unsigned int)return_value_s3d_new_object$1;
-  signed int return_value_s3d_new_object$2;
-  return_value_s3d_new_object$2=s3d_new_object();
-  surface->oid_tbar = (unsigned int)return_value_s3d_new_object$2;
+  signed int return_value_s3d_new_object_1;
+  return_value_s3d_new_object_1=s3d_new_object();
+  widget->oid = (unsigned int)return_value_s3d_new_object_1;
+  signed int return_value_s3d_new_object_2;
+  return_value_s3d_new_object_2=s3d_new_object();
+  surface->oid_tbar = (unsigned int)return_value_s3d_new_object_2;
   s3d_select_font("vera");
-  signed int return_value_s3d_draw_string$3;
-  return_value_s3d_draw_string$3=s3d_draw_string(surface->title, &length);
-  surface->oid_title = (unsigned int)return_value_s3d_draw_string$3;
+  signed int return_value_s3d_draw_string_3;
+  return_value_s3d_draw_string_3=s3d_draw_string(surface->title, &length);
+  surface->oid_title = (unsigned int)return_value_s3d_draw_string_3;
   while(length > widget->width + 1.000000f)
   {
     s3dprintf(4, "%f > %f", length, widget->width + (float)1);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(surface->title);
-    textlen = (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(surface->title);
+    textlen = (signed int)return_value_strlen_4;
     if((double)length > (double)(widget->width + 1.000000f) * 1.3)
       textlen = (signed int)((double)textlen * (((double)(widget->width + (float)1) * 1.1) / (double)length));
 
@@ -13994,9 +13994,9 @@ void s3dw_surface_draw(struct _s3dw_widget *widget)
       surface->title[(signed long int)(textlen - 3)] = (char)46;
       surface->title[(signed long int)(textlen - 4)] = (char)46;
       s3d_del_object((signed int)surface->oid_title);
-      signed int return_value_s3d_draw_string$5;
-      return_value_s3d_draw_string$5=s3d_draw_string(surface->title, &length);
-      surface->oid_title = (unsigned int)return_value_s3d_draw_string$5;
+      signed int return_value_s3d_draw_string_5;
+      return_value_s3d_draw_string_5=s3d_draw_string(surface->title, &length);
+      surface->oid_title = (unsigned int)return_value_s3d_draw_string_5;
     }
 
     else
@@ -14050,7 +14050,7 @@ void s3dw_surface_erase(struct _s3dw_widget *widget)
 signed int s3dw_surface_event_click(struct _s3dw_widget *widget, unsigned int oid)
 {
   struct _s3dw_surface *surface = (struct _s3dw_surface *)widget;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(widget->oid == oid)
   {
     s3dw_focus(widget);
@@ -14061,11 +14061,11 @@ signed int s3dw_surface_event_click(struct _s3dw_widget *widget, unsigned int oi
   else
   {
     if(surface->oid_tbar == oid)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = surface->oid_title == oid ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = surface->oid_title == oid ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       s3dw_focus(widget);
       s3dprintf(3, "title %s clicked", surface->title);
@@ -14101,9 +14101,9 @@ struct _s3dw_surface * s3dw_surface_new(const char *title, float width, float he
   struct _s3dw_surface *surface;
   struct _s3dw_widget *widget;
   float f1[3l];
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _s3dw_surface) /*144ul*/ );
-  surface = (struct _s3dw_surface *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _s3dw_surface) /*144ul*/ );
+  surface = (struct _s3dw_surface *)return_value_malloc_1;
   surface->title=strdup(title);
   widget=s3dw_widget_new((struct _s3dw_widget *)surface);
   widget->type = 2;
@@ -14111,22 +14111,22 @@ struct _s3dw_surface * s3dw_surface_new(const char *title, float width, float he
   widget->height = height;
   widget->as = (float)0.01;
   s3dw_arr_widgetcenter(widget, f1);
-  struct _s3dw_widget *return_value_s3dw_getroot$2;
-  return_value_s3dw_getroot$2=s3dw_getroot();
-  s3dw_widget_append(return_value_s3dw_getroot$2, widget);
-  double return_value_sin$3;
-  return_value_sin$3=sin(((double)_s3dw_cam->ry * 3.14159265358979323846) / (double)180);
-  double return_value_cos$4;
-  return_value_cos$4=cos(((double)_s3dw_cam->rx * 3.14159265358979323846) / (double)180);
-  widget->x = (float)((double)(-f1[(signed long int)0] + _s3dw_cam->x) - return_value_sin$3 * return_value_cos$4 * (double)20);
-  double return_value_sin$5;
-  return_value_sin$5=sin(((double)_s3dw_cam->rx * 3.14159265358979323846) / (double)180);
-  widget->y = (float)((double)(-f1[(signed long int)1] + _s3dw_cam->y) + return_value_sin$5 * (double)20);
-  double return_value_cos$6;
-  return_value_cos$6=cos(((double)_s3dw_cam->ry * 3.14159265358979323846) / (double)180);
-  double return_value_cos$7;
-  return_value_cos$7=cos(((double)_s3dw_cam->rx * 3.14159265358979323846) / (double)180);
-  widget->z = (float)((double)(-f1[(signed long int)2] + _s3dw_cam->z) - return_value_cos$6 * return_value_cos$7 * (double)20);
+  struct _s3dw_widget *return_value_s3dw_getroot_2;
+  return_value_s3dw_getroot_2=s3dw_getroot();
+  s3dw_widget_append(return_value_s3dw_getroot_2, widget);
+  double return_value_sin_3;
+  return_value_sin_3=sin(((double)_s3dw_cam->ry * 3.14159265358979323846) / (double)180);
+  double return_value_cos_4;
+  return_value_cos_4=cos(((double)_s3dw_cam->rx * 3.14159265358979323846) / (double)180);
+  widget->x = (float)((double)(-f1[(signed long int)0] + _s3dw_cam->x) - return_value_sin_3 * return_value_cos_4 * (double)20);
+  double return_value_sin_5;
+  return_value_sin_5=sin(((double)_s3dw_cam->rx * 3.14159265358979323846) / (double)180);
+  widget->y = (float)((double)(-f1[(signed long int)1] + _s3dw_cam->y) + return_value_sin_5 * (double)20);
+  double return_value_cos_6;
+  return_value_cos_6=cos(((double)_s3dw_cam->ry * 3.14159265358979323846) / (double)180);
+  double return_value_cos_7;
+  return_value_cos_7=cos(((double)_s3dw_cam->rx * 3.14159265358979323846) / (double)180);
+  widget->z = (float)((double)(-f1[(signed long int)2] + _s3dw_cam->z) - return_value_cos_6 * return_value_cos_7 * (double)20);
   widget->ax = widget->x;
   widget->ay = widget->y;
   widget->az = widget->z;
@@ -14215,9 +14215,9 @@ static void s3dw_textbox_draw(struct _s3dw_widget *widget)
     vertices[(signed long int)(11 * 3 + 0)] = (float)((double)w + 0.75);
     vertices[(signed long int)(11 * 3 + 1)] = (float)-0.25;
     vertices[(signed long int)(11 * 3 + 2)] = (float)0.125;
-    signed int return_value_s3d_new_object$1;
-    return_value_s3d_new_object$1=s3d_new_object();
-    widget->oid = (unsigned int)return_value_s3d_new_object$1;
+    signed int return_value_s3d_new_object_1;
+    return_value_s3d_new_object_1=s3d_new_object();
+    widget->oid = (unsigned int)return_value_s3d_new_object_1;
     s3d_push_materials_a((signed int)widget->oid, widget->style->inputback_mat, (unsigned short int)1);
     s3d_push_materials_a((signed int)widget->oid, widget->style->input_mat, (unsigned short int)1);
     s3d_push_vertices((signed int)widget->oid, vertices, (unsigned short int)12);
@@ -14242,9 +14242,9 @@ void s3dw_textbox_drawtext(struct _s3dw_widget *widget)
   signed int y;
   float width;
   textbox->n_lineoids = (signed int)(widget->height - (float)2);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)textbox->n_lineoids * sizeof(signed int) /*4ul*/ );
-  textbox->p_lineoids = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)textbox->n_lineoids * sizeof(signed int) /*4ul*/ );
+  textbox->p_lineoids = (signed int *)return_value_malloc_1;
   width = (float)((double)widget->width - 1.5);
   y = -textbox->window_y;
   x = textbox->window_x;
@@ -14253,9 +14253,9 @@ void s3dw_textbox_drawtext(struct _s3dw_widget *widget)
     textbox->p_lineoids[(signed long int)i] = -1;
   text=strdup(textbox->text);
   rest = text;
-  unsigned long int return_value_strlen$2;
-  float return_value_s3d_strlen$3;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_2;
+  float return_value_s3d_strlen_3;
+  unsigned long int return_value_strlen_4;
   do
   {
     linefeedpos=strchr(rest, 10);
@@ -14263,9 +14263,9 @@ void s3dw_textbox_drawtext(struct _s3dw_widget *widget)
       break;
 
     linefeedpos[(signed long int)0] = (char)0;
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(rest);
-    if(!(x >= (signed int)return_value_strlen$6))
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(rest);
+    if(!(x >= (signed int)return_value_strlen_6))
     {
       if(y >= 0)
       {
@@ -14274,21 +14274,21 @@ void s3dw_textbox_drawtext(struct _s3dw_widget *widget)
           rest = rest + (signed long int)x;
           do
           {
-            return_value_strlen$2=strlen(rest);
-            if(!(return_value_strlen$2 >= 1ul))
+            return_value_strlen_2=strlen(rest);
+            if(!(return_value_strlen_2 >= 1ul))
               break;
 
-            return_value_s3d_strlen$3=s3d_strlen(rest);
-            if(!(return_value_s3d_strlen$3 > width))
+            return_value_s3d_strlen_3=s3d_strlen(rest);
+            if(!(return_value_s3d_strlen_3 > width))
               break;
 
-            return_value_strlen$4=strlen(rest);
-            rest[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] = (char)0;
+            return_value_strlen_4=strlen(rest);
+            rest[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] = (char)0;
           }
           while((_Bool)1);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(rest);
-          if(return_value_strlen$5 >= 1ul)
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(rest);
+          if(return_value_strlen_5 >= 1ul)
           {
             textbox->p_lineoids[(signed long int)y]=s3d_draw_string(rest, (float *)(void *)0);
             s3d_pep_materials_a(textbox->p_lineoids[(signed long int)y], widget->style->text_mat, (unsigned short int)1);
@@ -14380,9 +14380,9 @@ struct _s3dw_textbox * s3dw_textbox_new(const struct _s3dw_surface *surface, con
 {
   struct _s3dw_textbox *textbox;
   struct _s3dw_widget *widget;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _s3dw_textbox) /*184ul*/ );
-  textbox = (struct _s3dw_textbox *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _s3dw_textbox) /*184ul*/ );
+  textbox = (struct _s3dw_textbox *)return_value_malloc_1;
   widget=s3dw_widget_new((struct _s3dw_widget *)textbox);
   widget->type = 6;
   widget->x = posx;
@@ -14486,8 +14486,8 @@ void s3dw_textbox_show(struct _s3dw_widget *widget)
 void s3dw_turn(void)
 {
   struct _s3dw_widget *w;
-  struct _s3dw_widget *s3dw_turn$$1$$root;
-  s3dw_turn$$1$$root=s3dw_getroot();
+  struct _s3dw_widget *s3dw_turn__1__root;
+  s3dw_turn__1__root=s3dw_getroot();
   signed int i;
   float a[3l];
   float b[3l];
@@ -14499,9 +14499,9 @@ void s3dw_turn(void)
   a[(signed long int)1] = (float)0;
   a[(signed long int)2] = (float)1;
   i = 0;
-  for( ; !(i >= s3dw_turn$$1$$root->nobj); i = i + 1)
+  for( ; !(i >= s3dw_turn__1__root->nobj); i = i + 1)
   {
-    w = s3dw_turn$$1$$root->pobj[(signed long int)i];
+    w = s3dw_turn__1__root->pobj[(signed long int)i];
     if(!(w->oid == 0u))
     {
       if(!((2048 & w->flags) == 0))
@@ -14510,9 +14510,9 @@ void s3dw_turn(void)
         b[(signed long int)0] = (w->x + op[(signed long int)0]) - _s3dw_cam->x;
         b[(signed long int)1] = (float)0;
         b[(signed long int)2] = (w->z + op[(signed long int)2]) - _s3dw_cam->z;
-        float return_value_s3d_vector_angle$1;
-        return_value_s3d_vector_angle$1=s3d_vector_angle(a, b);
-        ry = (float)((double)((float)180 * return_value_s3d_vector_angle$1) / 3.14159265358979323846);
+        float return_value_s3d_vector_angle_1;
+        return_value_s3d_vector_angle_1=s3d_vector_angle(a, b);
+        ry = (float)((double)((float)180 * return_value_s3d_vector_angle_1) / 3.14159265358979323846);
         if(IEEE_FLOAT_EQUAL(b[0l], 0.000000f))
         {
           if(IEEE_FLOAT_EQUAL(b[1l], 0.000000f))
@@ -14529,14 +14529,14 @@ void s3dw_turn(void)
 
         else
           ry = (float)180 + ry;
-        double return_value_sqrt$2;
-        return_value_sqrt$2=sqrt((double)(b[(signed long int)0] * b[(signed long int)0] + b[(signed long int)2] * b[(signed long int)2]));
-        b[(signed long int)2] = (float)return_value_sqrt$2;
+        double return_value_sqrt_2;
+        return_value_sqrt_2=sqrt((double)(b[(signed long int)0] * b[(signed long int)0] + b[(signed long int)2] * b[(signed long int)2]));
+        b[(signed long int)2] = (float)return_value_sqrt_2;
         b[(signed long int)1] = (w->y + op[(signed long int)1]) - _s3dw_cam->y;
         b[(signed long int)0] = (float)0;
-        float return_value_s3d_vector_angle$3;
-        return_value_s3d_vector_angle$3=s3d_vector_angle(a, b);
-        rx = (float)((double)((float)180 * return_value_s3d_vector_angle$3) / 3.14159265358979323846);
+        float return_value_s3d_vector_angle_3;
+        return_value_s3d_vector_angle_3=s3d_vector_angle(a, b);
+        rx = (float)((double)((float)180 * return_value_s3d_vector_angle_3) / 3.14159265358979323846);
         if(IEEE_FLOAT_EQUAL(b[0l], 0.000000f))
         {
           if(IEEE_FLOAT_EQUAL(b[1l], 0.000000f))
@@ -14591,9 +14591,9 @@ void s3dw_turn(void)
 void s3dw_widget_append(struct _s3dw_widget *parent, struct _s3dw_widget *widget)
 {
   parent->nobj = parent->nobj + 1;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)parent->pobj, sizeof(struct _s3dw_widget **) /*8ul*/  * (unsigned long int)parent->nobj);
-  parent->pobj = (struct _s3dw_widget **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)parent->pobj, sizeof(struct _s3dw_widget **) /*8ul*/  * (unsigned long int)parent->nobj);
+  parent->pobj = (struct _s3dw_widget **)return_value_realloc_1;
   parent->pobj[(signed long int)(parent->nobj - 1)] = widget;
   widget->parent = parent;
   widget->style = parent->style;
@@ -14610,7 +14610,7 @@ signed int s3dw_widget_event_click(struct _s3dw_widget *widget, unsigned int oid
   s3dprintf(1, "processing click event for widget %10p of type %d, oid %d (%d), subobjects: %d", (void *)widget, widget->type, widget->oid, oid, widget->nobj);
   signed int return_value;
   return_value=s3dwcb_click[(signed long int)widget->type](widget, oid);
-  signed int return_value_s3dw_widget_event_click$1;
+  signed int return_value_s3dw_widget_event_click_1;
   if(!(return_value == 0))
     return 1;
 
@@ -14619,8 +14619,8 @@ signed int s3dw_widget_event_click(struct _s3dw_widget *widget, unsigned int oid
     i = 0;
     if(!(i >= widget->nobj))
     {
-      return_value_s3dw_widget_event_click$1=s3dw_widget_event_click(widget->pobj[(signed long int)i], oid);
-      if(!(return_value_s3dw_widget_event_click$1 == 0))
+      return_value_s3dw_widget_event_click_1=s3dw_widget_event_click(widget->pobj[(signed long int)i], oid);
+      if(!(return_value_s3dw_widget_event_click_1 == 0))
         return 1;
 
       i = i + 1;
@@ -14636,14 +14636,14 @@ signed int s3dw_widget_event_key(struct _s3dw_widget *widget, struct s3d_key_eve
 {
   signed int return_value;
   return_value=s3dwcb_key[(signed long int)widget->type](widget, keys);
-  signed int return_value_s3dw_widget_event_key$1;
+  signed int return_value_s3dw_widget_event_key_1;
   if(!(return_value == 0))
     return 1;
 
   else
     if(!(widget->focus == -1))
     {
-      return_value_s3dw_widget_event_key$1=s3dw_widget_event_key(widget->pobj[(signed long int)widget->focus], keys);
+      return_value_s3dw_widget_event_key_1=s3dw_widget_event_key(widget->pobj[(signed long int)widget->focus], keys);
       return 1;
     }
 
@@ -14740,7 +14740,7 @@ extern signed int sei_triangulate_polygon(signed int ncontours, signed int *cntr
   signed int ccount;
   signed int npoints;
   signed int n;
-  memset((void *)seg, 0, sizeof(struct anonymous$14 [200l]) /*11200ul*/ );
+  memset((void *)seg, 0, sizeof(struct anonymous_14 [200l]) /*11200ul*/ );
   ccount = 0;
   i = 1;
   while(!(ccount >= ncontours))
@@ -14786,9 +14786,9 @@ extern signed int sei_triangulate_polygon(signed int ncontours, signed int *cntr
   initialise(n);
   construct_trapezoids(n);
   nmonpoly=monotonate_trapezoids(n);
-  signed int return_value_triangulate_monotone_polygons$1;
-  return_value_triangulate_monotone_polygons$1=triangulate_monotone_polygons(n, nmonpoly, triangles);
-  return return_value_triangulate_monotone_polygons$1;
+  signed int return_value_triangulate_monotone_polygons_1;
+  return_value_triangulate_monotone_polygons_1=triangulate_monotone_polygons(n, nmonpoly, triangles);
+  return return_value_triangulate_monotone_polygons_1;
 }
 
 // shm_read
@@ -14835,12 +14835,12 @@ signed int shm_readn(char *str, signed int s)
   signed int no_read;
   signed int wait = 0;
   no_left = s;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   while(no_left >= 1)
   {
-    unsigned int return_value_shm_read$1;
-    return_value_shm_read$1=shm_read(data_in, str, (unsigned int)no_left);
-    no_read = (signed int)return_value_shm_read$1;
+    unsigned int return_value_shm_read_1;
+    return_value_shm_read_1=shm_read(data_in, str, (unsigned int)no_left);
+    no_read = (signed int)return_value_shm_read_1;
     if(!(no_read >= 0))
       return no_read;
 
@@ -14849,11 +14849,11 @@ signed int shm_readn(char *str, signed int s)
 
     no_left = no_left - no_read;
     str = str + (signed long int)no_read;
-    tmp_post$2 = wait;
+    tmp_post_2 = wait;
     wait = wait + 1;
-    if(tmp_post$2 >= 101)
+    if(tmp_post_2 >= 101)
     {
-      s3dprintf$link1(4, "shm_readn():waited too long ...");
+      s3dprintf_link1(4, "shm_readn():waited too long ...");
       return -1;
     }
 
@@ -14907,22 +14907,22 @@ signed int shm_writen(char *str, signed int s)
   signed int no_written;
   signed int wait = 0;
   no_left = s;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   while(no_left >= 1)
   {
-    unsigned int return_value_shm_write$1;
-    return_value_shm_write$1=shm_write(data_out, str, (unsigned int)no_left);
-    no_written = (signed int)return_value_shm_write$1;
+    unsigned int return_value_shm_write_1;
+    return_value_shm_write_1=shm_write(data_out, str, (unsigned int)no_left);
+    no_written = (signed int)return_value_shm_write_1;
     if(!(no_written >= 0))
       return no_written;
 
     no_left = no_left - no_written;
     str = str + (signed long int)no_written;
-    tmp_post$2 = wait;
+    tmp_post_2 = wait;
     wait = wait + 1;
-    if(tmp_post$2 >= 101)
+    if(tmp_post_2 >= 101)
     {
-      s3dprintf$link1(4, "shm_writen():waited too long ...");
+      s3dprintf_link1(4, "shm_writen():waited too long ...");
       return -1;
     }
 
@@ -14940,9 +14940,9 @@ static void sigint_handler(signed int sig, signed int code)
   exit(-1);
 }
 
-// sigint_handler$link1
+// sigint_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/io.c line 59
-static void sigint_handler$link1(signed int sig$link1, signed int code$link1)
+static void sigint_handler_link1(signed int sig_link1, signed int code_link1)
 {
   exit(-1);
 }
@@ -14954,9 +14954,9 @@ static void sigio_handler(signed int sig, signed int code)
   _s3d_sigio = 1;
 }
 
-// sigio_handler$link1
+// sigio_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 50
-static void sigio_handler$link1(signed int sig$link1, signed int code$link1)
+static void sigio_handler_link1(signed int sig_link1, signed int code_link1)
 {
   _s3d_sigio = 1;
 }
@@ -14968,9 +14968,9 @@ static void sigpipe_handler(signed int sig, signed int code)
   errs("sigpipe_handler()", "there is a broken pipe somewhere");
 }
 
-// sigpipe_handler$link1
+// sigpipe_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/tcp.c line 46
-static void sigpipe_handler$link1(signed int sig$link1, signed int code$link1)
+static void sigpipe_handler_link1(signed int sig_link1, signed int code_link1)
 {
   errs("sigpipe_handler()", "there is a broken pipe somewhere");
 }
@@ -14984,9 +14984,9 @@ signed int tcp_readn(char *str, signed int s)
   no_left = s;
   while(no_left >= 1)
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(s3d_socket, (void *)str, (unsigned long int)no_left);
-    no_read = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(s3d_socket, (void *)str, (unsigned long int)no_left);
+    no_read = (signed int)return_value_read_1;
     if(!(no_read >= 0))
       return no_read;
 
@@ -15008,9 +15008,9 @@ signed int tcp_writen(char *str, signed int s)
   no_left = s;
   while(no_left >= 1)
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(s3d_socket, (const void *)str, (unsigned long int)no_left);
-    no_written = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(s3d_socket, (const void *)str, (unsigned long int)no_left);
+    no_written = (signed int)return_value_write_1;
     if(!(no_written >= 1))
       return no_written;
 
@@ -15024,241 +15024,241 @@ signed int tcp_writen(char *str, signed int s)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 277
 static signed int traverse_polygon(signed int mcur, signed int trnum, signed int from, signed int dir)
 {
-  struct anonymous$3 *traverse_polygon$$1$$t = &tr[(signed long int)trnum];
+  struct anonymous_3 *traverse_polygon__1__t = &tr[(signed long int)trnum];
   signed int mnew;
   signed int v0;
   signed int v1;
   signed int retval = -1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(trnum >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = visited[(signed long int)trnum] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$19;
-  signed int return_value__equal_to$18;
-  signed int return_value__equal_to$14;
-  _Bool tmp_if_expr$16;
-  signed int return_value__equal_to$15;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = visited[(signed long int)trnum] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_19;
+  signed int return_value__equal_to_18;
+  signed int return_value__equal_to_14;
+  _Bool tmp_if_expr_16;
+  signed int return_value__equal_to_15;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     visited[(signed long int)trnum] = 1;
-    if(!(traverse_polygon$$1$$t->u0 >= 1))
-      tmp_if_expr$24 = traverse_polygon$$1$$t->u1 <= 0 ? (_Bool)1 : (_Bool)0;
+    if(!(traverse_polygon__1__t->u0 >= 1))
+      tmp_if_expr_24 = traverse_polygon__1__t->u1 <= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$24 = (_Bool)0;
-    if(tmp_if_expr$24)
+      tmp_if_expr_24 = (_Bool)0;
+    if(tmp_if_expr_24)
     {
-      if(traverse_polygon$$1$$t->d0 >= 1)
-        tmp_if_expr$2 = traverse_polygon$$1$$t->d1 > 0 ? (_Bool)1 : (_Bool)0;
+      if(traverse_polygon__1__t->d0 >= 1)
+        tmp_if_expr_2 = traverse_polygon__1__t->d1 > 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        v0 = tr[(signed long int)traverse_polygon$$1$$t->d1].lseg;
-        v1 = traverse_polygon$$1$$t->lseg;
-        if(from == traverse_polygon$$1$$t->d1)
+        v0 = tr[(signed long int)traverse_polygon__1__t->d1].lseg;
+        v1 = traverse_polygon__1__t->lseg;
+        if(from == traverse_polygon__1__t->d1)
         {
           mnew=make_new_monotone_poly(mcur, v1, v0);
-          traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-          traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
+          traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+          traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
         }
 
         else
         {
           mnew=make_new_monotone_poly(mcur, v0, v1);
-          traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-          traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
+          traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+          traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
         }
       }
 
       else
       {
         retval = -1;
-        traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-        traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-        traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-        traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
+        traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+        traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+        traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+        traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
       }
     }
 
     else
     {
-      if(!(traverse_polygon$$1$$t->d0 >= 1))
-        tmp_if_expr$23 = traverse_polygon$$1$$t->d1 <= 0 ? (_Bool)1 : (_Bool)0;
+      if(!(traverse_polygon__1__t->d0 >= 1))
+        tmp_if_expr_23 = traverse_polygon__1__t->d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$23 = (_Bool)0;
-      if(tmp_if_expr$23)
+        tmp_if_expr_23 = (_Bool)0;
+      if(tmp_if_expr_23)
       {
-        if(traverse_polygon$$1$$t->u0 >= 1)
-          tmp_if_expr$3 = traverse_polygon$$1$$t->u1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(traverse_polygon__1__t->u0 >= 1)
+          tmp_if_expr_3 = traverse_polygon__1__t->u1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
-          v0 = traverse_polygon$$1$$t->rseg;
-          v1 = tr[(signed long int)traverse_polygon$$1$$t->u0].rseg;
-          if(from == traverse_polygon$$1$$t->u1)
+          v0 = traverse_polygon__1__t->rseg;
+          v1 = tr[(signed long int)traverse_polygon__1__t->u0].rseg;
+          if(from == traverse_polygon__1__t->u1)
           {
             mnew=make_new_monotone_poly(mcur, v1, v0);
-            traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-            traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
+            traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+            traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
           }
 
           else
           {
             mnew=make_new_monotone_poly(mcur, v0, v1);
-            traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-            traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
+            traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+            traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
           }
         }
 
         else
         {
           retval = -1;
-          traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-          traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-          traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-          traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
+          traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+          traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+          traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+          traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
         }
       }
 
       else
       {
-        if(traverse_polygon$$1$$t->u0 >= 1)
-          tmp_if_expr$22 = traverse_polygon$$1$$t->u1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(traverse_polygon__1__t->u0 >= 1)
+          tmp_if_expr_22 = traverse_polygon__1__t->u1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$22 = (_Bool)0;
-        if(tmp_if_expr$22)
+          tmp_if_expr_22 = (_Bool)0;
+        if(tmp_if_expr_22)
         {
-          if(traverse_polygon$$1$$t->d0 >= 1)
-            tmp_if_expr$10 = traverse_polygon$$1$$t->d1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(traverse_polygon__1__t->d0 >= 1)
+            tmp_if_expr_10 = traverse_polygon__1__t->d1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
           {
-            v0 = tr[(signed long int)traverse_polygon$$1$$t->d1].lseg;
-            v1 = tr[(signed long int)traverse_polygon$$1$$t->u0].rseg;
+            v0 = tr[(signed long int)traverse_polygon__1__t->d1].lseg;
+            v1 = tr[(signed long int)traverse_polygon__1__t->u0].rseg;
             retval = 3;
             if(dir == 2)
-              tmp_if_expr$4 = traverse_polygon$$1$$t->d1 == from ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = traverse_polygon__1__t->d1 == from ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
+              tmp_if_expr_6 = (_Bool)1;
 
             else
             {
               if(dir == 1)
-                tmp_if_expr$5 = traverse_polygon$$1$$t->u1 == from ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = traverse_polygon__1__t->u1 == from ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = (_Bool)0;
+              tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$6)
+            if(tmp_if_expr_6)
             {
               mnew=make_new_monotone_poly(mcur, v1, v0);
-              traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-              traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-              traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
-              traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
+              traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+              traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+              traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
+              traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
             }
 
             else
             {
               mnew=make_new_monotone_poly(mcur, v0, v1);
-              traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-              traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-              traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
-              traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
+              traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+              traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+              traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
+              traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
             }
           }
 
           else
           {
-            signed int return_value__equal_to$9;
-            return_value__equal_to$9=_equal_to(&traverse_polygon$$1$$t->lo, &seg[(signed long int)traverse_polygon$$1$$t->lseg].v1);
-            if(!(return_value__equal_to$9 == 0))
+            signed int return_value__equal_to_9;
+            return_value__equal_to_9=_equal_to(&traverse_polygon__1__t->lo, &seg[(signed long int)traverse_polygon__1__t->lseg].v1);
+            if(!(return_value__equal_to_9 == 0))
             {
-              v0 = tr[(signed long int)traverse_polygon$$1$$t->u0].rseg;
-              v1 = seg[(signed long int)traverse_polygon$$1$$t->lseg].next;
+              v0 = tr[(signed long int)traverse_polygon__1__t->u0].rseg;
+              v1 = seg[(signed long int)traverse_polygon__1__t->lseg].next;
               retval = 4;
               if(dir == 1)
-                tmp_if_expr$7 = traverse_polygon$$1$$t->u0 == from ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = traverse_polygon__1__t->u0 == from ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(tmp_if_expr_7)
               {
                 mnew=make_new_monotone_poly(mcur, v1, v0);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
+                traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+                traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
+                traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
+                traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
               }
 
               else
               {
                 mnew=make_new_monotone_poly(mcur, v0, v1);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
+                traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+                traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+                traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+                traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
               }
             }
 
             else
             {
-              v0 = traverse_polygon$$1$$t->rseg;
-              v1 = tr[(signed long int)traverse_polygon$$1$$t->u0].rseg;
+              v0 = traverse_polygon__1__t->rseg;
+              v1 = tr[(signed long int)traverse_polygon__1__t->u0].rseg;
               retval = 5;
               if(dir == 1)
-                tmp_if_expr$8 = traverse_polygon$$1$$t->u1 == from ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_8 = traverse_polygon__1__t->u1 == from ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$8 = (_Bool)0;
-              if(tmp_if_expr$8)
+                tmp_if_expr_8 = (_Bool)0;
+              if(tmp_if_expr_8)
               {
                 mnew=make_new_monotone_poly(mcur, v1, v0);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
+                traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+                traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
+                traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
+                traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
               }
 
               else
               {
                 mnew=make_new_monotone_poly(mcur, v0, v1);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-                traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-                traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
+                traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+                traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+                traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+                traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
               }
             }
           }
@@ -15266,159 +15266,159 @@ static signed int traverse_polygon(signed int mcur, signed int trnum, signed int
 
         else
         {
-          if(traverse_polygon$$1$$t->u0 >= 1)
-            tmp_if_expr$21 = (_Bool)1;
+          if(traverse_polygon__1__t->u0 >= 1)
+            tmp_if_expr_21 = (_Bool)1;
 
           else
-            tmp_if_expr$21 = traverse_polygon$$1$$t->u1 > 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$21)
+            tmp_if_expr_21 = traverse_polygon__1__t->u1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_21)
           {
-            if(traverse_polygon$$1$$t->d0 >= 1)
-              tmp_if_expr$20 = traverse_polygon$$1$$t->d1 > 0 ? (_Bool)1 : (_Bool)0;
+            if(traverse_polygon__1__t->d0 >= 1)
+              tmp_if_expr_20 = traverse_polygon__1__t->d1 > 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$20 = (_Bool)0;
-            if(tmp_if_expr$20)
+              tmp_if_expr_20 = (_Bool)0;
+            if(tmp_if_expr_20)
             {
-              signed int return_value__equal_to$13;
-              return_value__equal_to$13=_equal_to(&traverse_polygon$$1$$t->hi, &seg[(signed long int)traverse_polygon$$1$$t->lseg].v0);
-              if(!(return_value__equal_to$13 == 0))
+              signed int return_value__equal_to_13;
+              return_value__equal_to_13=_equal_to(&traverse_polygon__1__t->hi, &seg[(signed long int)traverse_polygon__1__t->lseg].v0);
+              if(!(return_value__equal_to_13 == 0))
               {
-                v0 = tr[(signed long int)traverse_polygon$$1$$t->d1].lseg;
-                v1 = traverse_polygon$$1$$t->lseg;
+                v0 = tr[(signed long int)traverse_polygon__1__t->d1].lseg;
+                v1 = traverse_polygon__1__t->lseg;
                 retval = 6;
                 if(dir == 2)
-                  tmp_if_expr$11 = traverse_polygon$$1$$t->d0 == from ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_11 = traverse_polygon__1__t->d0 == from ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$11 = (_Bool)0;
-                if(!tmp_if_expr$11)
+                  tmp_if_expr_11 = (_Bool)0;
+                if(!tmp_if_expr_11)
                 {
                   mnew=make_new_monotone_poly(mcur, v1, v0);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
                 }
 
                 else
                 {
                   mnew=make_new_monotone_poly(mcur, v0, v1);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+                  traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
                 }
               }
 
               else
               {
-                v0 = tr[(signed long int)traverse_polygon$$1$$t->d1].lseg;
-                v1 = seg[(signed long int)traverse_polygon$$1$$t->rseg].next;
+                v0 = tr[(signed long int)traverse_polygon__1__t->d1].lseg;
+                v1 = seg[(signed long int)traverse_polygon__1__t->rseg].next;
                 retval = 7;
                 if(dir == 2)
-                  tmp_if_expr$12 = traverse_polygon$$1$$t->d1 == from ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_12 = traverse_polygon__1__t->d1 == from ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                if(tmp_if_expr$12)
+                  tmp_if_expr_12 = (_Bool)0;
+                if(tmp_if_expr_12)
                 {
                   mnew=make_new_monotone_poly(mcur, v1, v0);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+                  traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
                 }
 
                 else
                 {
                   mnew=make_new_monotone_poly(mcur, v0, v1);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
                 }
               }
             }
 
             else
             {
-              signed int return_value__equal_to$17;
-              return_value__equal_to$17=_equal_to(&traverse_polygon$$1$$t->hi, &seg[(signed long int)traverse_polygon$$1$$t->lseg].v0);
-              if(!(return_value__equal_to$17 == 0))
+              signed int return_value__equal_to_17;
+              return_value__equal_to_17=_equal_to(&traverse_polygon__1__t->hi, &seg[(signed long int)traverse_polygon__1__t->lseg].v0);
+              if(!(return_value__equal_to_17 == 0))
               {
-                return_value__equal_to$18=_equal_to(&traverse_polygon$$1$$t->lo, &seg[(signed long int)traverse_polygon$$1$$t->rseg].v0);
-                tmp_if_expr$19 = return_value__equal_to$18 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value__equal_to_18=_equal_to(&traverse_polygon__1__t->lo, &seg[(signed long int)traverse_polygon__1__t->rseg].v0);
+                tmp_if_expr_19 = return_value__equal_to_18 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$19 = (_Bool)0;
-              if(tmp_if_expr$19)
+                tmp_if_expr_19 = (_Bool)0;
+              if(tmp_if_expr_19)
               {
-                v0 = traverse_polygon$$1$$t->rseg;
-                v1 = traverse_polygon$$1$$t->lseg;
+                v0 = traverse_polygon__1__t->rseg;
+                v1 = traverse_polygon__1__t->lseg;
                 retval = 2;
                 if(dir == 1)
                 {
                   mnew=make_new_monotone_poly(mcur, v1, v0);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
+                  traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
                 }
 
                 else
                 {
                   mnew=make_new_monotone_poly(mcur, v0, v1);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
-                  traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+                  traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
+                  traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
                 }
               }
 
               else
               {
-                return_value__equal_to$14=_equal_to(&traverse_polygon$$1$$t->hi, &seg[(signed long int)traverse_polygon$$1$$t->rseg].v1);
-                if(!(return_value__equal_to$14 == 0))
+                return_value__equal_to_14=_equal_to(&traverse_polygon__1__t->hi, &seg[(signed long int)traverse_polygon__1__t->rseg].v1);
+                if(!(return_value__equal_to_14 == 0))
                 {
-                  return_value__equal_to$15=_equal_to(&traverse_polygon$$1$$t->lo, &seg[(signed long int)traverse_polygon$$1$$t->lseg].v1);
-                  tmp_if_expr$16 = return_value__equal_to$15 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value__equal_to_15=_equal_to(&traverse_polygon__1__t->lo, &seg[(signed long int)traverse_polygon__1__t->lseg].v1);
+                  tmp_if_expr_16 = return_value__equal_to_15 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$16 = (_Bool)0;
-                if(tmp_if_expr$16)
+                  tmp_if_expr_16 = (_Bool)0;
+                if(tmp_if_expr_16)
                 {
-                  v0 = seg[(signed long int)traverse_polygon$$1$$t->rseg].next;
-                  v1 = seg[(signed long int)traverse_polygon$$1$$t->lseg].next;
+                  v0 = seg[(signed long int)traverse_polygon__1__t->rseg].next;
+                  v1 = seg[(signed long int)traverse_polygon__1__t->lseg].next;
                   retval = 1;
                   if(dir == 1)
                   {
                     mnew=make_new_monotone_poly(mcur, v1, v0);
-                    traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-                    traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-                    traverse_polygon(mnew, traverse_polygon$$1$$t->d1, trnum, 1);
-                    traverse_polygon(mnew, traverse_polygon$$1$$t->d0, trnum, 1);
+                    traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+                    traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+                    traverse_polygon(mnew, traverse_polygon__1__t->d1, trnum, 1);
+                    traverse_polygon(mnew, traverse_polygon__1__t->d0, trnum, 1);
                   }
 
                   else
                   {
                     mnew=make_new_monotone_poly(mcur, v0, v1);
-                    traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
-                    traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-                    traverse_polygon(mnew, traverse_polygon$$1$$t->u0, trnum, 2);
-                    traverse_polygon(mnew, traverse_polygon$$1$$t->u1, trnum, 2);
+                    traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
+                    traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+                    traverse_polygon(mnew, traverse_polygon__1__t->u0, trnum, 2);
+                    traverse_polygon(mnew, traverse_polygon__1__t->u1, trnum, 2);
                   }
                 }
 
                 else
                 {
                   retval = -1;
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u0, trnum, 2);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d0, trnum, 1);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->u1, trnum, 2);
-                  traverse_polygon(mcur, traverse_polygon$$1$$t->d1, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u0, trnum, 2);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d0, trnum, 1);
+                  traverse_polygon(mcur, traverse_polygon__1__t->u1, trnum, 2);
+                  traverse_polygon(mcur, traverse_polygon__1__t->d1, trnum, 1);
                 }
               }
             }
@@ -15431,245 +15431,245 @@ static signed int traverse_polygon(signed int mcur, signed int trnum, signed int
   }
 }
 
-// traverse_polygon$link1
+// traverse_polygon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 277
-static signed int traverse_polygon$link1(signed int mcur$link1, signed int trnum$link1, signed int from$link1, signed int dir$link1)
+static signed int traverse_polygon_link1(signed int mcur_link1, signed int trnum_link1, signed int from_link1, signed int dir_link1)
 {
-  struct anonymous$3 *traverse_polygon$$1$$t$link1 = &tr[(signed long int)trnum$link1];
-  signed int mnew$link1;
-  signed int v0$link1;
-  signed int v1$link1;
-  signed int retval$link1 = -1;
-  _Bool tmp_if_expr$1$link1;
-  if(!(trnum$link1 >= 1))
-    tmp_if_expr$1$link1 = (_Bool)1;
+  struct anonymous_3 *traverse_polygon__1__t_link1 = &tr[(signed long int)trnum_link1];
+  signed int mnew_link1;
+  signed int v0_link1;
+  signed int v1_link1;
+  signed int retval_link1 = -1;
+  _Bool tmp_if_expr_1_link1;
+  if(!(trnum_link1 >= 1))
+    tmp_if_expr_1_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$1$link1 = visited$link1[(signed long int)trnum$link1] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$24$link1;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$23$link1;
-  _Bool tmp_if_expr$3$link1;
-  _Bool tmp_if_expr$22$link1;
-  _Bool tmp_if_expr$10$link1;
-  _Bool tmp_if_expr$4$link1;
-  _Bool tmp_if_expr$6$link1;
-  _Bool tmp_if_expr$5$link1;
-  _Bool tmp_if_expr$7$link1;
-  _Bool tmp_if_expr$8$link1;
-  _Bool tmp_if_expr$21$link1;
-  _Bool tmp_if_expr$20$link1;
-  _Bool tmp_if_expr$11$link1;
-  _Bool tmp_if_expr$12$link1;
-  _Bool tmp_if_expr$19$link1;
-  signed int return_value__equal_to$18$link1;
-  signed int return_value__equal_to$14$link1;
-  _Bool tmp_if_expr$16$link1;
-  signed int return_value__equal_to$15$link1;
-  if(tmp_if_expr$1$link1)
+    tmp_if_expr_1_link1 = visited_link1[(signed long int)trnum_link1] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_24_link1;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_23_link1;
+  _Bool tmp_if_expr_3_link1;
+  _Bool tmp_if_expr_22_link1;
+  _Bool tmp_if_expr_10_link1;
+  _Bool tmp_if_expr_4_link1;
+  _Bool tmp_if_expr_6_link1;
+  _Bool tmp_if_expr_5_link1;
+  _Bool tmp_if_expr_7_link1;
+  _Bool tmp_if_expr_8_link1;
+  _Bool tmp_if_expr_21_link1;
+  _Bool tmp_if_expr_20_link1;
+  _Bool tmp_if_expr_11_link1;
+  _Bool tmp_if_expr_12_link1;
+  _Bool tmp_if_expr_19_link1;
+  signed int return_value__equal_to_18_link1;
+  signed int return_value__equal_to_14_link1;
+  _Bool tmp_if_expr_16_link1;
+  signed int return_value__equal_to_15_link1;
+  if(tmp_if_expr_1_link1)
     return 0;
 
   else
   {
-    visited$link1[(signed long int)trnum$link1] = 1;
-    if(!(traverse_polygon$$1$$t$link1->u0 >= 1))
-      tmp_if_expr$24$link1 = traverse_polygon$$1$$t$link1->u1 <= 0 ? (_Bool)1 : (_Bool)0;
+    visited_link1[(signed long int)trnum_link1] = 1;
+    if(!(traverse_polygon__1__t_link1->u0 >= 1))
+      tmp_if_expr_24_link1 = traverse_polygon__1__t_link1->u1 <= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$24$link1 = (_Bool)0;
-    if(tmp_if_expr$24$link1)
+      tmp_if_expr_24_link1 = (_Bool)0;
+    if(tmp_if_expr_24_link1)
     {
-      if(traverse_polygon$$1$$t$link1->d0 >= 1)
-        tmp_if_expr$2$link1 = traverse_polygon$$1$$t$link1->d1 > 0 ? (_Bool)1 : (_Bool)0;
+      if(traverse_polygon__1__t_link1->d0 >= 1)
+        tmp_if_expr_2_link1 = traverse_polygon__1__t_link1->d1 > 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2$link1 = (_Bool)0;
-      if(tmp_if_expr$2$link1)
+        tmp_if_expr_2_link1 = (_Bool)0;
+      if(tmp_if_expr_2_link1)
       {
-        v0$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->d1].lseg;
-        v1$link1 = traverse_polygon$$1$$t$link1->lseg;
-        if(from$link1 == traverse_polygon$$1$$t$link1->d1)
+        v0_link1 = tr[(signed long int)traverse_polygon__1__t_link1->d1].lseg;
+        v1_link1 = traverse_polygon__1__t_link1->lseg;
+        if(from_link1 == traverse_polygon__1__t_link1->d1)
         {
-          mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-          traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-          traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
+          mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+          traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+          traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
         }
 
         else
         {
-          mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-          traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-          traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+          mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+          traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+          traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
         }
       }
 
       else
       {
-        retval$link1 = -1;
-        traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-        traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-        traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-        traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+        retval_link1 = -1;
+        traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+        traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+        traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+        traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
       }
     }
 
     else
     {
-      if(!(traverse_polygon$$1$$t$link1->d0 >= 1))
-        tmp_if_expr$23$link1 = traverse_polygon$$1$$t$link1->d1 <= 0 ? (_Bool)1 : (_Bool)0;
+      if(!(traverse_polygon__1__t_link1->d0 >= 1))
+        tmp_if_expr_23_link1 = traverse_polygon__1__t_link1->d1 <= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$23$link1 = (_Bool)0;
-      if(tmp_if_expr$23$link1)
+        tmp_if_expr_23_link1 = (_Bool)0;
+      if(tmp_if_expr_23_link1)
       {
-        if(traverse_polygon$$1$$t$link1->u0 >= 1)
-          tmp_if_expr$3$link1 = traverse_polygon$$1$$t$link1->u1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(traverse_polygon__1__t_link1->u0 >= 1)
+          tmp_if_expr_3_link1 = traverse_polygon__1__t_link1->u1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3$link1 = (_Bool)0;
-        if(tmp_if_expr$3$link1)
+          tmp_if_expr_3_link1 = (_Bool)0;
+        if(tmp_if_expr_3_link1)
         {
-          v0$link1 = traverse_polygon$$1$$t$link1->rseg;
-          v1$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->u0].rseg;
-          if(from$link1 == traverse_polygon$$1$$t$link1->u1)
+          v0_link1 = traverse_polygon__1__t_link1->rseg;
+          v1_link1 = tr[(signed long int)traverse_polygon__1__t_link1->u0].rseg;
+          if(from_link1 == traverse_polygon__1__t_link1->u1)
           {
-            mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-            traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-            traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
+            mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+            traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+            traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
           }
 
           else
           {
-            mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-            traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-            traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
+            mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+            traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+            traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
           }
         }
 
         else
         {
-          retval$link1 = -1;
-          traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-          traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-          traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-          traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+          retval_link1 = -1;
+          traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+          traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+          traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+          traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
         }
       }
 
       else
       {
-        if(traverse_polygon$$1$$t$link1->u0 >= 1)
-          tmp_if_expr$22$link1 = traverse_polygon$$1$$t$link1->u1 > 0 ? (_Bool)1 : (_Bool)0;
+        if(traverse_polygon__1__t_link1->u0 >= 1)
+          tmp_if_expr_22_link1 = traverse_polygon__1__t_link1->u1 > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$22$link1 = (_Bool)0;
-        if(tmp_if_expr$22$link1)
+          tmp_if_expr_22_link1 = (_Bool)0;
+        if(tmp_if_expr_22_link1)
         {
-          if(traverse_polygon$$1$$t$link1->d0 >= 1)
-            tmp_if_expr$10$link1 = traverse_polygon$$1$$t$link1->d1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(traverse_polygon__1__t_link1->d0 >= 1)
+            tmp_if_expr_10_link1 = traverse_polygon__1__t_link1->d1 > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10$link1 = (_Bool)0;
-          if(tmp_if_expr$10$link1)
+            tmp_if_expr_10_link1 = (_Bool)0;
+          if(tmp_if_expr_10_link1)
           {
-            v0$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->d1].lseg;
-            v1$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->u0].rseg;
-            retval$link1 = 3;
-            if(dir$link1 == 2)
-              tmp_if_expr$4$link1 = traverse_polygon$$1$$t$link1->d1 == from$link1 ? (_Bool)1 : (_Bool)0;
+            v0_link1 = tr[(signed long int)traverse_polygon__1__t_link1->d1].lseg;
+            v1_link1 = tr[(signed long int)traverse_polygon__1__t_link1->u0].rseg;
+            retval_link1 = 3;
+            if(dir_link1 == 2)
+              tmp_if_expr_4_link1 = traverse_polygon__1__t_link1->d1 == from_link1 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4$link1 = (_Bool)0;
-            if(tmp_if_expr$4$link1)
-              tmp_if_expr$6$link1 = (_Bool)1;
+              tmp_if_expr_4_link1 = (_Bool)0;
+            if(tmp_if_expr_4_link1)
+              tmp_if_expr_6_link1 = (_Bool)1;
 
             else
             {
-              if(dir$link1 == 1)
-                tmp_if_expr$5$link1 = traverse_polygon$$1$$t$link1->u1 == from$link1 ? (_Bool)1 : (_Bool)0;
+              if(dir_link1 == 1)
+                tmp_if_expr_5_link1 = traverse_polygon__1__t_link1->u1 == from_link1 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5$link1 = (_Bool)0;
-              tmp_if_expr$6$link1 = tmp_if_expr$5$link1 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5_link1 = (_Bool)0;
+              tmp_if_expr_6_link1 = tmp_if_expr_5_link1 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$6$link1)
+            if(tmp_if_expr_6_link1)
             {
-              mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-              traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-              traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-              traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-              traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
+              mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+              traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+              traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+              traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+              traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
             }
 
             else
             {
-              mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-              traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-              traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-              traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-              traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+              mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+              traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+              traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+              traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+              traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
             }
           }
 
           else
           {
-            signed int return_value__equal_to$9$link1;
-            return_value__equal_to$9$link1=_equal_to(&traverse_polygon$$1$$t$link1->lo, &seg[(signed long int)traverse_polygon$$1$$t$link1->lseg].v1);
-            if(!(return_value__equal_to$9$link1 == 0))
+            signed int return_value__equal_to_9_link1;
+            return_value__equal_to_9_link1=_equal_to(&traverse_polygon__1__t_link1->lo, &seg[(signed long int)traverse_polygon__1__t_link1->lseg].v1);
+            if(!(return_value__equal_to_9_link1 == 0))
             {
-              v0$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->u0].rseg;
-              v1$link1 = seg[(signed long int)traverse_polygon$$1$$t$link1->lseg].next;
-              retval$link1 = 4;
-              if(dir$link1 == 1)
-                tmp_if_expr$7$link1 = traverse_polygon$$1$$t$link1->u0 == from$link1 ? (_Bool)1 : (_Bool)0;
+              v0_link1 = tr[(signed long int)traverse_polygon__1__t_link1->u0].rseg;
+              v1_link1 = seg[(signed long int)traverse_polygon__1__t_link1->lseg].next;
+              retval_link1 = 4;
+              if(dir_link1 == 1)
+                tmp_if_expr_7_link1 = traverse_polygon__1__t_link1->u0 == from_link1 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7$link1 = (_Bool)0;
-              if(tmp_if_expr$7$link1)
+                tmp_if_expr_7_link1 = (_Bool)0;
+              if(tmp_if_expr_7_link1)
               {
-                mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+                mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
               }
 
               else
               {
-                mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
+                mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
               }
             }
 
             else
             {
-              v0$link1 = traverse_polygon$$1$$t$link1->rseg;
-              v1$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->u0].rseg;
-              retval$link1 = 5;
-              if(dir$link1 == 1)
-                tmp_if_expr$8$link1 = traverse_polygon$$1$$t$link1->u1 == from$link1 ? (_Bool)1 : (_Bool)0;
+              v0_link1 = traverse_polygon__1__t_link1->rseg;
+              v1_link1 = tr[(signed long int)traverse_polygon__1__t_link1->u0].rseg;
+              retval_link1 = 5;
+              if(dir_link1 == 1)
+                tmp_if_expr_8_link1 = traverse_polygon__1__t_link1->u1 == from_link1 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$8$link1 = (_Bool)0;
-              if(tmp_if_expr$8$link1)
+                tmp_if_expr_8_link1 = (_Bool)0;
+              if(tmp_if_expr_8_link1)
               {
-                mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
+                mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
               }
 
               else
               {
-                mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
+                mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
               }
             }
           }
@@ -15677,159 +15677,159 @@ static signed int traverse_polygon$link1(signed int mcur$link1, signed int trnum
 
         else
         {
-          if(traverse_polygon$$1$$t$link1->u0 >= 1)
-            tmp_if_expr$21$link1 = (_Bool)1;
+          if(traverse_polygon__1__t_link1->u0 >= 1)
+            tmp_if_expr_21_link1 = (_Bool)1;
 
           else
-            tmp_if_expr$21$link1 = traverse_polygon$$1$$t$link1->u1 > 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$21$link1)
+            tmp_if_expr_21_link1 = traverse_polygon__1__t_link1->u1 > 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_21_link1)
           {
-            if(traverse_polygon$$1$$t$link1->d0 >= 1)
-              tmp_if_expr$20$link1 = traverse_polygon$$1$$t$link1->d1 > 0 ? (_Bool)1 : (_Bool)0;
+            if(traverse_polygon__1__t_link1->d0 >= 1)
+              tmp_if_expr_20_link1 = traverse_polygon__1__t_link1->d1 > 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$20$link1 = (_Bool)0;
-            if(tmp_if_expr$20$link1)
+              tmp_if_expr_20_link1 = (_Bool)0;
+            if(tmp_if_expr_20_link1)
             {
-              signed int return_value__equal_to$13$link1;
-              return_value__equal_to$13$link1=_equal_to(&traverse_polygon$$1$$t$link1->hi, &seg[(signed long int)traverse_polygon$$1$$t$link1->lseg].v0);
-              if(!(return_value__equal_to$13$link1 == 0))
+              signed int return_value__equal_to_13_link1;
+              return_value__equal_to_13_link1=_equal_to(&traverse_polygon__1__t_link1->hi, &seg[(signed long int)traverse_polygon__1__t_link1->lseg].v0);
+              if(!(return_value__equal_to_13_link1 == 0))
               {
-                v0$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->d1].lseg;
-                v1$link1 = traverse_polygon$$1$$t$link1->lseg;
-                retval$link1 = 6;
-                if(dir$link1 == 2)
-                  tmp_if_expr$11$link1 = traverse_polygon$$1$$t$link1->d0 == from$link1 ? (_Bool)1 : (_Bool)0;
+                v0_link1 = tr[(signed long int)traverse_polygon__1__t_link1->d1].lseg;
+                v1_link1 = traverse_polygon__1__t_link1->lseg;
+                retval_link1 = 6;
+                if(dir_link1 == 2)
+                  tmp_if_expr_11_link1 = traverse_polygon__1__t_link1->d0 == from_link1 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$11$link1 = (_Bool)0;
-                if(!tmp_if_expr$11$link1)
+                  tmp_if_expr_11_link1 = (_Bool)0;
+                if(!tmp_if_expr_11_link1)
                 {
-                  mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
+                  mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
                 }
 
                 else
                 {
-                  mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+                  mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
                 }
               }
 
               else
               {
-                v0$link1 = tr[(signed long int)traverse_polygon$$1$$t$link1->d1].lseg;
-                v1$link1 = seg[(signed long int)traverse_polygon$$1$$t$link1->rseg].next;
-                retval$link1 = 7;
-                if(dir$link1 == 2)
-                  tmp_if_expr$12$link1 = traverse_polygon$$1$$t$link1->d1 == from$link1 ? (_Bool)1 : (_Bool)0;
+                v0_link1 = tr[(signed long int)traverse_polygon__1__t_link1->d1].lseg;
+                v1_link1 = seg[(signed long int)traverse_polygon__1__t_link1->rseg].next;
+                retval_link1 = 7;
+                if(dir_link1 == 2)
+                  tmp_if_expr_12_link1 = traverse_polygon__1__t_link1->d1 == from_link1 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$12$link1 = (_Bool)0;
-                if(tmp_if_expr$12$link1)
+                  tmp_if_expr_12_link1 = (_Bool)0;
+                if(tmp_if_expr_12_link1)
                 {
-                  mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
+                  mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
                 }
 
                 else
                 {
-                  mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+                  mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
                 }
               }
             }
 
             else
             {
-              signed int return_value__equal_to$17$link1;
-              return_value__equal_to$17$link1=_equal_to(&traverse_polygon$$1$$t$link1->hi, &seg[(signed long int)traverse_polygon$$1$$t$link1->lseg].v0);
-              if(!(return_value__equal_to$17$link1 == 0))
+              signed int return_value__equal_to_17_link1;
+              return_value__equal_to_17_link1=_equal_to(&traverse_polygon__1__t_link1->hi, &seg[(signed long int)traverse_polygon__1__t_link1->lseg].v0);
+              if(!(return_value__equal_to_17_link1 == 0))
               {
-                return_value__equal_to$18$link1=_equal_to(&traverse_polygon$$1$$t$link1->lo, &seg[(signed long int)traverse_polygon$$1$$t$link1->rseg].v0);
-                tmp_if_expr$19$link1 = return_value__equal_to$18$link1 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value__equal_to_18_link1=_equal_to(&traverse_polygon__1__t_link1->lo, &seg[(signed long int)traverse_polygon__1__t_link1->rseg].v0);
+                tmp_if_expr_19_link1 = return_value__equal_to_18_link1 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$19$link1 = (_Bool)0;
-              if(tmp_if_expr$19$link1)
+                tmp_if_expr_19_link1 = (_Bool)0;
+              if(tmp_if_expr_19_link1)
               {
-                v0$link1 = traverse_polygon$$1$$t$link1->rseg;
-                v1$link1 = traverse_polygon$$1$$t$link1->lseg;
-                retval$link1 = 2;
-                if(dir$link1 == 1)
+                v0_link1 = traverse_polygon__1__t_link1->rseg;
+                v1_link1 = traverse_polygon__1__t_link1->lseg;
+                retval_link1 = 2;
+                if(dir_link1 == 1)
                 {
-                  mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
+                  mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
                 }
 
                 else
                 {
-                  mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                  traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
+                  mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                  traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
                 }
               }
 
               else
               {
-                return_value__equal_to$14$link1=_equal_to(&traverse_polygon$$1$$t$link1->hi, &seg[(signed long int)traverse_polygon$$1$$t$link1->rseg].v1);
-                if(!(return_value__equal_to$14$link1 == 0))
+                return_value__equal_to_14_link1=_equal_to(&traverse_polygon__1__t_link1->hi, &seg[(signed long int)traverse_polygon__1__t_link1->rseg].v1);
+                if(!(return_value__equal_to_14_link1 == 0))
                 {
-                  return_value__equal_to$15$link1=_equal_to(&traverse_polygon$$1$$t$link1->lo, &seg[(signed long int)traverse_polygon$$1$$t$link1->lseg].v1);
-                  tmp_if_expr$16$link1 = return_value__equal_to$15$link1 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value__equal_to_15_link1=_equal_to(&traverse_polygon__1__t_link1->lo, &seg[(signed long int)traverse_polygon__1__t_link1->lseg].v1);
+                  tmp_if_expr_16_link1 = return_value__equal_to_15_link1 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$16$link1 = (_Bool)0;
-                if(tmp_if_expr$16$link1)
+                  tmp_if_expr_16_link1 = (_Bool)0;
+                if(tmp_if_expr_16_link1)
                 {
-                  v0$link1 = seg[(signed long int)traverse_polygon$$1$$t$link1->rseg].next;
-                  v1$link1 = seg[(signed long int)traverse_polygon$$1$$t$link1->lseg].next;
-                  retval$link1 = 1;
-                  if(dir$link1 == 1)
+                  v0_link1 = seg[(signed long int)traverse_polygon__1__t_link1->rseg].next;
+                  v1_link1 = seg[(signed long int)traverse_polygon__1__t_link1->lseg].next;
+                  retval_link1 = 1;
+                  if(dir_link1 == 1)
                   {
-                    mnew$link1=make_new_monotone_poly$link1(mcur$link1, v1$link1, v0$link1);
-                    traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                    traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                    traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                    traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
+                    mnew_link1=make_new_monotone_poly_link1(mcur_link1, v1_link1, v0_link1);
+                    traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                    traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                    traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                    traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
                   }
 
                   else
                   {
-                    mnew$link1=make_new_monotone_poly$link1(mcur$link1, v0$link1, v1$link1);
-                    traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
-                    traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                    traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                    traverse_polygon$link1(mnew$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
+                    mnew_link1=make_new_monotone_poly_link1(mcur_link1, v0_link1, v1_link1);
+                    traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
+                    traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                    traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                    traverse_polygon_link1(mnew_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
                   }
                 }
 
                 else
                 {
-                  retval$link1 = -1;
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u0, trnum$link1, 2);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d0, trnum$link1, 1);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->u1, trnum$link1, 2);
-                  traverse_polygon$link1(mcur$link1, traverse_polygon$$1$$t$link1->d1, trnum$link1, 1);
+                  retval_link1 = -1;
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u0, trnum_link1, 2);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d0, trnum_link1, 1);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->u1, trnum_link1, 2);
+                  traverse_polygon_link1(mcur_link1, traverse_polygon__1__t_link1->d1, trnum_link1, 1);
                 }
               }
             }
@@ -15838,7 +15838,7 @@ static signed int traverse_polygon$link1(signed int mcur$link1, signed int trnum
         }
       }
     }
-    return retval$link1;
+    return retval_link1;
   }
 }
 
@@ -15847,8 +15847,8 @@ static signed int traverse_polygon$link1(signed int mcur$link1, signed int trnum
 extern signed int triangulate_monotone_polygons(signed int nvert, signed int nmonpoly, signed int (*op)[3l])
 {
   signed int i;
-  struct anonymous$1 ymax;
-  struct anonymous$1 ymin;
+  struct anonymous_1 ymax;
+  struct anonymous_1 ymin;
   signed int p;
   signed int vfirst;
   signed int posmax;
@@ -15881,17 +15881,17 @@ extern signed int triangulate_monotone_polygons(signed int nvert, signed int nmo
 
       else
         mchain[(signed long int)p].marked = 1;
-      signed int return_value__greater_than$1;
-      return_value__greater_than$1=_greater_than(&vert[(signed long int)v].pt, &ymax);
-      if(!(return_value__greater_than$1 == 0))
+      signed int return_value__greater_than_1;
+      return_value__greater_than_1=_greater_than(&vert[(signed long int)v].pt, &ymax);
+      if(!(return_value__greater_than_1 == 0))
       {
         ymax = vert[(signed long int)v].pt;
         posmax = p;
       }
 
-      signed int return_value__less_than$2;
-      return_value__less_than$2=_less_than(&vert[(signed long int)v].pt, &ymin);
-      if(!(return_value__less_than$2 == 0))
+      signed int return_value__less_than_2;
+      return_value__less_than_2=_less_than(&vert[(signed long int)v].pt, &ymin);
+      if(!(return_value__less_than_2 == 0))
         ymin = vert[(signed long int)v].pt;
 
       p = mchain[(signed long int)p].next;
@@ -15911,9 +15911,9 @@ extern signed int triangulate_monotone_polygons(signed int nvert, signed int nmo
       else
       {
         v = mchain[(signed long int)mchain[(signed long int)posmax].next].vnum;
-        signed int return_value__equal_to$3;
-        return_value__equal_to$3=_equal_to(&vert[(signed long int)v].pt, &ymin);
-        if(!(return_value__equal_to$3 == 0))
+        signed int return_value__equal_to_3;
+        return_value__equal_to_3=_equal_to(&vert[(signed long int)v].pt, &ymin);
+        if(!(return_value__equal_to_3 == 0))
           triangulate_single_polygon(nvert, posmax, 1, op);
 
         else
@@ -15999,74 +15999,74 @@ static signed int triangulate_single_polygon(signed int nvert, signed int posmax
   return 0;
 }
 
-// triangulate_single_polygon$link1
+// triangulate_single_polygon_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/sei_monotone.c line 558
-static signed int triangulate_single_polygon$link1(signed int nvert$link1, signed int posmax$link1, signed int side$link1, signed int (*op$link1)[3l])
+static signed int triangulate_single_polygon_link1(signed int nvert_link1, signed int posmax_link1, signed int side_link1, signed int (*op_link1)[3l])
 {
-  signed int v$link1;
-  signed int rc$link1[200l];
-  signed int ri$link1 = 0;
-  signed int endv$link1;
-  signed int tmp$link1;
-  signed int vpos$link1;
-  if(side$link1 == 2)
+  signed int v_link1;
+  signed int rc_link1[200l];
+  signed int ri_link1 = 0;
+  signed int endv_link1;
+  signed int tmp_link1;
+  signed int vpos_link1;
+  if(side_link1 == 2)
   {
-    rc$link1[(signed long int)0] = mchain$link1[(signed long int)posmax$link1].vnum;
-    tmp$link1 = mchain$link1[(signed long int)posmax$link1].next;
-    rc$link1[(signed long int)1] = mchain$link1[(signed long int)tmp$link1].vnum;
-    ri$link1 = 1;
-    vpos$link1 = mchain$link1[(signed long int)tmp$link1].next;
-    v$link1 = mchain$link1[(signed long int)vpos$link1].vnum;
-    endv$link1 = mchain$link1[(signed long int)mchain$link1[(signed long int)posmax$link1].prev].vnum;
-    if(endv$link1 == 0)
-      endv$link1 = nvert$link1;
+    rc_link1[(signed long int)0] = mchain_link1[(signed long int)posmax_link1].vnum;
+    tmp_link1 = mchain_link1[(signed long int)posmax_link1].next;
+    rc_link1[(signed long int)1] = mchain_link1[(signed long int)tmp_link1].vnum;
+    ri_link1 = 1;
+    vpos_link1 = mchain_link1[(signed long int)tmp_link1].next;
+    v_link1 = mchain_link1[(signed long int)vpos_link1].vnum;
+    endv_link1 = mchain_link1[(signed long int)mchain_link1[(signed long int)posmax_link1].prev].vnum;
+    if(endv_link1 == 0)
+      endv_link1 = nvert_link1;
 
   }
 
   else
   {
-    tmp$link1 = mchain$link1[(signed long int)posmax$link1].next;
-    rc$link1[(signed long int)0] = mchain$link1[(signed long int)tmp$link1].vnum;
-    tmp$link1 = mchain$link1[(signed long int)tmp$link1].next;
-    rc$link1[(signed long int)1] = mchain$link1[(signed long int)tmp$link1].vnum;
-    ri$link1 = 1;
-    vpos$link1 = mchain$link1[(signed long int)tmp$link1].next;
-    v$link1 = mchain$link1[(signed long int)vpos$link1].vnum;
-    endv$link1 = mchain$link1[(signed long int)posmax$link1].vnum;
+    tmp_link1 = mchain_link1[(signed long int)posmax_link1].next;
+    rc_link1[(signed long int)0] = mchain_link1[(signed long int)tmp_link1].vnum;
+    tmp_link1 = mchain_link1[(signed long int)tmp_link1].next;
+    rc_link1[(signed long int)1] = mchain_link1[(signed long int)tmp_link1].vnum;
+    ri_link1 = 1;
+    vpos_link1 = mchain_link1[(signed long int)tmp_link1].next;
+    v_link1 = mchain_link1[(signed long int)vpos_link1].vnum;
+    endv_link1 = mchain_link1[(signed long int)posmax_link1].vnum;
   }
-  while(ri$link1 >= 2 || !(v$link1 == endv$link1))
-    if(ri$link1 >= 1)
+  while(ri_link1 >= 2 || !(v_link1 == endv_link1))
+    if(ri_link1 >= 1)
     {
-      if((vert$link1[(signed long int)rc$link1[(signed long int)(ri$link1 + -1)]].pt.x + -vert$link1[(signed long int)v$link1].pt.x) * (vert$link1[(signed long int)rc$link1[(signed long int)ri$link1]].pt.y + -vert$link1[(signed long int)v$link1].pt.y) + -((vert$link1[(signed long int)rc$link1[(signed long int)(ri$link1 + -1)]].pt.y + -vert$link1[(signed long int)v$link1].pt.y) * (vert$link1[(signed long int)rc$link1[(signed long int)ri$link1]].pt.x + -vert$link1[(signed long int)v$link1].pt.x)) > 0.000000)
+      if((vert_link1[(signed long int)rc_link1[(signed long int)(ri_link1 + -1)]].pt.x + -vert_link1[(signed long int)v_link1].pt.x) * (vert_link1[(signed long int)rc_link1[(signed long int)ri_link1]].pt.y + -vert_link1[(signed long int)v_link1].pt.y) + -((vert_link1[(signed long int)rc_link1[(signed long int)(ri_link1 + -1)]].pt.y + -vert_link1[(signed long int)v_link1].pt.y) * (vert_link1[(signed long int)rc_link1[(signed long int)ri_link1]].pt.x + -vert_link1[(signed long int)v_link1].pt.x)) > 0.000000)
       {
-        op$link1[(signed long int)op_idx$link1][(signed long int)0] = rc$link1[(signed long int)(ri$link1 - 1)];
-        op$link1[(signed long int)op_idx$link1][(signed long int)1] = rc$link1[(signed long int)ri$link1];
-        op$link1[(signed long int)op_idx$link1][(signed long int)2] = v$link1;
-        op_idx$link1 = op_idx$link1 + 1;
-        ri$link1 = ri$link1 - 1;
+        op_link1[(signed long int)op_idx_link1][(signed long int)0] = rc_link1[(signed long int)(ri_link1 - 1)];
+        op_link1[(signed long int)op_idx_link1][(signed long int)1] = rc_link1[(signed long int)ri_link1];
+        op_link1[(signed long int)op_idx_link1][(signed long int)2] = v_link1;
+        op_idx_link1 = op_idx_link1 + 1;
+        ri_link1 = ri_link1 - 1;
       }
 
       else
       {
-        ri$link1 = ri$link1 + 1;
-        rc$link1[(signed long int)ri$link1] = v$link1;
-        vpos$link1 = mchain$link1[(signed long int)vpos$link1].next;
-        v$link1 = mchain$link1[(signed long int)vpos$link1].vnum;
+        ri_link1 = ri_link1 + 1;
+        rc_link1[(signed long int)ri_link1] = v_link1;
+        vpos_link1 = mchain_link1[(signed long int)vpos_link1].next;
+        v_link1 = mchain_link1[(signed long int)vpos_link1].vnum;
       }
     }
 
     else
     {
-      ri$link1 = ri$link1 + 1;
-      rc$link1[(signed long int)ri$link1] = v$link1;
-      vpos$link1 = mchain$link1[(signed long int)vpos$link1].next;
-      v$link1 = mchain$link1[(signed long int)vpos$link1].vnum;
+      ri_link1 = ri_link1 + 1;
+      rc_link1[(signed long int)ri_link1] = v_link1;
+      vpos_link1 = mchain_link1[(signed long int)vpos_link1].next;
+      v_link1 = mchain_link1[(signed long int)vpos_link1].vnum;
     }
-  op$link1[(signed long int)op_idx$link1][(signed long int)0] = rc$link1[(signed long int)(ri$link1 - 1)];
-  op$link1[(signed long int)op_idx$link1][(signed long int)1] = rc$link1[(signed long int)ri$link1];
-  op$link1[(signed long int)op_idx$link1][(signed long int)2] = v$link1;
-  op_idx$link1 = op_idx$link1 + 1;
-  ri$link1 = ri$link1 - 1;
+  op_link1[(signed long int)op_idx_link1][(signed long int)0] = rc_link1[(signed long int)(ri_link1 - 1)];
+  op_link1[(signed long int)op_idx_link1][(signed long int)1] = rc_link1[(signed long int)ri_link1];
+  op_link1[(signed long int)op_idx_link1][(signed long int)2] = v_link1;
+  op_idx_link1 = op_idx_link1 + 1;
+  ri_link1 = ri_link1 - 1;
   return 0;
 }
 
@@ -16087,15 +16087,15 @@ static signed int wire_sphere(signed int slices, signed int stacks)
   unsigned int *l;
   num_v = (stacks + 1) * slices;
   num_l = stacks * slices + (stacks - 1) * slices;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)num_v);
-  v = (float *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(float) /*4ul*/  * (unsigned long int)6 * (unsigned long int)num_l);
-  n = (float *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)3 * (unsigned long int)num_l);
-  l = (unsigned int *)return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)3 * (unsigned long int)num_v);
+  v = (float *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(float) /*4ul*/  * (unsigned long int)6 * (unsigned long int)num_l);
+  n = (float *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)3 * (unsigned long int)num_l);
+  l = (unsigned int *)return_value_malloc_3;
   i = 0;
   x = 0;
   for( ; !(x >= slices); x = x + 1)
@@ -16105,19 +16105,19 @@ static signed int wire_sphere(signed int slices, signed int stacks)
     for( ; !(y >= 1 + stacks); y = y + 1)
     {
       beta = (float)((((double)((y * 180) / slices) - 90.0) * 3.14159265358979323846) / 180.0);
-      double return_value_cos$4;
-      return_value_cos$4=cos((double)alpha);
-      double return_value_cos$5;
-      return_value_cos$5=cos((double)beta);
-      v[(signed long int)(i * 3 + 0)] = (float)(return_value_cos$4 * return_value_cos$5);
-      double return_value_sin$6;
-      return_value_sin$6=sin((double)beta);
-      v[(signed long int)(i * 3 + 1)] = (float)return_value_sin$6;
-      double return_value_sin$7;
-      return_value_sin$7=sin((double)alpha);
-      double return_value_cos$8;
-      return_value_cos$8=cos((double)beta);
-      v[(signed long int)(i * 3 + 2)] = (float)(return_value_sin$7 * return_value_cos$8);
+      double return_value_cos_4;
+      return_value_cos_4=cos((double)alpha);
+      double return_value_cos_5;
+      return_value_cos_5=cos((double)beta);
+      v[(signed long int)(i * 3 + 0)] = (float)(return_value_cos_4 * return_value_cos_5);
+      double return_value_sin_6;
+      return_value_sin_6=sin((double)beta);
+      v[(signed long int)(i * 3 + 1)] = (float)return_value_sin_6;
+      double return_value_sin_7;
+      return_value_sin_7=sin((double)alpha);
+      double return_value_cos_8;
+      return_value_cos_8=cos((double)beta);
+      v[(signed long int)(i * 3 + 2)] = (float)(return_value_sin_7 * return_value_cos_8);
       i = i + 1;
     }
   }

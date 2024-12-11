@@ -1,162 +1,162 @@
-// #anon_enum$BACKEND_PROBE_BLADERF=0$BACKEND_PROBE_FX3_BOOTLOADER=1
+// #anon_enum_BACKEND_PROBE_BLADERF=0_BACKEND_PROBE_FX3_BOOTLOADER=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.h line 40
-enum anonymous$16 { BACKEND_PROBE_BLADERF=0, BACKEND_PROBE_FX3_BOOTLOADER=1 };
+enum anonymous_16 { BACKEND_PROBE_BLADERF=0, BACKEND_PROBE_FX3_BOOTLOADER=1 };
 
-// #anon_enum$BLADERF_BACKEND_ANY=0$BLADERF_BACKEND_LINUX=1$BLADERF_BACKEND_LIBUSB=2$BLADERF_BACKEND_CYPRESS=3$BLADERF_BACKEND_DUMMY=100
+// #anon_enum_BLADERF_BACKEND_ANY=0_BLADERF_BACKEND_LINUX=1_BLADERF_BACKEND_LIBUSB=2_BLADERF_BACKEND_CYPRESS=3_BLADERF_BACKEND_DUMMY=100
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 148
-enum anonymous$14 { BLADERF_BACKEND_ANY=0, BLADERF_BACKEND_LINUX=1, BLADERF_BACKEND_LIBUSB=2, BLADERF_BACKEND_CYPRESS=3, BLADERF_BACKEND_DUMMY=100 };
+enum anonymous_14 { BLADERF_BACKEND_ANY=0, BLADERF_BACKEND_LINUX=1, BLADERF_BACKEND_LIBUSB=2, BLADERF_BACKEND_CYPRESS=3, BLADERF_BACKEND_DUMMY=100 };
 
-// #anon_enum$BLADERF_CORR_LMS_DCOFF_I=0$BLADERF_CORR_LMS_DCOFF_Q=1$BLADERF_CORR_FPGA_PHASE=2$BLADERF_CORR_FPGA_GAIN=3
+// #anon_enum_BLADERF_CORR_LMS_DCOFF_I=0_BLADERF_CORR_LMS_DCOFF_Q=1_BLADERF_CORR_FPGA_PHASE=2_BLADERF_CORR_FPGA_GAIN=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 771
-enum anonymous$36 { BLADERF_CORR_LMS_DCOFF_I=0, BLADERF_CORR_LMS_DCOFF_Q=1, BLADERF_CORR_FPGA_PHASE=2, BLADERF_CORR_FPGA_GAIN=3 };
+enum anonymous_36 { BLADERF_CORR_LMS_DCOFF_I=0, BLADERF_CORR_LMS_DCOFF_Q=1, BLADERF_CORR_FPGA_PHASE=2, BLADERF_CORR_FPGA_GAIN=3 };
 
-// #anon_enum$BLADERF_DC_CAL_INVALID=-1$BLADERF_DC_CAL_LPF_TUNING=0$BLADERF_DC_CAL_TX_LPF=1$BLADERF_DC_CAL_RX_LPF=2$BLADERF_DC_CAL_RXVGA2=3
+// #anon_enum_BLADERF_DC_CAL_INVALID=-1_BLADERF_DC_CAL_LPF_TUNING=0_BLADERF_DC_CAL_TX_LPF=1_BLADERF_DC_CAL_RX_LPF=2_BLADERF_DC_CAL_RXVGA2=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 754
-enum anonymous$3 { BLADERF_DC_CAL_INVALID=-1, BLADERF_DC_CAL_LPF_TUNING=0, BLADERF_DC_CAL_TX_LPF=1, BLADERF_DC_CAL_RX_LPF=2, BLADERF_DC_CAL_RXVGA2=3 };
+enum anonymous_3 { BLADERF_DC_CAL_INVALID=-1, BLADERF_DC_CAL_LPF_TUNING=0, BLADERF_DC_CAL_TX_LPF=1, BLADERF_DC_CAL_RX_LPF=2, BLADERF_DC_CAL_RXVGA2=3 };
 
-// #anon_enum$BLADERF_DEVICE_SPEED_UNKNOWN=0$BLADERF_DEVICE_SPEED_HIGH=1$BLADERF_DEVICE_SPEED_SUPER=2
+// #anon_enum_BLADERF_DEVICE_SPEED_UNKNOWN=0_BLADERF_DEVICE_SPEED_HIGH=1_BLADERF_DEVICE_SPEED_SUPER=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 161
-enum anonymous$9 { BLADERF_DEVICE_SPEED_UNKNOWN=0, BLADERF_DEVICE_SPEED_HIGH=1, BLADERF_DEVICE_SPEED_SUPER=2 };
+enum anonymous_9 { BLADERF_DEVICE_SPEED_UNKNOWN=0, BLADERF_DEVICE_SPEED_HIGH=1, BLADERF_DEVICE_SPEED_SUPER=2 };
 
-// #anon_enum$BLADERF_FORMAT_SC16_Q11=0$BLADERF_FORMAT_SC16_Q11_META=1
+// #anon_enum_BLADERF_FORMAT_SC16_Q11=0_BLADERF_FORMAT_SC16_Q11_META=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1580
-enum anonymous$11 { BLADERF_FORMAT_SC16_Q11=0, BLADERF_FORMAT_SC16_Q11_META=1 };
+enum anonymous_11 { BLADERF_FORMAT_SC16_Q11=0, BLADERF_FORMAT_SC16_Q11_META=1 };
 
-// #anon_enum$BLADERF_FPGA_UNKNOWN=0$BLADERF_FPGA_40KLE=40$BLADERF_FPGA_115KLE=115
+// #anon_enum_BLADERF_FPGA_UNKNOWN=0_BLADERF_FPGA_40KLE=40_BLADERF_FPGA_115KLE=115
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 2302
-enum anonymous$7 { BLADERF_FPGA_UNKNOWN=0, BLADERF_FPGA_40KLE=40, BLADERF_FPGA_115KLE=115 };
+enum anonymous_7 { BLADERF_FPGA_UNKNOWN=0, BLADERF_FPGA_40KLE=40, BLADERF_FPGA_115KLE=115 };
 
-// #anon_enum$BLADERF_IMAGE_TYPE_INVALID=-1$BLADERF_IMAGE_TYPE_RAW=0$BLADERF_IMAGE_TYPE_FIRMWARE=1$BLADERF_IMAGE_TYPE_FPGA_40KLE=2$BLADERF_IMAGE_TYPE_FPGA_115KLE=3$BLADERF_IMAGE_TYPE_CALIBRATION=4$BLADERF_IMAGE_TYPE_RX_DC_CAL=5$BLADERF_IMAGE_TYPE_TX_DC_CAL=6$BLADERF_IMAGE_TYPE_RX_IQ_CAL=7$BLADERF_IMAGE_TYPE_TX_IQ_CAL=8
+// #anon_enum_BLADERF_IMAGE_TYPE_INVALID=-1_BLADERF_IMAGE_TYPE_RAW=0_BLADERF_IMAGE_TYPE_FIRMWARE=1_BLADERF_IMAGE_TYPE_FPGA_40KLE=2_BLADERF_IMAGE_TYPE_FPGA_115KLE=3_BLADERF_IMAGE_TYPE_CALIBRATION=4_BLADERF_IMAGE_TYPE_RX_DC_CAL=5_BLADERF_IMAGE_TYPE_TX_DC_CAL=6_BLADERF_IMAGE_TYPE_RX_IQ_CAL=7_BLADERF_IMAGE_TYPE_TX_IQ_CAL=8
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 2552
-enum anonymous$38 { BLADERF_IMAGE_TYPE_INVALID=-1, BLADERF_IMAGE_TYPE_RAW=0, BLADERF_IMAGE_TYPE_FIRMWARE=1, BLADERF_IMAGE_TYPE_FPGA_40KLE=2, BLADERF_IMAGE_TYPE_FPGA_115KLE=3, BLADERF_IMAGE_TYPE_CALIBRATION=4, BLADERF_IMAGE_TYPE_RX_DC_CAL=5, BLADERF_IMAGE_TYPE_TX_DC_CAL=6, BLADERF_IMAGE_TYPE_RX_IQ_CAL=7, BLADERF_IMAGE_TYPE_TX_IQ_CAL=8 };
+enum anonymous_38 { BLADERF_IMAGE_TYPE_INVALID=-1, BLADERF_IMAGE_TYPE_RAW=0, BLADERF_IMAGE_TYPE_FIRMWARE=1, BLADERF_IMAGE_TYPE_FPGA_40KLE=2, BLADERF_IMAGE_TYPE_FPGA_115KLE=3, BLADERF_IMAGE_TYPE_CALIBRATION=4, BLADERF_IMAGE_TYPE_RX_DC_CAL=5, BLADERF_IMAGE_TYPE_TX_DC_CAL=6, BLADERF_IMAGE_TYPE_RX_IQ_CAL=7, BLADERF_IMAGE_TYPE_TX_IQ_CAL=8 };
 
-// #anon_enum$BLADERF_LB_FIRMWARE=1$BLADERF_LB_BB_TXLPF_RXVGA2=2$BLADERF_LB_BB_TXVGA1_RXVGA2=3$BLADERF_LB_BB_TXLPF_RXLPF=4$BLADERF_LB_BB_TXVGA1_RXLPF=5$BLADERF_LB_RF_LNA1=6$BLADERF_LB_RF_LNA2=7$BLADERF_LB_RF_LNA3=8$BLADERF_LB_NONE=9
+// #anon_enum_BLADERF_LB_FIRMWARE=1_BLADERF_LB_BB_TXLPF_RXVGA2=2_BLADERF_LB_BB_TXVGA1_RXVGA2=3_BLADERF_LB_BB_TXLPF_RXLPF=4_BLADERF_LB_BB_TXVGA1_RXLPF=5_BLADERF_LB_RF_LNA1=6_BLADERF_LB_RF_LNA2=7_BLADERF_LB_RF_LNA3=8_BLADERF_LB_NONE=9
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 522
-enum anonymous$1 { BLADERF_LB_FIRMWARE=1, BLADERF_LB_BB_TXLPF_RXVGA2=2, BLADERF_LB_BB_TXVGA1_RXVGA2=3, BLADERF_LB_BB_TXLPF_RXLPF=4, BLADERF_LB_BB_TXVGA1_RXLPF=5, BLADERF_LB_RF_LNA1=6, BLADERF_LB_RF_LNA2=7, BLADERF_LB_RF_LNA3=8, BLADERF_LB_NONE=9 };
+enum anonymous_1 { BLADERF_LB_FIRMWARE=1, BLADERF_LB_BB_TXLPF_RXVGA2=2, BLADERF_LB_BB_TXVGA1_RXVGA2=3, BLADERF_LB_BB_TXLPF_RXLPF=4, BLADERF_LB_BB_TXVGA1_RXLPF=5, BLADERF_LB_RF_LNA1=6, BLADERF_LB_RF_LNA2=7, BLADERF_LB_RF_LNA3=8, BLADERF_LB_NONE=9 };
 
-// #anon_enum$BLADERF_LNA_GAIN_UNKNOWN=0$BLADERF_LNA_GAIN_BYPASS=1$BLADERF_LNA_GAIN_MID=2$BLADERF_LNA_GAIN_MAX=3
+// #anon_enum_BLADERF_LNA_GAIN_UNKNOWN=0_BLADERF_LNA_GAIN_BYPASS=1_BLADERF_LNA_GAIN_MID=2_BLADERF_LNA_GAIN_MAX=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 638
-enum anonymous$13 { BLADERF_LNA_GAIN_UNKNOWN=0, BLADERF_LNA_GAIN_BYPASS=1, BLADERF_LNA_GAIN_MID=2, BLADERF_LNA_GAIN_MAX=3 };
+enum anonymous_13 { BLADERF_LNA_GAIN_UNKNOWN=0, BLADERF_LNA_GAIN_BYPASS=1, BLADERF_LNA_GAIN_MID=2, BLADERF_LNA_GAIN_MAX=3 };
 
-// #anon_enum$BLADERF_LOG_LEVEL_VERBOSE=0$BLADERF_LOG_LEVEL_DEBUG=1$BLADERF_LOG_LEVEL_INFO=2$BLADERF_LOG_LEVEL_WARNING=3$BLADERF_LOG_LEVEL_ERROR=4$BLADERF_LOG_LEVEL_CRITICAL=5$BLADERF_LOG_LEVEL_SILENT=6
+// #anon_enum_BLADERF_LOG_LEVEL_VERBOSE=0_BLADERF_LOG_LEVEL_DEBUG=1_BLADERF_LOG_LEVEL_INFO=2_BLADERF_LOG_LEVEL_WARNING=3_BLADERF_LOG_LEVEL_ERROR=4_BLADERF_LOG_LEVEL_CRITICAL=5_BLADERF_LOG_LEVEL_SILENT=6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 2489
 enum anonymous { BLADERF_LOG_LEVEL_VERBOSE=0, BLADERF_LOG_LEVEL_DEBUG=1, BLADERF_LOG_LEVEL_INFO=2, BLADERF_LOG_LEVEL_WARNING=3, BLADERF_LOG_LEVEL_ERROR=4, BLADERF_LOG_LEVEL_CRITICAL=5, BLADERF_LOG_LEVEL_SILENT=6 };
 
-// #anon_enum$BLADERF_LPF_NORMAL=0$BLADERF_LPF_BYPASSED=1$BLADERF_LPF_DISABLED=2
+// #anon_enum_BLADERF_LPF_NORMAL=0_BLADERF_LPF_BYPASSED=1_BLADERF_LPF_DISABLED=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 651
-enum anonymous$2 { BLADERF_LPF_NORMAL=0, BLADERF_LPF_BYPASSED=1, BLADERF_LPF_DISABLED=2 };
+enum anonymous_2 { BLADERF_LPF_NORMAL=0, BLADERF_LPF_BYPASSED=1, BLADERF_LPF_DISABLED=2 };
 
-// #anon_enum$BLADERF_MODULE_INVALID=-1$BLADERF_MODULE_RX=0$BLADERF_MODULE_TX=1
+// #anon_enum_BLADERF_MODULE_INVALID=-1_BLADERF_MODULE_RX=0_BLADERF_MODULE_TX=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 660
-enum anonymous$0 { BLADERF_MODULE_INVALID=-1, BLADERF_MODULE_RX=0, BLADERF_MODULE_TX=1 };
+enum anonymous_0 { BLADERF_MODULE_INVALID=-1, BLADERF_MODULE_RX=0, BLADERF_MODULE_TX=1 };
 
-// #anon_enum$BLADERF_RX_MUX_INVALID=-1$BLADERF_RX_MUX_BASEBAND_LMS=0$BLADERF_RX_MUX_12BIT_COUNTER=1$BLADERF_RX_MUX_32BIT_COUNTER=2$BLADERF_RX_MUX_DIGITAL_LOOPBACK=4
+// #anon_enum_BLADERF_RX_MUX_INVALID=-1_BLADERF_RX_MUX_BASEBAND_LMS=0_BLADERF_RX_MUX_12BIT_COUNTER=1_BLADERF_RX_MUX_32BIT_COUNTER=2_BLADERF_RX_MUX_DIGITAL_LOOPBACK=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 581
-enum anonymous$33 { BLADERF_RX_MUX_INVALID=-1, BLADERF_RX_MUX_BASEBAND_LMS=0, BLADERF_RX_MUX_12BIT_COUNTER=1, BLADERF_RX_MUX_32BIT_COUNTER=2, BLADERF_RX_MUX_DIGITAL_LOOPBACK=4 };
+enum anonymous_33 { BLADERF_RX_MUX_INVALID=-1, BLADERF_RX_MUX_BASEBAND_LMS=0, BLADERF_RX_MUX_12BIT_COUNTER=1, BLADERF_RX_MUX_32BIT_COUNTER=2, BLADERF_RX_MUX_DIGITAL_LOOPBACK=4 };
 
-// #anon_enum$BLADERF_SAMPLING_UNKNOWN=0$BLADERF_SAMPLING_INTERNAL=1$BLADERF_SAMPLING_EXTERNAL=2
+// #anon_enum_BLADERF_SAMPLING_UNKNOWN=0_BLADERF_SAMPLING_INTERNAL=1_BLADERF_SAMPLING_EXTERNAL=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 629
-enum anonymous$34 { BLADERF_SAMPLING_UNKNOWN=0, BLADERF_SAMPLING_INTERNAL=1, BLADERF_SAMPLING_EXTERNAL=2 };
+enum anonymous_34 { BLADERF_SAMPLING_UNKNOWN=0, BLADERF_SAMPLING_INTERNAL=1, BLADERF_SAMPLING_EXTERNAL=2 };
 
-// #anon_enum$BLADERF_TUNING_MODE_INVALID=-1$BLADERF_TUNING_MODE_HOST=0$BLADERF_TUNING_MODE_FPGA=1
+// #anon_enum_BLADERF_TUNING_MODE_INVALID=-1_BLADERF_TUNING_MODE_HOST=0_BLADERF_TUNING_MODE_FPGA=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 502
-enum anonymous$12 { BLADERF_TUNING_MODE_INVALID=-1, BLADERF_TUNING_MODE_HOST=0, BLADERF_TUNING_MODE_FPGA=1 };
+enum anonymous_12 { BLADERF_TUNING_MODE_INVALID=-1, BLADERF_TUNING_MODE_HOST=0, BLADERF_TUNING_MODE_FPGA=1 };
 
-// #anon_enum$BLADERF_VCTCXO_TAMER_INVALID=-1$BLADERF_VCTCXO_TAMER_DISABLED=0$BLADERF_VCTCXO_TAMER_1_PPS=1$BLADERF_VCTCXO_TAMER_10_MHZ=2
+// #anon_enum_BLADERF_VCTCXO_TAMER_INVALID=-1_BLADERF_VCTCXO_TAMER_DISABLED=0_BLADERF_VCTCXO_TAMER_1_PPS=1_BLADERF_VCTCXO_TAMER_10_MHZ=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 811
-enum anonymous$17 { BLADERF_VCTCXO_TAMER_INVALID=-1, BLADERF_VCTCXO_TAMER_DISABLED=0, BLADERF_VCTCXO_TAMER_1_PPS=1, BLADERF_VCTCXO_TAMER_10_MHZ=2 };
+enum anonymous_17 { BLADERF_VCTCXO_TAMER_INVALID=-1, BLADERF_VCTCXO_TAMER_DISABLED=0, BLADERF_VCTCXO_TAMER_1_PPS=1, BLADERF_VCTCXO_TAMER_10_MHZ=2 };
 
-// #anon_enum$BLADERF_XB200_50M=0$BLADERF_XB200_144M=1$BLADERF_XB200_222M=2$BLADERF_XB200_CUSTOM=3$BLADERF_XB200_AUTO_1DB=4$BLADERF_XB200_AUTO_3DB=5
+// #anon_enum_BLADERF_XB200_50M=0_BLADERF_XB200_144M=1_BLADERF_XB200_222M=2_BLADERF_XB200_CUSTOM=3_BLADERF_XB200_AUTO_1DB=4_BLADERF_XB200_AUTO_3DB=5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 682
-enum anonymous$10 { BLADERF_XB200_50M=0, BLADERF_XB200_144M=1, BLADERF_XB200_222M=2, BLADERF_XB200_CUSTOM=3, BLADERF_XB200_AUTO_1DB=4, BLADERF_XB200_AUTO_3DB=5 };
+enum anonymous_10 { BLADERF_XB200_50M=0, BLADERF_XB200_144M=1, BLADERF_XB200_222M=2, BLADERF_XB200_CUSTOM=3, BLADERF_XB200_AUTO_1DB=4, BLADERF_XB200_AUTO_3DB=5 };
 
-// #anon_enum$BLADERF_XB200_BYPASS=0$BLADERF_XB200_MIX=1
+// #anon_enum_BLADERF_XB200_BYPASS=0_BLADERF_XB200_MIX=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 731
-enum anonymous$35 { BLADERF_XB200_BYPASS=0, BLADERF_XB200_MIX=1 };
+enum anonymous_35 { BLADERF_XB200_BYPASS=0, BLADERF_XB200_MIX=1 };
 
-// #anon_enum$BLADERF_XB_NONE=0$BLADERF_XB_100=1$BLADERF_XB_200=2
+// #anon_enum_BLADERF_XB_NONE=0_BLADERF_XB_100=1_BLADERF_XB_200=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 670
-enum anonymous$8 { BLADERF_XB_NONE=0, BLADERF_XB_100=1, BLADERF_XB_200=2 };
+enum anonymous_8 { BLADERF_XB_NONE=0, BLADERF_XB_100=1, BLADERF_XB_200=2 };
 
-// #anon_enum$BW_28MHz=0$BW_20MHz=1$BW_14MHz=2$BW_12MHz=3$BW_10MHz=4$BW_8p75MHz=5$BW_7MHz=6$BW_6MHz=7$BW_5p5MHz=8$BW_5MHz=9$BW_3p84MHz=10$BW_3MHz=11$BW_2p75MHz=12$BW_2p5MHz=13$BW_1p75MHz=14$BW_1p5MHz=15
+// #anon_enum_BW_28MHz=0_BW_20MHz=1_BW_14MHz=2_BW_12MHz=3_BW_10MHz=4_BW_8p75MHz=5_BW_7MHz=6_BW_6MHz=7_BW_5p5MHz=8_BW_5MHz=9_BW_3p84MHz=10_BW_3MHz=11_BW_2p75MHz=12_BW_2p5MHz=13_BW_1p75MHz=14_BW_1p5MHz=15
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 87
-enum anonymous$15 { BW_28MHz=0, BW_20MHz=1, BW_14MHz=2, BW_12MHz=3, BW_10MHz=4, BW_8p75MHz=5, BW_7MHz=6, BW_6MHz=7, BW_5p5MHz=8, BW_5MHz=9, BW_3p84MHz=10, BW_3MHz=11, BW_2p75MHz=12, BW_2p5MHz=13, BW_1p75MHz=14, BW_1p5MHz=15 };
+enum anonymous_15 { BW_28MHz=0, BW_20MHz=1, BW_14MHz=2, BW_12MHz=3, BW_10MHz=4, BW_8p75MHz=5, BW_7MHz=6, BW_6MHz=7, BW_5p5MHz=8, BW_5MHz=9, BW_3p84MHz=10, BW_3MHz=11, BW_2p75MHz=12, BW_2p5MHz=13, BW_1p75MHz=14, BW_1p5MHz=15 };
 
-// #anon_enum$LNA_NONE=0$LNA_1=1$LNA_2=2$LNA_3=3
+// #anon_enum_LNA_NONE=0_LNA_1=1_LNA_2=2_LNA_3=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 110
-enum anonymous$5 { LNA_NONE=0, LNA_1=1, LNA_2=2, LNA_3=3 };
+enum anonymous_5 { LNA_NONE=0, LNA_1=1, LNA_2=2, LNA_3=3 };
 
-// #anon_enum$PA_AUX=0$PA_1=1$PA_2=2$PA_NONE=3
+// #anon_enum_PA_AUX=0_PA_1=1_PA_2=2_PA_NONE=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 129
-enum anonymous$4 { PA_AUX=0, PA_1=1, PA_2=2, PA_NONE=3 };
+enum anonymous_4 { PA_AUX=0, PA_1=1, PA_2=2, PA_NONE=3 };
 
-// #anon_enum$STREAM_IDLE=0$STREAM_RUNNING=1$STREAM_SHUTTING_DOWN=2$STREAM_DONE=3
+// #anon_enum_STREAM_IDLE=0_STREAM_RUNNING=1_STREAM_SHUTTING_DOWN=2_STREAM_DONE=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.h line 28
-enum anonymous$21 { STREAM_IDLE=0, STREAM_RUNNING=1, STREAM_SHUTTING_DOWN=2, STREAM_DONE=3 };
+enum anonymous_21 { STREAM_IDLE=0, STREAM_RUNNING=1, STREAM_SHUTTING_DOWN=2, STREAM_DONE=3 };
 
-// #anon_enum$SYNC_BUFFER_EMPTY=0$SYNC_BUFFER_PARTIAL=1$SYNC_BUFFER_FULL=2$SYNC_BUFFER_IN_FLIGHT=3
+// #anon_enum_SYNC_BUFFER_EMPTY=0_SYNC_BUFFER_PARTIAL=1_SYNC_BUFFER_FULL=2_SYNC_BUFFER_IN_FLIGHT=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 43
-enum anonymous$22 { SYNC_BUFFER_EMPTY=0, SYNC_BUFFER_PARTIAL=1, SYNC_BUFFER_FULL=2, SYNC_BUFFER_IN_FLIGHT=3 };
+enum anonymous_22 { SYNC_BUFFER_EMPTY=0, SYNC_BUFFER_PARTIAL=1, SYNC_BUFFER_FULL=2, SYNC_BUFFER_IN_FLIGHT=3 };
 
-// #anon_enum$SYNC_META_STATE_HEADER=0$SYNC_META_STATE_SAMPLES=1
+// #anon_enum_SYNC_META_STATE_HEADER=0_SYNC_META_STATE_SAMPLES=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 50
-enum anonymous$25 { SYNC_META_STATE_HEADER=0, SYNC_META_STATE_SAMPLES=1 };
+enum anonymous_25 { SYNC_META_STATE_HEADER=0, SYNC_META_STATE_SAMPLES=1 };
 
-// #anon_enum$SYNC_STATE_CHECK_WORKER=0$SYNC_STATE_RESET_BUF_MGMT=1$SYNC_STATE_START_WORKER=2$SYNC_STATE_WAIT_FOR_BUFFER=3$SYNC_STATE_BUFFER_READY=4$SYNC_STATE_USING_BUFFER=5$SYNC_STATE_USING_BUFFER_META=6
+// #anon_enum_SYNC_STATE_CHECK_WORKER=0_SYNC_STATE_RESET_BUF_MGMT=1_SYNC_STATE_START_WORKER=2_SYNC_STATE_WAIT_FOR_BUFFER=3_SYNC_STATE_BUFFER_READY=4_SYNC_STATE_USING_BUFFER=5_SYNC_STATE_USING_BUFFER_META=6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 94
-enum anonymous$20 { SYNC_STATE_CHECK_WORKER=0, SYNC_STATE_RESET_BUF_MGMT=1, SYNC_STATE_START_WORKER=2, SYNC_STATE_WAIT_FOR_BUFFER=3, SYNC_STATE_BUFFER_READY=4, SYNC_STATE_USING_BUFFER=5, SYNC_STATE_USING_BUFFER_META=6 };
+enum anonymous_20 { SYNC_STATE_CHECK_WORKER=0, SYNC_STATE_RESET_BUF_MGMT=1, SYNC_STATE_START_WORKER=2, SYNC_STATE_WAIT_FOR_BUFFER=3, SYNC_STATE_BUFFER_READY=4, SYNC_STATE_USING_BUFFER=5, SYNC_STATE_USING_BUFFER_META=6 };
 
-// #anon_enum$SYNC_TX_SUBMITTER_INVALID=-1$SYNC_TX_SUBMITTER_FN=0$SYNC_TX_SUBMITTER_CALLBACK=1
+// #anon_enum_SYNC_TX_SUBMITTER_INVALID=-1_SYNC_TX_SUBMITTER_FN=0_SYNC_TX_SUBMITTER_CALLBACK=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 55
-enum anonymous$23 { SYNC_TX_SUBMITTER_INVALID=-1, SYNC_TX_SUBMITTER_FN=0, SYNC_TX_SUBMITTER_CALLBACK=1 };
+enum anonymous_23 { SYNC_TX_SUBMITTER_INVALID=-1, SYNC_TX_SUBMITTER_FN=0, SYNC_TX_SUBMITTER_CALLBACK=1 };
 
-// #anon_enum$SYNC_WORKER_STATE_STARTUP=0$SYNC_WORKER_STATE_IDLE=1$SYNC_WORKER_STATE_RUNNING=2$SYNC_WORKER_STATE_SHUTTING_DOWN=3$SYNC_WORKER_STATE_STOPPED=4
+// #anon_enum_SYNC_WORKER_STATE_STARTUP=0_SYNC_WORKER_STATE_IDLE=1_SYNC_WORKER_STATE_RUNNING=2_SYNC_WORKER_STATE_SHUTTING_DOWN=3_SYNC_WORKER_STATE_STOPPED=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 42
-enum anonymous$24 { SYNC_WORKER_STATE_STARTUP=0, SYNC_WORKER_STATE_IDLE=1, SYNC_WORKER_STATE_RUNNING=2, SYNC_WORKER_STATE_SHUTTING_DOWN=3, SYNC_WORKER_STATE_STOPPED=4 };
+enum anonymous_24 { SYNC_WORKER_STATE_STARTUP=0, SYNC_WORKER_STATE_IDLE=1, SYNC_WORKER_STATE_RUNNING=2, SYNC_WORKER_STATE_SHUTTING_DOWN=3, SYNC_WORKER_STATE_STOPPED=4 };
 
-// #anon_enum$TRANSFER_UNINITIALIZED=0$TRANSFER_AVAIL=1$TRANSFER_IN_FLIGHT=2$TRANSFER_CANCEL_PENDING=3
+// #anon_enum_TRANSFER_UNINITIALIZED=0_TRANSFER_AVAIL=1_TRANSFER_IN_FLIGHT=2_TRANSFER_CANCEL_PENDING=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 47
-enum anonymous$37 { TRANSFER_UNINITIALIZED=0, TRANSFER_AVAIL=1, TRANSFER_IN_FLIGHT=2, TRANSFER_CANCEL_PENDING=3 };
+enum anonymous_37 { TRANSFER_UNINITIALIZED=0, TRANSFER_AVAIL=1, TRANSFER_IN_FLIGHT=2, TRANSFER_CANCEL_PENDING=3 };
 
-// #anon_enum$USB_DIR_HOST_TO_DEVICE=0$USB_DIR_DEVICE_TO_HOST=128
+// #anon_enum_USB_DIR_HOST_TO_DEVICE=0_USB_DIR_DEVICE_TO_HOST=128
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 79
-enum anonymous$30 { USB_DIR_HOST_TO_DEVICE=0, USB_DIR_DEVICE_TO_HOST=128 };
+enum anonymous_30 { USB_DIR_HOST_TO_DEVICE=0, USB_DIR_DEVICE_TO_HOST=128 };
 
-// #anon_enum$USB_REQUEST_STANDARD=0$USB_REQUEST_CLASS=1$USB_REQUEST_VENDOR=2
+// #anon_enum_USB_REQUEST_STANDARD=0_USB_REQUEST_CLASS=1_USB_REQUEST_VENDOR=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 73
-enum anonymous$29 { USB_REQUEST_STANDARD=0, USB_REQUEST_CLASS=1, USB_REQUEST_VENDOR=2 };
+enum anonymous_29 { USB_REQUEST_STANDARD=0, USB_REQUEST_CLASS=1, USB_REQUEST_VENDOR=2 };
 
-// #anon_enum$USB_TARGET_DEVICE=0$USB_TARGET_INTERFACE=1$USB_TARGET_ENDPOINT=2$USB_TARGET_OTHER=3
+// #anon_enum_USB_TARGET_DEVICE=0_USB_TARGET_INTERFACE=1_USB_TARGET_ENDPOINT=2_USB_TARGET_OTHER=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 66
-enum anonymous$28 { USB_TARGET_DEVICE=0, USB_TARGET_INTERFACE=1, USB_TARGET_ENDPOINT=2, USB_TARGET_OTHER=3 };
+enum anonymous_28 { USB_TARGET_DEVICE=0, USB_TARGET_INTERFACE=1, USB_TARGET_ENDPOINT=2, USB_TARGET_OTHER=3 };
 
 // tag-#anon#ST[B'in_burst'||B'now'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 124
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[U64'msg_timestamp'||U32'msg_flags'||U32'$pad0'|]
+// tag-#anon#ST[U64'msg_timestamp'||U32'msg_flags'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 118
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U64'msg_timestamp'||U32'msg_flags'||U32'$pad0'|]#'$anon0'||SYM#tag-#anon#ST[B'in_burst'||B'now'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U64'msg_timestamp'||U32'msg_flags'||U32'_pad0'|]#'_anon0'||SYM#tag-#anon#ST[B'in_burst'||B'now'|]#'_anon1'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 116
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$6;
+union anonymous_6;
 
 // tag-SHA256Context
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/include/sha256.h line 42
@@ -453,9 +453,9 @@ static signed int advance_tx_buffer(struct bladerf_sync *s, struct buffer_mgmt *
 // append_char
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 306
 static signed int append_char(char **arg, signed int *arg_size, signed int *arg_i, char c);
-// append_char$link1
+// append_char_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 306
-static signed int append_char$link1(char **arg$link1, signed int *arg_size$link1, signed int *arg_i$link1, char c$link1);
+static signed int append_char_link1(char **arg_link1, signed int *arg_size_link1, signed int *arg_i_link1, char c_link1);
 // apply_lms_dc_cals
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 36
 static inline signed int apply_lms_dc_cals(struct bladerf *dev);
@@ -464,13 +464,13 @@ static inline signed int apply_lms_dc_cals(struct bladerf *dev);
 void async_deinit_stream(struct bladerf_stream *stream);
 // async_init_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.c line 27
-signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous$11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *user_data);
-// async_init_stream::callback$object
+signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous_11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *user_data);
+// async_init_stream::callback_object
 //
-void * callback$object(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
+void * callback_object(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
 // async_run_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.c line 138
-signed int async_run_stream(struct bladerf_stream *stream, enum anonymous$0 module);
+signed int async_run_stream(struct bladerf_stream *stream, enum anonymous_0 module);
 // async_stream_buf_bytes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.h line 62
 static inline unsigned long int async_stream_buf_bytes(struct bladerf_stream *s);
@@ -479,22 +479,22 @@ static inline unsigned long int async_stream_buf_bytes(struct bladerf_stream *s)
 signed int async_submit_stream_buffer(struct bladerf_stream *stream, void *buffer, unsigned int timeout_ms, _Bool nonblock);
 // backend2str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 131
-const char * backend2str(enum anonymous$14 backend);
+const char * backend2str(enum anonymous_14 backend);
 // backend_description
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 594
-const char * backend_description(enum anonymous$14 b);
+const char * backend_description(enum anonymous_14 b);
 // backend_load_fw_from_bootloader
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 112
-signed int backend_load_fw_from_bootloader(enum anonymous$14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw);
+signed int backend_load_fw_from_bootloader(enum anonymous_14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw);
 // backend_open
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 43
 signed int backend_open(struct bladerf *device, struct bladerf_devinfo *info);
 // backend_probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 63
-signed int backend_probe(enum anonymous$16 probe_target, struct bladerf_devinfo **devinfo_items, unsigned long int *num_items);
+signed int backend_probe(enum anonymous_16 probe_target, struct bladerf_devinfo **devinfo_items, unsigned long int *num_items);
 // band_select
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/band_select.h line 48
-signed int band_select(struct bladerf *dev, enum anonymous$0 module, _Bool low_band);
+signed int band_select(struct bladerf *dev, enum anonymous_0 module, _Bool low_band);
 // be32dec
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/sha256.c line 73
 static inline unsigned int be32dec(const void *pp);
@@ -512,22 +512,22 @@ static void be32enc_vect(unsigned char *dst, const unsigned int *src, unsigned l
 static signed int begin_fpga_programming(struct bladerf *dev);
 // bladerf_alloc_cal_image
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/image.c line 486
-struct bladerf_image * bladerf_alloc_cal_image(enum anonymous$7 fpga_size, unsigned short int vctcxo_trim);
+struct bladerf_image * bladerf_alloc_cal_image(enum anonymous_7 fpga_size, unsigned short int vctcxo_trim);
 // bladerf_alloc_image
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 2674
-struct bladerf_image * bladerf_alloc_image(enum anonymous$38 type, unsigned int address, unsigned int length);
+struct bladerf_image * bladerf_alloc_image(enum anonymous_38 type, unsigned int address, unsigned int length);
 // bladerf_backend_str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1477
-const char * bladerf_backend_str(enum anonymous$14 backend);
+const char * bladerf_backend_str(enum anonymous_14 backend);
 // bladerf_bus_addr_matches
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/devinfo.h line 77
 _Bool bladerf_bus_addr_matches(struct bladerf_devinfo *a, struct bladerf_devinfo *b);
 // bladerf_calibrate_dc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1919
-signed int bladerf_calibrate_dc(struct bladerf *dev, enum anonymous$3 module);
+signed int bladerf_calibrate_dc(struct bladerf *dev, enum anonymous_3 module);
 // bladerf_cancel_scheduled_retunes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 912
-signed int bladerf_cancel_scheduled_retunes(struct bladerf *dev, enum anonymous$0 m);
+signed int bladerf_cancel_scheduled_retunes(struct bladerf *dev, enum anonymous_0 m);
 // bladerf_close
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 300
 void bladerf_close(struct bladerf *dev);
@@ -551,7 +551,7 @@ void bladerf_deinit_stream(struct bladerf_stream *stream);
 signed int bladerf_device_reset(struct bladerf *dev);
 // bladerf_device_speed
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1176
-enum anonymous$9 bladerf_device_speed(struct bladerf *dev);
+enum anonymous_9 bladerf_device_speed(struct bladerf *dev);
 // bladerf_devinfo_list_add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/devinfo.c line 85
 signed int bladerf_devinfo_list_add(struct bladerf_devinfo_list *list, struct bladerf_devinfo *info);
@@ -566,7 +566,7 @@ _Bool bladerf_devinfo_matches(struct bladerf_devinfo *a, struct bladerf_devinfo 
 _Bool bladerf_devstr_matches(const char *dev_str, struct bladerf_devinfo *info);
 // bladerf_enable_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 335
-signed int bladerf_enable_module(struct bladerf *dev, enum anonymous$0 m, _Bool enable);
+signed int bladerf_enable_module(struct bladerf *dev, enum anonymous_0 m, _Bool enable);
 // bladerf_erase_flash
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1189
 signed int bladerf_erase_flash(struct bladerf *dev, unsigned int erase_block, unsigned int count);
@@ -575,10 +575,10 @@ signed int bladerf_erase_flash(struct bladerf *dev, unsigned int erase_block, un
 signed int bladerf_erase_stored_fpga(struct bladerf *dev);
 // bladerf_expansion_attach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1588
-signed int bladerf_expansion_attach(struct bladerf *dev, enum anonymous$8 xb);
+signed int bladerf_expansion_attach(struct bladerf *dev, enum anonymous_8 xb);
 // bladerf_expansion_get_attached
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1599
-signed int bladerf_expansion_get_attached(struct bladerf *dev, enum anonymous$8 *xb);
+signed int bladerf_expansion_get_attached(struct bladerf *dev, enum anonymous_8 *xb);
 // bladerf_expansion_gpio_dir_masked_write
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1739
 signed int bladerf_expansion_gpio_dir_masked_write(struct bladerf *dev, unsigned int mask, unsigned int val);
@@ -617,13 +617,13 @@ void bladerf_free_image(struct bladerf_image *image);
 signed int bladerf_fw_version(struct bladerf *dev, struct bladerf_version *version);
 // bladerf_get_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 800
-signed int bladerf_get_bandwidth(struct bladerf *dev, enum anonymous$0 module, unsigned int *bandwidth);
+signed int bladerf_get_bandwidth(struct bladerf *dev, enum anonymous_0 module, unsigned int *bandwidth);
 // bladerf_get_bootloader_list
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1934
 signed int bladerf_get_bootloader_list(struct bladerf_devinfo **devices);
 // bladerf_get_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1796
-signed int bladerf_get_correction(struct bladerf *dev, enum anonymous$0 module, enum anonymous$36 corr, signed short int *value);
+signed int bladerf_get_correction(struct bladerf *dev, enum anonymous_0 module, enum anonymous_36 corr, signed short int *value);
 // bladerf_get_device_list
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 78
 signed int bladerf_get_device_list(struct bladerf_devinfo **devices);
@@ -635,34 +635,34 @@ signed int bladerf_get_devinfo(struct bladerf *dev, struct bladerf_devinfo *info
 signed int bladerf_get_devinfo_from_str(const char *devstr, struct bladerf_devinfo *info);
 // bladerf_get_fpga_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1141
-signed int bladerf_get_fpga_size(struct bladerf *dev, enum anonymous$7 *size);
+signed int bladerf_get_fpga_size(struct bladerf *dev, enum anonymous_7 *size);
 // bladerf_get_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 932
-signed int bladerf_get_frequency(struct bladerf *dev, enum anonymous$0 module, unsigned int *frequency);
+signed int bladerf_get_frequency(struct bladerf *dev, enum anonymous_0 module, unsigned int *frequency);
 // bladerf_get_fw_log
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1979
 signed int bladerf_get_fw_log(struct bladerf *dev, const char *filename);
 // bladerf_get_lna_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 696
-signed int bladerf_get_lna_gain(struct bladerf *dev, enum anonymous$13 *gain);
+signed int bladerf_get_lna_gain(struct bladerf *dev, enum anonymous_13 *gain);
 // bladerf_get_loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 422
-signed int bladerf_get_loopback(struct bladerf *dev, enum anonymous$1 *l);
+signed int bladerf_get_loopback(struct bladerf *dev, enum anonymous_1 *l);
 // bladerf_get_lpf_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 832
-signed int bladerf_get_lpf_mode(struct bladerf *dev, enum anonymous$0 module, enum anonymous$2 *mode);
+signed int bladerf_get_lpf_mode(struct bladerf *dev, enum anonymous_0 module, enum anonymous_2 *mode);
 // bladerf_get_quick_tune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1445
-signed int bladerf_get_quick_tune(struct bladerf *dev, enum anonymous$0 module, struct bladerf_quick_tune *quick_tune);
+signed int bladerf_get_quick_tune(struct bladerf *dev, enum anonymous_0 module, struct bladerf_quick_tune *quick_tune);
 // bladerf_get_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 546
-signed int bladerf_get_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate);
+signed int bladerf_get_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate);
 // bladerf_get_rational_smb_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 595
 signed int bladerf_get_rational_smb_frequency(struct bladerf *dev, struct bladerf_rational_rate *rate);
 // bladerf_get_rx_mux
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 484
-signed int bladerf_get_rx_mux(struct bladerf *dev, enum anonymous$33 *mux);
+signed int bladerf_get_rx_mux(struct bladerf *dev, enum anonymous_33 *mux);
 // bladerf_get_rxvga1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 718
 signed int bladerf_get_rxvga1(struct bladerf *dev, signed int *gain);
@@ -671,10 +671,10 @@ signed int bladerf_get_rxvga1(struct bladerf *dev, signed int *gain);
 signed int bladerf_get_rxvga2(struct bladerf *dev, signed int *gain);
 // bladerf_get_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 558
-signed int bladerf_get_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int *rate);
+signed int bladerf_get_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int *rate);
 // bladerf_get_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 618
-signed int bladerf_get_sampling(struct bladerf *dev, enum anonymous$34 *sampling);
+signed int bladerf_get_sampling(struct bladerf *dev, enum anonymous_34 *sampling);
 // bladerf_get_serial
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1125
 signed int bladerf_get_serial(struct bladerf *dev, char *serial);
@@ -683,10 +683,10 @@ signed int bladerf_get_serial(struct bladerf *dev, char *serial);
 signed int bladerf_get_smb_frequency(struct bladerf *dev, unsigned int *rate);
 // bladerf_get_stream_timeout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 983
-signed int bladerf_get_stream_timeout(struct bladerf *dev, enum anonymous$0 module, unsigned int *timeout);
+signed int bladerf_get_stream_timeout(struct bladerf *dev, enum anonymous_0 module, unsigned int *timeout);
 // bladerf_get_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 3386
-signed int bladerf_get_timestamp(struct bladerf *dev, enum anonymous$0 module, unsigned long int *value);
+signed int bladerf_get_timestamp(struct bladerf *dev, enum anonymous_0 module, unsigned long int *value);
 // bladerf_get_txvga1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 673
 signed int bladerf_get_txvga1(struct bladerf *dev, signed int *gain);
@@ -695,7 +695,7 @@ signed int bladerf_get_txvga1(struct bladerf *dev, signed int *gain);
 signed int bladerf_get_txvga2(struct bladerf *dev, signed int *gain);
 // bladerf_get_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1889
-signed int bladerf_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 *mode);
+signed int bladerf_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 *mode);
 // bladerf_get_vctcxo_trim
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1133
 signed int bladerf_get_vctcxo_trim(struct bladerf *dev, unsigned short int *trim);
@@ -710,10 +710,10 @@ signed int bladerf_image_write(struct bladerf_image *img, const char *file);
 void bladerf_init_devinfo(struct bladerf_devinfo *info);
 // bladerf_init_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1055
-signed int bladerf_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous$11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *data);
-// bladerf_init_stream::callback$object
+signed int bladerf_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous_11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *data);
+// bladerf_init_stream::callback_object
 //
-void * callback$object(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
+void * callback_object(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
 // bladerf_instance_matches
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/devinfo.h line 53
 _Bool bladerf_instance_matches(struct bladerf_devinfo *a, struct bladerf_devinfo *b);
@@ -740,7 +740,7 @@ signed int bladerf_lms_write(struct bladerf *dev, unsigned char address, unsigne
 signed int bladerf_load_fpga(struct bladerf *dev, const char *fpga_file);
 // bladerf_load_fw_from_bootloader
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1939
-signed int bladerf_load_fw_from_bootloader(const char *device_identifier, enum anonymous$14 backend, unsigned char bus, unsigned char addr, const char *file);
+signed int bladerf_load_fw_from_bootloader(const char *device_identifier, enum anonymous_14 backend, unsigned char bus, unsigned char addr, const char *file);
 // bladerf_log_set_verbosity
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1407
 void bladerf_log_set_verbosity(enum anonymous level);
@@ -755,43 +755,43 @@ signed int bladerf_open_with_devinfo(struct bladerf **opened_device, struct blad
 signed int bladerf_read_flash(struct bladerf *dev, unsigned char *buf, unsigned int page, unsigned int count);
 // bladerf_schedule_retune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1390
-signed int bladerf_schedule_retune(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, unsigned int frequency, struct bladerf_quick_tune *quick_tune);
+signed int bladerf_schedule_retune(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, unsigned int frequency, struct bladerf_quick_tune *quick_tune);
 // bladerf_select_band
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 844
-signed int bladerf_select_band(struct bladerf *dev, enum anonymous$0 module, unsigned int frequency);
+signed int bladerf_select_band(struct bladerf *dev, enum anonymous_0 module, unsigned int frequency);
 // bladerf_serial_matches
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/devinfo.h line 65
 _Bool bladerf_serial_matches(struct bladerf_devinfo *a, struct bladerf_devinfo *b);
 // bladerf_set_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 762
-signed int bladerf_set_bandwidth(struct bladerf *dev, enum anonymous$0 module, unsigned int bandwidth, unsigned int *actual);
+signed int bladerf_set_bandwidth(struct bladerf *dev, enum anonymous_0 module, unsigned int bandwidth, unsigned int *actual);
 // bladerf_set_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1761
-signed int bladerf_set_correction(struct bladerf *dev, enum anonymous$0 module, enum anonymous$36 corr, signed short int value);
+signed int bladerf_set_correction(struct bladerf *dev, enum anonymous_0 module, enum anonymous_36 corr, signed short int value);
 // bladerf_set_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1353
-signed int bladerf_set_frequency(struct bladerf *dev, enum anonymous$0 module, unsigned int frequency);
+signed int bladerf_set_frequency(struct bladerf *dev, enum anonymous_0 module, unsigned int frequency);
 // bladerf_set_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 752
-signed int bladerf_set_gain(struct bladerf *dev, enum anonymous$0 mod, signed int gain);
+signed int bladerf_set_gain(struct bladerf *dev, enum anonymous_0 mod, signed int gain);
 // bladerf_set_lna_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 685
-signed int bladerf_set_lna_gain(struct bladerf *dev, enum anonymous$13 gain);
+signed int bladerf_set_lna_gain(struct bladerf *dev, enum anonymous_13 gain);
 // bladerf_set_loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 363
-signed int bladerf_set_loopback(struct bladerf *dev, enum anonymous$1 l);
+signed int bladerf_set_loopback(struct bladerf *dev, enum anonymous_1 l);
 // bladerf_set_lpf_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 820
-signed int bladerf_set_lpf_mode(struct bladerf *dev, enum anonymous$0 module, enum anonymous$2 mode);
+signed int bladerf_set_lpf_mode(struct bladerf *dev, enum anonymous_0 module, enum anonymous_2 mode);
 // bladerf_set_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 521
-signed int bladerf_set_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual);
+signed int bladerf_set_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual);
 // bladerf_set_rational_smb_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 570
 signed int bladerf_set_rational_smb_frequency(struct bladerf *dev, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual);
 // bladerf_set_rx_mux
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 446
-signed int bladerf_set_rx_mux(struct bladerf *dev, enum anonymous$33 mux);
+signed int bladerf_set_rx_mux(struct bladerf *dev, enum anonymous_33 mux);
 // bladerf_set_rxvga1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 707
 signed int bladerf_set_rxvga1(struct bladerf *dev, signed int gain);
@@ -800,19 +800,19 @@ signed int bladerf_set_rxvga1(struct bladerf *dev, signed int gain);
 signed int bladerf_set_rxvga2(struct bladerf *dev, signed int gain);
 // bladerf_set_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 534
-signed int bladerf_set_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int rate, unsigned int *actual);
+signed int bladerf_set_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int rate, unsigned int *actual);
 // bladerf_set_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 629
-signed int bladerf_set_sampling(struct bladerf *dev, enum anonymous$34 sampling);
+signed int bladerf_set_sampling(struct bladerf *dev, enum anonymous_34 sampling);
 // bladerf_set_smb_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 583
 signed int bladerf_set_smb_frequency(struct bladerf *dev, unsigned int rate, unsigned int *actual);
 // bladerf_set_stream_timeout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 969
-signed int bladerf_set_stream_timeout(struct bladerf *dev, enum anonymous$0 module, unsigned int timeout);
+signed int bladerf_set_stream_timeout(struct bladerf *dev, enum anonymous_0 module, unsigned int timeout);
 // bladerf_set_tuning_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1459
-signed int bladerf_set_tuning_mode(struct bladerf *dev, enum anonymous$12 mode);
+signed int bladerf_set_tuning_mode(struct bladerf *dev, enum anonymous_12 mode);
 // bladerf_set_txvga1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 662
 signed int bladerf_set_txvga1(struct bladerf *dev, signed int gain);
@@ -824,7 +824,7 @@ signed int bladerf_set_txvga2(struct bladerf *dev, signed int gain);
 void bladerf_set_usb_reset_on_open(_Bool enabled);
 // bladerf_set_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1877
-signed int bladerf_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 mode);
+signed int bladerf_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 mode);
 // bladerf_si5338_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1486
 signed int bladerf_si5338_read(struct bladerf *dev, unsigned char address, unsigned char *val);
@@ -833,7 +833,7 @@ signed int bladerf_si5338_read(struct bladerf *dev, unsigned char address, unsig
 signed int bladerf_si5338_write(struct bladerf *dev, unsigned char address, unsigned char val);
 // bladerf_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1075
-signed int bladerf_stream(struct bladerf_stream *stream, enum anonymous$0 module);
+signed int bladerf_stream(struct bladerf_stream *stream, enum anonymous_0 module);
 // bladerf_strerror
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 2508
 const char * bladerf_strerror(signed int error);
@@ -845,7 +845,7 @@ signed int bladerf_submit_stream_buffer(struct bladerf_stream *stream, void *buf
 signed int bladerf_submit_stream_buffer_nb(struct bladerf_stream *stream, void *buffer);
 // bladerf_sync_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 995
-signed int bladerf_sync_config(struct bladerf *dev, enum anonymous$0 module, enum anonymous$11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout);
+signed int bladerf_sync_config(struct bladerf *dev, enum anonymous_0 module, enum anonymous_11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout);
 // bladerf_sync_rx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1041
 signed int bladerf_sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples, struct bladerf_metadata *metadata, unsigned int timeout_ms);
@@ -860,22 +860,22 @@ void bladerf_version(struct bladerf_version *version);
 signed int bladerf_write_flash(struct bladerf *dev, const unsigned char *buf, unsigned int page, unsigned int count);
 // bladerf_xb200_get_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1634
-signed int bladerf_xb200_get_filterbank(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 *filter);
+signed int bladerf_xb200_get_filterbank(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 *filter);
 // bladerf_xb200_get_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1660
-signed int bladerf_xb200_get_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 *path);
+signed int bladerf_xb200_get_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 *path);
 // bladerf_xb200_set_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1621
-signed int bladerf_xb200_set_filterbank(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$10 filter);
+signed int bladerf_xb200_set_filterbank(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_10 filter);
 // bladerf_xb200_set_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1647
-signed int bladerf_xb200_set_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 path);
+signed int bladerf_xb200_set_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 path);
 // bladerf_xb_spi_write
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1905
 signed int bladerf_xb_spi_write(struct bladerf *dev, unsigned int val);
 // bm_request_type
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 742
-static inline unsigned char bm_request_type(enum anonymous$28 target_type, enum anonymous$29 req_type, enum anonymous$30 direction);
+static inline unsigned char bm_request_type(enum anonymous_28 target_type, enum anonymous_29 req_type, enum anonymous_30 direction);
 // bus_matches
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 627
 static inline _Bool bus_matches(unsigned char bus, struct libusb_device *d);
@@ -905,16 +905,16 @@ static inline signed int change_setting(struct bladerf *dev, unsigned char setti
 static inline signed int check_eb_access(unsigned int erase_block, unsigned int count);
 // check_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 417
-signed int check_module(enum anonymous$0 m);
+signed int check_module(enum anonymous_0 m);
 // check_page_access
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/flash.c line 51
 static inline signed int check_page_access(unsigned int page, unsigned int count);
 // check_xb200_filter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 435
-signed int check_xb200_filter(enum anonymous$10 f);
+signed int check_xb200_filter(enum anonymous_10 f);
 // check_xb200_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 458
-signed int check_xb200_path(enum anonymous$35 p);
+signed int check_xb200_path(enum anonymous_35 p);
 // clock_gettime
 // file /usr/include/time.h line 342
 extern signed int clock_gettime(signed int, struct timespec *);
@@ -932,28 +932,28 @@ signed int config_load_fpga(struct bladerf *dev);
 static unsigned short int crc16mp(unsigned short int crcval, void *data_p, unsigned short int count);
 // dc_cal_backup
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2494
-static inline signed int dc_cal_backup(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state);
+static inline signed int dc_cal_backup(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state);
 // dc_cal_interp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/dc_cal_table.c line 238
 static inline void dc_cal_interp(struct dc_cal_tbl *tbl, unsigned int idx_low, unsigned int idx_high, unsigned int freq, signed short int *dc_i, signed short int *dc_q);
 // dc_cal_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2949
-static inline signed int dc_cal_module(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state, _Bool *converged);
+static inline signed int dc_cal_module(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state, _Bool *converged);
 // dc_cal_module_deinit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2847
-static signed int dc_cal_module_deinit(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state);
+static signed int dc_cal_module_deinit(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state);
 // dc_cal_module_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2534
-static signed int dc_cal_module_init(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state);
+static signed int dc_cal_module_init(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state);
 // dc_cal_restore
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2910
-static inline signed int dc_cal_restore(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state);
+static inline signed int dc_cal_restore(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state);
 // dc_cal_retry_adjustment
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2792
-static signed int dc_cal_retry_adjustment(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state, _Bool *limit_reached);
+static signed int dc_cal_retry_adjustment(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state, _Bool *limit_reached);
 // dc_cal_submodule
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2663
-static signed int dc_cal_submodule(struct bladerf *dev, enum anonymous$3 module, unsigned int submodule, struct dc_cal_state *state, _Bool *converged);
+static signed int dc_cal_submodule(struct bladerf *dev, enum anonymous_3 module, unsigned int submodule, struct dc_cal_state *state, _Bool *converged);
 // dc_cal_tbl_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/dc_cal_table.h line 85
 void dc_cal_tbl_free(struct dc_cal_tbl **tbl);
@@ -977,10 +977,10 @@ static _Bool device_is_bladerf(struct libusb_device *dev);
 static _Bool device_is_fx3_bootloader(struct libusb_device *dev);
 // device_is_probe_target
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 234
-static _Bool device_is_probe_target(enum anonymous$16 probe_target, struct libusb_device *dev);
+static _Bool device_is_probe_target(enum anonymous_16 probe_target, struct libusb_device *dev);
 // devspeed2str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 328
-const char * devspeed2str(enum anonymous$9 speed);
+const char * devspeed2str(enum anonymous_9 speed);
 // enable_lna_power
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1093
 static inline signed int enable_lna_power(struct bladerf *dev, _Bool enable);
@@ -1013,7 +1013,7 @@ static signed int error_conv(signed int error);
 static inline unsigned char estimate_vcocap(unsigned int f_target, unsigned int f_low, unsigned int f_high);
 // exec_idle_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.c line 378
-static enum anonymous$24 exec_idle_state(struct bladerf_sync *s);
+static enum anonymous_24 exec_idle_state(struct bladerf_sync *s);
 // exec_running_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.c line 442
 static void exec_running_state(struct bladerf_sync *s);
@@ -1100,7 +1100,7 @@ signed int fpga_check_version(struct bladerf *dev);
 signed int fpga_load_from_file(struct bladerf *dev, const char *fpga_file);
 // fpga_supports_tuning_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.c line 29
-static _Bool fpga_supports_tuning_mode(struct bladerf *dev, enum anonymous$12 mode);
+static _Bool fpga_supports_tuning_mode(struct bladerf *dev, enum anonymous_12 mode);
 // fpga_write_to_flash
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/fpga.h line 66
 signed int fpga_write_to_flash(struct bladerf *dev, const char *fpga_file);
@@ -1145,7 +1145,7 @@ _Bool fx3_fw_next_section(struct fx3_firmware *fw, unsigned int *section_addr, u
 signed int fx3_fw_read(const char *file, struct fx3_firmware **fw_out);
 // gain_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/gain.h line 39
-signed int gain_set(struct bladerf *dev, enum anonymous$0 module, signed int gain);
+signed int gain_set(struct bladerf *dev, enum anonymous_0 module, signed int gain);
 // get_and_cache_fpga_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/flash_fields.h line 72
 signed int get_and_cache_fpga_size(struct bladerf *device);
@@ -1163,7 +1163,7 @@ signed int get_cal_field(struct bladerf *dev, char *field, char *data, unsigned 
 static signed int get_dc_cal_value(struct bladerf *dev, unsigned char base, unsigned char dc_addr, signed short int *value);
 // get_dc_offset
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 3542
-signed int get_dc_offset(struct bladerf *dev, enum anonymous$0 module, unsigned char addr, signed short int *value);
+signed int get_dc_offset(struct bladerf *dev, enum anonymous_0 module, unsigned char addr, signed short int *value);
 // get_devinfo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 130
 static signed int get_devinfo(struct libusb_device *dev, struct bladerf_devinfo *info);
@@ -1196,7 +1196,7 @@ unsigned int get_rand_freq(unsigned long int *prng_state, _Bool xb200_enabled);
 static inline unsigned long int get_timestamp();
 // get_vctcxo_tamer_mode_unsupported
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 1070
-static signed int get_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous$17 *mode);
+static signed int get_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous_17 *mode);
 // get_vtune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1771
 static inline signed int get_vtune(struct bladerf *dev, unsigned char base, unsigned char delay, unsigned char *vtune);
@@ -1230,27 +1230,27 @@ static inline signed int handle_tx_parameters(struct bladerf_metadata *user_meta
 // have_cap
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
 static inline _Bool have_cap(struct bladerf *dev, unsigned long int capability);
-// have_cap$link1
+// have_cap_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link1(struct bladerf *dev$link1, unsigned long int capability$link1);
-// have_cap$link2
+static inline _Bool have_cap_link1(struct bladerf *dev_link1, unsigned long int capability_link1);
+// have_cap_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link2(struct bladerf *dev$link2, unsigned long int capability$link2);
-// have_cap$link3
+static inline _Bool have_cap_link2(struct bladerf *dev_link2, unsigned long int capability_link2);
+// have_cap_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link3(struct bladerf *dev$link3, unsigned long int capability$link3);
-// have_cap$link4
+static inline _Bool have_cap_link3(struct bladerf *dev_link3, unsigned long int capability_link3);
+// have_cap_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link4(struct bladerf *dev$link4, unsigned long int capability$link4);
-// have_cap$link5
+static inline _Bool have_cap_link4(struct bladerf *dev_link4, unsigned long int capability_link4);
+// have_cap_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link5(struct bladerf *dev$link5, unsigned long int capability$link5);
-// have_cap$link6
+static inline _Bool have_cap_link5(struct bladerf *dev_link5, unsigned long int capability_link5);
+// have_cap_link6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link6(struct bladerf *dev$link6, unsigned long int capability$link6);
-// have_cap$link7
+static inline _Bool have_cap_link6(struct bladerf *dev_link6, unsigned long int capability_link6);
+// have_cap_link7
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link7(struct bladerf *dev$link7, unsigned long int capability$link7);
+static inline _Bool have_cap_link7(struct bladerf *dev_link7, unsigned long int capability_link7);
 // i64_max
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/include/minmax.h line 55
 static inline signed long int i64_max(signed long int x, signed long int y);
@@ -1259,7 +1259,7 @@ static inline signed long int i64_max(signed long int x, signed long int y);
 static inline signed long int i64_min(signed long int x, signed long int y);
 // image_type_is_valid
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/image.c line 124
-static _Bool image_type_is_valid(enum anonymous$38 type);
+static _Bool image_type_is_valid(enum anonymous_38 type);
 // init_device
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 194
 signed int init_device(struct bladerf *dev);
@@ -1308,9 +1308,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_bulk_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback$object
+// libusb_fill_bulk_transfer::callback_object
 //
-void callback$object(struct libusb_transfer *);
+void callback_object(struct libusb_transfer *);
 // libusb_free_config_descriptor
 // file /usr/include/libusb-1.0/libusb.h line 1329
 void libusb_free_config_descriptor(struct libusb_config_descriptor *);
@@ -1367,82 +1367,82 @@ signed int libusb_set_interface_alt_setting(struct libusb_device_handle *, signe
 signed int libusb_submit_transfer(struct libusb_transfer *);
 // lms_bw2uint
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 169
-unsigned int lms_bw2uint(enum anonymous$15 bw);
+unsigned int lms_bw2uint(enum anonymous_15 bw);
 // lms_calculate_tuning_params
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 618
 signed int lms_calculate_tuning_params(unsigned int freq, struct lms_freq *f);
 // lms_calibrate_dc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 669
-signed int lms_calibrate_dc(struct bladerf *dev, enum anonymous$3 module);
+signed int lms_calibrate_dc(struct bladerf *dev, enum anonymous_3 module);
 // lms_clear
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 204
 static inline signed int lms_clear(struct bladerf *dev, unsigned char addr, unsigned char mask);
 // lms_config_charge_pumps
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 225
-signed int lms_config_charge_pumps(struct bladerf *dev, enum anonymous$0 module);
+signed int lms_config_charge_pumps(struct bladerf *dev, enum anonymous_0 module);
 // lms_dc_cal_loop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2405
 static signed int lms_dc_cal_loop(struct bladerf *dev, unsigned char base, unsigned char cal_address, unsigned char dc_cntval, unsigned char *dc_regval);
 // lms_dither_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 654
-signed int lms_dither_enable(struct bladerf *dev, enum anonymous$0 mod, unsigned char nbits, _Bool enable);
+signed int lms_dither_enable(struct bladerf *dev, enum anonymous_0 mod, unsigned char nbits, _Bool enable);
 // lms_dump_registers
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2383
 signed int lms_dump_registers(struct bladerf *dev);
 // lms_enable_rffe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 503
-signed int lms_enable_rffe(struct bladerf *dev, enum anonymous$0 module, _Bool enable);
+signed int lms_enable_rffe(struct bladerf *dev, enum anonymous_0 module, _Bool enable);
 // lms_frequency_to_hz
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 573
 unsigned int lms_frequency_to_hz(struct lms_freq *f);
 // lms_get_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 281
-signed int lms_get_bandwidth(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$15 *bw);
+signed int lms_get_bandwidth(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_15 *bw);
 // lms_get_dc_cals
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 687
 signed int lms_get_dc_cals(struct bladerf *dev, struct bladerf_lms_dc_cals *dc_cals);
 // lms_get_dc_offset_i
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 761
-signed int lms_get_dc_offset_i(struct bladerf *dev, enum anonymous$0 module, signed short int *value);
+signed int lms_get_dc_offset_i(struct bladerf *dev, enum anonymous_0 module, signed short int *value);
 // lms_get_dc_offset_q
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 791
-signed int lms_get_dc_offset_q(struct bladerf *dev, enum anonymous$0 module, signed short int *value);
+signed int lms_get_dc_offset_q(struct bladerf *dev, enum anonymous_0 module, signed short int *value);
 // lms_get_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 594
-signed int lms_get_frequency(struct bladerf *dev, enum anonymous$0 mod, struct lms_freq *f);
+signed int lms_get_frequency(struct bladerf *dev, enum anonymous_0 mod, struct lms_freq *f);
 // lms_get_lna
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 774
-signed int lms_get_lna(struct bladerf *dev, enum anonymous$5 *lna);
+signed int lms_get_lna(struct bladerf *dev, enum anonymous_5 *lna);
 // lms_get_loopback_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 525
-signed int lms_get_loopback_mode(struct bladerf *dev, enum anonymous$1 *loopback);
+signed int lms_get_loopback_mode(struct bladerf *dev, enum anonymous_1 *loopback);
 // lms_get_quick_tune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 606
-signed int lms_get_quick_tune(struct bladerf *dev, enum anonymous$0 mod, struct bladerf_quick_tune *quick_tune);
+signed int lms_get_quick_tune(struct bladerf *dev, enum anonymous_0 mod, struct bladerf_quick_tune *quick_tune);
 // lms_get_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 732
-signed int lms_get_sampling(struct bladerf *dev, enum anonymous$34 *sampling);
+signed int lms_get_sampling(struct bladerf *dev, enum anonymous_34 *sampling);
 // lms_lna_get_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 328
-signed int lms_lna_get_gain(struct bladerf *dev, enum anonymous$13 *gain);
+signed int lms_lna_get_gain(struct bladerf *dev, enum anonymous_13 *gain);
 // lms_lna_set_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 318
-signed int lms_lna_set_gain(struct bladerf *dev, enum anonymous$13 gain);
+signed int lms_lna_set_gain(struct bladerf *dev, enum anonymous_13 gain);
 // lms_lpf_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 235
-signed int lms_lpf_enable(struct bladerf *dev, enum anonymous$0 mod, _Bool enable);
+signed int lms_lpf_enable(struct bladerf *dev, enum anonymous_0 mod, _Bool enable);
 // lms_lpf_get_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 258
-signed int lms_lpf_get_mode(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$2 *mode);
+signed int lms_lpf_get_mode(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_2 *mode);
 // lms_lpf_set_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 246
-signed int lms_lpf_set_mode(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$2 mode);
+signed int lms_lpf_set_mode(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_2 mode);
 // lms_peakdetect_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 950
 signed int lms_peakdetect_enable(struct bladerf *dev, _Bool enable);
 // lms_pll_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1596
-signed int lms_pll_enable(struct bladerf *dev, enum anonymous$0 mod, _Bool enable);
+signed int lms_pll_enable(struct bladerf *dev, enum anonymous_0 mod, _Bool enable);
 // lms_power_down
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1579
 signed int lms_power_down(struct bladerf *dev);
@@ -1472,46 +1472,46 @@ signed int lms_rxvga2_get_gain(struct bladerf *dev, signed int *gain);
 signed int lms_rxvga2_set_gain(struct bladerf *dev, signed int gain);
 // lms_select_band
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2187
-signed int lms_select_band(struct bladerf *dev, enum anonymous$0 module, _Bool low_band);
+signed int lms_select_band(struct bladerf *dev, enum anonymous_0 module, _Bool low_band);
 // lms_select_lna
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 757
-signed int lms_select_lna(struct bladerf *dev, enum anonymous$5 lna);
+signed int lms_select_lna(struct bladerf *dev, enum anonymous_5 lna);
 // lms_select_pa
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 907
-signed int lms_select_pa(struct bladerf *dev, enum anonymous$4 pa);
+signed int lms_select_pa(struct bladerf *dev, enum anonymous_4 pa);
 // lms_select_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 722
-signed int lms_select_sampling(struct bladerf *dev, enum anonymous$34 sampling);
+signed int lms_select_sampling(struct bladerf *dev, enum anonymous_34 sampling);
 // lms_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 180
 static inline signed int lms_set(struct bladerf *dev, unsigned char addr, unsigned char mask);
-// lms_set$link1
+// lms_set_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 180
-static inline signed int lms_set$link1(struct bladerf *dev$link1, unsigned char addr$link1, unsigned char mask$link1);
+static inline signed int lms_set_link1(struct bladerf *dev_link1, unsigned char addr_link1, unsigned char mask_link1);
 // lms_set_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 270
-signed int lms_set_bandwidth(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$15 bw);
+signed int lms_set_bandwidth(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_15 bw);
 // lms_set_dc_cals
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 678
 signed int lms_set_dc_cals(struct bladerf *dev, struct bladerf_lms_dc_cals *dc_cals);
 // lms_set_dc_offset_i
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 746
-signed int lms_set_dc_offset_i(struct bladerf *dev, enum anonymous$0 module, unsigned short int value);
+signed int lms_set_dc_offset_i(struct bladerf *dev, enum anonymous_0 module, unsigned short int value);
 // lms_set_dc_offset_q
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 776
-signed int lms_set_dc_offset_q(struct bladerf *dev, enum anonymous$0 module, signed short int value);
+signed int lms_set_dc_offset_q(struct bladerf *dev, enum anonymous_0 module, signed short int value);
 // lms_set_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 641
-static inline signed int lms_set_frequency(struct bladerf *dev, enum anonymous$0 mod, unsigned int freq);
-// lms_set_frequency$link1
+static inline signed int lms_set_frequency(struct bladerf *dev, enum anonymous_0 mod, unsigned int freq);
+// lms_set_frequency_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 641
-static inline signed int lms_set_frequency$link1(struct bladerf *dev$link1, enum anonymous$0 mod$link1, unsigned int freq$link1);
+static inline signed int lms_set_frequency_link1(struct bladerf *dev_link1, enum anonymous_0 mod_link1, unsigned int freq_link1);
 // lms_set_loopback_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 514
-signed int lms_set_loopback_mode(struct bladerf *dev, enum anonymous$1 mode);
+signed int lms_set_loopback_mode(struct bladerf *dev, enum anonymous_1 mode);
 // lms_set_precalculated_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 629
-signed int lms_set_precalculated_frequency(struct bladerf *dev, enum anonymous$0 mod, struct lms_freq *f);
+signed int lms_set_precalculated_frequency(struct bladerf *dev, enum anonymous_0 mod, struct lms_freq *f);
 // lms_soft_reset
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 697
 signed int lms_soft_reset(struct bladerf *dev);
@@ -1532,7 +1532,7 @@ signed int lms_txvga2_get_gain(struct bladerf *dev, signed int *gain);
 signed int lms_txvga2_set_gain(struct bladerf *dev, signed int gain_int);
 // lms_uint2bw
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 160
-enum anonymous$15 lms_uint2bw(unsigned int req);
+enum anonymous_15 lms_uint2bw(unsigned int req);
 // load_dc_cal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/config.c line 29
 static inline void load_dc_cal(struct bladerf *dev, const char *file);
@@ -1550,13 +1550,13 @@ static inline void logger_entry_unpack(unsigned int e, unsigned char *file, unsi
 static inline const char * logger_id_string(unsigned char file_id);
 // loopback_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1385
-static signed int loopback_path(struct bladerf *dev, enum anonymous$1 mode);
+static signed int loopback_path(struct bladerf *dev, enum anonymous_1 mode);
 // loopback_rx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1205
-static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode);
+static signed int loopback_rx(struct bladerf *dev, enum anonymous_1 mode);
 // loopback_tx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1156
-static signed int loopback_tx(struct bladerf *dev, enum anonymous$1 mode);
+static signed int loopback_tx(struct bladerf *dev, enum anonymous_1 mode);
 // lusb_backend
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 68
 static inline struct bladerf_lusb * lusb_backend(struct bladerf *dev);
@@ -1574,13 +1574,13 @@ static void lusb_close(void *driver);
 static void lusb_close_bootloader(void *driver);
 // lusb_control_transfer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 793
-static signed int lusb_control_transfer(void *driver, enum anonymous$28 target_type, enum anonymous$29 req_type, enum anonymous$30 dir, unsigned char request, unsigned short int wvalue, unsigned short int windex, void *buffer, unsigned int buffer_len, unsigned int timeout_ms);
+static signed int lusb_control_transfer(void *driver, enum anonymous_28 target_type, enum anonymous_29 req_type, enum anonymous_30 dir, unsigned char request, unsigned short int wvalue, unsigned short int windex, void *buffer, unsigned int buffer_len, unsigned int timeout_ms);
 // lusb_deinit_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 1315
 static signed int lusb_deinit_stream(void *driver, struct bladerf_stream *stream);
 // lusb_get_speed
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 712
-static signed int lusb_get_speed(void *driver, enum anonymous$9 *device_speed);
+static signed int lusb_get_speed(void *driver, enum anonymous_9 *device_speed);
 // lusb_get_string_descriptor
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 840
 static signed int lusb_get_string_descriptor(void *driver, unsigned char index, void *buffer, unsigned int buffer_len);
@@ -1595,10 +1595,10 @@ static signed int lusb_open(void **driver, struct bladerf_devinfo *info_in, stru
 static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigned char addr);
 // lusb_probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 261
-static signed int lusb_probe(enum anonymous$16 probe_target, struct bladerf_devinfo_list *info_list);
+static signed int lusb_probe(enum anonymous_16 probe_target, struct bladerf_devinfo_list *info_list);
 // lusb_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 1185
-static signed int lusb_stream(void *driver, struct bladerf_stream *stream, enum anonymous$0 module);
+static signed int lusb_stream(void *driver, struct bladerf_stream *stream, enum anonymous_0 module);
 // lusb_stream_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 899
 static void lusb_stream_cb(struct libusb_transfer *transfer);
@@ -1607,7 +1607,7 @@ static void lusb_stream_cb(struct libusb_transfer *transfer);
 signed int lusb_submit_stream_buffer(void *driver, struct bladerf_stream *stream, void *buffer, unsigned int timeout_ms, _Bool nonblock);
 // make_cal_region
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/image.c line 449
-static signed int make_cal_region(enum anonymous$7 size, unsigned short int vctcxo_trim, unsigned char *buf, unsigned long int len);
+static signed int make_cal_region(enum anonymous_7 size, unsigned short int vctcxo_trim, unsigned char *buf, unsigned long int len);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -1637,7 +1637,7 @@ static inline void metadata_set(unsigned char *header, unsigned long int timesta
 static inline unsigned long int min_sz(unsigned long int x, unsigned long int y);
 // module2str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 370
-const char * module2str(enum anonymous$0 m);
+const char * module2str(enum anonymous_0 m);
 // msg_per_buf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.c line 42
 static inline unsigned int msg_per_buf(struct bladerf *dev, unsigned long int buf_size, unsigned long int bytes_per_sample);
@@ -1671,9 +1671,9 @@ signed int nios_8x8_write(struct bladerf *dev, unsigned char id, unsigned char a
 // nios_access
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 61
 static signed int nios_access(struct bladerf *dev, unsigned char *buf);
-// nios_access$link1
+// nios_access_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 70
-static signed int nios_access$link1(struct bladerf *dev$link1, unsigned char peripheral, enum anonymous$30 dir, struct uart_cmd *cmd, unsigned long int len);
+static signed int nios_access_link1(struct bladerf *dev_link1, unsigned char peripheral, enum anonymous_30 dir, struct uart_cmd *cmd, unsigned long int len);
 // nios_config_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 293
 signed int nios_config_read(struct bladerf *dev, unsigned int *val);
@@ -1697,16 +1697,16 @@ signed int nios_expansion_gpio_write(struct bladerf *dev, unsigned int mask, uns
 signed int nios_get_fpga_version(struct bladerf *dev, struct bladerf_version *ver);
 // nios_get_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 526
-signed int nios_get_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value);
+signed int nios_get_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value);
 // nios_get_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 557
-signed int nios_get_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value);
+signed int nios_get_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value);
 // nios_get_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 337
-signed int nios_get_timestamp(struct bladerf *dev, enum anonymous$0 module, unsigned long int *timestamp);
+signed int nios_get_timestamp(struct bladerf *dev, enum anonymous_0 module, unsigned long int *timestamp);
 // nios_get_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 491
-signed int nios_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 *mode);
+signed int nios_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 *mode);
 // nios_legacy_config_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 179
 signed int nios_legacy_config_read(struct bladerf *dev, unsigned int *val);
@@ -1730,16 +1730,16 @@ signed int nios_legacy_expansion_gpio_write(struct bladerf *dev, unsigned int ma
 signed int nios_legacy_get_fpga_version(struct bladerf *dev, struct bladerf_version *ver);
 // nios_legacy_get_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 447
-signed int nios_legacy_get_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value);
+signed int nios_legacy_get_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value);
 // nios_legacy_get_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 474
-signed int nios_legacy_get_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value);
+signed int nios_legacy_get_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value);
 // nios_legacy_get_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 242
-signed int nios_legacy_get_timestamp(struct bladerf *dev, enum anonymous$0 mod, unsigned long int *value);
+signed int nios_legacy_get_timestamp(struct bladerf *dev, enum anonymous_0 mod, unsigned long int *value);
 // nios_legacy_get_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 402
-signed int nios_legacy_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 *mode);
+signed int nios_legacy_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 *mode);
 // nios_legacy_lms6_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 326
 signed int nios_legacy_lms6_read(struct bladerf *dev, unsigned char addr, unsigned char *data);
@@ -1754,13 +1754,13 @@ signed int nios_legacy_pio_read(struct bladerf *dev, unsigned char addr, unsigne
 signed int nios_legacy_pio_write(struct bladerf *dev, unsigned char addr, unsigned int data);
 // nios_legacy_set_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 498
-signed int nios_legacy_set_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value);
+signed int nios_legacy_set_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value);
 // nios_legacy_set_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 524
-signed int nios_legacy_set_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value);
+signed int nios_legacy_set_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value);
 // nios_legacy_set_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 395
-signed int nios_legacy_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 mode);
+signed int nios_legacy_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 mode);
 // nios_legacy_si5338_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 294
 signed int nios_legacy_si5338_read(struct bladerf *dev, unsigned char addr, unsigned char *data);
@@ -1826,22 +1826,22 @@ static inline void nios_pkt_8x8_resp_unpack(const unsigned char *buf, unsigned c
 static inline void nios_pkt_8x8_unpack(const unsigned char *buf, unsigned char *target, _Bool *write, unsigned char *addr, unsigned char *data);
 // nios_pkt_retune_pack
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/nios_pkt_retune.h line 125
-static inline void nios_pkt_retune_pack(unsigned char *buf, enum anonymous$0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune);
+static inline void nios_pkt_retune_pack(unsigned char *buf, enum anonymous_0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune);
 // nios_pkt_retune_resp_unpack
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/nios_pkt_retune.h line 312
 static inline void nios_pkt_retune_resp_unpack(const unsigned char *buf, unsigned long int *duration, unsigned char *vcocap, unsigned char *flags);
 // nios_retune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 711
-signed int nios_retune(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune);
+signed int nios_retune(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune);
 // nios_set_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 588
-signed int nios_set_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value);
+signed int nios_set_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value);
 // nios_set_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 618
-signed int nios_set_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value);
+signed int nios_set_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value);
 // nios_set_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 467
-signed int nios_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 mode);
+signed int nios_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 mode);
 // nios_si5338_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 379
 signed int nios_si5338_read(struct bladerf *dev, unsigned char addr, unsigned char *data);
@@ -1871,10 +1871,10 @@ static unsigned long int pack_image(struct bladerf_image *img, unsigned char *bu
 static inline signed int perform_erase(struct bladerf *dev, unsigned short int block);
 // perform_format_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 237
-signed int perform_format_config(struct bladerf *dev, enum anonymous$0 module, enum anonymous$11 format);
+signed int perform_format_config(struct bladerf *dev, enum anonymous_0 module, enum anonymous_11 format);
 // perform_format_deconfig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 249
-signed int perform_format_deconfig(struct bladerf *dev, enum anonymous$0 module);
+signed int perform_format_deconfig(struct bladerf *dev, enum anonymous_0 module);
 // populate_abs_timeout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 204
 signed int populate_abs_timeout(struct timespec *t, unsigned int timeout_ms);
@@ -1889,22 +1889,22 @@ static signed int post_fpga_load_init(struct bladerf *dev);
 extern signed int printf(const char *, ...);
 // probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 53
-static signed int probe(enum anonymous$16 target_device, struct bladerf_devinfo **devices);
+static signed int probe(enum anonymous_16 target_device, struct bladerf_devinfo **devices);
 // pthread_cancel
 // file /usr/include/pthread.h line 515
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$19 *, const union anonymous$27 *);
+extern signed int pthread_cond_init(union anonymous_19 *, const union anonymous_27 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$19 *);
+extern signed int pthread_cond_signal(union anonymous_19 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$19 *, union anonymous$6 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_19 *, union anonymous_6 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$19 *, union anonymous$6 *);
+extern signed int pthread_cond_wait(union anonymous_19 *, union anonymous_6 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1913,13 +1913,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$6 *, const union anonymous$27 *);
+extern signed int pthread_mutex_init(union anonymous_6 *, const union anonymous_27 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$6 *);
+extern signed int pthread_mutex_lock(union anonymous_6 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$6 *);
+extern signed int pthread_mutex_unlock(union anonymous_6 *);
 // quick_retune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF_test/test_tune_timing/main.c line 105
 double quick_retune(struct bladerf *dev);
@@ -1949,7 +1949,7 @@ extern void * realloc(void *, unsigned long int);
 static inline void required_values(struct compat *entry, unsigned int *major, unsigned int *minor, unsigned int *patch);
 // requires_timestamps
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 317
-static inline signed int requires_timestamps(enum anonymous$11 format, _Bool *required);
+static inline signed int requires_timestamps(enum anonymous_11 format, _Bool *required);
 // reset_and_reopen
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 476
 static signed int reset_and_reopen(struct libusb_context *context, struct bladerf_lusb **dev, struct bladerf_devinfo *info);
@@ -1967,19 +1967,19 @@ static inline unsigned long int samples2bytes(struct bladerf_sync *s, unsigned l
 static inline unsigned int samples_per_msg(struct bladerf *dev, unsigned long int bytes_per_sample);
 // samples_to_bytes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 163
-static inline unsigned long int samples_to_bytes(enum anonymous$11 format, unsigned long int n);
+static inline unsigned long int samples_to_bytes(enum anonymous_11 format, unsigned long int n);
 // sc16q11_to_bytes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 155
 static inline unsigned long int sc16q11_to_bytes(unsigned long int n_samples);
-// sc16q11_to_bytes$link1
+// sc16q11_to_bytes_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 155
-static inline unsigned long int sc16q11_to_bytes$link1(unsigned long int n_samples$link1);
+static inline unsigned long int sc16q11_to_bytes_link1(unsigned long int n_samples_link1);
 // sc16q11_to_float
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 617
 void sc16q11_to_float(const signed short int *in, float *out, unsigned int n);
 // scale_dc_offset
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 3436
-static inline unsigned char scale_dc_offset(enum anonymous$0 module, signed short int value);
+static inline unsigned char scale_dc_offset(enum anonymous_0 module, signed short int value);
 // scan_fw_sections
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/fx3_fw.c line 115
 static signed int scan_fw_sections(struct fx3_firmware *fw);
@@ -1988,10 +1988,10 @@ static signed int scan_fw_sections(struct fx3_firmware *fw);
 static signed int set_dc_cal_value(struct bladerf *dev, unsigned char base, unsigned char dc_addr, signed short int value);
 // set_dc_offset_reg
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 3492
-static signed int set_dc_offset_reg(struct bladerf *dev, enum anonymous$0 module, unsigned char addr, signed short int value);
+static signed int set_dc_offset_reg(struct bladerf *dev, enum anonymous_0 module, unsigned char addr, signed short int value);
 // set_filterbank_mux
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.c line 304
-static signed int set_filterbank_mux(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 filter);
+static signed int set_filterbank_mux(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 filter);
 // set_iq_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 429
 static signed int set_iq_correction(struct bladerf *dev, unsigned char addr, signed short int value);
@@ -2000,10 +2000,10 @@ static signed int set_iq_correction(struct bladerf *dev, unsigned char addr, sig
 static signed int set_rx_gain(struct bladerf *dev, signed int gain);
 // set_rx_gain_combo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/gain.c line 24
-static inline signed int set_rx_gain_combo(struct bladerf *dev, enum anonymous$13 lnagain, signed int rxvga1, signed int rxvga2);
+static inline signed int set_rx_gain_combo(struct bladerf *dev, enum anonymous_13 lnagain, signed int rxvga1, signed int rxvga2);
 // set_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.c line 369
-static void set_state(struct sync_worker *w, enum anonymous$24 state);
+static void set_state(struct sync_worker *w, enum anonymous_24 state);
 // set_tx_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/gain.c line 84
 static signed int set_tx_gain(struct bladerf *dev, signed int gain);
@@ -2012,7 +2012,7 @@ static signed int set_tx_gain(struct bladerf *dev, signed int gain);
 static inline signed int set_tx_gain_combo(struct bladerf *dev, signed int txvga1, signed int txvga2);
 // set_vctcxo_tamer_mode_unsupported
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 1063
-static signed int set_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous$17 mode);
+static signed int set_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous_17 mode);
 // sha256_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/image.c line 84
 static void sha256_buffer(const char *buf, unsigned long int len, char *digest);
@@ -2027,13 +2027,13 @@ static signed int si5338_calculate_multisynth(struct si5338_multisynth *ms, stru
 static unsigned long int si5338_gcd(unsigned long int a, unsigned long int b);
 // si5338_get_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 41
-signed int si5338_get_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate);
+signed int si5338_get_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate);
 // si5338_get_rational_smb_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 45
 signed int si5338_get_rational_smb_freq(struct bladerf *dev, struct bladerf_rational_rate *rate);
 // si5338_get_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 39
-signed int si5338_get_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int *rate);
+signed int si5338_get_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int *rate);
 // si5338_get_smb_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 43
 signed int si5338_get_smb_freq(struct bladerf *dev, unsigned int *rate);
@@ -2057,13 +2057,13 @@ static signed int si5338_read_multisynth(struct bladerf *dev, struct si5338_mult
 signed int si5338_set_rational_multisynth(struct bladerf *dev, unsigned char index, unsigned char channel, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual_ret);
 // si5338_set_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 40
-signed int si5338_set_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual);
+signed int si5338_set_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual);
 // si5338_set_rational_smb_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 44
 signed int si5338_set_rational_smb_freq(struct bladerf *dev, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual);
 // si5338_set_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 38
-signed int si5338_set_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int rate, unsigned int *actual);
+signed int si5338_set_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int rate, unsigned int *actual);
 // si5338_set_smb_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 42
 signed int si5338_set_smb_freq(struct bladerf *dev, unsigned int rate, unsigned int *actual);
@@ -2090,7 +2090,7 @@ extern signed int sprintf(char *, const char *, ...);
 signed int str2args(const char *line, char comment_char, char ***argv_ret);
 // str2backend
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 148
-signed int str2backend(const char *str, enum anonymous$14 *backend);
+signed int str2backend(const char *str, enum anonymous_14 *backend);
 // str2dbl_suffix
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 163
 double str2dbl_suffix(const char *str, double min, double max, struct numeric_suffix *suffixes, unsigned long int num_suffixes, _Bool *ok);
@@ -2105,16 +2105,16 @@ double str2double(const char *str, double min, double max, _Bool *ok);
 signed int str2int(const char *str, signed int min, signed int max, _Bool *ok);
 // str2lnagain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 572
-signed int str2lnagain(const char *str, enum anonymous$13 *gain);
+signed int str2lnagain(const char *str, enum anonymous_13 *gain);
 // str2loglevel
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 345
 enum anonymous str2loglevel(const char *str, _Bool *ok);
 // str2loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 393
-signed int str2loopback(const char *str, enum anonymous$1 *loopback);
+signed int str2loopback(const char *str, enum anonymous_1 *loopback);
 // str2module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 382
-enum anonymous$0 str2module(const char *str);
+enum anonymous_0 str2module(const char *str);
 // str2uint
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 67
 unsigned int str2uint(const char *str, unsigned int min, unsigned int max, _Bool *ok);
@@ -2132,7 +2132,7 @@ unsigned int str2uint_suffix(const char *str, unsigned int min, unsigned int max
 signed int str2version(const char *str, struct bladerf_version *version);
 // str_to_bladerf_cal_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 637
-enum anonymous$3 str_to_bladerf_cal_module(const char *str);
+enum anonymous_3 str_to_bladerf_cal_module(const char *str);
 // strcasecmp
 // file /usr/include/string.h line 533
 extern signed int strcasecmp(const char *, const char *);
@@ -2195,7 +2195,7 @@ unsigned int sync_buf2idx(struct buffer_mgmt *b, void *addr);
 void sync_deinit(struct bladerf_sync *sync);
 // sync_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 152
-signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymous$11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout);
+signed int sync_init(struct bladerf *dev, enum anonymous_0 module, enum anonymous_11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout);
 // sync_rx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 169
 signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples, struct bladerf_metadata *user_meta, unsigned int timeout_ms);
@@ -2204,10 +2204,10 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
 signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples, struct bladerf_metadata *user_meta, unsigned int timeout_ms);
 // sync_worker_deinit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 91
-void sync_worker_deinit(struct sync_worker *w, union anonymous$6 *lock, union anonymous$19 *cond);
+void sync_worker_deinit(struct sync_worker *w, union anonymous_6 *lock, union anonymous_19 *cond);
 // sync_worker_get_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 119
-enum anonymous$24 sync_worker_get_state(struct sync_worker *w, signed int *err_code);
+enum anonymous_24 sync_worker_get_state(struct sync_worker *w, signed int *err_code);
 // sync_worker_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 80
 signed int sync_worker_init(struct bladerf_sync *s);
@@ -2219,7 +2219,7 @@ void sync_worker_submit_request(struct sync_worker *w, unsigned int request);
 void * sync_worker_task(void *arg);
 // sync_worker_wait_for_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 105
-signed int sync_worker_wait_for_state(struct sync_worker *w, enum anonymous$24 state, unsigned int timeout_ms);
+signed int sync_worker_wait_for_state(struct sync_worker *w, enum anonymous_24 state, unsigned int timeout_ms);
 // timestamp_in_past
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.c line 686
 static inline _Bool timestamp_in_past(struct bladerf_metadata *user_meta, struct bladerf_sync *s);
@@ -2240,25 +2240,25 @@ static inline unsigned long int transfer_idx(struct lusb_stream_data *stream_dat
 static signed int tune_vcocap(struct bladerf *dev, unsigned char vcocap_est, unsigned char base, unsigned char vcocap_reg_state, unsigned char *vcocap_result);
 // tuning_cancel_scheduled
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 87
-static inline signed int tuning_cancel_scheduled(struct bladerf *dev, enum anonymous$0 module);
+static inline signed int tuning_cancel_scheduled(struct bladerf *dev, enum anonymous_0 module);
 // tuning_get_default_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 115
-enum anonymous$12 tuning_get_default_mode(struct bladerf *dev);
+enum anonymous_12 tuning_get_default_mode(struct bladerf *dev);
 // tuning_get_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 104
-signed int tuning_get_freq(struct bladerf *dev, enum anonymous$0 module, unsigned int *frequency);
+signed int tuning_get_freq(struct bladerf *dev, enum anonymous_0 module, unsigned int *frequency);
 // tuning_schedule
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 70
-static inline signed int tuning_schedule(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, struct lms_freq *f);
-// tuning_schedule$link1
+static inline signed int tuning_schedule(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, struct lms_freq *f);
+// tuning_schedule_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 70
-static inline signed int tuning_schedule$link1(struct bladerf *dev$link1, enum anonymous$0 module$link1, unsigned long int timestamp$link1, struct lms_freq *f$link1);
+static inline signed int tuning_schedule_link1(struct bladerf *dev_link1, enum anonymous_0 module_link1, unsigned long int timestamp_link1, struct lms_freq *f_link1);
 // tuning_set_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 54
-signed int tuning_set_freq(struct bladerf *dev, enum anonymous$0 module, unsigned int frequency);
+signed int tuning_set_freq(struct bladerf *dev, enum anonymous_0 module, unsigned int frequency);
 // tuning_set_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 126
-signed int tuning_set_mode(struct bladerf *dev, enum anonymous$12 mode);
+signed int tuning_set_mode(struct bladerf *dev, enum anonymous_12 mode);
 // tx_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.c line 114
 static void * tx_callback(struct bladerf *dev, struct bladerf_stream *stream, struct bladerf_metadata *meta, void *samples, unsigned long int num_samples, void *user_data);
@@ -2274,12 +2274,12 @@ static signed int unpack_image(struct bladerf_image *img, unsigned char *buf, un
 // usb_backend
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 150
 static inline struct bladerf_usb * usb_backend(struct bladerf *dev, void **driver);
-// usb_backend$link1
+// usb_backend_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 150
-static inline struct bladerf_usb * usb_backend$link1(struct bladerf *dev$link1, void **driver$link1);
-// usb_backend$link2
+static inline struct bladerf_usb * usb_backend_link1(struct bladerf *dev_link1, void **driver_link1);
+// usb_backend_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 150
-static inline struct bladerf_usb * usb_backend$link2(struct bladerf *dev$link2, void **driver$link2);
+static inline struct bladerf_usb * usb_backend_link2(struct bladerf *dev_link2, void **driver_link2);
 // usb_close
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 238
 static void usb_close(struct bladerf *dev);
@@ -2291,7 +2291,7 @@ static void usb_deinit_stream(struct bladerf_stream *stream);
 static signed int usb_device_reset(struct bladerf *dev);
 // usb_enable_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 831
-static signed int usb_enable_module(struct bladerf *dev, enum anonymous$0 m, _Bool enable);
+static signed int usb_enable_module(struct bladerf *dev, enum anonymous_0 m, _Bool enable);
 // usb_erase_flash_blocks
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 487
 static signed int usb_erase_flash_blocks(struct bladerf *dev, unsigned int eb, unsigned short int count);
@@ -2300,7 +2300,7 @@ static signed int usb_erase_flash_blocks(struct bladerf *dev, unsigned int eb, u
 static signed int usb_get_cal(struct bladerf *dev, char *cal);
 // usb_get_device_speed
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 790
-static signed int usb_get_device_speed(struct bladerf *dev, enum anonymous$9 *speed);
+static signed int usb_get_device_speed(struct bladerf *dev, enum anonymous_9 *speed);
 // usb_get_firmware_loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 817
 static signed int usb_get_firmware_loopback(struct bladerf *dev, _Bool *is_enabled);
@@ -2321,16 +2321,16 @@ static signed int usb_jump_to_bootloader(struct bladerf *dev);
 static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsigned long int image_size);
 // usb_load_fw_from_bootloader
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 1035
-static signed int usb_load_fw_from_bootloader(enum anonymous$14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw);
+static signed int usb_load_fw_from_bootloader(enum anonymous_14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw);
 // usb_matches
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 217
-static _Bool usb_matches(enum anonymous$14 backend);
+static _Bool usb_matches(enum anonymous_14 backend);
 // usb_open
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 281
 static signed int usb_open(struct bladerf *dev, struct bladerf_devinfo *info);
 // usb_probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 225
-static signed int usb_probe(enum anonymous$16 probe_target, struct bladerf_devinfo_list *info_list);
+static signed int usb_probe(enum anonymous_16 probe_target, struct bladerf_devinfo_list *info_list);
 // usb_read_flash_pages
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 583
 static signed int usb_read_flash_pages(struct bladerf *dev, unsigned char *buf, unsigned int page_u32, unsigned int count_u32);
@@ -2342,7 +2342,7 @@ static signed int usb_read_fw_log(struct bladerf *dev, unsigned int *e);
 static signed int usb_set_firmware_loopback(struct bladerf *dev, _Bool enable);
 // usb_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 875
-static signed int usb_stream(struct bladerf_stream *stream, enum anonymous$0 module);
+static signed int usb_stream(struct bladerf_stream *stream, enum anonymous_0 module);
 // usb_submit_stream_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 882
 signed int usb_submit_stream_buffer(struct bladerf_stream *stream, void *buffer, unsigned int timeout_ms, _Bool nonblock);
@@ -2360,7 +2360,7 @@ static inline _Bool valid_fpga_size(unsigned long int len);
 static inline _Bool valid_fw_size(unsigned long int len);
 // vendor_cmd_int
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 92
-static inline signed int vendor_cmd_int(struct bladerf *dev, unsigned char cmd, enum anonymous$30 dir, signed int *val);
+static inline signed int vendor_cmd_int(struct bladerf *dev, unsigned char cmd, enum anonymous_30 dir, signed int *val);
 // vendor_cmd_int_windex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 59
 static inline signed int vendor_cmd_int_windex(struct bladerf *dev, unsigned char cmd, unsigned short int windex, signed int *val);
@@ -2414,7 +2414,7 @@ static const char * vtune_str(unsigned char value);
 static signed int wait_for_buffer(struct buffer_mgmt *b, unsigned int timeout_ms, const char *dbg_name, unsigned int dbg_idx);
 // wait_for_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF_test/common/src/test_common.c line 57
-signed int wait_for_timestamp(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, unsigned int timeout_ms);
+signed int wait_for_timestamp(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, unsigned int timeout_ms);
 // wait_for_vtune_value
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1949
 static signed int wait_for_vtune_value(struct bladerf *dev, unsigned char base, unsigned char target_value, unsigned char *vcocap, unsigned char vcocap_reg_state);
@@ -2429,7 +2429,7 @@ static signed int write_fw_to_bootloader(void *driver, struct fx3_firmware *fw);
 static signed int write_page(struct bladerf *dev, unsigned short int page, const unsigned char *buf);
 // write_pll_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 362
-static signed int write_pll_config(struct bladerf *dev, enum anonymous$0 module, unsigned char freqsel, _Bool low_band);
+static signed int write_pll_config(struct bladerf *dev, enum anonymous_0 module, unsigned char freqsel, _Bool low_band);
 // write_vcocap
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1786
 static inline signed int write_vcocap(struct bladerf *dev, unsigned char base, unsigned char vcocap, unsigned char vcocap_reg_state);
@@ -2438,36 +2438,36 @@ static inline signed int write_vcocap(struct bladerf *dev, unsigned char base, u
 static signed int xb200_attach(struct bladerf *dev);
 // xb200_auto_filter_selection
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 88
-signed int xb200_auto_filter_selection(struct bladerf *dev, enum anonymous$0 mod, unsigned int frequency);
+signed int xb200_auto_filter_selection(struct bladerf *dev, enum anonymous_0 mod, unsigned int frequency);
 // xb200_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.c line 136
 signed int xb200_enable(struct bladerf *dev, _Bool enable);
 // xb200_get_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 101
-signed int xb200_get_filterbank(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 *filter);
+signed int xb200_get_filterbank(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 *filter);
 // xb200_get_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 126
-signed int xb200_get_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 *path);
+signed int xb200_get_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 *path);
 // xb200_set_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 75
-signed int xb200_set_filterbank(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 filter);
+signed int xb200_set_filterbank(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 filter);
 // xb200_set_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 113
-signed int xb200_set_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 path);
+signed int xb200_set_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 path);
 // xb_attach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 54
-signed int xb_attach(struct bladerf *dev, enum anonymous$8 xb);
+signed int xb_attach(struct bladerf *dev, enum anonymous_8 xb);
 // xb_get_attached
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 64
-signed int xb_get_attached(struct bladerf *dev, enum anonymous$8 *xb);
+signed int xb_get_attached(struct bladerf *dev, enum anonymous_8 *xb);
 // zero_argvs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 297
 static void zero_argvs(signed int start, signed int end, char **argv);
-// zero_argvs$link1
+// zero_argvs_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 297
-static void zero_argvs$link1(signed int start$link1, signed int end$link1, char **argv$link1);
+static void zero_argvs_link1(signed int start_link1, signed int end_link1, char **argv_link1);
 
-struct anonymous$32
+struct anonymous_32
 {
   // in_burst
   _Bool in_burst;
@@ -2475,7 +2475,7 @@ struct anonymous$32
   _Bool now;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // __lock
   signed int __lock;
@@ -2495,7 +2495,7 @@ struct anonymous$18
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // msg_timestamp
   unsigned long int msg_timestamp;
@@ -2503,7 +2503,7 @@ struct anonymous$31
   unsigned int msg_flags;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // __size
   char __size[4l];
@@ -2511,22 +2511,22 @@ union anonymous$27
   signed int __align;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __data
-  struct anonymous$18 __data;
+  struct anonymous_18 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$26
+union anonymous_26
 {
-  // $anon0
-  struct anonymous$31 $anon0;
-  // $anon1
-  struct anonymous$32 $anon1;
+  // _anon0
+  struct anonymous_31 _anon0;
+  // _anon1
+  struct anonymous_32 _anon1;
 };
 
 struct __pthread_internal_list
@@ -2557,7 +2557,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2652,9 +2652,9 @@ struct _IO_marker
 struct backend_fns
 {
   // matches
-  _Bool (*matches)(enum anonymous$14);
+  _Bool (*matches)(enum anonymous_14);
   // probe
-  signed int (*probe)(enum anonymous$16, struct bladerf_devinfo_list *);
+  signed int (*probe)(enum anonymous_16, struct bladerf_devinfo_list *);
   // open
   signed int (*open)(struct bladerf *, struct bladerf_devinfo *);
   // close
@@ -2678,7 +2678,7 @@ struct backend_fns
   // get_otp
   signed int (*get_otp)(struct bladerf *, char *);
   // get_device_speed
-  signed int (*get_device_speed)(struct bladerf *, enum anonymous$9 *);
+  signed int (*get_device_speed)(struct bladerf *, enum anonymous_9 *);
   // config_gpio_write
   signed int (*config_gpio_write)(struct bladerf *, unsigned int);
   // config_gpio_read
@@ -2692,15 +2692,15 @@ struct backend_fns
   // expansion_gpio_dir_read
   signed int (*expansion_gpio_dir_read)(struct bladerf *, unsigned int *);
   // set_iq_gain_correction
-  signed int (*set_iq_gain_correction)(struct bladerf *, enum anonymous$0, signed short int);
+  signed int (*set_iq_gain_correction)(struct bladerf *, enum anonymous_0, signed short int);
   // set_iq_phase_correction
-  signed int (*set_iq_phase_correction)(struct bladerf *, enum anonymous$0, signed short int);
+  signed int (*set_iq_phase_correction)(struct bladerf *, enum anonymous_0, signed short int);
   // get_iq_gain_correction
-  signed int (*get_iq_gain_correction)(struct bladerf *, enum anonymous$0, signed short int *);
+  signed int (*get_iq_gain_correction)(struct bladerf *, enum anonymous_0, signed short int *);
   // get_iq_phase_correction
-  signed int (*get_iq_phase_correction)(struct bladerf *, enum anonymous$0, signed short int *);
+  signed int (*get_iq_phase_correction)(struct bladerf *, enum anonymous_0, signed short int *);
   // get_timestamp
-  signed int (*get_timestamp)(struct bladerf *, enum anonymous$0, unsigned long int *);
+  signed int (*get_timestamp)(struct bladerf *, enum anonymous_0, unsigned long int *);
   // si5338_write
   signed int (*si5338_write)(struct bladerf *, unsigned char, unsigned char);
   // si5338_read
@@ -2714,9 +2714,9 @@ struct backend_fns
   // vctcxo_dac_read
   signed int (*vctcxo_dac_read)(struct bladerf *, unsigned short int *);
   // set_vctcxo_tamer_mode
-  signed int (*set_vctcxo_tamer_mode)(struct bladerf *, enum anonymous$17);
+  signed int (*set_vctcxo_tamer_mode)(struct bladerf *, enum anonymous_17);
   // get_vctcxo_tamer_mode
-  signed int (*get_vctcxo_tamer_mode)(struct bladerf *, enum anonymous$17 *);
+  signed int (*get_vctcxo_tamer_mode)(struct bladerf *, enum anonymous_17 *);
   // xb_spi
   signed int (*xb_spi)(struct bladerf *, unsigned int);
   // set_firmware_loopback
@@ -2724,19 +2724,19 @@ struct backend_fns
   // get_firmware_loopback
   signed int (*get_firmware_loopback)(struct bladerf *, _Bool *);
   // enable_module
-  signed int (*enable_module)(struct bladerf *, enum anonymous$0, _Bool);
+  signed int (*enable_module)(struct bladerf *, enum anonymous_0, _Bool);
   // init_stream
   signed int (*init_stream)(struct bladerf_stream *, unsigned long int);
   // stream
-  signed int (*stream)(struct bladerf_stream *, enum anonymous$0);
+  signed int (*stream)(struct bladerf_stream *, enum anonymous_0);
   // submit_stream_buffer
   signed int (*submit_stream_buffer)(struct bladerf_stream *, void *, unsigned int, _Bool);
   // deinit_stream
   void (*deinit_stream)(struct bladerf_stream *);
   // retune
-  signed int (*retune)(struct bladerf *, enum anonymous$0, unsigned long int, unsigned short int, unsigned int, unsigned char, unsigned char, _Bool, _Bool);
+  signed int (*retune)(struct bladerf *, enum anonymous_0, unsigned long int, unsigned short int, unsigned int, unsigned char, unsigned char, _Bool, _Bool);
   // load_fw_from_bootloader
-  signed int (*load_fw_from_bootloader)(enum anonymous$14, unsigned char, unsigned char, struct fx3_firmware *);
+  signed int (*load_fw_from_bootloader)(enum anonymous_14, unsigned char, unsigned char, struct fx3_firmware *);
   // read_fw_log
   signed int (*read_fw_log)(struct bladerf *, unsigned int *);
 };
@@ -2744,7 +2744,7 @@ struct backend_fns
 struct bladerf_devinfo
 {
   // backend
-  enum anonymous$14 backend;
+  enum anonymous_14 backend;
   // serial
   char serial[33l];
   // usb_bus
@@ -2770,7 +2770,7 @@ struct bladerf_version
 struct buffer_mgmt
 {
   // status
-  enum anonymous$22 *status;
+  enum anonymous_22 *status;
   // buffers
   void **buffers;
   // num_buffers
@@ -2784,19 +2784,19 @@ struct buffer_mgmt
   // resubmit_count
   unsigned int resubmit_count;
   // submitter
-  enum anonymous$23 submitter;
+  enum anonymous_23 submitter;
   // lock
-  union anonymous$6 lock;
+  union anonymous_6 lock;
   // buf_ready
-  union anonymous$19 buf_ready;
+  union anonymous_19 buf_ready;
 };
 
 struct stream_config
 {
   // format
-  enum anonymous$11 format;
+  enum anonymous_11 format;
   // module
-  enum anonymous$0 module;
+  enum anonymous_0 module;
   // samples_per_buffer
   unsigned int samples_per_buffer;
   // num_xfers
@@ -2810,7 +2810,7 @@ struct stream_config
 struct sync_meta
 {
   // state
-  enum anonymous$25 state;
+  enum anonymous_25 state;
   // curr_msg
   unsigned char *curr_msg;
   // curr_msg_off
@@ -2821,8 +2821,8 @@ struct sync_meta
   unsigned int msg_num;
   // samples_per_msg
   unsigned int samples_per_msg;
-  // $anon0
-  union anonymous$26 $anon0;
+  // _anon0
+  union anonymous_26 _anon0;
   // curr_timestamp
   unsigned long int curr_timestamp;
 };
@@ -2832,7 +2832,7 @@ struct bladerf_sync
   // dev
   struct bladerf *dev;
   // state
-  enum anonymous$20 state;
+  enum anonymous_20 state;
   // buf_mgmt
   struct buffer_mgmt buf_mgmt;
   // stream_config
@@ -2854,15 +2854,15 @@ struct calibrations
 struct bladerf
 {
   // ctrl_lock
-  union anonymous$6 ctrl_lock;
+  union anonymous_6 ctrl_lock;
   // sync_lock
-  union anonymous$6 sync_lock[2l];
+  union anonymous_6 sync_lock[2l];
   // ident
   struct bladerf_devinfo ident;
   // dac_trim
   unsigned short int dac_trim;
   // fpga_size
-  enum anonymous$7 fpga_size;
+  enum anonymous_7 fpga_size;
   // fpga_version
   struct bladerf_version fpga_version;
   // fw_version
@@ -2872,9 +2872,9 @@ struct bladerf
   // capabilities
   unsigned long int capabilities;
   // xb
-  enum anonymous$8 xb;
+  enum anonymous_8 xb;
   // usb_speed
-  enum anonymous$9 usb_speed;
+  enum anonymous_9 usb_speed;
   // msg_size
   unsigned long int msg_size;
   // backend
@@ -2888,11 +2888,11 @@ struct bladerf
   // cal
   struct calibrations cal;
   // auto_filter
-  enum anonymous$10 auto_filter[2l];
+  enum anonymous_10 auto_filter[2l];
   // module_format
-  enum anonymous$11 module_format[2l];
+  enum anonymous_11 module_format[2l];
   // tuning_mode
-  enum anonymous$12 tuning_mode;
+  enum anonymous_12 tuning_mode;
 };
 
 struct bladerf_devinfo_list
@@ -2920,7 +2920,7 @@ struct bladerf_image
   // reserved
   char reserved[128l];
   // type
-  enum anonymous$38 type;
+  enum anonymous_38 type;
   // address
   unsigned int address;
   // length
@@ -3006,9 +3006,9 @@ struct bladerf_stream
   // dev
   struct bladerf *dev;
   // module
-  enum anonymous$0 module;
+  enum anonymous_0 module;
   // format
-  enum anonymous$11 format;
+  enum anonymous_11 format;
   // cb
   void * (*cb)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
   // user_data
@@ -3020,15 +3020,15 @@ struct bladerf_stream
   // buffers
   void **buffers;
   // lock
-  union anonymous$6 lock;
+  union anonymous_6 lock;
   // error_code
   signed int error_code;
   // state
-  enum anonymous$21 state;
+  enum anonymous_21 state;
   // can_submit_buffer
-  union anonymous$19 can_submit_buffer;
+  union anonymous_19 can_submit_buffer;
   // stream_started
-  union anonymous$19 stream_started;
+  union anonymous_19 stream_started;
   // backend_data
   void *backend_data;
 };
@@ -3066,7 +3066,7 @@ struct dc_cal_state
   // reg0x72
   unsigned char reg0x72;
   // lna_gain
-  enum anonymous$13 lna_gain;
+  enum anonymous_13 lna_gain;
   // rxvga1_gain
   signed int rxvga1_gain;
   // rxvga2_gain
@@ -3324,7 +3324,7 @@ struct lusb_stream_data
   // transfers
   struct libusb_transfer **transfers;
   // transfer_status
-  enum anonymous$37 *transfer_status;
+  enum anonymous_37 *transfer_status;
   // out_of_order_event
   _Bool out_of_order_event;
 };
@@ -3410,19 +3410,19 @@ struct sync_worker
   // cb
   void * (*cb)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
   // state
-  enum anonymous$24 state;
+  enum anonymous_24 state;
   // err_code
   signed int err_code;
   // state_lock
-  union anonymous$6 state_lock;
+  union anonymous_6 state_lock;
   // state_changed
-  union anonymous$19 state_changed;
+  union anonymous_19 state_changed;
   // requests
   unsigned int requests;
   // requests_pending
-  union anonymous$19 requests_pending;
+  union anonymous_19 requests_pending;
   // request_lock
-  union anonymous$6 request_lock;
+  union anonymous_6 request_lock;
 };
 
 struct timespec
@@ -3468,7 +3468,7 @@ struct uart_cmd
 struct usb_driver
 {
   // id
-  const enum anonymous$14 id;
+  const enum anonymous_14 id;
   // fn
   struct usb_fns *fn;
 };
@@ -3476,17 +3476,17 @@ struct usb_driver
 struct usb_fns
 {
   // probe
-  signed int (*probe)(enum anonymous$16, struct bladerf_devinfo_list *);
+  signed int (*probe)(enum anonymous_16, struct bladerf_devinfo_list *);
   // open
   signed int (*open)(void **, struct bladerf_devinfo *, struct bladerf_devinfo *);
   // close
   void (*close)(void *);
   // get_speed
-  signed int (*get_speed)(void *, enum anonymous$9 *);
+  signed int (*get_speed)(void *, enum anonymous_9 *);
   // change_setting
   signed int (*change_setting)(void *, unsigned char);
   // control_transfer
-  signed int (*control_transfer)(void *, enum anonymous$28, enum anonymous$29, enum anonymous$30, unsigned char, unsigned short int, unsigned short int, void *, unsigned int, unsigned int);
+  signed int (*control_transfer)(void *, enum anonymous_28, enum anonymous_29, enum anonymous_30, unsigned char, unsigned short int, unsigned short int, void *, unsigned int, unsigned int);
   // bulk_transfer
   signed int (*bulk_transfer)(void *, unsigned char, void *, unsigned int, unsigned int);
   // get_string_descriptor
@@ -3494,7 +3494,7 @@ struct usb_fns
   // init_stream
   signed int (*init_stream)(void *, struct bladerf_stream *, unsigned long int);
   // stream
-  signed int (*stream)(void *, struct bladerf_stream *, enum anonymous$0);
+  signed int (*stream)(void *, struct bladerf_stream *, enum anonymous_0);
   // submit_stream_buffer
   signed int (*submit_stream_buffer)(void *, struct bladerf_stream *, void *, unsigned int, _Bool);
   // deinit_stream
@@ -3756,7 +3756,7 @@ static const unsigned int uint_bandwidths[16l] = { (const unsigned int)(28 * 100
 struct usb_driver usb_driver_libusb;
 // usb_driver_libusb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 1351
-struct usb_driver usb_driver_libusb = { .id=(const enum anonymous$14)BLADERF_BACKEND_LIBUSB, .fn=&libusb_fns };
+struct usb_driver usb_driver_libusb = { .id=(const enum anonymous_14)BLADERF_BACKEND_LIBUSB, .fn=&libusb_fns };
 // usb_driver_list
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 53
 static struct usb_driver *usb_driver_list[1l];
@@ -4140,18 +4140,18 @@ void __bladerf_init(void)
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // __bswap_64
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 109
 static inline unsigned long int __bswap_64(unsigned long int __bsx)
 {
-  signed long long int return_value___builtin_bswap64$1;
-  return_value___builtin_bswap64$1=__builtin_bswap64((signed long long int)__bsx);
-  return (unsigned long int)return_value___builtin_bswap64$1;
+  signed long long int return_value___builtin_bswap64_1;
+  return_value___builtin_bswap64_1=__builtin_bswap64((signed long long int)__bsx);
+  return (unsigned long int)return_value___builtin_bswap64_1;
 }
 
 // add_field
@@ -4181,24 +4181,24 @@ signed int add_field(char *buf, signed int buf_len, const char *field_name, cons
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 633
 static inline _Bool addr_matches(unsigned char addr, struct libusb_device *d)
 {
-  _Bool tmp_if_expr$2;
-  unsigned char return_value_libusb_get_device_address$1;
+  _Bool tmp_if_expr_2;
+  unsigned char return_value_libusb_get_device_address_1;
   if((signed int)addr == 255)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_libusb_get_device_address$1=libusb_get_device_address(d);
-    tmp_if_expr$2 = addr == return_value_libusb_get_device_address$1 ? (_Bool)1 : (_Bool)0;
+    return_value_libusb_get_device_address_1=libusb_get_device_address(d);
+    tmp_if_expr_2 = addr == return_value_libusb_get_device_address_1 ? (_Bool)1 : (_Bool)0;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // advance_rx_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.c line 258
 static inline void advance_rx_buffer(struct buffer_mgmt *b)
 {
-  b->status[(signed long int)b->cons_i] = (enum anonymous$22)SYNC_BUFFER_EMPTY;
+  b->status[(signed long int)b->cons_i] = (enum anonymous_22)SYNC_BUFFER_EMPTY;
   b->cons_i = (b->cons_i + (unsigned int)1) % b->num_buffers;
 }
 
@@ -4208,7 +4208,7 @@ static signed int advance_tx_buffer(struct bladerf_sync *s, struct buffer_mgmt *
 {
   signed int status = 0;
   const unsigned int idx = b->prod_i;
-  b->status[(signed long int)idx] = (enum anonymous$22)SYNC_BUFFER_FULL;
+  b->status[(signed long int)idx] = (enum anonymous_22)SYNC_BUFFER_FULL;
   if((signed int)b->submitter == SYNC_TX_SUBMITTER_FN)
   {
     pthread_mutex_unlock(&b->lock);
@@ -4216,13 +4216,13 @@ static signed int advance_tx_buffer(struct bladerf_sync *s, struct buffer_mgmt *
     pthread_mutex_lock(&b->lock);
     if(status == 0)
     {
-      b->status[(signed long int)idx] = (enum anonymous$22)SYNC_BUFFER_IN_FLIGHT;
+      b->status[(signed long int)idx] = (enum anonymous_22)SYNC_BUFFER_IN_FLIGHT;
       goto __CPROVER_DUMP_L3;
     }
 
     if(status == -18)
     {
-      b->submitter = (enum anonymous$23)SYNC_TX_SUBMITTER_CALLBACK;
+      b->submitter = (enum anonymous_23)SYNC_TX_SUBMITTER_CALLBACK;
       b->cons_i = idx;
       status = 0;
       goto __CPROVER_DUMP_L3;
@@ -4241,10 +4241,10 @@ static signed int advance_tx_buffer(struct bladerf_sync *s, struct buffer_mgmt *
     ;
     b->prod_i = (idx + (unsigned int)1) % b->num_buffers;
     if((signed int)b->status[(signed long int)b->prod_i] == SYNC_BUFFER_EMPTY)
-      s->state = (enum anonymous$20)SYNC_STATE_BUFFER_READY;
+      s->state = (enum anonymous_20)SYNC_STATE_BUFFER_READY;
 
     else
-      s->state = (enum anonymous$20)SYNC_STATE_CHECK_WORKER;
+      s->state = (enum anonymous_20)SYNC_STATE_CHECK_WORKER;
     return status;
   }
 }
@@ -4256,9 +4256,9 @@ static signed int append_char(char **arg, signed int *arg_size, signed int *arg_
   char *tmp;
   if(*arg_i >= *arg_size)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)*arg, (unsigned long int)(*arg_size * 2));
-    tmp = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)*arg, (unsigned long int)(*arg_size * 2));
+    tmp = (char *)return_value_realloc_1;
     if(tmp == ((char *)NULL))
       return -1;
 
@@ -4275,29 +4275,29 @@ static signed int append_char(char **arg, signed int *arg_size, signed int *arg_
   return 0;
 }
 
-// append_char$link1
+// append_char_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 306
-static signed int append_char$link1(char **arg$link1, signed int *arg_size$link1, signed int *arg_i$link1, char c$link1)
+static signed int append_char_link1(char **arg_link1, signed int *arg_size_link1, signed int *arg_i_link1, char c_link1)
 {
-  char *tmp$link1;
-  if(*arg_i$link1 >= *arg_size$link1)
+  char *tmp_link1;
+  if(*arg_i_link1 >= *arg_size_link1)
   {
-    void *return_value_realloc$1$link1;
-    return_value_realloc$1$link1=realloc((void *)*arg$link1, (unsigned long int)(*arg_size$link1 * 2));
-    tmp$link1 = (char *)return_value_realloc$1$link1;
-    if(tmp$link1 == ((char *)NULL))
+    void *return_value_realloc_1_link1;
+    return_value_realloc_1_link1=realloc((void *)*arg_link1, (unsigned long int)(*arg_size_link1 * 2));
+    tmp_link1 = (char *)return_value_realloc_1_link1;
+    if(tmp_link1 == ((char *)NULL))
       return -1;
 
     else
     {
-      memset((void *)(tmp$link1 + (signed long int)*arg_size$link1), 0, (unsigned long int)*arg_size$link1);
-      *arg$link1 = tmp$link1;
-      *arg_size$link1 = *arg_size$link1 * 2;
+      memset((void *)(tmp_link1 + (signed long int)*arg_size_link1), 0, (unsigned long int)*arg_size_link1);
+      *arg_link1 = tmp_link1;
+      *arg_size_link1 = *arg_size_link1 * 2;
     }
   }
 
-  (*arg$link1)[(signed long int)*arg_i$link1] = c$link1;
-  *arg_i$link1 = *arg_i$link1 + 1;
+  (*arg_link1)[(signed long int)*arg_i_link1] = c_link1;
+  *arg_i_link1 = *arg_i_link1 + 1;
   return 0;
 }
 
@@ -4337,27 +4337,27 @@ static inline signed int apply_lms_dc_cals(struct bladerf *dev)
 
   if(!(have_tx == (_Bool)0))
   {
-    struct bladerf_lms_dc_cals *apply_lms_dc_cals$$1$$2$$reg_vals = &dev->cal.dc_tx->reg_vals;
-    cals.tx_lpf_i = apply_lms_dc_cals$$1$$2$$reg_vals->tx_lpf_i;
-    cals.tx_lpf_q = apply_lms_dc_cals$$1$$2$$reg_vals->tx_lpf_q;
+    struct bladerf_lms_dc_cals *apply_lms_dc_cals__1__2__reg_vals = &dev->cal.dc_tx->reg_vals;
+    cals.tx_lpf_i = apply_lms_dc_cals__1__2__reg_vals->tx_lpf_i;
+    cals.tx_lpf_q = apply_lms_dc_cals__1__2__reg_vals->tx_lpf_q;
     if(!(have_rx == (_Bool)0))
     {
-      if(!(cals.lpf_tuning == apply_lms_dc_cals$$1$$2$$reg_vals->lpf_tuning))
+      if(!(cals.lpf_tuning == apply_lms_dc_cals__1__2__reg_vals->lpf_tuning))
         do
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf_priv.c:79] LPF tuning mismatch in tables. RX=0x%04x, TX=0x%04x", cals.lpf_tuning, apply_lms_dc_cals$$1$$2$$reg_vals->lpf_tuning);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf_priv.c:79] LPF tuning mismatch in tables. RX=0x%04x, TX=0x%04x", cals.lpf_tuning, apply_lms_dc_cals__1__2__reg_vals->lpf_tuning);
         while((_Bool)0);
 
     }
 
     else
     {
-      cals.rx_lpf_i = apply_lms_dc_cals$$1$$2$$reg_vals->rx_lpf_i;
-      cals.rx_lpf_q = apply_lms_dc_cals$$1$$2$$reg_vals->rx_lpf_q;
-      cals.dc_ref = apply_lms_dc_cals$$1$$2$$reg_vals->dc_ref;
-      cals.rxvga2a_i = apply_lms_dc_cals$$1$$2$$reg_vals->rxvga2a_i;
-      cals.rxvga2a_q = apply_lms_dc_cals$$1$$2$$reg_vals->rxvga2a_q;
-      cals.rxvga2b_i = apply_lms_dc_cals$$1$$2$$reg_vals->rxvga2b_i;
-      cals.rxvga2b_q = apply_lms_dc_cals$$1$$2$$reg_vals->rxvga2b_q;
+      cals.rx_lpf_i = apply_lms_dc_cals__1__2__reg_vals->rx_lpf_i;
+      cals.rx_lpf_q = apply_lms_dc_cals__1__2__reg_vals->rx_lpf_q;
+      cals.dc_ref = apply_lms_dc_cals__1__2__reg_vals->dc_ref;
+      cals.rxvga2a_i = apply_lms_dc_cals__1__2__reg_vals->rxvga2a_i;
+      cals.rxvga2a_q = apply_lms_dc_cals__1__2__reg_vals->rxvga2a_q;
+      cals.rxvga2b_i = apply_lms_dc_cals__1__2__reg_vals->rxvga2b_i;
+      cals.rxvga2b_q = apply_lms_dc_cals__1__2__reg_vals->rxvga2b_q;
     }
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ bladerf_priv.c:93] Fetched register values from TX DC cal table.\n");
@@ -4366,9 +4366,9 @@ static inline signed int apply_lms_dc_cals(struct bladerf *dev)
 
   if(have_tx == (_Bool)0 && !(have_rx == (_Bool)0))
   {
-    struct bladerf_lms_dc_cals *apply_lms_dc_cals$$1$$3$$reg_vals = &dev->cal.dc_rx->reg_vals;
-    cals.tx_lpf_i = apply_lms_dc_cals$$1$$3$$reg_vals->tx_lpf_i;
-    cals.tx_lpf_q = apply_lms_dc_cals$$1$$3$$reg_vals->tx_lpf_q;
+    struct bladerf_lms_dc_cals *apply_lms_dc_cals__1__3__reg_vals = &dev->cal.dc_rx->reg_vals;
+    cals.tx_lpf_i = apply_lms_dc_cals__1__3__reg_vals->tx_lpf_i;
+    cals.tx_lpf_q = apply_lms_dc_cals__1__3__reg_vals->tx_lpf_q;
   }
 
   if(!(have_rx == (_Bool)0) || !(have_tx == (_Bool)0))
@@ -4381,18 +4381,18 @@ static inline signed int apply_lms_dc_cals(struct bladerf *dev)
       if(!(have_rx == (_Bool)0))
       {
         unsigned int rx_f;
-        rx_status=tuning_get_freq(dev, (enum anonymous$0)BLADERF_MODULE_RX, &rx_f);
+        rx_status=tuning_get_freq(dev, (enum anonymous_0)BLADERF_MODULE_RX, &rx_f);
         if(rx_status == 0)
-          rx_status=tuning_set_freq(dev, (enum anonymous$0)BLADERF_MODULE_RX, rx_f);
+          rx_status=tuning_set_freq(dev, (enum anonymous_0)BLADERF_MODULE_RX, rx_f);
 
       }
 
       if(!(have_tx == (_Bool)0))
       {
-        unsigned int apply_lms_dc_cals$$1$$4$$1$$2$$rx_f;
-        rx_status=tuning_get_freq(dev, (enum anonymous$0)BLADERF_MODULE_RX, &apply_lms_dc_cals$$1$$4$$1$$2$$rx_f);
+        unsigned int apply_lms_dc_cals__1__4__1__2__rx_f;
+        rx_status=tuning_get_freq(dev, (enum anonymous_0)BLADERF_MODULE_RX, &apply_lms_dc_cals__1__4__1__2__rx_f);
         if(rx_status == 0)
-          rx_status=tuning_set_freq(dev, (enum anonymous$0)BLADERF_MODULE_RX, apply_lms_dc_cals$$1$$4$$1$$2$$rx_f);
+          rx_status=tuning_set_freq(dev, (enum anonymous_0)BLADERF_MODULE_RX, apply_lms_dc_cals__1__4__1__2__rx_f);
 
       }
 
@@ -4441,7 +4441,7 @@ void async_deinit_stream(struct bladerf_stream *stream)
 
 // async_init_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.c line 27
-signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous$11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *user_data)
+signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous_11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *user_data)
 {
   struct bladerf_stream *lstream;
   unsigned long int buffer_size_bytes;
@@ -4466,18 +4466,18 @@ signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct bladerf_stream) /*208ul*/ );
-      lstream = (struct bladerf_stream *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct bladerf_stream) /*208ul*/ );
+      lstream = (struct bladerf_stream *)return_value_malloc_1;
       if(lstream == ((struct bladerf_stream *)NULL))
         return -4;
 
       else
       {
-        pthread_mutex_init(&lstream->lock, (const union anonymous$27 *)(void *)0);
-        signed int return_value_pthread_cond_init$2;
-        return_value_pthread_cond_init$2=pthread_cond_init(&lstream->can_submit_buffer, (const union anonymous$27 *)(void *)0);
-        if(!(return_value_pthread_cond_init$2 == 0))
+        pthread_mutex_init(&lstream->lock, (const union anonymous_27 *)(void *)0);
+        signed int return_value_pthread_cond_init_2;
+        return_value_pthread_cond_init_2=pthread_cond_init(&lstream->can_submit_buffer, (const union anonymous_27 *)(void *)0);
+        if(!(return_value_pthread_cond_init_2 == 0))
         {
           free((void *)lstream);
           return -1;
@@ -4485,9 +4485,9 @@ signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev
 
         else
         {
-          signed int return_value_pthread_cond_init$3;
-          return_value_pthread_cond_init$3=pthread_cond_init(&lstream->stream_started, (const union anonymous$27 *)(void *)0);
-          if(!(return_value_pthread_cond_init$3 == 0))
+          signed int return_value_pthread_cond_init_3;
+          return_value_pthread_cond_init_3=pthread_cond_init(&lstream->stream_started, (const union anonymous_27 *)(void *)0);
+          if(!(return_value_pthread_cond_init_3 == 0))
           {
             free((void *)lstream);
             return -1;
@@ -4497,7 +4497,7 @@ signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev
           {
             lstream->dev = dev;
             lstream->error_code = 0;
-            lstream->state = (enum anonymous$21)STREAM_IDLE;
+            lstream->state = (enum anonymous_21)STREAM_IDLE;
             lstream->samples_per_buffer = samples_per_buffer;
             lstream->num_buffers = num_buffers;
             lstream->format = format;
@@ -4516,9 +4516,9 @@ signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev
             ;
             if(status == 0)
             {
-              void *return_value_calloc$4;
-              return_value_calloc$4=calloc(num_buffers, sizeof(void *) /*8ul*/ );
-              lstream->buffers = (void **)return_value_calloc$4;
+              void *return_value_calloc_4;
+              return_value_calloc_4=calloc(num_buffers, sizeof(void *) /*8ul*/ );
+              lstream->buffers = (void **)return_value_calloc_4;
               if(!(lstream->buffers == ((void **)NULL)))
               {
                 i = (unsigned long int)0;
@@ -4574,32 +4574,32 @@ signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev
 
 // async_run_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.c line 138
-signed int async_run_stream(struct bladerf_stream *stream, enum anonymous$0 module)
+signed int async_run_stream(struct bladerf_stream *stream, enum anonymous_0 module)
 {
   signed int status;
   struct bladerf *dev = stream->dev;
   pthread_mutex_lock(&stream->lock);
   stream->module = module;
-  stream->state = (enum anonymous$21)STREAM_RUNNING;
+  stream->state = (enum anonymous_21)STREAM_RUNNING;
   pthread_cond_signal(&stream->stream_started);
   pthread_mutex_unlock(&stream->lock);
   status=dev->fn->stream(stream, module);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(status == 0)
-    tmp_if_expr$1 = stream->error_code;
+    tmp_if_expr_1 = stream->error_code;
 
   else
-    tmp_if_expr$1 = status;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = status;
+  return tmp_if_expr_1;
 }
 
 // async_stream_buf_bytes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.h line 62
 static inline unsigned long int async_stream_buf_bytes(struct bladerf_stream *s)
 {
-  unsigned long int return_value_samples_to_bytes$1;
-  return_value_samples_to_bytes$1=samples_to_bytes(s->format, s->samples_per_buffer);
-  return return_value_samples_to_bytes$1;
+  unsigned long int return_value_samples_to_bytes_1;
+  return_value_samples_to_bytes_1=samples_to_bytes(s->format, s->samples_per_buffer);
+  return return_value_samples_to_bytes_1;
 }
 
 // async_submit_stream_buffer
@@ -4667,7 +4667,7 @@ error:
 
 // backend2str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 131
-const char * backend2str(enum anonymous$14 backend)
+const char * backend2str(enum anonymous_14 backend)
 {
   switch((signed int)backend)
   {
@@ -4684,7 +4684,7 @@ const char * backend2str(enum anonymous$14 backend)
 
 // backend_description
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 594
-const char * backend_description(enum anonymous$14 b)
+const char * backend_description(enum anonymous_14 b)
 {
   switch((signed int)b)
   {
@@ -4705,7 +4705,7 @@ const char * backend_description(enum anonymous$14 b)
 
 // backend_load_fw_from_bootloader
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 112
-signed int backend_load_fw_from_bootloader(enum anonymous$14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw)
+signed int backend_load_fw_from_bootloader(enum anonymous_14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw)
 {
   signed int status = -7;
   unsigned long int i;
@@ -4755,7 +4755,7 @@ signed int backend_open(struct bladerf *device, struct bladerf_devinfo *info)
 
 // backend_probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 63
-signed int backend_probe(enum anonymous$16 probe_target, struct bladerf_devinfo **devinfo_items, unsigned long int *num_items)
+signed int backend_probe(enum anonymous_16 probe_target, struct bladerf_devinfo **devinfo_items, unsigned long int *num_items)
 {
   signed int status;
   signed int first_backend_error = 0;
@@ -4769,9 +4769,9 @@ signed int backend_probe(enum anonymous$16 probe_target, struct bladerf_devinfo 
   {
     do
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ backend.c:78] Failed to initialize devinfo list: %s\n", return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ backend.c:78] Failed to initialize devinfo list: %s\n", return_value_bladerf_strerror_1);
     }
     while((_Bool)0);
     return status;
@@ -4785,9 +4785,9 @@ signed int backend_probe(enum anonymous$16 probe_target, struct bladerf_devinfo 
       status=backend_list[(signed long int)i]->probe(probe_target, &list);
       if(!(status == -7) && !(status >= 0))
       {
-        const char *return_value_bladerf_strerror$2;
-        return_value_bladerf_strerror$2=bladerf_strerror(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ backend.c:87] Probe failed on backend %d: %s\n", i, return_value_bladerf_strerror$2);
+        const char *return_value_bladerf_strerror_2;
+        return_value_bladerf_strerror_2=bladerf_strerror(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ backend.c:87] Probe failed on backend %d: %s\n", i, return_value_bladerf_strerror_2);
         if(first_backend_error == 0)
           first_backend_error = status;
 
@@ -4811,7 +4811,7 @@ signed int backend_probe(enum anonymous$16 probe_target, struct bladerf_devinfo 
 
 // band_select
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/band_select.h line 48
-signed int band_select(struct bladerf *dev, enum anonymous$0 module, _Bool low_band)
+signed int band_select(struct bladerf *dev, enum anonymous_0 module, _Bool low_band)
 {
   signed int status;
   unsigned int gpio;
@@ -4833,9 +4833,9 @@ signed int band_select(struct bladerf *dev, enum anonymous$0 module, _Bool low_b
     {
       gpio = gpio & (unsigned int)~((signed int)module == BLADERF_MODULE_TX ? 3 << 3 : 3 << 5);
       gpio = gpio | ((signed int)module == BLADERF_MODULE_TX ? band << 3 : band << 5);
-      signed int return_value_config_gpio_write$1;
-      return_value_config_gpio_write$1=config_gpio_write(dev, gpio);
-      return return_value_config_gpio_write$1;
+      signed int return_value_config_gpio_write_1;
+      return_value_config_gpio_write_1=config_gpio_write(dev, gpio);
+      return return_value_config_gpio_write_1;
     }
   }
 }
@@ -4883,7 +4883,7 @@ static signed int begin_fpga_programming(struct bladerf *dev)
 {
   signed int result;
   signed int status;
-  status=vendor_cmd_int(dev, (unsigned char)2, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &result);
+  status=vendor_cmd_int(dev, (unsigned char)2, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &result);
   if(!(status == 0))
     return status;
 
@@ -4902,11 +4902,11 @@ static signed int begin_fpga_programming(struct bladerf *dev)
 
 // bladerf_alloc_cal_image
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/image.c line 486
-struct bladerf_image * bladerf_alloc_cal_image(enum anonymous$7 fpga_size, unsigned short int vctcxo_trim)
+struct bladerf_image * bladerf_alloc_cal_image(enum anonymous_7 fpga_size, unsigned short int vctcxo_trim)
 {
   struct bladerf_image *image;
   signed int status;
-  image=bladerf_alloc_image((enum anonymous$38)BLADERF_IMAGE_TYPE_CALIBRATION, (unsigned int)0x00030000, (unsigned int)0x100);
+  image=bladerf_alloc_image((enum anonymous_38)BLADERF_IMAGE_TYPE_CALIBRATION, (unsigned int)0x00030000, (unsigned int)0x100);
   if(image == ((struct bladerf_image *)NULL))
     return (struct bladerf_image *)(void *)0;
 
@@ -4925,18 +4925,18 @@ struct bladerf_image * bladerf_alloc_cal_image(enum anonymous$7 fpga_size, unsig
 
 // bladerf_alloc_image
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 2674
-struct bladerf_image * bladerf_alloc_image(enum anonymous$38 type, unsigned int address, unsigned int length)
+struct bladerf_image * bladerf_alloc_image(enum anonymous_38 type, unsigned int address, unsigned int length)
 {
   struct bladerf_image *image;
   /* assertion 7 == (sizeof(image_magic) - 1) */
   assert((unsigned long int)7 == sizeof(const char [8l]) /*8ul*/  - (unsigned long int)1);
-  _Bool return_value_is_page_aligned$2;
-  _Bool return_value_is_valid_addr_len$1;
+  _Bool return_value_is_page_aligned_2;
+  _Bool return_value_is_valid_addr_len_1;
   if(!(address == 0xffffffff))
   {
-    _Bool return_value_is_page_aligned$3;
-    return_value_is_page_aligned$3=is_page_aligned(address);
-    if(return_value_is_page_aligned$3 == (_Bool)0)
+    _Bool return_value_is_page_aligned_3;
+    return_value_is_page_aligned_3=is_page_aligned(address);
+    if(return_value_is_page_aligned_3 == (_Bool)0)
     {
       do
         log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ image.c:411] Address is not page-aligned: 0x%08x\n", address);
@@ -4946,8 +4946,8 @@ struct bladerf_image * bladerf_alloc_image(enum anonymous$38 type, unsigned int 
 
     else
     {
-      return_value_is_page_aligned$2=is_page_aligned(length);
-      if(return_value_is_page_aligned$2 == (_Bool)0)
+      return_value_is_page_aligned_2=is_page_aligned(length);
+      if(return_value_is_page_aligned_2 == (_Bool)0)
       {
         do
           log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ image.c:414] Length is not page-aligned: 0x%08x\n", length);
@@ -4957,8 +4957,8 @@ struct bladerf_image * bladerf_alloc_image(enum anonymous$38 type, unsigned int 
 
       else
       {
-        return_value_is_valid_addr_len$1=is_valid_addr_len(address, length);
-        if(return_value_is_valid_addr_len$1 == (_Bool)0)
+        return_value_is_valid_addr_len_1=is_valid_addr_len(address, length);
+        if(return_value_is_valid_addr_len_1 == (_Bool)0)
         {
           do
             log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ image.c:417] Invalid address=0x%08x or length=0x%08x\n", address, length);
@@ -4970,9 +4970,9 @@ struct bladerf_image * bladerf_alloc_image(enum anonymous$38 type, unsigned int 
     }
   }
 
-  void *return_value_calloc$4;
-  return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct bladerf_image) /*248ul*/ );
-  image = (struct bladerf_image *)return_value_calloc$4;
+  void *return_value_calloc_4;
+  return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct bladerf_image) /*248ul*/ );
+  image = (struct bladerf_image *)return_value_calloc_4;
   if(image == ((struct bladerf_image *)NULL))
     return (struct bladerf_image *)(void *)0;
 
@@ -4980,9 +4980,9 @@ struct bladerf_image * bladerf_alloc_image(enum anonymous$38 type, unsigned int 
   {
     if(!(length == 0u))
     {
-      void *return_value_calloc$5;
-      return_value_calloc$5=calloc((unsigned long int)1, (unsigned long int)length);
-      image->data = (unsigned char *)return_value_calloc$5;
+      void *return_value_calloc_5;
+      return_value_calloc_5=calloc((unsigned long int)1, (unsigned long int)length);
+      image->data = (unsigned char *)return_value_calloc_5;
       if(image->data == ((unsigned char *)NULL))
       {
         free((void *)image);
@@ -5005,11 +5005,11 @@ struct bladerf_image * bladerf_alloc_image(enum anonymous$38 type, unsigned int 
 
 // bladerf_backend_str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1477
-const char * bladerf_backend_str(enum anonymous$14 backend)
+const char * bladerf_backend_str(enum anonymous_14 backend)
 {
-  const char *return_value_backend2str$1;
-  return_value_backend2str$1=backend2str(backend);
-  return return_value_backend2str$1;
+  const char *return_value_backend2str_1;
+  return_value_backend2str_1=backend2str(backend);
+  return return_value_backend2str_1;
 }
 
 // bladerf_bus_addr_matches
@@ -5018,38 +5018,38 @@ _Bool bladerf_bus_addr_matches(struct bladerf_devinfo *a, struct bladerf_devinfo
 {
   _Bool bus_match;
   _Bool addr_match;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)a->usb_bus == 255)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)b->usb_bus == 255 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)b->usb_bus == 255 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = a->usb_bus == b->usb_bus ? (_Bool)1 : (_Bool)0;
-  bus_match = tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+    tmp_if_expr_2 = a->usb_bus == b->usb_bus ? (_Bool)1 : (_Bool)0;
+  bus_match = tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if((signed int)a->usb_addr == 255)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)b->usb_addr == 255 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (signed int)b->usb_addr == 255 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = a->usb_addr == b->usb_addr ? (_Bool)1 : (_Bool)0;
-  addr_match = tmp_if_expr$4;
+    tmp_if_expr_4 = a->usb_addr == b->usb_addr ? (_Bool)1 : (_Bool)0;
+  addr_match = tmp_if_expr_4;
   return bus_match != (_Bool)0 && addr_match != (_Bool)0;
 }
 
 // bladerf_calibrate_dc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1919
-signed int bladerf_calibrate_dc(struct bladerf *dev, enum anonymous$3 module)
+signed int bladerf_calibrate_dc(struct bladerf *dev, enum anonymous_3 module)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5060,13 +5060,13 @@ signed int bladerf_calibrate_dc(struct bladerf *dev, enum anonymous$3 module)
 
 // bladerf_cancel_scheduled_retunes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 912
-signed int bladerf_cancel_scheduled_retunes(struct bladerf *dev, enum anonymous$0 m)
+signed int bladerf_cancel_scheduled_retunes(struct bladerf *dev, enum anonymous_0 m)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap(dev, (unsigned long int)(1 << 3));
-  if(!(return_value_have_cap$1 == (_Bool)0))
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap(dev, (unsigned long int)(1 << 3));
+  if(!(return_value_have_cap_1 == (_Bool)0))
     status=tuning_cancel_scheduled(dev, m);
 
   else
@@ -5085,7 +5085,7 @@ signed int bladerf_cancel_scheduled_retunes(struct bladerf *dev, enum anonymous$
 void bladerf_close(struct bladerf *dev)
 {
   signed int status;
-  _Bool return_value_have_cap$1;
+  _Bool return_value_have_cap_1;
   if(!(dev == ((struct bladerf *)NULL)))
   {
     pthread_mutex_lock(&dev->ctrl_lock);
@@ -5094,11 +5094,11 @@ void bladerf_close(struct bladerf *dev)
     status=dev->fn->is_fpga_configured(dev);
     if(status == 1)
     {
-      return_value_have_cap$1=have_cap(dev, (unsigned long int)(1 << 3));
-      if(!(return_value_have_cap$1 == (_Bool)0))
+      return_value_have_cap_1=have_cap(dev, (unsigned long int)(1 << 3));
+      if(!(return_value_have_cap_1 == (_Bool)0))
       {
-        tuning_cancel_scheduled(dev, (enum anonymous$0)BLADERF_MODULE_RX);
-        tuning_cancel_scheduled(dev, (enum anonymous$0)BLADERF_MODULE_TX);
+        tuning_cancel_scheduled(dev, (enum anonymous_0)BLADERF_MODULE_RX);
+        tuning_cancel_scheduled(dev, (enum anonymous_0)BLADERF_MODULE_TX);
       }
 
     }
@@ -5189,9 +5189,9 @@ signed int bladerf_device_reset(struct bladerf *dev)
 
 // bladerf_device_speed
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1176
-enum anonymous$9 bladerf_device_speed(struct bladerf *dev)
+enum anonymous_9 bladerf_device_speed(struct bladerf *dev)
 {
-  enum anonymous$9 speed;
+  enum anonymous_9 speed;
   pthread_mutex_lock(&dev->ctrl_lock);
   speed = dev->usb_speed;
   pthread_mutex_unlock(&dev->ctrl_lock);
@@ -5206,9 +5206,9 @@ signed int bladerf_devinfo_list_add(struct bladerf_devinfo_list *list, struct bl
   struct bladerf_devinfo *info_tmp;
   if(list->num_elt >= list->backing_size)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)list->elt, list->backing_size * (unsigned long int)2 * sizeof(struct bladerf_devinfo) /*44ul*/ );
-    info_tmp = (struct bladerf_devinfo *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)list->elt, list->backing_size * (unsigned long int)2 * sizeof(struct bladerf_devinfo) /*44ul*/ );
+    info_tmp = (struct bladerf_devinfo *)return_value_realloc_1;
     if(info_tmp == ((struct bladerf_devinfo *)NULL))
       status = -4;
 
@@ -5235,9 +5235,9 @@ signed int bladerf_devinfo_list_init(struct bladerf_devinfo_list *list)
   signed int status = 0;
   list->num_elt = (unsigned long int)0;
   list->backing_size = (unsigned long int)5;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(list->backing_size * sizeof(struct bladerf_devinfo) /*44ul*/ );
-  list->elt = (struct bladerf_devinfo *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(list->backing_size * sizeof(struct bladerf_devinfo) /*44ul*/ );
+  list->elt = (struct bladerf_devinfo *)return_value_malloc_1;
   if(list->elt == ((struct bladerf_devinfo *)NULL))
     status = -4;
 
@@ -5248,29 +5248,29 @@ signed int bladerf_devinfo_list_init(struct bladerf_devinfo_list *list)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1449
 _Bool bladerf_devinfo_matches(struct bladerf_devinfo *a, struct bladerf_devinfo *b)
 {
-  _Bool return_value_bladerf_instance_matches$1;
-  return_value_bladerf_instance_matches$1=bladerf_instance_matches(a, b);
-  _Bool tmp_if_expr$3;
-  _Bool return_value_bladerf_serial_matches$2;
-  if(!(return_value_bladerf_instance_matches$1 == (_Bool)0))
+  _Bool return_value_bladerf_instance_matches_1;
+  return_value_bladerf_instance_matches_1=bladerf_instance_matches(a, b);
+  _Bool tmp_if_expr_3;
+  _Bool return_value_bladerf_serial_matches_2;
+  if(!(return_value_bladerf_instance_matches_1 == (_Bool)0))
   {
-    return_value_bladerf_serial_matches$2=bladerf_serial_matches(a, b);
-    tmp_if_expr$3 = return_value_bladerf_serial_matches$2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_bladerf_serial_matches_2=bladerf_serial_matches(a, b);
+    tmp_if_expr_3 = return_value_bladerf_serial_matches_2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool return_value_bladerf_bus_addr_matches$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool return_value_bladerf_bus_addr_matches_4;
+  if(tmp_if_expr_3)
   {
-    return_value_bladerf_bus_addr_matches$4=bladerf_bus_addr_matches(a, b);
-    tmp_if_expr$5 = return_value_bladerf_bus_addr_matches$4 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_bladerf_bus_addr_matches_4=bladerf_bus_addr_matches(a, b);
+    tmp_if_expr_5 = return_value_bladerf_bus_addr_matches_4 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  return tmp_if_expr$5;
+    tmp_if_expr_5 = (_Bool)0;
+  return tmp_if_expr_5;
 }
 
 // bladerf_devstr_matches
@@ -5286,9 +5286,9 @@ _Bool bladerf_devstr_matches(const char *dev_str, struct bladerf_devinfo *info)
     ret = (_Bool)0;
     do
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:1469] Failed to parse device string: %s\n", return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:1469] Failed to parse device string: %s\n", return_value_bladerf_strerror_1);
     }
     while((_Bool)0);
   }
@@ -5300,7 +5300,7 @@ _Bool bladerf_devstr_matches(const char *dev_str, struct bladerf_devinfo *info)
 
 // bladerf_enable_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 335
-signed int bladerf_enable_module(struct bladerf *dev, enum anonymous$0 m, _Bool enable)
+signed int bladerf_enable_module(struct bladerf *dev, enum anonymous_0 m, _Bool enable)
 {
   signed int status;
   if(!((signed int)m == BLADERF_MODULE_RX) && !((signed int)m == BLADERF_MODULE_TX))
@@ -5350,7 +5350,7 @@ signed int bladerf_erase_stored_fpga(struct bladerf *dev)
 
 // bladerf_expansion_attach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1588
-signed int bladerf_expansion_attach(struct bladerf *dev, enum anonymous$8 xb)
+signed int bladerf_expansion_attach(struct bladerf *dev, enum anonymous_8 xb)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5361,7 +5361,7 @@ signed int bladerf_expansion_attach(struct bladerf *dev, enum anonymous$8 xb)
 
 // bladerf_expansion_get_attached
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1599
-signed int bladerf_expansion_get_attached(struct bladerf *dev, enum anonymous$8 *xb)
+signed int bladerf_expansion_get_attached(struct bladerf *dev, enum anonymous_8 *xb)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5389,9 +5389,9 @@ signed int bladerf_expansion_gpio_dir_masked_write(struct bladerf *dev, unsigned
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap(dev, (unsigned long int)(1 << 7));
-  if(return_value_have_cap$1 == (_Bool)0 && !(val == 0xffffffff))
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap(dev, (unsigned long int)(1 << 7));
+  if(return_value_have_cap_1 == (_Bool)0 && !(val == 0xffffffff))
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:1748] FPGA >= v0.4.1 is required for masked XB GPIO dir writes.\n");
@@ -5420,9 +5420,9 @@ signed int bladerf_expansion_gpio_dir_read(struct bladerf *dev, unsigned int *va
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1734
 signed int bladerf_expansion_gpio_dir_write(struct bladerf *dev, unsigned int val)
 {
-  signed int return_value_bladerf_expansion_gpio_dir_masked_write$1;
-  return_value_bladerf_expansion_gpio_dir_masked_write$1=bladerf_expansion_gpio_dir_masked_write(dev, 0xffffffff, val);
-  return return_value_bladerf_expansion_gpio_dir_masked_write$1;
+  signed int return_value_bladerf_expansion_gpio_dir_masked_write_1;
+  return_value_bladerf_expansion_gpio_dir_masked_write_1=bladerf_expansion_gpio_dir_masked_write(dev, 0xffffffff, val);
+  return return_value_bladerf_expansion_gpio_dir_masked_write_1;
 }
 
 // bladerf_expansion_gpio_masked_write
@@ -5431,9 +5431,9 @@ signed int bladerf_expansion_gpio_masked_write(struct bladerf *dev, unsigned int
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap(dev, (unsigned long int)(1 << 7));
-  if(return_value_have_cap$1 == (_Bool)0 && !(val == 0xffffffff))
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap(dev, (unsigned long int)(1 << 7));
+  if(return_value_have_cap_1 == (_Bool)0 && !(val == 0xffffffff))
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:1709] FPGA >= v0.4.1 is required for masked XB GPIO writes.\n");
@@ -5479,21 +5479,21 @@ signed int bladerf_flash_firmware(struct bladerf *dev, const char *firmware_file
   const char env_override[27l] = { 'B', 'L', 'A', 'D', 'E', 'R', 'F', '_', 'S', 'K', 'I', 'P', '_', 'F', 'W', '_', 'S', 'I', 'Z', 'E', '_', 'C', 'H', 'E', 'C', 'K', 0 };
   pthread_mutex_lock(&dev->ctrl_lock);
   status=file_read_buffer(firmware_file, &buf, &buf_size);
-  char *return_value_getenv$1;
-  _Bool tmp_if_expr$3;
-  _Bool return_value_valid_fw_size$2;
+  char *return_value_getenv_1;
+  _Bool tmp_if_expr_3;
+  _Bool return_value_valid_fw_size_2;
   if(status == 0)
   {
-    return_value_getenv$1=getenv(env_override);
-    if(return_value_getenv$1 == ((char *)NULL))
+    return_value_getenv_1=getenv(env_override);
+    if(return_value_getenv_1 == ((char *)NULL))
     {
-      return_value_valid_fw_size$2=valid_fw_size(buf_size);
-      tmp_if_expr$3 = !(return_value_valid_fw_size$2 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_valid_fw_size_2=valid_fw_size(buf_size);
+      tmp_if_expr_3 = !(return_value_valid_fw_size_2 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       do
         log_write((enum anonymous)BLADERF_LOG_LEVEL_INFO, "[INFO @ bladerf.c:1283] Detected potentially invalid firmware file.\n");
@@ -5568,10 +5568,10 @@ signed int bladerf_fw_version(struct bladerf *dev, struct bladerf_version *versi
 
 // bladerf_get_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 800
-signed int bladerf_get_bandwidth(struct bladerf *dev, enum anonymous$0 module, unsigned int *bandwidth)
+signed int bladerf_get_bandwidth(struct bladerf *dev, enum anonymous_0 module, unsigned int *bandwidth)
 {
   signed int status;
-  enum anonymous$15 bw;
+  enum anonymous_15 bw;
   pthread_mutex_lock(&dev->ctrl_lock);
   status=lms_get_bandwidth(dev, module, &bw);
   if(status == 0)
@@ -5587,14 +5587,14 @@ signed int bladerf_get_bandwidth(struct bladerf *dev, enum anonymous$0 module, u
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1934
 signed int bladerf_get_bootloader_list(struct bladerf_devinfo **devices)
 {
-  signed int return_value_probe$1;
-  return_value_probe$1=probe((enum anonymous$16)BACKEND_PROBE_FX3_BOOTLOADER, devices);
-  return return_value_probe$1;
+  signed int return_value_probe_1;
+  return_value_probe_1=probe((enum anonymous_16)BACKEND_PROBE_FX3_BOOTLOADER, devices);
+  return return_value_probe_1;
 }
 
 // bladerf_get_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1796
-signed int bladerf_get_correction(struct bladerf *dev, enum anonymous$0 module, enum anonymous$36 corr, signed short int *value)
+signed int bladerf_get_correction(struct bladerf *dev, enum anonymous_0 module, enum anonymous_36 corr, signed short int *value)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5630,9 +5630,9 @@ signed int bladerf_get_correction(struct bladerf *dev, enum anonymous$0 module, 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 78
 signed int bladerf_get_device_list(struct bladerf_devinfo **devices)
 {
-  signed int return_value_probe$1;
-  return_value_probe$1=probe((enum anonymous$16)BACKEND_PROBE_BLADERF, devices);
-  return return_value_probe$1;
+  signed int return_value_probe_1;
+  return_value_probe_1=probe((enum anonymous_16)BACKEND_PROBE_BLADERF, devices);
+  return return_value_probe_1;
 }
 
 // bladerf_get_devinfo
@@ -5655,14 +5655,14 @@ signed int bladerf_get_devinfo(struct bladerf *dev, struct bladerf_devinfo *info
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1443
 signed int bladerf_get_devinfo_from_str(const char *devstr, struct bladerf_devinfo *info)
 {
-  signed int return_value_str2devinfo$1;
-  return_value_str2devinfo$1=str2devinfo(devstr, info);
-  return return_value_str2devinfo$1;
+  signed int return_value_str2devinfo_1;
+  return_value_str2devinfo_1=str2devinfo(devstr, info);
+  return return_value_str2devinfo_1;
 }
 
 // bladerf_get_fpga_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1141
-signed int bladerf_get_fpga_size(struct bladerf *dev, enum anonymous$7 *size)
+signed int bladerf_get_fpga_size(struct bladerf *dev, enum anonymous_7 *size)
 {
   pthread_mutex_lock(&dev->ctrl_lock);
   *size = dev->fpga_size;
@@ -5672,7 +5672,7 @@ signed int bladerf_get_fpga_size(struct bladerf *dev, enum anonymous$7 *size)
 
 // bladerf_get_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 932
-signed int bladerf_get_frequency(struct bladerf *dev, enum anonymous$0 module, unsigned int *frequency)
+signed int bladerf_get_frequency(struct bladerf *dev, enum anonymous_0 module, unsigned int *frequency)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5694,7 +5694,7 @@ signed int bladerf_get_fw_log(struct bladerf *dev, const char *filename)
 
 // bladerf_get_lna_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 696
-signed int bladerf_get_lna_gain(struct bladerf *dev, enum anonymous$13 *gain)
+signed int bladerf_get_lna_gain(struct bladerf *dev, enum anonymous_13 *gain)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5705,19 +5705,19 @@ signed int bladerf_get_lna_gain(struct bladerf *dev, enum anonymous$13 *gain)
 
 // bladerf_get_loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 422
-signed int bladerf_get_loopback(struct bladerf *dev, enum anonymous$1 *l)
+signed int bladerf_get_loopback(struct bladerf *dev, enum anonymous_1 *l)
 {
   signed int status = -1;
-  *l = (enum anonymous$1)BLADERF_LB_NONE;
+  *l = (enum anonymous_1)BLADERF_LB_NONE;
   pthread_mutex_lock(&dev->ctrl_lock);
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap(dev, (unsigned long int)1 << 32);
-  if(!(return_value_have_cap$1 == (_Bool)0))
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap(dev, (unsigned long int)1 << 32);
+  if(!(return_value_have_cap_1 == (_Bool)0))
   {
     _Bool fw_lb_enabled;
     status=dev->fn->get_firmware_loopback(dev, &fw_lb_enabled);
     if(status == 0 && !(fw_lb_enabled == (_Bool)0))
-      *l = (enum anonymous$1)BLADERF_LB_FIRMWARE;
+      *l = (enum anonymous_1)BLADERF_LB_FIRMWARE;
 
   }
 
@@ -5730,7 +5730,7 @@ signed int bladerf_get_loopback(struct bladerf *dev, enum anonymous$1 *l)
 
 // bladerf_get_lpf_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 832
-signed int bladerf_get_lpf_mode(struct bladerf *dev, enum anonymous$0 module, enum anonymous$2 *mode)
+signed int bladerf_get_lpf_mode(struct bladerf *dev, enum anonymous_0 module, enum anonymous_2 *mode)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5741,7 +5741,7 @@ signed int bladerf_get_lpf_mode(struct bladerf *dev, enum anonymous$0 module, en
 
 // bladerf_get_quick_tune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1445
-signed int bladerf_get_quick_tune(struct bladerf *dev, enum anonymous$0 module, struct bladerf_quick_tune *quick_tune)
+signed int bladerf_get_quick_tune(struct bladerf *dev, enum anonymous_0 module, struct bladerf_quick_tune *quick_tune)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5752,7 +5752,7 @@ signed int bladerf_get_quick_tune(struct bladerf *dev, enum anonymous$0 module, 
 
 // bladerf_get_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 546
-signed int bladerf_get_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate)
+signed int bladerf_get_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5774,9 +5774,9 @@ signed int bladerf_get_rational_smb_frequency(struct bladerf *dev, struct blader
 
 // bladerf_get_rx_mux
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 484
-signed int bladerf_get_rx_mux(struct bladerf *dev, enum anonymous$33 *mux)
+signed int bladerf_get_rx_mux(struct bladerf *dev, enum anonymous_33 *mux)
 {
-  enum anonymous$33 val;
+  enum anonymous_33 val;
   unsigned int config_gpio;
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5785,11 +5785,11 @@ signed int bladerf_get_rx_mux(struct bladerf *dev, enum anonymous$33 *mux)
   {
     config_gpio = config_gpio & (unsigned int)(0x7 << 8);
     config_gpio = config_gpio >> 8;
-    val = (enum anonymous$33)config_gpio;
+    val = (enum anonymous_33)config_gpio;
     if((signed int)val == BLADERF_RX_MUX_BASEBAND_LMS || (signed int)val == BLADERF_RX_MUX_12BIT_COUNTER || (signed int)val == BLADERF_RX_MUX_32BIT_COUNTER || (signed int)val == BLADERF_RX_MUX_DIGITAL_LOOPBACK)
       *mux = val;
 
-    *mux = (enum anonymous$33)BLADERF_RX_MUX_INVALID;
+    *mux = (enum anonymous_33)BLADERF_RX_MUX_INVALID;
     status = -1;
     log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:512] Invalid rx mux mode %d read from config gpio\n", val);
   }
@@ -5825,7 +5825,7 @@ signed int bladerf_get_rxvga2(struct bladerf *dev, signed int *gain)
 
 // bladerf_get_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 558
-signed int bladerf_get_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int *rate)
+signed int bladerf_get_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int *rate)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5836,7 +5836,7 @@ signed int bladerf_get_sample_rate(struct bladerf *dev, enum anonymous$0 module,
 
 // bladerf_get_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 618
-signed int bladerf_get_sampling(struct bladerf *dev, enum anonymous$34 *sampling)
+signed int bladerf_get_sampling(struct bladerf *dev, enum anonymous_34 *sampling)
 {
   signed int status = 0;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5868,7 +5868,7 @@ signed int bladerf_get_smb_frequency(struct bladerf *dev, unsigned int *rate)
 
 // bladerf_get_stream_timeout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 983
-signed int bladerf_get_stream_timeout(struct bladerf *dev, enum anonymous$0 module, unsigned int *timeout)
+signed int bladerf_get_stream_timeout(struct bladerf *dev, enum anonymous_0 module, unsigned int *timeout)
 {
   if(!(dev == ((struct bladerf *)NULL)))
   {
@@ -5884,7 +5884,7 @@ signed int bladerf_get_stream_timeout(struct bladerf *dev, enum anonymous$0 modu
 
 // bladerf_get_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 3386
-signed int bladerf_get_timestamp(struct bladerf *dev, enum anonymous$0 module, unsigned long int *value)
+signed int bladerf_get_timestamp(struct bladerf *dev, enum anonymous_0 module, unsigned long int *value)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5917,7 +5917,7 @@ signed int bladerf_get_txvga2(struct bladerf *dev, signed int *gain)
 
 // bladerf_get_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1889
-signed int bladerf_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 *mode)
+signed int bladerf_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 *mode)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -5969,9 +5969,9 @@ signed int bladerf_image_write(struct bladerf_image *img, const char *file)
   struct _IO_FILE *f = (struct _IO_FILE *)(void *)0;
   unsigned char *buf = (unsigned char *)(void *)0;
   unsigned long int buf_len;
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)img->magic, (const void *)image_magic, (unsigned long int)7);
-  if(!(return_value_memcmp$1 == 0))
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)img->magic, (const void *)image_magic, (unsigned long int)7);
+  if(!(return_value_memcmp_1 == 0))
   {
     char badmagic[8l];
     memset((void *)badmagic, 0, sizeof(char [8l]) /*8ul*/ );
@@ -5982,9 +5982,9 @@ signed int bladerf_image_write(struct bladerf_image *img, const char *file)
     return -3;
   }
 
-  _Bool return_value_image_type_is_valid$2;
-  return_value_image_type_is_valid$2=image_type_is_valid(img->type);
-  if(return_value_image_type_is_valid$2 == (_Bool)0)
+  _Bool return_value_image_type_is_valid_2;
+  return_value_image_type_is_valid_2=image_type_is_valid(img->type);
+  if(return_value_image_type_is_valid_2 == (_Bool)0)
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ image.c:296] Invalid image type: %d\n", img->type);
@@ -6004,18 +6004,18 @@ signed int bladerf_image_write(struct bladerf_image *img, const char *file)
     else
     {
       buf_len = (unsigned long int)((unsigned long int)(7 + 32) + (unsigned long int)3 * sizeof(unsigned short int) /*2ul*/  + sizeof(unsigned long int) /*8ul*/  + (unsigned long int)33 + (unsigned long int)128 + (unsigned long int)3 * sizeof(unsigned int) /*4ul*/  + (unsigned long int)img->length);
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)1, buf_len);
-      buf = (unsigned char *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)1, buf_len);
+      buf = (unsigned char *)return_value_calloc_3;
       if(buf == ((unsigned char *)NULL))
       {
         do
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ image.c:309] calloc failed: %s\n", return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ image.c:309] calloc failed: %s\n", return_value_strerror_5);
         }
         while((_Bool)0);
         return -4;
@@ -6052,20 +6052,20 @@ signed int bladerf_image_write(struct bladerf_image *img, const char *file)
           f=fopen(file, "wb");
           if(f == ((struct _IO_FILE *)NULL))
           {
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            if(*return_value___errno_location$6 == 13)
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            if(*return_value___errno_location_6 == 13)
               rv = -17;
 
             else
               rv = -5;
             do
             {
-              signed int *return_value___errno_location$7;
-              return_value___errno_location$7=__errno_location();
-              char *return_value_strerror$8;
-              return_value_strerror$8=strerror(*return_value___errno_location$7);
-              log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ image.c:337] Failed to open \"%s\": %s\n", file, return_value_strerror$8);
+              signed int *return_value___errno_location_7;
+              return_value___errno_location_7=__errno_location();
+              char *return_value_strerror_8;
+              return_value_strerror_8=strerror(*return_value___errno_location_7);
+              log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ image.c:337] Failed to open \"%s\": %s\n", file, return_value_strerror_8);
             }
             while((_Bool)0);
             goto error;
@@ -6089,7 +6089,7 @@ signed int bladerf_image_write(struct bladerf_image *img, const char *file)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1419
 void bladerf_init_devinfo(struct bladerf_devinfo *info)
 {
-  info->backend = (enum anonymous$14)BLADERF_BACKEND_ANY;
+  info->backend = (enum anonymous_14)BLADERF_BACKEND_ANY;
   memset((void *)info->serial, 0, (unsigned long int)33);
   strncpy(info->serial, "ANY", (unsigned long int)(33 - 1));
   info->usb_bus = (unsigned char)255;
@@ -6099,7 +6099,7 @@ void bladerf_init_devinfo(struct bladerf_devinfo *info)
 
 // bladerf_init_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1055
-signed int bladerf_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous$11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *data)
+signed int bladerf_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous_11 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *data)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6112,19 +6112,19 @@ signed int bladerf_init_stream(struct bladerf_stream **stream, struct bladerf *d
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/devinfo.h line 53
 _Bool bladerf_instance_matches(struct bladerf_devinfo *a, struct bladerf_devinfo *b)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(a->instance == 1U)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = b->instance == (unsigned int)0x7fffffff * 2U + 1U ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = b->instance == (unsigned int)0x7fffffff * 2U + 1U ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = a->instance == b->instance ? (_Bool)1 : (_Bool)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = a->instance == b->instance ? (_Bool)1 : (_Bool)0;
+  return tmp_if_expr_2;
 }
 
 // bladerf_is_fpga_configured
@@ -6212,7 +6212,7 @@ signed int bladerf_load_fpga(struct bladerf *dev, const char *fpga_file)
 
 // bladerf_load_fw_from_bootloader
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1939
-signed int bladerf_load_fw_from_bootloader(const char *device_identifier, enum anonymous$14 backend, unsigned char bus, unsigned char addr, const char *file)
+signed int bladerf_load_fw_from_bootloader(const char *device_identifier, enum anonymous_14 backend, unsigned char bus, unsigned char addr, const char *file)
 {
   signed int status;
   struct fx3_firmware *fw = (struct fx3_firmware *)(void *)0;
@@ -6281,20 +6281,20 @@ signed int bladerf_open_with_devinfo(struct bladerf **opened_device, struct blad
   }
 
   *opened_device = (struct bladerf *)(void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct bladerf) /*320ul*/ );
-  dev = (struct bladerf *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct bladerf) /*320ul*/ );
+  dev = (struct bladerf *)return_value_calloc_1;
   if(dev == ((struct bladerf *)NULL))
     return -4;
 
   else
   {
-    pthread_mutex_init(&dev->ctrl_lock, (const union anonymous$27 *)(void *)0);
-    pthread_mutex_init(&dev->sync_lock[(signed long int)BLADERF_MODULE_RX], (const union anonymous$27 *)(void *)0);
-    pthread_mutex_init(&dev->sync_lock[(signed long int)BLADERF_MODULE_TX], (const union anonymous$27 *)(void *)0);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)(32 + 1));
-    dev->fpga_version.describe = (const char *)return_value_calloc$2;
+    pthread_mutex_init(&dev->ctrl_lock, (const union anonymous_27 *)(void *)0);
+    pthread_mutex_init(&dev->sync_lock[(signed long int)BLADERF_MODULE_RX], (const union anonymous_27 *)(void *)0);
+    pthread_mutex_init(&dev->sync_lock[(signed long int)BLADERF_MODULE_TX], (const union anonymous_27 *)(void *)0);
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)(32 + 1));
+    dev->fpga_version.describe = (const char *)return_value_calloc_2;
     if(dev->fpga_version.describe == ((const char *)NULL))
     {
       free((void *)dev);
@@ -6303,9 +6303,9 @@ signed int bladerf_open_with_devinfo(struct bladerf **opened_device, struct blad
 
     else
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)1, (unsigned long int)(32 + 1));
-      dev->fw_version.describe = (const char *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)1, (unsigned long int)(32 + 1));
+      dev->fw_version.describe = (const char *)return_value_calloc_3;
       if(dev->fw_version.describe == ((const char *)NULL))
       {
         free((void *)dev->fpga_version.describe);
@@ -6330,9 +6330,9 @@ signed int bladerf_open_with_devinfo(struct bladerf **opened_device, struct blad
           status=dev->fn->get_device_speed(dev, &dev->usb_speed);
           if(!(status >= 0))
           {
-            const char *return_value_bladerf_strerror$4;
-            return_value_bladerf_strerror$4=bladerf_strerror(status);
-            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:140] Failed to get device speed: %s\n", return_value_bladerf_strerror$4);
+            const char *return_value_bladerf_strerror_4;
+            return_value_bladerf_strerror_4=bladerf_strerror(status);
+            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:140] Failed to get device speed: %s\n", return_value_bladerf_strerror_4);
           }
 
           else
@@ -6371,24 +6371,24 @@ signed int bladerf_open_with_devinfo(struct bladerf **opened_device, struct blad
               status=get_and_cache_vctcxo_trim(dev);
               if(!(status >= 0))
               {
-                const char *return_value_bladerf_strerror$5;
-                return_value_bladerf_strerror$5=bladerf_strerror(status);
-                log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:193] Failed to get VCTCXO trim value: %s\n", return_value_bladerf_strerror$5);
+                const char *return_value_bladerf_strerror_5;
+                return_value_bladerf_strerror_5=bladerf_strerror(status);
+                log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:193] Failed to get VCTCXO trim value: %s\n", return_value_bladerf_strerror_5);
               }
 
               status=get_and_cache_fpga_size(dev);
               if(!(status >= 0))
               {
-                const char *return_value_bladerf_strerror$6;
-                return_value_bladerf_strerror$6=bladerf_strerror(status);
-                log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:199] Failed to get FPGA size %s\n", return_value_bladerf_strerror$6);
+                const char *return_value_bladerf_strerror_6;
+                return_value_bladerf_strerror_6=bladerf_strerror(status);
+                log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:199] Failed to get FPGA size %s\n", return_value_bladerf_strerror_6);
               }
 
-              dev->auto_filter[(signed long int)BLADERF_MODULE_RX] = (enum anonymous$10)-1;
-              dev->auto_filter[(signed long int)BLADERF_MODULE_TX] = (enum anonymous$10)-1;
-              dev->module_format[(signed long int)BLADERF_MODULE_RX] = (enum anonymous$11)-1;
-              dev->module_format[(signed long int)BLADERF_MODULE_TX] = (enum anonymous$11)-1;
-              dev->tuning_mode = (enum anonymous$12)BLADERF_TUNING_MODE_INVALID;
+              dev->auto_filter[(signed long int)BLADERF_MODULE_RX] = (enum anonymous_10)-1;
+              dev->auto_filter[(signed long int)BLADERF_MODULE_TX] = (enum anonymous_10)-1;
+              dev->module_format[(signed long int)BLADERF_MODULE_RX] = (enum anonymous_11)-1;
+              dev->module_format[(signed long int)BLADERF_MODULE_TX] = (enum anonymous_11)-1;
+              dev->tuning_mode = (enum anonymous_12)BLADERF_TUNING_MODE_INVALID;
               status=config_load_dc_cals(dev);
               if(status == 0)
               {
@@ -6396,24 +6396,24 @@ signed int bladerf_open_with_devinfo(struct bladerf **opened_device, struct blad
                 if(status >= 1)
                 {
                   fpga_check_version(dev);
-                  _Bool return_value_have_cap$9;
-                  return_value_have_cap$9=have_cap(dev, (unsigned long int)(1 << 3));
-                  if(!(return_value_have_cap$9 == (_Bool)0))
+                  _Bool return_value_have_cap_9;
+                  return_value_have_cap_9=have_cap(dev, (unsigned long int)(1 << 3));
+                  if(!(return_value_have_cap_9 == (_Bool)0))
                   {
-                    status=tuning_cancel_scheduled(dev, (enum anonymous$0)BLADERF_MODULE_RX);
+                    status=tuning_cancel_scheduled(dev, (enum anonymous_0)BLADERF_MODULE_RX);
                     if(!(status == 0))
                     {
-                      const char *return_value_bladerf_strerror$7;
-                      return_value_bladerf_strerror$7=bladerf_strerror(status);
-                      log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:235] Failed to cancel any pending RX retunes: %s\n", return_value_bladerf_strerror$7);
+                      const char *return_value_bladerf_strerror_7;
+                      return_value_bladerf_strerror_7=bladerf_strerror(status);
+                      log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:235] Failed to cancel any pending RX retunes: %s\n", return_value_bladerf_strerror_7);
                     }
 
-                    status=tuning_cancel_scheduled(dev, (enum anonymous$0)BLADERF_MODULE_TX);
+                    status=tuning_cancel_scheduled(dev, (enum anonymous_0)BLADERF_MODULE_TX);
                     if(!(status == 0))
                     {
-                      const char *return_value_bladerf_strerror$8;
-                      return_value_bladerf_strerror$8=bladerf_strerror(status);
-                      log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:241] Failed to cancel any pending TX retunes: %s\n", return_value_bladerf_strerror$8);
+                      const char *return_value_bladerf_strerror_8;
+                      return_value_bladerf_strerror_8=bladerf_strerror(status);
+                      log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:241] Failed to cancel any pending TX retunes: %s\n", return_value_bladerf_strerror_8);
                     }
 
                   }
@@ -6455,14 +6455,14 @@ signed int bladerf_read_flash(struct bladerf *dev, unsigned char *buf, unsigned 
 
 // bladerf_schedule_retune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1390
-signed int bladerf_schedule_retune(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, unsigned int frequency, struct bladerf_quick_tune *quick_tune)
+signed int bladerf_schedule_retune(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, unsigned int frequency, struct bladerf_quick_tune *quick_tune)
 {
   signed int status;
   struct lms_freq f;
   pthread_mutex_lock(&dev->ctrl_lock);
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap(dev, (unsigned long int)(1 << 3));
-  if(return_value_have_cap$1 == (_Bool)0)
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap(dev, (unsigned long int)(1 << 3));
+  if(return_value_have_cap_1 == (_Bool)0)
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf.c:884] This FPGA version (%u.%u.%u) does not support scheduled retunes.\n", dev->fpga_version.major, dev->fpga_version.minor, dev->fpga_version.patch);
@@ -6499,7 +6499,7 @@ out:
 
 // bladerf_select_band
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 844
-signed int bladerf_select_band(struct bladerf *dev, enum anonymous$0 module, unsigned int frequency)
+signed int bladerf_select_band(struct bladerf *dev, enum anonymous_0 module, unsigned int frequency)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6513,48 +6513,48 @@ signed int bladerf_select_band(struct bladerf *dev, enum anonymous$0 module, uns
 _Bool bladerf_serial_matches(struct bladerf_devinfo *a, struct bladerf_devinfo *b)
 {
   _Bool wildcard_match;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(a->serial, "ANY");
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(return_value_strcmp$1 == 0)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(a->serial, "ANY");
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(return_value_strcmp_1 == 0)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$2=strcmp(b->serial, "ANY");
-    tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(b->serial, "ANY");
+    tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  wildcard_match = tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
-  char *return_value_strstr$5;
+  wildcard_match = tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
+  char *return_value_strstr_5;
   if(!(wildcard_match == (_Bool)0))
     return (_Bool)1;
 
   else
   {
     _Bool subset_match;
-    char *return_value_strstr$4;
-    return_value_strstr$4=strstr(a->serial, b->serial);
-    if(return_value_strstr$4 == a->serial)
-      tmp_if_expr$6 = (_Bool)1;
+    char *return_value_strstr_4;
+    return_value_strstr_4=strstr(a->serial, b->serial);
+    if(return_value_strstr_4 == a->serial)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strstr$5=strstr(b->serial, a->serial);
-      tmp_if_expr$6 = return_value_strstr$5 == b->serial ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_5=strstr(b->serial, a->serial);
+      tmp_if_expr_6 = return_value_strstr_5 == b->serial ? (_Bool)1 : (_Bool)0;
     }
-    subset_match = tmp_if_expr$6;
+    subset_match = tmp_if_expr_6;
     return subset_match;
   }
 }
 
 // bladerf_set_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 762
-signed int bladerf_set_bandwidth(struct bladerf *dev, enum anonymous$0 module, unsigned int bandwidth, unsigned int *actual)
+signed int bladerf_set_bandwidth(struct bladerf *dev, enum anonymous_0 module, unsigned int bandwidth, unsigned int *actual)
 {
   signed int status;
-  enum anonymous$15 bw;
+  enum anonymous_15 bw;
   pthread_mutex_lock(&dev->ctrl_lock);
   if(!(bandwidth >= 1500000u))
   {
@@ -6598,7 +6598,7 @@ out:
 
 // bladerf_set_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1761
-signed int bladerf_set_correction(struct bladerf *dev, enum anonymous$0 module, enum anonymous$36 corr, signed short int value)
+signed int bladerf_set_correction(struct bladerf *dev, enum anonymous_0 module, enum anonymous_36 corr, signed short int value)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6635,7 +6635,7 @@ signed int bladerf_set_correction(struct bladerf *dev, enum anonymous$0 module, 
 
 // bladerf_set_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1353
-signed int bladerf_set_frequency(struct bladerf *dev, enum anonymous$0 module, unsigned int frequency)
+signed int bladerf_set_frequency(struct bladerf *dev, enum anonymous_0 module, unsigned int frequency)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6646,7 +6646,7 @@ signed int bladerf_set_frequency(struct bladerf *dev, enum anonymous$0 module, u
 
 // bladerf_set_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 752
-signed int bladerf_set_gain(struct bladerf *dev, enum anonymous$0 mod, signed int gain)
+signed int bladerf_set_gain(struct bladerf *dev, enum anonymous_0 mod, signed int gain)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6657,7 +6657,7 @@ signed int bladerf_set_gain(struct bladerf *dev, enum anonymous$0 mod, signed in
 
 // bladerf_set_lna_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 685
-signed int bladerf_set_lna_gain(struct bladerf *dev, enum anonymous$13 gain)
+signed int bladerf_set_lna_gain(struct bladerf *dev, enum anonymous_13 gain)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6668,15 +6668,15 @@ signed int bladerf_set_lna_gain(struct bladerf *dev, enum anonymous$13 gain)
 
 // bladerf_set_loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 363
-signed int bladerf_set_loopback(struct bladerf *dev, enum anonymous$1 l)
+signed int bladerf_set_loopback(struct bladerf *dev, enum anonymous_1 l)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
   if((signed int)l == BLADERF_LB_FIRMWARE)
   {
-    _Bool return_value_have_cap$1;
-    return_value_have_cap$1=have_cap(dev, (unsigned long int)1 << 32);
-    if(return_value_have_cap$1 == (_Bool)0)
+    _Bool return_value_have_cap_1;
+    return_value_have_cap_1=have_cap(dev, (unsigned long int)1 << 32);
+    if(return_value_have_cap_1 == (_Bool)0)
     {
       do
         log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ bladerf.c:374] Firmware v1.7.1 or later is required to use firmware loopback.\n\n");
@@ -6687,7 +6687,7 @@ signed int bladerf_set_loopback(struct bladerf *dev, enum anonymous$1 l)
 
     else
     {
-      status=lms_set_loopback_mode(dev, (enum anonymous$1)BLADERF_LB_RF_LNA3);
+      status=lms_set_loopback_mode(dev, (enum anonymous_1)BLADERF_LB_RF_LNA3);
       if(!(status == 0))
         goto out;
 
@@ -6697,9 +6697,9 @@ signed int bladerf_set_loopback(struct bladerf *dev, enum anonymous$1 l)
 
   else
   {
-    _Bool return_value_have_cap$2;
-    return_value_have_cap$2=have_cap(dev, (unsigned long int)1 << 32);
-    if(!(return_value_have_cap$2 == (_Bool)0))
+    _Bool return_value_have_cap_2;
+    return_value_have_cap_2=have_cap(dev, (unsigned long int)1 << 32);
+    if(!(return_value_have_cap_2 == (_Bool)0))
     {
       _Bool fw_lb_enabled = (_Bool)0;
       status=dev->fn->get_firmware_loopback(dev, &fw_lb_enabled);
@@ -6719,7 +6719,7 @@ out:
 
 // bladerf_set_lpf_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 820
-signed int bladerf_set_lpf_mode(struct bladerf *dev, enum anonymous$0 module, enum anonymous$2 mode)
+signed int bladerf_set_lpf_mode(struct bladerf *dev, enum anonymous_0 module, enum anonymous_2 mode)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6730,7 +6730,7 @@ signed int bladerf_set_lpf_mode(struct bladerf *dev, enum anonymous$0 module, en
 
 // bladerf_set_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 521
-signed int bladerf_set_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual)
+signed int bladerf_set_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6752,7 +6752,7 @@ signed int bladerf_set_rational_smb_frequency(struct bladerf *dev, struct blader
 
 // bladerf_set_rx_mux
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 446
-signed int bladerf_set_rx_mux(struct bladerf *dev, enum anonymous$33 mux)
+signed int bladerf_set_rx_mux(struct bladerf *dev, enum anonymous_33 mux)
 {
   unsigned int rx_mux_val;
   unsigned int config_gpio;
@@ -6810,7 +6810,7 @@ signed int bladerf_set_rxvga2(struct bladerf *dev, signed int gain)
 
 // bladerf_set_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 534
-signed int bladerf_set_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int rate, unsigned int *actual)
+signed int bladerf_set_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int rate, unsigned int *actual)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6821,7 +6821,7 @@ signed int bladerf_set_sample_rate(struct bladerf *dev, enum anonymous$0 module,
 
 // bladerf_set_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 629
-signed int bladerf_set_sampling(struct bladerf *dev, enum anonymous$34 sampling)
+signed int bladerf_set_sampling(struct bladerf *dev, enum anonymous_34 sampling)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6843,7 +6843,7 @@ signed int bladerf_set_smb_frequency(struct bladerf *dev, unsigned int rate, uns
 
 // bladerf_set_stream_timeout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 969
-signed int bladerf_set_stream_timeout(struct bladerf *dev, enum anonymous$0 module, unsigned int timeout)
+signed int bladerf_set_stream_timeout(struct bladerf *dev, enum anonymous_0 module, unsigned int timeout)
 {
   if(!(dev == ((struct bladerf *)NULL)))
   {
@@ -6859,7 +6859,7 @@ signed int bladerf_set_stream_timeout(struct bladerf *dev, enum anonymous$0 modu
 
 // bladerf_set_tuning_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/include/libbladeRF.h line 1459
-signed int bladerf_set_tuning_mode(struct bladerf *dev, enum anonymous$12 mode)
+signed int bladerf_set_tuning_mode(struct bladerf *dev, enum anonymous_12 mode)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6902,7 +6902,7 @@ void bladerf_set_usb_reset_on_open(_Bool enabled)
 
 // bladerf_set_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1877
-signed int bladerf_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 mode)
+signed int bladerf_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 mode)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -6935,7 +6935,7 @@ signed int bladerf_si5338_write(struct bladerf *dev, unsigned char address, unsi
 
 // bladerf_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1075
-signed int bladerf_stream(struct bladerf_stream *stream, enum anonymous$0 module)
+signed int bladerf_stream(struct bladerf_stream *stream, enum anonymous_0 module)
 {
   signed int stream_status;
   signed int fmt_status;
@@ -7100,23 +7100,23 @@ const char * bladerf_strerror(signed int error)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1098
 signed int bladerf_submit_stream_buffer(struct bladerf_stream *stream, void *buffer, unsigned int timeout_ms)
 {
-  signed int return_value_async_submit_stream_buffer$1;
-  return_value_async_submit_stream_buffer$1=async_submit_stream_buffer(stream, buffer, timeout_ms, (_Bool)0);
-  return return_value_async_submit_stream_buffer$1;
+  signed int return_value_async_submit_stream_buffer_1;
+  return_value_async_submit_stream_buffer_1=async_submit_stream_buffer(stream, buffer, timeout_ms, (_Bool)0);
+  return return_value_async_submit_stream_buffer_1;
 }
 
 // bladerf_submit_stream_buffer_nb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1105
 signed int bladerf_submit_stream_buffer_nb(struct bladerf_stream *stream, void *buffer)
 {
-  signed int return_value_async_submit_stream_buffer$1;
-  return_value_async_submit_stream_buffer$1=async_submit_stream_buffer(stream, buffer, (unsigned int)5000, (_Bool)1);
-  return return_value_async_submit_stream_buffer$1;
+  signed int return_value_async_submit_stream_buffer_1;
+  return_value_async_submit_stream_buffer_1=async_submit_stream_buffer(stream, buffer, (unsigned int)5000, (_Bool)1);
+  return return_value_async_submit_stream_buffer_1;
 }
 
 // bladerf_sync_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 995
-signed int bladerf_sync_config(struct bladerf *dev, enum anonymous$0 module, enum anonymous$11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout)
+signed int bladerf_sync_config(struct bladerf *dev, enum anonymous_0 module, enum anonymous_11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -7181,7 +7181,7 @@ signed int bladerf_write_flash(struct bladerf *dev, const unsigned char *buf, un
 
 // bladerf_xb200_get_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1634
-signed int bladerf_xb200_get_filterbank(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 *filter)
+signed int bladerf_xb200_get_filterbank(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 *filter)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -7192,7 +7192,7 @@ signed int bladerf_xb200_get_filterbank(struct bladerf *dev, enum anonymous$0 mo
 
 // bladerf_xb200_get_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1660
-signed int bladerf_xb200_get_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 *path)
+signed int bladerf_xb200_get_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 *path)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -7203,7 +7203,7 @@ signed int bladerf_xb200_get_path(struct bladerf *dev, enum anonymous$0 module, 
 
 // bladerf_xb200_set_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1621
-signed int bladerf_xb200_set_filterbank(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$10 filter)
+signed int bladerf_xb200_set_filterbank(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_10 filter)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -7214,7 +7214,7 @@ signed int bladerf_xb200_set_filterbank(struct bladerf *dev, enum anonymous$0 mo
 
 // bladerf_xb200_set_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1647
-signed int bladerf_xb200_set_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 path)
+signed int bladerf_xb200_set_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 path)
 {
   signed int status;
   pthread_mutex_lock(&dev->ctrl_lock);
@@ -7236,7 +7236,7 @@ signed int bladerf_xb_spi_write(struct bladerf *dev, unsigned int val)
 
 // bm_request_type
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 742
-static inline unsigned char bm_request_type(enum anonymous$28 target_type, enum anonymous$29 req_type, enum anonymous$30 direction)
+static inline unsigned char bm_request_type(enum anonymous_28 target_type, enum anonymous_29 req_type, enum anonymous_30 direction)
 {
   unsigned char ret = (unsigned char)0;
   switch((signed int)target_type)
@@ -7291,17 +7291,17 @@ static inline unsigned char bm_request_type(enum anonymous$28 target_type, enum 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 627
 static inline _Bool bus_matches(unsigned char bus, struct libusb_device *d)
 {
-  _Bool tmp_if_expr$2;
-  unsigned char return_value_libusb_get_bus_number$1;
+  _Bool tmp_if_expr_2;
+  unsigned char return_value_libusb_get_bus_number_1;
   if((signed int)bus == 255)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_libusb_get_bus_number$1=libusb_get_bus_number(d);
-    tmp_if_expr$2 = bus == return_value_libusb_get_bus_number$1 ? (_Bool)1 : (_Bool)0;
+    return_value_libusb_get_bus_number_1=libusb_get_bus_number(d);
+    tmp_if_expr_2 = bus == return_value_libusb_get_bus_number_1 ? (_Bool)1 : (_Bool)0;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // bytes_to_sc16q11
@@ -7338,14 +7338,14 @@ static inline void cancel_all_transfers(struct bladerf_stream *stream)
       if(!(status == -5) && !(status >= 0))
         do
         {
-          const char *return_value_libusb_error_name$1;
-          return_value_libusb_error_name$1=libusb_error_name(status);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:876] Error canceling transfer (%d): %s\r\n", status, return_value_libusb_error_name$1);
+          const char *return_value_libusb_error_name_1;
+          return_value_libusb_error_name_1=libusb_error_name(status);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:876] Error canceling transfer (%d): %s\r\n", status, return_value_libusb_error_name_1);
         }
         while((_Bool)0);
 
       else
-        stream_data->transfer_status[(signed long int)i] = (enum anonymous$37)TRANSFER_CANCEL_PENDING;
+        stream_data->transfer_status[(signed long int)i] = (enum anonymous_37)TRANSFER_CANCEL_PENDING;
     }
 
 }
@@ -7354,52 +7354,52 @@ static inline void cancel_all_transfers(struct bladerf_stream *stream)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.c line 48
 void capabilities_init_post_fpga_load(struct bladerf *dev)
 {
-  _Bool return_value_version_greater_or_equal$1;
-  return_value_version_greater_or_equal$1=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)0, (unsigned int)4);
-  if(!(return_value_version_greater_or_equal$1 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_1;
+  return_value_version_greater_or_equal_1=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)0, (unsigned int)4);
+  if(!(return_value_version_greater_or_equal_1 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 0);
 
-  _Bool return_value_version_greater_or_equal$2;
-  return_value_version_greater_or_equal$2=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)0, (unsigned int)5);
-  if(!(return_value_version_greater_or_equal$2 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_2;
+  return_value_version_greater_or_equal_2=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)0, (unsigned int)5);
+  if(!(return_value_version_greater_or_equal_2 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 1);
 
-  _Bool return_value_version_greater_or_equal$3;
-  return_value_version_greater_or_equal$3=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)1, (unsigned int)0);
-  if(!(return_value_version_greater_or_equal$3 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_3;
+  return_value_version_greater_or_equal_3=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)1, (unsigned int)0);
+  if(!(return_value_version_greater_or_equal_3 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 2);
 
-  _Bool return_value_version_greater_or_equal$4;
-  return_value_version_greater_or_equal$4=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)2, (unsigned int)0);
-  if(!(return_value_version_greater_or_equal$4 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_4;
+  return_value_version_greater_or_equal_4=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)2, (unsigned int)0);
+  if(!(return_value_version_greater_or_equal_4 == (_Bool)0))
   {
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 3);
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 3);
   }
 
-  _Bool return_value_version_greater_or_equal$5;
-  return_value_version_greater_or_equal$5=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)3, (unsigned int)0);
-  if(!(return_value_version_greater_or_equal$5 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_5;
+  return_value_version_greater_or_equal_5=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)3, (unsigned int)0);
+  if(!(return_value_version_greater_or_equal_5 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 4);
 
-  _Bool return_value_version_greater_or_equal$6;
-  return_value_version_greater_or_equal$6=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)3, (unsigned int)2);
-  if(!(return_value_version_greater_or_equal$6 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_6;
+  return_value_version_greater_or_equal_6=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)3, (unsigned int)2);
+  if(!(return_value_version_greater_or_equal_6 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 5);
 
-  _Bool return_value_version_greater_or_equal$7;
-  return_value_version_greater_or_equal$7=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)4, (unsigned int)0);
-  if(!(return_value_version_greater_or_equal$7 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_7;
+  return_value_version_greater_or_equal_7=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)4, (unsigned int)0);
+  if(!(return_value_version_greater_or_equal_7 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 6);
 
-  _Bool return_value_version_greater_or_equal$8;
-  return_value_version_greater_or_equal$8=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)4, (unsigned int)1);
-  if(!(return_value_version_greater_or_equal$8 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_8;
+  return_value_version_greater_or_equal_8=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)4, (unsigned int)1);
+  if(!(return_value_version_greater_or_equal_8 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 7);
 
-  _Bool return_value_version_greater_or_equal$9;
-  return_value_version_greater_or_equal$9=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)5, (unsigned int)0);
-  if(!(return_value_version_greater_or_equal$9 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_9;
+  return_value_version_greater_or_equal_9=version_greater_or_equal(&dev->fpga_version, (unsigned int)0, (unsigned int)5, (unsigned int)0);
+  if(!(return_value_version_greater_or_equal_9 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)(1 << 8);
 
   do
@@ -7412,19 +7412,19 @@ void capabilities_init_post_fpga_load(struct bladerf *dev)
 void capabilities_init_pre_fpga_load(struct bladerf *dev)
 {
   dev->capabilities = (unsigned long int)0;
-  _Bool return_value_version_greater_or_equal$1;
-  return_value_version_greater_or_equal$1=version_greater_or_equal(&dev->fw_version, (unsigned int)1, (unsigned int)7, (unsigned int)1);
-  if(!(return_value_version_greater_or_equal$1 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_1;
+  return_value_version_greater_or_equal_1=version_greater_or_equal(&dev->fw_version, (unsigned int)1, (unsigned int)7, (unsigned int)1);
+  if(!(return_value_version_greater_or_equal_1 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)1 << 32;
 
-  _Bool return_value_version_greater_or_equal$2;
-  return_value_version_greater_or_equal$2=version_greater_or_equal(&dev->fw_version, (unsigned int)1, (unsigned int)8, (unsigned int)0);
-  if(!(return_value_version_greater_or_equal$2 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_2;
+  return_value_version_greater_or_equal_2=version_greater_or_equal(&dev->fw_version, (unsigned int)1, (unsigned int)8, (unsigned int)0);
+  if(!(return_value_version_greater_or_equal_2 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)1 << 33;
 
-  _Bool return_value_version_greater_or_equal$3;
-  return_value_version_greater_or_equal$3=version_greater_or_equal(&dev->fw_version, (unsigned int)1, (unsigned int)9, (unsigned int)0);
-  if(!(return_value_version_greater_or_equal$3 == (_Bool)0))
+  _Bool return_value_version_greater_or_equal_3;
+  return_value_version_greater_or_equal_3=version_greater_or_equal(&dev->fw_version, (unsigned int)1, (unsigned int)9, (unsigned int)0);
+  if(!(return_value_version_greater_or_equal_3 == (_Bool)0))
     dev->capabilities = dev->capabilities | (unsigned long int)1 << 34;
 
   do
@@ -7439,16 +7439,16 @@ static inline signed int change_setting(struct bladerf *dev, unsigned char setti
   signed int status;
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ usb.c:112] Changing to USB alt setting %u\n", setting);
   while((_Bool)0);
   status=usb->fn->change_setting(driver, setting);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:116] Failed to change setting: %s\n", return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:116] Failed to change setting: %s\n", return_value_bladerf_strerror_1);
   }
 
   return status;
@@ -7490,7 +7490,7 @@ static inline signed int check_eb_access(unsigned int erase_block, unsigned int 
 
 // check_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 417
-signed int check_module(enum anonymous$0 m)
+signed int check_module(enum anonymous_0 m)
 {
   signed int status;
   if((signed int)m == BLADERF_MODULE_RX || (signed int)m == BLADERF_MODULE_TX)
@@ -7545,7 +7545,7 @@ static inline signed int check_page_access(unsigned int page, unsigned int count
 
 // check_xb200_filter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 435
-signed int check_xb200_filter(enum anonymous$10 f)
+signed int check_xb200_filter(enum anonymous_10 f)
 {
   signed int status;
   if((signed int)f == BLADERF_XB200_50M || (signed int)f == BLADERF_XB200_144M || (signed int)f == BLADERF_XB200_222M || (signed int)f == BLADERF_XB200_CUSTOM || (signed int)f == BLADERF_XB200_AUTO_1DB || (signed int)f == BLADERF_XB200_AUTO_3DB)
@@ -7566,7 +7566,7 @@ __CPROVER_DUMP_L3:
 
 // check_xb200_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 458
-signed int check_xb200_path(enum anonymous$35 p)
+signed int check_xb200_path(enum anonymous_35 p)
 {
   signed int status;
   if((signed int)p == BLADERF_XB200_BYPASS || (signed int)p == BLADERF_XB200_MIX)
@@ -7613,9 +7613,9 @@ signed int config_load_dc_cals(struct bladerf *dev)
 {
   char *filename;
   char *full_path;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, (unsigned long int)(4096 + 1));
-  filename = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, (unsigned long int)(4096 + 1));
+  filename = (char *)return_value_calloc_1;
   if(filename == ((char *)NULL))
     return -4;
 
@@ -7684,18 +7684,18 @@ static unsigned short int crc16mp(unsigned short int crcval, void *data_p, unsig
 {
   unsigned short int xx;
   unsigned char *ptr = (unsigned char *)data_p;
-  unsigned short int tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned short int tmp_post_1;
+  unsigned char *tmp_post_2;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1;
-    if(!((signed int)tmp_post$1 >= 1))
+    if(!((signed int)tmp_post_1 >= 1))
       break;
 
-    tmp_post$2 = ptr;
+    tmp_post_2 = ptr;
     ptr = ptr + 1l;
-    crcval = (unsigned short int)((signed int)crcval ^ (signed int)(unsigned short int)((signed int)(unsigned short int)*tmp_post$2 << 8));
+    crcval = (unsigned short int)((signed int)crcval ^ (signed int)(unsigned short int)((signed int)(unsigned short int)*tmp_post_2 << 8));
     xx = (unsigned short int)0;
     for( ; !((signed int)xx >= 8); xx = xx + 1)
       if(!((0x8000 & (signed int)crcval) == 0))
@@ -7710,7 +7710,7 @@ static unsigned short int crc16mp(unsigned short int crcval, void *data_p, unsig
 
 // dc_cal_backup
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2494
-static inline signed int dc_cal_backup(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state)
+static inline signed int dc_cal_backup(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state)
 {
   signed int status;
   memset((void *)state, 0, sizeof(struct dc_cal_state) /*32ul*/ );
@@ -7747,31 +7747,31 @@ static inline void dc_cal_interp(struct dc_cal_tbl *tbl, unsigned int idx_low, u
 {
   const unsigned int f_low = (tbl->entries + (signed long int)idx_low)->freq;
   const unsigned int f_high = (tbl->entries + (signed long int)idx_high)->freq;
-  unsigned int return_value_interp$1;
-  return_value_interp$1=interp(f_low, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_i, f_high, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_i, freq);
-  *dc_i = (signed short int)return_value_interp$1;
-  unsigned int return_value_interp$2;
-  return_value_interp$2=interp(f_low, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_q, f_high, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_q, freq);
-  *dc_q = (signed short int)return_value_interp$2;
+  unsigned int return_value_interp_1;
+  return_value_interp_1=interp(f_low, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_i, f_high, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_i, freq);
+  *dc_i = (signed short int)return_value_interp_1;
+  unsigned int return_value_interp_2;
+  return_value_interp_2=interp(f_low, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_q, f_high, (unsigned int)(tbl->entries + (signed long int)idx_low)->dc_q, freq);
+  *dc_q = (signed short int)return_value_interp_2;
 }
 
 // dc_cal_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2949
-static inline signed int dc_cal_module(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state, _Bool *converged)
+static inline signed int dc_cal_module(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state, _Bool *converged)
 {
   unsigned int i;
   signed int status = 0;
   *converged = (_Bool)1;
   i = (unsigned int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= state->num_submodules))
-      tmp_if_expr$1 = *converged != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *converged != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!(status == 0) || !tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!(status == 0) || !tmp_if_expr_1)
       break;
 
     status=dc_cal_submodule(dev, module, i, state, converged);
@@ -7783,7 +7783,7 @@ static inline signed int dc_cal_module(struct bladerf *dev, enum anonymous$3 mod
 
 // dc_cal_module_deinit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2847
-static signed int dc_cal_module_deinit(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state)
+static signed int dc_cal_module_deinit(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state)
 {
   signed int status = 0;
   switch((signed int)module)
@@ -7792,7 +7792,7 @@ static signed int dc_cal_module_deinit(struct bladerf *dev, enum anonymous$3 mod
       break;
     case BLADERF_DC_CAL_RX_LPF:
     {
-      status=lms_set$link1(dev, (unsigned char)0x5f, (unsigned char)(1 << 7));
+      status=lms_set_link1(dev, (unsigned char)0x5f, (unsigned char)(1 << 7));
       if(!(status == 0))
         return status;
 
@@ -7802,7 +7802,7 @@ static signed int dc_cal_module_deinit(struct bladerf *dev, enum anonymous$3 mod
       status=dev->fn->lms_write(dev, (unsigned char)0x68, (unsigned char)0x01);
     case BLADERF_DC_CAL_TX_LPF:
     {
-      status=lms_set$link1(dev, (unsigned char)0x3f, (unsigned char)(1 << 7));
+      status=lms_set_link1(dev, (unsigned char)0x3f, (unsigned char)(1 << 7));
       if(!(status == 0))
         return status;
 
@@ -7824,7 +7824,7 @@ static signed int dc_cal_module_deinit(struct bladerf *dev, enum anonymous$3 mod
 
 // dc_cal_module_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2534
-static signed int dc_cal_module_init(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state)
+static signed int dc_cal_module_init(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state)
 {
   signed int status;
   unsigned char cal_clock;
@@ -7890,7 +7890,7 @@ static signed int dc_cal_module_init(struct bladerf *dev, enum anonymous$3 modul
       if(!(status == 0))
         return status;
 
-      status=lms_lna_set_gain(dev, (enum anonymous$13)BLADERF_LNA_GAIN_MAX);
+      status=lms_lna_set_gain(dev, (enum anonymous_13)BLADERF_LNA_GAIN_MAX);
       if(!(status == 0))
         return status;
 
@@ -7904,7 +7904,7 @@ static signed int dc_cal_module_init(struct bladerf *dev, enum anonymous$3 modul
       if(!(status == 0))
         return status;
 
-      status=lms_set$link1(dev, (unsigned char)0x36, (unsigned char)(1 << 7));
+      status=lms_set_link1(dev, (unsigned char)0x36, (unsigned char)(1 << 7));
       if(!(status == 0))
         return status;
 
@@ -7923,7 +7923,7 @@ static signed int dc_cal_module_init(struct bladerf *dev, enum anonymous$3 modul
 
 // dc_cal_restore
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2910
-static inline signed int dc_cal_restore(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state)
+static inline signed int dc_cal_restore(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state)
 {
   signed int status;
   signed int ret = 0;
@@ -7956,7 +7956,7 @@ static inline signed int dc_cal_restore(struct bladerf *dev, enum anonymous$3 mo
 
 // dc_cal_retry_adjustment
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2792
-static signed int dc_cal_retry_adjustment(struct bladerf *dev, enum anonymous$3 module, struct dc_cal_state *state, _Bool *limit_reached)
+static signed int dc_cal_retry_adjustment(struct bladerf *dev, enum anonymous_3 module, struct dc_cal_state *state, _Bool *limit_reached)
 {
   signed int status = 0;
   switch((signed int)module)
@@ -8026,7 +8026,7 @@ static signed int dc_cal_retry_adjustment(struct bladerf *dev, enum anonymous$3 
 
 // dc_cal_submodule
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2663
-static signed int dc_cal_submodule(struct bladerf *dev, enum anonymous$3 module, unsigned int submodule, struct dc_cal_state *state, _Bool *converged)
+static signed int dc_cal_submodule(struct bladerf *dev, enum anonymous_3 module, unsigned int submodule, struct dc_cal_state *state, _Bool *converged)
 {
   signed int status;
   unsigned char val;
@@ -8045,7 +8045,7 @@ static signed int dc_cal_submodule(struct bladerf *dev, enum anonymous$3 module,
       }
       case (unsigned int)1:
       {
-        status=lms_set$link1(dev, (unsigned char)0x64, (unsigned char)(1 << 0));
+        status=lms_set_link1(dev, (unsigned char)0x64, (unsigned char)(1 << 0));
         if(!(status == 0))
           return status;
 
@@ -8155,16 +8155,16 @@ struct dc_cal_tbl * dc_cal_tbl_load(unsigned char *buf, unsigned long int buf_le
   struct dc_cal_tbl *ret;
   unsigned int i;
   unsigned short int magic;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned char *tmp_post$12;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned char *tmp_post_12;
   if(!(buf_len >= sizeof(unsigned int) * 8 /*32ul*/ ))
     return (struct dc_cal_tbl *)(void *)0;
 
@@ -8182,9 +8182,9 @@ struct dc_cal_tbl * dc_cal_tbl_load(unsigned char *buf, unsigned long int buf_le
     else
     {
       buf = buf + (signed long int)sizeof(unsigned short int) /*2ul*/ ;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct dc_cal_tbl) /*40ul*/ );
-      ret = (struct dc_cal_tbl *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct dc_cal_tbl) /*40ul*/ );
+      ret = (struct dc_cal_tbl *)return_value_malloc_1;
       if(ret == ((struct dc_cal_tbl *)NULL))
         return (struct dc_cal_tbl *)(void *)0;
 
@@ -8205,9 +8205,9 @@ struct dc_cal_tbl * dc_cal_tbl_load(unsigned char *buf, unsigned long int buf_le
 
         else
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(struct dc_cal_entry) /*8ul*/  * (unsigned long int)ret->n_entries);
-          ret->entries = (struct dc_cal_entry *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(struct dc_cal_entry) /*8ul*/  * (unsigned long int)ret->n_entries);
+          ret->entries = (struct dc_cal_entry *)return_value_malloc_2;
           if(ret->entries == ((struct dc_cal_entry *)NULL))
           {
             free((void *)ret);
@@ -8216,36 +8216,36 @@ struct dc_cal_tbl * dc_cal_tbl_load(unsigned char *buf, unsigned long int buf_le
 
           else
           {
-            tmp_post$3 = buf;
+            tmp_post_3 = buf;
             buf = buf + 1l;
-            ret->reg_vals.lpf_tuning = (signed short int)*tmp_post$3;
-            tmp_post$4 = buf;
+            ret->reg_vals.lpf_tuning = (signed short int)*tmp_post_3;
+            tmp_post_4 = buf;
             buf = buf + 1l;
-            ret->reg_vals.tx_lpf_i = (signed short int)*tmp_post$4;
-            tmp_post$5 = buf;
+            ret->reg_vals.tx_lpf_i = (signed short int)*tmp_post_4;
+            tmp_post_5 = buf;
             buf = buf + 1l;
-            ret->reg_vals.tx_lpf_q = (signed short int)*tmp_post$5;
-            tmp_post$6 = buf;
+            ret->reg_vals.tx_lpf_q = (signed short int)*tmp_post_5;
+            tmp_post_6 = buf;
             buf = buf + 1l;
-            ret->reg_vals.rx_lpf_i = (signed short int)*tmp_post$6;
-            tmp_post$7 = buf;
+            ret->reg_vals.rx_lpf_i = (signed short int)*tmp_post_6;
+            tmp_post_7 = buf;
             buf = buf + 1l;
-            ret->reg_vals.rx_lpf_q = (signed short int)*tmp_post$7;
-            tmp_post$8 = buf;
+            ret->reg_vals.rx_lpf_q = (signed short int)*tmp_post_7;
+            tmp_post_8 = buf;
             buf = buf + 1l;
-            ret->reg_vals.dc_ref = (signed short int)*tmp_post$8;
-            tmp_post$9 = buf;
+            ret->reg_vals.dc_ref = (signed short int)*tmp_post_8;
+            tmp_post_9 = buf;
             buf = buf + 1l;
-            ret->reg_vals.rxvga2a_i = (signed short int)*tmp_post$9;
-            tmp_post$10 = buf;
+            ret->reg_vals.rxvga2a_i = (signed short int)*tmp_post_9;
+            tmp_post_10 = buf;
             buf = buf + 1l;
-            ret->reg_vals.rxvga2a_q = (signed short int)*tmp_post$10;
-            tmp_post$11 = buf;
+            ret->reg_vals.rxvga2a_q = (signed short int)*tmp_post_10;
+            tmp_post_11 = buf;
             buf = buf + 1l;
-            ret->reg_vals.rxvga2b_i = (signed short int)*tmp_post$11;
-            tmp_post$12 = buf;
+            ret->reg_vals.rxvga2b_i = (signed short int)*tmp_post_11;
+            tmp_post_12 = buf;
             buf = buf + 1l;
-            ret->reg_vals.rxvga2b_q = (signed short int)*tmp_post$12;
+            ret->reg_vals.rxvga2b_q = (signed short int)*tmp_post_12;
             ret->curr_idx = ret->n_entries / (unsigned int)2;
             i = (unsigned int)0;
             for( ; !(i >= ret->n_entries); i = i + 1u)
@@ -8277,22 +8277,22 @@ unsigned int dc_cal_tbl_lookup(struct dc_cal_tbl *tbl, unsigned int freq)
   if(tbl->n_entries >= 11u)
   {
     unsigned int min_idx;
-    signed long int return_value_i64_max$1;
-    return_value_i64_max$1=i64_max((signed long int)0, (signed long int)tbl->curr_idx - (signed long int)10 / (signed long int)2);
-    min_idx = (unsigned int)return_value_i64_max$1;
+    signed long int return_value_i64_max_1;
+    return_value_i64_max_1=i64_max((signed long int)0, (signed long int)tbl->curr_idx - (signed long int)10 / (signed long int)2);
+    min_idx = (unsigned int)return_value_i64_max_1;
     unsigned int max_idx;
-    signed long int return_value_i64_min$2;
-    return_value_i64_min$2=i64_min((signed long int)(tbl->n_entries - (unsigned int)1), (signed long int)(tbl->curr_idx + (unsigned int)(10 / 2)));
-    max_idx = (unsigned int)return_value_i64_min$2;
+    signed long int return_value_i64_min_2;
+    return_value_i64_min_2=i64_min((signed long int)(tbl->n_entries - (unsigned int)1), (signed long int)(tbl->curr_idx + (unsigned int)(10 / 2)));
+    max_idx = (unsigned int)return_value_i64_min_2;
     ret=find_entry(tbl, tbl->curr_idx, min_idx, max_idx, freq, &limit);
     if(limit == (_Bool)0)
       return ret;
 
   }
 
-  unsigned int return_value_find_entry$3;
-  return_value_find_entry$3=find_entry(tbl, tbl->curr_idx, (unsigned int)0, tbl->n_entries - (unsigned int)1, freq, &limit);
-  return return_value_find_entry$3;
+  unsigned int return_value_find_entry_3;
+  return_value_find_entry_3=find_entry(tbl, tbl->curr_idx, (unsigned int)0, tbl->n_entries - (unsigned int)1, freq, &limit);
+  return return_value_find_entry_3;
 }
 
 // dc_cal_tbl_vals
@@ -8330,9 +8330,9 @@ static _Bool device_has_vid_pid(struct libusb_device *dev, unsigned short int vi
   if(!(status == 0))
     do
     {
-      const char *return_value_libusb_error_name$1;
-      return_value_libusb_error_name$1=libusb_error_name(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:180] Couldn't get device descriptor: %s\n", return_value_libusb_error_name$1);
+      const char *return_value_libusb_error_name_1;
+      return_value_libusb_error_name_1=libusb_error_name(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:180] Couldn't get device descriptor: %s\n", return_value_libusb_error_name_1);
     }
     while((_Bool)0);
 
@@ -8348,9 +8348,9 @@ static _Bool device_is_bladerf(struct libusb_device *dev)
   struct libusb_config_descriptor *cfg;
   signed int status;
   _Bool ret;
-  _Bool return_value_device_has_vid_pid$1;
-  return_value_device_has_vid_pid$1=device_has_vid_pid(dev, (unsigned short int)0x1d50, (unsigned short int)0x6066);
-  if(return_value_device_has_vid_pid$1 == (_Bool)0)
+  _Bool return_value_device_has_vid_pid_1;
+  return_value_device_has_vid_pid_1=device_has_vid_pid(dev, (unsigned short int)0x1d50, (unsigned short int)0x6066);
+  if(return_value_device_has_vid_pid_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -8360,9 +8360,9 @@ static _Bool device_is_bladerf(struct libusb_device *dev)
     {
       do
       {
-        const char *return_value_libusb_error_name$2;
-        return_value_libusb_error_name$2=libusb_error_name(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:210] Failed to get configuration descriptor: %s\n", return_value_libusb_error_name$2);
+        const char *return_value_libusb_error_name_2;
+        return_value_libusb_error_name_2=libusb_error_name(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:210] Failed to get configuration descriptor: %s\n", return_value_libusb_error_name_2);
       }
       while((_Bool)0);
       return (_Bool)0;
@@ -8394,24 +8394,24 @@ static _Bool device_is_bladerf(struct libusb_device *dev)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 188
 static _Bool device_is_fx3_bootloader(struct libusb_device *dev)
 {
-  _Bool return_value_device_has_vid_pid$1;
-  return_value_device_has_vid_pid$1=device_has_vid_pid(dev, (unsigned short int)0x04b4, (unsigned short int)0x00f3);
-  _Bool tmp_if_expr$3;
-  _Bool return_value_device_has_vid_pid$2;
-  if(!(return_value_device_has_vid_pid$1 == (_Bool)0))
-    tmp_if_expr$3 = (_Bool)1;
+  _Bool return_value_device_has_vid_pid_1;
+  return_value_device_has_vid_pid_1=device_has_vid_pid(dev, (unsigned short int)0x04b4, (unsigned short int)0x00f3);
+  _Bool tmp_if_expr_3;
+  _Bool return_value_device_has_vid_pid_2;
+  if(!(return_value_device_has_vid_pid_1 == (_Bool)0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_device_has_vid_pid$2=device_has_vid_pid(dev, (unsigned short int)0x1d50, (unsigned short int)0x6080);
-    tmp_if_expr$3 = return_value_device_has_vid_pid$2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_device_has_vid_pid_2=device_has_vid_pid(dev, (unsigned short int)0x1d50, (unsigned short int)0x6080);
+    tmp_if_expr_3 = return_value_device_has_vid_pid_2 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
-  return tmp_if_expr$3;
+  return tmp_if_expr_3;
 }
 
 // device_is_probe_target
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 234
-static _Bool device_is_probe_target(enum anonymous$16 probe_target, struct libusb_device *dev)
+static _Bool device_is_probe_target(enum anonymous_16 probe_target, struct libusb_device *dev)
 {
   _Bool is_probe_target = (_Bool)0;
   switch((signed int)probe_target)
@@ -8445,7 +8445,7 @@ static _Bool device_is_probe_target(enum anonymous$16 probe_target, struct libus
 
 // devspeed2str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 328
-const char * devspeed2str(enum anonymous$9 speed)
+const char * devspeed2str(enum anonymous_9 speed)
 {
   switch((signed int)speed)
   {
@@ -8507,16 +8507,16 @@ static inline signed int enable_lpf_cal_clock(struct bladerf *dev, _Bool enable)
   const unsigned char mask = (const unsigned char)(1 << 5);
   if(!(enable == (_Bool)0))
   {
-    signed int return_value_lms_set$1;
-    return_value_lms_set$1=lms_set$link1(dev, (unsigned char)0x09, mask);
-    return return_value_lms_set$1;
+    signed int return_value_lms_set_1;
+    return_value_lms_set_1=lms_set_link1(dev, (unsigned char)0x09, mask);
+    return return_value_lms_set_1;
   }
 
   else
   {
-    signed int return_value_lms_clear$2;
-    return_value_lms_clear$2=lms_clear(dev, (unsigned char)0x09, mask);
-    return return_value_lms_clear$2;
+    signed int return_value_lms_clear_2;
+    return_value_lms_clear_2=lms_clear(dev, (unsigned char)0x09, mask);
+    return return_value_lms_clear_2;
   }
 }
 
@@ -8550,16 +8550,16 @@ static inline signed int enable_rxlpf_dccal_clock(struct bladerf *dev, _Bool ena
   const unsigned char mask = (const unsigned char)(1 << 3);
   if(!(enable == (_Bool)0))
   {
-    signed int return_value_lms_set$1;
-    return_value_lms_set$1=lms_set$link1(dev, (unsigned char)0x09, mask);
-    return return_value_lms_set$1;
+    signed int return_value_lms_set_1;
+    return_value_lms_set_1=lms_set_link1(dev, (unsigned char)0x09, mask);
+    return return_value_lms_set_1;
   }
 
   else
   {
-    signed int return_value_lms_clear$2;
-    return_value_lms_clear$2=lms_clear(dev, (unsigned char)0x09, mask);
-    return return_value_lms_clear$2;
+    signed int return_value_lms_clear_2;
+    return_value_lms_clear_2=lms_clear(dev, (unsigned char)0x09, mask);
+    return return_value_lms_clear_2;
   }
 }
 
@@ -8570,16 +8570,16 @@ static inline signed int enable_rxvga2_dccal_clock(struct bladerf *dev, _Bool en
   const unsigned char mask = (const unsigned char)(1 << 4);
   if(!(enable == (_Bool)0))
   {
-    signed int return_value_lms_set$1;
-    return_value_lms_set$1=lms_set$link1(dev, (unsigned char)0x09, mask);
-    return return_value_lms_set$1;
+    signed int return_value_lms_set_1;
+    return_value_lms_set_1=lms_set_link1(dev, (unsigned char)0x09, mask);
+    return return_value_lms_set_1;
   }
 
   else
   {
-    signed int return_value_lms_clear$2;
-    return_value_lms_clear$2=lms_clear(dev, (unsigned char)0x09, mask);
-    return return_value_lms_clear$2;
+    signed int return_value_lms_clear_2;
+    return_value_lms_clear_2=lms_clear(dev, (unsigned char)0x09, mask);
+    return return_value_lms_clear_2;
   }
 }
 
@@ -8590,16 +8590,16 @@ static inline signed int enable_txlpf_dccal_clock(struct bladerf *dev, _Bool ena
   const unsigned char mask = (const unsigned char)(1 << 1);
   if(!(enable == (_Bool)0))
   {
-    signed int return_value_lms_set$1;
-    return_value_lms_set$1=lms_set$link1(dev, (unsigned char)0x09, mask);
-    return return_value_lms_set$1;
+    signed int return_value_lms_set_1;
+    return_value_lms_set_1=lms_set_link1(dev, (unsigned char)0x09, mask);
+    return return_value_lms_set_1;
   }
 
   else
   {
-    signed int return_value_lms_clear$2;
-    return_value_lms_clear$2=lms_clear(dev, (unsigned char)0x09, mask);
-    return return_value_lms_clear$2;
+    signed int return_value_lms_clear_2;
+    return_value_lms_clear_2=lms_clear(dev, (unsigned char)0x09, mask);
+    return return_value_lms_clear_2;
   }
 }
 
@@ -8610,20 +8610,20 @@ signed int encode_field(char *ptr, signed int len, signed int *idx, const char *
   signed int vlen;
   signed int flen;
   signed int tlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(field);
-  flen = (signed int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(val);
-  vlen = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(field);
+  flen = (signed int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(val);
+  vlen = (signed int)return_value_strlen_2;
   tlen = flen + vlen + 1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(tlen >= 256)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = *idx + tlen >= len ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = *idx + tlen >= len ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     return -4;
 
   else
@@ -8641,18 +8641,18 @@ signed int encode_field(char *ptr, signed int len, signed int *idx, const char *
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/dc_cal_table.c line 72
 static inline _Bool entry_matches(struct dc_cal_tbl *tbl, unsigned int entry_idx, unsigned int freq)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(entry_idx >= tbl->n_entries + 4294967295u)
     return freq >= (tbl->entries + (signed long int)entry_idx)->freq;
 
   else
   {
     if(freq >= (tbl->entries + (signed long int)entry_idx)->freq)
-      tmp_if_expr$1 = freq < (tbl->entries + (signed long int)(entry_idx + (unsigned int)1))->freq ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = freq < (tbl->entries + (signed long int)(entry_idx + (unsigned int)1))->freq ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    return tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    return tmp_if_expr_1;
   }
 }
 
@@ -8745,9 +8745,9 @@ static inline unsigned char estimate_vcocap(unsigned int f_target, unsigned int 
 
 // exec_idle_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.c line 378
-static enum anonymous$24 exec_idle_state(struct bladerf_sync *s)
+static enum anonymous_24 exec_idle_state(struct bladerf_sync *s)
 {
-  enum anonymous$24 next_state = (enum anonymous$24)SYNC_WORKER_STATE_IDLE;
+  enum anonymous_24 next_state = (enum anonymous_24)SYNC_WORKER_STATE_IDLE;
   unsigned int requests;
   unsigned int i;
   pthread_mutex_lock(&s->worker->request_lock);
@@ -8757,7 +8757,7 @@ static enum anonymous$24 exec_idle_state(struct bladerf_sync *s)
   s->worker->requests = (unsigned int)0;
   pthread_mutex_unlock(&s->worker->request_lock);
   if(!((2u & requests) == 0u))
-    next_state = (enum anonymous$24)SYNC_WORKER_STATE_SHUTTING_DOWN;
+    next_state = (enum anonymous_24)SYNC_WORKER_STATE_SHUTTING_DOWN;
 
   else
     if(!((1u & requests) == 0u))
@@ -8768,7 +8768,7 @@ static enum anonymous$24 exec_idle_state(struct bladerf_sync *s)
         i = (unsigned int)0;
         for( ; !(i >= s->buf_mgmt.num_buffers); i = i + 1u)
           if((signed int)s->buf_mgmt.status[(signed long int)i] == SYNC_BUFFER_IN_FLIGHT)
-            s->buf_mgmt.status[(signed long int)i] = (enum anonymous$22)SYNC_BUFFER_EMPTY;
+            s->buf_mgmt.status[(signed long int)i] = (enum anonymous_22)SYNC_BUFFER_EMPTY;
 
         pthread_cond_signal(&s->buf_mgmt.buf_ready);
       }
@@ -8781,15 +8781,15 @@ static enum anonymous$24 exec_idle_state(struct bladerf_sync *s)
         i = (unsigned int)0;
         for( ; !(i >= s->buf_mgmt.num_buffers); i = i + 1u)
           if(!(i >= s->stream_config.num_xfers))
-            s->buf_mgmt.status[(signed long int)i] = (enum anonymous$22)SYNC_BUFFER_IN_FLIGHT;
+            s->buf_mgmt.status[(signed long int)i] = (enum anonymous_22)SYNC_BUFFER_IN_FLIGHT;
 
           else
             if((signed int)s->buf_mgmt.status[(signed long int)i] == SYNC_BUFFER_IN_FLIGHT)
-              s->buf_mgmt.status[(signed long int)i] = (enum anonymous$22)SYNC_BUFFER_EMPTY;
+              s->buf_mgmt.status[(signed long int)i] = (enum anonymous_22)SYNC_BUFFER_EMPTY;
 
       }
       pthread_mutex_unlock(&s->buf_mgmt.lock);
-      next_state = (enum anonymous$24)SYNC_WORKER_STATE_RUNNING;
+      next_state = (enum anonymous_24)SYNC_WORKER_STATE_RUNNING;
     }
 
     else
@@ -8822,12 +8822,12 @@ static void exec_running_state(struct bladerf_sync *s)
 static signed int execute_fw_from_bootloader(struct bladerf_usb *usb, unsigned int addr)
 {
   signed int status;
-  status=usb->fn->control_transfer(usb->driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, (unsigned char)0xa0, (unsigned short int)(addr & (unsigned int)0xffff), (unsigned short int)(addr >> 16 & (unsigned int)0xffff), (void *)0, (unsigned int)0, (unsigned int)1000);
+  status=usb->fn->control_transfer(usb->driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, (unsigned char)0xa0, (unsigned short int)(addr & (unsigned int)0xffff), (unsigned short int)(addr >> 16 & (unsigned int)0xffff), (void *)0, (unsigned int)0, (unsigned int)1000);
   if(!(status == 0) && !(status == -5))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:978] Failed to exec firmware: %s\n:", return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:978] Failed to exec firmware: %s\n:", return_value_bladerf_strerror_1);
   }
 
   else
@@ -8866,9 +8866,9 @@ static signed int extract_field(char *ptr, signed int len, char *field, char *va
     a2=crc16mp((unsigned short int)0, (void *)ub, (unsigned short int)(c + 1));
     if(a1 == a2)
     {
-      signed int return_value_strncmp$1;
-      return_value_strncmp$1=strncmp((char *)ub + (signed long int)1, field, flen);
-      if(return_value_strncmp$1 == 0)
+      signed int return_value_strncmp_1;
+      return_value_strncmp_1=strncmp((char *)ub + (signed long int)1, field, flen);
+      if(return_value_strncmp_1 == 0)
       {
         wlen=min_sz((unsigned long int)c - flen, maxlen);
         strncpy(val, (char *)ub + (signed long int)1 + (signed long int)flen, wlen);
@@ -8896,28 +8896,28 @@ char * file_find(const char *filename)
   unsigned long int i;
   unsigned long int max_len;
   char *full_path;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(4096 + 1), (unsigned long int)1);
-  full_path = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(4096 + 1), (unsigned long int)1);
+  full_path = (char *)return_value_calloc_1;
   const char *env_var;
   env_var=getenv("BLADERF_SEARCH_DIR");
   if(!(env_var == ((const char *)NULL)))
   {
     strncat(full_path, env_var, (unsigned long int)(4096 - 1));
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(full_path);
-    full_path[(signed long int)return_value_strlen$2] = (char)47;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(full_path);
-    max_len = (unsigned long int)4096 - return_value_strlen$3;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(filename);
-    if(max_len >= return_value_strlen$5)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(full_path);
+    full_path[(signed long int)return_value_strlen_2] = (char)47;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(full_path);
+    max_len = (unsigned long int)4096 - return_value_strlen_3;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(filename);
+    if(max_len >= return_value_strlen_5)
     {
       strncat(full_path, filename, max_len);
-      signed int return_value_access$4;
-      return_value_access$4=access(full_path, 0);
-      if(!(return_value_access$4 == -1))
+      signed int return_value_access_4;
+      return_value_access_4=access(full_path, 0);
+      if(!(return_value_access_4 == -1))
         return full_path;
 
     }
@@ -8926,21 +8926,21 @@ char * file_find(const char *filename)
 
   memset((void *)full_path, 0, (unsigned long int)4096);
   max_len = (unsigned long int)(4096 - 1);
-  unsigned long int return_value_get_binary_dir$9;
-  return_value_get_binary_dir$9=get_binary_dir(full_path, max_len);
-  if(!(return_value_get_binary_dir$9 == 0ul))
+  unsigned long int return_value_get_binary_dir_9;
+  return_value_get_binary_dir_9=get_binary_dir(full_path, max_len);
+  if(!(return_value_get_binary_dir_9 == 0ul))
   {
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(full_path);
-    max_len = max_len - return_value_strlen$6;
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(filename);
-    if(max_len >= return_value_strlen$8)
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(full_path);
+    max_len = max_len - return_value_strlen_6;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(filename);
+    if(max_len >= return_value_strlen_8)
     {
       strncat(full_path, filename, max_len);
-      signed int return_value_access$7;
-      return_value_access$7=access(full_path, 0);
-      if(!(return_value_access$7 == -1))
+      signed int return_value_access_7;
+      return_value_access_7=access(full_path, 0);
+      if(!(return_value_access_7 == -1))
         return full_path;
 
     }
@@ -8968,17 +8968,17 @@ char * file_find(const char *filename)
     }
 
     strncat(full_path, search_paths[(signed long int)i].path, max_len);
-    unsigned long int return_value_strlen$10;
-    return_value_strlen$10=strlen(full_path);
-    max_len = (unsigned long int)4096 - return_value_strlen$10;
-    unsigned long int return_value_strlen$12;
-    return_value_strlen$12=strlen(filename);
-    if(max_len >= return_value_strlen$12)
+    unsigned long int return_value_strlen_10;
+    return_value_strlen_10=strlen(full_path);
+    max_len = (unsigned long int)4096 - return_value_strlen_10;
+    unsigned long int return_value_strlen_12;
+    return_value_strlen_12=strlen(filename);
+    if(max_len >= return_value_strlen_12)
     {
       strncat(full_path, filename, max_len);
-      signed int return_value_access$11;
-      return_value_access$11=access(full_path, 0);
-      if(!(return_value_access$11 == -1))
+      signed int return_value_access_11;
+      return_value_access_11=access(full_path, 0);
+      if(!(return_value_access_11 == -1))
         return full_path;
 
     }
@@ -8991,21 +8991,21 @@ char * file_find(const char *filename)
   __CPROVER_DUMP_L15:
     ;
   }
-  unsigned long int return_value_get_install_dir$16;
-  return_value_get_install_dir$16=get_install_dir(full_path, (unsigned long int)4096);
-  if(!(return_value_get_install_dir$16 == 0ul))
+  unsigned long int return_value_get_install_dir_16;
+  return_value_get_install_dir_16=get_install_dir(full_path, (unsigned long int)4096);
+  if(!(return_value_get_install_dir_16 == 0ul))
   {
-    unsigned long int return_value_strlen$13;
-    return_value_strlen$13=strlen(full_path);
-    max_len = (unsigned long int)4096 - return_value_strlen$13;
-    unsigned long int return_value_strlen$15;
-    return_value_strlen$15=strlen(filename);
-    if(max_len >= return_value_strlen$15)
+    unsigned long int return_value_strlen_13;
+    return_value_strlen_13=strlen(full_path);
+    max_len = (unsigned long int)4096 - return_value_strlen_13;
+    unsigned long int return_value_strlen_15;
+    return_value_strlen_15=strlen(filename);
+    if(max_len >= return_value_strlen_15)
     {
       strncat(full_path, filename, max_len);
-      signed int return_value_access$14;
-      return_value_access$14=access(full_path, 0);
-      if(!(return_value_access$14 == -1))
+      signed int return_value_access_14;
+      return_value_access_14=access(full_path, 0);
+      if(!(return_value_access_14 == -1))
         return full_path;
 
     }
@@ -9048,27 +9048,27 @@ signed int file_read(struct _IO_FILE *f, char *buf, unsigned long int len)
   rv=fread((void *)buf, (unsigned long int)1, len, f);
   if(!(rv >= len))
   {
-    signed int return_value_feof$5;
-    return_value_feof$5=feof(f);
-    if(!(return_value_feof$5 == 0))
+    signed int return_value_feof_5;
+    return_value_feof_5=feof(f);
+    if(!(return_value_feof_5 == 0))
       do
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:62] Unexpected end of file: %s\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:62] Unexpected end of file: %s\n", return_value_strerror_2);
       }
       while((_Bool)0);
 
     else
       do
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:64] Error reading file: %s\n", return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:64] Error reading file: %s\n", return_value_strerror_4);
       }
       while((_Bool)0);
     return -5;
@@ -9088,9 +9088,9 @@ signed int file_read_buffer(const char *filename, unsigned char **buf_ret, unsig
   f=fopen(filename, "rb");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    switch(*return_value___errno_location$1)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    switch(*return_value___errno_location_1)
     {
       case 2:
         return -11;
@@ -9102,14 +9102,14 @@ signed int file_read_buffer(const char *filename, unsigned char **buf_ret, unsig
   }
 
   len=file_size(f);
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   if(!(len >= 0l))
     status = -5;
 
   else
   {
-    return_value_malloc$2=malloc((unsigned long int)len);
-    buf = (unsigned char *)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)len);
+    buf = (unsigned char *)return_value_malloc_2;
     if(buf == ((unsigned char *)NULL))
       status = -4;
 
@@ -9144,30 +9144,30 @@ signed long int file_size(struct _IO_FILE *f)
   signed long int fpos;
   fpos=ftell(f);
   signed long int len;
-  signed int return_value_fseek$5;
-  signed int return_value_fseek$10;
+  signed int return_value_fseek_5;
+  signed int return_value_fseek_10;
   if(!(fpos >= 0l))
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ file_ops.c:79] ftell failed: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ file_ops.c:79] ftell failed: %s\n", return_value_strerror_2);
     }
     while((_Bool)0);
 
   else
   {
-    return_value_fseek$5=fseek(f, (signed long int)0, 2);
-    if(!(return_value_fseek$5 == 0))
+    return_value_fseek_5=fseek(f, (signed long int)0, 2);
+    if(!(return_value_fseek_5 == 0))
       do
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ file_ops.c:84] fseek failed: %s\n", return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ file_ops.c:84] fseek failed: %s\n", return_value_strerror_4);
       }
       while((_Bool)0);
 
@@ -9178,11 +9178,11 @@ signed long int file_size(struct _IO_FILE *f)
       {
         do
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          char *return_value_strerror$7;
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ file_ops.c:90] ftell failed: %s\n", return_value_strerror$7);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          char *return_value_strerror_7;
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ file_ops.c:90] ftell failed: %s\n", return_value_strerror_7);
         }
         while((_Bool)0);
         goto out;
@@ -9197,15 +9197,15 @@ signed long int file_size(struct _IO_FILE *f)
           goto out;
         }
 
-      return_value_fseek$10=fseek(f, fpos, 0);
-      if(!(return_value_fseek$10 == 0))
+      return_value_fseek_10=fseek(f, fpos, 0);
+      if(!(return_value_fseek_10 == 0))
         do
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          char *return_value_strerror$9;
-          return_value_strerror$9=strerror(*return_value___errno_location$8);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:98] fseek failed: %s\n", return_value_strerror$9);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          char *return_value_strerror_9;
+          return_value_strerror_9=strerror(*return_value___errno_location_8);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:98] fseek failed: %s\n", return_value_strerror_9);
         }
         while((_Bool)0);
 
@@ -9233,11 +9233,11 @@ signed int file_write(struct _IO_FILE *f, unsigned char *buf, unsigned long int 
   {
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:48] File write failed: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ file_ops.c:48] File write failed: %s\n", return_value_strerror_2);
     }
     while((_Bool)0);
     return -5;
@@ -9279,29 +9279,29 @@ static signed int find_and_open_device(struct libusb_context *context, struct bl
 
     else
     {
-      signed int return_value_error_conv$1;
-      return_value_error_conv$1=error_conv((signed int)count);
-      return return_value_error_conv$1;
+      signed int return_value_error_conv_1;
+      return_value_error_conv_1=error_conv((signed int)count);
+      return return_value_error_conv_1;
     }
   }
 
   i = 0;
   n = 0;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$4;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_4;
   do
   {
     if(!((signed long int)i >= count))
-      tmp_if_expr$2 = *dev_out == (struct bladerf_lusb *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = *dev_out == (struct bladerf_lusb *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
-    _Bool return_value_device_is_bladerf$9;
-    return_value_device_is_bladerf$9=device_is_bladerf(list[(signed long int)i]);
-    if(!(return_value_device_is_bladerf$9 == (_Bool)0))
+    _Bool return_value_device_is_bladerf_9;
+    return_value_device_is_bladerf_9=device_is_bladerf(list[(signed long int)i]);
+    if(!(return_value_device_is_bladerf_9 == (_Bool)0))
     {
       do
         log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ libusb.c:422] Found a bladeRF (idx=%d)\n", i);
@@ -9320,9 +9320,9 @@ static signed int find_and_open_device(struct libusb_context *context, struct bl
         else
           do
           {
-            const char *return_value_libusb_error_name$3;
-            return_value_libusb_error_name$3=libusb_error_name(status);
-            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:436] Could not open bladeRF device: %s\n", return_value_libusb_error_name$3);
+            const char *return_value_libusb_error_name_3;
+            return_value_libusb_error_name_3=libusb_error_name(status);
+            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:436] Could not open bladeRF device: %s\n", return_value_libusb_error_name_3);
           }
           while((_Bool)0);
         status = -7;
@@ -9331,13 +9331,13 @@ static signed int find_and_open_device(struct libusb_context *context, struct bl
 
       else
       {
-        tmp_post$4 = n;
+        tmp_post_4 = n;
         n = n + 1;
-        curr_info.instance = (unsigned int)tmp_post$4;
+        curr_info.instance = (unsigned int)tmp_post_4;
       }
-      _Bool return_value_bladerf_devinfo_matches$8;
-      return_value_bladerf_devinfo_matches$8=bladerf_devinfo_matches(&curr_info, info_in);
-      if(!(return_value_bladerf_devinfo_matches$8 == (_Bool)0))
+      _Bool return_value_bladerf_devinfo_matches_8;
+      return_value_bladerf_devinfo_matches_8=bladerf_devinfo_matches(&curr_info, info_in);
+      if(!(return_value_bladerf_devinfo_matches_8 == (_Bool)0))
       {
         status=open_device(&curr_info, context, list[(signed long int)i], dev_out);
         if(!(status >= 0))
@@ -9355,13 +9355,13 @@ static signed int find_and_open_device(struct libusb_context *context, struct bl
         status = -7;
         do
         {
-          _Bool return_value_bladerf_instance_matches$5;
-          return_value_bladerf_instance_matches$5=bladerf_instance_matches(&curr_info, info_in);
-          _Bool return_value_bladerf_serial_matches$6;
-          return_value_bladerf_serial_matches$6=bladerf_serial_matches(&curr_info, info_in);
-          _Bool return_value_bladerf_bus_addr_matches$7;
-          return_value_bladerf_bus_addr_matches$7=bladerf_bus_addr_matches(&curr_info, info_in);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ libusb.c:461] Devinfo doesn't match - skipping(instance=%d, serial=%d, bus/addr=%d\n", return_value_bladerf_instance_matches$5, return_value_bladerf_serial_matches$6, return_value_bladerf_bus_addr_matches$7);
+          _Bool return_value_bladerf_instance_matches_5;
+          return_value_bladerf_instance_matches_5=bladerf_instance_matches(&curr_info, info_in);
+          _Bool return_value_bladerf_serial_matches_6;
+          return_value_bladerf_serial_matches_6=bladerf_serial_matches(&curr_info, info_in);
+          _Bool return_value_bladerf_bus_addr_matches_7;
+          return_value_bladerf_bus_addr_matches_7=bladerf_bus_addr_matches(&curr_info, info_in);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ libusb.c:461] Devinfo doesn't match - skipping(instance=%d, serial=%d, bus/addr=%d\n", return_value_bladerf_instance_matches_5, return_value_bladerf_serial_matches_6, return_value_bladerf_bus_addr_matches_7);
         }
         while((_Bool)0);
       }
@@ -9393,9 +9393,9 @@ static unsigned int find_entry(struct dc_cal_tbl *tbl, unsigned int curr_idx, un
 
   else
   {
-    _Bool return_value_entry_matches$2;
-    return_value_entry_matches$2=entry_matches(tbl, curr_idx, freq);
-    if(return_value_entry_matches$2 == (_Bool)0)
+    _Bool return_value_entry_matches_2;
+    return_value_entry_matches_2=entry_matches(tbl, curr_idx, freq);
+    if(return_value_entry_matches_2 == (_Bool)0)
     {
       if(!(freq >= (tbl->entries + (signed long int)curr_idx)->freq))
       {
@@ -9419,9 +9419,9 @@ static unsigned int find_entry(struct dc_cal_tbl *tbl, unsigned int curr_idx, un
           return tbl->n_entries - (unsigned int)1;
         }
       curr_idx = min_idx + (max_idx - min_idx) / (unsigned int)2;
-      unsigned int return_value_find_entry$1;
-      return_value_find_entry$1=find_entry(tbl, curr_idx, min_idx, max_idx, freq, hit_limit);
-      return return_value_find_entry$1;
+      unsigned int return_value_find_entry_1;
+      return_value_find_entry_1=find_entry(tbl, curr_idx, min_idx, max_idx, freq, hit_limit);
+      return return_value_find_entry_1;
     }
 
     else
@@ -9435,9 +9435,9 @@ static struct compat * find_fpga_match(struct bladerf *dev)
 {
   unsigned long int i;
   struct compat *newest_fpga = &fpga_compat_tbl[(signed long int)0];
-  _Bool return_value_version_less_than$1;
-  return_value_version_less_than$1=version_less_than(&newest_fpga->ver, (unsigned int)dev->fpga_version.major, (unsigned int)dev->fpga_version.minor, (unsigned int)dev->fpga_version.patch);
-  if(!(return_value_version_less_than$1 == (_Bool)0))
+  _Bool return_value_version_less_than_1;
+  return_value_version_less_than_1=version_less_than(&newest_fpga->ver, (unsigned int)dev->fpga_version.major, (unsigned int)dev->fpga_version.minor, (unsigned int)dev->fpga_version.patch);
+  if(!(return_value_version_less_than_1 == (_Bool)0))
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_INFO, "[INFO @ version_compat.c:122] FPGA version (v%u.%u.%u) is newer than entries in libbladeRF's compatibility table. Please update libbladeRF if problems arise.\n", dev->fpga_version.major, dev->fpga_version.minor, dev->fpga_version.patch);
@@ -9450,9 +9450,9 @@ static struct compat * find_fpga_match(struct bladerf *dev)
     i = (unsigned long int)0;
     for( ; !(i >= 19ul); i = i + 1ul)
     {
-      _Bool return_value_version_equal$2;
-      return_value_version_equal$2=version_equal(&dev->fpga_version, &fpga_compat_tbl[(signed long int)i].ver);
-      if(!(return_value_version_equal$2 == (_Bool)0))
+      _Bool return_value_version_equal_2;
+      return_value_version_equal_2=version_equal(&dev->fpga_version, &fpga_compat_tbl[(signed long int)i].ver);
+      if(!(return_value_version_equal_2 == (_Bool)0))
         return &fpga_compat_tbl[(signed long int)i];
 
     }
@@ -9466,9 +9466,9 @@ static struct compat * find_fw_match(struct bladerf *dev)
 {
   unsigned long int i;
   struct compat *newest_fw = &fw_compat_tbl[(signed long int)0];
-  _Bool return_value_version_less_than$1;
-  return_value_version_less_than$1=version_less_than(&newest_fw->ver, (unsigned int)dev->fw_version.major, (unsigned int)dev->fw_version.minor, (unsigned int)dev->fw_version.patch);
-  if(!(return_value_version_less_than$1 == (_Bool)0))
+  _Bool return_value_version_less_than_1;
+  return_value_version_less_than_1=version_less_than(&newest_fw->ver, (unsigned int)dev->fw_version.major, (unsigned int)dev->fw_version.minor, (unsigned int)dev->fw_version.patch);
+  if(!(return_value_version_less_than_1 == (_Bool)0))
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_INFO, "[INFO @ version_compat.c:91] Firmware version (v%u.%u.%u) is newer than entries in libbladeRF's compatibility table. Please update libbladeRF if problems arise.\n", dev->fw_version.major, dev->fw_version.minor, dev->fw_version.patch);
@@ -9481,9 +9481,9 @@ static struct compat * find_fw_match(struct bladerf *dev)
     i = (unsigned long int)0;
     for( ; !(i >= 7ul); i = i + 1ul)
     {
-      _Bool return_value_version_equal$2;
-      return_value_version_equal$2=version_equal(&dev->fw_version, &fw_compat_tbl[(signed long int)i].ver);
-      if(!(return_value_version_equal$2 == (_Bool)0))
+      _Bool return_value_version_equal_2;
+      return_value_version_equal_2=version_equal(&dev->fw_version, &fw_compat_tbl[(signed long int)i].ver);
+      if(!(return_value_version_equal_2 == (_Bool)0))
         return &fw_compat_tbl[(signed long int)i];
 
     }
@@ -9511,12 +9511,12 @@ double fixed_retune(struct bladerf *dev)
     i = (unsigned int)0;
     for( ; !(i >= 2500u); i = i + 1u)
     {
-      status=bladerf_set_frequency(dev, (enum anonymous$0)BLADERF_MODULE_RX, 2405000000u);
+      status=bladerf_set_frequency(dev, (enum anonymous_0)BLADERF_MODULE_RX, 2405000000u);
       if(!(status == 0))
       {
-        const char *return_value_bladerf_strerror$1;
-        return_value_bladerf_strerror$1=bladerf_strerror(status);
-        fprintf(stderr, "Failed to set frequency (%u): %s\n", 2405000000u, return_value_bladerf_strerror$1);
+        const char *return_value_bladerf_strerror_1;
+        return_value_bladerf_strerror_1=bladerf_strerror(status);
+        fprintf(stderr, "Failed to set frequency (%u): %s\n", 2405000000u, return_value_bladerf_strerror_1);
         return (double)-1;
       }
 
@@ -9530,9 +9530,9 @@ double fixed_retune(struct bladerf *dev)
 
     else
     {
-      double return_value_calc_avg_duration$2;
-      return_value_calc_avg_duration$2=calc_avg_duration(&start, &end, (double)2500u);
-      return return_value_calc_avg_duration$2;
+      double return_value_calc_avg_duration_2;
+      return_value_calc_avg_duration_2=calc_avg_duration(&start, &end, (double)2500u);
+      return return_value_calc_avg_duration_2;
     }
   }
 }
@@ -9553,9 +9553,9 @@ signed int flash_erase(struct bladerf *dev, unsigned int erase_block, unsigned i
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/flash.h line 165
 signed int flash_erase_fpga(struct bladerf *dev)
 {
-  signed int return_value_flash_erase$1;
-  return_value_flash_erase$1=flash_erase(dev, (unsigned int)(0x00040000 / (64 * 1024)), (unsigned int)(0x00370000 / (64 * 1024)));
-  return return_value_flash_erase$1;
+  signed int return_value_flash_erase_1;
+  return_value_flash_erase_1=flash_erase(dev, (unsigned int)(0x00040000 / (64 * 1024)), (unsigned int)(0x00370000 / (64 * 1024)));
+  return return_value_flash_erase_1;
 }
 
 // flash_read
@@ -9600,17 +9600,17 @@ signed int flash_write_fpga_bitstream(struct bladerf *dev, unsigned char **bitst
   {
     padded_bitstream_len = (unsigned int)len + padding_len;
     fill_fpga_metadata_page(metadata, len);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)padded_bitstream_len);
-    readback_buf = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)padded_bitstream_len);
+    readback_buf = (unsigned char *)return_value_malloc_1;
     if(readback_buf == ((unsigned char *)NULL))
       return -4;
 
     else
     {
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)*bitstream, (unsigned long int)padded_bitstream_len);
-      padded_bitstream = (unsigned char *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)*bitstream, (unsigned long int)padded_bitstream_len);
+      padded_bitstream = (unsigned char *)return_value_realloc_2;
       if(padded_bitstream == ((unsigned char *)NULL))
         status = -4;
 
@@ -9622,9 +9622,9 @@ signed int flash_write_fpga_bitstream(struct bladerf *dev, unsigned char **bitst
         if(!(status == 0))
           do
           {
-            const char *return_value_bladerf_strerror$3;
-            return_value_bladerf_strerror$3=bladerf_strerror(status);
-            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:259] Failed to erase FPGA meta & bitstream regions: %s\n", return_value_bladerf_strerror$3);
+            const char *return_value_bladerf_strerror_3;
+            return_value_bladerf_strerror_3=bladerf_strerror(status);
+            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:259] Failed to erase FPGA meta & bitstream regions: %s\n", return_value_bladerf_strerror_3);
           }
           while((_Bool)0);
 
@@ -9634,9 +9634,9 @@ signed int flash_write_fpga_bitstream(struct bladerf *dev, unsigned char **bitst
           if(!(status == 0))
             do
             {
-              const char *return_value_bladerf_strerror$4;
-              return_value_bladerf_strerror$4=bladerf_strerror(status);
-              log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:267] Failed to write FPGA metadata page: %s\n", return_value_bladerf_strerror$4);
+              const char *return_value_bladerf_strerror_4;
+              return_value_bladerf_strerror_4=bladerf_strerror(status);
+              log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:267] Failed to write FPGA metadata page: %s\n", return_value_bladerf_strerror_4);
             }
             while((_Bool)0);
 
@@ -9647,9 +9647,9 @@ signed int flash_write_fpga_bitstream(struct bladerf *dev, unsigned char **bitst
             if(!(status == 0))
               do
               {
-                const char *return_value_bladerf_strerror$5;
-                return_value_bladerf_strerror$5=bladerf_strerror(status);
-                log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:279] Failed to write bitstream: %s\n", return_value_bladerf_strerror$5);
+                const char *return_value_bladerf_strerror_5;
+                return_value_bladerf_strerror_5=bladerf_strerror(status);
+                log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:279] Failed to write bitstream: %s\n", return_value_bladerf_strerror_5);
               }
               while((_Bool)0);
 
@@ -9659,9 +9659,9 @@ signed int flash_write_fpga_bitstream(struct bladerf *dev, unsigned char **bitst
               if(!(status == 0))
                 do
                 {
-                  const char *return_value_bladerf_strerror$6;
-                  return_value_bladerf_strerror$6=bladerf_strerror(status);
-                  log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:287] Failed to verify metadata: %s\n", return_value_bladerf_strerror$6);
+                  const char *return_value_bladerf_strerror_6;
+                  return_value_bladerf_strerror_6=bladerf_strerror(status);
+                  log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:287] Failed to verify metadata: %s\n", return_value_bladerf_strerror_6);
                 }
                 while((_Bool)0);
 
@@ -9671,9 +9671,9 @@ signed int flash_write_fpga_bitstream(struct bladerf *dev, unsigned char **bitst
                 if(!(status == 0))
                   do
                   {
-                    const char *return_value_bladerf_strerror$7;
-                    return_value_bladerf_strerror$7=bladerf_strerror(status);
-                    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:297] Failed to verify bitstream data: %s\n", return_value_bladerf_strerror$7);
+                    const char *return_value_bladerf_strerror_7;
+                    return_value_bladerf_strerror_7=bladerf_strerror(status);
+                    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:297] Failed to verify bitstream data: %s\n", return_value_bladerf_strerror_7);
                   }
                   while((_Bool)0);
 
@@ -9707,17 +9707,17 @@ signed int flash_write_fx3_fw(struct bladerf *dev, unsigned char **image, unsign
   else
   {
     padded_image_len = (unsigned int)len + padding_len;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)padded_image_len);
-    readback_buf = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)padded_image_len);
+    readback_buf = (unsigned char *)return_value_malloc_1;
     if(readback_buf == ((unsigned char *)NULL))
       return -4;
 
     else
     {
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)*image, (unsigned long int)padded_image_len);
-      padded_image = (unsigned char *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)*image, (unsigned long int)padded_image_len);
+      padded_image = (unsigned char *)return_value_realloc_2;
       if(padded_image == ((unsigned char *)NULL))
         status = -4;
 
@@ -9729,9 +9729,9 @@ signed int flash_write_fx3_fw(struct bladerf *dev, unsigned char **image, unsign
         if(!(status == 0))
           do
           {
-            const char *return_value_bladerf_strerror$3;
-            return_value_bladerf_strerror$3=bladerf_strerror(status);
-            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:171] Failed to erase firmware region: %s\n", return_value_bladerf_strerror$3);
+            const char *return_value_bladerf_strerror_3;
+            return_value_bladerf_strerror_3=bladerf_strerror(status);
+            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:171] Failed to erase firmware region: %s\n", return_value_bladerf_strerror_3);
           }
           while((_Bool)0);
 
@@ -9742,9 +9742,9 @@ signed int flash_write_fx3_fw(struct bladerf *dev, unsigned char **image, unsign
           if(!(status >= 0))
             do
             {
-              const char *return_value_bladerf_strerror$4;
-              return_value_bladerf_strerror$4=bladerf_strerror(status);
-              log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:183] Failed to write firmware: %s\n", return_value_bladerf_strerror$4);
+              const char *return_value_bladerf_strerror_4;
+              return_value_bladerf_strerror_4=bladerf_strerror(status);
+              log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:183] Failed to write firmware: %s\n", return_value_bladerf_strerror_4);
             }
             while((_Bool)0);
 
@@ -9754,9 +9754,9 @@ signed int flash_write_fx3_fw(struct bladerf *dev, unsigned char **image, unsign
             if(!(status == 0))
               do
               {
-                const char *return_value_bladerf_strerror$5;
-                return_value_bladerf_strerror$5=bladerf_strerror(status);
-                log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:192] Flash verification failed: %s\n", return_value_bladerf_strerror$5);
+                const char *return_value_bladerf_strerror_5;
+                return_value_bladerf_strerror_5=bladerf_strerror(status);
+                log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:192] Flash verification failed: %s\n", return_value_bladerf_strerror_5);
               }
               while((_Bool)0);
 
@@ -9834,11 +9834,11 @@ signed int fpga_load_from_file(struct bladerf *dev, const char *fpga_file)
   unsigned long int buf_size;
   signed int status;
   status=file_read_buffer(fpga_file, &buf, &buf_size);
-  _Bool return_value_valid_fpga_size$1;
+  _Bool return_value_valid_fpga_size_1;
   if(status == 0)
   {
-    return_value_valid_fpga_size$1=valid_fpga_size(buf_size);
-    if(return_value_valid_fpga_size$1 == (_Bool)0)
+    return_value_valid_fpga_size_1=valid_fpga_size(buf_size);
+    if(return_value_valid_fpga_size_1 == (_Bool)0)
       status = -3;
 
     else
@@ -9864,17 +9864,17 @@ error:
 
 // fpga_supports_tuning_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.c line 29
-static _Bool fpga_supports_tuning_mode(struct bladerf *dev, enum anonymous$12 mode)
+static _Bool fpga_supports_tuning_mode(struct bladerf *dev, enum anonymous_12 mode)
 {
-  _Bool return_value_have_cap$1;
+  _Bool return_value_have_cap_1;
   switch((signed int)mode)
   {
     case BLADERF_TUNING_MODE_HOST:
       return (_Bool)1;
     case BLADERF_TUNING_MODE_FPGA:
     {
-      return_value_have_cap$1=have_cap$link2(dev, (unsigned long int)(1 << 3));
-      return return_value_have_cap$1;
+      return_value_have_cap_1=have_cap_link2(dev, (unsigned long int)(1 << 3));
+      return return_value_have_cap_1;
     }
     default:
       return (_Bool)0;
@@ -9890,21 +9890,21 @@ signed int fpga_write_to_flash(struct bladerf *dev, const char *fpga_file)
   unsigned char *buf = (unsigned char *)(void *)0;
   const char env_override[29l] = { 'B', 'L', 'A', 'D', 'E', 'R', 'F', '_', 'S', 'K', 'I', 'P', '_', 'F', 'P', 'G', 'A', '_', 'S', 'I', 'Z', 'E', '_', 'C', 'H', 'E', 'C', 'K', 0 };
   status=file_read_buffer(fpga_file, &buf, &buf_size);
-  _Bool tmp_if_expr$3;
-  _Bool return_value_valid_fpga_size$2;
+  _Bool tmp_if_expr_3;
+  _Bool return_value_valid_fpga_size_2;
   if(status == 0)
   {
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv(env_override);
-    if(return_value_getenv$1 == ((char *)NULL))
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv(env_override);
+    if(return_value_getenv_1 == ((char *)NULL))
     {
-      return_value_valid_fpga_size$2=valid_fpga_size(buf_size);
-      tmp_if_expr$3 = !(return_value_valid_fpga_size$2 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_valid_fpga_size_2=valid_fpga_size(buf_size);
+      tmp_if_expr_3 = !(return_value_valid_fpga_size_2 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       do
         log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ fpga.c:135] Detected potentially invalid firmware file.\n");
@@ -9960,9 +9960,9 @@ unsigned int fx3_fw_entry_point(struct fx3_firmware *fw)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/fx3_fw.c line 223
 struct fx3_firmware * fx3_fw_init()
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fx3_firmware) /*32ul*/ );
-  return (struct fx3_firmware *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fx3_firmware) /*32ul*/ );
+  return (struct fx3_firmware *)return_value_calloc_1;
 }
 
 // fx3_fw_log_dump
@@ -9977,9 +9977,9 @@ signed int fx3_fw_log_dump(struct bladerf *dev, const char *filename)
     f=fopen(filename, "w");
     if(f == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      switch(*return_value___errno_location$1)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      switch(*return_value___errno_location_1)
       {
         case 2:
           return -11;
@@ -9997,9 +9997,9 @@ signed int fx3_fw_log_dump(struct bladerf *dev, const char *filename)
   status=dev->fn->read_fw_log(dev, &e);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$2;
-    return_value_bladerf_strerror$2=bladerf_strerror(status);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ fx3_fw_log.c:60] Failed to read FW log: %s\n", return_value_bladerf_strerror$2);
+    const char *return_value_bladerf_strerror_2;
+    return_value_bladerf_strerror_2=bladerf_strerror(status);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ fx3_fw_log.c:60] Failed to read FW log: %s\n", return_value_bladerf_strerror_2);
   }
 
   else
@@ -10047,9 +10047,9 @@ _Bool fx3_fw_next_section(struct fx3_firmware *fw, unsigned int *section_addr, u
 
   else
   {
-    unsigned int return_value_to_uint32$1;
-    return_value_to_uint32$1=to_uint32(fw, fw->section_offset);
-    len = (unsigned int)((unsigned long int)return_value_to_uint32$1 * sizeof(unsigned int) /*4ul*/ );
+    unsigned int return_value_to_uint32_1;
+    return_value_to_uint32_1=to_uint32(fw, fw->section_offset);
+    len = (unsigned int)((unsigned long int)return_value_to_uint32_1 * sizeof(unsigned int) /*4ul*/ );
     if(len == 0u)
       return (_Bool)0;
 
@@ -10083,9 +10083,9 @@ signed int fx3_fw_read(const char *file, struct fx3_firmware **fw_out)
   unsigned long int buf_len;
   struct fx3_firmware *fw;
   *fw_out = (struct fx3_firmware *)(void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fx3_firmware) /*32ul*/ );
-  fw = (struct fx3_firmware *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fx3_firmware) /*32ul*/ );
+  fw = (struct fx3_firmware *)return_value_calloc_1;
   if(fw == ((struct fx3_firmware *)NULL))
     return -4;
 
@@ -10174,7 +10174,7 @@ signed int fx3_fw_read(const char *file, struct fx3_firmware **fw_out)
 
 // gain_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/gain.h line 39
-signed int gain_set(struct bladerf *dev, enum anonymous$0 module, signed int gain)
+signed int gain_set(struct bladerf *dev, enum anonymous_0 module, signed int gain)
 {
   signed int status;
   if((signed int)module == BLADERF_MODULE_TX)
@@ -10196,20 +10196,20 @@ signed int get_and_cache_fpga_size(struct bladerf *device)
   signed int status;
   char tmp[7l] = { (char)0, 0, 0, 0, 0, 0, 0 };
   status=get_cal_field(device, "B", tmp, sizeof(char [7l]) /*7ul*/  - (unsigned long int)1);
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp("40", tmp);
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$2 == 0)
-    device->fpga_size = (enum anonymous$7)BLADERF_FPGA_40KLE;
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp("40", tmp);
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_2 == 0)
+    device->fpga_size = (enum anonymous_7)BLADERF_FPGA_40KLE;
 
   else
   {
-    return_value_strcmp$1=strcmp("115", tmp);
-    if(return_value_strcmp$1 == 0)
-      device->fpga_size = (enum anonymous$7)BLADERF_FPGA_115KLE;
+    return_value_strcmp_1=strcmp("115", tmp);
+    if(return_value_strcmp_1 == 0)
+      device->fpga_size = (enum anonymous_7)BLADERF_FPGA_115KLE;
 
     else
-      device->fpga_size = (enum anonymous$7)BLADERF_FPGA_UNKNOWN;
+      device->fpga_size = (enum anonymous_7)BLADERF_FPGA_UNKNOWN;
   }
   return status;
 }
@@ -10225,9 +10225,9 @@ signed int get_and_cache_vctcxo_trim(struct bladerf *dev)
   status=get_cal_field(dev, "DAC", tmp, sizeof(char [7l]) /*7ul*/  - (unsigned long int)1);
   if(status == 0)
   {
-    unsigned int return_value_str2uint$1;
-    return_value_str2uint$1=str2uint(tmp, (unsigned int)0, (unsigned int)0xffff, &ok);
-    trim = (signed short int)return_value_str2uint$1;
+    unsigned int return_value_str2uint_1;
+    return_value_str2uint_1=str2uint(tmp, (unsigned int)0, (unsigned int)0xffff, &ok);
+    trim = (signed short int)return_value_str2uint_1;
   }
 
   if(status == 0 && !(ok == (_Bool)0))
@@ -10251,9 +10251,9 @@ static inline unsigned long int get_binary_dir(char *buf, unsigned long int max_
   result=readlink("/proc/self/exe", buf, max_len);
   if(result >= 1l)
   {
-    unsigned long int return_value_strip_last_path_entry$1;
-    return_value_strip_last_path_entry$1=strip_last_path_entry(buf, (char)47);
-    return return_value_strip_last_path_entry$1;
+    unsigned long int return_value_strip_last_path_entry_1;
+    return_value_strip_last_path_entry_1=strip_last_path_entry(buf, (char)47);
+    return return_value_strip_last_path_entry_1;
   }
 
   else
@@ -10267,14 +10267,14 @@ signed int get_cal_field(struct bladerf *dev, char *field, char *data, unsigned 
   signed int status;
   char cal[256l];
   status=dev->fn->get_cal(dev, cal);
-  signed int return_value_extract_field$1;
+  signed int return_value_extract_field_1;
   if(!(status >= 0))
     return status;
 
   else
   {
-    return_value_extract_field$1=extract_field(cal, 256, field, data, data_size);
-    return return_value_extract_field$1;
+    return_value_extract_field_1=extract_field(cal, 256, field, data, data_size);
+    return return_value_extract_field_1;
   }
 }
 
@@ -10307,7 +10307,7 @@ static signed int get_dc_cal_value(struct bladerf *dev, unsigned char base, unsi
 
 // get_dc_offset
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 3542
-signed int get_dc_offset(struct bladerf *dev, enum anonymous$0 module, unsigned char addr, signed short int *value)
+signed int get_dc_offset(struct bladerf *dev, enum anonymous_0 module, unsigned char addr, signed short int *value)
 {
   signed int status;
   unsigned char tmp;
@@ -10345,7 +10345,7 @@ static signed int get_devinfo(struct libusb_device *dev, struct bladerf_devinfo 
   status=libusb_open(dev, &handle);
   if(status == 0)
   {
-    info->backend = (enum anonymous$14)BLADERF_BACKEND_LIBUSB;
+    info->backend = (enum anonymous_14)BLADERF_BACKEND_LIBUSB;
     info->usb_bus=libusb_get_bus_number(dev);
     info->usb_addr=libusb_get_device_address(dev);
     status=libusb_get_device_descriptor(dev, &desc);
@@ -10378,27 +10378,27 @@ static inline unsigned long int get_home_dir(char *buf, unsigned long int max_le
 {
   const char *home;
   home=getenv("HOME");
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(home == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(home);
-    tmp_if_expr$2 = return_value_strlen$1 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(home);
+    tmp_if_expr_2 = return_value_strlen_1 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_2)
   {
-    return_value_strlen$3=strlen(home);
-    tmp_if_expr$4 = return_value_strlen$3 < max_len ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_3=strlen(home);
+    tmp_if_expr_4 = return_value_strlen_3 < max_len ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(tmp_if_expr_4)
     strncat(buf, home, max_len);
 
   else
@@ -10409,9 +10409,9 @@ static inline unsigned long int get_home_dir(char *buf, unsigned long int max_le
     passwd=getpwuid(uid);
     strncat(buf, passwd->pw_dir, max_len);
   }
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(buf);
-  return return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(buf);
+  return return_value_strlen_5;
 }
 
 // get_install_dir
@@ -10435,7 +10435,7 @@ static signed int get_iq_correction(struct bladerf *dev, unsigned char addr, sig
   {
     cmd.addr = (unsigned char)(i + (signed int)addr);
     cmd.data = (unsigned char)0xff;
-    status=nios_access$link1(dev, (unsigned char)(0 << 4), (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
+    status=nios_access_link1(dev, (unsigned char)(0 << 4), (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
     *value = *value | (signed short int)((signed int)cmd.data << i * 8);
   }
   return status;
@@ -10455,22 +10455,22 @@ static inline void get_libusb_version(char *buf, unsigned long int buf_len)
 static signed int get_loglevel(void)
 {
   signed int log_level = BLADERF_LOG_LEVEL_INFO;
-  char *return_value_getenv$5;
-  return_value_getenv$5=getenv("BLADERF_LOG_LEVEL");
-  char *return_value_getenv$3;
-  unsigned long int return_value_strlen$4;
-  if(!(return_value_getenv$5 == ((char *)NULL)))
+  char *return_value_getenv_5;
+  return_value_getenv_5=getenv("BLADERF_LOG_LEVEL");
+  char *return_value_getenv_3;
+  unsigned long int return_value_strlen_4;
+  if(!(return_value_getenv_5 == ((char *)NULL)))
   {
-    return_value_getenv$3=getenv("BLADERF_LOG_LEVEL");
-    return_value_strlen$4=strlen(return_value_getenv$3);
-    if(return_value_strlen$4 >= 1ul)
+    return_value_getenv_3=getenv("BLADERF_LOG_LEVEL");
+    return_value_strlen_4=strlen(return_value_getenv_3);
+    if(return_value_strlen_4 >= 1ul)
     {
       _Bool valid_value;
-      char *return_value_getenv$1;
-      return_value_getenv$1=getenv("BLADERF_LOG_LEVEL");
-      enum anonymous return_value_str2loglevel$2;
-      return_value_str2loglevel$2=str2loglevel(return_value_getenv$1, &valid_value);
-      log_level = (signed int)return_value_str2loglevel$2;
+      char *return_value_getenv_1;
+      return_value_getenv_1=getenv("BLADERF_LOG_LEVEL");
+      enum anonymous return_value_str2loglevel_2;
+      return_value_str2loglevel_2=str2loglevel(return_value_getenv_1, &valid_value);
+      log_level = (signed int)return_value_str2loglevel_2;
       if(valid_value == (_Bool)0)
         log_level = BLADERF_LOG_LEVEL_INFO;
 
@@ -10521,14 +10521,14 @@ signed int get_otp_field(struct bladerf *dev, char *field, char *data, unsigned 
   char otp[256l];
   memset((void *)otp, 0xff, (unsigned long int)256);
   status=dev->fn->get_otp(dev, otp);
-  signed int return_value_extract_field$1;
+  signed int return_value_extract_field_1;
   if(!(status >= 0))
     return status;
 
   else
   {
-    return_value_extract_field$1=extract_field(otp, 256, field, data, data_size);
-    return return_value_extract_field$1;
+    return_value_extract_field_1=extract_field(otp, 256, field, data, data_size);
+    return return_value_extract_field_1;
   }
 }
 
@@ -10554,20 +10554,20 @@ static inline unsigned long int get_timestamp()
 {
   unsigned long int ret;
   struct timeval tv;
-  signed int return_value_gettimeofday$3;
-  return_value_gettimeofday$3=gettimeofday(&tv, (struct timezone *)(void *)0);
-  if(return_value_gettimeofday$3 == 0)
+  signed int return_value_gettimeofday_3;
+  return_value_gettimeofday_3=gettimeofday(&tv, (struct timezone *)(void *)0);
+  if(return_value_gettimeofday_3 == 0)
     ret = (unsigned long int)tv.tv_sec;
 
   else
   {
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ image.c:76] gettimeofday failed: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ image.c:76] gettimeofday failed: %s\n", return_value_strerror_2);
     }
     while((_Bool)0);
     ret = (unsigned long int)0;
@@ -10577,9 +10577,9 @@ static inline unsigned long int get_timestamp()
 
 // get_vctcxo_tamer_mode_unsupported
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 1070
-static signed int get_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous$17 *mode)
+static signed int get_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous_17 *mode)
 {
-  *mode = (enum anonymous$17)BLADERF_VCTCXO_TAMER_INVALID;
+  *mode = (enum anonymous_17)BLADERF_VCTCXO_TAMER_INVALID;
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:1074] Operation not supported with legacy NIOS packet format.\n");
   while((_Bool)0);
@@ -10613,44 +10613,44 @@ static inline signed int get_vtune(struct bladerf *dev, unsigned char base, unsi
 static signed int handle_backend(char *str, struct bladerf_devinfo *d)
 {
   char *str_end;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(str == ((char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(str);
-    tmp_if_expr$2 = return_value_strlen$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(str);
+    tmp_if_expr_2 = return_value_strlen_1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  if(tmp_if_expr$2)
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  if(tmp_if_expr_2)
     return -3;
 
   else
   {
     for( ; !(*str == 0); str = str + 1l)
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*str]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*str]) == 0)
         break;
 
     }
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(str);
-    str_end = (str + (signed long int)return_value_strlen$4) - (signed long int)1;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(str);
+    str_end = (str + (signed long int)return_value_strlen_4) - (signed long int)1;
     for( ; !(str >= str_end); str_end = str_end - 1l)
     {
-      return_value___ctype_b_loc$5=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)(unsigned char)*str_end]) == 0)
+      return_value___ctype_b_loc_5=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)(unsigned char)*str_end]) == 0)
         break;
 
     }
     str_end[(signed long int)1] = (char)0;
-    signed int return_value_str2backend$6;
-    return_value_str2backend$6=str2backend(str, &d->backend);
-    return return_value_str2backend$6;
+    signed int return_value_str2backend_6;
+    return_value_str2backend_6=str2backend(str, &d->backend);
+    return return_value_str2backend_6;
   }
 }
 
@@ -10670,12 +10670,12 @@ static signed int handle_device(struct bladerf_devinfo *d, char *value)
     {
       *addr = (char)0;
       addr = addr + 1l;
-      unsigned int return_value_str2uint$1;
-      return_value_str2uint$1=str2uint(bus, (unsigned int)0, (unsigned int)(255 - 1), &bus_ok);
-      d->usb_bus = (unsigned char)return_value_str2uint$1;
-      unsigned int return_value_str2uint$2;
-      return_value_str2uint$2=str2uint(addr, (unsigned int)0, (unsigned int)(255 - 1), &addr_ok);
-      d->usb_addr = (unsigned char)return_value_str2uint$2;
+      unsigned int return_value_str2uint_1;
+      return_value_str2uint_1=str2uint(bus, (unsigned int)0, (unsigned int)(255 - 1), &bus_ok);
+      d->usb_bus = (unsigned char)return_value_str2uint_1;
+      unsigned int return_value_str2uint_2;
+      return_value_str2uint_2=str2uint(addr, (unsigned int)0, (unsigned int)(255 - 1), &addr_ok);
+      d->usb_addr = (unsigned char)return_value_str2uint_2;
       if(!(addr_ok == (_Bool)0) && !(bus_ok == (_Bool)0))
       {
         status = 0;
@@ -10753,9 +10753,9 @@ static signed int handle_serial(struct bladerf_devinfo *d, char *value)
         c = value[(signed long int)i];
         if((signed int)c >= 65 && !((signed int)c >= 71))
         {
-          signed int return_value_tolower$1;
-          return_value_tolower$1=tolower((signed int)(unsigned char)c);
-          value[(signed long int)i] = (char)return_value_tolower$1;
+          signed int return_value_tolower_1;
+          return_value_tolower_1=tolower((signed int)(unsigned char)c);
+          value[(signed long int)i] = (char)return_value_tolower_1;
         }
 
         if(((signed int)c >= 58 || !((signed int)c >= 48)) && ((signed int)c >= 103 || !((signed int)c >= 97)))
@@ -10787,7 +10787,7 @@ static signed int handle_serial(struct bladerf_devinfo *d, char *value)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.c line 704
 static inline signed int handle_tx_parameters(struct bladerf_metadata *user_meta, struct bladerf_sync *s, struct tx_options *options)
 {
-  _Bool return_value_timestamp_in_past$1;
+  _Bool return_value_timestamp_in_past_1;
   if((signed int)s->stream_config.format == BLADERF_FORMAT_SC16_Q11_META)
   {
     if(user_meta == ((struct bladerf_metadata *)NULL))
@@ -10801,7 +10801,7 @@ static inline signed int handle_tx_parameters(struct bladerf_metadata *user_meta
     if(!((1u & user_meta->flags) == 0u))
     {
       _Bool now = (_Bool)(user_meta->flags & (unsigned int)(1 << 2));
-      if(!(s->meta.$anon0.$anon1.in_burst == (_Bool)0))
+      if(!(s->meta._anon0._anon1.in_burst == (_Bool)0))
       {
         do
           log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:719] %s: BURST_START provided while already in a burst.\n", (const void *)"handle_tx_parameters");
@@ -10812,15 +10812,15 @@ static inline signed int handle_tx_parameters(struct bladerf_metadata *user_meta
       else
         if(now == (_Bool)0)
         {
-          return_value_timestamp_in_past$1=timestamp_in_past(user_meta, s);
-          if(!(return_value_timestamp_in_past$1 == (_Bool)0))
+          return_value_timestamp_in_past_1=timestamp_in_past(user_meta, s);
+          if(!(return_value_timestamp_in_past_1 == (_Bool)0))
             return -14;
 
         }
 
-      s->meta.$anon0.$anon1.in_burst = (_Bool)1;
+      s->meta._anon0._anon1.in_burst = (_Bool)1;
       if(!(now == (_Bool)0))
-        s->meta.$anon0.$anon1.now = (_Bool)1;
+        s->meta._anon0._anon1.now = (_Bool)1;
 
       else
         s->meta.curr_timestamp = user_meta->timestamp;
@@ -10843,9 +10843,9 @@ static inline signed int handle_tx_parameters(struct bladerf_metadata *user_meta
       else
         if(!((8u & user_meta->flags) == 0u))
         {
-          _Bool return_value_timestamp_in_past$2;
-          return_value_timestamp_in_past$2=timestamp_in_past(user_meta, s);
-          if(!(return_value_timestamp_in_past$2 == (_Bool)0))
+          _Bool return_value_timestamp_in_past_2;
+          return_value_timestamp_in_past_2=timestamp_in_past(user_meta, s);
+          if(!(return_value_timestamp_in_past_2 == (_Bool)0))
             return -14;
 
           else
@@ -10854,7 +10854,7 @@ static inline signed int handle_tx_parameters(struct bladerf_metadata *user_meta
 
     if(!((2u & user_meta->flags) == 0u))
     {
-      if(!(s->meta.$anon0.$anon1.in_burst == (_Bool)0))
+      if(!(s->meta._anon0._anon1.in_burst == (_Bool)0))
         options->flush = (_Bool)1;
 
       else
@@ -10879,53 +10879,53 @@ static inline _Bool have_cap(struct bladerf *dev, unsigned long int capability)
   return (dev->capabilities & capability) != (unsigned long int)0;
 }
 
-// have_cap$link1
+// have_cap_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link1(struct bladerf *dev$link1, unsigned long int capability$link1)
+static inline _Bool have_cap_link1(struct bladerf *dev_link1, unsigned long int capability_link1)
 {
-  return (dev$link1->capabilities & capability$link1) != (unsigned long int)0;
+  return (dev_link1->capabilities & capability_link1) != (unsigned long int)0;
 }
 
-// have_cap$link2
+// have_cap_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link2(struct bladerf *dev$link2, unsigned long int capability$link2)
+static inline _Bool have_cap_link2(struct bladerf *dev_link2, unsigned long int capability_link2)
 {
-  return (dev$link2->capabilities & capability$link2) != (unsigned long int)0;
+  return (dev_link2->capabilities & capability_link2) != (unsigned long int)0;
 }
 
-// have_cap$link3
+// have_cap_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link3(struct bladerf *dev$link3, unsigned long int capability$link3)
+static inline _Bool have_cap_link3(struct bladerf *dev_link3, unsigned long int capability_link3)
 {
-  return (dev$link3->capabilities & capability$link3) != (unsigned long int)0;
+  return (dev_link3->capabilities & capability_link3) != (unsigned long int)0;
 }
 
-// have_cap$link4
+// have_cap_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link4(struct bladerf *dev$link4, unsigned long int capability$link4)
+static inline _Bool have_cap_link4(struct bladerf *dev_link4, unsigned long int capability_link4)
 {
-  return (dev$link4->capabilities & capability$link4) != (unsigned long int)0;
+  return (dev_link4->capabilities & capability_link4) != (unsigned long int)0;
 }
 
-// have_cap$link5
+// have_cap_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link5(struct bladerf *dev$link5, unsigned long int capability$link5)
+static inline _Bool have_cap_link5(struct bladerf *dev_link5, unsigned long int capability_link5)
 {
-  return (dev$link5->capabilities & capability$link5) != (unsigned long int)0;
+  return (dev_link5->capabilities & capability_link5) != (unsigned long int)0;
 }
 
-// have_cap$link6
+// have_cap_link6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link6(struct bladerf *dev$link6, unsigned long int capability$link6)
+static inline _Bool have_cap_link6(struct bladerf *dev_link6, unsigned long int capability_link6)
 {
-  return (dev$link6->capabilities & capability$link6) != (unsigned long int)0;
+  return (dev_link6->capabilities & capability_link6) != (unsigned long int)0;
 }
 
-// have_cap$link7
+// have_cap_link7
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/capabilities.h line 120
-static inline _Bool have_cap$link7(struct bladerf *dev$link7, unsigned long int capability$link7)
+static inline _Bool have_cap_link7(struct bladerf *dev_link7, unsigned long int capability_link7)
 {
-  return (dev$link7->capabilities & capability$link7) != (unsigned long int)0;
+  return (dev_link7->capabilities & capability_link7) != (unsigned long int)0;
 }
 
 // i64_max
@@ -10944,7 +10944,7 @@ static inline signed long int i64_min(signed long int x, signed long int y)
 
 // image_type_is_valid
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/image.c line 124
-static _Bool image_type_is_valid(enum anonymous$38 type)
+static _Bool image_type_is_valid(enum anonymous_38 type)
 {
   if((signed int)type == BLADERF_IMAGE_TYPE_RAW || (signed int)type == BLADERF_IMAGE_TYPE_FIRMWARE || (signed int)type == BLADERF_IMAGE_TYPE_FPGA_40KLE || (signed int)type == BLADERF_IMAGE_TYPE_FPGA_115KLE || (signed int)type == BLADERF_IMAGE_TYPE_CALIBRATION || (signed int)type == BLADERF_IMAGE_TYPE_RX_DC_CAL || (signed int)type == BLADERF_IMAGE_TYPE_TX_DC_CAL || (signed int)type == BLADERF_IMAGE_TYPE_RX_IQ_CAL || (signed int)type == BLADERF_IMAGE_TYPE_TX_IQ_CAL)
     return (_Bool)1;
@@ -10961,9 +10961,9 @@ signed int init_device(struct bladerf *dev)
   status=dev->fn->config_gpio_read(dev, &val);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf_priv.c:146] Failed to read GPIO config %s\n", return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ bladerf_priv.c:146] Failed to read GPIO config %s\n", return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -10976,11 +10976,11 @@ signed int init_device(struct bladerf *dev)
       if(!(status == 0))
         return status;
 
-      status=lms_enable_rffe(dev, (enum anonymous$0)BLADERF_MODULE_TX, (_Bool)0);
+      status=lms_enable_rffe(dev, (enum anonymous_0)BLADERF_MODULE_TX, (_Bool)0);
       if(!(status == 0))
         return status;
 
-      status=lms_enable_rffe(dev, (enum anonymous$0)BLADERF_MODULE_RX, (_Bool)0);
+      status=lms_enable_rffe(dev, (enum anonymous_0)BLADERF_MODULE_RX, (_Bool)0);
       if(!(status == 0))
         return status;
 
@@ -11016,28 +11016,28 @@ signed int init_device(struct bladerf *dev)
       if(!(status == 0))
         return status;
 
-      status=lms_config_charge_pumps(dev, (enum anonymous$0)BLADERF_MODULE_TX);
+      status=lms_config_charge_pumps(dev, (enum anonymous_0)BLADERF_MODULE_TX);
       if(!(status == 0))
         return status;
 
-      status=lms_config_charge_pumps(dev, (enum anonymous$0)BLADERF_MODULE_RX);
+      status=lms_config_charge_pumps(dev, (enum anonymous_0)BLADERF_MODULE_RX);
       if(!(status == 0))
         return status;
 
-      status=si5338_set_sample_rate(dev, (enum anonymous$0)BLADERF_MODULE_TX, (unsigned int)1000000, (unsigned int *)(void *)0);
+      status=si5338_set_sample_rate(dev, (enum anonymous_0)BLADERF_MODULE_TX, (unsigned int)1000000, (unsigned int *)(void *)0);
       if(!(status == 0))
         return status;
 
-      status=si5338_set_sample_rate(dev, (enum anonymous$0)BLADERF_MODULE_RX, (unsigned int)1000000, (unsigned int *)(void *)0);
+      status=si5338_set_sample_rate(dev, (enum anonymous_0)BLADERF_MODULE_RX, (unsigned int)1000000, (unsigned int *)(void *)0);
       if(!(status == 0))
         return status;
 
       dev->tuning_mode=tuning_get_default_mode(dev);
-      status=tuning_set_freq(dev, (enum anonymous$0)BLADERF_MODULE_TX, 2447000000U);
+      status=tuning_set_freq(dev, (enum anonymous_0)BLADERF_MODULE_TX, 2447000000U);
       if(!(status == 0))
         return status;
 
-      status=tuning_set_freq(dev, (enum anonymous$0)BLADERF_MODULE_RX, 2484000000U);
+      status=tuning_set_freq(dev, (enum anonymous_0)BLADERF_MODULE_RX, 2484000000U);
       if(!(status == 0))
         return status;
 
@@ -11076,7 +11076,7 @@ static inline unsigned int interp(unsigned int x0, unsigned int y0, unsigned int
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 316
 static inline signed int is_loopback_enabled(struct bladerf *dev)
 {
-  enum anonymous$1 loopback;
+  enum anonymous_1 loopback;
   signed int status;
   status=lms_get_loopback_mode(dev, &loopback);
   if(!(status == 0))
@@ -11157,7 +11157,7 @@ static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, s
 
 // lms_bw2uint
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 169
-unsigned int lms_bw2uint(enum anonymous$15 bw)
+unsigned int lms_bw2uint(enum anonymous_15 bw)
 {
   unsigned int idx = (unsigned int)((signed int)bw & 0xf);
   /* assertion idx < (sizeof(uint_bandwidths) / sizeof(uint_bandwidths[0])) */
@@ -11244,7 +11244,7 @@ signed int lms_calculate_tuning_params(unsigned int freq, struct lms_freq *f)
 
 // lms_calibrate_dc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 669
-signed int lms_calibrate_dc(struct bladerf *dev, enum anonymous$3 module)
+signed int lms_calibrate_dc(struct bladerf *dev, enum anonymous_3 module)
 {
   signed int status;
   signed int tmp_status;
@@ -11311,7 +11311,7 @@ static inline signed int lms_clear(struct bladerf *dev, unsigned char addr, unsi
 
 // lms_config_charge_pumps
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 225
-signed int lms_config_charge_pumps(struct bladerf *dev, enum anonymous$0 module)
+signed int lms_config_charge_pumps(struct bladerf *dev, enum anonymous_0 module)
 {
   signed int status;
   unsigned char data;
@@ -11464,7 +11464,7 @@ static signed int lms_dc_cal_loop(struct bladerf *dev, unsigned char base, unsig
 
 // lms_dither_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 654
-signed int lms_dither_enable(struct bladerf *dev, enum anonymous$0 mod, unsigned char nbits, _Bool enable)
+signed int lms_dither_enable(struct bladerf *dev, enum anonymous_0 mod, unsigned char nbits, _Bool enable)
 {
   signed int status;
   const unsigned char reg = (const unsigned char)((signed int)mod == BLADERF_MODULE_RX ? 0x24 : 0x14);
@@ -11523,7 +11523,7 @@ signed int lms_dump_registers(struct bladerf *dev)
 
 // lms_enable_rffe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 503
-signed int lms_enable_rffe(struct bladerf *dev, enum anonymous$0 module, _Bool enable)
+signed int lms_enable_rffe(struct bladerf *dev, enum anonymous_0 module, _Bool enable)
 {
   signed int status;
   unsigned char data;
@@ -11565,7 +11565,7 @@ unsigned int lms_frequency_to_hz(struct lms_freq *f)
 
 // lms_get_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 281
-signed int lms_get_bandwidth(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$15 *bw)
+signed int lms_get_bandwidth(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_15 *bw)
 {
   signed int status;
   unsigned char data;
@@ -11580,7 +11580,7 @@ signed int lms_get_bandwidth(struct bladerf *dev, enum anonymous$0 mod, enum ano
     data = data & (unsigned char)0xf;
     /* assertion data < (sizeof(uint_bandwidths) / sizeof(uint_bandwidths[0])) */
     assert((unsigned long int)data < sizeof(const unsigned int [16l]) /*64ul*/  / sizeof(const unsigned int) /*4ul*/ );
-    *bw = (enum anonymous$15)data;
+    *bw = (enum anonymous_15)data;
     return 0;
   }
 }
@@ -11663,27 +11663,27 @@ signed int lms_get_dc_cals(struct bladerf *dev, struct bladerf_lms_dc_cals *dc_c
 
 // lms_get_dc_offset_i
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 761
-signed int lms_get_dc_offset_i(struct bladerf *dev, enum anonymous$0 module, signed short int *value)
+signed int lms_get_dc_offset_i(struct bladerf *dev, enum anonymous_0 module, signed short int *value)
 {
   const unsigned char addr = (const unsigned char)((signed int)module == BLADERF_MODULE_TX ? 0x42 : 0x71);
-  signed int return_value_get_dc_offset$1;
-  return_value_get_dc_offset$1=get_dc_offset(dev, module, addr, value);
-  return return_value_get_dc_offset$1;
+  signed int return_value_get_dc_offset_1;
+  return_value_get_dc_offset_1=get_dc_offset(dev, module, addr, value);
+  return return_value_get_dc_offset_1;
 }
 
 // lms_get_dc_offset_q
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 791
-signed int lms_get_dc_offset_q(struct bladerf *dev, enum anonymous$0 module, signed short int *value)
+signed int lms_get_dc_offset_q(struct bladerf *dev, enum anonymous_0 module, signed short int *value)
 {
   const unsigned char addr = (const unsigned char)((signed int)module == BLADERF_MODULE_TX ? 0x43 : 0x72);
-  signed int return_value_get_dc_offset$1;
-  return_value_get_dc_offset$1=get_dc_offset(dev, module, addr, value);
-  return return_value_get_dc_offset$1;
+  signed int return_value_get_dc_offset_1;
+  return_value_get_dc_offset_1=get_dc_offset(dev, module, addr, value);
+  return return_value_get_dc_offset_1;
 }
 
 // lms_get_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 594
-signed int lms_get_frequency(struct bladerf *dev, enum anonymous$0 mod, struct lms_freq *f)
+signed int lms_get_frequency(struct bladerf *dev, enum anonymous_0 mod, struct lms_freq *f)
 {
   const unsigned char base = (const unsigned char)((signed int)mod == BLADERF_MODULE_RX ? 0x20 : 0x10);
   signed int status;
@@ -11743,27 +11743,27 @@ signed int lms_get_frequency(struct bladerf *dev, enum anonymous$0 mod, struct l
 
 // lms_get_lna
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 774
-signed int lms_get_lna(struct bladerf *dev, enum anonymous$5 *lna)
+signed int lms_get_lna(struct bladerf *dev, enum anonymous_5 *lna)
 {
   signed int status;
   unsigned char data;
   status=dev->fn->lms_read(dev, (unsigned char)0x75, &data);
   if(!(status == 0))
   {
-    *lna = (enum anonymous$5)LNA_NONE;
+    *lna = (enum anonymous_5)LNA_NONE;
     return status;
   }
 
   else
   {
-    *lna = (enum anonymous$5)((signed int)data >> 4 & 0x3);
+    *lna = (enum anonymous_5)((signed int)data >> 4 & 0x3);
     return 0;
   }
 }
 
 // lms_get_loopback_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 525
-signed int lms_get_loopback_mode(struct bladerf *dev, enum anonymous$1 *loopback)
+signed int lms_get_loopback_mode(struct bladerf *dev, enum anonymous_1 *loopback)
 {
   signed int status;
   unsigned char lben_lbrfen;
@@ -11782,11 +11782,11 @@ signed int lms_get_loopback_mode(struct bladerf *dev, enum anonymous$1 *loopback
     {
       if((0x7 & (signed int)lben_lbrfen) == 1)
       {
-        *loopback = (enum anonymous$1)BLADERF_LB_RF_LNA1;
+        *loopback = (enum anonymous_1)BLADERF_LB_RF_LNA1;
         return 0;
-        *loopback = (enum anonymous$1)BLADERF_LB_RF_LNA2;
+        *loopback = (enum anonymous_1)BLADERF_LB_RF_LNA2;
         return 0;
-        *loopback = (enum anonymous$1)BLADERF_LB_RF_LNA3;
+        *loopback = (enum anonymous_1)BLADERF_LB_RF_LNA3;
         return 0;
       }
 
@@ -11794,33 +11794,33 @@ signed int lms_get_loopback_mode(struct bladerf *dev, enum anonymous$1 *loopback
       {
         if(!((4 & (signed int)loopbben) == 0))
         {
-          *loopback = (enum anonymous$1)BLADERF_LB_BB_TXLPF_RXVGA2;
+          *loopback = (enum anonymous_1)BLADERF_LB_BB_TXLPF_RXVGA2;
           return 0;
         }
 
         else
           if(!((8 & (signed int)loopbben) == 0))
           {
-            *loopback = (enum anonymous$1)BLADERF_LB_BB_TXVGA1_RXVGA2;
+            *loopback = (enum anonymous_1)BLADERF_LB_BB_TXVGA1_RXVGA2;
             return 0;
           }
 
         if(!((4 & (signed int)loopbben) == 0))
         {
-          *loopback = (enum anonymous$1)BLADERF_LB_BB_TXLPF_RXLPF;
+          *loopback = (enum anonymous_1)BLADERF_LB_BB_TXLPF_RXLPF;
           return 0;
         }
 
         else
           if(!((8 & (signed int)loopbben) == 0))
           {
-            *loopback = (enum anonymous$1)BLADERF_LB_BB_TXVGA1_RXLPF;
+            *loopback = (enum anonymous_1)BLADERF_LB_BB_TXVGA1_RXLPF;
             return 0;
           }
 
       }
 
-      *loopback = (enum anonymous$1)BLADERF_LB_NONE;
+      *loopback = (enum anonymous_1)BLADERF_LB_NONE;
       return 0;
     }
   }
@@ -11828,7 +11828,7 @@ signed int lms_get_loopback_mode(struct bladerf *dev, enum anonymous$1 *loopback
 
 // lms_get_quick_tune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 606
-signed int lms_get_quick_tune(struct bladerf *dev, enum anonymous$0 mod, struct bladerf_quick_tune *quick_tune)
+signed int lms_get_quick_tune(struct bladerf *dev, enum anonymous_0 mod, struct bladerf_quick_tune *quick_tune)
 {
   struct lms_freq f;
   signed int status;
@@ -11840,9 +11840,9 @@ signed int lms_get_quick_tune(struct bladerf *dev, enum anonymous$0 mod, struct 
     quick_tune->nint = f.nint;
     quick_tune->nfrac = f.nfrac;
     quick_tune->flags = (unsigned char)(1 << 1);
-    unsigned int return_value_lms_frequency_to_hz$1;
-    return_value_lms_frequency_to_hz$1=lms_frequency_to_hz(&f);
-    if(!(return_value_lms_frequency_to_hz$1 >= 1500000000u))
+    unsigned int return_value_lms_frequency_to_hz_1;
+    return_value_lms_frequency_to_hz_1=lms_frequency_to_hz(&f);
+    if(!(return_value_lms_frequency_to_hz_1 >= 1500000000u))
       quick_tune->flags = quick_tune->flags | (unsigned char)(1 << 0);
 
   }
@@ -11852,7 +11852,7 @@ signed int lms_get_quick_tune(struct bladerf *dev, enum anonymous$0 mod, struct 
 
 // lms_get_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 732
-signed int lms_get_sampling(struct bladerf *dev, enum anonymous$34 *sampling)
+signed int lms_get_sampling(struct bladerf *dev, enum anonymous_34 *sampling)
 {
   signed int status = 0;
   signed int external = 0;
@@ -11873,11 +11873,11 @@ signed int lms_get_sampling(struct bladerf *dev, enum anonymous$34 *sampling)
       external = external | (((signed int)val & 1 << 1) != 0 ? 0 : 2);
       if(external == 0)
       {
-        *sampling = (enum anonymous$34)BLADERF_SAMPLING_INTERNAL;
-        *sampling = (enum anonymous$34)BLADERF_SAMPLING_EXTERNAL;
+        *sampling = (enum anonymous_34)BLADERF_SAMPLING_INTERNAL;
+        *sampling = (enum anonymous_34)BLADERF_SAMPLING_EXTERNAL;
       }
 
-      *sampling = (enum anonymous$34)BLADERF_SAMPLING_UNKNOWN;
+      *sampling = (enum anonymous_34)BLADERF_SAMPLING_UNKNOWN;
     }
   }
 
@@ -11888,7 +11888,7 @@ out:
 
 // lms_lna_get_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 328
-signed int lms_lna_get_gain(struct bladerf *dev, enum anonymous$13 *gain)
+signed int lms_lna_get_gain(struct bladerf *dev, enum anonymous_13 *gain)
 {
   signed int status;
   unsigned char data;
@@ -11897,7 +11897,7 @@ signed int lms_lna_get_gain(struct bladerf *dev, enum anonymous$13 *gain)
   {
     data = data >> 6;
     data = data & (unsigned char)3;
-    *gain = (enum anonymous$13)data;
+    *gain = (enum anonymous_13)data;
     if((signed int)*gain == BLADERF_LNA_GAIN_UNKNOWN)
       status = -3;
 
@@ -11908,7 +11908,7 @@ signed int lms_lna_get_gain(struct bladerf *dev, enum anonymous$13 *gain)
 
 // lms_lna_set_gain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 318
-signed int lms_lna_set_gain(struct bladerf *dev, enum anonymous$13 gain)
+signed int lms_lna_set_gain(struct bladerf *dev, enum anonymous_13 gain)
 {
   signed int status;
   unsigned char data;
@@ -11931,7 +11931,7 @@ signed int lms_lna_set_gain(struct bladerf *dev, enum anonymous$13 gain)
 
 // lms_lpf_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 235
-signed int lms_lpf_enable(struct bladerf *dev, enum anonymous$0 mod, _Bool enable)
+signed int lms_lpf_enable(struct bladerf *dev, enum anonymous_0 mod, _Bool enable)
 {
   signed int status;
   unsigned char data;
@@ -11971,7 +11971,7 @@ signed int lms_lpf_enable(struct bladerf *dev, enum anonymous$0 mod, _Bool enabl
 
 // lms_lpf_get_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 258
-signed int lms_lpf_get_mode(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$2 *mode)
+signed int lms_lpf_get_mode(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_2 *mode)
 {
   signed int status;
   const unsigned char reg = (const unsigned char)((signed int)mod == BLADERF_MODULE_RX ? 0x54 : 0x34);
@@ -11994,15 +11994,15 @@ signed int lms_lpf_get_mode(struct bladerf *dev, enum anonymous$0 mod, enum anon
       lpf_enabled = ((signed int)data_l & 1 << 1) != 0;
       lpf_bypassed = ((signed int)data_h & 1 << 6) != 0;
       if(lpf_bypassed == (_Bool)0 && !(lpf_enabled == (_Bool)0))
-        *mode = (enum anonymous$2)BLADERF_LPF_NORMAL;
+        *mode = (enum anonymous_2)BLADERF_LPF_NORMAL;
 
       else
         if(lpf_enabled == (_Bool)0 && !(lpf_bypassed == (_Bool)0))
-          *mode = (enum anonymous$2)BLADERF_LPF_BYPASSED;
+          *mode = (enum anonymous_2)BLADERF_LPF_BYPASSED;
 
         else
           if(lpf_bypassed == (_Bool)0 && lpf_enabled == (_Bool)0)
-            *mode = (enum anonymous$2)BLADERF_LPF_DISABLED;
+            *mode = (enum anonymous_2)BLADERF_LPF_DISABLED;
 
           else
           {
@@ -12016,7 +12016,7 @@ signed int lms_lpf_get_mode(struct bladerf *dev, enum anonymous$0 mod, enum anon
 
 // lms_lpf_set_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 246
-signed int lms_lpf_set_mode(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$2 mode)
+signed int lms_lpf_set_mode(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_2 mode)
 {
   signed int status;
   const unsigned char reg = (const unsigned char)((signed int)mod == BLADERF_MODULE_RX ? 0x54 : 0x34);
@@ -12081,7 +12081,7 @@ signed int lms_peakdetect_enable(struct bladerf *dev, _Bool enable)
 
 // lms_pll_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1596
-signed int lms_pll_enable(struct bladerf *dev, enum anonymous$0 mod, _Bool enable)
+signed int lms_pll_enable(struct bladerf *dev, enum anonymous_0 mod, _Bool enable)
 {
   signed int status;
   const unsigned char reg = (const unsigned char)((signed int)mod == BLADERF_MODULE_RX ? 0x24 : 0x14);
@@ -12140,9 +12140,9 @@ void lms_print_frequency(struct lms_freq *f)
   while((_Bool)0);
   do
   {
-    unsigned int return_value_lms_frequency_to_hz$1;
-    return_value_lms_frequency_to_hz$1=lms_frequency_to_hz(f);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ lms.c:1683]   freq     : %u\n", return_value_lms_frequency_to_hz$1);
+    unsigned int return_value_lms_frequency_to_hz_1;
+    return_value_lms_frequency_to_hz_1=lms_frequency_to_hz(f);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ lms.c:1683]   freq     : %u\n", return_value_lms_frequency_to_hz_1);
   }
   while((_Bool)0);
 }
@@ -12302,7 +12302,7 @@ signed int lms_rxvga2_set_gain(struct bladerf *dev, signed int gain)
 
 // lms_select_band
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 2187
-signed int lms_select_band(struct bladerf *dev, enum anonymous$0 module, _Bool low_band)
+signed int lms_select_band(struct bladerf *dev, enum anonymous_0 module, _Bool low_band)
 {
   signed int status;
   status=is_loopback_enabled(dev);
@@ -12315,13 +12315,13 @@ signed int lms_select_band(struct bladerf *dev, enum anonymous$0 module, _Bool l
 
   if((signed int)module == BLADERF_MODULE_TX)
   {
-    enum anonymous$4 pa = (enum anonymous$4)(low_band != (_Bool)0 ? PA_1 : PA_2);
+    enum anonymous_4 pa = (enum anonymous_4)(low_band != (_Bool)0 ? PA_1 : PA_2);
     status=lms_select_pa(dev, pa);
   }
 
   else
   {
-    enum anonymous$5 lna = (enum anonymous$5)(low_band != (_Bool)0 ? LNA_1 : LNA_2);
+    enum anonymous_5 lna = (enum anonymous_5)(low_band != (_Bool)0 ? LNA_1 : LNA_2);
     status=lms_select_lna(dev, lna);
   }
   return status;
@@ -12329,7 +12329,7 @@ signed int lms_select_band(struct bladerf *dev, enum anonymous$0 module, _Bool l
 
 // lms_select_lna
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 757
-signed int lms_select_lna(struct bladerf *dev, enum anonymous$5 lna)
+signed int lms_select_lna(struct bladerf *dev, enum anonymous_5 lna)
 {
   signed int status;
   unsigned char data;
@@ -12349,7 +12349,7 @@ signed int lms_select_lna(struct bladerf *dev, enum anonymous$5 lna)
 
 // lms_select_pa
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 907
-signed int lms_select_pa(struct bladerf *dev, enum anonymous$4 pa)
+signed int lms_select_pa(struct bladerf *dev, enum anonymous_4 pa)
 {
   signed int status;
   unsigned char data;
@@ -12374,7 +12374,7 @@ signed int lms_select_pa(struct bladerf *dev, enum anonymous$4 pa)
 
 // lms_select_sampling
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 722
-signed int lms_select_sampling(struct bladerf *dev, enum anonymous$34 sampling)
+signed int lms_select_sampling(struct bladerf *dev, enum anonymous_34 sampling)
 {
   unsigned char val;
   signed int status = 0;
@@ -12450,28 +12450,28 @@ static inline signed int lms_set(struct bladerf *dev, unsigned char addr, unsign
   }
 }
 
-// lms_set$link1
+// lms_set_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 180
-static inline signed int lms_set$link1(struct bladerf *dev$link1, unsigned char addr$link1, unsigned char mask$link1)
+static inline signed int lms_set_link1(struct bladerf *dev_link1, unsigned char addr_link1, unsigned char mask_link1)
 {
-  signed int status$link1;
-  unsigned char regval$link1;
-  status$link1=dev$link1->fn->lms_read(dev$link1, addr$link1, &regval$link1);
-  if(!(status$link1 == 0))
-    return status$link1;
+  signed int status_link1;
+  unsigned char regval_link1;
+  status_link1=dev_link1->fn->lms_read(dev_link1, addr_link1, &regval_link1);
+  if(!(status_link1 == 0))
+    return status_link1;
 
   else
   {
-    regval$link1 = regval$link1 | mask$link1;
-    signed int return_value$link1;
-    return_value$link1=dev$link1->fn->lms_write(dev$link1, addr$link1, regval$link1);
-    return return_value$link1;
+    regval_link1 = regval_link1 | mask_link1;
+    signed int return_value_link1;
+    return_value_link1=dev_link1->fn->lms_write(dev_link1, addr_link1, regval_link1);
+    return return_value_link1;
   }
 }
 
 // lms_set_bandwidth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 270
-signed int lms_set_bandwidth(struct bladerf *dev, enum anonymous$0 mod, enum anonymous$15 bw)
+signed int lms_set_bandwidth(struct bladerf *dev, enum anonymous_0 mod, enum anonymous_15 bw)
 {
   signed int status;
   unsigned char data;
@@ -12496,47 +12496,47 @@ signed int lms_set_dc_cals(struct bladerf *dev, struct bladerf_lms_dc_cals *dc_c
 {
   signed int status;
   _Bool cal_tx_lpf;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)dc_cals->tx_lpf_i >= 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)dc_cals->tx_lpf_q >= 0 ? (_Bool)1 : (_Bool)0;
-  cal_tx_lpf = tmp_if_expr$1;
+    tmp_if_expr_1 = (signed int)dc_cals->tx_lpf_q >= 0 ? (_Bool)1 : (_Bool)0;
+  cal_tx_lpf = tmp_if_expr_1;
   _Bool cal_rx_lpf;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)dc_cals->rx_lpf_i >= 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)dc_cals->rx_lpf_q >= 0 ? (_Bool)1 : (_Bool)0;
-  cal_rx_lpf = tmp_if_expr$2;
+    tmp_if_expr_2 = (signed int)dc_cals->rx_lpf_q >= 0 ? (_Bool)1 : (_Bool)0;
+  cal_rx_lpf = tmp_if_expr_2;
   _Bool cal_rxvga2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((signed int)dc_cals->dc_ref >= 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)dc_cals->rxvga2a_i >= 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (signed int)dc_cals->rxvga2a_i >= 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)dc_cals->rxvga2a_q >= 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = (signed int)dc_cals->rxvga2a_q >= 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (signed int)dc_cals->rxvga2b_i >= 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = (signed int)dc_cals->rxvga2b_i >= 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = (signed int)dc_cals->rxvga2b_q >= 0 ? (_Bool)1 : (_Bool)0;
-  cal_rxvga2 = tmp_if_expr$6;
+    tmp_if_expr_6 = (signed int)dc_cals->rxvga2b_q >= 0 ? (_Bool)1 : (_Bool)0;
+  cal_rxvga2 = tmp_if_expr_6;
   if((signed int)dc_cals->lpf_tuning >= 0)
   {
     status=enable_lpf_cal_clock(dev, (_Bool)1);
@@ -12694,49 +12694,49 @@ signed int lms_set_dc_cals(struct bladerf *dev, struct bladerf_lms_dc_cals *dc_c
 
 // lms_set_dc_offset_i
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 746
-signed int lms_set_dc_offset_i(struct bladerf *dev, enum anonymous$0 module, unsigned short int value)
+signed int lms_set_dc_offset_i(struct bladerf *dev, enum anonymous_0 module, unsigned short int value)
 {
   const unsigned char addr = (const unsigned char)((signed int)module == BLADERF_MODULE_TX ? 0x42 : 0x71);
-  signed int return_value_set_dc_offset_reg$1;
-  return_value_set_dc_offset_reg$1=set_dc_offset_reg(dev, module, addr, (signed short int)value);
-  return return_value_set_dc_offset_reg$1;
+  signed int return_value_set_dc_offset_reg_1;
+  return_value_set_dc_offset_reg_1=set_dc_offset_reg(dev, module, addr, (signed short int)value);
+  return return_value_set_dc_offset_reg_1;
 }
 
 // lms_set_dc_offset_q
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 776
-signed int lms_set_dc_offset_q(struct bladerf *dev, enum anonymous$0 module, signed short int value)
+signed int lms_set_dc_offset_q(struct bladerf *dev, enum anonymous_0 module, signed short int value)
 {
   const unsigned char addr = (const unsigned char)((signed int)module == BLADERF_MODULE_TX ? 0x43 : 0x72);
-  signed int return_value_set_dc_offset_reg$1;
-  return_value_set_dc_offset_reg$1=set_dc_offset_reg(dev, module, addr, value);
-  return return_value_set_dc_offset_reg$1;
+  signed int return_value_set_dc_offset_reg_1;
+  return_value_set_dc_offset_reg_1=set_dc_offset_reg(dev, module, addr, value);
+  return return_value_set_dc_offset_reg_1;
 }
 
 // lms_set_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 641
-static inline signed int lms_set_frequency(struct bladerf *dev, enum anonymous$0 mod, unsigned int freq)
+static inline signed int lms_set_frequency(struct bladerf *dev, enum anonymous_0 mod, unsigned int freq)
 {
   struct lms_freq f;
   lms_calculate_tuning_params(freq, &f);
-  signed int return_value_lms_set_precalculated_frequency$1;
-  return_value_lms_set_precalculated_frequency$1=lms_set_precalculated_frequency(dev, mod, &f);
-  return return_value_lms_set_precalculated_frequency$1;
+  signed int return_value_lms_set_precalculated_frequency_1;
+  return_value_lms_set_precalculated_frequency_1=lms_set_precalculated_frequency(dev, mod, &f);
+  return return_value_lms_set_precalculated_frequency_1;
 }
 
-// lms_set_frequency$link1
+// lms_set_frequency_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 641
-static inline signed int lms_set_frequency$link1(struct bladerf *dev$link1, enum anonymous$0 mod$link1, unsigned int freq$link1)
+static inline signed int lms_set_frequency_link1(struct bladerf *dev_link1, enum anonymous_0 mod_link1, unsigned int freq_link1)
 {
-  struct lms_freq f$link1;
-  lms_calculate_tuning_params(freq$link1, &f$link1);
-  signed int return_value_lms_set_precalculated_frequency$1$link1;
-  return_value_lms_set_precalculated_frequency$1$link1=lms_set_precalculated_frequency(dev$link1, mod$link1, &f$link1);
-  return return_value_lms_set_precalculated_frequency$1$link1;
+  struct lms_freq f_link1;
+  lms_calculate_tuning_params(freq_link1, &f_link1);
+  signed int return_value_lms_set_precalculated_frequency_1_link1;
+  return_value_lms_set_precalculated_frequency_1_link1=lms_set_precalculated_frequency(dev_link1, mod_link1, &f_link1);
+  return return_value_lms_set_precalculated_frequency_1_link1;
 }
 
 // lms_set_loopback_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 514
-signed int lms_set_loopback_mode(struct bladerf *dev, enum anonymous$1 mode)
+signed int lms_set_loopback_mode(struct bladerf *dev, enum anonymous_1 mode)
 {
   signed int status;
   if((signed int)mode == BLADERF_LB_BB_TXLPF_RXVGA2 || (signed int)mode == BLADERF_LB_BB_TXVGA1_RXVGA2 || (signed int)mode == BLADERF_LB_BB_TXLPF_RXLPF || (signed int)mode == BLADERF_LB_BB_TXVGA1_RXLPF || (signed int)mode == BLADERF_LB_RF_LNA1 || (signed int)mode == BLADERF_LB_RF_LNA2 || (signed int)mode == BLADERF_LB_RF_LNA3 || (signed int)mode == BLADERF_LB_NONE)
@@ -12746,19 +12746,19 @@ signed int lms_set_loopback_mode(struct bladerf *dev, enum anonymous$1 mode)
 
 __CPROVER_DUMP_L3:
   ;
-  status=lms_select_pa(dev, (enum anonymous$4)PA_NONE);
+  status=lms_select_pa(dev, (enum anonymous_4)PA_NONE);
   if(!(status == 0))
     return status;
 
   else
   {
-    status=lms_select_lna(dev, (enum anonymous$5)LNA_NONE);
+    status=lms_select_lna(dev, (enum anonymous_5)LNA_NONE);
     if(!(status == 0))
       return status;
 
     else
     {
-      status=loopback_path(dev, (enum anonymous$1)BLADERF_LB_NONE);
+      status=loopback_path(dev, (enum anonymous_1)BLADERF_LB_NONE);
       if(!(status == 0))
         return status;
 
@@ -12791,7 +12791,7 @@ __CPROVER_DUMP_L3:
 
 // lms_set_precalculated_frequency
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 629
-signed int lms_set_precalculated_frequency(struct bladerf *dev, enum anonymous$0 mod, struct lms_freq *f)
+signed int lms_set_precalculated_frequency(struct bladerf *dev, enum anonymous_0 mod, struct lms_freq *f)
 {
   const unsigned char base = (const unsigned char)((signed int)mod == BLADERF_MODULE_RX ? 0x20 : 0x10);
   unsigned char data;
@@ -12799,9 +12799,9 @@ signed int lms_set_precalculated_frequency(struct bladerf *dev, enum anonymous$0
   signed int status;
   signed int dsm_status;
   unsigned char pll_base;
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap$link4(dev, (unsigned long int)(1 << 6));
-  pll_base = (const unsigned char)(return_value_have_cap$1 != (_Bool)0 ? (signed int)base | 0x80 : (signed int)base);
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap_link4(dev, (unsigned long int)(1 << 6));
+  pll_base = (const unsigned char)(return_value_have_cap_1 != (_Bool)0 ? (signed int)base | 0x80 : (signed int)base);
   f->vcocap_result = (unsigned char)0xff;
   status=dev->fn->lms_read(dev, (unsigned char)0x09, &data);
   if(status == 0)
@@ -13012,70 +13012,70 @@ signed int lms_txvga2_set_gain(struct bladerf *dev, signed int gain_int)
 
 // lms_uint2bw
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/lms.h line 160
-enum anonymous$15 lms_uint2bw(unsigned int req)
+enum anonymous_15 lms_uint2bw(unsigned int req)
 {
-  enum anonymous$15 ret;
+  enum anonymous_15 ret;
   if(!(req >= 1500001u))
-    ret = (enum anonymous$15)BW_1p5MHz;
+    ret = (enum anonymous_15)BW_1p5MHz;
 
   else
     if(!(req >= 1750001u))
-      ret = (enum anonymous$15)BW_1p75MHz;
+      ret = (enum anonymous_15)BW_1p75MHz;
 
     else
       if(!(req >= 2500001u))
-        ret = (enum anonymous$15)BW_2p5MHz;
+        ret = (enum anonymous_15)BW_2p5MHz;
 
       else
         if(!(req >= 2750001u))
-          ret = (enum anonymous$15)BW_2p75MHz;
+          ret = (enum anonymous_15)BW_2p75MHz;
 
         else
           if(!(req >= 3000001u))
-            ret = (enum anonymous$15)BW_3MHz;
+            ret = (enum anonymous_15)BW_3MHz;
 
           else
             if(!(req >= 3840001u))
-              ret = (enum anonymous$15)BW_3p84MHz;
+              ret = (enum anonymous_15)BW_3p84MHz;
 
             else
               if(!(req >= 5000001u))
-                ret = (enum anonymous$15)BW_5MHz;
+                ret = (enum anonymous_15)BW_5MHz;
 
               else
                 if(!(req >= 5500001u))
-                  ret = (enum anonymous$15)BW_5p5MHz;
+                  ret = (enum anonymous_15)BW_5p5MHz;
 
                 else
                   if(!(req >= 6000001u))
-                    ret = (enum anonymous$15)BW_6MHz;
+                    ret = (enum anonymous_15)BW_6MHz;
 
                   else
                     if(!(req >= 7000001u))
-                      ret = (enum anonymous$15)BW_7MHz;
+                      ret = (enum anonymous_15)BW_7MHz;
 
                     else
                       if(!(req >= 8750001u))
-                        ret = (enum anonymous$15)BW_8p75MHz;
+                        ret = (enum anonymous_15)BW_8p75MHz;
 
                       else
                         if(!(req >= 10000001u))
-                          ret = (enum anonymous$15)BW_10MHz;
+                          ret = (enum anonymous_15)BW_10MHz;
 
                         else
                           if(!(req >= 12000001u))
-                            ret = (enum anonymous$15)BW_12MHz;
+                            ret = (enum anonymous_15)BW_12MHz;
 
                           else
                             if(!(req >= 14000001u))
-                              ret = (enum anonymous$15)BW_14MHz;
+                              ret = (enum anonymous_15)BW_14MHz;
 
                             else
                               if(!(req >= 20000001u))
-                                ret = (enum anonymous$15)BW_20MHz;
+                                ret = (enum anonymous_15)BW_20MHz;
 
                               else
-                                ret = (enum anonymous$15)BW_28MHz;
+                                ret = (enum anonymous_15)BW_28MHz;
   return ret;
 }
 
@@ -13085,16 +13085,16 @@ static inline void load_dc_cal(struct bladerf *dev, const char *file)
 {
   signed int status;
   struct bladerf_image *img;
-  img=bladerf_alloc_image((enum anonymous$38)BLADERF_IMAGE_TYPE_INVALID, (unsigned int)0, (unsigned int)0);
+  img=bladerf_alloc_image((enum anonymous_38)BLADERF_IMAGE_TYPE_INVALID, (unsigned int)0, (unsigned int)0);
   if(!(img == ((struct bladerf_image *)NULL)))
   {
     status=bladerf_image_read(img, file);
     if(!(status == 0))
       do
       {
-        const char *return_value_bladerf_strerror$1;
-        return_value_bladerf_strerror$1=bladerf_strerror(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ config.c:42] Failed to open image file (%s): %s\n", file, return_value_bladerf_strerror$1);
+        const char *return_value_bladerf_strerror_1;
+        return_value_bladerf_strerror_1=bladerf_strerror(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ config.c:42] Failed to open image file (%s): %s\n", file, return_value_bladerf_strerror_1);
       }
       while((_Bool)0);
 
@@ -13184,7 +13184,7 @@ static inline const char * logger_id_string(unsigned char file_id)
 
 // loopback_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1385
-static signed int loopback_path(struct bladerf *dev, enum anonymous$1 mode)
+static signed int loopback_path(struct bladerf *dev, enum anonymous_1 mode)
 {
   signed int status;
   unsigned char loopbben;
@@ -13230,16 +13230,16 @@ static signed int loopback_path(struct bladerf *dev, enum anonymous$1 mode)
 
 // loopback_rx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1205
-static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode)
+static signed int loopback_rx(struct bladerf *dev, enum anonymous_1 mode)
 {
   signed int status;
-  enum anonymous$2 lpf_mode;
+  enum anonymous_2 lpf_mode;
   unsigned char lna;
   unsigned char regval;
-  status=lms_lpf_get_mode(dev, (enum anonymous$0)BLADERF_MODULE_RX, &lpf_mode);
+  status=lms_lpf_get_mode(dev, (enum anonymous_0)BLADERF_MODULE_RX, &lpf_mode);
   struct lms_freq f;
-  unsigned int return_value_lms_frequency_to_hz$1;
-  unsigned int return_value_lms_frequency_to_hz$2;
+  unsigned int return_value_lms_frequency_to_hz_1;
+  unsigned int return_value_lms_frequency_to_hz_2;
   if(!(status == 0))
     return status;
 
@@ -13255,7 +13255,7 @@ static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode)
         if(!(status == 0))
           return status;
 
-        status=lms_lpf_set_mode(dev, (enum anonymous$0)BLADERF_MODULE_RX, (enum anonymous$2)BLADERF_LPF_DISABLED);
+        status=lms_lpf_set_mode(dev, (enum anonymous_0)BLADERF_MODULE_RX, (enum anonymous_2)BLADERF_LPF_DISABLED);
         if(!(status == 0))
           return status;
 
@@ -13271,7 +13271,7 @@ static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode)
 
         if((signed int)lpf_mode == BLADERF_LPF_DISABLED)
         {
-          status=lms_lpf_set_mode(dev, (enum anonymous$0)BLADERF_MODULE_RX, (enum anonymous$2)BLADERF_LPF_NORMAL);
+          status=lms_lpf_set_mode(dev, (enum anonymous_0)BLADERF_MODULE_RX, (enum anonymous_2)BLADERF_LPF_NORMAL);
           if(!(status == 0))
             return status;
 
@@ -13302,7 +13302,7 @@ static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode)
 
         if((signed int)lpf_mode == BLADERF_LPF_DISABLED)
         {
-          status=lms_lpf_set_mode(dev, (enum anonymous$0)BLADERF_MODULE_RX, (enum anonymous$2)BLADERF_LPF_NORMAL);
+          status=lms_lpf_set_mode(dev, (enum anonymous_0)BLADERF_MODULE_RX, (enum anonymous_2)BLADERF_LPF_NORMAL);
           if(!(status == 0))
             return status;
 
@@ -13322,7 +13322,7 @@ static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode)
 
         if((signed int)lpf_mode == BLADERF_LPF_DISABLED)
         {
-          status=lms_lpf_set_mode(dev, (enum anonymous$0)BLADERF_MODULE_RX, (enum anonymous$2)BLADERF_LPF_NORMAL);
+          status=lms_lpf_set_mode(dev, (enum anonymous_0)BLADERF_MODULE_RX, (enum anonymous_2)BLADERF_LPF_NORMAL);
           if(!(status == 0))
             return status;
 
@@ -13340,17 +13340,17 @@ static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode)
         if(!(status == 0))
           return status;
 
-        status=lms_get_frequency(dev, (enum anonymous$0)BLADERF_MODULE_RX, &f);
+        status=lms_get_frequency(dev, (enum anonymous_0)BLADERF_MODULE_RX, &f);
         if(!(status == 0))
           return status;
 
-        return_value_lms_frequency_to_hz$1=lms_frequency_to_hz(&f);
-        status=lms_set_frequency$link1(dev, (enum anonymous$0)BLADERF_MODULE_RX, return_value_lms_frequency_to_hz$1);
+        return_value_lms_frequency_to_hz_1=lms_frequency_to_hz(&f);
+        status=lms_set_frequency_link1(dev, (enum anonymous_0)BLADERF_MODULE_RX, return_value_lms_frequency_to_hz_1);
         if(!(status == 0))
           return status;
 
-        return_value_lms_frequency_to_hz$2=lms_frequency_to_hz(&f);
-        status=lms_select_band(dev, (enum anonymous$0)BLADERF_MODULE_RX, return_value_lms_frequency_to_hz$2 < (unsigned int)1500000000);
+        return_value_lms_frequency_to_hz_2=lms_frequency_to_hz(&f);
+        status=lms_select_band(dev, (enum anonymous_0)BLADERF_MODULE_RX, return_value_lms_frequency_to_hz_2 < (unsigned int)1500000000);
         break;
       }
       default:
@@ -13366,12 +13366,12 @@ static signed int loopback_rx(struct bladerf *dev, enum anonymous$1 mode)
 
 // loopback_tx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 1156
-static signed int loopback_tx(struct bladerf *dev, enum anonymous$1 mode)
+static signed int loopback_tx(struct bladerf *dev, enum anonymous_1 mode)
 {
   signed int status = 0;
   struct lms_freq f;
-  unsigned int return_value_lms_frequency_to_hz$1;
-  unsigned int return_value_lms_frequency_to_hz$2;
+  unsigned int return_value_lms_frequency_to_hz_1;
+  unsigned int return_value_lms_frequency_to_hz_2;
   switch((signed int)mode)
   {
     case BLADERF_LB_BB_TXLPF_RXVGA2:
@@ -13388,22 +13388,22 @@ static signed int loopback_tx(struct bladerf *dev, enum anonymous$1 mode)
 
     case BLADERF_LB_RF_LNA3:
     {
-      status=lms_select_pa(dev, (enum anonymous$4)PA_AUX);
+      status=lms_select_pa(dev, (enum anonymous_4)PA_AUX);
       break;
     }
     case BLADERF_LB_NONE:
     {
-      status=lms_get_frequency(dev, (enum anonymous$0)BLADERF_MODULE_TX, &f);
+      status=lms_get_frequency(dev, (enum anonymous_0)BLADERF_MODULE_TX, &f);
       if(!(status == 0))
         return status;
 
-      return_value_lms_frequency_to_hz$1=lms_frequency_to_hz(&f);
-      status=lms_set_frequency$link1(dev, (enum anonymous$0)BLADERF_MODULE_TX, return_value_lms_frequency_to_hz$1);
+      return_value_lms_frequency_to_hz_1=lms_frequency_to_hz(&f);
+      status=lms_set_frequency_link1(dev, (enum anonymous_0)BLADERF_MODULE_TX, return_value_lms_frequency_to_hz_1);
       if(!(status == 0))
         return status;
 
-      return_value_lms_frequency_to_hz$2=lms_frequency_to_hz(&f);
-      status=lms_select_band(dev, (enum anonymous$0)BLADERF_MODULE_TX, return_value_lms_frequency_to_hz$2 < (unsigned int)1500000000);
+      return_value_lms_frequency_to_hz_2=lms_frequency_to_hz(&f);
+      status=lms_select_band(dev, (enum anonymous_0)BLADERF_MODULE_TX, return_value_lms_frequency_to_hz_2 < (unsigned int)1500000000);
       break;
     }
     default:
@@ -13421,14 +13421,14 @@ static signed int loopback_tx(struct bladerf *dev, enum anonymous$1 mode)
 static inline struct bladerf_lusb * lusb_backend(struct bladerf *dev)
 {
   struct bladerf_usb *usb;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(dev == ((struct bladerf *)NULL)))
-    tmp_if_expr$1 = dev->backend != NULL ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = dev->backend != NULL ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion dev && dev->backend */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   usb = (struct bladerf_usb *)dev->backend;
   /* assertion usb->driver */
   assert(usb->driver != NULL);
@@ -13462,9 +13462,9 @@ static signed int lusb_change_setting(void *driver, unsigned char setting)
   struct bladerf_lusb *lusb = (struct bladerf_lusb *)driver;
   signed int status;
   status=libusb_set_interface_alt_setting(lusb->handle, 0, (signed int)setting);
-  signed int return_value_error_conv$1;
-  return_value_error_conv$1=error_conv(status);
-  return return_value_error_conv$1;
+  signed int return_value_error_conv_1;
+  return_value_error_conv_1=error_conv(status);
+  return return_value_error_conv_1;
 }
 
 // lusb_close
@@ -13477,9 +13477,9 @@ static void lusb_close(void *driver)
   if(!(status >= 0))
     do
     {
-      const char *return_value_libusb_error_name$1;
-      return_value_libusb_error_name$1=libusb_error_name(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:595] Failed to release interface: %s\n", return_value_libusb_error_name$1);
+      const char *return_value_libusb_error_name_1;
+      return_value_libusb_error_name_1=libusb_error_name(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:595] Failed to release interface: %s\n", return_value_libusb_error_name_1);
     }
     while((_Bool)0);
 
@@ -13502,9 +13502,9 @@ static void lusb_close_bootloader(void *driver)
       if(!(status >= 0))
         do
         {
-          const char *return_value_libusb_error_name$1;
-          return_value_libusb_error_name$1=libusb_error_name(status);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:613] Failed to release interface: %s\n", return_value_libusb_error_name$1);
+          const char *return_value_libusb_error_name_1;
+          return_value_libusb_error_name_1=libusb_error_name(status);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:613] Failed to release interface: %s\n", return_value_libusb_error_name_1);
         }
         while((_Bool)0);
 
@@ -13521,7 +13521,7 @@ static void lusb_close_bootloader(void *driver)
 
 // lusb_control_transfer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 793
-static signed int lusb_control_transfer(void *driver, enum anonymous$28 target_type, enum anonymous$29 req_type, enum anonymous$30 dir, unsigned char request, unsigned short int wvalue, unsigned short int windex, void *buffer, unsigned int buffer_len, unsigned int timeout_ms)
+static signed int lusb_control_transfer(void *driver, enum anonymous_28 target_type, enum anonymous_29 req_type, enum anonymous_30 dir, unsigned char request, unsigned short int wvalue, unsigned short int windex, void *buffer, unsigned int buffer_len, unsigned int timeout_ms)
 {
   signed int status;
   struct bladerf_lusb *lusb = (struct bladerf_lusb *)driver;
@@ -13535,9 +13535,9 @@ static signed int lusb_control_transfer(void *driver, enum anonymous$28 target_t
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:814] %s failed: status = %d\n", (const void *)"lusb_control_transfer", status);
     while((_Bool)0);
-  signed int return_value_error_conv$1;
-  return_value_error_conv$1=error_conv(status);
-  return return_value_error_conv$1;
+  signed int return_value_error_conv_1;
+  return_value_error_conv_1=error_conv(status);
+  return return_value_error_conv_1;
 }
 
 // lusb_deinit_stream
@@ -13551,7 +13551,7 @@ static signed int lusb_deinit_stream(void *driver, struct bladerf_stream *stream
   {
     libusb_free_transfer(stream_data->transfers[(signed long int)i]);
     stream_data->transfers[(signed long int)i] = (struct libusb_transfer *)(void *)0;
-    stream_data->transfer_status[(signed long int)i] = (enum anonymous$37)TRANSFER_UNINITIALIZED;
+    stream_data->transfer_status[(signed long int)i] = (enum anonymous_37)TRANSFER_UNINITIALIZED;
   }
   free((void *)stream_data->transfers);
   free((void *)stream_data->transfer_status);
@@ -13562,22 +13562,22 @@ static signed int lusb_deinit_stream(void *driver, struct bladerf_stream *stream
 
 // lusb_get_speed
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 712
-static signed int lusb_get_speed(void *driver, enum anonymous$9 *device_speed)
+static signed int lusb_get_speed(void *driver, enum anonymous_9 *device_speed)
 {
   signed int speed;
   signed int status = 0;
   struct bladerf_lusb *lusb = (struct bladerf_lusb *)driver;
   speed=libusb_get_device_speed(lusb->dev);
   if(speed == 4)
-    *device_speed = (enum anonymous$9)BLADERF_DEVICE_SPEED_SUPER;
+    *device_speed = (enum anonymous_9)BLADERF_DEVICE_SPEED_SUPER;
 
   else
     if(speed == 3)
-      *device_speed = (enum anonymous$9)BLADERF_DEVICE_SPEED_HIGH;
+      *device_speed = (enum anonymous_9)BLADERF_DEVICE_SPEED_HIGH;
 
     else
     {
-      *device_speed = (enum anonymous$9)BLADERF_DEVICE_SPEED_UNKNOWN;
+      *device_speed = (enum anonymous_9)BLADERF_DEVICE_SPEED_UNKNOWN;
       if(speed == 2)
       {
         do
@@ -13628,10 +13628,10 @@ static signed int lusb_init_stream(void *driver, struct bladerf_stream *stream, 
   signed int status = 0;
   unsigned long int i;
   struct lusb_stream_data *stream_data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct lusb_stream_data) /*48ul*/ );
-  stream_data = (struct lusb_stream_data *)return_value_malloc$1;
-  void *return_value_calloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct lusb_stream_data) /*48ul*/ );
+  stream_data = (struct lusb_stream_data *)return_value_malloc_1;
+  void *return_value_calloc_3;
   if(stream_data == ((struct lusb_stream_data *)NULL))
     return -4;
 
@@ -13639,14 +13639,14 @@ static signed int lusb_init_stream(void *driver, struct bladerf_stream *stream, 
   {
     stream->backend_data = (void *)stream_data;
     stream_data->transfers = (struct libusb_transfer **)(void *)0;
-    stream_data->transfer_status = (enum anonymous$37 *)(void *)0;
+    stream_data->transfer_status = (enum anonymous_37 *)(void *)0;
     stream_data->num_transfers = num_transfers;
     stream_data->num_avail = (unsigned long int)0;
     stream_data->i = (unsigned long int)0;
     stream_data->out_of_order_event = (_Bool)0;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(num_transfers * sizeof(struct libusb_transfer *) /*8ul*/ );
-    stream_data->transfers = (struct libusb_transfer **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(num_transfers * sizeof(struct libusb_transfer *) /*8ul*/ );
+    stream_data->transfers = (struct libusb_transfer **)return_value_malloc_2;
     if(stream_data->transfers == ((struct libusb_transfer **)NULL))
     {
       do
@@ -13657,9 +13657,9 @@ static signed int lusb_init_stream(void *driver, struct bladerf_stream *stream, 
 
     else
     {
-      return_value_calloc$3=calloc(num_transfers, sizeof(enum anonymous$37) /*4ul*/ );
-      stream_data->transfer_status = (enum anonymous$37 *)return_value_calloc$3;
-      if(stream_data->transfer_status == ((enum anonymous$37 *)NULL))
+      return_value_calloc_3=calloc(num_transfers, sizeof(enum anonymous_37) /*4ul*/ );
+      stream_data->transfer_status = (enum anonymous_37 *)return_value_calloc_3;
+      if(stream_data->transfer_status == ((enum anonymous_37 *)NULL))
       {
         do
           log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:1142] Failed to allocated libusb transfer status array\n");
@@ -13682,7 +13682,7 @@ static signed int lusb_init_stream(void *driver, struct bladerf_stream *stream, 
               {
                 libusb_free_transfer(stream_data->transfers[(signed long int)i]);
                 stream_data->transfers[(signed long int)i] = (struct libusb_transfer *)(void *)0;
-                stream_data->transfer_status[(signed long int)i] = (enum anonymous$37)TRANSFER_UNINITIALIZED;
+                stream_data->transfer_status[(signed long int)i] = (enum anonymous_37)TRANSFER_UNINITIALIZED;
                 stream_data->num_avail = stream_data->num_avail - 1ul;
               }
 
@@ -13693,7 +13693,7 @@ static signed int lusb_init_stream(void *driver, struct bladerf_stream *stream, 
 
           else
           {
-            stream_data->transfer_status[(signed long int)i] = (enum anonymous$37)TRANSFER_AVAIL;
+            stream_data->transfer_status[(signed long int)i] = (enum anonymous_37)TRANSFER_AVAIL;
             stream_data->num_avail = stream_data->num_avail + 1ul;
           }
         }
@@ -13726,14 +13726,14 @@ static signed int lusb_open(void **driver, struct bladerf_devinfo *info_in, stru
   {
     do
     {
-      const char *return_value_libusb_error_name$1;
-      return_value_libusb_error_name$1=libusb_error_name(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:531] Could not initialize libusb: %s\n", return_value_libusb_error_name$1);
+      const char *return_value_libusb_error_name_1;
+      return_value_libusb_error_name_1=libusb_error_name(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:531] Could not initialize libusb: %s\n", return_value_libusb_error_name_1);
     }
     while((_Bool)0);
-    signed int return_value_error_conv$2;
-    return_value_error_conv$2=error_conv(status);
-    return return_value_error_conv$2;
+    signed int return_value_error_conv_2;
+    return_value_error_conv_2=error_conv(status);
+    return return_value_error_conv_2;
   }
 
   char buf[64l];
@@ -13753,9 +13753,9 @@ static signed int lusb_open(void **driver, struct bladerf_devinfo *info_in, stru
     else
       do
       {
-        const char *return_value_bladerf_strerror$3;
-        return_value_bladerf_strerror$3=bladerf_strerror(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:553] Failed to open bladeRF on libusb backend: %s\n", return_value_bladerf_strerror$3);
+        const char *return_value_bladerf_strerror_3;
+        return_value_bladerf_strerror_3=bladerf_strerror(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:553] Failed to open bladeRF on libusb backend: %s\n", return_value_bladerf_strerror_3);
       }
       while((_Bool)0);
   }
@@ -13784,11 +13784,11 @@ static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigne
   signed long int i;
   struct bladerf_lusb *lusb;
   *driver = (void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct bladerf_lusb) /*24ul*/ );
-  lusb = (struct bladerf_lusb *)return_value_calloc$1;
-  _Bool return_value_bus_matches$9;
-  _Bool return_value_addr_matches$8;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct bladerf_lusb) /*24ul*/ );
+  lusb = (struct bladerf_lusb *)return_value_calloc_1;
+  _Bool return_value_bus_matches_9;
+  _Bool return_value_addr_matches_8;
   if(lusb == ((struct bladerf_lusb *)NULL))
     return -4;
 
@@ -13798,9 +13798,9 @@ static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigne
     if(!(status == 0))
       do
       {
-        const char *return_value_libusb_error_name$2;
-        return_value_libusb_error_name$2=libusb_error_name(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:656] Failed to initialize libusb context: %s\n", return_value_libusb_error_name$2);
+        const char *return_value_libusb_error_name_2;
+        return_value_libusb_error_name_2=libusb_error_name(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:656] Failed to initialize libusb context: %s\n", return_value_libusb_error_name_2);
       }
       while((_Bool)0);
 
@@ -13811,9 +13811,9 @@ static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigne
       {
         do
         {
-          const char *return_value_libusb_error_name$3;
-          return_value_libusb_error_name$3=libusb_error_name(status);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:662] Failed to get device list: %s\n", return_value_libusb_error_name$3);
+          const char *return_value_libusb_error_name_3;
+          return_value_libusb_error_name_3=libusb_error_name(status);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:662] Failed to get device list: %s\n", return_value_libusb_error_name_3);
         }
         while((_Bool)0);
         status = (signed int)dev_list_size;
@@ -13824,24 +13824,24 @@ static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigne
         i = (signed long int)0;
         for( ; !(i >= dev_list_size); i = i + 1l)
         {
-          _Bool return_value_device_is_fx3_bootloader$10;
-          return_value_device_is_fx3_bootloader$10=device_is_fx3_bootloader(dev_list[i]);
-          if(!(return_value_device_is_fx3_bootloader$10 == (_Bool)0))
+          _Bool return_value_device_is_fx3_bootloader_10;
+          return_value_device_is_fx3_bootloader_10=device_is_fx3_bootloader(dev_list[i]);
+          if(!(return_value_device_is_fx3_bootloader_10 == (_Bool)0))
           {
-            return_value_bus_matches$9=bus_matches(bus, dev_list[i]);
-            if(!(return_value_bus_matches$9 == (_Bool)0))
+            return_value_bus_matches_9=bus_matches(bus, dev_list[i]);
+            if(!(return_value_bus_matches_9 == (_Bool)0))
             {
-              return_value_addr_matches$8=addr_matches(addr, dev_list[i]);
-              if(!(return_value_addr_matches$8 == (_Bool)0))
+              return_value_addr_matches_8=addr_matches(addr, dev_list[i]);
+              if(!(return_value_addr_matches_8 == (_Bool)0))
               {
                 status=libusb_open(dev_list[i], &lusb->handle);
                 if(!(status == 0))
                 {
                   do
                   {
-                    const char *return_value_libusb_error_name$4;
-                    return_value_libusb_error_name$4=libusb_error_name(status);
-                    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:676] Failed to open device: %s\n", return_value_libusb_error_name$4);
+                    const char *return_value_libusb_error_name_4;
+                    return_value_libusb_error_name_4=libusb_error_name(status);
+                    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:676] Failed to open device: %s\n", return_value_libusb_error_name_4);
                   }
                   while((_Bool)0);
                   break;
@@ -13854,9 +13854,9 @@ static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigne
                   {
                     do
                     {
-                      const char *return_value_libusb_error_name$5;
-                      return_value_libusb_error_name$5=libusb_error_name(status);
-                      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:682] Failed to claim interface: %s\n", return_value_libusb_error_name$5);
+                      const char *return_value_libusb_error_name_5;
+                      return_value_libusb_error_name_5=libusb_error_name(status);
+                      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:682] Failed to claim interface: %s\n", return_value_libusb_error_name_5);
                     }
                     while((_Bool)0);
                     break;
@@ -13866,11 +13866,11 @@ static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigne
                   {
                     do
                     {
-                      unsigned char return_value_libusb_get_bus_number$6;
-                      return_value_libusb_get_bus_number$6=libusb_get_bus_number(dev_list[i]);
-                      unsigned char return_value_libusb_get_device_address$7;
-                      return_value_libusb_get_device_address$7=libusb_get_device_address(dev_list[i]);
-                      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ libusb.c:688] Opened bootloader at %u:%u\n", return_value_libusb_get_bus_number$6, return_value_libusb_get_device_address$7);
+                      unsigned char return_value_libusb_get_bus_number_6;
+                      return_value_libusb_get_bus_number_6=libusb_get_bus_number(dev_list[i]);
+                      unsigned char return_value_libusb_get_device_address_7;
+                      return_value_libusb_get_device_address_7=libusb_get_device_address(dev_list[i]);
+                      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ libusb.c:688] Opened bootloader at %u:%u\n", return_value_libusb_get_bus_number_6, return_value_libusb_get_device_address_7);
                     }
                     while((_Bool)0);
                     *driver = (void *)lusb;
@@ -13911,7 +13911,7 @@ static signed int lusb_open_bootloader(void **driver, unsigned char bus, unsigne
 
 // lusb_probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 261
-static signed int lusb_probe(enum anonymous$16 probe_target, struct bladerf_devinfo_list *info_list)
+static signed int lusb_probe(enum anonymous_16 probe_target, struct bladerf_devinfo_list *info_list)
 {
   signed int status;
   signed int i;
@@ -13922,13 +13922,13 @@ static signed int lusb_probe(enum anonymous$16 probe_target, struct bladerf_devi
   _Bool printed_access_warning = (_Bool)0;
   struct libusb_context *context;
   status=libusb_init(&context);
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(!(status == 0))
     do
     {
-      const char *return_value_libusb_error_name$1;
-      return_value_libusb_error_name$1=libusb_error_name(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:276] Could not initialize libusb: %s\n", return_value_libusb_error_name$1);
+      const char *return_value_libusb_error_name_1;
+      return_value_libusb_error_name_1=libusb_error_name(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:276] Could not initialize libusb: %s\n", return_value_libusb_error_name_1);
     }
     while((_Bool)0);
 
@@ -13939,18 +13939,18 @@ static signed int lusb_probe(enum anonymous$16 probe_target, struct bladerf_devi
     n = 0;
     for( ; status == 0 && !((signed long int)i >= count); i = i + 1)
     {
-      _Bool return_value_device_is_probe_target$5;
-      return_value_device_is_probe_target$5=device_is_probe_target(probe_target, list[(signed long int)i]);
-      if(!(return_value_device_is_probe_target$5 == (_Bool)0))
+      _Bool return_value_device_is_probe_target_5;
+      return_value_device_is_probe_target_5=device_is_probe_target(probe_target, list[(signed long int)i]);
+      if(!(return_value_device_is_probe_target_5 == (_Bool)0))
       {
         status=get_devinfo(list[(signed long int)i], &info);
         if(!(status == 0))
         {
           do
           {
-            const char *return_value_libusb_error_name$2;
-            return_value_libusb_error_name$2=libusb_error_name(status);
-            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:292] Could not open device: %s\n", return_value_libusb_error_name$2);
+            const char *return_value_libusb_error_name_2;
+            return_value_libusb_error_name_2=libusb_error_name(status);
+            log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:292] Could not open device: %s\n", return_value_libusb_error_name_2);
           }
           while((_Bool)0);
           if(printed_access_warning == (_Bool)0 && status == -3)
@@ -13966,16 +13966,16 @@ static signed int lusb_probe(enum anonymous$16 probe_target, struct bladerf_devi
 
         else
         {
-          tmp_post$3 = n;
+          tmp_post_3 = n;
           n = n + 1;
-          info.instance = (unsigned int)tmp_post$3;
+          info.instance = (unsigned int)tmp_post_3;
           status=bladerf_devinfo_list_add(info_list, &info);
           if(!(status == 0))
             do
             {
-              const char *return_value_bladerf_strerror$4;
-              return_value_bladerf_strerror$4=bladerf_strerror(status);
-              log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:307] Could not add device to list: %s\n", return_value_bladerf_strerror$4);
+              const char *return_value_bladerf_strerror_4;
+              return_value_bladerf_strerror_4=bladerf_strerror(status);
+              log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:307] Could not add device to list: %s\n", return_value_bladerf_strerror_4);
             }
             while((_Bool)0);
 
@@ -13998,7 +13998,7 @@ lusb_probe_done:
 
 // lusb_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/libusb.c line 1185
-static signed int lusb_stream(void *driver, struct bladerf_stream *stream, enum anonymous$0 module)
+static signed int lusb_stream(void *driver, struct bladerf_stream *stream, enum anonymous_0 module)
 {
   unsigned long int i;
   signed int status = 0;
@@ -14019,10 +14019,10 @@ static signed int lusb_stream(void *driver, struct bladerf_stream *stream, enum 
       if(buffer == NULL)
       {
         if(!(stream_data->num_avail == stream_data->num_transfers))
-          stream->state = (enum anonymous$21)STREAM_SHUTTING_DOWN;
+          stream->state = (enum anonymous_21)STREAM_SHUTTING_DOWN;
 
         else
-          stream->state = (enum anonymous$21)STREAM_DONE;
+          stream->state = (enum anonymous_21)STREAM_DONE;
         break;
       }
 
@@ -14050,9 +14050,9 @@ static signed int lusb_stream(void *driver, struct bladerf_stream *stream, enum 
     {
       do
       {
-        const char *return_value_libusb_error_name$1;
-        return_value_libusb_error_name$1=libusb_error_name(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ libusb.c:1251] unexpected value from events processing: %d: %s\n", status, return_value_libusb_error_name$1);
+        const char *return_value_libusb_error_name_1;
+        return_value_libusb_error_name_1=libusb_error_name(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ libusb.c:1251] unexpected value from events processing: %d: %s\n", status, return_value_libusb_error_name_1);
       }
       while((_Bool)0);
       status=error_conv(status);
@@ -14074,31 +14074,31 @@ static void lusb_stream_cb(struct libusb_transfer *transfer)
   memset((void *)&metadata, 0, sizeof(struct bladerf_metadata) /*56ul*/ );
   pthread_mutex_lock(&stream->lock);
   transfer_i=transfer_idx(stream_data, transfer);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)stream_data->transfer_status[(signed long int)transfer_i] == TRANSFER_IN_FLIGHT)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)stream_data->transfer_status[(signed long int)transfer_i] == TRANSFER_CANCEL_PENDING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)stream_data->transfer_status[(signed long int)transfer_i] == TRANSFER_CANCEL_PENDING ? (_Bool)1 : (_Bool)0;
   /* assertion stream_data->transfer_status[transfer_i] == TRANSFER_IN_FLIGHT || stream_data->transfer_status[transfer_i] == TRANSFER_CANCEL_PENDING */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   if(transfer_i >= stream_data->num_transfers)
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:917] Unable to find transfer");
     while((_Bool)0);
-    stream->state = (enum anonymous$21)STREAM_SHUTTING_DOWN;
+    stream->state = (enum anonymous_21)STREAM_SHUTTING_DOWN;
   }
 
   else
   {
-    stream_data->transfer_status[(signed long int)transfer_i] = (enum anonymous$37)TRANSFER_AVAIL;
+    stream_data->transfer_status[(signed long int)transfer_i] = (enum anonymous_37)TRANSFER_AVAIL;
     stream_data->num_avail = stream_data->num_avail + 1ul;
     pthread_cond_signal(&stream->can_submit_buffer);
   }
   if(!((signed int)transfer->status == LIBUSB_TRANSFER_COMPLETED))
   {
-    stream->state = (enum anonymous$21)STREAM_SHUTTING_DOWN;
+    stream->state = (enum anonymous_21)STREAM_SHUTTING_DOWN;
     switch((signed int)transfer->status)
     {
       case LIBUSB_TRANSFER_CANCELLED:
@@ -14151,11 +14151,11 @@ static void lusb_stream_cb(struct libusb_transfer *transfer)
         log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ libusb.c:973] Received short transfer\n");
       while((_Bool)0);
 
-    unsigned long int return_value_bytes_to_sc16q11$2;
-    return_value_bytes_to_sc16q11$2=bytes_to_sc16q11((unsigned long int)transfer->actual_length);
-    next_buffer=stream->cb(stream->dev, stream, &metadata, (void *)transfer->buffer, return_value_bytes_to_sc16q11$2, stream->user_data);
+    unsigned long int return_value_bytes_to_sc16q11_2;
+    return_value_bytes_to_sc16q11_2=bytes_to_sc16q11((unsigned long int)transfer->actual_length);
+    next_buffer=stream->cb(stream->dev, stream, &metadata, (void *)transfer->buffer, return_value_bytes_to_sc16q11_2, stream->user_data);
     if(next_buffer == NULL)
-      stream->state = (enum anonymous$21)STREAM_SHUTTING_DOWN;
+      stream->state = (enum anonymous_21)STREAM_SHUTTING_DOWN;
 
     else
       if(!(next_buffer == (void *)-1))
@@ -14163,7 +14163,7 @@ static void lusb_stream_cb(struct libusb_transfer *transfer)
         signed int status;
         status=submit_transfer(stream, next_buffer);
         if(!(status == 0))
-          stream->state = (enum anonymous$21)STREAM_SHUTTING_DOWN;
+          stream->state = (enum anonymous_21)STREAM_SHUTTING_DOWN;
 
       }
 
@@ -14172,7 +14172,7 @@ static void lusb_stream_cb(struct libusb_transfer *transfer)
   if((signed int)stream->state == STREAM_SHUTTING_DOWN)
   {
     if(stream_data->num_avail == stream_data->num_transfers)
-      stream->state = (enum anonymous$21)STREAM_DONE;
+      stream->state = (enum anonymous_21)STREAM_DONE;
 
     else
       cancel_all_transfers(stream);
@@ -14191,10 +14191,10 @@ signed int lusb_submit_stream_buffer(void *driver, struct bladerf_stream *stream
   if(buffer == NULL)
   {
     if(stream_data->num_avail == stream_data->num_transfers)
-      stream->state = (enum anonymous$21)STREAM_DONE;
+      stream->state = (enum anonymous_21)STREAM_DONE;
 
     else
-      stream->state = (enum anonymous$21)STREAM_SHUTTING_DOWN;
+      stream->state = (enum anonymous_21)STREAM_SHUTTING_DOWN;
     return 0;
   }
 
@@ -14249,9 +14249,9 @@ signed int lusb_submit_stream_buffer(void *driver, struct bladerf_stream *stream
 
       else
       {
-        signed int return_value_submit_transfer$1;
-        return_value_submit_transfer$1=submit_transfer(stream, buffer);
-        return return_value_submit_transfer$1;
+        signed int return_value_submit_transfer_1;
+        return_value_submit_transfer_1=submit_transfer(stream, buffer);
+        return return_value_submit_transfer_1;
       }
   }
 }
@@ -14265,27 +14265,27 @@ signed int main(signed int argc, char **argv)
   const char *devstr = (const char *)(void *)0;
   double duration_host;
   double duration_fpga;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   if(argc >= 2)
   {
-    return_value_strcmp$1=strcmp(argv[(signed long int)1], "-h");
-    if(return_value_strcmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value_strcmp_1=strcmp(argv[(signed long int)1], "-h");
+    if(return_value_strcmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$2=strcmp(argv[(signed long int)1], "--help");
-      tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_2=strcmp(argv[(signed long int)1], "--help");
+      tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(tmp_if_expr_4)
   {
     fprintf(stderr, "Usage: %s [device string]\n", argv[(signed long int)0]);
     return 1;
@@ -14296,19 +14296,19 @@ signed int main(signed int argc, char **argv)
   status=bladerf_open(&dev, devstr);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$5;
-    return_value_bladerf_strerror$5=bladerf_strerror(status);
-    fprintf(stderr, "Unable to open device: %s\n", return_value_bladerf_strerror$5);
+    const char *return_value_bladerf_strerror_5;
+    return_value_bladerf_strerror_5=bladerf_strerror(status);
+    fprintf(stderr, "Unable to open device: %s\n", return_value_bladerf_strerror_5);
     return status;
   }
 
   printf("Re-tuning with fixed frequency...\n");
-  status=bladerf_set_tuning_mode(dev, (enum anonymous$12)BLADERF_TUNING_MODE_HOST);
+  status=bladerf_set_tuning_mode(dev, (enum anonymous_12)BLADERF_TUNING_MODE_HOST);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$6;
-    return_value_bladerf_strerror$6=bladerf_strerror(status);
-    fprintf(stderr, "Failed to switch to host-based tuning mode: %s\n", return_value_bladerf_strerror$6);
+    const char *return_value_bladerf_strerror_6;
+    return_value_bladerf_strerror_6=bladerf_strerror(status);
+    fprintf(stderr, "Failed to switch to host-based tuning mode: %s\n", return_value_bladerf_strerror_6);
     status = -1;
     goto out;
   }
@@ -14322,12 +14322,12 @@ signed int main(signed int argc, char **argv)
 
   else
     printf("  Host tuning:    %fs\n", duration_host);
-  status=bladerf_set_tuning_mode(dev, (enum anonymous$12)BLADERF_TUNING_MODE_FPGA);
+  status=bladerf_set_tuning_mode(dev, (enum anonymous_12)BLADERF_TUNING_MODE_FPGA);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$7;
-    return_value_bladerf_strerror$7=bladerf_strerror(status);
-    fprintf(stderr, "Failed to switch to FPGA-based tuning mode: %s\n", return_value_bladerf_strerror$7);
+    const char *return_value_bladerf_strerror_7;
+    return_value_bladerf_strerror_7=bladerf_strerror(status);
+    fprintf(stderr, "Failed to switch to FPGA-based tuning mode: %s\n", return_value_bladerf_strerror_7);
     status = -1;
     goto out;
   }
@@ -14346,12 +14346,12 @@ signed int main(signed int argc, char **argv)
     printf("  Speedup factor: %f\n", duration_host / duration_fpga);
   }
   printf("Re-tuning with random frequencies...\n");
-  status=bladerf_set_tuning_mode(dev, (enum anonymous$12)BLADERF_TUNING_MODE_HOST);
+  status=bladerf_set_tuning_mode(dev, (enum anonymous_12)BLADERF_TUNING_MODE_HOST);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$8;
-    return_value_bladerf_strerror$8=bladerf_strerror(status);
-    fprintf(stderr, "Failed to switch to host-based tuning mode: %s\n", return_value_bladerf_strerror$8);
+    const char *return_value_bladerf_strerror_8;
+    return_value_bladerf_strerror_8=bladerf_strerror(status);
+    fprintf(stderr, "Failed to switch to host-based tuning mode: %s\n", return_value_bladerf_strerror_8);
     status = -1;
     goto out;
   }
@@ -14365,12 +14365,12 @@ signed int main(signed int argc, char **argv)
 
   else
     printf("  Host tuning:    %fs\n", duration_host);
-  status=bladerf_set_tuning_mode(dev, (enum anonymous$12)BLADERF_TUNING_MODE_FPGA);
+  status=bladerf_set_tuning_mode(dev, (enum anonymous_12)BLADERF_TUNING_MODE_FPGA);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$9;
-    return_value_bladerf_strerror$9=bladerf_strerror(status);
-    fprintf(stderr, "Failed to switch to FPGA-based tuning mode: %s\n", return_value_bladerf_strerror$9);
+    const char *return_value_bladerf_strerror_9;
+    return_value_bladerf_strerror_9=bladerf_strerror(status);
+    fprintf(stderr, "Failed to switch to FPGA-based tuning mode: %s\n", return_value_bladerf_strerror_9);
     status = -1;
     goto out;
   }
@@ -14389,12 +14389,12 @@ signed int main(signed int argc, char **argv)
     printf("  Speedup factor: %f\n\n", duration_host / duration_fpga);
   }
   printf("Performing quick-tune...\n");
-  status=bladerf_set_tuning_mode(dev, (enum anonymous$12)BLADERF_TUNING_MODE_HOST);
+  status=bladerf_set_tuning_mode(dev, (enum anonymous_12)BLADERF_TUNING_MODE_HOST);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$10;
-    return_value_bladerf_strerror$10=bladerf_strerror(status);
-    fprintf(stderr, "Failed to switch to host-based tuning mode: %s\n", return_value_bladerf_strerror$10);
+    const char *return_value_bladerf_strerror_10;
+    return_value_bladerf_strerror_10=bladerf_strerror(status);
+    fprintf(stderr, "Failed to switch to host-based tuning mode: %s\n", return_value_bladerf_strerror_10);
     status = -1;
     goto out;
   }
@@ -14408,12 +14408,12 @@ signed int main(signed int argc, char **argv)
 
   else
     printf("  Host tuning:    %fs\n", duration_host);
-  status=bladerf_set_tuning_mode(dev, (enum anonymous$12)BLADERF_TUNING_MODE_FPGA);
+  status=bladerf_set_tuning_mode(dev, (enum anonymous_12)BLADERF_TUNING_MODE_FPGA);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$11;
-    return_value_bladerf_strerror$11=bladerf_strerror(status);
-    fprintf(stderr, "Failed to switch to fpga-based tuning mode: %s\n", return_value_bladerf_strerror$11);
+    const char *return_value_bladerf_strerror_11;
+    return_value_bladerf_strerror_11=bladerf_strerror(status);
+    fprintf(stderr, "Failed to switch to fpga-based tuning mode: %s\n", return_value_bladerf_strerror_11);
     status = -1;
     goto out;
   }
@@ -14440,7 +14440,7 @@ out:
 
 // make_cal_region
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/image.c line 449
-static signed int make_cal_region(enum anonymous$7 size, unsigned short int vctcxo_trim, unsigned char *buf, unsigned long int len)
+static signed int make_cal_region(enum anonymous_7 size, unsigned short int vctcxo_trim, unsigned char *buf, unsigned long int len)
 {
   signed int rv;
   const char *fpga_size;
@@ -14526,7 +14526,7 @@ static inline unsigned long int min_sz(unsigned long int x, unsigned long int y)
 
 // module2str
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 370
-const char * module2str(enum anonymous$0 m)
+const char * module2str(enum anonymous_0 m)
 {
   switch((signed int)m)
   {
@@ -14826,9 +14826,9 @@ __CPROVER_DUMP_L1:
   status=usb->fn->bulk_transfer(driver, (unsigned char)0x02, (void *)buf, (unsigned int)16, (unsigned int)250);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_access.c:75] Failed to send NIOS II request: %s\n", return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_access.c:75] Failed to send NIOS II request: %s\n", return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -14837,23 +14837,23 @@ __CPROVER_DUMP_L1:
     status=usb->fn->bulk_transfer(driver, (unsigned char)0x82, (void *)buf, (unsigned int)16, (unsigned int)250);
     if(!(status == 0))
     {
-      const char *return_value_bladerf_strerror$2;
-      return_value_bladerf_strerror$2=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_access.c:86] Failed to receive NIOS II response: %s\n", return_value_bladerf_strerror$2);
+      const char *return_value_bladerf_strerror_2;
+      return_value_bladerf_strerror_2=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_access.c:86] Failed to receive NIOS II response: %s\n", return_value_bladerf_strerror_2);
     }
 
     return status;
   }
 }
 
-// nios_access$link1
+// nios_access_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 70
-static signed int nios_access$link1(struct bladerf *dev$link1, unsigned char peripheral, enum anonymous$30 dir, struct uart_cmd *cmd, unsigned long int len)
+static signed int nios_access_link1(struct bladerf *dev_link1, unsigned char peripheral, enum anonymous_30 dir, struct uart_cmd *cmd, unsigned long int len)
 {
-  void *driver$link1;
-  struct bladerf_usb *usb$link1;
-  usb$link1=usb_backend$link1(dev$link1, &driver$link1);
-  signed int status$link1;
+  void *driver_link1;
+  struct bladerf_usb *usb_link1;
+  usb_link1=usb_backend_link1(dev_link1, &driver_link1);
+  signed int status_link1;
   unsigned long int i;
   unsigned char buf[16l] = { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   const unsigned char pkt_mode_dir = (const unsigned char)((signed int)dir == USB_DIR_HOST_TO_DEVICE ? 1 << 6 : 2 << 6);
@@ -14870,19 +14870,19 @@ static signed int nios_access$link1(struct bladerf *dev$link1, unsigned char per
 
 __CPROVER_DUMP_L2:
   ;
-  status$link1=usb$link1->fn->bulk_transfer(driver$link1, (unsigned char)0x02, (void *)buf, (unsigned int)sizeof(unsigned char [16l]) /*16ul*/ , (unsigned int)250);
-  if(!(status$link1 == 0))
+  status_link1=usb_link1->fn->bulk_transfer(driver_link1, (unsigned char)0x02, (void *)buf, (unsigned int)sizeof(unsigned char [16l]) /*16ul*/ , (unsigned int)250);
+  if(!(status_link1 == 0))
   {
-    const char *return_value_bladerf_strerror$1$link1;
-    return_value_bladerf_strerror$1$link1=bladerf_strerror(status$link1);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:103] Failed to submit NIOS II request: %s\n", return_value_bladerf_strerror$1$link1);
-    return status$link1;
+    const char *return_value_bladerf_strerror_1_link1;
+    return_value_bladerf_strerror_1_link1=bladerf_strerror(status_link1);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:103] Failed to submit NIOS II request: %s\n", return_value_bladerf_strerror_1_link1);
+    return status_link1;
   }
 
   else
   {
-    status$link1=usb$link1->fn->bulk_transfer(driver$link1, (unsigned char)0x82, (void *)buf, (unsigned int)sizeof(unsigned char [16l]) /*16ul*/ , (unsigned int)250);
-    if(status$link1 == 0 && (signed int)dir == 128)
+    status_link1=usb_link1->fn->bulk_transfer(driver_link1, (unsigned char)0x82, (void *)buf, (unsigned int)sizeof(unsigned char [16l]) /*16ul*/ , (unsigned int)250);
+    if(status_link1 == 0 && (signed int)dir == 128)
     {
       i = (unsigned long int)0;
       if(!(i >= len))
@@ -14893,14 +14893,14 @@ __CPROVER_DUMP_L2:
 
     }
 
-    if(!(status$link1 == 0))
+    if(!(status_link1 == 0))
     {
-      const char *return_value_bladerf_strerror$2$link1;
-      return_value_bladerf_strerror$2$link1=bladerf_strerror(status$link1);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:123] Failed to receive NIOS II response: %s\n", return_value_bladerf_strerror$2$link1);
+      const char *return_value_bladerf_strerror_2_link1;
+      return_value_bladerf_strerror_2_link1=bladerf_strerror(status_link1);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:123] Failed to receive NIOS II response: %s\n", return_value_bladerf_strerror_2_link1);
     }
 
-    return status$link1;
+    return status_link1;
   }
 }
 
@@ -15013,7 +15013,7 @@ signed int nios_get_fpga_version(struct bladerf *dev, struct bladerf_version *ve
 
 // nios_get_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 526
-signed int nios_get_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value)
+signed int nios_get_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value)
 {
   signed int status = -3;
   unsigned short int tmp = (unsigned short int)0;
@@ -15038,9 +15038,9 @@ signed int nios_get_iq_gain_correction(struct bladerf *dev, enum anonymous$0 mod
   if(status == 0)
     do
     {
-      const char *return_value_module2str$1;
-      return_value_module2str$1=module2str(module);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:551] %s: Read %s %d\n", (const void *)"nios_get_iq_gain_correction", return_value_module2str$1, *value);
+      const char *return_value_module2str_1;
+      return_value_module2str_1=module2str(module);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:551] %s: Read %s %d\n", (const void *)"nios_get_iq_gain_correction", return_value_module2str_1, *value);
     }
     while((_Bool)0);
 
@@ -15049,7 +15049,7 @@ signed int nios_get_iq_gain_correction(struct bladerf *dev, enum anonymous$0 mod
 
 // nios_get_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 557
-signed int nios_get_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value)
+signed int nios_get_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value)
 {
   signed int status = -3;
   unsigned short int tmp = (unsigned short int)0;
@@ -15074,9 +15074,9 @@ signed int nios_get_iq_phase_correction(struct bladerf *dev, enum anonymous$0 mo
   if(status == 0)
     do
     {
-      const char *return_value_module2str$1;
-      return_value_module2str$1=module2str(module);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:582] %s: Read %s %d\n", (const void *)"nios_get_iq_phase_correction", return_value_module2str$1, *value);
+      const char *return_value_module2str_1;
+      return_value_module2str_1=module2str(module);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:582] %s: Read %s %d\n", (const void *)"nios_get_iq_phase_correction", return_value_module2str_1, *value);
     }
     while((_Bool)0);
 
@@ -15085,7 +15085,7 @@ signed int nios_get_iq_phase_correction(struct bladerf *dev, enum anonymous$0 mo
 
 // nios_get_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 337
-signed int nios_get_timestamp(struct bladerf *dev, enum anonymous$0 module, unsigned long int *timestamp)
+signed int nios_get_timestamp(struct bladerf *dev, enum anonymous_0 module, unsigned long int *timestamp)
 {
   signed int status;
   unsigned char buf[16l];
@@ -15123,9 +15123,9 @@ signed int nios_get_timestamp(struct bladerf *dev, enum anonymous$0 module, unsi
     {
       do
       {
-        const char *return_value_module2str$1;
-        return_value_module2str$1=module2str(module);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:370] %s: Read %s timstamp: 0x%lu\n", (const void *)"nios_get_timestamp", return_value_module2str$1, timestamp);
+        const char *return_value_module2str_1;
+        return_value_module2str_1=module2str(module);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:370] %s: Read %s timstamp: 0x%lu\n", (const void *)"nios_get_timestamp", return_value_module2str_1, timestamp);
       }
       while((_Bool)0);
       return 0;
@@ -15144,14 +15144,14 @@ signed int nios_get_timestamp(struct bladerf *dev, enum anonymous$0 module, unsi
 
 // nios_get_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 491
-signed int nios_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 *mode)
+signed int nios_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 *mode)
 {
   signed int status;
   unsigned char tmp;
-  *mode = (enum anonymous$17)BLADERF_VCTCXO_TAMER_INVALID;
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap$link5(dev, (unsigned long int)(1 << 8));
-  if(return_value_have_cap$1 == (_Bool)0)
+  *mode = (enum anonymous_17)BLADERF_VCTCXO_TAMER_INVALID;
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap_link5(dev, (unsigned long int)(1 << 8));
+  if(return_value_have_cap_1 == (_Bool)0)
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_access.c:501] FPGA %s does not support VCTCXO taming via an input source\n", dev->fpga_version.describe);
@@ -15167,9 +15167,9 @@ signed int nios_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 *mo
       do
         log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:508] %s: Read mode=0x%02x\n", (const void *)"nios_get_vctcxo_tamer_mode", tmp);
       while((_Bool)0);
-      if((signed int)(enum anonymous$17)tmp == BLADERF_VCTCXO_TAMER_DISABLED || (signed int)(enum anonymous$17)tmp == BLADERF_VCTCXO_TAMER_1_PPS || (signed int)(enum anonymous$17)tmp == BLADERF_VCTCXO_TAMER_10_MHZ)
+      if((signed int)(enum anonymous_17)tmp == BLADERF_VCTCXO_TAMER_DISABLED || (signed int)(enum anonymous_17)tmp == BLADERF_VCTCXO_TAMER_1_PPS || (signed int)(enum anonymous_17)tmp == BLADERF_VCTCXO_TAMER_10_MHZ)
       {
-        *mode = (enum anonymous$17)tmp;
+        *mode = (enum anonymous_17)tmp;
         goto __CPROVER_DUMP_L6;
       }
 
@@ -15204,9 +15204,9 @@ signed int nios_legacy_config_write(struct bladerf *dev, unsigned int val)
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_legacy_access.c:193] %s: Writing 0x%08x\n", (const void *)"nios_legacy_config_write", val);
   while((_Bool)0);
-  signed int return_value_nios_legacy_pio_write$1;
-  return_value_nios_legacy_pio_write$1=nios_legacy_pio_write(dev, (unsigned char)0, val);
-  return return_value_nios_legacy_pio_write$1;
+  signed int return_value_nios_legacy_pio_write_1;
+  return_value_nios_legacy_pio_write_1=nios_legacy_pio_write(dev, (unsigned char)0, val);
+  return return_value_nios_legacy_pio_write_1;
 }
 
 // nios_legacy_expansion_gpio_dir_read
@@ -15243,9 +15243,9 @@ signed int nios_legacy_expansion_gpio_dir_write(struct bladerf *dev, unsigned in
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_legacy_access.c:620] %s: 0x%08\n", (const void *)"nios_legacy_expansion_gpio_dir_write", val);
   while((_Bool)0);
-  signed int return_value_nios_legacy_pio_write$1;
-  return_value_nios_legacy_pio_write$1=nios_legacy_pio_write(dev, (unsigned char)44, val);
-  return return_value_nios_legacy_pio_write$1;
+  signed int return_value_nios_legacy_pio_write_1;
+  return_value_nios_legacy_pio_write_1=nios_legacy_pio_write(dev, (unsigned char)44, val);
+  return return_value_nios_legacy_pio_write_1;
 }
 
 // nios_legacy_expansion_gpio_read
@@ -15282,9 +15282,9 @@ signed int nios_legacy_expansion_gpio_write(struct bladerf *dev, unsigned int ma
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_legacy_access.c:585] %s: 0x%08x\n", (const void *)"nios_legacy_expansion_gpio_write", val);
   while((_Bool)0);
-  signed int return_value_nios_legacy_pio_write$1;
-  return_value_nios_legacy_pio_write$1=nios_legacy_pio_write(dev, (unsigned char)40, val);
-  return return_value_nios_legacy_pio_write$1;
+  signed int return_value_nios_legacy_pio_write_1;
+  return_value_nios_legacy_pio_write_1=nios_legacy_pio_write(dev, (unsigned char)40, val);
+  return return_value_nios_legacy_pio_write_1;
 }
 
 // nios_legacy_get_fpga_version
@@ -15299,15 +15299,15 @@ signed int nios_legacy_get_fpga_version(struct bladerf *dev, struct bladerf_vers
   {
     cmd.addr = (unsigned char)(12 + i);
     cmd.data = (unsigned char)0xff;
-    status=nios_access$link1(dev, (unsigned char)(0 << 4), (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
+    status=nios_access_link1(dev, (unsigned char)(0 << 4), (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
     if(!(status == 0))
     {
       memset((void *)&dev->fpga_version, 0, sizeof(struct bladerf_version) /*16ul*/ );
       do
       {
-        const char *return_value_bladerf_strerror$1;
-        return_value_bladerf_strerror$1=bladerf_strerror(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:213] Failed to read FPGA version[%d]: %s\n", i, return_value_bladerf_strerror$1);
+        const char *return_value_bladerf_strerror_1;
+        return_value_bladerf_strerror_1=bladerf_strerror(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:213] Failed to read FPGA version[%d]: %s\n", i, return_value_bladerf_strerror_1);
       }
       while((_Bool)0);
       return status;
@@ -15346,7 +15346,7 @@ signed int nios_legacy_get_fpga_version(struct bladerf *dev, struct bladerf_vers
 
 // nios_legacy_get_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 447
-signed int nios_legacy_get_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value)
+signed int nios_legacy_get_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value)
 {
   signed int status;
   unsigned char addr;
@@ -15376,7 +15376,7 @@ signed int nios_legacy_get_iq_gain_correction(struct bladerf *dev, enum anonymou
 
 // nios_legacy_get_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 474
-signed int nios_legacy_get_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int *value)
+signed int nios_legacy_get_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int *value)
 {
   unsigned char addr;
   switch((signed int)module)
@@ -15399,14 +15399,14 @@ signed int nios_legacy_get_iq_phase_correction(struct bladerf *dev, enum anonymo
       return -3;
     }
   }
-  signed int return_value_get_iq_correction$1;
-  return_value_get_iq_correction$1=get_iq_correction(dev, addr, value);
-  return return_value_get_iq_correction$1;
+  signed int return_value_get_iq_correction_1;
+  return_value_get_iq_correction_1=get_iq_correction(dev, addr, value);
+  return return_value_get_iq_correction_1;
 }
 
 // nios_legacy_get_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 242
-signed int nios_legacy_get_timestamp(struct bladerf *dev, enum anonymous$0 mod, unsigned long int *value)
+signed int nios_legacy_get_timestamp(struct bladerf *dev, enum anonymous_0 mod, unsigned long int *value)
 {
   signed int status = 0;
   struct uart_cmd cmds[4l];
@@ -15420,7 +15420,7 @@ signed int nios_legacy_get_timestamp(struct bladerf *dev, enum anonymous$0 mod, 
   cmds[(signed long int)2].data = cmds[(signed long int)3].data;
   cmds[(signed long int)1].data = cmds[(signed long int)2].data;
   cmds[(signed long int)0].data = cmds[(signed long int)1].data;
-  status=nios_access$link1(dev, (unsigned char)(0 << 4), (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, cmds, sizeof(struct uart_cmd [4l]) /*8ul*/  / sizeof(struct uart_cmd) /*2ul*/ );
+  status=nios_access_link1(dev, (unsigned char)(0 << 4), (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, cmds, sizeof(struct uart_cmd [4l]) /*8ul*/  / sizeof(struct uart_cmd) /*2ul*/ );
   if(!(status == 0))
     return status;
 
@@ -15438,7 +15438,7 @@ signed int nios_legacy_get_timestamp(struct bladerf *dev, enum anonymous$0 mod, 
   cmds[(signed long int)2].data = cmds[(signed long int)3].data;
   cmds[(signed long int)1].data = cmds[(signed long int)2].data;
   cmds[(signed long int)0].data = cmds[(signed long int)1].data;
-  status=nios_access$link1(dev, (unsigned char)(0 << 4), (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, cmds, sizeof(struct uart_cmd [4l]) /*8ul*/  / sizeof(struct uart_cmd) /*2ul*/ );
+  status=nios_access_link1(dev, (unsigned char)(0 << 4), (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, cmds, sizeof(struct uart_cmd [4l]) /*8ul*/  / sizeof(struct uart_cmd) /*2ul*/ );
   if(!(status == 0))
     return status;
 
@@ -15455,12 +15455,12 @@ signed int nios_legacy_get_timestamp(struct bladerf *dev, enum anonymous$0 mod, 
 
 // nios_legacy_get_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 402
-signed int nios_legacy_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 *mode)
+signed int nios_legacy_get_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 *mode)
 {
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:405] This operation is not supported by the legacy NIOS packet format\n");
   while((_Bool)0);
-  *mode = (enum anonymous$17)BLADERF_VCTCXO_TAMER_INVALID;
+  *mode = (enum anonymous_17)BLADERF_VCTCXO_TAMER_INVALID;
   return -8;
 }
 
@@ -15472,7 +15472,7 @@ signed int nios_legacy_lms6_read(struct bladerf *dev, unsigned char addr, unsign
   struct uart_cmd cmd;
   cmd.addr = addr;
   cmd.data = (unsigned char)0xff;
-  status=nios_access$link1(dev, (unsigned char)(1 << 4), (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
+  status=nios_access_link1(dev, (unsigned char)(1 << 4), (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
   if(status == 0)
   {
     *data = cmd.data;
@@ -15495,7 +15495,7 @@ signed int nios_legacy_lms6_write(struct bladerf *dev, unsigned char addr, unsig
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_legacy_access.c:353] %s: 0x%2.2x 0x%2.2x\n", (const void *)"nios_legacy_lms6_write", addr, data);
   while((_Bool)0);
-  status=nios_access$link1(dev, (unsigned char)(1 << 4), (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
+  status=nios_access_link1(dev, (unsigned char)(1 << 4), (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
   return status;
 }
 
@@ -15514,7 +15514,7 @@ signed int nios_legacy_pio_read(struct bladerf *dev, unsigned char addr, unsigne
     assert((unsigned long int)addr + i <= (unsigned long int)255);
     cmd.addr = (unsigned char)((unsigned long int)addr + i);
     cmd.data = (unsigned char)0xff;
-    status=nios_access$link1(dev, (unsigned char)(0 << 4), (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
+    status=nios_access_link1(dev, (unsigned char)(0 << 4), (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
     if(!(status >= 0))
     {
       *data = (unsigned int)0;
@@ -15540,7 +15540,7 @@ signed int nios_legacy_pio_write(struct bladerf *dev, unsigned char addr, unsign
     assert((unsigned long int)addr + i <= (unsigned long int)255);
     cmd.addr = (unsigned char)((unsigned long int)addr + i);
     cmd.data = (unsigned char)(data >> i * (unsigned long int)8 & (unsigned int)0xff);
-    status=nios_access$link1(dev, (unsigned char)(0 << 4), (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
+    status=nios_access_link1(dev, (unsigned char)(0 << 4), (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
     if(!(status >= 0))
       return status;
 
@@ -15550,7 +15550,7 @@ signed int nios_legacy_pio_write(struct bladerf *dev, unsigned char addr, unsign
 
 // nios_legacy_set_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 498
-signed int nios_legacy_set_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value)
+signed int nios_legacy_set_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value)
 {
   unsigned char addr;
   switch((signed int)module)
@@ -15579,14 +15579,14 @@ signed int nios_legacy_set_iq_gain_correction(struct bladerf *dev, enum anonymou
       return -3;
     }
   }
-  signed int return_value_set_iq_correction$1;
-  return_value_set_iq_correction$1=set_iq_correction(dev, addr, value);
-  return return_value_set_iq_correction$1;
+  signed int return_value_set_iq_correction_1;
+  return_value_set_iq_correction_1=set_iq_correction(dev, addr, value);
+  return return_value_set_iq_correction_1;
 }
 
 // nios_legacy_set_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 524
-signed int nios_legacy_set_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value)
+signed int nios_legacy_set_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value)
 {
   unsigned char addr;
   switch((signed int)module)
@@ -15615,14 +15615,14 @@ signed int nios_legacy_set_iq_phase_correction(struct bladerf *dev, enum anonymo
       return -3;
     }
   }
-  signed int return_value_set_iq_correction$1;
-  return_value_set_iq_correction$1=set_iq_correction(dev, addr, value);
-  return return_value_set_iq_correction$1;
+  signed int return_value_set_iq_correction_1;
+  return_value_set_iq_correction_1=set_iq_correction(dev, addr, value);
+  return return_value_set_iq_correction_1;
 }
 
 // nios_legacy_set_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_legacy_access.c line 395
-signed int nios_legacy_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 mode)
+signed int nios_legacy_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 mode)
 {
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_legacy_access.c:398] This operation is not supported by the legacy NIOS packet format\n");
@@ -15638,7 +15638,7 @@ signed int nios_legacy_si5338_read(struct bladerf *dev, unsigned char addr, unsi
   struct uart_cmd cmd;
   cmd.addr = addr;
   cmd.data = (unsigned char)0xff;
-  status=nios_access$link1(dev, (unsigned char)(3 << 4), (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
+  status=nios_access_link1(dev, (unsigned char)(3 << 4), (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &cmd, (unsigned long int)1);
   if(status == 0)
   {
     *data = cmd.data;
@@ -15660,9 +15660,9 @@ signed int nios_legacy_si5338_write(struct bladerf *dev, unsigned char addr, uns
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_legacy_access.c:320] %s: 0x%2.2x 0x%2.2x\n", (const void *)"nios_legacy_si5338_write", addr, data);
   while((_Bool)0);
-  signed int return_value_nios_access$1;
-  return_value_nios_access$1=nios_access$link1(dev, (unsigned char)(3 << 4), (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
-  return return_value_nios_access$1;
+  signed int return_value_nios_access_1;
+  return_value_nios_access_1=nios_access_link1(dev, (unsigned char)(3 << 4), (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
+  return return_value_nios_access_1;
 }
 
 // nios_legacy_vctcxo_trim_dac_write
@@ -15673,13 +15673,13 @@ signed int nios_legacy_vctcxo_trim_dac_write(struct bladerf *dev, unsigned short
   struct uart_cmd cmd;
   signed int base;
   _Bool legacy_location;
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap$link6(dev, (unsigned long int)(1 << 0));
-  legacy_location = !(return_value_have_cap$1 != (_Bool)0);
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap_link6(dev, (unsigned long int)(1 << 0));
+  legacy_location = !(return_value_have_cap_1 != (_Bool)0);
   base = legacy_location != (_Bool)0 ? 0 : 34;
   cmd.addr = (unsigned char)base;
   cmd.data = (unsigned char)((signed int)value & 0xff);
-  status=nios_access$link1(dev, (unsigned char)(legacy_location != (_Bool)0 ? 2 << 4 : 0 << 4), (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
+  status=nios_access_link1(dev, (unsigned char)(legacy_location != (_Bool)0 ? 2 << 4 : 0 << 4), (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
   if(!(status >= 0))
     return status;
 
@@ -15687,7 +15687,7 @@ signed int nios_legacy_vctcxo_trim_dac_write(struct bladerf *dev, unsigned short
   {
     cmd.addr = (unsigned char)(base + 1);
     cmd.data = (unsigned char)((signed int)value >> 8 & 0xff);
-    status=nios_access$link1(dev, (unsigned char)(legacy_location != (_Bool)0 ? 2 << 4 : 0 << 4), (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
+    status=nios_access_link1(dev, (unsigned char)(legacy_location != (_Bool)0 ? 2 << 4 : 0 << 4), (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
     return status;
   }
 }
@@ -15699,9 +15699,9 @@ signed int nios_legacy_xb200_synth_write(struct bladerf *dev, unsigned int value
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_legacy_access.c:552] %s: 0x%08x\n", (const void *)"nios_legacy_xb200_synth_write", value);
   while((_Bool)0);
-  signed int return_value_nios_legacy_pio_write$1;
-  return_value_nios_legacy_pio_write$1=nios_legacy_pio_write(dev, (unsigned char)36, value);
-  return return_value_nios_legacy_pio_write$1;
+  signed int return_value_nios_legacy_pio_write_1;
+  return_value_nios_legacy_pio_write_1=nios_legacy_pio_write(dev, (unsigned char)36, value);
+  return return_value_nios_legacy_pio_write_1;
 }
 
 // nios_lms6_read
@@ -16014,7 +16014,7 @@ static inline void nios_pkt_8x8_unpack(const unsigned char *buf, unsigned char *
 
 // nios_pkt_retune_pack
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/../fpga_common/include/nios_pkt_retune.h line 125
-static inline void nios_pkt_retune_pack(unsigned char *buf, enum anonymous$0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune)
+static inline void nios_pkt_retune_pack(unsigned char *buf, enum anonymous_0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune)
 {
   buf[(signed long int)0] = (unsigned char)84;
   buf[(signed long int)(1 + 0)] = (unsigned char)(timestamp & (unsigned long int)0xff);
@@ -16071,7 +16071,7 @@ static inline void nios_pkt_retune_resp_unpack(const unsigned char *buf, unsigne
 
 // nios_retune
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 711
-signed int nios_retune(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune)
+signed int nios_retune(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, unsigned short int nint, unsigned int nfrac, unsigned char freqsel, unsigned char vcocap, _Bool low_band, _Bool quick_tune)
 {
   signed int status;
   unsigned char buf[16l];
@@ -16080,18 +16080,18 @@ signed int nios_retune(struct bladerf *dev, enum anonymous$0 module, unsigned lo
   if(timestamp == 18446744073709551615ul)
     do
     {
-      const char *return_value_module2str$1;
-      return_value_module2str$1=module2str(module);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:723] Clearing %s retune queue.\n", return_value_module2str$1);
+      const char *return_value_module2str_1;
+      return_value_module2str_1=module2str(module);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:723] Clearing %s retune queue.\n", return_value_module2str_1);
     }
     while((_Bool)0);
 
   else
     do
     {
-      const char *return_value_module2str$2;
-      return_value_module2str$2=module2str(module);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:728] %s: module=%s timestamp=%lu nint=%u nfrac=%u\n\t\t\t\tfreqsel=0x%02x vcocap=0x%02x low_band=%d quick_tune=%d\n", (const void *)"nios_retune", return_value_module2str$2, timestamp, nint, nfrac, freqsel, vcocap, low_band, quick_tune);
+      const char *return_value_module2str_2;
+      return_value_module2str_2=module2str(module);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:728] %s: module=%s timestamp=%lu nint=%u nfrac=%u\n\t\t\t\tfreqsel=0x%02x vcocap=0x%02x low_band=%d quick_tune=%d\n", (const void *)"nios_retune", return_value_module2str_2, timestamp, nint, nfrac, freqsel, vcocap, low_band, quick_tune);
     }
     while((_Bool)0);
   nios_pkt_retune_pack(buf, module, timestamp, nint, nfrac, freqsel, vcocap, low_band, quick_tune);
@@ -16105,18 +16105,18 @@ signed int nios_retune(struct bladerf *dev, enum anonymous$0 module, unsigned lo
     if(!((1 & (signed int)resp_flags) == 0))
       do
       {
-        const char *return_value_module2str$3;
-        return_value_module2str$3=module2str(module);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:743] %s retune operation: vcocap=%u, duration=%lu\n", return_value_module2str$3, vcocap, duration);
+        const char *return_value_module2str_3;
+        return_value_module2str_3=module2str(module);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:743] %s retune operation: vcocap=%u, duration=%lu\n", return_value_module2str_3, vcocap, duration);
       }
       while((_Bool)0);
 
     else
       do
       {
-        const char *return_value_module2str$4;
-        return_value_module2str$4=module2str(module);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:746] %s operation duration: %lu\n", return_value_module2str$4, duration);
+        const char *return_value_module2str_4;
+        return_value_module2str_4=module2str(module);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:746] %s operation duration: %lu\n", return_value_module2str_4, duration);
       }
       while((_Bool)0);
     if((2 & (signed int)resp_flags) == 0)
@@ -16144,7 +16144,7 @@ signed int nios_retune(struct bladerf *dev, enum anonymous$0 module, unsigned lo
 
 // nios_set_iq_gain_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 588
-signed int nios_set_iq_gain_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value)
+signed int nios_set_iq_gain_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value)
 {
   signed int status = -3;
   switch((signed int)module)
@@ -16173,9 +16173,9 @@ signed int nios_set_iq_gain_correction(struct bladerf *dev, enum anonymous$0 mod
   if(status == 0)
     do
     {
-      const char *return_value_module2str$1;
-      return_value_module2str$1=module2str(module);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:612] %s: Wrote %s %d\n", (const void *)"nios_set_iq_gain_correction", return_value_module2str$1, value);
+      const char *return_value_module2str_1;
+      return_value_module2str_1=module2str(module);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:612] %s: Wrote %s %d\n", (const void *)"nios_set_iq_gain_correction", return_value_module2str_1, value);
     }
     while((_Bool)0);
 
@@ -16184,7 +16184,7 @@ signed int nios_set_iq_gain_correction(struct bladerf *dev, enum anonymous$0 mod
 
 // nios_set_iq_phase_correction
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 618
-signed int nios_set_iq_phase_correction(struct bladerf *dev, enum anonymous$0 module, signed short int value)
+signed int nios_set_iq_phase_correction(struct bladerf *dev, enum anonymous_0 module, signed short int value)
 {
   signed int status = -3;
   switch((signed int)module)
@@ -16213,9 +16213,9 @@ signed int nios_set_iq_phase_correction(struct bladerf *dev, enum anonymous$0 mo
   if(status == 0)
     do
     {
-      const char *return_value_module2str$1;
-      return_value_module2str$1=module2str(module);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:642] %s: Wrote %s %d\n", (const void *)"nios_set_iq_phase_correction", return_value_module2str$1, value);
+      const char *return_value_module2str_1;
+      return_value_module2str_1=module2str(module);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ nios_access.c:642] %s: Wrote %s %d\n", (const void *)"nios_set_iq_phase_correction", return_value_module2str_1, value);
     }
     while((_Bool)0);
 
@@ -16224,12 +16224,12 @@ signed int nios_set_iq_phase_correction(struct bladerf *dev, enum anonymous$0 mo
 
 // nios_set_vctcxo_tamer_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/nios_access.c line 467
-signed int nios_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous$17 mode)
+signed int nios_set_vctcxo_tamer_mode(struct bladerf *dev, enum anonymous_17 mode)
 {
   signed int status;
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap$link5(dev, (unsigned long int)(1 << 8));
-  if(return_value_have_cap$1 == (_Bool)0)
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap_link5(dev, (unsigned long int)(1 << 8));
+  if(return_value_have_cap_1 == (_Bool)0)
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ nios_access.c:474] FPGA %s does not support VCTCXO taming via an input source\n", dev->fpga_version.describe);
@@ -16282,9 +16282,9 @@ signed int nios_si5338_write(struct bladerf *dev, unsigned char addr, unsigned c
 signed int nios_vctcxo_trim_dac_read(struct bladerf *dev, unsigned short int *value)
 {
   signed int status;
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap$link5(dev, (unsigned long int)(1 << 5));
-  if(return_value_have_cap$1 == (_Bool)0)
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap_link5(dev, (unsigned long int)(1 << 5));
+  if(return_value_have_cap_1 == (_Bool)0)
   {
     *value = (unsigned short int)0x0000;
     do
@@ -16345,9 +16345,9 @@ static signed int open_device(struct bladerf_devinfo *info, struct libusb_contex
   signed int status;
   struct bladerf_lusb *dev;
   *dev_out = (struct bladerf_lusb *)(void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct bladerf_lusb) /*24ul*/ );
-  dev = (struct bladerf_lusb *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct bladerf_lusb) /*24ul*/ );
+  dev = (struct bladerf_lusb *)return_value_calloc_1;
   if(dev == ((struct bladerf_lusb *)NULL))
   {
     do
@@ -16365,9 +16365,9 @@ static signed int open_device(struct bladerf_devinfo *info, struct libusb_contex
     {
       do
       {
-        const char *return_value_libusb_error_name$2;
-        return_value_libusb_error_name$2=libusb_error_name(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:366] Failed to open device instance %d: %s\n", info->instance, return_value_libusb_error_name$2);
+        const char *return_value_libusb_error_name_2;
+        return_value_libusb_error_name_2=libusb_error_name(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:366] Failed to open device instance %d: %s\n", info->instance, return_value_libusb_error_name_2);
       }
       while((_Bool)0);
       status=error_conv(status);
@@ -16380,9 +16380,9 @@ static signed int open_device(struct bladerf_devinfo *info, struct libusb_contex
       {
         do
         {
-          const char *return_value_libusb_error_name$3;
-          return_value_libusb_error_name$3=libusb_error_name(status);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:375] Failed to claim interface 0 for instance %d: %s\n", info->instance, return_value_libusb_error_name$3);
+          const char *return_value_libusb_error_name_3;
+          return_value_libusb_error_name_3=libusb_error_name(status);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ libusb.c:375] Failed to claim interface 0 for instance %d: %s\n", info->instance, return_value_libusb_error_name_3);
         }
         while((_Bool)0);
         status=error_conv(status);
@@ -16438,28 +16438,28 @@ static unsigned long int pack_image(struct bladerf_image *img, unsigned char *bu
   i = i + (unsigned long int)7;
   memset((void *)&buf[(signed long int)i], 0, (unsigned long int)32);
   i = i + (unsigned long int)32;
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int pack_image$$1$$1$$__v;
-  unsigned short int pack_image$$1$$1$$__x = (unsigned short int)img->version.major;
-  asm("rorw $8, %w0" : "=r"(pack_image$$1$$1$$__v) : "0"(pack_image$$1$$1$$__x) : "cc");
-  tmp_statement_expression$1 = pack_image$$1$$1$$__v;
-  ver_field = tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int pack_image__1__1____v;
+  unsigned short int pack_image__1__1____x = (unsigned short int)img->version.major;
+  asm("rorw _8, %w0" : "=r"(pack_image__1__1____v) : "0"(pack_image__1__1____x) : "cc");
+  tmp_statement_expression_1 = pack_image__1__1____v;
+  ver_field = tmp_statement_expression_1;
   memcpy((void *)&buf[(signed long int)i], (const void *)&ver_field, sizeof(unsigned short int) /*2ul*/ );
   i = i + sizeof(unsigned short int) /*2ul*/ ;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_2;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)img->version.minor;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$2 = __v;
-  ver_field = tmp_statement_expression$2;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_2 = __v;
+  ver_field = tmp_statement_expression_2;
   memcpy((void *)&buf[(signed long int)i], (const void *)&ver_field, sizeof(unsigned short int) /*2ul*/ );
   i = i + sizeof(unsigned short int) /*2ul*/ ;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int pack_image$$1$$3$$__v;
-  unsigned short int pack_image$$1$$3$$__x = (unsigned short int)img->version.patch;
-  asm("rorw $8, %w0" : "=r"(pack_image$$1$$3$$__v) : "0"(pack_image$$1$$3$$__x) : "cc");
-  tmp_statement_expression$3 = pack_image$$1$$3$$__v;
-  ver_field = tmp_statement_expression$3;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int pack_image__1__3____v;
+  unsigned short int pack_image__1__3____x = (unsigned short int)img->version.patch;
+  asm("rorw _8, %w0" : "=r"(pack_image__1__3____v) : "0"(pack_image__1__3____x) : "cc");
+  tmp_statement_expression_3 = pack_image__1__3____v;
+  ver_field = tmp_statement_expression_3;
   memcpy((void *)&buf[(signed long int)i], (const void *)&ver_field, sizeof(unsigned short int) /*2ul*/ );
   i = i + sizeof(unsigned short int) /*2ul*/ ;
   timestamp=__bswap_64(img->timestamp);
@@ -16493,22 +16493,22 @@ static inline signed int perform_erase(struct bladerf *dev, unsigned short int b
   signed int erase_ret;
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
-  status=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, (unsigned char)102, (unsigned short int)0, block, (void *)&erase_ret, (unsigned int)sizeof(signed int) /*4ul*/ , (unsigned int)1000);
+  usb=usb_backend_link2(dev, &driver);
+  status=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, (unsigned char)102, (unsigned short int)0, block, (void *)&erase_ret, (unsigned int)sizeof(signed int) /*4ul*/ , (unsigned int)1000);
   return status;
 }
 
 // perform_format_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 237
-signed int perform_format_config(struct bladerf *dev, enum anonymous$0 module, enum anonymous$11 format)
+signed int perform_format_config(struct bladerf *dev, enum anonymous_0 module, enum anonymous_11 format)
 {
   signed int status = 0;
   _Bool use_timestamps;
-  enum anonymous$0 other;
+  enum anonymous_0 other;
   _Bool other_using_timestamps;
   unsigned int gpio_val;
   status=requires_timestamps(format, &use_timestamps);
-  _Bool return_value_have_cap$1;
+  _Bool return_value_have_cap_1;
   if(!(status == 0))
   {
     do
@@ -16520,8 +16520,8 @@ signed int perform_format_config(struct bladerf *dev, enum anonymous$0 module, e
   else
     if(!(use_timestamps == (_Bool)0))
     {
-      return_value_have_cap$1=have_cap$link1(dev, (unsigned long int)(1 << 2));
-      if(return_value_have_cap$1 != (_Bool)0)
+      return_value_have_cap_1=have_cap_link1(dev, (unsigned long int)(1 << 2));
+      if(return_value_have_cap_1 != (_Bool)0)
         goto __CPROVER_DUMP_L4;
 
       do
@@ -16539,12 +16539,12 @@ signed int perform_format_config(struct bladerf *dev, enum anonymous$0 module, e
       {
         case BLADERF_MODULE_RX:
         {
-          other = (enum anonymous$0)BLADERF_MODULE_TX;
+          other = (enum anonymous_0)BLADERF_MODULE_TX;
           break;
         }
         case BLADERF_MODULE_TX:
         {
-          other = (enum anonymous$0)BLADERF_MODULE_RX;
+          other = (enum anonymous_0)BLADERF_MODULE_RX;
           break;
         }
         default:
@@ -16589,11 +16589,11 @@ signed int perform_format_config(struct bladerf *dev, enum anonymous$0 module, e
 
 // perform_format_deconfig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 249
-signed int perform_format_deconfig(struct bladerf *dev, enum anonymous$0 module)
+signed int perform_format_deconfig(struct bladerf *dev, enum anonymous_0 module)
 {
   if((signed int)module == BLADERF_MODULE_RX || (signed int)module == BLADERF_MODULE_TX)
   {
-    dev->module_format[(signed long int)module] = (enum anonymous$11)-1;
+    dev->module_format[(signed long int)module] = (enum anonymous_11)-1;
     goto __CPROVER_DUMP_L3;
   }
 
@@ -16668,13 +16668,13 @@ static signed int post_fpga_load_init(struct bladerf *dev)
   }
 
   capabilities_init_post_fpga_load(dev);
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("BLADERF_FORCE_LEGACY_NIOS_PKT");
-  if(return_value_getenv$2 == ((char *)NULL))
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("BLADERF_FORCE_LEGACY_NIOS_PKT");
+  if(return_value_getenv_2 == ((char *)NULL))
   {
-    _Bool return_value_have_cap$1;
-    return_value_have_cap$1=have_cap$link7(dev, (unsigned long int)(1 << 4));
-    if(!(return_value_have_cap$1 == (_Bool)0))
+    _Bool return_value_have_cap_1;
+    return_value_have_cap_1=have_cap_link7(dev, (unsigned long int)(1 << 4));
+    if(!(return_value_have_cap_1 == (_Bool)0))
     {
       do
         log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ usb.c:180] Using current packet handler formats\n");
@@ -16700,7 +16700,7 @@ static signed int post_fpga_load_init(struct bladerf *dev)
 
 // probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 53
-static signed int probe(enum anonymous$16 target_device, struct bladerf_devinfo **devices)
+static signed int probe(enum anonymous_16 target_device, struct bladerf_devinfo **devices)
 {
   signed int ret;
   unsigned long int num_devices;
@@ -16730,25 +16730,25 @@ double quick_retune(struct bladerf *dev)
   struct timespec start;
   struct timespec end;
   unsigned int i;
-  status=bladerf_set_frequency(dev, (enum anonymous$0)BLADERF_MODULE_RX, (unsigned int)1.499e9);
+  status=bladerf_set_frequency(dev, (enum anonymous_0)BLADERF_MODULE_RX, (unsigned int)1.499e9);
   if(!(status == 0))
     return (double)-1;
 
   else
   {
-    status=bladerf_get_quick_tune(dev, (enum anonymous$0)BLADERF_MODULE_RX, &f1);
+    status=bladerf_get_quick_tune(dev, (enum anonymous_0)BLADERF_MODULE_RX, &f1);
     if(!(status == 0))
       return (double)-1;
 
     else
     {
-      status=bladerf_set_frequency(dev, (enum anonymous$0)BLADERF_MODULE_RX, (unsigned int)1.501e9);
+      status=bladerf_set_frequency(dev, (enum anonymous_0)BLADERF_MODULE_RX, (unsigned int)1.501e9);
       if(!(status == 0))
         return (double)-1;
 
       else
       {
-        status=bladerf_get_quick_tune(dev, (enum anonymous$0)BLADERF_MODULE_RX, &f2);
+        status=bladerf_get_quick_tune(dev, (enum anonymous_0)BLADERF_MODULE_RX, &f2);
         if(!(status == 0))
           return (double)-1;
 
@@ -16766,21 +16766,21 @@ double quick_retune(struct bladerf *dev)
             i = (unsigned int)0;
             for( ; !(i >= 1250u); i = i + 1u)
             {
-              status=bladerf_schedule_retune(dev, (enum anonymous$0)BLADERF_MODULE_RX, (unsigned long int)0, (unsigned int)0, &f1);
+              status=bladerf_schedule_retune(dev, (enum anonymous_0)BLADERF_MODULE_RX, (unsigned long int)0, (unsigned int)0, &f1);
               if(!(status == 0))
               {
-                const char *return_value_bladerf_strerror$1;
-                return_value_bladerf_strerror$1=bladerf_strerror(status);
-                fprintf(stderr, "Failed to tune to f1: %s\n", return_value_bladerf_strerror$1);
+                const char *return_value_bladerf_strerror_1;
+                return_value_bladerf_strerror_1=bladerf_strerror(status);
+                fprintf(stderr, "Failed to tune to f1: %s\n", return_value_bladerf_strerror_1);
                 return (double)-1;
               }
 
-              status=bladerf_schedule_retune(dev, (enum anonymous$0)BLADERF_MODULE_RX, (unsigned long int)0, (unsigned int)0, &f2);
+              status=bladerf_schedule_retune(dev, (enum anonymous_0)BLADERF_MODULE_RX, (unsigned long int)0, (unsigned int)0, &f2);
               if(!(status == 0))
               {
-                const char *return_value_bladerf_strerror$2;
-                return_value_bladerf_strerror$2=bladerf_strerror(status);
-                fprintf(stderr, "Failed to tune to f2: %s\n", return_value_bladerf_strerror$2);
+                const char *return_value_bladerf_strerror_2;
+                return_value_bladerf_strerror_2=bladerf_strerror(status);
+                fprintf(stderr, "Failed to tune to f2: %s\n", return_value_bladerf_strerror_2);
                 return (double)-1;
               }
 
@@ -16794,9 +16794,9 @@ double quick_retune(struct bladerf *dev)
 
             else
             {
-              double return_value_calc_avg_duration$3;
-              return_value_calc_avg_duration$3=calc_avg_duration(&start, &end, (double)2500u);
-              return return_value_calc_avg_duration$3;
+              double return_value_calc_avg_duration_3;
+              return_value_calc_avg_duration_3=calc_avg_duration(&start, &end, (double)2500u);
+              return return_value_calc_avg_duration_3;
             }
           }
         }
@@ -16829,12 +16829,12 @@ double random_retune(struct bladerf *dev)
     for( ; !(i >= 2500u); i = i + 1u)
     {
       freq=get_rand_freq(&prng, (_Bool)0);
-      status=bladerf_set_frequency(dev, (enum anonymous$0)BLADERF_MODULE_RX, freq);
+      status=bladerf_set_frequency(dev, (enum anonymous_0)BLADERF_MODULE_RX, freq);
       if(!(status == 0))
       {
-        const char *return_value_bladerf_strerror$1;
-        return_value_bladerf_strerror$1=bladerf_strerror(status);
-        fprintf(stderr, "Failed to set frequency (%u): %s\n", 2405000000u, return_value_bladerf_strerror$1);
+        const char *return_value_bladerf_strerror_1;
+        return_value_bladerf_strerror_1=bladerf_strerror(status);
+        fprintf(stderr, "Failed to set frequency (%u): %s\n", 2405000000u, return_value_bladerf_strerror_1);
         return (double)-1;
       }
 
@@ -16848,9 +16848,9 @@ double random_retune(struct bladerf *dev)
 
     else
     {
-      double return_value_calc_avg_duration$2;
-      return_value_calc_avg_duration$2=calc_avg_duration(&start, &end, (double)2500u);
-      return return_value_calc_avg_duration$2;
+      double return_value_calc_avg_duration_2;
+      return_value_calc_avg_duration_2=calc_avg_duration(&start, &end, (double)2500u);
+      return return_value_calc_avg_duration_2;
     }
   }
 }
@@ -16884,7 +16884,7 @@ static inline signed int read_page(struct bladerf *dev, unsigned char read_opera
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   signed int status;
   signed int op_status;
   unsigned short int read_size;
@@ -16935,12 +16935,12 @@ static inline signed int read_page(struct bladerf *dev, unsigned char read_opera
   offset = (unsigned short int)0;
   if(!((signed int)offset >= 256))
   {
-    status=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, request, (unsigned short int)0, offset, (void *)(buf + (signed long int)offset), (unsigned int)read_size, (unsigned int)1000);
+    status=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, request, (unsigned short int)0, offset, (void *)(buf + (signed long int)offset), (unsigned int)read_size, (unsigned int)1000);
     if(!(status >= 0))
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:575] Failed to read page buffer at offset 0x%02x: %s\n", offset, return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:575] Failed to read page buffer at offset 0x%02x: %s\n", offset, return_value_bladerf_strerror_1);
       return status;
     }
 
@@ -16980,7 +16980,7 @@ static inline void required_values(struct compat *entry, unsigned int *major, un
 
 // requires_timestamps
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.c line 317
-static inline signed int requires_timestamps(enum anonymous$11 format, _Bool *required)
+static inline signed int requires_timestamps(enum anonymous_11 format, _Bool *required)
 {
   signed int status = 0;
   switch((signed int)format)
@@ -17036,9 +17036,9 @@ static signed int reset_and_reopen(struct libusb_context *context, struct blader
       status = -5;
       do
       {
-        const char *return_value_libusb_error_name$1;
-        return_value_libusb_error_name$1=libusb_error_name(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ libusb.c:511] Port reset failed for bladerf %s: %s\n", (const void *)info->serial, return_value_libusb_error_name$1);
+        const char *return_value_libusb_error_name_1;
+        return_value_libusb_error_name_1=libusb_error_name(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ libusb.c:511] Port reset failed for bladerf %s: %s\n", (const void *)info->serial, return_value_libusb_error_name_1);
       }
       while((_Bool)0);
     }
@@ -17069,9 +17069,9 @@ static signed int restore_post_flash_setting(struct bladerf *dev)
   if(!(status >= 0))
     do
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:212] Failed to restore alt setting: %s\n", return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:212] Failed to restore alt setting: %s\n", return_value_bladerf_strerror_1);
     }
     while((_Bool)0);
 
@@ -17103,10 +17103,10 @@ static void * rx_callback(struct bladerf *dev, struct bladerf_stream *stream, st
     {
       if((signed int)b->status[(signed long int)b->prod_i] == SYNC_BUFFER_EMPTY)
       {
-        b->status[(signed long int)samples_idx] = (enum anonymous$22)SYNC_BUFFER_FULL;
+        b->status[(signed long int)samples_idx] = (enum anonymous_22)SYNC_BUFFER_FULL;
         pthread_cond_signal(&b->buf_ready);
         next_idx = b->prod_i;
-        b->status[(signed long int)next_idx] = (enum anonymous$22)SYNC_BUFFER_IN_FLIGHT;
+        b->status[(signed long int)next_idx] = (enum anonymous_22)SYNC_BUFFER_IN_FLIGHT;
         next_buf = b->buffers[(signed long int)next_idx];
         b->prod_i = (next_idx + (unsigned int)1) % b->num_buffers;
       }
@@ -17150,13 +17150,13 @@ static inline unsigned int samples_per_msg(struct bladerf *dev, unsigned long in
 
 // samples_to_bytes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 163
-static inline unsigned long int samples_to_bytes(enum anonymous$11 format, unsigned long int n)
+static inline unsigned long int samples_to_bytes(enum anonymous_11 format, unsigned long int n)
 {
-  unsigned long int return_value_sc16q11_to_bytes$1;
+  unsigned long int return_value_sc16q11_to_bytes_1;
   if((signed int)format == BLADERF_FORMAT_SC16_Q11 || (signed int)format == BLADERF_FORMAT_SC16_Q11_META)
   {
-    return_value_sc16q11_to_bytes$1=sc16q11_to_bytes$link1(n);
-    return return_value_sc16q11_to_bytes$1;
+    return_value_sc16q11_to_bytes_1=sc16q11_to_bytes_link1(n);
+    return return_value_sc16q11_to_bytes_1;
   }
 
   /* assertion !"Invalid format" */
@@ -17174,14 +17174,14 @@ static inline unsigned long int sc16q11_to_bytes(unsigned long int n_samples)
   return n_samples * sample_size;
 }
 
-// sc16q11_to_bytes$link1
+// sc16q11_to_bytes_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf_priv.h line 155
-static inline unsigned long int sc16q11_to_bytes$link1(unsigned long int n_samples$link1)
+static inline unsigned long int sc16q11_to_bytes_link1(unsigned long int n_samples_link1)
 {
-  const unsigned long int sample_size$link1 = (unsigned long int)2 * sizeof(signed short int) /*2ul*/ ;
+  const unsigned long int sample_size_link1 = (unsigned long int)2 * sizeof(signed short int) /*2ul*/ ;
   /* assertion n_samples <= ((18446744073709551615UL) / sample_size) */
-  assert(n_samples$link1 <= 18446744073709551615UL / sample_size$link1);
-  return n_samples$link1 * sample_size$link1;
+  assert(n_samples_link1 <= 18446744073709551615UL / sample_size_link1);
+  return n_samples_link1 * sample_size_link1;
 }
 
 // sc16q11_to_float
@@ -17198,7 +17198,7 @@ void sc16q11_to_float(const signed short int *in, float *out, unsigned int n)
 
 // scale_dc_offset
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 3436
-static inline unsigned char scale_dc_offset(enum anonymous$0 module, signed short int value)
+static inline unsigned char scale_dc_offset(enum anonymous_0 module, signed short int value)
 {
   unsigned char ret;
   switch((signed int)module)
@@ -17286,9 +17286,9 @@ static signed int scan_fw_sections(struct fx3_firmware *fw)
     if(section_len_bytes == 0u)
     {
       fw->entry_addr=to_uint32(fw, offset);
-      _Bool return_value_is_valid_fx3_ram_addr$1;
-      return_value_is_valid_fx3_ram_addr$1=is_valid_fx3_ram_addr(fw->entry_addr, (unsigned int)0);
-      if(return_value_is_valid_fx3_ram_addr$1 == (_Bool)0)
+      _Bool return_value_is_valid_fx3_ram_addr_1;
+      return_value_is_valid_fx3_ram_addr_1=is_valid_fx3_ram_addr(fw->entry_addr, (unsigned int)0);
+      if(return_value_is_valid_fx3_ram_addr_1 == (_Bool)0)
       {
         status = -3;
         goto error;
@@ -17303,9 +17303,9 @@ static signed int scan_fw_sections(struct fx3_firmware *fw)
       unsigned int section_start_offset = (unsigned int)((unsigned long int)offset - sizeof(unsigned int) /*4ul*/ );
       unsigned int addr;
       addr=to_uint32(fw, offset);
-      _Bool return_value_is_valid_fx3_ram_addr$2;
-      return_value_is_valid_fx3_ram_addr$2=is_valid_fx3_ram_addr(addr, section_len_bytes);
-      if(return_value_is_valid_fx3_ram_addr$2 == (_Bool)0)
+      _Bool return_value_is_valid_fx3_ram_addr_2;
+      return_value_is_valid_fx3_ram_addr_2=is_valid_fx3_ram_addr(addr, section_len_bytes);
+      if(return_value_is_valid_fx3_ram_addr_2 == (_Bool)0)
       {
         status = -3;
         goto error;
@@ -17334,9 +17334,9 @@ static signed int scan_fw_sections(struct fx3_firmware *fw)
       i = offset;
       for( ; !(i >= next_section); i = i + (unsigned int)sizeof(unsigned int) /*4ul*/ )
       {
-        unsigned int return_value_to_uint32$3;
-        return_value_to_uint32$3=to_uint32(fw, i);
-        checksum = checksum + return_value_to_uint32$3;
+        unsigned int return_value_to_uint32_3;
+        return_value_to_uint32_3=to_uint32(fw, i);
+        checksum = checksum + return_value_to_uint32_3;
       }
       offset = next_section;
       do
@@ -17426,7 +17426,7 @@ static signed int set_dc_cal_value(struct bladerf *dev, unsigned char base, unsi
 
 // set_dc_offset_reg
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 3492
-static signed int set_dc_offset_reg(struct bladerf *dev, enum anonymous$0 module, unsigned char addr, signed short int value)
+static signed int set_dc_offset_reg(struct bladerf *dev, enum anonymous_0 module, unsigned char addr, signed short int value)
 {
   signed int status;
   unsigned char regval;
@@ -17449,7 +17449,7 @@ static signed int set_dc_offset_reg(struct bladerf *dev, enum anonymous$0 module
 
 // set_filterbank_mux
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.c line 304
-static signed int set_filterbank_mux(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 filter)
+static signed int set_filterbank_mux(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 filter)
 {
   signed int status;
   unsigned int orig;
@@ -17505,7 +17505,7 @@ static signed int set_iq_correction(struct bladerf *dev, unsigned char addr, sig
   {
     cmd.addr = (unsigned char)(i + (signed int)addr);
     cmd.data = (unsigned char)((signed int)value >> i * 8 & 0xff);
-    status=nios_access$link1(dev, (unsigned char)(0 << 4), (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
+    status=nios_access_link1(dev, (unsigned char)(0 << 4), (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, &cmd, (unsigned long int)1);
   }
   return status;
 }
@@ -17516,46 +17516,46 @@ static signed int set_rx_gain(struct bladerf *dev, signed int gain)
 {
   if(!(gain >= 4))
   {
-    signed int return_value_set_rx_gain_combo$1;
-    return_value_set_rx_gain_combo$1=set_rx_gain_combo(dev, (enum anonymous$13)BLADERF_LNA_GAIN_BYPASS, 5, 0);
-    return return_value_set_rx_gain_combo$1;
+    signed int return_value_set_rx_gain_combo_1;
+    return_value_set_rx_gain_combo_1=set_rx_gain_combo(dev, (enum anonymous_13)BLADERF_LNA_GAIN_BYPASS, 5, 0);
+    return return_value_set_rx_gain_combo_1;
   }
 
   else
     if(!(gain >= 9))
     {
-      signed int return_value_set_rx_gain_combo$2;
-      return_value_set_rx_gain_combo$2=set_rx_gain_combo(dev, (enum anonymous$13)3, 5, 0);
-      return return_value_set_rx_gain_combo$2;
+      signed int return_value_set_rx_gain_combo_2;
+      return_value_set_rx_gain_combo_2=set_rx_gain_combo(dev, (enum anonymous_13)3, 5, 0);
+      return return_value_set_rx_gain_combo_2;
     }
 
     else
       if(!(gain >= 37))
       {
-        signed int return_value_set_rx_gain_combo$3;
-        return_value_set_rx_gain_combo$3=set_rx_gain_combo(dev, (enum anonymous$13)BLADERF_LNA_GAIN_MID, gain - 3, 0);
-        return return_value_set_rx_gain_combo$3;
+        signed int return_value_set_rx_gain_combo_3;
+        return_value_set_rx_gain_combo_3=set_rx_gain_combo(dev, (enum anonymous_13)BLADERF_LNA_GAIN_MID, gain - 3, 0);
+        return return_value_set_rx_gain_combo_3;
       }
 
       else
         if(!(gain >= 30))
         {
-          signed int return_value_set_rx_gain_combo$4;
-          return_value_set_rx_gain_combo$4=set_rx_gain_combo(dev, (enum anonymous$13)BLADERF_LNA_GAIN_MAX, 30, gain - (6 + 30));
-          return return_value_set_rx_gain_combo$4;
+          signed int return_value_set_rx_gain_combo_4;
+          return_value_set_rx_gain_combo_4=set_rx_gain_combo(dev, (enum anonymous_13)BLADERF_LNA_GAIN_MAX, 30, gain - (6 + 30));
+          return return_value_set_rx_gain_combo_4;
         }
 
         else
         {
-          signed int return_value_set_rx_gain_combo$5;
-          return_value_set_rx_gain_combo$5=set_rx_gain_combo(dev, (enum anonymous$13)BLADERF_LNA_GAIN_MAX, 30, 30);
-          return return_value_set_rx_gain_combo$5;
+          signed int return_value_set_rx_gain_combo_5;
+          return_value_set_rx_gain_combo_5=set_rx_gain_combo(dev, (enum anonymous_13)BLADERF_LNA_GAIN_MAX, 30, 30);
+          return return_value_set_rx_gain_combo_5;
         }
 }
 
 // set_rx_gain_combo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/gain.c line 24
-static inline signed int set_rx_gain_combo(struct bladerf *dev, enum anonymous$13 lnagain, signed int rxvga1, signed int rxvga2)
+static inline signed int set_rx_gain_combo(struct bladerf *dev, enum anonymous_13 lnagain, signed int rxvga1, signed int rxvga2)
 {
   signed int status;
   status=lms_lna_set_gain(dev, lnagain);
@@ -17570,16 +17570,16 @@ static inline signed int set_rx_gain_combo(struct bladerf *dev, enum anonymous$1
 
     else
     {
-      signed int return_value_lms_rxvga2_set_gain$1;
-      return_value_lms_rxvga2_set_gain$1=lms_rxvga2_set_gain(dev, rxvga2);
-      return return_value_lms_rxvga2_set_gain$1;
+      signed int return_value_lms_rxvga2_set_gain_1;
+      return_value_lms_rxvga2_set_gain_1=lms_rxvga2_set_gain(dev, rxvga2);
+      return return_value_lms_rxvga2_set_gain_1;
     }
   }
 }
 
 // set_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.c line 369
-static void set_state(struct sync_worker *w, enum anonymous$24 state)
+static void set_state(struct sync_worker *w, enum anonymous_24 state)
 {
   pthread_mutex_lock(&w->state_lock);
   w->state = state;
@@ -17622,7 +17622,7 @@ static inline signed int set_tx_gain_combo(struct bladerf *dev, signed int txvga
 
 // set_vctcxo_tamer_mode_unsupported
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 1063
-static signed int set_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous$17 mode)
+static signed int set_vctcxo_tamer_mode_unsupported(struct bladerf *dev, enum anonymous_17 mode)
 {
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:1066] Operation not supported with legacy NIOS packet format.\n");
@@ -17651,13 +17651,13 @@ static void si5338_calculate_ms_freq(struct si5338_multisynth *ms, struct blader
   rate->integer = (unsigned long int)0;
   rate->num = 38400000UL * 66UL * abc.den;
   rate->den = (unsigned long int)ms->r * (abc.integer * abc.den + abc.num);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)ms->index == 1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)ms->index == 2 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)ms->index == 2 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     rate->den = rate->den * (unsigned long int)2;
 
   si5338_rational_reduce(rate);
@@ -17679,13 +17679,13 @@ static signed int si5338_calculate_multisynth(struct si5338_multisynth *ms, stru
   unsigned char r_value;
   unsigned char r_power;
   req = *rate;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)ms->index == 1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)ms->index == 2 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)ms->index == 2 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     si5338_rational_double(&req);
 
   r_value = (unsigned char)1;
@@ -17774,7 +17774,7 @@ static unsigned long int si5338_gcd(unsigned long int a, unsigned long int b)
 
 // si5338_get_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 41
-signed int si5338_get_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate)
+signed int si5338_get_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate)
 {
   struct si5338_multisynth ms;
   signed int status;
@@ -17783,9 +17783,9 @@ signed int si5338_get_rational_sample_rate(struct bladerf *dev, enum anonymous$0
   status=si5338_read_multisynth(dev, &ms);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    si5338_read_error(status, return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    si5338_read_error(status, return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -17804,9 +17804,9 @@ signed int si5338_get_rational_smb_freq(struct bladerf *dev, struct bladerf_rati
   status=si5338_read_multisynth(dev, &ms);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    si5338_read_error(status, return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    si5338_read_error(status, return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -17816,16 +17816,16 @@ signed int si5338_get_rational_smb_freq(struct bladerf *dev, struct bladerf_rati
 
 // si5338_get_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 39
-signed int si5338_get_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int *rate)
+signed int si5338_get_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int *rate)
 {
   struct bladerf_rational_rate actual;
   signed int status;
   status=si5338_get_rational_sample_rate(dev, module, &actual);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    si5338_read_error(status, return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    si5338_read_error(status, return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -17849,9 +17849,9 @@ signed int si5338_get_smb_freq(struct bladerf *dev, unsigned int *rate)
   status=si5338_get_rational_smb_freq(dev, &actual);
   if(!(status == 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    si5338_read_error(status, return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    si5338_read_error(status, return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -17926,9 +17926,9 @@ static void si5338_rational_reduce(struct bladerf_rational_rate *r)
 
   }
 
-  unsigned long int return_value_si5338_gcd$1;
-  return_value_si5338_gcd$1=si5338_gcd(r->num, r->den);
-  val = (signed long int)return_value_si5338_gcd$1;
+  unsigned long int return_value_si5338_gcd_1;
+  return_value_si5338_gcd_1=si5338_gcd(r->num, r->den);
+  val = (signed long int)return_value_si5338_gcd_1;
   if(val >= 1l)
   {
     r->num = r->num / (unsigned long int)val;
@@ -17963,9 +17963,9 @@ static signed int si5338_read_multisynth(struct bladerf *dev, struct si5338_mult
   status=dev->fn->si5338_read(dev, (unsigned char)(36 + (signed int)ms->index), &val);
   if(!(status >= 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    si5338_read_error(status, return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    si5338_read_error(status, return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -17977,9 +17977,9 @@ static signed int si5338_read_multisynth(struct bladerf *dev, struct si5338_mult
     status=dev->fn->si5338_read(dev, (unsigned char)((signed int)ms->base + i), ms->regs + (signed long int)i);
     if(!(status >= 0))
     {
-      const char *return_value_bladerf_strerror$2;
-      return_value_bladerf_strerror$2=bladerf_strerror(status);
-      si5338_read_error(status, return_value_bladerf_strerror$2);
+      const char *return_value_bladerf_strerror_2;
+      return_value_bladerf_strerror_2=bladerf_strerror(status);
+      si5338_read_error(status, return_value_bladerf_strerror_2);
       return status;
     }
 
@@ -17990,9 +17990,9 @@ static signed int si5338_read_multisynth(struct bladerf *dev, struct si5338_mult
   status=dev->fn->si5338_read(dev, (unsigned char)(31 + (signed int)ms->index), &val);
   if(!(status >= 0))
   {
-    const char *return_value_bladerf_strerror$3;
-    return_value_bladerf_strerror$3=bladerf_strerror(status);
-    si5338_read_error(status, return_value_bladerf_strerror$3);
+    const char *return_value_bladerf_strerror_3;
+    return_value_bladerf_strerror_3=bladerf_strerror(status);
+    si5338_read_error(status, return_value_bladerf_strerror_3);
     return status;
   }
 
@@ -18033,7 +18033,7 @@ signed int si5338_set_rational_multisynth(struct bladerf *dev, unsigned char ind
 
 // si5338_set_rational_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 40
-signed int si5338_set_rational_sample_rate(struct bladerf *dev, enum anonymous$0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual)
+signed int si5338_set_rational_sample_rate(struct bladerf *dev, enum anonymous_0 module, struct bladerf_rational_rate *rate, struct bladerf_rational_rate *actual)
 {
   unsigned char index = (unsigned char)((signed int)module == BLADERF_MODULE_RX ? 1 : 2);
   unsigned char channel = (unsigned char)0x01;
@@ -18051,9 +18051,9 @@ signed int si5338_set_rational_sample_rate(struct bladerf *dev, enum anonymous$0
     if((signed int)module == BLADERF_MODULE_TX)
       channel = channel | (unsigned char)0x02;
 
-    signed int return_value_si5338_set_rational_multisynth$1;
-    return_value_si5338_set_rational_multisynth$1=si5338_set_rational_multisynth(dev, index, channel, rate, actual);
-    return return_value_si5338_set_rational_multisynth$1;
+    signed int return_value_si5338_set_rational_multisynth_1;
+    return_value_si5338_set_rational_multisynth_1=si5338_set_rational_multisynth(dev, index, channel, rate, actual);
+    return return_value_si5338_set_rational_multisynth_1;
   }
 }
 
@@ -18079,14 +18079,14 @@ signed int si5338_set_rational_smb_freq(struct bladerf *dev, struct bladerf_rati
       return -3;
     }
 
-  signed int return_value_si5338_set_rational_multisynth$1;
-  return_value_si5338_set_rational_multisynth$1=si5338_set_rational_multisynth(dev, (unsigned char)3, (unsigned char)0x01, rate, actual);
-  return return_value_si5338_set_rational_multisynth$1;
+  signed int return_value_si5338_set_rational_multisynth_1;
+  return_value_si5338_set_rational_multisynth_1=si5338_set_rational_multisynth(dev, (unsigned char)3, (unsigned char)0x01, rate, actual);
+  return return_value_si5338_set_rational_multisynth_1;
 }
 
 // si5338_set_sample_rate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/si5338.h line 38
-signed int si5338_set_sample_rate(struct bladerf *dev, enum anonymous$0 module, unsigned int rate, unsigned int *actual)
+signed int si5338_set_sample_rate(struct bladerf *dev, enum anonymous_0 module, unsigned int rate, unsigned int *actual)
 {
   struct bladerf_rational_rate req;
   struct bladerf_rational_rate act;
@@ -18207,9 +18207,9 @@ static signed int si5338_write_multisynth(struct bladerf *dev, struct si5338_mul
   status=dev->fn->si5338_read(dev, (unsigned char)(36 + (signed int)ms->index), &val);
   if(!(status >= 0))
   {
-    const char *return_value_bladerf_strerror$1;
-    return_value_bladerf_strerror$1=bladerf_strerror(status);
-    si5338_read_error(status, return_value_bladerf_strerror$1);
+    const char *return_value_bladerf_strerror_1;
+    return_value_bladerf_strerror_1=bladerf_strerror(status);
+    si5338_read_error(status, return_value_bladerf_strerror_1);
     return status;
   }
 
@@ -18218,9 +18218,9 @@ static signed int si5338_write_multisynth(struct bladerf *dev, struct si5338_mul
   status=dev->fn->si5338_write(dev, (unsigned char)(36 + (signed int)ms->index), val);
   if(!(status >= 0))
   {
-    const char *return_value_bladerf_strerror$2;
-    return_value_bladerf_strerror$2=bladerf_strerror(status);
-    si5338_write_error(status, return_value_bladerf_strerror$2);
+    const char *return_value_bladerf_strerror_2;
+    return_value_bladerf_strerror_2=bladerf_strerror(status);
+    si5338_write_error(status, return_value_bladerf_strerror_2);
     return status;
   }
 
@@ -18230,9 +18230,9 @@ static signed int si5338_write_multisynth(struct bladerf *dev, struct si5338_mul
     status=dev->fn->si5338_write(dev, (unsigned char)((signed int)ms->base + i), ms->regs[(signed long int)i]);
     if(!(status >= 0))
     {
-      const char *return_value_bladerf_strerror$3;
-      return_value_bladerf_strerror$3=bladerf_strerror(status);
-      si5338_write_error(status, return_value_bladerf_strerror$3);
+      const char *return_value_bladerf_strerror_3;
+      return_value_bladerf_strerror_3=bladerf_strerror(status);
+      si5338_write_error(status, return_value_bladerf_strerror_3);
       return status;
     }
 
@@ -18254,9 +18254,9 @@ static signed int si5338_write_multisynth(struct bladerf *dev, struct si5338_mul
   status=dev->fn->si5338_write(dev, (unsigned char)(31 + (signed int)ms->index), val);
   if(!(status >= 0))
   {
-    const char *return_value_bladerf_strerror$4;
-    return_value_bladerf_strerror$4=bladerf_strerror(status);
-    si5338_write_error(status, return_value_bladerf_strerror$4);
+    const char *return_value_bladerf_strerror_4;
+    return_value_bladerf_strerror_4=bladerf_strerror(status);
+    si5338_write_error(status, return_value_bladerf_strerror_4);
   }
 
   return status;
@@ -18278,11 +18278,11 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
   _Bool got_eol_comment = (_Bool)0;
   arg_i = 0;
   argc = arg_i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)argv_size * sizeof(char *) /*8ul*/ );
-  argv = (char **)return_value_malloc$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$6;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)argv_size * sizeof(char *) /*8ul*/ );
+  argv = (char **)return_value_malloc_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_6;
   if(argv == ((char **)NULL))
     return -1;
 
@@ -18296,8 +18296,8 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
       {
         case PARSE_STATE_IN_SPACE:
         {
-          return_value___ctype_b_loc$2=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)line[(signed long int)line_i]]) == 0)
+          return_value___ctype_b_loc_2=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)line[(signed long int)line_i]]) == 0)
           {
             if(line[(signed long int)line_i] == comment_char)
               got_eol_comment = (_Bool)1;
@@ -18331,9 +18331,9 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
           {
             arg_i = 0;
             arg_size = 32;
-            void *return_value_calloc$3;
-            return_value_calloc$3=calloc((unsigned long int)arg_size, (unsigned long int)1);
-            argv[(signed long int)argc] = (char *)return_value_calloc$3;
+            void *return_value_calloc_3;
+            return_value_calloc_3=calloc((unsigned long int)arg_size, (unsigned long int)1);
+            argv[(signed long int)argc] = (char *)return_value_calloc_3;
             if(argv[(signed long int)argc] == ((char *)NULL))
             {
               state = (enum str2args_parse_state)PARSE_STATE_ERROR;
@@ -18345,9 +18345,9 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
 
             else
             {
-              signed int return_value_append_char$4;
-              return_value_append_char$4=append_char(&argv[(signed long int)argc], &arg_size, &arg_i, line[(signed long int)line_i]);
-              if(!(return_value_append_char$4 == 0))
+              signed int return_value_append_char_4;
+              return_value_append_char_4=append_char(&argv[(signed long int)argc], &arg_size, &arg_i, line[(signed long int)line_i]);
+              if(!(return_value_append_char_4 == 0))
                 state = (enum str2args_parse_state)PARSE_STATE_ERROR;
 
               else
@@ -18361,8 +18361,8 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
         }
         case PARSE_STATE_IN_ARG:
         {
-          return_value___ctype_b_loc$6=__ctype_b_loc();
-          if(!((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)(unsigned char)line[(signed long int)line_i]]) == 0))
+          return_value___ctype_b_loc_6=__ctype_b_loc();
+          if(!((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)(unsigned char)line[(signed long int)line_i]]) == 0))
             state = (enum str2args_parse_state)PARSE_STATE_IN_SPACE;
 
           else
@@ -18375,9 +18375,9 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
 
               else
               {
-                signed int return_value_append_char$5;
-                return_value_append_char$5=append_char(&argv[(signed long int)(argc - 1)], &arg_size, &arg_i, line[(signed long int)line_i]);
-                if(!(return_value_append_char$5 == 0))
+                signed int return_value_append_char_5;
+                return_value_append_char_5=append_char(&argv[(signed long int)(argc - 1)], &arg_size, &arg_i, line[(signed long int)line_i]);
+                if(!(return_value_append_char_5 == 0))
                   state = (enum str2args_parse_state)PARSE_STATE_ERROR;
 
               }
@@ -18391,9 +18391,9 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
 
           else
           {
-            signed int return_value_append_char$7;
-            return_value_append_char$7=append_char(&argv[(signed long int)(argc - 1)], &arg_size, &arg_i, line[(signed long int)line_i]);
-            if(!(return_value_append_char$7 == 0))
+            signed int return_value_append_char_7;
+            return_value_append_char_7=append_char(&argv[(signed long int)(argc - 1)], &arg_size, &arg_i, line[(signed long int)line_i]);
+            if(!(return_value_append_char_7 == 0))
               state = (enum str2args_parse_state)PARSE_STATE_ERROR;
 
           }
@@ -18430,34 +18430,34 @@ signed int str2args(const char *line, char comment_char, char ***argv_ret)
 
 // str2backend
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/backend.c line 148
-signed int str2backend(const char *str, enum anonymous$14 *backend)
+signed int str2backend(const char *str, enum anonymous_14 *backend)
 {
   signed int status = 0;
-  signed int return_value_strcasecmp$4;
-  return_value_strcasecmp$4=strcasecmp("libusb", str);
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$4 == 0)
-    *backend = (enum anonymous$14)BLADERF_BACKEND_LIBUSB;
+  signed int return_value_strcasecmp_4;
+  return_value_strcasecmp_4=strcasecmp("libusb", str);
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_4 == 0)
+    *backend = (enum anonymous_14)BLADERF_BACKEND_LIBUSB;
 
   else
   {
-    return_value_strcasecmp$3=strcasecmp("linux", str);
-    if(return_value_strcasecmp$3 == 0)
-      *backend = (enum anonymous$14)BLADERF_BACKEND_LINUX;
+    return_value_strcasecmp_3=strcasecmp("linux", str);
+    if(return_value_strcasecmp_3 == 0)
+      *backend = (enum anonymous_14)BLADERF_BACKEND_LINUX;
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp("cypress", str);
-      if(return_value_strcasecmp$2 == 0)
-        *backend = (enum anonymous$14)BLADERF_BACKEND_CYPRESS;
+      return_value_strcasecmp_2=strcasecmp("cypress", str);
+      if(return_value_strcasecmp_2 == 0)
+        *backend = (enum anonymous_14)BLADERF_BACKEND_CYPRESS;
 
       else
       {
-        return_value_strcasecmp$1=strcasecmp("*", str);
-        if(return_value_strcasecmp$1 == 0)
-          *backend = (enum anonymous$14)BLADERF_BACKEND_ANY;
+        return_value_strcasecmp_1=strcasecmp("*", str);
+        if(return_value_strcasecmp_1 == 0)
+          *backend = (enum anonymous_14)BLADERF_BACKEND_ANY;
 
         else
         {
@@ -18465,7 +18465,7 @@ signed int str2backend(const char *str, enum anonymous$14 *backend)
             log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ backend.c:161] Invalid backend: %s\n", str);
           while((_Bool)0);
           status = -3;
-          *backend = (enum anonymous$14)BLADERF_BACKEND_ANY;
+          *backend = (enum anonymous_14)BLADERF_BACKEND_ANY;
         }
       }
     }
@@ -18480,15 +18480,15 @@ double str2dbl_suffix(const char *str, double min, double max, struct numeric_su
   double value;
   char *endptr;
   unsigned long int i;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   value=strtod(str, &endptr);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$6;
-  float return_value___builtin_inff$5;
-  if(endptr == str || !(*return_value___errno_location$2 == 0))
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_6;
+  float return_value___builtin_inff_5;
+  if(endptr == str || !(*return_value___errno_location_2 == 0))
   {
     if(!(ok == ((_Bool *)NULL)))
       *ok = (_Bool)0;
@@ -18501,26 +18501,26 @@ double str2dbl_suffix(const char *str, double min, double max, struct numeric_su
     i = (unsigned long int)0;
     for( ; !(i >= num_suffixes); i = i + 1ul)
     {
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(endptr, (suffixes + (signed long int)i)->suffix);
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(endptr, (suffixes + (signed long int)i)->suffix);
+      if(return_value_strcasecmp_3 == 0)
       {
         value = value * (double)(suffixes + (signed long int)i)->multiplier;
         break;
       }
 
     }
-    float return_value___builtin_inff$4;
-    return_value___builtin_inff$4=__builtin_inff();
-    if(IEEE_FLOAT_EQUAL(value, (double)return_value___builtin_inff$4))
-      tmp_if_expr$6 = (_Bool)1;
+    float return_value___builtin_inff_4;
+    return_value___builtin_inff_4=__builtin_inff();
+    if(IEEE_FLOAT_EQUAL(value, (double)return_value___builtin_inff_4))
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value___builtin_inff$5=__builtin_inff();
-      tmp_if_expr$6 = IEEE_FLOAT_EQUAL(value, (double)-return_value___builtin_inff$5) ? (_Bool)1 : (_Bool)0;
+      return_value___builtin_inff_5=__builtin_inff();
+      tmp_if_expr_6 = IEEE_FLOAT_EQUAL(value, (double)-return_value___builtin_inff_5) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       if(!(ok == ((_Bool *)NULL)))
         *ok = (_Bool)0;
@@ -18561,19 +18561,19 @@ signed int str2devinfo(const char *dev_id_const, struct bladerf_devinfo *d)
   /* assertion d */
   assert(d != ((struct bladerf_devinfo *)NULL));
   bladerf_init_devinfo(d);
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(dev_id_const == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(dev_id_const);
-    tmp_if_expr$2 = return_value_strlen$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(dev_id_const);
+    tmp_if_expr_2 = return_value_strlen_1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  if(tmp_if_expr$2)
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -18594,21 +18594,21 @@ signed int str2devinfo(const char *dev_id_const, struct bladerf_devinfo *d)
           arg_status=next_arg(&saveptr, &arg, &val);
           if(arg_status == 1)
           {
-            signed int return_value_strcasecmp$5;
-            return_value_strcasecmp$5=strcasecmp("device", arg);
-            if(return_value_strcasecmp$5 == 0)
+            signed int return_value_strcasecmp_5;
+            return_value_strcasecmp_5=strcasecmp("device", arg);
+            if(return_value_strcasecmp_5 == 0)
               status=handle_device(d, val);
 
             else
             {
-              return_value_strcasecmp$4=strcasecmp("instance", arg);
-              if(return_value_strcasecmp$4 == 0)
+              return_value_strcasecmp_4=strcasecmp("instance", arg);
+              if(return_value_strcasecmp_4 == 0)
                 status=handle_instance(d, val);
 
               else
               {
-                return_value_strcasecmp$3=strcasecmp("serial", arg);
-                if(return_value_strcasecmp$3 == 0)
+                return_value_strcasecmp_3=strcasecmp("serial", arg);
+                if(return_value_strcasecmp_3 == 0)
                   status=handle_serial(d, val);
 
                 else
@@ -18637,19 +18637,19 @@ double str2double(const char *str, double min, double max, _Bool *ok)
 {
   double value;
   char *endptr;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   value=strtod(str, &endptr);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$3;
-  if(value < min || endptr == str || value > max || !(*return_value___errno_location$2 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_3;
+  if(value < min || endptr == str || value > max || !(*return_value___errno_location_2 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     if(!(ok == ((_Bool *)NULL)))
       *ok = (_Bool)0;
@@ -18672,19 +18672,19 @@ signed int str2int(const char *str, signed int min, signed int max, _Bool *ok)
 {
   signed long int value;
   char *endptr;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   value=strtol(str, &endptr, 0);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$3;
-  if(endptr == str || !(*return_value___errno_location$2 == 0) || !(value >= (signed long int)min) || !((signed long int)max >= value))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_3;
+  if(endptr == str || !(*return_value___errno_location_2 == 0) || !(value >= (signed long int)min) || !((signed long int)max >= value))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     if(!(ok == ((_Bool *)NULL)))
       *ok = (_Bool)0;
@@ -18703,70 +18703,70 @@ signed int str2int(const char *str, signed int min, signed int max, _Bool *ok)
 
 // str2lnagain
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 572
-signed int str2lnagain(const char *str, enum anonymous$13 *gain)
+signed int str2lnagain(const char *str, enum anonymous_13 *gain)
 {
-  *gain = (enum anonymous$13)BLADERF_LNA_GAIN_MAX;
-  signed int return_value_strcasecmp$7;
-  return_value_strcasecmp$7=strcasecmp("max", str);
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcasecmp$8;
-  if(return_value_strcasecmp$7 == 0)
-    tmp_if_expr$9 = (_Bool)1;
+  *gain = (enum anonymous_13)BLADERF_LNA_GAIN_MAX;
+  signed int return_value_strcasecmp_7;
+  return_value_strcasecmp_7=strcasecmp("max", str);
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcasecmp_8;
+  if(return_value_strcasecmp_7 == 0)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$8=strcasecmp("BLADERF_LNA_GAIN_MAX", str);
-    tmp_if_expr$9 = !(return_value_strcasecmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_8=strcasecmp("BLADERF_LNA_GAIN_MAX", str);
+    tmp_if_expr_9 = !(return_value_strcasecmp_8 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcasecmp$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  if(tmp_if_expr$9)
+  signed int return_value_strcasecmp_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  if(tmp_if_expr_9)
   {
-    *gain = (enum anonymous$13)BLADERF_LNA_GAIN_MAX;
+    *gain = (enum anonymous_13)BLADERF_LNA_GAIN_MAX;
     return 0;
   }
 
   else
   {
-    return_value_strcasecmp$4=strcasecmp("mid", str);
-    if(return_value_strcasecmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    return_value_strcasecmp_4=strcasecmp("mid", str);
+    if(return_value_strcasecmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$5=strcasecmp("BLADERF_LNA_GAIN_MID", str);
-      tmp_if_expr$6 = !(return_value_strcasecmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_5=strcasecmp("BLADERF_LNA_GAIN_MID", str);
+      tmp_if_expr_6 = !(return_value_strcasecmp_5 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
-      *gain = (enum anonymous$13)BLADERF_LNA_GAIN_MID;
+      *gain = (enum anonymous_13)BLADERF_LNA_GAIN_MID;
       return 0;
     }
 
     else
     {
-      return_value_strcasecmp$1=strcasecmp("bypass", str);
-      if(return_value_strcasecmp$1 == 0)
-        tmp_if_expr$3 = (_Bool)1;
+      return_value_strcasecmp_1=strcasecmp("bypass", str);
+      if(return_value_strcasecmp_1 == 0)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp("BLADERF_LNA_GAIN_BYPASS", str);
-        tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_2=strcasecmp("BLADERF_LNA_GAIN_BYPASS", str);
+        tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
-        *gain = (enum anonymous$13)BLADERF_LNA_GAIN_BYPASS;
+        *gain = (enum anonymous_13)BLADERF_LNA_GAIN_BYPASS;
         return 0;
       }
 
       else
       {
-        *gain = (enum anonymous$13)BLADERF_LNA_GAIN_UNKNOWN;
+        *gain = (enum anonymous_13)BLADERF_LNA_GAIN_UNKNOWN;
         return -1;
       }
     }
@@ -18779,44 +18779,44 @@ enum anonymous str2loglevel(const char *str, _Bool *ok)
 {
   enum anonymous level = (enum anonymous)BLADERF_LOG_LEVEL_ERROR;
   _Bool valid = (_Bool)1;
-  signed int return_value_strcasecmp$6;
-  return_value_strcasecmp$6=strcasecmp(str, "critical");
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$6 == 0)
+  signed int return_value_strcasecmp_6;
+  return_value_strcasecmp_6=strcasecmp(str, "critical");
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_6 == 0)
     level = (enum anonymous)BLADERF_LOG_LEVEL_CRITICAL;
 
   else
   {
-    return_value_strcasecmp$5=strcasecmp(str, "error");
-    if(return_value_strcasecmp$5 == 0)
+    return_value_strcasecmp_5=strcasecmp(str, "error");
+    if(return_value_strcasecmp_5 == 0)
       level = (enum anonymous)BLADERF_LOG_LEVEL_ERROR;
 
     else
     {
-      return_value_strcasecmp$4=strcasecmp(str, "warning");
-      if(return_value_strcasecmp$4 == 0)
+      return_value_strcasecmp_4=strcasecmp(str, "warning");
+      if(return_value_strcasecmp_4 == 0)
         level = (enum anonymous)BLADERF_LOG_LEVEL_WARNING;
 
       else
       {
-        return_value_strcasecmp$3=strcasecmp(str, "info");
-        if(return_value_strcasecmp$3 == 0)
+        return_value_strcasecmp_3=strcasecmp(str, "info");
+        if(return_value_strcasecmp_3 == 0)
           level = (enum anonymous)BLADERF_LOG_LEVEL_INFO;
 
         else
         {
-          return_value_strcasecmp$2=strcasecmp(str, "debug");
-          if(return_value_strcasecmp$2 == 0)
+          return_value_strcasecmp_2=strcasecmp(str, "debug");
+          if(return_value_strcasecmp_2 == 0)
             level = (enum anonymous)BLADERF_LOG_LEVEL_DEBUG;
 
           else
           {
-            return_value_strcasecmp$1=strcasecmp(str, "verbose");
-            if(return_value_strcasecmp$1 == 0)
+            return_value_strcasecmp_1=strcasecmp(str, "verbose");
+            if(return_value_strcasecmp_1 == 0)
               level = (enum anonymous)BLADERF_LOG_LEVEL_VERBOSE;
 
             else
@@ -18832,62 +18832,62 @@ enum anonymous str2loglevel(const char *str, _Bool *ok)
 
 // str2loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 393
-signed int str2loopback(const char *str, enum anonymous$1 *loopback)
+signed int str2loopback(const char *str, enum anonymous_1 *loopback)
 {
   signed int status = 0;
-  signed int return_value_strcasecmp$8;
-  return_value_strcasecmp$8=strcasecmp("bb_txlpf_rxvga2", str);
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$8 == 0)
-    *loopback = (enum anonymous$1)BLADERF_LB_BB_TXLPF_RXVGA2;
+  signed int return_value_strcasecmp_8;
+  return_value_strcasecmp_8=strcasecmp("bb_txlpf_rxvga2", str);
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_8 == 0)
+    *loopback = (enum anonymous_1)BLADERF_LB_BB_TXLPF_RXVGA2;
 
   else
   {
-    return_value_strcasecmp$7=strcasecmp("bb_txlpf_rxlpf", str);
-    if(return_value_strcasecmp$7 == 0)
-      *loopback = (enum anonymous$1)BLADERF_LB_BB_TXLPF_RXLPF;
+    return_value_strcasecmp_7=strcasecmp("bb_txlpf_rxlpf", str);
+    if(return_value_strcasecmp_7 == 0)
+      *loopback = (enum anonymous_1)BLADERF_LB_BB_TXLPF_RXLPF;
 
     else
     {
-      return_value_strcasecmp$6=strcasecmp("bb_txvga1_rxvga2", str);
-      if(return_value_strcasecmp$6 == 0)
-        *loopback = (enum anonymous$1)BLADERF_LB_BB_TXVGA1_RXVGA2;
+      return_value_strcasecmp_6=strcasecmp("bb_txvga1_rxvga2", str);
+      if(return_value_strcasecmp_6 == 0)
+        *loopback = (enum anonymous_1)BLADERF_LB_BB_TXVGA1_RXVGA2;
 
       else
       {
-        return_value_strcasecmp$5=strcasecmp("bb_txvga1_rxlpf", str);
-        if(return_value_strcasecmp$5 == 0)
-          *loopback = (enum anonymous$1)BLADERF_LB_BB_TXVGA1_RXLPF;
+        return_value_strcasecmp_5=strcasecmp("bb_txvga1_rxlpf", str);
+        if(return_value_strcasecmp_5 == 0)
+          *loopback = (enum anonymous_1)BLADERF_LB_BB_TXVGA1_RXLPF;
 
         else
         {
-          return_value_strcasecmp$4=strcasecmp("rf_lna1", str);
-          if(return_value_strcasecmp$4 == 0)
-            *loopback = (enum anonymous$1)BLADERF_LB_RF_LNA1;
+          return_value_strcasecmp_4=strcasecmp("rf_lna1", str);
+          if(return_value_strcasecmp_4 == 0)
+            *loopback = (enum anonymous_1)BLADERF_LB_RF_LNA1;
 
           else
           {
-            return_value_strcasecmp$3=strcasecmp("rf_lna2", str);
-            if(return_value_strcasecmp$3 == 0)
-              *loopback = (enum anonymous$1)BLADERF_LB_RF_LNA2;
+            return_value_strcasecmp_3=strcasecmp("rf_lna2", str);
+            if(return_value_strcasecmp_3 == 0)
+              *loopback = (enum anonymous_1)BLADERF_LB_RF_LNA2;
 
             else
             {
-              return_value_strcasecmp$2=strcasecmp("rf_lna3", str);
-              if(return_value_strcasecmp$2 == 0)
-                *loopback = (enum anonymous$1)BLADERF_LB_RF_LNA3;
+              return_value_strcasecmp_2=strcasecmp("rf_lna3", str);
+              if(return_value_strcasecmp_2 == 0)
+                *loopback = (enum anonymous_1)BLADERF_LB_RF_LNA3;
 
               else
               {
-                return_value_strcasecmp$1=strcasecmp("none", str);
-                if(return_value_strcasecmp$1 == 0)
-                  *loopback = (enum anonymous$1)BLADERF_LB_NONE;
+                return_value_strcasecmp_1=strcasecmp("none", str);
+                if(return_value_strcasecmp_1 == 0)
+                  *loopback = (enum anonymous_1)BLADERF_LB_NONE;
 
                 else
                   status = -1;
@@ -18903,22 +18903,22 @@ signed int str2loopback(const char *str, enum anonymous$1 *loopback)
 
 // str2module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 382
-enum anonymous$0 str2module(const char *str)
+enum anonymous_0 str2module(const char *str)
 {
-  signed int return_value_strcasecmp$2;
-  return_value_strcasecmp$2=strcasecmp(str, "RX");
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$2 == 0)
-    return (enum anonymous$0)BLADERF_MODULE_RX;
+  signed int return_value_strcasecmp_2;
+  return_value_strcasecmp_2=strcasecmp(str, "RX");
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_2 == 0)
+    return (enum anonymous_0)BLADERF_MODULE_RX;
 
   else
   {
-    return_value_strcasecmp$1=strcasecmp(str, "TX");
-    if(return_value_strcasecmp$1 == 0)
-      return (enum anonymous$0)BLADERF_MODULE_TX;
+    return_value_strcasecmp_1=strcasecmp(str, "TX");
+    if(return_value_strcasecmp_1 == 0)
+      return (enum anonymous_0)BLADERF_MODULE_TX;
 
     else
-      return (enum anonymous$0)BLADERF_MODULE_INVALID;
+      return (enum anonymous_0)BLADERF_MODULE_INVALID;
   }
 }
 
@@ -18928,19 +18928,19 @@ unsigned int str2uint(const char *str, unsigned int min, unsigned int max, _Bool
 {
   unsigned long int value;
   char *endptr;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   value=strtoul(str, &endptr, 0);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$3;
-  if(endptr == str || !(*return_value___errno_location$2 == 0) || !(value >= (unsigned long int)min) || !((unsigned long int)max >= value))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_3;
+  if(endptr == str || !(*return_value___errno_location_2 == 0) || !(value >= (unsigned long int)min) || !((unsigned long int)max >= value))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     if(!(ok == ((_Bool *)NULL)))
       *ok = (_Bool)0;
@@ -18963,19 +18963,19 @@ unsigned long int str2uint64(const char *str, unsigned long int min, unsigned lo
 {
   unsigned long long int value;
   char *endptr;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   value=strtoull(str, &endptr, 0);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$3;
-  if(endptr == str || !(*return_value___errno_location$2 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_3;
+  if(endptr == str || !(*return_value___errno_location_2 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
-  if(!(value >= min) || !(max >= value) || tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)*endptr != 0 ? (_Bool)1 : (_Bool)0;
+  if(!(value >= min) || !(max >= value) || tmp_if_expr_3)
   {
     if(!(ok == ((_Bool *)NULL)))
       *ok = (_Bool)0;
@@ -18996,18 +18996,18 @@ unsigned long int str2uint64(const char *str, unsigned long int min, unsigned lo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 231
 unsigned long int str2uint64_suffix(const char *str, unsigned long int min, unsigned long int max, struct numeric_suffix *suffixes, unsigned long int num_suffixes, _Bool *ok)
 {
-  double return_value_str2dbl_suffix$1;
-  return_value_str2dbl_suffix$1=str2dbl_suffix(str, (double)min, (double)max, suffixes, num_suffixes, ok);
-  return (unsigned long int)return_value_str2dbl_suffix$1;
+  double return_value_str2dbl_suffix_1;
+  return_value_str2dbl_suffix_1=str2dbl_suffix(str, (double)min, (double)max, suffixes, num_suffixes, ok);
+  return (unsigned long int)return_value_str2dbl_suffix_1;
 }
 
 // str2uint_suffix
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 222
 unsigned int str2uint_suffix(const char *str, unsigned int min, unsigned int max, struct numeric_suffix *suffixes, unsigned long int num_suffixes, _Bool *ok)
 {
-  double return_value_str2dbl_suffix$1;
-  return_value_str2dbl_suffix$1=str2dbl_suffix(str, (double)min, (double)max, suffixes, num_suffixes, ok);
-  return (unsigned int)return_value_str2dbl_suffix$1;
+  double return_value_str2dbl_suffix_1;
+  return_value_str2dbl_suffix_1=str2dbl_suffix(str, (double)min, (double)max, suffixes, num_suffixes, ok);
+  return (unsigned int)return_value_str2dbl_suffix_1;
 }
 
 // str2version
@@ -19017,87 +19017,87 @@ signed int str2version(const char *str, struct bladerf_version *version)
   unsigned long int tmp;
   const char *start = str;
   char *end;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   tmp=strtoul(start, &end, 10);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$3;
-  if(end == start || tmp >= 65536ul || !(*return_value___errno_location$2 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_3;
+  if(end == start || tmp >= 65536ul || !(*return_value___errno_location_2 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)*end != 46 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)*end != 46 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  if(tmp_if_expr_3)
     return -1;
 
   else
   {
     version->major = (unsigned short int)tmp;
     if((signed int)*end == 0)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)end[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)end[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       return -1;
 
     else
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 0;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 0;
       start = &end[(signed long int)1];
       tmp=strtoul(start, &end, 10);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(end == start || tmp >= 65536ul || !(*return_value___errno_location$6 == 0))
-        tmp_if_expr$7 = (_Bool)1;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(end == start || tmp >= 65536ul || !(*return_value___errno_location_6 == 0))
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)*end != 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)*end != 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
         return -1;
 
       else
       {
         version->minor = (unsigned short int)tmp;
         if((signed int)*end == 0)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)end[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (signed int)end[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
           return -1;
 
         else
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          *return_value___errno_location$9 = 0;
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          *return_value___errno_location_9 = 0;
           start = &end[(signed long int)1];
           tmp=strtoul(start, &end, 10);
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          if(end == start || tmp >= 65536ul || !(*return_value___errno_location$10 == 0))
-            tmp_if_expr$12 = (_Bool)1;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          if(end == start || tmp >= 65536ul || !(*return_value___errno_location_10 == 0))
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
             if(!((signed int)*end == 45))
-              tmp_if_expr$11 = (signed int)*end != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_11 = (signed int)*end != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$11 = (_Bool)0;
-            tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_11 = (_Bool)0;
+            tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$12)
+          if(tmp_if_expr_12)
             return -1;
 
           else
@@ -19114,84 +19114,84 @@ signed int str2version(const char *str, struct bladerf_version *version)
 
 // str_to_bladerf_cal_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 637
-enum anonymous$3 str_to_bladerf_cal_module(const char *str)
+enum anonymous_3 str_to_bladerf_cal_module(const char *str)
 {
-  enum anonymous$3 module = (enum anonymous$3)BLADERF_DC_CAL_INVALID;
-  signed int return_value_strcasecmp$10;
-  return_value_strcasecmp$10=strcasecmp(str, "lpf_tuning");
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcasecmp$11;
-  if(return_value_strcasecmp$10 == 0)
-    tmp_if_expr$12 = (_Bool)1;
+  enum anonymous_3 module = (enum anonymous_3)BLADERF_DC_CAL_INVALID;
+  signed int return_value_strcasecmp_10;
+  return_value_strcasecmp_10=strcasecmp(str, "lpf_tuning");
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcasecmp_11;
+  if(return_value_strcasecmp_10 == 0)
+    tmp_if_expr_12 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$11=strcasecmp(str, "lpftuning");
-    tmp_if_expr$12 = !(return_value_strcasecmp$11 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_11=strcasecmp(str, "lpftuning");
+    tmp_if_expr_12 = !(return_value_strcasecmp_11 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcasecmp$13;
-  if(tmp_if_expr$12)
-    tmp_if_expr$14 = (_Bool)1;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcasecmp_13;
+  if(tmp_if_expr_12)
+    tmp_if_expr_14 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$13=strcasecmp(str, "tuning");
-    tmp_if_expr$14 = !(return_value_strcasecmp$13 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_13=strcasecmp(str, "tuning");
+    tmp_if_expr_14 = !(return_value_strcasecmp_13 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcasecmp$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  if(tmp_if_expr$14)
-    module = (enum anonymous$3)BLADERF_DC_CAL_LPF_TUNING;
+  signed int return_value_strcasecmp_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  if(tmp_if_expr_14)
+    module = (enum anonymous_3)BLADERF_DC_CAL_LPF_TUNING;
 
   else
   {
-    return_value_strcasecmp$7=strcasecmp(str, "tx_lpf");
-    if(return_value_strcasecmp$7 == 0)
-      tmp_if_expr$9 = (_Bool)1;
+    return_value_strcasecmp_7=strcasecmp(str, "tx_lpf");
+    if(return_value_strcasecmp_7 == 0)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$8=strcasecmp(str, "txlpf");
-      tmp_if_expr$9 = !(return_value_strcasecmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_8=strcasecmp(str, "txlpf");
+      tmp_if_expr_9 = !(return_value_strcasecmp_8 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
-      module = (enum anonymous$3)BLADERF_DC_CAL_TX_LPF;
+    if(tmp_if_expr_9)
+      module = (enum anonymous_3)BLADERF_DC_CAL_TX_LPF;
 
     else
     {
-      return_value_strcasecmp$4=strcasecmp(str, "rx_lpf");
-      if(return_value_strcasecmp$4 == 0)
-        tmp_if_expr$6 = (_Bool)1;
+      return_value_strcasecmp_4=strcasecmp(str, "rx_lpf");
+      if(return_value_strcasecmp_4 == 0)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$5=strcasecmp(str, "rxlpf");
-        tmp_if_expr$6 = !(return_value_strcasecmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_5=strcasecmp(str, "rxlpf");
+        tmp_if_expr_6 = !(return_value_strcasecmp_5 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
-        module = (enum anonymous$3)BLADERF_DC_CAL_RX_LPF;
+      if(tmp_if_expr_6)
+        module = (enum anonymous_3)BLADERF_DC_CAL_RX_LPF;
 
       else
       {
-        return_value_strcasecmp$1=strcasecmp(str, "rx_vga2");
-        if(return_value_strcasecmp$1 == 0)
-          tmp_if_expr$3 = (_Bool)1;
+        return_value_strcasecmp_1=strcasecmp(str, "rx_vga2");
+        if(return_value_strcasecmp_1 == 0)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_strcasecmp$2=strcasecmp(str, "rxvga2");
-          tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_2=strcasecmp(str, "rxvga2");
+          tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
-          module = (enum anonymous$3)BLADERF_DC_CAL_RXVGA2;
+        if(tmp_if_expr_3)
+          module = (enum anonymous_3)BLADERF_DC_CAL_RXVGA2;
 
       }
     }
@@ -19235,7 +19235,7 @@ static signed int submit_transfer(struct bladerf_stream *stream, void *buffer)
   assert(bytes_per_buffer <= (unsigned long int)0x7fffffff);
   libusb_fill_bulk_transfer(transfer, lusb->handle, ep, (unsigned char *)buffer, (signed int)bytes_per_buffer, lusb_stream_cb, (void *)stream, (unsigned int)stream->dev->transfer_timeout[(signed long int)stream->module]);
   prev_idx = stream_data->i;
-  stream_data->transfer_status[(signed long int)stream_data->i] = (enum anonymous$37)TRANSFER_IN_FLIGHT;
+  stream_data->transfer_status[(signed long int)stream_data->i] = (enum anonymous_37)TRANSFER_IN_FLIGHT;
   stream_data->i = (stream_data->i + (unsigned long int)1) % stream_data->num_transfers;
   /* assertion stream_data->num_avail != 0 */
   assert(stream_data->num_avail != (unsigned long int)0);
@@ -19247,14 +19247,14 @@ static signed int submit_transfer(struct bladerf_stream *stream, void *buffer)
   {
     do
     {
-      const char *return_value_libusb_error_name$1;
-      return_value_libusb_error_name$1=libusb_error_name(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:1089] Failed to submit transfer in %s: %s\n", (const void *)"submit_transfer", return_value_libusb_error_name$1);
+      const char *return_value_libusb_error_name_1;
+      return_value_libusb_error_name_1=libusb_error_name(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ libusb.c:1089] Failed to submit transfer in %s: %s\n", (const void *)"submit_transfer", return_value_libusb_error_name_1);
     }
     while((_Bool)0);
     /* assertion stream_data->transfer_status[prev_idx] == TRANSFER_IN_FLIGHT */
     assert((signed int)stream_data->transfer_status[(signed long int)prev_idx] == TRANSFER_IN_FLIGHT);
-    stream_data->transfer_status[(signed long int)prev_idx] = (enum anonymous$37)TRANSFER_AVAIL;
+    stream_data->transfer_status[(signed long int)prev_idx] = (enum anonymous_37)TRANSFER_AVAIL;
     stream_data->num_avail = stream_data->num_avail + 1ul;
     if(stream_data->i == 0ul)
       stream_data->i = stream_data->num_transfers - (unsigned long int)1;
@@ -19263,9 +19263,9 @@ static signed int submit_transfer(struct bladerf_stream *stream, void *buffer)
       stream_data->i = stream_data->i - 1ul;
   }
 
-  signed int return_value_error_conv$2;
-  return_value_error_conv$2=error_conv(status);
-  return return_value_error_conv$2;
+  signed int return_value_error_conv_2;
+  return_value_error_conv_2=error_conv(status);
+  return return_value_error_conv_2;
 }
 
 // sync_buf2idx
@@ -19303,7 +19303,7 @@ void sync_deinit(struct bladerf_sync *sync)
 
 // sync_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync.h line 152
-signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymous$11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout)
+signed int sync_init(struct bladerf *dev, enum anonymous_0 module, enum anonymous_11 format, unsigned int num_buffers, unsigned int buffer_size, unsigned int num_transfers, unsigned int stream_timeout)
 {
   struct bladerf_sync *sync;
   signed int status = 0;
@@ -19342,9 +19342,9 @@ signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymou
       else
       {
         sync_deinit(dev->sync[(signed long int)module]);
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct bladerf_sync) /*248ul*/ );
-        dev->sync[(signed long int)module] = (struct bladerf_sync *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct bladerf_sync) /*248ul*/ );
+        dev->sync[(signed long int)module] = (struct bladerf_sync *)return_value_calloc_1;
         sync = dev->sync[(signed long int)module];
         if(dev->sync[(signed long int)module] == ((struct bladerf_sync *)NULL))
           return -4;
@@ -19355,12 +19355,12 @@ signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymou
           {
             case BLADERF_MODULE_TX:
             {
-              sync->buf_mgmt.submitter = (enum anonymous$23)SYNC_TX_SUBMITTER_FN;
+              sync->buf_mgmt.submitter = (enum anonymous_23)SYNC_TX_SUBMITTER_FN;
               break;
             }
             case BLADERF_MODULE_RX:
             {
-              sync->buf_mgmt.submitter = (enum anonymous$23)SYNC_TX_SUBMITTER_INVALID;
+              sync->buf_mgmt.submitter = (enum anonymous_23)SYNC_TX_SUBMITTER_INVALID;
               break;
             }
             default:
@@ -19372,7 +19372,7 @@ signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymou
             }
           }
           sync->dev = dev;
-          sync->state = (enum anonymous$20)SYNC_STATE_CHECK_WORKER;
+          sync->state = (enum anonymous_20)SYNC_STATE_CHECK_WORKER;
           sync->buf_mgmt.num_buffers = num_buffers;
           sync->buf_mgmt.resubmit_count = (unsigned int)0;
           sync->stream_config.module = module;
@@ -19381,15 +19381,15 @@ signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymou
           sync->stream_config.num_xfers = num_transfers;
           sync->stream_config.timeout_ms = stream_timeout;
           sync->stream_config.bytes_per_sample = bytes_per_sample;
-          sync->meta.state = (enum anonymous$25)SYNC_META_STATE_HEADER;
+          sync->meta.state = (enum anonymous_25)SYNC_META_STATE_HEADER;
           sync->meta.msg_per_buf=msg_per_buf(dev, (unsigned long int)buffer_size, bytes_per_sample);
           sync->meta.samples_per_msg=samples_per_msg(dev, bytes_per_sample);
-          pthread_mutex_init(&sync->buf_mgmt.lock, (const union anonymous$27 *)(void *)0);
-          pthread_cond_init(&sync->buf_mgmt.buf_ready, (const union anonymous$27 *)(void *)0);
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc((unsigned long int)num_buffers * sizeof(enum anonymous$22) /*4ul*/ );
-          sync->buf_mgmt.status = (enum anonymous$22 *)return_value_malloc$2;
-          if(sync->buf_mgmt.status == ((enum anonymous$22 *)NULL))
+          pthread_mutex_init(&sync->buf_mgmt.lock, (const union anonymous_27 *)(void *)0);
+          pthread_cond_init(&sync->buf_mgmt.buf_ready, (const union anonymous_27 *)(void *)0);
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc((unsigned long int)num_buffers * sizeof(enum anonymous_22) /*4ul*/ );
+          sync->buf_mgmt.status = (enum anonymous_22 *)return_value_malloc_2;
+          if(sync->buf_mgmt.status == ((enum anonymous_22 *)NULL))
             status = -4;
 
           else
@@ -19404,12 +19404,12 @@ signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymou
                 i = (unsigned long int)0;
                 for( ; !(i >= (unsigned long int)num_buffers); i = i + 1ul)
                   if(!(i >= (unsigned long int)num_transfers))
-                    sync->buf_mgmt.status[(signed long int)i] = (enum anonymous$22)SYNC_BUFFER_IN_FLIGHT;
+                    sync->buf_mgmt.status[(signed long int)i] = (enum anonymous_22)SYNC_BUFFER_IN_FLIGHT;
 
                   else
-                    sync->buf_mgmt.status[(signed long int)i] = (enum anonymous$22)SYNC_BUFFER_EMPTY;
-                sync->meta.$anon0.$anon0.msg_timestamp = (unsigned long int)0;
-                sync->meta.$anon0.$anon0.msg_flags = (unsigned int)0;
+                    sync->buf_mgmt.status[(signed long int)i] = (enum anonymous_22)SYNC_BUFFER_EMPTY;
+                sync->meta._anon0._anon0.msg_timestamp = (unsigned long int)0;
+                sync->meta._anon0._anon0.msg_flags = (unsigned int)0;
                 break;
               }
               case BLADERF_MODULE_TX:
@@ -19419,9 +19419,9 @@ signed int sync_init(struct bladerf *dev, enum anonymous$0 module, enum anonymou
                 sync->buf_mgmt.partial_off = (unsigned int)0;
                 i = (unsigned long int)0;
                 for( ; !(i >= (unsigned long int)num_buffers); i = i + 1ul)
-                  sync->buf_mgmt.status[(signed long int)i] = (enum anonymous$22)SYNC_BUFFER_EMPTY;
-                sync->meta.$anon0.$anon1.in_burst = (_Bool)0;
-                sync->meta.$anon0.$anon1.now = (_Bool)0;
+                  sync->buf_mgmt.status[(signed long int)i] = (enum anonymous_22)SYNC_BUFFER_EMPTY;
+                sync->meta._anon0._anon1.in_burst = (_Bool)0;
+                sync->meta._anon0._anon1.now = (_Bool)0;
                 break;
               }
               default:
@@ -19485,15 +19485,15 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
   b = &s->buf_mgmt;
   samples_per_buffer = s->stream_config.samples_per_buffer;
   signed int stream_error;
-  enum anonymous$24 worker_state;
-  unsigned long int return_value_samples2bytes$1;
-  unsigned long int return_value_samples2bytes$2;
-  unsigned long int return_value_samples2bytes$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$12;
-  unsigned int return_value_left_in_msg$11;
+  enum anonymous_24 worker_state;
+  unsigned long int return_value_samples2bytes_1;
+  unsigned long int return_value_samples2bytes_2;
+  unsigned long int return_value_samples2bytes_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_12;
+  unsigned int return_value_left_in_msg_11;
   while(exit_early == (_Bool)0 && status == 0 && !(samples_returned >= num_samples))
     switch((signed int)s->state)
     {
@@ -19509,12 +19509,12 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
             do
               log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:324] %s: Worker is idle. Going to reset buf mgmt.\n", (const void *)"sync_rx");
             while((_Bool)0);
-            s->state = (enum anonymous$20)SYNC_STATE_RESET_BUF_MGMT;
+            s->state = (enum anonymous_20)SYNC_STATE_RESET_BUF_MGMT;
           }
 
           else
             if((signed int)worker_state == SYNC_WORKER_STATE_RUNNING)
-              s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
+              s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
 
             else
             {
@@ -19533,16 +19533,16 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
         do
           log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:344] %s: Reset buf_mgmt consumer index\n", (const void *)"sync_rx");
         while((_Bool)0);
-        s->state = (enum anonymous$20)SYNC_STATE_START_WORKER;
+        s->state = (enum anonymous_20)SYNC_STATE_START_WORKER;
         break;
       }
       case SYNC_STATE_START_WORKER:
       {
         sync_worker_submit_request(s->worker, (unsigned int)(1 << 0));
-        status=sync_worker_wait_for_state(s->worker, (enum anonymous$24)SYNC_WORKER_STATE_RUNNING, (unsigned int)250);
+        status=sync_worker_wait_for_state(s->worker, (enum anonymous_24)SYNC_WORKER_STATE_RUNNING, (unsigned int)250);
         if(status == 0)
         {
-          s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
+          s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
           do
             log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:359] %s: Worker is now running.\n", (const void *)"sync_rx");
           while((_Bool)0);
@@ -19558,7 +19558,7 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
       {
         pthread_mutex_lock(&b->lock);
         if((signed int)b->status[(signed long int)b->cons_i] == SYNC_BUFFER_FULL)
-          s->state = (enum anonymous$20)SYNC_STATE_BUFFER_READY;
+          s->state = (enum anonymous_20)SYNC_STATE_BUFFER_READY;
 
         else
         {
@@ -19566,10 +19566,10 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
           if(status == 0)
           {
             if(!((signed int)b->status[(signed long int)b->cons_i] == SYNC_BUFFER_FULL))
-              s->state = (enum anonymous$20)SYNC_STATE_CHECK_WORKER;
+              s->state = (enum anonymous_20)SYNC_STATE_CHECK_WORKER;
 
             else
-              s->state = (enum anonymous$20)SYNC_STATE_BUFFER_READY;
+              s->state = (enum anonymous_20)SYNC_STATE_BUFFER_READY;
           }
 
         }
@@ -19579,18 +19579,18 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
       case SYNC_STATE_BUFFER_READY:
       {
         pthread_mutex_lock(&b->lock);
-        b->status[(signed long int)b->cons_i] = (enum anonymous$22)SYNC_BUFFER_PARTIAL;
+        b->status[(signed long int)b->cons_i] = (enum anonymous_22)SYNC_BUFFER_PARTIAL;
         b->partial_off = (unsigned int)0;
         switch((signed int)s->stream_config.format)
         {
           case BLADERF_FORMAT_SC16_Q11:
           {
-            s->state = (enum anonymous$20)SYNC_STATE_USING_BUFFER;
+            s->state = (enum anonymous_20)SYNC_STATE_USING_BUFFER;
             break;
           }
           case BLADERF_FORMAT_SC16_Q11_META:
           {
-            s->state = (enum anonymous$20)SYNC_STATE_USING_BUFFER_META;
+            s->state = (enum anonymous_20)SYNC_STATE_USING_BUFFER_META;
             s->meta.curr_msg_off = (unsigned long int)0;
             s->meta.msg_num = (unsigned int)0;
             break;
@@ -19610,10 +19610,10 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
         pthread_mutex_lock(&b->lock);
         buf_src = (unsigned char *)b->buffers[(signed long int)b->cons_i];
         samples_to_copy=uint_min(num_samples - samples_returned, samples_per_buffer - b->partial_off);
-        return_value_samples2bytes$1=samples2bytes(s, (unsigned long int)samples_returned);
-        return_value_samples2bytes$2=samples2bytes(s, (unsigned long int)b->partial_off);
-        return_value_samples2bytes$3=samples2bytes(s, (unsigned long int)samples_to_copy);
-        memcpy((void *)(samples_dest + (signed long int)return_value_samples2bytes$1), (const void *)(buf_src + (signed long int)return_value_samples2bytes$2), return_value_samples2bytes$3);
+        return_value_samples2bytes_1=samples2bytes(s, (unsigned long int)samples_returned);
+        return_value_samples2bytes_2=samples2bytes(s, (unsigned long int)b->partial_off);
+        return_value_samples2bytes_3=samples2bytes(s, (unsigned long int)samples_to_copy);
+        memcpy((void *)(samples_dest + (signed long int)return_value_samples2bytes_1), (const void *)(buf_src + (signed long int)return_value_samples2bytes_2), return_value_samples2bytes_3);
         b->partial_off = b->partial_off + samples_to_copy;
         samples_returned = samples_returned + samples_to_copy;
         if(b->partial_off >= samples_per_buffer)
@@ -19621,7 +19621,7 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
           /* assertion b->partial_off == samples_per_buffer */
           assert(b->partial_off == samples_per_buffer);
           advance_rx_buffer(b);
-          s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
+          s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
         }
 
         pthread_mutex_unlock(&b->lock);
@@ -19638,40 +19638,40 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
             assert(s->meta.msg_num < s->meta.msg_per_buf);
             buf_src = (unsigned char *)b->buffers[(signed long int)b->cons_i];
             s->meta.curr_msg = buf_src + (signed long int)(dev->msg_size * (unsigned long int)s->meta.msg_num);
-            s->meta.$anon0.$anon0.msg_timestamp=metadata_get_timestamp(s->meta.curr_msg);
-            s->meta.$anon0.$anon0.msg_flags=metadata_get_flags(s->meta.curr_msg);
+            s->meta._anon0._anon0.msg_timestamp=metadata_get_timestamp(s->meta.curr_msg);
+            s->meta._anon0._anon0.msg_flags=metadata_get_flags(s->meta.curr_msg);
             s->meta.curr_msg_off = (unsigned long int)0;
             if(!(copied_data == (_Bool)0))
-              tmp_if_expr$4 = s->meta.$anon0.$anon0.msg_timestamp != s->meta.curr_timestamp ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = s->meta._anon0._anon0.msg_timestamp != s->meta.curr_timestamp ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
             {
               user_meta->status = user_meta->status | (unsigned int)(1 << 0);
               exit_early = (_Bool)1;
               do
-                log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:483] Sample discontinuity detected @ buffer %u, message %u: Expected t=%llu, got t=%llu\n", b->cons_i, s->meta.msg_num, (unsigned long long int)s->meta.curr_timestamp, (unsigned long long int)s->meta.$anon0.$anon0.msg_timestamp);
+                log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:483] Sample discontinuity detected @ buffer %u, message %u: Expected t=%llu, got t=%llu\n", b->cons_i, s->meta.msg_num, (unsigned long long int)s->meta.curr_timestamp, (unsigned long long int)s->meta._anon0._anon0.msg_timestamp);
               while((_Bool)0);
             }
 
-            s->meta.curr_timestamp = s->meta.$anon0.$anon0.msg_timestamp;
-            s->meta.state = (enum anonymous$25)SYNC_META_STATE_SAMPLES;
+            s->meta.curr_timestamp = s->meta._anon0._anon0.msg_timestamp;
+            s->meta.state = (enum anonymous_25)SYNC_META_STATE_SAMPLES;
             break;
           }
           case SYNC_META_STATE_SAMPLES:
           {
             if(copied_data == (_Bool)0)
-              tmp_if_expr$13 = (user_meta->flags & (unsigned int)(1 << 31)) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_13 = (user_meta->flags & (unsigned int)(1 << 31)) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$13 = (_Bool)0;
-            if(tmp_if_expr$13)
-              tmp_if_expr$14 = target_timestamp < s->meta.curr_timestamp ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_13 = (_Bool)0;
+            if(tmp_if_expr_13)
+              tmp_if_expr_14 = target_timestamp < s->meta.curr_timestamp ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$14 = (_Bool)0;
-            if(tmp_if_expr$14)
+              tmp_if_expr_14 = (_Bool)0;
+            if(tmp_if_expr_14)
             {
               do
                 log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:506] Current timestamp is %llu, target=%llu (user=%llu)\n", (unsigned long long int)s->meta.curr_timestamp, (unsigned long long int)target_timestamp, (unsigned long long int)user_meta->timestamp);
@@ -19682,22 +19682,22 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
             else
             {
               if(!((2147483648u & user_meta->flags) == 0u))
-                tmp_if_expr$12 = (_Bool)1;
+                tmp_if_expr_12 = (_Bool)1;
 
               else
-                tmp_if_expr$12 = target_timestamp == s->meta.curr_timestamp ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$12)
+                tmp_if_expr_12 = target_timestamp == s->meta.curr_timestamp ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_12)
               {
-                unsigned int return_value_left_in_msg$5;
-                return_value_left_in_msg$5=left_in_msg(s);
-                samples_to_copy=uint_min(num_samples - samples_returned, return_value_left_in_msg$5);
-                unsigned long int return_value_samples2bytes$6;
-                return_value_samples2bytes$6=samples2bytes(s, (unsigned long int)samples_returned);
-                unsigned long int return_value_samples2bytes$7;
-                return_value_samples2bytes$7=samples2bytes(s, s->meta.curr_msg_off);
-                unsigned long int return_value_samples2bytes$8;
-                return_value_samples2bytes$8=samples2bytes(s, (unsigned long int)samples_to_copy);
-                memcpy((void *)(samples_dest + (signed long int)return_value_samples2bytes$6), (const void *)(s->meta.curr_msg + (signed long int)(sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/ ) + (signed long int)return_value_samples2bytes$7), return_value_samples2bytes$8);
+                unsigned int return_value_left_in_msg_5;
+                return_value_left_in_msg_5=left_in_msg(s);
+                samples_to_copy=uint_min(num_samples - samples_returned, return_value_left_in_msg_5);
+                unsigned long int return_value_samples2bytes_6;
+                return_value_samples2bytes_6=samples2bytes(s, (unsigned long int)samples_returned);
+                unsigned long int return_value_samples2bytes_7;
+                return_value_samples2bytes_7=samples2bytes(s, s->meta.curr_msg_off);
+                unsigned long int return_value_samples2bytes_8;
+                return_value_samples2bytes_8=samples2bytes(s, (unsigned long int)samples_to_copy);
+                memcpy((void *)(samples_dest + (signed long int)return_value_samples2bytes_6), (const void *)(s->meta.curr_msg + (signed long int)(sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/ ) + (signed long int)return_value_samples2bytes_7), return_value_samples2bytes_8);
                 samples_returned = samples_returned + samples_to_copy;
                 s->meta.curr_msg_off = s->meta.curr_msg_off + (unsigned long int)samples_to_copy;
                 if(copied_data == (_Bool)0)
@@ -19710,13 +19710,13 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
                 copied_data = (_Bool)1;
                 s->meta.curr_timestamp = s->meta.curr_timestamp + (unsigned long int)samples_to_copy;
                 target_timestamp = s->meta.curr_timestamp;
-                unsigned int return_value_left_in_msg$9;
-                return_value_left_in_msg$9=left_in_msg(s);
-                if(return_value_left_in_msg$9 == 0u)
+                unsigned int return_value_left_in_msg_9;
+                return_value_left_in_msg_9=left_in_msg(s);
+                if(return_value_left_in_msg_9 == 0u)
                 {
                   /* assertion s->meta.curr_msg_off == s->meta.samples_per_msg */
                   assert(s->meta.curr_msg_off == (unsigned long int)s->meta.samples_per_msg);
-                  s->meta.state = (enum anonymous$25)SYNC_META_STATE_HEADER;
+                  s->meta.state = (enum anonymous_25)SYNC_META_STATE_HEADER;
                   s->meta.msg_num = s->meta.msg_num + 1u;
                   if(s->meta.msg_num >= s->meta.msg_per_buf)
                   {
@@ -19724,7 +19724,7 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
                     assert(s->meta.msg_num == s->meta.msg_per_buf);
                     advance_rx_buffer(b);
                     s->meta.msg_num = (unsigned int)0;
-                    s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
+                    s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
                   }
 
                 }
@@ -19739,14 +19739,14 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
                 if(time_delta >= left_in_buffer)
                 {
                   advance_rx_buffer(b);
-                  s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
-                  s->meta.state = (enum anonymous$25)SYNC_META_STATE_HEADER;
+                  s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
+                  s->meta.state = (enum anonymous_25)SYNC_META_STATE_HEADER;
                 }
 
                 else
                 {
-                  return_value_left_in_msg$11=left_in_msg(s);
-                  if((unsigned long int)return_value_left_in_msg$11 >= time_delta)
+                  return_value_left_in_msg_11=left_in_msg(s);
+                  if((unsigned long int)return_value_left_in_msg_11 >= time_delta)
                   {
                     /* assertion time_delta <= (18446744073709551615UL) */
                     assert(time_delta <= 18446744073709551615UL);
@@ -19756,10 +19756,10 @@ signed int sync_rx(struct bladerf *dev, void *samples, unsigned int num_samples,
 
                   else
                   {
-                    s->meta.state = (enum anonymous$25)SYNC_META_STATE_HEADER;
-                    unsigned int return_value_timestamp_to_msg$10;
-                    return_value_timestamp_to_msg$10=timestamp_to_msg(s, time_delta);
-                    s->meta.msg_num = s->meta.msg_num + return_value_timestamp_to_msg$10;
+                    s->meta.state = (enum anonymous_25)SYNC_META_STATE_HEADER;
+                    unsigned int return_value_timestamp_to_msg_10;
+                    return_value_timestamp_to_msg_10=timestamp_to_msg(s, time_delta);
+                    s->meta.msg_num = s->meta.msg_num + return_value_timestamp_to_msg_10;
                   }
                 }
               }
@@ -19796,15 +19796,15 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
   unsigned char *buf_dest = (unsigned char *)(void *)0;
   struct tx_options op = { .flush=(_Bool)0, .zero_pad=(_Bool)0 };
   signed int stream_error;
-  enum anonymous$24 worker_state;
-  unsigned long int return_value_samples2bytes$1;
-  unsigned long int return_value_samples2bytes$2;
-  unsigned long int return_value_samples2bytes$3;
-  _Bool tmp_if_expr$9;
-  unsigned int return_value_left_in_msg$8;
-  unsigned int return_value_left_in_msg$10;
-  unsigned int return_value_left_in_msg$16;
-  unsigned int return_value_left_in_msg$17;
+  enum anonymous_24 worker_state;
+  unsigned long int return_value_samples2bytes_1;
+  unsigned long int return_value_samples2bytes_2;
+  unsigned long int return_value_samples2bytes_3;
+  _Bool tmp_if_expr_9;
+  unsigned int return_value_left_in_msg_8;
+  unsigned int return_value_left_in_msg_10;
+  unsigned int return_value_left_in_msg_16;
+  unsigned int return_value_left_in_msg_17;
   if(samples == NULL || s == ((struct bladerf_sync *)NULL))
     return -3;
 
@@ -19829,10 +19829,10 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
 
             else
               if((signed int)worker_state == SYNC_WORKER_STATE_IDLE)
-                s->state = (enum anonymous$20)SYNC_STATE_START_WORKER;
+                s->state = (enum anonymous_20)SYNC_STATE_START_WORKER;
 
               else
-                s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
+                s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
             break;
           }
           case SYNC_STATE_RESET_BUF_MGMT:
@@ -19844,10 +19844,10 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
           case SYNC_STATE_START_WORKER:
           {
             sync_worker_submit_request(s->worker, (unsigned int)(1 << 0));
-            status=sync_worker_wait_for_state(s->worker, (enum anonymous$24)SYNC_WORKER_STATE_RUNNING, (unsigned int)250);
+            status=sync_worker_wait_for_state(s->worker, (enum anonymous_24)SYNC_WORKER_STATE_RUNNING, (unsigned int)250);
             if(status == 0)
             {
-              s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
+              s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
               do
                 log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync.c:838] %s: Worker is now running.\n", (const void *)"sync_tx");
               while((_Bool)0);
@@ -19859,7 +19859,7 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
           {
             pthread_mutex_lock(&b->lock);
             if((signed int)b->status[(signed long int)b->prod_i] == SYNC_BUFFER_EMPTY)
-              s->state = (enum anonymous$20)SYNC_STATE_BUFFER_READY;
+              s->state = (enum anonymous_20)SYNC_STATE_BUFFER_READY;
 
             else
               status=wait_for_buffer(b, timeout_ms, "sync_tx", b->prod_i);
@@ -19869,18 +19869,18 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
           case SYNC_STATE_BUFFER_READY:
           {
             pthread_mutex_lock(&b->lock);
-            b->status[(signed long int)b->prod_i] = (enum anonymous$22)SYNC_BUFFER_PARTIAL;
+            b->status[(signed long int)b->prod_i] = (enum anonymous_22)SYNC_BUFFER_PARTIAL;
             b->partial_off = (unsigned int)0;
             switch((signed int)s->stream_config.format)
             {
               case BLADERF_FORMAT_SC16_Q11:
               {
-                s->state = (enum anonymous$20)SYNC_STATE_USING_BUFFER;
+                s->state = (enum anonymous_20)SYNC_STATE_USING_BUFFER;
                 break;
               }
               case BLADERF_FORMAT_SC16_Q11_META:
               {
-                s->state = (enum anonymous$20)SYNC_STATE_USING_BUFFER_META;
+                s->state = (enum anonymous_20)SYNC_STATE_USING_BUFFER_META;
                 s->meta.curr_msg_off = (unsigned long int)0;
                 s->meta.msg_num = (unsigned int)0;
                 break;
@@ -19900,10 +19900,10 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
             pthread_mutex_lock(&b->lock);
             buf_dest = (unsigned char *)b->buffers[(signed long int)b->prod_i];
             samples_to_copy=uint_min(num_samples - samples_written, samples_per_buffer - b->partial_off);
-            return_value_samples2bytes$1=samples2bytes(s, (unsigned long int)b->partial_off);
-            return_value_samples2bytes$2=samples2bytes(s, (unsigned long int)samples_written);
-            return_value_samples2bytes$3=samples2bytes(s, (unsigned long int)samples_to_copy);
-            memcpy((void *)(buf_dest + (signed long int)return_value_samples2bytes$1), (const void *)(samples_src + (signed long int)return_value_samples2bytes$2), return_value_samples2bytes$3);
+            return_value_samples2bytes_1=samples2bytes(s, (unsigned long int)b->partial_off);
+            return_value_samples2bytes_2=samples2bytes(s, (unsigned long int)samples_written);
+            return_value_samples2bytes_3=samples2bytes(s, (unsigned long int)samples_to_copy);
+            memcpy((void *)(buf_dest + (signed long int)return_value_samples2bytes_1), (const void *)(samples_src + (signed long int)return_value_samples2bytes_2), return_value_samples2bytes_3);
             b->partial_off = b->partial_off + samples_to_copy;
             samples_written = samples_written + samples_to_copy;
             if(b->partial_off >= samples_per_buffer)
@@ -19926,12 +19926,12 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
                 buf_dest = (unsigned char *)b->buffers[(signed long int)b->prod_i];
                 s->meta.curr_msg = buf_dest + (signed long int)(dev->msg_size * (unsigned long int)s->meta.msg_num);
                 s->meta.curr_msg_off = (unsigned long int)0;
-                if(!(s->meta.$anon0.$anon1.now == (_Bool)0))
+                if(!(s->meta._anon0._anon1.now == (_Bool)0))
                   metadata_set(s->meta.curr_msg, (unsigned long int)0, (unsigned int)0);
 
                 else
                   metadata_set(s->meta.curr_msg, s->meta.curr_timestamp, (unsigned int)0);
-                s->meta.state = (enum anonymous$25)SYNC_META_STATE_SAMPLES;
+                s->meta.state = (enum anonymous_25)SYNC_META_STATE_SAMPLES;
                 break;
               }
               case SYNC_META_STATE_SAMPLES:
@@ -19940,32 +19940,32 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
                 {
                   const unsigned long int delta = user_meta->timestamp - s->meta.curr_timestamp;
                   unsigned long int to_zero;
-                  unsigned int return_value_left_in_msg$5;
-                  return_value_left_in_msg$5=left_in_msg(s);
-                  if(!(delta >= (unsigned long int)return_value_left_in_msg$5))
+                  unsigned int return_value_left_in_msg_5;
+                  return_value_left_in_msg_5=left_in_msg(s);
+                  if(!(delta >= (unsigned long int)return_value_left_in_msg_5))
                     to_zero = (unsigned long int)delta;
 
                   else
                   {
-                    unsigned int return_value_left_in_msg$4;
-                    return_value_left_in_msg$4=left_in_msg(s);
-                    to_zero = (unsigned long int)return_value_left_in_msg$4;
+                    unsigned int return_value_left_in_msg_4;
+                    return_value_left_in_msg_4=left_in_msg(s);
+                    to_zero = (unsigned long int)return_value_left_in_msg_4;
                   }
-                  unsigned long int return_value_samples2bytes$6;
-                  return_value_samples2bytes$6=samples2bytes(s, s->meta.curr_msg_off);
-                  unsigned long int return_value_samples2bytes$7;
-                  return_value_samples2bytes$7=samples2bytes(s, to_zero);
-                  memset((void *)(s->meta.curr_msg + (signed long int)(sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/ ) + (signed long int)return_value_samples2bytes$6), 0, return_value_samples2bytes$7);
+                  unsigned long int return_value_samples2bytes_6;
+                  return_value_samples2bytes_6=samples2bytes(s, s->meta.curr_msg_off);
+                  unsigned long int return_value_samples2bytes_7;
+                  return_value_samples2bytes_7=samples2bytes(s, to_zero);
+                  memset((void *)(s->meta.curr_msg + (signed long int)(sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/ ) + (signed long int)return_value_samples2bytes_6), 0, return_value_samples2bytes_7);
                   s->meta.curr_msg_off = s->meta.curr_msg_off + to_zero;
                   if(!(to_zero >= 3ul))
                   {
-                    return_value_left_in_msg$8=left_in_msg(s);
-                    tmp_if_expr$9 = return_value_left_in_msg$8 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                    return_value_left_in_msg_8=left_in_msg(s);
+                    tmp_if_expr_9 = return_value_left_in_msg_8 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$9 = (_Bool)0;
-                  if(tmp_if_expr$9)
+                    tmp_if_expr_9 = (_Bool)0;
+                  if(tmp_if_expr_9)
                     s->meta.curr_timestamp = s->meta.curr_timestamp + to_zero;
 
                   else
@@ -19975,49 +19975,49 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
                   }
                 }
 
-                return_value_left_in_msg$10=left_in_msg(s);
-                samples_to_copy=uint_min(num_samples - samples_written, return_value_left_in_msg$10);
+                return_value_left_in_msg_10=left_in_msg(s);
+                samples_to_copy=uint_min(num_samples - samples_written, return_value_left_in_msg_10);
                 if(!(samples_to_copy == 0u))
                 {
-                  unsigned long int return_value_samples2bytes$11;
-                  return_value_samples2bytes$11=samples2bytes(s, s->meta.curr_msg_off);
-                  unsigned long int return_value_samples2bytes$12;
-                  return_value_samples2bytes$12=samples2bytes(s, (unsigned long int)samples_written);
-                  unsigned long int return_value_samples2bytes$13;
-                  return_value_samples2bytes$13=samples2bytes(s, (unsigned long int)samples_to_copy);
-                  memcpy((void *)(s->meta.curr_msg + (signed long int)(sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/ ) + (signed long int)return_value_samples2bytes$11), (const void *)(samples_src + (signed long int)return_value_samples2bytes$12), return_value_samples2bytes$13);
+                  unsigned long int return_value_samples2bytes_11;
+                  return_value_samples2bytes_11=samples2bytes(s, s->meta.curr_msg_off);
+                  unsigned long int return_value_samples2bytes_12;
+                  return_value_samples2bytes_12=samples2bytes(s, (unsigned long int)samples_written);
+                  unsigned long int return_value_samples2bytes_13;
+                  return_value_samples2bytes_13=samples2bytes(s, (unsigned long int)samples_to_copy);
+                  memcpy((void *)(s->meta.curr_msg + (signed long int)(sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/ ) + (signed long int)return_value_samples2bytes_11), (const void *)(samples_src + (signed long int)return_value_samples2bytes_12), return_value_samples2bytes_13);
                   s->meta.curr_msg_off = s->meta.curr_msg_off + (unsigned long int)samples_to_copy;
                   s->meta.curr_timestamp = s->meta.curr_timestamp + (unsigned long int)samples_to_copy;
                   samples_written = samples_written + samples_to_copy;
                 }
 
-                return_value_left_in_msg$16=left_in_msg(s);
-                if(!(return_value_left_in_msg$16 == 0u))
+                return_value_left_in_msg_16=left_in_msg(s);
+                if(!(return_value_left_in_msg_16 == 0u))
                 {
                   if(!(op.flush == (_Bool)0))
                   {
-                    unsigned int sync_tx$$1$$3$$1$$7$$5$$to_zero;
-                    sync_tx$$1$$3$$1$$7$$5$$to_zero=left_in_msg(s);
+                    unsigned int sync_tx__1__3__1__7__5__to_zero;
+                    sync_tx__1__3__1__7__5__to_zero=left_in_msg(s);
                     unsigned long int off;
-                    unsigned long int return_value_samples2bytes$14;
-                    return_value_samples2bytes$14=samples2bytes(s, s->meta.curr_msg_off);
-                    off = sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/  + return_value_samples2bytes$14;
+                    unsigned long int return_value_samples2bytes_14;
+                    return_value_samples2bytes_14=samples2bytes(s, s->meta.curr_msg_off);
+                    off = sizeof(unsigned int) /*4ul*/  + sizeof(unsigned long int) /*8ul*/  + sizeof(unsigned int) /*4ul*/  + return_value_samples2bytes_14;
                     /* assertion num_samples == samples_written */
                     assert(num_samples == samples_written);
-                    unsigned long int return_value_samples2bytes$15;
-                    return_value_samples2bytes$15=samples2bytes(s, (unsigned long int)sync_tx$$1$$3$$1$$7$$5$$to_zero);
-                    memset((void *)(s->meta.curr_msg + (signed long int)off), 0, return_value_samples2bytes$15);
-                    s->meta.curr_msg_off = s->meta.curr_msg_off + (unsigned long int)sync_tx$$1$$3$$1$$7$$5$$to_zero;
-                    s->meta.curr_timestamp = s->meta.curr_timestamp + (unsigned long int)sync_tx$$1$$3$$1$$7$$5$$to_zero;
+                    unsigned long int return_value_samples2bytes_15;
+                    return_value_samples2bytes_15=samples2bytes(s, (unsigned long int)sync_tx__1__3__1__7__5__to_zero);
+                    memset((void *)(s->meta.curr_msg + (signed long int)off), 0, return_value_samples2bytes_15);
+                    s->meta.curr_msg_off = s->meta.curr_msg_off + (unsigned long int)sync_tx__1__3__1__7__5__to_zero;
+                    s->meta.curr_timestamp = s->meta.curr_timestamp + (unsigned long int)sync_tx__1__3__1__7__5__to_zero;
                   }
 
                 }
 
-                return_value_left_in_msg$17=left_in_msg(s);
-                if(return_value_left_in_msg$17 == 0u)
+                return_value_left_in_msg_17=left_in_msg(s);
+                if(return_value_left_in_msg_17 == 0u)
                 {
                   s->meta.msg_num = s->meta.msg_num + 1u;
-                  s->meta.state = (enum anonymous$25)SYNC_META_STATE_HEADER;
+                  s->meta.state = (enum anonymous_25)SYNC_META_STATE_HEADER;
                 }
 
                 if(s->meta.msg_num >= s->meta.msg_per_buf)
@@ -20026,7 +20026,7 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
                   assert(s->meta.msg_num == s->meta.msg_per_buf);
                   status=advance_tx_buffer(s, b);
                   s->meta.msg_num = (unsigned int)0;
-                  s->state = (enum anonymous$20)SYNC_STATE_WAIT_FOR_BUFFER;
+                  s->state = (enum anonymous_20)SYNC_STATE_WAIT_FOR_BUFFER;
                   op.flush = op.flush != (_Bool)0 && samples_written != num_samples;
                 }
 
@@ -20046,8 +20046,8 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
       {
         if(!((2u & user_meta->flags) == 0u))
         {
-          s->meta.$anon0.$anon1.in_burst = (_Bool)0;
-          s->meta.$anon0.$anon1.now = (_Bool)0;
+          s->meta._anon0._anon1.in_burst = (_Bool)0;
+          s->meta._anon0._anon1.now = (_Bool)0;
         }
 
       }
@@ -20059,7 +20059,7 @@ signed int sync_tx(struct bladerf *dev, void *samples, unsigned int num_samples,
 
 // sync_worker_deinit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 91
-void sync_worker_deinit(struct sync_worker *w, union anonymous$6 *lock, union anonymous$19 *cond)
+void sync_worker_deinit(struct sync_worker *w, union anonymous_6 *lock, union anonymous_19 *cond)
 {
   signed int status;
   if(w == ((struct sync_worker *)NULL))
@@ -20070,14 +20070,14 @@ void sync_worker_deinit(struct sync_worker *w, union anonymous$6 *lock, union an
   else
   {
     sync_worker_submit_request(w, (unsigned int)(1 << 1));
-    if(!(cond == ((union anonymous$19 *)NULL)) && !(lock == ((union anonymous$6 *)NULL)))
+    if(!(cond == ((union anonymous_19 *)NULL)) && !(lock == ((union anonymous_6 *)NULL)))
     {
       pthread_mutex_lock(lock);
       pthread_cond_signal(cond);
       pthread_mutex_unlock(lock);
     }
 
-    status=sync_worker_wait_for_state(w, (enum anonymous$24)SYNC_WORKER_STATE_STOPPED, (unsigned int)3000);
+    status=sync_worker_wait_for_state(w, (enum anonymous_24)SYNC_WORKER_STATE_STOPPED, (unsigned int)3000);
     if(!(status == 0))
     {
       do
@@ -20094,9 +20094,9 @@ void sync_worker_deinit(struct sync_worker *w, union anonymous$6 *lock, union an
 
 // sync_worker_get_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 119
-enum anonymous$24 sync_worker_get_state(struct sync_worker *w, signed int *err_code)
+enum anonymous_24 sync_worker_get_state(struct sync_worker *w, signed int *err_code)
 {
-  enum anonymous$24 ret;
+  enum anonymous_24 ret;
   pthread_mutex_lock(&w->state_lock);
   ret = w->state;
   if(!(err_code == ((signed int *)NULL)))
@@ -20114,40 +20114,40 @@ enum anonymous$24 sync_worker_get_state(struct sync_worker *w, signed int *err_c
 signed int sync_worker_init(struct bladerf_sync *s)
 {
   signed int status = 0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct sync_worker) /*216ul*/ );
-  s->worker = (struct sync_worker *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct sync_worker) /*216ul*/ );
+  s->worker = (struct sync_worker *)return_value_calloc_1;
   if(s->worker == ((struct sync_worker *)NULL))
     status = -4;
 
   else
   {
-    s->worker->state = (enum anonymous$24)SYNC_WORKER_STATE_STARTUP;
+    s->worker->state = (enum anonymous_24)SYNC_WORKER_STATE_STARTUP;
     s->worker->err_code = 0;
     s->worker->cb = (signed int)s->stream_config.module == BLADERF_MODULE_RX ? rx_callback : tx_callback;
     status=async_init_stream(&s->worker->stream, s->dev, s->worker->cb, &s->buf_mgmt.buffers, (unsigned long int)s->buf_mgmt.num_buffers, s->stream_config.format, (unsigned long int)s->stream_config.samples_per_buffer, (unsigned long int)s->stream_config.num_xfers, (void *)s);
     if(!(status == 0))
       do
       {
-        const char *return_value_module2str$2;
-        return_value_module2str$2=module2str(s->stream_config.module);
-        const char *return_value_bladerf_strerror$3;
-        return_value_bladerf_strerror$3=bladerf_strerror(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync_worker.c:212] %s worker: Failed to init stream: %s\n", return_value_module2str$2, return_value_bladerf_strerror$3);
+        const char *return_value_module2str_2;
+        return_value_module2str_2=module2str(s->stream_config.module);
+        const char *return_value_bladerf_strerror_3;
+        return_value_bladerf_strerror_3=bladerf_strerror(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync_worker.c:212] %s worker: Failed to init stream: %s\n", return_value_module2str_2, return_value_bladerf_strerror_3);
       }
       while((_Bool)0);
 
     else
     {
-      pthread_mutex_init(&s->worker->state_lock, (const union anonymous$27 *)(void *)0);
-      pthread_mutex_init(&s->worker->request_lock, (const union anonymous$27 *)(void *)0);
-      status=pthread_cond_init(&s->worker->state_changed, (const union anonymous$27 *)(void *)0);
+      pthread_mutex_init(&s->worker->state_lock, (const union anonymous_27 *)(void *)0);
+      pthread_mutex_init(&s->worker->request_lock, (const union anonymous_27 *)(void *)0);
+      status=pthread_cond_init(&s->worker->state_changed, (const union anonymous_27 *)(void *)0);
       if(!(status == 0))
         status = -1;
 
       else
       {
-        status=pthread_cond_init(&s->worker->requests_pending, (const union anonymous$27 *)(void *)0);
+        status=pthread_cond_init(&s->worker->requests_pending, (const union anonymous_27 *)(void *)0);
         if(!(status == 0))
           status = -1;
 
@@ -20159,7 +20159,7 @@ signed int sync_worker_init(struct bladerf_sync *s)
 
           else
           {
-            status=sync_worker_wait_for_state(s->worker, (enum anonymous$24)SYNC_WORKER_STATE_IDLE, (unsigned int)1000);
+            status=sync_worker_wait_for_state(s->worker, (enum anonymous_24)SYNC_WORKER_STATE_IDLE, (unsigned int)1000);
             if(!(status == 0))
               status = -6;
 
@@ -20194,7 +20194,7 @@ void sync_worker_submit_request(struct sync_worker *w, unsigned int request)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.c line 466
 void * sync_worker_task(void *arg)
 {
-  enum anonymous$24 state = (enum anonymous$24)SYNC_WORKER_STATE_IDLE;
+  enum anonymous_24 state = (enum anonymous_24)SYNC_WORKER_STATE_IDLE;
   struct bladerf_sync *s = (struct bladerf_sync *)arg;
   set_state(s->worker, state);
   while(!((signed int)state == SYNC_WORKER_STATE_STOPPED))
@@ -20204,7 +20204,7 @@ void * sync_worker_task(void *arg)
       {
         /* assertion !"Worker in unexpected state, shutting down. (STARTUP)" */
         assert(!((_Bool)"Worker in unexpected state, shutting down. (STARTUP)"));
-        set_state(s->worker, (enum anonymous$24)SYNC_WORKER_STATE_SHUTTING_DOWN);
+        set_state(s->worker, (enum anonymous_24)SYNC_WORKER_STATE_SHUTTING_DOWN);
         break;
       }
       case SYNC_WORKER_STATE_IDLE:
@@ -20216,13 +20216,13 @@ void * sync_worker_task(void *arg)
       case SYNC_WORKER_STATE_RUNNING:
       {
         exec_running_state(s);
-        state = (enum anonymous$24)SYNC_WORKER_STATE_IDLE;
+        state = (enum anonymous_24)SYNC_WORKER_STATE_IDLE;
         set_state(s->worker, state);
         break;
       }
       case SYNC_WORKER_STATE_SHUTTING_DOWN:
       {
-        state = (enum anonymous$24)SYNC_WORKER_STATE_STOPPED;
+        state = (enum anonymous_24)SYNC_WORKER_STATE_STOPPED;
         set_state(s->worker, state);
         break;
       }
@@ -20236,7 +20236,7 @@ void * sync_worker_task(void *arg)
       {
         /* assertion !"Worker in unexpected state, shutting down. (UNKNOWN)" */
         assert(!((_Bool)"Worker in unexpected state, shutting down. (UNKNOWN)"));
-        set_state(s->worker, (enum anonymous$24)SYNC_WORKER_STATE_SHUTTING_DOWN);
+        set_state(s->worker, (enum anonymous_24)SYNC_WORKER_STATE_SHUTTING_DOWN);
       }
     }
   return (void *)0;
@@ -20244,7 +20244,7 @@ void * sync_worker_task(void *arg)
 
 // sync_worker_wait_for_state
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/sync_worker.h line 105
-signed int sync_worker_wait_for_state(struct sync_worker *w, enum anonymous$24 state, unsigned int timeout_ms)
+signed int sync_worker_wait_for_state(struct sync_worker *w, enum anonymous_24 state, unsigned int timeout_ms)
 {
   signed int status = 0;
   struct timespec timeout_abs;
@@ -20287,9 +20287,9 @@ signed int sync_worker_wait_for_state(struct sync_worker *w, enum anonymous$24 s
   {
     do
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync_worker.c:341] %s: Wait on state change failed: %s\n", (const void *)"sync_worker_wait_for_state", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ sync_worker.c:341] %s: Wait on state change failed: %s\n", (const void *)"sync_worker_wait_for_state", return_value_strerror_1);
     }
     while((_Bool)0);
     if(status == 110)
@@ -20519,7 +20519,7 @@ __CPROVER_DUMP_L1:
 
 // tuning_cancel_scheduled
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 87
-static inline signed int tuning_cancel_scheduled(struct bladerf *dev, enum anonymous$0 module)
+static inline signed int tuning_cancel_scheduled(struct bladerf *dev, enum anonymous_0 module)
 {
   signed int return_value;
   return_value=dev->fn->retune(dev, module, (unsigned long int)-1, (unsigned short int)0, (unsigned int)0, (unsigned char)0, (unsigned char)0, (_Bool)0, (_Bool)0);
@@ -20528,28 +20528,28 @@ static inline signed int tuning_cancel_scheduled(struct bladerf *dev, enum anony
 
 // tuning_get_default_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 115
-enum anonymous$12 tuning_get_default_mode(struct bladerf *dev)
+enum anonymous_12 tuning_get_default_mode(struct bladerf *dev)
 {
-  enum anonymous$12 mode = (enum anonymous$12)BLADERF_TUNING_MODE_INVALID;
+  enum anonymous_12 mode = (enum anonymous_12)BLADERF_TUNING_MODE_INVALID;
   const char *str;
   str=getenv("BLADERF_DEFAULT_TUNING_MODE");
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(!(str == ((const char *)NULL)))
   {
-    signed int return_value_strcasecmp$3;
-    return_value_strcasecmp$3=strcasecmp("host", str);
-    if(return_value_strcasecmp$3 == 0)
-      mode = (enum anonymous$12)BLADERF_TUNING_MODE_HOST;
+    signed int return_value_strcasecmp_3;
+    return_value_strcasecmp_3=strcasecmp("host", str);
+    if(return_value_strcasecmp_3 == 0)
+      mode = (enum anonymous_12)BLADERF_TUNING_MODE_HOST;
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp("fpga", str);
-      if(return_value_strcasecmp$2 == 0)
+      return_value_strcasecmp_2=strcasecmp("fpga", str);
+      if(return_value_strcasecmp_2 == 0)
       {
-        mode = (enum anonymous$12)BLADERF_TUNING_MODE_FPGA;
-        _Bool return_value_fpga_supports_tuning_mode$1;
-        return_value_fpga_supports_tuning_mode$1=fpga_supports_tuning_mode(dev, mode);
-        if(return_value_fpga_supports_tuning_mode$1 == (_Bool)0)
+        mode = (enum anonymous_12)BLADERF_TUNING_MODE_FPGA;
+        _Bool return_value_fpga_supports_tuning_mode_1;
+        return_value_fpga_supports_tuning_mode_1=fpga_supports_tuning_mode(dev, mode);
+        if(return_value_fpga_supports_tuning_mode_1 == (_Bool)0)
           do
             log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ tuning.c:61] The loaded FPGA version (%u.%u.%u) does not support the tuning mode being used to override the default.\n", dev->fpga_version.major, dev->fpga_version.minor, dev->fpga_version.patch);
           while((_Bool)0);
@@ -20565,13 +20565,13 @@ enum anonymous$12 tuning_get_default_mode(struct bladerf *dev)
 
   if((signed int)mode == BLADERF_TUNING_MODE_INVALID)
   {
-    _Bool return_value_fpga_supports_tuning_mode$4;
-    return_value_fpga_supports_tuning_mode$4=fpga_supports_tuning_mode(dev, (enum anonymous$12)BLADERF_TUNING_MODE_FPGA);
-    if(!(return_value_fpga_supports_tuning_mode$4 == (_Bool)0))
-      mode = (enum anonymous$12)BLADERF_TUNING_MODE_FPGA;
+    _Bool return_value_fpga_supports_tuning_mode_4;
+    return_value_fpga_supports_tuning_mode_4=fpga_supports_tuning_mode(dev, (enum anonymous_12)BLADERF_TUNING_MODE_FPGA);
+    if(!(return_value_fpga_supports_tuning_mode_4 == (_Bool)0))
+      mode = (enum anonymous_12)BLADERF_TUNING_MODE_FPGA;
 
     else
-      mode = (enum anonymous$12)BLADERF_TUNING_MODE_HOST;
+      mode = (enum anonymous_12)BLADERF_TUNING_MODE_HOST;
   }
 
   switch((signed int)mode)
@@ -20594,7 +20594,7 @@ enum anonymous$12 tuning_get_default_mode(struct bladerf *dev)
     {
       /* assertion !"Bug encountered." */
       assert(!((_Bool)"Bug encountered."));
-      mode = (enum anonymous$12)BLADERF_TUNING_MODE_HOST;
+      mode = (enum anonymous_12)BLADERF_TUNING_MODE_HOST;
     }
   }
   return mode;
@@ -20602,10 +20602,10 @@ enum anonymous$12 tuning_get_default_mode(struct bladerf *dev)
 
 // tuning_get_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 104
-signed int tuning_get_freq(struct bladerf *dev, enum anonymous$0 module, unsigned int *frequency)
+signed int tuning_get_freq(struct bladerf *dev, enum anonymous_0 module, unsigned int *frequency)
 {
-  enum anonymous$8 attached;
-  enum anonymous$35 path;
+  enum anonymous_8 attached;
+  enum anonymous_35 path;
   struct lms_freq f;
   signed int rv = 0;
   rv=lms_get_frequency(dev, module, &f);
@@ -20652,43 +20652,43 @@ signed int tuning_get_freq(struct bladerf *dev, enum anonymous$0 module, unsigne
 
 // tuning_schedule
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 70
-static inline signed int tuning_schedule(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, struct lms_freq *f)
+static inline signed int tuning_schedule(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, struct lms_freq *f)
 {
   signed int return_value;
   return_value=dev->fn->retune(dev, module, timestamp, f->nint, f->nfrac, f->freqsel, f->vcocap, ((signed int)f->flags & 1 << 0) != 0, ((signed int)f->flags & 1 << 1) != 0);
   return return_value;
 }
 
-// tuning_schedule$link1
+// tuning_schedule_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 70
-static inline signed int tuning_schedule$link1(struct bladerf *dev$link1, enum anonymous$0 module$link1, unsigned long int timestamp$link1, struct lms_freq *f$link1)
+static inline signed int tuning_schedule_link1(struct bladerf *dev_link1, enum anonymous_0 module_link1, unsigned long int timestamp_link1, struct lms_freq *f_link1)
 {
-  signed int return_value$link1;
-  return_value$link1=dev$link1->fn->retune(dev$link1, module$link1, timestamp$link1, f$link1->nint, f$link1->nfrac, f$link1->freqsel, f$link1->vcocap, ((signed int)f$link1->flags & 1 << 0) != 0, ((signed int)f$link1->flags & 1 << 1) != 0);
-  return return_value$link1;
+  signed int return_value_link1;
+  return_value_link1=dev_link1->fn->retune(dev_link1, module_link1, timestamp_link1, f_link1->nint, f_link1->nfrac, f_link1->freqsel, f_link1->vcocap, ((signed int)f_link1->flags & 1 << 0) != 0, ((signed int)f_link1->flags & 1 << 1) != 0);
+  return return_value_link1;
 }
 
 // tuning_set_freq
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 54
-signed int tuning_set_freq(struct bladerf *dev, enum anonymous$0 module, unsigned int frequency)
+signed int tuning_set_freq(struct bladerf *dev, enum anonymous_0 module, unsigned int frequency)
 {
   signed int status;
-  const enum anonymous$8 attached = dev->xb;
+  const enum anonymous_8 attached = dev->xb;
   signed short int dc_i;
   signed short int dc_q;
   struct dc_cal_tbl *dc_cal;
-  struct dc_cal_tbl *tmp_if_expr$1;
+  struct dc_cal_tbl *tmp_if_expr_1;
   if((signed int)module == BLADERF_MODULE_RX)
-    tmp_if_expr$1 = dev->cal.dc_rx;
+    tmp_if_expr_1 = dev->cal.dc_rx;
 
   else
-    tmp_if_expr$1 = dev->cal.dc_tx;
-  dc_cal = tmp_if_expr$1;
+    tmp_if_expr_1 = dev->cal.dc_tx;
+  dc_cal = tmp_if_expr_1;
   do
   {
-    const char *return_value_module2str$2;
-    return_value_module2str$2=module2str(module);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ tuning.c:134] Setting %s frequency to %u\n", return_value_module2str$2, frequency);
+    const char *return_value_module2str_2;
+    return_value_module2str_2=module2str(module);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ tuning.c:134] Setting %s frequency to %u\n", return_value_module2str_2, frequency);
   }
   while((_Bool)0);
   struct lms_freq f;
@@ -20696,7 +20696,7 @@ signed int tuning_set_freq(struct bladerf *dev, enum anonymous$0 module, unsigne
   {
     if(!(frequency >= 237500000u))
     {
-      status=xb200_set_path(dev, module, (enum anonymous$35)BLADERF_XB200_MIX);
+      status=xb200_set_path(dev, module, (enum anonymous_35)BLADERF_XB200_MIX);
       if(!(status == 0))
         return status;
 
@@ -20708,7 +20708,7 @@ signed int tuning_set_freq(struct bladerf *dev, enum anonymous$0 module, unsigne
       goto __CPROVER_DUMP_L7;
     }
 
-    status=xb200_set_path(dev, module, (enum anonymous$35)BLADERF_XB200_BYPASS);
+    status=xb200_set_path(dev, module, (enum anonymous_35)BLADERF_XB200_BYPASS);
     if(status == 0)
       goto __CPROVER_DUMP_L7;
 
@@ -20735,7 +20735,7 @@ signed int tuning_set_freq(struct bladerf *dev, enum anonymous$0 module, unsigne
       {
         status=lms_calculate_tuning_params(frequency, &f);
         if(status == 0)
-          status=tuning_schedule$link1(dev, module, (unsigned long int)0, &f);
+          status=tuning_schedule_link1(dev, module, (unsigned long int)0, &f);
 
         break;
       }
@@ -20775,12 +20775,12 @@ signed int tuning_set_freq(struct bladerf *dev, enum anonymous$0 module, unsigne
 
 // tuning_set_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/tuning.h line 126
-signed int tuning_set_mode(struct bladerf *dev, enum anonymous$12 mode)
+signed int tuning_set_mode(struct bladerf *dev, enum anonymous_12 mode)
 {
   signed int status = 0;
-  _Bool return_value_fpga_supports_tuning_mode$1;
-  return_value_fpga_supports_tuning_mode$1=fpga_supports_tuning_mode(dev, mode);
-  if(!(return_value_fpga_supports_tuning_mode$1 == (_Bool)0))
+  _Bool return_value_fpga_supports_tuning_mode_1;
+  return_value_fpga_supports_tuning_mode_1=fpga_supports_tuning_mode(dev, mode);
+  if(!(return_value_fpga_supports_tuning_mode_1 == (_Bool)0))
     dev->tuning_mode = mode;
 
   else
@@ -20840,7 +20840,7 @@ static void * tx_callback(struct bladerf *dev, struct bladerf_stream *stream, st
       completed_idx=sync_buf2idx(b, samples);
       /* assertion b->status[completed_idx] == SYNC_BUFFER_IN_FLIGHT */
       assert((signed int)b->status[(signed long int)completed_idx] == SYNC_BUFFER_IN_FLIGHT);
-      b->status[(signed long int)completed_idx] = (enum anonymous$22)SYNC_BUFFER_EMPTY;
+      b->status[(signed long int)completed_idx] = (enum anonymous_22)SYNC_BUFFER_EMPTY;
       pthread_cond_signal(&b->buf_ready);
       if((signed int)b->submitter == SYNC_TX_SUBMITTER_CALLBACK)
       {
@@ -20849,13 +20849,13 @@ static void * tx_callback(struct bladerf *dev, struct bladerf_stream *stream, st
         if((signed int)b->status[(signed long int)b->cons_i] == SYNC_BUFFER_FULL)
         {
           ret = b->buffers[(signed long int)b->cons_i];
-          b->status[(signed long int)b->cons_i] = (enum anonymous$22)SYNC_BUFFER_IN_FLIGHT;
+          b->status[(signed long int)b->cons_i] = (enum anonymous_22)SYNC_BUFFER_IN_FLIGHT;
           b->cons_i = (b->cons_i + (unsigned int)1) % b->num_buffers;
         }
 
         else
         {
-          b->submitter = (enum anonymous$23)SYNC_TX_SUBMITTER_FN;
+          b->submitter = (enum anonymous_23)SYNC_TX_SUBMITTER_FN;
           b->cons_i = (unsigned int)0x7fffffff * 2U + 1U;
         }
       }
@@ -20887,9 +20887,9 @@ static signed int unpack_image(struct bladerf_image *img, unsigned char *buf, un
 {
   unsigned long int i = (unsigned long int)0;
   unsigned int type;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$4;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_4;
   if(!(len >= 226ul))
     return -3;
 
@@ -20897,9 +20897,9 @@ static signed int unpack_image(struct bladerf_image *img, unsigned char *buf, un
   {
     memcpy((void *)img->magic, (const void *)&buf[(signed long int)i], (unsigned long int)7);
     img->magic[(signed long int)7] = (char)0;
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(img->magic, image_magic, (unsigned long int)7);
-    if(!(return_value_strncmp$1 == 0))
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(img->magic, image_magic, (unsigned long int)7);
+    if(!(return_value_strncmp_1 == 0))
       return -3;
 
     else
@@ -20911,23 +20911,23 @@ static signed int unpack_image(struct bladerf_image *img, unsigned char *buf, un
       i = i + sizeof(unsigned short int) /*2ul*/ ;
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)img->version.major;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$2 = __v;
-      img->version.major = tmp_statement_expression$2;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_2 = __v;
+      img->version.major = tmp_statement_expression_2;
       memcpy((void *)&img->version.minor, (const void *)&buf[(signed long int)i], sizeof(unsigned short int) /*2ul*/ );
       i = i + sizeof(unsigned short int) /*2ul*/ ;
-      unsigned short int unpack_image$$1$$4$$__v;
-      unsigned short int unpack_image$$1$$4$$__x = (unsigned short int)img->version.minor;
-      asm("rorw $8, %w0" : "=r"(unpack_image$$1$$4$$__v) : "0"(unpack_image$$1$$4$$__x) : "cc");
-      tmp_statement_expression$3 = unpack_image$$1$$4$$__v;
-      img->version.minor = tmp_statement_expression$3;
+      unsigned short int unpack_image__1__4____v;
+      unsigned short int unpack_image__1__4____x = (unsigned short int)img->version.minor;
+      asm("rorw _8, %w0" : "=r"(unpack_image__1__4____v) : "0"(unpack_image__1__4____x) : "cc");
+      tmp_statement_expression_3 = unpack_image__1__4____v;
+      img->version.minor = tmp_statement_expression_3;
       memcpy((void *)&img->version.patch, (const void *)&buf[(signed long int)i], sizeof(unsigned short int) /*2ul*/ );
       i = i + sizeof(unsigned short int) /*2ul*/ ;
-      unsigned short int unpack_image$$1$$5$$__v;
-      unsigned short int unpack_image$$1$$5$$__x = (unsigned short int)img->version.patch;
-      asm("rorw $8, %w0" : "=r"(unpack_image$$1$$5$$__v) : "0"(unpack_image$$1$$5$$__x) : "cc");
-      tmp_statement_expression$4 = unpack_image$$1$$5$$__v;
-      img->version.patch = tmp_statement_expression$4;
+      unsigned short int unpack_image__1__5____v;
+      unsigned short int unpack_image__1__5____x = (unsigned short int)img->version.patch;
+      asm("rorw _8, %w0" : "=r"(unpack_image__1__5____v) : "0"(unpack_image__1__5____x) : "cc");
+      tmp_statement_expression_4 = unpack_image__1__5____v;
+      img->version.patch = tmp_statement_expression_4;
       memcpy((void *)&img->timestamp, (const void *)&buf[(signed long int)i], sizeof(unsigned long int) /*8ul*/ );
       i = i + sizeof(unsigned long int) /*8ul*/ ;
       img->timestamp=__bswap_64(img->timestamp);
@@ -20939,9 +20939,9 @@ static signed int unpack_image(struct bladerf_image *img, unsigned char *buf, un
       memcpy((void *)&type, (const void *)&buf[(signed long int)i], sizeof(unsigned int) /*4ul*/ );
       i = i + sizeof(unsigned int) /*4ul*/ ;
       type=__bswap_32(type);
-      _Bool return_value_image_type_is_valid$5;
-      return_value_image_type_is_valid$5=image_type_is_valid((enum anonymous$38)type);
-      if(return_value_image_type_is_valid$5 == (_Bool)0)
+      _Bool return_value_image_type_is_valid_5;
+      return_value_image_type_is_valid_5=image_type_is_valid((enum anonymous_38)type);
+      if(return_value_image_type_is_valid_5 == (_Bool)0)
       {
         do
           log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ image.c:249] Invalid type value in image: %d\n", (signed int)type);
@@ -20950,7 +20950,7 @@ static signed int unpack_image(struct bladerf_image *img, unsigned char *buf, un
       }
 
       else
-        img->type = (enum anonymous$38)type;
+        img->type = (enum anonymous_38)type;
       memcpy((void *)&img->address, (const void *)&buf[(signed long int)i], sizeof(unsigned int) /*4ul*/ );
       i = i + sizeof(unsigned int) /*4ul*/ ;
       img->address=__bswap_32(img->address);
@@ -20986,26 +20986,26 @@ static inline struct bladerf_usb * usb_backend(struct bladerf *dev, void **drive
   return ret;
 }
 
-// usb_backend$link1
+// usb_backend_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 150
-static inline struct bladerf_usb * usb_backend$link1(struct bladerf *dev$link1, void **driver$link1)
+static inline struct bladerf_usb * usb_backend_link1(struct bladerf *dev_link1, void **driver_link1)
 {
-  struct bladerf_usb *ret$link1 = (struct bladerf_usb *)dev$link1->backend;
-  if(!(driver$link1 == ((void **)NULL)))
-    *driver$link1 = ret$link1->driver;
+  struct bladerf_usb *ret_link1 = (struct bladerf_usb *)dev_link1->backend;
+  if(!(driver_link1 == ((void **)NULL)))
+    *driver_link1 = ret_link1->driver;
 
-  return ret$link1;
+  return ret_link1;
 }
 
-// usb_backend$link2
+// usb_backend_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.h line 150
-static inline struct bladerf_usb * usb_backend$link2(struct bladerf *dev$link2, void **driver$link2)
+static inline struct bladerf_usb * usb_backend_link2(struct bladerf *dev_link2, void **driver_link2)
 {
-  struct bladerf_usb *ret$link2 = (struct bladerf_usb *)dev$link2->backend;
-  if(!(driver$link2 == ((void **)NULL)))
-    *driver$link2 = ret$link2->driver;
+  struct bladerf_usb *ret_link2 = (struct bladerf_usb *)dev_link2->backend;
+  if(!(driver_link2 == ((void **)NULL)))
+    *driver_link2 = ret_link2->driver;
 
-  return ret$link2;
+  return ret_link2;
 }
 
 // usb_close
@@ -21015,15 +21015,15 @@ static void usb_close(struct bladerf *dev)
   signed int status;
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   if(!(usb == ((struct bladerf_usb *)NULL)))
   {
     status=usb->fn->change_setting(driver, (unsigned char)0);
     if(!(status == 0))
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ usb.c:251] Failed to switch to NULL interface: %s\n", return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ usb.c:251] Failed to switch to NULL interface: %s\n", return_value_bladerf_strerror_1);
     }
 
     usb->fn->close(driver);
@@ -21039,7 +21039,7 @@ static void usb_deinit_stream(struct bladerf_stream *stream)
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(stream->dev, &driver);
+  usb=usb_backend_link2(stream->dev, &driver);
   usb->fn->deinit_stream(driver, stream);
 }
 
@@ -21049,15 +21049,15 @@ static signed int usb_device_reset(struct bladerf *dev)
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   signed int return_value;
-  return_value=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, (unsigned char)105, (unsigned short int)0, (unsigned short int)0, NULL, (unsigned int)0, (unsigned int)1000);
+  return_value=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, (unsigned char)105, (unsigned short int)0, (unsigned short int)0, NULL, (unsigned int)0, (unsigned int)1000);
   return return_value;
 }
 
 // usb_enable_module
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 831
-static signed int usb_enable_module(struct bladerf *dev, enum anonymous$0 m, _Bool enable)
+static signed int usb_enable_module(struct bladerf *dev, enum anonymous_0 m, _Bool enable)
 {
   signed int status;
   signed int fx3_ret = -1;
@@ -21067,9 +21067,9 @@ static signed int usb_enable_module(struct bladerf *dev, enum anonymous$0 m, _Bo
   if(!(status == 0))
     do
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:843] Could not enable RF %s (%d): %s\n", (signed int)m == BLADERF_MODULE_RX ? "RX" : "TX", status, return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:843] Could not enable RF %s (%d): %s\n", (signed int)m == BLADERF_MODULE_RX ? "RX" : "TX", status, return_value_bladerf_strerror_1);
     }
     while((_Bool)0);
 
@@ -21116,9 +21116,9 @@ static signed int usb_erase_flash_blocks(struct bladerf *dev, unsigned int eb, u
       {
         do
         {
-          const char *return_value_bladerf_strerror$1;
-          return_value_bladerf_strerror$1=bladerf_strerror(status);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:506] Failed to erase block %u: %s\n", eb + (unsigned int)i, return_value_bladerf_strerror$1);
+          const char *return_value_bladerf_strerror_1;
+          return_value_bladerf_strerror_1=bladerf_strerror(status);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:506] Failed to erase block %u: %s\n", eb + (unsigned int)i, return_value_bladerf_strerror_1);
         }
         while((_Bool)0);
         goto error;
@@ -21158,11 +21158,11 @@ static signed int usb_get_cal(struct bladerf *dev, char *cal)
 
 // usb_get_device_speed
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 790
-static signed int usb_get_device_speed(struct bladerf *dev, enum anonymous$9 *speed)
+static signed int usb_get_device_speed(struct bladerf *dev, enum anonymous_9 *speed)
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   signed int return_value;
   return_value=usb->fn->get_speed(driver, speed);
   return return_value;
@@ -21174,7 +21174,7 @@ static signed int usb_get_firmware_loopback(struct bladerf *dev, _Bool *is_enabl
 {
   signed int status;
   signed int result;
-  status=vendor_cmd_int(dev, (unsigned char)114, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &result);
+  status=vendor_cmd_int(dev, (unsigned char)114, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &result);
   if(status == 0)
     *is_enabled = result != 0;
 
@@ -21206,7 +21206,7 @@ static signed int usb_init_stream(struct bladerf_stream *stream, unsigned long i
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(stream->dev, &driver);
+  usb=usb_backend_link2(stream->dev, &driver);
   signed int return_value;
   return_value=usb->fn->init_stream(driver, stream, num_transfers);
   return return_value;
@@ -21218,9 +21218,9 @@ static signed int usb_is_fpga_configured(struct bladerf *dev)
 {
   signed int result = -1;
   signed int status;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("BLADERF_FORCE_NO_FPGA_PRESENT");
-  if(!(return_value_getenv$1 == ((char *)NULL)))
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("BLADERF_FORCE_NO_FPGA_PRESENT");
+  if(!(return_value_getenv_1 == ((char *)NULL)))
   {
     do
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:137] Reporting no FPGA present - BLADERF_FORCE_NO_FPGA_PRESENT is set.\n");
@@ -21230,7 +21230,7 @@ static signed int usb_is_fpga_configured(struct bladerf *dev)
 
   else
   {
-    status=vendor_cmd_int(dev, (unsigned char)1, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &result);
+    status=vendor_cmd_int(dev, (unsigned char)1, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &result);
     if(!(status >= 0))
       return status;
 
@@ -21254,9 +21254,9 @@ static signed int usb_jump_to_bootloader(struct bladerf *dev)
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   signed int return_value;
-  return_value=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, (unsigned char)106, (unsigned short int)0, (unsigned short int)0, NULL, (unsigned int)0, (unsigned int)1000);
+  return_value=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, (unsigned char)106, (unsigned short int)0, (unsigned short int)0, NULL, (unsigned int)0, (unsigned int)1000);
   return return_value;
 }
 
@@ -21266,7 +21266,7 @@ static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsig
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   unsigned int wait_count;
   const unsigned int timeout_ms = (const unsigned int)(2 * 1000);
   signed int status;
@@ -21275,9 +21275,9 @@ static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsig
   {
     do
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:419] Failed to switch to FPGA config setting: %s\n", return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:419] Failed to switch to FPGA config setting: %s\n", return_value_bladerf_strerror_1);
     }
     while((_Bool)0);
     return status;
@@ -21290,9 +21290,9 @@ static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsig
     {
       do
       {
-        const char *return_value_bladerf_strerror$2;
-        return_value_bladerf_strerror$2=bladerf_strerror(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:427] Failed to initiate FPGA programming: %s\n", return_value_bladerf_strerror$2);
+        const char *return_value_bladerf_strerror_2;
+        return_value_bladerf_strerror_2=bladerf_strerror(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:427] Failed to initiate FPGA programming: %s\n", return_value_bladerf_strerror_2);
       }
       while((_Bool)0);
       return status;
@@ -21305,9 +21305,9 @@ static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsig
       status=usb->fn->bulk_transfer(driver, (unsigned char)0x02, (void *)image, (unsigned int)image_size, timeout_ms);
       if(!(status >= 0))
       {
-        const char *return_value_bladerf_strerror$3;
-        return_value_bladerf_strerror$3=bladerf_strerror(status);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:437] Failed to write FPGA bitstream to FPGA: %s\n", return_value_bladerf_strerror$3);
+        const char *return_value_bladerf_strerror_3;
+        return_value_bladerf_strerror_3=bladerf_strerror(status);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:437] Failed to write FPGA bitstream to FPGA: %s\n", return_value_bladerf_strerror_3);
         return status;
       }
 
@@ -21328,9 +21328,9 @@ static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsig
 
         if(!(status >= 0))
         {
-          const char *return_value_bladerf_strerror$4;
-          return_value_bladerf_strerror$4=bladerf_strerror(status);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:458] Failed to determine if FPGA is loaded: %s\n", return_value_bladerf_strerror$4);
+          const char *return_value_bladerf_strerror_4;
+          return_value_bladerf_strerror_4=bladerf_strerror(status);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:458] Failed to determine if FPGA is loaded: %s\n", return_value_bladerf_strerror_4);
           return status;
         }
 
@@ -21341,9 +21341,9 @@ static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsig
             return -6;
           }
 
-        signed int return_value_post_fpga_load_init$5;
-        return_value_post_fpga_load_init$5=post_fpga_load_init(dev);
-        return return_value_post_fpga_load_init$5;
+        signed int return_value_post_fpga_load_init_5;
+        return_value_post_fpga_load_init_5=post_fpga_load_init(dev);
+        return return_value_post_fpga_load_init_5;
       }
     }
   }
@@ -21351,21 +21351,21 @@ static signed int usb_load_fpga(struct bladerf *dev, unsigned char *image, unsig
 
 // usb_load_fw_from_bootloader
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 1035
-static signed int usb_load_fw_from_bootloader(enum anonymous$14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw)
+static signed int usb_load_fw_from_bootloader(enum anonymous_14 backend, unsigned char bus, unsigned char addr, struct fx3_firmware *fw)
 {
   signed int status = 0;
   unsigned long int i;
   struct bladerf_usb usb;
   i = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= 1ul); i = i + 1ul)
   {
     if((signed int)backend == BLADERF_BACKEND_ANY)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = usb_driver_list[(signed long int)i]->id == backend ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = usb_driver_list[(signed long int)i]->id == backend ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       usb.fn = usb_driver_list[(signed long int)i]->fn;
       status=usb.fn->open_bootloader(&usb.driver, bus, addr);
@@ -21384,7 +21384,7 @@ static signed int usb_load_fw_from_bootloader(enum anonymous$14 backend, unsigne
 
 // usb_matches
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 217
-static _Bool usb_matches(enum anonymous$14 backend)
+static _Bool usb_matches(enum anonymous_14 backend)
 {
   return (signed int)backend == BLADERF_BACKEND_ANY || (signed int)backend == BLADERF_BACKEND_LINUX || (signed int)backend == BLADERF_BACKEND_LIBUSB || (signed int)backend == BLADERF_BACKEND_CYPRESS;
 }
@@ -21393,13 +21393,13 @@ static _Bool usb_matches(enum anonymous$14 backend)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 281
 static signed int usb_open(struct bladerf *dev, struct bladerf_devinfo *info)
 {
-  signed int usb_open$$1$$status;
-  unsigned long int usb_open$$1$$i;
+  signed int usb_open__1__status;
+  unsigned long int usb_open__1__i;
   struct bladerf_usb *usb;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct bladerf_usb) /*16ul*/ );
-  usb = (struct bladerf_usb *)return_value_malloc$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct bladerf_usb) /*16ul*/ );
+  usb = (struct bladerf_usb *)return_value_malloc_1;
+  _Bool tmp_if_expr_2;
   if(usb == ((struct bladerf_usb *)NULL))
     return -4;
 
@@ -21407,28 +21407,28 @@ static signed int usb_open(struct bladerf *dev, struct bladerf_devinfo *info)
   {
     dev->fn = &backend_fns_usb_legacy;
     dev->backend = (void *)usb;
-    usb_open$$1$$status = -7;
-    usb_open$$1$$i = (unsigned long int)0;
-    for( ; usb_open$$1$$status == -7 && !(usb_open$$1$$i >= 1ul); usb_open$$1$$i = usb_open$$1$$i + 1ul)
+    usb_open__1__status = -7;
+    usb_open__1__i = (unsigned long int)0;
+    for( ; usb_open__1__status == -7 && !(usb_open__1__i >= 1ul); usb_open__1__i = usb_open__1__i + 1ul)
     {
       if((signed int)info->backend == BLADERF_BACKEND_ANY)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = usb_driver_list[(signed long int)usb_open$$1$$i]->id == info->backend ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = usb_driver_list[(signed long int)usb_open__1__i]->id == info->backend ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        usb->fn = usb_driver_list[(signed long int)usb_open$$1$$i]->fn;
-        usb_open$$1$$status=usb->fn->open(&usb->driver, info, &dev->ident);
+        usb->fn = usb_driver_list[(signed long int)usb_open__1__i]->fn;
+        usb_open__1__status=usb->fn->open(&usb->driver, info, &dev->ident);
       }
 
     }
-    if(!(usb_open$$1$$status == 0))
+    if(!(usb_open__1__status == 0))
     {
       free((void *)usb);
       dev->backend = (void *)0;
       dev->fn = (struct backend_fns *)(void *)0;
-      return usb_open$$1$$status;
+      return usb_open__1__status;
     }
 
     else
@@ -21438,25 +21438,25 @@ static signed int usb_open(struct bladerf *dev, struct bladerf_devinfo *info)
       dev->fpga_version.major = (unsigned short int)0;
       dev->fpga_version.minor = (unsigned short int)0;
       dev->fpga_version.patch = (unsigned short int)0;
-      usb_open$$1$$status=populate_fw_version(usb, &dev->fw_version);
-      if(!(usb_open$$1$$status >= 0))
+      usb_open__1__status=populate_fw_version(usb, &dev->fw_version);
+      if(!(usb_open__1__status >= 0))
       {
         do
         {
-          const char *return_value_bladerf_strerror$3;
-          return_value_bladerf_strerror$3=bladerf_strerror(usb_open$$1$$status);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:326] Failed to populate FW version: %s\n", return_value_bladerf_strerror$3);
+          const char *return_value_bladerf_strerror_3;
+          return_value_bladerf_strerror_3=bladerf_strerror(usb_open__1__status);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:326] Failed to populate FW version: %s\n", return_value_bladerf_strerror_3);
         }
         while((_Bool)0);
-        return usb_open$$1$$status;
+        return usb_open__1__status;
       }
 
       else
       {
         capabilities_init_pre_fpga_load(dev);
-        _Bool return_value_have_cap$4;
-        return_value_have_cap$4=have_cap$link7(dev, (unsigned long int)1 << 33);
-        if(!(return_value_have_cap$4 == (_Bool)0))
+        _Bool return_value_have_cap_4;
+        return_value_have_cap_4=have_cap_link7(dev, (unsigned long int)1 << 33);
+        if(!(return_value_have_cap_4 == (_Bool)0))
         {
           const unsigned int max_retries = (const unsigned int)30;
           unsigned int i;
@@ -21465,7 +21465,7 @@ static signed int usb_open(struct bladerf *dev, struct bladerf_devinfo *info)
           i = (unsigned int)0;
           for( ; !(device_ready == 1) && !(i >= max_retries); i = i + 1u)
           {
-            status=vendor_cmd_int(dev, (unsigned char)6, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, &device_ready);
+            status=vendor_cmd_int(dev, (unsigned char)6, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, &device_ready);
             if(!(device_ready == 1) || !(status == 0))
             {
               if(i == 0u)
@@ -21500,26 +21500,26 @@ static signed int usb_open(struct bladerf *dev, struct bladerf_devinfo *info)
             log_write((enum anonymous)BLADERF_LOG_LEVEL_INFO, "[INFO @ usb.c:367] FX3 FW v%u.%u.%u does not support the \"device ready\" query.\n\tEnsure flash-autoloading completes before opening a device.\n\tUpgrade the FX3 firmware to avoid this message in the future.\n\n", major, minor, patch);
           while((_Bool)0);
         }
-        usb_open$$1$$status=change_setting(dev, (unsigned char)0);
-        if(!(usb_open$$1$$status >= 0))
+        usb_open__1__status=change_setting(dev, (unsigned char)0);
+        if(!(usb_open__1__status >= 0))
           do
             log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:373] Failed to switch to USB_IF_NULL\n");
           while((_Bool)0);
 
         else
         {
-          usb_open$$1$$status=usb_is_fpga_configured(dev);
-          if(usb_open$$1$$status >= 1)
-            usb_open$$1$$status=post_fpga_load_init(dev);
+          usb_open__1__status=usb_is_fpga_configured(dev);
+          if(usb_open__1__status >= 1)
+            usb_open__1__status=post_fpga_load_init(dev);
 
         }
 
       error:
         ;
-        if(!(usb_open$$1$$status == 0))
+        if(!(usb_open__1__status == 0))
           usb_close(dev);
 
-        return usb_open$$1$$status;
+        return usb_open__1__status;
       }
     }
   }
@@ -21527,7 +21527,7 @@ static signed int usb_open(struct bladerf *dev, struct bladerf_devinfo *info)
 
 // usb_probe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 225
-static signed int usb_probe(enum anonymous$16 probe_target, struct bladerf_devinfo_list *info_list)
+static signed int usb_probe(enum anonymous_16 probe_target, struct bladerf_devinfo_list *info_list)
 {
   signed int status;
   unsigned long int i;
@@ -21594,10 +21594,10 @@ static signed int usb_read_fw_log(struct bladerf *dev, unsigned int *e)
 {
   signed int status;
   *e = (unsigned int)0x00000000;
-  _Bool return_value_have_cap$1;
-  return_value_have_cap$1=have_cap$link7(dev, (unsigned long int)1 << 34);
-  if(!(return_value_have_cap$1 == (_Bool)0))
-    status=vendor_cmd_int(dev, (unsigned char)115, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, (signed int *)e);
+  _Bool return_value_have_cap_1;
+  return_value_have_cap_1=have_cap_link7(dev, (unsigned long int)1 << 34);
+  if(!(return_value_have_cap_1 == (_Bool)0))
+    status=vendor_cmd_int(dev, (unsigned char)115, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, (signed int *)e);
 
   else
   {
@@ -21631,11 +21631,11 @@ static signed int usb_set_firmware_loopback(struct bladerf *dev, _Bool enable)
 
 // usb_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 875
-static signed int usb_stream(struct bladerf_stream *stream, enum anonymous$0 module)
+static signed int usb_stream(struct bladerf_stream *stream, enum anonymous_0 module)
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(stream->dev, &driver);
+  usb=usb_backend_link2(stream->dev, &driver);
   signed int return_value;
   return_value=usb->fn->stream(driver, stream, module);
   return return_value;
@@ -21647,7 +21647,7 @@ signed int usb_submit_stream_buffer(struct bladerf_stream *stream, void *buffer,
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(stream->dev, &driver);
+  usb=usb_backend_link2(stream->dev, &driver);
   signed int return_value;
   return_value=usb->fn->submit_stream_buffer(driver, stream, buffer, timeout_ms, nonblock);
   return return_value;
@@ -21740,13 +21740,13 @@ static inline _Bool valid_fw_size(unsigned long int len)
 
 // vendor_cmd_int
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/backend/usb/usb.c line 92
-static inline signed int vendor_cmd_int(struct bladerf *dev, unsigned char cmd, enum anonymous$30 dir, signed int *val)
+static inline signed int vendor_cmd_int(struct bladerf *dev, unsigned char cmd, enum anonymous_30 dir, signed int *val)
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   signed int return_value;
-  return_value=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, dir, cmd, (unsigned short int)0, (unsigned short int)0, (void *)val, (unsigned int)sizeof(signed int) /*4ul*/ , (unsigned int)1000);
+  return_value=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, dir, cmd, (unsigned short int)0, (unsigned short int)0, (void *)val, (unsigned int)sizeof(signed int) /*4ul*/ , (unsigned int)1000);
   return return_value;
 }
 
@@ -21756,9 +21756,9 @@ static inline signed int vendor_cmd_int_windex(struct bladerf *dev, unsigned cha
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   signed int return_value;
-  return_value=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, cmd, (unsigned short int)0, windex, (void *)val, (unsigned int)sizeof(unsigned int) /*4ul*/ , (unsigned int)1000);
+  return_value=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, cmd, (unsigned short int)0, windex, (void *)val, (unsigned int)sizeof(unsigned int) /*4ul*/ , (unsigned int)1000);
   return return_value;
 }
 
@@ -21768,9 +21768,9 @@ static inline signed int vendor_cmd_int_wvalue(struct bladerf *dev, unsigned cha
 {
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   signed int return_value;
-  return_value=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, cmd, wvalue, (unsigned short int)0, (void *)val, (unsigned int)sizeof(unsigned int) /*4ul*/ , (unsigned int)1000);
+  return_value=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, cmd, wvalue, (unsigned short int)0, (void *)val, (unsigned int)sizeof(unsigned int) /*4ul*/ , (unsigned int)1000);
   return return_value;
 }
 
@@ -21793,9 +21793,9 @@ static signed int verify_checksum(unsigned char *buf, unsigned long int buf_len)
     memcpy((void *)checksum_expected, (const void *)&buf[(signed long int)7], sizeof(char [32l]) /*32ul*/ );
     memset((void *)&buf[(signed long int)7], 0, (unsigned long int)32);
     sha256_buffer((const char *)buf, buf_len, checksum_calc);
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)checksum_expected, (const void *)checksum_calc, (unsigned long int)32);
-    if(!(return_value_memcmp$1 == 0))
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)checksum_expected, (const void *)checksum_calc, (unsigned long int)32);
+    if(!(return_value_memcmp_1 == 0))
       return -10;
 
     else
@@ -21821,9 +21821,9 @@ static inline signed int verify_flash(struct bladerf *dev, unsigned char *readba
   {
     do
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:114] Failed to read from flash: %s\n", return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ flash.c:114] Failed to read from flash: %s\n", return_value_bladerf_strerror_1);
     }
     while((_Bool)0);
     return status;
@@ -21865,17 +21865,17 @@ signed int version_check_fpga(struct bladerf *dev)
       return -12;
 
   required_values(fw, &major, &minor, &patch);
-  _Bool return_value_version_less_than$1;
-  return_value_version_less_than$1=version_less_than(&dev->fpga_version, major, minor, patch);
-  if(!(return_value_version_less_than$1 == (_Bool)0))
+  _Bool return_value_version_less_than_1;
+  return_value_version_less_than_1=version_less_than(&dev->fpga_version, major, minor, patch);
+  if(!(return_value_version_less_than_1 == (_Bool)0))
     return -12;
 
   else
   {
     required_values(fpga, &major, &minor, &patch);
-    _Bool return_value_version_less_than$2;
-    return_value_version_less_than$2=version_less_than(&dev->fw_version, major, minor, patch);
-    if(!(return_value_version_less_than$2 == (_Bool)0))
+    _Bool return_value_version_less_than_2;
+    return_value_version_less_than_2=version_less_than(&dev->fw_version, major, minor, patch);
+    if(!(return_value_version_less_than_2 == (_Bool)0))
       return -13;
 
     else
@@ -21887,10 +21887,10 @@ signed int version_check_fpga(struct bladerf *dev)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/version_compat.h line 38
 signed int version_check_fw(struct bladerf *dev)
 {
-  _Bool return_value_version_greater_or_equal$1;
+  _Bool return_value_version_greater_or_equal_1;
   static struct bladerf_version *ver = &fw_compat_tbl[(signed long int)(sizeof(struct compat [7l]) /*224ul*/  / sizeof(struct compat) /*32ul*/  - (unsigned long int)1)].ver;
-  return_value_version_greater_or_equal$1=version_greater_or_equal(&dev->fw_version, (unsigned int)ver->major, (unsigned int)ver->minor, (unsigned int)ver->patch);
-  if(!(return_value_version_greater_or_equal$1 == (_Bool)0))
+  return_value_version_greater_or_equal_1=version_greater_or_equal(&dev->fw_version, (unsigned int)ver->major, (unsigned int)ver->minor, (unsigned int)ver->patch);
+  if(!(return_value_version_greater_or_equal_1 == (_Bool)0))
     return 0;
 
   else
@@ -21901,54 +21901,54 @@ signed int version_check_fw(struct bladerf *dev)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/version_compat.c line 226
 _Bool version_equal(struct bladerf_version *v1, struct bladerf_version *v2)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(v1->major == v2->major)
-    tmp_if_expr$1 = v1->minor == v2->minor ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = v1->minor == v2->minor ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = v1->patch == v2->patch ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = v1->patch == v2->patch ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return tmp_if_expr_2;
 }
 
 // version_greater_or_equal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/version_compat.h line 100
 _Bool version_greater_or_equal(struct bladerf_version *version, unsigned int major, unsigned int minor, unsigned int patch)
 {
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(major >= (unsigned int)version->major))
     return (_Bool)1;
 
   else
   {
     if((unsigned int)version->major == major)
-      tmp_if_expr$3 = (unsigned int)version->minor > minor ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (unsigned int)version->minor > minor ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
       return (_Bool)1;
 
     else
     {
       if((unsigned int)version->major == major)
-        tmp_if_expr$1 = (unsigned int)version->minor == minor ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (unsigned int)version->minor == minor ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (unsigned int)version->patch >= patch ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (unsigned int)version->patch >= patch ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         return (_Bool)1;
 
       else
@@ -21961,9 +21961,9 @@ _Bool version_greater_or_equal(struct bladerf_version *version, unsigned int maj
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/version_compat.c line 251
 _Bool version_less_than(struct bladerf_version *version, unsigned int major, unsigned int minor, unsigned int patch)
 {
-  _Bool return_value_version_greater_or_equal$1;
-  return_value_version_greater_or_equal$1=version_greater_or_equal(version, major, minor, patch);
-  return !(return_value_version_greater_or_equal$1 != (_Bool)0);
+  _Bool return_value_version_greater_or_equal_1;
+  return_value_version_greater_or_equal_1=version_greater_or_equal(version, major, minor, patch);
+  return !(return_value_version_greater_or_equal_1 != (_Bool)0);
 }
 
 // version_required_fpga
@@ -22198,7 +22198,7 @@ static signed int wait_for_buffer(struct buffer_mgmt *b, unsigned int timeout_ms
 
 // wait_for_timestamp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF_test/common/src/test_common.c line 57
-signed int wait_for_timestamp(struct bladerf *dev, enum anonymous$0 module, unsigned long int timestamp, unsigned int timeout_ms)
+signed int wait_for_timestamp(struct bladerf *dev, enum anonymous_0 module, unsigned long int timestamp, unsigned int timeout_ms)
 {
   signed int status;
   unsigned long int curr_ts = (unsigned long int)0;
@@ -22251,9 +22251,9 @@ static signed int wait_for_vtune_value(struct bladerf *dev, unsigned char base, 
     {
       do
       {
-        const char *return_value_vtune_str$1;
-        return_value_vtune_str$1=vtune_str(target_value);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ lms.c:1970] VTUNE reached %s at iteration %u\n", return_value_vtune_str$1, i);
+        const char *return_value_vtune_str_1;
+        return_value_vtune_str_1=vtune_str(target_value);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ lms.c:1970] VTUNE reached %s at iteration %u\n", return_value_vtune_str_1, i);
       }
       while((_Bool)0);
       return 0;
@@ -22263,9 +22263,9 @@ static signed int wait_for_vtune_value(struct bladerf *dev, unsigned char base, 
     {
       do
       {
-        const char *return_value_vtune_str$2;
-        return_value_vtune_str$2=vtune_str(vtune);
-        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ lms.c:1974] VTUNE was %s. Waiting and retrying...\n", return_value_vtune_str$2);
+        const char *return_value_vtune_str_2;
+        return_value_vtune_str_2=vtune_str(vtune);
+        log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ lms.c:1974] VTUNE was %s. Waiting and retrying...\n", return_value_vtune_str_2);
       }
       while((_Bool)0);
 
@@ -22280,9 +22280,9 @@ static signed int wait_for_vtune_value(struct bladerf *dev, unsigned char base, 
   }
   do
   {
-    const char *return_value_vtune_str$3;
-    return_value_vtune_str$3=vtune_str(target_value);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ lms.c:1981] Timed out while waiting for VTUNE=%s. Walking VCOCAP...\n", return_value_vtune_str$3);
+    const char *return_value_vtune_str_3;
+    return_value_vtune_str_3=vtune_str(target_value);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ lms.c:1981] Timed out while waiting for VTUNE=%s. Walking VCOCAP...\n", return_value_vtune_str_3);
   }
   while((_Bool)0);
   while(!(*vcocap == limit))
@@ -22301,9 +22301,9 @@ static signed int wait_for_vtune_value(struct bladerf *dev, unsigned char base, 
       {
         do
         {
-          const char *return_value_vtune_str$4;
-          return_value_vtune_str$4=vtune_str(vtune);
-          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ lms.c:1996] VTUNE=%s reached with VCOCAP=%u\n", return_value_vtune_str$4, *vcocap);
+          const char *return_value_vtune_str_4;
+          return_value_vtune_str_4=vtune_str(vtune);
+          log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ lms.c:1996] VTUNE=%s reached with VCOCAP=%u\n", return_value_vtune_str_4, *vcocap);
         }
         while((_Bool)0);
         return 0;
@@ -22312,9 +22312,9 @@ static signed int wait_for_vtune_value(struct bladerf *dev, unsigned char base, 
   }
   do
   {
-    const char *return_value_vtune_str$5;
-    return_value_vtune_str$5=vtune_str(target_value);
-    log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ lms.c:2002] VTUNE did not reach %s. Tuning may not be nominal.\n", return_value_vtune_str$5);
+    const char *return_value_vtune_str_5;
+    return_value_vtune_str_5=vtune_str(target_value);
+    log_write((enum anonymous)BLADERF_LOG_LEVEL_WARNING, "[WARNING @ lms.c:2002] VTUNE did not reach %s. Tuning may not be nominal.\n", return_value_vtune_str_5);
   }
   while((_Bool)0);
   return 0;
@@ -22328,7 +22328,7 @@ static signed int write_and_verify_fw_chunk(struct bladerf_usb *usb, unsigned in
   do
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ usb.c:919] Writing %u bytes to bootloader @ 0x%08x\n", len, addr);
   while((_Bool)0);
-  status=usb->fn->control_transfer(usb->driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, (unsigned char)0xa0, (unsigned short int)(addr & (unsigned int)0xffff), (unsigned short int)(addr >> 16 & (unsigned int)0xffff), (void *)data, len, (unsigned int)1000);
+  status=usb->fn->control_transfer(usb->driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, (unsigned char)0xa0, (unsigned short int)(addr & (unsigned int)0xffff), (unsigned short int)(addr >> 16 & (unsigned int)0xffff), (void *)data, len, (unsigned int)1000);
   if(!(status == 0))
   {
     log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:932] Failed to write FW chunk (%d)\n", status);
@@ -22338,7 +22338,7 @@ static signed int write_and_verify_fw_chunk(struct bladerf_usb *usb, unsigned in
   else
   {
     log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ usb.c:936] Reading back %u bytes from bootloader @ 0x%08x\n", len, addr);
-    status=usb->fn->control_transfer(usb->driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_DEVICE_TO_HOST, (unsigned char)0xa0, (unsigned short int)(addr & (unsigned int)0xffff), (unsigned short int)(addr >> 16 & (unsigned int)0xffff), (void *)readback_buf, len, (unsigned int)1000);
+    status=usb->fn->control_transfer(usb->driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_DEVICE_TO_HOST, (unsigned char)0xa0, (unsigned short int)(addr & (unsigned int)0xffff), (unsigned short int)(addr >> 16 & (unsigned int)0xffff), (void *)readback_buf, len, (unsigned int)1000);
     if(!(status == 0))
     {
       log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:949] Failed to read back FW chunk (%d)\n", status);
@@ -22347,9 +22347,9 @@ static signed int write_and_verify_fw_chunk(struct bladerf_usb *usb, unsigned in
 
     else
     {
-      signed int return_value_memcmp$1;
-      return_value_memcmp$1=memcmp((const void *)data, (const void *)readback_buf, (unsigned long int)len);
-      if(!(return_value_memcmp$1 == 0))
+      signed int return_value_memcmp_1;
+      return_value_memcmp_1=memcmp((const void *)data, (const void *)readback_buf, (unsigned long int)len);
+      if(!(return_value_memcmp_1 == 0))
       {
         log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ usb.c:954] Readback did match written data.\n");
         status = -1;
@@ -22371,9 +22371,9 @@ static signed int write_fw_to_bootloader(void *driver, struct fx3_firmware *fw)
   unsigned char *data;
   _Bool got_section;
   unsigned char *readback;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)4096);
-  readback = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)4096);
+  readback = (unsigned char *)return_value_malloc_1;
   if(readback == ((unsigned char *)NULL))
     return -4;
 
@@ -22401,9 +22401,9 @@ static signed int write_fw_to_bootloader(void *driver, struct fx3_firmware *fw)
     while(status == 0 && got_section != (_Bool)0);
     if(status == 0)
     {
-      unsigned int return_value_fx3_fw_entry_point$2;
-      return_value_fx3_fw_entry_point$2=fx3_fw_entry_point(fw);
-      status=execute_fw_from_bootloader((struct bladerf_usb *)driver, return_value_fx3_fw_entry_point$2);
+      unsigned int return_value_fx3_fw_entry_point_2;
+      return_value_fx3_fw_entry_point_2=fx3_fw_entry_point(fw);
+      status=execute_fw_from_bootloader((struct bladerf_usb *)driver, return_value_fx3_fw_entry_point_2);
     }
 
     free((void *)readback);
@@ -22421,7 +22421,7 @@ static signed int write_page(struct bladerf *dev, unsigned short int page, const
   unsigned short int write_size;
   void *driver;
   struct bladerf_usb *usb;
-  usb=usb_backend$link2(dev, &driver);
+  usb=usb_backend_link2(dev, &driver);
   if((signed int)dev->usb_speed == BLADERF_DEVICE_SPEED_SUPER)
     write_size = (unsigned short int)256;
 
@@ -22438,12 +22438,12 @@ static signed int write_page(struct bladerf *dev, unsigned short int page, const
   offset = (unsigned short int)0;
   if(!((signed int)offset >= 256))
   {
-    status=usb->fn->control_transfer(driver, (enum anonymous$28)USB_TARGET_DEVICE, (enum anonymous$29)USB_REQUEST_VENDOR, (enum anonymous$30)USB_DIR_HOST_TO_DEVICE, (unsigned char)108, (unsigned short int)0, offset, (void *)(unsigned char *)&buf[(signed long int)offset], (unsigned int)write_size, (unsigned int)1000);
+    status=usb->fn->control_transfer(driver, (enum anonymous_28)USB_TARGET_DEVICE, (enum anonymous_29)USB_REQUEST_VENDOR, (enum anonymous_30)USB_DIR_HOST_TO_DEVICE, (unsigned char)108, (unsigned short int)0, offset, (void *)(unsigned char *)&buf[(signed long int)offset], (unsigned int)write_size, (unsigned int)1000);
     if(!(status >= 0))
     {
-      const char *return_value_bladerf_strerror$1;
-      return_value_bladerf_strerror$1=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ usb.c:660] Failed to write page buffer at offset 0x%02x for page %u: %s\n", offset, page, return_value_bladerf_strerror$1);
+      const char *return_value_bladerf_strerror_1;
+      return_value_bladerf_strerror_1=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ usb.c:660] Failed to write page buffer at offset 0x%02x for page %u: %s\n", offset, page, return_value_bladerf_strerror_1);
       return status;
     }
 
@@ -22455,9 +22455,9 @@ static signed int write_page(struct bladerf *dev, unsigned short int page, const
   {
     do
     {
-      const char *return_value_bladerf_strerror$2;
-      return_value_bladerf_strerror$2=bladerf_strerror(status);
-      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ usb.c:671] Failed to commit page %u: %s\n", page, return_value_bladerf_strerror$2);
+      const char *return_value_bladerf_strerror_2;
+      return_value_bladerf_strerror_2=bladerf_strerror(status);
+      log_write((enum anonymous)BLADERF_LOG_LEVEL_ERROR, "[ERROR @ usb.c:671] Failed to commit page %u: %s\n", page, return_value_bladerf_strerror_2);
     }
     while((_Bool)0);
     return status;
@@ -22477,7 +22477,7 @@ static signed int write_page(struct bladerf *dev, unsigned short int page, const
 
 // write_pll_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/fpga_common/src/lms.c line 362
-static signed int write_pll_config(struct bladerf *dev, enum anonymous$0 module, unsigned char freqsel, _Bool low_band)
+static signed int write_pll_config(struct bladerf *dev, enum anonymous_0 module, unsigned char freqsel, _Bool low_band)
 {
   signed int status;
   unsigned char regval;
@@ -22657,10 +22657,10 @@ static signed int xb200_attach(struct bladerf *dev)
 
 // xb200_auto_filter_selection
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 88
-signed int xb200_auto_filter_selection(struct bladerf *dev, enum anonymous$0 mod, unsigned int frequency)
+signed int xb200_auto_filter_selection(struct bladerf *dev, enum anonymous_0 mod, unsigned int frequency)
 {
   signed int status;
-  enum anonymous$10 filter;
+  enum anonymous_10 filter;
   if(frequency >= 300000000u)
     return 0;
 
@@ -22675,18 +22675,18 @@ signed int xb200_auto_filter_selection(struct bladerf *dev, enum anonymous$0 mod
       if((signed int)dev->auto_filter[(signed long int)mod] == BLADERF_XB200_AUTO_1DB)
       {
         if(frequency >= 37774405u && !(frequency >= 59535437u))
-          filter = (enum anonymous$10)BLADERF_XB200_50M;
+          filter = (enum anonymous_10)BLADERF_XB200_50M;
 
         else
           if(frequency >= 128326173u && !(frequency >= 166711172u))
-            filter = (enum anonymous$10)BLADERF_XB200_144M;
+            filter = (enum anonymous_10)BLADERF_XB200_144M;
 
           else
             if(frequency >= 187593160u && !(frequency >= 245346404u))
-              filter = (enum anonymous$10)BLADERF_XB200_222M;
+              filter = (enum anonymous_10)BLADERF_XB200_222M;
 
             else
-              filter = (enum anonymous$10)BLADERF_XB200_CUSTOM;
+              filter = (enum anonymous_10)BLADERF_XB200_CUSTOM;
         status=set_filterbank_mux(dev, mod, filter);
       }
 
@@ -22694,18 +22694,18 @@ signed int xb200_auto_filter_selection(struct bladerf *dev, enum anonymous$0 mod
         if((signed int)dev->auto_filter[(signed long int)mod] == BLADERF_XB200_AUTO_3DB)
         {
           if(frequency >= 34782924u && !(frequency >= 61899261u))
-            filter = (enum anonymous$10)BLADERF_XB200_50M;
+            filter = (enum anonymous_10)BLADERF_XB200_50M;
 
           else
             if(frequency >= 121956957u && !(frequency >= 178444100u))
-              filter = (enum anonymous$10)BLADERF_XB200_144M;
+              filter = (enum anonymous_10)BLADERF_XB200_144M;
 
             else
               if(frequency >= 177522675u && !(frequency >= 260140936u))
-                filter = (enum anonymous$10)BLADERF_XB200_222M;
+                filter = (enum anonymous_10)BLADERF_XB200_222M;
 
               else
-                filter = (enum anonymous$10)BLADERF_XB200_CUSTOM;
+                filter = (enum anonymous_10)BLADERF_XB200_CUSTOM;
           status=set_filterbank_mux(dev, mod, filter);
         }
 
@@ -22747,7 +22747,7 @@ signed int xb200_enable(struct bladerf *dev, _Bool enable)
 
 // xb200_get_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 101
-signed int xb200_get_filterbank(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 *filter)
+signed int xb200_get_filterbank(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 *filter)
 {
   signed int status;
   unsigned int val;
@@ -22769,7 +22769,7 @@ signed int xb200_get_filterbank(struct bladerf *dev, enum anonymous$0 module, en
 
       else
         shift = (unsigned int)26;
-      *filter = (enum anonymous$10)(val >> shift & (unsigned int)3);
+      *filter = (enum anonymous_10)(val >> shift & (unsigned int)3);
       status=check_xb200_filter(*filter);
       if(!(status == 0))
       {
@@ -22784,7 +22784,7 @@ signed int xb200_get_filterbank(struct bladerf *dev, enum anonymous$0 module, en
 
 // xb200_get_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 126
-signed int xb200_get_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 *path)
+signed int xb200_get_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 *path)
 {
   signed int status;
   unsigned int val;
@@ -22801,11 +22801,11 @@ signed int xb200_get_path(struct bladerf *dev, enum anonymous$0 module, enum ano
     else
     {
       if((signed int)module == BLADERF_MODULE_RX)
-        *path = (enum anonymous$35)((val & (unsigned int)0x10) != 0u ? BLADERF_XB200_MIX : BLADERF_XB200_BYPASS);
+        *path = (enum anonymous_35)((val & (unsigned int)0x10) != 0u ? BLADERF_XB200_MIX : BLADERF_XB200_BYPASS);
 
       else
         if((signed int)module == BLADERF_MODULE_TX)
-          *path = (enum anonymous$35)((val & (unsigned int)0x04) != 0u ? BLADERF_XB200_MIX : BLADERF_XB200_BYPASS);
+          *path = (enum anonymous_35)((val & (unsigned int)0x04) != 0u ? BLADERF_XB200_MIX : BLADERF_XB200_BYPASS);
 
       return 0;
     }
@@ -22814,7 +22814,7 @@ signed int xb200_get_path(struct bladerf *dev, enum anonymous$0 module, enum ano
 
 // xb200_set_filterbank
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 75
-signed int xb200_set_filterbank(struct bladerf *dev, enum anonymous$0 module, enum anonymous$10 filter)
+signed int xb200_set_filterbank(struct bladerf *dev, enum anonymous_0 module, enum anonymous_10 filter)
 {
   signed int status = 0;
   unsigned int frequency;
@@ -22841,7 +22841,7 @@ signed int xb200_set_filterbank(struct bladerf *dev, enum anonymous$0 module, en
 
       else
       {
-        dev->auto_filter[(signed long int)module] = (enum anonymous$10)-1;
+        dev->auto_filter[(signed long int)module] = (enum anonymous_10)-1;
         status=set_filterbank_mux(dev, module, filter);
       }
       return status;
@@ -22851,7 +22851,7 @@ signed int xb200_set_filterbank(struct bladerf *dev, enum anonymous$0 module, en
 
 // xb200_set_path
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 113
-signed int xb200_set_path(struct bladerf *dev, enum anonymous$0 module, enum anonymous$35 path)
+signed int xb200_set_path(struct bladerf *dev, enum anonymous_0 module, enum anonymous_35 path)
 {
   signed int status;
   unsigned int val;
@@ -22942,16 +22942,16 @@ signed int xb200_set_path(struct bladerf *dev, enum anonymous$0 module, enum ano
 
 // xb_attach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 54
-signed int xb_attach(struct bladerf *dev, enum anonymous$8 xb)
+signed int xb_attach(struct bladerf *dev, enum anonymous_8 xb)
 {
-  enum anonymous$8 attached;
+  enum anonymous_8 attached;
   signed int status;
   status=xb_get_attached(dev, &attached);
-  _Bool return_value_have_cap$1;
+  _Bool return_value_have_cap_1;
   unsigned int mask;
   unsigned int outputs;
   unsigned int default_values;
-  _Bool return_value_have_cap$2;
+  _Bool return_value_have_cap_2;
   if(!(status == 0))
     return status;
 
@@ -22970,8 +22970,8 @@ signed int xb_attach(struct bladerf *dev, enum anonymous$8 xb)
       {
         case BLADERF_XB_100:
         {
-          return_value_have_cap$1=have_cap$link3(dev, (unsigned long int)(1 << 7));
-          if(return_value_have_cap$1 == (_Bool)0)
+          return_value_have_cap_1=have_cap_link3(dev, (unsigned long int)(1 << 7));
+          if(return_value_have_cap_1 == (_Bool)0)
           {
             do
               log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ xb.c:175] %s: XB100 support requires FPGA v0.4.1 or later.\n", (const void *)"xb_attach");
@@ -22986,8 +22986,8 @@ signed int xb_attach(struct bladerf *dev, enum anonymous$8 xb)
         }
         case BLADERF_XB_200:
         {
-          return_value_have_cap$2=have_cap$link3(dev, (unsigned long int)(1 << 1));
-          if(return_value_have_cap$2 == (_Bool)0)
+          return_value_have_cap_2=have_cap_link3(dev, (unsigned long int)(1 << 1));
+          if(return_value_have_cap_2 == (_Bool)0)
           {
             do
               log_write((enum anonymous)BLADERF_LOG_LEVEL_DEBUG, "[DEBUG @ xb.c:205] %s: XB200 support requires FPGA v0.0.5 or later\n", (const void *)"xb_attach");
@@ -23015,14 +23015,14 @@ signed int xb_attach(struct bladerf *dev, enum anonymous$8 xb)
               do
                 log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ xb.c:218] Setting RX path\n");
               while((_Bool)0);
-              status=xb200_set_path(dev, (enum anonymous$0)BLADERF_MODULE_RX, (enum anonymous$35)BLADERF_XB200_BYPASS);
+              status=xb200_set_path(dev, (enum anonymous_0)BLADERF_MODULE_RX, (enum anonymous_35)BLADERF_XB200_BYPASS);
               if(!(status == 0))
                 break;
 
               do
                 log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ xb.c:223] Setting TX path\n");
               while((_Bool)0);
-              status=xb200_set_path(dev, (enum anonymous$0)BLADERF_MODULE_TX, (enum anonymous$35)BLADERF_XB200_BYPASS);
+              status=xb200_set_path(dev, (enum anonymous_0)BLADERF_MODULE_TX, (enum anonymous_35)BLADERF_XB200_BYPASS);
             }
 
           if(!(status == 0))
@@ -23031,14 +23031,14 @@ signed int xb_attach(struct bladerf *dev, enum anonymous$8 xb)
           do
             log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ xb.c:229] Setting RX filter\n");
           while((_Bool)0);
-          status=xb200_set_filterbank(dev, (enum anonymous$0)BLADERF_MODULE_RX, (enum anonymous$10)BLADERF_XB200_AUTO_1DB);
+          status=xb200_set_filterbank(dev, (enum anonymous_0)BLADERF_MODULE_RX, (enum anonymous_10)BLADERF_XB200_AUTO_1DB);
           if(!(status == 0))
             break;
 
           do
             log_write((enum anonymous)BLADERF_LOG_LEVEL_VERBOSE, "[VERBOSE @ xb.c:234] Setting TX filter\n");
           while((_Bool)0);
-          status=xb200_set_filterbank(dev, (enum anonymous$0)BLADERF_MODULE_TX, (enum anonymous$10)BLADERF_XB200_AUTO_1DB);
+          status=xb200_set_filterbank(dev, (enum anonymous_0)BLADERF_MODULE_TX, (enum anonymous_10)BLADERF_XB200_AUTO_1DB);
           break;
         }
         case BLADERF_XB_NONE:
@@ -23066,7 +23066,7 @@ signed int xb_attach(struct bladerf *dev, enum anonymous$8 xb)
 
 // xb_get_attached
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/xb.h line 64
-signed int xb_get_attached(struct bladerf *dev, enum anonymous$8 *xb)
+signed int xb_get_attached(struct bladerf *dev, enum anonymous_8 *xb)
 {
   signed int status;
   unsigned int val;
@@ -23076,7 +23076,7 @@ signed int xb_get_attached(struct bladerf *dev, enum anonymous$8 *xb)
 
   else
   {
-    *xb = (enum anonymous$8)(val >> 30 & (unsigned int)0x3);
+    *xb = (enum anonymous_8)(val >> 30 & (unsigned int)0x3);
     return 0;
   }
 }
@@ -23090,12 +23090,12 @@ static void zero_argvs(signed int start, signed int end, char **argv)
     argv[(signed long int)i] = (char *)(void *)0;
 }
 
-// zero_argvs$link1
+// zero_argvs_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/common/src/conversions.c line 297
-static void zero_argvs$link1(signed int start$link1, signed int end$link1, char **argv$link1)
+static void zero_argvs_link1(signed int start_link1, signed int end_link1, char **argv_link1)
 {
-  signed int i$link1 = start$link1;
-  for( ; end$link1 >= i$link1; i$link1 = i$link1 + 1)
-    argv$link1[(signed long int)i$link1] = (char *)(void *)0;
+  signed int i_link1 = start_link1;
+  for( ; end_link1 >= i_link1; i_link1 = i_link1 + 1)
+    argv_link1[(signed long int)i_link1] = (char *)(void *)0;
 }
 

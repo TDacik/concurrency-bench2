@@ -1,114 +1,114 @@
-// #anon_enum$AO_BYTE_TS_clear=0$AO_BYTE_TS_set=255
+// #anon_enum_AO_BYTE_TS_clear=0_AO_BYTE_TS_set=255
 // file /usr/include/atomic_ops/sysdeps/test_and_set_t_is_char.h line 30
-enum anonymous$9 { AO_BYTE_TS_clear=0, AO_BYTE_TS_set=255 };
+enum anonymous_9 { AO_BYTE_TS_clear=0, AO_BYTE_TS_set=255 };
 
-// #anon_enum$RT_CONSISTENT=0$RT_ADD=1$RT_DELETE=2
+// #anon_enum_RT_CONSISTENT=0_RT_ADD=1_RT_DELETE=2
 // file /usr/include/link.h line 54
-enum anonymous$23 { RT_CONSISTENT=0, RT_ADD=1, RT_DELETE=2 };
+enum anonymous_23 { RT_CONSISTENT=0, RT_ADD=1, RT_DELETE=2 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']
+// tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 126
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']
+// tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 111
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']
+// tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{cS8}$cS8$'oh_string'|U64'oh_int'|U64'oh_sz'|U64'oh_sf']
+// tag-#anon#ST[*{cS8}_cS8_'oh_string'|U64'oh_int'|U64'oh_sz'|U64'oh_sf']
 // file ./include/private/dbg_mlc.h line 57
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[ARR16{U8}$U8$'e_ident'|U16'e_type'|U16'e_machine'|U32'e_version'|U64'e_entry'|U64'e_phoff'|U64'e_shoff'|U32'e_flags'|U16'e_ehsize'|U16'e_phentsize'|U16'e_phnum'|U16'e_shentsize'|U16'e_shnum'|U16'e_shstrndx']
+// tag-#anon#ST[ARR16{U8}_U8_'e_ident'|U16'e_type'|U16'e_machine'|U32'e_version'|U64'e_entry'|U64'e_phoff'|U64'e_shoff'|U32'e_flags'|U16'e_ehsize'|U16'e_phentsize'|U16'e_phnum'|U16'e_shentsize'|U16'e_shnum'|U16'e_shstrndx']
 // file /usr/include/elf.h line 85
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'|S32'__mask_was_saved'|U32'$pad0']#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'|S32'__mask_was_saved'|U32'$pad0']#$'__cancel_jmp_buf'|ARR4{*{V}$V$}$*{V}$V$$'__pad']
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'|S32'__mask_was_saved'|U32'_pad0']#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'|S32'__mask_was_saved'|U32'_pad0']#_'__cancel_jmp_buf'|ARR4{*{V}_V_}_*{V}_V__'__pad']
 // file /usr/include/pthread.h line 523
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[ARR23{S64}$S64$'gregs'|*{SYM#tag-_libc_fpstate#}$SYM#tag-_libc_fpstate#$'fpregs'|ARR8{U64}$U64$'__reserved1']
+// tag-#anon#ST[ARR23{S64}_S64_'gregs'|*{SYM#tag-_libc_fpstate#}_SYM#tag-_libc_fpstate#_'fpregs'|ARR8{U64}_U64_'__reserved1']
 // file /usr/include/x86_64-linux-gnu/sys/ucontext.h line 124
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'|S32'__mask_was_saved'|U32'$pad0']
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'|S32'__mask_was_saved'|U32'_pad0']
 // file /usr/include/pthread.h line 525
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']
+// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
+// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S64'd_tag'|SYM#tag-#anon#UN[U64'd_val'|U64'd_ptr']#'d_un']
 // file /usr/include/elf.h line 688
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']
+// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 119
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[U32'p_type'|U32'p_flags'|U64'p_offset'|U64'p_vaddr'|U64'p_paddr'|U64'p_filesz'|U64'p_memsz'|U64'p_align']
 // file /usr/include/elf.h line 579
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[U64'ed_bitmap'|S32'ed_continued'|U32'$pad0']
+// tag-#anon#ST[U64'ed_bitmap'|S32'ed_continued'|U32'_pad0']
 // file typd_mlc.c line 57
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V$'sa_sigaction']
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V_'sa_sigaction']
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR257{S8}$S8$'_hb_marks'|U64'dummy'|U2112'$pad']
+// tag-#anon#UN[ARR257{S8}_S8_'_hb_marks'|U64'dummy'|U2112'_pad']
 // file ./include/private/gc_priv.h line 959
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[ARR32{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[U64'd_val'|U64'd_ptr']
 // file /usr/include/elf.h line 691
-union anonymous$21;
+union anonymous_21;
 
 // tag-ComplexArrayDescriptor
 // file typd_mlc.c line 76
@@ -315,174 +315,174 @@ union word_ptr_ao_u;
 // AO_char_store
 // file /usr/include/atomic_ops/sysdeps/loadstore/char_atomic_store.h line 28
 static inline void AO_char_store(volatile unsigned char *addr, unsigned char new_val);
-// AO_char_store$link1
+// AO_char_store_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/char_atomic_store.h line 28
-static inline void AO_char_store$link1(volatile unsigned char *addr$link1, unsigned char new_val$link1);
-// AO_char_store$link2
+static inline void AO_char_store_link1(volatile unsigned char *addr_link1, unsigned char new_val_link1);
+// AO_char_store_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/char_atomic_store.h line 28
-static inline void AO_char_store$link2(volatile unsigned char *addr$link2, unsigned char new_val$link2);
+static inline void AO_char_store_link2(volatile unsigned char *addr_link2, unsigned char new_val_link2);
 // AO_compare_and_swap_full
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
 static inline signed int AO_compare_and_swap_full(volatile unsigned long int *addr, unsigned long int old, unsigned long int new_val);
-// AO_compare_and_swap_full$link1
+// AO_compare_and_swap_full_link1
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link1(volatile unsigned long int *addr$link1, unsigned long int old$link1, unsigned long int new_val$link1);
-// AO_compare_and_swap_full$link1$link1
+static inline signed int AO_compare_and_swap_full_link1(volatile unsigned long int *addr_link1, unsigned long int old_link1, unsigned long int new_val_link1);
+// AO_compare_and_swap_full_link1_link1
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link1$link1(volatile unsigned long int *addr$link1$link1, unsigned long int old$link1$link1, unsigned long int new_val$link1$link1);
-// AO_compare_and_swap_full$link1$link2
+static inline signed int AO_compare_and_swap_full_link1_link1(volatile unsigned long int *addr_link1_link1, unsigned long int old_link1_link1, unsigned long int new_val_link1_link1);
+// AO_compare_and_swap_full_link1_link2
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link1$link2(volatile unsigned long int *addr$link1$link2, unsigned long int old$link1$link2, unsigned long int new_val$link1$link2);
-// AO_compare_and_swap_full$link2
+static inline signed int AO_compare_and_swap_full_link1_link2(volatile unsigned long int *addr_link1_link2, unsigned long int old_link1_link2, unsigned long int new_val_link1_link2);
+// AO_compare_and_swap_full_link2
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link2(volatile unsigned long int *addr$link2, unsigned long int old$link2, unsigned long int new_val$link2);
-// AO_compare_and_swap_full$link3
+static inline signed int AO_compare_and_swap_full_link2(volatile unsigned long int *addr_link2, unsigned long int old_link2, unsigned long int new_val_link2);
+// AO_compare_and_swap_full_link3
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link3(volatile unsigned long int *addr$link3, unsigned long int old$link3, unsigned long int new_val$link3);
+static inline signed int AO_compare_and_swap_full_link3(volatile unsigned long int *addr_link3, unsigned long int old_link3, unsigned long int new_val_link3);
 // AO_fetch_and_add
 // file /usr/include/atomic_ops/generalize-arithm.h line 2726
 static inline unsigned long int AO_fetch_and_add(volatile unsigned long int *addr, unsigned long int incr);
-// AO_fetch_and_add$link1
+// AO_fetch_and_add_link1
 // file /usr/include/atomic_ops/generalize-arithm.h line 2726
-static inline unsigned long int AO_fetch_and_add$link1(volatile unsigned long int *addr$link1, unsigned long int incr$link1);
-// AO_fetch_and_add$link2
+static inline unsigned long int AO_fetch_and_add_link1(volatile unsigned long int *addr_link1, unsigned long int incr_link1);
+// AO_fetch_and_add_link2
 // file /usr/include/atomic_ops/generalize-arithm.h line 2726
-static inline unsigned long int AO_fetch_and_add$link2(volatile unsigned long int *addr$link2, unsigned long int incr$link2);
+static inline unsigned long int AO_fetch_and_add_link2(volatile unsigned long int *addr_link2, unsigned long int incr_link2);
 // AO_load
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
 static inline unsigned long int AO_load(const volatile unsigned long int *addr);
-// AO_load$link1
+// AO_load_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link1(const volatile unsigned long int *addr$link1);
-// AO_load$link1$link1
+static inline unsigned long int AO_load_link1(const volatile unsigned long int *addr_link1);
+// AO_load_link1_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link1$link1(const volatile unsigned long int *addr$link1$link1);
-// AO_load$link1$link2
+static inline unsigned long int AO_load_link1_link1(const volatile unsigned long int *addr_link1_link1);
+// AO_load_link1_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link1$link2(const volatile unsigned long int *addr$link1$link2);
-// AO_load$link2
+static inline unsigned long int AO_load_link1_link2(const volatile unsigned long int *addr_link1_link2);
+// AO_load_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link2(const volatile unsigned long int *addr$link2);
-// AO_load$link2$link1
+static inline unsigned long int AO_load_link2(const volatile unsigned long int *addr_link2);
+// AO_load_link2_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link2$link1(const volatile unsigned long int *addr$link2$link1);
-// AO_load$link2$link2
+static inline unsigned long int AO_load_link2_link1(const volatile unsigned long int *addr_link2_link1);
+// AO_load_link2_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link2$link2(const volatile unsigned long int *addr$link2$link2);
-// AO_load$link3
+static inline unsigned long int AO_load_link2_link2(const volatile unsigned long int *addr_link2_link2);
+// AO_load_link3
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link3(const volatile unsigned long int *addr$link3);
-// AO_load$link3$link1
+static inline unsigned long int AO_load_link3(const volatile unsigned long int *addr_link3);
+// AO_load_link3_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link3$link1(const volatile unsigned long int *addr$link3$link1);
-// AO_load$link3$link2
+static inline unsigned long int AO_load_link3_link1(const volatile unsigned long int *addr_link3_link1);
+// AO_load_link3_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link3$link2(const volatile unsigned long int *addr$link3$link2);
-// AO_load$link4
+static inline unsigned long int AO_load_link3_link2(const volatile unsigned long int *addr_link3_link2);
+// AO_load_link4
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link4(const volatile unsigned long int *addr$link4);
-// AO_load$link5
+static inline unsigned long int AO_load_link4(const volatile unsigned long int *addr_link4);
+// AO_load_link5
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link5(const volatile unsigned long int *addr$link5);
+static inline unsigned long int AO_load_link5(const volatile unsigned long int *addr_link5);
 // AO_load_read
 // file /usr/include/atomic_ops/generalize-small.h line 1856
 static inline unsigned long int AO_load_read(const volatile unsigned long int *addr);
-// AO_load_read$link1
+// AO_load_read_link1
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link1(const volatile unsigned long int *addr$link1);
-// AO_load_read$link1$link1
+static inline unsigned long int AO_load_read_link1(const volatile unsigned long int *addr_link1);
+// AO_load_read_link1_link1
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link1$link1(const volatile unsigned long int *addr$link1$link1);
-// AO_load_read$link1$link2
+static inline unsigned long int AO_load_read_link1_link1(const volatile unsigned long int *addr_link1_link1);
+// AO_load_read_link1_link2
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link1$link2(const volatile unsigned long int *addr$link1$link2);
-// AO_load_read$link2
+static inline unsigned long int AO_load_read_link1_link2(const volatile unsigned long int *addr_link1_link2);
+// AO_load_read_link2
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link2(const volatile unsigned long int *addr$link2);
-// AO_load_read$link3
+static inline unsigned long int AO_load_read_link2(const volatile unsigned long int *addr_link2);
+// AO_load_read_link3
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link3(const volatile unsigned long int *addr$link3);
+static inline unsigned long int AO_load_read_link3(const volatile unsigned long int *addr_link3);
 // AO_nop_read
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
 static inline void AO_nop_read(void);
-// AO_nop_read$link1
+// AO_nop_read_link1
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link1(void);
-// AO_nop_read$link1$link1
+static inline void AO_nop_read_link1(void);
+// AO_nop_read_link1_link1
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link1$link1(void);
-// AO_nop_read$link1$link2
+static inline void AO_nop_read_link1_link1(void);
+// AO_nop_read_link1_link2
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link1$link2(void);
-// AO_nop_read$link2
+static inline void AO_nop_read_link1_link2(void);
+// AO_nop_read_link2
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link2(void);
-// AO_nop_read$link3
+static inline void AO_nop_read_link2(void);
+// AO_nop_read_link3
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link3(void);
+static inline void AO_nop_read_link3(void);
 // AO_nop_write
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
 static inline void AO_nop_write(void);
-// AO_nop_write$link1
+// AO_nop_write_link1
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link1(void);
-// AO_nop_write$link1$link1
+static inline void AO_nop_write_link1(void);
+// AO_nop_write_link1_link1
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link1$link1(void);
-// AO_nop_write$link1$link2
+static inline void AO_nop_write_link1_link1(void);
+// AO_nop_write_link1_link2
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link1$link2(void);
-// AO_nop_write$link2
+static inline void AO_nop_write_link1_link2(void);
+// AO_nop_write_link2
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link2(void);
-// AO_nop_write$link2$link1
+static inline void AO_nop_write_link2(void);
+// AO_nop_write_link2_link1
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link2$link1(void);
-// AO_nop_write$link2$link2
+static inline void AO_nop_write_link2_link1(void);
+// AO_nop_write_link2_link2
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link2$link2(void);
-// AO_nop_write$link3
+static inline void AO_nop_write_link2_link2(void);
+// AO_nop_write_link3
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link3(void);
-// AO_nop_write$link4
+static inline void AO_nop_write_link3(void);
+// AO_nop_write_link4
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link4(void);
+static inline void AO_nop_write_link4(void);
 // AO_store
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
 static inline void AO_store(volatile unsigned long int *addr, unsigned long int new_val);
-// AO_store$link1
+// AO_store_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link1(volatile unsigned long int *addr$link1, unsigned long int new_val$link1);
-// AO_store$link1$link1
+static inline void AO_store_link1(volatile unsigned long int *addr_link1, unsigned long int new_val_link1);
+// AO_store_link1_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link1$link1(volatile unsigned long int *addr$link1$link1, unsigned long int new_val$link1$link1);
-// AO_store$link1$link2
+static inline void AO_store_link1_link1(volatile unsigned long int *addr_link1_link1, unsigned long int new_val_link1_link1);
+// AO_store_link1_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link1$link2(volatile unsigned long int *addr$link1$link2, unsigned long int new_val$link1$link2);
-// AO_store$link2
+static inline void AO_store_link1_link2(volatile unsigned long int *addr_link1_link2, unsigned long int new_val_link1_link2);
+// AO_store_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link2(volatile unsigned long int *addr$link2, unsigned long int new_val$link2);
-// AO_store$link2$link1
+static inline void AO_store_link2(volatile unsigned long int *addr_link2, unsigned long int new_val_link2);
+// AO_store_link2_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link2$link1(volatile unsigned long int *addr$link2$link1, unsigned long int new_val$link2$link1);
-// AO_store$link2$link2
+static inline void AO_store_link2_link1(volatile unsigned long int *addr_link2_link1, unsigned long int new_val_link2_link1);
+// AO_store_link2_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link2$link2(volatile unsigned long int *addr$link2$link2, unsigned long int new_val$link2$link2);
-// AO_store$link3
+static inline void AO_store_link2_link2(volatile unsigned long int *addr_link2_link2, unsigned long int new_val_link2_link2);
+// AO_store_link3
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link3(volatile unsigned long int *addr$link3, unsigned long int new_val$link3);
-// AO_store$link4
+static inline void AO_store_link3(volatile unsigned long int *addr_link3, unsigned long int new_val_link3);
+// AO_store_link4
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link4(volatile unsigned long int *addr$link4, unsigned long int new_val$link4);
+static inline void AO_store_link4(volatile unsigned long int *addr_link4, unsigned long int new_val_link4);
 // AO_test_and_set_full
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$9 AO_test_and_set_full(volatile unsigned char *addr);
-// AO_test_and_set_full$link1
+static inline enum anonymous_9 AO_test_and_set_full(volatile unsigned char *addr);
+// AO_test_and_set_full_link1
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$9 AO_test_and_set_full$link1(volatile unsigned char *addr$link1);
-// AO_test_and_set_full$link2
+static inline enum anonymous_9 AO_test_and_set_full_link1(volatile unsigned char *addr_link1);
+// AO_test_and_set_full_link2
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$9 AO_test_and_set_full$link2(volatile unsigned char *addr$link2);
+static inline enum anonymous_9 AO_test_and_set_full_link2(volatile unsigned char *addr_link2);
 // GC_FirstDLOpenedLinkMap
 // file dyn_load.c line 678
 struct link_map * GC_FirstDLOpenedLinkMap(void);
@@ -495,12 +495,12 @@ signed long int GC_add_ext_descriptor(const unsigned long int *bm, unsigned long
 // GC_add_leaked
 // file reclaim.c line 52
 static inline void GC_add_leaked(char *leaked);
-// GC_add_leaked$link1
+// GC_add_leaked_link1
 // file reclaim.c line 52
-static inline void GC_add_leaked$link1(char *leaked$link1);
-// GC_add_leaked$link2
+static inline void GC_add_leaked_link1(char *leaked_link1);
+// GC_add_leaked_link2
 // file reclaim.c line 52
-static inline void GC_add_leaked$link2(char *leaked$link2);
+static inline void GC_add_leaked_link2(char *leaked_link2);
 // GC_add_map_entry
 // file ./include/private/gc_priv.h line 1734
 signed int GC_add_map_entry(unsigned long int granules);
@@ -552,15 +552,15 @@ extern void GC_allow_register_threads(void);
 // GC_apply_to_all_blocks
 // file ./include/private/gc_priv.h line 1542
 void GC_apply_to_all_blocks(void (*fn)(struct hblk *, unsigned long int), unsigned long int client_data);
-// GC_apply_to_all_blocks::fn$link1$object
+// GC_apply_to_all_blocks::fn_link1_object
 //
-void fn$link1$object(struct hblk *, unsigned long int);
-// GC_apply_to_all_blocks::fn$link2$object
+void fn_link1_object(struct hblk *, unsigned long int);
+// GC_apply_to_all_blocks::fn_link2_object
 //
-void fn$link2$object(struct hblk *, unsigned long int);
-// GC_apply_to_all_blocks::fn$object
+void fn_link2_object(struct hblk *, unsigned long int);
+// GC_apply_to_all_blocks::fn_object
 //
-void fn$object(struct hblk *, unsigned long int);
+void fn_object(struct hblk *, unsigned long int);
 // GC_approx_sp
 // file ./include/private/gc_priv.h line 1538
 char * GC_approx_sp(void);
@@ -612,39 +612,39 @@ char * GC_build_fl_clear4(struct hblk *h, char *ofl);
 // GC_call_with_alloc_lock
 // file misc.c line 1814
 extern void * GC_call_with_alloc_lock(void * (*fn)(void *), void *client_data);
-// GC_call_with_alloc_lock::fn$link1$object
+// GC_call_with_alloc_lock::fn_link1_object
 //
-void * fn$link1$object(void *);
-// GC_call_with_alloc_lock::fn$link2$object
+void * fn_link1_object(void *);
+// GC_call_with_alloc_lock::fn_link2_object
 //
-void * fn$link2$object(void *);
-// GC_call_with_alloc_lock::fn$object
+void * fn_link2_object(void *);
+// GC_call_with_alloc_lock::fn_object
 //
-void * fn$object(void *);
+void * fn_object(void *);
 // GC_call_with_gc_active
 // file pthread_support.c line 1244
 extern void * GC_call_with_gc_active(void * (*fn)(void *), void *client_data);
-// GC_call_with_gc_active::fn$link1$object
+// GC_call_with_gc_active::fn_link1_object
 //
-void * fn$link1$object(void *);
-// GC_call_with_gc_active::fn$link2$object
+void * fn_link1_object(void *);
+// GC_call_with_gc_active::fn_link2_object
 //
-void * fn$link2$object(void *);
-// GC_call_with_gc_active::fn$object
+void * fn_link2_object(void *);
+// GC_call_with_gc_active::fn_object
 //
-void * fn$object(void *);
+void * fn_object(void *);
 // GC_call_with_stack_base
 // file misc.c line 1829
 extern void * GC_call_with_stack_base(void * (*fn)(struct GC_stack_base *, void *), void *arg);
-// GC_call_with_stack_base::fn$link1$object
+// GC_call_with_stack_base::fn_link1_object
 //
-void * fn$link1$object(struct GC_stack_base *, void *);
-// GC_call_with_stack_base::fn$link2$object
+void * fn_link1_object(struct GC_stack_base *, void *);
+// GC_call_with_stack_base::fn_link2_object
 //
-void * fn$link2$object(struct GC_stack_base *, void *);
-// GC_call_with_stack_base::fn$object
+void * fn_link2_object(struct GC_stack_base *, void *);
+// GC_call_with_stack_base::fn_object
 //
-void * fn$object(struct GC_stack_base *, void *);
+void * fn_object(struct GC_stack_base *, void *);
 // GC_calloc_explicitly_typed
 // file typd_mlc.c line 658
 extern void * GC_calloc_explicitly_typed(unsigned long int n, unsigned long int lb, unsigned long int d);
@@ -653,13 +653,13 @@ extern void * GC_calloc_explicitly_typed(unsigned long int n, unsigned long int 
 extern void GC_change_stubborn(const void *p);
 // GC_check_annotated_obj
 // file dbg_mlc.c line 295
-char * GC_check_annotated_obj(struct anonymous$18 *ohdr);
+char * GC_check_annotated_obj(struct anonymous_18 *ohdr);
 // GC_check_finalizer_nested
 // file ./include/private/gc_priv.h line 2270
 unsigned char * GC_check_finalizer_nested(void);
-// GC_check_heap$object
+// GC_check_heap_object
 //
-void GC_check_heap$object(void);
+void GC_check_heap_object(void);
 // GC_check_heap_block
 // file dbg_mlc.c line 979
 void GC_check_heap_block(struct hblk *hbp, unsigned long int dummy);
@@ -714,12 +714,12 @@ signed int GC_collection_in_progress(void);
 // GC_compute_heap_usage_percent
 // file alloc.c line 815
 static inline signed int GC_compute_heap_usage_percent(void);
-// GC_compute_heap_usage_percent$link1
+// GC_compute_heap_usage_percent_link1
 // file alloc.c line 815
-static inline signed int GC_compute_heap_usage_percent$link1(void);
-// GC_compute_heap_usage_percent$link2
+static inline signed int GC_compute_heap_usage_percent_link1(void);
+// GC_compute_heap_usage_percent_link2
 // file alloc.c line 815
-static inline signed int GC_compute_heap_usage_percent$link2(void);
+static inline signed int GC_compute_heap_usage_percent_link2(void);
 // GC_compute_large_free_bytes
 // file allchblk.c line 104
 unsigned long int GC_compute_large_free_bytes(void);
@@ -741,33 +741,33 @@ void * GC_core_finalized_malloc(unsigned long int lb, struct GC_finalizer_closur
 // GC_core_gcj_malloc
 // file gcj_mlc.c line 159
 void * GC_core_gcj_malloc(unsigned long int lb, void *ptr_to_struct_containing_descr);
-// GC_core_gcj_malloc::1::1::2::1::oom_fn$link1$object
+// GC_core_gcj_malloc::1::1::2::1::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_core_gcj_malloc::1::1::2::1::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_core_gcj_malloc::1::1::2::1::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_core_gcj_malloc::1::1::2::1::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_core_gcj_malloc::1::1::2::1::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
-// GC_core_gcj_malloc::1::2::2::oom_fn$link1$object
+void * oom_fn_object(unsigned long int);
+// GC_core_gcj_malloc::1::2::2::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_core_gcj_malloc::1::2::2::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_core_gcj_malloc::1::2::2::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_core_gcj_malloc::1::2::2::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_core_gcj_malloc::1::2::2::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
+void * oom_fn_object(unsigned long int);
 // GC_core_malloc
 // file malloc.c line 257
 void * GC_core_malloc(unsigned long int lb);
 // GC_core_malloc_atomic
 // file malloc.c line 227
 void * GC_core_malloc_atomic(unsigned long int lb);
-// GC_current_warn_proc$object
+// GC_current_warn_proc_object
 //
-void GC_current_warn_proc$object(char *, unsigned long int);
+void GC_current_warn_proc_object(char *, unsigned long int);
 // GC_debug_change_stubborn
 // file dbg_mlc.c line 667
 extern void GC_debug_change_stubborn(const void *p);
@@ -780,15 +780,15 @@ extern void GC_debug_free(void *p);
 // GC_debug_gcj_malloc
 // file gcj_mlc.c line 209
 extern void * GC_debug_gcj_malloc(unsigned long int lb, void *ptr_to_struct_containing_descr, const char *s, signed int i);
-// GC_debug_gcj_malloc::1::2::oom_fn$link1$object
+// GC_debug_gcj_malloc::1::2::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_debug_gcj_malloc::1::2::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_debug_gcj_malloc::1::2::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_debug_gcj_malloc::1::2::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_debug_gcj_malloc::1::2::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
+void * oom_fn_object(unsigned long int);
 // GC_debug_invoke_finalizer
 // file dbg_mlc.c line 1065
 void GC_debug_invoke_finalizer(void *obj, void *data);
@@ -831,123 +831,123 @@ extern void GC_debug_register_displacement(unsigned long int offset);
 // GC_debug_register_finalizer
 // file dbg_mlc.c line 1098
 extern void GC_debug_register_finalizer(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer::1::my_old_fn$link1$object
+// GC_debug_register_finalizer::1::my_old_fn_link1_object
 //
-void my_old_fn$link1$object(void *, void *);
-// GC_debug_register_finalizer::1::my_old_fn$link2$object
+void my_old_fn_link1_object(void *, void *);
+// GC_debug_register_finalizer::1::my_old_fn_link2_object
 //
-void my_old_fn$link2$object(void *, void *);
-// GC_debug_register_finalizer::1::my_old_fn$object
+void my_old_fn_link2_object(void *, void *);
+// GC_debug_register_finalizer::1::my_old_fn_object
 //
-void my_old_fn$object(void *, void *);
-// GC_debug_register_finalizer::fn$link1$object
+void my_old_fn_object(void *, void *);
+// GC_debug_register_finalizer::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_debug_register_finalizer::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_debug_register_finalizer::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_debug_register_finalizer::fn$object
+void fn_link2_object(void *, void *);
+// GC_debug_register_finalizer::fn_object
 //
-void fn$object(void *, void *);
-// GC_debug_register_finalizer::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_debug_register_finalizer::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_debug_register_finalizer::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_debug_register_finalizer::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_debug_register_finalizer::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_debug_register_finalizer::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_debug_register_finalizer_ignore_self
 // file dbg_mlc.c line 1185
 extern void GC_debug_register_finalizer_ignore_self(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer_ignore_self::1::my_old_fn$link1$object
+// GC_debug_register_finalizer_ignore_self::1::my_old_fn_link1_object
 //
-void my_old_fn$link1$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::1::my_old_fn$link2$object
+void my_old_fn_link1_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::1::my_old_fn_link2_object
 //
-void my_old_fn$link2$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::1::my_old_fn$object
+void my_old_fn_link2_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::1::my_old_fn_object
 //
-void my_old_fn$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::fn$link1$object
+void my_old_fn_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::fn$object
+void fn_link2_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::fn_object
 //
-void fn$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_debug_register_finalizer_ignore_self::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_debug_register_finalizer_no_order
 // file dbg_mlc.c line 1127
 extern void GC_debug_register_finalizer_no_order(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer_no_order::1::my_old_fn$link1$object
+// GC_debug_register_finalizer_no_order::1::my_old_fn_link1_object
 //
-void my_old_fn$link1$object(void *, void *);
-// GC_debug_register_finalizer_no_order::1::my_old_fn$link2$object
+void my_old_fn_link1_object(void *, void *);
+// GC_debug_register_finalizer_no_order::1::my_old_fn_link2_object
 //
-void my_old_fn$link2$object(void *, void *);
-// GC_debug_register_finalizer_no_order::1::my_old_fn$object
+void my_old_fn_link2_object(void *, void *);
+// GC_debug_register_finalizer_no_order::1::my_old_fn_object
 //
-void my_old_fn$object(void *, void *);
-// GC_debug_register_finalizer_no_order::fn$link1$object
+void my_old_fn_object(void *, void *);
+// GC_debug_register_finalizer_no_order::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_debug_register_finalizer_no_order::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_debug_register_finalizer_no_order::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_debug_register_finalizer_no_order::fn$object
+void fn_link2_object(void *, void *);
+// GC_debug_register_finalizer_no_order::fn_object
 //
-void fn$object(void *, void *);
-// GC_debug_register_finalizer_no_order::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_debug_register_finalizer_no_order::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_debug_register_finalizer_no_order::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_debug_register_finalizer_no_order::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_debug_register_finalizer_no_order::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_debug_register_finalizer_no_order::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_debug_register_finalizer_unreachable
 // file dbg_mlc.c line 1156
 extern void GC_debug_register_finalizer_unreachable(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer_unreachable::1::my_old_fn$link1$object
+// GC_debug_register_finalizer_unreachable::1::my_old_fn_link1_object
 //
-void my_old_fn$link1$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::1::my_old_fn$link2$object
+void my_old_fn_link1_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::1::my_old_fn_link2_object
 //
-void my_old_fn$link2$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::1::my_old_fn$object
+void my_old_fn_link2_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::1::my_old_fn_object
 //
-void my_old_fn$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::fn$link1$object
+void my_old_fn_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::fn$object
+void fn_link2_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::fn_object
 //
-void fn$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_debug_register_finalizer_unreachable::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_debug_register_finalizer_unreachable::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_debug_strdup
 // file dbg_mlc.c line 691
 extern char * GC_debug_strdup(const char *str, const char *s, signed int i);
@@ -975,9 +975,9 @@ void GC_default_push_other_roots(void);
 // GC_default_same_obj_print_proc
 // file ptr_chck.c line 21
 void GC_default_same_obj_print_proc(void *p, void *q);
-// GC_default_stop_func$object
+// GC_default_stop_func_object
 //
-signed int GC_default_stop_func$object(void);
+signed int GC_default_stop_func_object(void);
 // GC_default_warn_proc
 // file misc.c line 1590
 void GC_default_warn_proc(char *msg, unsigned long int arg);
@@ -1002,15 +1002,15 @@ extern void GC_disable(void);
 // GC_disclaim_and_reclaim
 // file reclaim.c line 222
 char * GC_disclaim_and_reclaim(struct hblk *hbp, struct hblkhdr *hhdr, unsigned long int sz, char *list, signed long int *count);
-// GC_disclaim_and_reclaim::1::disclaim$link1$object
+// GC_disclaim_and_reclaim::1::disclaim_link1_object
 //
-signed int disclaim$link1$object(void *);
-// GC_disclaim_and_reclaim::1::disclaim$link2$object
+signed int disclaim_link1_object(void *);
+// GC_disclaim_and_reclaim::1::disclaim_link2_object
 //
-signed int disclaim$link2$object(void *);
-// GC_disclaim_and_reclaim::1::disclaim$object
+signed int disclaim_link2_object(void *);
+// GC_disclaim_and_reclaim::1::disclaim_object
 //
-signed int disclaim$object(void *);
+signed int disclaim_object(void *);
 // GC_disclaim_and_reclaim_or_free_small_block
 // file reclaim.c line 346
 void GC_disclaim_and_reclaim_or_free_small_block(struct hblk *hbp);
@@ -1020,15 +1020,15 @@ extern void * GC_dlopen(const char *path, signed int mode);
 // GC_do_blocking
 // file misc.c line 1940
 extern void * GC_do_blocking(void * (*fn)(void *), void *client_data);
-// GC_do_blocking::fn$link1$object
+// GC_do_blocking::fn_link1_object
 //
-void * fn$link1$object(void *);
-// GC_do_blocking::fn$link2$object
+void * fn_link1_object(void *);
+// GC_do_blocking::fn_link2_object
 //
-void * fn$link2$object(void *);
-// GC_do_blocking::fn$object
+void * fn_link2_object(void *);
+// GC_do_blocking::fn_object
 //
-void * fn$object(void *);
+void * fn_object(void *);
 // GC_do_blocking_inner
 // file ./include/private/gc_priv.h line 2271
 void GC_do_blocking_inner(char *data, void *context);
@@ -1065,12 +1065,12 @@ extern void GC_end_stubborn_change(const void *p);
 // GC_enough_large_bytes_left
 // file allchblk.c line 70
 static inline signed int GC_enough_large_bytes_left(void);
-// GC_enough_large_bytes_left$link1
+// GC_enough_large_bytes_left_link1
 // file allchblk.c line 70
-static inline signed int GC_enough_large_bytes_left$link1(void);
-// GC_enough_large_bytes_left$link2
+static inline signed int GC_enough_large_bytes_left_link1(void);
+// GC_enough_large_bytes_left_link2
 // file allchblk.c line 70
-static inline signed int GC_enough_large_bytes_left$link2(void);
+static inline signed int GC_enough_large_bytes_left_link2(void);
 // GC_enqueue_all_finalizers
 // file finalize.c line 881
 void GC_enqueue_all_finalizers(void);
@@ -1113,18 +1113,18 @@ signed int GC_finalized_disclaim(void *obj);
 // GC_finalized_malloc
 // file fnlz_mlc.c line 130
 extern void * GC_finalized_malloc(unsigned long int client_lb, struct GC_finalizer_closure *fclos);
-// GC_finalized_malloc::$tmp::return_value_GC_get_oom_fn$3$link1$object
+// GC_finalized_malloc::_tmp::return_value_GC_get_oom_fn_3_link1_object
 //
-void * return_value_GC_get_oom_fn$3$link1$object(unsigned long int);
-// GC_finalized_malloc::$tmp::return_value_GC_get_oom_fn$3$link2$object
+void * return_value_GC_get_oom_fn_3_link1_object(unsigned long int);
+// GC_finalized_malloc::_tmp::return_value_GC_get_oom_fn_3_link2_object
 //
-void * return_value_GC_get_oom_fn$3$link2$object(unsigned long int);
-// GC_finalized_malloc::$tmp::return_value_GC_get_oom_fn$3$object
+void * return_value_GC_get_oom_fn_3_link2_object(unsigned long int);
+// GC_finalized_malloc::_tmp::return_value_GC_get_oom_fn_3_object
 //
-void * return_value_GC_get_oom_fn$3$object(unsigned long int);
-// GC_finalizer_notifier$object
+void * return_value_GC_get_oom_fn_3_object(unsigned long int);
+// GC_finalizer_notifier_object
 //
-void GC_finalizer_notifier$object(void);
+void GC_finalizer_notifier_object(void);
 // GC_find_header
 // file ./include/private/gc_priv.h line 1895
 struct hblkhdr * GC_find_header(char *h);
@@ -1155,36 +1155,36 @@ struct GC_ms_entry * GC_gcj_fake_mark_proc(unsigned long int *addr, struct GC_ms
 // GC_gcj_malloc
 // file thread_local_alloc.c line 240
 extern void * GC_gcj_malloc(unsigned long int bytes, void *ptr_to_struct_containing_descr);
-// GC_gcj_malloc::$tmp::return_value_GC_get_oom_fn$2$link1$object
+// GC_gcj_malloc::_tmp::return_value_GC_get_oom_fn_2_link1_object
 //
-void * return_value_GC_get_oom_fn$2$link1$object(unsigned long int);
-// GC_gcj_malloc::$tmp::return_value_GC_get_oom_fn$2$link2$object
+void * return_value_GC_get_oom_fn_2_link1_object(unsigned long int);
+// GC_gcj_malloc::_tmp::return_value_GC_get_oom_fn_2_link2_object
 //
-void * return_value_GC_get_oom_fn$2$link2$object(unsigned long int);
-// GC_gcj_malloc::$tmp::return_value_GC_get_oom_fn$2$object
+void * return_value_GC_get_oom_fn_2_link2_object(unsigned long int);
+// GC_gcj_malloc::_tmp::return_value_GC_get_oom_fn_2_object
 //
-void * return_value_GC_get_oom_fn$2$object(unsigned long int);
+void * return_value_GC_get_oom_fn_2_object(unsigned long int);
 // GC_gcj_malloc_ignore_off_page
 // file gcj_mlc.c line 237
 extern void * GC_gcj_malloc_ignore_off_page(unsigned long int lb, void *ptr_to_struct_containing_descr);
-// GC_gcj_malloc_ignore_off_page::1::1::2::1::oom_fn$link1$object
+// GC_gcj_malloc_ignore_off_page::1::1::2::1::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_gcj_malloc_ignore_off_page::1::1::2::1::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_gcj_malloc_ignore_off_page::1::1::2::1::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_gcj_malloc_ignore_off_page::1::1::2::1::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_gcj_malloc_ignore_off_page::1::1::2::1::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
-// GC_gcj_malloc_ignore_off_page::1::2::2::oom_fn$link1$object
+void * oom_fn_object(unsigned long int);
+// GC_gcj_malloc_ignore_off_page::1::2::2::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_gcj_malloc_ignore_off_page::1::2::2::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_gcj_malloc_ignore_off_page::1::2::2::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_gcj_malloc_ignore_off_page::1::2::2::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_gcj_malloc_ignore_off_page::1::2::2::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
+void * oom_fn_object(unsigned long int);
 // GC_gcollect
 // file ./include/gc.h line 542
 extern void GC_gcollect(void);
@@ -1196,49 +1196,49 @@ extern void GC_gcollect_and_unmap(void);
 extern signed int GC_general_register_disappearing_link(void **link, const void *obj);
 // GC_generic_lock
 // file pthread_support.c line 1826
-void GC_generic_lock(union anonymous$0 *lock);
+void GC_generic_lock(union anonymous_0 *lock);
 // GC_generic_malloc
 // file malloc.c line 171
 extern void * GC_generic_malloc(unsigned long int lb, signed int k);
-// GC_generic_malloc::$tmp::return_value_GC_get_oom_fn$2$link1$object
+// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_2_link1_object
 //
-void * return_value_GC_get_oom_fn$2$link1$object(unsigned long int);
-// GC_generic_malloc::$tmp::return_value_GC_get_oom_fn$2$link2$object
+void * return_value_GC_get_oom_fn_2_link1_object(unsigned long int);
+// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_2_link2_object
 //
-void * return_value_GC_get_oom_fn$2$link2$object(unsigned long int);
-// GC_generic_malloc::$tmp::return_value_GC_get_oom_fn$2$object
+void * return_value_GC_get_oom_fn_2_link2_object(unsigned long int);
+// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_2_object
 //
-void * return_value_GC_get_oom_fn$2$object(unsigned long int);
-// GC_generic_malloc::$tmp::return_value_GC_get_oom_fn$5$link1$object
+void * return_value_GC_get_oom_fn_2_object(unsigned long int);
+// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_5_link1_object
 //
-void * return_value_GC_get_oom_fn$5$link1$object(unsigned long int);
-// GC_generic_malloc::$tmp::return_value_GC_get_oom_fn$5$link2$object
+void * return_value_GC_get_oom_fn_5_link1_object(unsigned long int);
+// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_5_link2_object
 //
-void * return_value_GC_get_oom_fn$5$link2$object(unsigned long int);
-// GC_generic_malloc::$tmp::return_value_GC_get_oom_fn$5$object
+void * return_value_GC_get_oom_fn_5_link2_object(unsigned long int);
+// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_5_object
 //
-void * return_value_GC_get_oom_fn$5$object(unsigned long int);
+void * return_value_GC_get_oom_fn_5_object(unsigned long int);
 // GC_generic_malloc_ignore_off_page
 // file mallocx.c line 170
 extern void * GC_generic_malloc_ignore_off_page(unsigned long int lb, signed int k);
-// GC_generic_malloc_ignore_off_page::$tmp::return_value_GC_get_oom_fn$2$link1$object
+// GC_generic_malloc_ignore_off_page::_tmp::return_value_GC_get_oom_fn_2_link1_object
 //
-void * return_value_GC_get_oom_fn$2$link1$object(unsigned long int);
-// GC_generic_malloc_ignore_off_page::$tmp::return_value_GC_get_oom_fn$2$link2$object
+void * return_value_GC_get_oom_fn_2_link1_object(unsigned long int);
+// GC_generic_malloc_ignore_off_page::_tmp::return_value_GC_get_oom_fn_2_link2_object
 //
-void * return_value_GC_get_oom_fn$2$link2$object(unsigned long int);
-// GC_generic_malloc_ignore_off_page::$tmp::return_value_GC_get_oom_fn$2$object
+void * return_value_GC_get_oom_fn_2_link2_object(unsigned long int);
+// GC_generic_malloc_ignore_off_page::_tmp::return_value_GC_get_oom_fn_2_object
 //
-void * return_value_GC_get_oom_fn$2$object(unsigned long int);
-// GC_generic_malloc_ignore_off_page::1::3::oom_fn$link1$object
+void * return_value_GC_get_oom_fn_2_object(unsigned long int);
+// GC_generic_malloc_ignore_off_page::1::3::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_generic_malloc_ignore_off_page::1::3::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_generic_malloc_ignore_off_page::1::3::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_generic_malloc_ignore_off_page::1::3::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_generic_malloc_ignore_off_page::1::3::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
+void * oom_fn_object(unsigned long int);
 // GC_generic_malloc_inner
 // file ./include/private/gc_priv.h line 1828
 void * GC_generic_malloc_inner(unsigned long int lb, signed int k);
@@ -1254,15 +1254,15 @@ void * GC_generic_or_special_malloc(unsigned long int lb, signed int knd);
 // GC_get_abort_func
 // file misc.c line 1704
 extern void (*GC_get_abort_func(void))(const char *);
-// GC_get_abort_func::1::fn$link1$object
+// GC_get_abort_func::1::fn_link1_object
 //
-void fn$link1$object(const char *);
-// GC_get_abort_func::1::fn$link2$object
+void fn_link1_object(const char *);
+// GC_get_abort_func::1::fn_link2_object
 //
-void fn$link2$object(const char *);
-// GC_get_abort_func::1::fn$object
+void fn_link2_object(const char *);
+// GC_get_abort_func::1::fn_object
 //
-void fn$object(const char *);
+void fn_object(const char *);
 // GC_get_all_interior_pointers
 // file misc.c line 2078
 extern signed int GC_get_all_interior_pointers(void);
@@ -1284,15 +1284,15 @@ extern signed int GC_get_finalize_on_demand(void);
 // GC_get_finalizer_notifier
 // file misc.c line 2033
 extern void (*GC_get_finalizer_notifier(void))(void);
-// GC_get_finalizer_notifier::1::fn$link1$object
+// GC_get_finalizer_notifier::1::fn_link1_object
 //
-void fn$link1$object(void);
-// GC_get_finalizer_notifier::1::fn$link2$object
+void fn_link1_object(void);
+// GC_get_finalizer_notifier::1::fn_link2_object
 //
-void fn$link2$object(void);
-// GC_get_finalizer_notifier::1::fn$object
+void fn_link2_object(void);
+// GC_get_finalizer_notifier::1::fn_object
 //
-void fn$object(void);
+void fn_object(void);
 // GC_get_find_leak
 // file misc.c line 2056
 extern signed int GC_get_find_leak(void);
@@ -1347,27 +1347,27 @@ signed int GC_get_nprocs(void);
 // GC_get_on_heap_resize
 // file misc.c line 2014
 extern void (*GC_get_on_heap_resize(void))(unsigned long int);
-// GC_get_on_heap_resize::1::fn$link1$object
+// GC_get_on_heap_resize::1::fn_link1_object
 //
-void fn$link1$object(unsigned long int);
-// GC_get_on_heap_resize::1::fn$link2$object
+void fn_link1_object(unsigned long int);
+// GC_get_on_heap_resize::1::fn_link2_object
 //
-void fn$link2$object(unsigned long int);
-// GC_get_on_heap_resize::1::fn$object
+void fn_link2_object(unsigned long int);
+// GC_get_on_heap_resize::1::fn_object
 //
-void fn$object(unsigned long int);
+void fn_object(unsigned long int);
 // GC_get_oom_fn
 // file ./include/private/../gc.h line 120
 extern void * (*GC_get_oom_fn(void))(unsigned long int);
-// GC_get_oom_fn::1::fn$link1$object
+// GC_get_oom_fn::1::fn_link1_object
 //
-void * fn$link1$object(unsigned long int);
-// GC_get_oom_fn::1::fn$link2$object
+void * fn_link1_object(unsigned long int);
+// GC_get_oom_fn::1::fn_link2_object
 //
-void * fn$link2$object(unsigned long int);
-// GC_get_oom_fn::1::fn$object
+void * fn_link2_object(unsigned long int);
+// GC_get_oom_fn::1::fn_object
 //
-void * fn$object(unsigned long int);
+void * fn_object(unsigned long int);
 // GC_get_pages_executable
 // file os_dep.c line 4446
 extern signed int GC_get_pages_executable(void);
@@ -1389,27 +1389,27 @@ extern signed int GC_get_stack_base(struct GC_stack_base *b);
 // GC_get_start_callback
 // file alloc.c line 324
 extern void (*GC_get_start_callback(void))(void);
-// GC_get_start_callback::1::fn$link1$object
+// GC_get_start_callback::1::fn_link1_object
 //
-void fn$link1$object(void);
-// GC_get_start_callback::1::fn$link2$object
+void fn_link1_object(void);
+// GC_get_start_callback::1::fn_link2_object
 //
-void fn$link2$object(void);
-// GC_get_start_callback::1::fn$object
+void fn_link2_object(void);
+// GC_get_start_callback::1::fn_object
 //
-void fn$object(void);
+void fn_object(void);
 // GC_get_stop_func
 // file alloc.c line 158
 extern signed int (*GC_get_stop_func(void))(void);
-// GC_get_stop_func::1::stop_func$link1$object
+// GC_get_stop_func::1::stop_func_link1_object
 //
-signed int stop_func$link1$object(void);
-// GC_get_stop_func::1::stop_func$link2$object
+signed int stop_func_link1_object(void);
+// GC_get_stop_func::1::stop_func_link2_object
 //
-signed int stop_func$link2$object(void);
-// GC_get_stop_func::1::stop_func$object
+signed int stop_func_link2_object(void);
+// GC_get_stop_func::1::stop_func_object
 //
-signed int stop_func$object(void);
+signed int stop_func_object(void);
 // GC_get_suspend_signal
 // file ./include/private/../gc.h line 1259
 extern signed int GC_get_suspend_signal(void);
@@ -1431,24 +1431,24 @@ extern unsigned int GC_get_version(void);
 // GC_get_warn_proc
 // file misc.c line 1624
 extern void (*GC_get_warn_proc(void))(char *, unsigned long int);
-// GC_get_warn_proc::1::result$link1$object
+// GC_get_warn_proc::1::result_link1_object
 //
-void result$link1$object(char *, unsigned long int);
-// GC_get_warn_proc::1::result$link2$object
+void result_link1_object(char *, unsigned long int);
+// GC_get_warn_proc::1::result_link2_object
 //
-void result$link2$object(char *, unsigned long int);
-// GC_get_warn_proc::1::result$object
+void result_link2_object(char *, unsigned long int);
+// GC_get_warn_proc::1::result_object
 //
-void result$object(char *, unsigned long int);
+void result_object(char *, unsigned long int);
 // GC_grow_table
 // file finalize.c line 100
 void GC_grow_table(struct hash_chain_entry ***table, signed long int *log_size_ptr);
 // GC_has_other_debug_info
 // file dbg_mlc.c line 36
 signed int GC_has_other_debug_info(char *p);
-// GC_has_static_roots$object
+// GC_has_static_roots_object
 //
-signed int GC_has_static_roots$object(const char *, void *, unsigned long int);
+signed int GC_has_static_roots_object(const char *, void *, unsigned long int);
 // GC_hblk_fl_from_blocks
 // file allchblk.c line 84
 signed int GC_hblk_fl_from_blocks(unsigned long int blocks_needed);
@@ -1509,24 +1509,24 @@ void GC_initiate_gc(void);
 // GC_inner_start_routine
 // file pthread_start.c line 45
 void * GC_inner_start_routine(struct GC_stack_base *sb, void *arg);
-// GC_inner_start_routine::1::1::__cancel_routine$link1$object
+// GC_inner_start_routine::1::1::__cancel_routine_link1_object
 //
-void __cancel_routine$link1$object(void *);
-// GC_inner_start_routine::1::1::__cancel_routine$link2$object
+void __cancel_routine_link1_object(void *);
+// GC_inner_start_routine::1::1::__cancel_routine_link2_object
 //
-void __cancel_routine$link2$object(void *);
-// GC_inner_start_routine::1::1::__cancel_routine$object
+void __cancel_routine_link2_object(void *);
+// GC_inner_start_routine::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// GC_inner_start_routine::1::start$link1$object
+void __cancel_routine_object(void *);
+// GC_inner_start_routine::1::start_link1_object
 //
-void * start$link1$object(void *);
-// GC_inner_start_routine::1::start$link2$object
+void * start_link1_object(void *);
+// GC_inner_start_routine::1::start_link2_object
 //
-void * start$link2$object(void *);
-// GC_inner_start_routine::1::start$object
+void * start_link2_object(void *);
+// GC_inner_start_routine::1::start_object
 //
-void * start$object(void *);
+void * start_object(void *);
 // GC_install_counts
 // file ./include/private/gc_priv.h line 1887
 signed int GC_install_counts(struct hblk *h, unsigned long int sz);
@@ -1554,15 +1554,15 @@ extern signed int GC_is_marked(const void *p);
 // GC_is_valid_displacement
 // file ptr_chck.c line 117
 extern void * GC_is_valid_displacement(void *p);
-// GC_is_valid_displacement_print_proc$object
+// GC_is_valid_displacement_print_proc_object
 //
-void GC_is_valid_displacement_print_proc$object(void *);
+void GC_is_valid_displacement_print_proc_object(void *);
 // GC_is_visible
 // file ptr_chck.c line 187
 extern void * GC_is_visible(void *p);
-// GC_is_visible_print_proc$object
+// GC_is_visible_print_proc_object
 //
-void GC_is_visible_print_proc$object(void *);
+void GC_is_visible_print_proc_object(void *);
 // GC_linux_main_stack_base
 // file os_dep.c line 1071
 char * GC_linux_main_stack_base(void);
@@ -1581,54 +1581,54 @@ signed int GC_make_array_descriptor(unsigned long int nelements, unsigned long i
 // GC_make_closure
 // file dbg_mlc.c line 1047
 void * GC_make_closure(void (*fn)(void *, void *), void *data);
-// GC_make_closure::fn$link1$object
+// GC_make_closure::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_make_closure::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_make_closure::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_make_closure::fn$object
+void fn_link2_object(void *, void *);
+// GC_make_closure::fn_object
 //
-void fn$object(void *, void *);
+void fn_object(void *, void *);
 // GC_make_descriptor
 // file typd_mlc.c line 534
 extern unsigned long int GC_make_descriptor(const unsigned long int *bm, unsigned long int len);
 // GC_make_disappearing_links_disappear
 // file finalize.c line 702
 static inline void GC_make_disappearing_links_disappear(struct dl_hashtbl_s *dl_hashtbl);
-// GC_make_disappearing_links_disappear$link1
+// GC_make_disappearing_links_disappear_link1
 // file finalize.c line 702
-static inline void GC_make_disappearing_links_disappear$link1(struct dl_hashtbl_s *dl_hashtbl$link1);
-// GC_make_disappearing_links_disappear$link2
+static inline void GC_make_disappearing_links_disappear_link1(struct dl_hashtbl_s *dl_hashtbl_link1);
+// GC_make_disappearing_links_disappear_link2
 // file finalize.c line 702
-static inline void GC_make_disappearing_links_disappear$link2(struct dl_hashtbl_s *dl_hashtbl$link2);
+static inline void GC_make_disappearing_links_disappear_link2(struct dl_hashtbl_s *dl_hashtbl_link2);
 // GC_make_sequence_descriptor
 // file typd_mlc.c line 303
 union ComplexDescriptor * GC_make_sequence_descriptor(union ComplexDescriptor *first, union ComplexDescriptor *second);
 // GC_malloc
 // file ./include/private/../gc.h line 412
 extern void * GC_malloc(unsigned long int bytes);
-// GC_malloc::$tmp::return_value_GC_get_oom_fn$2$link1$object
+// GC_malloc::_tmp::return_value_GC_get_oom_fn_2_link1_object
 //
-void * return_value_GC_get_oom_fn$2$link1$object(unsigned long int);
-// GC_malloc::$tmp::return_value_GC_get_oom_fn$2$link2$object
+void * return_value_GC_get_oom_fn_2_link1_object(unsigned long int);
+// GC_malloc::_tmp::return_value_GC_get_oom_fn_2_link2_object
 //
-void * return_value_GC_get_oom_fn$2$link2$object(unsigned long int);
-// GC_malloc::$tmp::return_value_GC_get_oom_fn$2$object
+void * return_value_GC_get_oom_fn_2_link2_object(unsigned long int);
+// GC_malloc::_tmp::return_value_GC_get_oom_fn_2_object
 //
-void * return_value_GC_get_oom_fn$2$object(unsigned long int);
+void * return_value_GC_get_oom_fn_2_object(unsigned long int);
 // GC_malloc_atomic
 // file ./include/private/../gc.h line 414
 extern void * GC_malloc_atomic(unsigned long int bytes);
-// GC_malloc_atomic::$tmp::return_value_GC_get_oom_fn$2$link1$object
+// GC_malloc_atomic::_tmp::return_value_GC_get_oom_fn_2_link1_object
 //
-void * return_value_GC_get_oom_fn$2$link1$object(unsigned long int);
-// GC_malloc_atomic::$tmp::return_value_GC_get_oom_fn$2$link2$object
+void * return_value_GC_get_oom_fn_2_link1_object(unsigned long int);
+// GC_malloc_atomic::_tmp::return_value_GC_get_oom_fn_2_link2_object
 //
-void * return_value_GC_get_oom_fn$2$link2$object(unsigned long int);
-// GC_malloc_atomic::$tmp::return_value_GC_get_oom_fn$2$object
+void * return_value_GC_get_oom_fn_2_link2_object(unsigned long int);
+// GC_malloc_atomic::_tmp::return_value_GC_get_oom_fn_2_object
 //
-void * return_value_GC_get_oom_fn$2$object(unsigned long int);
+void * return_value_GC_get_oom_fn_2_object(unsigned long int);
 // GC_malloc_atomic_ignore_off_page
 // file ./include/private/../gc.h line 745
 extern void * GC_malloc_atomic_ignore_off_page(unsigned long int lb);
@@ -1683,36 +1683,36 @@ void GC_mark_thread_local_free_lists(void);
 // GC_max
 // file alloc.c line 1132
 static inline unsigned long int GC_max(unsigned long int x, unsigned long int y);
-// GC_max$link1
+// GC_max_link1
 // file alloc.c line 1132
-static inline unsigned long int GC_max$link1(unsigned long int x$link1, unsigned long int y$link1);
-// GC_max$link2
+static inline unsigned long int GC_max_link1(unsigned long int x_link1, unsigned long int y_link1);
+// GC_max_link2
 // file alloc.c line 1132
-static inline unsigned long int GC_max$link2(unsigned long int x$link2, unsigned long int y$link2);
+static inline unsigned long int GC_max_link2(unsigned long int x_link2, unsigned long int y_link2);
 // GC_maybe_gc
 // file alloc.c line 351
 void GC_maybe_gc(void);
 // GC_memalign
 // file mallocx.c line 451
 extern void * GC_memalign(unsigned long int align, unsigned long int lb);
-// GC_memalign::$tmp::return_value_GC_get_oom_fn$2$link1$object
+// GC_memalign::_tmp::return_value_GC_get_oom_fn_2_link1_object
 //
-void * return_value_GC_get_oom_fn$2$link1$object(unsigned long int);
-// GC_memalign::$tmp::return_value_GC_get_oom_fn$2$link2$object
+void * return_value_GC_get_oom_fn_2_link1_object(unsigned long int);
+// GC_memalign::_tmp::return_value_GC_get_oom_fn_2_link2_object
 //
-void * return_value_GC_get_oom_fn$2$link2$object(unsigned long int);
-// GC_memalign::$tmp::return_value_GC_get_oom_fn$2$object
+void * return_value_GC_get_oom_fn_2_link2_object(unsigned long int);
+// GC_memalign::_tmp::return_value_GC_get_oom_fn_2_object
 //
-void * return_value_GC_get_oom_fn$2$object(unsigned long int);
+void * return_value_GC_get_oom_fn_2_object(unsigned long int);
 // GC_min
 // file alloc.c line 1137
 static inline unsigned long int GC_min(unsigned long int x, unsigned long int y);
-// GC_min$link1
+// GC_min_link1
 // file alloc.c line 1137
-static inline unsigned long int GC_min$link1(unsigned long int x$link1, unsigned long int y$link1);
-// GC_min$link2
+static inline unsigned long int GC_min_link1(unsigned long int x_link1, unsigned long int y_link1);
+// GC_min_link2
 // file alloc.c line 1137
-static inline unsigned long int GC_min$link2(unsigned long int x$link2, unsigned long int y$link2);
+static inline unsigned long int GC_min_link2(unsigned long int x_link2, unsigned long int y_link2);
 // GC_move_disappearing_link
 // file finalize.c line 343
 extern signed int GC_move_disappearing_link(void **link, void **new_link);
@@ -1746,27 +1746,27 @@ extern unsigned int GC_new_kind_inner(void **fl, unsigned long int descr, signed
 // GC_new_proc
 // file misc.c line 1804
 extern unsigned int GC_new_proc(struct GC_ms_entry * (*proc)(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int));
-// GC_new_proc::proc$link1$object
+// GC_new_proc::proc_link1_object
 //
-struct GC_ms_entry * proc$link1$object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
-// GC_new_proc::proc$link2$object
+struct GC_ms_entry * proc_link1_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+// GC_new_proc::proc_link2_object
 //
-struct GC_ms_entry * proc$link2$object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
-// GC_new_proc::proc$object
+struct GC_ms_entry * proc_link2_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+// GC_new_proc::proc_object
 //
-struct GC_ms_entry * proc$object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+struct GC_ms_entry * proc_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
 // GC_new_proc_inner
 // file misc.c line 1791
 extern unsigned int GC_new_proc_inner(struct GC_ms_entry * (*proc)(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int));
-// GC_new_proc_inner::proc$link1$object
+// GC_new_proc_inner::proc_link1_object
 //
-struct GC_ms_entry * proc$link1$object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
-// GC_new_proc_inner::proc$link2$object
+struct GC_ms_entry * proc_link1_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+// GC_new_proc_inner::proc_link2_object
 //
-struct GC_ms_entry * proc$link2$object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
-// GC_new_proc_inner::proc$object
+struct GC_ms_entry * proc_link2_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+// GC_new_proc_inner::proc_object
 //
-struct GC_ms_entry * proc$object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+struct GC_ms_entry * proc_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
 // GC_new_thread
 // file pthread_support.c line 489
 struct GC_Thread_Rep * GC_new_thread(unsigned long int id);
@@ -1794,45 +1794,45 @@ void GC_notify_all_marker(void);
 // GC_notify_full_gc
 // file alloc.c line 334
 static inline void GC_notify_full_gc(void);
-// GC_notify_full_gc$link1
+// GC_notify_full_gc_link1
 // file alloc.c line 334
-static inline void GC_notify_full_gc$link1(void);
-// GC_notify_full_gc$link2
+static inline void GC_notify_full_gc_link1(void);
+// GC_notify_full_gc_link2
 // file alloc.c line 334
-static inline void GC_notify_full_gc$link2(void);
+static inline void GC_notify_full_gc_link2(void);
 // GC_notify_or_invoke_finalizers
 // file ./include/private/gc_priv.h line 254
 void GC_notify_or_invoke_finalizers(void);
-// GC_notify_or_invoke_finalizers::1::notifier_fn$link1$object
+// GC_notify_or_invoke_finalizers::1::notifier_fn_link1_object
 //
-void notifier_fn$link1$object(void);
-// GC_notify_or_invoke_finalizers::1::notifier_fn$link2$object
+void notifier_fn_link1_object(void);
+// GC_notify_or_invoke_finalizers::1::notifier_fn_link2_object
 //
-void notifier_fn$link2$object(void);
-// GC_notify_or_invoke_finalizers::1::notifier_fn$object
+void notifier_fn_link2_object(void);
+// GC_notify_or_invoke_finalizers::1::notifier_fn_object
 //
-void notifier_fn$object(void);
+void notifier_fn_object(void);
 // GC_null_finalize_mark_proc
 // file finalize.c line 413
 void GC_null_finalize_mark_proc(char *p);
 // GC_number_stack_black_listed
 // file blacklst.c line 262
 unsigned long int GC_number_stack_black_listed(struct hblk *start, struct hblk *endp1);
-// GC_old_bus_handler$object
+// GC_old_bus_handler_object
 //
-void GC_old_bus_handler$object(signed int, struct anonymous$6 *, void *);
-// GC_old_segv_handler$object
+void GC_old_bus_handler_object(signed int, struct anonymous_6 *, void *);
+// GC_old_segv_handler_object
 //
-void GC_old_segv_handler$object(signed int, struct anonymous$6 *, void *);
-// GC_on_abort$object
+void GC_old_segv_handler_object(signed int, struct anonymous_6 *, void *);
+// GC_on_abort_object
 //
-void GC_on_abort$object(const char *);
-// GC_on_heap_resize$object
+void GC_on_abort_object(const char *);
+// GC_on_heap_resize_object
 //
-void GC_on_heap_resize$object(unsigned long int);
-// GC_oom_fn$object
+void GC_on_heap_resize_object(unsigned long int);
+// GC_oom_fn_object
 //
-void * GC_oom_fn$object(unsigned long int);
+void * GC_oom_fn_object(unsigned long int);
 // GC_page_was_dirty
 // file ./include/private/gc_priv.h line 2031
 signed int GC_page_was_dirty(struct hblk *h);
@@ -1860,9 +1860,9 @@ void GC_print_address_map(void);
 // GC_print_all_errors
 // file ./include/private/gc_priv.h line 1908
 void GC_print_all_errors(void);
-// GC_print_all_smashed$object
+// GC_print_all_smashed_object
 //
-void GC_print_all_smashed$object(void);
+void GC_print_all_smashed_object(void);
 // GC_print_all_smashed_proc
 // file dbg_mlc.c line 957
 void GC_print_all_smashed_proc(void);
@@ -1881,9 +1881,9 @@ void GC_print_free_list(signed int kind, unsigned long int sz_in_granules);
 // GC_print_hblkfreelist
 // file allchblk.c line 122
 void GC_print_hblkfreelist(void);
-// GC_print_heap_obj$object
+// GC_print_heap_obj_object
 //
-void GC_print_heap_obj$object(char *);
+void GC_print_heap_obj_object(char *);
 // GC_print_heap_sects
 // file alloc.c line 1105
 void GC_print_heap_sects(void);
@@ -1911,24 +1911,24 @@ extern signed int GC_pthread_cancel(unsigned long int thread);
 // GC_pthread_create
 // file pthread_support.c line 1661
 extern signed int GC_pthread_create(unsigned long int *new_thread, const union pthread_attr_t *attr, void * (*start_routine)(void *), void *arg);
-// GC_pthread_create::$tmp::return_value_GC_get_oom_fn$3$link1$object
+// GC_pthread_create::_tmp::return_value_GC_get_oom_fn_3_link1_object
 //
-void * return_value_GC_get_oom_fn$3$link1$object(unsigned long int);
-// GC_pthread_create::$tmp::return_value_GC_get_oom_fn$3$link2$object
+void * return_value_GC_get_oom_fn_3_link1_object(unsigned long int);
+// GC_pthread_create::_tmp::return_value_GC_get_oom_fn_3_link2_object
 //
-void * return_value_GC_get_oom_fn$3$link2$object(unsigned long int);
-// GC_pthread_create::$tmp::return_value_GC_get_oom_fn$3$object
+void * return_value_GC_get_oom_fn_3_link2_object(unsigned long int);
+// GC_pthread_create::_tmp::return_value_GC_get_oom_fn_3_object
 //
-void * return_value_GC_get_oom_fn$3$object(unsigned long int);
-// GC_pthread_create::start_routine$link1$object
+void * return_value_GC_get_oom_fn_3_object(unsigned long int);
+// GC_pthread_create::start_routine_link1_object
 //
-void * start_routine$link1$object(void *);
-// GC_pthread_create::start_routine$link2$object
+void * start_routine_link1_object(void *);
+// GC_pthread_create::start_routine_link2_object
 //
-void * start_routine$link2$object(void *);
-// GC_pthread_create::start_routine$object
+void * start_routine_link2_object(void *);
+// GC_pthread_create::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // GC_pthread_detach
 // file pthread_support.c line 1418
 extern signed int GC_pthread_detach(unsigned long int thread);
@@ -1989,9 +1989,9 @@ struct hblk * GC_push_next_marked_uncollectable(struct hblk *h);
 // GC_push_one
 // file mark.c line 1350
 void GC_push_one(unsigned long int p);
-// GC_push_other_roots$object
+// GC_push_other_roots_object
 //
-void GC_push_other_roots$object(void);
+void GC_push_other_roots_object(void);
 // GC_push_regs_and_stack
 // file mark_rts.c line 739
 void GC_push_regs_and_stack(char *cold_gc_frame);
@@ -2001,21 +2001,21 @@ void GC_push_roots(signed int all, char *cold_gc_frame);
 // GC_push_selected
 // file mark.c line 1281
 void GC_push_selected(char *bottom, char *top, signed int (*dirty_fn)(struct hblk *));
-// GC_push_selected::dirty_fn$link1$object
+// GC_push_selected::dirty_fn_link1_object
 //
-signed int dirty_fn$link1$object(struct hblk *);
-// GC_push_selected::dirty_fn$link2$object
+signed int dirty_fn_link1_object(struct hblk *);
+// GC_push_selected::dirty_fn_link2_object
 //
-signed int dirty_fn$link2$object(struct hblk *);
-// GC_push_selected::dirty_fn$object
+signed int dirty_fn_link2_object(struct hblk *);
+// GC_push_selected::dirty_fn_object
 //
-signed int dirty_fn$object(struct hblk *);
+signed int dirty_fn_object(struct hblk *);
 // GC_push_thread_structures
 // file ./include/private/gc_priv.h line 1612
 void GC_push_thread_structures(void);
-// GC_push_typed_structures$object
+// GC_push_typed_structures_object
 //
-void GC_push_typed_structures$object(void);
+void GC_push_typed_structures_object(void);
 // GC_push_typed_structures_proc
 // file typd_mlc.c line 103
 void GC_push_typed_structures_proc(void);
@@ -2034,15 +2034,15 @@ void GC_rebuild_root_index(void);
 // GC_reclaim_all
 // file ./include/private/gc_priv.h line 1790
 signed int GC_reclaim_all(signed int (*stop_func)(void), signed int ignore_old);
-// GC_reclaim_all::stop_func$link1$object
+// GC_reclaim_all::stop_func_link1_object
 //
-signed int stop_func$link1$object(void);
-// GC_reclaim_all::stop_func$link2$object
+signed int stop_func_link1_object(void);
+// GC_reclaim_all::stop_func_link2_object
 //
-signed int stop_func$link2$object(void);
-// GC_reclaim_all::stop_func$object
+signed int stop_func_link2_object(void);
+// GC_reclaim_all::stop_func_object
 //
-signed int stop_func$object(void);
+signed int stop_func_object(void);
 // GC_reclaim_block
 // file reclaim.c line 374
 void GC_reclaim_block(struct hblk *hbp, unsigned long int report_if_found);
@@ -2067,54 +2067,54 @@ char * GC_reclaim_uninit(struct hblk *hbp, struct hblkhdr *hhdr, unsigned long i
 // GC_record_stack_base
 // file pthread_support.c line 1506
 static inline void GC_record_stack_base(struct GC_Thread_Rep *me, struct GC_stack_base *sb);
-// GC_record_stack_base$link1
+// GC_record_stack_base_link1
 // file pthread_support.c line 1506
-static inline void GC_record_stack_base$link1(struct GC_Thread_Rep *me$link1, struct GC_stack_base *sb$link1);
-// GC_record_stack_base$link2
+static inline void GC_record_stack_base_link1(struct GC_Thread_Rep *me_link1, struct GC_stack_base *sb_link1);
+// GC_record_stack_base_link2
 // file pthread_support.c line 1506
-static inline void GC_record_stack_base$link2(struct GC_Thread_Rep *me$link2, struct GC_stack_base *sb$link2);
+static inline void GC_record_stack_base_link2(struct GC_Thread_Rep *me_link2, struct GC_stack_base *sb_link2);
 // GC_register_data_segments
 // file ./include/private/gc_priv.h line 1677
 void GC_register_data_segments(void);
 // GC_register_describe_type_fn
 // file dbg_mlc.c line 318
 extern void GC_register_describe_type_fn(signed int kind, void (*fn)(void *, char *));
-// GC_register_describe_type_fn::fn$link1$object
+// GC_register_describe_type_fn::fn_link1_object
 //
-void fn$link1$object(void *, char *);
-// GC_register_describe_type_fn::fn$link2$object
+void fn_link1_object(void *, char *);
+// GC_register_describe_type_fn::fn_link2_object
 //
-void fn$link2$object(void *, char *);
-// GC_register_describe_type_fn::fn$object
+void fn_link2_object(void *, char *);
+// GC_register_describe_type_fn::fn_object
 //
-void fn$object(void *, char *);
+void fn_object(void *, char *);
 // GC_register_disappearing_link
 // file finalize.c line 137
 extern signed int GC_register_disappearing_link(void **link);
 // GC_register_disappearing_link_inner
 // file finalize.c line 147
 signed int GC_register_disappearing_link_inner(struct dl_hashtbl_s *dl_hashtbl, void **link, const void *obj);
-// GC_register_disappearing_link_inner::1::4::oom_fn$link1$object
+// GC_register_disappearing_link_inner::1::4::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_register_disappearing_link_inner::1::4::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_register_disappearing_link_inner::1::4::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_register_disappearing_link_inner::1::4::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_register_disappearing_link_inner::1::4::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
+void * oom_fn_object(unsigned long int);
 // GC_register_disclaim_proc
 // file fnlz_mlc.c line 76
 extern void GC_register_disclaim_proc(signed int kind, signed int (*proc)(void *), signed int mark_unconditionally);
-// GC_register_disclaim_proc::proc$link1$object
+// GC_register_disclaim_proc::proc_link1_object
 //
-signed int proc$link1$object(void *);
-// GC_register_disclaim_proc::proc$link2$object
+signed int proc_link1_object(void *);
+// GC_register_disclaim_proc::proc_link2_object
 //
-signed int proc$link2$object(void *);
-// GC_register_disclaim_proc::proc$object
+signed int proc_link2_object(void *);
+// GC_register_disclaim_proc::proc_object
 //
-signed int proc$object(void *);
+signed int proc_object(void *);
 // GC_register_displacement
 // file ./include/private/../gc.h line 535
 extern void GC_register_displacement(unsigned long int offset);
@@ -2130,150 +2130,150 @@ signed int GC_register_dynamic_libraries_dl_iterate_phdr(void);
 // GC_register_dynlib_callback
 // file dyn_load.c line 469
 signed int GC_register_dynlib_callback(struct dl_phdr_info *info, unsigned long int size, void *ptr);
-// GC_register_dynlib_callback::1::1::1::1::2::callback$link1$object
+// GC_register_dynlib_callback::1::1::1::1::2::callback_link1_object
 //
-signed int callback$link1$object(const char *, void *, unsigned long int);
-// GC_register_dynlib_callback::1::1::1::1::2::callback$link2$object
+signed int callback_link1_object(const char *, void *, unsigned long int);
+// GC_register_dynlib_callback::1::1::1::1::2::callback_link2_object
 //
-signed int callback$link2$object(const char *, void *, unsigned long int);
-// GC_register_dynlib_callback::1::1::1::1::2::callback$object
+signed int callback_link2_object(const char *, void *, unsigned long int);
+// GC_register_dynlib_callback::1::1::1::1::2::callback_object
 //
-signed int callback$object(const char *, void *, unsigned long int);
+signed int callback_object(const char *, void *, unsigned long int);
 // GC_register_finalizer
 // file ./include/private/../gc.h line 914
 extern void GC_register_finalizer(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer::fn$link1$object
+// GC_register_finalizer::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_register_finalizer::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_register_finalizer::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_register_finalizer::fn$object
+void fn_link2_object(void *, void *);
+// GC_register_finalizer::fn_object
 //
-void fn$object(void *, void *);
-// GC_register_finalizer::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_register_finalizer::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_register_finalizer::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_register_finalizer::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_register_finalizer::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_register_finalizer::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_register_finalizer_ignore_self
 // file ./include/private/../gc.h line 970
 extern void GC_register_finalizer_ignore_self(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer_ignore_self::fn$link1$object
+// GC_register_finalizer_ignore_self::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_register_finalizer_ignore_self::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_register_finalizer_ignore_self::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_register_finalizer_ignore_self::fn$object
+void fn_link2_object(void *, void *);
+// GC_register_finalizer_ignore_self::fn_object
 //
-void fn$object(void *, void *);
-// GC_register_finalizer_ignore_self::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_register_finalizer_ignore_self::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_register_finalizer_ignore_self::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_register_finalizer_ignore_self::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_register_finalizer_ignore_self::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_register_finalizer_ignore_self::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_register_finalizer_inner
 // file finalize.c line 433
 void GC_register_finalizer_inner(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd, void (*mp)(char *));
-// GC_register_finalizer_inner::1::oom_fn$link1$object
+// GC_register_finalizer_inner::1::oom_fn_link1_object
 //
-void * oom_fn$link1$object(unsigned long int);
-// GC_register_finalizer_inner::1::oom_fn$link2$object
+void * oom_fn_link1_object(unsigned long int);
+// GC_register_finalizer_inner::1::oom_fn_link2_object
 //
-void * oom_fn$link2$object(unsigned long int);
-// GC_register_finalizer_inner::1::oom_fn$object
+void * oom_fn_link2_object(unsigned long int);
+// GC_register_finalizer_inner::1::oom_fn_object
 //
-void * oom_fn$object(unsigned long int);
-// GC_register_finalizer_inner::fn$link1$object
+void * oom_fn_object(unsigned long int);
+// GC_register_finalizer_inner::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_register_finalizer_inner::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_register_finalizer_inner::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_register_finalizer_inner::fn$object
+void fn_link2_object(void *, void *);
+// GC_register_finalizer_inner::fn_object
 //
-void fn$object(void *, void *);
-// GC_register_finalizer_inner::mp$link1$object
+void fn_object(void *, void *);
+// GC_register_finalizer_inner::mp_link1_object
 //
-void mp$link1$object(char *);
-// GC_register_finalizer_inner::mp$link2$object
+void mp_link1_object(char *);
+// GC_register_finalizer_inner::mp_link2_object
 //
-void mp$link2$object(char *);
-// GC_register_finalizer_inner::mp$object
+void mp_link2_object(char *);
+// GC_register_finalizer_inner::mp_object
 //
-void mp$object(char *);
-// GC_register_finalizer_inner::ofn$link1$object$object
+void mp_object(char *);
+// GC_register_finalizer_inner::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_register_finalizer_inner::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_register_finalizer_inner::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_register_finalizer_inner::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_register_finalizer_inner::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_register_finalizer_no_order
 // file ./include/private/../gc.h line 983
 extern void GC_register_finalizer_no_order(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer_no_order::fn$link1$object
+// GC_register_finalizer_no_order::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_register_finalizer_no_order::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_register_finalizer_no_order::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_register_finalizer_no_order::fn$object
+void fn_link2_object(void *, void *);
+// GC_register_finalizer_no_order::fn_object
 //
-void fn$object(void *, void *);
-// GC_register_finalizer_no_order::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_register_finalizer_no_order::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_register_finalizer_no_order::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_register_finalizer_no_order::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_register_finalizer_no_order::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_register_finalizer_no_order::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_register_finalizer_unreachable
 // file ./include/private/../gc.h line 1008
 extern void GC_register_finalizer_unreachable(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer_unreachable::fn$link1$object
+// GC_register_finalizer_unreachable::fn_link1_object
 //
-void fn$link1$object(void *, void *);
-// GC_register_finalizer_unreachable::fn$link2$object
+void fn_link1_object(void *, void *);
+// GC_register_finalizer_unreachable::fn_link2_object
 //
-void fn$link2$object(void *, void *);
-// GC_register_finalizer_unreachable::fn$object
+void fn_link2_object(void *, void *);
+// GC_register_finalizer_unreachable::fn_object
 //
-void fn$object(void *, void *);
-// GC_register_finalizer_unreachable::ofn$link1$object$object
+void fn_object(void *, void *);
+// GC_register_finalizer_unreachable::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// GC_register_finalizer_unreachable::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// GC_register_finalizer_unreachable::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// GC_register_finalizer_unreachable::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// GC_register_finalizer_unreachable::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // GC_register_has_static_roots_callback
 // file dyn_load.c line 1503
 extern void GC_register_has_static_roots_callback(signed int (*callback)(const char *, void *, unsigned long int));
-// GC_register_has_static_roots_callback::callback$link1$object
+// GC_register_has_static_roots_callback::callback_link1_object
 //
-signed int callback$link1$object(const char *, void *, unsigned long int);
-// GC_register_has_static_roots_callback::callback$link2$object
+signed int callback_link1_object(const char *, void *, unsigned long int);
+// GC_register_has_static_roots_callback::callback_link2_object
 //
-signed int callback$link2$object(const char *, void *, unsigned long int);
-// GC_register_has_static_roots_callback::callback$object
+signed int callback_link2_object(const char *, void *, unsigned long int);
+// GC_register_has_static_roots_callback::callback_object
 //
-signed int callback$object(const char *, void *, unsigned long int);
+signed int callback_object(const char *, void *, unsigned long int);
 // GC_register_long_link
 // file finalize.c line 267
 extern signed int GC_register_long_link(void **link, const void *obj);
@@ -2301,21 +2301,21 @@ void GC_remove_counts(struct hblk *h, unsigned long int sz);
 // GC_remove_dangling_disappearing_links
 // file finalize.c line 719
 static inline void GC_remove_dangling_disappearing_links(struct dl_hashtbl_s *dl_hashtbl);
-// GC_remove_dangling_disappearing_links$link1
+// GC_remove_dangling_disappearing_links_link1
 // file finalize.c line 719
-static inline void GC_remove_dangling_disappearing_links$link1(struct dl_hashtbl_s *dl_hashtbl$link1);
-// GC_remove_dangling_disappearing_links$link2
+static inline void GC_remove_dangling_disappearing_links_link1(struct dl_hashtbl_s *dl_hashtbl_link1);
+// GC_remove_dangling_disappearing_links_link2
 // file finalize.c line 719
-static inline void GC_remove_dangling_disappearing_links$link2(struct dl_hashtbl_s *dl_hashtbl$link2);
+static inline void GC_remove_dangling_disappearing_links_link2(struct dl_hashtbl_s *dl_hashtbl_link2);
 // GC_remove_from_fl
 // file allchblk.c line 317
 static inline void GC_remove_from_fl(struct hblkhdr *hhdr);
-// GC_remove_from_fl$link1
+// GC_remove_from_fl_link1
 // file allchblk.c line 317
-static inline void GC_remove_from_fl$link1(struct hblkhdr *hhdr$link1);
-// GC_remove_from_fl$link2
+static inline void GC_remove_from_fl_link1(struct hblkhdr *hhdr_link1);
+// GC_remove_from_fl_link2
 // file allchblk.c line 317
-static inline void GC_remove_from_fl$link2(struct hblkhdr *hhdr$link2);
+static inline void GC_remove_from_fl_link2(struct hblkhdr *hhdr_link2);
 // GC_remove_from_fl_at
 // file allchblk.c line 293
 void GC_remove_from_fl_at(struct hblkhdr *hhdr, signed int index);
@@ -2358,39 +2358,39 @@ void * GC_roots_present(char *b);
 // GC_same_obj
 // file ptr_chck.c line 39
 extern void * GC_same_obj(void *p, void *q);
-// GC_same_obj_print_proc$object
+// GC_same_obj_print_proc_object
 //
-void GC_same_obj_print_proc$object(void *, void *);
+void GC_same_obj_print_proc_object(void *, void *);
 // GC_scratch_alloc
 // file ./include/private/gc_priv.h line 1728
 char * GC_scratch_alloc(unsigned long int bytes);
 // GC_set_abort_func
 // file misc.c line 1695
 extern void GC_set_abort_func(void (*fn)(const char *));
-// GC_set_abort_func::fn$link1$object
+// GC_set_abort_func::fn_link1_object
 //
-void fn$link1$object(const char *);
-// GC_set_abort_func::fn$link2$object
+void fn_link1_object(const char *);
+// GC_set_abort_func::fn_link2_object
 //
-void fn$link2$object(const char *);
-// GC_set_abort_func::fn$object
+void fn_link2_object(const char *);
+// GC_set_abort_func::fn_object
 //
-void fn$object(const char *);
+void fn_object(const char *);
 // GC_set_all_interior_pointers
 // file misc.c line 2061
 extern void GC_set_all_interior_pointers(signed int value);
 // GC_set_and_save_fault_handler
 // file ./include/private/gc_priv.h line 2297
 void GC_set_and_save_fault_handler(void (*h)(signed int));
-// GC_set_and_save_fault_handler::h$link1$object
+// GC_set_and_save_fault_handler::h_link1_object
 //
-void h$link1$object(signed int);
-// GC_set_and_save_fault_handler::h$link2$object
+void h_link1_object(signed int);
+// GC_set_and_save_fault_handler::h_link2_object
 //
-void h$link2$object(signed int);
-// GC_set_and_save_fault_handler::h$object
+void h_link2_object(signed int);
+// GC_set_and_save_fault_handler::h_object
 //
-void h$object(signed int);
+void h_object(signed int);
 // GC_set_dont_expand
 // file misc.c line 2107
 extern void GC_set_dont_expand(signed int value);
@@ -2403,15 +2403,15 @@ extern void GC_set_finalize_on_demand(signed int value);
 // GC_set_finalizer_notifier
 // file misc.c line 2024
 extern void GC_set_finalizer_notifier(void (*fn)(void));
-// GC_set_finalizer_notifier::fn$link1$object
+// GC_set_finalizer_notifier::fn_link1_object
 //
-void fn$link1$object(void);
-// GC_set_finalizer_notifier::fn$link2$object
+void fn_link1_object(void);
+// GC_set_finalizer_notifier::fn_link2_object
 //
-void fn$link2$object(void);
-// GC_set_finalizer_notifier::fn$object
+void fn_link2_object(void);
+// GC_set_finalizer_notifier::fn_object
 //
-void fn$object(void);
+void fn_object(void);
 // GC_set_find_leak
 // file misc.c line 2050
 extern void GC_set_find_leak(signed int value);
@@ -2454,66 +2454,66 @@ extern void GC_set_non_gc_bytes(unsigned long int value);
 // GC_set_on_heap_resize
 // file misc.c line 2005
 extern void GC_set_on_heap_resize(void (*fn)(unsigned long int));
-// GC_set_on_heap_resize::fn$link1$object
+// GC_set_on_heap_resize::fn_link1_object
 //
-void fn$link1$object(unsigned long int);
-// GC_set_on_heap_resize::fn$link2$object
+void fn_link1_object(unsigned long int);
+// GC_set_on_heap_resize::fn_link2_object
 //
-void fn$link2$object(unsigned long int);
-// GC_set_on_heap_resize::fn$object
+void fn_link2_object(unsigned long int);
+// GC_set_on_heap_resize::fn_object
 //
-void fn$object(unsigned long int);
+void fn_object(unsigned long int);
 // GC_set_oom_fn
 // file misc.c line 1986
 extern void GC_set_oom_fn(void * (*fn)(unsigned long int));
-// GC_set_oom_fn::fn$link1$object
+// GC_set_oom_fn::fn_link1_object
 //
-void * fn$link1$object(unsigned long int);
-// GC_set_oom_fn::fn$link2$object
+void * fn_link1_object(unsigned long int);
+// GC_set_oom_fn::fn_link2_object
 //
-void * fn$link2$object(unsigned long int);
-// GC_set_oom_fn::fn$object
+void * fn_link2_object(unsigned long int);
+// GC_set_oom_fn::fn_object
 //
-void * fn$object(unsigned long int);
+void * fn_object(unsigned long int);
 // GC_set_pages_executable
 // file os_dep.c line 4435
 extern void GC_set_pages_executable(signed int value);
 // GC_set_push_other_roots
 // file os_dep.c line 2610
 extern void GC_set_push_other_roots(void (*fn)(void));
-// GC_set_push_other_roots::fn$link1$object
+// GC_set_push_other_roots::fn_link1_object
 //
-void fn$link1$object(void);
-// GC_set_push_other_roots::fn$link2$object
+void fn_link1_object(void);
+// GC_set_push_other_roots::fn_link2_object
 //
-void fn$link2$object(void);
-// GC_set_push_other_roots::fn$object
+void fn_link2_object(void);
+// GC_set_push_other_roots::fn_object
 //
-void fn$object(void);
+void fn_object(void);
 // GC_set_start_callback
 // file alloc.c line 316
 extern void GC_set_start_callback(void (*fn)(void));
-// GC_set_start_callback::fn$link1$object
+// GC_set_start_callback::fn_link1_object
 //
-void fn$link1$object(void);
-// GC_set_start_callback::fn$link2$object
+void fn_link1_object(void);
+// GC_set_start_callback::fn_link2_object
 //
-void fn$link2$object(void);
-// GC_set_start_callback::fn$object
+void fn_link2_object(void);
+// GC_set_start_callback::fn_object
 //
-void fn$object(void);
+void fn_object(void);
 // GC_set_stop_func
 // file alloc.c line 149
 extern void GC_set_stop_func(signed int (*stop_func)(void));
-// GC_set_stop_func::stop_func$link1$object
+// GC_set_stop_func::stop_func_link1_object
 //
-signed int stop_func$link1$object(void);
-// GC_set_stop_func::stop_func$link2$object
+signed int stop_func_link1_object(void);
+// GC_set_stop_func::stop_func_link2_object
 //
-signed int stop_func$link2$object(void);
-// GC_set_stop_func::stop_func$object
+signed int stop_func_link2_object(void);
+// GC_set_stop_func::stop_func_object
 //
-signed int stop_func$object(void);
+signed int stop_func_object(void);
 // GC_set_suspend_signal
 // file pthread_stop_world.c line 153
 extern void GC_set_suspend_signal(signed int sig);
@@ -2526,15 +2526,15 @@ extern void GC_set_time_limit(unsigned long int value);
 // GC_set_warn_proc
 // file misc.c line 1607
 extern void GC_set_warn_proc(void (*p)(char *, unsigned long int));
-// GC_set_warn_proc::p$link1$object
+// GC_set_warn_proc::p_link1_object
 //
-void p$link1$object(char *, unsigned long int);
-// GC_set_warn_proc::p$link2$object
+void p_link1_object(char *, unsigned long int);
+// GC_set_warn_proc::p_link2_object
 //
-void p$link2$object(char *, unsigned long int);
-// GC_set_warn_proc::p$object
+void p_link2_object(char *, unsigned long int);
+// GC_set_warn_proc::p_object
 //
-void p$object(char *, unsigned long int);
+void p_object(char *, unsigned long int);
 // GC_setpagesize
 // file ./include/private/gc_priv.h line 2222
 void GC_setpagesize(void);
@@ -2556,9 +2556,9 @@ extern unsigned long int GC_size(const void *p);
 // GC_split_block
 // file allchblk.c line 530
 void GC_split_block(struct hblk *h, struct hblkhdr *hhdr, struct hblk *n, struct hblkhdr *nhdr, signed int index);
-// GC_start_call_back$object
+// GC_start_call_back_object
 //
-void GC_start_call_back$object(void);
+void GC_start_call_back_object(void);
 // GC_start_debugging
 // file dbg_mlc.c line 467
 void GC_start_debugging(void);
@@ -2577,15 +2577,15 @@ void * GC_start_routine(void *arg);
 // GC_start_rtn_prepare_thread
 // file ./include/private/pthread_support.h line 145
 struct GC_Thread_Rep * GC_start_rtn_prepare_thread(void * (**pstart)(void *), void **pstart_arg, struct GC_stack_base *sb, void *arg);
-// GC_start_rtn_prepare_thread::pstart$link1$object$object
+// GC_start_rtn_prepare_thread::pstart_link1_object_object
 //
-void * pstart$link1$object$object(void *);
-// GC_start_rtn_prepare_thread::pstart$link2$object$object
+void * pstart_link1_object_object(void *);
+// GC_start_rtn_prepare_thread::pstart_link2_object_object
 //
-void * pstart$link2$object$object(void *);
-// GC_start_rtn_prepare_thread::pstart$object$object
+void * pstart_link2_object_object(void *);
+// GC_start_rtn_prepare_thread::pstart_object_object
 //
-void * pstart$object$object(void *);
+void * pstart_object_object(void *);
 // GC_start_world
 // file ./include/private/gc_priv.h line 448
 void GC_start_world(void);
@@ -2601,15 +2601,15 @@ void GC_stop_world(void);
 // GC_stopped_mark
 // file alloc.c line 586
 signed int GC_stopped_mark(signed int (*stop_func)(void));
-// GC_stopped_mark::stop_func$link1$object
+// GC_stopped_mark::stop_func_link1_object
 //
-signed int stop_func$link1$object(void);
-// GC_stopped_mark::stop_func$link2$object
+signed int stop_func_link1_object(void);
+// GC_stopped_mark::stop_func_link2_object
 //
-signed int stop_func$link2$object(void);
-// GC_stopped_mark::stop_func$object
+signed int stop_func_link2_object(void);
+// GC_stopped_mark::stop_func_object
 //
-signed int stop_func$object(void);
+signed int stop_func_object(void);
 // GC_store_debug_info
 // file dbg_mlc.c line 279
 char * GC_store_debug_info(char *p, unsigned long int sz, const char *string, signed int linenum);
@@ -2627,7 +2627,7 @@ extern char * GC_strndup(const char *str, unsigned long int size);
 signed int GC_suspend_all(void);
 // GC_suspend_handler
 // file pthread_stop_world.c line 206
-void GC_suspend_handler(signed int sig, struct anonymous$6 *info, void *context);
+void GC_suspend_handler(signed int sig, struct anonymous_6 *info, void *context);
 // GC_suspend_handler_inner
 // file pthread_stop_world.c line 227
 void GC_suspend_handler_inner(char *sig_arg, void *context);
@@ -2646,39 +2646,39 @@ signed int GC_timeout_stop_func(void);
 // GC_try_to_collect
 // file alloc.c line 1000
 extern signed int GC_try_to_collect(signed int (*stop_func)(void));
-// GC_try_to_collect::stop_func$link1$object
+// GC_try_to_collect::stop_func_link1_object
 //
-signed int stop_func$link1$object(void);
-// GC_try_to_collect::stop_func$link2$object
+signed int stop_func_link1_object(void);
+// GC_try_to_collect::stop_func_link2_object
 //
-signed int stop_func$link2$object(void);
-// GC_try_to_collect::stop_func$object
+signed int stop_func_link2_object(void);
+// GC_try_to_collect::stop_func_object
 //
-signed int stop_func$object(void);
+signed int stop_func_object(void);
 // GC_try_to_collect_general
 // file alloc.c line 964
 signed int GC_try_to_collect_general(signed int (*stop_func)(void), signed int force_unmap);
-// GC_try_to_collect_general::stop_func$link1$object
+// GC_try_to_collect_general::stop_func_link1_object
 //
-signed int stop_func$link1$object(void);
-// GC_try_to_collect_general::stop_func$link2$object
+signed int stop_func_link1_object(void);
+// GC_try_to_collect_general::stop_func_link2_object
 //
-signed int stop_func$link2$object(void);
-// GC_try_to_collect_general::stop_func$object
+signed int stop_func_link2_object(void);
+// GC_try_to_collect_general::stop_func_object
 //
-signed int stop_func$object(void);
+signed int stop_func_object(void);
 // GC_try_to_collect_inner
 // file alloc.c line 411
 signed int GC_try_to_collect_inner(signed int (*stop_func)(void));
-// GC_try_to_collect_inner::stop_func$link1$object
+// GC_try_to_collect_inner::stop_func_link1_object
 //
-signed int stop_func$link1$object(void);
-// GC_try_to_collect_inner::stop_func$link2$object
+signed int stop_func_link1_object(void);
+// GC_try_to_collect_inner::stop_func_link2_object
 //
-signed int stop_func$link2$object(void);
-// GC_try_to_collect_inner::stop_func$object
+signed int stop_func_link2_object(void);
+// GC_try_to_collect_inner::stop_func_object
 //
-signed int stop_func$object(void);
+signed int stop_func_object(void);
 // GC_typed_mark_proc
 // file typd_mlc.c line 381
 struct GC_ms_entry * GC_typed_mark_proc(unsigned long int *addr, struct GC_ms_entry *mark_stack_ptr, struct GC_ms_entry *mark_stack_limit, unsigned long int env);
@@ -2703,12 +2703,12 @@ extern signed int GC_unregister_disappearing_link(void **link);
 // GC_unregister_disappearing_link_inner
 // file finalize.c line 227
 static inline struct disappearing_link * GC_unregister_disappearing_link_inner(struct dl_hashtbl_s *dl_hashtbl, void **link);
-// GC_unregister_disappearing_link_inner$link1
+// GC_unregister_disappearing_link_inner_link1
 // file finalize.c line 227
-static inline struct disappearing_link * GC_unregister_disappearing_link_inner$link1(struct dl_hashtbl_s *dl_hashtbl$link1, void **link$link1);
-// GC_unregister_disappearing_link_inner$link2
+static inline struct disappearing_link * GC_unregister_disappearing_link_inner_link1(struct dl_hashtbl_s *dl_hashtbl_link1, void **link_link1);
+// GC_unregister_disappearing_link_inner_link2
 // file finalize.c line 227
-static inline struct disappearing_link * GC_unregister_disappearing_link_inner$link2(struct dl_hashtbl_s *dl_hashtbl$link2, void **link$link2);
+static inline struct disappearing_link * GC_unregister_disappearing_link_inner_link2(struct dl_hashtbl_s *dl_hashtbl_link2, void **link_link2);
 // GC_unregister_long_link
 // file finalize.c line 274
 extern signed int GC_unregister_long_link(void **link);
@@ -2733,30 +2733,30 @@ void GC_wait_marker(void);
 // GC_with_callee_saves_pushed
 // file mach_dep.c line 213
 void GC_with_callee_saves_pushed(void (*fn)(char *, void *), char *arg);
-// GC_with_callee_saves_pushed::fn$link1$object
+// GC_with_callee_saves_pushed::fn_link1_object
 //
-void fn$link1$object(char *, void *);
-// GC_with_callee_saves_pushed::fn$link2$object
+void fn_link1_object(char *, void *);
+// GC_with_callee_saves_pushed::fn_link2_object
 //
-void fn$link2$object(char *, void *);
-// GC_with_callee_saves_pushed::fn$object
+void fn_link2_object(char *, void *);
+// GC_with_callee_saves_pushed::fn_object
 //
-void fn$object(char *, void *);
+void fn_object(char *, void *);
 // GC_write
 // file misc.c line 1456
 signed int GC_write(signed int fd, const char *buf, unsigned long int len);
 // GC_write_fault_handler
 // file os_dep.c line 3124
-void GC_write_fault_handler(signed int sig, struct anonymous$6 *si, void *raw_sc);
-// GC_write_fault_handler::1::1::1::old_handler$link1$object
+void GC_write_fault_handler(signed int sig, struct anonymous_6 *si, void *raw_sc);
+// GC_write_fault_handler::1::1::1::old_handler_link1_object
 //
-void old_handler$link1$object(signed int, struct anonymous$6 *, void *);
-// GC_write_fault_handler::1::1::1::old_handler$link2$object
+void old_handler_link1_object(signed int, struct anonymous_6 *, void *);
+// GC_write_fault_handler::1::1::1::old_handler_link2_object
 //
-void old_handler$link2$object(signed int, struct anonymous$6 *, void *);
-// GC_write_fault_handler::1::1::1::old_handler$object
+void old_handler_link2_object(signed int, struct anonymous_6 *, void *);
+// GC_write_fault_handler::1::1::1::old_handler_object
 //
-void old_handler$object(signed int, struct anonymous$6 *, void *);
+void old_handler_object(signed int, struct anonymous_6 *, void *);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -2768,19 +2768,19 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 680
-extern void __pthread_register_cancel(struct anonymous$26 *);
+extern void __pthread_register_cancel(struct anonymous_26 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 692
-extern void __pthread_unregister_cancel(struct anonymous$26 *);
+extern void __pthread_unregister_cancel(struct anonymous_26 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 733
-extern void __pthread_unwind_next(struct anonymous$26 *);
-// __pthread_unwind_next$link1
+extern void __pthread_unwind_next(struct anonymous_26 *);
+// __pthread_unwind_next_link1
 // file /usr/include/pthread.h line 733
-extern void __pthread_unwind_next$link1(struct anonymous$26 *);
-// __pthread_unwind_next$link2
+extern void __pthread_unwind_next_link1(struct anonymous_26 *);
+// __pthread_unwind_next_link2
 // file /usr/include/pthread.h line 733
-extern void __pthread_unwind_next$link2(struct anonymous$26 *);
+extern void __pthread_unwind_next_link2(struct anonymous_26 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 743
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -2793,78 +2793,78 @@ extern void abort(void);
 // add_roots_to_index
 // file mark_rts.c line 140
 static inline void add_roots_to_index(struct roots *p);
-// add_roots_to_index$link1
+// add_roots_to_index_link1
 // file mark_rts.c line 140
-static inline void add_roots_to_index$link1(struct roots *p$link1);
-// add_roots_to_index$link2
+static inline void add_roots_to_index_link1(struct roots *p_link1);
+// add_roots_to_index_link2
 // file mark_rts.c line 140
-static inline void add_roots_to_index$link2(struct roots *p$link2);
+static inline void add_roots_to_index_link2(struct roots *p_link2);
 // alloc_hdr
 // file headers.c line 164
 static struct hblkhdr * alloc_hdr(void);
-// alloc_hdr$link1
+// alloc_hdr_link1
 // file headers.c line 164
-static struct hblkhdr * alloc_hdr$link1(void);
-// alloc_hdr$link2
+static struct hblkhdr * alloc_hdr_link1(void);
+// alloc_hdr_link2
 // file headers.c line 164
-static struct hblkhdr * alloc_hdr$link2(void);
+static struct hblkhdr * alloc_hdr_link2(void);
 // alloc_mark_stack
 // file mark.c line 1187
 static void alloc_mark_stack(unsigned long int n);
-// alloc_mark_stack$link1
+// alloc_mark_stack_link1
 // file mark.c line 1187
-static void alloc_mark_stack$link1(unsigned long int n$link1);
-// alloc_mark_stack$link2
+static void alloc_mark_stack_link1(unsigned long int n_link1);
+// alloc_mark_stack_link2
 // file mark.c line 1187
-static void alloc_mark_stack$link2(unsigned long int n$link2);
+static void alloc_mark_stack_link2(unsigned long int n_link2);
 // async_set_pht_entry_from_index
 // file os_dep.c line 3028
 static void async_set_pht_entry_from_index(unsigned long int * volatile db, unsigned long int index);
-// async_set_pht_entry_from_index$link1
+// async_set_pht_entry_from_index_link1
 // file os_dep.c line 3028
-static void async_set_pht_entry_from_index$link1(unsigned long int * volatile db$link1, unsigned long int index$link1);
-// async_set_pht_entry_from_index$link2
+static void async_set_pht_entry_from_index_link1(unsigned long int * volatile db_link1, unsigned long int index_link1);
+// async_set_pht_entry_from_index_link2
 // file os_dep.c line 3028
-static void async_set_pht_entry_from_index$link2(unsigned long int * volatile db$link2, unsigned long int index$link2);
+static void async_set_pht_entry_from_index_link2(unsigned long int * volatile db_link2, unsigned long int index_link2);
 // atexit
 // file /usr/include/stdlib.h line 519
 extern signed int atexit(void (*)(void));
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
-// atoi$link1$link1
+static inline signed int atoi_link1(const char *__nptr_link1);
+// atoi_link1_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1$link1(const char *__nptr$link1$link1);
-// atoi$link1$link2
+static inline signed int atoi_link1_link1(const char *__nptr_link1_link1);
+// atoi_link1_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1$link2(const char *__nptr$link1$link2);
-// atoi$link2
+static inline signed int atoi_link1_link2(const char *__nptr_link1_link2);
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2);
-// atoi$link3
+static inline signed int atoi_link2(const char *__nptr_link2);
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3);
+static inline signed int atoi_link3(const char *__nptr_link3);
 // atol
 // file /usr/include/stdlib.h line 283
 static inline signed long int atol(const char *__nptr);
-// atol$link1
+// atol_link1
 // file /usr/include/stdlib.h line 283
-static inline signed long int atol$link1(const char *__nptr$link1);
-// atol$link2
+static inline signed long int atol_link1(const char *__nptr_link1);
+// atol_link2
 // file /usr/include/stdlib.h line 283
-static inline signed long int atol$link2(const char *__nptr$link2);
+static inline signed long int atol_link2(const char *__nptr_link2);
 // clear_marks_for_block
 // file mark.c line 166
 static void clear_marks_for_block(struct hblk *h, unsigned long int dummy);
-// clear_marks_for_block$link1
+// clear_marks_for_block_link1
 // file mark.c line 166
-static void clear_marks_for_block$link1(struct hblk *h$link1, unsigned long int dummy$link1);
-// clear_marks_for_block$link2
+static void clear_marks_for_block_link1(struct hblk *h_link1, unsigned long int dummy_link1);
+// clear_marks_for_block_link2
 // file mark.c line 166
-static void clear_marks_for_block$link2(struct hblk *h$link2, unsigned long int dummy$link2);
+static void clear_marks_for_block_link2(struct hblk *h_link2, unsigned long int dummy_link2);
 // clock
 // file /usr/include/time.h line 189
 extern signed long int clock(void);
@@ -2874,12 +2874,12 @@ extern signed int close(signed int);
 // disable_gc_for_dlopen
 // file gc_dlopen.c line 44
 static void disable_gc_for_dlopen(void);
-// disable_gc_for_dlopen$link1
+// disable_gc_for_dlopen_link1
 // file gc_dlopen.c line 44
-static void disable_gc_for_dlopen$link1(void);
-// disable_gc_for_dlopen$link2
+static void disable_gc_for_dlopen_link1(void);
+// disable_gc_for_dlopen_link2
 // file gc_dlopen.c line 44
-static void disable_gc_for_dlopen$link2(void);
+static void disable_gc_for_dlopen_link2(void);
 // dl_iterate_phdr
 // file /usr/include/link.h line 167
 extern signed int dl_iterate_phdr(signed int (*)(struct dl_phdr_info *, unsigned long int, void *), void *);
@@ -2895,69 +2895,69 @@ extern signed int fcntl(signed int, signed int, ...);
 // fill_prof_stats
 // file misc.c line 541
 static void fill_prof_stats(struct GC_prof_stats_s *pstats);
-// fill_prof_stats$link1
+// fill_prof_stats_link1
 // file misc.c line 541
-static void fill_prof_stats$link1(struct GC_prof_stats_s *pstats$link1);
-// fill_prof_stats$link2
+static void fill_prof_stats_link1(struct GC_prof_stats_s *pstats_link1);
+// fill_prof_stats_link2
 // file misc.c line 541
-static void fill_prof_stats$link2(struct GC_prof_stats_s *pstats$link2);
+static void fill_prof_stats_link2(struct GC_prof_stats_s *pstats_link2);
 // fork_child_proc
 // file pthread_support.c line 983
 static void fork_child_proc(void);
-// fork_child_proc$link1
+// fork_child_proc_link1
 // file pthread_support.c line 983
-static void fork_child_proc$link1(void);
-// fork_child_proc$link2
+static void fork_child_proc_link1(void);
+// fork_child_proc_link2
 // file pthread_support.c line 983
-static void fork_child_proc$link2(void);
+static void fork_child_proc_link2(void);
 // fork_parent_proc
 // file pthread_support.c line 972
 static void fork_parent_proc(void);
-// fork_parent_proc$link1
+// fork_parent_proc_link1
 // file pthread_support.c line 972
-static void fork_parent_proc$link1(void);
-// fork_parent_proc$link2
+static void fork_parent_proc_link1(void);
+// fork_parent_proc_link2
 // file pthread_support.c line 972
-static void fork_parent_proc$link2(void);
+static void fork_parent_proc_link2(void);
 // fork_prepare_proc
 // file pthread_support.c line 948
 static void fork_prepare_proc(void);
-// fork_prepare_proc$link1
+// fork_prepare_proc_link1
 // file pthread_support.c line 948
-static void fork_prepare_proc$link1(void);
-// fork_prepare_proc$link2
+static void fork_prepare_proc_link1(void);
+// fork_prepare_proc_link2
 // file pthread_support.c line 948
-static void fork_prepare_proc$link2(void);
+static void fork_prepare_proc_link2(void);
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
 // free_hdr
 // file headers.c line 177
 static inline void free_hdr(struct hblkhdr *hhdr);
-// free_hdr$link1
+// free_hdr_link1
 // file headers.c line 177
-static inline void free_hdr$link1(struct hblkhdr *hhdr$link1);
-// free_hdr$link2
+static inline void free_hdr_link1(struct hblkhdr *hhdr_link1);
+// free_hdr_link2
 // file headers.c line 177
-static inline void free_hdr$link2(struct hblkhdr *hhdr$link2);
+static inline void free_hdr_link2(struct hblkhdr *hhdr_link2);
 // free_list_index_of
 // file allchblk.c line 153
 static signed int free_list_index_of(struct hblkhdr *wanted);
-// free_list_index_of$link1
+// free_list_index_of_link1
 // file allchblk.c line 153
-static signed int free_list_index_of$link1(struct hblkhdr *wanted$link1);
-// free_list_index_of$link2
+static signed int free_list_index_of_link1(struct hblkhdr *wanted_link1);
+// free_list_index_of_link2
 // file allchblk.c line 153
-static signed int free_list_index_of$link2(struct hblkhdr *wanted$link2);
+static signed int free_list_index_of_link2(struct hblkhdr *wanted_link2);
 // get_index
 // file headers.c line 206
 static signed int get_index(unsigned long int addr);
-// get_index$link1
+// get_index_link1
 // file headers.c line 206
-static signed int get_index$link1(unsigned long int addr$link1);
-// get_index$link2
+static signed int get_index_link1(unsigned long int addr_link1);
+// get_index_link2
 // file headers.c line 206
-static signed int get_index$link2(unsigned long int addr$link2);
+static signed int get_index_link2(unsigned long int addr_link2);
 // getcontext
 // file /usr/include/ucontext.h line 31
 extern signed int getcontext(struct ucontext *);
@@ -2982,30 +2982,30 @@ extern struct treenode * libsrl_mktree(signed int i);
 // looping_handler
 // file misc.c line 753
 static void looping_handler(signed int sig);
-// looping_handler$link1
+// looping_handler_link1
 // file misc.c line 753
-static void looping_handler$link1(signed int sig$link1);
-// looping_handler$link2
+static void looping_handler_link1(signed int sig_link1);
+// looping_handler_link2
 // file misc.c line 753
-static void looping_handler$link2(signed int sig$link2);
+static void looping_handler_link2(signed int sig_link2);
 // maybe_finalize
 // file gcj_mlc.c line 142
 static void maybe_finalize(void);
-// maybe_finalize$link1
+// maybe_finalize_link1
 // file gcj_mlc.c line 142
-static void maybe_finalize$link1(void);
-// maybe_finalize$link2
+static void maybe_finalize_link1(void);
+// maybe_finalize_link2
 // file gcj_mlc.c line 142
-static void maybe_finalize$link2(void);
+static void maybe_finalize_link2(void);
 // maybe_install_looping_handler
 // file misc.c line 763
 static void maybe_install_looping_handler(void);
-// maybe_install_looping_handler$link1
+// maybe_install_looping_handler_link1
 // file misc.c line 763
-static void maybe_install_looping_handler$link1(void);
-// maybe_install_looping_handler$link2
+static void maybe_install_looping_handler_link1(void);
+// maybe_install_looping_handler_link2
 // file misc.c line 763
-static void maybe_install_looping_handler$link2(void);
+static void maybe_install_looping_handler_link2(void);
 // memcpy
 // file /usr/include/string.h line 42
 extern void * memcpy(void *, const void *, unsigned long int);
@@ -3018,36 +3018,36 @@ extern void * memset(void *, signed int, unsigned long int);
 // min_bytes_allocd
 // file alloc.c line 199
 static unsigned long int min_bytes_allocd(void);
-// min_bytes_allocd$link1
+// min_bytes_allocd_link1
 // file alloc.c line 199
-static unsigned long int min_bytes_allocd$link1(void);
-// min_bytes_allocd$link2
+static unsigned long int min_bytes_allocd_link1(void);
+// min_bytes_allocd_link2
 // file alloc.c line 199
-static unsigned long int min_bytes_allocd$link2(void);
+static unsigned long int min_bytes_allocd_link2(void);
 // mmap
 // file /usr/include/x86_64-linux-gnu/sys/mman.h line 57
 extern void * mmap(void *, unsigned long int, signed int, signed int, signed int, signed long int);
 // mprotect
 // file /usr/include/x86_64-linux-gnu/sys/mman.h line 81
 extern signed int mprotect(void *, unsigned long int, signed int);
-// old_bus_handler$link1$object
+// old_bus_handler_link1_object
 //
-void old_bus_handler$link1$object(signed int);
-// old_bus_handler$link2$object
+void old_bus_handler_link1_object(signed int);
+// old_bus_handler_link2_object
 //
-void old_bus_handler$link2$object(signed int);
-// old_bus_handler$object
+void old_bus_handler_link2_object(signed int);
+// old_bus_handler_object
 //
-void old_bus_handler$object(signed int);
-// old_segv_handler$link1$object
+void old_bus_handler_object(signed int);
+// old_segv_handler_link1_object
 //
-void old_segv_handler$link1$object(signed int);
-// old_segv_handler$link2$object
+void old_segv_handler_link1_object(signed int);
+// old_segv_handler_link2_object
 //
-void old_segv_handler$link2$object(signed int);
-// old_segv_handler$object
+void old_segv_handler_link2_object(signed int);
+// old_segv_handler_object
 //
-void old_segv_handler$object(signed int);
+void old_segv_handler_object(signed int);
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
@@ -3074,10 +3074,10 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 981
-extern signed int pthread_cond_broadcast(union anonymous$3 *);
+extern signed int pthread_cond_broadcast(union anonymous_3 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 989
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_0 *);
 // pthread_create
 // file /usr/include/pthread.h line 233
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -3098,13 +3098,13 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 758
-extern signed int pthread_mutex_trylock(union anonymous$0 *);
+extern signed int pthread_mutex_trylock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_self
 // file /usr/include/pthread.h line 275
 extern unsigned long int pthread_self(void);
@@ -3120,30 +3120,30 @@ extern signed long int read(signed int, void *, unsigned long int);
 // return_freelists
 // file thread_local_alloc.c line 64
 static void return_freelists(void **fl, void **gfl);
-// return_freelists$link1
+// return_freelists_link1
 // file thread_local_alloc.c line 64
-static void return_freelists$link1(void **fl$link1, void **gfl$link1);
-// return_freelists$link2
+static void return_freelists_link1(void **fl_link1, void **gfl_link1);
+// return_freelists_link2
 // file thread_local_alloc.c line 64
-static void return_freelists$link2(void **fl$link2, void **gfl$link2);
+static void return_freelists_link2(void **fl_link2, void **gfl_link2);
 // return_single_freelist
 // file thread_local_alloc.c line 44
 static void return_single_freelist(void *fl, void **gfl);
-// return_single_freelist$link1
+// return_single_freelist_link1
 // file thread_local_alloc.c line 44
-static void return_single_freelist$link1(void *fl$link1, void **gfl$link1);
-// return_single_freelist$link2
+static void return_single_freelist_link1(void *fl_link1, void **gfl_link1);
+// return_single_freelist_link2
 // file thread_local_alloc.c line 44
-static void return_single_freelist$link2(void *fl$link2, void **gfl$link2);
+static void return_single_freelist_link2(void *fl_link2, void **gfl_link2);
 // rt_hash
 // file mark_rts.c line 110
 static inline signed int rt_hash(char *addr);
-// rt_hash$link1
+// rt_hash_link1
 // file mark_rts.c line 110
-static inline signed int rt_hash$link1(char *addr$link1);
-// rt_hash$link2
+static inline signed int rt_hash_link1(char *addr_link1);
+// rt_hash_link2
 // file mark_rts.c line 110
-static inline signed int rt_hash$link2(char *addr$link2);
+static inline signed int rt_hash_link2(char *addr_link2);
 // sbrk
 // file /usr/include/unistd.h line 1046
 extern void * sbrk(signed long int);
@@ -3152,28 +3152,28 @@ extern void * sbrk(signed long int);
 extern signed int sched_yield(void);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$1 *);
+extern signed int sem_destroy(union anonymous_1 *);
 // sem_getvalue
 // file /usr/include/semaphore.h line 72
-extern signed int sem_getvalue(union anonymous$1 *, signed int *);
+extern signed int sem_getvalue(union anonymous_1 *, signed int *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$1 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_1 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$1 *);
+extern signed int sem_post(union anonymous_1 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$1 *);
+extern signed int sem_wait(union anonymous_1 *);
 // setup_header
 // file allchblk.c line 225
 static signed int setup_header(struct hblkhdr *hhdr, struct hblk *block, unsigned long int byte_sz, signed int kind, unsigned int flags);
-// setup_header$link1
+// setup_header_link1
 // file allchblk.c line 225
-static signed int setup_header$link1(struct hblkhdr *hhdr$link1, struct hblk *block$link1, unsigned long int byte_sz$link1, signed int kind$link1, unsigned int flags$link1);
-// setup_header$link2
+static signed int setup_header_link1(struct hblkhdr *hhdr_link1, struct hblk *block_link1, unsigned long int byte_sz_link1, signed int kind_link1, unsigned int flags_link1);
+// setup_header_link2
 // file allchblk.c line 225
-static signed int setup_header$link2(struct hblkhdr *hhdr$link2, struct hblk *block$link2, unsigned long int byte_sz$link2, signed int kind$link2, unsigned int flags$link2);
+static signed int setup_header_link2(struct hblkhdr *hhdr_link2, struct hblk *block_link2, unsigned long int byte_sz_link2, signed int kind_link2, unsigned int flags_link2);
 // sigaction
 // file /usr/include/signal.h line 257
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
@@ -3201,30 +3201,30 @@ extern signed int sigsuspend(const struct anonymous *);
 // store_old
 // file dbg_mlc.c line 1075
 static void store_old(void *obj, void (*my_old_fn)(void *, void *), struct closure *my_old_cd, void (**ofn)(void *, void *), void **ocd);
-// store_old$link1
+// store_old_link1
 // file dbg_mlc.c line 1075
-static void store_old$link1(void *obj$link1, void (*my_old_fn$link1)(void *, void *), struct closure *my_old_cd$link1, void (**ofn$link1)(void *, void *), void **ocd$link1);
-// store_old$link2
+static void store_old_link1(void *obj_link1, void (*my_old_fn_link1)(void *, void *), struct closure *my_old_cd_link1, void (**ofn_link1)(void *, void *), void **ocd_link1);
+// store_old_link2
 // file dbg_mlc.c line 1075
-static void store_old$link2(void *obj$link2, void (*my_old_fn$link2)(void *, void *), struct closure *my_old_cd$link2, void (**ofn$link2)(void *, void *), void **ocd$link2);
-// store_old::my_old_fn$link1$object
+static void store_old_link2(void *obj_link2, void (*my_old_fn_link2)(void *, void *), struct closure *my_old_cd_link2, void (**ofn_link2)(void *, void *), void **ocd_link2);
+// store_old::my_old_fn_link1_object
 //
-void my_old_fn$link1$object(void *, void *);
-// store_old::my_old_fn$link2$object
+void my_old_fn_link1_object(void *, void *);
+// store_old::my_old_fn_link2_object
 //
-void my_old_fn$link2$object(void *, void *);
-// store_old::my_old_fn$object
+void my_old_fn_link2_object(void *, void *);
+// store_old::my_old_fn_object
 //
-void my_old_fn$object(void *, void *);
-// store_old::ofn$link1$object$object
+void my_old_fn_object(void *, void *);
+// store_old::ofn_link1_object_object
 //
-void ofn$link1$object$object(void *, void *);
-// store_old::ofn$link2$object$object
+void ofn_link1_object_object(void *, void *);
+// store_old::ofn_link2_object_object
 //
-void ofn$link2$object$object(void *, void *);
-// store_old::ofn$object$object
+void ofn_link2_object_object(void *, void *);
+// store_old::ofn_object_object
 //
-void ofn$object$object(void *, void *);
+void ofn_object_object(void *, void *);
 // strlen
 // file /usr/include/string.h line 394
 extern unsigned long int strlen(const char *);
@@ -3237,12 +3237,12 @@ extern unsigned long int strtoul(const char *, char ** restrict , signed int);
 // total_stack_black_listed
 // file blacklst.c line 277
 static unsigned long int total_stack_black_listed(void);
-// total_stack_black_listed$link1
+// total_stack_black_listed_link1
 // file blacklst.c line 277
-static unsigned long int total_stack_black_listed$link1(void);
-// total_stack_black_listed$link2
+static unsigned long int total_stack_black_listed_link1(void);
+// total_stack_black_listed_link2
 // file blacklst.c line 277
-static unsigned long int total_stack_black_listed$link2(void);
+static unsigned long int total_stack_black_listed_link2(void);
 // usleep
 // file /usr/include/unistd.h line 463
 extern signed int usleep(unsigned int);
@@ -3253,7 +3253,7 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // file /usr/include/unistd.h line 369
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$16
+struct anonymous_16
 {
   // _call_addr
   void *_call_addr;
@@ -3263,7 +3263,7 @@ struct anonymous$16
   unsigned int _arch;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // _lower
   void *_lower;
@@ -3271,17 +3271,17 @@ struct anonymous$17
   void *_upper;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_addr
   void *si_addr;
   // si_addr_lsb
   signed short int si_addr_lsb;
   // si_addr_bnd
-  struct anonymous$17 si_addr_bnd;
+  struct anonymous_17 si_addr_bnd;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // oh_string
   const char *oh_string;
@@ -3299,7 +3299,7 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // e_ident
   unsigned char e_ident[16l];
@@ -3331,7 +3331,7 @@ struct anonymous$24
   unsigned short int e_shstrndx;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -3339,15 +3339,15 @@ struct anonymous$25
   signed int __mask_was_saved;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // __cancel_jmp_buf
-  struct anonymous$25 __cancel_jmp_buf[1l];
+  struct anonymous_25 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // gregs
   signed long long int gregs[23l];
@@ -3357,7 +3357,7 @@ struct anonymous$8
   unsigned long long int __reserved1[8l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -3377,7 +3377,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -3385,7 +3385,7 @@ struct anonymous$10
   unsigned int si_uid;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -3407,7 +3407,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -3417,7 +3417,7 @@ struct anonymous$12
   union sigval si_sigval;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_tid
   signed int si_tid;
@@ -3427,7 +3427,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_band
   signed long int si_band;
@@ -3435,27 +3435,27 @@ struct anonymous$15
   signed int si_fd;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$10 _kill;
+  struct anonymous_10 _kill;
   // _timer
-  struct anonymous$11 _timer;
+  struct anonymous_11 _timer;
   // _rt
-  struct anonymous$12 _rt;
+  struct anonymous_12 _rt;
   // _sigchld
-  struct anonymous$13 _sigchld;
+  struct anonymous_13 _sigchld;
   // _sigfault
-  struct anonymous$14 _sigfault;
+  struct anonymous_14 _sigfault;
   // _sigpoll
-  struct anonymous$15 _sigpoll;
+  struct anonymous_15 _sigpoll;
   // _sigsys
-  struct anonymous$16 _sigsys;
+  struct anonymous_16 _sigsys;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_signo
   signed int si_signo;
@@ -3464,10 +3464,10 @@ struct anonymous$6
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$5 _sifields;
+  union anonymous_5 _sifields;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // d_val
   unsigned long int d_val;
@@ -3475,15 +3475,15 @@ union anonymous$21
   unsigned long int d_ptr;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // d_tag
   signed long int d_tag;
   // d_un
-  union anonymous$21 d_un;
+  union anonymous_21 d_un;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // p_type
   unsigned int p_type;
@@ -3503,7 +3503,7 @@ struct anonymous$20
   unsigned long int p_align;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // ed_bitmap
   unsigned long int ed_bitmap;
@@ -3511,15 +3511,15 @@ struct anonymous$19
   signed int ed_continued;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$6 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_6 *, void *);
 };
 
-union anonymous$7
+union anonymous_7
 {
   // _hb_marks
   char _hb_marks[257l];
@@ -3527,7 +3527,7 @@ union anonymous$7
   unsigned long int dummy;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[32l];
@@ -3535,10 +3535,10 @@ union anonymous$1
   signed long int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -3573,7 +3573,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3798,7 +3798,7 @@ struct hblkhdr
   // hb_n_marks
   volatile unsigned long int hb_n_marks;
   // _mark_byte_union
-  union anonymous$7 _mark_byte_union;
+  union anonymous_7 _mark_byte_union;
 };
 
 struct bi
@@ -4066,7 +4066,7 @@ struct dl_phdr_info
   // dlpi_name
   const char *dlpi_name;
   // dlpi_phdr
-  const struct anonymous$20 *dlpi_phdr;
+  const struct anonymous_20 *dlpi_phdr;
   // dlpi_phnum
   unsigned short int dlpi_phnum;
   // dlpi_adds
@@ -4114,7 +4114,7 @@ struct link_map
   // l_name
   char *l_name;
   // l_ld
-  struct anonymous$22 *l_ld;
+  struct anonymous_22 *l_ld;
   // l_next
   struct link_map *l_next;
   // l_prev
@@ -4168,7 +4168,7 @@ struct r_debug
   // r_brk
   unsigned long int r_brk;
   // r_state
-  enum anonymous$23 r_state;
+  enum anonymous_23 r_state;
   // r_ldbase
   unsigned long int r_ldbase;
 };
@@ -4176,7 +4176,7 @@ struct r_debug
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$4 __sigaction_handler;
+  union anonymous_4 __sigaction_handler;
   // sa_mask
   struct anonymous sa_mask;
   // sa_flags
@@ -4204,7 +4204,7 @@ struct start_info
   // flags
   unsigned long int flags;
   // registered
-  union anonymous$1 registered;
+  union anonymous_1 registered;
 };
 
 struct treenode
@@ -4224,7 +4224,7 @@ struct ucontext
   // uc_stack
   struct sigaltstack uc_stack;
   // uc_mcontext
-  struct anonymous$8 uc_mcontext;
+  struct anonymous_8 uc_mcontext;
   // uc_sigmask
   struct anonymous uc_sigmask;
   // __fpregs_mem
@@ -4246,7 +4246,7 @@ struct bi *GC_all_bottom_indices_end = ((struct bi *)NULL);
 signed int GC_all_interior_pointers = 1;
 // GC_allocate_ml
 // file pthread_support.c line 83
-union anonymous$0 GC_allocate_ml = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_0 GC_allocate_ml = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // GC_aobjfreelist_ptr
@@ -4317,7 +4317,7 @@ void (*GC_current_warn_proc)(char *, unsigned long int) = GC_default_warn_proc;
 char *GC_data_start = (char *)(void *)0;
 // GC_debug_header_size
 // file dbg_mlc.c line 476
-unsigned long int GC_debug_header_size = sizeof(struct anonymous$18) /*32ul*/ ;
+unsigned long int GC_debug_header_size = sizeof(struct anonymous_18) /*32ul*/ ;
 // GC_debugging_started
 // file misc.c line 79
 signed int GC_debugging_started = 0;
@@ -4369,7 +4369,7 @@ signed int GC_explicit_kind = 0;
 signed int GC_explicit_typing_initialized = 0;
 // GC_ext_descriptors
 // file typd_mlc.c line 91
-struct anonymous$19 *GC_ext_descriptors = (struct anonymous$19 *)(void *)0;
+struct anonymous_19 *GC_ext_descriptors = (struct anonymous_19 *)(void *)0;
 // GC_fail_count
 // file alloc.c line 1238
 unsigned int GC_fail_count = (unsigned int)0;
@@ -4646,7 +4646,7 @@ void ** const GC_objfreelist_ptr;
 void ** const GC_objfreelist_ptr = GC_arrays._objfreelist;
 // GC_old_bus_handler
 // file os_dep.c line 3010
-void (*GC_old_bus_handler)(signed int, struct anonymous$6 *, void *) = ((void (*)(signed int, struct anonymous$6 *, void *))NULL);
+void (*GC_old_bus_handler)(signed int, struct anonymous_6 *, void *) = ((void (*)(signed int, struct anonymous_6 *, void *))NULL);
 // GC_old_dl_entries
 // file finalize.c line 637
 unsigned long int GC_old_dl_entries = (unsigned long int)0;
@@ -4658,7 +4658,7 @@ unsigned long int GC_old_ll_entries = (unsigned long int)0;
 unsigned long int *GC_old_normal_bl = (unsigned long int *)(void *)0;
 // GC_old_segv_handler
 // file os_dep.c line 3007
-void (*GC_old_segv_handler)(signed int, struct anonymous$6 *, void *) = ((void (*)(signed int, struct anonymous$6 *, void *))NULL);
+void (*GC_old_segv_handler)(signed int, struct anonymous_6 *, void *) = ((void (*)(signed int, struct anonymous_6 *, void *))NULL);
 // GC_old_segv_handler_used_si
 // file os_dep.c line 3014
 signed int GC_old_segv_handler_used_si = 0;
@@ -4760,7 +4760,7 @@ signed int GC_stdout = 1;
 volatile unsigned long int GC_stop_count = (volatile unsigned long int)0;
 // GC_suspend_ack_sem
 // file pthread_stop_world.c line 194
-union anonymous$1 GC_suspend_ack_sem;
+union anonymous_1 GC_suspend_ack_sem;
 // GC_thr_initialized
 // file pthread_support.c line 452
 signed int GC_thr_initialized = 0;
@@ -4805,7 +4805,7 @@ volatile unsigned long int GC_world_is_stopped = (volatile unsigned long int)0;
 signed int GC_world_stopped = 0;
 // _DYNAMIC
 // file /usr/include/link.h line 76
-extern struct anonymous$22 _DYNAMIC[];
+extern struct anonymous_22 _DYNAMIC[];
 // __data_start
 // file os_dep.c line 442
 extern signed int __data_start[];
@@ -4818,27 +4818,27 @@ extern signed int _end[];
 // available_markers_m1
 // file pthread_support.c line 396
 static signed int available_markers_m1 = 0;
-// available_markers_m1$link1
+// available_markers_m1_link1
 // file pthread_support.c line 396
-static signed int available_markers_m1$link1 = 0;
-// available_markers_m1$link2
+static signed int available_markers_m1_link1 = 0;
+// available_markers_m1_link2
 // file pthread_support.c line 396
-static signed int available_markers_m1$link2 = 0;
+static signed int available_markers_m1_link2 = 0;
 // builder_cv
 // file pthread_support.c line 1980
-static union anonymous$3 builder_cv = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 builder_cv = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
-// builder_cv$link1
+// builder_cv_link1
 // file pthread_support.c line 1980
-static union anonymous$3 builder_cv$link1 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 builder_cv_link1 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
-// builder_cv$link2
+// builder_cv_link2
 // file pthread_support.c line 1980
-static union anonymous$3 builder_cv$link2 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 builder_cv_link2 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -4848,246 +4848,246 @@ extern signed int data_start[];
 // done_init
 // file fnlz_mlc.c line 48
 static signed int done_init = 0;
-// done_init$link1
+// done_init_link1
 // file fnlz_mlc.c line 48
-static signed int done_init$link1 = 0;
-// done_init$link2
+static signed int done_init_link1 = 0;
+// done_init_link2
 // file fnlz_mlc.c line 48
-static signed int done_init$link2 = 0;
+static signed int done_init_link2 = 0;
 // first_thread
 // file pthread_support.c line 485
 static struct GC_Thread_Rep first_thread;
-// first_thread$link1
+// first_thread_link1
 // file pthread_support.c line 485
-static struct GC_Thread_Rep first_thread$link1;
-// first_thread$link2
+static struct GC_Thread_Rep first_thread_link1;
+// first_thread_link2
 // file pthread_support.c line 485
-static struct GC_Thread_Rep first_thread$link2;
+static struct GC_Thread_Rep first_thread_link2;
 // fork_cancel_state
 // file pthread_support.c line 944
 static signed int fork_cancel_state;
-// fork_cancel_state$link1
+// fork_cancel_state_link1
 // file pthread_support.c line 944
-static signed int fork_cancel_state$link1;
-// fork_cancel_state$link2
+static signed int fork_cancel_state_link1;
+// fork_cancel_state_link2
 // file pthread_support.c line 944
-static signed int fork_cancel_state$link2;
+static signed int fork_cancel_state_link2;
 // hdr_free_list
 // file headers.c line 161
 static struct hblkhdr *hdr_free_list = ((struct hblkhdr *)NULL);
-// hdr_free_list$link1
+// hdr_free_list_link1
 // file headers.c line 161
-static struct hblkhdr *hdr_free_list$link1 = ((struct hblkhdr *)NULL);
-// hdr_free_list$link2
+static struct hblkhdr *hdr_free_list_link1 = ((struct hblkhdr *)NULL);
+// hdr_free_list_link2
 // file headers.c line 161
-static struct hblkhdr *hdr_free_list$link2 = ((struct hblkhdr *)NULL);
+static struct hblkhdr *hdr_free_list_link2 = ((struct hblkhdr *)NULL);
 // installed_looping_handler
 // file misc.c line 761
 static signed int installed_looping_handler = 0;
-// installed_looping_handler$link1
+// installed_looping_handler_link1
 // file misc.c line 761
-static signed int installed_looping_handler$link1 = 0;
-// installed_looping_handler$link2
+static signed int installed_looping_handler_link1 = 0;
+// installed_looping_handler_link2
 // file misc.c line 761
-static signed int installed_looping_handler$link2 = 0;
+static signed int installed_looping_handler_link2 = 0;
 // keys_initialized
 // file thread_local_alloc.c line 33
 static signed int keys_initialized;
-// keys_initialized$link1
+// keys_initialized_link1
 // file thread_local_alloc.c line 33
-static signed int keys_initialized$link1;
-// keys_initialized$link2
+static signed int keys_initialized_link1;
+// keys_initialized_link2
 // file thread_local_alloc.c line 33
-static signed int keys_initialized$link2;
+static signed int keys_initialized_link2;
 // last_bytes_finalized
 // file alloc.c line 1243
 static unsigned long int last_bytes_finalized = (unsigned long int)0;
-// last_bytes_finalized$link1
+// last_bytes_finalized_link1
 // file alloc.c line 1243
-static unsigned long int last_bytes_finalized$link1 = (unsigned long int)0;
-// last_bytes_finalized$link2
+static unsigned long int last_bytes_finalized_link1 = (unsigned long int)0;
+// last_bytes_finalized_link2
 // file alloc.c line 1243
-static unsigned long int last_bytes_finalized$link2 = (unsigned long int)0;
+static unsigned long int last_bytes_finalized_link2 = (unsigned long int)0;
 // last_finalizer_notification
 // file finalize.c line 1010
 static unsigned long int last_finalizer_notification = (unsigned long int)0;
-// last_finalizer_notification$link1
+// last_finalizer_notification_link1
 // file finalize.c line 1010
-static unsigned long int last_finalizer_notification$link1 = (unsigned long int)0;
-// last_finalizer_notification$link2
+static unsigned long int last_finalizer_notification_link1 = (unsigned long int)0;
+// last_finalizer_notification_link2
 // file finalize.c line 1010
-static unsigned long int last_finalizer_notification$link2 = (unsigned long int)0;
+static unsigned long int last_finalizer_notification_link2 = (unsigned long int)0;
 // last_fo_entries
 // file alloc.c line 1242
 static unsigned long int last_fo_entries = (unsigned long int)0;
-// last_fo_entries$link1
+// last_fo_entries_link1
 // file alloc.c line 1242
-static unsigned long int last_fo_entries$link1 = (unsigned long int)0;
-// last_fo_entries$link2
+static unsigned long int last_fo_entries_link1 = (unsigned long int)0;
+// last_fo_entries_link2
 // file alloc.c line 1242
-static unsigned long int last_fo_entries$link2 = (unsigned long int)0;
+static unsigned long int last_fo_entries_link2 = (unsigned long int)0;
 // load_segs
 // file dyn_load.c line 464
 static struct load_segment load_segs[2048l];
-// load_segs$link1
+// load_segs_link1
 // file dyn_load.c line 464
-static struct load_segment load_segs$link1[2048l];
-// load_segs$link2
+static struct load_segment load_segs_link1[2048l];
+// load_segs_link2
 // file dyn_load.c line 464
-static struct load_segment load_segs$link2[2048l];
+static struct load_segment load_segs_link2[2048l];
 // log_fo_table_size
 // file finalize.c line 75
 static signed long int log_fo_table_size = (signed long int)-1;
-// log_fo_table_size$link1
+// log_fo_table_size_link1
 // file finalize.c line 75
-static signed long int log_fo_table_size$link1 = (signed long int)-1;
-// log_fo_table_size$link2
+static signed long int log_fo_table_size_link1 = (signed long int)-1;
+// log_fo_table_size_link2
 // file finalize.c line 75
-static signed long int log_fo_table_size$link2 = (signed long int)-1;
+static signed long int log_fo_table_size_link2 = (signed long int)-1;
 // mark_cv
 // file pthread_support.c line 2030
-static union anonymous$3 mark_cv = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 mark_cv = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
-// mark_cv$link1
+// mark_cv_link1
 // file pthread_support.c line 2030
-static union anonymous$3 mark_cv$link1 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 mark_cv_link1 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
-// mark_cv$link2
+// mark_cv_link2
 // file pthread_support.c line 2030
-static union anonymous$3 mark_cv$link2 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 mark_cv_link2 = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // mark_mutex
 // file pthread_support.c line 1977
-static union anonymous$0 mark_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mark_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-// mark_mutex$link1
+// mark_mutex_link1
 // file pthread_support.c line 1977
-static union anonymous$0 mark_mutex$link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mark_mutex_link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-// mark_mutex$link2
+// mark_mutex_link2
 // file pthread_support.c line 1977
-static union anonymous$0 mark_mutex$link2 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mark_mutex_link2 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // marker_sp
 // file pthread_support.c line 336
 static char *marker_sp[15l] = { ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL) };
-// marker_sp$link1
+// marker_sp_link1
 // file pthread_support.c line 336
-static char *marker_sp$link1[15l] = { ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL) };
-// marker_sp$link2
+static char *marker_sp_link1[15l] = { ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL) };
+// marker_sp_link2
 // file pthread_support.c line 336
-static char *marker_sp$link2[15l] = { ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL) };
+static char *marker_sp_link2[15l] = { ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL) };
 // n_load_segs
 // file dyn_load.c line 466
 static signed int n_load_segs;
-// n_load_segs$link1
+// n_load_segs_link1
 // file dyn_load.c line 466
-static signed int n_load_segs$link1;
-// n_load_segs$link2
+static signed int n_load_segs_link1;
+// n_load_segs_link2
 // file dyn_load.c line 466
-static signed int n_load_segs$link2;
+static signed int n_load_segs_link2;
 // n_root_sets
 // file mark_rts.c line 39
 static signed int n_root_sets = 0;
-// n_root_sets$link1
+// n_root_sets_link1
 // file mark_rts.c line 39
-static signed int n_root_sets$link1 = 0;
-// n_root_sets$link2
+static signed int n_root_sets_link1 = 0;
+// n_root_sets_link2
 // file mark_rts.c line 39
-static signed int n_root_sets$link2 = 0;
+static signed int n_root_sets_link2 = 0;
 // need_unreachable_finalization
 // file finalize.c line 579
 static signed int need_unreachable_finalization = 0;
-// need_unreachable_finalization$link1
+// need_unreachable_finalization_link1
 // file finalize.c line 579
-static signed int need_unreachable_finalization$link1 = 0;
-// need_unreachable_finalization$link2
+static signed int need_unreachable_finalization_link1 = 0;
+// need_unreachable_finalization_link2
 // file finalize.c line 579
-static signed int need_unreachable_finalization$link2 = 0;
+static signed int need_unreachable_finalization_link2 = 0;
 // old_bus_handler
 // file os_dep.c line 872
 static void (*old_bus_handler)(signed int);
-// old_bus_handler$link1
+// old_bus_handler_link1
 // file os_dep.c line 872
-static void (*old_bus_handler$link1)(signed int);
-// old_bus_handler$link2
+static void (*old_bus_handler_link1)(signed int);
+// old_bus_handler_link2
 // file os_dep.c line 872
-static void (*old_bus_handler$link2)(signed int);
+static void (*old_bus_handler_link2)(signed int);
 // old_segv_handler
 // file os_dep.c line 870
 static void (*old_segv_handler)(signed int);
-// old_segv_handler$link1
+// old_segv_handler_link1
 // file os_dep.c line 870
-static void (*old_segv_handler$link1)(signed int);
-// old_segv_handler$link2
+static void (*old_segv_handler_link1)(signed int);
+// old_segv_handler_link2
 // file os_dep.c line 870
-static void (*old_segv_handler$link2)(signed int);
+static void (*old_segv_handler_link2)(signed int);
 // parallel_initialized
 // file pthread_support.c line 275
 static signed int parallel_initialized = 0;
-// parallel_initialized$link1
+// parallel_initialized_link1
 // file pthread_support.c line 275
-static signed int parallel_initialized$link1 = 0;
-// parallel_initialized$link2
+static signed int parallel_initialized_link1 = 0;
+// parallel_initialized_link2
 // file pthread_support.c line 275
-static signed int parallel_initialized$link2 = 0;
+static signed int parallel_initialized_link2 = 0;
 // root
 // file tests/staticrootstest.c line 22
 struct treenode *root[10l] = { (struct treenode *)(void *)0, ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
-// root$link1
+// root_link1
 // file tests/staticrootslib.c line 25
-static struct treenode *root$link1[10l] = { ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
-// root$link2
+static struct treenode *root_link1[10l] = { ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
+// root_link2
 // file tests/staticrootslib.c line 25
-static struct treenode *root$link2[10l] = { ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
+static struct treenode *root_link2[10l] = { ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
 // root_nz
 // file tests/staticrootstest.c line 26
 struct treenode *root_nz[10l] = { (struct treenode *)(void *)(unsigned long int)1,
     ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
-// root_nz$link1
+// root_nz_link1
 // file tests/staticrootslib.c line 26
-static struct treenode *root_nz$link1[10l] = { (struct treenode *)(void *)(unsigned long int)2,
+static struct treenode *root_nz_link1[10l] = { (struct treenode *)(void *)(unsigned long int)2,
     ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
-// root_nz$link2
+// root_nz_link2
 // file tests/staticrootslib.c line 26
-static struct treenode *root_nz$link2[10l] = { (struct treenode *)(void *)(unsigned long int)2,
+static struct treenode *root_nz_link2[10l] = { (struct treenode *)(void *)(unsigned long int)2,
     ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL), ((struct treenode *)NULL) };
 // roots_were_cleared
 // file mark_rts.c line 263
 static signed int roots_were_cleared = 0;
-// roots_were_cleared$link1
+// roots_were_cleared_link1
 // file mark_rts.c line 263
-static signed int roots_were_cleared$link1 = 0;
-// roots_were_cleared$link2
+static signed int roots_were_cleared_link1 = 0;
+// roots_were_cleared_link2
 // file mark_rts.c line 263
-static signed int roots_were_cleared$link2 = 0;
+static signed int roots_were_cleared_link2 = 0;
 // scan_ptr
 // file mark.c line 118
 static struct hblk *scan_ptr;
-// scan_ptr$link1
+// scan_ptr_link1
 // file mark.c line 118
-static struct hblk *scan_ptr$link1;
-// scan_ptr$link2
+static struct hblk *scan_ptr_link1;
+// scan_ptr_link2
 // file mark.c line 118
-static struct hblk *scan_ptr$link2;
+static struct hblk *scan_ptr_link2;
 // scratch_free_ptr
 // file headers.c line 113
 static char *scratch_free_ptr = ((char *)NULL);
-// scratch_free_ptr$link1
+// scratch_free_ptr_link1
 // file headers.c line 113
-static char *scratch_free_ptr$link1 = ((char *)NULL);
-// scratch_free_ptr$link2
+static char *scratch_free_ptr_link1 = ((char *)NULL);
+// scratch_free_ptr_link2
 // file headers.c line 113
-static char *scratch_free_ptr$link2 = ((char *)NULL);
+static char *scratch_free_ptr_link2 = ((char *)NULL);
 // staticroot
 // file tests/staticrootstest.c line 28
 static char *staticroot = ((char *)NULL);
@@ -5097,39 +5097,39 @@ extern struct _IO_FILE *stderr;
 // suspend_handler_mask
 // file pthread_stop_world.c line 104
 static struct anonymous suspend_handler_mask;
-// suspend_handler_mask$link1
+// suspend_handler_mask_link1
 // file pthread_stop_world.c line 104
-static struct anonymous suspend_handler_mask$link1;
-// suspend_handler_mask$link2
+static struct anonymous suspend_handler_mask_link1;
+// suspend_handler_mask_link2
 // file pthread_stop_world.c line 104
-static struct anonymous suspend_handler_mask$link2;
+static struct anonymous suspend_handler_mask_link2;
 // world_stopped_total_divisor
 // file alloc.c line 564
 static unsigned int world_stopped_total_divisor = (unsigned int)0;
-// world_stopped_total_divisor$link1
+// world_stopped_total_divisor_link1
 // file alloc.c line 564
-static unsigned int world_stopped_total_divisor$link1 = (unsigned int)0;
-// world_stopped_total_divisor$link2
+static unsigned int world_stopped_total_divisor_link1 = (unsigned int)0;
+// world_stopped_total_divisor_link2
 // file alloc.c line 564
-static unsigned int world_stopped_total_divisor$link2 = (unsigned int)0;
+static unsigned int world_stopped_total_divisor_link2 = (unsigned int)0;
 // world_stopped_total_time
 // file alloc.c line 563
 static unsigned int world_stopped_total_time = (unsigned int)0;
-// world_stopped_total_time$link1
+// world_stopped_total_time_link1
 // file alloc.c line 563
-static unsigned int world_stopped_total_time$link1 = (unsigned int)0;
-// world_stopped_total_time$link2
+static unsigned int world_stopped_total_time_link1 = (unsigned int)0;
+// world_stopped_total_time_link2
 // file alloc.c line 563
-static unsigned int world_stopped_total_time$link2 = (unsigned int)0;
+static unsigned int world_stopped_total_time_link2 = (unsigned int)0;
 // zero_fd
 // file os_dep.c line 2028
 static signed int zero_fd;
-// zero_fd$link1
+// zero_fd_link1
 // file os_dep.c line 2028
-static signed int zero_fd$link1;
-// zero_fd$link2
+static signed int zero_fd_link1;
+// zero_fd_link2
 // file os_dep.c line 2028
-static signed int zero_fd$link2;
+static signed int zero_fd_link2;
 
 // AO_char_store
 // file /usr/include/atomic_ops/sysdeps/loadstore/char_atomic_store.h line 28
@@ -5138,96 +5138,96 @@ static inline void AO_char_store(volatile unsigned char *addr, unsigned char new
   *((unsigned char *)addr) = new_val;
 }
 
-// AO_char_store$link1
+// AO_char_store_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/char_atomic_store.h line 28
-static inline void AO_char_store$link1(volatile unsigned char *addr$link1, unsigned char new_val$link1)
+static inline void AO_char_store_link1(volatile unsigned char *addr_link1, unsigned char new_val_link1)
 {
-  *((unsigned char *)addr$link1) = new_val$link1;
+  *((unsigned char *)addr_link1) = new_val_link1;
 }
 
-// AO_char_store$link2
+// AO_char_store_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/char_atomic_store.h line 28
-static inline void AO_char_store$link2(volatile unsigned char *addr$link2, unsigned char new_val$link2)
+static inline void AO_char_store_link2(volatile unsigned char *addr_link2, unsigned char new_val_link2)
 {
-  *((unsigned char *)addr$link2) = new_val$link2;
+  *((unsigned char *)addr_link2) = new_val_link2;
 }
 
 // AO_compare_and_swap_full
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
 static inline signed int AO_compare_and_swap_full(volatile unsigned long int *addr, unsigned long int old, unsigned long int new_val)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1;
+  _Bool return_value___sync_bool_compare_and_swap_1;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1 = *addr == old;
+  return_value___sync_bool_compare_and_swap_1 = *addr == old;
   *addr = *addr == old ? new_val : *addr;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed int)return_value___sync_bool_compare_and_swap$1;
+  return (signed int)return_value___sync_bool_compare_and_swap_1;
 }
 
-// AO_compare_and_swap_full$link1
+// AO_compare_and_swap_full_link1
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link1(volatile unsigned long int *addr$link1, unsigned long int old$link1, unsigned long int new_val$link1)
+static inline signed int AO_compare_and_swap_full_link1(volatile unsigned long int *addr_link1, unsigned long int old_link1, unsigned long int new_val_link1)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1$link1;
+  _Bool return_value___sync_bool_compare_and_swap_1_link1;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1$link1 = *addr$link1 == old$link1;
-  *addr$link1 = *addr$link1 == old$link1 ? new_val$link1 : *addr$link1;
+  return_value___sync_bool_compare_and_swap_1_link1 = *addr_link1 == old_link1;
+  *addr_link1 = *addr_link1 == old_link1 ? new_val_link1 : *addr_link1;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed int)return_value___sync_bool_compare_and_swap$1$link1;
+  return (signed int)return_value___sync_bool_compare_and_swap_1_link1;
 }
 
-// AO_compare_and_swap_full$link1$link1
+// AO_compare_and_swap_full_link1_link1
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link1$link1(volatile unsigned long int *addr$link1$link1, unsigned long int old$link1$link1, unsigned long int new_val$link1$link1)
+static inline signed int AO_compare_and_swap_full_link1_link1(volatile unsigned long int *addr_link1_link1, unsigned long int old_link1_link1, unsigned long int new_val_link1_link1)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1$link1$link1;
+  _Bool return_value___sync_bool_compare_and_swap_1_link1_link1;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1$link1$link1 = *addr$link1$link1 == old$link1$link1;
-  *addr$link1$link1 = *addr$link1$link1 == old$link1$link1 ? new_val$link1$link1 : *addr$link1$link1;
+  return_value___sync_bool_compare_and_swap_1_link1_link1 = *addr_link1_link1 == old_link1_link1;
+  *addr_link1_link1 = *addr_link1_link1 == old_link1_link1 ? new_val_link1_link1 : *addr_link1_link1;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed int)return_value___sync_bool_compare_and_swap$1$link1$link1;
+  return (signed int)return_value___sync_bool_compare_and_swap_1_link1_link1;
 }
 
-// AO_compare_and_swap_full$link1$link2
+// AO_compare_and_swap_full_link1_link2
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link1$link2(volatile unsigned long int *addr$link1$link2, unsigned long int old$link1$link2, unsigned long int new_val$link1$link2)
+static inline signed int AO_compare_and_swap_full_link1_link2(volatile unsigned long int *addr_link1_link2, unsigned long int old_link1_link2, unsigned long int new_val_link1_link2)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1$link1$link2;
+  _Bool return_value___sync_bool_compare_and_swap_1_link1_link2;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1$link1$link2 = *addr$link1$link2 == old$link1$link2;
-  *addr$link1$link2 = *addr$link1$link2 == old$link1$link2 ? new_val$link1$link2 : *addr$link1$link2;
+  return_value___sync_bool_compare_and_swap_1_link1_link2 = *addr_link1_link2 == old_link1_link2;
+  *addr_link1_link2 = *addr_link1_link2 == old_link1_link2 ? new_val_link1_link2 : *addr_link1_link2;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed int)return_value___sync_bool_compare_and_swap$1$link1$link2;
+  return (signed int)return_value___sync_bool_compare_and_swap_1_link1_link2;
 }
 
-// AO_compare_and_swap_full$link2
+// AO_compare_and_swap_full_link2
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link2(volatile unsigned long int *addr$link2, unsigned long int old$link2, unsigned long int new_val$link2)
+static inline signed int AO_compare_and_swap_full_link2(volatile unsigned long int *addr_link2, unsigned long int old_link2, unsigned long int new_val_link2)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1$link2;
+  _Bool return_value___sync_bool_compare_and_swap_1_link2;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1$link2 = *addr$link2 == old$link2;
-  *addr$link2 = *addr$link2 == old$link2 ? new_val$link2 : *addr$link2;
+  return_value___sync_bool_compare_and_swap_1_link2 = *addr_link2 == old_link2;
+  *addr_link2 = *addr_link2 == old_link2 ? new_val_link2 : *addr_link2;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed int)return_value___sync_bool_compare_and_swap$1$link2;
+  return (signed int)return_value___sync_bool_compare_and_swap_1_link2;
 }
 
-// AO_compare_and_swap_full$link3
+// AO_compare_and_swap_full_link3
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 139
-static inline signed int AO_compare_and_swap_full$link3(volatile unsigned long int *addr$link3, unsigned long int old$link3, unsigned long int new_val$link3)
+static inline signed int AO_compare_and_swap_full_link3(volatile unsigned long int *addr_link3, unsigned long int old_link3, unsigned long int new_val_link3)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1$link3;
+  _Bool return_value___sync_bool_compare_and_swap_1_link3;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1$link3 = *addr$link3 == old$link3;
-  *addr$link3 = *addr$link3 == old$link3 ? new_val$link3 : *addr$link3;
+  return_value___sync_bool_compare_and_swap_1_link3 = *addr_link3 == old_link3;
+  *addr_link3 = *addr_link3 == old_link3 ? new_val_link3 : *addr_link3;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed int)return_value___sync_bool_compare_and_swap$1$link3;
+  return (signed int)return_value___sync_bool_compare_and_swap_1_link3;
 }
 
 // AO_fetch_and_add
@@ -5235,44 +5235,44 @@ static inline signed int AO_compare_and_swap_full$link3(volatile unsigned long i
 static inline unsigned long int AO_fetch_and_add(volatile unsigned long int *addr, unsigned long int incr)
 {
   unsigned long int old;
-  signed int return_value_AO_compare_and_swap_full$1;
+  signed int return_value_AO_compare_and_swap_full_1;
   do
   {
     old = *((unsigned long int *)addr);
-    return_value_AO_compare_and_swap_full$1=AO_compare_and_swap_full(addr, old, old + incr);
+    return_value_AO_compare_and_swap_full_1=AO_compare_and_swap_full(addr, old, old + incr);
   }
-  while(return_value_AO_compare_and_swap_full$1 == 0);
+  while(return_value_AO_compare_and_swap_full_1 == 0);
   return old;
 }
 
-// AO_fetch_and_add$link1
+// AO_fetch_and_add_link1
 // file /usr/include/atomic_ops/generalize-arithm.h line 2726
-static inline unsigned long int AO_fetch_and_add$link1(volatile unsigned long int *addr$link1, unsigned long int incr$link1)
+static inline unsigned long int AO_fetch_and_add_link1(volatile unsigned long int *addr_link1, unsigned long int incr_link1)
 {
-  unsigned long int old$link1;
-  signed int return_value_AO_compare_and_swap_full$1$link1;
+  unsigned long int old_link1;
+  signed int return_value_AO_compare_and_swap_full_1_link1;
   do
   {
-    old$link1 = *((unsigned long int *)addr$link1);
-    return_value_AO_compare_and_swap_full$1$link1=AO_compare_and_swap_full$link2(addr$link1, old$link1, old$link1 + incr$link1);
+    old_link1 = *((unsigned long int *)addr_link1);
+    return_value_AO_compare_and_swap_full_1_link1=AO_compare_and_swap_full_link2(addr_link1, old_link1, old_link1 + incr_link1);
   }
-  while(return_value_AO_compare_and_swap_full$1$link1 == 0);
-  return old$link1;
+  while(return_value_AO_compare_and_swap_full_1_link1 == 0);
+  return old_link1;
 }
 
-// AO_fetch_and_add$link2
+// AO_fetch_and_add_link2
 // file /usr/include/atomic_ops/generalize-arithm.h line 2726
-static inline unsigned long int AO_fetch_and_add$link2(volatile unsigned long int *addr$link2, unsigned long int incr$link2)
+static inline unsigned long int AO_fetch_and_add_link2(volatile unsigned long int *addr_link2, unsigned long int incr_link2)
 {
-  unsigned long int old$link2;
-  signed int return_value_AO_compare_and_swap_full$1$link2;
+  unsigned long int old_link2;
+  signed int return_value_AO_compare_and_swap_full_1_link2;
   do
   {
-    old$link2 = *((unsigned long int *)addr$link2);
-    return_value_AO_compare_and_swap_full$1$link2=AO_compare_and_swap_full$link3(addr$link2, old$link2, old$link2 + incr$link2);
+    old_link2 = *((unsigned long int *)addr_link2);
+    return_value_AO_compare_and_swap_full_1_link2=AO_compare_and_swap_full_link3(addr_link2, old_link2, old_link2 + incr_link2);
   }
-  while(return_value_AO_compare_and_swap_full$1$link2 == 0);
-  return old$link2;
+  while(return_value_AO_compare_and_swap_full_1_link2 == 0);
+  return old_link2;
 }
 
 // AO_load
@@ -5284,103 +5284,103 @@ static inline unsigned long int AO_load(const volatile unsigned long int *addr)
   return *((const unsigned long int *)addr);
 }
 
-// AO_load$link1
+// AO_load_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link1(const volatile unsigned long int *addr$link1)
+static inline unsigned long int AO_load_link1(const volatile unsigned long int *addr_link1)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link1);
+  assert(((unsigned long int)addr_link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link1);
 }
 
-// AO_load$link1$link1
+// AO_load_link1_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link1$link1(const volatile unsigned long int *addr$link1$link1)
+static inline unsigned long int AO_load_link1_link1(const volatile unsigned long int *addr_link1_link1)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link1$link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link1$link1);
+  assert(((unsigned long int)addr_link1_link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link1_link1);
 }
 
-// AO_load$link1$link2
+// AO_load_link1_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link1$link2(const volatile unsigned long int *addr$link1$link2)
+static inline unsigned long int AO_load_link1_link2(const volatile unsigned long int *addr_link1_link2)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link1$link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link1$link2);
+  assert(((unsigned long int)addr_link1_link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link1_link2);
 }
 
-// AO_load$link2
+// AO_load_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link2(const volatile unsigned long int *addr$link2)
+static inline unsigned long int AO_load_link2(const volatile unsigned long int *addr_link2)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link2);
+  assert(((unsigned long int)addr_link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link2);
 }
 
-// AO_load$link2$link1
+// AO_load_link2_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link2$link1(const volatile unsigned long int *addr$link2$link1)
+static inline unsigned long int AO_load_link2_link1(const volatile unsigned long int *addr_link2_link1)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link2$link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link2$link1);
+  assert(((unsigned long int)addr_link2_link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link2_link1);
 }
 
-// AO_load$link2$link2
+// AO_load_link2_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link2$link2(const volatile unsigned long int *addr$link2$link2)
+static inline unsigned long int AO_load_link2_link2(const volatile unsigned long int *addr_link2_link2)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link2$link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link2$link2);
+  assert(((unsigned long int)addr_link2_link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link2_link2);
 }
 
-// AO_load$link3
+// AO_load_link3
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link3(const volatile unsigned long int *addr$link3)
+static inline unsigned long int AO_load_link3(const volatile unsigned long int *addr_link3)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link3 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link3);
+  assert(((unsigned long int)addr_link3 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link3);
 }
 
-// AO_load$link3$link1
+// AO_load_link3_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link3$link1(const volatile unsigned long int *addr$link3$link1)
+static inline unsigned long int AO_load_link3_link1(const volatile unsigned long int *addr_link3_link1)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link3$link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link3$link1);
+  assert(((unsigned long int)addr_link3_link1 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link3_link1);
 }
 
-// AO_load$link3$link2
+// AO_load_link3_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link3$link2(const volatile unsigned long int *addr$link3$link2)
+static inline unsigned long int AO_load_link3_link2(const volatile unsigned long int *addr_link3_link2)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link3$link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link3$link2);
+  assert(((unsigned long int)addr_link3_link2 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link3_link2);
 }
 
-// AO_load$link4
+// AO_load_link4
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link4(const volatile unsigned long int *addr$link4)
+static inline unsigned long int AO_load_link4(const volatile unsigned long int *addr_link4)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link4 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link4);
+  assert(((unsigned long int)addr_link4 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link4);
 }
 
-// AO_load$link5
+// AO_load_link5
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_load.h line 28
-static inline unsigned long int AO_load$link5(const volatile unsigned long int *addr$link5)
+static inline unsigned long int AO_load_link5(const volatile unsigned long int *addr_link5)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link5 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  return *((const unsigned long int *)addr$link5);
+  assert(((unsigned long int)addr_link5 & sizeof(const volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  return *((const unsigned long int *)addr_link5);
 }
 
 // AO_load_read
@@ -5388,59 +5388,59 @@ static inline unsigned long int AO_load$link5(const volatile unsigned long int *
 static inline unsigned long int AO_load_read(const volatile unsigned long int *addr)
 {
   unsigned long int result;
-  result=AO_load$link1(addr);
+  result=AO_load_link1(addr);
   AO_nop_read();
   return result;
 }
 
-// AO_load_read$link1
+// AO_load_read_link1
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link1(const volatile unsigned long int *addr$link1)
+static inline unsigned long int AO_load_read_link1(const volatile unsigned long int *addr_link1)
 {
-  unsigned long int result$link1;
-  result$link1=AO_load$link3(addr$link1);
-  AO_nop_read$link1();
-  return result$link1;
+  unsigned long int result_link1;
+  result_link1=AO_load_link3(addr_link1);
+  AO_nop_read_link1();
+  return result_link1;
 }
 
-// AO_load_read$link1$link1
+// AO_load_read_link1_link1
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link1$link1(const volatile unsigned long int *addr$link1$link1)
+static inline unsigned long int AO_load_read_link1_link1(const volatile unsigned long int *addr_link1_link1)
 {
-  unsigned long int result$link1$link1;
-  result$link1$link1=AO_load$link3$link1(addr$link1$link1);
-  AO_nop_read$link1$link1();
-  return result$link1$link1;
+  unsigned long int result_link1_link1;
+  result_link1_link1=AO_load_link3_link1(addr_link1_link1);
+  AO_nop_read_link1_link1();
+  return result_link1_link1;
 }
 
-// AO_load_read$link1$link2
+// AO_load_read_link1_link2
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link1$link2(const volatile unsigned long int *addr$link1$link2)
+static inline unsigned long int AO_load_read_link1_link2(const volatile unsigned long int *addr_link1_link2)
 {
-  unsigned long int result$link1$link2;
-  result$link1$link2=AO_load$link3$link2(addr$link1$link2);
-  AO_nop_read$link1$link2();
-  return result$link1$link2;
+  unsigned long int result_link1_link2;
+  result_link1_link2=AO_load_link3_link2(addr_link1_link2);
+  AO_nop_read_link1_link2();
+  return result_link1_link2;
 }
 
-// AO_load_read$link2
+// AO_load_read_link2
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link2(const volatile unsigned long int *addr$link2)
+static inline unsigned long int AO_load_read_link2(const volatile unsigned long int *addr_link2)
 {
-  unsigned long int result$link2;
-  result$link2=AO_load$link1$link1(addr$link2);
-  AO_nop_read$link2();
-  return result$link2;
+  unsigned long int result_link2;
+  result_link2=AO_load_link1_link1(addr_link2);
+  AO_nop_read_link2();
+  return result_link2;
 }
 
-// AO_load_read$link3
+// AO_load_read_link3
 // file /usr/include/atomic_ops/generalize-small.h line 1856
-static inline unsigned long int AO_load_read$link3(const volatile unsigned long int *addr$link3)
+static inline unsigned long int AO_load_read_link3(const volatile unsigned long int *addr_link3)
 {
-  unsigned long int result$link3;
-  result$link3=AO_load$link1$link2(addr$link3);
-  AO_nop_read$link3();
-  return result$link3;
+  unsigned long int result_link3;
+  result_link3=AO_load_link1_link2(addr_link3);
+  AO_nop_read_link3();
+  return result_link3;
 }
 
 // AO_nop_read
@@ -5450,37 +5450,37 @@ static inline void AO_nop_read(void)
   asm("" :  :  : "memory");
 }
 
-// AO_nop_read$link1
+// AO_nop_read_link1
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link1(void)
+static inline void AO_nop_read_link1(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_read$link1$link1
+// AO_nop_read_link1_link1
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link1$link1(void)
+static inline void AO_nop_read_link1_link1(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_read$link1$link2
+// AO_nop_read_link1_link2
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link1$link2(void)
+static inline void AO_nop_read_link1_link2(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_read$link2
+// AO_nop_read_link2
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link2(void)
+static inline void AO_nop_read_link2(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_read$link3
+// AO_nop_read_link3
 // file /usr/include/atomic_ops/sysdeps/read_ordered.h line 31
-static inline void AO_nop_read$link3(void)
+static inline void AO_nop_read_link3(void)
 {
   asm("" :  :  : "memory");
 }
@@ -5492,58 +5492,58 @@ static inline void AO_nop_write(void)
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link1
+// AO_nop_write_link1
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link1(void)
+static inline void AO_nop_write_link1(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link1$link1
+// AO_nop_write_link1_link1
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link1$link1(void)
+static inline void AO_nop_write_link1_link1(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link1$link2
+// AO_nop_write_link1_link2
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link1$link2(void)
+static inline void AO_nop_write_link1_link2(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link2
+// AO_nop_write_link2
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link2(void)
+static inline void AO_nop_write_link2(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link2$link1
+// AO_nop_write_link2_link1
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link2$link1(void)
+static inline void AO_nop_write_link2_link1(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link2$link2
+// AO_nop_write_link2_link2
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link2$link2(void)
+static inline void AO_nop_write_link2_link2(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link3
+// AO_nop_write_link3
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link3(void)
+static inline void AO_nop_write_link3(void)
 {
   asm("" :  :  : "memory");
 }
 
-// AO_nop_write$link4
+// AO_nop_write_link4
 // file /usr/include/atomic_ops/sysdeps/ordered_except_wr.h line 33
-static inline void AO_nop_write$link4(void)
+static inline void AO_nop_write_link4(void)
 {
   asm("" :  :  : "memory");
 }
@@ -5557,110 +5557,110 @@ static inline void AO_store(volatile unsigned long int *addr, unsigned long int 
   *((unsigned long int *)addr) = new_val;
 }
 
-// AO_store$link1
+// AO_store_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link1(volatile unsigned long int *addr$link1, unsigned long int new_val$link1)
+static inline void AO_store_link1(volatile unsigned long int *addr_link1, unsigned long int new_val_link1)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link1 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link1) = new_val$link1;
+  assert(((unsigned long int)addr_link1 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link1) = new_val_link1;
 }
 
-// AO_store$link1$link1
+// AO_store_link1_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link1$link1(volatile unsigned long int *addr$link1$link1, unsigned long int new_val$link1$link1)
+static inline void AO_store_link1_link1(volatile unsigned long int *addr_link1_link1, unsigned long int new_val_link1_link1)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link1$link1 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link1$link1) = new_val$link1$link1;
+  assert(((unsigned long int)addr_link1_link1 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link1_link1) = new_val_link1_link1;
 }
 
-// AO_store$link1$link2
+// AO_store_link1_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link1$link2(volatile unsigned long int *addr$link1$link2, unsigned long int new_val$link1$link2)
+static inline void AO_store_link1_link2(volatile unsigned long int *addr_link1_link2, unsigned long int new_val_link1_link2)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link1$link2 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link1$link2) = new_val$link1$link2;
+  assert(((unsigned long int)addr_link1_link2 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link1_link2) = new_val_link1_link2;
 }
 
-// AO_store$link2
+// AO_store_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link2(volatile unsigned long int *addr$link2, unsigned long int new_val$link2)
+static inline void AO_store_link2(volatile unsigned long int *addr_link2, unsigned long int new_val_link2)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link2 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link2) = new_val$link2;
+  assert(((unsigned long int)addr_link2 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link2) = new_val_link2;
 }
 
-// AO_store$link2$link1
+// AO_store_link2_link1
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link2$link1(volatile unsigned long int *addr$link2$link1, unsigned long int new_val$link2$link1)
+static inline void AO_store_link2_link1(volatile unsigned long int *addr_link2_link1, unsigned long int new_val_link2_link1)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link2$link1 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link2$link1) = new_val$link2$link1;
+  assert(((unsigned long int)addr_link2_link1 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link2_link1) = new_val_link2_link1;
 }
 
-// AO_store$link2$link2
+// AO_store_link2_link2
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link2$link2(volatile unsigned long int *addr$link2$link2, unsigned long int new_val$link2$link2)
+static inline void AO_store_link2_link2(volatile unsigned long int *addr_link2_link2, unsigned long int new_val_link2_link2)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link2$link2 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link2$link2) = new_val$link2$link2;
+  assert(((unsigned long int)addr_link2_link2 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link2_link2) = new_val_link2_link2;
 }
 
-// AO_store$link3
+// AO_store_link3
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link3(volatile unsigned long int *addr$link3, unsigned long int new_val$link3)
+static inline void AO_store_link3(volatile unsigned long int *addr_link3, unsigned long int new_val_link3)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link3 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link3) = new_val$link3;
+  assert(((unsigned long int)addr_link3 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link3) = new_val_link3;
 }
 
-// AO_store$link4
+// AO_store_link4
 // file /usr/include/atomic_ops/sysdeps/loadstore/atomic_store.h line 28
-static inline void AO_store$link4(volatile unsigned long int *addr$link4, unsigned long int new_val$link4)
+static inline void AO_store_link4(volatile unsigned long int *addr_link4, unsigned long int new_val_link4)
 {
   /* assertion ((size_t)addr & (sizeof(*addr) - 1)) == 0 */
-  assert(((unsigned long int)addr$link4 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
-  *((unsigned long int *)addr$link4) = new_val$link4;
+  assert(((unsigned long int)addr_link4 & sizeof(volatile unsigned long int) /*8ul*/  - (unsigned long int)1) == (unsigned long int)0);
+  *((unsigned long int *)addr_link4) = new_val_link4;
 }
 
 // AO_test_and_set_full
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$9 AO_test_and_set_full(volatile unsigned char *addr)
+static inline enum anonymous_9 AO_test_and_set_full(volatile unsigned char *addr)
 {
   unsigned char oldval;
   asm("xchgb %0, %1" : "=q"(oldval), "=m"(*addr) : "0"((unsigned char)0xff), "m"(*addr) : "memory");
-  return (enum anonymous$9)oldval;
+  return (enum anonymous_9)oldval;
 }
 
-// AO_test_and_set_full$link1
+// AO_test_and_set_full_link1
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$9 AO_test_and_set_full$link1(volatile unsigned char *addr$link1)
+static inline enum anonymous_9 AO_test_and_set_full_link1(volatile unsigned char *addr_link1)
 {
-  unsigned char oldval$link1;
-  asm("xchgb %0, %1" : "=q"(oldval$link1), "=m"(*addr$link1) : "0"((unsigned char)0xff), "m"(*addr$link1) : "memory");
-  return (enum anonymous$9)oldval$link1;
+  unsigned char oldval_link1;
+  asm("xchgb %0, %1" : "=q"(oldval_link1), "=m"(*addr_link1) : "0"((unsigned char)0xff), "m"(*addr_link1) : "memory");
+  return (enum anonymous_9)oldval_link1;
 }
 
-// AO_test_and_set_full$link2
+// AO_test_and_set_full_link2
 // file /usr/include/atomic_ops/sysdeps/gcc/x86.h line 124
-static inline enum anonymous$9 AO_test_and_set_full$link2(volatile unsigned char *addr$link2)
+static inline enum anonymous_9 AO_test_and_set_full_link2(volatile unsigned char *addr_link2)
 {
-  unsigned char oldval$link2;
-  asm("xchgb %0, %1" : "=q"(oldval$link2), "=m"(*addr$link2) : "0"((unsigned char)0xff), "m"(*addr$link2) : "memory");
-  return (enum anonymous$9)oldval$link2;
+  unsigned char oldval_link2;
+  asm("xchgb %0, %1" : "=q"(oldval_link2), "=m"(*addr_link2) : "0"((unsigned char)0xff), "m"(*addr_link2) : "memory");
+  return (enum anonymous_9)oldval_link2;
 }
 
 // GC_FirstDLOpenedLinkMap
 // file dyn_load.c line 678
 struct link_map * GC_FirstDLOpenedLinkMap(void)
 {
-  struct anonymous$22 *dp;
+  struct anonymous_22 *dp;
   static struct link_map *cachedResult = ((struct link_map *)NULL);
   if(cachedResult == ((struct link_map *)NULL))
   {
@@ -5708,9 +5708,9 @@ signed long int GC_add_ext_descriptor(const unsigned long int *bm, unsigned long
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -5718,7 +5718,7 @@ signed long int GC_add_ext_descriptor(const unsigned long int *bm, unsigned long
   while((_Bool)0);
   while(nwords + GC_avail_descr >= GC_ed_size)
   {
-    struct anonymous$19 *new;
+    struct anonymous_19 *new;
     unsigned long int new_size;
     unsigned long int ed_size = GC_ed_size;
     if(ed_size == 0ul)
@@ -5744,18 +5744,18 @@ signed long int GC_add_ext_descriptor(const unsigned long int *bm, unsigned long
         return (signed long int)-1;
 
     }
-    void *return_value_GC_malloc_atomic$2;
-    return_value_GC_malloc_atomic$2=GC_malloc_atomic(new_size * sizeof(struct anonymous$19) /*16ul*/ );
-    new = (struct anonymous$19 *)return_value_GC_malloc_atomic$2;
-    if(new == ((struct anonymous$19 *)NULL))
+    void *return_value_GC_malloc_atomic_2;
+    return_value_GC_malloc_atomic_2=GC_malloc_atomic(new_size * sizeof(struct anonymous_19) /*16ul*/ );
+    new = (struct anonymous_19 *)return_value_GC_malloc_atomic_2;
+    if(new == ((struct anonymous_19 *)NULL))
       return (signed long int)-1;
 
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$3;
-        return_value_pthread_mutex_trylock$3=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$3 == 0))
+        signed int return_value_pthread_mutex_trylock_3;
+        return_value_pthread_mutex_trylock_3=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_3 == 0))
           GC_lock();
 
       }
@@ -5764,7 +5764,7 @@ signed long int GC_add_ext_descriptor(const unsigned long int *bm, unsigned long
     if(ed_size == GC_ed_size)
     {
       if(!(GC_avail_descr == 0ul))
-        memcpy((void *)new, (const void *)GC_ext_descriptors, (unsigned long int)(GC_avail_descr * sizeof(struct anonymous$19) /*16ul*/ ));
+        memcpy((void *)new, (const void *)GC_ext_descriptors, (unsigned long int)(GC_avail_descr * sizeof(struct anonymous_19) /*16ul*/ ));
 
       GC_ed_size = new_size;
       GC_ext_descriptors = new;
@@ -5797,11 +5797,11 @@ signed long int GC_add_ext_descriptor(const unsigned long int *bm, unsigned long
 // file reclaim.c line 52
 static inline void GC_add_leaked(char *leaked)
 {
-  signed int return_value_GC_check_leaked$1;
+  signed int return_value_GC_check_leaked_1;
   if(!(GC_findleak_delay_free == 0))
   {
-    return_value_GC_check_leaked$1=GC_check_leaked(leaked);
-    if(return_value_GC_check_leaked$1 == 0)
+    return_value_GC_check_leaked_1=GC_check_leaked(leaked);
+    if(return_value_GC_check_leaked_1 == 0)
       goto __CPROVER_DUMP_L3;
 
   }
@@ -5809,9 +5809,9 @@ static inline void GC_add_leaked(char *leaked)
   GC_have_errors = 1;
   if(!(GC_n_leaked >= 40u))
   {
-    unsigned int tmp_post$2 = GC_n_leaked;
+    unsigned int tmp_post_2 = GC_n_leaked;
     GC_n_leaked = GC_n_leaked + 1u;
-    GC_leaked[(signed long int)tmp_post$2] = leaked;
+    GC_leaked[(signed long int)tmp_post_2] = leaked;
     GC_set_mark_bit((const void *)leaked);
   }
 
@@ -5820,15 +5820,15 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// GC_add_leaked$link1
+// GC_add_leaked_link1
 // file reclaim.c line 52
-static inline void GC_add_leaked$link1(char *leaked$link1)
+static inline void GC_add_leaked_link1(char *leaked_link1)
 {
-  signed int return_value_GC_check_leaked$1$link1;
+  signed int return_value_GC_check_leaked_1_link1;
   if(!(GC_findleak_delay_free == 0))
   {
-    return_value_GC_check_leaked$1$link1=GC_check_leaked(leaked$link1);
-    if(return_value_GC_check_leaked$1$link1 == 0)
+    return_value_GC_check_leaked_1_link1=GC_check_leaked(leaked_link1);
+    if(return_value_GC_check_leaked_1_link1 == 0)
       goto __CPROVER_DUMP_L3;
 
   }
@@ -5836,10 +5836,10 @@ static inline void GC_add_leaked$link1(char *leaked$link1)
   GC_have_errors = 1;
   if(!(GC_n_leaked >= 40u))
   {
-    unsigned int tmp_post$2$link1 = GC_n_leaked;
+    unsigned int tmp_post_2_link1 = GC_n_leaked;
     GC_n_leaked = GC_n_leaked + 1u;
-    GC_leaked[(signed long int)tmp_post$2$link1] = leaked$link1;
-    GC_set_mark_bit((const void *)leaked$link1);
+    GC_leaked[(signed long int)tmp_post_2_link1] = leaked_link1;
+    GC_set_mark_bit((const void *)leaked_link1);
   }
 
 
@@ -5847,15 +5847,15 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// GC_add_leaked$link2
+// GC_add_leaked_link2
 // file reclaim.c line 52
-static inline void GC_add_leaked$link2(char *leaked$link2)
+static inline void GC_add_leaked_link2(char *leaked_link2)
 {
-  signed int return_value_GC_check_leaked$1$link2;
+  signed int return_value_GC_check_leaked_1_link2;
   if(!(GC_findleak_delay_free == 0))
   {
-    return_value_GC_check_leaked$1$link2=GC_check_leaked(leaked$link2);
-    if(return_value_GC_check_leaked$1$link2 == 0)
+    return_value_GC_check_leaked_1_link2=GC_check_leaked(leaked_link2);
+    if(return_value_GC_check_leaked_1_link2 == 0)
       goto __CPROVER_DUMP_L3;
 
   }
@@ -5863,10 +5863,10 @@ static inline void GC_add_leaked$link2(char *leaked$link2)
   GC_have_errors = 1;
   if(!(GC_n_leaked >= 40u))
   {
-    unsigned int tmp_post$2$link2 = GC_n_leaked;
+    unsigned int tmp_post_2_link2 = GC_n_leaked;
     GC_n_leaked = GC_n_leaked + 1u;
-    GC_leaked[(signed long int)tmp_post$2$link2] = leaked$link2;
-    GC_set_mark_bit((const void *)leaked$link2);
+    GC_leaked[(signed long int)tmp_post_2_link2] = leaked_link2;
+    GC_set_mark_bit((const void *)leaked_link2);
   }
 
 
@@ -5888,9 +5888,9 @@ signed int GC_add_map_entry(unsigned long int granules)
 
   else
   {
-    char *return_value_GC_scratch_alloc$1;
-    return_value_GC_scratch_alloc$1=GC_scratch_alloc(((unsigned long int)(1 << 12) >> 4) * sizeof(signed short int) /*2ul*/ );
-    new_map = (signed short int *)return_value_GC_scratch_alloc$1;
+    char *return_value_GC_scratch_alloc_1;
+    return_value_GC_scratch_alloc_1=GC_scratch_alloc(((unsigned long int)(1 << 12) >> 4) * sizeof(signed short int) /*2ul*/ );
+    new_map = (signed short int *)return_value_GC_scratch_alloc_1;
     if(new_map == ((signed short int *)NULL))
       return 0;
 
@@ -5928,9 +5928,9 @@ extern void GC_add_roots(void *b, void *e)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -5953,9 +5953,9 @@ void GC_add_roots_inner(char *b, char *e, signed int tmp)
   e = (char *)((unsigned long int)e & ~(sizeof(unsigned long int) /*8ul*/  - (unsigned long int)1));
   if(!((unsigned long int)b >= (unsigned long int)e))
   {
-    void *return_value_GC_roots_present$1;
-    return_value_GC_roots_present$1=GC_roots_present(b);
-    old = (struct roots *)return_value_GC_roots_present$1;
+    void *return_value_GC_roots_present_1;
+    return_value_GC_roots_present_1=GC_roots_present(b);
+    old = (struct roots *)return_value_GC_roots_present_1;
     if(!(old == ((struct roots *)NULL)))
     {
       if((unsigned long int)old->r_end >= (unsigned long int)e)
@@ -6006,15 +6006,15 @@ void GC_add_to_black_list_normal(unsigned long int p)
   if(!(GC_arrays._modws_valid_offsets[7l & (signed long int)p] == 0))
   {
     unsigned long int index = (unsigned long int)p >> (unsigned long int)12 & ((unsigned long int)1 << 18) - (unsigned long int)1;
-    struct hblkhdr *return_value_GC_find_header$1;
-    return_value_GC_find_header$1=GC_find_header((char *)p);
-    _Bool tmp_if_expr$2;
-    if(return_value_GC_find_header$1 == ((struct hblkhdr *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+    struct hblkhdr *return_value_GC_find_header_1;
+    return_value_GC_find_header_1=GC_find_header((char *)p);
+    _Bool tmp_if_expr_2;
+    if(return_value_GC_find_header_1 == ((struct hblkhdr *)NULL))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (GC_old_normal_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (GC_old_normal_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       GC_incomplete_normal_bl[(signed long int)(index >> (unsigned long int)6)] = GC_incomplete_normal_bl[(signed long int)(index >> (unsigned long int)6)] | (unsigned long int)1 << (index & (unsigned long int)0x3f);
 
   }
@@ -6026,15 +6026,15 @@ void GC_add_to_black_list_normal(unsigned long int p)
 void GC_add_to_black_list_stack(unsigned long int p)
 {
   unsigned long int index = (unsigned long int)p >> (unsigned long int)12 & ((unsigned long int)1 << 18) - (unsigned long int)1;
-  struct hblkhdr *return_value_GC_find_header$1;
-  return_value_GC_find_header$1=GC_find_header((char *)p);
-  _Bool tmp_if_expr$2;
-  if(return_value_GC_find_header$1 == ((struct hblkhdr *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+  struct hblkhdr *return_value_GC_find_header_1;
+  return_value_GC_find_header_1=GC_find_header((char *)p);
+  _Bool tmp_if_expr_2;
+  if(return_value_GC_find_header_1 == ((struct hblkhdr *)NULL))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (GC_old_stack_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (GC_old_stack_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     GC_incomplete_stack_bl[(signed long int)(index >> (unsigned long int)6)] = GC_incomplete_stack_bl[(signed long int)(index >> (unsigned long int)6)] | (unsigned long int)1 << (index & (unsigned long int)0x3f);
 
 }
@@ -6174,11 +6174,11 @@ char * GC_alloc_large(unsigned long int lb, signed int k, unsigned int flags)
     GC_collect_a_little_inner((signed int)n_blocks);
 
   h=GC_allochblk(lb, k, flags);
-  signed int return_value_GC_collect_or_expand$1;
+  signed int return_value_GC_collect_or_expand_1;
   for( ; h == ((struct hblk *)NULL); retry = 1)
   {
-    return_value_GC_collect_or_expand$1=GC_collect_or_expand(n_blocks, (signed int)(flags != (unsigned int)0), retry);
-    if(return_value_GC_collect_or_expand$1 == 0)
+    return_value_GC_collect_or_expand_1=GC_collect_or_expand(n_blocks, (signed int)(flags != (unsigned int)0), retry);
+    if(return_value_GC_collect_or_expand_1 == 0)
       break;
 
     h=GC_allochblk(lb, k, flags);
@@ -6214,13 +6214,13 @@ char * GC_alloc_large_and_clear(unsigned long int lb, signed int k, unsigned int
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(GC_debugging_started == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = GC_obj_kinds[(signed long int)k].ok_init != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = GC_obj_kinds[(signed long int)k].ok_init != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       memset((void *)result, 0, (unsigned long int)(n_blocks * (unsigned long int)(1 << 12)));
 
     return result;
@@ -6232,9 +6232,9 @@ char * GC_alloc_large_and_clear(unsigned long int lb, signed int k, unsigned int
 signed int GC_alloc_reclaim_list(struct obj_kind *kind)
 {
   struct hblk **result;
-  char *return_value_GC_scratch_alloc$1;
-  return_value_GC_scratch_alloc$1=GC_scratch_alloc(((unsigned long int)((1 << 12) / 2 >> 4) + (unsigned long int)1) * sizeof(struct hblk *) /*8ul*/ );
-  result = (struct hblk **)return_value_GC_scratch_alloc$1;
+  char *return_value_GC_scratch_alloc_1;
+  return_value_GC_scratch_alloc_1=GC_scratch_alloc(((unsigned long int)((1 << 12) / 2 >> 4) + (unsigned long int)1) * sizeof(struct hblk *) /*8ul*/ );
+  result = (struct hblk **)return_value_GC_scratch_alloc_1;
   if(result == ((struct hblk **)NULL))
     return 0;
 
@@ -6256,7 +6256,7 @@ struct hblk * GC_allochblk(unsigned long int sz, signed int kind, unsigned int f
   signed int may_split;
   signed int split_limit;
   blocks = (sz + (unsigned long int)(1 << 12)) - (unsigned long int)1 >> (unsigned long int)12;
-  signed int return_value_GC_should_collect$1;
+  signed int return_value_GC_should_collect_1;
   if(!(4096l * (signed long int)blocks >= 0l))
     return ((struct hblk *)NULL);
 
@@ -6270,16 +6270,16 @@ struct hblk * GC_allochblk(unsigned long int sz, signed int kind, unsigned int f
     else
     {
       may_split = 1;
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!(GC_dont_gc == 0) || !(GC_incremental == 0) || !(GC_use_entire_heap == 0) || !(GC_arrays._heapsize + -GC_arrays._large_free_bytes >= GC_arrays._requested_heapsize))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value_GC_should_collect$1=GC_should_collect();
-        tmp_if_expr$2 = !(return_value_GC_should_collect$1 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_GC_should_collect_1=GC_should_collect();
+        tmp_if_expr_2 = !(return_value_GC_should_collect_1 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         split_limit = (256 - 32) / 8 + 32;
 
       else
@@ -6315,7 +6315,7 @@ struct hblk * GC_allochblk_nth(unsigned long int sz, signed int kind, unsigned i
   signed long int size_avail;
   size_needed = (signed long int)((unsigned long int)(1 << 12) * ((sz + (unsigned long int)(1 << 12)) - (unsigned long int)1 >> (unsigned long int)12));
   hbp = GC_hblkfreelist[(signed long int)n];
-  struct hblk *return_value_GC_is_black_listed$1;
+  struct hblk *return_value_GC_is_black_listed_1;
   for( ; (_Bool)1; hbp = hhdr->hb_next)
   {
     if(hbp == ((struct hblk *)NULL))
@@ -6358,32 +6358,32 @@ struct hblk * GC_allochblk_nth(unsigned long int sz, signed int kind, unsigned i
         {
           do
           {
-            struct hblkhdr **GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$_ha;
+            struct hblkhdr **GC_allochblk_nth__1__1__1__2__1__1___ha;
             do
             {
-              struct bi *GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$bi;
+              struct bi *GC_allochblk_nth__1__1__1__2__1__1__1__bi;
               do
               {
-                unsigned long int GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$hi = (unsigned long int)thishbp >> (unsigned long int)10 + (unsigned long int)12;
-                struct bi *GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$_bi = GC_arrays._top_index[(signed long int)(GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$hi & (unsigned long int)((1 << 11) - 1))];
-                for( ; !(GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$_bi->key == GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$hi); GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$_bi = GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$_bi->hash_link)
-                  if(GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$_bi == GC_arrays._all_nils)
+                unsigned long int GC_allochblk_nth__1__1__1__2__1__1__1__1__hi = (unsigned long int)thishbp >> (unsigned long int)10 + (unsigned long int)12;
+                struct bi *GC_allochblk_nth__1__1__1__2__1__1__1__1___bi = GC_arrays._top_index[(signed long int)(GC_allochblk_nth__1__1__1__2__1__1__1__1__hi & (unsigned long int)((1 << 11) - 1))];
+                for( ; !(GC_allochblk_nth__1__1__1__2__1__1__1__1___bi->key == GC_allochblk_nth__1__1__1__2__1__1__1__1__hi); GC_allochblk_nth__1__1__1__2__1__1__1__1___bi = GC_allochblk_nth__1__1__1__2__1__1__1__1___bi->hash_link)
+                  if(GC_allochblk_nth__1__1__1__2__1__1__1__1___bi == GC_arrays._all_nils)
                     break;
 
-                GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$bi = GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$1$$_bi;
+                GC_allochblk_nth__1__1__1__2__1__1__1__bi = GC_allochblk_nth__1__1__1__2__1__1__1__1___bi;
               }
               while((_Bool)0);
-              GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$_ha = &GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$1$$bi->index[(signed long int)((unsigned long int)thishbp >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
+              GC_allochblk_nth__1__1__1__2__1__1___ha = &GC_allochblk_nth__1__1__1__2__1__1__1__bi->index[(signed long int)((unsigned long int)thishbp >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
             }
             while((_Bool)0);
-            thishdr = *GC_allochblk_nth$$1$$1$$1$$2$$1$$1$$_ha;
+            thishdr = *GC_allochblk_nth__1__1__1__2__1__1___ha;
           }
           while((_Bool)0);
           next_size = (signed long int)thishdr->hb_sz;
           if(next_size >= size_needed && !(next_size >= size_avail))
           {
-            return_value_GC_is_black_listed$1=GC_is_black_listed(thishbp, (unsigned long int)size_needed);
-            if(return_value_GC_is_black_listed$1 == ((struct hblk *)NULL))
+            return_value_GC_is_black_listed_1=GC_is_black_listed(thishbp, (unsigned long int)size_needed);
+            if(return_value_GC_is_black_listed_1 == ((struct hblk *)NULL))
               goto __CPROVER_DUMP_L28;
 
           }
@@ -6470,9 +6470,9 @@ struct hblk * GC_allochblk_nth(unsigned long int sz, signed int kind, unsigned i
                   hbp = prev;
                   if(hbp == ((struct hblk *)NULL))
                   {
-                    struct hblk *return_value_GC_allochblk_nth$2;
-                    return_value_GC_allochblk_nth$2=GC_allochblk_nth(sz, kind, flags, n, may_split);
-                    return return_value_GC_allochblk_nth$2;
+                    struct hblk *return_value_GC_allochblk_nth_2;
+                    return_value_GC_allochblk_nth_2=GC_allochblk_nth(sz, kind, flags, n, may_split);
+                    return return_value_GC_allochblk_nth_2;
                   }
 
                   hhdr=GC_find_header((char *)hbp);
@@ -6501,16 +6501,16 @@ struct hblk * GC_allochblk_nth(unsigned long int sz, signed int kind, unsigned i
 
   else
   {
-    signed int return_value_GC_install_counts$3;
-    return_value_GC_install_counts$3=GC_install_counts(hbp, (unsigned long int)size_needed);
-    if(return_value_GC_install_counts$3 == 0)
+    signed int return_value_GC_install_counts_3;
+    return_value_GC_install_counts_3=GC_install_counts(hbp, (unsigned long int)size_needed);
+    if(return_value_GC_install_counts_3 == 0)
       return ((struct hblk *)NULL);
 
     else
     {
-      signed int return_value_setup_header$4;
-      return_value_setup_header$4=setup_header(hhdr, hbp, sz, kind, flags);
-      if(return_value_setup_header$4 == 0)
+      signed int return_value_setup_header_4;
+      return_value_setup_header_4=setup_header(hhdr, hbp, sz, kind, flags);
+      if(return_value_setup_header_4 == 0)
       {
         GC_remove_counts(hbp, (unsigned long int)size_needed);
         return ((struct hblk *)NULL);
@@ -6561,9 +6561,9 @@ char * GC_allocobj(unsigned long int gran, signed int kind)
 
         else
         {
-          signed int return_value_GC_collect_or_expand$1;
-          return_value_GC_collect_or_expand$1=GC_collect_or_expand((unsigned long int)1, 0, retry);
-          if(return_value_GC_collect_or_expand$1 == 0)
+          signed int return_value_GC_collect_or_expand_1;
+          return_value_GC_collect_or_expand_1=GC_collect_or_expand((unsigned long int)1, 0, retry);
+          if(return_value_GC_collect_or_expand_1 == 0)
           {
             GC_collecting = 0;
             return ((char *)NULL);
@@ -6755,12 +6755,12 @@ void GC_bl_init(void)
   if(GC_all_interior_pointers == 0)
     GC_bl_init_no_interiors();
 
-  char *return_value_GC_scratch_alloc$1;
-  return_value_GC_scratch_alloc$1=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
-  GC_old_stack_bl = (unsigned long int *)return_value_GC_scratch_alloc$1;
-  char *return_value_GC_scratch_alloc$2;
-  return_value_GC_scratch_alloc$2=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
-  GC_incomplete_stack_bl = (unsigned long int *)return_value_GC_scratch_alloc$2;
+  char *return_value_GC_scratch_alloc_1;
+  return_value_GC_scratch_alloc_1=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
+  GC_old_stack_bl = (unsigned long int *)return_value_GC_scratch_alloc_1;
+  char *return_value_GC_scratch_alloc_2;
+  return_value_GC_scratch_alloc_2=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
+  GC_incomplete_stack_bl = (unsigned long int *)return_value_GC_scratch_alloc_2;
   if(GC_incomplete_stack_bl == ((unsigned long int *)NULL) || GC_old_stack_bl == ((unsigned long int *)NULL))
   {
     GC_err_printf("Insufficient memory for black list\n");
@@ -6778,12 +6778,12 @@ void GC_bl_init_no_interiors(void)
 {
   if(GC_incomplete_normal_bl == ((unsigned long int *)NULL))
   {
-    char *return_value_GC_scratch_alloc$1;
-    return_value_GC_scratch_alloc$1=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
-    GC_old_normal_bl = (unsigned long int *)return_value_GC_scratch_alloc$1;
-    char *return_value_GC_scratch_alloc$2;
-    return_value_GC_scratch_alloc$2=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
-    GC_incomplete_normal_bl = (unsigned long int *)return_value_GC_scratch_alloc$2;
+    char *return_value_GC_scratch_alloc_1;
+    return_value_GC_scratch_alloc_1=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
+    GC_old_normal_bl = (unsigned long int *)return_value_GC_scratch_alloc_1;
+    char *return_value_GC_scratch_alloc_2;
+    return_value_GC_scratch_alloc_2=GC_scratch_alloc(sizeof(unsigned long int [4096l]) /*32768ul*/ );
+    GC_incomplete_normal_bl = (unsigned long int *)return_value_GC_scratch_alloc_2;
     if(GC_incomplete_normal_bl == ((unsigned long int *)NULL) || GC_old_normal_bl == ((unsigned long int *)NULL))
     {
       GC_err_printf("Insufficient memory for black list\n");
@@ -6818,9 +6818,9 @@ signed int GC_block_was_dirty(struct hblk *h, struct hblkhdr *hhdr)
   unsigned long int sz = hhdr->hb_sz;
   if(!(sz >= 2049ul))
   {
-    signed int return_value_GC_page_was_dirty$1;
-    return_value_GC_page_was_dirty$1=GC_page_was_dirty(h);
-    return return_value_GC_page_was_dirty$1;
+    signed int return_value_GC_page_was_dirty_1;
+    return_value_GC_page_was_dirty_1=GC_page_was_dirty(h);
+    return return_value_GC_page_was_dirty_1;
   }
 
   else
@@ -6828,9 +6828,9 @@ signed int GC_block_was_dirty(struct hblk *h, struct hblkhdr *hhdr)
     char *p = (char *)h;
     while(!((unsigned long int)p >= sz + (unsigned long int)h))
     {
-      signed int return_value_GC_page_was_dirty$2;
-      return_value_GC_page_was_dirty$2=GC_page_was_dirty((struct hblk *)p);
-      if(!(return_value_GC_page_was_dirty$2 == 0))
+      signed int return_value_GC_page_was_dirty_2;
+      return_value_GC_page_was_dirty_2=GC_page_was_dirty((struct hblk *)p);
+      if(!(return_value_GC_page_was_dirty_2 == 0))
         return 1;
 
       p = p + (signed long int)(unsigned long int)(1 << 12);
@@ -6846,33 +6846,33 @@ char * GC_build_fl(struct hblk *h, unsigned long int sz, signed int clear, char 
   unsigned long int *p;
   unsigned long int *prev;
   unsigned long int *last_object;
-  char *return_value_GC_build_fl2$2;
-  char *return_value_GC_build_fl4$4;
+  char *return_value_GC_build_fl2_2;
+  char *return_value_GC_build_fl4_4;
   switch(sz)
   {
     case (unsigned long int)2:
     {
       if(!(clear == 0))
       {
-        char *return_value_GC_build_fl_clear2$1;
-        return_value_GC_build_fl_clear2$1=GC_build_fl_clear2(h, list);
-        return return_value_GC_build_fl_clear2$1;
+        char *return_value_GC_build_fl_clear2_1;
+        return_value_GC_build_fl_clear2_1=GC_build_fl_clear2(h, list);
+        return return_value_GC_build_fl_clear2_1;
       }
 
-      return_value_GC_build_fl2$2=GC_build_fl2(h, list);
-      return return_value_GC_build_fl2$2;
+      return_value_GC_build_fl2_2=GC_build_fl2(h, list);
+      return return_value_GC_build_fl2_2;
     }
     case (unsigned long int)4:
     {
       if(!(clear == 0))
       {
-        char *return_value_GC_build_fl_clear4$3;
-        return_value_GC_build_fl_clear4$3=GC_build_fl_clear4(h, list);
-        return return_value_GC_build_fl_clear4$3;
+        char *return_value_GC_build_fl_clear4_3;
+        return_value_GC_build_fl_clear4_3=GC_build_fl_clear4(h, list);
+        return return_value_GC_build_fl_clear4_3;
       }
 
-      return_value_GC_build_fl4$4=GC_build_fl4(h, list);
-      return return_value_GC_build_fl4$4;
+      return_value_GC_build_fl4_4=GC_build_fl4(h, list);
+      return return_value_GC_build_fl4_4;
     }
     default:
     {
@@ -6979,9 +6979,9 @@ extern void * GC_call_with_alloc_lock(void * (*fn)(void *), void *client_data)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -7005,9 +7005,9 @@ extern void * GC_call_with_gc_active(void * (*fn)(void *), void *client_data)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -7051,9 +7051,9 @@ extern void * GC_call_with_gc_active(void * (*fn)(void *), void *client_data)
     client_data=fn(client_data);
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$2;
-      return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$2 == 0))
+      signed int return_value_pthread_mutex_trylock_2;
+      return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_2 == 0))
         GC_lock();
 
     }
@@ -7111,9 +7111,9 @@ extern void * GC_calloc_explicitly_typed(unsigned long int n, unsigned long int 
 
   __CPROVER_DUMP_L2:
     ;
-    void *return_value_GC_malloc_explicitly_typed$1;
-    return_value_GC_malloc_explicitly_typed$1=GC_malloc_explicitly_typed(n * lb, simple_descr);
-    return return_value_GC_malloc_explicitly_typed$1;
+    void *return_value_GC_malloc_explicitly_typed_1;
+    return_value_GC_malloc_explicitly_typed_1=GC_malloc_explicitly_typed(n * lb, simple_descr);
+    return return_value_GC_malloc_explicitly_typed_1;
 
   __CPROVER_DUMP_L3:
     ;
@@ -7137,9 +7137,9 @@ __CPROVER_DUMP_L5:
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$2;
-        return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$2 == 0))
+        signed int return_value_pthread_mutex_trylock_2;
+        return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_2 == 0))
           GC_lock();
 
       }
@@ -7153,11 +7153,11 @@ __CPROVER_DUMP_L5:
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc$3;
-      return_value_GC_generic_malloc$3=GC_generic_malloc((unsigned long int)lb, GC_array_kind);
-      void *return_value_GC_clear_stack$4;
-      return_value_GC_clear_stack$4=GC_clear_stack(return_value_GC_generic_malloc$3);
-      op = (char *)return_value_GC_clear_stack$4;
+      void *return_value_GC_generic_malloc_3;
+      return_value_GC_generic_malloc_3=GC_generic_malloc((unsigned long int)lb, GC_array_kind);
+      void *return_value_GC_clear_stack_4;
+      return_value_GC_clear_stack_4=GC_clear_stack(return_value_GC_generic_malloc_3);
+      op = (char *)return_value_GC_clear_stack_4;
       if(op == ((char *)NULL))
         return NULL;
 
@@ -7179,17 +7179,17 @@ __CPROVER_DUMP_L5:
 
   else
   {
-    void *return_value_GC_generic_malloc$5;
-    return_value_GC_generic_malloc$5=GC_generic_malloc((unsigned long int)lb, GC_array_kind);
-    void *return_value_GC_clear_stack$6;
-    return_value_GC_clear_stack$6=GC_clear_stack(return_value_GC_generic_malloc$5);
-    op = (char *)return_value_GC_clear_stack$6;
+    void *return_value_GC_generic_malloc_5;
+    return_value_GC_generic_malloc_5=GC_generic_malloc((unsigned long int)lb, GC_array_kind);
+    void *return_value_GC_clear_stack_6;
+    return_value_GC_clear_stack_6=GC_clear_stack(return_value_GC_generic_malloc_5);
+    op = (char *)return_value_GC_clear_stack_6;
     if(op == ((char *)NULL))
       return NULL;
 
-    unsigned long int return_value_GC_size$7;
-    return_value_GC_size$7=GC_size((const void *)op);
-    lg = return_value_GC_size$7 >> 4;
+    unsigned long int return_value_GC_size_7;
+    return_value_GC_size_7=GC_size((const void *)op);
+    lg = return_value_GC_size_7 >> 4;
   }
   if(descr_type == 1)
   {
@@ -7205,13 +7205,13 @@ __CPROVER_DUMP_L5:
   {
     unsigned long int lw = lg << 1;
     ((unsigned long int *)op)[(signed long int)(lw - (unsigned long int)1)] = (unsigned long int)complex_descr;
-    signed int return_value_GC_general_register_disappearing_link$9;
-    return_value_GC_general_register_disappearing_link$9=GC_general_register_disappearing_link((void **)(((unsigned long int *)op + (signed long int)lw) - (signed long int)1), (const void *)op);
-    if(return_value_GC_general_register_disappearing_link$9 == 2)
+    signed int return_value_GC_general_register_disappearing_link_9;
+    return_value_GC_general_register_disappearing_link_9=GC_general_register_disappearing_link((void **)(((unsigned long int *)op + (signed long int)lw) - (signed long int)1), (const void *)op);
+    if(return_value_GC_general_register_disappearing_link_9 == 2)
     {
-      void *return_value_GC_malloc$8;
-      return_value_GC_malloc$8=GC_malloc(n * lb);
-      return return_value_GC_malloc$8;
+      void *return_value_GC_malloc_8;
+      return_value_GC_malloc_8=GC_malloc(n * lb);
+      return return_value_GC_malloc_8;
     }
 
   }
@@ -7227,7 +7227,7 @@ extern void GC_change_stubborn(const void *p)
 
 // GC_check_annotated_obj
 // file dbg_mlc.c line 295
-char * GC_check_annotated_obj(struct anonymous$18 *ohdr)
+char * GC_check_annotated_obj(struct anonymous_18 *ohdr)
 {
   char *body = (char *)(ohdr + (signed long int)1);
   unsigned long int gc_sz;
@@ -7256,9 +7256,9 @@ char * GC_check_annotated_obj(struct anonymous$18 *ohdr)
 unsigned char * GC_check_finalizer_nested(void)
 {
   struct GC_Thread_Rep *me;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  me=GC_lookup_thread(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  me=GC_lookup_thread(return_value_pthread_self_1);
   unsigned int nesting_level = (unsigned int)me->finalizer_nested;
   if(!(nesting_level == 0u))
   {
@@ -7290,16 +7290,16 @@ void GC_check_heap_block(struct hblk *hbp, unsigned long int dummy)
   else
     plim = (hbp->hb_body + (signed long int)(unsigned long int)(1 << 12)) - (signed long int)sz;
   bit_no = (unsigned long int)0;
-  signed int return_value_GC_has_other_debug_info$1;
+  signed int return_value_GC_has_other_debug_info_1;
   for( ; (unsigned long int)plim >= (unsigned long int)p; p = p + (signed long int)sz)
   {
     if(!(hhdr->_mark_byte_union._hb_marks[(signed long int)bit_no] == 0))
     {
-      return_value_GC_has_other_debug_info$1=GC_has_other_debug_info((char *)p);
-      if(return_value_GC_has_other_debug_info$1 >= 1)
+      return_value_GC_has_other_debug_info_1=GC_has_other_debug_info((char *)p);
+      if(return_value_GC_has_other_debug_info_1 >= 1)
       {
         char *clobbered;
-        clobbered=GC_check_annotated_obj((struct anonymous$18 *)p);
+        clobbered=GC_check_annotated_obj((struct anonymous_18 *)p);
         if(!(clobbered == ((char *)NULL)))
           GC_add_smashed(clobbered);
 
@@ -7325,17 +7325,17 @@ signed int GC_check_leaked(char *base)
   unsigned long int i;
   unsigned long int obj_sz;
   unsigned long int *p;
-  signed int return_value_GC_has_other_debug_info$1;
-  return_value_GC_has_other_debug_info$1=GC_has_other_debug_info(base);
-  if(return_value_GC_has_other_debug_info$1 >= 0)
+  signed int return_value_GC_has_other_debug_info_1;
+  return_value_GC_has_other_debug_info_1=GC_has_other_debug_info(base);
+  if(return_value_GC_has_other_debug_info_1 >= 0)
     return 1;
 
   else
   {
-    p = (unsigned long int *)(base + (signed long int)sizeof(struct anonymous$18) /*32ul*/ );
-    struct hblkhdr *return_value_GC_find_header$2;
-    return_value_GC_find_header$2=GC_find_header((char *)base);
-    obj_sz = return_value_GC_find_header$2->hb_sz - sizeof(struct anonymous$18) /*32ul*/  >> 3;
+    p = (unsigned long int *)(base + (signed long int)sizeof(struct anonymous_18) /*32ul*/ );
+    struct hblkhdr *return_value_GC_find_header_2;
+    return_value_GC_find_header_2=GC_find_header((char *)base);
+    obj_sz = return_value_GC_find_header_2->hb_sz - sizeof(struct anonymous_18) /*32ul*/  >> 3;
     i = (unsigned long int)0;
     for( ; !(i >= obj_sz); i = i + 1ul)
       if(!(p[(signed long int)i] == 0xEFBEADDEdeadbeefUL))
@@ -7427,13 +7427,13 @@ void GC_clear_fl_marks(char *q)
 void GC_clear_hdr_marks(struct hblkhdr *hhdr)
 {
   unsigned long int last_bit;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(hhdr->hb_sz >= 2049ul)
-    tmp_if_expr$1 = (unsigned long int)(1 << 12) / (unsigned long int)16;
+    tmp_if_expr_1 = (unsigned long int)(1 << 12) / (unsigned long int)16;
 
   else
-    tmp_if_expr$1 = hhdr->hb_sz * ((unsigned long int)(1 << 12) / hhdr->hb_sz) >> 4;
-  last_bit = tmp_if_expr$1;
+    tmp_if_expr_1 = hhdr->hb_sz * ((unsigned long int)(1 << 12) / hhdr->hb_sz) >> 4;
+  last_bit = tmp_if_expr_1;
   memset((void *)hhdr->_mark_byte_union._hb_marks, 0, (unsigned long int)sizeof(char [257l]) /*257ul*/ );
   hhdr->_mark_byte_union._hb_marks[(signed long int)last_bit] = (char)1;
   hhdr->hb_n_marks = (volatile unsigned long int)0;
@@ -7479,9 +7479,9 @@ extern void GC_clear_roots(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -7513,9 +7513,9 @@ extern void * GC_clear_stack(void *arg)
     limit = sp;
     limit = limit - (signed long int)((unsigned long int)2048 * sizeof(unsigned long int) /*8ul*/ );
     limit = (char *)((unsigned long int)limit & (unsigned long int)~0xf);
-    void *return_value_GC_clear_stack_inner$1;
-    return_value_GC_clear_stack_inner$1=GC_clear_stack_inner(arg, limit);
-    return return_value_GC_clear_stack_inner$1;
+    void *return_value_GC_clear_stack_inner_1;
+    return_value_GC_clear_stack_inner_1=GC_clear_stack_inner(arg, limit);
+    return return_value_GC_clear_stack_inner_1;
   }
 
   else
@@ -7531,9 +7531,9 @@ void * GC_clear_stack_inner(void *arg, char *limit)
 {
   volatile unsigned long int dummy[213l];
   memset((void *)dummy, 0, (unsigned long int)sizeof(volatile unsigned long int [213l]) /*1704ul*/ );
-  char *return_value_GC_approx_sp$1;
-  return_value_GC_approx_sp$1=GC_approx_sp();
-  if(!((unsigned long int)limit >= (unsigned long int)return_value_GC_approx_sp$1))
+  char *return_value_GC_approx_sp_1;
+  return_value_GC_approx_sp_1=GC_approx_sp();
+  if(!((unsigned long int)limit >= (unsigned long int)return_value_GC_approx_sp_1))
     GC_clear_stack_inner(arg, limit);
 
   GC_noop1((unsigned long int)dummy);
@@ -7548,18 +7548,18 @@ extern signed int GC_collect_a_little(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
   GC_collect_a_little_inner(1);
-  signed int return_value_GC_collection_in_progress$2;
-  return_value_GC_collection_in_progress$2=GC_collection_in_progress();
-  result = (signed int)return_value_GC_collection_in_progress$2;
+  signed int return_value_GC_collection_in_progress_2;
+  return_value_GC_collection_in_progress_2=GC_collection_in_progress();
+  result = (signed int)return_value_GC_collection_in_progress_2;
   do
     if(!(GC_need_to_lock == 0))
       pthread_mutex_unlock(&GC_allocate_ml);
@@ -7577,29 +7577,29 @@ void GC_collect_a_little_inner(signed int n)
 {
   signed int i;
   signed int cancel_state;
-  signed int return_value_GC_collection_in_progress$3;
+  signed int return_value_GC_collection_in_progress_3;
   if(GC_dont_gc == 0)
   {
     do
       pthread_setcancelstate(1, &cancel_state);
     while((_Bool)0);
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if(!(GC_incremental == 0))
     {
-      return_value_GC_collection_in_progress$3=GC_collection_in_progress();
-      tmp_if_expr$4 = return_value_GC_collection_in_progress$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_GC_collection_in_progress_3=GC_collection_in_progress();
+      tmp_if_expr_4 = return_value_GC_collection_in_progress_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       i = GC_deficit;
       for( ; !(i >= 10 * n); i = i + 1)
       {
-        signed int return_value_GC_mark_some$2;
-        return_value_GC_mark_some$2=GC_mark_some((char *)0);
-        if(!(return_value_GC_mark_some$2 == 0))
+        signed int return_value_GC_mark_some_2;
+        return_value_GC_mark_some_2=GC_mark_some((char *)0);
+        if(!(return_value_GC_mark_some_2 == 0))
         {
           if(!(GC_parallel == 0))
             GC_wait_for_reclaim();
@@ -7607,9 +7607,9 @@ void GC_collect_a_little_inner(signed int n)
           if(!(GC_time_limit == 999999ul) && !(GC_n_attempts >= 1))
           {
             GC_start_time=clock();
-            signed int return_value_GC_stopped_mark$1;
-            return_value_GC_stopped_mark$1=GC_stopped_mark(GC_timeout_stop_func);
-            if(return_value_GC_stopped_mark$1 == 0)
+            signed int return_value_GC_stopped_mark_1;
+            return_value_GC_stopped_mark_1=GC_stopped_mark(GC_timeout_stop_func);
+            if(return_value_GC_stopped_mark_1 == 0)
             {
               GC_n_attempts = GC_n_attempts + 1;
               break;
@@ -7651,19 +7651,19 @@ signed int GC_collect_or_expand(unsigned long int needed_blocks, signed int igno
   do
     pthread_setcancelstate(1, &cancel_state);
   while((_Bool)0);
-  signed int return_value_GC_should_collect$1;
+  signed int return_value_GC_should_collect_1;
   if(GC_dont_gc == 0 && GC_incremental == 0)
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(GC_arrays._bytes_allocd >= 1ul && !(GC_dont_expand == 0) || !((GC_arrays._bytes_finalized | last_bytes_finalized) == 0ul) && !(500ul + last_fo_entries >= GC_fo_entries))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_GC_should_collect$1=GC_should_collect();
-      tmp_if_expr$2 = return_value_GC_should_collect$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_GC_should_collect_1=GC_should_collect();
+      tmp_if_expr_2 = return_value_GC_should_collect_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
       gc_not_stopped=GC_try_to_collect_inner(GC_arrays._bytes_allocd > (unsigned long int)0 && (!(GC_dont_expand != 0) || !(retry != 0)) ? GC_default_stop_func : GC_never_stop_func);
       if(gc_not_stopped == 1 || retry == 0)
@@ -7701,28 +7701,28 @@ signed int GC_collect_or_expand(unsigned long int needed_blocks, signed int igno
       blocks_to_get = (unsigned long int)2048;
   }
 
-  signed int return_value_GC_expand_hp_inner$4;
-  return_value_GC_expand_hp_inner$4=GC_expand_hp_inner(blocks_to_get);
-  _Bool tmp_if_expr$6;
-  signed int return_value_GC_expand_hp_inner$5;
-  if(return_value_GC_expand_hp_inner$4 == 0)
+  signed int return_value_GC_expand_hp_inner_4;
+  return_value_GC_expand_hp_inner_4=GC_expand_hp_inner(blocks_to_get);
+  _Bool tmp_if_expr_6;
+  signed int return_value_GC_expand_hp_inner_5;
+  if(return_value_GC_expand_hp_inner_4 == 0)
   {
-    return_value_GC_expand_hp_inner$5=GC_expand_hp_inner(needed_blocks);
-    tmp_if_expr$6 = !(return_value_GC_expand_hp_inner$5 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_GC_expand_hp_inner_5=GC_expand_hp_inner(needed_blocks);
+    tmp_if_expr_6 = !(return_value_GC_expand_hp_inner_5 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  if(tmp_if_expr_6)
   {
     if(gc_not_stopped == 0)
       GC_try_to_collect_inner(GC_never_stop_func);
 
     else
     {
-      unsigned int tmp_post$3 = GC_fail_count;
+      unsigned int tmp_post_3 = GC_fail_count;
       GC_fail_count = GC_fail_count + 1u;
-      if(!((unsigned long int)tmp_post$3 >= GC_max_retries))
+      if(!((unsigned long int)tmp_post_3 >= GC_max_retries))
       {
         GC_current_warn_proc("GC Warning: Out of Memory!  Trying to continue ...\n", (unsigned long int)0);
         GC_try_to_collect_inner(GC_never_stop_func);
@@ -7767,22 +7767,22 @@ static inline signed int GC_compute_heap_usage_percent(void)
   return used >= heap_sz ? 0 : (used < (unsigned long int)-1 / (unsigned long int)100 ? (signed int)((used * (unsigned long int)100) / heap_sz) : (signed int)(used / (heap_sz / (unsigned long int)100)));
 }
 
-// GC_compute_heap_usage_percent$link1
+// GC_compute_heap_usage_percent_link1
 // file alloc.c line 815
-static inline signed int GC_compute_heap_usage_percent$link1(void)
+static inline signed int GC_compute_heap_usage_percent_link1(void)
 {
-  unsigned long int used$link1 = GC_arrays._composite_in_use + GC_arrays._atomic_in_use;
-  unsigned long int heap_sz$link1 = GC_arrays._heapsize - (unsigned long int)0;
-  return used$link1 >= heap_sz$link1 ? 0 : (used$link1 < (unsigned long int)-1 / (unsigned long int)100 ? (signed int)((used$link1 * (unsigned long int)100) / heap_sz$link1) : (signed int)(used$link1 / (heap_sz$link1 / (unsigned long int)100)));
+  unsigned long int used_link1 = GC_arrays._composite_in_use + GC_arrays._atomic_in_use;
+  unsigned long int heap_sz_link1 = GC_arrays._heapsize - (unsigned long int)0;
+  return used_link1 >= heap_sz_link1 ? 0 : (used_link1 < (unsigned long int)-1 / (unsigned long int)100 ? (signed int)((used_link1 * (unsigned long int)100) / heap_sz_link1) : (signed int)(used_link1 / (heap_sz_link1 / (unsigned long int)100)));
 }
 
-// GC_compute_heap_usage_percent$link2
+// GC_compute_heap_usage_percent_link2
 // file alloc.c line 815
-static inline signed int GC_compute_heap_usage_percent$link2(void)
+static inline signed int GC_compute_heap_usage_percent_link2(void)
 {
-  unsigned long int used$link2 = GC_arrays._composite_in_use + GC_arrays._atomic_in_use;
-  unsigned long int heap_sz$link2 = GC_arrays._heapsize - (unsigned long int)0;
-  return used$link2 >= heap_sz$link2 ? 0 : (used$link2 < (unsigned long int)-1 / (unsigned long int)100 ? (signed int)((used$link2 * (unsigned long int)100) / heap_sz$link2) : (signed int)(used$link2 / (heap_sz$link2 / (unsigned long int)100)));
+  unsigned long int used_link2 = GC_arrays._composite_in_use + GC_arrays._atomic_in_use;
+  unsigned long int heap_sz_link2 = GC_arrays._heapsize - (unsigned long int)0;
+  return used_link2 >= heap_sz_link2 ? 0 : (used_link2 < (unsigned long int)-1 / (unsigned long int)100 ? (signed int)((used_link2 * (unsigned long int)100) / heap_sz_link2) : (signed int)(used_link2 / (heap_sz_link2 / (unsigned long int)100)));
 }
 
 // GC_compute_large_free_bytes
@@ -7879,9 +7879,9 @@ void * GC_core_finalized_malloc(unsigned long int lb, struct GC_finalizer_closur
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -7895,9 +7895,9 @@ void * GC_core_finalized_malloc(unsigned long int lb, struct GC_finalizer_closur
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc$2;
-      return_value_GC_generic_malloc$2=GC_generic_malloc((unsigned long int)lb, GC_finalized_kind);
-      op = (char *)return_value_GC_generic_malloc$2;
+      void *return_value_GC_generic_malloc_2;
+      return_value_GC_generic_malloc_2=GC_generic_malloc((unsigned long int)lb, GC_finalized_kind);
+      op = (char *)return_value_GC_generic_malloc_2;
       if(op == ((char *)NULL))
         return (void *)0;
 
@@ -7919,17 +7919,17 @@ void * GC_core_finalized_malloc(unsigned long int lb, struct GC_finalizer_closur
 
   else
   {
-    void *return_value_GC_generic_malloc$3;
-    return_value_GC_generic_malloc$3=GC_generic_malloc(lb, GC_finalized_kind);
-    op = (char *)return_value_GC_generic_malloc$3;
+    void *return_value_GC_generic_malloc_3;
+    return_value_GC_generic_malloc_3=GC_generic_malloc(lb, GC_finalized_kind);
+    op = (char *)return_value_GC_generic_malloc_3;
     if(op == ((char *)NULL))
       return (void *)0;
 
   }
   *((unsigned long int *)op) = (unsigned long int)fclos | (unsigned long int)1;
-  void *return_value_GC_clear_stack$4;
-  return_value_GC_clear_stack$4=GC_clear_stack((void *)((unsigned long int *)op + (signed long int)1));
-  return return_value_GC_clear_stack$4;
+  void *return_value_GC_clear_stack_4;
+  return_value_GC_clear_stack_4=GC_clear_stack((void *)((unsigned long int *)op + (signed long int)1));
+  return return_value_GC_clear_stack_4;
 }
 
 // GC_core_gcj_malloc
@@ -7946,9 +7946,9 @@ void * GC_core_gcj_malloc(unsigned long int lb, void *ptr_to_struct_containing_d
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -7958,11 +7958,11 @@ void * GC_core_gcj_malloc(unsigned long int lb, void *ptr_to_struct_containing_d
     if(op == ((char *)NULL))
     {
       maybe_finalize();
-      void *return_value_GC_generic_malloc_inner$2;
-      return_value_GC_generic_malloc_inner$2=GC_generic_malloc_inner((unsigned long int)lb, GC_gcj_kind);
-      void *return_value_GC_clear_stack$3;
-      return_value_GC_clear_stack$3=GC_clear_stack(return_value_GC_generic_malloc_inner$2);
-      op = (char *)return_value_GC_clear_stack$3;
+      void *return_value_GC_generic_malloc_inner_2;
+      return_value_GC_generic_malloc_inner_2=GC_generic_malloc_inner((unsigned long int)lb, GC_gcj_kind);
+      void *return_value_GC_clear_stack_3;
+      return_value_GC_clear_stack_3=GC_clear_stack(return_value_GC_generic_malloc_inner_2);
+      op = (char *)return_value_GC_clear_stack_3;
       if(op == ((char *)NULL))
       {
         void * (*oom_fn)(unsigned long int) = GC_oom_fn;
@@ -7996,30 +7996,30 @@ void * GC_core_gcj_malloc(unsigned long int lb, void *ptr_to_struct_containing_d
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$4;
-        return_value_pthread_mutex_trylock$4=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$4 == 0))
+        signed int return_value_pthread_mutex_trylock_4;
+        return_value_pthread_mutex_trylock_4=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_4 == 0))
           GC_lock();
 
       }
 
     while((_Bool)0);
     maybe_finalize();
-    void *return_value_GC_generic_malloc_inner$5;
-    return_value_GC_generic_malloc_inner$5=GC_generic_malloc_inner((unsigned long int)lb, GC_gcj_kind);
-    void *return_value_GC_clear_stack$6;
-    return_value_GC_clear_stack$6=GC_clear_stack(return_value_GC_generic_malloc_inner$5);
-    op = (char *)return_value_GC_clear_stack$6;
+    void *return_value_GC_generic_malloc_inner_5;
+    return_value_GC_generic_malloc_inner_5=GC_generic_malloc_inner((unsigned long int)lb, GC_gcj_kind);
+    void *return_value_GC_clear_stack_6;
+    return_value_GC_clear_stack_6=GC_clear_stack(return_value_GC_generic_malloc_inner_5);
+    op = (char *)return_value_GC_clear_stack_6;
     if(op == ((char *)NULL))
     {
-      void * (*GC_core_gcj_malloc$$1$$2$$2$$oom_fn)(unsigned long int) = GC_oom_fn;
+      void * (*GC_core_gcj_malloc__1__2__2__oom_fn)(unsigned long int) = GC_oom_fn;
       do
         if(!(GC_need_to_lock == 0))
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
       void *return_value_1;
-      return_value_1=GC_core_gcj_malloc$$1$$2$$2$$oom_fn(lb);
+      return_value_1=GC_core_gcj_malloc__1__2__2__oom_fn(lb);
       return return_value_1;
     }
 
@@ -8047,9 +8047,9 @@ void * GC_core_malloc(unsigned long int lb)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -8063,11 +8063,11 @@ void * GC_core_malloc(unsigned long int lb)
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc$2;
-      return_value_GC_generic_malloc$2=GC_generic_malloc((unsigned long int)lb, 1);
-      void *return_value_GC_clear_stack$3;
-      return_value_GC_clear_stack$3=GC_clear_stack(return_value_GC_generic_malloc$2);
-      return return_value_GC_clear_stack$3;
+      void *return_value_GC_generic_malloc_2;
+      return_value_GC_generic_malloc_2=GC_generic_malloc((unsigned long int)lb, 1);
+      void *return_value_GC_clear_stack_3;
+      return_value_GC_clear_stack_3=GC_clear_stack(return_value_GC_generic_malloc_2);
+      return return_value_GC_clear_stack_3;
     }
 
     *opp = *((void **)op);
@@ -8083,11 +8083,11 @@ void * GC_core_malloc(unsigned long int lb)
 
   else
   {
-    void *return_value_GC_generic_malloc$4;
-    return_value_GC_generic_malloc$4=GC_generic_malloc(lb, 1);
-    void *return_value_GC_clear_stack$5;
-    return_value_GC_clear_stack$5=GC_clear_stack(return_value_GC_generic_malloc$4);
-    return return_value_GC_clear_stack$5;
+    void *return_value_GC_generic_malloc_4;
+    return_value_GC_generic_malloc_4=GC_generic_malloc(lb, 1);
+    void *return_value_GC_clear_stack_5;
+    return_value_GC_clear_stack_5=GC_clear_stack(return_value_GC_generic_malloc_4);
+    return return_value_GC_clear_stack_5;
   }
 }
 
@@ -8105,9 +8105,9 @@ void * GC_core_malloc_atomic(unsigned long int lb)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -8121,11 +8121,11 @@ void * GC_core_malloc_atomic(unsigned long int lb)
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc$2;
-      return_value_GC_generic_malloc$2=GC_generic_malloc((unsigned long int)lb, 0);
-      void *return_value_GC_clear_stack$3;
-      return_value_GC_clear_stack$3=GC_clear_stack(return_value_GC_generic_malloc$2);
-      return return_value_GC_clear_stack$3;
+      void *return_value_GC_generic_malloc_2;
+      return_value_GC_generic_malloc_2=GC_generic_malloc((unsigned long int)lb, 0);
+      void *return_value_GC_clear_stack_3;
+      return_value_GC_clear_stack_3=GC_clear_stack(return_value_GC_generic_malloc_2);
+      return return_value_GC_clear_stack_3;
     }
 
     *opp = *((void **)op);
@@ -8140,11 +8140,11 @@ void * GC_core_malloc_atomic(unsigned long int lb)
 
   else
   {
-    void *return_value_GC_generic_malloc$4;
-    return_value_GC_generic_malloc$4=GC_generic_malloc((unsigned long int)lb, 0);
-    void *return_value_GC_clear_stack$5;
-    return_value_GC_clear_stack$5=GC_clear_stack(return_value_GC_generic_malloc$4);
-    return return_value_GC_clear_stack$5;
+    void *return_value_GC_generic_malloc_4;
+    return_value_GC_generic_malloc_4=GC_generic_malloc((unsigned long int)lb, 0);
+    void *return_value_GC_clear_stack_5;
+    return_value_GC_clear_stack_5=GC_clear_stack(return_value_GC_generic_malloc_4);
+    return return_value_GC_clear_stack_5;
   }
 }
 
@@ -8169,9 +8169,9 @@ extern void GC_debug_free(void *p)
   char *base;
   if(!(p == NULL))
   {
-    void *return_value_GC_base$1;
-    return_value_GC_base$1=GC_base(p);
-    base = (char *)return_value_GC_base$1;
+    void *return_value_GC_base_1;
+    return_value_GC_base_1=GC_base(p);
+    base = (char *)return_value_GC_base_1;
     if(base == ((char *)NULL))
     {
       if(!(GC_print_stats == 0))
@@ -8181,19 +8181,19 @@ extern void GC_debug_free(void *p)
       abort();
     }
 
-    if(!((unsigned long int)((char *)p - base) == sizeof(struct anonymous$18) /*32ul*/ ))
+    if(!((unsigned long int)((char *)p - base) == sizeof(struct anonymous_18) /*32ul*/ ))
       GC_err_printf("GC_debug_free called on pointer %p w/o debugging info\n", p);
 
     else
     {
       char *clobbered;
-      clobbered=GC_check_annotated_obj((struct anonymous$18 *)base);
+      clobbered=GC_check_annotated_obj((struct anonymous_18 *)base);
       unsigned long int sz;
       sz=GC_size((const void *)base);
       if(!(clobbered == ((char *)NULL)))
       {
         GC_have_errors = 1;
-        if(((struct anonymous$18 *)base)->oh_sz == sz)
+        if(((struct anonymous_18 *)base)->oh_sz == sz)
         {
           GC_print_smashed_obj("GC_debug_free: found previously deallocated (?) object at", (char *)p, clobbered);
           goto __CPROVER_DUMP_L17;
@@ -8203,28 +8203,28 @@ extern void GC_debug_free(void *p)
           GC_print_smashed_obj("GC_debug_free: found smashed location at", (char *)p, clobbered);
       }
 
-      ((struct anonymous$18 *)base)->oh_sz = sz;
+      ((struct anonymous_18 *)base)->oh_sz = sz;
     }
-    if(!(GC_find_leak == 0) && (GC_findleak_delay_free == 0 || !((unsigned long int)((char *)p - base) == sizeof(struct anonymous$18) /*32ul*/ )))
+    if(!(GC_find_leak == 0) && (GC_findleak_delay_free == 0 || !((unsigned long int)((char *)p - base) == sizeof(struct anonymous_18) /*32ul*/ )))
       GC_free((void *)base);
 
     else
     {
       struct hblkhdr *hhdr;
       hhdr=GC_find_header((char *)p);
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)hhdr->hb_obj_kind == 2)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)hhdr->hb_obj_kind == 3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)hhdr->hb_obj_kind == 3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         GC_free((void *)base);
 
       else
       {
         unsigned long int i;
-        unsigned long int obj_sz = hhdr->hb_sz - sizeof(struct anonymous$18) /*32ul*/  >> 3;
+        unsigned long int obj_sz = hhdr->hb_sz - sizeof(struct anonymous_18) /*32ul*/  >> 3;
         i = (unsigned long int)0;
         for( ; !(i >= obj_sz); i = i + 1ul)
           ((unsigned long int *)p)[(signed long int)i] = (unsigned long int)0xEFBEADDEdeadbeefUL;
@@ -8245,16 +8245,16 @@ extern void * GC_debug_gcj_malloc(unsigned long int lb, void *ptr_to_struct_cont
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
   maybe_finalize();
-  result=GC_generic_malloc_inner(lb + ((sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers), GC_gcj_debug_kind);
+  result=GC_generic_malloc_inner(lb + ((sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers), GC_gcj_debug_kind);
   if(result == NULL)
   {
     void * (*oom_fn)(unsigned long int) = GC_oom_fn;
@@ -8269,7 +8269,7 @@ extern void * GC_debug_gcj_malloc(unsigned long int lb, void *ptr_to_struct_cont
     return return_value;
   }
 
-  *((void **)((char *)result + (signed long int)sizeof(struct anonymous$18) /*32ul*/ )) = ptr_to_struct_containing_descr;
+  *((void **)((char *)result + (signed long int)sizeof(struct anonymous_18) /*32ul*/ )) = ptr_to_struct_containing_descr;
   do
     if(!(GC_need_to_lock == 0))
       pthread_mutex_unlock(&GC_allocate_ml);
@@ -8278,9 +8278,9 @@ extern void * GC_debug_gcj_malloc(unsigned long int lb, void *ptr_to_struct_cont
   if(GC_debugging_started == 0)
     GC_start_debugging();
 
-  char *return_value_GC_store_debug_info$2;
-  return_value_GC_store_debug_info$2=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
-  return (void *)return_value_GC_store_debug_info$2;
+  char *return_value_GC_store_debug_info_2;
+  return_value_GC_store_debug_info_2=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
+  return (void *)return_value_GC_store_debug_info_2;
 }
 
 // GC_debug_invoke_finalizer
@@ -8288,7 +8288,7 @@ extern void * GC_debug_gcj_malloc(unsigned long int lb, void *ptr_to_struct_cont
 void GC_debug_invoke_finalizer(void *obj, void *data)
 {
   struct closure *cl = (struct closure *)data;
-  cl->cl_fn((void *)((char *)obj + (signed long int)sizeof(struct anonymous$18) /*32ul*/ ), cl->cl_data);
+  cl->cl_fn((void *)((char *)obj + (signed long int)sizeof(struct anonymous_18) /*32ul*/ ), cl->cl_data);
 }
 
 // GC_debug_malloc
@@ -8296,7 +8296,7 @@ void GC_debug_invoke_finalizer(void *obj, void *data)
 extern void * GC_debug_malloc(unsigned long int lb, const char *s, signed int i)
 {
   void *result;
-  result=GC_malloc(lb + ((sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
+  result=GC_malloc(lb + ((sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
   if(result == NULL)
   {
     GC_err_printf("GC_debug_malloc(%lu) returning NULL (%s:%d)\n", (unsigned long int)lb, s, i);
@@ -8308,9 +8308,9 @@ extern void * GC_debug_malloc(unsigned long int lb, const char *s, signed int i)
     if(GC_debugging_started == 0)
       GC_start_debugging();
 
-    char *return_value_GC_store_debug_info$1;
-    return_value_GC_store_debug_info$1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
-    return (void *)return_value_GC_store_debug_info$1;
+    char *return_value_GC_store_debug_info_1;
+    return_value_GC_store_debug_info_1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
+    return (void *)return_value_GC_store_debug_info_1;
   }
 }
 
@@ -8319,7 +8319,7 @@ extern void * GC_debug_malloc(unsigned long int lb, const char *s, signed int i)
 extern void * GC_debug_malloc_atomic(unsigned long int lb, const char *s, signed int i)
 {
   void *result;
-  result=GC_malloc_atomic(lb + ((sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
+  result=GC_malloc_atomic(lb + ((sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
   if(result == NULL)
   {
     GC_err_printf("GC_debug_malloc_atomic(%lu) returning NULL (%s:%d)\n", (unsigned long int)lb, s, i);
@@ -8331,9 +8331,9 @@ extern void * GC_debug_malloc_atomic(unsigned long int lb, const char *s, signed
     if(GC_debugging_started == 0)
       GC_start_debugging();
 
-    char *return_value_GC_store_debug_info$1;
-    return_value_GC_store_debug_info$1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
-    return (void *)return_value_GC_store_debug_info$1;
+    char *return_value_GC_store_debug_info_1;
+    return_value_GC_store_debug_info_1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
+    return (void *)return_value_GC_store_debug_info_1;
   }
 }
 
@@ -8342,7 +8342,7 @@ extern void * GC_debug_malloc_atomic(unsigned long int lb, const char *s, signed
 extern void * GC_debug_malloc_atomic_ignore_off_page(unsigned long int lb, const char *s, signed int i)
 {
   void *result;
-  result=GC_malloc_atomic_ignore_off_page(lb + ((sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
+  result=GC_malloc_atomic_ignore_off_page(lb + ((sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
   if(result == NULL)
   {
     GC_err_printf("GC_debug_malloc_atomic_ignore_off_page(%lu) returning NULL (%s:%d)\n", (unsigned long int)lb, s, i);
@@ -8354,9 +8354,9 @@ extern void * GC_debug_malloc_atomic_ignore_off_page(unsigned long int lb, const
     if(GC_debugging_started == 0)
       GC_start_debugging();
 
-    char *return_value_GC_store_debug_info$1;
-    return_value_GC_store_debug_info$1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
-    return (void *)return_value_GC_store_debug_info$1;
+    char *return_value_GC_store_debug_info_1;
+    return_value_GC_store_debug_info_1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
+    return (void *)return_value_GC_store_debug_info_1;
   }
 }
 
@@ -8365,7 +8365,7 @@ extern void * GC_debug_malloc_atomic_ignore_off_page(unsigned long int lb, const
 extern void * GC_debug_malloc_atomic_uncollectable(unsigned long int lb, const char *s, signed int i)
 {
   void *result;
-  result=GC_malloc_atomic_uncollectable(lb + sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ );
+  result=GC_malloc_atomic_uncollectable(lb + sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ );
   if(result == NULL)
   {
     GC_err_printf("GC_debug_malloc_atomic_uncollectable(%lu) returning NULL (%s:%d)\n", (unsigned long int)lb, s, i);
@@ -8377,9 +8377,9 @@ extern void * GC_debug_malloc_atomic_uncollectable(unsigned long int lb, const c
     if(GC_debugging_started == 0)
       GC_start_debugging();
 
-    char *return_value_GC_store_debug_info$1;
-    return_value_GC_store_debug_info$1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
-    return (void *)return_value_GC_store_debug_info$1;
+    char *return_value_GC_store_debug_info_1;
+    return_value_GC_store_debug_info_1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
+    return (void *)return_value_GC_store_debug_info_1;
   }
 }
 
@@ -8388,7 +8388,7 @@ extern void * GC_debug_malloc_atomic_uncollectable(unsigned long int lb, const c
 extern void * GC_debug_malloc_ignore_off_page(unsigned long int lb, const char *s, signed int i)
 {
   void *result;
-  result=GC_malloc_ignore_off_page(lb + ((sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
+  result=GC_malloc_ignore_off_page(lb + ((sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers));
   if(result == NULL)
   {
     GC_err_printf("GC_debug_malloc_ignore_off_page(%lu) returning NULL (%s:%d)\n", (unsigned long int)lb, s, i);
@@ -8400,9 +8400,9 @@ extern void * GC_debug_malloc_ignore_off_page(unsigned long int lb, const char *
     if(GC_debugging_started == 0)
       GC_start_debugging();
 
-    char *return_value_GC_store_debug_info$1;
-    return_value_GC_store_debug_info$1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
-    return (void *)return_value_GC_store_debug_info$1;
+    char *return_value_GC_store_debug_info_1;
+    return_value_GC_store_debug_info_1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
+    return (void *)return_value_GC_store_debug_info_1;
   }
 }
 
@@ -8410,18 +8410,18 @@ extern void * GC_debug_malloc_ignore_off_page(unsigned long int lb, const char *
 // file dbg_mlc.c line 1216
 extern void * GC_debug_malloc_replacement(unsigned long int lb)
 {
-  void *return_value_GC_debug_malloc$1;
-  return_value_GC_debug_malloc$1=GC_debug_malloc(lb, "unknown", 0);
-  return return_value_GC_debug_malloc$1;
+  void *return_value_GC_debug_malloc_1;
+  return_value_GC_debug_malloc_1=GC_debug_malloc(lb, "unknown", 0);
+  return return_value_GC_debug_malloc_1;
 }
 
 // GC_debug_malloc_stubborn
 // file dbg_mlc.c line 661
 extern void * GC_debug_malloc_stubborn(unsigned long int lb, const char *s, signed int i)
 {
-  void *return_value_GC_debug_malloc$1;
-  return_value_GC_debug_malloc$1=GC_debug_malloc(lb, s, i);
-  return return_value_GC_debug_malloc$1;
+  void *return_value_GC_debug_malloc_1;
+  return_value_GC_debug_malloc_1=GC_debug_malloc(lb, s, i);
+  return return_value_GC_debug_malloc_1;
 }
 
 // GC_debug_malloc_uncollectable
@@ -8429,7 +8429,7 @@ extern void * GC_debug_malloc_stubborn(unsigned long int lb, const char *s, sign
 extern void * GC_debug_malloc_uncollectable(unsigned long int lb, const char *s, signed int i)
 {
   void *result;
-  result=GC_malloc_uncollectable(lb + sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ );
+  result=GC_malloc_uncollectable(lb + sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ );
   if(result == NULL)
   {
     GC_err_printf("GC_debug_malloc_uncollectable(%lu) returning NULL (%s:%d)\n", (unsigned long int)lb, s, i);
@@ -8441,9 +8441,9 @@ extern void * GC_debug_malloc_uncollectable(unsigned long int lb, const char *s,
     if(GC_debugging_started == 0)
       GC_start_debugging();
 
-    char *return_value_GC_store_debug_info$1;
-    return_value_GC_store_debug_info$1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
-    return (void *)return_value_GC_store_debug_info$1;
+    char *return_value_GC_store_debug_info_1;
+    return_value_GC_store_debug_info_1=GC_store_debug_info((char *)result, (unsigned long int)lb, s, i);
+    return (void *)return_value_GC_store_debug_info_1;
   }
 }
 
@@ -8451,9 +8451,9 @@ extern void * GC_debug_malloc_uncollectable(unsigned long int lb, const char *s,
 // file dbg_mlc.c line 404
 void GC_debug_print_heap_obj_proc(char *p)
 {
-  signed int return_value_GC_has_other_debug_info$1;
-  return_value_GC_has_other_debug_info$1=GC_has_other_debug_info(p);
-  if(return_value_GC_has_other_debug_info$1 >= 1)
+  signed int return_value_GC_has_other_debug_info_1;
+  return_value_GC_has_other_debug_info_1=GC_has_other_debug_info(p);
+  if(return_value_GC_has_other_debug_info_1 >= 1)
     GC_print_obj(p);
 
   else
@@ -8469,9 +8469,9 @@ extern void * GC_debug_realloc(void *p, unsigned long int lb, const char *s, sig
   struct hblkhdr *hhdr;
   if(p == NULL)
   {
-    void *return_value_GC_debug_malloc$1;
-    return_value_GC_debug_malloc$1=GC_debug_malloc(lb, s, i);
-    return return_value_GC_debug_malloc$1;
+    void *return_value_GC_debug_malloc_1;
+    return_value_GC_debug_malloc_1=GC_debug_malloc(lb, s, i);
+    return return_value_GC_debug_malloc_1;
   }
 
   base=GC_base(p);
@@ -8484,12 +8484,12 @@ extern void * GC_debug_realloc(void *p, unsigned long int lb, const char *s, sig
     abort();
   }
 
-  if(!((unsigned long int)((char *)p - (char *)base) == sizeof(struct anonymous$18) /*32ul*/ ))
+  if(!((unsigned long int)((char *)p - (char *)base) == sizeof(struct anonymous_18) /*32ul*/ ))
   {
     GC_err_printf("GC_debug_realloc called on pointer %p w/o debugging info\n", p);
-    void *return_value_GC_realloc$2;
-    return_value_GC_realloc$2=GC_realloc(p, lb);
-    return return_value_GC_realloc$2;
+    void *return_value_GC_realloc_2;
+    return_value_GC_realloc_2=GC_realloc(p, lb);
+    return return_value_GC_realloc_2;
   }
 
   hhdr=GC_find_header((char *)base);
@@ -8527,7 +8527,7 @@ extern void * GC_debug_realloc(void *p, unsigned long int lb, const char *s, sig
   abort();
   if(!(result == NULL))
   {
-    unsigned long int old_sz = ((struct anonymous$18 *)base)->oh_sz;
+    unsigned long int old_sz = ((struct anonymous_18 *)base)->oh_sz;
     memcpy(result, p, (unsigned long int)(old_sz < lb ? old_sz : lb));
     GC_debug_free(p);
   }
@@ -8539,9 +8539,9 @@ extern void * GC_debug_realloc(void *p, unsigned long int lb, const char *s, sig
 // file dbg_mlc.c line 1221
 extern void * GC_debug_realloc_replacement(void *p, unsigned long int lb)
 {
-  void *return_value_GC_debug_realloc$1;
-  return_value_GC_debug_realloc$1=GC_debug_realloc(p, lb, "unknown", 0);
-  return return_value_GC_debug_realloc$1;
+  void *return_value_GC_debug_realloc_1;
+  return_value_GC_debug_realloc_1=GC_debug_realloc(p, lb, "unknown", 0);
+  return return_value_GC_debug_realloc_1;
 }
 
 // GC_debug_register_displacement
@@ -8551,16 +8551,16 @@ extern void GC_debug_register_displacement(unsigned long int offset)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
   GC_register_displacement_inner(offset);
-  GC_register_displacement_inner((unsigned long int)sizeof(struct anonymous$18) /*32ul*/  + offset);
+  GC_register_displacement_inner((unsigned long int)sizeof(struct anonymous_18) /*32ul*/  + offset);
   do
     if(!(GC_need_to_lock == 0))
       pthread_mutex_unlock(&GC_allocate_ml);
@@ -8575,9 +8575,9 @@ extern void GC_debug_register_finalizer(void *obj, void (*fn)(void *, void *), v
   void (*my_old_fn)(void *, void *) = (void (*)(void *, void *))(signed long int)-1;
   void *my_old_cd;
   char *base;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base(obj);
-  base = (char *)return_value_GC_base$1;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base(obj);
+  base = (char *)return_value_GC_base_1;
   if(base == ((char *)NULL))
   {
     if(!(ocd == ((void **)NULL)))
@@ -8590,7 +8590,7 @@ extern void GC_debug_register_finalizer(void *obj, void (*fn)(void *, void *), v
 
   else
   {
-    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous$18) /*32ul*/ ))
+    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous_18) /*32ul*/ ))
       GC_err_printf("GC_debug_register_finalizer called with non-base-pointer %p\n", obj);
 
     if(fn == ((void (*)(void *, void *))NULL))
@@ -8618,9 +8618,9 @@ extern void GC_debug_register_finalizer_ignore_self(void *obj, void (*fn)(void *
   void (*my_old_fn)(void *, void *) = (void (*)(void *, void *))(signed long int)-1;
   void *my_old_cd;
   char *base;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base(obj);
-  base = (char *)return_value_GC_base$1;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base(obj);
+  base = (char *)return_value_GC_base_1;
   if(base == ((char *)NULL))
   {
     if(!(ocd == ((void **)NULL)))
@@ -8633,7 +8633,7 @@ extern void GC_debug_register_finalizer_ignore_self(void *obj, void (*fn)(void *
 
   else
   {
-    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous$18) /*32ul*/ ))
+    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous_18) /*32ul*/ ))
       GC_err_printf("GC_debug_register_finalizer_ignore_self called with non-base-pointer %p\n", obj);
 
     if(fn == ((void (*)(void *, void *))NULL))
@@ -8661,9 +8661,9 @@ extern void GC_debug_register_finalizer_no_order(void *obj, void (*fn)(void *, v
   void (*my_old_fn)(void *, void *) = (void (*)(void *, void *))(signed long int)-1;
   void *my_old_cd;
   char *base;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base(obj);
-  base = (char *)return_value_GC_base$1;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base(obj);
+  base = (char *)return_value_GC_base_1;
   if(base == ((char *)NULL))
   {
     if(!(ocd == ((void **)NULL)))
@@ -8676,7 +8676,7 @@ extern void GC_debug_register_finalizer_no_order(void *obj, void (*fn)(void *, v
 
   else
   {
-    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous$18) /*32ul*/ ))
+    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous_18) /*32ul*/ ))
       GC_err_printf("GC_debug_register_finalizer_no_order called with non-base-pointer %p\n", obj);
 
     if(fn == ((void (*)(void *, void *))NULL))
@@ -8704,9 +8704,9 @@ extern void GC_debug_register_finalizer_unreachable(void *obj, void (*fn)(void *
   void (*my_old_fn)(void *, void *) = (void (*)(void *, void *))(signed long int)-1;
   void *my_old_cd;
   char *base;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base(obj);
-  base = (char *)return_value_GC_base$1;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base(obj);
+  base = (char *)return_value_GC_base_1;
   if(base == ((char *)NULL))
   {
     if(!(ocd == ((void **)NULL)))
@@ -8719,7 +8719,7 @@ extern void GC_debug_register_finalizer_unreachable(void *obj, void (*fn)(void *
 
   else
   {
-    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous$18) /*32ul*/ ))
+    if(!((unsigned long int)((char *)obj - base) == sizeof(struct anonymous_18) /*32ul*/ ))
       GC_err_printf("GC_debug_register_finalizer_unreachable called with non-base-pointer %p\n", obj);
 
     if(fn == ((void (*)(void *, void *))NULL))
@@ -8756,17 +8756,17 @@ extern char * GC_debug_strdup(const char *str, const char *s, signed int i)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    lb = return_value_strlen$1 + (unsigned long int)1;
-    void *return_value_GC_debug_malloc_atomic$2;
-    return_value_GC_debug_malloc_atomic$2=GC_debug_malloc_atomic(lb, s, i);
-    copy = (char *)return_value_GC_debug_malloc_atomic$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    lb = return_value_strlen_1 + (unsigned long int)1;
+    void *return_value_GC_debug_malloc_atomic_2;
+    return_value_GC_debug_malloc_atomic_2=GC_debug_malloc_atomic(lb, s, i);
+    copy = (char *)return_value_GC_debug_malloc_atomic_2;
     if(copy == ((char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 12;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 12;
       return (char *)(void *)0;
     }
 
@@ -8785,14 +8785,14 @@ extern char * GC_debug_strndup(const char *str, unsigned long int size, const ch
   if(!(size >= len))
     len = size;
 
-  void *return_value_GC_debug_malloc_atomic$1;
-  return_value_GC_debug_malloc_atomic$1=GC_debug_malloc_atomic(len + (unsigned long int)1, s, i);
-  copy = (char *)return_value_GC_debug_malloc_atomic$1;
+  void *return_value_GC_debug_malloc_atomic_1;
+  return_value_GC_debug_malloc_atomic_1=GC_debug_malloc_atomic(len + (unsigned long int)1, s, i);
+  copy = (char *)return_value_GC_debug_malloc_atomic_1;
   if(copy == ((char *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     return (char *)(void *)0;
   }
 
@@ -8830,18 +8830,18 @@ void GC_default_on_abort(const char *msg)
   GC_find_leak = 0;
   if(!(msg == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(msg);
-    signed int return_value_GC_write$2;
-    return_value_GC_write$2=GC_write(GC_stderr, (const char *)(void *)msg, return_value_strlen$1);
-    if(return_value_GC_write$2 >= 0)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(msg);
+    signed int return_value_GC_write_2;
+    return_value_GC_write_2=GC_write(GC_stderr, (const char *)(void *)msg, return_value_strlen_1);
+    if(return_value_GC_write_2 >= 0)
       GC_write(GC_stderr, (const char *)(void *)"\n", (unsigned long int)1);
 
   }
 
-  char *return_value_getenv$3;
-  return_value_getenv$3=getenv("GC_LOOP_ON_ABORT");
-  if(!(return_value_getenv$3 == ((char *)NULL)))
+  char *return_value_getenv_3;
+  return_value_getenv_3=getenv("GC_LOOP_ON_ABORT");
+  if(!(return_value_getenv_3 == ((char *)NULL)))
   {
 
   __CPROVER_DUMP_L3:
@@ -8863,16 +8863,16 @@ void * GC_default_oom_fn(unsigned long int bytes_requested)
 void GC_default_print_heap_obj_proc(char *p)
 {
   char *base;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base((void *)p);
-  base = (char *)return_value_GC_base$1;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base((void *)p);
+  base = (char *)return_value_GC_base_1;
   signed int kind;
-  struct hblkhdr *return_value_GC_find_header$2;
-  return_value_GC_find_header$2=GC_find_header((char *)base);
-  kind = (signed int)return_value_GC_find_header$2->hb_obj_kind;
-  unsigned long int return_value_GC_size$3;
-  return_value_GC_size$3=GC_size((const void *)base);
-  GC_err_printf("object at %p of appr. %lu bytes (%s)\n", base, (unsigned long int)return_value_GC_size$3, kind == 0 ? "atomic" : ((kind & ~1) == 2 ? "uncollectable" : "composite"));
+  struct hblkhdr *return_value_GC_find_header_2;
+  return_value_GC_find_header_2=GC_find_header((char *)base);
+  kind = (signed int)return_value_GC_find_header_2->hb_obj_kind;
+  unsigned long int return_value_GC_size_3;
+  return_value_GC_size_3=GC_size((const void *)base);
+  GC_err_printf("object at %p of appr. %lu bytes (%s)\n", base, (unsigned long int)return_value_GC_size_3, kind == 0 ? "atomic" : ((kind & ~1) == 2 ? "uncollectable" : "composite"));
 }
 
 // GC_default_push_other_roots
@@ -8941,23 +8941,23 @@ void GC_delete_thread(unsigned long int id)
 // file typd_mlc.c line 421
 unsigned long int GC_descr_obj_size(union ComplexDescriptor *d)
 {
-  unsigned long int return_value_GC_descr_obj_size$1;
-  unsigned long int return_value_GC_descr_obj_size$2;
-  unsigned long int return_value_GC_descr_obj_size$3;
+  unsigned long int return_value_GC_descr_obj_size_1;
+  unsigned long int return_value_GC_descr_obj_size_2;
+  unsigned long int return_value_GC_descr_obj_size_3;
   switch(d->ld.ld_tag)
   {
     case (unsigned long int)1:
       return d->ld.ld_nelements * d->ld.ld_size;
     case (unsigned long int)2:
     {
-      return_value_GC_descr_obj_size$1=GC_descr_obj_size(d->ad.ad_element_descr);
-      return d->ad.ad_nelements * return_value_GC_descr_obj_size$1;
+      return_value_GC_descr_obj_size_1=GC_descr_obj_size(d->ad.ad_element_descr);
+      return d->ad.ad_nelements * return_value_GC_descr_obj_size_1;
     }
     case (unsigned long int)3:
     {
-      return_value_GC_descr_obj_size$2=GC_descr_obj_size(d->sd.sd_first);
-      return_value_GC_descr_obj_size$3=GC_descr_obj_size(d->sd.sd_second);
-      return return_value_GC_descr_obj_size$2 + return_value_GC_descr_obj_size$3;
+      return_value_GC_descr_obj_size_2=GC_descr_obj_size(d->sd.sd_first);
+      return_value_GC_descr_obj_size_3=GC_descr_obj_size(d->sd.sd_second);
+      return return_value_GC_descr_obj_size_2 + return_value_GC_descr_obj_size_3;
     }
     default:
     {
@@ -8991,9 +8991,9 @@ void GC_dirty_init(void)
   act.sa_flags = 0x10000000 | 4;
   act.__sigaction_handler.sa_sigaction = GC_write_fault_handler;
   sigemptyset(&act.sa_mask);
-  signed int return_value_GC_get_suspend_signal$1;
-  return_value_GC_get_suspend_signal$1=GC_get_suspend_signal();
-  sigaddset(&act.sa_mask, return_value_GC_get_suspend_signal$1);
+  signed int return_value_GC_get_suspend_signal_1;
+  return_value_GC_get_suspend_signal_1=GC_get_suspend_signal();
+  sigaddset(&act.sa_mask, return_value_GC_get_suspend_signal_1);
   if(GC_print_stats == 2)
     GC_log_printf("Initializing mprotect virtual dirty bit implementation\n");
 
@@ -9020,16 +9020,16 @@ void GC_dirty_init(void)
 
   else
   {
-    GC_old_segv_handler = (void (*)(signed int, struct anonymous$6 *, void *))oldact.__sigaction_handler.sa_handler;
+    GC_old_segv_handler = (void (*)(signed int, struct anonymous_6 *, void *))oldact.__sigaction_handler.sa_handler;
     GC_old_segv_handler_used_si = 0;
   }
-  if(GC_old_segv_handler == (void (*)(signed int, struct anonymous$6 *, void *))1)
+  if(GC_old_segv_handler == (void (*)(signed int, struct anonymous_6 *, void *))1)
   {
     GC_current_warn_proc("GC Warning: Previously ignored segmentation violation!?\n", (unsigned long int)0);
-    GC_old_segv_handler = (void (*)(signed int, struct anonymous$6 *, void *))(void (*)(signed int))0;
+    GC_old_segv_handler = (void (*)(signed int, struct anonymous_6 *, void *))(void (*)(signed int))0;
   }
 
-  if(!(GC_old_segv_handler == ((void (*)(signed int, struct anonymous$6 *, void *))NULL)))
+  if(!(GC_old_segv_handler == ((void (*)(signed int, struct anonymous_6 *, void *))NULL)))
   {
     if(GC_print_stats == 2)
       GC_log_printf("Replaced other SIGSEGV handler\n");
@@ -9041,12 +9041,12 @@ void GC_dirty_init(void)
     GC_old_bus_handler = oldact.__sigaction_handler.sa_sigaction;
 
   else
-    GC_old_bus_handler = (void (*)(signed int, struct anonymous$6 *, void *))oldact.__sigaction_handler.sa_handler;
-  if(GC_old_bus_handler == (void (*)(signed int, struct anonymous$6 *, void *))1)
+    GC_old_bus_handler = (void (*)(signed int, struct anonymous_6 *, void *))oldact.__sigaction_handler.sa_handler;
+  if(GC_old_bus_handler == (void (*)(signed int, struct anonymous_6 *, void *))1)
     GC_current_warn_proc("GC Warning: Previously ignored bus error!?\n", (unsigned long int)0);
 
   else
-    if(!(GC_old_bus_handler == ((void (*)(signed int, struct anonymous$6 *, void *))NULL)))
+    if(!(GC_old_bus_handler == ((void (*)(signed int, struct anonymous_6 *, void *))NULL)))
     {
       if(GC_print_stats == 2)
         GC_log_printf("Replaced other SIGBUS handler\n");
@@ -9062,9 +9062,9 @@ extern void GC_disable(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -9140,9 +9140,9 @@ void GC_disclaim_and_reclaim_or_free_small_block(struct hblk *hbp)
   void **flh = &ok->ok_freelist[(signed long int)(sz >> 4)];
   void *flh_next;
   hhdr->hb_last_reclaimed = (unsigned short int)GC_gc_no;
-  char *return_value_GC_reclaim_generic$1;
-  return_value_GC_reclaim_generic$1=GC_reclaim_generic(hbp, hhdr, sz, ok->ok_init, (char *)*flh, &GC_bytes_found);
-  flh_next = (void *)return_value_GC_reclaim_generic$1;
+  char *return_value_GC_reclaim_generic_1;
+  return_value_GC_reclaim_generic_1=GC_reclaim_generic(hbp, hhdr, sz, ok->ok_init, (char *)*flh, &GC_bytes_found);
+  flh_next = (void *)return_value_GC_reclaim_generic_1;
   if(!(hhdr->hb_n_marks == 0ul))
     *flh = flh_next;
 
@@ -9186,9 +9186,9 @@ void GC_do_blocking_inner(char *data, void *context)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -9205,9 +9205,9 @@ void GC_do_blocking_inner(char *data, void *context)
   d->client_data=d->fn(d->client_data);
   if(!(GC_need_to_lock == 0))
   {
-    signed int return_value_pthread_mutex_trylock$2;
-    return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-    if(!(return_value_pthread_mutex_trylock$2 == 0))
+    signed int return_value_pthread_mutex_trylock_2;
+    return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+    if(!(return_value_pthread_mutex_trylock_2 == 0))
       GC_lock();
 
   }
@@ -9239,11 +9239,11 @@ void GC_do_local_mark(struct GC_ms_entry *local_mark_stack, struct GC_ms_entry *
       }
 
     }
-    unsigned long int return_value_AO_load$1;
-    return_value_AO_load$1=AO_load$link1((volatile unsigned long int *)&GC_arrays._mark_stack_top);
-    unsigned long int return_value_AO_load$2;
-    return_value_AO_load$2=AO_load$link1(&GC_first_nonempty);
-    if(!(return_value_AO_load$1 >= return_value_AO_load$2))
+    unsigned long int return_value_AO_load_1;
+    return_value_AO_load_1=AO_load_link1((volatile unsigned long int *)&GC_arrays._mark_stack_top);
+    unsigned long int return_value_AO_load_2;
+    return_value_AO_load_2=AO_load_link1(&GC_first_nonempty);
+    if(!(return_value_AO_load_1 >= return_value_AO_load_2))
     {
       if(!(GC_active_count >= GC_helper_count))
       {
@@ -9358,13 +9358,13 @@ void GC_dump_finalization_links(struct dl_hashtbl_s *dl_hashtbl)
   char *real_ptr;
   char *real_link;
   unsigned long int dl_size;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(dl_hashtbl->log_size == -1l)
-    tmp_if_expr$1 = 0;
+    tmp_if_expr_1 = 0;
 
   else
-    tmp_if_expr$1 = 1 << dl_hashtbl->log_size;
-  dl_size = (unsigned long int)tmp_if_expr$1;
+    tmp_if_expr_1 = 1 << dl_hashtbl->log_size;
+  dl_size = (unsigned long int)tmp_if_expr_1;
   unsigned long int i = (unsigned long int)0;
   for( ; !(i >= dl_size); i = i + 1ul)
   {
@@ -9446,9 +9446,9 @@ extern void GC_enable(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -9466,18 +9466,18 @@ extern void GC_enable(void)
 // file misc.c line 1228
 extern void GC_enable_incremental(void)
 {
-  char *return_value_getenv$2;
+  char *return_value_getenv_2;
   if(GC_find_leak == 0)
   {
-    return_value_getenv$2=getenv("GC_DISABLE_INCREMENTAL");
-    if(return_value_getenv$2 == ((char *)NULL))
+    return_value_getenv_2=getenv("GC_DISABLE_INCREMENTAL");
+    if(return_value_getenv_2 == ((char *)NULL))
     {
       do
         if(!(GC_need_to_lock == 0))
         {
-          signed int return_value_pthread_mutex_trylock$1;
-          return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-          if(!(return_value_pthread_mutex_trylock$1 == 0))
+          signed int return_value_pthread_mutex_trylock_1;
+          return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+          if(!(return_value_pthread_mutex_trylock_1 == 0))
             GC_lock();
 
         }
@@ -9543,35 +9543,35 @@ static inline signed int GC_enough_large_bytes_left(void)
   return 0;
 }
 
-// GC_enough_large_bytes_left$link1
+// GC_enough_large_bytes_left_link1
 // file allchblk.c line 70
-static inline signed int GC_enough_large_bytes_left$link1(void)
+static inline signed int GC_enough_large_bytes_left_link1(void)
 {
-  signed int n$link1;
-  unsigned long int bytes$link1 = GC_arrays._large_allocd_bytes;
-  n$link1 = (256 - 32) / 8 + 32;
-  for( ; n$link1 >= 0; n$link1 = n$link1 - 1)
+  signed int n_link1;
+  unsigned long int bytes_link1 = GC_arrays._large_allocd_bytes;
+  n_link1 = (256 - 32) / 8 + 32;
+  for( ; n_link1 >= 0; n_link1 = n_link1 - 1)
   {
-    bytes$link1 = bytes$link1 + GC_free_bytes[(signed long int)n$link1];
-    if(bytes$link1 >= GC_arrays._max_large_allocd_bytes)
-      return n$link1;
+    bytes_link1 = bytes_link1 + GC_free_bytes[(signed long int)n_link1];
+    if(bytes_link1 >= GC_arrays._max_large_allocd_bytes)
+      return n_link1;
 
   }
   return 0;
 }
 
-// GC_enough_large_bytes_left$link2
+// GC_enough_large_bytes_left_link2
 // file allchblk.c line 70
-static inline signed int GC_enough_large_bytes_left$link2(void)
+static inline signed int GC_enough_large_bytes_left_link2(void)
 {
-  signed int n$link2;
-  unsigned long int bytes$link2 = GC_arrays._large_allocd_bytes;
-  n$link2 = (256 - 32) / 8 + 32;
-  for( ; n$link2 >= 0; n$link2 = n$link2 - 1)
+  signed int n_link2;
+  unsigned long int bytes_link2 = GC_arrays._large_allocd_bytes;
+  n_link2 = (256 - 32) / 8 + 32;
+  for( ; n_link2 >= 0; n_link2 = n_link2 - 1)
   {
-    bytes$link2 = bytes$link2 + GC_free_bytes[(signed long int)n$link2];
-    if(bytes$link2 >= GC_arrays._max_large_allocd_bytes)
-      return n$link2;
+    bytes_link2 = bytes_link2 + GC_free_bytes[(signed long int)n_link2];
+    if(bytes_link2 >= GC_arrays._max_large_allocd_bytes)
+      return n_link2;
 
   }
   return 0;
@@ -9603,8 +9603,8 @@ void GC_enqueue_all_finalizers(void)
       if(!(GC_mark_state == 0))
       {
         GC_set_mark_bit((const void *)real_ptr);
-        signed int return_value_GC_mark_some$1;
-        return_value_GC_mark_some$1=GC_mark_some((char *)0);
+        signed int return_value_GC_mark_some_1;
+        return_value_GC_mark_some_1=GC_mark_some((char *)0);
       }
 
       GC_set_mark_bit((const void *)real_ptr);
@@ -9651,9 +9651,9 @@ extern void GC_err_printf(const char *format, ...)
 // file misc.c line 1585
 void GC_err_puts(const char *s)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  GC_write(GC_stderr, s, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  GC_write(GC_stderr, s, return_value_strlen_1);
 }
 
 // GC_exclude_static_roots
@@ -9670,9 +9670,9 @@ extern void GC_exclude_static_roots(void *b, void *e)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -9753,9 +9753,9 @@ extern signed int GC_expand_hp(unsigned long int bytes)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -9764,9 +9764,9 @@ extern signed int GC_expand_hp(unsigned long int bytes)
   if((signed long int)GC_is_initialized == 0l)
     GC_init();
 
-  signed int return_value_GC_expand_hp_inner$2;
-  return_value_GC_expand_hp_inner$2=GC_expand_hp_inner((unsigned long int)bytes >> (unsigned long int)12);
-  result = (signed int)return_value_GC_expand_hp_inner$2;
+  signed int return_value_GC_expand_hp_inner_2;
+  return_value_GC_expand_hp_inner_2=GC_expand_hp_inner((unsigned long int)bytes >> (unsigned long int)12);
+  result = (signed int)return_value_GC_expand_hp_inner_2;
   if(!(result == 0))
     GC_arrays._requested_heapsize = GC_arrays._requested_heapsize + bytes;
 
@@ -9797,9 +9797,9 @@ signed int GC_expand_hp_inner(unsigned long int n)
 
   else
   {
-    char *return_value_GC_unix_get_mem$1;
-    return_value_GC_unix_get_mem$1=GC_unix_get_mem(bytes);
-    space = (struct hblk *)return_value_GC_unix_get_mem$1;
+    char *return_value_GC_unix_get_mem_1;
+    return_value_GC_unix_get_mem_1=GC_unix_get_mem(bytes);
+    space = (struct hblk *)return_value_GC_unix_get_mem_1;
     if(space == ((struct hblk *)NULL))
     {
       GC_current_warn_proc("GC Warning: Failed to expand heap by %ld bytes\n", (unsigned long int)bytes);
@@ -9811,29 +9811,29 @@ signed int GC_expand_hp_inner(unsigned long int n)
       if(!(GC_print_stats == 0))
         GC_log_printf("Grow heap to %lu KiB after %lu bytes allocated\n", (unsigned long int)(GC_arrays._heapsize + bytes + (unsigned long int)((1 << 9) - 1) >> 10), (unsigned long int)GC_arrays._bytes_allocd);
 
-      unsigned long int return_value_min_bytes_allocd$2;
-      return_value_min_bytes_allocd$2=min_bytes_allocd();
-      expansion_slop = return_value_min_bytes_allocd$2 + (unsigned long int)(4 * 2048) * (unsigned long int)(1 << 12);
+      unsigned long int return_value_min_bytes_allocd_2;
+      return_value_min_bytes_allocd_2=min_bytes_allocd();
+      expansion_slop = return_value_min_bytes_allocd_2 + (unsigned long int)(4 * 2048) * (unsigned long int)(1 << 12);
       if((9223372036854775808ul & (unsigned long int)space) == 0ul && GC_arrays._last_heap_addr == ((char *)NULL) || !(GC_arrays._last_heap_addr == ((char *)NULL)) && !((unsigned long int)GC_arrays._last_heap_addr >= (unsigned long int)space))
       {
         unsigned long int new_limit = (unsigned long int)space + bytes + expansion_slop;
         if(!((unsigned long int)space >= new_limit))
         {
-          unsigned long int return_value_GC_max$3;
-          return_value_GC_max$3=GC_max((unsigned long int)GC_greatest_plausible_heap_addr, (unsigned long int)new_limit);
-          GC_greatest_plausible_heap_addr = (void *)return_value_GC_max$3;
+          unsigned long int return_value_GC_max_3;
+          return_value_GC_max_3=GC_max((unsigned long int)GC_greatest_plausible_heap_addr, (unsigned long int)new_limit);
+          GC_greatest_plausible_heap_addr = (void *)return_value_GC_max_3;
         }
 
       }
 
       else
       {
-        unsigned long int GC_expand_hp_inner$$1$$6$$new_limit = (unsigned long int)space - expansion_slop;
-        if(!(GC_expand_hp_inner$$1$$6$$new_limit >= (unsigned long int)space))
+        unsigned long int GC_expand_hp_inner__1__6__new_limit = (unsigned long int)space - expansion_slop;
+        if(!(GC_expand_hp_inner__1__6__new_limit >= (unsigned long int)space))
         {
-          unsigned long int return_value_GC_min$4;
-          return_value_GC_min$4=GC_min((unsigned long int)GC_least_plausible_heap_addr, (unsigned long int)space - expansion_slop);
-          GC_least_plausible_heap_addr = (void *)return_value_GC_min$4;
+          unsigned long int return_value_GC_min_4;
+          return_value_GC_min_4=GC_min((unsigned long int)GC_least_plausible_heap_addr, (unsigned long int)space - expansion_slop);
+          GC_least_plausible_heap_addr = (void *)return_value_GC_min_4;
         }
 
       }
@@ -9923,9 +9923,9 @@ void GC_finalize(void)
     for( ; !(curr_fo == ((struct finalizable_object *)NULL)); curr_fo = (struct finalizable_object *)curr_fo->prolog.next)
     {
       real_ptr = (char *)(void *)~((unsigned long int)curr_fo->prolog.hidden_key);
-      signed int return_value_GC_is_marked$3;
-      return_value_GC_is_marked$3=GC_is_marked((const void *)real_ptr);
-      if(return_value_GC_is_marked$3 == 0)
+      signed int return_value_GC_is_marked_3;
+      return_value_GC_is_marked_3=GC_is_marked((const void *)real_ptr);
+      if(return_value_GC_is_marked_3 == 0)
       {
         curr_fo->fo_mark_proc(real_ptr);
         if((unsigned long int)GC_arrays._mark_stack_top >= (unsigned long int)GC_arrays._mark_stack)
@@ -9934,13 +9934,13 @@ void GC_finalize(void)
         if(!(GC_mark_state == 0))
         {
           GC_set_mark_bit((const void *)real_ptr);
-          signed int return_value_GC_mark_some$1;
-          return_value_GC_mark_some$1=GC_mark_some((char *)0);
+          signed int return_value_GC_mark_some_1;
+          return_value_GC_mark_some_1=GC_mark_some((char *)0);
         }
 
-        signed int return_value_GC_is_marked$2;
-        return_value_GC_is_marked$2=GC_is_marked((const void *)real_ptr);
-        if(!(return_value_GC_is_marked$2 == 0))
+        signed int return_value_GC_is_marked_2;
+        return_value_GC_is_marked_2=GC_is_marked((const void *)real_ptr);
+        if(!(return_value_GC_is_marked_2 == 0))
           GC_current_warn_proc("GC Warning: Finalization cycle involving %p\n", (unsigned long int)real_ptr);
 
       }
@@ -9956,9 +9956,9 @@ void GC_finalize(void)
     while(!(curr_fo == ((struct finalizable_object *)NULL)))
     {
       real_ptr = (char *)(void *)~((unsigned long int)curr_fo->prolog.hidden_key);
-      signed int return_value_GC_is_marked$4;
-      return_value_GC_is_marked$4=GC_is_marked((const void *)real_ptr);
-      if(return_value_GC_is_marked$4 == 0)
+      signed int return_value_GC_is_marked_4;
+      return_value_GC_is_marked_4=GC_is_marked((const void *)real_ptr);
+      if(return_value_GC_is_marked_4 == 0)
       {
         if(GC_java_finalization == 0)
           GC_set_mark_bit((const void *)real_ptr);
@@ -9990,9 +9990,9 @@ void GC_finalize(void)
     for( ; !(curr_fo == ((struct finalizable_object *)NULL)); curr_fo = (struct finalizable_object *)curr_fo->prolog.next)
     {
       real_ptr = (char *)curr_fo->prolog.hidden_key;
-      signed int return_value_GC_is_marked$6;
-      return_value_GC_is_marked$6=GC_is_marked((const void *)real_ptr);
-      if(return_value_GC_is_marked$6 == 0)
+      signed int return_value_GC_is_marked_6;
+      return_value_GC_is_marked_6=GC_is_marked((const void *)real_ptr);
+      if(return_value_GC_is_marked_6 == 0)
       {
         if(curr_fo->fo_mark_proc == GC_null_finalize_mark_proc)
         {
@@ -10003,8 +10003,8 @@ void GC_finalize(void)
           if(!(GC_mark_state == 0))
           {
             GC_set_mark_bit((const void *)real_ptr);
-            signed int return_value_GC_mark_some$5;
-            return_value_GC_mark_some$5=GC_mark_some((char *)0);
+            signed int return_value_GC_mark_some_5;
+            return_value_GC_mark_some_5=GC_mark_some((char *)0);
           }
 
         }
@@ -10025,9 +10025,9 @@ void GC_finalize(void)
         if(curr_fo->fo_mark_proc == GC_unreachable_finalize_mark_proc)
         {
           real_ptr = (char *)curr_fo->prolog.hidden_key;
-          signed int return_value_GC_is_marked$7;
-          return_value_GC_is_marked$7=GC_is_marked((const void *)real_ptr);
-          if(return_value_GC_is_marked$7 == 0)
+          signed int return_value_GC_is_marked_7;
+          return_value_GC_is_marked_7=GC_is_marked((const void *)real_ptr);
+          if(return_value_GC_is_marked_7 == 0)
             GC_set_mark_bit((const void *)real_ptr);
 
           else
@@ -10068,9 +10068,9 @@ extern void GC_finalize_all(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -10088,9 +10088,9 @@ extern void GC_finalize_all(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$2;
-        return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$2 == 0))
+        signed int return_value_pthread_mutex_trylock_2;
+        return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_2 == 0))
           GC_lock();
 
       }
@@ -10130,11 +10130,11 @@ extern void * GC_finalized_malloc(unsigned long int client_lb, struct GC_finaliz
   void **my_fl;
   void *my_entry;
   void *next;
-  void *return_value_GC_core_finalized_malloc$1;
+  void *return_value_GC_core_finalized_malloc_1;
   if(lg >= 25ul)
   {
-    return_value_GC_core_finalized_malloc$1=GC_core_finalized_malloc(client_lb, fclos);
-    return return_value_GC_core_finalized_malloc$1;
+    return_value_GC_core_finalized_malloc_1=GC_core_finalized_malloc(client_lb, fclos);
+    return return_value_GC_core_finalized_malloc_1;
   }
 
   tsd = (struct thread_local_freelists *)GC_thread_key;
@@ -10145,9 +10145,9 @@ extern void * GC_finalized_malloc(unsigned long int client_lb, struct GC_finaliz
     if(!((unsigned long int)my_entry + 18446744073709551615ul >= 256ul))
     {
       *my_fl = (void *)((char *)my_entry + (signed long int)lg + (signed long int)1);
-      void *return_value_GC_core_finalized_malloc$2;
-      return_value_GC_core_finalized_malloc$2=GC_core_finalized_malloc(client_lb, fclos);
-      return return_value_GC_core_finalized_malloc$2;
+      void *return_value_GC_core_finalized_malloc_2;
+      return_value_GC_core_finalized_malloc_2=GC_core_finalized_malloc(client_lb, fclos);
+      return return_value_GC_core_finalized_malloc_2;
     }
 
     else
@@ -10156,10 +10156,10 @@ extern void * GC_finalized_malloc(unsigned long int client_lb, struct GC_finaliz
       my_entry = *my_fl;
       if(my_entry == NULL)
       {
-        void * (*return_value_GC_get_oom_fn$3)(unsigned long int);
-        return_value_GC_get_oom_fn$3=GC_get_oom_fn();
+        void * (*return_value_GC_get_oom_fn_3)(unsigned long int);
+        return_value_GC_get_oom_fn_3=GC_get_oom_fn();
         void *return_value;
-        return_value=return_value_GC_get_oom_fn$3(lb);
+        return_value=return_value_GC_get_oom_fn_3(lb);
         return return_value;
       }
 
@@ -10207,9 +10207,9 @@ struct hblkhdr * GC_find_header(char *h)
 // file os_dep.c line 998
 char * GC_find_limit(char *p, signed int up)
 {
-  char *return_value_GC_find_limit_with_bound$1;
-  return_value_GC_find_limit_with_bound$1=GC_find_limit_with_bound(p, up, up != 0 ? (char *)(unsigned long int)-1 : ((char *)NULL));
-  return return_value_GC_find_limit_with_bound$1;
+  char *return_value_GC_find_limit_with_bound_1;
+  return_value_GC_find_limit_with_bound_1=GC_find_limit_with_bound(p, up, up != 0 ? (char *)(unsigned long int)-1 : ((char *)NULL));
+  return return_value_GC_find_limit_with_bound_1;
 }
 
 // GC_find_limit_with_bound
@@ -10217,10 +10217,10 @@ char * GC_find_limit(char *p, signed int up)
 char * GC_find_limit_with_bound(char *p, signed int up, char *bound)
 {
   GC_setup_temporary_fault_handler();
-  signed int return_value___sigsetjmp$1;
-  return_value___sigsetjmp$1=__sigsetjmp(GC_jmp_buf, 1);
+  signed int return_value___sigsetjmp_1;
+  return_value___sigsetjmp_1=__sigsetjmp(GC_jmp_buf, 1);
   static char * volatile result;
-  if(return_value___sigsetjmp$1 == 0)
+  if(return_value___sigsetjmp_1 == 0)
   {
     result = (char *)((unsigned long int)p & (unsigned long int)~(256 - 1));
     while((_Bool)1)
@@ -10274,9 +10274,9 @@ void GC_finish_collection(void)
     GC_reclaimed_bytes_before_gc = GC_reclaimed_bytes_before_gc + (unsigned long int)GC_bytes_found;
 
   GC_bytes_found = (signed long int)0;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("GC_PRINT_ADDRESS_MAP");
-  if(!(return_value_getenv$1 == ((char *)NULL)))
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("GC_PRINT_ADDRESS_MAP");
+  if(!(return_value_getenv_1 == ((char *)NULL)))
     GC_print_address_map();
 
   if(!((signed long int)GC_dump_regularly == 0l))
@@ -10289,15 +10289,15 @@ void GC_finish_collection(void)
   if(!(GC_find_leak == 0))
   {
     unsigned long int size;
-    unsigned int GC_finish_collection$$1$$3$$kind;
+    unsigned int GC_finish_collection__1__3__kind;
     char *q;
-    GC_finish_collection$$1$$3$$kind = (unsigned int)0;
-    for( ; !(GC_finish_collection$$1$$3$$kind >= GC_n_kinds); GC_finish_collection$$1$$3$$kind = GC_finish_collection$$1$$3$$kind + 1u)
+    GC_finish_collection__1__3__kind = (unsigned int)0;
+    for( ; !(GC_finish_collection__1__3__kind >= GC_n_kinds); GC_finish_collection__1__3__kind = GC_finish_collection__1__3__kind + 1u)
     {
       size = (unsigned long int)1;
       for( ; !(size >= 129ul); size = size + 1ul)
       {
-        q = (char *)GC_obj_kinds[(signed long int)GC_finish_collection$$1$$3$$kind].ok_freelist[(signed long int)size];
+        q = (char *)GC_obj_kinds[(signed long int)GC_finish_collection__1__3__kind].ok_freelist[(signed long int)size];
         if(!(q == ((char *)NULL)))
           GC_set_fl_marks(q);
 
@@ -10313,17 +10313,17 @@ void GC_finish_collection(void)
   if(!(GC_print_back_height == 0))
     GC_err_printf("Back height not available: Rebuild collector with -DMAKE_BACK_GRAPH\n");
 
-  unsigned long int GC_finish_collection$$1$$5$$size;
-  char *GC_finish_collection$$1$$5$$q;
+  unsigned long int GC_finish_collection__1__5__size;
+  char *GC_finish_collection__1__5__q;
   unsigned int kind = (unsigned int)0;
   for( ; !(kind >= GC_n_kinds); kind = kind + 1u)
   {
-    GC_finish_collection$$1$$5$$size = (unsigned long int)1;
-    for( ; !(GC_finish_collection$$1$$5$$size >= 129ul); GC_finish_collection$$1$$5$$size = GC_finish_collection$$1$$5$$size + 1ul)
+    GC_finish_collection__1__5__size = (unsigned long int)1;
+    for( ; !(GC_finish_collection__1__5__size >= 129ul); GC_finish_collection__1__5__size = GC_finish_collection__1__5__size + 1ul)
     {
-      GC_finish_collection$$1$$5$$q = (char *)GC_obj_kinds[(signed long int)kind].ok_freelist[(signed long int)GC_finish_collection$$1$$5$$size];
-      if(!(GC_finish_collection$$1$$5$$q == ((char *)NULL)))
-        GC_clear_fl_marks(GC_finish_collection$$1$$5$$q);
+      GC_finish_collection__1__5__q = (char *)GC_obj_kinds[(signed long int)kind].ok_freelist[(signed long int)GC_finish_collection__1__5__size];
+      if(!(GC_finish_collection__1__5__q == ((char *)NULL)))
+        GC_clear_fl_marks(GC_finish_collection__1__5__q);
 
     }
   }
@@ -10331,11 +10331,11 @@ void GC_finish_collection(void)
     GC_log_printf("Bytes recovered before sweep - f.l. count = %ld\n", (signed long int)GC_bytes_found);
 
   GC_start_reclaim(0);
-  signed int return_value_GC_compute_heap_usage_percent$2;
+  signed int return_value_GC_compute_heap_usage_percent_2;
   if(!(GC_print_stats == 0))
   {
-    return_value_GC_compute_heap_usage_percent$2=GC_compute_heap_usage_percent();
-    GC_log_printf("In-use heap: %d%% (%lu KiB pointers + %lu KiB other)\n", return_value_GC_compute_heap_usage_percent$2, (unsigned long int)(GC_arrays._composite_in_use + (unsigned long int)((1 << 9) - 1) >> 10), (unsigned long int)(GC_arrays._atomic_in_use + (unsigned long int)((1 << 9) - 1) >> 10));
+    return_value_GC_compute_heap_usage_percent_2=GC_compute_heap_usage_percent();
+    GC_log_printf("In-use heap: %d%% (%lu KiB pointers + %lu KiB other)\n", return_value_GC_compute_heap_usage_percent_2, (unsigned long int)(GC_arrays._composite_in_use + (unsigned long int)((1 << 9) - 1) >> 10), (unsigned long int)(GC_arrays._atomic_in_use + (unsigned long int)((1 << 9) - 1) >> 10));
   }
 
   if(!(GC_is_full_gc == 0))
@@ -10346,9 +10346,9 @@ void GC_finish_collection(void)
 
   else
   {
-    unsigned long int return_value_min_bytes_allocd$3;
-    return_value_min_bytes_allocd$3=min_bytes_allocd();
-    GC_need_full_gc = (signed int)((GC_arrays._heapsize - GC_arrays._large_free_bytes) - GC_used_heap_size_after_full > return_value_min_bytes_allocd$3);
+    unsigned long int return_value_min_bytes_allocd_3;
+    return_value_min_bytes_allocd_3=min_bytes_allocd();
+    GC_need_full_gc = (signed int)((GC_arrays._heapsize - GC_arrays._large_free_bytes) - GC_used_heap_size_after_full > return_value_min_bytes_allocd_3);
   }
   if(GC_print_stats == 2)
     GC_log_printf("Immediately reclaimed %ld bytes, heapsize: %lu bytes\n", (signed long int)GC_bytes_found, (unsigned long int)GC_arrays._heapsize);
@@ -10394,9 +10394,9 @@ extern void GC_free(void *p)
       do
         if(!(GC_need_to_lock == 0))
         {
-          signed int return_value_pthread_mutex_trylock$1;
-          return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-          if(!(return_value_pthread_mutex_trylock$1 == 0))
+          signed int return_value_pthread_mutex_trylock_1;
+          return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+          if(!(return_value_pthread_mutex_trylock_1 == 0))
             GC_lock();
 
         }
@@ -10425,9 +10425,9 @@ extern void GC_free(void *p)
       do
         if(!(GC_need_to_lock == 0))
         {
-          signed int return_value_pthread_mutex_trylock$2;
-          return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-          if(!(return_value_pthread_mutex_trylock$2 == 0))
+          signed int return_value_pthread_mutex_trylock_2;
+          return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+          if(!(return_value_pthread_mutex_trylock_2 == 0))
             GC_lock();
 
         }
@@ -10575,25 +10575,25 @@ void GC_freehblk(struct hblk *hbp)
   unsigned long int size;
   do
   {
-    struct hblkhdr **GC_freehblk$$1$$1$$_ha;
+    struct hblkhdr **GC_freehblk__1__1___ha;
     do
     {
-      struct bi *GC_freehblk$$1$$1$$1$$bi;
+      struct bi *GC_freehblk__1__1__1__bi;
       do
       {
-        unsigned long int GC_freehblk$$1$$1$$1$$1$$hi = (unsigned long int)hbp >> (unsigned long int)10 + (unsigned long int)12;
-        struct bi *GC_freehblk$$1$$1$$1$$1$$_bi = GC_arrays._top_index[(signed long int)(GC_freehblk$$1$$1$$1$$1$$hi & (unsigned long int)((1 << 11) - 1))];
-        for( ; !(GC_freehblk$$1$$1$$1$$1$$_bi->key == GC_freehblk$$1$$1$$1$$1$$hi); GC_freehblk$$1$$1$$1$$1$$_bi = GC_freehblk$$1$$1$$1$$1$$_bi->hash_link)
-          if(GC_freehblk$$1$$1$$1$$1$$_bi == GC_arrays._all_nils)
+        unsigned long int GC_freehblk__1__1__1__1__hi = (unsigned long int)hbp >> (unsigned long int)10 + (unsigned long int)12;
+        struct bi *GC_freehblk__1__1__1__1___bi = GC_arrays._top_index[(signed long int)(GC_freehblk__1__1__1__1__hi & (unsigned long int)((1 << 11) - 1))];
+        for( ; !(GC_freehblk__1__1__1__1___bi->key == GC_freehblk__1__1__1__1__hi); GC_freehblk__1__1__1__1___bi = GC_freehblk__1__1__1__1___bi->hash_link)
+          if(GC_freehblk__1__1__1__1___bi == GC_arrays._all_nils)
             break;
 
-        GC_freehblk$$1$$1$$1$$bi = GC_freehblk$$1$$1$$1$$1$$_bi;
+        GC_freehblk__1__1__1__bi = GC_freehblk__1__1__1__1___bi;
       }
       while((_Bool)0);
-      GC_freehblk$$1$$1$$_ha = &GC_freehblk$$1$$1$$1$$bi->index[(signed long int)((unsigned long int)hbp >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
+      GC_freehblk__1__1___ha = &GC_freehblk__1__1__1__bi->index[(signed long int)((unsigned long int)hbp >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
     }
     while((_Bool)0);
-    hhdr = *GC_freehblk$$1$$1$$_ha;
+    hhdr = *GC_freehblk__1__1___ha;
   }
   while((_Bool)0);
   size = (unsigned long int)(1 << 12) * ((hhdr->hb_sz + (unsigned long int)(1 << 12)) - (unsigned long int)1 >> (unsigned long int)12);
@@ -10692,9 +10692,9 @@ extern void * GC_gcj_malloc(unsigned long int bytes, void *ptr_to_struct_contain
 {
   if(!((signed long int)GC_incremental == 0l))
   {
-    void *return_value_GC_core_gcj_malloc$1;
-    return_value_GC_core_gcj_malloc$1=GC_core_gcj_malloc(bytes, ptr_to_struct_containing_descr);
-    return return_value_GC_core_gcj_malloc$1;
+    void *return_value_GC_core_gcj_malloc_1;
+    return_value_GC_core_gcj_malloc_1=GC_core_gcj_malloc(bytes, ptr_to_struct_containing_descr);
+    return return_value_GC_core_gcj_malloc_1;
   }
 
   else
@@ -10726,9 +10726,9 @@ extern void * GC_gcj_malloc(unsigned long int bytes, void *ptr_to_struct_contain
             my_entry = *my_fl;
             if(my_entry == NULL)
             {
-              void * (*return_value_GC_get_oom_fn$2)(unsigned long int);
-              return_value_GC_get_oom_fn$2=GC_get_oom_fn();
-              result=return_value_GC_get_oom_fn$2(granules * (unsigned long int)16);
+              void * (*return_value_GC_get_oom_fn_2)(unsigned long int);
+              return_value_GC_get_oom_fn_2=GC_get_oom_fn();
+              result=return_value_GC_get_oom_fn_2(granules * (unsigned long int)16);
             }
 
           }
@@ -10761,9 +10761,9 @@ extern void * GC_gcj_malloc_ignore_off_page(unsigned long int lb, void *ptr_to_s
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -10773,11 +10773,11 @@ extern void * GC_gcj_malloc_ignore_off_page(unsigned long int lb, void *ptr_to_s
     if(op == ((char *)NULL))
     {
       maybe_finalize();
-      void *return_value_GC_generic_malloc_inner_ignore_off_page$2;
-      return_value_GC_generic_malloc_inner_ignore_off_page$2=GC_generic_malloc_inner_ignore_off_page(lb, GC_gcj_kind);
-      void *return_value_GC_clear_stack$3;
-      return_value_GC_clear_stack$3=GC_clear_stack(return_value_GC_generic_malloc_inner_ignore_off_page$2);
-      op = (char *)return_value_GC_clear_stack$3;
+      void *return_value_GC_generic_malloc_inner_ignore_off_page_2;
+      return_value_GC_generic_malloc_inner_ignore_off_page_2=GC_generic_malloc_inner_ignore_off_page(lb, GC_gcj_kind);
+      void *return_value_GC_clear_stack_3;
+      return_value_GC_clear_stack_3=GC_clear_stack(return_value_GC_generic_malloc_inner_ignore_off_page_2);
+      op = (char *)return_value_GC_clear_stack_3;
       if(op == ((char *)NULL))
       {
         void * (*oom_fn)(unsigned long int) = GC_oom_fn;
@@ -10805,30 +10805,30 @@ extern void * GC_gcj_malloc_ignore_off_page(unsigned long int lb, void *ptr_to_s
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$4;
-        return_value_pthread_mutex_trylock$4=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$4 == 0))
+        signed int return_value_pthread_mutex_trylock_4;
+        return_value_pthread_mutex_trylock_4=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_4 == 0))
           GC_lock();
 
       }
 
     while((_Bool)0);
     maybe_finalize();
-    void *return_value_GC_generic_malloc_inner_ignore_off_page$5;
-    return_value_GC_generic_malloc_inner_ignore_off_page$5=GC_generic_malloc_inner_ignore_off_page(lb, GC_gcj_kind);
-    void *return_value_GC_clear_stack$6;
-    return_value_GC_clear_stack$6=GC_clear_stack(return_value_GC_generic_malloc_inner_ignore_off_page$5);
-    op = (char *)return_value_GC_clear_stack$6;
+    void *return_value_GC_generic_malloc_inner_ignore_off_page_5;
+    return_value_GC_generic_malloc_inner_ignore_off_page_5=GC_generic_malloc_inner_ignore_off_page(lb, GC_gcj_kind);
+    void *return_value_GC_clear_stack_6;
+    return_value_GC_clear_stack_6=GC_clear_stack(return_value_GC_generic_malloc_inner_ignore_off_page_5);
+    op = (char *)return_value_GC_clear_stack_6;
     if(op == ((char *)NULL))
     {
-      void * (*GC_gcj_malloc_ignore_off_page$$1$$2$$2$$oom_fn)(unsigned long int) = GC_oom_fn;
+      void * (*GC_gcj_malloc_ignore_off_page__1__2__2__oom_fn)(unsigned long int) = GC_oom_fn;
       do
         if(!(GC_need_to_lock == 0))
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
       void *return_value_1;
-      return_value_1=GC_gcj_malloc_ignore_off_page$$1$$2$$2$$oom_fn(lb);
+      return_value_1=GC_gcj_malloc_ignore_off_page__1__2__2__oom_fn(lb);
       return return_value_1;
     }
 
@@ -10869,29 +10869,29 @@ extern signed int GC_general_register_disappearing_link(void **link, const void 
     abort();
   }
 
-  signed int return_value_GC_register_disappearing_link_inner$1;
-  return_value_GC_register_disappearing_link_inner$1=GC_register_disappearing_link_inner(&GC_dl_hashtbl, link, obj);
-  return return_value_GC_register_disappearing_link_inner$1;
+  signed int return_value_GC_register_disappearing_link_inner_1;
+  return_value_GC_register_disappearing_link_inner_1=GC_register_disappearing_link_inner(&GC_dl_hashtbl, link, obj);
+  return return_value_GC_register_disappearing_link_inner_1;
 }
 
 // GC_generic_lock
 // file pthread_support.c line 1826
-void GC_generic_lock(union anonymous$0 *lock)
+void GC_generic_lock(union anonymous_0 *lock)
 {
   unsigned int pause_length = (unsigned int)1;
   unsigned int i;
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(lock);
-  if(!(return_value_pthread_mutex_trylock$1 == 0))
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(lock);
+  if(!(return_value_pthread_mutex_trylock_1 == 0))
   {
     for( ; !(pause_length >= 129u); pause_length = pause_length << 1)
     {
       i = (unsigned int)0;
       for( ; !(i >= pause_length); i = i + 1u)
         GC_pause();
-      signed int return_value_pthread_mutex_trylock$2;
-      return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(lock);
-      switch(return_value_pthread_mutex_trylock$2)
+      signed int return_value_pthread_mutex_trylock_2;
+      return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(lock);
+      switch(return_value_pthread_mutex_trylock_2)
       {
         case 0:
           goto __CPROVER_DUMP_L10;
@@ -10919,16 +10919,16 @@ extern void * GC_generic_malloc(unsigned long int lb, signed int k)
     GC_print_all_errors();
 
   GC_notify_or_invoke_finalizers();
-  void * (*return_value_GC_get_oom_fn$2)(unsigned long int);
+  void * (*return_value_GC_get_oom_fn_2)(unsigned long int);
   void *return_value;
   if(2048ul + -((unsigned long int)GC_all_interior_pointers) >= lb || !(lb >= 2048ul))
   {
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -10952,8 +10952,8 @@ extern void * GC_generic_malloc(unsigned long int lb, signed int k)
     lb_rounded = lg << 4;
     if(!(lb_rounded >= lb))
     {
-      return_value_GC_get_oom_fn$2=GC_get_oom_fn();
-      return_value=return_value_GC_get_oom_fn$2(lb);
+      return_value_GC_get_oom_fn_2=GC_get_oom_fn();
+      return_value=return_value_GC_get_oom_fn_2(lb);
       return return_value;
     }
 
@@ -10962,17 +10962,17 @@ extern void * GC_generic_malloc(unsigned long int lb, signed int k)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$3;
-        return_value_pthread_mutex_trylock$3=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$3 == 0))
+        signed int return_value_pthread_mutex_trylock_3;
+        return_value_pthread_mutex_trylock_3=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_3 == 0))
           GC_lock();
 
       }
 
     while((_Bool)0);
-    char *return_value_GC_alloc_large$4;
-    return_value_GC_alloc_large$4=GC_alloc_large(lb_rounded, k, (unsigned int)0);
-    result = (void *)(char *)return_value_GC_alloc_large$4;
+    char *return_value_GC_alloc_large_4;
+    return_value_GC_alloc_large_4=GC_alloc_large(lb_rounded, k, (unsigned int)0);
+    result = (void *)(char *)return_value_GC_alloc_large_4;
     if(!(result == NULL))
     {
       if(!(GC_debugging_started == 0))
@@ -10999,10 +10999,10 @@ extern void * GC_generic_malloc(unsigned long int lb, signed int k)
   }
   if(result == NULL)
   {
-    void * (*return_value_GC_get_oom_fn$5)(unsigned long int);
-    return_value_GC_get_oom_fn$5=GC_get_oom_fn();
+    void * (*return_value_GC_get_oom_fn_5)(unsigned long int);
+    return_value_GC_get_oom_fn_5=GC_get_oom_fn();
     void *return_value_1;
-    return_value_1=return_value_GC_get_oom_fn$5(lb);
+    return_value_1=return_value_GC_get_oom_fn_5(lb);
     return return_value_1;
   }
 
@@ -11019,21 +11019,21 @@ extern void * GC_generic_malloc_ignore_off_page(unsigned long int lb, signed int
   unsigned long int lb_rounded;
   unsigned long int n_blocks;
   signed int init;
-  void *return_value_GC_generic_malloc$1;
+  void *return_value_GC_generic_malloc_1;
   if(2048ul + -((unsigned long int)GC_all_interior_pointers) >= lb || !(lb >= 2048ul))
   {
-    return_value_GC_generic_malloc$1=GC_generic_malloc((unsigned long int)lb, k);
-    return return_value_GC_generic_malloc$1;
+    return_value_GC_generic_malloc_1=GC_generic_malloc((unsigned long int)lb, k);
+    return return_value_GC_generic_malloc_1;
   }
 
   lg = lb + (unsigned long int)((16 - 1) + GC_all_interior_pointers) >> 4;
   lb_rounded = lg << 4;
-  void * (*return_value_GC_get_oom_fn$2)(unsigned long int);
+  void * (*return_value_GC_get_oom_fn_2)(unsigned long int);
   void *return_value;
   if(!(lb_rounded >= lb))
   {
-    return_value_GC_get_oom_fn$2=GC_get_oom_fn();
-    return_value=return_value_GC_get_oom_fn$2(lb);
+    return_value_GC_get_oom_fn_2=GC_get_oom_fn();
+    return_value=return_value_GC_get_oom_fn_2(lb);
     return return_value;
   }
 
@@ -11046,17 +11046,17 @@ extern void * GC_generic_malloc_ignore_off_page(unsigned long int lb, signed int
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$3;
-      return_value_pthread_mutex_trylock$3=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$3 == 0))
+      signed int return_value_pthread_mutex_trylock_3;
+      return_value_pthread_mutex_trylock_3=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_3 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  char *return_value_GC_alloc_large$4;
-  return_value_GC_alloc_large$4=GC_alloc_large(lb + (unsigned long int)GC_all_interior_pointers, k, (unsigned int)1);
-  result = (void *)(char *)return_value_GC_alloc_large$4;
+  char *return_value_GC_alloc_large_4;
+  return_value_GC_alloc_large_4=GC_alloc_large(lb + (unsigned long int)GC_all_interior_pointers, k, (unsigned int)1);
+  result = (void *)(char *)return_value_GC_alloc_large_4;
   if(!(result == NULL))
   {
     if(!(GC_debugging_started == 0))
@@ -11104,7 +11104,7 @@ extern void * GC_generic_malloc_ignore_off_page(unsigned long int lb, signed int
 void * GC_generic_malloc_inner(unsigned long int lb, signed int k)
 {
   void *op;
-  signed int return_value_GC_alloc_reclaim_list$1;
+  signed int return_value_GC_alloc_reclaim_list_1;
   if(2048ul + -((unsigned long int)GC_all_interior_pointers) >= lb || !(lb >= 2048ul))
   {
     struct obj_kind *kind = GC_obj_kinds + (signed long int)k;
@@ -11135,15 +11135,15 @@ void * GC_generic_malloc_inner(unsigned long int lb, signed int k)
       {
         if(kind->ok_reclaim_list == ((struct hblk **)NULL))
         {
-          return_value_GC_alloc_reclaim_list$1=GC_alloc_reclaim_list(kind);
-          if(return_value_GC_alloc_reclaim_list$1 == 0)
+          return_value_GC_alloc_reclaim_list_1=GC_alloc_reclaim_list(kind);
+          if(return_value_GC_alloc_reclaim_list_1 == 0)
             return (void *)0;
 
         }
 
-        char *return_value_GC_allocobj$2;
-        return_value_GC_allocobj$2=GC_allocobj(lg, k);
-        op = (void *)return_value_GC_allocobj$2;
+        char *return_value_GC_allocobj_2;
+        return_value_GC_allocobj_2=GC_allocobj(lg, k);
+        op = (void *)return_value_GC_allocobj_2;
         if(op == NULL)
           return (void *)0;
 
@@ -11158,9 +11158,9 @@ void * GC_generic_malloc_inner(unsigned long int lb, signed int k)
 
   else
   {
-    char *return_value_GC_alloc_large_and_clear$3;
-    return_value_GC_alloc_large_and_clear$3=GC_alloc_large_and_clear(lb + (unsigned long int)GC_all_interior_pointers, k, (unsigned int)0);
-    op = (void *)(char *)return_value_GC_alloc_large_and_clear$3;
+    char *return_value_GC_alloc_large_and_clear_3;
+    return_value_GC_alloc_large_and_clear_3=GC_alloc_large_and_clear(lb + (unsigned long int)GC_all_interior_pointers, k, (unsigned int)0);
+    op = (void *)(char *)return_value_GC_alloc_large_and_clear_3;
     GC_arrays._bytes_allocd = GC_arrays._bytes_allocd + lb;
   }
   return op;
@@ -11172,17 +11172,17 @@ void * GC_generic_malloc_inner_ignore_off_page(unsigned long int lb, signed int 
 {
   unsigned long int lb_adjusted;
   void *op;
-  void *return_value_GC_generic_malloc_inner$1;
+  void *return_value_GC_generic_malloc_inner_1;
   if(!(lb >= 4097ul))
   {
-    return_value_GC_generic_malloc_inner$1=GC_generic_malloc_inner(lb, k);
-    return return_value_GC_generic_malloc_inner$1;
+    return_value_GC_generic_malloc_inner_1=GC_generic_malloc_inner(lb, k);
+    return return_value_GC_generic_malloc_inner_1;
   }
 
   lb_adjusted = lb + (unsigned long int)GC_all_interior_pointers;
-  char *return_value_GC_alloc_large_and_clear$2;
-  return_value_GC_alloc_large_and_clear$2=GC_alloc_large_and_clear(lb_adjusted, k, (unsigned int)1);
-  op = (void *)return_value_GC_alloc_large_and_clear$2;
+  char *return_value_GC_alloc_large_and_clear_2;
+  return_value_GC_alloc_large_and_clear_2=GC_alloc_large_and_clear(lb_adjusted, k, (unsigned int)1);
+  op = (void *)return_value_GC_alloc_large_and_clear_2;
   GC_arrays._bytes_allocd = GC_arrays._bytes_allocd + lb_adjusted;
   return op;
 }
@@ -11199,7 +11199,7 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
   signed long int my_bytes_allocd = (signed long int)0;
   struct obj_kind *ok = &GC_obj_kinds[(signed long int)k];
   struct hblk **rlh;
-  struct hblkhdr *return_value_GC_find_header$5;
+  struct hblkhdr *return_value_GC_find_header_5;
   if(!(2048ul + -((unsigned long int)GC_all_interior_pointers) >= lb) && lb >= 2048ul)
   {
     op=GC_generic_malloc(lb, k);
@@ -11220,9 +11220,9 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -11256,9 +11256,9 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
         if(!(GC_parallel == 0))
         {
           signed long int my_bytes_allocd_tmp;
-          unsigned long int return_value_AO_load$2;
-          return_value_AO_load$2=AO_load(&GC_bytes_allocd_tmp);
-          my_bytes_allocd_tmp = (signed long int)return_value_AO_load$2;
+          unsigned long int return_value_AO_load_2;
+          return_value_AO_load_2=AO_load(&GC_bytes_allocd_tmp);
+          my_bytes_allocd_tmp = (signed long int)return_value_AO_load_2;
           if(!(my_bytes_allocd_tmp == 0l))
           {
             AO_fetch_and_add(&GC_bytes_allocd_tmp, (unsigned long int)-my_bytes_allocd_tmp);
@@ -11275,9 +11275,9 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
           GC_release_mark_lock();
         }
 
-        char *return_value_GC_reclaim_generic$3;
-        return_value_GC_reclaim_generic$3=GC_reclaim_generic(hbp, hhdr, lb, ok->ok_init, ((char *)NULL), &my_bytes_allocd);
-        op = (void *)return_value_GC_reclaim_generic$3;
+        char *return_value_GC_reclaim_generic_3;
+        return_value_GC_reclaim_generic_3=GC_reclaim_generic(hbp, hhdr, lb, ok->ok_init, ((char *)NULL), &my_bytes_allocd);
+        op = (void *)return_value_GC_reclaim_generic_3;
         if(!(op == NULL))
         {
           GC_bytes_found = GC_bytes_found + my_bytes_allocd;
@@ -11310,9 +11310,9 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
           do
             if(!(GC_need_to_lock == 0))
             {
-              signed int return_value_pthread_mutex_trylock$4;
-              return_value_pthread_mutex_trylock$4=pthread_mutex_trylock(&GC_allocate_ml);
-              if(!(return_value_pthread_mutex_trylock$4 == 0))
+              signed int return_value_pthread_mutex_trylock_4;
+              return_value_pthread_mutex_trylock_4=pthread_mutex_trylock(&GC_allocate_ml);
+              if(!(return_value_pthread_mutex_trylock_4 == 0))
                 GC_lock();
 
             }
@@ -11353,8 +11353,8 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
       {
         if((-2 & k) == 2)
         {
-          return_value_GC_find_header$5=GC_find_header((char *)h);
-          GC_set_hdr_marks(return_value_GC_find_header$5);
+          return_value_GC_find_header_5=GC_find_header((char *)h);
+          GC_set_hdr_marks(return_value_GC_find_header_5);
         }
 
         GC_arrays._bytes_allocd = GC_arrays._bytes_allocd + ((unsigned long int)(1 << 12) - (unsigned long int)(1 << 12) % lb);
@@ -11368,9 +11368,9 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
 
           while((_Bool)0);
           GC_release_mark_lock();
-          char *return_value_GC_build_fl$6;
-          return_value_GC_build_fl$6=GC_build_fl(h, lw, (signed int)(ok->ok_init != 0 ? (_Bool)1 : (GC_debugging_started != 0 ? (_Bool)1 : (_Bool)0)), ((char *)NULL));
-          op = (void *)return_value_GC_build_fl$6;
+          char *return_value_GC_build_fl_6;
+          return_value_GC_build_fl_6=GC_build_fl(h, lw, (signed int)(ok->ok_init != 0 ? (_Bool)1 : (GC_debugging_started != 0 ? (_Bool)1 : (_Bool)0)), ((char *)NULL));
+          op = (void *)return_value_GC_build_fl_6;
           *result = op;
           GC_acquire_mark_lock();
           GC_fl_builder_count = GC_fl_builder_count - 1ul;
@@ -11382,9 +11382,9 @@ extern void GC_generic_malloc_many(unsigned long int lb, signed int k, void **re
           goto __CPROVER_DUMP_L37;
         }
 
-        char *return_value_GC_build_fl$7;
-        return_value_GC_build_fl$7=GC_build_fl(h, lw, (signed int)(ok->ok_init != 0 ? (_Bool)1 : (GC_debugging_started != 0 ? (_Bool)1 : (_Bool)0)), ((char *)NULL));
-        op = (void *)return_value_GC_build_fl$7;
+        char *return_value_GC_build_fl_7;
+        return_value_GC_build_fl_7=GC_build_fl(h, lw, (signed int)(ok->ok_init != 0 ? (_Bool)1 : (GC_debugging_started != 0 ? (_Bool)1 : (_Bool)0)), ((char *)NULL));
+        op = (void *)return_value_GC_build_fl_7;
         goto out;
       }
 
@@ -11413,37 +11413,37 @@ __CPROVER_DUMP_L37:
 // file mallocx.c line 50
 void * GC_generic_or_special_malloc(unsigned long int lb, signed int knd)
 {
-  void *return_value_GC_malloc_atomic$1;
-  void *return_value_GC_malloc$2;
-  void *return_value_GC_malloc_uncollectable$3;
-  void *return_value_GC_malloc_atomic_uncollectable$4;
-  void *return_value_GC_generic_malloc$5;
+  void *return_value_GC_malloc_atomic_1;
+  void *return_value_GC_malloc_2;
+  void *return_value_GC_malloc_uncollectable_3;
+  void *return_value_GC_malloc_atomic_uncollectable_4;
+  void *return_value_GC_generic_malloc_5;
   switch(knd)
   {
     case 0:
     {
-      return_value_GC_malloc_atomic$1=GC_malloc_atomic((unsigned long int)lb);
-      return return_value_GC_malloc_atomic$1;
+      return_value_GC_malloc_atomic_1=GC_malloc_atomic((unsigned long int)lb);
+      return return_value_GC_malloc_atomic_1;
     }
     case 1:
     {
-      return_value_GC_malloc$2=GC_malloc((unsigned long int)lb);
-      return return_value_GC_malloc$2;
+      return_value_GC_malloc_2=GC_malloc((unsigned long int)lb);
+      return return_value_GC_malloc_2;
     }
     case 2:
     {
-      return_value_GC_malloc_uncollectable$3=GC_malloc_uncollectable((unsigned long int)lb);
-      return return_value_GC_malloc_uncollectable$3;
+      return_value_GC_malloc_uncollectable_3=GC_malloc_uncollectable((unsigned long int)lb);
+      return return_value_GC_malloc_uncollectable_3;
     }
     case 3:
     {
-      return_value_GC_malloc_atomic_uncollectable$4=GC_malloc_atomic_uncollectable((unsigned long int)lb);
-      return return_value_GC_malloc_atomic_uncollectable$4;
+      return_value_GC_malloc_atomic_uncollectable_4=GC_malloc_atomic_uncollectable((unsigned long int)lb);
+      return return_value_GC_malloc_atomic_uncollectable_4;
     }
     default:
     {
-      return_value_GC_generic_malloc$5=GC_generic_malloc(lb, knd);
-      return return_value_GC_generic_malloc$5;
+      return_value_GC_generic_malloc_5=GC_generic_malloc(lb, knd);
+      return return_value_GC_generic_malloc_5;
     }
   }
 }
@@ -11456,9 +11456,9 @@ extern void (*GC_get_abort_func(void))(const char *)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -11535,9 +11535,9 @@ extern void (*GC_get_finalizer_notifier(void))(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -11639,9 +11639,9 @@ extern void GC_get_heap_usage_safe(unsigned long int *pheap_size, unsigned long 
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -11684,15 +11684,15 @@ char * GC_get_main_stack_base(void)
   union pthread_attr_t attr;
   void *stackaddr;
   unsigned long int size;
-  unsigned long int return_value_pthread_self$2;
-  return_value_pthread_self$2=pthread_self();
-  signed int return_value_pthread_getattr_np$3;
-  return_value_pthread_getattr_np$3=pthread_getattr_np(return_value_pthread_self$2, &attr);
-  if(return_value_pthread_getattr_np$3 == 0)
+  unsigned long int return_value_pthread_self_2;
+  return_value_pthread_self_2=pthread_self();
+  signed int return_value_pthread_getattr_np_3;
+  return_value_pthread_getattr_np_3=pthread_getattr_np(return_value_pthread_self_2, &attr);
+  if(return_value_pthread_getattr_np_3 == 0)
   {
-    signed int return_value_pthread_attr_getstack$1;
-    return_value_pthread_attr_getstack$1=pthread_attr_getstack(&attr, &stackaddr, &size);
-    if(return_value_pthread_attr_getstack$1 == 0)
+    signed int return_value_pthread_attr_getstack_1;
+    return_value_pthread_attr_getstack_1=pthread_attr_getstack(&attr, &stackaddr, &size);
+    if(return_value_pthread_attr_getstack_1 == 0)
     {
       if(!(stackaddr == NULL))
       {
@@ -11844,9 +11844,9 @@ signed int GC_get_nprocs(void)
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(f, (void *)stat_buf, (unsigned long int)4096);
-    len = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(f, (void *)stat_buf, (unsigned long int)4096);
+    len = (signed int)return_value_read_1;
     close(f);
     result = 1;
     i = 0;
@@ -11860,7 +11860,7 @@ signed int GC_get_nprocs(void)
             if((signed int)stat_buf[(signed long int)(3 + i)] == 117)
             {
               signed int cpu_no;
-              cpu_no=atoi$link1(&stat_buf[(signed long int)(i + 4)]);
+              cpu_no=atoi_link1(&stat_buf[(signed long int)(i + 4)]);
               if(cpu_no >= result)
                 result = cpu_no + 1;
 
@@ -11884,9 +11884,9 @@ extern void (*GC_get_on_heap_resize(void))(unsigned long int)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -11909,9 +11909,9 @@ extern void * (*GC_get_oom_fn(void))(unsigned long int)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -11948,9 +11948,9 @@ extern unsigned long int GC_get_prof_stats(struct GC_prof_stats_s *pstats, unsig
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -12014,11 +12014,11 @@ extern signed int GC_get_stack_base(struct GC_stack_base *b)
 {
   union pthread_attr_t attr;
   unsigned long int size;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  signed int return_value_pthread_getattr_np$2;
-  return_value_pthread_getattr_np$2=pthread_getattr_np(return_value_pthread_self$1, &attr);
-  if(!(return_value_pthread_getattr_np$2 == 0))
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  signed int return_value_pthread_getattr_np_2;
+  return_value_pthread_getattr_np_2=pthread_getattr_np(return_value_pthread_self_1, &attr);
+  if(!(return_value_pthread_getattr_np_2 == 0))
   {
     GC_current_warn_proc("GC Warning: pthread_getattr_np failed\n", (unsigned long int)0);
     return 3;
@@ -12026,9 +12026,9 @@ extern signed int GC_get_stack_base(struct GC_stack_base *b)
 
   else
   {
-    signed int return_value_pthread_attr_getstack$3;
-    return_value_pthread_attr_getstack$3=pthread_attr_getstack(&attr, &b->mem_base, &size);
-    if(!(return_value_pthread_attr_getstack$3 == 0))
+    signed int return_value_pthread_attr_getstack_3;
+    return_value_pthread_attr_getstack_3=pthread_attr_getstack(&attr, &b->mem_base, &size);
+    if(!(return_value_pthread_attr_getstack_3 == 0))
     {
       GC_on_abort("pthread_attr_getstack failed");
       abort();
@@ -12048,9 +12048,9 @@ extern void (*GC_get_start_callback(void))(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -12073,9 +12073,9 @@ extern signed int (*GC_get_stop_func(void))(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -12140,9 +12140,9 @@ extern void (*GC_get_warn_proc(void))(char *, unsigned long int)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -12168,9 +12168,9 @@ void GC_grow_table(struct hash_chain_entry ***table, signed long int *log_size_p
   unsigned long int old_size = (unsigned long int)(log_old_size == (signed long int)-1 ? 0 : 1 << log_old_size);
   unsigned long int new_size = (unsigned long int)1 << log_new_size;
   struct hash_chain_entry **new_table;
-  void *return_value_GC_generic_malloc_inner_ignore_off_page$1;
-  return_value_GC_generic_malloc_inner_ignore_off_page$1=GC_generic_malloc_inner_ignore_off_page((unsigned long int)new_size * sizeof(struct hash_chain_entry *) /*8ul*/ , 1);
-  new_table = (struct hash_chain_entry **)return_value_GC_generic_malloc_inner_ignore_off_page$1;
+  void *return_value_GC_generic_malloc_inner_ignore_off_page_1;
+  return_value_GC_generic_malloc_inner_ignore_off_page_1=GC_generic_malloc_inner_ignore_off_page((unsigned long int)new_size * sizeof(struct hash_chain_entry *) /*8ul*/ , 1);
+  new_table = (struct hash_chain_entry **)return_value_GC_generic_malloc_inner_ignore_off_page_1;
   if(new_table == ((struct hash_chain_entry **)NULL))
   {
     if(*table == ((struct hash_chain_entry **)NULL))
@@ -12206,14 +12206,14 @@ void GC_grow_table(struct hash_chain_entry ***table, signed long int *log_size_p
 // file dbg_mlc.c line 36
 signed int GC_has_other_debug_info(char *p)
 {
-  char *body = (char *)((struct anonymous$18 *)p + (signed long int)1);
+  char *body = (char *)((struct anonymous_18 *)p + (signed long int)1);
   unsigned long int sz;
   sz=GC_size((const void *)p);
   if(!((struct hblk *)(18446744073709547520ul & (unsigned long int)p) == (struct hblk *)(18446744073709547520ul & (unsigned long int)body)) || !(sz >= sizeof(unsigned long int) * 5 /*40ul*/ ))
     return 0;
 
   else
-    if(!(((struct anonymous$18 *)p)->oh_sf == (0xFEDCEDCBfedcedcbUL ^ (unsigned long int)body)))
+    if(!(((struct anonymous_18 *)p)->oh_sf == (0xFEDCEDCBfedcedcbUL ^ (unsigned long int)body)))
     {
       if(((unsigned long int *)p)[-1l + (signed long int)(sz >> 3)] == (0xBCDECDEFbcdecdefUL ^ (unsigned long int)body))
         goto __CPROVER_DUMP_L2;
@@ -12226,7 +12226,7 @@ signed int GC_has_other_debug_info(char *p)
 
     __CPROVER_DUMP_L2:
       ;
-      if(((struct anonymous$18 *)p)->oh_sz == sz)
+      if(((struct anonymous_18 *)p)->oh_sz == sz)
         return -1;
 
       else
@@ -12294,13 +12294,13 @@ struct hblkhdr * GC_header_cache_miss(char *p, struct hce *hce)
         if(!((1 & (signed int)hhdr->hb_flags) == 0))
           return ((struct hblkhdr *)NULL);
 
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if(!((4 & (signed int)hhdr->hb_flags) == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = p - current >= (signed long int)hhdr->hb_sz ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = p - current >= (signed long int)hhdr->hb_sz ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           if(!(GC_all_interior_pointers == 0))
             GC_add_to_black_list_stack((unsigned long int)p);
@@ -12450,9 +12450,9 @@ extern void GC_init(void)
 {
   unsigned long int initial_heap_sz;
   signed int cancel_state;
-  char *return_value_getenv$1;
-  _Bool tmp_if_expr$3;
-  char *return_value_getenv$12;
+  char *return_value_getenv_1;
+  _Bool tmp_if_expr_3;
+  char *return_value_getenv_12;
   if((signed long int)GC_is_initialized == 0l)
   {
     initial_heap_sz = (unsigned long int)16;
@@ -12460,15 +12460,15 @@ extern void GC_init(void)
       pthread_setcancelstate(1, &cancel_state);
     while((_Bool)0);
     GC_setpagesize();
-    char *return_value_getenv$2;
-    return_value_getenv$2=getenv("GC_PRINT_VERBOSE_STATS");
-    if(!(return_value_getenv$2 == ((char *)NULL)))
+    char *return_value_getenv_2;
+    return_value_getenv_2=getenv("GC_PRINT_VERBOSE_STATS");
+    if(!(return_value_getenv_2 == ((char *)NULL)))
       GC_print_stats = 2;
 
     else
     {
-      return_value_getenv$1=getenv("GC_PRINT_STATS");
-      if(!(return_value_getenv$1 == ((char *)NULL)))
+      return_value_getenv_1=getenv("GC_PRINT_STATS");
+      if(!(return_value_getenv_1 == ((char *)NULL)))
         GC_print_stats = 1;
 
     }
@@ -12486,20 +12486,20 @@ extern void GC_init(void)
         char *str;
         GC_log = log_d;
         str=getenv("GC_ONLY_LOG_TO_FILE");
-        _Bool tmp_if_expr$4;
+        _Bool tmp_if_expr_4;
         if(str == ((char *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           if((signed int)*str == 48)
-            tmp_if_expr$3 = (signed int)str[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (signed int)str[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           GC_stdout = log_d;
           GC_stderr = log_d;
@@ -12508,39 +12508,39 @@ extern void GC_init(void)
       }
     }
 
-    char *return_value_getenv$5;
-    return_value_getenv$5=getenv("GC_DUMP_REGULARLY");
-    if(!(return_value_getenv$5 == ((char *)NULL)))
+    char *return_value_getenv_5;
+    return_value_getenv_5=getenv("GC_DUMP_REGULARLY");
+    if(!(return_value_getenv_5 == ((char *)NULL)))
       GC_dump_regularly = 1;
 
-    char *return_value_getenv$6;
-    return_value_getenv$6=getenv("GC_FIND_LEAK");
-    if(!(return_value_getenv$6 == ((char *)NULL)))
+    char *return_value_getenv_6;
+    return_value_getenv_6=getenv("GC_FIND_LEAK");
+    if(!(return_value_getenv_6 == ((char *)NULL)))
       GC_find_leak = 1;
 
-    char *return_value_getenv$7;
-    return_value_getenv$7=getenv("GC_FINDLEAK_DELAY_FREE");
-    if(!(return_value_getenv$7 == ((char *)NULL)))
+    char *return_value_getenv_7;
+    return_value_getenv_7=getenv("GC_FINDLEAK_DELAY_FREE");
+    if(!(return_value_getenv_7 == ((char *)NULL)))
       GC_findleak_delay_free = 1;
 
-    char *return_value_getenv$8;
-    return_value_getenv$8=getenv("GC_ALL_INTERIOR_POINTERS");
-    if(!(return_value_getenv$8 == ((char *)NULL)))
+    char *return_value_getenv_8;
+    return_value_getenv_8=getenv("GC_ALL_INTERIOR_POINTERS");
+    if(!(return_value_getenv_8 == ((char *)NULL)))
       GC_all_interior_pointers = 1;
 
-    char *return_value_getenv$9;
-    return_value_getenv$9=getenv("GC_DONT_GC");
-    if(!(return_value_getenv$9 == ((char *)NULL)))
+    char *return_value_getenv_9;
+    return_value_getenv_9=getenv("GC_DONT_GC");
+    if(!(return_value_getenv_9 == ((char *)NULL)))
       GC_dont_gc = 1;
 
-    char *return_value_getenv$10;
-    return_value_getenv$10=getenv("GC_PRINT_BACK_HEIGHT");
-    if(!(return_value_getenv$10 == ((char *)NULL)))
+    char *return_value_getenv_10;
+    return_value_getenv_10=getenv("GC_PRINT_BACK_HEIGHT");
+    if(!(return_value_getenv_10 == ((char *)NULL)))
       GC_print_back_height = 1;
 
-    char *return_value_getenv$11;
-    return_value_getenv$11=getenv("GC_NO_BLACKLIST_WARNING");
-    if(!(return_value_getenv$11 == ((char *)NULL)))
+    char *return_value_getenv_11;
+    return_value_getenv_11=getenv("GC_NO_BLACKLIST_WARNING");
+    if(!(return_value_getenv_11 == ((char *)NULL)))
       GC_large_alloc_warn_interval = 0x7fffffffffffffffL;
 
     char *addr_string;
@@ -12606,24 +12606,24 @@ extern void GC_init(void)
     if(GC_stackbottom == ((char *)NULL))
       GC_stackbottom=GC_get_main_stack_base();
 
-    _Bool tmp_if_expr$13;
+    _Bool tmp_if_expr_13;
     if(!(GC_incremental == 0))
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_getenv$12=getenv("GC_ENABLE_INCREMENTAL");
-      tmp_if_expr$13 = ((char *)NULL) != return_value_getenv$12 ? (_Bool)1 : (_Bool)0;
+      return_value_getenv_12=getenv("GC_ENABLE_INCREMENTAL");
+      tmp_if_expr_13 = ((char *)NULL) != return_value_getenv_12 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
+    if(tmp_if_expr_13)
     {
       GC_dirty_init();
       GC_incremental = 1;
     }
 
-    signed int return_value_GC_register_main_static_data$14;
-    return_value_GC_register_main_static_data$14=GC_register_main_static_data();
-    if(!(return_value_GC_register_main_static_data$14 == 0))
+    signed int return_value_GC_register_main_static_data_14;
+    return_value_GC_register_main_static_data_14=GC_register_main_static_data();
+    if(!(return_value_GC_register_main_static_data_14 == 0))
       GC_register_data_segments();
 
     GC_init_headers();
@@ -12640,14 +12640,14 @@ extern void GC_init(void)
       initial_heap_sz = initial_heap_sz >> (unsigned long int)12;
     }
 
-    char *GC_init$$1$$22$$sz_str;
-    GC_init$$1$$22$$sz_str=getenv("GC_MAXIMUM_HEAP_SIZE");
-    if(!(GC_init$$1$$22$$sz_str == ((char *)NULL)))
+    char *GC_init__1__22__sz_str;
+    GC_init__1__22__sz_str=getenv("GC_MAXIMUM_HEAP_SIZE");
+    if(!(GC_init__1__22__sz_str == ((char *)NULL)))
     {
       unsigned long int max_heap_sz;
-      max_heap_sz=GC_parse_mem_size_arg(GC_init$$1$$22$$sz_str);
+      max_heap_sz=GC_parse_mem_size_arg(GC_init__1__22__sz_str);
       if(!(max_heap_sz >= 4096ul * initial_heap_sz))
-        GC_current_warn_proc("GC Warning: Bad maximum heap size %s - ignoring it.\n", (unsigned long int)GC_init$$1$$22$$sz_str);
+        GC_current_warn_proc("GC Warning: Bad maximum heap size %s - ignoring it.\n", (unsigned long int)GC_init__1__22__sz_str);
 
       if(GC_max_retries == 0ul)
         GC_max_retries = (unsigned long int)2;
@@ -12655,9 +12655,9 @@ extern void GC_init(void)
       GC_set_max_heap_size(max_heap_sz);
     }
 
-    signed int return_value_GC_expand_hp_inner$15;
-    return_value_GC_expand_hp_inner$15=GC_expand_hp_inner(initial_heap_sz);
-    if(return_value_GC_expand_hp_inner$15 == 0)
+    signed int return_value_GC_expand_hp_inner_15;
+    return_value_GC_expand_hp_inner_15=GC_expand_hp_inner(initial_heap_sz);
+    if(return_value_GC_expand_hp_inner_15 == 0)
     {
       GC_err_printf("Can't start up: not enough memory\n");
       GC_on_abort((const char *)(void *)0);
@@ -12702,9 +12702,9 @@ void GC_init_explicit_typing(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -12720,24 +12720,24 @@ void GC_init_explicit_typing(void)
   else
   {
     GC_explicit_typing_initialized = 1;
-    void **return_value_GC_new_free_list_inner$2;
-    return_value_GC_new_free_list_inner$2=GC_new_free_list_inner();
-    GC_eobjfreelist = (char **)return_value_GC_new_free_list_inner$2;
-    unsigned int return_value_GC_new_kind_inner$3;
-    return_value_GC_new_kind_inner$3=GC_new_kind_inner((void **)GC_eobjfreelist, (unsigned long int)-1 << 3 | (unsigned long int)3, 1, 1);
-    GC_explicit_kind = (signed int)return_value_GC_new_kind_inner$3;
-    unsigned int return_value_GC_new_proc_inner$4;
-    return_value_GC_new_proc_inner$4=GC_new_proc_inner(GC_typed_mark_proc);
-    GC_typed_mark_proc_index = (signed int)return_value_GC_new_proc_inner$4;
-    void **return_value_GC_new_free_list_inner$5;
-    return_value_GC_new_free_list_inner$5=GC_new_free_list_inner();
-    GC_arobjfreelist = (char **)return_value_GC_new_free_list_inner$5;
-    unsigned int return_value_GC_new_proc_inner$6;
-    return_value_GC_new_proc_inner$6=GC_new_proc_inner(GC_array_mark_proc);
-    GC_array_mark_proc_index = (signed int)return_value_GC_new_proc_inner$6;
-    unsigned int return_value_GC_new_kind_inner$7;
-    return_value_GC_new_kind_inner$7=GC_new_kind_inner((void **)GC_arobjfreelist, (unsigned long int)((0 << 6 | GC_array_mark_proc_index) << 2 | 2), 0, 1);
-    GC_array_kind = (signed int)return_value_GC_new_kind_inner$7;
+    void **return_value_GC_new_free_list_inner_2;
+    return_value_GC_new_free_list_inner_2=GC_new_free_list_inner();
+    GC_eobjfreelist = (char **)return_value_GC_new_free_list_inner_2;
+    unsigned int return_value_GC_new_kind_inner_3;
+    return_value_GC_new_kind_inner_3=GC_new_kind_inner((void **)GC_eobjfreelist, (unsigned long int)-1 << 3 | (unsigned long int)3, 1, 1);
+    GC_explicit_kind = (signed int)return_value_GC_new_kind_inner_3;
+    unsigned int return_value_GC_new_proc_inner_4;
+    return_value_GC_new_proc_inner_4=GC_new_proc_inner(GC_typed_mark_proc);
+    GC_typed_mark_proc_index = (signed int)return_value_GC_new_proc_inner_4;
+    void **return_value_GC_new_free_list_inner_5;
+    return_value_GC_new_free_list_inner_5=GC_new_free_list_inner();
+    GC_arobjfreelist = (char **)return_value_GC_new_free_list_inner_5;
+    unsigned int return_value_GC_new_proc_inner_6;
+    return_value_GC_new_proc_inner_6=GC_new_proc_inner(GC_array_mark_proc);
+    GC_array_mark_proc_index = (signed int)return_value_GC_new_proc_inner_6;
+    unsigned int return_value_GC_new_kind_inner_7;
+    return_value_GC_new_kind_inner_7=GC_new_kind_inner((void **)GC_arobjfreelist, (unsigned long int)((0 << 6 | GC_array_mark_proc_index) << 2 | 2), 0, 1);
+    GC_array_kind = (signed int)return_value_GC_new_kind_inner_7;
     i = (unsigned int)0;
     for( ; !((unsigned long int)i >= 32ul); i = i + 1u)
       GC_bm_table[(signed long int)i] = (unsigned long int)-1 << (unsigned long int)64 - (unsigned long int)i | (unsigned long int)1;
@@ -12757,9 +12757,9 @@ extern void GC_init_finalized_malloc(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -12776,12 +12776,12 @@ extern void GC_init_finalized_malloc(void)
   {
     done_init = 1;
     GC_register_displacement_inner(sizeof(unsigned long int) /*8ul*/ );
-    void **return_value_GC_new_free_list_inner$2;
-    return_value_GC_new_free_list_inner$2=GC_new_free_list_inner();
-    GC_finalized_objfreelist = (char **)return_value_GC_new_free_list_inner$2;
-    unsigned int return_value_GC_new_kind_inner$3;
-    return_value_GC_new_kind_inner$3=GC_new_kind_inner((void **)GC_finalized_objfreelist, (unsigned long int)0, 1, 1);
-    GC_finalized_kind = (signed int)return_value_GC_new_kind_inner$3;
+    void **return_value_GC_new_free_list_inner_2;
+    return_value_GC_new_free_list_inner_2=GC_new_free_list_inner();
+    GC_finalized_objfreelist = (char **)return_value_GC_new_free_list_inner_2;
+    unsigned int return_value_GC_new_kind_inner_3;
+    return_value_GC_new_kind_inner_3=GC_new_kind_inner((void **)GC_finalized_objfreelist, (unsigned long int)0, 1, 1);
+    GC_finalized_kind = (signed int)return_value_GC_new_kind_inner_3;
     GC_register_disclaim_proc(GC_finalized_kind, GC_finalized_disclaim, 1);
     do
       if(!(GC_need_to_lock == 0))
@@ -12803,9 +12803,9 @@ extern void GC_init_gcj_malloc(signed int mp_index, void *mp)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -12821,9 +12821,9 @@ extern void GC_init_gcj_malloc(signed int mp_index, void *mp)
   else
   {
     GC_gcj_malloc_initialized = 1;
-    char *return_value_getenv$2;
-    return_value_getenv$2=getenv("GC_IGNORE_GCJ_INFO");
-    ignore_gcj_info = (signed int)(((char *)NULL) != return_value_getenv$2);
+    char *return_value_getenv_2;
+    return_value_getenv_2=getenv("GC_IGNORE_GCJ_INFO");
+    ignore_gcj_info = (signed int)(((char *)NULL) != return_value_getenv_2);
     if(!(ignore_gcj_info == 0))
     {
       if(!(GC_print_stats == 0))
@@ -12838,21 +12838,21 @@ extern void GC_init_gcj_malloc(signed int mp_index, void *mp)
       abort();
     }
 
-    void **return_value_GC_new_free_list_inner$3;
-    return_value_GC_new_free_list_inner$3=GC_new_free_list_inner();
-    GC_gcjobjfreelist = (char **)return_value_GC_new_free_list_inner$3;
+    void **return_value_GC_new_free_list_inner_3;
+    return_value_GC_new_free_list_inner_3=GC_new_free_list_inner();
+    GC_gcjobjfreelist = (char **)return_value_GC_new_free_list_inner_3;
     if(!(ignore_gcj_info == 0))
     {
-      unsigned int return_value_GC_new_kind_inner$4;
-      return_value_GC_new_kind_inner$4=GC_new_kind_inner((void **)GC_gcjobjfreelist, (unsigned long int)(0 | 0), 1, 1);
-      GC_gcj_kind = (signed int)return_value_GC_new_kind_inner$4;
+      unsigned int return_value_GC_new_kind_inner_4;
+      return_value_GC_new_kind_inner_4=GC_new_kind_inner((void **)GC_gcjobjfreelist, (unsigned long int)(0 | 0), 1, 1);
+      GC_gcj_kind = (signed int)return_value_GC_new_kind_inner_4;
     }
 
     else
     {
-      unsigned int return_value_GC_new_kind_inner$5;
-      return_value_GC_new_kind_inner$5=GC_new_kind_inner((void **)GC_gcjobjfreelist, (unsigned long int)(-((signed long int)sizeof(unsigned long int) /*8ul*/ ) - (signed long int)0x10) | (unsigned long int)3, 0, 1);
-      GC_gcj_kind = (signed int)return_value_GC_new_kind_inner$5;
+      unsigned int return_value_GC_new_kind_inner_5;
+      return_value_GC_new_kind_inner_5=GC_new_kind_inner((void **)GC_gcjobjfreelist, (unsigned long int)(-((signed long int)sizeof(unsigned long int) /*8ul*/ ) - (signed long int)0x10) | (unsigned long int)3, 0, 1);
+      GC_gcj_kind = (signed int)return_value_GC_new_kind_inner_5;
     }
     if(!(ignore_gcj_info == 0))
     {
@@ -12862,12 +12862,12 @@ extern void GC_init_gcj_malloc(signed int mp_index, void *mp)
 
     else
     {
-      void **return_value_GC_new_free_list_inner$6;
-      return_value_GC_new_free_list_inner$6=GC_new_free_list_inner();
-      GC_gcjdebugobjfreelist = (char **)return_value_GC_new_free_list_inner$6;
-      unsigned int return_value_GC_new_kind_inner$7;
-      return_value_GC_new_kind_inner$7=GC_new_kind_inner((void **)GC_gcjdebugobjfreelist, (unsigned long int)((1 << 6 | mp_index) << 2 | 2), 0, 1);
-      GC_gcj_debug_kind = (signed int)return_value_GC_new_kind_inner$7;
+      void **return_value_GC_new_free_list_inner_6;
+      return_value_GC_new_free_list_inner_6=GC_new_free_list_inner();
+      GC_gcjdebugobjfreelist = (char **)return_value_GC_new_free_list_inner_6;
+      unsigned int return_value_GC_new_kind_inner_7;
+      return_value_GC_new_kind_inner_7=GC_new_kind_inner((void **)GC_gcjdebugobjfreelist, (unsigned long int)((1 << 6 | mp_index) << 2 | 2), 0, 1);
+      GC_gcj_debug_kind = (signed int)return_value_GC_new_kind_inner_7;
     }
     do
       if(!(GC_need_to_lock == 0))
@@ -12882,9 +12882,9 @@ extern void GC_init_gcj_malloc(signed int mp_index, void *mp)
 void GC_init_headers(void)
 {
   unsigned int i;
-  char *return_value_GC_scratch_alloc$1;
-  return_value_GC_scratch_alloc$1=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
-  GC_arrays._all_nils = (struct bi *)return_value_GC_scratch_alloc$1;
+  char *return_value_GC_scratch_alloc_1;
+  return_value_GC_scratch_alloc_1=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
+  GC_arrays._all_nils = (struct bi *)return_value_GC_scratch_alloc_1;
   if(GC_arrays._all_nils == ((struct bi *)NULL))
   {
     GC_err_printf("Insufficient memory for GC_all_nils\n");
@@ -12918,19 +12918,19 @@ void GC_init_parallel(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
 
     while((_Bool)0);
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    struct GC_Thread_Rep *return_value_GC_lookup_thread$3;
-    return_value_GC_lookup_thread$3=GC_lookup_thread(return_value_pthread_self$2);
-    GC_init_thread_local(&return_value_GC_lookup_thread$3->tlfs);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    struct GC_Thread_Rep *return_value_GC_lookup_thread_3;
+    return_value_GC_lookup_thread_3=GC_lookup_thread(return_value_pthread_self_2);
+    GC_init_thread_local(&return_value_GC_lookup_thread_3->tlfs);
     do
       if(!(GC_need_to_lock == 0))
         pthread_mutex_unlock(&GC_allocate_ml);
@@ -13025,7 +13025,7 @@ void * GC_inner_start_routine(struct GC_stack_base *sb, void *arg)
   void *result;
   struct GC_Thread_Rep * volatile me;
   me=GC_start_rtn_prepare_thread(&start, &start_arg, sb, arg);
-  struct anonymous$26 __cancel_buf;
+  struct anonymous_26 __cancel_buf;
   void (*__cancel_routine)(void *) = GC_thread_exit_proc;
   void *__cancel_arg = (void *)me;
   signed int __not_first_call;
@@ -13053,15 +13053,15 @@ signed int GC_install_counts(struct hblk *h, unsigned long int sz)
   hbp = h;
   for( ; !((unsigned long int)hbp >= sz + (unsigned long int)h); hbp = hbp + (signed long int)(1 << 10))
   {
-    signed int return_value_get_index$1;
-    return_value_get_index$1=get_index((unsigned long int)hbp);
-    if(return_value_get_index$1 == 0)
+    signed int return_value_get_index_1;
+    return_value_get_index_1=get_index((unsigned long int)hbp);
+    if(return_value_get_index_1 == 0)
       return 0;
 
   }
-  signed int return_value_get_index$2;
-  return_value_get_index$2=get_index(((unsigned long int)h + sz) - (unsigned long int)1);
-  if(return_value_get_index$2 == 0)
+  signed int return_value_get_index_2;
+  return_value_get_index_2=get_index(((unsigned long int)h + sz) - (unsigned long int)1);
+  if(return_value_get_index_2 == 0)
     return 0;
 
   else
@@ -13103,9 +13103,9 @@ signed int GC_install_counts(struct hblk *h, unsigned long int sz)
 struct hblkhdr * GC_install_header(struct hblk *h)
 {
   struct hblkhdr *result;
-  signed int return_value_get_index$1;
-  return_value_get_index$1=get_index((unsigned long int)h);
-  if(return_value_get_index$1 == 0)
+  signed int return_value_get_index_1;
+  return_value_get_index_1=get_index((unsigned long int)h);
+  if(return_value_get_index_1 == 0)
     return ((struct hblkhdr *)NULL);
 
   else
@@ -13160,9 +13160,9 @@ extern signed int GC_invoke_finalizers(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -13195,9 +13195,9 @@ extern signed int GC_invoke_finalizers(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$2;
-        return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$2 == 0))
+        signed int return_value_pthread_mutex_trylock_2;
+        return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_2 == 0))
           GC_lock();
 
       }
@@ -13223,13 +13223,13 @@ struct hblk * GC_is_black_listed(struct hblk *h, unsigned long int len)
   unsigned long int nblocks;
   if(GC_all_interior_pointers == 0)
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!((1ul & GC_old_normal_bl[(signed long int)(index >> 6ul)] >> (63ul & index)) == 0ul))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (GC_incomplete_normal_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (GC_incomplete_normal_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return h + (signed long int)1;
 
   }
@@ -13238,24 +13238,24 @@ struct hblk * GC_is_black_listed(struct hblk *h, unsigned long int len)
   i = (unsigned long int)0;
   do
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(GC_old_stack_bl[(signed long int)(index >> 6ul)] == 0ul)
-      tmp_if_expr$3 = GC_incomplete_stack_bl[(signed long int)(index >> (unsigned long int)6)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = GC_incomplete_stack_bl[(signed long int)(index >> (unsigned long int)6)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
       i = i + ((unsigned long int)64 - (index & (unsigned long int)0x3f));
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((1ul & GC_old_stack_bl[(signed long int)(index >> 6ul)] >> (63ul & index)) == 0ul))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (GC_incomplete_stack_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (GC_incomplete_stack_bl[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return h + (signed long int)i + (signed long int)1;
 
       i = i + 1ul;
@@ -13337,13 +13337,13 @@ extern void * GC_is_valid_displacement(void *p)
       sz = hhdr->hb_sz;
       pdispl = (unsigned long int)p & (unsigned long int)(1 << 12) - (unsigned long int)1;
       offset = pdispl % sz;
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(sz >= 2049ul && (unsigned long int)p >= sz + (unsigned long int)h)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(GC_arrays._valid_offsets[(signed long int)offset] != 0) ? (_Bool)1 : (_Bool)0;
-      if(!((unsigned long int)(h + 1l) >= sz + (unsigned long int)p + -offset) || tmp_if_expr$1)
+        tmp_if_expr_1 = !(GC_arrays._valid_offsets[(signed long int)offset] != 0) ? (_Bool)1 : (_Bool)0;
+      if(!((unsigned long int)(h + 1l) >= sz + (unsigned long int)p + -offset) || tmp_if_expr_1)
         goto fail;
 
       return p;
@@ -13365,23 +13365,23 @@ extern void * GC_is_valid_displacement(void *p)
 extern void * GC_is_visible(void *p)
 {
   struct hblkhdr *hhdr;
-  void *return_value_GC_base$1;
+  void *return_value_GC_base_1;
   if((7ul & (unsigned long int)p) == 0ul)
   {
     if((signed long int)GC_is_initialized == 0l)
       GC_init();
 
     hhdr=GC_find_header((char *)(unsigned long int)p);
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(hhdr == ((struct hblkhdr *)NULL)))
     {
-      return_value_GC_base$1=GC_base(p);
-      tmp_if_expr$2 = return_value_GC_base$1 == NULL ? (_Bool)1 : (_Bool)0;
+      return_value_GC_base_1=GC_base(p);
+      tmp_if_expr_2 = return_value_GC_base_1 == NULL ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       goto fail;
 
     else
@@ -13405,11 +13405,11 @@ char * GC_linux_main_stack_base(void)
   signed int i;
   signed int buf_offset = 0;
   signed int len;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  signed int tmp_post$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  signed int tmp_post$5;
-  const unsigned short int **return_value___ctype_b_loc$6;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  signed int tmp_post_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  signed int tmp_post_5;
+  const unsigned short int **return_value___ctype_b_loc_6;
   if(!(__libc_stack_end == ((char *)NULL)))
     return __libc_stack_end;
 
@@ -13422,45 +13422,45 @@ char * GC_linux_main_stack_base(void)
       abort();
     }
 
-    signed long int return_value_read$1;
-    return_value_read$1=read(f, (void *)stat_buf, (unsigned long int)4096);
-    len = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(f, (void *)stat_buf, (unsigned long int)4096);
+    len = (signed int)return_value_read_1;
     close(f);
     i = 0;
     for( ; !(i >= 27); i = i + 1)
     {
       while(!(buf_offset >= len))
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        tmp_post$3 = buf_offset;
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        tmp_post_3 = buf_offset;
         buf_offset = buf_offset + 1;
-        if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)stat_buf[(signed long int)tmp_post$3]]) == 0)
+        if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)stat_buf[(signed long int)tmp_post_3]]) == 0)
           break;
 
       }
       while(!(buf_offset >= len))
       {
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        tmp_post$5 = buf_offset;
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        tmp_post_5 = buf_offset;
         buf_offset = buf_offset + 1;
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)stat_buf[(signed long int)tmp_post$5]]) == 0))
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)stat_buf[(signed long int)tmp_post_5]]) == 0))
           break;
 
       }
     }
     for( ; !(buf_offset >= len); buf_offset = buf_offset + 1)
     {
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)stat_buf[(signed long int)buf_offset]]) == 0)
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)stat_buf[(signed long int)buf_offset]]) == 0)
         break;
 
     }
     i = 0;
     for( ; !(buf_offset + i >= len); i = i + 1)
     {
-      const unsigned short int **return_value___ctype_b_loc$7;
-      return_value___ctype_b_loc$7=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)stat_buf[(signed long int)(buf_offset + i)]]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_7;
+      return_value___ctype_b_loc_7=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)stat_buf[(signed long int)(buf_offset + i)]]) == 0)
         break;
 
     }
@@ -13471,9 +13471,9 @@ char * GC_linux_main_stack_base(void)
     }
 
     stat_buf[(signed long int)(buf_offset + i)] = (char)0;
-    unsigned long int return_value_strtoul$8;
-    return_value_strtoul$8=strtoul(&stat_buf[(signed long int)buf_offset], (char ** restrict )(void *)0, 10);
-    result = (unsigned long int)return_value_strtoul$8;
+    unsigned long int return_value_strtoul_8;
+    return_value_strtoul_8=strtoul(&stat_buf[(signed long int)buf_offset], (char ** restrict )(void *)0, 10);
+    result = (unsigned long int)return_value_strtoul_8;
     if(!((7ul & result) == 0ul) || !(result >= 1048576ul))
     {
       GC_on_abort("Absurd stack bottom value");
@@ -13514,11 +13514,11 @@ extern void GC_log_printf(const char *format, ...)
 
   }
   while((_Bool)0);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  signed int return_value_GC_write$2;
-  return_value_GC_write$2=GC_write(GC_log, buf, return_value_strlen$1);
-  if(!(return_value_GC_write$2 >= 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  signed int return_value_GC_write_2;
+  return_value_GC_write_2=GC_write(GC_log, buf, return_value_strlen_1);
+  if(!(return_value_GC_write_2 >= 0))
   {
     GC_on_abort("write to GC log failed");
     abort();
@@ -13544,9 +13544,9 @@ struct GC_Thread_Rep * GC_lookup_thread(unsigned long int id)
 signed int GC_make_array_descriptor(unsigned long int nelements, unsigned long int size, unsigned long int descriptor, unsigned long int *simple_d, union ComplexDescriptor **complex_d, struct LeafDescriptor *leaf)
 {
   struct LeafDescriptor *beginning;
-  void *return_value_GC_malloc_atomic$3;
-  struct LeafDescriptor *GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning;
-  void *return_value_GC_malloc_atomic$4;
+  void *return_value_GC_malloc_atomic_3;
+  struct LeafDescriptor *GC_make_array_descriptor__1__3__2__1__2__beginning;
+  void *return_value_GC_malloc_atomic_4;
   if((3ul & descriptor) == 0ul)
   {
     if(descriptor == size)
@@ -13590,18 +13590,18 @@ signed int GC_make_array_descriptor(unsigned long int nelements, unsigned long i
       if((7ul & size) == 0ul && !((3ul & descriptor) == 2ul) && !(size >= 32ul))
       {
         signed int result;
-        unsigned long int return_value_GC_double_descr$1;
-        return_value_GC_double_descr$1=GC_double_descr(descriptor, size >> 3);
-        result=GC_make_array_descriptor(nelements / (unsigned long int)2, (unsigned long int)2 * size, return_value_GC_double_descr$1, simple_d, complex_d, leaf);
+        unsigned long int return_value_GC_double_descr_1;
+        return_value_GC_double_descr_1=GC_double_descr(descriptor, size >> 3);
+        result=GC_make_array_descriptor(nelements / (unsigned long int)2, (unsigned long int)2 * size, return_value_GC_double_descr_1, simple_d, complex_d, leaf);
         if((1ul & nelements) == 0ul)
           return result;
 
         else
         {
           struct LeafDescriptor *one_element;
-          void *return_value_GC_malloc_atomic$2;
-          return_value_GC_malloc_atomic$2=GC_malloc_atomic(sizeof(struct LeafDescriptor) /*32ul*/ );
-          one_element = (struct LeafDescriptor *)return_value_GC_malloc_atomic$2;
+          void *return_value_GC_malloc_atomic_2;
+          return_value_GC_malloc_atomic_2=GC_malloc_atomic(sizeof(struct LeafDescriptor) /*32ul*/ );
+          one_element = (struct LeafDescriptor *)return_value_GC_malloc_atomic_2;
           if(one_element == ((struct LeafDescriptor *)NULL) || result == -1)
             return -1;
 
@@ -13613,8 +13613,8 @@ signed int GC_make_array_descriptor(unsigned long int nelements, unsigned long i
           {
             case 0:
             {
-              return_value_GC_malloc_atomic$3=GC_malloc_atomic(sizeof(struct LeafDescriptor) /*32ul*/ );
-              beginning = (struct LeafDescriptor *)return_value_GC_malloc_atomic$3;
+              return_value_GC_malloc_atomic_3=GC_malloc_atomic(sizeof(struct LeafDescriptor) /*32ul*/ );
+              beginning = (struct LeafDescriptor *)return_value_GC_malloc_atomic_3;
               if(beginning == ((struct LeafDescriptor *)NULL))
                 return -1;
 
@@ -13627,16 +13627,16 @@ signed int GC_make_array_descriptor(unsigned long int nelements, unsigned long i
             }
             case 1:
             {
-              return_value_GC_malloc_atomic$4=GC_malloc_atomic(sizeof(struct LeafDescriptor) /*32ul*/ );
-              GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning = (struct LeafDescriptor *)return_value_GC_malloc_atomic$4;
-              if(GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning == ((struct LeafDescriptor *)NULL))
+              return_value_GC_malloc_atomic_4=GC_malloc_atomic(sizeof(struct LeafDescriptor) /*32ul*/ );
+              GC_make_array_descriptor__1__3__2__1__2__beginning = (struct LeafDescriptor *)return_value_GC_malloc_atomic_4;
+              if(GC_make_array_descriptor__1__3__2__1__2__beginning == ((struct LeafDescriptor *)NULL))
                 return -1;
 
-              GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning->ld_tag = (unsigned long int)1;
-              GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning->ld_size = leaf->ld_size;
-              GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning->ld_nelements = leaf->ld_nelements;
-              GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning->ld_descriptor = leaf->ld_descriptor;
-              *complex_d=GC_make_sequence_descriptor((union ComplexDescriptor *)GC_make_array_descriptor$$1$$3$$2$$1$$2$$beginning, (union ComplexDescriptor *)one_element);
+              GC_make_array_descriptor__1__3__2__1__2__beginning->ld_tag = (unsigned long int)1;
+              GC_make_array_descriptor__1__3__2__1__2__beginning->ld_size = leaf->ld_size;
+              GC_make_array_descriptor__1__3__2__1__2__beginning->ld_nelements = leaf->ld_nelements;
+              GC_make_array_descriptor__1__3__2__1__2__beginning->ld_descriptor = leaf->ld_descriptor;
+              *complex_d=GC_make_sequence_descriptor((union ComplexDescriptor *)GC_make_array_descriptor__1__3__2__1__2__beginning, (union ComplexDescriptor *)one_element);
               break;
             }
             case 2:
@@ -13658,9 +13658,9 @@ signed int GC_make_array_descriptor(unsigned long int nelements, unsigned long i
 void * GC_make_closure(void (*fn)(void *, void *), void *data)
 {
   struct closure *result;
-  void *return_value_GC_malloc$1;
-  return_value_GC_malloc$1=GC_malloc(sizeof(struct closure) /*16ul*/ );
-  result = (struct closure *)return_value_GC_malloc$1;
+  void *return_value_GC_malloc_1;
+  return_value_GC_malloc_1=GC_malloc(sizeof(struct closure) /*16ul*/ );
+  result = (struct closure *)return_value_GC_malloc_1;
   if(!(result == ((struct closure *)NULL)))
   {
     result->cl_fn = fn;
@@ -13741,13 +13741,13 @@ static inline void GC_make_disappearing_links_disappear(struct dl_hashtbl_s *dl_
   char *real_link;
   unsigned long int i;
   unsigned long int dl_size;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(dl_hashtbl->log_size == -1l)
-    tmp_if_expr$1 = 0;
+    tmp_if_expr_1 = 0;
 
   else
-    tmp_if_expr$1 = 1 << dl_hashtbl->log_size;
-  dl_size = (unsigned long int)tmp_if_expr$1;
+    tmp_if_expr_1 = 1 << dl_hashtbl->log_size;
+  dl_size = (unsigned long int)tmp_if_expr_1;
   i = (unsigned long int)0;
   for( ; !(i >= dl_size); i = i + 1ul)
   {
@@ -13757,9 +13757,9 @@ static inline void GC_make_disappearing_links_disappear(struct dl_hashtbl_s *dl_
     {
       real_ptr = (char *)(void *)~((unsigned long int)curr->dl_hidden_obj);
       real_link = (char *)(void *)~((unsigned long int)curr->prolog.hidden_key);
-      signed int return_value_GC_is_marked$2;
-      return_value_GC_is_marked$2=GC_is_marked((const void *)real_ptr);
-      if(return_value_GC_is_marked$2 == 0)
+      signed int return_value_GC_is_marked_2;
+      return_value_GC_is_marked_2=GC_is_marked((const void *)real_ptr);
+      if(return_value_GC_is_marked_2 == 0)
       {
         *((unsigned long int *)real_link) = (unsigned long int)0;
         GC_clear_mark_bit((const void *)curr);
@@ -13783,107 +13783,107 @@ static inline void GC_make_disappearing_links_disappear(struct dl_hashtbl_s *dl_
   }
 }
 
-// GC_make_disappearing_links_disappear$link1
+// GC_make_disappearing_links_disappear_link1
 // file finalize.c line 702
-static inline void GC_make_disappearing_links_disappear$link1(struct dl_hashtbl_s *dl_hashtbl$link1)
+static inline void GC_make_disappearing_links_disappear_link1(struct dl_hashtbl_s *dl_hashtbl_link1)
 {
-  struct disappearing_link *curr$link1;
-  struct disappearing_link *prev$link1;
-  struct disappearing_link *next$link1;
-  char *real_ptr$link1;
-  char *real_link$link1;
-  unsigned long int i$link1;
-  unsigned long int dl_size$link1;
-  signed int tmp_if_expr$1$link1;
-  if(dl_hashtbl$link1->log_size == -1l)
-    tmp_if_expr$1$link1 = 0;
+  struct disappearing_link *curr_link1;
+  struct disappearing_link *prev_link1;
+  struct disappearing_link *next_link1;
+  char *real_ptr_link1;
+  char *real_link_link1;
+  unsigned long int i_link1;
+  unsigned long int dl_size_link1;
+  signed int tmp_if_expr_1_link1;
+  if(dl_hashtbl_link1->log_size == -1l)
+    tmp_if_expr_1_link1 = 0;
 
   else
-    tmp_if_expr$1$link1 = 1 << dl_hashtbl$link1->log_size;
-  dl_size$link1 = (unsigned long int)tmp_if_expr$1$link1;
-  i$link1 = (unsigned long int)0;
-  for( ; !(i$link1 >= dl_size$link1); i$link1 = i$link1 + 1ul)
+    tmp_if_expr_1_link1 = 1 << dl_hashtbl_link1->log_size;
+  dl_size_link1 = (unsigned long int)tmp_if_expr_1_link1;
+  i_link1 = (unsigned long int)0;
+  for( ; !(i_link1 >= dl_size_link1); i_link1 = i_link1 + 1ul)
   {
-    curr$link1 = dl_hashtbl$link1->head[(signed long int)i$link1];
-    prev$link1 = (struct disappearing_link *)(void *)0;
-    while(!(curr$link1 == ((struct disappearing_link *)NULL)))
+    curr_link1 = dl_hashtbl_link1->head[(signed long int)i_link1];
+    prev_link1 = (struct disappearing_link *)(void *)0;
+    while(!(curr_link1 == ((struct disappearing_link *)NULL)))
     {
-      real_ptr$link1 = (char *)(void *)~((unsigned long int)curr$link1->dl_hidden_obj);
-      real_link$link1 = (char *)(void *)~((unsigned long int)curr$link1->prolog.hidden_key);
-      signed int return_value_GC_is_marked$2$link1;
-      return_value_GC_is_marked$2$link1=GC_is_marked((const void *)real_ptr$link1);
-      if(return_value_GC_is_marked$2$link1 == 0)
+      real_ptr_link1 = (char *)(void *)~((unsigned long int)curr_link1->dl_hidden_obj);
+      real_link_link1 = (char *)(void *)~((unsigned long int)curr_link1->prolog.hidden_key);
+      signed int return_value_GC_is_marked_2_link1;
+      return_value_GC_is_marked_2_link1=GC_is_marked((const void *)real_ptr_link1);
+      if(return_value_GC_is_marked_2_link1 == 0)
       {
-        *((unsigned long int *)real_link$link1) = (unsigned long int)0;
-        GC_clear_mark_bit((const void *)curr$link1);
-        next$link1 = (struct disappearing_link *)curr$link1->prolog.next;
-        if(prev$link1 == ((struct disappearing_link *)NULL))
-          dl_hashtbl$link1->head[(signed long int)i$link1] = next$link1;
+        *((unsigned long int *)real_link_link1) = (unsigned long int)0;
+        GC_clear_mark_bit((const void *)curr_link1);
+        next_link1 = (struct disappearing_link *)curr_link1->prolog.next;
+        if(prev_link1 == ((struct disappearing_link *)NULL))
+          dl_hashtbl_link1->head[(signed long int)i_link1] = next_link1;
 
         else
-          prev$link1->prolog.next = (struct hash_chain_entry *)next$link1;
-        GC_clear_mark_bit((const void *)curr$link1);
-        dl_hashtbl$link1->entries = dl_hashtbl$link1->entries - 1ul;
-        curr$link1 = next$link1;
+          prev_link1->prolog.next = (struct hash_chain_entry *)next_link1;
+        GC_clear_mark_bit((const void *)curr_link1);
+        dl_hashtbl_link1->entries = dl_hashtbl_link1->entries - 1ul;
+        curr_link1 = next_link1;
       }
 
       else
       {
-        prev$link1 = curr$link1;
-        curr$link1 = (struct disappearing_link *)curr$link1->prolog.next;
+        prev_link1 = curr_link1;
+        curr_link1 = (struct disappearing_link *)curr_link1->prolog.next;
       }
     }
   }
 }
 
-// GC_make_disappearing_links_disappear$link2
+// GC_make_disappearing_links_disappear_link2
 // file finalize.c line 702
-static inline void GC_make_disappearing_links_disappear$link2(struct dl_hashtbl_s *dl_hashtbl$link2)
+static inline void GC_make_disappearing_links_disappear_link2(struct dl_hashtbl_s *dl_hashtbl_link2)
 {
-  struct disappearing_link *curr$link2;
-  struct disappearing_link *prev$link2;
-  struct disappearing_link *next$link2;
-  char *real_ptr$link2;
-  char *real_link$link2;
-  unsigned long int i$link2;
-  unsigned long int dl_size$link2;
-  signed int tmp_if_expr$1$link2;
-  if(dl_hashtbl$link2->log_size == -1l)
-    tmp_if_expr$1$link2 = 0;
+  struct disappearing_link *curr_link2;
+  struct disappearing_link *prev_link2;
+  struct disappearing_link *next_link2;
+  char *real_ptr_link2;
+  char *real_link_link2;
+  unsigned long int i_link2;
+  unsigned long int dl_size_link2;
+  signed int tmp_if_expr_1_link2;
+  if(dl_hashtbl_link2->log_size == -1l)
+    tmp_if_expr_1_link2 = 0;
 
   else
-    tmp_if_expr$1$link2 = 1 << dl_hashtbl$link2->log_size;
-  dl_size$link2 = (unsigned long int)tmp_if_expr$1$link2;
-  i$link2 = (unsigned long int)0;
-  for( ; !(i$link2 >= dl_size$link2); i$link2 = i$link2 + 1ul)
+    tmp_if_expr_1_link2 = 1 << dl_hashtbl_link2->log_size;
+  dl_size_link2 = (unsigned long int)tmp_if_expr_1_link2;
+  i_link2 = (unsigned long int)0;
+  for( ; !(i_link2 >= dl_size_link2); i_link2 = i_link2 + 1ul)
   {
-    curr$link2 = dl_hashtbl$link2->head[(signed long int)i$link2];
-    prev$link2 = (struct disappearing_link *)(void *)0;
-    while(!(curr$link2 == ((struct disappearing_link *)NULL)))
+    curr_link2 = dl_hashtbl_link2->head[(signed long int)i_link2];
+    prev_link2 = (struct disappearing_link *)(void *)0;
+    while(!(curr_link2 == ((struct disappearing_link *)NULL)))
     {
-      real_ptr$link2 = (char *)(void *)~((unsigned long int)curr$link2->dl_hidden_obj);
-      real_link$link2 = (char *)(void *)~((unsigned long int)curr$link2->prolog.hidden_key);
-      signed int return_value_GC_is_marked$2$link2;
-      return_value_GC_is_marked$2$link2=GC_is_marked((const void *)real_ptr$link2);
-      if(return_value_GC_is_marked$2$link2 == 0)
+      real_ptr_link2 = (char *)(void *)~((unsigned long int)curr_link2->dl_hidden_obj);
+      real_link_link2 = (char *)(void *)~((unsigned long int)curr_link2->prolog.hidden_key);
+      signed int return_value_GC_is_marked_2_link2;
+      return_value_GC_is_marked_2_link2=GC_is_marked((const void *)real_ptr_link2);
+      if(return_value_GC_is_marked_2_link2 == 0)
       {
-        *((unsigned long int *)real_link$link2) = (unsigned long int)0;
-        GC_clear_mark_bit((const void *)curr$link2);
-        next$link2 = (struct disappearing_link *)curr$link2->prolog.next;
-        if(prev$link2 == ((struct disappearing_link *)NULL))
-          dl_hashtbl$link2->head[(signed long int)i$link2] = next$link2;
+        *((unsigned long int *)real_link_link2) = (unsigned long int)0;
+        GC_clear_mark_bit((const void *)curr_link2);
+        next_link2 = (struct disappearing_link *)curr_link2->prolog.next;
+        if(prev_link2 == ((struct disappearing_link *)NULL))
+          dl_hashtbl_link2->head[(signed long int)i_link2] = next_link2;
 
         else
-          prev$link2->prolog.next = (struct hash_chain_entry *)next$link2;
-        GC_clear_mark_bit((const void *)curr$link2);
-        dl_hashtbl$link2->entries = dl_hashtbl$link2->entries - 1ul;
-        curr$link2 = next$link2;
+          prev_link2->prolog.next = (struct hash_chain_entry *)next_link2;
+        GC_clear_mark_bit((const void *)curr_link2);
+        dl_hashtbl_link2->entries = dl_hashtbl_link2->entries - 1ul;
+        curr_link2 = next_link2;
       }
 
       else
       {
-        prev$link2 = curr$link2;
-        curr$link2 = (struct disappearing_link *)curr$link2->prolog.next;
+        prev_link2 = curr_link2;
+        curr_link2 = (struct disappearing_link *)curr_link2->prolog.next;
       }
     }
   }
@@ -13894,9 +13894,9 @@ static inline void GC_make_disappearing_links_disappear$link2(struct dl_hashtbl_
 union ComplexDescriptor * GC_make_sequence_descriptor(union ComplexDescriptor *first, union ComplexDescriptor *second)
 {
   struct SequenceDescriptor *result;
-  void *return_value_GC_malloc$1;
-  return_value_GC_malloc$1=GC_malloc(sizeof(struct SequenceDescriptor) /*24ul*/ );
-  result = (struct SequenceDescriptor *)return_value_GC_malloc$1;
+  void *return_value_GC_malloc_1;
+  return_value_GC_malloc_1=GC_malloc(sizeof(struct SequenceDescriptor) /*24ul*/ );
+  result = (struct SequenceDescriptor *)return_value_GC_malloc_1;
   if(!(result == ((struct SequenceDescriptor *)NULL)))
   {
     result->sd_tag = (unsigned long int)3;
@@ -13918,9 +13918,9 @@ extern void * GC_malloc(unsigned long int bytes)
   void *k = GC_thread_key;
   if(k == NULL)
   {
-    void *return_value_GC_core_malloc$1;
-    return_value_GC_core_malloc$1=GC_core_malloc(bytes);
-    return return_value_GC_core_malloc$1;
+    void *return_value_GC_core_malloc_1;
+    return_value_GC_core_malloc_1=GC_core_malloc(bytes);
+    return return_value_GC_core_malloc_1;
   }
 
   tsd = k;
@@ -13949,9 +13949,9 @@ extern void * GC_malloc(unsigned long int bytes)
           my_entry = *my_fl;
           if(my_entry == NULL)
           {
-            void * (*return_value_GC_get_oom_fn$2)(unsigned long int);
-            return_value_GC_get_oom_fn$2=GC_get_oom_fn();
-            result=return_value_GC_get_oom_fn$2(granules * (unsigned long int)16);
+            void * (*return_value_GC_get_oom_fn_2)(unsigned long int);
+            return_value_GC_get_oom_fn_2=GC_get_oom_fn();
+            result=return_value_GC_get_oom_fn_2(granules * (unsigned long int)16);
           }
 
         }
@@ -13979,9 +13979,9 @@ extern void * GC_malloc_atomic(unsigned long int bytes)
   void *k = GC_thread_key;
   if(k == NULL)
   {
-    void *return_value_GC_core_malloc_atomic$1;
-    return_value_GC_core_malloc_atomic$1=GC_core_malloc_atomic(bytes);
-    return return_value_GC_core_malloc_atomic$1;
+    void *return_value_GC_core_malloc_atomic_1;
+    return_value_GC_core_malloc_atomic_1=GC_core_malloc_atomic(bytes);
+    return return_value_GC_core_malloc_atomic_1;
   }
 
   tsd = k;
@@ -14010,9 +14010,9 @@ extern void * GC_malloc_atomic(unsigned long int bytes)
           my_entry = *my_fl;
           if(my_entry == NULL)
           {
-            void * (*return_value_GC_get_oom_fn$2)(unsigned long int);
-            return_value_GC_get_oom_fn$2=GC_get_oom_fn();
-            result=return_value_GC_get_oom_fn$2(granules * (unsigned long int)16);
+            void * (*return_value_GC_get_oom_fn_2)(unsigned long int);
+            return_value_GC_get_oom_fn_2=GC_get_oom_fn();
+            result=return_value_GC_get_oom_fn_2(granules * (unsigned long int)16);
           }
 
         }
@@ -14032,9 +14032,9 @@ extern void * GC_malloc_atomic(unsigned long int bytes)
 // file ./include/private/../gc.h line 745
 extern void * GC_malloc_atomic_ignore_off_page(unsigned long int lb)
 {
-  void *return_value_GC_generic_malloc_ignore_off_page$1;
-  return_value_GC_generic_malloc_ignore_off_page$1=GC_generic_malloc_ignore_off_page(lb, 0);
-  return (void *)return_value_GC_generic_malloc_ignore_off_page$1;
+  void *return_value_GC_generic_malloc_ignore_off_page_1;
+  return_value_GC_generic_malloc_ignore_off_page_1=GC_generic_malloc_ignore_off_page(lb, 0);
+  return (void *)return_value_GC_generic_malloc_ignore_off_page_1;
 }
 
 // GC_malloc_atomic_uncollectable
@@ -14054,9 +14054,9 @@ extern void * GC_malloc_atomic_uncollectable(unsigned long int lb)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -14083,9 +14083,9 @@ extern void * GC_malloc_atomic_uncollectable(unsigned long int lb)
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc$2;
-      return_value_GC_generic_malloc$2=GC_generic_malloc(lb, 3);
-      op = (void *)(char *)return_value_GC_generic_malloc$2;
+      void *return_value_GC_generic_malloc_2;
+      return_value_GC_generic_malloc_2=GC_generic_malloc(lb, 3);
+      op = (void *)(char *)return_value_GC_generic_malloc_2;
     }
     return (void *)op;
   }
@@ -14093,9 +14093,9 @@ extern void * GC_malloc_atomic_uncollectable(unsigned long int lb)
   else
   {
     struct hblkhdr *hhdr;
-    void *return_value_GC_generic_malloc$3;
-    return_value_GC_generic_malloc$3=GC_generic_malloc(lb, 3);
-    op = (void *)(char *)return_value_GC_generic_malloc$3;
+    void *return_value_GC_generic_malloc_3;
+    return_value_GC_generic_malloc_3=GC_generic_malloc(lb, 3);
+    op = (void *)(char *)return_value_GC_generic_malloc_3;
     if(op == NULL)
       return NULL;
 
@@ -14103,9 +14103,9 @@ extern void * GC_malloc_atomic_uncollectable(unsigned long int lb)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$4;
-        return_value_pthread_mutex_trylock$4=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$4 == 0))
+        signed int return_value_pthread_mutex_trylock_4;
+        return_value_pthread_mutex_trylock_4=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_4 == 0))
           GC_lock();
 
       }
@@ -14137,9 +14137,9 @@ extern void * GC_malloc_explicitly_typed(unsigned long int lb, unsigned long int
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -14153,11 +14153,11 @@ extern void * GC_malloc_explicitly_typed(unsigned long int lb, unsigned long int
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc$2;
-      return_value_GC_generic_malloc$2=GC_generic_malloc((unsigned long int)lb, GC_explicit_kind);
-      void *return_value_GC_clear_stack$3;
-      return_value_GC_clear_stack$3=GC_clear_stack(return_value_GC_generic_malloc$2);
-      op = (char *)return_value_GC_clear_stack$3;
+      void *return_value_GC_generic_malloc_2;
+      return_value_GC_generic_malloc_2=GC_generic_malloc((unsigned long int)lb, GC_explicit_kind);
+      void *return_value_GC_clear_stack_3;
+      return_value_GC_clear_stack_3=GC_clear_stack(return_value_GC_generic_malloc_2);
+      op = (char *)return_value_GC_clear_stack_3;
       if(op == ((char *)NULL))
         return NULL;
 
@@ -14180,16 +14180,16 @@ extern void * GC_malloc_explicitly_typed(unsigned long int lb, unsigned long int
 
   else
   {
-    void *return_value_GC_generic_malloc$4;
-    return_value_GC_generic_malloc$4=GC_generic_malloc((unsigned long int)lb, GC_explicit_kind);
-    void *return_value_GC_clear_stack$5;
-    return_value_GC_clear_stack$5=GC_clear_stack(return_value_GC_generic_malloc$4);
-    op = (char *)return_value_GC_clear_stack$5;
+    void *return_value_GC_generic_malloc_4;
+    return_value_GC_generic_malloc_4=GC_generic_malloc((unsigned long int)lb, GC_explicit_kind);
+    void *return_value_GC_clear_stack_5;
+    return_value_GC_clear_stack_5=GC_clear_stack(return_value_GC_generic_malloc_4);
+    op = (char *)return_value_GC_clear_stack_5;
     if(!(op == ((char *)NULL)))
     {
-      unsigned long int return_value_GC_size$6;
-      return_value_GC_size$6=GC_size((const void *)op);
-      lg = return_value_GC_size$6 >> 4;
+      unsigned long int return_value_GC_size_6;
+      return_value_GC_size_6=GC_size((const void *)op);
+      lg = return_value_GC_size_6 >> 4;
       ((unsigned long int *)op)[(signed long int)((lg << 1) - (unsigned long int)1)] = d;
     }
 
@@ -14212,9 +14212,9 @@ extern void * GC_malloc_explicitly_typed_ignore_off_page(unsigned long int lb, u
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -14228,11 +14228,11 @@ extern void * GC_malloc_explicitly_typed_ignore_off_page(unsigned long int lb, u
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc_ignore_off_page$2;
-      return_value_GC_generic_malloc_ignore_off_page$2=GC_generic_malloc_ignore_off_page(lb, GC_explicit_kind);
-      void *return_value_GC_clear_stack$3;
-      return_value_GC_clear_stack$3=GC_clear_stack(return_value_GC_generic_malloc_ignore_off_page$2);
-      op = (char *)return_value_GC_clear_stack$3;
+      void *return_value_GC_generic_malloc_ignore_off_page_2;
+      return_value_GC_generic_malloc_ignore_off_page_2=GC_generic_malloc_ignore_off_page(lb, GC_explicit_kind);
+      void *return_value_GC_clear_stack_3;
+      return_value_GC_clear_stack_3=GC_clear_stack(return_value_GC_generic_malloc_ignore_off_page_2);
+      op = (char *)return_value_GC_clear_stack_3;
       if(op == ((char *)NULL))
         return NULL;
 
@@ -14255,16 +14255,16 @@ extern void * GC_malloc_explicitly_typed_ignore_off_page(unsigned long int lb, u
 
   else
   {
-    void *return_value_GC_generic_malloc_ignore_off_page$4;
-    return_value_GC_generic_malloc_ignore_off_page$4=GC_generic_malloc_ignore_off_page(lb, GC_explicit_kind);
-    void *return_value_GC_clear_stack$5;
-    return_value_GC_clear_stack$5=GC_clear_stack(return_value_GC_generic_malloc_ignore_off_page$4);
-    op = (char *)return_value_GC_clear_stack$5;
+    void *return_value_GC_generic_malloc_ignore_off_page_4;
+    return_value_GC_generic_malloc_ignore_off_page_4=GC_generic_malloc_ignore_off_page(lb, GC_explicit_kind);
+    void *return_value_GC_clear_stack_5;
+    return_value_GC_clear_stack_5=GC_clear_stack(return_value_GC_generic_malloc_ignore_off_page_4);
+    op = (char *)return_value_GC_clear_stack_5;
     if(!(op == ((char *)NULL)))
     {
-      unsigned long int return_value_GC_size$6;
-      return_value_GC_size$6=GC_size((const void *)op);
-      lg = return_value_GC_size$6 >> 4;
+      unsigned long int return_value_GC_size_6;
+      return_value_GC_size_6=GC_size((const void *)op);
+      lg = return_value_GC_size_6 >> 4;
       ((unsigned long int *)op)[(signed long int)((lg << 1) - (unsigned long int)1)] = d;
     }
 
@@ -14276,9 +14276,9 @@ extern void * GC_malloc_explicitly_typed_ignore_off_page(unsigned long int lb, u
 // file ./include/private/../gc.h line 743
 extern void * GC_malloc_ignore_off_page(unsigned long int lb)
 {
-  void *return_value_GC_generic_malloc_ignore_off_page$1;
-  return_value_GC_generic_malloc_ignore_off_page$1=GC_generic_malloc_ignore_off_page(lb, 1);
-  return (void *)return_value_GC_generic_malloc_ignore_off_page$1;
+  void *return_value_GC_generic_malloc_ignore_off_page_1;
+  return_value_GC_generic_malloc_ignore_off_page_1=GC_generic_malloc_ignore_off_page(lb, 1);
+  return (void *)return_value_GC_generic_malloc_ignore_off_page_1;
 }
 
 // GC_malloc_many
@@ -14294,9 +14294,9 @@ extern void * GC_malloc_many(unsigned long int lb)
 // file stubborn.c line 43
 extern void * GC_malloc_stubborn(unsigned long int lb)
 {
-  void *return_value_GC_malloc$1;
-  return_value_GC_malloc$1=GC_malloc(lb);
-  return return_value_GC_malloc$1;
+  void *return_value_GC_malloc_1;
+  return_value_GC_malloc_1=GC_malloc(lb);
+  return return_value_GC_malloc_1;
 }
 
 // GC_malloc_uncollectable
@@ -14316,9 +14316,9 @@ extern void * GC_malloc_uncollectable(unsigned long int lb)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -14345,9 +14345,9 @@ extern void * GC_malloc_uncollectable(unsigned long int lb)
           pthread_mutex_unlock(&GC_allocate_ml);
 
       while((_Bool)0);
-      void *return_value_GC_generic_malloc$2;
-      return_value_GC_generic_malloc$2=GC_generic_malloc((unsigned long int)lb, 2);
-      op = (void *)(char *)return_value_GC_generic_malloc$2;
+      void *return_value_GC_generic_malloc_2;
+      return_value_GC_generic_malloc_2=GC_generic_malloc((unsigned long int)lb, 2);
+      op = (void *)(char *)return_value_GC_generic_malloc_2;
     }
     return (void *)op;
   }
@@ -14355,9 +14355,9 @@ extern void * GC_malloc_uncollectable(unsigned long int lb)
   else
   {
     struct hblkhdr *hhdr;
-    void *return_value_GC_generic_malloc$3;
-    return_value_GC_generic_malloc$3=GC_generic_malloc((unsigned long int)lb, 2);
-    op = (void *)(char *)return_value_GC_generic_malloc$3;
+    void *return_value_GC_generic_malloc_3;
+    return_value_GC_generic_malloc_3=GC_generic_malloc((unsigned long int)lb, 2);
+    op = (void *)(char *)return_value_GC_generic_malloc_3;
     if(op == NULL)
       return NULL;
 
@@ -14365,9 +14365,9 @@ extern void * GC_malloc_uncollectable(unsigned long int lb)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$4;
-        return_value_pthread_mutex_trylock$4=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$4 == 0))
+        signed int return_value_pthread_mutex_trylock_4;
+        return_value_pthread_mutex_trylock_4=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_4 == 0))
           GC_lock();
 
       }
@@ -14412,32 +14412,32 @@ extern struct GC_ms_entry * GC_mark_and_push(void *obj, struct GC_ms_entry *mark
     hhdr = *_ha;
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  void *return_value_GC_base$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  void *return_value_GC_base_1;
   if(!((unsigned long int)hhdr >= 4096ul))
   {
     if(GC_all_interior_pointers == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_GC_base$1=GC_base(obj);
-      hhdr=GC_find_header((char *)return_value_GC_base$1);
-      tmp_if_expr$2 = (struct hblkhdr *)(void *)0 == hhdr ? (_Bool)1 : (_Bool)0;
+      return_value_GC_base_1=GC_base(obj);
+      hhdr=GC_find_header((char *)return_value_GC_base_1);
+      tmp_if_expr_2 = (struct hblkhdr *)(void *)0 == hhdr ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed long int)(((signed int)hhdr->hb_flags & 4) != 0) != 0l ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (signed long int)(((signed int)hhdr->hb_flags & 4) != 0) != 0l ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     if(!(GC_all_interior_pointers == 0))
       GC_add_to_black_list_stack((unsigned long int)obj);
@@ -14482,8 +14482,8 @@ extern struct GC_ms_entry * GC_mark_and_push(void *obj, struct GC_ms_entry *mark
 
         else
         {
-          unsigned long int GC_mark_and_push$$1$$3$$1$$2$$obj_displ = (gran_offset << 4) + byte_offset;
-          if(GC_arrays._valid_offsets[(signed long int)GC_mark_and_push$$1$$3$$1$$2$$obj_displ] == 0)
+          unsigned long int GC_mark_and_push__1__3__1__2__obj_displ = (gran_offset << 4) + byte_offset;
+          if(GC_arrays._valid_offsets[(signed long int)GC_mark_and_push__1__3__1__2__obj_displ] == 0)
           {
             if(!(GC_all_interior_pointers == 0))
               GC_add_to_black_list_stack((unsigned long int)obj);
@@ -14494,7 +14494,7 @@ extern struct GC_ms_entry * GC_mark_and_push(void *obj, struct GC_ms_entry *mark
           }
 
           gran_displ = gran_displ - gran_offset;
-          base = base - (signed long int)GC_mark_and_push$$1$$3$$1$$2$$obj_displ;
+          base = base - (signed long int)GC_mark_and_push__1__3__1__2__obj_displ;
         }
       }
 
@@ -14507,9 +14507,9 @@ extern struct GC_ms_entry * GC_mark_and_push(void *obj, struct GC_ms_entry *mark
         *mark_byte_addr = (char)1;
       }
       while((_Bool)0);
-      unsigned long int return_value_AO_load$5;
-      return_value_AO_load$5=AO_load$link1(&hhdr->hb_n_marks);
-      AO_store(&hhdr->hb_n_marks, return_value_AO_load$5 + (unsigned long int)1);
+      unsigned long int return_value_AO_load_5;
+      return_value_AO_load_5=AO_load_link1(&hhdr->hb_n_marks);
+      AO_store(&hhdr->hb_n_marks, return_value_AO_load_5 + (unsigned long int)1);
       do
       {
         unsigned long int _descr = hhdr->hb_descr;
@@ -14567,9 +14567,9 @@ void GC_mark_and_push_stack(char *p)
   {
     if(!(hhdr == ((struct hblkhdr *)NULL)))
     {
-      void *return_value_GC_base$1;
-      return_value_GC_base$1=GC_base((void *)p);
-      r = (char *)return_value_GC_base$1;
+      void *return_value_GC_base_1;
+      return_value_GC_base_1=GC_base((void *)p);
+      r = (char *)return_value_GC_base_1;
       hhdr=GC_find_header((char *)r);
     }
 
@@ -14613,9 +14613,9 @@ void GC_mark_and_push_stack(char *p)
 
           else
           {
-            unsigned long int GC_mark_and_push_stack$$1$$4$$1$$2$$obj_displ = (gran_offset << 4) + byte_offset;
+            unsigned long int GC_mark_and_push_stack__1__4__1__2__obj_displ = (gran_offset << 4) + byte_offset;
             gran_displ = gran_displ - gran_offset;
-            base = base - (signed long int)GC_mark_and_push_stack$$1$$4$$1$$2$$obj_displ;
+            base = base - (signed long int)GC_mark_and_push_stack__1__4__1__2__obj_displ;
           }
         }
 
@@ -14628,9 +14628,9 @@ void GC_mark_and_push_stack(char *p)
           *mark_byte_addr = (char)1;
         }
         while((_Bool)0);
-        unsigned long int return_value_AO_load$2;
-        return_value_AO_load$2=AO_load$link1(&hhdr->hb_n_marks);
-        AO_store(&hhdr->hb_n_marks, return_value_AO_load$2 + (unsigned long int)1);
+        unsigned long int return_value_AO_load_2;
+        return_value_AO_load_2=AO_load_link1(&hhdr->hb_n_marks);
+        AO_store(&hhdr->hb_n_marks, return_value_AO_load_2 + (unsigned long int)1);
         do
         {
           unsigned long int _descr = hhdr->hb_descr;
@@ -14726,17 +14726,17 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
           if(current >= (unsigned long int)least_ha && !(current >= (unsigned long int)greatest_ha))
             do
             {
-              struct hblkhdr *GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr;
+              struct hblkhdr *GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr;
               do
               {
-                struct hce *GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$1$$hce = hdr_cache + (signed long int)((unsigned long int)(char *)current >> (unsigned long int)12 & (unsigned long int)(8 - 1));
-                if(GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$1$$hce->block_addr == current >> 12ul)
-                  GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr = GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$1$$hce->hce_hdr;
+                struct hce *GC_mark_from__1__1__1__1__2__1__1__1__1__hce = hdr_cache + (signed long int)((unsigned long int)(char *)current >> (unsigned long int)12 & (unsigned long int)(8 - 1));
+                if(GC_mark_from__1__1__1__1__2__1__1__1__1__hce->block_addr == current >> 12ul)
+                  GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr = GC_mark_from__1__1__1__1__2__1__1__1__1__hce->hce_hdr;
 
                 else
                 {
-                  GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr=GC_header_cache_miss((char *)current, GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$1$$hce);
-                  if(GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr == ((struct hblkhdr *)NULL))
+                  GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr=GC_header_cache_miss((char *)current, GC_mark_from__1__1__1__1__2__1__1__1__1__hce);
+                  if(GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr == ((struct hblkhdr *)NULL))
                     goto exit1;
 
                 }
@@ -14744,21 +14744,21 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
               while((_Bool)0);
               do
               {
-                unsigned long int GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$displ = (unsigned long int)(char *)current & (unsigned long int)(1 << 12) - (unsigned long int)1;
-                unsigned long int GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_displ = GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$displ >> 4;
-                unsigned long int GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_offset = (unsigned long int)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr->hb_map[(signed long int)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_displ];
-                unsigned long int GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$byte_offset = GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$displ & (unsigned long int)(16 - 1);
-                char *GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$base = (char *)current;
-                if(!((GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$byte_offset | GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_offset) == 0ul))
+                unsigned long int GC_mark_from__1__1__1__1__2__1__1__1__2__displ = (unsigned long int)(char *)current & (unsigned long int)(1 << 12) - (unsigned long int)1;
+                unsigned long int GC_mark_from__1__1__1__1__2__1__1__1__2__gran_displ = GC_mark_from__1__1__1__1__2__1__1__1__2__displ >> 4;
+                unsigned long int GC_mark_from__1__1__1__1__2__1__1__1__2__gran_offset = (unsigned long int)GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr->hb_map[(signed long int)GC_mark_from__1__1__1__1__2__1__1__1__2__gran_displ];
+                unsigned long int GC_mark_from__1__1__1__1__2__1__1__1__2__byte_offset = GC_mark_from__1__1__1__1__2__1__1__1__2__displ & (unsigned long int)(16 - 1);
+                char *GC_mark_from__1__1__1__1__2__1__1__1__2__base = (char *)current;
+                if(!((GC_mark_from__1__1__1__1__2__1__1__1__2__byte_offset | GC_mark_from__1__1__1__1__2__1__1__1__2__gran_offset) == 0ul))
                 {
-                  if(!(GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr->hb_large_block == 0))
+                  if(!(GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr->hb_large_block == 0))
                   {
-                    unsigned long int GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$1$$1$$obj_displ;
-                    GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$base = (char *)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr->hb_block;
-                    GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$1$$1$$obj_displ = (unsigned long int)((char *)current - GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$base);
-                    if(GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$1$$1$$obj_displ == GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$displ)
+                    unsigned long int GC_mark_from__1__1__1__1__2__1__1__1__2__1__1__obj_displ;
+                    GC_mark_from__1__1__1__1__2__1__1__1__2__base = (char *)GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr->hb_block;
+                    GC_mark_from__1__1__1__1__2__1__1__1__2__1__1__obj_displ = (unsigned long int)((char *)current - GC_mark_from__1__1__1__1__2__1__1__1__2__base);
+                    if(GC_mark_from__1__1__1__1__2__1__1__1__2__1__1__obj_displ == GC_mark_from__1__1__1__1__2__1__1__1__2__displ)
                     {
-                      if(GC_arrays._valid_offsets[(signed long int)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$1$$1$$obj_displ] == 0)
+                      if(GC_arrays._valid_offsets[(signed long int)GC_mark_from__1__1__1__1__2__1__1__1__2__1__1__obj_displ] == 0)
                       {
                         if(!(GC_all_interior_pointers == 0))
                           GC_add_to_black_list_stack((unsigned long int)(char *)current);
@@ -14770,13 +14770,13 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
 
                     }
 
-                    GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_displ = (unsigned long int)0;
+                    GC_mark_from__1__1__1__1__2__1__1__1__2__gran_displ = (unsigned long int)0;
                   }
 
                   else
                   {
-                    unsigned long int GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$1$$2$$obj_displ = (GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_offset << 4) + GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$byte_offset;
-                    if(GC_arrays._valid_offsets[(signed long int)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$1$$2$$obj_displ] == 0)
+                    unsigned long int GC_mark_from__1__1__1__1__2__1__1__1__2__1__2__obj_displ = (GC_mark_from__1__1__1__1__2__1__1__1__2__gran_offset << 4) + GC_mark_from__1__1__1__1__2__1__1__1__2__byte_offset;
+                    if(GC_arrays._valid_offsets[(signed long int)GC_mark_from__1__1__1__1__2__1__1__1__2__1__2__obj_displ] == 0)
                     {
                       if(!(GC_all_interior_pointers == 0))
                         GC_add_to_black_list_stack((unsigned long int)(char *)current);
@@ -14786,33 +14786,33 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
                       break;
                     }
 
-                    GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_displ = GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_displ - GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_offset;
-                    GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$base = GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$base - (signed long int)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$1$$2$$obj_displ;
+                    GC_mark_from__1__1__1__1__2__1__1__1__2__gran_displ = GC_mark_from__1__1__1__1__2__1__1__1__2__gran_displ - GC_mark_from__1__1__1__1__2__1__1__1__2__gran_offset;
+                    GC_mark_from__1__1__1__1__2__1__1__1__2__base = GC_mark_from__1__1__1__1__2__1__1__1__2__base - (signed long int)GC_mark_from__1__1__1__1__2__1__1__1__2__1__2__obj_displ;
                   }
                 }
 
                 do
                 {
-                  char *GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$2$$mark_byte_addr = (char *)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr->_mark_byte_union._hb_marks + (signed long int)GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$gran_displ;
-                  if(!(*GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$2$$mark_byte_addr == 0))
+                  char *GC_mark_from__1__1__1__1__2__1__1__1__2__2__mark_byte_addr = (char *)GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr->_mark_byte_union._hb_marks + (signed long int)GC_mark_from__1__1__1__1__2__1__1__1__2__gran_displ;
+                  if(!(*GC_mark_from__1__1__1__1__2__1__1__1__2__2__mark_byte_addr == 0))
                     goto exit1;
 
-                  *GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$2$$mark_byte_addr = (char)1;
+                  *GC_mark_from__1__1__1__1__2__1__1__1__2__2__mark_byte_addr = (char)1;
                 }
                 while((_Bool)0);
-                unsigned long int return_value_AO_load$1;
-                return_value_AO_load$1=AO_load$link1(&GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr->hb_n_marks);
-                AO_store(&GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr->hb_n_marks, return_value_AO_load$1 + (unsigned long int)1);
+                unsigned long int return_value_AO_load_1;
+                return_value_AO_load_1=AO_load_link1(&GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr->hb_n_marks);
+                AO_store(&GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr->hb_n_marks, return_value_AO_load_1 + (unsigned long int)1);
                 do
                 {
-                  unsigned long int _descr = GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$my_hhdr->hb_descr;
+                  unsigned long int _descr = GC_mark_from__1__1__1__1__2__1__1__1__my_hhdr->hb_descr;
                   if(!(_descr == 0ul))
                   {
                     mark_stack_top = mark_stack_top + 1l;
                     if((unsigned long int)mark_stack_top >= (unsigned long int)mark_stack_limit)
                       mark_stack_top=GC_signal_mark_stack_overflow(mark_stack_top);
 
-                    mark_stack_top->mse_start = GC_mark_from$$1$$1$$1$$1$$2$$1$$1$$1$$2$$base;
+                    mark_stack_top->mse_start = GC_mark_from__1__1__1__1__2__1__1__1__2__base;
                     mark_stack_top->mse_descr.w = _descr;
                   }
 
@@ -14932,18 +14932,18 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
               unsigned long int displ = (unsigned long int)(char *)current & (unsigned long int)(1 << 12) - (unsigned long int)1;
               unsigned long int gran_displ = displ >> 4;
               unsigned long int gran_offset = (unsigned long int)my_hhdr->hb_map[(signed long int)gran_displ];
-              unsigned long int GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$byte_offset = displ & (unsigned long int)(16 - 1);
-              char *GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$base = (char *)current;
-              if(!((GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$byte_offset | gran_offset) == 0ul))
+              unsigned long int GC_mark_from__1__1__3__2__1__1__2__byte_offset = displ & (unsigned long int)(16 - 1);
+              char *GC_mark_from__1__1__3__2__1__1__2__base = (char *)current;
+              if(!((GC_mark_from__1__1__3__2__1__1__2__byte_offset | gran_offset) == 0ul))
               {
                 if(!(my_hhdr->hb_large_block == 0))
                 {
-                  unsigned long int GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$1$$1$$obj_displ;
-                  GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$base = (char *)my_hhdr->hb_block;
-                  GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$1$$1$$obj_displ = (unsigned long int)((char *)current - GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$base);
-                  if(GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$1$$1$$obj_displ == displ)
+                  unsigned long int GC_mark_from__1__1__3__2__1__1__2__1__1__obj_displ;
+                  GC_mark_from__1__1__3__2__1__1__2__base = (char *)my_hhdr->hb_block;
+                  GC_mark_from__1__1__3__2__1__1__2__1__1__obj_displ = (unsigned long int)((char *)current - GC_mark_from__1__1__3__2__1__1__2__base);
+                  if(GC_mark_from__1__1__3__2__1__1__2__1__1__obj_displ == displ)
                   {
-                    if(GC_arrays._valid_offsets[(signed long int)GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$1$$1$$obj_displ] == 0)
+                    if(GC_arrays._valid_offsets[(signed long int)GC_mark_from__1__1__3__2__1__1__2__1__1__obj_displ] == 0)
                     {
                       if(!(GC_all_interior_pointers == 0))
                         GC_add_to_black_list_stack((unsigned long int)(char *)current);
@@ -14960,8 +14960,8 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
 
                 else
                 {
-                  unsigned long int GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$1$$2$$obj_displ = (gran_offset << 4) + GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$byte_offset;
-                  if(GC_arrays._valid_offsets[(signed long int)GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$1$$2$$obj_displ] == 0)
+                  unsigned long int GC_mark_from__1__1__3__2__1__1__2__1__2__obj_displ = (gran_offset << 4) + GC_mark_from__1__1__3__2__1__1__2__byte_offset;
+                  if(GC_arrays._valid_offsets[(signed long int)GC_mark_from__1__1__3__2__1__1__2__1__2__obj_displ] == 0)
                   {
                     if(!(GC_all_interior_pointers == 0))
                       GC_add_to_black_list_stack((unsigned long int)(char *)current);
@@ -14972,33 +14972,33 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
                   }
 
                   gran_displ = gran_displ - gran_offset;
-                  GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$base = GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$base - (signed long int)GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$1$$2$$obj_displ;
+                  GC_mark_from__1__1__3__2__1__1__2__base = GC_mark_from__1__1__3__2__1__1__2__base - (signed long int)GC_mark_from__1__1__3__2__1__1__2__1__2__obj_displ;
                 }
               }
 
               do
               {
-                char *GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$2$$mark_byte_addr = (char *)my_hhdr->_mark_byte_union._hb_marks + (signed long int)gran_displ;
-                if(!(*GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$2$$mark_byte_addr == 0))
+                char *GC_mark_from__1__1__3__2__1__1__2__2__mark_byte_addr = (char *)my_hhdr->_mark_byte_union._hb_marks + (signed long int)gran_displ;
+                if(!(*GC_mark_from__1__1__3__2__1__1__2__2__mark_byte_addr == 0))
                   goto exit2;
 
-                *GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$2$$mark_byte_addr = (char)1;
+                *GC_mark_from__1__1__3__2__1__1__2__2__mark_byte_addr = (char)1;
               }
               while((_Bool)0);
-              unsigned long int return_value_AO_load$2;
-              return_value_AO_load$2=AO_load$link1(&my_hhdr->hb_n_marks);
-              AO_store(&my_hhdr->hb_n_marks, return_value_AO_load$2 + (unsigned long int)1);
+              unsigned long int return_value_AO_load_2;
+              return_value_AO_load_2=AO_load_link1(&my_hhdr->hb_n_marks);
+              AO_store(&my_hhdr->hb_n_marks, return_value_AO_load_2 + (unsigned long int)1);
               do
               {
-                unsigned long int GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$3$$_descr = my_hhdr->hb_descr;
-                if(!(GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$3$$_descr == 0ul))
+                unsigned long int GC_mark_from__1__1__3__2__1__1__2__3___descr = my_hhdr->hb_descr;
+                if(!(GC_mark_from__1__1__3__2__1__1__2__3___descr == 0ul))
                 {
                   mark_stack_top = mark_stack_top + 1l;
                   if((unsigned long int)mark_stack_top >= (unsigned long int)mark_stack_limit)
                     mark_stack_top=GC_signal_mark_stack_overflow(mark_stack_top);
 
-                  mark_stack_top->mse_start = GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$base;
-                  mark_stack_top->mse_descr.w = GC_mark_from$$1$$1$$3$$2$$1$$1$$2$$3$$_descr;
+                  mark_stack_top->mse_start = GC_mark_from__1__1__3__2__1__1__2__base;
+                  mark_stack_top->mse_descr.w = GC_mark_from__1__1__3__2__1__1__2__3___descr;
                 }
 
               }
@@ -15014,17 +15014,17 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
       }
       do
       {
-        struct hblkhdr *GC_mark_from$$1$$1$$3$$3$$my_hhdr;
+        struct hblkhdr *GC_mark_from__1__1__3__3__my_hhdr;
         do
         {
-          struct hce *GC_mark_from$$1$$1$$3$$3$$1$$hce = hdr_cache + (signed long int)((unsigned long int)(char *)deferred >> (unsigned long int)12 & (unsigned long int)(8 - 1));
-          if(GC_mark_from$$1$$1$$3$$3$$1$$hce->block_addr == deferred >> 12ul)
-            GC_mark_from$$1$$1$$3$$3$$my_hhdr = GC_mark_from$$1$$1$$3$$3$$1$$hce->hce_hdr;
+          struct hce *GC_mark_from__1__1__3__3__1__hce = hdr_cache + (signed long int)((unsigned long int)(char *)deferred >> (unsigned long int)12 & (unsigned long int)(8 - 1));
+          if(GC_mark_from__1__1__3__3__1__hce->block_addr == deferred >> 12ul)
+            GC_mark_from__1__1__3__3__my_hhdr = GC_mark_from__1__1__3__3__1__hce->hce_hdr;
 
           else
           {
-            GC_mark_from$$1$$1$$3$$3$$my_hhdr=GC_header_cache_miss((char *)deferred, GC_mark_from$$1$$1$$3$$3$$1$$hce);
-            if(GC_mark_from$$1$$1$$3$$3$$my_hhdr == ((struct hblkhdr *)NULL))
+            GC_mark_from__1__1__3__3__my_hhdr=GC_header_cache_miss((char *)deferred, GC_mark_from__1__1__3__3__1__hce);
+            if(GC_mark_from__1__1__3__3__my_hhdr == ((struct hblkhdr *)NULL))
               goto exit4;
 
           }
@@ -15032,19 +15032,19 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
         while((_Bool)0);
         do
         {
-          unsigned long int GC_mark_from$$1$$1$$3$$3$$2$$displ = (unsigned long int)(char *)deferred & (unsigned long int)(1 << 12) - (unsigned long int)1;
-          unsigned long int GC_mark_from$$1$$1$$3$$3$$2$$gran_displ = GC_mark_from$$1$$1$$3$$3$$2$$displ >> 4;
-          unsigned long int GC_mark_from$$1$$1$$3$$3$$2$$gran_offset = (unsigned long int)GC_mark_from$$1$$1$$3$$3$$my_hhdr->hb_map[(signed long int)GC_mark_from$$1$$1$$3$$3$$2$$gran_displ];
-          unsigned long int byte_offset = GC_mark_from$$1$$1$$3$$3$$2$$displ & (unsigned long int)(16 - 1);
+          unsigned long int GC_mark_from__1__1__3__3__2__displ = (unsigned long int)(char *)deferred & (unsigned long int)(1 << 12) - (unsigned long int)1;
+          unsigned long int GC_mark_from__1__1__3__3__2__gran_displ = GC_mark_from__1__1__3__3__2__displ >> 4;
+          unsigned long int GC_mark_from__1__1__3__3__2__gran_offset = (unsigned long int)GC_mark_from__1__1__3__3__my_hhdr->hb_map[(signed long int)GC_mark_from__1__1__3__3__2__gran_displ];
+          unsigned long int byte_offset = GC_mark_from__1__1__3__3__2__displ & (unsigned long int)(16 - 1);
           char *base = (char *)deferred;
-          if(!((byte_offset | GC_mark_from$$1$$1$$3$$3$$2$$gran_offset) == 0ul))
+          if(!((byte_offset | GC_mark_from__1__1__3__3__2__gran_offset) == 0ul))
           {
-            if(!(GC_mark_from$$1$$1$$3$$3$$my_hhdr->hb_large_block == 0))
+            if(!(GC_mark_from__1__1__3__3__my_hhdr->hb_large_block == 0))
             {
               unsigned long int obj_displ;
-              base = (char *)GC_mark_from$$1$$1$$3$$3$$my_hhdr->hb_block;
+              base = (char *)GC_mark_from__1__1__3__3__my_hhdr->hb_block;
               obj_displ = (unsigned long int)((char *)deferred - base);
-              if(obj_displ == GC_mark_from$$1$$1$$3$$3$$2$$displ)
+              if(obj_displ == GC_mark_from__1__1__3__3__2__displ)
               {
                 if(GC_arrays._valid_offsets[(signed long int)obj_displ] == 0)
                 {
@@ -15058,13 +15058,13 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
 
               }
 
-              GC_mark_from$$1$$1$$3$$3$$2$$gran_displ = (unsigned long int)0;
+              GC_mark_from__1__1__3__3__2__gran_displ = (unsigned long int)0;
             }
 
             else
             {
-              unsigned long int GC_mark_from$$1$$1$$3$$3$$2$$1$$2$$obj_displ = (GC_mark_from$$1$$1$$3$$3$$2$$gran_offset << 4) + byte_offset;
-              if(GC_arrays._valid_offsets[(signed long int)GC_mark_from$$1$$1$$3$$3$$2$$1$$2$$obj_displ] == 0)
+              unsigned long int GC_mark_from__1__1__3__3__2__1__2__obj_displ = (GC_mark_from__1__1__3__3__2__gran_offset << 4) + byte_offset;
+              if(GC_arrays._valid_offsets[(signed long int)GC_mark_from__1__1__3__3__2__1__2__obj_displ] == 0)
               {
                 if(!(GC_all_interior_pointers == 0))
                   GC_add_to_black_list_stack((unsigned long int)(char *)deferred);
@@ -15074,34 +15074,34 @@ struct GC_ms_entry * GC_mark_from(struct GC_ms_entry *mark_stack_top, struct GC_
                 break;
               }
 
-              GC_mark_from$$1$$1$$3$$3$$2$$gran_displ = GC_mark_from$$1$$1$$3$$3$$2$$gran_displ - GC_mark_from$$1$$1$$3$$3$$2$$gran_offset;
-              base = base - (signed long int)GC_mark_from$$1$$1$$3$$3$$2$$1$$2$$obj_displ;
+              GC_mark_from__1__1__3__3__2__gran_displ = GC_mark_from__1__1__3__3__2__gran_displ - GC_mark_from__1__1__3__3__2__gran_offset;
+              base = base - (signed long int)GC_mark_from__1__1__3__3__2__1__2__obj_displ;
             }
           }
 
           do
           {
-            char *mark_byte_addr = (char *)GC_mark_from$$1$$1$$3$$3$$my_hhdr->_mark_byte_union._hb_marks + (signed long int)GC_mark_from$$1$$1$$3$$3$$2$$gran_displ;
+            char *mark_byte_addr = (char *)GC_mark_from__1__1__3__3__my_hhdr->_mark_byte_union._hb_marks + (signed long int)GC_mark_from__1__1__3__3__2__gran_displ;
             if(!(*mark_byte_addr == 0))
               goto exit4;
 
             *mark_byte_addr = (char)1;
           }
           while((_Bool)0);
-          unsigned long int return_value_AO_load$3;
-          return_value_AO_load$3=AO_load$link1(&GC_mark_from$$1$$1$$3$$3$$my_hhdr->hb_n_marks);
-          AO_store(&GC_mark_from$$1$$1$$3$$3$$my_hhdr->hb_n_marks, return_value_AO_load$3 + (unsigned long int)1);
+          unsigned long int return_value_AO_load_3;
+          return_value_AO_load_3=AO_load_link1(&GC_mark_from__1__1__3__3__my_hhdr->hb_n_marks);
+          AO_store(&GC_mark_from__1__1__3__3__my_hhdr->hb_n_marks, return_value_AO_load_3 + (unsigned long int)1);
           do
           {
-            unsigned long int GC_mark_from$$1$$1$$3$$3$$2$$3$$_descr = GC_mark_from$$1$$1$$3$$3$$my_hhdr->hb_descr;
-            if(!(GC_mark_from$$1$$1$$3$$3$$2$$3$$_descr == 0ul))
+            unsigned long int GC_mark_from__1__1__3__3__2__3___descr = GC_mark_from__1__1__3__3__my_hhdr->hb_descr;
+            if(!(GC_mark_from__1__1__3__3__2__3___descr == 0ul))
             {
               mark_stack_top = mark_stack_top + 1l;
               if((unsigned long int)mark_stack_top >= (unsigned long int)mark_stack_limit)
                 mark_stack_top=GC_signal_mark_stack_overflow(mark_stack_top);
 
               mark_stack_top->mse_start = base;
-              mark_stack_top->mse_descr.w = GC_mark_from$$1$$1$$3$$3$$2$$3$$_descr;
+              mark_stack_top->mse_descr.w = GC_mark_from__1__1__3__3__2__3___descr;
             }
 
           }
@@ -15139,15 +15139,15 @@ void GC_mark_local(struct GC_ms_entry *local_mark_stack, signed int id)
   struct GC_ms_entry *my_first_nonempty;
   GC_acquire_mark_lock();
   GC_active_count = GC_active_count + 1u;
-  unsigned long int return_value_AO_load$1;
-  return_value_AO_load$1=AO_load$link1(&GC_first_nonempty);
-  my_first_nonempty = (struct GC_ms_entry *)return_value_AO_load$1;
+  unsigned long int return_value_AO_load_1;
+  return_value_AO_load_1=AO_load_link1(&GC_first_nonempty);
+  my_first_nonempty = (struct GC_ms_entry *)return_value_AO_load_1;
   if(GC_print_stats == 2)
     GC_log_printf("Starting mark helper %lu\n", (unsigned long int)id);
 
   GC_release_mark_lock();
-  unsigned long int return_value_AO_load$4;
-  unsigned long int return_value_AO_load$5;
+  unsigned long int return_value_AO_load_4;
+  unsigned long int return_value_AO_load_5;
   do
   {
     unsigned long int n_on_stack;
@@ -15155,19 +15155,19 @@ void GC_mark_local(struct GC_ms_entry *local_mark_stack, signed int id)
     struct GC_ms_entry *my_top;
     struct GC_ms_entry *local_top;
     struct GC_ms_entry *global_first_nonempty;
-    unsigned long int return_value_AO_load$2;
-    return_value_AO_load$2=AO_load$link1(&GC_first_nonempty);
-    global_first_nonempty = (struct GC_ms_entry *)return_value_AO_load$2;
+    unsigned long int return_value_AO_load_2;
+    return_value_AO_load_2=AO_load_link1(&GC_first_nonempty);
+    global_first_nonempty = (struct GC_ms_entry *)return_value_AO_load_2;
     if(!((unsigned long int)my_first_nonempty >= (unsigned long int)global_first_nonempty))
       my_first_nonempty = global_first_nonempty;
 
     else
       if(!((unsigned long int)global_first_nonempty >= (unsigned long int)my_first_nonempty))
-        AO_compare_and_swap_full$link1(&GC_first_nonempty, (unsigned long int)global_first_nonempty, (unsigned long int)my_first_nonempty);
+        AO_compare_and_swap_full_link1(&GC_first_nonempty, (unsigned long int)global_first_nonempty, (unsigned long int)my_first_nonempty);
 
-    unsigned long int return_value_AO_load_read$3;
-    return_value_AO_load_read$3=AO_load_read((volatile unsigned long int *)&GC_arrays._mark_stack_top);
-    my_top = (struct GC_ms_entry *)return_value_AO_load_read$3;
+    unsigned long int return_value_AO_load_read_3;
+    return_value_AO_load_read_3=AO_load_read((volatile unsigned long int *)&GC_arrays._mark_stack_top);
+    my_top = (struct GC_ms_entry *)return_value_AO_load_read_3;
     n_on_stack = (unsigned long int)((my_top - my_first_nonempty) + (signed long int)1);
     if(n_on_stack == 0ul)
     {
@@ -15182,16 +15182,16 @@ void GC_mark_local(struct GC_ms_entry *local_mark_stack, signed int id)
 
         while(GC_active_count >= 1u)
         {
-          return_value_AO_load$4=AO_load$link1(&GC_first_nonempty);
-          if((unsigned long int)GC_arrays._mark_stack_top >= return_value_AO_load$4)
+          return_value_AO_load_4=AO_load_link1(&GC_first_nonempty);
+          if((unsigned long int)GC_arrays._mark_stack_top >= return_value_AO_load_4)
             break;
 
           GC_wait_marker();
         }
         if(GC_active_count == 0u)
         {
-          return_value_AO_load$5=AO_load$link1(&GC_first_nonempty);
-          if(!((unsigned long int)GC_arrays._mark_stack_top >= return_value_AO_load$5))
+          return_value_AO_load_5=AO_load_link1(&GC_first_nonempty);
+          if(!((unsigned long int)GC_arrays._mark_stack_top >= return_value_AO_load_5))
           {
             signed int need_to_notify = 0;
             GC_helper_count = GC_helper_count - 1u;
@@ -15446,27 +15446,27 @@ static inline unsigned long int GC_max(unsigned long int x, unsigned long int y)
   return x > y ? x : y;
 }
 
-// GC_max$link1
+// GC_max_link1
 // file alloc.c line 1132
-static inline unsigned long int GC_max$link1(unsigned long int x$link1, unsigned long int y$link1)
+static inline unsigned long int GC_max_link1(unsigned long int x_link1, unsigned long int y_link1)
 {
-  return x$link1 > y$link1 ? x$link1 : y$link1;
+  return x_link1 > y_link1 ? x_link1 : y_link1;
 }
 
-// GC_max$link2
+// GC_max_link2
 // file alloc.c line 1132
-static inline unsigned long int GC_max$link2(unsigned long int x$link2, unsigned long int y$link2)
+static inline unsigned long int GC_max_link2(unsigned long int x_link2, unsigned long int y_link2)
 {
-  return x$link2 > y$link2 ? x$link2 : y$link2;
+  return x_link2 > y_link2 ? x_link2 : y_link2;
 }
 
 // GC_maybe_gc
 // file alloc.c line 351
 void GC_maybe_gc(void)
 {
-  signed int return_value_GC_should_collect$2;
-  return_value_GC_should_collect$2=GC_should_collect();
-  if(!(return_value_GC_should_collect$2 == 0))
+  signed int return_value_GC_should_collect_2;
+  return_value_GC_should_collect_2=GC_should_collect();
+  if(!(return_value_GC_should_collect_2 == 0))
   {
     static signed int n_partial_gcs = 0;
     if(GC_incremental == 0)
@@ -15500,9 +15500,9 @@ void GC_maybe_gc(void)
     if(!(GC_time_limit == 999999ul))
       GC_start_time=clock();
 
-    signed int return_value_GC_stopped_mark$1;
-    return_value_GC_stopped_mark$1=GC_stopped_mark(GC_time_limit == (unsigned long int)999999 ? GC_never_stop_func : GC_timeout_stop_func);
-    if(!(return_value_GC_stopped_mark$1 == 0))
+    signed int return_value_GC_stopped_mark_1;
+    return_value_GC_stopped_mark_1=GC_stopped_mark(GC_time_limit == (unsigned long int)999999 ? GC_never_stop_func : GC_timeout_stop_func);
+    if(!(return_value_GC_stopped_mark_1 == 0))
       GC_finish_collection();
 
     else
@@ -15523,35 +15523,35 @@ extern void * GC_memalign(unsigned long int align, unsigned long int lb)
   unsigned long int new_lb;
   unsigned long int offset;
   char *result;
-  void *return_value_GC_malloc$1;
+  void *return_value_GC_malloc_1;
   if(!(align >= 17ul))
   {
-    return_value_GC_malloc$1=GC_malloc(lb);
-    return return_value_GC_malloc$1;
+    return_value_GC_malloc_1=GC_malloc(lb);
+    return return_value_GC_malloc_1;
   }
 
   if(align >= 2048ul || lb >= 2048ul)
   {
     if(align >= 4097ul)
     {
-      void * (*return_value_GC_get_oom_fn$2)(unsigned long int);
-      return_value_GC_get_oom_fn$2=GC_get_oom_fn();
+      void * (*return_value_GC_get_oom_fn_2)(unsigned long int);
+      return_value_GC_get_oom_fn_2=GC_get_oom_fn();
       void *return_value;
-      return_value=return_value_GC_get_oom_fn$2((unsigned long int)(0x7fffffffffffffffL - (signed long int)1024));
+      return_value=return_value_GC_get_oom_fn_2((unsigned long int)(0x7fffffffffffffffL - (signed long int)1024));
       return return_value;
     }
 
-    void *return_value_GC_malloc$3;
-    return_value_GC_malloc$3=GC_malloc(lb <= (unsigned long int)(1 << 12) ? (unsigned long int)(1 << 12) : lb);
-    return return_value_GC_malloc$3;
+    void *return_value_GC_malloc_3;
+    return_value_GC_malloc_3=GC_malloc(lb <= (unsigned long int)(1 << 12) ? (unsigned long int)(1 << 12) : lb);
+    return return_value_GC_malloc_3;
   }
 
   new_lb = (lb + align) - (unsigned long int)1;
-  void *return_value_GC_malloc$4;
-  return_value_GC_malloc$4=GC_malloc(new_lb);
-  result = (char *)return_value_GC_malloc$4;
+  void *return_value_GC_malloc_4;
+  return_value_GC_malloc_4=GC_malloc(new_lb);
+  result = (char *)return_value_GC_malloc_4;
   offset = (unsigned long int)result % align;
-  void *return_value_GC_malloc$5;
+  void *return_value_GC_malloc_5;
   if(!(offset == 0ul))
   {
     offset = align - offset;
@@ -15559,8 +15559,8 @@ extern void * GC_memalign(unsigned long int align, unsigned long int lb)
     {
       if(offset >= 4096ul)
       {
-        return_value_GC_malloc$5=GC_malloc((unsigned long int)(1 << 12));
-        return return_value_GC_malloc$5;
+        return_value_GC_malloc_5=GC_malloc((unsigned long int)(1 << 12));
+        return return_value_GC_malloc_5;
       }
 
       GC_register_displacement(offset);
@@ -15579,18 +15579,18 @@ static inline unsigned long int GC_min(unsigned long int x, unsigned long int y)
   return x < y ? x : y;
 }
 
-// GC_min$link1
+// GC_min_link1
 // file alloc.c line 1137
-static inline unsigned long int GC_min$link1(unsigned long int x$link1, unsigned long int y$link1)
+static inline unsigned long int GC_min_link1(unsigned long int x_link1, unsigned long int y_link1)
 {
-  return x$link1 < y$link1 ? x$link1 : y$link1;
+  return x_link1 < y_link1 ? x_link1 : y_link1;
 }
 
-// GC_min$link2
+// GC_min_link2
 // file alloc.c line 1137
-static inline unsigned long int GC_min$link2(unsigned long int x$link2, unsigned long int y$link2)
+static inline unsigned long int GC_min_link2(unsigned long int x_link2, unsigned long int y_link2)
 {
-  return x$link2 < y$link2 ? x$link2 : y$link2;
+  return x_link2 < y_link2 ? x_link2 : y_link2;
 }
 
 // GC_move_disappearing_link
@@ -15612,9 +15612,9 @@ extern signed int GC_move_disappearing_link(void **link, void **new_link)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -15699,9 +15699,9 @@ extern signed int GC_move_long_link(void **link, void **new_link)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -15747,17 +15747,17 @@ extern void ** GC_new_free_list(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  void **return_value_GC_new_free_list_inner$2;
-  return_value_GC_new_free_list_inner$2=GC_new_free_list_inner();
-  result = (void *)return_value_GC_new_free_list_inner$2;
+  void **return_value_GC_new_free_list_inner_2;
+  return_value_GC_new_free_list_inner_2=GC_new_free_list_inner();
+  result = (void *)return_value_GC_new_free_list_inner_2;
   do
     if(!(GC_need_to_lock == 0))
       pthread_mutex_unlock(&GC_allocate_ml);
@@ -15792,18 +15792,18 @@ void GC_new_hblk(unsigned long int gran, signed int kind)
     clear = 1;
 
   h=GC_allochblk(gran << 4, kind, (unsigned int)0);
-  struct hblkhdr *return_value_GC_find_header$1;
+  struct hblkhdr *return_value_GC_find_header_1;
   if(!(h == ((struct hblk *)NULL)))
   {
     if((-2 & kind) == 2)
     {
-      return_value_GC_find_header$1=GC_find_header((char *)h);
-      GC_set_hdr_marks(return_value_GC_find_header$1);
+      return_value_GC_find_header_1=GC_find_header((char *)h);
+      GC_set_hdr_marks(return_value_GC_find_header_1);
     }
 
-    char *return_value_GC_build_fl$2;
-    return_value_GC_build_fl$2=GC_build_fl(h, gran << 1, clear, (char *)GC_obj_kinds[(signed long int)kind].ok_freelist[(signed long int)gran]);
-    GC_obj_kinds[(signed long int)kind].ok_freelist[(signed long int)gran] = (void *)return_value_GC_build_fl$2;
+    char *return_value_GC_build_fl_2;
+    return_value_GC_build_fl_2=GC_build_fl(h, gran << 1, clear, (char *)GC_obj_kinds[(signed long int)kind].ok_freelist[(signed long int)gran]);
+    GC_obj_kinds[(signed long int)kind].ok_freelist[(signed long int)gran] = (void *)return_value_GC_build_fl_2;
   }
 
 }
@@ -15816,9 +15816,9 @@ extern unsigned int GC_new_kind(void **fl, unsigned long int descr, signed int a
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -15866,9 +15866,9 @@ extern unsigned int GC_new_proc(struct GC_ms_entry * (*proc)(unsigned long int *
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -15917,9 +15917,9 @@ struct GC_Thread_Rep * GC_new_thread(unsigned long int id)
 
   else
   {
-    void *return_value_GC_generic_malloc_inner$1;
-    return_value_GC_generic_malloc_inner$1=GC_generic_malloc_inner(sizeof(struct GC_Thread_Rep) /*864ul*/ , 1);
-    result = (struct GC_Thread_Rep *)return_value_GC_generic_malloc_inner$1;
+    void *return_value_GC_generic_malloc_inner_1;
+    return_value_GC_generic_malloc_inner_1=GC_generic_malloc_inner(sizeof(struct GC_Thread_Rep) /*864ul*/ , 1);
+    result = (struct GC_Thread_Rep *)return_value_GC_generic_malloc_inner_1;
     if(result == ((struct GC_Thread_Rep *)NULL))
       return ((struct GC_Thread_Rep *)NULL);
 
@@ -15972,10 +15972,10 @@ struct hblk * GC_next_used_block(struct hblk *h)
   while((_Bool)0);
   if(bi == GC_arrays._all_nils)
   {
-    unsigned long int GC_next_used_block$$1$$2$$hi = (unsigned long int)h >> (unsigned long int)10 + (unsigned long int)12;
+    unsigned long int GC_next_used_block__1__2__hi = (unsigned long int)h >> (unsigned long int)10 + (unsigned long int)12;
     bi = GC_all_bottom_indices;
     for( ; !(bi == ((struct bi *)NULL)); bi = bi->asc_link)
-      if(bi->key >= GC_next_used_block$$1$$2$$hi)
+      if(bi->key >= GC_next_used_block__1__2__hi)
         break;
 
     j = (unsigned long int)0;
@@ -16042,9 +16042,9 @@ void GC_normal_finalize_mark_proc(char *p)
 // file ./include/private/gc_priv.h line 2373
 void GC_notify_all_builder(void)
 {
-  signed int return_value_pthread_cond_broadcast$1;
-  return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&builder_cv);
-  if(!(return_value_pthread_cond_broadcast$1 == 0))
+  signed int return_value_pthread_cond_broadcast_1;
+  return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&builder_cv);
+  if(!(return_value_pthread_cond_broadcast_1 == 0))
   {
     GC_on_abort("pthread_cond_broadcast failed");
     abort();
@@ -16056,9 +16056,9 @@ void GC_notify_all_builder(void)
 // file ./include/private/gc_priv.h line 2378
 void GC_notify_all_marker(void)
 {
-  signed int return_value_pthread_cond_broadcast$1;
-  return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&mark_cv);
-  if(!(return_value_pthread_cond_broadcast$1 == 0))
+  signed int return_value_pthread_cond_broadcast_1;
+  return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&mark_cv);
+  if(!(return_value_pthread_cond_broadcast_1 == 0))
   {
     GC_on_abort("pthread_cond_broadcast failed");
     abort();
@@ -16075,18 +16075,18 @@ static inline void GC_notify_full_gc(void)
 
 }
 
-// GC_notify_full_gc$link1
+// GC_notify_full_gc_link1
 // file alloc.c line 334
-static inline void GC_notify_full_gc$link1(void)
+static inline void GC_notify_full_gc_link1(void)
 {
   if(!(GC_start_call_back == ((void (*)(void))NULL)))
     GC_start_call_back();
 
 }
 
-// GC_notify_full_gc$link2
+// GC_notify_full_gc_link2
 // file alloc.c line 334
-static inline void GC_notify_full_gc$link2(void)
+static inline void GC_notify_full_gc_link2(void)
 {
   if(!(GC_start_call_back == ((void (*)(void))NULL)))
     GC_start_call_back();
@@ -16103,9 +16103,9 @@ void GC_notify_or_invoke_finalizers(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -16189,15 +16189,15 @@ unsigned long int GC_number_stack_black_listed(struct hblk *start, struct hblk *
 signed int GC_page_was_dirty(struct hblk *h)
 {
   unsigned long int index = (unsigned long int)h >> (unsigned long int)12 & ((unsigned long int)1 << 18) - (unsigned long int)1;
-  struct hblkhdr *return_value_GC_find_header$1;
-  return_value_GC_find_header$1=GC_find_header((char *)h);
-  _Bool tmp_if_expr$2;
-  if(return_value_GC_find_header$1 == ((struct hblkhdr *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+  struct hblkhdr *return_value_GC_find_header_1;
+  return_value_GC_find_header_1=GC_find_header((char *)h);
+  _Bool tmp_if_expr_2;
+  if(return_value_GC_find_header_1 == ((struct hblkhdr *)NULL))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (GC_arrays._grungy_pages[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (GC_arrays._grungy_pages[(signed long int)(index >> (unsigned long int)6)] >> (index & (unsigned long int)0x3f) & (unsigned long int)1) != 0ul ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_2;
 }
 
 // GC_parse_mem_size_arg
@@ -16209,9 +16209,9 @@ unsigned long int GC_parse_mem_size_arg(const char *str)
   char ch;
   if(!((signed int)*str == 0))
   {
-    unsigned long int return_value_strtoul$1;
-    return_value_strtoul$1=strtoul(str, &endptr, 10);
-    result = (unsigned long int)return_value_strtoul$1;
+    unsigned long int return_value_strtoul_1;
+    return_value_strtoul_1=strtoul(str, &endptr, 10);
+    result = (unsigned long int)return_value_strtoul_1;
     ch = *endptr;
     if(!((signed int)ch == 0))
     {
@@ -16325,10 +16325,10 @@ struct hblk * GC_prev_block(struct hblk *h)
   while((_Bool)0);
   if(bi == GC_arrays._all_nils)
   {
-    unsigned long int GC_prev_block$$1$$2$$hi = (unsigned long int)h >> (unsigned long int)10 + (unsigned long int)12;
+    unsigned long int GC_prev_block__1__2__hi = (unsigned long int)h >> (unsigned long int)10 + (unsigned long int)12;
     bi = GC_all_bottom_indices_end;
     for( ; !(bi == ((struct bi *)NULL)); bi = bi->desc_link)
-      if(GC_prev_block$$1$$2$$hi >= bi->key)
+      if(GC_prev_block__1__2__hi >= bi->key)
         break;
 
     j = (signed long int)((1 << 10) - 1);
@@ -16376,15 +16376,15 @@ void GC_print_all_errors(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  char *return_value_getenv$2;
+  char *return_value_getenv_2;
   static signed int printing_errors = 0;
   if(!(printing_errors == 0))
     do
@@ -16428,8 +16428,8 @@ void GC_print_all_errors(void)
 
     if(!(have_errors == 0))
     {
-      return_value_getenv$2=getenv("GC_ABORT_ON_LEAK");
-      if(!(return_value_getenv$2 == ((char *)NULL)))
+      return_value_getenv_2=getenv("GC_ABORT_ON_LEAK");
+      if(!(return_value_getenv_2 == ((char *)NULL)))
       {
         GC_on_abort("Leaked or smashed objects encountered");
         abort();
@@ -16440,9 +16440,9 @@ void GC_print_all_errors(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$3;
-        return_value_pthread_mutex_trylock$3=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$3 == 0))
+        signed int return_value_pthread_mutex_trylock_3;
+        return_value_pthread_mutex_trylock_3=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_3 == 0))
           GC_lock();
 
       }
@@ -16469,10 +16469,10 @@ void GC_print_all_smashed_proc(void)
     for( ; !(i >= GC_n_smashed); i = i + 1u)
     {
       char *base;
-      void *return_value_GC_base$1;
-      return_value_GC_base$1=GC_base((void *)GC_smashed[(signed long int)i]);
-      base = (char *)return_value_GC_base$1;
-      GC_print_smashed_obj("", base + (signed long int)sizeof(struct anonymous$18) /*32ul*/ , GC_smashed[(signed long int)i]);
+      void *return_value_GC_base_1;
+      return_value_GC_base_1=GC_base((void *)GC_smashed[(signed long int)i]);
+      base = (char *)return_value_GC_base_1;
+      GC_print_smashed_obj("", base + (signed long int)sizeof(struct anonymous_18) /*32ul*/ , GC_smashed[(signed long int)i]);
       GC_smashed[(signed long int)i] = ((char *)NULL);
     }
     GC_n_smashed = (unsigned int)0;
@@ -16489,9 +16489,9 @@ void GC_print_block_descr(struct hblk *h, unsigned long int raw_ps)
   unsigned long int bytes = hhdr->hb_sz;
   struct Print_stats *ps;
   unsigned int n_marks;
-  signed int return_value_GC_n_set_marks$1;
-  return_value_GC_n_set_marks$1=GC_n_set_marks(hhdr);
-  n_marks = (unsigned int)return_value_GC_n_set_marks$1;
+  signed int return_value_GC_n_set_marks_1;
+  return_value_GC_n_set_marks_1=GC_n_set_marks(hhdr);
+  n_marks = (unsigned int)return_value_GC_n_set_marks_1;
   if(!(hhdr->hb_n_marks == (unsigned long int)n_marks))
     GC_printf("(%u:%u,%u!=%u)\n", hhdr->hb_obj_kind, (unsigned int)bytes, (unsigned int)hhdr->hb_n_marks, n_marks);
 
@@ -16553,7 +16553,7 @@ void GC_print_hblkfreelist(void)
   unsigned int i;
   unsigned long int total;
   i = (unsigned int)0;
-  struct hblk *return_value_GC_is_black_listed$2;
+  struct hblk *return_value_GC_is_black_listed_2;
   for( ; !(i >= 61u); i = i + 1u)
   {
     h = GC_hblkfreelist[(signed long int)i];
@@ -16563,18 +16563,18 @@ void GC_print_hblkfreelist(void)
     while(!(h == ((struct hblk *)NULL)))
     {
       hhdr=GC_find_header((char *)h);
-      struct hblk *return_value_GC_is_black_listed$1;
-      return_value_GC_is_black_listed$1=GC_is_black_listed(h, (unsigned long int)(1 << 12));
-      char *tmp_if_expr$3;
-      if(!(return_value_GC_is_black_listed$1 == ((struct hblk *)NULL)))
-        tmp_if_expr$3 = "start";
+      struct hblk *return_value_GC_is_black_listed_1;
+      return_value_GC_is_black_listed_1=GC_is_black_listed(h, (unsigned long int)(1 << 12));
+      char *tmp_if_expr_3;
+      if(!(return_value_GC_is_black_listed_1 == ((struct hblk *)NULL)))
+        tmp_if_expr_3 = "start";
 
       else
       {
-        return_value_GC_is_black_listed$2=GC_is_black_listed(h, hhdr->hb_sz);
-        tmp_if_expr$3 = return_value_GC_is_black_listed$2 != ((struct hblk *)NULL) ? "partially" : "not";
+        return_value_GC_is_black_listed_2=GC_is_black_listed(h, hhdr->hb_sz);
+        tmp_if_expr_3 = return_value_GC_is_black_listed_2 != ((struct hblk *)NULL) ? "partially" : "not";
       }
-      GC_printf("\t%p size %lu %s black listed\n", (void *)h, (unsigned long int)hhdr->hb_sz, tmp_if_expr$3);
+      GC_printf("\t%p size %lu %s black listed\n", (void *)h, (unsigned long int)hhdr->hb_sz, tmp_if_expr_3);
       h = hhdr->hb_next;
     }
   }
@@ -16601,9 +16601,9 @@ void GC_print_heap_sects(void)
     h = (struct hblk *)start;
     for( ; !((unsigned long int)h >= (unsigned long int)(start + (signed long int)len)); h = h + 1l)
     {
-      struct hblk *return_value_GC_is_black_listed$1;
-      return_value_GC_is_black_listed$1=GC_is_black_listed(h, (unsigned long int)(1 << 12));
-      if(!(return_value_GC_is_black_listed$1 == ((struct hblk *)NULL)))
+      struct hblk *return_value_GC_is_black_listed_1;
+      return_value_GC_is_black_listed_1=GC_is_black_listed(h, (unsigned long int)(1 << 12));
+      if(!(return_value_GC_is_black_listed_1 == ((struct hblk *)NULL)))
         nbl = nbl + 1u;
 
     }
@@ -16615,10 +16615,10 @@ void GC_print_heap_sects(void)
 // file dbg_mlc.c line 336
 void GC_print_obj(char *p)
 {
-  struct anonymous$18 *ohdr;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base((void *)p);
-  ohdr = (struct anonymous$18 *)return_value_GC_base$1;
+  struct anonymous_18 *ohdr;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base((void *)p);
+  ohdr = (struct anonymous_18 *)return_value_GC_base_1;
   char *q;
   struct hblkhdr *hhdr;
   signed int kind;
@@ -16627,17 +16627,17 @@ void GC_print_obj(char *p)
   q = (char *)(ohdr + (signed long int)1);
   hhdr=GC_find_header(q);
   kind = (signed int)hhdr->hb_obj_kind;
-  _Bool tmp_if_expr$3;
-  signed int return_value_GC_is_marked$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_GC_is_marked_2;
   if(!(GC_describe_type_fns[(signed long int)kind] == ((void (*)(void *, char *))NULL)))
   {
-    return_value_GC_is_marked$2=GC_is_marked((const void *)ohdr);
-    tmp_if_expr$3 = return_value_GC_is_marked$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_GC_is_marked_2=GC_is_marked((const void *)ohdr);
+    tmp_if_expr_3 = return_value_GC_is_marked_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     buffer[(signed long int)40] = (char)0;
     GC_describe_type_fns[(signed long int)kind]((void *)q, buffer);
@@ -16676,50 +16676,50 @@ void GC_print_obj(char *p)
         kind_str = (char *)(void *)0;
     }
   if(!(kind_str == ((char *)NULL)))
-    GC_err_printf("%p (%s:%d, sz=%lu, %s)\n", (char *)ohdr + (signed long int)sizeof(struct anonymous$18) /*32ul*/ , ohdr->oh_string, (signed int)ohdr->oh_int, (unsigned long int)ohdr->oh_sz, kind_str);
+    GC_err_printf("%p (%s:%d, sz=%lu, %s)\n", (char *)ohdr + (signed long int)sizeof(struct anonymous_18) /*32ul*/ , ohdr->oh_string, (signed int)ohdr->oh_int, (unsigned long int)ohdr->oh_sz, kind_str);
 
   else
-    GC_err_printf("%p (%s:%d, sz=%lu, kind=%d descr=0x%lx)\n", (char *)ohdr + (signed long int)sizeof(struct anonymous$18) /*32ul*/ , ohdr->oh_string, (signed int)ohdr->oh_int, (unsigned long int)ohdr->oh_sz, kind, (unsigned long int)hhdr->hb_descr);
+    GC_err_printf("%p (%s:%d, sz=%lu, kind=%d descr=0x%lx)\n", (char *)ohdr + (signed long int)sizeof(struct anonymous_18) /*32ul*/ , ohdr->oh_string, (signed int)ohdr->oh_int, (unsigned long int)ohdr->oh_sz, kind, (unsigned long int)hhdr->hb_descr);
 }
 
 // GC_print_smashed_obj
 // file dbg_mlc.c line 418
 void GC_print_smashed_obj(const char *msg, char *p, char *clobbered_addr)
 {
-  struct anonymous$18 *ohdr;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base((void *)p);
-  ohdr = (struct anonymous$18 *)return_value_GC_base$1;
-  _Bool tmp_if_expr$5;
+  struct anonymous_18 *ohdr;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base((void *)p);
+  ohdr = (struct anonymous_18 *)return_value_GC_base_1;
+  _Bool tmp_if_expr_5;
   if((unsigned long int)&ohdr->oh_sz >= (unsigned long int)clobbered_addr)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = ohdr->oh_string == ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
-  char *tmp_if_expr$3;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = ohdr->oh_string == ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+  char *tmp_if_expr_3;
+  if(tmp_if_expr_5)
   {
-    unsigned long int return_value_GC_size$2;
-    return_value_GC_size$2=GC_size((const void *)(char *)ohdr);
-    GC_err_printf("%s %p in or near object at %p(<smashed>, appr. sz = %lu)\n", msg, clobbered_addr, p, (unsigned long int)(return_value_GC_size$2 - ((sizeof(struct anonymous$18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers)));
+    unsigned long int return_value_GC_size_2;
+    return_value_GC_size_2=GC_size((const void *)(char *)ohdr);
+    GC_err_printf("%s %p in or near object at %p(<smashed>, appr. sz = %lu)\n", msg, clobbered_addr, p, (unsigned long int)(return_value_GC_size_2 - ((sizeof(struct anonymous_18) /*32ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)GC_all_interior_pointers)));
   }
 
   else
   {
-    char *tmp_if_expr$4;
+    char *tmp_if_expr_4;
     if(!((unsigned long int)ohdr->oh_string >= 4096ul))
-      tmp_if_expr$4 = "(smashed string)";
+      tmp_if_expr_4 = "(smashed string)";
 
     else
     {
       if((signed int)*ohdr->oh_string == 0)
-        tmp_if_expr$3 = "EMPTY(smashed?)";
+        tmp_if_expr_3 = "EMPTY(smashed?)";
 
       else
-        tmp_if_expr$3 = ohdr->oh_string;
-      tmp_if_expr$4 = tmp_if_expr$3;
+        tmp_if_expr_3 = ohdr->oh_string;
+      tmp_if_expr_4 = tmp_if_expr_3;
     }
-    GC_err_printf("%s %p in or near object at %p (%s:%d, sz=%lu)\n", msg, clobbered_addr, p, tmp_if_expr$4, (signed int)ohdr->oh_int, (unsigned long int)ohdr->oh_sz);
+    GC_err_printf("%s %p in or near object at %p (%s:%d, sz=%lu)\n", msg, clobbered_addr, p, tmp_if_expr_4, (signed int)ohdr->oh_int, (unsigned long int)ohdr->oh_sz);
   }
 }
 
@@ -16760,11 +16760,11 @@ extern void GC_printf(const char *format, ...)
 
     }
     while((_Bool)0);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(buf);
-    signed int return_value_GC_write$2;
-    return_value_GC_write$2=GC_write(GC_stdout, buf, return_value_strlen$1);
-    if(!(return_value_GC_write$2 >= 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(buf);
+    signed int return_value_GC_write_2;
+    return_value_GC_write_2=GC_write(GC_stdout, buf, return_value_strlen_1);
+    if(!(return_value_GC_write_2 >= 0))
     {
       GC_on_abort("write to stdout failed");
       abort();
@@ -16814,9 +16814,9 @@ void GC_protect_heap(void)
   struct hblk *limit;
   unsigned int i;
   signed int protect_all;
-  signed int return_value_GC_incremental_protection_needs$1;
-  return_value_GC_incremental_protection_needs$1=GC_incremental_protection_needs();
-  protect_all = (signed int)(0 != (return_value_GC_incremental_protection_needs$1 & 2));
+  signed int return_value_GC_incremental_protection_needs_1;
+  return_value_GC_incremental_protection_needs_1=GC_incremental_protection_needs();
+  protect_all = (signed int)(0 != (return_value_GC_incremental_protection_needs_1 & 2));
   i = (unsigned int)0;
   for( ; !((unsigned long int)i >= GC_n_heap_sects); i = i + 1u)
   {
@@ -16824,9 +16824,9 @@ void GC_protect_heap(void)
     len = GC_arrays._heap_sects[(signed long int)i].hs_bytes;
     if(!(protect_all == 0))
     {
-      signed int return_value_mprotect$2;
-      return_value_mprotect$2=mprotect((void *)(char *)start, (unsigned long int)len, 0x1 | (GC_pages_executable != 0 ? 0x4 : 0));
-      if(!(return_value_mprotect$2 >= 0))
+      signed int return_value_mprotect_2;
+      return_value_mprotect_2=mprotect((void *)(char *)start, (unsigned long int)len, 0x1 | (GC_pages_executable != 0 ? 0x4 : 0));
+      if(!(return_value_mprotect_2 >= 0))
       {
         GC_on_abort("mprotect failed");
         abort();
@@ -16890,9 +16890,9 @@ void GC_protect_heap(void)
           {
             if(!((unsigned long int)current_start >= (unsigned long int)current))
             {
-              signed int return_value_mprotect$3;
-              return_value_mprotect$3=mprotect((void *)(char *)current_start, (unsigned long int)((char *)current - (char *)current_start), 0x1 | (GC_pages_executable != 0 ? 0x4 : 0));
-              if(!(return_value_mprotect$3 >= 0))
+              signed int return_value_mprotect_3;
+              return_value_mprotect_3=mprotect((void *)(char *)current_start, (unsigned long int)((char *)current - (char *)current_start), 0x1 | (GC_pages_executable != 0 ? 0x4 : 0));
+              if(!(return_value_mprotect_3 >= 0))
               {
                 GC_on_abort("mprotect failed");
                 abort();
@@ -16910,9 +16910,9 @@ void GC_protect_heap(void)
       }
       if(!((unsigned long int)current_start >= (unsigned long int)current))
       {
-        signed int return_value_mprotect$4;
-        return_value_mprotect$4=mprotect((void *)(char *)current_start, (unsigned long int)((char *)current - (char *)current_start), 0x1 | (GC_pages_executable != 0 ? 0x4 : 0));
-        if(!(return_value_mprotect$4 >= 0))
+        signed int return_value_mprotect_4;
+        return_value_mprotect_4=mprotect((void *)(char *)current_start, (unsigned long int)((char *)current - (char *)current_start), 0x1 | (GC_pages_executable != 0 ? 0x4 : 0));
+        if(!(return_value_mprotect_4 >= 0))
         {
           GC_on_abort("mprotect failed");
           abort();
@@ -16932,9 +16932,9 @@ extern signed int GC_pthread_cancel(unsigned long int thread)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -16956,9 +16956,9 @@ extern signed int GC_pthread_cancel(unsigned long int thread)
       pthread_mutex_unlock(&GC_allocate_ml);
 
   while((_Bool)0);
-  signed int return_value_pthread_cancel$2;
-  return_value_pthread_cancel$2=pthread_cancel(thread);
-  return return_value_pthread_cancel$2;
+  signed int return_value_pthread_cancel_2;
+  return_value_pthread_cancel_2=pthread_cancel(thread);
+  return return_value_pthread_cancel_2;
 }
 
 // GC_pthread_create
@@ -16972,17 +16972,17 @@ extern signed int GC_pthread_create(unsigned long int *new_thread, const union p
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  void *return_value_GC_generic_malloc_inner$2;
-  return_value_GC_generic_malloc_inner$2=GC_generic_malloc_inner(sizeof(struct start_info) /*56ul*/ , 1);
-  si = (struct start_info *)return_value_GC_generic_malloc_inner$2;
+  void *return_value_GC_generic_malloc_inner_2;
+  return_value_GC_generic_malloc_inner_2=GC_generic_malloc_inner(sizeof(struct start_info) /*56ul*/ , 1);
+  si = (struct start_info *)return_value_GC_generic_malloc_inner_2;
   do
     if(!(GC_need_to_lock == 0))
       pthread_mutex_unlock(&GC_allocate_ml);
@@ -16991,21 +16991,21 @@ extern signed int GC_pthread_create(unsigned long int *new_thread, const union p
   if((signed long int)parallel_initialized == 0l)
     GC_init_parallel();
 
-  void * (*return_value_GC_get_oom_fn$3)(unsigned long int);
+  void * (*return_value_GC_get_oom_fn_3)(unsigned long int);
   void *return_value;
   if(si == ((struct start_info *)NULL))
   {
-    return_value_GC_get_oom_fn$3=GC_get_oom_fn();
-    return_value=return_value_GC_get_oom_fn$3(sizeof(struct start_info) /*56ul*/ );
+    return_value_GC_get_oom_fn_3=GC_get_oom_fn();
+    return_value=return_value_GC_get_oom_fn_3(sizeof(struct start_info) /*56ul*/ );
     si = (struct start_info *)return_value;
     if(si == ((struct start_info *)NULL))
       return 12;
 
   }
 
-  signed int return_value_sem_init$4;
-  return_value_sem_init$4=sem_init(&si->registered, 0, (unsigned int)0);
-  if(!(return_value_sem_init$4 == 0))
+  signed int return_value_sem_init_4;
+  return_value_sem_init_4=sem_init(&si->registered, 0, (unsigned int)0);
+  if(!(return_value_sem_init_4 == 0))
   {
     GC_on_abort("sem_init failed");
     abort();
@@ -17016,9 +17016,9 @@ extern signed int GC_pthread_create(unsigned long int *new_thread, const union p
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$5;
-      return_value_pthread_mutex_trylock$5=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$5 == 0))
+      signed int return_value_pthread_mutex_trylock_5;
+      return_value_pthread_mutex_trylock_5=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_5 == 0))
         GC_lock();
 
     }
@@ -17043,7 +17043,7 @@ extern signed int GC_pthread_create(unsigned long int *new_thread, const union p
   while((_Bool)0);
   GC_need_to_lock = 1;
   result=pthread_create(new_thread, attr, GC_start_routine, (void *)si);
-  signed int return_value_sem_wait$6;
+  signed int return_value_sem_wait_6;
   if(result == 0)
   {
     signed int cancel_state;
@@ -17052,13 +17052,13 @@ extern signed int GC_pthread_create(unsigned long int *new_thread, const union p
     while((_Bool)0);
     do
     {
-      return_value_sem_wait$6=sem_wait(&si->registered);
-      if(return_value_sem_wait$6 == 0)
+      return_value_sem_wait_6=sem_wait(&si->registered);
+      if(return_value_sem_wait_6 == 0)
         break;
 
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      if(!(*return_value___errno_location$7 == 4))
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      if(!(*return_value___errno_location_7 == 4))
       {
         GC_on_abort("sem_wait failed");
         abort();
@@ -17075,9 +17075,9 @@ extern signed int GC_pthread_create(unsigned long int *new_thread, const union p
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$8;
-      return_value_pthread_mutex_trylock$8=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$8 == 0))
+      signed int return_value_pthread_mutex_trylock_8;
+      return_value_pthread_mutex_trylock_8=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_8 == 0))
         GC_lock();
 
     }
@@ -17101,9 +17101,9 @@ extern signed int GC_pthread_detach(unsigned long int thread)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -17121,9 +17121,9 @@ extern signed int GC_pthread_detach(unsigned long int thread)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$2;
-        return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$2 == 0))
+        signed int return_value_pthread_mutex_trylock_2;
+        return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_2 == 0))
           GC_lock();
 
       }
@@ -17153,9 +17153,9 @@ extern void GC_pthread_exit(void *retval)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -17189,9 +17189,9 @@ extern signed int GC_pthread_join(unsigned long int thread, void **retval)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -17209,9 +17209,9 @@ extern signed int GC_pthread_join(unsigned long int thread, void **retval)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$2;
-        return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$2 == 0))
+        signed int return_value_pthread_mutex_trylock_2;
+        return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_2 == 0))
           GC_lock();
 
       }
@@ -17242,9 +17242,9 @@ extern signed int GC_pthread_sigmask(signed int how, const struct anonymous *set
     set = &fudged_set;
   }
 
-  signed int return_value_pthread_sigmask$1;
-  return_value_pthread_sigmask$1=pthread_sigmask(how, set, oset);
-  return return_value_pthread_sigmask$1;
+  signed int return_value_pthread_sigmask_1;
+  return_value_pthread_sigmask_1=pthread_sigmask(how, set, oset);
+  return return_value_pthread_sigmask_1;
 }
 
 // GC_push_all
@@ -17396,13 +17396,13 @@ struct GC_ms_entry * GC_push_complex_descriptor(unsigned long int *addr, union C
   unsigned long int nelements;
   unsigned long int sz;
   unsigned long int i;
-  unsigned long int GC_push_complex_descriptor$$1$$1$$1$$descr;
+  unsigned long int GC_push_complex_descriptor__1__1__1__descr;
   union ComplexDescriptor *descr;
   switch(d->ld.ld_tag)
   {
     case (unsigned long int)1:
     {
-      GC_push_complex_descriptor$$1$$1$$1$$descr = d->ld.ld_descriptor;
+      GC_push_complex_descriptor__1__1__1__descr = d->ld.ld_descriptor;
       nelements = d->ld.ld_nelements;
       if((signed long int)nelements >= msl - msp)
         return ((struct GC_ms_entry *)NULL);
@@ -17413,7 +17413,7 @@ struct GC_ms_entry * GC_push_complex_descriptor(unsigned long int *addr, union C
       {
         msp = msp + 1l;
         msp->mse_start = current;
-        msp->mse_descr.w = GC_push_complex_descriptor$$1$$1$$1$$descr;
+        msp->mse_descr.w = GC_push_complex_descriptor__1__1__1__descr;
         current = current + (signed long int)sz;
       }
       return msp;
@@ -17478,16 +17478,16 @@ void GC_push_conditional_with_exclusions(char *bottom, char *top, signed int all
   for( ; !((unsigned long int)bottom >= (unsigned long int)top); bottom = next->e_end)
   {
     next=GC_next_exclusion(bottom);
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(next == ((struct exclusion *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
     {
       excl_start = next->e_start;
-      tmp_if_expr$1 = (unsigned long int)excl_start >= (unsigned long int)top ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (unsigned long int)excl_start >= (unsigned long int)top ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$1)
+    if(tmp_if_expr_1)
     {
       GC_push_conditional((char *)bottom, (char *)top, all);
       goto __CPROVER_DUMP_L7;
@@ -17508,9 +17508,9 @@ void GC_push_current_stack(char *cold_gc_frame, void *context)
 {
   if(!(cold_gc_frame == ((char *)NULL)))
   {
-    char *return_value_GC_approx_sp$1;
-    return_value_GC_approx_sp$1=GC_approx_sp();
-    GC_push_all_eager(return_value_GC_approx_sp$1, cold_gc_frame);
+    char *return_value_GC_approx_sp_1;
+    return_value_GC_approx_sp_1=GC_approx_sp();
+    GC_push_all_eager(return_value_GC_approx_sp_1, cold_gc_frame);
   }
 
 }
@@ -17549,9 +17549,9 @@ void GC_push_marked(struct hblk *h, struct hblkhdr *hhdr)
   struct GC_ms_entry *mark_stack_limit = GC_arrays._mark_stack_limit;
   if(!(descr == 0ul))
   {
-    signed int return_value_GC_block_empty$1;
-    return_value_GC_block_empty$1=GC_block_empty(hhdr);
-    if(return_value_GC_block_empty$1 == 0)
+    signed int return_value_GC_block_empty_1;
+    return_value_GC_block_empty_1=GC_block_empty(hhdr);
+    if(return_value_GC_block_empty_1 == 0)
     {
       GC_n_rescuing_pages = GC_n_rescuing_pages + 1ul;
       GC_objects_are_marked = 1;
@@ -17597,13 +17597,13 @@ struct hblk * GC_push_next_marked(struct hblk *h)
 {
   struct hblkhdr *hhdr;
   hhdr=GC_find_header((char *)h);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((unsigned long int)hhdr >= 4096ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ((signed int)hhdr->hb_flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ((signed int)hhdr->hb_flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     h=GC_next_used_block(h);
     if(h == ((struct hblk *)NULL))
@@ -17630,13 +17630,13 @@ struct hblk * GC_push_next_marked_dirty(struct hblk *h)
 
   do
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!((unsigned long int)hhdr >= 4096ul))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ((signed int)hhdr->hb_flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = ((signed int)hhdr->hb_flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       h=GC_next_used_block(h);
       if(h == ((struct hblk *)NULL))
@@ -17645,9 +17645,9 @@ struct hblk * GC_push_next_marked_dirty(struct hblk *h)
       hhdr=GC_find_header((char *)h);
     }
 
-    signed int return_value_GC_block_was_dirty$2;
-    return_value_GC_block_was_dirty$2=GC_block_was_dirty(h, hhdr);
-    if(!(return_value_GC_block_was_dirty$2 == 0))
+    signed int return_value_GC_block_was_dirty_2;
+    return_value_GC_block_was_dirty_2=GC_block_was_dirty(h, hhdr);
+    if(!(return_value_GC_block_was_dirty_2 == 0))
       break;
 
     h = h + (signed long int)((hhdr->hb_sz + (unsigned long int)(1 << 12)) - (unsigned long int)1 >> (unsigned long int)12);
@@ -17666,13 +17666,13 @@ struct hblk * GC_push_next_marked_uncollectable(struct hblk *h)
   hhdr=GC_find_header((char *)h);
   do
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!((unsigned long int)hhdr >= 4096ul))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ((signed int)hhdr->hb_flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = ((signed int)hhdr->hb_flags & 4) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       h=GC_next_used_block(h);
       if(h == ((struct hblk *)NULL))
@@ -17884,11 +17884,11 @@ extern void * GC_realloc(void *p, unsigned long int lb)
   unsigned long int sz;
   unsigned long int orig_sz;
   signed int obj_kind;
-  void *return_value_GC_malloc$1;
+  void *return_value_GC_malloc_1;
   if(p == NULL)
   {
-    return_value_GC_malloc$1=GC_malloc(lb);
-    return return_value_GC_malloc$1;
+    return_value_GC_malloc_1=GC_malloc(lb);
+    return return_value_GC_malloc_1;
   }
 
   h = (struct hblk *)((unsigned long int)p & ~((unsigned long int)(1 << 12) - (unsigned long int)1));
@@ -17936,14 +17936,14 @@ extern void * GC_realloc(void *p, unsigned long int lb)
 
   else
   {
-    void *GC_realloc$$1$$3$$result;
-    GC_realloc$$1$$3$$result=GC_generic_or_special_malloc((unsigned long int)lb, obj_kind);
-    if(GC_realloc$$1$$3$$result == NULL)
+    void *GC_realloc__1__3__result;
+    GC_realloc__1__3__result=GC_generic_or_special_malloc((unsigned long int)lb, obj_kind);
+    if(GC_realloc__1__3__result == NULL)
       return NULL;
 
-    memcpy(GC_realloc$$1$$3$$result, p, (unsigned long int)sz);
+    memcpy(GC_realloc__1__3__result, p, (unsigned long int)sz);
     GC_free(p);
-    return GC_realloc$$1$$3$$result;
+    return GC_realloc__1__3__result;
   }
 }
 
@@ -18002,13 +18002,13 @@ signed int GC_reclaim_all(signed int (*stop_func)(void), signed int ignore_old)
 
           hhdr=GC_find_header((char *)hbp);
           *rlh = hhdr->hb_next;
-          _Bool tmp_if_expr$1;
+          _Bool tmp_if_expr_1;
           if(ignore_old == 0)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (unsigned long int)hhdr->hb_last_reclaimed == GC_gc_no - (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (unsigned long int)hhdr->hb_last_reclaimed == GC_gc_no - (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             GC_reclaim_small_nonempty_block(hbp, 0);
 
         }
@@ -18033,9 +18033,9 @@ void GC_reclaim_block(struct hblk *hbp, unsigned long int report_if_found)
   struct hblkhdr *hhdr;
   hhdr=GC_find_header((char *)hbp);
   unsigned long int sz = hhdr->hb_sz;
-  struct obj_kind *GC_reclaim_block$$1$$ok = &GC_obj_kinds[(signed long int)hhdr->hb_obj_kind];
+  struct obj_kind *GC_reclaim_block__1__ok = &GC_obj_kinds[(signed long int)hhdr->hb_obj_kind];
   struct hblk **rlh;
-  signed int return_value_GC_block_nearly_full$1;
+  signed int return_value_GC_block_nearly_full_1;
   if(sz >= 2049ul)
   {
     if(hhdr->_mark_byte_union._hb_marks[0l] == 0)
@@ -18100,18 +18100,18 @@ void GC_reclaim_block(struct hblk *hbp, unsigned long int report_if_found)
 
       else
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!(GC_find_leak == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
         {
-          return_value_GC_block_nearly_full$1=GC_block_nearly_full(hhdr);
-          tmp_if_expr$2 = !(return_value_GC_block_nearly_full$1 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_GC_block_nearly_full_1=GC_block_nearly_full(hhdr);
+          tmp_if_expr_2 = !(return_value_GC_block_nearly_full_1 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$2)
+        if(tmp_if_expr_2)
         {
-          rlh = &GC_reclaim_block$$1$$ok->ok_reclaim_list[(signed long int)(sz >> 4)];
+          rlh = &GC_reclaim_block__1__ok->ok_reclaim_list[(signed long int)(sz >> 4)];
           hhdr->hb_next = *rlh;
           *rlh = hbp;
         }
@@ -18213,9 +18213,9 @@ void GC_reclaim_small_nonempty_block(struct hblk *hbp, signed int report_if_foun
 
   else
   {
-    char *return_value_GC_reclaim_generic$1;
-    return_value_GC_reclaim_generic$1=GC_reclaim_generic(hbp, hhdr, sz, ok->ok_init, (char *)*flh, &GC_bytes_found);
-    *flh = (void *)return_value_GC_reclaim_generic$1;
+    char *return_value_GC_reclaim_generic_1;
+    return_value_GC_reclaim_generic_1=GC_reclaim_generic(hbp, hhdr, sz, ok->ok_init, (char *)*flh, &GC_bytes_found);
+    *flh = (void *)return_value_GC_reclaim_generic_1;
   }
 }
 
@@ -18301,13 +18301,13 @@ static inline void GC_record_stack_base(struct GC_Thread_Rep *me, struct GC_stac
 
 }
 
-// GC_record_stack_base$link1
+// GC_record_stack_base_link1
 // file pthread_support.c line 1506
-static inline void GC_record_stack_base$link1(struct GC_Thread_Rep *me$link1, struct GC_stack_base *sb$link1)
+static inline void GC_record_stack_base_link1(struct GC_Thread_Rep *me_link1, struct GC_stack_base *sb_link1)
 {
-  me$link1->stop_info.stack_ptr = (char *)sb$link1->mem_base;
-  me$link1->stack_end = (char *)sb$link1->mem_base;
-  if(me$link1->stack_end == ((char *)NULL))
+  me_link1->stop_info.stack_ptr = (char *)sb_link1->mem_base;
+  me_link1->stack_end = (char *)sb_link1->mem_base;
+  if(me_link1->stack_end == ((char *)NULL))
   {
     GC_on_abort("Bad stack base in GC_register_my_thread");
     abort();
@@ -18315,13 +18315,13 @@ static inline void GC_record_stack_base$link1(struct GC_Thread_Rep *me$link1, st
 
 }
 
-// GC_record_stack_base$link2
+// GC_record_stack_base_link2
 // file pthread_support.c line 1506
-static inline void GC_record_stack_base$link2(struct GC_Thread_Rep *me$link2, struct GC_stack_base *sb$link2)
+static inline void GC_record_stack_base_link2(struct GC_Thread_Rep *me_link2, struct GC_stack_base *sb_link2)
 {
-  me$link2->stop_info.stack_ptr = (char *)sb$link2->mem_base;
-  me$link2->stack_end = (char *)sb$link2->mem_base;
-  if(me$link2->stack_end == ((char *)NULL))
+  me_link2->stop_info.stack_ptr = (char *)sb_link2->mem_base;
+  me_link2->stack_end = (char *)sb_link2->mem_base;
+  if(me_link2->stack_end == ((char *)NULL))
   {
     GC_on_abort("Bad stack base in GC_register_my_thread");
     abort();
@@ -18348,18 +18348,18 @@ extern void GC_register_describe_type_fn(signed int kind, void (*fn)(void *, cha
 extern signed int GC_register_disappearing_link(void **link)
 {
   char *base;
-  void *return_value_GC_base$1;
-  return_value_GC_base$1=GC_base((void *)link);
-  base = (char *)return_value_GC_base$1;
+  void *return_value_GC_base_1;
+  return_value_GC_base_1=GC_base((void *)link);
+  base = (char *)return_value_GC_base_1;
   if(base == ((char *)NULL))
   {
     GC_on_abort("Bad arg to GC_register_disappearing_link");
     abort();
   }
 
-  signed int return_value_GC_general_register_disappearing_link$2;
-  return_value_GC_general_register_disappearing_link$2=GC_general_register_disappearing_link(link, (const void *)base);
-  return return_value_GC_general_register_disappearing_link$2;
+  signed int return_value_GC_general_register_disappearing_link_2;
+  return_value_GC_general_register_disappearing_link_2=GC_general_register_disappearing_link(link, (const void *)base);
+  return return_value_GC_general_register_disappearing_link_2;
 }
 
 // GC_register_disappearing_link_inner
@@ -18372,21 +18372,21 @@ signed int GC_register_disappearing_link_inner(struct dl_hashtbl_s *dl_hashtbl, 
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(dl_hashtbl->log_size == -1l)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = dl_hashtbl->entries > (unsigned long int)1 << dl_hashtbl->log_size ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = dl_hashtbl->entries > (unsigned long int)1 << dl_hashtbl->log_size ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     GC_grow_table((struct hash_chain_entry ***)&dl_hashtbl->head, &dl_hashtbl->log_size);
     if(!(GC_print_stats == 0))
@@ -18408,9 +18408,9 @@ signed int GC_register_disappearing_link_inner(struct dl_hashtbl_s *dl_hashtbl, 
       return 1;
     }
 
-  void *return_value_GC_generic_malloc_inner$3;
-  return_value_GC_generic_malloc_inner$3=GC_generic_malloc_inner(sizeof(struct disappearing_link) /*24ul*/ , 1);
-  new_dl = (struct disappearing_link *)return_value_GC_generic_malloc_inner$3;
+  void *return_value_GC_generic_malloc_inner_3;
+  return_value_GC_generic_malloc_inner_3=GC_generic_malloc_inner(sizeof(struct disappearing_link) /*24ul*/ , 1);
+  new_dl = (struct disappearing_link *)return_value_GC_generic_malloc_inner_3;
   if(new_dl == ((struct disappearing_link *)NULL))
   {
     void * (*oom_fn)(unsigned long int) = GC_oom_fn;
@@ -18427,9 +18427,9 @@ signed int GC_register_disappearing_link_inner(struct dl_hashtbl_s *dl_hashtbl, 
 
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$4;
-      return_value_pthread_mutex_trylock$4=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$4 == 0))
+      signed int return_value_pthread_mutex_trylock_4;
+      return_value_pthread_mutex_trylock_4=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_4 == 0))
         GC_lock();
 
     }
@@ -18481,9 +18481,9 @@ extern void GC_register_displacement(unsigned long int offset)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -18520,20 +18520,20 @@ void GC_register_displacement_inner(unsigned long int offset)
 void GC_register_dynamic_libraries(void)
 {
   struct link_map *lm;
-  signed int return_value_GC_register_dynamic_libraries_dl_iterate_phdr$1;
-  return_value_GC_register_dynamic_libraries_dl_iterate_phdr$1=GC_register_dynamic_libraries_dl_iterate_phdr();
-  if(return_value_GC_register_dynamic_libraries_dl_iterate_phdr$1 == 0)
+  signed int return_value_GC_register_dynamic_libraries_dl_iterate_phdr_1;
+  return_value_GC_register_dynamic_libraries_dl_iterate_phdr_1=GC_register_dynamic_libraries_dl_iterate_phdr();
+  if(return_value_GC_register_dynamic_libraries_dl_iterate_phdr_1 == 0)
   {
     lm=GC_FirstDLOpenedLinkMap();
     for( ; !(lm == ((struct link_map *)NULL)); lm = lm->l_next)
     {
-      struct anonymous$24 *e;
-      struct anonymous$20 *p;
+      struct anonymous_24 *e;
+      struct anonymous_20 *p;
       unsigned long int offset;
       char *start;
       signed int i;
-      e = (struct anonymous$24 *)lm->l_addr;
-      p = (struct anonymous$20 *)((char *)e + (signed long int)e->e_phoff);
+      e = (struct anonymous_24 *)lm->l_addr;
+      p = (struct anonymous_20 *)((char *)e + (signed long int)e->e_phoff);
       offset = (unsigned long int)lm->l_addr;
       i = 0;
       for( ; !(i >= (signed int)e->e_phnum); p = p + 1l)
@@ -18560,9 +18560,9 @@ void GC_register_dynamic_libraries(void)
 signed int GC_register_dynamic_libraries_dl_iterate_phdr(void)
 {
   signed int did_something;
-  signed int return_value_GC_register_main_static_data$1;
-  return_value_GC_register_main_static_data$1=GC_register_main_static_data();
-  if(!(return_value_GC_register_main_static_data$1 == 0))
+  signed int return_value_GC_register_main_static_data_1;
+  return_value_GC_register_main_static_data_1=GC_register_main_static_data();
+  if(!(return_value_GC_register_main_static_data_1 == 0))
     return 0;
 
   else
@@ -18607,7 +18607,7 @@ signed int GC_register_dynamic_libraries_dl_iterate_phdr(void)
 // file dyn_load.c line 469
 signed int GC_register_dynlib_callback(struct dl_phdr_info *info, unsigned long int size, void *ptr)
 {
-  const struct anonymous$20 *p;
+  const struct anonymous_20 *p;
   char *start;
   char *end;
   signed int i;
@@ -18726,9 +18726,9 @@ void GC_register_finalizer_inner(void *obj, void (*fn)(void *, void *), void *cd
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -18845,9 +18845,9 @@ void GC_register_finalizer_inner(void *obj, void (*fn)(void *, void *), void *cd
       goto __CPROVER_DUMP_L41;
     }
 
-    void *return_value_GC_generic_malloc_inner$2;
-    return_value_GC_generic_malloc_inner$2=GC_generic_malloc_inner(sizeof(struct finalizable_object) /*48ul*/ , 1);
-    new_fo = (struct finalizable_object *)return_value_GC_generic_malloc_inner$2;
+    void *return_value_GC_generic_malloc_inner_2;
+    return_value_GC_generic_malloc_inner_2=GC_generic_malloc_inner(sizeof(struct finalizable_object) /*48ul*/ , 1);
+    new_fo = (struct finalizable_object *)return_value_GC_generic_malloc_inner_2;
     if(new_fo == ((struct finalizable_object *)NULL))
     {
       oom_fn = GC_oom_fn;
@@ -18861,9 +18861,9 @@ void GC_register_finalizer_inner(void *obj, void (*fn)(void *, void *), void *cd
       new_fo = (struct finalizable_object *)return_value;
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$3;
-        return_value_pthread_mutex_trylock$3=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$3 == 0))
+        signed int return_value_pthread_mutex_trylock_3;
+        return_value_pthread_mutex_trylock_3=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_3 == 0))
           GC_lock();
 
       }
@@ -18928,9 +18928,9 @@ extern signed int GC_register_long_link(void **link, const void *obj)
     abort();
   }
 
-  signed int return_value_GC_register_disappearing_link_inner$1;
-  return_value_GC_register_disappearing_link_inner$1=GC_register_disappearing_link_inner(&GC_ll_hashtbl, link, obj);
-  return return_value_GC_register_disappearing_link_inner$1;
+  signed int return_value_GC_register_disappearing_link_inner_1;
+  return_value_GC_register_disappearing_link_inner_1=GC_register_disappearing_link_inner(&GC_ll_hashtbl, link, obj);
+  return return_value_GC_register_disappearing_link_inner_1;
 }
 
 // GC_register_main_static_data
@@ -18956,9 +18956,9 @@ extern signed int GC_register_my_thread(struct GC_stack_base *sb)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -19025,9 +19025,9 @@ struct GC_Thread_Rep * GC_register_my_thread_inner(struct GC_stack_base *sb, uns
 // file ./include/private/gc_priv.h line 2372
 void GC_release_mark_lock(void)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&mark_mutex);
-  if(!(return_value_pthread_mutex_unlock$1 == 0))
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&mark_mutex);
+  if(!(return_value_pthread_mutex_unlock_1 == 0))
   {
     GC_on_abort("pthread_mutex_unlock failed");
     abort();
@@ -19078,57 +19078,57 @@ void GC_remove_all_threads_but_me(void)
 // file pthread_stop_world.c line 82
 void GC_remove_allowed_signals(struct anonymous *set)
 {
-  signed int return_value_sigdelset$1;
-  return_value_sigdelset$1=sigdelset(set, 2);
-  _Bool tmp_if_expr$3;
-  signed int return_value_sigdelset$2;
-  if(!(return_value_sigdelset$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_sigdelset_1;
+  return_value_sigdelset_1=sigdelset(set, 2);
+  _Bool tmp_if_expr_3;
+  signed int return_value_sigdelset_2;
+  if(!(return_value_sigdelset_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_sigdelset$2=sigdelset(set, 3);
-    tmp_if_expr$3 = return_value_sigdelset$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_sigdelset_2=sigdelset(set, 3);
+    tmp_if_expr_3 = return_value_sigdelset_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_sigdelset$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_sigdelset_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_sigdelset$4=sigdelset(set, 6);
-    tmp_if_expr$5 = return_value_sigdelset$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_sigdelset_4=sigdelset(set, 6);
+    tmp_if_expr_5 = return_value_sigdelset_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_sigdelset$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_sigdelset_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_sigdelset$6=sigdelset(set, 15);
-    tmp_if_expr$7 = return_value_sigdelset$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_sigdelset_6=sigdelset(set, 15);
+    tmp_if_expr_7 = return_value_sigdelset_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     GC_on_abort("sigdelset failed");
     abort();
   }
 
-  signed int return_value_sigdelset$8;
-  return_value_sigdelset$8=sigdelset(set, 11);
-  _Bool tmp_if_expr$10;
-  signed int return_value_sigdelset$9;
-  if(!(return_value_sigdelset$8 == 0))
-    tmp_if_expr$10 = (_Bool)1;
+  signed int return_value_sigdelset_8;
+  return_value_sigdelset_8=sigdelset(set, 11);
+  _Bool tmp_if_expr_10;
+  signed int return_value_sigdelset_9;
+  if(!(return_value_sigdelset_8 == 0))
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
-    return_value_sigdelset$9=sigdelset(set, 7);
-    tmp_if_expr$10 = return_value_sigdelset$9 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_sigdelset_9=sigdelset(set, 7);
+    tmp_if_expr_10 = return_value_sigdelset_9 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$10)
+  if(tmp_if_expr_10)
   {
     GC_on_abort("sigdelset failed");
     abort();
@@ -19177,28 +19177,28 @@ static inline void GC_remove_dangling_disappearing_links(struct dl_hashtbl_s *dl
   char *real_link;
   unsigned long int i;
   unsigned long int dl_size;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(dl_hashtbl->log_size == -1l)
-    tmp_if_expr$1 = 0;
+    tmp_if_expr_1 = 0;
 
   else
-    tmp_if_expr$1 = 1 << dl_hashtbl->log_size;
-  dl_size = (unsigned long int)tmp_if_expr$1;
+    tmp_if_expr_1 = 1 << dl_hashtbl->log_size;
+  dl_size = (unsigned long int)tmp_if_expr_1;
   i = (unsigned long int)0;
-  signed int return_value_GC_is_marked$3;
+  signed int return_value_GC_is_marked_3;
   for( ; !(i >= dl_size); i = i + 1ul)
   {
     curr = dl_hashtbl->head[(signed long int)i];
     prev = (struct disappearing_link *)(void *)0;
     while(!(curr == ((struct disappearing_link *)NULL)))
     {
-      void *return_value_GC_base$2;
-      return_value_GC_base$2=GC_base((void *)~((unsigned long int)curr->prolog.hidden_key));
-      real_link = (char *)return_value_GC_base$2;
+      void *return_value_GC_base_2;
+      return_value_GC_base_2=GC_base((void *)~((unsigned long int)curr->prolog.hidden_key));
+      real_link = (char *)return_value_GC_base_2;
       if(!(real_link == ((char *)NULL)))
       {
-        return_value_GC_is_marked$3=GC_is_marked((const void *)real_link);
-        if(return_value_GC_is_marked$3 == 0)
+        return_value_GC_is_marked_3=GC_is_marked((const void *)real_link);
+        if(return_value_GC_is_marked_3 == 0)
         {
           GC_clear_mark_bit((const void *)curr);
           next = (struct disappearing_link *)curr->prolog.next;
@@ -19221,110 +19221,110 @@ static inline void GC_remove_dangling_disappearing_links(struct dl_hashtbl_s *dl
   }
 }
 
-// GC_remove_dangling_disappearing_links$link1
+// GC_remove_dangling_disappearing_links_link1
 // file finalize.c line 719
-static inline void GC_remove_dangling_disappearing_links$link1(struct dl_hashtbl_s *dl_hashtbl$link1)
+static inline void GC_remove_dangling_disappearing_links_link1(struct dl_hashtbl_s *dl_hashtbl_link1)
 {
-  struct disappearing_link *curr$link1;
-  struct disappearing_link *prev$link1;
-  struct disappearing_link *next$link1;
-  char *real_link$link1;
-  unsigned long int i$link1;
-  unsigned long int dl_size$link1;
-  signed int tmp_if_expr$1$link1;
-  if(dl_hashtbl$link1->log_size == -1l)
-    tmp_if_expr$1$link1 = 0;
+  struct disappearing_link *curr_link1;
+  struct disappearing_link *prev_link1;
+  struct disappearing_link *next_link1;
+  char *real_link_link1;
+  unsigned long int i_link1;
+  unsigned long int dl_size_link1;
+  signed int tmp_if_expr_1_link1;
+  if(dl_hashtbl_link1->log_size == -1l)
+    tmp_if_expr_1_link1 = 0;
 
   else
-    tmp_if_expr$1$link1 = 1 << dl_hashtbl$link1->log_size;
-  dl_size$link1 = (unsigned long int)tmp_if_expr$1$link1;
-  i$link1 = (unsigned long int)0;
-  signed int return_value_GC_is_marked$3$link1;
-  for( ; !(i$link1 >= dl_size$link1); i$link1 = i$link1 + 1ul)
+    tmp_if_expr_1_link1 = 1 << dl_hashtbl_link1->log_size;
+  dl_size_link1 = (unsigned long int)tmp_if_expr_1_link1;
+  i_link1 = (unsigned long int)0;
+  signed int return_value_GC_is_marked_3_link1;
+  for( ; !(i_link1 >= dl_size_link1); i_link1 = i_link1 + 1ul)
   {
-    curr$link1 = dl_hashtbl$link1->head[(signed long int)i$link1];
-    prev$link1 = (struct disappearing_link *)(void *)0;
-    while(!(curr$link1 == ((struct disappearing_link *)NULL)))
+    curr_link1 = dl_hashtbl_link1->head[(signed long int)i_link1];
+    prev_link1 = (struct disappearing_link *)(void *)0;
+    while(!(curr_link1 == ((struct disappearing_link *)NULL)))
     {
-      void *return_value_GC_base$2$link1;
-      return_value_GC_base$2$link1=GC_base((void *)~((unsigned long int)curr$link1->prolog.hidden_key));
-      real_link$link1 = (char *)return_value_GC_base$2$link1;
-      if(!(real_link$link1 == ((char *)NULL)))
+      void *return_value_GC_base_2_link1;
+      return_value_GC_base_2_link1=GC_base((void *)~((unsigned long int)curr_link1->prolog.hidden_key));
+      real_link_link1 = (char *)return_value_GC_base_2_link1;
+      if(!(real_link_link1 == ((char *)NULL)))
       {
-        return_value_GC_is_marked$3$link1=GC_is_marked((const void *)real_link$link1);
-        if(return_value_GC_is_marked$3$link1 == 0)
+        return_value_GC_is_marked_3_link1=GC_is_marked((const void *)real_link_link1);
+        if(return_value_GC_is_marked_3_link1 == 0)
         {
-          GC_clear_mark_bit((const void *)curr$link1);
-          next$link1 = (struct disappearing_link *)curr$link1->prolog.next;
-          if(prev$link1 == ((struct disappearing_link *)NULL))
-            dl_hashtbl$link1->head[(signed long int)i$link1] = next$link1;
+          GC_clear_mark_bit((const void *)curr_link1);
+          next_link1 = (struct disappearing_link *)curr_link1->prolog.next;
+          if(prev_link1 == ((struct disappearing_link *)NULL))
+            dl_hashtbl_link1->head[(signed long int)i_link1] = next_link1;
 
           else
-            prev$link1->prolog.next = (struct hash_chain_entry *)next$link1;
-          GC_clear_mark_bit((const void *)curr$link1);
-          dl_hashtbl$link1->entries = dl_hashtbl$link1->entries - 1ul;
-          curr$link1 = next$link1;
+            prev_link1->prolog.next = (struct hash_chain_entry *)next_link1;
+          GC_clear_mark_bit((const void *)curr_link1);
+          dl_hashtbl_link1->entries = dl_hashtbl_link1->entries - 1ul;
+          curr_link1 = next_link1;
           continue;
         }
 
       }
 
-      prev$link1 = curr$link1;
-      curr$link1 = (struct disappearing_link *)curr$link1->prolog.next;
+      prev_link1 = curr_link1;
+      curr_link1 = (struct disappearing_link *)curr_link1->prolog.next;
     }
   }
 }
 
-// GC_remove_dangling_disappearing_links$link2
+// GC_remove_dangling_disappearing_links_link2
 // file finalize.c line 719
-static inline void GC_remove_dangling_disappearing_links$link2(struct dl_hashtbl_s *dl_hashtbl$link2)
+static inline void GC_remove_dangling_disappearing_links_link2(struct dl_hashtbl_s *dl_hashtbl_link2)
 {
-  struct disappearing_link *curr$link2;
-  struct disappearing_link *prev$link2;
-  struct disappearing_link *next$link2;
-  char *real_link$link2;
-  unsigned long int i$link2;
-  unsigned long int dl_size$link2;
-  signed int tmp_if_expr$1$link2;
-  if(dl_hashtbl$link2->log_size == -1l)
-    tmp_if_expr$1$link2 = 0;
+  struct disappearing_link *curr_link2;
+  struct disappearing_link *prev_link2;
+  struct disappearing_link *next_link2;
+  char *real_link_link2;
+  unsigned long int i_link2;
+  unsigned long int dl_size_link2;
+  signed int tmp_if_expr_1_link2;
+  if(dl_hashtbl_link2->log_size == -1l)
+    tmp_if_expr_1_link2 = 0;
 
   else
-    tmp_if_expr$1$link2 = 1 << dl_hashtbl$link2->log_size;
-  dl_size$link2 = (unsigned long int)tmp_if_expr$1$link2;
-  i$link2 = (unsigned long int)0;
-  signed int return_value_GC_is_marked$3$link2;
-  for( ; !(i$link2 >= dl_size$link2); i$link2 = i$link2 + 1ul)
+    tmp_if_expr_1_link2 = 1 << dl_hashtbl_link2->log_size;
+  dl_size_link2 = (unsigned long int)tmp_if_expr_1_link2;
+  i_link2 = (unsigned long int)0;
+  signed int return_value_GC_is_marked_3_link2;
+  for( ; !(i_link2 >= dl_size_link2); i_link2 = i_link2 + 1ul)
   {
-    curr$link2 = dl_hashtbl$link2->head[(signed long int)i$link2];
-    prev$link2 = (struct disappearing_link *)(void *)0;
-    while(!(curr$link2 == ((struct disappearing_link *)NULL)))
+    curr_link2 = dl_hashtbl_link2->head[(signed long int)i_link2];
+    prev_link2 = (struct disappearing_link *)(void *)0;
+    while(!(curr_link2 == ((struct disappearing_link *)NULL)))
     {
-      void *return_value_GC_base$2$link2;
-      return_value_GC_base$2$link2=GC_base((void *)~((unsigned long int)curr$link2->prolog.hidden_key));
-      real_link$link2 = (char *)return_value_GC_base$2$link2;
-      if(!(real_link$link2 == ((char *)NULL)))
+      void *return_value_GC_base_2_link2;
+      return_value_GC_base_2_link2=GC_base((void *)~((unsigned long int)curr_link2->prolog.hidden_key));
+      real_link_link2 = (char *)return_value_GC_base_2_link2;
+      if(!(real_link_link2 == ((char *)NULL)))
       {
-        return_value_GC_is_marked$3$link2=GC_is_marked((const void *)real_link$link2);
-        if(return_value_GC_is_marked$3$link2 == 0)
+        return_value_GC_is_marked_3_link2=GC_is_marked((const void *)real_link_link2);
+        if(return_value_GC_is_marked_3_link2 == 0)
         {
-          GC_clear_mark_bit((const void *)curr$link2);
-          next$link2 = (struct disappearing_link *)curr$link2->prolog.next;
-          if(prev$link2 == ((struct disappearing_link *)NULL))
-            dl_hashtbl$link2->head[(signed long int)i$link2] = next$link2;
+          GC_clear_mark_bit((const void *)curr_link2);
+          next_link2 = (struct disappearing_link *)curr_link2->prolog.next;
+          if(prev_link2 == ((struct disappearing_link *)NULL))
+            dl_hashtbl_link2->head[(signed long int)i_link2] = next_link2;
 
           else
-            prev$link2->prolog.next = (struct hash_chain_entry *)next$link2;
-          GC_clear_mark_bit((const void *)curr$link2);
-          dl_hashtbl$link2->entries = dl_hashtbl$link2->entries - 1ul;
-          curr$link2 = next$link2;
+            prev_link2->prolog.next = (struct hash_chain_entry *)next_link2;
+          GC_clear_mark_bit((const void *)curr_link2);
+          dl_hashtbl_link2->entries = dl_hashtbl_link2->entries - 1ul;
+          curr_link2 = next_link2;
           continue;
         }
 
       }
 
-      prev$link2 = curr$link2;
-      curr$link2 = (struct disappearing_link *)curr$link2->prolog.next;
+      prev_link2 = curr_link2;
+      curr_link2 = (struct disappearing_link *)curr_link2->prolog.next;
     }
   }
 }
@@ -19333,27 +19333,27 @@ static inline void GC_remove_dangling_disappearing_links$link2(struct dl_hashtbl
 // file allchblk.c line 317
 static inline void GC_remove_from_fl(struct hblkhdr *hhdr)
 {
-  signed int return_value_GC_hblk_fl_from_blocks$1;
-  return_value_GC_hblk_fl_from_blocks$1=GC_hblk_fl_from_blocks(hhdr->hb_sz >> (unsigned long int)12);
-  GC_remove_from_fl_at(hhdr, return_value_GC_hblk_fl_from_blocks$1);
+  signed int return_value_GC_hblk_fl_from_blocks_1;
+  return_value_GC_hblk_fl_from_blocks_1=GC_hblk_fl_from_blocks(hhdr->hb_sz >> (unsigned long int)12);
+  GC_remove_from_fl_at(hhdr, return_value_GC_hblk_fl_from_blocks_1);
 }
 
-// GC_remove_from_fl$link1
+// GC_remove_from_fl_link1
 // file allchblk.c line 317
-static inline void GC_remove_from_fl$link1(struct hblkhdr *hhdr$link1)
+static inline void GC_remove_from_fl_link1(struct hblkhdr *hhdr_link1)
 {
-  signed int return_value_GC_hblk_fl_from_blocks$1$link1;
-  return_value_GC_hblk_fl_from_blocks$1$link1=GC_hblk_fl_from_blocks(hhdr$link1->hb_sz >> (unsigned long int)12);
-  GC_remove_from_fl_at(hhdr$link1, return_value_GC_hblk_fl_from_blocks$1$link1);
+  signed int return_value_GC_hblk_fl_from_blocks_1_link1;
+  return_value_GC_hblk_fl_from_blocks_1_link1=GC_hblk_fl_from_blocks(hhdr_link1->hb_sz >> (unsigned long int)12);
+  GC_remove_from_fl_at(hhdr_link1, return_value_GC_hblk_fl_from_blocks_1_link1);
 }
 
-// GC_remove_from_fl$link2
+// GC_remove_from_fl_link2
 // file allchblk.c line 317
-static inline void GC_remove_from_fl$link2(struct hblkhdr *hhdr$link2)
+static inline void GC_remove_from_fl_link2(struct hblkhdr *hhdr_link2)
 {
-  signed int return_value_GC_hblk_fl_from_blocks$1$link2;
-  return_value_GC_hblk_fl_from_blocks$1$link2=GC_hblk_fl_from_blocks(hhdr$link2->hb_sz >> (unsigned long int)12);
-  GC_remove_from_fl_at(hhdr$link2, return_value_GC_hblk_fl_from_blocks$1$link2);
+  signed int return_value_GC_hblk_fl_from_blocks_1_link2;
+  return_value_GC_hblk_fl_from_blocks_1_link2=GC_hblk_fl_from_blocks(hhdr_link2->hb_sz >> (unsigned long int)12);
+  GC_remove_from_fl_at(hhdr_link2, return_value_GC_hblk_fl_from_blocks_1_link2);
 }
 
 // GC_remove_from_fl_at
@@ -19371,7 +19371,7 @@ void GC_remove_from_fl_at(struct hblkhdr *hhdr, signed int index)
       struct hblkhdr **_ha;
       do
       {
-        struct bi *GC_remove_from_fl_at$$1$$2$$1$$1$$bi;
+        struct bi *GC_remove_from_fl_at__1__2__1__1__bi;
         do
         {
           unsigned long int hi = (unsigned long int)hhdr->hb_prev >> (unsigned long int)10 + (unsigned long int)12;
@@ -19380,10 +19380,10 @@ void GC_remove_from_fl_at(struct hblkhdr *hhdr, signed int index)
             if(_bi == GC_arrays._all_nils)
               break;
 
-          GC_remove_from_fl_at$$1$$2$$1$$1$$bi = _bi;
+          GC_remove_from_fl_at__1__2__1__1__bi = _bi;
         }
         while((_Bool)0);
-        _ha = &GC_remove_from_fl_at$$1$$2$$1$$1$$bi->index[(signed long int)((unsigned long int)hhdr->hb_prev >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
+        _ha = &GC_remove_from_fl_at__1__2__1__1__bi->index[(signed long int)((unsigned long int)hhdr->hb_prev >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
       }
       while((_Bool)0);
       phdr = *_ha;
@@ -19397,25 +19397,25 @@ void GC_remove_from_fl_at(struct hblkhdr *hhdr, signed int index)
     struct hblkhdr *nhdr;
     do
     {
-      struct hblkhdr **GC_remove_from_fl_at$$1$$3$$1$$_ha;
+      struct hblkhdr **GC_remove_from_fl_at__1__3__1___ha;
       do
       {
         struct bi *bi;
         do
         {
-          unsigned long int GC_remove_from_fl_at$$1$$3$$1$$1$$1$$hi = (unsigned long int)hhdr->hb_next >> (unsigned long int)10 + (unsigned long int)12;
-          struct bi *GC_remove_from_fl_at$$1$$3$$1$$1$$1$$_bi = GC_arrays._top_index[(signed long int)(GC_remove_from_fl_at$$1$$3$$1$$1$$1$$hi & (unsigned long int)((1 << 11) - 1))];
-          for( ; !(GC_remove_from_fl_at$$1$$3$$1$$1$$1$$_bi->key == GC_remove_from_fl_at$$1$$3$$1$$1$$1$$hi); GC_remove_from_fl_at$$1$$3$$1$$1$$1$$_bi = GC_remove_from_fl_at$$1$$3$$1$$1$$1$$_bi->hash_link)
-            if(GC_remove_from_fl_at$$1$$3$$1$$1$$1$$_bi == GC_arrays._all_nils)
+          unsigned long int GC_remove_from_fl_at__1__3__1__1__1__hi = (unsigned long int)hhdr->hb_next >> (unsigned long int)10 + (unsigned long int)12;
+          struct bi *GC_remove_from_fl_at__1__3__1__1__1___bi = GC_arrays._top_index[(signed long int)(GC_remove_from_fl_at__1__3__1__1__1__hi & (unsigned long int)((1 << 11) - 1))];
+          for( ; !(GC_remove_from_fl_at__1__3__1__1__1___bi->key == GC_remove_from_fl_at__1__3__1__1__1__hi); GC_remove_from_fl_at__1__3__1__1__1___bi = GC_remove_from_fl_at__1__3__1__1__1___bi->hash_link)
+            if(GC_remove_from_fl_at__1__3__1__1__1___bi == GC_arrays._all_nils)
               break;
 
-          bi = GC_remove_from_fl_at$$1$$3$$1$$1$$1$$_bi;
+          bi = GC_remove_from_fl_at__1__3__1__1__1___bi;
         }
         while((_Bool)0);
-        GC_remove_from_fl_at$$1$$3$$1$$_ha = &bi->index[(signed long int)((unsigned long int)hhdr->hb_next >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
+        GC_remove_from_fl_at__1__3__1___ha = &bi->index[(signed long int)((unsigned long int)hhdr->hb_next >> (unsigned long int)12 & (unsigned long int)((1 << 10) - 1))];
       }
       while((_Bool)0);
-      nhdr = *GC_remove_from_fl_at$$1$$3$$1$$_ha;
+      nhdr = *GC_remove_from_fl_at__1__3__1___ha;
     }
     while((_Bool)0);
     nhdr->hb_prev = hhdr->hb_prev;
@@ -19480,9 +19480,9 @@ void GC_remove_protection(struct hblk *h, unsigned long int nblocks, signed int 
           async_set_pht_entry_from_index(GC_arrays._dirty_pages, index);
 
       }
-      signed int return_value_mprotect$1;
-      return_value_mprotect$1=mprotect((void *)(char *)h_trunc, (unsigned long int)((char *)h_end - (char *)h_trunc), 0x1 | 0x2 | (GC_pages_executable != 0 ? 0x4 : 0));
-      if(!(return_value_mprotect$1 >= 0))
+      signed int return_value_mprotect_1;
+      return_value_mprotect_1=mprotect((void *)(char *)h_trunc, (unsigned long int)((char *)h_end - (char *)h_trunc), 0x1 | 0x2 | (GC_pages_executable != 0 ? 0x4 : 0));
+      if(!(return_value_mprotect_1 >= 0))
       {
         GC_on_abort(GC_pages_executable != 0 ? "un-mprotect executable page failed (probably disabled by OS)" : "un-mprotect failed");
         abort();
@@ -19513,9 +19513,9 @@ extern void GC_remove_roots(void *b, void *e)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -19538,13 +19538,13 @@ void GC_remove_roots_inner(char *b, char *e)
   signed int i = 0;
   while(!(i >= n_root_sets))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((unsigned long int)GC_arrays._static_roots[(signed long int)i].r_start >= (unsigned long int)b)
-      tmp_if_expr$1 = (unsigned long int)GC_arrays._static_roots[(signed long int)i].r_end <= (unsigned long int)e ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (unsigned long int)GC_arrays._static_roots[(signed long int)i].r_end <= (unsigned long int)e ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       GC_remove_root_at_pos(i);
 
     else
@@ -19599,9 +19599,9 @@ void GC_reset_fault_handler(void)
 void GC_reset_finalizer_nested(void)
 {
   struct GC_Thread_Rep *me;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  me=GC_lookup_thread(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  me=GC_lookup_thread(return_value_pthread_self_1);
   me->finalizer_nested = (unsigned char)0;
 }
 
@@ -19678,13 +19678,13 @@ extern void * GC_same_obj(void *p, void *q)
     GC_init();
 
   hhdr=GC_find_header((char *)(unsigned long int)p);
-  struct hblkhdr *return_value_GC_find_header$1;
+  struct hblkhdr *return_value_GC_find_header_1;
   if(hhdr == ((struct hblkhdr *)NULL))
   {
     if(!((unsigned long int)p >> 12ul == (unsigned long int)q >> 12ul))
     {
-      return_value_GC_find_header$1=GC_find_header((char *)(unsigned long int)q);
-      if(!(return_value_GC_find_header$1 == ((struct hblkhdr *)NULL)))
+      return_value_GC_find_header_1=GC_find_header((char *)(unsigned long int)q);
+      if(!(return_value_GC_find_header_1 == ((struct hblkhdr *)NULL)))
         goto fail;
 
     }
@@ -19762,9 +19762,9 @@ char * GC_scratch_alloc(unsigned long int bytes)
     if(bytes >= bytes_to_get)
     {
       bytes_to_get = (bytes + GC_page_size) - (unsigned long int)1 & ~(GC_page_size - (unsigned long int)1);
-      char *return_value_GC_unix_get_mem$1;
-      return_value_GC_unix_get_mem$1=GC_unix_get_mem(bytes_to_get);
-      result = (char *)(struct hblk *)return_value_GC_unix_get_mem$1;
+      char *return_value_GC_unix_get_mem_1;
+      return_value_GC_unix_get_mem_1=GC_unix_get_mem(bytes_to_get);
+      result = (char *)(struct hblk *)return_value_GC_unix_get_mem_1;
       scratch_free_ptr = scratch_free_ptr - (signed long int)bytes;
       if(!(result == ((char *)NULL)))
         GC_arrays._scratch_last_end_ptr = result + (signed long int)bytes;
@@ -19773,26 +19773,26 @@ char * GC_scratch_alloc(unsigned long int bytes)
     }
 
     bytes_to_get = (bytes_to_get + GC_page_size) - (unsigned long int)1 & ~(GC_page_size - (unsigned long int)1);
-    char *return_value_GC_unix_get_mem$2;
-    return_value_GC_unix_get_mem$2=GC_unix_get_mem(bytes_to_get);
-    result = (char *)(struct hblk *)return_value_GC_unix_get_mem$2;
+    char *return_value_GC_unix_get_mem_2;
+    return_value_GC_unix_get_mem_2=GC_unix_get_mem(bytes_to_get);
+    result = (char *)(struct hblk *)return_value_GC_unix_get_mem_2;
     if(result == ((char *)NULL))
     {
       GC_current_warn_proc("GC Warning: Out of memory - trying to allocate less\n", (unsigned long int)0);
       scratch_free_ptr = scratch_free_ptr - (signed long int)bytes;
       bytes_to_get = (bytes + GC_page_size) - (unsigned long int)1 & ~(GC_page_size - (unsigned long int)1);
-      char *return_value_GC_unix_get_mem$3;
-      return_value_GC_unix_get_mem$3=GC_unix_get_mem(bytes_to_get);
-      result = (char *)(struct hblk *)return_value_GC_unix_get_mem$3;
+      char *return_value_GC_unix_get_mem_3;
+      return_value_GC_unix_get_mem_3=GC_unix_get_mem(bytes_to_get);
+      result = (char *)(struct hblk *)return_value_GC_unix_get_mem_3;
       return result;
     }
 
     scratch_free_ptr = result;
     GC_arrays._scratch_end_ptr = scratch_free_ptr + (signed long int)bytes_to_get;
     GC_arrays._scratch_last_end_ptr = GC_arrays._scratch_end_ptr;
-    char *return_value_GC_scratch_alloc$4;
-    return_value_GC_scratch_alloc$4=GC_scratch_alloc(bytes);
-    return return_value_GC_scratch_alloc$4;
+    char *return_value_GC_scratch_alloc_4;
+    return_value_GC_scratch_alloc_4=GC_scratch_alloc(bytes);
+    return return_value_GC_scratch_alloc_4;
   }
 }
 
@@ -19803,9 +19803,9 @@ extern void GC_set_abort_func(void (*fn)(const char *))
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -19829,9 +19829,9 @@ extern void GC_set_all_interior_pointers(signed int value)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -19886,9 +19886,9 @@ extern void GC_set_finalizer_notifier(void (*fn)(void))
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20049,9 +20049,9 @@ extern void GC_set_on_heap_resize(void (*fn)(unsigned long int))
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20072,9 +20072,9 @@ extern void GC_set_oom_fn(void * (*fn)(unsigned long int))
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20109,9 +20109,9 @@ extern void GC_set_start_callback(void (*fn)(void))
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20132,9 +20132,9 @@ extern void GC_set_stop_func(signed int (*stop_func)(void))
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20180,9 +20180,9 @@ extern void GC_set_warn_proc(void (*p)(char *, unsigned long int))
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20200,9 +20200,9 @@ extern void GC_set_warn_proc(void (*p)(char *, unsigned long int))
 // file ./include/private/gc_priv.h line 2222
 void GC_setpagesize(void)
 {
-  signed int return_value_getpagesize$1;
-  return_value_getpagesize$1=getpagesize();
-  GC_page_size = (unsigned long int)return_value_getpagesize$1;
+  signed int return_value_getpagesize_1;
+  return_value_getpagesize_1=getpagesize();
+  GC_page_size = (unsigned long int)return_value_getpagesize_1;
   if(GC_page_size == 0ul)
   {
     GC_on_abort("getpagesize failed");
@@ -20230,9 +20230,9 @@ signed int GC_should_collect(void)
     last_min_bytes_allocd=min_bytes_allocd();
   }
 
-  unsigned long int return_value_GC_adj_bytes_allocd$1;
-  return_value_GC_adj_bytes_allocd$1=GC_adj_bytes_allocd();
-  return (signed int)(return_value_GC_adj_bytes_allocd$1 >= last_min_bytes_allocd ? (_Bool)1 : (GC_arrays._heapsize >= GC_collect_at_heapsize ? (_Bool)1 : (_Bool)0));
+  unsigned long int return_value_GC_adj_bytes_allocd_1;
+  return_value_GC_adj_bytes_allocd_1=GC_adj_bytes_allocd();
+  return (signed int)(return_value_GC_adj_bytes_allocd_1 >= last_min_bytes_allocd ? (_Bool)1 : (GC_arrays._heapsize >= GC_collect_at_heapsize ? (_Bool)1 : (_Bool)0));
 }
 
 // GC_should_invoke_finalizers
@@ -20279,18 +20279,18 @@ void GC_split_block(struct hblk *h, struct hblkhdr *hhdr, struct hblk *n, struct
   nhdr->hb_flags = (unsigned char)0;
   if(!(prev == ((struct hblk *)NULL)))
   {
-    struct hblkhdr *return_value_GC_find_header$1;
-    return_value_GC_find_header$1=GC_find_header((char *)prev);
-    return_value_GC_find_header$1->hb_next = n;
+    struct hblkhdr *return_value_GC_find_header_1;
+    return_value_GC_find_header_1=GC_find_header((char *)prev);
+    return_value_GC_find_header_1->hb_next = n;
   }
 
   else
     GC_hblkfreelist[(signed long int)index] = n;
   if(!(next == ((struct hblk *)NULL)))
   {
-    struct hblkhdr *return_value_GC_find_header$2;
-    return_value_GC_find_header$2=GC_find_header((char *)next);
-    return_value_GC_find_header$2->hb_prev = n;
+    struct hblkhdr *return_value_GC_find_header_2;
+    return_value_GC_find_header_2=GC_find_header((char *)next);
+    return_value_GC_find_header_2->hb_prev = n;
   }
 
   GC_free_bytes[(signed long int)index] = GC_free_bytes[(signed long int)index] - h_size;
@@ -20306,9 +20306,9 @@ void GC_start_debugging(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20330,7 +20330,7 @@ void GC_start_debugging_inner(void)
   GC_print_all_smashed = GC_print_all_smashed_proc;
   GC_print_heap_obj = GC_debug_print_heap_obj_proc;
   GC_debugging_started = 1;
-  GC_register_displacement_inner((unsigned long int)sizeof(struct anonymous$18) /*32ul*/ );
+  GC_register_displacement_inner((unsigned long int)sizeof(struct anonymous_18) /*32ul*/ );
 }
 
 // GC_start_mark_threads
@@ -20341,17 +20341,17 @@ extern void GC_start_mark_threads(void)
   union pthread_attr_t attr;
   if(GC_parallel == 0 && available_markers_m1 >= 1)
   {
-    signed int return_value_pthread_attr_init$1;
-    return_value_pthread_attr_init$1=pthread_attr_init(&attr);
-    if(!(return_value_pthread_attr_init$1 == 0))
+    signed int return_value_pthread_attr_init_1;
+    return_value_pthread_attr_init_1=pthread_attr_init(&attr);
+    if(!(return_value_pthread_attr_init_1 == 0))
     {
       GC_on_abort("pthread_attr_init failed");
       abort();
     }
 
-    signed int return_value_pthread_attr_setdetachstate$2;
-    return_value_pthread_attr_setdetachstate$2=pthread_attr_setdetachstate(&attr, 1);
-    if(!(return_value_pthread_attr_setdetachstate$2 == 0))
+    signed int return_value_pthread_attr_setdetachstate_2;
+    return_value_pthread_attr_setdetachstate_2=pthread_attr_setdetachstate(&attr, 1);
+    if(!(return_value_pthread_attr_setdetachstate_2 == 0))
     {
       GC_on_abort("pthread_attr_setdetachstate failed");
       abort();
@@ -20360,13 +20360,13 @@ extern void GC_start_mark_threads(void)
     i = 0;
     for( ; !(i >= available_markers_m1); i = i + 1)
     {
-      signed int return_value_pthread_create$4;
-      return_value_pthread_create$4=pthread_create(GC_mark_threads + (signed long int)i, &attr, GC_mark_thread, (void *)(unsigned long int)i);
-      if(!(return_value_pthread_create$4 == 0))
+      signed int return_value_pthread_create_4;
+      return_value_pthread_create_4=pthread_create(GC_mark_threads + (signed long int)i, &attr, GC_mark_thread, (void *)(unsigned long int)i);
+      if(!(return_value_pthread_create_4 == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        GC_current_warn_proc("GC Warning: Marker thread creation failed, errno = %ld\n", (unsigned long int)*return_value___errno_location$3);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        GC_current_warn_proc("GC Warning: Marker thread creation failed, errno = %ld\n", (unsigned long int)*return_value___errno_location_3);
         break;
       }
 
@@ -20424,9 +20424,9 @@ void GC_start_reclaim(signed int report_if_found)
 // file pthread_support.c line 1638
 void * GC_start_routine(void *arg)
 {
-  void *return_value_GC_call_with_stack_base$1;
-  return_value_GC_call_with_stack_base$1=GC_call_with_stack_base(GC_inner_start_routine, arg);
-  return return_value_GC_call_with_stack_base$1;
+  void *return_value_GC_call_with_stack_base_1;
+  return_value_GC_call_with_stack_base_1=GC_call_with_stack_base(GC_inner_start_routine, arg);
+  return return_value_GC_call_with_stack_base_1;
 }
 
 // GC_start_rtn_prepare_thread
@@ -20440,9 +20440,9 @@ struct GC_Thread_Rep * GC_start_rtn_prepare_thread(void * (**pstart)(void *), vo
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20472,7 +20472,7 @@ void GC_start_world(void)
   struct GC_Thread_Rep *p;
   signed int n_live_threads = 0;
   signed int result;
-  AO_store$link2(&GC_world_is_stopped, (unsigned long int)0);
+  AO_store_link2(&GC_world_is_stopped, (unsigned long int)0);
   i = 0;
   for( ; !(i >= 256); i = i + 1)
   {
@@ -20524,9 +20524,9 @@ struct GC_ms_entry * GC_steal_mark_stack(struct GC_ms_entry *low, struct GC_ms_e
   for( ; max >= i && (unsigned long int)high >= (unsigned long int)p; p = p + 1l)
   {
     unsigned long int descr;
-    unsigned long int return_value_AO_load$1;
-    return_value_AO_load$1=AO_load$link1(&p->mse_descr.ao);
-    descr = (unsigned long int)return_value_AO_load$1;
+    unsigned long int return_value_AO_load_1;
+    return_value_AO_load_1=AO_load_link1(&p->mse_descr.ao);
+    descr = (unsigned long int)return_value_AO_load_1;
     if(!(descr == 0ul))
     {
       AO_nop_write();
@@ -20562,18 +20562,18 @@ void GC_stop_init(void)
     abort();
   }
 
-  signed int return_value_sem_init$1;
-  return_value_sem_init$1=sem_init(&GC_suspend_ack_sem, 0, (unsigned int)0);
-  if(!(return_value_sem_init$1 == 0))
+  signed int return_value_sem_init_1;
+  return_value_sem_init_1=sem_init(&GC_suspend_ack_sem, 0, (unsigned int)0);
+  if(!(return_value_sem_init_1 == 0))
   {
     GC_on_abort("sem_init failed");
     abort();
   }
 
   act.sa_flags = 0x10000000 | 4;
-  signed int return_value_sigfillset$2;
-  return_value_sigfillset$2=sigfillset(&act.sa_mask);
-  if(!(return_value_sigfillset$2 == 0))
+  signed int return_value_sigfillset_2;
+  return_value_sigfillset_2=sigfillset(&act.sa_mask);
+  if(!(return_value_sigfillset_2 == 0))
   {
     GC_on_abort("sigfillset failed");
     abort();
@@ -20581,9 +20581,9 @@ void GC_stop_init(void)
 
   GC_remove_allowed_signals(&act.sa_mask);
   act.__sigaction_handler.sa_sigaction = GC_suspend_handler;
-  signed int return_value_sigaction$3;
-  return_value_sigaction$3=sigaction(GC_sig_suspend, &act, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$3 == 0))
+  signed int return_value_sigaction_3;
+  return_value_sigaction_3=sigaction(GC_sig_suspend, &act, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_3 == 0))
   {
     GC_on_abort("Cannot set SIG_SUSPEND handler");
     abort();
@@ -20591,39 +20591,39 @@ void GC_stop_init(void)
 
   act.sa_flags = act.sa_flags & ~4;
   act.__sigaction_handler.sa_handler = GC_restart_handler;
-  signed int return_value_sigaction$4;
-  return_value_sigaction$4=sigaction(GC_sig_thr_restart, &act, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$4 == 0))
+  signed int return_value_sigaction_4;
+  return_value_sigaction_4=sigaction(GC_sig_thr_restart, &act, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_4 == 0))
   {
     GC_on_abort("Cannot set SIG_THR_RESTART handler");
     abort();
   }
 
-  signed int return_value_sigfillset$5;
-  return_value_sigfillset$5=sigfillset(&suspend_handler_mask);
-  if(!(return_value_sigfillset$5 == 0))
+  signed int return_value_sigfillset_5;
+  return_value_sigfillset_5=sigfillset(&suspend_handler_mask);
+  if(!(return_value_sigfillset_5 == 0))
   {
     GC_on_abort("sigfillset failed");
     abort();
   }
 
   GC_remove_allowed_signals(&suspend_handler_mask);
-  signed int return_value_sigdelset$6;
-  return_value_sigdelset$6=sigdelset(&suspend_handler_mask, GC_sig_thr_restart);
-  if(!(return_value_sigdelset$6 == 0))
+  signed int return_value_sigdelset_6;
+  return_value_sigdelset_6=sigdelset(&suspend_handler_mask, GC_sig_thr_restart);
+  if(!(return_value_sigdelset_6 == 0))
   {
     GC_on_abort("sigdelset failed");
     abort();
   }
 
-  char *return_value_getenv$7;
-  return_value_getenv$7=getenv("GC_RETRY_SIGNALS");
-  if(!(return_value_getenv$7 == ((char *)NULL)))
+  char *return_value_getenv_7;
+  return_value_getenv_7=getenv("GC_RETRY_SIGNALS");
+  if(!(return_value_getenv_7 == ((char *)NULL)))
     GC_retry_signals = 1;
 
-  char *return_value_getenv$8;
-  return_value_getenv$8=getenv("GC_NO_RETRY_SIGNALS");
-  if(!(return_value_getenv$8 == ((char *)NULL)))
+  char *return_value_getenv_8;
+  return_value_getenv_8=getenv("GC_NO_RETRY_SIGNALS");
+  if(!(return_value_getenv_8 == ((char *)NULL)))
     GC_retry_signals = 0;
 
   if(!(GC_retry_signals == 0))
@@ -20645,9 +20645,9 @@ void GC_stop_world(void)
   if(!(GC_parallel == 0))
     GC_acquire_mark_lock();
 
-  AO_store$link2(&GC_stop_count, GC_stop_count + (unsigned long int)1);
-  AO_nop_write$link2();
-  AO_store$link2(&GC_world_is_stopped, (unsigned long int)1);
+  AO_store_link2(&GC_stop_count, GC_stop_count + (unsigned long int)1);
+  AO_nop_write_link2();
+  AO_store_link2(&GC_world_is_stopped, (unsigned long int)1);
   n_live_threads=GC_suspend_all();
   if(!(GC_retry_signals == 0))
   {
@@ -20683,7 +20683,7 @@ void GC_stop_world(void)
   }
 
   i = 0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   for( ; !(i >= n_live_threads); i = i + 1)
   {
     do
@@ -20695,9 +20695,9 @@ void GC_stop_world(void)
       if(code == 0)
         goto __CPROVER_DUMP_L11;
 
-      return_value___errno_location$1=__errno_location();
+      return_value___errno_location_1=__errno_location();
     }
-    while(*return_value___errno_location$1 == 4);
+    while(*return_value___errno_location_1 == 4);
     GC_on_abort("sem_wait for handler failed");
     abort();
 
@@ -20744,11 +20744,11 @@ signed int GC_stopped_mark(signed int (*stop_func)(void))
 
   else
   {
-    char *return_value_GC_approx_sp$1;
-    return_value_GC_approx_sp$1=GC_approx_sp();
-    signed int return_value_GC_mark_some$2;
-    return_value_GC_mark_some$2=GC_mark_some(return_value_GC_approx_sp$1);
-    if(return_value_GC_mark_some$2 == 0)
+    char *return_value_GC_approx_sp_1;
+    return_value_GC_approx_sp_1=GC_approx_sp();
+    signed int return_value_GC_mark_some_2;
+    return_value_GC_mark_some_2=GC_mark_some(return_value_GC_approx_sp_1);
+    if(return_value_GC_mark_some_2 == 0)
       i = i + 1u;
 
     GC_gc_no = GC_gc_no + 1ul;
@@ -20794,9 +20794,9 @@ char * GC_store_debug_info(char *p, unsigned long int sz, const char *string, si
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -20815,15 +20815,15 @@ char * GC_store_debug_info(char *p, unsigned long int sz, const char *string, si
 // file dbg_mlc.c line 255
 char * GC_store_debug_info_inner(char *p, unsigned long int sz, const char *string, signed int linenum)
 {
-  unsigned long int *result = (unsigned long int *)((struct anonymous$18 *)p + (signed long int)1);
-  ((struct anonymous$18 *)p)->oh_string = string;
-  ((struct anonymous$18 *)p)->oh_int = (unsigned long int)linenum;
-  ((struct anonymous$18 *)p)->oh_sz = sz;
-  ((struct anonymous$18 *)p)->oh_sf = (unsigned long int)0xFEDCEDCBfedcedcbUL ^ (unsigned long int)result;
-  unsigned long int return_value_GC_size$1;
-  return_value_GC_size$1=GC_size((const void *)p);
+  unsigned long int *result = (unsigned long int *)((struct anonymous_18 *)p + (signed long int)1);
+  ((struct anonymous_18 *)p)->oh_string = string;
+  ((struct anonymous_18 *)p)->oh_int = (unsigned long int)linenum;
+  ((struct anonymous_18 *)p)->oh_sz = sz;
+  ((struct anonymous_18 *)p)->oh_sf = (unsigned long int)0xFEDCEDCBfedcedcbUL ^ (unsigned long int)result;
+  unsigned long int return_value_GC_size_1;
+  return_value_GC_size_1=GC_size((const void *)p);
   result[(signed long int)((sz + (unsigned long int)(1 << 3)) - (unsigned long int)1 >> 3)] = (unsigned long int)0xBCDECDEFbcdecdefUL ^ (unsigned long int)result;
-  ((unsigned long int *)p)[(signed long int)((return_value_GC_size$1 >> 3) - (unsigned long int)1)] = result[(signed long int)((sz + (unsigned long int)(1 << 3)) - (unsigned long int)1 >> 3)];
+  ((unsigned long int *)p)[(signed long int)((return_value_GC_size_1 >> 3) - (unsigned long int)1)] = result[(signed long int)((sz + (unsigned long int)(1 << 3)) - (unsigned long int)1 >> 3)];
   return (char *)result;
 }
 
@@ -20838,17 +20838,17 @@ extern char * GC_strdup(const char *s)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(s);
-    lb = return_value_strlen$1 + (unsigned long int)1;
-    void *return_value_GC_malloc_atomic$3;
-    return_value_GC_malloc_atomic$3=GC_malloc_atomic(lb);
-    copy = (char *)return_value_GC_malloc_atomic$3;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(s);
+    lb = return_value_strlen_1 + (unsigned long int)1;
+    void *return_value_GC_malloc_atomic_3;
+    return_value_GC_malloc_atomic_3=GC_malloc_atomic(lb);
+    copy = (char *)return_value_GC_malloc_atomic_3;
     if(copy == ((char *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 12;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 12;
       return (char *)(void *)0;
     }
 
@@ -20867,14 +20867,14 @@ extern char * GC_strndup(const char *str, unsigned long int size)
   if(!(size >= len))
     len = size;
 
-  void *return_value_GC_malloc_atomic$1;
-  return_value_GC_malloc_atomic$1=GC_malloc_atomic(len + (unsigned long int)1);
-  copy = (char *)return_value_GC_malloc_atomic$1;
+  void *return_value_GC_malloc_atomic_1;
+  return_value_GC_malloc_atomic_1=GC_malloc_atomic(len + (unsigned long int)1);
+  copy = (char *)return_value_GC_malloc_atomic_1;
   if(copy == ((char *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     return (char *)(void *)0;
   }
 
@@ -20940,16 +20940,16 @@ signed int GC_suspend_all(void)
 
 // GC_suspend_handler
 // file pthread_stop_world.c line 206
-void GC_suspend_handler(signed int sig, struct anonymous$6 *info, void *context)
+void GC_suspend_handler(signed int sig, struct anonymous_6 *info, void *context)
 {
   signed int old_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  old_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  old_errno = *return_value___errno_location_1;
   GC_suspend_handler_inner((char *)(unsigned long int)sig, context);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = old_errno;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = old_errno;
 }
 
 // GC_suspend_handler_inner
@@ -20961,7 +20961,7 @@ void GC_suspend_handler_inner(char *sig_arg, void *context)
   struct GC_Thread_Rep *me;
   signed int cancel_state;
   unsigned long int my_stop_count;
-  my_stop_count=AO_load$link3(&GC_stop_count);
+  my_stop_count=AO_load_link3(&GC_stop_count);
   if(!((signed long int)sig_arg == (signed long int)GC_sig_suspend))
   {
     GC_on_abort("Bad signal in suspend_handler");
@@ -20972,9 +20972,9 @@ void GC_suspend_handler_inner(char *sig_arg, void *context)
     pthread_setcancelstate(1, &cancel_state);
   while((_Bool)0);
   me=GC_lookup_thread(self);
-  unsigned long int return_value_AO_load_read$1;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_AO_load$2;
+  unsigned long int return_value_AO_load_read_1;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_AO_load_2;
   if(me->stop_info.last_stop_count == my_stop_count)
   {
     if(GC_retry_signals == 0)
@@ -20993,17 +20993,17 @@ void GC_suspend_handler_inner(char *sig_arg, void *context)
     do
     {
       sigsuspend(&suspend_handler_mask);
-      return_value_AO_load_read$1=AO_load_read$link1(&GC_world_is_stopped);
-      if(!(return_value_AO_load_read$1 == 0ul))
+      return_value_AO_load_read_1=AO_load_read_link1(&GC_world_is_stopped);
+      if(!(return_value_AO_load_read_1 == 0ul))
       {
-        return_value_AO_load$2=AO_load$link3(&GC_stop_count);
-        tmp_if_expr$3 = return_value_AO_load$2 == my_stop_count ? (_Bool)1 : (_Bool)0;
+        return_value_AO_load_2=AO_load_link3(&GC_stop_count);
+        tmp_if_expr_3 = return_value_AO_load_2 == my_stop_count ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
     }
-    while(tmp_if_expr$3);
+    while(tmp_if_expr_3);
     do
       pthread_setcancelstate(cancel_state, (signed int *)(void *)0);
     while((_Bool)0);
@@ -21019,9 +21019,9 @@ void GC_thr_init(void)
     GC_thr_initialized = 1;
     if(!(GC_handle_fork == 0))
     {
-      signed int return_value_pthread_atfork$1;
-      return_value_pthread_atfork$1=pthread_atfork(fork_prepare_proc, fork_parent_proc, fork_child_proc);
-      if(return_value_pthread_atfork$1 == 0)
+      signed int return_value_pthread_atfork_1;
+      return_value_pthread_atfork_1=pthread_atfork(fork_prepare_proc, fork_parent_proc, fork_child_proc);
+      if(return_value_pthread_atfork_1 == 0)
         GC_handle_fork = 1;
 
       else
@@ -21034,9 +21034,9 @@ void GC_thr_init(void)
     }
 
     struct GC_Thread_Rep *t;
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    t=GC_new_thread(return_value_pthread_self$2);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    t=GC_new_thread(return_value_pthread_self_2);
     if(t == ((struct GC_Thread_Rep *)NULL))
     {
       GC_on_abort("Failed to allocate memory for the initial thread");
@@ -21050,7 +21050,7 @@ void GC_thr_init(void)
     nprocs_string=getenv("GC_NPROCS");
     GC_nprocs = -1;
     if(!(nprocs_string == ((char *)NULL)))
-      GC_nprocs=atoi$link1(nprocs_string);
+      GC_nprocs=atoi_link1(nprocs_string);
 
     if(!(GC_nprocs >= 1))
       GC_nprocs=GC_get_nprocs();
@@ -21069,9 +21069,9 @@ void GC_thr_init(void)
       signed int markers_m1;
       if(!(markers_string == ((char *)NULL)))
       {
-        signed int return_value_atoi$3;
-        return_value_atoi$3=atoi$link1(markers_string);
-        markers_m1 = return_value_atoi$3 - 1;
+        signed int return_value_atoi_3;
+        return_value_atoi_3=atoi_link1(markers_string);
+        markers_m1 = return_value_atoi_3 - 1;
         if(markers_m1 >= 16)
         {
           GC_current_warn_proc("GC Warning: Limiting number of mark threads\n", (unsigned long int)0);
@@ -21117,9 +21117,9 @@ void GC_thread_exit_proc(void *arg)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -21150,9 +21150,9 @@ extern signed int GC_thread_is_registered(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -21181,9 +21181,9 @@ signed int GC_timeout_stop_func(void)
   else
   {
     static unsigned int count = (unsigned int)0;
-    unsigned int tmp_post$1 = count;
+    unsigned int tmp_post_1 = count;
     count = count + 1u;
-    if(!((3u & tmp_post$1) == 0u))
+    if(!((3u & tmp_post_1) == 0u))
       return 0;
 
     else
@@ -21208,9 +21208,9 @@ signed int GC_timeout_stop_func(void)
 // file alloc.c line 1000
 extern signed int GC_try_to_collect(signed int (*stop_func)(void))
 {
-  signed int return_value_GC_try_to_collect_general$1;
-  return_value_GC_try_to_collect_general$1=GC_try_to_collect_general(stop_func, 0);
-  return (signed int)return_value_GC_try_to_collect_general$1;
+  signed int return_value_GC_try_to_collect_general_1;
+  return_value_GC_try_to_collect_general_1=GC_try_to_collect_general(stop_func, 0);
+  return (signed int)return_value_GC_try_to_collect_general_1;
 }
 
 // GC_try_to_collect_general
@@ -21229,9 +21229,9 @@ signed int GC_try_to_collect_general(signed int (*stop_func)(void), signed int f
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -21269,34 +21269,34 @@ signed int GC_try_to_collect_inner(signed int (*stop_func)(void))
 {
   signed long int start_time = (signed long int)0;
   signed long int current_time;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   signed int return_value;
   if(!(GC_dont_gc == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     return_value=stop_func();
-    tmp_if_expr$1 = return_value != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = return_value != 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_GC_collection_in_progress$3;
-  signed int return_value_GC_reclaim_all$4;
-  if(tmp_if_expr$1)
+  signed int return_value_GC_collection_in_progress_3;
+  signed int return_value_GC_reclaim_all_4;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     if(!(GC_incremental == 0))
     {
-      return_value_GC_collection_in_progress$3=GC_collection_in_progress();
-      if(!(return_value_GC_collection_in_progress$3 == 0))
+      return_value_GC_collection_in_progress_3=GC_collection_in_progress();
+      if(!(return_value_GC_collection_in_progress_3 == 0))
       {
         if(!(GC_print_stats == 0))
           GC_log_printf("GC_try_to_collect_inner: finishing collection in progress\n");
 
-        signed int return_value_GC_collection_in_progress$2;
-        return_value_GC_collection_in_progress$2=GC_collection_in_progress();
-        if(!(return_value_GC_collection_in_progress$2 == 0))
+        signed int return_value_GC_collection_in_progress_2;
+        return_value_GC_collection_in_progress_2=GC_collection_in_progress();
+        if(!(return_value_GC_collection_in_progress_2 == 0))
         {
           signed int return_value_1;
           return_value_1=stop_func();
@@ -21323,8 +21323,8 @@ signed int GC_try_to_collect_inner(signed int (*stop_func)(void))
 
     if(!(stop_func == GC_never_stop_func) || !(GC_find_leak == 0))
     {
-      return_value_GC_reclaim_all$4=GC_reclaim_all(stop_func, 0);
-      if(return_value_GC_reclaim_all$4 == 0)
+      return_value_GC_reclaim_all_4=GC_reclaim_all(stop_func, 0);
+      if(return_value_GC_reclaim_all_4 == 0)
         return 0;
 
     }
@@ -21332,9 +21332,9 @@ signed int GC_try_to_collect_inner(signed int (*stop_func)(void))
     GC_invalidate_mark_state();
     GC_clear_marks();
     GC_is_full_gc = 1;
-    signed int return_value_GC_stopped_mark$5;
-    return_value_GC_stopped_mark$5=GC_stopped_mark(stop_func);
-    if(return_value_GC_stopped_mark$5 == 0)
+    signed int return_value_GC_stopped_mark_5;
+    return_value_GC_stopped_mark_5=GC_stopped_mark(stop_func);
+    if(return_value_GC_stopped_mark_5 == 0)
     {
       if(GC_incremental == 0)
       {
@@ -21427,8 +21427,8 @@ struct GC_ms_entry * GC_typed_mark_proc(unsigned long int *addr, struct GC_ms_en
 
               else
               {
-                unsigned long int GC_typed_mark_proc$$1$$1$$1$$1$$1$$1$$2$$1$$2$$obj_displ = (gran_offset << 4) + byte_offset;
-                if(GC_arrays._valid_offsets[(signed long int)GC_typed_mark_proc$$1$$1$$1$$1$$1$$1$$2$$1$$2$$obj_displ] == 0)
+                unsigned long int GC_typed_mark_proc__1__1__1__1__1__1__2__1__2__obj_displ = (gran_offset << 4) + byte_offset;
+                if(GC_arrays._valid_offsets[(signed long int)GC_typed_mark_proc__1__1__1__1__1__1__2__1__2__obj_displ] == 0)
                 {
                   if(!(GC_all_interior_pointers == 0))
                     GC_add_to_black_list_stack((unsigned long int)(char *)current);
@@ -21439,7 +21439,7 @@ struct GC_ms_entry * GC_typed_mark_proc(unsigned long int *addr, struct GC_ms_en
                 }
 
                 gran_displ = gran_displ - gran_offset;
-                base = base - (signed long int)GC_typed_mark_proc$$1$$1$$1$$1$$1$$1$$2$$1$$2$$obj_displ;
+                base = base - (signed long int)GC_typed_mark_proc__1__1__1__1__1__1__2__1__2__obj_displ;
               }
             }
 
@@ -21452,9 +21452,9 @@ struct GC_ms_entry * GC_typed_mark_proc(unsigned long int *addr, struct GC_ms_en
               *mark_byte_addr = (char)1;
             }
             while((_Bool)0);
-            unsigned long int return_value_AO_load$1;
-            return_value_AO_load$1=AO_load$link2(&my_hhdr->hb_n_marks);
-            AO_store$link1(&my_hhdr->hb_n_marks, return_value_AO_load$1 + (unsigned long int)1);
+            unsigned long int return_value_AO_load_1;
+            return_value_AO_load_1=AO_load_link2(&my_hhdr->hb_n_marks);
+            AO_store_link1(&my_hhdr->hb_n_marks, return_value_AO_load_1 + (unsigned long int)1);
             do
             {
               unsigned long int _descr = my_hhdr->hb_descr;
@@ -21566,9 +21566,9 @@ char * GC_unix_sbrk_get_mem(unsigned long int bytes)
 {
   char *result;
   char *cur_brk;
-  void *return_value_sbrk$1;
-  return_value_sbrk$1=sbrk((signed long int)0);
-  cur_brk = (char *)return_value_sbrk$1;
+  void *return_value_sbrk_1;
+  return_value_sbrk_1=sbrk((signed long int)0);
+  cur_brk = (char *)return_value_sbrk_1;
   signed long int lsbs = (signed long int)((unsigned long int)cur_brk & GC_page_size - (unsigned long int)1);
   if(!((signed long int)bytes >= 0l))
     result = ((char *)NULL);
@@ -21577,9 +21577,9 @@ char * GC_unix_sbrk_get_mem(unsigned long int bytes)
   {
     if(!(lsbs == 0l))
     {
-      void *return_value_sbrk$2;
-      return_value_sbrk$2=sbrk((signed long int)(GC_page_size - (unsigned long int)lsbs));
-      if((char *)return_value_sbrk$2 == (char *)-1)
+      void *return_value_sbrk_2;
+      return_value_sbrk_2=sbrk((signed long int)(GC_page_size - (unsigned long int)lsbs));
+      if((char *)return_value_sbrk_2 == (char *)-1)
       {
         result = ((char *)NULL);
         goto out;
@@ -21587,9 +21587,9 @@ char * GC_unix_sbrk_get_mem(unsigned long int bytes)
 
     }
 
-    void *return_value_sbrk$3;
-    return_value_sbrk$3=sbrk((signed long int)bytes);
-    result = (char *)return_value_sbrk$3;
+    void *return_value_sbrk_3;
+    return_value_sbrk_3=sbrk((signed long int)bytes);
+    result = (char *)return_value_sbrk_3;
     if(result == (char *)-1)
       result = ((char *)NULL);
 
@@ -21630,9 +21630,9 @@ extern signed int GC_unregister_disappearing_link(void **link)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -21681,56 +21681,56 @@ static inline struct disappearing_link * GC_unregister_disappearing_link_inner(s
   return curr_dl;
 }
 
-// GC_unregister_disappearing_link_inner$link1
+// GC_unregister_disappearing_link_inner_link1
 // file finalize.c line 227
-static inline struct disappearing_link * GC_unregister_disappearing_link_inner$link1(struct dl_hashtbl_s *dl_hashtbl$link1, void **link$link1)
+static inline struct disappearing_link * GC_unregister_disappearing_link_inner_link1(struct dl_hashtbl_s *dl_hashtbl_link1, void **link_link1)
 {
-  struct disappearing_link *curr_dl$link1;
-  struct disappearing_link *prev_dl$link1 = (struct disappearing_link *)(void *)0;
-  unsigned long int index$link1 = ((unsigned long int)link$link1 >> 3 ^ (unsigned long int)link$link1 >> (signed long int)3 + dl_hashtbl$link1->log_size) & (unsigned long int)((1 << dl_hashtbl$link1->log_size) - 1);
-  curr_dl$link1 = dl_hashtbl$link1->head[(signed long int)index$link1];
-  for( ; !(curr_dl$link1 == ((struct disappearing_link *)NULL)); curr_dl$link1 = (struct disappearing_link *)curr_dl$link1->prolog.next)
+  struct disappearing_link *curr_dl_link1;
+  struct disappearing_link *prev_dl_link1 = (struct disappearing_link *)(void *)0;
+  unsigned long int index_link1 = ((unsigned long int)link_link1 >> 3 ^ (unsigned long int)link_link1 >> (signed long int)3 + dl_hashtbl_link1->log_size) & (unsigned long int)((1 << dl_hashtbl_link1->log_size) - 1);
+  curr_dl_link1 = dl_hashtbl_link1->head[(signed long int)index_link1];
+  for( ; !(curr_dl_link1 == ((struct disappearing_link *)NULL)); curr_dl_link1 = (struct disappearing_link *)curr_dl_link1->prolog.next)
   {
-    if(curr_dl$link1->prolog.hidden_key == ~((unsigned long int)link$link1))
+    if(curr_dl_link1->prolog.hidden_key == ~((unsigned long int)link_link1))
     {
-      if(prev_dl$link1 == ((struct disappearing_link *)NULL))
-        dl_hashtbl$link1->head[(signed long int)index$link1] = (struct disappearing_link *)curr_dl$link1->prolog.next;
+      if(prev_dl_link1 == ((struct disappearing_link *)NULL))
+        dl_hashtbl_link1->head[(signed long int)index_link1] = (struct disappearing_link *)curr_dl_link1->prolog.next;
 
       else
-        prev_dl$link1->prolog.next = (struct hash_chain_entry *)(struct disappearing_link *)curr_dl$link1->prolog.next;
-      dl_hashtbl$link1->entries = dl_hashtbl$link1->entries - 1ul;
+        prev_dl_link1->prolog.next = (struct hash_chain_entry *)(struct disappearing_link *)curr_dl_link1->prolog.next;
+      dl_hashtbl_link1->entries = dl_hashtbl_link1->entries - 1ul;
       break;
     }
 
-    prev_dl$link1 = curr_dl$link1;
+    prev_dl_link1 = curr_dl_link1;
   }
-  return curr_dl$link1;
+  return curr_dl_link1;
 }
 
-// GC_unregister_disappearing_link_inner$link2
+// GC_unregister_disappearing_link_inner_link2
 // file finalize.c line 227
-static inline struct disappearing_link * GC_unregister_disappearing_link_inner$link2(struct dl_hashtbl_s *dl_hashtbl$link2, void **link$link2)
+static inline struct disappearing_link * GC_unregister_disappearing_link_inner_link2(struct dl_hashtbl_s *dl_hashtbl_link2, void **link_link2)
 {
-  struct disappearing_link *curr_dl$link2;
-  struct disappearing_link *prev_dl$link2 = (struct disappearing_link *)(void *)0;
-  unsigned long int index$link2 = ((unsigned long int)link$link2 >> 3 ^ (unsigned long int)link$link2 >> (signed long int)3 + dl_hashtbl$link2->log_size) & (unsigned long int)((1 << dl_hashtbl$link2->log_size) - 1);
-  curr_dl$link2 = dl_hashtbl$link2->head[(signed long int)index$link2];
-  for( ; !(curr_dl$link2 == ((struct disappearing_link *)NULL)); curr_dl$link2 = (struct disappearing_link *)curr_dl$link2->prolog.next)
+  struct disappearing_link *curr_dl_link2;
+  struct disappearing_link *prev_dl_link2 = (struct disappearing_link *)(void *)0;
+  unsigned long int index_link2 = ((unsigned long int)link_link2 >> 3 ^ (unsigned long int)link_link2 >> (signed long int)3 + dl_hashtbl_link2->log_size) & (unsigned long int)((1 << dl_hashtbl_link2->log_size) - 1);
+  curr_dl_link2 = dl_hashtbl_link2->head[(signed long int)index_link2];
+  for( ; !(curr_dl_link2 == ((struct disappearing_link *)NULL)); curr_dl_link2 = (struct disappearing_link *)curr_dl_link2->prolog.next)
   {
-    if(curr_dl$link2->prolog.hidden_key == ~((unsigned long int)link$link2))
+    if(curr_dl_link2->prolog.hidden_key == ~((unsigned long int)link_link2))
     {
-      if(prev_dl$link2 == ((struct disappearing_link *)NULL))
-        dl_hashtbl$link2->head[(signed long int)index$link2] = (struct disappearing_link *)curr_dl$link2->prolog.next;
+      if(prev_dl_link2 == ((struct disappearing_link *)NULL))
+        dl_hashtbl_link2->head[(signed long int)index_link2] = (struct disappearing_link *)curr_dl_link2->prolog.next;
 
       else
-        prev_dl$link2->prolog.next = (struct hash_chain_entry *)(struct disappearing_link *)curr_dl$link2->prolog.next;
-      dl_hashtbl$link2->entries = dl_hashtbl$link2->entries - 1ul;
+        prev_dl_link2->prolog.next = (struct hash_chain_entry *)(struct disappearing_link *)curr_dl_link2->prolog.next;
+      dl_hashtbl_link2->entries = dl_hashtbl_link2->entries - 1ul;
       break;
     }
 
-    prev_dl$link2 = curr_dl$link2;
+    prev_dl_link2 = curr_dl_link2;
   }
-  return curr_dl$link2;
+  return curr_dl_link2;
 }
 
 // GC_unregister_long_link
@@ -21746,9 +21746,9 @@ extern signed int GC_unregister_long_link(void **link)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -21782,9 +21782,9 @@ extern signed int GC_unregister_my_thread(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -21817,9 +21817,9 @@ void GC_unregister_my_thread_inner(struct GC_Thread_Rep *me)
 
   if(!((2 & (signed int)me->flags) == 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    GC_delete_thread(return_value_pthread_self$1);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    GC_delete_thread(return_value_pthread_self_1);
   }
 
   else
@@ -21830,9 +21830,9 @@ void GC_unregister_my_thread_inner(struct GC_Thread_Rep *me)
 // file pthread_support.c line 2002
 void GC_wait_builder(void)
 {
-  signed int return_value_pthread_cond_wait$1;
-  return_value_pthread_cond_wait$1=pthread_cond_wait(&builder_cv, &mark_mutex);
-  if(!(return_value_pthread_cond_wait$1 == 0))
+  signed int return_value_pthread_cond_wait_1;
+  return_value_pthread_cond_wait_1=pthread_cond_wait(&builder_cv, &mark_mutex);
+  if(!(return_value_pthread_cond_wait_1 == 0))
   {
     GC_on_abort("pthread_cond_wait failed");
     abort();
@@ -21844,18 +21844,18 @@ void GC_wait_builder(void)
 // file pthread_support.c line 911
 void GC_wait_for_gc_completion(signed int wait_for_all)
 {
-  signed int return_value_GC_collection_in_progress$3;
-  signed int return_value_GC_collection_in_progress$1;
+  signed int return_value_GC_collection_in_progress_3;
+  signed int return_value_GC_collection_in_progress_1;
   if(!(GC_incremental == 0))
   {
-    return_value_GC_collection_in_progress$3=GC_collection_in_progress();
-    if(!(return_value_GC_collection_in_progress$3 == 0))
+    return_value_GC_collection_in_progress_3=GC_collection_in_progress();
+    if(!(return_value_GC_collection_in_progress_3 == 0))
     {
       unsigned long int old_gc_no = GC_gc_no;
       while(!(GC_incremental == 0))
       {
-        return_value_GC_collection_in_progress$1=GC_collection_in_progress();
-        if(return_value_GC_collection_in_progress$1 == 0)
+        return_value_GC_collection_in_progress_1=GC_collection_in_progress();
+        if(return_value_GC_collection_in_progress_1 == 0)
           break;
 
         if(!(old_gc_no == GC_gc_no) && wait_for_all == 0)
@@ -21875,9 +21875,9 @@ void GC_wait_for_gc_completion(signed int wait_for_all)
         do
           if(!(GC_need_to_lock == 0))
           {
-            signed int return_value_pthread_mutex_trylock$2;
-            return_value_pthread_mutex_trylock$2=pthread_mutex_trylock(&GC_allocate_ml);
-            if(!(return_value_pthread_mutex_trylock$2 == 0))
+            signed int return_value_pthread_mutex_trylock_2;
+            return_value_pthread_mutex_trylock_2=pthread_mutex_trylock(&GC_allocate_ml);
+            if(!(return_value_pthread_mutex_trylock_2 == 0))
               GC_lock();
 
           }
@@ -21904,9 +21904,9 @@ void GC_wait_for_reclaim(void)
 // file ./include/private/gc_priv.h line 2379
 void GC_wait_marker(void)
 {
-  signed int return_value_pthread_cond_wait$1;
-  return_value_pthread_cond_wait$1=pthread_cond_wait(&mark_cv, &mark_mutex);
-  if(!(return_value_pthread_cond_wait$1 == 0))
+  signed int return_value_pthread_cond_wait_1;
+  return_value_pthread_cond_wait_1=pthread_cond_wait(&mark_cv, &mark_mutex);
+  if(!(return_value_pthread_cond_wait_1 == 0))
   {
     GC_on_abort("pthread_cond_wait failed");
     abort();
@@ -21923,9 +21923,9 @@ void GC_with_callee_saves_pushed(void (*fn)(char *, void *), char *arg)
   struct ucontext ctxt;
   unsigned short int old_fcw;
   asm("fstcw %0" : "=m"(*(&old_fcw)) :  : );
-  signed int return_value_getcontext$1;
-  return_value_getcontext$1=getcontext(&ctxt);
-  if(!(return_value_getcontext$1 >= 0))
+  signed int return_value_getcontext_1;
+  return_value_getcontext_1=getcontext(&ctxt);
+  if(!(return_value_getcontext_1 >= 0))
   {
     GC_on_abort("getcontext failed: Use another register retrieval method?");
     abort();
@@ -21953,9 +21953,9 @@ signed int GC_write(signed int fd, const char *buf, unsigned long int len)
   while((_Bool)0);
   while(!((unsigned long int)bytes_written >= len))
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(fd, (const void *)(buf + (signed long int)bytes_written), len - (unsigned long int)bytes_written);
-    result = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(fd, (const void *)(buf + (signed long int)bytes_written), len - (unsigned long int)bytes_written);
+    result = (signed int)return_value_write_1;
     if(result == -1)
     {
       do
@@ -21974,7 +21974,7 @@ signed int GC_write(signed int fd, const char *buf, unsigned long int len)
 
 // GC_write_fault_handler
 // file os_dep.c line 3124
-void GC_write_fault_handler(signed int sig, struct anonymous$6 *si, void *raw_sc)
+void GC_write_fault_handler(signed int sig, struct anonymous_6 *si, void *raw_sc)
 {
   char *addr = (char *)si->_sifields._sigfault.si_addr;
   unsigned int i;
@@ -21982,16 +21982,16 @@ void GC_write_fault_handler(signed int sig, struct anonymous$6 *si, void *raw_sc
   {
     struct hblk *h = (struct hblk *)((unsigned long int)addr & ~(GC_page_size - (unsigned long int)1));
     signed int in_allocd_block;
-    struct hblkhdr *return_value_GC_find_header$1;
-    return_value_GC_find_header$1=GC_find_header((char *)addr);
-    in_allocd_block = (signed int)(return_value_GC_find_header$1 != ((struct hblkhdr *)NULL));
+    struct hblkhdr *return_value_GC_find_header_1;
+    return_value_GC_find_header_1=GC_find_header((char *)addr);
+    in_allocd_block = (signed int)(return_value_GC_find_header_1 != ((struct hblkhdr *)NULL));
     if(in_allocd_block == 0)
     {
-      void (*old_handler)(signed int, struct anonymous$6 *, void *);
+      void (*old_handler)(signed int, struct anonymous_6 *, void *);
       signed int used_si;
       old_handler = GC_old_segv_handler;
       used_si = GC_old_segv_handler_used_si;
-      if(old_handler == ((void (*)(signed int, struct anonymous$6 *, void *))NULL))
+      if(old_handler == ((void (*)(signed int, struct anonymous_6 *, void *))NULL))
       {
         if(!(GC_print_stats == 0))
           GC_log_printf("Unexpected bus error or segmentation fault at %p", addr);
@@ -22002,15 +22002,15 @@ void GC_write_fault_handler(signed int sig, struct anonymous$6 *si, void *raw_sc
 
       else
         if(!(used_si == 0))
-          ((void (*)(signed int, struct anonymous$6 *, void *))old_handler)(sig, si, raw_sc);
+          ((void (*)(signed int, struct anonymous_6 *, void *))old_handler)(sig, si, raw_sc);
 
         else
           ((void (*)(signed int))old_handler)(sig);
     }
 
-    signed int return_value_mprotect$2;
-    return_value_mprotect$2=mprotect((void *)(char *)h, (unsigned long int)GC_page_size, 0x1 | 0x2 | (GC_pages_executable != 0 ? 0x4 : 0));
-    if(!(return_value_mprotect$2 >= 0))
+    signed int return_value_mprotect_2;
+    return_value_mprotect_2=mprotect((void *)(char *)h, (unsigned long int)GC_page_size, 0x1 | 0x2 | (GC_pages_executable != 0 ? 0x4 : 0));
+    if(!(return_value_mprotect_2 >= 0))
     {
       GC_on_abort(GC_pages_executable != 0 ? "un-mprotect executable page failed (probably disabled by OS)" : "un-mprotect failed");
       abort();
@@ -22045,24 +22045,24 @@ static inline void add_roots_to_index(struct roots *p)
   GC_arrays._root_index[(signed long int)h] = p;
 }
 
-// add_roots_to_index$link1
+// add_roots_to_index_link1
 // file mark_rts.c line 140
-static inline void add_roots_to_index$link1(struct roots *p$link1)
+static inline void add_roots_to_index_link1(struct roots *p_link1)
 {
-  signed int h$link1;
-  h$link1=rt_hash$link1(p$link1->r_start);
-  p$link1->r_next = GC_arrays._root_index[(signed long int)h$link1];
-  GC_arrays._root_index[(signed long int)h$link1] = p$link1;
+  signed int h_link1;
+  h_link1=rt_hash_link1(p_link1->r_start);
+  p_link1->r_next = GC_arrays._root_index[(signed long int)h_link1];
+  GC_arrays._root_index[(signed long int)h_link1] = p_link1;
 }
 
-// add_roots_to_index$link2
+// add_roots_to_index_link2
 // file mark_rts.c line 140
-static inline void add_roots_to_index$link2(struct roots *p$link2)
+static inline void add_roots_to_index_link2(struct roots *p_link2)
 {
-  signed int h$link2;
-  h$link2=rt_hash$link2(p$link2->r_start);
-  p$link2->r_next = GC_arrays._root_index[(signed long int)h$link2];
-  GC_arrays._root_index[(signed long int)h$link2] = p$link2;
+  signed int h_link2;
+  h_link2=rt_hash_link2(p_link2->r_start);
+  p_link2->r_next = GC_arrays._root_index[(signed long int)h_link2];
+  GC_arrays._root_index[(signed long int)h_link2] = p_link2;
 }
 
 // alloc_hdr
@@ -22072,9 +22072,9 @@ static struct hblkhdr * alloc_hdr(void)
   struct hblkhdr *result;
   if(hdr_free_list == ((struct hblkhdr *)NULL))
   {
-    char *return_value_GC_scratch_alloc$1;
-    return_value_GC_scratch_alloc$1=GC_scratch_alloc((unsigned long int)sizeof(struct hblkhdr) /*528ul*/ );
-    result = (struct hblkhdr *)return_value_GC_scratch_alloc$1;
+    char *return_value_GC_scratch_alloc_1;
+    return_value_GC_scratch_alloc_1=GC_scratch_alloc((unsigned long int)sizeof(struct hblkhdr) /*528ul*/ );
+    result = (struct hblkhdr *)return_value_GC_scratch_alloc_1;
   }
 
   else
@@ -22085,44 +22085,44 @@ static struct hblkhdr * alloc_hdr(void)
   return result;
 }
 
-// alloc_hdr$link1
+// alloc_hdr_link1
 // file headers.c line 164
-static struct hblkhdr * alloc_hdr$link1(void)
+static struct hblkhdr * alloc_hdr_link1(void)
 {
-  struct hblkhdr *result$link1;
-  if(hdr_free_list$link1 == ((struct hblkhdr *)NULL))
+  struct hblkhdr *result_link1;
+  if(hdr_free_list_link1 == ((struct hblkhdr *)NULL))
   {
-    char *return_value_GC_scratch_alloc$1$link1;
-    return_value_GC_scratch_alloc$1$link1=GC_scratch_alloc((unsigned long int)sizeof(struct hblkhdr) /*528ul*/ );
-    result$link1 = (struct hblkhdr *)return_value_GC_scratch_alloc$1$link1;
+    char *return_value_GC_scratch_alloc_1_link1;
+    return_value_GC_scratch_alloc_1_link1=GC_scratch_alloc((unsigned long int)sizeof(struct hblkhdr) /*528ul*/ );
+    result_link1 = (struct hblkhdr *)return_value_GC_scratch_alloc_1_link1;
   }
 
   else
   {
-    result$link1 = hdr_free_list$link1;
-    hdr_free_list$link1 = (struct hblkhdr *)result$link1->hb_next;
+    result_link1 = hdr_free_list_link1;
+    hdr_free_list_link1 = (struct hblkhdr *)result_link1->hb_next;
   }
-  return result$link1;
+  return result_link1;
 }
 
-// alloc_hdr$link2
+// alloc_hdr_link2
 // file headers.c line 164
-static struct hblkhdr * alloc_hdr$link2(void)
+static struct hblkhdr * alloc_hdr_link2(void)
 {
-  struct hblkhdr *result$link2;
-  if(hdr_free_list$link2 == ((struct hblkhdr *)NULL))
+  struct hblkhdr *result_link2;
+  if(hdr_free_list_link2 == ((struct hblkhdr *)NULL))
   {
-    char *return_value_GC_scratch_alloc$1$link2;
-    return_value_GC_scratch_alloc$1$link2=GC_scratch_alloc((unsigned long int)sizeof(struct hblkhdr) /*528ul*/ );
-    result$link2 = (struct hblkhdr *)return_value_GC_scratch_alloc$1$link2;
+    char *return_value_GC_scratch_alloc_1_link2;
+    return_value_GC_scratch_alloc_1_link2=GC_scratch_alloc((unsigned long int)sizeof(struct hblkhdr) /*528ul*/ );
+    result_link2 = (struct hblkhdr *)return_value_GC_scratch_alloc_1_link2;
   }
 
   else
   {
-    result$link2 = hdr_free_list$link2;
-    hdr_free_list$link2 = (struct hblkhdr *)result$link2->hb_next;
+    result_link2 = hdr_free_list_link2;
+    hdr_free_list_link2 = (struct hblkhdr *)result_link2->hb_next;
   }
-  return result$link2;
+  return result_link2;
 }
 
 // alloc_mark_stack
@@ -22130,9 +22130,9 @@ static struct hblkhdr * alloc_hdr$link2(void)
 static void alloc_mark_stack(unsigned long int n)
 {
   struct GC_ms_entry *new_stack;
-  char *return_value_GC_scratch_alloc$1;
-  return_value_GC_scratch_alloc$1=GC_scratch_alloc(n * sizeof(struct GC_ms_entry) /*16ul*/ );
-  new_stack = (struct GC_ms_entry *)return_value_GC_scratch_alloc$1;
+  char *return_value_GC_scratch_alloc_1;
+  return_value_GC_scratch_alloc_1=GC_scratch_alloc(n * sizeof(struct GC_ms_entry) /*16ul*/ );
+  new_stack = (struct GC_ms_entry *)return_value_GC_scratch_alloc_1;
   GC_mark_stack_too_small = 0;
   if(!(GC_mark_stack_size == 0ul))
   {
@@ -22178,108 +22178,108 @@ static void alloc_mark_stack(unsigned long int n)
   GC_arrays._mark_stack_top = GC_arrays._mark_stack - (signed long int)1;
 }
 
-// alloc_mark_stack$link1
+// alloc_mark_stack_link1
 // file mark.c line 1187
-static void alloc_mark_stack$link1(unsigned long int n$link1)
+static void alloc_mark_stack_link1(unsigned long int n_link1)
 {
-  struct GC_ms_entry *new_stack$link1;
-  char *return_value_GC_scratch_alloc$1$link1;
-  return_value_GC_scratch_alloc$1$link1=GC_scratch_alloc(n$link1 * sizeof(struct GC_ms_entry) /*16ul*/ );
-  new_stack$link1 = (struct GC_ms_entry *)return_value_GC_scratch_alloc$1$link1;
+  struct GC_ms_entry *new_stack_link1;
+  char *return_value_GC_scratch_alloc_1_link1;
+  return_value_GC_scratch_alloc_1_link1=GC_scratch_alloc(n_link1 * sizeof(struct GC_ms_entry) /*16ul*/ );
+  new_stack_link1 = (struct GC_ms_entry *)return_value_GC_scratch_alloc_1_link1;
   GC_mark_stack_too_small = 0;
   if(!(GC_mark_stack_size == 0ul))
   {
-    if(!(new_stack$link1 == ((struct GC_ms_entry *)NULL)))
+    if(!(new_stack_link1 == ((struct GC_ms_entry *)NULL)))
     {
       {
-        unsigned long int page_offset$link1 = (unsigned long int)GC_arrays._mark_stack & GC_page_size - (unsigned long int)1;
-        unsigned long int size$link1 = GC_mark_stack_size * sizeof(struct GC_ms_entry) /*16ul*/ ;
-        unsigned long int displ$link1 = (unsigned long int)0;
-        if(!(page_offset$link1 == 0ul))
-          displ$link1 = GC_page_size - page_offset$link1;
+        unsigned long int page_offset_link1 = (unsigned long int)GC_arrays._mark_stack & GC_page_size - (unsigned long int)1;
+        unsigned long int size_link1 = GC_mark_stack_size * sizeof(struct GC_ms_entry) /*16ul*/ ;
+        unsigned long int displ_link1 = (unsigned long int)0;
+        if(!(page_offset_link1 == 0ul))
+          displ_link1 = GC_page_size - page_offset_link1;
 
-        size$link1 = size$link1 - displ$link1 & ~(GC_page_size - (unsigned long int)1);
-        if(size$link1 >= 1ul)
-          GC_add_to_heap((struct hblk *)((unsigned long int)GC_arrays._mark_stack + displ$link1), (unsigned long int)size$link1);
+        size_link1 = size_link1 - displ_link1 & ~(GC_page_size - (unsigned long int)1);
+        if(size_link1 >= 1ul)
+          GC_add_to_heap((struct hblk *)((unsigned long int)GC_arrays._mark_stack + displ_link1), (unsigned long int)size_link1);
 
       }
-      GC_arrays._mark_stack = new_stack$link1;
-      GC_mark_stack_size = n$link1;
-      GC_arrays._mark_stack_limit = new_stack$link1 + (signed long int)n$link1;
+      GC_arrays._mark_stack = new_stack_link1;
+      GC_mark_stack_size = n_link1;
+      GC_arrays._mark_stack_limit = new_stack_link1 + (signed long int)n_link1;
       if(!(GC_print_stats == 0))
         GC_log_printf("Grew mark stack to %lu frames\n", (unsigned long int)GC_mark_stack_size);
 
     }
 
     else
-      GC_current_warn_proc("GC Warning: Failed to grow mark stack to %ld frames\n", (unsigned long int)n$link1);
+      GC_current_warn_proc("GC Warning: Failed to grow mark stack to %ld frames\n", (unsigned long int)n_link1);
   }
 
   else
   {
-    if(new_stack$link1 == ((struct GC_ms_entry *)NULL))
+    if(new_stack_link1 == ((struct GC_ms_entry *)NULL))
     {
       GC_err_printf("No space for mark stack\n");
       GC_on_abort((const char *)(void *)0);
       exit(1);
     }
 
-    GC_arrays._mark_stack = new_stack$link1;
-    GC_mark_stack_size = n$link1;
-    GC_arrays._mark_stack_limit = new_stack$link1 + (signed long int)n$link1;
+    GC_arrays._mark_stack = new_stack_link1;
+    GC_mark_stack_size = n_link1;
+    GC_arrays._mark_stack_limit = new_stack_link1 + (signed long int)n_link1;
   }
   GC_arrays._mark_stack_top = GC_arrays._mark_stack - (signed long int)1;
 }
 
-// alloc_mark_stack$link2
+// alloc_mark_stack_link2
 // file mark.c line 1187
-static void alloc_mark_stack$link2(unsigned long int n$link2)
+static void alloc_mark_stack_link2(unsigned long int n_link2)
 {
-  struct GC_ms_entry *new_stack$link2;
-  char *return_value_GC_scratch_alloc$1$link2;
-  return_value_GC_scratch_alloc$1$link2=GC_scratch_alloc(n$link2 * sizeof(struct GC_ms_entry) /*16ul*/ );
-  new_stack$link2 = (struct GC_ms_entry *)return_value_GC_scratch_alloc$1$link2;
+  struct GC_ms_entry *new_stack_link2;
+  char *return_value_GC_scratch_alloc_1_link2;
+  return_value_GC_scratch_alloc_1_link2=GC_scratch_alloc(n_link2 * sizeof(struct GC_ms_entry) /*16ul*/ );
+  new_stack_link2 = (struct GC_ms_entry *)return_value_GC_scratch_alloc_1_link2;
   GC_mark_stack_too_small = 0;
   if(!(GC_mark_stack_size == 0ul))
   {
-    if(!(new_stack$link2 == ((struct GC_ms_entry *)NULL)))
+    if(!(new_stack_link2 == ((struct GC_ms_entry *)NULL)))
     {
       {
-        unsigned long int page_offset$link2 = (unsigned long int)GC_arrays._mark_stack & GC_page_size - (unsigned long int)1;
-        unsigned long int size$link2 = GC_mark_stack_size * sizeof(struct GC_ms_entry) /*16ul*/ ;
-        unsigned long int displ$link2 = (unsigned long int)0;
-        if(!(page_offset$link2 == 0ul))
-          displ$link2 = GC_page_size - page_offset$link2;
+        unsigned long int page_offset_link2 = (unsigned long int)GC_arrays._mark_stack & GC_page_size - (unsigned long int)1;
+        unsigned long int size_link2 = GC_mark_stack_size * sizeof(struct GC_ms_entry) /*16ul*/ ;
+        unsigned long int displ_link2 = (unsigned long int)0;
+        if(!(page_offset_link2 == 0ul))
+          displ_link2 = GC_page_size - page_offset_link2;
 
-        size$link2 = size$link2 - displ$link2 & ~(GC_page_size - (unsigned long int)1);
-        if(size$link2 >= 1ul)
-          GC_add_to_heap((struct hblk *)((unsigned long int)GC_arrays._mark_stack + displ$link2), (unsigned long int)size$link2);
+        size_link2 = size_link2 - displ_link2 & ~(GC_page_size - (unsigned long int)1);
+        if(size_link2 >= 1ul)
+          GC_add_to_heap((struct hblk *)((unsigned long int)GC_arrays._mark_stack + displ_link2), (unsigned long int)size_link2);
 
       }
-      GC_arrays._mark_stack = new_stack$link2;
-      GC_mark_stack_size = n$link2;
-      GC_arrays._mark_stack_limit = new_stack$link2 + (signed long int)n$link2;
+      GC_arrays._mark_stack = new_stack_link2;
+      GC_mark_stack_size = n_link2;
+      GC_arrays._mark_stack_limit = new_stack_link2 + (signed long int)n_link2;
       if(!(GC_print_stats == 0))
         GC_log_printf("Grew mark stack to %lu frames\n", (unsigned long int)GC_mark_stack_size);
 
     }
 
     else
-      GC_current_warn_proc("GC Warning: Failed to grow mark stack to %ld frames\n", (unsigned long int)n$link2);
+      GC_current_warn_proc("GC Warning: Failed to grow mark stack to %ld frames\n", (unsigned long int)n_link2);
   }
 
   else
   {
-    if(new_stack$link2 == ((struct GC_ms_entry *)NULL))
+    if(new_stack_link2 == ((struct GC_ms_entry *)NULL))
     {
       GC_err_printf("No space for mark stack\n");
       GC_on_abort((const char *)(void *)0);
       exit(1);
     }
 
-    GC_arrays._mark_stack = new_stack$link2;
-    GC_mark_stack_size = n$link2;
-    GC_arrays._mark_stack_limit = new_stack$link2 + (signed long int)n$link2;
+    GC_arrays._mark_stack = new_stack_link2;
+    GC_mark_stack_size = n_link2;
+    GC_arrays._mark_stack_limit = new_stack_link2 + (signed long int)n_link2;
   }
   GC_arrays._mark_stack_top = GC_arrays._mark_stack - (signed long int)1;
 }
@@ -22288,135 +22288,135 @@ static void alloc_mark_stack$link2(unsigned long int n$link2)
 // file os_dep.c line 3028
 static void async_set_pht_entry_from_index(unsigned long int * volatile db, unsigned long int index)
 {
-  enum anonymous$9 return_value_AO_test_and_set_full$1;
+  enum anonymous_9 return_value_AO_test_and_set_full_1;
   do
   {
-    return_value_AO_test_and_set_full$1=AO_test_and_set_full(&GC_fault_handler_lock);
-    if(!((signed int)return_value_AO_test_and_set_full$1 == AO_BYTE_TS_set))
+    return_value_AO_test_and_set_full_1=AO_test_and_set_full(&GC_fault_handler_lock);
+    if(!((signed int)return_value_AO_test_and_set_full_1 == AO_BYTE_TS_set))
       break;
 
   }
   while((_Bool)1);
   db[(signed long int)(index >> (unsigned long int)6)] = db[(signed long int)(index >> (unsigned long int)6)] | (unsigned long int)1 << (index & (unsigned long int)0x3f);
-  AO_nop_write$link1();
+  AO_nop_write_link1();
   AO_char_store((unsigned char *)&GC_fault_handler_lock, (unsigned char)AO_BYTE_TS_clear);
 }
 
-// async_set_pht_entry_from_index$link1
+// async_set_pht_entry_from_index_link1
 // file os_dep.c line 3028
-static void async_set_pht_entry_from_index$link1(unsigned long int * volatile db$link1, unsigned long int index$link1)
+static void async_set_pht_entry_from_index_link1(unsigned long int * volatile db_link1, unsigned long int index_link1)
 {
-  enum anonymous$9 return_value_AO_test_and_set_full$1$link1;
+  enum anonymous_9 return_value_AO_test_and_set_full_1_link1;
   do
   {
-    return_value_AO_test_and_set_full$1$link1=AO_test_and_set_full$link1(&GC_fault_handler_lock);
-    if(!((signed int)return_value_AO_test_and_set_full$1$link1 == AO_BYTE_TS_set))
+    return_value_AO_test_and_set_full_1_link1=AO_test_and_set_full_link1(&GC_fault_handler_lock);
+    if(!((signed int)return_value_AO_test_and_set_full_1_link1 == AO_BYTE_TS_set))
       break;
 
   }
   while((_Bool)1);
-  db$link1[(signed long int)(index$link1 >> (unsigned long int)6)] = db$link1[(signed long int)(index$link1 >> (unsigned long int)6)] | (unsigned long int)1 << (index$link1 & (unsigned long int)0x3f);
-  AO_nop_write$link1$link1();
-  AO_char_store$link1((unsigned char *)&GC_fault_handler_lock, (unsigned char)AO_BYTE_TS_clear);
+  db_link1[(signed long int)(index_link1 >> (unsigned long int)6)] = db_link1[(signed long int)(index_link1 >> (unsigned long int)6)] | (unsigned long int)1 << (index_link1 & (unsigned long int)0x3f);
+  AO_nop_write_link1_link1();
+  AO_char_store_link1((unsigned char *)&GC_fault_handler_lock, (unsigned char)AO_BYTE_TS_clear);
 }
 
-// async_set_pht_entry_from_index$link2
+// async_set_pht_entry_from_index_link2
 // file os_dep.c line 3028
-static void async_set_pht_entry_from_index$link2(unsigned long int * volatile db$link2, unsigned long int index$link2)
+static void async_set_pht_entry_from_index_link2(unsigned long int * volatile db_link2, unsigned long int index_link2)
 {
-  enum anonymous$9 return_value_AO_test_and_set_full$1$link2;
+  enum anonymous_9 return_value_AO_test_and_set_full_1_link2;
   do
   {
-    return_value_AO_test_and_set_full$1$link2=AO_test_and_set_full$link2(&GC_fault_handler_lock);
-    if(!((signed int)return_value_AO_test_and_set_full$1$link2 == AO_BYTE_TS_set))
+    return_value_AO_test_and_set_full_1_link2=AO_test_and_set_full_link2(&GC_fault_handler_lock);
+    if(!((signed int)return_value_AO_test_and_set_full_1_link2 == AO_BYTE_TS_set))
       break;
 
   }
   while((_Bool)1);
-  db$link2[(signed long int)(index$link2 >> (unsigned long int)6)] = db$link2[(signed long int)(index$link2 >> (unsigned long int)6)] | (unsigned long int)1 << (index$link2 & (unsigned long int)0x3f);
-  AO_nop_write$link1$link2();
-  AO_char_store$link2((unsigned char *)&GC_fault_handler_lock, (unsigned char)AO_BYTE_TS_clear);
+  db_link2[(signed long int)(index_link2 >> (unsigned long int)6)] = db_link2[(signed long int)(index_link2 >> (unsigned long int)6)] | (unsigned long int)1 << (index_link2 & (unsigned long int)0x3f);
+  AO_nop_write_link1_link2();
+  AO_char_store_link2((unsigned char *)&GC_fault_handler_lock, (unsigned char)AO_BYTE_TS_clear);
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
-// atoi$link1$link1
+// atoi_link1_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1$link1(const char *__nptr$link1$link1)
+static inline signed int atoi_link1_link1(const char *__nptr_link1_link1)
 {
-  signed long int return_value_strtol$1$link1$link1;
-  return_value_strtol$1$link1$link1=strtol(__nptr$link1$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1$link1;
+  signed long int return_value_strtol_1_link1_link1;
+  return_value_strtol_1_link1_link1=strtol(__nptr_link1_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1_link1;
 }
 
-// atoi$link1$link2
+// atoi_link1_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1$link2(const char *__nptr$link1$link2)
+static inline signed int atoi_link1_link2(const char *__nptr_link1_link2)
 {
-  signed long int return_value_strtol$1$link1$link2;
-  return_value_strtol$1$link1$link2=strtol(__nptr$link1$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1$link2;
+  signed long int return_value_strtol_1_link1_link2;
+  return_value_strtol_1_link1_link2=strtol(__nptr_link1_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1_link2;
 }
 
-// atoi$link2
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2)
+static inline signed int atoi_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link2;
 }
 
-// atoi$link3
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3)
+static inline signed int atoi_link3(const char *__nptr_link3)
 {
-  signed long int return_value_strtol$1$link3;
-  return_value_strtol$1$link3=strtol(__nptr$link3, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link3;
+  signed long int return_value_strtol_1_link3;
+  return_value_strtol_1_link3=strtol(__nptr_link3, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link3;
 }
 
 // atol
 // file /usr/include/stdlib.h line 283
 static inline signed long int atol(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return return_value_strtol_1;
 }
 
-// atol$link1
+// atol_link1
 // file /usr/include/stdlib.h line 283
-static inline signed long int atol$link1(const char *__nptr$link1)
+static inline signed long int atol_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return return_value_strtol_1_link1;
 }
 
-// atol$link2
+// atol_link2
 // file /usr/include/stdlib.h line 283
-static inline signed long int atol$link2(const char *__nptr$link2)
+static inline signed long int atol_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return return_value_strtol_1_link2;
 }
 
 // clear_marks_for_block
@@ -22430,25 +22430,25 @@ static void clear_marks_for_block(struct hblk *h, unsigned long int dummy)
 
 }
 
-// clear_marks_for_block$link1
+// clear_marks_for_block_link1
 // file mark.c line 166
-static void clear_marks_for_block$link1(struct hblk *h$link1, unsigned long int dummy$link1)
+static void clear_marks_for_block_link1(struct hblk *h_link1, unsigned long int dummy_link1)
 {
-  struct hblkhdr *hhdr$link1;
-  hhdr$link1=GC_find_header((char *)h$link1);
-  if(!((-2 & (signed int)hhdr$link1->hb_obj_kind) == 2))
-    GC_clear_hdr_marks(hhdr$link1);
+  struct hblkhdr *hhdr_link1;
+  hhdr_link1=GC_find_header((char *)h_link1);
+  if(!((-2 & (signed int)hhdr_link1->hb_obj_kind) == 2))
+    GC_clear_hdr_marks(hhdr_link1);
 
 }
 
-// clear_marks_for_block$link2
+// clear_marks_for_block_link2
 // file mark.c line 166
-static void clear_marks_for_block$link2(struct hblk *h$link2, unsigned long int dummy$link2)
+static void clear_marks_for_block_link2(struct hblk *h_link2, unsigned long int dummy_link2)
 {
-  struct hblkhdr *hhdr$link2;
-  hhdr$link2=GC_find_header((char *)h$link2);
-  if(!((-2 & (signed int)hhdr$link2->hb_obj_kind) == 2))
-    GC_clear_hdr_marks(hhdr$link2);
+  struct hblkhdr *hhdr_link2;
+  hhdr_link2=GC_find_header((char *)h_link2);
+  if(!((-2 & (signed int)hhdr_link2->hb_obj_kind) == 2))
+    GC_clear_hdr_marks(hhdr_link2);
 
 }
 
@@ -22459,19 +22459,19 @@ static void disable_gc_for_dlopen(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  signed int return_value_GC_collection_in_progress$2;
+  signed int return_value_GC_collection_in_progress_2;
   while(!(GC_incremental == 0))
   {
-    return_value_GC_collection_in_progress$2=GC_collection_in_progress();
-    if(return_value_GC_collection_in_progress$2 == 0)
+    return_value_GC_collection_in_progress_2=GC_collection_in_progress();
+    if(return_value_GC_collection_in_progress_2 == 0)
       break;
 
     GC_collect_a_little_inner(1000);
@@ -22484,26 +22484,26 @@ static void disable_gc_for_dlopen(void)
   while((_Bool)0);
 }
 
-// disable_gc_for_dlopen$link1
+// disable_gc_for_dlopen_link1
 // file gc_dlopen.c line 44
-static void disable_gc_for_dlopen$link1(void)
+static void disable_gc_for_dlopen_link1(void)
 {
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1$link1;
-      return_value_pthread_mutex_trylock$1$link1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1$link1 == 0))
+      signed int return_value_pthread_mutex_trylock_1_link1;
+      return_value_pthread_mutex_trylock_1_link1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1_link1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  signed int return_value_GC_collection_in_progress$2$link1;
+  signed int return_value_GC_collection_in_progress_2_link1;
   while(!(GC_incremental == 0))
   {
-    return_value_GC_collection_in_progress$2$link1=GC_collection_in_progress();
-    if(return_value_GC_collection_in_progress$2$link1 == 0)
+    return_value_GC_collection_in_progress_2_link1=GC_collection_in_progress();
+    if(return_value_GC_collection_in_progress_2_link1 == 0)
       break;
 
     GC_collect_a_little_inner(1000);
@@ -22516,26 +22516,26 @@ static void disable_gc_for_dlopen$link1(void)
   while((_Bool)0);
 }
 
-// disable_gc_for_dlopen$link2
+// disable_gc_for_dlopen_link2
 // file gc_dlopen.c line 44
-static void disable_gc_for_dlopen$link2(void)
+static void disable_gc_for_dlopen_link2(void)
 {
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1$link2;
-      return_value_pthread_mutex_trylock$1$link2=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1$link2 == 0))
+      signed int return_value_pthread_mutex_trylock_1_link2;
+      return_value_pthread_mutex_trylock_1_link2=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1_link2 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
-  signed int return_value_GC_collection_in_progress$2$link2;
+  signed int return_value_GC_collection_in_progress_2_link2;
   while(!(GC_incremental == 0))
   {
-    return_value_GC_collection_in_progress$2$link2=GC_collection_in_progress();
-    if(return_value_GC_collection_in_progress$2$link2 == 0)
+    return_value_GC_collection_in_progress_2_link2=GC_collection_in_progress();
+    if(return_value_GC_collection_in_progress_2_link2 == 0)
       break;
 
     GC_collect_a_little_inner(1000);
@@ -22564,36 +22564,36 @@ static void fill_prof_stats(struct GC_prof_stats_s *pstats)
   pstats->reclaimed_bytes_before_gc = GC_reclaimed_bytes_before_gc;
 }
 
-// fill_prof_stats$link1
+// fill_prof_stats_link1
 // file misc.c line 541
-static void fill_prof_stats$link1(struct GC_prof_stats_s *pstats$link1)
+static void fill_prof_stats_link1(struct GC_prof_stats_s *pstats_link1)
 {
-  pstats$link1->heapsize_full = GC_arrays._heapsize;
-  pstats$link1->free_bytes_full = GC_arrays._large_free_bytes;
-  pstats$link1->unmapped_bytes = (unsigned long int)0;
-  pstats$link1->bytes_allocd_since_gc = GC_arrays._bytes_allocd;
-  pstats$link1->allocd_bytes_before_gc = GC_arrays._bytes_allocd_before_gc;
-  pstats$link1->non_gc_bytes = GC_non_gc_bytes;
-  pstats$link1->gc_no = GC_gc_no;
-  pstats$link1->markers_m1 = (unsigned long int)GC_parallel;
-  pstats$link1->bytes_reclaimed_since_gc = GC_bytes_found > (signed long int)0 ? (unsigned long int)GC_bytes_found : (unsigned long int)0;
-  pstats$link1->reclaimed_bytes_before_gc = GC_reclaimed_bytes_before_gc;
+  pstats_link1->heapsize_full = GC_arrays._heapsize;
+  pstats_link1->free_bytes_full = GC_arrays._large_free_bytes;
+  pstats_link1->unmapped_bytes = (unsigned long int)0;
+  pstats_link1->bytes_allocd_since_gc = GC_arrays._bytes_allocd;
+  pstats_link1->allocd_bytes_before_gc = GC_arrays._bytes_allocd_before_gc;
+  pstats_link1->non_gc_bytes = GC_non_gc_bytes;
+  pstats_link1->gc_no = GC_gc_no;
+  pstats_link1->markers_m1 = (unsigned long int)GC_parallel;
+  pstats_link1->bytes_reclaimed_since_gc = GC_bytes_found > (signed long int)0 ? (unsigned long int)GC_bytes_found : (unsigned long int)0;
+  pstats_link1->reclaimed_bytes_before_gc = GC_reclaimed_bytes_before_gc;
 }
 
-// fill_prof_stats$link2
+// fill_prof_stats_link2
 // file misc.c line 541
-static void fill_prof_stats$link2(struct GC_prof_stats_s *pstats$link2)
+static void fill_prof_stats_link2(struct GC_prof_stats_s *pstats_link2)
 {
-  pstats$link2->heapsize_full = GC_arrays._heapsize;
-  pstats$link2->free_bytes_full = GC_arrays._large_free_bytes;
-  pstats$link2->unmapped_bytes = (unsigned long int)0;
-  pstats$link2->bytes_allocd_since_gc = GC_arrays._bytes_allocd;
-  pstats$link2->allocd_bytes_before_gc = GC_arrays._bytes_allocd_before_gc;
-  pstats$link2->non_gc_bytes = GC_non_gc_bytes;
-  pstats$link2->gc_no = GC_gc_no;
-  pstats$link2->markers_m1 = (unsigned long int)GC_parallel;
-  pstats$link2->bytes_reclaimed_since_gc = GC_bytes_found > (signed long int)0 ? (unsigned long int)GC_bytes_found : (unsigned long int)0;
-  pstats$link2->reclaimed_bytes_before_gc = GC_reclaimed_bytes_before_gc;
+  pstats_link2->heapsize_full = GC_arrays._heapsize;
+  pstats_link2->free_bytes_full = GC_arrays._large_free_bytes;
+  pstats_link2->unmapped_bytes = (unsigned long int)0;
+  pstats_link2->bytes_allocd_since_gc = GC_arrays._bytes_allocd;
+  pstats_link2->allocd_bytes_before_gc = GC_arrays._bytes_allocd_before_gc;
+  pstats_link2->non_gc_bytes = GC_non_gc_bytes;
+  pstats_link2->gc_no = GC_gc_no;
+  pstats_link2->markers_m1 = (unsigned long int)GC_parallel;
+  pstats_link2->bytes_reclaimed_since_gc = GC_bytes_found > (signed long int)0 ? (unsigned long int)GC_bytes_found : (unsigned long int)0;
+  pstats_link2->reclaimed_bytes_before_gc = GC_reclaimed_bytes_before_gc;
 }
 
 // fork_child_proc
@@ -22615,9 +22615,9 @@ static void fork_child_proc(void)
   while((_Bool)0);
 }
 
-// fork_child_proc$link1
+// fork_child_proc_link1
 // file pthread_support.c line 983
-static void fork_child_proc$link1(void)
+static void fork_child_proc_link1(void)
 {
   if(!(GC_parallel == 0))
     GC_release_mark_lock();
@@ -22625,7 +22625,7 @@ static void fork_child_proc$link1(void)
   GC_remove_all_threads_but_me();
   GC_parallel = 0;
   do
-    pthread_setcancelstate(fork_cancel_state$link1, (signed int *)(void *)0);
+    pthread_setcancelstate(fork_cancel_state_link1, (signed int *)(void *)0);
   while((_Bool)0);
   do
     if(!(GC_need_to_lock == 0))
@@ -22634,9 +22634,9 @@ static void fork_child_proc$link1(void)
   while((_Bool)0);
 }
 
-// fork_child_proc$link2
+// fork_child_proc_link2
 // file pthread_support.c line 983
-static void fork_child_proc$link2(void)
+static void fork_child_proc_link2(void)
 {
   if(!(GC_parallel == 0))
     GC_release_mark_lock();
@@ -22644,7 +22644,7 @@ static void fork_child_proc$link2(void)
   GC_remove_all_threads_but_me();
   GC_parallel = 0;
   do
-    pthread_setcancelstate(fork_cancel_state$link2, (signed int *)(void *)0);
+    pthread_setcancelstate(fork_cancel_state_link2, (signed int *)(void *)0);
   while((_Bool)0);
   do
     if(!(GC_need_to_lock == 0))
@@ -22670,15 +22670,15 @@ static void fork_parent_proc(void)
   while((_Bool)0);
 }
 
-// fork_parent_proc$link1
+// fork_parent_proc_link1
 // file pthread_support.c line 972
-static void fork_parent_proc$link1(void)
+static void fork_parent_proc_link1(void)
 {
   if(!(GC_parallel == 0))
     GC_release_mark_lock();
 
   do
-    pthread_setcancelstate(fork_cancel_state$link1, (signed int *)(void *)0);
+    pthread_setcancelstate(fork_cancel_state_link1, (signed int *)(void *)0);
   while((_Bool)0);
   do
     if(!(GC_need_to_lock == 0))
@@ -22687,15 +22687,15 @@ static void fork_parent_proc$link1(void)
   while((_Bool)0);
 }
 
-// fork_parent_proc$link2
+// fork_parent_proc_link2
 // file pthread_support.c line 972
-static void fork_parent_proc$link2(void)
+static void fork_parent_proc_link2(void)
 {
   if(!(GC_parallel == 0))
     GC_release_mark_lock();
 
   do
-    pthread_setcancelstate(fork_cancel_state$link2, (signed int *)(void *)0);
+    pthread_setcancelstate(fork_cancel_state_link2, (signed int *)(void *)0);
   while((_Bool)0);
   do
     if(!(GC_need_to_lock == 0))
@@ -22711,9 +22711,9 @@ static void fork_prepare_proc(void)
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1;
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1 == 0))
+      signed int return_value_pthread_mutex_trylock_1;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1 == 0))
         GC_lock();
 
     }
@@ -22731,23 +22731,23 @@ static void fork_prepare_proc(void)
 
 }
 
-// fork_prepare_proc$link1
+// fork_prepare_proc_link1
 // file pthread_support.c line 948
-static void fork_prepare_proc$link1(void)
+static void fork_prepare_proc_link1(void)
 {
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1$link1;
-      return_value_pthread_mutex_trylock$1$link1=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1$link1 == 0))
+      signed int return_value_pthread_mutex_trylock_1_link1;
+      return_value_pthread_mutex_trylock_1_link1=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1_link1 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
   do
-    pthread_setcancelstate(1, &fork_cancel_state$link1);
+    pthread_setcancelstate(1, &fork_cancel_state_link1);
   while((_Bool)0);
   if(!(GC_parallel == 0))
     GC_wait_for_reclaim();
@@ -22758,23 +22758,23 @@ static void fork_prepare_proc$link1(void)
 
 }
 
-// fork_prepare_proc$link2
+// fork_prepare_proc_link2
 // file pthread_support.c line 948
-static void fork_prepare_proc$link2(void)
+static void fork_prepare_proc_link2(void)
 {
   do
     if(!(GC_need_to_lock == 0))
     {
-      signed int return_value_pthread_mutex_trylock$1$link2;
-      return_value_pthread_mutex_trylock$1$link2=pthread_mutex_trylock(&GC_allocate_ml);
-      if(!(return_value_pthread_mutex_trylock$1$link2 == 0))
+      signed int return_value_pthread_mutex_trylock_1_link2;
+      return_value_pthread_mutex_trylock_1_link2=pthread_mutex_trylock(&GC_allocate_ml);
+      if(!(return_value_pthread_mutex_trylock_1_link2 == 0))
         GC_lock();
 
     }
 
   while((_Bool)0);
   do
-    pthread_setcancelstate(1, &fork_cancel_state$link2);
+    pthread_setcancelstate(1, &fork_cancel_state_link2);
   while((_Bool)0);
   if(!(GC_parallel == 0))
     GC_wait_for_reclaim();
@@ -22793,20 +22793,20 @@ static inline void free_hdr(struct hblkhdr *hhdr)
   hdr_free_list = hhdr;
 }
 
-// free_hdr$link1
+// free_hdr_link1
 // file headers.c line 177
-static inline void free_hdr$link1(struct hblkhdr *hhdr$link1)
+static inline void free_hdr_link1(struct hblkhdr *hhdr_link1)
 {
-  hhdr$link1->hb_next = (struct hblk *)hdr_free_list$link1;
-  hdr_free_list$link1 = hhdr$link1;
+  hhdr_link1->hb_next = (struct hblk *)hdr_free_list_link1;
+  hdr_free_list_link1 = hhdr_link1;
 }
 
-// free_hdr$link2
+// free_hdr_link2
 // file headers.c line 177
-static inline void free_hdr$link2(struct hblkhdr *hhdr$link2)
+static inline void free_hdr_link2(struct hblkhdr *hhdr_link2)
 {
-  hhdr$link2->hb_next = (struct hblk *)hdr_free_list$link2;
-  hdr_free_list$link2 = hhdr$link2;
+  hhdr_link2->hb_next = (struct hblk *)hdr_free_list_link2;
+  hdr_free_list_link2 = hhdr_link2;
 }
 
 // free_list_index_of
@@ -22830,42 +22830,42 @@ static signed int free_list_index_of(struct hblkhdr *wanted)
   return -1;
 }
 
-// free_list_index_of$link1
+// free_list_index_of_link1
 // file allchblk.c line 153
-static signed int free_list_index_of$link1(struct hblkhdr *wanted$link1)
+static signed int free_list_index_of_link1(struct hblkhdr *wanted_link1)
 {
-  struct hblk *h$link1;
-  struct hblkhdr *hhdr$link1;
-  signed int i$link1 = 0;
-  for( ; !(i$link1 >= 61); i$link1 = i$link1 + 1)
+  struct hblk *h_link1;
+  struct hblkhdr *hhdr_link1;
+  signed int i_link1 = 0;
+  for( ; !(i_link1 >= 61); i_link1 = i_link1 + 1)
   {
-    h$link1 = GC_hblkfreelist[(signed long int)i$link1];
-    for( ; !(h$link1 == ((struct hblk *)NULL)); h$link1 = hhdr$link1->hb_next)
+    h_link1 = GC_hblkfreelist[(signed long int)i_link1];
+    for( ; !(h_link1 == ((struct hblk *)NULL)); h_link1 = hhdr_link1->hb_next)
     {
-      hhdr$link1=GC_find_header((char *)h$link1);
-      if(hhdr$link1 == wanted$link1)
-        return i$link1;
+      hhdr_link1=GC_find_header((char *)h_link1);
+      if(hhdr_link1 == wanted_link1)
+        return i_link1;
 
     }
   }
   return -1;
 }
 
-// free_list_index_of$link2
+// free_list_index_of_link2
 // file allchblk.c line 153
-static signed int free_list_index_of$link2(struct hblkhdr *wanted$link2)
+static signed int free_list_index_of_link2(struct hblkhdr *wanted_link2)
 {
-  struct hblk *h$link2;
-  struct hblkhdr *hhdr$link2;
-  signed int i$link2 = 0;
-  for( ; !(i$link2 >= 61); i$link2 = i$link2 + 1)
+  struct hblk *h_link2;
+  struct hblkhdr *hhdr_link2;
+  signed int i_link2 = 0;
+  for( ; !(i_link2 >= 61); i_link2 = i_link2 + 1)
   {
-    h$link2 = GC_hblkfreelist[(signed long int)i$link2];
-    for( ; !(h$link2 == ((struct hblk *)NULL)); h$link2 = hhdr$link2->hb_next)
+    h_link2 = GC_hblkfreelist[(signed long int)i_link2];
+    for( ; !(h_link2 == ((struct hblk *)NULL)); h_link2 = hhdr_link2->hb_next)
     {
-      hhdr$link2=GC_find_header((char *)h$link2);
-      if(hhdr$link2 == wanted$link2)
-        return i$link2;
+      hhdr_link2=GC_find_header((char *)h_link2);
+      if(hhdr_link2 == wanted_link2)
+        return i_link2;
 
     }
   }
@@ -22889,9 +22889,9 @@ static signed int get_index(unsigned long int addr)
     if(p->key == hi)
       return 1;
 
-  char *return_value_GC_scratch_alloc$1;
-  return_value_GC_scratch_alloc$1=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
-  r = (struct bi *)return_value_GC_scratch_alloc$1;
+  char *return_value_GC_scratch_alloc_1;
+  return_value_GC_scratch_alloc_1=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
+  r = (struct bi *)return_value_GC_scratch_alloc_1;
   if(r == ((struct bi *)NULL))
     return 0;
 
@@ -22928,114 +22928,114 @@ static signed int get_index(unsigned long int addr)
   }
 }
 
-// get_index$link1
+// get_index_link1
 // file headers.c line 206
-static signed int get_index$link1(unsigned long int addr$link1)
+static signed int get_index_link1(unsigned long int addr_link1)
 {
-  unsigned long int hi$link1 = (unsigned long int)addr$link1 >> (unsigned long int)10 + (unsigned long int)12;
-  struct bi *r$link1;
-  struct bi *p$link1;
-  struct bi **prev$link1;
-  struct bi *pi$link1;
-  unsigned long int i$link1 = hi$link1 & (unsigned long int)((1 << 11) - 1);
-  struct bi *old$link1;
-  p$link1 = GC_arrays._top_index[(signed long int)i$link1];
-  old$link1 = p$link1;
-  for( ; !(p$link1 == GC_arrays._all_nils); p$link1 = p$link1->hash_link)
-    if(p$link1->key == hi$link1)
+  unsigned long int hi_link1 = (unsigned long int)addr_link1 >> (unsigned long int)10 + (unsigned long int)12;
+  struct bi *r_link1;
+  struct bi *p_link1;
+  struct bi **prev_link1;
+  struct bi *pi_link1;
+  unsigned long int i_link1 = hi_link1 & (unsigned long int)((1 << 11) - 1);
+  struct bi *old_link1;
+  p_link1 = GC_arrays._top_index[(signed long int)i_link1];
+  old_link1 = p_link1;
+  for( ; !(p_link1 == GC_arrays._all_nils); p_link1 = p_link1->hash_link)
+    if(p_link1->key == hi_link1)
       return 1;
 
-  char *return_value_GC_scratch_alloc$1$link1;
-  return_value_GC_scratch_alloc$1$link1=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
-  r$link1 = (struct bi *)return_value_GC_scratch_alloc$1$link1;
-  if(r$link1 == ((struct bi *)NULL))
+  char *return_value_GC_scratch_alloc_1_link1;
+  return_value_GC_scratch_alloc_1_link1=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
+  r_link1 = (struct bi *)return_value_GC_scratch_alloc_1_link1;
+  if(r_link1 == ((struct bi *)NULL))
     return 0;
 
   else
   {
-    memset((void *)r$link1, 0, (unsigned long int)sizeof(struct bi) /*8224ul*/ );
-    r$link1->hash_link = old$link1;
-    GC_arrays._top_index[(signed long int)i$link1] = r$link1;
-    r$link1->key = hi$link1;
-    prev$link1 = &GC_all_bottom_indices;
-    pi$link1 = ((struct bi *)NULL);
+    memset((void *)r_link1, 0, (unsigned long int)sizeof(struct bi) /*8224ul*/ );
+    r_link1->hash_link = old_link1;
+    GC_arrays._top_index[(signed long int)i_link1] = r_link1;
+    r_link1->key = hi_link1;
+    prev_link1 = &GC_all_bottom_indices;
+    pi_link1 = ((struct bi *)NULL);
     do
     {
-      p$link1 = *prev$link1;
-      if(p$link1 == ((struct bi *)NULL))
+      p_link1 = *prev_link1;
+      if(p_link1 == ((struct bi *)NULL))
         break;
 
-      if(p$link1->key >= hi$link1)
+      if(p_link1->key >= hi_link1)
         break;
 
-      pi$link1 = p$link1;
-      prev$link1 = &p$link1->asc_link;
+      pi_link1 = p_link1;
+      prev_link1 = &p_link1->asc_link;
     }
     while((_Bool)1);
-    r$link1->desc_link = pi$link1;
-    if(p$link1 == ((struct bi *)NULL))
-      GC_all_bottom_indices_end = r$link1;
+    r_link1->desc_link = pi_link1;
+    if(p_link1 == ((struct bi *)NULL))
+      GC_all_bottom_indices_end = r_link1;
 
     else
-      p$link1->desc_link = r$link1;
-    r$link1->asc_link = p$link1;
-    *prev$link1 = r$link1;
+      p_link1->desc_link = r_link1;
+    r_link1->asc_link = p_link1;
+    *prev_link1 = r_link1;
     return 1;
   }
 }
 
-// get_index$link2
+// get_index_link2
 // file headers.c line 206
-static signed int get_index$link2(unsigned long int addr$link2)
+static signed int get_index_link2(unsigned long int addr_link2)
 {
-  unsigned long int hi$link2 = (unsigned long int)addr$link2 >> (unsigned long int)10 + (unsigned long int)12;
-  struct bi *r$link2;
-  struct bi *p$link2;
-  struct bi **prev$link2;
-  struct bi *pi$link2;
-  unsigned long int i$link2 = hi$link2 & (unsigned long int)((1 << 11) - 1);
-  struct bi *old$link2;
-  p$link2 = GC_arrays._top_index[(signed long int)i$link2];
-  old$link2 = p$link2;
-  for( ; !(p$link2 == GC_arrays._all_nils); p$link2 = p$link2->hash_link)
-    if(p$link2->key == hi$link2)
+  unsigned long int hi_link2 = (unsigned long int)addr_link2 >> (unsigned long int)10 + (unsigned long int)12;
+  struct bi *r_link2;
+  struct bi *p_link2;
+  struct bi **prev_link2;
+  struct bi *pi_link2;
+  unsigned long int i_link2 = hi_link2 & (unsigned long int)((1 << 11) - 1);
+  struct bi *old_link2;
+  p_link2 = GC_arrays._top_index[(signed long int)i_link2];
+  old_link2 = p_link2;
+  for( ; !(p_link2 == GC_arrays._all_nils); p_link2 = p_link2->hash_link)
+    if(p_link2->key == hi_link2)
       return 1;
 
-  char *return_value_GC_scratch_alloc$1$link2;
-  return_value_GC_scratch_alloc$1$link2=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
-  r$link2 = (struct bi *)return_value_GC_scratch_alloc$1$link2;
-  if(r$link2 == ((struct bi *)NULL))
+  char *return_value_GC_scratch_alloc_1_link2;
+  return_value_GC_scratch_alloc_1_link2=GC_scratch_alloc((unsigned long int)sizeof(struct bi) /*8224ul*/ );
+  r_link2 = (struct bi *)return_value_GC_scratch_alloc_1_link2;
+  if(r_link2 == ((struct bi *)NULL))
     return 0;
 
   else
   {
-    memset((void *)r$link2, 0, (unsigned long int)sizeof(struct bi) /*8224ul*/ );
-    r$link2->hash_link = old$link2;
-    GC_arrays._top_index[(signed long int)i$link2] = r$link2;
-    r$link2->key = hi$link2;
-    prev$link2 = &GC_all_bottom_indices;
-    pi$link2 = ((struct bi *)NULL);
+    memset((void *)r_link2, 0, (unsigned long int)sizeof(struct bi) /*8224ul*/ );
+    r_link2->hash_link = old_link2;
+    GC_arrays._top_index[(signed long int)i_link2] = r_link2;
+    r_link2->key = hi_link2;
+    prev_link2 = &GC_all_bottom_indices;
+    pi_link2 = ((struct bi *)NULL);
     do
     {
-      p$link2 = *prev$link2;
-      if(p$link2 == ((struct bi *)NULL))
+      p_link2 = *prev_link2;
+      if(p_link2 == ((struct bi *)NULL))
         break;
 
-      if(p$link2->key >= hi$link2)
+      if(p_link2->key >= hi_link2)
         break;
 
-      pi$link2 = p$link2;
-      prev$link2 = &p$link2->asc_link;
+      pi_link2 = p_link2;
+      prev_link2 = &p_link2->asc_link;
     }
     while((_Bool)1);
-    r$link2->desc_link = pi$link2;
-    if(p$link2 == ((struct bi *)NULL))
-      GC_all_bottom_indices_end = r$link2;
+    r_link2->desc_link = pi_link2;
+    if(p_link2 == ((struct bi *)NULL))
+      GC_all_bottom_indices_end = r_link2;
 
     else
-      p$link2->desc_link = r$link2;
-    r$link2->asc_link = p$link2;
-    *prev$link2 = r$link2;
+      p_link2->desc_link = r_link2;
+    r_link2->asc_link = p_link2;
+    *prev_link2 = r_link2;
     return 1;
   }
 }
@@ -23044,26 +23044,26 @@ static signed int get_index$link2(unsigned long int addr$link2)
 // file tests/staticrootstest.c line 32
 extern struct treenode ** libsrl_getpelem(signed int i, signed int j)
 {
-  struct treenode **tmp_if_expr$1;
+  struct treenode **tmp_if_expr_1;
   if(!((1 & j) == 0))
-    tmp_if_expr$1 = root_nz$link1;
+    tmp_if_expr_1 = root_nz_link1;
 
   else
-    tmp_if_expr$1 = root$link1;
-  return &tmp_if_expr$1[(signed long int)i];
+    tmp_if_expr_1 = root_link1;
+  return &tmp_if_expr_1[(signed long int)i];
 }
 
 // libsrl_getpelem2
 // file tests/staticrootstest.c line 34
 extern struct treenode ** libsrl_getpelem2(signed int i, signed int j)
 {
-  struct treenode **tmp_if_expr$1;
+  struct treenode **tmp_if_expr_1;
   if(!((1 & j) == 0))
-    tmp_if_expr$1 = root_nz$link2;
+    tmp_if_expr_1 = root_nz_link2;
 
   else
-    tmp_if_expr$1 = root$link2;
-  return &tmp_if_expr$1[(signed long int)i];
+    tmp_if_expr_1 = root_link2;
+  return &tmp_if_expr_1[(signed long int)i];
 }
 
 // libsrl_init
@@ -23071,9 +23071,9 @@ extern struct treenode ** libsrl_getpelem2(signed int i, signed int j)
 extern void * libsrl_init(void)
 {
   GC_init();
-  void *return_value_GC_debug_malloc$1;
-  return_value_GC_debug_malloc$1=GC_debug_malloc(sizeof(struct treenode) /*16ul*/ , "tests/staticrootslib.c", 49);
-  return return_value_GC_debug_malloc$1;
+  void *return_value_GC_debug_malloc_1;
+  return_value_GC_debug_malloc_1=GC_debug_malloc(sizeof(struct treenode) /*16ul*/ , "tests/staticrootslib.c", 49);
+  return return_value_GC_debug_malloc_1;
 }
 
 // libsrl_mktree
@@ -23081,10 +23081,10 @@ extern void * libsrl_init(void)
 extern struct treenode * libsrl_mktree(signed int i)
 {
   struct treenode *r;
-  void *return_value_GC_debug_malloc$1;
-  return_value_GC_debug_malloc$1=GC_debug_malloc(sizeof(struct treenode) /*16ul*/ , "tests/staticrootslib.c", 34);
-  r = (struct treenode *)return_value_GC_debug_malloc$1;
-  void *return_value_GC_debug_malloc_atomic$2;
+  void *return_value_GC_debug_malloc_1;
+  return_value_GC_debug_malloc_1=GC_debug_malloc(sizeof(struct treenode) /*16ul*/ , "tests/staticrootslib.c", 34);
+  r = (struct treenode *)return_value_GC_debug_malloc_1;
+  void *return_value_GC_debug_malloc_atomic_2;
   if(i == 0)
     return ((struct treenode *)NULL);
 
@@ -23092,8 +23092,8 @@ extern struct treenode * libsrl_mktree(signed int i)
   {
     if(i == 1)
     {
-      return_value_GC_debug_malloc_atomic$2=GC_debug_malloc_atomic(sizeof(struct treenode) /*16ul*/ , "tests/staticrootslib.c", 36);
-      r = (struct treenode *)return_value_GC_debug_malloc_atomic$2;
+      return_value_GC_debug_malloc_atomic_2=GC_debug_malloc_atomic(sizeof(struct treenode) /*16ul*/ , "tests/staticrootslib.c", 36);
+      r = (struct treenode *)return_value_GC_debug_malloc_atomic_2;
     }
 
     if(!(r == ((struct treenode *)NULL)))
@@ -23117,22 +23117,22 @@ __CPROVER_DUMP_L1:
   goto __CPROVER_DUMP_L1;
 }
 
-// looping_handler$link1
+// looping_handler_link1
 // file misc.c line 753
-static void looping_handler$link1(signed int sig$link1)
+static void looping_handler_link1(signed int sig_link1)
 {
-  GC_err_printf("Caught signal %d: looping in handler\n", sig$link1);
+  GC_err_printf("Caught signal %d: looping in handler\n", sig_link1);
 
 __CPROVER_DUMP_L1:
   ;
   goto __CPROVER_DUMP_L1;
 }
 
-// looping_handler$link2
+// looping_handler_link2
 // file misc.c line 753
-static void looping_handler$link2(signed int sig$link2)
+static void looping_handler_link2(signed int sig_link2)
 {
-  GC_err_printf("Caught signal %d: looping in handler\n", sig$link2);
+  GC_err_printf("Caught signal %d: looping in handler\n", sig_link2);
 
 __CPROVER_DUMP_L1:
   ;
@@ -23145,9 +23145,9 @@ signed int main(void)
 {
   signed int i;
   signed int j;
-  void *return_value_libsrl_init$1;
-  return_value_libsrl_init$1=libsrl_init();
-  staticroot = (char *)return_value_libsrl_init$1;
+  void *return_value_libsrl_init_1;
+  return_value_libsrl_init_1=libsrl_init();
+  staticroot = (char *)return_value_libsrl_init_1;
   if(staticroot == ((char *)NULL))
   {
     fprintf(stderr, "GC_malloc returned NULL\n");
@@ -23164,19 +23164,19 @@ signed int main(void)
       i = 0;
       for( ; !(i >= 10); i = i + 1)
       {
-        struct treenode **return_value_libsrl_getpelem2$2;
-        return_value_libsrl_getpelem2$2=libsrl_getpelem2(i, j);
-        *return_value_libsrl_getpelem2$2=libsrl_mktree(12);
-        struct treenode **return_value_libsrl_getpelem$3;
-        return_value_libsrl_getpelem$3=libsrl_getpelem(i, j);
-        *return_value_libsrl_getpelem$3=libsrl_mktree(12);
-        struct treenode **tmp_if_expr$4;
+        struct treenode **return_value_libsrl_getpelem2_2;
+        return_value_libsrl_getpelem2_2=libsrl_getpelem2(i, j);
+        *return_value_libsrl_getpelem2_2=libsrl_mktree(12);
+        struct treenode **return_value_libsrl_getpelem_3;
+        return_value_libsrl_getpelem_3=libsrl_getpelem(i, j);
+        *return_value_libsrl_getpelem_3=libsrl_mktree(12);
+        struct treenode **tmp_if_expr_4;
         if(!((1 & j) == 0))
-          tmp_if_expr$4 = root_nz;
+          tmp_if_expr_4 = root_nz;
 
         else
-          tmp_if_expr$4 = root;
-        tmp_if_expr$4[(signed long int)i]=libsrl_mktree(12);
+          tmp_if_expr_4 = root;
+        tmp_if_expr_4[(signed long int)i]=libsrl_mktree(12);
         GC_gcollect();
       }
       i = 0;
@@ -23208,9 +23208,9 @@ static void maybe_finalize(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1;
-        return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1 == 0))
+        signed int return_value_pthread_mutex_trylock_1;
+        return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1 == 0))
           GC_lock();
 
       }
@@ -23221,12 +23221,12 @@ static void maybe_finalize(void)
 
 }
 
-// maybe_finalize$link1
+// maybe_finalize_link1
 // file gcj_mlc.c line 142
-static void maybe_finalize$link1(void)
+static void maybe_finalize_link1(void)
 {
-  static unsigned long int last_finalized_no$link1 = (unsigned long int)0;
-  if(!(GC_gc_no == last_finalized_no$link1) && !((signed long int)GC_is_initialized == 0l))
+  static unsigned long int last_finalized_no_link1 = (unsigned long int)0;
+  if(!(GC_gc_no == last_finalized_no_link1) && !((signed long int)GC_is_initialized == 0l))
   {
     do
       if(!(GC_need_to_lock == 0))
@@ -23237,25 +23237,25 @@ static void maybe_finalize$link1(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1$link1;
-        return_value_pthread_mutex_trylock$1$link1=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1$link1 == 0))
+        signed int return_value_pthread_mutex_trylock_1_link1;
+        return_value_pthread_mutex_trylock_1_link1=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1_link1 == 0))
           GC_lock();
 
       }
 
     while((_Bool)0);
-    last_finalized_no$link1 = GC_gc_no;
+    last_finalized_no_link1 = GC_gc_no;
   }
 
 }
 
-// maybe_finalize$link2
+// maybe_finalize_link2
 // file gcj_mlc.c line 142
-static void maybe_finalize$link2(void)
+static void maybe_finalize_link2(void)
 {
-  static unsigned long int last_finalized_no$link2 = (unsigned long int)0;
-  if(!(GC_gc_no == last_finalized_no$link2) && !((signed long int)GC_is_initialized == 0l))
+  static unsigned long int last_finalized_no_link2 = (unsigned long int)0;
+  if(!(GC_gc_no == last_finalized_no_link2) && !((signed long int)GC_is_initialized == 0l))
   {
     do
       if(!(GC_need_to_lock == 0))
@@ -23266,15 +23266,15 @@ static void maybe_finalize$link2(void)
     do
       if(!(GC_need_to_lock == 0))
       {
-        signed int return_value_pthread_mutex_trylock$1$link2;
-        return_value_pthread_mutex_trylock$1$link2=pthread_mutex_trylock(&GC_allocate_ml);
-        if(!(return_value_pthread_mutex_trylock$1$link2 == 0))
+        signed int return_value_pthread_mutex_trylock_1_link2;
+        return_value_pthread_mutex_trylock_1_link2=pthread_mutex_trylock(&GC_allocate_ml);
+        if(!(return_value_pthread_mutex_trylock_1_link2 == 0))
           GC_lock();
 
       }
 
     while((_Bool)0);
-    last_finalized_no$link2 = GC_gc_no;
+    last_finalized_no_link2 = GC_gc_no;
   }
 
 }
@@ -23283,11 +23283,11 @@ static void maybe_finalize$link2(void)
 // file misc.c line 763
 static void maybe_install_looping_handler(void)
 {
-  char *return_value_getenv$1;
+  char *return_value_getenv_1;
   if(installed_looping_handler == 0)
   {
-    return_value_getenv$1=getenv("GC_LOOP_ON_ABORT");
-    if(!(return_value_getenv$1 == ((char *)NULL)))
+    return_value_getenv_1=getenv("GC_LOOP_ON_ABORT");
+    if(!(return_value_getenv_1 == ((char *)NULL)))
     {
       GC_set_and_save_fault_handler(looping_handler);
       installed_looping_handler = 1;
@@ -23297,36 +23297,36 @@ static void maybe_install_looping_handler(void)
 
 }
 
-// maybe_install_looping_handler$link1
+// maybe_install_looping_handler_link1
 // file misc.c line 763
-static void maybe_install_looping_handler$link1(void)
+static void maybe_install_looping_handler_link1(void)
 {
-  char *return_value_getenv$1$link1;
-  if(installed_looping_handler$link1 == 0)
+  char *return_value_getenv_1_link1;
+  if(installed_looping_handler_link1 == 0)
   {
-    return_value_getenv$1$link1=getenv("GC_LOOP_ON_ABORT");
-    if(!(return_value_getenv$1$link1 == ((char *)NULL)))
+    return_value_getenv_1_link1=getenv("GC_LOOP_ON_ABORT");
+    if(!(return_value_getenv_1_link1 == ((char *)NULL)))
     {
-      GC_set_and_save_fault_handler(looping_handler$link1);
-      installed_looping_handler$link1 = 1;
+      GC_set_and_save_fault_handler(looping_handler_link1);
+      installed_looping_handler_link1 = 1;
     }
 
   }
 
 }
 
-// maybe_install_looping_handler$link2
+// maybe_install_looping_handler_link2
 // file misc.c line 763
-static void maybe_install_looping_handler$link2(void)
+static void maybe_install_looping_handler_link2(void)
 {
-  char *return_value_getenv$1$link2;
-  if(installed_looping_handler$link2 == 0)
+  char *return_value_getenv_1_link2;
+  if(installed_looping_handler_link2 == 0)
   {
-    return_value_getenv$1$link2=getenv("GC_LOOP_ON_ABORT");
-    if(!(return_value_getenv$1$link2 == ((char *)NULL)))
+    return_value_getenv_1_link2=getenv("GC_LOOP_ON_ABORT");
+    if(!(return_value_getenv_1_link2 == ((char *)NULL)))
     {
-      GC_set_and_save_fault_handler(looping_handler$link2);
-      installed_looping_handler$link2 = 1;
+      GC_set_and_save_fault_handler(looping_handler_link2);
+      installed_looping_handler_link2 = 1;
     }
 
   }
@@ -23339,9 +23339,9 @@ static unsigned long int min_bytes_allocd(void)
 {
   unsigned long int result;
   unsigned long int stack_size;
-  char *return_value_GC_approx_sp$1;
-  return_value_GC_approx_sp$1=GC_approx_sp();
-  stack_size = (unsigned long int)(GC_stackbottom - return_value_GC_approx_sp$1);
+  char *return_value_GC_approx_sp_1;
+  return_value_GC_approx_sp_1=GC_approx_sp();
+  stack_size = (unsigned long int)(GC_stackbottom - return_value_GC_approx_sp_1);
   unsigned long int total_root_size;
   unsigned long int scan_size;
   if(!(GC_need_to_lock == 0))
@@ -23356,50 +23356,50 @@ static unsigned long int min_bytes_allocd(void)
   return result > (unsigned long int)0 ? result : (unsigned long int)1;
 }
 
-// min_bytes_allocd$link1
+// min_bytes_allocd_link1
 // file alloc.c line 199
-static unsigned long int min_bytes_allocd$link1(void)
+static unsigned long int min_bytes_allocd_link1(void)
 {
-  unsigned long int result$link1;
-  unsigned long int stack_size$link1;
-  char *return_value_GC_approx_sp$1$link1;
-  return_value_GC_approx_sp$1$link1=GC_approx_sp();
-  stack_size$link1 = (unsigned long int)(GC_stackbottom - return_value_GC_approx_sp$1$link1);
-  unsigned long int total_root_size$link1;
-  unsigned long int scan_size$link1;
+  unsigned long int result_link1;
+  unsigned long int stack_size_link1;
+  char *return_value_GC_approx_sp_1_link1;
+  return_value_GC_approx_sp_1_link1=GC_approx_sp();
+  stack_size_link1 = (unsigned long int)(GC_stackbottom - return_value_GC_approx_sp_1_link1);
+  unsigned long int total_root_size_link1;
+  unsigned long int scan_size_link1;
   if(!(GC_need_to_lock == 0))
-    stack_size$link1 = GC_total_stacksize;
+    stack_size_link1 = GC_total_stacksize;
 
-  total_root_size$link1 = (unsigned long int)2 * stack_size$link1 + GC_root_size;
-  scan_size$link1 = (unsigned long int)2 * GC_arrays._composite_in_use + GC_arrays._atomic_in_use / (unsigned long int)4 + total_root_size$link1;
-  result$link1 = scan_size$link1 / GC_free_space_divisor;
+  total_root_size_link1 = (unsigned long int)2 * stack_size_link1 + GC_root_size;
+  scan_size_link1 = (unsigned long int)2 * GC_arrays._composite_in_use + GC_arrays._atomic_in_use / (unsigned long int)4 + total_root_size_link1;
+  result_link1 = scan_size_link1 / GC_free_space_divisor;
   if(!(GC_incremental == 0))
-    result$link1 = result$link1 / (unsigned long int)2;
+    result_link1 = result_link1 / (unsigned long int)2;
 
-  return result$link1 > (unsigned long int)0 ? result$link1 : (unsigned long int)1;
+  return result_link1 > (unsigned long int)0 ? result_link1 : (unsigned long int)1;
 }
 
-// min_bytes_allocd$link2
+// min_bytes_allocd_link2
 // file alloc.c line 199
-static unsigned long int min_bytes_allocd$link2(void)
+static unsigned long int min_bytes_allocd_link2(void)
 {
-  unsigned long int result$link2;
-  unsigned long int stack_size$link2;
-  char *return_value_GC_approx_sp$1$link2;
-  return_value_GC_approx_sp$1$link2=GC_approx_sp();
-  stack_size$link2 = (unsigned long int)(GC_stackbottom - return_value_GC_approx_sp$1$link2);
-  unsigned long int total_root_size$link2;
-  unsigned long int scan_size$link2;
+  unsigned long int result_link2;
+  unsigned long int stack_size_link2;
+  char *return_value_GC_approx_sp_1_link2;
+  return_value_GC_approx_sp_1_link2=GC_approx_sp();
+  stack_size_link2 = (unsigned long int)(GC_stackbottom - return_value_GC_approx_sp_1_link2);
+  unsigned long int total_root_size_link2;
+  unsigned long int scan_size_link2;
   if(!(GC_need_to_lock == 0))
-    stack_size$link2 = GC_total_stacksize;
+    stack_size_link2 = GC_total_stacksize;
 
-  total_root_size$link2 = (unsigned long int)2 * stack_size$link2 + GC_root_size;
-  scan_size$link2 = (unsigned long int)2 * GC_arrays._composite_in_use + GC_arrays._atomic_in_use / (unsigned long int)4 + total_root_size$link2;
-  result$link2 = scan_size$link2 / GC_free_space_divisor;
+  total_root_size_link2 = (unsigned long int)2 * stack_size_link2 + GC_root_size;
+  scan_size_link2 = (unsigned long int)2 * GC_arrays._composite_in_use + GC_arrays._atomic_in_use / (unsigned long int)4 + total_root_size_link2;
+  result_link2 = scan_size_link2 / GC_free_space_divisor;
   if(!(GC_incremental == 0))
-    result$link2 = result$link2 / (unsigned long int)2;
+    result_link2 = result_link2 / (unsigned long int)2;
 
-  return result$link2 > (unsigned long int)0 ? result$link2 : (unsigned long int)1;
+  return result_link2 > (unsigned long int)0 ? result_link2 : (unsigned long int)1;
 }
 
 // return_freelists
@@ -23423,43 +23423,43 @@ static void return_freelists(void **fl, void **gfl)
 
 }
 
-// return_freelists$link1
+// return_freelists_link1
 // file thread_local_alloc.c line 64
-static void return_freelists$link1(void **fl$link1, void **gfl$link1)
+static void return_freelists_link1(void **fl_link1, void **gfl_link1)
 {
-  signed int i$link1 = 1;
-  for( ; !(i$link1 >= 25); i$link1 = i$link1 + 1)
+  signed int i_link1 = 1;
+  for( ; !(i_link1 >= 25); i_link1 = i_link1 + 1)
   {
-    if((unsigned long int)fl$link1[(signed long int)i$link1] >= 4096ul)
-      return_single_freelist$link1(fl$link1[(signed long int)i$link1], gfl$link1 + (signed long int)i$link1);
+    if((unsigned long int)fl_link1[(signed long int)i_link1] >= 4096ul)
+      return_single_freelist_link1(fl_link1[(signed long int)i_link1], gfl_link1 + (signed long int)i_link1);
 
-    fl$link1[(signed long int)i$link1] = (void *)(char *)(unsigned long int)(1 << 12);
+    fl_link1[(signed long int)i_link1] = (void *)(char *)(unsigned long int)(1 << 12);
   }
-  if(!(*fl$link1 == (void *)18446744073709551615ul))
+  if(!(*fl_link1 == (void *)18446744073709551615ul))
   {
-    if((unsigned long int)*fl$link1 >= 4096ul)
-      return_single_freelist$link1(fl$link1[(signed long int)0], gfl$link1 + (signed long int)1);
+    if((unsigned long int)*fl_link1 >= 4096ul)
+      return_single_freelist_link1(fl_link1[(signed long int)0], gfl_link1 + (signed long int)1);
 
   }
 
 }
 
-// return_freelists$link2
+// return_freelists_link2
 // file thread_local_alloc.c line 64
-static void return_freelists$link2(void **fl$link2, void **gfl$link2)
+static void return_freelists_link2(void **fl_link2, void **gfl_link2)
 {
-  signed int i$link2 = 1;
-  for( ; !(i$link2 >= 25); i$link2 = i$link2 + 1)
+  signed int i_link2 = 1;
+  for( ; !(i_link2 >= 25); i_link2 = i_link2 + 1)
   {
-    if((unsigned long int)fl$link2[(signed long int)i$link2] >= 4096ul)
-      return_single_freelist$link2(fl$link2[(signed long int)i$link2], gfl$link2 + (signed long int)i$link2);
+    if((unsigned long int)fl_link2[(signed long int)i_link2] >= 4096ul)
+      return_single_freelist_link2(fl_link2[(signed long int)i_link2], gfl_link2 + (signed long int)i_link2);
 
-    fl$link2[(signed long int)i$link2] = (void *)(char *)(unsigned long int)(1 << 12);
+    fl_link2[(signed long int)i_link2] = (void *)(char *)(unsigned long int)(1 << 12);
   }
-  if(!(*fl$link2 == (void *)18446744073709551615ul))
+  if(!(*fl_link2 == (void *)18446744073709551615ul))
   {
-    if((unsigned long int)*fl$link2 >= 4096ul)
-      return_single_freelist$link2(fl$link2[(signed long int)0], gfl$link2 + (signed long int)1);
+    if((unsigned long int)*fl_link2 >= 4096ul)
+      return_single_freelist_link2(fl_link2[(signed long int)0], gfl_link2 + (signed long int)1);
 
   }
 
@@ -23491,55 +23491,55 @@ static void return_single_freelist(void *fl, void **gfl)
   }
 }
 
-// return_single_freelist$link1
+// return_single_freelist_link1
 // file thread_local_alloc.c line 44
-static void return_single_freelist$link1(void *fl$link1, void **gfl$link1)
+static void return_single_freelist_link1(void *fl_link1, void **gfl_link1)
 {
-  void *q$link1;
-  void **qptr$link1;
-  if(*gfl$link1 == NULL)
-    *gfl$link1 = fl$link1;
+  void *q_link1;
+  void **qptr_link1;
+  if(*gfl_link1 == NULL)
+    *gfl_link1 = fl_link1;
 
   else
   {
-    qptr$link1 = &(*((void **)fl$link1));
+    qptr_link1 = &(*((void **)fl_link1));
     do
     {
-      q$link1 = *qptr$link1;
-      if(!((unsigned long int)q$link1 >= 4096ul))
+      q_link1 = *qptr_link1;
+      if(!((unsigned long int)q_link1 >= 4096ul))
         break;
 
-      qptr$link1 = &(*((void **)q$link1));
+      qptr_link1 = &(*((void **)q_link1));
     }
     while((_Bool)1);
-    *qptr$link1 = *gfl$link1;
-    *gfl$link1 = fl$link1;
+    *qptr_link1 = *gfl_link1;
+    *gfl_link1 = fl_link1;
   }
 }
 
-// return_single_freelist$link2
+// return_single_freelist_link2
 // file thread_local_alloc.c line 44
-static void return_single_freelist$link2(void *fl$link2, void **gfl$link2)
+static void return_single_freelist_link2(void *fl_link2, void **gfl_link2)
 {
-  void *q$link2;
-  void **qptr$link2;
-  if(*gfl$link2 == NULL)
-    *gfl$link2 = fl$link2;
+  void *q_link2;
+  void **qptr_link2;
+  if(*gfl_link2 == NULL)
+    *gfl_link2 = fl_link2;
 
   else
   {
-    qptr$link2 = &(*((void **)fl$link2));
+    qptr_link2 = &(*((void **)fl_link2));
     do
     {
-      q$link2 = *qptr$link2;
-      if(!((unsigned long int)q$link2 >= 4096ul))
+      q_link2 = *qptr_link2;
+      if(!((unsigned long int)q_link2 >= 4096ul))
         break;
 
-      qptr$link2 = &(*((void **)q$link2));
+      qptr_link2 = &(*((void **)q_link2));
     }
     while((_Bool)1);
-    *qptr$link2 = *gfl$link2;
-    *gfl$link2 = fl$link2;
+    *qptr_link2 = *gfl_link2;
+    *gfl_link2 = fl_link2;
   }
 }
 
@@ -23556,30 +23556,30 @@ static inline signed int rt_hash(char *addr)
   return (signed int)result;
 }
 
-// rt_hash$link1
+// rt_hash_link1
 // file mark_rts.c line 110
-static inline signed int rt_hash$link1(char *addr$link1)
+static inline signed int rt_hash_link1(char *addr_link1)
 {
-  unsigned long int result$link1 = (unsigned long int)addr$link1;
-  result$link1 = result$link1 ^ result$link1 >> 8 * 6;
-  result$link1 = result$link1 ^ result$link1 >> 4 * 6;
-  result$link1 = result$link1 ^ result$link1 >> 2 * 6;
-  result$link1 = result$link1 ^ result$link1 >> 6;
-  result$link1 = result$link1 & (unsigned long int)((1 << 6) - 1);
-  return (signed int)result$link1;
+  unsigned long int result_link1 = (unsigned long int)addr_link1;
+  result_link1 = result_link1 ^ result_link1 >> 8 * 6;
+  result_link1 = result_link1 ^ result_link1 >> 4 * 6;
+  result_link1 = result_link1 ^ result_link1 >> 2 * 6;
+  result_link1 = result_link1 ^ result_link1 >> 6;
+  result_link1 = result_link1 & (unsigned long int)((1 << 6) - 1);
+  return (signed int)result_link1;
 }
 
-// rt_hash$link2
+// rt_hash_link2
 // file mark_rts.c line 110
-static inline signed int rt_hash$link2(char *addr$link2)
+static inline signed int rt_hash_link2(char *addr_link2)
 {
-  unsigned long int result$link2 = (unsigned long int)addr$link2;
-  result$link2 = result$link2 ^ result$link2 >> 8 * 6;
-  result$link2 = result$link2 ^ result$link2 >> 4 * 6;
-  result$link2 = result$link2 ^ result$link2 >> 2 * 6;
-  result$link2 = result$link2 ^ result$link2 >> 6;
-  result$link2 = result$link2 & (unsigned long int)((1 << 6) - 1);
-  return (signed int)result$link2;
+  unsigned long int result_link2 = (unsigned long int)addr_link2;
+  result_link2 = result_link2 ^ result_link2 >> 8 * 6;
+  result_link2 = result_link2 ^ result_link2 >> 4 * 6;
+  result_link2 = result_link2 ^ result_link2 >> 2 * 6;
+  result_link2 = result_link2 ^ result_link2 >> 6;
+  result_link2 = result_link2 & (unsigned long int)((1 << 6) - 1);
+  return (signed int)result_link2;
 }
 
 // setup_header
@@ -23605,9 +23605,9 @@ static signed int setup_header(struct hblkhdr *hhdr, struct hblk *block, unsigne
   hhdr->hb_descr = descr;
   hhdr->hb_large_block = (unsigned char)(byte_sz > (unsigned long int)((1 << 12) / 2));
   granules = byte_sz >> 4;
-  signed int return_value_GC_add_map_entry$1;
-  return_value_GC_add_map_entry$1=GC_add_map_entry(granules);
-  if(return_value_GC_add_map_entry$1 == 0)
+  signed int return_value_GC_add_map_entry_1;
+  return_value_GC_add_map_entry_1=GC_add_map_entry(granules);
+  if(return_value_GC_add_map_entry_1 == 0)
   {
     hhdr->hb_sz = (unsigned long int)(1 << 12);
     hhdr->hb_descr = (unsigned long int)0;
@@ -23626,91 +23626,91 @@ static signed int setup_header(struct hblkhdr *hhdr, struct hblk *block, unsigne
   return 1;
 }
 
-// setup_header$link1
+// setup_header_link1
 // file allchblk.c line 225
-static signed int setup_header$link1(struct hblkhdr *hhdr$link1, struct hblk *block$link1, unsigned long int byte_sz$link1, signed int kind$link1, unsigned int flags$link1)
+static signed int setup_header_link1(struct hblkhdr *hhdr_link1, struct hblk *block_link1, unsigned long int byte_sz_link1, signed int kind_link1, unsigned int flags_link1)
 {
-  unsigned long int descr$link1;
-  unsigned long int granules$link1;
-  if(!(GC_obj_kinds[(signed long int)kind$link1].ok_disclaim_proc == ((signed int (*)(void *))NULL)))
-    flags$link1 = flags$link1 | (unsigned int)8;
+  unsigned long int descr_link1;
+  unsigned long int granules_link1;
+  if(!(GC_obj_kinds[(signed long int)kind_link1].ok_disclaim_proc == ((signed int (*)(void *))NULL)))
+    flags_link1 = flags_link1 | (unsigned int)8;
 
-  if(!(GC_obj_kinds[(signed long int)kind$link1].ok_mark_unconditionally == 0))
-    flags$link1 = flags$link1 | (unsigned int)0x10;
+  if(!(GC_obj_kinds[(signed long int)kind_link1].ok_mark_unconditionally == 0))
+    flags_link1 = flags_link1 | (unsigned int)0x10;
 
-  hhdr$link1->hb_sz = byte_sz$link1;
-  hhdr$link1->hb_obj_kind = (unsigned char)kind$link1;
-  hhdr$link1->hb_flags = (unsigned char)flags$link1;
-  hhdr$link1->hb_block = block$link1;
-  descr$link1 = GC_obj_kinds[(signed long int)kind$link1].ok_descriptor;
-  if(!(GC_obj_kinds[(signed long int)kind$link1].ok_relocate_descr == 0))
-    descr$link1 = descr$link1 + byte_sz$link1;
+  hhdr_link1->hb_sz = byte_sz_link1;
+  hhdr_link1->hb_obj_kind = (unsigned char)kind_link1;
+  hhdr_link1->hb_flags = (unsigned char)flags_link1;
+  hhdr_link1->hb_block = block_link1;
+  descr_link1 = GC_obj_kinds[(signed long int)kind_link1].ok_descriptor;
+  if(!(GC_obj_kinds[(signed long int)kind_link1].ok_relocate_descr == 0))
+    descr_link1 = descr_link1 + byte_sz_link1;
 
-  hhdr$link1->hb_descr = descr$link1;
-  hhdr$link1->hb_large_block = (unsigned char)(byte_sz$link1 > (unsigned long int)((1 << 12) / 2));
-  granules$link1 = byte_sz$link1 >> 4;
-  signed int return_value_GC_add_map_entry$1$link1;
-  return_value_GC_add_map_entry$1$link1=GC_add_map_entry(granules$link1);
-  if(return_value_GC_add_map_entry$1$link1 == 0)
+  hhdr_link1->hb_descr = descr_link1;
+  hhdr_link1->hb_large_block = (unsigned char)(byte_sz_link1 > (unsigned long int)((1 << 12) / 2));
+  granules_link1 = byte_sz_link1 >> 4;
+  signed int return_value_GC_add_map_entry_1_link1;
+  return_value_GC_add_map_entry_1_link1=GC_add_map_entry(granules_link1);
+  if(return_value_GC_add_map_entry_1_link1 == 0)
   {
-    hhdr$link1->hb_sz = (unsigned long int)(1 << 12);
-    hhdr$link1->hb_descr = (unsigned long int)0;
-    hhdr$link1->hb_large_block = (unsigned char)1;
-    hhdr$link1->hb_map = ((signed short int *)NULL);
+    hhdr_link1->hb_sz = (unsigned long int)(1 << 12);
+    hhdr_link1->hb_descr = (unsigned long int)0;
+    hhdr_link1->hb_large_block = (unsigned char)1;
+    hhdr_link1->hb_map = ((signed short int *)NULL);
     return 0;
   }
 
   else
   {
-    unsigned long int index$link1 = hhdr$link1->hb_large_block != 0 ? (unsigned long int)0 : granules$link1;
-    hhdr$link1->hb_map = GC_arrays._obj_map[(signed long int)index$link1];
+    unsigned long int index_link1 = hhdr_link1->hb_large_block != 0 ? (unsigned long int)0 : granules_link1;
+    hhdr_link1->hb_map = GC_arrays._obj_map[(signed long int)index_link1];
   }
-  GC_clear_hdr_marks(hhdr$link1);
-  hhdr$link1->hb_last_reclaimed = (unsigned short int)GC_gc_no;
+  GC_clear_hdr_marks(hhdr_link1);
+  hhdr_link1->hb_last_reclaimed = (unsigned short int)GC_gc_no;
   return 1;
 }
 
-// setup_header$link2
+// setup_header_link2
 // file allchblk.c line 225
-static signed int setup_header$link2(struct hblkhdr *hhdr$link2, struct hblk *block$link2, unsigned long int byte_sz$link2, signed int kind$link2, unsigned int flags$link2)
+static signed int setup_header_link2(struct hblkhdr *hhdr_link2, struct hblk *block_link2, unsigned long int byte_sz_link2, signed int kind_link2, unsigned int flags_link2)
 {
-  unsigned long int descr$link2;
-  unsigned long int granules$link2;
-  if(!(GC_obj_kinds[(signed long int)kind$link2].ok_disclaim_proc == ((signed int (*)(void *))NULL)))
-    flags$link2 = flags$link2 | (unsigned int)8;
+  unsigned long int descr_link2;
+  unsigned long int granules_link2;
+  if(!(GC_obj_kinds[(signed long int)kind_link2].ok_disclaim_proc == ((signed int (*)(void *))NULL)))
+    flags_link2 = flags_link2 | (unsigned int)8;
 
-  if(!(GC_obj_kinds[(signed long int)kind$link2].ok_mark_unconditionally == 0))
-    flags$link2 = flags$link2 | (unsigned int)0x10;
+  if(!(GC_obj_kinds[(signed long int)kind_link2].ok_mark_unconditionally == 0))
+    flags_link2 = flags_link2 | (unsigned int)0x10;
 
-  hhdr$link2->hb_sz = byte_sz$link2;
-  hhdr$link2->hb_obj_kind = (unsigned char)kind$link2;
-  hhdr$link2->hb_flags = (unsigned char)flags$link2;
-  hhdr$link2->hb_block = block$link2;
-  descr$link2 = GC_obj_kinds[(signed long int)kind$link2].ok_descriptor;
-  if(!(GC_obj_kinds[(signed long int)kind$link2].ok_relocate_descr == 0))
-    descr$link2 = descr$link2 + byte_sz$link2;
+  hhdr_link2->hb_sz = byte_sz_link2;
+  hhdr_link2->hb_obj_kind = (unsigned char)kind_link2;
+  hhdr_link2->hb_flags = (unsigned char)flags_link2;
+  hhdr_link2->hb_block = block_link2;
+  descr_link2 = GC_obj_kinds[(signed long int)kind_link2].ok_descriptor;
+  if(!(GC_obj_kinds[(signed long int)kind_link2].ok_relocate_descr == 0))
+    descr_link2 = descr_link2 + byte_sz_link2;
 
-  hhdr$link2->hb_descr = descr$link2;
-  hhdr$link2->hb_large_block = (unsigned char)(byte_sz$link2 > (unsigned long int)((1 << 12) / 2));
-  granules$link2 = byte_sz$link2 >> 4;
-  signed int return_value_GC_add_map_entry$1$link2;
-  return_value_GC_add_map_entry$1$link2=GC_add_map_entry(granules$link2);
-  if(return_value_GC_add_map_entry$1$link2 == 0)
+  hhdr_link2->hb_descr = descr_link2;
+  hhdr_link2->hb_large_block = (unsigned char)(byte_sz_link2 > (unsigned long int)((1 << 12) / 2));
+  granules_link2 = byte_sz_link2 >> 4;
+  signed int return_value_GC_add_map_entry_1_link2;
+  return_value_GC_add_map_entry_1_link2=GC_add_map_entry(granules_link2);
+  if(return_value_GC_add_map_entry_1_link2 == 0)
   {
-    hhdr$link2->hb_sz = (unsigned long int)(1 << 12);
-    hhdr$link2->hb_descr = (unsigned long int)0;
-    hhdr$link2->hb_large_block = (unsigned char)1;
-    hhdr$link2->hb_map = ((signed short int *)NULL);
+    hhdr_link2->hb_sz = (unsigned long int)(1 << 12);
+    hhdr_link2->hb_descr = (unsigned long int)0;
+    hhdr_link2->hb_large_block = (unsigned char)1;
+    hhdr_link2->hb_map = ((signed short int *)NULL);
     return 0;
   }
 
   else
   {
-    unsigned long int index$link2 = hhdr$link2->hb_large_block != 0 ? (unsigned long int)0 : granules$link2;
-    hhdr$link2->hb_map = GC_arrays._obj_map[(signed long int)index$link2];
+    unsigned long int index_link2 = hhdr_link2->hb_large_block != 0 ? (unsigned long int)0 : granules_link2;
+    hhdr_link2->hb_map = GC_arrays._obj_map[(signed long int)index_link2];
   }
-  GC_clear_hdr_marks(hhdr$link2);
-  hhdr$link2->hb_last_reclaimed = (unsigned short int)GC_gc_no;
+  GC_clear_hdr_marks(hhdr_link2);
+  hhdr_link2->hb_last_reclaimed = (unsigned short int)GC_gc_no;
   return 1;
 }
 
@@ -23751,36 +23751,36 @@ __CPROVER_DUMP_L6:
   ;
 }
 
-// store_old$link1
+// store_old_link1
 // file dbg_mlc.c line 1075
-static void store_old$link1(void *obj$link1, void (*my_old_fn$link1)(void *, void *), struct closure *my_old_cd$link1, void (**ofn$link1)(void *, void *), void **ocd$link1)
+static void store_old_link1(void *obj_link1, void (*my_old_fn_link1)(void *, void *), struct closure *my_old_cd_link1, void (**ofn_link1)(void *, void *), void **ocd_link1)
 {
-  if(!(my_old_fn$link1 == ((void (*)(void *, void *))NULL)))
+  if(!(my_old_fn_link1 == ((void (*)(void *, void *))NULL)))
   {
-    if(my_old_fn$link1 == (void (*)(void *, void *))-1l)
+    if(my_old_fn_link1 == (void (*)(void *, void *))-1l)
       goto __CPROVER_DUMP_L6;
 
-    if(!(my_old_fn$link1 == GC_debug_invoke_finalizer))
-      GC_err_printf("Debuggable object at %p had a non-debug finalizer\n", obj$link1);
+    if(!(my_old_fn_link1 == GC_debug_invoke_finalizer))
+      GC_err_printf("Debuggable object at %p had a non-debug finalizer\n", obj_link1);
 
     else
     {
-      if(!(ofn$link1 == ((void (**)(void *, void *))NULL)))
-        *ofn$link1 = my_old_cd$link1->cl_fn;
+      if(!(ofn_link1 == ((void (**)(void *, void *))NULL)))
+        *ofn_link1 = my_old_cd_link1->cl_fn;
 
-      if(!(ocd$link1 == ((void **)NULL)))
-        *ocd$link1 = my_old_cd$link1->cl_data;
+      if(!(ocd_link1 == ((void **)NULL)))
+        *ocd_link1 = my_old_cd_link1->cl_data;
 
     }
   }
 
   else
   {
-    if(!(ofn$link1 == ((void (**)(void *, void *))NULL)))
-      *ofn$link1 = ((void (*)(void *, void *))NULL);
+    if(!(ofn_link1 == ((void (**)(void *, void *))NULL)))
+      *ofn_link1 = ((void (*)(void *, void *))NULL);
 
-    if(!(ocd$link1 == ((void **)NULL)))
-      *ocd$link1 = NULL;
+    if(!(ocd_link1 == ((void **)NULL)))
+      *ocd_link1 = NULL;
 
   }
 
@@ -23788,36 +23788,36 @@ __CPROVER_DUMP_L6:
   ;
 }
 
-// store_old$link2
+// store_old_link2
 // file dbg_mlc.c line 1075
-static void store_old$link2(void *obj$link2, void (*my_old_fn$link2)(void *, void *), struct closure *my_old_cd$link2, void (**ofn$link2)(void *, void *), void **ocd$link2)
+static void store_old_link2(void *obj_link2, void (*my_old_fn_link2)(void *, void *), struct closure *my_old_cd_link2, void (**ofn_link2)(void *, void *), void **ocd_link2)
 {
-  if(!(my_old_fn$link2 == ((void (*)(void *, void *))NULL)))
+  if(!(my_old_fn_link2 == ((void (*)(void *, void *))NULL)))
   {
-    if(my_old_fn$link2 == (void (*)(void *, void *))-1l)
+    if(my_old_fn_link2 == (void (*)(void *, void *))-1l)
       goto __CPROVER_DUMP_L6;
 
-    if(!(my_old_fn$link2 == GC_debug_invoke_finalizer))
-      GC_err_printf("Debuggable object at %p had a non-debug finalizer\n", obj$link2);
+    if(!(my_old_fn_link2 == GC_debug_invoke_finalizer))
+      GC_err_printf("Debuggable object at %p had a non-debug finalizer\n", obj_link2);
 
     else
     {
-      if(!(ofn$link2 == ((void (**)(void *, void *))NULL)))
-        *ofn$link2 = my_old_cd$link2->cl_fn;
+      if(!(ofn_link2 == ((void (**)(void *, void *))NULL)))
+        *ofn_link2 = my_old_cd_link2->cl_fn;
 
-      if(!(ocd$link2 == ((void **)NULL)))
-        *ocd$link2 = my_old_cd$link2->cl_data;
+      if(!(ocd_link2 == ((void **)NULL)))
+        *ocd_link2 = my_old_cd_link2->cl_data;
 
     }
   }
 
   else
   {
-    if(!(ofn$link2 == ((void (**)(void *, void *))NULL)))
-      *ofn$link2 = ((void (*)(void *, void *))NULL);
+    if(!(ofn_link2 == ((void (**)(void *, void *))NULL)))
+      *ofn_link2 = ((void (*)(void *, void *))NULL);
 
-    if(!(ocd$link2 == ((void **)NULL)))
-      *ocd$link2 = NULL;
+    if(!(ocd_link2 == ((void **)NULL)))
+      *ocd_link2 = NULL;
 
   }
 
@@ -23836,46 +23836,46 @@ static unsigned long int total_stack_black_listed(void)
   {
     struct hblk *start = (struct hblk *)GC_arrays._heap_sects[(signed long int)i].hs_start;
     struct hblk *endp1 = start + (signed long int)(GC_arrays._heap_sects[(signed long int)i].hs_bytes / (unsigned long int)(1 << 12));
-    unsigned long int return_value_GC_number_stack_black_listed$1;
-    return_value_GC_number_stack_black_listed$1=GC_number_stack_black_listed(start, endp1);
-    total = total + return_value_GC_number_stack_black_listed$1;
+    unsigned long int return_value_GC_number_stack_black_listed_1;
+    return_value_GC_number_stack_black_listed_1=GC_number_stack_black_listed(start, endp1);
+    total = total + return_value_GC_number_stack_black_listed_1;
   }
   return total * (unsigned long int)(1 << 12);
 }
 
-// total_stack_black_listed$link1
+// total_stack_black_listed_link1
 // file blacklst.c line 277
-static unsigned long int total_stack_black_listed$link1(void)
+static unsigned long int total_stack_black_listed_link1(void)
 {
-  unsigned int i$link1;
-  unsigned long int total$link1 = (unsigned long int)0;
-  i$link1 = (unsigned int)0;
-  for( ; !((unsigned long int)i$link1 >= GC_n_heap_sects); i$link1 = i$link1 + 1u)
+  unsigned int i_link1;
+  unsigned long int total_link1 = (unsigned long int)0;
+  i_link1 = (unsigned int)0;
+  for( ; !((unsigned long int)i_link1 >= GC_n_heap_sects); i_link1 = i_link1 + 1u)
   {
-    struct hblk *start$link1 = (struct hblk *)GC_arrays._heap_sects[(signed long int)i$link1].hs_start;
-    struct hblk *endp1$link1 = start$link1 + (signed long int)(GC_arrays._heap_sects[(signed long int)i$link1].hs_bytes / (unsigned long int)(1 << 12));
-    unsigned long int return_value_GC_number_stack_black_listed$1$link1;
-    return_value_GC_number_stack_black_listed$1$link1=GC_number_stack_black_listed(start$link1, endp1$link1);
-    total$link1 = total$link1 + return_value_GC_number_stack_black_listed$1$link1;
+    struct hblk *start_link1 = (struct hblk *)GC_arrays._heap_sects[(signed long int)i_link1].hs_start;
+    struct hblk *endp1_link1 = start_link1 + (signed long int)(GC_arrays._heap_sects[(signed long int)i_link1].hs_bytes / (unsigned long int)(1 << 12));
+    unsigned long int return_value_GC_number_stack_black_listed_1_link1;
+    return_value_GC_number_stack_black_listed_1_link1=GC_number_stack_black_listed(start_link1, endp1_link1);
+    total_link1 = total_link1 + return_value_GC_number_stack_black_listed_1_link1;
   }
-  return total$link1 * (unsigned long int)(1 << 12);
+  return total_link1 * (unsigned long int)(1 << 12);
 }
 
-// total_stack_black_listed$link2
+// total_stack_black_listed_link2
 // file blacklst.c line 277
-static unsigned long int total_stack_black_listed$link2(void)
+static unsigned long int total_stack_black_listed_link2(void)
 {
-  unsigned int i$link2;
-  unsigned long int total$link2 = (unsigned long int)0;
-  i$link2 = (unsigned int)0;
-  for( ; !((unsigned long int)i$link2 >= GC_n_heap_sects); i$link2 = i$link2 + 1u)
+  unsigned int i_link2;
+  unsigned long int total_link2 = (unsigned long int)0;
+  i_link2 = (unsigned int)0;
+  for( ; !((unsigned long int)i_link2 >= GC_n_heap_sects); i_link2 = i_link2 + 1u)
   {
-    struct hblk *start$link2 = (struct hblk *)GC_arrays._heap_sects[(signed long int)i$link2].hs_start;
-    struct hblk *endp1$link2 = start$link2 + (signed long int)(GC_arrays._heap_sects[(signed long int)i$link2].hs_bytes / (unsigned long int)(1 << 12));
-    unsigned long int return_value_GC_number_stack_black_listed$1$link2;
-    return_value_GC_number_stack_black_listed$1$link2=GC_number_stack_black_listed(start$link2, endp1$link2);
-    total$link2 = total$link2 + return_value_GC_number_stack_black_listed$1$link2;
+    struct hblk *start_link2 = (struct hblk *)GC_arrays._heap_sects[(signed long int)i_link2].hs_start;
+    struct hblk *endp1_link2 = start_link2 + (signed long int)(GC_arrays._heap_sects[(signed long int)i_link2].hs_bytes / (unsigned long int)(1 << 12));
+    unsigned long int return_value_GC_number_stack_black_listed_1_link2;
+    return_value_GC_number_stack_black_listed_1_link2=GC_number_stack_black_listed(start_link2, endp1_link2);
+    total_link2 = total_link2 + return_value_GC_number_stack_black_listed_1_link2;
   }
-  return total$link2 * (unsigned long int)(1 << 12);
+  return total_link2 * (unsigned long int)(1 << 12);
 }
 

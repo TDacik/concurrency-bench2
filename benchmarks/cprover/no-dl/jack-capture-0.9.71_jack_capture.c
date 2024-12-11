@@ -1,66 +1,66 @@
-// #anon_enum$JackPositionBBT=16$JackPositionTimecode=32$JackBBTFrameOffset=64$JackAudioVideoRatio=128$JackVideoFrameOffset=256
+// #anon_enum_JackPositionBBT=16_JackPositionTimecode=32_JackBBTFrameOffset=64_JackAudioVideoRatio=128_JackVideoFrameOffset=256
 // file /usr/include/jack/transport.h line 65
-enum anonymous$1 { JackPositionBBT=16, JackPositionTimecode=32, JackBBTFrameOffset=64, JackAudioVideoRatio=128, JackVideoFrameOffset=256 };
+enum anonymous_1 { JackPositionBBT=16, JackPositionTimecode=32, JackBBTFrameOffset=64, JackAudioVideoRatio=128, JackVideoFrameOffset=256 };
 
-// #anon_enum$JackTransportStopped=0$JackTransportRolling=1$JackTransportLooping=2$JackTransportStarting=3
+// #anon_enum_JackTransportStopped=0_JackTransportRolling=1_JackTransportLooping=2_JackTransportStarting=3
 // file /usr/include/jack/transport.h line 50
-enum anonymous$12 { JackTransportStopped=0, JackTransportRolling=1, JackTransportLooping=2, JackTransportStarting=3 };
+enum anonymous_12 { JackTransportStopped=0, JackTransportRolling=1, JackTransportLooping=2, JackTransportStarting=3 };
 
-// tag-#anon#ST[*{S8}$S8$'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'_pad0'|]
 // file /usr/include/jack/ringbuffer.h line 51
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_stopval'||BF{U32}$U32$'__w_stopsig'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_stopval'||BF{U32}_U32_'__w_stopsig'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 84
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_termsig'||BF{U32}$U32$'__w_coredump'||BF{U32}$U32$'__w_retcode'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_termsig'||BF{U32}_U32_'__w_coredump'||BF{U32}_U32_'__w_retcode'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 69
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'please_wakeup'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cond'|]
+// tag-#anon#ST[S32'please_wakeup'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cond'|]
 // file upwaker.h line 22
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U32'sec'||U32'frac'|]
 // file /usr/include/lo/lo_osc_types.h line 46
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[U64'unique_1'||U64'usecs'||U32'frame_rate'||U32'frame'||EN#anon_enum$JackPositionBBT=16$JackPositionTimecode=32$JackBBTFrameOffset=64$JackAudioVideoRatio=128$JackVideoFrameOffset=256#{U32}$U32$'valid'||S32'bar'||S32'beat'||S32'tick'||F64'bar_start_tick'||F32'beats_per_bar'||F32'beat_type'||F64'ticks_per_beat'||F64'beats_per_minute'||F64'frame_time'||F64'next_time'||U32'bbt_offset'||F32'audio_frames_per_video_frame'||U32'video_offset'||ARR7{S32}$S32$'padding'||U64'unique_2'|]
+// tag-#anon#ST[U64'unique_1'||U64'usecs'||U32'frame_rate'||U32'frame'||EN#anon_enum_JackPositionBBT=16_JackPositionTimecode=32_JackBBTFrameOffset=64_JackAudioVideoRatio=128_JackVideoFrameOffset=256#{U32}_U32_'valid'||S32'bar'||S32'beat'||S32'tick'||F64'bar_start_tick'||F32'beats_per_bar'||F32'beat_type'||F64'ticks_per_beat'||F64'beats_per_minute'||F64'frame_time'||F64'next_time'||U32'bbt_offset'||F32'audio_frames_per_video_frame'||U32'video_offset'||ARR7{S32}_S32_'padding'||U64'unique_2'|]
 // file /usr/include/jack/transport.h line 81
 struct anonymous;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]
 // file /usr/include/stdlib.h line 67
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]$transparent
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]_transparent
 // file /usr/include/stdlib.h line 67
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[S32'i'||S32'i32'||S64'h'||S64'i64'||F32'f'||F32'f32'||F64'd'||F64'f64'||S8's'||S8'S'||U8'c'||ARR4{U8}$U8$'m'||SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'t'|]
+// tag-#anon#UN[S32'i'||S32'i32'||S64'h'||S64'i64'||F32'f'||F32'f32'||F64'd'||F64'f64'||S8's'||S8'S'||U8'c'||ARR4{U8}_U8_'m'||SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'t'|]
 // file /usr/include/lo/lo_osc_types.h line 115
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
 // tag-JackLatencyCallbackMode
 // file /usr/include/jack/types.h line 235
@@ -244,7 +244,7 @@ static void * connection_thread(void *arg);
 static void create_ports(void);
 // create_upwaker
 // file upwaker.h line 28
-struct anonymous$3 * create_upwaker(void);
+struct anonymous_3 * create_upwaker(void);
 // disconnect_ports
 // file jack_capture.c line 1887
 static void disconnect_ports(struct _jack_port **ports);
@@ -427,19 +427,19 @@ const char * jack_port_name(const struct _jack_port *);
 struct _jack_port * jack_port_register(struct _jack_client *, const char *, const char *, unsigned long int, unsigned long int);
 // jack_ringbuffer_create
 // file /usr/include/jack/ringbuffer.h line 72
-struct anonymous$10 * jack_ringbuffer_create(unsigned long int);
+struct anonymous_10 * jack_ringbuffer_create(unsigned long int);
 // jack_ringbuffer_free
 // file /usr/include/jack/ringbuffer.h line 80
-void jack_ringbuffer_free(struct anonymous$10 *);
+void jack_ringbuffer_free(struct anonymous_10 *);
 // jack_ringbuffer_read
 // file /usr/include/jack/ringbuffer.h line 137
-unsigned long int jack_ringbuffer_read(struct anonymous$10 *, char *, unsigned long int);
+unsigned long int jack_ringbuffer_read(struct anonymous_10 *, char *, unsigned long int);
 // jack_ringbuffer_read_space
 // file /usr/include/jack/ringbuffer.h line 176
-unsigned long int jack_ringbuffer_read_space(const struct anonymous$10 *);
+unsigned long int jack_ringbuffer_read_space(const struct anonymous_10 *);
 // jack_ringbuffer_write
 // file /usr/include/jack/ringbuffer.h line 205
-unsigned long int jack_ringbuffer_write(struct anonymous$10 *, const char *, unsigned long int);
+unsigned long int jack_ringbuffer_write(struct anonymous_10 *, const char *, unsigned long int);
 // jack_set_freewheel_callback
 // file /usr/include/jack/jack.h line 355
 signed int jack_set_freewheel_callback(struct _jack_client *, void (*)(signed int, void *), void *);
@@ -460,7 +460,7 @@ signed int jack_set_xrun_callback(struct _jack_client *, signed int (*)(void *),
 static void jack_shutdown(void *arg);
 // jack_transport_query
 // file /usr/include/jack/transport.h line 403
-enum anonymous$12 jack_transport_query(const struct _jack_client *, struct anonymous *);
+enum anonymous_12 jack_transport_query(const struct _jack_client *, struct anonymous *);
 // keypress_func
 // file jack_capture.c line 2076
 static void * keypress_func(void *arg);
@@ -508,7 +508,7 @@ signed int lame_set_out_samplerate(struct lame_global_struct *, signed int);
 signed int lame_set_quality(struct lame_global_struct *, signed int);
 // lo_server_thread_add_method
 // file /usr/include/lo/lo_serverthread.h line 119
-void * lo_server_thread_add_method(void *, const char *, const char *, signed int (*)(const char *, const char *, union anonymous$4 **, signed int, void *, void *), void *);
+void * lo_server_thread_add_method(void *, const char *, const char *, signed int (*)(const char *, const char *, union anonymous_4 **, signed int, void *, void *), void *);
 // lo_server_thread_free
 // file /usr/include/lo/lo_serverthread.h line 103
 void lo_server_thread_free(void *);
@@ -577,16 +577,16 @@ void osc_tm_stop();
 static void oscb_error(signed int num, const char *m, const char *path);
 // oscb_frotate
 // file osc.c line 64
-signed int oscb_frotate(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data);
+signed int oscb_frotate(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data);
 // oscb_stop
 // file osc.c line 58
-signed int oscb_stop(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data);
+signed int oscb_stop(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data);
 // oscb_tm_start
 // file osc.c line 46
-signed int oscb_tm_start(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data);
+signed int oscb_tm_start(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data);
 // oscb_tm_stop
 // file osc.c line 52
-signed int oscb_tm_stop(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data);
+signed int oscb_tm_stop(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data);
 // pause
 // file /usr/include/unistd.h line 469
 extern signed int pause(void);
@@ -637,13 +637,13 @@ static void process_fill_buffers(signed int jack_block_size);
 static _Bool process_new_current_buffer(signed int frames_left);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$7 *);
+extern signed int pthread_cond_broadcast(union anonymous_7 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$7 *, const union anonymous$6 *);
+extern signed int pthread_cond_init(union anonymous_7 *, const union anonymous_6 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$7 *, union anonymous$5 *);
+extern signed int pthread_cond_wait(union anonymous_7 *, union anonymous_5 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -652,13 +652,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // putchar
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
 static inline signed int putchar(signed int __c);
@@ -697,13 +697,13 @@ static signed int seconds_to_buffers(float seconds);
 static signed long int seconds_to_frames(float seconds);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$8 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_8 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$8 *);
+extern signed int sem_post(union anonymous_8 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$8 *);
+extern signed int sem_wait(union anonymous_8 *);
 // send_buffer_to_disk_thread
 // file jack_capture.c line 1549
 static void send_buffer_to_disk_thread(struct buffer_t *buffer);
@@ -826,10 +826,10 @@ static void turn_on_echo(void);
 extern signed int ungetc(signed int, struct _IO_FILE *);
 // upwaker_sleep
 // file upwaker.h line 29
-void upwaker_sleep(struct anonymous$3 *upwaker);
+void upwaker_sleep(struct anonymous_3 *upwaker);
 // upwaker_wake_up
 // file upwaker.h line 30
-void upwaker_wake_up(struct anonymous$3 *upwaker);
+void upwaker_wake_up(struct anonymous_3 *upwaker);
 // usleep
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
@@ -869,15 +869,15 @@ void vringbuffer_return_writing(struct vringbuffer_t *vrb, void *data);
 // vringbuffer_set_autoincrease_callback
 // file vringbuffer.h line 96
 void vringbuffer_set_autoincrease_callback(struct vringbuffer_t *vrb, signed int (*callback)(struct vringbuffer_t *, _Bool, signed int, signed int), unsigned int interval);
-// vringbuffer_set_autoincrease_callback::callback$object
+// vringbuffer_set_autoincrease_callback::callback_object
 //
-signed int callback$object(struct vringbuffer_t *, _Bool, signed int, signed int);
+signed int callback_object(struct vringbuffer_t *, _Bool, signed int, signed int);
 // vringbuffer_set_receiver_callback
 // file vringbuffer.h line 106
 void vringbuffer_set_receiver_callback(struct vringbuffer_t *vrb, enum vringbuffer_receiver_callback_return_t (*receiver_callback)(struct vringbuffer_t *, _Bool, void *));
-// vringbuffer_set_receiver_callback::receiver_callback$object
+// vringbuffer_set_receiver_callback::receiver_callback_object
 //
-enum vringbuffer_receiver_callback_return_t receiver_callback$object(struct vringbuffer_t *, _Bool, void *);
+enum vringbuffer_receiver_callback_return_t receiver_callback_object(struct vringbuffer_t *, _Bool, void *);
 // vringbuffer_stop_callbacks
 // file vringbuffer.h line 63
 void vringbuffer_stop_callbacks(struct vringbuffer_t *vrb);
@@ -895,7 +895,7 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 extern signed int vsprintf(char *, const char *, void **);
 // wait
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 102
-extern signed int wait(union anonymous$11);
+extern signed int wait(union anonymous_11);
 // wait_child
 // file jack_capture.c line 944
 static void wait_child(signed int sig);
@@ -912,7 +912,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file jack_capture.c line 1721
 static signed int xrun(void *arg);
 
-struct anonymous$10
+struct anonymous_10
 {
   // buf
   char *buf;
@@ -928,17 +928,17 @@ struct anonymous$10
   signed int mlocked;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __w_stopval
   unsigned int __w_stopval : 8;
   // __w_stopsig
   unsigned int __w_stopsig : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __w_termsig
   unsigned int __w_termsig : 7;
@@ -946,11 +946,11 @@ struct anonymous$13
   unsigned int __w_coredump : 1;
   // __w_retcode
   unsigned int __w_retcode : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -998,7 +998,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1008,27 +1008,27 @@ union anonymous$5
   signed long int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // please_wakeup
   signed int please_wakeup;
   // mutex
-  union anonymous$5 mutex;
+  union anonymous_5 mutex;
   // cond
-  union anonymous$7 cond;
+  union anonymous_7 cond;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // sec
   unsigned int sec;
@@ -1047,7 +1047,7 @@ struct anonymous
   // frame
   unsigned int frame;
   // valid
-  enum anonymous$1 valid;
+  enum anonymous_1 valid;
   // bar
   signed int bar;
   // beat
@@ -1080,7 +1080,7 @@ struct anonymous
   unsigned long int unique_2;
 } __attribute__ ((__packed__));
 
-union anonymous$9
+union anonymous_9
 {
   // __uptr
   union wait *__uptr;
@@ -1088,7 +1088,7 @@ union anonymous$9
   signed int *__iptr;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __uptr
   union wait *__uptr;
@@ -1096,7 +1096,7 @@ union anonymous$11
   signed int *__iptr;
 } __attribute__ ((__transparent_union__));
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[32l];
@@ -1104,7 +1104,7 @@ union anonymous$8
   signed long int __align;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -1112,7 +1112,7 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // i
   signed int i;
@@ -1139,7 +1139,7 @@ union anonymous$4
   // m
   unsigned char m[4l];
   // t
-  struct anonymous$2 t;
+  struct anonymous_2 t;
 };
 
 struct SF_INFO
@@ -1319,11 +1319,11 @@ struct vringbuffer_list_t
 struct vringbuffer_t
 {
   // for_writer1
-  struct anonymous$10 *for_writer1;
+  struct anonymous_10 *for_writer1;
   // for_writer2
-  struct anonymous$10 *for_writer2;
+  struct anonymous_10 *for_writer2;
   // for_reader
-  struct anonymous$10 *for_reader;
+  struct anonymous_10 *for_reader;
   // element_size
   unsigned long int element_size;
   // curr_num_elements
@@ -1333,23 +1333,23 @@ struct vringbuffer_t
   // allocated_mem
   struct vringbuffer_list_t *allocated_mem;
   // increase_lock
-  union anonymous$5 increase_lock;
+  union anonymous_5 increase_lock;
   // please_stop
   _Bool please_stop;
   // receiver_thread
   unsigned long int receiver_thread;
   // receiver_trigger
-  struct anonymous$3 *receiver_trigger;
+  struct anonymous_3 *receiver_trigger;
   // receiver_started
-  union anonymous$8 receiver_started;
+  union anonymous_8 receiver_started;
   // receiver_callback
   enum vringbuffer_receiver_callback_return_t (*receiver_callback)(struct vringbuffer_t *, _Bool, void *);
   // autoincrease_thread
   unsigned long int autoincrease_thread;
   // autoincrease_trigger
-  struct anonymous$3 *autoincrease_trigger;
+  struct anonymous_3 *autoincrease_trigger;
   // autoincrease_started
-  union anonymous$8 autoincrease_started;
+  union anonymous_8 autoincrease_started;
   // autoincrease_callback
   signed int (*autoincrease_callback)(struct vringbuffer_t *, _Bool, signed int, signed int);
   // autoincrease_interval
@@ -1361,9 +1361,9 @@ union wait
   // w_status
   signed int w_status;
   // __wait_terminated
-  struct anonymous$13 __wait_terminated;
+  struct anonymous_13 __wait_terminated;
   // __wait_stopped
-  struct anonymous$14 __wait_stopped;
+  struct anonymous_14 __wait_stopped;
 };
 
 
@@ -1372,7 +1372,7 @@ union wait
 static _Bool absolutely_silent = (_Bool)0;
 // advanced_help
 // file jack_capture.c line 2105
-static const char *advanced_help = "jack_capture  [--bitdepth n] [--channels n] [--port port] [filename]\n              [ -b        n] [ -c        n] [ -p    port]\n\n\"bitdepth\" is by default FLOAT. It can be set to either 8, 16, 24 or 32. (for relevant formats)\n\"channels\" is by default 2.\n\"port\"     is by default set to the two first physical outputs. The \"port\" argument can be\n           specified more than once.\n\"filename\" is by default autogenerated to \"jack_capture_<number>.<format>\"\n\n\nAdditional arguments:\n[--recording-time n] or [-d n]   -> Recording is stopped after \"n\" seconds.\n                                    This options also starts jack_capture in --no-stdin mode.\n                                    To stop recording before the timeout, one can press Ctrl-C.)\n[--filename-prefix s]/[-fp n]    -> Sets first part of the autogenerated filename.\n                                    (default is \"jack_capture_\")\n[--leading-zeros n] or [-z n]    -> \"n\" is the number of zeros to in the autogenerated filename.\n                                    (-z 2 -> jack_capture_001.wav, and so on.) (default is 1)\n[--format format] or [-f format] -> Selects fileformat provided by libsndfile.\n                                    See http://www.mega-nerd.com/libsndfile/api.html#open\n                                    (Default is wav for 1 or 2 channels, and wavex for more than 2.)\n[--print-formats] or [-pf]       -> Prints all sound formats provided to sndfile to screen and then\n                                    exits.\n[--version] or [-v]              -> Prints out version.\n[--silent] or [-s]               -> Suppresses some common messages printed to the terminal.\n[--absolutely-silent] or [-as]   -> Suppresses all messages printed to the terminal.\n                                    Warning: libraries used by jack_capture may still print messages.\n[--verbose] or [-V]              -> Prints some extra information to the terminal.\n[--mp3] or [-mp3]                -> Writes to an mp3 file using liblame (LAME).\n                                    (the --format option has no effect using this option)\n[--mp3-quality n] or [-mp3q n]   -> Selects mp3 quality provided by liblame. n=0 is best, n=9 is worst.\n                                    Default n is 2. (0 uses the most amount of CPU, 9 uses the least)\n[--mp3-bitrate n] or [-mp3b n]   -> Selects mp3 bitrate (in kbit/s).\n                                    Default is set by liblame. (currently 128)\n[--write-to-stdout] or [-ws]     -> Writes 16 bit little endian to stdout. (the --format option, the\n                                    --mp3 option, and some others have no effect using this option)\n[--disable-meter] or [-dm]       -> Disable console meter.\n[--hide-buffer-usage] or [-hbu]  -> Disable buffer usage updates in the console.\n[--disable-console] or [-dc]     -> Disable console updates. Same as \"-dm -hbu\".\n[--no-stdin] or [-ns]            -> Don't read the console. (i.e pressing return won't stop recording.)\n[--daemon]                       -> Same as writing \"--no-stdin --absolutely-silent\".\n[--linear-meter] or [-lm]        -> Use linear scale for the console meter (default is dB scale)\n[--dB-meter-reference or [-dBr]  -> Specify reference level for dB meter. (default=0)\n[--meterbridge] or [-mb]         -> Start up meterbridge to monitor recorded sound.\n[--meterbridge-type] or [-mt]    -> Specify type. vu (default), ppm, dpm, jf or sco.\n[--meterbridge-reference]/[-mr]  -> Specify reference level for meterbidge.\n[--jack-transport]/[-jt]         -> Start program, but do not start recording until jack transport has started rolling\n                                    When jack transport stops, the recording is also stopped, and the program ends.\n[--jack-transport-multi]/[-jtm]  -> Similar to --jack-transport, but do not end program when jack transport stops.\n                                    Instead, record to a new file when jack_transport starts rolling again.\n                                    (not implemented yet)\n[--jack-freewheeling]/[-jf]      -> Start program, but do not start recording until jack enters freewheeling mode\n                                    When jack leaves freewheeling, the recording is also stopped, and the program ends.\n[--manual-connections]/[-mc]     -> jack_capture will not connect any ports for you. \n[--bufsize s] or [-B s]          -> Initial/minimum buffer size in seconds. Default is 8 seconds\n                                    for mp3 files, and 4 seconds for all other formats.\n[--maxbufsize] or [-MB]          -> Maximum buffer size in seconds jack_capture will allocate.\n                                    Default is 40. (Buffer is automatically increased during\n                                    recording when needed. But it will never go beyond this size.)\n[--filename] or [-fn]            -> Specify filename.\n                                    (It's usually easier to set last argument instead)\n[--osc] or [-O]                  -> Specify OSC port number to listen on. see --help-osc\n[--timestamp] or [-S]            -> create a FILENAME.tme file for each recording, storing\n                                    the system-time corresponding to the first audio sample.\n[--rotatefile N] or [-Rf N]      -> force rotate files every N audio-frames.\n[--hook-open c] or [-Ho c]       -> command to execute on successful file-open. (see below)\n[--hook-close c] or [-Hc c]      -> command to execute when closing the session. (see below)\n[--hook-rotate c] or [-Hr c]     -> command to execute on file-name-rotation. (see below)\n[--hook-timing c] or [-Ht c]     -> callback when first audio frame is received. (see below)\n[--timemachine] or [-tm]         -> jack_capture operates in \"timemachine\" mode.\n[--timemachine-prebuffer s]      -> Specify (in seconds) how long time to prebuffer in timemachine mode.\n[ -tmpb s]                       -> ------------------------ \"\" ----------------------------------------\n\n All hook options take a full-path to an executable as argument.\n The commands are executed in a fire-and-forget style upon internal events.\n All output of the hooks is discarded.\n Paramaters passed to the hook-scripts:\n  open:   CMD <filename>\n  close:  CMD <filename> <xrun-count> <io-error-count>\n  rotate: CMD <filename> <xrun-count> <io-error-count> <new-filename> <seq-number>\n  timing: CMD <filename> <time-sec> <time-nses> <jack-port-latency in frames>\n\nExamples:\n\nTo record a stereo file of what you hear:\n  $jack_capture\n\nTo record a stereo file of what you hear in the flac format:\n $jack_capture -f flac\n\nTo record a stereo file of what you hear in the ogg format:\n $jack_capture -f ogg\n\nTo record a stereo file of what you hear in the mp3 format:\n $jack_capture -mp3\n\nTo record a stereo file of what you hear in the wav format:\n  $jack_capture --port system:playback_1 --port system:playback_2\n****************************************************************************\n**** NOTE! The above example does _exactly_ the same as the default!!!  ****\n****************************************************************************\n\nSame result as above, but using a different syntax:\n  $jack_capture --channels 2 --port system:playback*\n\nTo record the output from jamin:\n  $jack_capture --port jamin:out* sound_from_jamin.wav\n\nTo record all sound coming in to jamin:\n  $jack_capture --port jamin:in* sound_to_jamin.wav\n\nTo record all sound coming in and out of jamin:\n  $jack_capture --port jamin* sound_to_and_from_jamin.wav\n\nTo record a stereo file from the soundcard:\n  $jack_capture -c 2 -p system:capture*\n\n";
+static const char *advanced_help = "jack_capture  [--bitdepth n] [--channels n] [--port port] [filename]\n              [ -b        n] [ -c        n] [ -p    port]\n\n\"bitdepth\" is by default FLOAT. It can be set to either 8, 16, 24 or 32. (for relevant formats)\n\"channels\" is by default 2.\n\"port\"     is by default set to the two first physical outputs. The \"port\" argument can be\n           specified more than once.\n\"filename\" is by default autogenerated to \"jack_capture_<number>.<format>\"\n\n\nAdditional arguments:\n[--recording-time n] or [-d n]   -> Recording is stopped after \"n\" seconds.\n                                    This options also starts jack_capture in --no-stdin mode.\n                                    To stop recording before the timeout, one can press Ctrl-C.)\n[--filename-prefix s]/[-fp n]    -> Sets first part of the autogenerated filename.\n                                    (default is \"jack_capture_\")\n[--leading-zeros n] or [-z n]    -> \"n\" is the number of zeros to in the autogenerated filename.\n                                    (-z 2 -> jack_capture_001.wav, and so on.) (default is 1)\n[--format format] or [-f format] -> Selects fileformat provided by libsndfile.\n                                    See http://www.mega-nerd.com/libsndfile/api.html#open\n                                    (Default is wav for 1 or 2 channels, and wavex for more than 2.)\n[--print-formats] or [-pf]       -> Prints all sound formats provided to sndfile to screen and then\n                                    exits.\n[--version] or [-v]              -> Prints out version.\n[--silent] or [-s]               -> Suppresses some common messages printed to the terminal.\n[--absolutely-silent] or [-as]   -> Suppresses all messages printed to the terminal.\n                                    Warning: libraries used by jack_capture may still print messages.\n[--verbose] or [-V]              -> Prints some extra information to the terminal.\n[--mp3] or [-mp3]                -> Writes to an mp3 file using liblame (LAME).\n                                    (the --format option has no effect using this option)\n[--mp3-quality n] or [-mp3q n]   -> Selects mp3 quality provided by liblame. n=0 is best, n=9 is worst.\n                                    Default n is 2. (0 uses the most amount of CPU, 9 uses the least)\n[--mp3-bitrate n] or [-mp3b n]   -> Selects mp3 bitrate (in kbit/s).\n                                    Default is set by liblame. (currently 128)\n[--write-to-stdout] or [-ws]     -> Writes 16 bit little endian to stdout. (the --format option, the\n                                    --mp3 option, and some others have no effect using this option)\n[--disable-meter] or [-dm]       -> Disable console meter.\n[--hide-buffer-usage] or [-hbu]  -> Disable buffer usage updates in the console.\n[--disable-console] or [-dc]     -> Disable console updates. Same as \"-dm -hbu\".\n[--no-stdin] or [-ns]            -> Don't read the console. (i.e pressing return won't stop recording.)\n[--daemon]                       -> Same as writing \"--no-stdin --absolutely-silent\".\n[--linear-meter] or [-lm]        -> Use linear scale for the console meter (default is dB scale)\n[--dB-meter-reference or [-dBr]  -> Specify reference level for dB meter. (default=0)\n[--meterbridge] or [-mb]         -> Start up meterbridge to monitor recorded sound.\n[--meterbridge-type] or [-mt]    -> Specify type. vu (default), ppm, dpm, jf or sco.\n[--meterbridge-reference]/[-mr]  -> Specify reference level for meterbidge.\n[--jack-transport]/[-jt]         -> Start program, but do not start recording until jack transport has started rolling\n                                    When jack transport stops, the recording is also stopped, and the program ends.\n[--jack-transport-multi]/[-jtm]  -> Similar to --jack-transport, but do not end program when jack transport stops.\n                                    Instead, record to a new file when jack_transport starts rolling again.\n                                    (not implemented yet)\n[--jack-freewheeling]/[-jf]      -> Start program, but do not start recording until jack enters freewheeling mode\n                                    When jack leaves freewheeling, the recording is also stopped, and the program ends.\n[--manual-connections]/[-mc]     -> jack_capture will not connect any ports for you. \n[--bufsize s] or [-B s]          -> Initial/minimum buffer size in seconds. Default is 8 seconds\n                                    for mp3 files, and 4 seconds for all other formats.\n[--maxbufsize] or [-MB]          -> Maximum buffer size in seconds jack_capture will allocate.\n                                    Default is 40. (Buffer is automatically increased during\n                                    recording when needed. But it will never go beyond this size.)\n[--filename] or [-fn]            -> Specify filename.\n                                    (It's usually easier to set last argument instead)\n[--osc] or [-O]                  -> Specify OSC port number to listen on. see --help-osc\n[--timestamp] or [-S]            -> create a FILENAME.tme file for each recording, storing\n                                    the system-time corresponding to the first audio sample.\n[--rotatefile N] or [-Rf N]      -> force rotate files every N audio-frames.\n[--hook-open c] or [-Ho c]       -> command to execute on successful file-open. (see below)\n[--hook-close c] or [-Hc c]      -> command to execute when closing the session. (see below)\n[--hook-rotate c] or [-Hr c]     -> command to execute on file-name-rotation. (see below)\n[--hook-timing c] or [-Ht c]     -> callback when first audio frame is received. (see below)\n[--timemachine] or [-tm]         -> jack_capture operates in \"timemachine\" mode.\n[--timemachine-prebuffer s]      -> Specify (in seconds) how long time to prebuffer in timemachine mode.\n[ -tmpb s]                       -> ------------------------ \"\" ----------------------------------------\n\n All hook options take a full-path to an executable as argument.\n The commands are executed in a fire-and-forget style upon internal events.\n All output of the hooks is discarded.\n Paramaters passed to the hook-scripts:\n  open:   CMD <filename>\n  close:  CMD <filename> <xrun-count> <io-error-count>\n  rotate: CMD <filename> <xrun-count> <io-error-count> <new-filename> <seq-number>\n  timing: CMD <filename> <time-sec> <time-nses> <jack-port-latency in frames>\n\nExamples:\n\nTo record a stereo file of what you hear:\n  _jack_capture\n\nTo record a stereo file of what you hear in the flac format:\n _jack_capture -f flac\n\nTo record a stereo file of what you hear in the ogg format:\n _jack_capture -f ogg\n\nTo record a stereo file of what you hear in the mp3 format:\n _jack_capture -mp3\n\nTo record a stereo file of what you hear in the wav format:\n  _jack_capture --port system:playback_1 --port system:playback_2\n****************************************************************************\n**** NOTE! The above example does _exactly_ the same as the default!!!  ****\n****************************************************************************\n\nSame result as above, but using a different syntax:\n  _jack_capture --channels 2 --port system:playback*\n\nTo record the output from jamin:\n  _jack_capture --port jamin:out* sound_from_jamin.wav\n\nTo record all sound coming in to jamin:\n  _jack_capture --port jamin:in* sound_to_jamin.wav\n\nTo record all sound coming in and out of jamin:\n  _jack_capture --port jamin* sound_to_and_from_jamin.wav\n\nTo record a stereo file from the soundcard:\n  _jack_capture -c 2 -p system:capture*\n\n";
 // base_filename
 // file jack_capture.c line 99
 static char *base_filename = (char *)(void *)0;
@@ -1402,7 +1402,7 @@ signed int connect_meterbridge = 0;
 static unsigned long int connect_thread = (unsigned long int)0;
 // connection_semaphore
 // file jack_capture.c line 1929
-static union anonymous$8 connection_semaphore;
+static union anonymous_8 connection_semaphore;
 // cportnames
 // file jack_capture.c line 386
 static const char **cportnames = (const char **)(void *)0;
@@ -1576,7 +1576,7 @@ static struct _jack_port **ports;
 static struct _jack_port **ports_meterbridge = (struct _jack_port **)(void *)0;
 // print_message_mutex
 // file jack_capture.c line 826
-static union anonymous$5 print_message_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_5 print_message_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // process_state
@@ -1632,7 +1632,7 @@ extern struct _IO_FILE *stdin;
 extern struct _IO_FILE *stdout;
 // stop_sem
 // file jack_capture.c line 207
-static union anonymous$8 stop_sem;
+static union anonymous_8 stop_sem;
 // store_sync
 // file jack_capture.c line 1059
 static signed int store_sync = 0;
@@ -1715,13 +1715,13 @@ void append_argv(char **v1, char **v2, signed int len1, signed int len2, signed 
     exit(-3);
   }
 
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  for( ; !(write_pos >= len1 + len2); v1[(signed long int)tmp_post$1] = v2[(signed long int)tmp_post$2])
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  for( ; !(write_pos >= len1 + len2); v1[(signed long int)tmp_post_1] = v2[(signed long int)tmp_post_2])
   {
-    tmp_post$1 = write_pos;
+    tmp_post_1 = write_pos;
     write_pos = write_pos + 1;
-    tmp_post$2 = read_pos;
+    tmp_post_2 = read_pos;
     read_pos = read_pos + 1;
   }
 }
@@ -1733,9 +1733,9 @@ signed int asprintf(char **buffer, char *fmt, ...)
   signed int size = 200;
   signed int nchars;
   void **ap;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size);
-  *buffer = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size);
+  *buffer = (char *)return_value_malloc_1;
   if(*buffer == ((char *)NULL))
     return -1;
 
@@ -1748,9 +1748,9 @@ signed int asprintf(char **buffer, char *fmt, ...)
     {
       char *tmpbuff;
       size = nchars + 1;
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)*buffer, (unsigned long int)size);
-      tmpbuff = (char *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)*buffer, (unsigned long int)size);
+      tmpbuff = (char *)return_value_realloc_2;
       if(tmpbuff == ((char *)NULL))
       {
         free((void *)*buffer);
@@ -1775,27 +1775,27 @@ signed int asprintf(char **buffer, char *fmt, ...)
 // file /usr/include/x86_64-linux-gnu/bits/stdlib-float.h line 26
 static inline double atof(const char *__nptr)
 {
-  double return_value_strtod$1;
-  return_value_strtod$1=strtod(__nptr, (char **)(void *)0);
-  return return_value_strtod$1;
+  double return_value_strtod_1;
+  return_value_strtod_1=strtod(__nptr, (char **)(void *)0);
+  return return_value_strtod_1;
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // atoll
 // file /usr/include/stdlib.h line 292
 static inline signed long long int atoll(const char *__nptr)
 {
-  signed long long int return_value_strtoll$1;
-  return_value_strtoll$1=strtoll(__nptr, (char **)(void *)0, 10);
-  return return_value_strtoll$1;
+  signed long long int return_value_strtoll_1;
+  return_value_strtoll_1=strtoll(__nptr, (char **)(void *)0, 10);
+  return return_value_strtoll_1;
 }
 
 // autoincrease_callback
@@ -1818,9 +1818,9 @@ static signed int autoincrease_callback(struct vringbuffer_t *vrb, _Bool first_c
 
       else
       {
-        float return_value_buffers_to_seconds$1;
-        return_value_buffers_to_seconds$1=buffers_to_seconds(writing_size);
-        if(return_value_buffers_to_seconds$1 < min_buffer_time)
+        float return_value_buffers_to_seconds_1;
+        return_value_buffers_to_seconds_1=buffers_to_seconds(writing_size);
+        if(return_value_buffers_to_seconds_1 < min_buffer_time)
           return 2;
 
         else
@@ -1868,31 +1868,31 @@ static float blocks_to_seconds(signed int blocks)
 static void buffers_init()
 {
   verbose_print("bufinit1. sizeof(long): %u, sizeof(float): %u, sizeof(double):%u, sizeof(int):%u, sizeof(void*):%u\n", sizeof(signed long int) /*8ul*/ , sizeof(float) /*4ul*/ , sizeof(double) /*8ul*/ , sizeof(signed int) /*4ul*/ , sizeof(void *) /*8ul*/ );
-  signed int return_value_seconds_to_buffers$1;
-  return_value_seconds_to_buffers$1=seconds_to_buffers(min_buffer_time);
-  signed int tmp_if_expr$3;
-  signed int return_value_seconds_to_buffers$2;
-  if(!(return_value_seconds_to_buffers$1 >= 4))
-    tmp_if_expr$3 = 4;
+  signed int return_value_seconds_to_buffers_1;
+  return_value_seconds_to_buffers_1=seconds_to_buffers(min_buffer_time);
+  signed int tmp_if_expr_3;
+  signed int return_value_seconds_to_buffers_2;
+  if(!(return_value_seconds_to_buffers_1 >= 4))
+    tmp_if_expr_3 = 4;
 
   else
   {
-    return_value_seconds_to_buffers$2=seconds_to_buffers(min_buffer_time);
-    tmp_if_expr$3 = return_value_seconds_to_buffers$2;
+    return_value_seconds_to_buffers_2=seconds_to_buffers(min_buffer_time);
+    tmp_if_expr_3 = return_value_seconds_to_buffers_2;
   }
-  signed int return_value_seconds_to_buffers$4;
-  return_value_seconds_to_buffers$4=seconds_to_buffers(max_buffer_time);
-  signed int tmp_if_expr$6;
-  signed int return_value_seconds_to_buffers$5;
-  if(!(return_value_seconds_to_buffers$4 >= 4))
-    tmp_if_expr$6 = 4;
+  signed int return_value_seconds_to_buffers_4;
+  return_value_seconds_to_buffers_4=seconds_to_buffers(max_buffer_time);
+  signed int tmp_if_expr_6;
+  signed int return_value_seconds_to_buffers_5;
+  if(!(return_value_seconds_to_buffers_4 >= 4))
+    tmp_if_expr_6 = 4;
 
   else
   {
-    return_value_seconds_to_buffers$5=seconds_to_buffers(max_buffer_time);
-    tmp_if_expr$6 = return_value_seconds_to_buffers$5;
+    return_value_seconds_to_buffers_5=seconds_to_buffers(max_buffer_time);
+    tmp_if_expr_6 = return_value_seconds_to_buffers_5;
   }
-  vringbuffer=vringbuffer_create(tmp_if_expr$3, tmp_if_expr$6, (unsigned long int)buffer_size_in_bytes);
+  vringbuffer=vringbuffer_create(tmp_if_expr_3, tmp_if_expr_6, (unsigned long int)buffer_size_in_bytes);
   if(vringbuffer == ((struct vringbuffer_t *)NULL))
   {
     fprintf(stderr, "Unable to allocate memory for buffers\n");
@@ -1900,21 +1900,21 @@ static void buffers_init()
   }
 
   vringbuffer_set_autoincrease_callback(vringbuffer, autoincrease_callback, (unsigned int)0);
-  void *return_value_vringbuffer_get_writing$7;
-  return_value_vringbuffer_get_writing$7=vringbuffer_get_writing(vringbuffer);
-  current_buffer = (struct buffer_t *)return_value_vringbuffer_get_writing$7;
-  void *return_value_my_calloc$8;
-  return_value_my_calloc$8=my_calloc(sizeof(float) /*4ul*/ , (unsigned long int)(block_size * num_channels));
-  empty_buffer = (float *)return_value_my_calloc$8;
+  void *return_value_vringbuffer_get_writing_7;
+  return_value_vringbuffer_get_writing_7=vringbuffer_get_writing(vringbuffer);
+  current_buffer = (struct buffer_t *)return_value_vringbuffer_get_writing_7;
+  void *return_value_my_calloc_8;
+  return_value_my_calloc_8=my_calloc(sizeof(float) /*4ul*/ , (unsigned long int)(block_size * num_channels));
+  empty_buffer = (float *)return_value_my_calloc_8;
 }
 
 // buffers_to_seconds
 // file jack_capture.c line 331
 static float buffers_to_seconds(signed int buffers)
 {
-  float return_value_blocks_to_seconds$1;
-  return_value_blocks_to_seconds$1=blocks_to_seconds(buffers);
-  return return_value_blocks_to_seconds$1;
+  float return_value_blocks_to_seconds_1;
+  return_value_blocks_to_seconds_1=blocks_to_seconds(buffers);
+  return return_value_blocks_to_seconds_1;
 }
 
 // call_hook
@@ -2015,13 +2015,13 @@ static void close_soundfile(void)
 // file jack_capture.c line 1840
 static signed int compare(const void *a, const void *b)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp((const char *)a, (const char *)b);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  return tmp_statement_expression$1;
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp((const char *)a, (const char *)b);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  return tmp_statement_expression_1;
 }
 
 // connect_ports
@@ -2029,8 +2029,8 @@ static signed int compare(const void *a, const void *b)
 static void connect_ports(struct _jack_port **ports)
 {
   signed int ch;
-  const char *return_value_jack_port_name$2;
-  char *return_value_strerror$3;
+  const char *return_value_jack_port_name_2;
+  char *return_value_strerror_3;
   if(!(ports == ((struct _jack_port **)NULL)))
   {
     ch = 0;
@@ -2046,14 +2046,14 @@ static void connect_ports(struct _jack_port **ports)
           break;
 
         signed int err;
-        const char *return_value_jack_port_name$1;
-        return_value_jack_port_name$1=jack_port_name(ports[(signed long int)ch]);
-        err=jack_connect(client, connections[(signed long int)lokke], return_value_jack_port_name$1);
+        const char *return_value_jack_port_name_1;
+        return_value_jack_port_name_1=jack_port_name(ports[(signed long int)ch]);
+        err=jack_connect(client, connections[(signed long int)lokke], return_value_jack_port_name_1);
         if(!(err == 0))
         {
-          return_value_jack_port_name$2=jack_port_name(ports[(signed long int)ch]);
-          return_value_strerror$3=strerror(err);
-          print_message("\nCould not connect input port %s to %s, errorcode %s\n", return_value_jack_port_name$2, connections[(signed long int)lokke], return_value_strerror$3);
+          return_value_jack_port_name_2=jack_port_name(ports[(signed long int)ch]);
+          return_value_strerror_3=strerror(err);
+          print_message("\nCould not connect input port %s to %s, errorcode %s\n", return_value_jack_port_name_2, connections[(signed long int)lokke], return_value_strerror_3);
         }
 
         lokke = lokke + 1;
@@ -2068,7 +2068,7 @@ static void connect_ports(struct _jack_port **ports)
 // file jack_capture.c line 1931
 static void * connection_thread(void *arg)
 {
-  signed int return_value_reconnect_ports_questionmark$1;
+  signed int return_value_reconnect_ports_questionmark_1;
   while((_Bool)1)
   {
     sem_wait(&connection_semaphore);
@@ -2084,8 +2084,8 @@ static void * connection_thread(void *arg)
     else
       if(!(is_initialized == 0))
       {
-        return_value_reconnect_ports_questionmark$1=reconnect_ports_questionmark();
-        if(!(return_value_reconnect_ports_questionmark$1 == 0))
+        return_value_reconnect_ports_questionmark_1=reconnect_ports_questionmark();
+        if(!(return_value_reconnect_ports_questionmark_1 == 0))
         {
           if((signed int)silent == 0)
             print_message("Reconnecting ports.\n");
@@ -2112,9 +2112,9 @@ done:
 // file jack_capture.c line 2007
 static void create_ports(void)
 {
-  void *return_value_my_calloc$1;
-  return_value_my_calloc$1=my_calloc(sizeof(struct _jack_port *) /*8ul*/ , (unsigned long int)num_channels);
-  ports = (struct _jack_port **)return_value_my_calloc$1;
+  void *return_value_my_calloc_1;
+  return_value_my_calloc_1=my_calloc(sizeof(struct _jack_port *) /*8ul*/ , (unsigned long int)num_channels);
+  ports = (struct _jack_port **)return_value_my_calloc_1;
   signed int ch = 0;
   for( ; !(ch >= num_channels); ch = ch + 1)
   {
@@ -2133,15 +2133,15 @@ static void create_ports(void)
 
 // create_upwaker
 // file upwaker.h line 28
-struct anonymous$3 * create_upwaker(void)
+struct anonymous_3 * create_upwaker(void)
 {
-  struct anonymous$3 *upwaker;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$3) /*96ul*/ );
-  upwaker = (struct anonymous$3 *)return_value_calloc$1;
+  struct anonymous_3 *upwaker;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_3) /*96ul*/ );
+  upwaker = (struct anonymous_3 *)return_value_calloc_1;
   upwaker->please_wakeup = 0;
-  pthread_mutex_init(&upwaker->mutex, (const union anonymous$6 *)(void *)0);
-  pthread_cond_init(&upwaker->cond, (const union anonymous$6 *)(void *)0);
+  pthread_mutex_init(&upwaker->mutex, (const union anonymous_6 *)(void *)0);
+  pthread_cond_init(&upwaker->cond, (const union anonymous_6 *)(void *)0);
   return upwaker;
 }
 
@@ -2150,7 +2150,7 @@ struct anonymous$3 * create_upwaker(void)
 static void disconnect_ports(struct _jack_port **ports)
 {
   signed int ch;
-  const char *return_value_jack_port_name$1;
+  const char *return_value_jack_port_name_1;
   if(!(ports == ((struct _jack_port **)NULL)))
   {
     ch = 0;
@@ -2162,8 +2162,8 @@ static void disconnect_ports(struct _jack_port **ports)
       if(!(connections == ((const char **)NULL)))
         for( ; !(connections[(signed long int)lokke] == ((const char *)NULL)); lokke = lokke + 1)
         {
-          return_value_jack_port_name$1=jack_port_name(ports[(signed long int)ch]);
-          jack_disconnect(client, connections[(signed long int)lokke], return_value_jack_port_name$1);
+          return_value_jack_port_name_1=jack_port_name(ports[(signed long int)ch]);
+          jack_disconnect(client, connections[(signed long int)lokke], return_value_jack_port_name_1);
         }
 
       free_jack_connections((_Bool)0, connections);
@@ -2186,9 +2186,9 @@ static enum vringbuffer_receiver_callback_return_t disk_callback(struct vringbuf
     {
       signed int num_buffers;
       num_buffers=vringbuffer_reading_size(vrb);
-      float return_value_buffers_to_seconds$1;
-      return_value_buffers_to_seconds$1=buffers_to_seconds(num_buffers);
-      if(return_value_buffers_to_seconds$1 > timemachine_prebuffer)
+      float return_value_buffers_to_seconds_1;
+      return_value_buffers_to_seconds_1=buffers_to_seconds(num_buffers);
+      if(return_value_buffers_to_seconds_1 > timemachine_prebuffer)
         return (enum vringbuffer_receiver_callback_return_t)VRB_CALLBACK_USED_BUFFER;
 
       else
@@ -2246,9 +2246,9 @@ static enum vringbuffer_receiver_callback_return_t disk_callback(struct vringbuf
         rtime.tv_sec = rtime.tv_sec - sync_sec;
         ssync_offset = 0;
         struct _IO_FILE *file;
-        char *return_value_string_concat$2;
-        return_value_string_concat$2=string_concat(filename, ".tme");
-        file=fopen(return_value_string_concat$2, "w");
+        char *return_value_string_concat_2;
+        return_value_string_concat_2=string_concat(filename, ".tme");
+        file=fopen(return_value_string_concat_2, "w");
         if(!(file == ((struct _IO_FILE *)NULL)))
         {
           fprintf(file, "%ld.%ld\n", rtime.tv_sec, rtime.tv_nsec);
@@ -2280,24 +2280,24 @@ static void disk_thread_control_priority(void)
 {
   signed int adjusted_writing_size;
   adjusted_writing_size=vringbuffer_writing_size(vringbuffer);
-  signed int return_value_seconds_to_blocks$1;
+  signed int return_value_seconds_to_blocks_1;
   if((signed int)timemachine_mode == 1)
   {
-    return_value_seconds_to_blocks$1=seconds_to_blocks(timemachine_prebuffer * jack_samplerate);
-    adjusted_writing_size = adjusted_writing_size + return_value_seconds_to_blocks$1;
+    return_value_seconds_to_blocks_1=seconds_to_blocks(timemachine_prebuffer * jack_samplerate);
+    adjusted_writing_size = adjusted_writing_size + return_value_seconds_to_blocks_1;
   }
 
-  signed int return_value_vringbuffer_reading_size$3;
+  signed int return_value_vringbuffer_reading_size_3;
   if((signed int)disk_thread_has_high_priority == 0)
   {
-    return_value_vringbuffer_reading_size$3=vringbuffer_reading_size(vringbuffer);
-    if(return_value_vringbuffer_reading_size$3 >= adjusted_writing_size)
+    return_value_vringbuffer_reading_size_3=vringbuffer_reading_size(vringbuffer);
+    if(return_value_vringbuffer_reading_size_3 >= adjusted_writing_size)
     {
       if((signed int)use_jack_freewheel == 0)
       {
-        _Bool return_value_set_high_priority$2;
-        return_value_set_high_priority$2=set_high_priority();
-        if((signed int)return_value_set_high_priority$2 == 1)
+        _Bool return_value_set_high_priority_2;
+        return_value_set_high_priority_2=set_high_priority();
+        if((signed int)return_value_set_high_priority_2 == 1)
         {
           disk_thread_has_high_priority = (_Bool)1;
           print_message("Less than half the buffer used. Setting higher priority for the disk thread.\n");
@@ -2324,19 +2324,19 @@ static void disk_thread_control_priority(void)
 static signed int disk_write(void *data, unsigned long int frames)
 {
   num_frames_written_to_disk = num_frames_written_to_disk + (signed long int)frames;
-  signed int return_value_stdout_write$1;
-  signed int return_value_mp3_write$2;
+  signed int return_value_stdout_write_1;
+  signed int return_value_mp3_write_2;
   if((signed int)write_to_stdout == 1)
   {
-    return_value_stdout_write$1=stdout_write((float *)data, frames);
-    return return_value_stdout_write$1;
+    return_value_stdout_write_1=stdout_write((float *)data, frames);
+    return return_value_stdout_write_1;
   }
 
   else
     if((signed int)write_to_mp3 == 1)
     {
-      return_value_mp3_write$2=mp3_write(data, frames, (_Bool)0);
-      return return_value_mp3_write$2;
+      return_value_mp3_write_2=mp3_write(data, frames, (_Bool)0);
+      return return_value_mp3_write_2;
     }
 
     else
@@ -2345,20 +2345,20 @@ static signed int disk_write(void *data, unsigned long int frames)
 
       else
       {
-        signed int return_value_handle_filelimit$3;
-        return_value_handle_filelimit$3=handle_filelimit(frames);
-        if(return_value_handle_filelimit$3 == 0)
+        signed int return_value_handle_filelimit_3;
+        return_value_handle_filelimit_3=handle_filelimit(frames);
+        if(return_value_handle_filelimit_3 == 0)
           return 0;
 
         else
         {
-          signed long int return_value_sf_writef_float$5;
-          return_value_sf_writef_float$5=sf_writef_float(soundfile, (const float *)data, (signed long int)frames);
-          if(!((unsigned long int)return_value_sf_writef_float$5 == frames))
+          signed long int return_value_sf_writef_float_5;
+          return_value_sf_writef_float_5=sf_writef_float(soundfile, (const float *)data, (signed long int)frames);
+          if(!((unsigned long int)return_value_sf_writef_float_5 == frames))
           {
-            const char *return_value_sf_strerror$4;
-            return_value_sf_strerror$4=sf_strerror(soundfile);
-            print_message("Error. Can not write sndfile (%s)\n", return_value_sf_strerror$4);
+            const char *return_value_sf_strerror_4;
+            return_value_sf_strerror_4=sf_strerror(soundfile);
+            print_message("Error. Can not write sndfile (%s)\n", return_value_sf_strerror_4);
             disk_errors = disk_errors + 1;
             return 0;
           }
@@ -2379,9 +2379,9 @@ static signed int disk_write_overruns(signed int num_overruns)
   while(num_overruns >= 1)
   {
     signed int size = block_size < num_overruns ? block_size : num_overruns;
-    signed int return_value_disk_write$1;
-    return_value_disk_write$1=disk_write((void *)empty_buffer, (unsigned long int)size);
-    if(return_value_disk_write$1 == 0)
+    signed int return_value_disk_write_1;
+    return_value_disk_write_1=disk_write((void *)empty_buffer, (unsigned long int)size);
+    if(return_value_disk_write_1 == 0)
       return 0;
 
     num_overruns = num_overruns - size;
@@ -2435,12 +2435,12 @@ static void free_jack_connections(_Bool using_calloc, const char **connections)
 static void freewheelcallback(signed int starting, void *arg)
 {
   freewheel_mode = starting;
-  signed int return_value_vringbuffer_reading_size$1;
+  signed int return_value_vringbuffer_reading_size_1;
   if(starting == 0 && (signed int)use_jack_freewheel == 1)
     do
     {
-      return_value_vringbuffer_reading_size$1=vringbuffer_reading_size(vringbuffer);
-      if(!(return_value_vringbuffer_reading_size$1 >= 1))
+      return_value_vringbuffer_reading_size_1=vringbuffer_reading_size(vringbuffer);
+      if(!(return_value_vringbuffer_reading_size_1 >= 1))
         break;
 
       msleep(2);
@@ -2453,9 +2453,9 @@ static void freewheelcallback(signed int starting, void *arg)
 // file setformat.c line 31
 signed int getformat(char *soundfile_format)
 {
-  signed int return_value_setformat_base$1;
-  return_value_setformat_base$1=setformat_base(soundfile_format);
-  return return_value_setformat_base$1;
+  signed int return_value_setformat_base_1;
+  return_value_setformat_base_1=setformat_base(soundfile_format);
+  return return_value_setformat_base_1;
 }
 
 // graphordercallback
@@ -2476,9 +2476,9 @@ static signed int handle_filelimit(unsigned long int frames)
   if(disksize + (signed long int)new_bytes >= 4293918719l && !(is_using_wav == (_Bool)0))
   {
     print_message("Warning. 4GB limit on wav file almost reached.");
-    signed int return_value_rotate_file$1;
-    return_value_rotate_file$1=rotate_file(frames, 0);
-    if(return_value_rotate_file$1 == 0)
+    signed int return_value_rotate_file_1;
+    return_value_rotate_file_1=rotate_file(frames, 0);
+    if(return_value_rotate_file_1 == 0)
       return 0;
 
   }
@@ -2488,9 +2488,9 @@ static signed int handle_filelimit(unsigned long int frames)
     {
       queued_file_rotate = (_Bool)0;
       print_message("Note. file-name rotation request received.");
-      signed int return_value_rotate_file$2;
-      return_value_rotate_file$2=rotate_file(frames, 1);
-      if(return_value_rotate_file$2 == 0)
+      signed int return_value_rotate_file_2;
+      return_value_rotate_file_2=rotate_file(frames, 1);
+      if(return_value_rotate_file_2 == 0)
         return 0;
 
     }
@@ -2498,9 +2498,9 @@ static signed int handle_filelimit(unsigned long int frames)
     else
       if(rotateframe >= 1l && !(rotateframe * (signed long int)bytes_per_frame * (signed long int)num_channels >= disksize))
       {
-        signed int return_value_rotate_file$3;
-        return_value_rotate_file$3=rotate_file(frames, 0);
-        if(return_value_rotate_file$3 == 0)
+        signed int return_value_rotate_file_3;
+        return_value_rotate_file_3=rotate_file(frames, 0);
+        if(return_value_rotate_file_3 == 0)
           return 0;
 
       }
@@ -2557,9 +2557,9 @@ static void * helper_thread_func(void *arg)
     if(!(show_bufferusage == (_Bool)0) || !(use_vu == (_Bool)0))
       print_console(move_cursor_to_top_doit, (_Bool)0);
 
-    signed int return_value_init_meterbridge_ports$1;
-    return_value_init_meterbridge_ports$1=init_meterbridge_ports();
-    if(return_value_init_meterbridge_ports$1 == 1)
+    signed int return_value_init_meterbridge_ports_1;
+    return_value_init_meterbridge_ports_1=init_meterbridge_ports();
+    if(return_value_init_meterbridge_ports_1 == 1)
     {
       if((signed int)use_vu == 0)
       {
@@ -2589,48 +2589,48 @@ static void hook_file_closed(char *fn, signed int xruns, signed int io_errors)
   char **argv;
   signed int argc;
   const char *cmd = hook_cmd_closed;
-  signed int tmp_post$3;
-  signed int tmp_post$7;
-  signed int tmp_post$9;
-  signed int tmp_post$11;
+  signed int tmp_post_3;
+  signed int tmp_post_7;
+  signed int tmp_post_9;
+  signed int tmp_post_11;
   if(!(cmd == ((const char *)NULL)))
   {
     char *bntmp;
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(cmd);
-    bntmp = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(cmd);
+    bntmp = return_value___strdup_1;
     argc = 0;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_calloc$2;
-    tmp_post$3 = argc;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_calloc_2;
+    tmp_post_3 = argc;
     argc = argc + 1;
-    char *return_value___xpg_basename$4;
-    return_value___xpg_basename$4=__xpg_basename(bntmp);
-    char *return_value___strdup$5;
-    return_value___strdup$5=__strdup(return_value___xpg_basename$4);
-    argv[(signed long int)tmp_post$3] = return_value___strdup$5;
+    char *return_value___xpg_basename_4;
+    return_value___xpg_basename_4=__xpg_basename(bntmp);
+    char *return_value___strdup_5;
+    return_value___strdup_5=__strdup(return_value___xpg_basename_4);
+    argv[(signed long int)tmp_post_3] = return_value___strdup_5;
     free((void *)bntmp);
-    void *return_value_realloc$6;
-    return_value_realloc$6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$6;
-    tmp_post$7 = argc;
+    void *return_value_realloc_6;
+    return_value_realloc_6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_6;
+    tmp_post_7 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$7], "%s", fn);
+    asprintf(&argv[(signed long int)tmp_post_7], "%s", fn);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$8;
-    return_value_realloc$8=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$8;
-    tmp_post$9 = argc;
+    void *return_value_realloc_8;
+    return_value_realloc_8=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_8;
+    tmp_post_9 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$9], "%d", xruns);
+    asprintf(&argv[(signed long int)tmp_post_9], "%d", xruns);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$10;
-    return_value_realloc$10=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$10;
-    tmp_post$11 = argc;
+    void *return_value_realloc_10;
+    return_value_realloc_10=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_10;
+    tmp_post_11 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$11], "%d", io_errors);
+    asprintf(&argv[(signed long int)tmp_post_11], "%d", io_errors);
     argv[(signed long int)argc] = ((char *)NULL);
     call_hook(cmd, argc, argv);
   }
@@ -2644,32 +2644,32 @@ static void hook_file_opened(char *fn)
   char **argv;
   signed int argc;
   const char *cmd = hook_cmd_opened;
-  signed int tmp_post$3;
-  signed int tmp_post$7;
+  signed int tmp_post_3;
+  signed int tmp_post_7;
   if(!(cmd == ((const char *)NULL)))
   {
     char *bntmp;
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(cmd);
-    bntmp = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(cmd);
+    bntmp = return_value___strdup_1;
     argc = 0;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_calloc$2;
-    tmp_post$3 = argc;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_calloc_2;
+    tmp_post_3 = argc;
     argc = argc + 1;
-    char *return_value___xpg_basename$4;
-    return_value___xpg_basename$4=__xpg_basename(bntmp);
-    char *return_value___strdup$5;
-    return_value___strdup$5=__strdup(return_value___xpg_basename$4);
-    argv[(signed long int)tmp_post$3] = return_value___strdup$5;
+    char *return_value___xpg_basename_4;
+    return_value___xpg_basename_4=__xpg_basename(bntmp);
+    char *return_value___strdup_5;
+    return_value___strdup_5=__strdup(return_value___xpg_basename_4);
+    argv[(signed long int)tmp_post_3] = return_value___strdup_5;
     free((void *)bntmp);
-    void *return_value_realloc$6;
-    return_value_realloc$6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$6;
-    tmp_post$7 = argc;
+    void *return_value_realloc_6;
+    return_value_realloc_6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_6;
+    tmp_post_7 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$7], "%s", fn);
+    asprintf(&argv[(signed long int)tmp_post_7], "%s", fn);
     argv[(signed long int)argc] = ((char *)NULL);
     call_hook(cmd, argc, argv);
   }
@@ -2683,64 +2683,64 @@ static void hook_file_rotated(char *oldfn, char *newfn, signed int num, signed i
   char **argv;
   signed int argc;
   const char *cmd = hook_cmd_rotate;
-  signed int tmp_post$3;
-  signed int tmp_post$7;
-  signed int tmp_post$9;
-  signed int tmp_post$11;
-  signed int tmp_post$13;
-  signed int tmp_post$15;
+  signed int tmp_post_3;
+  signed int tmp_post_7;
+  signed int tmp_post_9;
+  signed int tmp_post_11;
+  signed int tmp_post_13;
+  signed int tmp_post_15;
   if(!(cmd == ((const char *)NULL)))
   {
     char *bntmp;
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(cmd);
-    bntmp = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(cmd);
+    bntmp = return_value___strdup_1;
     argc = 0;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_calloc$2;
-    tmp_post$3 = argc;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_calloc_2;
+    tmp_post_3 = argc;
     argc = argc + 1;
-    char *return_value___xpg_basename$4;
-    return_value___xpg_basename$4=__xpg_basename(bntmp);
-    char *return_value___strdup$5;
-    return_value___strdup$5=__strdup(return_value___xpg_basename$4);
-    argv[(signed long int)tmp_post$3] = return_value___strdup$5;
+    char *return_value___xpg_basename_4;
+    return_value___xpg_basename_4=__xpg_basename(bntmp);
+    char *return_value___strdup_5;
+    return_value___strdup_5=__strdup(return_value___xpg_basename_4);
+    argv[(signed long int)tmp_post_3] = return_value___strdup_5;
     free((void *)bntmp);
-    void *return_value_realloc$6;
-    return_value_realloc$6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$6;
-    tmp_post$7 = argc;
+    void *return_value_realloc_6;
+    return_value_realloc_6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_6;
+    tmp_post_7 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$7], "%s", oldfn);
+    asprintf(&argv[(signed long int)tmp_post_7], "%s", oldfn);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$8;
-    return_value_realloc$8=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$8;
-    tmp_post$9 = argc;
+    void *return_value_realloc_8;
+    return_value_realloc_8=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_8;
+    tmp_post_9 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$9], "%d", xruns);
+    asprintf(&argv[(signed long int)tmp_post_9], "%d", xruns);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$10;
-    return_value_realloc$10=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$10;
-    tmp_post$11 = argc;
+    void *return_value_realloc_10;
+    return_value_realloc_10=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_10;
+    tmp_post_11 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$11], "%d", io_errors);
+    asprintf(&argv[(signed long int)tmp_post_11], "%d", io_errors);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$12;
-    return_value_realloc$12=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$12;
-    tmp_post$13 = argc;
+    void *return_value_realloc_12;
+    return_value_realloc_12=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_12;
+    tmp_post_13 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$13], "%s", newfn);
+    asprintf(&argv[(signed long int)tmp_post_13], "%s", newfn);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$14;
-    return_value_realloc$14=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$14;
-    tmp_post$15 = argc;
+    void *return_value_realloc_14;
+    return_value_realloc_14=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_14;
+    tmp_post_15 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$15], "%d", num);
+    asprintf(&argv[(signed long int)tmp_post_15], "%d", num);
     argv[(signed long int)argc] = ((char *)NULL);
     call_hook(cmd, argc, argv);
   }
@@ -2754,56 +2754,56 @@ static void hook_rec_timimg(char *fn, struct timespec start, unsigned int latenc
   char **argv;
   signed int argc;
   const char *cmd = hook_cmd_timing;
-  signed int tmp_post$3;
-  signed int tmp_post$7;
-  signed int tmp_post$9;
-  signed int tmp_post$11;
-  signed int tmp_post$13;
+  signed int tmp_post_3;
+  signed int tmp_post_7;
+  signed int tmp_post_9;
+  signed int tmp_post_11;
+  signed int tmp_post_13;
   if(!(cmd == ((const char *)NULL)))
   {
     char *bntmp;
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(cmd);
-    bntmp = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(cmd);
+    bntmp = return_value___strdup_1;
     argc = 0;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_calloc$2;
-    tmp_post$3 = argc;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_calloc_2;
+    tmp_post_3 = argc;
     argc = argc + 1;
-    char *return_value___xpg_basename$4;
-    return_value___xpg_basename$4=__xpg_basename(bntmp);
-    char *return_value___strdup$5;
-    return_value___strdup$5=__strdup(return_value___xpg_basename$4);
-    argv[(signed long int)tmp_post$3] = return_value___strdup$5;
+    char *return_value___xpg_basename_4;
+    return_value___xpg_basename_4=__xpg_basename(bntmp);
+    char *return_value___strdup_5;
+    return_value___strdup_5=__strdup(return_value___xpg_basename_4);
+    argv[(signed long int)tmp_post_3] = return_value___strdup_5;
     free((void *)bntmp);
-    void *return_value_realloc$6;
-    return_value_realloc$6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$6;
-    tmp_post$7 = argc;
+    void *return_value_realloc_6;
+    return_value_realloc_6=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_6;
+    tmp_post_7 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$7], "%s", fn);
+    asprintf(&argv[(signed long int)tmp_post_7], "%s", fn);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$8;
-    return_value_realloc$8=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$8;
-    tmp_post$9 = argc;
+    void *return_value_realloc_8;
+    return_value_realloc_8=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_8;
+    tmp_post_9 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$9], "%ld", start.tv_sec);
+    asprintf(&argv[(signed long int)tmp_post_9], "%ld", start.tv_sec);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$10;
-    return_value_realloc$10=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$10;
-    tmp_post$11 = argc;
+    void *return_value_realloc_10;
+    return_value_realloc_10=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_10;
+    tmp_post_11 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$11], "%ld", start.tv_nsec);
+    asprintf(&argv[(signed long int)tmp_post_11], "%ld", start.tv_nsec);
     argv[(signed long int)argc] = ((char *)NULL);
-    void *return_value_realloc$12;
-    return_value_realloc$12=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
-    argv = (char **)return_value_realloc$12;
-    tmp_post$13 = argc;
+    void *return_value_realloc_12;
+    return_value_realloc_12=realloc((void *)argv, (unsigned long int)(argc + 2) * sizeof(char *) /*8ul*/ );
+    argv = (char **)return_value_realloc_12;
+    tmp_post_13 = argc;
     argc = argc + 1;
-    asprintf(&argv[(signed long int)tmp_post$13], "%d", latency);
+    asprintf(&argv[(signed long int)tmp_post_13], "%d", latency);
     argv[(signed long int)argc] = ((char *)NULL);
     call_hook(cmd, argc, argv);
   }
@@ -2854,195 +2854,195 @@ void init_arguments(signed int argc, char **argv)
   signed int lokke;
   const char *usage = "\nTo record what you hear, just run\n\n     jack_capture\n\nTo list advanced options, run\n\n     jack_capture --advanced-options\n\n";
   lokke = 0;
-  signed int tmp_statement_expression$253;
-  _Bool tmp_if_expr$257;
-  signed int tmp_statement_expression$255;
-  signed int tmp_statement_expression$248;
-  _Bool tmp_if_expr$252;
-  signed int tmp_statement_expression$250;
-  signed int tmp_statement_expression$243;
-  _Bool tmp_if_expr$247;
-  signed int tmp_statement_expression$245;
-  signed int tmp_statement_expression$238;
-  _Bool tmp_if_expr$242;
-  signed int tmp_statement_expression$240;
-  signed long int tmp_if_expr$2;
-  signed long long int return_value_atoll$1;
-  signed int tmp_statement_expression$233;
-  _Bool tmp_if_expr$237;
-  signed int tmp_statement_expression$235;
-  double tmp_if_expr$4;
-  double return_value_atof$3;
-  signed int tmp_statement_expression$228;
-  _Bool tmp_if_expr$232;
-  signed int tmp_statement_expression$230;
-  double tmp_if_expr$6;
-  double return_value_atof$5;
-  signed int tmp_statement_expression$223;
-  _Bool tmp_if_expr$227;
-  signed int tmp_statement_expression$225;
-  signed long int tmp_if_expr$8;
-  signed long long int return_value_atoll$7;
-  signed int tmp_statement_expression$218;
-  _Bool tmp_if_expr$222;
-  signed int tmp_statement_expression$220;
-  char *tmp_if_expr$9;
-  signed int tmp_statement_expression$213;
-  _Bool tmp_if_expr$217;
-  signed int tmp_statement_expression$215;
-  signed long int tmp_if_expr$11;
-  signed long long int return_value_atoll$10;
-  signed int tmp_statement_expression$208;
-  _Bool tmp_if_expr$212;
-  signed int tmp_statement_expression$210;
-  double tmp_if_expr$13;
-  double return_value_atof$12;
-  signed int tmp_statement_expression$203;
-  _Bool tmp_if_expr$207;
-  signed int tmp_statement_expression$205;
-  char *tmp_if_expr$14;
-  signed int tmp_statement_expression$198;
-  _Bool tmp_if_expr$202;
-  signed int tmp_statement_expression$200;
-  char *tmp_if_expr$15;
-  signed int tmp_statement_expression$16;
-  signed int tmp_statement_expression$193;
-  _Bool tmp_if_expr$197;
-  signed int tmp_statement_expression$195;
-  signed int tmp_statement_expression$188;
-  _Bool tmp_if_expr$192;
-  signed int tmp_statement_expression$190;
-  signed int tmp_statement_expression$183;
-  _Bool tmp_if_expr$187;
-  signed int tmp_statement_expression$185;
-  signed int tmp_statement_expression$178;
-  _Bool tmp_if_expr$182;
-  signed int tmp_statement_expression$180;
-  signed int tmp_statement_expression$173;
-  _Bool tmp_if_expr$177;
-  signed int tmp_statement_expression$175;
-  signed int tmp_statement_expression$168;
-  _Bool tmp_if_expr$172;
-  signed int tmp_statement_expression$170;
-  signed int tmp_statement_expression$163;
-  _Bool tmp_if_expr$167;
-  signed int tmp_statement_expression$165;
-  signed long int tmp_if_expr$19;
-  signed long long int return_value_atoll$18;
-  signed int tmp_statement_expression$158;
-  _Bool tmp_if_expr$162;
-  signed int tmp_statement_expression$160;
-  signed long int tmp_if_expr$21;
-  signed long long int return_value_atoll$20;
-  signed int tmp_statement_expression$153;
-  _Bool tmp_if_expr$157;
-  signed int tmp_statement_expression$155;
-  signed int tmp_statement_expression$148;
-  _Bool tmp_if_expr$152;
-  signed int tmp_statement_expression$150;
-  signed int tmp_statement_expression$143;
-  _Bool tmp_if_expr$147;
-  signed int tmp_statement_expression$145;
-  signed int tmp_statement_expression$138;
-  _Bool tmp_if_expr$142;
-  signed int tmp_statement_expression$140;
-  signed int tmp_statement_expression$133;
-  _Bool tmp_if_expr$137;
-  signed int tmp_statement_expression$135;
-  signed int tmp_statement_expression$128;
-  _Bool tmp_if_expr$132;
-  signed int tmp_statement_expression$130;
-  signed int tmp_statement_expression$123;
-  _Bool tmp_if_expr$127;
-  signed int tmp_statement_expression$125;
-  signed int tmp_statement_expression$118;
-  _Bool tmp_if_expr$122;
-  signed int tmp_statement_expression$120;
-  double tmp_if_expr$23;
-  double return_value_atof$22;
-  signed int tmp_statement_expression$113;
-  _Bool tmp_if_expr$117;
-  signed int tmp_statement_expression$115;
-  signed int tmp_statement_expression$108;
-  _Bool tmp_if_expr$112;
-  signed int tmp_statement_expression$110;
-  char *tmp_if_expr$24;
-  signed int tmp_statement_expression$103;
-  _Bool tmp_if_expr$107;
-  signed int tmp_statement_expression$105;
-  char *tmp_if_expr$25;
-  signed int tmp_statement_expression$98;
-  _Bool tmp_if_expr$102;
-  signed int tmp_statement_expression$100;
-  signed int tmp_statement_expression$93;
-  _Bool tmp_if_expr$97;
-  signed int tmp_statement_expression$95;
-  signed int tmp_statement_expression$88;
-  _Bool tmp_if_expr$92;
-  signed int tmp_statement_expression$90;
-  signed int tmp_statement_expression$83;
-  _Bool tmp_if_expr$87;
-  signed int tmp_statement_expression$85;
-  char *tmp_if_expr$26;
-  signed int tmp_statement_expression$78;
-  _Bool tmp_if_expr$82;
-  signed int tmp_statement_expression$80;
-  char *tmp_if_expr$27;
-  signed int tmp_statement_expression$73;
-  _Bool tmp_if_expr$77;
-  signed int tmp_statement_expression$75;
-  char *tmp_if_expr$28;
-  signed int tmp_statement_expression$68;
-  _Bool tmp_if_expr$72;
-  signed int tmp_statement_expression$70;
-  char *tmp_if_expr$29;
-  signed int tmp_statement_expression$63;
-  _Bool tmp_if_expr$67;
-  signed int tmp_statement_expression$65;
-  char *tmp_if_expr$30;
-  signed int tmp_statement_expression$58;
-  _Bool tmp_if_expr$62;
-  signed int tmp_statement_expression$60;
-  char *tmp_if_expr$31;
-  signed int tmp_statement_expression$53;
-  _Bool tmp_if_expr$57;
-  signed int tmp_statement_expression$55;
-  signed int tmp_statement_expression$48;
-  _Bool tmp_if_expr$52;
-  signed int tmp_statement_expression$50;
-  signed long int tmp_if_expr$33;
-  signed long long int return_value_atoll$32;
-  signed int tmp_statement_expression$43;
-  _Bool tmp_if_expr$47;
-  signed int tmp_statement_expression$45;
-  signed int tmp_statement_expression$38;
-  _Bool tmp_if_expr$42;
-  signed int tmp_statement_expression$40;
-  double tmp_if_expr$35;
-  double return_value_atof$34;
-  _Bool tmp_if_expr$37;
-  char *tmp_if_expr$36;
+  signed int tmp_statement_expression_253;
+  _Bool tmp_if_expr_257;
+  signed int tmp_statement_expression_255;
+  signed int tmp_statement_expression_248;
+  _Bool tmp_if_expr_252;
+  signed int tmp_statement_expression_250;
+  signed int tmp_statement_expression_243;
+  _Bool tmp_if_expr_247;
+  signed int tmp_statement_expression_245;
+  signed int tmp_statement_expression_238;
+  _Bool tmp_if_expr_242;
+  signed int tmp_statement_expression_240;
+  signed long int tmp_if_expr_2;
+  signed long long int return_value_atoll_1;
+  signed int tmp_statement_expression_233;
+  _Bool tmp_if_expr_237;
+  signed int tmp_statement_expression_235;
+  double tmp_if_expr_4;
+  double return_value_atof_3;
+  signed int tmp_statement_expression_228;
+  _Bool tmp_if_expr_232;
+  signed int tmp_statement_expression_230;
+  double tmp_if_expr_6;
+  double return_value_atof_5;
+  signed int tmp_statement_expression_223;
+  _Bool tmp_if_expr_227;
+  signed int tmp_statement_expression_225;
+  signed long int tmp_if_expr_8;
+  signed long long int return_value_atoll_7;
+  signed int tmp_statement_expression_218;
+  _Bool tmp_if_expr_222;
+  signed int tmp_statement_expression_220;
+  char *tmp_if_expr_9;
+  signed int tmp_statement_expression_213;
+  _Bool tmp_if_expr_217;
+  signed int tmp_statement_expression_215;
+  signed long int tmp_if_expr_11;
+  signed long long int return_value_atoll_10;
+  signed int tmp_statement_expression_208;
+  _Bool tmp_if_expr_212;
+  signed int tmp_statement_expression_210;
+  double tmp_if_expr_13;
+  double return_value_atof_12;
+  signed int tmp_statement_expression_203;
+  _Bool tmp_if_expr_207;
+  signed int tmp_statement_expression_205;
+  char *tmp_if_expr_14;
+  signed int tmp_statement_expression_198;
+  _Bool tmp_if_expr_202;
+  signed int tmp_statement_expression_200;
+  char *tmp_if_expr_15;
+  signed int tmp_statement_expression_16;
+  signed int tmp_statement_expression_193;
+  _Bool tmp_if_expr_197;
+  signed int tmp_statement_expression_195;
+  signed int tmp_statement_expression_188;
+  _Bool tmp_if_expr_192;
+  signed int tmp_statement_expression_190;
+  signed int tmp_statement_expression_183;
+  _Bool tmp_if_expr_187;
+  signed int tmp_statement_expression_185;
+  signed int tmp_statement_expression_178;
+  _Bool tmp_if_expr_182;
+  signed int tmp_statement_expression_180;
+  signed int tmp_statement_expression_173;
+  _Bool tmp_if_expr_177;
+  signed int tmp_statement_expression_175;
+  signed int tmp_statement_expression_168;
+  _Bool tmp_if_expr_172;
+  signed int tmp_statement_expression_170;
+  signed int tmp_statement_expression_163;
+  _Bool tmp_if_expr_167;
+  signed int tmp_statement_expression_165;
+  signed long int tmp_if_expr_19;
+  signed long long int return_value_atoll_18;
+  signed int tmp_statement_expression_158;
+  _Bool tmp_if_expr_162;
+  signed int tmp_statement_expression_160;
+  signed long int tmp_if_expr_21;
+  signed long long int return_value_atoll_20;
+  signed int tmp_statement_expression_153;
+  _Bool tmp_if_expr_157;
+  signed int tmp_statement_expression_155;
+  signed int tmp_statement_expression_148;
+  _Bool tmp_if_expr_152;
+  signed int tmp_statement_expression_150;
+  signed int tmp_statement_expression_143;
+  _Bool tmp_if_expr_147;
+  signed int tmp_statement_expression_145;
+  signed int tmp_statement_expression_138;
+  _Bool tmp_if_expr_142;
+  signed int tmp_statement_expression_140;
+  signed int tmp_statement_expression_133;
+  _Bool tmp_if_expr_137;
+  signed int tmp_statement_expression_135;
+  signed int tmp_statement_expression_128;
+  _Bool tmp_if_expr_132;
+  signed int tmp_statement_expression_130;
+  signed int tmp_statement_expression_123;
+  _Bool tmp_if_expr_127;
+  signed int tmp_statement_expression_125;
+  signed int tmp_statement_expression_118;
+  _Bool tmp_if_expr_122;
+  signed int tmp_statement_expression_120;
+  double tmp_if_expr_23;
+  double return_value_atof_22;
+  signed int tmp_statement_expression_113;
+  _Bool tmp_if_expr_117;
+  signed int tmp_statement_expression_115;
+  signed int tmp_statement_expression_108;
+  _Bool tmp_if_expr_112;
+  signed int tmp_statement_expression_110;
+  char *tmp_if_expr_24;
+  signed int tmp_statement_expression_103;
+  _Bool tmp_if_expr_107;
+  signed int tmp_statement_expression_105;
+  char *tmp_if_expr_25;
+  signed int tmp_statement_expression_98;
+  _Bool tmp_if_expr_102;
+  signed int tmp_statement_expression_100;
+  signed int tmp_statement_expression_93;
+  _Bool tmp_if_expr_97;
+  signed int tmp_statement_expression_95;
+  signed int tmp_statement_expression_88;
+  _Bool tmp_if_expr_92;
+  signed int tmp_statement_expression_90;
+  signed int tmp_statement_expression_83;
+  _Bool tmp_if_expr_87;
+  signed int tmp_statement_expression_85;
+  char *tmp_if_expr_26;
+  signed int tmp_statement_expression_78;
+  _Bool tmp_if_expr_82;
+  signed int tmp_statement_expression_80;
+  char *tmp_if_expr_27;
+  signed int tmp_statement_expression_73;
+  _Bool tmp_if_expr_77;
+  signed int tmp_statement_expression_75;
+  char *tmp_if_expr_28;
+  signed int tmp_statement_expression_68;
+  _Bool tmp_if_expr_72;
+  signed int tmp_statement_expression_70;
+  char *tmp_if_expr_29;
+  signed int tmp_statement_expression_63;
+  _Bool tmp_if_expr_67;
+  signed int tmp_statement_expression_65;
+  char *tmp_if_expr_30;
+  signed int tmp_statement_expression_58;
+  _Bool tmp_if_expr_62;
+  signed int tmp_statement_expression_60;
+  char *tmp_if_expr_31;
+  signed int tmp_statement_expression_53;
+  _Bool tmp_if_expr_57;
+  signed int tmp_statement_expression_55;
+  signed int tmp_statement_expression_48;
+  _Bool tmp_if_expr_52;
+  signed int tmp_statement_expression_50;
+  signed long int tmp_if_expr_33;
+  signed long long int return_value_atoll_32;
+  signed int tmp_statement_expression_43;
+  _Bool tmp_if_expr_47;
+  signed int tmp_statement_expression_45;
+  signed int tmp_statement_expression_38;
+  _Bool tmp_if_expr_42;
+  signed int tmp_statement_expression_40;
+  double tmp_if_expr_35;
+  double return_value_atof_34;
+  _Bool tmp_if_expr_37;
+  char *tmp_if_expr_36;
   for( ; !(lokke >= argc); lokke = lokke + 1)
   {
     char *a = argv[(signed long int)lokke];
-    unsigned long int init_arguments$$1$$1$$1$$1$$1$$__s1_len;
-    unsigned long int init_arguments$$1$$1$$1$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$254;
-    return_value___builtin_strcmp$254=__builtin_strcmp("--help", a);
-    tmp_statement_expression$253 = return_value___builtin_strcmp$254;
-    if(tmp_statement_expression$253 == 0)
-      tmp_if_expr$257 = (_Bool)1;
+    unsigned long int init_arguments__1__1__1__1__1____s1_len;
+    unsigned long int init_arguments__1__1__1__1__1____s2_len;
+    signed int return_value___builtin_strcmp_254;
+    return_value___builtin_strcmp_254=__builtin_strcmp("--help", a);
+    tmp_statement_expression_253 = return_value___builtin_strcmp_254;
+    if(tmp_statement_expression_253 == 0)
+      tmp_if_expr_257 = (_Bool)1;
 
     else
     {
-      unsigned long int init_arguments$$1$$1$$1$$1$$2$$__s1_len;
-      unsigned long int init_arguments$$1$$1$$1$$1$$2$$__s2_len;
-      signed int return_value___builtin_strcmp$256;
-      return_value___builtin_strcmp$256=__builtin_strcmp("-h", a);
-      tmp_statement_expression$255 = return_value___builtin_strcmp$256;
-      tmp_if_expr$257 = !(tmp_statement_expression$255 != 0) ? (_Bool)1 : (_Bool)0;
+      unsigned long int init_arguments__1__1__1__1__2____s1_len;
+      unsigned long int init_arguments__1__1__1__1__2____s2_len;
+      signed int return_value___builtin_strcmp_256;
+      return_value___builtin_strcmp_256=__builtin_strcmp("-h", a);
+      tmp_statement_expression_255 = return_value___builtin_strcmp_256;
+      tmp_if_expr_257 = !(tmp_statement_expression_255 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$257)
+    if(tmp_if_expr_257)
     {
       fprintf(stderr, "%s", usage);
       exit(0);
@@ -3050,24 +3050,24 @@ void init_arguments(signed int argc, char **argv)
 
     else
     {
-      unsigned long int init_arguments$$1$$1$$1$$1$$4$$__s1_len;
-      unsigned long int init_arguments$$1$$1$$1$$1$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$249;
-      return_value___builtin_strcmp$249=__builtin_strcmp("--advanced-options", a);
-      tmp_statement_expression$248 = return_value___builtin_strcmp$249;
-      if(tmp_statement_expression$248 == 0)
-        tmp_if_expr$252 = (_Bool)1;
+      unsigned long int init_arguments__1__1__1__1__4____s1_len;
+      unsigned long int init_arguments__1__1__1__1__4____s2_len;
+      signed int return_value___builtin_strcmp_249;
+      return_value___builtin_strcmp_249=__builtin_strcmp("--advanced-options", a);
+      tmp_statement_expression_248 = return_value___builtin_strcmp_249;
+      if(tmp_statement_expression_248 == 0)
+        tmp_if_expr_252 = (_Bool)1;
 
       else
       {
-        unsigned long int init_arguments$$1$$1$$1$$1$$5$$__s1_len;
-        unsigned long int init_arguments$$1$$1$$1$$1$$5$$__s2_len;
-        signed int return_value___builtin_strcmp$251;
-        return_value___builtin_strcmp$251=__builtin_strcmp("--help2", a);
-        tmp_statement_expression$250 = return_value___builtin_strcmp$251;
-        tmp_if_expr$252 = !(tmp_statement_expression$250 != 0) ? (_Bool)1 : (_Bool)0;
+        unsigned long int init_arguments__1__1__1__1__5____s1_len;
+        unsigned long int init_arguments__1__1__1__1__5____s2_len;
+        signed int return_value___builtin_strcmp_251;
+        return_value___builtin_strcmp_251=__builtin_strcmp("--help2", a);
+        tmp_statement_expression_250 = return_value___builtin_strcmp_251;
+        tmp_if_expr_252 = !(tmp_statement_expression_250 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$252)
+      if(tmp_if_expr_252)
       {
         printf("%s", advanced_help);
         exit(0);
@@ -3075,24 +3075,24 @@ void init_arguments(signed int argc, char **argv)
 
       else
       {
-        unsigned long int init_arguments$$1$$1$$1$$1$$7$$__s1_len;
-        unsigned long int init_arguments$$1$$1$$1$$1$$7$$__s2_len;
-        signed int return_value___builtin_strcmp$244;
-        return_value___builtin_strcmp$244=__builtin_strcmp("--help-osc", a);
-        tmp_statement_expression$243 = return_value___builtin_strcmp$244;
-        if(tmp_statement_expression$243 == 0)
-          tmp_if_expr$247 = (_Bool)1;
+        unsigned long int init_arguments__1__1__1__1__7____s1_len;
+        unsigned long int init_arguments__1__1__1__1__7____s2_len;
+        signed int return_value___builtin_strcmp_244;
+        return_value___builtin_strcmp_244=__builtin_strcmp("--help-osc", a);
+        tmp_statement_expression_243 = return_value___builtin_strcmp_244;
+        if(tmp_statement_expression_243 == 0)
+          tmp_if_expr_247 = (_Bool)1;
 
         else
         {
-          unsigned long int init_arguments$$1$$1$$1$$1$$8$$__s1_len;
-          unsigned long int init_arguments$$1$$1$$1$$1$$8$$__s2_len;
-          signed int return_value___builtin_strcmp$246;
-          return_value___builtin_strcmp$246=__builtin_strcmp("--help3", a);
-          tmp_statement_expression$245 = return_value___builtin_strcmp$246;
-          tmp_if_expr$247 = !(tmp_statement_expression$245 != 0) ? (_Bool)1 : (_Bool)0;
+          unsigned long int init_arguments__1__1__1__1__8____s1_len;
+          unsigned long int init_arguments__1__1__1__1__8____s2_len;
+          signed int return_value___builtin_strcmp_246;
+          return_value___builtin_strcmp_246=__builtin_strcmp("--help3", a);
+          tmp_statement_expression_245 = return_value___builtin_strcmp_246;
+          tmp_if_expr_247 = !(tmp_statement_expression_245 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$247)
+        if(tmp_if_expr_247)
         {
           printf("%s", osc_help);
           exit(0);
@@ -3100,261 +3100,261 @@ void init_arguments(signed int argc, char **argv)
 
         else
         {
-          unsigned long int init_arguments$$1$$1$$1$$1$$10$$__s1_len;
-          unsigned long int init_arguments$$1$$1$$1$$1$$10$$__s2_len;
-          signed int return_value___builtin_strcmp$239;
-          return_value___builtin_strcmp$239=__builtin_strcmp("--bitdepth", a);
-          tmp_statement_expression$238 = return_value___builtin_strcmp$239;
-          if(tmp_statement_expression$238 == 0)
-            tmp_if_expr$242 = (_Bool)1;
+          unsigned long int init_arguments__1__1__1__1__10____s1_len;
+          unsigned long int init_arguments__1__1__1__1__10____s2_len;
+          signed int return_value___builtin_strcmp_239;
+          return_value___builtin_strcmp_239=__builtin_strcmp("--bitdepth", a);
+          tmp_statement_expression_238 = return_value___builtin_strcmp_239;
+          if(tmp_statement_expression_238 == 0)
+            tmp_if_expr_242 = (_Bool)1;
 
           else
           {
-            unsigned long int init_arguments$$1$$1$$1$$1$$11$$__s1_len;
-            unsigned long int init_arguments$$1$$1$$1$$1$$11$$__s2_len;
-            signed int return_value___builtin_strcmp$241;
-            return_value___builtin_strcmp$241=__builtin_strcmp("-b", a);
-            tmp_statement_expression$240 = return_value___builtin_strcmp$241;
-            tmp_if_expr$242 = !(tmp_statement_expression$240 != 0) ? (_Bool)1 : (_Bool)0;
+            unsigned long int init_arguments__1__1__1__1__11____s1_len;
+            unsigned long int init_arguments__1__1__1__1__11____s2_len;
+            signed int return_value___builtin_strcmp_241;
+            return_value___builtin_strcmp_241=__builtin_strcmp("-b", a);
+            tmp_statement_expression_240 = return_value___builtin_strcmp_241;
+            tmp_if_expr_242 = !(tmp_statement_expression_240 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$242)
+          if(tmp_if_expr_242)
           {
             if(lokke == argc + -1)
             {
               fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
               exit(-4);
-              tmp_if_expr$2 = (signed long int)0;
+              tmp_if_expr_2 = (signed long int)0;
             }
 
             else
             {
               lokke = lokke + 1;
-              return_value_atoll$1=atoll(argv[(signed long int)lokke]);
-              tmp_if_expr$2 = return_value_atoll$1;
+              return_value_atoll_1=atoll(argv[(signed long int)lokke]);
+              tmp_if_expr_2 = return_value_atoll_1;
             }
-            bitdepth = (signed int)tmp_if_expr$2;
+            bitdepth = (signed int)tmp_if_expr_2;
           }
 
           else
           {
-            unsigned long int init_arguments$$1$$1$$1$$1$$13$$__s1_len;
-            unsigned long int init_arguments$$1$$1$$1$$1$$13$$__s2_len;
-            signed int return_value___builtin_strcmp$234;
-            return_value___builtin_strcmp$234=__builtin_strcmp("--bufsize", a);
-            tmp_statement_expression$233 = return_value___builtin_strcmp$234;
-            if(tmp_statement_expression$233 == 0)
-              tmp_if_expr$237 = (_Bool)1;
+            unsigned long int init_arguments__1__1__1__1__13____s1_len;
+            unsigned long int init_arguments__1__1__1__1__13____s2_len;
+            signed int return_value___builtin_strcmp_234;
+            return_value___builtin_strcmp_234=__builtin_strcmp("--bufsize", a);
+            tmp_statement_expression_233 = return_value___builtin_strcmp_234;
+            if(tmp_statement_expression_233 == 0)
+              tmp_if_expr_237 = (_Bool)1;
 
             else
             {
-              unsigned long int init_arguments$$1$$1$$1$$1$$14$$__s1_len;
-              unsigned long int init_arguments$$1$$1$$1$$1$$14$$__s2_len;
-              signed int return_value___builtin_strcmp$236;
-              return_value___builtin_strcmp$236=__builtin_strcmp("-B", a);
-              tmp_statement_expression$235 = return_value___builtin_strcmp$236;
-              tmp_if_expr$237 = !(tmp_statement_expression$235 != 0) ? (_Bool)1 : (_Bool)0;
+              unsigned long int init_arguments__1__1__1__1__14____s1_len;
+              unsigned long int init_arguments__1__1__1__1__14____s2_len;
+              signed int return_value___builtin_strcmp_236;
+              return_value___builtin_strcmp_236=__builtin_strcmp("-B", a);
+              tmp_statement_expression_235 = return_value___builtin_strcmp_236;
+              tmp_if_expr_237 = !(tmp_statement_expression_235 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$237)
+            if(tmp_if_expr_237)
             {
               if(lokke == argc + -1)
               {
                 fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                 exit(-4);
-                tmp_if_expr$4 = (double)0.0f;
+                tmp_if_expr_4 = (double)0.0f;
               }
 
               else
               {
                 lokke = lokke + 1;
-                return_value_atof$3=atof(argv[(signed long int)lokke]);
-                tmp_if_expr$4 = return_value_atof$3;
+                return_value_atof_3=atof(argv[(signed long int)lokke]);
+                tmp_if_expr_4 = return_value_atof_3;
               }
-              min_buffer_time = (float)tmp_if_expr$4;
+              min_buffer_time = (float)tmp_if_expr_4;
               min_buffer_time = (float)(0.01 > (double)min_buffer_time ? 0.01 : (double)min_buffer_time);
             }
 
             else
             {
-              unsigned long int init_arguments$$1$$1$$1$$1$$16$$__s1_len;
-              unsigned long int init_arguments$$1$$1$$1$$1$$16$$__s2_len;
-              signed int return_value___builtin_strcmp$229;
-              return_value___builtin_strcmp$229=__builtin_strcmp("--maxbufsize", a);
-              tmp_statement_expression$228 = return_value___builtin_strcmp$229;
-              if(tmp_statement_expression$228 == 0)
-                tmp_if_expr$232 = (_Bool)1;
+              unsigned long int init_arguments__1__1__1__1__16____s1_len;
+              unsigned long int init_arguments__1__1__1__1__16____s2_len;
+              signed int return_value___builtin_strcmp_229;
+              return_value___builtin_strcmp_229=__builtin_strcmp("--maxbufsize", a);
+              tmp_statement_expression_228 = return_value___builtin_strcmp_229;
+              if(tmp_statement_expression_228 == 0)
+                tmp_if_expr_232 = (_Bool)1;
 
               else
               {
-                unsigned long int init_arguments$$1$$1$$1$$1$$17$$__s1_len;
-                unsigned long int init_arguments$$1$$1$$1$$1$$17$$__s2_len;
-                signed int return_value___builtin_strcmp$231;
-                return_value___builtin_strcmp$231=__builtin_strcmp("-MB", a);
-                tmp_statement_expression$230 = return_value___builtin_strcmp$231;
-                tmp_if_expr$232 = !(tmp_statement_expression$230 != 0) ? (_Bool)1 : (_Bool)0;
+                unsigned long int init_arguments__1__1__1__1__17____s1_len;
+                unsigned long int init_arguments__1__1__1__1__17____s2_len;
+                signed int return_value___builtin_strcmp_231;
+                return_value___builtin_strcmp_231=__builtin_strcmp("-MB", a);
+                tmp_statement_expression_230 = return_value___builtin_strcmp_231;
+                tmp_if_expr_232 = !(tmp_statement_expression_230 != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$232)
+              if(tmp_if_expr_232)
               {
                 if(lokke == argc + -1)
                 {
                   fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                   exit(-4);
-                  tmp_if_expr$6 = (double)0.0f;
+                  tmp_if_expr_6 = (double)0.0f;
                 }
 
                 else
                 {
                   lokke = lokke + 1;
-                  return_value_atof$5=atof(argv[(signed long int)lokke]);
-                  tmp_if_expr$6 = return_value_atof$5;
+                  return_value_atof_5=atof(argv[(signed long int)lokke]);
+                  tmp_if_expr_6 = return_value_atof_5;
                 }
-                max_buffer_time = (float)tmp_if_expr$6;
+                max_buffer_time = (float)tmp_if_expr_6;
               }
 
               else
               {
-                unsigned long int init_arguments$$1$$1$$1$$1$$19$$__s1_len;
-                unsigned long int init_arguments$$1$$1$$1$$1$$19$$__s2_len;
-                signed int return_value___builtin_strcmp$224;
-                return_value___builtin_strcmp$224=__builtin_strcmp("--channels", a);
-                tmp_statement_expression$223 = return_value___builtin_strcmp$224;
-                if(tmp_statement_expression$223 == 0)
-                  tmp_if_expr$227 = (_Bool)1;
+                unsigned long int init_arguments__1__1__1__1__19____s1_len;
+                unsigned long int init_arguments__1__1__1__1__19____s2_len;
+                signed int return_value___builtin_strcmp_224;
+                return_value___builtin_strcmp_224=__builtin_strcmp("--channels", a);
+                tmp_statement_expression_223 = return_value___builtin_strcmp_224;
+                if(tmp_statement_expression_223 == 0)
+                  tmp_if_expr_227 = (_Bool)1;
 
                 else
                 {
-                  unsigned long int init_arguments$$1$$1$$1$$1$$20$$__s1_len;
-                  unsigned long int init_arguments$$1$$1$$1$$1$$20$$__s2_len;
-                  signed int return_value___builtin_strcmp$226;
-                  return_value___builtin_strcmp$226=__builtin_strcmp("-c", a);
-                  tmp_statement_expression$225 = return_value___builtin_strcmp$226;
-                  tmp_if_expr$227 = !(tmp_statement_expression$225 != 0) ? (_Bool)1 : (_Bool)0;
+                  unsigned long int init_arguments__1__1__1__1__20____s1_len;
+                  unsigned long int init_arguments__1__1__1__1__20____s2_len;
+                  signed int return_value___builtin_strcmp_226;
+                  return_value___builtin_strcmp_226=__builtin_strcmp("-c", a);
+                  tmp_statement_expression_225 = return_value___builtin_strcmp_226;
+                  tmp_if_expr_227 = !(tmp_statement_expression_225 != 0) ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$227)
+                if(tmp_if_expr_227)
                 {
                   if(lokke == argc + -1)
                   {
                     fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                     exit(-4);
-                    tmp_if_expr$8 = (signed long int)0;
+                    tmp_if_expr_8 = (signed long int)0;
                   }
 
                   else
                   {
                     lokke = lokke + 1;
-                    return_value_atoll$7=atoll(argv[(signed long int)lokke]);
-                    tmp_if_expr$8 = return_value_atoll$7;
+                    return_value_atoll_7=atoll(argv[(signed long int)lokke]);
+                    tmp_if_expr_8 = return_value_atoll_7;
                   }
-                  num_channels = (signed int)tmp_if_expr$8;
+                  num_channels = (signed int)tmp_if_expr_8;
                 }
 
                 else
                 {
-                  unsigned long int init_arguments$$1$$1$$1$$1$$22$$__s1_len;
-                  unsigned long int init_arguments$$1$$1$$1$$1$$22$$__s2_len;
-                  signed int return_value___builtin_strcmp$219;
-                  return_value___builtin_strcmp$219=__builtin_strcmp("--filename-prefix", a);
-                  tmp_statement_expression$218 = return_value___builtin_strcmp$219;
-                  if(tmp_statement_expression$218 == 0)
-                    tmp_if_expr$222 = (_Bool)1;
+                  unsigned long int init_arguments__1__1__1__1__22____s1_len;
+                  unsigned long int init_arguments__1__1__1__1__22____s2_len;
+                  signed int return_value___builtin_strcmp_219;
+                  return_value___builtin_strcmp_219=__builtin_strcmp("--filename-prefix", a);
+                  tmp_statement_expression_218 = return_value___builtin_strcmp_219;
+                  if(tmp_statement_expression_218 == 0)
+                    tmp_if_expr_222 = (_Bool)1;
 
                   else
                   {
-                    unsigned long int init_arguments$$1$$1$$1$$1$$23$$__s1_len;
-                    unsigned long int init_arguments$$1$$1$$1$$1$$23$$__s2_len;
-                    signed int return_value___builtin_strcmp$221;
-                    return_value___builtin_strcmp$221=__builtin_strcmp("-fp", a);
-                    tmp_statement_expression$220 = return_value___builtin_strcmp$221;
-                    tmp_if_expr$222 = !(tmp_statement_expression$220 != 0) ? (_Bool)1 : (_Bool)0;
+                    unsigned long int init_arguments__1__1__1__1__23____s1_len;
+                    unsigned long int init_arguments__1__1__1__1__23____s2_len;
+                    signed int return_value___builtin_strcmp_221;
+                    return_value___builtin_strcmp_221=__builtin_strcmp("-fp", a);
+                    tmp_statement_expression_220 = return_value___builtin_strcmp_221;
+                    tmp_if_expr_222 = !(tmp_statement_expression_220 != 0) ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$222)
+                  if(tmp_if_expr_222)
                   {
                     if(lokke == argc + -1)
                     {
                       fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                       exit(-4);
-                      tmp_if_expr$9 = "";
+                      tmp_if_expr_9 = "";
                     }
 
                     else
                     {
                       lokke = lokke + 1;
-                      tmp_if_expr$9 = argv[(signed long int)lokke];
+                      tmp_if_expr_9 = argv[(signed long int)lokke];
                     }
-                    filename_prefix = tmp_if_expr$9;
+                    filename_prefix = tmp_if_expr_9;
                   }
 
                   else
                   {
-                    unsigned long int init_arguments$$1$$1$$1$$1$$25$$__s1_len;
-                    unsigned long int init_arguments$$1$$1$$1$$1$$25$$__s2_len;
-                    signed int return_value___builtin_strcmp$214;
-                    return_value___builtin_strcmp$214=__builtin_strcmp("--leading-zeros", a);
-                    tmp_statement_expression$213 = return_value___builtin_strcmp$214;
-                    if(tmp_statement_expression$213 == 0)
-                      tmp_if_expr$217 = (_Bool)1;
+                    unsigned long int init_arguments__1__1__1__1__25____s1_len;
+                    unsigned long int init_arguments__1__1__1__1__25____s2_len;
+                    signed int return_value___builtin_strcmp_214;
+                    return_value___builtin_strcmp_214=__builtin_strcmp("--leading-zeros", a);
+                    tmp_statement_expression_213 = return_value___builtin_strcmp_214;
+                    if(tmp_statement_expression_213 == 0)
+                      tmp_if_expr_217 = (_Bool)1;
 
                     else
                     {
-                      unsigned long int init_arguments$$1$$1$$1$$1$$26$$__s1_len;
-                      unsigned long int init_arguments$$1$$1$$1$$1$$26$$__s2_len;
-                      signed int return_value___builtin_strcmp$216;
-                      return_value___builtin_strcmp$216=__builtin_strcmp("-z", a);
-                      tmp_statement_expression$215 = return_value___builtin_strcmp$216;
-                      tmp_if_expr$217 = !(tmp_statement_expression$215 != 0) ? (_Bool)1 : (_Bool)0;
+                      unsigned long int init_arguments__1__1__1__1__26____s1_len;
+                      unsigned long int init_arguments__1__1__1__1__26____s2_len;
+                      signed int return_value___builtin_strcmp_216;
+                      return_value___builtin_strcmp_216=__builtin_strcmp("-z", a);
+                      tmp_statement_expression_215 = return_value___builtin_strcmp_216;
+                      tmp_if_expr_217 = !(tmp_statement_expression_215 != 0) ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$217)
+                    if(tmp_if_expr_217)
                     {
                       if(lokke == argc + -1)
                       {
                         fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                         exit(-4);
-                        tmp_if_expr$11 = (signed long int)0;
+                        tmp_if_expr_11 = (signed long int)0;
                       }
 
                       else
                       {
                         lokke = lokke + 1;
-                        return_value_atoll$10=atoll(argv[(signed long int)lokke]);
-                        tmp_if_expr$11 = return_value_atoll$10;
+                        return_value_atoll_10=atoll(argv[(signed long int)lokke]);
+                        tmp_if_expr_11 = return_value_atoll_10;
                       }
-                      leading_zeros = (signed int)tmp_if_expr$11;
+                      leading_zeros = (signed int)tmp_if_expr_11;
                     }
 
                     else
                     {
-                      unsigned long int init_arguments$$1$$1$$1$$1$$28$$__s1_len;
-                      unsigned long int init_arguments$$1$$1$$1$$1$$28$$__s2_len;
-                      signed int return_value___builtin_strcmp$209;
-                      return_value___builtin_strcmp$209=__builtin_strcmp("--recording-time", a);
-                      tmp_statement_expression$208 = return_value___builtin_strcmp$209;
-                      if(tmp_statement_expression$208 == 0)
-                        tmp_if_expr$212 = (_Bool)1;
+                      unsigned long int init_arguments__1__1__1__1__28____s1_len;
+                      unsigned long int init_arguments__1__1__1__1__28____s2_len;
+                      signed int return_value___builtin_strcmp_209;
+                      return_value___builtin_strcmp_209=__builtin_strcmp("--recording-time", a);
+                      tmp_statement_expression_208 = return_value___builtin_strcmp_209;
+                      if(tmp_statement_expression_208 == 0)
+                        tmp_if_expr_212 = (_Bool)1;
 
                       else
                       {
-                        unsigned long int init_arguments$$1$$1$$1$$1$$29$$__s1_len;
-                        unsigned long int init_arguments$$1$$1$$1$$1$$29$$__s2_len;
-                        signed int return_value___builtin_strcmp$211;
-                        return_value___builtin_strcmp$211=__builtin_strcmp("-d", a);
-                        tmp_statement_expression$210 = return_value___builtin_strcmp$211;
-                        tmp_if_expr$212 = !(tmp_statement_expression$210 != 0) ? (_Bool)1 : (_Bool)0;
+                        unsigned long int init_arguments__1__1__1__1__29____s1_len;
+                        unsigned long int init_arguments__1__1__1__1__29____s2_len;
+                        signed int return_value___builtin_strcmp_211;
+                        return_value___builtin_strcmp_211=__builtin_strcmp("-d", a);
+                        tmp_statement_expression_210 = return_value___builtin_strcmp_211;
+                        tmp_if_expr_212 = !(tmp_statement_expression_210 != 0) ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$212)
+                      if(tmp_if_expr_212)
                       {
                         if(lokke == argc + -1)
                         {
                           fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                           exit(-4);
-                          tmp_if_expr$13 = (double)0.0f;
+                          tmp_if_expr_13 = (double)0.0f;
                         }
 
                         else
                         {
                           lokke = lokke + 1;
-                          return_value_atof$12=atof(argv[(signed long int)lokke]);
-                          tmp_if_expr$13 = return_value_atof$12;
+                          return_value_atof_12=atof(argv[(signed long int)lokke]);
+                          tmp_if_expr_13 = return_value_atof_12;
                         }
-                        recording_time = tmp_if_expr$13;
+                        recording_time = tmp_if_expr_13;
                         start_jack();
                         num_frames_to_record=seconds_to_frames((float)recording_time);
                         no_stdin = (_Bool)1;
@@ -3363,81 +3363,81 @@ void init_arguments(signed int argc, char **argv)
 
                       else
                       {
-                        unsigned long int init_arguments$$1$$1$$1$$1$$31$$__s1_len;
-                        unsigned long int init_arguments$$1$$1$$1$$1$$31$$__s2_len;
-                        signed int return_value___builtin_strcmp$204;
-                        return_value___builtin_strcmp$204=__builtin_strcmp("--port", a);
-                        tmp_statement_expression$203 = return_value___builtin_strcmp$204;
-                        if(tmp_statement_expression$203 == 0)
-                          tmp_if_expr$207 = (_Bool)1;
+                        unsigned long int init_arguments__1__1__1__1__31____s1_len;
+                        unsigned long int init_arguments__1__1__1__1__31____s2_len;
+                        signed int return_value___builtin_strcmp_204;
+                        return_value___builtin_strcmp_204=__builtin_strcmp("--port", a);
+                        tmp_statement_expression_203 = return_value___builtin_strcmp_204;
+                        if(tmp_statement_expression_203 == 0)
+                          tmp_if_expr_207 = (_Bool)1;
 
                         else
                         {
-                          unsigned long int init_arguments$$1$$1$$1$$1$$32$$__s1_len;
-                          unsigned long int init_arguments$$1$$1$$1$$1$$32$$__s2_len;
-                          signed int return_value___builtin_strcmp$206;
-                          return_value___builtin_strcmp$206=__builtin_strcmp("-p", a);
-                          tmp_statement_expression$205 = return_value___builtin_strcmp$206;
-                          tmp_if_expr$207 = !(tmp_statement_expression$205 != 0) ? (_Bool)1 : (_Bool)0;
+                          unsigned long int init_arguments__1__1__1__1__32____s1_len;
+                          unsigned long int init_arguments__1__1__1__1__32____s2_len;
+                          signed int return_value___builtin_strcmp_206;
+                          return_value___builtin_strcmp_206=__builtin_strcmp("-p", a);
+                          tmp_statement_expression_205 = return_value___builtin_strcmp_206;
+                          tmp_if_expr_207 = !(tmp_statement_expression_205 != 0) ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$207)
+                        if(tmp_if_expr_207)
                         {
                           start_jack();
                           if(lokke == argc + -1)
                           {
                             fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                             exit(-4);
-                            tmp_if_expr$14 = "";
+                            tmp_if_expr_14 = "";
                           }
 
                           else
                           {
                             lokke = lokke + 1;
-                            tmp_if_expr$14 = argv[(signed long int)lokke];
+                            tmp_if_expr_14 = argv[(signed long int)lokke];
                           }
-                          portnames_add(tmp_if_expr$14);
+                          portnames_add(tmp_if_expr_14);
                         }
 
                         else
                         {
-                          unsigned long int init_arguments$$1$$1$$1$$1$$34$$__s1_len;
-                          unsigned long int init_arguments$$1$$1$$1$$1$$34$$__s2_len;
-                          signed int return_value___builtin_strcmp$199;
-                          return_value___builtin_strcmp$199=__builtin_strcmp("--format", a);
-                          tmp_statement_expression$198 = return_value___builtin_strcmp$199;
-                          if(tmp_statement_expression$198 == 0)
-                            tmp_if_expr$202 = (_Bool)1;
+                          unsigned long int init_arguments__1__1__1__1__34____s1_len;
+                          unsigned long int init_arguments__1__1__1__1__34____s2_len;
+                          signed int return_value___builtin_strcmp_199;
+                          return_value___builtin_strcmp_199=__builtin_strcmp("--format", a);
+                          tmp_statement_expression_198 = return_value___builtin_strcmp_199;
+                          if(tmp_statement_expression_198 == 0)
+                            tmp_if_expr_202 = (_Bool)1;
 
                           else
                           {
-                            unsigned long int init_arguments$$1$$1$$1$$1$$35$$__s1_len;
-                            unsigned long int init_arguments$$1$$1$$1$$1$$35$$__s2_len;
-                            signed int return_value___builtin_strcmp$201;
-                            return_value___builtin_strcmp$201=__builtin_strcmp("-f", a);
-                            tmp_statement_expression$200 = return_value___builtin_strcmp$201;
-                            tmp_if_expr$202 = !(tmp_statement_expression$200 != 0) ? (_Bool)1 : (_Bool)0;
+                            unsigned long int init_arguments__1__1__1__1__35____s1_len;
+                            unsigned long int init_arguments__1__1__1__1__35____s2_len;
+                            signed int return_value___builtin_strcmp_201;
+                            return_value___builtin_strcmp_201=__builtin_strcmp("-f", a);
+                            tmp_statement_expression_200 = return_value___builtin_strcmp_201;
+                            tmp_if_expr_202 = !(tmp_statement_expression_200 != 0) ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$202)
+                          if(tmp_if_expr_202)
                           {
                             if(lokke == argc + -1)
                             {
                               fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                               exit(-4);
-                              tmp_if_expr$15 = "";
+                              tmp_if_expr_15 = "";
                             }
 
                             else
                             {
                               lokke = lokke + 1;
-                              tmp_if_expr$15 = argv[(signed long int)lokke];
+                              tmp_if_expr_15 = argv[(signed long int)lokke];
                             }
-                            soundfile_format = tmp_if_expr$15;
-                            unsigned long int init_arguments$$1$$1$$1$$1$$36$$1$$1$$1$$__s1_len;
-                            unsigned long int init_arguments$$1$$1$$1$$1$$36$$1$$1$$1$$__s2_len;
-                            signed int return_value___builtin_strcmp$17;
-                            return_value___builtin_strcmp$17=__builtin_strcmp("mp3", soundfile_format);
-                            tmp_statement_expression$16 = return_value___builtin_strcmp$17;
-                            if(tmp_statement_expression$16 == 0)
+                            soundfile_format = tmp_if_expr_15;
+                            unsigned long int init_arguments__1__1__1__1__36__1__1__1____s1_len;
+                            unsigned long int init_arguments__1__1__1__1__36__1__1__1____s2_len;
+                            signed int return_value___builtin_strcmp_17;
+                            return_value___builtin_strcmp_17=__builtin_strcmp("mp3", soundfile_format);
+                            tmp_statement_expression_16 = return_value___builtin_strcmp_17;
+                            if(tmp_statement_expression_16 == 0)
                               write_to_mp3 = (_Bool)1;
 
                             soundfile_format_is_set = (_Bool)1;
@@ -3445,24 +3445,24 @@ void init_arguments(signed int argc, char **argv)
 
                           else
                           {
-                            unsigned long int init_arguments$$1$$1$$1$$1$$37$$__s1_len;
-                            unsigned long int init_arguments$$1$$1$$1$$1$$37$$__s2_len;
-                            signed int return_value___builtin_strcmp$194;
-                            return_value___builtin_strcmp$194=__builtin_strcmp("--version", a);
-                            tmp_statement_expression$193 = return_value___builtin_strcmp$194;
-                            if(tmp_statement_expression$193 == 0)
-                              tmp_if_expr$197 = (_Bool)1;
+                            unsigned long int init_arguments__1__1__1__1__37____s1_len;
+                            unsigned long int init_arguments__1__1__1__1__37____s2_len;
+                            signed int return_value___builtin_strcmp_194;
+                            return_value___builtin_strcmp_194=__builtin_strcmp("--version", a);
+                            tmp_statement_expression_193 = return_value___builtin_strcmp_194;
+                            if(tmp_statement_expression_193 == 0)
+                              tmp_if_expr_197 = (_Bool)1;
 
                             else
                             {
-                              unsigned long int init_arguments$$1$$1$$1$$1$$38$$__s1_len;
-                              unsigned long int init_arguments$$1$$1$$1$$1$$38$$__s2_len;
-                              signed int return_value___builtin_strcmp$196;
-                              return_value___builtin_strcmp$196=__builtin_strcmp("-v", a);
-                              tmp_statement_expression$195 = return_value___builtin_strcmp$196;
-                              tmp_if_expr$197 = !(tmp_statement_expression$195 != 0) ? (_Bool)1 : (_Bool)0;
+                              unsigned long int init_arguments__1__1__1__1__38____s1_len;
+                              unsigned long int init_arguments__1__1__1__1__38____s2_len;
+                              signed int return_value___builtin_strcmp_196;
+                              return_value___builtin_strcmp_196=__builtin_strcmp("-v", a);
+                              tmp_statement_expression_195 = return_value___builtin_strcmp_196;
+                              tmp_if_expr_197 = !(tmp_statement_expression_195 != 0) ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$197)
+                            if(tmp_if_expr_197)
                             {
                               puts("0.9.71");
                               exit(0);
@@ -3470,46 +3470,46 @@ void init_arguments(signed int argc, char **argv)
 
                             else
                             {
-                              unsigned long int init_arguments$$1$$1$$1$$1$$40$$__s1_len;
-                              unsigned long int init_arguments$$1$$1$$1$$1$$40$$__s2_len;
-                              signed int return_value___builtin_strcmp$189;
-                              return_value___builtin_strcmp$189=__builtin_strcmp("--silent", a);
-                              tmp_statement_expression$188 = return_value___builtin_strcmp$189;
-                              if(tmp_statement_expression$188 == 0)
-                                tmp_if_expr$192 = (_Bool)1;
+                              unsigned long int init_arguments__1__1__1__1__40____s1_len;
+                              unsigned long int init_arguments__1__1__1__1__40____s2_len;
+                              signed int return_value___builtin_strcmp_189;
+                              return_value___builtin_strcmp_189=__builtin_strcmp("--silent", a);
+                              tmp_statement_expression_188 = return_value___builtin_strcmp_189;
+                              if(tmp_statement_expression_188 == 0)
+                                tmp_if_expr_192 = (_Bool)1;
 
                               else
                               {
-                                unsigned long int init_arguments$$1$$1$$1$$1$$41$$__s1_len;
-                                unsigned long int init_arguments$$1$$1$$1$$1$$41$$__s2_len;
-                                signed int return_value___builtin_strcmp$191;
-                                return_value___builtin_strcmp$191=__builtin_strcmp("-s", a);
-                                tmp_statement_expression$190 = return_value___builtin_strcmp$191;
-                                tmp_if_expr$192 = !(tmp_statement_expression$190 != 0) ? (_Bool)1 : (_Bool)0;
+                                unsigned long int init_arguments__1__1__1__1__41____s1_len;
+                                unsigned long int init_arguments__1__1__1__1__41____s2_len;
+                                signed int return_value___builtin_strcmp_191;
+                                return_value___builtin_strcmp_191=__builtin_strcmp("-s", a);
+                                tmp_statement_expression_190 = return_value___builtin_strcmp_191;
+                                tmp_if_expr_192 = !(tmp_statement_expression_190 != 0) ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$192)
+                              if(tmp_if_expr_192)
                                 silent = (_Bool)1;
 
                               else
                               {
-                                unsigned long int init_arguments$$1$$1$$1$$1$$43$$__s1_len;
-                                unsigned long int init_arguments$$1$$1$$1$$1$$43$$__s2_len;
-                                signed int return_value___builtin_strcmp$184;
-                                return_value___builtin_strcmp$184=__builtin_strcmp("--absolutely-silent", a);
-                                tmp_statement_expression$183 = return_value___builtin_strcmp$184;
-                                if(tmp_statement_expression$183 == 0)
-                                  tmp_if_expr$187 = (_Bool)1;
+                                unsigned long int init_arguments__1__1__1__1__43____s1_len;
+                                unsigned long int init_arguments__1__1__1__1__43____s2_len;
+                                signed int return_value___builtin_strcmp_184;
+                                return_value___builtin_strcmp_184=__builtin_strcmp("--absolutely-silent", a);
+                                tmp_statement_expression_183 = return_value___builtin_strcmp_184;
+                                if(tmp_statement_expression_183 == 0)
+                                  tmp_if_expr_187 = (_Bool)1;
 
                                 else
                                 {
-                                  unsigned long int init_arguments$$1$$1$$1$$1$$44$$__s1_len;
-                                  unsigned long int init_arguments$$1$$1$$1$$1$$44$$__s2_len;
-                                  signed int return_value___builtin_strcmp$186;
-                                  return_value___builtin_strcmp$186=__builtin_strcmp("-as", a);
-                                  tmp_statement_expression$185 = return_value___builtin_strcmp$186;
-                                  tmp_if_expr$187 = !(tmp_statement_expression$185 != 0) ? (_Bool)1 : (_Bool)0;
+                                  unsigned long int init_arguments__1__1__1__1__44____s1_len;
+                                  unsigned long int init_arguments__1__1__1__1__44____s2_len;
+                                  signed int return_value___builtin_strcmp_186;
+                                  return_value___builtin_strcmp_186=__builtin_strcmp("-as", a);
+                                  tmp_statement_expression_185 = return_value___builtin_strcmp_186;
+                                  tmp_if_expr_187 = !(tmp_statement_expression_185 != 0) ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$187)
+                                if(tmp_if_expr_187)
                                 {
                                   absolutely_silent = (_Bool)1;
                                   use_vu = (_Bool)0;
@@ -3519,46 +3519,46 @@ void init_arguments(signed int argc, char **argv)
 
                                 else
                                 {
-                                  unsigned long int init_arguments$$1$$1$$1$$1$$46$$__s1_len;
-                                  unsigned long int init_arguments$$1$$1$$1$$1$$46$$__s2_len;
-                                  signed int return_value___builtin_strcmp$179;
-                                  return_value___builtin_strcmp$179=__builtin_strcmp("--verbose", a);
-                                  tmp_statement_expression$178 = return_value___builtin_strcmp$179;
-                                  if(tmp_statement_expression$178 == 0)
-                                    tmp_if_expr$182 = (_Bool)1;
+                                  unsigned long int init_arguments__1__1__1__1__46____s1_len;
+                                  unsigned long int init_arguments__1__1__1__1__46____s2_len;
+                                  signed int return_value___builtin_strcmp_179;
+                                  return_value___builtin_strcmp_179=__builtin_strcmp("--verbose", a);
+                                  tmp_statement_expression_178 = return_value___builtin_strcmp_179;
+                                  if(tmp_statement_expression_178 == 0)
+                                    tmp_if_expr_182 = (_Bool)1;
 
                                   else
                                   {
-                                    unsigned long int init_arguments$$1$$1$$1$$1$$47$$__s1_len;
-                                    unsigned long int init_arguments$$1$$1$$1$$1$$47$$__s2_len;
-                                    signed int return_value___builtin_strcmp$181;
-                                    return_value___builtin_strcmp$181=__builtin_strcmp("-V", a);
-                                    tmp_statement_expression$180 = return_value___builtin_strcmp$181;
-                                    tmp_if_expr$182 = !(tmp_statement_expression$180 != 0) ? (_Bool)1 : (_Bool)0;
+                                    unsigned long int init_arguments__1__1__1__1__47____s1_len;
+                                    unsigned long int init_arguments__1__1__1__1__47____s2_len;
+                                    signed int return_value___builtin_strcmp_181;
+                                    return_value___builtin_strcmp_181=__builtin_strcmp("-V", a);
+                                    tmp_statement_expression_180 = return_value___builtin_strcmp_181;
+                                    tmp_if_expr_182 = !(tmp_statement_expression_180 != 0) ? (_Bool)1 : (_Bool)0;
                                   }
-                                  if(tmp_if_expr$182)
+                                  if(tmp_if_expr_182)
                                     verbose = (_Bool)1;
 
                                   else
                                   {
-                                    unsigned long int init_arguments$$1$$1$$1$$1$$49$$__s1_len;
-                                    unsigned long int init_arguments$$1$$1$$1$$1$$49$$__s2_len;
-                                    signed int return_value___builtin_strcmp$174;
-                                    return_value___builtin_strcmp$174=__builtin_strcmp("--print-formats", a);
-                                    tmp_statement_expression$173 = return_value___builtin_strcmp$174;
-                                    if(tmp_statement_expression$173 == 0)
-                                      tmp_if_expr$177 = (_Bool)1;
+                                    unsigned long int init_arguments__1__1__1__1__49____s1_len;
+                                    unsigned long int init_arguments__1__1__1__1__49____s2_len;
+                                    signed int return_value___builtin_strcmp_174;
+                                    return_value___builtin_strcmp_174=__builtin_strcmp("--print-formats", a);
+                                    tmp_statement_expression_173 = return_value___builtin_strcmp_174;
+                                    if(tmp_statement_expression_173 == 0)
+                                      tmp_if_expr_177 = (_Bool)1;
 
                                     else
                                     {
-                                      unsigned long int init_arguments$$1$$1$$1$$1$$50$$__s1_len;
-                                      unsigned long int init_arguments$$1$$1$$1$$1$$50$$__s2_len;
-                                      signed int return_value___builtin_strcmp$176;
-                                      return_value___builtin_strcmp$176=__builtin_strcmp("-pf", a);
-                                      tmp_statement_expression$175 = return_value___builtin_strcmp$176;
-                                      tmp_if_expr$177 = !(tmp_statement_expression$175 != 0) ? (_Bool)1 : (_Bool)0;
+                                      unsigned long int init_arguments__1__1__1__1__50____s1_len;
+                                      unsigned long int init_arguments__1__1__1__1__50____s2_len;
+                                      signed int return_value___builtin_strcmp_176;
+                                      return_value___builtin_strcmp_176=__builtin_strcmp("-pf", a);
+                                      tmp_statement_expression_175 = return_value___builtin_strcmp_176;
+                                      tmp_if_expr_177 = !(tmp_statement_expression_175 != 0) ? (_Bool)1 : (_Bool)0;
                                     }
-                                    if(tmp_if_expr$177)
+                                    if(tmp_if_expr_177)
                                     {
                                       print_all_formats();
                                       exit(0);
@@ -3566,122 +3566,122 @@ void init_arguments(signed int argc, char **argv)
 
                                     else
                                     {
-                                      unsigned long int init_arguments$$1$$1$$1$$1$$52$$__s1_len;
-                                      unsigned long int init_arguments$$1$$1$$1$$1$$52$$__s2_len;
-                                      signed int return_value___builtin_strcmp$169;
-                                      return_value___builtin_strcmp$169=__builtin_strcmp("--mp3", a);
-                                      tmp_statement_expression$168 = return_value___builtin_strcmp$169;
-                                      if(tmp_statement_expression$168 == 0)
-                                        tmp_if_expr$172 = (_Bool)1;
+                                      unsigned long int init_arguments__1__1__1__1__52____s1_len;
+                                      unsigned long int init_arguments__1__1__1__1__52____s2_len;
+                                      signed int return_value___builtin_strcmp_169;
+                                      return_value___builtin_strcmp_169=__builtin_strcmp("--mp3", a);
+                                      tmp_statement_expression_168 = return_value___builtin_strcmp_169;
+                                      if(tmp_statement_expression_168 == 0)
+                                        tmp_if_expr_172 = (_Bool)1;
 
                                       else
                                       {
-                                        unsigned long int init_arguments$$1$$1$$1$$1$$53$$__s1_len;
-                                        unsigned long int init_arguments$$1$$1$$1$$1$$53$$__s2_len;
-                                        signed int return_value___builtin_strcmp$171;
-                                        return_value___builtin_strcmp$171=__builtin_strcmp("-mp3", a);
-                                        tmp_statement_expression$170 = return_value___builtin_strcmp$171;
-                                        tmp_if_expr$172 = !(tmp_statement_expression$170 != 0) ? (_Bool)1 : (_Bool)0;
+                                        unsigned long int init_arguments__1__1__1__1__53____s1_len;
+                                        unsigned long int init_arguments__1__1__1__1__53____s2_len;
+                                        signed int return_value___builtin_strcmp_171;
+                                        return_value___builtin_strcmp_171=__builtin_strcmp("-mp3", a);
+                                        tmp_statement_expression_170 = return_value___builtin_strcmp_171;
+                                        tmp_if_expr_172 = !(tmp_statement_expression_170 != 0) ? (_Bool)1 : (_Bool)0;
                                       }
-                                      if(tmp_if_expr$172)
+                                      if(tmp_if_expr_172)
                                         write_to_mp3 = (_Bool)1;
 
                                       else
                                       {
-                                        unsigned long int init_arguments$$1$$1$$1$$1$$55$$__s1_len;
-                                        unsigned long int init_arguments$$1$$1$$1$$1$$55$$__s2_len;
-                                        signed int return_value___builtin_strcmp$164;
-                                        return_value___builtin_strcmp$164=__builtin_strcmp("--mp3-quality", a);
-                                        tmp_statement_expression$163 = return_value___builtin_strcmp$164;
-                                        if(tmp_statement_expression$163 == 0)
-                                          tmp_if_expr$167 = (_Bool)1;
+                                        unsigned long int init_arguments__1__1__1__1__55____s1_len;
+                                        unsigned long int init_arguments__1__1__1__1__55____s2_len;
+                                        signed int return_value___builtin_strcmp_164;
+                                        return_value___builtin_strcmp_164=__builtin_strcmp("--mp3-quality", a);
+                                        tmp_statement_expression_163 = return_value___builtin_strcmp_164;
+                                        if(tmp_statement_expression_163 == 0)
+                                          tmp_if_expr_167 = (_Bool)1;
 
                                         else
                                         {
-                                          unsigned long int init_arguments$$1$$1$$1$$1$$56$$__s1_len;
-                                          unsigned long int init_arguments$$1$$1$$1$$1$$56$$__s2_len;
-                                          signed int return_value___builtin_strcmp$166;
-                                          return_value___builtin_strcmp$166=__builtin_strcmp("-mp3q", a);
-                                          tmp_statement_expression$165 = return_value___builtin_strcmp$166;
-                                          tmp_if_expr$167 = !(tmp_statement_expression$165 != 0) ? (_Bool)1 : (_Bool)0;
+                                          unsigned long int init_arguments__1__1__1__1__56____s1_len;
+                                          unsigned long int init_arguments__1__1__1__1__56____s2_len;
+                                          signed int return_value___builtin_strcmp_166;
+                                          return_value___builtin_strcmp_166=__builtin_strcmp("-mp3q", a);
+                                          tmp_statement_expression_165 = return_value___builtin_strcmp_166;
+                                          tmp_if_expr_167 = !(tmp_statement_expression_165 != 0) ? (_Bool)1 : (_Bool)0;
                                         }
-                                        if(tmp_if_expr$167)
+                                        if(tmp_if_expr_167)
                                         {
                                           if(lokke == argc + -1)
                                           {
                                             fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                             exit(-4);
-                                            tmp_if_expr$19 = (signed long int)0;
+                                            tmp_if_expr_19 = (signed long int)0;
                                           }
 
                                           else
                                           {
                                             lokke = lokke + 1;
-                                            return_value_atoll$18=atoll(argv[(signed long int)lokke]);
-                                            tmp_if_expr$19 = return_value_atoll$18;
+                                            return_value_atoll_18=atoll(argv[(signed long int)lokke]);
+                                            tmp_if_expr_19 = return_value_atoll_18;
                                           }
-                                          das_lame_quality = (signed int)tmp_if_expr$19;
+                                          das_lame_quality = (signed int)tmp_if_expr_19;
                                           write_to_mp3 = (_Bool)1;
                                         }
 
                                         else
                                         {
-                                          unsigned long int init_arguments$$1$$1$$1$$1$$58$$__s1_len;
-                                          unsigned long int init_arguments$$1$$1$$1$$1$$58$$__s2_len;
-                                          signed int return_value___builtin_strcmp$159;
-                                          return_value___builtin_strcmp$159=__builtin_strcmp("--mp3-bitrate", a);
-                                          tmp_statement_expression$158 = return_value___builtin_strcmp$159;
-                                          if(tmp_statement_expression$158 == 0)
-                                            tmp_if_expr$162 = (_Bool)1;
+                                          unsigned long int init_arguments__1__1__1__1__58____s1_len;
+                                          unsigned long int init_arguments__1__1__1__1__58____s2_len;
+                                          signed int return_value___builtin_strcmp_159;
+                                          return_value___builtin_strcmp_159=__builtin_strcmp("--mp3-bitrate", a);
+                                          tmp_statement_expression_158 = return_value___builtin_strcmp_159;
+                                          if(tmp_statement_expression_158 == 0)
+                                            tmp_if_expr_162 = (_Bool)1;
 
                                           else
                                           {
-                                            unsigned long int init_arguments$$1$$1$$1$$1$$59$$__s1_len;
-                                            unsigned long int init_arguments$$1$$1$$1$$1$$59$$__s2_len;
-                                            signed int return_value___builtin_strcmp$161;
-                                            return_value___builtin_strcmp$161=__builtin_strcmp("-mp3b", a);
-                                            tmp_statement_expression$160 = return_value___builtin_strcmp$161;
-                                            tmp_if_expr$162 = !(tmp_statement_expression$160 != 0) ? (_Bool)1 : (_Bool)0;
+                                            unsigned long int init_arguments__1__1__1__1__59____s1_len;
+                                            unsigned long int init_arguments__1__1__1__1__59____s2_len;
+                                            signed int return_value___builtin_strcmp_161;
+                                            return_value___builtin_strcmp_161=__builtin_strcmp("-mp3b", a);
+                                            tmp_statement_expression_160 = return_value___builtin_strcmp_161;
+                                            tmp_if_expr_162 = !(tmp_statement_expression_160 != 0) ? (_Bool)1 : (_Bool)0;
                                           }
-                                          if(tmp_if_expr$162)
+                                          if(tmp_if_expr_162)
                                           {
                                             if(lokke == argc + -1)
                                             {
                                               fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                               exit(-4);
-                                              tmp_if_expr$21 = (signed long int)0;
+                                              tmp_if_expr_21 = (signed long int)0;
                                             }
 
                                             else
                                             {
                                               lokke = lokke + 1;
-                                              return_value_atoll$20=atoll(argv[(signed long int)lokke]);
-                                              tmp_if_expr$21 = return_value_atoll$20;
+                                              return_value_atoll_20=atoll(argv[(signed long int)lokke]);
+                                              tmp_if_expr_21 = return_value_atoll_20;
                                             }
-                                            das_lame_bitrate = (signed int)tmp_if_expr$21;
+                                            das_lame_bitrate = (signed int)tmp_if_expr_21;
                                             write_to_mp3 = (_Bool)1;
                                           }
 
                                           else
                                           {
-                                            unsigned long int init_arguments$$1$$1$$1$$1$$61$$__s1_len;
-                                            unsigned long int init_arguments$$1$$1$$1$$1$$61$$__s2_len;
-                                            signed int return_value___builtin_strcmp$154;
-                                            return_value___builtin_strcmp$154=__builtin_strcmp("--write-to-stdout", a);
-                                            tmp_statement_expression$153 = return_value___builtin_strcmp$154;
-                                            if(tmp_statement_expression$153 == 0)
-                                              tmp_if_expr$157 = (_Bool)1;
+                                            unsigned long int init_arguments__1__1__1__1__61____s1_len;
+                                            unsigned long int init_arguments__1__1__1__1__61____s2_len;
+                                            signed int return_value___builtin_strcmp_154;
+                                            return_value___builtin_strcmp_154=__builtin_strcmp("--write-to-stdout", a);
+                                            tmp_statement_expression_153 = return_value___builtin_strcmp_154;
+                                            if(tmp_statement_expression_153 == 0)
+                                              tmp_if_expr_157 = (_Bool)1;
 
                                             else
                                             {
-                                              unsigned long int init_arguments$$1$$1$$1$$1$$62$$__s1_len;
-                                              unsigned long int init_arguments$$1$$1$$1$$1$$62$$__s2_len;
-                                              signed int return_value___builtin_strcmp$156;
-                                              return_value___builtin_strcmp$156=__builtin_strcmp("-ws", a);
-                                              tmp_statement_expression$155 = return_value___builtin_strcmp$156;
-                                              tmp_if_expr$157 = !(tmp_statement_expression$155 != 0) ? (_Bool)1 : (_Bool)0;
+                                              unsigned long int init_arguments__1__1__1__1__62____s1_len;
+                                              unsigned long int init_arguments__1__1__1__1__62____s2_len;
+                                              signed int return_value___builtin_strcmp_156;
+                                              return_value___builtin_strcmp_156=__builtin_strcmp("-ws", a);
+                                              tmp_statement_expression_155 = return_value___builtin_strcmp_156;
+                                              tmp_if_expr_157 = !(tmp_statement_expression_155 != 0) ? (_Bool)1 : (_Bool)0;
                                             }
-                                            if(tmp_if_expr$157)
+                                            if(tmp_if_expr_157)
                                             {
                                               write_to_stdout = (_Bool)1;
                                               use_vu = (_Bool)0;
@@ -3690,68 +3690,68 @@ void init_arguments(signed int argc, char **argv)
 
                                             else
                                             {
-                                              unsigned long int init_arguments$$1$$1$$1$$1$$64$$__s1_len;
-                                              unsigned long int init_arguments$$1$$1$$1$$1$$64$$__s2_len;
-                                              signed int return_value___builtin_strcmp$149;
-                                              return_value___builtin_strcmp$149=__builtin_strcmp("--disable-meter", a);
-                                              tmp_statement_expression$148 = return_value___builtin_strcmp$149;
-                                              if(tmp_statement_expression$148 == 0)
-                                                tmp_if_expr$152 = (_Bool)1;
+                                              unsigned long int init_arguments__1__1__1__1__64____s1_len;
+                                              unsigned long int init_arguments__1__1__1__1__64____s2_len;
+                                              signed int return_value___builtin_strcmp_149;
+                                              return_value___builtin_strcmp_149=__builtin_strcmp("--disable-meter", a);
+                                              tmp_statement_expression_148 = return_value___builtin_strcmp_149;
+                                              if(tmp_statement_expression_148 == 0)
+                                                tmp_if_expr_152 = (_Bool)1;
 
                                               else
                                               {
-                                                unsigned long int init_arguments$$1$$1$$1$$1$$65$$__s1_len;
-                                                unsigned long int init_arguments$$1$$1$$1$$1$$65$$__s2_len;
-                                                signed int return_value___builtin_strcmp$151;
-                                                return_value___builtin_strcmp$151=__builtin_strcmp("-dm", a);
-                                                tmp_statement_expression$150 = return_value___builtin_strcmp$151;
-                                                tmp_if_expr$152 = !(tmp_statement_expression$150 != 0) ? (_Bool)1 : (_Bool)0;
+                                                unsigned long int init_arguments__1__1__1__1__65____s1_len;
+                                                unsigned long int init_arguments__1__1__1__1__65____s2_len;
+                                                signed int return_value___builtin_strcmp_151;
+                                                return_value___builtin_strcmp_151=__builtin_strcmp("-dm", a);
+                                                tmp_statement_expression_150 = return_value___builtin_strcmp_151;
+                                                tmp_if_expr_152 = !(tmp_statement_expression_150 != 0) ? (_Bool)1 : (_Bool)0;
                                               }
-                                              if(tmp_if_expr$152)
+                                              if(tmp_if_expr_152)
                                                 use_vu = (_Bool)0;
 
                                               else
                                               {
-                                                unsigned long int init_arguments$$1$$1$$1$$1$$67$$__s1_len;
-                                                unsigned long int init_arguments$$1$$1$$1$$1$$67$$__s2_len;
-                                                signed int return_value___builtin_strcmp$144;
-                                                return_value___builtin_strcmp$144=__builtin_strcmp("--hide-buffer-usage", a);
-                                                tmp_statement_expression$143 = return_value___builtin_strcmp$144;
-                                                if(tmp_statement_expression$143 == 0)
-                                                  tmp_if_expr$147 = (_Bool)1;
+                                                unsigned long int init_arguments__1__1__1__1__67____s1_len;
+                                                unsigned long int init_arguments__1__1__1__1__67____s2_len;
+                                                signed int return_value___builtin_strcmp_144;
+                                                return_value___builtin_strcmp_144=__builtin_strcmp("--hide-buffer-usage", a);
+                                                tmp_statement_expression_143 = return_value___builtin_strcmp_144;
+                                                if(tmp_statement_expression_143 == 0)
+                                                  tmp_if_expr_147 = (_Bool)1;
 
                                                 else
                                                 {
-                                                  unsigned long int init_arguments$$1$$1$$1$$1$$68$$__s1_len;
-                                                  unsigned long int init_arguments$$1$$1$$1$$1$$68$$__s2_len;
-                                                  signed int return_value___builtin_strcmp$146;
-                                                  return_value___builtin_strcmp$146=__builtin_strcmp("-hbu", a);
-                                                  tmp_statement_expression$145 = return_value___builtin_strcmp$146;
-                                                  tmp_if_expr$147 = !(tmp_statement_expression$145 != 0) ? (_Bool)1 : (_Bool)0;
+                                                  unsigned long int init_arguments__1__1__1__1__68____s1_len;
+                                                  unsigned long int init_arguments__1__1__1__1__68____s2_len;
+                                                  signed int return_value___builtin_strcmp_146;
+                                                  return_value___builtin_strcmp_146=__builtin_strcmp("-hbu", a);
+                                                  tmp_statement_expression_145 = return_value___builtin_strcmp_146;
+                                                  tmp_if_expr_147 = !(tmp_statement_expression_145 != 0) ? (_Bool)1 : (_Bool)0;
                                                 }
-                                                if(tmp_if_expr$147)
+                                                if(tmp_if_expr_147)
                                                   show_bufferusage = (_Bool)0;
 
                                                 else
                                                 {
-                                                  unsigned long int init_arguments$$1$$1$$1$$1$$70$$__s1_len;
-                                                  unsigned long int init_arguments$$1$$1$$1$$1$$70$$__s2_len;
-                                                  signed int return_value___builtin_strcmp$139;
-                                                  return_value___builtin_strcmp$139=__builtin_strcmp("--disable-console", a);
-                                                  tmp_statement_expression$138 = return_value___builtin_strcmp$139;
-                                                  if(tmp_statement_expression$138 == 0)
-                                                    tmp_if_expr$142 = (_Bool)1;
+                                                  unsigned long int init_arguments__1__1__1__1__70____s1_len;
+                                                  unsigned long int init_arguments__1__1__1__1__70____s2_len;
+                                                  signed int return_value___builtin_strcmp_139;
+                                                  return_value___builtin_strcmp_139=__builtin_strcmp("--disable-console", a);
+                                                  tmp_statement_expression_138 = return_value___builtin_strcmp_139;
+                                                  if(tmp_statement_expression_138 == 0)
+                                                    tmp_if_expr_142 = (_Bool)1;
 
                                                   else
                                                   {
-                                                    unsigned long int init_arguments$$1$$1$$1$$1$$71$$__s1_len;
-                                                    unsigned long int init_arguments$$1$$1$$1$$1$$71$$__s2_len;
-                                                    signed int return_value___builtin_strcmp$141;
-                                                    return_value___builtin_strcmp$141=__builtin_strcmp("-dc", a);
-                                                    tmp_statement_expression$140 = return_value___builtin_strcmp$141;
-                                                    tmp_if_expr$142 = !(tmp_statement_expression$140 != 0) ? (_Bool)1 : (_Bool)0;
+                                                    unsigned long int init_arguments__1__1__1__1__71____s1_len;
+                                                    unsigned long int init_arguments__1__1__1__1__71____s2_len;
+                                                    signed int return_value___builtin_strcmp_141;
+                                                    return_value___builtin_strcmp_141=__builtin_strcmp("-dc", a);
+                                                    tmp_statement_expression_140 = return_value___builtin_strcmp_141;
+                                                    tmp_if_expr_142 = !(tmp_statement_expression_140 != 0) ? (_Bool)1 : (_Bool)0;
                                                   }
-                                                  if(tmp_if_expr$142)
+                                                  if(tmp_if_expr_142)
                                                   {
                                                     use_vu = (_Bool)0;
                                                     show_bufferusage = (_Bool)0;
@@ -3759,46 +3759,46 @@ void init_arguments(signed int argc, char **argv)
 
                                                   else
                                                   {
-                                                    unsigned long int init_arguments$$1$$1$$1$$1$$73$$__s1_len;
-                                                    unsigned long int init_arguments$$1$$1$$1$$1$$73$$__s2_len;
-                                                    signed int return_value___builtin_strcmp$134;
-                                                    return_value___builtin_strcmp$134=__builtin_strcmp("--no-stdin", a);
-                                                    tmp_statement_expression$133 = return_value___builtin_strcmp$134;
-                                                    if(tmp_statement_expression$133 == 0)
-                                                      tmp_if_expr$137 = (_Bool)1;
+                                                    unsigned long int init_arguments__1__1__1__1__73____s1_len;
+                                                    unsigned long int init_arguments__1__1__1__1__73____s2_len;
+                                                    signed int return_value___builtin_strcmp_134;
+                                                    return_value___builtin_strcmp_134=__builtin_strcmp("--no-stdin", a);
+                                                    tmp_statement_expression_133 = return_value___builtin_strcmp_134;
+                                                    if(tmp_statement_expression_133 == 0)
+                                                      tmp_if_expr_137 = (_Bool)1;
 
                                                     else
                                                     {
-                                                      unsigned long int init_arguments$$1$$1$$1$$1$$74$$__s1_len;
-                                                      unsigned long int init_arguments$$1$$1$$1$$1$$74$$__s2_len;
-                                                      signed int return_value___builtin_strcmp$136;
-                                                      return_value___builtin_strcmp$136=__builtin_strcmp("-ns", a);
-                                                      tmp_statement_expression$135 = return_value___builtin_strcmp$136;
-                                                      tmp_if_expr$137 = !(tmp_statement_expression$135 != 0) ? (_Bool)1 : (_Bool)0;
+                                                      unsigned long int init_arguments__1__1__1__1__74____s1_len;
+                                                      unsigned long int init_arguments__1__1__1__1__74____s2_len;
+                                                      signed int return_value___builtin_strcmp_136;
+                                                      return_value___builtin_strcmp_136=__builtin_strcmp("-ns", a);
+                                                      tmp_statement_expression_135 = return_value___builtin_strcmp_136;
+                                                      tmp_if_expr_137 = !(tmp_statement_expression_135 != 0) ? (_Bool)1 : (_Bool)0;
                                                     }
-                                                    if(tmp_if_expr$137)
+                                                    if(tmp_if_expr_137)
                                                       no_stdin = (_Bool)1;
 
                                                     else
                                                     {
-                                                      unsigned long int init_arguments$$1$$1$$1$$1$$76$$__s1_len;
-                                                      unsigned long int init_arguments$$1$$1$$1$$1$$76$$__s2_len;
-                                                      signed int return_value___builtin_strcmp$129;
-                                                      return_value___builtin_strcmp$129=__builtin_strcmp("--daemon", a);
-                                                      tmp_statement_expression$128 = return_value___builtin_strcmp$129;
-                                                      if(tmp_statement_expression$128 == 0)
-                                                        tmp_if_expr$132 = (_Bool)1;
+                                                      unsigned long int init_arguments__1__1__1__1__76____s1_len;
+                                                      unsigned long int init_arguments__1__1__1__1__76____s2_len;
+                                                      signed int return_value___builtin_strcmp_129;
+                                                      return_value___builtin_strcmp_129=__builtin_strcmp("--daemon", a);
+                                                      tmp_statement_expression_128 = return_value___builtin_strcmp_129;
+                                                      if(tmp_statement_expression_128 == 0)
+                                                        tmp_if_expr_132 = (_Bool)1;
 
                                                       else
                                                       {
-                                                        unsigned long int init_arguments$$1$$1$$1$$1$$77$$__s1_len;
-                                                        unsigned long int init_arguments$$1$$1$$1$$1$$77$$__s2_len;
-                                                        signed int return_value___builtin_strcmp$131;
-                                                        return_value___builtin_strcmp$131=__builtin_strcmp("", a);
-                                                        tmp_statement_expression$130 = return_value___builtin_strcmp$131;
-                                                        tmp_if_expr$132 = !(tmp_statement_expression$130 != 0) ? (_Bool)1 : (_Bool)0;
+                                                        unsigned long int init_arguments__1__1__1__1__77____s1_len;
+                                                        unsigned long int init_arguments__1__1__1__1__77____s2_len;
+                                                        signed int return_value___builtin_strcmp_131;
+                                                        return_value___builtin_strcmp_131=__builtin_strcmp("", a);
+                                                        tmp_statement_expression_130 = return_value___builtin_strcmp_131;
+                                                        tmp_if_expr_132 = !(tmp_statement_expression_130 != 0) ? (_Bool)1 : (_Bool)0;
                                                       }
-                                                      if(tmp_if_expr$132)
+                                                      if(tmp_if_expr_132)
                                                       {
                                                         no_stdin = (_Bool)1;
                                                         absolutely_silent = (_Bool)1;
@@ -3809,583 +3809,583 @@ void init_arguments(signed int argc, char **argv)
 
                                                       else
                                                       {
-                                                        unsigned long int init_arguments$$1$$1$$1$$1$$79$$__s1_len;
-                                                        unsigned long int init_arguments$$1$$1$$1$$1$$79$$__s2_len;
-                                                        signed int return_value___builtin_strcmp$124;
-                                                        return_value___builtin_strcmp$124=__builtin_strcmp("--linear-meter", a);
-                                                        tmp_statement_expression$123 = return_value___builtin_strcmp$124;
-                                                        if(tmp_statement_expression$123 == 0)
-                                                          tmp_if_expr$127 = (_Bool)1;
+                                                        unsigned long int init_arguments__1__1__1__1__79____s1_len;
+                                                        unsigned long int init_arguments__1__1__1__1__79____s2_len;
+                                                        signed int return_value___builtin_strcmp_124;
+                                                        return_value___builtin_strcmp_124=__builtin_strcmp("--linear-meter", a);
+                                                        tmp_statement_expression_123 = return_value___builtin_strcmp_124;
+                                                        if(tmp_statement_expression_123 == 0)
+                                                          tmp_if_expr_127 = (_Bool)1;
 
                                                         else
                                                         {
-                                                          unsigned long int init_arguments$$1$$1$$1$$1$$80$$__s1_len;
-                                                          unsigned long int init_arguments$$1$$1$$1$$1$$80$$__s2_len;
-                                                          signed int return_value___builtin_strcmp$126;
-                                                          return_value___builtin_strcmp$126=__builtin_strcmp("-lm", a);
-                                                          tmp_statement_expression$125 = return_value___builtin_strcmp$126;
-                                                          tmp_if_expr$127 = !(tmp_statement_expression$125 != 0) ? (_Bool)1 : (_Bool)0;
+                                                          unsigned long int init_arguments__1__1__1__1__80____s1_len;
+                                                          unsigned long int init_arguments__1__1__1__1__80____s2_len;
+                                                          signed int return_value___builtin_strcmp_126;
+                                                          return_value___builtin_strcmp_126=__builtin_strcmp("-lm", a);
+                                                          tmp_statement_expression_125 = return_value___builtin_strcmp_126;
+                                                          tmp_if_expr_127 = !(tmp_statement_expression_125 != 0) ? (_Bool)1 : (_Bool)0;
                                                         }
-                                                        if(tmp_if_expr$127)
+                                                        if(tmp_if_expr_127)
                                                           vu_dB = 0;
 
                                                         else
                                                         {
-                                                          unsigned long int init_arguments$$1$$1$$1$$1$$82$$__s1_len;
-                                                          unsigned long int init_arguments$$1$$1$$1$$1$$82$$__s2_len;
-                                                          signed int return_value___builtin_strcmp$119;
-                                                          return_value___builtin_strcmp$119=__builtin_strcmp("--dB-meter-reference", a);
-                                                          tmp_statement_expression$118 = return_value___builtin_strcmp$119;
-                                                          if(tmp_statement_expression$118 == 0)
-                                                            tmp_if_expr$122 = (_Bool)1;
+                                                          unsigned long int init_arguments__1__1__1__1__82____s1_len;
+                                                          unsigned long int init_arguments__1__1__1__1__82____s2_len;
+                                                          signed int return_value___builtin_strcmp_119;
+                                                          return_value___builtin_strcmp_119=__builtin_strcmp("--dB-meter-reference", a);
+                                                          tmp_statement_expression_118 = return_value___builtin_strcmp_119;
+                                                          if(tmp_statement_expression_118 == 0)
+                                                            tmp_if_expr_122 = (_Bool)1;
 
                                                           else
                                                           {
-                                                            unsigned long int init_arguments$$1$$1$$1$$1$$83$$__s1_len;
-                                                            unsigned long int init_arguments$$1$$1$$1$$1$$83$$__s2_len;
-                                                            signed int return_value___builtin_strcmp$121;
-                                                            return_value___builtin_strcmp$121=__builtin_strcmp("-dBr", a);
-                                                            tmp_statement_expression$120 = return_value___builtin_strcmp$121;
-                                                            tmp_if_expr$122 = !(tmp_statement_expression$120 != 0) ? (_Bool)1 : (_Bool)0;
+                                                            unsigned long int init_arguments__1__1__1__1__83____s1_len;
+                                                            unsigned long int init_arguments__1__1__1__1__83____s2_len;
+                                                            signed int return_value___builtin_strcmp_121;
+                                                            return_value___builtin_strcmp_121=__builtin_strcmp("-dBr", a);
+                                                            tmp_statement_expression_120 = return_value___builtin_strcmp_121;
+                                                            tmp_if_expr_122 = !(tmp_statement_expression_120 != 0) ? (_Bool)1 : (_Bool)0;
                                                           }
-                                                          if(tmp_if_expr$122)
+                                                          if(tmp_if_expr_122)
                                                           {
                                                             vu_dB = 1;
                                                             if(lokke == argc + -1)
                                                             {
                                                               fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                               exit(-4);
-                                                              tmp_if_expr$23 = (double)0.0f;
+                                                              tmp_if_expr_23 = (double)0.0f;
                                                             }
 
                                                             else
                                                             {
                                                               lokke = lokke + 1;
-                                                              return_value_atof$22=atof(argv[(signed long int)lokke]);
-                                                              tmp_if_expr$23 = return_value_atof$22 * (double)-0.05f;
+                                                              return_value_atof_22=atof(argv[(signed long int)lokke]);
+                                                              tmp_if_expr_23 = return_value_atof_22 * (double)-0.05f;
                                                             }
-                                                            vu_bias=powf(10.0f, (float)tmp_if_expr$23);
+                                                            vu_bias=powf(10.0f, (float)tmp_if_expr_23);
                                                           }
 
                                                           else
                                                           {
-                                                            unsigned long int init_arguments$$1$$1$$1$$1$$85$$__s1_len;
-                                                            unsigned long int init_arguments$$1$$1$$1$$1$$85$$__s2_len;
-                                                            signed int return_value___builtin_strcmp$114;
-                                                            return_value___builtin_strcmp$114=__builtin_strcmp("--meterbridge", a);
-                                                            tmp_statement_expression$113 = return_value___builtin_strcmp$114;
-                                                            if(tmp_statement_expression$113 == 0)
-                                                              tmp_if_expr$117 = (_Bool)1;
+                                                            unsigned long int init_arguments__1__1__1__1__85____s1_len;
+                                                            unsigned long int init_arguments__1__1__1__1__85____s2_len;
+                                                            signed int return_value___builtin_strcmp_114;
+                                                            return_value___builtin_strcmp_114=__builtin_strcmp("--meterbridge", a);
+                                                            tmp_statement_expression_113 = return_value___builtin_strcmp_114;
+                                                            if(tmp_statement_expression_113 == 0)
+                                                              tmp_if_expr_117 = (_Bool)1;
 
                                                             else
                                                             {
-                                                              unsigned long int init_arguments$$1$$1$$1$$1$$86$$__s1_len;
-                                                              unsigned long int init_arguments$$1$$1$$1$$1$$86$$__s2_len;
-                                                              signed int return_value___builtin_strcmp$116;
-                                                              return_value___builtin_strcmp$116=__builtin_strcmp("-mb", a);
-                                                              tmp_statement_expression$115 = return_value___builtin_strcmp$116;
-                                                              tmp_if_expr$117 = !(tmp_statement_expression$115 != 0) ? (_Bool)1 : (_Bool)0;
+                                                              unsigned long int init_arguments__1__1__1__1__86____s1_len;
+                                                              unsigned long int init_arguments__1__1__1__1__86____s2_len;
+                                                              signed int return_value___builtin_strcmp_116;
+                                                              return_value___builtin_strcmp_116=__builtin_strcmp("-mb", a);
+                                                              tmp_statement_expression_115 = return_value___builtin_strcmp_116;
+                                                              tmp_if_expr_117 = !(tmp_statement_expression_115 != 0) ? (_Bool)1 : (_Bool)0;
                                                             }
-                                                            if(tmp_if_expr$117)
+                                                            if(tmp_if_expr_117)
                                                               use_meterbridge = (_Bool)1;
 
                                                             else
                                                             {
-                                                              unsigned long int init_arguments$$1$$1$$1$$1$$88$$__s1_len;
-                                                              unsigned long int init_arguments$$1$$1$$1$$1$$88$$__s2_len;
-                                                              signed int return_value___builtin_strcmp$109;
-                                                              return_value___builtin_strcmp$109=__builtin_strcmp("--meterbridge-type", a);
-                                                              tmp_statement_expression$108 = return_value___builtin_strcmp$109;
-                                                              if(tmp_statement_expression$108 == 0)
-                                                                tmp_if_expr$112 = (_Bool)1;
+                                                              unsigned long int init_arguments__1__1__1__1__88____s1_len;
+                                                              unsigned long int init_arguments__1__1__1__1__88____s2_len;
+                                                              signed int return_value___builtin_strcmp_109;
+                                                              return_value___builtin_strcmp_109=__builtin_strcmp("--meterbridge-type", a);
+                                                              tmp_statement_expression_108 = return_value___builtin_strcmp_109;
+                                                              if(tmp_statement_expression_108 == 0)
+                                                                tmp_if_expr_112 = (_Bool)1;
 
                                                               else
                                                               {
-                                                                unsigned long int init_arguments$$1$$1$$1$$1$$89$$__s1_len;
-                                                                unsigned long int init_arguments$$1$$1$$1$$1$$89$$__s2_len;
-                                                                signed int return_value___builtin_strcmp$111;
-                                                                return_value___builtin_strcmp$111=__builtin_strcmp("-mt", a);
-                                                                tmp_statement_expression$110 = return_value___builtin_strcmp$111;
-                                                                tmp_if_expr$112 = !(tmp_statement_expression$110 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                unsigned long int init_arguments__1__1__1__1__89____s1_len;
+                                                                unsigned long int init_arguments__1__1__1__1__89____s2_len;
+                                                                signed int return_value___builtin_strcmp_111;
+                                                                return_value___builtin_strcmp_111=__builtin_strcmp("-mt", a);
+                                                                tmp_statement_expression_110 = return_value___builtin_strcmp_111;
+                                                                tmp_if_expr_112 = !(tmp_statement_expression_110 != 0) ? (_Bool)1 : (_Bool)0;
                                                               }
-                                                              if(tmp_if_expr$112)
+                                                              if(tmp_if_expr_112)
                                                               {
                                                                 use_meterbridge = (_Bool)1;
                                                                 if(lokke == argc + -1)
                                                                 {
                                                                   fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                   exit(-4);
-                                                                  tmp_if_expr$24 = "";
+                                                                  tmp_if_expr_24 = "";
                                                                 }
 
                                                                 else
                                                                 {
                                                                   lokke = lokke + 1;
-                                                                  tmp_if_expr$24 = argv[(signed long int)lokke];
+                                                                  tmp_if_expr_24 = argv[(signed long int)lokke];
                                                                 }
-                                                                meterbridge_type = tmp_if_expr$24;
+                                                                meterbridge_type = tmp_if_expr_24;
                                                               }
 
                                                               else
                                                               {
-                                                                unsigned long int init_arguments$$1$$1$$1$$1$$91$$__s1_len;
-                                                                unsigned long int init_arguments$$1$$1$$1$$1$$91$$__s2_len;
-                                                                signed int return_value___builtin_strcmp$104;
-                                                                return_value___builtin_strcmp$104=__builtin_strcmp("--meterbridge-reference", a);
-                                                                tmp_statement_expression$103 = return_value___builtin_strcmp$104;
-                                                                if(tmp_statement_expression$103 == 0)
-                                                                  tmp_if_expr$107 = (_Bool)1;
+                                                                unsigned long int init_arguments__1__1__1__1__91____s1_len;
+                                                                unsigned long int init_arguments__1__1__1__1__91____s2_len;
+                                                                signed int return_value___builtin_strcmp_104;
+                                                                return_value___builtin_strcmp_104=__builtin_strcmp("--meterbridge-reference", a);
+                                                                tmp_statement_expression_103 = return_value___builtin_strcmp_104;
+                                                                if(tmp_statement_expression_103 == 0)
+                                                                  tmp_if_expr_107 = (_Bool)1;
 
                                                                 else
                                                                 {
-                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$92$$__s1_len;
-                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$92$$__s2_len;
-                                                                  signed int return_value___builtin_strcmp$106;
-                                                                  return_value___builtin_strcmp$106=__builtin_strcmp("-mr", a);
-                                                                  tmp_statement_expression$105 = return_value___builtin_strcmp$106;
-                                                                  tmp_if_expr$107 = !(tmp_statement_expression$105 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                  unsigned long int init_arguments__1__1__1__1__92____s1_len;
+                                                                  unsigned long int init_arguments__1__1__1__1__92____s2_len;
+                                                                  signed int return_value___builtin_strcmp_106;
+                                                                  return_value___builtin_strcmp_106=__builtin_strcmp("-mr", a);
+                                                                  tmp_statement_expression_105 = return_value___builtin_strcmp_106;
+                                                                  tmp_if_expr_107 = !(tmp_statement_expression_105 != 0) ? (_Bool)1 : (_Bool)0;
                                                                 }
-                                                                if(tmp_if_expr$107)
+                                                                if(tmp_if_expr_107)
                                                                 {
                                                                   use_meterbridge = (_Bool)1;
                                                                   if(lokke == argc + -1)
                                                                   {
                                                                     fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                     exit(-4);
-                                                                    tmp_if_expr$25 = "";
+                                                                    tmp_if_expr_25 = "";
                                                                   }
 
                                                                   else
                                                                   {
                                                                     lokke = lokke + 1;
-                                                                    tmp_if_expr$25 = argv[(signed long int)lokke];
+                                                                    tmp_if_expr_25 = argv[(signed long int)lokke];
                                                                   }
-                                                                  meterbridge_reference = tmp_if_expr$25;
+                                                                  meterbridge_reference = tmp_if_expr_25;
                                                                 }
 
                                                                 else
                                                                 {
-                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$94$$__s1_len;
-                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$94$$__s2_len;
-                                                                  signed int return_value___builtin_strcmp$99;
-                                                                  return_value___builtin_strcmp$99=__builtin_strcmp("--jack-transport", a);
-                                                                  tmp_statement_expression$98 = return_value___builtin_strcmp$99;
-                                                                  if(tmp_statement_expression$98 == 0)
-                                                                    tmp_if_expr$102 = (_Bool)1;
+                                                                  unsigned long int init_arguments__1__1__1__1__94____s1_len;
+                                                                  unsigned long int init_arguments__1__1__1__1__94____s2_len;
+                                                                  signed int return_value___builtin_strcmp_99;
+                                                                  return_value___builtin_strcmp_99=__builtin_strcmp("--jack-transport", a);
+                                                                  tmp_statement_expression_98 = return_value___builtin_strcmp_99;
+                                                                  if(tmp_statement_expression_98 == 0)
+                                                                    tmp_if_expr_102 = (_Bool)1;
 
                                                                   else
                                                                   {
-                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$95$$__s1_len;
-                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$95$$__s2_len;
-                                                                    signed int return_value___builtin_strcmp$101;
-                                                                    return_value___builtin_strcmp$101=__builtin_strcmp("-jt", a);
-                                                                    tmp_statement_expression$100 = return_value___builtin_strcmp$101;
-                                                                    tmp_if_expr$102 = !(tmp_statement_expression$100 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                    unsigned long int init_arguments__1__1__1__1__95____s1_len;
+                                                                    unsigned long int init_arguments__1__1__1__1__95____s2_len;
+                                                                    signed int return_value___builtin_strcmp_101;
+                                                                    return_value___builtin_strcmp_101=__builtin_strcmp("-jt", a);
+                                                                    tmp_statement_expression_100 = return_value___builtin_strcmp_101;
+                                                                    tmp_if_expr_102 = !(tmp_statement_expression_100 != 0) ? (_Bool)1 : (_Bool)0;
                                                                   }
-                                                                  if(tmp_if_expr$102)
+                                                                  if(tmp_if_expr_102)
                                                                     use_jack_transport = (_Bool)1;
 
                                                                   else
                                                                   {
-                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$97$$__s1_len;
-                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$97$$__s2_len;
-                                                                    signed int return_value___builtin_strcmp$94;
-                                                                    return_value___builtin_strcmp$94=__builtin_strcmp("--jack-freewheel", a);
-                                                                    tmp_statement_expression$93 = return_value___builtin_strcmp$94;
-                                                                    if(tmp_statement_expression$93 == 0)
-                                                                      tmp_if_expr$97 = (_Bool)1;
+                                                                    unsigned long int init_arguments__1__1__1__1__97____s1_len;
+                                                                    unsigned long int init_arguments__1__1__1__1__97____s2_len;
+                                                                    signed int return_value___builtin_strcmp_94;
+                                                                    return_value___builtin_strcmp_94=__builtin_strcmp("--jack-freewheel", a);
+                                                                    tmp_statement_expression_93 = return_value___builtin_strcmp_94;
+                                                                    if(tmp_statement_expression_93 == 0)
+                                                                      tmp_if_expr_97 = (_Bool)1;
 
                                                                     else
                                                                     {
-                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$98$$__s1_len;
-                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$98$$__s2_len;
-                                                                      signed int return_value___builtin_strcmp$96;
-                                                                      return_value___builtin_strcmp$96=__builtin_strcmp("-jf", a);
-                                                                      tmp_statement_expression$95 = return_value___builtin_strcmp$96;
-                                                                      tmp_if_expr$97 = !(tmp_statement_expression$95 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                      unsigned long int init_arguments__1__1__1__1__98____s1_len;
+                                                                      unsigned long int init_arguments__1__1__1__1__98____s2_len;
+                                                                      signed int return_value___builtin_strcmp_96;
+                                                                      return_value___builtin_strcmp_96=__builtin_strcmp("-jf", a);
+                                                                      tmp_statement_expression_95 = return_value___builtin_strcmp_96;
+                                                                      tmp_if_expr_97 = !(tmp_statement_expression_95 != 0) ? (_Bool)1 : (_Bool)0;
                                                                     }
-                                                                    if(tmp_if_expr$97)
+                                                                    if(tmp_if_expr_97)
                                                                       use_jack_freewheel = (_Bool)1;
 
                                                                     else
                                                                     {
-                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$100$$__s1_len;
-                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$100$$__s2_len;
-                                                                      signed int return_value___builtin_strcmp$89;
-                                                                      return_value___builtin_strcmp$89=__builtin_strcmp("--manual-connections", a);
-                                                                      tmp_statement_expression$88 = return_value___builtin_strcmp$89;
-                                                                      if(tmp_statement_expression$88 == 0)
-                                                                        tmp_if_expr$92 = (_Bool)1;
+                                                                      unsigned long int init_arguments__1__1__1__1__100____s1_len;
+                                                                      unsigned long int init_arguments__1__1__1__1__100____s2_len;
+                                                                      signed int return_value___builtin_strcmp_89;
+                                                                      return_value___builtin_strcmp_89=__builtin_strcmp("--manual-connections", a);
+                                                                      tmp_statement_expression_88 = return_value___builtin_strcmp_89;
+                                                                      if(tmp_statement_expression_88 == 0)
+                                                                        tmp_if_expr_92 = (_Bool)1;
 
                                                                       else
                                                                       {
-                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$101$$__s1_len;
-                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$101$$__s2_len;
-                                                                        signed int return_value___builtin_strcmp$91;
-                                                                        return_value___builtin_strcmp$91=__builtin_strcmp("-mc", a);
-                                                                        tmp_statement_expression$90 = return_value___builtin_strcmp$91;
-                                                                        tmp_if_expr$92 = !(tmp_statement_expression$90 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                        unsigned long int init_arguments__1__1__1__1__101____s1_len;
+                                                                        unsigned long int init_arguments__1__1__1__1__101____s2_len;
+                                                                        signed int return_value___builtin_strcmp_91;
+                                                                        return_value___builtin_strcmp_91=__builtin_strcmp("-mc", a);
+                                                                        tmp_statement_expression_90 = return_value___builtin_strcmp_91;
+                                                                        tmp_if_expr_92 = !(tmp_statement_expression_90 != 0) ? (_Bool)1 : (_Bool)0;
                                                                       }
-                                                                      if(tmp_if_expr$92)
+                                                                      if(tmp_if_expr_92)
                                                                         use_manual_connections = (_Bool)1;
 
                                                                       else
                                                                       {
-                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$103$$__s1_len;
-                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$103$$__s2_len;
-                                                                        signed int return_value___builtin_strcmp$84;
-                                                                        return_value___builtin_strcmp$84=__builtin_strcmp("--filename", a);
-                                                                        tmp_statement_expression$83 = return_value___builtin_strcmp$84;
-                                                                        if(tmp_statement_expression$83 == 0)
-                                                                          tmp_if_expr$87 = (_Bool)1;
+                                                                        unsigned long int init_arguments__1__1__1__1__103____s1_len;
+                                                                        unsigned long int init_arguments__1__1__1__1__103____s2_len;
+                                                                        signed int return_value___builtin_strcmp_84;
+                                                                        return_value___builtin_strcmp_84=__builtin_strcmp("--filename", a);
+                                                                        tmp_statement_expression_83 = return_value___builtin_strcmp_84;
+                                                                        if(tmp_statement_expression_83 == 0)
+                                                                          tmp_if_expr_87 = (_Bool)1;
 
                                                                         else
                                                                         {
-                                                                          unsigned long int init_arguments$$1$$1$$1$$1$$104$$__s1_len;
-                                                                          unsigned long int init_arguments$$1$$1$$1$$1$$104$$__s2_len;
-                                                                          signed int return_value___builtin_strcmp$86;
-                                                                          return_value___builtin_strcmp$86=__builtin_strcmp("-fn", a);
-                                                                          tmp_statement_expression$85 = return_value___builtin_strcmp$86;
-                                                                          tmp_if_expr$87 = !(tmp_statement_expression$85 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                          unsigned long int init_arguments__1__1__1__1__104____s1_len;
+                                                                          unsigned long int init_arguments__1__1__1__1__104____s2_len;
+                                                                          signed int return_value___builtin_strcmp_86;
+                                                                          return_value___builtin_strcmp_86=__builtin_strcmp("-fn", a);
+                                                                          tmp_statement_expression_85 = return_value___builtin_strcmp_86;
+                                                                          tmp_if_expr_87 = !(tmp_statement_expression_85 != 0) ? (_Bool)1 : (_Bool)0;
                                                                         }
-                                                                        if(tmp_if_expr$87)
+                                                                        if(tmp_if_expr_87)
                                                                         {
                                                                           if(lokke == argc + -1)
                                                                           {
                                                                             fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                             exit(-4);
-                                                                            tmp_if_expr$26 = "";
+                                                                            tmp_if_expr_26 = "";
                                                                           }
 
                                                                           else
                                                                           {
                                                                             lokke = lokke + 1;
-                                                                            tmp_if_expr$26 = argv[(signed long int)lokke];
+                                                                            tmp_if_expr_26 = argv[(signed long int)lokke];
                                                                           }
-                                                                          base_filename = tmp_if_expr$26;
+                                                                          base_filename = tmp_if_expr_26;
                                                                         }
 
                                                                         else
                                                                         {
                                                                           unsigned long int __s1_len;
                                                                           unsigned long int __s2_len;
-                                                                          signed int return_value___builtin_strcmp$79;
-                                                                          return_value___builtin_strcmp$79=__builtin_strcmp("--osc", a);
-                                                                          tmp_statement_expression$78 = return_value___builtin_strcmp$79;
-                                                                          if(tmp_statement_expression$78 == 0)
-                                                                            tmp_if_expr$82 = (_Bool)1;
+                                                                          signed int return_value___builtin_strcmp_79;
+                                                                          return_value___builtin_strcmp_79=__builtin_strcmp("--osc", a);
+                                                                          tmp_statement_expression_78 = return_value___builtin_strcmp_79;
+                                                                          if(tmp_statement_expression_78 == 0)
+                                                                            tmp_if_expr_82 = (_Bool)1;
 
                                                                           else
                                                                           {
-                                                                            unsigned long int init_arguments$$1$$1$$1$$1$$107$$__s1_len;
-                                                                            unsigned long int init_arguments$$1$$1$$1$$1$$107$$__s2_len;
-                                                                            signed int return_value___builtin_strcmp$81;
-                                                                            return_value___builtin_strcmp$81=__builtin_strcmp("-O", a);
-                                                                            tmp_statement_expression$80 = return_value___builtin_strcmp$81;
-                                                                            tmp_if_expr$82 = !(tmp_statement_expression$80 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                            unsigned long int init_arguments__1__1__1__1__107____s1_len;
+                                                                            unsigned long int init_arguments__1__1__1__1__107____s2_len;
+                                                                            signed int return_value___builtin_strcmp_81;
+                                                                            return_value___builtin_strcmp_81=__builtin_strcmp("-O", a);
+                                                                            tmp_statement_expression_80 = return_value___builtin_strcmp_81;
+                                                                            tmp_if_expr_82 = !(tmp_statement_expression_80 != 0) ? (_Bool)1 : (_Bool)0;
                                                                           }
-                                                                          if(tmp_if_expr$82)
+                                                                          if(tmp_if_expr_82)
                                                                           {
                                                                             if(lokke == argc + -1)
                                                                             {
                                                                               fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                               exit(-4);
-                                                                              tmp_if_expr$27 = "";
+                                                                              tmp_if_expr_27 = "";
                                                                             }
 
                                                                             else
                                                                             {
                                                                               lokke = lokke + 1;
-                                                                              tmp_if_expr$27 = argv[(signed long int)lokke];
+                                                                              tmp_if_expr_27 = argv[(signed long int)lokke];
                                                                             }
-                                                                            osc_port=atoi(tmp_if_expr$27);
+                                                                            osc_port=atoi(tmp_if_expr_27);
                                                                           }
 
                                                                           else
                                                                           {
-                                                                            unsigned long int init_arguments$$1$$1$$1$$1$$109$$__s1_len;
-                                                                            unsigned long int init_arguments$$1$$1$$1$$1$$109$$__s2_len;
-                                                                            signed int return_value___builtin_strcmp$74;
-                                                                            return_value___builtin_strcmp$74=__builtin_strcmp("--hook-open", a);
-                                                                            tmp_statement_expression$73 = return_value___builtin_strcmp$74;
-                                                                            if(tmp_statement_expression$73 == 0)
-                                                                              tmp_if_expr$77 = (_Bool)1;
+                                                                            unsigned long int init_arguments__1__1__1__1__109____s1_len;
+                                                                            unsigned long int init_arguments__1__1__1__1__109____s2_len;
+                                                                            signed int return_value___builtin_strcmp_74;
+                                                                            return_value___builtin_strcmp_74=__builtin_strcmp("--hook-open", a);
+                                                                            tmp_statement_expression_73 = return_value___builtin_strcmp_74;
+                                                                            if(tmp_statement_expression_73 == 0)
+                                                                              tmp_if_expr_77 = (_Bool)1;
 
                                                                             else
                                                                             {
-                                                                              unsigned long int init_arguments$$1$$1$$1$$1$$110$$__s1_len;
-                                                                              unsigned long int init_arguments$$1$$1$$1$$1$$110$$__s2_len;
-                                                                              signed int return_value___builtin_strcmp$76;
-                                                                              return_value___builtin_strcmp$76=__builtin_strcmp("-Ho", a);
-                                                                              tmp_statement_expression$75 = return_value___builtin_strcmp$76;
-                                                                              tmp_if_expr$77 = !(tmp_statement_expression$75 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                              unsigned long int init_arguments__1__1__1__1__110____s1_len;
+                                                                              unsigned long int init_arguments__1__1__1__1__110____s2_len;
+                                                                              signed int return_value___builtin_strcmp_76;
+                                                                              return_value___builtin_strcmp_76=__builtin_strcmp("-Ho", a);
+                                                                              tmp_statement_expression_75 = return_value___builtin_strcmp_76;
+                                                                              tmp_if_expr_77 = !(tmp_statement_expression_75 != 0) ? (_Bool)1 : (_Bool)0;
                                                                             }
-                                                                            if(tmp_if_expr$77)
+                                                                            if(tmp_if_expr_77)
                                                                             {
                                                                               if(lokke == argc + -1)
                                                                               {
                                                                                 fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                                 exit(-4);
-                                                                                tmp_if_expr$28 = "";
+                                                                                tmp_if_expr_28 = "";
                                                                               }
 
                                                                               else
                                                                               {
                                                                                 lokke = lokke + 1;
-                                                                                tmp_if_expr$28 = argv[(signed long int)lokke];
+                                                                                tmp_if_expr_28 = argv[(signed long int)lokke];
                                                                               }
-                                                                              hook_cmd_opened = tmp_if_expr$28;
+                                                                              hook_cmd_opened = tmp_if_expr_28;
                                                                             }
 
                                                                             else
                                                                             {
-                                                                              unsigned long int init_arguments$$1$$1$$1$$1$$112$$__s1_len;
-                                                                              unsigned long int init_arguments$$1$$1$$1$$1$$112$$__s2_len;
-                                                                              signed int return_value___builtin_strcmp$69;
-                                                                              return_value___builtin_strcmp$69=__builtin_strcmp("--hook-close", a);
-                                                                              tmp_statement_expression$68 = return_value___builtin_strcmp$69;
-                                                                              if(tmp_statement_expression$68 == 0)
-                                                                                tmp_if_expr$72 = (_Bool)1;
+                                                                              unsigned long int init_arguments__1__1__1__1__112____s1_len;
+                                                                              unsigned long int init_arguments__1__1__1__1__112____s2_len;
+                                                                              signed int return_value___builtin_strcmp_69;
+                                                                              return_value___builtin_strcmp_69=__builtin_strcmp("--hook-close", a);
+                                                                              tmp_statement_expression_68 = return_value___builtin_strcmp_69;
+                                                                              if(tmp_statement_expression_68 == 0)
+                                                                                tmp_if_expr_72 = (_Bool)1;
 
                                                                               else
                                                                               {
-                                                                                unsigned long int init_arguments$$1$$1$$1$$1$$113$$__s1_len;
-                                                                                unsigned long int init_arguments$$1$$1$$1$$1$$113$$__s2_len;
-                                                                                signed int return_value___builtin_strcmp$71;
-                                                                                return_value___builtin_strcmp$71=__builtin_strcmp("-Hc", a);
-                                                                                tmp_statement_expression$70 = return_value___builtin_strcmp$71;
-                                                                                tmp_if_expr$72 = !(tmp_statement_expression$70 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                unsigned long int init_arguments__1__1__1__1__113____s1_len;
+                                                                                unsigned long int init_arguments__1__1__1__1__113____s2_len;
+                                                                                signed int return_value___builtin_strcmp_71;
+                                                                                return_value___builtin_strcmp_71=__builtin_strcmp("-Hc", a);
+                                                                                tmp_statement_expression_70 = return_value___builtin_strcmp_71;
+                                                                                tmp_if_expr_72 = !(tmp_statement_expression_70 != 0) ? (_Bool)1 : (_Bool)0;
                                                                               }
-                                                                              if(tmp_if_expr$72)
+                                                                              if(tmp_if_expr_72)
                                                                               {
                                                                                 if(lokke == argc + -1)
                                                                                 {
                                                                                   fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                                   exit(-4);
-                                                                                  tmp_if_expr$29 = "";
+                                                                                  tmp_if_expr_29 = "";
                                                                                 }
 
                                                                                 else
                                                                                 {
                                                                                   lokke = lokke + 1;
-                                                                                  tmp_if_expr$29 = argv[(signed long int)lokke];
+                                                                                  tmp_if_expr_29 = argv[(signed long int)lokke];
                                                                                 }
-                                                                                hook_cmd_closed = tmp_if_expr$29;
+                                                                                hook_cmd_closed = tmp_if_expr_29;
                                                                               }
 
                                                                               else
                                                                               {
-                                                                                unsigned long int init_arguments$$1$$1$$1$$1$$115$$__s1_len;
-                                                                                unsigned long int init_arguments$$1$$1$$1$$1$$115$$__s2_len;
-                                                                                signed int return_value___builtin_strcmp$64;
-                                                                                return_value___builtin_strcmp$64=__builtin_strcmp("--hook-rotate", a);
-                                                                                tmp_statement_expression$63 = return_value___builtin_strcmp$64;
-                                                                                if(tmp_statement_expression$63 == 0)
-                                                                                  tmp_if_expr$67 = (_Bool)1;
+                                                                                unsigned long int init_arguments__1__1__1__1__115____s1_len;
+                                                                                unsigned long int init_arguments__1__1__1__1__115____s2_len;
+                                                                                signed int return_value___builtin_strcmp_64;
+                                                                                return_value___builtin_strcmp_64=__builtin_strcmp("--hook-rotate", a);
+                                                                                tmp_statement_expression_63 = return_value___builtin_strcmp_64;
+                                                                                if(tmp_statement_expression_63 == 0)
+                                                                                  tmp_if_expr_67 = (_Bool)1;
 
                                                                                 else
                                                                                 {
-                                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$116$$__s1_len;
-                                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$116$$__s2_len;
-                                                                                  signed int return_value___builtin_strcmp$66;
-                                                                                  return_value___builtin_strcmp$66=__builtin_strcmp("-Hr", a);
-                                                                                  tmp_statement_expression$65 = return_value___builtin_strcmp$66;
-                                                                                  tmp_if_expr$67 = !(tmp_statement_expression$65 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                  unsigned long int init_arguments__1__1__1__1__116____s1_len;
+                                                                                  unsigned long int init_arguments__1__1__1__1__116____s2_len;
+                                                                                  signed int return_value___builtin_strcmp_66;
+                                                                                  return_value___builtin_strcmp_66=__builtin_strcmp("-Hr", a);
+                                                                                  tmp_statement_expression_65 = return_value___builtin_strcmp_66;
+                                                                                  tmp_if_expr_67 = !(tmp_statement_expression_65 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                 }
-                                                                                if(tmp_if_expr$67)
+                                                                                if(tmp_if_expr_67)
                                                                                 {
                                                                                   if(lokke == argc + -1)
                                                                                   {
                                                                                     fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                                     exit(-4);
-                                                                                    tmp_if_expr$30 = "";
+                                                                                    tmp_if_expr_30 = "";
                                                                                   }
 
                                                                                   else
                                                                                   {
                                                                                     lokke = lokke + 1;
-                                                                                    tmp_if_expr$30 = argv[(signed long int)lokke];
+                                                                                    tmp_if_expr_30 = argv[(signed long int)lokke];
                                                                                   }
-                                                                                  hook_cmd_rotate = tmp_if_expr$30;
+                                                                                  hook_cmd_rotate = tmp_if_expr_30;
                                                                                 }
 
                                                                                 else
                                                                                 {
-                                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$118$$__s1_len;
-                                                                                  unsigned long int init_arguments$$1$$1$$1$$1$$118$$__s2_len;
-                                                                                  signed int return_value___builtin_strcmp$59;
-                                                                                  return_value___builtin_strcmp$59=__builtin_strcmp("--hook-timing", a);
-                                                                                  tmp_statement_expression$58 = return_value___builtin_strcmp$59;
-                                                                                  if(tmp_statement_expression$58 == 0)
-                                                                                    tmp_if_expr$62 = (_Bool)1;
+                                                                                  unsigned long int init_arguments__1__1__1__1__118____s1_len;
+                                                                                  unsigned long int init_arguments__1__1__1__1__118____s2_len;
+                                                                                  signed int return_value___builtin_strcmp_59;
+                                                                                  return_value___builtin_strcmp_59=__builtin_strcmp("--hook-timing", a);
+                                                                                  tmp_statement_expression_58 = return_value___builtin_strcmp_59;
+                                                                                  if(tmp_statement_expression_58 == 0)
+                                                                                    tmp_if_expr_62 = (_Bool)1;
 
                                                                                   else
                                                                                   {
-                                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$119$$__s1_len;
-                                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$119$$__s2_len;
-                                                                                    signed int return_value___builtin_strcmp$61;
-                                                                                    return_value___builtin_strcmp$61=__builtin_strcmp("-Ht", a);
-                                                                                    tmp_statement_expression$60 = return_value___builtin_strcmp$61;
-                                                                                    tmp_if_expr$62 = !(tmp_statement_expression$60 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                    unsigned long int init_arguments__1__1__1__1__119____s1_len;
+                                                                                    unsigned long int init_arguments__1__1__1__1__119____s2_len;
+                                                                                    signed int return_value___builtin_strcmp_61;
+                                                                                    return_value___builtin_strcmp_61=__builtin_strcmp("-Ht", a);
+                                                                                    tmp_statement_expression_60 = return_value___builtin_strcmp_61;
+                                                                                    tmp_if_expr_62 = !(tmp_statement_expression_60 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                   }
-                                                                                  if(tmp_if_expr$62)
+                                                                                  if(tmp_if_expr_62)
                                                                                   {
                                                                                     if(lokke == argc + -1)
                                                                                     {
                                                                                       fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                                       exit(-4);
-                                                                                      tmp_if_expr$31 = "";
+                                                                                      tmp_if_expr_31 = "";
                                                                                     }
 
                                                                                     else
                                                                                     {
                                                                                       lokke = lokke + 1;
-                                                                                      tmp_if_expr$31 = argv[(signed long int)lokke];
+                                                                                      tmp_if_expr_31 = argv[(signed long int)lokke];
                                                                                     }
-                                                                                    hook_cmd_timing = tmp_if_expr$31;
+                                                                                    hook_cmd_timing = tmp_if_expr_31;
                                                                                   }
 
                                                                                   else
                                                                                   {
-                                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$121$$__s1_len;
-                                                                                    unsigned long int init_arguments$$1$$1$$1$$1$$121$$__s2_len;
-                                                                                    signed int return_value___builtin_strcmp$54;
-                                                                                    return_value___builtin_strcmp$54=__builtin_strcmp("--timestamp", a);
-                                                                                    tmp_statement_expression$53 = return_value___builtin_strcmp$54;
-                                                                                    if(tmp_statement_expression$53 == 0)
-                                                                                      tmp_if_expr$57 = (_Bool)1;
+                                                                                    unsigned long int init_arguments__1__1__1__1__121____s1_len;
+                                                                                    unsigned long int init_arguments__1__1__1__1__121____s2_len;
+                                                                                    signed int return_value___builtin_strcmp_54;
+                                                                                    return_value___builtin_strcmp_54=__builtin_strcmp("--timestamp", a);
+                                                                                    tmp_statement_expression_53 = return_value___builtin_strcmp_54;
+                                                                                    if(tmp_statement_expression_53 == 0)
+                                                                                      tmp_if_expr_57 = (_Bool)1;
 
                                                                                     else
                                                                                     {
-                                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$122$$__s1_len;
-                                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$122$$__s2_len;
-                                                                                      signed int return_value___builtin_strcmp$56;
-                                                                                      return_value___builtin_strcmp$56=__builtin_strcmp("-S", a);
-                                                                                      tmp_statement_expression$55 = return_value___builtin_strcmp$56;
-                                                                                      tmp_if_expr$57 = !(tmp_statement_expression$55 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                      unsigned long int init_arguments__1__1__1__1__122____s1_len;
+                                                                                      unsigned long int init_arguments__1__1__1__1__122____s2_len;
+                                                                                      signed int return_value___builtin_strcmp_56;
+                                                                                      return_value___builtin_strcmp_56=__builtin_strcmp("-S", a);
+                                                                                      tmp_statement_expression_55 = return_value___builtin_strcmp_56;
+                                                                                      tmp_if_expr_57 = !(tmp_statement_expression_55 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                     }
-                                                                                    if(tmp_if_expr$57)
+                                                                                    if(tmp_if_expr_57)
                                                                                       create_tme_file = (_Bool)1;
 
                                                                                     else
                                                                                     {
-                                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$124$$__s1_len;
-                                                                                      unsigned long int init_arguments$$1$$1$$1$$1$$124$$__s2_len;
-                                                                                      signed int return_value___builtin_strcmp$49;
-                                                                                      return_value___builtin_strcmp$49=__builtin_strcmp("--rotatefile", a);
-                                                                                      tmp_statement_expression$48 = return_value___builtin_strcmp$49;
-                                                                                      if(tmp_statement_expression$48 == 0)
-                                                                                        tmp_if_expr$52 = (_Bool)1;
+                                                                                      unsigned long int init_arguments__1__1__1__1__124____s1_len;
+                                                                                      unsigned long int init_arguments__1__1__1__1__124____s2_len;
+                                                                                      signed int return_value___builtin_strcmp_49;
+                                                                                      return_value___builtin_strcmp_49=__builtin_strcmp("--rotatefile", a);
+                                                                                      tmp_statement_expression_48 = return_value___builtin_strcmp_49;
+                                                                                      if(tmp_statement_expression_48 == 0)
+                                                                                        tmp_if_expr_52 = (_Bool)1;
 
                                                                                       else
                                                                                       {
-                                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$125$$__s1_len;
-                                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$125$$__s2_len;
-                                                                                        signed int return_value___builtin_strcmp$51;
-                                                                                        return_value___builtin_strcmp$51=__builtin_strcmp("-Rf", a);
-                                                                                        tmp_statement_expression$50 = return_value___builtin_strcmp$51;
-                                                                                        tmp_if_expr$52 = !(tmp_statement_expression$50 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                        unsigned long int init_arguments__1__1__1__1__125____s1_len;
+                                                                                        unsigned long int init_arguments__1__1__1__1__125____s2_len;
+                                                                                        signed int return_value___builtin_strcmp_51;
+                                                                                        return_value___builtin_strcmp_51=__builtin_strcmp("-Rf", a);
+                                                                                        tmp_statement_expression_50 = return_value___builtin_strcmp_51;
+                                                                                        tmp_if_expr_52 = !(tmp_statement_expression_50 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                       }
-                                                                                      if(tmp_if_expr$52)
+                                                                                      if(tmp_if_expr_52)
                                                                                       {
                                                                                         if(lokke == argc + -1)
                                                                                         {
                                                                                           fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                                           exit(-4);
-                                                                                          tmp_if_expr$33 = (signed long int)0;
+                                                                                          tmp_if_expr_33 = (signed long int)0;
                                                                                         }
 
                                                                                         else
                                                                                         {
                                                                                           lokke = lokke + 1;
-                                                                                          return_value_atoll$32=atoll(argv[(signed long int)lokke]);
-                                                                                          tmp_if_expr$33 = return_value_atoll$32;
+                                                                                          return_value_atoll_32=atoll(argv[(signed long int)lokke]);
+                                                                                          tmp_if_expr_33 = return_value_atoll_32;
                                                                                         }
-                                                                                        rotateframe = tmp_if_expr$33;
+                                                                                        rotateframe = tmp_if_expr_33;
                                                                                       }
 
                                                                                       else
                                                                                       {
-                                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$127$$__s1_len;
-                                                                                        unsigned long int init_arguments$$1$$1$$1$$1$$127$$__s2_len;
-                                                                                        signed int return_value___builtin_strcmp$44;
-                                                                                        return_value___builtin_strcmp$44=__builtin_strcmp("--timemachine", a);
-                                                                                        tmp_statement_expression$43 = return_value___builtin_strcmp$44;
-                                                                                        if(tmp_statement_expression$43 == 0)
-                                                                                          tmp_if_expr$47 = (_Bool)1;
+                                                                                        unsigned long int init_arguments__1__1__1__1__127____s1_len;
+                                                                                        unsigned long int init_arguments__1__1__1__1__127____s2_len;
+                                                                                        signed int return_value___builtin_strcmp_44;
+                                                                                        return_value___builtin_strcmp_44=__builtin_strcmp("--timemachine", a);
+                                                                                        tmp_statement_expression_43 = return_value___builtin_strcmp_44;
+                                                                                        if(tmp_statement_expression_43 == 0)
+                                                                                          tmp_if_expr_47 = (_Bool)1;
 
                                                                                         else
                                                                                         {
-                                                                                          unsigned long int init_arguments$$1$$1$$1$$1$$128$$__s1_len;
-                                                                                          unsigned long int init_arguments$$1$$1$$1$$1$$128$$__s2_len;
-                                                                                          signed int return_value___builtin_strcmp$46;
-                                                                                          return_value___builtin_strcmp$46=__builtin_strcmp("-tm", a);
-                                                                                          tmp_statement_expression$45 = return_value___builtin_strcmp$46;
-                                                                                          tmp_if_expr$47 = !(tmp_statement_expression$45 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                          unsigned long int init_arguments__1__1__1__1__128____s1_len;
+                                                                                          unsigned long int init_arguments__1__1__1__1__128____s2_len;
+                                                                                          signed int return_value___builtin_strcmp_46;
+                                                                                          return_value___builtin_strcmp_46=__builtin_strcmp("-tm", a);
+                                                                                          tmp_statement_expression_45 = return_value___builtin_strcmp_46;
+                                                                                          tmp_if_expr_47 = !(tmp_statement_expression_45 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                         }
-                                                                                        if(tmp_if_expr$47)
+                                                                                        if(tmp_if_expr_47)
                                                                                           timemachine_mode = (_Bool)1;
 
                                                                                         else
                                                                                         {
-                                                                                          unsigned long int init_arguments$$1$$1$$1$$1$$130$$__s1_len;
-                                                                                          unsigned long int init_arguments$$1$$1$$1$$1$$130$$__s2_len;
-                                                                                          signed int return_value___builtin_strcmp$39;
-                                                                                          return_value___builtin_strcmp$39=__builtin_strcmp("--timemachine-prebuffer", a);
-                                                                                          tmp_statement_expression$38 = return_value___builtin_strcmp$39;
-                                                                                          if(tmp_statement_expression$38 == 0)
-                                                                                            tmp_if_expr$42 = (_Bool)1;
+                                                                                          unsigned long int init_arguments__1__1__1__1__130____s1_len;
+                                                                                          unsigned long int init_arguments__1__1__1__1__130____s2_len;
+                                                                                          signed int return_value___builtin_strcmp_39;
+                                                                                          return_value___builtin_strcmp_39=__builtin_strcmp("--timemachine-prebuffer", a);
+                                                                                          tmp_statement_expression_38 = return_value___builtin_strcmp_39;
+                                                                                          if(tmp_statement_expression_38 == 0)
+                                                                                            tmp_if_expr_42 = (_Bool)1;
 
                                                                                           else
                                                                                           {
-                                                                                            unsigned long int init_arguments$$1$$1$$1$$1$$131$$__s1_len;
-                                                                                            unsigned long int init_arguments$$1$$1$$1$$1$$131$$__s2_len;
-                                                                                            signed int return_value___builtin_strcmp$41;
-                                                                                            return_value___builtin_strcmp$41=__builtin_strcmp("-tmpb", a);
-                                                                                            tmp_statement_expression$40 = return_value___builtin_strcmp$41;
-                                                                                            tmp_if_expr$42 = !(tmp_statement_expression$40 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                            unsigned long int init_arguments__1__1__1__1__131____s1_len;
+                                                                                            unsigned long int init_arguments__1__1__1__1__131____s2_len;
+                                                                                            signed int return_value___builtin_strcmp_41;
+                                                                                            return_value___builtin_strcmp_41=__builtin_strcmp("-tmpb", a);
+                                                                                            tmp_statement_expression_40 = return_value___builtin_strcmp_41;
+                                                                                            tmp_if_expr_42 = !(tmp_statement_expression_40 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                           }
-                                                                                          if(tmp_if_expr$42)
+                                                                                          if(tmp_if_expr_42)
                                                                                           {
                                                                                             if(lokke == argc + -1)
                                                                                             {
                                                                                               fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                                               exit(-4);
-                                                                                              tmp_if_expr$35 = (double)0.0f;
+                                                                                              tmp_if_expr_35 = (double)0.0f;
                                                                                             }
 
                                                                                             else
                                                                                             {
                                                                                               lokke = lokke + 1;
-                                                                                              return_value_atof$34=atof(argv[(signed long int)lokke]);
-                                                                                              tmp_if_expr$35 = return_value_atof$34;
+                                                                                              return_value_atof_34=atof(argv[(signed long int)lokke]);
+                                                                                              tmp_if_expr_35 = return_value_atof_34;
                                                                                             }
-                                                                                            timemachine_prebuffer = (float)tmp_if_expr$35;
+                                                                                            timemachine_prebuffer = (float)tmp_if_expr_35;
                                                                                           }
 
                                                                                           else
                                                                                           {
                                                                                             if(lokke == argc + -1)
-                                                                                              tmp_if_expr$37 = (signed int)argv[(signed long int)lokke][(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
+                                                                                              tmp_if_expr_37 = (signed int)argv[(signed long int)lokke][(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
 
                                                                                             else
-                                                                                              tmp_if_expr$37 = (_Bool)0;
-                                                                                            if(tmp_if_expr$37)
+                                                                                              tmp_if_expr_37 = (_Bool)0;
+                                                                                            if(tmp_if_expr_37)
                                                                                             {
                                                                                               lokke = lokke - 1;
                                                                                               if(lokke == argc + -1)
                                                                                               {
                                                                                                 fprintf(stderr, "Must supply argument for '%s'\n", argv[(signed long int)lokke]);
                                                                                                 exit(-4);
-                                                                                                tmp_if_expr$36 = "";
+                                                                                                tmp_if_expr_36 = "";
                                                                                               }
 
                                                                                               else
                                                                                               {
                                                                                                 lokke = lokke + 1;
-                                                                                                tmp_if_expr$36 = argv[(signed long int)lokke];
+                                                                                                tmp_if_expr_36 = argv[(signed long int)lokke];
                                                                                               }
-                                                                                              base_filename = tmp_if_expr$36;
+                                                                                              base_filename = tmp_if_expr_36;
                                                                                             }
 
                                                                                             else
@@ -4477,16 +4477,16 @@ void init_arguments(signed int argc, char **argv)
   if(base_filename == ((char *)NULL))
   {
     signed int try = 0;
-    void *return_value_my_calloc$258;
-    return_value_my_calloc$258=my_calloc((unsigned long int)1, (unsigned long int)5000);
-    base_filename = (char *)return_value_my_calloc$258;
+    void *return_value_my_calloc_258;
+    return_value_my_calloc_258=my_calloc((unsigned long int)1, (unsigned long int)5000);
+    base_filename = (char *)return_value_my_calloc_258;
     do
     {
       try = try + 1;
       sprintf(base_filename, "%s%0*d.%s", filename_prefix, leading_zeros + 1, try, soundfile_format);
-      signed int return_value_access$259;
-      return_value_access$259=access(base_filename, 0);
-      if(!(return_value_access$259 == 0))
+      signed int return_value_access_259;
+      return_value_access_259=access(base_filename, 0);
+      if(!(return_value_access_259 == 0))
         break;
 
     }
@@ -4514,9 +4514,9 @@ static signed int init_meterbridge_ports()
     else
     {
       struct _jack_port **ports_meterbridge2;
-      void *return_value_my_calloc$1;
-      return_value_my_calloc$1=my_calloc(sizeof(struct _jack_port *) /*8ul*/ , (unsigned long int)num_channels);
-      ports_meterbridge2 = (struct _jack_port **)return_value_my_calloc$1;
+      void *return_value_my_calloc_1;
+      return_value_my_calloc_1=my_calloc(sizeof(struct _jack_port *) /*8ul*/ , (unsigned long int)num_channels);
+      ports_meterbridge2 = (struct _jack_port **)return_value_my_calloc_1;
       ports_meterbridge2[(signed long int)0] = port1;
       signed int ch = 1;
       for( ; !(ch >= num_channels); ch = ch + 1)
@@ -4610,9 +4610,9 @@ void init_various(void)
   verbose_print("main() init buffers\n");
   buffers_init();
   verbose_print("main() Open soundfile and setup disk callback.\n");
-  signed int return_value_open_soundfile$1;
-  return_value_open_soundfile$1=open_soundfile();
-  if(return_value_open_soundfile$1 == 0)
+  signed int return_value_open_soundfile_1;
+  return_value_open_soundfile_1=open_soundfile();
+  if(return_value_open_soundfile_1 == 0)
   {
     jack_client_close(client);
     exit(-2);
@@ -4635,9 +4635,9 @@ void init_various(void)
     jack_set_graph_order_callback(client, graphordercallback, (void *)0);
 
   jack_set_freewheel_callback(client, freewheelcallback, (void *)0);
-  signed int return_value_jack_activate$2;
-  return_value_jack_activate$2=jack_activate(client);
-  if(!(return_value_jack_activate$2 == 0))
+  signed int return_value_jack_activate_2;
+  return_value_jack_activate_2=jack_activate(client);
+  if(!(return_value_jack_activate_2 == 0))
   {
     fprintf(stderr, "\nCan not activate client");
     exit(-2);
@@ -4764,9 +4764,9 @@ signed int main(signed int argc, char **argv)
   c_argv=read_config(&c_argc, 500);
   append_argv(c_argv, argv, c_argc, argc, 500);
   init_arguments(c_argc + argc, c_argv);
-  signed int return_value_init_osc$1;
-  return_value_init_osc$1=init_osc(osc_port);
-  if(!(return_value_init_osc$1 == 0))
+  signed int return_value_init_osc_1;
+  return_value_init_osc_1=init_osc(osc_port);
+  if(!(return_value_init_osc_1 == 0))
     osc_port = -1;
 
   init_various();
@@ -4869,15 +4869,15 @@ static void * my_malloc(unsigned long int size1, unsigned long int size2)
 static struct _jack_client * new_jack_client(char *name)
 {
   enum JackStatus status;
-  struct _jack_client *new_jack_client$$1$$client;
-  new_jack_client$$1$$client=jack_client_open(name, (enum JackOptions)JackNoStartServer, &status, (void *)0);
-  if(new_jack_client$$1$$client == ((struct _jack_client *)NULL))
+  struct _jack_client *new_jack_client__1__client;
+  new_jack_client__1__client=jack_client_open(name, (enum JackOptions)JackNoStartServer, &status, (void *)0);
+  if(new_jack_client__1__client == ((struct _jack_client *)NULL))
   {
     print_message("jack_client_open() failed, status = 0x%2.0x\n", status);
     exit(1);
   }
 
-  return new_jack_client$$1$$client;
+  return new_jack_client__1__client;
 }
 
 // open_mp3file
@@ -4889,9 +4889,9 @@ static signed int open_mp3file(void)
   if(!(mp3bufsize >= 4))
     mp3bufsize = 4096 * 4;
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)mp3bufsize);
-  mp3buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)mp3bufsize);
+  mp3buf = (unsigned char *)return_value_malloc_1;
   lame=lame_init();
   if(lame == ((struct lame_global_struct *)NULL))
   {
@@ -4908,9 +4908,9 @@ static signed int open_mp3file(void)
     if(!(das_lame_bitrate == -1))
     {
       lame_set_brate(lame, das_lame_bitrate);
-      signed int return_value_lame_get_brate$2;
-      return_value_lame_get_brate$2=lame_get_brate(lame);
-      lame_set_VBR_min_bitrate_kbps(lame, return_value_lame_get_brate$2);
+      signed int return_value_lame_get_brate_2;
+      return_value_lame_get_brate_2=lame_get_brate(lame);
+      lame_set_VBR_min_bitrate_kbps(lame, return_value_lame_get_brate_2);
     }
 
     signed int ret;
@@ -4923,9 +4923,9 @@ static signed int open_mp3file(void)
 
     else
     {
-      signed int return_value_lame_get_num_channels$3;
-      return_value_lame_get_num_channels$3=lame_get_num_channels(lame);
-      if(!(return_value_lame_get_num_channels$3 == num_channels))
+      signed int return_value_lame_get_num_channels_3;
+      return_value_lame_get_num_channels_3=lame_get_num_channels(lame);
+      if(!(return_value_lame_get_num_channels_3 == num_channels))
       {
         print_message("Error. lame does not support %d channel mp3 files.\n", num_channels);
         return 0;
@@ -4936,11 +4936,11 @@ static signed int open_mp3file(void)
         mp3file=fopen(filename, "w");
         if(mp3file == ((struct _IO_FILE *)NULL))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          print_message("Can not open file \"%s\" for output (%s)\n", filename, return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          print_message("Can not open file \"%s\" for output (%s)\n", filename, return_value_strerror_5);
           return 0;
         }
 
@@ -4958,12 +4958,12 @@ static signed int open_soundfile(void)
   signed int subformat;
   struct SF_INFO sf_info;
   memset((void *)&sf_info, 0, sizeof(struct SF_INFO) /*32ul*/ );
-  signed int return_value_open_mp3file$4;
-  signed int return_value_strcasecmp$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_fileno$10;
+  signed int return_value_open_mp3file_4;
+  signed int return_value_strcasecmp_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_fileno_10;
   if((signed int)write_to_stdout == 1)
   {
     hook_file_opened("file:///stdout");
@@ -4976,26 +4976,26 @@ static signed int open_soundfile(void)
     {
       if(rotateframe >= 1l)
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(base_filename);
-        void *return_value_my_calloc$2;
-        return_value_my_calloc$2=my_calloc((unsigned long int)1, return_value_strlen$1 + (unsigned long int)500);
-        filename = (char *)return_value_my_calloc$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(base_filename);
+        void *return_value_my_calloc_2;
+        return_value_my_calloc_2=my_calloc((unsigned long int)1, return_value_strlen_1 + (unsigned long int)500);
+        filename = (char *)return_value_my_calloc_2;
         sprintf(filename, "%s.%0*d.wav", base_filename, leading_zeros + 1, 0);
       }
 
       else
       {
-        char *return_value___strdup$3;
-        return_value___strdup$3=__strdup(base_filename);
-        filename = return_value___strdup$3;
+        char *return_value___strdup_3;
+        return_value___strdup_3=__strdup(base_filename);
+        filename = return_value___strdup_3;
       }
     }
 
     if((signed int)write_to_mp3 == 1)
     {
-      return_value_open_mp3file$4=open_mp3file();
-      return return_value_open_mp3file$4;
+      return_value_open_mp3file_4=open_mp3file();
+      return return_value_open_mp3file_4;
     }
 
     else
@@ -5044,16 +5044,16 @@ static signed int open_soundfile(void)
         }
         default:
         {
-          return_value_strcasecmp$6=strcasecmp("flac", soundfile_format);
-          if(return_value_strcasecmp$6 == 0)
-            tmp_if_expr$8 = (_Bool)1;
+          return_value_strcasecmp_6=strcasecmp("flac", soundfile_format);
+          if(return_value_strcasecmp_6 == 0)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
           {
-            return_value_strcasecmp$7=strcasecmp("sds", soundfile_format);
-            tmp_if_expr$8 = !(return_value_strcasecmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_7=strcasecmp("sds", soundfile_format);
+            tmp_if_expr_8 = !(return_value_strcasecmp_7 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$8)
+          if(tmp_if_expr_8)
           {
             bitdepth = 24;
             subformat = 3;
@@ -5061,8 +5061,8 @@ static signed int open_soundfile(void)
 
           else
           {
-            return_value_strcasecmp$5=strcasecmp("ogg", soundfile_format);
-            if(return_value_strcasecmp$5 == 0)
+            return_value_strcasecmp_5=strcasecmp("ogg", soundfile_format);
+            if(return_value_strcasecmp_5 == 0)
               subformat = 96;
 
             else
@@ -5075,9 +5075,9 @@ static signed int open_soundfile(void)
       }
       bytes_per_frame = bitdepth / 8;
       sf_info.format = sf_info.format | subformat;
-      signed int return_value_sf_format_check$9;
-      return_value_sf_format_check$9=sf_format_check(&sf_info);
-      if(return_value_sf_format_check$9 == 0)
+      signed int return_value_sf_format_check_9;
+      return_value_sf_format_check_9=sf_format_check(&sf_info);
+      if(return_value_sf_format_check_9 == 0)
       {
         fprintf(stderr, "\nFileformat not supported by libsndfile. Try other options.\n");
         return 0;
@@ -5087,17 +5087,17 @@ static signed int open_soundfile(void)
       {
         if((signed int)write_to_stdout == 1)
         {
-          return_value_fileno$10=fileno(stdout);
-          soundfile=sf_open_fd(return_value_fileno$10, 32, &sf_info, 0);
+          return_value_fileno_10=fileno(stdout);
+          soundfile=sf_open_fd(return_value_fileno_10, 32, &sf_info, 0);
         }
 
         else
           soundfile=sf_open(filename, 32, &sf_info);
         if(soundfile == ((struct SNDFILE_tag *)NULL))
         {
-          const char *return_value_sf_strerror$11;
-          return_value_sf_strerror$11=sf_strerror((struct SNDFILE_tag *)(void *)0);
-          fprintf(stderr, "\nCan not open sndfile \"%s\" for output (%s)\n", filename, return_value_sf_strerror$11);
+          const char *return_value_sf_strerror_11;
+          return_value_sf_strerror_11=sf_strerror((struct SNDFILE_tag *)(void *)0);
+          fprintf(stderr, "\nCan not open sndfile \"%s\" for output (%s)\n", filename, return_value_sf_strerror_11);
           return 0;
         }
 
@@ -5139,7 +5139,7 @@ static void oscb_error(signed int num, const char *m, const char *path)
 
 // oscb_frotate
 // file osc.c line 64
-signed int oscb_frotate(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data)
+signed int oscb_frotate(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data)
 {
   if((signed int)verbose == 1)
     fprintf(stderr, "OSC: %s\n", path);
@@ -5150,7 +5150,7 @@ signed int oscb_frotate(const char *path, const char *types, union anonymous$4 *
 
 // oscb_stop
 // file osc.c line 58
-signed int oscb_stop(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data)
+signed int oscb_stop(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data)
 {
   if((signed int)verbose == 1)
     fprintf(stderr, "OSC: %s\n", path);
@@ -5161,7 +5161,7 @@ signed int oscb_stop(const char *path, const char *types, union anonymous$4 **ar
 
 // oscb_tm_start
 // file osc.c line 46
-signed int oscb_tm_start(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data)
+signed int oscb_tm_start(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data)
 {
   if((signed int)verbose == 1)
     fprintf(stderr, "OSC: %s <- s:%s\n", path, &argv[(signed long int)0]->s);
@@ -5172,7 +5172,7 @@ signed int oscb_tm_start(const char *path, const char *types, union anonymous$4 
 
 // oscb_tm_stop
 // file osc.c line 52
-signed int oscb_tm_stop(const char *path, const char *types, union anonymous$4 **argv, signed int argc, void *msg, void *user_data)
+signed int oscb_tm_stop(const char *path, const char *types, union anonymous_4 **argv, signed int argc, void *msg, void *user_data)
 {
   if((signed int)verbose == 1)
     fprintf(stderr, "OSC: %s <- s:%s\n", path, &argv[(signed long int)0]->s);
@@ -5187,17 +5187,17 @@ static void portnames_add(char *name)
 {
   const char **new_outportnames;
   signed int add_ch;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(name);
-  if((signed int)name[-1l + (signed long int)return_value_strlen$4] == 42)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(name);
+  if((signed int)name[-1l + (signed long int)return_value_strlen_4] == 42)
   {
     char *pattern;
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(name);
-    pattern = return_value___strdup$1;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(name);
-    pattern[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] = (char)0;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(name);
+    pattern = return_value___strdup_1;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(name);
+    pattern[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] = (char)0;
     new_outportnames=jack_get_ports(client, pattern, "", (unsigned long int)0);
     add_ch=findnumports(new_outportnames);
     free((void *)pattern);
@@ -5205,18 +5205,18 @@ static void portnames_add(char *name)
 
   else
   {
-    void *return_value_my_calloc$3;
-    return_value_my_calloc$3=my_calloc((unsigned long int)1, sizeof(char *) /*8ul*/ );
-    new_outportnames = (const char **)return_value_my_calloc$3;
+    void *return_value_my_calloc_3;
+    return_value_my_calloc_3=my_calloc((unsigned long int)1, sizeof(char *) /*8ul*/ );
+    new_outportnames = (const char **)return_value_my_calloc_3;
     new_outportnames[(signed long int)0] = name;
     add_ch = 1;
   }
   if(add_ch >= 1)
   {
     signed int ch;
-    void *return_value_realloc$5;
-    return_value_realloc$5=realloc((void *)cportnames, (unsigned long int)(num_cportnames + add_ch) * sizeof(char *) /*8ul*/ );
-    cportnames = (const char **)return_value_realloc$5;
+    void *return_value_realloc_5;
+    return_value_realloc_5=realloc((void *)cportnames, (unsigned long int)(num_cportnames + add_ch) * sizeof(char *) /*8ul*/ );
+    cportnames = (const char **)return_value_realloc_5;
     ch = 0;
     for( ; !(ch >= add_ch); ch = ch + 1)
     {
@@ -5242,8 +5242,8 @@ static void portnames_add(char *name)
 // file jack_capture.c line 397
 static void portnames_add_defaults(void)
 {
-  signed int tmp_if_expr$4;
-  signed int return_value_findnumports$3;
+  signed int tmp_if_expr_4;
+  signed int return_value_findnumports_3;
   if(cportnames == ((const char **)NULL))
   {
     const char **portnames;
@@ -5256,29 +5256,29 @@ static void portnames_add_defaults(void)
       exit(0);
     }
 
-    void *return_value_my_calloc$1;
-    return_value_my_calloc$1=my_calloc(sizeof(char *) /*8ul*/ , (unsigned long int)(num_ports + 1));
-    cportnames = (const char **)return_value_my_calloc$1;
+    void *return_value_my_calloc_1;
+    return_value_my_calloc_1=my_calloc(sizeof(char *) /*8ul*/ , (unsigned long int)(num_ports + 1));
+    cportnames = (const char **)return_value_my_calloc_1;
     signed int i = 0;
     for( ; !(i >= num_ports); i = i + 1)
       cportnames[(signed long int)i] = portnames[(signed long int)i];
     jack_free((void *)portnames);
-    signed int return_value_findnumports$2;
-    return_value_findnumports$2=findnumports(cportnames);
-    if(!(return_value_findnumports$2 >= 2))
-      tmp_if_expr$4 = 2;
+    signed int return_value_findnumports_2;
+    return_value_findnumports_2=findnumports(cportnames);
+    if(!(return_value_findnumports_2 >= 2))
+      tmp_if_expr_4 = 2;
 
     else
     {
-      return_value_findnumports$3=findnumports(cportnames);
-      tmp_if_expr$4 = return_value_findnumports$3;
+      return_value_findnumports_3=findnumports(cportnames);
+      tmp_if_expr_4 = return_value_findnumports_3;
     }
-    num_cportnames = tmp_if_expr$4;
+    num_cportnames = tmp_if_expr_4;
     if(num_channels == -1)
     {
-      signed int return_value_strcasecmp$5;
-      return_value_strcasecmp$5=strcasecmp("sds", soundfile_format);
-      if(return_value_strcasecmp$5 == 0)
+      signed int return_value_strcasecmp_5;
+      return_value_strcasecmp_5=strcasecmp("sds", soundfile_format);
+      if(return_value_strcasecmp_5 == 0)
         num_channels = 1;
 
       else
@@ -5297,18 +5297,18 @@ static void portnames_add_defaults(void)
     exit(0);
   }
 
-  void *return_value_my_calloc$6;
-  return_value_my_calloc$6=my_calloc(sizeof(float) /*4ul*/ , (unsigned long int)num_channels);
-  vu_vals = (float *)return_value_my_calloc$6;
-  void *return_value_my_calloc$7;
-  return_value_my_calloc$7=my_calloc(sizeof(signed int) /*4ul*/ , (unsigned long int)num_channels);
-  vu_times = (signed int *)return_value_my_calloc$7;
-  void *return_value_my_calloc$8;
-  return_value_my_calloc$8=my_calloc(sizeof(signed int) /*4ul*/ , (unsigned long int)num_channels);
-  vu_peaks = (signed int *)return_value_my_calloc$8;
-  void *return_value_my_calloc$9;
-  return_value_my_calloc$9=my_calloc(sizeof(float) /*4ul*/ , (unsigned long int)num_channels);
-  vu_peakvals = (float *)return_value_my_calloc$9;
+  void *return_value_my_calloc_6;
+  return_value_my_calloc_6=my_calloc(sizeof(float) /*4ul*/ , (unsigned long int)num_channels);
+  vu_vals = (float *)return_value_my_calloc_6;
+  void *return_value_my_calloc_7;
+  return_value_my_calloc_7=my_calloc(sizeof(signed int) /*4ul*/ , (unsigned long int)num_channels);
+  vu_times = (signed int *)return_value_my_calloc_7;
+  void *return_value_my_calloc_8;
+  return_value_my_calloc_8=my_calloc(sizeof(signed int) /*4ul*/ , (unsigned long int)num_channels);
+  vu_peaks = (signed int *)return_value_my_calloc_8;
+  void *return_value_my_calloc_9;
+  return_value_my_calloc_9=my_calloc(sizeof(float) /*4ul*/ , (unsigned long int)num_channels);
+  vu_peakvals = (float *)return_value_my_calloc_9;
   buffer_size_in_bytes = (signed int)(((unsigned long int)sizeof(struct buffer_t) /*8ul*/  + (unsigned long int)(block_size * num_channels) * sizeof(float) /*4ul*/  + sizeof(double) /*8ul*/ ) - (unsigned long int)1 & -sizeof(double) /*8ul*/ );
   verbose_print("buf_size_in_bytes: %d\n", buffer_size_in_bytes);
 }
@@ -5331,9 +5331,9 @@ static const char ** portnames_get_connections(signed int ch, _Bool *using_callo
       return (const char **)(void *)0;
     }
 
-    signed int return_value_jack_port_flags$2;
-    return_value_jack_port_flags$2=jack_port_flags(port);
-    if(!((1 & return_value_jack_port_flags$2) == 0))
+    signed int return_value_jack_port_flags_2;
+    return_value_jack_port_flags_2=jack_port_flags(port);
+    if(!((1 & return_value_jack_port_flags_2) == 0))
     {
       ret=jack_port_get_all_connections(client, port);
       *using_calloc = (_Bool)0;
@@ -5341,9 +5341,9 @@ static const char ** portnames_get_connections(signed int ch, _Bool *using_callo
 
     else
     {
-      void *return_value_my_calloc$1;
-      return_value_my_calloc$1=my_calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
-      ret = (const char **)return_value_my_calloc$1;
+      void *return_value_my_calloc_1;
+      return_value_my_calloc_1=my_calloc((unsigned long int)2, sizeof(char *) /*8ul*/ );
+      ret = (const char **)return_value_my_calloc_1;
       ret[(signed long int)0] = cportnames[(signed long int)ch];
       *using_calloc = (_Bool)1;
     }
@@ -5355,174 +5355,174 @@ static const char ** portnames_get_connections(signed int ch, _Bool *using_callo
 // file setformat.c line 35
 void print_all_formats(void)
 {
-  signed int return_value_setformat_base$1;
-  return_value_setformat_base$1=setformat_base("WAV");
-  if(!(return_value_setformat_base$1 == -1))
+  signed int return_value_setformat_base_1;
+  return_value_setformat_base_1=setformat_base("WAV");
+  if(!(return_value_setformat_base_1 == -1))
     printf("wav ");
 
-  signed int return_value_setformat_base$2;
-  return_value_setformat_base$2=setformat_base("AIFF");
-  if(!(return_value_setformat_base$2 == -1))
+  signed int return_value_setformat_base_2;
+  return_value_setformat_base_2=setformat_base("AIFF");
+  if(!(return_value_setformat_base_2 == -1))
     printf("aiff ");
 
-  signed int return_value_setformat_base$3;
-  return_value_setformat_base$3=setformat_base("AU");
-  if(!(return_value_setformat_base$3 == -1))
+  signed int return_value_setformat_base_3;
+  return_value_setformat_base_3=setformat_base("AU");
+  if(!(return_value_setformat_base_3 == -1))
     printf("au ");
 
-  signed int return_value_setformat_base$4;
-  return_value_setformat_base$4=setformat_base("RAW");
-  if(!(return_value_setformat_base$4 == -1))
+  signed int return_value_setformat_base_4;
+  return_value_setformat_base_4=setformat_base("RAW");
+  if(!(return_value_setformat_base_4 == -1))
     printf("raw ");
 
-  signed int return_value_setformat_base$5;
-  return_value_setformat_base$5=setformat_base("PAF");
-  if(!(return_value_setformat_base$5 == -1))
+  signed int return_value_setformat_base_5;
+  return_value_setformat_base_5=setformat_base("PAF");
+  if(!(return_value_setformat_base_5 == -1))
     printf("paf ");
 
-  signed int return_value_setformat_base$6;
-  return_value_setformat_base$6=setformat_base("SVX");
-  if(!(return_value_setformat_base$6 == -1))
+  signed int return_value_setformat_base_6;
+  return_value_setformat_base_6=setformat_base("SVX");
+  if(!(return_value_setformat_base_6 == -1))
     printf("svx ");
 
-  signed int return_value_setformat_base$7;
-  return_value_setformat_base$7=setformat_base("NIST");
-  if(!(return_value_setformat_base$7 == -1))
+  signed int return_value_setformat_base_7;
+  return_value_setformat_base_7=setformat_base("NIST");
+  if(!(return_value_setformat_base_7 == -1))
     printf("nist ");
 
-  signed int return_value_setformat_base$8;
-  return_value_setformat_base$8=setformat_base("VOC");
-  if(!(return_value_setformat_base$8 == -1))
+  signed int return_value_setformat_base_8;
+  return_value_setformat_base_8=setformat_base("VOC");
+  if(!(return_value_setformat_base_8 == -1))
     printf("voc ");
 
-  signed int return_value_setformat_base$9;
-  return_value_setformat_base$9=setformat_base("IRCAM");
-  if(!(return_value_setformat_base$9 == -1))
+  signed int return_value_setformat_base_9;
+  return_value_setformat_base_9=setformat_base("IRCAM");
+  if(!(return_value_setformat_base_9 == -1))
     printf("ircam ");
 
-  signed int return_value_setformat_base$10;
-  return_value_setformat_base$10=setformat_base("W64");
-  if(!(return_value_setformat_base$10 == -1))
+  signed int return_value_setformat_base_10;
+  return_value_setformat_base_10=setformat_base("W64");
+  if(!(return_value_setformat_base_10 == -1))
     printf("w64 ");
 
-  signed int return_value_setformat_base$11;
-  return_value_setformat_base$11=setformat_base("MAT4");
-  if(!(return_value_setformat_base$11 == -1))
+  signed int return_value_setformat_base_11;
+  return_value_setformat_base_11=setformat_base("MAT4");
+  if(!(return_value_setformat_base_11 == -1))
     printf("mat4 ");
 
-  signed int return_value_setformat_base$12;
-  return_value_setformat_base$12=setformat_base("MAT5");
-  if(!(return_value_setformat_base$12 == -1))
+  signed int return_value_setformat_base_12;
+  return_value_setformat_base_12=setformat_base("MAT5");
+  if(!(return_value_setformat_base_12 == -1))
     printf("mat5 ");
 
-  signed int return_value_setformat_base$13;
-  return_value_setformat_base$13=setformat_base("PVF");
-  if(!(return_value_setformat_base$13 == -1))
+  signed int return_value_setformat_base_13;
+  return_value_setformat_base_13=setformat_base("PVF");
+  if(!(return_value_setformat_base_13 == -1))
     printf("pvf ");
 
-  signed int return_value_setformat_base$14;
-  return_value_setformat_base$14=setformat_base("XI");
-  if(!(return_value_setformat_base$14 == -1))
+  signed int return_value_setformat_base_14;
+  return_value_setformat_base_14=setformat_base("XI");
+  if(!(return_value_setformat_base_14 == -1))
     printf("xi ");
 
-  signed int return_value_setformat_base$15;
-  return_value_setformat_base$15=setformat_base("HTK");
-  if(!(return_value_setformat_base$15 == -1))
+  signed int return_value_setformat_base_15;
+  return_value_setformat_base_15=setformat_base("HTK");
+  if(!(return_value_setformat_base_15 == -1))
     printf("htk ");
 
-  signed int return_value_setformat_base$16;
-  return_value_setformat_base$16=setformat_base("SDS");
-  if(!(return_value_setformat_base$16 == -1))
+  signed int return_value_setformat_base_16;
+  return_value_setformat_base_16=setformat_base("SDS");
+  if(!(return_value_setformat_base_16 == -1))
     printf("sds ");
 
-  signed int return_value_setformat_base$17;
-  return_value_setformat_base$17=setformat_base("AVR");
-  if(!(return_value_setformat_base$17 == -1))
+  signed int return_value_setformat_base_17;
+  return_value_setformat_base_17=setformat_base("AVR");
+  if(!(return_value_setformat_base_17 == -1))
     printf("avr ");
 
-  signed int return_value_setformat_base$18;
-  return_value_setformat_base$18=setformat_base("WAVEX");
-  if(!(return_value_setformat_base$18 == -1))
+  signed int return_value_setformat_base_18;
+  return_value_setformat_base_18=setformat_base("WAVEX");
+  if(!(return_value_setformat_base_18 == -1))
     printf("wavex ");
 
-  signed int return_value_setformat_base$19;
-  return_value_setformat_base$19=setformat_base("SD2");
-  if(!(return_value_setformat_base$19 == -1))
+  signed int return_value_setformat_base_19;
+  return_value_setformat_base_19=setformat_base("SD2");
+  if(!(return_value_setformat_base_19 == -1))
     printf("sd2 ");
 
-  signed int return_value_setformat_base$20;
-  return_value_setformat_base$20=setformat_base("FLAC");
-  if(!(return_value_setformat_base$20 == -1))
+  signed int return_value_setformat_base_20;
+  return_value_setformat_base_20=setformat_base("FLAC");
+  if(!(return_value_setformat_base_20 == -1))
     printf("flac ");
 
-  signed int return_value_setformat_base$21;
-  return_value_setformat_base$21=setformat_base("CAF");
-  if(!(return_value_setformat_base$21 == -1))
+  signed int return_value_setformat_base_21;
+  return_value_setformat_base_21=setformat_base("CAF");
+  if(!(return_value_setformat_base_21 == -1))
     printf("caf ");
 
-  signed int return_value_setformat_base$22;
-  return_value_setformat_base$22=setformat_base("WVE");
-  if(!(return_value_setformat_base$22 == -1))
+  signed int return_value_setformat_base_22;
+  return_value_setformat_base_22=setformat_base("WVE");
+  if(!(return_value_setformat_base_22 == -1))
     printf("wve ");
 
-  signed int return_value_setformat_base$23;
-  return_value_setformat_base$23=setformat_base("OGG");
-  if(!(return_value_setformat_base$23 == -1))
+  signed int return_value_setformat_base_23;
+  return_value_setformat_base_23=setformat_base("OGG");
+  if(!(return_value_setformat_base_23 == -1))
     printf("ogg ");
 
-  signed int return_value_setformat_base$24;
-  return_value_setformat_base$24=setformat_base("MPC2K");
-  if(!(return_value_setformat_base$24 == -1))
+  signed int return_value_setformat_base_24;
+  return_value_setformat_base_24=setformat_base("MPC2K");
+  if(!(return_value_setformat_base_24 == -1))
     printf("mpc2k ");
 
-  signed int return_value_setformat_base$25;
-  return_value_setformat_base$25=setformat_base("RF64");
-  if(!(return_value_setformat_base$25 == -1))
+  signed int return_value_setformat_base_25;
+  return_value_setformat_base_25=setformat_base("RF64");
+  if(!(return_value_setformat_base_25 == -1))
     printf("rf64 ");
 
-  signed int return_value_setformat_base$26;
-  return_value_setformat_base$26=setformat_base("MP3");
-  if(!(return_value_setformat_base$26 == -1))
+  signed int return_value_setformat_base_26;
+  return_value_setformat_base_26=setformat_base("MP3");
+  if(!(return_value_setformat_base_26 == -1))
     printf("mp3 ");
 
-  signed int return_value_setformat_base$27;
-  return_value_setformat_base$27=setformat_base("MP2");
-  if(!(return_value_setformat_base$27 == -1))
+  signed int return_value_setformat_base_27;
+  return_value_setformat_base_27=setformat_base("MP2");
+  if(!(return_value_setformat_base_27 == -1))
     printf("mp2 ");
 
-  signed int return_value_setformat_base$28;
-  return_value_setformat_base$28=setformat_base("SPEEX");
-  if(!(return_value_setformat_base$28 == -1))
+  signed int return_value_setformat_base_28;
+  return_value_setformat_base_28=setformat_base("SPEEX");
+  if(!(return_value_setformat_base_28 == -1))
     printf("speex ");
 
-  signed int return_value_setformat_base$29;
-  return_value_setformat_base$29=setformat_base("WMA");
-  if(!(return_value_setformat_base$29 == -1))
+  signed int return_value_setformat_base_29;
+  return_value_setformat_base_29=setformat_base("WMA");
+  if(!(return_value_setformat_base_29 == -1))
     printf("wma ");
 
-  signed int return_value_setformat_base$30;
-  return_value_setformat_base$30=setformat_base("AAC");
-  if(!(return_value_setformat_base$30 == -1))
+  signed int return_value_setformat_base_30;
+  return_value_setformat_base_30=setformat_base("AAC");
+  if(!(return_value_setformat_base_30 == -1))
     printf("aac ");
 
-  signed int return_value_setformat_base$31;
-  return_value_setformat_base$31=setformat_base("VQF");
-  if(!(return_value_setformat_base$31 == -1))
+  signed int return_value_setformat_base_31;
+  return_value_setformat_base_31=setformat_base("VQF");
+  if(!(return_value_setformat_base_31 == -1))
     printf("vqf ");
 
-  signed int return_value_setformat_base$32;
-  return_value_setformat_base$32=setformat_base("RA");
-  if(!(return_value_setformat_base$32 == -1))
+  signed int return_value_setformat_base_32;
+  return_value_setformat_base_32=setformat_base("RA");
+  if(!(return_value_setformat_base_32 == -1))
     printf("ra ");
 
-  signed int return_value_setformat_base$33;
-  return_value_setformat_base$33=setformat_base("ALAC");
-  if(!(return_value_setformat_base$33 == -1))
+  signed int return_value_setformat_base_33;
+  return_value_setformat_base_33=setformat_base("ALAC");
+  if(!(return_value_setformat_base_33 == -1))
     printf("alac ");
 
-  signed int return_value_setformat_base$34;
-  return_value_setformat_base$34=setformat_base("AIFC");
-  if(!(return_value_setformat_base$34 == -1))
+  signed int return_value_setformat_base_34;
+  return_value_setformat_base_34=setformat_base("AIFC");
+  if(!(return_value_setformat_base_34 == -1))
     printf("aifc ");
 
   printf("\n");
@@ -5537,11 +5537,11 @@ static void print_console(_Bool move_cursor_to_top_doit, _Bool force_update)
   vol[(signed long int)2] = (char)58;
   vol[(signed long int)3] = (char)124;
   vol[(signed long int)(4 + 65 + 1)] = (char)0;
-  float return_value_log10f$1;
-  signed int return_value_iec_scale$2;
-  signed int tmp_post$3;
-  _Bool tmp_if_expr$4;
-  float return_value_frames_to_seconds$8;
+  float return_value_log10f_1;
+  signed int return_value_iec_scale_2;
+  signed int tmp_post_3;
+  _Bool tmp_if_expr_4;
+  float return_value_frames_to_seconds_8;
   if((signed int)force_update == 0)
   {
     if(!IEEE_FLOAT_EQUAL(*vu_vals, -1.000000f))
@@ -5569,9 +5569,9 @@ static void print_console(_Bool move_cursor_to_top_doit, _Bool force_update)
         vu_vals[(signed long int)ch] = -1.0f;
         if(!(vu_dB == 0))
         {
-          return_value_log10f$1=log10f(val * vu_bias);
-          return_value_iec_scale$2=iec_scale(20.0f * return_value_log10f$1);
-          pos = (return_value_iec_scale$2 * 65) / 200;
+          return_value_log10f_1=log10f(val * vu_bias);
+          return_value_iec_scale_2=iec_scale(20.0f * return_value_log10f_1);
+          pos = (return_value_iec_scale_2 * 65) / 200;
         }
 
         else
@@ -5585,9 +5585,9 @@ static void print_console(_Bool move_cursor_to_top_doit, _Bool force_update)
 
         else
         {
-          tmp_post$3 = vu_times[(signed long int)ch];
+          tmp_post_3 = vu_times[(signed long int)ch];
           vu_times[(signed long int)ch] = vu_times[(signed long int)ch] + 1;
-          if(tmp_post$3 >= 41)
+          if(tmp_post_3 >= 41)
           {
             vu_peaks[(signed long int)ch] = pos;
             vu_peakvals[(signed long int)ch] = val;
@@ -5630,11 +5630,11 @@ static void print_console(_Bool move_cursor_to_top_doit, _Bool force_update)
           for( ; !(i >= 65); i = i + 1)
           {
             if(vu_peaks[(signed long int)ch] == i)
-              tmp_if_expr$4 = vu_peakvals[(signed long int)ch] > 0.0f ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = vu_peakvals[(signed long int)ch] > 0.0f ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(tmp_if_expr_4)
               vol[(signed long int)(4 + i)] = (char)42;
 
             else
@@ -5666,36 +5666,36 @@ static void print_console(_Bool move_cursor_to_top_doit, _Bool force_update)
       signed int num_bufleft;
       num_bufleft=vringbuffer_writing_size(vringbuffer);
       signed int num_buffers;
-      signed int return_value_vringbuffer_reading_size$5;
-      return_value_vringbuffer_reading_size$5=vringbuffer_reading_size(vringbuffer);
-      signed int return_value_vringbuffer_writing_size$6;
-      return_value_vringbuffer_writing_size$6=vringbuffer_writing_size(vringbuffer);
-      num_buffers = return_value_vringbuffer_reading_size$5 + return_value_vringbuffer_writing_size$6;
+      signed int return_value_vringbuffer_reading_size_5;
+      return_value_vringbuffer_reading_size_5=vringbuffer_reading_size(vringbuffer);
+      signed int return_value_vringbuffer_writing_size_6;
+      return_value_vringbuffer_writing_size_6=vringbuffer_writing_size(vringbuffer);
+      num_buffers = return_value_vringbuffer_reading_size_5 + return_value_vringbuffer_writing_size_6;
       float buflen;
       buflen=buffers_to_seconds(num_buffers);
       float bufleft;
       bufleft=buffers_to_seconds(num_bufleft);
       signed int recorded_seconds;
-      float return_value_frames_to_seconds$7;
-      return_value_frames_to_seconds$7=frames_to_seconds((signed int)num_frames_recorded);
-      recorded_seconds = (signed int)return_value_frames_to_seconds$7;
+      float return_value_frames_to_seconds_7;
+      return_value_frames_to_seconds_7=frames_to_seconds((signed int)num_frames_recorded);
+      recorded_seconds = (signed int)return_value_frames_to_seconds_7;
       if((signed int)timemachine_mode == 1)
       {
-        return_value_frames_to_seconds$8=frames_to_seconds((signed int)num_frames_written_to_disk);
-        recorded_seconds = (signed int)return_value_frames_to_seconds$8;
+        return_value_frames_to_seconds_8=frames_to_seconds((signed int)num_frames_written_to_disk);
+        recorded_seconds = (signed int)return_value_frames_to_seconds_8;
       }
 
       signed int recorded_minutes = recorded_seconds / 60;
       char buffer_string[1000l];
       sprintf(buffer_string, "%.2fs./%.2fs", bufleft, buflen);
       signed int len_buffer;
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(buffer_string);
-      len_buffer = (signed int)return_value_strlen$9;
-      signed int print_console$$1$$2$$1$$i = len_buffer;
-      for( ; !(print_console$$1$$2$$1$$i >= 14); print_console$$1$$2$$1$$i = print_console$$1$$2$$1$$i + 1)
-        buffer_string[(signed long int)print_console$$1$$2$$1$$i] = (char)32;
-      buffer_string[(signed long int)print_console$$1$$2$$1$$i] = (char)0;
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(buffer_string);
+      len_buffer = (signed int)return_value_strlen_9;
+      signed int print_console__1__2__1__i = len_buffer;
+      for( ; !(print_console__1__2__1__i >= 14); print_console__1__2__1__i = print_console__1__2__1__i + 1)
+        buffer_string[(signed long int)print_console__1__2__1__i] = (char)32;
+      buffer_string[(signed long int)print_console__1__2__1__i] = (char)0;
       printf("%c[32mBuffer: %s  Time: %d.%s%dm.  %sDHP: [%c]  Overruns: %d  Xruns: %d%c[0m", 0x1b, (const void *)buffer_string, recorded_minutes, recorded_seconds % 60 < 10 ? "0" : "", recorded_seconds % 60, recorded_minutes < 10 ? " " : "", disk_thread_has_high_priority != (_Bool)0 ? 120 : 32, total_overruns, total_xruns, 0x1b);
       print_ln();
     }
@@ -5759,9 +5759,9 @@ static void print_message(const char *fmt, ...)
       pthread_mutex_lock(&print_message_mutex);
       while(!((signed int)message_string[0l] == 0))
         msleep(2);
-      void **print_message$$1$$2$$1$$argp = (void **)&fmt;
-      vsprintf(message_string, fmt, print_message$$1$$2$$1$$argp);
-      print_message$$1$$2$$1$$argp = ((void **)NULL);
+      void **print_message__1__2__1__argp = (void **)&fmt;
+      vsprintf(message_string, fmt, print_message__1__2__1__argp);
+      print_message__1__2__1__argp = ((void **)NULL);
       while(!((signed int)message_string[0l] == 0))
         msleep(2);
       pthread_mutex_unlock(&print_message_mutex);
@@ -5774,7 +5774,7 @@ static void print_message(const char *fmt, ...)
 // file jack_capture.c line 1646
 static signed int process(unsigned int nframes, void *arg)
 {
-  enum anonymous$12 state = (enum anonymous$12)0;
+  enum anonymous_12 state = (enum anonymous_12)0;
   if((signed int)use_jack_transport == 1)
   {
     state=jack_transport_query(client, (struct anonymous *)(void *)0);
@@ -5869,21 +5869,21 @@ static void process_fill_buffer(float **in, struct buffer_t *buffer, signed int 
   float *data = buffer->data;
   signed int pos = buffer->pos * num_channels;
   signed int ch;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if((signed int)buffer_interleaved == 1)
     for( ; !(i >= end); i = i + 1)
     {
       ch = 0;
       for( ; !(ch >= num_channels); ch = ch + 1)
       {
-        float process_fill_buffer$$1$$1$$1$$1$$1$$1$$val = in[(signed long int)ch][(signed long int)i];
-        tmp_post$1 = pos;
+        float process_fill_buffer__1__1__1__1__1__1__val = in[(signed long int)ch][(signed long int)i];
+        tmp_post_1 = pos;
         pos = pos + 1;
-        data[(signed long int)tmp_post$1] = process_fill_buffer$$1$$1$$1$$1$$1$$1$$val;
-        process_fill_buffer$$1$$1$$1$$1$$1$$1$$val=fabsf(process_fill_buffer$$1$$1$$1$$1$$1$$1$$val);
-        if(process_fill_buffer$$1$$1$$1$$1$$1$$1$$val > vu_vals[(signed long int)ch])
-          vu_vals[(signed long int)ch] = process_fill_buffer$$1$$1$$1$$1$$1$$1$$val;
+        data[(signed long int)tmp_post_1] = process_fill_buffer__1__1__1__1__1__1__val;
+        process_fill_buffer__1__1__1__1__1__1__val=fabsf(process_fill_buffer__1__1__1__1__1__1__val);
+        if(process_fill_buffer__1__1__1__1__1__1__val > vu_vals[(signed long int)ch])
+          vu_vals[(signed long int)ch] = process_fill_buffer__1__1__1__1__1__1__val;
 
       }
     }
@@ -5900,9 +5900,9 @@ static void process_fill_buffer(float **in, struct buffer_t *buffer, signed int 
       for( ; !(i >= end); i = i + 1)
       {
         float val = curr_in[(signed long int)i];
-        tmp_post$2 = pos;
+        tmp_post_2 = pos;
         pos = pos + 1;
-        data[(signed long int)tmp_post$2] = (float)((double)val * 32767.9);
+        data[(signed long int)tmp_post_2] = (float)((double)val * 32767.9);
         val=fabsf(val);
         if(val > max_vu)
           max_vu = val;
@@ -5918,22 +5918,22 @@ static void process_fill_buffer(float **in, struct buffer_t *buffer, signed int 
 // file jack_capture.c line 1606
 static void process_fill_buffers(signed int jack_block_size)
 {
-  const signed long int process_fill_buffers$array_size0 = (signed long int)num_channels;
-  float *in[process_fill_buffers$array_size0];
+  const signed long int process_fill_buffers_array_size0 = (signed long int)num_channels;
+  float *in[process_fill_buffers_array_size0];
   signed int i = 0;
   signed int ch = 0;
-  void *return_value_jack_port_get_buffer$1;
+  void *return_value_jack_port_get_buffer_1;
   for( ; !(ch >= num_channels); ch = ch + 1)
   {
-    return_value_jack_port_get_buffer$1=jack_port_get_buffer(ports[(signed long int)ch], (unsigned int)jack_block_size);
-    in[(signed long int)ch] = (float *)return_value_jack_port_get_buffer$1;
+    return_value_jack_port_get_buffer_1=jack_port_get_buffer(ports[(signed long int)ch], (unsigned int)jack_block_size);
+    in[(signed long int)ch] = (float *)return_value_jack_port_get_buffer_1;
   }
-  _Bool return_value_process_new_current_buffer$2;
-  signed int tmp_if_expr$3;
+  _Bool return_value_process_new_current_buffer_2;
+  signed int tmp_if_expr_3;
   if(current_buffer == ((struct buffer_t *)NULL))
   {
-    return_value_process_new_current_buffer$2=process_new_current_buffer(jack_block_size);
-    if(!((signed int)return_value_process_new_current_buffer$2 == 0))
+    return_value_process_new_current_buffer_2=process_new_current_buffer(jack_block_size);
+    if(!((signed int)return_value_process_new_current_buffer_2 == 0))
       goto __CPROVER_DUMP_L3;
 
   }
@@ -5947,19 +5947,19 @@ static void process_fill_buffers(signed int jack_block_size)
     {
       signed int size;
       if(!(jack_block_size + -i >= block_size + -current_buffer->pos))
-        tmp_if_expr$3 = jack_block_size - i;
+        tmp_if_expr_3 = jack_block_size - i;
 
       else
-        tmp_if_expr$3 = block_size - current_buffer->pos;
-      size = tmp_if_expr$3;
+        tmp_if_expr_3 = block_size - current_buffer->pos;
+      size = tmp_if_expr_3;
       process_fill_buffer(in, current_buffer, i, i + size);
       i = i + size;
       if(current_buffer->pos == block_size)
       {
         send_buffer_to_disk_thread(current_buffer);
-        _Bool return_value_process_new_current_buffer$4;
-        return_value_process_new_current_buffer$4=process_new_current_buffer(jack_block_size - i);
-        if((signed int)return_value_process_new_current_buffer$4 == 0)
+        _Bool return_value_process_new_current_buffer_4;
+        return_value_process_new_current_buffer_4=process_new_current_buffer(jack_block_size - i);
+        if((signed int)return_value_process_new_current_buffer_4 == 0)
           goto __CPROVER_DUMP_L9;
 
       }
@@ -5975,21 +5975,21 @@ __CPROVER_DUMP_L9:
 // file jack_capture.c line 1590
 static _Bool process_new_current_buffer(signed int frames_left)
 {
-  signed int return_value_vringbuffer_writing_size$1;
+  signed int return_value_vringbuffer_writing_size_1;
   if((signed int)use_jack_freewheel == 1)
     do
     {
-      return_value_vringbuffer_writing_size$1=vringbuffer_writing_size(vringbuffer);
-      if(!(return_value_vringbuffer_writing_size$1 == 0))
+      return_value_vringbuffer_writing_size_1=vringbuffer_writing_size(vringbuffer);
+      if(!(return_value_vringbuffer_writing_size_1 == 0))
         break;
 
       msleep(2);
     }
     while((_Bool)1);
 
-  void *return_value_vringbuffer_get_writing$2;
-  return_value_vringbuffer_get_writing$2=vringbuffer_get_writing(vringbuffer);
-  current_buffer = (struct buffer_t *)return_value_vringbuffer_get_writing$2;
+  void *return_value_vringbuffer_get_writing_2;
+  return_value_vringbuffer_get_writing_2=vringbuffer_get_writing(vringbuffer);
+  current_buffer = (struct buffer_t *)return_value_vringbuffer_get_writing_2;
   if(current_buffer == ((struct buffer_t *)NULL))
   {
     total_overruns = total_overruns + 1;
@@ -6008,9 +6008,9 @@ static _Bool process_new_current_buffer(signed int frames_left)
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 79
 static inline signed int putchar(signed int __c)
 {
-  signed int return_value__IO_putc$1;
-  return_value__IO_putc$1=_IO_putc(__c, stdout);
-  return return_value__IO_putc$1;
+  signed int return_value__IO_putc_1;
+  return_value__IO_putc_1=_IO_putc(__c, stdout);
+  return return_value__IO_putc_1;
 }
 
 // read_config
@@ -6018,50 +6018,50 @@ static inline signed int putchar(signed int __c)
 char ** read_config(signed int *argc, signed int max_size)
 {
   char **argv;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)max_size, sizeof(char *) /*8ul*/ );
-  argv = (char **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)max_size, sizeof(char *) /*8ul*/ );
+  argv = (char **)return_value_calloc_1;
   *argc = 0;
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("HOME");
-  char *return_value_fgets$6;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$12;
-  char *return_value_getenv$11;
-  if(return_value_getenv$2 == ((char *)NULL))
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("HOME");
+  char *return_value_fgets_6;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_12;
+  char *return_value_getenv_11;
+  if(return_value_getenv_2 == ((char *)NULL))
     return argv;
 
   else
   {
     struct _IO_FILE *file;
-    char *return_value_getenv$3;
-    return_value_getenv$3=getenv("HOME");
-    char *return_value_string_concat$4;
-    return_value_string_concat$4=string_concat(return_value_getenv$3, "/.jack_capture/config");
-    file=fopen(return_value_string_concat$4, "r");
+    char *return_value_getenv_3;
+    return_value_getenv_3=getenv("HOME");
+    char *return_value_string_concat_4;
+    return_value_string_concat_4=string_concat(return_value_getenv_3, "/.jack_capture/config");
+    file=fopen(return_value_string_concat_4, "r");
     if(file == ((struct _IO_FILE *)NULL))
       return argv;
 
     else
     {
       char *readline;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((unsigned long int)512);
-      readline = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((unsigned long int)512);
+      readline = (char *)return_value_malloc_5;
       do
       {
-        return_value_fgets$6=fgets(readline, 510, file);
-        if(return_value_fgets$6 == ((char *)NULL))
+        return_value_fgets_6=fgets(readline, 510, file);
+        if(return_value_fgets_6 == ((char *)NULL))
           break;
 
         char *line;
         line=strip_whitespace(readline);
         if((signed int)*line == 0)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$7)
+          tmp_if_expr_7 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_7)
         {
           if(*argc >= max_size + -3)
           {
@@ -6074,28 +6074,28 @@ char ** read_config(signed int *argc, signed int max_size)
           if(!(split_pos == -1))
           {
             char *name;
-            char *return_value_substring$8;
-            return_value_substring$8=substring(line, 0, split_pos);
-            name=strip_whitespace(return_value_substring$8);
+            char *return_value_substring_8;
+            return_value_substring_8=substring(line, 0, split_pos);
+            name=strip_whitespace(return_value_substring_8);
             char *value;
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(line);
-            char *return_value_substring$10;
-            return_value_substring$10=substring(line, split_pos + 1, (signed int)return_value_strlen$9);
-            value=strip_whitespace(return_value_substring$10);
-            unsigned long int return_value_strlen$13;
-            return_value_strlen$13=strlen(name);
-            if(return_value_strlen$13 >= 1ul)
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(line);
+            char *return_value_substring_10;
+            return_value_substring_10=substring(line, split_pos + 1, (signed int)return_value_strlen_9);
+            value=strip_whitespace(return_value_substring_10);
+            unsigned long int return_value_strlen_13;
+            return_value_strlen_13=strlen(name);
+            if(return_value_strlen_13 >= 1ul)
             {
-              return_value_strlen$12=strlen(value);
-              if(return_value_strlen$12 >= 1ul)
+              return_value_strlen_12=strlen(value);
+              if(return_value_strlen_12 >= 1ul)
               {
                 argv[(signed long int)*argc]=string_concat("--", name);
                 *argc = *argc + 1;
                 if((signed int)*value == 126)
                 {
-                  return_value_getenv$11=getenv("HOME");
-                  value=string_concat(return_value_getenv$11, &value[(signed long int)1]);
+                  return_value_getenv_11=getenv("HOME");
+                  value=string_concat(return_value_getenv_11, &value[(signed long int)1]);
                 }
 
                 argv[(signed long int)*argc] = value;
@@ -6131,9 +6131,9 @@ static void * receiver_func(void *arg)
   if((signed int)vrb->please_stop == 0)
   {
     upwaker_sleep(vrb->receiver_trigger);
-    signed int return_value_vringbuffer_reading_size$1;
-    return_value_vringbuffer_reading_size$1=vringbuffer_reading_size(vrb);
-    if(return_value_vringbuffer_reading_size$1 >= 1)
+    signed int return_value_vringbuffer_reading_size_1;
+    return_value_vringbuffer_reading_size_1=vringbuffer_reading_size(vrb);
+    if(return_value_vringbuffer_reading_size_1 >= 1)
     {
       if(buffer == NULL)
         buffer=vringbuffer_get_reading(vrb);
@@ -6158,7 +6158,7 @@ static void * receiver_func(void *arg)
 static signed int reconnect_ports_questionmark(void)
 {
   signed int ch = 0;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(ch >= num_channels); ch = ch + 1)
   {
     _Bool using_calloc;
@@ -6187,10 +6187,10 @@ static signed int reconnect_ports_questionmark(void)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(connections1[(signed long int)lokke], connections2[(signed long int)lokke]);
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(!(tmp_statement_expression$1 == 0))
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(connections1[(signed long int)lokke], connections2[(signed long int)lokke]);
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(!(tmp_statement_expression_1 == 0))
         {
           free_jack_connections(using_calloc, connections1);
           free_jack_connections((_Bool)0, connections2);
@@ -6214,11 +6214,11 @@ static signed int rotate_file(unsigned long int frames, signed int reset_totals)
   ssync_offset = (signed int)frames;
   sf_close(soundfile);
   char *filename_new;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(base_filename);
-  void *return_value_my_calloc$2;
-  return_value_my_calloc$2=my_calloc((unsigned long int)1, return_value_strlen$1 + (unsigned long int)500);
-  filename_new = (char *)return_value_my_calloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(base_filename);
+  void *return_value_my_calloc_2;
+  return_value_my_calloc_2=my_calloc((unsigned long int)1, return_value_strlen_1 + (unsigned long int)500);
+  filename_new = (char *)return_value_my_calloc_2;
   sprintf(filename_new, "%s.%0*d.wav", base_filename, leading_zeros + 1, num_files);
   print_message("Closing %s, and continue writing to %s.\n", filename, filename_new);
   num_files = num_files + 1;
@@ -6245,9 +6245,9 @@ static signed int rotate_file(unsigned long int frames, signed int reset_totals)
 
   }
 
-  signed int return_value_open_soundfile$3;
-  return_value_open_soundfile$3=open_soundfile();
-  if(return_value_open_soundfile$3 == 0)
+  signed int return_value_open_soundfile_3;
+  return_value_open_soundfile_3=open_soundfile();
+  if(return_value_open_soundfile_3 == 0)
     return 0;
 
   else
@@ -6258,18 +6258,18 @@ static signed int rotate_file(unsigned long int frames, signed int reset_totals)
 // file jack_capture.c line 310
 static signed int seconds_to_blocks(float seconds)
 {
-  float return_value_ceilf$1;
-  return_value_ceilf$1=ceilf((seconds * jack_samplerate) / (float)block_size);
-  return (signed int)return_value_ceilf$1;
+  float return_value_ceilf_1;
+  return_value_ceilf_1=ceilf((seconds * jack_samplerate) / (float)block_size);
+  return (signed int)return_value_ceilf_1;
 }
 
 // seconds_to_buffers
 // file jack_capture.c line 315
 static signed int seconds_to_buffers(float seconds)
 {
-  signed int return_value_seconds_to_blocks$1;
-  return_value_seconds_to_blocks$1=seconds_to_blocks(seconds);
-  return return_value_seconds_to_blocks$1;
+  signed int return_value_seconds_to_blocks_1;
+  return_value_seconds_to_blocks_1=seconds_to_blocks(seconds);
+  return return_value_seconds_to_blocks_1;
 }
 
 // seconds_to_frames
@@ -6292,12 +6292,12 @@ static void send_buffer_to_disk_thread(struct buffer_t *buffer)
 // file jack_capture.c line 248
 static _Bool set_high_priority(void)
 {
-  signed int return_value_setpriority$1;
+  signed int return_value_setpriority_1;
   static signed int prio = -20;
   for( ; !(prio >= 0); prio = prio + 1)
   {
-    return_value_setpriority$1=setpriority(0, (unsigned int)0, prio);
-    if(!(return_value_setpriority$1 == -1))
+    return_value_setpriority_1=setpriority(0, (unsigned int)0, prio);
+    if(!(return_value_setpriority_1 == -1))
       break;
 
   }
@@ -6319,249 +6319,249 @@ static _Bool set_high_priority(void)
 // file setformat.c line 1
 static signed int setformat_base(char *soundfile_format)
 {
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp("WAV", soundfile_format);
-  signed int tmp_if_expr$49;
-  signed int return_value_strcasecmp$2;
-  signed int tmp_if_expr$48;
-  signed int return_value_strcasecmp$3;
-  signed int tmp_if_expr$47;
-  signed int return_value_strcasecmp$4;
-  signed int tmp_if_expr$46;
-  signed int return_value_strcasecmp$5;
-  signed int tmp_if_expr$45;
-  signed int return_value_strcasecmp$6;
-  signed int tmp_if_expr$44;
-  signed int return_value_strcasecmp$7;
-  signed int tmp_if_expr$43;
-  signed int return_value_strcasecmp$8;
-  signed int tmp_if_expr$42;
-  signed int return_value_strcasecmp$9;
-  signed int tmp_if_expr$41;
-  signed int return_value_strcasecmp$10;
-  signed int tmp_if_expr$40;
-  signed int return_value_strcasecmp$11;
-  signed int tmp_if_expr$39;
-  signed int return_value_strcasecmp$12;
-  signed int tmp_if_expr$38;
-  signed int return_value_strcasecmp$13;
-  signed int tmp_if_expr$37;
-  signed int return_value_strcasecmp$14;
-  signed int tmp_if_expr$36;
-  signed int return_value_strcasecmp$15;
-  signed int tmp_if_expr$35;
-  signed int return_value_strcasecmp$16;
-  signed int tmp_if_expr$34;
-  signed int return_value_strcasecmp$17;
-  signed int tmp_if_expr$33;
-  signed int return_value_strcasecmp$18;
-  signed int tmp_if_expr$32;
-  signed int return_value_strcasecmp$19;
-  signed int tmp_if_expr$31;
-  signed int return_value_strcasecmp$20;
-  signed int tmp_if_expr$30;
-  signed int return_value_strcasecmp$21;
-  signed int tmp_if_expr$29;
-  signed int return_value_strcasecmp$22;
-  signed int tmp_if_expr$28;
-  signed int return_value_strcasecmp$23;
-  signed int tmp_if_expr$27;
-  signed int return_value_strcasecmp$24;
-  signed int tmp_if_expr$26;
-  signed int return_value_strcasecmp$25;
-  if(return_value_strcasecmp$1 == 0)
-    tmp_if_expr$49 = 65536;
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp("WAV", soundfile_format);
+  signed int tmp_if_expr_49;
+  signed int return_value_strcasecmp_2;
+  signed int tmp_if_expr_48;
+  signed int return_value_strcasecmp_3;
+  signed int tmp_if_expr_47;
+  signed int return_value_strcasecmp_4;
+  signed int tmp_if_expr_46;
+  signed int return_value_strcasecmp_5;
+  signed int tmp_if_expr_45;
+  signed int return_value_strcasecmp_6;
+  signed int tmp_if_expr_44;
+  signed int return_value_strcasecmp_7;
+  signed int tmp_if_expr_43;
+  signed int return_value_strcasecmp_8;
+  signed int tmp_if_expr_42;
+  signed int return_value_strcasecmp_9;
+  signed int tmp_if_expr_41;
+  signed int return_value_strcasecmp_10;
+  signed int tmp_if_expr_40;
+  signed int return_value_strcasecmp_11;
+  signed int tmp_if_expr_39;
+  signed int return_value_strcasecmp_12;
+  signed int tmp_if_expr_38;
+  signed int return_value_strcasecmp_13;
+  signed int tmp_if_expr_37;
+  signed int return_value_strcasecmp_14;
+  signed int tmp_if_expr_36;
+  signed int return_value_strcasecmp_15;
+  signed int tmp_if_expr_35;
+  signed int return_value_strcasecmp_16;
+  signed int tmp_if_expr_34;
+  signed int return_value_strcasecmp_17;
+  signed int tmp_if_expr_33;
+  signed int return_value_strcasecmp_18;
+  signed int tmp_if_expr_32;
+  signed int return_value_strcasecmp_19;
+  signed int tmp_if_expr_31;
+  signed int return_value_strcasecmp_20;
+  signed int tmp_if_expr_30;
+  signed int return_value_strcasecmp_21;
+  signed int tmp_if_expr_29;
+  signed int return_value_strcasecmp_22;
+  signed int tmp_if_expr_28;
+  signed int return_value_strcasecmp_23;
+  signed int tmp_if_expr_27;
+  signed int return_value_strcasecmp_24;
+  signed int tmp_if_expr_26;
+  signed int return_value_strcasecmp_25;
+  if(return_value_strcasecmp_1 == 0)
+    tmp_if_expr_49 = 65536;
 
   else
   {
-    return_value_strcasecmp$2=strcasecmp("AIFF", soundfile_format);
-    if(return_value_strcasecmp$2 == 0)
-      tmp_if_expr$48 = 131072;
+    return_value_strcasecmp_2=strcasecmp("AIFF", soundfile_format);
+    if(return_value_strcasecmp_2 == 0)
+      tmp_if_expr_48 = 131072;
 
     else
     {
-      return_value_strcasecmp$3=strcasecmp("AU", soundfile_format);
-      if(return_value_strcasecmp$3 == 0)
-        tmp_if_expr$47 = 196608;
+      return_value_strcasecmp_3=strcasecmp("AU", soundfile_format);
+      if(return_value_strcasecmp_3 == 0)
+        tmp_if_expr_47 = 196608;
 
       else
       {
-        return_value_strcasecmp$4=strcasecmp("RAW", soundfile_format);
-        if(return_value_strcasecmp$4 == 0)
-          tmp_if_expr$46 = 262144;
+        return_value_strcasecmp_4=strcasecmp("RAW", soundfile_format);
+        if(return_value_strcasecmp_4 == 0)
+          tmp_if_expr_46 = 262144;
 
         else
         {
-          return_value_strcasecmp$5=strcasecmp("PAF", soundfile_format);
-          if(return_value_strcasecmp$5 == 0)
-            tmp_if_expr$45 = 327680;
+          return_value_strcasecmp_5=strcasecmp("PAF", soundfile_format);
+          if(return_value_strcasecmp_5 == 0)
+            tmp_if_expr_45 = 327680;
 
           else
           {
-            return_value_strcasecmp$6=strcasecmp("SVX", soundfile_format);
-            if(return_value_strcasecmp$6 == 0)
-              tmp_if_expr$44 = 393216;
+            return_value_strcasecmp_6=strcasecmp("SVX", soundfile_format);
+            if(return_value_strcasecmp_6 == 0)
+              tmp_if_expr_44 = 393216;
 
             else
             {
-              return_value_strcasecmp$7=strcasecmp("NIST", soundfile_format);
-              if(return_value_strcasecmp$7 == 0)
-                tmp_if_expr$43 = 458752;
+              return_value_strcasecmp_7=strcasecmp("NIST", soundfile_format);
+              if(return_value_strcasecmp_7 == 0)
+                tmp_if_expr_43 = 458752;
 
               else
               {
-                return_value_strcasecmp$8=strcasecmp("VOC", soundfile_format);
-                if(return_value_strcasecmp$8 == 0)
-                  tmp_if_expr$42 = 524288;
+                return_value_strcasecmp_8=strcasecmp("VOC", soundfile_format);
+                if(return_value_strcasecmp_8 == 0)
+                  tmp_if_expr_42 = 524288;
 
                 else
                 {
-                  return_value_strcasecmp$9=strcasecmp("IRCAM", soundfile_format);
-                  if(return_value_strcasecmp$9 == 0)
-                    tmp_if_expr$41 = 655360;
+                  return_value_strcasecmp_9=strcasecmp("IRCAM", soundfile_format);
+                  if(return_value_strcasecmp_9 == 0)
+                    tmp_if_expr_41 = 655360;
 
                   else
                   {
-                    return_value_strcasecmp$10=strcasecmp("W64", soundfile_format);
-                    if(return_value_strcasecmp$10 == 0)
-                      tmp_if_expr$40 = 720896;
+                    return_value_strcasecmp_10=strcasecmp("W64", soundfile_format);
+                    if(return_value_strcasecmp_10 == 0)
+                      tmp_if_expr_40 = 720896;
 
                     else
                     {
-                      return_value_strcasecmp$11=strcasecmp("MAT4", soundfile_format);
-                      if(return_value_strcasecmp$11 == 0)
-                        tmp_if_expr$39 = 786432;
+                      return_value_strcasecmp_11=strcasecmp("MAT4", soundfile_format);
+                      if(return_value_strcasecmp_11 == 0)
+                        tmp_if_expr_39 = 786432;
 
                       else
                       {
-                        return_value_strcasecmp$12=strcasecmp("MAT5", soundfile_format);
-                        if(return_value_strcasecmp$12 == 0)
-                          tmp_if_expr$38 = 851968;
+                        return_value_strcasecmp_12=strcasecmp("MAT5", soundfile_format);
+                        if(return_value_strcasecmp_12 == 0)
+                          tmp_if_expr_38 = 851968;
 
                         else
                         {
-                          return_value_strcasecmp$13=strcasecmp("PVF", soundfile_format);
-                          if(return_value_strcasecmp$13 == 0)
-                            tmp_if_expr$37 = 917504;
+                          return_value_strcasecmp_13=strcasecmp("PVF", soundfile_format);
+                          if(return_value_strcasecmp_13 == 0)
+                            tmp_if_expr_37 = 917504;
 
                           else
                           {
-                            return_value_strcasecmp$14=strcasecmp("XI", soundfile_format);
-                            if(return_value_strcasecmp$14 == 0)
-                              tmp_if_expr$36 = 983040;
+                            return_value_strcasecmp_14=strcasecmp("XI", soundfile_format);
+                            if(return_value_strcasecmp_14 == 0)
+                              tmp_if_expr_36 = 983040;
 
                             else
                             {
-                              return_value_strcasecmp$15=strcasecmp("HTK", soundfile_format);
-                              if(return_value_strcasecmp$15 == 0)
-                                tmp_if_expr$35 = 1048576;
+                              return_value_strcasecmp_15=strcasecmp("HTK", soundfile_format);
+                              if(return_value_strcasecmp_15 == 0)
+                                tmp_if_expr_35 = 1048576;
 
                               else
                               {
-                                return_value_strcasecmp$16=strcasecmp("SDS", soundfile_format);
-                                if(return_value_strcasecmp$16 == 0)
-                                  tmp_if_expr$34 = 1114112;
+                                return_value_strcasecmp_16=strcasecmp("SDS", soundfile_format);
+                                if(return_value_strcasecmp_16 == 0)
+                                  tmp_if_expr_34 = 1114112;
 
                                 else
                                 {
-                                  return_value_strcasecmp$17=strcasecmp("AVR", soundfile_format);
-                                  if(return_value_strcasecmp$17 == 0)
-                                    tmp_if_expr$33 = 1179648;
+                                  return_value_strcasecmp_17=strcasecmp("AVR", soundfile_format);
+                                  if(return_value_strcasecmp_17 == 0)
+                                    tmp_if_expr_33 = 1179648;
 
                                   else
                                   {
-                                    return_value_strcasecmp$18=strcasecmp("WAVEX", soundfile_format);
-                                    if(return_value_strcasecmp$18 == 0)
-                                      tmp_if_expr$32 = 1245184;
+                                    return_value_strcasecmp_18=strcasecmp("WAVEX", soundfile_format);
+                                    if(return_value_strcasecmp_18 == 0)
+                                      tmp_if_expr_32 = 1245184;
 
                                     else
                                     {
-                                      return_value_strcasecmp$19=strcasecmp("SD2", soundfile_format);
-                                      if(return_value_strcasecmp$19 == 0)
-                                        tmp_if_expr$31 = 1441792;
+                                      return_value_strcasecmp_19=strcasecmp("SD2", soundfile_format);
+                                      if(return_value_strcasecmp_19 == 0)
+                                        tmp_if_expr_31 = 1441792;
 
                                       else
                                       {
-                                        return_value_strcasecmp$20=strcasecmp("FLAC", soundfile_format);
-                                        if(return_value_strcasecmp$20 == 0)
-                                          tmp_if_expr$30 = 1507328;
+                                        return_value_strcasecmp_20=strcasecmp("FLAC", soundfile_format);
+                                        if(return_value_strcasecmp_20 == 0)
+                                          tmp_if_expr_30 = 1507328;
 
                                         else
                                         {
-                                          return_value_strcasecmp$21=strcasecmp("CAF", soundfile_format);
-                                          if(return_value_strcasecmp$21 == 0)
-                                            tmp_if_expr$29 = 1572864;
+                                          return_value_strcasecmp_21=strcasecmp("CAF", soundfile_format);
+                                          if(return_value_strcasecmp_21 == 0)
+                                            tmp_if_expr_29 = 1572864;
 
                                           else
                                           {
-                                            return_value_strcasecmp$22=strcasecmp("WVE", soundfile_format);
-                                            if(return_value_strcasecmp$22 == 0)
-                                              tmp_if_expr$28 = 1638400;
+                                            return_value_strcasecmp_22=strcasecmp("WVE", soundfile_format);
+                                            if(return_value_strcasecmp_22 == 0)
+                                              tmp_if_expr_28 = 1638400;
 
                                             else
                                             {
-                                              return_value_strcasecmp$23=strcasecmp("OGG", soundfile_format);
-                                              if(return_value_strcasecmp$23 == 0)
-                                                tmp_if_expr$27 = 2097152;
+                                              return_value_strcasecmp_23=strcasecmp("OGG", soundfile_format);
+                                              if(return_value_strcasecmp_23 == 0)
+                                                tmp_if_expr_27 = 2097152;
 
                                               else
                                               {
-                                                return_value_strcasecmp$24=strcasecmp("MPC2K", soundfile_format);
-                                                if(return_value_strcasecmp$24 == 0)
-                                                  tmp_if_expr$26 = 2162688;
+                                                return_value_strcasecmp_24=strcasecmp("MPC2K", soundfile_format);
+                                                if(return_value_strcasecmp_24 == 0)
+                                                  tmp_if_expr_26 = 2162688;
 
                                                 else
                                                 {
-                                                  return_value_strcasecmp$25=strcasecmp("RF64", soundfile_format);
-                                                  tmp_if_expr$26 = !(return_value_strcasecmp$25 != 0) ? 2228224 : -1;
+                                                  return_value_strcasecmp_25=strcasecmp("RF64", soundfile_format);
+                                                  tmp_if_expr_26 = !(return_value_strcasecmp_25 != 0) ? 2228224 : -1;
                                                 }
-                                                tmp_if_expr$27 = tmp_if_expr$26;
+                                                tmp_if_expr_27 = tmp_if_expr_26;
                                               }
-                                              tmp_if_expr$28 = tmp_if_expr$27;
+                                              tmp_if_expr_28 = tmp_if_expr_27;
                                             }
-                                            tmp_if_expr$29 = tmp_if_expr$28;
+                                            tmp_if_expr_29 = tmp_if_expr_28;
                                           }
-                                          tmp_if_expr$30 = tmp_if_expr$29;
+                                          tmp_if_expr_30 = tmp_if_expr_29;
                                         }
-                                        tmp_if_expr$31 = tmp_if_expr$30;
+                                        tmp_if_expr_31 = tmp_if_expr_30;
                                       }
-                                      tmp_if_expr$32 = tmp_if_expr$31;
+                                      tmp_if_expr_32 = tmp_if_expr_31;
                                     }
-                                    tmp_if_expr$33 = tmp_if_expr$32;
+                                    tmp_if_expr_33 = tmp_if_expr_32;
                                   }
-                                  tmp_if_expr$34 = tmp_if_expr$33;
+                                  tmp_if_expr_34 = tmp_if_expr_33;
                                 }
-                                tmp_if_expr$35 = tmp_if_expr$34;
+                                tmp_if_expr_35 = tmp_if_expr_34;
                               }
-                              tmp_if_expr$36 = tmp_if_expr$35;
+                              tmp_if_expr_36 = tmp_if_expr_35;
                             }
-                            tmp_if_expr$37 = tmp_if_expr$36;
+                            tmp_if_expr_37 = tmp_if_expr_36;
                           }
-                          tmp_if_expr$38 = tmp_if_expr$37;
+                          tmp_if_expr_38 = tmp_if_expr_37;
                         }
-                        tmp_if_expr$39 = tmp_if_expr$38;
+                        tmp_if_expr_39 = tmp_if_expr_38;
                       }
-                      tmp_if_expr$40 = tmp_if_expr$39;
+                      tmp_if_expr_40 = tmp_if_expr_39;
                     }
-                    tmp_if_expr$41 = tmp_if_expr$40;
+                    tmp_if_expr_41 = tmp_if_expr_40;
                   }
-                  tmp_if_expr$42 = tmp_if_expr$41;
+                  tmp_if_expr_42 = tmp_if_expr_41;
                 }
-                tmp_if_expr$43 = tmp_if_expr$42;
+                tmp_if_expr_43 = tmp_if_expr_42;
               }
-              tmp_if_expr$44 = tmp_if_expr$43;
+              tmp_if_expr_44 = tmp_if_expr_43;
             }
-            tmp_if_expr$45 = tmp_if_expr$44;
+            tmp_if_expr_45 = tmp_if_expr_44;
           }
-          tmp_if_expr$46 = tmp_if_expr$45;
+          tmp_if_expr_46 = tmp_if_expr_45;
         }
-        tmp_if_expr$47 = tmp_if_expr$46;
+        tmp_if_expr_47 = tmp_if_expr_46;
       }
-      tmp_if_expr$48 = tmp_if_expr$47;
+      tmp_if_expr_48 = tmp_if_expr_47;
     }
-    tmp_if_expr$49 = tmp_if_expr$48;
+    tmp_if_expr_49 = tmp_if_expr_48;
   }
-  return tmp_if_expr$49;
+  return tmp_if_expr_49;
 }
 
 // setup_helper_thread
@@ -6605,12 +6605,12 @@ static void start_jack(void)
   if(I_am_already_called == (_Bool)0)
   {
     client=new_jack_client("jack_capture");
-    unsigned int return_value_jack_get_sample_rate$1;
-    return_value_jack_get_sample_rate$1=jack_get_sample_rate(client);
-    jack_samplerate = (float)return_value_jack_get_sample_rate$1;
-    unsigned int return_value_jack_get_buffer_size$2;
-    return_value_jack_get_buffer_size$2=jack_get_buffer_size(client);
-    block_size = (signed int)return_value_jack_get_buffer_size$2;
+    unsigned int return_value_jack_get_sample_rate_1;
+    return_value_jack_get_sample_rate_1=jack_get_sample_rate(client);
+    jack_samplerate = (float)return_value_jack_get_sample_rate_1;
+    unsigned int return_value_jack_get_buffer_size_2;
+    return_value_jack_get_buffer_size_2=jack_get_buffer_size(client);
+    block_size = (signed int)return_value_jack_get_buffer_size_2;
     I_am_already_called = (_Bool)1;
   }
 
@@ -6627,17 +6627,17 @@ static void start_keypress_thread(void)
 // file jack_capture.c line 1736
 static void start_meterbridge(signed int num_channels)
 {
-  void *return_value_my_calloc$1;
-  return_value_my_calloc$1=my_calloc((unsigned long int)1, (unsigned long int)5000);
-  meterbridge_jackname = (char *)return_value_my_calloc$1;
-  char *return_value_jack_get_client_name$2;
-  return_value_jack_get_client_name$2=jack_get_client_name(client);
-  sprintf(meterbridge_jackname, "%s_meterbridge", return_value_jack_get_client_name$2);
+  void *return_value_my_calloc_1;
+  return_value_my_calloc_1=my_calloc((unsigned long int)1, (unsigned long int)5000);
+  meterbridge_jackname = (char *)return_value_my_calloc_1;
+  char *return_value_jack_get_client_name_2;
+  return_value_jack_get_client_name_2=jack_get_client_name(client);
+  sprintf(meterbridge_jackname, "%s_meterbridge", return_value_jack_get_client_name_2);
   meterbridge_pid=fork();
   if(meterbridge_pid == 0)
   {
-    const signed long int start_meterbridge$array_size0 = (signed long int)(100 + num_channels);
-    char *argv[start_meterbridge$array_size0];
+    const signed long int start_meterbridge_array_size0 = (signed long int)(100 + num_channels);
+    char *argv[start_meterbridge_array_size0];
     argv[(signed long int)0] = "meterbridge";
     argv[(signed long int)1] = "-t";
     argv[(signed long int)2] = meterbridge_type;
@@ -6679,29 +6679,29 @@ static signed int stdout_write(float *buffer, unsigned long int frames)
   if(!(bufferlen >= bytes_to_write))
   {
     free((void *)tobuffer);
-    void *return_value_my_calloc$1;
-    return_value_my_calloc$1=my_calloc((unsigned long int)1, (unsigned long int)bytes_to_write);
-    tobuffer = (char *)return_value_my_calloc$1;
+    void *return_value_my_calloc_1;
+    return_value_my_calloc_1=my_calloc((unsigned long int)1, (unsigned long int)bytes_to_write);
+    tobuffer = (char *)return_value_my_calloc_1;
     bufferlen = bytes_to_write;
   }
 
   unsigned int i;
   signed int writeplace = 0;
   i = (unsigned int)0;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !((unsigned long int)i >= frames * (unsigned long int)num_channels); i = i + 1u)
   {
     signed int d;
-    double return_value_rint$2;
-    return_value_rint$2=rint((double)buffer[(signed long int)i] * 32767.0);
-    d = (signed int)return_value_rint$2;
-    tmp_post$3 = writeplace;
+    double return_value_rint_2;
+    return_value_rint_2=rint((double)buffer[(signed long int)i] * 32767.0);
+    d = (signed int)return_value_rint_2;
+    tmp_post_3 = writeplace;
     writeplace = writeplace + 1;
-    tobuffer[(signed long int)tmp_post$3] = (char)(unsigned char)(d & 0xff);
-    tmp_post$4 = writeplace;
+    tobuffer[(signed long int)tmp_post_3] = (char)(unsigned char)(d & 0xff);
+    tmp_post_4 = writeplace;
     writeplace = writeplace + 1;
-    tobuffer[(signed long int)tmp_post$4] = (char)(unsigned char)((d & 0xff00) >> 8 & 0xff);
+    tobuffer[(signed long int)tmp_post_4] = (char)(unsigned char)((d & 0xff00) >> 8 & 0xff);
   }
   signed int fd;
   fd=fileno(stdout);
@@ -6709,9 +6709,9 @@ static signed int stdout_write(float *buffer, unsigned long int frames)
   while(bytes_to_write >= 1)
   {
     signed int written;
-    signed long int return_value_write$5;
-    return_value_write$5=write(fd, (const void *)tobuffer_use, (unsigned long int)bytes_to_write);
-    written = (signed int)return_value_write$5;
+    signed long int return_value_write_5;
+    return_value_write_5=write(fd, (const void *)tobuffer_use, (unsigned long int)bytes_to_write);
+    written = (signed int)return_value_write_5;
     if(written == -1)
     {
       fprintf(stderr, "Error writing to stdout.\n");
@@ -6789,13 +6789,13 @@ signed int string_charpos(char *s, char c)
 char * string_concat(char *s1, char *s2)
 {
   char *ret;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(s2);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)4);
-  ret = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(s2);
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)4);
+  ret = (char *)return_value_malloc_3;
   sprintf(ret, "%s%s", s1, s2);
   return ret;
 }
@@ -6805,25 +6805,25 @@ char * string_concat(char *s1, char *s2)
 char * strip_whitespace(char *s)
 {
   char *ret = s;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*ret]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*ret]) == 0)
       break;
 
     ret = ret + 1l;
   }
   while((_Bool)1);
   signed int pos;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(ret);
-  pos = (signed int)(return_value_strlen$2 - (unsigned long int)1);
-  const unsigned short int **return_value___ctype_b_loc$3;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(ret);
+  pos = (signed int)(return_value_strlen_2 - (unsigned long int)1);
+  const unsigned short int **return_value___ctype_b_loc_3;
   do
   {
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)ret[(signed long int)pos]]) == 0)
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)ret[(signed long int)pos]]) == 0)
       break;
 
     ret[(signed long int)pos] = (char)0;
@@ -6838,18 +6838,18 @@ char * strip_whitespace(char *s)
 char * substring(char *s, signed int start, signed int end)
 {
   char *ret;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, (unsigned long int)((end - start) + 1));
-  ret = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, (unsigned long int)((end - start) + 1));
+  ret = (char *)return_value_calloc_1;
   signed int read_pos = start;
   signed int write_pos = 0;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  for( ; !(read_pos >= end); ret[(signed long int)tmp_post$2] = s[(signed long int)tmp_post$3])
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  for( ; !(read_pos >= end); ret[(signed long int)tmp_post_2] = s[(signed long int)tmp_post_3])
   {
-    tmp_post$2 = write_pos;
+    tmp_post_2 = write_pos;
     write_pos = write_pos + 1;
-    tmp_post$3 = read_pos;
+    tmp_post_3 = read_pos;
     read_pos = read_pos + 1;
   }
   return ret;
@@ -6880,7 +6880,7 @@ static void turn_on_echo(void)
 
 // upwaker_sleep
 // file upwaker.h line 29
-void upwaker_sleep(struct anonymous$3 *upwaker)
+void upwaker_sleep(struct anonymous_3 *upwaker)
 {
   if(upwaker->please_wakeup == 0)
     pthread_cond_wait(&upwaker->cond, &upwaker->mutex);
@@ -6890,7 +6890,7 @@ void upwaker_sleep(struct anonymous$3 *upwaker)
 
 // upwaker_wake_up
 // file upwaker.h line 30
-void upwaker_wake_up(struct anonymous$3 *upwaker)
+void upwaker_wake_up(struct anonymous_3 *upwaker)
 {
   upwaker->please_wakeup = 1;
   pthread_cond_broadcast(&upwaker->cond);
@@ -6918,19 +6918,19 @@ static void verbose_print(const char *fmt, ...)
 struct vringbuffer_t * vringbuffer_create(signed int num_elements_during_startup, signed int max_num_elements, unsigned long int element_size)
 {
   struct vringbuffer_t *vrb;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct vringbuffer_t) /*216ul*/ );
-  vrb = (struct vringbuffer_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct vringbuffer_t) /*216ul*/ );
+  vrb = (struct vringbuffer_t *)return_value_calloc_1;
   vrb->for_writer1=jack_ringbuffer_create(sizeof(void *) /*8ul*/  * (unsigned long int)max_num_elements);
   vrb->for_writer2=jack_ringbuffer_create(sizeof(void *) /*8ul*/  * (unsigned long int)max_num_elements);
   vrb->for_reader=jack_ringbuffer_create(sizeof(void *) /*8ul*/  * (unsigned long int)max_num_elements);
   vrb->element_size = element_size;
   vrb->max_num_elements = max_num_elements;
   vrb->please_stop = (_Bool)0;
-  pthread_mutex_init(&vrb->increase_lock, (const union anonymous$6 *)(void *)0);
-  _Bool return_value_vringbuffer_increase_writer1$2;
-  return_value_vringbuffer_increase_writer1$2=vringbuffer_increase_writer1(vrb, num_elements_during_startup, (_Bool)1);
-  if((signed int)return_value_vringbuffer_increase_writer1$2 == 0)
+  pthread_mutex_init(&vrb->increase_lock, (const union anonymous_6 *)(void *)0);
+  _Bool return_value_vringbuffer_increase_writer1_2;
+  return_value_vringbuffer_increase_writer1_2=vringbuffer_increase_writer1(vrb, num_elements_during_startup, (_Bool)1);
+  if((signed int)return_value_vringbuffer_increase_writer1_2 == 0)
     return (struct vringbuffer_t *)(void *)0;
 
   else
@@ -6972,9 +6972,9 @@ void * vringbuffer_get_reading(struct vringbuffer_t *vrb)
 void * vringbuffer_get_writing(struct vringbuffer_t *vrb)
 {
   void *ret = (void *)0;
-  unsigned long int return_value_jack_ringbuffer_read$1;
-  return_value_jack_ringbuffer_read$1=jack_ringbuffer_read(vrb->for_writer2, (char *)&ret, sizeof(void *) /*8ul*/ );
-  if(return_value_jack_ringbuffer_read$1 == 0ul)
+  unsigned long int return_value_jack_ringbuffer_read_1;
+  return_value_jack_ringbuffer_read_1=jack_ringbuffer_read(vrb->for_writer2, (char *)&ret, sizeof(void *) /*8ul*/ );
+  if(return_value_jack_ringbuffer_read_1 == 0ul)
     jack_ringbuffer_read(vrb->for_writer1, (char *)&ret, sizeof(void *) /*8ul*/ );
 
   return ret;
@@ -7012,9 +7012,9 @@ static _Bool vringbuffer_increase_writer1(struct vringbuffer_t *vrb, signed int 
     pthread_mutex_lock(&vrb->increase_lock);
     signed int i;
     struct vringbuffer_list_t *element;
-    void *return_value_my_malloc$1;
-    return_value_my_malloc$1=my_malloc((unsigned long int)1, sizeof(struct vringbuffer_list_t) /*8ul*/  + (unsigned long int)num_elements * vrb->element_size);
-    element = (struct vringbuffer_list_t *)return_value_my_malloc$1;
+    void *return_value_my_malloc_1;
+    return_value_my_malloc_1=my_malloc((unsigned long int)1, sizeof(struct vringbuffer_list_t) /*8ul*/  + (unsigned long int)num_elements * vrb->element_size);
+    element = (struct vringbuffer_list_t *)return_value_my_malloc_1;
     element->next = vrb->allocated_mem;
     vrb->allocated_mem = element;
     char *das_buffer = (char *)(element + (signed long int)1);
@@ -7049,9 +7049,9 @@ static _Bool vringbuffer_increase_writer1(struct vringbuffer_t *vrb, signed int 
 // file vringbuffer.h line 104
 signed int vringbuffer_reading_size(struct vringbuffer_t *vrb)
 {
-  unsigned long int return_value_jack_ringbuffer_read_space$1;
-  return_value_jack_ringbuffer_read_space$1=jack_ringbuffer_read_space(vrb->for_reader);
-  return (signed int)(return_value_jack_ringbuffer_read_space$1 / sizeof(void *) /*8ul*/ );
+  unsigned long int return_value_jack_ringbuffer_read_space_1;
+  return_value_jack_ringbuffer_read_space_1=jack_ringbuffer_read_space(vrb->for_reader);
+  return (signed int)(return_value_jack_ringbuffer_read_space_1 / sizeof(void *) /*8ul*/ );
 }
 
 // vringbuffer_return_reading
@@ -7122,11 +7122,11 @@ void vringbuffer_trigger_autoincrease_callback(struct vringbuffer_t *vrb)
 // file vringbuffer.h line 111
 signed int vringbuffer_writing_size(struct vringbuffer_t *vrb)
 {
-  unsigned long int return_value_jack_ringbuffer_read_space$1;
-  return_value_jack_ringbuffer_read_space$1=jack_ringbuffer_read_space(vrb->for_writer1);
-  unsigned long int return_value_jack_ringbuffer_read_space$2;
-  return_value_jack_ringbuffer_read_space$2=jack_ringbuffer_read_space(vrb->for_writer2);
-  return (signed int)((return_value_jack_ringbuffer_read_space$1 + return_value_jack_ringbuffer_read_space$2) / sizeof(void *) /*8ul*/ );
+  unsigned long int return_value_jack_ringbuffer_read_space_1;
+  return_value_jack_ringbuffer_read_space_1=jack_ringbuffer_read_space(vrb->for_writer1);
+  unsigned long int return_value_jack_ringbuffer_read_space_2;
+  return_value_jack_ringbuffer_read_space_2=jack_ringbuffer_read_space(vrb->for_writer2);
+  return (signed int)((return_value_jack_ringbuffer_read_space_1 + return_value_jack_ringbuffer_read_space_2) / sizeof(void *) /*8ul*/ );
 }
 
 // wait_child
@@ -7147,18 +7147,18 @@ void wait_until_recording_finished(void)
   if((signed int)use_jack_freewheel == 1)
     print_message("Waiting for Jack Freewheeling .\n");
 
-  signed int return_value_sem_wait$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int return_value_sem_wait_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   do
   {
-    return_value_sem_wait$1=sem_wait(&stop_sem);
-    if(!(return_value_sem_wait$1 == -1))
+    return_value_sem_wait_1=sem_wait(&stop_sem);
+    if(!(return_value_sem_wait_1 == -1))
       break;
 
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    print_message("Warning: sem_wait failed: %s", return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    print_message("Warning: sem_wait failed: %s", return_value_strerror_3);
   }
   while((_Bool)1);
   turn_on_echo();

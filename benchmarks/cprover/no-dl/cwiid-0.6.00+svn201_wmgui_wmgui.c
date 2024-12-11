@@ -1,118 +1,118 @@
-// #anon_enum$GDK_FONT_FONT=0$GDK_FONT_FONTSET=1
+// #anon_enum_GDK_FONT_FONT=0_GDK_FONT_FONTSET=1
 // file /usr/include/gtk-2.0/gdk/gdkfont.h line 43
-enum anonymous$16 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
+enum anonymous_16 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
 
-// #anon_enum$GDK_LSB_FIRST=0$GDK_MSB_FIRST=1
+// #anon_enum_GDK_LSB_FIRST=0_GDK_MSB_FIRST=1
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 118
-enum anonymous$15 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
+enum anonymous_15 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
 
-// #anon_enum$GDK_NOTHING=-1$GDK_DELETE=0$GDK_DESTROY=1$GDK_EXPOSE=2$GDK_MOTION_NOTIFY=3$GDK_BUTTON_PRESS=4$GDK_2BUTTON_PRESS=5$GDK_3BUTTON_PRESS=6$GDK_BUTTON_RELEASE=7$GDK_KEY_PRESS=8$GDK_KEY_RELEASE=9$GDK_ENTER_NOTIFY=10$GDK_LEAVE_NOTIFY=11$GDK_FOCUS_CHANGE=12$GDK_CONFIGURE=13$GDK_MAP=14$GDK_UNMAP=15$GDK_PROPERTY_NOTIFY=16$GDK_SELECTION_CLEAR=17$GDK_SELECTION_REQUEST=18$GDK_SELECTION_NOTIFY=19$GDK_PROXIMITY_IN=20$GDK_PROXIMITY_OUT=21$GDK_DRAG_ENTER=22$GDK_DRAG_LEAVE=23$GDK_DRAG_MOTION=24$GDK_DRAG_STATUS=25$GDK_DROP_START=26$GDK_DROP_FINISHED=27$GDK_CLIENT_EVENT=28$GDK_VISIBILITY_NOTIFY=29$GDK_NO_EXPOSE=30$GDK_SCROLL=31$GDK_WINDOW_STATE=32$GDK_SETTING=33$GDK_OWNER_CHANGE=34$GDK_GRAB_BROKEN=35$GDK_DAMAGE=36$GDK_EVENT_LAST=37
+// #anon_enum_GDK_NOTHING=-1_GDK_DELETE=0_GDK_DESTROY=1_GDK_EXPOSE=2_GDK_MOTION_NOTIFY=3_GDK_BUTTON_PRESS=4_GDK_2BUTTON_PRESS=5_GDK_3BUTTON_PRESS=6_GDK_BUTTON_RELEASE=7_GDK_KEY_PRESS=8_GDK_KEY_RELEASE=9_GDK_ENTER_NOTIFY=10_GDK_LEAVE_NOTIFY=11_GDK_FOCUS_CHANGE=12_GDK_CONFIGURE=13_GDK_MAP=14_GDK_UNMAP=15_GDK_PROPERTY_NOTIFY=16_GDK_SELECTION_CLEAR=17_GDK_SELECTION_REQUEST=18_GDK_SELECTION_NOTIFY=19_GDK_PROXIMITY_IN=20_GDK_PROXIMITY_OUT=21_GDK_DRAG_ENTER=22_GDK_DRAG_LEAVE=23_GDK_DRAG_MOTION=24_GDK_DRAG_STATUS=25_GDK_DROP_START=26_GDK_DROP_FINISHED=27_GDK_CLIENT_EVENT=28_GDK_VISIBILITY_NOTIFY=29_GDK_NO_EXPOSE=30_GDK_SCROLL=31_GDK_WINDOW_STATE=32_GDK_SETTING=33_GDK_OWNER_CHANGE=34_GDK_GRAB_BROKEN=35_GDK_DAMAGE=36_GDK_EVENT_LAST=37
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 115
-enum anonymous$20 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
+enum anonymous_20 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
 
-// #anon_enum$GDK_SHIFT_MASK=1$GDK_LOCK_MASK=2$GDK_CONTROL_MASK=4$GDK_MOD1_MASK=8$GDK_MOD2_MASK=16$GDK_MOD3_MASK=32$GDK_MOD4_MASK=64$GDK_MOD5_MASK=128$GDK_BUTTON1_MASK=256$GDK_BUTTON2_MASK=512$GDK_BUTTON3_MASK=1024$GDK_BUTTON4_MASK=2048$GDK_BUTTON5_MASK=4096$GDK_SUPER_MASK=67108864$GDK_HYPER_MASK=134217728$GDK_META_MASK=268435456$GDK_RELEASE_MASK=1073741824$GDK_MODIFIER_MASK=1543512063
+// #anon_enum_GDK_SHIFT_MASK=1_GDK_LOCK_MASK=2_GDK_CONTROL_MASK=4_GDK_MOD1_MASK=8_GDK_MOD2_MASK=16_GDK_MOD3_MASK=32_GDK_MOD4_MASK=64_GDK_MOD5_MASK=128_GDK_BUTTON1_MASK=256_GDK_BUTTON2_MASK=512_GDK_BUTTON3_MASK=1024_GDK_BUTTON4_MASK=2048_GDK_BUTTON5_MASK=4096_GDK_SUPER_MASK=67108864_GDK_HYPER_MASK=134217728_GDK_META_MASK=268435456_GDK_RELEASE_MASK=1073741824_GDK_MODIFIER_MASK=1543512063
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 126
-enum anonymous$4 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
+enum anonymous_4 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
 
-// #anon_enum$GDK_VISUAL_STATIC_GRAY=0$GDK_VISUAL_GRAYSCALE=1$GDK_VISUAL_STATIC_COLOR=2$GDK_VISUAL_PSEUDO_COLOR=3$GDK_VISUAL_TRUE_COLOR=4$GDK_VISUAL_DIRECT_COLOR=5
+// #anon_enum_GDK_VISUAL_STATIC_GRAY=0_GDK_VISUAL_GRAYSCALE=1_GDK_VISUAL_STATIC_COLOR=2_GDK_VISUAL_PSEUDO_COLOR=3_GDK_VISUAL_TRUE_COLOR=4_GDK_VISUAL_DIRECT_COLOR=5
 // file /usr/include/gtk-2.0/gdk/gdkvisual.h line 55
-enum anonymous$14 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
+enum anonymous_14 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
 
-// #anon_enum$GTK_ACCEL_VISIBLE=1$GTK_ACCEL_LOCKED=2$GTK_ACCEL_MASK=7
+// #anon_enum_GTK_ACCEL_VISIBLE=1_GTK_ACCEL_LOCKED=2_GTK_ACCEL_MASK=7
 // file /usr/include/gtk-2.0/gtk/gtkaccelgroup.h line 51
-enum anonymous$1 { GTK_ACCEL_VISIBLE=1, GTK_ACCEL_LOCKED=2, GTK_ACCEL_MASK=7 };
+enum anonymous_1 { GTK_ACCEL_VISIBLE=1, GTK_ACCEL_LOCKED=2, GTK_ACCEL_MASK=7 };
 
-// #anon_enum$GTK_BUTTONS_NONE=0$GTK_BUTTONS_OK=1$GTK_BUTTONS_CLOSE=2$GTK_BUTTONS_CANCEL=3$GTK_BUTTONS_YES_NO=4$GTK_BUTTONS_OK_CANCEL=5
+// #anon_enum_GTK_BUTTONS_NONE=0_GTK_BUTTONS_OK=1_GTK_BUTTONS_CLOSE=2_GTK_BUTTONS_CANCEL=3_GTK_BUTTONS_YES_NO=4_GTK_BUTTONS_OK_CANCEL=5
 // file /usr/include/gtk-2.0/gtk/gtkmessagedialog.h line 89
-enum anonymous$7 { GTK_BUTTONS_NONE=0, GTK_BUTTONS_OK=1, GTK_BUTTONS_CLOSE=2, GTK_BUTTONS_CANCEL=3, GTK_BUTTONS_YES_NO=4, GTK_BUTTONS_OK_CANCEL=5 };
+enum anonymous_7 { GTK_BUTTONS_NONE=0, GTK_BUTTONS_OK=1, GTK_BUTTONS_CLOSE=2, GTK_BUTTONS_CANCEL=3, GTK_BUTTONS_YES_NO=4, GTK_BUTTONS_OK_CANCEL=5 };
 
-// #anon_enum$GTK_DIALOG_MODAL=1$GTK_DIALOG_DESTROY_WITH_PARENT=2$GTK_DIALOG_NO_SEPARATOR=4
+// #anon_enum_GTK_DIALOG_MODAL=1_GTK_DIALOG_DESTROY_WITH_PARENT=2_GTK_DIALOG_NO_SEPARATOR=4
 // file /usr/include/gtk-2.0/gtk/gtkdialog.h line 41
-enum anonymous$12 { GTK_DIALOG_MODAL=1, GTK_DIALOG_DESTROY_WITH_PARENT=2, GTK_DIALOG_NO_SEPARATOR=4 };
+enum anonymous_12 { GTK_DIALOG_MODAL=1, GTK_DIALOG_DESTROY_WITH_PARENT=2, GTK_DIALOG_NO_SEPARATOR=4 };
 
-// #anon_enum$GTK_EXPAND=1$GTK_SHRINK=2$GTK_FILL=4
+// #anon_enum_GTK_EXPAND=1_GTK_SHRINK=2_GTK_FILL=4
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 79
-enum anonymous$18 { GTK_EXPAND=1, GTK_SHRINK=2, GTK_FILL=4 };
+enum anonymous_18 { GTK_EXPAND=1, GTK_SHRINK=2, GTK_FILL=4 };
 
-// #anon_enum$GTK_ICON_SIZE_INVALID=0$GTK_ICON_SIZE_MENU=1$GTK_ICON_SIZE_SMALL_TOOLBAR=2$GTK_ICON_SIZE_LARGE_TOOLBAR=3$GTK_ICON_SIZE_BUTTON=4$GTK_ICON_SIZE_DND=5$GTK_ICON_SIZE_DIALOG=6
+// #anon_enum_GTK_ICON_SIZE_INVALID=0_GTK_ICON_SIZE_MENU=1_GTK_ICON_SIZE_SMALL_TOOLBAR=2_GTK_ICON_SIZE_LARGE_TOOLBAR=3_GTK_ICON_SIZE_BUTTON=4_GTK_ICON_SIZE_DND=5_GTK_ICON_SIZE_DIALOG=6
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 142
-enum anonymous$19 { GTK_ICON_SIZE_INVALID=0, GTK_ICON_SIZE_MENU=1, GTK_ICON_SIZE_SMALL_TOOLBAR=2, GTK_ICON_SIZE_LARGE_TOOLBAR=3, GTK_ICON_SIZE_BUTTON=4, GTK_ICON_SIZE_DND=5, GTK_ICON_SIZE_DIALOG=6 };
+enum anonymous_19 { GTK_ICON_SIZE_INVALID=0, GTK_ICON_SIZE_MENU=1, GTK_ICON_SIZE_SMALL_TOOLBAR=2, GTK_ICON_SIZE_LARGE_TOOLBAR=3, GTK_ICON_SIZE_BUTTON=4, GTK_ICON_SIZE_DND=5, GTK_ICON_SIZE_DIALOG=6 };
 
-// #anon_enum$GTK_JUSTIFY_LEFT=0$GTK_JUSTIFY_RIGHT=1$GTK_JUSTIFY_CENTER=2$GTK_JUSTIFY_FILL=3
+// #anon_enum_GTK_JUSTIFY_LEFT=0_GTK_JUSTIFY_RIGHT=1_GTK_JUSTIFY_CENTER=2_GTK_JUSTIFY_FILL=3
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 181
-enum anonymous$3 { GTK_JUSTIFY_LEFT=0, GTK_JUSTIFY_RIGHT=1, GTK_JUSTIFY_CENTER=2, GTK_JUSTIFY_FILL=3 };
+enum anonymous_3 { GTK_JUSTIFY_LEFT=0, GTK_JUSTIFY_RIGHT=1, GTK_JUSTIFY_CENTER=2, GTK_JUSTIFY_FILL=3 };
 
-// #anon_enum$GTK_MESSAGE_INFO=0$GTK_MESSAGE_WARNING=1$GTK_MESSAGE_QUESTION=2$GTK_MESSAGE_ERROR=3$GTK_MESSAGE_OTHER=4
+// #anon_enum_GTK_MESSAGE_INFO=0_GTK_MESSAGE_WARNING=1_GTK_MESSAGE_QUESTION=2_GTK_MESSAGE_ERROR=3_GTK_MESSAGE_OTHER=4
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 221
-enum anonymous$17 { GTK_MESSAGE_INFO=0, GTK_MESSAGE_WARNING=1, GTK_MESSAGE_QUESTION=2, GTK_MESSAGE_ERROR=3, GTK_MESSAGE_OTHER=4 };
+enum anonymous_17 { GTK_MESSAGE_INFO=0, GTK_MESSAGE_WARNING=1, GTK_MESSAGE_QUESTION=2, GTK_MESSAGE_ERROR=3, GTK_MESSAGE_OTHER=4 };
 
-// #anon_enum$GTK_PROGRESS_CONTINUOUS=0$GTK_PROGRESS_DISCRETE=1
+// #anon_enum_GTK_PROGRESS_CONTINUOUS=0_GTK_PROGRESS_DISCRETE=1
 // file /usr/include/gtk-2.0/gtk/gtkprogressbar.h line 51
-enum anonymous$5 { GTK_PROGRESS_CONTINUOUS=0, GTK_PROGRESS_DISCRETE=1 };
+enum anonymous_5 { GTK_PROGRESS_CONTINUOUS=0, GTK_PROGRESS_DISCRETE=1 };
 
-// #anon_enum$GTK_PROGRESS_LEFT_TO_RIGHT=0$GTK_PROGRESS_RIGHT_TO_LEFT=1$GTK_PROGRESS_BOTTOM_TO_TOP=2$GTK_PROGRESS_TOP_TO_BOTTOM=3
+// #anon_enum_GTK_PROGRESS_LEFT_TO_RIGHT=0_GTK_PROGRESS_RIGHT_TO_LEFT=1_GTK_PROGRESS_BOTTOM_TO_TOP=2_GTK_PROGRESS_TOP_TO_BOTTOM=3
 // file /usr/include/gtk-2.0/gtk/gtkprogressbar.h line 57
-enum anonymous$6 { GTK_PROGRESS_LEFT_TO_RIGHT=0, GTK_PROGRESS_RIGHT_TO_LEFT=1, GTK_PROGRESS_BOTTOM_TO_TOP=2, GTK_PROGRESS_TOP_TO_BOTTOM=3 };
+enum anonymous_6 { GTK_PROGRESS_LEFT_TO_RIGHT=0, GTK_PROGRESS_RIGHT_TO_LEFT=1, GTK_PROGRESS_BOTTOM_TO_TOP=2, GTK_PROGRESS_TOP_TO_BOTTOM=3 };
 
-// #anon_enum$GTK_RC_FG=1$GTK_RC_BG=2$GTK_RC_TEXT=4$GTK_RC_BASE=8
+// #anon_enum_GTK_RC_FG=1_GTK_RC_BG=2_GTK_RC_TEXT=4_GTK_RC_BASE=8
 // file /usr/include/gtk-2.0/gtk/gtkrc.h line 52
-enum anonymous$8 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
+enum anonymous_8 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
 
-// #anon_enum$GTK_SHADOW_NONE=0$GTK_SHADOW_IN=1$GTK_SHADOW_OUT=2$GTK_SHADOW_ETCHED_IN=3$GTK_SHADOW_ETCHED_OUT=4
+// #anon_enum_GTK_SHADOW_NONE=0_GTK_SHADOW_IN=1_GTK_SHADOW_OUT=2_GTK_SHADOW_ETCHED_IN=3_GTK_SHADOW_ETCHED_OUT=4
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 389
 enum anonymous { GTK_SHADOW_NONE=0, GTK_SHADOW_IN=1, GTK_SHADOW_OUT=2, GTK_SHADOW_ETCHED_IN=3, GTK_SHADOW_ETCHED_OUT=4 };
 
-// #anon_enum$GTK_STATE_NORMAL=0$GTK_STATE_ACTIVE=1$GTK_STATE_PRELIGHT=2$GTK_STATE_SELECTED=3$GTK_STATE_INSENSITIVE=4
+// #anon_enum_GTK_STATE_NORMAL=0_GTK_STATE_ACTIVE=1_GTK_STATE_PRELIGHT=2_GTK_STATE_SELECTED=3_GTK_STATE_INSENSITIVE=4
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 399
-enum anonymous$21 { GTK_STATE_NORMAL=0, GTK_STATE_ACTIVE=1, GTK_STATE_PRELIGHT=2, GTK_STATE_SELECTED=3, GTK_STATE_INSENSITIVE=4 };
+enum anonymous_21 { GTK_STATE_NORMAL=0, GTK_STATE_ACTIVE=1, GTK_STATE_PRELIGHT=2, GTK_STATE_SELECTED=3, GTK_STATE_INSENSITIVE=4 };
 
-// #anon_enum$GTK_WINDOW_TOPLEVEL=0$GTK_WINDOW_POPUP=1
+// #anon_enum_GTK_WINDOW_TOPLEVEL=0_GTK_WINDOW_POPUP=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 460
-enum anonymous$0 { GTK_WINDOW_TOPLEVEL=0, GTK_WINDOW_POPUP=1 };
+enum anonymous_0 { GTK_WINDOW_TOPLEVEL=0, GTK_WINDOW_POPUP=1 };
 
-// #anon_enum$GTK_WRAP_NONE=0$GTK_WRAP_CHAR=1$GTK_WRAP_WORD=2$GTK_WRAP_WORD_CHAR=3
+// #anon_enum_GTK_WRAP_NONE=0_GTK_WRAP_CHAR=1_GTK_WRAP_WORD=2_GTK_WRAP_WORD_CHAR=3
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 467
-enum anonymous$10 { GTK_WRAP_NONE=0, GTK_WRAP_CHAR=1, GTK_WRAP_WORD=2, GTK_WRAP_WORD_CHAR=3 };
+enum anonymous_10 { GTK_WRAP_NONE=0, GTK_WRAP_CHAR=1, GTK_WRAP_WORD=2, GTK_WRAP_WORD_CHAR=3 };
 
-// #anon_enum$G_CONNECT_AFTER=1$G_CONNECT_SWAPPED=2
+// #anon_enum_G_CONNECT_AFTER=1_G_CONNECT_SWAPPED=2
 // file /usr/include/glib-2.0/gobject/gsignal.h line 155
-enum anonymous$11 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
+enum anonymous_11 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
 
-// #anon_enum$G_FILE_TEST_IS_REGULAR=1$G_FILE_TEST_IS_SYMLINK=2$G_FILE_TEST_IS_DIR=4$G_FILE_TEST_IS_EXECUTABLE=8$G_FILE_TEST_EXISTS=16
+// #anon_enum_G_FILE_TEST_IS_REGULAR=1_G_FILE_TEST_IS_SYMLINK=2_G_FILE_TEST_IS_DIR=4_G_FILE_TEST_IS_EXECUTABLE=8_G_FILE_TEST_EXISTS=16
 // file /usr/include/glib-2.0/glib/gfileutils.h line 66
-enum anonymous$23 { G_FILE_TEST_IS_REGULAR=1, G_FILE_TEST_IS_SYMLINK=2, G_FILE_TEST_IS_DIR=4, G_FILE_TEST_IS_EXECUTABLE=8, G_FILE_TEST_EXISTS=16 };
+enum anonymous_23 { G_FILE_TEST_IS_REGULAR=1, G_FILE_TEST_IS_SYMLINK=2, G_FILE_TEST_IS_DIR=4, G_FILE_TEST_IS_EXECUTABLE=8, G_FILE_TEST_EXISTS=16 };
 
-// #anon_enum$G_LOG_FLAG_RECURSION=1$G_LOG_FLAG_FATAL=2$G_LOG_LEVEL_ERROR=4$G_LOG_LEVEL_CRITICAL=8$G_LOG_LEVEL_WARNING=16$G_LOG_LEVEL_MESSAGE=32$G_LOG_LEVEL_INFO=64$G_LOG_LEVEL_DEBUG=128$G_LOG_LEVEL_MASK=-4
+// #anon_enum_G_LOG_FLAG_RECURSION=1_G_LOG_FLAG_FATAL=2_G_LOG_LEVEL_ERROR=4_G_LOG_LEVEL_CRITICAL=8_G_LOG_LEVEL_WARNING=16_G_LOG_LEVEL_MESSAGE=32_G_LOG_LEVEL_INFO=64_G_LOG_LEVEL_DEBUG=128_G_LOG_LEVEL_MASK=-4
 // file /usr/include/glib-2.0/glib/gmessages.h line 51
-enum anonymous$22 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
+enum anonymous_22 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
 
-// tag-#anon#ST[ARR6{U8}$U8$'b'|]
+// tag-#anon#ST[ARR6{U8}_U8_'b'|]
 // file /usr/include/bluetooth/bluetooth.h line 300
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}$U8$'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}$U8$'dev_class'||U16'clock_offset'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}_U8_'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}_U8_'dev_class'||U16'clock_offset'|]
 // file /usr/include/bluetooth/hci.h line 1748
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}$V$'v_pointer'|]
+// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}_V_'v_pointer'|]
 // file /usr/include/glib-2.0/gobject/gvalue.h line 112
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$9;
+union anonymous_9;
 
 // tag-_AtkAction
 // file /usr/include/atk-1.0/atk/atkaction.h line 47
@@ -613,13 +613,13 @@ extern const char * atk_action_get_name(struct _AtkAction *, signed int);
 extern signed int atk_action_set_description(struct _AtkAction *, signed int, const char *);
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$2 *ba1, const struct anonymous$2 *ba2);
-// bacmp$link1
+static inline signed int bacmp(const struct anonymous_2 *ba1, const struct anonymous_2 *ba2);
+// bacmp_link1
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp$link1(const struct anonymous$2 *ba1$link1, const struct anonymous$2 *ba2$link1);
+static inline signed int bacmp_link1(const struct anonymous_2 *ba1_link1, const struct anonymous_2 *ba2_link1);
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$2 *dst, const struct anonymous$2 *src);
+static inline void bacpy(struct anonymous_2 *dst, const struct anonymous_2 *src);
 // btnBeep_clicked
 // file main.c line 991
 void btnBeep_clicked(void);
@@ -728,12 +728,12 @@ void cwiid_err(struct wiimote *wiimote, const char *str, ...);
 // cwiid_err_default
 // file util.c line 74
 void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap);
-// cwiid_err_func$object
+// cwiid_err_func_object
 //
-void cwiid_err_func$object(struct wiimote *, const char *, void **);
+void cwiid_err_func_object(struct wiimote *, const char *, void **);
 // cwiid_find_wiimote
 // file bluetooth.c line 173
-signed int cwiid_find_wiimote(struct anonymous$2 *bdaddr, signed int timeout);
+signed int cwiid_find_wiimote(struct anonymous_2 *bdaddr, signed int timeout);
 // cwiid_get_acc_cal
 // file ../libcwiid/cwiid.h line 376
 signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_type, struct acc_cal *acc_cal);
@@ -763,10 +763,10 @@ void cwiid_ir(struct cwiid_ir_mesg *mesg);
 void cwiid_nunchuk(struct cwiid_nunchuk_mesg *mesg);
 // cwiid_open
 // file ../libcwiid/cwiid.h line 360
-struct wiimote * cwiid_open(struct anonymous$2 *bdaddr, signed int flags);
+struct wiimote * cwiid_open(struct anonymous_2 *bdaddr, signed int flags);
 // cwiid_open_timeout
 // file connect.c line 73
-struct wiimote * cwiid_open_timeout(struct anonymous$2 *bdaddr, signed int flags, signed int timeout);
+struct wiimote * cwiid_open_timeout(struct anonymous_2 *bdaddr, signed int flags, signed int timeout);
 // cwiid_read
 // file ../libcwiid/cwiid.h line 390
 signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int offset, unsigned short int len, void *data);
@@ -782,18 +782,18 @@ signed int cwiid_set_data(struct wiimote *wiimote, const void *data);
 // cwiid_set_err
 // file util.c line 65
 signed int cwiid_set_err(void (*err)(struct wiimote *, const char *, void **));
-// cwiid_set_err::err$object
+// cwiid_set_err::err_object
 //
-void err$object(struct wiimote *, const char *, void **);
+void err_object(struct wiimote *, const char *, void **);
 // cwiid_set_led
 // file ../libcwiid/cwiid.h line 387
 signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led);
 // cwiid_set_mesg_callback
 // file ../libcwiid/cwiid.h line 371
 signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *));
-// cwiid_set_mesg_callback::callback$object
+// cwiid_set_mesg_callback::callback_object
 //
-void callback$object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
 // cwiid_set_rpt_mode
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode);
@@ -832,7 +832,7 @@ signed int full_read(signed int fd, void *buf, unsigned long int len);
 extern void g_error_free(struct _GError *);
 // g_file_test
 // file /usr/include/glib-2.0/glib/gfileutils.h line 82
-extern signed int g_file_test(const char *, enum anonymous$23);
+extern signed int g_file_test(const char *, enum anonymous_23);
 // g_free
 // file /usr/include/glib-2.0/glib/gmem.h line 71
 extern void g_free(void *);
@@ -841,7 +841,7 @@ extern void g_free(void *);
 extern struct _GList * g_list_prepend(struct _GList *, void *);
 // g_log
 // file /usr/include/glib-2.0/glib/gmessages.h line 101
-extern void g_log(const char *, enum anonymous$22, const char *, ...);
+extern void g_log(const char *, enum anonymous_22, const char *, ...);
 // g_object_get_data
 // file /usr/include/glib-2.0/gobject/gobject.h line 551
 extern void * g_object_get_data(struct _GObject *, const char *);
@@ -853,7 +853,7 @@ extern void g_object_set_data(struct _GObject *, const char *, void *);
 extern void g_object_set_data_full(struct _GObject *, const char *, void *, void (*)(void *));
 // g_signal_connect_data
 // file /usr/include/glib-2.0/gobject/gsignal.h line 388
-extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous$11);
+extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous_11);
 // g_snprintf
 // file /usr/include/glib-2.0/glib/gutils.h line 201
 extern signed int g_snprintf(char *, unsigned long int, const char *, ...);
@@ -997,7 +997,7 @@ struct _GtkWidget * gtk_image_new(void);
 struct _GtkWidget * gtk_image_new_from_file(const char *);
 // gtk_image_new_from_stock
 // file /usr/include/gtk-2.0/gtk/gtkimage.h line 199
-struct _GtkWidget * gtk_image_new_from_stock(const char *, enum anonymous$19);
+struct _GtkWidget * gtk_image_new_from_stock(const char *, enum anonymous_19);
 // gtk_init
 // file /usr/include/gtk-2.0/gtk/gtkmain.h line 94
 void gtk_init(signed int *, char ***);
@@ -1009,7 +1009,7 @@ unsigned long int gtk_label_get_type(void);
 struct _GtkWidget * gtk_label_new(const char *);
 // gtk_label_set_justify
 // file /usr/include/gtk-2.0/gtk/gtklabel.h line 138
-void gtk_label_set_justify(struct _GtkLabel *, enum anonymous$3);
+void gtk_label_set_justify(struct _GtkLabel *, enum anonymous_3);
 // gtk_label_set_text
 // file /usr/include/gtk-2.0/gtk/gtklabel.h line 112
 void gtk_label_set_text(struct _GtkLabel *, const char *);
@@ -1045,7 +1045,7 @@ void gtk_menu_item_set_submenu(struct _GtkMenuItem *, struct _GtkWidget *);
 struct _GtkWidget * gtk_menu_new(void);
 // gtk_message_dialog_new
 // file /usr/include/gtk-2.0/gtk/gtkmessagedialog.h line 101
-struct _GtkWidget * gtk_message_dialog_new(struct _GtkWindow *, enum anonymous$12, enum anonymous$17, enum anonymous$7, const char *, ...);
+struct _GtkWidget * gtk_message_dialog_new(struct _GtkWindow *, enum anonymous_12, enum anonymous_17, enum anonymous_7, const char *, ...);
 // gtk_misc_get_type
 // file /usr/include/gtk-2.0/gtk/gtkmisc.h line 68
 unsigned long int gtk_misc_get_type(void);
@@ -1105,7 +1105,7 @@ unsigned int gtk_statusbar_push(struct _GtkStatusbar *, unsigned int, const char
 void gtk_statusbar_set_has_resize_grip(struct _GtkStatusbar *, signed int);
 // gtk_table_attach
 // file /usr/include/gtk-2.0/gtk/gtktable.h line 109
-void gtk_table_attach(struct _GtkTable *, struct _GtkWidget *, unsigned int, unsigned int, unsigned int, unsigned int, enum anonymous$18, enum anonymous$18, unsigned int, unsigned int);
+void gtk_table_attach(struct _GtkTable *, struct _GtkWidget *, unsigned int, unsigned int, unsigned int, unsigned int, enum anonymous_18, enum anonymous_18, unsigned int, unsigned int);
 // gtk_table_get_type
 // file /usr/include/gtk-2.0/gtk/gtktable.h line 102
 unsigned long int gtk_table_get_type(void);
@@ -1147,7 +1147,7 @@ unsigned long int gtk_toggle_button_get_type(void);
 struct _GtkWidget * gtk_vbox_new(signed int, signed int);
 // gtk_widget_add_accelerator
 // file /usr/include/gtk-2.0/gtk/gtkwidget.h line 892
-void gtk_widget_add_accelerator(struct _GtkWidget *, const char *, struct _GtkAccelGroup *, unsigned int, enum anonymous$4, enum anonymous$1);
+void gtk_widget_add_accelerator(struct _GtkWidget *, const char *, struct _GtkAccelGroup *, unsigned int, enum anonymous_4, enum anonymous_1);
 // gtk_widget_destroy
 // file /usr/include/gtk-2.0/gtk/gtkwidget.h line 837
 void gtk_widget_destroy(struct _GtkWidget *);
@@ -1162,7 +1162,7 @@ unsigned long int gtk_widget_get_type(void);
 void gtk_widget_hide(struct _GtkWidget *);
 // gtk_widget_modify_bg
 // file /usr/include/gtk-2.0/gtk/gtkwidget.h line 1149
-void gtk_widget_modify_bg(struct _GtkWidget *, enum anonymous$21, const struct _GdkColor *);
+void gtk_widget_modify_bg(struct _GtkWidget *, enum anonymous_21, const struct _GdkColor *);
 // gtk_widget_queue_draw
 // file /usr/include/gtk-2.0/gtk/gtkwidget.h line 864
 void gtk_widget_queue_draw(struct _GtkWidget *);
@@ -1192,7 +1192,7 @@ void gtk_window_add_accel_group(struct _GtkWindow *, struct _GtkAccelGroup *);
 unsigned long int gtk_window_get_type(void);
 // gtk_window_new
 // file /usr/include/gtk-2.0/gtk/gtkwindow.h line 179
-struct _GtkWidget * gtk_window_new(enum anonymous$0);
+struct _GtkWidget * gtk_window_new(enum anonymous_0);
 // gtk_window_set_title
 // file /usr/include/gtk-2.0/gtk/gtkwindow.h line 180
 void gtk_window_set_title(struct _GtkWindow *, const char *);
@@ -1201,16 +1201,16 @@ void gtk_window_set_title(struct _GtkWindow *, const char *);
 signed int hci_close_dev(signed int);
 // hci_get_route
 // file /usr/include/bluetooth/hci_lib.h line 146
-signed int hci_get_route(struct anonymous$2 *);
+signed int hci_get_route(struct anonymous_2 *);
 // hci_inquiry
 // file /usr/include/bluetooth/hci_lib.h line 59
-signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous$24 **, signed long int);
+signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous_24 **, signed long int);
 // hci_open_dev
 // file /usr/include/bluetooth/hci_lib.h line 51
 signed int hci_open_dev(signed int);
 // hci_read_remote_name
 // file /usr/include/bluetooth/hci_lib.h line 66
-signed int hci_read_remote_name(signed int, const struct anonymous$2 *, signed int, char *, signed int);
+signed int hci_read_remote_name(signed int, const struct anonymous_2 *, signed int, char *, signed int);
 // lookup_widget
 // file support.h line 21
 struct _GtkWidget * lookup_widget(struct _GtkWidget *widget, const char *widget_name);
@@ -1244,12 +1244,12 @@ void menuRW_activate(void);
 // mesg_callback_thread
 // file cwiid_internal.h line 194
 void * mesg_callback_thread(struct wiimote *wiimote);
-// mesg_callback_thread::1::callback$object
+// mesg_callback_thread::1::callback_object
 //
-void callback$object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
 // message
 // file main.c line 450
-void message(enum anonymous$17 type, const char *message, struct _GtkWindow *parent);
+void message(enum anonymous_17 type, const char *message, struct _GtkWindow *parent);
 // pipe
 // file /usr/include/unistd.h line 417
 extern signed int pipe(signed int *);
@@ -1291,7 +1291,7 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$26 *, union anonymous$9 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_26 *, union anonymous_9 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1303,16 +1303,16 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$9 *);
+extern signed int pthread_mutex_destroy(union anonymous_9 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$9 *, const union anonymous$27 *);
+extern signed int pthread_mutex_init(union anonymous_9 *, const union anonymous_27 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$9 *);
+extern signed int pthread_mutex_lock(union anonymous_9 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$9 *);
+extern signed int pthread_mutex_unlock(union anonymous_9 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -1357,7 +1357,7 @@ void status(const char *status);
 void * status_thread(struct wiimote *wiimote);
 // str2ba
 // file /usr/include/bluetooth/bluetooth.h line 327
-signed int str2ba(const char *, struct anonymous$2 *);
+signed int str2ba(const char *, struct anonymous_2 *);
 // strcmp
 // file /usr/include/string.h line 144
 extern signed int strcmp(const char *, const char *);
@@ -1392,13 +1392,13 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file cwiid_internal.h line 202
 signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma);
 
-struct anonymous$2
+struct anonymous_2
 {
   // b
   unsigned char b[6l];
 } __attribute__ ((__packed__));
 
-struct anonymous$25
+struct anonymous_25
 {
   // __lock
   signed int __lock;
@@ -1418,10 +1418,10 @@ struct anonymous$25
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // bdaddr
-  struct anonymous$2 bdaddr;
+  struct anonymous_2 bdaddr;
   // pscan_rep_mode
   unsigned char pscan_rep_mode;
   // pscan_period_mode
@@ -1434,7 +1434,7 @@ struct anonymous$24
   unsigned short int clock_offset;
 } __attribute__ ((__packed__));
 
-union anonymous$27
+union anonymous_27
 {
   // __size
   char __size[4l];
@@ -1442,7 +1442,7 @@ union anonymous$27
   signed int __align;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // v_int
   signed int v_int;
@@ -1464,10 +1464,10 @@ union anonymous$13
   void *v_pointer;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // __data
-  struct anonymous$25 __data;
+  struct anonymous_25 __data;
   // __size
   char __size[48l];
   // __align
@@ -1502,7 +1502,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1613,7 +1613,7 @@ struct _GValue
   // g_type
   unsigned long int g_type;
   // data
-  union anonymous$13 data[2l];
+  union anonymous_13 data[2l];
 };
 
 struct _GdkColor
@@ -1663,7 +1663,7 @@ struct _GdkRectangle
 struct _GdkEventExpose
 {
   // type
-  enum anonymous$20 type;
+  enum anonymous_20 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -1679,7 +1679,7 @@ struct _GdkEventExpose
 struct _GdkFont
 {
   // type
-  enum anonymous$16 type;
+  enum anonymous_16 type;
   // ascent
   signed int ascent;
   // descent
@@ -1725,11 +1725,11 @@ struct _GdkVisual
   // parent_instance
   struct _GObject parent_instance;
   // type
-  enum anonymous$14 type;
+  enum anonymous_14 type;
   // depth
   signed int depth;
   // byte_order
-  enum anonymous$15 byte_order;
+  enum anonymous_15 byte_order;
   // colormap_size
   signed int colormap_size;
   // bits_per_rgb
@@ -1761,7 +1761,7 @@ struct _GtkAccelGroup
   // lock_count
   unsigned int lock_count;
   // modifier_mask
-  enum anonymous$4 modifier_mask;
+  enum anonymous_4 modifier_mask;
   // acceleratables
   struct _GSList *acceleratables;
   // n_accels
@@ -1775,7 +1775,7 @@ struct _GtkAccelKey
   // accel_key
   unsigned int accel_key;
   // accel_mods
-  enum anonymous$4 accel_mods;
+  enum anonymous_4 accel_mods;
   // accel_flags
   unsigned int accel_flags : 16;
 };
@@ -2075,7 +2075,7 @@ struct _GtkWindow
   // keys_changed_handler
   unsigned int keys_changed_handler;
   // mnemonic_modifier
-  enum anonymous$4 mnemonic_modifier;
+  enum anonymous_4 mnemonic_modifier;
   // screen
   struct _GdkScreen *screen;
 };
@@ -2395,9 +2395,9 @@ struct _GtkProgressBar
   // progress
   struct _GtkProgress progress;
   // bar_style
-  enum anonymous$5 bar_style;
+  enum anonymous_5 bar_style;
   // orientation
-  enum anonymous$6 orientation;
+  enum anonymous_6 orientation;
   // blocks
   unsigned int blocks;
   // in_block
@@ -2437,7 +2437,7 @@ struct _GtkRcStyle
   // font_desc
   struct _PangoFontDescription *font_desc;
   // color_flags
-  enum anonymous$8 color_flags[5l];
+  enum anonymous_8 color_flags[5l];
   // fg
   struct _GdkColor fg[5l];
   // bg
@@ -2715,9 +2715,9 @@ struct _GtkTextView
   // pixels_inside_wrap
   signed int pixels_inside_wrap;
   // wrap_mode
-  enum anonymous$10 wrap_mode;
+  enum anonymous_10 wrap_mode;
   // justify
-  enum anonymous$3 justify;
+  enum anonymous_3 justify;
   // left_margin
   signed int left_margin;
   // right_margin
@@ -2947,7 +2947,7 @@ struct cwiid_balance_mesg
 struct cwiid_bdinfo
 {
   // bdaddr
-  struct anonymous$2 bdaddr;
+  struct anonymous_2 bdaddr;
   // btclass
   unsigned char btclass[3l];
   // name
@@ -3165,7 +3165,7 @@ struct sockaddr_l2
   // l2_psm
   unsigned short int l2_psm;
   // l2_bdaddr
-  struct anonymous$2 l2_bdaddr;
+  struct anonymous_2 l2_bdaddr;
   // l2_cid
   unsigned short int l2_cid;
   // l2_bdaddr_type
@@ -3211,11 +3211,11 @@ struct wiimote
   // mesg_callback
   void (*mesg_callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
   // state_mutex
-  union anonymous$9 state_mutex;
+  union anonymous_9 state_mutex;
   // rw_mutex
-  union anonymous$9 rw_mutex;
+  union anonymous_9 rw_mutex;
   // rpt_mutex
-  union anonymous$9 rpt_mutex;
+  union anonymous_9 rpt_mutex;
   // id
   signed int id;
   // data
@@ -3239,7 +3239,7 @@ struct write_seq
 
 // bdaddr
 // file main.c line 89
-struct anonymous$2 bdaddr;
+struct anonymous_2 bdaddr;
 // btnBeep
 // file main.c line 142
 struct _GtkWidget *btnBeep;
@@ -3392,7 +3392,7 @@ struct _GtkWidget *evRight;
 struct _GtkWidget *evUp;
 // global_mutex
 // file connect.c line 64
-union anonymous$9 global_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_9 global_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // ir_block1
@@ -3751,34 +3751,34 @@ struct acc_cal wm_cal;
 // file support.c line 49
 void add_pixmap_directory(const char *directory)
 {
-  char *return_value_g_strdup$1;
-  return_value_g_strdup$1=g_strdup(directory);
-  pixmaps_directories=g_list_prepend(pixmaps_directories, (void *)return_value_g_strdup$1);
+  char *return_value_g_strdup_1;
+  return_value_g_strdup_1=g_strdup(directory);
+  pixmaps_directories=g_list_prepend(pixmaps_directories, (void *)return_value_g_strdup_1);
 }
 
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$2 *ba1, const struct anonymous$2 *ba2)
+static inline signed int bacmp(const struct anonymous_2 *ba1, const struct anonymous_2 *ba2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous$2) /*6ul*/ );
-  return return_value_memcmp$1;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous_2) /*6ul*/ );
+  return return_value_memcmp_1;
 }
 
-// bacmp$link1
+// bacmp_link1
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp$link1(const struct anonymous$2 *ba1$link1, const struct anonymous$2 *ba2$link1)
+static inline signed int bacmp_link1(const struct anonymous_2 *ba1_link1, const struct anonymous_2 *ba2_link1)
 {
-  signed int return_value_memcmp$1$link1;
-  return_value_memcmp$1$link1=memcmp((const void *)ba1$link1, (const void *)ba2$link1, sizeof(struct anonymous$2) /*6ul*/ );
-  return return_value_memcmp$1$link1;
+  signed int return_value_memcmp_1_link1;
+  return_value_memcmp_1_link1=memcmp((const void *)ba1_link1, (const void *)ba2_link1, sizeof(struct anonymous_2) /*6ul*/ );
+  return return_value_memcmp_1_link1;
 }
 
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$2 *dst, const struct anonymous$2 *src)
+static inline void bacpy(struct anonymous_2 *dst, const struct anonymous_2 *src)
 {
-  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous$2) /*6ul*/ );
+  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous_2) /*6ul*/ );
 }
 
 // btnBeep_clicked
@@ -3806,63 +3806,63 @@ void btnRead_clicked(void)
   unsigned int len;
   signed int flags;
   unsigned int i;
-  unsigned long int return_value_gtk_entry_get_type$1;
-  return_value_gtk_entry_get_type$1=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)txtReadOffset, return_value_gtk_entry_get_type$1);
-  const char *return_value_gtk_entry_get_text$3;
-  return_value_gtk_entry_get_text$3=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$2);
-  signed long int return_value_strtol$4;
-  return_value_strtol$4=strtol(return_value_gtk_entry_get_text$3, &cursor, 16);
-  offset = (unsigned int)return_value_strtol$4;
+  unsigned long int return_value_gtk_entry_get_type_1;
+  return_value_gtk_entry_get_type_1=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)txtReadOffset, return_value_gtk_entry_get_type_1);
+  const char *return_value_gtk_entry_get_text_3;
+  return_value_gtk_entry_get_text_3=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_2);
+  signed long int return_value_strtol_4;
+  return_value_strtol_4=strtol(return_value_gtk_entry_get_text_3, &cursor, 16);
+  offset = (unsigned int)return_value_strtol_4;
   if(!((signed int)*cursor == 0))
   {
-    unsigned long int return_value_gtk_window_get_type$5;
-    return_value_gtk_window_get_type$5=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$5);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "Invalid read offset", (struct _GtkWindow *)return_value_g_type_check_instance_cast$6);
+    unsigned long int return_value_gtk_window_get_type_5;
+    return_value_gtk_window_get_type_5=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_5);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "Invalid read offset", (struct _GtkWindow *)return_value_g_type_check_instance_cast_6);
   }
 
-  unsigned long int return_value_gtk_entry_get_type$7;
-  return_value_gtk_entry_get_type$7=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)txtReadLen, return_value_gtk_entry_get_type$7);
-  const char *return_value_gtk_entry_get_text$9;
-  return_value_gtk_entry_get_text$9=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$8);
-  signed long int return_value_strtol$10;
-  return_value_strtol$10=strtol(return_value_gtk_entry_get_text$9, &cursor, 16);
-  len = (unsigned int)return_value_strtol$10;
+  unsigned long int return_value_gtk_entry_get_type_7;
+  return_value_gtk_entry_get_type_7=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)txtReadLen, return_value_gtk_entry_get_type_7);
+  const char *return_value_gtk_entry_get_text_9;
+  return_value_gtk_entry_get_text_9=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_8);
+  signed long int return_value_strtol_10;
+  return_value_strtol_10=strtol(return_value_gtk_entry_get_text_9, &cursor, 16);
+  len = (unsigned int)return_value_strtol_10;
   if(!((signed int)*cursor == 0))
   {
-    unsigned long int return_value_gtk_window_get_type$11;
-    return_value_gtk_window_get_type$11=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-    return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$11);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "Invalid read len", (struct _GtkWindow *)return_value_g_type_check_instance_cast$12);
+    unsigned long int return_value_gtk_window_get_type_11;
+    return_value_gtk_window_get_type_11=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+    return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_11);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "Invalid read len", (struct _GtkWindow *)return_value_g_type_check_instance_cast_12);
   }
 
-  unsigned long int return_value_gtk_toggle_button_get_type$13;
-  return_value_gtk_toggle_button_get_type$13=gtk_toggle_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)radReadReg, return_value_gtk_toggle_button_get_type$13);
-  signed int return_value_gtk_toggle_button_get_active$15;
-  return_value_gtk_toggle_button_get_active$15=gtk_toggle_button_get_active((struct _GtkToggleButton *)return_value_g_type_check_instance_cast$14);
-  if(!(return_value_gtk_toggle_button_get_active$15 == 0))
+  unsigned long int return_value_gtk_toggle_button_get_type_13;
+  return_value_gtk_toggle_button_get_type_13=gtk_toggle_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)radReadReg, return_value_gtk_toggle_button_get_type_13);
+  signed int return_value_gtk_toggle_button_get_active_15;
+  return_value_gtk_toggle_button_get_active_15=gtk_toggle_button_get_active((struct _GtkToggleButton *)return_value_g_type_check_instance_cast_14);
+  if(!(return_value_gtk_toggle_button_get_active_15 == 0))
     flags = 0x04;
 
   else
     flags = 0x00;
-  signed int return_value_cwiid_read$20;
+  signed int return_value_cwiid_read_20;
   static unsigned char buf[65535l];
-  return_value_cwiid_read$20=cwiid_read(wiimote, (unsigned char)flags, offset, (unsigned short int)len, (void *)buf);
-  if(!(return_value_cwiid_read$20 == 0))
+  return_value_cwiid_read_20=cwiid_read(wiimote, (unsigned char)flags, offset, (unsigned short int)len, (void *)buf);
+  if(!(return_value_cwiid_read_20 == 0))
   {
-    unsigned long int return_value_gtk_window_get_type$16;
-    return_value_gtk_window_get_type$16=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$17;
-    return_value_g_type_check_instance_cast$17=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$16);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "Wiimote read error", (struct _GtkWindow *)return_value_g_type_check_instance_cast$17);
+    unsigned long int return_value_gtk_window_get_type_16;
+    return_value_gtk_window_get_type_16=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_17;
+    return_value_g_type_check_instance_cast_17=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_16);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "Wiimote read error", (struct _GtkWindow *)return_value_g_type_check_instance_cast_17);
   }
 
   else
@@ -3899,11 +3899,11 @@ void btnRead_clicked(void)
     gtk_text_buffer_get_end_iter(tbRW, &text_iter);
     p_text_mark=gtk_text_buffer_create_mark(tbRW, (const char *)(void *)0, &text_iter, (signed int)!(0 != 0));
     gtk_text_buffer_insert(tbRW, &text_iter, txt, -1);
-    unsigned long int return_value_gtk_text_view_get_type$18;
-    return_value_gtk_text_view_get_type$18=gtk_text_view_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$19;
-    return_value_g_type_check_instance_cast$19=g_type_check_instance_cast((struct _GTypeInstance *)tvRW, return_value_gtk_text_view_get_type$18);
-    gtk_text_view_scroll_to_mark((struct _GtkTextView *)return_value_g_type_check_instance_cast$19, p_text_mark, 0.01, (signed int)!(0 != 0), 0.0, 0.0);
+    unsigned long int return_value_gtk_text_view_get_type_18;
+    return_value_gtk_text_view_get_type_18=gtk_text_view_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_19;
+    return_value_g_type_check_instance_cast_19=g_type_check_instance_cast((struct _GTypeInstance *)tvRW, return_value_gtk_text_view_get_type_18);
+    gtk_text_view_scroll_to_mark((struct _GtkTextView *)return_value_g_type_check_instance_cast_19, p_text_mark, 0.01, (signed int)!(0 != 0), 0.0, 0.0);
   }
 }
 
@@ -3916,42 +3916,42 @@ void btnWrite_clicked(void)
   unsigned int offset;
   unsigned short int len;
   unsigned char flags;
-  unsigned long int return_value_gtk_entry_get_type$1;
-  return_value_gtk_entry_get_type$1=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)txtWriteOffset, return_value_gtk_entry_get_type$1);
-  const char *return_value_gtk_entry_get_text$3;
-  return_value_gtk_entry_get_text$3=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$2);
-  signed long int return_value_strtol$4;
-  return_value_strtol$4=strtol(return_value_gtk_entry_get_text$3, &cursor, 16);
-  offset = (unsigned int)return_value_strtol$4;
+  unsigned long int return_value_gtk_entry_get_type_1;
+  return_value_gtk_entry_get_type_1=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)txtWriteOffset, return_value_gtk_entry_get_type_1);
+  const char *return_value_gtk_entry_get_text_3;
+  return_value_gtk_entry_get_text_3=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_2);
+  signed long int return_value_strtol_4;
+  return_value_strtol_4=strtol(return_value_gtk_entry_get_text_3, &cursor, 16);
+  offset = (unsigned int)return_value_strtol_4;
   if(!((signed int)*cursor == 0))
   {
-    unsigned long int return_value_gtk_window_get_type$5;
-    return_value_gtk_window_get_type$5=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$5);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "Invalid read offset", (struct _GtkWindow *)return_value_g_type_check_instance_cast$6);
+    unsigned long int return_value_gtk_window_get_type_5;
+    return_value_gtk_window_get_type_5=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_5);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "Invalid read offset", (struct _GtkWindow *)return_value_g_type_check_instance_cast_6);
   }
 
-  unsigned long int return_value_gtk_toggle_button_get_type$7;
-  return_value_gtk_toggle_button_get_type$7=gtk_toggle_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)radWriteReg, return_value_gtk_toggle_button_get_type$7);
-  signed int return_value_gtk_toggle_button_get_active$9;
-  return_value_gtk_toggle_button_get_active$9=gtk_toggle_button_get_active((struct _GtkToggleButton *)return_value_g_type_check_instance_cast$8);
-  if(!(return_value_gtk_toggle_button_get_active$9 == 0))
+  unsigned long int return_value_gtk_toggle_button_get_type_7;
+  return_value_gtk_toggle_button_get_type_7=gtk_toggle_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)radWriteReg, return_value_gtk_toggle_button_get_type_7);
+  signed int return_value_gtk_toggle_button_get_active_9;
+  return_value_gtk_toggle_button_get_active_9=gtk_toggle_button_get_active((struct _GtkToggleButton *)return_value_g_type_check_instance_cast_8);
+  if(!(return_value_gtk_toggle_button_get_active_9 == 0))
     flags = (unsigned char)0x04;
 
   else
     flags = (unsigned char)0x00;
-  unsigned long int return_value_gtk_entry_get_type$10;
-  return_value_gtk_entry_get_type$10=gtk_entry_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$11;
-  return_value_g_type_check_instance_cast$11=g_type_check_instance_cast((struct _GTypeInstance *)txtWriteData, return_value_gtk_entry_get_type$10);
-  const char *return_value_gtk_entry_get_text$12;
-  return_value_gtk_entry_get_text$12=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast$11);
-  data = (char *)return_value_gtk_entry_get_text$12;
+  unsigned long int return_value_gtk_entry_get_type_10;
+  return_value_gtk_entry_get_type_10=gtk_entry_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_11;
+  return_value_g_type_check_instance_cast_11=g_type_check_instance_cast((struct _GTypeInstance *)txtWriteData, return_value_gtk_entry_get_type_10);
+  const char *return_value_gtk_entry_get_text_12;
+  return_value_gtk_entry_get_text_12=gtk_entry_get_text((struct _GtkEntry *)return_value_g_type_check_instance_cast_11);
+  data = (char *)return_value_gtk_entry_get_text_12;
   cursor = data;
   len = (unsigned short int)0;
   static unsigned char buf[32l];
@@ -3959,11 +3959,11 @@ void btnWrite_clicked(void)
   {
     if((signed int)len >= 33)
     {
-      unsigned long int return_value_gtk_window_get_type$13;
-      return_value_gtk_window_get_type$13=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-      return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$13);
-      message((enum anonymous$17)GTK_MESSAGE_ERROR, "Message too long", (struct _GtkWindow *)return_value_g_type_check_instance_cast$14);
+      unsigned long int return_value_gtk_window_get_type_13;
+      return_value_gtk_window_get_type_13=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+      return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_13);
+      message((enum anonymous_17)GTK_MESSAGE_ERROR, "Message too long", (struct _GtkWindow *)return_value_g_type_check_instance_cast_14);
       goto __CPROVER_DUMP_L13;
     }
 
@@ -3972,68 +3972,68 @@ void btnWrite_clicked(void)
     if((signed int)*cursor == 0)
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$17;
-    return_value___ctype_b_loc$17=__ctype_b_loc();
-    if((4096 & (signed int)(*return_value___ctype_b_loc$17)[(signed long int)(signed int)*cursor]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_17;
+    return_value___ctype_b_loc_17=__ctype_b_loc();
+    if((4096 & (signed int)(*return_value___ctype_b_loc_17)[(signed long int)(signed int)*cursor]) == 0)
     {
-      unsigned long int return_value_gtk_window_get_type$15;
-      return_value_gtk_window_get_type$15=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-      return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$15);
-      message((enum anonymous$17)GTK_MESSAGE_ERROR, "Invalid write data", (struct _GtkWindow *)return_value_g_type_check_instance_cast$16);
+      unsigned long int return_value_gtk_window_get_type_15;
+      return_value_gtk_window_get_type_15=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+      return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_15);
+      message((enum anonymous_17)GTK_MESSAGE_ERROR, "Invalid write data", (struct _GtkWindow *)return_value_g_type_check_instance_cast_16);
       goto __CPROVER_DUMP_L13;
     }
 
-    char return_value_chartox$18;
-    return_value_chartox$18=chartox(*cursor);
-    buf[(signed long int)len] = (unsigned char)((signed int)return_value_chartox$18 << 4);
+    char return_value_chartox_18;
+    return_value_chartox_18=chartox(*cursor);
+    buf[(signed long int)len] = (unsigned char)((signed int)return_value_chartox_18 << 4);
     cursor = cursor + 1l;
-    const unsigned short int **return_value___ctype_b_loc$21;
-    return_value___ctype_b_loc$21=__ctype_b_loc();
-    if((4096 & (signed int)(*return_value___ctype_b_loc$21)[(signed long int)(signed int)*cursor]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_21;
+    return_value___ctype_b_loc_21=__ctype_b_loc();
+    if((4096 & (signed int)(*return_value___ctype_b_loc_21)[(signed long int)(signed int)*cursor]) == 0)
     {
-      unsigned long int return_value_gtk_window_get_type$19;
-      return_value_gtk_window_get_type$19=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-      return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$19);
-      message((enum anonymous$17)GTK_MESSAGE_ERROR, "Invalid write data (digits must come in pairs)", (struct _GtkWindow *)return_value_g_type_check_instance_cast$20);
+      unsigned long int return_value_gtk_window_get_type_19;
+      return_value_gtk_window_get_type_19=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+      return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_19);
+      message((enum anonymous_17)GTK_MESSAGE_ERROR, "Invalid write data (digits must come in pairs)", (struct _GtkWindow *)return_value_g_type_check_instance_cast_20);
       goto __CPROVER_DUMP_L13;
     }
 
-    char return_value_chartox$22;
-    return_value_chartox$22=chartox(*cursor);
-    buf[(signed long int)len] = (unsigned char)((signed int)buf[(signed long int)len] | (signed int)return_value_chartox$22);
+    char return_value_chartox_22;
+    return_value_chartox_22=chartox(*cursor);
+    buf[(signed long int)len] = (unsigned char)((signed int)buf[(signed long int)len] | (signed int)return_value_chartox_22);
     cursor = cursor + 1l;
     len = len + 1;
   }
   if((signed int)len == 0)
   {
-    unsigned long int return_value_gtk_window_get_type$23;
-    return_value_gtk_window_get_type$23=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-    return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$23);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "No write data", (struct _GtkWindow *)return_value_g_type_check_instance_cast$24);
+    unsigned long int return_value_gtk_window_get_type_23;
+    return_value_gtk_window_get_type_23=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+    return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_23);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "No write data", (struct _GtkWindow *)return_value_g_type_check_instance_cast_24);
     goto __CPROVER_DUMP_L13;
   }
 
-  signed int return_value_cwiid_write$29;
-  return_value_cwiid_write$29=cwiid_write(wiimote, flags, offset, len, (const void *)buf);
-  if(!(return_value_cwiid_write$29 == 0))
+  signed int return_value_cwiid_write_29;
+  return_value_cwiid_write_29=cwiid_write(wiimote, flags, offset, len, (const void *)buf);
+  if(!(return_value_cwiid_write_29 == 0))
   {
-    unsigned long int return_value_gtk_window_get_type$25;
-    return_value_gtk_window_get_type$25=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$26;
-    return_value_g_type_check_instance_cast$26=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$25);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "Wiimote write error", (struct _GtkWindow *)return_value_g_type_check_instance_cast$26);
+    unsigned long int return_value_gtk_window_get_type_25;
+    return_value_gtk_window_get_type_25=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_26;
+    return_value_g_type_check_instance_cast_26=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_25);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "Wiimote write error", (struct _GtkWindow *)return_value_g_type_check_instance_cast_26);
   }
 
   else
   {
-    unsigned long int return_value_gtk_window_get_type$27;
-    return_value_gtk_window_get_type$27=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-    return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type$27);
-    message((enum anonymous$17)GTK_MESSAGE_INFO, "Wiimote write successful", (struct _GtkWindow *)return_value_g_type_check_instance_cast$28);
+    unsigned long int return_value_gtk_window_get_type_27;
+    return_value_gtk_window_get_type_27=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+    return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)winRW, return_value_gtk_window_get_type_27);
+    message((enum anonymous_17)GTK_MESSAGE_INFO, "Wiimote write successful", (struct _GtkWindow *)return_value_g_type_check_instance_cast_28);
   }
 
 __CPROVER_DUMP_L13:
@@ -4045,17 +4045,17 @@ __CPROVER_DUMP_L13:
 signed int cancel_mesg_callback(struct wiimote *wiimote)
 {
   signed int ret = 0;
-  signed int return_value_pthread_cancel$1;
-  return_value_pthread_cancel$1=pthread_cancel(wiimote->mesg_callback_thread);
-  if(!(return_value_pthread_cancel$1 == 0))
+  signed int return_value_pthread_cancel_1;
+  return_value_pthread_cancel_1=pthread_cancel(wiimote->mesg_callback_thread);
+  if(!(return_value_pthread_cancel_1 == 0))
   {
     cwiid_err(wiimote, "Thread cancel error (callback thread)");
     ret = -1;
   }
 
-  signed int return_value_pthread_detach$2;
-  return_value_pthread_detach$2=pthread_detach(wiimote->mesg_callback_thread);
-  if(!(return_value_pthread_detach$2 == 0))
+  signed int return_value_pthread_detach_2;
+  return_value_pthread_detach_2=pthread_detach(wiimote->mesg_callback_thread);
+  if(!(return_value_pthread_detach_2 == 0))
   {
     cwiid_err(wiimote, "Thread detach error (callback thread)");
     ret = -1;
@@ -4070,9 +4070,9 @@ signed int cancel_rw(struct wiimote *wiimote)
 {
   struct rw_mesg rw_mesg;
   rw_mesg.type = (enum rw_status)RW_CANCEL;
-  signed long int return_value_write$1;
-  return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
   {
     cwiid_err(wiimote, "Pipe write error (rw)");
     return -1;
@@ -4091,9 +4091,9 @@ char chartox(char c)
   signed int val;
   str[(signed long int)0] = c;
   str[(signed long int)1] = (char)0;
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(str, &endptr, 16);
-  val = (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(str, &endptr, 16);
+  val = (signed int)return_value_strtol_1;
   if(!((signed int)*endptr == 0))
     return (char)-1;
 
@@ -4108,13 +4108,13 @@ void chkAcc_toggled(void)
   if(!(wiimote == ((struct wiimote *)NULL)))
     set_report_mode();
 
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type$1);
-  signed int return_value_gtk_check_menu_item_get_active$3;
-  return_value_gtk_check_menu_item_get_active$3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
-  if(return_value_gtk_check_menu_item_get_active$3 == 0)
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type_1);
+  signed int return_value_gtk_check_menu_item_get_active_3;
+  return_value_gtk_check_menu_item_get_active_3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
+  if(return_value_gtk_check_menu_item_get_active_3 == 0)
     clear_acc_widgets();
 
   set_gui_state();
@@ -4127,13 +4127,13 @@ void chkExt_toggled(void)
   if(!(wiimote == ((struct wiimote *)NULL)))
     set_report_mode();
 
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type$1);
-  signed int return_value_gtk_check_menu_item_get_active$3;
-  return_value_gtk_check_menu_item_get_active$3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
-  if(return_value_gtk_check_menu_item_get_active$3 == 0)
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type_1);
+  signed int return_value_gtk_check_menu_item_get_active_3;
+  return_value_gtk_check_menu_item_get_active_3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
+  if(return_value_gtk_check_menu_item_get_active_3 == 0)
   {
     clear_nunchuk_widgets();
     clear_classic_widgets();
@@ -4149,13 +4149,13 @@ void chkIR_toggled(void)
   if(!(wiimote == ((struct wiimote *)NULL)))
     set_report_mode();
 
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type$1);
-  signed int return_value_gtk_check_menu_item_get_active$3;
-  return_value_gtk_check_menu_item_get_active$3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
-  if(return_value_gtk_check_menu_item_get_active$3 == 0)
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type_1);
+  signed int return_value_gtk_check_menu_item_get_active_3;
+  return_value_gtk_check_menu_item_get_active_3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
+  if(return_value_gtk_check_menu_item_get_active_3 == 0)
     clear_ir_data();
 
   set_gui_state();
@@ -4168,40 +4168,40 @@ void chkLED_toggled(void)
   unsigned char LED_state;
   if(!(wiimote == ((struct wiimote *)NULL)))
   {
-    unsigned long int return_value_gtk_check_menu_item_get_type$1;
-    return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkLED1, return_value_gtk_check_menu_item_get_type$1);
-    signed int return_value_gtk_check_menu_item_get_active$3;
-    return_value_gtk_check_menu_item_get_active$3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
-    unsigned long int return_value_gtk_check_menu_item_get_type$4;
-    return_value_gtk_check_menu_item_get_type$4=gtk_check_menu_item_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-    return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)chkLED2, return_value_gtk_check_menu_item_get_type$4);
-    signed int return_value_gtk_check_menu_item_get_active$6;
-    return_value_gtk_check_menu_item_get_active$6=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$5);
-    unsigned long int return_value_gtk_check_menu_item_get_type$7;
-    return_value_gtk_check_menu_item_get_type$7=gtk_check_menu_item_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)chkLED3, return_value_gtk_check_menu_item_get_type$7);
-    signed int return_value_gtk_check_menu_item_get_active$9;
-    return_value_gtk_check_menu_item_get_active$9=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$8);
-    unsigned long int return_value_gtk_check_menu_item_get_type$10;
-    return_value_gtk_check_menu_item_get_type$10=gtk_check_menu_item_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$11;
-    return_value_g_type_check_instance_cast$11=g_type_check_instance_cast((struct _GTypeInstance *)chkLED4, return_value_gtk_check_menu_item_get_type$10);
-    signed int return_value_gtk_check_menu_item_get_active$12;
-    return_value_gtk_check_menu_item_get_active$12=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$11);
-    LED_state = (unsigned char)((return_value_gtk_check_menu_item_get_active$3 != 0 ? 0x01 : 0) | (return_value_gtk_check_menu_item_get_active$6 != 0 ? 0x02 : 0) | (return_value_gtk_check_menu_item_get_active$9 != 0 ? 0x04 : 0) | (return_value_gtk_check_menu_item_get_active$12 != 0 ? 0x08 : 0));
-    signed int return_value_cwiid_set_led$15;
-    return_value_cwiid_set_led$15=cwiid_set_led(wiimote, LED_state);
-    if(!(return_value_cwiid_set_led$15 == 0))
+    unsigned long int return_value_gtk_check_menu_item_get_type_1;
+    return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkLED1, return_value_gtk_check_menu_item_get_type_1);
+    signed int return_value_gtk_check_menu_item_get_active_3;
+    return_value_gtk_check_menu_item_get_active_3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
+    unsigned long int return_value_gtk_check_menu_item_get_type_4;
+    return_value_gtk_check_menu_item_get_type_4=gtk_check_menu_item_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+    return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)chkLED2, return_value_gtk_check_menu_item_get_type_4);
+    signed int return_value_gtk_check_menu_item_get_active_6;
+    return_value_gtk_check_menu_item_get_active_6=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_5);
+    unsigned long int return_value_gtk_check_menu_item_get_type_7;
+    return_value_gtk_check_menu_item_get_type_7=gtk_check_menu_item_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)chkLED3, return_value_gtk_check_menu_item_get_type_7);
+    signed int return_value_gtk_check_menu_item_get_active_9;
+    return_value_gtk_check_menu_item_get_active_9=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_8);
+    unsigned long int return_value_gtk_check_menu_item_get_type_10;
+    return_value_gtk_check_menu_item_get_type_10=gtk_check_menu_item_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_11;
+    return_value_g_type_check_instance_cast_11=g_type_check_instance_cast((struct _GTypeInstance *)chkLED4, return_value_gtk_check_menu_item_get_type_10);
+    signed int return_value_gtk_check_menu_item_get_active_12;
+    return_value_gtk_check_menu_item_get_active_12=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_11);
+    LED_state = (unsigned char)((return_value_gtk_check_menu_item_get_active_3 != 0 ? 0x01 : 0) | (return_value_gtk_check_menu_item_get_active_6 != 0 ? 0x02 : 0) | (return_value_gtk_check_menu_item_get_active_9 != 0 ? 0x04 : 0) | (return_value_gtk_check_menu_item_get_active_12 != 0 ? 0x08 : 0));
+    signed int return_value_cwiid_set_led_15;
+    return_value_cwiid_set_led_15=cwiid_set_led(wiimote, LED_state);
+    if(!(return_value_cwiid_set_led_15 == 0))
     {
-      unsigned long int return_value_gtk_window_get_type$13;
-      return_value_gtk_window_get_type$13=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-      return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$13);
-      message((enum anonymous$17)GTK_MESSAGE_ERROR, "error setting LEDs", (struct _GtkWindow *)return_value_g_type_check_instance_cast$14);
+      unsigned long int return_value_gtk_window_get_type_13;
+      return_value_gtk_window_get_type_13=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+      return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_13);
+      message((enum anonymous_17)GTK_MESSAGE_ERROR, "error setting LEDs", (struct _GtkWindow *)return_value_g_type_check_instance_cast_14);
     }
 
   }
@@ -4214,21 +4214,21 @@ void chkRumble_toggled(void)
 {
   if(!(wiimote == ((struct wiimote *)NULL)))
   {
-    unsigned long int return_value_gtk_check_menu_item_get_type$3;
-    return_value_gtk_check_menu_item_get_type$3=gtk_check_menu_item_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)chkRumble, return_value_gtk_check_menu_item_get_type$3);
-    signed int return_value_gtk_check_menu_item_get_active$5;
-    return_value_gtk_check_menu_item_get_active$5=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$4);
-    signed int return_value_cwiid_set_rumble$6;
-    return_value_cwiid_set_rumble$6=cwiid_set_rumble(wiimote, (unsigned char)return_value_gtk_check_menu_item_get_active$5);
-    if(!(return_value_cwiid_set_rumble$6 == 0))
+    unsigned long int return_value_gtk_check_menu_item_get_type_3;
+    return_value_gtk_check_menu_item_get_type_3=gtk_check_menu_item_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)chkRumble, return_value_gtk_check_menu_item_get_type_3);
+    signed int return_value_gtk_check_menu_item_get_active_5;
+    return_value_gtk_check_menu_item_get_active_5=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_4);
+    signed int return_value_cwiid_set_rumble_6;
+    return_value_cwiid_set_rumble_6=cwiid_set_rumble(wiimote, (unsigned char)return_value_gtk_check_menu_item_get_active_5);
+    if(!(return_value_cwiid_set_rumble_6 == 0))
     {
-      unsigned long int return_value_gtk_window_get_type$1;
-      return_value_gtk_window_get_type$1=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-      return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$1);
-      message((enum anonymous$17)GTK_MESSAGE_ERROR, "error setting rumble", (struct _GtkWindow *)return_value_g_type_check_instance_cast$2);
+      unsigned long int return_value_gtk_window_get_type_1;
+      return_value_gtk_window_get_type_1=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+      return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_1);
+      message((enum anonymous_17)GTK_MESSAGE_ERROR, "error setting rumble", (struct _GtkWindow *)return_value_g_type_check_instance_cast_2);
     }
 
   }
@@ -4239,51 +4239,51 @@ void chkRumble_toggled(void)
 // file main.c line 574
 void clear_acc_widgets()
 {
-  unsigned long int return_value_gtk_label_get_type$1;
-  return_value_gtk_label_get_type$1=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)lblAccXVal, return_value_gtk_label_get_type$1);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$2, "0");
-  unsigned long int return_value_gtk_label_get_type$3;
-  return_value_gtk_label_get_type$3=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)lblAccYVal, return_value_gtk_label_get_type$3);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$4, "0");
-  unsigned long int return_value_gtk_label_get_type$5;
-  return_value_gtk_label_get_type$5=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)lblAccZVal, return_value_gtk_label_get_type$5);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$6, "0");
-  unsigned long int return_value_gtk_progress_bar_get_type$7;
-  return_value_gtk_progress_bar_get_type$7=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)progAccX, return_value_gtk_progress_bar_get_type$7);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$8, 0.0);
-  unsigned long int return_value_gtk_progress_bar_get_type$9;
-  return_value_gtk_progress_bar_get_type$9=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)progAccY, return_value_gtk_progress_bar_get_type$9);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$10, 0.0);
-  unsigned long int return_value_gtk_progress_bar_get_type$11;
-  return_value_gtk_progress_bar_get_type$11=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)progAccZ, return_value_gtk_progress_bar_get_type$11);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$12, 0.0);
-  unsigned long int return_value_gtk_label_get_type$13;
-  return_value_gtk_label_get_type$13=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)lblAccVal, return_value_gtk_label_get_type$13);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$14, "0");
-  unsigned long int return_value_gtk_label_get_type$15;
-  return_value_gtk_label_get_type$15=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)lblRollVal, return_value_gtk_label_get_type$15);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$16, "0");
-  unsigned long int return_value_gtk_label_get_type$17;
-  return_value_gtk_label_get_type$17=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)lblPitchVal, return_value_gtk_label_get_type$17);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$18, "0");
+  unsigned long int return_value_gtk_label_get_type_1;
+  return_value_gtk_label_get_type_1=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)lblAccXVal, return_value_gtk_label_get_type_1);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_2, "0");
+  unsigned long int return_value_gtk_label_get_type_3;
+  return_value_gtk_label_get_type_3=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)lblAccYVal, return_value_gtk_label_get_type_3);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_4, "0");
+  unsigned long int return_value_gtk_label_get_type_5;
+  return_value_gtk_label_get_type_5=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)lblAccZVal, return_value_gtk_label_get_type_5);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_6, "0");
+  unsigned long int return_value_gtk_progress_bar_get_type_7;
+  return_value_gtk_progress_bar_get_type_7=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)progAccX, return_value_gtk_progress_bar_get_type_7);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_8, 0.0);
+  unsigned long int return_value_gtk_progress_bar_get_type_9;
+  return_value_gtk_progress_bar_get_type_9=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)progAccY, return_value_gtk_progress_bar_get_type_9);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_10, 0.0);
+  unsigned long int return_value_gtk_progress_bar_get_type_11;
+  return_value_gtk_progress_bar_get_type_11=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)progAccZ, return_value_gtk_progress_bar_get_type_11);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_12, 0.0);
+  unsigned long int return_value_gtk_label_get_type_13;
+  return_value_gtk_label_get_type_13=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)lblAccVal, return_value_gtk_label_get_type_13);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_14, "0");
+  unsigned long int return_value_gtk_label_get_type_15;
+  return_value_gtk_label_get_type_15=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)lblRollVal, return_value_gtk_label_get_type_15);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_16, "0");
+  unsigned long int return_value_gtk_label_get_type_17;
+  return_value_gtk_label_get_type_17=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)lblPitchVal, return_value_gtk_label_get_type_17);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_18, "0");
 }
 
 // clear_classic_widgets
@@ -4294,26 +4294,26 @@ void clear_classic_widgets()
   gtk_widget_queue_draw(drawCCLStick);
   cc_r_stick.valid = (char)0;
   gtk_widget_queue_draw(drawCCRStick);
-  unsigned long int return_value_gtk_label_get_type$1;
-  return_value_gtk_label_get_type$1=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)lblCCLVal, return_value_gtk_label_get_type$1);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$2, "0");
-  unsigned long int return_value_gtk_label_get_type$3;
-  return_value_gtk_label_get_type$3=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)lblCCRVal, return_value_gtk_label_get_type$3);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$4, "0");
-  unsigned long int return_value_gtk_progress_bar_get_type$5;
-  return_value_gtk_progress_bar_get_type$5=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)progCCL, return_value_gtk_progress_bar_get_type$5);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$6, 0.0);
-  unsigned long int return_value_gtk_progress_bar_get_type$7;
-  return_value_gtk_progress_bar_get_type$7=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)progCCR, return_value_gtk_progress_bar_get_type$7);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$8, 0.0);
+  unsigned long int return_value_gtk_label_get_type_1;
+  return_value_gtk_label_get_type_1=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)lblCCLVal, return_value_gtk_label_get_type_1);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_2, "0");
+  unsigned long int return_value_gtk_label_get_type_3;
+  return_value_gtk_label_get_type_3=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)lblCCRVal, return_value_gtk_label_get_type_3);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_4, "0");
+  unsigned long int return_value_gtk_progress_bar_get_type_5;
+  return_value_gtk_progress_bar_get_type_5=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)progCCL, return_value_gtk_progress_bar_get_type_5);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_6, 0.0);
+  unsigned long int return_value_gtk_progress_bar_get_type_7;
+  return_value_gtk_progress_bar_get_type_7=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)progCCR, return_value_gtk_progress_bar_get_type_7);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_8, 0.0);
 }
 
 // clear_ir_data
@@ -4336,92 +4336,92 @@ void clear_nunchuk_widgets()
 {
   nc_stick.valid = (char)0;
   gtk_widget_queue_draw(drawNCStick);
-  unsigned long int return_value_gtk_label_get_type$1;
-  return_value_gtk_label_get_type$1=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccXVal, return_value_gtk_label_get_type$1);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$2, "0");
-  unsigned long int return_value_gtk_label_get_type$3;
-  return_value_gtk_label_get_type$3=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccYVal, return_value_gtk_label_get_type$3);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$4, "0");
-  unsigned long int return_value_gtk_label_get_type$5;
-  return_value_gtk_label_get_type$5=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccZVal, return_value_gtk_label_get_type$5);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$6, "0");
-  unsigned long int return_value_gtk_progress_bar_get_type$7;
-  return_value_gtk_progress_bar_get_type$7=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccX, return_value_gtk_progress_bar_get_type$7);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$8, 0.0);
-  unsigned long int return_value_gtk_progress_bar_get_type$9;
-  return_value_gtk_progress_bar_get_type$9=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccY, return_value_gtk_progress_bar_get_type$9);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$10, 0.0);
-  unsigned long int return_value_gtk_progress_bar_get_type$11;
-  return_value_gtk_progress_bar_get_type$11=gtk_progress_bar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccZ, return_value_gtk_progress_bar_get_type$11);
-  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$12, 0.0);
-  unsigned long int return_value_gtk_label_get_type$13;
-  return_value_gtk_label_get_type$13=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccVal, return_value_gtk_label_get_type$13);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$14, "0");
-  unsigned long int return_value_gtk_label_get_type$15;
-  return_value_gtk_label_get_type$15=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)lblNCRollVal, return_value_gtk_label_get_type$15);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$16, "0");
-  unsigned long int return_value_gtk_label_get_type$17;
-  return_value_gtk_label_get_type$17=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)lblNCPitchVal, return_value_gtk_label_get_type$17);
-  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$18, "0");
+  unsigned long int return_value_gtk_label_get_type_1;
+  return_value_gtk_label_get_type_1=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccXVal, return_value_gtk_label_get_type_1);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_2, "0");
+  unsigned long int return_value_gtk_label_get_type_3;
+  return_value_gtk_label_get_type_3=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccYVal, return_value_gtk_label_get_type_3);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_4, "0");
+  unsigned long int return_value_gtk_label_get_type_5;
+  return_value_gtk_label_get_type_5=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccZVal, return_value_gtk_label_get_type_5);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_6, "0");
+  unsigned long int return_value_gtk_progress_bar_get_type_7;
+  return_value_gtk_progress_bar_get_type_7=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccX, return_value_gtk_progress_bar_get_type_7);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_8, 0.0);
+  unsigned long int return_value_gtk_progress_bar_get_type_9;
+  return_value_gtk_progress_bar_get_type_9=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccY, return_value_gtk_progress_bar_get_type_9);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_10, 0.0);
+  unsigned long int return_value_gtk_progress_bar_get_type_11;
+  return_value_gtk_progress_bar_get_type_11=gtk_progress_bar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccZ, return_value_gtk_progress_bar_get_type_11);
+  gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_12, 0.0);
+  unsigned long int return_value_gtk_label_get_type_13;
+  return_value_gtk_label_get_type_13=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccVal, return_value_gtk_label_get_type_13);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_14, "0");
+  unsigned long int return_value_gtk_label_get_type_15;
+  return_value_gtk_label_get_type_15=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)lblNCRollVal, return_value_gtk_label_get_type_15);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_16, "0");
+  unsigned long int return_value_gtk_label_get_type_17;
+  return_value_gtk_label_get_type_17=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)lblNCPitchVal, return_value_gtk_label_get_type_17);
+  gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_18, "0");
 }
 
 // clear_widgets
 // file main.c line 557
 void clear_widgets()
 {
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkLED1, return_value_gtk_check_menu_item_get_type$1);
-  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2, 0);
-  unsigned long int return_value_gtk_check_menu_item_get_type$3;
-  return_value_gtk_check_menu_item_get_type$3=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)chkLED2, return_value_gtk_check_menu_item_get_type$3);
-  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$4, 0);
-  unsigned long int return_value_gtk_check_menu_item_get_type$5;
-  return_value_gtk_check_menu_item_get_type$5=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)chkLED3, return_value_gtk_check_menu_item_get_type$5);
-  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$6, 0);
-  unsigned long int return_value_gtk_check_menu_item_get_type$7;
-  return_value_gtk_check_menu_item_get_type$7=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)chkLED4, return_value_gtk_check_menu_item_get_type$7);
-  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$8, 0);
-  unsigned long int return_value_gtk_check_menu_item_get_type$9;
-  return_value_gtk_check_menu_item_get_type$9=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)chkRumble, return_value_gtk_check_menu_item_get_type$9);
-  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$10, 0);
-  unsigned long int return_value_gtk_statusbar_get_type$11;
-  return_value_gtk_statusbar_get_type$11=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)statBattery, return_value_gtk_statusbar_get_type$11);
-  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$12, (unsigned int)0, "");
-  unsigned long int return_value_gtk_statusbar_get_type$13;
-  return_value_gtk_statusbar_get_type$13=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)statExtension, return_value_gtk_statusbar_get_type$13);
-  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$14, (unsigned int)0, "");
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkLED1, return_value_gtk_check_menu_item_get_type_1);
+  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2, 0);
+  unsigned long int return_value_gtk_check_menu_item_get_type_3;
+  return_value_gtk_check_menu_item_get_type_3=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)chkLED2, return_value_gtk_check_menu_item_get_type_3);
+  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_4, 0);
+  unsigned long int return_value_gtk_check_menu_item_get_type_5;
+  return_value_gtk_check_menu_item_get_type_5=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)chkLED3, return_value_gtk_check_menu_item_get_type_5);
+  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_6, 0);
+  unsigned long int return_value_gtk_check_menu_item_get_type_7;
+  return_value_gtk_check_menu_item_get_type_7=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)chkLED4, return_value_gtk_check_menu_item_get_type_7);
+  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_8, 0);
+  unsigned long int return_value_gtk_check_menu_item_get_type_9;
+  return_value_gtk_check_menu_item_get_type_9=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)chkRumble, return_value_gtk_check_menu_item_get_type_9);
+  gtk_check_menu_item_set_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_10, 0);
+  unsigned long int return_value_gtk_statusbar_get_type_11;
+  return_value_gtk_statusbar_get_type_11=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)statBattery, return_value_gtk_statusbar_get_type_11);
+  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_12, (unsigned int)0, "");
+  unsigned long int return_value_gtk_statusbar_get_type_13;
+  return_value_gtk_statusbar_get_type_13=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)statExtension, return_value_gtk_statusbar_get_type_13);
+  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_14, (unsigned int)0, "");
   clear_acc_widgets();
   clear_ir_data();
   clear_nunchuk_widgets();
@@ -4435,13 +4435,13 @@ struct _GdkPixbuf * create_pixbuf(const char *filename)
   char *pathname = (char *)(void *)0;
   struct _GdkPixbuf *pixbuf;
   struct _GError *error = (struct _GError *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(filename == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(filename[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(filename[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (struct _GdkPixbuf *)(void *)0;
 
   else
@@ -4449,7 +4449,7 @@ struct _GdkPixbuf * create_pixbuf(const char *filename)
     pathname=find_pixmap_file(filename);
     if(pathname == ((char *)NULL))
     {
-      g_log((char *)0, (enum anonymous$22)G_LOG_LEVEL_WARNING, "Couldn't find pixmap file: %s", filename);
+      g_log((char *)0, (enum anonymous_22)G_LOG_LEVEL_WARNING, "Couldn't find pixmap file: %s", filename);
       return (struct _GdkPixbuf *)(void *)0;
     }
 
@@ -4474,17 +4474,17 @@ struct _GtkWidget * create_pixmap(struct _GtkWidget *widget, const char *filenam
 {
   char *pathname = (char *)(void *)0;
   struct _GtkWidget *pixmap;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(filename == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(filename[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  struct _GtkWidget *return_value_gtk_image_new$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(filename[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  struct _GtkWidget *return_value_gtk_image_new_1;
+  if(tmp_if_expr_2)
   {
-    return_value_gtk_image_new$1=gtk_image_new();
-    return return_value_gtk_image_new$1;
+    return_value_gtk_image_new_1=gtk_image_new();
+    return return_value_gtk_image_new_1;
   }
 
   else
@@ -4492,10 +4492,10 @@ struct _GtkWidget * create_pixmap(struct _GtkWidget *widget, const char *filenam
     pathname=find_pixmap_file(filename);
     if(pathname == ((char *)NULL))
     {
-      g_log((char *)0, (enum anonymous$22)G_LOG_LEVEL_WARNING, "Couldn't find pixmap file: %s", filename);
-      struct _GtkWidget *return_value_gtk_image_new$3;
-      return_value_gtk_image_new$3=gtk_image_new();
-      return return_value_gtk_image_new$3;
+      g_log((char *)0, (enum anonymous_22)G_LOG_LEVEL_WARNING, "Couldn't find pixmap file: %s", filename);
+      struct _GtkWidget *return_value_gtk_image_new_3;
+      return_value_gtk_image_new_3=gtk_image_new();
+      return return_value_gtk_image_new_3;
     }
 
     pixmap=gtk_image_new_from_file(pathname);
@@ -4508,3352 +4508,3352 @@ struct _GtkWidget * create_pixmap(struct _GtkWidget *widget, const char *filenam
 // file interface.h line 5
 struct _GtkWidget * create_winMain(void)
 {
-  struct _GtkWidget *create_winMain$$1$$winMain;
+  struct _GtkWidget *create_winMain__1__winMain;
   struct _GtkWidget *vbox1;
   struct _GtkWidget *menubar1;
   struct _GtkWidget *menuitem1;
   struct _GtkWidget *menuitem1_menu;
-  struct _GtkWidget *create_winMain$$1$$menuConnect;
+  struct _GtkWidget *create_winMain__1__menuConnect;
   struct _GtkWidget *image27;
-  struct _GtkWidget *create_winMain$$1$$menuDisconnect;
+  struct _GtkWidget *create_winMain__1__menuDisconnect;
   struct _GtkWidget *image28;
   struct _GtkWidget *separatormenuitem1;
-  struct _GtkWidget *create_winMain$$1$$menuQuit;
+  struct _GtkWidget *create_winMain__1__menuQuit;
   struct _GtkWidget *image29;
   struct _GtkWidget *menuSettings;
   struct _GtkWidget *menuSettings_menu;
-  struct _GtkWidget *create_winMain$$1$$chkAcc;
-  struct _GtkWidget *create_winMain$$1$$chkIR;
-  struct _GtkWidget *create_winMain$$1$$chkExt;
+  struct _GtkWidget *create_winMain__1__chkAcc;
+  struct _GtkWidget *create_winMain__1__chkIR;
+  struct _GtkWidget *create_winMain__1__chkExt;
   struct _GtkWidget *menuControls;
   struct _GtkWidget *menuControls_menu;
-  struct _GtkWidget *create_winMain$$1$$chkLED1;
-  struct _GtkWidget *create_winMain$$1$$chkLED2;
-  struct _GtkWidget *create_winMain$$1$$chkLED3;
-  struct _GtkWidget *create_winMain$$1$$chkLED4;
+  struct _GtkWidget *create_winMain__1__chkLED1;
+  struct _GtkWidget *create_winMain__1__chkLED2;
+  struct _GtkWidget *create_winMain__1__chkLED3;
+  struct _GtkWidget *create_winMain__1__chkLED4;
   struct _GtkWidget *separator1;
-  struct _GtkWidget *create_winMain$$1$$chkRumble;
+  struct _GtkWidget *create_winMain__1__chkRumble;
   struct _GtkWidget *menuView;
   struct _GtkWidget *menuView_menu;
-  struct _GtkWidget *create_winMain$$1$$menuRW;
+  struct _GtkWidget *create_winMain__1__menuRW;
   struct _GtkWidget *menuHelp;
   struct _GtkWidget *menuHelp_menu;
-  struct _GtkWidget *create_winMain$$1$$menuAbout;
+  struct _GtkWidget *create_winMain__1__menuAbout;
   struct _GtkWidget *hbox1;
   struct _GtkWidget *frame1;
   struct _GtkWidget *alignment1;
   struct _GtkWidget *table1;
   struct _GtkWidget *alignment3;
-  struct _GtkWidget *create_winMain$$1$$evUp;
-  struct _GtkWidget *create_winMain$$1$$lblUp;
+  struct _GtkWidget *create_winMain__1__evUp;
+  struct _GtkWidget *create_winMain__1__lblUp;
   struct _GtkWidget *alignment4;
-  struct _GtkWidget *create_winMain$$1$$evLeft;
-  struct _GtkWidget *create_winMain$$1$$lblLeft;
+  struct _GtkWidget *create_winMain__1__evLeft;
+  struct _GtkWidget *create_winMain__1__lblLeft;
   struct _GtkWidget *alignment5;
-  struct _GtkWidget *create_winMain$$1$$evRight;
-  struct _GtkWidget *create_winMain$$1$$lblRight;
+  struct _GtkWidget *create_winMain__1__evRight;
+  struct _GtkWidget *create_winMain__1__lblRight;
   struct _GtkWidget *alignment6;
-  struct _GtkWidget *create_winMain$$1$$evDown;
-  struct _GtkWidget *create_winMain$$1$$lblDown;
+  struct _GtkWidget *create_winMain__1__evDown;
+  struct _GtkWidget *create_winMain__1__lblDown;
   struct _GtkWidget *alignment7;
-  struct _GtkWidget *create_winMain$$1$$evA;
-  struct _GtkWidget *create_winMain$$1$$lblA;
+  struct _GtkWidget *create_winMain__1__evA;
+  struct _GtkWidget *create_winMain__1__lblA;
   struct _GtkWidget *alignment9;
-  struct _GtkWidget *create_winMain$$1$$evB;
-  struct _GtkWidget *create_winMain$$1$$lblB;
+  struct _GtkWidget *create_winMain__1__evB;
+  struct _GtkWidget *create_winMain__1__lblB;
   struct _GtkWidget *alignment10;
-  struct _GtkWidget *create_winMain$$1$$evMinus;
-  struct _GtkWidget *create_winMain$$1$$lblMinus;
+  struct _GtkWidget *create_winMain__1__evMinus;
+  struct _GtkWidget *create_winMain__1__lblMinus;
   struct _GtkWidget *alignment11;
-  struct _GtkWidget *create_winMain$$1$$evHome;
-  struct _GtkWidget *create_winMain$$1$$lblHome;
+  struct _GtkWidget *create_winMain__1__evHome;
+  struct _GtkWidget *create_winMain__1__lblHome;
   struct _GtkWidget *alignment12;
-  struct _GtkWidget *create_winMain$$1$$evPlus;
-  struct _GtkWidget *create_winMain$$1$$lblPlus;
+  struct _GtkWidget *create_winMain__1__evPlus;
+  struct _GtkWidget *create_winMain__1__lblPlus;
   struct _GtkWidget *alignment13;
-  struct _GtkWidget *create_winMain$$1$$ev1;
-  struct _GtkWidget *create_winMain$$1$$lbl1;
+  struct _GtkWidget *create_winMain__1__ev1;
+  struct _GtkWidget *create_winMain__1__lbl1;
   struct _GtkWidget *alignment14;
-  struct _GtkWidget *create_winMain$$1$$ev2;
-  struct _GtkWidget *create_winMain$$1$$lbl2;
+  struct _GtkWidget *create_winMain__1__ev2;
+  struct _GtkWidget *create_winMain__1__lbl2;
   struct _GtkWidget *label1;
   struct _GtkWidget *frame2;
   struct _GtkWidget *alignment2;
   struct _GtkWidget *hbox2;
   struct _GtkWidget *table4;
-  struct _GtkWidget *create_winMain$$1$$progAccX;
-  struct _GtkWidget *create_winMain$$1$$progAccY;
-  struct _GtkWidget *create_winMain$$1$$progAccZ;
-  struct _GtkWidget *create_winMain$$1$$lblAccX;
-  struct _GtkWidget *create_winMain$$1$$lblAccXVal;
-  struct _GtkWidget *create_winMain$$1$$lblAccY;
-  struct _GtkWidget *create_winMain$$1$$lblAccYVal;
-  struct _GtkWidget *create_winMain$$1$$lblAccZ;
-  struct _GtkWidget *create_winMain$$1$$lblAccZVal;
-  struct _GtkWidget *create_winMain$$1$$lblPitch;
-  struct _GtkWidget *create_winMain$$1$$lblPitchVal;
-  struct _GtkWidget *create_winMain$$1$$lblRoll;
-  struct _GtkWidget *create_winMain$$1$$lblRollVal;
-  struct _GtkWidget *create_winMain$$1$$lblAcc;
-  struct _GtkWidget *create_winMain$$1$$lblAccVal;
-  struct _GtkWidget *create_winMain$$1$$btnBeep;
+  struct _GtkWidget *create_winMain__1__progAccX;
+  struct _GtkWidget *create_winMain__1__progAccY;
+  struct _GtkWidget *create_winMain__1__progAccZ;
+  struct _GtkWidget *create_winMain__1__lblAccX;
+  struct _GtkWidget *create_winMain__1__lblAccXVal;
+  struct _GtkWidget *create_winMain__1__lblAccY;
+  struct _GtkWidget *create_winMain__1__lblAccYVal;
+  struct _GtkWidget *create_winMain__1__lblAccZ;
+  struct _GtkWidget *create_winMain__1__lblAccZVal;
+  struct _GtkWidget *create_winMain__1__lblPitch;
+  struct _GtkWidget *create_winMain__1__lblPitchVal;
+  struct _GtkWidget *create_winMain__1__lblRoll;
+  struct _GtkWidget *create_winMain__1__lblRollVal;
+  struct _GtkWidget *create_winMain__1__lblAcc;
+  struct _GtkWidget *create_winMain__1__lblAccVal;
+  struct _GtkWidget *create_winMain__1__btnBeep;
   struct _GtkWidget *frame3;
-  struct _GtkWidget *create_winMain$$1$$drawIR;
-  struct _GtkWidget *create_winMain$$1$$lblIR;
+  struct _GtkWidget *create_winMain__1__drawIR;
+  struct _GtkWidget *create_winMain__1__lblIR;
   struct _GtkWidget *label2;
   struct _GtkWidget *hbox10;
   struct _GtkWidget *frame4;
   struct _GtkWidget *alignment28;
   struct _GtkWidget *hbox12;
   struct _GtkWidget *vbox4;
-  struct _GtkWidget *create_winMain$$1$$drawNCStick;
+  struct _GtkWidget *create_winMain__1__drawNCStick;
   struct _GtkWidget *hbox13;
-  struct _GtkWidget *create_winMain$$1$$evNCC;
-  struct _GtkWidget *create_winMain$$1$$lblNCC;
-  struct _GtkWidget *create_winMain$$1$$evNCZ;
-  struct _GtkWidget *create_winMain$$1$$lblNCZ;
+  struct _GtkWidget *create_winMain__1__evNCC;
+  struct _GtkWidget *create_winMain__1__lblNCC;
+  struct _GtkWidget *create_winMain__1__evNCZ;
+  struct _GtkWidget *create_winMain__1__lblNCZ;
   struct _GtkWidget *table8;
-  struct _GtkWidget *create_winMain$$1$$lblNCAccX;
-  struct _GtkWidget *create_winMain$$1$$lblNCAccY;
-  struct _GtkWidget *create_winMain$$1$$lblNCAccZ;
-  struct _GtkWidget *create_winMain$$1$$lblNCAcc;
-  struct _GtkWidget *create_winMain$$1$$lblNCRoll;
-  struct _GtkWidget *create_winMain$$1$$lblNCPitch;
-  struct _GtkWidget *create_winMain$$1$$lblNCAccXVal;
-  struct _GtkWidget *create_winMain$$1$$lblNCAccYVal;
-  struct _GtkWidget *create_winMain$$1$$lblNCAccZVal;
-  struct _GtkWidget *create_winMain$$1$$lblNCAccVal;
-  struct _GtkWidget *create_winMain$$1$$lblNCRollVal;
-  struct _GtkWidget *create_winMain$$1$$lblNCPitchVal;
-  struct _GtkWidget *create_winMain$$1$$progNCAccX;
-  struct _GtkWidget *create_winMain$$1$$progNCAccZ;
-  struct _GtkWidget *create_winMain$$1$$progNCAccY;
-  struct _GtkWidget *create_winMain$$1$$lblNC;
+  struct _GtkWidget *create_winMain__1__lblNCAccX;
+  struct _GtkWidget *create_winMain__1__lblNCAccY;
+  struct _GtkWidget *create_winMain__1__lblNCAccZ;
+  struct _GtkWidget *create_winMain__1__lblNCAcc;
+  struct _GtkWidget *create_winMain__1__lblNCRoll;
+  struct _GtkWidget *create_winMain__1__lblNCPitch;
+  struct _GtkWidget *create_winMain__1__lblNCAccXVal;
+  struct _GtkWidget *create_winMain__1__lblNCAccYVal;
+  struct _GtkWidget *create_winMain__1__lblNCAccZVal;
+  struct _GtkWidget *create_winMain__1__lblNCAccVal;
+  struct _GtkWidget *create_winMain__1__lblNCRollVal;
+  struct _GtkWidget *create_winMain__1__lblNCPitchVal;
+  struct _GtkWidget *create_winMain__1__progNCAccX;
+  struct _GtkWidget *create_winMain__1__progNCAccZ;
+  struct _GtkWidget *create_winMain__1__progNCAccY;
+  struct _GtkWidget *create_winMain__1__lblNC;
   struct _GtkWidget *frame5;
   struct _GtkWidget *alignment29;
   struct _GtkWidget *vbox5;
   struct _GtkWidget *table9;
   struct _GtkWidget *alignment15;
-  struct _GtkWidget *create_winMain$$1$$evCCLeft;
-  struct _GtkWidget *create_winMain$$1$$lblCCLeft;
+  struct _GtkWidget *create_winMain__1__evCCLeft;
+  struct _GtkWidget *create_winMain__1__lblCCLeft;
   struct _GtkWidget *alignment16;
-  struct _GtkWidget *create_winMain$$1$$evCCUp;
-  struct _GtkWidget *create_winMain$$1$$lblCCUp;
+  struct _GtkWidget *create_winMain__1__evCCUp;
+  struct _GtkWidget *create_winMain__1__lblCCUp;
   struct _GtkWidget *alignment17;
-  struct _GtkWidget *create_winMain$$1$$evCCDown;
-  struct _GtkWidget *create_winMain$$1$$lblCCDown;
+  struct _GtkWidget *create_winMain__1__evCCDown;
+  struct _GtkWidget *create_winMain__1__lblCCDown;
   struct _GtkWidget *alignment18;
-  struct _GtkWidget *create_winMain$$1$$evCCRight;
-  struct _GtkWidget *create_winMain$$1$$lblCCRight;
+  struct _GtkWidget *create_winMain__1__evCCRight;
+  struct _GtkWidget *create_winMain__1__lblCCRight;
   struct _GtkWidget *alignment19;
-  struct _GtkWidget *create_winMain$$1$$evCCMinus;
-  struct _GtkWidget *create_winMain$$1$$lblCCMinus;
+  struct _GtkWidget *create_winMain__1__evCCMinus;
+  struct _GtkWidget *create_winMain__1__lblCCMinus;
   struct _GtkWidget *alignment20;
-  struct _GtkWidget *create_winMain$$1$$evCCHome;
-  struct _GtkWidget *create_winMain$$1$$lblCCHome;
+  struct _GtkWidget *create_winMain__1__evCCHome;
+  struct _GtkWidget *create_winMain__1__lblCCHome;
   struct _GtkWidget *alignment21;
-  struct _GtkWidget *create_winMain$$1$$evCCPlus;
-  struct _GtkWidget *create_winMain$$1$$lblCCPlus;
+  struct _GtkWidget *create_winMain__1__evCCPlus;
+  struct _GtkWidget *create_winMain__1__lblCCPlus;
   struct _GtkWidget *alignment22;
-  struct _GtkWidget *create_winMain$$1$$evCCZL;
-  struct _GtkWidget *create_winMain$$1$$lblCCZL;
+  struct _GtkWidget *create_winMain__1__evCCZL;
+  struct _GtkWidget *create_winMain__1__lblCCZL;
   struct _GtkWidget *alignment23;
-  struct _GtkWidget *create_winMain$$1$$evCCZR;
-  struct _GtkWidget *create_winMain$$1$$lblCCZR;
+  struct _GtkWidget *create_winMain__1__evCCZR;
+  struct _GtkWidget *create_winMain__1__lblCCZR;
   struct _GtkWidget *alignment24;
-  struct _GtkWidget *create_winMain$$1$$evCCX;
-  struct _GtkWidget *create_winMain$$1$$lblCCX;
+  struct _GtkWidget *create_winMain__1__evCCX;
+  struct _GtkWidget *create_winMain__1__lblCCX;
   struct _GtkWidget *alignment25;
-  struct _GtkWidget *create_winMain$$1$$evCCY;
-  struct _GtkWidget *create_winMain$$1$$lblCCY;
+  struct _GtkWidget *create_winMain__1__evCCY;
+  struct _GtkWidget *create_winMain__1__lblCCY;
   struct _GtkWidget *alignment26;
-  struct _GtkWidget *create_winMain$$1$$evCCB;
-  struct _GtkWidget *create_winMain$$1$$lblCCB;
+  struct _GtkWidget *create_winMain__1__evCCB;
+  struct _GtkWidget *create_winMain__1__lblCCB;
   struct _GtkWidget *alignment27;
-  struct _GtkWidget *create_winMain$$1$$evCCA;
-  struct _GtkWidget *create_winMain$$1$$lblCCA;
+  struct _GtkWidget *create_winMain__1__evCCA;
+  struct _GtkWidget *create_winMain__1__lblCCA;
   struct _GtkWidget *hbox15;
-  struct _GtkWidget *create_winMain$$1$$drawCCLStick;
-  struct _GtkWidget *create_winMain$$1$$drawCCRStick;
+  struct _GtkWidget *create_winMain__1__drawCCLStick;
+  struct _GtkWidget *create_winMain__1__drawCCRStick;
   struct _GtkWidget *table10;
-  struct _GtkWidget *create_winMain$$1$$lblCCLVal;
-  struct _GtkWidget *create_winMain$$1$$lblCCRVal;
-  struct _GtkWidget *create_winMain$$1$$progCCL;
-  struct _GtkWidget *create_winMain$$1$$progCCR;
-  struct _GtkWidget *create_winMain$$1$$evCCR;
-  struct _GtkWidget *create_winMain$$1$$lblCCR;
-  struct _GtkWidget *create_winMain$$1$$evCCL;
-  struct _GtkWidget *create_winMain$$1$$lblCCL;
+  struct _GtkWidget *create_winMain__1__lblCCLVal;
+  struct _GtkWidget *create_winMain__1__lblCCRVal;
+  struct _GtkWidget *create_winMain__1__progCCL;
+  struct _GtkWidget *create_winMain__1__progCCR;
+  struct _GtkWidget *create_winMain__1__evCCR;
+  struct _GtkWidget *create_winMain__1__lblCCR;
+  struct _GtkWidget *create_winMain__1__evCCL;
+  struct _GtkWidget *create_winMain__1__lblCCL;
   struct _GtkWidget *lblClassic;
   struct _GtkWidget *hbox11;
-  struct _GtkWidget *create_winMain$$1$$statConnection;
-  struct _GtkWidget *create_winMain$$1$$statBattery;
-  struct _GtkWidget *create_winMain$$1$$statExtension;
+  struct _GtkWidget *create_winMain__1__statConnection;
+  struct _GtkWidget *create_winMain__1__statBattery;
+  struct _GtkWidget *create_winMain__1__statExtension;
   struct _GtkAccelGroup *accel_group;
   accel_group=gtk_accel_group_new();
-  create_winMain$$1$$winMain=gtk_window_new((enum anonymous$0)GTK_WINDOW_TOPLEVEL);
-  gtk_widget_set_name(create_winMain$$1$$winMain, "winMain");
-  unsigned long int return_value_gtk_window_get_type$1;
-  return_value_gtk_window_get_type$1=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, return_value_gtk_window_get_type$1);
-  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$2, "wmgui");
+  create_winMain__1__winMain=gtk_window_new((enum anonymous_0)GTK_WINDOW_TOPLEVEL);
+  gtk_widget_set_name(create_winMain__1__winMain, "winMain");
+  unsigned long int return_value_gtk_window_get_type_1;
+  return_value_gtk_window_get_type_1=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, return_value_gtk_window_get_type_1);
+  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_2, "wmgui");
   vbox1=gtk_vbox_new(0, 3);
   gtk_widget_set_name(vbox1, "vbox1");
   gtk_widget_show(vbox1);
-  unsigned long int return_value_gtk_container_get_type$3;
-  return_value_gtk_container_get_type$3=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, return_value_gtk_container_get_type$3);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$4, vbox1);
+  unsigned long int return_value_gtk_container_get_type_3;
+  return_value_gtk_container_get_type_3=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, return_value_gtk_container_get_type_3);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_4, vbox1);
   menubar1=gtk_menu_bar_new();
   gtk_widget_set_name(menubar1, "menubar1");
   gtk_widget_show(menubar1);
-  unsigned long int return_value_gtk_box_get_type$5;
-  return_value_gtk_box_get_type$5=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type$5);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$6, menubar1, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_5;
+  return_value_gtk_box_get_type_5=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type_5);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_6, menubar1, 0, 0, (unsigned int)0);
   menuitem1=gtk_menu_item_new_with_mnemonic("_File");
   gtk_widget_set_name(menuitem1, "menuitem1");
   gtk_widget_show(menuitem1);
-  unsigned long int return_value_gtk_container_get_type$7;
-  return_value_gtk_container_get_type$7=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type$7);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$8, menuitem1);
+  unsigned long int return_value_gtk_container_get_type_7;
+  return_value_gtk_container_get_type_7=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type_7);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_8, menuitem1);
   menuitem1_menu=gtk_menu_new();
   gtk_widget_set_name(menuitem1_menu, "menuitem1_menu");
-  unsigned long int return_value_gtk_menu_item_get_type$9;
-  return_value_gtk_menu_item_get_type$9=gtk_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1, return_value_gtk_menu_item_get_type$9);
-  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast$10, menuitem1_menu);
-  create_winMain$$1$$menuConnect=gtk_image_menu_item_new_with_mnemonic("_Connect");
-  gtk_widget_set_name(create_winMain$$1$$menuConnect, "menuConnect");
-  gtk_widget_show(create_winMain$$1$$menuConnect);
-  unsigned long int return_value_gtk_container_get_type$11;
-  return_value_gtk_container_get_type$11=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type$11);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$12, create_winMain$$1$$menuConnect);
-  gtk_widget_add_accelerator(create_winMain$$1$$menuConnect, "activate", accel_group, (unsigned int)0x043, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  image27=gtk_image_new_from_stock("gtk-connect", (enum anonymous$19)GTK_ICON_SIZE_MENU);
+  unsigned long int return_value_gtk_menu_item_get_type_9;
+  return_value_gtk_menu_item_get_type_9=gtk_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1, return_value_gtk_menu_item_get_type_9);
+  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast_10, menuitem1_menu);
+  create_winMain__1__menuConnect=gtk_image_menu_item_new_with_mnemonic("_Connect");
+  gtk_widget_set_name(create_winMain__1__menuConnect, "menuConnect");
+  gtk_widget_show(create_winMain__1__menuConnect);
+  unsigned long int return_value_gtk_container_get_type_11;
+  return_value_gtk_container_get_type_11=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type_11);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_12, create_winMain__1__menuConnect);
+  gtk_widget_add_accelerator(create_winMain__1__menuConnect, "activate", accel_group, (unsigned int)0x043, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  image27=gtk_image_new_from_stock("gtk-connect", (enum anonymous_19)GTK_ICON_SIZE_MENU);
   gtk_widget_set_name(image27, "image27");
   gtk_widget_show(image27);
-  unsigned long int return_value_gtk_image_menu_item_get_type$13;
-  return_value_gtk_image_menu_item_get_type$13=gtk_image_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$menuConnect, return_value_gtk_image_menu_item_get_type$13);
-  gtk_image_menu_item_set_image((struct _GtkImageMenuItem *)return_value_g_type_check_instance_cast$14, image27);
-  create_winMain$$1$$menuDisconnect=gtk_image_menu_item_new_with_mnemonic("_Disconnect");
-  gtk_widget_set_name(create_winMain$$1$$menuDisconnect, "menuDisconnect");
-  gtk_widget_show(create_winMain$$1$$menuDisconnect);
-  unsigned long int return_value_gtk_container_get_type$15;
-  return_value_gtk_container_get_type$15=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type$15);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$16, create_winMain$$1$$menuDisconnect);
-  gtk_widget_add_accelerator(create_winMain$$1$$menuDisconnect, "activate", accel_group, (unsigned int)0x044, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  image28=gtk_image_new_from_stock("gtk-disconnect", (enum anonymous$19)GTK_ICON_SIZE_MENU);
+  unsigned long int return_value_gtk_image_menu_item_get_type_13;
+  return_value_gtk_image_menu_item_get_type_13=gtk_image_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__menuConnect, return_value_gtk_image_menu_item_get_type_13);
+  gtk_image_menu_item_set_image((struct _GtkImageMenuItem *)return_value_g_type_check_instance_cast_14, image27);
+  create_winMain__1__menuDisconnect=gtk_image_menu_item_new_with_mnemonic("_Disconnect");
+  gtk_widget_set_name(create_winMain__1__menuDisconnect, "menuDisconnect");
+  gtk_widget_show(create_winMain__1__menuDisconnect);
+  unsigned long int return_value_gtk_container_get_type_15;
+  return_value_gtk_container_get_type_15=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type_15);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_16, create_winMain__1__menuDisconnect);
+  gtk_widget_add_accelerator(create_winMain__1__menuDisconnect, "activate", accel_group, (unsigned int)0x044, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  image28=gtk_image_new_from_stock("gtk-disconnect", (enum anonymous_19)GTK_ICON_SIZE_MENU);
   gtk_widget_set_name(image28, "image28");
   gtk_widget_show(image28);
-  unsigned long int return_value_gtk_image_menu_item_get_type$17;
-  return_value_gtk_image_menu_item_get_type$17=gtk_image_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$menuDisconnect, return_value_gtk_image_menu_item_get_type$17);
-  gtk_image_menu_item_set_image((struct _GtkImageMenuItem *)return_value_g_type_check_instance_cast$18, image28);
+  unsigned long int return_value_gtk_image_menu_item_get_type_17;
+  return_value_gtk_image_menu_item_get_type_17=gtk_image_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__menuDisconnect, return_value_gtk_image_menu_item_get_type_17);
+  gtk_image_menu_item_set_image((struct _GtkImageMenuItem *)return_value_g_type_check_instance_cast_18, image28);
   separatormenuitem1=gtk_separator_menu_item_new();
   gtk_widget_set_name(separatormenuitem1, "separatormenuitem1");
   gtk_widget_show(separatormenuitem1);
-  unsigned long int return_value_gtk_container_get_type$19;
-  return_value_gtk_container_get_type$19=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type$19);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$20, separatormenuitem1);
+  unsigned long int return_value_gtk_container_get_type_19;
+  return_value_gtk_container_get_type_19=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type_19);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_20, separatormenuitem1);
   gtk_widget_set_sensitive(separatormenuitem1, 0);
-  create_winMain$$1$$menuQuit=gtk_image_menu_item_new_with_mnemonic("_Quit");
-  gtk_widget_set_name(create_winMain$$1$$menuQuit, "menuQuit");
-  gtk_widget_show(create_winMain$$1$$menuQuit);
-  unsigned long int return_value_gtk_container_get_type$21;
-  return_value_gtk_container_get_type$21=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-  return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type$21);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$22, create_winMain$$1$$menuQuit);
-  gtk_widget_add_accelerator(create_winMain$$1$$menuQuit, "activate", accel_group, (unsigned int)0x051, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  image29=gtk_image_new_from_stock("gtk-quit", (enum anonymous$19)GTK_ICON_SIZE_MENU);
+  create_winMain__1__menuQuit=gtk_image_menu_item_new_with_mnemonic("_Quit");
+  gtk_widget_set_name(create_winMain__1__menuQuit, "menuQuit");
+  gtk_widget_show(create_winMain__1__menuQuit);
+  unsigned long int return_value_gtk_container_get_type_21;
+  return_value_gtk_container_get_type_21=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+  return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)menuitem1_menu, return_value_gtk_container_get_type_21);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_22, create_winMain__1__menuQuit);
+  gtk_widget_add_accelerator(create_winMain__1__menuQuit, "activate", accel_group, (unsigned int)0x051, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  image29=gtk_image_new_from_stock("gtk-quit", (enum anonymous_19)GTK_ICON_SIZE_MENU);
   gtk_widget_set_name(image29, "image29");
   gtk_widget_show(image29);
-  unsigned long int return_value_gtk_image_menu_item_get_type$23;
-  return_value_gtk_image_menu_item_get_type$23=gtk_image_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-  return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$menuQuit, return_value_gtk_image_menu_item_get_type$23);
-  gtk_image_menu_item_set_image((struct _GtkImageMenuItem *)return_value_g_type_check_instance_cast$24, image29);
+  unsigned long int return_value_gtk_image_menu_item_get_type_23;
+  return_value_gtk_image_menu_item_get_type_23=gtk_image_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+  return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__menuQuit, return_value_gtk_image_menu_item_get_type_23);
+  gtk_image_menu_item_set_image((struct _GtkImageMenuItem *)return_value_g_type_check_instance_cast_24, image29);
   menuSettings=gtk_menu_item_new_with_mnemonic("_Settings");
   gtk_widget_set_name(menuSettings, "menuSettings");
   gtk_widget_show(menuSettings);
-  unsigned long int return_value_gtk_container_get_type$25;
-  return_value_gtk_container_get_type$25=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$26;
-  return_value_g_type_check_instance_cast$26=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type$25);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$26, menuSettings);
+  unsigned long int return_value_gtk_container_get_type_25;
+  return_value_gtk_container_get_type_25=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_26;
+  return_value_g_type_check_instance_cast_26=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type_25);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_26, menuSettings);
   menuSettings_menu=gtk_menu_new();
   gtk_widget_set_name(menuSettings_menu, "menuSettings_menu");
-  unsigned long int return_value_gtk_menu_item_get_type$27;
-  return_value_gtk_menu_item_get_type$27=gtk_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-  return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings, return_value_gtk_menu_item_get_type$27);
-  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast$28, menuSettings_menu);
-  create_winMain$$1$$chkAcc=gtk_check_menu_item_new_with_mnemonic("_Acc Data");
-  gtk_widget_set_name(create_winMain$$1$$chkAcc, "chkAcc");
-  gtk_widget_show(create_winMain$$1$$chkAcc);
-  unsigned long int return_value_gtk_container_get_type$29;
-  return_value_gtk_container_get_type$29=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$30;
-  return_value_g_type_check_instance_cast$30=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings_menu, return_value_gtk_container_get_type$29);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$30, create_winMain$$1$$chkAcc);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkAcc, "activate", accel_group, (unsigned int)0x041, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  create_winMain$$1$$chkIR=gtk_check_menu_item_new_with_mnemonic("_IR Data");
-  gtk_widget_set_name(create_winMain$$1$$chkIR, "chkIR");
-  gtk_widget_show(create_winMain$$1$$chkIR);
-  unsigned long int return_value_gtk_container_get_type$31;
-  return_value_gtk_container_get_type$31=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$32;
-  return_value_g_type_check_instance_cast$32=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings_menu, return_value_gtk_container_get_type$31);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$32, create_winMain$$1$$chkIR);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkIR, "activate", accel_group, (unsigned int)0x049, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  create_winMain$$1$$chkExt=gtk_check_menu_item_new_with_mnemonic("_Extension Data");
-  gtk_widget_set_name(create_winMain$$1$$chkExt, "chkExt");
-  gtk_widget_show(create_winMain$$1$$chkExt);
-  unsigned long int return_value_gtk_container_get_type$33;
-  return_value_gtk_container_get_type$33=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$34;
-  return_value_g_type_check_instance_cast$34=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings_menu, return_value_gtk_container_get_type$33);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$34, create_winMain$$1$$chkExt);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkExt, "activate", accel_group, (unsigned int)0x045, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
+  unsigned long int return_value_gtk_menu_item_get_type_27;
+  return_value_gtk_menu_item_get_type_27=gtk_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+  return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings, return_value_gtk_menu_item_get_type_27);
+  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast_28, menuSettings_menu);
+  create_winMain__1__chkAcc=gtk_check_menu_item_new_with_mnemonic("_Acc Data");
+  gtk_widget_set_name(create_winMain__1__chkAcc, "chkAcc");
+  gtk_widget_show(create_winMain__1__chkAcc);
+  unsigned long int return_value_gtk_container_get_type_29;
+  return_value_gtk_container_get_type_29=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_30;
+  return_value_g_type_check_instance_cast_30=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings_menu, return_value_gtk_container_get_type_29);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_30, create_winMain__1__chkAcc);
+  gtk_widget_add_accelerator(create_winMain__1__chkAcc, "activate", accel_group, (unsigned int)0x041, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  create_winMain__1__chkIR=gtk_check_menu_item_new_with_mnemonic("_IR Data");
+  gtk_widget_set_name(create_winMain__1__chkIR, "chkIR");
+  gtk_widget_show(create_winMain__1__chkIR);
+  unsigned long int return_value_gtk_container_get_type_31;
+  return_value_gtk_container_get_type_31=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_32;
+  return_value_g_type_check_instance_cast_32=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings_menu, return_value_gtk_container_get_type_31);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_32, create_winMain__1__chkIR);
+  gtk_widget_add_accelerator(create_winMain__1__chkIR, "activate", accel_group, (unsigned int)0x049, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  create_winMain__1__chkExt=gtk_check_menu_item_new_with_mnemonic("_Extension Data");
+  gtk_widget_set_name(create_winMain__1__chkExt, "chkExt");
+  gtk_widget_show(create_winMain__1__chkExt);
+  unsigned long int return_value_gtk_container_get_type_33;
+  return_value_gtk_container_get_type_33=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_34;
+  return_value_g_type_check_instance_cast_34=g_type_check_instance_cast((struct _GTypeInstance *)menuSettings_menu, return_value_gtk_container_get_type_33);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_34, create_winMain__1__chkExt);
+  gtk_widget_add_accelerator(create_winMain__1__chkExt, "activate", accel_group, (unsigned int)0x045, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
   menuControls=gtk_menu_item_new_with_mnemonic("_Controls");
   gtk_widget_set_name(menuControls, "menuControls");
   gtk_widget_show(menuControls);
-  unsigned long int return_value_gtk_container_get_type$35;
-  return_value_gtk_container_get_type$35=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$36;
-  return_value_g_type_check_instance_cast$36=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type$35);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$36, menuControls);
+  unsigned long int return_value_gtk_container_get_type_35;
+  return_value_gtk_container_get_type_35=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_36;
+  return_value_g_type_check_instance_cast_36=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type_35);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_36, menuControls);
   menuControls_menu=gtk_menu_new();
   gtk_widget_set_name(menuControls_menu, "menuControls_menu");
-  unsigned long int return_value_gtk_menu_item_get_type$37;
-  return_value_gtk_menu_item_get_type$37=gtk_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$38;
-  return_value_g_type_check_instance_cast$38=g_type_check_instance_cast((struct _GTypeInstance *)menuControls, return_value_gtk_menu_item_get_type$37);
-  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast$38, menuControls_menu);
-  create_winMain$$1$$chkLED1=gtk_check_menu_item_new_with_mnemonic("LED _1");
-  gtk_widget_set_name(create_winMain$$1$$chkLED1, "chkLED1");
-  gtk_widget_show(create_winMain$$1$$chkLED1);
-  unsigned long int return_value_gtk_container_get_type$39;
-  return_value_gtk_container_get_type$39=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$40;
-  return_value_g_type_check_instance_cast$40=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type$39);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$40, create_winMain$$1$$chkLED1);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkLED1, "activate", accel_group, (unsigned int)0x031, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  create_winMain$$1$$chkLED2=gtk_check_menu_item_new_with_mnemonic("LED _2");
-  gtk_widget_set_name(create_winMain$$1$$chkLED2, "chkLED2");
-  gtk_widget_show(create_winMain$$1$$chkLED2);
-  unsigned long int return_value_gtk_container_get_type$41;
-  return_value_gtk_container_get_type$41=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$42;
-  return_value_g_type_check_instance_cast$42=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type$41);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$42, create_winMain$$1$$chkLED2);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkLED2, "activate", accel_group, (unsigned int)0x032, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  create_winMain$$1$$chkLED3=gtk_check_menu_item_new_with_mnemonic("LED _3");
-  gtk_widget_set_name(create_winMain$$1$$chkLED3, "chkLED3");
-  gtk_widget_show(create_winMain$$1$$chkLED3);
-  unsigned long int return_value_gtk_container_get_type$43;
-  return_value_gtk_container_get_type$43=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$44;
-  return_value_g_type_check_instance_cast$44=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type$43);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$44, create_winMain$$1$$chkLED3);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkLED3, "activate", accel_group, (unsigned int)0x033, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
-  create_winMain$$1$$chkLED4=gtk_check_menu_item_new_with_mnemonic("LED _4");
-  gtk_widget_set_name(create_winMain$$1$$chkLED4, "chkLED4");
-  gtk_widget_show(create_winMain$$1$$chkLED4);
-  unsigned long int return_value_gtk_container_get_type$45;
-  return_value_gtk_container_get_type$45=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$46;
-  return_value_g_type_check_instance_cast$46=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type$45);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$46, create_winMain$$1$$chkLED4);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkLED4, "activate", accel_group, (unsigned int)0x034, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
+  unsigned long int return_value_gtk_menu_item_get_type_37;
+  return_value_gtk_menu_item_get_type_37=gtk_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_38;
+  return_value_g_type_check_instance_cast_38=g_type_check_instance_cast((struct _GTypeInstance *)menuControls, return_value_gtk_menu_item_get_type_37);
+  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast_38, menuControls_menu);
+  create_winMain__1__chkLED1=gtk_check_menu_item_new_with_mnemonic("LED _1");
+  gtk_widget_set_name(create_winMain__1__chkLED1, "chkLED1");
+  gtk_widget_show(create_winMain__1__chkLED1);
+  unsigned long int return_value_gtk_container_get_type_39;
+  return_value_gtk_container_get_type_39=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_40;
+  return_value_g_type_check_instance_cast_40=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type_39);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_40, create_winMain__1__chkLED1);
+  gtk_widget_add_accelerator(create_winMain__1__chkLED1, "activate", accel_group, (unsigned int)0x031, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  create_winMain__1__chkLED2=gtk_check_menu_item_new_with_mnemonic("LED _2");
+  gtk_widget_set_name(create_winMain__1__chkLED2, "chkLED2");
+  gtk_widget_show(create_winMain__1__chkLED2);
+  unsigned long int return_value_gtk_container_get_type_41;
+  return_value_gtk_container_get_type_41=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_42;
+  return_value_g_type_check_instance_cast_42=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type_41);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_42, create_winMain__1__chkLED2);
+  gtk_widget_add_accelerator(create_winMain__1__chkLED2, "activate", accel_group, (unsigned int)0x032, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  create_winMain__1__chkLED3=gtk_check_menu_item_new_with_mnemonic("LED _3");
+  gtk_widget_set_name(create_winMain__1__chkLED3, "chkLED3");
+  gtk_widget_show(create_winMain__1__chkLED3);
+  unsigned long int return_value_gtk_container_get_type_43;
+  return_value_gtk_container_get_type_43=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_44;
+  return_value_g_type_check_instance_cast_44=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type_43);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_44, create_winMain__1__chkLED3);
+  gtk_widget_add_accelerator(create_winMain__1__chkLED3, "activate", accel_group, (unsigned int)0x033, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
+  create_winMain__1__chkLED4=gtk_check_menu_item_new_with_mnemonic("LED _4");
+  gtk_widget_set_name(create_winMain__1__chkLED4, "chkLED4");
+  gtk_widget_show(create_winMain__1__chkLED4);
+  unsigned long int return_value_gtk_container_get_type_45;
+  return_value_gtk_container_get_type_45=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_46;
+  return_value_g_type_check_instance_cast_46=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type_45);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_46, create_winMain__1__chkLED4);
+  gtk_widget_add_accelerator(create_winMain__1__chkLED4, "activate", accel_group, (unsigned int)0x034, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
   separator1=gtk_separator_menu_item_new();
   gtk_widget_set_name(separator1, "separator1");
   gtk_widget_show(separator1);
-  unsigned long int return_value_gtk_container_get_type$47;
-  return_value_gtk_container_get_type$47=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$48;
-  return_value_g_type_check_instance_cast$48=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type$47);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$48, separator1);
+  unsigned long int return_value_gtk_container_get_type_47;
+  return_value_gtk_container_get_type_47=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_48;
+  return_value_g_type_check_instance_cast_48=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type_47);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_48, separator1);
   gtk_widget_set_sensitive(separator1, 0);
-  create_winMain$$1$$chkRumble=gtk_check_menu_item_new_with_mnemonic("_Rumble");
-  gtk_widget_set_name(create_winMain$$1$$chkRumble, "chkRumble");
-  gtk_widget_show(create_winMain$$1$$chkRumble);
-  unsigned long int return_value_gtk_container_get_type$49;
-  return_value_gtk_container_get_type$49=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$50;
-  return_value_g_type_check_instance_cast$50=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type$49);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$50, create_winMain$$1$$chkRumble);
-  gtk_widget_add_accelerator(create_winMain$$1$$chkRumble, "activate", accel_group, (unsigned int)0x052, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
+  create_winMain__1__chkRumble=gtk_check_menu_item_new_with_mnemonic("_Rumble");
+  gtk_widget_set_name(create_winMain__1__chkRumble, "chkRumble");
+  gtk_widget_show(create_winMain__1__chkRumble);
+  unsigned long int return_value_gtk_container_get_type_49;
+  return_value_gtk_container_get_type_49=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_50;
+  return_value_g_type_check_instance_cast_50=g_type_check_instance_cast((struct _GTypeInstance *)menuControls_menu, return_value_gtk_container_get_type_49);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_50, create_winMain__1__chkRumble);
+  gtk_widget_add_accelerator(create_winMain__1__chkRumble, "activate", accel_group, (unsigned int)0x052, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
   menuView=gtk_menu_item_new_with_mnemonic("_View");
   gtk_widget_set_name(menuView, "menuView");
   gtk_widget_show(menuView);
-  unsigned long int return_value_gtk_container_get_type$51;
-  return_value_gtk_container_get_type$51=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$52;
-  return_value_g_type_check_instance_cast$52=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type$51);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$52, menuView);
+  unsigned long int return_value_gtk_container_get_type_51;
+  return_value_gtk_container_get_type_51=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_52;
+  return_value_g_type_check_instance_cast_52=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type_51);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_52, menuView);
   menuView_menu=gtk_menu_new();
   gtk_widget_set_name(menuView_menu, "menuView_menu");
-  unsigned long int return_value_gtk_menu_item_get_type$53;
-  return_value_gtk_menu_item_get_type$53=gtk_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$54;
-  return_value_g_type_check_instance_cast$54=g_type_check_instance_cast((struct _GTypeInstance *)menuView, return_value_gtk_menu_item_get_type$53);
-  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast$54, menuView_menu);
-  create_winMain$$1$$menuRW=gtk_menu_item_new_with_mnemonic("_Memory Read/Write");
-  gtk_widget_set_name(create_winMain$$1$$menuRW, "menuRW");
-  gtk_widget_show(create_winMain$$1$$menuRW);
-  unsigned long int return_value_gtk_container_get_type$55;
-  return_value_gtk_container_get_type$55=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$56;
-  return_value_g_type_check_instance_cast$56=g_type_check_instance_cast((struct _GTypeInstance *)menuView_menu, return_value_gtk_container_get_type$55);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$56, create_winMain$$1$$menuRW);
-  gtk_widget_add_accelerator(create_winMain$$1$$menuRW, "activate", accel_group, (unsigned int)0x04d, (enum anonymous$4)GDK_CONTROL_MASK, (enum anonymous$1)GTK_ACCEL_VISIBLE);
+  unsigned long int return_value_gtk_menu_item_get_type_53;
+  return_value_gtk_menu_item_get_type_53=gtk_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_54;
+  return_value_g_type_check_instance_cast_54=g_type_check_instance_cast((struct _GTypeInstance *)menuView, return_value_gtk_menu_item_get_type_53);
+  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast_54, menuView_menu);
+  create_winMain__1__menuRW=gtk_menu_item_new_with_mnemonic("_Memory Read/Write");
+  gtk_widget_set_name(create_winMain__1__menuRW, "menuRW");
+  gtk_widget_show(create_winMain__1__menuRW);
+  unsigned long int return_value_gtk_container_get_type_55;
+  return_value_gtk_container_get_type_55=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_56;
+  return_value_g_type_check_instance_cast_56=g_type_check_instance_cast((struct _GTypeInstance *)menuView_menu, return_value_gtk_container_get_type_55);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_56, create_winMain__1__menuRW);
+  gtk_widget_add_accelerator(create_winMain__1__menuRW, "activate", accel_group, (unsigned int)0x04d, (enum anonymous_4)GDK_CONTROL_MASK, (enum anonymous_1)GTK_ACCEL_VISIBLE);
   menuHelp=gtk_menu_item_new_with_mnemonic("_Help");
   gtk_widget_set_name(menuHelp, "menuHelp");
   gtk_widget_show(menuHelp);
-  unsigned long int return_value_gtk_container_get_type$57;
-  return_value_gtk_container_get_type$57=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$58;
-  return_value_g_type_check_instance_cast$58=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type$57);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$58, menuHelp);
+  unsigned long int return_value_gtk_container_get_type_57;
+  return_value_gtk_container_get_type_57=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_58;
+  return_value_g_type_check_instance_cast_58=g_type_check_instance_cast((struct _GTypeInstance *)menubar1, return_value_gtk_container_get_type_57);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_58, menuHelp);
   menuHelp_menu=gtk_menu_new();
   gtk_widget_set_name(menuHelp_menu, "menuHelp_menu");
-  unsigned long int return_value_gtk_menu_item_get_type$59;
-  return_value_gtk_menu_item_get_type$59=gtk_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$60;
-  return_value_g_type_check_instance_cast$60=g_type_check_instance_cast((struct _GTypeInstance *)menuHelp, return_value_gtk_menu_item_get_type$59);
-  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast$60, menuHelp_menu);
-  create_winMain$$1$$menuAbout=gtk_menu_item_new_with_mnemonic("_About");
-  gtk_widget_set_name(create_winMain$$1$$menuAbout, "menuAbout");
-  gtk_widget_show(create_winMain$$1$$menuAbout);
-  unsigned long int return_value_gtk_container_get_type$61;
-  return_value_gtk_container_get_type$61=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$62;
-  return_value_g_type_check_instance_cast$62=g_type_check_instance_cast((struct _GTypeInstance *)menuHelp_menu, return_value_gtk_container_get_type$61);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$62, create_winMain$$1$$menuAbout);
+  unsigned long int return_value_gtk_menu_item_get_type_59;
+  return_value_gtk_menu_item_get_type_59=gtk_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_60;
+  return_value_g_type_check_instance_cast_60=g_type_check_instance_cast((struct _GTypeInstance *)menuHelp, return_value_gtk_menu_item_get_type_59);
+  gtk_menu_item_set_submenu((struct _GtkMenuItem *)return_value_g_type_check_instance_cast_60, menuHelp_menu);
+  create_winMain__1__menuAbout=gtk_menu_item_new_with_mnemonic("_About");
+  gtk_widget_set_name(create_winMain__1__menuAbout, "menuAbout");
+  gtk_widget_show(create_winMain__1__menuAbout);
+  unsigned long int return_value_gtk_container_get_type_61;
+  return_value_gtk_container_get_type_61=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_62;
+  return_value_g_type_check_instance_cast_62=g_type_check_instance_cast((struct _GTypeInstance *)menuHelp_menu, return_value_gtk_container_get_type_61);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_62, create_winMain__1__menuAbout);
   hbox1=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox1, "hbox1");
   gtk_widget_show(hbox1);
-  unsigned long int return_value_gtk_box_get_type$63;
-  return_value_gtk_box_get_type$63=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$64;
-  return_value_g_type_check_instance_cast$64=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type$63);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$64, hbox1, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_63;
+  return_value_gtk_box_get_type_63=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_64;
+  return_value_g_type_check_instance_cast_64=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type_63);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_64, hbox1, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   frame1=gtk_frame_new((const char *)(void *)0);
   gtk_widget_set_name(frame1, "frame1");
   gtk_widget_show(frame1);
-  unsigned long int return_value_gtk_box_get_type$65;
-  return_value_gtk_box_get_type$65=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$66;
-  return_value_g_type_check_instance_cast$66=g_type_check_instance_cast((struct _GTypeInstance *)hbox1, return_value_gtk_box_get_type$65);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$66, frame1, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
+  unsigned long int return_value_gtk_box_get_type_65;
+  return_value_gtk_box_get_type_65=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_66;
+  return_value_g_type_check_instance_cast_66=g_type_check_instance_cast((struct _GTypeInstance *)hbox1, return_value_gtk_box_get_type_65);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_66, frame1, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
   alignment1=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment1, "alignment1");
   gtk_widget_show(alignment1);
-  unsigned long int return_value_gtk_container_get_type$67;
-  return_value_gtk_container_get_type$67=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$68;
-  return_value_g_type_check_instance_cast$68=g_type_check_instance_cast((struct _GTypeInstance *)frame1, return_value_gtk_container_get_type$67);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$68, alignment1);
-  unsigned long int return_value_gtk_alignment_get_type$69;
-  return_value_gtk_alignment_get_type$69=gtk_alignment_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$70;
-  return_value_g_type_check_instance_cast$70=g_type_check_instance_cast((struct _GTypeInstance *)alignment1, return_value_gtk_alignment_get_type$69);
-  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast$70, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
+  unsigned long int return_value_gtk_container_get_type_67;
+  return_value_gtk_container_get_type_67=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_68;
+  return_value_g_type_check_instance_cast_68=g_type_check_instance_cast((struct _GTypeInstance *)frame1, return_value_gtk_container_get_type_67);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_68, alignment1);
+  unsigned long int return_value_gtk_alignment_get_type_69;
+  return_value_gtk_alignment_get_type_69=gtk_alignment_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_70;
+  return_value_g_type_check_instance_cast_70=g_type_check_instance_cast((struct _GTypeInstance *)alignment1, return_value_gtk_alignment_get_type_69);
+  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast_70, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
   table1=gtk_table_new((unsigned int)6, (unsigned int)3, (signed int)!(0 != 0));
   gtk_widget_set_name(table1, "table1");
   gtk_widget_show(table1);
-  unsigned long int return_value_gtk_container_get_type$71;
-  return_value_gtk_container_get_type$71=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$72;
-  return_value_g_type_check_instance_cast$72=g_type_check_instance_cast((struct _GTypeInstance *)alignment1, return_value_gtk_container_get_type$71);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$72, table1);
+  unsigned long int return_value_gtk_container_get_type_71;
+  return_value_gtk_container_get_type_71=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_72;
+  return_value_g_type_check_instance_cast_72=g_type_check_instance_cast((struct _GTypeInstance *)alignment1, return_value_gtk_container_get_type_71);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_72, table1);
   alignment3=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment3, "alignment3");
   gtk_widget_show(alignment3);
-  unsigned long int return_value_gtk_table_get_type$73;
-  return_value_gtk_table_get_type$73=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$74;
-  return_value_g_type_check_instance_cast$74=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$73);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$74, alignment3, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evUp=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evUp, "evUp");
-  gtk_widget_show(create_winMain$$1$$evUp);
-  unsigned long int return_value_gtk_container_get_type$75;
-  return_value_gtk_container_get_type$75=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$76;
-  return_value_g_type_check_instance_cast$76=g_type_check_instance_cast((struct _GTypeInstance *)alignment3, return_value_gtk_container_get_type$75);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$76, create_winMain$$1$$evUp);
-  create_winMain$$1$$lblUp=gtk_label_new("Up");
-  gtk_widget_set_name(create_winMain$$1$$lblUp, "lblUp");
-  gtk_widget_show(create_winMain$$1$$lblUp);
-  unsigned long int return_value_gtk_container_get_type$77;
-  return_value_gtk_container_get_type$77=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$78;
-  return_value_g_type_check_instance_cast$78=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evUp, return_value_gtk_container_get_type$77);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$78, create_winMain$$1$$lblUp);
+  unsigned long int return_value_gtk_table_get_type_73;
+  return_value_gtk_table_get_type_73=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_74;
+  return_value_g_type_check_instance_cast_74=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_73);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_74, alignment3, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evUp=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evUp, "evUp");
+  gtk_widget_show(create_winMain__1__evUp);
+  unsigned long int return_value_gtk_container_get_type_75;
+  return_value_gtk_container_get_type_75=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_76;
+  return_value_g_type_check_instance_cast_76=g_type_check_instance_cast((struct _GTypeInstance *)alignment3, return_value_gtk_container_get_type_75);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_76, create_winMain__1__evUp);
+  create_winMain__1__lblUp=gtk_label_new("Up");
+  gtk_widget_set_name(create_winMain__1__lblUp, "lblUp");
+  gtk_widget_show(create_winMain__1__lblUp);
+  unsigned long int return_value_gtk_container_get_type_77;
+  return_value_gtk_container_get_type_77=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_78;
+  return_value_g_type_check_instance_cast_78=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evUp, return_value_gtk_container_get_type_77);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_78, create_winMain__1__lblUp);
   alignment4=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment4, "alignment4");
   gtk_widget_show(alignment4);
-  unsigned long int return_value_gtk_table_get_type$79;
-  return_value_gtk_table_get_type$79=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$80;
-  return_value_g_type_check_instance_cast$80=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$79);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$80, alignment4, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evLeft=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evLeft, "evLeft");
-  gtk_widget_show(create_winMain$$1$$evLeft);
-  unsigned long int return_value_gtk_container_get_type$81;
-  return_value_gtk_container_get_type$81=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$82;
-  return_value_g_type_check_instance_cast$82=g_type_check_instance_cast((struct _GTypeInstance *)alignment4, return_value_gtk_container_get_type$81);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$82, create_winMain$$1$$evLeft);
-  create_winMain$$1$$lblLeft=gtk_label_new("Left");
-  gtk_widget_set_name(create_winMain$$1$$lblLeft, "lblLeft");
-  gtk_widget_show(create_winMain$$1$$lblLeft);
-  unsigned long int return_value_gtk_container_get_type$83;
-  return_value_gtk_container_get_type$83=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$84;
-  return_value_g_type_check_instance_cast$84=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evLeft, return_value_gtk_container_get_type$83);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$84, create_winMain$$1$$lblLeft);
+  unsigned long int return_value_gtk_table_get_type_79;
+  return_value_gtk_table_get_type_79=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_80;
+  return_value_g_type_check_instance_cast_80=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_79);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_80, alignment4, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evLeft=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evLeft, "evLeft");
+  gtk_widget_show(create_winMain__1__evLeft);
+  unsigned long int return_value_gtk_container_get_type_81;
+  return_value_gtk_container_get_type_81=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_82;
+  return_value_g_type_check_instance_cast_82=g_type_check_instance_cast((struct _GTypeInstance *)alignment4, return_value_gtk_container_get_type_81);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_82, create_winMain__1__evLeft);
+  create_winMain__1__lblLeft=gtk_label_new("Left");
+  gtk_widget_set_name(create_winMain__1__lblLeft, "lblLeft");
+  gtk_widget_show(create_winMain__1__lblLeft);
+  unsigned long int return_value_gtk_container_get_type_83;
+  return_value_gtk_container_get_type_83=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_84;
+  return_value_g_type_check_instance_cast_84=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evLeft, return_value_gtk_container_get_type_83);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_84, create_winMain__1__lblLeft);
   alignment5=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment5, "alignment5");
   gtk_widget_show(alignment5);
-  unsigned long int return_value_gtk_table_get_type$85;
-  return_value_gtk_table_get_type$85=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$86;
-  return_value_g_type_check_instance_cast$86=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$85);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$86, alignment5, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evRight=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evRight, "evRight");
-  gtk_widget_show(create_winMain$$1$$evRight);
-  unsigned long int return_value_gtk_container_get_type$87;
-  return_value_gtk_container_get_type$87=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$88;
-  return_value_g_type_check_instance_cast$88=g_type_check_instance_cast((struct _GTypeInstance *)alignment5, return_value_gtk_container_get_type$87);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$88, create_winMain$$1$$evRight);
-  create_winMain$$1$$lblRight=gtk_label_new("Right");
-  gtk_widget_set_name(create_winMain$$1$$lblRight, "lblRight");
-  gtk_widget_show(create_winMain$$1$$lblRight);
-  unsigned long int return_value_gtk_container_get_type$89;
-  return_value_gtk_container_get_type$89=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$90;
-  return_value_g_type_check_instance_cast$90=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evRight, return_value_gtk_container_get_type$89);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$90, create_winMain$$1$$lblRight);
+  unsigned long int return_value_gtk_table_get_type_85;
+  return_value_gtk_table_get_type_85=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_86;
+  return_value_g_type_check_instance_cast_86=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_85);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_86, alignment5, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evRight=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evRight, "evRight");
+  gtk_widget_show(create_winMain__1__evRight);
+  unsigned long int return_value_gtk_container_get_type_87;
+  return_value_gtk_container_get_type_87=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_88;
+  return_value_g_type_check_instance_cast_88=g_type_check_instance_cast((struct _GTypeInstance *)alignment5, return_value_gtk_container_get_type_87);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_88, create_winMain__1__evRight);
+  create_winMain__1__lblRight=gtk_label_new("Right");
+  gtk_widget_set_name(create_winMain__1__lblRight, "lblRight");
+  gtk_widget_show(create_winMain__1__lblRight);
+  unsigned long int return_value_gtk_container_get_type_89;
+  return_value_gtk_container_get_type_89=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_90;
+  return_value_g_type_check_instance_cast_90=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evRight, return_value_gtk_container_get_type_89);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_90, create_winMain__1__lblRight);
   alignment6=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment6, "alignment6");
   gtk_widget_show(alignment6);
-  unsigned long int return_value_gtk_table_get_type$91;
-  return_value_gtk_table_get_type$91=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$92;
-  return_value_g_type_check_instance_cast$92=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$91);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$92, alignment6, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evDown=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evDown, "evDown");
-  gtk_widget_show(create_winMain$$1$$evDown);
-  unsigned long int return_value_gtk_container_get_type$93;
-  return_value_gtk_container_get_type$93=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$94;
-  return_value_g_type_check_instance_cast$94=g_type_check_instance_cast((struct _GTypeInstance *)alignment6, return_value_gtk_container_get_type$93);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$94, create_winMain$$1$$evDown);
-  create_winMain$$1$$lblDown=gtk_label_new("Down");
-  gtk_widget_set_name(create_winMain$$1$$lblDown, "lblDown");
-  gtk_widget_show(create_winMain$$1$$lblDown);
-  unsigned long int return_value_gtk_container_get_type$95;
-  return_value_gtk_container_get_type$95=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$96;
-  return_value_g_type_check_instance_cast$96=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evDown, return_value_gtk_container_get_type$95);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$96, create_winMain$$1$$lblDown);
+  unsigned long int return_value_gtk_table_get_type_91;
+  return_value_gtk_table_get_type_91=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_92;
+  return_value_g_type_check_instance_cast_92=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_91);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_92, alignment6, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evDown=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evDown, "evDown");
+  gtk_widget_show(create_winMain__1__evDown);
+  unsigned long int return_value_gtk_container_get_type_93;
+  return_value_gtk_container_get_type_93=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_94;
+  return_value_g_type_check_instance_cast_94=g_type_check_instance_cast((struct _GTypeInstance *)alignment6, return_value_gtk_container_get_type_93);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_94, create_winMain__1__evDown);
+  create_winMain__1__lblDown=gtk_label_new("Down");
+  gtk_widget_set_name(create_winMain__1__lblDown, "lblDown");
+  gtk_widget_show(create_winMain__1__lblDown);
+  unsigned long int return_value_gtk_container_get_type_95;
+  return_value_gtk_container_get_type_95=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_96;
+  return_value_g_type_check_instance_cast_96=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evDown, return_value_gtk_container_get_type_95);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_96, create_winMain__1__lblDown);
   alignment7=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment7, "alignment7");
   gtk_widget_show(alignment7);
-  unsigned long int return_value_gtk_table_get_type$97;
-  return_value_gtk_table_get_type$97=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$98;
-  return_value_g_type_check_instance_cast$98=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$97);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$98, alignment7, (unsigned int)0, (unsigned int)1, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evA=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evA, "evA");
-  gtk_widget_show(create_winMain$$1$$evA);
-  unsigned long int return_value_gtk_container_get_type$99;
-  return_value_gtk_container_get_type$99=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$100;
-  return_value_g_type_check_instance_cast$100=g_type_check_instance_cast((struct _GTypeInstance *)alignment7, return_value_gtk_container_get_type$99);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$100, create_winMain$$1$$evA);
-  create_winMain$$1$$lblA=gtk_label_new("A");
-  gtk_widget_set_name(create_winMain$$1$$lblA, "lblA");
-  gtk_widget_show(create_winMain$$1$$lblA);
-  unsigned long int return_value_gtk_container_get_type$101;
-  return_value_gtk_container_get_type$101=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$102;
-  return_value_g_type_check_instance_cast$102=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evA, return_value_gtk_container_get_type$101);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$102, create_winMain$$1$$lblA);
+  unsigned long int return_value_gtk_table_get_type_97;
+  return_value_gtk_table_get_type_97=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_98;
+  return_value_g_type_check_instance_cast_98=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_97);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_98, alignment7, (unsigned int)0, (unsigned int)1, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evA=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evA, "evA");
+  gtk_widget_show(create_winMain__1__evA);
+  unsigned long int return_value_gtk_container_get_type_99;
+  return_value_gtk_container_get_type_99=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_100;
+  return_value_g_type_check_instance_cast_100=g_type_check_instance_cast((struct _GTypeInstance *)alignment7, return_value_gtk_container_get_type_99);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_100, create_winMain__1__evA);
+  create_winMain__1__lblA=gtk_label_new("A");
+  gtk_widget_set_name(create_winMain__1__lblA, "lblA");
+  gtk_widget_show(create_winMain__1__lblA);
+  unsigned long int return_value_gtk_container_get_type_101;
+  return_value_gtk_container_get_type_101=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_102;
+  return_value_g_type_check_instance_cast_102=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evA, return_value_gtk_container_get_type_101);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_102, create_winMain__1__lblA);
   alignment9=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment9, "alignment9");
   gtk_widget_show(alignment9);
-  unsigned long int return_value_gtk_table_get_type$103;
-  return_value_gtk_table_get_type$103=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$104;
-  return_value_g_type_check_instance_cast$104=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$103);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$104, alignment9, (unsigned int)2, (unsigned int)3, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evB=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evB, "evB");
-  gtk_widget_show(create_winMain$$1$$evB);
-  unsigned long int return_value_gtk_container_get_type$105;
-  return_value_gtk_container_get_type$105=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$106;
-  return_value_g_type_check_instance_cast$106=g_type_check_instance_cast((struct _GTypeInstance *)alignment9, return_value_gtk_container_get_type$105);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$106, create_winMain$$1$$evB);
-  create_winMain$$1$$lblB=gtk_label_new("B");
-  gtk_widget_set_name(create_winMain$$1$$lblB, "lblB");
-  gtk_widget_show(create_winMain$$1$$lblB);
-  unsigned long int return_value_gtk_container_get_type$107;
-  return_value_gtk_container_get_type$107=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$108;
-  return_value_g_type_check_instance_cast$108=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evB, return_value_gtk_container_get_type$107);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$108, create_winMain$$1$$lblB);
+  unsigned long int return_value_gtk_table_get_type_103;
+  return_value_gtk_table_get_type_103=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_104;
+  return_value_g_type_check_instance_cast_104=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_103);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_104, alignment9, (unsigned int)2, (unsigned int)3, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evB=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evB, "evB");
+  gtk_widget_show(create_winMain__1__evB);
+  unsigned long int return_value_gtk_container_get_type_105;
+  return_value_gtk_container_get_type_105=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_106;
+  return_value_g_type_check_instance_cast_106=g_type_check_instance_cast((struct _GTypeInstance *)alignment9, return_value_gtk_container_get_type_105);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_106, create_winMain__1__evB);
+  create_winMain__1__lblB=gtk_label_new("B");
+  gtk_widget_set_name(create_winMain__1__lblB, "lblB");
+  gtk_widget_show(create_winMain__1__lblB);
+  unsigned long int return_value_gtk_container_get_type_107;
+  return_value_gtk_container_get_type_107=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_108;
+  return_value_g_type_check_instance_cast_108=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evB, return_value_gtk_container_get_type_107);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_108, create_winMain__1__lblB);
   alignment10=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment10, "alignment10");
   gtk_widget_show(alignment10);
-  unsigned long int return_value_gtk_table_get_type$109;
-  return_value_gtk_table_get_type$109=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$110;
-  return_value_g_type_check_instance_cast$110=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$109);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$110, alignment10, (unsigned int)0, (unsigned int)1, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evMinus=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evMinus, "evMinus");
-  gtk_widget_show(create_winMain$$1$$evMinus);
-  unsigned long int return_value_gtk_container_get_type$111;
-  return_value_gtk_container_get_type$111=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$112;
-  return_value_g_type_check_instance_cast$112=g_type_check_instance_cast((struct _GTypeInstance *)alignment10, return_value_gtk_container_get_type$111);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$112, create_winMain$$1$$evMinus);
-  create_winMain$$1$$lblMinus=gtk_label_new("-");
-  gtk_widget_set_name(create_winMain$$1$$lblMinus, "lblMinus");
-  gtk_widget_show(create_winMain$$1$$lblMinus);
-  unsigned long int return_value_gtk_container_get_type$113;
-  return_value_gtk_container_get_type$113=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$114;
-  return_value_g_type_check_instance_cast$114=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evMinus, return_value_gtk_container_get_type$113);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$114, create_winMain$$1$$lblMinus);
+  unsigned long int return_value_gtk_table_get_type_109;
+  return_value_gtk_table_get_type_109=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_110;
+  return_value_g_type_check_instance_cast_110=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_109);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_110, alignment10, (unsigned int)0, (unsigned int)1, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evMinus=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evMinus, "evMinus");
+  gtk_widget_show(create_winMain__1__evMinus);
+  unsigned long int return_value_gtk_container_get_type_111;
+  return_value_gtk_container_get_type_111=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_112;
+  return_value_g_type_check_instance_cast_112=g_type_check_instance_cast((struct _GTypeInstance *)alignment10, return_value_gtk_container_get_type_111);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_112, create_winMain__1__evMinus);
+  create_winMain__1__lblMinus=gtk_label_new("-");
+  gtk_widget_set_name(create_winMain__1__lblMinus, "lblMinus");
+  gtk_widget_show(create_winMain__1__lblMinus);
+  unsigned long int return_value_gtk_container_get_type_113;
+  return_value_gtk_container_get_type_113=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_114;
+  return_value_g_type_check_instance_cast_114=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evMinus, return_value_gtk_container_get_type_113);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_114, create_winMain__1__lblMinus);
   alignment11=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment11, "alignment11");
   gtk_widget_show(alignment11);
-  unsigned long int return_value_gtk_table_get_type$115;
-  return_value_gtk_table_get_type$115=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$116;
-  return_value_g_type_check_instance_cast$116=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$115);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$116, alignment11, (unsigned int)1, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evHome=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evHome, "evHome");
-  gtk_widget_show(create_winMain$$1$$evHome);
-  unsigned long int return_value_gtk_container_get_type$117;
-  return_value_gtk_container_get_type$117=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$118;
-  return_value_g_type_check_instance_cast$118=g_type_check_instance_cast((struct _GTypeInstance *)alignment11, return_value_gtk_container_get_type$117);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$118, create_winMain$$1$$evHome);
-  create_winMain$$1$$lblHome=gtk_label_new("Home");
-  gtk_widget_set_name(create_winMain$$1$$lblHome, "lblHome");
-  gtk_widget_show(create_winMain$$1$$lblHome);
-  unsigned long int return_value_gtk_container_get_type$119;
-  return_value_gtk_container_get_type$119=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$120;
-  return_value_g_type_check_instance_cast$120=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evHome, return_value_gtk_container_get_type$119);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$120, create_winMain$$1$$lblHome);
+  unsigned long int return_value_gtk_table_get_type_115;
+  return_value_gtk_table_get_type_115=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_116;
+  return_value_g_type_check_instance_cast_116=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_115);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_116, alignment11, (unsigned int)1, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evHome=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evHome, "evHome");
+  gtk_widget_show(create_winMain__1__evHome);
+  unsigned long int return_value_gtk_container_get_type_117;
+  return_value_gtk_container_get_type_117=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_118;
+  return_value_g_type_check_instance_cast_118=g_type_check_instance_cast((struct _GTypeInstance *)alignment11, return_value_gtk_container_get_type_117);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_118, create_winMain__1__evHome);
+  create_winMain__1__lblHome=gtk_label_new("Home");
+  gtk_widget_set_name(create_winMain__1__lblHome, "lblHome");
+  gtk_widget_show(create_winMain__1__lblHome);
+  unsigned long int return_value_gtk_container_get_type_119;
+  return_value_gtk_container_get_type_119=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_120;
+  return_value_g_type_check_instance_cast_120=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evHome, return_value_gtk_container_get_type_119);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_120, create_winMain__1__lblHome);
   alignment12=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment12, "alignment12");
   gtk_widget_show(alignment12);
-  unsigned long int return_value_gtk_table_get_type$121;
-  return_value_gtk_table_get_type$121=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$122;
-  return_value_g_type_check_instance_cast$122=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$121);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$122, alignment12, (unsigned int)2, (unsigned int)3, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evPlus=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evPlus, "evPlus");
-  gtk_widget_show(create_winMain$$1$$evPlus);
-  unsigned long int return_value_gtk_container_get_type$123;
-  return_value_gtk_container_get_type$123=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$124;
-  return_value_g_type_check_instance_cast$124=g_type_check_instance_cast((struct _GTypeInstance *)alignment12, return_value_gtk_container_get_type$123);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$124, create_winMain$$1$$evPlus);
-  create_winMain$$1$$lblPlus=gtk_label_new("+");
-  gtk_widget_set_name(create_winMain$$1$$lblPlus, "lblPlus");
-  gtk_widget_show(create_winMain$$1$$lblPlus);
-  unsigned long int return_value_gtk_container_get_type$125;
-  return_value_gtk_container_get_type$125=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$126;
-  return_value_g_type_check_instance_cast$126=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evPlus, return_value_gtk_container_get_type$125);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$126, create_winMain$$1$$lblPlus);
+  unsigned long int return_value_gtk_table_get_type_121;
+  return_value_gtk_table_get_type_121=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_122;
+  return_value_g_type_check_instance_cast_122=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_121);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_122, alignment12, (unsigned int)2, (unsigned int)3, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evPlus=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evPlus, "evPlus");
+  gtk_widget_show(create_winMain__1__evPlus);
+  unsigned long int return_value_gtk_container_get_type_123;
+  return_value_gtk_container_get_type_123=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_124;
+  return_value_g_type_check_instance_cast_124=g_type_check_instance_cast((struct _GTypeInstance *)alignment12, return_value_gtk_container_get_type_123);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_124, create_winMain__1__evPlus);
+  create_winMain__1__lblPlus=gtk_label_new("+");
+  gtk_widget_set_name(create_winMain__1__lblPlus, "lblPlus");
+  gtk_widget_show(create_winMain__1__lblPlus);
+  unsigned long int return_value_gtk_container_get_type_125;
+  return_value_gtk_container_get_type_125=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_126;
+  return_value_g_type_check_instance_cast_126=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evPlus, return_value_gtk_container_get_type_125);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_126, create_winMain__1__lblPlus);
   alignment13=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment13, "alignment13");
   gtk_widget_show(alignment13);
-  unsigned long int return_value_gtk_table_get_type$127;
-  return_value_gtk_table_get_type$127=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$128;
-  return_value_g_type_check_instance_cast$128=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$127);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$128, alignment13, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$ev1=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$ev1, "ev1");
-  gtk_widget_show(create_winMain$$1$$ev1);
-  unsigned long int return_value_gtk_container_get_type$129;
-  return_value_gtk_container_get_type$129=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$130;
-  return_value_g_type_check_instance_cast$130=g_type_check_instance_cast((struct _GTypeInstance *)alignment13, return_value_gtk_container_get_type$129);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$130, create_winMain$$1$$ev1);
-  create_winMain$$1$$lbl1=gtk_label_new("1");
-  gtk_widget_set_name(create_winMain$$1$$lbl1, "lbl1");
-  gtk_widget_show(create_winMain$$1$$lbl1);
-  unsigned long int return_value_gtk_container_get_type$131;
-  return_value_gtk_container_get_type$131=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$132;
-  return_value_g_type_check_instance_cast$132=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$ev1, return_value_gtk_container_get_type$131);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$132, create_winMain$$1$$lbl1);
+  unsigned long int return_value_gtk_table_get_type_127;
+  return_value_gtk_table_get_type_127=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_128;
+  return_value_g_type_check_instance_cast_128=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_127);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_128, alignment13, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__ev1=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__ev1, "ev1");
+  gtk_widget_show(create_winMain__1__ev1);
+  unsigned long int return_value_gtk_container_get_type_129;
+  return_value_gtk_container_get_type_129=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_130;
+  return_value_g_type_check_instance_cast_130=g_type_check_instance_cast((struct _GTypeInstance *)alignment13, return_value_gtk_container_get_type_129);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_130, create_winMain__1__ev1);
+  create_winMain__1__lbl1=gtk_label_new("1");
+  gtk_widget_set_name(create_winMain__1__lbl1, "lbl1");
+  gtk_widget_show(create_winMain__1__lbl1);
+  unsigned long int return_value_gtk_container_get_type_131;
+  return_value_gtk_container_get_type_131=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_132;
+  return_value_g_type_check_instance_cast_132=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__ev1, return_value_gtk_container_get_type_131);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_132, create_winMain__1__lbl1);
   alignment14=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment14, "alignment14");
   gtk_widget_show(alignment14);
-  unsigned long int return_value_gtk_table_get_type$133;
-  return_value_gtk_table_get_type$133=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$134;
-  return_value_g_type_check_instance_cast$134=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type$133);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$134, alignment14, (unsigned int)2, (unsigned int)3, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$ev2=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$ev2, "ev2");
-  gtk_widget_show(create_winMain$$1$$ev2);
-  unsigned long int return_value_gtk_container_get_type$135;
-  return_value_gtk_container_get_type$135=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$136;
-  return_value_g_type_check_instance_cast$136=g_type_check_instance_cast((struct _GTypeInstance *)alignment14, return_value_gtk_container_get_type$135);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$136, create_winMain$$1$$ev2);
-  create_winMain$$1$$lbl2=gtk_label_new("2");
-  gtk_widget_set_name(create_winMain$$1$$lbl2, "lbl2");
-  gtk_widget_show(create_winMain$$1$$lbl2);
-  unsigned long int return_value_gtk_container_get_type$137;
-  return_value_gtk_container_get_type$137=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$138;
-  return_value_g_type_check_instance_cast$138=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$ev2, return_value_gtk_container_get_type$137);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$138, create_winMain$$1$$lbl2);
+  unsigned long int return_value_gtk_table_get_type_133;
+  return_value_gtk_table_get_type_133=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_134;
+  return_value_g_type_check_instance_cast_134=g_type_check_instance_cast((struct _GTypeInstance *)table1, return_value_gtk_table_get_type_133);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_134, alignment14, (unsigned int)2, (unsigned int)3, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__ev2=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__ev2, "ev2");
+  gtk_widget_show(create_winMain__1__ev2);
+  unsigned long int return_value_gtk_container_get_type_135;
+  return_value_gtk_container_get_type_135=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_136;
+  return_value_g_type_check_instance_cast_136=g_type_check_instance_cast((struct _GTypeInstance *)alignment14, return_value_gtk_container_get_type_135);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_136, create_winMain__1__ev2);
+  create_winMain__1__lbl2=gtk_label_new("2");
+  gtk_widget_set_name(create_winMain__1__lbl2, "lbl2");
+  gtk_widget_show(create_winMain__1__lbl2);
+  unsigned long int return_value_gtk_container_get_type_137;
+  return_value_gtk_container_get_type_137=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_138;
+  return_value_g_type_check_instance_cast_138=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__ev2, return_value_gtk_container_get_type_137);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_138, create_winMain__1__lbl2);
   label1=gtk_label_new("<b>Buttons</b>");
   gtk_widget_set_name(label1, "label1");
   gtk_widget_show(label1);
-  unsigned long int return_value_gtk_frame_get_type$139;
-  return_value_gtk_frame_get_type$139=gtk_frame_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$140;
-  return_value_g_type_check_instance_cast$140=g_type_check_instance_cast((struct _GTypeInstance *)frame1, return_value_gtk_frame_get_type$139);
-  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast$140, label1);
-  unsigned long int return_value_gtk_label_get_type$141;
-  return_value_gtk_label_get_type$141=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$142;
-  return_value_g_type_check_instance_cast$142=g_type_check_instance_cast((struct _GTypeInstance *)label1, return_value_gtk_label_get_type$141);
-  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$142, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_frame_get_type_139;
+  return_value_gtk_frame_get_type_139=gtk_frame_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_140;
+  return_value_g_type_check_instance_cast_140=g_type_check_instance_cast((struct _GTypeInstance *)frame1, return_value_gtk_frame_get_type_139);
+  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast_140, label1);
+  unsigned long int return_value_gtk_label_get_type_141;
+  return_value_gtk_label_get_type_141=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_142;
+  return_value_g_type_check_instance_cast_142=g_type_check_instance_cast((struct _GTypeInstance *)label1, return_value_gtk_label_get_type_141);
+  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_142, (signed int)!(0 != 0));
   frame2=gtk_frame_new((const char *)(void *)0);
   gtk_widget_set_name(frame2, "frame2");
   gtk_widget_show(frame2);
-  unsigned long int return_value_gtk_box_get_type$143;
-  return_value_gtk_box_get_type$143=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$144;
-  return_value_g_type_check_instance_cast$144=g_type_check_instance_cast((struct _GTypeInstance *)hbox1, return_value_gtk_box_get_type$143);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$144, frame2, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
+  unsigned long int return_value_gtk_box_get_type_143;
+  return_value_gtk_box_get_type_143=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_144;
+  return_value_g_type_check_instance_cast_144=g_type_check_instance_cast((struct _GTypeInstance *)hbox1, return_value_gtk_box_get_type_143);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_144, frame2, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
   alignment2=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment2, "alignment2");
   gtk_widget_show(alignment2);
-  unsigned long int return_value_gtk_container_get_type$145;
-  return_value_gtk_container_get_type$145=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$146;
-  return_value_g_type_check_instance_cast$146=g_type_check_instance_cast((struct _GTypeInstance *)frame2, return_value_gtk_container_get_type$145);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$146, alignment2);
-  unsigned long int return_value_gtk_alignment_get_type$147;
-  return_value_gtk_alignment_get_type$147=gtk_alignment_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$148;
-  return_value_g_type_check_instance_cast$148=g_type_check_instance_cast((struct _GTypeInstance *)alignment2, return_value_gtk_alignment_get_type$147);
-  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast$148, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
+  unsigned long int return_value_gtk_container_get_type_145;
+  return_value_gtk_container_get_type_145=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_146;
+  return_value_g_type_check_instance_cast_146=g_type_check_instance_cast((struct _GTypeInstance *)frame2, return_value_gtk_container_get_type_145);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_146, alignment2);
+  unsigned long int return_value_gtk_alignment_get_type_147;
+  return_value_gtk_alignment_get_type_147=gtk_alignment_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_148;
+  return_value_g_type_check_instance_cast_148=g_type_check_instance_cast((struct _GTypeInstance *)alignment2, return_value_gtk_alignment_get_type_147);
+  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast_148, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
   hbox2=gtk_hbox_new((signed int)!(0 != 0), 6);
   gtk_widget_set_name(hbox2, "hbox2");
   gtk_widget_show(hbox2);
-  unsigned long int return_value_gtk_container_get_type$149;
-  return_value_gtk_container_get_type$149=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$150;
-  return_value_g_type_check_instance_cast$150=g_type_check_instance_cast((struct _GTypeInstance *)alignment2, return_value_gtk_container_get_type$149);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$150, hbox2);
+  unsigned long int return_value_gtk_container_get_type_149;
+  return_value_gtk_container_get_type_149=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_150;
+  return_value_g_type_check_instance_cast_150=g_type_check_instance_cast((struct _GTypeInstance *)alignment2, return_value_gtk_container_get_type_149);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_150, hbox2);
   table4=gtk_table_new((unsigned int)6, (unsigned int)3, 0);
   gtk_widget_set_name(table4, "table4");
   gtk_widget_show(table4);
-  unsigned long int return_value_gtk_box_get_type$151;
-  return_value_gtk_box_get_type$151=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$152;
-  return_value_g_type_check_instance_cast$152=g_type_check_instance_cast((struct _GTypeInstance *)hbox2, return_value_gtk_box_get_type$151);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$152, table4, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_table_get_type$153;
-  return_value_gtk_table_get_type$153=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$154;
-  return_value_g_type_check_instance_cast$154=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$153);
-  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast$154, (unsigned int)3);
-  create_winMain$$1$$progAccX=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progAccX, "progAccX");
-  gtk_widget_show(create_winMain$$1$$progAccX);
-  unsigned long int return_value_gtk_table_get_type$155;
-  return_value_gtk_table_get_type$155=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$156;
-  return_value_g_type_check_instance_cast$156=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$155);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$156, create_winMain$$1$$progAccX, (unsigned int)2, (unsigned int)3, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$progAccX, 0);
-  create_winMain$$1$$progAccY=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progAccY, "progAccY");
-  gtk_widget_show(create_winMain$$1$$progAccY);
-  unsigned long int return_value_gtk_table_get_type$157;
-  return_value_gtk_table_get_type$157=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$158;
-  return_value_g_type_check_instance_cast$158=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$157);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$158, create_winMain$$1$$progAccY, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$progAccY, 0);
-  create_winMain$$1$$progAccZ=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progAccZ, "progAccZ");
-  gtk_widget_show(create_winMain$$1$$progAccZ);
-  unsigned long int return_value_gtk_table_get_type$159;
-  return_value_gtk_table_get_type$159=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$160;
-  return_value_g_type_check_instance_cast$160=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$159);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$160, create_winMain$$1$$progAccZ, (unsigned int)2, (unsigned int)3, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$progAccZ, 0);
-  create_winMain$$1$$lblAccX=gtk_label_new("X:");
-  gtk_widget_set_name(create_winMain$$1$$lblAccX, "lblAccX");
-  gtk_widget_show(create_winMain$$1$$lblAccX);
-  unsigned long int return_value_gtk_table_get_type$161;
-  return_value_gtk_table_get_type$161=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$162;
-  return_value_g_type_check_instance_cast$162=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$161);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$162, create_winMain$$1$$lblAccX, (unsigned int)0, (unsigned int)1, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAccX, 0);
-  unsigned long int return_value_gtk_label_get_type$163;
-  return_value_gtk_label_get_type$163=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$164;
-  return_value_g_type_check_instance_cast$164=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccX, return_value_gtk_label_get_type$163);
-  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast$164, (enum anonymous$3)GTK_JUSTIFY_RIGHT);
-  unsigned long int return_value_gtk_misc_get_type$165;
-  return_value_gtk_misc_get_type$165=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$166;
-  return_value_g_type_check_instance_cast$166=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccX, return_value_gtk_misc_get_type$165);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$166, (float)0, (float)0.5);
-  create_winMain$$1$$lblAccXVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblAccXVal, "lblAccXVal");
-  gtk_widget_show(create_winMain$$1$$lblAccXVal);
-  unsigned long int return_value_gtk_table_get_type$167;
-  return_value_gtk_table_get_type$167=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$168;
-  return_value_g_type_check_instance_cast$168=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$167);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$168, create_winMain$$1$$lblAccXVal, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblAccXVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAccXVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$169;
-  return_value_gtk_misc_get_type$169=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$170;
-  return_value_g_type_check_instance_cast$170=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccXVal, return_value_gtk_misc_get_type$169);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$170, (float)0, (float)0.5);
-  create_winMain$$1$$lblAccY=gtk_label_new("Y:");
-  gtk_widget_set_name(create_winMain$$1$$lblAccY, "lblAccY");
-  gtk_widget_show(create_winMain$$1$$lblAccY);
-  unsigned long int return_value_gtk_table_get_type$171;
-  return_value_gtk_table_get_type$171=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$172;
-  return_value_g_type_check_instance_cast$172=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$171);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$172, create_winMain$$1$$lblAccY, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAccY, 0);
-  unsigned long int return_value_gtk_label_get_type$173;
-  return_value_gtk_label_get_type$173=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$174;
-  return_value_g_type_check_instance_cast$174=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccY, return_value_gtk_label_get_type$173);
-  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast$174, (enum anonymous$3)GTK_JUSTIFY_RIGHT);
-  unsigned long int return_value_gtk_misc_get_type$175;
-  return_value_gtk_misc_get_type$175=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$176;
-  return_value_g_type_check_instance_cast$176=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccY, return_value_gtk_misc_get_type$175);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$176, (float)0, (float)0.5);
-  create_winMain$$1$$lblAccYVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblAccYVal, "lblAccYVal");
-  gtk_widget_show(create_winMain$$1$$lblAccYVal);
-  unsigned long int return_value_gtk_table_get_type$177;
-  return_value_gtk_table_get_type$177=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$178;
-  return_value_g_type_check_instance_cast$178=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$177);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$178, create_winMain$$1$$lblAccYVal, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblAccYVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAccYVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$179;
-  return_value_gtk_misc_get_type$179=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$180;
-  return_value_g_type_check_instance_cast$180=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccYVal, return_value_gtk_misc_get_type$179);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$180, (float)0, (float)0.5);
-  create_winMain$$1$$lblAccZ=gtk_label_new("Z:");
-  gtk_widget_set_name(create_winMain$$1$$lblAccZ, "lblAccZ");
-  gtk_widget_show(create_winMain$$1$$lblAccZ);
-  unsigned long int return_value_gtk_table_get_type$181;
-  return_value_gtk_table_get_type$181=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$182;
-  return_value_g_type_check_instance_cast$182=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$181);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$182, create_winMain$$1$$lblAccZ, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAccZ, 0);
-  unsigned long int return_value_gtk_label_get_type$183;
-  return_value_gtk_label_get_type$183=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$184;
-  return_value_g_type_check_instance_cast$184=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccZ, return_value_gtk_label_get_type$183);
-  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast$184, (enum anonymous$3)GTK_JUSTIFY_RIGHT);
-  unsigned long int return_value_gtk_misc_get_type$185;
-  return_value_gtk_misc_get_type$185=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$186;
-  return_value_g_type_check_instance_cast$186=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccZ, return_value_gtk_misc_get_type$185);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$186, (float)0, (float)0.5);
-  create_winMain$$1$$lblAccZVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblAccZVal, "lblAccZVal");
-  gtk_widget_show(create_winMain$$1$$lblAccZVal);
-  unsigned long int return_value_gtk_table_get_type$187;
-  return_value_gtk_table_get_type$187=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$188;
-  return_value_g_type_check_instance_cast$188=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$187);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$188, create_winMain$$1$$lblAccZVal, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblAccZVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAccZVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$189;
-  return_value_gtk_misc_get_type$189=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$190;
-  return_value_g_type_check_instance_cast$190=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccZVal, return_value_gtk_misc_get_type$189);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$190, (float)0, (float)0.5);
-  create_winMain$$1$$lblPitch=gtk_label_new("Pitch:");
-  gtk_widget_set_name(create_winMain$$1$$lblPitch, "lblPitch");
-  gtk_widget_show(create_winMain$$1$$lblPitch);
-  unsigned long int return_value_gtk_table_get_type$191;
-  return_value_gtk_table_get_type$191=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$192;
-  return_value_g_type_check_instance_cast$192=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$191);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$192, create_winMain$$1$$lblPitch, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblPitch, 0);
-  unsigned long int return_value_gtk_label_get_type$193;
-  return_value_gtk_label_get_type$193=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$194;
-  return_value_g_type_check_instance_cast$194=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblPitch, return_value_gtk_label_get_type$193);
-  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast$194, (enum anonymous$3)GTK_JUSTIFY_RIGHT);
-  unsigned long int return_value_gtk_misc_get_type$195;
-  return_value_gtk_misc_get_type$195=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$196;
-  return_value_g_type_check_instance_cast$196=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblPitch, return_value_gtk_misc_get_type$195);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$196, (float)0, (float)0.5);
-  create_winMain$$1$$lblPitchVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblPitchVal, "lblPitchVal");
-  gtk_widget_show(create_winMain$$1$$lblPitchVal);
-  unsigned long int return_value_gtk_table_get_type$197;
-  return_value_gtk_table_get_type$197=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$198;
-  return_value_g_type_check_instance_cast$198=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$197);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$198, create_winMain$$1$$lblPitchVal, (unsigned int)1, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblPitchVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblPitchVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$199;
-  return_value_gtk_misc_get_type$199=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$200;
-  return_value_g_type_check_instance_cast$200=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblPitchVal, return_value_gtk_misc_get_type$199);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$200, (float)0, (float)0.5);
-  create_winMain$$1$$lblRoll=gtk_label_new("Roll:");
-  gtk_widget_set_name(create_winMain$$1$$lblRoll, "lblRoll");
-  gtk_widget_show(create_winMain$$1$$lblRoll);
-  unsigned long int return_value_gtk_table_get_type$201;
-  return_value_gtk_table_get_type$201=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$202;
-  return_value_g_type_check_instance_cast$202=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$201);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$202, create_winMain$$1$$lblRoll, (unsigned int)0, (unsigned int)1, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblRoll, 0);
-  unsigned long int return_value_gtk_label_get_type$203;
-  return_value_gtk_label_get_type$203=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$204;
-  return_value_g_type_check_instance_cast$204=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblRoll, return_value_gtk_label_get_type$203);
-  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast$204, (enum anonymous$3)GTK_JUSTIFY_RIGHT);
-  unsigned long int return_value_gtk_misc_get_type$205;
-  return_value_gtk_misc_get_type$205=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$206;
-  return_value_g_type_check_instance_cast$206=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblRoll, return_value_gtk_misc_get_type$205);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$206, (float)0, (float)0.5);
-  create_winMain$$1$$lblRollVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblRollVal, "lblRollVal");
-  gtk_widget_show(create_winMain$$1$$lblRollVal);
-  unsigned long int return_value_gtk_table_get_type$207;
-  return_value_gtk_table_get_type$207=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$208;
-  return_value_g_type_check_instance_cast$208=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$207);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$208, create_winMain$$1$$lblRollVal, (unsigned int)1, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblRollVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblRollVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$209;
-  return_value_gtk_misc_get_type$209=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$210;
-  return_value_g_type_check_instance_cast$210=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblRollVal, return_value_gtk_misc_get_type$209);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$210, (float)0, (float)0.5);
-  create_winMain$$1$$lblAcc=gtk_label_new("Acc:");
-  gtk_widget_set_name(create_winMain$$1$$lblAcc, "lblAcc");
-  gtk_widget_show(create_winMain$$1$$lblAcc);
-  unsigned long int return_value_gtk_table_get_type$211;
-  return_value_gtk_table_get_type$211=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$212;
-  return_value_g_type_check_instance_cast$212=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$211);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$212, create_winMain$$1$$lblAcc, (unsigned int)0, (unsigned int)1, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAcc, 0);
-  unsigned long int return_value_gtk_misc_get_type$213;
-  return_value_gtk_misc_get_type$213=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$214;
-  return_value_g_type_check_instance_cast$214=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAcc, return_value_gtk_misc_get_type$213);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$214, (float)0, (float)0.5);
-  create_winMain$$1$$lblAccVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblAccVal, "lblAccVal");
-  gtk_widget_show(create_winMain$$1$$lblAccVal);
-  unsigned long int return_value_gtk_table_get_type$215;
-  return_value_gtk_table_get_type$215=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$216;
-  return_value_g_type_check_instance_cast$216=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$215);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$216, create_winMain$$1$$lblAccVal, (unsigned int)1, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblAccVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblAccVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$217;
-  return_value_gtk_misc_get_type$217=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$218;
-  return_value_g_type_check_instance_cast$218=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblAccVal, return_value_gtk_misc_get_type$217);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$218, (float)0, (float)0.5);
-  create_winMain$$1$$btnBeep=gtk_button_new_with_mnemonic("Beep");
-  gtk_widget_set_name(create_winMain$$1$$btnBeep, "btnBeep");
-  unsigned long int return_value_gtk_table_get_type$219;
-  return_value_gtk_table_get_type$219=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$220;
-  return_value_g_type_check_instance_cast$220=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type$219);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$220, create_winMain$$1$$btnBeep, (unsigned int)2, (unsigned int)3, (unsigned int)4, (unsigned int)5, (enum anonymous$18)0, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_151;
+  return_value_gtk_box_get_type_151=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_152;
+  return_value_g_type_check_instance_cast_152=g_type_check_instance_cast((struct _GTypeInstance *)hbox2, return_value_gtk_box_get_type_151);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_152, table4, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_153;
+  return_value_gtk_table_get_type_153=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_154;
+  return_value_g_type_check_instance_cast_154=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_153);
+  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast_154, (unsigned int)3);
+  create_winMain__1__progAccX=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progAccX, "progAccX");
+  gtk_widget_show(create_winMain__1__progAccX);
+  unsigned long int return_value_gtk_table_get_type_155;
+  return_value_gtk_table_get_type_155=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_156;
+  return_value_g_type_check_instance_cast_156=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_155);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_156, create_winMain__1__progAccX, (unsigned int)2, (unsigned int)3, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__progAccX, 0);
+  create_winMain__1__progAccY=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progAccY, "progAccY");
+  gtk_widget_show(create_winMain__1__progAccY);
+  unsigned long int return_value_gtk_table_get_type_157;
+  return_value_gtk_table_get_type_157=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_158;
+  return_value_g_type_check_instance_cast_158=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_157);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_158, create_winMain__1__progAccY, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__progAccY, 0);
+  create_winMain__1__progAccZ=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progAccZ, "progAccZ");
+  gtk_widget_show(create_winMain__1__progAccZ);
+  unsigned long int return_value_gtk_table_get_type_159;
+  return_value_gtk_table_get_type_159=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_160;
+  return_value_g_type_check_instance_cast_160=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_159);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_160, create_winMain__1__progAccZ, (unsigned int)2, (unsigned int)3, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__progAccZ, 0);
+  create_winMain__1__lblAccX=gtk_label_new("X:");
+  gtk_widget_set_name(create_winMain__1__lblAccX, "lblAccX");
+  gtk_widget_show(create_winMain__1__lblAccX);
+  unsigned long int return_value_gtk_table_get_type_161;
+  return_value_gtk_table_get_type_161=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_162;
+  return_value_g_type_check_instance_cast_162=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_161);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_162, create_winMain__1__lblAccX, (unsigned int)0, (unsigned int)1, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblAccX, 0);
+  unsigned long int return_value_gtk_label_get_type_163;
+  return_value_gtk_label_get_type_163=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_164;
+  return_value_g_type_check_instance_cast_164=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccX, return_value_gtk_label_get_type_163);
+  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast_164, (enum anonymous_3)GTK_JUSTIFY_RIGHT);
+  unsigned long int return_value_gtk_misc_get_type_165;
+  return_value_gtk_misc_get_type_165=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_166;
+  return_value_g_type_check_instance_cast_166=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccX, return_value_gtk_misc_get_type_165);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_166, (float)0, (float)0.5);
+  create_winMain__1__lblAccXVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblAccXVal, "lblAccXVal");
+  gtk_widget_show(create_winMain__1__lblAccXVal);
+  unsigned long int return_value_gtk_table_get_type_167;
+  return_value_gtk_table_get_type_167=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_168;
+  return_value_g_type_check_instance_cast_168=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_167);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_168, create_winMain__1__lblAccXVal, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblAccXVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblAccXVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_169;
+  return_value_gtk_misc_get_type_169=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_170;
+  return_value_g_type_check_instance_cast_170=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccXVal, return_value_gtk_misc_get_type_169);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_170, (float)0, (float)0.5);
+  create_winMain__1__lblAccY=gtk_label_new("Y:");
+  gtk_widget_set_name(create_winMain__1__lblAccY, "lblAccY");
+  gtk_widget_show(create_winMain__1__lblAccY);
+  unsigned long int return_value_gtk_table_get_type_171;
+  return_value_gtk_table_get_type_171=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_172;
+  return_value_g_type_check_instance_cast_172=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_171);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_172, create_winMain__1__lblAccY, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblAccY, 0);
+  unsigned long int return_value_gtk_label_get_type_173;
+  return_value_gtk_label_get_type_173=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_174;
+  return_value_g_type_check_instance_cast_174=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccY, return_value_gtk_label_get_type_173);
+  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast_174, (enum anonymous_3)GTK_JUSTIFY_RIGHT);
+  unsigned long int return_value_gtk_misc_get_type_175;
+  return_value_gtk_misc_get_type_175=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_176;
+  return_value_g_type_check_instance_cast_176=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccY, return_value_gtk_misc_get_type_175);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_176, (float)0, (float)0.5);
+  create_winMain__1__lblAccYVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblAccYVal, "lblAccYVal");
+  gtk_widget_show(create_winMain__1__lblAccYVal);
+  unsigned long int return_value_gtk_table_get_type_177;
+  return_value_gtk_table_get_type_177=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_178;
+  return_value_g_type_check_instance_cast_178=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_177);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_178, create_winMain__1__lblAccYVal, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblAccYVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblAccYVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_179;
+  return_value_gtk_misc_get_type_179=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_180;
+  return_value_g_type_check_instance_cast_180=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccYVal, return_value_gtk_misc_get_type_179);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_180, (float)0, (float)0.5);
+  create_winMain__1__lblAccZ=gtk_label_new("Z:");
+  gtk_widget_set_name(create_winMain__1__lblAccZ, "lblAccZ");
+  gtk_widget_show(create_winMain__1__lblAccZ);
+  unsigned long int return_value_gtk_table_get_type_181;
+  return_value_gtk_table_get_type_181=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_182;
+  return_value_g_type_check_instance_cast_182=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_181);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_182, create_winMain__1__lblAccZ, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblAccZ, 0);
+  unsigned long int return_value_gtk_label_get_type_183;
+  return_value_gtk_label_get_type_183=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_184;
+  return_value_g_type_check_instance_cast_184=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccZ, return_value_gtk_label_get_type_183);
+  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast_184, (enum anonymous_3)GTK_JUSTIFY_RIGHT);
+  unsigned long int return_value_gtk_misc_get_type_185;
+  return_value_gtk_misc_get_type_185=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_186;
+  return_value_g_type_check_instance_cast_186=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccZ, return_value_gtk_misc_get_type_185);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_186, (float)0, (float)0.5);
+  create_winMain__1__lblAccZVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblAccZVal, "lblAccZVal");
+  gtk_widget_show(create_winMain__1__lblAccZVal);
+  unsigned long int return_value_gtk_table_get_type_187;
+  return_value_gtk_table_get_type_187=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_188;
+  return_value_g_type_check_instance_cast_188=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_187);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_188, create_winMain__1__lblAccZVal, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblAccZVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblAccZVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_189;
+  return_value_gtk_misc_get_type_189=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_190;
+  return_value_g_type_check_instance_cast_190=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccZVal, return_value_gtk_misc_get_type_189);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_190, (float)0, (float)0.5);
+  create_winMain__1__lblPitch=gtk_label_new("Pitch:");
+  gtk_widget_set_name(create_winMain__1__lblPitch, "lblPitch");
+  gtk_widget_show(create_winMain__1__lblPitch);
+  unsigned long int return_value_gtk_table_get_type_191;
+  return_value_gtk_table_get_type_191=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_192;
+  return_value_g_type_check_instance_cast_192=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_191);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_192, create_winMain__1__lblPitch, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblPitch, 0);
+  unsigned long int return_value_gtk_label_get_type_193;
+  return_value_gtk_label_get_type_193=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_194;
+  return_value_g_type_check_instance_cast_194=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblPitch, return_value_gtk_label_get_type_193);
+  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast_194, (enum anonymous_3)GTK_JUSTIFY_RIGHT);
+  unsigned long int return_value_gtk_misc_get_type_195;
+  return_value_gtk_misc_get_type_195=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_196;
+  return_value_g_type_check_instance_cast_196=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblPitch, return_value_gtk_misc_get_type_195);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_196, (float)0, (float)0.5);
+  create_winMain__1__lblPitchVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblPitchVal, "lblPitchVal");
+  gtk_widget_show(create_winMain__1__lblPitchVal);
+  unsigned long int return_value_gtk_table_get_type_197;
+  return_value_gtk_table_get_type_197=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_198;
+  return_value_g_type_check_instance_cast_198=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_197);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_198, create_winMain__1__lblPitchVal, (unsigned int)1, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblPitchVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblPitchVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_199;
+  return_value_gtk_misc_get_type_199=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_200;
+  return_value_g_type_check_instance_cast_200=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblPitchVal, return_value_gtk_misc_get_type_199);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_200, (float)0, (float)0.5);
+  create_winMain__1__lblRoll=gtk_label_new("Roll:");
+  gtk_widget_set_name(create_winMain__1__lblRoll, "lblRoll");
+  gtk_widget_show(create_winMain__1__lblRoll);
+  unsigned long int return_value_gtk_table_get_type_201;
+  return_value_gtk_table_get_type_201=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_202;
+  return_value_g_type_check_instance_cast_202=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_201);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_202, create_winMain__1__lblRoll, (unsigned int)0, (unsigned int)1, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblRoll, 0);
+  unsigned long int return_value_gtk_label_get_type_203;
+  return_value_gtk_label_get_type_203=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_204;
+  return_value_g_type_check_instance_cast_204=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblRoll, return_value_gtk_label_get_type_203);
+  gtk_label_set_justify((struct _GtkLabel *)return_value_g_type_check_instance_cast_204, (enum anonymous_3)GTK_JUSTIFY_RIGHT);
+  unsigned long int return_value_gtk_misc_get_type_205;
+  return_value_gtk_misc_get_type_205=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_206;
+  return_value_g_type_check_instance_cast_206=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblRoll, return_value_gtk_misc_get_type_205);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_206, (float)0, (float)0.5);
+  create_winMain__1__lblRollVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblRollVal, "lblRollVal");
+  gtk_widget_show(create_winMain__1__lblRollVal);
+  unsigned long int return_value_gtk_table_get_type_207;
+  return_value_gtk_table_get_type_207=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_208;
+  return_value_g_type_check_instance_cast_208=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_207);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_208, create_winMain__1__lblRollVal, (unsigned int)1, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblRollVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblRollVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_209;
+  return_value_gtk_misc_get_type_209=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_210;
+  return_value_g_type_check_instance_cast_210=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblRollVal, return_value_gtk_misc_get_type_209);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_210, (float)0, (float)0.5);
+  create_winMain__1__lblAcc=gtk_label_new("Acc:");
+  gtk_widget_set_name(create_winMain__1__lblAcc, "lblAcc");
+  gtk_widget_show(create_winMain__1__lblAcc);
+  unsigned long int return_value_gtk_table_get_type_211;
+  return_value_gtk_table_get_type_211=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_212;
+  return_value_g_type_check_instance_cast_212=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_211);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_212, create_winMain__1__lblAcc, (unsigned int)0, (unsigned int)1, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblAcc, 0);
+  unsigned long int return_value_gtk_misc_get_type_213;
+  return_value_gtk_misc_get_type_213=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_214;
+  return_value_g_type_check_instance_cast_214=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAcc, return_value_gtk_misc_get_type_213);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_214, (float)0, (float)0.5);
+  create_winMain__1__lblAccVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblAccVal, "lblAccVal");
+  gtk_widget_show(create_winMain__1__lblAccVal);
+  unsigned long int return_value_gtk_table_get_type_215;
+  return_value_gtk_table_get_type_215=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_216;
+  return_value_g_type_check_instance_cast_216=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_215);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_216, create_winMain__1__lblAccVal, (unsigned int)1, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblAccVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblAccVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_217;
+  return_value_gtk_misc_get_type_217=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_218;
+  return_value_g_type_check_instance_cast_218=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblAccVal, return_value_gtk_misc_get_type_217);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_218, (float)0, (float)0.5);
+  create_winMain__1__btnBeep=gtk_button_new_with_mnemonic("Beep");
+  gtk_widget_set_name(create_winMain__1__btnBeep, "btnBeep");
+  unsigned long int return_value_gtk_table_get_type_219;
+  return_value_gtk_table_get_type_219=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_220;
+  return_value_g_type_check_instance_cast_220=g_type_check_instance_cast((struct _GTypeInstance *)table4, return_value_gtk_table_get_type_219);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_220, create_winMain__1__btnBeep, (unsigned int)2, (unsigned int)3, (unsigned int)4, (unsigned int)5, (enum anonymous_18)0, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
   frame3=gtk_frame_new((const char *)(void *)0);
   gtk_widget_set_name(frame3, "frame3");
   gtk_widget_show(frame3);
-  unsigned long int return_value_gtk_box_get_type$221;
-  return_value_gtk_box_get_type$221=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$222;
-  return_value_g_type_check_instance_cast$222=g_type_check_instance_cast((struct _GTypeInstance *)hbox2, return_value_gtk_box_get_type$221);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$222, frame3, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_container_get_type$223;
-  return_value_gtk_container_get_type$223=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$224;
-  return_value_g_type_check_instance_cast$224=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_container_get_type$223);
-  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast$224, (unsigned int)4);
-  unsigned long int return_value_gtk_frame_get_type$225;
-  return_value_gtk_frame_get_type$225=gtk_frame_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$226;
-  return_value_g_type_check_instance_cast$226=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_frame_get_type$225);
-  gtk_frame_set_shadow_type((struct _GtkFrame *)return_value_g_type_check_instance_cast$226, (enum anonymous)GTK_SHADOW_IN);
-  create_winMain$$1$$drawIR=gtk_drawing_area_new();
-  gtk_widget_set_name(create_winMain$$1$$drawIR, "drawIR");
-  gtk_widget_show(create_winMain$$1$$drawIR);
-  unsigned long int return_value_gtk_container_get_type$227;
-  return_value_gtk_container_get_type$227=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$228;
-  return_value_g_type_check_instance_cast$228=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_container_get_type$227);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$228, create_winMain$$1$$drawIR);
-  create_winMain$$1$$lblIR=gtk_label_new("IR");
-  gtk_widget_set_name(create_winMain$$1$$lblIR, "lblIR");
-  gtk_widget_show(create_winMain$$1$$lblIR);
-  unsigned long int return_value_gtk_frame_get_type$229;
-  return_value_gtk_frame_get_type$229=gtk_frame_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$230;
-  return_value_g_type_check_instance_cast$230=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_frame_get_type$229);
-  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast$230, create_winMain$$1$$lblIR);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblIR, 0);
-  unsigned long int return_value_gtk_label_get_type$231;
-  return_value_gtk_label_get_type$231=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$232;
-  return_value_g_type_check_instance_cast$232=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblIR, return_value_gtk_label_get_type$231);
-  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$232, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_box_get_type_221;
+  return_value_gtk_box_get_type_221=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_222;
+  return_value_g_type_check_instance_cast_222=g_type_check_instance_cast((struct _GTypeInstance *)hbox2, return_value_gtk_box_get_type_221);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_222, frame3, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_container_get_type_223;
+  return_value_gtk_container_get_type_223=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_224;
+  return_value_g_type_check_instance_cast_224=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_container_get_type_223);
+  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast_224, (unsigned int)4);
+  unsigned long int return_value_gtk_frame_get_type_225;
+  return_value_gtk_frame_get_type_225=gtk_frame_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_226;
+  return_value_g_type_check_instance_cast_226=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_frame_get_type_225);
+  gtk_frame_set_shadow_type((struct _GtkFrame *)return_value_g_type_check_instance_cast_226, (enum anonymous)GTK_SHADOW_IN);
+  create_winMain__1__drawIR=gtk_drawing_area_new();
+  gtk_widget_set_name(create_winMain__1__drawIR, "drawIR");
+  gtk_widget_show(create_winMain__1__drawIR);
+  unsigned long int return_value_gtk_container_get_type_227;
+  return_value_gtk_container_get_type_227=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_228;
+  return_value_g_type_check_instance_cast_228=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_container_get_type_227);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_228, create_winMain__1__drawIR);
+  create_winMain__1__lblIR=gtk_label_new("IR");
+  gtk_widget_set_name(create_winMain__1__lblIR, "lblIR");
+  gtk_widget_show(create_winMain__1__lblIR);
+  unsigned long int return_value_gtk_frame_get_type_229;
+  return_value_gtk_frame_get_type_229=gtk_frame_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_230;
+  return_value_g_type_check_instance_cast_230=g_type_check_instance_cast((struct _GTypeInstance *)frame3, return_value_gtk_frame_get_type_229);
+  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast_230, create_winMain__1__lblIR);
+  gtk_widget_set_sensitive(create_winMain__1__lblIR, 0);
+  unsigned long int return_value_gtk_label_get_type_231;
+  return_value_gtk_label_get_type_231=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_232;
+  return_value_g_type_check_instance_cast_232=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblIR, return_value_gtk_label_get_type_231);
+  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_232, (signed int)!(0 != 0));
   label2=gtk_label_new("<b>Motion Sensors</b>");
   gtk_widget_set_name(label2, "label2");
   gtk_widget_show(label2);
-  unsigned long int return_value_gtk_frame_get_type$233;
-  return_value_gtk_frame_get_type$233=gtk_frame_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$234;
-  return_value_g_type_check_instance_cast$234=g_type_check_instance_cast((struct _GTypeInstance *)frame2, return_value_gtk_frame_get_type$233);
-  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast$234, label2);
-  unsigned long int return_value_gtk_label_get_type$235;
-  return_value_gtk_label_get_type$235=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$236;
-  return_value_g_type_check_instance_cast$236=g_type_check_instance_cast((struct _GTypeInstance *)label2, return_value_gtk_label_get_type$235);
-  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$236, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_frame_get_type_233;
+  return_value_gtk_frame_get_type_233=gtk_frame_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_234;
+  return_value_g_type_check_instance_cast_234=g_type_check_instance_cast((struct _GTypeInstance *)frame2, return_value_gtk_frame_get_type_233);
+  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast_234, label2);
+  unsigned long int return_value_gtk_label_get_type_235;
+  return_value_gtk_label_get_type_235=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_236;
+  return_value_g_type_check_instance_cast_236=g_type_check_instance_cast((struct _GTypeInstance *)label2, return_value_gtk_label_get_type_235);
+  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_236, (signed int)!(0 != 0));
   hbox10=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox10, "hbox10");
   gtk_widget_show(hbox10);
-  unsigned long int return_value_gtk_box_get_type$237;
-  return_value_gtk_box_get_type$237=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$238;
-  return_value_g_type_check_instance_cast$238=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type$237);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$238, hbox10, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_237;
+  return_value_gtk_box_get_type_237=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_238;
+  return_value_g_type_check_instance_cast_238=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type_237);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_238, hbox10, 0, 0, (unsigned int)0);
   frame4=gtk_frame_new((const char *)(void *)0);
   gtk_widget_set_name(frame4, "frame4");
   gtk_widget_show(frame4);
-  unsigned long int return_value_gtk_box_get_type$239;
-  return_value_gtk_box_get_type$239=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$240;
-  return_value_g_type_check_instance_cast$240=g_type_check_instance_cast((struct _GTypeInstance *)hbox10, return_value_gtk_box_get_type$239);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$240, frame4, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
+  unsigned long int return_value_gtk_box_get_type_239;
+  return_value_gtk_box_get_type_239=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_240;
+  return_value_g_type_check_instance_cast_240=g_type_check_instance_cast((struct _GTypeInstance *)hbox10, return_value_gtk_box_get_type_239);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_240, frame4, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
   alignment28=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment28, "alignment28");
   gtk_widget_show(alignment28);
-  unsigned long int return_value_gtk_container_get_type$241;
-  return_value_gtk_container_get_type$241=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$242;
-  return_value_g_type_check_instance_cast$242=g_type_check_instance_cast((struct _GTypeInstance *)frame4, return_value_gtk_container_get_type$241);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$242, alignment28);
-  unsigned long int return_value_gtk_alignment_get_type$243;
-  return_value_gtk_alignment_get_type$243=gtk_alignment_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$244;
-  return_value_g_type_check_instance_cast$244=g_type_check_instance_cast((struct _GTypeInstance *)alignment28, return_value_gtk_alignment_get_type$243);
-  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast$244, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
+  unsigned long int return_value_gtk_container_get_type_241;
+  return_value_gtk_container_get_type_241=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_242;
+  return_value_g_type_check_instance_cast_242=g_type_check_instance_cast((struct _GTypeInstance *)frame4, return_value_gtk_container_get_type_241);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_242, alignment28);
+  unsigned long int return_value_gtk_alignment_get_type_243;
+  return_value_gtk_alignment_get_type_243=gtk_alignment_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_244;
+  return_value_g_type_check_instance_cast_244=g_type_check_instance_cast((struct _GTypeInstance *)alignment28, return_value_gtk_alignment_get_type_243);
+  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast_244, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
   hbox12=gtk_hbox_new(0, 4);
   gtk_widget_set_name(hbox12, "hbox12");
   gtk_widget_show(hbox12);
-  unsigned long int return_value_gtk_container_get_type$245;
-  return_value_gtk_container_get_type$245=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$246;
-  return_value_g_type_check_instance_cast$246=g_type_check_instance_cast((struct _GTypeInstance *)alignment28, return_value_gtk_container_get_type$245);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$246, hbox12);
+  unsigned long int return_value_gtk_container_get_type_245;
+  return_value_gtk_container_get_type_245=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_246;
+  return_value_g_type_check_instance_cast_246=g_type_check_instance_cast((struct _GTypeInstance *)alignment28, return_value_gtk_container_get_type_245);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_246, hbox12);
   vbox4=gtk_vbox_new(0, 0);
   gtk_widget_set_name(vbox4, "vbox4");
   gtk_widget_show(vbox4);
-  unsigned long int return_value_gtk_box_get_type$247;
-  return_value_gtk_box_get_type$247=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$248;
-  return_value_g_type_check_instance_cast$248=g_type_check_instance_cast((struct _GTypeInstance *)hbox12, return_value_gtk_box_get_type$247);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$248, vbox4, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  create_winMain$$1$$drawNCStick=gtk_drawing_area_new();
-  gtk_widget_set_name(create_winMain$$1$$drawNCStick, "drawNCStick");
-  gtk_widget_show(create_winMain$$1$$drawNCStick);
-  unsigned long int return_value_gtk_box_get_type$249;
-  return_value_gtk_box_get_type$249=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$250;
-  return_value_g_type_check_instance_cast$250=g_type_check_instance_cast((struct _GTypeInstance *)vbox4, return_value_gtk_box_get_type$249);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$250, create_winMain$$1$$drawNCStick, (signed int)!(0 != 0), 0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$drawNCStick, 50, 50);
+  unsigned long int return_value_gtk_box_get_type_247;
+  return_value_gtk_box_get_type_247=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_248;
+  return_value_g_type_check_instance_cast_248=g_type_check_instance_cast((struct _GTypeInstance *)hbox12, return_value_gtk_box_get_type_247);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_248, vbox4, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  create_winMain__1__drawNCStick=gtk_drawing_area_new();
+  gtk_widget_set_name(create_winMain__1__drawNCStick, "drawNCStick");
+  gtk_widget_show(create_winMain__1__drawNCStick);
+  unsigned long int return_value_gtk_box_get_type_249;
+  return_value_gtk_box_get_type_249=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_250;
+  return_value_g_type_check_instance_cast_250=g_type_check_instance_cast((struct _GTypeInstance *)vbox4, return_value_gtk_box_get_type_249);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_250, create_winMain__1__drawNCStick, (signed int)!(0 != 0), 0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__drawNCStick, 50, 50);
   hbox13=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox13, "hbox13");
   gtk_widget_show(hbox13);
-  unsigned long int return_value_gtk_box_get_type$251;
-  return_value_gtk_box_get_type$251=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$252;
-  return_value_g_type_check_instance_cast$252=g_type_check_instance_cast((struct _GTypeInstance *)vbox4, return_value_gtk_box_get_type$251);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$252, hbox13, (signed int)!(0 != 0), 0, (unsigned int)0);
-  create_winMain$$1$$evNCC=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evNCC, "evNCC");
-  gtk_widget_show(create_winMain$$1$$evNCC);
-  unsigned long int return_value_gtk_box_get_type$253;
-  return_value_gtk_box_get_type$253=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$254;
-  return_value_g_type_check_instance_cast$254=g_type_check_instance_cast((struct _GTypeInstance *)hbox13, return_value_gtk_box_get_type$253);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$254, create_winMain$$1$$evNCC, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  create_winMain$$1$$lblNCC=gtk_label_new("C");
-  gtk_widget_set_name(create_winMain$$1$$lblNCC, "lblNCC");
-  gtk_widget_show(create_winMain$$1$$lblNCC);
-  unsigned long int return_value_gtk_container_get_type$255;
-  return_value_gtk_container_get_type$255=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$256;
-  return_value_g_type_check_instance_cast$256=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evNCC, return_value_gtk_container_get_type$255);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$256, create_winMain$$1$$lblNCC);
-  create_winMain$$1$$evNCZ=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evNCZ, "evNCZ");
-  gtk_widget_show(create_winMain$$1$$evNCZ);
-  unsigned long int return_value_gtk_box_get_type$257;
-  return_value_gtk_box_get_type$257=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$258;
-  return_value_g_type_check_instance_cast$258=g_type_check_instance_cast((struct _GTypeInstance *)hbox13, return_value_gtk_box_get_type$257);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$258, create_winMain$$1$$evNCZ, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  create_winMain$$1$$lblNCZ=gtk_label_new("Z");
-  gtk_widget_set_name(create_winMain$$1$$lblNCZ, "lblNCZ");
-  gtk_widget_show(create_winMain$$1$$lblNCZ);
-  unsigned long int return_value_gtk_container_get_type$259;
-  return_value_gtk_container_get_type$259=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$260;
-  return_value_g_type_check_instance_cast$260=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evNCZ, return_value_gtk_container_get_type$259);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$260, create_winMain$$1$$lblNCZ);
+  unsigned long int return_value_gtk_box_get_type_251;
+  return_value_gtk_box_get_type_251=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_252;
+  return_value_g_type_check_instance_cast_252=g_type_check_instance_cast((struct _GTypeInstance *)vbox4, return_value_gtk_box_get_type_251);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_252, hbox13, (signed int)!(0 != 0), 0, (unsigned int)0);
+  create_winMain__1__evNCC=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evNCC, "evNCC");
+  gtk_widget_show(create_winMain__1__evNCC);
+  unsigned long int return_value_gtk_box_get_type_253;
+  return_value_gtk_box_get_type_253=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_254;
+  return_value_g_type_check_instance_cast_254=g_type_check_instance_cast((struct _GTypeInstance *)hbox13, return_value_gtk_box_get_type_253);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_254, create_winMain__1__evNCC, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  create_winMain__1__lblNCC=gtk_label_new("C");
+  gtk_widget_set_name(create_winMain__1__lblNCC, "lblNCC");
+  gtk_widget_show(create_winMain__1__lblNCC);
+  unsigned long int return_value_gtk_container_get_type_255;
+  return_value_gtk_container_get_type_255=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_256;
+  return_value_g_type_check_instance_cast_256=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evNCC, return_value_gtk_container_get_type_255);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_256, create_winMain__1__lblNCC);
+  create_winMain__1__evNCZ=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evNCZ, "evNCZ");
+  gtk_widget_show(create_winMain__1__evNCZ);
+  unsigned long int return_value_gtk_box_get_type_257;
+  return_value_gtk_box_get_type_257=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_258;
+  return_value_g_type_check_instance_cast_258=g_type_check_instance_cast((struct _GTypeInstance *)hbox13, return_value_gtk_box_get_type_257);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_258, create_winMain__1__evNCZ, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  create_winMain__1__lblNCZ=gtk_label_new("Z");
+  gtk_widget_set_name(create_winMain__1__lblNCZ, "lblNCZ");
+  gtk_widget_show(create_winMain__1__lblNCZ);
+  unsigned long int return_value_gtk_container_get_type_259;
+  return_value_gtk_container_get_type_259=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_260;
+  return_value_g_type_check_instance_cast_260=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evNCZ, return_value_gtk_container_get_type_259);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_260, create_winMain__1__lblNCZ);
   table8=gtk_table_new((unsigned int)6, (unsigned int)3, 0);
   gtk_widget_set_name(table8, "table8");
   gtk_widget_show(table8);
-  unsigned long int return_value_gtk_box_get_type$261;
-  return_value_gtk_box_get_type$261=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$262;
-  return_value_g_type_check_instance_cast$262=g_type_check_instance_cast((struct _GTypeInstance *)hbox12, return_value_gtk_box_get_type$261);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$262, table8, 0, (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_table_get_type$263;
-  return_value_gtk_table_get_type$263=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$264;
-  return_value_g_type_check_instance_cast$264=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$263);
-  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast$264, (unsigned int)3);
-  create_winMain$$1$$lblNCAccX=gtk_label_new("X:");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAccX, "lblNCAccX");
-  gtk_widget_show(create_winMain$$1$$lblNCAccX);
-  unsigned long int return_value_gtk_table_get_type$265;
-  return_value_gtk_table_get_type$265=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$266;
-  return_value_g_type_check_instance_cast$266=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$265);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$266, create_winMain$$1$$lblNCAccX, (unsigned int)0, (unsigned int)1, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAccX, 0);
-  unsigned long int return_value_gtk_misc_get_type$267;
-  return_value_gtk_misc_get_type$267=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$268;
-  return_value_g_type_check_instance_cast$268=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAccX, return_value_gtk_misc_get_type$267);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$268, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCAccY=gtk_label_new("Y:");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAccY, "lblNCAccY");
-  gtk_widget_show(create_winMain$$1$$lblNCAccY);
-  unsigned long int return_value_gtk_table_get_type$269;
-  return_value_gtk_table_get_type$269=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$270;
-  return_value_g_type_check_instance_cast$270=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$269);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$270, create_winMain$$1$$lblNCAccY, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAccY, 0);
-  unsigned long int return_value_gtk_misc_get_type$271;
-  return_value_gtk_misc_get_type$271=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$272;
-  return_value_g_type_check_instance_cast$272=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAccY, return_value_gtk_misc_get_type$271);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$272, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCAccZ=gtk_label_new("Z:");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAccZ, "lblNCAccZ");
-  gtk_widget_show(create_winMain$$1$$lblNCAccZ);
-  unsigned long int return_value_gtk_table_get_type$273;
-  return_value_gtk_table_get_type$273=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$274;
-  return_value_g_type_check_instance_cast$274=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$273);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$274, create_winMain$$1$$lblNCAccZ, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAccZ, 0);
-  unsigned long int return_value_gtk_misc_get_type$275;
-  return_value_gtk_misc_get_type$275=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$276;
-  return_value_g_type_check_instance_cast$276=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAccZ, return_value_gtk_misc_get_type$275);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$276, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCAcc=gtk_label_new("Acc:");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAcc, "lblNCAcc");
-  gtk_widget_show(create_winMain$$1$$lblNCAcc);
-  unsigned long int return_value_gtk_table_get_type$277;
-  return_value_gtk_table_get_type$277=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$278;
-  return_value_g_type_check_instance_cast$278=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$277);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$278, create_winMain$$1$$lblNCAcc, (unsigned int)0, (unsigned int)1, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAcc, 0);
-  unsigned long int return_value_gtk_misc_get_type$279;
-  return_value_gtk_misc_get_type$279=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$280;
-  return_value_g_type_check_instance_cast$280=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAcc, return_value_gtk_misc_get_type$279);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$280, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCRoll=gtk_label_new("Roll:");
-  gtk_widget_set_name(create_winMain$$1$$lblNCRoll, "lblNCRoll");
-  gtk_widget_show(create_winMain$$1$$lblNCRoll);
-  unsigned long int return_value_gtk_table_get_type$281;
-  return_value_gtk_table_get_type$281=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$282;
-  return_value_g_type_check_instance_cast$282=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$281);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$282, create_winMain$$1$$lblNCRoll, (unsigned int)0, (unsigned int)1, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCRoll, 0);
-  unsigned long int return_value_gtk_misc_get_type$283;
-  return_value_gtk_misc_get_type$283=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$284;
-  return_value_g_type_check_instance_cast$284=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCRoll, return_value_gtk_misc_get_type$283);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$284, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCPitch=gtk_label_new("Pitch:");
-  gtk_widget_set_name(create_winMain$$1$$lblNCPitch, "lblNCPitch");
-  gtk_widget_show(create_winMain$$1$$lblNCPitch);
-  unsigned long int return_value_gtk_table_get_type$285;
-  return_value_gtk_table_get_type$285=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$286;
-  return_value_g_type_check_instance_cast$286=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$285);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$286, create_winMain$$1$$lblNCPitch, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCPitch, 0);
-  unsigned long int return_value_gtk_misc_get_type$287;
-  return_value_gtk_misc_get_type$287=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$288;
-  return_value_g_type_check_instance_cast$288=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCPitch, return_value_gtk_misc_get_type$287);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$288, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCAccXVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAccXVal, "lblNCAccXVal");
-  gtk_widget_show(create_winMain$$1$$lblNCAccXVal);
-  unsigned long int return_value_gtk_table_get_type$289;
-  return_value_gtk_table_get_type$289=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$290;
-  return_value_g_type_check_instance_cast$290=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$289);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$290, create_winMain$$1$$lblNCAccXVal, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblNCAccXVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAccXVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$291;
-  return_value_gtk_misc_get_type$291=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$292;
-  return_value_g_type_check_instance_cast$292=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAccXVal, return_value_gtk_misc_get_type$291);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$292, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCAccYVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAccYVal, "lblNCAccYVal");
-  gtk_widget_show(create_winMain$$1$$lblNCAccYVal);
-  unsigned long int return_value_gtk_table_get_type$293;
-  return_value_gtk_table_get_type$293=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$294;
-  return_value_g_type_check_instance_cast$294=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$293);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$294, create_winMain$$1$$lblNCAccYVal, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblNCAccYVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAccYVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$295;
-  return_value_gtk_misc_get_type$295=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$296;
-  return_value_g_type_check_instance_cast$296=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAccYVal, return_value_gtk_misc_get_type$295);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$296, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCAccZVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAccZVal, "lblNCAccZVal");
-  gtk_widget_show(create_winMain$$1$$lblNCAccZVal);
-  unsigned long int return_value_gtk_table_get_type$297;
-  return_value_gtk_table_get_type$297=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$298;
-  return_value_g_type_check_instance_cast$298=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$297);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$298, create_winMain$$1$$lblNCAccZVal, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblNCAccZVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAccZVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$299;
-  return_value_gtk_misc_get_type$299=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$300;
-  return_value_g_type_check_instance_cast$300=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAccZVal, return_value_gtk_misc_get_type$299);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$300, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCAccVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblNCAccVal, "lblNCAccVal");
-  gtk_widget_show(create_winMain$$1$$lblNCAccVal);
-  unsigned long int return_value_gtk_table_get_type$301;
-  return_value_gtk_table_get_type$301=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$302;
-  return_value_g_type_check_instance_cast$302=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$301);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$302, create_winMain$$1$$lblNCAccVal, (unsigned int)1, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblNCAccVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCAccVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$303;
-  return_value_gtk_misc_get_type$303=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$304;
-  return_value_g_type_check_instance_cast$304=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCAccVal, return_value_gtk_misc_get_type$303);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$304, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCRollVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblNCRollVal, "lblNCRollVal");
-  gtk_widget_show(create_winMain$$1$$lblNCRollVal);
-  unsigned long int return_value_gtk_table_get_type$305;
-  return_value_gtk_table_get_type$305=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$306;
-  return_value_g_type_check_instance_cast$306=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$305);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$306, create_winMain$$1$$lblNCRollVal, (unsigned int)1, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblNCRollVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCRollVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$307;
-  return_value_gtk_misc_get_type$307=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$308;
-  return_value_g_type_check_instance_cast$308=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCRollVal, return_value_gtk_misc_get_type$307);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$308, (float)0, (float)0.5);
-  create_winMain$$1$$lblNCPitchVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblNCPitchVal, "lblNCPitchVal");
-  gtk_widget_show(create_winMain$$1$$lblNCPitchVal);
-  unsigned long int return_value_gtk_table_get_type$309;
-  return_value_gtk_table_get_type$309=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$310;
-  return_value_g_type_check_instance_cast$310=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$309);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$310, create_winMain$$1$$lblNCPitchVal, (unsigned int)1, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblNCPitchVal, 35, -1);
-  gtk_widget_set_sensitive(create_winMain$$1$$lblNCPitchVal, 0);
-  unsigned long int return_value_gtk_misc_get_type$311;
-  return_value_gtk_misc_get_type$311=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$312;
-  return_value_g_type_check_instance_cast$312=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNCPitchVal, return_value_gtk_misc_get_type$311);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$312, (float)0, (float)0.5);
-  create_winMain$$1$$progNCAccX=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progNCAccX, "progNCAccX");
-  gtk_widget_show(create_winMain$$1$$progNCAccX);
-  unsigned long int return_value_gtk_table_get_type$313;
-  return_value_gtk_table_get_type$313=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$314;
-  return_value_g_type_check_instance_cast$314=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$313);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$314, create_winMain$$1$$progNCAccX, (unsigned int)2, (unsigned int)3, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$progNCAccX, 0);
-  create_winMain$$1$$progNCAccZ=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progNCAccZ, "progNCAccZ");
-  gtk_widget_show(create_winMain$$1$$progNCAccZ);
-  unsigned long int return_value_gtk_table_get_type$315;
-  return_value_gtk_table_get_type$315=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$316;
-  return_value_g_type_check_instance_cast$316=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$315);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$316, create_winMain$$1$$progNCAccZ, (unsigned int)2, (unsigned int)3, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$progNCAccZ, 0);
-  create_winMain$$1$$progNCAccY=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progNCAccY, "progNCAccY");
-  gtk_widget_show(create_winMain$$1$$progNCAccY);
-  unsigned long int return_value_gtk_table_get_type$317;
-  return_value_gtk_table_get_type$317=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$318;
-  return_value_g_type_check_instance_cast$318=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type$317);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$318, create_winMain$$1$$progNCAccY, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_sensitive(create_winMain$$1$$progNCAccY, 0);
-  create_winMain$$1$$lblNC=gtk_label_new("<b>Nunchuk</b>");
-  gtk_widget_set_name(create_winMain$$1$$lblNC, "lblNC");
-  gtk_widget_show(create_winMain$$1$$lblNC);
-  unsigned long int return_value_gtk_frame_get_type$319;
-  return_value_gtk_frame_get_type$319=gtk_frame_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$320;
-  return_value_g_type_check_instance_cast$320=g_type_check_instance_cast((struct _GTypeInstance *)frame4, return_value_gtk_frame_get_type$319);
-  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast$320, create_winMain$$1$$lblNC);
-  unsigned long int return_value_gtk_label_get_type$321;
-  return_value_gtk_label_get_type$321=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$322;
-  return_value_g_type_check_instance_cast$322=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblNC, return_value_gtk_label_get_type$321);
-  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$322, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_box_get_type_261;
+  return_value_gtk_box_get_type_261=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_262;
+  return_value_g_type_check_instance_cast_262=g_type_check_instance_cast((struct _GTypeInstance *)hbox12, return_value_gtk_box_get_type_261);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_262, table8, 0, (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_263;
+  return_value_gtk_table_get_type_263=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_264;
+  return_value_g_type_check_instance_cast_264=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_263);
+  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast_264, (unsigned int)3);
+  create_winMain__1__lblNCAccX=gtk_label_new("X:");
+  gtk_widget_set_name(create_winMain__1__lblNCAccX, "lblNCAccX");
+  gtk_widget_show(create_winMain__1__lblNCAccX);
+  unsigned long int return_value_gtk_table_get_type_265;
+  return_value_gtk_table_get_type_265=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_266;
+  return_value_g_type_check_instance_cast_266=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_265);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_266, create_winMain__1__lblNCAccX, (unsigned int)0, (unsigned int)1, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAccX, 0);
+  unsigned long int return_value_gtk_misc_get_type_267;
+  return_value_gtk_misc_get_type_267=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_268;
+  return_value_g_type_check_instance_cast_268=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAccX, return_value_gtk_misc_get_type_267);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_268, (float)0, (float)0.5);
+  create_winMain__1__lblNCAccY=gtk_label_new("Y:");
+  gtk_widget_set_name(create_winMain__1__lblNCAccY, "lblNCAccY");
+  gtk_widget_show(create_winMain__1__lblNCAccY);
+  unsigned long int return_value_gtk_table_get_type_269;
+  return_value_gtk_table_get_type_269=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_270;
+  return_value_g_type_check_instance_cast_270=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_269);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_270, create_winMain__1__lblNCAccY, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAccY, 0);
+  unsigned long int return_value_gtk_misc_get_type_271;
+  return_value_gtk_misc_get_type_271=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_272;
+  return_value_g_type_check_instance_cast_272=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAccY, return_value_gtk_misc_get_type_271);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_272, (float)0, (float)0.5);
+  create_winMain__1__lblNCAccZ=gtk_label_new("Z:");
+  gtk_widget_set_name(create_winMain__1__lblNCAccZ, "lblNCAccZ");
+  gtk_widget_show(create_winMain__1__lblNCAccZ);
+  unsigned long int return_value_gtk_table_get_type_273;
+  return_value_gtk_table_get_type_273=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_274;
+  return_value_g_type_check_instance_cast_274=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_273);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_274, create_winMain__1__lblNCAccZ, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAccZ, 0);
+  unsigned long int return_value_gtk_misc_get_type_275;
+  return_value_gtk_misc_get_type_275=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_276;
+  return_value_g_type_check_instance_cast_276=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAccZ, return_value_gtk_misc_get_type_275);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_276, (float)0, (float)0.5);
+  create_winMain__1__lblNCAcc=gtk_label_new("Acc:");
+  gtk_widget_set_name(create_winMain__1__lblNCAcc, "lblNCAcc");
+  gtk_widget_show(create_winMain__1__lblNCAcc);
+  unsigned long int return_value_gtk_table_get_type_277;
+  return_value_gtk_table_get_type_277=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_278;
+  return_value_g_type_check_instance_cast_278=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_277);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_278, create_winMain__1__lblNCAcc, (unsigned int)0, (unsigned int)1, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAcc, 0);
+  unsigned long int return_value_gtk_misc_get_type_279;
+  return_value_gtk_misc_get_type_279=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_280;
+  return_value_g_type_check_instance_cast_280=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAcc, return_value_gtk_misc_get_type_279);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_280, (float)0, (float)0.5);
+  create_winMain__1__lblNCRoll=gtk_label_new("Roll:");
+  gtk_widget_set_name(create_winMain__1__lblNCRoll, "lblNCRoll");
+  gtk_widget_show(create_winMain__1__lblNCRoll);
+  unsigned long int return_value_gtk_table_get_type_281;
+  return_value_gtk_table_get_type_281=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_282;
+  return_value_g_type_check_instance_cast_282=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_281);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_282, create_winMain__1__lblNCRoll, (unsigned int)0, (unsigned int)1, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCRoll, 0);
+  unsigned long int return_value_gtk_misc_get_type_283;
+  return_value_gtk_misc_get_type_283=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_284;
+  return_value_g_type_check_instance_cast_284=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCRoll, return_value_gtk_misc_get_type_283);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_284, (float)0, (float)0.5);
+  create_winMain__1__lblNCPitch=gtk_label_new("Pitch:");
+  gtk_widget_set_name(create_winMain__1__lblNCPitch, "lblNCPitch");
+  gtk_widget_show(create_winMain__1__lblNCPitch);
+  unsigned long int return_value_gtk_table_get_type_285;
+  return_value_gtk_table_get_type_285=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_286;
+  return_value_g_type_check_instance_cast_286=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_285);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_286, create_winMain__1__lblNCPitch, (unsigned int)0, (unsigned int)1, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCPitch, 0);
+  unsigned long int return_value_gtk_misc_get_type_287;
+  return_value_gtk_misc_get_type_287=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_288;
+  return_value_g_type_check_instance_cast_288=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCPitch, return_value_gtk_misc_get_type_287);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_288, (float)0, (float)0.5);
+  create_winMain__1__lblNCAccXVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblNCAccXVal, "lblNCAccXVal");
+  gtk_widget_show(create_winMain__1__lblNCAccXVal);
+  unsigned long int return_value_gtk_table_get_type_289;
+  return_value_gtk_table_get_type_289=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_290;
+  return_value_g_type_check_instance_cast_290=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_289);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_290, create_winMain__1__lblNCAccXVal, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblNCAccXVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAccXVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_291;
+  return_value_gtk_misc_get_type_291=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_292;
+  return_value_g_type_check_instance_cast_292=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAccXVal, return_value_gtk_misc_get_type_291);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_292, (float)0, (float)0.5);
+  create_winMain__1__lblNCAccYVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblNCAccYVal, "lblNCAccYVal");
+  gtk_widget_show(create_winMain__1__lblNCAccYVal);
+  unsigned long int return_value_gtk_table_get_type_293;
+  return_value_gtk_table_get_type_293=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_294;
+  return_value_g_type_check_instance_cast_294=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_293);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_294, create_winMain__1__lblNCAccYVal, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblNCAccYVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAccYVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_295;
+  return_value_gtk_misc_get_type_295=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_296;
+  return_value_g_type_check_instance_cast_296=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAccYVal, return_value_gtk_misc_get_type_295);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_296, (float)0, (float)0.5);
+  create_winMain__1__lblNCAccZVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblNCAccZVal, "lblNCAccZVal");
+  gtk_widget_show(create_winMain__1__lblNCAccZVal);
+  unsigned long int return_value_gtk_table_get_type_297;
+  return_value_gtk_table_get_type_297=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_298;
+  return_value_g_type_check_instance_cast_298=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_297);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_298, create_winMain__1__lblNCAccZVal, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblNCAccZVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAccZVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_299;
+  return_value_gtk_misc_get_type_299=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_300;
+  return_value_g_type_check_instance_cast_300=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAccZVal, return_value_gtk_misc_get_type_299);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_300, (float)0, (float)0.5);
+  create_winMain__1__lblNCAccVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblNCAccVal, "lblNCAccVal");
+  gtk_widget_show(create_winMain__1__lblNCAccVal);
+  unsigned long int return_value_gtk_table_get_type_301;
+  return_value_gtk_table_get_type_301=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_302;
+  return_value_g_type_check_instance_cast_302=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_301);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_302, create_winMain__1__lblNCAccVal, (unsigned int)1, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblNCAccVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCAccVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_303;
+  return_value_gtk_misc_get_type_303=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_304;
+  return_value_g_type_check_instance_cast_304=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCAccVal, return_value_gtk_misc_get_type_303);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_304, (float)0, (float)0.5);
+  create_winMain__1__lblNCRollVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblNCRollVal, "lblNCRollVal");
+  gtk_widget_show(create_winMain__1__lblNCRollVal);
+  unsigned long int return_value_gtk_table_get_type_305;
+  return_value_gtk_table_get_type_305=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_306;
+  return_value_g_type_check_instance_cast_306=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_305);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_306, create_winMain__1__lblNCRollVal, (unsigned int)1, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblNCRollVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCRollVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_307;
+  return_value_gtk_misc_get_type_307=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_308;
+  return_value_g_type_check_instance_cast_308=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCRollVal, return_value_gtk_misc_get_type_307);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_308, (float)0, (float)0.5);
+  create_winMain__1__lblNCPitchVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblNCPitchVal, "lblNCPitchVal");
+  gtk_widget_show(create_winMain__1__lblNCPitchVal);
+  unsigned long int return_value_gtk_table_get_type_309;
+  return_value_gtk_table_get_type_309=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_310;
+  return_value_g_type_check_instance_cast_310=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_309);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_310, create_winMain__1__lblNCPitchVal, (unsigned int)1, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblNCPitchVal, 35, -1);
+  gtk_widget_set_sensitive(create_winMain__1__lblNCPitchVal, 0);
+  unsigned long int return_value_gtk_misc_get_type_311;
+  return_value_gtk_misc_get_type_311=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_312;
+  return_value_g_type_check_instance_cast_312=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNCPitchVal, return_value_gtk_misc_get_type_311);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_312, (float)0, (float)0.5);
+  create_winMain__1__progNCAccX=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progNCAccX, "progNCAccX");
+  gtk_widget_show(create_winMain__1__progNCAccX);
+  unsigned long int return_value_gtk_table_get_type_313;
+  return_value_gtk_table_get_type_313=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_314;
+  return_value_g_type_check_instance_cast_314=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_313);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_314, create_winMain__1__progNCAccX, (unsigned int)2, (unsigned int)3, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__progNCAccX, 0);
+  create_winMain__1__progNCAccZ=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progNCAccZ, "progNCAccZ");
+  gtk_widget_show(create_winMain__1__progNCAccZ);
+  unsigned long int return_value_gtk_table_get_type_315;
+  return_value_gtk_table_get_type_315=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_316;
+  return_value_g_type_check_instance_cast_316=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_315);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_316, create_winMain__1__progNCAccZ, (unsigned int)2, (unsigned int)3, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__progNCAccZ, 0);
+  create_winMain__1__progNCAccY=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progNCAccY, "progNCAccY");
+  gtk_widget_show(create_winMain__1__progNCAccY);
+  unsigned long int return_value_gtk_table_get_type_317;
+  return_value_gtk_table_get_type_317=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_318;
+  return_value_g_type_check_instance_cast_318=g_type_check_instance_cast((struct _GTypeInstance *)table8, return_value_gtk_table_get_type_317);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_318, create_winMain__1__progNCAccY, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_sensitive(create_winMain__1__progNCAccY, 0);
+  create_winMain__1__lblNC=gtk_label_new("<b>Nunchuk</b>");
+  gtk_widget_set_name(create_winMain__1__lblNC, "lblNC");
+  gtk_widget_show(create_winMain__1__lblNC);
+  unsigned long int return_value_gtk_frame_get_type_319;
+  return_value_gtk_frame_get_type_319=gtk_frame_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_320;
+  return_value_g_type_check_instance_cast_320=g_type_check_instance_cast((struct _GTypeInstance *)frame4, return_value_gtk_frame_get_type_319);
+  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast_320, create_winMain__1__lblNC);
+  unsigned long int return_value_gtk_label_get_type_321;
+  return_value_gtk_label_get_type_321=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_322;
+  return_value_g_type_check_instance_cast_322=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblNC, return_value_gtk_label_get_type_321);
+  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_322, (signed int)!(0 != 0));
   frame5=gtk_frame_new((const char *)(void *)0);
   gtk_widget_set_name(frame5, "frame5");
   gtk_widget_show(frame5);
-  unsigned long int return_value_gtk_box_get_type$323;
-  return_value_gtk_box_get_type$323=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$324;
-  return_value_g_type_check_instance_cast$324=g_type_check_instance_cast((struct _GTypeInstance *)hbox10, return_value_gtk_box_get_type$323);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$324, frame5, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
+  unsigned long int return_value_gtk_box_get_type_323;
+  return_value_gtk_box_get_type_323=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_324;
+  return_value_g_type_check_instance_cast_324=g_type_check_instance_cast((struct _GTypeInstance *)hbox10, return_value_gtk_box_get_type_323);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_324, frame5, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)3);
   alignment29=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment29, "alignment29");
   gtk_widget_show(alignment29);
-  unsigned long int return_value_gtk_container_get_type$325;
-  return_value_gtk_container_get_type$325=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$326;
-  return_value_g_type_check_instance_cast$326=g_type_check_instance_cast((struct _GTypeInstance *)frame5, return_value_gtk_container_get_type$325);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$326, alignment29);
-  unsigned long int return_value_gtk_alignment_get_type$327;
-  return_value_gtk_alignment_get_type$327=gtk_alignment_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$328;
-  return_value_g_type_check_instance_cast$328=g_type_check_instance_cast((struct _GTypeInstance *)alignment29, return_value_gtk_alignment_get_type$327);
-  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast$328, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
+  unsigned long int return_value_gtk_container_get_type_325;
+  return_value_gtk_container_get_type_325=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_326;
+  return_value_g_type_check_instance_cast_326=g_type_check_instance_cast((struct _GTypeInstance *)frame5, return_value_gtk_container_get_type_325);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_326, alignment29);
+  unsigned long int return_value_gtk_alignment_get_type_327;
+  return_value_gtk_alignment_get_type_327=gtk_alignment_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_328;
+  return_value_g_type_check_instance_cast_328=g_type_check_instance_cast((struct _GTypeInstance *)alignment29, return_value_gtk_alignment_get_type_327);
+  gtk_alignment_set_padding((struct _GtkAlignment *)return_value_g_type_check_instance_cast_328, (unsigned int)0, (unsigned int)0, (unsigned int)12, (unsigned int)0);
   vbox5=gtk_vbox_new(0, 5);
   gtk_widget_set_name(vbox5, "vbox5");
   gtk_widget_show(vbox5);
-  unsigned long int return_value_gtk_container_get_type$329;
-  return_value_gtk_container_get_type$329=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$330;
-  return_value_g_type_check_instance_cast$330=g_type_check_instance_cast((struct _GTypeInstance *)alignment29, return_value_gtk_container_get_type$329);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$330, vbox5);
+  unsigned long int return_value_gtk_container_get_type_329;
+  return_value_gtk_container_get_type_329=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_330;
+  return_value_g_type_check_instance_cast_330=g_type_check_instance_cast((struct _GTypeInstance *)alignment29, return_value_gtk_container_get_type_329);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_330, vbox5);
   table9=gtk_table_new((unsigned int)3, (unsigned int)9, (signed int)!(0 != 0));
   gtk_widget_set_name(table9, "table9");
   gtk_widget_show(table9);
-  unsigned long int return_value_gtk_box_get_type$331;
-  return_value_gtk_box_get_type$331=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$332;
-  return_value_g_type_check_instance_cast$332=g_type_check_instance_cast((struct _GTypeInstance *)vbox5, return_value_gtk_box_get_type$331);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$332, table9, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_331;
+  return_value_gtk_box_get_type_331=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_332;
+  return_value_g_type_check_instance_cast_332=g_type_check_instance_cast((struct _GTypeInstance *)vbox5, return_value_gtk_box_get_type_331);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_332, table9, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
   alignment15=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment15, "alignment15");
   gtk_widget_show(alignment15);
-  unsigned long int return_value_gtk_table_get_type$333;
-  return_value_gtk_table_get_type$333=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$334;
-  return_value_g_type_check_instance_cast$334=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$333);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$334, alignment15, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCLeft=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCLeft, "evCCLeft");
-  gtk_widget_show(create_winMain$$1$$evCCLeft);
-  unsigned long int return_value_gtk_container_get_type$335;
-  return_value_gtk_container_get_type$335=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$336;
-  return_value_g_type_check_instance_cast$336=g_type_check_instance_cast((struct _GTypeInstance *)alignment15, return_value_gtk_container_get_type$335);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$336, create_winMain$$1$$evCCLeft);
-  create_winMain$$1$$lblCCLeft=gtk_label_new("Left");
-  gtk_widget_set_name(create_winMain$$1$$lblCCLeft, "lblCCLeft");
-  gtk_widget_show(create_winMain$$1$$lblCCLeft);
-  unsigned long int return_value_gtk_container_get_type$337;
-  return_value_gtk_container_get_type$337=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$338;
-  return_value_g_type_check_instance_cast$338=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCLeft, return_value_gtk_container_get_type$337);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$338, create_winMain$$1$$lblCCLeft);
+  unsigned long int return_value_gtk_table_get_type_333;
+  return_value_gtk_table_get_type_333=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_334;
+  return_value_g_type_check_instance_cast_334=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_333);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_334, alignment15, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCLeft=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCLeft, "evCCLeft");
+  gtk_widget_show(create_winMain__1__evCCLeft);
+  unsigned long int return_value_gtk_container_get_type_335;
+  return_value_gtk_container_get_type_335=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_336;
+  return_value_g_type_check_instance_cast_336=g_type_check_instance_cast((struct _GTypeInstance *)alignment15, return_value_gtk_container_get_type_335);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_336, create_winMain__1__evCCLeft);
+  create_winMain__1__lblCCLeft=gtk_label_new("Left");
+  gtk_widget_set_name(create_winMain__1__lblCCLeft, "lblCCLeft");
+  gtk_widget_show(create_winMain__1__lblCCLeft);
+  unsigned long int return_value_gtk_container_get_type_337;
+  return_value_gtk_container_get_type_337=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_338;
+  return_value_g_type_check_instance_cast_338=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCLeft, return_value_gtk_container_get_type_337);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_338, create_winMain__1__lblCCLeft);
   alignment16=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment16, "alignment16");
   gtk_widget_show(alignment16);
-  unsigned long int return_value_gtk_table_get_type$339;
-  return_value_gtk_table_get_type$339=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$340;
-  return_value_g_type_check_instance_cast$340=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$339);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$340, alignment16, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCUp=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCUp, "evCCUp");
-  gtk_widget_show(create_winMain$$1$$evCCUp);
-  unsigned long int return_value_gtk_container_get_type$341;
-  return_value_gtk_container_get_type$341=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$342;
-  return_value_g_type_check_instance_cast$342=g_type_check_instance_cast((struct _GTypeInstance *)alignment16, return_value_gtk_container_get_type$341);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$342, create_winMain$$1$$evCCUp);
-  create_winMain$$1$$lblCCUp=gtk_label_new("Up");
-  gtk_widget_set_name(create_winMain$$1$$lblCCUp, "lblCCUp");
-  gtk_widget_show(create_winMain$$1$$lblCCUp);
-  unsigned long int return_value_gtk_container_get_type$343;
-  return_value_gtk_container_get_type$343=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$344;
-  return_value_g_type_check_instance_cast$344=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCUp, return_value_gtk_container_get_type$343);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$344, create_winMain$$1$$lblCCUp);
+  unsigned long int return_value_gtk_table_get_type_339;
+  return_value_gtk_table_get_type_339=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_340;
+  return_value_g_type_check_instance_cast_340=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_339);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_340, alignment16, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCUp=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCUp, "evCCUp");
+  gtk_widget_show(create_winMain__1__evCCUp);
+  unsigned long int return_value_gtk_container_get_type_341;
+  return_value_gtk_container_get_type_341=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_342;
+  return_value_g_type_check_instance_cast_342=g_type_check_instance_cast((struct _GTypeInstance *)alignment16, return_value_gtk_container_get_type_341);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_342, create_winMain__1__evCCUp);
+  create_winMain__1__lblCCUp=gtk_label_new("Up");
+  gtk_widget_set_name(create_winMain__1__lblCCUp, "lblCCUp");
+  gtk_widget_show(create_winMain__1__lblCCUp);
+  unsigned long int return_value_gtk_container_get_type_343;
+  return_value_gtk_container_get_type_343=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_344;
+  return_value_g_type_check_instance_cast_344=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCUp, return_value_gtk_container_get_type_343);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_344, create_winMain__1__lblCCUp);
   alignment17=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment17, "alignment17");
   gtk_widget_show(alignment17);
-  unsigned long int return_value_gtk_table_get_type$345;
-  return_value_gtk_table_get_type$345=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$346;
-  return_value_g_type_check_instance_cast$346=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$345);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$346, alignment17, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCDown=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCDown, "evCCDown");
-  gtk_widget_show(create_winMain$$1$$evCCDown);
-  unsigned long int return_value_gtk_container_get_type$347;
-  return_value_gtk_container_get_type$347=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$348;
-  return_value_g_type_check_instance_cast$348=g_type_check_instance_cast((struct _GTypeInstance *)alignment17, return_value_gtk_container_get_type$347);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$348, create_winMain$$1$$evCCDown);
-  create_winMain$$1$$lblCCDown=gtk_label_new("Down");
-  gtk_widget_set_name(create_winMain$$1$$lblCCDown, "lblCCDown");
-  gtk_widget_show(create_winMain$$1$$lblCCDown);
-  unsigned long int return_value_gtk_container_get_type$349;
-  return_value_gtk_container_get_type$349=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$350;
-  return_value_g_type_check_instance_cast$350=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCDown, return_value_gtk_container_get_type$349);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$350, create_winMain$$1$$lblCCDown);
+  unsigned long int return_value_gtk_table_get_type_345;
+  return_value_gtk_table_get_type_345=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_346;
+  return_value_g_type_check_instance_cast_346=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_345);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_346, alignment17, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCDown=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCDown, "evCCDown");
+  gtk_widget_show(create_winMain__1__evCCDown);
+  unsigned long int return_value_gtk_container_get_type_347;
+  return_value_gtk_container_get_type_347=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_348;
+  return_value_g_type_check_instance_cast_348=g_type_check_instance_cast((struct _GTypeInstance *)alignment17, return_value_gtk_container_get_type_347);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_348, create_winMain__1__evCCDown);
+  create_winMain__1__lblCCDown=gtk_label_new("Down");
+  gtk_widget_set_name(create_winMain__1__lblCCDown, "lblCCDown");
+  gtk_widget_show(create_winMain__1__lblCCDown);
+  unsigned long int return_value_gtk_container_get_type_349;
+  return_value_gtk_container_get_type_349=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_350;
+  return_value_g_type_check_instance_cast_350=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCDown, return_value_gtk_container_get_type_349);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_350, create_winMain__1__lblCCDown);
   alignment18=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment18, "alignment18");
   gtk_widget_show(alignment18);
-  unsigned long int return_value_gtk_table_get_type$351;
-  return_value_gtk_table_get_type$351=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$352;
-  return_value_g_type_check_instance_cast$352=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$351);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$352, alignment18, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCRight=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCRight, "evCCRight");
-  gtk_widget_show(create_winMain$$1$$evCCRight);
-  unsigned long int return_value_gtk_container_get_type$353;
-  return_value_gtk_container_get_type$353=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$354;
-  return_value_g_type_check_instance_cast$354=g_type_check_instance_cast((struct _GTypeInstance *)alignment18, return_value_gtk_container_get_type$353);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$354, create_winMain$$1$$evCCRight);
-  create_winMain$$1$$lblCCRight=gtk_label_new("Right");
-  gtk_widget_set_name(create_winMain$$1$$lblCCRight, "lblCCRight");
-  gtk_widget_show(create_winMain$$1$$lblCCRight);
-  unsigned long int return_value_gtk_container_get_type$355;
-  return_value_gtk_container_get_type$355=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$356;
-  return_value_g_type_check_instance_cast$356=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCRight, return_value_gtk_container_get_type$355);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$356, create_winMain$$1$$lblCCRight);
+  unsigned long int return_value_gtk_table_get_type_351;
+  return_value_gtk_table_get_type_351=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_352;
+  return_value_g_type_check_instance_cast_352=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_351);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_352, alignment18, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCRight=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCRight, "evCCRight");
+  gtk_widget_show(create_winMain__1__evCCRight);
+  unsigned long int return_value_gtk_container_get_type_353;
+  return_value_gtk_container_get_type_353=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_354;
+  return_value_g_type_check_instance_cast_354=g_type_check_instance_cast((struct _GTypeInstance *)alignment18, return_value_gtk_container_get_type_353);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_354, create_winMain__1__evCCRight);
+  create_winMain__1__lblCCRight=gtk_label_new("Right");
+  gtk_widget_set_name(create_winMain__1__lblCCRight, "lblCCRight");
+  gtk_widget_show(create_winMain__1__lblCCRight);
+  unsigned long int return_value_gtk_container_get_type_355;
+  return_value_gtk_container_get_type_355=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_356;
+  return_value_g_type_check_instance_cast_356=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCRight, return_value_gtk_container_get_type_355);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_356, create_winMain__1__lblCCRight);
   alignment19=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment19, "alignment19");
   gtk_widget_show(alignment19);
-  unsigned long int return_value_gtk_table_get_type$357;
-  return_value_gtk_table_get_type$357=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$358;
-  return_value_g_type_check_instance_cast$358=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$357);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$358, alignment19, (unsigned int)3, (unsigned int)4, (unsigned int)2, (unsigned int)3, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCMinus=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCMinus, "evCCMinus");
-  gtk_widget_show(create_winMain$$1$$evCCMinus);
-  unsigned long int return_value_gtk_container_get_type$359;
-  return_value_gtk_container_get_type$359=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$360;
-  return_value_g_type_check_instance_cast$360=g_type_check_instance_cast((struct _GTypeInstance *)alignment19, return_value_gtk_container_get_type$359);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$360, create_winMain$$1$$evCCMinus);
-  create_winMain$$1$$lblCCMinus=gtk_label_new("-");
-  gtk_widget_set_name(create_winMain$$1$$lblCCMinus, "lblCCMinus");
-  gtk_widget_show(create_winMain$$1$$lblCCMinus);
-  unsigned long int return_value_gtk_container_get_type$361;
-  return_value_gtk_container_get_type$361=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$362;
-  return_value_g_type_check_instance_cast$362=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCMinus, return_value_gtk_container_get_type$361);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$362, create_winMain$$1$$lblCCMinus);
+  unsigned long int return_value_gtk_table_get_type_357;
+  return_value_gtk_table_get_type_357=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_358;
+  return_value_g_type_check_instance_cast_358=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_357);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_358, alignment19, (unsigned int)3, (unsigned int)4, (unsigned int)2, (unsigned int)3, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCMinus=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCMinus, "evCCMinus");
+  gtk_widget_show(create_winMain__1__evCCMinus);
+  unsigned long int return_value_gtk_container_get_type_359;
+  return_value_gtk_container_get_type_359=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_360;
+  return_value_g_type_check_instance_cast_360=g_type_check_instance_cast((struct _GTypeInstance *)alignment19, return_value_gtk_container_get_type_359);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_360, create_winMain__1__evCCMinus);
+  create_winMain__1__lblCCMinus=gtk_label_new("-");
+  gtk_widget_set_name(create_winMain__1__lblCCMinus, "lblCCMinus");
+  gtk_widget_show(create_winMain__1__lblCCMinus);
+  unsigned long int return_value_gtk_container_get_type_361;
+  return_value_gtk_container_get_type_361=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_362;
+  return_value_g_type_check_instance_cast_362=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCMinus, return_value_gtk_container_get_type_361);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_362, create_winMain__1__lblCCMinus);
   alignment20=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment20, "alignment20");
   gtk_widget_show(alignment20);
-  unsigned long int return_value_gtk_table_get_type$363;
-  return_value_gtk_table_get_type$363=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$364;
-  return_value_g_type_check_instance_cast$364=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$363);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$364, alignment20, (unsigned int)4, (unsigned int)5, (unsigned int)2, (unsigned int)3, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCHome=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCHome, "evCCHome");
-  gtk_widget_show(create_winMain$$1$$evCCHome);
-  unsigned long int return_value_gtk_container_get_type$365;
-  return_value_gtk_container_get_type$365=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$366;
-  return_value_g_type_check_instance_cast$366=g_type_check_instance_cast((struct _GTypeInstance *)alignment20, return_value_gtk_container_get_type$365);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$366, create_winMain$$1$$evCCHome);
-  create_winMain$$1$$lblCCHome=gtk_label_new("Home");
-  gtk_widget_set_name(create_winMain$$1$$lblCCHome, "lblCCHome");
-  gtk_widget_show(create_winMain$$1$$lblCCHome);
-  unsigned long int return_value_gtk_container_get_type$367;
-  return_value_gtk_container_get_type$367=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$368;
-  return_value_g_type_check_instance_cast$368=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCHome, return_value_gtk_container_get_type$367);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$368, create_winMain$$1$$lblCCHome);
+  unsigned long int return_value_gtk_table_get_type_363;
+  return_value_gtk_table_get_type_363=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_364;
+  return_value_g_type_check_instance_cast_364=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_363);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_364, alignment20, (unsigned int)4, (unsigned int)5, (unsigned int)2, (unsigned int)3, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCHome=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCHome, "evCCHome");
+  gtk_widget_show(create_winMain__1__evCCHome);
+  unsigned long int return_value_gtk_container_get_type_365;
+  return_value_gtk_container_get_type_365=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_366;
+  return_value_g_type_check_instance_cast_366=g_type_check_instance_cast((struct _GTypeInstance *)alignment20, return_value_gtk_container_get_type_365);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_366, create_winMain__1__evCCHome);
+  create_winMain__1__lblCCHome=gtk_label_new("Home");
+  gtk_widget_set_name(create_winMain__1__lblCCHome, "lblCCHome");
+  gtk_widget_show(create_winMain__1__lblCCHome);
+  unsigned long int return_value_gtk_container_get_type_367;
+  return_value_gtk_container_get_type_367=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_368;
+  return_value_g_type_check_instance_cast_368=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCHome, return_value_gtk_container_get_type_367);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_368, create_winMain__1__lblCCHome);
   alignment21=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment21, "alignment21");
   gtk_widget_show(alignment21);
-  unsigned long int return_value_gtk_table_get_type$369;
-  return_value_gtk_table_get_type$369=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$370;
-  return_value_g_type_check_instance_cast$370=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$369);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$370, alignment21, (unsigned int)5, (unsigned int)6, (unsigned int)2, (unsigned int)3, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCPlus=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCPlus, "evCCPlus");
-  gtk_widget_show(create_winMain$$1$$evCCPlus);
-  unsigned long int return_value_gtk_container_get_type$371;
-  return_value_gtk_container_get_type$371=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$372;
-  return_value_g_type_check_instance_cast$372=g_type_check_instance_cast((struct _GTypeInstance *)alignment21, return_value_gtk_container_get_type$371);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$372, create_winMain$$1$$evCCPlus);
-  create_winMain$$1$$lblCCPlus=gtk_label_new("+");
-  gtk_widget_set_name(create_winMain$$1$$lblCCPlus, "lblCCPlus");
-  gtk_widget_show(create_winMain$$1$$lblCCPlus);
-  unsigned long int return_value_gtk_container_get_type$373;
-  return_value_gtk_container_get_type$373=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$374;
-  return_value_g_type_check_instance_cast$374=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCPlus, return_value_gtk_container_get_type$373);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$374, create_winMain$$1$$lblCCPlus);
+  unsigned long int return_value_gtk_table_get_type_369;
+  return_value_gtk_table_get_type_369=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_370;
+  return_value_g_type_check_instance_cast_370=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_369);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_370, alignment21, (unsigned int)5, (unsigned int)6, (unsigned int)2, (unsigned int)3, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCPlus=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCPlus, "evCCPlus");
+  gtk_widget_show(create_winMain__1__evCCPlus);
+  unsigned long int return_value_gtk_container_get_type_371;
+  return_value_gtk_container_get_type_371=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_372;
+  return_value_g_type_check_instance_cast_372=g_type_check_instance_cast((struct _GTypeInstance *)alignment21, return_value_gtk_container_get_type_371);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_372, create_winMain__1__evCCPlus);
+  create_winMain__1__lblCCPlus=gtk_label_new("+");
+  gtk_widget_set_name(create_winMain__1__lblCCPlus, "lblCCPlus");
+  gtk_widget_show(create_winMain__1__lblCCPlus);
+  unsigned long int return_value_gtk_container_get_type_373;
+  return_value_gtk_container_get_type_373=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_374;
+  return_value_g_type_check_instance_cast_374=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCPlus, return_value_gtk_container_get_type_373);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_374, create_winMain__1__lblCCPlus);
   alignment22=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment22, "alignment22");
   gtk_widget_show(alignment22);
-  unsigned long int return_value_gtk_table_get_type$375;
-  return_value_gtk_table_get_type$375=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$376;
-  return_value_g_type_check_instance_cast$376=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$375);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$376, alignment22, (unsigned int)3, (unsigned int)4, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCZL=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCZL, "evCCZL");
-  gtk_widget_show(create_winMain$$1$$evCCZL);
-  unsigned long int return_value_gtk_container_get_type$377;
-  return_value_gtk_container_get_type$377=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$378;
-  return_value_g_type_check_instance_cast$378=g_type_check_instance_cast((struct _GTypeInstance *)alignment22, return_value_gtk_container_get_type$377);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$378, create_winMain$$1$$evCCZL);
-  create_winMain$$1$$lblCCZL=gtk_label_new("ZL");
-  gtk_widget_set_name(create_winMain$$1$$lblCCZL, "lblCCZL");
-  gtk_widget_show(create_winMain$$1$$lblCCZL);
-  unsigned long int return_value_gtk_container_get_type$379;
-  return_value_gtk_container_get_type$379=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$380;
-  return_value_g_type_check_instance_cast$380=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCZL, return_value_gtk_container_get_type$379);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$380, create_winMain$$1$$lblCCZL);
+  unsigned long int return_value_gtk_table_get_type_375;
+  return_value_gtk_table_get_type_375=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_376;
+  return_value_g_type_check_instance_cast_376=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_375);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_376, alignment22, (unsigned int)3, (unsigned int)4, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCZL=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCZL, "evCCZL");
+  gtk_widget_show(create_winMain__1__evCCZL);
+  unsigned long int return_value_gtk_container_get_type_377;
+  return_value_gtk_container_get_type_377=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_378;
+  return_value_g_type_check_instance_cast_378=g_type_check_instance_cast((struct _GTypeInstance *)alignment22, return_value_gtk_container_get_type_377);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_378, create_winMain__1__evCCZL);
+  create_winMain__1__lblCCZL=gtk_label_new("ZL");
+  gtk_widget_set_name(create_winMain__1__lblCCZL, "lblCCZL");
+  gtk_widget_show(create_winMain__1__lblCCZL);
+  unsigned long int return_value_gtk_container_get_type_379;
+  return_value_gtk_container_get_type_379=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_380;
+  return_value_g_type_check_instance_cast_380=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCZL, return_value_gtk_container_get_type_379);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_380, create_winMain__1__lblCCZL);
   alignment23=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment23, "alignment23");
   gtk_widget_show(alignment23);
-  unsigned long int return_value_gtk_table_get_type$381;
-  return_value_gtk_table_get_type$381=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$382;
-  return_value_g_type_check_instance_cast$382=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$381);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$382, alignment23, (unsigned int)5, (unsigned int)6, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCZR=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCZR, "evCCZR");
-  gtk_widget_show(create_winMain$$1$$evCCZR);
-  unsigned long int return_value_gtk_container_get_type$383;
-  return_value_gtk_container_get_type$383=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$384;
-  return_value_g_type_check_instance_cast$384=g_type_check_instance_cast((struct _GTypeInstance *)alignment23, return_value_gtk_container_get_type$383);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$384, create_winMain$$1$$evCCZR);
-  create_winMain$$1$$lblCCZR=gtk_label_new("ZR");
-  gtk_widget_set_name(create_winMain$$1$$lblCCZR, "lblCCZR");
-  gtk_widget_show(create_winMain$$1$$lblCCZR);
-  unsigned long int return_value_gtk_container_get_type$385;
-  return_value_gtk_container_get_type$385=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$386;
-  return_value_g_type_check_instance_cast$386=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCZR, return_value_gtk_container_get_type$385);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$386, create_winMain$$1$$lblCCZR);
+  unsigned long int return_value_gtk_table_get_type_381;
+  return_value_gtk_table_get_type_381=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_382;
+  return_value_g_type_check_instance_cast_382=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_381);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_382, alignment23, (unsigned int)5, (unsigned int)6, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCZR=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCZR, "evCCZR");
+  gtk_widget_show(create_winMain__1__evCCZR);
+  unsigned long int return_value_gtk_container_get_type_383;
+  return_value_gtk_container_get_type_383=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_384;
+  return_value_g_type_check_instance_cast_384=g_type_check_instance_cast((struct _GTypeInstance *)alignment23, return_value_gtk_container_get_type_383);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_384, create_winMain__1__evCCZR);
+  create_winMain__1__lblCCZR=gtk_label_new("ZR");
+  gtk_widget_set_name(create_winMain__1__lblCCZR, "lblCCZR");
+  gtk_widget_show(create_winMain__1__lblCCZR);
+  unsigned long int return_value_gtk_container_get_type_385;
+  return_value_gtk_container_get_type_385=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_386;
+  return_value_g_type_check_instance_cast_386=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCZR, return_value_gtk_container_get_type_385);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_386, create_winMain__1__lblCCZR);
   alignment24=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment24, "alignment24");
   gtk_widget_show(alignment24);
-  unsigned long int return_value_gtk_table_get_type$387;
-  return_value_gtk_table_get_type$387=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$388;
-  return_value_g_type_check_instance_cast$388=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$387);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$388, alignment24, (unsigned int)7, (unsigned int)8, (unsigned int)0, (unsigned int)1, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCX=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCX, "evCCX");
-  gtk_widget_show(create_winMain$$1$$evCCX);
-  unsigned long int return_value_gtk_container_get_type$389;
-  return_value_gtk_container_get_type$389=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$390;
-  return_value_g_type_check_instance_cast$390=g_type_check_instance_cast((struct _GTypeInstance *)alignment24, return_value_gtk_container_get_type$389);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$390, create_winMain$$1$$evCCX);
-  create_winMain$$1$$lblCCX=gtk_label_new("X");
-  gtk_widget_set_name(create_winMain$$1$$lblCCX, "lblCCX");
-  gtk_widget_show(create_winMain$$1$$lblCCX);
-  unsigned long int return_value_gtk_container_get_type$391;
-  return_value_gtk_container_get_type$391=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$392;
-  return_value_g_type_check_instance_cast$392=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCX, return_value_gtk_container_get_type$391);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$392, create_winMain$$1$$lblCCX);
+  unsigned long int return_value_gtk_table_get_type_387;
+  return_value_gtk_table_get_type_387=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_388;
+  return_value_g_type_check_instance_cast_388=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_387);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_388, alignment24, (unsigned int)7, (unsigned int)8, (unsigned int)0, (unsigned int)1, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCX=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCX, "evCCX");
+  gtk_widget_show(create_winMain__1__evCCX);
+  unsigned long int return_value_gtk_container_get_type_389;
+  return_value_gtk_container_get_type_389=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_390;
+  return_value_g_type_check_instance_cast_390=g_type_check_instance_cast((struct _GTypeInstance *)alignment24, return_value_gtk_container_get_type_389);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_390, create_winMain__1__evCCX);
+  create_winMain__1__lblCCX=gtk_label_new("X");
+  gtk_widget_set_name(create_winMain__1__lblCCX, "lblCCX");
+  gtk_widget_show(create_winMain__1__lblCCX);
+  unsigned long int return_value_gtk_container_get_type_391;
+  return_value_gtk_container_get_type_391=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_392;
+  return_value_g_type_check_instance_cast_392=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCX, return_value_gtk_container_get_type_391);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_392, create_winMain__1__lblCCX);
   alignment25=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment25, "alignment25");
   gtk_widget_show(alignment25);
-  unsigned long int return_value_gtk_table_get_type$393;
-  return_value_gtk_table_get_type$393=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$394;
-  return_value_g_type_check_instance_cast$394=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$393);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$394, alignment25, (unsigned int)6, (unsigned int)7, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCY=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCY, "evCCY");
-  gtk_widget_show(create_winMain$$1$$evCCY);
-  unsigned long int return_value_gtk_container_get_type$395;
-  return_value_gtk_container_get_type$395=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$396;
-  return_value_g_type_check_instance_cast$396=g_type_check_instance_cast((struct _GTypeInstance *)alignment25, return_value_gtk_container_get_type$395);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$396, create_winMain$$1$$evCCY);
-  create_winMain$$1$$lblCCY=gtk_label_new("Y");
-  gtk_widget_set_name(create_winMain$$1$$lblCCY, "lblCCY");
-  gtk_widget_show(create_winMain$$1$$lblCCY);
-  unsigned long int return_value_gtk_container_get_type$397;
-  return_value_gtk_container_get_type$397=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$398;
-  return_value_g_type_check_instance_cast$398=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCY, return_value_gtk_container_get_type$397);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$398, create_winMain$$1$$lblCCY);
+  unsigned long int return_value_gtk_table_get_type_393;
+  return_value_gtk_table_get_type_393=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_394;
+  return_value_g_type_check_instance_cast_394=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_393);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_394, alignment25, (unsigned int)6, (unsigned int)7, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCY=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCY, "evCCY");
+  gtk_widget_show(create_winMain__1__evCCY);
+  unsigned long int return_value_gtk_container_get_type_395;
+  return_value_gtk_container_get_type_395=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_396;
+  return_value_g_type_check_instance_cast_396=g_type_check_instance_cast((struct _GTypeInstance *)alignment25, return_value_gtk_container_get_type_395);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_396, create_winMain__1__evCCY);
+  create_winMain__1__lblCCY=gtk_label_new("Y");
+  gtk_widget_set_name(create_winMain__1__lblCCY, "lblCCY");
+  gtk_widget_show(create_winMain__1__lblCCY);
+  unsigned long int return_value_gtk_container_get_type_397;
+  return_value_gtk_container_get_type_397=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_398;
+  return_value_g_type_check_instance_cast_398=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCY, return_value_gtk_container_get_type_397);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_398, create_winMain__1__lblCCY);
   alignment26=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment26, "alignment26");
   gtk_widget_show(alignment26);
-  unsigned long int return_value_gtk_table_get_type$399;
-  return_value_gtk_table_get_type$399=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$400;
-  return_value_g_type_check_instance_cast$400=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$399);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$400, alignment26, (unsigned int)7, (unsigned int)8, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCB=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCB, "evCCB");
-  gtk_widget_show(create_winMain$$1$$evCCB);
-  unsigned long int return_value_gtk_container_get_type$401;
-  return_value_gtk_container_get_type$401=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$402;
-  return_value_g_type_check_instance_cast$402=g_type_check_instance_cast((struct _GTypeInstance *)alignment26, return_value_gtk_container_get_type$401);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$402, create_winMain$$1$$evCCB);
-  create_winMain$$1$$lblCCB=gtk_label_new("B");
-  gtk_widget_set_name(create_winMain$$1$$lblCCB, "lblCCB");
-  gtk_widget_show(create_winMain$$1$$lblCCB);
-  unsigned long int return_value_gtk_container_get_type$403;
-  return_value_gtk_container_get_type$403=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$404;
-  return_value_g_type_check_instance_cast$404=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCB, return_value_gtk_container_get_type$403);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$404, create_winMain$$1$$lblCCB);
+  unsigned long int return_value_gtk_table_get_type_399;
+  return_value_gtk_table_get_type_399=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_400;
+  return_value_g_type_check_instance_cast_400=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_399);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_400, alignment26, (unsigned int)7, (unsigned int)8, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCB=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCB, "evCCB");
+  gtk_widget_show(create_winMain__1__evCCB);
+  unsigned long int return_value_gtk_container_get_type_401;
+  return_value_gtk_container_get_type_401=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_402;
+  return_value_g_type_check_instance_cast_402=g_type_check_instance_cast((struct _GTypeInstance *)alignment26, return_value_gtk_container_get_type_401);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_402, create_winMain__1__evCCB);
+  create_winMain__1__lblCCB=gtk_label_new("B");
+  gtk_widget_set_name(create_winMain__1__lblCCB, "lblCCB");
+  gtk_widget_show(create_winMain__1__lblCCB);
+  unsigned long int return_value_gtk_container_get_type_403;
+  return_value_gtk_container_get_type_403=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_404;
+  return_value_g_type_check_instance_cast_404=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCB, return_value_gtk_container_get_type_403);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_404, create_winMain__1__lblCCB);
   alignment27=gtk_alignment_new((float)0.5, (float)0.5, (float)1, (float)1);
   gtk_widget_set_name(alignment27, "alignment27");
   gtk_widget_show(alignment27);
-  unsigned long int return_value_gtk_table_get_type$405;
-  return_value_gtk_table_get_type$405=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$406;
-  return_value_g_type_check_instance_cast$406=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type$405);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$406, alignment27, (unsigned int)8, (unsigned int)9, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCA=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCA, "evCCA");
-  gtk_widget_show(create_winMain$$1$$evCCA);
-  unsigned long int return_value_gtk_container_get_type$407;
-  return_value_gtk_container_get_type$407=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$408;
-  return_value_g_type_check_instance_cast$408=g_type_check_instance_cast((struct _GTypeInstance *)alignment27, return_value_gtk_container_get_type$407);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$408, create_winMain$$1$$evCCA);
-  create_winMain$$1$$lblCCA=gtk_label_new("A");
-  gtk_widget_set_name(create_winMain$$1$$lblCCA, "lblCCA");
-  gtk_widget_show(create_winMain$$1$$lblCCA);
-  unsigned long int return_value_gtk_container_get_type$409;
-  return_value_gtk_container_get_type$409=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$410;
-  return_value_g_type_check_instance_cast$410=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCA, return_value_gtk_container_get_type$409);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$410, create_winMain$$1$$lblCCA);
+  unsigned long int return_value_gtk_table_get_type_405;
+  return_value_gtk_table_get_type_405=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_406;
+  return_value_g_type_check_instance_cast_406=g_type_check_instance_cast((struct _GTypeInstance *)table9, return_value_gtk_table_get_type_405);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_406, alignment27, (unsigned int)8, (unsigned int)9, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCA=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCA, "evCCA");
+  gtk_widget_show(create_winMain__1__evCCA);
+  unsigned long int return_value_gtk_container_get_type_407;
+  return_value_gtk_container_get_type_407=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_408;
+  return_value_g_type_check_instance_cast_408=g_type_check_instance_cast((struct _GTypeInstance *)alignment27, return_value_gtk_container_get_type_407);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_408, create_winMain__1__evCCA);
+  create_winMain__1__lblCCA=gtk_label_new("A");
+  gtk_widget_set_name(create_winMain__1__lblCCA, "lblCCA");
+  gtk_widget_show(create_winMain__1__lblCCA);
+  unsigned long int return_value_gtk_container_get_type_409;
+  return_value_gtk_container_get_type_409=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_410;
+  return_value_g_type_check_instance_cast_410=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCA, return_value_gtk_container_get_type_409);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_410, create_winMain__1__lblCCA);
   hbox15=gtk_hbox_new(0, 5);
   gtk_widget_set_name(hbox15, "hbox15");
   gtk_widget_show(hbox15);
-  unsigned long int return_value_gtk_box_get_type$411;
-  return_value_gtk_box_get_type$411=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$412;
-  return_value_g_type_check_instance_cast$412=g_type_check_instance_cast((struct _GTypeInstance *)vbox5, return_value_gtk_box_get_type$411);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$412, hbox15, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  create_winMain$$1$$drawCCLStick=gtk_drawing_area_new();
-  gtk_widget_set_name(create_winMain$$1$$drawCCLStick, "drawCCLStick");
-  gtk_widget_show(create_winMain$$1$$drawCCLStick);
-  unsigned long int return_value_gtk_box_get_type$413;
-  return_value_gtk_box_get_type$413=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$414;
-  return_value_g_type_check_instance_cast$414=g_type_check_instance_cast((struct _GTypeInstance *)hbox15, return_value_gtk_box_get_type$413);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$414, create_winMain$$1$$drawCCLStick, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$drawCCLStick, 50, 50);
-  create_winMain$$1$$drawCCRStick=gtk_drawing_area_new();
-  gtk_widget_set_name(create_winMain$$1$$drawCCRStick, "drawCCRStick");
-  gtk_widget_show(create_winMain$$1$$drawCCRStick);
-  unsigned long int return_value_gtk_box_get_type$415;
-  return_value_gtk_box_get_type$415=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$416;
-  return_value_g_type_check_instance_cast$416=g_type_check_instance_cast((struct _GTypeInstance *)hbox15, return_value_gtk_box_get_type$415);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$416, create_winMain$$1$$drawCCRStick, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$drawCCRStick, 50, 50);
+  unsigned long int return_value_gtk_box_get_type_411;
+  return_value_gtk_box_get_type_411=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_412;
+  return_value_g_type_check_instance_cast_412=g_type_check_instance_cast((struct _GTypeInstance *)vbox5, return_value_gtk_box_get_type_411);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_412, hbox15, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  create_winMain__1__drawCCLStick=gtk_drawing_area_new();
+  gtk_widget_set_name(create_winMain__1__drawCCLStick, "drawCCLStick");
+  gtk_widget_show(create_winMain__1__drawCCLStick);
+  unsigned long int return_value_gtk_box_get_type_413;
+  return_value_gtk_box_get_type_413=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_414;
+  return_value_g_type_check_instance_cast_414=g_type_check_instance_cast((struct _GTypeInstance *)hbox15, return_value_gtk_box_get_type_413);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_414, create_winMain__1__drawCCLStick, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__drawCCLStick, 50, 50);
+  create_winMain__1__drawCCRStick=gtk_drawing_area_new();
+  gtk_widget_set_name(create_winMain__1__drawCCRStick, "drawCCRStick");
+  gtk_widget_show(create_winMain__1__drawCCRStick);
+  unsigned long int return_value_gtk_box_get_type_415;
+  return_value_gtk_box_get_type_415=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_416;
+  return_value_g_type_check_instance_cast_416=g_type_check_instance_cast((struct _GTypeInstance *)hbox15, return_value_gtk_box_get_type_415);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_416, create_winMain__1__drawCCRStick, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__drawCCRStick, 50, 50);
   table10=gtk_table_new((unsigned int)2, (unsigned int)3, 0);
   gtk_widget_set_name(table10, "table10");
   gtk_widget_show(table10);
-  unsigned long int return_value_gtk_box_get_type$417;
-  return_value_gtk_box_get_type$417=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$418;
-  return_value_g_type_check_instance_cast$418=g_type_check_instance_cast((struct _GTypeInstance *)hbox15, return_value_gtk_box_get_type$417);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$418, table10, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  create_winMain$$1$$lblCCLVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblCCLVal, "lblCCLVal");
-  gtk_widget_show(create_winMain$$1$$lblCCLVal);
-  unsigned long int return_value_gtk_table_get_type$419;
-  return_value_gtk_table_get_type$419=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$420;
-  return_value_g_type_check_instance_cast$420=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type$419);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$420, create_winMain$$1$$lblCCLVal, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblCCLVal, 35, -1);
-  unsigned long int return_value_gtk_misc_get_type$421;
-  return_value_gtk_misc_get_type$421=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$422;
-  return_value_g_type_check_instance_cast$422=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblCCLVal, return_value_gtk_misc_get_type$421);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$422, (float)0, (float)0.5);
-  create_winMain$$1$$lblCCRVal=gtk_label_new("0");
-  gtk_widget_set_name(create_winMain$$1$$lblCCRVal, "lblCCRVal");
-  gtk_widget_show(create_winMain$$1$$lblCCRVal);
-  unsigned long int return_value_gtk_table_get_type$423;
-  return_value_gtk_table_get_type$423=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$424;
-  return_value_g_type_check_instance_cast$424=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type$423);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$424, create_winMain$$1$$lblCCRVal, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  gtk_widget_set_size_request(create_winMain$$1$$lblCCRVal, 35, -1);
-  unsigned long int return_value_gtk_misc_get_type$425;
-  return_value_gtk_misc_get_type$425=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$426;
-  return_value_g_type_check_instance_cast$426=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblCCRVal, return_value_gtk_misc_get_type$425);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$426, (float)0, (float)0.5);
-  create_winMain$$1$$progCCL=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progCCL, "progCCL");
-  gtk_widget_show(create_winMain$$1$$progCCL);
-  unsigned long int return_value_gtk_table_get_type$427;
-  return_value_gtk_table_get_type$427=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$428;
-  return_value_g_type_check_instance_cast$428=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type$427);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$428, create_winMain$$1$$progCCL, (unsigned int)2, (unsigned int)3, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$progCCR=gtk_progress_bar_new();
-  gtk_widget_set_name(create_winMain$$1$$progCCR, "progCCR");
-  gtk_widget_show(create_winMain$$1$$progCCR);
-  unsigned long int return_value_gtk_table_get_type$429;
-  return_value_gtk_table_get_type$429=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$430;
-  return_value_g_type_check_instance_cast$430=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type$429);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$430, create_winMain$$1$$progCCR, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$evCCR=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCR, "evCCR");
-  gtk_widget_show(create_winMain$$1$$evCCR);
-  unsigned long int return_value_gtk_table_get_type$431;
-  return_value_gtk_table_get_type$431=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$432;
-  return_value_g_type_check_instance_cast$432=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type$431);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$432, create_winMain$$1$$evCCR, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$lblCCR=gtk_label_new("R:");
-  gtk_widget_set_name(create_winMain$$1$$lblCCR, "lblCCR");
-  gtk_widget_show(create_winMain$$1$$lblCCR);
-  unsigned long int return_value_gtk_container_get_type$433;
-  return_value_gtk_container_get_type$433=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$434;
-  return_value_g_type_check_instance_cast$434=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCR, return_value_gtk_container_get_type$433);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$434, create_winMain$$1$$lblCCR);
-  unsigned long int return_value_gtk_misc_get_type$435;
-  return_value_gtk_misc_get_type$435=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$436;
-  return_value_g_type_check_instance_cast$436=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblCCR, return_value_gtk_misc_get_type$435);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$436, (float)0, (float)0.5);
-  create_winMain$$1$$evCCL=gtk_event_box_new();
-  gtk_widget_set_name(create_winMain$$1$$evCCL, "evCCL");
-  gtk_widget_show(create_winMain$$1$$evCCL);
-  unsigned long int return_value_gtk_table_get_type$437;
-  return_value_gtk_table_get_type$437=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$438;
-  return_value_g_type_check_instance_cast$438=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type$437);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$438, create_winMain$$1$$evCCL, (unsigned int)0, (unsigned int)1, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winMain$$1$$lblCCL=gtk_label_new("L:");
-  gtk_widget_set_name(create_winMain$$1$$lblCCL, "lblCCL");
-  gtk_widget_show(create_winMain$$1$$lblCCL);
-  unsigned long int return_value_gtk_container_get_type$439;
-  return_value_gtk_container_get_type$439=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$440;
-  return_value_g_type_check_instance_cast$440=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$evCCL, return_value_gtk_container_get_type$439);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$440, create_winMain$$1$$lblCCL);
-  unsigned long int return_value_gtk_misc_get_type$441;
-  return_value_gtk_misc_get_type$441=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$442;
-  return_value_g_type_check_instance_cast$442=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$lblCCL, return_value_gtk_misc_get_type$441);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$442, (float)0, (float)0.5);
+  unsigned long int return_value_gtk_box_get_type_417;
+  return_value_gtk_box_get_type_417=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_418;
+  return_value_g_type_check_instance_cast_418=g_type_check_instance_cast((struct _GTypeInstance *)hbox15, return_value_gtk_box_get_type_417);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_418, table10, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  create_winMain__1__lblCCLVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblCCLVal, "lblCCLVal");
+  gtk_widget_show(create_winMain__1__lblCCLVal);
+  unsigned long int return_value_gtk_table_get_type_419;
+  return_value_gtk_table_get_type_419=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_420;
+  return_value_g_type_check_instance_cast_420=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type_419);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_420, create_winMain__1__lblCCLVal, (unsigned int)1, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblCCLVal, 35, -1);
+  unsigned long int return_value_gtk_misc_get_type_421;
+  return_value_gtk_misc_get_type_421=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_422;
+  return_value_g_type_check_instance_cast_422=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblCCLVal, return_value_gtk_misc_get_type_421);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_422, (float)0, (float)0.5);
+  create_winMain__1__lblCCRVal=gtk_label_new("0");
+  gtk_widget_set_name(create_winMain__1__lblCCRVal, "lblCCRVal");
+  gtk_widget_show(create_winMain__1__lblCCRVal);
+  unsigned long int return_value_gtk_table_get_type_423;
+  return_value_gtk_table_get_type_423=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_424;
+  return_value_g_type_check_instance_cast_424=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type_423);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_424, create_winMain__1__lblCCRVal, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  gtk_widget_set_size_request(create_winMain__1__lblCCRVal, 35, -1);
+  unsigned long int return_value_gtk_misc_get_type_425;
+  return_value_gtk_misc_get_type_425=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_426;
+  return_value_g_type_check_instance_cast_426=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblCCRVal, return_value_gtk_misc_get_type_425);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_426, (float)0, (float)0.5);
+  create_winMain__1__progCCL=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progCCL, "progCCL");
+  gtk_widget_show(create_winMain__1__progCCL);
+  unsigned long int return_value_gtk_table_get_type_427;
+  return_value_gtk_table_get_type_427=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_428;
+  return_value_g_type_check_instance_cast_428=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type_427);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_428, create_winMain__1__progCCL, (unsigned int)2, (unsigned int)3, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__progCCR=gtk_progress_bar_new();
+  gtk_widget_set_name(create_winMain__1__progCCR, "progCCR");
+  gtk_widget_show(create_winMain__1__progCCR);
+  unsigned long int return_value_gtk_table_get_type_429;
+  return_value_gtk_table_get_type_429=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_430;
+  return_value_g_type_check_instance_cast_430=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type_429);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_430, create_winMain__1__progCCR, (unsigned int)2, (unsigned int)3, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__evCCR=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCR, "evCCR");
+  gtk_widget_show(create_winMain__1__evCCR);
+  unsigned long int return_value_gtk_table_get_type_431;
+  return_value_gtk_table_get_type_431=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_432;
+  return_value_g_type_check_instance_cast_432=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type_431);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_432, create_winMain__1__evCCR, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__lblCCR=gtk_label_new("R:");
+  gtk_widget_set_name(create_winMain__1__lblCCR, "lblCCR");
+  gtk_widget_show(create_winMain__1__lblCCR);
+  unsigned long int return_value_gtk_container_get_type_433;
+  return_value_gtk_container_get_type_433=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_434;
+  return_value_g_type_check_instance_cast_434=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCR, return_value_gtk_container_get_type_433);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_434, create_winMain__1__lblCCR);
+  unsigned long int return_value_gtk_misc_get_type_435;
+  return_value_gtk_misc_get_type_435=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_436;
+  return_value_g_type_check_instance_cast_436=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblCCR, return_value_gtk_misc_get_type_435);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_436, (float)0, (float)0.5);
+  create_winMain__1__evCCL=gtk_event_box_new();
+  gtk_widget_set_name(create_winMain__1__evCCL, "evCCL");
+  gtk_widget_show(create_winMain__1__evCCL);
+  unsigned long int return_value_gtk_table_get_type_437;
+  return_value_gtk_table_get_type_437=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_438;
+  return_value_g_type_check_instance_cast_438=g_type_check_instance_cast((struct _GTypeInstance *)table10, return_value_gtk_table_get_type_437);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_438, create_winMain__1__evCCL, (unsigned int)0, (unsigned int)1, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winMain__1__lblCCL=gtk_label_new("L:");
+  gtk_widget_set_name(create_winMain__1__lblCCL, "lblCCL");
+  gtk_widget_show(create_winMain__1__lblCCL);
+  unsigned long int return_value_gtk_container_get_type_439;
+  return_value_gtk_container_get_type_439=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_440;
+  return_value_g_type_check_instance_cast_440=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__evCCL, return_value_gtk_container_get_type_439);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_440, create_winMain__1__lblCCL);
+  unsigned long int return_value_gtk_misc_get_type_441;
+  return_value_gtk_misc_get_type_441=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_442;
+  return_value_g_type_check_instance_cast_442=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__lblCCL, return_value_gtk_misc_get_type_441);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_442, (float)0, (float)0.5);
   lblClassic=gtk_label_new("<b>Classic Controller</b>");
   gtk_widget_set_name(lblClassic, "lblClassic");
   gtk_widget_show(lblClassic);
-  unsigned long int return_value_gtk_frame_get_type$443;
-  return_value_gtk_frame_get_type$443=gtk_frame_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$444;
-  return_value_g_type_check_instance_cast$444=g_type_check_instance_cast((struct _GTypeInstance *)frame5, return_value_gtk_frame_get_type$443);
-  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast$444, lblClassic);
-  unsigned long int return_value_gtk_label_get_type$445;
-  return_value_gtk_label_get_type$445=gtk_label_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$446;
-  return_value_g_type_check_instance_cast$446=g_type_check_instance_cast((struct _GTypeInstance *)lblClassic, return_value_gtk_label_get_type$445);
-  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast$446, (signed int)!(0 != 0));
+  unsigned long int return_value_gtk_frame_get_type_443;
+  return_value_gtk_frame_get_type_443=gtk_frame_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_444;
+  return_value_g_type_check_instance_cast_444=g_type_check_instance_cast((struct _GTypeInstance *)frame5, return_value_gtk_frame_get_type_443);
+  gtk_frame_set_label_widget((struct _GtkFrame *)return_value_g_type_check_instance_cast_444, lblClassic);
+  unsigned long int return_value_gtk_label_get_type_445;
+  return_value_gtk_label_get_type_445=gtk_label_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_446;
+  return_value_g_type_check_instance_cast_446=g_type_check_instance_cast((struct _GTypeInstance *)lblClassic, return_value_gtk_label_get_type_445);
+  gtk_label_set_use_markup((struct _GtkLabel *)return_value_g_type_check_instance_cast_446, (signed int)!(0 != 0));
   hbox11=gtk_hbox_new((signed int)!(0 != 0), 0);
   gtk_widget_set_name(hbox11, "hbox11");
   gtk_widget_show(hbox11);
-  unsigned long int return_value_gtk_box_get_type$447;
-  return_value_gtk_box_get_type$447=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$448;
-  return_value_g_type_check_instance_cast$448=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type$447);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$448, hbox11, 0, 0, (unsigned int)0);
-  create_winMain$$1$$statConnection=gtk_statusbar_new();
-  gtk_widget_set_name(create_winMain$$1$$statConnection, "statConnection");
-  gtk_widget_show(create_winMain$$1$$statConnection);
-  unsigned long int return_value_gtk_box_get_type$449;
-  return_value_gtk_box_get_type$449=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$450;
-  return_value_g_type_check_instance_cast$450=g_type_check_instance_cast((struct _GTypeInstance *)hbox11, return_value_gtk_box_get_type$449);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$450, create_winMain$$1$$statConnection, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_statusbar_get_type$451;
-  return_value_gtk_statusbar_get_type$451=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$452;
-  return_value_g_type_check_instance_cast$452=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$statConnection, return_value_gtk_statusbar_get_type$451);
-  gtk_statusbar_set_has_resize_grip((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$452, 0);
-  create_winMain$$1$$statBattery=gtk_statusbar_new();
-  gtk_widget_set_name(create_winMain$$1$$statBattery, "statBattery");
-  gtk_widget_show(create_winMain$$1$$statBattery);
-  unsigned long int return_value_gtk_box_get_type$453;
-  return_value_gtk_box_get_type$453=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$454;
-  return_value_g_type_check_instance_cast$454=g_type_check_instance_cast((struct _GTypeInstance *)hbox11, return_value_gtk_box_get_type$453);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$454, create_winMain$$1$$statBattery, 0, (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_statusbar_get_type$455;
-  return_value_gtk_statusbar_get_type$455=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$456;
-  return_value_g_type_check_instance_cast$456=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$statBattery, return_value_gtk_statusbar_get_type$455);
-  gtk_statusbar_set_has_resize_grip((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$456, 0);
-  create_winMain$$1$$statExtension=gtk_statusbar_new();
-  gtk_widget_set_name(create_winMain$$1$$statExtension, "statExtension");
-  gtk_widget_show(create_winMain$$1$$statExtension);
-  unsigned long int return_value_gtk_box_get_type$457;
-  return_value_gtk_box_get_type$457=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$458;
-  return_value_g_type_check_instance_cast$458=g_type_check_instance_cast((struct _GTypeInstance *)hbox11, return_value_gtk_box_get_type$457);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$458, create_winMain$$1$$statExtension, 0, (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_statusbar_get_type$459;
-  return_value_gtk_statusbar_get_type$459=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$460;
-  return_value_g_type_check_instance_cast$460=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$statExtension, return_value_gtk_statusbar_get_type$459);
-  gtk_statusbar_set_has_resize_grip((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$460, 0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$461;
-  return_value_g_type_check_instance_cast$461=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast$461, "winMain", (void *)create_winMain$$1$$winMain);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$462;
-  return_value_g_type_check_instance_cast$462=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$463;
-  return_value_gtk_widget_ref$463=gtk_widget_ref(vbox1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$462, "vbox1", (void *)return_value_gtk_widget_ref$463, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$464;
-  return_value_g_type_check_instance_cast$464=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$465;
-  return_value_gtk_widget_ref$465=gtk_widget_ref(menubar1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$464, "menubar1", (void *)return_value_gtk_widget_ref$465, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$466;
-  return_value_g_type_check_instance_cast$466=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$467;
-  return_value_gtk_widget_ref$467=gtk_widget_ref(menuitem1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$466, "menuitem1", (void *)return_value_gtk_widget_ref$467, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$468;
-  return_value_g_type_check_instance_cast$468=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$469;
-  return_value_gtk_widget_ref$469=gtk_widget_ref(menuitem1_menu);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$468, "menuitem1_menu", (void *)return_value_gtk_widget_ref$469, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$470;
-  return_value_g_type_check_instance_cast$470=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$471;
-  return_value_gtk_widget_ref$471=gtk_widget_ref(create_winMain$$1$$menuConnect);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$470, "menuConnect", (void *)return_value_gtk_widget_ref$471, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$472;
-  return_value_g_type_check_instance_cast$472=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$473;
-  return_value_gtk_widget_ref$473=gtk_widget_ref(image27);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$472, "image27", (void *)return_value_gtk_widget_ref$473, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$474;
-  return_value_g_type_check_instance_cast$474=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$475;
-  return_value_gtk_widget_ref$475=gtk_widget_ref(create_winMain$$1$$menuDisconnect);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$474, "menuDisconnect", (void *)return_value_gtk_widget_ref$475, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$476;
-  return_value_g_type_check_instance_cast$476=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$477;
-  return_value_gtk_widget_ref$477=gtk_widget_ref(image28);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$476, "image28", (void *)return_value_gtk_widget_ref$477, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$478;
-  return_value_g_type_check_instance_cast$478=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$479;
-  return_value_gtk_widget_ref$479=gtk_widget_ref(separatormenuitem1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$478, "separatormenuitem1", (void *)return_value_gtk_widget_ref$479, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$480;
-  return_value_g_type_check_instance_cast$480=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$481;
-  return_value_gtk_widget_ref$481=gtk_widget_ref(create_winMain$$1$$menuQuit);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$480, "menuQuit", (void *)return_value_gtk_widget_ref$481, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$482;
-  return_value_g_type_check_instance_cast$482=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$483;
-  return_value_gtk_widget_ref$483=gtk_widget_ref(image29);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$482, "image29", (void *)return_value_gtk_widget_ref$483, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$484;
-  return_value_g_type_check_instance_cast$484=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$485;
-  return_value_gtk_widget_ref$485=gtk_widget_ref(menuSettings);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$484, "menuSettings", (void *)return_value_gtk_widget_ref$485, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$486;
-  return_value_g_type_check_instance_cast$486=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$487;
-  return_value_gtk_widget_ref$487=gtk_widget_ref(menuSettings_menu);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$486, "menuSettings_menu", (void *)return_value_gtk_widget_ref$487, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$488;
-  return_value_g_type_check_instance_cast$488=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$489;
-  return_value_gtk_widget_ref$489=gtk_widget_ref(create_winMain$$1$$chkAcc);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$488, "chkAcc", (void *)return_value_gtk_widget_ref$489, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$490;
-  return_value_g_type_check_instance_cast$490=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$491;
-  return_value_gtk_widget_ref$491=gtk_widget_ref(create_winMain$$1$$chkIR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$490, "chkIR", (void *)return_value_gtk_widget_ref$491, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$492;
-  return_value_g_type_check_instance_cast$492=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$493;
-  return_value_gtk_widget_ref$493=gtk_widget_ref(create_winMain$$1$$chkExt);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$492, "chkExt", (void *)return_value_gtk_widget_ref$493, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$494;
-  return_value_g_type_check_instance_cast$494=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$495;
-  return_value_gtk_widget_ref$495=gtk_widget_ref(menuControls);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$494, "menuControls", (void *)return_value_gtk_widget_ref$495, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$496;
-  return_value_g_type_check_instance_cast$496=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$497;
-  return_value_gtk_widget_ref$497=gtk_widget_ref(menuControls_menu);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$496, "menuControls_menu", (void *)return_value_gtk_widget_ref$497, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$498;
-  return_value_g_type_check_instance_cast$498=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$499;
-  return_value_gtk_widget_ref$499=gtk_widget_ref(create_winMain$$1$$chkLED1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$498, "chkLED1", (void *)return_value_gtk_widget_ref$499, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$500;
-  return_value_g_type_check_instance_cast$500=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$501;
-  return_value_gtk_widget_ref$501=gtk_widget_ref(create_winMain$$1$$chkLED2);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$500, "chkLED2", (void *)return_value_gtk_widget_ref$501, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$502;
-  return_value_g_type_check_instance_cast$502=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$503;
-  return_value_gtk_widget_ref$503=gtk_widget_ref(create_winMain$$1$$chkLED3);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$502, "chkLED3", (void *)return_value_gtk_widget_ref$503, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$504;
-  return_value_g_type_check_instance_cast$504=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$505;
-  return_value_gtk_widget_ref$505=gtk_widget_ref(create_winMain$$1$$chkLED4);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$504, "chkLED4", (void *)return_value_gtk_widget_ref$505, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$506;
-  return_value_g_type_check_instance_cast$506=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$507;
-  return_value_gtk_widget_ref$507=gtk_widget_ref(separator1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$506, "separator1", (void *)return_value_gtk_widget_ref$507, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$508;
-  return_value_g_type_check_instance_cast$508=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$509;
-  return_value_gtk_widget_ref$509=gtk_widget_ref(create_winMain$$1$$chkRumble);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$508, "chkRumble", (void *)return_value_gtk_widget_ref$509, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$510;
-  return_value_g_type_check_instance_cast$510=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$511;
-  return_value_gtk_widget_ref$511=gtk_widget_ref(menuView);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$510, "menuView", (void *)return_value_gtk_widget_ref$511, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$512;
-  return_value_g_type_check_instance_cast$512=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$513;
-  return_value_gtk_widget_ref$513=gtk_widget_ref(menuView_menu);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$512, "menuView_menu", (void *)return_value_gtk_widget_ref$513, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$514;
-  return_value_g_type_check_instance_cast$514=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$515;
-  return_value_gtk_widget_ref$515=gtk_widget_ref(create_winMain$$1$$menuRW);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$514, "menuRW", (void *)return_value_gtk_widget_ref$515, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$516;
-  return_value_g_type_check_instance_cast$516=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$517;
-  return_value_gtk_widget_ref$517=gtk_widget_ref(menuHelp);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$516, "menuHelp", (void *)return_value_gtk_widget_ref$517, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$518;
-  return_value_g_type_check_instance_cast$518=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$519;
-  return_value_gtk_widget_ref$519=gtk_widget_ref(menuHelp_menu);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$518, "menuHelp_menu", (void *)return_value_gtk_widget_ref$519, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$520;
-  return_value_g_type_check_instance_cast$520=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$521;
-  return_value_gtk_widget_ref$521=gtk_widget_ref(create_winMain$$1$$menuAbout);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$520, "menuAbout", (void *)return_value_gtk_widget_ref$521, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$522;
-  return_value_g_type_check_instance_cast$522=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$523;
-  return_value_gtk_widget_ref$523=gtk_widget_ref(hbox1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$522, "hbox1", (void *)return_value_gtk_widget_ref$523, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$524;
-  return_value_g_type_check_instance_cast$524=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$525;
-  return_value_gtk_widget_ref$525=gtk_widget_ref(frame1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$524, "frame1", (void *)return_value_gtk_widget_ref$525, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$526;
-  return_value_g_type_check_instance_cast$526=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$527;
-  return_value_gtk_widget_ref$527=gtk_widget_ref(alignment1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$526, "alignment1", (void *)return_value_gtk_widget_ref$527, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$528;
-  return_value_g_type_check_instance_cast$528=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$529;
-  return_value_gtk_widget_ref$529=gtk_widget_ref(table1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$528, "table1", (void *)return_value_gtk_widget_ref$529, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$530;
-  return_value_g_type_check_instance_cast$530=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$531;
-  return_value_gtk_widget_ref$531=gtk_widget_ref(alignment3);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$530, "alignment3", (void *)return_value_gtk_widget_ref$531, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$532;
-  return_value_g_type_check_instance_cast$532=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$533;
-  return_value_gtk_widget_ref$533=gtk_widget_ref(create_winMain$$1$$evUp);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$532, "evUp", (void *)return_value_gtk_widget_ref$533, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$534;
-  return_value_g_type_check_instance_cast$534=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$535;
-  return_value_gtk_widget_ref$535=gtk_widget_ref(create_winMain$$1$$lblUp);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$534, "lblUp", (void *)return_value_gtk_widget_ref$535, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$536;
-  return_value_g_type_check_instance_cast$536=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$537;
-  return_value_gtk_widget_ref$537=gtk_widget_ref(alignment4);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$536, "alignment4", (void *)return_value_gtk_widget_ref$537, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$538;
-  return_value_g_type_check_instance_cast$538=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$539;
-  return_value_gtk_widget_ref$539=gtk_widget_ref(create_winMain$$1$$evLeft);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$538, "evLeft", (void *)return_value_gtk_widget_ref$539, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$540;
-  return_value_g_type_check_instance_cast$540=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$541;
-  return_value_gtk_widget_ref$541=gtk_widget_ref(create_winMain$$1$$lblLeft);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$540, "lblLeft", (void *)return_value_gtk_widget_ref$541, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$542;
-  return_value_g_type_check_instance_cast$542=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$543;
-  return_value_gtk_widget_ref$543=gtk_widget_ref(alignment5);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$542, "alignment5", (void *)return_value_gtk_widget_ref$543, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$544;
-  return_value_g_type_check_instance_cast$544=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$545;
-  return_value_gtk_widget_ref$545=gtk_widget_ref(create_winMain$$1$$evRight);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$544, "evRight", (void *)return_value_gtk_widget_ref$545, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$546;
-  return_value_g_type_check_instance_cast$546=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$547;
-  return_value_gtk_widget_ref$547=gtk_widget_ref(create_winMain$$1$$lblRight);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$546, "lblRight", (void *)return_value_gtk_widget_ref$547, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$548;
-  return_value_g_type_check_instance_cast$548=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$549;
-  return_value_gtk_widget_ref$549=gtk_widget_ref(alignment6);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$548, "alignment6", (void *)return_value_gtk_widget_ref$549, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$550;
-  return_value_g_type_check_instance_cast$550=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$551;
-  return_value_gtk_widget_ref$551=gtk_widget_ref(create_winMain$$1$$evDown);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$550, "evDown", (void *)return_value_gtk_widget_ref$551, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$552;
-  return_value_g_type_check_instance_cast$552=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$553;
-  return_value_gtk_widget_ref$553=gtk_widget_ref(create_winMain$$1$$lblDown);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$552, "lblDown", (void *)return_value_gtk_widget_ref$553, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$554;
-  return_value_g_type_check_instance_cast$554=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$555;
-  return_value_gtk_widget_ref$555=gtk_widget_ref(alignment7);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$554, "alignment7", (void *)return_value_gtk_widget_ref$555, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$556;
-  return_value_g_type_check_instance_cast$556=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$557;
-  return_value_gtk_widget_ref$557=gtk_widget_ref(create_winMain$$1$$evA);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$556, "evA", (void *)return_value_gtk_widget_ref$557, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$558;
-  return_value_g_type_check_instance_cast$558=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$559;
-  return_value_gtk_widget_ref$559=gtk_widget_ref(create_winMain$$1$$lblA);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$558, "lblA", (void *)return_value_gtk_widget_ref$559, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$560;
-  return_value_g_type_check_instance_cast$560=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$561;
-  return_value_gtk_widget_ref$561=gtk_widget_ref(alignment9);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$560, "alignment9", (void *)return_value_gtk_widget_ref$561, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$562;
-  return_value_g_type_check_instance_cast$562=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$563;
-  return_value_gtk_widget_ref$563=gtk_widget_ref(create_winMain$$1$$evB);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$562, "evB", (void *)return_value_gtk_widget_ref$563, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$564;
-  return_value_g_type_check_instance_cast$564=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$565;
-  return_value_gtk_widget_ref$565=gtk_widget_ref(create_winMain$$1$$lblB);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$564, "lblB", (void *)return_value_gtk_widget_ref$565, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$566;
-  return_value_g_type_check_instance_cast$566=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$567;
-  return_value_gtk_widget_ref$567=gtk_widget_ref(alignment10);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$566, "alignment10", (void *)return_value_gtk_widget_ref$567, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$568;
-  return_value_g_type_check_instance_cast$568=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$569;
-  return_value_gtk_widget_ref$569=gtk_widget_ref(create_winMain$$1$$evMinus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$568, "evMinus", (void *)return_value_gtk_widget_ref$569, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$570;
-  return_value_g_type_check_instance_cast$570=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$571;
-  return_value_gtk_widget_ref$571=gtk_widget_ref(create_winMain$$1$$lblMinus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$570, "lblMinus", (void *)return_value_gtk_widget_ref$571, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$572;
-  return_value_g_type_check_instance_cast$572=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$573;
-  return_value_gtk_widget_ref$573=gtk_widget_ref(alignment11);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$572, "alignment11", (void *)return_value_gtk_widget_ref$573, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$574;
-  return_value_g_type_check_instance_cast$574=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$575;
-  return_value_gtk_widget_ref$575=gtk_widget_ref(create_winMain$$1$$evHome);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$574, "evHome", (void *)return_value_gtk_widget_ref$575, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$576;
-  return_value_g_type_check_instance_cast$576=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$577;
-  return_value_gtk_widget_ref$577=gtk_widget_ref(create_winMain$$1$$lblHome);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$576, "lblHome", (void *)return_value_gtk_widget_ref$577, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$578;
-  return_value_g_type_check_instance_cast$578=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$579;
-  return_value_gtk_widget_ref$579=gtk_widget_ref(alignment12);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$578, "alignment12", (void *)return_value_gtk_widget_ref$579, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$580;
-  return_value_g_type_check_instance_cast$580=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$581;
-  return_value_gtk_widget_ref$581=gtk_widget_ref(create_winMain$$1$$evPlus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$580, "evPlus", (void *)return_value_gtk_widget_ref$581, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$582;
-  return_value_g_type_check_instance_cast$582=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$583;
-  return_value_gtk_widget_ref$583=gtk_widget_ref(create_winMain$$1$$lblPlus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$582, "lblPlus", (void *)return_value_gtk_widget_ref$583, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$584;
-  return_value_g_type_check_instance_cast$584=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$585;
-  return_value_gtk_widget_ref$585=gtk_widget_ref(alignment13);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$584, "alignment13", (void *)return_value_gtk_widget_ref$585, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$586;
-  return_value_g_type_check_instance_cast$586=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$587;
-  return_value_gtk_widget_ref$587=gtk_widget_ref(create_winMain$$1$$ev1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$586, "ev1", (void *)return_value_gtk_widget_ref$587, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$588;
-  return_value_g_type_check_instance_cast$588=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$589;
-  return_value_gtk_widget_ref$589=gtk_widget_ref(create_winMain$$1$$lbl1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$588, "lbl1", (void *)return_value_gtk_widget_ref$589, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$590;
-  return_value_g_type_check_instance_cast$590=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$591;
-  return_value_gtk_widget_ref$591=gtk_widget_ref(alignment14);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$590, "alignment14", (void *)return_value_gtk_widget_ref$591, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$592;
-  return_value_g_type_check_instance_cast$592=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$593;
-  return_value_gtk_widget_ref$593=gtk_widget_ref(create_winMain$$1$$ev2);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$592, "ev2", (void *)return_value_gtk_widget_ref$593, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$594;
-  return_value_g_type_check_instance_cast$594=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$595;
-  return_value_gtk_widget_ref$595=gtk_widget_ref(create_winMain$$1$$lbl2);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$594, "lbl2", (void *)return_value_gtk_widget_ref$595, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$596;
-  return_value_g_type_check_instance_cast$596=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$597;
-  return_value_gtk_widget_ref$597=gtk_widget_ref(label1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$596, "label1", (void *)return_value_gtk_widget_ref$597, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$598;
-  return_value_g_type_check_instance_cast$598=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$599;
-  return_value_gtk_widget_ref$599=gtk_widget_ref(frame2);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$598, "frame2", (void *)return_value_gtk_widget_ref$599, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$600;
-  return_value_g_type_check_instance_cast$600=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$601;
-  return_value_gtk_widget_ref$601=gtk_widget_ref(alignment2);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$600, "alignment2", (void *)return_value_gtk_widget_ref$601, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$602;
-  return_value_g_type_check_instance_cast$602=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$603;
-  return_value_gtk_widget_ref$603=gtk_widget_ref(hbox2);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$602, "hbox2", (void *)return_value_gtk_widget_ref$603, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$604;
-  return_value_g_type_check_instance_cast$604=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$605;
-  return_value_gtk_widget_ref$605=gtk_widget_ref(table4);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$604, "table4", (void *)return_value_gtk_widget_ref$605, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$606;
-  return_value_g_type_check_instance_cast$606=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$607;
-  return_value_gtk_widget_ref$607=gtk_widget_ref(create_winMain$$1$$progAccX);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$606, "progAccX", (void *)return_value_gtk_widget_ref$607, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$608;
-  return_value_g_type_check_instance_cast$608=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$609;
-  return_value_gtk_widget_ref$609=gtk_widget_ref(create_winMain$$1$$progAccY);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$608, "progAccY", (void *)return_value_gtk_widget_ref$609, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$610;
-  return_value_g_type_check_instance_cast$610=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$611;
-  return_value_gtk_widget_ref$611=gtk_widget_ref(create_winMain$$1$$progAccZ);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$610, "progAccZ", (void *)return_value_gtk_widget_ref$611, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$612;
-  return_value_g_type_check_instance_cast$612=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$613;
-  return_value_gtk_widget_ref$613=gtk_widget_ref(create_winMain$$1$$lblAccX);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$612, "lblAccX", (void *)return_value_gtk_widget_ref$613, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$614;
-  return_value_g_type_check_instance_cast$614=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$615;
-  return_value_gtk_widget_ref$615=gtk_widget_ref(create_winMain$$1$$lblAccXVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$614, "lblAccXVal", (void *)return_value_gtk_widget_ref$615, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$616;
-  return_value_g_type_check_instance_cast$616=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$617;
-  return_value_gtk_widget_ref$617=gtk_widget_ref(create_winMain$$1$$lblAccY);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$616, "lblAccY", (void *)return_value_gtk_widget_ref$617, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$618;
-  return_value_g_type_check_instance_cast$618=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$619;
-  return_value_gtk_widget_ref$619=gtk_widget_ref(create_winMain$$1$$lblAccYVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$618, "lblAccYVal", (void *)return_value_gtk_widget_ref$619, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$620;
-  return_value_g_type_check_instance_cast$620=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$621;
-  return_value_gtk_widget_ref$621=gtk_widget_ref(create_winMain$$1$$lblAccZ);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$620, "lblAccZ", (void *)return_value_gtk_widget_ref$621, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$622;
-  return_value_g_type_check_instance_cast$622=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$623;
-  return_value_gtk_widget_ref$623=gtk_widget_ref(create_winMain$$1$$lblAccZVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$622, "lblAccZVal", (void *)return_value_gtk_widget_ref$623, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$624;
-  return_value_g_type_check_instance_cast$624=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$625;
-  return_value_gtk_widget_ref$625=gtk_widget_ref(create_winMain$$1$$lblPitch);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$624, "lblPitch", (void *)return_value_gtk_widget_ref$625, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$626;
-  return_value_g_type_check_instance_cast$626=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$627;
-  return_value_gtk_widget_ref$627=gtk_widget_ref(create_winMain$$1$$lblPitchVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$626, "lblPitchVal", (void *)return_value_gtk_widget_ref$627, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$628;
-  return_value_g_type_check_instance_cast$628=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$629;
-  return_value_gtk_widget_ref$629=gtk_widget_ref(create_winMain$$1$$lblRoll);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$628, "lblRoll", (void *)return_value_gtk_widget_ref$629, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$630;
-  return_value_g_type_check_instance_cast$630=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$631;
-  return_value_gtk_widget_ref$631=gtk_widget_ref(create_winMain$$1$$lblRollVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$630, "lblRollVal", (void *)return_value_gtk_widget_ref$631, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$632;
-  return_value_g_type_check_instance_cast$632=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$633;
-  return_value_gtk_widget_ref$633=gtk_widget_ref(create_winMain$$1$$lblAcc);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$632, "lblAcc", (void *)return_value_gtk_widget_ref$633, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$634;
-  return_value_g_type_check_instance_cast$634=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$635;
-  return_value_gtk_widget_ref$635=gtk_widget_ref(create_winMain$$1$$lblAccVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$634, "lblAccVal", (void *)return_value_gtk_widget_ref$635, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$636;
-  return_value_g_type_check_instance_cast$636=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$637;
-  return_value_gtk_widget_ref$637=gtk_widget_ref(create_winMain$$1$$btnBeep);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$636, "btnBeep", (void *)return_value_gtk_widget_ref$637, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$638;
-  return_value_g_type_check_instance_cast$638=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$639;
-  return_value_gtk_widget_ref$639=gtk_widget_ref(frame3);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$638, "frame3", (void *)return_value_gtk_widget_ref$639, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$640;
-  return_value_g_type_check_instance_cast$640=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$641;
-  return_value_gtk_widget_ref$641=gtk_widget_ref(create_winMain$$1$$drawIR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$640, "drawIR", (void *)return_value_gtk_widget_ref$641, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$642;
-  return_value_g_type_check_instance_cast$642=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$643;
-  return_value_gtk_widget_ref$643=gtk_widget_ref(create_winMain$$1$$lblIR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$642, "lblIR", (void *)return_value_gtk_widget_ref$643, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$644;
-  return_value_g_type_check_instance_cast$644=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$645;
-  return_value_gtk_widget_ref$645=gtk_widget_ref(label2);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$644, "label2", (void *)return_value_gtk_widget_ref$645, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$646;
-  return_value_g_type_check_instance_cast$646=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$647;
-  return_value_gtk_widget_ref$647=gtk_widget_ref(hbox10);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$646, "hbox10", (void *)return_value_gtk_widget_ref$647, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$648;
-  return_value_g_type_check_instance_cast$648=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$649;
-  return_value_gtk_widget_ref$649=gtk_widget_ref(frame4);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$648, "frame4", (void *)return_value_gtk_widget_ref$649, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$650;
-  return_value_g_type_check_instance_cast$650=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$651;
-  return_value_gtk_widget_ref$651=gtk_widget_ref(alignment28);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$650, "alignment28", (void *)return_value_gtk_widget_ref$651, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$652;
-  return_value_g_type_check_instance_cast$652=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$653;
-  return_value_gtk_widget_ref$653=gtk_widget_ref(hbox12);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$652, "hbox12", (void *)return_value_gtk_widget_ref$653, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$654;
-  return_value_g_type_check_instance_cast$654=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$655;
-  return_value_gtk_widget_ref$655=gtk_widget_ref(vbox4);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$654, "vbox4", (void *)return_value_gtk_widget_ref$655, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$656;
-  return_value_g_type_check_instance_cast$656=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$657;
-  return_value_gtk_widget_ref$657=gtk_widget_ref(create_winMain$$1$$drawNCStick);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$656, "drawNCStick", (void *)return_value_gtk_widget_ref$657, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$658;
-  return_value_g_type_check_instance_cast$658=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$659;
-  return_value_gtk_widget_ref$659=gtk_widget_ref(hbox13);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$658, "hbox13", (void *)return_value_gtk_widget_ref$659, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$660;
-  return_value_g_type_check_instance_cast$660=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$661;
-  return_value_gtk_widget_ref$661=gtk_widget_ref(create_winMain$$1$$evNCC);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$660, "evNCC", (void *)return_value_gtk_widget_ref$661, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$662;
-  return_value_g_type_check_instance_cast$662=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$663;
-  return_value_gtk_widget_ref$663=gtk_widget_ref(create_winMain$$1$$lblNCC);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$662, "lblNCC", (void *)return_value_gtk_widget_ref$663, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$664;
-  return_value_g_type_check_instance_cast$664=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$665;
-  return_value_gtk_widget_ref$665=gtk_widget_ref(create_winMain$$1$$evNCZ);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$664, "evNCZ", (void *)return_value_gtk_widget_ref$665, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$666;
-  return_value_g_type_check_instance_cast$666=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$667;
-  return_value_gtk_widget_ref$667=gtk_widget_ref(create_winMain$$1$$lblNCZ);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$666, "lblNCZ", (void *)return_value_gtk_widget_ref$667, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$668;
-  return_value_g_type_check_instance_cast$668=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$669;
-  return_value_gtk_widget_ref$669=gtk_widget_ref(table8);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$668, "table8", (void *)return_value_gtk_widget_ref$669, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$670;
-  return_value_g_type_check_instance_cast$670=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$671;
-  return_value_gtk_widget_ref$671=gtk_widget_ref(create_winMain$$1$$lblNCAccX);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$670, "lblNCAccX", (void *)return_value_gtk_widget_ref$671, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$672;
-  return_value_g_type_check_instance_cast$672=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$673;
-  return_value_gtk_widget_ref$673=gtk_widget_ref(create_winMain$$1$$lblNCAccY);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$672, "lblNCAccY", (void *)return_value_gtk_widget_ref$673, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$674;
-  return_value_g_type_check_instance_cast$674=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$675;
-  return_value_gtk_widget_ref$675=gtk_widget_ref(create_winMain$$1$$lblNCAccZ);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$674, "lblNCAccZ", (void *)return_value_gtk_widget_ref$675, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$676;
-  return_value_g_type_check_instance_cast$676=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$677;
-  return_value_gtk_widget_ref$677=gtk_widget_ref(create_winMain$$1$$lblNCAcc);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$676, "lblNCAcc", (void *)return_value_gtk_widget_ref$677, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$678;
-  return_value_g_type_check_instance_cast$678=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$679;
-  return_value_gtk_widget_ref$679=gtk_widget_ref(create_winMain$$1$$lblNCRoll);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$678, "lblNCRoll", (void *)return_value_gtk_widget_ref$679, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$680;
-  return_value_g_type_check_instance_cast$680=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$681;
-  return_value_gtk_widget_ref$681=gtk_widget_ref(create_winMain$$1$$lblNCPitch);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$680, "lblNCPitch", (void *)return_value_gtk_widget_ref$681, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$682;
-  return_value_g_type_check_instance_cast$682=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$683;
-  return_value_gtk_widget_ref$683=gtk_widget_ref(create_winMain$$1$$lblNCAccXVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$682, "lblNCAccXVal", (void *)return_value_gtk_widget_ref$683, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$684;
-  return_value_g_type_check_instance_cast$684=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$685;
-  return_value_gtk_widget_ref$685=gtk_widget_ref(create_winMain$$1$$lblNCAccYVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$684, "lblNCAccYVal", (void *)return_value_gtk_widget_ref$685, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$686;
-  return_value_g_type_check_instance_cast$686=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$687;
-  return_value_gtk_widget_ref$687=gtk_widget_ref(create_winMain$$1$$lblNCAccZVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$686, "lblNCAccZVal", (void *)return_value_gtk_widget_ref$687, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$688;
-  return_value_g_type_check_instance_cast$688=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$689;
-  return_value_gtk_widget_ref$689=gtk_widget_ref(create_winMain$$1$$lblNCAccVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$688, "lblNCAccVal", (void *)return_value_gtk_widget_ref$689, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$690;
-  return_value_g_type_check_instance_cast$690=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$691;
-  return_value_gtk_widget_ref$691=gtk_widget_ref(create_winMain$$1$$lblNCRollVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$690, "lblNCRollVal", (void *)return_value_gtk_widget_ref$691, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$692;
-  return_value_g_type_check_instance_cast$692=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$693;
-  return_value_gtk_widget_ref$693=gtk_widget_ref(create_winMain$$1$$lblNCPitchVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$692, "lblNCPitchVal", (void *)return_value_gtk_widget_ref$693, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$694;
-  return_value_g_type_check_instance_cast$694=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$695;
-  return_value_gtk_widget_ref$695=gtk_widget_ref(create_winMain$$1$$progNCAccX);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$694, "progNCAccX", (void *)return_value_gtk_widget_ref$695, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$696;
-  return_value_g_type_check_instance_cast$696=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$697;
-  return_value_gtk_widget_ref$697=gtk_widget_ref(create_winMain$$1$$progNCAccZ);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$696, "progNCAccZ", (void *)return_value_gtk_widget_ref$697, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$698;
-  return_value_g_type_check_instance_cast$698=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$699;
-  return_value_gtk_widget_ref$699=gtk_widget_ref(create_winMain$$1$$progNCAccY);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$698, "progNCAccY", (void *)return_value_gtk_widget_ref$699, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$700;
-  return_value_g_type_check_instance_cast$700=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$701;
-  return_value_gtk_widget_ref$701=gtk_widget_ref(create_winMain$$1$$lblNC);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$700, "lblNC", (void *)return_value_gtk_widget_ref$701, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$702;
-  return_value_g_type_check_instance_cast$702=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$703;
-  return_value_gtk_widget_ref$703=gtk_widget_ref(frame5);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$702, "frame5", (void *)return_value_gtk_widget_ref$703, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$704;
-  return_value_g_type_check_instance_cast$704=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$705;
-  return_value_gtk_widget_ref$705=gtk_widget_ref(alignment29);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$704, "alignment29", (void *)return_value_gtk_widget_ref$705, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$706;
-  return_value_g_type_check_instance_cast$706=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$707;
-  return_value_gtk_widget_ref$707=gtk_widget_ref(vbox5);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$706, "vbox5", (void *)return_value_gtk_widget_ref$707, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$708;
-  return_value_g_type_check_instance_cast$708=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$709;
-  return_value_gtk_widget_ref$709=gtk_widget_ref(table9);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$708, "table9", (void *)return_value_gtk_widget_ref$709, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$710;
-  return_value_g_type_check_instance_cast$710=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$711;
-  return_value_gtk_widget_ref$711=gtk_widget_ref(alignment15);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$710, "alignment15", (void *)return_value_gtk_widget_ref$711, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$712;
-  return_value_g_type_check_instance_cast$712=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$713;
-  return_value_gtk_widget_ref$713=gtk_widget_ref(create_winMain$$1$$evCCLeft);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$712, "evCCLeft", (void *)return_value_gtk_widget_ref$713, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$714;
-  return_value_g_type_check_instance_cast$714=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$715;
-  return_value_gtk_widget_ref$715=gtk_widget_ref(create_winMain$$1$$lblCCLeft);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$714, "lblCCLeft", (void *)return_value_gtk_widget_ref$715, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$716;
-  return_value_g_type_check_instance_cast$716=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$717;
-  return_value_gtk_widget_ref$717=gtk_widget_ref(alignment16);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$716, "alignment16", (void *)return_value_gtk_widget_ref$717, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$718;
-  return_value_g_type_check_instance_cast$718=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$719;
-  return_value_gtk_widget_ref$719=gtk_widget_ref(create_winMain$$1$$evCCUp);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$718, "evCCUp", (void *)return_value_gtk_widget_ref$719, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$720;
-  return_value_g_type_check_instance_cast$720=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$721;
-  return_value_gtk_widget_ref$721=gtk_widget_ref(create_winMain$$1$$lblCCUp);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$720, "lblCCUp", (void *)return_value_gtk_widget_ref$721, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$722;
-  return_value_g_type_check_instance_cast$722=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$723;
-  return_value_gtk_widget_ref$723=gtk_widget_ref(alignment17);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$722, "alignment17", (void *)return_value_gtk_widget_ref$723, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$724;
-  return_value_g_type_check_instance_cast$724=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$725;
-  return_value_gtk_widget_ref$725=gtk_widget_ref(create_winMain$$1$$evCCDown);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$724, "evCCDown", (void *)return_value_gtk_widget_ref$725, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$726;
-  return_value_g_type_check_instance_cast$726=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$727;
-  return_value_gtk_widget_ref$727=gtk_widget_ref(create_winMain$$1$$lblCCDown);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$726, "lblCCDown", (void *)return_value_gtk_widget_ref$727, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$728;
-  return_value_g_type_check_instance_cast$728=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$729;
-  return_value_gtk_widget_ref$729=gtk_widget_ref(alignment18);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$728, "alignment18", (void *)return_value_gtk_widget_ref$729, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$730;
-  return_value_g_type_check_instance_cast$730=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$731;
-  return_value_gtk_widget_ref$731=gtk_widget_ref(create_winMain$$1$$evCCRight);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$730, "evCCRight", (void *)return_value_gtk_widget_ref$731, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$732;
-  return_value_g_type_check_instance_cast$732=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$733;
-  return_value_gtk_widget_ref$733=gtk_widget_ref(create_winMain$$1$$lblCCRight);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$732, "lblCCRight", (void *)return_value_gtk_widget_ref$733, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$734;
-  return_value_g_type_check_instance_cast$734=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$735;
-  return_value_gtk_widget_ref$735=gtk_widget_ref(alignment19);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$734, "alignment19", (void *)return_value_gtk_widget_ref$735, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$736;
-  return_value_g_type_check_instance_cast$736=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$737;
-  return_value_gtk_widget_ref$737=gtk_widget_ref(create_winMain$$1$$evCCMinus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$736, "evCCMinus", (void *)return_value_gtk_widget_ref$737, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$738;
-  return_value_g_type_check_instance_cast$738=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$739;
-  return_value_gtk_widget_ref$739=gtk_widget_ref(create_winMain$$1$$lblCCMinus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$738, "lblCCMinus", (void *)return_value_gtk_widget_ref$739, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$740;
-  return_value_g_type_check_instance_cast$740=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$741;
-  return_value_gtk_widget_ref$741=gtk_widget_ref(alignment20);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$740, "alignment20", (void *)return_value_gtk_widget_ref$741, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$742;
-  return_value_g_type_check_instance_cast$742=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$743;
-  return_value_gtk_widget_ref$743=gtk_widget_ref(create_winMain$$1$$evCCHome);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$742, "evCCHome", (void *)return_value_gtk_widget_ref$743, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$744;
-  return_value_g_type_check_instance_cast$744=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$745;
-  return_value_gtk_widget_ref$745=gtk_widget_ref(create_winMain$$1$$lblCCHome);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$744, "lblCCHome", (void *)return_value_gtk_widget_ref$745, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$746;
-  return_value_g_type_check_instance_cast$746=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$747;
-  return_value_gtk_widget_ref$747=gtk_widget_ref(alignment21);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$746, "alignment21", (void *)return_value_gtk_widget_ref$747, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$748;
-  return_value_g_type_check_instance_cast$748=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$749;
-  return_value_gtk_widget_ref$749=gtk_widget_ref(create_winMain$$1$$evCCPlus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$748, "evCCPlus", (void *)return_value_gtk_widget_ref$749, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$750;
-  return_value_g_type_check_instance_cast$750=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$751;
-  return_value_gtk_widget_ref$751=gtk_widget_ref(create_winMain$$1$$lblCCPlus);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$750, "lblCCPlus", (void *)return_value_gtk_widget_ref$751, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$752;
-  return_value_g_type_check_instance_cast$752=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$753;
-  return_value_gtk_widget_ref$753=gtk_widget_ref(alignment22);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$752, "alignment22", (void *)return_value_gtk_widget_ref$753, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$754;
-  return_value_g_type_check_instance_cast$754=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$755;
-  return_value_gtk_widget_ref$755=gtk_widget_ref(create_winMain$$1$$evCCZL);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$754, "evCCZL", (void *)return_value_gtk_widget_ref$755, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$756;
-  return_value_g_type_check_instance_cast$756=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$757;
-  return_value_gtk_widget_ref$757=gtk_widget_ref(create_winMain$$1$$lblCCZL);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$756, "lblCCZL", (void *)return_value_gtk_widget_ref$757, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$758;
-  return_value_g_type_check_instance_cast$758=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$759;
-  return_value_gtk_widget_ref$759=gtk_widget_ref(alignment23);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$758, "alignment23", (void *)return_value_gtk_widget_ref$759, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$760;
-  return_value_g_type_check_instance_cast$760=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$761;
-  return_value_gtk_widget_ref$761=gtk_widget_ref(create_winMain$$1$$evCCZR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$760, "evCCZR", (void *)return_value_gtk_widget_ref$761, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$762;
-  return_value_g_type_check_instance_cast$762=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$763;
-  return_value_gtk_widget_ref$763=gtk_widget_ref(create_winMain$$1$$lblCCZR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$762, "lblCCZR", (void *)return_value_gtk_widget_ref$763, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$764;
-  return_value_g_type_check_instance_cast$764=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$765;
-  return_value_gtk_widget_ref$765=gtk_widget_ref(alignment24);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$764, "alignment24", (void *)return_value_gtk_widget_ref$765, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$766;
-  return_value_g_type_check_instance_cast$766=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$767;
-  return_value_gtk_widget_ref$767=gtk_widget_ref(create_winMain$$1$$evCCX);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$766, "evCCX", (void *)return_value_gtk_widget_ref$767, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$768;
-  return_value_g_type_check_instance_cast$768=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$769;
-  return_value_gtk_widget_ref$769=gtk_widget_ref(create_winMain$$1$$lblCCX);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$768, "lblCCX", (void *)return_value_gtk_widget_ref$769, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$770;
-  return_value_g_type_check_instance_cast$770=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$771;
-  return_value_gtk_widget_ref$771=gtk_widget_ref(alignment25);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$770, "alignment25", (void *)return_value_gtk_widget_ref$771, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$772;
-  return_value_g_type_check_instance_cast$772=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$773;
-  return_value_gtk_widget_ref$773=gtk_widget_ref(create_winMain$$1$$evCCY);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$772, "evCCY", (void *)return_value_gtk_widget_ref$773, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$774;
-  return_value_g_type_check_instance_cast$774=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$775;
-  return_value_gtk_widget_ref$775=gtk_widget_ref(create_winMain$$1$$lblCCY);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$774, "lblCCY", (void *)return_value_gtk_widget_ref$775, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$776;
-  return_value_g_type_check_instance_cast$776=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$777;
-  return_value_gtk_widget_ref$777=gtk_widget_ref(alignment26);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$776, "alignment26", (void *)return_value_gtk_widget_ref$777, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$778;
-  return_value_g_type_check_instance_cast$778=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$779;
-  return_value_gtk_widget_ref$779=gtk_widget_ref(create_winMain$$1$$evCCB);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$778, "evCCB", (void *)return_value_gtk_widget_ref$779, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$780;
-  return_value_g_type_check_instance_cast$780=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$781;
-  return_value_gtk_widget_ref$781=gtk_widget_ref(create_winMain$$1$$lblCCB);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$780, "lblCCB", (void *)return_value_gtk_widget_ref$781, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$782;
-  return_value_g_type_check_instance_cast$782=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$783;
-  return_value_gtk_widget_ref$783=gtk_widget_ref(alignment27);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$782, "alignment27", (void *)return_value_gtk_widget_ref$783, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$784;
-  return_value_g_type_check_instance_cast$784=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$785;
-  return_value_gtk_widget_ref$785=gtk_widget_ref(create_winMain$$1$$evCCA);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$784, "evCCA", (void *)return_value_gtk_widget_ref$785, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$786;
-  return_value_g_type_check_instance_cast$786=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$787;
-  return_value_gtk_widget_ref$787=gtk_widget_ref(create_winMain$$1$$lblCCA);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$786, "lblCCA", (void *)return_value_gtk_widget_ref$787, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$788;
-  return_value_g_type_check_instance_cast$788=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$789;
-  return_value_gtk_widget_ref$789=gtk_widget_ref(hbox15);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$788, "hbox15", (void *)return_value_gtk_widget_ref$789, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$790;
-  return_value_g_type_check_instance_cast$790=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$791;
-  return_value_gtk_widget_ref$791=gtk_widget_ref(create_winMain$$1$$drawCCLStick);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$790, "drawCCLStick", (void *)return_value_gtk_widget_ref$791, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$792;
-  return_value_g_type_check_instance_cast$792=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$793;
-  return_value_gtk_widget_ref$793=gtk_widget_ref(create_winMain$$1$$drawCCRStick);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$792, "drawCCRStick", (void *)return_value_gtk_widget_ref$793, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$794;
-  return_value_g_type_check_instance_cast$794=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$795;
-  return_value_gtk_widget_ref$795=gtk_widget_ref(table10);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$794, "table10", (void *)return_value_gtk_widget_ref$795, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$796;
-  return_value_g_type_check_instance_cast$796=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$797;
-  return_value_gtk_widget_ref$797=gtk_widget_ref(create_winMain$$1$$lblCCLVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$796, "lblCCLVal", (void *)return_value_gtk_widget_ref$797, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$798;
-  return_value_g_type_check_instance_cast$798=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$799;
-  return_value_gtk_widget_ref$799=gtk_widget_ref(create_winMain$$1$$lblCCRVal);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$798, "lblCCRVal", (void *)return_value_gtk_widget_ref$799, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$800;
-  return_value_g_type_check_instance_cast$800=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$801;
-  return_value_gtk_widget_ref$801=gtk_widget_ref(create_winMain$$1$$progCCL);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$800, "progCCL", (void *)return_value_gtk_widget_ref$801, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$802;
-  return_value_g_type_check_instance_cast$802=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$803;
-  return_value_gtk_widget_ref$803=gtk_widget_ref(create_winMain$$1$$progCCR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$802, "progCCR", (void *)return_value_gtk_widget_ref$803, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$804;
-  return_value_g_type_check_instance_cast$804=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$805;
-  return_value_gtk_widget_ref$805=gtk_widget_ref(create_winMain$$1$$evCCR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$804, "evCCR", (void *)return_value_gtk_widget_ref$805, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$806;
-  return_value_g_type_check_instance_cast$806=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$807;
-  return_value_gtk_widget_ref$807=gtk_widget_ref(create_winMain$$1$$lblCCR);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$806, "lblCCR", (void *)return_value_gtk_widget_ref$807, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$808;
-  return_value_g_type_check_instance_cast$808=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$809;
-  return_value_gtk_widget_ref$809=gtk_widget_ref(create_winMain$$1$$evCCL);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$808, "evCCL", (void *)return_value_gtk_widget_ref$809, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$810;
-  return_value_g_type_check_instance_cast$810=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$811;
-  return_value_gtk_widget_ref$811=gtk_widget_ref(create_winMain$$1$$lblCCL);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$810, "lblCCL", (void *)return_value_gtk_widget_ref$811, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$812;
-  return_value_g_type_check_instance_cast$812=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$813;
-  return_value_gtk_widget_ref$813=gtk_widget_ref(lblClassic);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$812, "lblClassic", (void *)return_value_gtk_widget_ref$813, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$814;
-  return_value_g_type_check_instance_cast$814=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$815;
-  return_value_gtk_widget_ref$815=gtk_widget_ref(hbox11);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$814, "hbox11", (void *)return_value_gtk_widget_ref$815, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$816;
-  return_value_g_type_check_instance_cast$816=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$817;
-  return_value_gtk_widget_ref$817=gtk_widget_ref(create_winMain$$1$$statConnection);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$816, "statConnection", (void *)return_value_gtk_widget_ref$817, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$818;
-  return_value_g_type_check_instance_cast$818=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$819;
-  return_value_gtk_widget_ref$819=gtk_widget_ref(create_winMain$$1$$statBattery);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$818, "statBattery", (void *)return_value_gtk_widget_ref$819, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$820;
-  return_value_g_type_check_instance_cast$820=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$821;
-  return_value_gtk_widget_ref$821=gtk_widget_ref(create_winMain$$1$$statExtension);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$820, "statExtension", (void *)return_value_gtk_widget_ref$821, (void (*)(void *))gtk_widget_unref);
-  unsigned long int return_value_gtk_window_get_type$822;
-  return_value_gtk_window_get_type$822=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$823;
-  return_value_g_type_check_instance_cast$823=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain$$1$$winMain, return_value_gtk_window_get_type$822);
-  gtk_window_add_accel_group((struct _GtkWindow *)return_value_g_type_check_instance_cast$823, accel_group);
-  return create_winMain$$1$$winMain;
+  unsigned long int return_value_gtk_box_get_type_447;
+  return_value_gtk_box_get_type_447=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_448;
+  return_value_g_type_check_instance_cast_448=g_type_check_instance_cast((struct _GTypeInstance *)vbox1, return_value_gtk_box_get_type_447);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_448, hbox11, 0, 0, (unsigned int)0);
+  create_winMain__1__statConnection=gtk_statusbar_new();
+  gtk_widget_set_name(create_winMain__1__statConnection, "statConnection");
+  gtk_widget_show(create_winMain__1__statConnection);
+  unsigned long int return_value_gtk_box_get_type_449;
+  return_value_gtk_box_get_type_449=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_450;
+  return_value_g_type_check_instance_cast_450=g_type_check_instance_cast((struct _GTypeInstance *)hbox11, return_value_gtk_box_get_type_449);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_450, create_winMain__1__statConnection, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_statusbar_get_type_451;
+  return_value_gtk_statusbar_get_type_451=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_452;
+  return_value_g_type_check_instance_cast_452=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__statConnection, return_value_gtk_statusbar_get_type_451);
+  gtk_statusbar_set_has_resize_grip((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_452, 0);
+  create_winMain__1__statBattery=gtk_statusbar_new();
+  gtk_widget_set_name(create_winMain__1__statBattery, "statBattery");
+  gtk_widget_show(create_winMain__1__statBattery);
+  unsigned long int return_value_gtk_box_get_type_453;
+  return_value_gtk_box_get_type_453=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_454;
+  return_value_g_type_check_instance_cast_454=g_type_check_instance_cast((struct _GTypeInstance *)hbox11, return_value_gtk_box_get_type_453);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_454, create_winMain__1__statBattery, 0, (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_statusbar_get_type_455;
+  return_value_gtk_statusbar_get_type_455=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_456;
+  return_value_g_type_check_instance_cast_456=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__statBattery, return_value_gtk_statusbar_get_type_455);
+  gtk_statusbar_set_has_resize_grip((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_456, 0);
+  create_winMain__1__statExtension=gtk_statusbar_new();
+  gtk_widget_set_name(create_winMain__1__statExtension, "statExtension");
+  gtk_widget_show(create_winMain__1__statExtension);
+  unsigned long int return_value_gtk_box_get_type_457;
+  return_value_gtk_box_get_type_457=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_458;
+  return_value_g_type_check_instance_cast_458=g_type_check_instance_cast((struct _GTypeInstance *)hbox11, return_value_gtk_box_get_type_457);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_458, create_winMain__1__statExtension, 0, (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_statusbar_get_type_459;
+  return_value_gtk_statusbar_get_type_459=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_460;
+  return_value_g_type_check_instance_cast_460=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__statExtension, return_value_gtk_statusbar_get_type_459);
+  gtk_statusbar_set_has_resize_grip((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_460, 0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_461;
+  return_value_g_type_check_instance_cast_461=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast_461, "winMain", (void *)create_winMain__1__winMain);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_462;
+  return_value_g_type_check_instance_cast_462=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_463;
+  return_value_gtk_widget_ref_463=gtk_widget_ref(vbox1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_462, "vbox1", (void *)return_value_gtk_widget_ref_463, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_464;
+  return_value_g_type_check_instance_cast_464=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_465;
+  return_value_gtk_widget_ref_465=gtk_widget_ref(menubar1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_464, "menubar1", (void *)return_value_gtk_widget_ref_465, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_466;
+  return_value_g_type_check_instance_cast_466=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_467;
+  return_value_gtk_widget_ref_467=gtk_widget_ref(menuitem1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_466, "menuitem1", (void *)return_value_gtk_widget_ref_467, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_468;
+  return_value_g_type_check_instance_cast_468=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_469;
+  return_value_gtk_widget_ref_469=gtk_widget_ref(menuitem1_menu);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_468, "menuitem1_menu", (void *)return_value_gtk_widget_ref_469, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_470;
+  return_value_g_type_check_instance_cast_470=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_471;
+  return_value_gtk_widget_ref_471=gtk_widget_ref(create_winMain__1__menuConnect);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_470, "menuConnect", (void *)return_value_gtk_widget_ref_471, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_472;
+  return_value_g_type_check_instance_cast_472=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_473;
+  return_value_gtk_widget_ref_473=gtk_widget_ref(image27);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_472, "image27", (void *)return_value_gtk_widget_ref_473, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_474;
+  return_value_g_type_check_instance_cast_474=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_475;
+  return_value_gtk_widget_ref_475=gtk_widget_ref(create_winMain__1__menuDisconnect);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_474, "menuDisconnect", (void *)return_value_gtk_widget_ref_475, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_476;
+  return_value_g_type_check_instance_cast_476=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_477;
+  return_value_gtk_widget_ref_477=gtk_widget_ref(image28);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_476, "image28", (void *)return_value_gtk_widget_ref_477, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_478;
+  return_value_g_type_check_instance_cast_478=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_479;
+  return_value_gtk_widget_ref_479=gtk_widget_ref(separatormenuitem1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_478, "separatormenuitem1", (void *)return_value_gtk_widget_ref_479, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_480;
+  return_value_g_type_check_instance_cast_480=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_481;
+  return_value_gtk_widget_ref_481=gtk_widget_ref(create_winMain__1__menuQuit);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_480, "menuQuit", (void *)return_value_gtk_widget_ref_481, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_482;
+  return_value_g_type_check_instance_cast_482=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_483;
+  return_value_gtk_widget_ref_483=gtk_widget_ref(image29);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_482, "image29", (void *)return_value_gtk_widget_ref_483, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_484;
+  return_value_g_type_check_instance_cast_484=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_485;
+  return_value_gtk_widget_ref_485=gtk_widget_ref(menuSettings);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_484, "menuSettings", (void *)return_value_gtk_widget_ref_485, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_486;
+  return_value_g_type_check_instance_cast_486=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_487;
+  return_value_gtk_widget_ref_487=gtk_widget_ref(menuSettings_menu);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_486, "menuSettings_menu", (void *)return_value_gtk_widget_ref_487, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_488;
+  return_value_g_type_check_instance_cast_488=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_489;
+  return_value_gtk_widget_ref_489=gtk_widget_ref(create_winMain__1__chkAcc);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_488, "chkAcc", (void *)return_value_gtk_widget_ref_489, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_490;
+  return_value_g_type_check_instance_cast_490=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_491;
+  return_value_gtk_widget_ref_491=gtk_widget_ref(create_winMain__1__chkIR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_490, "chkIR", (void *)return_value_gtk_widget_ref_491, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_492;
+  return_value_g_type_check_instance_cast_492=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_493;
+  return_value_gtk_widget_ref_493=gtk_widget_ref(create_winMain__1__chkExt);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_492, "chkExt", (void *)return_value_gtk_widget_ref_493, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_494;
+  return_value_g_type_check_instance_cast_494=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_495;
+  return_value_gtk_widget_ref_495=gtk_widget_ref(menuControls);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_494, "menuControls", (void *)return_value_gtk_widget_ref_495, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_496;
+  return_value_g_type_check_instance_cast_496=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_497;
+  return_value_gtk_widget_ref_497=gtk_widget_ref(menuControls_menu);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_496, "menuControls_menu", (void *)return_value_gtk_widget_ref_497, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_498;
+  return_value_g_type_check_instance_cast_498=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_499;
+  return_value_gtk_widget_ref_499=gtk_widget_ref(create_winMain__1__chkLED1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_498, "chkLED1", (void *)return_value_gtk_widget_ref_499, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_500;
+  return_value_g_type_check_instance_cast_500=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_501;
+  return_value_gtk_widget_ref_501=gtk_widget_ref(create_winMain__1__chkLED2);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_500, "chkLED2", (void *)return_value_gtk_widget_ref_501, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_502;
+  return_value_g_type_check_instance_cast_502=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_503;
+  return_value_gtk_widget_ref_503=gtk_widget_ref(create_winMain__1__chkLED3);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_502, "chkLED3", (void *)return_value_gtk_widget_ref_503, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_504;
+  return_value_g_type_check_instance_cast_504=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_505;
+  return_value_gtk_widget_ref_505=gtk_widget_ref(create_winMain__1__chkLED4);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_504, "chkLED4", (void *)return_value_gtk_widget_ref_505, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_506;
+  return_value_g_type_check_instance_cast_506=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_507;
+  return_value_gtk_widget_ref_507=gtk_widget_ref(separator1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_506, "separator1", (void *)return_value_gtk_widget_ref_507, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_508;
+  return_value_g_type_check_instance_cast_508=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_509;
+  return_value_gtk_widget_ref_509=gtk_widget_ref(create_winMain__1__chkRumble);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_508, "chkRumble", (void *)return_value_gtk_widget_ref_509, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_510;
+  return_value_g_type_check_instance_cast_510=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_511;
+  return_value_gtk_widget_ref_511=gtk_widget_ref(menuView);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_510, "menuView", (void *)return_value_gtk_widget_ref_511, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_512;
+  return_value_g_type_check_instance_cast_512=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_513;
+  return_value_gtk_widget_ref_513=gtk_widget_ref(menuView_menu);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_512, "menuView_menu", (void *)return_value_gtk_widget_ref_513, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_514;
+  return_value_g_type_check_instance_cast_514=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_515;
+  return_value_gtk_widget_ref_515=gtk_widget_ref(create_winMain__1__menuRW);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_514, "menuRW", (void *)return_value_gtk_widget_ref_515, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_516;
+  return_value_g_type_check_instance_cast_516=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_517;
+  return_value_gtk_widget_ref_517=gtk_widget_ref(menuHelp);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_516, "menuHelp", (void *)return_value_gtk_widget_ref_517, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_518;
+  return_value_g_type_check_instance_cast_518=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_519;
+  return_value_gtk_widget_ref_519=gtk_widget_ref(menuHelp_menu);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_518, "menuHelp_menu", (void *)return_value_gtk_widget_ref_519, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_520;
+  return_value_g_type_check_instance_cast_520=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_521;
+  return_value_gtk_widget_ref_521=gtk_widget_ref(create_winMain__1__menuAbout);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_520, "menuAbout", (void *)return_value_gtk_widget_ref_521, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_522;
+  return_value_g_type_check_instance_cast_522=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_523;
+  return_value_gtk_widget_ref_523=gtk_widget_ref(hbox1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_522, "hbox1", (void *)return_value_gtk_widget_ref_523, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_524;
+  return_value_g_type_check_instance_cast_524=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_525;
+  return_value_gtk_widget_ref_525=gtk_widget_ref(frame1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_524, "frame1", (void *)return_value_gtk_widget_ref_525, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_526;
+  return_value_g_type_check_instance_cast_526=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_527;
+  return_value_gtk_widget_ref_527=gtk_widget_ref(alignment1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_526, "alignment1", (void *)return_value_gtk_widget_ref_527, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_528;
+  return_value_g_type_check_instance_cast_528=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_529;
+  return_value_gtk_widget_ref_529=gtk_widget_ref(table1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_528, "table1", (void *)return_value_gtk_widget_ref_529, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_530;
+  return_value_g_type_check_instance_cast_530=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_531;
+  return_value_gtk_widget_ref_531=gtk_widget_ref(alignment3);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_530, "alignment3", (void *)return_value_gtk_widget_ref_531, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_532;
+  return_value_g_type_check_instance_cast_532=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_533;
+  return_value_gtk_widget_ref_533=gtk_widget_ref(create_winMain__1__evUp);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_532, "evUp", (void *)return_value_gtk_widget_ref_533, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_534;
+  return_value_g_type_check_instance_cast_534=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_535;
+  return_value_gtk_widget_ref_535=gtk_widget_ref(create_winMain__1__lblUp);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_534, "lblUp", (void *)return_value_gtk_widget_ref_535, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_536;
+  return_value_g_type_check_instance_cast_536=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_537;
+  return_value_gtk_widget_ref_537=gtk_widget_ref(alignment4);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_536, "alignment4", (void *)return_value_gtk_widget_ref_537, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_538;
+  return_value_g_type_check_instance_cast_538=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_539;
+  return_value_gtk_widget_ref_539=gtk_widget_ref(create_winMain__1__evLeft);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_538, "evLeft", (void *)return_value_gtk_widget_ref_539, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_540;
+  return_value_g_type_check_instance_cast_540=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_541;
+  return_value_gtk_widget_ref_541=gtk_widget_ref(create_winMain__1__lblLeft);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_540, "lblLeft", (void *)return_value_gtk_widget_ref_541, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_542;
+  return_value_g_type_check_instance_cast_542=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_543;
+  return_value_gtk_widget_ref_543=gtk_widget_ref(alignment5);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_542, "alignment5", (void *)return_value_gtk_widget_ref_543, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_544;
+  return_value_g_type_check_instance_cast_544=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_545;
+  return_value_gtk_widget_ref_545=gtk_widget_ref(create_winMain__1__evRight);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_544, "evRight", (void *)return_value_gtk_widget_ref_545, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_546;
+  return_value_g_type_check_instance_cast_546=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_547;
+  return_value_gtk_widget_ref_547=gtk_widget_ref(create_winMain__1__lblRight);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_546, "lblRight", (void *)return_value_gtk_widget_ref_547, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_548;
+  return_value_g_type_check_instance_cast_548=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_549;
+  return_value_gtk_widget_ref_549=gtk_widget_ref(alignment6);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_548, "alignment6", (void *)return_value_gtk_widget_ref_549, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_550;
+  return_value_g_type_check_instance_cast_550=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_551;
+  return_value_gtk_widget_ref_551=gtk_widget_ref(create_winMain__1__evDown);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_550, "evDown", (void *)return_value_gtk_widget_ref_551, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_552;
+  return_value_g_type_check_instance_cast_552=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_553;
+  return_value_gtk_widget_ref_553=gtk_widget_ref(create_winMain__1__lblDown);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_552, "lblDown", (void *)return_value_gtk_widget_ref_553, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_554;
+  return_value_g_type_check_instance_cast_554=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_555;
+  return_value_gtk_widget_ref_555=gtk_widget_ref(alignment7);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_554, "alignment7", (void *)return_value_gtk_widget_ref_555, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_556;
+  return_value_g_type_check_instance_cast_556=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_557;
+  return_value_gtk_widget_ref_557=gtk_widget_ref(create_winMain__1__evA);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_556, "evA", (void *)return_value_gtk_widget_ref_557, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_558;
+  return_value_g_type_check_instance_cast_558=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_559;
+  return_value_gtk_widget_ref_559=gtk_widget_ref(create_winMain__1__lblA);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_558, "lblA", (void *)return_value_gtk_widget_ref_559, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_560;
+  return_value_g_type_check_instance_cast_560=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_561;
+  return_value_gtk_widget_ref_561=gtk_widget_ref(alignment9);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_560, "alignment9", (void *)return_value_gtk_widget_ref_561, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_562;
+  return_value_g_type_check_instance_cast_562=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_563;
+  return_value_gtk_widget_ref_563=gtk_widget_ref(create_winMain__1__evB);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_562, "evB", (void *)return_value_gtk_widget_ref_563, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_564;
+  return_value_g_type_check_instance_cast_564=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_565;
+  return_value_gtk_widget_ref_565=gtk_widget_ref(create_winMain__1__lblB);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_564, "lblB", (void *)return_value_gtk_widget_ref_565, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_566;
+  return_value_g_type_check_instance_cast_566=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_567;
+  return_value_gtk_widget_ref_567=gtk_widget_ref(alignment10);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_566, "alignment10", (void *)return_value_gtk_widget_ref_567, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_568;
+  return_value_g_type_check_instance_cast_568=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_569;
+  return_value_gtk_widget_ref_569=gtk_widget_ref(create_winMain__1__evMinus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_568, "evMinus", (void *)return_value_gtk_widget_ref_569, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_570;
+  return_value_g_type_check_instance_cast_570=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_571;
+  return_value_gtk_widget_ref_571=gtk_widget_ref(create_winMain__1__lblMinus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_570, "lblMinus", (void *)return_value_gtk_widget_ref_571, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_572;
+  return_value_g_type_check_instance_cast_572=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_573;
+  return_value_gtk_widget_ref_573=gtk_widget_ref(alignment11);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_572, "alignment11", (void *)return_value_gtk_widget_ref_573, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_574;
+  return_value_g_type_check_instance_cast_574=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_575;
+  return_value_gtk_widget_ref_575=gtk_widget_ref(create_winMain__1__evHome);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_574, "evHome", (void *)return_value_gtk_widget_ref_575, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_576;
+  return_value_g_type_check_instance_cast_576=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_577;
+  return_value_gtk_widget_ref_577=gtk_widget_ref(create_winMain__1__lblHome);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_576, "lblHome", (void *)return_value_gtk_widget_ref_577, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_578;
+  return_value_g_type_check_instance_cast_578=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_579;
+  return_value_gtk_widget_ref_579=gtk_widget_ref(alignment12);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_578, "alignment12", (void *)return_value_gtk_widget_ref_579, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_580;
+  return_value_g_type_check_instance_cast_580=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_581;
+  return_value_gtk_widget_ref_581=gtk_widget_ref(create_winMain__1__evPlus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_580, "evPlus", (void *)return_value_gtk_widget_ref_581, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_582;
+  return_value_g_type_check_instance_cast_582=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_583;
+  return_value_gtk_widget_ref_583=gtk_widget_ref(create_winMain__1__lblPlus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_582, "lblPlus", (void *)return_value_gtk_widget_ref_583, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_584;
+  return_value_g_type_check_instance_cast_584=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_585;
+  return_value_gtk_widget_ref_585=gtk_widget_ref(alignment13);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_584, "alignment13", (void *)return_value_gtk_widget_ref_585, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_586;
+  return_value_g_type_check_instance_cast_586=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_587;
+  return_value_gtk_widget_ref_587=gtk_widget_ref(create_winMain__1__ev1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_586, "ev1", (void *)return_value_gtk_widget_ref_587, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_588;
+  return_value_g_type_check_instance_cast_588=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_589;
+  return_value_gtk_widget_ref_589=gtk_widget_ref(create_winMain__1__lbl1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_588, "lbl1", (void *)return_value_gtk_widget_ref_589, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_590;
+  return_value_g_type_check_instance_cast_590=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_591;
+  return_value_gtk_widget_ref_591=gtk_widget_ref(alignment14);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_590, "alignment14", (void *)return_value_gtk_widget_ref_591, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_592;
+  return_value_g_type_check_instance_cast_592=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_593;
+  return_value_gtk_widget_ref_593=gtk_widget_ref(create_winMain__1__ev2);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_592, "ev2", (void *)return_value_gtk_widget_ref_593, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_594;
+  return_value_g_type_check_instance_cast_594=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_595;
+  return_value_gtk_widget_ref_595=gtk_widget_ref(create_winMain__1__lbl2);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_594, "lbl2", (void *)return_value_gtk_widget_ref_595, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_596;
+  return_value_g_type_check_instance_cast_596=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_597;
+  return_value_gtk_widget_ref_597=gtk_widget_ref(label1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_596, "label1", (void *)return_value_gtk_widget_ref_597, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_598;
+  return_value_g_type_check_instance_cast_598=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_599;
+  return_value_gtk_widget_ref_599=gtk_widget_ref(frame2);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_598, "frame2", (void *)return_value_gtk_widget_ref_599, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_600;
+  return_value_g_type_check_instance_cast_600=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_601;
+  return_value_gtk_widget_ref_601=gtk_widget_ref(alignment2);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_600, "alignment2", (void *)return_value_gtk_widget_ref_601, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_602;
+  return_value_g_type_check_instance_cast_602=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_603;
+  return_value_gtk_widget_ref_603=gtk_widget_ref(hbox2);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_602, "hbox2", (void *)return_value_gtk_widget_ref_603, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_604;
+  return_value_g_type_check_instance_cast_604=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_605;
+  return_value_gtk_widget_ref_605=gtk_widget_ref(table4);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_604, "table4", (void *)return_value_gtk_widget_ref_605, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_606;
+  return_value_g_type_check_instance_cast_606=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_607;
+  return_value_gtk_widget_ref_607=gtk_widget_ref(create_winMain__1__progAccX);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_606, "progAccX", (void *)return_value_gtk_widget_ref_607, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_608;
+  return_value_g_type_check_instance_cast_608=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_609;
+  return_value_gtk_widget_ref_609=gtk_widget_ref(create_winMain__1__progAccY);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_608, "progAccY", (void *)return_value_gtk_widget_ref_609, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_610;
+  return_value_g_type_check_instance_cast_610=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_611;
+  return_value_gtk_widget_ref_611=gtk_widget_ref(create_winMain__1__progAccZ);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_610, "progAccZ", (void *)return_value_gtk_widget_ref_611, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_612;
+  return_value_g_type_check_instance_cast_612=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_613;
+  return_value_gtk_widget_ref_613=gtk_widget_ref(create_winMain__1__lblAccX);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_612, "lblAccX", (void *)return_value_gtk_widget_ref_613, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_614;
+  return_value_g_type_check_instance_cast_614=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_615;
+  return_value_gtk_widget_ref_615=gtk_widget_ref(create_winMain__1__lblAccXVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_614, "lblAccXVal", (void *)return_value_gtk_widget_ref_615, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_616;
+  return_value_g_type_check_instance_cast_616=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_617;
+  return_value_gtk_widget_ref_617=gtk_widget_ref(create_winMain__1__lblAccY);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_616, "lblAccY", (void *)return_value_gtk_widget_ref_617, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_618;
+  return_value_g_type_check_instance_cast_618=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_619;
+  return_value_gtk_widget_ref_619=gtk_widget_ref(create_winMain__1__lblAccYVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_618, "lblAccYVal", (void *)return_value_gtk_widget_ref_619, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_620;
+  return_value_g_type_check_instance_cast_620=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_621;
+  return_value_gtk_widget_ref_621=gtk_widget_ref(create_winMain__1__lblAccZ);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_620, "lblAccZ", (void *)return_value_gtk_widget_ref_621, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_622;
+  return_value_g_type_check_instance_cast_622=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_623;
+  return_value_gtk_widget_ref_623=gtk_widget_ref(create_winMain__1__lblAccZVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_622, "lblAccZVal", (void *)return_value_gtk_widget_ref_623, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_624;
+  return_value_g_type_check_instance_cast_624=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_625;
+  return_value_gtk_widget_ref_625=gtk_widget_ref(create_winMain__1__lblPitch);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_624, "lblPitch", (void *)return_value_gtk_widget_ref_625, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_626;
+  return_value_g_type_check_instance_cast_626=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_627;
+  return_value_gtk_widget_ref_627=gtk_widget_ref(create_winMain__1__lblPitchVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_626, "lblPitchVal", (void *)return_value_gtk_widget_ref_627, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_628;
+  return_value_g_type_check_instance_cast_628=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_629;
+  return_value_gtk_widget_ref_629=gtk_widget_ref(create_winMain__1__lblRoll);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_628, "lblRoll", (void *)return_value_gtk_widget_ref_629, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_630;
+  return_value_g_type_check_instance_cast_630=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_631;
+  return_value_gtk_widget_ref_631=gtk_widget_ref(create_winMain__1__lblRollVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_630, "lblRollVal", (void *)return_value_gtk_widget_ref_631, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_632;
+  return_value_g_type_check_instance_cast_632=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_633;
+  return_value_gtk_widget_ref_633=gtk_widget_ref(create_winMain__1__lblAcc);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_632, "lblAcc", (void *)return_value_gtk_widget_ref_633, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_634;
+  return_value_g_type_check_instance_cast_634=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_635;
+  return_value_gtk_widget_ref_635=gtk_widget_ref(create_winMain__1__lblAccVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_634, "lblAccVal", (void *)return_value_gtk_widget_ref_635, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_636;
+  return_value_g_type_check_instance_cast_636=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_637;
+  return_value_gtk_widget_ref_637=gtk_widget_ref(create_winMain__1__btnBeep);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_636, "btnBeep", (void *)return_value_gtk_widget_ref_637, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_638;
+  return_value_g_type_check_instance_cast_638=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_639;
+  return_value_gtk_widget_ref_639=gtk_widget_ref(frame3);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_638, "frame3", (void *)return_value_gtk_widget_ref_639, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_640;
+  return_value_g_type_check_instance_cast_640=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_641;
+  return_value_gtk_widget_ref_641=gtk_widget_ref(create_winMain__1__drawIR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_640, "drawIR", (void *)return_value_gtk_widget_ref_641, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_642;
+  return_value_g_type_check_instance_cast_642=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_643;
+  return_value_gtk_widget_ref_643=gtk_widget_ref(create_winMain__1__lblIR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_642, "lblIR", (void *)return_value_gtk_widget_ref_643, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_644;
+  return_value_g_type_check_instance_cast_644=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_645;
+  return_value_gtk_widget_ref_645=gtk_widget_ref(label2);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_644, "label2", (void *)return_value_gtk_widget_ref_645, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_646;
+  return_value_g_type_check_instance_cast_646=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_647;
+  return_value_gtk_widget_ref_647=gtk_widget_ref(hbox10);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_646, "hbox10", (void *)return_value_gtk_widget_ref_647, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_648;
+  return_value_g_type_check_instance_cast_648=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_649;
+  return_value_gtk_widget_ref_649=gtk_widget_ref(frame4);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_648, "frame4", (void *)return_value_gtk_widget_ref_649, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_650;
+  return_value_g_type_check_instance_cast_650=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_651;
+  return_value_gtk_widget_ref_651=gtk_widget_ref(alignment28);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_650, "alignment28", (void *)return_value_gtk_widget_ref_651, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_652;
+  return_value_g_type_check_instance_cast_652=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_653;
+  return_value_gtk_widget_ref_653=gtk_widget_ref(hbox12);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_652, "hbox12", (void *)return_value_gtk_widget_ref_653, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_654;
+  return_value_g_type_check_instance_cast_654=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_655;
+  return_value_gtk_widget_ref_655=gtk_widget_ref(vbox4);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_654, "vbox4", (void *)return_value_gtk_widget_ref_655, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_656;
+  return_value_g_type_check_instance_cast_656=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_657;
+  return_value_gtk_widget_ref_657=gtk_widget_ref(create_winMain__1__drawNCStick);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_656, "drawNCStick", (void *)return_value_gtk_widget_ref_657, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_658;
+  return_value_g_type_check_instance_cast_658=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_659;
+  return_value_gtk_widget_ref_659=gtk_widget_ref(hbox13);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_658, "hbox13", (void *)return_value_gtk_widget_ref_659, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_660;
+  return_value_g_type_check_instance_cast_660=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_661;
+  return_value_gtk_widget_ref_661=gtk_widget_ref(create_winMain__1__evNCC);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_660, "evNCC", (void *)return_value_gtk_widget_ref_661, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_662;
+  return_value_g_type_check_instance_cast_662=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_663;
+  return_value_gtk_widget_ref_663=gtk_widget_ref(create_winMain__1__lblNCC);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_662, "lblNCC", (void *)return_value_gtk_widget_ref_663, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_664;
+  return_value_g_type_check_instance_cast_664=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_665;
+  return_value_gtk_widget_ref_665=gtk_widget_ref(create_winMain__1__evNCZ);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_664, "evNCZ", (void *)return_value_gtk_widget_ref_665, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_666;
+  return_value_g_type_check_instance_cast_666=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_667;
+  return_value_gtk_widget_ref_667=gtk_widget_ref(create_winMain__1__lblNCZ);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_666, "lblNCZ", (void *)return_value_gtk_widget_ref_667, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_668;
+  return_value_g_type_check_instance_cast_668=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_669;
+  return_value_gtk_widget_ref_669=gtk_widget_ref(table8);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_668, "table8", (void *)return_value_gtk_widget_ref_669, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_670;
+  return_value_g_type_check_instance_cast_670=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_671;
+  return_value_gtk_widget_ref_671=gtk_widget_ref(create_winMain__1__lblNCAccX);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_670, "lblNCAccX", (void *)return_value_gtk_widget_ref_671, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_672;
+  return_value_g_type_check_instance_cast_672=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_673;
+  return_value_gtk_widget_ref_673=gtk_widget_ref(create_winMain__1__lblNCAccY);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_672, "lblNCAccY", (void *)return_value_gtk_widget_ref_673, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_674;
+  return_value_g_type_check_instance_cast_674=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_675;
+  return_value_gtk_widget_ref_675=gtk_widget_ref(create_winMain__1__lblNCAccZ);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_674, "lblNCAccZ", (void *)return_value_gtk_widget_ref_675, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_676;
+  return_value_g_type_check_instance_cast_676=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_677;
+  return_value_gtk_widget_ref_677=gtk_widget_ref(create_winMain__1__lblNCAcc);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_676, "lblNCAcc", (void *)return_value_gtk_widget_ref_677, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_678;
+  return_value_g_type_check_instance_cast_678=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_679;
+  return_value_gtk_widget_ref_679=gtk_widget_ref(create_winMain__1__lblNCRoll);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_678, "lblNCRoll", (void *)return_value_gtk_widget_ref_679, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_680;
+  return_value_g_type_check_instance_cast_680=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_681;
+  return_value_gtk_widget_ref_681=gtk_widget_ref(create_winMain__1__lblNCPitch);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_680, "lblNCPitch", (void *)return_value_gtk_widget_ref_681, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_682;
+  return_value_g_type_check_instance_cast_682=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_683;
+  return_value_gtk_widget_ref_683=gtk_widget_ref(create_winMain__1__lblNCAccXVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_682, "lblNCAccXVal", (void *)return_value_gtk_widget_ref_683, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_684;
+  return_value_g_type_check_instance_cast_684=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_685;
+  return_value_gtk_widget_ref_685=gtk_widget_ref(create_winMain__1__lblNCAccYVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_684, "lblNCAccYVal", (void *)return_value_gtk_widget_ref_685, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_686;
+  return_value_g_type_check_instance_cast_686=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_687;
+  return_value_gtk_widget_ref_687=gtk_widget_ref(create_winMain__1__lblNCAccZVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_686, "lblNCAccZVal", (void *)return_value_gtk_widget_ref_687, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_688;
+  return_value_g_type_check_instance_cast_688=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_689;
+  return_value_gtk_widget_ref_689=gtk_widget_ref(create_winMain__1__lblNCAccVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_688, "lblNCAccVal", (void *)return_value_gtk_widget_ref_689, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_690;
+  return_value_g_type_check_instance_cast_690=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_691;
+  return_value_gtk_widget_ref_691=gtk_widget_ref(create_winMain__1__lblNCRollVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_690, "lblNCRollVal", (void *)return_value_gtk_widget_ref_691, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_692;
+  return_value_g_type_check_instance_cast_692=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_693;
+  return_value_gtk_widget_ref_693=gtk_widget_ref(create_winMain__1__lblNCPitchVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_692, "lblNCPitchVal", (void *)return_value_gtk_widget_ref_693, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_694;
+  return_value_g_type_check_instance_cast_694=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_695;
+  return_value_gtk_widget_ref_695=gtk_widget_ref(create_winMain__1__progNCAccX);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_694, "progNCAccX", (void *)return_value_gtk_widget_ref_695, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_696;
+  return_value_g_type_check_instance_cast_696=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_697;
+  return_value_gtk_widget_ref_697=gtk_widget_ref(create_winMain__1__progNCAccZ);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_696, "progNCAccZ", (void *)return_value_gtk_widget_ref_697, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_698;
+  return_value_g_type_check_instance_cast_698=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_699;
+  return_value_gtk_widget_ref_699=gtk_widget_ref(create_winMain__1__progNCAccY);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_698, "progNCAccY", (void *)return_value_gtk_widget_ref_699, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_700;
+  return_value_g_type_check_instance_cast_700=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_701;
+  return_value_gtk_widget_ref_701=gtk_widget_ref(create_winMain__1__lblNC);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_700, "lblNC", (void *)return_value_gtk_widget_ref_701, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_702;
+  return_value_g_type_check_instance_cast_702=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_703;
+  return_value_gtk_widget_ref_703=gtk_widget_ref(frame5);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_702, "frame5", (void *)return_value_gtk_widget_ref_703, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_704;
+  return_value_g_type_check_instance_cast_704=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_705;
+  return_value_gtk_widget_ref_705=gtk_widget_ref(alignment29);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_704, "alignment29", (void *)return_value_gtk_widget_ref_705, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_706;
+  return_value_g_type_check_instance_cast_706=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_707;
+  return_value_gtk_widget_ref_707=gtk_widget_ref(vbox5);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_706, "vbox5", (void *)return_value_gtk_widget_ref_707, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_708;
+  return_value_g_type_check_instance_cast_708=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_709;
+  return_value_gtk_widget_ref_709=gtk_widget_ref(table9);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_708, "table9", (void *)return_value_gtk_widget_ref_709, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_710;
+  return_value_g_type_check_instance_cast_710=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_711;
+  return_value_gtk_widget_ref_711=gtk_widget_ref(alignment15);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_710, "alignment15", (void *)return_value_gtk_widget_ref_711, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_712;
+  return_value_g_type_check_instance_cast_712=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_713;
+  return_value_gtk_widget_ref_713=gtk_widget_ref(create_winMain__1__evCCLeft);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_712, "evCCLeft", (void *)return_value_gtk_widget_ref_713, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_714;
+  return_value_g_type_check_instance_cast_714=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_715;
+  return_value_gtk_widget_ref_715=gtk_widget_ref(create_winMain__1__lblCCLeft);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_714, "lblCCLeft", (void *)return_value_gtk_widget_ref_715, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_716;
+  return_value_g_type_check_instance_cast_716=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_717;
+  return_value_gtk_widget_ref_717=gtk_widget_ref(alignment16);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_716, "alignment16", (void *)return_value_gtk_widget_ref_717, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_718;
+  return_value_g_type_check_instance_cast_718=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_719;
+  return_value_gtk_widget_ref_719=gtk_widget_ref(create_winMain__1__evCCUp);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_718, "evCCUp", (void *)return_value_gtk_widget_ref_719, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_720;
+  return_value_g_type_check_instance_cast_720=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_721;
+  return_value_gtk_widget_ref_721=gtk_widget_ref(create_winMain__1__lblCCUp);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_720, "lblCCUp", (void *)return_value_gtk_widget_ref_721, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_722;
+  return_value_g_type_check_instance_cast_722=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_723;
+  return_value_gtk_widget_ref_723=gtk_widget_ref(alignment17);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_722, "alignment17", (void *)return_value_gtk_widget_ref_723, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_724;
+  return_value_g_type_check_instance_cast_724=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_725;
+  return_value_gtk_widget_ref_725=gtk_widget_ref(create_winMain__1__evCCDown);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_724, "evCCDown", (void *)return_value_gtk_widget_ref_725, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_726;
+  return_value_g_type_check_instance_cast_726=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_727;
+  return_value_gtk_widget_ref_727=gtk_widget_ref(create_winMain__1__lblCCDown);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_726, "lblCCDown", (void *)return_value_gtk_widget_ref_727, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_728;
+  return_value_g_type_check_instance_cast_728=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_729;
+  return_value_gtk_widget_ref_729=gtk_widget_ref(alignment18);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_728, "alignment18", (void *)return_value_gtk_widget_ref_729, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_730;
+  return_value_g_type_check_instance_cast_730=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_731;
+  return_value_gtk_widget_ref_731=gtk_widget_ref(create_winMain__1__evCCRight);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_730, "evCCRight", (void *)return_value_gtk_widget_ref_731, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_732;
+  return_value_g_type_check_instance_cast_732=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_733;
+  return_value_gtk_widget_ref_733=gtk_widget_ref(create_winMain__1__lblCCRight);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_732, "lblCCRight", (void *)return_value_gtk_widget_ref_733, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_734;
+  return_value_g_type_check_instance_cast_734=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_735;
+  return_value_gtk_widget_ref_735=gtk_widget_ref(alignment19);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_734, "alignment19", (void *)return_value_gtk_widget_ref_735, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_736;
+  return_value_g_type_check_instance_cast_736=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_737;
+  return_value_gtk_widget_ref_737=gtk_widget_ref(create_winMain__1__evCCMinus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_736, "evCCMinus", (void *)return_value_gtk_widget_ref_737, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_738;
+  return_value_g_type_check_instance_cast_738=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_739;
+  return_value_gtk_widget_ref_739=gtk_widget_ref(create_winMain__1__lblCCMinus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_738, "lblCCMinus", (void *)return_value_gtk_widget_ref_739, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_740;
+  return_value_g_type_check_instance_cast_740=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_741;
+  return_value_gtk_widget_ref_741=gtk_widget_ref(alignment20);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_740, "alignment20", (void *)return_value_gtk_widget_ref_741, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_742;
+  return_value_g_type_check_instance_cast_742=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_743;
+  return_value_gtk_widget_ref_743=gtk_widget_ref(create_winMain__1__evCCHome);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_742, "evCCHome", (void *)return_value_gtk_widget_ref_743, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_744;
+  return_value_g_type_check_instance_cast_744=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_745;
+  return_value_gtk_widget_ref_745=gtk_widget_ref(create_winMain__1__lblCCHome);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_744, "lblCCHome", (void *)return_value_gtk_widget_ref_745, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_746;
+  return_value_g_type_check_instance_cast_746=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_747;
+  return_value_gtk_widget_ref_747=gtk_widget_ref(alignment21);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_746, "alignment21", (void *)return_value_gtk_widget_ref_747, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_748;
+  return_value_g_type_check_instance_cast_748=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_749;
+  return_value_gtk_widget_ref_749=gtk_widget_ref(create_winMain__1__evCCPlus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_748, "evCCPlus", (void *)return_value_gtk_widget_ref_749, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_750;
+  return_value_g_type_check_instance_cast_750=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_751;
+  return_value_gtk_widget_ref_751=gtk_widget_ref(create_winMain__1__lblCCPlus);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_750, "lblCCPlus", (void *)return_value_gtk_widget_ref_751, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_752;
+  return_value_g_type_check_instance_cast_752=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_753;
+  return_value_gtk_widget_ref_753=gtk_widget_ref(alignment22);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_752, "alignment22", (void *)return_value_gtk_widget_ref_753, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_754;
+  return_value_g_type_check_instance_cast_754=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_755;
+  return_value_gtk_widget_ref_755=gtk_widget_ref(create_winMain__1__evCCZL);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_754, "evCCZL", (void *)return_value_gtk_widget_ref_755, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_756;
+  return_value_g_type_check_instance_cast_756=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_757;
+  return_value_gtk_widget_ref_757=gtk_widget_ref(create_winMain__1__lblCCZL);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_756, "lblCCZL", (void *)return_value_gtk_widget_ref_757, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_758;
+  return_value_g_type_check_instance_cast_758=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_759;
+  return_value_gtk_widget_ref_759=gtk_widget_ref(alignment23);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_758, "alignment23", (void *)return_value_gtk_widget_ref_759, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_760;
+  return_value_g_type_check_instance_cast_760=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_761;
+  return_value_gtk_widget_ref_761=gtk_widget_ref(create_winMain__1__evCCZR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_760, "evCCZR", (void *)return_value_gtk_widget_ref_761, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_762;
+  return_value_g_type_check_instance_cast_762=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_763;
+  return_value_gtk_widget_ref_763=gtk_widget_ref(create_winMain__1__lblCCZR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_762, "lblCCZR", (void *)return_value_gtk_widget_ref_763, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_764;
+  return_value_g_type_check_instance_cast_764=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_765;
+  return_value_gtk_widget_ref_765=gtk_widget_ref(alignment24);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_764, "alignment24", (void *)return_value_gtk_widget_ref_765, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_766;
+  return_value_g_type_check_instance_cast_766=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_767;
+  return_value_gtk_widget_ref_767=gtk_widget_ref(create_winMain__1__evCCX);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_766, "evCCX", (void *)return_value_gtk_widget_ref_767, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_768;
+  return_value_g_type_check_instance_cast_768=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_769;
+  return_value_gtk_widget_ref_769=gtk_widget_ref(create_winMain__1__lblCCX);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_768, "lblCCX", (void *)return_value_gtk_widget_ref_769, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_770;
+  return_value_g_type_check_instance_cast_770=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_771;
+  return_value_gtk_widget_ref_771=gtk_widget_ref(alignment25);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_770, "alignment25", (void *)return_value_gtk_widget_ref_771, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_772;
+  return_value_g_type_check_instance_cast_772=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_773;
+  return_value_gtk_widget_ref_773=gtk_widget_ref(create_winMain__1__evCCY);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_772, "evCCY", (void *)return_value_gtk_widget_ref_773, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_774;
+  return_value_g_type_check_instance_cast_774=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_775;
+  return_value_gtk_widget_ref_775=gtk_widget_ref(create_winMain__1__lblCCY);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_774, "lblCCY", (void *)return_value_gtk_widget_ref_775, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_776;
+  return_value_g_type_check_instance_cast_776=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_777;
+  return_value_gtk_widget_ref_777=gtk_widget_ref(alignment26);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_776, "alignment26", (void *)return_value_gtk_widget_ref_777, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_778;
+  return_value_g_type_check_instance_cast_778=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_779;
+  return_value_gtk_widget_ref_779=gtk_widget_ref(create_winMain__1__evCCB);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_778, "evCCB", (void *)return_value_gtk_widget_ref_779, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_780;
+  return_value_g_type_check_instance_cast_780=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_781;
+  return_value_gtk_widget_ref_781=gtk_widget_ref(create_winMain__1__lblCCB);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_780, "lblCCB", (void *)return_value_gtk_widget_ref_781, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_782;
+  return_value_g_type_check_instance_cast_782=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_783;
+  return_value_gtk_widget_ref_783=gtk_widget_ref(alignment27);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_782, "alignment27", (void *)return_value_gtk_widget_ref_783, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_784;
+  return_value_g_type_check_instance_cast_784=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_785;
+  return_value_gtk_widget_ref_785=gtk_widget_ref(create_winMain__1__evCCA);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_784, "evCCA", (void *)return_value_gtk_widget_ref_785, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_786;
+  return_value_g_type_check_instance_cast_786=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_787;
+  return_value_gtk_widget_ref_787=gtk_widget_ref(create_winMain__1__lblCCA);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_786, "lblCCA", (void *)return_value_gtk_widget_ref_787, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_788;
+  return_value_g_type_check_instance_cast_788=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_789;
+  return_value_gtk_widget_ref_789=gtk_widget_ref(hbox15);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_788, "hbox15", (void *)return_value_gtk_widget_ref_789, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_790;
+  return_value_g_type_check_instance_cast_790=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_791;
+  return_value_gtk_widget_ref_791=gtk_widget_ref(create_winMain__1__drawCCLStick);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_790, "drawCCLStick", (void *)return_value_gtk_widget_ref_791, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_792;
+  return_value_g_type_check_instance_cast_792=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_793;
+  return_value_gtk_widget_ref_793=gtk_widget_ref(create_winMain__1__drawCCRStick);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_792, "drawCCRStick", (void *)return_value_gtk_widget_ref_793, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_794;
+  return_value_g_type_check_instance_cast_794=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_795;
+  return_value_gtk_widget_ref_795=gtk_widget_ref(table10);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_794, "table10", (void *)return_value_gtk_widget_ref_795, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_796;
+  return_value_g_type_check_instance_cast_796=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_797;
+  return_value_gtk_widget_ref_797=gtk_widget_ref(create_winMain__1__lblCCLVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_796, "lblCCLVal", (void *)return_value_gtk_widget_ref_797, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_798;
+  return_value_g_type_check_instance_cast_798=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_799;
+  return_value_gtk_widget_ref_799=gtk_widget_ref(create_winMain__1__lblCCRVal);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_798, "lblCCRVal", (void *)return_value_gtk_widget_ref_799, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_800;
+  return_value_g_type_check_instance_cast_800=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_801;
+  return_value_gtk_widget_ref_801=gtk_widget_ref(create_winMain__1__progCCL);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_800, "progCCL", (void *)return_value_gtk_widget_ref_801, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_802;
+  return_value_g_type_check_instance_cast_802=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_803;
+  return_value_gtk_widget_ref_803=gtk_widget_ref(create_winMain__1__progCCR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_802, "progCCR", (void *)return_value_gtk_widget_ref_803, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_804;
+  return_value_g_type_check_instance_cast_804=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_805;
+  return_value_gtk_widget_ref_805=gtk_widget_ref(create_winMain__1__evCCR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_804, "evCCR", (void *)return_value_gtk_widget_ref_805, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_806;
+  return_value_g_type_check_instance_cast_806=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_807;
+  return_value_gtk_widget_ref_807=gtk_widget_ref(create_winMain__1__lblCCR);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_806, "lblCCR", (void *)return_value_gtk_widget_ref_807, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_808;
+  return_value_g_type_check_instance_cast_808=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_809;
+  return_value_gtk_widget_ref_809=gtk_widget_ref(create_winMain__1__evCCL);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_808, "evCCL", (void *)return_value_gtk_widget_ref_809, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_810;
+  return_value_g_type_check_instance_cast_810=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_811;
+  return_value_gtk_widget_ref_811=gtk_widget_ref(create_winMain__1__lblCCL);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_810, "lblCCL", (void *)return_value_gtk_widget_ref_811, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_812;
+  return_value_g_type_check_instance_cast_812=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_813;
+  return_value_gtk_widget_ref_813=gtk_widget_ref(lblClassic);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_812, "lblClassic", (void *)return_value_gtk_widget_ref_813, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_814;
+  return_value_g_type_check_instance_cast_814=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_815;
+  return_value_gtk_widget_ref_815=gtk_widget_ref(hbox11);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_814, "hbox11", (void *)return_value_gtk_widget_ref_815, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_816;
+  return_value_g_type_check_instance_cast_816=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_817;
+  return_value_gtk_widget_ref_817=gtk_widget_ref(create_winMain__1__statConnection);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_816, "statConnection", (void *)return_value_gtk_widget_ref_817, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_818;
+  return_value_g_type_check_instance_cast_818=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_819;
+  return_value_gtk_widget_ref_819=gtk_widget_ref(create_winMain__1__statBattery);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_818, "statBattery", (void *)return_value_gtk_widget_ref_819, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_820;
+  return_value_g_type_check_instance_cast_820=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_821;
+  return_value_gtk_widget_ref_821=gtk_widget_ref(create_winMain__1__statExtension);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_820, "statExtension", (void *)return_value_gtk_widget_ref_821, (void (*)(void *))gtk_widget_unref);
+  unsigned long int return_value_gtk_window_get_type_822;
+  return_value_gtk_window_get_type_822=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_823;
+  return_value_g_type_check_instance_cast_823=g_type_check_instance_cast((struct _GTypeInstance *)create_winMain__1__winMain, return_value_gtk_window_get_type_822);
+  gtk_window_add_accel_group((struct _GtkWindow *)return_value_g_type_check_instance_cast_823, accel_group);
+  return create_winMain__1__winMain;
 }
 
 // create_winRW
 // file interface.h line 6
 struct _GtkWidget * create_winRW(void)
 {
-  struct _GtkWidget *create_winRW$$1$$winRW;
+  struct _GtkWidget *create_winRW__1__winRW;
   struct _GtkWidget *vbox3;
   struct _GtkWidget *label25;
   struct _GtkWidget *hbox3;
   struct _GtkWidget *table6;
   struct _GtkWidget *label29;
   struct _GtkWidget *label30;
-  struct _GtkWidget *create_winRW$$1$$txtReadOffset;
-  struct _GtkWidget *create_winRW$$1$$txtReadLen;
-  struct _GtkWidget *create_winRW$$1$$radReadEEPROM;
+  struct _GtkWidget *create_winRW__1__txtReadOffset;
+  struct _GtkWidget *create_winRW__1__txtReadLen;
+  struct _GtkWidget *create_winRW__1__radReadEEPROM;
   struct _GSList *radReadEEPROM_group = (struct _GSList *)(void *)0;
-  struct _GtkWidget *create_winRW$$1$$radReadReg;
+  struct _GtkWidget *create_winRW__1__radReadReg;
   struct _GtkWidget *hbox7;
-  struct _GtkWidget *create_winRW$$1$$btnRead;
+  struct _GtkWidget *create_winRW__1__btnRead;
   struct _GtkWidget *hbox4;
   struct _GtkWidget *label31;
   struct _GtkWidget *table7;
   struct _GtkWidget *label33;
   struct _GtkWidget *label34;
-  struct _GtkWidget *create_winRW$$1$$txtWriteOffset;
-  struct _GtkWidget *create_winRW$$1$$txtWriteData;
-  struct _GtkWidget *create_winRW$$1$$radWriteEEPROM;
+  struct _GtkWidget *create_winRW__1__txtWriteOffset;
+  struct _GtkWidget *create_winRW__1__txtWriteData;
+  struct _GtkWidget *create_winRW__1__radWriteEEPROM;
   struct _GSList *radWriteEEPROM_group = (struct _GSList *)(void *)0;
-  struct _GtkWidget *create_winRW$$1$$radWriteReg;
+  struct _GtkWidget *create_winRW__1__radWriteReg;
   struct _GtkWidget *hbox8;
-  struct _GtkWidget *create_winRW$$1$$btnWrite;
+  struct _GtkWidget *create_winRW__1__btnWrite;
   struct _GtkWidget *hbox6;
   struct _GtkWidget *label32;
   struct _GtkWidget *scrolledwindow1;
-  struct _GtkWidget *create_winRW$$1$$tvRW;
+  struct _GtkWidget *create_winRW__1__tvRW;
   struct _GtkWidget *hbox9;
-  struct _GtkWidget *create_winRW$$1$$btnRWClose;
-  create_winRW$$1$$winRW=gtk_window_new((enum anonymous$0)GTK_WINDOW_TOPLEVEL);
-  gtk_widget_set_name(create_winRW$$1$$winRW, "winRW");
-  unsigned long int return_value_gtk_window_get_type$1;
-  return_value_gtk_window_get_type$1=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, return_value_gtk_window_get_type$1);
-  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast$2, "Memory Read/Write");
+  struct _GtkWidget *create_winRW__1__btnRWClose;
+  create_winRW__1__winRW=gtk_window_new((enum anonymous_0)GTK_WINDOW_TOPLEVEL);
+  gtk_widget_set_name(create_winRW__1__winRW, "winRW");
+  unsigned long int return_value_gtk_window_get_type_1;
+  return_value_gtk_window_get_type_1=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, return_value_gtk_window_get_type_1);
+  gtk_window_set_title((struct _GtkWindow *)return_value_g_type_check_instance_cast_2, "Memory Read/Write");
   vbox3=gtk_vbox_new(0, 4);
   gtk_widget_set_name(vbox3, "vbox3");
   gtk_widget_show(vbox3);
-  unsigned long int return_value_gtk_container_get_type$3;
-  return_value_gtk_container_get_type$3=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, return_value_gtk_container_get_type$3);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$4, vbox3);
-  unsigned long int return_value_gtk_container_get_type$5;
-  return_value_gtk_container_get_type$5=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_container_get_type$5);
-  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast$6, (unsigned int)5);
+  unsigned long int return_value_gtk_container_get_type_3;
+  return_value_gtk_container_get_type_3=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, return_value_gtk_container_get_type_3);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_4, vbox3);
+  unsigned long int return_value_gtk_container_get_type_5;
+  return_value_gtk_container_get_type_5=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_container_get_type_5);
+  gtk_container_set_border_width((struct _GtkContainer *)return_value_g_type_check_instance_cast_6, (unsigned int)5);
   label25=gtk_label_new("Note: all values are in hex");
   gtk_widget_set_name(label25, "label25");
   gtk_widget_show(label25);
-  unsigned long int return_value_gtk_box_get_type$7;
-  return_value_gtk_box_get_type$7=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type$7);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$8, label25, 0, 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_7;
+  return_value_gtk_box_get_type_7=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type_7);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_8, label25, 0, 0, (unsigned int)0);
   hbox3=gtk_hbox_new(0, 5);
   gtk_widget_set_name(hbox3, "hbox3");
   gtk_widget_show(hbox3);
-  unsigned long int return_value_gtk_box_get_type$9;
-  return_value_gtk_box_get_type$9=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type$9);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$10, hbox3, 0, (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_9;
+  return_value_gtk_box_get_type_9=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type_9);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_10, hbox3, 0, (signed int)!(0 != 0), (unsigned int)0);
   table6=gtk_table_new((unsigned int)6, (unsigned int)2, 0);
   gtk_widget_set_name(table6, "table6");
   gtk_widget_show(table6);
-  unsigned long int return_value_gtk_box_get_type$11;
-  return_value_gtk_box_get_type$11=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-  return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)hbox3, return_value_gtk_box_get_type$11);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$12, table6, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_table_get_type$13;
-  return_value_gtk_table_get_type$13=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$14;
-  return_value_g_type_check_instance_cast$14=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$13);
-  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast$14, (unsigned int)2);
+  unsigned long int return_value_gtk_box_get_type_11;
+  return_value_gtk_box_get_type_11=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+  return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)hbox3, return_value_gtk_box_get_type_11);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_12, table6, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_13;
+  return_value_gtk_table_get_type_13=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_14;
+  return_value_g_type_check_instance_cast_14=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_13);
+  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast_14, (unsigned int)2);
   label29=gtk_label_new("Offset:");
   gtk_widget_set_name(label29, "label29");
   gtk_widget_show(label29);
-  unsigned long int return_value_gtk_table_get_type$15;
-  return_value_gtk_table_get_type$15=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$16;
-  return_value_g_type_check_instance_cast$16=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$15);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$16, label29, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_misc_get_type$17;
-  return_value_gtk_misc_get_type$17=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-  return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)label29, return_value_gtk_misc_get_type$17);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$18, (float)0, (float)0.5);
+  unsigned long int return_value_gtk_table_get_type_15;
+  return_value_gtk_table_get_type_15=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_16;
+  return_value_g_type_check_instance_cast_16=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_15);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_16, label29, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_misc_get_type_17;
+  return_value_gtk_misc_get_type_17=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+  return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)label29, return_value_gtk_misc_get_type_17);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_18, (float)0, (float)0.5);
   label30=gtk_label_new("Length:");
   gtk_widget_set_name(label30, "label30");
   gtk_widget_show(label30);
-  unsigned long int return_value_gtk_table_get_type$19;
-  return_value_gtk_table_get_type$19=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-  return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$19);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$20, label30, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_misc_get_type$21;
-  return_value_gtk_misc_get_type$21=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-  return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)label30, return_value_gtk_misc_get_type$21);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$22, (float)0, (float)0.5);
-  create_winRW$$1$$txtReadOffset=gtk_entry_new();
-  gtk_widget_set_name(create_winRW$$1$$txtReadOffset, "txtReadOffset");
-  gtk_widget_show(create_winRW$$1$$txtReadOffset);
-  unsigned long int return_value_gtk_table_get_type$23;
-  return_value_gtk_table_get_type$23=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-  return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$23);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$24, create_winRW$$1$$txtReadOffset, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  create_winRW$$1$$txtReadLen=gtk_entry_new();
-  gtk_widget_set_name(create_winRW$$1$$txtReadLen, "txtReadLen");
-  gtk_widget_show(create_winRW$$1$$txtReadLen);
-  unsigned long int return_value_gtk_table_get_type$25;
-  return_value_gtk_table_get_type$25=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$26;
-  return_value_g_type_check_instance_cast$26=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$25);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$26, create_winRW$$1$$txtReadLen, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  create_winRW$$1$$radReadEEPROM=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "EEPROM");
-  gtk_widget_set_name(create_winRW$$1$$radReadEEPROM, "radReadEEPROM");
-  gtk_widget_show(create_winRW$$1$$radReadEEPROM);
-  unsigned long int return_value_gtk_table_get_type$27;
-  return_value_gtk_table_get_type$27=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$28;
-  return_value_g_type_check_instance_cast$28=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$27);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$28, create_winRW$$1$$radReadEEPROM, (unsigned int)0, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_radio_button_get_type$29;
-  return_value_gtk_radio_button_get_type$29=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$30;
-  return_value_g_type_check_instance_cast$30=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radReadEEPROM, return_value_gtk_radio_button_get_type$29);
-  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$30, radReadEEPROM_group);
-  unsigned long int return_value_gtk_radio_button_get_type$31;
-  return_value_gtk_radio_button_get_type$31=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$32;
-  return_value_g_type_check_instance_cast$32=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radReadEEPROM, return_value_gtk_radio_button_get_type$31);
-  radReadEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$32);
-  create_winRW$$1$$radReadReg=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "Register");
-  gtk_widget_set_name(create_winRW$$1$$radReadReg, "radReadReg");
-  gtk_widget_show(create_winRW$$1$$radReadReg);
-  unsigned long int return_value_gtk_table_get_type$33;
-  return_value_gtk_table_get_type$33=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$34;
-  return_value_g_type_check_instance_cast$34=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$33);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$34, create_winRW$$1$$radReadReg, (unsigned int)0, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_radio_button_get_type$35;
-  return_value_gtk_radio_button_get_type$35=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$36;
-  return_value_g_type_check_instance_cast$36=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radReadReg, return_value_gtk_radio_button_get_type$35);
-  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$36, radReadEEPROM_group);
-  unsigned long int return_value_gtk_radio_button_get_type$37;
-  return_value_gtk_radio_button_get_type$37=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$38;
-  return_value_g_type_check_instance_cast$38=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radReadReg, return_value_gtk_radio_button_get_type$37);
-  radReadEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$38);
+  unsigned long int return_value_gtk_table_get_type_19;
+  return_value_gtk_table_get_type_19=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+  return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_19);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_20, label30, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_misc_get_type_21;
+  return_value_gtk_misc_get_type_21=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+  return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)label30, return_value_gtk_misc_get_type_21);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_22, (float)0, (float)0.5);
+  create_winRW__1__txtReadOffset=gtk_entry_new();
+  gtk_widget_set_name(create_winRW__1__txtReadOffset, "txtReadOffset");
+  gtk_widget_show(create_winRW__1__txtReadOffset);
+  unsigned long int return_value_gtk_table_get_type_23;
+  return_value_gtk_table_get_type_23=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+  return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_23);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_24, create_winRW__1__txtReadOffset, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  create_winRW__1__txtReadLen=gtk_entry_new();
+  gtk_widget_set_name(create_winRW__1__txtReadLen, "txtReadLen");
+  gtk_widget_show(create_winRW__1__txtReadLen);
+  unsigned long int return_value_gtk_table_get_type_25;
+  return_value_gtk_table_get_type_25=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_26;
+  return_value_g_type_check_instance_cast_26=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_25);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_26, create_winRW__1__txtReadLen, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  create_winRW__1__radReadEEPROM=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "EEPROM");
+  gtk_widget_set_name(create_winRW__1__radReadEEPROM, "radReadEEPROM");
+  gtk_widget_show(create_winRW__1__radReadEEPROM);
+  unsigned long int return_value_gtk_table_get_type_27;
+  return_value_gtk_table_get_type_27=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_28;
+  return_value_g_type_check_instance_cast_28=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_27);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_28, create_winRW__1__radReadEEPROM, (unsigned int)0, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_radio_button_get_type_29;
+  return_value_gtk_radio_button_get_type_29=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_30;
+  return_value_g_type_check_instance_cast_30=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radReadEEPROM, return_value_gtk_radio_button_get_type_29);
+  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_30, radReadEEPROM_group);
+  unsigned long int return_value_gtk_radio_button_get_type_31;
+  return_value_gtk_radio_button_get_type_31=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_32;
+  return_value_g_type_check_instance_cast_32=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radReadEEPROM, return_value_gtk_radio_button_get_type_31);
+  radReadEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_32);
+  create_winRW__1__radReadReg=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "Register");
+  gtk_widget_set_name(create_winRW__1__radReadReg, "radReadReg");
+  gtk_widget_show(create_winRW__1__radReadReg);
+  unsigned long int return_value_gtk_table_get_type_33;
+  return_value_gtk_table_get_type_33=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_34;
+  return_value_g_type_check_instance_cast_34=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_33);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_34, create_winRW__1__radReadReg, (unsigned int)0, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_radio_button_get_type_35;
+  return_value_gtk_radio_button_get_type_35=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_36;
+  return_value_g_type_check_instance_cast_36=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radReadReg, return_value_gtk_radio_button_get_type_35);
+  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_36, radReadEEPROM_group);
+  unsigned long int return_value_gtk_radio_button_get_type_37;
+  return_value_gtk_radio_button_get_type_37=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_38;
+  return_value_g_type_check_instance_cast_38=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radReadReg, return_value_gtk_radio_button_get_type_37);
+  radReadEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_38);
   hbox7=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox7, "hbox7");
   gtk_widget_show(hbox7);
-  unsigned long int return_value_gtk_table_get_type$39;
-  return_value_gtk_table_get_type$39=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$40;
-  return_value_g_type_check_instance_cast$40=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$39);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$40, hbox7, (unsigned int)0, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winRW$$1$$btnRead=gtk_button_new_with_mnemonic("Read");
-  gtk_widget_set_name(create_winRW$$1$$btnRead, "btnRead");
-  gtk_widget_show(create_winRW$$1$$btnRead);
-  unsigned long int return_value_gtk_box_get_type$41;
-  return_value_gtk_box_get_type$41=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$42;
-  return_value_g_type_check_instance_cast$42=g_type_check_instance_cast((struct _GTypeInstance *)hbox7, return_value_gtk_box_get_type$41);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$42, create_winRW$$1$$btnRead, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_39;
+  return_value_gtk_table_get_type_39=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_40;
+  return_value_g_type_check_instance_cast_40=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_39);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_40, hbox7, (unsigned int)0, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winRW__1__btnRead=gtk_button_new_with_mnemonic("Read");
+  gtk_widget_set_name(create_winRW__1__btnRead, "btnRead");
+  gtk_widget_show(create_winRW__1__btnRead);
+  unsigned long int return_value_gtk_box_get_type_41;
+  return_value_gtk_box_get_type_41=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_42;
+  return_value_g_type_check_instance_cast_42=g_type_check_instance_cast((struct _GTypeInstance *)hbox7, return_value_gtk_box_get_type_41);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_42, create_winRW__1__btnRead, (signed int)!(0 != 0), 0, (unsigned int)0);
   hbox4=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox4, "hbox4");
   gtk_widget_show(hbox4);
-  unsigned long int return_value_gtk_table_get_type$43;
-  return_value_gtk_table_get_type$43=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$44;
-  return_value_g_type_check_instance_cast$44=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type$43);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$44, hbox4, (unsigned int)0, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_43;
+  return_value_gtk_table_get_type_43=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_44;
+  return_value_g_type_check_instance_cast_44=g_type_check_instance_cast((struct _GTypeInstance *)table6, return_value_gtk_table_get_type_43);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_44, hbox4, (unsigned int)0, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
   label31=gtk_label_new("Read");
   gtk_widget_set_name(label31, "label31");
   gtk_widget_show(label31);
-  unsigned long int return_value_gtk_box_get_type$45;
-  return_value_gtk_box_get_type$45=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$46;
-  return_value_g_type_check_instance_cast$46=g_type_check_instance_cast((struct _GTypeInstance *)hbox4, return_value_gtk_box_get_type$45);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$46, label31, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_45;
+  return_value_gtk_box_get_type_45=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_46;
+  return_value_g_type_check_instance_cast_46=g_type_check_instance_cast((struct _GTypeInstance *)hbox4, return_value_gtk_box_get_type_45);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_46, label31, (signed int)!(0 != 0), 0, (unsigned int)0);
   table7=gtk_table_new((unsigned int)6, (unsigned int)2, 0);
   gtk_widget_set_name(table7, "table7");
   gtk_widget_show(table7);
-  unsigned long int return_value_gtk_box_get_type$47;
-  return_value_gtk_box_get_type$47=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$48;
-  return_value_g_type_check_instance_cast$48=g_type_check_instance_cast((struct _GTypeInstance *)hbox3, return_value_gtk_box_get_type$47);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$48, table7, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_table_get_type$49;
-  return_value_gtk_table_get_type$49=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$50;
-  return_value_g_type_check_instance_cast$50=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$49);
-  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast$50, (unsigned int)2);
+  unsigned long int return_value_gtk_box_get_type_47;
+  return_value_gtk_box_get_type_47=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_48;
+  return_value_g_type_check_instance_cast_48=g_type_check_instance_cast((struct _GTypeInstance *)hbox3, return_value_gtk_box_get_type_47);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_48, table7, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_49;
+  return_value_gtk_table_get_type_49=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_50;
+  return_value_g_type_check_instance_cast_50=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_49);
+  gtk_table_set_row_spacings((struct _GtkTable *)return_value_g_type_check_instance_cast_50, (unsigned int)2);
   label33=gtk_label_new("Offset:");
   gtk_widget_set_name(label33, "label33");
   gtk_widget_show(label33);
-  unsigned long int return_value_gtk_table_get_type$51;
-  return_value_gtk_table_get_type$51=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$52;
-  return_value_g_type_check_instance_cast$52=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$51);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$52, label33, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_misc_get_type$53;
-  return_value_gtk_misc_get_type$53=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$54;
-  return_value_g_type_check_instance_cast$54=g_type_check_instance_cast((struct _GTypeInstance *)label33, return_value_gtk_misc_get_type$53);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$54, (float)0, (float)0.5);
+  unsigned long int return_value_gtk_table_get_type_51;
+  return_value_gtk_table_get_type_51=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_52;
+  return_value_g_type_check_instance_cast_52=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_51);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_52, label33, (unsigned int)0, (unsigned int)1, (unsigned int)1, (unsigned int)2, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_misc_get_type_53;
+  return_value_gtk_misc_get_type_53=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_54;
+  return_value_g_type_check_instance_cast_54=g_type_check_instance_cast((struct _GTypeInstance *)label33, return_value_gtk_misc_get_type_53);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_54, (float)0, (float)0.5);
   label34=gtk_label_new("Data:");
   gtk_widget_set_name(label34, "label34");
   gtk_widget_show(label34);
-  unsigned long int return_value_gtk_table_get_type$55;
-  return_value_gtk_table_get_type$55=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$56;
-  return_value_g_type_check_instance_cast$56=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$55);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$56, label34, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_misc_get_type$57;
-  return_value_gtk_misc_get_type$57=gtk_misc_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$58;
-  return_value_g_type_check_instance_cast$58=g_type_check_instance_cast((struct _GTypeInstance *)label34, return_value_gtk_misc_get_type$57);
-  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast$58, (float)0, (float)0.5);
-  create_winRW$$1$$txtWriteOffset=gtk_entry_new();
-  gtk_widget_set_name(create_winRW$$1$$txtWriteOffset, "txtWriteOffset");
-  gtk_widget_show(create_winRW$$1$$txtWriteOffset);
-  unsigned long int return_value_gtk_table_get_type$59;
-  return_value_gtk_table_get_type$59=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$60;
-  return_value_g_type_check_instance_cast$60=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$59);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$60, create_winRW$$1$$txtWriteOffset, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  create_winRW$$1$$txtWriteData=gtk_entry_new();
-  gtk_widget_set_name(create_winRW$$1$$txtWriteData, "txtWriteData");
-  gtk_widget_show(create_winRW$$1$$txtWriteData);
-  unsigned long int return_value_gtk_table_get_type$61;
-  return_value_gtk_table_get_type$61=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$62;
-  return_value_g_type_check_instance_cast$62=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$61);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$62, create_winRW$$1$$txtWriteData, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  create_winRW$$1$$radWriteEEPROM=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "EEPROM");
-  gtk_widget_set_name(create_winRW$$1$$radWriteEEPROM, "radWriteEEPROM");
-  gtk_widget_show(create_winRW$$1$$radWriteEEPROM);
-  unsigned long int return_value_gtk_table_get_type$63;
-  return_value_gtk_table_get_type$63=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$64;
-  return_value_g_type_check_instance_cast$64=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$63);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$64, create_winRW$$1$$radWriteEEPROM, (unsigned int)0, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_radio_button_get_type$65;
-  return_value_gtk_radio_button_get_type$65=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$66;
-  return_value_g_type_check_instance_cast$66=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radWriteEEPROM, return_value_gtk_radio_button_get_type$65);
-  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$66, radWriteEEPROM_group);
-  unsigned long int return_value_gtk_radio_button_get_type$67;
-  return_value_gtk_radio_button_get_type$67=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$68;
-  return_value_g_type_check_instance_cast$68=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radWriteEEPROM, return_value_gtk_radio_button_get_type$67);
-  radWriteEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$68);
-  create_winRW$$1$$radWriteReg=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "Register");
-  gtk_widget_set_name(create_winRW$$1$$radWriteReg, "radWriteReg");
-  gtk_widget_show(create_winRW$$1$$radWriteReg);
-  unsigned long int return_value_gtk_table_get_type$69;
-  return_value_gtk_table_get_type$69=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$70;
-  return_value_g_type_check_instance_cast$70=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$69);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$70, create_winRW$$1$$radWriteReg, (unsigned int)0, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous$18)GTK_FILL, (enum anonymous$18)0, (unsigned int)0, (unsigned int)0);
-  unsigned long int return_value_gtk_radio_button_get_type$71;
-  return_value_gtk_radio_button_get_type$71=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$72;
-  return_value_g_type_check_instance_cast$72=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radWriteReg, return_value_gtk_radio_button_get_type$71);
-  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$72, radWriteEEPROM_group);
-  unsigned long int return_value_gtk_radio_button_get_type$73;
-  return_value_gtk_radio_button_get_type$73=gtk_radio_button_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$74;
-  return_value_g_type_check_instance_cast$74=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$radWriteReg, return_value_gtk_radio_button_get_type$73);
-  radWriteEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast$74);
+  unsigned long int return_value_gtk_table_get_type_55;
+  return_value_gtk_table_get_type_55=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_56;
+  return_value_g_type_check_instance_cast_56=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_55);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_56, label34, (unsigned int)0, (unsigned int)1, (unsigned int)2, (unsigned int)3, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_misc_get_type_57;
+  return_value_gtk_misc_get_type_57=gtk_misc_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_58;
+  return_value_g_type_check_instance_cast_58=g_type_check_instance_cast((struct _GTypeInstance *)label34, return_value_gtk_misc_get_type_57);
+  gtk_misc_set_alignment((struct _GtkMisc *)return_value_g_type_check_instance_cast_58, (float)0, (float)0.5);
+  create_winRW__1__txtWriteOffset=gtk_entry_new();
+  gtk_widget_set_name(create_winRW__1__txtWriteOffset, "txtWriteOffset");
+  gtk_widget_show(create_winRW__1__txtWriteOffset);
+  unsigned long int return_value_gtk_table_get_type_59;
+  return_value_gtk_table_get_type_59=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_60;
+  return_value_g_type_check_instance_cast_60=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_59);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_60, create_winRW__1__txtWriteOffset, (unsigned int)1, (unsigned int)2, (unsigned int)1, (unsigned int)2, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  create_winRW__1__txtWriteData=gtk_entry_new();
+  gtk_widget_set_name(create_winRW__1__txtWriteData, "txtWriteData");
+  gtk_widget_show(create_winRW__1__txtWriteData);
+  unsigned long int return_value_gtk_table_get_type_61;
+  return_value_gtk_table_get_type_61=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_62;
+  return_value_g_type_check_instance_cast_62=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_61);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_62, create_winRW__1__txtWriteData, (unsigned int)1, (unsigned int)2, (unsigned int)2, (unsigned int)3, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  create_winRW__1__radWriteEEPROM=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "EEPROM");
+  gtk_widget_set_name(create_winRW__1__radWriteEEPROM, "radWriteEEPROM");
+  gtk_widget_show(create_winRW__1__radWriteEEPROM);
+  unsigned long int return_value_gtk_table_get_type_63;
+  return_value_gtk_table_get_type_63=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_64;
+  return_value_g_type_check_instance_cast_64=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_63);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_64, create_winRW__1__radWriteEEPROM, (unsigned int)0, (unsigned int)2, (unsigned int)3, (unsigned int)4, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_radio_button_get_type_65;
+  return_value_gtk_radio_button_get_type_65=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_66;
+  return_value_g_type_check_instance_cast_66=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radWriteEEPROM, return_value_gtk_radio_button_get_type_65);
+  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_66, radWriteEEPROM_group);
+  unsigned long int return_value_gtk_radio_button_get_type_67;
+  return_value_gtk_radio_button_get_type_67=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_68;
+  return_value_g_type_check_instance_cast_68=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radWriteEEPROM, return_value_gtk_radio_button_get_type_67);
+  radWriteEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_68);
+  create_winRW__1__radWriteReg=gtk_radio_button_new_with_mnemonic((struct _GSList *)(void *)0, "Register");
+  gtk_widget_set_name(create_winRW__1__radWriteReg, "radWriteReg");
+  gtk_widget_show(create_winRW__1__radWriteReg);
+  unsigned long int return_value_gtk_table_get_type_69;
+  return_value_gtk_table_get_type_69=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_70;
+  return_value_g_type_check_instance_cast_70=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_69);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_70, create_winRW__1__radWriteReg, (unsigned int)0, (unsigned int)2, (unsigned int)4, (unsigned int)5, (enum anonymous_18)GTK_FILL, (enum anonymous_18)0, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_radio_button_get_type_71;
+  return_value_gtk_radio_button_get_type_71=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_72;
+  return_value_g_type_check_instance_cast_72=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radWriteReg, return_value_gtk_radio_button_get_type_71);
+  gtk_radio_button_set_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_72, radWriteEEPROM_group);
+  unsigned long int return_value_gtk_radio_button_get_type_73;
+  return_value_gtk_radio_button_get_type_73=gtk_radio_button_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_74;
+  return_value_g_type_check_instance_cast_74=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__radWriteReg, return_value_gtk_radio_button_get_type_73);
+  radWriteEEPROM_group=gtk_radio_button_get_group((struct _GtkRadioButton *)return_value_g_type_check_instance_cast_74);
   hbox8=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox8, "hbox8");
   gtk_widget_show(hbox8);
-  unsigned long int return_value_gtk_table_get_type$75;
-  return_value_gtk_table_get_type$75=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$76;
-  return_value_g_type_check_instance_cast$76=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$75);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$76, hbox8, (unsigned int)0, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous$18)GTK_FILL, (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
-  create_winRW$$1$$btnWrite=gtk_button_new_with_mnemonic("Write");
-  gtk_widget_set_name(create_winRW$$1$$btnWrite, "btnWrite");
-  gtk_widget_show(create_winRW$$1$$btnWrite);
-  unsigned long int return_value_gtk_box_get_type$77;
-  return_value_gtk_box_get_type$77=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$78;
-  return_value_g_type_check_instance_cast$78=g_type_check_instance_cast((struct _GTypeInstance *)hbox8, return_value_gtk_box_get_type$77);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$78, create_winRW$$1$$btnWrite, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_75;
+  return_value_gtk_table_get_type_75=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_76;
+  return_value_g_type_check_instance_cast_76=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_75);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_76, hbox8, (unsigned int)0, (unsigned int)2, (unsigned int)5, (unsigned int)6, (enum anonymous_18)GTK_FILL, (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  create_winRW__1__btnWrite=gtk_button_new_with_mnemonic("Write");
+  gtk_widget_set_name(create_winRW__1__btnWrite, "btnWrite");
+  gtk_widget_show(create_winRW__1__btnWrite);
+  unsigned long int return_value_gtk_box_get_type_77;
+  return_value_gtk_box_get_type_77=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_78;
+  return_value_g_type_check_instance_cast_78=g_type_check_instance_cast((struct _GTypeInstance *)hbox8, return_value_gtk_box_get_type_77);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_78, create_winRW__1__btnWrite, (signed int)!(0 != 0), 0, (unsigned int)0);
   hbox6=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox6, "hbox6");
   gtk_widget_show(hbox6);
-  unsigned long int return_value_gtk_table_get_type$79;
-  return_value_gtk_table_get_type$79=gtk_table_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$80;
-  return_value_g_type_check_instance_cast$80=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type$79);
-  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast$80, hbox6, (unsigned int)0, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous$18)(GTK_EXPAND | GTK_FILL), (enum anonymous$18)GTK_FILL, (unsigned int)0, (unsigned int)0);
+  unsigned long int return_value_gtk_table_get_type_79;
+  return_value_gtk_table_get_type_79=gtk_table_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_80;
+  return_value_g_type_check_instance_cast_80=g_type_check_instance_cast((struct _GTypeInstance *)table7, return_value_gtk_table_get_type_79);
+  gtk_table_attach((struct _GtkTable *)return_value_g_type_check_instance_cast_80, hbox6, (unsigned int)0, (unsigned int)2, (unsigned int)0, (unsigned int)1, (enum anonymous_18)(GTK_EXPAND | GTK_FILL), (enum anonymous_18)GTK_FILL, (unsigned int)0, (unsigned int)0);
   label32=gtk_label_new("Write");
   gtk_widget_set_name(label32, "label32");
   gtk_widget_show(label32);
-  unsigned long int return_value_gtk_box_get_type$81;
-  return_value_gtk_box_get_type$81=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$82;
-  return_value_g_type_check_instance_cast$82=g_type_check_instance_cast((struct _GTypeInstance *)hbox6, return_value_gtk_box_get_type$81);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$82, label32, (signed int)!(0 != 0), 0, (unsigned int)0);
+  unsigned long int return_value_gtk_box_get_type_81;
+  return_value_gtk_box_get_type_81=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_82;
+  return_value_g_type_check_instance_cast_82=g_type_check_instance_cast((struct _GTypeInstance *)hbox6, return_value_gtk_box_get_type_81);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_82, label32, (signed int)!(0 != 0), 0, (unsigned int)0);
   scrolledwindow1=gtk_scrolled_window_new((struct _GtkAdjustment *)(void *)0, (struct _GtkAdjustment *)(void *)0);
   gtk_widget_set_name(scrolledwindow1, "scrolledwindow1");
   gtk_widget_show(scrolledwindow1);
-  unsigned long int return_value_gtk_box_get_type$83;
-  return_value_gtk_box_get_type$83=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$84;
-  return_value_g_type_check_instance_cast$84=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type$83);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$84, scrolledwindow1, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
-  unsigned long int return_value_gtk_scrolled_window_get_type$85;
-  return_value_gtk_scrolled_window_get_type$85=gtk_scrolled_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$86;
-  return_value_g_type_check_instance_cast$86=g_type_check_instance_cast((struct _GTypeInstance *)scrolledwindow1, return_value_gtk_scrolled_window_get_type$85);
-  gtk_scrolled_window_set_shadow_type((struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast$86, (enum anonymous)GTK_SHADOW_IN);
-  create_winRW$$1$$tvRW=gtk_text_view_new();
-  gtk_widget_set_name(create_winRW$$1$$tvRW, "tvRW");
-  gtk_widget_show(create_winRW$$1$$tvRW);
-  unsigned long int return_value_gtk_container_get_type$87;
-  return_value_gtk_container_get_type$87=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$88;
-  return_value_g_type_check_instance_cast$88=g_type_check_instance_cast((struct _GTypeInstance *)scrolledwindow1, return_value_gtk_container_get_type$87);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$88, create_winRW$$1$$tvRW);
+  unsigned long int return_value_gtk_box_get_type_83;
+  return_value_gtk_box_get_type_83=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_84;
+  return_value_g_type_check_instance_cast_84=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type_83);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_84, scrolledwindow1, (signed int)!(0 != 0), (signed int)!(0 != 0), (unsigned int)0);
+  unsigned long int return_value_gtk_scrolled_window_get_type_85;
+  return_value_gtk_scrolled_window_get_type_85=gtk_scrolled_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_86;
+  return_value_g_type_check_instance_cast_86=g_type_check_instance_cast((struct _GTypeInstance *)scrolledwindow1, return_value_gtk_scrolled_window_get_type_85);
+  gtk_scrolled_window_set_shadow_type((struct _GtkScrolledWindow *)return_value_g_type_check_instance_cast_86, (enum anonymous)GTK_SHADOW_IN);
+  create_winRW__1__tvRW=gtk_text_view_new();
+  gtk_widget_set_name(create_winRW__1__tvRW, "tvRW");
+  gtk_widget_show(create_winRW__1__tvRW);
+  unsigned long int return_value_gtk_container_get_type_87;
+  return_value_gtk_container_get_type_87=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_88;
+  return_value_g_type_check_instance_cast_88=g_type_check_instance_cast((struct _GTypeInstance *)scrolledwindow1, return_value_gtk_container_get_type_87);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_88, create_winRW__1__tvRW);
   hbox9=gtk_hbox_new(0, 0);
   gtk_widget_set_name(hbox9, "hbox9");
   gtk_widget_show(hbox9);
-  unsigned long int return_value_gtk_box_get_type$89;
-  return_value_gtk_box_get_type$89=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$90;
-  return_value_g_type_check_instance_cast$90=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type$89);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$90, hbox9, 0, (signed int)!(0 != 0), (unsigned int)0);
-  create_winRW$$1$$btnRWClose=gtk_button_new_with_mnemonic("Close");
-  gtk_widget_set_name(create_winRW$$1$$btnRWClose, "btnRWClose");
-  gtk_widget_show(create_winRW$$1$$btnRWClose);
-  unsigned long int return_value_gtk_box_get_type$91;
-  return_value_gtk_box_get_type$91=gtk_box_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$92;
-  return_value_g_type_check_instance_cast$92=g_type_check_instance_cast((struct _GTypeInstance *)hbox9, return_value_gtk_box_get_type$91);
-  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast$92, create_winRW$$1$$btnRWClose, (signed int)!(0 != 0), 0, (unsigned int)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$93;
-  return_value_g_type_check_instance_cast$93=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast$93, "winRW", (void *)create_winRW$$1$$winRW);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$94;
-  return_value_g_type_check_instance_cast$94=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$95;
-  return_value_gtk_widget_ref$95=gtk_widget_ref(vbox3);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$94, "vbox3", (void *)return_value_gtk_widget_ref$95, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$96;
-  return_value_g_type_check_instance_cast$96=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$97;
-  return_value_gtk_widget_ref$97=gtk_widget_ref(label25);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$96, "label25", (void *)return_value_gtk_widget_ref$97, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$98;
-  return_value_g_type_check_instance_cast$98=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$99;
-  return_value_gtk_widget_ref$99=gtk_widget_ref(hbox3);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$98, "hbox3", (void *)return_value_gtk_widget_ref$99, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$100;
-  return_value_g_type_check_instance_cast$100=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$101;
-  return_value_gtk_widget_ref$101=gtk_widget_ref(table6);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$100, "table6", (void *)return_value_gtk_widget_ref$101, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$102;
-  return_value_g_type_check_instance_cast$102=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$103;
-  return_value_gtk_widget_ref$103=gtk_widget_ref(label29);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$102, "label29", (void *)return_value_gtk_widget_ref$103, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$104;
-  return_value_g_type_check_instance_cast$104=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$105;
-  return_value_gtk_widget_ref$105=gtk_widget_ref(label30);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$104, "label30", (void *)return_value_gtk_widget_ref$105, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$106;
-  return_value_g_type_check_instance_cast$106=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$107;
-  return_value_gtk_widget_ref$107=gtk_widget_ref(create_winRW$$1$$txtReadOffset);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$106, "txtReadOffset", (void *)return_value_gtk_widget_ref$107, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$108;
-  return_value_g_type_check_instance_cast$108=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$109;
-  return_value_gtk_widget_ref$109=gtk_widget_ref(create_winRW$$1$$txtReadLen);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$108, "txtReadLen", (void *)return_value_gtk_widget_ref$109, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$110;
-  return_value_g_type_check_instance_cast$110=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$111;
-  return_value_gtk_widget_ref$111=gtk_widget_ref(create_winRW$$1$$radReadEEPROM);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$110, "radReadEEPROM", (void *)return_value_gtk_widget_ref$111, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$112;
-  return_value_g_type_check_instance_cast$112=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$113;
-  return_value_gtk_widget_ref$113=gtk_widget_ref(create_winRW$$1$$radReadReg);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$112, "radReadReg", (void *)return_value_gtk_widget_ref$113, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$114;
-  return_value_g_type_check_instance_cast$114=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$115;
-  return_value_gtk_widget_ref$115=gtk_widget_ref(hbox7);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$114, "hbox7", (void *)return_value_gtk_widget_ref$115, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$116;
-  return_value_g_type_check_instance_cast$116=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$117;
-  return_value_gtk_widget_ref$117=gtk_widget_ref(create_winRW$$1$$btnRead);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$116, "btnRead", (void *)return_value_gtk_widget_ref$117, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$118;
-  return_value_g_type_check_instance_cast$118=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$119;
-  return_value_gtk_widget_ref$119=gtk_widget_ref(hbox4);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$118, "hbox4", (void *)return_value_gtk_widget_ref$119, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$120;
-  return_value_g_type_check_instance_cast$120=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$121;
-  return_value_gtk_widget_ref$121=gtk_widget_ref(label31);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$120, "label31", (void *)return_value_gtk_widget_ref$121, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$122;
-  return_value_g_type_check_instance_cast$122=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$123;
-  return_value_gtk_widget_ref$123=gtk_widget_ref(table7);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$122, "table7", (void *)return_value_gtk_widget_ref$123, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$124;
-  return_value_g_type_check_instance_cast$124=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$125;
-  return_value_gtk_widget_ref$125=gtk_widget_ref(label33);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$124, "label33", (void *)return_value_gtk_widget_ref$125, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$126;
-  return_value_g_type_check_instance_cast$126=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$127;
-  return_value_gtk_widget_ref$127=gtk_widget_ref(label34);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$126, "label34", (void *)return_value_gtk_widget_ref$127, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$128;
-  return_value_g_type_check_instance_cast$128=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$129;
-  return_value_gtk_widget_ref$129=gtk_widget_ref(create_winRW$$1$$txtWriteOffset);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$128, "txtWriteOffset", (void *)return_value_gtk_widget_ref$129, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$130;
-  return_value_g_type_check_instance_cast$130=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$131;
-  return_value_gtk_widget_ref$131=gtk_widget_ref(create_winRW$$1$$txtWriteData);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$130, "txtWriteData", (void *)return_value_gtk_widget_ref$131, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$132;
-  return_value_g_type_check_instance_cast$132=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$133;
-  return_value_gtk_widget_ref$133=gtk_widget_ref(create_winRW$$1$$radWriteEEPROM);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$132, "radWriteEEPROM", (void *)return_value_gtk_widget_ref$133, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$134;
-  return_value_g_type_check_instance_cast$134=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$135;
-  return_value_gtk_widget_ref$135=gtk_widget_ref(create_winRW$$1$$radWriteReg);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$134, "radWriteReg", (void *)return_value_gtk_widget_ref$135, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$136;
-  return_value_g_type_check_instance_cast$136=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$137;
-  return_value_gtk_widget_ref$137=gtk_widget_ref(hbox8);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$136, "hbox8", (void *)return_value_gtk_widget_ref$137, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$138;
-  return_value_g_type_check_instance_cast$138=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$139;
-  return_value_gtk_widget_ref$139=gtk_widget_ref(create_winRW$$1$$btnWrite);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$138, "btnWrite", (void *)return_value_gtk_widget_ref$139, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$140;
-  return_value_g_type_check_instance_cast$140=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$141;
-  return_value_gtk_widget_ref$141=gtk_widget_ref(hbox6);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$140, "hbox6", (void *)return_value_gtk_widget_ref$141, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$142;
-  return_value_g_type_check_instance_cast$142=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$143;
-  return_value_gtk_widget_ref$143=gtk_widget_ref(label32);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$142, "label32", (void *)return_value_gtk_widget_ref$143, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$144;
-  return_value_g_type_check_instance_cast$144=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$145;
-  return_value_gtk_widget_ref$145=gtk_widget_ref(scrolledwindow1);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$144, "scrolledwindow1", (void *)return_value_gtk_widget_ref$145, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$146;
-  return_value_g_type_check_instance_cast$146=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$147;
-  return_value_gtk_widget_ref$147=gtk_widget_ref(create_winRW$$1$$tvRW);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$146, "tvRW", (void *)return_value_gtk_widget_ref$147, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$148;
-  return_value_g_type_check_instance_cast$148=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$149;
-  return_value_gtk_widget_ref$149=gtk_widget_ref(hbox9);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$148, "hbox9", (void *)return_value_gtk_widget_ref$149, (void (*)(void *))gtk_widget_unref);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$150;
-  return_value_g_type_check_instance_cast$150=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW$$1$$winRW, (unsigned long int)(20 << 2));
-  struct _GtkWidget *return_value_gtk_widget_ref$151;
-  return_value_gtk_widget_ref$151=gtk_widget_ref(create_winRW$$1$$btnRWClose);
-  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast$150, "btnRWClose", (void *)return_value_gtk_widget_ref$151, (void (*)(void *))gtk_widget_unref);
-  return create_winRW$$1$$winRW;
+  unsigned long int return_value_gtk_box_get_type_89;
+  return_value_gtk_box_get_type_89=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_90;
+  return_value_g_type_check_instance_cast_90=g_type_check_instance_cast((struct _GTypeInstance *)vbox3, return_value_gtk_box_get_type_89);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_90, hbox9, 0, (signed int)!(0 != 0), (unsigned int)0);
+  create_winRW__1__btnRWClose=gtk_button_new_with_mnemonic("Close");
+  gtk_widget_set_name(create_winRW__1__btnRWClose, "btnRWClose");
+  gtk_widget_show(create_winRW__1__btnRWClose);
+  unsigned long int return_value_gtk_box_get_type_91;
+  return_value_gtk_box_get_type_91=gtk_box_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_92;
+  return_value_g_type_check_instance_cast_92=g_type_check_instance_cast((struct _GTypeInstance *)hbox9, return_value_gtk_box_get_type_91);
+  gtk_box_pack_start((struct _GtkBox *)return_value_g_type_check_instance_cast_92, create_winRW__1__btnRWClose, (signed int)!(0 != 0), 0, (unsigned int)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_93;
+  return_value_g_type_check_instance_cast_93=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  g_object_set_data((struct _GObject *)return_value_g_type_check_instance_cast_93, "winRW", (void *)create_winRW__1__winRW);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_94;
+  return_value_g_type_check_instance_cast_94=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_95;
+  return_value_gtk_widget_ref_95=gtk_widget_ref(vbox3);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_94, "vbox3", (void *)return_value_gtk_widget_ref_95, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_96;
+  return_value_g_type_check_instance_cast_96=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_97;
+  return_value_gtk_widget_ref_97=gtk_widget_ref(label25);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_96, "label25", (void *)return_value_gtk_widget_ref_97, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_98;
+  return_value_g_type_check_instance_cast_98=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_99;
+  return_value_gtk_widget_ref_99=gtk_widget_ref(hbox3);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_98, "hbox3", (void *)return_value_gtk_widget_ref_99, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_100;
+  return_value_g_type_check_instance_cast_100=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_101;
+  return_value_gtk_widget_ref_101=gtk_widget_ref(table6);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_100, "table6", (void *)return_value_gtk_widget_ref_101, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_102;
+  return_value_g_type_check_instance_cast_102=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_103;
+  return_value_gtk_widget_ref_103=gtk_widget_ref(label29);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_102, "label29", (void *)return_value_gtk_widget_ref_103, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_104;
+  return_value_g_type_check_instance_cast_104=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_105;
+  return_value_gtk_widget_ref_105=gtk_widget_ref(label30);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_104, "label30", (void *)return_value_gtk_widget_ref_105, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_106;
+  return_value_g_type_check_instance_cast_106=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_107;
+  return_value_gtk_widget_ref_107=gtk_widget_ref(create_winRW__1__txtReadOffset);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_106, "txtReadOffset", (void *)return_value_gtk_widget_ref_107, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_108;
+  return_value_g_type_check_instance_cast_108=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_109;
+  return_value_gtk_widget_ref_109=gtk_widget_ref(create_winRW__1__txtReadLen);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_108, "txtReadLen", (void *)return_value_gtk_widget_ref_109, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_110;
+  return_value_g_type_check_instance_cast_110=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_111;
+  return_value_gtk_widget_ref_111=gtk_widget_ref(create_winRW__1__radReadEEPROM);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_110, "radReadEEPROM", (void *)return_value_gtk_widget_ref_111, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_112;
+  return_value_g_type_check_instance_cast_112=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_113;
+  return_value_gtk_widget_ref_113=gtk_widget_ref(create_winRW__1__radReadReg);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_112, "radReadReg", (void *)return_value_gtk_widget_ref_113, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_114;
+  return_value_g_type_check_instance_cast_114=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_115;
+  return_value_gtk_widget_ref_115=gtk_widget_ref(hbox7);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_114, "hbox7", (void *)return_value_gtk_widget_ref_115, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_116;
+  return_value_g_type_check_instance_cast_116=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_117;
+  return_value_gtk_widget_ref_117=gtk_widget_ref(create_winRW__1__btnRead);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_116, "btnRead", (void *)return_value_gtk_widget_ref_117, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_118;
+  return_value_g_type_check_instance_cast_118=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_119;
+  return_value_gtk_widget_ref_119=gtk_widget_ref(hbox4);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_118, "hbox4", (void *)return_value_gtk_widget_ref_119, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_120;
+  return_value_g_type_check_instance_cast_120=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_121;
+  return_value_gtk_widget_ref_121=gtk_widget_ref(label31);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_120, "label31", (void *)return_value_gtk_widget_ref_121, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_122;
+  return_value_g_type_check_instance_cast_122=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_123;
+  return_value_gtk_widget_ref_123=gtk_widget_ref(table7);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_122, "table7", (void *)return_value_gtk_widget_ref_123, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_124;
+  return_value_g_type_check_instance_cast_124=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_125;
+  return_value_gtk_widget_ref_125=gtk_widget_ref(label33);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_124, "label33", (void *)return_value_gtk_widget_ref_125, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_126;
+  return_value_g_type_check_instance_cast_126=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_127;
+  return_value_gtk_widget_ref_127=gtk_widget_ref(label34);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_126, "label34", (void *)return_value_gtk_widget_ref_127, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_128;
+  return_value_g_type_check_instance_cast_128=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_129;
+  return_value_gtk_widget_ref_129=gtk_widget_ref(create_winRW__1__txtWriteOffset);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_128, "txtWriteOffset", (void *)return_value_gtk_widget_ref_129, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_130;
+  return_value_g_type_check_instance_cast_130=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_131;
+  return_value_gtk_widget_ref_131=gtk_widget_ref(create_winRW__1__txtWriteData);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_130, "txtWriteData", (void *)return_value_gtk_widget_ref_131, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_132;
+  return_value_g_type_check_instance_cast_132=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_133;
+  return_value_gtk_widget_ref_133=gtk_widget_ref(create_winRW__1__radWriteEEPROM);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_132, "radWriteEEPROM", (void *)return_value_gtk_widget_ref_133, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_134;
+  return_value_g_type_check_instance_cast_134=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_135;
+  return_value_gtk_widget_ref_135=gtk_widget_ref(create_winRW__1__radWriteReg);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_134, "radWriteReg", (void *)return_value_gtk_widget_ref_135, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_136;
+  return_value_g_type_check_instance_cast_136=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_137;
+  return_value_gtk_widget_ref_137=gtk_widget_ref(hbox8);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_136, "hbox8", (void *)return_value_gtk_widget_ref_137, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_138;
+  return_value_g_type_check_instance_cast_138=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_139;
+  return_value_gtk_widget_ref_139=gtk_widget_ref(create_winRW__1__btnWrite);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_138, "btnWrite", (void *)return_value_gtk_widget_ref_139, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_140;
+  return_value_g_type_check_instance_cast_140=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_141;
+  return_value_gtk_widget_ref_141=gtk_widget_ref(hbox6);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_140, "hbox6", (void *)return_value_gtk_widget_ref_141, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_142;
+  return_value_g_type_check_instance_cast_142=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_143;
+  return_value_gtk_widget_ref_143=gtk_widget_ref(label32);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_142, "label32", (void *)return_value_gtk_widget_ref_143, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_144;
+  return_value_g_type_check_instance_cast_144=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_145;
+  return_value_gtk_widget_ref_145=gtk_widget_ref(scrolledwindow1);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_144, "scrolledwindow1", (void *)return_value_gtk_widget_ref_145, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_146;
+  return_value_g_type_check_instance_cast_146=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_147;
+  return_value_gtk_widget_ref_147=gtk_widget_ref(create_winRW__1__tvRW);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_146, "tvRW", (void *)return_value_gtk_widget_ref_147, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_148;
+  return_value_g_type_check_instance_cast_148=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_149;
+  return_value_gtk_widget_ref_149=gtk_widget_ref(hbox9);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_148, "hbox9", (void *)return_value_gtk_widget_ref_149, (void (*)(void *))gtk_widget_unref);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_150;
+  return_value_g_type_check_instance_cast_150=g_type_check_instance_cast((struct _GTypeInstance *)create_winRW__1__winRW, (unsigned long int)(20 << 2));
+  struct _GtkWidget *return_value_gtk_widget_ref_151;
+  return_value_gtk_widget_ref_151=gtk_widget_ref(create_winRW__1__btnRWClose);
+  g_object_set_data_full((struct _GObject *)return_value_g_type_check_instance_cast_150, "btnRWClose", (void *)return_value_gtk_widget_ref_151, (void (*)(void *))gtk_widget_unref);
+  return create_winRW__1__winRW;
 }
 
 // cwiid_acc
@@ -7866,84 +7866,84 @@ void cwiid_acc(struct cwiid_acc_mesg *mesg)
   double a;
   double roll;
   double pitch;
-  unsigned long int return_value_gtk_check_menu_item_get_type$23;
-  return_value_gtk_check_menu_item_get_type$23=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-  return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type$23);
-  signed int return_value_gtk_check_menu_item_get_active$25;
-  return_value_gtk_check_menu_item_get_active$25=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$24);
-  if(!(return_value_gtk_check_menu_item_get_active$25 == 0))
+  unsigned long int return_value_gtk_check_menu_item_get_type_23;
+  return_value_gtk_check_menu_item_get_type_23=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+  return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type_23);
+  signed int return_value_gtk_check_menu_item_get_active_25;
+  return_value_gtk_check_menu_item_get_active_25=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_24);
+  if(!(return_value_gtk_check_menu_item_get_active_25 == 0))
   {
     static char str[6l];
     g_snprintf(str, (unsigned long int)6, "%X", mesg->acc[(signed long int)0]);
-    unsigned long int return_value_gtk_label_get_type$1;
-    return_value_gtk_label_get_type$1=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)lblAccXVal, return_value_gtk_label_get_type$1);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$2, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$3;
-    return_value_gtk_progress_bar_get_type$3=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)progAccX, return_value_gtk_progress_bar_get_type$3);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$4, (double)mesg->acc[(signed long int)0] / (double)0xFF);
+    unsigned long int return_value_gtk_label_get_type_1;
+    return_value_gtk_label_get_type_1=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)lblAccXVal, return_value_gtk_label_get_type_1);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_2, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_3;
+    return_value_gtk_progress_bar_get_type_3=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)progAccX, return_value_gtk_progress_bar_get_type_3);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_4, (double)mesg->acc[(signed long int)0] / (double)0xFF);
     g_snprintf(str, (unsigned long int)6, "%X", mesg->acc[(signed long int)1]);
-    unsigned long int return_value_gtk_label_get_type$5;
-    return_value_gtk_label_get_type$5=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)lblAccYVal, return_value_gtk_label_get_type$5);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$6, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$7;
-    return_value_gtk_progress_bar_get_type$7=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)progAccY, return_value_gtk_progress_bar_get_type$7);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$8, (double)mesg->acc[(signed long int)1] / (double)0xFF);
+    unsigned long int return_value_gtk_label_get_type_5;
+    return_value_gtk_label_get_type_5=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)lblAccYVal, return_value_gtk_label_get_type_5);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_6, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_7;
+    return_value_gtk_progress_bar_get_type_7=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)progAccY, return_value_gtk_progress_bar_get_type_7);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_8, (double)mesg->acc[(signed long int)1] / (double)0xFF);
     g_snprintf(str, (unsigned long int)6, "%X", mesg->acc[(signed long int)2]);
-    unsigned long int return_value_gtk_label_get_type$9;
-    return_value_gtk_label_get_type$9=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-    return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)lblAccZVal, return_value_gtk_label_get_type$9);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$10, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$11;
-    return_value_gtk_progress_bar_get_type$11=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-    return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)progAccZ, return_value_gtk_progress_bar_get_type$11);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$12, (double)mesg->acc[(signed long int)2] / (double)0xFF);
+    unsigned long int return_value_gtk_label_get_type_9;
+    return_value_gtk_label_get_type_9=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+    return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)lblAccZVal, return_value_gtk_label_get_type_9);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_10, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_11;
+    return_value_gtk_progress_bar_get_type_11=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+    return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)progAccZ, return_value_gtk_progress_bar_get_type_11);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_12, (double)mesg->acc[(signed long int)2] / (double)0xFF);
     a_x = ((double)mesg->acc[(signed long int)0] - (double)wm_cal.zero[(signed long int)0]) / (double)((signed int)wm_cal.one[(signed long int)0] - (signed int)wm_cal.zero[(signed long int)0]);
     a_y = ((double)mesg->acc[(signed long int)1] - (double)wm_cal.zero[(signed long int)1]) / (double)((signed int)wm_cal.one[(signed long int)1] - (signed int)wm_cal.zero[(signed long int)1]);
     a_z = ((double)mesg->acc[(signed long int)2] - (double)wm_cal.zero[(signed long int)2]) / (double)((signed int)wm_cal.one[(signed long int)2] - (signed int)wm_cal.zero[(signed long int)2]);
-    double return_value_pow$13;
-    return_value_pow$13=pow(a_x, (double)2);
-    double return_value_pow$14;
-    return_value_pow$14=pow(a_y, (double)2);
-    double return_value_pow$15;
-    return_value_pow$15=pow(a_z, (double)2);
-    a=sqrt(return_value_pow$13 + return_value_pow$14 + return_value_pow$15);
+    double return_value_pow_13;
+    return_value_pow_13=pow(a_x, (double)2);
+    double return_value_pow_14;
+    return_value_pow_14=pow(a_y, (double)2);
+    double return_value_pow_15;
+    return_value_pow_15=pow(a_z, (double)2);
+    a=sqrt(return_value_pow_13 + return_value_pow_14 + return_value_pow_15);
     roll=atan(a_x / a_z);
     if(a_z <= 0.0)
       roll = roll + 3.14159265358979323 * (double)(a_x > 0.0 ? 1 : -1);
 
     roll = roll * (double)-1;
-    double return_value_cos$16;
-    return_value_cos$16=cos(roll);
-    pitch=atan((a_y / a_z) * return_value_cos$16);
+    double return_value_cos_16;
+    return_value_cos_16=cos(roll);
+    pitch=atan((a_y / a_z) * return_value_cos_16);
     g_snprintf(str, (unsigned long int)6, "%.2f", a);
-    unsigned long int return_value_gtk_label_get_type$17;
-    return_value_gtk_label_get_type$17=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-    return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)lblAccVal, return_value_gtk_label_get_type$17);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$18, str);
+    unsigned long int return_value_gtk_label_get_type_17;
+    return_value_gtk_label_get_type_17=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+    return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)lblAccVal, return_value_gtk_label_get_type_17);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_18, str);
     g_snprintf(str, (unsigned long int)6, "%.2f", roll);
-    unsigned long int return_value_gtk_label_get_type$19;
-    return_value_gtk_label_get_type$19=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-    return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)lblRollVal, return_value_gtk_label_get_type$19);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$20, str);
+    unsigned long int return_value_gtk_label_get_type_19;
+    return_value_gtk_label_get_type_19=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+    return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)lblRollVal, return_value_gtk_label_get_type_19);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_20, str);
     g_snprintf(str, (unsigned long int)6, "%.2f", pitch);
-    unsigned long int return_value_gtk_label_get_type$21;
-    return_value_gtk_label_get_type$21=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-    return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)lblPitchVal, return_value_gtk_label_get_type$21);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$22, str);
+    unsigned long int return_value_gtk_label_get_type_21;
+    return_value_gtk_label_get_type_21=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+    return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)lblPitchVal, return_value_gtk_label_get_type_21);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_22, str);
   }
 
 }
@@ -7955,17 +7955,17 @@ signed int cwiid_beep(struct wiimote *wiimote)
   unsigned char buf[21l] = { (unsigned char)0xA0, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3 };
   signed int i;
   signed int ret = 0;
-  union anonymous$9 timer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+  union anonymous_9 timer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-  union anonymous$26 timer_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+  union anonymous_26 timer_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
   struct timespec t;
-  signed int return_value_exec_write_seq$1;
-  return_value_exec_write_seq$1=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [7l]) /*168ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_enable_seq);
-  if(!(return_value_exec_write_seq$1 == 0))
+  signed int return_value_exec_write_seq_1;
+  return_value_exec_write_seq_1=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [7l]) /*168ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_enable_seq);
+  if(!(return_value_exec_write_seq_1 == 0))
   {
     cwiid_err(wiimote, "Speaker enable error");
     ret = -1;
@@ -7977,9 +7977,9 @@ signed int cwiid_beep(struct wiimote *wiimote)
   {
     clock_gettime(0, &t);
     t.tv_nsec = t.tv_nsec + (signed long int)10204081;
-    signed int return_value_cwiid_send_rpt$2;
-    return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x18, (unsigned long int)21, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$2 == 0))
+    signed int return_value_cwiid_send_rpt_2;
+    return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x18, (unsigned long int)21, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_2 == 0))
     {
       printf("%d\n", i);
       cwiid_err(wiimote, "Report send error (speaker data)");
@@ -7990,9 +7990,9 @@ signed int cwiid_beep(struct wiimote *wiimote)
     pthread_cond_timedwait(&timer_cond, &timer_mutex, &t);
   }
   pthread_mutex_unlock(&timer_mutex);
-  signed int return_value_exec_write_seq$3;
-  return_value_exec_write_seq$3=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_disable_seq);
-  if(!(return_value_exec_write_seq$3 == 0))
+  signed int return_value_exec_write_seq_3;
+  return_value_exec_write_seq_3=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_disable_seq);
+  if(!(return_value_exec_write_seq_3 == 0))
   {
     cwiid_err(wiimote, "Speaker disable error");
     ret = -1;
@@ -8005,17 +8005,17 @@ signed int cwiid_beep(struct wiimote *wiimote)
 // file main.c line 1092
 void cwiid_btn(struct cwiid_btn_mesg *mesg)
 {
-  gtk_widget_modify_bg(evUp, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0800) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evDown, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0400) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evLeft, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0100) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evRight, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0200) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evA, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0008) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evB, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0004) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evMinus, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0010) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evPlus, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x1000) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(evHome, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0080) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(ev1, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0002) != 0 ? &btn_on : &btn_off);
-  gtk_widget_modify_bg(ev2, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0001) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evUp, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0800) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evDown, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0400) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evLeft, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0100) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evRight, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0200) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evA, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0008) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evB, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0004) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evMinus, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0010) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evPlus, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x1000) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(evHome, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0080) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(ev1, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0002) != 0 ? &btn_on : &btn_off);
+  gtk_widget_modify_bg(ev2, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0001) != 0 ? &btn_on : &btn_off);
 }
 
 // cwiid_callback
@@ -8027,19 +8027,19 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
   char *ext_str;
   gdk_threads_enter();
   i = 0;
-  unsigned long int return_value_gtk_statusbar_get_type$1;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  unsigned long int return_value_gtk_statusbar_get_type$6;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
+  unsigned long int return_value_gtk_statusbar_get_type_1;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  unsigned long int return_value_gtk_statusbar_get_type_6;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
   for( ; !(i >= mesg_count); i = i + 1)
     switch((signed int)(mesg_array + (signed long int)i)->type)
     {
       case CWIID_MESG_STATUS:
       {
         snprintf(battery, (unsigned long int)14, "Battery:%d%%", (signed int)((100.0 * (double)(mesg_array + (signed long int)i)->status_mesg.battery) / (double)0xD0));
-        return_value_gtk_statusbar_get_type$1=gtk_statusbar_get_type();
-        return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)statBattery, return_value_gtk_statusbar_get_type$1);
-        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$2, (unsigned int)0, battery);
+        return_value_gtk_statusbar_get_type_1=gtk_statusbar_get_type();
+        return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)statBattery, return_value_gtk_statusbar_get_type_1);
+        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_2, (unsigned int)0, battery);
         static enum cwiid_ext_type ext_type = (enum cwiid_ext_type)CWIID_EXT_NONE;
         switch((signed int)(mesg_array + (signed long int)i)->status_mesg.ext_type)
         {
@@ -8053,15 +8053,15 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
             ext_str = "Nunchuk";
             if(!((signed int)ext_type == CWIID_EXT_NUNCHUK))
             {
-              signed int return_value_cwiid_get_acc_cal$5;
-              return_value_cwiid_get_acc_cal$5=cwiid_get_acc_cal(wiimote, (enum cwiid_ext_type)CWIID_EXT_NUNCHUK, &nc_cal);
-              if(!(return_value_cwiid_get_acc_cal$5 == 0))
+              signed int return_value_cwiid_get_acc_cal_5;
+              return_value_cwiid_get_acc_cal_5=cwiid_get_acc_cal(wiimote, (enum cwiid_ext_type)CWIID_EXT_NUNCHUK, &nc_cal);
+              if(!(return_value_cwiid_get_acc_cal_5 == 0))
               {
-                unsigned long int return_value_gtk_window_get_type$3;
-                return_value_gtk_window_get_type$3=gtk_window_get_type();
-                struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-                return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$3);
-                message((enum anonymous$17)GTK_MESSAGE_ERROR, "Unable to retrieve accelerometer calibration", (struct _GtkWindow *)return_value_g_type_check_instance_cast$4);
+                unsigned long int return_value_gtk_window_get_type_3;
+                return_value_gtk_window_get_type_3=gtk_window_get_type();
+                struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+                return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_3);
+                message((enum anonymous_17)GTK_MESSAGE_ERROR, "Unable to retrieve accelerometer calibration", (struct _GtkWindow *)return_value_g_type_check_instance_cast_4);
               }
 
             }
@@ -8081,9 +8081,9 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
           case CWIID_EXT_UNKNOWN:
             ext_str = "Unknown extension";
         }
-        return_value_gtk_statusbar_get_type$6=gtk_statusbar_get_type();
-        return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)statExtension, return_value_gtk_statusbar_get_type$6);
-        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$7, (unsigned int)0, ext_str);
+        return_value_gtk_statusbar_get_type_6=gtk_statusbar_get_type();
+        return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)statExtension, return_value_gtk_statusbar_get_type_6);
+        gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_7, (unsigned int)0, ext_str);
         clear_nunchuk_widgets();
         clear_classic_widgets();
         ext_type = (mesg_array + (signed long int)i)->status_mesg.ext_type;
@@ -8130,27 +8130,27 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
 // file main.c line 1228
 void cwiid_classic(struct cwiid_classic_mesg *mesg)
 {
-  unsigned long int return_value_gtk_check_menu_item_get_type$9;
-  return_value_gtk_check_menu_item_get_type$9=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type$9);
-  signed int return_value_gtk_check_menu_item_get_active$11;
-  return_value_gtk_check_menu_item_get_active$11=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$10);
-  if(!(return_value_gtk_check_menu_item_get_active$11 == 0))
+  unsigned long int return_value_gtk_check_menu_item_get_type_9;
+  return_value_gtk_check_menu_item_get_type_9=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type_9);
+  signed int return_value_gtk_check_menu_item_get_active_11;
+  return_value_gtk_check_menu_item_get_active_11=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_10);
+  if(!(return_value_gtk_check_menu_item_get_active_11 == 0))
   {
-    gtk_widget_modify_bg(evCCUp, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0001) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCDown, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x4000) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCLeft, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0002) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCRight, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x8000) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCMinus, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x1000) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCPlus, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0400) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCHome, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0800) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCA, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0010) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCB, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0040) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCX, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0008) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCY, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0020) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCZL, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0080) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evCCZR, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0004) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCUp, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0001) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCDown, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x4000) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCLeft, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0002) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCRight, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x8000) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCMinus, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x1000) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCPlus, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0400) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCHome, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0800) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCA, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0010) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCB, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0040) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCX, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0008) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCY, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0020) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCZL, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0080) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evCCZR, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0004) != 0 ? &btn_on : &btn_off);
     cc_l_stick.valid = (char)1;
     cc_l_stick.x = mesg->l_stick[(signed long int)0];
     cc_l_stick.y = mesg->l_stick[(signed long int)1];
@@ -8161,29 +8161,29 @@ void cwiid_classic(struct cwiid_classic_mesg *mesg)
     gtk_widget_queue_draw(drawCCRStick);
     static char str[6l];
     g_snprintf(str, (unsigned long int)6, "%X", mesg->l);
-    unsigned long int return_value_gtk_label_get_type$1;
-    return_value_gtk_label_get_type$1=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)lblCCLVal, return_value_gtk_label_get_type$1);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$2, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$3;
-    return_value_gtk_progress_bar_get_type$3=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)progCCL, return_value_gtk_progress_bar_get_type$3);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$4, (double)mesg->l / (double)0x1F);
-    gtk_widget_modify_bg(evCCL, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x2000) != 0 ? &btn_on : &btn_off);
+    unsigned long int return_value_gtk_label_get_type_1;
+    return_value_gtk_label_get_type_1=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)lblCCLVal, return_value_gtk_label_get_type_1);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_2, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_3;
+    return_value_gtk_progress_bar_get_type_3=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)progCCL, return_value_gtk_progress_bar_get_type_3);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_4, (double)mesg->l / (double)0x1F);
+    gtk_widget_modify_bg(evCCL, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x2000) != 0 ? &btn_on : &btn_off);
     g_snprintf(str, (unsigned long int)6, "%X", mesg->r);
-    unsigned long int return_value_gtk_label_get_type$5;
-    return_value_gtk_label_get_type$5=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)lblCCRVal, return_value_gtk_label_get_type$5);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$6, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$7;
-    return_value_gtk_progress_bar_get_type$7=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)progCCR, return_value_gtk_progress_bar_get_type$7);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$8, (double)mesg->r / (double)0x1F);
-    gtk_widget_modify_bg(evCCR, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0200) != 0 ? &btn_on : &btn_off);
+    unsigned long int return_value_gtk_label_get_type_5;
+    return_value_gtk_label_get_type_5=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)lblCCRVal, return_value_gtk_label_get_type_5);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_6, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_7;
+    return_value_gtk_progress_bar_get_type_7=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)progCCR, return_value_gtk_progress_bar_get_type_7);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_8, (double)mesg->r / (double)0x1F);
+    gtk_widget_modify_bg(evCCR, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x0200) != 0 ? &btn_on : &btn_off);
   }
 
 }
@@ -8193,22 +8193,22 @@ void cwiid_classic(struct cwiid_classic_mesg *mesg)
 signed int cwiid_close(struct wiimote *wiimote)
 {
   void *pthread_ret;
-  signed int return_value_pthread_cancel$1;
-  return_value_pthread_cancel$1=pthread_cancel(wiimote->router_thread);
-  signed int return_value_pthread_join$2;
-  return_value_pthread_join$2=pthread_join(wiimote->router_thread, &pthread_ret);
-  if(!(return_value_pthread_join$2 == 0))
+  signed int return_value_pthread_cancel_1;
+  return_value_pthread_cancel_1=pthread_cancel(wiimote->router_thread);
+  signed int return_value_pthread_join_2;
+  return_value_pthread_join_2=pthread_join(wiimote->router_thread, &pthread_ret);
+  if(!(return_value_pthread_join_2 == 0))
     cwiid_err(wiimote, "Thread join error (router thread)");
 
   else
     if(!(pthread_ret == NULL) && !(pthread_ret == (void *)-1))
       cwiid_err(wiimote, "Bad return value from router thread");
 
-  signed int return_value_pthread_cancel$3;
-  return_value_pthread_cancel$3=pthread_cancel(wiimote->status_thread);
-  signed int return_value_pthread_join$4;
-  return_value_pthread_join$4=pthread_join(wiimote->status_thread, &pthread_ret);
-  if(!(return_value_pthread_join$4 == 0))
+  signed int return_value_pthread_cancel_3;
+  return_value_pthread_cancel_3=pthread_cancel(wiimote->status_thread);
+  signed int return_value_pthread_join_4;
+  return_value_pthread_join_4=pthread_join(wiimote->status_thread, &pthread_ret);
+  if(!(return_value_pthread_join_4 == 0))
     cwiid_err(wiimote, "Thread join error (status thread)");
 
   else
@@ -8217,80 +8217,80 @@ signed int cwiid_close(struct wiimote *wiimote)
 
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_cancel_mesg_callback$5;
-    return_value_cancel_mesg_callback$5=cancel_mesg_callback(wiimote);
+    signed int return_value_cancel_mesg_callback_5;
+    return_value_cancel_mesg_callback_5=cancel_mesg_callback(wiimote);
   }
 
-  signed int return_value_cancel_rw$6;
-  return_value_cancel_rw$6=cancel_rw(wiimote);
-  signed int return_value_close$7;
-  return_value_close$7=close(wiimote->int_socket);
-  if(!(return_value_close$7 == 0))
+  signed int return_value_cancel_rw_6;
+  return_value_cancel_rw_6=cancel_rw(wiimote);
+  signed int return_value_close_7;
+  return_value_close_7=close(wiimote->int_socket);
+  if(!(return_value_close_7 == 0))
     cwiid_err(wiimote, "Socket close error (interrupt channel)");
 
-  signed int return_value_close$8;
-  return_value_close$8=close(wiimote->ctl_socket);
-  if(!(return_value_close$8 == 0))
+  signed int return_value_close_8;
+  return_value_close_8=close(wiimote->ctl_socket);
+  if(!(return_value_close_8 == 0))
     cwiid_err(wiimote, "Socket close error (control channel)");
 
-  signed int return_value_close$9;
-  return_value_close$9=close(wiimote->mesg_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$11;
-  signed int return_value_close$10;
-  if(!(return_value_close$9 == 0))
-    tmp_if_expr$11 = (_Bool)1;
+  signed int return_value_close_9;
+  return_value_close_9=close(wiimote->mesg_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_11;
+  signed int return_value_close_10;
+  if(!(return_value_close_9 == 0))
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_close$10=close(wiimote->mesg_pipe[(signed long int)1]);
-    tmp_if_expr$11 = return_value_close$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_10=close(wiimote->mesg_pipe[(signed long int)1]);
+    tmp_if_expr_11 = return_value_close_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$11)
+  if(tmp_if_expr_11)
     cwiid_err(wiimote, "Pipe close error (mesg pipe)");
 
-  signed int return_value_close$12;
-  return_value_close$12=close(wiimote->status_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$14;
-  signed int return_value_close$13;
-  if(!(return_value_close$12 == 0))
-    tmp_if_expr$14 = (_Bool)1;
+  signed int return_value_close_12;
+  return_value_close_12=close(wiimote->status_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_14;
+  signed int return_value_close_13;
+  if(!(return_value_close_12 == 0))
+    tmp_if_expr_14 = (_Bool)1;
 
   else
   {
-    return_value_close$13=close(wiimote->status_pipe[(signed long int)1]);
-    tmp_if_expr$14 = return_value_close$13 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_13=close(wiimote->status_pipe[(signed long int)1]);
+    tmp_if_expr_14 = return_value_close_13 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$14)
+  if(tmp_if_expr_14)
     cwiid_err(wiimote, "Pipe close error (status pipe)");
 
-  signed int return_value_close$15;
-  return_value_close$15=close(wiimote->rw_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$17;
-  signed int return_value_close$16;
-  if(!(return_value_close$15 == 0))
-    tmp_if_expr$17 = (_Bool)1;
+  signed int return_value_close_15;
+  return_value_close_15=close(wiimote->rw_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_17;
+  signed int return_value_close_16;
+  if(!(return_value_close_15 == 0))
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_close$16=close(wiimote->rw_pipe[(signed long int)1]);
-    tmp_if_expr$17 = return_value_close$16 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_16=close(wiimote->rw_pipe[(signed long int)1]);
+    tmp_if_expr_17 = return_value_close_16 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$17)
+  if(tmp_if_expr_17)
     cwiid_err(wiimote, "Pipe close error (rw pipe)");
 
-  signed int return_value_pthread_mutex_destroy$18;
-  return_value_pthread_mutex_destroy$18=pthread_mutex_destroy(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_destroy$18 == 0))
+  signed int return_value_pthread_mutex_destroy_18;
+  return_value_pthread_mutex_destroy_18=pthread_mutex_destroy(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_destroy_18 == 0))
     cwiid_err(wiimote, "Mutex destroy error (state)");
 
-  signed int return_value_pthread_mutex_destroy$19;
-  return_value_pthread_mutex_destroy$19=pthread_mutex_destroy(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_destroy$19 == 0))
+  signed int return_value_pthread_mutex_destroy_19;
+  return_value_pthread_mutex_destroy_19=pthread_mutex_destroy(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_destroy_19 == 0))
     cwiid_err(wiimote, "Mutex destroy error (rw)");
 
-  signed int return_value_pthread_mutex_destroy$20;
-  return_value_pthread_mutex_destroy$20=pthread_mutex_destroy(&wiimote->rpt_mutex);
-  if(!(return_value_pthread_mutex_destroy$20 == 0))
+  signed int return_value_pthread_mutex_destroy_20;
+  return_value_pthread_mutex_destroy_20=pthread_mutex_destroy(&wiimote->rpt_mutex);
+  if(!(return_value_pthread_mutex_destroy_20 == 0))
     cwiid_err(wiimote, "Mutex destroy error (rpt)");
 
   free((void *)wiimote);
@@ -8339,9 +8339,9 @@ signed int cwiid_disable(struct wiimote *wiimote, signed int flags)
   {
     if(!((0x08 & wiimote->flags) == 0))
     {
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 0);
-      if(!(return_value_fcntl$1 == 0))
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 0);
+      if(!(return_value_fcntl_1 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         return -1;
@@ -8373,9 +8373,9 @@ signed int cwiid_enable(struct wiimote *wiimote, signed int flags)
   {
     if((0x08 & wiimote->flags) == 0)
     {
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
-      if(!(return_value_fcntl$1 == 0))
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
+      if(!(return_value_fcntl_1 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         return -1;
@@ -8420,7 +8420,7 @@ void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap)
 
 // cwiid_find_wiimote
 // file bluetooth.c line 173
-signed int cwiid_find_wiimote(struct anonymous$2 *bdaddr, signed int timeout)
+signed int cwiid_find_wiimote(struct anonymous_2 *bdaddr, signed int timeout)
 {
   struct cwiid_bdinfo *bdinfo;
   signed int bdinfo_count;
@@ -8488,9 +8488,9 @@ signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_ty
       return -1;
     }
   }
-  signed int return_value_cwiid_read$1;
-  return_value_cwiid_read$1=cwiid_read(wiimote, flags, offset, (unsigned short int)7, (void *)buf);
-  if(!(return_value_cwiid_read$1 == 0))
+  signed int return_value_cwiid_read_1;
+  return_value_cwiid_read_1=cwiid_read(wiimote, flags, offset, (unsigned short int)7, (void *)buf);
+  if(!(return_value_cwiid_read_1 == 0))
   {
     cwiid_err(wiimote, "Read error (%scal)", err_str);
     return -1;
@@ -8513,9 +8513,9 @@ signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_ty
 signed int cwiid_get_balance_cal(struct wiimote *wiimote, struct balance_cal *balance_cal)
 {
   unsigned char buf[24l];
-  signed int return_value_cwiid_read$1;
-  return_value_cwiid_read$1=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xa40024, (unsigned short int)24, (void *)buf);
-  if(!(return_value_cwiid_read$1 == 0))
+  signed int return_value_cwiid_read_1;
+  return_value_cwiid_read_1=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xa40024, (unsigned short int)24, (void *)buf);
+  if(!(return_value_cwiid_read_1 == 0))
   {
     cwiid_err(wiimote, "Read error (balancecal)");
     return -1;
@@ -8543,7 +8543,7 @@ signed int cwiid_get_balance_cal(struct wiimote *wiimote, struct balance_cal *ba
 // file bluetooth.c line 54
 signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signed int max_bdinfo, struct cwiid_bdinfo **bdinfo, unsigned char flags)
 {
-  struct anonymous$24 *dev_list = (struct anonymous$24 *)(void *)0;
+  struct anonymous_24 *dev_list = (struct anonymous_24 *)(void *)0;
   signed int max_inquiry;
   signed int dev_count;
   signed int sock = -1;
@@ -8553,14 +8553,14 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
   signed int err = 0;
   signed int ret;
   *bdinfo = (struct cwiid_bdinfo *)(void *)0;
-  void *return_value_malloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncmp$6;
-  signed int return_value_strncmp$5;
+  void *return_value_malloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncmp_6;
+  signed int return_value_strncmp_5;
   if(dev_id == -1)
   {
-    dev_id=hci_get_route((struct anonymous$2 *)(void *)0);
+    dev_id=hci_get_route((struct anonymous_2 *)(void *)0);
     if(!(dev_id == -1))
       goto __CPROVER_DUMP_L1;
 
@@ -8603,8 +8603,8 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
           if(max_bdinfo == -1)
             max_bdinfo = dev_count;
 
-          return_value_malloc$1=malloc((unsigned long int)max_bdinfo * sizeof(struct cwiid_bdinfo) /*41ul*/ );
-          *bdinfo = (struct cwiid_bdinfo *)return_value_malloc$1;
+          return_value_malloc_1=malloc((unsigned long int)max_bdinfo * sizeof(struct cwiid_bdinfo) /*41ul*/ );
+          *bdinfo = (struct cwiid_bdinfo *)return_value_malloc_1;
           if(*bdinfo == ((struct cwiid_bdinfo *)NULL))
           {
             cwiid_err((struct wiimote *)(void *)0, "Memory allocation error (bdinfo array)");
@@ -8620,23 +8620,23 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
               if((0x01 & (signed int)flags) == 0)
               {
                 if(!((signed int)(dev_list + (signed long int)i)->dev_class[0l] == 0x04))
-                  tmp_if_expr$2 = (_Bool)1;
+                  tmp_if_expr_2 = (_Bool)1;
 
                 else
-                  tmp_if_expr$2 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)1] != 0x25 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$2)
-                  tmp_if_expr$3 = (_Bool)1;
+                  tmp_if_expr_2 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)1] != 0x25 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_2)
+                  tmp_if_expr_3 = (_Bool)1;
 
                 else
-                  tmp_if_expr$3 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)2] != 0x00 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$3)
+                  tmp_if_expr_3 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)2] != 0x00 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_3)
                   goto __CPROVER_DUMP_L19;
 
               }
 
-              signed int return_value_hci_read_remote_name$4;
-              return_value_hci_read_remote_name$4=hci_read_remote_name(sock, &(dev_list + (signed long int)i)->bdaddr, 32, (*bdinfo + (signed long int)bdinfo_count)->name, 10000);
-              if(!(return_value_hci_read_remote_name$4 == 0))
+              signed int return_value_hci_read_remote_name_4;
+              return_value_hci_read_remote_name_4=hci_read_remote_name(sock, &(dev_list + (signed long int)i)->bdaddr, 32, (*bdinfo + (signed long int)bdinfo_count)->name, 10000);
+              if(!(return_value_hci_read_remote_name_4 == 0))
               {
                 cwiid_err((struct wiimote *)(void *)0, "Bluetooth name read error");
                 err = 1;
@@ -8645,12 +8645,12 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
 
               if((0x01 & (signed int)flags) == 0)
               {
-                return_value_strncmp$6=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-CNT-01", (unsigned long int)32);
-                if(return_value_strncmp$6 == 0)
+                return_value_strncmp_6=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-CNT-01", (unsigned long int)32);
+                if(return_value_strncmp_6 == 0)
                   goto __CPROVER_DUMP_L16;
 
-                return_value_strncmp$5=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-WBC-01", (unsigned long int)32);
-                if(return_value_strncmp$5 == 0)
+                return_value_strncmp_5=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-WBC-01", (unsigned long int)32);
+                if(return_value_strncmp_5 == 0)
                   goto __CPROVER_DUMP_L16;
 
               }
@@ -8676,9 +8676,9 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
             else
               if(!(bdinfo_count >= max_bdinfo))
               {
-                void *return_value_realloc$7;
-                return_value_realloc$7=realloc((void *)*bdinfo, (unsigned long int)bdinfo_count * sizeof(struct cwiid_bdinfo) /*41ul*/ );
-                *bdinfo = (struct cwiid_bdinfo *)return_value_realloc$7;
+                void *return_value_realloc_7;
+                return_value_realloc_7=realloc((void *)*bdinfo, (unsigned long int)bdinfo_count * sizeof(struct cwiid_bdinfo) /*41ul*/ );
+                *bdinfo = (struct cwiid_bdinfo *)return_value_realloc_7;
                 if(*bdinfo == ((struct cwiid_bdinfo *)NULL))
                 {
                   cwiid_err((struct wiimote *)(void *)0, "Memory reallocation error (bdinfo array)");
@@ -8693,7 +8693,7 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
 
   CODA:
     ;
-    if(!(dev_list == ((struct anonymous$24 *)NULL)))
+    if(!(dev_list == ((struct anonymous_24 *)NULL)))
       free((void *)dev_list);
 
     if(!(sock == -1))
@@ -8732,13 +8732,13 @@ signed int cwiid_get_id(struct wiimote *wiimote)
 signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union cwiid_mesg **mesg, struct timespec *timestamp)
 {
   struct mesg_array ma;
-  signed int return_value_read_mesg_array$2;
-  return_value_read_mesg_array$2=read_mesg_array(wiimote->mesg_pipe[(signed long int)0], &ma);
-  if(!(return_value_read_mesg_array$2 == 0))
+  signed int return_value_read_mesg_array_2;
+  return_value_read_mesg_array_2=read_mesg_array(wiimote->mesg_pipe[(signed long int)0], &ma);
+  if(!(return_value_read_mesg_array_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
       return -1;
 
     else
@@ -8750,9 +8750,9 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 
   *mesg_count = (signed int)ma.count;
   *timestamp = ma.timestamp;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)ma.count * sizeof(union cwiid_mesg) /*36ul*/ );
-  *mesg = (union cwiid_mesg *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)ma.count * sizeof(union cwiid_mesg) /*36ul*/ );
+  *mesg = (union cwiid_mesg *)return_value_malloc_3;
   if(*mesg == ((union cwiid_mesg *)NULL))
   {
     cwiid_err(wiimote, "Memory allocation error (mesg array)");
@@ -8770,9 +8770,9 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 // file interface.c line 143
 signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (state mutex)");
     return -1;
@@ -8781,9 +8781,9 @@ signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
   else
   {
     memcpy((void *)state, (const void *)&wiimote->state, sizeof(struct cwiid_state) /*60ul*/ );
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&wiimote->state_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&wiimote->state_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
     {
       cwiid_err(wiimote, "Mutex unlock error (state mutex) - deadlock warning");
       return -1;
@@ -8798,13 +8798,13 @@ signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
 // file main.c line 1164
 void cwiid_ir(struct cwiid_ir_mesg *mesg)
 {
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type$1);
-  signed int return_value_gtk_check_menu_item_get_active$3;
-  return_value_gtk_check_menu_item_get_active$3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
-  if(!(return_value_gtk_check_menu_item_get_active$3 == 0))
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type_1);
+  signed int return_value_gtk_check_menu_item_get_active_3;
+  return_value_gtk_check_menu_item_get_active_3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
+  if(!(return_value_gtk_check_menu_item_get_active_3 == 0))
   {
     ir_data = *mesg;
     gtk_widget_queue_draw(drawIR);
@@ -8822,108 +8822,108 @@ void cwiid_nunchuk(struct cwiid_nunchuk_mesg *mesg)
   double a;
   double roll;
   double pitch;
-  unsigned long int return_value_gtk_check_menu_item_get_type$23;
-  return_value_gtk_check_menu_item_get_type$23=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$24;
-  return_value_g_type_check_instance_cast$24=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type$23);
-  signed int return_value_gtk_check_menu_item_get_active$25;
-  return_value_gtk_check_menu_item_get_active$25=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$24);
-  if(!(return_value_gtk_check_menu_item_get_active$25 == 0))
+  unsigned long int return_value_gtk_check_menu_item_get_type_23;
+  return_value_gtk_check_menu_item_get_type_23=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_24;
+  return_value_g_type_check_instance_cast_24=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type_23);
+  signed int return_value_gtk_check_menu_item_get_active_25;
+  return_value_gtk_check_menu_item_get_active_25=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_24);
+  if(!(return_value_gtk_check_menu_item_get_active_25 == 0))
   {
-    gtk_widget_modify_bg(evNCC, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x02) != 0 ? &btn_on : &btn_off);
-    gtk_widget_modify_bg(evNCZ, (enum anonymous$21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x01) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evNCC, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x02) != 0 ? &btn_on : &btn_off);
+    gtk_widget_modify_bg(evNCZ, (enum anonymous_21)GTK_STATE_NORMAL, ((signed int)mesg->buttons & 0x01) != 0 ? &btn_on : &btn_off);
     nc_stick.valid = (char)1;
     nc_stick.x = mesg->stick[(signed long int)0];
     nc_stick.y = mesg->stick[(signed long int)1];
     gtk_widget_queue_draw(drawNCStick);
     static char str[6l];
     g_snprintf(str, (unsigned long int)6, "%X", mesg->acc[(signed long int)0]);
-    unsigned long int return_value_gtk_label_get_type$1;
-    return_value_gtk_label_get_type$1=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccXVal, return_value_gtk_label_get_type$1);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$2, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$3;
-    return_value_gtk_progress_bar_get_type$3=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccX, return_value_gtk_progress_bar_get_type$3);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$4, (double)mesg->acc[(signed long int)0] / (double)0xFF);
+    unsigned long int return_value_gtk_label_get_type_1;
+    return_value_gtk_label_get_type_1=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccXVal, return_value_gtk_label_get_type_1);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_2, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_3;
+    return_value_gtk_progress_bar_get_type_3=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccX, return_value_gtk_progress_bar_get_type_3);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_4, (double)mesg->acc[(signed long int)0] / (double)0xFF);
     g_snprintf(str, (unsigned long int)6, "%X", mesg->acc[(signed long int)1]);
-    unsigned long int return_value_gtk_label_get_type$5;
-    return_value_gtk_label_get_type$5=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccYVal, return_value_gtk_label_get_type$5);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$6, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$7;
-    return_value_gtk_progress_bar_get_type$7=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-    return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccY, return_value_gtk_progress_bar_get_type$7);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$8, (double)mesg->acc[(signed long int)1] / (double)0xFF);
+    unsigned long int return_value_gtk_label_get_type_5;
+    return_value_gtk_label_get_type_5=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccYVal, return_value_gtk_label_get_type_5);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_6, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_7;
+    return_value_gtk_progress_bar_get_type_7=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+    return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccY, return_value_gtk_progress_bar_get_type_7);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_8, (double)mesg->acc[(signed long int)1] / (double)0xFF);
     g_snprintf(str, (unsigned long int)6, "%X", mesg->acc[(signed long int)2]);
-    unsigned long int return_value_gtk_label_get_type$9;
-    return_value_gtk_label_get_type$9=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-    return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccZVal, return_value_gtk_label_get_type$9);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$10, str);
-    unsigned long int return_value_gtk_progress_bar_get_type$11;
-    return_value_gtk_progress_bar_get_type$11=gtk_progress_bar_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$12;
-    return_value_g_type_check_instance_cast$12=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccZ, return_value_gtk_progress_bar_get_type$11);
-    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast$12, (double)mesg->acc[(signed long int)2] / (double)0xFF);
+    unsigned long int return_value_gtk_label_get_type_9;
+    return_value_gtk_label_get_type_9=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+    return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccZVal, return_value_gtk_label_get_type_9);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_10, str);
+    unsigned long int return_value_gtk_progress_bar_get_type_11;
+    return_value_gtk_progress_bar_get_type_11=gtk_progress_bar_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_12;
+    return_value_g_type_check_instance_cast_12=g_type_check_instance_cast((struct _GTypeInstance *)progNCAccZ, return_value_gtk_progress_bar_get_type_11);
+    gtk_progress_bar_set_fraction((struct _GtkProgressBar *)return_value_g_type_check_instance_cast_12, (double)mesg->acc[(signed long int)2] / (double)0xFF);
     a_x = ((double)mesg->acc[(signed long int)0] - (double)nc_cal.zero[(signed long int)0]) / (double)((signed int)nc_cal.one[(signed long int)0] - (signed int)nc_cal.zero[(signed long int)0]);
     a_y = ((double)mesg->acc[(signed long int)1] - (double)nc_cal.zero[(signed long int)1]) / (double)((signed int)nc_cal.one[(signed long int)1] - (signed int)nc_cal.zero[(signed long int)1]);
     a_z = ((double)mesg->acc[(signed long int)2] - (double)nc_cal.zero[(signed long int)2]) / (double)((signed int)nc_cal.one[(signed long int)2] - (signed int)nc_cal.zero[(signed long int)2]);
-    double return_value_pow$13;
-    return_value_pow$13=pow(a_x, (double)2);
-    double return_value_pow$14;
-    return_value_pow$14=pow(a_y, (double)2);
-    double return_value_pow$15;
-    return_value_pow$15=pow(a_z, (double)2);
-    a=sqrt(return_value_pow$13 + return_value_pow$14 + return_value_pow$15);
+    double return_value_pow_13;
+    return_value_pow_13=pow(a_x, (double)2);
+    double return_value_pow_14;
+    return_value_pow_14=pow(a_y, (double)2);
+    double return_value_pow_15;
+    return_value_pow_15=pow(a_z, (double)2);
+    a=sqrt(return_value_pow_13 + return_value_pow_14 + return_value_pow_15);
     roll=atan(a_x / a_z);
     if(a_z <= 0.0)
       roll = roll + 3.14159265358979323 * (double)(a_x > 0.0 ? 1 : -1);
 
     roll = roll * (double)-1;
-    double return_value_cos$16;
-    return_value_cos$16=cos(roll);
-    pitch=atan((a_y / a_z) * return_value_cos$16);
+    double return_value_cos_16;
+    return_value_cos_16=cos(roll);
+    pitch=atan((a_y / a_z) * return_value_cos_16);
     g_snprintf(str, (unsigned long int)6, "%.2f", a);
-    unsigned long int return_value_gtk_label_get_type$17;
-    return_value_gtk_label_get_type$17=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$18;
-    return_value_g_type_check_instance_cast$18=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccVal, return_value_gtk_label_get_type$17);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$18, str);
+    unsigned long int return_value_gtk_label_get_type_17;
+    return_value_gtk_label_get_type_17=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_18;
+    return_value_g_type_check_instance_cast_18=g_type_check_instance_cast((struct _GTypeInstance *)lblNCAccVal, return_value_gtk_label_get_type_17);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_18, str);
     g_snprintf(str, (unsigned long int)6, "%.2f", roll);
-    unsigned long int return_value_gtk_label_get_type$19;
-    return_value_gtk_label_get_type$19=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$20;
-    return_value_g_type_check_instance_cast$20=g_type_check_instance_cast((struct _GTypeInstance *)lblNCRollVal, return_value_gtk_label_get_type$19);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$20, str);
+    unsigned long int return_value_gtk_label_get_type_19;
+    return_value_gtk_label_get_type_19=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_20;
+    return_value_g_type_check_instance_cast_20=g_type_check_instance_cast((struct _GTypeInstance *)lblNCRollVal, return_value_gtk_label_get_type_19);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_20, str);
     g_snprintf(str, (unsigned long int)6, "%.2f", pitch);
-    unsigned long int return_value_gtk_label_get_type$21;
-    return_value_gtk_label_get_type$21=gtk_label_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$22;
-    return_value_g_type_check_instance_cast$22=g_type_check_instance_cast((struct _GTypeInstance *)lblNCPitchVal, return_value_gtk_label_get_type$21);
-    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast$22, str);
+    unsigned long int return_value_gtk_label_get_type_21;
+    return_value_gtk_label_get_type_21=gtk_label_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_22;
+    return_value_g_type_check_instance_cast_22=g_type_check_instance_cast((struct _GTypeInstance *)lblNCPitchVal, return_value_gtk_label_get_type_21);
+    gtk_label_set_text((struct _GtkLabel *)return_value_g_type_check_instance_cast_22, str);
   }
 
 }
 
 // cwiid_open
 // file ../libcwiid/cwiid.h line 360
-struct wiimote * cwiid_open(struct anonymous$2 *bdaddr, signed int flags)
+struct wiimote * cwiid_open(struct anonymous_2 *bdaddr, signed int flags)
 {
-  struct wiimote *return_value_cwiid_open_timeout$1;
-  return_value_cwiid_open_timeout$1=cwiid_open_timeout(bdaddr, flags, 5);
-  return return_value_cwiid_open_timeout$1;
+  struct wiimote *return_value_cwiid_open_timeout_1;
+  return_value_cwiid_open_timeout_1=cwiid_open_timeout(bdaddr, flags, 5);
+  return return_value_cwiid_open_timeout_1;
 }
 
 // cwiid_open_timeout
 // file connect.c line 73
-struct wiimote * cwiid_open_timeout(struct anonymous$2 *bdaddr, signed int flags, signed int timeout)
+struct wiimote * cwiid_open_timeout(struct anonymous_2 *bdaddr, signed int flags, signed int timeout)
 {
-  struct wiimote *cwiid_open_timeout$$1$$wiimote = (struct wiimote *)(void *)0;
+  struct wiimote *cwiid_open_timeout__1__wiimote = (struct wiimote *)(void *)0;
   struct sockaddr_l2 remote_addr;
   char mesg_pipe_init = (char)0;
   char status_pipe_init = (char)0;
@@ -8934,55 +8934,55 @@ struct wiimote * cwiid_open_timeout(struct anonymous$2 *bdaddr, signed int flags
   char router_thread_init = (char)0;
   char status_thread_init = (char)0;
   void *pthread_ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct wiimote) /*272ul*/ );
-  cwiid_open_timeout$$1$$wiimote = (struct wiimote *)return_value_malloc$1;
-  signed int return_value_pthread_mutex_lock$2;
-  signed int tmp_post$3;
-  signed int return_value_pthread_mutex_unlock$4;
-  struct anonymous$2 literal$6;
-  signed int return_value_bacmp$7;
-  signed int return_value_connect$8;
-  signed int return_value_connect$9;
-  signed int return_value_pipe$10;
-  signed int return_value_pipe$11;
-  signed int return_value_pipe$12;
-  signed int return_value_fcntl$13;
-  signed int return_value_pthread_mutex_init$15;
-  signed int return_value_pthread_mutex_init$16;
-  signed int return_value_pthread_mutex_init$17;
-  signed int return_value_pthread_create$18;
-  signed int return_value_pthread_create$19;
-  if(cwiid_open_timeout$$1$$wiimote == ((struct wiimote *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct wiimote) /*272ul*/ );
+  cwiid_open_timeout__1__wiimote = (struct wiimote *)return_value_malloc_1;
+  signed int return_value_pthread_mutex_lock_2;
+  signed int tmp_post_3;
+  signed int return_value_pthread_mutex_unlock_4;
+  struct anonymous_2 literal_6;
+  signed int return_value_bacmp_7;
+  signed int return_value_connect_8;
+  signed int return_value_connect_9;
+  signed int return_value_pipe_10;
+  signed int return_value_pipe_11;
+  signed int return_value_pipe_12;
+  signed int return_value_fcntl_13;
+  signed int return_value_pthread_mutex_init_15;
+  signed int return_value_pthread_mutex_init_16;
+  signed int return_value_pthread_mutex_init_17;
+  signed int return_value_pthread_create_18;
+  signed int return_value_pthread_create_19;
+  if(cwiid_open_timeout__1__wiimote == ((struct wiimote *)NULL))
     cwiid_err((struct wiimote *)(void *)0, "Memory allocation error (cwiid_wiimote_t)");
 
   else
   {
-    cwiid_open_timeout$$1$$wiimote->flags = flags;
-    cwiid_open_timeout$$1$$wiimote->int_socket = -1;
-    cwiid_open_timeout$$1$$wiimote->ctl_socket = cwiid_open_timeout$$1$$wiimote->int_socket;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&global_mutex);
-    if(!(return_value_pthread_mutex_lock$2 == 0))
+    cwiid_open_timeout__1__wiimote->flags = flags;
+    cwiid_open_timeout__1__wiimote->int_socket = -1;
+    cwiid_open_timeout__1__wiimote->ctl_socket = cwiid_open_timeout__1__wiimote->int_socket;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&global_mutex);
+    if(!(return_value_pthread_mutex_lock_2 == 0))
       cwiid_err((struct wiimote *)(void *)0, "Mutex lock error (global mutex)");
 
     else
     {
-      tmp_post$3 = wiimote_id;
+      tmp_post_3 = wiimote_id;
       wiimote_id = wiimote_id + 1;
-      cwiid_open_timeout$$1$$wiimote->id = tmp_post$3;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&global_mutex);
-      if(!(return_value_pthread_mutex_unlock$4 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex unlock error (global mutex) - deadlock warning");
+      cwiid_open_timeout__1__wiimote->id = tmp_post_3;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&global_mutex);
+      if(!(return_value_pthread_mutex_unlock_4 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex unlock error (global mutex) - deadlock warning");
 
       else
       {
-        literal$6 = (struct anonymous$2){ .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-        return_value_bacmp$7=bacmp$link1(bdaddr, &literal$6);
-        if(return_value_bacmp$7 == 0)
+        literal_6 = (struct anonymous_2){ .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+        return_value_bacmp_7=bacmp_link1(bdaddr, &literal_6);
+        if(return_value_bacmp_7 == 0)
         {
-          signed int return_value_cwiid_find_wiimote$5;
-          return_value_cwiid_find_wiimote$5=cwiid_find_wiimote(bdaddr, timeout);
-          if(!(return_value_cwiid_find_wiimote$5 == 0))
+          signed int return_value_cwiid_find_wiimote_5;
+          return_value_cwiid_find_wiimote_5=cwiid_find_wiimote(bdaddr, timeout);
+          if(!(return_value_cwiid_find_wiimote_5 == 0))
             goto ERR_HND;
 
           sleep((unsigned int)1);
@@ -8992,111 +8992,111 @@ struct wiimote * cwiid_open_timeout(struct anonymous$2 *bdaddr, signed int flags
         remote_addr.l2_family = (unsigned short int)31;
         remote_addr.l2_bdaddr = *bdaddr;
         remote_addr.l2_psm = (unsigned short int)17;
-        cwiid_open_timeout$$1$$wiimote->ctl_socket=socket(31, 5, 0);
-        if(cwiid_open_timeout$$1$$wiimote->ctl_socket == -1)
-          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket creation error (control socket)");
+        cwiid_open_timeout__1__wiimote->ctl_socket=socket(31, 5, 0);
+        if(cwiid_open_timeout__1__wiimote->ctl_socket == -1)
+          cwiid_err(cwiid_open_timeout__1__wiimote, "Socket creation error (control socket)");
 
         else
         {
-          return_value_connect$8=connect(cwiid_open_timeout$$1$$wiimote->ctl_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
-          if(!(return_value_connect$8 == 0))
-            cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket connect error (control channel)");
+          return_value_connect_8=connect(cwiid_open_timeout__1__wiimote->ctl_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
+          if(!(return_value_connect_8 == 0))
+            cwiid_err(cwiid_open_timeout__1__wiimote, "Socket connect error (control channel)");
 
           else
           {
             remote_addr.l2_psm = (unsigned short int)19;
-            cwiid_open_timeout$$1$$wiimote->int_socket=socket(31, 5, 0);
-            if(cwiid_open_timeout$$1$$wiimote->int_socket == -1)
-              cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket creation error (interrupt socket)");
+            cwiid_open_timeout__1__wiimote->int_socket=socket(31, 5, 0);
+            if(cwiid_open_timeout__1__wiimote->int_socket == -1)
+              cwiid_err(cwiid_open_timeout__1__wiimote, "Socket creation error (interrupt socket)");
 
             else
             {
-              return_value_connect$9=connect(cwiid_open_timeout$$1$$wiimote->int_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
-              if(!(return_value_connect$9 == 0))
-                cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket connect error (interrupt channel)");
+              return_value_connect_9=connect(cwiid_open_timeout__1__wiimote->int_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
+              if(!(return_value_connect_9 == 0))
+                cwiid_err(cwiid_open_timeout__1__wiimote, "Socket connect error (interrupt channel)");
 
               else
               {
-                return_value_pipe$10=pipe(cwiid_open_timeout$$1$$wiimote->mesg_pipe);
-                if(!(return_value_pipe$10 == 0))
-                  cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe creation error (mesg pipe)");
+                return_value_pipe_10=pipe(cwiid_open_timeout__1__wiimote->mesg_pipe);
+                if(!(return_value_pipe_10 == 0))
+                  cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe creation error (mesg pipe)");
 
                 else
                 {
                   mesg_pipe_init = (char)1;
-                  return_value_pipe$11=pipe(cwiid_open_timeout$$1$$wiimote->status_pipe);
-                  if(!(return_value_pipe$11 == 0))
-                    cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe creation error (status pipe)");
+                  return_value_pipe_11=pipe(cwiid_open_timeout__1__wiimote->status_pipe);
+                  if(!(return_value_pipe_11 == 0))
+                    cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe creation error (status pipe)");
 
                   else
                   {
                     status_pipe_init = (char)1;
-                    return_value_pipe$12=pipe(cwiid_open_timeout$$1$$wiimote->rw_pipe);
-                    if(!(return_value_pipe$12 == 0))
-                      cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe creation error (rw pipe)");
+                    return_value_pipe_12=pipe(cwiid_open_timeout__1__wiimote->rw_pipe);
+                    if(!(return_value_pipe_12 == 0))
+                      cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe creation error (rw pipe)");
 
                     else
                     {
                       rw_pipe_init = (char)1;
-                      return_value_fcntl$13=fcntl(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)1], 4, 04000);
-                      if(!(return_value_fcntl$13 == 0))
-                        cwiid_err(cwiid_open_timeout$$1$$wiimote, "File control error (mesg write pipe)");
+                      return_value_fcntl_13=fcntl(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)1], 4, 04000);
+                      if(!(return_value_fcntl_13 == 0))
+                        cwiid_err(cwiid_open_timeout__1__wiimote, "File control error (mesg write pipe)");
 
                       else
                       {
-                        if(!((0x08 & cwiid_open_timeout$$1$$wiimote->flags) == 0))
+                        if(!((0x08 & cwiid_open_timeout__1__wiimote->flags) == 0))
                         {
-                          signed int return_value_fcntl$14;
-                          return_value_fcntl$14=fcntl(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)0], 4, 04000);
-                          if(!(return_value_fcntl$14 == 0))
+                          signed int return_value_fcntl_14;
+                          return_value_fcntl_14=fcntl(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)0], 4, 04000);
+                          if(!(return_value_fcntl_14 == 0))
                           {
-                            cwiid_err(cwiid_open_timeout$$1$$wiimote, "File control error (mesg read pipe)");
+                            cwiid_err(cwiid_open_timeout__1__wiimote, "File control error (mesg read pipe)");
                             goto ERR_HND;
                           }
 
                         }
 
-                        return_value_pthread_mutex_init$15=pthread_mutex_init(&cwiid_open_timeout$$1$$wiimote->state_mutex, (const union anonymous$27 *)(void *)0);
-                        if(!(return_value_pthread_mutex_init$15 == 0))
-                          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex initialization error (state mutex)");
+                        return_value_pthread_mutex_init_15=pthread_mutex_init(&cwiid_open_timeout__1__wiimote->state_mutex, (const union anonymous_27 *)(void *)0);
+                        if(!(return_value_pthread_mutex_init_15 == 0))
+                          cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex initialization error (state mutex)");
 
                         else
                         {
                           state_mutex_init = (char)1;
-                          return_value_pthread_mutex_init$16=pthread_mutex_init(&cwiid_open_timeout$$1$$wiimote->rw_mutex, (const union anonymous$27 *)(void *)0);
-                          if(!(return_value_pthread_mutex_init$16 == 0))
-                            cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex initialization error (rw mutex)");
+                          return_value_pthread_mutex_init_16=pthread_mutex_init(&cwiid_open_timeout__1__wiimote->rw_mutex, (const union anonymous_27 *)(void *)0);
+                          if(!(return_value_pthread_mutex_init_16 == 0))
+                            cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex initialization error (rw mutex)");
 
                           else
                           {
                             rw_mutex_init = (char)1;
-                            return_value_pthread_mutex_init$17=pthread_mutex_init(&cwiid_open_timeout$$1$$wiimote->rpt_mutex, (const union anonymous$27 *)(void *)0);
-                            if(!(return_value_pthread_mutex_init$17 == 0))
-                              cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex initialization error (rpt mutex)");
+                            return_value_pthread_mutex_init_17=pthread_mutex_init(&cwiid_open_timeout__1__wiimote->rpt_mutex, (const union anonymous_27 *)(void *)0);
+                            if(!(return_value_pthread_mutex_init_17 == 0))
+                              cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex initialization error (rpt mutex)");
 
                             else
                             {
                               rpt_mutex_init = (char)1;
-                              cwiid_open_timeout$$1$$wiimote->rw_status = (enum rw_status)RW_IDLE;
-                              return_value_pthread_create$18=pthread_create(&cwiid_open_timeout$$1$$wiimote->router_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))router_thread, (void *)cwiid_open_timeout$$1$$wiimote);
-                              if(!(return_value_pthread_create$18 == 0))
-                                cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread creation error (router thread)");
+                              cwiid_open_timeout__1__wiimote->rw_status = (enum rw_status)RW_IDLE;
+                              return_value_pthread_create_18=pthread_create(&cwiid_open_timeout__1__wiimote->router_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))router_thread, (void *)cwiid_open_timeout__1__wiimote);
+                              if(!(return_value_pthread_create_18 == 0))
+                                cwiid_err(cwiid_open_timeout__1__wiimote, "Thread creation error (router thread)");
 
                               else
                               {
                                 router_thread_init = (char)1;
-                                return_value_pthread_create$19=pthread_create(&cwiid_open_timeout$$1$$wiimote->status_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))status_thread, (void *)cwiid_open_timeout$$1$$wiimote);
-                                if(!(return_value_pthread_create$19 == 0))
-                                  cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread creation error (status thread)");
+                                return_value_pthread_create_19=pthread_create(&cwiid_open_timeout__1__wiimote->status_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))status_thread, (void *)cwiid_open_timeout__1__wiimote);
+                                if(!(return_value_pthread_create_19 == 0))
+                                  cwiid_err(cwiid_open_timeout__1__wiimote, "Thread creation error (status thread)");
 
                                 else
                                 {
                                   status_thread_init = (char)1;
-                                  memset((void *)&cwiid_open_timeout$$1$$wiimote->state, 0, sizeof(struct cwiid_state) /*60ul*/ );
-                                  cwiid_open_timeout$$1$$wiimote->mesg_callback = (void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))(void *)0;
-                                  cwiid_set_led(cwiid_open_timeout$$1$$wiimote, (unsigned char)0);
-                                  cwiid_request_status(cwiid_open_timeout$$1$$wiimote);
-                                  return cwiid_open_timeout$$1$$wiimote;
+                                  memset((void *)&cwiid_open_timeout__1__wiimote->state, 0, sizeof(struct cwiid_state) /*60ul*/ );
+                                  cwiid_open_timeout__1__wiimote->mesg_callback = (void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))(void *)0;
+                                  cwiid_set_led(cwiid_open_timeout__1__wiimote, (unsigned char)0);
+                                  cwiid_request_status(cwiid_open_timeout__1__wiimote);
+                                  return cwiid_open_timeout__1__wiimote;
                                 }
                               }
                             }
@@ -9116,139 +9116,139 @@ struct wiimote * cwiid_open_timeout(struct anonymous$2 *bdaddr, signed int flags
 
 ERR_HND:
   ;
-  _Bool tmp_if_expr$26;
-  signed int return_value_close$25;
-  _Bool tmp_if_expr$29;
-  signed int return_value_close$28;
-  _Bool tmp_if_expr$32;
-  signed int return_value_close$31;
-  if(!(cwiid_open_timeout$$1$$wiimote == ((struct wiimote *)NULL)))
+  _Bool tmp_if_expr_26;
+  signed int return_value_close_25;
+  _Bool tmp_if_expr_29;
+  signed int return_value_close_28;
+  _Bool tmp_if_expr_32;
+  signed int return_value_close_31;
+  if(!(cwiid_open_timeout__1__wiimote == ((struct wiimote *)NULL)))
   {
     if(!(router_thread_init == 0))
     {
-      pthread_cancel(cwiid_open_timeout$$1$$wiimote->router_thread);
-      signed int return_value_pthread_join$20;
-      return_value_pthread_join$20=pthread_join(cwiid_open_timeout$$1$$wiimote->router_thread, &pthread_ret);
-      if(!(return_value_pthread_join$20 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread join error (router thread)");
+      pthread_cancel(cwiid_open_timeout__1__wiimote->router_thread);
+      signed int return_value_pthread_join_20;
+      return_value_pthread_join_20=pthread_join(cwiid_open_timeout__1__wiimote->router_thread, &pthread_ret);
+      if(!(return_value_pthread_join_20 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Thread join error (router thread)");
 
       else
         if(!(pthread_ret == NULL) || !(pthread_ret == (void *)-1))
-          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Bad return value from router thread");
+          cwiid_err(cwiid_open_timeout__1__wiimote, "Bad return value from router thread");
 
     }
 
     if(!(status_thread_init == 0))
     {
-      pthread_cancel(cwiid_open_timeout$$1$$wiimote->status_thread);
-      signed int return_value_pthread_join$21;
-      return_value_pthread_join$21=pthread_join(cwiid_open_timeout$$1$$wiimote->status_thread, &pthread_ret);
-      if(!(return_value_pthread_join$21 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread join error (status thread)");
+      pthread_cancel(cwiid_open_timeout__1__wiimote->status_thread);
+      signed int return_value_pthread_join_21;
+      return_value_pthread_join_21=pthread_join(cwiid_open_timeout__1__wiimote->status_thread, &pthread_ret);
+      if(!(return_value_pthread_join_21 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Thread join error (status thread)");
 
       else
         if(!(pthread_ret == NULL) || !(pthread_ret == (void *)-1))
-          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Bad return value from status thread");
+          cwiid_err(cwiid_open_timeout__1__wiimote, "Bad return value from status thread");
 
     }
 
-    if(!(cwiid_open_timeout$$1$$wiimote->int_socket == -1))
+    if(!(cwiid_open_timeout__1__wiimote->int_socket == -1))
     {
-      signed int return_value_close$22;
-      return_value_close$22=close(cwiid_open_timeout$$1$$wiimote->int_socket);
-      if(!(return_value_close$22 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket close error (interrupt channel)");
+      signed int return_value_close_22;
+      return_value_close_22=close(cwiid_open_timeout__1__wiimote->int_socket);
+      if(!(return_value_close_22 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Socket close error (interrupt channel)");
 
     }
 
-    if(!(cwiid_open_timeout$$1$$wiimote->ctl_socket == -1))
+    if(!(cwiid_open_timeout__1__wiimote->ctl_socket == -1))
     {
-      signed int return_value_close$23;
-      return_value_close$23=close(cwiid_open_timeout$$1$$wiimote->ctl_socket);
-      if(!(return_value_close$23 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket close error (control channel)");
+      signed int return_value_close_23;
+      return_value_close_23=close(cwiid_open_timeout__1__wiimote->ctl_socket);
+      if(!(return_value_close_23 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Socket close error (control channel)");
 
     }
 
     if(!(mesg_pipe_init == 0))
     {
-      signed int return_value_close$24;
-      return_value_close$24=close(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)0]);
-      if(!(return_value_close$24 == 0))
-        tmp_if_expr$26 = (_Bool)1;
+      signed int return_value_close_24;
+      return_value_close_24=close(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)0]);
+      if(!(return_value_close_24 == 0))
+        tmp_if_expr_26 = (_Bool)1;
 
       else
       {
-        return_value_close$25=close(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)1]);
-        tmp_if_expr$26 = return_value_close$25 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_25=close(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)1]);
+        tmp_if_expr_26 = return_value_close_25 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$26)
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe close error (mesg pipe)");
+      if(tmp_if_expr_26)
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe close error (mesg pipe)");
 
     }
 
     if(!(status_pipe_init == 0))
     {
-      signed int return_value_close$27;
-      return_value_close$27=close(cwiid_open_timeout$$1$$wiimote->status_pipe[(signed long int)0]);
-      if(!(return_value_close$27 == 0))
-        tmp_if_expr$29 = (_Bool)1;
+      signed int return_value_close_27;
+      return_value_close_27=close(cwiid_open_timeout__1__wiimote->status_pipe[(signed long int)0]);
+      if(!(return_value_close_27 == 0))
+        tmp_if_expr_29 = (_Bool)1;
 
       else
       {
-        return_value_close$28=close(cwiid_open_timeout$$1$$wiimote->status_pipe[(signed long int)1]);
-        tmp_if_expr$29 = return_value_close$28 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_28=close(cwiid_open_timeout__1__wiimote->status_pipe[(signed long int)1]);
+        tmp_if_expr_29 = return_value_close_28 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$29)
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe close error (status pipe)");
+      if(tmp_if_expr_29)
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe close error (status pipe)");
 
     }
 
     if(!(rw_pipe_init == 0))
     {
-      signed int return_value_close$30;
-      return_value_close$30=close(cwiid_open_timeout$$1$$wiimote->rw_pipe[(signed long int)0]);
-      if(!(return_value_close$30 == 0))
-        tmp_if_expr$32 = (_Bool)1;
+      signed int return_value_close_30;
+      return_value_close_30=close(cwiid_open_timeout__1__wiimote->rw_pipe[(signed long int)0]);
+      if(!(return_value_close_30 == 0))
+        tmp_if_expr_32 = (_Bool)1;
 
       else
       {
-        return_value_close$31=close(cwiid_open_timeout$$1$$wiimote->rw_pipe[(signed long int)1]);
-        tmp_if_expr$32 = return_value_close$31 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_31=close(cwiid_open_timeout__1__wiimote->rw_pipe[(signed long int)1]);
+        tmp_if_expr_32 = return_value_close_31 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$32)
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe close error (rw pipe)");
+      if(tmp_if_expr_32)
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe close error (rw pipe)");
 
     }
 
     if(!(state_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$33;
-      return_value_pthread_mutex_destroy$33=pthread_mutex_destroy(&cwiid_open_timeout$$1$$wiimote->state_mutex);
-      if(!(return_value_pthread_mutex_destroy$33 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex destroy error (state mutex)");
+      signed int return_value_pthread_mutex_destroy_33;
+      return_value_pthread_mutex_destroy_33=pthread_mutex_destroy(&cwiid_open_timeout__1__wiimote->state_mutex);
+      if(!(return_value_pthread_mutex_destroy_33 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex destroy error (state mutex)");
 
     }
 
     if(!(rw_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$34;
-      return_value_pthread_mutex_destroy$34=pthread_mutex_destroy(&cwiid_open_timeout$$1$$wiimote->rw_mutex);
-      if(!(return_value_pthread_mutex_destroy$34 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex destroy error (rw mutex)");
+      signed int return_value_pthread_mutex_destroy_34;
+      return_value_pthread_mutex_destroy_34=pthread_mutex_destroy(&cwiid_open_timeout__1__wiimote->rw_mutex);
+      if(!(return_value_pthread_mutex_destroy_34 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex destroy error (rw mutex)");
 
     }
 
     if(!(rpt_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$35;
-      return_value_pthread_mutex_destroy$35=pthread_mutex_destroy(&cwiid_open_timeout$$1$$wiimote->rpt_mutex);
-      if(!(return_value_pthread_mutex_destroy$35 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex destroy error (rpt mutex)");
+      signed int return_value_pthread_mutex_destroy_35;
+      return_value_pthread_mutex_destroy_35=pthread_mutex_destroy(&cwiid_open_timeout__1__wiimote->rpt_mutex);
+      if(!(return_value_pthread_mutex_destroy_35 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex destroy error (rpt mutex)");
 
     }
 
-    free((void *)cwiid_open_timeout$$1$$wiimote);
+    free((void *)cwiid_open_timeout__1__wiimote);
   }
 
   return (struct wiimote *)(void *)0;
@@ -9268,9 +9268,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   buf[(signed long int)3] = (unsigned char)(offset & (unsigned int)0xFF);
   buf[(signed long int)4] = (unsigned char)((signed int)len >> 8 & 0xFF);
   buf[(signed long int)5] = (unsigned char)((signed int)len & 0xFF);
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rw_mutex)");
     return -1;
@@ -9279,9 +9279,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   else
   {
     wiimote->rw_status = (enum rw_status)RW_READ;
-    signed int return_value_cwiid_send_rpt$2;
-    return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x17, (unsigned long int)6, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$2 == 0))
+    signed int return_value_cwiid_send_rpt_2;
+    return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x17, (unsigned long int)6, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_2 == 0))
     {
       cwiid_err(wiimote, "Report send error (read)");
       ret = -1;
@@ -9292,9 +9292,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
       cursor = (unsigned char *)data;
       for( ; !(cursor - (unsigned char *)data >= (signed long int)len); cursor = cursor + (signed long int)mesg.len)
       {
-        signed int return_value_full_read$3;
-        return_value_full_read$3=full_read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
-        if(!(return_value_full_read$3 == 0))
+        signed int return_value_full_read_3;
+        return_value_full_read_3=full_read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
+        if(!(return_value_full_read_3 == 0))
         {
           cwiid_err(wiimote, "Pipe read error (rw pipe)");
           ret = -1;
@@ -9329,9 +9329,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   CODA:
     ;
     wiimote->rw_status = (enum rw_status)RW_IDLE;
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&wiimote->rw_mutex);
-    if(!(return_value_pthread_mutex_unlock$4 == 0))
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&wiimote->rw_mutex);
+    if(!(return_value_pthread_mutex_unlock_4 == 0))
       cwiid_err(wiimote, "Mutex unlock error (rw_mutex) - deadlock warning");
 
     return ret;
@@ -9343,9 +9343,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
 signed int cwiid_request_status(struct wiimote *wiimote)
 {
   unsigned char data = (unsigned char)0;
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x15, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x15, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Status request error");
     return -1;
@@ -9360,10 +9360,10 @@ signed int cwiid_request_status(struct wiimote *wiimote)
 signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned char report, unsigned long int len, const void *data)
 {
   unsigned char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
-  buf = (unsigned char *)return_value_malloc$1;
-  signed int return_value_verify_handshake$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+  buf = (unsigned char *)return_value_malloc_1;
+  signed int return_value_verify_handshake_2;
   if(buf == ((unsigned char *)NULL))
   {
     cwiid_err(wiimote, "Memory allocation error (mesg array)");
@@ -9378,9 +9378,9 @@ signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned
     if((0x01 & (signed int)flags) == 0)
       buf[(signed long int)2] = buf[(signed long int)2] | wiimote->state.rumble;
 
-    signed long int return_value_write$3;
-    return_value_write$3=write(wiimote->ctl_socket, (const void *)buf, len + (unsigned long int)2);
-    if(!(return_value_write$3 == 2l + (signed long int)len))
+    signed long int return_value_write_3;
+    return_value_write_3=write(wiimote->ctl_socket, (const void *)buf, len + (unsigned long int)2);
+    if(!(return_value_write_3 == 2l + (signed long int)len))
     {
       free((void *)buf);
       return -1;
@@ -9388,8 +9388,8 @@ signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned
 
     else
     {
-      return_value_verify_handshake$2=verify_handshake(wiimote);
-      if(!(return_value_verify_handshake$2 == 0))
+      return_value_verify_handshake_2=verify_handshake(wiimote);
+      if(!(return_value_verify_handshake_2 == 0))
       {
         free((void *)buf);
         return -1;
@@ -9423,9 +9423,9 @@ signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led)
   unsigned char data;
   wiimote->state.led = (unsigned char)((signed int)led & 0x0F);
   data = (unsigned char)((signed int)wiimote->state.led << 4);
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Report send error (led)");
     return -1;
@@ -9441,9 +9441,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
 {
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_cancel_mesg_callback$1;
-    return_value_cancel_mesg_callback$1=cancel_mesg_callback(wiimote);
-    if(!(return_value_cancel_mesg_callback$1 == 0))
+    signed int return_value_cancel_mesg_callback_1;
+    return_value_cancel_mesg_callback_1=cancel_mesg_callback(wiimote);
+    if(!(return_value_cancel_mesg_callback_1 == 0))
       return -1;
 
   }
@@ -9451,9 +9451,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
   wiimote->mesg_callback = callback;
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&wiimote->mesg_callback_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))mesg_callback_thread, (void *)wiimote);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&wiimote->mesg_callback_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))mesg_callback_thread, (void *)wiimote);
+    if(!(return_value_pthread_create_2 == 0))
     {
       cwiid_err(wiimote, "Thread creation error (callback thread)");
       return -1;
@@ -9468,9 +9468,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode)
 {
-  signed int return_value_update_rpt_mode$1;
-  return_value_update_rpt_mode$1=update_rpt_mode(wiimote, (signed char)rpt_mode);
-  return return_value_update_rpt_mode$1;
+  signed int return_value_update_rpt_mode_1;
+  return_value_update_rpt_mode_1=update_rpt_mode(wiimote, (signed char)rpt_mode);
+  return return_value_update_rpt_mode_1;
 }
 
 // cwiid_set_rumble
@@ -9480,9 +9480,9 @@ signed int cwiid_set_rumble(struct wiimote *wiimote, unsigned char rumble)
   unsigned char data;
   wiimote->state.rumble = (unsigned char)(rumble != 0 ? 1 : 0);
   data = (unsigned char)((signed int)wiimote->state.led << 4);
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Report send error (led)");
     return -1;
@@ -9501,9 +9501,9 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
   struct rw_mesg mesg;
   signed int ret = 0;
   buf[(signed long int)0] = flags;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rw mutex)");
     return -1;
@@ -9523,18 +9523,18 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
       else
         buf[(signed long int)4] = (unsigned char)((signed int)len - (signed int)sent);
       memcpy((void *)(buf + (signed long int)5), data + (signed long int)sent, (unsigned long int)buf[(signed long int)4]);
-      signed int return_value_cwiid_send_rpt$2;
-      return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x16, (unsigned long int)21, (const void *)buf);
-      if(!(return_value_cwiid_send_rpt$2 == 0))
+      signed int return_value_cwiid_send_rpt_2;
+      return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x16, (unsigned long int)21, (const void *)buf);
+      if(!(return_value_cwiid_send_rpt_2 == 0))
       {
         cwiid_err(wiimote, "Report send error (write)");
         ret = -1;
         break;
       }
 
-      signed long int return_value_read$3;
-      return_value_read$3=read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
-      if(!((unsigned long int)return_value_read$3 == sizeof(struct rw_mesg) /*32ul*/ ))
+      signed long int return_value_read_3;
+      return_value_read_3=read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
+      if(!((unsigned long int)return_value_read_3 == sizeof(struct rw_mesg) /*32ul*/ ))
       {
         cwiid_err(wiimote, "Pipe read error (rw pipe)");
         ret = -1;
@@ -9568,9 +9568,9 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
   CODA:
     ;
     wiimote->rw_status = (enum rw_status)RW_IDLE;
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&wiimote->rw_mutex);
-    if(!(return_value_pthread_mutex_unlock$4 == 0))
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&wiimote->rw_mutex);
+    if(!(return_value_pthread_mutex_unlock_4 == 0))
       cwiid_err(wiimote, "Mutex unlock error (rw_mutex) - deadlock warning");
 
     return ret;
@@ -9595,11 +9595,11 @@ void drawIR_expose_event(void)
 
       else
         size = (signed int)ir_data.src[(signed long int)i].size + 1;
-      unsigned long int return_value_gtk_widget_get_type$1;
-      return_value_gtk_widget_get_type$1=gtk_widget_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-      return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)drawIR, return_value_gtk_widget_get_type$1);
-      gdk_draw_arc(drawIR->window, drawIR->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast$2)->state], (signed int)!(0 != 0), ((signed int)ir_data.src[(signed long int)i].pos[(signed long int)0] * width) / 1024, height - ((signed int)ir_data.src[(signed long int)i].pos[(signed long int)1] * height) / 768, size, size, 0, 64 * 360);
+      unsigned long int return_value_gtk_widget_get_type_1;
+      return_value_gtk_widget_get_type_1=gtk_widget_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+      return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)drawIR, return_value_gtk_widget_get_type_1);
+      gdk_draw_arc(drawIR->window, drawIR->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast_2)->state], (signed int)!(0 != 0), ((signed int)ir_data.src[(signed long int)i].pos[(signed long int)0] * width) / 1024, height - ((signed int)ir_data.src[(signed long int)i].pos[(signed long int)1] * height) / 768, size, size, 0, 64 * 360);
     }
 
 }
@@ -9611,18 +9611,18 @@ void drawStick_expose_event(struct _GtkWidget *drawStick, struct _GdkEventExpose
   signed int width;
   signed int height;
   gdk_window_get_geometry(drawStick->window, (signed int *)(void *)0, (signed int *)(void *)0, &width, &height, (signed int *)(void *)0);
-  unsigned long int return_value_gtk_widget_get_type$1;
-  return_value_gtk_widget_get_type$1=gtk_widget_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)drawStick, return_value_gtk_widget_get_type$1);
-  gdk_draw_arc(drawStick->window, drawStick->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast$2)->state], 0, 0, 0, width - 1, height - 1, 0, 64 * 360);
+  unsigned long int return_value_gtk_widget_get_type_1;
+  return_value_gtk_widget_get_type_1=gtk_widget_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)drawStick, return_value_gtk_widget_get_type_1);
+  gdk_draw_arc(drawStick->window, drawStick->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast_2)->state], 0, 0, 0, width - 1, height - 1, 0, 64 * 360);
   if(!(stick->valid == 0))
   {
-    unsigned long int return_value_gtk_widget_get_type$3;
-    return_value_gtk_widget_get_type$3=gtk_widget_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-    return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)drawStick, return_value_gtk_widget_get_type$3);
-    gdk_draw_arc(drawStick->window, drawStick->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast$4)->state], (signed int)!(0 != 0), (signed int)(((double)stick->x / (double)stick->max) * (double)width - (double)2), (signed int)(((double)1 - (double)stick->y / (double)stick->max) * (double)height - (double)2), 3, 3, 0, 64 * 360);
+    unsigned long int return_value_gtk_widget_get_type_3;
+    return_value_gtk_widget_get_type_3=gtk_widget_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+    return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)drawStick, return_value_gtk_widget_get_type_3);
+    gdk_draw_arc(drawStick->window, drawStick->style->fg_gc[(signed long int)((struct _GtkWidget *)return_value_g_type_check_instance_cast_4)->state], (signed int)!(0 != 0), (signed int)(((double)stick->x / (double)stick->max) * (double)width - (double)2), (signed int)(((double)1 - (double)stick->y / (double)stick->max) * (double)height - (double)2), 3, 3, 0, 64 * 360);
   }
 
 }
@@ -9632,23 +9632,23 @@ void drawStick_expose_event(struct _GtkWidget *drawStick, struct _GdkEventExpose
 signed int exec_write_seq(struct wiimote *wiimote, unsigned int len, struct write_seq *seq)
 {
   unsigned int i = (unsigned int)0;
-  signed int return_value_cwiid_send_rpt$1;
-  signed int return_value_cwiid_write$2;
+  signed int return_value_cwiid_send_rpt_1;
+  signed int return_value_cwiid_write_2;
   for( ; !(i >= len); i = i + 1u)
     switch((signed int)(seq + (signed long int)i)->type)
     {
       case WRITE_SEQ_RPT:
       {
-        return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (seq + (signed long int)i)->flags, (unsigned char)(seq + (signed long int)i)->report_offset, (unsigned long int)(seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
-        if(!(return_value_cwiid_send_rpt$1 == 0))
+        return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (seq + (signed long int)i)->flags, (unsigned char)(seq + (signed long int)i)->report_offset, (unsigned long int)(seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
+        if(!(return_value_cwiid_send_rpt_1 == 0))
           return -1;
 
         break;
       }
       case WRITE_SEQ_MEM:
       {
-        return_value_cwiid_write$2=cwiid_write(wiimote, (seq + (signed long int)i)->flags, (seq + (signed long int)i)->report_offset, (seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
-        if(!(return_value_cwiid_write$2 == 0))
+        return_value_cwiid_write_2=cwiid_write(wiimote, (seq + (signed long int)i)->flags, (seq + (signed long int)i)->report_offset, (seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
+        if(!(return_value_cwiid_write_2 == 0))
           return -1;
 
       }
@@ -9665,9 +9665,9 @@ static char * find_pixmap_file(const char *filename)
   {
     char *pathname;
     pathname=g_strdup_printf("%s%s%s", (char *)elem->data, (const void *)"/", filename);
-    signed int return_value_g_file_test$1;
-    return_value_g_file_test$1=g_file_test(pathname, (enum anonymous$23)G_FILE_TEST_EXISTS);
-    if(!(return_value_g_file_test$1 == 0))
+    signed int return_value_g_file_test_1;
+    return_value_g_file_test_1=g_file_test(pathname, (enum anonymous_23)G_FILE_TEST_EXISTS);
+    if(!(return_value_g_file_test_1 == 0))
       return pathname;
 
     g_free((void *)pathname);
@@ -9704,11 +9704,11 @@ void glade_set_atk_action_description(struct _AtkAction *action, const char *act
   i = 0;
   for( ; !(i >= n_actions); i = i + 1)
   {
-    const char *return_value_atk_action_get_name$1;
-    return_value_atk_action_get_name$1=atk_action_get_name(action, i);
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(return_value_atk_action_get_name$1, action_name);
-    if(return_value_strcmp$2 == 0)
+    const char *return_value_atk_action_get_name_1;
+    return_value_atk_action_get_name_1=atk_action_get_name(action, i);
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(return_value_atk_action_get_name_1, action_name);
+    if(return_value_strcmp_2 == 0)
       atk_action_set_description(action, i, description);
 
   }
@@ -9720,12 +9720,12 @@ struct _GtkWidget * lookup_widget(struct _GtkWidget *widget, const char *widget_
 {
   struct _GtkWidget *parent;
   struct _GtkWidget *found_widget;
-  signed int tmp_statement_expression$3;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_gtk_menu_get_type$1;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  void *return_value_g_object_get_data$6;
+  signed int tmp_statement_expression_3;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_gtk_menu_get_type_1;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  void *return_value_g_object_get_data_6;
   do
   {
     struct _GTypeInstance *__inst = (struct _GTypeInstance *)widget;
@@ -9738,31 +9738,31 @@ struct _GtkWidget * lookup_widget(struct _GtkWidget *widget, const char *widget_
     else
     {
       if(!(__inst->g_class == ((struct _GTypeClass *)NULL)))
-        tmp_if_expr$4 = __inst->g_class->g_type == __t ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = __inst->g_class->g_type == __t ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
         __r = (signed int)!(0 != 0);
 
       else
         __r=g_type_check_instance_is_a(__inst, __t);
     }
-    tmp_statement_expression$3 = __r;
-    if(!(tmp_statement_expression$3 == 0))
+    tmp_statement_expression_3 = __r;
+    if(!(tmp_statement_expression_3 == 0))
     {
-      return_value_gtk_menu_get_type$1=gtk_menu_get_type();
-      return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)widget, return_value_gtk_menu_get_type$1);
-      parent=gtk_menu_get_attach_widget((struct _GtkMenu *)return_value_g_type_check_instance_cast$2);
+      return_value_gtk_menu_get_type_1=gtk_menu_get_type();
+      return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)widget, return_value_gtk_menu_get_type_1);
+      parent=gtk_menu_get_attach_widget((struct _GtkMenu *)return_value_g_type_check_instance_cast_2);
     }
 
     else
       parent = widget->parent;
     if(parent == ((struct _GtkWidget *)NULL))
     {
-      return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)widget, (unsigned long int)(20 << 2));
-      return_value_g_object_get_data$6=g_object_get_data((struct _GObject *)return_value_g_type_check_instance_cast$5, "GladeParentKey");
-      parent = (struct _GtkWidget *)return_value_g_object_get_data$6;
+      return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)widget, (unsigned long int)(20 << 2));
+      return_value_g_object_get_data_6=g_object_get_data((struct _GObject *)return_value_g_type_check_instance_cast_5, "GladeParentKey");
+      parent = (struct _GtkWidget *)return_value_g_object_get_data_6;
     }
 
     if(parent == ((struct _GtkWidget *)NULL))
@@ -9771,13 +9771,13 @@ struct _GtkWidget * lookup_widget(struct _GtkWidget *widget, const char *widget_
     widget = parent;
   }
   while((_Bool)1);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)widget, (unsigned long int)(20 << 2));
-  void *return_value_g_object_get_data$8;
-  return_value_g_object_get_data$8=g_object_get_data((struct _GObject *)return_value_g_type_check_instance_cast$7, widget_name);
-  found_widget = (struct _GtkWidget *)return_value_g_object_get_data$8;
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)widget, (unsigned long int)(20 << 2));
+  void *return_value_g_object_get_data_8;
+  return_value_g_object_get_data_8=g_object_get_data((struct _GObject *)return_value_g_type_check_instance_cast_7, widget_name);
+  found_widget = (struct _GtkWidget *)return_value_g_object_get_data_8;
   if(found_widget == ((struct _GtkWidget *)NULL))
-    g_log((char *)0, (enum anonymous$22)G_LOG_LEVEL_WARNING, "Widget not found: %s", widget_name);
+    g_log((char *)0, (enum anonymous_22)G_LOG_LEVEL_WARNING, "Widget not found: %s", widget_name);
 
   return found_widget;
 }
@@ -9814,13 +9814,13 @@ signed int main(signed int argc, char **argv)
   while((_Bool)1);
   if(!(optind >= argc))
   {
-    signed int return_value_str2ba$2;
-    return_value_str2ba$2=str2ba(argv[(signed long int)optind], &bdaddr);
-    if(!(return_value_str2ba$2 == 0))
+    signed int return_value_str2ba_2;
+    return_value_str2ba_2=str2ba(argv[(signed long int)optind], &bdaddr);
+    if(!(return_value_str2ba_2 == 0))
     {
       printf("invalid bdaddr\n");
-      struct anonymous$2 literal$1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-      bdaddr = *(&literal$1);
+      struct anonymous_2 literal_1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+      bdaddr = *(&literal_1);
     }
 
     optind = optind + 1;
@@ -9838,21 +9838,21 @@ signed int main(signed int argc, char **argv)
     str_addr=getenv("WIIMOTE_BDADDR");
     if(!(str_addr == ((char *)NULL)))
     {
-      signed int return_value_str2ba$4;
-      return_value_str2ba$4=str2ba(str_addr, &bdaddr);
-      if(!(return_value_str2ba$4 == 0))
+      signed int return_value_str2ba_4;
+      return_value_str2ba_4=str2ba(str_addr, &bdaddr);
+      if(!(return_value_str2ba_4 == 0))
       {
         printf("invalid address in %s\n", (const void *)"WIIMOTE_BDADDR");
-        struct anonymous$2 literal$3 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-        bdaddr = *(&literal$3);
+        struct anonymous_2 literal_3 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+        bdaddr = *(&literal_3);
       }
 
     }
 
     else
     {
-      struct anonymous$2 literal$5 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-      bdaddr = *(&literal$5);
+      struct anonymous_2 literal_5 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+      bdaddr = *(&literal_5);
     }
   }
   winMain=create_winMain();
@@ -9982,40 +9982,40 @@ signed int main(signed int argc, char **argv)
   tvRW=lookup_widget(winRW, "tvRW");
   btnRWClose=lookup_widget(winRW, "btnRWClose");
   btnBeep=lookup_widget(winMain, "btnBeep");
-  unsigned long int return_value_gtk_text_view_get_type$6;
-  return_value_gtk_text_view_get_type$6=gtk_text_view_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)tvRW, return_value_gtk_text_view_get_type$6);
-  tbRW=gtk_text_view_get_buffer((struct _GtkTextView *)return_value_g_type_check_instance_cast$7);
-  g_signal_connect_data((void *)winMain, "delete_event", (void (*)(void))winMain_delete_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)winRW, "delete_event", (void (*)(void))winRW_delete_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)menuConnect, "activate", (void (*)(void))menuConnect_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)menuDisconnect, "activate", (void (*)(void))menuDisconnect_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)menuQuit, "activate", (void (*)(void))menuQuit_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)menuRW, "activate", (void (*)(void))menuRW_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)menuAbout, "activate", (void (*)(void))menuAbout_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkAcc, "toggled", (void (*)(void))chkAcc_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkIR, "toggled", (void (*)(void))chkIR_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkExt, "toggled", (void (*)(void))chkExt_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkLED1, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkLED2, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkLED3, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkLED4, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)chkRumble, "toggled", (void (*)(void))chkRumble_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)drawIR, "expose_event", (void (*)(void))drawIR_expose_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)drawNCStick, "expose_event", (void (*)(void))drawStick_expose_event, (void *)&nc_stick, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)drawCCLStick, "expose_event", (void (*)(void))drawStick_expose_event, (void *)&cc_l_stick, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)drawCCRStick, "expose_event", (void (*)(void))drawStick_expose_event, (void *)&cc_r_stick, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)btnRead, "clicked", (void (*)(void))btnRead_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)btnWrite, "clicked", (void (*)(void))btnWrite_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)btnRWClose, "clicked", (void (*)(void))btnRWClose_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
-  g_signal_connect_data((void *)btnBeep, "clicked", (void (*)(void))btnBeep_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$11)0);
+  unsigned long int return_value_gtk_text_view_get_type_6;
+  return_value_gtk_text_view_get_type_6=gtk_text_view_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)tvRW, return_value_gtk_text_view_get_type_6);
+  tbRW=gtk_text_view_get_buffer((struct _GtkTextView *)return_value_g_type_check_instance_cast_7);
+  g_signal_connect_data((void *)winMain, "delete_event", (void (*)(void))winMain_delete_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)winRW, "delete_event", (void (*)(void))winRW_delete_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)menuConnect, "activate", (void (*)(void))menuConnect_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)menuDisconnect, "activate", (void (*)(void))menuDisconnect_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)menuQuit, "activate", (void (*)(void))menuQuit_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)menuRW, "activate", (void (*)(void))menuRW_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)menuAbout, "activate", (void (*)(void))menuAbout_activate, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkAcc, "toggled", (void (*)(void))chkAcc_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkIR, "toggled", (void (*)(void))chkIR_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkExt, "toggled", (void (*)(void))chkExt_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkLED1, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkLED2, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkLED3, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkLED4, "toggled", (void (*)(void))chkLED_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)chkRumble, "toggled", (void (*)(void))chkRumble_toggled, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)drawIR, "expose_event", (void (*)(void))drawIR_expose_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)drawNCStick, "expose_event", (void (*)(void))drawStick_expose_event, (void *)&nc_stick, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)drawCCLStick, "expose_event", (void (*)(void))drawStick_expose_event, (void *)&cc_l_stick, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)drawCCRStick, "expose_event", (void (*)(void))drawStick_expose_event, (void *)&cc_r_stick, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)btnRead, "clicked", (void (*)(void))btnRead_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)btnWrite, "clicked", (void (*)(void))btnWrite_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)btnRWClose, "clicked", (void (*)(void))btnRWClose_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
+  g_signal_connect_data((void *)btnBeep, "clicked", (void (*)(void))btnBeep_clicked, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_11)0);
   btn_on.red = (unsigned short int)0;
   btn_on.blue = (unsigned short int)0;
   btn_on.green = (unsigned short int)0xFFFF;
-  struct _GtkStyle *return_value_gtk_widget_get_style$8;
-  return_value_gtk_widget_get_style$8=gtk_widget_get_style(evUp);
-  btn_off = return_value_gtk_widget_get_style$8->bg[(signed long int)GTK_STATE_NORMAL];
+  struct _GtkStyle *return_value_gtk_widget_get_style_8;
+  return_value_gtk_widget_get_style_8=gtk_widget_get_style(evUp);
+  btn_off = return_value_gtk_widget_get_style_8->bg[(signed long int)GTK_STATE_NORMAL];
   nc_stick.max = (unsigned char)0xFF;
   cc_l_stick.max = (unsigned char)0x3F;
   cc_r_stick.max = (unsigned char)0x1F;
@@ -10032,11 +10032,11 @@ signed int main(signed int argc, char **argv)
 // file main.c line 705
 void menuAbout_activate(void)
 {
-  unsigned long int return_value_gtk_window_get_type$1;
-  return_value_gtk_window_get_type$1=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$1);
-  gtk_show_about_dialog((struct _GtkWindow *)return_value_g_type_check_instance_cast$2, "name", (const void *)"CWiid wmgui", (const void *)"version", (const void *)"0.6.00", (const void *)"copyright", (const void *)"Copyright (C) 2007 L. Donnie Smith <cwiid@abstrakraft.org>", (const void *)"comments", (const void *)"Wiimote GUI", (void *)0);
+  unsigned long int return_value_gtk_window_get_type_1;
+  return_value_gtk_window_get_type_1=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_1);
+  gtk_show_about_dialog((struct _GtkWindow *)return_value_g_type_check_instance_cast_2, "name", (const void *)"CWiid wmgui", (const void *)"version", (const void *)"0.6.00", (const void *)"copyright", (const void *)"Copyright (C) 2007 L. Donnie Smith <cwiid@abstrakraft.org>", (const void *)"comments", (const void *)"Wiimote GUI", (void *)0);
 }
 
 // menuConnect_activate
@@ -10044,48 +10044,48 @@ void menuAbout_activate(void)
 void menuConnect_activate(void)
 {
   char reset_bdaddr = (char)0;
-  struct anonymous$2 literal$1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-  signed int return_value_bacmp$2;
-  return_value_bacmp$2=bacmp(&bdaddr, &literal$1);
-  if(return_value_bacmp$2 == 0)
+  struct anonymous_2 literal_1 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+  signed int return_value_bacmp_2;
+  return_value_bacmp_2=bacmp(&bdaddr, &literal_1);
+  if(return_value_bacmp_2 == 0)
     reset_bdaddr = (char)1;
 
-  unsigned long int return_value_gtk_window_get_type$3;
-  return_value_gtk_window_get_type$3=gtk_window_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$3);
-  message((enum anonymous$17)GTK_MESSAGE_INFO, "Put Wiimote in discoverable mode (press 1+2) and press OK", (struct _GtkWindow *)return_value_g_type_check_instance_cast$4);
+  unsigned long int return_value_gtk_window_get_type_3;
+  return_value_gtk_window_get_type_3=gtk_window_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_3);
+  message((enum anonymous_17)GTK_MESSAGE_INFO, "Put Wiimote in discoverable mode (press 1+2) and press OK", (struct _GtkWindow *)return_value_g_type_check_instance_cast_4);
   wiimote=cwiid_open(&bdaddr, 0x01);
-  signed int return_value_cwiid_set_mesg_callback$15;
+  signed int return_value_cwiid_set_mesg_callback_15;
   if(wiimote == ((struct wiimote *)NULL))
   {
-    unsigned long int return_value_gtk_window_get_type$5;
-    return_value_gtk_window_get_type$5=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-    return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$5);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "Unable to connect", (struct _GtkWindow *)return_value_g_type_check_instance_cast$6);
+    unsigned long int return_value_gtk_window_get_type_5;
+    return_value_gtk_window_get_type_5=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+    return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_5);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "Unable to connect", (struct _GtkWindow *)return_value_g_type_check_instance_cast_6);
     status("No connection");
   }
 
   else
   {
-    return_value_cwiid_set_mesg_callback$15=cwiid_set_mesg_callback(wiimote, cwiid_callback);
-    if(!(return_value_cwiid_set_mesg_callback$15 == 0))
+    return_value_cwiid_set_mesg_callback_15=cwiid_set_mesg_callback(wiimote, cwiid_callback);
+    if(!(return_value_cwiid_set_mesg_callback_15 == 0))
     {
-      unsigned long int return_value_gtk_window_get_type$7;
-      return_value_gtk_window_get_type$7=gtk_window_get_type();
-      struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-      return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$7);
-      message((enum anonymous$17)GTK_MESSAGE_ERROR, "Error setting callback", (struct _GtkWindow *)return_value_g_type_check_instance_cast$8);
-      signed int return_value_cwiid_close$11;
-      return_value_cwiid_close$11=cwiid_close(wiimote);
-      if(!(return_value_cwiid_close$11 == 0))
+      unsigned long int return_value_gtk_window_get_type_7;
+      return_value_gtk_window_get_type_7=gtk_window_get_type();
+      struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+      return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_7);
+      message((enum anonymous_17)GTK_MESSAGE_ERROR, "Error setting callback", (struct _GtkWindow *)return_value_g_type_check_instance_cast_8);
+      signed int return_value_cwiid_close_11;
+      return_value_cwiid_close_11=cwiid_close(wiimote);
+      if(!(return_value_cwiid_close_11 == 0))
       {
-        unsigned long int return_value_gtk_window_get_type$9;
-        return_value_gtk_window_get_type$9=gtk_window_get_type();
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-        return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$9);
-        message((enum anonymous$17)GTK_MESSAGE_ERROR, "Error on disconnect", (struct _GtkWindow *)return_value_g_type_check_instance_cast$10);
+        unsigned long int return_value_gtk_window_get_type_9;
+        return_value_gtk_window_get_type_9=gtk_window_get_type();
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+        return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_9);
+        message((enum anonymous_17)GTK_MESSAGE_ERROR, "Error on disconnect", (struct _GtkWindow *)return_value_g_type_check_instance_cast_10);
       }
 
       wiimote = (struct wiimote *)(void *)0;
@@ -10095,15 +10095,15 @@ void menuConnect_activate(void)
     else
     {
       status("Connected");
-      signed int return_value_cwiid_get_acc_cal$14;
-      return_value_cwiid_get_acc_cal$14=cwiid_get_acc_cal(wiimote, (enum cwiid_ext_type)CWIID_EXT_NONE, &wm_cal);
-      if(!(return_value_cwiid_get_acc_cal$14 == 0))
+      signed int return_value_cwiid_get_acc_cal_14;
+      return_value_cwiid_get_acc_cal_14=cwiid_get_acc_cal(wiimote, (enum cwiid_ext_type)CWIID_EXT_NONE, &wm_cal);
+      if(!(return_value_cwiid_get_acc_cal_14 == 0))
       {
-        unsigned long int return_value_gtk_window_get_type$12;
-        return_value_gtk_window_get_type$12=gtk_window_get_type();
-        struct _GTypeInstance *return_value_g_type_check_instance_cast$13;
-        return_value_g_type_check_instance_cast$13=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$12);
-        message((enum anonymous$17)GTK_MESSAGE_ERROR, "Unable to retrieve accelerometer calibration", (struct _GtkWindow *)return_value_g_type_check_instance_cast$13);
+        unsigned long int return_value_gtk_window_get_type_12;
+        return_value_gtk_window_get_type_12=gtk_window_get_type();
+        struct _GTypeInstance *return_value_g_type_check_instance_cast_13;
+        return_value_g_type_check_instance_cast_13=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_12);
+        message((enum anonymous_17)GTK_MESSAGE_ERROR, "Unable to retrieve accelerometer calibration", (struct _GtkWindow *)return_value_g_type_check_instance_cast_13);
       }
 
       set_gui_state();
@@ -10114,8 +10114,8 @@ void menuConnect_activate(void)
   }
   if(!(reset_bdaddr == 0))
   {
-    struct anonymous$2 literal$16 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-    bdaddr = *(&literal$16);
+    struct anonymous_2 literal_16 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+    bdaddr = *(&literal_16);
   }
 
 }
@@ -10124,15 +10124,15 @@ void menuConnect_activate(void)
 // file main.c line 681
 void menuDisconnect_activate(void)
 {
-  signed int return_value_cwiid_close$3;
-  return_value_cwiid_close$3=cwiid_close(wiimote);
-  if(!(return_value_cwiid_close$3 == 0))
+  signed int return_value_cwiid_close_3;
+  return_value_cwiid_close_3=cwiid_close(wiimote);
+  if(!(return_value_cwiid_close_3 == 0))
   {
-    unsigned long int return_value_gtk_window_get_type$1;
-    return_value_gtk_window_get_type$1=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-    return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$1);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "Error on disconnect", (struct _GtkWindow *)return_value_g_type_check_instance_cast$2);
+    unsigned long int return_value_gtk_window_get_type_1;
+    return_value_gtk_window_get_type_1=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+    return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_1);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "Error on disconnect", (struct _GtkWindow *)return_value_g_type_check_instance_cast_2);
   }
 
   wiimote = (struct wiimote *)(void *)0;
@@ -10168,22 +10168,22 @@ void * mesg_callback_thread(struct wiimote *wiimote)
   signed int cancelstate;
   while((_Bool)1)
   {
-    signed int return_value_read_mesg_array$1;
-    return_value_read_mesg_array$1=read_mesg_array(mesg_pipe, &ma);
-    if(!(return_value_read_mesg_array$1 == 0))
+    signed int return_value_read_mesg_array_1;
+    return_value_read_mesg_array_1=read_mesg_array(mesg_pipe, &ma);
+    if(!(return_value_read_mesg_array_1 == 0))
       cwiid_err(wiimote, "Mesg pipe read error");
 
     else
     {
-      signed int return_value_pthread_setcancelstate$2;
-      return_value_pthread_setcancelstate$2=pthread_setcancelstate(1, &cancelstate);
-      if(!(return_value_pthread_setcancelstate$2 == 0))
+      signed int return_value_pthread_setcancelstate_2;
+      return_value_pthread_setcancelstate_2=pthread_setcancelstate(1, &cancelstate);
+      if(!(return_value_pthread_setcancelstate_2 == 0))
         cwiid_err(wiimote, "Cancel state disable error (callback thread)");
 
       callback(wiimote, (signed int)ma.count, ma.array, &ma.timestamp);
-      signed int return_value_pthread_setcancelstate$3;
-      return_value_pthread_setcancelstate$3=pthread_setcancelstate(0, &cancelstate);
-      if(!(return_value_pthread_setcancelstate$3 == 0))
+      signed int return_value_pthread_setcancelstate_3;
+      return_value_pthread_setcancelstate_3=pthread_setcancelstate(0, &cancelstate);
+      if(!(return_value_pthread_setcancelstate_3 == 0))
         cwiid_err(wiimote, "Cancel state restore error (callback thread)");
 
     }
@@ -10193,15 +10193,15 @@ void * mesg_callback_thread(struct wiimote *wiimote)
 
 // message
 // file main.c line 450
-void message(enum anonymous$17 type, const char *message, struct _GtkWindow *parent)
+void message(enum anonymous_17 type, const char *message, struct _GtkWindow *parent)
 {
   struct _GtkWidget *dialog;
-  dialog=gtk_message_dialog_new(parent, (enum anonymous$12)0, type, (enum anonymous$7)GTK_BUTTONS_OK, message);
-  unsigned long int return_value_gtk_dialog_get_type$1;
-  return_value_gtk_dialog_get_type$1=gtk_dialog_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type$1);
-  gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast$2);
+  dialog=gtk_message_dialog_new(parent, (enum anonymous_12)0, type, (enum anonymous_7)GTK_BUTTONS_OK, message);
+  unsigned long int return_value_gtk_dialog_get_type_1;
+  return_value_gtk_dialog_get_type_1=gtk_dialog_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)dialog, return_value_gtk_dialog_get_type_1);
+  gtk_dialog_run((struct _GtkDialog *)return_value_g_type_check_instance_cast_2);
   gtk_widget_destroy(dialog);
 }
 
@@ -10210,12 +10210,12 @@ void message(enum anonymous$17 type, const char *message, struct _GtkWindow *par
 signed int process_acc(struct wiimote *wiimote, const unsigned char *data, struct mesg_array *ma)
 {
   struct cwiid_acc_mesg *acc_mesg;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x04 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    acc_mesg = &ma->array[(signed long int)tmp_post$1].acc_mesg;
+    acc_mesg = &ma->array[(signed long int)tmp_post_1].acc_mesg;
     acc_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_ACC;
     acc_mesg->acc[(signed long int)0] = data[(signed long int)0];
     acc_mesg->acc[(signed long int)1] = data[(signed long int)1];
@@ -10231,20 +10231,20 @@ signed int process_btn(struct wiimote *wiimote, const unsigned char *data, struc
 {
   struct cwiid_btn_mesg *btn_mesg;
   unsigned short int buttons = (unsigned short int)(((signed int)data[(signed long int)0] & 0x1F) << 8 | (signed int)data[(signed long int)1] & 0x9F);
-  _Bool tmp_if_expr$2;
-  unsigned char tmp_post$1;
+  _Bool tmp_if_expr_2;
+  unsigned char tmp_post_1;
   if(!((0x02 & (signed int)wiimote->state.rpt_mode) == 0))
   {
     if(!(wiimote->state.buttons == buttons))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (wiimote->flags & 0x04) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (wiimote->flags & 0x04) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      tmp_post$1 = ma->count;
+      tmp_post_1 = ma->count;
       ma->count = ma->count + 1;
-      btn_mesg = &ma->array[(signed long int)tmp_post$1].btn_mesg;
+      btn_mesg = &ma->array[(signed long int)tmp_post_1].btn_mesg;
       btn_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_BTN;
       btn_mesg->buttons = buttons;
     }
@@ -10259,18 +10259,18 @@ signed int process_btn(struct wiimote *wiimote, const unsigned char *data, struc
 signed int process_error(struct wiimote *wiimote, signed long int len, struct mesg_array *ma)
 {
   struct cwiid_error_mesg *error_mesg;
-  unsigned char tmp_post$1 = ma->count;
+  unsigned char tmp_post_1 = ma->count;
   ma->count = ma->count + 1;
-  error_mesg = &ma->array[(signed long int)tmp_post$1].error_mesg;
+  error_mesg = &ma->array[(signed long int)tmp_post_1].error_mesg;
   error_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_ERROR;
   if(len == 0l)
     error_mesg->error = (enum cwiid_error)CWIID_ERROR_DISCONNECT;
 
   else
     error_mesg->error = (enum cwiid_error)CWIID_ERROR_COMM;
-  signed int return_value_cancel_rw$2;
-  return_value_cancel_rw$2=cancel_rw(wiimote);
-  if(!(return_value_cancel_rw$2 == 0))
+  signed int return_value_cancel_rw_2;
+  return_value_cancel_rw_2=cancel_rw(wiimote);
+  if(!(return_value_cancel_rw_2 == 0))
     cwiid_err(wiimote, "RW cancel error");
 
   return 0;
@@ -10285,10 +10285,10 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
   struct cwiid_balance_mesg *balance_mesg;
   struct cwiid_motionplus_mesg *motionplus_mesg;
   signed int i;
-  unsigned char tmp_post$1;
-  unsigned char tmp_post$2;
-  unsigned char tmp_post$3;
-  unsigned char tmp_post$4;
+  unsigned char tmp_post_1;
+  unsigned char tmp_post_2;
+  unsigned char tmp_post_3;
+  unsigned char tmp_post_4;
   switch((signed int)wiimote->state.ext_type)
   {
     case CWIID_EXT_NONE:
@@ -10302,9 +10302,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     {
       if(!((0x10 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$1 = ma->count;
+        tmp_post_1 = ma->count;
         ma->count = ma->count + 1;
-        nunchuk_mesg = &ma->array[(signed long int)tmp_post$1].nunchuk_mesg;
+        nunchuk_mesg = &ma->array[(signed long int)tmp_post_1].nunchuk_mesg;
         nunchuk_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_NUNCHUK;
         nunchuk_mesg->stick[(signed long int)0] = data[(signed long int)0];
         nunchuk_mesg->stick[(signed long int)1] = data[(signed long int)1];
@@ -10320,9 +10320,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     {
       if(!((0x20 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$2 = ma->count;
+        tmp_post_2 = ma->count;
         ma->count = ma->count + 1;
-        classic_mesg = &ma->array[(signed long int)tmp_post$2].classic_mesg;
+        classic_mesg = &ma->array[(signed long int)tmp_post_2].classic_mesg;
         classic_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_CLASSIC;
         i = 0;
         for( ; !(i >= 6); i = i + 1)
@@ -10341,9 +10341,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     case CWIID_EXT_BALANCE:
       if(!((0x40 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$3 = ma->count;
+        tmp_post_3 = ma->count;
         ma->count = ma->count + 1;
-        balance_mesg = &ma->array[(signed long int)tmp_post$3].balance_mesg;
+        balance_mesg = &ma->array[(signed long int)tmp_post_3].balance_mesg;
         balance_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_BALANCE;
         balance_mesg->right_top = (unsigned short int)((signed int)(unsigned short int)data[(signed long int)0] << 8 | (signed int)(unsigned short int)data[(signed long int)1]);
         balance_mesg->right_bottom = (unsigned short int)((signed int)(unsigned short int)data[(signed long int)2] << 8 | (signed int)(unsigned short int)data[(signed long int)3]);
@@ -10354,9 +10354,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     case CWIID_EXT_MOTIONPLUS:
       if(!((0x80 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$4 = ma->count;
+        tmp_post_4 = ma->count;
         ma->count = ma->count + 1;
-        motionplus_mesg = &ma->array[(signed long int)tmp_post$4].motionplus_mesg;
+        motionplus_mesg = &ma->array[(signed long int)tmp_post_4].motionplus_mesg;
         motionplus_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_MOTIONPLUS;
         motionplus_mesg->angle_rate[(signed long int)0] = (unsigned short int)(((signed int)(unsigned short int)data[(signed long int)5] & 0xFC) << 6 | (signed int)(unsigned short int)data[(signed long int)2]);
         motionplus_mesg->angle_rate[(signed long int)1] = (unsigned short int)(((signed int)(unsigned short int)data[(signed long int)4] & 0xFC) << 6 | (signed int)(unsigned short int)data[(signed long int)1]);
@@ -10374,12 +10374,12 @@ signed int process_ir10(struct wiimote *wiimote, const unsigned char *data, stru
   struct cwiid_ir_mesg *ir_mesg;
   signed int i;
   const unsigned char *block;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x08 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    ir_mesg = &ma->array[(signed long int)tmp_post$1].ir_mesg;
+    ir_mesg = &ma->array[(signed long int)tmp_post_1].ir_mesg;
     ir_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_IR;
     i = 0;
     block = data;
@@ -10419,12 +10419,12 @@ signed int process_ir12(struct wiimote *wiimote, const unsigned char *data, stru
   struct cwiid_ir_mesg *ir_mesg;
   signed int i;
   const unsigned char *block;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x08 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    ir_mesg = &ma->array[(signed long int)tmp_post$1].ir_mesg;
+    ir_mesg = &ma->array[(signed long int)tmp_post_1].ir_mesg;
     ir_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_IR;
     i = 0;
     block = data;
@@ -10464,9 +10464,9 @@ signed int process_read(struct wiimote *wiimote, unsigned char *data)
     rw_mesg.len = (unsigned char)(((signed int)data[(signed long int)0] >> 4) + 1);
     rw_mesg.error = (unsigned char)((signed int)data[(signed long int)0] & 0x0F);
     memcpy((void *)&rw_mesg.data, (const void *)(data + (signed long int)3), (unsigned long int)rw_mesg.len);
-    signed long int return_value_write$1;
-    return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-    if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+    signed long int return_value_write_1;
+    return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+    if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
     {
       cwiid_err(wiimote, "RW pipe write error");
       return -1;
@@ -10489,9 +10489,9 @@ signed int process_status(struct wiimote *wiimote, const unsigned char *data, st
 
   else
     status_mesg.ext_type = (enum cwiid_ext_type)CWIID_EXT_NONE;
-  signed long int return_value_write$1;
-  return_value_write$1=write(wiimote->status_pipe[(signed long int)1], (const void *)&status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct cwiid_status_mesg) /*12ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(wiimote->status_pipe[(signed long int)1], (const void *)&status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct cwiid_status_mesg) /*12ul*/ ))
   {
     cwiid_err(wiimote, "Status pipe write error");
     return -1;
@@ -10516,9 +10516,9 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data)
   {
     rw_mesg.type = (enum rw_status)RW_WRITE;
     rw_mesg.error = data[(signed long int)0];
-    signed long int return_value_write$1;
-    return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-    if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+    signed long int return_value_write_1;
+    return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+    if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
     {
       cwiid_err(wiimote, "RW pipe write error");
       return -1;
@@ -10534,17 +10534,17 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data)
 signed int read_mesg_array(signed int fd, struct mesg_array *ma)
 {
   signed long int len = (void *)&ma->array[(signed long int)0] - (void *)ma;
-  signed int return_value_full_read$1;
-  return_value_full_read$1=full_read(fd, (void *)ma, (unsigned long int)len);
-  if(!(return_value_full_read$1 == 0))
+  signed int return_value_full_read_1;
+  return_value_full_read_1=full_read(fd, (void *)ma, (unsigned long int)len);
+  if(!(return_value_full_read_1 == 0))
     return -1;
 
   else
   {
     len = (signed long int)((unsigned long int)ma->count * sizeof(union cwiid_mesg) /*36ul*/ );
-    signed int return_value_full_read$2;
-    return_value_full_read$2=full_read(fd, (void *)&ma->array[(signed long int)0], (unsigned long int)len);
-    if(!(return_value_full_read$2 == 0))
+    signed int return_value_full_read_2;
+    return_value_full_read_2=full_read(fd, (void *)&ma->array[(signed long int)0], (unsigned long int)len);
+    if(!(return_value_full_read_2 == 0))
       return -1;
 
     else
@@ -10561,51 +10561,51 @@ void * router_thread(struct wiimote *wiimote)
   struct mesg_array ma;
   char err;
   char print_clock_err = (char)1;
-  signed int return_value_process_status$2;
-  signed int return_value_process_btn$3;
-  signed int return_value_process_btn$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_process_acc$5;
-  signed int return_value_process_btn$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_process_ext$8;
-  signed int return_value_process_btn$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_process_acc$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_process_ir12$13;
-  signed int return_value_process_btn$15;
-  _Bool tmp_if_expr$17;
-  signed int return_value_process_ext$16;
-  signed int return_value_process_btn$18;
-  _Bool tmp_if_expr$20;
-  signed int return_value_process_acc$19;
-  _Bool tmp_if_expr$22;
-  signed int return_value_process_ext$21;
-  signed int return_value_process_btn$23;
-  _Bool tmp_if_expr$25;
-  signed int return_value_process_ir10$24;
-  _Bool tmp_if_expr$27;
-  signed int return_value_process_ext$26;
-  signed int return_value_process_btn$28;
-  _Bool tmp_if_expr$30;
-  signed int return_value_process_acc$29;
-  _Bool tmp_if_expr$32;
-  signed int return_value_process_ir10$31;
-  _Bool tmp_if_expr$34;
-  signed int return_value_process_ext$33;
-  signed int return_value_process_ext$35;
-  signed int return_value_process_read$36;
-  _Bool tmp_if_expr$38;
-  signed int return_value_process_btn$37;
-  signed int return_value_process_write$39;
+  signed int return_value_process_status_2;
+  signed int return_value_process_btn_3;
+  signed int return_value_process_btn_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_process_acc_5;
+  signed int return_value_process_btn_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_process_ext_8;
+  signed int return_value_process_btn_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_process_acc_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_process_ir12_13;
+  signed int return_value_process_btn_15;
+  _Bool tmp_if_expr_17;
+  signed int return_value_process_ext_16;
+  signed int return_value_process_btn_18;
+  _Bool tmp_if_expr_20;
+  signed int return_value_process_acc_19;
+  _Bool tmp_if_expr_22;
+  signed int return_value_process_ext_21;
+  signed int return_value_process_btn_23;
+  _Bool tmp_if_expr_25;
+  signed int return_value_process_ir10_24;
+  _Bool tmp_if_expr_27;
+  signed int return_value_process_ext_26;
+  signed int return_value_process_btn_28;
+  _Bool tmp_if_expr_30;
+  signed int return_value_process_acc_29;
+  _Bool tmp_if_expr_32;
+  signed int return_value_process_ir10_31;
+  _Bool tmp_if_expr_34;
+  signed int return_value_process_ext_33;
+  signed int return_value_process_ext_35;
+  signed int return_value_process_read_36;
+  _Bool tmp_if_expr_38;
+  signed int return_value_process_btn_37;
+  signed int return_value_process_write_39;
   while((_Bool)1)
   {
     len=read(wiimote->int_socket, (void *)buf, (unsigned long int)23);
     ma.count = (unsigned char)0;
-    signed int return_value_clock_gettime$1;
-    return_value_clock_gettime$1=clock_gettime(0, &ma.timestamp);
-    if(!(return_value_clock_gettime$1 == 0))
+    signed int return_value_clock_gettime_1;
+    return_value_clock_gettime_1=clock_gettime(0, &ma.timestamp);
+    if(!(return_value_clock_gettime_1 == 0))
     {
       if(!(print_clock_err == 0))
       {
@@ -10632,158 +10632,158 @@ void * router_thread(struct wiimote *wiimote)
       {
         case 0x20:
         {
-          return_value_process_status$2=process_status(wiimote, &buf[(signed long int)2], &ma);
-          err = (char)return_value_process_status$2;
+          return_value_process_status_2=process_status(wiimote, &buf[(signed long int)2], &ma);
+          err = (char)return_value_process_status_2;
           break;
         }
         case 0x30:
         {
-          return_value_process_btn$3=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          err = (char)return_value_process_btn$3;
+          return_value_process_btn_3=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          err = (char)return_value_process_btn_3;
           break;
         }
         case 0x31:
         {
-          return_value_process_btn$4=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$4 == 0))
-            tmp_if_expr$6 = (_Bool)1;
+          return_value_process_btn_4=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_4 == 0))
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$5=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$6 = return_value_process_acc$5 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_5=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_6 = return_value_process_acc_5 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$6;
+          err = (char)tmp_if_expr_6;
           break;
         }
         case 0x32:
         {
-          return_value_process_btn$7=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$7 == 0))
-            tmp_if_expr$9 = (_Bool)1;
+          return_value_process_btn_7=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_7 == 0))
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$8=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)8, &ma);
-            tmp_if_expr$9 = return_value_process_ext$8 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_8=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)8, &ma);
+            tmp_if_expr_9 = return_value_process_ext_8 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$9;
+          err = (char)tmp_if_expr_9;
           break;
         }
         case 0x33:
         {
-          return_value_process_btn$10=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$10 == 0))
-            tmp_if_expr$12 = (_Bool)1;
+          return_value_process_btn_10=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_10 == 0))
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$11=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$12 = return_value_process_acc$11 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_11=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_12 = return_value_process_acc_11 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$12)
-            tmp_if_expr$14 = (_Bool)1;
+          if(tmp_if_expr_12)
+            tmp_if_expr_14 = (_Bool)1;
 
           else
           {
-            return_value_process_ir12$13=process_ir12(wiimote, &buf[(signed long int)7], &ma);
-            tmp_if_expr$14 = return_value_process_ir12$13 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir12_13=process_ir12(wiimote, &buf[(signed long int)7], &ma);
+            tmp_if_expr_14 = return_value_process_ir12_13 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$14;
+          err = (char)tmp_if_expr_14;
           break;
         }
         case 0x34:
         {
-          return_value_process_btn$15=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$15 == 0))
-            tmp_if_expr$17 = (_Bool)1;
+          return_value_process_btn_15=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_15 == 0))
+            tmp_if_expr_17 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$16=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)19, &ma);
-            tmp_if_expr$17 = return_value_process_ext$16 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_16=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)19, &ma);
+            tmp_if_expr_17 = return_value_process_ext_16 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$17;
+          err = (char)tmp_if_expr_17;
           break;
         }
         case 0x35:
         {
-          return_value_process_btn$18=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$18 == 0))
-            tmp_if_expr$20 = (_Bool)1;
+          return_value_process_btn_18=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_18 == 0))
+            tmp_if_expr_20 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$19=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$20 = return_value_process_acc$19 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_19=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_20 = return_value_process_acc_19 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$20)
-            tmp_if_expr$22 = (_Bool)1;
+          if(tmp_if_expr_20)
+            tmp_if_expr_22 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$21=process_ext(wiimote, &buf[(signed long int)7], (unsigned char)16, &ma);
-            tmp_if_expr$22 = return_value_process_ext$21 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_21=process_ext(wiimote, &buf[(signed long int)7], (unsigned char)16, &ma);
+            tmp_if_expr_22 = return_value_process_ext_21 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$22;
+          err = (char)tmp_if_expr_22;
           break;
         }
         case 0x36:
         {
-          return_value_process_btn$23=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$23 == 0))
-            tmp_if_expr$25 = (_Bool)1;
+          return_value_process_btn_23=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_23 == 0))
+            tmp_if_expr_25 = (_Bool)1;
 
           else
           {
-            return_value_process_ir10$24=process_ir10(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$25 = return_value_process_ir10$24 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir10_24=process_ir10(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_25 = return_value_process_ir10_24 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$25)
-            tmp_if_expr$27 = (_Bool)1;
+          if(tmp_if_expr_25)
+            tmp_if_expr_27 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$26=process_ext(wiimote, &buf[(signed long int)14], (unsigned char)9, &ma);
-            tmp_if_expr$27 = return_value_process_ext$26 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_26=process_ext(wiimote, &buf[(signed long int)14], (unsigned char)9, &ma);
+            tmp_if_expr_27 = return_value_process_ext_26 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$27;
+          err = (char)tmp_if_expr_27;
           break;
         }
         case 0x37:
         {
-          return_value_process_btn$28=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$28 == 0))
-            tmp_if_expr$30 = (_Bool)1;
+          return_value_process_btn_28=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_28 == 0))
+            tmp_if_expr_30 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$29=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$30 = return_value_process_acc$29 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_29=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_30 = return_value_process_acc_29 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$30)
-            tmp_if_expr$32 = (_Bool)1;
+          if(tmp_if_expr_30)
+            tmp_if_expr_32 = (_Bool)1;
 
           else
           {
-            return_value_process_ir10$31=process_ir10(wiimote, &buf[(signed long int)7], &ma);
-            tmp_if_expr$32 = return_value_process_ir10$31 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir10_31=process_ir10(wiimote, &buf[(signed long int)7], &ma);
+            tmp_if_expr_32 = return_value_process_ir10_31 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$32)
-            tmp_if_expr$34 = (_Bool)1;
+          if(tmp_if_expr_32)
+            tmp_if_expr_34 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$33=process_ext(wiimote, &buf[(signed long int)17], (unsigned char)6, &ma);
-            tmp_if_expr$34 = return_value_process_ext$33 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_33=process_ext(wiimote, &buf[(signed long int)17], (unsigned char)6, &ma);
+            tmp_if_expr_34 = return_value_process_ext_33 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$34;
+          err = (char)tmp_if_expr_34;
           break;
         }
         case 0x3D:
         {
-          return_value_process_ext$35=process_ext(wiimote, &buf[(signed long int)2], (unsigned char)21, &ma);
-          err = (char)return_value_process_ext$35;
+          return_value_process_ext_35=process_ext(wiimote, &buf[(signed long int)2], (unsigned char)21, &ma);
+          err = (char)return_value_process_ext_35;
           break;
         }
         case 0x3E:
@@ -10796,22 +10796,22 @@ void * router_thread(struct wiimote *wiimote)
         }
         case 0x21:
         {
-          return_value_process_read$36=process_read(wiimote, &buf[(signed long int)4]);
-          if(!(return_value_process_read$36 == 0))
-            tmp_if_expr$38 = (_Bool)1;
+          return_value_process_read_36=process_read(wiimote, &buf[(signed long int)4]);
+          if(!(return_value_process_read_36 == 0))
+            tmp_if_expr_38 = (_Bool)1;
 
           else
           {
-            return_value_process_btn$37=process_btn(wiimote, &buf[(signed long int)2], &ma);
-            tmp_if_expr$38 = return_value_process_btn$37 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_btn_37=process_btn(wiimote, &buf[(signed long int)2], &ma);
+            tmp_if_expr_38 = return_value_process_btn_37 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$38;
+          err = (char)tmp_if_expr_38;
           break;
         }
         case 0x22:
         {
-          return_value_process_write$39=process_write(wiimote, &buf[(signed long int)2]);
-          err = (char)return_value_process_write$39;
+          return_value_process_write_39=process_write(wiimote, &buf[(signed long int)2]);
+          err = (char)return_value_process_write_39;
           break;
         }
         default:
@@ -10822,9 +10822,9 @@ void * router_thread(struct wiimote *wiimote)
       }
       if(err == 0 && (signed int)ma.count >= 1)
       {
-        signed int return_value_update_state$40;
-        return_value_update_state$40=update_state(wiimote, &ma);
-        if(!(return_value_update_state$40 == 0))
+        signed int return_value_update_state_40;
+        return_value_update_state_40=update_state(wiimote, &ma);
+        if(!(return_value_update_state_40 == 0))
           cwiid_err(wiimote, "State update error");
 
         if(!((0x01 & wiimote->flags) == 0))
@@ -10865,11 +10865,11 @@ void set_gui_state()
   gtk_widget_set_sensitive(lblHome, connected);
   gtk_widget_set_sensitive(lbl1, connected);
   gtk_widget_set_sensitive(lbl2, connected);
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type$1);
-  acc_active=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type_1);
+  acc_active=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
   gtk_widget_set_sensitive(lblAccX, acc_active);
   gtk_widget_set_sensitive(lblAccY, acc_active);
   gtk_widget_set_sensitive(lblAccZ, acc_active);
@@ -10885,18 +10885,18 @@ void set_gui_state()
   gtk_widget_set_sensitive(lblAccVal, acc_active);
   gtk_widget_set_sensitive(lblRollVal, acc_active);
   gtk_widget_set_sensitive(lblPitchVal, acc_active);
-  unsigned long int return_value_gtk_check_menu_item_get_type$3;
-  return_value_gtk_check_menu_item_get_type$3=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type$3);
-  signed int return_value_gtk_check_menu_item_get_active$5;
-  return_value_gtk_check_menu_item_get_active$5=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$4);
-  gtk_widget_set_sensitive(lblIR, return_value_gtk_check_menu_item_get_active$5);
-  unsigned long int return_value_gtk_check_menu_item_get_type$6;
-  return_value_gtk_check_menu_item_get_type$6=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type$6);
-  ext_active=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$7);
+  unsigned long int return_value_gtk_check_menu_item_get_type_3;
+  return_value_gtk_check_menu_item_get_type_3=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type_3);
+  signed int return_value_gtk_check_menu_item_get_active_5;
+  return_value_gtk_check_menu_item_get_active_5=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_4);
+  gtk_widget_set_sensitive(lblIR, return_value_gtk_check_menu_item_get_active_5);
+  unsigned long int return_value_gtk_check_menu_item_get_type_6;
+  return_value_gtk_check_menu_item_get_type_6=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type_6);
+  ext_active=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_7);
   gtk_widget_set_sensitive(lblNCC, ext_active);
   gtk_widget_set_sensitive(lblNCZ, ext_active);
   gtk_widget_set_sensitive(lblNCAccX, ext_active);
@@ -10940,42 +10940,42 @@ void set_gui_state()
 void set_report_mode(void)
 {
   unsigned char rpt_mode = (unsigned char)(0x01 | 0x02);
-  unsigned long int return_value_gtk_check_menu_item_get_type$1;
-  return_value_gtk_check_menu_item_get_type$1=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type$1);
-  signed int return_value_gtk_check_menu_item_get_active$3;
-  return_value_gtk_check_menu_item_get_active$3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$2);
-  if(!(return_value_gtk_check_menu_item_get_active$3 == 0))
+  unsigned long int return_value_gtk_check_menu_item_get_type_1;
+  return_value_gtk_check_menu_item_get_type_1=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)chkIR, return_value_gtk_check_menu_item_get_type_1);
+  signed int return_value_gtk_check_menu_item_get_active_3;
+  return_value_gtk_check_menu_item_get_active_3=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_2);
+  if(!(return_value_gtk_check_menu_item_get_active_3 == 0))
     rpt_mode = rpt_mode | (unsigned char)0x08;
 
-  unsigned long int return_value_gtk_check_menu_item_get_type$4;
-  return_value_gtk_check_menu_item_get_type$4=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type$4);
-  signed int return_value_gtk_check_menu_item_get_active$6;
-  return_value_gtk_check_menu_item_get_active$6=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$5);
-  if(!(return_value_gtk_check_menu_item_get_active$6 == 0))
+  unsigned long int return_value_gtk_check_menu_item_get_type_4;
+  return_value_gtk_check_menu_item_get_type_4=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)chkAcc, return_value_gtk_check_menu_item_get_type_4);
+  signed int return_value_gtk_check_menu_item_get_active_6;
+  return_value_gtk_check_menu_item_get_active_6=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_5);
+  if(!(return_value_gtk_check_menu_item_get_active_6 == 0))
     rpt_mode = rpt_mode | (unsigned char)0x04;
 
-  unsigned long int return_value_gtk_check_menu_item_get_type$7;
-  return_value_gtk_check_menu_item_get_type$7=gtk_check_menu_item_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type$7);
-  signed int return_value_gtk_check_menu_item_get_active$9;
-  return_value_gtk_check_menu_item_get_active$9=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast$8);
-  if(!(return_value_gtk_check_menu_item_get_active$9 == 0))
+  unsigned long int return_value_gtk_check_menu_item_get_type_7;
+  return_value_gtk_check_menu_item_get_type_7=gtk_check_menu_item_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)chkExt, return_value_gtk_check_menu_item_get_type_7);
+  signed int return_value_gtk_check_menu_item_get_active_9;
+  return_value_gtk_check_menu_item_get_active_9=gtk_check_menu_item_get_active((struct _GtkCheckMenuItem *)return_value_g_type_check_instance_cast_8);
+  if(!(return_value_gtk_check_menu_item_get_active_9 == 0))
     rpt_mode = rpt_mode | (unsigned char)(0x10 | 0x20 | 0x40 | 0x80);
 
-  signed int return_value_cwiid_set_rpt_mode$12;
-  return_value_cwiid_set_rpt_mode$12=cwiid_set_rpt_mode(wiimote, rpt_mode);
-  if(!(return_value_cwiid_set_rpt_mode$12 == 0))
+  signed int return_value_cwiid_set_rpt_mode_12;
+  return_value_cwiid_set_rpt_mode_12=cwiid_set_rpt_mode(wiimote, rpt_mode);
+  if(!(return_value_cwiid_set_rpt_mode_12 == 0))
   {
-    unsigned long int return_value_gtk_window_get_type$10;
-    return_value_gtk_window_get_type$10=gtk_window_get_type();
-    struct _GTypeInstance *return_value_g_type_check_instance_cast$11;
-    return_value_g_type_check_instance_cast$11=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type$10);
-    message((enum anonymous$17)GTK_MESSAGE_ERROR, "error setting report mode", (struct _GtkWindow *)return_value_g_type_check_instance_cast$11);
+    unsigned long int return_value_gtk_window_get_type_10;
+    return_value_gtk_window_get_type_10=gtk_window_get_type();
+    struct _GTypeInstance *return_value_g_type_check_instance_cast_11;
+    return_value_g_type_check_instance_cast_11=g_type_check_instance_cast((struct _GTypeInstance *)winMain, return_value_gtk_window_get_type_10);
+    message((enum anonymous_17)GTK_MESSAGE_ERROR, "error setting report mode", (struct _GtkWindow *)return_value_g_type_check_instance_cast_11);
   }
 
 }
@@ -10984,11 +10984,11 @@ void set_report_mode(void)
 // file main.c line 459
 void status(const char *status)
 {
-  unsigned long int return_value_gtk_statusbar_get_type$1;
-  return_value_gtk_statusbar_get_type$1=gtk_statusbar_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)statConnection, return_value_gtk_statusbar_get_type$1);
-  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast$2, (unsigned int)0, status);
+  unsigned long int return_value_gtk_statusbar_get_type_1;
+  return_value_gtk_statusbar_get_type_1=gtk_statusbar_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)statConnection, return_value_gtk_statusbar_get_type_1);
+  gtk_statusbar_push((struct _GtkStatusbar *)return_value_g_type_check_instance_cast_2, (unsigned int)0, status);
 }
 
 // status_thread
@@ -11000,14 +11000,14 @@ void * status_thread(struct wiimote *wiimote)
   unsigned char buf[2l];
   ma.count = (unsigned char)1;
   status_mesg = &ma.array[(signed long int)0].status_mesg;
-  signed int return_value_cwiid_write$5;
-  signed int return_value_cwiid_write$4;
-  signed int return_value_cwiid_read$3;
+  signed int return_value_cwiid_write_5;
+  signed int return_value_cwiid_write_4;
+  signed int return_value_cwiid_read_3;
   while((_Bool)1)
   {
-    signed int return_value_full_read$1;
-    return_value_full_read$1=full_read(wiimote->status_pipe[(signed long int)0], (void *)status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
-    if(!(return_value_full_read$1 == 0))
+    signed int return_value_full_read_1;
+    return_value_full_read_1=full_read(wiimote->status_pipe[(signed long int)0], (void *)status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
+    if(!(return_value_full_read_1 == 0))
     {
       cwiid_err(wiimote, "Pipe read error (status)");
       break;
@@ -11020,9 +11020,9 @@ void * status_thread(struct wiimote *wiimote)
     {
       if((signed int)status_mesg->ext_type == CWIID_EXT_UNKNOWN)
       {
-        signed int return_value_cwiid_read$2;
-        return_value_cwiid_read$2=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
-        if(!(return_value_cwiid_read$2 == 0))
+        signed int return_value_cwiid_read_2;
+        return_value_cwiid_read_2=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
+        if(!(return_value_cwiid_read_2 == 0))
         {
           cwiid_err(wiimote, "Read error (extension error)");
           status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -11059,8 +11059,8 @@ void * status_thread(struct wiimote *wiimote)
           {
             buf[(signed long int)0] = (unsigned char)0x55;
             buf[(signed long int)1] = (unsigned char)0x00;
-            return_value_cwiid_write$5=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400F0, (unsigned short int)1, (const void *)&buf[(signed long int)0]);
-            if(!(return_value_cwiid_write$5 == 0))
+            return_value_cwiid_write_5=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400F0, (unsigned short int)1, (const void *)&buf[(signed long int)0]);
+            if(!(return_value_cwiid_write_5 == 0))
             {
               cwiid_err(wiimote, "Extension initialization error");
               status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -11068,8 +11068,8 @@ void * status_thread(struct wiimote *wiimote)
 
             else
             {
-              return_value_cwiid_write$4=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400FB, (unsigned short int)1, (const void *)&buf[(signed long int)1]);
-              if(!(return_value_cwiid_write$4 == 0))
+              return_value_cwiid_write_4=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400FB, (unsigned short int)1, (const void *)&buf[(signed long int)1]);
+              if(!(return_value_cwiid_write_4 == 0))
               {
                 cwiid_err(wiimote, "Extension initialization error");
                 status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -11077,8 +11077,8 @@ void * status_thread(struct wiimote *wiimote)
 
               else
               {
-                return_value_cwiid_read$3=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
-                if(!(return_value_cwiid_read$3 == 0))
+                return_value_cwiid_read_3=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
+                if(!(return_value_cwiid_read_3 == 0))
                 {
                   cwiid_err(wiimote, "Read error (extension error)");
                   status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -11118,22 +11118,22 @@ void * status_thread(struct wiimote *wiimote)
         }
       }
 
-      signed int return_value_update_state$6;
-      return_value_update_state$6=update_state(wiimote, &ma);
-      if(!(return_value_update_state$6 == 0))
+      signed int return_value_update_state_6;
+      return_value_update_state_6=update_state(wiimote, &ma);
+      if(!(return_value_update_state_6 == 0))
         cwiid_err(wiimote, "State update error");
 
-      signed int return_value_update_rpt_mode$7;
-      return_value_update_rpt_mode$7=update_rpt_mode(wiimote, (signed char)-1);
-      if(!(return_value_update_rpt_mode$7 == 0))
+      signed int return_value_update_rpt_mode_7;
+      return_value_update_rpt_mode_7=update_rpt_mode(wiimote, (signed char)-1);
+      if(!(return_value_update_rpt_mode_7 == 0))
         cwiid_err(wiimote, "Error reseting report mode");
 
       if(!((0x01 & (signed int)wiimote->state.rpt_mode) == 0))
       {
         if(!((0x01 & wiimote->flags) == 0))
         {
-          signed int return_value_write_mesg_array$8;
-          return_value_write_mesg_array$8=write_mesg_array(wiimote, &ma);
+          signed int return_value_write_mesg_array_8;
+          return_value_write_mesg_array_8=write_mesg_array(wiimote, &ma);
         }
 
       }
@@ -11151,16 +11151,16 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
   unsigned char rpt_type;
   struct write_seq *ir_enable_seq;
   signed int seq_len;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rpt_mutex);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rpt_mutex);
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rpt mutex)");
     return -1;
@@ -11174,21 +11174,21 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     if(!((240 & (signed int)rpt_mode) == 0))
     {
       if((signed int)wiimote->state.ext_type == CWIID_EXT_NUNCHUK)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = (signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)wiimote->state.ext_type == CWIID_EXT_MOTIONPLUS ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)wiimote->state.ext_type == CWIID_EXT_MOTIONPLUS ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(!((0x04 & (signed int)rpt_mode) == 0) && !((0x08 & (signed int)rpt_mode) == 0))
       {
@@ -11220,11 +11220,11 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     else
     {
       if(!((240 & (signed int)rpt_mode) == 0))
-        tmp_if_expr$2 = (signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         rpt_type = (unsigned char)0x32;
 
       else
@@ -11244,9 +11244,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     }
     if(!((0x08 & (signed int)rpt_mode) == 0))
     {
-      signed int return_value_exec_write_seq$6;
-      return_value_exec_write_seq$6=exec_write_seq(wiimote, (unsigned int)seq_len, ir_enable_seq);
-      if(!(return_value_exec_write_seq$6 == 0))
+      signed int return_value_exec_write_seq_6;
+      return_value_exec_write_seq_6=exec_write_seq(wiimote, (unsigned int)seq_len, ir_enable_seq);
+      if(!(return_value_exec_write_seq_6 == 0))
       {
         cwiid_err(wiimote, "IR enable error");
         return -1;
@@ -11259,9 +11259,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
       {
         if((0x08 & (signed int)rpt_mode) == 0)
         {
-          signed int return_value_exec_write_seq$7;
-          return_value_exec_write_seq$7=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), ir_disable_seq);
-          if(!(return_value_exec_write_seq$7 == 0))
+          signed int return_value_exec_write_seq_7;
+          return_value_exec_write_seq_7=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), ir_disable_seq);
+          if(!(return_value_exec_write_seq_7 == 0))
           {
             cwiid_err(wiimote, "IR disable error");
             return -1;
@@ -11273,9 +11273,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
 
     buf[(signed long int)0] = (unsigned char)((wiimote->flags & 0x02) != 0 ? 0x04 : 0);
     buf[(signed long int)1] = rpt_type;
-    signed int return_value_cwiid_send_rpt$8;
-    return_value_cwiid_send_rpt$8=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x12, (unsigned long int)2, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$8 == 0))
+    signed int return_value_cwiid_send_rpt_8;
+    return_value_cwiid_send_rpt_8=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x12, (unsigned long int)2, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_8 == 0))
     {
       cwiid_err(wiimote, "Send report error (report mode)");
       return -1;
@@ -11293,31 +11293,31 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
         memset((void *)wiimote->state.ir_src, 0, sizeof(struct cwiid_ir_src [4l]) /*32ul*/ );
 
       if((signed int)wiimote->state.ext_type == CWIID_EXT_NUNCHUK)
-        tmp_if_expr$11 = (0x10 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = (0x10 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      if(tmp_if_expr$11)
+        tmp_if_expr_11 = (_Bool)0;
+      if(tmp_if_expr_11)
         memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
       else
       {
         if((signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC)
-          tmp_if_expr$10 = (0x20 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (0x20 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
           memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
         else
         {
           if((signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE)
-            tmp_if_expr$9 = (0x40 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (0x40 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
             memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
           else
@@ -11331,9 +11331,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
         }
       }
       wiimote->state.rpt_mode = (unsigned char)rpt_mode;
-      signed int return_value_pthread_mutex_unlock$12;
-      return_value_pthread_mutex_unlock$12=pthread_mutex_unlock(&wiimote->rpt_mutex);
-      if(!(return_value_pthread_mutex_unlock$12 == 0))
+      signed int return_value_pthread_mutex_unlock_12;
+      return_value_pthread_mutex_unlock_12=pthread_mutex_unlock(&wiimote->rpt_mutex);
+      if(!(return_value_pthread_mutex_unlock_12 == 0))
       {
         cwiid_err(wiimote, "Mutex unlock error (rpt mutex) - deadlock warning");
         return -1;
@@ -11351,9 +11351,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
 {
   signed int i;
   union cwiid_mesg *mesg;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (state mutex)");
     return -1;
@@ -11435,9 +11435,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
         }
       }
     }
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&wiimote->state_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&wiimote->state_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
     {
       cwiid_err(wiimote, "Mutex unlock error (state mutex) - deadlock warning");
       return -1;
@@ -11453,9 +11453,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
 signed int verify_handshake(struct wiimote *wiimote)
 {
   unsigned char handshake;
-  signed long int return_value_read$1;
-  return_value_read$1=read(wiimote->ctl_socket, (void *)&handshake, (unsigned long int)1);
-  if(!(return_value_read$1 == 1l))
+  signed long int return_value_read_1;
+  return_value_read_1=read(wiimote->ctl_socket, (void *)&handshake, (unsigned long int)1);
+  if(!(return_value_read_1 == 1l))
   {
     cwiid_err(wiimote, "Socket read error (handshake)");
     return -1;
@@ -11500,18 +11500,18 @@ signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma)
 {
   signed long int len = (void *)&ma->array[(signed long int)ma->count] - (void *)ma;
   signed int ret = 0;
-  signed long int return_value_write$5;
-  return_value_write$5=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
-  if(!(return_value_write$5 == len))
+  signed long int return_value_write_5;
+  return_value_write_5=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
+  if(!(return_value_write_5 == len))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 11)
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 11)
     {
       cwiid_err(wiimote, "Mesg pipe overflow");
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 0);
-      if(!(return_value_fcntl$3 == 0))
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 0);
+      if(!(return_value_fcntl_3 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         ret = -1;
@@ -11519,17 +11519,17 @@ signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma)
 
       else
       {
-        signed long int return_value_write$1;
-        return_value_write$1=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
-        if(!(return_value_write$1 == len))
+        signed long int return_value_write_1;
+        return_value_write_1=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
+        if(!(return_value_write_1 == len))
         {
           cwiid_err(wiimote, "Pipe write error (mesg pipe)");
           ret = -1;
         }
 
-        signed int return_value_fcntl$2;
-        return_value_fcntl$2=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
-        if(!(return_value_fcntl$2 == 0))
+        signed int return_value_fcntl_2;
+        return_value_fcntl_2=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
+        if(!(return_value_fcntl_2 == 0))
           cwiid_err(wiimote, "File control error (mesg pipe");
 
       }

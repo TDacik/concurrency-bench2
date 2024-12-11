@@ -1,24 +1,24 @@
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'tv_sec'||S32'tv_usec'|]
 // file /usr/include/x86_64-linux-gnu/bits/utmp.h line 73
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[SYM#tag-_GObject#'parent'||*{SYM#tag-_UpClientPrivate#}$SYM#tag-_UpClientPrivate#$'priv'|]
+// tag-#anon#ST[SYM#tag-_GObject#'parent'||*{SYM#tag-_UpClientPrivate#}_SYM#tag-_UpClientPrivate#_'priv'|]
 // file /usr/include/libupower-glib/up-client.h line 47
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -282,10 +282,10 @@ extern void perror(const char *);
 extern signed int printf(const char *, ...);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$4 *);
+extern signed int pthread_cond_signal(union anonymous_4 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -315,7 +315,7 @@ inline signed int scan_acpi_num(const char *buf, const char *key);
 inline char * scan_acpi_value(const char *buf, const char *key);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$0 *, struct anonymous$0 *, struct anonymous$0 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_0 *, struct anonymous_0 *, struct anonymous_0 *, struct timeval *);
 // setutent
 // file /usr/include/utmp.h line 65
 extern void setutent(void);
@@ -384,10 +384,10 @@ extern signed int tolower(signed int);
 extern signed int unlink(const char *);
 // up_client_get_devices
 // file /usr/include/libupower-glib/up-client.h line 81
-struct _GPtrArray * up_client_get_devices(struct anonymous$1 *);
+struct _GPtrArray * up_client_get_devices(struct anonymous_1 *);
 // up_client_new
 // file /usr/include/libupower-glib/up-client.h line 74
-struct anonymous$1 * up_client_new(void);
+struct anonymous_1 * up_client_new(void);
 // upower_read
 // file upower.h line 2
 signed int upower_read(signed int battery, struct apm_info *info);
@@ -407,13 +407,13 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file sleepd.c line 272
 void writecontrol(signed int value);
 
-struct anonymous$0
+struct anonymous_0
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __lock
   signed int __lock;
@@ -433,7 +433,7 @@ struct anonymous$3
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // tv_sec
   signed int tv_sec;
@@ -457,7 +457,7 @@ struct _GObject
   struct _GData *qdata;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // parent
   struct _GObject parent;
@@ -465,10 +465,10 @@ struct anonymous$1
   struct _UpClientPrivate *priv;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$3 __data;
+  struct anonymous_3 __data;
   // __size
   char __size[48l];
   // __align
@@ -760,7 +760,7 @@ struct utmp
   // ut_session
   signed int ut_session;
   // ut_tv
-  struct anonymous$2 ut_tv;
+  struct anonymous_2 ut_tv;
   // ut_addr_v6
   signed int ut_addr_v6[4l];
   // __glibc_reserved
@@ -808,7 +808,7 @@ union anonymous activity_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0
 signed int autoprobe = 1;
 // condition_cond
 // file eventmonitor.c line 33
-union anonymous$4 condition_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_4 condition_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -882,7 +882,7 @@ signed int sleep_time = 10;
 extern struct _IO_FILE *stderr;
 // up
 // file upower.c line 14
-static struct anonymous$1 *up;
+static struct anonymous_1 *up;
 // use_acpi
 // file sleepd.c line 59
 signed int use_acpi = 0;
@@ -905,9 +905,9 @@ signed int _acpi_compare_strings(const void *a, const void *b)
 {
   const char **pa = (const char **)a;
   const char **pb = (const char **)b;
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp((const char *)*pa, (const char *)*pb);
-  return return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp((const char *)*pa, (const char *)*pb);
+  return return_value_strcasecmp_1;
 }
 
 // acpi_read
@@ -916,8 +916,8 @@ signed int acpi_read(signed int battery, struct apm_info *info)
 {
   char *buf;
   char *state;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(acpi_batt_count == 0)
   {
     info->battery_percentage = 0;
@@ -942,11 +942,11 @@ signed int acpi_read(signed int battery, struct apm_info *info)
     info->ac_line_status = 0;
     info->battery_flags = 0;
     info->using_minutes = 1;
-    char *return_value_scan_acpi_value$4;
-    return_value_scan_acpi_value$4=scan_acpi_value(buf, acpi_labels[(signed long int)6]);
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp(return_value_scan_acpi_value$4, "1");
-    if(return_value_strcmp$5 == 0)
+    char *return_value_scan_acpi_value_4;
+    return_value_scan_acpi_value_4=scan_acpi_value(buf, acpi_labels[(signed long int)6]);
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp(return_value_scan_acpi_value_4, "1");
+    if(return_value_strcmp_5 == 0)
     {
       signed int pcap;
       pcap=scan_acpi_num(buf, acpi_labels[(signed long int)7]);
@@ -977,11 +977,11 @@ signed int acpi_read(signed int battery, struct apm_info *info)
         else
         {
           if((signed int)*state == 67)
-            tmp_if_expr$2 = (signed int)state[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (signed int)state[(signed long int)1] == 104 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
           {
             info->battery_status = 3;
             info->ac_line_status = 1;
@@ -991,9 +991,9 @@ signed int acpi_read(signed int battery, struct apm_info *info)
 
             else
               info->battery_time = 0;
-            signed int return_value_abs$1;
-            return_value_abs$1=abs(info->battery_time);
-            if((double)return_value_abs$1 < 0.5)
+            signed int return_value_abs_1;
+            return_value_abs_1=abs(info->battery_time);
+            if((double)return_value_abs_1 < 0.5)
               info->battery_time = 0;
 
           }
@@ -1046,11 +1046,11 @@ signed int acpi_read(signed int battery, struct apm_info *info)
           find_batteries();
 
       if(!(pcap == 0))
-        tmp_if_expr$3 = acpi_batt_capacity[(signed long int)battery] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = acpi_batt_capacity[(signed long int)battery] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         info->battery_percentage = (signed int)(((signed long int)100 * (signed long int)pcap) / (signed long int)acpi_batt_capacity[(signed long int)battery]);
         if(info->battery_percentage >= 101)
@@ -1129,18 +1129,18 @@ signed int check_irqs(signed int activity, signed int autoprobe)
     exit(1);
   }
 
-  char *return_value_fgets$1;
-  signed int return_value_tolower$2;
-  _Bool tmp_if_expr$5;
-  char *return_value_strstr$4;
-  _Bool tmp_if_expr$7;
-  char *return_value_strstr$6;
-  _Bool tmp_if_expr$8;
+  char *return_value_fgets_1;
+  signed int return_value_tolower_2;
+  _Bool tmp_if_expr_5;
+  char *return_value_strstr_4;
+  _Bool tmp_if_expr_7;
+  char *return_value_strstr_6;
+  _Bool tmp_if_expr_8;
   static signed int probed = 0;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [64l]) /*64ul*/ , f);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [64l]) /*64ul*/ , f);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     signed long int v;
@@ -1150,28 +1150,28 @@ signed int check_irqs(signed int activity, signed int autoprobe)
       i = 0;
       for( ; !(line[(signed long int)i] == 0); i = i + 1)
       {
-        return_value_tolower$2=tolower((signed int)line[(signed long int)i]);
-        line[(signed long int)i] = (char)return_value_tolower$2;
+        return_value_tolower_2=tolower((signed int)line[(signed long int)i]);
+        line[(signed long int)i] = (char)return_value_tolower_2;
       }
-      char *return_value_strstr$3;
-      return_value_strstr$3=strstr(line, "mouse");
-      if(!(return_value_strstr$3 == ((char *)NULL)))
-        tmp_if_expr$5 = (_Bool)1;
+      char *return_value_strstr_3;
+      return_value_strstr_3=strstr(line, "mouse");
+      if(!(return_value_strstr_3 == ((char *)NULL)))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strstr$4=strstr(line, "keyboard");
-        tmp_if_expr$5 = return_value_strstr$4 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        return_value_strstr_4=strstr(line, "keyboard");
+        tmp_if_expr_5 = return_value_strstr_4 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_strstr$6=strstr(line, "i8042");
-        tmp_if_expr$7 = return_value_strstr$6 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        return_value_strstr_6=strstr(line, "i8042");
+        tmp_if_expr_7 = return_value_strstr_6 != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
         do_this_one = 1;
         probed = 1;
@@ -1179,18 +1179,18 @@ signed int check_irqs(signed int activity, signed int autoprobe)
 
     }
 
-    signed int return_value_sscanf$9;
-    return_value_sscanf$9=sscanf(line, "%d: %ld", &i, &v);
-    if(return_value_sscanf$9 == 2)
+    signed int return_value_sscanf_9;
+    return_value_sscanf_9=sscanf(line, "%d: %ld", &i, &v);
+    if(return_value_sscanf_9 == 2)
     {
       if(!(i >= 255))
       {
         if(!(do_this_one == 0))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = irqs[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = irqs[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
         {
           static signed long int irq_count[255l];
           if(!(irq_count[(signed long int)i] == v))
@@ -1232,19 +1232,19 @@ signed int check_net(signed int activity)
   signed long int tx;
   signed long int rx;
   signed int i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !(i >= 8); i = i + 1)
   {
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(netdevtx[(signed long int)i], "", (unsigned long int)1);
-    if(!(return_value_strncmp$4 == 0))
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(netdevtx[(signed long int)i], "", (unsigned long int)1);
+    if(!(return_value_strncmp_4 == 0))
     {
       char line[64l];
       struct _IO_FILE *f;
       f=fopen(netdevtx[(signed long int)i], "r");
-      char *return_value_fgets$1;
-      return_value_fgets$1=fgets(line, (signed int)sizeof(char [64l]) /*64ul*/ , f);
-      if(!(return_value_fgets$1 == ((char *)NULL)))
+      char *return_value_fgets_1;
+      return_value_fgets_1=fgets(line, (signed int)sizeof(char [64l]) /*64ul*/ , f);
+      if(!(return_value_fgets_1 == ((char *)NULL)))
         tx=strtol(line, (char **)(void *)0, 10);
 
       else
@@ -1254,9 +1254,9 @@ signed int check_net(signed int activity)
       }
       fclose(f);
       f=fopen(netdevrx[(signed long int)i], "r");
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(line, (signed int)sizeof(char [64l]) /*64ul*/ , f);
-      if(!(return_value_fgets$2 == ((char *)NULL)))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(line, (signed int)sizeof(char [64l]) /*64ul*/ , f);
+      if(!(return_value_fgets_2 == ((char *)NULL)))
         rx=strtol(line, (char **)(void *)0, 10);
 
       else
@@ -1268,11 +1268,11 @@ signed int check_net(signed int activity)
       static signed long int rx_count[8l];
       static signed long int tx_count[8l];
       if(!((signed long int)min_tx >= (tx + -tx_count[(signed long int)i]) / (signed long int)sleep_time))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (rx - rx_count[(signed long int)i]) / (signed long int)sleep_time > (signed long int)min_rx ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (rx - rx_count[(signed long int)i]) / (signed long int)sleep_time > (signed long int)min_rx ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(!(debug == 0))
           printf("sleepd: activity: network txrate: %ld rxrate: %ld\n", (tx - tx_count[(signed long int)i]) / (signed long int)sleep_time, (rx - rx_count[(signed long int)i]) / (signed long int)sleep_time);
@@ -1298,7 +1298,7 @@ signed int check_utmp(signed int total_unused)
   signed int min_idle = 2 * max_unused;
   utmpname("/var/run/utmp");
   setutent();
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     u=getutent();
@@ -1311,14 +1311,14 @@ signed int check_utmp(signed int total_unused)
       signed int i = 0;
       for( ; !((unsigned long int)i >= sizeof(char [32l]) /*32ul*/ ); i = i + 1)
       {
-        const unsigned short int **return_value___ctype_b_loc$1;
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if(!((8 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)u->ut_line[(signed long int)i]]) == 0))
-          tmp_if_expr$2 = (_Bool)1;
+        const unsigned short int **return_value___ctype_b_loc_1;
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if(!((8 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)u->ut_line[(signed long int)i]]) == 0))
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)u->ut_line[(signed long int)i] == 47 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)u->ut_line[(signed long int)i] == 47 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           tty[(signed long int)(i + 5)] = u->ut_line[(signed long int)i];
 
         else
@@ -1364,7 +1364,7 @@ extern void * eventMonitor()
   signed int i;
   signed int maxfd = 0;
   signed int retval;
-  struct anonymous$0 eventWatch;
+  struct anonymous_0 eventWatch;
   while((_Bool)1)
   {
     initializeIE();
@@ -1372,7 +1372,7 @@ extern void * eventMonitor()
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&eventWatch)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&eventWatch)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     i = 0;
@@ -1390,7 +1390,7 @@ extern void * eventMonitor()
     pthread_mutex_lock(&activity_mutex);
     eventData.emactivity = 0;
     pthread_mutex_unlock(&activity_mutex);
-    retval=select(maxfd, &eventWatch, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, (struct timeval *)(void *)0);
+    retval=select(maxfd, &eventWatch, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, (struct timeval *)(void *)0);
     if(retval >= 1)
     {
       pthread_mutex_lock(&activity_mutex);
@@ -1432,14 +1432,14 @@ signed int find_items(char *itemname, char (*infoarray)[128l], char (*statusarra
   signed int num_devices = 0;
   signed int i;
   char **devices;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)8 * sizeof(char *) /*8ul*/ );
-  devices = (char **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)8 * sizeof(char *) /*8ul*/ );
+  devices = (char **)return_value_malloc_1;
   char pathname[128l];
   sprintf(pathname, "/sys/class/power_supply");
   dir=opendir(pathname);
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   if(dir == ((struct __dirstream *)NULL))
   {
     free((void *)devices);
@@ -1456,17 +1456,17 @@ signed int find_items(char *itemname, char (*infoarray)[128l], char (*statusarra
 
       char filename[128l];
       char buf[1024l];
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(".", ent->d_name);
-      if(return_value_strcmp$2 == 0)
-        tmp_if_expr$4 = (_Bool)1;
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(".", ent->d_name);
+      if(return_value_strcmp_2 == 0)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$3=strcmp("..", ent->d_name);
-        tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_3=strcmp("..", ent->d_name);
+        tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$4)
+      if(!tmp_if_expr_4)
       {
         snprintf(filename, sizeof(char [128l]) /*128ul*/ , "/sys/class/power_supply/%s/type", (const void *)ent->d_name);
         signed int fd;
@@ -1474,14 +1474,14 @@ signed int find_items(char *itemname, char (*infoarray)[128l], char (*statusarra
         if(!(fd == -1))
         {
           signed int end;
-          signed long int return_value_read$5;
-          return_value_read$5=read(fd, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
-          end = (signed int)return_value_read$5;
+          signed long int return_value_read_5;
+          return_value_read_5=read(fd, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
+          end = (signed int)return_value_read_5;
           buf[(signed long int)(end - 1)] = (char)0;
           close(fd);
-          char *return_value_strstr$6;
-          return_value_strstr$6=strstr(buf, itemname);
-          if(!(return_value_strstr$6 == buf))
+          char *return_value_strstr_6;
+          return_value_strstr_6=strstr(buf, itemname);
+          if(!(return_value_strstr_6 == buf))
             continue;
 
         }
@@ -1520,9 +1520,9 @@ signed int get_acpi_batt_capacity(signed int battery)
 
   else
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(s);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(s);
+    return return_value_atoi_1;
   }
 }
 
@@ -1538,10 +1538,10 @@ inline char * get_acpi_file(const char *file)
 
   else
   {
-    signed long int return_value_read$1;
+    signed long int return_value_read_1;
     static char buf[1024l];
-    return_value_read$1=read(fd, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
-    end = (signed int)return_value_read$1;
+    return_value_read_1=read(fd, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
+    end = (signed int)return_value_read_1;
     buf[(signed long int)(end - 1)] = (char)0;
     close(fd);
     return buf;
@@ -1559,9 +1559,9 @@ char * get_acpi_value(const char *file, const char *key)
 
   else
   {
-    char *return_value_scan_acpi_value$1;
-    return_value_scan_acpi_value$1=scan_acpi_value(buf, key);
-    return return_value_scan_acpi_value$1;
+    char *return_value_scan_acpi_value_1;
+    return_value_scan_acpi_value_1=scan_acpi_value(buf, key);
+    return return_value_scan_acpi_value_1;
   }
 }
 
@@ -1576,9 +1576,9 @@ static void get_devinfo(void *device, void *result)
   signed long int time_to_empty;
   signed long int time_to_full;
   struct context *ctx = (struct context *)result;
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$1;
-  return_value_g_type_check_instance_cast$1=g_type_check_instance_cast((struct _GTypeInstance *)device, (unsigned long int)(20 << 2));
-  g_object_get((void *)(struct _GObject *)return_value_g_type_check_instance_cast$1, "percentage", &percentage, (const void *)"online", &online, (const void *)"state", &state, (const void *)"kind", &kind, (const void *)"time-to-empty", &time_to_empty, (const void *)"time-to-full", &time_to_full, (void *)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_1;
+  return_value_g_type_check_instance_cast_1=g_type_check_instance_cast((struct _GTypeInstance *)device, (unsigned long int)(20 << 2));
+  g_object_get((void *)(struct _GObject *)return_value_g_type_check_instance_cast_1, "percentage", &percentage, (const void *)"online", &online, (const void *)"state", &state, (const void *)"kind", &kind, (const void *)"time-to-empty", &time_to_empty, (const void *)"time-to-full", &time_to_full, (void *)0);
   if(kind == 2u)
   {
     if(ctx->current == ctx->needed)
@@ -1606,16 +1606,16 @@ static void get_devinfo(void *device, void *result)
 signed int idletime(const char *tty)
 {
   struct stat sbuf;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(tty, &sbuf);
-  if(!(return_value_stat$1 == 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(tty, &sbuf);
+  if(!(return_value_stat_1 == 0))
     return 0;
 
   else
   {
-    signed long int return_value_time$2;
-    return_value_time$2=time((signed long int *)(void *)0);
-    return (signed int)(return_value_time$2 - sbuf.st_atim.tv_sec);
+    signed long int return_value_time_2;
+    return_value_time_2=time((signed long int *)(void *)0);
+    return (signed int)(return_value_time_2 - sbuf.st_atim.tv_sec);
   }
 }
 
@@ -1626,9 +1626,9 @@ void initializeIE(void)
   signed int j = 0;
   signed int i;
   signed int tmpfd;
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(eventData.events[(signed long int)0], "", (unsigned long int)1);
-  if(return_value_strncmp$1 == 0)
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(eventData.events[(signed long int)0], "", (unsigned long int)1);
+  if(return_value_strncmp_1 == 0)
   {
     signed int result;
     i = 0;
@@ -1649,11 +1649,11 @@ void initializeIE(void)
 
   i = 0;
   j = 0;
-  signed int return_value_strncmp$2;
+  signed int return_value_strncmp_2;
   do
   {
-    return_value_strncmp$2=strncmp(eventData.events[(signed long int)i], "", (unsigned long int)1);
-    if(return_value_strncmp$2 == 0)
+    return_value_strncmp_2=strncmp(eventData.events[(signed long int)i], "", (unsigned long int)1);
+    if(return_value_strncmp_2 == 0)
       break;
 
     tmpfd=open(eventData.events[(signed long int)i], 00);
@@ -1676,27 +1676,27 @@ void loadcontrol(signed int signum)
   signed int f;
   char buf[8l];
   f=open("/var/run/sleepd.ctl", 00);
-  _Bool tmp_if_expr$2;
-  signed int return_value_flock$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_flock_1;
   if(f == -1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_flock$1=flock(f, 1);
-    tmp_if_expr$2 = return_value_flock$1 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_flock_1=flock(f, 1);
+    tmp_if_expr_2 = return_value_flock_1 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  signed long int return_value_read$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  signed long int return_value_read_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_read$3=read(f, (void *)buf, (unsigned long int)7);
-    tmp_if_expr$4 = return_value_read$3 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+    return_value_read_3=read(f, (void *)buf, (unsigned long int)7);
+    tmp_if_expr_4 = return_value_read_3 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$4)
+  if(!tmp_if_expr_4)
   {
     no_sleep=atoi(buf);
     close(f);
@@ -1727,9 +1727,9 @@ signed int main(signed int argc, char **argv)
 
   if(!(daemonize == 0))
   {
-    signed int return_value_daemon$1;
-    return_value_daemon$1=daemon(0, 0);
-    if(return_value_daemon$1 == -1)
+    signed int return_value_daemon_1;
+    return_value_daemon_1=daemon(0, 0);
+    if(return_value_daemon_1 == -1)
     {
       perror("daemon");
       exit(1);
@@ -1744,34 +1744,34 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      signed int return_value_getpid$2;
-      return_value_getpid$2=getpid();
-      fprintf(f, "%i\n", return_value_getpid$2);
+      signed int return_value_getpid_2;
+      return_value_getpid_2=getpid();
+      fprintf(f, "%i\n", return_value_getpid_2);
       fclose(f);
     }
   }
 
-  _Bool tmp_if_expr$5;
-  signed int return_value_acpi_supported$4;
-  signed int return_value_upower_supported$3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_acpi_supported_4;
+  signed int return_value_upower_supported_3;
   if(sleep_command == ((char *)NULL))
     sleep_command = acpi_sleep_command;
 
   if(force_hal == 0)
   {
-    return_value_acpi_supported$4=acpi_supported();
-    tmp_if_expr$5 = return_value_acpi_supported$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_acpi_supported_4=acpi_supported();
+    tmp_if_expr_5 = return_value_acpi_supported_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  if((acpi_ac_count >= 1 || acpi_batt_count >= 1) && tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  if((acpi_ac_count >= 1 || acpi_batt_count >= 1) && tmp_if_expr_5)
     use_acpi = 1;
 
   else
   {
-    return_value_upower_supported$3=upower_supported();
-    if(!(return_value_upower_supported$3 == 0))
+    return_value_upower_supported_3=upower_supported();
+    if(!(return_value_upower_supported_3 == 0))
       use_upower = 1;
 
     else
@@ -1806,9 +1806,9 @@ void main_loop(void)
     pthread_create(&emthread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))eventMonitor, (void *)0);
   }
 
-  signed int return_value_abs$1;
-  signed int return_value_abs$2;
-  signed int return_value_getloadavg$4;
+  signed int return_value_abs_1;
+  signed int return_value_abs_2;
+  signed int return_value_getloadavg_4;
   while((_Bool)1)
   {
     activity = 0;
@@ -1833,9 +1833,9 @@ void main_loop(void)
       }
     if(!(debug == 0))
     {
-      return_value_abs$1=abs(ai.battery_time);
-      return_value_abs$2=abs(ai.battery_time);
-      printf("sleepd: battery level: %d%%, remaining time: %c%d:%02d\n", ai.battery_percentage, ai.battery_time < 0 ? 45 : 32, return_value_abs$1 / 3600, (return_value_abs$2 / 60) % 60);
+      return_value_abs_1=abs(ai.battery_time);
+      return_value_abs_2=abs(ai.battery_time);
+      printf("sleepd: battery level: %d%%, remaining time: %c%d:%02d\n", ai.battery_percentage, ai.battery_time < 0 ? 45 : 32, return_value_abs_1 / 3600, (return_value_abs_2 / 60) % 60);
     }
 
     if(!(ai.ac_line_status == 1) && !(ai.battery_percentage == -1) && !(ai.battery_status == 4) && !(min_batt == -1) && !(ai.battery_percentage >= min_batt))
@@ -1844,9 +1844,9 @@ void main_loop(void)
     if(require_unused_and_battery == 0 && !(sleep_battery == 0))
     {
       syslog(5, "battery level %d%% is below %d%%; forcing hibernation", ai.battery_percentage, min_batt);
-      signed int return_value_system$3;
-      return_value_system$3=system(hibernate_command);
-      if(!(return_value_system$3 == 0))
+      signed int return_value_system_3;
+      return_value_system_3=system(hibernate_command);
+      if(!(return_value_system_3 == 0))
         syslog(3, "%s failed", hibernate_command);
 
       if(!(debug == 0))
@@ -1879,8 +1879,8 @@ void main_loop(void)
 
       if(IEEE_FLOAT_NOTEQUAL(max_loadavg, 0.000000))
       {
-        return_value_getloadavg$4=getloadavg(loadavg, 1);
-        if(return_value_getloadavg$4 == 1)
+        return_value_getloadavg_4=getloadavg(loadavg, 1);
+        if(return_value_getloadavg_4 == 1)
         {
           if(loadavg[0l] >= max_loadavg)
           {
@@ -1932,9 +1932,9 @@ void main_loop(void)
         if(no_sleep == 0 && require_unused_and_battery == 0 && !(sleep_now == 0))
         {
           syslog(5, "system inactive for %ds; forcing sleep", total_unused);
-          signed int return_value_system$5;
-          return_value_system$5=system(sleep_command);
-          if(!(return_value_system$5 == 0))
+          signed int return_value_system_5;
+          return_value_system_5=system(sleep_command);
+          if(!(return_value_system_5 == 0))
             syslog(3, "%s failed", sleep_command);
 
           total_unused = 0;
@@ -1946,9 +1946,9 @@ void main_loop(void)
           if(no_sleep == 0 && !(sleep_battery == 0) && !(sleep_now == 0))
           {
             syslog(5, "system inactive for %ds and battery level %d%% is below %d%%; forcing hibernaton", total_unused, ai.battery_percentage, min_batt);
-            signed int return_value_system$6;
-            return_value_system$6=system(hibernate_command);
-            if(!(return_value_system$6 == 0))
+            signed int return_value_system_6;
+            return_value_system_6=system(hibernate_command);
+            if(!(return_value_system_6 == 0))
               syslog(3, "%s failed", hibernate_command);
 
             total_unused = 0;
@@ -1977,21 +1977,21 @@ void main_loop(void)
 signed int on_ac_power(void)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_atoi$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_atoi_1;
   if(!(i >= acpi_ac_count))
   {
     char *online;
     online=get_acpi_value(acpi_ac_adapter_info[(signed long int)i], acpi_labels[(signed long int)10]);
     if(!(online == ((char *)NULL)))
     {
-      return_value_atoi$1=atoi(online);
-      tmp_if_expr$2 = return_value_atoi$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_atoi_1=atoi(online);
+      tmp_if_expr_2 = return_value_atoi_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       return 1;
 
     else
@@ -2041,10 +2041,10 @@ void parse_command_line(signed int argc, char **argv)
   char tmpdev[8l];
   char tx_statfile[44l];
   char rx_statfile[44l];
-  signed int return_value_atoi$1;
-  signed int return_value_access$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_access$3;
+  signed int return_value_atoi_1;
+  signed int return_value_access_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_access_3;
   while(!(c == -1))
   {
     c=getopt_long(argc, argv, "s:d:nvu:U:l:wIi:Ee:hac:b:AN::r:t:H", long_options, (signed int *)(void *)0);
@@ -2106,8 +2106,8 @@ void parse_command_line(signed int argc, char **argv)
           exit(1);
         }
 
-        return_value_atoi$1=atoi(optarg);
-        irqs[(signed long int)return_value_atoi$1] = 1;
+        return_value_atoi_1=atoi(optarg);
+        irqs[(signed long int)return_value_atoi_1] = 1;
         autoprobe = 0;
         have_irqs = 1;
         break;
@@ -2206,16 +2206,16 @@ void parse_command_line(signed int argc, char **argv)
           strncpy(tmpdev, optarg, (unsigned long int)8);
         sprintf(tx_statfile, "/sys/class/net/%s/statistics/tx_packets", (const void *)tmpdev);
         sprintf(rx_statfile, "/sys/class/net/%s/statistics/rx_packets", (const void *)tmpdev);
-        return_value_access$2=access(tx_statfile, 4);
-        if(return_value_access$2 == 0)
+        return_value_access_2=access(tx_statfile, 4);
+        if(return_value_access_2 == 0)
         {
-          return_value_access$3=access(rx_statfile, 4);
-          tmp_if_expr$4 = return_value_access$3 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_access_3=access(rx_statfile, 4);
+          tmp_if_expr_4 = return_value_access_3 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
           strncpy(netdevtx[(signed long int)netcount], tx_statfile, (unsigned long int)44);
           strncpy(netdevrx[(signed long int)netcount], rx_statfile, (unsigned long int)44);
@@ -2274,9 +2274,9 @@ inline signed int scan_acpi_num(const char *buf, const char *key)
   do
   {
     ptr=strchr(buf, 10);
-    signed int return_value_strmcmp$1;
-    return_value_strmcmp$1=strmcmp(buf, key);
-    if(return_value_strmcmp$1 == 0)
+    signed int return_value_strmcmp_1;
+    return_value_strmcmp_1=strmcmp(buf, key);
+    if(return_value_strmcmp_1 == 0)
     {
       ptr=strchr(buf, 61);
       if(!(ptr == ((char *)NULL)))
@@ -2306,17 +2306,17 @@ inline char * scan_acpi_value(const char *buf, const char *key)
   do
   {
     ptr=strchr(buf, 10);
-    signed int return_value_strmcmp$2;
-    return_value_strmcmp$2=strmcmp(buf, key);
-    if(return_value_strmcmp$2 == 0)
+    signed int return_value_strmcmp_2;
+    return_value_strmcmp_2=strmcmp(buf, key);
+    if(return_value_strmcmp_2 == 0)
     {
       ptr=strchr(buf, 61);
       if(!(ptr == ((char *)NULL)))
       {
-        signed int return_value_sscanf$1;
+        signed int return_value_sscanf_1;
         static char ret[256l];
-        return_value_sscanf$1=sscanf(ptr + (signed long int)1, "%255s", (const void *)ret);
-        if(return_value_sscanf$1 == 1)
+        return_value_sscanf_1=sscanf(ptr + (signed long int)1, "%255s", (const void *)ret);
+        if(return_value_sscanf_1 == 1)
           return ret;
 
         else
@@ -2340,15 +2340,15 @@ inline char * scan_acpi_value(const char *buf, const char *key)
 // file acpi.c line 75
 signed int strmcmp(const char *s1, const char *s2)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(*s1 == *s2)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*s2 == 63 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*s2 == 63 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if((signed int)*s1 == 0)
@@ -2371,7 +2371,7 @@ signed int upower_read(signed int battery, struct apm_info *info)
 {
   struct _GPtrArray *devices = (struct _GPtrArray *)(void *)0;
   up=up_client_new();
-  if(up == ((struct anonymous$1 *)NULL))
+  if(up == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -2441,7 +2441,7 @@ signed int upower_read(signed int battery, struct apm_info *info)
 signed int upower_supported(void)
 {
   up=up_client_new();
-  if(up == ((struct anonymous$1 *)NULL))
+  if(up == ((struct anonymous_1 *)NULL))
     return 0;
 
   else
@@ -2477,9 +2477,9 @@ void writecontrol(signed int value)
     perror("/var/run/sleepd.ctl");
 
   snprintf(buf, (unsigned long int)9, "%i\n", value);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  write(f, (const void *)buf, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  write(f, (const void *)buf, return_value_strlen_1);
   close(f);
 }
 

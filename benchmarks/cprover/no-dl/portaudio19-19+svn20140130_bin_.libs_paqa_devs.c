@@ -1,110 +1,110 @@
-// #anon_enum$StreamDirection_In=0$StreamDirection_Out=1
+// #anon_enum_StreamDirection_In=0_StreamDirection_Out=1
 // file src/hostapi/alsa/pa_linux_alsa.c line 596
-enum anonymous$17 { StreamDirection_In=0, StreamDirection_Out=1 };
+enum anonymous_17 { StreamDirection_In=0, StreamDirection_Out=1 };
 
-// #anon_enum$StreamMode_In=0$StreamMode_Out=1
+// #anon_enum_StreamMode_In=0_StreamMode_Out=1
 // file src/hostapi/oss/pa_unix_oss.c line 196
-enum anonymous$15 { StreamMode_In=0, StreamMode_Out=1 };
+enum anonymous_15 { StreamMode_In=0, StreamMode_Out=1 };
 
-// #anon_enum$paUtilFixedHostBufferSize=0$paUtilBoundedHostBufferSize=1$paUtilUnknownHostBufferSize=2$paUtilVariableHostBufferSizePartialUsageAllowed=3
+// #anon_enum_paUtilFixedHostBufferSize=0_paUtilBoundedHostBufferSize=1_paUtilUnknownHostBufferSize=2_paUtilVariableHostBufferSizePartialUsageAllowed=3
 // file src/common/pa_process.h line 219
-enum anonymous$21 { paUtilFixedHostBufferSize=0, paUtilBoundedHostBufferSize=1, paUtilUnknownHostBufferSize=2, paUtilVariableHostBufferSizePartialUsageAllowed=3 };
+enum anonymous_21 { paUtilFixedHostBufferSize=0, paUtilBoundedHostBufferSize=1, paUtilUnknownHostBufferSize=2, paUtilVariableHostBufferSizePartialUsageAllowed=3 };
 
-// tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Close'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Start'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Stop'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Abort'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsStopped'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsActive'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetTime'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetCpuLoad'||*{S32(*{V}$V$|*{V}$V$|U64)->S32}$S32(*{V}$V$|*{V}$V$|U64)->S32$'Read'||*{S32(*{V}$V$|*{cV}$cV$|U64)->S32}$S32(*{V}$V$|*{cV}$cV$|U64)->S32$'Write'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetReadAvailable'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetWriteAvailable'|]
+// tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Close'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Start'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Stop'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Abort'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsStopped'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsActive'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetTime'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetCpuLoad'||*{S32(*{V}_V_|*{V}_V_|U64)->S32}_S32(*{V}_V_|*{V}_V_|U64)->S32_'Read'||*{S32(*{V}_V_|*{cV}_cV_|U64)->S32}_S32(*{V}_V_|*{cV}_cV_|U64)->S32_'Write'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetReadAvailable'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetWriteAvailable'|]
 // file src/common/pa_stream.h line 67
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{S8}$S8$'alsaName'||*{S8}$S8$'name'||S32'isPlug'||S32'hasPlayback'||S32'hasCapture'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'alsaName'||*{S8}_S8_'name'||S32'isPlug'||S32'hasPlayback'||S32'hasCapture'||U32'_pad0'|]
 // file src/hostapi/alsa/pa_linux_alsa.c line 984
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int32_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int32_Clip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int32_DitherClip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int24'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int24_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int24_Clip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int24_DitherClip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int16'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int16_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int16_Clip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int16_DitherClip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int8_Clip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_Int8_DitherClip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_UInt8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_UInt8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_UInt8_Clip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Float32_To_UInt8_DitherClip'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_Float32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_Int24'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_Int24_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_Int16'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_Int16_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_Int8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_Int8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_UInt8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int32_To_UInt8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_Float32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_Int32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_Int16'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_Int16_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_Int8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_Int8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_UInt8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int24_To_UInt8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int16_To_Float32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int16_To_Int32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int16_To_Int24'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int16_To_Int8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int16_To_Int8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int16_To_UInt8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int16_To_UInt8_Dither'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int8_To_Float32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int8_To_Int32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int8_To_Int24'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int8_To_Int16'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Int8_To_UInt8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'UInt8_To_Float32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'UInt8_To_Int32'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'UInt8_To_Int24'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'UInt8_To_Int16'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'UInt8_To_Int8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Copy_8_To_8'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Copy_16_To_16'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Copy_24_To_24'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'Copy_32_To_32'|]
+// tag-#anon#ST[*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int32_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int32_Clip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int32_DitherClip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int24'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int24_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int24_Clip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int24_DitherClip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int16'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int16_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int16_Clip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int16_DitherClip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int8_Clip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_Int8_DitherClip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_UInt8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_UInt8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_UInt8_Clip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Float32_To_UInt8_DitherClip'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_Float32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_Int24'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_Int24_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_Int16'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_Int16_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_Int8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_Int8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_UInt8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int32_To_UInt8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_Float32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_Int32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_Int16'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_Int16_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_Int8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_Int8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_UInt8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int24_To_UInt8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int16_To_Float32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int16_To_Int32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int16_To_Int24'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int16_To_Int8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int16_To_Int8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int16_To_UInt8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int16_To_UInt8_Dither'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int8_To_Float32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int8_To_Int32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int8_To_Int24'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int8_To_Int16'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Int8_To_UInt8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'UInt8_To_Float32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'UInt8_To_Int32'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'UInt8_To_Int24'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'UInt8_To_Int16'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'UInt8_To_Int8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Copy_8_To_8'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Copy_16_To_16'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Copy_24_To_24'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'Copy_32_To_32'|]
 // file src/common/pa_converters.h line 138
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{V(*{V}$V$|S32|U32)->V}$V(*{V}$V$|S32|U32)->V$'ZeroU8'||*{V(*{V}$V$|S32|U32)->V}$V(*{V}$V$|S32|U32)->V$'Zero8'||*{V(*{V}$V$|S32|U32)->V}$V(*{V}$V$|S32|U32)->V$'Zero16'||*{V(*{V}$V$|S32|U32)->V}$V(*{V}$V$|S32|U32)->V$'Zero24'||*{V(*{V}$V$|S32|U32)->V}$V(*{V}$V$|S32|U32)->V$'Zero32'|]
+// tag-#anon#ST[*{V(*{V}_V_|S32|U32)->V}_V(*{V}_V_|S32|U32)->V_'ZeroU8'||*{V(*{V}_V_|S32|U32)->V}_V(*{V}_V_|S32|U32)->V_'Zero8'||*{V(*{V}_V_|S32|U32)->V}_V(*{V}_V_|S32|U32)->V_'Zero16'||*{V(*{V}_V_|S32|U32)->V}_V(*{V}_V_|S32|U32)->V_'Zero24'||*{V(*{V}_V_|S32|U32)->V}_V(*{V}_V_|S32|U32)->V_'Zero32'|]
 // file src/common/pa_converters.h line 233
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[F64'samplingPeriod'||F64'measurementStartTime'||F64'averageLoad'|]
 // file src/common/pa_cpuload.h line 56
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'fd'||U32'$pad0'||*{cS8}$cS8$'devName'||S32'userChannelCount'||S32'hostChannelCount'||S32'userInterleaved'||U32'$pad1'||*{V}$V$'buffer'||U64'userFormat'||U64'hostFormat'||F64'latency'||U64'hostFrames'||U64'numBufs'||*{*{V}$V$}$*{V}$V$$'userBuffers'|]
+// tag-#anon#ST[S32'fd'||U32'_pad0'||*{cS8}_cS8_'devName'||S32'userChannelCount'||S32'hostChannelCount'||S32'userInterleaved'||U32'_pad1'||*{V}_V_'buffer'||U64'userFormat'||U64'hostFormat'||F64'latency'||U64'hostFrames'||U64'numBufs'||*{*{V}_V_}_*{V}_V__'userBuffers'|]
 // file src/hostapi/oss/pa_unix_oss.c line 149
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'allocations'|]
+// tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'allocations'|]
 // file src/common/pa_allocation.h line 65
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mtx'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mtx'|]
 // file ./src/os/unix/pa_unix_util.h line 137
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[SYM#tag-PaUtilHostApiRepresentation#'commonHostApiRep'||SYM#tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Close'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Start'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Stop'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Abort'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsStopped'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsActive'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetTime'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetCpuLoad'||*{S32(*{V}$V$|*{V}$V$|U64)->S32}$S32(*{V}$V$|*{V}$V$|U64)->S32$'Read'||*{S32(*{V}$V$|*{cV}$cV$|U64)->S32}$S32(*{V}$V$|*{cV}$cV$|U64)->S32$'Write'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetReadAvailable'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetWriteAvailable'|]#'callbackStreamInterface'||SYM#tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Close'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Start'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Stop'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Abort'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsStopped'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsActive'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetTime'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetCpuLoad'||*{S32(*{V}$V$|*{V}$V$|U64)->S32}$S32(*{V}$V$|*{V}$V$|U64)->S32$'Read'||*{S32(*{V}$V$|*{cV}$cV$|U64)->S32}$S32(*{V}$V$|*{cV}$cV$|U64)->S32$'Write'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetReadAvailable'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetWriteAvailable'|]#'blockingStreamInterface'||*{SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'allocations'|]#}$SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'allocations'|]#$'deviceInfoMemory'||*{SYM#tag-_jack_client#}$SYM#tag-_jack_client#$'jack_client'||S32'jack_buffer_size'||S32'hostApiIndex'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cond'||U64'inputBase'||U64'outputBase'||vS32'xrun'||U32'$pad0'||v*{SYM#tag-PaJackStream#}$SYM#tag-PaJackStream#$'toAdd'||v*{SYM#tag-PaJackStream#}$SYM#tag-PaJackStream#$'toRemove'||*{SYM#tag-PaJackStream#}$SYM#tag-PaJackStream#$'processQueue'||vS32'jackIsDown'||U32'$pad1'|]
+// tag-#anon#ST[SYM#tag-PaUtilHostApiRepresentation#'commonHostApiRep'||SYM#tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Close'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Start'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Stop'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Abort'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsStopped'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsActive'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetTime'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetCpuLoad'||*{S32(*{V}_V_|*{V}_V_|U64)->S32}_S32(*{V}_V_|*{V}_V_|U64)->S32_'Read'||*{S32(*{V}_V_|*{cV}_cV_|U64)->S32}_S32(*{V}_V_|*{cV}_cV_|U64)->S32_'Write'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetReadAvailable'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetWriteAvailable'|]#'callbackStreamInterface'||SYM#tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Close'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Start'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Stop'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Abort'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsStopped'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsActive'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetTime'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetCpuLoad'||*{S32(*{V}_V_|*{V}_V_|U64)->S32}_S32(*{V}_V_|*{V}_V_|U64)->S32_'Read'||*{S32(*{V}_V_|*{cV}_cV_|U64)->S32}_S32(*{V}_V_|*{cV}_cV_|U64)->S32_'Write'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetReadAvailable'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetWriteAvailable'|]#'blockingStreamInterface'||*{SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'allocations'|]#}_SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'allocations'|]#_'deviceInfoMemory'||*{SYM#tag-_jack_client#}_SYM#tag-_jack_client#_'jack_client'||S32'jack_buffer_size'||S32'hostApiIndex'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cond'||U64'inputBase'||U64'outputBase'||vS32'xrun'||U32'_pad0'||v*{SYM#tag-PaJackStream#}_SYM#tag-PaJackStream#_'toAdd'||v*{SYM#tag-PaJackStream#}_SYM#tag-PaJackStream#_'toRemove'||*{SYM#tag-PaJackStream#}_SYM#tag-PaJackStream#_'processQueue'||vS32'jackIsDown'||U32'_pad1'|]
 // file src/hostapi/jack/pa_jack.c line 157
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[SYM#tag-PaUtilHostApiRepresentation#'inheritedHostApiRep'||SYM#tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Close'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Start'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Stop'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Abort'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsStopped'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsActive'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetTime'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetCpuLoad'||*{S32(*{V}$V$|*{V}$V$|U64)->S32}$S32(*{V}$V$|*{V}$V$|U64)->S32$'Read'||*{S32(*{V}$V$|*{cV}$cV$|U64)->S32}$S32(*{V}$V$|*{cV}$cV$|U64)->S32$'Write'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetReadAvailable'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetWriteAvailable'|]#'callbackStreamInterface'||SYM#tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Close'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Start'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Stop'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Abort'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsStopped'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsActive'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetTime'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetCpuLoad'||*{S32(*{V}$V$|*{V}$V$|U64)->S32}$S32(*{V}$V$|*{V}$V$|U64)->S32$'Read'||*{S32(*{V}$V$|*{cV}$cV$|U64)->S32}$S32(*{V}$V$|*{cV}$cV$|U64)->S32$'Write'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetReadAvailable'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetWriteAvailable'|]#'blockingStreamInterface'||*{SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'allocations'|]#}$SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'allocations'|]#$'allocations'|]
+// tag-#anon#ST[SYM#tag-PaUtilHostApiRepresentation#'inheritedHostApiRep'||SYM#tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Close'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Start'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Stop'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Abort'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsStopped'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsActive'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetTime'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetCpuLoad'||*{S32(*{V}_V_|*{V}_V_|U64)->S32}_S32(*{V}_V_|*{V}_V_|U64)->S32_'Read'||*{S32(*{V}_V_|*{cV}_cV_|U64)->S32}_S32(*{V}_V_|*{cV}_cV_|U64)->S32_'Write'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetReadAvailable'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetWriteAvailable'|]#'callbackStreamInterface'||SYM#tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Close'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Start'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Stop'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Abort'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsStopped'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsActive'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetTime'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetCpuLoad'||*{S32(*{V}_V_|*{V}_V_|U64)->S32}_S32(*{V}_V_|*{V}_V_|U64)->S32_'Read'||*{S32(*{V}_V_|*{cV}_cV_|U64)->S32}_S32(*{V}_V_|*{cV}_cV_|U64)->S32_'Write'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetReadAvailable'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetWriteAvailable'|]#'blockingStreamInterface'||*{SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'allocations'|]#}_SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'allocations'|]#_'allocations'|]
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 113
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[SYM#tag-PaUtilHostApiRepresentation#'inheritedHostApiRep'||SYM#tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Close'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Start'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Stop'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Abort'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsStopped'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsActive'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetTime'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetCpuLoad'||*{S32(*{V}$V$|*{V}$V$|U64)->S32}$S32(*{V}$V$|*{V}$V$|U64)->S32$'Read'||*{S32(*{V}$V$|*{cV}$cV$|U64)->S32}$S32(*{V}$V$|*{cV}$cV$|U64)->S32$'Write'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetReadAvailable'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetWriteAvailable'|]#'callbackStreamInterface'||SYM#tag-#anon#ST[*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Close'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Start'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Stop'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'Abort'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsStopped'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'IsActive'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetTime'||*{F64(*{V}$V$)->F64}$F64(*{V}$V$)->F64$'GetCpuLoad'||*{S32(*{V}$V$|*{V}$V$|U64)->S32}$S32(*{V}$V$|*{V}$V$|U64)->S32$'Read'||*{S32(*{V}$V$|*{cV}$cV$|U64)->S32}$S32(*{V}$V$|*{cV}$cV$|U64)->S32$'Write'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetReadAvailable'||*{S64(*{V}$V$)->S64}$S64(*{V}$V$)->S64$'GetWriteAvailable'|]#'blockingStreamInterface'||*{SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'allocations'|]#}$SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}$SYM#tag-PaUtilAllocationGroupLink#$'allocations'|]#$'allocations'||S32'hostApiIndex'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-PaUtilHostApiRepresentation#'inheritedHostApiRep'||SYM#tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Close'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Start'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Stop'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Abort'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsStopped'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsActive'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetTime'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetCpuLoad'||*{S32(*{V}_V_|*{V}_V_|U64)->S32}_S32(*{V}_V_|*{V}_V_|U64)->S32_'Read'||*{S32(*{V}_V_|*{cV}_cV_|U64)->S32}_S32(*{V}_V_|*{cV}_cV_|U64)->S32_'Write'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetReadAvailable'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetWriteAvailable'|]#'callbackStreamInterface'||SYM#tag-#anon#ST[*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Close'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Start'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Stop'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'Abort'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsStopped'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'IsActive'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetTime'||*{F64(*{V}_V_)->F64}_F64(*{V}_V_)->F64_'GetCpuLoad'||*{S32(*{V}_V_|*{V}_V_|U64)->S32}_S32(*{V}_V_|*{V}_V_|U64)->S32_'Read'||*{S32(*{V}_V_|*{cV}_cV_|U64)->S32}_S32(*{V}_V_|*{cV}_cV_|U64)->S32_'Write'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetReadAvailable'||*{S64(*{V}_V_)->S64}_S64(*{V}_V_)->S64_'GetWriteAvailable'|]#'blockingStreamInterface'||*{SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'allocations'|]#}_SYM#tag-#anon#ST[S64'linkCount'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'linkBlocks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'spareLinks'||*{SYM#tag-PaUtilAllocationGroupLink#}_SYM#tag-PaUtilAllocationGroupLink#_'allocations'|]#_'allocations'||S32'hostApiIndex'||U32'_pad0'|]
 // file src/hostapi/oss/pa_unix_oss.c line 130
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[U64'callbackThread'|]
 // file ./src/os/unix/pa_unix_util.h line 112
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[U64'framesPerUserBuffer'||U64'framesPerHostBuffer'||EN#anon_enum$paUtilFixedHostBufferSize=0$paUtilBoundedHostBufferSize=1$paUtilUnknownHostBufferSize=2$paUtilVariableHostBufferSizePartialUsageAllowed=3#{U32}$U32$'hostBufferSizeMode'||S32'useNonAdaptingProcess'||S32'userOutputSampleFormatIsEqualToHost'||S32'userInputSampleFormatIsEqualToHost'||U64'framesPerTempBuffer'||U32'inputChannelCount'||U32'bytesPerHostInputSample'||U32'bytesPerUserInputSample'||S32'userInputIsInterleaved'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'inputConverter'||*{V(*{V}$V$|S32|U32)->V}$V(*{V}$V$|S32|U32)->V$'inputZeroer'||U32'outputChannelCount'||U32'bytesPerHostOutputSample'||U32'bytesPerUserOutputSample'||S32'userOutputIsInterleaved'||*{V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V}$V(*{V}$V$|S32|*{V}$V$|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}$SYM#tag-PaUtilTriangularDitherGenerator#$)->V$'outputConverter'||*{V(*{V}$V$|S32|U32)->V}$V(*{V}$V$|S32|U32)->V$'outputZeroer'||U64'initialFramesInTempInputBuffer'||U64'initialFramesInTempOutputBuffer'||*{V}$V$'tempInputBuffer'||*{*{V}$V$}$*{V}$V$$'tempInputBufferPtrs'||U64'framesInTempInputBuffer'||*{V}$V$'tempOutputBuffer'||*{*{V}$V$}$*{V}$V$$'tempOutputBufferPtrs'||U64'framesInTempOutputBuffer'||*{SYM#tag-PaStreamCallbackTimeInfo#}$SYM#tag-PaStreamCallbackTimeInfo#$'timeInfo'||U64'callbackStatusFlags'||S32'hostInputIsInterleaved'||U32'$pad0'||ARR2{U64}$U64$'hostInputFrameCount'||ARR2{*{SYM#tag-PaUtilChannelDescriptor#}$SYM#tag-PaUtilChannelDescriptor#$}$*{SYM#tag-PaUtilChannelDescriptor#}$SYM#tag-PaUtilChannelDescriptor#$$'hostInputChannels'||S32'hostOutputIsInterleaved'||U32'$pad1'||ARR2{U64}$U64$'hostOutputFrameCount'||ARR2{*{SYM#tag-PaUtilChannelDescriptor#}$SYM#tag-PaUtilChannelDescriptor#$}$*{SYM#tag-PaUtilChannelDescriptor#}$SYM#tag-PaUtilChannelDescriptor#$$'hostOutputChannels'||SYM#tag-PaUtilTriangularDitherGenerator#'ditherGenerator'||U32'$pad2'||F64'samplePeriod'||*{S32(*{cV}$cV$|*{V}$V$|U64|*{cSYM#tag-PaStreamCallbackTimeInfo#}$cSYM#tag-PaStreamCallbackTimeInfo#$|U64|*{V}$V$)->S32}$S32(*{cV}$cV$|*{V}$V$|U64|*{cSYM#tag-PaStreamCallbackTimeInfo#}$cSYM#tag-PaStreamCallbackTimeInfo#$|U64|*{V}$V$)->S32$'streamCallback'||*{V}$V$'userData'|]
+// tag-#anon#ST[U64'framesPerUserBuffer'||U64'framesPerHostBuffer'||EN#anon_enum_paUtilFixedHostBufferSize=0_paUtilBoundedHostBufferSize=1_paUtilUnknownHostBufferSize=2_paUtilVariableHostBufferSizePartialUsageAllowed=3#{U32}_U32_'hostBufferSizeMode'||S32'useNonAdaptingProcess'||S32'userOutputSampleFormatIsEqualToHost'||S32'userInputSampleFormatIsEqualToHost'||U64'framesPerTempBuffer'||U32'inputChannelCount'||U32'bytesPerHostInputSample'||U32'bytesPerUserInputSample'||S32'userInputIsInterleaved'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'inputConverter'||*{V(*{V}_V_|S32|U32)->V}_V(*{V}_V_|S32|U32)->V_'inputZeroer'||U32'outputChannelCount'||U32'bytesPerHostOutputSample'||U32'bytesPerUserOutputSample'||S32'userOutputIsInterleaved'||*{V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V}_V(*{V}_V_|S32|*{V}_V_|S32|U32|*{SYM#tag-PaUtilTriangularDitherGenerator#}_SYM#tag-PaUtilTriangularDitherGenerator#_)->V_'outputConverter'||*{V(*{V}_V_|S32|U32)->V}_V(*{V}_V_|S32|U32)->V_'outputZeroer'||U64'initialFramesInTempInputBuffer'||U64'initialFramesInTempOutputBuffer'||*{V}_V_'tempInputBuffer'||*{*{V}_V_}_*{V}_V__'tempInputBufferPtrs'||U64'framesInTempInputBuffer'||*{V}_V_'tempOutputBuffer'||*{*{V}_V_}_*{V}_V__'tempOutputBufferPtrs'||U64'framesInTempOutputBuffer'||*{SYM#tag-PaStreamCallbackTimeInfo#}_SYM#tag-PaStreamCallbackTimeInfo#_'timeInfo'||U64'callbackStatusFlags'||S32'hostInputIsInterleaved'||U32'_pad0'||ARR2{U64}_U64_'hostInputFrameCount'||ARR2{*{SYM#tag-PaUtilChannelDescriptor#}_SYM#tag-PaUtilChannelDescriptor#_}_*{SYM#tag-PaUtilChannelDescriptor#}_SYM#tag-PaUtilChannelDescriptor#__'hostInputChannels'||S32'hostOutputIsInterleaved'||U32'_pad1'||ARR2{U64}_U64_'hostOutputFrameCount'||ARR2{*{SYM#tag-PaUtilChannelDescriptor#}_SYM#tag-PaUtilChannelDescriptor#_}_*{SYM#tag-PaUtilChannelDescriptor#}_SYM#tag-PaUtilChannelDescriptor#__'hostOutputChannels'||SYM#tag-PaUtilTriangularDitherGenerator#'ditherGenerator'||U32'_pad2'||F64'samplePeriod'||*{S32(*{cV}_cV_|*{V}_V_|U64|*{cSYM#tag-PaStreamCallbackTimeInfo#}_cSYM#tag-PaStreamCallbackTimeInfo#_|U64|*{V}_V_)->S32}_S32(*{cV}_cV_|*{V}_V_|U64|*{cSYM#tag-PaStreamCallbackTimeInfo#}_cSYM#tag-PaStreamCallbackTimeInfo#_|U64|*{V}_V_)->S32_'streamCallback'||*{V}_V_'userData'|]
 // file src/common/pa_process.h line 253
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[U64'hostSampleFormat'||S32'numUserChannels'||S32'numHostChannels'||S32'userInterleaved'||S32'hostInterleaved'||S32'canMmap'||U32'$pad0'||*{V}$V$'nonMmapBuffer'||U32'nonMmapBufferSize'||S32'device'||S32'deviceIsPlug'||S32'useReventFix'||*{SYM#tag-_snd_pcm#}$SYM#tag-_snd_pcm#$'pcm'||U64'framesPerPeriod'||U64'alsaBufferSize'||ENtag-_snd_pcm_format#{S32}$S32$'nativeFormat'||U32'nfds'||S32'ready'||U32'$pad1'||*{*{V}$V$}$*{V}$V$$'userBuffers'||U64'offset'||EN#anon_enum$StreamDirection_In=0$StreamDirection_Out=1#{U32}$U32$'streamDir'||U32'$pad2'||*{SYM#tag-_snd_pcm_channel_area#}$SYM#tag-_snd_pcm_channel_area#$'channelAreas'||S32'card'||U32'$pad3'|]
+// tag-#anon#ST[U64'hostSampleFormat'||S32'numUserChannels'||S32'numHostChannels'||S32'userInterleaved'||S32'hostInterleaved'||S32'canMmap'||U32'_pad0'||*{V}_V_'nonMmapBuffer'||U32'nonMmapBufferSize'||S32'device'||S32'deviceIsPlug'||S32'useReventFix'||*{SYM#tag-_snd_pcm#}_SYM#tag-_snd_pcm#_'pcm'||U64'framesPerPeriod'||U64'alsaBufferSize'||ENtag-_snd_pcm_format#{S32}_S32_'nativeFormat'||U32'nfds'||S32'ready'||U32'_pad1'||*{*{V}_V_}_*{V}_V__'userBuffers'||U64'offset'||EN#anon_enum_StreamDirection_In=0_StreamDirection_Out=1#{U32}_U32_'streamDir'||U32'_pad2'||*{SYM#tag-_snd_pcm_channel_area#}_SYM#tag-_snd_pcm_channel_area#_'channelAreas'||S32'card'||U32'_pad3'|]
 // file src/hostapi/alsa/pa_linux_alsa.c line 602
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[U64'thread'||S32'parentWaiting'||S32'stopRequested'||S32'locked'||U32'$pad0'||SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mtx'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cond'||vS32'stopRequest'||U32'$pad1'|]
+// tag-#anon#ST[U64'thread'||S32'parentWaiting'||S32'stopRequested'||S32'locked'||U32'_pad0'||SYM#tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mtx'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cond'||vS32'stopRequest'||U32'_pad1'|]
 // file ./src/os/unix/pa_unix_util.h line 147
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-JackOptions
 // file /usr/include/jack/types.h line 90
@@ -346,24 +346,24 @@ struct timeval;
 // AbortStream
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 690
 static signed int AbortStream(void *s);
-// AbortStream$link1
+// AbortStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3133
-static signed int AbortStream$link1(void *s$link1);
-// AbortStream$link2
+static signed int AbortStream_link1(void *s_link1);
+// AbortStream_link2
 // file src/hostapi/jack/pa_jack.c line 1713
-static signed int AbortStream$link2(void *s$link2);
-// AbortStream$link3
+static signed int AbortStream_link2(void *s_link2);
+// AbortStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1862
-static signed int AbortStream$link3(void *s$link3);
+static signed int AbortStream_link3(void *s_link3);
 // AdaptingInputOnlyProcess
 // file src/common/pa_process.c line 970
-static unsigned long int AdaptingInputOnlyProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, unsigned long int framesToProcess);
+static unsigned long int AdaptingInputOnlyProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, unsigned long int framesToProcess);
 // AdaptingOutputOnlyProcess
 // file src/common/pa_process.c line 1077
-static unsigned long int AdaptingOutputOnlyProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess);
+static unsigned long int AdaptingOutputOnlyProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess);
 // AdaptingProcess
 // file src/common/pa_process.c line 1287
-static unsigned long int AdaptingProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, signed int processPartialUserBuffers);
+static unsigned long int AdaptingProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, signed int processPartialUserBuffers);
 // AddOpenStream
 // file src/common/pa_front.c line 271
 static void AddOpenStream(void *stream);
@@ -375,7 +375,7 @@ static signed int AddStream(struct PaJackStream *stream);
 static struct PaUtilAllocationGroupLink * AllocateLinks(signed long int count, struct PaUtilAllocationGroupLink *nextBlock, struct PaUtilAllocationGroupLink *nextSpare);
 // AlsaOpen
 // file src/hostapi/alsa/pa_linux_alsa.c line 1713
-static signed int AlsaOpen(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *params, enum anonymous$17 streamDir, struct _snd_pcm **pcm);
+static signed int AlsaOpen(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *params, enum anonymous_17 streamDir, struct _snd_pcm **pcm);
 // AlsaRestart
 // file src/hostapi/alsa/pa_linux_alsa.c line 3240
 static signed int AlsaRestart(struct PaAlsaStream *stream);
@@ -417,16 +417,16 @@ static signed int BlockingWaitEmpty(void *s);
 static signed int BlockingWriteStream(void *s, const void *data, unsigned long int numFrames);
 // BoostPriority
 // file src/os/unix/pa_unix_util.c line 245
-static signed int BoostPriority(struct anonymous$18 *self);
+static signed int BoostPriority(struct anonymous_18 *self);
 // BuildDeviceList
 // file src/hostapi/alsa/pa_linux_alsa.c line 1228
 static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi);
-// BuildDeviceList$link1
+// BuildDeviceList_link1
 // file src/hostapi/jack/pa_jack.c line 459
-static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi);
-// BuildDeviceList$link2
+static signed int BuildDeviceList_link1(struct anonymous_4 *jackApi);
+// BuildDeviceList_link2
 // file src/hostapi/oss/pa_unix_oss.c line 521
-static signed int BuildDeviceList$link2(struct anonymous$14 *ossApi);
+static signed int BuildDeviceList_link2(struct anonymous_14 *ossApi);
 // CalcHigherLogTwo
 // file src/hostapi/oss/pa_unix_oss.c line 321
 static signed int CalcHigherLogTwo(signed int n);
@@ -442,9 +442,9 @@ static void CalculateTimeInfo(struct PaAlsaStream *stream, struct PaStreamCallba
 // CallbackThreadFunc
 // file src/hostapi/alsa/pa_linux_alsa.c line 4172
 static void * CallbackThreadFunc(void *userData);
-// CallbackThreadFunc::1::1::__cancel_routine$object
+// CallbackThreadFunc::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // CleanUpStream
 // file src/hostapi/jack/pa_jack.c line 972
 static void CleanUpStream(struct PaJackStream *stream, signed int terminateStreamRepresentation, signed int terminateBufferProcessor);
@@ -454,21 +454,21 @@ static void CloseOpenStreams(void);
 // CloseStream
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 639
 static signed int CloseStream(void *s);
-// CloseStream$link1
+// CloseStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 2877
-static signed int CloseStream$link1(void *s$link1);
-// CloseStream$link2
+static signed int CloseStream_link1(void *s_link1);
+// CloseStream_link2
 // file src/hostapi/jack/pa_jack.c line 1330
-static signed int CloseStream$link2(void *s$link2);
-// CloseStream$link3
+static signed int CloseStream_link2(void *s_link2);
+// CloseStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1779
-static signed int CloseStream$link3(void *s$link3);
+static signed int CloseStream_link3(void *s_link3);
 // ContinuePoll
 // file src/hostapi/alsa/pa_linux_alsa.c line 3325
-static signed int ContinuePoll(const struct PaAlsaStream *stream, enum anonymous$17 streamDir, signed int *pollTimeout, signed int *continuePoll);
+static signed int ContinuePoll(const struct PaAlsaStream *stream, enum anonymous_17 streamDir, signed int *pollTimeout, signed int *continuePoll);
 // CopyTempOutputBuffersToHostOutputBuffers
 // file src/common/pa_process.c line 1206
-static void CopyTempOutputBuffersToHostOutputBuffers(struct anonymous$7 *bp);
+static void CopyTempOutputBuffersToHostOutputBuffers(struct anonymous_7 *bp);
 // Copy_16_To_16
 // file src/common/pa_converters.c line 1715
 static void Copy_16_To_16(void *destinationBuffer, signed int destinationStride, void *sourceBuffer, signed int sourceStride, unsigned int count, struct PaUtilTriangularDitherGenerator *ditherGenerator);
@@ -492,10 +492,10 @@ static void ExampleHostProcessingLoop(void *inputBuffer, void *outputBuffer, voi
 static unsigned char * ExtractAddress(const struct _snd_pcm_channel_area *area, unsigned long int offset);
 // FillInDevInfo
 // file src/hostapi/alsa/pa_linux_alsa.c line 1150
-static signed int FillInDevInfo(struct PaAlsaHostApiRepresentation *alsaApi, struct anonymous$25 *deviceHwInfo, signed int blocking, struct PaAlsaDeviceInfo *devInfo, signed int *devIdx);
+static signed int FillInDevInfo(struct PaAlsaHostApiRepresentation *alsaApi, struct anonymous_25 *deviceHwInfo, signed int blocking, struct PaAlsaDeviceInfo *devInfo, signed int *devIdx);
 // FindDeviceName
 // file src/hostapi/alsa/pa_linux_alsa.c line 1031
-static const struct anonymous$25 * FindDeviceName(const char *name);
+static const struct anonymous_25 * FindDeviceName(const char *name);
 // FindHostApi
 // file src/common/pa_front.c line 243
 static signed int FindHostApi(signed int device, signed int *hostSpecificDeviceIndex);
@@ -568,9 +568,9 @@ static signed int GetAlsaStreamPointer(void *s, struct PaAlsaStream **stream);
 // GetAvailableFormats
 // file src/hostapi/alsa/pa_linux_alsa.c line 1521
 static unsigned long int GetAvailableFormats(struct _snd_pcm *pcm);
-// GetAvailableFormats$link1
+// GetAvailableFormats_link1
 // file src/hostapi/oss/pa_unix_oss.c line 951
-static signed int GetAvailableFormats$link1(struct anonymous$9 *component, unsigned long int *availableFormats);
+static signed int GetAvailableFormats_link1(struct anonymous_9 *component, unsigned long int *availableFormats);
 // GetDeviceInfo
 // file src/hostapi/alsa/pa_linux_alsa.c line 726
 static const struct PaAlsaDeviceInfo * GetDeviceInfo(const struct PaUtilHostApiRepresentation *hostApi, signed int device);
@@ -580,48 +580,48 @@ static signed int GetExactSampleRate(struct _snd_pcm_hw_params *hwParams, double
 // GetStreamCpuLoad
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 743
 static double GetStreamCpuLoad(void *s);
-// GetStreamCpuLoad$link1
+// GetStreamCpuLoad_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3183
-static double GetStreamCpuLoad$link1(void *s$link1);
-// GetStreamCpuLoad$link2
+static double GetStreamCpuLoad_link1(void *s_link1);
+// GetStreamCpuLoad_link2
 // file src/hostapi/jack/pa_jack.c line 1742
-static double GetStreamCpuLoad$link2(void *s$link2);
-// GetStreamCpuLoad$link3
+static double GetStreamCpuLoad_link2(void *s_link2);
+// GetStreamCpuLoad_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1912
-static double GetStreamCpuLoad$link3(void *s$link3);
+static double GetStreamCpuLoad_link3(void *s_link3);
 // GetStreamReadAvailable
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 791
 static signed long int GetStreamReadAvailable(void *s);
-// GetStreamReadAvailable$link1
+// GetStreamReadAvailable_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4493
-static signed long int GetStreamReadAvailable$link1(void *s$link1);
-// GetStreamReadAvailable$link2
+static signed long int GetStreamReadAvailable_link1(void *s_link1);
+// GetStreamReadAvailable_link2
 // file src/hostapi/oss/pa_unix_oss.c line 2014
-static signed long int GetStreamReadAvailable$link2(void *s$link2);
+static signed long int GetStreamReadAvailable_link2(void *s_link2);
 // GetStreamTime
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 730
 static double GetStreamTime(void *s);
-// GetStreamTime$link1
+// GetStreamTime_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3156
-static double GetStreamTime$link1(void *s$link1);
-// GetStreamTime$link2
+static double GetStreamTime_link1(void *s_link1);
+// GetStreamTime_link2
 // file src/hostapi/jack/pa_jack.c line 1733
-static double GetStreamTime$link2(void *s$link2);
-// GetStreamTime$link3
+static double GetStreamTime_link2(void *s_link2);
+// GetStreamTime_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1887
-static double GetStreamTime$link3(void *s$link3);
+static double GetStreamTime_link3(void *s_link3);
 // GetStreamWriteAvailable
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 804
 static signed long int GetStreamWriteAvailable(void *s);
-// GetStreamWriteAvailable$link1
+// GetStreamWriteAvailable_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4515
-static signed long int GetStreamWriteAvailable$link1(void *s$link1);
-// GetStreamWriteAvailable$link2
+static signed long int GetStreamWriteAvailable_link1(void *s_link1);
+// GetStreamWriteAvailable_link2
 // file src/hostapi/oss/pa_unix_oss.c line 2029
-static signed long int GetStreamWriteAvailable$link2(void *s$link2);
+static signed long int GetStreamWriteAvailable_link2(void *s_link2);
 // GropeDevice
 // file src/hostapi/alsa/pa_linux_alsa.c line 835
-static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anonymous$17 mode, signed int openBlocking, struct PaAlsaDeviceInfo *devInfo);
+static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anonymous_17 mode, signed int openBlocking, struct PaAlsaDeviceInfo *devInfo);
 // IgnorePlugin
 // file src/hostapi/alsa/pa_linux_alsa.c line 1065
 static signed int IgnorePlugin(const char *pluginId);
@@ -633,7 +633,7 @@ static void InitializeDeviceInfo(struct PaDeviceInfo *deviceInfo);
 static signed int InitializeHostApis(void);
 // InitializeStream
 // file src/hostapi/jack/pa_jack.c line 926
-static signed int InitializeStream(struct PaJackStream *stream, struct anonymous$4 *hostApi, signed int numInputChannels, signed int numOutputChannels);
+static signed int InitializeStream(struct PaJackStream *stream, struct anonymous_4 *hostApi, signed int numInputChannels, signed int numOutputChannels);
 // Int16_To_Float32
 // file src/common/pa_converters.c line 1317
 static void Int16_To_Float32(void *destinationBuffer, signed int destinationStride, void *sourceBuffer, signed int sourceStride, unsigned int count, struct PaUtilTriangularDitherGenerator *ditherGenerator);
@@ -724,39 +724,39 @@ static void Int8_To_UInt8(void *destinationBuffer, signed int destinationStride,
 // IsFormatSupported
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 260
 static signed int IsFormatSupported(struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, double sampleRate);
-// IsFormatSupported$link1
+// IsFormatSupported_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 1827
-static signed int IsFormatSupported$link1(struct PaUtilHostApiRepresentation *hostApi$link1, const struct PaStreamParameters *inputParameters$link1, const struct PaStreamParameters *outputParameters$link1, double sampleRate$link1);
-// IsFormatSupported$link2
+static signed int IsFormatSupported_link1(struct PaUtilHostApiRepresentation *hostApi_link1, const struct PaStreamParameters *inputParameters_link1, const struct PaStreamParameters *outputParameters_link1, double sampleRate_link1);
+// IsFormatSupported_link2
 // file src/hostapi/jack/pa_jack.c line 839
-static signed int IsFormatSupported$link2(struct PaUtilHostApiRepresentation *hostApi$link2, const struct PaStreamParameters *inputParameters$link2, const struct PaStreamParameters *outputParameters$link2, double sampleRate$link2);
-// IsFormatSupported$link3
+static signed int IsFormatSupported_link2(struct PaUtilHostApiRepresentation *hostApi_link2, const struct PaStreamParameters *inputParameters_link2, const struct PaStreamParameters *outputParameters_link2, double sampleRate_link2);
+// IsFormatSupported_link3
 // file src/hostapi/oss/pa_unix_oss.c line 605
-static signed int IsFormatSupported$link3(struct PaUtilHostApiRepresentation *hostApi$link3, const struct PaStreamParameters *inputParameters$link3, const struct PaStreamParameters *outputParameters$link3, double sampleRate$link3);
+static signed int IsFormatSupported_link3(struct PaUtilHostApiRepresentation *hostApi_link3, const struct PaStreamParameters *inputParameters_link3, const struct PaStreamParameters *outputParameters_link3, double sampleRate_link3);
 // IsStreamActive
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 717
 static signed int IsStreamActive(void *s);
-// IsStreamActive$link1
+// IsStreamActive_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3150
-static signed int IsStreamActive$link1(void *s$link1);
-// IsStreamActive$link2
+static signed int IsStreamActive_link1(void *s_link1);
+// IsStreamActive_link2
 // file src/hostapi/jack/pa_jack.c line 1726
-static signed int IsStreamActive$link2(void *s$link2);
-// IsStreamActive$link3
+static signed int IsStreamActive_link2(void *s_link2);
+// IsStreamActive_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1880
-static signed int IsStreamActive$link3(void *s$link3);
+static signed int IsStreamActive_link3(void *s_link3);
 // IsStreamStopped
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 704
 static signed int IsStreamStopped(void *s);
-// IsStreamStopped$link1
+// IsStreamStopped_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3142
-static signed int IsStreamStopped$link1(void *s$link1);
-// IsStreamStopped$link2
+static signed int IsStreamStopped_link1(void *s_link1);
+// IsStreamStopped_link2
 // file src/hostapi/jack/pa_jack.c line 1719
-static signed int IsStreamStopped$link2(void *s$link2);
-// IsStreamStopped$link3
+static signed int IsStreamStopped_link2(void *s_link2);
+// IsStreamStopped_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1870
-static signed int IsStreamStopped$link3(void *s$link3);
+static signed int IsStreamStopped_link3(void *s_link3);
 // JackCallback
 // file src/hostapi/jack/pa_jack.c line 1501
 static signed int JackCallback(unsigned int frames, void *userData);
@@ -783,13 +783,13 @@ static void LogAllAvailableFormats(struct _snd_pcm *pcm);
 static signed int ModifyBlocking(signed int fd, signed int blocking);
 // NonAdaptingProcess
 // file src/common/pa_process.c line 704
-static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess);
+static unsigned long int NonAdaptingProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess);
 // OnExit
 // file src/hostapi/alsa/pa_linux_alsa.c line 3383
 static void OnExit(void *data);
-// OnExit$link1
+// OnExit_link1
 // file src/hostapi/oss/pa_unix_oss.c line 1555
-static void OnExit$link1(void *data$link1);
+static void OnExit_link1(void *data_link1);
 // OpenDevices
 // file src/hostapi/oss/pa_unix_oss.c line 811
 static signed int OpenDevices(const char *idevName, const char *odevName, signed int *idev, signed int *odev);
@@ -799,27 +799,27 @@ static signed int OpenPcm(struct _snd_pcm **pcmp, const char *name, enum _snd_pc
 // OpenStream
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 371
 static signed int OpenStream(struct PaUtilHostApiRepresentation *hostApi, void **s, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, double sampleRate, unsigned long int framesPerBuffer, unsigned long int streamFlags, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData);
-// OpenStream$link1
+// OpenStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 2792
-static signed int OpenStream$link1(struct PaUtilHostApiRepresentation *hostApi$link1, void **s$link1, const struct PaStreamParameters *inputParameters$link1, const struct PaStreamParameters *outputParameters$link1, double sampleRate$link1, unsigned long int framesPerBuffer$link1, unsigned long int streamFlags$link1, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData$link1);
-// OpenStream$link2
+static signed int OpenStream_link1(struct PaUtilHostApiRepresentation *hostApi_link1, void **s_link1, const struct PaStreamParameters *inputParameters_link1, const struct PaStreamParameters *outputParameters_link1, double sampleRate_link1, unsigned long int framesPerBuffer_link1, unsigned long int streamFlags_link1, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData_link1);
+// OpenStream_link2
 // file src/hostapi/jack/pa_jack.c line 1067
-static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$link2, void **s$link2, const struct PaStreamParameters *inputParameters$link2, const struct PaStreamParameters *outputParameters$link2, double sampleRate$link2, unsigned long int framesPerBuffer$link2, unsigned long int streamFlags$link2, signed int (*streamCallback$link1)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData$link2);
-// OpenStream$link3
+static signed int OpenStream_link2(struct PaUtilHostApiRepresentation *hostApi_link2, void **s_link2, const struct PaStreamParameters *inputParameters_link2, const struct PaStreamParameters *outputParameters_link2, double sampleRate_link2, unsigned long int framesPerBuffer_link2, unsigned long int streamFlags_link2, signed int (*streamCallback_link1)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData_link2);
+// OpenStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1184
-static signed int OpenStream$link3(struct PaUtilHostApiRepresentation *hostApi$link3, void **s$link3, const struct PaStreamParameters *inputParameters$link3, const struct PaStreamParameters *outputParameters$link3, double sampleRate$link3, unsigned long int framesPerBuffer$link3, unsigned long int streamFlags$link3, signed int (*streamCallback$link2)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData$link3);
-// OpenStream::callback$object
+static signed int OpenStream_link3(struct PaUtilHostApiRepresentation *hostApi_link3, void **s_link3, const struct PaStreamParameters *inputParameters_link3, const struct PaStreamParameters *outputParameters_link3, double sampleRate_link3, unsigned long int framesPerBuffer_link3, unsigned long int streamFlags_link3, signed int (*streamCallback_link2)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData_link3);
+// OpenStream::callback_object
 //
-signed int callback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
-// OpenStream::streamCallback$link1$object
+signed int callback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+// OpenStream::streamCallback_link1_object
 //
-signed int streamCallback$link1$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
-// OpenStream::streamCallback$link2$object
+signed int streamCallback_link1_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+// OpenStream::streamCallback_link2_object
 //
-signed int streamCallback$link2$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
-// OpenStream::streamCallback$object
+signed int streamCallback_link2_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+// OpenStream::streamCallback_object
 //
-signed int streamCallback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int streamCallback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // Pa2AlsaFormat
 // file src/hostapi/alsa/pa_linux_alsa.c line 1677
 static enum _snd_pcm_format Pa2AlsaFormat(unsigned long int paFormat);
@@ -828,46 +828,46 @@ static enum _snd_pcm_format Pa2AlsaFormat(unsigned long int paFormat);
 static signed int Pa2OssFormat(unsigned long int paFormat, signed int *ossFormat);
 // PaAlsaStreamComponent_BeginPolling
 // file src/hostapi/alsa/pa_linux_alsa.c line 3636
-static signed int PaAlsaStreamComponent_BeginPolling(struct anonymous$23 *self, struct pollfd *pfds);
+static signed int PaAlsaStreamComponent_BeginPolling(struct anonymous_23 *self, struct pollfd *pfds);
 // PaAlsaStreamComponent_DetermineFramesPerBuffer
 // file src/hostapi/alsa/pa_linux_alsa.c line 2265
-static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymous$23 *self, const struct PaStreamParameters *params, unsigned long int framesPerUserBuffer, double sampleRate, struct _snd_pcm_hw_params *hwParams, signed int *accurate);
+static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymous_23 *self, const struct PaStreamParameters *params, unsigned long int framesPerUserBuffer, double sampleRate, struct _snd_pcm_hw_params *hwParams, signed int *accurate);
 // PaAlsaStreamComponent_DoChannelAdaption
 // file src/hostapi/alsa/pa_linux_alsa.c line 3521
-static signed int PaAlsaStreamComponent_DoChannelAdaption(struct anonymous$23 *self, struct anonymous$7 *bp, signed int numFrames);
+static signed int PaAlsaStreamComponent_DoChannelAdaption(struct anonymous_23 *self, struct anonymous_7 *bp, signed int numFrames);
 // PaAlsaStreamComponent_EndPolling
 // file src/hostapi/alsa/pa_linux_alsa.c line 3654
-static signed int PaAlsaStreamComponent_EndPolling(struct anonymous$23 *self, struct pollfd *pfds, signed int *shouldPoll, signed int *xrun);
+static signed int PaAlsaStreamComponent_EndPolling(struct anonymous_23 *self, struct pollfd *pfds, signed int *shouldPoll, signed int *xrun);
 // PaAlsaStreamComponent_EndProcessing
 // file src/hostapi/alsa/pa_linux_alsa.c line 3462
-static signed int PaAlsaStreamComponent_EndProcessing(struct anonymous$23 *self, unsigned long int numFrames, signed int *xrun);
+static signed int PaAlsaStreamComponent_EndProcessing(struct anonymous_23 *self, unsigned long int numFrames, signed int *xrun);
 // PaAlsaStreamComponent_FinishConfigure
 // file src/hostapi/alsa/pa_linux_alsa.c line 2073
-static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *self, struct _snd_pcm_hw_params *hwParams, const struct PaStreamParameters *params, signed int primeBuffers, double sampleRate, double *latency);
+static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous_23 *self, struct _snd_pcm_hw_params *hwParams, const struct PaStreamParameters *params, signed int primeBuffers, double sampleRate, double *latency);
 // PaAlsaStreamComponent_GetAvailableFrames
 // file src/hostapi/alsa/pa_linux_alsa.c line 3612
-static signed int PaAlsaStreamComponent_GetAvailableFrames(struct anonymous$23 *self, unsigned long int *numFrames, signed int *xrunOccurred);
+static signed int PaAlsaStreamComponent_GetAvailableFrames(struct anonymous_23 *self, unsigned long int *numFrames, signed int *xrunOccurred);
 // PaAlsaStreamComponent_InitialConfigure
 // file src/hostapi/alsa/pa_linux_alsa.c line 1958
-static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *self, const struct PaStreamParameters *params, signed int primeBuffers, struct _snd_pcm_hw_params *hwParams, double *sampleRate);
+static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous_23 *self, const struct PaStreamParameters *params, signed int primeBuffers, struct _snd_pcm_hw_params *hwParams, double *sampleRate);
 // PaAlsaStreamComponent_Initialize
 // file src/hostapi/alsa/pa_linux_alsa.c line 1872
-static signed int PaAlsaStreamComponent_Initialize(struct anonymous$23 *self, struct PaAlsaHostApiRepresentation *alsaApi, const struct PaStreamParameters *params, enum anonymous$17 streamDir, signed int callbackMode);
+static signed int PaAlsaStreamComponent_Initialize(struct anonymous_23 *self, struct PaAlsaHostApiRepresentation *alsaApi, const struct PaStreamParameters *params, enum anonymous_17 streamDir, signed int callbackMode);
 // PaAlsaStreamComponent_RegisterChannels
 // file src/hostapi/alsa/pa_linux_alsa.c line 3947
-static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *self, struct anonymous$7 *bp, unsigned long int *numFrames, signed int *xrun);
-// PaAlsaStreamComponent_RegisterChannels::1::setChannel$object
+static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous_23 *self, struct anonymous_7 *bp, unsigned long int *numFrames, signed int *xrun);
+// PaAlsaStreamComponent_RegisterChannels::1::setChannel_object
 //
-void setChannel$object(struct anonymous$7 *, unsigned int, void *, unsigned int);
+void setChannel_object(struct anonymous_7 *, unsigned int, void *, unsigned int);
 // PaAlsaStreamComponent_Terminate
 // file src/hostapi/alsa/pa_linux_alsa.c line 1940
-static void PaAlsaStreamComponent_Terminate(struct anonymous$23 *self);
+static void PaAlsaStreamComponent_Terminate(struct anonymous_23 *self);
 // PaAlsaStream_Configure
 // file src/hostapi/alsa/pa_linux_alsa.c line 2706
-static signed int PaAlsaStream_Configure(struct PaAlsaStream *self, const struct PaStreamParameters *inParams, const struct PaStreamParameters *outParams, double sampleRate, unsigned long int framesPerUserBuffer, double *inputLatency, double *outputLatency, enum anonymous$21 *hostBufferSizeMode);
+static signed int PaAlsaStream_Configure(struct PaAlsaStream *self, const struct PaStreamParameters *inParams, const struct PaStreamParameters *outParams, double sampleRate, unsigned long int framesPerUserBuffer, double *inputLatency, double *outputLatency, enum anonymous_21 *hostBufferSizeMode);
 // PaAlsaStream_DetermineFramesPerBuffer
 // file src/hostapi/alsa/pa_linux_alsa.c line 2517
-static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *self, double sampleRate, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, unsigned long int framesPerUserBuffer, struct _snd_pcm_hw_params *hwParamsCapture, struct _snd_pcm_hw_params *hwParamsPlayback, enum anonymous$21 *hostBufferSizeMode);
+static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *self, double sampleRate, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, unsigned long int framesPerUserBuffer, struct _snd_pcm_hw_params *hwParamsCapture, struct _snd_pcm_hw_params *hwParamsPlayback, enum anonymous_21 *hostBufferSizeMode);
 // PaAlsaStream_EndProcessing
 // file src/hostapi/alsa/pa_linux_alsa.c line 3586
 static signed int PaAlsaStream_EndProcessing(struct PaAlsaStream *self, unsigned long int numFrames, signed int *xrunOccurred);
@@ -880,9 +880,9 @@ static signed int PaAlsaStream_HandleXrun(struct PaAlsaStream *self);
 // PaAlsaStream_Initialize
 // file src/hostapi/alsa/pa_linux_alsa.c line 2137
 static signed int PaAlsaStream_Initialize(struct PaAlsaStream *self, struct PaAlsaHostApiRepresentation *alsaApi, const struct PaStreamParameters *inParams, const struct PaStreamParameters *outParams, double sampleRate, unsigned long int framesPerUserBuffer, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), unsigned long int streamFlags, void *userData);
-// PaAlsaStream_Initialize::callback$object
+// PaAlsaStream_Initialize::callback_object
 //
-signed int callback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int callback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // PaAlsaStream_SetUpBuffers
 // file src/hostapi/alsa/pa_linux_alsa.c line 4062
 static signed int PaAlsaStream_SetUpBuffers(struct PaAlsaStream *self, unsigned long int *numFrames, signed int *xrunOccurred);
@@ -946,9 +946,9 @@ signed int PaJack_SetClientName(const char *name);
 // PaOSS_AudioThreadProc
 // file src/hostapi/oss/pa_unix_oss.c line 1601
 static void * PaOSS_AudioThreadProc(void *userData);
-// PaOSS_AudioThreadProc::1::1::__cancel_routine$object
+// PaOSS_AudioThreadProc::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // PaOSS_GetStreamInputDevice
 // file src/hostapi/oss/pa_unix_oss.c line 2046
 const char * PaOSS_GetStreamInputDevice(void *s);
@@ -960,34 +960,34 @@ const char * PaOSS_GetStreamOutputDevice(void *s);
 signed int PaOSS_Initialize(struct PaUtilHostApiRepresentation **hostApi, signed int hostApiIndex);
 // PaOssStreamComponent_BufferSize
 // file src/hostapi/oss/pa_unix_oss.c line 981
-static unsigned long int PaOssStreamComponent_BufferSize(struct anonymous$9 *component);
+static unsigned long int PaOssStreamComponent_BufferSize(struct anonymous_9 *component);
 // PaOssStreamComponent_Configure
 // file src/hostapi/oss/pa_unix_oss.c line 988
-static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, double sampleRate, unsigned long int framesPerBuffer, enum anonymous$15 streamMode, struct anonymous$9 *master);
+static signed int PaOssStreamComponent_Configure(struct anonymous_9 *component, double sampleRate, unsigned long int framesPerBuffer, enum anonymous_15 streamMode, struct anonymous_9 *master);
 // PaOssStreamComponent_FrameSize
 // file src/hostapi/oss/pa_unix_oss.c line 973
-static unsigned int PaOssStreamComponent_FrameSize(struct anonymous$9 *component);
+static unsigned int PaOssStreamComponent_FrameSize(struct anonymous_9 *component);
 // PaOssStreamComponent_Initialize
 // file src/hostapi/oss/pa_unix_oss.c line 747
-static signed int PaOssStreamComponent_Initialize(struct anonymous$9 *component, const struct PaStreamParameters *parameters, signed int callbackMode, signed int fd, const char *deviceName);
+static signed int PaOssStreamComponent_Initialize(struct anonymous_9 *component, const struct PaStreamParameters *parameters, signed int callbackMode, signed int fd, const char *deviceName);
 // PaOssStreamComponent_Read
 // file src/hostapi/oss/pa_unix_oss.c line 1086
-static signed int PaOssStreamComponent_Read(struct anonymous$9 *component, unsigned long int *frames);
+static signed int PaOssStreamComponent_Read(struct anonymous_9 *component, unsigned long int *frames);
 // PaOssStreamComponent_Terminate
 // file src/hostapi/oss/pa_unix_oss.c line 773
-static void PaOssStreamComponent_Terminate(struct anonymous$9 *component);
+static void PaOssStreamComponent_Terminate(struct anonymous_9 *component);
 // PaOssStreamComponent_Write
 // file src/hostapi/oss/pa_unix_oss.c line 1100
-static signed int PaOssStreamComponent_Write(struct anonymous$9 *component, unsigned long int *frames);
+static signed int PaOssStreamComponent_Write(struct anonymous_9 *component, unsigned long int *frames);
 // PaOssStream_Configure
 // file src/hostapi/oss/pa_unix_oss.c line 1119
 static signed int PaOssStream_Configure(struct PaOssStream *stream, double sampleRate, unsigned long int framesPerBuffer, double *inputLatency, double *outputLatency);
 // PaOssStream_Initialize
 // file src/hostapi/oss/pa_unix_oss.c line 852
-static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData, unsigned long int streamFlags, struct anonymous$14 *ossApi);
-// PaOssStream_Initialize::callback$object
+static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData, unsigned long int streamFlags, struct anonymous_14 *ossApi);
+// PaOssStream_Initialize::callback_object
 //
-signed int callback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int callback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // PaOssStream_Prepare
 // file src/hostapi/oss/pa_unix_oss.c line 1461
 static signed int PaOssStream_Prepare(struct PaOssStream *stream);
@@ -1005,34 +1005,34 @@ static signed int PaOssStream_WaitForFrames(struct PaOssStream *stream, unsigned
 signed int PaSkeleton_Initialize(struct PaUtilHostApiRepresentation **hostApi, signed int hostApiIndex);
 // PaUnixMutex_Initialize
 // file ./src/os/unix/pa_unix_util.h line 142
-signed int PaUnixMutex_Initialize(struct anonymous$19 *self);
+signed int PaUnixMutex_Initialize(struct anonymous_19 *self);
 // PaUnixMutex_Lock
 // file ./src/os/unix/pa_unix_util.h line 144
-signed int PaUnixMutex_Lock(struct anonymous$19 *self);
+signed int PaUnixMutex_Lock(struct anonymous_19 *self);
 // PaUnixMutex_Terminate
 // file ./src/os/unix/pa_unix_util.h line 143
-signed int PaUnixMutex_Terminate(struct anonymous$19 *self);
+signed int PaUnixMutex_Terminate(struct anonymous_19 *self);
 // PaUnixMutex_Unlock
 // file ./src/os/unix/pa_unix_util.h line 145
-signed int PaUnixMutex_Unlock(struct anonymous$19 *self);
+signed int PaUnixMutex_Unlock(struct anonymous_19 *self);
 // PaUnixThread_New
 // file ./src/os/unix/pa_unix_util.h line 193
-signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void *), void *threadArg, double waitForChild, signed int rtSched);
-// PaUnixThread_New::threadFunc$object
+signed int PaUnixThread_New(struct anonymous_18 *self, void * (*threadFunc)(void *), void *threadArg, double waitForChild, signed int rtSched);
+// PaUnixThread_New::threadFunc_object
 //
-void * threadFunc$object(void *);
+void * threadFunc_object(void *);
 // PaUnixThread_NotifyParent
 // file ./src/os/unix/pa_unix_util.h line 215
-signed int PaUnixThread_NotifyParent(struct anonymous$18 *self);
+signed int PaUnixThread_NotifyParent(struct anonymous_18 *self);
 // PaUnixThread_PrepareNotify
 // file ./src/os/unix/pa_unix_util.h line 209
-signed int PaUnixThread_PrepareNotify(struct anonymous$18 *self);
+signed int PaUnixThread_PrepareNotify(struct anonymous_18 *self);
 // PaUnixThread_StopRequested
 // file ./src/os/unix/pa_unix_util.h line 219
-signed int PaUnixThread_StopRequested(struct anonymous$18 *self);
+signed int PaUnixThread_StopRequested(struct anonymous_18 *self);
 // PaUnixThread_Terminate
 // file ./src/os/unix/pa_unix_util.h line 201
-signed int PaUnixThread_Terminate(struct anonymous$18 *self, signed int wait, signed int *exitResult);
+signed int PaUnixThread_Terminate(struct anonymous_18 *self, signed int wait, signed int *exitResult);
 // PaUnixThreading_Initialize
 // file ./src/os/unix/pa_unix_util.h line 160
 signed int PaUnixThreading_Initialize();
@@ -1047,31 +1047,31 @@ signed long int PaUtil_AdvanceRingBufferWriteIndex(struct PaUtilRingBuffer *rbuf
 void * PaUtil_AllocateMemory(signed long int size);
 // PaUtil_BeginBufferProcessing
 // file src/common/pa_process.c line 669
-void PaUtil_BeginBufferProcessing(struct anonymous$7 *bp, struct PaStreamCallbackTimeInfo *timeInfo, unsigned long int callbackStatusFlags);
+void PaUtil_BeginBufferProcessing(struct anonymous_7 *bp, struct PaStreamCallbackTimeInfo *timeInfo, unsigned long int callbackStatusFlags);
 // PaUtil_BeginCpuLoadMeasurement
 // file src/common/pa_cpuload.c line 73
-void PaUtil_BeginCpuLoadMeasurement(struct anonymous$6 *measurer);
+void PaUtil_BeginCpuLoadMeasurement(struct anonymous_6 *measurer);
 // PaUtil_CancelThreading
 // file ./src/os/unix/pa_unix_util.h line 119
-signed int PaUtil_CancelThreading(struct anonymous$8 *threading, signed int wait, signed int *exitResult);
+signed int PaUtil_CancelThreading(struct anonymous_8 *threading, signed int wait, signed int *exitResult);
 // PaUtil_CopyInput
 // file src/common/pa_process.c line 1660
-unsigned long int PaUtil_CopyInput(struct anonymous$7 *bp, void **buffer, unsigned long int frameCount);
+unsigned long int PaUtil_CopyInput(struct anonymous_7 *bp, void **buffer, unsigned long int frameCount);
 // PaUtil_CopyOutput
 // file src/common/pa_process.c line 1731
-unsigned long int PaUtil_CopyOutput(struct anonymous$7 *bp, const void **buffer, unsigned long int frameCount);
+unsigned long int PaUtil_CopyOutput(struct anonymous_7 *bp, const void **buffer, unsigned long int frameCount);
 // PaUtil_CountCurrentlyAllocatedBlocks
 // file src/os/unix/pa_unix_util.c line 98
 signed int PaUtil_CountCurrentlyAllocatedBlocks(void);
 // PaUtil_CreateAllocationGroup
 // file src/common/pa_allocation.c line 103
-struct anonymous$13 * PaUtil_CreateAllocationGroup(void);
+struct anonymous_13 * PaUtil_CreateAllocationGroup(void);
 // PaUtil_DebugPrint
 // file src/common/pa_debugprint.c line 88
 void PaUtil_DebugPrint(const char *format, ...);
 // PaUtil_DestroyAllocationGroup
 // file src/common/pa_allocation.c line 130
-void PaUtil_DestroyAllocationGroup(struct anonymous$13 *group);
+void PaUtil_DestroyAllocationGroup(struct anonymous_13 *group);
 // PaUtil_DeviceIndexToHostApiDeviceIndex
 // file src/common/pa_front.c line 490
 signed int PaUtil_DeviceIndexToHostApiDeviceIndex(signed int *hostApiDevice, signed int device, struct PaUtilHostApiRepresentation *hostApi);
@@ -1092,16 +1092,16 @@ signed int PaUtil_DummyRead(void *stream, void *buffer, unsigned long int frames
 signed int PaUtil_DummyWrite(void *stream, const void *buffer, unsigned long int frames);
 // PaUtil_EndBufferProcessing
 // file src/common/pa_process.c line 1482
-unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int *streamCallbackResult);
+unsigned long int PaUtil_EndBufferProcessing(struct anonymous_7 *bp, signed int *streamCallbackResult);
 // PaUtil_EndCpuLoadMeasurement
 // file src/common/pa_cpuload.c line 79
-void PaUtil_EndCpuLoadMeasurement(struct anonymous$6 *measurer, unsigned long int framesProcessed);
+void PaUtil_EndCpuLoadMeasurement(struct anonymous_6 *measurer, unsigned long int framesProcessed);
 // PaUtil_FlushRingBuffer
 // file src/common/pa_ringbuffer.c line 93
 void PaUtil_FlushRingBuffer(struct PaUtilRingBuffer *rbuf);
 // PaUtil_FreeAllAllocations
 // file src/common/pa_allocation.c line 220
-void PaUtil_FreeAllAllocations(struct anonymous$13 *group);
+void PaUtil_FreeAllAllocations(struct anonymous_13 *group);
 // PaUtil_FreeMemory
 // file src/common/pa_util.h line 125
 void PaUtil_FreeMemory(void *block);
@@ -1113,13 +1113,13 @@ signed int PaUtil_Generate16BitTriangularDither(struct PaUtilTriangularDitherGen
 float PaUtil_GenerateFloatTriangularDither(struct PaUtilTriangularDitherGenerator *state);
 // PaUtil_GetBufferProcessorInputLatencyFrames
 // file src/common/pa_process.c line 431
-unsigned long int PaUtil_GetBufferProcessorInputLatencyFrames(struct anonymous$7 *bp);
+unsigned long int PaUtil_GetBufferProcessorInputLatencyFrames(struct anonymous_7 *bp);
 // PaUtil_GetBufferProcessorOutputLatencyFrames
 // file src/common/pa_process.c line 437
-unsigned long int PaUtil_GetBufferProcessorOutputLatencyFrames(struct anonymous$7 *bp);
+unsigned long int PaUtil_GetBufferProcessorOutputLatencyFrames(struct anonymous_7 *bp);
 // PaUtil_GetCpuLoad
 // file src/common/pa_cpuload.c line 102
-double PaUtil_GetCpuLoad(struct anonymous$6 *measurer);
+double PaUtil_GetCpuLoad(struct anonymous_6 *measurer);
 // PaUtil_GetHostApiRepresentation
 // file src/common/pa_front.c line 461
 signed int PaUtil_GetHostApiRepresentation(struct PaUtilHostApiRepresentation **hostApi, enum PaHostApiTypeId type);
@@ -1140,91 +1140,91 @@ signed long int PaUtil_GetRingBufferWriteRegions(struct PaUtilRingBuffer *rbuf, 
 double PaUtil_GetTime(void);
 // PaUtil_GroupAllocateMemory
 // file src/common/pa_allocation.c line 146
-void * PaUtil_GroupAllocateMemory(struct anonymous$13 *group, signed long int size);
+void * PaUtil_GroupAllocateMemory(struct anonymous_13 *group, signed long int size);
 // PaUtil_GroupFreeMemory
 // file src/common/pa_allocation.c line 183
-void PaUtil_GroupFreeMemory(struct anonymous$13 *group, void *buffer);
+void PaUtil_GroupFreeMemory(struct anonymous_13 *group, void *buffer);
 // PaUtil_InitializeBufferProcessor
 // file src/common/pa_process.c line 90
-signed int PaUtil_InitializeBufferProcessor(struct anonymous$7 *bp, signed int inputChannelCount, unsigned long int userInputSampleFormat, unsigned long int hostInputSampleFormat, signed int outputChannelCount, unsigned long int userOutputSampleFormat, unsigned long int hostOutputSampleFormat, double sampleRate, unsigned long int streamFlags, unsigned long int framesPerUserBuffer, unsigned long int framesPerHostBuffer, enum anonymous$21 hostBufferSizeMode, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData);
-// PaUtil_InitializeBufferProcessor::streamCallback$object
+signed int PaUtil_InitializeBufferProcessor(struct anonymous_7 *bp, signed int inputChannelCount, unsigned long int userInputSampleFormat, unsigned long int hostInputSampleFormat, signed int outputChannelCount, unsigned long int userOutputSampleFormat, unsigned long int hostOutputSampleFormat, double sampleRate, unsigned long int streamFlags, unsigned long int framesPerUserBuffer, unsigned long int framesPerHostBuffer, enum anonymous_21 hostBufferSizeMode, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData);
+// PaUtil_InitializeBufferProcessor::streamCallback_object
 //
-signed int streamCallback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int streamCallback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // PaUtil_InitializeClock
 // file src/common/pa_util.h line 142
 void PaUtil_InitializeClock(void);
 // PaUtil_InitializeCpuLoadMeasurer
 // file src/common/pa_cpuload.c line 60
-void PaUtil_InitializeCpuLoadMeasurer(struct anonymous$6 *measurer, double sampleRate);
+void PaUtil_InitializeCpuLoadMeasurer(struct anonymous_6 *measurer, double sampleRate);
 // PaUtil_InitializeDeviceInfo
 // file src/hostapi/oss/pa_unix_oss.c line 292
-signed int PaUtil_InitializeDeviceInfo(struct PaDeviceInfo *deviceInfo, const char *name, signed int hostApiIndex, signed int maxInputChannels, signed int maxOutputChannels, double defaultLowInputLatency, double defaultLowOutputLatency, double defaultHighInputLatency, double defaultHighOutputLatency, double defaultSampleRate, struct anonymous$13 *allocations);
+signed int PaUtil_InitializeDeviceInfo(struct PaDeviceInfo *deviceInfo, const char *name, signed int hostApiIndex, signed int maxInputChannels, signed int maxOutputChannels, double defaultLowInputLatency, double defaultLowOutputLatency, double defaultHighInputLatency, double defaultHighOutputLatency, double defaultSampleRate, struct anonymous_13 *allocations);
 // PaUtil_InitializeRingBuffer
 // file ./src/common/pa_ringbuffer.h line 117
 signed long int PaUtil_InitializeRingBuffer(struct PaUtilRingBuffer *rbuf, signed long int elementSizeBytes, signed long int elementCount, void *dataPtr);
 // PaUtil_InitializeStreamInterface
 // file src/common/pa_stream.c line 51
-void PaUtil_InitializeStreamInterface(struct anonymous$12 *streamInterface, signed int (*Close)(void *), signed int (*Start)(void *), signed int (*Stop)(void *), signed int (*Abort)(void *), signed int (*IsStopped)(void *), signed int (*IsActive)(void *), double (*GetTime)(void *), double (*GetCpuLoad)(void *), signed int (*Read)(void *, void *, unsigned long int), signed int (*Write)(void *, const void *, unsigned long int), signed long int (*GetReadAvailable)(void *), signed long int (*GetWriteAvailable)(void *));
-// PaUtil_InitializeStreamInterface::Abort$object
+void PaUtil_InitializeStreamInterface(struct anonymous_12 *streamInterface, signed int (*Close)(void *), signed int (*Start)(void *), signed int (*Stop)(void *), signed int (*Abort)(void *), signed int (*IsStopped)(void *), signed int (*IsActive)(void *), double (*GetTime)(void *), double (*GetCpuLoad)(void *), signed int (*Read)(void *, void *, unsigned long int), signed int (*Write)(void *, const void *, unsigned long int), signed long int (*GetReadAvailable)(void *), signed long int (*GetWriteAvailable)(void *));
+// PaUtil_InitializeStreamInterface::Abort_object
 //
-signed int Abort$object(void *);
-// PaUtil_InitializeStreamInterface::Close$object
+signed int Abort_object(void *);
+// PaUtil_InitializeStreamInterface::Close_object
 //
-signed int Close$object(void *);
-// PaUtil_InitializeStreamInterface::GetCpuLoad$object
+signed int Close_object(void *);
+// PaUtil_InitializeStreamInterface::GetCpuLoad_object
 //
-double GetCpuLoad$object(void *);
-// PaUtil_InitializeStreamInterface::GetReadAvailable$object
+double GetCpuLoad_object(void *);
+// PaUtil_InitializeStreamInterface::GetReadAvailable_object
 //
-signed long int GetReadAvailable$object(void *);
-// PaUtil_InitializeStreamInterface::GetTime$object
+signed long int GetReadAvailable_object(void *);
+// PaUtil_InitializeStreamInterface::GetTime_object
 //
-double GetTime$object(void *);
-// PaUtil_InitializeStreamInterface::GetWriteAvailable$object
+double GetTime_object(void *);
+// PaUtil_InitializeStreamInterface::GetWriteAvailable_object
 //
-signed long int GetWriteAvailable$object(void *);
-// PaUtil_InitializeStreamInterface::IsActive$object
+signed long int GetWriteAvailable_object(void *);
+// PaUtil_InitializeStreamInterface::IsActive_object
 //
-signed int IsActive$object(void *);
-// PaUtil_InitializeStreamInterface::IsStopped$object
+signed int IsActive_object(void *);
+// PaUtil_InitializeStreamInterface::IsStopped_object
 //
-signed int IsStopped$object(void *);
-// PaUtil_InitializeStreamInterface::Read$object
+signed int IsStopped_object(void *);
+// PaUtil_InitializeStreamInterface::Read_object
 //
-signed int Read$object(void *, void *, unsigned long int);
-// PaUtil_InitializeStreamInterface::Start$object
+signed int Read_object(void *, void *, unsigned long int);
+// PaUtil_InitializeStreamInterface::Start_object
 //
-signed int Start$object(void *);
-// PaUtil_InitializeStreamInterface::Stop$object
+signed int Start_object(void *);
+// PaUtil_InitializeStreamInterface::Stop_object
 //
-signed int Stop$object(void *);
-// PaUtil_InitializeStreamInterface::Write$object
+signed int Stop_object(void *);
+// PaUtil_InitializeStreamInterface::Write_object
 //
-signed int Write$object(void *, const void *, unsigned long int);
+signed int Write_object(void *, const void *, unsigned long int);
 // PaUtil_InitializeStreamRepresentation
 // file src/common/pa_stream.c line 80
-void PaUtil_InitializeStreamRepresentation(struct PaUtilStreamRepresentation *streamRepresentation, struct anonymous$12 *streamInterface, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData);
-// PaUtil_InitializeStreamRepresentation::streamCallback$object
+void PaUtil_InitializeStreamRepresentation(struct PaUtilStreamRepresentation *streamRepresentation, struct anonymous_12 *streamInterface, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData);
+// PaUtil_InitializeStreamRepresentation::streamCallback_object
 //
-signed int streamCallback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int streamCallback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // PaUtil_InitializeThreading
 // file ./src/os/unix/pa_unix_util.h line 116
-signed int PaUtil_InitializeThreading(struct anonymous$8 *threading);
+signed int PaUtil_InitializeThreading(struct anonymous_8 *threading);
 // PaUtil_InitializeTriangularDitherState
 // file src/common/pa_dither.c line 57
 void PaUtil_InitializeTriangularDitherState(struct PaUtilTriangularDitherGenerator *state);
 // PaUtil_IsBufferProcessorOutputEmpty
 // file src/common/pa_process.c line 1654
-signed int PaUtil_IsBufferProcessorOutputEmpty(struct anonymous$7 *bp);
+signed int PaUtil_IsBufferProcessorOutputEmpty(struct anonymous_7 *bp);
 // PaUtil_ReadRingBuffer
 // file ./src/common/pa_ringbuffer.h line 163
 signed long int PaUtil_ReadRingBuffer(struct PaUtilRingBuffer *rbuf, void *data, signed long int elementCount);
 // PaUtil_ResetBufferProcessor
 // file src/common/pa_process.c line 408
-void PaUtil_ResetBufferProcessor(struct anonymous$7 *bp);
+void PaUtil_ResetBufferProcessor(struct anonymous_7 *bp);
 // PaUtil_ResetCpuLoadMeasurer
 // file src/common/pa_cpuload.c line 68
-void PaUtil_ResetCpuLoadMeasurer(struct anonymous$6 *measurer);
+void PaUtil_ResetCpuLoadMeasurer(struct anonymous_6 *measurer);
 // PaUtil_SelectClosestAvailableFormat
 // file src/common/pa_converters.c line 70
 unsigned long int PaUtil_SelectClosestAvailableFormat(unsigned long int availableFormats, unsigned long int format);
@@ -1236,82 +1236,82 @@ void (*PaUtil_SelectConverter(unsigned long int sourceFormat, unsigned long int 
 void (*PaUtil_SelectZeroer(unsigned long int destinationFormat))(void *, signed int, unsigned int);
 // PaUtil_Set2ndInputChannel
 // file src/common/pa_process.c line 512
-void PaUtil_Set2ndInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride);
+void PaUtil_Set2ndInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride);
 // PaUtil_Set2ndInputFrameCount
 // file src/common/pa_process.c line 505
-void PaUtil_Set2ndInputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount);
+void PaUtil_Set2ndInputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount);
 // PaUtil_Set2ndInterleavedInputChannels
 // file src/common/pa_process.c line 522
-void PaUtil_Set2ndInterleavedInputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
+void PaUtil_Set2ndInterleavedInputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
 // PaUtil_Set2ndInterleavedOutputChannels
 // file src/common/pa_process.c line 637
-void PaUtil_Set2ndInterleavedOutputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
+void PaUtil_Set2ndInterleavedOutputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
 // PaUtil_Set2ndNonInterleavedInputChannel
 // file src/common/pa_process.c line 545
-void PaUtil_Set2ndNonInterleavedInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data);
+void PaUtil_Set2ndNonInterleavedInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data);
 // PaUtil_Set2ndNonInterleavedOutputChannel
 // file src/common/pa_process.c line 659
-void PaUtil_Set2ndNonInterleavedOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data);
+void PaUtil_Set2ndNonInterleavedOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data);
 // PaUtil_Set2ndOutputChannel
 // file src/common/pa_process.c line 626
-void PaUtil_Set2ndOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride);
+void PaUtil_Set2ndOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride);
 // PaUtil_Set2ndOutputFrameCount
 // file src/common/pa_process.c line 619
-void PaUtil_Set2ndOutputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount);
+void PaUtil_Set2ndOutputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount);
 // PaUtil_SetDebugPrintFunction
 // file src/common/pa_debugprint.c line 68
 void PaUtil_SetDebugPrintFunction(void (*cb)(const char *));
-// PaUtil_SetDebugPrintFunction::cb$object
+// PaUtil_SetDebugPrintFunction::cb_object
 //
-void cb$object(const char *);
+void cb_object(const char *);
 // PaUtil_SetInputChannel
 // file src/common/pa_process.c line 461
-void PaUtil_SetInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride);
+void PaUtil_SetInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride);
 // PaUtil_SetInputFrameCount
 // file src/common/pa_process.c line 443
-void PaUtil_SetInputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount);
+void PaUtil_SetInputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount);
 // PaUtil_SetInterleavedInputChannels
 // file src/common/pa_process.c line 471
-void PaUtil_SetInterleavedInputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
+void PaUtil_SetInterleavedInputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
 // PaUtil_SetInterleavedOutputChannels
 // file src/common/pa_process.c line 587
-void PaUtil_SetInterleavedOutputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
+void PaUtil_SetInterleavedOutputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount);
 // PaUtil_SetLastHostErrorInfo
 // file src/common/pa_front.c line 106
 void PaUtil_SetLastHostErrorInfo(enum PaHostApiTypeId hostApiType, signed long int errorCode, const char *errorText);
 // PaUtil_SetNoInput
 // file src/common/pa_process.c line 453
-void PaUtil_SetNoInput(struct anonymous$7 *bp);
+void PaUtil_SetNoInput(struct anonymous_7 *bp);
 // PaUtil_SetNoOutput
 // file src/common/pa_process.c line 566
-void PaUtil_SetNoOutput(struct anonymous$7 *bp);
+void PaUtil_SetNoOutput(struct anonymous_7 *bp);
 // PaUtil_SetNonInterleavedInputChannel
 // file src/common/pa_process.c line 494
-void PaUtil_SetNonInterleavedInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data);
+void PaUtil_SetNonInterleavedInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data);
 // PaUtil_SetNonInterleavedOutputChannel
 // file src/common/pa_process.c line 609
-void PaUtil_SetNonInterleavedOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data);
+void PaUtil_SetNonInterleavedOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data);
 // PaUtil_SetOutputChannel
 // file src/common/pa_process.c line 576
-void PaUtil_SetOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride);
+void PaUtil_SetOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride);
 // PaUtil_SetOutputFrameCount
 // file src/common/pa_process.c line 556
-void PaUtil_SetOutputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount);
+void PaUtil_SetOutputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount);
 // PaUtil_StartThreading
 // file ./src/os/unix/pa_unix_util.h line 118
-signed int PaUtil_StartThreading(struct anonymous$8 *threading, void * (*threadRoutine)(void *), void *data);
-// PaUtil_StartThreading::threadRoutine$object
+signed int PaUtil_StartThreading(struct anonymous_8 *threading, void * (*threadRoutine)(void *), void *data);
+// PaUtil_StartThreading::threadRoutine_object
 //
-void * threadRoutine$object(void *);
+void * threadRoutine_object(void *);
 // PaUtil_TerminateBufferProcessor
 // file src/common/pa_process.c line 386
-void PaUtil_TerminateBufferProcessor(struct anonymous$7 *bp);
+void PaUtil_TerminateBufferProcessor(struct anonymous_7 *bp);
 // PaUtil_TerminateStreamRepresentation
 // file src/common/pa_stream.c line 101
 void PaUtil_TerminateStreamRepresentation(struct PaUtilStreamRepresentation *streamRepresentation);
 // PaUtil_TerminateThreading
 // file ./src/os/unix/pa_unix_util.h line 117
-void PaUtil_TerminateThreading(struct anonymous$8 *threading);
+void PaUtil_TerminateThreading(struct anonymous_8 *threading);
 // PaUtil_TraceStubToSatisfyLinker
 // file src/common/pa_trace.c line 234
 signed int PaUtil_TraceStubToSatisfyLinker(void);
@@ -1323,7 +1323,7 @@ signed int PaUtil_ValidateStreamPointer(void *stream);
 signed long int PaUtil_WriteRingBuffer(struct PaUtilRingBuffer *rbuf, const void *data, signed long int elementCount);
 // PaUtil_ZeroOutput
 // file src/common/pa_process.c line 1805
-unsigned long int PaUtil_ZeroOutput(struct anonymous$7 *bp, unsigned long int frameCount);
+unsigned long int PaUtil_ZeroOutput(struct anonymous_7 *bp, unsigned long int frameCount);
 // Pa_AbortStream
 // file src/common/pa_front.c line 1444
 signed int Pa_AbortStream(void *stream);
@@ -1405,24 +1405,24 @@ signed int Pa_IsStreamStopped(void *stream);
 // Pa_OpenDefaultStream
 // file src/common/pa_front.c line 1233
 signed int Pa_OpenDefaultStream(void **stream, signed int inputChannelCount, signed int outputChannelCount, unsigned long int sampleFormat, double sampleRate, unsigned long int framesPerBuffer, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData);
-// Pa_OpenDefaultStream::streamCallback$object
+// Pa_OpenDefaultStream::streamCallback_object
 //
-signed int streamCallback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int streamCallback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // Pa_OpenStream
 // file ./include/portaudio.h line 841
 signed int Pa_OpenStream(void **stream, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, double sampleRate, unsigned long int framesPerBuffer, unsigned long int streamFlags, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData);
-// Pa_OpenStream::streamCallback$object
+// Pa_OpenStream::streamCallback_object
 //
-signed int streamCallback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int streamCallback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // Pa_ReadStream
 // file src/common/pa_front.c line 1598
 signed int Pa_ReadStream(void *stream, void *buffer, unsigned long int frames);
 // Pa_SetStreamFinishedCallback
 // file src/common/pa_front.c line 1363
 signed int Pa_SetStreamFinishedCallback(void *stream, void (*streamFinishedCallback)(void *));
-// Pa_SetStreamFinishedCallback::streamFinishedCallback$object
+// Pa_SetStreamFinishedCallback::streamFinishedCallback_object
 //
-void streamFinishedCallback$object(void *);
+void streamFinishedCallback_object(void *);
 // Pa_Sleep
 // file ./include/portaudio.h line 1176
 void Pa_Sleep(signed long int msec);
@@ -1443,31 +1443,31 @@ signed int Pa_WriteStream(void *stream, const void *buffer, unsigned long int fr
 static signed int QaCallback(const void *inputBuffer, void *outputBuffer, unsigned long int framesPerBuffer, const struct PaStreamCallbackTimeInfo *timeInfo, unsigned long int statusFlags, void *userData);
 // QueryDevice
 // file src/hostapi/oss/pa_unix_oss.c line 457
-static signed int QueryDevice(char *deviceName, struct anonymous$14 *ossApi, struct PaDeviceInfo **deviceInfo);
+static signed int QueryDevice(char *deviceName, struct anonymous_14 *ossApi, struct PaDeviceInfo **deviceInfo);
 // QueryDirection
 // file src/hostapi/oss/pa_unix_oss.c line 328
-static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode, double *defaultSampleRate, signed int *maxChannelCount, double *defaultLowLatency, double *defaultHighLatency);
+static signed int QueryDirection(const char *deviceName, enum anonymous_15 mode, double *defaultSampleRate, signed int *maxChannelCount, double *defaultLowLatency, double *defaultHighLatency);
 // ReadStream
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 757
 static signed int ReadStream(void *s, void *buffer, unsigned long int frames);
-// ReadStream$link1
+// ReadStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4365
-static signed int ReadStream$link1(void *s$link1, void *buffer$link1, unsigned long int frames$link1);
-// ReadStream$link2
+static signed int ReadStream_link1(void *s_link1, void *buffer_link1, unsigned long int frames_link1);
+// ReadStream_link2
 // file src/hostapi/oss/pa_unix_oss.c line 1927
-static signed int ReadStream$link2(void *s$link2, void *buffer$link2, unsigned long int frames$link2);
+static signed int ReadStream_link2(void *s_link2, void *buffer_link2, unsigned long int frames_link2);
 // RealProcess
 // file src/hostapi/jack/pa_jack.c line 1343
 static signed int RealProcess(struct PaJackStream *stream, unsigned int frames);
 // RealStop
 // file src/hostapi/alsa/pa_linux_alsa.c line 3086
 static signed int RealStop(struct PaAlsaStream *stream, signed int abort);
-// RealStop$link1
+// RealStop_link1
 // file src/hostapi/jack/pa_jack.c line 1656
-static signed int RealStop$link1(struct PaJackStream *stream$link1, signed int abort$link1);
-// RealStop$link2
+static signed int RealStop_link1(struct PaJackStream *stream_link1, signed int abort_link1);
+// RealStop_link2
 // file src/hostapi/oss/pa_unix_oss.c line 1822
-static signed int RealStop$link2(struct PaOssStream *stream$link2, signed int abort$link2);
+static signed int RealStop_link2(struct PaOssStream *stream_link2, signed int abort_link2);
 // RemoveOpenStream
 // file src/common/pa_front.c line 278
 static void RemoveOpenStream(void *stream);
@@ -1492,39 +1492,39 @@ static char * SkipCardDetailsInName(char *infoSkipName, char *cardRefName);
 // StartStream
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 657
 static signed int StartStream(void *s);
-// StartStream$link1
+// StartStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 2984
-static signed int StartStream$link1(void *s$link1);
-// StartStream$link2
+static signed int StartStream_link1(void *s_link1);
+// StartStream_link2
 // file src/hostapi/jack/pa_jack.c line 1593
-static signed int StartStream$link2(void *s$link2);
-// StartStream$link3
+static signed int StartStream_link2(void *s_link2);
+// StartStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1798
-static signed int StartStream$link3(void *s$link3);
+static signed int StartStream_link3(void *s_link3);
 // StopStream
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 676
 static signed int StopStream(void *s);
-// StopStream$link1
+// StopStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3128
-static signed int StopStream$link1(void *s$link1);
-// StopStream$link2
+static signed int StopStream_link1(void *s_link1);
+// StopStream_link2
 // file src/hostapi/jack/pa_jack.c line 1707
-static signed int StopStream$link2(void *s$link2);
-// StopStream$link3
+static signed int StopStream_link2(void *s_link2);
+// StopStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1851
-static signed int StopStream$link3(void *s$link3);
+static signed int StopStream_link3(void *s_link3);
 // Terminate
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 241
 static void Terminate(struct PaUtilHostApiRepresentation *hostApi);
-// Terminate$link1
+// Terminate_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 806
-static void Terminate$link1(struct PaUtilHostApiRepresentation *hostApi$link1);
-// Terminate$link2
+static void Terminate_link1(struct PaUtilHostApiRepresentation *hostApi_link1);
+// Terminate_link2
 // file src/hostapi/jack/pa_jack.c line 814
-static void Terminate$link2(struct PaUtilHostApiRepresentation *hostApi$link2);
-// Terminate$link3
+static void Terminate_link2(struct PaUtilHostApiRepresentation *hostApi_link2);
+// Terminate_link3
 // file src/hostapi/oss/pa_unix_oss.c line 592
-static void Terminate$link3(struct PaUtilHostApiRepresentation *hostApi$link3);
+static void Terminate_link3(struct PaUtilHostApiRepresentation *hostApi_link3);
 // TerminateHostApis
 // file src/common/pa_front.c line 139
 static void TerminateHostApis(void);
@@ -1539,7 +1539,7 @@ static void TestDevices(signed int mode);
 static void TestFormats(signed int mode, signed int deviceID, double sampleRate, signed int numChannels);
 // TestParameters
 // file src/hostapi/alsa/pa_linux_alsa.c line 1747
-static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *parameters, double sampleRate, enum anonymous$17 streamDir);
+static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *parameters, double sampleRate, enum anonymous_17 streamDir);
 // UInt8_To_Float32
 // file src/common/pa_converters.c line 1584
 static void UInt8_To_Float32(void *destinationBuffer, signed int destinationStride, void *sourceBuffer, signed int sourceStride, unsigned int count, struct PaUtilTriangularDitherGenerator *ditherGenerator);
@@ -1557,34 +1557,34 @@ static void UInt8_To_Int32(void *destinationBuffer, signed int destinationStride
 static void UInt8_To_Int8(void *destinationBuffer, signed int destinationStride, void *sourceBuffer, signed int sourceStride, unsigned int count, struct PaUtilTriangularDitherGenerator *ditherGenerator);
 // UpdateQueue
 // file src/hostapi/jack/pa_jack.c line 1423
-static signed int UpdateQueue(struct anonymous$4 *hostApi);
+static signed int UpdateQueue(struct anonymous_4 *hostApi);
 // UpdateSampleRate
 // file src/hostapi/jack/pa_jack.c line 645
 static void UpdateSampleRate(struct PaJackStream *stream, double sampleRate);
 // ValidateOpenStreamParameters
 // file src/common/pa_front.c line 835
 static signed int ValidateOpenStreamParameters(const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, double sampleRate, unsigned long int framesPerBuffer, unsigned long int streamFlags, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), struct PaUtilHostApiRepresentation **hostApi, signed int *hostApiInputDevice, signed int *hostApiOutputDevice);
-// ValidateOpenStreamParameters::streamCallback$object
+// ValidateOpenStreamParameters::streamCallback_object
 //
-signed int streamCallback$object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+signed int streamCallback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
 // ValidateParameters
 // file src/hostapi/alsa/pa_linux_alsa.c line 1484
-static signed int ValidateParameters(const struct PaStreamParameters *parameters, struct PaUtilHostApiRepresentation *hostApi, enum anonymous$17 mode);
-// ValidateParameters$link1
+static signed int ValidateParameters(const struct PaStreamParameters *parameters, struct PaUtilHostApiRepresentation *hostApi, enum anonymous_17 mode);
+// ValidateParameters_link1
 // file src/hostapi/oss/pa_unix_oss.c line 726
-static signed int ValidateParameters$link1(const struct PaStreamParameters *parameters$link1, const struct PaDeviceInfo *deviceInfo, enum anonymous$15 mode$link1);
+static signed int ValidateParameters_link1(const struct PaStreamParameters *parameters_link1, const struct PaDeviceInfo *deviceInfo, enum anonymous_15 mode_link1);
 // WaitCondition
 // file src/hostapi/jack/pa_jack.c line 1004
-static signed int WaitCondition(struct anonymous$4 *hostApi);
+static signed int WaitCondition(struct anonymous_4 *hostApi);
 // WriteStream
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 774
 static signed int WriteStream(void *s, const void *buffer, unsigned long int frames);
-// WriteStream$link1
+// WriteStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4425
-static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, unsigned long int frames$link1);
-// WriteStream$link2
+static signed int WriteStream_link1(void *s_link1, const void *buffer_link1, unsigned long int frames_link1);
+// WriteStream_link2
 // file src/hostapi/oss/pa_unix_oss.c line 1971
-static signed int WriteStream$link2(void *s$link2, const void *buffer$link2, unsigned long int frames$link2);
+static signed int WriteStream_link2(void *s_link2, const void *buffer_link2, unsigned long int frames_link2);
 // Zero16
 // file src/common/pa_converters.c line 1926
 static void Zero16(void *destinationBuffer, signed int destinationStride, unsigned int count);
@@ -1608,13 +1608,13 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 extern signed int * __errno_location(void);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$11 *);
+extern void __pthread_register_cancel(struct anonymous_11 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$11 *);
+extern void __pthread_unregister_cancel(struct anonymous_11 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$11 *);
+extern void __pthread_unwind_next(struct anonymous_11 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -1624,336 +1624,336 @@ void __sync_synchronize();
 // abs
 // file /usr/include/stdlib.h line 774
 extern signed int abs(signed int);
-// alsa_snd_asoundlib_version$object
+// alsa_snd_asoundlib_version_object
 //
-const char * alsa_snd_asoundlib_version$object(void);
-// alsa_snd_card_next$object
+const char * alsa_snd_asoundlib_version_object(void);
+// alsa_snd_card_next_object
 //
-signed int alsa_snd_card_next$object(signed int *);
-// alsa_snd_config_get_id$object
+signed int alsa_snd_card_next_object(signed int *);
+// alsa_snd_config_get_id_object
 //
-signed int alsa_snd_config_get_id$object(const struct _snd_config *, const char **);
-// alsa_snd_config_get_string$object
+signed int alsa_snd_config_get_id_object(const struct _snd_config *, const char **);
+// alsa_snd_config_get_string_object
 //
-signed int alsa_snd_config_get_string$object(const struct _snd_config *, const char **);
-// alsa_snd_config_iterator_end$object
+signed int alsa_snd_config_get_string_object(const struct _snd_config *, const char **);
+// alsa_snd_config_iterator_end_object
 //
-struct _snd_config_iterator * alsa_snd_config_iterator_end$object(const struct _snd_config *);
-// alsa_snd_config_iterator_entry$object
+struct _snd_config_iterator * alsa_snd_config_iterator_end_object(const struct _snd_config *);
+// alsa_snd_config_iterator_entry_object
 //
-struct _snd_config * alsa_snd_config_iterator_entry$object(struct _snd_config_iterator *);
-// alsa_snd_config_iterator_first$object
+struct _snd_config * alsa_snd_config_iterator_entry_object(struct _snd_config_iterator *);
+// alsa_snd_config_iterator_first_object
 //
-struct _snd_config_iterator * alsa_snd_config_iterator_first$object(const struct _snd_config *);
-// alsa_snd_config_iterator_next$object
+struct _snd_config_iterator * alsa_snd_config_iterator_first_object(const struct _snd_config *);
+// alsa_snd_config_iterator_next_object
 //
-struct _snd_config_iterator * alsa_snd_config_iterator_next$object(struct _snd_config_iterator *);
-// alsa_snd_config_search$object
+struct _snd_config_iterator * alsa_snd_config_iterator_next_object(struct _snd_config_iterator *);
+// alsa_snd_config_search_object
 //
-signed int alsa_snd_config_search$object(struct _snd_config *, const char *, struct _snd_config **);
-// alsa_snd_config_update$object
+signed int alsa_snd_config_search_object(struct _snd_config *, const char *, struct _snd_config **);
+// alsa_snd_config_update_object
 //
-signed int alsa_snd_config_update$object(void);
-// alsa_snd_config_update_free_global$object
+signed int alsa_snd_config_update_object(void);
+// alsa_snd_config_update_free_global_object
 //
-signed int alsa_snd_config_update_free_global$object(void);
-// alsa_snd_ctl_card_info$object
+signed int alsa_snd_config_update_free_global_object(void);
+// alsa_snd_ctl_card_info_object
 //
-signed int alsa_snd_ctl_card_info$object(struct _snd_ctl *, struct _snd_ctl_card_info *);
-// alsa_snd_ctl_card_info_free$object
+signed int alsa_snd_ctl_card_info_object(struct _snd_ctl *, struct _snd_ctl_card_info *);
+// alsa_snd_ctl_card_info_free_object
 //
-void alsa_snd_ctl_card_info_free$object(struct _snd_ctl_card_info *);
-// alsa_snd_ctl_card_info_get_name$object
+void alsa_snd_ctl_card_info_free_object(struct _snd_ctl_card_info *);
+// alsa_snd_ctl_card_info_get_name_object
 //
-const char * alsa_snd_ctl_card_info_get_name$object(const struct _snd_ctl_card_info *);
-// alsa_snd_ctl_card_info_malloc$object
+const char * alsa_snd_ctl_card_info_get_name_object(const struct _snd_ctl_card_info *);
+// alsa_snd_ctl_card_info_malloc_object
 //
-signed int alsa_snd_ctl_card_info_malloc$object(struct _snd_ctl_card_info **);
-// alsa_snd_ctl_card_info_sizeof$object
+signed int alsa_snd_ctl_card_info_malloc_object(struct _snd_ctl_card_info **);
+// alsa_snd_ctl_card_info_sizeof_object
 //
-unsigned long int alsa_snd_ctl_card_info_sizeof$object(void);
-// alsa_snd_ctl_close$object
+unsigned long int alsa_snd_ctl_card_info_sizeof_object(void);
+// alsa_snd_ctl_close_object
 //
-signed int alsa_snd_ctl_close$object(struct _snd_ctl *);
-// alsa_snd_ctl_open$object
+signed int alsa_snd_ctl_close_object(struct _snd_ctl *);
+// alsa_snd_ctl_open_object
 //
-signed int alsa_snd_ctl_open$object(struct _snd_ctl **, const char *, signed int);
-// alsa_snd_ctl_pcm_info$object
+signed int alsa_snd_ctl_open_object(struct _snd_ctl **, const char *, signed int);
+// alsa_snd_ctl_pcm_info_object
 //
-signed int alsa_snd_ctl_pcm_info$object(struct _snd_ctl *, struct _snd_pcm_info *);
-// alsa_snd_ctl_pcm_next_device$object
+signed int alsa_snd_ctl_pcm_info_object(struct _snd_ctl *, struct _snd_pcm_info *);
+// alsa_snd_ctl_pcm_next_device_object
 //
-signed int alsa_snd_ctl_pcm_next_device$object(struct _snd_ctl *, signed int *);
-// alsa_snd_output_stdio_attach$object
+signed int alsa_snd_ctl_pcm_next_device_object(struct _snd_ctl *, signed int *);
+// alsa_snd_output_stdio_attach_object
 //
-signed int alsa_snd_output_stdio_attach$object(struct _snd_output **, struct _IO_FILE *, signed int);
-// alsa_snd_pcm_area_copy$object
+signed int alsa_snd_output_stdio_attach_object(struct _snd_output **, struct _IO_FILE *, signed int);
+// alsa_snd_pcm_area_copy_object
 //
-signed int alsa_snd_pcm_area_copy$object(const struct _snd_pcm_channel_area *, unsigned long int, const struct _snd_pcm_channel_area *, unsigned long int, unsigned int, enum _snd_pcm_format);
-// alsa_snd_pcm_areas_silence$object
+signed int alsa_snd_pcm_area_copy_object(const struct _snd_pcm_channel_area *, unsigned long int, const struct _snd_pcm_channel_area *, unsigned long int, unsigned int, enum _snd_pcm_format);
+// alsa_snd_pcm_areas_silence_object
 //
-signed int alsa_snd_pcm_areas_silence$object(const struct _snd_pcm_channel_area *, unsigned long int, unsigned int, unsigned long int, enum _snd_pcm_format);
-// alsa_snd_pcm_avail_update$object
+signed int alsa_snd_pcm_areas_silence_object(const struct _snd_pcm_channel_area *, unsigned long int, unsigned int, unsigned long int, enum _snd_pcm_format);
+// alsa_snd_pcm_avail_update_object
 //
-signed long int alsa_snd_pcm_avail_update$object(struct _snd_pcm *);
-// alsa_snd_pcm_close$object
+signed long int alsa_snd_pcm_avail_update_object(struct _snd_pcm *);
+// alsa_snd_pcm_close_object
 //
-signed int alsa_snd_pcm_close$object(struct _snd_pcm *);
-// alsa_snd_pcm_delay$object
+signed int alsa_snd_pcm_close_object(struct _snd_pcm *);
+// alsa_snd_pcm_delay_object
 //
-signed int alsa_snd_pcm_delay$object(struct _snd_pcm *, signed long int *);
-// alsa_snd_pcm_drain$object
+signed int alsa_snd_pcm_delay_object(struct _snd_pcm *, signed long int *);
+// alsa_snd_pcm_drain_object
 //
-signed int alsa_snd_pcm_drain$object(struct _snd_pcm *);
-// alsa_snd_pcm_drop$object
+signed int alsa_snd_pcm_drain_object(struct _snd_pcm *);
+// alsa_snd_pcm_drop_object
 //
-signed int alsa_snd_pcm_drop$object(struct _snd_pcm *);
-// alsa_snd_pcm_format_size$object
+signed int alsa_snd_pcm_drop_object(struct _snd_pcm *);
+// alsa_snd_pcm_format_size_object
 //
-signed long int alsa_snd_pcm_format_size$object(enum _snd_pcm_format, unsigned long int);
-// alsa_snd_pcm_frames_to_bytes$object
+signed long int alsa_snd_pcm_format_size_object(enum _snd_pcm_format, unsigned long int);
+// alsa_snd_pcm_frames_to_bytes_object
 //
-signed long int alsa_snd_pcm_frames_to_bytes$object(struct _snd_pcm *, signed long int);
-// alsa_snd_pcm_hw_params$object
+signed long int alsa_snd_pcm_frames_to_bytes_object(struct _snd_pcm *, signed long int);
+// alsa_snd_pcm_hw_params_object
 //
-signed int alsa_snd_pcm_hw_params$object(struct _snd_pcm *, struct _snd_pcm_hw_params *);
-// alsa_snd_pcm_hw_params_any$object
+signed int alsa_snd_pcm_hw_params_object(struct _snd_pcm *, struct _snd_pcm_hw_params *);
+// alsa_snd_pcm_hw_params_any_object
 //
-signed int alsa_snd_pcm_hw_params_any$object(struct _snd_pcm *, struct _snd_pcm_hw_params *);
-// alsa_snd_pcm_hw_params_dump$object
+signed int alsa_snd_pcm_hw_params_any_object(struct _snd_pcm *, struct _snd_pcm_hw_params *);
+// alsa_snd_pcm_hw_params_dump_object
 //
-signed int alsa_snd_pcm_hw_params_dump$object(struct _snd_pcm_hw_params *, struct _snd_output *);
-// alsa_snd_pcm_hw_params_free$object
+signed int alsa_snd_pcm_hw_params_dump_object(struct _snd_pcm_hw_params *, struct _snd_output *);
+// alsa_snd_pcm_hw_params_free_object
 //
-void alsa_snd_pcm_hw_params_free$object(struct _snd_pcm_hw_params *);
-// alsa_snd_pcm_hw_params_get_buffer_size$object
+void alsa_snd_pcm_hw_params_free_object(struct _snd_pcm_hw_params *);
+// alsa_snd_pcm_hw_params_get_buffer_size_object
 //
-signed int alsa_snd_pcm_hw_params_get_buffer_size$object(const struct _snd_pcm_hw_params *, unsigned long int *);
-// alsa_snd_pcm_hw_params_get_buffer_size_max$object
+signed int alsa_snd_pcm_hw_params_get_buffer_size_object(const struct _snd_pcm_hw_params *, unsigned long int *);
+// alsa_snd_pcm_hw_params_get_buffer_size_max_object
 //
-signed int alsa_snd_pcm_hw_params_get_buffer_size_max$object(const struct _snd_pcm_hw_params *, unsigned long int *);
-// alsa_snd_pcm_hw_params_get_channels_max$object
+signed int alsa_snd_pcm_hw_params_get_buffer_size_max_object(const struct _snd_pcm_hw_params *, unsigned long int *);
+// alsa_snd_pcm_hw_params_get_channels_max_object
 //
-signed int alsa_snd_pcm_hw_params_get_channels_max$object(const struct _snd_pcm_hw_params *, unsigned int *);
-// alsa_snd_pcm_hw_params_get_channels_min$object
+signed int alsa_snd_pcm_hw_params_get_channels_max_object(const struct _snd_pcm_hw_params *, unsigned int *);
+// alsa_snd_pcm_hw_params_get_channels_min_object
 //
-signed int alsa_snd_pcm_hw_params_get_channels_min$object(const struct _snd_pcm_hw_params *, unsigned int *);
-// alsa_snd_pcm_hw_params_get_period_size_max$object
+signed int alsa_snd_pcm_hw_params_get_channels_min_object(const struct _snd_pcm_hw_params *, unsigned int *);
+// alsa_snd_pcm_hw_params_get_period_size_max_object
 //
-signed int alsa_snd_pcm_hw_params_get_period_size_max$object(const struct _snd_pcm_hw_params *, unsigned long int *, signed int *);
-// alsa_snd_pcm_hw_params_get_period_size_min$object
+signed int alsa_snd_pcm_hw_params_get_period_size_max_object(const struct _snd_pcm_hw_params *, unsigned long int *, signed int *);
+// alsa_snd_pcm_hw_params_get_period_size_min_object
 //
-signed int alsa_snd_pcm_hw_params_get_period_size_min$object(const struct _snd_pcm_hw_params *, unsigned long int *, signed int *);
-// alsa_snd_pcm_hw_params_get_periods_max$object
+signed int alsa_snd_pcm_hw_params_get_period_size_min_object(const struct _snd_pcm_hw_params *, unsigned long int *, signed int *);
+// alsa_snd_pcm_hw_params_get_periods_max_object
 //
-signed int alsa_snd_pcm_hw_params_get_periods_max$object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
-// alsa_snd_pcm_hw_params_get_periods_min$object
+signed int alsa_snd_pcm_hw_params_get_periods_max_object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
+// alsa_snd_pcm_hw_params_get_periods_min_object
 //
-signed int alsa_snd_pcm_hw_params_get_periods_min$object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
-// alsa_snd_pcm_hw_params_get_rate_max$object
+signed int alsa_snd_pcm_hw_params_get_periods_min_object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
+// alsa_snd_pcm_hw_params_get_rate_max_object
 //
-signed int alsa_snd_pcm_hw_params_get_rate_max$object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
-// alsa_snd_pcm_hw_params_get_rate_min$object
+signed int alsa_snd_pcm_hw_params_get_rate_max_object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
+// alsa_snd_pcm_hw_params_get_rate_min_object
 //
-signed int alsa_snd_pcm_hw_params_get_rate_min$object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
-// alsa_snd_pcm_hw_params_get_rate_numden$object
+signed int alsa_snd_pcm_hw_params_get_rate_min_object(const struct _snd_pcm_hw_params *, unsigned int *, signed int *);
+// alsa_snd_pcm_hw_params_get_rate_numden_object
 //
-signed int alsa_snd_pcm_hw_params_get_rate_numden$object(const struct _snd_pcm_hw_params *, unsigned int *, unsigned int *);
-// alsa_snd_pcm_hw_params_malloc$object
+signed int alsa_snd_pcm_hw_params_get_rate_numden_object(const struct _snd_pcm_hw_params *, unsigned int *, unsigned int *);
+// alsa_snd_pcm_hw_params_malloc_object
 //
-signed int alsa_snd_pcm_hw_params_malloc$object(struct _snd_pcm_hw_params **);
-// alsa_snd_pcm_hw_params_set_access$object
+signed int alsa_snd_pcm_hw_params_malloc_object(struct _snd_pcm_hw_params **);
+// alsa_snd_pcm_hw_params_set_access_object
 //
-signed int alsa_snd_pcm_hw_params_set_access$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_access);
-// alsa_snd_pcm_hw_params_set_buffer_size$object
+signed int alsa_snd_pcm_hw_params_set_access_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_access);
+// alsa_snd_pcm_hw_params_set_buffer_size_object
 //
-signed int alsa_snd_pcm_hw_params_set_buffer_size$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int);
-// alsa_snd_pcm_hw_params_set_buffer_size_min$object
+signed int alsa_snd_pcm_hw_params_set_buffer_size_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int);
+// alsa_snd_pcm_hw_params_set_buffer_size_min_object
 //
-signed int alsa_snd_pcm_hw_params_set_buffer_size_min$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int *);
-// alsa_snd_pcm_hw_params_set_buffer_size_near$object
+signed int alsa_snd_pcm_hw_params_set_buffer_size_min_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int *);
+// alsa_snd_pcm_hw_params_set_buffer_size_near_object
 //
-signed int alsa_snd_pcm_hw_params_set_buffer_size_near$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int *);
-// alsa_snd_pcm_hw_params_set_channels$object
+signed int alsa_snd_pcm_hw_params_set_buffer_size_near_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int *);
+// alsa_snd_pcm_hw_params_set_channels_object
 //
-signed int alsa_snd_pcm_hw_params_set_channels$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int);
-// alsa_snd_pcm_hw_params_set_format$object
+signed int alsa_snd_pcm_hw_params_set_channels_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int);
+// alsa_snd_pcm_hw_params_set_format_object
 //
-signed int alsa_snd_pcm_hw_params_set_format$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_format);
-// alsa_snd_pcm_hw_params_set_period_size$object
+signed int alsa_snd_pcm_hw_params_set_format_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_format);
+// alsa_snd_pcm_hw_params_set_period_size_object
 //
-signed int alsa_snd_pcm_hw_params_set_period_size$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int, signed int);
-// alsa_snd_pcm_hw_params_set_period_size_near$object
+signed int alsa_snd_pcm_hw_params_set_period_size_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int, signed int);
+// alsa_snd_pcm_hw_params_set_period_size_near_object
 //
-signed int alsa_snd_pcm_hw_params_set_period_size_near$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int *, signed int *);
-// alsa_snd_pcm_hw_params_set_periods_integer$object
+signed int alsa_snd_pcm_hw_params_set_period_size_near_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int *, signed int *);
+// alsa_snd_pcm_hw_params_set_periods_integer_object
 //
-signed int alsa_snd_pcm_hw_params_set_periods_integer$object(struct _snd_pcm *, struct _snd_pcm_hw_params *);
-// alsa_snd_pcm_hw_params_set_periods_min$object
+signed int alsa_snd_pcm_hw_params_set_periods_integer_object(struct _snd_pcm *, struct _snd_pcm_hw_params *);
+// alsa_snd_pcm_hw_params_set_periods_min_object
 //
-signed int alsa_snd_pcm_hw_params_set_periods_min$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int *, signed int *);
-// alsa_snd_pcm_hw_params_set_rate$object
+signed int alsa_snd_pcm_hw_params_set_periods_min_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int *, signed int *);
+// alsa_snd_pcm_hw_params_set_rate_object
 //
-signed int alsa_snd_pcm_hw_params_set_rate$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int, signed int);
-// alsa_snd_pcm_hw_params_set_rate_near$object
+signed int alsa_snd_pcm_hw_params_set_rate_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int, signed int);
+// alsa_snd_pcm_hw_params_set_rate_near_object
 //
-signed int alsa_snd_pcm_hw_params_set_rate_near$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int *, signed int *);
-// alsa_snd_pcm_hw_params_set_rate_resample$object
+signed int alsa_snd_pcm_hw_params_set_rate_near_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int *, signed int *);
+// alsa_snd_pcm_hw_params_set_rate_resample_object
 //
-signed int alsa_snd_pcm_hw_params_set_rate_resample$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int);
-// alsa_snd_pcm_hw_params_sizeof$object
+signed int alsa_snd_pcm_hw_params_set_rate_resample_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int);
+// alsa_snd_pcm_hw_params_sizeof_object
 //
-unsigned long int alsa_snd_pcm_hw_params_sizeof$object(void);
-// alsa_snd_pcm_hw_params_test_access$object
+unsigned long int alsa_snd_pcm_hw_params_sizeof_object(void);
+// alsa_snd_pcm_hw_params_test_access_object
 //
-signed int alsa_snd_pcm_hw_params_test_access$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_access);
-// alsa_snd_pcm_hw_params_test_format$object
+signed int alsa_snd_pcm_hw_params_test_access_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_access);
+// alsa_snd_pcm_hw_params_test_format_object
 //
-signed int alsa_snd_pcm_hw_params_test_format$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_format);
-// alsa_snd_pcm_hw_params_test_period_size$object
+signed int alsa_snd_pcm_hw_params_test_format_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_format);
+// alsa_snd_pcm_hw_params_test_period_size_object
 //
-signed int alsa_snd_pcm_hw_params_test_period_size$object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int, signed int);
-// alsa_snd_pcm_info$object
+signed int alsa_snd_pcm_hw_params_test_period_size_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned long int, signed int);
+// alsa_snd_pcm_info_object
 //
-signed int alsa_snd_pcm_info$object(struct _snd_pcm *, struct _snd_pcm_info *);
-// alsa_snd_pcm_info_free$object
+signed int alsa_snd_pcm_info_object(struct _snd_pcm *, struct _snd_pcm_info *);
+// alsa_snd_pcm_info_free_object
 //
-void alsa_snd_pcm_info_free$object(struct _snd_pcm_info *);
-// alsa_snd_pcm_info_get_card$object
+void alsa_snd_pcm_info_free_object(struct _snd_pcm_info *);
+// alsa_snd_pcm_info_get_card_object
 //
-signed int alsa_snd_pcm_info_get_card$object(const struct _snd_pcm_info *);
-// alsa_snd_pcm_info_get_name$object
+signed int alsa_snd_pcm_info_get_card_object(const struct _snd_pcm_info *);
+// alsa_snd_pcm_info_get_name_object
 //
-const char * alsa_snd_pcm_info_get_name$object(const struct _snd_pcm_info *);
-// alsa_snd_pcm_info_malloc$object
+const char * alsa_snd_pcm_info_get_name_object(const struct _snd_pcm_info *);
+// alsa_snd_pcm_info_malloc_object
 //
-signed int alsa_snd_pcm_info_malloc$object(struct _snd_pcm_info **);
-// alsa_snd_pcm_info_set_device$object
+signed int alsa_snd_pcm_info_malloc_object(struct _snd_pcm_info **);
+// alsa_snd_pcm_info_set_device_object
 //
-void alsa_snd_pcm_info_set_device$object(struct _snd_pcm_info *, unsigned int);
-// alsa_snd_pcm_info_set_stream$object
+void alsa_snd_pcm_info_set_device_object(struct _snd_pcm_info *, unsigned int);
+// alsa_snd_pcm_info_set_stream_object
 //
-void alsa_snd_pcm_info_set_stream$object(struct _snd_pcm_info *, enum _snd_pcm_stream);
-// alsa_snd_pcm_info_set_subdevice$object
+void alsa_snd_pcm_info_set_stream_object(struct _snd_pcm_info *, enum _snd_pcm_stream);
+// alsa_snd_pcm_info_set_subdevice_object
 //
-void alsa_snd_pcm_info_set_subdevice$object(struct _snd_pcm_info *, unsigned int);
-// alsa_snd_pcm_info_sizeof$object
+void alsa_snd_pcm_info_set_subdevice_object(struct _snd_pcm_info *, unsigned int);
+// alsa_snd_pcm_info_sizeof_object
 //
-unsigned long int alsa_snd_pcm_info_sizeof$object(void);
-// alsa_snd_pcm_link$object
+unsigned long int alsa_snd_pcm_info_sizeof_object(void);
+// alsa_snd_pcm_link_object
 //
-signed int alsa_snd_pcm_link$object(struct _snd_pcm *, struct _snd_pcm *);
-// alsa_snd_pcm_mmap_begin$object
+signed int alsa_snd_pcm_link_object(struct _snd_pcm *, struct _snd_pcm *);
+// alsa_snd_pcm_mmap_begin_object
 //
-signed int alsa_snd_pcm_mmap_begin$object(struct _snd_pcm *, const struct _snd_pcm_channel_area **, unsigned long int *, unsigned long int *);
-// alsa_snd_pcm_mmap_commit$object
+signed int alsa_snd_pcm_mmap_begin_object(struct _snd_pcm *, const struct _snd_pcm_channel_area **, unsigned long int *, unsigned long int *);
+// alsa_snd_pcm_mmap_commit_object
 //
-signed long int alsa_snd_pcm_mmap_commit$object(struct _snd_pcm *, unsigned long int, unsigned long int);
-// alsa_snd_pcm_nonblock$object
+signed long int alsa_snd_pcm_mmap_commit_object(struct _snd_pcm *, unsigned long int, unsigned long int);
+// alsa_snd_pcm_nonblock_object
 //
-signed int alsa_snd_pcm_nonblock$object(struct _snd_pcm *, signed int);
-// alsa_snd_pcm_open$object
+signed int alsa_snd_pcm_nonblock_object(struct _snd_pcm *, signed int);
+// alsa_snd_pcm_open_object
 //
-signed int alsa_snd_pcm_open$object(struct _snd_pcm **, const char *, enum _snd_pcm_stream, signed int);
-// alsa_snd_pcm_poll_descriptors$object
+signed int alsa_snd_pcm_open_object(struct _snd_pcm **, const char *, enum _snd_pcm_stream, signed int);
+// alsa_snd_pcm_poll_descriptors_object
 //
-signed int alsa_snd_pcm_poll_descriptors$object(struct _snd_pcm *, struct pollfd *, unsigned int);
-// alsa_snd_pcm_poll_descriptors_count$object
+signed int alsa_snd_pcm_poll_descriptors_object(struct _snd_pcm *, struct pollfd *, unsigned int);
+// alsa_snd_pcm_poll_descriptors_count_object
 //
-signed int alsa_snd_pcm_poll_descriptors_count$object(struct _snd_pcm *);
-// alsa_snd_pcm_poll_descriptors_revents$object
+signed int alsa_snd_pcm_poll_descriptors_count_object(struct _snd_pcm *);
+// alsa_snd_pcm_poll_descriptors_revents_object
 //
-signed int alsa_snd_pcm_poll_descriptors_revents$object(struct _snd_pcm *, struct pollfd *, unsigned int, unsigned short int *);
-// alsa_snd_pcm_prepare$object
+signed int alsa_snd_pcm_poll_descriptors_revents_object(struct _snd_pcm *, struct pollfd *, unsigned int, unsigned short int *);
+// alsa_snd_pcm_prepare_object
 //
-signed int alsa_snd_pcm_prepare$object(struct _snd_pcm *);
-// alsa_snd_pcm_readi$object
+signed int alsa_snd_pcm_prepare_object(struct _snd_pcm *);
+// alsa_snd_pcm_readi_object
 //
-signed long int alsa_snd_pcm_readi$object(struct _snd_pcm *, void *, unsigned long int);
-// alsa_snd_pcm_readn$object
+signed long int alsa_snd_pcm_readi_object(struct _snd_pcm *, void *, unsigned long int);
+// alsa_snd_pcm_readn_object
 //
-signed long int alsa_snd_pcm_readn$object(struct _snd_pcm *, void **, unsigned long int);
-// alsa_snd_pcm_recover$object
+signed long int alsa_snd_pcm_readn_object(struct _snd_pcm *, void **, unsigned long int);
+// alsa_snd_pcm_recover_object
 //
-signed int alsa_snd_pcm_recover$object(struct _snd_pcm *, signed int, signed int);
-// alsa_snd_pcm_resume$object
+signed int alsa_snd_pcm_recover_object(struct _snd_pcm *, signed int, signed int);
+// alsa_snd_pcm_resume_object
 //
-signed int alsa_snd_pcm_resume$object(struct _snd_pcm *);
-// alsa_snd_pcm_start$object
+signed int alsa_snd_pcm_resume_object(struct _snd_pcm *);
+// alsa_snd_pcm_start_object
 //
-signed int alsa_snd_pcm_start$object(struct _snd_pcm *);
-// alsa_snd_pcm_state$object
+signed int alsa_snd_pcm_start_object(struct _snd_pcm *);
+// alsa_snd_pcm_state_object
 //
-enum _snd_pcm_state alsa_snd_pcm_state$object(struct _snd_pcm *);
-// alsa_snd_pcm_status$object
+enum _snd_pcm_state alsa_snd_pcm_state_object(struct _snd_pcm *);
+// alsa_snd_pcm_status_object
 //
-signed int alsa_snd_pcm_status$object(struct _snd_pcm *, struct _snd_pcm_status *);
-// alsa_snd_pcm_status_get_delay$object
+signed int alsa_snd_pcm_status_object(struct _snd_pcm *, struct _snd_pcm_status *);
+// alsa_snd_pcm_status_get_delay_object
 //
-signed long int alsa_snd_pcm_status_get_delay$object(const struct _snd_pcm_status *);
-// alsa_snd_pcm_status_get_state$object
+signed long int alsa_snd_pcm_status_get_delay_object(const struct _snd_pcm_status *);
+// alsa_snd_pcm_status_get_state_object
 //
-enum _snd_pcm_state alsa_snd_pcm_status_get_state$object(const struct _snd_pcm_status *);
-// alsa_snd_pcm_status_get_trigger_tstamp$object
+enum _snd_pcm_state alsa_snd_pcm_status_get_state_object(const struct _snd_pcm_status *);
+// alsa_snd_pcm_status_get_trigger_tstamp_object
 //
-void alsa_snd_pcm_status_get_trigger_tstamp$object(const struct _snd_pcm_status *, struct timeval *);
-// alsa_snd_pcm_status_get_tstamp$object
+void alsa_snd_pcm_status_get_trigger_tstamp_object(const struct _snd_pcm_status *, struct timeval *);
+// alsa_snd_pcm_status_get_tstamp_object
 //
-void alsa_snd_pcm_status_get_tstamp$object(const struct _snd_pcm_status *, struct timeval *);
-// alsa_snd_pcm_status_sizeof$object
+void alsa_snd_pcm_status_get_tstamp_object(const struct _snd_pcm_status *, struct timeval *);
+// alsa_snd_pcm_status_sizeof_object
 //
-unsigned long int alsa_snd_pcm_status_sizeof$object(void);
-// alsa_snd_pcm_sw_params$object
+unsigned long int alsa_snd_pcm_status_sizeof_object(void);
+// alsa_snd_pcm_sw_params_object
 //
-signed int alsa_snd_pcm_sw_params$object(struct _snd_pcm *, struct _snd_pcm_sw_params *);
-// alsa_snd_pcm_sw_params_current$object
+signed int alsa_snd_pcm_sw_params_object(struct _snd_pcm *, struct _snd_pcm_sw_params *);
+// alsa_snd_pcm_sw_params_current_object
 //
-signed int alsa_snd_pcm_sw_params_current$object(struct _snd_pcm *, struct _snd_pcm_sw_params *);
-// alsa_snd_pcm_sw_params_free$object
+signed int alsa_snd_pcm_sw_params_current_object(struct _snd_pcm *, struct _snd_pcm_sw_params *);
+// alsa_snd_pcm_sw_params_free_object
 //
-void alsa_snd_pcm_sw_params_free$object(struct _snd_pcm_sw_params *);
-// alsa_snd_pcm_sw_params_get_boundary$object
+void alsa_snd_pcm_sw_params_free_object(struct _snd_pcm_sw_params *);
+// alsa_snd_pcm_sw_params_get_boundary_object
 //
-signed int alsa_snd_pcm_sw_params_get_boundary$object(const struct _snd_pcm_sw_params *, unsigned long int *);
-// alsa_snd_pcm_sw_params_malloc$object
+signed int alsa_snd_pcm_sw_params_get_boundary_object(const struct _snd_pcm_sw_params *, unsigned long int *);
+// alsa_snd_pcm_sw_params_malloc_object
 //
-signed int alsa_snd_pcm_sw_params_malloc$object(struct _snd_pcm_sw_params **);
-// alsa_snd_pcm_sw_params_set_avail_min$object
+signed int alsa_snd_pcm_sw_params_malloc_object(struct _snd_pcm_sw_params **);
+// alsa_snd_pcm_sw_params_set_avail_min_object
 //
-signed int alsa_snd_pcm_sw_params_set_avail_min$object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
-// alsa_snd_pcm_sw_params_set_silence_size$object
+signed int alsa_snd_pcm_sw_params_set_avail_min_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
+// alsa_snd_pcm_sw_params_set_silence_size_object
 //
-signed int alsa_snd_pcm_sw_params_set_silence_size$object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
-// alsa_snd_pcm_sw_params_set_silence_threshold$object
+signed int alsa_snd_pcm_sw_params_set_silence_size_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
+// alsa_snd_pcm_sw_params_set_silence_threshold_object
 //
-signed int alsa_snd_pcm_sw_params_set_silence_threshold$object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
-// alsa_snd_pcm_sw_params_set_start_threshold$object
+signed int alsa_snd_pcm_sw_params_set_silence_threshold_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
+// alsa_snd_pcm_sw_params_set_start_threshold_object
 //
-signed int alsa_snd_pcm_sw_params_set_start_threshold$object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
-// alsa_snd_pcm_sw_params_set_stop_threshold$object
+signed int alsa_snd_pcm_sw_params_set_start_threshold_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
+// alsa_snd_pcm_sw_params_set_stop_threshold_object
 //
-signed int alsa_snd_pcm_sw_params_set_stop_threshold$object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
-// alsa_snd_pcm_sw_params_set_tstamp_mode$object
+signed int alsa_snd_pcm_sw_params_set_stop_threshold_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
+// alsa_snd_pcm_sw_params_set_tstamp_mode_object
 //
-signed int alsa_snd_pcm_sw_params_set_tstamp_mode$object(struct _snd_pcm *, struct _snd_pcm_sw_params *, enum _snd_pcm_tstamp);
-// alsa_snd_pcm_sw_params_set_xfer_align$object
+signed int alsa_snd_pcm_sw_params_set_tstamp_mode_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, enum _snd_pcm_tstamp);
+// alsa_snd_pcm_sw_params_set_xfer_align_object
 //
-signed int alsa_snd_pcm_sw_params_set_xfer_align$object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
-// alsa_snd_pcm_sw_params_sizeof$object
+signed int alsa_snd_pcm_sw_params_set_xfer_align_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
+// alsa_snd_pcm_sw_params_sizeof_object
 //
-unsigned long int alsa_snd_pcm_sw_params_sizeof$object(void);
-// alsa_snd_pcm_wait$object
+unsigned long int alsa_snd_pcm_sw_params_sizeof_object(void);
+// alsa_snd_pcm_wait_object
 //
-signed int alsa_snd_pcm_wait$object(struct _snd_pcm *, signed int);
-// alsa_snd_pcm_writei$object
+signed int alsa_snd_pcm_wait_object(struct _snd_pcm *, signed int);
+// alsa_snd_pcm_writei_object
 //
-signed long int alsa_snd_pcm_writei$object(struct _snd_pcm *, const void *, unsigned long int);
-// alsa_snd_pcm_writen$object
+signed long int alsa_snd_pcm_writei_object(struct _snd_pcm *, const void *, unsigned long int);
+// alsa_snd_pcm_writen_object
 //
-signed long int alsa_snd_pcm_writen$object(struct _snd_pcm *, void **, unsigned long int);
-// alsa_snd_strerror$object
+signed long int alsa_snd_pcm_writen_object(struct _snd_pcm *, void **, unsigned long int);
+// alsa_snd_strerror_object
 //
-const char * alsa_snd_strerror$object(signed int);
+const char * alsa_snd_strerror_object(signed int);
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
@@ -2103,19 +2103,19 @@ extern signed int pthread_attr_setscope(union pthread_attr_t *, signed int);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$20 *);
+extern signed int pthread_cond_destroy(union anonymous_20 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$20 *, const union anonymous *);
+extern signed int pthread_cond_init(union anonymous_20 *, const union anonymous *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$20 *);
+extern signed int pthread_cond_signal(union anonymous_20 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$20 *, union anonymous$3 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_20 *, union anonymous_3 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$20 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_20 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2133,19 +2133,19 @@ extern signed int pthread_getschedparam(unsigned long int, signed int *, struct 
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$3 *);
+extern signed int pthread_mutex_trylock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -2166,25 +2166,25 @@ extern void * realloc(void *, unsigned long int);
 extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$0 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_0 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$16 *, struct anonymous$16 *, struct anonymous$16 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_16 *, struct anonymous_16 *, struct anonymous_16 *, struct timeval *);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$2 *);
+extern signed int sem_destroy(union anonymous_2 *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$2 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_2 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$2 *);
+extern signed int sem_post(union anonymous_2 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$2 *);
+extern signed int sem_wait(union anonymous_2 *);
 // snd_asoundlib_version
 // file /usr/include/alsa/global.h line 47
 const char * snd_asoundlib_version(void);
@@ -2539,9 +2539,9 @@ extern signed int strncmp(const char *, const char *, unsigned long int);
 // strncpy
 // file /usr/include/string.h line 132
 extern char * strncpy(char *, const char *, unsigned long int);
-// userCB$object
+// userCB_object
 //
-void userCB$object(const char *);
+void userCB_object(const char *);
 // vfprintf
 // file /usr/include/stdio.h line 371
 extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
@@ -2552,7 +2552,7 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$12
+struct anonymous_12
 {
   // Close
   signed int (*Close)(void *);
@@ -2580,7 +2580,7 @@ struct anonymous$12
   signed long int (*GetWriteAvailable)(void *);
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // alsaName
   char *alsaName;
@@ -2594,7 +2594,7 @@ struct anonymous$25
   signed int hasCapture;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // Float32_To_Int32
   void (*Float32_To_Int32)(void *, signed int, void *, signed int, unsigned int, struct PaUtilTriangularDitherGenerator *);
@@ -2714,7 +2714,7 @@ struct anonymous$1
   void (*Copy_32_To_32)(void *, signed int, void *, signed int, unsigned int, struct PaUtilTriangularDitherGenerator *);
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // ZeroU8
   void (*ZeroU8)(void *, signed int, unsigned int);
@@ -2728,13 +2728,13 @@ struct anonymous$5
   void (*Zero32)(void *, signed int, unsigned int);
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -2742,15 +2742,15 @@ struct anonymous$10
   signed int __mask_was_saved;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __cancel_jmp_buf
-  struct anonymous$10 __cancel_jmp_buf[1l];
+  struct anonymous_10 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // samplingPeriod
   double samplingPeriod;
@@ -2760,7 +2760,7 @@ struct anonymous$6
   double averageLoad;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // __lock
   signed int __lock;
@@ -2780,7 +2780,7 @@ struct anonymous$24
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // fd
   signed int fd;
@@ -2808,7 +2808,7 @@ struct anonymous$9
   void **userBuffers;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // rm_so
   signed int rm_so;
@@ -2816,7 +2816,7 @@ struct anonymous$0
   signed int rm_eo;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // linkCount
   signed long int linkCount;
@@ -2856,7 +2856,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2866,10 +2866,10 @@ union anonymous$3
   signed long int __align;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // mtx
-  union anonymous$3 mtx;
+  union anonymous_3 mtx;
 };
 
 struct PaUtilPrivatePaFrontHostApiInfo
@@ -2910,26 +2910,26 @@ struct PaUtilHostApiRepresentation
   signed int (*IsFormatSupported)(struct PaUtilHostApiRepresentation *, const struct PaStreamParameters *, const struct PaStreamParameters *, double);
 };
 
-union anonymous$20
+union anonymous_20
 {
   // __data
-  struct anonymous$24 __data;
+  struct anonymous_24 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // commonHostApiRep
   struct PaUtilHostApiRepresentation commonHostApiRep;
   // callbackStreamInterface
-  struct anonymous$12 callbackStreamInterface;
+  struct anonymous_12 callbackStreamInterface;
   // blockingStreamInterface
-  struct anonymous$12 blockingStreamInterface;
+  struct anonymous_12 blockingStreamInterface;
   // deviceInfoMemory
-  struct anonymous$13 *deviceInfoMemory;
+  struct anonymous_13 *deviceInfoMemory;
   // jack_client
   struct _jack_client *jack_client;
   // jack_buffer_size
@@ -2937,9 +2937,9 @@ struct anonymous$4
   // hostApiIndex
   signed int hostApiIndex;
   // mtx
-  union anonymous$3 mtx;
+  union anonymous_3 mtx;
   // cond
-  union anonymous$20 cond;
+  union anonymous_20 cond;
   // inputBase
   unsigned long int inputBase;
   // outputBase
@@ -2956,33 +2956,33 @@ struct anonymous$4
   volatile signed int jackIsDown;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // inheritedHostApiRep
   struct PaUtilHostApiRepresentation inheritedHostApiRep;
   // callbackStreamInterface
-  struct anonymous$12 callbackStreamInterface;
+  struct anonymous_12 callbackStreamInterface;
   // blockingStreamInterface
-  struct anonymous$12 blockingStreamInterface;
+  struct anonymous_12 blockingStreamInterface;
   // allocations
-  struct anonymous$13 *allocations;
+  struct anonymous_13 *allocations;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // inheritedHostApiRep
   struct PaUtilHostApiRepresentation inheritedHostApiRep;
   // callbackStreamInterface
-  struct anonymous$12 callbackStreamInterface;
+  struct anonymous_12 callbackStreamInterface;
   // blockingStreamInterface
-  struct anonymous$12 blockingStreamInterface;
+  struct anonymous_12 blockingStreamInterface;
   // allocations
-  struct anonymous$13 *allocations;
+  struct anonymous_13 *allocations;
   // hostApiIndex
   signed int hostApiIndex;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // callbackThread
   unsigned long int callbackThread;
@@ -3006,14 +3006,14 @@ struct PaUtilTriangularDitherGenerator
   unsigned int randSeed2;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // framesPerUserBuffer
   unsigned long int framesPerUserBuffer;
   // framesPerHostBuffer
   unsigned long int framesPerHostBuffer;
   // hostBufferSizeMode
-  enum anonymous$21 hostBufferSizeMode;
+  enum anonymous_21 hostBufferSizeMode;
   // useNonAdaptingProcess
   signed int useNonAdaptingProcess;
   // userOutputSampleFormatIsEqualToHost
@@ -3088,7 +3088,7 @@ struct anonymous$7
   void *userData;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // hostSampleFormat
   unsigned long int hostSampleFormat;
@@ -3129,14 +3129,14 @@ struct anonymous$23
   // offset
   unsigned long int offset;
   // streamDir
-  enum anonymous$17 streamDir;
+  enum anonymous_17 streamDir;
   // channelAreas
   struct _snd_pcm_channel_area *channelAreas;
   // card
   signed int card;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // thread
   unsigned long int thread;
@@ -3147,14 +3147,14 @@ struct anonymous$18
   // locked
   signed int locked;
   // mtx
-  struct anonymous$19 mtx;
+  struct anonymous_19 mtx;
   // cond
-  union anonymous$20 cond;
+  union anonymous_20 cond;
   // stopRequest
   volatile signed int stopRequest;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[32l];
@@ -3213,11 +3213,11 @@ struct PaAlsaHostApiRepresentation
   // baseHostApiRep
   struct PaUtilHostApiRepresentation baseHostApiRep;
   // callbackStreamInterface
-  struct anonymous$12 callbackStreamInterface;
+  struct anonymous_12 callbackStreamInterface;
   // blockingStreamInterface
-  struct anonymous$12 blockingStreamInterface;
+  struct anonymous_12 blockingStreamInterface;
   // allocations
-  struct anonymous$13 *allocations;
+  struct anonymous_13 *allocations;
   // hostApiIndex
   signed int hostApiIndex;
   // alsaLibVersion
@@ -3243,7 +3243,7 @@ struct PaUtilStreamRepresentation
   // nextOpenStream
   struct PaUtilStreamRepresentation *nextOpenStream;
   // streamInterface
-  struct anonymous$12 *streamInterface;
+  struct anonymous_12 *streamInterface;
   // streamCallback
   signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
   // streamFinishedCallback
@@ -3261,11 +3261,11 @@ struct PaAlsaStream
   // streamRepresentation
   struct PaUtilStreamRepresentation streamRepresentation;
   // cpuLoadMeasurer
-  struct anonymous$6 cpuLoadMeasurer;
+  struct anonymous_6 cpuLoadMeasurer;
   // bufferProcessor
-  struct anonymous$7 bufferProcessor;
+  struct anonymous_7 bufferProcessor;
   // thread
-  struct anonymous$18 thread;
+  struct anonymous_18 thread;
   // framesPerUserBuffer
   unsigned long int framesPerUserBuffer;
   // maxFramesPerHostBuffer
@@ -3289,7 +3289,7 @@ struct PaAlsaStream
   // isActive
   volatile signed int isActive;
   // stateMtx
-  struct anonymous$19 stateMtx;
+  struct anonymous_19 stateMtx;
   // neverDropInput
   signed int neverDropInput;
   // underrun
@@ -3297,9 +3297,9 @@ struct PaAlsaStream
   // overrun
   double overrun;
   // capture
-  struct anonymous$23 capture;
+  struct anonymous_23 capture;
   // playback
-  struct anonymous$23 playback;
+  struct anonymous_23 playback;
 };
 
 struct PaAlsaStreamInfo
@@ -3347,11 +3347,11 @@ struct PaJackStream
   // streamRepresentation
   struct PaUtilStreamRepresentation streamRepresentation;
   // bufferProcessor
-  struct anonymous$7 bufferProcessor;
+  struct anonymous_7 bufferProcessor;
   // cpuLoadMeasurer
-  struct anonymous$6 cpuLoadMeasurer;
+  struct anonymous_6 cpuLoadMeasurer;
   // hostApi
-  struct anonymous$4 *hostApi;
+  struct anonymous_4 *hostApi;
   // local_input_ports
   struct _jack_port **local_input_ports;
   // local_output_ports
@@ -3379,7 +3379,7 @@ struct PaJackStream
   // t0
   unsigned int t0;
   // stream_memory
-  struct anonymous$13 *stream_memory;
+  struct anonymous_13 *stream_memory;
   // callbackResult
   signed int callbackResult;
   // isSilenced
@@ -3395,7 +3395,7 @@ struct PaJackStream
   // data_available
   volatile signed int data_available;
   // data_semaphore
-  union anonymous$2 data_semaphore;
+  union anonymous_2 data_semaphore;
   // bytesPerFrame
   signed int bytesPerFrame;
   // samplesPerFrame
@@ -3409,11 +3409,11 @@ struct PaOssStream
   // streamRepresentation
   struct PaUtilStreamRepresentation streamRepresentation;
   // cpuLoadMeasurer
-  struct anonymous$6 cpuLoadMeasurer;
+  struct anonymous_6 cpuLoadMeasurer;
   // bufferProcessor
-  struct anonymous$7 bufferProcessor;
+  struct anonymous_7 bufferProcessor;
   // threading
-  struct anonymous$8 threading;
+  struct anonymous_8 threading;
   // sharedDevice
   signed int sharedDevice;
   // framesPerHostBuffer
@@ -3439,13 +3439,13 @@ struct PaOssStream
   // callbackAbort
   volatile signed int callbackAbort;
   // capture
-  struct anonymous$9 *capture;
+  struct anonymous_9 *capture;
   // playback
-  struct anonymous$9 *playback;
+  struct anonymous_9 *playback;
   // pollTimeout
   unsigned long int pollTimeout;
   // semaphore
-  union anonymous$2 semaphore;
+  union anonymous_2 semaphore;
 };
 
 struct PaQaData
@@ -3469,9 +3469,9 @@ struct PaSkeletonStream
   // streamRepresentation
   struct PaUtilStreamRepresentation streamRepresentation;
   // cpuLoadMeasurer
-  struct anonymous$6 cpuLoadMeasurer;
+  struct anonymous_6 cpuLoadMeasurer;
   // bufferProcessor
-  struct anonymous$7 bufferProcessor;
+  struct anonymous_7 bufferProcessor;
   // framesPerHostCallback
   unsigned long int framesPerHostCallback;
 };
@@ -4086,18 +4086,18 @@ static struct PaHostErrorInfo lastHostErrorInfo_ = { .hostApiType=(enum PaHostAp
 // mainThread_
 // file src/hostapi/jack/pa_jack.c line 74
 static unsigned long int mainThread_;
-// mainThread_$link1
+// mainThread__link1
 // file src/hostapi/oss/pa_unix_oss.c line 94
-static unsigned long int mainThread_$link1;
+static unsigned long int mainThread__link1;
 // numPeriods_
 // file src/hostapi/alsa/pa_linux_alsa.c line 587
 static signed int numPeriods_ = 4;
 // paConverters
 // file src/common/pa_converters.c line 1780
-struct anonymous$1 paConverters;
+struct anonymous_1 paConverters;
 // paConverters
 // file src/common/pa_converters.c line 1780
-struct anonymous$1 paConverters = { .Float32_To_Int32=Float32_To_Int32, .Float32_To_Int32_Dither=Float32_To_Int32_Dither, .Float32_To_Int32_Clip=Float32_To_Int32_Clip,
+struct anonymous_1 paConverters = { .Float32_To_Int32=Float32_To_Int32, .Float32_To_Int32_Dither=Float32_To_Int32_Dither, .Float32_To_Int32_Clip=Float32_To_Int32_Clip,
     .Float32_To_Int32_DitherClip=Float32_To_Int32_DitherClip,
     .Float32_To_Int24=Float32_To_Int24,
     .Float32_To_Int24_Dither=Float32_To_Int24_Dither, .Float32_To_Int24_Clip=Float32_To_Int24_Clip,
@@ -4144,22 +4144,22 @@ unsigned long int paUnixMainThread = (unsigned long int)0;
 // paUtilErr_
 // file ./src/os/unix/pa_unix_util.h line 80
 static signed int paUtilErr_;
-// paUtilErr_$link1
+// paUtilErr__link1
 // file ./src/os/unix/pa_unix_util.h line 80
-static signed int paUtilErr_$link1;
-// paUtilErr_$link2
+static signed int paUtilErr__link1;
+// paUtilErr__link2
 // file src/os/unix/pa_unix_util.h line 80
-static signed int paUtilErr_$link2;
+static signed int paUtilErr__link2;
 // paZeroers
 // file src/common/pa_converters.c line 1973
-struct anonymous$5 paZeroers;
+struct anonymous_5 paZeroers;
 // paZeroers
 // file src/common/pa_converters.c line 1973
-struct anonymous$5 paZeroers = { .ZeroU8=ZeroU8, .Zero8=Zero8, .Zero16=Zero16, .Zero24=Zero24,
+struct anonymous_5 paZeroers = { .ZeroU8=ZeroU8, .Zero8=Zero8, .Zero16=Zero16, .Zero24=Zero24,
     .Zero32=Zero32 };
 // predefinedNames
 // file src/hostapi/alsa/pa_linux_alsa.c line 994
-struct anonymous$25 predefinedNames[26l] = { { .alsaName="center_lfe", .name=(char *)(void *)0, .isPlug=0,
+struct anonymous_25 predefinedNames[26l] = { { .alsaName="center_lfe", .name=(char *)(void *)0, .isPlug=0,
     .hasPlayback=1, .hasCapture=0 },
     { .alsaName="dmix", .name=(char *)(void *)0, .isPlug=0,
     .hasPlayback=1, .hasCapture=0 },
@@ -4234,38 +4234,38 @@ static signed int AbortStream(void *s)
   return result;
 }
 
-// AbortStream$link1
+// AbortStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3133
-static signed int AbortStream$link1(void *s$link1)
+static signed int AbortStream_link1(void *s_link1)
 {
-  signed int return_value_RealStop$1;
-  return_value_RealStop$1=RealStop((struct PaAlsaStream *)s$link1, 1);
-  return return_value_RealStop$1;
+  signed int return_value_RealStop_1;
+  return_value_RealStop_1=RealStop((struct PaAlsaStream *)s_link1, 1);
+  return return_value_RealStop_1;
 }
 
-// AbortStream$link2
+// AbortStream_link2
 // file src/hostapi/jack/pa_jack.c line 1713
-static signed int AbortStream$link2(void *s$link2)
+static signed int AbortStream_link2(void *s_link2)
 {
   /* assertion s */
-  assert(s$link2 != NULL);
-  signed int return_value_RealStop$1$link1;
-  return_value_RealStop$1$link1=RealStop$link1((struct PaJackStream *)s$link2, 1);
-  return return_value_RealStop$1$link1;
+  assert(s_link2 != NULL);
+  signed int return_value_RealStop_1_link1;
+  return_value_RealStop_1_link1=RealStop_link1((struct PaJackStream *)s_link2, 1);
+  return return_value_RealStop_1_link1;
 }
 
-// AbortStream$link3
+// AbortStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1862
-static signed int AbortStream$link3(void *s$link3)
+static signed int AbortStream_link3(void *s_link3)
 {
-  signed int return_value_RealStop$1$link2;
-  return_value_RealStop$1$link2=RealStop$link2((struct PaOssStream *)s$link3, 1);
-  return return_value_RealStop$1$link2;
+  signed int return_value_RealStop_1_link2;
+  return_value_RealStop_1_link2=RealStop_link2((struct PaOssStream *)s_link3, 1);
+  return return_value_RealStop_1_link2;
 }
 
 // AdaptingInputOnlyProcess
 // file src/common/pa_process.c line 970
-static unsigned long int AdaptingInputOnlyProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, unsigned long int framesToProcess)
+static unsigned long int AdaptingInputOnlyProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, unsigned long int framesToProcess)
 {
   void *userInput;
   void *userOutput;
@@ -4277,15 +4277,15 @@ static unsigned long int AdaptingInputOnlyProcess(struct anonymous$7 *bp, signed
   unsigned long int framesToGo = framesToProcess;
   unsigned long int framesProcessed = (unsigned long int)0;
   userOutput = NULL;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   do
   {
     if(!(bp->framesPerUserBuffer >= bp->framesInTempInputBuffer + framesToGo))
-      tmp_if_expr$1 = bp->framesPerUserBuffer - bp->framesInTempInputBuffer;
+      tmp_if_expr_1 = bp->framesPerUserBuffer - bp->framesInTempInputBuffer;
 
     else
-      tmp_if_expr$1 = framesToGo;
-    frameCount = tmp_if_expr$1;
+      tmp_if_expr_1 = framesToGo;
+    frameCount = tmp_if_expr_1;
     if(!(bp->userInputIsInterleaved == 0))
     {
       destBytePtr = (unsigned char *)bp->tempInputBuffer + (signed long int)((unsigned long int)(bp->bytesPerUserInputSample * bp->inputChannelCount) * bp->framesInTempInputBuffer);
@@ -4335,7 +4335,7 @@ static unsigned long int AdaptingInputOnlyProcess(struct anonymous$7 *bp, signed
 
 // AdaptingOutputOnlyProcess
 // file src/common/pa_process.c line 1077
-static unsigned long int AdaptingOutputOnlyProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess)
+static unsigned long int AdaptingOutputOnlyProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess)
 {
   void *userInput;
   void *userOutput;
@@ -4346,7 +4346,7 @@ static unsigned long int AdaptingOutputOnlyProcess(struct anonymous$7 *bp, signe
   unsigned long int frameCount;
   unsigned long int framesToGo = framesToProcess;
   unsigned long int framesProcessed = (unsigned long int)0;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   while((_Bool)1)
   {
     if(bp->framesInTempOutputBuffer == 0ul)
@@ -4379,11 +4379,11 @@ static unsigned long int AdaptingOutputOnlyProcess(struct anonymous$7 *bp, signe
     if(bp->framesInTempOutputBuffer >= 1ul)
     {
       if(!(bp->framesInTempOutputBuffer >= framesToGo))
-        tmp_if_expr$1 = bp->framesInTempOutputBuffer;
+        tmp_if_expr_1 = bp->framesInTempOutputBuffer;
 
       else
-        tmp_if_expr$1 = framesToGo;
-      frameCount = tmp_if_expr$1;
+        tmp_if_expr_1 = framesToGo;
+      frameCount = tmp_if_expr_1;
       if(!(bp->userOutputIsInterleaved == 0))
       {
         srcBytePtr = (unsigned char *)bp->tempOutputBuffer + (signed long int)((unsigned long int)(bp->bytesPerUserOutputSample * bp->outputChannelCount) * (bp->framesPerUserBuffer - bp->framesInTempOutputBuffer));
@@ -4432,7 +4432,7 @@ static unsigned long int AdaptingOutputOnlyProcess(struct anonymous$7 *bp, signe
 
 // AdaptingProcess
 // file src/common/pa_process.c line 1287
-static unsigned long int AdaptingProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, signed int processPartialUserBuffers)
+static unsigned long int AdaptingProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, signed int processPartialUserBuffers)
 {
   void *userInput;
   void *userOutput;
@@ -4455,8 +4455,8 @@ static unsigned long int AdaptingProcess(struct anonymous$7 *bp, signed int *str
   else
     endProcessingMinFrameCount = bp->framesPerUserBuffer - (unsigned long int)1;
   CopyTempOutputBuffersToHostOutputBuffers(bp);
-  unsigned long int tmp_if_expr$1;
-  unsigned long int tmp_if_expr$2;
+  unsigned long int tmp_if_expr_1;
+  unsigned long int tmp_if_expr_2;
   while(!(endProcessingMinFrameCount >= framesAvailable))
   {
     if(bp->framesInTempOutputBuffer == 0ul)
@@ -4496,22 +4496,22 @@ static unsigned long int AdaptingProcess(struct anonymous$7 *bp, signed int *str
       {
         hostInputChannels = bp->hostInputChannels[(signed long int)0];
         if(!(bp->hostInputFrameCount[0l] >= maxFramesToCopy))
-          tmp_if_expr$1 = bp->hostInputFrameCount[(signed long int)0];
+          tmp_if_expr_1 = bp->hostInputFrameCount[(signed long int)0];
 
         else
-          tmp_if_expr$1 = maxFramesToCopy;
-        frameCount = (unsigned int)tmp_if_expr$1;
+          tmp_if_expr_1 = maxFramesToCopy;
+        frameCount = (unsigned int)tmp_if_expr_1;
       }
 
       else
       {
         hostInputChannels = bp->hostInputChannels[(signed long int)1];
         if(!(bp->hostInputFrameCount[1l] >= maxFramesToCopy))
-          tmp_if_expr$2 = bp->hostInputFrameCount[(signed long int)1];
+          tmp_if_expr_2 = bp->hostInputFrameCount[(signed long int)1];
 
         else
-          tmp_if_expr$2 = maxFramesToCopy;
-        frameCount = (unsigned int)tmp_if_expr$2;
+          tmp_if_expr_2 = maxFramesToCopy;
+        frameCount = (unsigned int)tmp_if_expr_2;
       }
       if(!(bp->userInputIsInterleaved == 0))
       {
@@ -4604,7 +4604,7 @@ static void AddOpenStream(void *stream)
 static signed int AddStream(struct PaJackStream *stream)
 {
   signed int result = 0;
-  struct anonymous$4 *hostApi = stream->hostApi;
+  struct anonymous_4 *hostApi = stream->hostApi;
   do
   {
     signed int err;
@@ -4621,13 +4621,13 @@ static signed int AddStream(struct PaJackStream *stream)
 
   do
   {
-    signed int AddStream$$1$$3$$err;
-    AddStream$$1$$3$$err=pthread_mutex_unlock(&hostApi->mtx);
+    signed int AddStream__1__3__err;
+    AddStream__1__3__err=pthread_mutex_unlock(&hostApi->mtx);
     /* assertion err == 0 */
-    assert(AddStream$$1$$3$$err == 0);
+    assert(AddStream__1__3__err == 0);
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
   {
     signed int paErr = result;
@@ -4635,14 +4635,14 @@ static signed int AddStream(struct PaJackStream *stream)
     {
       if(paErr == -9999)
       {
-        return_value_pthread_self$1=pthread_self();
-        if(return_value_pthread_self$1 == mainThread_)
+        return_value_pthread_self_1=pthread_self();
+        if(return_value_pthread_self_1 == mainThread_)
         {
-          const char *AddStream$$1$$4$$1$$1$$err = jackErr_;
-          if(AddStream$$1$$4$$1$$1$$err == ((const char *)NULL))
-            AddStream$$1$$4$$1$$1$$err = "unknown error";
+          const char *AddStream__1__4__1__1__err = jackErr_;
+          if(AddStream__1__4__1__1__err == ((const char *)NULL))
+            AddStream__1__4__1__1__err = "unknown error";
 
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, AddStream$$1$$4$$1$$1$$err);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, AddStream__1__4__1__1__err);
         }
 
       }
@@ -4654,7 +4654,7 @@ static signed int AddStream(struct PaJackStream *stream)
 
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!(hostApi->jackIsDown == 0))
     {
@@ -4676,9 +4676,9 @@ static struct PaUtilAllocationGroupLink * AllocateLinks(signed long int count, s
 {
   struct PaUtilAllocationGroupLink *result;
   signed int i;
-  void *return_value_PaUtil_AllocateMemory$1;
-  return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilAllocationGroupLink) /*16ul*/  * (unsigned long int)count));
-  result = (struct PaUtilAllocationGroupLink *)return_value_PaUtil_AllocateMemory$1;
+  void *return_value_PaUtil_AllocateMemory_1;
+  return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilAllocationGroupLink) /*16ul*/  * (unsigned long int)count));
+  result = (struct PaUtilAllocationGroupLink *)return_value_PaUtil_AllocateMemory_1;
   if(!(result == ((struct PaUtilAllocationGroupLink *)NULL)))
   {
     (result + (signed long int)0)->buffer = (void *)result;
@@ -4697,7 +4697,7 @@ static struct PaUtilAllocationGroupLink * AllocateLinks(signed long int count, s
 
 // AlsaOpen
 // file src/hostapi/alsa/pa_linux_alsa.c line 1713
-static signed int AlsaOpen(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *params, enum anonymous$17 streamDir, struct _snd_pcm **pcm)
+static signed int AlsaOpen(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *params, enum anonymous_17 streamDir, struct _snd_pcm **pcm)
 {
   signed int result = 0;
   signed int ret;
@@ -4713,8 +4713,8 @@ static signed int AlsaOpen(const struct PaUtilHostApiRepresentation *hostApi, co
   else
     deviceName = streamInfo->deviceString;
   ret=OpenPcm(pcm, deviceName, (enum _snd_pcm_stream)((signed int)streamDir == StreamDirection_In ? SND_PCM_STREAM_CAPTURE : SND_PCM_STREAM_PLAYBACK), 0x00000001, 1);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(ret >= 0))
   {
     *pcm = (struct _snd_pcm *)(void *)0;
@@ -4732,19 +4732,19 @@ static signed int AlsaOpen(const struct PaUtilHostApiRepresentation *hostApi, co
     while((_Bool)0);
   }
 
-  signed int AlsaOpen$$1$$3$$__pa_unsure_error_id;
-  AlsaOpen$$1$$3$$__pa_unsure_error_id=alsa_snd_pcm_nonblock(*pcm, 0);
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
-  if(!(AlsaOpen$$1$$3$$__pa_unsure_error_id >= 0))
+  signed int AlsaOpen__1__3____pa_unsure_error_id;
+  AlsaOpen__1__3____pa_unsure_error_id=alsa_snd_pcm_nonblock(*pcm, 0);
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
+  if(!(AlsaOpen__1__3____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$3=pthread_self();
-    return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, paUnixMainThread);
-    if(!(return_value_pthread_equal$4 == 0))
+    return_value_pthread_self_3=pthread_self();
+    return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, paUnixMainThread);
+    if(!(return_value_pthread_equal_4 == 0))
     {
       const char *return_value_1;
-      return_value_1=alsa_snd_strerror(AlsaOpen$$1$$3$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaOpen$$1$$3$$__pa_unsure_error_id, return_value_1);
+      return_value_1=alsa_snd_strerror(AlsaOpen__1__3____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaOpen__1__3____pa_unsure_error_id, return_value_1);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_nonblock( *pcm, 0 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1738\n");
@@ -4825,29 +4825,29 @@ static signed int AlsaRestart(struct PaAlsaStream *stream)
 static signed int AlsaStart(struct PaAlsaStream *stream, signed int priming)
 {
   signed int result = 0;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
-  unsigned long int return_value_pthread_self$5;
-  signed int return_value_pthread_equal$6;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
+  unsigned long int return_value_pthread_self_5;
+  signed int return_value_pthread_equal_6;
   if(!(stream->playback.pcm == ((struct _snd_pcm *)NULL)))
   {
     if(!(stream->callbackMode == 0))
     {
       if(priming == 0)
       {
-        signed int AlsaStart$$1$$1$$1$$1$$1$$__pa_unsure_error_id;
-        AlsaStart$$1$$1$$1$$1$$1$$__pa_unsure_error_id=alsa_snd_pcm_prepare(stream->playback.pcm);
-        if(!(AlsaStart$$1$$1$$1$$1$$1$$__pa_unsure_error_id >= 0))
+        signed int AlsaStart__1__1__1__1__1____pa_unsure_error_id;
+        AlsaStart__1__1__1__1__1____pa_unsure_error_id=alsa_snd_pcm_prepare(stream->playback.pcm);
+        if(!(AlsaStart__1__1__1__1__1____pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$1=pthread_self();
-          return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-          if(!(return_value_pthread_equal$2 == 0))
+          return_value_pthread_self_1=pthread_self();
+          return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+          if(!(return_value_pthread_equal_2 == 0))
           {
             const char *return_value;
-            return_value=alsa_snd_strerror(AlsaStart$$1$$1$$1$$1$$1$$__pa_unsure_error_id);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart$$1$$1$$1$$1$$1$$__pa_unsure_error_id, return_value);
+            return_value=alsa_snd_strerror(AlsaStart__1__1__1__1__1____pa_unsure_error_id);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart__1__1__1__1__1____pa_unsure_error_id, return_value);
           }
 
           PaUtil_DebugPrint("Expression 'alsa_snd_pcm_prepare( stream->playback.pcm )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2920\n");
@@ -4861,17 +4861,17 @@ static signed int AlsaStart(struct PaAlsaStream *stream, signed int priming)
 
       if(!(stream->playback.canMmap == 0))
       {
-        signed int AlsaStart$$1$$1$$1$$2$$__pa_unsure_error_id;
-        AlsaStart$$1$$1$$1$$2$$__pa_unsure_error_id=alsa_snd_pcm_start(stream->playback.pcm);
-        if(!(AlsaStart$$1$$1$$1$$2$$__pa_unsure_error_id >= 0))
+        signed int AlsaStart__1__1__1__2____pa_unsure_error_id;
+        AlsaStart__1__1__1__2____pa_unsure_error_id=alsa_snd_pcm_start(stream->playback.pcm);
+        if(!(AlsaStart__1__1__1__2____pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$3=pthread_self();
-          return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, paUnixMainThread);
-          if(!(return_value_pthread_equal$4 == 0))
+          return_value_pthread_self_3=pthread_self();
+          return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, paUnixMainThread);
+          if(!(return_value_pthread_equal_4 == 0))
           {
             const char *return_value_1;
-            return_value_1=alsa_snd_strerror(AlsaStart$$1$$1$$1$$2$$__pa_unsure_error_id);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart$$1$$1$$1$$2$$__pa_unsure_error_id, return_value_1);
+            return_value_1=alsa_snd_strerror(AlsaStart__1__1__1__2____pa_unsure_error_id);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart__1__1__1__2____pa_unsure_error_id, return_value_1);
           }
 
           PaUtil_DebugPrint("Expression 'alsa_snd_pcm_start( stream->playback.pcm )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2925\n");
@@ -4884,17 +4884,17 @@ static signed int AlsaStart(struct PaAlsaStream *stream, signed int priming)
 
     else
     {
-      signed int AlsaStart$$1$$1$$2$$__pa_unsure_error_id;
-      AlsaStart$$1$$1$$2$$__pa_unsure_error_id=alsa_snd_pcm_prepare(stream->playback.pcm);
-      if(!(AlsaStart$$1$$1$$2$$__pa_unsure_error_id >= 0))
+      signed int AlsaStart__1__1__2____pa_unsure_error_id;
+      AlsaStart__1__1__2____pa_unsure_error_id=alsa_snd_pcm_prepare(stream->playback.pcm);
+      if(!(AlsaStart__1__1__2____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$5=pthread_self();
-        return_value_pthread_equal$6=pthread_equal(return_value_pthread_self$5, paUnixMainThread);
-        if(!(return_value_pthread_equal$6 == 0))
+        return_value_pthread_self_5=pthread_self();
+        return_value_pthread_equal_6=pthread_equal(return_value_pthread_self_5, paUnixMainThread);
+        if(!(return_value_pthread_equal_6 == 0))
         {
           const char *return_value_2;
-          return_value_2=alsa_snd_strerror(AlsaStart$$1$$1$$2$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart$$1$$1$$2$$__pa_unsure_error_id, return_value_2);
+          return_value_2=alsa_snd_strerror(AlsaStart__1__1__2____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart__1__1__2____pa_unsure_error_id, return_value_2);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_prepare( stream->playback.pcm )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2928\n");
@@ -4904,10 +4904,10 @@ static signed int AlsaStart(struct PaAlsaStream *stream, signed int priming)
     }
   }
 
-  unsigned long int return_value_pthread_self$7;
-  signed int return_value_pthread_equal$8;
-  unsigned long int return_value_pthread_self$9;
-  signed int return_value_pthread_equal$10;
+  unsigned long int return_value_pthread_self_7;
+  signed int return_value_pthread_equal_8;
+  unsigned long int return_value_pthread_self_9;
+  signed int return_value_pthread_equal_10;
   if(!(stream->capture.pcm == ((struct _snd_pcm *)NULL)))
   {
     if(stream->pcmsSynced == 0)
@@ -4916,9 +4916,9 @@ static signed int AlsaStart(struct PaAlsaStream *stream, signed int priming)
       __pa_unsure_error_id=alsa_snd_pcm_prepare(stream->capture.pcm);
       if(!(__pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$7=pthread_self();
-        return_value_pthread_equal$8=pthread_equal(return_value_pthread_self$7, paUnixMainThread);
-        if(!(return_value_pthread_equal$8 == 0))
+        return_value_pthread_self_7=pthread_self();
+        return_value_pthread_equal_8=pthread_equal(return_value_pthread_self_7, paUnixMainThread);
+        if(!(return_value_pthread_equal_8 == 0))
         {
           const char *return_value_3;
           return_value_3=alsa_snd_strerror(__pa_unsure_error_id);
@@ -4929,17 +4929,17 @@ static signed int AlsaStart(struct PaAlsaStream *stream, signed int priming)
         result = -9999;
       }
 
-      signed int AlsaStart$$1$$2$$2$$__pa_unsure_error_id;
-      AlsaStart$$1$$2$$2$$__pa_unsure_error_id=alsa_snd_pcm_start(stream->capture.pcm);
-      if(!(AlsaStart$$1$$2$$2$$__pa_unsure_error_id >= 0))
+      signed int AlsaStart__1__2__2____pa_unsure_error_id;
+      AlsaStart__1__2__2____pa_unsure_error_id=alsa_snd_pcm_start(stream->capture.pcm);
+      if(!(AlsaStart__1__2__2____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$9=pthread_self();
-        return_value_pthread_equal$10=pthread_equal(return_value_pthread_self$9, paUnixMainThread);
-        if(!(return_value_pthread_equal$10 == 0))
+        return_value_pthread_self_9=pthread_self();
+        return_value_pthread_equal_10=pthread_equal(return_value_pthread_self_9, paUnixMainThread);
+        if(!(return_value_pthread_equal_10 == 0))
         {
           const char *return_value_4;
-          return_value_4=alsa_snd_strerror(AlsaStart$$1$$2$$2$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart$$1$$2$$2$$__pa_unsure_error_id, return_value_4);
+          return_value_4=alsa_snd_strerror(AlsaStart__1__2__2____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStart__1__2__2____pa_unsure_error_id, return_value_4);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_start( stream->capture.pcm )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2934\n");
@@ -4965,27 +4965,27 @@ static signed int AlsaStop(struct PaAlsaStream *stream, signed int abort)
 {
   signed int result = 0;
   abort = 1;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
-  unsigned long int return_value_pthread_self$5;
-  signed int return_value_pthread_equal$6;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
+  unsigned long int return_value_pthread_self_5;
+  signed int return_value_pthread_equal_6;
   if(!(abort == 0))
   {
     if(!(stream->playback.pcm == ((struct _snd_pcm *)NULL)))
     {
-      signed int AlsaStop$$1$$1$$1$$1$$__pa_unsure_error_id;
-      AlsaStop$$1$$1$$1$$1$$__pa_unsure_error_id=alsa_snd_pcm_drop(stream->playback.pcm);
-      if(!(AlsaStop$$1$$1$$1$$1$$__pa_unsure_error_id >= 0))
+      signed int AlsaStop__1__1__1__1____pa_unsure_error_id;
+      AlsaStop__1__1__1__1____pa_unsure_error_id=alsa_snd_pcm_drop(stream->playback.pcm);
+      if(!(AlsaStop__1__1__1__1____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$1=pthread_self();
-        return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-        if(!(return_value_pthread_equal$2 == 0))
+        return_value_pthread_self_1=pthread_self();
+        return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+        if(!(return_value_pthread_equal_2 == 0))
         {
           const char *return_value;
-          return_value=alsa_snd_strerror(AlsaStop$$1$$1$$1$$1$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStop$$1$$1$$1$$1$$__pa_unsure_error_id, return_value);
+          return_value=alsa_snd_strerror(AlsaStop__1__1__1__1____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStop__1__1__1__1____pa_unsure_error_id, return_value);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_drop( stream->playback.pcm )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3042\n");
@@ -5002,9 +5002,9 @@ static signed int AlsaStop(struct PaAlsaStream *stream, signed int abort)
         __pa_unsure_error_id=alsa_snd_pcm_drop(stream->capture.pcm);
         if(!(__pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$3=pthread_self();
-          return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, paUnixMainThread);
-          if(!(return_value_pthread_equal$4 == 0))
+          return_value_pthread_self_3=pthread_self();
+          return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, paUnixMainThread);
+          if(!(return_value_pthread_equal_4 == 0))
           {
             const char *return_value_1;
             return_value_1=alsa_snd_strerror(__pa_unsure_error_id);
@@ -5025,17 +5025,17 @@ static signed int AlsaStop(struct PaAlsaStream *stream, signed int abort)
   {
     if(!(stream->playback.pcm == ((struct _snd_pcm *)NULL)))
     {
-      signed int AlsaStop$$1$$2$$1$$1$$__pa_unsure_error_id;
-      AlsaStop$$1$$2$$1$$1$$__pa_unsure_error_id=alsa_snd_pcm_nonblock(stream->playback.pcm, 0);
-      if(!(AlsaStop$$1$$2$$1$$1$$__pa_unsure_error_id >= 0))
+      signed int AlsaStop__1__2__1__1____pa_unsure_error_id;
+      AlsaStop__1__2__1__1____pa_unsure_error_id=alsa_snd_pcm_nonblock(stream->playback.pcm, 0);
+      if(!(AlsaStop__1__2__1__1____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$5=pthread_self();
-        return_value_pthread_equal$6=pthread_equal(return_value_pthread_self$5, paUnixMainThread);
-        if(!(return_value_pthread_equal$6 == 0))
+        return_value_pthread_self_5=pthread_self();
+        return_value_pthread_equal_6=pthread_equal(return_value_pthread_self_5, paUnixMainThread);
+        if(!(return_value_pthread_equal_6 == 0))
         {
           const char *return_value_2;
-          return_value_2=alsa_snd_strerror(AlsaStop$$1$$2$$1$$1$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStop$$1$$2$$1$$1$$__pa_unsure_error_id, return_value_2);
+          return_value_2=alsa_snd_strerror(AlsaStop__1__2__1__1____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)AlsaStop__1__2__1__1____pa_unsure_error_id, return_value_2);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_nonblock( stream->playback.pcm, 0 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3055\n");
@@ -5081,7 +5081,7 @@ static signed int BlockingBegin(struct PaJackStream *stream, signed int minimum_
   numFrames = (signed long int)32;
   for( ; !(numFrames >= (signed long int)minimum_buffer_size); numFrames = numFrames * (signed long int)2)
     ;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   if(!(doRead == 0l))
     do
     {
@@ -5091,8 +5091,8 @@ static signed int BlockingBegin(struct PaJackStream *stream, signed int minimum_
       {
         if(paErr == -9999)
         {
-          return_value_pthread_self$1=pthread_self();
-          if(return_value_pthread_self$1 == mainThread_)
+          return_value_pthread_self_1=pthread_self();
+          if(return_value_pthread_self_1 == mainThread_)
           {
             const char *err = jackErr_;
             if(err == ((const char *)NULL))
@@ -5111,32 +5111,32 @@ static signed int BlockingBegin(struct PaJackStream *stream, signed int minimum_
     }
     while((_Bool)0);
 
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   if(!(doWrite == 0l))
   {
     signed long int numBytes;
     do
     {
-      signed int BlockingBegin$$1$$2$$1$$paErr;
-      BlockingBegin$$1$$2$$1$$paErr=BlockingInitFIFO(&stream->outFIFO, numFrames, (signed long int)stream->bytesPerFrame);
-      if(!(BlockingBegin$$1$$2$$1$$paErr >= 0))
+      signed int BlockingBegin__1__2__1__paErr;
+      BlockingBegin__1__2__1__paErr=BlockingInitFIFO(&stream->outFIFO, numFrames, (signed long int)stream->bytesPerFrame);
+      if(!(BlockingBegin__1__2__1__paErr >= 0))
       {
-        if(BlockingBegin$$1$$2$$1$$paErr == -9999)
+        if(BlockingBegin__1__2__1__paErr == -9999)
         {
-          return_value_pthread_self$2=pthread_self();
-          if(return_value_pthread_self$2 == mainThread_)
+          return_value_pthread_self_2=pthread_self();
+          if(return_value_pthread_self_2 == mainThread_)
           {
-            const char *BlockingBegin$$1$$2$$1$$1$$1$$err = jackErr_;
-            if(BlockingBegin$$1$$2$$1$$1$$1$$err == ((const char *)NULL))
-              BlockingBegin$$1$$2$$1$$1$$1$$err = "unknown error";
+            const char *BlockingBegin__1__2__1__1__1__err = jackErr_;
+            if(BlockingBegin__1__2__1__1__1__err == ((const char *)NULL))
+              BlockingBegin__1__2__1__1__1__err = "unknown error";
 
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, BlockingBegin$$1$$2$$1$$1$$1$$err);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, BlockingBegin__1__2__1__1__1__err);
           }
 
         }
 
         PaUtil_DebugPrint("Expression 'BlockingInitFIFO( &stream->outFIFO, numFrames, stream->bytesPerFrame )' failed in 'src/hostapi/jack/pa_jack.c', line: 332\n");
-        result = BlockingBegin$$1$$2$$1$$paErr;
+        result = BlockingBegin__1__2__1__paErr;
         goto error;
       }
 
@@ -5166,9 +5166,9 @@ static signed int BlockingCallback(const void *inputBuffer, void *outputBuffer, 
   if(!(outputBuffer == NULL))
   {
     signed int numRead;
-    signed long int return_value_PaUtil_ReadRingBuffer$1;
-    return_value_PaUtil_ReadRingBuffer$1=PaUtil_ReadRingBuffer(&stream->outFIFO, outputBuffer, numBytes);
-    numRead = (signed int)return_value_PaUtil_ReadRingBuffer$1;
+    signed long int return_value_PaUtil_ReadRingBuffer_1;
+    return_value_PaUtil_ReadRingBuffer_1=PaUtil_ReadRingBuffer(&stream->outFIFO, outputBuffer, numBytes);
+    numRead = (signed int)return_value_PaUtil_ReadRingBuffer_1;
     memset((void *)((char *)outputBuffer + (signed long int)numRead), 0, (unsigned long int)(numBytes - (signed long int)numRead));
   }
 
@@ -5196,9 +5196,9 @@ static signed long int BlockingGetStreamReadAvailable(void *s)
 {
   struct PaJackStream *stream = (struct PaJackStream *)s;
   signed int bytesFull;
-  signed long int return_value_PaUtil_GetRingBufferReadAvailable$1;
-  return_value_PaUtil_GetRingBufferReadAvailable$1=PaUtil_GetRingBufferReadAvailable(&stream->inFIFO);
-  bytesFull = (signed int)return_value_PaUtil_GetRingBufferReadAvailable$1;
+  signed long int return_value_PaUtil_GetRingBufferReadAvailable_1;
+  return_value_PaUtil_GetRingBufferReadAvailable_1=PaUtil_GetRingBufferReadAvailable(&stream->inFIFO);
+  bytesFull = (signed int)return_value_PaUtil_GetRingBufferReadAvailable_1;
   return (signed long int)(bytesFull / stream->bytesPerFrame);
 }
 
@@ -5208,9 +5208,9 @@ static signed long int BlockingGetStreamWriteAvailable(void *s)
 {
   struct PaJackStream *stream = (struct PaJackStream *)s;
   signed int bytesEmpty;
-  signed long int return_value_PaUtil_GetRingBufferWriteAvailable$1;
-  return_value_PaUtil_GetRingBufferWriteAvailable$1=PaUtil_GetRingBufferWriteAvailable(&stream->outFIFO);
-  bytesEmpty = (signed int)return_value_PaUtil_GetRingBufferWriteAvailable$1;
+  signed long int return_value_PaUtil_GetRingBufferWriteAvailable_1;
+  return_value_PaUtil_GetRingBufferWriteAvailable_1=PaUtil_GetRingBufferWriteAvailable(&stream->outFIFO);
+  bytesEmpty = (signed int)return_value_PaUtil_GetRingBufferWriteAvailable_1;
   return (signed long int)(bytesEmpty / stream->bytesPerFrame);
 }
 
@@ -5220,18 +5220,18 @@ static signed int BlockingInitFIFO(struct PaUtilRingBuffer *rbuf, signed long in
 {
   signed long int numBytes = numFrames * bytesPerFrame;
   char *buffer;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)numBytes);
-  buffer = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)numBytes);
+  buffer = (char *)return_value_malloc_1;
   if(buffer == ((char *)NULL))
     return -9992;
 
   else
   {
     memset((void *)buffer, 0, (unsigned long int)numBytes);
-    signed long int return_value_PaUtil_InitializeRingBuffer$2;
-    return_value_PaUtil_InitializeRingBuffer$2=PaUtil_InitializeRingBuffer(rbuf, (signed long int)1, numBytes, (void *)buffer);
-    return (signed int)return_value_PaUtil_InitializeRingBuffer$2;
+    signed long int return_value_PaUtil_InitializeRingBuffer_2;
+    return_value_PaUtil_InitializeRingBuffer_2=PaUtil_InitializeRingBuffer(rbuf, (signed long int)1, numBytes, (void *)buffer);
+    return (signed int)return_value_PaUtil_InitializeRingBuffer_2;
   }
 }
 
@@ -5278,11 +5278,11 @@ static signed int BlockingTermFIFO(struct PaUtilRingBuffer *rbuf)
 static signed int BlockingWaitEmpty(void *s)
 {
   struct PaJackStream *stream = (struct PaJackStream *)s;
-  signed long int return_value_PaUtil_GetRingBufferReadAvailable$1;
+  signed long int return_value_PaUtil_GetRingBufferReadAvailable_1;
   do
   {
-    return_value_PaUtil_GetRingBufferReadAvailable$1=PaUtil_GetRingBufferReadAvailable(&stream->outFIFO);
-    if(!(return_value_PaUtil_GetRingBufferReadAvailable$1 >= 1l))
+    return_value_PaUtil_GetRingBufferReadAvailable_1=PaUtil_GetRingBufferReadAvailable(&stream->outFIFO);
+    if(!(return_value_PaUtil_GetRingBufferReadAvailable_1 >= 1l))
       break;
 
     stream->data_available = 0;
@@ -5321,22 +5321,22 @@ static signed int BlockingWriteStream(void *s, const void *data, unsigned long i
 
 // BoostPriority
 // file src/os/unix/pa_unix_util.c line 245
-static signed int BoostPriority(struct anonymous$18 *self)
+static signed int BoostPriority(struct anonymous_18 *self)
 {
   signed int result = 0;
   struct sched_param spm = { .__sched_priority=0 };
   spm.__sched_priority = 1;
   /* assertion self */
-  assert(self != ((struct anonymous$18 *)NULL));
-  signed int return_value_pthread_setschedparam$2;
-  return_value_pthread_setschedparam$2=pthread_setschedparam(self->thread, 1, &spm);
-  if(!(return_value_pthread_setschedparam$2 == 0))
+  assert(self != ((struct anonymous_18 *)NULL));
+  signed int return_value_pthread_setschedparam_2;
+  return_value_pthread_setschedparam_2=pthread_setschedparam(self->thread, 1, &spm);
+  if(!(return_value_pthread_setschedparam_2 == 0))
   {
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 1))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 1))
       {
         PaUtil_DebugPrint("Expression 'errno == EPERM' failed in 'src/os/unix/pa_unix_util.c', line: 256\n");
         result = -9986;
@@ -5369,7 +5369,7 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
   unsigned long int numDeviceNames = (unsigned long int)0;
   unsigned long int maxDeviceNames = (unsigned long int)1;
   unsigned long int i;
-  struct anonymous$25 *hwDevInfos = (struct anonymous$25 *)(void *)0;
+  struct anonymous_25 *hwDevInfos = (struct anonymous_25 *)(void *)0;
   struct _snd_config *topNode = (struct _snd_config *)(void *)0;
   struct _snd_pcm_info *pcmInfo;
   signed int res;
@@ -5377,28 +5377,28 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
   signed int usePlughw = 0;
   char *hwPrefix = "";
   char alsaCardName[50l];
-  char *return_value_getenv$3;
-  return_value_getenv$3=getenv("PA_ALSA_INITIALIZE_BLOCK");
-  char *return_value_getenv$1;
-  signed int return_value_atoi$2;
-  if(!(return_value_getenv$3 == ((char *)NULL)))
+  char *return_value_getenv_3;
+  return_value_getenv_3=getenv("PA_ALSA_INITIALIZE_BLOCK");
+  char *return_value_getenv_1;
+  signed int return_value_atoi_2;
+  if(!(return_value_getenv_3 == ((char *)NULL)))
   {
-    return_value_getenv$1=getenv("PA_ALSA_INITIALIZE_BLOCK");
-    return_value_atoi$2=atoi(return_value_getenv$1);
-    if(!(return_value_atoi$2 == 0))
+    return_value_getenv_1=getenv("PA_ALSA_INITIALIZE_BLOCK");
+    return_value_atoi_2=atoi(return_value_getenv_1);
+    if(!(return_value_atoi_2 == 0))
       blocking = 0;
 
   }
 
-  char *return_value_getenv$6;
-  return_value_getenv$6=getenv("PA_ALSA_PLUGHW");
-  char *return_value_getenv$4;
-  signed int return_value_atoi$5;
-  if(!(return_value_getenv$6 == ((char *)NULL)))
+  char *return_value_getenv_6;
+  return_value_getenv_6=getenv("PA_ALSA_PLUGHW");
+  char *return_value_getenv_4;
+  signed int return_value_atoi_5;
+  if(!(return_value_getenv_6 == ((char *)NULL)))
   {
-    return_value_getenv$4=getenv("PA_ALSA_PLUGHW");
-    return_value_atoi$5=atoi(return_value_getenv$4);
-    if(!(return_value_atoi$5 == 0))
+    return_value_getenv_4=getenv("PA_ALSA_PLUGHW");
+    return_value_atoi_5=atoi(return_value_getenv_4);
+    if(!(return_value_atoi_5 == 0))
     {
       usePlughw = 1;
       hwPrefix = "plug";
@@ -5411,16 +5411,16 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
   cardIdx = -1;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_ctl_card_info_sizeof();
-  void *return_value___builtin_alloca$7;
-  return_value___builtin_alloca$7=__builtin_alloca(__alsa_alloca_size);
-  *(&cardInfo) = (struct _snd_ctl_card_info *)return_value___builtin_alloca$7;
+  void *return_value___builtin_alloca_7;
+  return_value___builtin_alloca_7=__builtin_alloca(__alsa_alloca_size);
+  *(&cardInfo) = (struct _snd_ctl_card_info *)return_value___builtin_alloca_7;
   memset((void *)*(&cardInfo), 0, __alsa_alloca_size);
-  unsigned long int BuildDeviceList$$1$$3$$__alsa_alloca_size;
-  BuildDeviceList$$1$$3$$__alsa_alloca_size=alsa_snd_pcm_info_sizeof();
-  void *return_value___builtin_alloca$8;
-  return_value___builtin_alloca$8=__builtin_alloca(BuildDeviceList$$1$$3$$__alsa_alloca_size);
-  *(&pcmInfo) = (struct _snd_pcm_info *)return_value___builtin_alloca$8;
-  memset((void *)*(&pcmInfo), 0, BuildDeviceList$$1$$3$$__alsa_alloca_size);
+  unsigned long int BuildDeviceList__1__3____alsa_alloca_size;
+  BuildDeviceList__1__3____alsa_alloca_size=alsa_snd_pcm_info_sizeof();
+  void *return_value___builtin_alloca_8;
+  return_value___builtin_alloca_8=__builtin_alloca(BuildDeviceList__1__3____alsa_alloca_size);
+  *(&pcmInfo) = (struct _snd_pcm_info *)return_value___builtin_alloca_8;
+  memset((void *)*(&pcmInfo), 0, BuildDeviceList__1__3____alsa_alloca_size);
   signed int return_value;
   return_value=alsa_snd_card_next(&cardIdx);
   if(return_value == 0)
@@ -5428,7 +5428,7 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
     if(cardIdx >= 0)
     {
       char *cardName;
-      signed int BuildDeviceList$$1$$4$$devIdx = -1;
+      signed int BuildDeviceList__1__4__devIdx = -1;
       struct _snd_ctl *ctl;
       char buf[50l];
       snprintf(alsaCardName, sizeof(char [50l]) /*50ul*/ , "hw:%d", cardIdx);
@@ -5447,10 +5447,10 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
         }
 
         signed int return_value_3;
-        return_value_3=alsa_snd_ctl_pcm_next_device(ctl, &BuildDeviceList$$1$$4$$devIdx);
+        return_value_3=alsa_snd_ctl_pcm_next_device(ctl, &BuildDeviceList__1__4__devIdx);
         if(return_value_3 == 0)
         {
-          if(BuildDeviceList$$1$$4$$devIdx >= 0)
+          if(BuildDeviceList__1__4__devIdx >= 0)
           {
             char *alsaDeviceName;
             char *deviceName;
@@ -5458,8 +5458,8 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
             unsigned long int len;
             signed int hasPlayback = 0;
             signed int hasCapture = 0;
-            snprintf(buf, sizeof(char [50l]) /*50ul*/ , "%s%s,%d", hwPrefix, (const void *)alsaCardName, BuildDeviceList$$1$$4$$devIdx);
-            alsa_snd_pcm_info_set_device(pcmInfo, (unsigned int)BuildDeviceList$$1$$4$$devIdx);
+            snprintf(buf, sizeof(char [50l]) /*50ul*/ , "%s%s,%d", hwPrefix, (const void *)alsaCardName, BuildDeviceList__1__4__devIdx);
+            alsa_snd_pcm_info_set_device(pcmInfo, (unsigned int)BuildDeviceList__1__4__devIdx);
             alsa_snd_pcm_info_set_subdevice(pcmInfo, (unsigned int)0);
             alsa_snd_pcm_info_set_stream(pcmInfo, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE);
             signed int return_value_4;
@@ -5478,12 +5478,12 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
               const char *return_value_6;
               return_value_6=alsa_snd_pcm_info_get_name(pcmInfo);
               infoName=SkipCardDetailsInName((char *)return_value_6, cardName);
-              signed int return_value_snprintf$9;
-              return_value_snprintf$9=snprintf((char *)(void *)0, (unsigned long int)0, "%s: %s (%s)", cardName, infoName, (const void *)buf);
-              len = (unsigned long int)(return_value_snprintf$9 + 1);
-              void *return_value_PaUtil_GroupAllocateMemory$10;
-              return_value_PaUtil_GroupAllocateMemory$10=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)len);
-              deviceName = (char *)return_value_PaUtil_GroupAllocateMemory$10;
+              signed int return_value_snprintf_9;
+              return_value_snprintf_9=snprintf((char *)(void *)0, (unsigned long int)0, "%s: %s (%s)", cardName, infoName, (const void *)buf);
+              len = (unsigned long int)(return_value_snprintf_9 + 1);
+              void *return_value_PaUtil_GroupAllocateMemory_10;
+              return_value_PaUtil_GroupAllocateMemory_10=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)len);
+              deviceName = (char *)return_value_PaUtil_GroupAllocateMemory_10;
               if(deviceName == ((char *)NULL))
               {
                 PaUtil_DebugPrint("Expression 'deviceName = (char *)PaUtil_GroupAllocateMemory( alsaApi->allocations, len )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1328\n");
@@ -5492,13 +5492,13 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
 
               snprintf(deviceName, len, "%s: %s (%s)", cardName, infoName, (const void *)buf);
               numDeviceNames = numDeviceNames + 1ul;
-              if(hwDevInfos == ((struct anonymous$25 *)NULL) || !(maxDeviceNames >= numDeviceNames))
+              if(hwDevInfos == ((struct anonymous_25 *)NULL) || !(maxDeviceNames >= numDeviceNames))
               {
                 maxDeviceNames = maxDeviceNames * (unsigned long int)2;
-                void *return_value_realloc$11;
-                return_value_realloc$11=realloc((void *)hwDevInfos, maxDeviceNames * sizeof(struct anonymous$25) /*32ul*/ );
-                hwDevInfos = (struct anonymous$25 *)return_value_realloc$11;
-                if(hwDevInfos == ((struct anonymous$25 *)NULL))
+                void *return_value_realloc_11;
+                return_value_realloc_11=realloc((void *)hwDevInfos, maxDeviceNames * sizeof(struct anonymous_25) /*32ul*/ );
+                hwDevInfos = (struct anonymous_25 *)return_value_realloc_11;
+                if(hwDevInfos == ((struct anonymous_25 *)NULL))
                 {
                   PaUtil_DebugPrint("Expression 'hwDevInfos = (HwDevInfo *) realloc( hwDevInfos, maxDeviceNames * sizeof (HwDevInfo) )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1336\n");
                   result = -9992;
@@ -5531,17 +5531,17 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
 
   }
 
-  unsigned long int return_value_pthread_self$12;
-  signed int return_value_pthread_equal$13;
+  unsigned long int return_value_pthread_self_12;
+  signed int return_value_pthread_equal_13;
   if(*alsa_snd_config == ((struct _snd_config *)NULL))
   {
     signed int __pa_unsure_error_id;
     __pa_unsure_error_id=alsa_snd_config_update();
     if(!(__pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$12=pthread_self();
-      return_value_pthread_equal$13=pthread_equal(return_value_pthread_self$12, paUnixMainThread);
-      if(!(return_value_pthread_equal$13 == 0))
+      return_value_pthread_self_12=pthread_self();
+      return_value_pthread_equal_13=pthread_equal(return_value_pthread_self_12, paUnixMainThread);
+      if(!(return_value_pthread_equal_13 == 0))
       {
         const char *return_value_7;
         return_value_7=alsa_snd_strerror(__pa_unsure_error_id);
@@ -5557,46 +5557,46 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
   /* assertion *alsa_snd_config */
   assert(*alsa_snd_config != ((struct _snd_config *)NULL));
   res=alsa_snd_config_search(*alsa_snd_config, "pcm", &topNode);
-  unsigned long int return_value_pthread_self$14;
-  signed int return_value_pthread_equal$15;
-  unsigned long int return_value_pthread_self$16;
-  signed int return_value_pthread_equal$17;
-  unsigned long int return_value_pthread_self$18;
-  signed int return_value_pthread_equal$19;
+  unsigned long int return_value_pthread_self_14;
+  signed int return_value_pthread_equal_15;
+  unsigned long int return_value_pthread_self_16;
+  signed int return_value_pthread_equal_17;
+  unsigned long int return_value_pthread_self_18;
+  signed int return_value_pthread_equal_19;
   if(res >= 0)
   {
-    struct _snd_config_iterator *BuildDeviceList$$1$$6$$i;
+    struct _snd_config_iterator *BuildDeviceList__1__6__i;
     struct _snd_config_iterator *next;
-    BuildDeviceList$$1$$6$$i=alsa_snd_config_iterator_first(topNode);
-    next=alsa_snd_config_iterator_next(BuildDeviceList$$1$$6$$i);
+    BuildDeviceList__1__6__i=alsa_snd_config_iterator_first(topNode);
+    next=alsa_snd_config_iterator_next(BuildDeviceList__1__6__i);
     struct _snd_config_iterator *return_value_8;
     return_value_8=alsa_snd_config_iterator_end(topNode);
-    if(!(BuildDeviceList$$1$$6$$i == return_value_8))
+    if(!(BuildDeviceList__1__6__i == return_value_8))
     {
       const char *tpStr = "unknown";
       const char *idStr = (const char *)(void *)0;
       signed int err = 0;
-      char *BuildDeviceList$$1$$6$$1$$1$$alsaDeviceName;
-      char *BuildDeviceList$$1$$6$$1$$1$$deviceName;
-      const struct anonymous$25 *predefined = (const struct anonymous$25 *)(void *)0;
+      char *BuildDeviceList__1__6__1__1__alsaDeviceName;
+      char *BuildDeviceList__1__6__1__1__deviceName;
+      const struct anonymous_25 *predefined = (const struct anonymous_25 *)(void *)0;
       struct _snd_config *n;
-      n=alsa_snd_config_iterator_entry(BuildDeviceList$$1$$6$$i);
+      n=alsa_snd_config_iterator_entry(BuildDeviceList__1__6__i);
       struct _snd_config *tp = (struct _snd_config *)(void *)0;
       err=alsa_snd_config_search(n, "type", &tp);
       if(!(err >= 0))
       {
         if(!(err == -2))
         {
-          signed int BuildDeviceList$$1$$6$$1$$1$$1$$1$$1$$__pa_unsure_error_id = err;
-          if(!(BuildDeviceList$$1$$6$$1$$1$$1$$1$$1$$__pa_unsure_error_id >= 0))
+          signed int BuildDeviceList__1__6__1__1__1__1__1____pa_unsure_error_id = err;
+          if(!(BuildDeviceList__1__6__1__1__1__1__1____pa_unsure_error_id >= 0))
           {
-            return_value_pthread_self$14=pthread_self();
-            return_value_pthread_equal$15=pthread_equal(return_value_pthread_self$14, paUnixMainThread);
-            if(!(return_value_pthread_equal$15 == 0))
+            return_value_pthread_self_14=pthread_self();
+            return_value_pthread_equal_15=pthread_equal(return_value_pthread_self_14, paUnixMainThread);
+            if(!(return_value_pthread_equal_15 == 0))
             {
               const char *return_value_9;
-              return_value_9=alsa_snd_strerror(BuildDeviceList$$1$$6$$1$$1$$1$$1$$1$$__pa_unsure_error_id);
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)BuildDeviceList$$1$$6$$1$$1$$1$$1$$1$$__pa_unsure_error_id, return_value_9);
+              return_value_9=alsa_snd_strerror(BuildDeviceList__1__6__1__1__1__1__1____pa_unsure_error_id);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)BuildDeviceList__1__6__1__1__1__1__1____pa_unsure_error_id, return_value_9);
             }
 
             PaUtil_DebugPrint("Expression 'err' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1375\n");
@@ -5609,17 +5609,17 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
 
       else
       {
-        signed int BuildDeviceList$$1$$6$$1$$1$$2$$1$$__pa_unsure_error_id;
-        BuildDeviceList$$1$$6$$1$$1$$2$$1$$__pa_unsure_error_id=alsa_snd_config_get_string(tp, &tpStr);
-        if(!(BuildDeviceList$$1$$6$$1$$1$$2$$1$$__pa_unsure_error_id >= 0))
+        signed int BuildDeviceList__1__6__1__1__2__1____pa_unsure_error_id;
+        BuildDeviceList__1__6__1__1__2__1____pa_unsure_error_id=alsa_snd_config_get_string(tp, &tpStr);
+        if(!(BuildDeviceList__1__6__1__1__2__1____pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$16=pthread_self();
-          return_value_pthread_equal$17=pthread_equal(return_value_pthread_self$16, paUnixMainThread);
-          if(!(return_value_pthread_equal$17 == 0))
+          return_value_pthread_self_16=pthread_self();
+          return_value_pthread_equal_17=pthread_equal(return_value_pthread_self_16, paUnixMainThread);
+          if(!(return_value_pthread_equal_17 == 0))
           {
             const char *return_value_10;
-            return_value_10=alsa_snd_strerror(BuildDeviceList$$1$$6$$1$$1$$2$$1$$__pa_unsure_error_id);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)BuildDeviceList$$1$$6$$1$$1$$2$$1$$__pa_unsure_error_id, return_value_10);
+            return_value_10=alsa_snd_strerror(BuildDeviceList__1__6__1__1__2__1____pa_unsure_error_id);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)BuildDeviceList__1__6__1__1__2__1____pa_unsure_error_id, return_value_10);
           }
 
           PaUtil_DebugPrint("Expression 'alsa_snd_config_get_string( tp, &tpStr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1380\n");
@@ -5627,59 +5627,59 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
         }
 
       }
-      signed int BuildDeviceList$$1$$6$$1$$1$$3$$__pa_unsure_error_id;
-      BuildDeviceList$$1$$6$$1$$1$$3$$__pa_unsure_error_id=alsa_snd_config_get_id(n, &idStr);
-      if(!(BuildDeviceList$$1$$6$$1$$1$$3$$__pa_unsure_error_id >= 0))
+      signed int BuildDeviceList__1__6__1__1__3____pa_unsure_error_id;
+      BuildDeviceList__1__6__1__1__3____pa_unsure_error_id=alsa_snd_config_get_id(n, &idStr);
+      if(!(BuildDeviceList__1__6__1__1__3____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$18=pthread_self();
-        return_value_pthread_equal$19=pthread_equal(return_value_pthread_self$18, paUnixMainThread);
-        if(!(return_value_pthread_equal$19 == 0))
+        return_value_pthread_self_18=pthread_self();
+        return_value_pthread_equal_19=pthread_equal(return_value_pthread_self_18, paUnixMainThread);
+        if(!(return_value_pthread_equal_19 == 0))
         {
           const char *return_value_11;
-          return_value_11=alsa_snd_strerror(BuildDeviceList$$1$$6$$1$$1$$3$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)BuildDeviceList$$1$$6$$1$$1$$3$$__pa_unsure_error_id, return_value_11);
+          return_value_11=alsa_snd_strerror(BuildDeviceList__1__6__1__1__3____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)BuildDeviceList__1__6__1__1__3____pa_unsure_error_id, return_value_11);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_config_get_id( n, &idStr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1382\n");
         result = -9999;
       }
 
-      signed int return_value_IgnorePlugin$20;
-      return_value_IgnorePlugin$20=IgnorePlugin(idStr);
-      if(return_value_IgnorePlugin$20 == 0)
+      signed int return_value_IgnorePlugin_20;
+      return_value_IgnorePlugin_20=IgnorePlugin(idStr);
+      if(return_value_IgnorePlugin_20 == 0)
       {
-        unsigned long int return_value_strlen$21;
-        return_value_strlen$21=strlen(idStr);
-        void *return_value_PaUtil_GroupAllocateMemory$22;
-        return_value_PaUtil_GroupAllocateMemory$22=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(return_value_strlen$21 + (unsigned long int)6));
-        BuildDeviceList$$1$$6$$1$$1$$alsaDeviceName = (char *)return_value_PaUtil_GroupAllocateMemory$22;
-        if(BuildDeviceList$$1$$6$$1$$1$$alsaDeviceName == ((char *)NULL))
+        unsigned long int return_value_strlen_21;
+        return_value_strlen_21=strlen(idStr);
+        void *return_value_PaUtil_GroupAllocateMemory_22;
+        return_value_PaUtil_GroupAllocateMemory_22=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(return_value_strlen_21 + (unsigned long int)6));
+        BuildDeviceList__1__6__1__1__alsaDeviceName = (char *)return_value_PaUtil_GroupAllocateMemory_22;
+        if(BuildDeviceList__1__6__1__1__alsaDeviceName == ((char *)NULL))
         {
           PaUtil_DebugPrint("Expression 'alsaDeviceName = (char*)PaUtil_GroupAllocateMemory( alsaApi->allocations, strlen(idStr) + 6 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1391\n");
           result = -9992;
         }
 
-        strcpy(BuildDeviceList$$1$$6$$1$$1$$alsaDeviceName, idStr);
-        unsigned long int return_value_strlen$23;
-        return_value_strlen$23=strlen(idStr);
-        void *return_value_PaUtil_GroupAllocateMemory$24;
-        return_value_PaUtil_GroupAllocateMemory$24=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(return_value_strlen$23 + (unsigned long int)1));
-        BuildDeviceList$$1$$6$$1$$1$$deviceName = (char *)return_value_PaUtil_GroupAllocateMemory$24;
-        if(BuildDeviceList$$1$$6$$1$$1$$deviceName == ((char *)NULL))
+        strcpy(BuildDeviceList__1__6__1__1__alsaDeviceName, idStr);
+        unsigned long int return_value_strlen_23;
+        return_value_strlen_23=strlen(idStr);
+        void *return_value_PaUtil_GroupAllocateMemory_24;
+        return_value_PaUtil_GroupAllocateMemory_24=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(return_value_strlen_23 + (unsigned long int)1));
+        BuildDeviceList__1__6__1__1__deviceName = (char *)return_value_PaUtil_GroupAllocateMemory_24;
+        if(BuildDeviceList__1__6__1__1__deviceName == ((char *)NULL))
         {
           PaUtil_DebugPrint("Expression 'deviceName = (char*)PaUtil_GroupAllocateMemory( alsaApi->allocations, strlen(idStr) + 1 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1394\n");
           result = -9992;
         }
 
-        strcpy(BuildDeviceList$$1$$6$$1$$1$$deviceName, idStr);
+        strcpy(BuildDeviceList__1__6__1__1__deviceName, idStr);
         numDeviceNames = numDeviceNames + 1ul;
-        if(hwDevInfos == ((struct anonymous$25 *)NULL) || !(maxDeviceNames >= numDeviceNames))
+        if(hwDevInfos == ((struct anonymous_25 *)NULL) || !(maxDeviceNames >= numDeviceNames))
         {
           maxDeviceNames = maxDeviceNames * (unsigned long int)2;
-          void *return_value_realloc$25;
-          return_value_realloc$25=realloc((void *)hwDevInfos, maxDeviceNames * sizeof(struct anonymous$25) /*32ul*/ );
-          hwDevInfos = (struct anonymous$25 *)return_value_realloc$25;
-          if(hwDevInfos == ((struct anonymous$25 *)NULL))
+          void *return_value_realloc_25;
+          return_value_realloc_25=realloc((void *)hwDevInfos, maxDeviceNames * sizeof(struct anonymous_25) /*32ul*/ );
+          hwDevInfos = (struct anonymous_25 *)return_value_realloc_25;
+          if(hwDevInfos == ((struct anonymous_25 *)NULL))
           {
             PaUtil_DebugPrint("Expression 'hwDevInfos = (HwDevInfo *) realloc( hwDevInfos, maxDeviceNames * sizeof (HwDevInfo) )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1402\n");
             result = -9992;
@@ -5687,11 +5687,11 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
 
         }
 
-        predefined=FindDeviceName(BuildDeviceList$$1$$6$$1$$1$$alsaDeviceName);
-        (hwDevInfos + (signed long int)(numDeviceNames - (unsigned long int)1))->alsaName = BuildDeviceList$$1$$6$$1$$1$$alsaDeviceName;
-        (hwDevInfos + (signed long int)(numDeviceNames - (unsigned long int)1))->name = BuildDeviceList$$1$$6$$1$$1$$deviceName;
+        predefined=FindDeviceName(BuildDeviceList__1__6__1__1__alsaDeviceName);
+        (hwDevInfos + (signed long int)(numDeviceNames - (unsigned long int)1))->alsaName = BuildDeviceList__1__6__1__1__alsaDeviceName;
+        (hwDevInfos + (signed long int)(numDeviceNames - (unsigned long int)1))->name = BuildDeviceList__1__6__1__1__deviceName;
         (hwDevInfos + (signed long int)(numDeviceNames - (unsigned long int)1))->isPlug = 1;
-        if(!(predefined == ((const struct anonymous$25 *)NULL)))
+        if(!(predefined == ((const struct anonymous_25 *)NULL)))
         {
           (hwDevInfos + (signed long int)(numDeviceNames - (unsigned long int)1))->hasPlayback = predefined->hasPlayback;
           (hwDevInfos + (signed long int)(numDeviceNames - (unsigned long int)1))->hasCapture = predefined->hasCapture;
@@ -5704,18 +5704,18 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
         }
       }
 
-      BuildDeviceList$$1$$6$$i = next;
-      next=alsa_snd_config_iterator_next(BuildDeviceList$$1$$6$$i);
+      BuildDeviceList__1__6__i = next;
+      next=alsa_snd_config_iterator_next(BuildDeviceList__1__6__i);
     }
 
   }
 
-  void *return_value_PaUtil_GroupAllocateMemory$26;
-  return_value_PaUtil_GroupAllocateMemory$26=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * numDeviceNames));
-  baseApi->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory$26;
-  _Bool tmp_if_expr$30;
-  signed int return_value_strcmp$29;
-  signed int return_value_strcmp$31;
+  void *return_value_PaUtil_GroupAllocateMemory_26;
+  return_value_PaUtil_GroupAllocateMemory_26=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * numDeviceNames));
+  baseApi->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory_26;
+  _Bool tmp_if_expr_30;
+  signed int return_value_strcmp_29;
+  signed int return_value_strcmp_31;
   if(baseApi->deviceInfos == ((struct PaDeviceInfo **)NULL))
   {
     PaUtil_DebugPrint("Expression 'baseApi->deviceInfos = (PaDeviceInfo**)PaUtil_GroupAllocateMemory( alsaApi->allocations, sizeof(PaDeviceInfo*) * (numDeviceNames) )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1428\n");
@@ -5724,9 +5724,9 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
 
   else
   {
-    void *return_value_PaUtil_GroupAllocateMemory$27;
-    return_value_PaUtil_GroupAllocateMemory$27=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(sizeof(struct PaAlsaDeviceInfo) /*96ul*/  * numDeviceNames));
-    deviceInfoArray = (struct PaAlsaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory$27;
+    void *return_value_PaUtil_GroupAllocateMemory_27;
+    return_value_PaUtil_GroupAllocateMemory_27=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)(sizeof(struct PaAlsaDeviceInfo) /*96ul*/  * numDeviceNames));
+    deviceInfoArray = (struct PaAlsaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory_27;
     if(deviceInfoArray == ((struct PaAlsaDeviceInfo *)NULL))
     {
       PaUtil_DebugPrint("Expression 'deviceInfoArray = (PaAlsaDeviceInfo*)PaUtil_GroupAllocateMemory( alsaApi->allocations, sizeof(PaAlsaDeviceInfo) * numDeviceNames )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1432\n");
@@ -5740,18 +5740,18 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
       if(!(i >= numDeviceNames))
       {
         struct PaAlsaDeviceInfo *devInfo = &deviceInfoArray[(signed long int)i];
-        struct anonymous$25 *hwInfo = &hwDevInfos[(signed long int)i];
-        signed int return_value_strcmp$28;
-        return_value_strcmp$28=strcmp(hwInfo->name, "dmix");
-        if(return_value_strcmp$28 == 0)
-          tmp_if_expr$30 = (_Bool)1;
+        struct anonymous_25 *hwInfo = &hwDevInfos[(signed long int)i];
+        signed int return_value_strcmp_28;
+        return_value_strcmp_28=strcmp(hwInfo->name, "dmix");
+        if(return_value_strcmp_28 == 0)
+          tmp_if_expr_30 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$29=strcmp(hwInfo->name, "default");
-          tmp_if_expr$30 = !(return_value_strcmp$29 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_29=strcmp(hwInfo->name, "default");
+          tmp_if_expr_30 = !(return_value_strcmp_29 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$30)
+        if(!tmp_if_expr_30)
         {
           paUtilErr_=FillInDevInfo(alsaApi, hwInfo, blocking, devInfo, &devIdx);
           if(!(paUtilErr_ >= 0))
@@ -5770,16 +5770,16 @@ static signed int BuildDeviceList(struct PaAlsaHostApiRepresentation *alsaApi)
       i = (unsigned long int)0;
       if(!(i >= numDeviceNames))
       {
-        struct PaAlsaDeviceInfo *BuildDeviceList$$1$$10$$1$$devInfo = &deviceInfoArray[(signed long int)i];
-        struct anonymous$25 *BuildDeviceList$$1$$10$$1$$hwInfo = &hwDevInfos[(signed long int)i];
-        signed int return_value_strcmp$32;
-        return_value_strcmp$32=strcmp(BuildDeviceList$$1$$10$$1$$hwInfo->name, "dmix");
-        if(!(return_value_strcmp$32 == 0))
-          return_value_strcmp$31=strcmp(BuildDeviceList$$1$$10$$1$$hwInfo->name, "default");
+        struct PaAlsaDeviceInfo *BuildDeviceList__1__10__1__devInfo = &deviceInfoArray[(signed long int)i];
+        struct anonymous_25 *BuildDeviceList__1__10__1__hwInfo = &hwDevInfos[(signed long int)i];
+        signed int return_value_strcmp_32;
+        return_value_strcmp_32=strcmp(BuildDeviceList__1__10__1__hwInfo->name, "dmix");
+        if(!(return_value_strcmp_32 == 0))
+          return_value_strcmp_31=strcmp(BuildDeviceList__1__10__1__hwInfo->name, "default");
 
         else
         {
-          paUtilErr_=FillInDevInfo(alsaApi, BuildDeviceList$$1$$10$$1$$hwInfo, blocking, BuildDeviceList$$1$$10$$1$$devInfo, &devIdx);
+          paUtilErr_=FillInDevInfo(alsaApi, BuildDeviceList__1__10__1__hwInfo, blocking, BuildDeviceList__1__10__1__devInfo, &devIdx);
           if(!(paUtilErr_ >= 0))
           {
             PaUtil_DebugPrint("Expression 'FillInDevInfo( alsaApi, hwInfo, blocking, devInfo, &devIdx )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1465\n");
@@ -5803,18 +5803,18 @@ error:
   ;
 }
 
-// BuildDeviceList$link1
+// BuildDeviceList_link1
 // file src/hostapi/jack/pa_jack.c line 459
-static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
+static signed int BuildDeviceList_link1(struct anonymous_4 *jackApi)
 {
-  signed int result$link1 = 0;
+  signed int result_link1 = 0;
   struct PaUtilHostApiRepresentation *commonApi = &jackApi->commonHostApiRep;
   const char **jack_ports = (const char **)(void *)0;
   char **client_names = (char **)(void *)0;
   char *regex_pattern = (char *)(void *)0;
   signed int port_index;
   signed int client_index;
-  signed int i$link1;
+  signed int i_link1;
   double globalSampleRate;
   struct re_pattern_buffer port_regex;
   unsigned long int numClients = (unsigned long int)0;
@@ -5832,30 +5832,30 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
   }
   while((_Bool)0);
   PaUtil_FreeAllAllocations(jackApi->deviceInfoMemory);
-  signed int return_value_jack_client_name_size$1;
-  return_value_jack_client_name_size$1=jack_client_name_size();
-  void *return_value_PaUtil_GroupAllocateMemory$2;
-  return_value_PaUtil_GroupAllocateMemory$2=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(return_value_jack_client_name_size$1 + 3));
-  regex_pattern = (char *)return_value_PaUtil_GroupAllocateMemory$2;
-  signed int return_value_jack_client_name_size$3;
-  return_value_jack_client_name_size$3=jack_client_name_size();
-  void *return_value_PaUtil_GroupAllocateMemory$4;
-  return_value_PaUtil_GroupAllocateMemory$4=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)return_value_jack_client_name_size$3);
-  tmp_client_name = (char *)return_value_PaUtil_GroupAllocateMemory$4;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_pthread_self$5;
+  signed int return_value_jack_client_name_size_1;
+  return_value_jack_client_name_size_1=jack_client_name_size();
+  void *return_value_PaUtil_GroupAllocateMemory_2;
+  return_value_PaUtil_GroupAllocateMemory_2=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(return_value_jack_client_name_size_1 + 3));
+  regex_pattern = (char *)return_value_PaUtil_GroupAllocateMemory_2;
+  signed int return_value_jack_client_name_size_3;
+  return_value_jack_client_name_size_3=jack_client_name_size();
+  void *return_value_PaUtil_GroupAllocateMemory_4;
+  return_value_PaUtil_GroupAllocateMemory_4=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)return_value_jack_client_name_size_3);
+  tmp_client_name = (char *)return_value_PaUtil_GroupAllocateMemory_4;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_pthread_self_5;
   do
   {
     jack_ports=jack_get_ports(jackApi->jack_client, "", "audio", (unsigned long int)0);
     if(!(jack_ports == ((const char **)NULL)))
-      tmp_if_expr$6 = jack_ports[(signed long int)0] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = jack_ports[(signed long int)0] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(!tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(!tmp_if_expr_6)
     {
       PaUtil_DebugPrint("Expression '(jack_ports = jack_get_ports( jackApi->jack_client, \"\", JACK_PORT_TYPE_FILTER, 0 )) && jack_ports[0]' failed in 'src/hostapi/jack/pa_jack.c', line: 499\n");
-      result$link1 = 0;
+      result_link1 = 0;
       goto error;
     }
 
@@ -5863,16 +5863,16 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
   while((_Bool)0);
   for( ; !(jack_ports[(signed long int)numPorts] == ((const char *)NULL)); numPorts = numPorts + 1ul)
     ;
-  unsigned long int return_value_pthread_self$7;
+  unsigned long int return_value_pthread_self_7;
   do
   {
-    void *return_value_PaUtil_GroupAllocateMemory$8;
-    return_value_PaUtil_GroupAllocateMemory$8=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(numPorts * sizeof(char *) /*8ul*/ ));
-    client_names = (char **)return_value_PaUtil_GroupAllocateMemory$8;
+    void *return_value_PaUtil_GroupAllocateMemory_8;
+    return_value_PaUtil_GroupAllocateMemory_8=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(numPorts * sizeof(char *) /*8ul*/ ));
+    client_names = (char **)return_value_PaUtil_GroupAllocateMemory_8;
     if(client_names == ((char **)NULL))
     {
       PaUtil_DebugPrint("Expression 'client_names = PaUtil_GroupAllocateMemory( jackApi->deviceInfoMemory, numPorts * sizeof (char *) )' failed in 'src/hostapi/jack/pa_jack.c', line: 505\n");
-      result$link1 = -9992;
+      result_link1 = -9992;
       goto error;
     }
 
@@ -5880,38 +5880,38 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
   while((_Bool)0);
   numClients = (unsigned long int)0;
   port_index = 0;
-  unsigned long int return_value_pthread_self$9;
-  unsigned long int return_value_pthread_self$13;
+  unsigned long int return_value_pthread_self_9;
+  unsigned long int return_value_pthread_self_13;
   for( ; !(jack_ports[(signed long int)port_index] == ((const char *)NULL)); port_index = port_index + 1)
   {
     signed int client_seen = 0;
-    struct anonymous$0 match_info;
+    struct anonymous_0 match_info;
     const char *port = jack_ports[(signed long int)port_index];
     do
     {
-      signed int return_value_regexec$10;
-      return_value_regexec$10=regexec(&port_regex, port, (unsigned long int)1, &match_info, 0);
-      if(!(return_value_regexec$10 == 0))
+      signed int return_value_regexec_10;
+      return_value_regexec_10=regexec(&port_regex, port, (unsigned long int)1, &match_info, 0);
+      if(!(return_value_regexec_10 == 0))
       {
         PaUtil_DebugPrint("Expression '!regexec( &port_regex, port, 1, &match_info, 0 )' failed in 'src/hostapi/jack/pa_jack.c', line: 516\n");
-        result$link1 = -9986;
+        result_link1 = -9986;
         goto error;
       }
 
     }
     while((_Bool)0);
-    signed int return_value_jack_client_name_size$11;
-    return_value_jack_client_name_size$11=jack_client_name_size();
+    signed int return_value_jack_client_name_size_11;
+    return_value_jack_client_name_size_11=jack_client_name_size();
     /* assertion match_info.rm_eo - match_info.rm_so < jack_client_name_size() */
-    assert(match_info.rm_eo - match_info.rm_so < return_value_jack_client_name_size$11);
+    assert(match_info.rm_eo - match_info.rm_so < return_value_jack_client_name_size_11);
     memcpy((void *)tmp_client_name, (const void *)(port + (signed long int)match_info.rm_so), (unsigned long int)(match_info.rm_eo - match_info.rm_so));
     tmp_client_name[(signed long int)(match_info.rm_eo - match_info.rm_so)] = (char)0;
-    i$link1 = 0;
-    for( ; !((unsigned long int)i$link1 >= numClients); i$link1 = i$link1 + 1)
+    i_link1 = 0;
+    for( ; !((unsigned long int)i_link1 >= numClients); i_link1 = i_link1 + 1)
     {
-      signed int return_value_strcmp$12;
-      return_value_strcmp$12=strcmp(tmp_client_name, client_names[(signed long int)i$link1]);
-      if(return_value_strcmp$12 == 0)
+      signed int return_value_strcmp_12;
+      return_value_strcmp_12=strcmp(tmp_client_name, client_names[(signed long int)i_link1]);
+      if(return_value_strcmp_12 == 0)
         client_seen = 1;
 
     }
@@ -5919,23 +5919,23 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
     {
       do
       {
-        unsigned long int return_value_strlen$14;
-        return_value_strlen$14=strlen(tmp_client_name);
-        void *return_value_PaUtil_GroupAllocateMemory$15;
-        return_value_PaUtil_GroupAllocateMemory$15=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(return_value_strlen$14 + (unsigned long int)1));
-        client_names[(signed long int)numClients] = (char *)return_value_PaUtil_GroupAllocateMemory$15;
+        unsigned long int return_value_strlen_14;
+        return_value_strlen_14=strlen(tmp_client_name);
+        void *return_value_PaUtil_GroupAllocateMemory_15;
+        return_value_PaUtil_GroupAllocateMemory_15=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(return_value_strlen_14 + (unsigned long int)1));
+        client_names[(signed long int)numClients] = (char *)return_value_PaUtil_GroupAllocateMemory_15;
         if(client_names[(signed long int)numClients] == ((char *)NULL))
         {
           PaUtil_DebugPrint("Expression 'client_names[numClients] = (char*)PaUtil_GroupAllocateMemory( jackApi->deviceInfoMemory, strlen(tmp_client_name) + 1)' failed in 'src/hostapi/jack/pa_jack.c', line: 533\n");
-          result$link1 = -9992;
+          result_link1 = -9992;
           goto error;
         }
 
       }
       while((_Bool)0);
-      signed int return_value_strcmp$16;
-      return_value_strcmp$16=strcmp("alsa_pcm", tmp_client_name);
-      if(return_value_strcmp$16 == 0 && numClients >= 1ul)
+      signed int return_value_strcmp_16;
+      return_value_strcmp_16=strcmp("alsa_pcm", tmp_client_name);
+      if(return_value_strcmp_16 == 0 && numClients >= 1ul)
       {
         strcpy(client_names[(signed long int)numClients], client_names[(signed long int)0]);
         strcpy(client_names[(signed long int)0], tmp_client_name);
@@ -5947,19 +5947,19 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
     }
 
   }
-  unsigned int return_value_jack_get_sample_rate$17;
-  return_value_jack_get_sample_rate$17=jack_get_sample_rate(jackApi->jack_client);
-  globalSampleRate = (double)return_value_jack_get_sample_rate$17;
-  unsigned long int return_value_pthread_self$18$link1;
+  unsigned int return_value_jack_get_sample_rate_17;
+  return_value_jack_get_sample_rate_17=jack_get_sample_rate(jackApi->jack_client);
+  globalSampleRate = (double)return_value_jack_get_sample_rate_17;
+  unsigned long int return_value_pthread_self_18_link1;
   do
   {
-    void *return_value_PaUtil_GroupAllocateMemory$19;
-    return_value_PaUtil_GroupAllocateMemory$19=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * numClients));
-    commonApi->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory$19;
+    void *return_value_PaUtil_GroupAllocateMemory_19;
+    return_value_PaUtil_GroupAllocateMemory_19=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * numClients));
+    commonApi->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory_19;
     if(commonApi->deviceInfos == ((struct PaDeviceInfo **)NULL))
     {
       PaUtil_DebugPrint("Expression 'commonApi->deviceInfos = (PaDeviceInfo**)PaUtil_GroupAllocateMemory( jackApi->deviceInfoMemory, sizeof(PaDeviceInfo*) * numClients )' failed in 'src/hostapi/jack/pa_jack.c', line: 560\n");
-      result$link1 = -9992;
+      result_link1 = -9992;
       goto error;
     }
 
@@ -5968,21 +5968,21 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
   /* assertion commonApi->info.deviceCount == 0 */
   assert(commonApi->info.deviceCount == 0);
   client_index = 0;
-  unsigned long int return_value_pthread_self$20;
-  unsigned long int return_value_pthread_self$22;
+  unsigned long int return_value_pthread_self_20;
+  unsigned long int return_value_pthread_self_22;
   for( ; !((unsigned long int)client_index >= numClients); client_index = client_index + 1)
   {
     struct PaDeviceInfo *curDevInfo;
     const char **clientPorts = (const char **)(void *)0;
     do
     {
-      void *return_value_PaUtil_GroupAllocateMemory$21;
-      return_value_PaUtil_GroupAllocateMemory$21=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)sizeof(struct PaDeviceInfo) /*72ul*/ );
-      curDevInfo = (struct PaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory$21;
+      void *return_value_PaUtil_GroupAllocateMemory_21;
+      return_value_PaUtil_GroupAllocateMemory_21=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)sizeof(struct PaDeviceInfo) /*72ul*/ );
+      curDevInfo = (struct PaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory_21;
       if(curDevInfo == ((struct PaDeviceInfo *)NULL))
       {
         PaUtil_DebugPrint("Expression 'curDevInfo = (PaDeviceInfo*)PaUtil_GroupAllocateMemory( jackApi->deviceInfoMemory, sizeof(PaDeviceInfo) )' failed in 'src/hostapi/jack/pa_jack.c', line: 571\n");
-        result$link1 = -9992;
+        result_link1 = -9992;
         goto error;
       }
 
@@ -5990,15 +5990,15 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
     while((_Bool)0);
     do
     {
-      unsigned long int return_value_strlen$23$link1;
-      return_value_strlen$23$link1=strlen(client_names[(signed long int)client_index]);
-      void *return_value_PaUtil_GroupAllocateMemory$24$link1;
-      return_value_PaUtil_GroupAllocateMemory$24$link1=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(return_value_strlen$23$link1 + (unsigned long int)1));
-      curDevInfo->name = (char *)return_value_PaUtil_GroupAllocateMemory$24$link1;
+      unsigned long int return_value_strlen_23_link1;
+      return_value_strlen_23_link1=strlen(client_names[(signed long int)client_index]);
+      void *return_value_PaUtil_GroupAllocateMemory_24_link1;
+      return_value_PaUtil_GroupAllocateMemory_24_link1=PaUtil_GroupAllocateMemory(jackApi->deviceInfoMemory, (signed long int)(return_value_strlen_23_link1 + (unsigned long int)1));
+      curDevInfo->name = (char *)return_value_PaUtil_GroupAllocateMemory_24_link1;
       if(curDevInfo->name == ((const char *)NULL))
       {
         PaUtil_DebugPrint("Expression 'curDevInfo->name = (char*)PaUtil_GroupAllocateMemory( jackApi->deviceInfoMemory, strlen(client_names[client_index]) + 1 )' failed in 'src/hostapi/jack/pa_jack.c', line: 573\n");
-        result$link1 = -9992;
+        result_link1 = -9992;
         goto error;
       }
 
@@ -6017,12 +6017,12 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
     {
       struct _jack_port *p;
       p=jack_port_by_name(jackApi->jack_client, clientPorts[(signed long int)0]);
-      unsigned int return_value_jack_port_get_latency$25;
-      return_value_jack_port_get_latency$25=jack_port_get_latency(p);
-      curDevInfo->defaultHighInputLatency = (double)return_value_jack_port_get_latency$25 / globalSampleRate;
+      unsigned int return_value_jack_port_get_latency_25;
+      return_value_jack_port_get_latency_25=jack_port_get_latency(p);
+      curDevInfo->defaultHighInputLatency = (double)return_value_jack_port_get_latency_25 / globalSampleRate;
       curDevInfo->defaultLowInputLatency = curDevInfo->defaultHighInputLatency;
-      i$link1 = 0;
-      for( ; !(clientPorts[(signed long int)i$link1] == ((const char *)NULL)); i$link1 = i$link1 + 1)
+      i_link1 = 0;
+      for( ; !(clientPorts[(signed long int)i_link1] == ((const char *)NULL)); i_link1 = i_link1 + 1)
         curDevInfo->maxInputChannels = curDevInfo->maxInputChannels + 1;
       free((void *)clientPorts);
     }
@@ -6033,14 +6033,14 @@ static signed int BuildDeviceList$link1(struct anonymous$4 *jackApi)
     curDevInfo->defaultHighOutputLatency = 0.;
     if(!(clientPorts == ((const char **)NULL)))
     {
-      struct _jack_port *BuildDeviceList$$1$$6$$1$$4$$p;
-      BuildDeviceList$$1$$6$$1$$4$$p=jack_port_by_name(jackApi->jack_client, clientPorts[(signed long int)0]);
-      unsigned int return_value_jack_port_get_latency$26;
-      return_value_jack_port_get_latency$26=jack_port_get_latency(BuildDeviceList$$1$$6$$1$$4$$p);
-      curDevInfo->defaultHighOutputLatency = (double)return_value_jack_port_get_latency$26 / globalSampleRate;
+      struct _jack_port *BuildDeviceList__1__6__1__4__p;
+      BuildDeviceList__1__6__1__4__p=jack_port_by_name(jackApi->jack_client, clientPorts[(signed long int)0]);
+      unsigned int return_value_jack_port_get_latency_26;
+      return_value_jack_port_get_latency_26=jack_port_get_latency(BuildDeviceList__1__6__1__4__p);
+      curDevInfo->defaultHighOutputLatency = (double)return_value_jack_port_get_latency_26 / globalSampleRate;
       curDevInfo->defaultLowOutputLatency = curDevInfo->defaultHighOutputLatency;
-      i$link1 = 0;
-      for( ; !(clientPorts[(signed long int)i$link1] == ((const char *)NULL)); i$link1 = i$link1 + 1)
+      i_link1 = 0;
+      for( ; !(clientPorts[(signed long int)i_link1] == ((const char *)NULL)); i_link1 = i_link1 + 1)
         curDevInfo->maxOutputChannels = curDevInfo->maxOutputChannels + 1;
       free((void *)clientPorts);
     }
@@ -6067,43 +6067,43 @@ error:
   ;
   regfree(&port_regex);
   free((void *)jack_ports);
-  return result$link1;
+  return result_link1;
 }
 
-// BuildDeviceList$link2
+// BuildDeviceList_link2
 // file src/hostapi/oss/pa_unix_oss.c line 521
-static signed int BuildDeviceList$link2(struct anonymous$14 *ossApi)
+static signed int BuildDeviceList_link2(struct anonymous_14 *ossApi)
 {
-  signed int result$link2 = 0;
-  struct PaUtilHostApiRepresentation *commonApi$link1 = &ossApi->inheritedHostApiRep;
-  signed int i$link2;
+  signed int result_link2 = 0;
+  struct PaUtilHostApiRepresentation *commonApi_link1 = &ossApi->inheritedHostApiRep;
+  signed int i_link2;
   signed int numDevices = 0;
   signed int maxDeviceInfos = 1;
   struct PaDeviceInfo **deviceInfos = (struct PaDeviceInfo **)(void *)0;
-  commonApi$link1->info.defaultInputDevice = (signed int)-1;
-  commonApi$link1->info.defaultOutputDevice = (signed int)-1;
-  i$link2 = 0;
-  for( ; !(i$link2 >= 100); i$link2 = i$link2 + 1)
+  commonApi_link1->info.defaultInputDevice = (signed int)-1;
+  commonApi_link1->info.defaultOutputDevice = (signed int)-1;
+  i_link2 = 0;
+  for( ; !(i_link2 >= 100); i_link2 = i_link2 + 1)
   {
     char deviceName[32l];
     struct PaDeviceInfo *deviceInfo;
     signed int testResult;
-    if(i$link2 == 0)
+    if(i_link2 == 0)
       snprintf(deviceName, sizeof(char [32l]) /*32ul*/ , "%s", (const void *)"/dev/dsp");
 
     else
-      snprintf(deviceName, sizeof(char [32l]) /*32ul*/ , "%s%d", (const void *)"/dev/dsp", i$link2);
+      snprintf(deviceName, sizeof(char [32l]) /*32ul*/ , "%s%d", (const void *)"/dev/dsp", i_link2);
     testResult=QueryDevice(deviceName, ossApi, &deviceInfo);
     if(!(testResult == 0))
     {
       if(!(testResult == -9985))
         do
         {
-          paUtilErr_$link1 = testResult;
-          if(!(paUtilErr_$link1 >= 0))
+          paUtilErr__link1 = testResult;
+          if(!(paUtilErr__link1 >= 0))
           {
             PaUtil_DebugPrint("Expression 'testResult' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 553\n");
-            result$link2 = paUtilErr_$link1;
+            result_link2 = paUtilErr__link1;
             goto error;
           }
 
@@ -6120,13 +6120,13 @@ static signed int BuildDeviceList$link2(struct anonymous$14 *ossApi)
         maxDeviceInfos = maxDeviceInfos * 2;
         do
         {
-          void *return_value_realloc$1;
-          return_value_realloc$1=realloc((void *)deviceInfos, (unsigned long int)maxDeviceInfos * sizeof(struct PaDeviceInfo *) /*8ul*/ );
-          deviceInfos = (struct PaDeviceInfo **)return_value_realloc$1;
+          void *return_value_realloc_1;
+          return_value_realloc_1=realloc((void *)deviceInfos, (unsigned long int)maxDeviceInfos * sizeof(struct PaDeviceInfo *) /*8ul*/ );
+          deviceInfos = (struct PaDeviceInfo **)return_value_realloc_1;
           if(deviceInfos == ((struct PaDeviceInfo **)NULL))
           {
             PaUtil_DebugPrint("Expression 'deviceInfos = (PaDeviceInfo **) realloc( deviceInfos, maxDeviceInfos * sizeof (PaDeviceInfo *) )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 563\n");
-            result$link2 = -9992;
+            result_link2 = -9992;
             goto error;
           }
 
@@ -6136,32 +6136,32 @@ static signed int BuildDeviceList$link2(struct anonymous$14 *ossApi)
 
       signed int devIdx = numDevices - 1;
       deviceInfos[(signed long int)devIdx] = deviceInfo;
-      if(commonApi$link1->info.defaultInputDevice == -1)
+      if(commonApi_link1->info.defaultInputDevice == -1)
       {
         if(deviceInfo->maxInputChannels >= 1)
-          commonApi$link1->info.defaultInputDevice = devIdx;
+          commonApi_link1->info.defaultInputDevice = devIdx;
 
       }
 
-      if(commonApi$link1->info.defaultOutputDevice == -1)
+      if(commonApi_link1->info.defaultOutputDevice == -1)
       {
         if(deviceInfo->maxOutputChannels >= 1)
-          commonApi$link1->info.defaultOutputDevice = devIdx;
+          commonApi_link1->info.defaultOutputDevice = devIdx;
 
       }
 
     }
   }
-  void *return_value_PaUtil_GroupAllocateMemory$2$link1;
-  return_value_PaUtil_GroupAllocateMemory$2$link1=PaUtil_GroupAllocateMemory(ossApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * (unsigned long int)numDevices));
-  commonApi$link1->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory$2$link1;
-  memcpy((void *)commonApi$link1->deviceInfos, (const void *)deviceInfos, (unsigned long int)numDevices * sizeof(struct PaDeviceInfo *) /*8ul*/ );
-  commonApi$link1->info.deviceCount = numDevices;
+  void *return_value_PaUtil_GroupAllocateMemory_2_link1;
+  return_value_PaUtil_GroupAllocateMemory_2_link1=PaUtil_GroupAllocateMemory(ossApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * (unsigned long int)numDevices));
+  commonApi_link1->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory_2_link1;
+  memcpy((void *)commonApi_link1->deviceInfos, (const void *)deviceInfos, (unsigned long int)numDevices * sizeof(struct PaDeviceInfo *) /*8ul*/ );
+  commonApi_link1->info.deviceCount = numDevices;
 
 error:
   ;
   free((void *)deviceInfos);
-  return result$link2;
+  return result_link2;
 }
 
 // CalcHigherLogTwo
@@ -6198,9 +6198,9 @@ static signed int CalculatePollTimeout(const struct PaAlsaStream *stream, unsign
 {
   /* assertion stream->streamRepresentation.streamInfo.sampleRate > 0.0 */
   assert(stream->streamRepresentation.streamInfo.sampleRate > 0.0);
-  double return_value_ceil$1;
-  return_value_ceil$1=ceil((double)((unsigned long int)1000 * frames) / stream->streamRepresentation.streamInfo.sampleRate);
-  return (signed int)return_value_ceil$1;
+  double return_value_ceil_1;
+  return_value_ceil_1=ceil((double)((unsigned long int)1000 * frames) / stream->streamRepresentation.streamInfo.sampleRate);
+  return (signed int)return_value_ceil_1;
 }
 
 // CalculateTimeInfo
@@ -6215,16 +6215,16 @@ static void CalculateTimeInfo(struct PaAlsaStream *stream, struct PaStreamCallba
   double playback_time = 0.;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_status_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&capture_status) = (struct _snd_pcm_status *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&capture_status) = (struct _snd_pcm_status *)return_value___builtin_alloca_1;
   memset((void *)*(&capture_status), 0, __alsa_alloca_size);
-  unsigned long int CalculateTimeInfo$$1$$2$$__alsa_alloca_size;
-  CalculateTimeInfo$$1$$2$$__alsa_alloca_size=alsa_snd_pcm_status_sizeof();
-  void *return_value___builtin_alloca$2;
-  return_value___builtin_alloca$2=__builtin_alloca(CalculateTimeInfo$$1$$2$$__alsa_alloca_size);
-  *(&playback_status) = (struct _snd_pcm_status *)return_value___builtin_alloca$2;
-  memset((void *)*(&playback_status), 0, CalculateTimeInfo$$1$$2$$__alsa_alloca_size);
+  unsigned long int CalculateTimeInfo__1__2____alsa_alloca_size;
+  CalculateTimeInfo__1__2____alsa_alloca_size=alsa_snd_pcm_status_sizeof();
+  void *return_value___builtin_alloca_2;
+  return_value___builtin_alloca_2=__builtin_alloca(CalculateTimeInfo__1__2____alsa_alloca_size);
+  *(&playback_status) = (struct _snd_pcm_status *)return_value___builtin_alloca_2;
+  memset((void *)*(&playback_status), 0, CalculateTimeInfo__1__2____alsa_alloca_size);
   if(!(stream->capture.pcm == ((struct _snd_pcm *)NULL)))
   {
     signed long int capture_delay;
@@ -6244,8 +6244,8 @@ static void CalculateTimeInfo(struct PaAlsaStream *stream, struct PaStreamCallba
     playback_time = (double)playback_timestamp.tv_sec + (double)playback_timestamp.tv_usec / 1000000.0;
     if(!(stream->capture.pcm == ((struct _snd_pcm *)NULL)))
     {
-      double return_value_fabs$3;
-      return_value_fabs$3=fabs(capture_time - playback_time);
+      double return_value_fabs_3;
+      return_value_fabs_3=fabs(capture_time - playback_time);
     }
 
     else
@@ -6269,17 +6269,17 @@ static void * CallbackThreadFunc(void *userData)
   signed int streamStarted = 0;
   /* assertion stream */
   assert(stream != ((struct PaAlsaStream *)NULL));
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_PaUtil_IsBufferProcessorOutputEmpty$6;
-  unsigned long int tmp_if_expr$8;
-  unsigned long int tmp_if_expr$9;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_PaUtil_IsBufferProcessorOutputEmpty_6;
+  unsigned long int tmp_if_expr_8;
+  unsigned long int tmp_if_expr_9;
   do
   {
-    struct anonymous$11 __cancel_buf;
+    struct anonymous_11 __cancel_buf;
     void (*__cancel_routine)(void *) = OnExit;
     void *__cancel_arg = (void *)stream;
     signed int __not_first_call;
@@ -6304,9 +6304,9 @@ static void * CallbackThreadFunc(void *userData)
           __pa_unsure_error_id=alsa_snd_pcm_prepare(stream->playback.pcm);
           if(!(__pa_unsure_error_id >= 0))
           {
-            return_value_pthread_self$1=pthread_self();
-            return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-            if(!(return_value_pthread_equal$2 == 0))
+            return_value_pthread_self_1=pthread_self();
+            return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+            if(!(return_value_pthread_equal_2 == 0))
             {
               const char *return_value;
               return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -6323,17 +6323,17 @@ static void * CallbackThreadFunc(void *userData)
         {
           if(stream->pcmsSynced == 0)
           {
-            signed int CallbackThreadFunc$$1$$1$$2$$1$$2$$__pa_unsure_error_id;
-            CallbackThreadFunc$$1$$1$$2$$1$$2$$__pa_unsure_error_id=alsa_snd_pcm_prepare(stream->capture.pcm);
-            if(!(CallbackThreadFunc$$1$$1$$2$$1$$2$$__pa_unsure_error_id >= 0))
+            signed int CallbackThreadFunc__1__1__2__1__2____pa_unsure_error_id;
+            CallbackThreadFunc__1__1__2__1__2____pa_unsure_error_id=alsa_snd_pcm_prepare(stream->capture.pcm);
+            if(!(CallbackThreadFunc__1__1__2__1__2____pa_unsure_error_id >= 0))
             {
-              return_value_pthread_self$3=pthread_self();
-              return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, paUnixMainThread);
-              if(!(return_value_pthread_equal$4 == 0))
+              return_value_pthread_self_3=pthread_self();
+              return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, paUnixMainThread);
+              if(!(return_value_pthread_equal_4 == 0))
               {
                 const char *return_value_1;
-                return_value_1=alsa_snd_strerror(CallbackThreadFunc$$1$$1$$2$$1$$2$$__pa_unsure_error_id);
-                PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)CallbackThreadFunc$$1$$1$$2$$1$$2$$__pa_unsure_error_id, return_value_1);
+                return_value_1=alsa_snd_strerror(CallbackThreadFunc__1__1__2__1__2____pa_unsure_error_id);
+                PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)CallbackThreadFunc__1__1__2__1__2____pa_unsure_error_id, return_value_1);
               }
 
               PaUtil_DebugPrint("Expression 'alsa_snd_pcm_prepare( stream->capture.pcm )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4200\n");
@@ -6396,9 +6396,9 @@ static void * CallbackThreadFunc(void *userData)
         unsigned long int framesGot;
         signed int xrun = 0;
         pthread_testcancel();
-        signed int return_value_PaUnixThread_StopRequested$5;
-        return_value_PaUnixThread_StopRequested$5=PaUnixThread_StopRequested(&stream->thread);
-        if(!(return_value_PaUnixThread_StopRequested$5 == 0))
+        signed int return_value_PaUnixThread_StopRequested_5;
+        return_value_PaUnixThread_StopRequested_5=PaUnixThread_StopRequested(&stream->thread);
+        if(!(return_value_PaUnixThread_StopRequested_5 == 0))
         {
           if(callbackResult == 0)
             callbackResult = 1;
@@ -6409,14 +6409,14 @@ static void * CallbackThreadFunc(void *userData)
         {
           stream->callbackAbort = (volatile signed int)(2 == callbackResult);
           if(!(stream->callbackAbort == 0))
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_PaUtil_IsBufferProcessorOutputEmpty$6=PaUtil_IsBufferProcessorOutputEmpty(&stream->bufferProcessor);
-            tmp_if_expr$7 = return_value_PaUtil_IsBufferProcessorOutputEmpty$6 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_PaUtil_IsBufferProcessorOutputEmpty_6=PaUtil_IsBufferProcessorOutputEmpty(&stream->bufferProcessor);
+            tmp_if_expr_7 = return_value_PaUtil_IsBufferProcessorOutputEmpty_6 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
             break;
 
         }
@@ -6477,11 +6477,11 @@ static void * CallbackThreadFunc(void *userData)
             if((signed int)stream->bufferProcessor.hostBufferSizeMode == paUtilFixedHostBufferSize)
             {
               if(framesGot >= stream->maxFramesPerHostBuffer)
-                tmp_if_expr$8 = stream->maxFramesPerHostBuffer;
+                tmp_if_expr_8 = stream->maxFramesPerHostBuffer;
 
               else
-                tmp_if_expr$8 = (unsigned long int)0;
-              framesGot = tmp_if_expr$8;
+                tmp_if_expr_8 = (unsigned long int)0;
+              framesGot = tmp_if_expr_8;
             }
 
             else
@@ -6489,11 +6489,11 @@ static void * CallbackThreadFunc(void *userData)
               /* assertion paUtilBoundedHostBufferSize == stream->bufferProcessor.hostBufferSizeMode */
               assert(paUtilBoundedHostBufferSize == (signed int)stream->bufferProcessor.hostBufferSizeMode);
               if(!(framesGot >= stream->maxFramesPerHostBuffer))
-                tmp_if_expr$9 = framesGot;
+                tmp_if_expr_9 = framesGot;
 
               else
-                tmp_if_expr$9 = stream->maxFramesPerHostBuffer;
-              framesGot = tmp_if_expr$9;
+                tmp_if_expr_9 = stream->maxFramesPerHostBuffer;
+              framesGot = tmp_if_expr_9;
             }
             do
             {
@@ -6553,9 +6553,9 @@ static void * CallbackThreadFunc(void *userData)
     signed int *pres = (signed int *)(void *)0;
     if(!(result == 0))
     {
-      void *return_value_malloc$10;
-      return_value_malloc$10=malloc(sizeof(signed int) /*4ul*/ );
-      pres = (signed int *)return_value_malloc$10;
+      void *return_value_malloc_10;
+      return_value_malloc_10=malloc(sizeof(signed int) /*4ul*/ );
+      pres = (signed int *)return_value_malloc_10;
       *pres = result;
     }
 
@@ -6595,10 +6595,10 @@ static void CleanUpStream(struct PaJackStream *stream, signed int terminateStrea
     if(!(stream->local_output_ports[(signed long int)i] == ((struct _jack_port *)NULL)))
       do
       {
-        signed int CleanUpStream$$1$$2$$1$$1$$err;
-        CleanUpStream$$1$$2$$1$$1$$err=jack_port_unregister(stream->jack_client, stream->local_output_ports[(signed long int)i]);
+        signed int CleanUpStream__1__2__1__1__err;
+        CleanUpStream__1__2__1__1__err=jack_port_unregister(stream->jack_client, stream->local_output_ports[(signed long int)i]);
         /* assertion err == 0 */
-        assert(CleanUpStream$$1$$2$$1$$1$$err == 0);
+        assert(CleanUpStream__1__2__1__1__err == 0);
       }
       while((_Bool)0);
 
@@ -6608,7 +6608,7 @@ static void CleanUpStream(struct PaJackStream *stream, signed int terminateStrea
   if(!(terminateBufferProcessor == 0))
     PaUtil_TerminateBufferProcessor(&stream->bufferProcessor);
 
-  if(!(stream->stream_memory == ((struct anonymous$13 *)NULL)))
+  if(!(stream->stream_memory == ((struct anonymous_13 *)NULL)))
   {
     PaUtil_FreeAllAllocations(stream->stream_memory);
     PaUtil_DestroyAllocationGroup(stream->stream_memory);
@@ -6637,35 +6637,35 @@ static signed int CloseStream(void *s)
   return result;
 }
 
-// CloseStream$link1
+// CloseStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 2877
-static signed int CloseStream$link1(void *s$link1)
+static signed int CloseStream_link1(void *s_link1)
 {
-  signed int result$link1 = 0;
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
-  PaUtil_TerminateBufferProcessor(&stream$link1->bufferProcessor);
-  PaUtil_TerminateStreamRepresentation(&stream$link1->streamRepresentation);
-  PaAlsaStream_Terminate(stream$link1);
-  return result$link1;
+  signed int result_link1 = 0;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
+  PaUtil_TerminateBufferProcessor(&stream_link1->bufferProcessor);
+  PaUtil_TerminateStreamRepresentation(&stream_link1->streamRepresentation);
+  PaAlsaStream_Terminate(stream_link1);
+  return result_link1;
 }
 
-// CloseStream$link2
+// CloseStream_link2
 // file src/hostapi/jack/pa_jack.c line 1330
-static signed int CloseStream$link2(void *s$link2)
+static signed int CloseStream_link2(void *s_link2)
 {
-  signed int result$link2 = 0;
-  struct PaJackStream *stream$link2 = (struct PaJackStream *)s$link2;
-  unsigned long int return_value_pthread_self$1;
+  signed int result_link2 = 0;
+  struct PaJackStream *stream_link2 = (struct PaJackStream *)s_link2;
+  unsigned long int return_value_pthread_self_1;
   do
   {
     signed int paErr;
-    paErr=RemoveStream(stream$link2);
+    paErr=RemoveStream(stream_link2);
     if(!(paErr >= 0))
     {
       if(paErr == -9999)
       {
-        return_value_pthread_self$1=pthread_self();
-        if(return_value_pthread_self$1 == mainThread_)
+        return_value_pthread_self_1=pthread_self();
+        if(return_value_pthread_self_1 == mainThread_)
         {
           const char *err = jackErr_;
           if(err == ((const char *)NULL))
@@ -6677,7 +6677,7 @@ static signed int CloseStream$link2(void *s$link2)
       }
 
       PaUtil_DebugPrint("Expression 'RemoveStream( stream )' failed in 'src/hostapi/jack/pa_jack.c', line: 1336\n");
-      result$link2 = paErr;
+      result_link2 = paErr;
       break;
     }
 
@@ -6686,33 +6686,33 @@ static signed int CloseStream$link2(void *s$link2)
 
 error:
   ;
-  CleanUpStream(stream$link2, 1, 1);
-  return result$link2;
+  CleanUpStream(stream_link2, 1, 1);
+  return result_link2;
 }
 
-// CloseStream$link3
+// CloseStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1779
-static signed int CloseStream$link3(void *s$link3)
+static signed int CloseStream_link3(void *s_link3)
 {
-  signed int result$link3 = 0;
-  struct PaOssStream *stream$link3 = (struct PaOssStream *)s$link3;
+  signed int result_link3 = 0;
+  struct PaOssStream *stream_link3 = (struct PaOssStream *)s_link3;
   /* assertion stream */
-  assert(stream$link3 != ((struct PaOssStream *)NULL));
-  PaUtil_TerminateBufferProcessor(&stream$link3->bufferProcessor);
-  PaOssStream_Terminate(stream$link3);
-  return result$link3;
+  assert(stream_link3 != ((struct PaOssStream *)NULL));
+  PaUtil_TerminateBufferProcessor(&stream_link3->bufferProcessor);
+  PaOssStream_Terminate(stream_link3);
+  return result_link3;
 }
 
 // ContinuePoll
 // file src/hostapi/alsa/pa_linux_alsa.c line 3325
-static signed int ContinuePoll(const struct PaAlsaStream *stream, enum anonymous$17 streamDir, signed int *pollTimeout, signed int *continuePoll)
+static signed int ContinuePoll(const struct PaAlsaStream *stream, enum anonymous_17 streamDir, signed int *pollTimeout, signed int *continuePoll)
 {
   signed int result = 0;
   signed long int delay;
   signed long int margin;
   signed int err;
-  const struct anonymous$23 *component = (const struct anonymous$23 *)(void *)0;
-  const struct anonymous$23 *otherComponent = (const struct anonymous$23 *)(void *)0;
+  const struct anonymous_23 *component = (const struct anonymous_23 *)(void *)0;
+  const struct anonymous_23 *otherComponent = (const struct anonymous_23 *)(void *)0;
   *continuePoll = 1;
   if((signed int)streamDir == StreamDirection_In)
   {
@@ -6726,8 +6726,8 @@ static signed int ContinuePoll(const struct PaAlsaStream *stream, enum anonymous
     otherComponent = &stream->capture;
   }
   err=alsa_snd_pcm_delay(otherComponent->pcm, &delay);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(err >= 0))
   {
     if(err == -32)
@@ -6736,9 +6736,9 @@ static signed int ContinuePoll(const struct PaAlsaStream *stream, enum anonymous
     signed int __pa_unsure_error_id = err;
     if(!(__pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-      if(!(return_value_pthread_equal$2 == 0))
+      return_value_pthread_self_1=pthread_self();
+      return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+      if(!(return_value_pthread_equal_2 == 0))
       {
         const char *return_value;
         return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -6770,7 +6770,7 @@ error:
 
 // CopyTempOutputBuffersToHostOutputBuffers
 // file src/common/pa_process.c line 1206
-static void CopyTempOutputBuffersToHostOutputBuffers(struct anonymous$7 *bp)
+static void CopyTempOutputBuffersToHostOutputBuffers(struct anonymous_7 *bp)
 {
   unsigned long int maxFramesToCopy;
   struct PaUtilChannelDescriptor *hostOutputChannels;
@@ -6779,8 +6779,8 @@ static void CopyTempOutputBuffersToHostOutputBuffers(struct anonymous$7 *bp)
   unsigned int srcSampleStrideSamples;
   unsigned int srcChannelStrideBytes;
   unsigned int i;
-  unsigned long int tmp_if_expr$1;
-  unsigned long int tmp_if_expr$2;
+  unsigned long int tmp_if_expr_1;
+  unsigned long int tmp_if_expr_2;
   for( ; bp->framesInTempOutputBuffer >= 1ul; bp->framesInTempOutputBuffer = bp->framesInTempOutputBuffer - (unsigned long int)frameCount)
   {
     if(!(bp->hostOutputFrameCount[0l] + bp->hostOutputFrameCount[1l] >= 1ul))
@@ -6791,22 +6791,22 @@ static void CopyTempOutputBuffersToHostOutputBuffers(struct anonymous$7 *bp)
     {
       hostOutputChannels = bp->hostOutputChannels[(signed long int)0];
       if(!(bp->hostOutputFrameCount[0l] >= maxFramesToCopy))
-        tmp_if_expr$1 = bp->hostOutputFrameCount[(signed long int)0];
+        tmp_if_expr_1 = bp->hostOutputFrameCount[(signed long int)0];
 
       else
-        tmp_if_expr$1 = maxFramesToCopy;
-      frameCount = (unsigned int)tmp_if_expr$1;
+        tmp_if_expr_1 = maxFramesToCopy;
+      frameCount = (unsigned int)tmp_if_expr_1;
     }
 
     else
     {
       hostOutputChannels = bp->hostOutputChannels[(signed long int)1];
       if(!(bp->hostOutputFrameCount[1l] >= maxFramesToCopy))
-        tmp_if_expr$2 = bp->hostOutputFrameCount[(signed long int)1];
+        tmp_if_expr_2 = bp->hostOutputFrameCount[(signed long int)1];
 
       else
-        tmp_if_expr$2 = maxFramesToCopy;
-      frameCount = (unsigned int)tmp_if_expr$2;
+        tmp_if_expr_2 = maxFramesToCopy;
+      frameCount = (unsigned int)tmp_if_expr_2;
     }
     if(!(bp->userOutputIsInterleaved == 0))
     {
@@ -6847,12 +6847,12 @@ static void Copy_16_To_16(void *destinationBuffer, signed int destinationStride,
   unsigned short int *src = (unsigned short int *)sourceBuffer;
   unsigned short int *dest = (unsigned short int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = *src;
@@ -6869,12 +6869,12 @@ static void Copy_24_To_24(void *destinationBuffer, signed int destinationStride,
   unsigned char *src = (unsigned char *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dest[(signed long int)0] = src[(signed long int)0];
@@ -6893,12 +6893,12 @@ static void Copy_32_To_32(void *destinationBuffer, signed int destinationStride,
   unsigned int *dest = (unsigned int *)destinationBuffer;
   unsigned int *src = (unsigned int *)sourceBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = *src;
@@ -6915,12 +6915,12 @@ static void Copy_8_To_8(void *destinationBuffer, signed int destinationStride, v
   unsigned char *src = (unsigned char *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = *src;
@@ -6983,37 +6983,37 @@ static unsigned char * ExtractAddress(const struct _snd_pcm_channel_area *area, 
 
 // FillInDevInfo
 // file src/hostapi/alsa/pa_linux_alsa.c line 1150
-static signed int FillInDevInfo(struct PaAlsaHostApiRepresentation *alsaApi, struct anonymous$25 *deviceHwInfo, signed int blocking, struct PaAlsaDeviceInfo *devInfo, signed int *devIdx)
+static signed int FillInDevInfo(struct PaAlsaHostApiRepresentation *alsaApi, struct anonymous_25 *deviceHwInfo, signed int blocking, struct PaAlsaDeviceInfo *devInfo, signed int *devIdx)
 {
   signed int result = 0;
   struct PaDeviceInfo *baseDeviceInfo = &devInfo->baseDeviceInfo;
   struct _snd_pcm *pcm = (struct _snd_pcm *)(void *)0;
   struct PaUtilHostApiRepresentation *baseApi = &alsaApi->baseHostApiRep;
   InitializeDeviceInfo(baseDeviceInfo);
-  signed int return_value_OpenPcm$2;
+  signed int return_value_OpenPcm_2;
   if(!(deviceHwInfo->hasCapture == 0))
   {
-    return_value_OpenPcm$2=OpenPcm(&pcm, deviceHwInfo->alsaName, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE, blocking, 0);
-    if(return_value_OpenPcm$2 >= 0)
+    return_value_OpenPcm_2=OpenPcm(&pcm, deviceHwInfo->alsaName, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE, blocking, 0);
+    if(return_value_OpenPcm_2 >= 0)
     {
-      signed int return_value_GropeDevice$1;
-      return_value_GropeDevice$1=GropeDevice(pcm, deviceHwInfo->isPlug, (enum anonymous$17)StreamDirection_In, blocking, devInfo);
-      if(!(return_value_GropeDevice$1 == 0))
+      signed int return_value_GropeDevice_1;
+      return_value_GropeDevice_1=GropeDevice(pcm, deviceHwInfo->isPlug, (enum anonymous_17)StreamDirection_In, blocking, devInfo);
+      if(!(return_value_GropeDevice_1 == 0))
         goto end;
 
     }
 
   }
 
-  signed int return_value_OpenPcm$4;
+  signed int return_value_OpenPcm_4;
   if(!(deviceHwInfo->hasPlayback == 0))
   {
-    return_value_OpenPcm$4=OpenPcm(&pcm, deviceHwInfo->alsaName, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, blocking, 0);
-    if(return_value_OpenPcm$4 >= 0)
+    return_value_OpenPcm_4=OpenPcm(&pcm, deviceHwInfo->alsaName, (enum _snd_pcm_stream)SND_PCM_STREAM_PLAYBACK, blocking, 0);
+    if(return_value_OpenPcm_4 >= 0)
     {
-      signed int return_value_GropeDevice$3;
-      return_value_GropeDevice$3=GropeDevice(pcm, deviceHwInfo->isPlug, (enum anonymous$17)StreamDirection_Out, blocking, devInfo);
-      if(!(return_value_GropeDevice$3 == 0))
+      signed int return_value_GropeDevice_3;
+      return_value_GropeDevice_3=GropeDevice(pcm, deviceHwInfo->isPlug, (enum anonymous_17)StreamDirection_Out, blocking, devInfo);
+      if(!(return_value_GropeDevice_3 == 0))
         goto end;
 
     }
@@ -7025,27 +7025,27 @@ static signed int FillInDevInfo(struct PaAlsaHostApiRepresentation *alsaApi, str
   baseDeviceInfo->name = deviceHwInfo->name;
   devInfo->alsaName = deviceHwInfo->alsaName;
   devInfo->isPlug = deviceHwInfo->isPlug;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(baseDeviceInfo->maxInputChannels >= 1)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = baseDeviceInfo->maxOutputChannels > 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = baseDeviceInfo->maxOutputChannels > 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  if(tmp_if_expr_9)
   {
     if(baseApi->info.defaultInputDevice == -1)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$5=strcmp(deviceHwInfo->alsaName, "default");
-      tmp_if_expr$6 = !(return_value_strcmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_5=strcmp(deviceHwInfo->alsaName, "default");
+      tmp_if_expr_6 = !(return_value_strcmp_5 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       if(baseDeviceInfo->maxInputChannels >= 1)
         baseApi->info.defaultInputDevice = *devIdx;
@@ -7053,14 +7053,14 @@ static signed int FillInDevInfo(struct PaAlsaHostApiRepresentation *alsaApi, str
     }
 
     if(baseApi->info.defaultOutputDevice == -1)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$7=strcmp(deviceHwInfo->alsaName, "default");
-      tmp_if_expr$8 = !(return_value_strcmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_7=strcmp(deviceHwInfo->alsaName, "default");
+      tmp_if_expr_8 = !(return_value_strcmp_7 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
       if(baseDeviceInfo->maxOutputChannels >= 1)
         baseApi->info.defaultOutputDevice = *devIdx;
@@ -7079,18 +7079,18 @@ end:
 
 // FindDeviceName
 // file src/hostapi/alsa/pa_linux_alsa.c line 1031
-static const struct anonymous$25 * FindDeviceName(const char *name)
+static const struct anonymous_25 * FindDeviceName(const char *name)
 {
   signed int i = 0;
   for( ; !(predefinedNames[(signed long int)i].alsaName == ((char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(name, predefinedNames[(signed long int)i].alsaName);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(name, predefinedNames[(signed long int)i].alsaName);
+    if(return_value_strcmp_1 == 0)
       return &predefinedNames[(signed long int)i];
 
   }
-  return (const struct anonymous$25 *)(void *)0;
+  return (const struct anonymous_25 *)(void *)0;
 }
 
 // FindHostApi
@@ -7134,12 +7134,12 @@ static void Float32_To_Int16(void *destinationBuffer, signed int destinationStri
   float *src = (float *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     signed short int samp = (signed short int)(*src * 32767.0f);
@@ -7157,12 +7157,12 @@ static void Float32_To_Int16_Clip(void *destinationBuffer, signed int destinatio
   float *src = (float *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     signed long int samp = (signed long int)(signed int)(*src * 32767.0f);
@@ -7180,12 +7180,12 @@ static void Float32_To_Int16_Dither(void *destinationBuffer, signed int destinat
 {
   float *src = (float *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float dither;
@@ -7205,12 +7205,12 @@ static void Float32_To_Int16_DitherClip(void *destinationBuffer, signed int dest
   float *src = (float *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float dither;
@@ -7233,12 +7233,12 @@ static void Float32_To_Int24(void *destinationBuffer, signed int destinationStri
   unsigned char *dest = (unsigned char *)destinationBuffer;
   signed int temp;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double scaled = (double)*src * 2147483647.0;
@@ -7260,12 +7260,12 @@ static void Float32_To_Int24_Clip(void *destinationBuffer, signed int destinatio
   unsigned char *dest = (unsigned char *)destinationBuffer;
   signed int temp;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double scaled = (double)(*src * (float)0x7FFFFFFF);
@@ -7287,18 +7287,18 @@ static void Float32_To_Int24_Dither(void *destinationBuffer, signed int destinat
   float *src = (float *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   signed int temp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double dither;
-    float return_value_PaUtil_GenerateFloatTriangularDither$2;
-    return_value_PaUtil_GenerateFloatTriangularDither$2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
-    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither$2;
+    float return_value_PaUtil_GenerateFloatTriangularDither_2;
+    return_value_PaUtil_GenerateFloatTriangularDither_2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
+    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither_2;
     double dithered = (double)*src * 2147483646.0 + dither;
     temp = (signed int)dithered;
     dest[(signed long int)0] = (unsigned char)(temp >> 8);
@@ -7317,18 +7317,18 @@ static void Float32_To_Int24_DitherClip(void *destinationBuffer, signed int dest
   float *src = (float *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   signed int temp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double dither;
-    float return_value_PaUtil_GenerateFloatTriangularDither$2;
-    return_value_PaUtil_GenerateFloatTriangularDither$2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
-    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither$2;
+    float return_value_PaUtil_GenerateFloatTriangularDither_2;
+    return_value_PaUtil_GenerateFloatTriangularDither_2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
+    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither_2;
     double dithered = (double)*src * 2147483646.0 + dither;
     dithered = dithered < -2147483648. ? -2147483648. : (dithered > 2147483647. ? 2147483647. : dithered);
     temp = (signed int)dithered;
@@ -7348,12 +7348,12 @@ static void Float32_To_Int32(void *destinationBuffer, signed int destinationStri
   float *src = (float *)sourceBuffer;
   signed int *dest = (signed int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double scaled = (double)(*src * (float)0x7FFFFFFF);
@@ -7371,12 +7371,12 @@ static void Float32_To_Int32_Clip(void *destinationBuffer, signed int destinatio
   float *src = (float *)sourceBuffer;
   signed int *dest = (signed int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double scaled = (double)(*src * (float)0x7FFFFFFF);
@@ -7394,18 +7394,18 @@ static void Float32_To_Int32_Dither(void *destinationBuffer, signed int destinat
 {
   float *src = (float *)sourceBuffer;
   signed int *dest = (signed int *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double dither;
-    float return_value_PaUtil_GenerateFloatTriangularDither$2;
-    return_value_PaUtil_GenerateFloatTriangularDither$2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
-    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither$2;
+    float return_value_PaUtil_GenerateFloatTriangularDither_2;
+    return_value_PaUtil_GenerateFloatTriangularDither_2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
+    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither_2;
     double dithered = (double)*src * 2147483646.0 + dither;
     *dest = (signed int)dithered;
     src = src + (signed long int)sourceStride;
@@ -7420,18 +7420,18 @@ static void Float32_To_Int32_DitherClip(void *destinationBuffer, signed int dest
 {
   float *src = (float *)sourceBuffer;
   signed int *dest = (signed int *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     double dither;
-    float return_value_PaUtil_GenerateFloatTriangularDither$2;
-    return_value_PaUtil_GenerateFloatTriangularDither$2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
-    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither$2;
+    float return_value_PaUtil_GenerateFloatTriangularDither_2;
+    return_value_PaUtil_GenerateFloatTriangularDither_2=PaUtil_GenerateFloatTriangularDither(ditherGenerator);
+    dither = (double)return_value_PaUtil_GenerateFloatTriangularDither_2;
     double dithered = (double)*src * 2147483646.0 + dither;
     dithered = dithered < -2147483648. ? -2147483648. : (dithered > 2147483647. ? 2147483647. : dithered);
     *dest = (signed int)dithered;
@@ -7448,12 +7448,12 @@ static void Float32_To_Int8(void *destinationBuffer, signed int destinationStrid
   float *src = (float *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     signed char samp = (signed char)(*src * 127.0f);
@@ -7471,12 +7471,12 @@ static void Float32_To_Int8_Clip(void *destinationBuffer, signed int destination
   float *src = (float *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     signed int samp = (signed int)(*src * 127.0f);
@@ -7494,12 +7494,12 @@ static void Float32_To_Int8_Dither(void *destinationBuffer, signed int destinati
 {
   float *src = (float *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float dither;
@@ -7520,12 +7520,12 @@ static void Float32_To_Int8_DitherClip(void *destinationBuffer, signed int desti
   float *src = (float *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float dither;
@@ -7547,12 +7547,12 @@ static void Float32_To_UInt8(void *destinationBuffer, signed int destinationStri
   float *src = (float *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     unsigned char samp = (unsigned char)(128 + (signed int)(unsigned char)(*src * 127.0f));
@@ -7570,12 +7570,12 @@ static void Float32_To_UInt8_Clip(void *destinationBuffer, signed int destinatio
   float *src = (float *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     signed int samp = 128 + (signed int)(*src * 127.0f);
@@ -7593,12 +7593,12 @@ static void Float32_To_UInt8_Dither(void *destinationBuffer, signed int destinat
 {
   float *src = (float *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float dither;
@@ -7619,12 +7619,12 @@ static void Float32_To_UInt8_DitherClip(void *destinationBuffer, signed int dest
   float *src = (float *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float dither;
@@ -7643,17 +7643,17 @@ static void Float32_To_UInt8_DitherClip(void *destinationBuffer, signed int dest
 // file src/common/pa_process.c line 60
 static unsigned long int GCD(unsigned long int a, unsigned long int b)
 {
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_GCD$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_GCD_1;
   if(b == 0ul)
-    tmp_if_expr$2 = a;
+    tmp_if_expr_2 = a;
 
   else
   {
-    return_value_GCD$1=GCD(b, a % b);
-    tmp_if_expr$2 = return_value_GCD$1;
+    return_value_GCD_1=GCD(b, a % b);
+    tmp_if_expr_2 = return_value_GCD_1;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // GetAlsaStreamPointer
@@ -7688,15 +7688,15 @@ static signed int GetAlsaStreamPointer(void *s, struct PaAlsaStream **stream)
   }
   while((_Bool)0);
   alsaHostApi = (struct PaAlsaHostApiRepresentation *)hostApi;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(((struct PaUtilStreamRepresentation *)s)->streamInterface == &alsaHostApi->callbackStreamInterface)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ((struct PaUtilStreamRepresentation *)s)->streamInterface == &alsaHostApi->blockingStreamInterface ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = ((struct PaUtilStreamRepresentation *)s)->streamInterface == &alsaHostApi->blockingStreamInterface ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       PaUtil_DebugPrint("Expression 'PA_STREAM_REP( s )->streamInterface == &alsaHostApi->callbackStreamInterface || PA_STREAM_REP( s )->streamInterface == &alsaHostApi->blockingStreamInterface' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4578\n");
       result = -9973;
@@ -7720,9 +7720,9 @@ static unsigned long int GetAvailableFormats(struct _snd_pcm *pcm)
   struct _snd_pcm_hw_params *hwParams;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_hw_params_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_1;
   memset((void *)*(&hwParams), 0, __alsa_alloca_size);
   alsa_snd_pcm_hw_params_any(pcm, hwParams);
   signed int return_value;
@@ -7758,27 +7758,27 @@ static unsigned long int GetAvailableFormats(struct _snd_pcm *pcm)
   return available;
 }
 
-// GetAvailableFormats$link1
+// GetAvailableFormats_link1
 // file src/hostapi/oss/pa_unix_oss.c line 951
-static signed int GetAvailableFormats$link1(struct anonymous$9 *component, unsigned long int *availableFormats)
+static signed int GetAvailableFormats_link1(struct anonymous_9 *component, unsigned long int *availableFormats)
 {
   signed int result = 0;
   signed int mask = 0;
   unsigned long int frmts = (unsigned long int)0;
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
   {
     sysErr_=ioctl(component->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(11 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &mask);
     if(!(sysErr_ >= 0))
     {
-      return_value_pthread_self$3=pthread_self();
-      if(return_value_pthread_self$3 == mainThread_$link1)
+      return_value_pthread_self_3=pthread_self();
+      if(return_value_pthread_self_3 == mainThread__link1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_2);
       }
 
       PaUtil_DebugPrint("Expression 'ioctl( component->fd, SNDCTL_DSP_GETFMTS, &mask )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 957\n");
@@ -7832,39 +7832,39 @@ static signed int GetExactSampleRate(struct _snd_pcm_hw_params *hwParams, double
 static double GetStreamCpuLoad(void *s)
 {
   struct PaSkeletonStream *stream = (struct PaSkeletonStream *)s;
-  double return_value_PaUtil_GetCpuLoad$1;
-  return_value_PaUtil_GetCpuLoad$1=PaUtil_GetCpuLoad(&stream->cpuLoadMeasurer);
-  return return_value_PaUtil_GetCpuLoad$1;
+  double return_value_PaUtil_GetCpuLoad_1;
+  return_value_PaUtil_GetCpuLoad_1=PaUtil_GetCpuLoad(&stream->cpuLoadMeasurer);
+  return return_value_PaUtil_GetCpuLoad_1;
 }
 
-// GetStreamCpuLoad$link1
+// GetStreamCpuLoad_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3183
-static double GetStreamCpuLoad$link1(void *s$link1)
+static double GetStreamCpuLoad_link1(void *s_link1)
 {
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
-  double return_value_PaUtil_GetCpuLoad$1$link1;
-  return_value_PaUtil_GetCpuLoad$1$link1=PaUtil_GetCpuLoad(&stream$link1->cpuLoadMeasurer);
-  return return_value_PaUtil_GetCpuLoad$1$link1;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
+  double return_value_PaUtil_GetCpuLoad_1_link1;
+  return_value_PaUtil_GetCpuLoad_1_link1=PaUtil_GetCpuLoad(&stream_link1->cpuLoadMeasurer);
+  return return_value_PaUtil_GetCpuLoad_1_link1;
 }
 
-// GetStreamCpuLoad$link2
+// GetStreamCpuLoad_link2
 // file src/hostapi/jack/pa_jack.c line 1742
-static double GetStreamCpuLoad$link2(void *s$link2)
+static double GetStreamCpuLoad_link2(void *s_link2)
 {
-  struct PaJackStream *stream$link2 = (struct PaJackStream *)s$link2;
-  double return_value_PaUtil_GetCpuLoad$1$link2;
-  return_value_PaUtil_GetCpuLoad$1$link2=PaUtil_GetCpuLoad(&stream$link2->cpuLoadMeasurer);
-  return return_value_PaUtil_GetCpuLoad$1$link2;
+  struct PaJackStream *stream_link2 = (struct PaJackStream *)s_link2;
+  double return_value_PaUtil_GetCpuLoad_1_link2;
+  return_value_PaUtil_GetCpuLoad_1_link2=PaUtil_GetCpuLoad(&stream_link2->cpuLoadMeasurer);
+  return return_value_PaUtil_GetCpuLoad_1_link2;
 }
 
-// GetStreamCpuLoad$link3
+// GetStreamCpuLoad_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1912
-static double GetStreamCpuLoad$link3(void *s$link3)
+static double GetStreamCpuLoad_link3(void *s_link3)
 {
-  struct PaOssStream *stream$link3 = (struct PaOssStream *)s$link3;
-  double return_value_PaUtil_GetCpuLoad$1$link3;
-  return_value_PaUtil_GetCpuLoad$1$link3=PaUtil_GetCpuLoad(&stream$link3->cpuLoadMeasurer);
-  return return_value_PaUtil_GetCpuLoad$1$link3;
+  struct PaOssStream *stream_link3 = (struct PaOssStream *)s_link3;
+  double return_value_PaUtil_GetCpuLoad_1_link3;
+  return_value_PaUtil_GetCpuLoad_1_link3=PaUtil_GetCpuLoad(&stream_link3->cpuLoadMeasurer);
+  return return_value_PaUtil_GetCpuLoad_1_link3;
 }
 
 // GetStreamReadAvailable
@@ -7876,17 +7876,17 @@ static signed long int GetStreamReadAvailable(void *s)
   return (signed long int)0;
 }
 
-// GetStreamReadAvailable$link1
+// GetStreamReadAvailable_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4493
-static signed long int GetStreamReadAvailable$link1(void *s$link1)
+static signed long int GetStreamReadAvailable_link1(void *s_link1)
 {
   signed int result = 0;
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
   unsigned long int avail;
   signed int xrun;
   do
   {
-    paUtilErr_=PaAlsaStreamComponent_GetAvailableFrames(&stream$link1->capture, &avail, &xrun);
+    paUtilErr_=PaAlsaStreamComponent_GetAvailableFrames(&stream_link1->capture, &avail, &xrun);
     if(!(paUtilErr_ >= 0))
     {
       PaUtil_DebugPrint("Expression 'PaAlsaStreamComponent_GetAvailableFrames( &stream->capture, &avail, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4500\n");
@@ -7900,7 +7900,7 @@ static signed long int GetStreamReadAvailable$link1(void *s$link1)
   {
     do
     {
-      paUtilErr_=PaAlsaStream_HandleXrun(stream$link1);
+      paUtilErr_=PaAlsaStream_HandleXrun(stream_link1);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStream_HandleXrun( stream )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4503\n");
@@ -7912,7 +7912,7 @@ static signed long int GetStreamReadAvailable$link1(void *s$link1)
     while((_Bool)0);
     do
     {
-      paUtilErr_=PaAlsaStreamComponent_GetAvailableFrames(&stream$link1->capture, &avail, &xrun);
+      paUtilErr_=PaAlsaStreamComponent_GetAvailableFrames(&stream_link1->capture, &avail, &xrun);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStreamComponent_GetAvailableFrames( &stream->capture, &avail, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4504\n");
@@ -7945,41 +7945,41 @@ error:
   return (signed long int)result;
 }
 
-// GetStreamReadAvailable$link2
+// GetStreamReadAvailable_link2
 // file src/hostapi/oss/pa_unix_oss.c line 2014
-static signed long int GetStreamReadAvailable$link2(void *s$link2)
+static signed long int GetStreamReadAvailable_link2(void *s_link2)
 {
-  signed int result$link1 = 0;
-  struct PaOssStream *stream$link2 = (struct PaOssStream *)s$link2;
+  signed int result_link1 = 0;
+  struct PaOssStream *stream_link2 = (struct PaOssStream *)s_link2;
   struct audio_buf_info info;
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
   {
-    sysErr_=ioctl(stream$link2->capture->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(13 << 0)) | sizeof(struct audio_buf_info) /*16ul*/  << 0 + 8 + 8, &info);
+    sysErr_=ioctl(stream_link2->capture->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(13 << 0)) | sizeof(struct audio_buf_info) /*16ul*/  << 0 + 8 + 8, &info);
     if(!(sysErr_ >= 0))
     {
-      return_value_pthread_self$3=pthread_self();
-      if(return_value_pthread_self$3 == mainThread_$link1)
+      return_value_pthread_self_3=pthread_self();
+      if(return_value_pthread_self_3 == mainThread__link1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_2);
       }
 
       PaUtil_DebugPrint("Expression 'ioctl( stream->capture->fd, SNDCTL_DSP_GETISPACE, &info )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 2020\n");
-      result$link1 = -9999;
+      result_link1 = -9999;
       goto error;
     }
 
   }
   while((_Bool)0);
-  return (signed long int)((unsigned long int)info.fragments * stream$link2->capture->hostFrames);
+  return (signed long int)((unsigned long int)info.fragments * stream_link2->capture->hostFrames);
 
 error:
   ;
-  return (signed long int)result$link1;
+  return (signed long int)result_link1;
 }
 
 // GetStreamTime
@@ -7991,77 +7991,77 @@ static double GetStreamTime(void *s)
   return (double)0;
 }
 
-// GetStreamTime$link1
+// GetStreamTime_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3156
-static double GetStreamTime$link1(void *s$link1)
+static double GetStreamTime_link1(void *s_link1)
 {
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
   struct timeval timestamp;
   struct _snd_pcm_status *status;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_status_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&status) = (struct _snd_pcm_status *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&status) = (struct _snd_pcm_status *)return_value___builtin_alloca_1;
   memset((void *)*(&status), 0, __alsa_alloca_size);
-  if(!(stream$link1->capture.pcm == ((struct _snd_pcm *)NULL)))
-    alsa_snd_pcm_status(stream$link1->capture.pcm, status);
+  if(!(stream_link1->capture.pcm == ((struct _snd_pcm *)NULL)))
+    alsa_snd_pcm_status(stream_link1->capture.pcm, status);
 
   else
-    if(!(stream$link1->playback.pcm == ((struct _snd_pcm *)NULL)))
-      alsa_snd_pcm_status(stream$link1->playback.pcm, status);
+    if(!(stream_link1->playback.pcm == ((struct _snd_pcm *)NULL)))
+      alsa_snd_pcm_status(stream_link1->playback.pcm, status);
 
   alsa_snd_pcm_status_get_tstamp(status, &timestamp);
   return (double)timestamp.tv_sec + (double)timestamp.tv_usec / 1e6;
 }
 
-// GetStreamTime$link2
+// GetStreamTime_link2
 // file src/hostapi/jack/pa_jack.c line 1733
-static double GetStreamTime$link2(void *s$link2)
+static double GetStreamTime_link2(void *s_link2)
 {
-  struct PaJackStream *stream$link2 = (struct PaJackStream *)s$link2;
-  unsigned int return_value_jack_frame_time$1;
-  return_value_jack_frame_time$1=jack_frame_time(stream$link2->jack_client);
-  unsigned int return_value_jack_get_sample_rate$2;
-  return_value_jack_get_sample_rate$2=jack_get_sample_rate(stream$link2->jack_client);
-  return (double)(return_value_jack_frame_time$1 - stream$link2->t0) / (double)return_value_jack_get_sample_rate$2;
+  struct PaJackStream *stream_link2 = (struct PaJackStream *)s_link2;
+  unsigned int return_value_jack_frame_time_1;
+  return_value_jack_frame_time_1=jack_frame_time(stream_link2->jack_client);
+  unsigned int return_value_jack_get_sample_rate_2;
+  return_value_jack_get_sample_rate_2=jack_get_sample_rate(stream_link2->jack_client);
+  return (double)(return_value_jack_frame_time_1 - stream_link2->t0) / (double)return_value_jack_get_sample_rate_2;
 }
 
-// GetStreamTime$link3
+// GetStreamTime_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1887
-static double GetStreamTime$link3(void *s$link3)
+static double GetStreamTime_link3(void *s_link3)
 {
-  struct PaOssStream *stream$link3 = (struct PaOssStream *)s$link3;
+  struct PaOssStream *stream_link3 = (struct PaOssStream *)s_link3;
   struct count_info info;
   signed int delta;
-  if(!(stream$link3->playback == ((struct anonymous$9 *)NULL)))
+  if(!(stream_link3->playback == ((struct anonymous_9 *)NULL)))
   {
-    signed int return_value_ioctl$2;
-    return_value_ioctl$2=ioctl(stream$link3->playback->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(18 << 0)) | sizeof(struct count_info) /*12ul*/  << 0 + 8 + 8, &info);
-    if(return_value_ioctl$2 == 0)
+    signed int return_value_ioctl_2;
+    return_value_ioctl_2=ioctl(stream_link3->playback->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(18 << 0)) | sizeof(struct count_info) /*12ul*/  << 0 + 8 + 8, &info);
+    if(return_value_ioctl_2 == 0)
     {
-      delta = info.bytes - stream$link3->lastPosPtr;
-      unsigned int return_value_PaOssStreamComponent_FrameSize$1;
-      return_value_PaOssStreamComponent_FrameSize$1=PaOssStreamComponent_FrameSize(stream$link3->playback);
-      return (double)((float)(stream$link3->lastStreamBytes + (double)delta) / (float)return_value_PaOssStreamComponent_FrameSize$1) / stream$link3->sampleRate;
+      delta = info.bytes - stream_link3->lastPosPtr;
+      unsigned int return_value_PaOssStreamComponent_FrameSize_1;
+      return_value_PaOssStreamComponent_FrameSize_1=PaOssStreamComponent_FrameSize(stream_link3->playback);
+      return (double)((float)(stream_link3->lastStreamBytes + (double)delta) / (float)return_value_PaOssStreamComponent_FrameSize_1) / stream_link3->sampleRate;
     }
 
   }
 
   else
   {
-    signed int return_value_ioctl$4;
-    return_value_ioctl$4=ioctl(stream$link3->capture->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(17 << 0)) | sizeof(struct count_info) /*12ul*/  << 0 + 8 + 8, &info);
-    if(return_value_ioctl$4 == 0)
+    signed int return_value_ioctl_4;
+    return_value_ioctl_4=ioctl(stream_link3->capture->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(17 << 0)) | sizeof(struct count_info) /*12ul*/  << 0 + 8 + 8, &info);
+    if(return_value_ioctl_4 == 0)
     {
-      delta = info.bytes - stream$link3->lastPosPtr;
-      unsigned int return_value_PaOssStreamComponent_FrameSize$3;
-      return_value_PaOssStreamComponent_FrameSize$3=PaOssStreamComponent_FrameSize(stream$link3->capture);
-      return (double)((float)(stream$link3->lastStreamBytes + (double)delta) / (float)return_value_PaOssStreamComponent_FrameSize$3) / stream$link3->sampleRate;
+      delta = info.bytes - stream_link3->lastPosPtr;
+      unsigned int return_value_PaOssStreamComponent_FrameSize_3;
+      return_value_PaOssStreamComponent_FrameSize_3=PaOssStreamComponent_FrameSize(stream_link3->capture);
+      return (double)((float)(stream_link3->lastStreamBytes + (double)delta) / (float)return_value_PaOssStreamComponent_FrameSize_3) / stream_link3->sampleRate;
     }
 
   }
-  return (double)stream$link3->framesProcessed / stream$link3->sampleRate;
+  return (double)stream_link3->framesProcessed / stream_link3->sampleRate;
 }
 
 // GetStreamWriteAvailable
@@ -8073,17 +8073,17 @@ static signed long int GetStreamWriteAvailable(void *s)
   return (signed long int)0;
 }
 
-// GetStreamWriteAvailable$link1
+// GetStreamWriteAvailable_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4515
-static signed long int GetStreamWriteAvailable$link1(void *s$link1)
+static signed long int GetStreamWriteAvailable_link1(void *s_link1)
 {
   signed int result = 0;
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
   unsigned long int avail;
   signed int xrun;
   do
   {
-    paUtilErr_=PaAlsaStreamComponent_GetAvailableFrames(&stream$link1->playback, &avail, &xrun);
+    paUtilErr_=PaAlsaStreamComponent_GetAvailableFrames(&stream_link1->playback, &avail, &xrun);
     if(!(paUtilErr_ >= 0))
     {
       PaUtil_DebugPrint("Expression 'PaAlsaStreamComponent_GetAvailableFrames( &stream->playback, &avail, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4522\n");
@@ -8093,14 +8093,14 @@ static signed long int GetStreamWriteAvailable$link1(void *s$link1)
 
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(xrun == 0))
   {
     signed long int savail;
     do
     {
-      paUtilErr_=PaAlsaStream_HandleXrun(stream$link1);
+      paUtilErr_=PaAlsaStream_HandleXrun(stream_link1);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStream_HandleXrun( stream )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4527\n");
@@ -8110,13 +8110,13 @@ static signed long int GetStreamWriteAvailable$link1(void *s$link1)
 
     }
     while((_Bool)0);
-    savail=alsa_snd_pcm_avail_update(stream$link1->playback.pcm);
+    savail=alsa_snd_pcm_avail_update(stream_link1->playback.pcm);
     signed int __pa_unsure_error_id = (signed int)savail;
     if(!(__pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-      if(!(return_value_pthread_equal$2 == 0))
+      return_value_pthread_self_1=pthread_self();
+      return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+      if(!(return_value_pthread_equal_2 == 0))
       {
         const char *return_value;
         return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -8137,50 +8137,50 @@ error:
   return (signed long int)result;
 }
 
-// GetStreamWriteAvailable$link2
+// GetStreamWriteAvailable_link2
 // file src/hostapi/oss/pa_unix_oss.c line 2029
-static signed long int GetStreamWriteAvailable$link2(void *s$link2)
+static signed long int GetStreamWriteAvailable_link2(void *s_link2)
 {
-  signed int result$link1 = 0;
-  struct PaOssStream *stream$link2 = (struct PaOssStream *)s$link2;
+  signed int result_link1 = 0;
+  struct PaOssStream *stream_link2 = (struct PaOssStream *)s_link2;
   signed int delay = 0;
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
   {
-    sysErr_=ioctl(stream$link2->playback->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(23 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &delay);
+    sysErr_=ioctl(stream_link2->playback->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(23 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &delay);
     if(!(sysErr_ >= 0))
     {
-      return_value_pthread_self$3=pthread_self();
-      if(return_value_pthread_self$3 == mainThread_$link1)
+      return_value_pthread_self_3=pthread_self();
+      if(return_value_pthread_self_3 == mainThread__link1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_2);
       }
 
       PaUtil_DebugPrint("Expression 'ioctl( stream->playback->fd, SNDCTL_DSP_GETODELAY, &delay )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 2035\n");
-      result$link1 = -9999;
+      result_link1 = -9999;
       goto error;
     }
 
   }
   while((_Bool)0);
-  unsigned long int return_value_PaOssStreamComponent_BufferSize$4;
-  return_value_PaOssStreamComponent_BufferSize$4=PaOssStreamComponent_BufferSize(stream$link2->playback);
-  unsigned int return_value_PaOssStreamComponent_FrameSize$5;
-  return_value_PaOssStreamComponent_FrameSize$5=PaOssStreamComponent_FrameSize(stream$link2->playback);
-  return (signed long int)((return_value_PaOssStreamComponent_BufferSize$4 - (unsigned long int)delay) / (unsigned long int)return_value_PaOssStreamComponent_FrameSize$5);
+  unsigned long int return_value_PaOssStreamComponent_BufferSize_4;
+  return_value_PaOssStreamComponent_BufferSize_4=PaOssStreamComponent_BufferSize(stream_link2->playback);
+  unsigned int return_value_PaOssStreamComponent_FrameSize_5;
+  return_value_PaOssStreamComponent_FrameSize_5=PaOssStreamComponent_FrameSize(stream_link2->playback);
+  return (signed long int)((return_value_PaOssStreamComponent_BufferSize_4 - (unsigned long int)delay) / (unsigned long int)return_value_PaOssStreamComponent_FrameSize_5);
 
 error:
   ;
-  return (signed long int)result$link1;
+  return (signed long int)result_link1;
 }
 
 // GropeDevice
 // file src/hostapi/alsa/pa_linux_alsa.c line 835
-static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anonymous$17 mode, signed int openBlocking, struct PaAlsaDeviceInfo *devInfo)
+static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anonymous_17 mode, signed int openBlocking, struct PaAlsaDeviceInfo *devInfo)
 {
   signed int result = 0;
   struct _snd_pcm_hw_params *hwParams;
@@ -8214,13 +8214,13 @@ static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anon
   }
   signed int __pa_unsure_error_id;
   __pa_unsure_error_id=alsa_snd_pcm_nonblock(pcm, 0);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(__pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-    if(!(return_value_pthread_equal$2 == 0))
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+    if(!(return_value_pthread_equal_2 == 0))
     {
       const char *return_value;
       return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -8233,16 +8233,16 @@ static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anon
 
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_hw_params_sizeof();
-  void *return_value___builtin_alloca$3;
-  return_value___builtin_alloca$3=__builtin_alloca(__alsa_alloca_size);
-  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$3;
+  void *return_value___builtin_alloca_3;
+  return_value___builtin_alloca_3=__builtin_alloca(__alsa_alloca_size);
+  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_3;
   memset((void *)*(&hwParams), 0, __alsa_alloca_size);
   alsa_snd_pcm_hw_params_any(pcm, hwParams);
   if(defaultSr >= 0.000000)
   {
-    signed int return_value_SetApproximateSampleRate$4;
-    return_value_SetApproximateSampleRate$4=SetApproximateSampleRate(pcm, hwParams, defaultSr);
-    if(!(return_value_SetApproximateSampleRate$4 >= 0))
+    signed int return_value_SetApproximateSampleRate_4;
+    return_value_SetApproximateSampleRate_4=SetApproximateSampleRate(pcm, hwParams, defaultSr);
+    if(!(return_value_SetApproximateSampleRate_4 >= 0))
     {
       defaultSr = -1.;
       alsa_snd_pcm_hw_params_any(pcm, hwParams);
@@ -8250,8 +8250,8 @@ static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anon
 
   }
 
-  unsigned long int return_value_pthread_self$5;
-  signed int return_value_pthread_equal$6;
+  unsigned long int return_value_pthread_self_5;
+  signed int return_value_pthread_equal_6;
   if(defaultSr < 0.)
   {
     unsigned int sampleRate = (unsigned int)44100;
@@ -8261,17 +8261,17 @@ static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anon
     if(!(return_value_1 >= 0))
       result = -9999;
 
-    signed int GropeDevice$$1$$6$$2$$__pa_unsure_error_id;
-    GropeDevice$$1$$6$$2$$__pa_unsure_error_id=GetExactSampleRate(hwParams, &defaultSr);
-    if(!(GropeDevice$$1$$6$$2$$__pa_unsure_error_id >= 0))
+    signed int GropeDevice__1__6__2____pa_unsure_error_id;
+    GropeDevice__1__6__2____pa_unsure_error_id=GetExactSampleRate(hwParams, &defaultSr);
+    if(!(GropeDevice__1__6__2____pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$5=pthread_self();
-      return_value_pthread_equal$6=pthread_equal(return_value_pthread_self$5, paUnixMainThread);
-      if(!(return_value_pthread_equal$6 == 0))
+      return_value_pthread_self_5=pthread_self();
+      return_value_pthread_equal_6=pthread_equal(return_value_pthread_self_5, paUnixMainThread);
+      if(!(return_value_pthread_equal_6 == 0))
       {
         const char *return_value_2;
-        return_value_2=alsa_snd_strerror(GropeDevice$$1$$6$$2$$__pa_unsure_error_id);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$6$$2$$__pa_unsure_error_id, return_value_2);
+        return_value_2=alsa_snd_strerror(GropeDevice__1__6__2____pa_unsure_error_id);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__6__2____pa_unsure_error_id, return_value_2);
       }
 
       PaUtil_DebugPrint("Expression 'GetExactSampleRate( hwParams, &defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 895\n");
@@ -8280,38 +8280,38 @@ static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anon
 
   }
 
-  signed int GropeDevice$$1$$7$$__pa_unsure_error_id;
-  GropeDevice$$1$$7$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_channels_min(hwParams, &minChans);
-  unsigned long int return_value_pthread_self$7;
-  signed int return_value_pthread_equal$8;
-  if(!(GropeDevice$$1$$7$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__7____pa_unsure_error_id;
+  GropeDevice__1__7____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_channels_min(hwParams, &minChans);
+  unsigned long int return_value_pthread_self_7;
+  signed int return_value_pthread_equal_8;
+  if(!(GropeDevice__1__7____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$7=pthread_self();
-    return_value_pthread_equal$8=pthread_equal(return_value_pthread_self$7, paUnixMainThread);
-    if(!(return_value_pthread_equal$8 == 0))
+    return_value_pthread_self_7=pthread_self();
+    return_value_pthread_equal_8=pthread_equal(return_value_pthread_self_7, paUnixMainThread);
+    if(!(return_value_pthread_equal_8 == 0))
     {
       const char *return_value_3;
-      return_value_3=alsa_snd_strerror(GropeDevice$$1$$7$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$7$$__pa_unsure_error_id, return_value_3);
+      return_value_3=alsa_snd_strerror(GropeDevice__1__7____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__7____pa_unsure_error_id, return_value_3);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_channels_min( hwParams, &minChans )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 898\n");
     result = -9999;
   }
 
-  signed int GropeDevice$$1$$8$$__pa_unsure_error_id;
-  GropeDevice$$1$$8$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_channels_max(hwParams, &maxChans);
-  unsigned long int return_value_pthread_self$9;
-  signed int return_value_pthread_equal$10;
-  if(!(GropeDevice$$1$$8$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__8____pa_unsure_error_id;
+  GropeDevice__1__8____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_channels_max(hwParams, &maxChans);
+  unsigned long int return_value_pthread_self_9;
+  signed int return_value_pthread_equal_10;
+  if(!(GropeDevice__1__8____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$9=pthread_self();
-    return_value_pthread_equal$10=pthread_equal(return_value_pthread_self$9, paUnixMainThread);
-    if(!(return_value_pthread_equal$10 == 0))
+    return_value_pthread_self_9=pthread_self();
+    return_value_pthread_equal_10=pthread_equal(return_value_pthread_self_9, paUnixMainThread);
+    if(!(return_value_pthread_equal_10 == 0))
     {
       const char *return_value_4;
-      return_value_4=alsa_snd_strerror(GropeDevice$$1$$8$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$8$$__pa_unsure_error_id, return_value_4);
+      return_value_4=alsa_snd_strerror(GropeDevice__1__8____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__8____pa_unsure_error_id, return_value_4);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_channels_max( hwParams, &maxChans )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 899\n");
@@ -8327,38 +8327,38 @@ static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anon
 
   alsaBufferFrames = (unsigned long int)512;
   alsaPeriodFrames = (unsigned long int)128;
-  signed int GropeDevice$$1$$10$$__pa_unsure_error_id;
-  GropeDevice$$1$$10$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_buffer_size_near(pcm, hwParams, &alsaBufferFrames);
-  unsigned long int return_value_pthread_self$11;
-  signed int return_value_pthread_equal$12;
-  if(!(GropeDevice$$1$$10$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__10____pa_unsure_error_id;
+  GropeDevice__1__10____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_buffer_size_near(pcm, hwParams, &alsaBufferFrames);
+  unsigned long int return_value_pthread_self_11;
+  signed int return_value_pthread_equal_12;
+  if(!(GropeDevice__1__10____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$11=pthread_self();
-    return_value_pthread_equal$12=pthread_equal(return_value_pthread_self$11, paUnixMainThread);
-    if(!(return_value_pthread_equal$12 == 0))
+    return_value_pthread_self_11=pthread_self();
+    return_value_pthread_equal_12=pthread_equal(return_value_pthread_self_11, paUnixMainThread);
+    if(!(return_value_pthread_equal_12 == 0))
     {
       const char *return_value_5;
-      return_value_5=alsa_snd_strerror(GropeDevice$$1$$10$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$10$$__pa_unsure_error_id, return_value_5);
+      return_value_5=alsa_snd_strerror(GropeDevice__1__10____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__10____pa_unsure_error_id, return_value_5);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_buffer_size_near( pcm, hwParams, &alsaBufferFrames )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 923\n");
     result = -9999;
   }
 
-  signed int GropeDevice$$1$$11$$__pa_unsure_error_id;
-  GropeDevice$$1$$11$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(pcm, hwParams, &alsaPeriodFrames, &dir);
-  unsigned long int return_value_pthread_self$13;
-  signed int return_value_pthread_equal$14;
-  if(!(GropeDevice$$1$$11$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__11____pa_unsure_error_id;
+  GropeDevice__1__11____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(pcm, hwParams, &alsaPeriodFrames, &dir);
+  unsigned long int return_value_pthread_self_13;
+  signed int return_value_pthread_equal_14;
+  if(!(GropeDevice__1__11____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$13=pthread_self();
-    return_value_pthread_equal$14=pthread_equal(return_value_pthread_self$13, paUnixMainThread);
-    if(!(return_value_pthread_equal$14 == 0))
+    return_value_pthread_self_13=pthread_self();
+    return_value_pthread_equal_14=pthread_equal(return_value_pthread_self_13, paUnixMainThread);
+    if(!(return_value_pthread_equal_14 == 0))
     {
       const char *return_value_6;
-      return_value_6=alsa_snd_strerror(GropeDevice$$1$$11$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$11$$__pa_unsure_error_id, return_value_6);
+      return_value_6=alsa_snd_strerror(GropeDevice__1__11____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__11____pa_unsure_error_id, return_value_6);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size_near( pcm, hwParams, &alsaPeriodFrames, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 924\n");
@@ -8368,76 +8368,76 @@ static signed int GropeDevice(struct _snd_pcm *pcm, signed int isPlug, enum anon
   *defaultLowLatency = (double)(alsaBufferFrames - alsaPeriodFrames) / defaultSr;
   alsaBufferFrames = (unsigned long int)2048;
   alsaPeriodFrames = (unsigned long int)512;
-  signed int GropeDevice$$1$$12$$__pa_unsure_error_id;
-  GropeDevice$$1$$12$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_any(pcm, hwParams);
-  unsigned long int return_value_pthread_self$15;
-  signed int return_value_pthread_equal$16;
-  if(!(GropeDevice$$1$$12$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__12____pa_unsure_error_id;
+  GropeDevice__1__12____pa_unsure_error_id=alsa_snd_pcm_hw_params_any(pcm, hwParams);
+  unsigned long int return_value_pthread_self_15;
+  signed int return_value_pthread_equal_16;
+  if(!(GropeDevice__1__12____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$15=pthread_self();
-    return_value_pthread_equal$16=pthread_equal(return_value_pthread_self$15, paUnixMainThread);
-    if(!(return_value_pthread_equal$16 == 0))
+    return_value_pthread_self_15=pthread_self();
+    return_value_pthread_equal_16=pthread_equal(return_value_pthread_self_15, paUnixMainThread);
+    if(!(return_value_pthread_equal_16 == 0))
     {
       const char *return_value_7;
-      return_value_7=alsa_snd_strerror(GropeDevice$$1$$12$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$12$$__pa_unsure_error_id, return_value_7);
+      return_value_7=alsa_snd_strerror(GropeDevice__1__12____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__12____pa_unsure_error_id, return_value_7);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_any( pcm, hwParams )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931\n");
     result = -9999;
   }
 
-  signed int GropeDevice$$1$$13$$__pa_unsure_error_id;
-  GropeDevice$$1$$13$$__pa_unsure_error_id=SetApproximateSampleRate(pcm, hwParams, defaultSr);
-  unsigned long int return_value_pthread_self$17;
-  signed int return_value_pthread_equal$18;
-  if(!(GropeDevice$$1$$13$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__13____pa_unsure_error_id;
+  GropeDevice__1__13____pa_unsure_error_id=SetApproximateSampleRate(pcm, hwParams, defaultSr);
+  unsigned long int return_value_pthread_self_17;
+  signed int return_value_pthread_equal_18;
+  if(!(GropeDevice__1__13____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$17=pthread_self();
-    return_value_pthread_equal$18=pthread_equal(return_value_pthread_self$17, paUnixMainThread);
-    if(!(return_value_pthread_equal$18 == 0))
+    return_value_pthread_self_17=pthread_self();
+    return_value_pthread_equal_18=pthread_equal(return_value_pthread_self_17, paUnixMainThread);
+    if(!(return_value_pthread_equal_18 == 0))
     {
       const char *return_value_8;
-      return_value_8=alsa_snd_strerror(GropeDevice$$1$$13$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$13$$__pa_unsure_error_id, return_value_8);
+      return_value_8=alsa_snd_strerror(GropeDevice__1__13____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__13____pa_unsure_error_id, return_value_8);
     }
 
     PaUtil_DebugPrint("Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 932\n");
     result = -9999;
   }
 
-  signed int GropeDevice$$1$$14$$__pa_unsure_error_id;
-  GropeDevice$$1$$14$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_buffer_size_near(pcm, hwParams, &alsaBufferFrames);
-  unsigned long int return_value_pthread_self$19;
-  signed int return_value_pthread_equal$20;
-  if(!(GropeDevice$$1$$14$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__14____pa_unsure_error_id;
+  GropeDevice__1__14____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_buffer_size_near(pcm, hwParams, &alsaBufferFrames);
+  unsigned long int return_value_pthread_self_19;
+  signed int return_value_pthread_equal_20;
+  if(!(GropeDevice__1__14____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$19=pthread_self();
-    return_value_pthread_equal$20=pthread_equal(return_value_pthread_self$19, paUnixMainThread);
-    if(!(return_value_pthread_equal$20 == 0))
+    return_value_pthread_self_19=pthread_self();
+    return_value_pthread_equal_20=pthread_equal(return_value_pthread_self_19, paUnixMainThread);
+    if(!(return_value_pthread_equal_20 == 0))
     {
       const char *return_value_9;
-      return_value_9=alsa_snd_strerror(GropeDevice$$1$$14$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$14$$__pa_unsure_error_id, return_value_9);
+      return_value_9=alsa_snd_strerror(GropeDevice__1__14____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__14____pa_unsure_error_id, return_value_9);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_buffer_size_near( pcm, hwParams, &alsaBufferFrames )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 933\n");
     result = -9999;
   }
 
-  signed int GropeDevice$$1$$15$$__pa_unsure_error_id;
-  GropeDevice$$1$$15$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(pcm, hwParams, &alsaPeriodFrames, &dir);
-  unsigned long int return_value_pthread_self$21;
-  signed int return_value_pthread_equal$22;
-  if(!(GropeDevice$$1$$15$$__pa_unsure_error_id >= 0))
+  signed int GropeDevice__1__15____pa_unsure_error_id;
+  GropeDevice__1__15____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(pcm, hwParams, &alsaPeriodFrames, &dir);
+  unsigned long int return_value_pthread_self_21;
+  signed int return_value_pthread_equal_22;
+  if(!(GropeDevice__1__15____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$21=pthread_self();
-    return_value_pthread_equal$22=pthread_equal(return_value_pthread_self$21, paUnixMainThread);
-    if(!(return_value_pthread_equal$22 == 0))
+    return_value_pthread_self_21=pthread_self();
+    return_value_pthread_equal_22=pthread_equal(return_value_pthread_self_21, paUnixMainThread);
+    if(!(return_value_pthread_equal_22 == 0))
     {
       const char *return_value_10;
-      return_value_10=alsa_snd_strerror(GropeDevice$$1$$15$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice$$1$$15$$__pa_unsure_error_id, return_value_10);
+      return_value_10=alsa_snd_strerror(GropeDevice__1__15____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)GropeDevice__1__15____pa_unsure_error_id, return_value_10);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size_near( pcm, hwParams, &alsaPeriodFrames, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 934\n");
@@ -8466,9 +8466,9 @@ static signed int IgnorePlugin(const char *pluginId)
   static const char *ignoredPlugins[11l] = { "hw", "plughw", "plug", "dsnoop", "tee", "file", "null", "shm", "cards", "rate_convert", (const char *)(void *)0 };
   while(!(ignoredPlugins[(signed long int)i] == ((const char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(pluginId, ignoredPlugins[(signed long int)i]);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(pluginId, ignoredPlugins[(signed long int)i]);
+    if(return_value_strcmp_1 == 0)
       return 1;
 
     i = i + 1;
@@ -8501,10 +8501,10 @@ static signed int InitializeHostApis(void)
   signed int initializerCount;
   signed int baseDeviceIndex;
   initializerCount=CountHostApiInitializers();
-  void *return_value_PaUtil_AllocateMemory$1;
-  return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilHostApiRepresentation *) /*8ul*/  * (unsigned long int)initializerCount));
-  hostApis_ = (struct PaUtilHostApiRepresentation **)return_value_PaUtil_AllocateMemory$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_PaUtil_AllocateMemory_1;
+  return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilHostApiRepresentation *) /*8ul*/  * (unsigned long int)initializerCount));
+  hostApis_ = (struct PaUtilHostApiRepresentation **)return_value_PaUtil_AllocateMemory_1;
+  _Bool tmp_if_expr_2;
   if(hostApis_ == ((struct PaUtilHostApiRepresentation **)NULL))
     result = -9992;
 
@@ -8529,11 +8529,11 @@ static signed int InitializeHostApis(void)
         if(defaultHostApiIndex_ == -1)
         {
           if(!(hostApi->info.defaultInputDevice == -1))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = hostApi->info.defaultOutputDevice != (signed int)-1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = hostApi->info.defaultOutputDevice != (signed int)-1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
             defaultHostApiIndex_ = hostApisCount_;
 
         }
@@ -8567,17 +8567,17 @@ error:
 
 // InitializeStream
 // file src/hostapi/jack/pa_jack.c line 926
-static signed int InitializeStream(struct PaJackStream *stream, struct anonymous$4 *hostApi, signed int numInputChannels, signed int numOutputChannels)
+static signed int InitializeStream(struct PaJackStream *stream, struct anonymous_4 *hostApi, signed int numInputChannels, signed int numOutputChannels)
 {
   signed int result = 0;
   /* assertion stream */
   assert(stream != ((struct PaJackStream *)NULL));
   memset((void *)stream, 0, sizeof(struct PaJackStream) /*688ul*/ );
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
   {
     stream->stream_memory=PaUtil_CreateAllocationGroup();
-    if(stream->stream_memory == ((struct anonymous$13 *)NULL))
+    if(stream->stream_memory == ((struct anonymous_13 *)NULL))
     {
       PaUtil_DebugPrint("Expression 'stream->stream_memory = PaUtil_CreateAllocationGroup()' failed in 'src/hostapi/jack/pa_jack.c', line: 933\n");
       result = -9992;
@@ -8588,15 +8588,15 @@ static signed int InitializeStream(struct PaJackStream *stream, struct anonymous
   while((_Bool)0);
   stream->jack_client = hostApi->jack_client;
   stream->hostApi = hostApi;
-  unsigned long int return_value_pthread_self$2;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_2;
+  unsigned long int return_value_pthread_self_4;
   if(numInputChannels >= 1)
   {
     do
     {
-      void *return_value_PaUtil_GroupAllocateMemory$3;
-      return_value_PaUtil_GroupAllocateMemory$3=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numInputChannels));
-      stream->local_input_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory$3;
+      void *return_value_PaUtil_GroupAllocateMemory_3;
+      return_value_PaUtil_GroupAllocateMemory_3=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numInputChannels));
+      stream->local_input_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory_3;
       if(stream->local_input_ports == ((struct _jack_port **)NULL))
       {
         PaUtil_DebugPrint("Expression 'stream->local_input_ports = (jack_port_t**) PaUtil_GroupAllocateMemory( stream->stream_memory, sizeof(jack_port_t*) * numInputChannels )' failed in 'src/hostapi/jack/pa_jack.c', line: 941\n");
@@ -8609,9 +8609,9 @@ static signed int InitializeStream(struct PaJackStream *stream, struct anonymous
     memset((void *)stream->local_input_ports, 0, sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numInputChannels);
     do
     {
-      void *return_value_PaUtil_GroupAllocateMemory$5;
-      return_value_PaUtil_GroupAllocateMemory$5=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numInputChannels));
-      stream->remote_output_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory$5;
+      void *return_value_PaUtil_GroupAllocateMemory_5;
+      return_value_PaUtil_GroupAllocateMemory_5=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numInputChannels));
+      stream->remote_output_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory_5;
       if(stream->remote_output_ports == ((struct _jack_port **)NULL))
       {
         PaUtil_DebugPrint("Expression 'stream->remote_output_ports = (jack_port_t**) PaUtil_GroupAllocateMemory( stream->stream_memory, sizeof(jack_port_t*) * numInputChannels )' failed in 'src/hostapi/jack/pa_jack.c', line: 945\n");
@@ -8624,15 +8624,15 @@ static signed int InitializeStream(struct PaJackStream *stream, struct anonymous
     memset((void *)stream->remote_output_ports, 0, sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numInputChannels);
   }
 
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$8;
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_8;
   if(numOutputChannels >= 1)
   {
     do
     {
-      void *return_value_PaUtil_GroupAllocateMemory$7;
-      return_value_PaUtil_GroupAllocateMemory$7=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numOutputChannels));
-      stream->local_output_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory$7;
+      void *return_value_PaUtil_GroupAllocateMemory_7;
+      return_value_PaUtil_GroupAllocateMemory_7=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numOutputChannels));
+      stream->local_output_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory_7;
       if(stream->local_output_ports == ((struct _jack_port **)NULL))
       {
         PaUtil_DebugPrint("Expression 'stream->local_output_ports = (jack_port_t**) PaUtil_GroupAllocateMemory( stream->stream_memory, sizeof(jack_port_t*) * numOutputChannels )' failed in 'src/hostapi/jack/pa_jack.c', line: 952\n");
@@ -8645,9 +8645,9 @@ static signed int InitializeStream(struct PaJackStream *stream, struct anonymous
     memset((void *)stream->local_output_ports, 0, sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numOutputChannels);
     do
     {
-      void *return_value_PaUtil_GroupAllocateMemory$9;
-      return_value_PaUtil_GroupAllocateMemory$9=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numOutputChannels));
-      stream->remote_input_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory$9;
+      void *return_value_PaUtil_GroupAllocateMemory_9;
+      return_value_PaUtil_GroupAllocateMemory_9=PaUtil_GroupAllocateMemory(stream->stream_memory, (signed long int)(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)numOutputChannels));
+      stream->remote_input_ports = (struct _jack_port **)return_value_PaUtil_GroupAllocateMemory_9;
       if(stream->remote_input_ports == ((struct _jack_port **)NULL))
       {
         PaUtil_DebugPrint("Expression 'stream->remote_input_ports = (jack_port_t**) PaUtil_GroupAllocateMemory( stream->stream_memory, sizeof(jack_port_t*) * numOutputChannels )' failed in 'src/hostapi/jack/pa_jack.c', line: 956\n");
@@ -8675,12 +8675,12 @@ static void Int16_To_Float32(void *destinationBuffer, signed int destinationStri
   signed short int *src = (signed short int *)sourceBuffer;
   float *dest = (float *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float samp = (float)*src * const_1_div_32768_;
@@ -8699,12 +8699,12 @@ static void Int16_To_Int24(void *destinationBuffer, signed int destinationStride
   unsigned char *dest = (unsigned char *)destinationBuffer;
   signed short int temp;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     temp = *src;
@@ -8724,12 +8724,12 @@ static void Int16_To_Int32(void *destinationBuffer, signed int destinationStride
   signed short int *src = (signed short int *)sourceBuffer;
   signed int *dest = (signed int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed int)*src << 16;
@@ -8746,12 +8746,12 @@ static void Int16_To_Int8(void *destinationBuffer, signed int destinationStride,
   signed short int *src = (signed short int *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed char)((signed int)*src >> 8);
@@ -8768,12 +8768,12 @@ static void Int16_To_Int8_Dither(void *destinationBuffer, signed int destination
   signed short int *src = (signed short int *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     src = src + (signed long int)sourceStride;
@@ -8789,12 +8789,12 @@ static void Int16_To_UInt8(void *destinationBuffer, signed int destinationStride
   signed short int *src = (signed short int *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned char)(((signed int)*src >> 8) + 128);
@@ -8811,12 +8811,12 @@ static void Int16_To_UInt8_Dither(void *destinationBuffer, signed int destinatio
   signed short int *src = (signed short int *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     src = src + (signed long int)sourceStride;
@@ -8833,12 +8833,12 @@ static void Int24_To_Float32(void *destinationBuffer, signed int destinationStri
   float *dest = (float *)destinationBuffer;
   signed int temp;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     temp = (signed int)src[(signed long int)0] << 8;
@@ -8859,12 +8859,12 @@ static void Int24_To_Int16(void *destinationBuffer, signed int destinationStride
   signed short int *dest = (signed short int *)destinationBuffer;
   signed short int temp;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     temp = (signed short int)src[(signed long int)1];
@@ -8884,12 +8884,12 @@ static void Int24_To_Int16_Dither(void *destinationBuffer, signed int destinatio
   signed short int *dest = (signed short int *)destinationBuffer;
   signed int temp;
   signed int dither;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     temp = (signed int)src[(signed long int)0] << 8;
@@ -8911,12 +8911,12 @@ static void Int24_To_Int32(void *destinationBuffer, signed int destinationStride
   signed int *dest = (signed int *)destinationBuffer;
   signed int temp;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     temp = (signed int)src[(signed long int)0] << 8;
@@ -8936,12 +8936,12 @@ static void Int24_To_Int8(void *destinationBuffer, signed int destinationStride,
   unsigned char *src = (unsigned char *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed char)src[(signed long int)2];
@@ -8959,12 +8959,12 @@ static void Int24_To_Int8_Dither(void *destinationBuffer, signed int destination
   signed char *dest = (signed char *)destinationBuffer;
   signed int temp;
   signed int dither;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     temp = (signed int)src[(signed long int)0] << 8;
@@ -8985,12 +8985,12 @@ static void Int24_To_UInt8(void *destinationBuffer, signed int destinationStride
   unsigned char *src = (unsigned char *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned char)((signed int)src[(signed long int)2] + 128);
@@ -9019,12 +9019,12 @@ static void Int32_To_Float32(void *destinationBuffer, signed int destinationStri
   signed int *src = (signed int *)sourceBuffer;
   float *dest = (float *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (float)((double)*src * const_1_div_2147483648_);
@@ -9041,12 +9041,12 @@ static void Int32_To_Int16(void *destinationBuffer, signed int destinationStride
   signed int *src = (signed int *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed short int)(*src >> 16);
@@ -9063,12 +9063,12 @@ static void Int32_To_Int16_Dither(void *destinationBuffer, signed int destinatio
   signed int *src = (signed int *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
   signed int dither;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dither=PaUtil_Generate16BitTriangularDither(ditherGenerator);
@@ -9086,12 +9086,12 @@ static void Int32_To_Int24(void *destinationBuffer, signed int destinationStride
   signed int *src = (signed int *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dest[(signed long int)0] = (unsigned char)(*src >> 8);
@@ -9122,12 +9122,12 @@ static void Int32_To_Int8(void *destinationBuffer, signed int destinationStride,
   signed int *src = (signed int *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed char)(*src >> 24);
@@ -9144,12 +9144,12 @@ static void Int32_To_Int8_Dither(void *destinationBuffer, signed int destination
   signed int *src = (signed int *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   signed int dither;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dither=PaUtil_Generate16BitTriangularDither(ditherGenerator);
@@ -9167,12 +9167,12 @@ static void Int32_To_UInt8(void *destinationBuffer, signed int destinationStride
   signed int *src = (signed int *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned char)((*src >> 24) + 128);
@@ -9189,12 +9189,12 @@ static void Int32_To_UInt8_Dither(void *destinationBuffer, signed int destinatio
   signed int *src = (signed int *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     src = src + (signed long int)sourceStride;
@@ -9210,12 +9210,12 @@ static void Int8_To_Float32(void *destinationBuffer, signed int destinationStrid
   signed char *src = (signed char *)sourceBuffer;
   float *dest = (float *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float samp = (float)*src * const_1_div_128_;
@@ -9233,12 +9233,12 @@ static void Int8_To_Int16(void *destinationBuffer, signed int destinationStride,
   signed char *src = (signed char *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed short int)((signed int)*src << 8);
@@ -9255,12 +9255,12 @@ static void Int8_To_Int24(void *destinationBuffer, signed int destinationStride,
   signed char *src = (signed char *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dest[(signed long int)0] = (unsigned char)0;
@@ -9279,12 +9279,12 @@ static void Int8_To_Int32(void *destinationBuffer, signed int destinationStride,
   signed char *src = (signed char *)sourceBuffer;
   signed int *dest = (signed int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed int)*src << 24;
@@ -9301,12 +9301,12 @@ static void Int8_To_UInt8(void *destinationBuffer, signed int destinationStride,
   signed char *src = (signed char *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned char)((signed int)*src + 128);
@@ -9368,20 +9368,20 @@ static signed int IsFormatSupported(struct PaUtilHostApiRepresentation *hostApi,
   return 0;
 }
 
-// IsFormatSupported$link1
+// IsFormatSupported_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 1827
-static signed int IsFormatSupported$link1(struct PaUtilHostApiRepresentation *hostApi$link1, const struct PaStreamParameters *inputParameters$link1, const struct PaStreamParameters *outputParameters$link1, double sampleRate$link1)
+static signed int IsFormatSupported_link1(struct PaUtilHostApiRepresentation *hostApi_link1, const struct PaStreamParameters *inputParameters_link1, const struct PaStreamParameters *outputParameters_link1, double sampleRate_link1)
 {
-  signed int inputChannelCount$link1 = 0;
-  signed int outputChannelCount$link1 = 0;
-  unsigned long int inputSampleFormat$link1;
-  unsigned long int outputSampleFormat$link1;
+  signed int inputChannelCount_link1 = 0;
+  signed int outputChannelCount_link1 = 0;
+  unsigned long int inputSampleFormat_link1;
+  unsigned long int outputSampleFormat_link1;
   signed int result = 0;
-  if(!(inputParameters$link1 == ((const struct PaStreamParameters *)NULL)))
+  if(!(inputParameters_link1 == ((const struct PaStreamParameters *)NULL)))
   {
     do
     {
-      paUtilErr_=ValidateParameters(inputParameters$link1, hostApi$link1, (enum anonymous$17)StreamDirection_In);
+      paUtilErr_=ValidateParameters(inputParameters_link1, hostApi_link1, (enum anonymous_17)StreamDirection_In);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'ValidateParameters( inputParameters, hostApi, StreamDirection_In )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1838\n");
@@ -9391,15 +9391,15 @@ static signed int IsFormatSupported$link1(struct PaUtilHostApiRepresentation *ho
 
     }
     while((_Bool)0);
-    inputChannelCount$link1 = inputParameters$link1->channelCount;
-    inputSampleFormat$link1 = inputParameters$link1->sampleFormat;
+    inputChannelCount_link1 = inputParameters_link1->channelCount;
+    inputSampleFormat_link1 = inputParameters_link1->sampleFormat;
   }
 
-  if(!(outputParameters$link1 == ((const struct PaStreamParameters *)NULL)))
+  if(!(outputParameters_link1 == ((const struct PaStreamParameters *)NULL)))
   {
     do
     {
-      paUtilErr_=ValidateParameters(outputParameters$link1, hostApi$link1, (enum anonymous$17)StreamDirection_Out);
+      paUtilErr_=ValidateParameters(outputParameters_link1, hostApi_link1, (enum anonymous_17)StreamDirection_Out);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'ValidateParameters( outputParameters, hostApi, StreamDirection_Out )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1846\n");
@@ -9409,21 +9409,21 @@ static signed int IsFormatSupported$link1(struct PaUtilHostApiRepresentation *ho
 
     }
     while((_Bool)0);
-    outputChannelCount$link1 = outputParameters$link1->channelCount;
-    outputSampleFormat$link1 = outputParameters$link1->sampleFormat;
+    outputChannelCount_link1 = outputParameters_link1->channelCount;
+    outputSampleFormat_link1 = outputParameters_link1->sampleFormat;
   }
 
-  if(!(inputChannelCount$link1 == 0))
+  if(!(inputChannelCount_link1 == 0))
   {
-    result=TestParameters(hostApi$link1, inputParameters$link1, sampleRate$link1, (enum anonymous$17)StreamDirection_In);
+    result=TestParameters(hostApi_link1, inputParameters_link1, sampleRate_link1, (enum anonymous_17)StreamDirection_In);
     if(!(result == 0))
       goto error;
 
   }
 
-  if(!(outputChannelCount$link1 == 0))
+  if(!(outputChannelCount_link1 == 0))
   {
-    result=TestParameters(hostApi$link1, outputParameters$link1, sampleRate$link1, (enum anonymous$17)StreamDirection_Out);
+    result=TestParameters(hostApi_link1, outputParameters_link1, sampleRate_link1, (enum anonymous_17)StreamDirection_Out);
     if(!(result == 0))
       goto error;
 
@@ -9436,127 +9436,127 @@ error:
   return result;
 }
 
-// IsFormatSupported$link2
+// IsFormatSupported_link2
 // file src/hostapi/jack/pa_jack.c line 839
-static signed int IsFormatSupported$link2(struct PaUtilHostApiRepresentation *hostApi$link2, const struct PaStreamParameters *inputParameters$link2, const struct PaStreamParameters *outputParameters$link2, double sampleRate$link2)
+static signed int IsFormatSupported_link2(struct PaUtilHostApiRepresentation *hostApi_link2, const struct PaStreamParameters *inputParameters_link2, const struct PaStreamParameters *outputParameters_link2, double sampleRate_link2)
 {
-  signed int inputChannelCount$link2 = 0;
-  signed int outputChannelCount$link2 = 0;
-  unsigned long int inputSampleFormat$link2;
-  unsigned long int outputSampleFormat$link2;
-  if(!(inputParameters$link2 == ((const struct PaStreamParameters *)NULL)))
+  signed int inputChannelCount_link2 = 0;
+  signed int outputChannelCount_link2 = 0;
+  unsigned long int inputSampleFormat_link2;
+  unsigned long int outputSampleFormat_link2;
+  if(!(inputParameters_link2 == ((const struct PaStreamParameters *)NULL)))
   {
-    inputChannelCount$link2 = inputParameters$link2->channelCount;
-    inputSampleFormat$link2 = inputParameters$link2->sampleFormat;
-    if(inputParameters$link2->device == -2)
+    inputChannelCount_link2 = inputParameters_link2->channelCount;
+    inputSampleFormat_link2 = inputParameters_link2->sampleFormat;
+    if(inputParameters_link2->device == -2)
       return -9996;
 
-    if(!(hostApi$link2->deviceInfos[(signed long int)inputParameters$link2->device]->maxInputChannels >= inputChannelCount$link2))
+    if(!(hostApi_link2->deviceInfos[(signed long int)inputParameters_link2->device]->maxInputChannels >= inputChannelCount_link2))
       return -9998;
 
-    if(!(inputParameters$link2->hostApiSpecificStreamInfo == NULL))
+    if(!(inputParameters_link2->hostApiSpecificStreamInfo == NULL))
       return -9984;
 
   }
 
   else
-    inputChannelCount$link2 = 0;
-  if(!(outputParameters$link2 == ((const struct PaStreamParameters *)NULL)))
+    inputChannelCount_link2 = 0;
+  if(!(outputParameters_link2 == ((const struct PaStreamParameters *)NULL)))
   {
-    outputChannelCount$link2 = outputParameters$link2->channelCount;
-    outputSampleFormat$link2 = outputParameters$link2->sampleFormat;
-    if(outputParameters$link2->device == -2)
+    outputChannelCount_link2 = outputParameters_link2->channelCount;
+    outputSampleFormat_link2 = outputParameters_link2->sampleFormat;
+    if(outputParameters_link2->device == -2)
       return -9996;
 
-    if(!(hostApi$link2->deviceInfos[(signed long int)outputParameters$link2->device]->maxOutputChannels >= outputChannelCount$link2))
+    if(!(hostApi_link2->deviceInfos[(signed long int)outputParameters_link2->device]->maxOutputChannels >= outputChannelCount_link2))
       return -9998;
 
-    if(!(outputParameters$link2->hostApiSpecificStreamInfo == NULL))
+    if(!(outputParameters_link2->hostApiSpecificStreamInfo == NULL))
       return -9984;
 
   }
 
   else
-    outputChannelCount$link2 = 0;
-  unsigned int return_value_jack_get_sample_rate$1;
-  return_value_jack_get_sample_rate$1=jack_get_sample_rate(((struct anonymous$4 *)hostApi$link2)->jack_client);
-  double tmp_if_expr$4;
-  unsigned int return_value_jack_get_sample_rate$2;
-  unsigned int return_value_jack_get_sample_rate$3;
-  if(sampleRate$link2 + -((double)return_value_jack_get_sample_rate$1) > 0.000000)
+    outputChannelCount_link2 = 0;
+  unsigned int return_value_jack_get_sample_rate_1;
+  return_value_jack_get_sample_rate_1=jack_get_sample_rate(((struct anonymous_4 *)hostApi_link2)->jack_client);
+  double tmp_if_expr_4;
+  unsigned int return_value_jack_get_sample_rate_2;
+  unsigned int return_value_jack_get_sample_rate_3;
+  if(sampleRate_link2 + -((double)return_value_jack_get_sample_rate_1) > 0.000000)
   {
-    return_value_jack_get_sample_rate$2=jack_get_sample_rate(((struct anonymous$4 *)hostApi$link2)->jack_client);
-    tmp_if_expr$4 = sampleRate$link2 - (double)return_value_jack_get_sample_rate$2;
+    return_value_jack_get_sample_rate_2=jack_get_sample_rate(((struct anonymous_4 *)hostApi_link2)->jack_client);
+    tmp_if_expr_4 = sampleRate_link2 - (double)return_value_jack_get_sample_rate_2;
   }
 
   else
   {
-    return_value_jack_get_sample_rate$3=jack_get_sample_rate(((struct anonymous$4 *)hostApi$link2)->jack_client);
-    tmp_if_expr$4 = -(sampleRate$link2 - (double)return_value_jack_get_sample_rate$3);
+    return_value_jack_get_sample_rate_3=jack_get_sample_rate(((struct anonymous_4 *)hostApi_link2)->jack_client);
+    tmp_if_expr_4 = -(sampleRate_link2 - (double)return_value_jack_get_sample_rate_3);
   }
-  if(tmp_if_expr$4 > 1.000000)
+  if(tmp_if_expr_4 > 1.000000)
     return -9997;
 
   else
     return 0;
 }
 
-// IsFormatSupported$link3
+// IsFormatSupported_link3
 // file src/hostapi/oss/pa_unix_oss.c line 605
-static signed int IsFormatSupported$link3(struct PaUtilHostApiRepresentation *hostApi$link3, const struct PaStreamParameters *inputParameters$link3, const struct PaStreamParameters *outputParameters$link3, double sampleRate$link3)
+static signed int IsFormatSupported_link3(struct PaUtilHostApiRepresentation *hostApi_link3, const struct PaStreamParameters *inputParameters_link3, const struct PaStreamParameters *outputParameters_link3, double sampleRate_link3)
 {
-  signed int result$link1 = 0;
+  signed int result_link1 = 0;
   signed int device;
   struct PaDeviceInfo *deviceInfo;
   char *deviceName;
-  signed int inputChannelCount$link3;
-  signed int outputChannelCount$link3;
+  signed int inputChannelCount_link3;
+  signed int outputChannelCount_link3;
   signed int tempDevHandle = -1;
   signed int flags;
-  unsigned long int inputSampleFormat$link3;
-  unsigned long int outputSampleFormat$link3;
-  if(!(inputParameters$link3 == ((const struct PaStreamParameters *)NULL)))
+  unsigned long int inputSampleFormat_link3;
+  unsigned long int outputSampleFormat_link3;
+  if(!(inputParameters_link3 == ((const struct PaStreamParameters *)NULL)))
   {
-    inputChannelCount$link3 = inputParameters$link3->channelCount;
-    inputSampleFormat$link3 = inputParameters$link3->sampleFormat;
-    if(inputParameters$link3->device == -2)
+    inputChannelCount_link3 = inputParameters_link3->channelCount;
+    inputSampleFormat_link3 = inputParameters_link3->sampleFormat;
+    if(inputParameters_link3->device == -2)
       return -9996;
 
-    if(!(hostApi$link3->deviceInfos[(signed long int)inputParameters$link3->device]->maxInputChannels >= inputChannelCount$link3))
+    if(!(hostApi_link3->deviceInfos[(signed long int)inputParameters_link3->device]->maxInputChannels >= inputChannelCount_link3))
       return -9998;
 
-    if(!(inputParameters$link3->hostApiSpecificStreamInfo == NULL))
+    if(!(inputParameters_link3->hostApiSpecificStreamInfo == NULL))
       return -9984;
 
   }
 
   else
-    inputChannelCount$link3 = 0;
-  if(!(outputParameters$link3 == ((const struct PaStreamParameters *)NULL)))
+    inputChannelCount_link3 = 0;
+  if(!(outputParameters_link3 == ((const struct PaStreamParameters *)NULL)))
   {
-    outputChannelCount$link3 = outputParameters$link3->channelCount;
-    outputSampleFormat$link3 = outputParameters$link3->sampleFormat;
-    if(outputParameters$link3->device == -2)
+    outputChannelCount_link3 = outputParameters_link3->channelCount;
+    outputSampleFormat_link3 = outputParameters_link3->sampleFormat;
+    if(outputParameters_link3->device == -2)
       return -9996;
 
-    if(!(hostApi$link3->deviceInfos[(signed long int)outputParameters$link3->device]->maxOutputChannels >= outputChannelCount$link3))
+    if(!(hostApi_link3->deviceInfos[(signed long int)outputParameters_link3->device]->maxOutputChannels >= outputChannelCount_link3))
       return -9998;
 
-    if(!(outputParameters$link3->hostApiSpecificStreamInfo == NULL))
+    if(!(outputParameters_link3->hostApiSpecificStreamInfo == NULL))
       return -9984;
 
   }
 
   else
-    outputChannelCount$link3 = 0;
-  unsigned long int return_value_pthread_self$3;
-  if(inputChannelCount$link3 == 0 && outputChannelCount$link3 == 0)
+    outputChannelCount_link3 = 0;
+  unsigned long int return_value_pthread_self_3;
+  if(inputChannelCount_link3 == 0 && outputChannelCount_link3 == 0)
     return -9998;
 
   else
-    if(inputChannelCount$link3 >= 1 && outputChannelCount$link3 >= 1)
+    if(inputChannelCount_link3 >= 1 && outputChannelCount_link3 >= 1)
     {
-      if(inputParameters$link3->device == outputParameters$link3->device)
+      if(inputParameters_link3->device == outputParameters_link3->device)
         goto __CPROVER_DUMP_L12;
 
       return -9996;
@@ -9567,34 +9567,34 @@ static signed int IsFormatSupported$link3(struct PaUtilHostApiRepresentation *ho
 
     __CPROVER_DUMP_L12:
       ;
-      if(inputChannelCount$link3 >= 1 && outputChannelCount$link3 >= 1 && !(inputChannelCount$link3 == outputChannelCount$link3))
+      if(inputChannelCount_link3 >= 1 && outputChannelCount_link3 >= 1 && !(inputChannelCount_link3 == outputChannelCount_link3))
         return -9998;
 
       else
       {
-        if(inputChannelCount$link3 >= 1)
+        if(inputChannelCount_link3 >= 1)
         {
-          result$link1=PaUtil_DeviceIndexToHostApiDeviceIndex(&device, inputParameters$link3->device, hostApi$link3);
-          if(!(result$link1 == 0))
-            return result$link1;
+          result_link1=PaUtil_DeviceIndexToHostApiDeviceIndex(&device, inputParameters_link3->device, hostApi_link3);
+          if(!(result_link1 == 0))
+            return result_link1;
 
         }
 
         else
         {
-          result$link1=PaUtil_DeviceIndexToHostApiDeviceIndex(&device, outputParameters$link3->device, hostApi$link3);
-          if(!(result$link1 == 0))
-            return result$link1;
+          result_link1=PaUtil_DeviceIndexToHostApiDeviceIndex(&device, outputParameters_link3->device, hostApi_link3);
+          if(!(result_link1 == 0))
+            return result_link1;
 
         }
-        deviceInfo = hostApi$link3->deviceInfos[(signed long int)device];
+        deviceInfo = hostApi_link3->deviceInfos[(signed long int)device];
         deviceName = (char *)deviceInfo->name;
         flags = 04000;
-        if(inputChannelCount$link3 >= 1 && outputChannelCount$link3 >= 1)
+        if(inputChannelCount_link3 >= 1 && outputChannelCount_link3 >= 1)
           flags = flags | 02;
 
         else
-          if(inputChannelCount$link3 >= 1)
+          if(inputChannelCount_link3 >= 1)
             flags = flags | 00;
 
           else
@@ -9606,7 +9606,7 @@ static signed int IsFormatSupported$link3(struct PaUtilHostApiRepresentation *ho
           if(!(sysErr_ >= 0))
           {
             PaUtil_DebugPrint("Expression 'tempDevHandle = open( deviceInfo->name, flags )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 708\n");
-            result$link1 = -9985;
+            result_link1 = -9985;
             break;
           }
 
@@ -9618,7 +9618,7 @@ static signed int IsFormatSupported$link3(struct PaUtilHostApiRepresentation *ho
         if(tempDevHandle >= 0)
           close(tempDevHandle);
 
-        return result$link1;
+        return result_link1;
       }
     }
 }
@@ -9632,28 +9632,28 @@ static signed int IsStreamActive(void *s)
   return 0;
 }
 
-// IsStreamActive$link1
+// IsStreamActive_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3150
-static signed int IsStreamActive$link1(void *s$link1)
+static signed int IsStreamActive_link1(void *s_link1)
 {
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
-  return stream$link1->isActive;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
+  return stream_link1->isActive;
 }
 
-// IsStreamActive$link2
+// IsStreamActive_link2
 // file src/hostapi/jack/pa_jack.c line 1726
-static signed int IsStreamActive$link2(void *s$link2)
+static signed int IsStreamActive_link2(void *s_link2)
 {
-  struct PaJackStream *stream$link2 = (struct PaJackStream *)s$link2;
-  return stream$link2->is_active;
+  struct PaJackStream *stream_link2 = (struct PaJackStream *)s_link2;
+  return stream_link2->is_active;
 }
 
-// IsStreamActive$link3
+// IsStreamActive_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1880
-static signed int IsStreamActive$link3(void *s$link3)
+static signed int IsStreamActive_link3(void *s_link3)
 {
-  struct PaOssStream *stream$link3 = (struct PaOssStream *)s$link3;
-  return stream$link3->isActive;
+  struct PaOssStream *stream_link3 = (struct PaOssStream *)s_link3;
+  return stream_link3->isActive;
 }
 
 // IsStreamStopped
@@ -9665,36 +9665,36 @@ static signed int IsStreamStopped(void *s)
   return 0;
 }
 
-// IsStreamStopped$link1
+// IsStreamStopped_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3142
-static signed int IsStreamStopped$link1(void *s$link1)
+static signed int IsStreamStopped_link1(void *s_link1)
 {
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
-  signed int return_value_IsStreamActive$1;
-  return_value_IsStreamActive$1=IsStreamActive$link1(s$link1);
-  _Bool tmp_if_expr$2;
-  if(return_value_IsStreamActive$1 == 0)
-    tmp_if_expr$2 = !(stream$link1->callback_finished != 0) ? (_Bool)1 : (_Bool)0;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
+  signed int return_value_IsStreamActive_1;
+  return_value_IsStreamActive_1=IsStreamActive_link1(s_link1);
+  _Bool tmp_if_expr_2;
+  if(return_value_IsStreamActive_1 == 0)
+    tmp_if_expr_2 = !(stream_link1->callback_finished != 0) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return (signed int)tmp_if_expr_2;
 }
 
-// IsStreamStopped$link2
+// IsStreamStopped_link2
 // file src/hostapi/jack/pa_jack.c line 1719
-static signed int IsStreamStopped$link2(void *s$link2)
+static signed int IsStreamStopped_link2(void *s_link2)
 {
-  struct PaJackStream *stream$link2 = (struct PaJackStream *)s$link2;
-  return (signed int)!(stream$link2->is_running != 0);
+  struct PaJackStream *stream_link2 = (struct PaJackStream *)s_link2;
+  return (signed int)!(stream_link2->is_running != 0);
 }
 
-// IsStreamStopped$link3
+// IsStreamStopped_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1870
-static signed int IsStreamStopped$link3(void *s$link3)
+static signed int IsStreamStopped_link3(void *s_link3)
 {
-  struct PaOssStream *stream$link3 = (struct PaOssStream *)s$link3;
-  return stream$link3->isStopped;
+  struct PaOssStream *stream_link3 = (struct PaOssStream *)s_link3;
+  return stream_link3->isStopped;
 }
 
 // JackCallback
@@ -9702,13 +9702,13 @@ static signed int IsStreamStopped$link3(void *s$link3)
 static signed int JackCallback(unsigned int frames, void *userData)
 {
   signed int result = 0;
-  struct anonymous$4 *hostApi = (struct anonymous$4 *)userData;
+  struct anonymous_4 *hostApi = (struct anonymous_4 *)userData;
   struct PaJackStream *stream = (struct PaJackStream *)(void *)0;
   signed int xrun = hostApi->xrun;
   hostApi->xrun = 0;
   /* assertion hostApi */
-  assert(hostApi != ((struct anonymous$4 *)NULL));
-  unsigned long int return_value_pthread_self$1;
+  assert(hostApi != ((struct anonymous_4 *)NULL));
+  unsigned long int return_value_pthread_self_1;
   do
   {
     signed int paErr;
@@ -9717,14 +9717,14 @@ static signed int JackCallback(unsigned int frames, void *userData)
     {
       if(paErr == -9999)
       {
-        return_value_pthread_self$1=pthread_self();
-        if(return_value_pthread_self$1 == mainThread_)
+        return_value_pthread_self_1=pthread_self();
+        if(return_value_pthread_self_1 == mainThread_)
         {
-          const char *JackCallback$$1$$1$$1$$1$$err = jackErr_;
-          if(JackCallback$$1$$1$$1$$1$$err == ((const char *)NULL))
-            JackCallback$$1$$1$$1$$1$$err = "unknown error";
+          const char *JackCallback__1__1__1__1__err = jackErr_;
+          if(JackCallback__1__1__1__1__err == ((const char *)NULL))
+            JackCallback__1__1__1__1__err = "unknown error";
 
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, JackCallback$$1$$1$$1$$1$$err);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, JackCallback__1__1__1__1__err);
         }
 
       }
@@ -9737,9 +9737,9 @@ static signed int JackCallback(unsigned int frames, void *userData)
   }
   while((_Bool)0);
   stream = hostApi->processQueue;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_pthread_self$3;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_pthread_self_3;
+  _Bool tmp_if_expr_5;
   for( ; !(stream == ((struct PaJackStream *)NULL)); stream = stream->next)
   {
     if(!(xrun == 0))
@@ -9747,9 +9747,9 @@ static signed int JackCallback(unsigned int frames, void *userData)
 
     if(!(stream->doStart == 0))
     {
-      signed int JackCallback$$1$$2$$1$$1$$err;
-      JackCallback$$1$$2$$1$$1$$err=pthread_mutex_trylock(&stream->hostApi->mtx);
-      if(JackCallback$$1$$2$$1$$1$$err == 0)
+      signed int JackCallback__1__2__1__1__err;
+      JackCallback__1__2__1__1__err=pthread_mutex_trylock(&stream->hostApi->mtx);
+      if(JackCallback__1__2__1__1__err == 0)
       {
         if(!(stream->doStart == 0))
         {
@@ -9757,10 +9757,10 @@ static signed int JackCallback(unsigned int frames, void *userData)
           stream->doStart = 0;
           do
           {
-            signed int JackCallback$$1$$2$$1$$1$$1$$1$$1$$err;
-            JackCallback$$1$$2$$1$$1$$1$$1$$1$$err=pthread_cond_signal(&stream->hostApi->cond);
+            signed int JackCallback__1__2__1__1__1__1__1__err;
+            JackCallback__1__2__1__1__1__1__1__err=pthread_cond_signal(&stream->hostApi->cond);
             /* assertion err == 0 */
-            assert(JackCallback$$1$$2$$1$$1$$1$$1$$1$$err == 0);
+            assert(JackCallback__1__2__1__1__1__1__1__err == 0);
           }
           while((_Bool)0);
           stream->callbackResult = 0;
@@ -9769,27 +9769,27 @@ static signed int JackCallback(unsigned int frames, void *userData)
 
         do
         {
-          signed int JackCallback$$1$$2$$1$$1$$1$$2$$err;
-          JackCallback$$1$$2$$1$$1$$1$$2$$err=pthread_mutex_unlock(&stream->hostApi->mtx);
+          signed int JackCallback__1__2__1__1__1__2__err;
+          JackCallback__1__2__1__1__1__2__err=pthread_mutex_unlock(&stream->hostApi->mtx);
           /* assertion err == 0 */
-          assert(JackCallback$$1$$2$$1$$1$$1$$2$$err == 0);
+          assert(JackCallback__1__2__1__1__1__2__err == 0);
         }
         while((_Bool)0);
       }
 
       else
         /* assertion err == 16 */
-        assert(JackCallback$$1$$2$$1$$1$$err == 16);
+        assert(JackCallback__1__2__1__1__err == 16);
     }
 
     else
     {
       if(!(stream->doStop == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = stream->doAbort != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = stream->doAbort != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(stream->callbackResult == 0)
           stream->callbackResult = stream->doStop != 0 ? 1 : 2;
@@ -9800,26 +9800,26 @@ static signed int JackCallback(unsigned int frames, void *userData)
     if(!(stream->is_active == 0))
       do
       {
-        signed int JackCallback$$1$$2$$1$$3$$paErr;
-        JackCallback$$1$$2$$1$$3$$paErr=RealProcess(stream, frames);
-        if(!(JackCallback$$1$$2$$1$$3$$paErr >= 0))
+        signed int JackCallback__1__2__1__3__paErr;
+        JackCallback__1__2__1__3__paErr=RealProcess(stream, frames);
+        if(!(JackCallback__1__2__1__3__paErr >= 0))
         {
-          if(JackCallback$$1$$2$$1$$3$$paErr == -9999)
+          if(JackCallback__1__2__1__3__paErr == -9999)
           {
-            return_value_pthread_self$3=pthread_self();
-            if(return_value_pthread_self$3 == mainThread_)
+            return_value_pthread_self_3=pthread_self();
+            if(return_value_pthread_self_3 == mainThread_)
             {
-              const char *JackCallback$$1$$2$$1$$3$$1$$1$$err = jackErr_;
-              if(JackCallback$$1$$2$$1$$3$$1$$1$$err == ((const char *)NULL))
-                JackCallback$$1$$2$$1$$3$$1$$1$$err = "unknown error";
+              const char *JackCallback__1__2__1__3__1__1__err = jackErr_;
+              if(JackCallback__1__2__1__3__1__1__err == ((const char *)NULL))
+                JackCallback__1__2__1__3__1__1__err = "unknown error";
 
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, JackCallback$$1$$2$$1$$3$$1$$1$$err);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, JackCallback__1__2__1__3__1__1__err);
             }
 
           }
 
           PaUtil_DebugPrint("Expression 'RealProcess( stream, frames )' failed in 'src/hostapi/jack/pa_jack.c', line: 1552\n");
-          result = JackCallback$$1$$2$$1$$3$$paErr;
+          result = JackCallback__1__2__1__3__paErr;
           goto error;
         }
 
@@ -9834,9 +9834,9 @@ static signed int JackCallback(unsigned int frames, void *userData)
         for( ; !(i >= stream->num_outgoing_connections); i = i + 1)
         {
           float *buffer;
-          void *return_value_jack_port_get_buffer$4;
-          return_value_jack_port_get_buffer$4=jack_port_get_buffer(stream->local_output_ports[(signed long int)i], frames);
-          buffer = (float *)return_value_jack_port_get_buffer$4;
+          void *return_value_jack_port_get_buffer_4;
+          return_value_jack_port_get_buffer_4=jack_port_get_buffer(stream->local_output_ports[(signed long int)i], frames);
+          buffer = (float *)return_value_jack_port_get_buffer_4;
           memset((void *)buffer, 0, sizeof(float) /*4ul*/  * (unsigned long int)frames);
         }
         stream->isSilenced = 1;
@@ -9845,17 +9845,17 @@ static signed int JackCallback(unsigned int frames, void *userData)
     }
 
     if(!(stream->doStop == 0))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = stream->doAbort != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = stream->doAbort != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(stream->is_active == 0)
       {
-        signed int JackCallback$$1$$2$$1$$5$$1$$err;
-        JackCallback$$1$$2$$1$$5$$1$$err=pthread_mutex_trylock(&stream->hostApi->mtx);
-        if(JackCallback$$1$$2$$1$$5$$1$$err == 0)
+        signed int JackCallback__1__2__1__5__1__err;
+        JackCallback__1__2__1__5__1__err=pthread_mutex_trylock(&stream->hostApi->mtx);
+        if(JackCallback__1__2__1__5__1__err == 0)
         {
           stream->doAbort = 0;
           stream->doStop = stream->doAbort;
@@ -9869,17 +9869,17 @@ static signed int JackCallback(unsigned int frames, void *userData)
           while((_Bool)0);
           do
           {
-            signed int JackCallback$$1$$2$$1$$5$$1$$1$$2$$err;
-            JackCallback$$1$$2$$1$$5$$1$$1$$2$$err=pthread_mutex_unlock(&stream->hostApi->mtx);
+            signed int JackCallback__1__2__1__5__1__1__2__err;
+            JackCallback__1__2__1__5__1__1__2__err=pthread_mutex_unlock(&stream->hostApi->mtx);
             /* assertion err == 0 */
-            assert(JackCallback$$1$$2$$1$$5$$1$$1$$2$$err == 0);
+            assert(JackCallback__1__2__1__5__1__1__2__err == 0);
           }
           while((_Bool)0);
         }
 
         else
           /* assertion err == 16 */
-          assert(JackCallback$$1$$2$$1$$5$$1$$err == 16);
+          assert(JackCallback__1__2__1__5__1__err == 16);
       }
 
     }
@@ -9896,17 +9896,17 @@ error:
 // file src/hostapi/jack/pa_jack.c line 652
 static void JackErrorCallback(const char *msg)
 {
-  unsigned long int return_value_pthread_self$3;
-  return_value_pthread_self$3=pthread_self();
-  if(return_value_pthread_self$3 == mainThread_)
+  unsigned long int return_value_pthread_self_3;
+  return_value_pthread_self_3=pthread_self();
+  if(return_value_pthread_self_3 == mainThread_)
   {
     /* assertion msg */
     assert(msg != ((const char *)NULL));
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(msg);
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)jackErr_, return_value_strlen$1 + (unsigned long int)1);
-    jackErr_ = (char *)return_value_realloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(msg);
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)jackErr_, return_value_strlen_1 + (unsigned long int)1);
+    jackErr_ = (char *)return_value_realloc_2;
     strcpy(jackErr_, msg);
   }
 
@@ -9916,7 +9916,7 @@ static void JackErrorCallback(const char *msg)
 // file src/hostapi/jack/pa_jack.c line 662
 static void JackOnShutdown(void *arg)
 {
-  struct anonymous$4 *jackApi = (struct anonymous$4 *)arg;
+  struct anonymous_4 *jackApi = (struct anonymous_4 *)arg;
   struct PaJackStream *stream = jackApi->processQueue;
   for( ; !(stream == ((struct PaJackStream *)NULL)); stream = stream->next)
     stream->is_active = 0;
@@ -9931,18 +9931,18 @@ static void JackOnShutdown(void *arg)
   jackApi->jackIsDown = 1;
   do
   {
-    signed int JackOnShutdown$$1$$3$$err;
-    JackOnShutdown$$1$$3$$err=pthread_cond_signal(&jackApi->cond);
+    signed int JackOnShutdown__1__3__err;
+    JackOnShutdown__1__3__err=pthread_cond_signal(&jackApi->cond);
     /* assertion err == 0 */
-    assert(JackOnShutdown$$1$$3$$err == 0);
+    assert(JackOnShutdown__1__3__err == 0);
   }
   while((_Bool)0);
   do
   {
-    signed int JackOnShutdown$$1$$4$$err;
-    JackOnShutdown$$1$$4$$err=pthread_mutex_unlock(&jackApi->mtx);
+    signed int JackOnShutdown__1__4__err;
+    JackOnShutdown__1__4__err=pthread_mutex_unlock(&jackApi->mtx);
     /* assertion err == 0 */
-    assert(JackOnShutdown$$1$$4$$err == 0);
+    assert(JackOnShutdown__1__4__err == 0);
   }
   while((_Bool)0);
 }
@@ -9951,7 +9951,7 @@ static void JackOnShutdown(void *arg)
 // file src/hostapi/jack/pa_jack.c line 681
 static signed int JackSrCb(unsigned int nframes, void *arg)
 {
-  struct anonymous$4 *jackApi = (struct anonymous$4 *)arg;
+  struct anonymous_4 *jackApi = (struct anonymous_4 *)arg;
   double sampleRate = (double)nframes;
   struct PaJackStream *stream = jackApi->processQueue;
   for( ; !(stream == ((struct PaJackStream *)NULL)); stream = stream->next)
@@ -9965,9 +9965,9 @@ static signed int JackSrCb(unsigned int nframes, void *arg)
 // file src/hostapi/jack/pa_jack.c line 701
 static signed int JackXRunCb(void *arg)
 {
-  struct anonymous$4 *hostApi = (struct anonymous$4 *)arg;
+  struct anonymous_4 *hostApi = (struct anonymous_4 *)arg;
   /* assertion hostApi */
-  assert(hostApi != ((struct anonymous$4 *)NULL));
+  assert(hostApi != ((struct anonymous_4 *)NULL));
   hostApi->xrun = 1;
   return 0;
 }
@@ -9976,9 +9976,9 @@ static signed int JackXRunCb(void *arg)
 // file src/common/pa_process.c line 66
 static unsigned long int LCM(unsigned long int a, unsigned long int b)
 {
-  unsigned long int return_value_GCD$1;
-  return_value_GCD$1=GCD(a, b);
-  return (a * b) / return_value_GCD$1;
+  unsigned long int return_value_GCD_1;
+  return_value_GCD_1=GCD(a, b);
+  return (a * b) / return_value_GCD_1;
 }
 
 // LogAllAvailableFormats
@@ -9989,9 +9989,9 @@ static void LogAllAvailableFormats(struct _snd_pcm *pcm)
   struct _snd_pcm_hw_params *hwParams;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_hw_params_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_1;
   memset((void *)*(&hwParams), 0, __alsa_alloca_size);
   alsa_snd_pcm_hw_params_any(pcm, hwParams);
   signed int return_value;
@@ -10088,21 +10088,21 @@ static signed int ModifyBlocking(signed int fd, signed int blocking)
 {
   signed int result = 0;
   signed int fflags;
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
   {
     fflags=fcntl(fd, 3);
     sysErr_ = fflags;
     if(!(sysErr_ >= 0))
     {
-      return_value_pthread_self$3=pthread_self();
-      if(return_value_pthread_self$3 == mainThread_$link1)
+      return_value_pthread_self_3=pthread_self();
+      if(return_value_pthread_self_3 == mainThread__link1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_2);
       }
 
       PaUtil_DebugPrint("Expression 'fflags = fcntl( fd, F_GETFL )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 793\n");
@@ -10117,20 +10117,20 @@ static signed int ModifyBlocking(signed int fd, signed int blocking)
 
   else
     fflags = fflags | 04000;
-  unsigned long int return_value_pthread_self$6;
+  unsigned long int return_value_pthread_self_6;
   do
   {
     sysErr_=fcntl(fd, 4, fflags);
     if(!(sysErr_ >= 0))
     {
-      return_value_pthread_self$6=pthread_self();
-      if(return_value_pthread_self$6 == mainThread_$link1)
+      return_value_pthread_self_6=pthread_self();
+      if(return_value_pthread_self_6 == mainThread__link1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_5);
       }
 
       PaUtil_DebugPrint("Expression 'fcntl( fd, F_SETFL, fflags )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 800\n");
@@ -10148,7 +10148,7 @@ error:
 
 // NonAdaptingProcess
 // file src/common/pa_process.c line 704
-static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess)
+static unsigned long int NonAdaptingProcess(struct anonymous_7 *bp, signed int *streamCallbackResult, struct PaUtilChannelDescriptor *hostInputChannels, struct PaUtilChannelDescriptor *hostOutputChannels, unsigned long int framesToProcess)
 {
   void *userInput;
   void *userOutput;
@@ -10164,23 +10164,23 @@ static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *
   unsigned long int framesProcessed = (unsigned long int)0;
   signed int skipOutputConvert = 0;
   signed int skipInputConvert = 0;
-  unsigned long int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$1;
+  unsigned long int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_1;
   if(*streamCallbackResult == 0)
   {
     if(!(bp->framesPerTempBuffer >= framesToGo))
-      tmp_if_expr$2 = bp->framesPerTempBuffer;
+      tmp_if_expr_2 = bp->framesPerTempBuffer;
 
     else
-      tmp_if_expr$2 = framesToGo;
-    frameCount = tmp_if_expr$2;
+      tmp_if_expr_2 = framesToGo;
+    frameCount = tmp_if_expr_2;
     if(bp->inputChannelCount == 0u)
       userInput = NULL;
 
@@ -10192,21 +10192,21 @@ static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *
         destSampleStrideSamples = bp->inputChannelCount;
         destChannelStrideBytes = bp->bytesPerUserInputSample;
         if(!(bp->userInputSampleFormatIsEqualToHost == 0))
-          tmp_if_expr$3 = bp->hostInputIsInterleaved != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = bp->hostInputIsInterleaved != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (bp->hostInputChannels[(signed long int)0] + (signed long int)0)->data != NULL ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (bp->hostInputChannels[(signed long int)0] + (signed long int)0)->data != NULL ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = bp->inputChannelCount == (hostInputChannels + (signed long int)0)->stride ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = bp->inputChannelCount == (hostInputChannels + (signed long int)0)->stride ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           userInput = (hostInputChannels + (signed long int)0)->data;
           destBytePtr = (unsigned char *)(hostInputChannels + (signed long int)0)->data;
@@ -10222,16 +10222,16 @@ static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *
         destSampleStrideSamples = (unsigned int)1;
         destChannelStrideBytes = (unsigned int)(frameCount * (unsigned long int)bp->bytesPerUserInputSample);
         if(!(bp->userInputSampleFormatIsEqualToHost == 0))
-          tmp_if_expr$6 = !(bp->hostInputIsInterleaved != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = !(bp->hostInputIsInterleaved != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (bp->hostInputChannels[(signed long int)0] + (signed long int)0)->data != NULL ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (bp->hostInputChannels[(signed long int)0] + (signed long int)0)->data != NULL ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
           i = (unsigned int)0;
           for( ; !(i >= bp->inputChannelCount); i = i + 1u)
@@ -10287,11 +10287,11 @@ static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *
       if(!(bp->userOutputIsInterleaved == 0))
       {
         if(!(bp->userOutputSampleFormatIsEqualToHost == 0))
-          tmp_if_expr$8 = bp->hostOutputIsInterleaved != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = bp->hostOutputIsInterleaved != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
         {
           userOutput = (hostOutputChannels + (signed long int)0)->data;
           skipOutputConvert = 1;
@@ -10304,11 +10304,11 @@ static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *
       else
       {
         if(!(bp->userOutputSampleFormatIsEqualToHost == 0))
-          tmp_if_expr$9 = !(bp->hostOutputIsInterleaved != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = !(bp->hostOutputIsInterleaved != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
           i = (unsigned int)0;
           for( ; !(i >= bp->outputChannelCount); i = i + 1u)
@@ -10377,10 +10377,10 @@ static unsigned long int NonAdaptingProcess(struct anonymous$7 *bp, signed int *
     }
 
     if(framesToGo >= 1ul)
-      tmp_if_expr$1 = *streamCallbackResult == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *streamCallbackResult == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
 
   if(framesToGo >= 1ul)
@@ -10424,20 +10424,20 @@ static void OnExit(void *data)
   stream->isActive = 0;
 }
 
-// OnExit$link1
+// OnExit_link1
 // file src/hostapi/oss/pa_unix_oss.c line 1555
-static void OnExit$link1(void *data$link1)
+static void OnExit_link1(void *data_link1)
 {
-  struct PaOssStream *stream$link1 = (struct PaOssStream *)data$link1;
+  struct PaOssStream *stream_link1 = (struct PaOssStream *)data_link1;
   /* assertion data */
-  assert(data$link1 != NULL);
-  PaUtil_ResetCpuLoadMeasurer(&stream$link1->cpuLoadMeasurer);
-  PaOssStream_Stop(stream$link1, stream$link1->callbackAbort);
-  if(!(stream$link1->streamRepresentation.streamFinishedCallback == ((void (*)(void *))NULL)))
-    stream$link1->streamRepresentation.streamFinishedCallback(stream$link1->streamRepresentation.userData);
+  assert(data_link1 != NULL);
+  PaUtil_ResetCpuLoadMeasurer(&stream_link1->cpuLoadMeasurer);
+  PaOssStream_Stop(stream_link1, stream_link1->callbackAbort);
+  if(!(stream_link1->streamRepresentation.streamFinishedCallback == ((void (*)(void *))NULL)))
+    stream_link1->streamRepresentation.streamFinishedCallback(stream_link1->streamRepresentation.userData);
 
-  stream$link1->callbackAbort = 0;
-  stream$link1->isActive = 0;
+  stream_link1->callbackAbort = 0;
+  stream_link1->isActive = 0;
 }
 
 // OpenDevices
@@ -10463,7 +10463,7 @@ static signed int OpenDevices(const char *idevName, const char *odevName, signed
       flags = flags | 01;
   /* assertion flags & 04000 */
   assert((flags & 04000) != 0);
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   if(!(idevName == ((const char *)NULL)))
   {
     do
@@ -10481,11 +10481,11 @@ static signed int OpenDevices(const char *idevName, const char *odevName, signed
     while((_Bool)0);
     do
     {
-      paUtilErr_$link1=ModifyBlocking(*idev, 1);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=ModifyBlocking(*idev, 1);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'ModifyBlocking( *idev, 1 )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 833\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
@@ -10493,8 +10493,8 @@ static signed int OpenDevices(const char *idevName, const char *odevName, signed
     while((_Bool)0);
   }
 
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$9;
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_9;
   if(!(odevName == ((const char *)NULL)))
   {
     if(idevName == ((const char *)NULL))
@@ -10514,11 +10514,11 @@ static signed int OpenDevices(const char *idevName, const char *odevName, signed
       while((_Bool)0);
       do
       {
-        paUtilErr_$link1=ModifyBlocking(*odev, 1);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=ModifyBlocking(*odev, 1);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'ModifyBlocking( *odev, 1 )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 840\n");
-          result = paUtilErr_$link1;
+          result = paUtilErr__link1;
           goto error;
         }
 
@@ -10533,14 +10533,14 @@ static signed int OpenDevices(const char *idevName, const char *odevName, signed
         sysErr_ = *odev;
         if(!(sysErr_ >= 0))
         {
-          return_value_pthread_self$9=pthread_self();
-          if(return_value_pthread_self$9 == mainThread_$link1)
+          return_value_pthread_self_9=pthread_self();
+          if(return_value_pthread_self_9 == mainThread__link1)
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            char *return_value_strerror$8;
-            return_value_strerror$8=strerror(*return_value___errno_location$7);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$8);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            char *return_value_strerror_8;
+            return_value_strerror_8=strerror(*return_value___errno_location_7);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_8);
           }
 
           PaUtil_DebugPrint("Expression '*odev = dup( *idev )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 844\n");
@@ -10582,7 +10582,7 @@ static signed int OpenPcm(struct _snd_pcm **pcmp, const char *name, enum _snd_pc
 static signed int OpenStream(struct PaUtilHostApiRepresentation *hostApi, void **s, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, double sampleRate, unsigned long int framesPerBuffer, unsigned long int streamFlags, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData)
 {
   signed int result = 0;
-  struct anonymous$22 *skeletonHostApi = (struct anonymous$22 *)hostApi;
+  struct anonymous_22 *skeletonHostApi = (struct anonymous_22 *)hostApi;
   struct PaSkeletonStream *stream = ((struct PaSkeletonStream *)NULL);
   unsigned long int framesPerHostBuffer = framesPerBuffer;
   signed int inputChannelCount;
@@ -10635,16 +10635,16 @@ static signed int OpenStream(struct PaUtilHostApiRepresentation *hostApi, void *
     hostOutputSampleFormat = (unsigned long int)0x00000008;
     outputSampleFormat = hostOutputSampleFormat;
   }
-  unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames$2;
-  unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$3;
+  unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames_2;
+  unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_3;
   if(!((4294901760ul & streamFlags) == 0ul))
     return -9995;
 
   else
   {
-    void *return_value_PaUtil_AllocateMemory$1;
-    return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)sizeof(struct PaSkeletonStream) /*424ul*/ );
-    stream = (struct PaSkeletonStream *)return_value_PaUtil_AllocateMemory$1;
+    void *return_value_PaUtil_AllocateMemory_1;
+    return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)sizeof(struct PaSkeletonStream) /*424ul*/ );
+    stream = (struct PaSkeletonStream *)return_value_PaUtil_AllocateMemory_1;
     if(stream == ((struct PaSkeletonStream *)NULL))
       result = -9992;
 
@@ -10656,13 +10656,13 @@ static signed int OpenStream(struct PaUtilHostApiRepresentation *hostApi, void *
       else
         PaUtil_InitializeStreamRepresentation(&stream->streamRepresentation, &skeletonHostApi->blockingStreamInterface, streamCallback, userData);
       PaUtil_InitializeCpuLoadMeasurer(&stream->cpuLoadMeasurer, sampleRate);
-      result=PaUtil_InitializeBufferProcessor(&stream->bufferProcessor, inputChannelCount, inputSampleFormat, hostInputSampleFormat, outputChannelCount, outputSampleFormat, hostOutputSampleFormat, sampleRate, streamFlags, framesPerBuffer, framesPerHostBuffer, (enum anonymous$21)paUtilFixedHostBufferSize, streamCallback, userData);
+      result=PaUtil_InitializeBufferProcessor(&stream->bufferProcessor, inputChannelCount, inputSampleFormat, hostInputSampleFormat, outputChannelCount, outputSampleFormat, hostOutputSampleFormat, sampleRate, streamFlags, framesPerBuffer, framesPerHostBuffer, (enum anonymous_21)paUtilFixedHostBufferSize, streamCallback, userData);
       if(result == 0)
       {
-        return_value_PaUtil_GetBufferProcessorInputLatencyFrames$2=PaUtil_GetBufferProcessorInputLatencyFrames(&stream->bufferProcessor);
-        stream->streamRepresentation.streamInfo.inputLatency = (double)return_value_PaUtil_GetBufferProcessorInputLatencyFrames$2 / sampleRate;
-        return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$3=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream->bufferProcessor);
-        stream->streamRepresentation.streamInfo.outputLatency = (double)return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$3 / sampleRate;
+        return_value_PaUtil_GetBufferProcessorInputLatencyFrames_2=PaUtil_GetBufferProcessorInputLatencyFrames(&stream->bufferProcessor);
+        stream->streamRepresentation.streamInfo.inputLatency = (double)return_value_PaUtil_GetBufferProcessorInputLatencyFrames_2 / sampleRate;
+        return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_3=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream->bufferProcessor);
+        stream->streamRepresentation.streamInfo.outputLatency = (double)return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_3 / sampleRate;
         stream->streamRepresentation.streamInfo.sampleRate = sampleRate;
         stream->framesPerHostCallback = framesPerHostBuffer;
         *s = (void *)stream;
@@ -10680,89 +10680,89 @@ static signed int OpenStream(struct PaUtilHostApiRepresentation *hostApi, void *
   }
 }
 
-// OpenStream$link1
+// OpenStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 2792
-static signed int OpenStream$link1(struct PaUtilHostApiRepresentation *hostApi$link1, void **s$link1, const struct PaStreamParameters *inputParameters$link1, const struct PaStreamParameters *outputParameters$link1, double sampleRate$link1, unsigned long int framesPerBuffer$link1, unsigned long int streamFlags$link1, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData$link1)
+static signed int OpenStream_link1(struct PaUtilHostApiRepresentation *hostApi_link1, void **s_link1, const struct PaStreamParameters *inputParameters_link1, const struct PaStreamParameters *outputParameters_link1, double sampleRate_link1, unsigned long int framesPerBuffer_link1, unsigned long int streamFlags_link1, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData_link1)
 {
-  signed int result$link1 = 0;
-  struct PaAlsaHostApiRepresentation *alsaHostApi = (struct PaAlsaHostApiRepresentation *)hostApi$link1;
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)(void *)0;
-  unsigned long int hostInputSampleFormat$link1 = (unsigned long int)0;
-  unsigned long int hostOutputSampleFormat$link1 = (unsigned long int)0;
-  unsigned long int inputSampleFormat$link1 = (unsigned long int)0;
-  unsigned long int outputSampleFormat$link1 = (unsigned long int)0;
+  signed int result_link1 = 0;
+  struct PaAlsaHostApiRepresentation *alsaHostApi = (struct PaAlsaHostApiRepresentation *)hostApi_link1;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)(void *)0;
+  unsigned long int hostInputSampleFormat_link1 = (unsigned long int)0;
+  unsigned long int hostOutputSampleFormat_link1 = (unsigned long int)0;
+  unsigned long int inputSampleFormat_link1 = (unsigned long int)0;
+  unsigned long int outputSampleFormat_link1 = (unsigned long int)0;
   signed int numInputChannels = 0;
   signed int numOutputChannels = 0;
   double inputLatency;
   double outputLatency;
-  enum anonymous$21 hostBufferSizeMode = (enum anonymous$21)paUtilFixedHostBufferSize;
-  char *return_value_getenv$3;
-  unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames$5;
-  unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$6;
-  if(!((4294901760ul & streamFlags$link1) == 0ul))
+  enum anonymous_21 hostBufferSizeMode = (enum anonymous_21)paUtilFixedHostBufferSize;
+  char *return_value_getenv_3;
+  unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames_5;
+  unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_6;
+  if(!((4294901760ul & streamFlags_link1) == 0ul))
     return -9995;
 
   else
   {
-    if(!(inputParameters$link1 == ((const struct PaStreamParameters *)NULL)))
+    if(!(inputParameters_link1 == ((const struct PaStreamParameters *)NULL)))
     {
       do
       {
-        paUtilErr_=ValidateParameters(inputParameters$link1, hostApi$link1, (enum anonymous$17)StreamDirection_In);
+        paUtilErr_=ValidateParameters(inputParameters_link1, hostApi_link1, (enum anonymous_17)StreamDirection_In);
         if(!(paUtilErr_ >= 0))
         {
           PaUtil_DebugPrint("Expression 'ValidateParameters( inputParameters, hostApi, StreamDirection_In )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2818\n");
-          result$link1 = paUtilErr_;
+          result_link1 = paUtilErr_;
           goto error;
         }
 
       }
       while((_Bool)0);
-      numInputChannels = inputParameters$link1->channelCount;
-      inputSampleFormat$link1 = inputParameters$link1->sampleFormat;
+      numInputChannels = inputParameters_link1->channelCount;
+      inputSampleFormat_link1 = inputParameters_link1->sampleFormat;
     }
 
-    if(!(outputParameters$link1 == ((const struct PaStreamParameters *)NULL)))
+    if(!(outputParameters_link1 == ((const struct PaStreamParameters *)NULL)))
     {
       do
       {
-        paUtilErr_=ValidateParameters(outputParameters$link1, hostApi$link1, (enum anonymous$17)StreamDirection_Out);
+        paUtilErr_=ValidateParameters(outputParameters_link1, hostApi_link1, (enum anonymous_17)StreamDirection_Out);
         if(!(paUtilErr_ >= 0))
         {
           PaUtil_DebugPrint("Expression 'ValidateParameters( outputParameters, hostApi, StreamDirection_Out )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2825\n");
-          result$link1 = paUtilErr_;
+          result_link1 = paUtilErr_;
           goto error;
         }
 
       }
       while((_Bool)0);
-      numOutputChannels = outputParameters$link1->channelCount;
-      outputSampleFormat$link1 = outputParameters$link1->sampleFormat;
+      numOutputChannels = outputParameters_link1->channelCount;
+      outputSampleFormat_link1 = outputParameters_link1->sampleFormat;
     }
 
-    if(framesPerBuffer$link1 == 0ul)
+    if(framesPerBuffer_link1 == 0ul)
     {
-      return_value_getenv$3=getenv("PA_ALSA_PERIODSIZE");
-      if(!(return_value_getenv$3 == ((char *)NULL)))
+      return_value_getenv_3=getenv("PA_ALSA_PERIODSIZE");
+      if(!(return_value_getenv_3 == ((char *)NULL)))
       {
-        char *return_value_getenv$1;
-        return_value_getenv$1=getenv("PA_ALSA_PERIODSIZE");
-        signed int return_value_atoi$2;
-        return_value_atoi$2=atoi(return_value_getenv$1);
-        framesPerBuffer$link1 = (unsigned long int)return_value_atoi$2;
+        char *return_value_getenv_1;
+        return_value_getenv_1=getenv("PA_ALSA_PERIODSIZE");
+        signed int return_value_atoi_2;
+        return_value_atoi_2=atoi(return_value_getenv_1);
+        framesPerBuffer_link1 = (unsigned long int)return_value_atoi_2;
       }
 
     }
 
     do
     {
-      void *return_value_PaUtil_AllocateMemory$4;
-      return_value_PaUtil_AllocateMemory$4=PaUtil_AllocateMemory((signed long int)sizeof(struct PaAlsaStream) /*928ul*/ );
-      stream$link1 = (struct PaAlsaStream *)return_value_PaUtil_AllocateMemory$4;
-      if(stream$link1 == ((struct PaAlsaStream *)NULL))
+      void *return_value_PaUtil_AllocateMemory_4;
+      return_value_PaUtil_AllocateMemory_4=PaUtil_AllocateMemory((signed long int)sizeof(struct PaAlsaStream) /*928ul*/ );
+      stream_link1 = (struct PaAlsaStream *)return_value_PaUtil_AllocateMemory_4;
+      if(stream_link1 == ((struct PaAlsaStream *)NULL))
       {
         PaUtil_DebugPrint("Expression 'stream = (PaAlsaStream*)PaUtil_AllocateMemory( sizeof(PaAlsaStream) )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2838\n");
-        result$link1 = -9992;
+        result_link1 = -9992;
         goto error;
       }
 
@@ -10770,11 +10770,11 @@ static signed int OpenStream$link1(struct PaUtilHostApiRepresentation *hostApi$l
     while((_Bool)0);
     do
     {
-      paUtilErr_=PaAlsaStream_Initialize(stream$link1, alsaHostApi, inputParameters$link1, outputParameters$link1, sampleRate$link1, framesPerBuffer$link1, callback, streamFlags$link1, userData$link1);
+      paUtilErr_=PaAlsaStream_Initialize(stream_link1, alsaHostApi, inputParameters_link1, outputParameters_link1, sampleRate_link1, framesPerBuffer_link1, callback, streamFlags_link1, userData_link1);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStream_Initialize( stream, alsaHostApi, inputParameters, outputParameters, sampleRate, framesPerBuffer, callback, streamFlags, userData )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2840\n");
-        result$link1 = paUtilErr_;
+        result_link1 = paUtilErr_;
         goto error;
       }
 
@@ -10782,25 +10782,25 @@ static signed int OpenStream$link1(struct PaUtilHostApiRepresentation *hostApi$l
     while((_Bool)0);
     do
     {
-      paUtilErr_=PaAlsaStream_Configure(stream$link1, inputParameters$link1, outputParameters$link1, sampleRate$link1, framesPerBuffer$link1, &inputLatency, &outputLatency, &hostBufferSizeMode);
+      paUtilErr_=PaAlsaStream_Configure(stream_link1, inputParameters_link1, outputParameters_link1, sampleRate_link1, framesPerBuffer_link1, &inputLatency, &outputLatency, &hostBufferSizeMode);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStream_Configure( stream, inputParameters, outputParameters, sampleRate, framesPerBuffer, &inputLatency, &outputLatency, &hostBufferSizeMode )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2843\n");
-        result$link1 = paUtilErr_;
+        result_link1 = paUtilErr_;
         goto error;
       }
 
     }
     while((_Bool)0);
-    hostInputSampleFormat$link1 = stream$link1->capture.hostSampleFormat | (!(stream$link1->capture.hostInterleaved != 0) ? (unsigned long int)0x80000000 : (unsigned long int)0);
-    hostOutputSampleFormat$link1 = stream$link1->playback.hostSampleFormat | (!(stream$link1->playback.hostInterleaved != 0) ? (unsigned long int)0x80000000 : (unsigned long int)0);
+    hostInputSampleFormat_link1 = stream_link1->capture.hostSampleFormat | (!(stream_link1->capture.hostInterleaved != 0) ? (unsigned long int)0x80000000 : (unsigned long int)0);
+    hostOutputSampleFormat_link1 = stream_link1->playback.hostSampleFormat | (!(stream_link1->playback.hostInterleaved != 0) ? (unsigned long int)0x80000000 : (unsigned long int)0);
     do
     {
-      paUtilErr_=PaUtil_InitializeBufferProcessor(&stream$link1->bufferProcessor, numInputChannels, inputSampleFormat$link1, hostInputSampleFormat$link1, numOutputChannels, outputSampleFormat$link1, hostOutputSampleFormat$link1, sampleRate$link1, streamFlags$link1, framesPerBuffer$link1, stream$link1->maxFramesPerHostBuffer, hostBufferSizeMode, callback, userData$link1);
+      paUtilErr_=PaUtil_InitializeBufferProcessor(&stream_link1->bufferProcessor, numInputChannels, inputSampleFormat_link1, hostInputSampleFormat_link1, numOutputChannels, outputSampleFormat_link1, hostOutputSampleFormat_link1, sampleRate_link1, streamFlags_link1, framesPerBuffer_link1, stream_link1->maxFramesPerHostBuffer, hostBufferSizeMode, callback, userData_link1);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUtil_InitializeBufferProcessor( &stream->bufferProcessor, numInputChannels, inputSampleFormat, hostInputSampleFormat, numOutputChannels, outputSampleFormat, hostOutputSampleFormat, sampleRate, streamFlags, framesPerBuffer, stream->maxFramesPerHostBuffer, hostBufferSizeMode, callback, userData )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2851\n");
-        result$link1 = paUtilErr_;
+        result_link1 = paUtilErr_;
         goto error;
       }
 
@@ -10808,139 +10808,139 @@ static signed int OpenStream$link1(struct PaUtilHostApiRepresentation *hostApi$l
     while((_Bool)0);
     if(numInputChannels >= 1)
     {
-      return_value_PaUtil_GetBufferProcessorInputLatencyFrames$5=PaUtil_GetBufferProcessorInputLatencyFrames(&stream$link1->bufferProcessor);
-      stream$link1->streamRepresentation.streamInfo.inputLatency = inputLatency + (double)((double)return_value_PaUtil_GetBufferProcessorInputLatencyFrames$5 / sampleRate$link1);
+      return_value_PaUtil_GetBufferProcessorInputLatencyFrames_5=PaUtil_GetBufferProcessorInputLatencyFrames(&stream_link1->bufferProcessor);
+      stream_link1->streamRepresentation.streamInfo.inputLatency = inputLatency + (double)((double)return_value_PaUtil_GetBufferProcessorInputLatencyFrames_5 / sampleRate_link1);
     }
 
     if(numOutputChannels >= 1)
     {
-      return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$6=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream$link1->bufferProcessor);
-      stream$link1->streamRepresentation.streamInfo.outputLatency = outputLatency + (double)((double)return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$6 / sampleRate$link1);
+      return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_6=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream_link1->bufferProcessor);
+      stream_link1->streamRepresentation.streamInfo.outputLatency = outputLatency + (double)((double)return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_6 / sampleRate_link1);
     }
 
-    *s$link1 = (void *)stream$link1;
-    return result$link1;
+    *s_link1 = (void *)stream_link1;
+    return result_link1;
 
   error:
     ;
-    if(!(stream$link1 == ((struct PaAlsaStream *)NULL)))
-      PaAlsaStream_Terminate(stream$link1);
+    if(!(stream_link1 == ((struct PaAlsaStream *)NULL)))
+      PaAlsaStream_Terminate(stream_link1);
 
-    return result$link1;
+    return result_link1;
   }
 }
 
-// OpenStream$link2
+// OpenStream_link2
 // file src/hostapi/jack/pa_jack.c line 1067
-static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$link2, void **s$link2, const struct PaStreamParameters *inputParameters$link2, const struct PaStreamParameters *outputParameters$link2, double sampleRate$link2, unsigned long int framesPerBuffer$link2, unsigned long int streamFlags$link2, signed int (*streamCallback$link1)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData$link2)
+static signed int OpenStream_link2(struct PaUtilHostApiRepresentation *hostApi_link2, void **s_link2, const struct PaStreamParameters *inputParameters_link2, const struct PaStreamParameters *outputParameters_link2, double sampleRate_link2, unsigned long int framesPerBuffer_link2, unsigned long int streamFlags_link2, signed int (*streamCallback_link1)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData_link2)
 {
-  signed int result$link2 = 0;
-  struct anonymous$4 *jackHostApi = (struct anonymous$4 *)hostApi$link2;
-  struct PaJackStream *stream$link2 = (struct PaJackStream *)(void *)0;
+  signed int result_link2 = 0;
+  struct anonymous_4 *jackHostApi = (struct anonymous_4 *)hostApi_link2;
+  struct PaJackStream *stream_link2 = (struct PaJackStream *)(void *)0;
   char *port_string;
-  signed int return_value_jack_port_name_size$1;
-  return_value_jack_port_name_size$1=jack_port_name_size();
-  void *return_value_PaUtil_GroupAllocateMemory$2;
-  return_value_PaUtil_GroupAllocateMemory$2=PaUtil_GroupAllocateMemory(jackHostApi->deviceInfoMemory, (signed long int)return_value_jack_port_name_size$1);
-  port_string = (char *)return_value_PaUtil_GroupAllocateMemory$2;
+  signed int return_value_jack_port_name_size_1;
+  return_value_jack_port_name_size_1=jack_port_name_size();
+  void *return_value_PaUtil_GroupAllocateMemory_2;
+  return_value_PaUtil_GroupAllocateMemory_2=PaUtil_GroupAllocateMemory(jackHostApi->deviceInfoMemory, (signed long int)return_value_jack_port_name_size_1);
+  port_string = (char *)return_value_PaUtil_GroupAllocateMemory_2;
   unsigned long int regexSz;
-  signed int return_value_jack_client_name_size$3;
-  return_value_jack_client_name_size$3=jack_client_name_size();
-  regexSz = (unsigned long int)(return_value_jack_client_name_size$3 + 3);
+  signed int return_value_jack_client_name_size_3;
+  return_value_jack_client_name_size_3=jack_client_name_size();
+  regexSz = (unsigned long int)(return_value_jack_client_name_size_3 + 3);
   char *regex_pattern;
-  void *return_value_PaUtil_GroupAllocateMemory$4;
-  return_value_PaUtil_GroupAllocateMemory$4=PaUtil_GroupAllocateMemory(jackHostApi->deviceInfoMemory, (signed long int)regexSz);
-  regex_pattern = (char *)return_value_PaUtil_GroupAllocateMemory$4;
+  void *return_value_PaUtil_GroupAllocateMemory_4;
+  return_value_PaUtil_GroupAllocateMemory_4=PaUtil_GroupAllocateMemory(jackHostApi->deviceInfoMemory, (signed long int)regexSz);
+  regex_pattern = (char *)return_value_PaUtil_GroupAllocateMemory_4;
   const char **jack_ports = (const char **)(void *)0;
   signed int i;
-  signed int inputChannelCount$link1;
-  signed int outputChannelCount$link1;
+  signed int inputChannelCount_link1;
+  signed int outputChannelCount_link1;
   double jackSr;
-  unsigned int return_value_jack_get_sample_rate$5;
-  return_value_jack_get_sample_rate$5=jack_get_sample_rate(jackHostApi->jack_client);
-  jackSr = (const double)return_value_jack_get_sample_rate$5;
-  unsigned long int inputSampleFormat$link2 = (unsigned long int)0;
-  unsigned long int outputSampleFormat$link2 = (unsigned long int)0;
+  unsigned int return_value_jack_get_sample_rate_5;
+  return_value_jack_get_sample_rate_5=jack_get_sample_rate(jackHostApi->jack_client);
+  jackSr = (const double)return_value_jack_get_sample_rate_5;
+  unsigned long int inputSampleFormat_link2 = (unsigned long int)0;
+  unsigned long int outputSampleFormat_link2 = (unsigned long int)0;
   signed int bpInitialized = 0;
   signed int srInitialized = 0;
   unsigned long int ofs;
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$8;
-  _Bool tmp_if_expr$9;
-  unsigned long int return_value_pthread_self$12;
-  unsigned long int return_value_pthread_self$14;
-  unsigned long int return_value_pthread_self$15;
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_pthread_self$17;
-  unsigned long int return_value_pthread_self$18;
-  unsigned long int return_value_pthread_self$19;
-  _Bool tmp_if_expr$20;
-  unsigned long int return_value_pthread_self$21;
-  unsigned long int return_value_pthread_self$22;
-  unsigned long int return_value_pthread_self$23;
-  unsigned int return_value_jack_port_get_latency$24;
-  unsigned int return_value_jack_get_buffer_size$25;
-  unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames$26;
-  unsigned int return_value_jack_port_get_latency$27;
-  unsigned int return_value_jack_get_buffer_size$28;
-  unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$29;
-  unsigned long int return_value_pthread_self$30;
-  if(!((4294901760ul & streamFlags$link2) == 0ul))
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_8;
+  _Bool tmp_if_expr_9;
+  unsigned long int return_value_pthread_self_12;
+  unsigned long int return_value_pthread_self_14;
+  unsigned long int return_value_pthread_self_15;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_pthread_self_17;
+  unsigned long int return_value_pthread_self_18;
+  unsigned long int return_value_pthread_self_19;
+  _Bool tmp_if_expr_20;
+  unsigned long int return_value_pthread_self_21;
+  unsigned long int return_value_pthread_self_22;
+  unsigned long int return_value_pthread_self_23;
+  unsigned int return_value_jack_port_get_latency_24;
+  unsigned int return_value_jack_get_buffer_size_25;
+  unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames_26;
+  unsigned int return_value_jack_port_get_latency_27;
+  unsigned int return_value_jack_get_buffer_size_28;
+  unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_29;
+  unsigned long int return_value_pthread_self_30;
+  if(!((4294901760ul & streamFlags_link2) == 0ul))
     return -9995;
 
   else
   {
-    if(!((8ul & streamFlags$link2) == 0ul))
-      streamFlags$link2 = streamFlags$link2 & ~((unsigned long int)0x00000008);
+    if(!((8ul & streamFlags_link2) == 0ul))
+      streamFlags_link2 = streamFlags_link2 & ~((unsigned long int)0x00000008);
 
-    if(!(inputParameters$link2 == ((const struct PaStreamParameters *)NULL)))
+    if(!(inputParameters_link2 == ((const struct PaStreamParameters *)NULL)))
     {
-      inputChannelCount$link1 = inputParameters$link2->channelCount;
-      inputSampleFormat$link2 = inputParameters$link2->sampleFormat;
-      if(inputParameters$link2->device == -2)
+      inputChannelCount_link1 = inputParameters_link2->channelCount;
+      inputSampleFormat_link2 = inputParameters_link2->sampleFormat;
+      if(inputParameters_link2->device == -2)
         return -9996;
 
-      if(!(hostApi$link2->deviceInfos[(signed long int)inputParameters$link2->device]->maxInputChannels >= inputChannelCount$link1))
+      if(!(hostApi_link2->deviceInfos[(signed long int)inputParameters_link2->device]->maxInputChannels >= inputChannelCount_link1))
         return -9998;
 
-      if(!(inputParameters$link2->hostApiSpecificStreamInfo == NULL))
+      if(!(inputParameters_link2->hostApiSpecificStreamInfo == NULL))
         return -9984;
 
     }
 
     else
-      inputChannelCount$link1 = 0;
-    if(!(outputParameters$link2 == ((const struct PaStreamParameters *)NULL)))
+      inputChannelCount_link1 = 0;
+    if(!(outputParameters_link2 == ((const struct PaStreamParameters *)NULL)))
     {
-      outputChannelCount$link1 = outputParameters$link2->channelCount;
-      outputSampleFormat$link2 = outputParameters$link2->sampleFormat;
-      if(outputParameters$link2->device == -2)
+      outputChannelCount_link1 = outputParameters_link2->channelCount;
+      outputSampleFormat_link2 = outputParameters_link2->sampleFormat;
+      if(outputParameters_link2->device == -2)
         return -9996;
 
-      if(!(hostApi$link2->deviceInfos[(signed long int)outputParameters$link2->device]->maxOutputChannels >= outputChannelCount$link1))
+      if(!(hostApi_link2->deviceInfos[(signed long int)outputParameters_link2->device]->maxOutputChannels >= outputChannelCount_link1))
         return -9998;
 
-      if(!(outputParameters$link2->hostApiSpecificStreamInfo == NULL))
+      if(!(outputParameters_link2->hostApiSpecificStreamInfo == NULL))
         return -9984;
 
     }
 
     else
-      outputChannelCount$link1 = 0;
-    if(sampleRate$link2 + -jackSr > 0.000000 ? sampleRate$link2 + -jackSr > 1.000000 : -(sampleRate$link2 + -jackSr) > 1.000000)
+      outputChannelCount_link1 = 0;
+    if(sampleRate_link2 + -jackSr > 0.000000 ? sampleRate_link2 + -jackSr > 1.000000 : -(sampleRate_link2 + -jackSr) > 1.000000)
       return -9997;
 
     else
     {
       do
       {
-        void *return_value_PaUtil_AllocateMemory$7;
-        return_value_PaUtil_AllocateMemory$7=PaUtil_AllocateMemory((signed long int)sizeof(struct PaJackStream) /*688ul*/ );
-        stream$link2 = (struct PaJackStream *)return_value_PaUtil_AllocateMemory$7;
-        if(stream$link2 == ((struct PaJackStream *)NULL))
+        void *return_value_PaUtil_AllocateMemory_7;
+        return_value_PaUtil_AllocateMemory_7=PaUtil_AllocateMemory((signed long int)sizeof(struct PaJackStream) /*688ul*/ );
+        stream_link2 = (struct PaJackStream *)return_value_PaUtil_AllocateMemory_7;
+        if(stream_link2 == ((struct PaJackStream *)NULL))
         {
           PaUtil_DebugPrint("Expression 'stream = (PaJackStream*)PaUtil_AllocateMemory( sizeof(PaJackStream) )' failed in 'src/hostapi/jack/pa_jack.c', line: 1165\n");
-          result$link2 = -9992;
+          result_link2 = -9992;
           goto error;
         }
 
@@ -10949,13 +10949,13 @@ static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$l
       do
       {
         signed int paErr;
-        paErr=InitializeStream(stream$link2, jackHostApi, inputChannelCount$link1, outputChannelCount$link1);
+        paErr=InitializeStream(stream_link2, jackHostApi, inputChannelCount_link1, outputChannelCount_link1);
         if(!(paErr >= 0))
         {
           if(paErr == -9999)
           {
-            return_value_pthread_self$8=pthread_self();
-            if(return_value_pthread_self$8 == mainThread_)
+            return_value_pthread_self_8=pthread_self();
+            if(return_value_pthread_self_8 == mainThread_)
             {
               const char *err = jackErr_;
               if(err == ((const char *)NULL))
@@ -10967,112 +10967,112 @@ static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$l
           }
 
           PaUtil_DebugPrint("Expression 'InitializeStream( stream, jackHostApi, inputChannelCount, outputChannelCount )' failed in 'src/hostapi/jack/pa_jack.c', line: 1166\n");
-          result$link2 = paErr;
+          result_link2 = paErr;
           goto error;
         }
 
       }
       while((_Bool)0);
-      stream$link2->isBlockingStream = (signed int)!(streamCallback$link1 != ((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))NULL));
-      if(!(stream$link2->isBlockingStream == 0))
+      stream_link2->isBlockingStream = (signed int)!(streamCallback_link1 != ((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))NULL));
+      if(!(stream_link2->isBlockingStream == 0))
       {
         float latency = (float)0.001;
         signed int minimum_buffer_frames = 0;
-        if(!(inputParameters$link2 == ((const struct PaStreamParameters *)NULL)))
-          tmp_if_expr$9 = inputParameters$link2->suggestedLatency > (double)latency ? (_Bool)1 : (_Bool)0;
+        if(!(inputParameters_link2 == ((const struct PaStreamParameters *)NULL)))
+          tmp_if_expr_9 = inputParameters_link2->suggestedLatency > (double)latency ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
-          latency = (float)inputParameters$link2->suggestedLatency;
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
+          latency = (float)inputParameters_link2->suggestedLatency;
 
         else
-          if(!(outputParameters$link2 == ((const struct PaStreamParameters *)NULL)))
+          if(!(outputParameters_link2 == ((const struct PaStreamParameters *)NULL)))
           {
-            if(outputParameters$link2->suggestedLatency > (double)latency)
-              latency = (float)outputParameters$link2->suggestedLatency;
+            if(outputParameters_link2->suggestedLatency > (double)latency)
+              latency = (float)outputParameters_link2->suggestedLatency;
 
           }
 
-        unsigned int return_value_jack_get_sample_rate$10;
-        return_value_jack_get_sample_rate$10=jack_get_sample_rate(jackHostApi->jack_client);
-        minimum_buffer_frames = (signed int)(latency * (float)return_value_jack_get_sample_rate$10);
+        unsigned int return_value_jack_get_sample_rate_10;
+        return_value_jack_get_sample_rate_10=jack_get_sample_rate(jackHostApi->jack_client);
+        minimum_buffer_frames = (signed int)(latency * (float)return_value_jack_get_sample_rate_10);
         if(!(minimum_buffer_frames >= 3 * jackHostApi->jack_buffer_size))
           minimum_buffer_frames = jackHostApi->jack_buffer_size * 3;
 
-        BlockingBegin(stream$link2, minimum_buffer_frames);
-        streamCallback$link1 = BlockingCallback;
-        userData$link2 = (void *)stream$link2;
-        PaUtil_InitializeStreamRepresentation(&stream$link2->streamRepresentation, &jackHostApi->blockingStreamInterface, streamCallback$link1, userData$link2);
+        BlockingBegin(stream_link2, minimum_buffer_frames);
+        streamCallback_link1 = BlockingCallback;
+        userData_link2 = (void *)stream_link2;
+        PaUtil_InitializeStreamRepresentation(&stream_link2->streamRepresentation, &jackHostApi->blockingStreamInterface, streamCallback_link1, userData_link2);
       }
 
       else
-        PaUtil_InitializeStreamRepresentation(&stream$link2->streamRepresentation, &jackHostApi->callbackStreamInterface, streamCallback$link1, userData$link2);
+        PaUtil_InitializeStreamRepresentation(&stream_link2->streamRepresentation, &jackHostApi->callbackStreamInterface, streamCallback_link1, userData_link2);
       srInitialized = 1;
-      PaUtil_InitializeCpuLoadMeasurer(&stream$link2->cpuLoadMeasurer, jackSr);
+      PaUtil_InitializeCpuLoadMeasurer(&stream_link2->cpuLoadMeasurer, jackSr);
       ofs = jackHostApi->inputBase;
       i = 0;
-      for( ; !(i >= inputChannelCount$link1); i = i + 1)
+      for( ; !(i >= inputChannelCount_link1); i = i + 1)
       {
-        signed int return_value_jack_port_name_size$11;
-        return_value_jack_port_name_size$11=jack_port_name_size();
-        snprintf(port_string, (unsigned long int)return_value_jack_port_name_size$11, "in_%lu", ofs + (unsigned long int)i);
+        signed int return_value_jack_port_name_size_11;
+        return_value_jack_port_name_size_11=jack_port_name_size();
+        snprintf(port_string, (unsigned long int)return_value_jack_port_name_size_11, "in_%lu", ofs + (unsigned long int)i);
         do
         {
-          stream$link2->local_input_ports[(signed long int)i]=jack_port_register(jackHostApi->jack_client, port_string, "32 bit float mono audio", (unsigned long int)1, (unsigned long int)0);
-          if(stream$link2->local_input_ports[(signed long int)i] == ((struct _jack_port *)NULL))
+          stream_link2->local_input_ports[(signed long int)i]=jack_port_register(jackHostApi->jack_client, port_string, "32 bit float mono audio", (unsigned long int)1, (unsigned long int)0);
+          if(stream_link2->local_input_ports[(signed long int)i] == ((struct _jack_port *)NULL))
           {
             PaUtil_DebugPrint("Expression 'stream->local_input_ports[i] = jack_port_register( jackHostApi->jack_client, port_string, JACK_DEFAULT_AUDIO_TYPE, JackPortIsInput, 0 )' failed in 'src/hostapi/jack/pa_jack.c', line: 1217\n");
-            result$link2 = -9992;
+            result_link2 = -9992;
             goto error;
           }
 
         }
         while((_Bool)0);
       }
-      jackHostApi->inputBase = jackHostApi->inputBase + (unsigned long int)inputChannelCount$link1;
+      jackHostApi->inputBase = jackHostApi->inputBase + (unsigned long int)inputChannelCount_link1;
       ofs = jackHostApi->outputBase;
       i = 0;
-      for( ; !(i >= outputChannelCount$link1); i = i + 1)
+      for( ; !(i >= outputChannelCount_link1); i = i + 1)
       {
-        signed int return_value_jack_port_name_size$13;
-        return_value_jack_port_name_size$13=jack_port_name_size();
-        snprintf(port_string, (unsigned long int)return_value_jack_port_name_size$13, "out_%lu", ofs + (unsigned long int)i);
+        signed int return_value_jack_port_name_size_13;
+        return_value_jack_port_name_size_13=jack_port_name_size();
+        snprintf(port_string, (unsigned long int)return_value_jack_port_name_size_13, "out_%lu", ofs + (unsigned long int)i);
         do
         {
-          stream$link2->local_output_ports[(signed long int)i]=jack_port_register(jackHostApi->jack_client, port_string, "32 bit float mono audio", (unsigned long int)2, (unsigned long int)0);
-          if(stream$link2->local_output_ports[(signed long int)i] == ((struct _jack_port *)NULL))
+          stream_link2->local_output_ports[(signed long int)i]=jack_port_register(jackHostApi->jack_client, port_string, "32 bit float mono audio", (unsigned long int)2, (unsigned long int)0);
+          if(stream_link2->local_output_ports[(signed long int)i] == ((struct _jack_port *)NULL))
           {
             PaUtil_DebugPrint("Expression 'stream->local_output_ports[i] = jack_port_register( jackHostApi->jack_client, port_string, JACK_DEFAULT_AUDIO_TYPE, JackPortIsOutput, 0 )' failed in 'src/hostapi/jack/pa_jack.c', line: 1227\n");
-            result$link2 = -9992;
+            result_link2 = -9992;
             goto error;
           }
 
         }
         while((_Bool)0);
       }
-      jackHostApi->outputBase = jackHostApi->outputBase + (unsigned long int)outputChannelCount$link1;
-      if(inputChannelCount$link1 >= 1)
+      jackHostApi->outputBase = jackHostApi->outputBase + (unsigned long int)outputChannelCount_link1;
+      if(inputChannelCount_link1 >= 1)
       {
-        signed int OpenStream$$1$$13$$err = 0;
-        snprintf(regex_pattern, regexSz, "%s:.*", hostApi$link2->deviceInfos[(signed long int)inputParameters$link2->device]->name);
+        signed int OpenStream__1__13__err = 0;
+        snprintf(regex_pattern, regexSz, "%s:.*", hostApi_link2->deviceInfos[(signed long int)inputParameters_link2->device]->name);
         do
         {
           jack_ports=jack_get_ports(jackHostApi->jack_client, regex_pattern, "audio", (unsigned long int)2);
           if(jack_ports == ((const char **)NULL))
           {
-            return_value_pthread_self$15=pthread_self();
-            if(return_value_pthread_self$15 == mainThread_)
+            return_value_pthread_self_15=pthread_self();
+            if(return_value_pthread_self_15 == mainThread_)
             {
-              const char *OpenStream$$1$$13$$1$$1$$1$$err = jackErr_;
-              if(OpenStream$$1$$13$$1$$1$$1$$err == ((const char *)NULL))
-                OpenStream$$1$$13$$1$$1$$1$$err = "unknown error";
+              const char *OpenStream__1__13__1__1__1__err = jackErr_;
+              if(OpenStream__1__13__1__1__1__err == ((const char *)NULL))
+                OpenStream__1__13__1__1__1__err = "unknown error";
 
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream$$1$$13$$1$$1$$1$$err);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream__1__13__1__1__1__err);
             }
 
             PaUtil_DebugPrint("Expression 'jack_ports = jack_get_ports( jackHostApi->jack_client, regex_pattern, JACK_PORT_TYPE_FILTER, JackPortIsOutput )' failed in 'src/hostapi/jack/pa_jack.c', line: 1242\n");
-            result$link2 = -9999;
+            result_link2 = -9999;
             goto error;
           }
 
@@ -11081,18 +11081,18 @@ static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$l
         i = 0;
         do
         {
-          if(!(i >= inputChannelCount$link1))
-            tmp_if_expr$16 = jack_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(!(i >= inputChannelCount_link1))
+            tmp_if_expr_16 = jack_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          if(!tmp_if_expr$16)
+            tmp_if_expr_16 = (_Bool)0;
+          if(!tmp_if_expr_16)
             break;
 
-          stream$link2->remote_output_ports[(signed long int)i]=jack_port_by_name(jackHostApi->jack_client, jack_ports[(signed long int)i]);
-          if(stream$link2->remote_output_ports[(signed long int)i] == ((struct _jack_port *)NULL))
+          stream_link2->remote_output_ports[(signed long int)i]=jack_port_by_name(jackHostApi->jack_client, jack_ports[(signed long int)i]);
+          if(stream_link2->remote_output_ports[(signed long int)i] == ((struct _jack_port *)NULL))
           {
-            OpenStream$$1$$13$$err = 1;
+            OpenStream__1__13__err = 1;
             break;
           }
 
@@ -11101,46 +11101,46 @@ static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$l
         while((_Bool)1);
         free((void *)jack_ports);
         do
-          if(!(OpenStream$$1$$13$$err == 0))
+          if(!(OpenStream__1__13__err == 0))
           {
             PaUtil_DebugPrint("Expression '!err' failed in 'src/hostapi/jack/pa_jack.c', line: 1253\n");
-            result$link2 = -9992;
+            result_link2 = -9992;
             goto error;
           }
 
         while((_Bool)0);
         do
-          if(!(i == inputChannelCount$link1))
+          if(!(i == inputChannelCount_link1))
           {
             PaUtil_DebugPrint("Expression 'i == inputChannelCount' failed in 'src/hostapi/jack/pa_jack.c', line: 1256\n");
-            result$link2 = -9986;
+            result_link2 = -9986;
             goto error;
           }
 
         while((_Bool)0);
       }
 
-      if(outputChannelCount$link1 >= 1)
+      if(outputChannelCount_link1 >= 1)
       {
-        signed int OpenStream$$1$$14$$err = 0;
-        snprintf(regex_pattern, regexSz, "%s:.*", hostApi$link2->deviceInfos[(signed long int)outputParameters$link2->device]->name);
+        signed int OpenStream__1__14__err = 0;
+        snprintf(regex_pattern, regexSz, "%s:.*", hostApi_link2->deviceInfos[(signed long int)outputParameters_link2->device]->name);
         do
         {
           jack_ports=jack_get_ports(jackHostApi->jack_client, regex_pattern, "audio", (unsigned long int)1);
           if(jack_ports == ((const char **)NULL))
           {
-            return_value_pthread_self$19=pthread_self();
-            if(return_value_pthread_self$19 == mainThread_)
+            return_value_pthread_self_19=pthread_self();
+            if(return_value_pthread_self_19 == mainThread_)
             {
-              const char *OpenStream$$1$$14$$1$$1$$1$$err = jackErr_;
-              if(OpenStream$$1$$14$$1$$1$$1$$err == ((const char *)NULL))
-                OpenStream$$1$$14$$1$$1$$1$$err = "unknown error";
+              const char *OpenStream__1__14__1__1__1__err = jackErr_;
+              if(OpenStream__1__14__1__1__1__err == ((const char *)NULL))
+                OpenStream__1__14__1__1__1__err = "unknown error";
 
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream$$1$$14$$1$$1$$1$$err);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream__1__14__1__1__1__err);
             }
 
             PaUtil_DebugPrint("Expression 'jack_ports = jack_get_ports( jackHostApi->jack_client, regex_pattern, JACK_PORT_TYPE_FILTER, JackPortIsInput )' failed in 'src/hostapi/jack/pa_jack.c', line: 1266\n");
-            result$link2 = -9999;
+            result_link2 = -9999;
             goto error;
           }
 
@@ -11149,18 +11149,18 @@ static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$l
         i = 0;
         do
         {
-          if(!(i >= outputChannelCount$link1))
-            tmp_if_expr$20 = jack_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(!(i >= outputChannelCount_link1))
+            tmp_if_expr_20 = jack_ports[(signed long int)i] != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$20 = (_Bool)0;
-          if(!tmp_if_expr$20)
+            tmp_if_expr_20 = (_Bool)0;
+          if(!tmp_if_expr_20)
             break;
 
-          stream$link2->remote_input_ports[(signed long int)i]=jack_port_by_name(jackHostApi->jack_client, jack_ports[(signed long int)i]);
-          if(stream$link2->remote_input_ports[(signed long int)i] == ((struct _jack_port *)NULL))
+          stream_link2->remote_input_ports[(signed long int)i]=jack_port_by_name(jackHostApi->jack_client, jack_ports[(signed long int)i]);
+          if(stream_link2->remote_input_ports[(signed long int)i] == ((struct _jack_port *)NULL))
           {
-            OpenStream$$1$$14$$err = 1;
+            OpenStream__1__14__err = 1;
             break;
           }
 
@@ -11169,19 +11169,19 @@ static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$l
         while((_Bool)1);
         free((void *)jack_ports);
         do
-          if(!(OpenStream$$1$$14$$err == 0))
+          if(!(OpenStream__1__14__err == 0))
           {
             PaUtil_DebugPrint("Expression '!err' failed in 'src/hostapi/jack/pa_jack.c', line: 1277\n");
-            result$link2 = -9992;
+            result_link2 = -9992;
             goto error;
           }
 
         while((_Bool)0);
         do
-          if(!(i == outputChannelCount$link1))
+          if(!(i == outputChannelCount_link1))
           {
             PaUtil_DebugPrint("Expression 'i == outputChannelCount' failed in 'src/hostapi/jack/pa_jack.c', line: 1280\n");
-            result$link2 = -9986;
+            result_link2 = -9986;
             goto error;
           }
 
@@ -11190,158 +11190,158 @@ static signed int OpenStream$link2(struct PaUtilHostApiRepresentation *hostApi$l
 
       do
       {
-        signed int OpenStream$$1$$15$$paErr;
-        OpenStream$$1$$15$$paErr=PaUtil_InitializeBufferProcessor(&stream$link2->bufferProcessor, inputChannelCount$link1, inputSampleFormat$link2, (unsigned long int)0x00000001 | (unsigned long int)0x80000000, outputChannelCount$link1, outputSampleFormat$link2, (unsigned long int)0x00000001 | (unsigned long int)0x80000000, jackSr, streamFlags$link2, framesPerBuffer$link2, (unsigned long int)0, (enum anonymous$21)paUtilUnknownHostBufferSize, streamCallback$link1, userData$link2);
-        if(!(OpenStream$$1$$15$$paErr >= 0))
+        signed int OpenStream__1__15__paErr;
+        OpenStream__1__15__paErr=PaUtil_InitializeBufferProcessor(&stream_link2->bufferProcessor, inputChannelCount_link1, inputSampleFormat_link2, (unsigned long int)0x00000001 | (unsigned long int)0x80000000, outputChannelCount_link1, outputSampleFormat_link2, (unsigned long int)0x00000001 | (unsigned long int)0x80000000, jackSr, streamFlags_link2, framesPerBuffer_link2, (unsigned long int)0, (enum anonymous_21)paUtilUnknownHostBufferSize, streamCallback_link1, userData_link2);
+        if(!(OpenStream__1__15__paErr >= 0))
         {
-          if(OpenStream$$1$$15$$paErr == -9999)
+          if(OpenStream__1__15__paErr == -9999)
           {
-            return_value_pthread_self$23=pthread_self();
-            if(return_value_pthread_self$23 == mainThread_)
+            return_value_pthread_self_23=pthread_self();
+            if(return_value_pthread_self_23 == mainThread_)
             {
-              const char *OpenStream$$1$$15$$1$$1$$err = jackErr_;
-              if(OpenStream$$1$$15$$1$$1$$err == ((const char *)NULL))
-                OpenStream$$1$$15$$1$$1$$err = "unknown error";
+              const char *OpenStream__1__15__1__1__err = jackErr_;
+              if(OpenStream__1__15__1__1__err == ((const char *)NULL))
+                OpenStream__1__15__1__1__err = "unknown error";
 
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream$$1$$15$$1$$1$$err);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream__1__15__1__1__err);
             }
 
           }
 
           PaUtil_DebugPrint("Expression 'PaUtil_InitializeBufferProcessor( &stream->bufferProcessor, inputChannelCount, inputSampleFormat, paFloat32 | paNonInterleaved, outputChannelCount, outputSampleFormat, paFloat32 | paNonInterleaved, jackSr, streamFlags, framesPerBuffer, 0, paUtilUnknownHostBufferSize, streamCallback, userData )' failed in 'src/hostapi/jack/pa_jack.c', line: 1297\n");
-          result$link2 = OpenStream$$1$$15$$paErr;
+          result_link2 = OpenStream__1__15__paErr;
           goto error;
         }
 
       }
       while((_Bool)0);
       bpInitialized = 1;
-      if(stream$link2->num_incoming_connections >= 1)
+      if(stream_link2->num_incoming_connections >= 1)
       {
-        return_value_jack_port_get_latency$24=jack_port_get_latency(stream$link2->remote_output_ports[(signed long int)0]);
-        return_value_jack_get_buffer_size$25=jack_get_buffer_size(jackHostApi->jack_client);
-        return_value_PaUtil_GetBufferProcessorInputLatencyFrames$26=PaUtil_GetBufferProcessorInputLatencyFrames(&stream$link2->bufferProcessor);
-        stream$link2->streamRepresentation.streamInfo.inputLatency = (double)((unsigned long int)(return_value_jack_port_get_latency$24 - return_value_jack_get_buffer_size$25) + return_value_PaUtil_GetBufferProcessorInputLatencyFrames$26) / sampleRate$link2;
+        return_value_jack_port_get_latency_24=jack_port_get_latency(stream_link2->remote_output_ports[(signed long int)0]);
+        return_value_jack_get_buffer_size_25=jack_get_buffer_size(jackHostApi->jack_client);
+        return_value_PaUtil_GetBufferProcessorInputLatencyFrames_26=PaUtil_GetBufferProcessorInputLatencyFrames(&stream_link2->bufferProcessor);
+        stream_link2->streamRepresentation.streamInfo.inputLatency = (double)((unsigned long int)(return_value_jack_port_get_latency_24 - return_value_jack_get_buffer_size_25) + return_value_PaUtil_GetBufferProcessorInputLatencyFrames_26) / sampleRate_link2;
       }
 
-      if(stream$link2->num_outgoing_connections >= 1)
+      if(stream_link2->num_outgoing_connections >= 1)
       {
-        return_value_jack_port_get_latency$27=jack_port_get_latency(stream$link2->remote_input_ports[(signed long int)0]);
-        return_value_jack_get_buffer_size$28=jack_get_buffer_size(jackHostApi->jack_client);
-        return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$29=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream$link2->bufferProcessor);
-        stream$link2->streamRepresentation.streamInfo.outputLatency = (double)((unsigned long int)(return_value_jack_port_get_latency$27 - return_value_jack_get_buffer_size$28) + return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$29) / sampleRate$link2;
+        return_value_jack_port_get_latency_27=jack_port_get_latency(stream_link2->remote_input_ports[(signed long int)0]);
+        return_value_jack_get_buffer_size_28=jack_get_buffer_size(jackHostApi->jack_client);
+        return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_29=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream_link2->bufferProcessor);
+        stream_link2->streamRepresentation.streamInfo.outputLatency = (double)((unsigned long int)(return_value_jack_port_get_latency_27 - return_value_jack_get_buffer_size_28) + return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_29) / sampleRate_link2;
       }
 
-      stream$link2->streamRepresentation.streamInfo.sampleRate = jackSr;
-      stream$link2->t0=jack_frame_time(jackHostApi->jack_client);
+      stream_link2->streamRepresentation.streamInfo.sampleRate = jackSr;
+      stream_link2->t0=jack_frame_time(jackHostApi->jack_client);
       do
       {
-        signed int OpenStream$$1$$16$$paErr;
-        OpenStream$$1$$16$$paErr=AddStream(stream$link2);
-        if(!(OpenStream$$1$$16$$paErr >= 0))
+        signed int OpenStream__1__16__paErr;
+        OpenStream__1__16__paErr=AddStream(stream_link2);
+        if(!(OpenStream__1__16__paErr >= 0))
         {
-          if(OpenStream$$1$$16$$paErr == -9999)
+          if(OpenStream__1__16__paErr == -9999)
           {
-            return_value_pthread_self$30=pthread_self();
-            if(return_value_pthread_self$30 == mainThread_)
+            return_value_pthread_self_30=pthread_self();
+            if(return_value_pthread_self_30 == mainThread_)
             {
-              const char *OpenStream$$1$$16$$1$$1$$err = jackErr_;
-              if(OpenStream$$1$$16$$1$$1$$err == ((const char *)NULL))
-                OpenStream$$1$$16$$1$$1$$err = "unknown error";
+              const char *OpenStream__1__16__1__1__err = jackErr_;
+              if(OpenStream__1__16__1__1__err == ((const char *)NULL))
+                OpenStream__1__16__1__1__err = "unknown error";
 
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream$$1$$16$$1$$1$$err);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, OpenStream__1__16__1__1__err);
             }
 
           }
 
           PaUtil_DebugPrint("Expression 'AddStream( stream )' failed in 'src/hostapi/jack/pa_jack.c', line: 1313\n");
-          result$link2 = OpenStream$$1$$16$$paErr;
+          result_link2 = OpenStream__1__16__paErr;
           goto error;
         }
 
       }
       while((_Bool)0);
-      *s$link2 = (void *)stream$link2;
-      return result$link2;
+      *s_link2 = (void *)stream_link2;
+      return result_link2;
 
     error:
       ;
-      if(!(stream$link2 == ((struct PaJackStream *)NULL)))
-        CleanUpStream(stream$link2, srInitialized, bpInitialized);
+      if(!(stream_link2 == ((struct PaJackStream *)NULL)))
+        CleanUpStream(stream_link2, srInitialized, bpInitialized);
 
-      return result$link2;
+      return result_link2;
     }
   }
 }
 
-// OpenStream$link3
+// OpenStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1184
-static signed int OpenStream$link3(struct PaUtilHostApiRepresentation *hostApi$link3, void **s$link3, const struct PaStreamParameters *inputParameters$link3, const struct PaStreamParameters *outputParameters$link3, double sampleRate$link3, unsigned long int framesPerBuffer$link3, unsigned long int streamFlags$link3, signed int (*streamCallback$link2)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData$link3)
+static signed int OpenStream_link3(struct PaUtilHostApiRepresentation *hostApi_link3, void **s_link3, const struct PaStreamParameters *inputParameters_link3, const struct PaStreamParameters *outputParameters_link3, double sampleRate_link3, unsigned long int framesPerBuffer_link3, unsigned long int streamFlags_link3, signed int (*streamCallback_link2)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData_link3)
 {
-  signed int result$link3 = 0;
-  struct anonymous$14 *ossHostApi = (struct anonymous$14 *)hostApi$link3;
-  struct PaOssStream *stream$link3 = (struct PaOssStream *)(void *)0;
-  signed int inputChannelCount$link2 = 0;
-  signed int outputChannelCount$link2 = 0;
-  unsigned long int inputSampleFormat$link3 = (unsigned long int)0;
-  unsigned long int outputSampleFormat$link3 = (unsigned long int)0;
+  signed int result_link3 = 0;
+  struct anonymous_14 *ossHostApi = (struct anonymous_14 *)hostApi_link3;
+  struct PaOssStream *stream_link3 = (struct PaOssStream *)(void *)0;
+  signed int inputChannelCount_link2 = 0;
+  signed int outputChannelCount_link2 = 0;
+  unsigned long int inputSampleFormat_link3 = (unsigned long int)0;
+  unsigned long int outputSampleFormat_link3 = (unsigned long int)0;
   unsigned long int inputHostFormat = (unsigned long int)0;
   unsigned long int outputHostFormat = (unsigned long int)0;
   const struct PaDeviceInfo *inputDeviceInfo = ((const struct PaDeviceInfo *)NULL);
   const struct PaDeviceInfo *outputDeviceInfo = ((const struct PaDeviceInfo *)NULL);
-  signed int bpInitialized$link1 = 0;
+  signed int bpInitialized_link1 = 0;
   double inLatency = 0.;
   double outLatency = 0.;
-  signed int i$link1 = 0;
-  if(!((4294901760ul & streamFlags$link3) == 0ul))
+  signed int i_link1 = 0;
+  if(!((4294901760ul & streamFlags_link3) == 0ul))
     return -9995;
 
   else
   {
-    if(!(inputParameters$link3 == ((const struct PaStreamParameters *)NULL)))
+    if(!(inputParameters_link3 == ((const struct PaStreamParameters *)NULL)))
     {
-      inputDeviceInfo = hostApi$link3->deviceInfos[(signed long int)inputParameters$link3->device];
+      inputDeviceInfo = hostApi_link3->deviceInfos[(signed long int)inputParameters_link3->device];
       do
       {
-        paUtilErr_$link1=ValidateParameters$link1(inputParameters$link3, inputDeviceInfo, (enum anonymous$15)StreamMode_In);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=ValidateParameters_link1(inputParameters_link3, inputDeviceInfo, (enum anonymous_15)StreamMode_In);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'ValidateParameters( inputParameters, inputDeviceInfo, StreamMode_In )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1213\n");
-          result$link3 = paUtilErr_$link1;
+          result_link3 = paUtilErr__link1;
           goto error;
         }
 
       }
       while((_Bool)0);
-      inputChannelCount$link2 = inputParameters$link3->channelCount;
-      inputSampleFormat$link3 = inputParameters$link3->sampleFormat;
+      inputChannelCount_link2 = inputParameters_link3->channelCount;
+      inputSampleFormat_link3 = inputParameters_link3->sampleFormat;
     }
 
-    if(!(outputParameters$link3 == ((const struct PaStreamParameters *)NULL)))
+    if(!(outputParameters_link3 == ((const struct PaStreamParameters *)NULL)))
     {
-      outputDeviceInfo = hostApi$link3->deviceInfos[(signed long int)outputParameters$link3->device];
+      outputDeviceInfo = hostApi_link3->deviceInfos[(signed long int)outputParameters_link3->device];
       do
       {
-        paUtilErr_$link1=ValidateParameters$link1(outputParameters$link3, outputDeviceInfo, (enum anonymous$15)StreamMode_Out);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=ValidateParameters_link1(outputParameters_link3, outputDeviceInfo, (enum anonymous_15)StreamMode_Out);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'ValidateParameters( outputParameters, outputDeviceInfo, StreamMode_Out )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1221\n");
-          result$link3 = paUtilErr_$link1;
+          result_link3 = paUtilErr__link1;
           goto error;
         }
 
       }
       while((_Bool)0);
-      outputChannelCount$link2 = outputParameters$link3->channelCount;
-      outputSampleFormat$link3 = outputParameters$link3->sampleFormat;
+      outputChannelCount_link2 = outputParameters_link3->channelCount;
+      outputSampleFormat_link3 = outputParameters_link3->sampleFormat;
     }
 
-    if(inputChannelCount$link2 >= 1 && outputChannelCount$link2 >= 1)
+    if(inputChannelCount_link2 >= 1 && outputChannelCount_link2 >= 1)
     {
-      if(!(inputParameters$link3->device == outputParameters$link3->device))
+      if(!(inputParameters_link3->device == outputParameters_link3->device))
         goto __CPROVER_DUMP_L8;
 
-      if(inputParameters$link3->channelCount == outputParameters$link3->channelCount)
+      if(inputParameters_link3->channelCount == outputParameters_link3->channelCount)
         goto __CPROVER_DUMP_L8;
 
       return -9998;
@@ -11352,24 +11352,24 @@ static signed int OpenStream$link3(struct PaUtilHostApiRepresentation *hostApi$l
 
     __CPROVER_DUMP_L8:
       ;
-      if(!(framesPerBuffer$link3 == 0ul))
+      if(!(framesPerBuffer_link3 == 0ul))
       {
-        framesPerBuffer$link3 = framesPerBuffer$link3 & (unsigned long int)0x7fffffff;
-        i$link1 = 1;
-        for( ; !((unsigned long int)i$link1 >= framesPerBuffer$link3); i$link1 = i$link1 << 1)
+        framesPerBuffer_link3 = framesPerBuffer_link3 & (unsigned long int)0x7fffffff;
+        i_link1 = 1;
+        for( ; !((unsigned long int)i_link1 >= framesPerBuffer_link3); i_link1 = i_link1 << 1)
           ;
-        framesPerBuffer$link3 = (unsigned long int)i$link1;
+        framesPerBuffer_link3 = (unsigned long int)i_link1;
       }
 
       do
       {
-        void *return_value_PaUtil_AllocateMemory$1$link1;
-        return_value_PaUtil_AllocateMemory$1$link1=PaUtil_AllocateMemory((signed long int)sizeof(struct PaOssStream) /*552ul*/ );
-        stream$link3 = (struct PaOssStream *)return_value_PaUtil_AllocateMemory$1$link1;
-        if(stream$link3 == ((struct PaOssStream *)NULL))
+        void *return_value_PaUtil_AllocateMemory_1_link1;
+        return_value_PaUtil_AllocateMemory_1_link1=PaUtil_AllocateMemory((signed long int)sizeof(struct PaOssStream) /*552ul*/ );
+        stream_link3 = (struct PaOssStream *)return_value_PaUtil_AllocateMemory_1_link1;
+        if(stream_link3 == ((struct PaOssStream *)NULL))
         {
           PaUtil_DebugPrint("Expression 'stream = (PaOssStream*)PaUtil_AllocateMemory( sizeof(PaOssStream) )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1248\n");
-          result$link3 = -9992;
+          result_link3 = -9992;
           goto error;
         }
 
@@ -11377,11 +11377,11 @@ static signed int OpenStream$link3(struct PaUtilHostApiRepresentation *hostApi$l
       while((_Bool)0);
       do
       {
-        paUtilErr_$link1=PaOssStream_Initialize(stream$link3, inputParameters$link3, outputParameters$link3, streamCallback$link2, userData$link3, streamFlags$link3, ossHostApi);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=PaOssStream_Initialize(stream_link3, inputParameters_link3, outputParameters_link3, streamCallback_link2, userData_link3, streamFlags_link3, ossHostApi);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'PaOssStream_Initialize( stream, inputParameters, outputParameters, streamCallback, userData, streamFlags, ossHostApi )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1249\n");
-          result$link3 = paUtilErr_$link1;
+          result_link3 = paUtilErr__link1;
           goto error;
         }
 
@@ -11389,58 +11389,58 @@ static signed int OpenStream$link3(struct PaUtilHostApiRepresentation *hostApi$l
       while((_Bool)0);
       do
       {
-        paUtilErr_$link1=PaOssStream_Configure(stream$link3, sampleRate$link3, framesPerBuffer$link3, &inLatency, &outLatency);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=PaOssStream_Configure(stream_link3, sampleRate_link3, framesPerBuffer_link3, &inLatency, &outLatency);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'PaOssStream_Configure( stream, sampleRate, framesPerBuffer, &inLatency, &outLatency )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1251\n");
-          result$link3 = paUtilErr_$link1;
+          result_link3 = paUtilErr__link1;
           goto error;
         }
 
       }
       while((_Bool)0);
-      PaUtil_InitializeCpuLoadMeasurer(&stream$link3->cpuLoadMeasurer, sampleRate$link3);
-      if(!(inputParameters$link3 == ((const struct PaStreamParameters *)NULL)))
+      PaUtil_InitializeCpuLoadMeasurer(&stream_link3->cpuLoadMeasurer, sampleRate_link3);
+      if(!(inputParameters_link3 == ((const struct PaStreamParameters *)NULL)))
       {
-        inputHostFormat = stream$link3->capture->hostFormat;
-        unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames$2$link1;
-        return_value_PaUtil_GetBufferProcessorInputLatencyFrames$2$link1=PaUtil_GetBufferProcessorInputLatencyFrames(&stream$link3->bufferProcessor);
-        stream$link3->streamRepresentation.streamInfo.inputLatency = inLatency + (double)return_value_PaUtil_GetBufferProcessorInputLatencyFrames$2$link1 / sampleRate$link3;
+        inputHostFormat = stream_link3->capture->hostFormat;
+        unsigned long int return_value_PaUtil_GetBufferProcessorInputLatencyFrames_2_link1;
+        return_value_PaUtil_GetBufferProcessorInputLatencyFrames_2_link1=PaUtil_GetBufferProcessorInputLatencyFrames(&stream_link3->bufferProcessor);
+        stream_link3->streamRepresentation.streamInfo.inputLatency = inLatency + (double)return_value_PaUtil_GetBufferProcessorInputLatencyFrames_2_link1 / sampleRate_link3;
       }
 
-      if(!(outputParameters$link3 == ((const struct PaStreamParameters *)NULL)))
+      if(!(outputParameters_link3 == ((const struct PaStreamParameters *)NULL)))
       {
-        outputHostFormat = stream$link3->playback->hostFormat;
-        unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$3$link1;
-        return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$3$link1=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream$link3->bufferProcessor);
-        stream$link3->streamRepresentation.streamInfo.outputLatency = outLatency + (double)return_value_PaUtil_GetBufferProcessorOutputLatencyFrames$3$link1 / sampleRate$link3;
+        outputHostFormat = stream_link3->playback->hostFormat;
+        unsigned long int return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_3_link1;
+        return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_3_link1=PaUtil_GetBufferProcessorOutputLatencyFrames(&stream_link3->bufferProcessor);
+        stream_link3->streamRepresentation.streamInfo.outputLatency = outLatency + (double)return_value_PaUtil_GetBufferProcessorOutputLatencyFrames_3_link1 / sampleRate_link3;
       }
 
       do
       {
-        paUtilErr_$link1=PaUtil_InitializeBufferProcessor(&stream$link3->bufferProcessor, inputChannelCount$link2, inputSampleFormat$link3, inputHostFormat, outputChannelCount$link2, outputSampleFormat$link3, outputHostFormat, sampleRate$link3, streamFlags$link3, framesPerBuffer$link3, stream$link3->framesPerHostBuffer, (enum anonymous$21)paUtilFixedHostBufferSize, streamCallback$link2, userData$link3);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=PaUtil_InitializeBufferProcessor(&stream_link3->bufferProcessor, inputChannelCount_link2, inputSampleFormat_link3, inputHostFormat, outputChannelCount_link2, outputSampleFormat_link3, outputHostFormat, sampleRate_link3, streamFlags_link3, framesPerBuffer_link3, stream_link3->framesPerHostBuffer, (enum anonymous_21)paUtilFixedHostBufferSize, streamCallback_link2, userData_link3);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'PaUtil_InitializeBufferProcessor( &stream->bufferProcessor, inputChannelCount, inputSampleFormat, inputHostFormat, outputChannelCount, outputSampleFormat, outputHostFormat, sampleRate, streamFlags, framesPerBuffer, stream->framesPerHostBuffer, paUtilFixedHostBufferSize, streamCallback, userData )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1275\n");
-          result$link3 = paUtilErr_$link1;
+          result_link3 = paUtilErr__link1;
           goto error;
         }
 
       }
       while((_Bool)0);
-      bpInitialized$link1 = 1;
-      *s$link3 = (void *)stream$link3;
-      return result$link3;
+      bpInitialized_link1 = 1;
+      *s_link3 = (void *)stream_link3;
+      return result_link3;
 
     error:
       ;
-      if(!(bpInitialized$link1 == 0))
-        PaUtil_TerminateBufferProcessor(&stream$link3->bufferProcessor);
+      if(!(bpInitialized_link1 == 0))
+        PaUtil_TerminateBufferProcessor(&stream_link3->bufferProcessor);
 
-      if(!(stream$link3 == ((struct PaOssStream *)NULL)))
-        PaOssStream_Terminate(stream$link3);
+      if(!(stream_link3 == ((struct PaOssStream *)NULL)))
+        PaOssStream_Terminate(stream_link3);
 
-      return result$link3;
+      return result_link3;
     }
   }
 }
@@ -11497,7 +11497,7 @@ static signed int Pa2OssFormat(unsigned long int paFormat, signed int *ossFormat
 
 // PaAlsaStreamComponent_BeginPolling
 // file src/hostapi/alsa/pa_linux_alsa.c line 3636
-static signed int PaAlsaStreamComponent_BeginPolling(struct anonymous$23 *self, struct pollfd *pfds)
+static signed int PaAlsaStreamComponent_BeginPolling(struct anonymous_23 *self, struct pollfd *pfds)
 {
   signed int result = 0;
   signed int ret;
@@ -11511,7 +11511,7 @@ static signed int PaAlsaStreamComponent_BeginPolling(struct anonymous$23 *self, 
 
 // PaAlsaStreamComponent_DetermineFramesPerBuffer
 // file src/hostapi/alsa/pa_linux_alsa.c line 2265
-static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymous$23 *self, const struct PaStreamParameters *params, unsigned long int framesPerUserBuffer, double sampleRate, struct _snd_pcm_hw_params *hwParams, signed int *accurate)
+static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymous_23 *self, const struct PaStreamParameters *params, unsigned long int framesPerUserBuffer, double sampleRate, struct _snd_pcm_hw_params *hwParams, signed int *accurate)
 {
   signed int result = 0;
   unsigned long int bufferSize;
@@ -11524,13 +11524,13 @@ static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymou
   dir = 0;
   signed int __pa_unsure_error_id;
   __pa_unsure_error_id=alsa_snd_pcm_hw_params_get_periods_min(hwParams, &minPeriods, &dir);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(__pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-    if(!(return_value_pthread_equal$2 == 0))
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+    if(!(return_value_pthread_equal_2 == 0))
     {
       const char *return_value;
       return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -11541,19 +11541,19 @@ static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymou
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$1$$2$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$1$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_periods_max(hwParams, &maxPeriods, &dir);
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
-  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$1$$2$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer__1__1__2____pa_unsure_error_id;
+  PaAlsaStreamComponent_DetermineFramesPerBuffer__1__1__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_periods_max(hwParams, &maxPeriods, &dir);
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
+  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__1__2____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$3=pthread_self();
-    return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, paUnixMainThread);
-    if(!(return_value_pthread_equal$4 == 0))
+    return_value_pthread_self_3=pthread_self();
+    return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, paUnixMainThread);
+    if(!(return_value_pthread_equal_4 == 0))
     {
       const char *return_value_1;
-      return_value_1=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$1$$2$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$1$$2$$__pa_unsure_error_id, return_value_1);
+      return_value_1=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__1__2____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer__1__1__2____pa_unsure_error_id, return_value_1);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_periods_max( hwParams, &maxPeriods, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2332\n");
@@ -11621,38 +11621,38 @@ static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymou
   unsigned long int min = (unsigned long int)0;
   unsigned long int max = (unsigned long int)0;
   unsigned long int minmax_diff;
-  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$1$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_min(hwParams, &min, (signed int *)(void *)0);
-  unsigned long int return_value_pthread_self$5;
-  signed int return_value_pthread_equal$6;
-  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$1$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__1____pa_unsure_error_id;
+  PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_min(hwParams, &min, (signed int *)(void *)0);
+  unsigned long int return_value_pthread_self_5;
+  signed int return_value_pthread_equal_6;
+  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__1____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$5=pthread_self();
-    return_value_pthread_equal$6=pthread_equal(return_value_pthread_self$5, paUnixMainThread);
-    if(!(return_value_pthread_equal$6 == 0))
+    return_value_pthread_self_5=pthread_self();
+    return_value_pthread_equal_6=pthread_equal(return_value_pthread_self_5, paUnixMainThread);
+    if(!(return_value_pthread_equal_6 == 0))
     {
       const char *return_value_8;
-      return_value_8=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$1$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$1$$__pa_unsure_error_id, return_value_8);
+      return_value_8=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__1____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__1____pa_unsure_error_id, return_value_8);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_period_size_min( hwParams, &min, NULL )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2446\n");
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$2$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_max(hwParams, &max, (signed int *)(void *)0);
-  unsigned long int return_value_pthread_self$7;
-  signed int return_value_pthread_equal$8;
-  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$2$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__2____pa_unsure_error_id;
+  PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_max(hwParams, &max, (signed int *)(void *)0);
+  unsigned long int return_value_pthread_self_7;
+  signed int return_value_pthread_equal_8;
+  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__2____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$7=pthread_self();
-    return_value_pthread_equal$8=pthread_equal(return_value_pthread_self$7, paUnixMainThread);
-    if(!(return_value_pthread_equal$8 == 0))
+    return_value_pthread_self_7=pthread_self();
+    return_value_pthread_equal_8=pthread_equal(return_value_pthread_self_7, paUnixMainThread);
+    if(!(return_value_pthread_equal_8 == 0))
     {
       const char *return_value_9;
-      return_value_9=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$2$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$2$$__pa_unsure_error_id, return_value_9);
+      return_value_9=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__2____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__2____pa_unsure_error_id, return_value_9);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_period_size_max( hwParams, &max, NULL )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2447\n");
@@ -11668,19 +11668,19 @@ static signed int PaAlsaStreamComponent_DetermineFramesPerBuffer(struct anonymou
       framesPerHostBuffer = minmax_diff == (unsigned long int)2 ? max - (unsigned long int)1 : max;
 
   dir = 0;
-  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$5$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$5$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(self->pcm, hwParams, &framesPerHostBuffer, &dir);
-  unsigned long int return_value_pthread_self$9;
-  signed int return_value_pthread_equal$10;
-  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$5$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__5____pa_unsure_error_id;
+  PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__5____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(self->pcm, hwParams, &framesPerHostBuffer, &dir);
+  unsigned long int return_value_pthread_self_9;
+  signed int return_value_pthread_equal_10;
+  if(!(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__5____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$9=pthread_self();
-    return_value_pthread_equal$10=pthread_equal(return_value_pthread_self$9, paUnixMainThread);
-    if(!(return_value_pthread_equal$10 == 0))
+    return_value_pthread_self_9=pthread_self();
+    return_value_pthread_equal_10=pthread_equal(return_value_pthread_self_9, paUnixMainThread);
+    if(!(return_value_pthread_equal_10 == 0))
     {
       const char *return_value_10;
-      return_value_10=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$5$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer$$1$$2$$5$$__pa_unsure_error_id, return_value_10);
+      return_value_10=alsa_snd_strerror(PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__5____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_DetermineFramesPerBuffer__1__2__5____pa_unsure_error_id, return_value_10);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size_near( self->pcm, hwParams, &framesPerHostBuffer, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2468\n");
@@ -11699,7 +11699,7 @@ error:
 
 // PaAlsaStreamComponent_DoChannelAdaption
 // file src/hostapi/alsa/pa_linux_alsa.c line 3521
-static signed int PaAlsaStreamComponent_DoChannelAdaption(struct anonymous$23 *self, struct anonymous$7 *bp, signed int numFrames)
+static signed int PaAlsaStreamComponent_DoChannelAdaption(struct anonymous_23 *self, struct anonymous_7 *bp, signed int numFrames)
 {
   signed int result = 0;
   unsigned char *p;
@@ -11708,19 +11708,19 @@ static signed int PaAlsaStreamComponent_DoChannelAdaption(struct anonymous$23 *s
   unsigned char *src;
   unsigned char *dst;
   signed int convertMono;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(self->numHostChannels % 2 == 0)
-    tmp_if_expr$1 = self->numUserChannels % 2 != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = self->numUserChannels % 2 != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  convertMono = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  convertMono = (signed int)tmp_if_expr_1;
   /* assertion StreamDirection_Out == self->streamDir */
   assert(StreamDirection_Out == (signed int)self->streamDir);
-  unsigned char *tmp_if_expr$3;
-  unsigned char *return_value_ExtractAddress$2;
-  unsigned long int return_value_pthread_self$4;
-  signed int return_value_pthread_equal$5;
+  unsigned char *tmp_if_expr_3;
+  unsigned char *return_value_ExtractAddress_2;
+  unsigned long int return_value_pthread_self_4;
+  signed int return_value_pthread_equal_5;
   if(!(self->hostInterleaved == 0))
   {
     signed int swidth;
@@ -11730,13 +11730,13 @@ static signed int PaAlsaStreamComponent_DoChannelAdaption(struct anonymous$23 *s
     unsigned char *buffer;
     if(!(self->canMmap == 0))
     {
-      return_value_ExtractAddress$2=ExtractAddress(self->channelAreas, self->offset);
-      tmp_if_expr$3 = return_value_ExtractAddress$2;
+      return_value_ExtractAddress_2=ExtractAddress(self->channelAreas, self->offset);
+      tmp_if_expr_3 = return_value_ExtractAddress_2;
     }
 
     else
-      tmp_if_expr$3 = (unsigned char *)self->nonMmapBuffer;
-    buffer = tmp_if_expr$3;
+      tmp_if_expr_3 = (unsigned char *)self->nonMmapBuffer;
+    buffer = tmp_if_expr_3;
     p = buffer + (signed long int)(self->numUserChannels * swidth);
     if(!(convertMono == 0))
     {
@@ -11776,9 +11776,9 @@ static signed int PaAlsaStreamComponent_DoChannelAdaption(struct anonymous$23 *s
       __pa_unsure_error_id=alsa_snd_pcm_area_copy(self->channelAreas + (signed long int)self->numUserChannels, self->offset, self->channelAreas + (signed long int)(self->numUserChannels - 1), self->offset, (unsigned int)numFrames, self->nativeFormat);
       if(!(__pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$4=pthread_self();
-        return_value_pthread_equal$5=pthread_equal(return_value_pthread_self$4, paUnixMainThread);
-        if(!(return_value_pthread_equal$5 == 0))
+        return_value_pthread_self_4=pthread_self();
+        return_value_pthread_equal_5=pthread_equal(return_value_pthread_self_4, paUnixMainThread);
+        if(!(return_value_pthread_equal_5 == 0))
         {
           const char *return_value_1;
           return_value_1=alsa_snd_strerror(__pa_unsure_error_id);
@@ -11804,19 +11804,19 @@ error:
 
 // PaAlsaStreamComponent_EndPolling
 // file src/hostapi/alsa/pa_linux_alsa.c line 3654
-static signed int PaAlsaStreamComponent_EndPolling(struct anonymous$23 *self, struct pollfd *pfds, signed int *shouldPoll, signed int *xrun)
+static signed int PaAlsaStreamComponent_EndPolling(struct anonymous_23 *self, struct pollfd *pfds, signed int *shouldPoll, signed int *xrun)
 {
   signed int result = 0;
   unsigned short int revents;
   signed int __pa_unsure_error_id;
   __pa_unsure_error_id=alsa_snd_pcm_poll_descriptors_revents(self->pcm, pfds, self->nfds, &revents);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(__pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-    if(!(return_value_pthread_equal$2 == 0))
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+    if(!(return_value_pthread_equal_2 == 0))
     {
       const char *return_value;
       return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -11856,14 +11856,14 @@ error:
 
 // PaAlsaStreamComponent_EndProcessing
 // file src/hostapi/alsa/pa_linux_alsa.c line 3462
-static signed int PaAlsaStreamComponent_EndProcessing(struct anonymous$23 *self, unsigned long int numFrames, signed int *xrun)
+static signed int PaAlsaStreamComponent_EndProcessing(struct anonymous_23 *self, unsigned long int numFrames, signed int *xrun)
 {
   signed int result = 0;
   signed int res = 0;
   signed long int return_value;
   signed long int return_value_3;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(self->ready == 0))
   {
     if(self->canMmap == 0)
@@ -11878,8 +11878,8 @@ static signed int PaAlsaStreamComponent_EndProcessing(struct anonymous$23 *self,
 
         else
         {
-          const signed long int res$array_size0 = (signed long int)self->numHostChannels;
-          void *bufs[res$array_size0];
+          const signed long int res_array_size0 = (signed long int)self->numHostChannels;
+          void *bufs[res_array_size0];
           signed int bufsize;
           signed long int return_value_1;
           return_value_1=alsa_snd_pcm_format_size(self->nativeFormat, self->framesPerPeriod + (unsigned long int)1);
@@ -11916,9 +11916,9 @@ static signed int PaAlsaStreamComponent_EndProcessing(struct anonymous$23 *self,
         signed int __pa_unsure_error_id = res;
         if(!(__pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$1=pthread_self();
-          return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-          if(!(return_value_pthread_equal$2 == 0))
+          return_value_pthread_self_1=pthread_self();
+          return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+          if(!(return_value_pthread_equal_2 == 0))
           {
             const char *return_value_4;
             return_value_4=alsa_snd_strerror(__pa_unsure_error_id);
@@ -11944,7 +11944,7 @@ end:
 
 // PaAlsaStreamComponent_FinishConfigure
 // file src/hostapi/alsa/pa_linux_alsa.c line 2073
-static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *self, struct _snd_pcm_hw_params *hwParams, const struct PaStreamParameters *params, signed int primeBuffers, double sampleRate, double *latency)
+static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous_23 *self, struct _snd_pcm_hw_params *hwParams, const struct PaStreamParameters *params, signed int primeBuffers, double sampleRate, double *latency)
 {
   signed int result = 0;
   struct _snd_pcm_sw_params *swParams;
@@ -11952,24 +11952,24 @@ static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *sel
   *latency = -1.;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_sw_params_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&swParams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&swParams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca_1;
   memset((void *)*(&swParams), 0, __alsa_alloca_size);
   bufSz = (unsigned long int)(params->suggestedLatency * sampleRate + (double)self->framesPerPeriod);
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$2$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_buffer_size_near(self->pcm, hwParams, &bufSz);
-  unsigned long int return_value_pthread_self$2;
-  signed int return_value_pthread_equal$3;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$2$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__2____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_buffer_size_near(self->pcm, hwParams, &bufSz);
+  unsigned long int return_value_pthread_self_2;
+  signed int return_value_pthread_equal_3;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__2____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$2=pthread_self();
-    return_value_pthread_equal$3=pthread_equal(return_value_pthread_self$2, paUnixMainThread);
-    if(!(return_value_pthread_equal$3 == 0))
+    return_value_pthread_self_2=pthread_self();
+    return_value_pthread_equal_3=pthread_equal(return_value_pthread_self_2, paUnixMainThread);
+    if(!(return_value_pthread_equal_3 == 0))
     {
       const char *return_value;
-      return_value=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$2$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$2$$__pa_unsure_error_id, return_value);
+      return_value=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__2____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__2____pa_unsure_error_id, return_value);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_buffer_size_near( self->pcm, hwParams, &bufSz )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2084\n");
@@ -11978,39 +11978,39 @@ static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *sel
 
   signed int r;
   r=alsa_snd_pcm_hw_params(self->pcm, hwParams);
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$3$$1$$__pa_unsure_error_id = r;
-  unsigned long int return_value_pthread_self$4;
-  signed int return_value_pthread_equal$5;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$3$$1$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__3__1____pa_unsure_error_id = r;
+  unsigned long int return_value_pthread_self_4;
+  signed int return_value_pthread_equal_5;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__3__1____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$4=pthread_self();
-    return_value_pthread_equal$5=pthread_equal(return_value_pthread_self$4, paUnixMainThread);
-    if(!(return_value_pthread_equal$5 == 0))
+    return_value_pthread_self_4=pthread_self();
+    return_value_pthread_equal_5=pthread_equal(return_value_pthread_self_4, paUnixMainThread);
+    if(!(return_value_pthread_equal_5 == 0))
     {
       const char *return_value_1;
-      return_value_1=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$3$$1$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$3$$1$$__pa_unsure_error_id, return_value_1);
+      return_value_1=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__3__1____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__3__1____pa_unsure_error_id, return_value_1);
     }
 
     PaUtil_DebugPrint("Expression 'r' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2097\n");
     result = -9999;
   }
 
-  unsigned long int return_value_pthread_self$6;
-  signed int return_value_pthread_equal$7;
+  unsigned long int return_value_pthread_self_6;
+  signed int return_value_pthread_equal_7;
   if(!(alsa_snd_pcm_hw_params_get_buffer_size == ((signed int (*)(const struct _snd_pcm_hw_params *, unsigned long int *))NULL)))
   {
-    signed int PaAlsaStreamComponent_FinishConfigure$$1$$4$$1$$__pa_unsure_error_id;
-    PaAlsaStreamComponent_FinishConfigure$$1$$4$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_buffer_size(hwParams, &self->alsaBufferSize);
-    if(!(PaAlsaStreamComponent_FinishConfigure$$1$$4$$1$$__pa_unsure_error_id >= 0))
+    signed int PaAlsaStreamComponent_FinishConfigure__1__4__1____pa_unsure_error_id;
+    PaAlsaStreamComponent_FinishConfigure__1__4__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_buffer_size(hwParams, &self->alsaBufferSize);
+    if(!(PaAlsaStreamComponent_FinishConfigure__1__4__1____pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$6=pthread_self();
-      return_value_pthread_equal$7=pthread_equal(return_value_pthread_self$6, paUnixMainThread);
-      if(!(return_value_pthread_equal$7 == 0))
+      return_value_pthread_self_6=pthread_self();
+      return_value_pthread_equal_7=pthread_equal(return_value_pthread_self_6, paUnixMainThread);
+      if(!(return_value_pthread_equal_7 == 0))
       {
         const char *return_value_2;
-        return_value_2=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$4$$1$$__pa_unsure_error_id);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$4$$1$$__pa_unsure_error_id, return_value_2);
+        return_value_2=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__4__1____pa_unsure_error_id);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__4__1____pa_unsure_error_id, return_value_2);
       }
 
       PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_buffer_size( hwParams, &self->alsaBufferSize )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2101\n");
@@ -12022,69 +12022,69 @@ static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *sel
   else
     self->alsaBufferSize = bufSz;
   *latency = (double)(self->alsaBufferSize - self->framesPerPeriod) / sampleRate;
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$6$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$6$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_current(self->pcm, swParams);
-  unsigned long int return_value_pthread_self$8;
-  signed int return_value_pthread_equal$9;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$6$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__6____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__6____pa_unsure_error_id=alsa_snd_pcm_sw_params_current(self->pcm, swParams);
+  unsigned long int return_value_pthread_self_8;
+  signed int return_value_pthread_equal_9;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__6____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$8=pthread_self();
-    return_value_pthread_equal$9=pthread_equal(return_value_pthread_self$8, paUnixMainThread);
-    if(!(return_value_pthread_equal$9 == 0))
+    return_value_pthread_self_8=pthread_self();
+    return_value_pthread_equal_9=pthread_equal(return_value_pthread_self_8, paUnixMainThread);
+    if(!(return_value_pthread_equal_9 == 0))
     {
       const char *return_value_3;
-      return_value_3=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$6$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$6$$__pa_unsure_error_id, return_value_3);
+      return_value_3=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__6____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__6____pa_unsure_error_id, return_value_3);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_current( self->pcm, swParams )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2112\n");
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$7$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$7$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_set_start_threshold(self->pcm, swParams, self->framesPerPeriod);
-  unsigned long int return_value_pthread_self$10;
-  signed int return_value_pthread_equal$11;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$7$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__7____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__7____pa_unsure_error_id=alsa_snd_pcm_sw_params_set_start_threshold(self->pcm, swParams, self->framesPerPeriod);
+  unsigned long int return_value_pthread_self_10;
+  signed int return_value_pthread_equal_11;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__7____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$10=pthread_self();
-    return_value_pthread_equal$11=pthread_equal(return_value_pthread_self$10, paUnixMainThread);
-    if(!(return_value_pthread_equal$11 == 0))
+    return_value_pthread_self_10=pthread_self();
+    return_value_pthread_equal_11=pthread_equal(return_value_pthread_self_10, paUnixMainThread);
+    if(!(return_value_pthread_equal_11 == 0))
     {
       const char *return_value_4;
-      return_value_4=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$7$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$7$$__pa_unsure_error_id, return_value_4);
+      return_value_4=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__7____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__7____pa_unsure_error_id, return_value_4);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_set_start_threshold( self->pcm, swParams, self->framesPerPeriod )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2114\n");
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$8$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$8$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_set_stop_threshold(self->pcm, swParams, self->alsaBufferSize);
-  unsigned long int return_value_pthread_self$12;
-  signed int return_value_pthread_equal$13;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$8$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__8____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__8____pa_unsure_error_id=alsa_snd_pcm_sw_params_set_stop_threshold(self->pcm, swParams, self->alsaBufferSize);
+  unsigned long int return_value_pthread_self_12;
+  signed int return_value_pthread_equal_13;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__8____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$12=pthread_self();
-    return_value_pthread_equal$13=pthread_equal(return_value_pthread_self$12, paUnixMainThread);
-    if(!(return_value_pthread_equal$13 == 0))
+    return_value_pthread_self_12=pthread_self();
+    return_value_pthread_equal_13=pthread_equal(return_value_pthread_self_12, paUnixMainThread);
+    if(!(return_value_pthread_equal_13 == 0))
     {
       const char *return_value_5;
-      return_value_5=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$8$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$8$$__pa_unsure_error_id, return_value_5);
+      return_value_5=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__8____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__8____pa_unsure_error_id, return_value_5);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_set_stop_threshold( self->pcm, swParams, self->alsaBufferSize )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2115\n");
     result = -9999;
   }
 
-  unsigned long int return_value_pthread_self$14;
-  signed int return_value_pthread_equal$15;
-  unsigned long int return_value_pthread_self$16;
-  signed int return_value_pthread_equal$17;
-  unsigned long int return_value_pthread_self$18;
-  signed int return_value_pthread_equal$19;
+  unsigned long int return_value_pthread_self_14;
+  signed int return_value_pthread_equal_15;
+  unsigned long int return_value_pthread_self_16;
+  signed int return_value_pthread_equal_17;
+  unsigned long int return_value_pthread_self_18;
+  signed int return_value_pthread_equal_19;
   if(primeBuffers == 0)
   {
     unsigned long int boundary;
@@ -12092,9 +12092,9 @@ static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *sel
     __pa_unsure_error_id=alsa_snd_pcm_sw_params_get_boundary(swParams, &boundary);
     if(!(__pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$14=pthread_self();
-      return_value_pthread_equal$15=pthread_equal(return_value_pthread_self$14, paUnixMainThread);
-      if(!(return_value_pthread_equal$15 == 0))
+      return_value_pthread_self_14=pthread_self();
+      return_value_pthread_equal_15=pthread_equal(return_value_pthread_self_14, paUnixMainThread);
+      if(!(return_value_pthread_equal_15 == 0))
       {
         const char *return_value_6;
         return_value_6=alsa_snd_strerror(__pa_unsure_error_id);
@@ -12105,34 +12105,34 @@ static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *sel
       result = -9999;
     }
 
-    signed int PaAlsaStreamComponent_FinishConfigure$$1$$9$$2$$__pa_unsure_error_id;
-    PaAlsaStreamComponent_FinishConfigure$$1$$9$$2$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_set_silence_threshold(self->pcm, swParams, (unsigned long int)0);
-    if(!(PaAlsaStreamComponent_FinishConfigure$$1$$9$$2$$__pa_unsure_error_id >= 0))
+    signed int PaAlsaStreamComponent_FinishConfigure__1__9__2____pa_unsure_error_id;
+    PaAlsaStreamComponent_FinishConfigure__1__9__2____pa_unsure_error_id=alsa_snd_pcm_sw_params_set_silence_threshold(self->pcm, swParams, (unsigned long int)0);
+    if(!(PaAlsaStreamComponent_FinishConfigure__1__9__2____pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$16=pthread_self();
-      return_value_pthread_equal$17=pthread_equal(return_value_pthread_self$16, paUnixMainThread);
-      if(!(return_value_pthread_equal$17 == 0))
+      return_value_pthread_self_16=pthread_self();
+      return_value_pthread_equal_17=pthread_equal(return_value_pthread_self_16, paUnixMainThread);
+      if(!(return_value_pthread_equal_17 == 0))
       {
         const char *return_value_7;
-        return_value_7=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$9$$2$$__pa_unsure_error_id);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$9$$2$$__pa_unsure_error_id, return_value_7);
+        return_value_7=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__9__2____pa_unsure_error_id);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__9__2____pa_unsure_error_id, return_value_7);
       }
 
       PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_set_silence_threshold( self->pcm, swParams, 0 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2122\n");
       result = -9999;
     }
 
-    signed int PaAlsaStreamComponent_FinishConfigure$$1$$9$$3$$__pa_unsure_error_id;
-    PaAlsaStreamComponent_FinishConfigure$$1$$9$$3$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_set_silence_size(self->pcm, swParams, boundary);
-    if(!(PaAlsaStreamComponent_FinishConfigure$$1$$9$$3$$__pa_unsure_error_id >= 0))
+    signed int PaAlsaStreamComponent_FinishConfigure__1__9__3____pa_unsure_error_id;
+    PaAlsaStreamComponent_FinishConfigure__1__9__3____pa_unsure_error_id=alsa_snd_pcm_sw_params_set_silence_size(self->pcm, swParams, boundary);
+    if(!(PaAlsaStreamComponent_FinishConfigure__1__9__3____pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$18=pthread_self();
-      return_value_pthread_equal$19=pthread_equal(return_value_pthread_self$18, paUnixMainThread);
-      if(!(return_value_pthread_equal$19 == 0))
+      return_value_pthread_self_18=pthread_self();
+      return_value_pthread_equal_19=pthread_equal(return_value_pthread_self_18, paUnixMainThread);
+      if(!(return_value_pthread_equal_19 == 0))
       {
         const char *return_value_8;
-        return_value_8=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$9$$3$$__pa_unsure_error_id);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$9$$3$$__pa_unsure_error_id, return_value_8);
+        return_value_8=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__9__3____pa_unsure_error_id);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__9__3____pa_unsure_error_id, return_value_8);
       }
 
       PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_set_silence_size( self->pcm, swParams, boundary )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2123\n");
@@ -12141,76 +12141,76 @@ static signed int PaAlsaStreamComponent_FinishConfigure(struct anonymous$23 *sel
 
   }
 
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$10$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$10$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_set_avail_min(self->pcm, swParams, self->framesPerPeriod);
-  unsigned long int return_value_pthread_self$20;
-  signed int return_value_pthread_equal$21;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$10$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__10____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__10____pa_unsure_error_id=alsa_snd_pcm_sw_params_set_avail_min(self->pcm, swParams, self->framesPerPeriod);
+  unsigned long int return_value_pthread_self_20;
+  signed int return_value_pthread_equal_21;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__10____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$20=pthread_self();
-    return_value_pthread_equal$21=pthread_equal(return_value_pthread_self$20, paUnixMainThread);
-    if(!(return_value_pthread_equal$21 == 0))
+    return_value_pthread_self_20=pthread_self();
+    return_value_pthread_equal_21=pthread_equal(return_value_pthread_self_20, paUnixMainThread);
+    if(!(return_value_pthread_equal_21 == 0))
     {
       const char *return_value_9;
-      return_value_9=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$10$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$10$$__pa_unsure_error_id, return_value_9);
+      return_value_9=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__10____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__10____pa_unsure_error_id, return_value_9);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_set_avail_min( self->pcm, swParams, self->framesPerPeriod )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2126\n");
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$11$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$11$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_set_xfer_align(self->pcm, swParams, (unsigned long int)1);
-  unsigned long int return_value_pthread_self$22;
-  signed int return_value_pthread_equal$23;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$11$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__11____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__11____pa_unsure_error_id=alsa_snd_pcm_sw_params_set_xfer_align(self->pcm, swParams, (unsigned long int)1);
+  unsigned long int return_value_pthread_self_22;
+  signed int return_value_pthread_equal_23;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__11____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$22=pthread_self();
-    return_value_pthread_equal$23=pthread_equal(return_value_pthread_self$22, paUnixMainThread);
-    if(!(return_value_pthread_equal$23 == 0))
+    return_value_pthread_self_22=pthread_self();
+    return_value_pthread_equal_23=pthread_equal(return_value_pthread_self_22, paUnixMainThread);
+    if(!(return_value_pthread_equal_23 == 0))
     {
       const char *return_value_10;
-      return_value_10=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$11$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$11$$__pa_unsure_error_id, return_value_10);
+      return_value_10=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__11____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__11____pa_unsure_error_id, return_value_10);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_set_xfer_align( self->pcm, swParams, 1 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2127\n");
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$12$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$12$$__pa_unsure_error_id=alsa_snd_pcm_sw_params_set_tstamp_mode(self->pcm, swParams, (enum _snd_pcm_tstamp)SND_PCM_TSTAMP_MMAP);
-  unsigned long int return_value_pthread_self$24;
-  signed int return_value_pthread_equal$25;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$12$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__12____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__12____pa_unsure_error_id=alsa_snd_pcm_sw_params_set_tstamp_mode(self->pcm, swParams, (enum _snd_pcm_tstamp)SND_PCM_TSTAMP_MMAP);
+  unsigned long int return_value_pthread_self_24;
+  signed int return_value_pthread_equal_25;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__12____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$24=pthread_self();
-    return_value_pthread_equal$25=pthread_equal(return_value_pthread_self$24, paUnixMainThread);
-    if(!(return_value_pthread_equal$25 == 0))
+    return_value_pthread_self_24=pthread_self();
+    return_value_pthread_equal_25=pthread_equal(return_value_pthread_self_24, paUnixMainThread);
+    if(!(return_value_pthread_equal_25 == 0))
     {
       const char *return_value_11;
-      return_value_11=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$12$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$12$$__pa_unsure_error_id, return_value_11);
+      return_value_11=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__12____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__12____pa_unsure_error_id, return_value_11);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params_set_tstamp_mode( self->pcm, swParams, SND_PCM_TSTAMP_ENABLE )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2128\n");
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_FinishConfigure$$1$$13$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_FinishConfigure$$1$$13$$__pa_unsure_error_id=alsa_snd_pcm_sw_params(self->pcm, swParams);
-  unsigned long int return_value_pthread_self$26;
-  signed int return_value_pthread_equal$27;
-  if(!(PaAlsaStreamComponent_FinishConfigure$$1$$13$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_FinishConfigure__1__13____pa_unsure_error_id;
+  PaAlsaStreamComponent_FinishConfigure__1__13____pa_unsure_error_id=alsa_snd_pcm_sw_params(self->pcm, swParams);
+  unsigned long int return_value_pthread_self_26;
+  signed int return_value_pthread_equal_27;
+  if(!(PaAlsaStreamComponent_FinishConfigure__1__13____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$26=pthread_self();
-    return_value_pthread_equal$27=pthread_equal(return_value_pthread_self$26, paUnixMainThread);
-    if(!(return_value_pthread_equal$27 == 0))
+    return_value_pthread_self_26=pthread_self();
+    return_value_pthread_equal_27=pthread_equal(return_value_pthread_self_26, paUnixMainThread);
+    if(!(return_value_pthread_equal_27 == 0))
     {
       const char *return_value_12;
-      return_value_12=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure$$1$$13$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure$$1$$13$$__pa_unsure_error_id, return_value_12);
+      return_value_12=alsa_snd_strerror(PaAlsaStreamComponent_FinishConfigure__1__13____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_FinishConfigure__1__13____pa_unsure_error_id, return_value_12);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_sw_params( self->pcm, swParams )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2131\n");
@@ -12225,14 +12225,14 @@ error:
 
 // PaAlsaStreamComponent_GetAvailableFrames
 // file src/hostapi/alsa/pa_linux_alsa.c line 3612
-static signed int PaAlsaStreamComponent_GetAvailableFrames(struct anonymous$23 *self, unsigned long int *numFrames, signed int *xrunOccurred)
+static signed int PaAlsaStreamComponent_GetAvailableFrames(struct anonymous_23 *self, unsigned long int *numFrames, signed int *xrunOccurred)
 {
   signed int result = 0;
   signed long int framesAvail;
   framesAvail=alsa_snd_pcm_avail_update(self->pcm);
   *xrunOccurred = 0;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(framesAvail == -32l)
   {
     *xrunOccurred = 1;
@@ -12244,9 +12244,9 @@ static signed int PaAlsaStreamComponent_GetAvailableFrames(struct anonymous$23 *
     signed int __pa_unsure_error_id = (signed int)framesAvail;
     if(!(__pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-      if(!(return_value_pthread_equal$2 == 0))
+      return_value_pthread_self_1=pthread_self();
+      return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+      if(!(return_value_pthread_equal_2 == 0))
       {
         const char *return_value;
         return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -12267,7 +12267,7 @@ error:
 
 // PaAlsaStreamComponent_InitialConfigure
 // file src/hostapi/alsa/pa_linux_alsa.c line 1958
-static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *self, const struct PaStreamParameters *params, signed int primeBuffers, struct _snd_pcm_hw_params *hwParams, double *sampleRate)
+static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous_23 *self, const struct PaStreamParameters *params, signed int primeBuffers, struct _snd_pcm_hw_params *hwParams, double *sampleRate)
 {
   signed int result = 0;
   enum _snd_pcm_access accessMode;
@@ -12276,38 +12276,38 @@ static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *se
   struct _snd_pcm *pcm = self->pcm;
   double sr = *sampleRate;
   unsigned int minPeriods = (unsigned int)2;
-  signed int PaAlsaStreamComponent_InitialConfigure$$1$$1$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_InitialConfigure$$1$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_any(pcm, hwParams);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  if(!(PaAlsaStreamComponent_InitialConfigure$$1$$1$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_InitialConfigure__1__1____pa_unsure_error_id;
+  PaAlsaStreamComponent_InitialConfigure__1__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_any(pcm, hwParams);
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  if(!(PaAlsaStreamComponent_InitialConfigure__1__1____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-    if(!(return_value_pthread_equal$2 == 0))
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+    if(!(return_value_pthread_equal_2 == 0))
     {
       const char *return_value;
-      return_value=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure$$1$$1$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure$$1$$1$$__pa_unsure_error_id, return_value);
+      return_value=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure__1__1____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure__1__1____pa_unsure_error_id, return_value);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_any( pcm, hwParams )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1979\n");
     result = -9999;
   }
 
-  signed int PaAlsaStreamComponent_InitialConfigure$$1$$2$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_InitialConfigure$$1$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_periods_integer(pcm, hwParams);
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
-  if(!(PaAlsaStreamComponent_InitialConfigure$$1$$2$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_InitialConfigure__1__2____pa_unsure_error_id;
+  PaAlsaStreamComponent_InitialConfigure__1__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_periods_integer(pcm, hwParams);
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
+  if(!(PaAlsaStreamComponent_InitialConfigure__1__2____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$3=pthread_self();
-    return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, paUnixMainThread);
-    if(!(return_value_pthread_equal$4 == 0))
+    return_value_pthread_self_3=pthread_self();
+    return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, paUnixMainThread);
+    if(!(return_value_pthread_equal_4 == 0))
     {
       const char *return_value_1;
-      return_value_1=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure$$1$$2$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure$$1$$2$$__pa_unsure_error_id, return_value_1);
+      return_value_1=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure__1__2____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure__1__2____pa_unsure_error_id, return_value_1);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_periods_integer( pcm, hwParams )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1981\n");
@@ -12315,28 +12315,28 @@ static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *se
   }
 
   dir = 0;
-  signed int PaAlsaStreamComponent_InitialConfigure$$1$$3$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_InitialConfigure$$1$$3$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_periods_min(pcm, hwParams, &minPeriods, &dir);
-  unsigned long int return_value_pthread_self$5;
-  signed int return_value_pthread_equal$6;
-  if(!(PaAlsaStreamComponent_InitialConfigure$$1$$3$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_InitialConfigure__1__3____pa_unsure_error_id;
+  PaAlsaStreamComponent_InitialConfigure__1__3____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_periods_min(pcm, hwParams, &minPeriods, &dir);
+  unsigned long int return_value_pthread_self_5;
+  signed int return_value_pthread_equal_6;
+  if(!(PaAlsaStreamComponent_InitialConfigure__1__3____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$5=pthread_self();
-    return_value_pthread_equal$6=pthread_equal(return_value_pthread_self$5, paUnixMainThread);
-    if(!(return_value_pthread_equal$6 == 0))
+    return_value_pthread_self_5=pthread_self();
+    return_value_pthread_equal_6=pthread_equal(return_value_pthread_self_5, paUnixMainThread);
+    if(!(return_value_pthread_equal_6 == 0))
     {
       const char *return_value_2;
-      return_value_2=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure$$1$$3$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure$$1$$3$$__pa_unsure_error_id, return_value_2);
+      return_value_2=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure__1__3____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure__1__3____pa_unsure_error_id, return_value_2);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_periods_min( pcm, hwParams, &minPeriods, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1984\n");
     result = -9999;
   }
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   signed int return_value_4;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   signed int return_value_6;
   if(!(self->userInterleaved == 0))
   {
@@ -12345,14 +12345,14 @@ static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *se
     signed int return_value_3;
     return_value_3=alsa_snd_pcm_hw_params_test_access(pcm, hwParams, accessMode);
     if(return_value_3 >= 0)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       return_value_4=alsa_snd_pcm_hw_params_test_access(pcm, hwParams, alternateAccessMode);
-      tmp_if_expr$7 = return_value_4 >= 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = return_value_4 >= 0 ? (_Bool)1 : (_Bool)0;
     }
-    self->canMmap = (signed int)tmp_if_expr$7;
+    self->canMmap = (signed int)tmp_if_expr_7;
     if(self->canMmap == 0)
     {
       accessMode = (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED;
@@ -12368,14 +12368,14 @@ static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *se
     signed int return_value_5;
     return_value_5=alsa_snd_pcm_hw_params_test_access(pcm, hwParams, accessMode);
     if(return_value_5 >= 0)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
       return_value_6=alsa_snd_pcm_hw_params_test_access(pcm, hwParams, alternateAccessMode);
-      tmp_if_expr$8 = return_value_6 >= 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = return_value_6 >= 0 ? (_Bool)1 : (_Bool)0;
     }
-    self->canMmap = (signed int)tmp_if_expr$8;
+    self->canMmap = (signed int)tmp_if_expr_8;
     if(self->canMmap == 0)
     {
       accessMode = (enum _snd_pcm_access)SND_PCM_ACCESS_RW_NONINTERLEAVED;
@@ -12402,13 +12402,13 @@ static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *se
 
   signed int __pa_unsure_error_id;
   __pa_unsure_error_id=alsa_snd_pcm_hw_params_set_format(pcm, hwParams, self->nativeFormat);
-  unsigned long int return_value_pthread_self$9;
-  signed int return_value_pthread_equal$10;
+  unsigned long int return_value_pthread_self_9;
+  signed int return_value_pthread_equal_10;
   if(!(__pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$9=pthread_self();
-    return_value_pthread_equal$10=pthread_equal(return_value_pthread_self$9, paUnixMainThread);
-    if(!(return_value_pthread_equal$10 == 0))
+    return_value_pthread_self_9=pthread_self();
+    return_value_pthread_equal_10=pthread_equal(return_value_pthread_self_9, paUnixMainThread);
+    if(!(return_value_pthread_equal_10 == 0))
     {
       const char *return_value_9;
       return_value_9=alsa_snd_strerror(__pa_unsure_error_id);
@@ -12420,21 +12420,21 @@ static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *se
   }
 
   result=SetApproximateSampleRate(pcm, hwParams, sr);
-  unsigned long int return_value_pthread_self$11;
-  signed int return_value_pthread_equal$12;
+  unsigned long int return_value_pthread_self_11;
+  signed int return_value_pthread_equal_12;
   if(!(result == -9999))
   {
-    signed int PaAlsaStreamComponent_InitialConfigure$$1$$8$$1$$__pa_unsure_error_id;
-    PaAlsaStreamComponent_InitialConfigure$$1$$8$$1$$__pa_unsure_error_id=GetExactSampleRate(hwParams, &sr);
-    if(!(PaAlsaStreamComponent_InitialConfigure$$1$$8$$1$$__pa_unsure_error_id >= 0))
+    signed int PaAlsaStreamComponent_InitialConfigure__1__8__1____pa_unsure_error_id;
+    PaAlsaStreamComponent_InitialConfigure__1__8__1____pa_unsure_error_id=GetExactSampleRate(hwParams, &sr);
+    if(!(PaAlsaStreamComponent_InitialConfigure__1__8__1____pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$11=pthread_self();
-      return_value_pthread_equal$12=pthread_equal(return_value_pthread_self$11, paUnixMainThread);
-      if(!(return_value_pthread_equal$12 == 0))
+      return_value_pthread_self_11=pthread_self();
+      return_value_pthread_equal_12=pthread_equal(return_value_pthread_self_11, paUnixMainThread);
+      if(!(return_value_pthread_equal_12 == 0))
       {
         const char *return_value_10;
-        return_value_10=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure$$1$$8$$1$$__pa_unsure_error_id);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure$$1$$8$$1$$__pa_unsure_error_id, return_value_10);
+        return_value_10=alsa_snd_strerror(PaAlsaStreamComponent_InitialConfigure__1__8__1____pa_unsure_error_id);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStreamComponent_InitialConfigure__1__8__1____pa_unsure_error_id, return_value_10);
       }
 
       PaUtil_DebugPrint("Expression 'GetExactSampleRate( hwParams, &sr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2044\n");
@@ -12464,11 +12464,11 @@ static signed int PaAlsaStreamComponent_InitialConfigure(struct anonymous$23 *se
     }
 
   }
-  signed int PaAlsaStreamComponent_InitialConfigure$$1$$10$$__pa_unsure_error_id;
-  PaAlsaStreamComponent_InitialConfigure$$1$$10$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_channels(pcm, hwParams, (unsigned int)self->numHostChannels);
-  unsigned long int return_value_pthread_self$13;
-  signed int return_value_pthread_equal$14;
-  if(!(PaAlsaStreamComponent_InitialConfigure$$1$$10$$__pa_unsure_error_id >= 0))
+  signed int PaAlsaStreamComponent_InitialConfigure__1__10____pa_unsure_error_id;
+  PaAlsaStreamComponent_InitialConfigure__1__10____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_channels(pcm, hwParams, (unsigned int)self->numHostChannels);
+  unsigned long int return_value_pthread_self_13;
+  signed int return_value_pthread_equal_14;
+  if(!(PaAlsaStreamComponent_InitialConfigure__1__10____pa_unsure_error_id >= 0))
   {
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_channels( pcm, hwParams, self->numHostChannels )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2056\n");
     result = -9998;
@@ -12486,7 +12486,7 @@ error:
 
 // PaAlsaStreamComponent_Initialize
 // file src/hostapi/alsa/pa_linux_alsa.c line 1872
-static signed int PaAlsaStreamComponent_Initialize(struct anonymous$23 *self, struct PaAlsaHostApiRepresentation *alsaApi, const struct PaStreamParameters *params, enum anonymous$17 streamDir, signed int callbackMode)
+static signed int PaAlsaStreamComponent_Initialize(struct anonymous_23 *self, struct PaAlsaHostApiRepresentation *alsaApi, const struct PaStreamParameters *params, enum anonymous_17 streamDir, signed int callbackMode)
 {
   signed int result = 0;
   unsigned long int userSampleFormat = params->sampleFormat;
@@ -12494,41 +12494,41 @@ static signed int PaAlsaStreamComponent_Initialize(struct anonymous$23 *self, st
   struct _snd_pcm_info *pcmInfo;
   /* assertion params->channelCount > 0 */
   assert(params->channelCount > 0);
-  memset((void *)self, 0, sizeof(struct anonymous$23) /*136ul*/ );
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$2;
+  memset((void *)self, 0, sizeof(struct anonymous_23) /*136ul*/ );
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_2;
   if(params->hostApiSpecificStreamInfo == NULL)
   {
     const struct PaAlsaDeviceInfo *devInfo;
     devInfo=GetDeviceInfo(&alsaApi->baseHostApiRep, params->device);
     if((signed int)streamDir == StreamDirection_In)
-      tmp_if_expr$1 = devInfo->minInputChannels;
+      tmp_if_expr_1 = devInfo->minInputChannels;
 
     else
-      tmp_if_expr$1 = devInfo->minOutputChannels;
-    if(!(tmp_if_expr$1 >= params->channelCount))
-      tmp_if_expr$3 = params->channelCount;
+      tmp_if_expr_1 = devInfo->minOutputChannels;
+    if(!(tmp_if_expr_1 >= params->channelCount))
+      tmp_if_expr_3 = params->channelCount;
 
     else
     {
       if((signed int)streamDir == StreamDirection_In)
-        tmp_if_expr$2 = devInfo->minInputChannels;
+        tmp_if_expr_2 = devInfo->minInputChannels;
 
       else
-        tmp_if_expr$2 = devInfo->minOutputChannels;
-      tmp_if_expr$3 = tmp_if_expr$2;
+        tmp_if_expr_2 = devInfo->minOutputChannels;
+      tmp_if_expr_3 = tmp_if_expr_2;
     }
-    self->numHostChannels = tmp_if_expr$3;
+    self->numHostChannels = tmp_if_expr_3;
     self->deviceIsPlug = devInfo->isPlug;
   }
 
   else
   {
     self->numHostChannels = params->channelCount;
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp("hw:", ((struct PaAlsaStreamInfo *)params->hostApiSpecificStreamInfo)->deviceString, (unsigned long int)3);
-    if(!(return_value_strncmp$4 == 0))
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp("hw:", ((struct PaAlsaStreamInfo *)params->hostApiSpecificStreamInfo)->deviceString, (unsigned long int)3);
+    if(!(return_value_strncmp_4 == 0))
       self->deviceIsPlug = 1;
 
   }
@@ -12554,23 +12554,23 @@ static signed int PaAlsaStreamComponent_Initialize(struct anonymous$23 *self, st
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_info_sizeof$5;
-    return_value_snd_pcm_info_sizeof$5=snd_pcm_info_sizeof();
-    void *return_value___builtin_alloca$6;
-    return_value___builtin_alloca$6=__builtin_alloca(return_value_snd_pcm_info_sizeof$5);
-    *(&pcmInfo) = (struct _snd_pcm_info *)return_value___builtin_alloca$6;
-    unsigned long int return_value_snd_pcm_info_sizeof$7;
-    return_value_snd_pcm_info_sizeof$7=snd_pcm_info_sizeof();
-    memset((void *)*(&pcmInfo), 0, return_value_snd_pcm_info_sizeof$7);
+    unsigned long int return_value_snd_pcm_info_sizeof_5;
+    return_value_snd_pcm_info_sizeof_5=snd_pcm_info_sizeof();
+    void *return_value___builtin_alloca_6;
+    return_value___builtin_alloca_6=__builtin_alloca(return_value_snd_pcm_info_sizeof_5);
+    *(&pcmInfo) = (struct _snd_pcm_info *)return_value___builtin_alloca_6;
+    unsigned long int return_value_snd_pcm_info_sizeof_7;
+    return_value_snd_pcm_info_sizeof_7=snd_pcm_info_sizeof();
+    memset((void *)*(&pcmInfo), 0, return_value_snd_pcm_info_sizeof_7);
   }
   while((_Bool)0);
   self->card=snd_pcm_info_get_card(pcmInfo);
   signed int return_value;
   return_value=alsa_snd_pcm_poll_descriptors_count(self->pcm);
   self->nfds = (unsigned int)return_value;
-  unsigned long int return_value_GetAvailableFormats$8;
-  return_value_GetAvailableFormats$8=GetAvailableFormats(self->pcm);
-  hostSampleFormat=PaUtil_SelectClosestAvailableFormat(return_value_GetAvailableFormats$8, userSampleFormat);
+  unsigned long int return_value_GetAvailableFormats_8;
+  return_value_GetAvailableFormats_8=GetAvailableFormats(self->pcm);
+  hostSampleFormat=PaUtil_SelectClosestAvailableFormat(return_value_GetAvailableFormats_8, userSampleFormat);
   paUtilErr_ = (signed int)hostSampleFormat;
   if(!(paUtilErr_ >= 0))
   {
@@ -12593,9 +12593,9 @@ static signed int PaAlsaStreamComponent_Initialize(struct anonymous$23 *self, st
     {
       if(self->userInterleaved == 0)
       {
-        void *return_value_PaUtil_AllocateMemory$9;
-        return_value_PaUtil_AllocateMemory$9=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)self->numUserChannels));
-        self->userBuffers = (void **)return_value_PaUtil_AllocateMemory$9;
+        void *return_value_PaUtil_AllocateMemory_9;
+        return_value_PaUtil_AllocateMemory_9=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)self->numUserChannels));
+        self->userBuffers = (void **)return_value_PaUtil_AllocateMemory_9;
         if(self->userBuffers == ((void **)NULL))
         {
           PaUtil_DebugPrint("Expression 'self->userBuffers = PaUtil_AllocateMemory( sizeof (void *) * self->numUserChannels )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1925\n");
@@ -12618,13 +12618,13 @@ error:
 
 // PaAlsaStreamComponent_RegisterChannels
 // file src/hostapi/alsa/pa_linux_alsa.c line 3947
-static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *self, struct anonymous$7 *bp, unsigned long int *numFrames, signed int *xrun)
+static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous_23 *self, struct anonymous_7 *bp, unsigned long int *numFrames, signed int *xrun)
 {
   signed int result = 0;
   const struct _snd_pcm_channel_area *areas;
   const struct _snd_pcm_channel_area *area;
-  void (*setChannel)(struct anonymous$7 *, unsigned int, void *, unsigned int) = StreamDirection_In == (signed int)self->streamDir ? PaUtil_SetInputChannel : PaUtil_SetOutputChannel;
-  unsigned char *PaAlsaStreamComponent_RegisterChannels$$1$$buffer;
+  void (*setChannel)(struct anonymous_7 *, unsigned int, void *, unsigned int) = StreamDirection_In == (signed int)self->streamDir ? PaUtil_SetInputChannel : PaUtil_SetOutputChannel;
+  unsigned char *PaAlsaStreamComponent_RegisterChannels__1__buffer;
   unsigned char *p;
   signed int i;
   unsigned long int framesAvail;
@@ -12640,10 +12640,10 @@ static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *se
 
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  unsigned char *tmp_if_expr$4;
-  unsigned char *return_value_ExtractAddress$3;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  unsigned char *tmp_if_expr_4;
+  unsigned char *return_value_ExtractAddress_3;
   signed long int return_value_3;
   if(!(*xrun == 0))
     *numFrames = (unsigned long int)0;
@@ -12656,9 +12656,9 @@ static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *se
       __pa_unsure_error_id=alsa_snd_pcm_mmap_begin(self->pcm, &areas, &self->offset, numFrames);
       if(!(__pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$1=pthread_self();
-        return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-        if(!(return_value_pthread_equal$2 == 0))
+        return_value_pthread_self_1=pthread_self();
+        return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+        if(!(return_value_pthread_equal_2 == 0))
         {
           const char *return_value;
           return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -12696,14 +12696,14 @@ static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *se
       swidth = (signed int)return_value_2;
       if(!(self->canMmap == 0))
       {
-        return_value_ExtractAddress$3=ExtractAddress(areas, self->offset);
-        tmp_if_expr$4 = return_value_ExtractAddress$3;
+        return_value_ExtractAddress_3=ExtractAddress(areas, self->offset);
+        tmp_if_expr_4 = return_value_ExtractAddress_3;
       }
 
       else
-        tmp_if_expr$4 = (unsigned char *)self->nonMmapBuffer;
-      PaAlsaStreamComponent_RegisterChannels$$1$$buffer = tmp_if_expr$4;
-      p = PaAlsaStreamComponent_RegisterChannels$$1$$buffer;
+        tmp_if_expr_4 = (unsigned char *)self->nonMmapBuffer;
+      PaAlsaStreamComponent_RegisterChannels__1__buffer = tmp_if_expr_4;
+      p = PaAlsaStreamComponent_RegisterChannels__1__buffer;
       i = 0;
       if(!(i >= self->numUserChannels))
       {
@@ -12721,8 +12721,8 @@ static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *se
         if(!(i >= self->numUserChannels))
         {
           area = areas + (signed long int)i;
-          PaAlsaStreamComponent_RegisterChannels$$1$$buffer=ExtractAddress(area, self->offset);
-          setChannel(bp, (unsigned int)i, (void *)PaAlsaStreamComponent_RegisterChannels$$1$$buffer, (unsigned int)1);
+          PaAlsaStreamComponent_RegisterChannels__1__buffer=ExtractAddress(area, self->offset);
+          setChannel(bp, (unsigned int)i, (void *)PaAlsaStreamComponent_RegisterChannels__1__buffer, (unsigned int)1);
           i = i + 1;
         }
 
@@ -12731,12 +12731,12 @@ static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *se
       else
       {
         unsigned int buf_per_ch_size = self->nonMmapBufferSize / (unsigned int)self->numHostChannels;
-        PaAlsaStreamComponent_RegisterChannels$$1$$buffer = (unsigned char *)self->nonMmapBuffer;
+        PaAlsaStreamComponent_RegisterChannels__1__buffer = (unsigned char *)self->nonMmapBuffer;
         i = 0;
         if(!(i >= self->numUserChannels))
         {
-          setChannel(bp, (unsigned int)i, (void *)PaAlsaStreamComponent_RegisterChannels$$1$$buffer, (unsigned int)1);
-          PaAlsaStreamComponent_RegisterChannels$$1$$buffer = PaAlsaStreamComponent_RegisterChannels$$1$$buffer + (signed long int)buf_per_ch_size;
+          setChannel(bp, (unsigned int)i, (void *)PaAlsaStreamComponent_RegisterChannels__1__buffer, (unsigned int)1);
+          PaAlsaStreamComponent_RegisterChannels__1__buffer = PaAlsaStreamComponent_RegisterChannels__1__buffer + (signed long int)buf_per_ch_size;
           i = i + 1;
         }
 
@@ -12754,16 +12754,16 @@ static signed int PaAlsaStreamComponent_RegisterChannels(struct anonymous$23 *se
 
         else
         {
-          const signed long int res$array_size0 = (signed long int)self->numHostChannels;
-          void *bufs[res$array_size0];
-          unsigned int PaAlsaStreamComponent_RegisterChannels$$1$$7$$1$$buf_per_ch_size = self->nonMmapBufferSize / (unsigned int)self->numHostChannels;
+          const signed long int res_array_size0 = (signed long int)self->numHostChannels;
+          void *bufs[res_array_size0];
+          unsigned int PaAlsaStreamComponent_RegisterChannels__1__7__1__buf_per_ch_size = self->nonMmapBufferSize / (unsigned int)self->numHostChannels;
           unsigned char *buffer = (unsigned char *)self->nonMmapBuffer;
-          signed int PaAlsaStreamComponent_RegisterChannels$$1$$7$$1$$i = 0;
-          if(!(PaAlsaStreamComponent_RegisterChannels$$1$$7$$1$$i >= self->numHostChannels))
+          signed int PaAlsaStreamComponent_RegisterChannels__1__7__1__i = 0;
+          if(!(PaAlsaStreamComponent_RegisterChannels__1__7__1__i >= self->numHostChannels))
           {
-            bufs[(signed long int)PaAlsaStreamComponent_RegisterChannels$$1$$7$$1$$i] = (void *)buffer;
-            buffer = buffer + (signed long int)PaAlsaStreamComponent_RegisterChannels$$1$$7$$1$$buf_per_ch_size;
-            PaAlsaStreamComponent_RegisterChannels$$1$$7$$1$$i = PaAlsaStreamComponent_RegisterChannels$$1$$7$$1$$i + 1;
+            bufs[(signed long int)PaAlsaStreamComponent_RegisterChannels__1__7__1__i] = (void *)buffer;
+            buffer = buffer + (signed long int)PaAlsaStreamComponent_RegisterChannels__1__7__1__buf_per_ch_size;
+            PaAlsaStreamComponent_RegisterChannels__1__7__1__i = PaAlsaStreamComponent_RegisterChannels__1__7__1__i + 1;
           }
 
           signed long int return_value_4;
@@ -12791,7 +12791,7 @@ end:
 
 // PaAlsaStreamComponent_Terminate
 // file src/hostapi/alsa/pa_linux_alsa.c line 1940
-static void PaAlsaStreamComponent_Terminate(struct anonymous$23 *self)
+static void PaAlsaStreamComponent_Terminate(struct anonymous_23 *self)
 {
   alsa_snd_pcm_close(self->pcm);
   PaUtil_FreeMemory((void *)self->userBuffers);
@@ -12800,7 +12800,7 @@ static void PaAlsaStreamComponent_Terminate(struct anonymous$23 *self)
 
 // PaAlsaStream_Configure
 // file src/hostapi/alsa/pa_linux_alsa.c line 2706
-static signed int PaAlsaStream_Configure(struct PaAlsaStream *self, const struct PaStreamParameters *inParams, const struct PaStreamParameters *outParams, double sampleRate, unsigned long int framesPerUserBuffer, double *inputLatency, double *outputLatency, enum anonymous$21 *hostBufferSizeMode)
+static signed int PaAlsaStream_Configure(struct PaAlsaStream *self, const struct PaStreamParameters *inParams, const struct PaStreamParameters *outParams, double sampleRate, unsigned long int framesPerUserBuffer, double *inputLatency, double *outputLatency, enum anonymous_21 *hostBufferSizeMode)
 {
   signed int result = 0;
   double realSr = sampleRate;
@@ -12808,16 +12808,16 @@ static signed int PaAlsaStream_Configure(struct PaAlsaStream *self, const struct
   struct _snd_pcm_hw_params *hwParamsPlayback;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_hw_params_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&hwParamsCapture) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&hwParamsCapture) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_1;
   memset((void *)*(&hwParamsCapture), 0, __alsa_alloca_size);
-  unsigned long int PaAlsaStream_Configure$$1$$2$$__alsa_alloca_size;
-  PaAlsaStream_Configure$$1$$2$$__alsa_alloca_size=alsa_snd_pcm_hw_params_sizeof();
-  void *return_value___builtin_alloca$2;
-  return_value___builtin_alloca$2=__builtin_alloca(PaAlsaStream_Configure$$1$$2$$__alsa_alloca_size);
-  *(&hwParamsPlayback) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$2;
-  memset((void *)*(&hwParamsPlayback), 0, PaAlsaStream_Configure$$1$$2$$__alsa_alloca_size);
+  unsigned long int PaAlsaStream_Configure__1__2____alsa_alloca_size;
+  PaAlsaStream_Configure__1__2____alsa_alloca_size=alsa_snd_pcm_hw_params_sizeof();
+  void *return_value___builtin_alloca_2;
+  return_value___builtin_alloca_2=__builtin_alloca(PaAlsaStream_Configure__1__2____alsa_alloca_size);
+  *(&hwParamsPlayback) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_2;
+  memset((void *)*(&hwParamsPlayback), 0, PaAlsaStream_Configure__1__2____alsa_alloca_size);
   if(!(self->capture.pcm == ((struct _snd_pcm *)NULL)))
   {
     paUtilErr_=PaAlsaStreamComponent_InitialConfigure(&self->capture, inParams, self->primeBuffers, hwParamsCapture, &realSr);
@@ -12841,11 +12841,11 @@ static signed int PaAlsaStream_Configure(struct PaAlsaStream *self, const struct
   }
 
   paUtilErr_=PaAlsaStream_DetermineFramesPerBuffer(self, realSr, inParams, outParams, framesPerUserBuffer, hwParamsCapture, hwParamsPlayback, hostBufferSizeMode);
-  unsigned long int tmp_if_expr$3;
-  unsigned long int tmp_if_expr$4;
-  unsigned long int tmp_if_expr$7;
-  unsigned long int tmp_if_expr$5;
-  unsigned long int tmp_if_expr$6;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int tmp_if_expr_4;
+  unsigned long int tmp_if_expr_7;
+  unsigned long int tmp_if_expr_5;
+  unsigned long int tmp_if_expr_6;
   if(!(paUtilErr_ >= 0))
   {
     PaUtil_DebugPrint("Expression 'PaAlsaStream_DetermineFramesPerBuffer( self, realSr, inParams, outParams, framesPerUserBuffer, hwParamsCapture, hwParamsPlayback, hostBufferSizeMode )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2725\n");
@@ -12900,35 +12900,35 @@ static signed int PaAlsaStream_Configure(struct PaAlsaStream *self, const struct
 
     unsigned long int minFramesPerHostBuffer;
     if(!(self->capture.pcm == ((struct _snd_pcm *)NULL)))
-      tmp_if_expr$3 = self->capture.framesPerPeriod;
+      tmp_if_expr_3 = self->capture.framesPerPeriod;
 
     else
-      tmp_if_expr$3 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
+      tmp_if_expr_3 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
     if(!(self->playback.pcm == ((struct _snd_pcm *)NULL)))
-      tmp_if_expr$4 = self->playback.framesPerPeriod;
+      tmp_if_expr_4 = self->playback.framesPerPeriod;
 
     else
-      tmp_if_expr$4 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
-    if(!(tmp_if_expr$3 >= tmp_if_expr$4))
+      tmp_if_expr_4 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
+    if(!(tmp_if_expr_3 >= tmp_if_expr_4))
     {
       if(!(self->capture.pcm == ((struct _snd_pcm *)NULL)))
-        tmp_if_expr$5 = self->capture.framesPerPeriod;
+        tmp_if_expr_5 = self->capture.framesPerPeriod;
 
       else
-        tmp_if_expr$5 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
-      tmp_if_expr$7 = tmp_if_expr$5;
+        tmp_if_expr_5 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
+      tmp_if_expr_7 = tmp_if_expr_5;
     }
 
     else
     {
       if(!(self->playback.pcm == ((struct _snd_pcm *)NULL)))
-        tmp_if_expr$6 = self->playback.framesPerPeriod;
+        tmp_if_expr_6 = self->playback.framesPerPeriod;
 
       else
-        tmp_if_expr$6 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
-      tmp_if_expr$7 = tmp_if_expr$6;
+        tmp_if_expr_6 = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
+      tmp_if_expr_7 = tmp_if_expr_6;
     }
-    minFramesPerHostBuffer = tmp_if_expr$7;
+    minFramesPerHostBuffer = tmp_if_expr_7;
     self->pollTimeout=CalculatePollTimeout(self, minFramesPerHostBuffer);
   }
 
@@ -12939,49 +12939,49 @@ error:
 
 // PaAlsaStream_DetermineFramesPerBuffer
 // file src/hostapi/alsa/pa_linux_alsa.c line 2517
-static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *self, double sampleRate, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, unsigned long int framesPerUserBuffer, struct _snd_pcm_hw_params *hwParamsCapture, struct _snd_pcm_hw_params *hwParamsPlayback, enum anonymous$21 *hostBufferSizeMode)
+static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *self, double sampleRate, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, unsigned long int framesPerUserBuffer, struct _snd_pcm_hw_params *hwParamsCapture, struct _snd_pcm_hw_params *hwParamsPlayback, enum anonymous_21 *hostBufferSizeMode)
 {
   signed int result = 0;
   unsigned long int framesPerHostBuffer = (unsigned long int)0;
   signed int dir = 0;
   signed int accurate = 1;
   unsigned int numPeriods = (unsigned int)numPeriods_;
-  _Bool tmp_if_expr$32;
+  _Bool tmp_if_expr_32;
   if(!(self->capture.pcm == ((struct _snd_pcm *)NULL)))
-    tmp_if_expr$32 = self->playback.pcm != ((struct _snd_pcm *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_32 = self->playback.pcm != ((struct _snd_pcm *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$32 = (_Bool)0;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_pthread_equal$4;
-  unsigned long int return_value_pthread_self$5;
-  signed int return_value_pthread_equal$6;
-  unsigned long int return_value_pthread_self$7;
-  signed int return_value_pthread_equal$8;
-  double tmp_if_expr$9;
-  unsigned long int return_value_pthread_self$10;
-  signed int return_value_pthread_equal$11;
-  unsigned long int return_value_pthread_self$12;
-  signed int return_value_pthread_equal$13;
+    tmp_if_expr_32 = (_Bool)0;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_pthread_equal_4;
+  unsigned long int return_value_pthread_self_5;
+  signed int return_value_pthread_equal_6;
+  unsigned long int return_value_pthread_self_7;
+  signed int return_value_pthread_equal_8;
+  double tmp_if_expr_9;
+  unsigned long int return_value_pthread_self_10;
+  signed int return_value_pthread_equal_11;
+  unsigned long int return_value_pthread_self_12;
+  signed int return_value_pthread_equal_13;
   signed int return_value_6;
   signed int return_value_8;
-  unsigned long int return_value_pthread_self$18;
-  signed int return_value_pthread_equal$19;
-  unsigned long int return_value_pthread_self$20;
-  signed int return_value_pthread_equal$21;
-  unsigned long int return_value_pthread_self$22;
-  signed int return_value_pthread_equal$23;
-  unsigned long int return_value_pthread_self$24;
-  signed int return_value_pthread_equal$25;
-  unsigned long int tmp_if_expr$26;
-  unsigned long int return_value_pthread_self$27;
-  signed int return_value_pthread_equal$28;
-  unsigned long int return_value_pthread_self$29;
-  signed int return_value_pthread_equal$30;
-  unsigned long int tmp_if_expr$31;
-  if(tmp_if_expr$32)
+  unsigned long int return_value_pthread_self_18;
+  signed int return_value_pthread_equal_19;
+  unsigned long int return_value_pthread_self_20;
+  signed int return_value_pthread_equal_21;
+  unsigned long int return_value_pthread_self_22;
+  signed int return_value_pthread_equal_23;
+  unsigned long int return_value_pthread_self_24;
+  signed int return_value_pthread_equal_25;
+  unsigned long int tmp_if_expr_26;
+  unsigned long int return_value_pthread_self_27;
+  signed int return_value_pthread_equal_28;
+  unsigned long int return_value_pthread_self_29;
+  signed int return_value_pthread_equal_30;
+  unsigned long int tmp_if_expr_31;
+  if(tmp_if_expr_32)
   {
     if(framesPerUserBuffer == 0ul)
     {
@@ -13000,9 +13000,9 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
       __pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_min(hwParamsCapture, &minCapture, &dir);
       if(!(__pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$1=pthread_self();
-        return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-        if(!(return_value_pthread_equal$2 == 0))
+        return_value_pthread_self_1=pthread_self();
+        return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+        if(!(return_value_pthread_equal_2 == 0))
         {
           const char *return_value;
           return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -13014,17 +13014,17 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
       }
 
       dir = 0;
-      signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$2$$__pa_unsure_error_id;
-      PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_min(hwParamsPlayback, &minPlayback, &dir);
-      if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$2$$__pa_unsure_error_id >= 0))
+      signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__2____pa_unsure_error_id;
+      PaAlsaStream_DetermineFramesPerBuffer__1__1__1__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_min(hwParamsPlayback, &minPlayback, &dir);
+      if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__2____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$3=pthread_self();
-        return_value_pthread_equal$4=pthread_equal(return_value_pthread_self$3, paUnixMainThread);
-        if(!(return_value_pthread_equal$4 == 0))
+        return_value_pthread_self_3=pthread_self();
+        return_value_pthread_equal_4=pthread_equal(return_value_pthread_self_3, paUnixMainThread);
+        if(!(return_value_pthread_equal_4 == 0))
         {
           const char *return_value_1;
-          return_value_1=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$2$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$2$$__pa_unsure_error_id, return_value_1);
+          return_value_1=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__2____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__2____pa_unsure_error_id, return_value_1);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_period_size_min( hwParamsPlayback, &minPlayback, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2538\n");
@@ -13032,17 +13032,17 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
       }
 
       dir = 0;
-      signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$3$$__pa_unsure_error_id;
-      PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$3$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_max(hwParamsCapture, &maxCapture, &dir);
-      if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$3$$__pa_unsure_error_id >= 0))
+      signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__3____pa_unsure_error_id;
+      PaAlsaStream_DetermineFramesPerBuffer__1__1__1__3____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_max(hwParamsCapture, &maxCapture, &dir);
+      if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__3____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$5=pthread_self();
-        return_value_pthread_equal$6=pthread_equal(return_value_pthread_self$5, paUnixMainThread);
-        if(!(return_value_pthread_equal$6 == 0))
+        return_value_pthread_self_5=pthread_self();
+        return_value_pthread_equal_6=pthread_equal(return_value_pthread_self_5, paUnixMainThread);
+        if(!(return_value_pthread_equal_6 == 0))
         {
           const char *return_value_2;
-          return_value_2=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$3$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$3$$__pa_unsure_error_id, return_value_2);
+          return_value_2=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__3____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__3____pa_unsure_error_id, return_value_2);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_period_size_max( hwParamsCapture, &maxCapture, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2540\n");
@@ -13050,17 +13050,17 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
       }
 
       dir = 0;
-      signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$4$$__pa_unsure_error_id;
-      PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$4$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_max(hwParamsPlayback, &maxPlayback, &dir);
-      if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$4$$__pa_unsure_error_id >= 0))
+      signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__4____pa_unsure_error_id;
+      PaAlsaStream_DetermineFramesPerBuffer__1__1__1__4____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_period_size_max(hwParamsPlayback, &maxPlayback, &dir);
+      if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__4____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$7=pthread_self();
-        return_value_pthread_equal$8=pthread_equal(return_value_pthread_self$7, paUnixMainThread);
-        if(!(return_value_pthread_equal$8 == 0))
+        return_value_pthread_self_7=pthread_self();
+        return_value_pthread_equal_8=pthread_equal(return_value_pthread_self_7, paUnixMainThread);
+        if(!(return_value_pthread_equal_8 == 0))
         {
           const char *return_value_3;
-          return_value_3=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$4$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$4$$__pa_unsure_error_id, return_value_3);
+          return_value_3=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__4____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__4____pa_unsure_error_id, return_value_3);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_period_size_max( hwParamsPlayback, &maxPlayback, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2542\n");
@@ -13076,42 +13076,42 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
       }
 
       if(outputParameters->suggestedLatency < inputParameters->suggestedLatency)
-        tmp_if_expr$9 = outputParameters->suggestedLatency;
+        tmp_if_expr_9 = outputParameters->suggestedLatency;
 
       else
-        tmp_if_expr$9 = inputParameters->suggestedLatency;
-      desiredBufSz = (unsigned long int)(tmp_if_expr$9 * sampleRate);
+        tmp_if_expr_9 = inputParameters->suggestedLatency;
+      desiredBufSz = (unsigned long int)(tmp_if_expr_9 * sampleRate);
       unsigned long int maxBufferSize;
       unsigned long int maxBufferSizeCapture;
       unsigned long int maxBufferSizePlayback;
-      signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$1$$__pa_unsure_error_id;
-      PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_buffer_size_max(hwParamsCapture, &maxBufferSizeCapture);
-      if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$1$$__pa_unsure_error_id >= 0))
+      signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__1____pa_unsure_error_id;
+      PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_buffer_size_max(hwParamsCapture, &maxBufferSizeCapture);
+      if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__1____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$10=pthread_self();
-        return_value_pthread_equal$11=pthread_equal(return_value_pthread_self$10, paUnixMainThread);
-        if(!(return_value_pthread_equal$11 == 0))
+        return_value_pthread_self_10=pthread_self();
+        return_value_pthread_equal_11=pthread_equal(return_value_pthread_self_10, paUnixMainThread);
+        if(!(return_value_pthread_equal_11 == 0))
         {
           const char *return_value_4;
-          return_value_4=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$1$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$1$$__pa_unsure_error_id, return_value_4);
+          return_value_4=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__1____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__1____pa_unsure_error_id, return_value_4);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_buffer_size_max( hwParamsCapture, &maxBufferSizeCapture )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2553\n");
         result = -9999;
       }
 
-      signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$2$$__pa_unsure_error_id;
-      PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_buffer_size_max(hwParamsPlayback, &maxBufferSizePlayback);
-      if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$2$$__pa_unsure_error_id >= 0))
+      signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__2____pa_unsure_error_id;
+      PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_buffer_size_max(hwParamsPlayback, &maxBufferSizePlayback);
+      if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__2____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$12=pthread_self();
-        return_value_pthread_equal$13=pthread_equal(return_value_pthread_self$12, paUnixMainThread);
-        if(!(return_value_pthread_equal$13 == 0))
+        return_value_pthread_self_12=pthread_self();
+        return_value_pthread_equal_13=pthread_equal(return_value_pthread_self_12, paUnixMainThread);
+        if(!(return_value_pthread_equal_13 == 0))
         {
           const char *return_value_5;
-          return_value_5=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$2$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$6$$2$$__pa_unsure_error_id, return_value_5);
+          return_value_5=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__2____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__6__2____pa_unsure_error_id, return_value_5);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_buffer_size_max( hwParamsPlayback, &maxBufferSizePlayback )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2554\n");
@@ -13120,15 +13120,15 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
 
       maxBufferSize = maxBufferSizeCapture < maxBufferSizePlayback ? maxBufferSizeCapture : maxBufferSizePlayback;
       desiredBufSz = desiredBufSz < maxBufferSize ? desiredBufSz : maxBufferSize;
-      signed int return_value_ilogb$14;
-      return_value_ilogb$14=ilogb((double)minPeriodSize);
-      e = (unsigned long int)return_value_ilogb$14;
+      signed int return_value_ilogb_14;
+      return_value_ilogb_14=ilogb((double)minPeriodSize);
+      e = (unsigned long int)return_value_ilogb_14;
       if(!((minPeriodSize + 18446744073709551615ul & minPeriodSize) == 0ul))
         e = e + (unsigned long int)1;
 
-      double return_value_pow$15;
-      return_value_pow$15=pow((double)2, (double)e);
-      periodSize = (unsigned long int)return_value_pow$15;
+      double return_value_pow_15;
+      return_value_pow_15=pow((double)2, (double)e);
+      periodSize = (unsigned long int)return_value_pow_15;
       if(maxPeriodSize >= periodSize)
       {
         signed int return_value_7;
@@ -13141,15 +13141,15 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
 
       optimalPeriodSize = desiredBufSz / (unsigned long int)numPeriods > minPeriodSize ? desiredBufSz / (unsigned long int)numPeriods : minPeriodSize;
       optimalPeriodSize = optimalPeriodSize < maxPeriodSize ? optimalPeriodSize : maxPeriodSize;
-      signed int return_value_ilogb$16;
-      return_value_ilogb$16=ilogb((double)optimalPeriodSize);
-      e = (unsigned long int)return_value_ilogb$16;
+      signed int return_value_ilogb_16;
+      return_value_ilogb_16=ilogb((double)optimalPeriodSize);
+      e = (unsigned long int)return_value_ilogb_16;
       if(!((optimalPeriodSize + 18446744073709551615ul & optimalPeriodSize) == 0ul))
         e = e + (unsigned long int)1;
 
-      double return_value_pow$17;
-      return_value_pow$17=pow((double)2, (double)e);
-      optimalPeriodSize = (unsigned long int)return_value_pow$17;
+      double return_value_pow_17;
+      return_value_pow_17=pow((double)2, (double)e);
+      optimalPeriodSize = (unsigned long int)return_value_pow_17;
       if(optimalPeriodSize >= periodSize)
       {
         signed int return_value_9;
@@ -13165,34 +13165,34 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
 
       if(maxPeriodSize >= periodSize)
       {
-        signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$1$$__pa_unsure_error_id;
-        PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size(self->capture.pcm, hwParamsCapture, periodSize, 0);
-        if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$1$$__pa_unsure_error_id >= 0))
+        signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__1____pa_unsure_error_id;
+        PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size(self->capture.pcm, hwParamsCapture, periodSize, 0);
+        if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__1____pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$18=pthread_self();
-          return_value_pthread_equal$19=pthread_equal(return_value_pthread_self$18, paUnixMainThread);
-          if(!(return_value_pthread_equal$19 == 0))
+          return_value_pthread_self_18=pthread_self();
+          return_value_pthread_equal_19=pthread_equal(return_value_pthread_self_18, paUnixMainThread);
+          if(!(return_value_pthread_equal_19 == 0))
           {
             const char *return_value_10;
-            return_value_10=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$1$$__pa_unsure_error_id);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$1$$__pa_unsure_error_id, return_value_10);
+            return_value_10=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__1____pa_unsure_error_id);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__1____pa_unsure_error_id, return_value_10);
           }
 
           PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size( self->capture.pcm, hwParamsCapture, periodSize, 0 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2605\n");
           result = -9999;
         }
 
-        signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$2$$__pa_unsure_error_id;
-        PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size(self->playback.pcm, hwParamsPlayback, periodSize, 0);
-        if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$2$$__pa_unsure_error_id >= 0))
+        signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__2____pa_unsure_error_id;
+        PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size(self->playback.pcm, hwParamsPlayback, periodSize, 0);
+        if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__2____pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$20=pthread_self();
-          return_value_pthread_equal$21=pthread_equal(return_value_pthread_self$20, paUnixMainThread);
-          if(!(return_value_pthread_equal$21 == 0))
+          return_value_pthread_self_20=pthread_self();
+          return_value_pthread_equal_21=pthread_equal(return_value_pthread_self_20, paUnixMainThread);
+          if(!(return_value_pthread_equal_21 == 0))
           {
             const char *return_value_11;
-            return_value_11=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$2$$__pa_unsure_error_id);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$9$$2$$__pa_unsure_error_id, return_value_11);
+            return_value_11=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__2____pa_unsure_error_id);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__9__2____pa_unsure_error_id, return_value_11);
           }
 
           PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size( self->playback.pcm, hwParamsPlayback, periodSize, 0 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2607\n");
@@ -13210,17 +13210,17 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
         optimalPeriodSize = optimalPeriodSize < maxPeriodSize ? optimalPeriodSize : maxPeriodSize;
         self->capture.framesPerPeriod = optimalPeriodSize;
         dir = 0;
-        signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$1$$__pa_unsure_error_id;
-        PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(self->capture.pcm, hwParamsCapture, &self->capture.framesPerPeriod, &dir);
-        if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$1$$__pa_unsure_error_id >= 0))
+        signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__1____pa_unsure_error_id;
+        PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(self->capture.pcm, hwParamsCapture, &self->capture.framesPerPeriod, &dir);
+        if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__1____pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$22=pthread_self();
-          return_value_pthread_equal$23=pthread_equal(return_value_pthread_self$22, paUnixMainThread);
-          if(!(return_value_pthread_equal$23 == 0))
+          return_value_pthread_self_22=pthread_self();
+          return_value_pthread_equal_23=pthread_equal(return_value_pthread_self_22, paUnixMainThread);
+          if(!(return_value_pthread_equal_23 == 0))
           {
             const char *return_value_12;
-            return_value_12=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$1$$__pa_unsure_error_id);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$1$$__pa_unsure_error_id, return_value_12);
+            return_value_12=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__1____pa_unsure_error_id);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__1____pa_unsure_error_id, return_value_12);
           }
 
           PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size_near( self->capture.pcm, hwParamsCapture, &self->capture.framesPerPeriod, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2620\n");
@@ -13229,17 +13229,17 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
 
         self->playback.framesPerPeriod = optimalPeriodSize;
         dir = 0;
-        signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$2$$__pa_unsure_error_id;
-        PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(self->playback.pcm, hwParamsPlayback, &self->playback.framesPerPeriod, &dir);
-        if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$2$$__pa_unsure_error_id >= 0))
+        signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__2____pa_unsure_error_id;
+        PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(self->playback.pcm, hwParamsPlayback, &self->playback.framesPerPeriod, &dir);
+        if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__2____pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$24=pthread_self();
-          return_value_pthread_equal$25=pthread_equal(return_value_pthread_self$24, paUnixMainThread);
-          if(!(return_value_pthread_equal$25 == 0))
+          return_value_pthread_self_24=pthread_self();
+          return_value_pthread_equal_25=pthread_equal(return_value_pthread_self_24, paUnixMainThread);
+          if(!(return_value_pthread_equal_25 == 0))
           {
             const char *return_value_13;
-            return_value_13=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$2$$__pa_unsure_error_id);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$1$$10$$2$$__pa_unsure_error_id, return_value_13);
+            return_value_13=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__2____pa_unsure_error_id);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__1__10__2____pa_unsure_error_id, return_value_13);
           }
 
           PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size_near( self->playback.pcm, hwParamsPlayback, &self->playback.framesPerPeriod, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2624\n");
@@ -13247,35 +13247,35 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
         }
 
         if(!(self->playback.framesPerPeriod >= self->capture.framesPerPeriod))
-          tmp_if_expr$26 = self->capture.framesPerPeriod;
+          tmp_if_expr_26 = self->capture.framesPerPeriod;
 
         else
-          tmp_if_expr$26 = self->playback.framesPerPeriod;
-        framesPerHostBuffer = tmp_if_expr$26;
-        *hostBufferSizeMode = (enum anonymous$21)paUtilBoundedHostBufferSize;
+          tmp_if_expr_26 = self->playback.framesPerPeriod;
+        framesPerHostBuffer = tmp_if_expr_26;
+        *hostBufferSizeMode = (enum anonymous_21)paUtilBoundedHostBufferSize;
       }
     }
 
     else
     {
       unsigned int maxPeriods = (unsigned int)0;
-      struct anonymous$23 *first = &self->capture;
-      struct anonymous$23 *second = &self->playback;
+      struct anonymous_23 *first = &self->capture;
+      struct anonymous_23 *second = &self->playback;
       const struct PaStreamParameters *firstStreamParams = inputParameters;
       struct _snd_pcm_hw_params *firstHwParams = hwParamsCapture;
       struct _snd_pcm_hw_params *secondHwParams = hwParamsPlayback;
       dir = 0;
-      signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$1$$__pa_unsure_error_id;
-      PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_periods_max(hwParamsPlayback, &maxPeriods, &dir);
-      if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$1$$__pa_unsure_error_id >= 0))
+      signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__2__1____pa_unsure_error_id;
+      PaAlsaStream_DetermineFramesPerBuffer__1__1__2__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_periods_max(hwParamsPlayback, &maxPeriods, &dir);
+      if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__2__1____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$27=pthread_self();
-        return_value_pthread_equal$28=pthread_equal(return_value_pthread_self$27, paUnixMainThread);
-        if(!(return_value_pthread_equal$28 == 0))
+        return_value_pthread_self_27=pthread_self();
+        return_value_pthread_equal_28=pthread_equal(return_value_pthread_self_27, paUnixMainThread);
+        if(!(return_value_pthread_equal_28 == 0))
         {
           const char *return_value_14;
-          return_value_14=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$1$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$1$$__pa_unsure_error_id, return_value_14);
+          return_value_14=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__2__1____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__2__1____pa_unsure_error_id, return_value_14);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_periods_max( hwParamsPlayback, &maxPeriods, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2641\n");
@@ -13300,17 +13300,17 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
 
       second->framesPerPeriod = first->framesPerPeriod;
       dir = 0;
-      signed int PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$4$$__pa_unsure_error_id;
-      PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$4$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(second->pcm, secondHwParams, &second->framesPerPeriod, &dir);
-      if(!(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$4$$__pa_unsure_error_id >= 0))
+      signed int PaAlsaStream_DetermineFramesPerBuffer__1__1__2__4____pa_unsure_error_id;
+      PaAlsaStream_DetermineFramesPerBuffer__1__1__2__4____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_period_size_near(second->pcm, secondHwParams, &second->framesPerPeriod, &dir);
+      if(!(PaAlsaStream_DetermineFramesPerBuffer__1__1__2__4____pa_unsure_error_id >= 0))
       {
-        return_value_pthread_self$29=pthread_self();
-        return_value_pthread_equal$30=pthread_equal(return_value_pthread_self$29, paUnixMainThread);
-        if(!(return_value_pthread_equal$30 == 0))
+        return_value_pthread_self_29=pthread_self();
+        return_value_pthread_equal_30=pthread_equal(return_value_pthread_self_29, paUnixMainThread);
+        if(!(return_value_pthread_equal_30 == 0))
         {
           const char *return_value_15;
-          return_value_15=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$4$$__pa_unsure_error_id);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer$$1$$1$$2$$4$$__pa_unsure_error_id, return_value_15);
+          return_value_15=alsa_snd_strerror(PaAlsaStream_DetermineFramesPerBuffer__1__1__2__4____pa_unsure_error_id);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)PaAlsaStream_DetermineFramesPerBuffer__1__1__2__4____pa_unsure_error_id, return_value_15);
         }
 
         PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_period_size_near( second->pcm, secondHwParams, &second->framesPerPeriod, &dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2658\n");
@@ -13323,12 +13323,12 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
       else
       {
         if(!(self->playback.framesPerPeriod >= self->capture.framesPerPeriod))
-          tmp_if_expr$31 = self->capture.framesPerPeriod;
+          tmp_if_expr_31 = self->capture.framesPerPeriod;
 
         else
-          tmp_if_expr$31 = self->playback.framesPerPeriod;
-        framesPerHostBuffer = tmp_if_expr$31;
-        *hostBufferSizeMode = (enum anonymous$21)paUtilBoundedHostBufferSize;
+          tmp_if_expr_31 = self->playback.framesPerPeriod;
+        framesPerHostBuffer = tmp_if_expr_31;
+        *hostBufferSizeMode = (enum anonymous_21)paUtilBoundedHostBufferSize;
       }
     }
   }
@@ -13381,7 +13381,7 @@ static signed int PaAlsaStream_DetermineFramesPerBuffer(struct PaAlsaStream *sel
   self->maxFramesPerHostBuffer = framesPerHostBuffer;
   if(self->playback.canMmap == 0 || accurate == 0)
   {
-    *hostBufferSizeMode = (enum anonymous$21)paUtilBoundedHostBufferSize;
+    *hostBufferSizeMode = (enum anonymous_21)paUtilBoundedHostBufferSize;
     if(accurate == 0)
       self->maxFramesPerHostBuffer = self->maxFramesPerHostBuffer + 1ul;
 
@@ -13531,9 +13531,9 @@ static signed int PaAlsaStream_HandleXrun(struct PaAlsaStream *self)
   signed int restartAlsa = 0;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_status_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&st) = (struct _snd_pcm_status *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&st) = (struct _snd_pcm_status *)return_value___builtin_alloca_1;
   memset((void *)*(&st), 0, __alsa_alloca_size);
   if(!(self->playback.pcm == ((struct _snd_pcm *)NULL)))
   {
@@ -13621,12 +13621,12 @@ static signed int PaAlsaStream_Initialize(struct PaAlsaStream *self, struct PaAl
     PaUtil_InitializeStreamRepresentation(&self->streamRepresentation, &alsaApi->blockingStreamInterface, (signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0, userData);
   self->framesPerUserBuffer = framesPerUserBuffer;
   self->neverDropInput = (signed int)(streamFlags & (unsigned long int)0x00000004);
-  memset((void *)&self->capture, 0, sizeof(struct anonymous$23) /*136ul*/ );
-  memset((void *)&self->playback, 0, sizeof(struct anonymous$23) /*136ul*/ );
+  memset((void *)&self->capture, 0, sizeof(struct anonymous_23) /*136ul*/ );
+  memset((void *)&self->playback, 0, sizeof(struct anonymous_23) /*136ul*/ );
   if(!(inParams == ((const struct PaStreamParameters *)NULL)))
     do
     {
-      paUtilErr_=PaAlsaStreamComponent_Initialize(&self->capture, alsaApi, inParams, (enum anonymous$17)StreamDirection_In, (signed int)((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0 != callback));
+      paUtilErr_=PaAlsaStreamComponent_Initialize(&self->capture, alsaApi, inParams, (enum anonymous_17)StreamDirection_In, (signed int)((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0 != callback));
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStreamComponent_Initialize( &self->capture, alsaApi, inParams, StreamDirection_In, NULL != callback )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2171\n");
@@ -13640,7 +13640,7 @@ static signed int PaAlsaStream_Initialize(struct PaAlsaStream *self, struct PaAl
   if(!(outParams == ((const struct PaStreamParameters *)NULL)))
     do
     {
-      paUtilErr_=PaAlsaStreamComponent_Initialize(&self->playback, alsaApi, outParams, (enum anonymous$17)StreamDirection_Out, (signed int)((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0 != callback));
+      paUtilErr_=PaAlsaStreamComponent_Initialize(&self->playback, alsaApi, outParams, (enum anonymous_17)StreamDirection_Out, (signed int)((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0 != callback));
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStreamComponent_Initialize( &self->playback, alsaApi, outParams, StreamDirection_Out, NULL != callback )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2175\n");
@@ -13651,19 +13651,19 @@ static signed int PaAlsaStream_Initialize(struct PaAlsaStream *self, struct PaAl
     }
     while((_Bool)0);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(self->capture.nfds == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = self->playback.nfds != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = self->playback.nfds != 0u ? (_Bool)1 : (_Bool)0;
   /* assertion self->capture.nfds || self->playback.nfds */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   do
   {
-    void *return_value_PaUtil_AllocateMemory$2;
-    return_value_PaUtil_AllocateMemory$2=PaUtil_AllocateMemory((signed long int)((unsigned long int)(self->capture.nfds + self->playback.nfds) * sizeof(struct pollfd) /*8ul*/ ));
-    self->pfds = (struct pollfd *)return_value_PaUtil_AllocateMemory$2;
+    void *return_value_PaUtil_AllocateMemory_2;
+    return_value_PaUtil_AllocateMemory_2=PaUtil_AllocateMemory((signed long int)((unsigned long int)(self->capture.nfds + self->playback.nfds) * sizeof(struct pollfd) /*8ul*/ ));
+    self->pfds = (struct pollfd *)return_value_PaUtil_AllocateMemory_2;
     if(self->pfds == ((struct pollfd *)NULL))
     {
       PaUtil_DebugPrint("Expression 'self->pfds = (struct pollfd*)PaUtil_AllocateMemory( ( self->capture.nfds + self->playback.nfds ) * sizeof( struct pollfd ) )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2181\n");
@@ -13697,7 +13697,7 @@ static signed int PaAlsaStream_SetUpBuffers(struct PaAlsaStream *self, unsigned 
   unsigned long int playbackFrames = (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL;
   unsigned long int commonFrames = (unsigned long int)0;
   signed int xrun = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(*xrunOccurred == 0))
   {
     *numFrames = (unsigned long int)0;
@@ -13709,11 +13709,11 @@ static signed int PaAlsaStream_SetUpBuffers(struct PaAlsaStream *self, unsigned 
     do
     {
       if(!(self->capture.ready == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = self->playback.ready != 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = self->playback.ready != 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_1)
       {
         PaUtil_DebugPrint("Expression 'self->capture.ready || self->playback.ready' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4074\n");
         result = -9986;
@@ -13871,11 +13871,11 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
   assert(self != ((struct PaAlsaStream *)NULL));
   /* assertion framesAvail */
   assert(framesAvail != ((unsigned long int *)NULL));
-  unsigned int tmp_if_expr$1;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  unsigned long int tmp_if_expr$5;
+  unsigned int tmp_if_expr_1;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  unsigned long int tmp_if_expr_5;
   if(self->callbackMode == 0)
   {
     do
@@ -13936,11 +13936,11 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
       if(!(pollPlayback == 0))
       {
         if(!(pollCapture == 0))
-          tmp_if_expr$1 = self->capture.nfds;
+          tmp_if_expr_1 = self->capture.nfds;
 
         else
-          tmp_if_expr$1 = (unsigned int)0;
-        playbackPfds = self->pfds + (signed long int)tmp_if_expr$1;
+          tmp_if_expr_1 = (unsigned int)0;
+        playbackPfds = self->pfds + (signed long int)tmp_if_expr_1;
         do
         {
           paUtilErr_=PaAlsaStreamComponent_BeginPolling(&self->playback, playbackPfds);
@@ -13959,9 +13959,9 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
       pollResults=poll(self->pfds, (unsigned long int)totalFds, pollTimeout);
       if(!(pollResults >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 4)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 4)
         {
           Pa_Sleep((signed long int)1);
           continue;
@@ -14041,7 +14041,7 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
           if(pollPlayback == 0 && !(pollCapture == 0))
             do
             {
-              paUtilErr_=ContinuePoll(self, (enum anonymous$17)StreamDirection_In, &pollTimeout, &pollCapture);
+              paUtilErr_=ContinuePoll(self, (enum anonymous_17)StreamDirection_In, &pollTimeout, &pollCapture);
               if(!(paUtilErr_ >= 0))
               {
                 PaUtil_DebugPrint("Expression 'ContinuePoll( self, StreamDirection_In, &pollTimeout, &pollCapture )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3881\n");
@@ -14056,7 +14056,7 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
             if(pollCapture == 0 && !(pollPlayback == 0))
               do
               {
-                paUtilErr_=ContinuePoll(self, (enum anonymous$17)StreamDirection_Out, &pollTimeout, &pollPlayback);
+                paUtilErr_=ContinuePoll(self, (enum anonymous_17)StreamDirection_Out, &pollTimeout, &pollPlayback);
                 if(!(paUtilErr_ >= 0))
                 {
                   PaUtil_DebugPrint("Expression 'ContinuePoll( self, StreamDirection_Out, &pollTimeout, &pollPlayback )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3885\n");
@@ -14076,18 +14076,18 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
     {
       signed int captureReady;
       if(!(self->capture.pcm == ((struct _snd_pcm *)NULL)))
-        tmp_if_expr$3 = self->capture.ready;
+        tmp_if_expr_3 = self->capture.ready;
 
       else
-        tmp_if_expr$3 = 0;
-      captureReady = tmp_if_expr$3;
+        tmp_if_expr_3 = 0;
+      captureReady = tmp_if_expr_3;
       signed int playbackReady;
       if(!(self->playback.pcm == ((struct _snd_pcm *)NULL)))
-        tmp_if_expr$4 = self->playback.ready;
+        tmp_if_expr_4 = self->playback.ready;
 
       else
-        tmp_if_expr$4 = 0;
-      playbackReady = tmp_if_expr$4;
+        tmp_if_expr_4 = 0;
+      playbackReady = tmp_if_expr_4;
       do
       {
         paUtilErr_=PaAlsaStream_GetAvailableFrames(self, captureReady, playbackReady, framesAvail, &xrun);
@@ -14101,11 +14101,11 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
       }
       while((_Bool)0);
       if(!(self->capture.pcm == ((struct _snd_pcm *)NULL)))
-        tmp_if_expr$6 = self->playback.pcm != ((struct _snd_pcm *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = self->playback.pcm != ((struct _snd_pcm *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
       {
         if(self->playback.ready == 0)
         {
@@ -14114,11 +14114,11 @@ static signed int PaAlsaStream_WaitForFrames(struct PaAlsaStream *self, unsigned
             /* assertion self->capture.ready */
             assert(self->capture.ready != 0);
             if(!(self->capture.framesPerPeriod >= *framesAvail))
-              tmp_if_expr$5 = self->capture.framesPerPeriod;
+              tmp_if_expr_5 = self->capture.framesPerPeriod;
 
             else
-              tmp_if_expr$5 = *framesAvail;
-            PaAlsaStreamComponent_EndProcessing(&self->capture, tmp_if_expr$5, &xrun);
+              tmp_if_expr_5 = *framesAvail;
+            PaAlsaStreamComponent_EndProcessing(&self->capture, tmp_if_expr_5, &xrun);
             *framesAvail = (unsigned long int)0;
             self->capture.ready = 0;
           }
@@ -14143,7 +14143,7 @@ end:
 
   error:
     ;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   for( ; (_Bool)1; result = -9986)
   {
     if(!(xrun == 0))
@@ -14171,11 +14171,11 @@ end:
   __CPROVER_DUMP_L53:
     ;
     if(!(self->capture.ready == 0))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = self->playback.ready != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = self->playback.ready != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
       break;
 
     PaUtil_DebugPrint("Expression 'self->capture.ready || self->playback.ready' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3932\n");
@@ -14196,13 +14196,13 @@ static unsigned int PaAlsaVersionNum(void)
   const char *return_value;
   return_value=alsa_snd_asoundlib_version();
   verStr = (char *)return_value;
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(verStr);
-  signed int return_value_atoi$2;
-  return_value_atoi$2=atoi(verStr + (signed long int)2);
-  signed int return_value_atoi$3;
-  return_value_atoi$3=atoi(verStr + (signed long int)4);
-  verNum = (unsigned int)(return_value_atoi$1 << 16 | return_value_atoi$2 << 8 | return_value_atoi$3);
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(verStr);
+  signed int return_value_atoi_2;
+  return_value_atoi_2=atoi(verStr + (signed long int)2);
+  signed int return_value_atoi_3;
+  return_value_atoi_3=atoi(verStr + (signed long int)4);
+  verNum = (unsigned int)(return_value_atoi_1 << 16 | return_value_atoi_2 << 8 | return_value_atoi_3);
   return verNum;
 }
 
@@ -14313,18 +14313,18 @@ signed int PaAlsa_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
 {
   signed int result = 0;
   struct PaAlsaHostApiRepresentation *alsaHostApi = (struct PaAlsaHostApiRepresentation *)(void *)0;
-  signed int return_value_PaAlsa_LoadLibrary$1;
-  return_value_PaAlsa_LoadLibrary$1=PaAlsa_LoadLibrary();
-  if(return_value_PaAlsa_LoadLibrary$1 == 0)
+  signed int return_value_PaAlsa_LoadLibrary_1;
+  return_value_PaAlsa_LoadLibrary_1=PaAlsa_LoadLibrary();
+  if(return_value_PaAlsa_LoadLibrary_1 == 0)
     return -9979;
 
   else
   {
     do
     {
-      void *return_value_PaUtil_AllocateMemory$2;
-      return_value_PaUtil_AllocateMemory$2=PaUtil_AllocateMemory((signed long int)sizeof(struct PaAlsaHostApiRepresentation) /*280ul*/ );
-      alsaHostApi = (struct PaAlsaHostApiRepresentation *)return_value_PaUtil_AllocateMemory$2;
+      void *return_value_PaUtil_AllocateMemory_2;
+      return_value_PaUtil_AllocateMemory_2=PaUtil_AllocateMemory((signed long int)sizeof(struct PaAlsaHostApiRepresentation) /*280ul*/ );
+      alsaHostApi = (struct PaAlsaHostApiRepresentation *)return_value_PaUtil_AllocateMemory_2;
       if(alsaHostApi == ((struct PaAlsaHostApiRepresentation *)NULL))
       {
         PaUtil_DebugPrint("Expression 'alsaHostApi = (PaAlsaHostApiRepresentation*) PaUtil_AllocateMemory( sizeof(PaAlsaHostApiRepresentation) )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 748\n");
@@ -14337,7 +14337,7 @@ signed int PaAlsa_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
     do
     {
       alsaHostApi->allocations=PaUtil_CreateAllocationGroup();
-      if(alsaHostApi->allocations == ((struct anonymous$13 *)NULL))
+      if(alsaHostApi->allocations == ((struct anonymous_13 *)NULL))
       {
         PaUtil_DebugPrint("Expression 'alsaHostApi->allocations = PaUtil_CreateAllocationGroup()' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 749\n");
         result = -9992;
@@ -14352,9 +14352,9 @@ signed int PaAlsa_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
     (*hostApi)->info.structVersion = 1;
     (*hostApi)->info.type = (enum PaHostApiTypeId)paALSA;
     (*hostApi)->info.name = "ALSA";
-    (*hostApi)->Terminate = Terminate$link1;
-    (*hostApi)->OpenStream = OpenStream$link1;
-    (*hostApi)->IsFormatSupported = IsFormatSupported$link1;
+    (*hostApi)->Terminate = Terminate_link1;
+    (*hostApi)->OpenStream = OpenStream_link1;
+    (*hostApi)->IsFormatSupported = IsFormatSupported_link1;
     do
     {
       paUtilErr_=BuildDeviceList(alsaHostApi);
@@ -14367,8 +14367,8 @@ signed int PaAlsa_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
 
     }
     while((_Bool)0);
-    PaUtil_InitializeStreamInterface(&alsaHostApi->callbackStreamInterface, CloseStream$link1, StartStream$link1, StopStream$link1, AbortStream$link1, IsStreamStopped$link1, IsStreamActive$link1, GetStreamTime$link1, GetStreamCpuLoad$link1, PaUtil_DummyRead, PaUtil_DummyWrite, PaUtil_DummyGetReadAvailable, PaUtil_DummyGetWriteAvailable);
-    PaUtil_InitializeStreamInterface(&alsaHostApi->blockingStreamInterface, CloseStream$link1, StartStream$link1, StopStream$link1, AbortStream$link1, IsStreamStopped$link1, IsStreamActive$link1, GetStreamTime$link1, PaUtil_DummyGetCpuLoad, ReadStream$link1, WriteStream$link1, GetStreamReadAvailable$link1, GetStreamWriteAvailable$link1);
+    PaUtil_InitializeStreamInterface(&alsaHostApi->callbackStreamInterface, CloseStream_link1, StartStream_link1, StopStream_link1, AbortStream_link1, IsStreamStopped_link1, IsStreamActive_link1, GetStreamTime_link1, GetStreamCpuLoad_link1, PaUtil_DummyRead, PaUtil_DummyWrite, PaUtil_DummyGetReadAvailable, PaUtil_DummyGetWriteAvailable);
+    PaUtil_InitializeStreamInterface(&alsaHostApi->blockingStreamInterface, CloseStream_link1, StartStream_link1, StopStream_link1, AbortStream_link1, IsStreamStopped_link1, IsStreamActive_link1, GetStreamTime_link1, PaUtil_DummyGetCpuLoad, ReadStream_link1, WriteStream_link1, GetStreamReadAvailable_link1, GetStreamWriteAvailable_link1);
     do
     {
       paUtilErr_=PaUnixThreading_Initialize();
@@ -14387,7 +14387,7 @@ signed int PaAlsa_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
     ;
     if(!(alsaHostApi == ((struct PaAlsaHostApiRepresentation *)NULL)))
     {
-      if(!(alsaHostApi->allocations == ((struct anonymous$13 *)NULL)))
+      if(!(alsaHostApi->allocations == ((struct anonymous_13 *)NULL)))
       {
         PaUtil_FreeAllAllocations(alsaHostApi->allocations);
         PaUtil_DestroyAllocationGroup(alsaHostApi->allocations);
@@ -14557,14 +14557,14 @@ static signed int PaAlsa_StrDup(struct PaAlsaHostApiRepresentation *alsaApi, cha
 {
   signed int result = 0;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(src);
-  len = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(src);
+  len = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   do
   {
-    void *return_value_PaUtil_GroupAllocateMemory$2;
-    return_value_PaUtil_GroupAllocateMemory$2=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)len);
-    *dst = (char *)return_value_PaUtil_GroupAllocateMemory$2;
+    void *return_value_PaUtil_GroupAllocateMemory_2;
+    return_value_PaUtil_GroupAllocateMemory_2=PaUtil_GroupAllocateMemory(alsaApi->allocations, (signed long int)len);
+    *dst = (char *)return_value_PaUtil_GroupAllocateMemory_2;
     if(*dst == ((char *)NULL))
     {
       PaUtil_DebugPrint("Expression '*dst = (char *)PaUtil_GroupAllocateMemory( alsaApi->allocations, len )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1056\n");
@@ -14586,9 +14586,9 @@ error:
 signed int PaJack_GetClientName(const char **clientName)
 {
   signed int result = 0;
-  struct anonymous$4 *jackHostApi = (struct anonymous$4 *)(void *)0;
-  struct anonymous$4 **ref = &jackHostApi;
-  unsigned long int return_value_pthread_self$1;
+  struct anonymous_4 *jackHostApi = (struct anonymous_4 *)(void *)0;
+  struct anonymous_4 **ref = &jackHostApi;
+  unsigned long int return_value_pthread_self_1;
   do
   {
     signed int paErr;
@@ -14597,8 +14597,8 @@ signed int PaJack_GetClientName(const char **clientName)
     {
       if(paErr == -9999)
       {
-        return_value_pthread_self$1=pthread_self();
-        if(return_value_pthread_self$1 == mainThread_)
+        return_value_pthread_self_1=pthread_self();
+        if(return_value_pthread_self_1 == mainThread_)
         {
           const char *err = jackErr_;
           if(err == ((const char *)NULL))
@@ -14628,17 +14628,17 @@ error:
 signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signed int hostApiIndex)
 {
   signed int result = 0;
-  struct anonymous$4 *jackHostApi;
+  struct anonymous_4 *jackHostApi;
   signed int activated = 0;
   enum JackStatus jackStatus = (enum JackStatus)0;
   *hostApi = (struct PaUtilHostApiRepresentation *)(void *)0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
   {
-    void *return_value_PaUtil_AllocateMemory$2;
-    return_value_PaUtil_AllocateMemory$2=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous$4) /*432ul*/ );
-    jackHostApi = (struct anonymous$4 *)return_value_PaUtil_AllocateMemory$2;
-    if(jackHostApi == ((struct anonymous$4 *)NULL))
+    void *return_value_PaUtil_AllocateMemory_2;
+    return_value_PaUtil_AllocateMemory_2=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous_4) /*432ul*/ );
+    jackHostApi = (struct anonymous_4 *)return_value_PaUtil_AllocateMemory_2;
+    if(jackHostApi == ((struct anonymous_4 *)NULL))
     {
       PaUtil_DebugPrint("Expression 'jackHostApi = (PaJackHostApiRepresentation*) PaUtil_AllocateMemory( sizeof(PaJackHostApiRepresentation) )' failed in 'src/hostapi/jack/pa_jack.c', line: 719\n");
       result = -9992;
@@ -14647,11 +14647,11 @@ signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
 
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
   {
     jackHostApi->deviceInfoMemory=PaUtil_CreateAllocationGroup();
-    if(jackHostApi->deviceInfoMemory == ((struct anonymous$13 *)NULL))
+    if(jackHostApi->deviceInfoMemory == ((struct anonymous_13 *)NULL))
     {
       PaUtil_DebugPrint("Expression 'jackHostApi->deviceInfoMemory = PaUtil_CreateAllocationGroup()' failed in 'src/hostapi/jack/pa_jack.c', line: 720\n");
       result = -9992;
@@ -14671,18 +14671,18 @@ signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
   while((_Bool)0);
   do
   {
-    signed int PaJack_Initialize$$1$$4$$err;
-    PaJack_Initialize$$1$$4$$err=pthread_cond_init(&jackHostApi->cond, (const union anonymous *)(void *)0);
+    signed int PaJack_Initialize__1__4__err;
+    PaJack_Initialize__1__4__err=pthread_cond_init(&jackHostApi->cond, (const union anonymous *)(void *)0);
     /* assertion err == 0 */
-    assert(PaJack_Initialize$$1$$4$$err == 0);
+    assert(PaJack_Initialize__1__4__err == 0);
   }
   while((_Bool)0);
   jackHostApi->jack_client=jack_client_open(clientName_, (enum JackOptions)JackNoStartServer, &jackStatus);
-  unsigned long int return_value_pthread_self$4;
-  unsigned int return_value_jack_get_buffer_size$5;
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$8;
-  unsigned long int return_value_pthread_self$10;
+  unsigned long int return_value_pthread_self_4;
+  unsigned int return_value_jack_get_buffer_size_5;
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_8;
+  unsigned long int return_value_pthread_self_10;
   if(jackHostApi->jack_client == ((struct _jack_client *)NULL))
     result = 0;
 
@@ -14696,19 +14696,19 @@ signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
     do
     {
       signed int paErr;
-      paErr=BuildDeviceList$link1(jackHostApi);
+      paErr=BuildDeviceList_link1(jackHostApi);
       if(!(paErr >= 0))
       {
         if(paErr == -9999)
         {
-          return_value_pthread_self$4=pthread_self();
-          if(return_value_pthread_self$4 == mainThread_)
+          return_value_pthread_self_4=pthread_self();
+          if(return_value_pthread_self_4 == mainThread_)
           {
-            const char *PaJack_Initialize$$1$$6$$1$$1$$err = jackErr_;
-            if(PaJack_Initialize$$1$$6$$1$$1$$err == ((const char *)NULL))
-              PaJack_Initialize$$1$$6$$1$$1$$err = "unknown error";
+            const char *PaJack_Initialize__1__6__1__1__err = jackErr_;
+            if(PaJack_Initialize__1__6__1__1__err == ((const char *)NULL))
+              PaJack_Initialize__1__6__1__1__err = "unknown error";
 
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize$$1$$6$$1$$1$$err);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize__1__6__1__1__err);
           }
 
         }
@@ -14720,11 +14720,11 @@ signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
 
     }
     while((_Bool)0);
-    (*hostApi)->Terminate = Terminate$link2;
-    (*hostApi)->OpenStream = OpenStream$link2;
-    (*hostApi)->IsFormatSupported = IsFormatSupported$link2;
-    PaUtil_InitializeStreamInterface(&jackHostApi->callbackStreamInterface, CloseStream$link2, StartStream$link2, StopStream$link2, AbortStream$link2, IsStreamStopped$link2, IsStreamActive$link2, GetStreamTime$link2, GetStreamCpuLoad$link2, PaUtil_DummyRead, PaUtil_DummyWrite, PaUtil_DummyGetReadAvailable, PaUtil_DummyGetWriteAvailable);
-    PaUtil_InitializeStreamInterface(&jackHostApi->blockingStreamInterface, CloseStream$link2, StartStream$link2, StopStream$link2, AbortStream$link2, IsStreamStopped$link2, IsStreamActive$link2, GetStreamTime$link2, PaUtil_DummyGetCpuLoad, BlockingReadStream, BlockingWriteStream, BlockingGetStreamReadAvailable, BlockingGetStreamWriteAvailable);
+    (*hostApi)->Terminate = Terminate_link2;
+    (*hostApi)->OpenStream = OpenStream_link2;
+    (*hostApi)->IsFormatSupported = IsFormatSupported_link2;
+    PaUtil_InitializeStreamInterface(&jackHostApi->callbackStreamInterface, CloseStream_link2, StartStream_link2, StopStream_link2, AbortStream_link2, IsStreamStopped_link2, IsStreamActive_link2, GetStreamTime_link2, GetStreamCpuLoad_link2, PaUtil_DummyRead, PaUtil_DummyWrite, PaUtil_DummyGetReadAvailable, PaUtil_DummyGetWriteAvailable);
+    PaUtil_InitializeStreamInterface(&jackHostApi->blockingStreamInterface, CloseStream_link2, StartStream_link2, StopStream_link2, AbortStream_link2, IsStreamStopped_link2, IsStreamActive_link2, GetStreamTime_link2, PaUtil_DummyGetCpuLoad, BlockingReadStream, BlockingWriteStream, BlockingGetStreamReadAvailable, BlockingGetStreamWriteAvailable);
     jackHostApi->outputBase = (unsigned long int)0;
     jackHostApi->inputBase = jackHostApi->outputBase;
     jackHostApi->xrun = 0;
@@ -14734,23 +14734,23 @@ signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
     jackHostApi->jackIsDown = 0;
     jack_on_shutdown(jackHostApi->jack_client, JackOnShutdown, (void *)jackHostApi);
     jack_set_error_function(JackErrorCallback);
-    return_value_jack_get_buffer_size$5=jack_get_buffer_size(jackHostApi->jack_client);
-    jackHostApi->jack_buffer_size = (signed int)return_value_jack_get_buffer_size$5;
+    return_value_jack_get_buffer_size_5=jack_get_buffer_size(jackHostApi->jack_client);
+    jackHostApi->jack_buffer_size = (signed int)return_value_jack_get_buffer_size_5;
     jack_set_sample_rate_callback(jackHostApi->jack_client, JackSrCb, (void *)jackHostApi);
     do
     {
-      signed int return_value_jack_set_xrun_callback$7;
-      return_value_jack_set_xrun_callback$7=jack_set_xrun_callback(jackHostApi->jack_client, JackXRunCb, (void *)jackHostApi);
-      if(!(return_value_jack_set_xrun_callback$7 == 0))
+      signed int return_value_jack_set_xrun_callback_7;
+      return_value_jack_set_xrun_callback_7=jack_set_xrun_callback(jackHostApi->jack_client, JackXRunCb, (void *)jackHostApi);
+      if(!(return_value_jack_set_xrun_callback_7 == 0))
       {
-        return_value_pthread_self$6=pthread_self();
-        if(return_value_pthread_self$6 == mainThread_)
+        return_value_pthread_self_6=pthread_self();
+        if(return_value_pthread_self_6 == mainThread_)
         {
-          const char *PaJack_Initialize$$1$$7$$1$$1$$err = jackErr_;
-          if(PaJack_Initialize$$1$$7$$1$$1$$err == ((const char *)NULL))
-            PaJack_Initialize$$1$$7$$1$$1$$err = "unknown error";
+          const char *PaJack_Initialize__1__7__1__1__err = jackErr_;
+          if(PaJack_Initialize__1__7__1__1__err == ((const char *)NULL))
+            PaJack_Initialize__1__7__1__1__err = "unknown error";
 
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize$$1$$7$$1$$1$$err);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize__1__7__1__1__err);
         }
 
         PaUtil_DebugPrint("Expression '!jack_set_xrun_callback( jackHostApi->jack_client, JackXRunCb, jackHostApi )' failed in 'src/hostapi/jack/pa_jack.c', line: 786\n");
@@ -14762,18 +14762,18 @@ signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
     while((_Bool)0);
     do
     {
-      signed int return_value_jack_set_process_callback$9;
-      return_value_jack_set_process_callback$9=jack_set_process_callback(jackHostApi->jack_client, JackCallback, (void *)jackHostApi);
-      if(!(return_value_jack_set_process_callback$9 == 0))
+      signed int return_value_jack_set_process_callback_9;
+      return_value_jack_set_process_callback_9=jack_set_process_callback(jackHostApi->jack_client, JackCallback, (void *)jackHostApi);
+      if(!(return_value_jack_set_process_callback_9 == 0))
       {
-        return_value_pthread_self$8=pthread_self();
-        if(return_value_pthread_self$8 == mainThread_)
+        return_value_pthread_self_8=pthread_self();
+        if(return_value_pthread_self_8 == mainThread_)
         {
-          const char *PaJack_Initialize$$1$$8$$1$$1$$err = jackErr_;
-          if(PaJack_Initialize$$1$$8$$1$$1$$err == ((const char *)NULL))
-            PaJack_Initialize$$1$$8$$1$$1$$err = "unknown error";
+          const char *PaJack_Initialize__1__8__1__1__err = jackErr_;
+          if(PaJack_Initialize__1__8__1__1__err == ((const char *)NULL))
+            PaJack_Initialize__1__8__1__1__err = "unknown error";
 
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize$$1$$8$$1$$1$$err);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize__1__8__1__1__err);
         }
 
         PaUtil_DebugPrint("Expression '!jack_set_process_callback( jackHostApi->jack_client, JackCallback, jackHostApi )' failed in 'src/hostapi/jack/pa_jack.c', line: 787\n");
@@ -14785,18 +14785,18 @@ signed int PaJack_Initialize(struct PaUtilHostApiRepresentation **hostApi, signe
     while((_Bool)0);
     do
     {
-      signed int return_value_jack_activate$11;
-      return_value_jack_activate$11=jack_activate(jackHostApi->jack_client);
-      if(!(return_value_jack_activate$11 == 0))
+      signed int return_value_jack_activate_11;
+      return_value_jack_activate_11=jack_activate(jackHostApi->jack_client);
+      if(!(return_value_jack_activate_11 == 0))
       {
-        return_value_pthread_self$10=pthread_self();
-        if(return_value_pthread_self$10 == mainThread_)
+        return_value_pthread_self_10=pthread_self();
+        if(return_value_pthread_self_10 == mainThread_)
         {
-          const char *PaJack_Initialize$$1$$9$$1$$1$$err = jackErr_;
-          if(PaJack_Initialize$$1$$9$$1$$1$$err == ((const char *)NULL))
-            PaJack_Initialize$$1$$9$$1$$1$$err = "unknown error";
+          const char *PaJack_Initialize__1__9__1__1__err = jackErr_;
+          if(PaJack_Initialize__1__9__1__1__err == ((const char *)NULL))
+            PaJack_Initialize__1__9__1__1__err = "unknown error";
 
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize$$1$$9$$1$$1$$err);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, PaJack_Initialize__1__9__1__1__err);
         }
 
         PaUtil_DebugPrint("Expression '!jack_activate( jackHostApi->jack_client )' failed in 'src/hostapi/jack/pa_jack.c', line: 788\n");
@@ -14815,26 +14815,26 @@ error:
   if(!(activated == 0))
     do
     {
-      signed int PaJack_Initialize$$1$$10$$err;
-      PaJack_Initialize$$1$$10$$err=jack_deactivate(jackHostApi->jack_client);
+      signed int PaJack_Initialize__1__10__err;
+      PaJack_Initialize__1__10__err=jack_deactivate(jackHostApi->jack_client);
       /* assertion err == 0 */
-      assert(PaJack_Initialize$$1$$10$$err == 0);
+      assert(PaJack_Initialize__1__10__err == 0);
     }
     while((_Bool)0);
 
-  if(!(jackHostApi == ((struct anonymous$4 *)NULL)))
+  if(!(jackHostApi == ((struct anonymous_4 *)NULL)))
   {
     if(!(jackHostApi->jack_client == ((struct _jack_client *)NULL)))
       do
       {
-        signed int PaJack_Initialize$$1$$11$$1$$err;
-        PaJack_Initialize$$1$$11$$1$$err=jack_client_close(jackHostApi->jack_client);
+        signed int PaJack_Initialize__1__11__1__err;
+        PaJack_Initialize__1__11__1__err=jack_client_close(jackHostApi->jack_client);
         /* assertion err == 0 */
-        assert(PaJack_Initialize$$1$$11$$1$$err == 0);
+        assert(PaJack_Initialize__1__11__1__err == 0);
       }
       while((_Bool)0);
 
-    if(!(jackHostApi->deviceInfoMemory == ((struct anonymous$13 *)NULL)))
+    if(!(jackHostApi->deviceInfoMemory == ((struct anonymous_13 *)NULL)))
     {
       PaUtil_FreeAllAllocations(jackHostApi->deviceInfoMemory);
       PaUtil_DestroyAllocationGroup(jackHostApi->deviceInfoMemory);
@@ -14850,11 +14850,11 @@ error:
 // file src/hostapi/jack/pa_jack.c line 1748
 signed int PaJack_SetClientName(const char *name)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  signed int return_value_jack_client_name_size$2;
-  return_value_jack_client_name_size$2=jack_client_name_size();
-  if(!((unsigned long int)return_value_jack_client_name_size$2 >= return_value_strlen$1))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  signed int return_value_jack_client_name_size_2;
+  return_value_jack_client_name_size_2=jack_client_name_size();
+  if(!((unsigned long int)return_value_jack_client_name_size_2 >= return_value_strlen_1))
     return -9995;
 
   else
@@ -14879,12 +14879,12 @@ static void * PaOSS_AudioThreadProc(void *userData)
   struct PaStreamCallbackTimeInfo timeInfo = { .inputBufferAdcTime=(double)0, .currentTime=(double)0, .outputBufferDacTime=(double)0 };
   /* assertion stream */
   assert(stream != ((struct PaOssStream *)NULL));
-  _Bool tmp_if_expr$2;
-  signed int return_value_PaUtil_IsBufferProcessorOutputEmpty$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_PaUtil_IsBufferProcessorOutputEmpty_1;
   do
   {
-    struct anonymous$11 __cancel_buf;
-    void (*__cancel_routine)(void *) = OnExit$link1;
+    struct anonymous_11 __cancel_buf;
+    void (*__cancel_routine)(void *) = OnExit_link1;
     void *__cancel_arg = (void *)stream;
     signed int __not_first_call;
     __not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)__cancel_buf.__cancel_jmp_buf, 0);
@@ -14900,20 +14900,20 @@ static void * PaOSS_AudioThreadProc(void *userData)
 
     __CPROVER_DUMP_L3:
       ;
-      paUtilErr_$link1=PaOssStream_Prepare(stream);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaOssStream_Prepare(stream);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaOssStream_Prepare( stream )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1626\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
       if(!(initiateProcessing == 0))
       {
-        if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+        if(!(stream->capture == ((struct anonymous_9 *)NULL)))
           ModifyBlocking(stream->capture->fd, 1);
 
-        if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+        if(!(stream->playback == ((struct anonymous_9 *)NULL)))
           ModifyBlocking(stream->playback->fd, 1);
 
       }
@@ -14932,11 +14932,11 @@ static void * PaOSS_AudioThreadProc(void *userData)
         {
           do
           {
-            paUtilErr_$link1=PaOssStream_WaitForFrames(stream, &framesAvail);
-            if(!(paUtilErr_$link1 >= 0))
+            paUtilErr__link1=PaOssStream_WaitForFrames(stream, &framesAvail);
+            if(!(paUtilErr__link1 >= 0))
             {
               PaUtil_DebugPrint("Expression 'PaOssStream_WaitForFrames( stream, &framesAvail )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1663\n");
-              result = paUtilErr_$link1;
+              result = paUtilErr__link1;
               goto error;
             }
 
@@ -14953,15 +14953,15 @@ static void * PaOSS_AudioThreadProc(void *userData)
           unsigned long int frames = framesAvail;
           pthread_testcancel();
           PaUtil_BeginCpuLoadMeasurement(&stream->cpuLoadMeasurer);
-          if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+          if(!(stream->capture == ((struct anonymous_9 *)NULL)))
           {
             do
             {
-              paUtilErr_$link1=PaOssStreamComponent_Read(stream->capture, &frames);
-              if(!(paUtilErr_$link1 >= 0))
+              paUtilErr__link1=PaOssStreamComponent_Read(stream->capture, &frames);
+              if(!(paUtilErr__link1 >= 0))
               {
                 PaUtil_DebugPrint("Expression 'PaOssStreamComponent_Read( stream->capture, &frames )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1695\n");
-                result = paUtilErr_$link1;
+                result = paUtilErr__link1;
                 goto error;
               }
 
@@ -14976,11 +14976,11 @@ static void * PaOSS_AudioThreadProc(void *userData)
           cbFlags = (unsigned long int)0;
           do
           {
-            paUtilErr_$link1=SetUpBuffers(stream, framesAvail);
-            if(!(paUtilErr_$link1 >= 0))
+            paUtilErr__link1=SetUpBuffers(stream, framesAvail);
+            if(!(paUtilErr__link1 >= 0))
             {
               PaUtil_DebugPrint("Expression 'SetUpBuffers( stream, framesAvail )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1724\n");
-              result = paUtilErr_$link1;
+              result = paUtilErr__link1;
               goto error;
             }
 
@@ -14990,16 +14990,16 @@ static void * PaOSS_AudioThreadProc(void *userData)
           /* assertion framesProcessed == framesAvail */
           assert(framesProcessed == framesAvail);
           PaUtil_EndCpuLoadMeasurement(&stream->cpuLoadMeasurer, framesProcessed);
-          if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+          if(!(stream->playback == ((struct anonymous_9 *)NULL)))
           {
             frames = framesAvail;
             do
             {
-              paUtilErr_$link1=PaOssStreamComponent_Write(stream->playback, &frames);
-              if(!(paUtilErr_$link1 >= 0))
+              paUtilErr__link1=PaOssStreamComponent_Write(stream->playback, &frames);
+              if(!(paUtilErr__link1 >= 0))
               {
                 PaUtil_DebugPrint("Expression 'PaOssStreamComponent_Write( stream->playback, &frames )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1735\n");
-                result = paUtilErr_$link1;
+                result = paUtilErr__link1;
                 goto error;
               }
 
@@ -15015,30 +15015,30 @@ static void * PaOSS_AudioThreadProc(void *userData)
         }
         if(triggered == 0 || !(initiateProcessing == 0))
         {
-          if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+          if(!(stream->capture == ((struct anonymous_9 *)NULL)))
             do
             {
-              paUtilErr_$link1=ModifyBlocking(stream->capture->fd, 0);
-              if(!(paUtilErr_$link1 >= 0))
+              paUtilErr__link1=ModifyBlocking(stream->capture->fd, 0);
+              if(!(paUtilErr__link1 >= 0))
               {
                 PaUtil_DebugPrint("Expression 'ModifyBlocking( stream->capture->fd, 0 )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1754\n");
-                result = paUtilErr_$link1;
+                result = paUtilErr__link1;
                 goto error;
               }
 
             }
             while((_Bool)0);
 
-          if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+          if(!(stream->playback == ((struct anonymous_9 *)NULL)))
           {
             if(stream->sharedDevice == 0)
               do
               {
-                paUtilErr_$link1=ModifyBlocking(stream->playback->fd, 0);
-                if(!(paUtilErr_$link1 >= 0))
+                paUtilErr__link1=ModifyBlocking(stream->playback->fd, 0);
+                if(!(paUtilErr__link1 >= 0))
                 {
                   PaUtil_DebugPrint("Expression 'ModifyBlocking( stream->playback->fd, 0 )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1756\n");
-                  result = paUtilErr_$link1;
+                  result = paUtilErr__link1;
                   goto error;
                 }
 
@@ -15055,14 +15055,14 @@ static void * PaOSS_AudioThreadProc(void *userData)
         {
           stream->callbackAbort = (volatile signed int)(callbackResult == 2);
           if(!(stream->callbackAbort == 0))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
-            return_value_PaUtil_IsBufferProcessorOutputEmpty$1=PaUtil_IsBufferProcessorOutputEmpty(&stream->bufferProcessor);
-            tmp_if_expr$2 = return_value_PaUtil_IsBufferProcessorOutputEmpty$1 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_PaUtil_IsBufferProcessorOutputEmpty_1=PaUtil_IsBufferProcessorOutputEmpty(&stream->bufferProcessor);
+            tmp_if_expr_2 = return_value_PaUtil_IsBufferProcessorOutputEmpty_1 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$2)
+          if(tmp_if_expr_2)
             break;
 
         }
@@ -15088,7 +15088,7 @@ error:
 const char * PaOSS_GetStreamInputDevice(void *s)
 {
   struct PaOssStream *stream = (struct PaOssStream *)s;
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
     return stream->capture->devName;
 
   else
@@ -15100,7 +15100,7 @@ const char * PaOSS_GetStreamInputDevice(void *s)
 const char * PaOSS_GetStreamOutputDevice(void *s)
 {
   struct PaOssStream *stream = (struct PaOssStream *)s;
-  if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+  if(!(stream->playback == ((struct anonymous_9 *)NULL)))
     return stream->playback->devName;
 
   else
@@ -15112,13 +15112,13 @@ const char * PaOSS_GetStreamOutputDevice(void *s)
 signed int PaOSS_Initialize(struct PaUtilHostApiRepresentation **hostApi, signed int hostApiIndex)
 {
   signed int result = 0;
-  struct anonymous$14 *ossHostApi = (struct anonymous$14 *)(void *)0;
+  struct anonymous_14 *ossHostApi = (struct anonymous_14 *)(void *)0;
   do
   {
-    void *return_value_PaUtil_AllocateMemory$1;
-    return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous$14) /*280ul*/ );
-    ossHostApi = (struct anonymous$14 *)return_value_PaUtil_AllocateMemory$1;
-    if(ossHostApi == ((struct anonymous$14 *)NULL))
+    void *return_value_PaUtil_AllocateMemory_1;
+    return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous_14) /*280ul*/ );
+    ossHostApi = (struct anonymous_14 *)return_value_PaUtil_AllocateMemory_1;
+    if(ossHostApi == ((struct anonymous_14 *)NULL))
     {
       PaUtil_DebugPrint("Expression 'ossHostApi = (PaOSSHostApiRepresentation*)PaUtil_AllocateMemory( sizeof(PaOSSHostApiRepresentation) )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 247\n");
       result = -9992;
@@ -15130,7 +15130,7 @@ signed int PaOSS_Initialize(struct PaUtilHostApiRepresentation **hostApi, signed
   do
   {
     ossHostApi->allocations=PaUtil_CreateAllocationGroup();
-    if(ossHostApi->allocations == ((struct anonymous$13 *)NULL))
+    if(ossHostApi->allocations == ((struct anonymous_13 *)NULL))
     {
       PaUtil_DebugPrint("Expression 'ossHostApi->allocations = PaUtil_CreateAllocationGroup()' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 248\n");
       result = -9992;
@@ -15144,31 +15144,31 @@ signed int PaOSS_Initialize(struct PaUtilHostApiRepresentation **hostApi, signed
   (*hostApi)->info.structVersion = 1;
   (*hostApi)->info.type = (enum PaHostApiTypeId)paOSS;
   (*hostApi)->info.name = "OSS";
-  (*hostApi)->Terminate = Terminate$link3;
-  (*hostApi)->OpenStream = OpenStream$link3;
-  (*hostApi)->IsFormatSupported = IsFormatSupported$link3;
+  (*hostApi)->Terminate = Terminate_link3;
+  (*hostApi)->OpenStream = OpenStream_link3;
+  (*hostApi)->IsFormatSupported = IsFormatSupported_link3;
   do
   {
-    paUtilErr_$link1=BuildDeviceList$link2(ossHostApi);
-    if(!(paUtilErr_$link1 >= 0))
+    paUtilErr__link1=BuildDeviceList_link2(ossHostApi);
+    if(!(paUtilErr__link1 >= 0))
     {
       PaUtil_DebugPrint("Expression 'BuildDeviceList( ossHostApi )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 260\n");
-      result = paUtilErr_$link1;
+      result = paUtilErr__link1;
       goto error;
     }
 
   }
   while((_Bool)0);
-  PaUtil_InitializeStreamInterface(&ossHostApi->callbackStreamInterface, CloseStream$link3, StartStream$link3, StopStream$link3, AbortStream$link3, IsStreamStopped$link3, IsStreamActive$link3, GetStreamTime$link3, GetStreamCpuLoad$link3, PaUtil_DummyRead, PaUtil_DummyWrite, PaUtil_DummyGetReadAvailable, PaUtil_DummyGetWriteAvailable);
-  PaUtil_InitializeStreamInterface(&ossHostApi->blockingStreamInterface, CloseStream$link3, StartStream$link3, StopStream$link3, AbortStream$link3, IsStreamStopped$link3, IsStreamActive$link3, GetStreamTime$link3, PaUtil_DummyGetCpuLoad, ReadStream$link2, WriteStream$link2, GetStreamReadAvailable$link2, GetStreamWriteAvailable$link2);
-  mainThread_$link1=pthread_self();
+  PaUtil_InitializeStreamInterface(&ossHostApi->callbackStreamInterface, CloseStream_link3, StartStream_link3, StopStream_link3, AbortStream_link3, IsStreamStopped_link3, IsStreamActive_link3, GetStreamTime_link3, GetStreamCpuLoad_link3, PaUtil_DummyRead, PaUtil_DummyWrite, PaUtil_DummyGetReadAvailable, PaUtil_DummyGetWriteAvailable);
+  PaUtil_InitializeStreamInterface(&ossHostApi->blockingStreamInterface, CloseStream_link3, StartStream_link3, StopStream_link3, AbortStream_link3, IsStreamStopped_link3, IsStreamActive_link3, GetStreamTime_link3, PaUtil_DummyGetCpuLoad, ReadStream_link2, WriteStream_link2, GetStreamReadAvailable_link2, GetStreamWriteAvailable_link2);
+  mainThread__link1=pthread_self();
   return result;
 
 error:
   ;
-  if(!(ossHostApi == ((struct anonymous$14 *)NULL)))
+  if(!(ossHostApi == ((struct anonymous_14 *)NULL)))
   {
-    if(!(ossHostApi->allocations == ((struct anonymous$13 *)NULL)))
+    if(!(ossHostApi->allocations == ((struct anonymous_13 *)NULL)))
     {
       PaUtil_FreeAllAllocations(ossHostApi->allocations);
       PaUtil_DestroyAllocationGroup(ossHostApi->allocations);
@@ -15182,16 +15182,16 @@ error:
 
 // PaOssStreamComponent_BufferSize
 // file src/hostapi/oss/pa_unix_oss.c line 981
-static unsigned long int PaOssStreamComponent_BufferSize(struct anonymous$9 *component)
+static unsigned long int PaOssStreamComponent_BufferSize(struct anonymous_9 *component)
 {
-  unsigned int return_value_PaOssStreamComponent_FrameSize$1;
-  return_value_PaOssStreamComponent_FrameSize$1=PaOssStreamComponent_FrameSize(component);
-  return (unsigned long int)return_value_PaOssStreamComponent_FrameSize$1 * component->hostFrames * component->numBufs;
+  unsigned int return_value_PaOssStreamComponent_FrameSize_1;
+  return_value_PaOssStreamComponent_FrameSize_1=PaOssStreamComponent_FrameSize(component);
+  return (unsigned long int)return_value_PaOssStreamComponent_FrameSize_1 * component->hostFrames * component->numBufs;
 }
 
 // PaOssStreamComponent_Configure
 // file src/hostapi/oss/pa_unix_oss.c line 988
-static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, double sampleRate, unsigned long int framesPerBuffer, enum anonymous$15 streamMode, struct anonymous$9 *master)
+static signed int PaOssStreamComponent_Configure(struct anonymous_9 *component, double sampleRate, unsigned long int framesPerBuffer, enum anonymous_15 streamMode, struct anonymous_9 *master)
 {
   signed int result = 0;
   signed int temp;
@@ -15206,15 +15206,15 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
   unsigned long int bufSz;
   unsigned long int fragSz;
   struct audio_buf_info bufInfo;
-  unsigned long int tmp_if_expr$3;
-  signed int return_value_Pa_GetSampleSize$2;
-  unsigned long int return_value_pthread_self$7;
-  unsigned long int return_value_pthread_self$10;
-  unsigned long int return_value_pthread_self$13;
-  unsigned long int return_value_pthread_self$16;
-  unsigned long int return_value_pthread_self$20;
-  unsigned long int return_value_pthread_self$23;
-  if(master == ((struct anonymous$9 *)NULL))
+  unsigned long int tmp_if_expr_3;
+  signed int return_value_Pa_GetSampleSize_2;
+  unsigned long int return_value_pthread_self_7;
+  unsigned long int return_value_pthread_self_10;
+  unsigned long int return_value_pthread_self_13;
+  unsigned long int return_value_pthread_self_16;
+  unsigned long int return_value_pthread_self_20;
+  unsigned long int return_value_pthread_self_23;
+  if(master == ((struct anonymous_9 *)NULL))
   {
     if(framesPerBuffer == 0ul)
     {
@@ -15229,11 +15229,11 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
     }
     do
     {
-      paUtilErr_$link1=GetAvailableFormats$link1(component, &availableFormats);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=GetAvailableFormats_link1(component, &availableFormats);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'GetAvailableFormats( component, &availableFormats )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1022\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
@@ -15241,33 +15241,33 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
     while((_Bool)0);
     hostFormat=PaUtil_SelectClosestAvailableFormat(availableFormats, component->userFormat);
     numBufs = (signed int)(bufSz / fragSz > (unsigned long int)2 ? bufSz / fragSz : (unsigned long int)2);
-    signed int return_value_Pa_GetSampleSize$1;
-    return_value_Pa_GetSampleSize$1=Pa_GetSampleSize(hostFormat);
-    if(fragSz * (unsigned long int)return_value_Pa_GetSampleSize$1 * (unsigned long int)chans >= 17ul)
+    signed int return_value_Pa_GetSampleSize_1;
+    return_value_Pa_GetSampleSize_1=Pa_GetSampleSize(hostFormat);
+    if(fragSz * (unsigned long int)return_value_Pa_GetSampleSize_1 * (unsigned long int)chans >= 17ul)
     {
-      return_value_Pa_GetSampleSize$2=Pa_GetSampleSize(hostFormat);
-      tmp_if_expr$3 = fragSz * (unsigned long int)return_value_Pa_GetSampleSize$2 * (unsigned long int)chans;
+      return_value_Pa_GetSampleSize_2=Pa_GetSampleSize(hostFormat);
+      tmp_if_expr_3 = fragSz * (unsigned long int)return_value_Pa_GetSampleSize_2 * (unsigned long int)chans;
     }
 
     else
-      tmp_if_expr$3 = (unsigned long int)16;
-    bytesPerBuf = (signed int)tmp_if_expr$3;
-    signed int return_value_CalcHigherLogTwo$4;
-    return_value_CalcHigherLogTwo$4=CalcHigherLogTwo(bytesPerBuf);
-    frgmt = (numBufs << 16) + (return_value_CalcHigherLogTwo$4 & 0xffff);
+      tmp_if_expr_3 = (unsigned long int)16;
+    bytesPerBuf = (signed int)tmp_if_expr_3;
+    signed int return_value_CalcHigherLogTwo_4;
+    return_value_CalcHigherLogTwo_4=CalcHigherLogTwo(bytesPerBuf);
+    frgmt = (numBufs << 16) + (return_value_CalcHigherLogTwo_4 & 0xffff);
     do
     {
       sysErr_=ioctl(component->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &frgmt);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$7=pthread_self();
-        if(return_value_pthread_self$7 == mainThread_$link1)
+        return_value_pthread_self_7=pthread_self();
+        if(return_value_pthread_self_7 == mainThread__link1)
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$6);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_6);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( component->fd, SNDCTL_DSP_SETFRAGMENT, &frgmt )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1034\n");
@@ -15279,11 +15279,11 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
     while((_Bool)0);
     do
     {
-      paUtilErr_$link1=Pa2OssFormat(hostFormat, &temp);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=Pa2OssFormat(hostFormat, &temp);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'Pa2OssFormat( hostFormat, &temp )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1040\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
@@ -15295,14 +15295,14 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
       sysErr_=ioctl(component->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(5 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &temp);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$10=pthread_self();
-        if(return_value_pthread_self$10 == mainThread_$link1)
+        return_value_pthread_self_10=pthread_self();
+        if(return_value_pthread_self_10 == mainThread__link1)
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          char *return_value_strerror$9;
-          return_value_strerror$9=strerror(*return_value___errno_location$8);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$9);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          char *return_value_strerror_9;
+          return_value_strerror_9=strerror(*return_value___errno_location_8);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_9);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( component->fd, SNDCTL_DSP_SETFMT, &temp )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1042\n");
@@ -15354,16 +15354,16 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
 
     }
     while((_Bool)0);
-    double return_value_fabs$17;
-    return_value_fabs$17=fabs(sampleRate - (double)sr);
-    if(return_value_fabs$17 / sampleRate > 0.01)
+    double return_value_fabs_17;
+    return_value_fabs_17=fabs(sampleRate - (double)sr);
+    if(return_value_fabs_17 / sampleRate > 0.01)
       do
       {
-        paUtilErr_$link1 = -9997;
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1 = -9997;
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'paInvalidSampleRate' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1057\n");
-          result = paUtilErr_$link1;
+          result = paUtilErr__link1;
           goto error;
         }
 
@@ -15375,14 +15375,14 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
       sysErr_=ioctl(component->fd, (signed int)streamMode == StreamMode_In ? (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(13 << 0)) | sizeof(struct audio_buf_info) /*16ul*/  << 0 + 8 + 8 : (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(12 << 0)) | sizeof(struct audio_buf_info) /*16ul*/  << 0 + 8 + 8, &bufInfo);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$20=pthread_self();
-        if(return_value_pthread_self$20 == mainThread_$link1)
+        return_value_pthread_self_20=pthread_self();
+        if(return_value_pthread_self_20 == mainThread__link1)
         {
-          signed int *return_value___errno_location$18;
-          return_value___errno_location$18=__errno_location();
-          char *return_value_strerror$19;
-          return_value_strerror$19=strerror(*return_value___errno_location$18);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$19);
+          signed int *return_value___errno_location_18;
+          return_value___errno_location_18=__errno_location();
+          char *return_value_strerror_19;
+          return_value_strerror_19=strerror(*return_value___errno_location_18);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_19);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( component->fd, streamMode == StreamMode_In ? SNDCTL_DSP_GETISPACE : SNDCTL_DSP_GETOSPACE, &bufInfo )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1061\n");
@@ -15398,14 +15398,14 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
       sysErr_=ioctl(component->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(4 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &bytesPerBuf);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$23=pthread_self();
-        if(return_value_pthread_self$23 == mainThread_$link1)
+        return_value_pthread_self_23=pthread_self();
+        if(return_value_pthread_self_23 == mainThread__link1)
         {
-          signed int *return_value___errno_location$21;
-          return_value___errno_location$21=__errno_location();
-          char *return_value_strerror$22;
-          return_value_strerror$22=strerror(*return_value___errno_location$21);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$22);
+          signed int *return_value___errno_location_21;
+          return_value___errno_location_21=__errno_location();
+          char *return_value_strerror_22;
+          return_value_strerror_22=strerror(*return_value___errno_location_21);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_22);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( component->fd, SNDCTL_DSP_GETBLKSIZE, &bytesPerBuf )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1065\n");
@@ -15415,9 +15415,9 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
 
     }
     while((_Bool)0);
-    signed int return_value_Pa_GetSampleSize$24;
-    return_value_Pa_GetSampleSize$24=Pa_GetSampleSize(hostFormat);
-    component->hostFrames = (unsigned long int)((bytesPerBuf / return_value_Pa_GetSampleSize$24) / chans);
+    signed int return_value_Pa_GetSampleSize_24;
+    return_value_Pa_GetSampleSize_24=Pa_GetSampleSize(hostFormat);
+    component->hostFrames = (unsigned long int)((bytesPerBuf / return_value_Pa_GetSampleSize_24) / chans);
     component->hostChannelCount = chans;
     component->hostFormat = hostFormat;
   }
@@ -15431,9 +15431,9 @@ static signed int PaOssStreamComponent_Configure(struct anonymous$9 *component, 
   }
   do
   {
-    unsigned long int return_value_PaOssStreamComponent_BufferSize$25;
-    return_value_PaOssStreamComponent_BufferSize$25=PaOssStreamComponent_BufferSize(component);
-    component->buffer=PaUtil_AllocateMemory((signed long int)return_value_PaOssStreamComponent_BufferSize$25);
+    unsigned long int return_value_PaOssStreamComponent_BufferSize_25;
+    return_value_PaOssStreamComponent_BufferSize_25=PaOssStreamComponent_BufferSize(component);
+    component->buffer=PaUtil_AllocateMemory((signed long int)return_value_PaOssStreamComponent_BufferSize_25);
     if(component->buffer == NULL)
     {
       PaUtil_DebugPrint("Expression 'component->buffer = PaUtil_AllocateMemory( PaOssStreamComponent_BufferSize( component ) )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1080\n");
@@ -15451,21 +15451,21 @@ error:
 
 // PaOssStreamComponent_FrameSize
 // file src/hostapi/oss/pa_unix_oss.c line 973
-static unsigned int PaOssStreamComponent_FrameSize(struct anonymous$9 *component)
+static unsigned int PaOssStreamComponent_FrameSize(struct anonymous_9 *component)
 {
-  signed int return_value_Pa_GetSampleSize$1;
-  return_value_Pa_GetSampleSize$1=Pa_GetSampleSize(component->hostFormat);
-  return (unsigned int)(return_value_Pa_GetSampleSize$1 * component->hostChannelCount);
+  signed int return_value_Pa_GetSampleSize_1;
+  return_value_Pa_GetSampleSize_1=Pa_GetSampleSize(component->hostFormat);
+  return (unsigned int)(return_value_Pa_GetSampleSize_1 * component->hostChannelCount);
 }
 
 // PaOssStreamComponent_Initialize
 // file src/hostapi/oss/pa_unix_oss.c line 747
-static signed int PaOssStreamComponent_Initialize(struct anonymous$9 *component, const struct PaStreamParameters *parameters, signed int callbackMode, signed int fd, const char *deviceName)
+static signed int PaOssStreamComponent_Initialize(struct anonymous_9 *component, const struct PaStreamParameters *parameters, signed int callbackMode, signed int fd, const char *deviceName)
 {
   signed int result = 0;
   /* assertion component */
-  assert(component != ((struct anonymous$9 *)NULL));
-  memset((void *)component, 0, sizeof(struct anonymous$9) /*88ul*/ );
+  assert(component != ((struct anonymous_9 *)NULL));
+  memset((void *)component, 0, sizeof(struct anonymous_9) /*88ul*/ );
   component->fd = fd;
   component->devName = deviceName;
   component->userChannelCount = parameters->channelCount;
@@ -15477,9 +15477,9 @@ static signed int PaOssStreamComponent_Initialize(struct anonymous$9 *component,
     if(component->userInterleaved == 0)
       do
       {
-        void *return_value_PaUtil_AllocateMemory$1;
-        return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)component->userChannelCount));
-        component->userBuffers = (void **)return_value_PaUtil_AllocateMemory$1;
+        void *return_value_PaUtil_AllocateMemory_1;
+        return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)component->userChannelCount));
+        component->userBuffers = (void **)return_value_PaUtil_AllocateMemory_1;
         if(component->userBuffers == ((void **)NULL))
         {
           PaUtil_DebugPrint("Expression 'component->userBuffers = PaUtil_AllocateMemory( sizeof (void *) * component->userChannelCount )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 766\n");
@@ -15500,29 +15500,29 @@ error:
 
 // PaOssStreamComponent_Read
 // file src/hostapi/oss/pa_unix_oss.c line 1086
-static signed int PaOssStreamComponent_Read(struct anonymous$9 *component, unsigned long int *frames)
+static signed int PaOssStreamComponent_Read(struct anonymous_9 *component, unsigned long int *frames)
 {
   signed int result = 0;
   unsigned long int len;
-  unsigned int return_value_PaOssStreamComponent_FrameSize$1;
-  return_value_PaOssStreamComponent_FrameSize$1=PaOssStreamComponent_FrameSize(component);
-  len = *frames * (unsigned long int)return_value_PaOssStreamComponent_FrameSize$1;
+  unsigned int return_value_PaOssStreamComponent_FrameSize_1;
+  return_value_PaOssStreamComponent_FrameSize_1=PaOssStreamComponent_FrameSize(component);
+  len = *frames * (unsigned long int)return_value_PaOssStreamComponent_FrameSize_1;
   signed long int bytesRead;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_4;
   do
   {
     bytesRead=read(component->fd, component->buffer, len);
     sysErr_ = (signed int)bytesRead;
     if(!(sysErr_ >= 0))
     {
-      return_value_pthread_self$4=pthread_self();
-      if(return_value_pthread_self$4 == mainThread_$link1)
+      return_value_pthread_self_4=pthread_self();
+      if(return_value_pthread_self_4 == mainThread__link1)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_3);
       }
 
       PaUtil_DebugPrint("Expression 'bytesRead = read( component->fd, component->buffer, len )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1092\n");
@@ -15532,9 +15532,9 @@ static signed int PaOssStreamComponent_Read(struct anonymous$9 *component, unsig
 
   }
   while((_Bool)0);
-  unsigned int return_value_PaOssStreamComponent_FrameSize$5;
-  return_value_PaOssStreamComponent_FrameSize$5=PaOssStreamComponent_FrameSize(component);
-  *frames = (unsigned long int)(bytesRead / (signed long int)return_value_PaOssStreamComponent_FrameSize$5);
+  unsigned int return_value_PaOssStreamComponent_FrameSize_5;
+  return_value_PaOssStreamComponent_FrameSize_5=PaOssStreamComponent_FrameSize(component);
+  *frames = (unsigned long int)(bytesRead / (signed long int)return_value_PaOssStreamComponent_FrameSize_5);
 
 error:
   ;
@@ -15543,10 +15543,10 @@ error:
 
 // PaOssStreamComponent_Terminate
 // file src/hostapi/oss/pa_unix_oss.c line 773
-static void PaOssStreamComponent_Terminate(struct anonymous$9 *component)
+static void PaOssStreamComponent_Terminate(struct anonymous_9 *component)
 {
   /* assertion component */
-  assert(component != ((struct anonymous$9 *)NULL));
+  assert(component != ((struct anonymous_9 *)NULL));
   if(component->fd >= 0)
     close(component->fd);
 
@@ -15561,29 +15561,29 @@ static void PaOssStreamComponent_Terminate(struct anonymous$9 *component)
 
 // PaOssStreamComponent_Write
 // file src/hostapi/oss/pa_unix_oss.c line 1100
-static signed int PaOssStreamComponent_Write(struct anonymous$9 *component, unsigned long int *frames)
+static signed int PaOssStreamComponent_Write(struct anonymous_9 *component, unsigned long int *frames)
 {
   signed int result = 0;
   unsigned long int len;
-  unsigned int return_value_PaOssStreamComponent_FrameSize$1;
-  return_value_PaOssStreamComponent_FrameSize$1=PaOssStreamComponent_FrameSize(component);
-  len = *frames * (unsigned long int)return_value_PaOssStreamComponent_FrameSize$1;
+  unsigned int return_value_PaOssStreamComponent_FrameSize_1;
+  return_value_PaOssStreamComponent_FrameSize_1=PaOssStreamComponent_FrameSize(component);
+  len = *frames * (unsigned long int)return_value_PaOssStreamComponent_FrameSize_1;
   signed long int bytesWritten;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_4;
   do
   {
     bytesWritten=write(component->fd, component->buffer, len);
     sysErr_ = (signed int)bytesWritten;
     if(!(sysErr_ >= 0))
     {
-      return_value_pthread_self$4=pthread_self();
-      if(return_value_pthread_self$4 == mainThread_$link1)
+      return_value_pthread_self_4=pthread_self();
+      if(return_value_pthread_self_4 == mainThread__link1)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_3);
       }
 
       PaUtil_DebugPrint("Expression 'bytesWritten = write( component->fd, component->buffer, len )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1106\n");
@@ -15593,9 +15593,9 @@ static signed int PaOssStreamComponent_Write(struct anonymous$9 *component, unsi
 
   }
   while((_Bool)0);
-  unsigned int return_value_PaOssStreamComponent_FrameSize$5;
-  return_value_PaOssStreamComponent_FrameSize$5=PaOssStreamComponent_FrameSize(component);
-  *frames = (unsigned long int)(bytesWritten / (signed long int)return_value_PaOssStreamComponent_FrameSize$5);
+  unsigned int return_value_PaOssStreamComponent_FrameSize_5;
+  return_value_PaOssStreamComponent_FrameSize_5=PaOssStreamComponent_FrameSize(component);
+  *frames = (unsigned long int)(bytesWritten / (signed long int)return_value_PaOssStreamComponent_FrameSize_5);
 
 error:
   ;
@@ -15608,15 +15608,15 @@ static signed int PaOssStream_Configure(struct PaOssStream *stream, double sampl
 {
   signed int result = 0;
   signed int duplex;
-  _Bool tmp_if_expr$1;
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
-    tmp_if_expr$1 = stream->playback != ((struct anonymous$9 *)NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
+    tmp_if_expr_1 = stream->playback != ((struct anonymous_9 *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  duplex = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  duplex = (signed int)tmp_if_expr_1;
   unsigned long int framesPerHostBuffer = (unsigned long int)0;
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_4;
   if(!(duplex == 0))
   {
     if(!(stream->sharedDevice == 0))
@@ -15625,14 +15625,14 @@ static signed int PaOssStream_Configure(struct PaOssStream *stream, double sampl
         sysErr_=ioctl(stream->capture->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(22 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 0);
         if(!(sysErr_ >= 0))
         {
-          return_value_pthread_self$4=pthread_self();
-          if(return_value_pthread_self$4 == mainThread_$link1)
+          return_value_pthread_self_4=pthread_self();
+          if(return_value_pthread_self_4 == mainThread__link1)
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            char *return_value_strerror$3;
-            return_value_strerror$3=strerror(*return_value___errno_location$2);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$3);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            char *return_value_strerror_3;
+            return_value_strerror_3=strerror(*return_value___errno_location_2);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_3);
           }
 
           PaUtil_DebugPrint("Expression 'ioctl( stream->capture->fd, SNDCTL_DSP_SETDUPLEX, 0 )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1128\n");
@@ -15645,16 +15645,16 @@ static signed int PaOssStream_Configure(struct PaOssStream *stream, double sampl
 
   }
 
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
   {
-    struct anonymous$9 *component = stream->capture;
+    struct anonymous_9 *component = stream->capture;
     do
     {
-      paUtilErr_$link1=PaOssStreamComponent_Configure(component, sampleRate, framesPerBuffer, (enum anonymous$15)StreamMode_In, (struct anonymous$9 *)(void *)0);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaOssStreamComponent_Configure(component, sampleRate, framesPerBuffer, (enum anonymous_15)StreamMode_In, (struct anonymous_9 *)(void *)0);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaOssStreamComponent_Configure( component, sampleRate, framesPerBuffer, StreamMode_In, NULL )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1134\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
@@ -15667,59 +15667,59 @@ static signed int PaOssStream_Configure(struct PaOssStream *stream, double sampl
     *inputLatency = (double)(component->hostFrames * (component->numBufs - (unsigned long int)1)) / sampleRate;
   }
 
-  struct anonymous$9 *tmp_if_expr$5;
-  if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+  struct anonymous_9 *tmp_if_expr_5;
+  if(!(stream->playback == ((struct anonymous_9 *)NULL)))
   {
-    struct anonymous$9 *PaOssStream_Configure$$1$$3$$component = stream->playback;
-    struct anonymous$9 *master;
+    struct anonymous_9 *PaOssStream_Configure__1__3__component = stream->playback;
+    struct anonymous_9 *master;
     if(!(stream->sharedDevice == 0))
-      tmp_if_expr$5 = stream->capture;
+      tmp_if_expr_5 = stream->capture;
 
     else
-      tmp_if_expr$5 = (struct anonymous$9 *)(void *)0;
-    master = tmp_if_expr$5;
+      tmp_if_expr_5 = (struct anonymous_9 *)(void *)0;
+    master = tmp_if_expr_5;
     do
     {
-      paUtilErr_$link1=PaOssStreamComponent_Configure(PaOssStream_Configure$$1$$3$$component, sampleRate, framesPerBuffer, (enum anonymous$15)StreamMode_Out, master);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaOssStreamComponent_Configure(PaOssStream_Configure__1__3__component, sampleRate, framesPerBuffer, (enum anonymous_15)StreamMode_Out, master);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaOssStreamComponent_Configure( component, sampleRate, framesPerBuffer, StreamMode_Out, master )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1145\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
     }
     while((_Bool)0);
     /* assertion component->hostChannelCount > 0 */
-    assert(PaOssStream_Configure$$1$$3$$component->hostChannelCount > 0);
+    assert(PaOssStream_Configure__1__3__component->hostChannelCount > 0);
     /* assertion component->hostFrames > 0 */
-    assert(PaOssStream_Configure$$1$$3$$component->hostFrames > (unsigned long int)0);
-    *outputLatency = (double)(PaOssStream_Configure$$1$$3$$component->hostFrames * (PaOssStream_Configure$$1$$3$$component->numBufs - (unsigned long int)1)) / sampleRate;
+    assert(PaOssStream_Configure__1__3__component->hostFrames > (unsigned long int)0);
+    *outputLatency = (double)(PaOssStream_Configure__1__3__component->hostFrames * (PaOssStream_Configure__1__3__component->numBufs - (unsigned long int)1)) / sampleRate;
   }
 
-  unsigned long int tmp_if_expr$6;
+  unsigned long int tmp_if_expr_6;
   if(!(duplex == 0))
   {
     if(!(stream->capture->hostFrames >= stream->playback->hostFrames))
-      tmp_if_expr$6 = stream->capture->hostFrames;
+      tmp_if_expr_6 = stream->capture->hostFrames;
 
     else
-      tmp_if_expr$6 = stream->playback->hostFrames;
-    framesPerHostBuffer = tmp_if_expr$6;
+      tmp_if_expr_6 = stream->playback->hostFrames;
+    framesPerHostBuffer = tmp_if_expr_6;
   }
 
   else
-    if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+    if(!(stream->capture == ((struct anonymous_9 *)NULL)))
       framesPerHostBuffer = stream->capture->hostFrames;
 
     else
-      if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+      if(!(stream->playback == ((struct anonymous_9 *)NULL)))
         framesPerHostBuffer = stream->playback->hostFrames;
 
   stream->framesPerHostBuffer = framesPerHostBuffer;
-  double return_value_ceil$7;
-  return_value_ceil$7=ceil((1e6 * (double)framesPerHostBuffer) / sampleRate);
-  stream->pollTimeout = (unsigned long int)(signed int)return_value_ceil$7;
+  double return_value_ceil_7;
+  return_value_ceil_7=ceil((1e6 * (double)framesPerHostBuffer) / sampleRate);
+  stream->pollTimeout = (unsigned long int)(signed int)return_value_ceil_7;
   stream->streamRepresentation.streamInfo.sampleRate = sampleRate;
   stream->sampleRate = stream->streamRepresentation.streamInfo.sampleRate;
 
@@ -15730,7 +15730,7 @@ error:
 
 // PaOssStream_Initialize
 // file src/hostapi/oss/pa_unix_oss.c line 852
-static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData, unsigned long int streamFlags, struct anonymous$14 *ossApi)
+static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData, unsigned long int streamFlags, struct anonymous_14 *ossApi)
 {
   signed int result = 0;
   signed int idev;
@@ -15744,11 +15744,11 @@ static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struc
   stream->isStopped = 1;
   do
   {
-    paUtilErr_$link1=PaUtil_InitializeThreading(&stream->threading);
-    if(!(paUtilErr_$link1 >= 0))
+    paUtilErr__link1=PaUtil_InitializeThreading(&stream->threading);
+    if(!(paUtilErr__link1 >= 0))
     {
       PaUtil_DebugPrint("Expression 'PaUtil_InitializeThreading( &stream->threading )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 866\n");
-      result = paUtilErr_$link1;
+      result = paUtilErr__link1;
       goto error;
     }
 
@@ -15769,11 +15769,11 @@ static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struc
 
   do
   {
-    paUtilErr_$link1=OpenDevices(idevName, odevName, &idev, &odev);
-    if(!(paUtilErr_$link1 >= 0))
+    paUtilErr__link1=OpenDevices(idevName, odevName, &idev, &odev);
+    if(!(paUtilErr__link1 >= 0))
     {
       PaUtil_DebugPrint("Expression 'OpenDevices( idevName, odevName, &idev, &odev )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 878\n");
-      result = paUtilErr_$link1;
+      result = paUtilErr__link1;
       goto error;
     }
 
@@ -15783,10 +15783,10 @@ static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struc
   {
     do
     {
-      void *return_value_PaUtil_AllocateMemory$1;
-      return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous$9) /*88ul*/ );
-      stream->capture = (struct anonymous$9 *)return_value_PaUtil_AllocateMemory$1;
-      if(stream->capture == ((struct anonymous$9 *)NULL))
+      void *return_value_PaUtil_AllocateMemory_1;
+      return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous_9) /*88ul*/ );
+      stream->capture = (struct anonymous_9 *)return_value_PaUtil_AllocateMemory_1;
+      if(stream->capture == ((struct anonymous_9 *)NULL))
       {
         PaUtil_DebugPrint("Expression 'stream->capture = PaUtil_AllocateMemory( sizeof (PaOssStreamComponent) )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 881\n");
         result = -9992;
@@ -15797,11 +15797,11 @@ static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struc
     while((_Bool)0);
     do
     {
-      paUtilErr_$link1=PaOssStreamComponent_Initialize(stream->capture, inputParameters, (signed int)(callback != (signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0), idev, idevName);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaOssStreamComponent_Initialize(stream->capture, inputParameters, (signed int)(callback != (signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0), idev, idevName);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaOssStreamComponent_Initialize( stream->capture, inputParameters, callback != NULL, idev, idevName )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 882\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
@@ -15813,10 +15813,10 @@ static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struc
   {
     do
     {
-      void *return_value_PaUtil_AllocateMemory$2;
-      return_value_PaUtil_AllocateMemory$2=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous$9) /*88ul*/ );
-      stream->playback = (struct anonymous$9 *)return_value_PaUtil_AllocateMemory$2;
-      if(stream->playback == ((struct anonymous$9 *)NULL))
+      void *return_value_PaUtil_AllocateMemory_2;
+      return_value_PaUtil_AllocateMemory_2=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous_9) /*88ul*/ );
+      stream->playback = (struct anonymous_9 *)return_value_PaUtil_AllocateMemory_2;
+      if(stream->playback == ((struct anonymous_9 *)NULL))
       {
         PaUtil_DebugPrint("Expression 'stream->playback = PaUtil_AllocateMemory( sizeof (PaOssStreamComponent) )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 886\n");
         result = -9992;
@@ -15827,11 +15827,11 @@ static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struc
     while((_Bool)0);
     do
     {
-      paUtilErr_$link1=PaOssStreamComponent_Initialize(stream->playback, outputParameters, (signed int)(callback != (signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0), odev, odevName);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaOssStreamComponent_Initialize(stream->playback, outputParameters, (signed int)(callback != (signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))(void *)0), odev, odevName);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaOssStreamComponent_Initialize( stream->playback, outputParameters, callback != NULL, odev, odevName )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 887\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         goto error;
       }
 
@@ -15847,7 +15847,7 @@ static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struc
 
   else
     PaUtil_InitializeStreamRepresentation(&stream->streamRepresentation, &ossApi->blockingStreamInterface, callback, userData);
-  unsigned long int return_value_pthread_self$5;
+  unsigned long int return_value_pthread_self_5;
   do
   {
     sysErr_=sem_init(&stream->semaphore, 0, (unsigned int)0);
@@ -15872,30 +15872,30 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
 {
   signed int result = 0;
   signed int enableBits = 0;
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$10;
-  unsigned long int return_value_pthread_self$13;
-  unsigned long int return_value_pthread_self$16;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_10;
+  unsigned long int return_value_pthread_self_13;
+  unsigned long int return_value_pthread_self_16;
   if(!(stream->triggered == 0))
     return result;
 
   else
   {
-    if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+    if(!(stream->playback == ((struct anonymous_9 *)NULL)))
       do
       {
         sysErr_=ioctl(stream->playback->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(16 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &enableBits);
         if(!(sysErr_ >= 0))
         {
-          return_value_pthread_self$3=pthread_self();
-          if(return_value_pthread_self$3 == mainThread_$link1)
+          return_value_pthread_self_3=pthread_self();
+          if(return_value_pthread_self_3 == mainThread__link1)
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            char *return_value_strerror$2;
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$2);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            char *return_value_strerror_2;
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_2);
           }
 
           PaUtil_DebugPrint("Expression 'ioctl( stream->playback->fd, SNDCTL_DSP_SETTRIGGER, &enableBits )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1471\n");
@@ -15906,20 +15906,20 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
       }
       while((_Bool)0);
 
-    if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+    if(!(stream->capture == ((struct anonymous_9 *)NULL)))
       do
       {
         sysErr_=ioctl(stream->capture->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(16 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &enableBits);
         if(!(sysErr_ >= 0))
         {
-          return_value_pthread_self$6=pthread_self();
-          if(return_value_pthread_self$6 == mainThread_$link1)
+          return_value_pthread_self_6=pthread_self();
+          if(return_value_pthread_self_6 == mainThread__link1)
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            char *return_value_strerror$5;
-            return_value_strerror$5=strerror(*return_value___errno_location$4);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$5);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            char *return_value_strerror_5;
+            return_value_strerror_5=strerror(*return_value___errno_location_4);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_5);
           }
 
           PaUtil_DebugPrint("Expression 'ioctl( stream->capture->fd, SNDCTL_DSP_SETTRIGGER, &enableBits )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1473\n");
@@ -15930,18 +15930,18 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
       }
       while((_Bool)0);
 
-    if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+    if(!(stream->playback == ((struct anonymous_9 *)NULL)))
     {
       unsigned long int bufSz;
       bufSz=PaOssStreamComponent_BufferSize(stream->playback);
       memset(stream->playback->buffer, 0, bufSz);
       do
       {
-        paUtilErr_$link1=ModifyBlocking(stream->playback->fd, 0);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=ModifyBlocking(stream->playback->fd, 0);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'ModifyBlocking( stream->playback->fd, 0 )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1482\n");
-          result = paUtilErr_$link1;
+          result = paUtilErr__link1;
           goto error;
         }
 
@@ -15949,19 +15949,19 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
       while((_Bool)0);
       while((_Bool)1)
       {
-        signed long int return_value_write$7;
-        return_value_write$7=write(stream->playback->fd, stream->playback->buffer, bufSz);
-        if(!(return_value_write$7 >= 0l))
+        signed long int return_value_write_7;
+        return_value_write_7=write(stream->playback->fd, stream->playback->buffer, bufSz);
+        if(!(return_value_write_7 >= 0l))
           break;
 
       }
       do
       {
-        paUtilErr_$link1=ModifyBlocking(stream->playback->fd, 1);
-        if(!(paUtilErr_$link1 >= 0))
+        paUtilErr__link1=ModifyBlocking(stream->playback->fd, 1);
+        if(!(paUtilErr__link1 >= 0))
         {
           PaUtil_DebugPrint("Expression 'ModifyBlocking( stream->playback->fd, 1 )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1488\n");
-          result = paUtilErr_$link1;
+          result = paUtilErr__link1;
           goto error;
         }
 
@@ -15977,14 +15977,14 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
         sysErr_=ioctl(stream->capture->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(16 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &enableBits);
         if(!(sysErr_ >= 0))
         {
-          return_value_pthread_self$10=pthread_self();
-          if(return_value_pthread_self$10 == mainThread_$link1)
+          return_value_pthread_self_10=pthread_self();
+          if(return_value_pthread_self_10 == mainThread__link1)
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            char *return_value_strerror$9;
-            return_value_strerror$9=strerror(*return_value___errno_location$8);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$9);
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            char *return_value_strerror_9;
+            return_value_strerror_9=strerror(*return_value___errno_location_8);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_9);
           }
 
           PaUtil_DebugPrint("Expression 'ioctl( stream->capture->fd, SNDCTL_DSP_SETTRIGGER, &enableBits )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1494\n");
@@ -15998,7 +15998,7 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
 
     else
     {
-      if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+      if(!(stream->capture == ((struct anonymous_9 *)NULL)))
       {
         enableBits = 0x00000001;
         do
@@ -16006,14 +16006,14 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
           sysErr_=ioctl(stream->capture->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(16 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &enableBits);
           if(!(sysErr_ >= 0))
           {
-            return_value_pthread_self$13=pthread_self();
-            if(return_value_pthread_self$13 == mainThread_$link1)
+            return_value_pthread_self_13=pthread_self();
+            if(return_value_pthread_self_13 == mainThread__link1)
             {
-              signed int *return_value___errno_location$11;
-              return_value___errno_location$11=__errno_location();
-              char *return_value_strerror$12;
-              return_value_strerror$12=strerror(*return_value___errno_location$11);
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$12);
+              signed int *return_value___errno_location_11;
+              return_value___errno_location_11=__errno_location();
+              char *return_value_strerror_12;
+              return_value_strerror_12=strerror(*return_value___errno_location_11);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_12);
             }
 
             PaUtil_DebugPrint("Expression 'ioctl( stream->capture->fd, SNDCTL_DSP_SETTRIGGER, &enableBits )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1501\n");
@@ -16025,7 +16025,7 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
         while((_Bool)0);
       }
 
-      if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+      if(!(stream->playback == ((struct anonymous_9 *)NULL)))
       {
         enableBits = 0x00000002;
         do
@@ -16033,14 +16033,14 @@ static signed int PaOssStream_Prepare(struct PaOssStream *stream)
           sysErr_=ioctl(stream->playback->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(16 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &enableBits);
           if(!(sysErr_ >= 0))
           {
-            return_value_pthread_self$16=pthread_self();
-            if(return_value_pthread_self$16 == mainThread_$link1)
+            return_value_pthread_self_16=pthread_self();
+            if(return_value_pthread_self_16 == mainThread__link1)
             {
-              signed int *return_value___errno_location$14;
-              return_value___errno_location$14=__errno_location();
-              char *return_value_strerror$15;
-              return_value_strerror$15=strerror(*return_value___errno_location$14);
-              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$15);
+              signed int *return_value___errno_location_14;
+              return_value___errno_location_14=__errno_location();
+              char *return_value_strerror_15;
+              return_value_strerror_15=strerror(*return_value___errno_location_14);
+              PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_15);
             }
 
             PaUtil_DebugPrint("Expression 'ioctl( stream->playback->fd, SNDCTL_DSP_SETTRIGGER, &enableBits )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1506\n");
@@ -16068,10 +16068,10 @@ static signed int PaOssStream_Stop(struct PaOssStream *stream, signed int abort)
   signed int result = 0;
   signed int captureErr = 0;
   signed int playbackErr = 0;
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
     captureErr=ioctl(stream->capture->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(8 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 0);
 
-  if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+  if(!(stream->playback == ((struct anonymous_9 *)NULL)))
   {
     if(stream->sharedDevice == 0)
       playbackErr=ioctl(stream->playback->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(8 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 0);
@@ -16092,10 +16092,10 @@ static void PaOssStream_Terminate(struct PaOssStream *stream)
   assert(stream != ((struct PaOssStream *)NULL));
   PaUtil_TerminateStreamRepresentation(&stream->streamRepresentation);
   PaUtil_TerminateThreading(&stream->threading);
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
     PaOssStreamComponent_Terminate(stream->capture);
 
-  if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+  if(!(stream->playback == ((struct anonymous_9 *)NULL)))
     PaOssStreamComponent_Terminate(stream->playback);
 
   sem_destroy(&stream->semaphore);
@@ -16113,8 +16113,8 @@ static signed int PaOssStream_WaitForFrames(struct PaOssStream *stream, unsigned
   signed int playbackAvail = 0x7fffffff;
   signed int commonAvail;
   struct audio_buf_info bufInfo;
-  struct anonymous$16 readFds;
-  struct anonymous$16 writeFds;
+  struct anonymous_16 readFds;
+  struct anonymous_16 writeFds;
   signed int nfds = 0;
   struct timeval selectTimeval = { .tv_sec=(signed long int)0, .tv_usec=(signed long int)0 };
   unsigned long int timeout = stream->pollTimeout;
@@ -16124,13 +16124,13 @@ static signed int PaOssStream_WaitForFrames(struct PaOssStream *stream, unsigned
   assert(stream != ((struct PaOssStream *)NULL));
   /* assertion frames */
   assert(frames != ((unsigned long int *)NULL));
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
   {
     pollCapture = 1;
     captureFd = stream->capture->fd;
   }
 
-  if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+  if(!(stream->playback == ((struct anonymous_9 *)NULL)))
   {
     pollPlayback = 1;
     playbackFd = stream->playback->fd;
@@ -16138,19 +16138,19 @@ static signed int PaOssStream_WaitForFrames(struct PaOssStream *stream, unsigned
 
   do
   {
-    signed int PaOssStream_WaitForFrames$$1$$3$$__d0;
-    signed int PaOssStream_WaitForFrames$$1$$3$$__d1;
-    asm("cld; rep; stosq" : "=c"(PaOssStream_WaitForFrames$$1$$3$$__d0), "=D"(PaOssStream_WaitForFrames$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$16) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFds)->__fds_bits[(signed long int)0]) : "memory");
+    signed int PaOssStream_WaitForFrames__1__3____d0;
+    signed int PaOssStream_WaitForFrames__1__3____d1;
+    asm("cld; rep; stosq" : "=c"(PaOssStream_WaitForFrames__1__3____d0), "=D"(PaOssStream_WaitForFrames__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_16) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readFds)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$16) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFds)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_16) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writeFds)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   while(!(pollCapture == 0) || !(pollPlayback == 0))
   {
     pthread_testcancel();
@@ -16170,17 +16170,17 @@ static signed int PaOssStream_WaitForFrames(struct PaOssStream *stream, unsigned
 
     do
     {
-      sysErr_=select(nfds, &readFds, &writeFds, (struct anonymous$16 *)(void *)0, &selectTimeval);
+      sysErr_=select(nfds, &readFds, &writeFds, (struct anonymous_16 *)(void *)0, &selectTimeval);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$3=pthread_self();
-        if(return_value_pthread_self$3 == mainThread_$link1)
+        return_value_pthread_self_3=pthread_self();
+        if(return_value_pthread_self_3 == mainThread__link1)
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_2);
         }
 
         PaUtil_DebugPrint("Expression 'select( nfds, &readFds, &writeFds, NULL, &selectTimeval )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1361\n");
@@ -16212,22 +16212,22 @@ static signed int PaOssStream_WaitForFrames(struct PaOssStream *stream, unsigned
     }
 
   }
-  unsigned long int return_value_pthread_self$6;
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+  unsigned long int return_value_pthread_self_6;
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
   {
     do
     {
       sysErr_=ioctl(captureFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(13 << 0)) | sizeof(struct audio_buf_info) /*16ul*/  << 0 + 8 + 8, &bufInfo);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$6=pthread_self();
-        if(return_value_pthread_self$6 == mainThread_$link1)
+        return_value_pthread_self_6=pthread_self();
+        if(return_value_pthread_self_6 == mainThread__link1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_5);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( captureFd, SNDCTL_DSP_GETISPACE, &bufInfo )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1425\n");
@@ -16241,22 +16241,22 @@ static signed int PaOssStream_WaitForFrames(struct PaOssStream *stream, unsigned
     captureAvail = captureAvail == 0 ? 0x7fffffff : captureAvail;
   }
 
-  unsigned long int return_value_pthread_self$9;
-  if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+  unsigned long int return_value_pthread_self_9;
+  if(!(stream->playback == ((struct anonymous_9 *)NULL)))
   {
     do
     {
       sysErr_=ioctl(playbackFd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(12 << 0)) | sizeof(struct audio_buf_info) /*16ul*/  << 0 + 8 + 8, &bufInfo);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$9=pthread_self();
-        if(return_value_pthread_self$9 == mainThread_$link1)
+        return_value_pthread_self_9=pthread_self();
+        if(return_value_pthread_self_9 == mainThread__link1)
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$8);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_8);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( playbackFd, SNDCTL_DSP_GETOSPACE, &bufInfo )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1434\n");
@@ -16293,18 +16293,18 @@ signed int PaSkeleton_Initialize(struct PaUtilHostApiRepresentation **hostApi, s
   signed int result = 0;
   signed int i;
   signed int deviceCount;
-  struct anonymous$22 *skeletonHostApi;
+  struct anonymous_22 *skeletonHostApi;
   struct PaDeviceInfo *deviceInfoArray;
-  void *return_value_PaUtil_AllocateMemory$1;
-  return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous$22) /*272ul*/ );
-  skeletonHostApi = (struct anonymous$22 *)return_value_PaUtil_AllocateMemory$1;
-  if(skeletonHostApi == ((struct anonymous$22 *)NULL))
+  void *return_value_PaUtil_AllocateMemory_1;
+  return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous_22) /*272ul*/ );
+  skeletonHostApi = (struct anonymous_22 *)return_value_PaUtil_AllocateMemory_1;
+  if(skeletonHostApi == ((struct anonymous_22 *)NULL))
     result = -9992;
 
   else
   {
     skeletonHostApi->allocations=PaUtil_CreateAllocationGroup();
-    if(skeletonHostApi->allocations == ((struct anonymous$13 *)NULL))
+    if(skeletonHostApi->allocations == ((struct anonymous_13 *)NULL))
       result = -9992;
 
     else
@@ -16319,18 +16319,18 @@ signed int PaSkeleton_Initialize(struct PaUtilHostApiRepresentation **hostApi, s
       deviceCount = 0;
       if(deviceCount >= 1)
       {
-        void *return_value_PaUtil_GroupAllocateMemory$2;
-        return_value_PaUtil_GroupAllocateMemory$2=PaUtil_GroupAllocateMemory(skeletonHostApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * (unsigned long int)deviceCount));
-        (*hostApi)->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory$2;
+        void *return_value_PaUtil_GroupAllocateMemory_2;
+        return_value_PaUtil_GroupAllocateMemory_2=PaUtil_GroupAllocateMemory(skeletonHostApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo *) /*8ul*/  * (unsigned long int)deviceCount));
+        (*hostApi)->deviceInfos = (struct PaDeviceInfo **)return_value_PaUtil_GroupAllocateMemory_2;
         if((*hostApi)->deviceInfos == ((struct PaDeviceInfo **)NULL))
         {
           result = -9992;
           goto error;
         }
 
-        void *return_value_PaUtil_GroupAllocateMemory$3;
-        return_value_PaUtil_GroupAllocateMemory$3=PaUtil_GroupAllocateMemory(skeletonHostApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo) /*72ul*/  * (unsigned long int)deviceCount));
-        deviceInfoArray = (struct PaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory$3;
+        void *return_value_PaUtil_GroupAllocateMemory_3;
+        return_value_PaUtil_GroupAllocateMemory_3=PaUtil_GroupAllocateMemory(skeletonHostApi->allocations, (signed long int)(sizeof(struct PaDeviceInfo) /*72ul*/  * (unsigned long int)deviceCount));
+        deviceInfoArray = (struct PaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory_3;
         if(deviceInfoArray == ((struct PaDeviceInfo *)NULL))
         {
           result = -9992;
@@ -16367,9 +16367,9 @@ signed int PaSkeleton_Initialize(struct PaUtilHostApiRepresentation **hostApi, s
 
 error:
   ;
-  if(!(skeletonHostApi == ((struct anonymous$22 *)NULL)))
+  if(!(skeletonHostApi == ((struct anonymous_22 *)NULL)))
   {
-    if(!(skeletonHostApi->allocations == ((struct anonymous$13 *)NULL)))
+    if(!(skeletonHostApi->allocations == ((struct anonymous_13 *)NULL)))
     {
       PaUtil_FreeAllAllocations(skeletonHostApi->allocations);
       PaUtil_DestroyAllocationGroup(skeletonHostApi->allocations);
@@ -16383,34 +16383,34 @@ error:
 
 // PaUnixMutex_Initialize
 // file ./src/os/unix/pa_unix_util.h line 142
-signed int PaUnixMutex_Initialize(struct anonymous$19 *self)
+signed int PaUnixMutex_Initialize(struct anonymous_19 *self)
 {
   signed int result = 0;
-  paUtilErr_$link2=pthread_mutex_init(&self->mtx, (const union anonymous *)(void *)0);
+  paUtilErr__link2=pthread_mutex_init(&self->mtx, (const union anonymous *)(void *)0);
   /* assertion 0 == paUtilErr_ */
-  assert(0 == paUtilErr_$link2);
+  assert(0 == paUtilErr__link2);
   return result;
 }
 
 // PaUnixMutex_Lock
 // file ./src/os/unix/pa_unix_util.h line 144
-signed int PaUnixMutex_Lock(struct anonymous$19 *self)
+signed int PaUnixMutex_Lock(struct anonymous_19 *self)
 {
   signed int result = 0;
   do
   {
-    paUtilErr_$link2=pthread_mutex_lock(&self->mtx);
-    if(!(paUtilErr_$link2 == 0))
+    paUtilErr__link2=pthread_mutex_lock(&self->mtx);
+    if(!(paUtilErr__link2 == 0))
     {
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      signed int return_value_pthread_equal$3;
-      return_value_pthread_equal$3=pthread_equal(return_value_pthread_self$2, paUnixMainThread);
-      if(!(return_value_pthread_equal$3 == 0))
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      signed int return_value_pthread_equal_3;
+      return_value_pthread_equal_3=pthread_equal(return_value_pthread_self_2, paUnixMainThread);
+      if(!(return_value_pthread_equal_3 == 0))
       {
-        char *return_value_strerror$1;
-        return_value_strerror$1=strerror(paUtilErr_$link2);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)paUtilErr_$link2, return_value_strerror$1);
+        char *return_value_strerror_1;
+        return_value_strerror_1=strerror(paUtilErr__link2);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)paUtilErr__link2, return_value_strerror_1);
       }
 
       PaUtil_DebugPrint("Expression 'pthread_mutex_lock( &self->mtx )' failed in 'src/os/unix/pa_unix_util.c', line: 527\n");
@@ -16428,34 +16428,34 @@ error:
 
 // PaUnixMutex_Terminate
 // file ./src/os/unix/pa_unix_util.h line 143
-signed int PaUnixMutex_Terminate(struct anonymous$19 *self)
+signed int PaUnixMutex_Terminate(struct anonymous_19 *self)
 {
   signed int result = 0;
-  paUtilErr_$link2=pthread_mutex_destroy(&self->mtx);
+  paUtilErr__link2=pthread_mutex_destroy(&self->mtx);
   /* assertion 0 == paUtilErr_ */
-  assert(0 == paUtilErr_$link2);
+  assert(0 == paUtilErr__link2);
   return result;
 }
 
 // PaUnixMutex_Unlock
 // file ./src/os/unix/pa_unix_util.h line 145
-signed int PaUnixMutex_Unlock(struct anonymous$19 *self)
+signed int PaUnixMutex_Unlock(struct anonymous_19 *self)
 {
   signed int result = 0;
   do
   {
-    paUtilErr_$link2=pthread_mutex_unlock(&self->mtx);
-    if(!(paUtilErr_$link2 == 0))
+    paUtilErr__link2=pthread_mutex_unlock(&self->mtx);
+    if(!(paUtilErr__link2 == 0))
     {
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      signed int return_value_pthread_equal$3;
-      return_value_pthread_equal$3=pthread_equal(return_value_pthread_self$2, paUnixMainThread);
-      if(!(return_value_pthread_equal$3 == 0))
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      signed int return_value_pthread_equal_3;
+      return_value_pthread_equal_3=pthread_equal(return_value_pthread_self_2, paUnixMainThread);
+      if(!(return_value_pthread_equal_3 == 0))
       {
-        char *return_value_strerror$1;
-        return_value_strerror$1=strerror(paUtilErr_$link2);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)paUtilErr_$link2, return_value_strerror$1);
+        char *return_value_strerror_1;
+        return_value_strerror_1=strerror(paUtilErr__link2);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)paUtilErr__link2, return_value_strerror_1);
       }
 
       PaUtil_DebugPrint("Expression 'pthread_mutex_unlock( &self->mtx )' failed in 'src/os/unix/pa_unix_util.c', line: 541\n");
@@ -16473,22 +16473,22 @@ error:
 
 // PaUnixThread_New
 // file ./src/os/unix/pa_unix_util.h line 193
-signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void *), void *threadArg, double waitForChild, signed int rtSched)
+signed int PaUnixThread_New(struct anonymous_18 *self, void * (*threadFunc)(void *), void *threadArg, double waitForChild, signed int rtSched)
 {
   signed int result = 0;
   union pthread_attr_t attr;
   signed int started = 0;
-  memset((void *)self, 0, sizeof(struct anonymous$18) /*120ul*/ );
+  memset((void *)self, 0, sizeof(struct anonymous_18) /*120ul*/ );
   PaUnixMutex_Initialize(&self->mtx);
-  paUtilErr_$link2=pthread_cond_init(&self->cond, (const union anonymous *)(void *)0);
+  paUtilErr__link2=pthread_cond_init(&self->cond, (const union anonymous *)(void *)0);
   /* assertion 0 == paUtilErr_ */
-  assert(0 == paUtilErr_$link2);
+  assert(0 == paUtilErr__link2);
   self->parentWaiting = (signed int)IEEE_FLOAT_NOTEQUAL((double)0, waitForChild);
   do
   {
-    signed int return_value_pthread_attr_init$1;
-    return_value_pthread_attr_init$1=pthread_attr_init(&attr);
-    if(!(return_value_pthread_attr_init$1 == 0))
+    signed int return_value_pthread_attr_init_1;
+    return_value_pthread_attr_init_1=pthread_attr_init(&attr);
+    if(!(return_value_pthread_attr_init_1 == 0))
     {
       PaUtil_DebugPrint("Expression '!pthread_attr_init( &attr )' failed in 'src/os/unix/pa_unix_util.c', line: 301\n");
       result = -9986;
@@ -16499,9 +16499,9 @@ signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void
   while((_Bool)0);
   do
   {
-    signed int return_value_pthread_attr_setscope$2;
-    return_value_pthread_attr_setscope$2=pthread_attr_setscope(&attr, 0);
-    if(!(return_value_pthread_attr_setscope$2 == 0))
+    signed int return_value_pthread_attr_setscope_2;
+    return_value_pthread_attr_setscope_2=pthread_attr_setscope(&attr, 0);
+    if(!(return_value_pthread_attr_setscope_2 == 0))
     {
       PaUtil_DebugPrint("Expression '!pthread_attr_setscope( &attr, PTHREAD_SCOPE_SYSTEM )' failed in 'src/os/unix/pa_unix_util.c', line: 303\n");
       result = -9986;
@@ -16512,9 +16512,9 @@ signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void
   while((_Bool)0);
   do
   {
-    signed int return_value_pthread_create$3;
-    return_value_pthread_create$3=pthread_create(&self->thread, &attr, threadFunc, threadArg);
-    if(!(return_value_pthread_create$3 == 0))
+    signed int return_value_pthread_create_3;
+    return_value_pthread_create_3=pthread_create(&self->thread, &attr, threadFunc, threadArg);
+    if(!(return_value_pthread_create_3 == 0))
     {
       PaUtil_DebugPrint("Expression '!pthread_create( &self->thread, &attr, threadFunc, threadArg )' failed in 'src/os/unix/pa_unix_util.c', line: 305\n");
       result = -9986;
@@ -16528,11 +16528,11 @@ signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void
   {
     do
     {
-      paUtilErr_$link2=BoostPriority(self);
-      if(!(paUtilErr_$link2 >= 0))
+      paUtilErr__link2=BoostPriority(self);
+      if(!(paUtilErr__link2 >= 0))
       {
         PaUtil_DebugPrint("Expression 'BoostPriority( self )' failed in 'src/os/unix/pa_unix_util.c', line: 345\n");
-        result = paUtilErr_$link2;
+        result = paUtilErr__link2;
         goto error;
       }
 
@@ -16551,11 +16551,11 @@ signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void
     double now;
     do
     {
-      paUtilErr_$link2=PaUnixMutex_Lock(&self->mtx);
-      if(!(paUtilErr_$link2 >= 0))
+      paUtilErr__link2=PaUnixMutex_Lock(&self->mtx);
+      if(!(paUtilErr__link2 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUnixMutex_Lock( &self->mtx )' failed in 'src/os/unix/pa_unix_util.c', line: 361\n");
-        result = paUtilErr_$link2;
+        result = paUtilErr__link2;
         goto error;
       }
 
@@ -16570,12 +16570,12 @@ signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void
 
       if(waitForChild > 0.000000)
       {
-        double return_value_floor$4;
-        return_value_floor$4=floor(till);
-        ts.tv_sec = (signed long int)return_value_floor$4;
-        double return_value_floor$5;
-        return_value_floor$5=floor(till);
-        ts.tv_nsec = (signed long int)((till - return_value_floor$5) * 1e9);
+        double return_value_floor_4;
+        return_value_floor_4=floor(till);
+        ts.tv_sec = (signed long int)return_value_floor_4;
+        double return_value_floor_5;
+        return_value_floor_5=floor(till);
+        ts.tv_nsec = (signed long int)((till - return_value_floor_5) * 1e9);
         res=pthread_cond_timedwait(&self->cond, &self->mtx.mtx, &ts);
       }
 
@@ -16584,11 +16584,11 @@ signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void
     }
     do
     {
-      paUtilErr_$link2=PaUnixMutex_Unlock(&self->mtx);
-      if(!(paUtilErr_$link2 >= 0))
+      paUtilErr__link2=PaUnixMutex_Unlock(&self->mtx);
+      if(!(paUtilErr__link2 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUnixMutex_Unlock( &self->mtx )' failed in 'src/os/unix/pa_unix_util.c', line: 381\n");
-        result = paUtilErr_$link2;
+        result = paUtilErr__link2;
         goto error;
       }
 
@@ -16606,11 +16606,11 @@ signed int PaUnixThread_New(struct anonymous$18 *self, void * (*threadFunc)(void
     if(res == 110)
       do
       {
-        paUtilErr_$link2 = -9987;
-        if(!(paUtilErr_$link2 >= 0))
+        paUtilErr__link2 = -9987;
+        if(!(paUtilErr__link2 >= 0))
         {
           PaUtil_DebugPrint("Expression 'paTimedOut' failed in 'src/os/unix/pa_unix_util.c', line: 387\n");
-          result = paUtilErr_$link2;
+          result = paUtilErr__link2;
           goto error;
         }
 
@@ -16634,7 +16634,7 @@ error:
 
 // PaUnixThread_NotifyParent
 // file ./src/os/unix/pa_unix_util.h line 215
-signed int PaUnixThread_NotifyParent(struct anonymous$18 *self)
+signed int PaUnixThread_NotifyParent(struct anonymous_18 *self)
 {
   signed int result = 0;
   do
@@ -16650,11 +16650,11 @@ signed int PaUnixThread_NotifyParent(struct anonymous$18 *self)
   {
     do
     {
-      paUtilErr_$link2=PaUnixMutex_Lock(&self->mtx);
-      if(!(paUtilErr_$link2 >= 0))
+      paUtilErr__link2=PaUnixMutex_Lock(&self->mtx);
+      if(!(paUtilErr__link2 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUnixMutex_Lock( &self->mtx )' failed in 'src/os/unix/pa_unix_util.c', line: 483\n");
-        result = paUtilErr_$link2;
+        result = paUtilErr__link2;
         goto error;
       }
 
@@ -16667,11 +16667,11 @@ signed int PaUnixThread_NotifyParent(struct anonymous$18 *self)
   pthread_cond_signal(&self->cond);
   do
   {
-    paUtilErr_$link2=PaUnixMutex_Unlock(&self->mtx);
-    if(!(paUtilErr_$link2 >= 0))
+    paUtilErr__link2=PaUnixMutex_Unlock(&self->mtx);
+    if(!(paUtilErr__link2 >= 0))
     {
       PaUtil_DebugPrint("Expression 'PaUnixMutex_Unlock( &self->mtx )' failed in 'src/os/unix/pa_unix_util.c', line: 488\n");
-      result = paUtilErr_$link2;
+      result = paUtilErr__link2;
       goto error;
     }
 
@@ -16686,7 +16686,7 @@ error:
 
 // PaUnixThread_PrepareNotify
 // file ./src/os/unix/pa_unix_util.h line 209
-signed int PaUnixThread_PrepareNotify(struct anonymous$18 *self)
+signed int PaUnixThread_PrepareNotify(struct anonymous_18 *self)
 {
   signed int result = 0;
   do
@@ -16700,11 +16700,11 @@ signed int PaUnixThread_PrepareNotify(struct anonymous$18 *self)
   while((_Bool)0);
   do
   {
-    paUtilErr_$link2=PaUnixMutex_Lock(&self->mtx);
-    if(!(paUtilErr_$link2 >= 0))
+    paUtilErr__link2=PaUnixMutex_Lock(&self->mtx);
+    if(!(paUtilErr__link2 >= 0))
     {
       PaUtil_DebugPrint("Expression 'PaUnixMutex_Lock( &self->mtx )' failed in 'src/os/unix/pa_unix_util.c', line: 469\n");
-      result = paUtilErr_$link2;
+      result = paUtilErr__link2;
       goto error;
     }
 
@@ -16719,14 +16719,14 @@ error:
 
 // PaUnixThread_StopRequested
 // file ./src/os/unix/pa_unix_util.h line 219
-signed int PaUnixThread_StopRequested(struct anonymous$18 *self)
+signed int PaUnixThread_StopRequested(struct anonymous_18 *self)
 {
   return self->stopRequested;
 }
 
 // PaUnixThread_Terminate
 // file ./src/os/unix/pa_unix_util.h line 201
-signed int PaUnixThread_Terminate(struct anonymous$18 *self, signed int wait, signed int *exitResult)
+signed int PaUnixThread_Terminate(struct anonymous_18 *self, signed int wait, signed int *exitResult)
 {
   signed int result = 0;
   void *pret;
@@ -16739,18 +16739,18 @@ signed int PaUnixThread_Terminate(struct anonymous$18 *self, signed int wait, si
 
   do
   {
-    paUtilErr_$link2=pthread_join(self->thread, &pret);
-    if(!(paUtilErr_$link2 == 0))
+    paUtilErr__link2=pthread_join(self->thread, &pret);
+    if(!(paUtilErr__link2 == 0))
     {
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      signed int return_value_pthread_equal$3;
-      return_value_pthread_equal$3=pthread_equal(return_value_pthread_self$2, paUnixMainThread);
-      if(!(return_value_pthread_equal$3 == 0))
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      signed int return_value_pthread_equal_3;
+      return_value_pthread_equal_3=pthread_equal(return_value_pthread_self_2, paUnixMainThread);
+      if(!(return_value_pthread_equal_3 == 0))
       {
-        char *return_value_strerror$1;
-        return_value_strerror$1=strerror(paUtilErr_$link2);
-        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)paUtilErr_$link2, return_value_strerror$1);
+        char *return_value_strerror_1;
+        return_value_strerror_1=strerror(paUtilErr__link2);
+        PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)paUtilErr__link2, return_value_strerror_1);
       }
 
       PaUtil_DebugPrint("Expression 'pthread_join( self->thread, &pret )' failed in 'src/os/unix/pa_unix_util.c', line: 441\n");
@@ -16771,12 +16771,12 @@ signed int PaUnixThread_Terminate(struct anonymous$18 *self, signed int wait, si
 
 error:
   ;
-  paUtilErr_$link2=PaUnixMutex_Terminate(&self->mtx);
+  paUtilErr__link2=PaUnixMutex_Terminate(&self->mtx);
   /* assertion paNoError == paUtilErr_ */
-  assert(0 == paUtilErr_$link2);
-  paUtilErr_$link2=pthread_cond_destroy(&self->cond);
+  assert(0 == paUtilErr__link2);
+  paUtilErr__link2=pthread_cond_destroy(&self->cond);
   /* assertion 0 == paUtilErr_ */
-  assert(0 == paUtilErr_$link2);
+  assert(0 == paUtilErr__link2);
   return result;
 }
 
@@ -16817,7 +16817,7 @@ void * PaUtil_AllocateMemory(signed long int size)
 
 // PaUtil_BeginBufferProcessing
 // file src/common/pa_process.c line 669
-void PaUtil_BeginBufferProcessing(struct anonymous$7 *bp, struct PaStreamCallbackTimeInfo *timeInfo, unsigned long int callbackStatusFlags)
+void PaUtil_BeginBufferProcessing(struct anonymous_7 *bp, struct PaStreamCallbackTimeInfo *timeInfo, unsigned long int callbackStatusFlags)
 {
   bp->timeInfo = timeInfo;
   bp->timeInfo->inputBufferAdcTime = bp->timeInfo->inputBufferAdcTime - (double)bp->framesInTempInputBuffer * bp->samplePeriod;
@@ -16829,14 +16829,14 @@ void PaUtil_BeginBufferProcessing(struct anonymous$7 *bp, struct PaStreamCallbac
 
 // PaUtil_BeginCpuLoadMeasurement
 // file src/common/pa_cpuload.c line 73
-void PaUtil_BeginCpuLoadMeasurement(struct anonymous$6 *measurer)
+void PaUtil_BeginCpuLoadMeasurement(struct anonymous_6 *measurer)
 {
   measurer->measurementStartTime=PaUtil_GetTime();
 }
 
 // PaUtil_CancelThreading
 // file ./src/os/unix/pa_unix_util.h line 119
-signed int PaUtil_CancelThreading(struct anonymous$8 *threading, signed int wait, signed int *exitResult)
+signed int PaUtil_CancelThreading(struct anonymous_8 *threading, signed int wait, signed int *exitResult)
 {
   signed int result = 0;
   void *pret;
@@ -16860,7 +16860,7 @@ signed int PaUtil_CancelThreading(struct anonymous$8 *threading, signed int wait
 
 // PaUtil_CopyInput
 // file src/common/pa_process.c line 1660
-unsigned long int PaUtil_CopyInput(struct anonymous$7 *bp, void **buffer, unsigned long int frameCount)
+unsigned long int PaUtil_CopyInput(struct anonymous_7 *bp, void **buffer, unsigned long int frameCount)
 {
   struct PaUtilChannelDescriptor *hostInputChannels;
   unsigned int framesToCopy;
@@ -16870,13 +16870,13 @@ unsigned long int PaUtil_CopyInput(struct anonymous$7 *bp, void **buffer, unsign
   unsigned int destChannelStrideBytes;
   unsigned int i;
   hostInputChannels = bp->hostInputChannels[(signed long int)0];
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(bp->hostInputFrameCount[0l] >= frameCount))
-    tmp_if_expr$1 = bp->hostInputFrameCount[(signed long int)0];
+    tmp_if_expr_1 = bp->hostInputFrameCount[(signed long int)0];
 
   else
-    tmp_if_expr$1 = frameCount;
-  framesToCopy = (unsigned int)tmp_if_expr$1;
+    tmp_if_expr_1 = frameCount;
+  framesToCopy = (unsigned int)tmp_if_expr_1;
   if(!(bp->userInputIsInterleaved == 0))
   {
     destBytePtr = (unsigned char *)*buffer;
@@ -16916,7 +16916,7 @@ unsigned long int PaUtil_CopyInput(struct anonymous$7 *bp, void **buffer, unsign
 
 // PaUtil_CopyOutput
 // file src/common/pa_process.c line 1731
-unsigned long int PaUtil_CopyOutput(struct anonymous$7 *bp, const void **buffer, unsigned long int frameCount)
+unsigned long int PaUtil_CopyOutput(struct anonymous_7 *bp, const void **buffer, unsigned long int frameCount)
 {
   struct PaUtilChannelDescriptor *hostOutputChannels;
   unsigned int framesToCopy;
@@ -16926,13 +16926,13 @@ unsigned long int PaUtil_CopyOutput(struct anonymous$7 *bp, const void **buffer,
   unsigned int srcChannelStrideBytes;
   unsigned int i;
   hostOutputChannels = bp->hostOutputChannels[(signed long int)0];
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(bp->hostOutputFrameCount[0l] >= frameCount))
-    tmp_if_expr$1 = bp->hostOutputFrameCount[(signed long int)0];
+    tmp_if_expr_1 = bp->hostOutputFrameCount[(signed long int)0];
 
   else
-    tmp_if_expr$1 = frameCount;
-  framesToCopy = (unsigned int)tmp_if_expr$1;
+    tmp_if_expr_1 = frameCount;
+  framesToCopy = (unsigned int)tmp_if_expr_1;
   if(!(bp->userOutputIsInterleaved == 0))
   {
     srcBytePtr = (unsigned char *)*buffer;
@@ -16979,17 +16979,17 @@ signed int PaUtil_CountCurrentlyAllocatedBlocks(void)
 
 // PaUtil_CreateAllocationGroup
 // file src/common/pa_allocation.c line 103
-struct anonymous$13 * PaUtil_CreateAllocationGroup(void)
+struct anonymous_13 * PaUtil_CreateAllocationGroup(void)
 {
-  struct anonymous$13 *result = ((struct anonymous$13 *)NULL);
+  struct anonymous_13 *result = ((struct anonymous_13 *)NULL);
   struct PaUtilAllocationGroupLink *links;
   links=AllocateLinks((signed long int)16, ((struct PaUtilAllocationGroupLink *)NULL), ((struct PaUtilAllocationGroupLink *)NULL));
   if(!(links == ((struct PaUtilAllocationGroupLink *)NULL)))
   {
-    void *return_value_PaUtil_AllocateMemory$1;
-    return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous$13) /*32ul*/ );
-    result = (struct anonymous$13 *)return_value_PaUtil_AllocateMemory$1;
-    if(!(result == ((struct anonymous$13 *)NULL)))
+    void *return_value_PaUtil_AllocateMemory_1;
+    return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)sizeof(struct anonymous_13) /*32ul*/ );
+    result = (struct anonymous_13 *)return_value_PaUtil_AllocateMemory_1;
+    if(!(result == ((struct anonymous_13 *)NULL)))
     {
       result->linkCount = (signed long int)16;
       result->linkBlocks = &links[(signed long int)0];
@@ -17020,16 +17020,16 @@ void PaUtil_DebugPrint(const char *format, ...)
 
   else
   {
-    void **PaUtil_DebugPrint$$1$$2$$ap = (void **)&format;
-    vfprintf(stderr, format, PaUtil_DebugPrint$$1$$2$$ap);
-    PaUtil_DebugPrint$$1$$2$$ap = ((void **)NULL);
+    void **PaUtil_DebugPrint__1__2__ap = (void **)&format;
+    vfprintf(stderr, format, PaUtil_DebugPrint__1__2__ap);
+    PaUtil_DebugPrint__1__2__ap = ((void **)NULL);
     fflush(stderr);
   }
 }
 
 // PaUtil_DestroyAllocationGroup
 // file src/common/pa_allocation.c line 130
-void PaUtil_DestroyAllocationGroup(struct anonymous$13 *group)
+void PaUtil_DestroyAllocationGroup(struct anonymous_13 *group)
 {
   struct PaUtilAllocationGroupLink *current = group->linkBlocks;
   struct PaUtilAllocationGroupLink *next;
@@ -17047,13 +17047,13 @@ signed int PaUtil_DeviceIndexToHostApiDeviceIndex(signed int *hostApiDevice, sig
 {
   signed int result;
   signed int x = (signed int)((unsigned long int)device - hostApi->privatePaFrontInfo.baseDeviceIndex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(x >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = x >= hostApi->info.deviceCount ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = x >= hostApi->info.deviceCount ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     result = -9996;
 
   else
@@ -17110,7 +17110,7 @@ signed int PaUtil_DummyWrite(void *stream, const void *buffer, unsigned long int
 
 // PaUtil_EndBufferProcessing
 // file src/common/pa_process.c line 1482
-unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int *streamCallbackResult)
+unsigned long int PaUtil_EndBufferProcessing(struct anonymous_7 *bp, signed int *streamCallbackResult)
 {
   unsigned long int framesToProcess;
   unsigned long int framesToGo;
@@ -17131,33 +17131,33 @@ unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int 
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*streamCallbackResult == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *streamCallbackResult == 1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = *streamCallbackResult == 1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = *streamCallbackResult == 2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = *streamCallbackResult == 2 ? (_Bool)1 : (_Bool)0;
   /* assertion *streamCallbackResult == paContinue || *streamCallbackResult == paComplete || *streamCallbackResult == paAbort */
-  assert(tmp_if_expr$2);
-  _Bool tmp_if_expr$7;
-  unsigned long int tmp_if_expr$3;
-  unsigned long int tmp_if_expr$4;
-  unsigned long int tmp_if_expr$5;
-  _Bool tmp_if_expr$10;
+  assert(tmp_if_expr_2);
+  _Bool tmp_if_expr_7;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int tmp_if_expr_4;
+  unsigned long int tmp_if_expr_5;
+  _Bool tmp_if_expr_10;
   if(!(bp->useNonAdaptingProcess == 0))
   {
     if(!(bp->inputChannelCount == 0u))
-      tmp_if_expr$7 = bp->outputChannelCount != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = bp->outputChannelCount != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
     {
       framesToGo = bp->hostOutputFrameCount[(signed long int)0] + bp->hostOutputFrameCount[(signed long int)1];
       do
@@ -17207,11 +17207,11 @@ unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int 
           hostOutputChannels = bp->hostOutputChannels[(signed long int)1];
         }
         if(!(*hostInputFrameCount >= *hostOutputFrameCount))
-          tmp_if_expr$3 = *hostInputFrameCount;
+          tmp_if_expr_3 = *hostInputFrameCount;
 
         else
-          tmp_if_expr$3 = *hostOutputFrameCount;
-        framesToProcess = tmp_if_expr$3;
+          tmp_if_expr_3 = *hostOutputFrameCount;
+        framesToProcess = tmp_if_expr_3;
         /* assertion framesToProcess != 0 */
         assert(framesToProcess != (unsigned long int)0);
         framesProcessedThisIteration=NonAdaptingProcess(bp, streamCallbackResult, hostInputChannels, hostOutputChannels, framesToProcess);
@@ -17226,23 +17226,23 @@ unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int 
     else
     {
       if(!(bp->inputChannelCount == 0u))
-        tmp_if_expr$4 = bp->hostInputFrameCount[(signed long int)0];
+        tmp_if_expr_4 = bp->hostInputFrameCount[(signed long int)0];
 
       else
-        tmp_if_expr$4 = bp->hostOutputFrameCount[(signed long int)0];
-      framesToProcess = tmp_if_expr$4;
+        tmp_if_expr_4 = bp->hostOutputFrameCount[(signed long int)0];
+      framesToProcess = tmp_if_expr_4;
       framesProcessed=NonAdaptingProcess(bp, streamCallbackResult, bp->hostInputChannels[(signed long int)0], bp->hostOutputChannels[(signed long int)0], framesToProcess);
       if(!(bp->inputChannelCount == 0u))
-        tmp_if_expr$5 = bp->hostInputFrameCount[(signed long int)1];
+        tmp_if_expr_5 = bp->hostInputFrameCount[(signed long int)1];
 
       else
-        tmp_if_expr$5 = bp->hostOutputFrameCount[(signed long int)1];
-      framesToProcess = tmp_if_expr$5;
+        tmp_if_expr_5 = bp->hostOutputFrameCount[(signed long int)1];
+      framesToProcess = tmp_if_expr_5;
       if(framesToProcess >= 1ul)
       {
-        unsigned long int return_value_NonAdaptingProcess$6;
-        return_value_NonAdaptingProcess$6=NonAdaptingProcess(bp, streamCallbackResult, bp->hostInputChannels[(signed long int)1], bp->hostOutputChannels[(signed long int)1], framesToProcess);
-        framesProcessed = framesProcessed + return_value_NonAdaptingProcess$6;
+        unsigned long int return_value_NonAdaptingProcess_6;
+        return_value_NonAdaptingProcess_6=NonAdaptingProcess(bp, streamCallbackResult, bp->hostInputChannels[(signed long int)1], bp->hostOutputChannels[(signed long int)1], framesToProcess);
+        framesProcessed = framesProcessed + return_value_NonAdaptingProcess_6;
       }
 
     }
@@ -17251,11 +17251,11 @@ unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int 
   else
   {
     if(!(bp->inputChannelCount == 0u))
-      tmp_if_expr$10 = bp->outputChannelCount != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = bp->outputChannelCount != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
       if((signed int)bp->hostBufferSizeMode == paUtilVariableHostBufferSizePartialUsageAllowed)
         framesProcessed=AdaptingProcess(bp, streamCallbackResult, 0);
@@ -17272,9 +17272,9 @@ unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int 
         framesToProcess = bp->hostInputFrameCount[(signed long int)1];
         if(framesToProcess >= 1ul)
         {
-          unsigned long int return_value_AdaptingInputOnlyProcess$8;
-          return_value_AdaptingInputOnlyProcess$8=AdaptingInputOnlyProcess(bp, streamCallbackResult, bp->hostInputChannels[(signed long int)1], framesToProcess);
-          framesProcessed = framesProcessed + return_value_AdaptingInputOnlyProcess$8;
+          unsigned long int return_value_AdaptingInputOnlyProcess_8;
+          return_value_AdaptingInputOnlyProcess_8=AdaptingInputOnlyProcess(bp, streamCallbackResult, bp->hostInputChannels[(signed long int)1], framesToProcess);
+          framesProcessed = framesProcessed + return_value_AdaptingInputOnlyProcess_8;
         }
 
       }
@@ -17286,9 +17286,9 @@ unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int 
         framesToProcess = bp->hostOutputFrameCount[(signed long int)1];
         if(framesToProcess >= 1ul)
         {
-          unsigned long int return_value_AdaptingOutputOnlyProcess$9;
-          return_value_AdaptingOutputOnlyProcess$9=AdaptingOutputOnlyProcess(bp, streamCallbackResult, bp->hostOutputChannels[(signed long int)1], framesToProcess);
-          framesProcessed = framesProcessed + return_value_AdaptingOutputOnlyProcess$9;
+          unsigned long int return_value_AdaptingOutputOnlyProcess_9;
+          return_value_AdaptingOutputOnlyProcess_9=AdaptingOutputOnlyProcess(bp, streamCallbackResult, bp->hostOutputChannels[(signed long int)1], framesToProcess);
+          framesProcessed = framesProcessed + return_value_AdaptingOutputOnlyProcess_9;
         }
 
       }
@@ -17298,7 +17298,7 @@ unsigned long int PaUtil_EndBufferProcessing(struct anonymous$7 *bp, signed int 
 
 // PaUtil_EndCpuLoadMeasurement
 // file src/common/pa_cpuload.c line 79
-void PaUtil_EndCpuLoadMeasurement(struct anonymous$6 *measurer, unsigned long int framesProcessed)
+void PaUtil_EndCpuLoadMeasurement(struct anonymous_6 *measurer, unsigned long int framesProcessed)
 {
   double measurementEndTime;
   double secondsFor100Percent;
@@ -17325,7 +17325,7 @@ void PaUtil_FlushRingBuffer(struct PaUtilRingBuffer *rbuf)
 
 // PaUtil_FreeAllAllocations
 // file src/common/pa_allocation.c line 220
-void PaUtil_FreeAllAllocations(struct anonymous$13 *group)
+void PaUtil_FreeAllAllocations(struct anonymous_13 *group)
 {
   struct PaUtilAllocationGroupLink *current = group->allocations;
   struct PaUtilAllocationGroupLink *previous = ((struct PaUtilAllocationGroupLink *)NULL);
@@ -17383,21 +17383,21 @@ float PaUtil_GenerateFloatTriangularDither(struct PaUtilTriangularDitherGenerato
 
 // PaUtil_GetBufferProcessorInputLatencyFrames
 // file src/common/pa_process.c line 431
-unsigned long int PaUtil_GetBufferProcessorInputLatencyFrames(struct anonymous$7 *bp)
+unsigned long int PaUtil_GetBufferProcessorInputLatencyFrames(struct anonymous_7 *bp)
 {
   return bp->initialFramesInTempInputBuffer;
 }
 
 // PaUtil_GetBufferProcessorOutputLatencyFrames
 // file src/common/pa_process.c line 437
-unsigned long int PaUtil_GetBufferProcessorOutputLatencyFrames(struct anonymous$7 *bp)
+unsigned long int PaUtil_GetBufferProcessorOutputLatencyFrames(struct anonymous_7 *bp)
 {
   return bp->initialFramesInTempOutputBuffer;
 }
 
 // PaUtil_GetCpuLoad
 // file src/common/pa_cpuload.c line 102
-double PaUtil_GetCpuLoad(struct anonymous$6 *measurer)
+double PaUtil_GetCpuLoad(struct anonymous_6 *measurer)
 {
   return measurer->averageLoad;
 }
@@ -17471,9 +17471,9 @@ signed long int PaUtil_GetRingBufferReadRegions(struct PaUtilRingBuffer *rbuf, s
 // file ./src/common/pa_ringbuffer.h line 131
 signed long int PaUtil_GetRingBufferWriteAvailable(const struct PaUtilRingBuffer *rbuf)
 {
-  signed long int return_value_PaUtil_GetRingBufferReadAvailable$1;
-  return_value_PaUtil_GetRingBufferReadAvailable$1=PaUtil_GetRingBufferReadAvailable(rbuf);
-  return rbuf->bufferSize - return_value_PaUtil_GetRingBufferReadAvailable$1;
+  signed long int return_value_PaUtil_GetRingBufferReadAvailable_1;
+  return_value_PaUtil_GetRingBufferReadAvailable_1=PaUtil_GetRingBufferReadAvailable(rbuf);
+  return rbuf->bufferSize - return_value_PaUtil_GetRingBufferReadAvailable_1;
 }
 
 // PaUtil_GetRingBufferWriteRegions
@@ -17520,7 +17520,7 @@ double PaUtil_GetTime(void)
 
 // PaUtil_GroupAllocateMemory
 // file src/common/pa_allocation.c line 146
-void * PaUtil_GroupAllocateMemory(struct anonymous$13 *group, signed long int size)
+void * PaUtil_GroupAllocateMemory(struct anonymous_13 *group, signed long int size)
 {
   struct PaUtilAllocationGroupLink *links;
   struct PaUtilAllocationGroupLink *link;
@@ -17556,7 +17556,7 @@ void * PaUtil_GroupAllocateMemory(struct anonymous$13 *group, signed long int si
 
 // PaUtil_GroupFreeMemory
 // file src/common/pa_allocation.c line 183
-void PaUtil_GroupFreeMemory(struct anonymous$13 *group, void *buffer)
+void PaUtil_GroupFreeMemory(struct anonymous_13 *group, void *buffer)
 {
   struct PaUtilAllocationGroupLink *current = group->allocations;
   struct PaUtilAllocationGroupLink *previous = ((struct PaUtilAllocationGroupLink *)NULL);
@@ -17586,7 +17586,7 @@ void PaUtil_GroupFreeMemory(struct anonymous$13 *group, void *buffer)
 
 // PaUtil_InitializeBufferProcessor
 // file src/common/pa_process.c line 90
-signed int PaUtil_InitializeBufferProcessor(struct anonymous$7 *bp, signed int inputChannelCount, unsigned long int userInputSampleFormat, unsigned long int hostInputSampleFormat, signed int outputChannelCount, unsigned long int userOutputSampleFormat, unsigned long int hostOutputSampleFormat, double sampleRate, unsigned long int streamFlags, unsigned long int framesPerUserBuffer, unsigned long int framesPerHostBuffer, enum anonymous$21 hostBufferSizeMode, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData)
+signed int PaUtil_InitializeBufferProcessor(struct anonymous_7 *bp, signed int inputChannelCount, unsigned long int userInputSampleFormat, unsigned long int hostInputSampleFormat, signed int outputChannelCount, unsigned long int userOutputSampleFormat, unsigned long int hostOutputSampleFormat, double sampleRate, unsigned long int streamFlags, unsigned long int framesPerUserBuffer, unsigned long int framesPerHostBuffer, enum anonymous_21 hostBufferSizeMode, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData)
 {
   signed int result = 0;
   signed int bytesPerSample;
@@ -17721,9 +17721,9 @@ signed int PaUtil_InitializeBufferProcessor(struct anonymous$7 *bp, signed int i
 
       if(!((2147483648ul & userInputSampleFormat) == 0ul))
       {
-        void *return_value_PaUtil_AllocateMemory$1;
-        return_value_PaUtil_AllocateMemory$1=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)inputChannelCount));
-        bp->tempInputBufferPtrs = (void **)return_value_PaUtil_AllocateMemory$1;
+        void *return_value_PaUtil_AllocateMemory_1;
+        return_value_PaUtil_AllocateMemory_1=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)inputChannelCount));
+        bp->tempInputBufferPtrs = (void **)return_value_PaUtil_AllocateMemory_1;
         if(bp->tempInputBufferPtrs == ((void **)NULL))
         {
           result = -9992;
@@ -17732,9 +17732,9 @@ signed int PaUtil_InitializeBufferProcessor(struct anonymous$7 *bp, signed int i
 
       }
 
-      void *return_value_PaUtil_AllocateMemory$2;
-      return_value_PaUtil_AllocateMemory$2=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilChannelDescriptor) /*16ul*/  * (unsigned long int)inputChannelCount * (unsigned long int)2));
-      bp->hostInputChannels[(signed long int)0] = (struct PaUtilChannelDescriptor *)return_value_PaUtil_AllocateMemory$2;
+      void *return_value_PaUtil_AllocateMemory_2;
+      return_value_PaUtil_AllocateMemory_2=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilChannelDescriptor) /*16ul*/  * (unsigned long int)inputChannelCount * (unsigned long int)2));
+      bp->hostInputChannels[(signed long int)0] = (struct PaUtilChannelDescriptor *)return_value_PaUtil_AllocateMemory_2;
       if(bp->hostInputChannels[0l] == ((struct PaUtilChannelDescriptor *)NULL))
       {
         result = -9992;
@@ -17782,9 +17782,9 @@ signed int PaUtil_InitializeBufferProcessor(struct anonymous$7 *bp, signed int i
 
       if(!((2147483648ul & userOutputSampleFormat) == 0ul))
       {
-        void *return_value_PaUtil_AllocateMemory$3;
-        return_value_PaUtil_AllocateMemory$3=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)outputChannelCount));
-        bp->tempOutputBufferPtrs = (void **)return_value_PaUtil_AllocateMemory$3;
+        void *return_value_PaUtil_AllocateMemory_3;
+        return_value_PaUtil_AllocateMemory_3=PaUtil_AllocateMemory((signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)outputChannelCount));
+        bp->tempOutputBufferPtrs = (void **)return_value_PaUtil_AllocateMemory_3;
         if(bp->tempOutputBufferPtrs == ((void **)NULL))
         {
           result = -9992;
@@ -17793,9 +17793,9 @@ signed int PaUtil_InitializeBufferProcessor(struct anonymous$7 *bp, signed int i
 
       }
 
-      void *return_value_PaUtil_AllocateMemory$4;
-      return_value_PaUtil_AllocateMemory$4=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilChannelDescriptor) /*16ul*/  * (unsigned long int)outputChannelCount * (unsigned long int)2));
-      bp->hostOutputChannels[(signed long int)0] = (struct PaUtilChannelDescriptor *)return_value_PaUtil_AllocateMemory$4;
+      void *return_value_PaUtil_AllocateMemory_4;
+      return_value_PaUtil_AllocateMemory_4=PaUtil_AllocateMemory((signed long int)(sizeof(struct PaUtilChannelDescriptor) /*16ul*/  * (unsigned long int)outputChannelCount * (unsigned long int)2));
+      bp->hostOutputChannels[(signed long int)0] = (struct PaUtilChannelDescriptor *)return_value_PaUtil_AllocateMemory_4;
       if(bp->hostOutputChannels[0l] == ((struct PaUtilChannelDescriptor *)NULL))
       {
         result = -9992;
@@ -17844,7 +17844,7 @@ void PaUtil_InitializeClock(void)
 
 // PaUtil_InitializeCpuLoadMeasurer
 // file src/common/pa_cpuload.c line 60
-void PaUtil_InitializeCpuLoadMeasurer(struct anonymous$6 *measurer, double sampleRate)
+void PaUtil_InitializeCpuLoadMeasurer(struct anonymous_6 *measurer, double sampleRate)
 {
   /* assertion sampleRate > 0 */
   assert(sampleRate > (double)0);
@@ -17854,21 +17854,21 @@ void PaUtil_InitializeCpuLoadMeasurer(struct anonymous$6 *measurer, double sampl
 
 // PaUtil_InitializeDeviceInfo
 // file src/hostapi/oss/pa_unix_oss.c line 292
-signed int PaUtil_InitializeDeviceInfo(struct PaDeviceInfo *deviceInfo, const char *name, signed int hostApiIndex, signed int maxInputChannels, signed int maxOutputChannels, double defaultLowInputLatency, double defaultLowOutputLatency, double defaultHighInputLatency, double defaultHighOutputLatency, double defaultSampleRate, struct anonymous$13 *allocations)
+signed int PaUtil_InitializeDeviceInfo(struct PaDeviceInfo *deviceInfo, const char *name, signed int hostApiIndex, signed int maxInputChannels, signed int maxOutputChannels, double defaultLowInputLatency, double defaultLowOutputLatency, double defaultHighInputLatency, double defaultHighOutputLatency, double defaultSampleRate, struct anonymous_13 *allocations)
 {
   signed int result = 0;
   deviceInfo->structVersion = 2;
-  if(!(allocations == ((struct anonymous$13 *)NULL)))
+  if(!(allocations == ((struct anonymous_13 *)NULL)))
   {
     unsigned long int len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(name);
-    len = return_value_strlen$1 + (unsigned long int)1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(name);
+    len = return_value_strlen_1 + (unsigned long int)1;
     do
     {
-      void *return_value_PaUtil_GroupAllocateMemory$2;
-      return_value_PaUtil_GroupAllocateMemory$2=PaUtil_GroupAllocateMemory(allocations, (signed long int)len);
-      deviceInfo->name = (const char *)return_value_PaUtil_GroupAllocateMemory$2;
+      void *return_value_PaUtil_GroupAllocateMemory_2;
+      return_value_PaUtil_GroupAllocateMemory_2=PaUtil_GroupAllocateMemory(allocations, (signed long int)len);
+      deviceInfo->name = (const char *)return_value_PaUtil_GroupAllocateMemory_2;
       if(deviceInfo->name == ((const char *)NULL))
       {
         PaUtil_DebugPrint("Expression 'deviceInfo->name = PaUtil_GroupAllocateMemory( allocations, len )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 302\n");
@@ -17918,7 +17918,7 @@ signed long int PaUtil_InitializeRingBuffer(struct PaUtilRingBuffer *rbuf, signe
 
 // PaUtil_InitializeStreamInterface
 // file src/common/pa_stream.c line 51
-void PaUtil_InitializeStreamInterface(struct anonymous$12 *streamInterface, signed int (*Close)(void *), signed int (*Start)(void *), signed int (*Stop)(void *), signed int (*Abort)(void *), signed int (*IsStopped)(void *), signed int (*IsActive)(void *), double (*GetTime)(void *), double (*GetCpuLoad)(void *), signed int (*Read)(void *, void *, unsigned long int), signed int (*Write)(void *, const void *, unsigned long int), signed long int (*GetReadAvailable)(void *), signed long int (*GetWriteAvailable)(void *))
+void PaUtil_InitializeStreamInterface(struct anonymous_12 *streamInterface, signed int (*Close)(void *), signed int (*Start)(void *), signed int (*Stop)(void *), signed int (*Abort)(void *), signed int (*IsStopped)(void *), signed int (*IsActive)(void *), double (*GetTime)(void *), double (*GetCpuLoad)(void *), signed int (*Read)(void *, void *, unsigned long int), signed int (*Write)(void *, const void *, unsigned long int), signed long int (*GetReadAvailable)(void *), signed long int (*GetWriteAvailable)(void *))
 {
   streamInterface->Close = Close;
   streamInterface->Start = Start;
@@ -17936,7 +17936,7 @@ void PaUtil_InitializeStreamInterface(struct anonymous$12 *streamInterface, sign
 
 // PaUtil_InitializeStreamRepresentation
 // file src/common/pa_stream.c line 80
-void PaUtil_InitializeStreamRepresentation(struct PaUtilStreamRepresentation *streamRepresentation, struct anonymous$12 *streamInterface, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData)
+void PaUtil_InitializeStreamRepresentation(struct PaUtilStreamRepresentation *streamRepresentation, struct anonymous_12 *streamInterface, signed int (*streamCallback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData)
 {
   streamRepresentation->magic = (unsigned long int)0x18273645;
   streamRepresentation->nextOpenStream = ((struct PaUtilStreamRepresentation *)NULL);
@@ -17952,9 +17952,9 @@ void PaUtil_InitializeStreamRepresentation(struct PaUtilStreamRepresentation *st
 
 // PaUtil_InitializeThreading
 // file ./src/os/unix/pa_unix_util.h line 116
-signed int PaUtil_InitializeThreading(struct anonymous$8 *threading)
+signed int PaUtil_InitializeThreading(struct anonymous_8 *threading)
 {
-  (void)paUtilErr_$link2;
+  (void)paUtilErr__link2;
   return 0;
 }
 
@@ -17969,7 +17969,7 @@ void PaUtil_InitializeTriangularDitherState(struct PaUtilTriangularDitherGenerat
 
 // PaUtil_IsBufferProcessorOutputEmpty
 // file src/common/pa_process.c line 1654
-signed int PaUtil_IsBufferProcessorOutputEmpty(struct anonymous$7 *bp)
+signed int PaUtil_IsBufferProcessorOutputEmpty(struct anonymous_7 *bp)
 {
   return bp->framesInTempOutputBuffer != 0ul ? 0 : 1;
 }
@@ -17999,7 +17999,7 @@ signed long int PaUtil_ReadRingBuffer(struct PaUtilRingBuffer *rbuf, void *data,
 
 // PaUtil_ResetBufferProcessor
 // file src/common/pa_process.c line 408
-void PaUtil_ResetBufferProcessor(struct anonymous$7 *bp)
+void PaUtil_ResetBufferProcessor(struct anonymous_7 *bp)
 {
   unsigned long int tempInputBufferSize;
   unsigned long int tempOutputBufferSize;
@@ -18021,7 +18021,7 @@ void PaUtil_ResetBufferProcessor(struct anonymous$7 *bp)
 
 // PaUtil_ResetCpuLoadMeasurer
 // file src/common/pa_cpuload.c line 68
-void PaUtil_ResetCpuLoadMeasurer(struct anonymous$6 *measurer)
+void PaUtil_ResetCpuLoadMeasurer(struct anonymous_6 *measurer)
 {
   measurer->averageLoad = 0.;
 }
@@ -18313,7 +18313,7 @@ void (*PaUtil_SelectZeroer(unsigned long int destinationFormat))(void *, signed 
 
 // PaUtil_Set2ndInputChannel
 // file src/common/pa_process.c line 512
-void PaUtil_Set2ndInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride)
+void PaUtil_Set2ndInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride)
 {
   /* assertion channel < bp->inputChannelCount */
   assert(channel < bp->inputChannelCount);
@@ -18323,14 +18323,14 @@ void PaUtil_Set2ndInputChannel(struct anonymous$7 *bp, unsigned int channel, voi
 
 // PaUtil_Set2ndInputFrameCount
 // file src/common/pa_process.c line 505
-void PaUtil_Set2ndInputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount)
+void PaUtil_Set2ndInputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount)
 {
   bp->hostInputFrameCount[(signed long int)1] = frameCount;
 }
 
 // PaUtil_Set2ndInterleavedInputChannels
 // file src/common/pa_process.c line 522
-void PaUtil_Set2ndInterleavedInputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
+void PaUtil_Set2ndInterleavedInputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
 {
   unsigned int i;
   unsigned int channel = firstChannel;
@@ -18355,7 +18355,7 @@ void PaUtil_Set2ndInterleavedInputChannels(struct anonymous$7 *bp, unsigned int 
 
 // PaUtil_Set2ndInterleavedOutputChannels
 // file src/common/pa_process.c line 637
-void PaUtil_Set2ndInterleavedOutputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
+void PaUtil_Set2ndInterleavedOutputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
 {
   unsigned int i;
   unsigned int channel = firstChannel;
@@ -18379,7 +18379,7 @@ void PaUtil_Set2ndInterleavedOutputChannels(struct anonymous$7 *bp, unsigned int
 
 // PaUtil_Set2ndNonInterleavedInputChannel
 // file src/common/pa_process.c line 545
-void PaUtil_Set2ndNonInterleavedInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data)
+void PaUtil_Set2ndNonInterleavedInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data)
 {
   /* assertion channel < bp->inputChannelCount */
   assert(channel < bp->inputChannelCount);
@@ -18391,7 +18391,7 @@ void PaUtil_Set2ndNonInterleavedInputChannel(struct anonymous$7 *bp, unsigned in
 
 // PaUtil_Set2ndNonInterleavedOutputChannel
 // file src/common/pa_process.c line 659
-void PaUtil_Set2ndNonInterleavedOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data)
+void PaUtil_Set2ndNonInterleavedOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data)
 {
   /* assertion channel < bp->outputChannelCount */
   assert(channel < bp->outputChannelCount);
@@ -18402,7 +18402,7 @@ void PaUtil_Set2ndNonInterleavedOutputChannel(struct anonymous$7 *bp, unsigned i
 
 // PaUtil_Set2ndOutputChannel
 // file src/common/pa_process.c line 626
-void PaUtil_Set2ndOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride)
+void PaUtil_Set2ndOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride)
 {
   /* assertion channel < bp->outputChannelCount */
   assert(channel < bp->outputChannelCount);
@@ -18414,7 +18414,7 @@ void PaUtil_Set2ndOutputChannel(struct anonymous$7 *bp, unsigned int channel, vo
 
 // PaUtil_Set2ndOutputFrameCount
 // file src/common/pa_process.c line 619
-void PaUtil_Set2ndOutputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount)
+void PaUtil_Set2ndOutputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount)
 {
   bp->hostOutputFrameCount[(signed long int)1] = frameCount;
 }
@@ -18428,7 +18428,7 @@ void PaUtil_SetDebugPrintFunction(void (*cb)(const char *))
 
 // PaUtil_SetInputChannel
 // file src/common/pa_process.c line 461
-void PaUtil_SetInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride)
+void PaUtil_SetInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride)
 {
   /* assertion channel < bp->inputChannelCount */
   assert(channel < bp->inputChannelCount);
@@ -18438,7 +18438,7 @@ void PaUtil_SetInputChannel(struct anonymous$7 *bp, unsigned int channel, void *
 
 // PaUtil_SetInputFrameCount
 // file src/common/pa_process.c line 443
-void PaUtil_SetInputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount)
+void PaUtil_SetInputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount)
 {
   if(frameCount == 0ul)
     bp->hostInputFrameCount[(signed long int)0] = bp->framesPerHostBuffer;
@@ -18449,7 +18449,7 @@ void PaUtil_SetInputFrameCount(struct anonymous$7 *bp, unsigned long int frameCo
 
 // PaUtil_SetInterleavedInputChannels
 // file src/common/pa_process.c line 471
-void PaUtil_SetInterleavedInputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
+void PaUtil_SetInterleavedInputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
 {
   unsigned int i;
   unsigned int channel = firstChannel;
@@ -18474,7 +18474,7 @@ void PaUtil_SetInterleavedInputChannels(struct anonymous$7 *bp, unsigned int fir
 
 // PaUtil_SetInterleavedOutputChannels
 // file src/common/pa_process.c line 587
-void PaUtil_SetInterleavedOutputChannels(struct anonymous$7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
+void PaUtil_SetInterleavedOutputChannels(struct anonymous_7 *bp, unsigned int firstChannel, void *data, unsigned int channelCount)
 {
   unsigned int i;
   unsigned int channel = firstChannel;
@@ -18507,7 +18507,7 @@ void PaUtil_SetLastHostErrorInfo(enum PaHostApiTypeId hostApiType, signed long i
 
 // PaUtil_SetNoInput
 // file src/common/pa_process.c line 453
-void PaUtil_SetNoInput(struct anonymous$7 *bp)
+void PaUtil_SetNoInput(struct anonymous_7 *bp)
 {
   /* assertion bp->inputChannelCount > 0 */
   assert(bp->inputChannelCount > (unsigned int)0);
@@ -18516,7 +18516,7 @@ void PaUtil_SetNoInput(struct anonymous$7 *bp)
 
 // PaUtil_SetNoOutput
 // file src/common/pa_process.c line 566
-void PaUtil_SetNoOutput(struct anonymous$7 *bp)
+void PaUtil_SetNoOutput(struct anonymous_7 *bp)
 {
   /* assertion bp->outputChannelCount > 0 */
   assert(bp->outputChannelCount > (unsigned int)0);
@@ -18525,7 +18525,7 @@ void PaUtil_SetNoOutput(struct anonymous$7 *bp)
 
 // PaUtil_SetNonInterleavedInputChannel
 // file src/common/pa_process.c line 494
-void PaUtil_SetNonInterleavedInputChannel(struct anonymous$7 *bp, unsigned int channel, void *data)
+void PaUtil_SetNonInterleavedInputChannel(struct anonymous_7 *bp, unsigned int channel, void *data)
 {
   /* assertion channel < bp->inputChannelCount */
   assert(channel < bp->inputChannelCount);
@@ -18537,7 +18537,7 @@ void PaUtil_SetNonInterleavedInputChannel(struct anonymous$7 *bp, unsigned int c
 
 // PaUtil_SetNonInterleavedOutputChannel
 // file src/common/pa_process.c line 609
-void PaUtil_SetNonInterleavedOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data)
+void PaUtil_SetNonInterleavedOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data)
 {
   /* assertion channel < bp->outputChannelCount */
   assert(channel < bp->outputChannelCount);
@@ -18548,7 +18548,7 @@ void PaUtil_SetNonInterleavedOutputChannel(struct anonymous$7 *bp, unsigned int 
 
 // PaUtil_SetOutputChannel
 // file src/common/pa_process.c line 576
-void PaUtil_SetOutputChannel(struct anonymous$7 *bp, unsigned int channel, void *data, unsigned int stride)
+void PaUtil_SetOutputChannel(struct anonymous_7 *bp, unsigned int channel, void *data, unsigned int stride)
 {
   /* assertion channel < bp->outputChannelCount */
   assert(channel < bp->outputChannelCount);
@@ -18560,7 +18560,7 @@ void PaUtil_SetOutputChannel(struct anonymous$7 *bp, unsigned int channel, void 
 
 // PaUtil_SetOutputFrameCount
 // file src/common/pa_process.c line 556
-void PaUtil_SetOutputFrameCount(struct anonymous$7 *bp, unsigned long int frameCount)
+void PaUtil_SetOutputFrameCount(struct anonymous_7 *bp, unsigned long int frameCount)
 {
   if(frameCount == 0ul)
     bp->hostOutputFrameCount[(signed long int)0] = bp->framesPerHostBuffer;
@@ -18571,7 +18571,7 @@ void PaUtil_SetOutputFrameCount(struct anonymous$7 *bp, unsigned long int frameC
 
 // PaUtil_StartThreading
 // file ./src/os/unix/pa_unix_util.h line 118
-signed int PaUtil_StartThreading(struct anonymous$8 *threading, void * (*threadRoutine)(void *), void *data)
+signed int PaUtil_StartThreading(struct anonymous_8 *threading, void * (*threadRoutine)(void *), void *data)
 {
   pthread_create(&threading->callbackThread, (const union pthread_attr_t *)(void *)0, threadRoutine, data);
   return 0;
@@ -18579,7 +18579,7 @@ signed int PaUtil_StartThreading(struct anonymous$8 *threading, void * (*threadR
 
 // PaUtil_TerminateBufferProcessor
 // file src/common/pa_process.c line 386
-void PaUtil_TerminateBufferProcessor(struct anonymous$7 *bp)
+void PaUtil_TerminateBufferProcessor(struct anonymous_7 *bp)
 {
   if(!(bp->tempInputBuffer == NULL))
     PaUtil_FreeMemory(bp->tempInputBuffer);
@@ -18610,7 +18610,7 @@ void PaUtil_TerminateStreamRepresentation(struct PaUtilStreamRepresentation *str
 
 // PaUtil_TerminateThreading
 // file ./src/os/unix/pa_unix_util.h line 117
-void PaUtil_TerminateThreading(struct anonymous$8 *threading)
+void PaUtil_TerminateThreading(struct anonymous_8 *threading)
 {
   ;
 }
@@ -18666,19 +18666,19 @@ signed long int PaUtil_WriteRingBuffer(struct PaUtilRingBuffer *rbuf, const void
 
 // PaUtil_ZeroOutput
 // file src/common/pa_process.c line 1805
-unsigned long int PaUtil_ZeroOutput(struct anonymous$7 *bp, unsigned long int frameCount)
+unsigned long int PaUtil_ZeroOutput(struct anonymous_7 *bp, unsigned long int frameCount)
 {
   struct PaUtilChannelDescriptor *hostOutputChannels;
   unsigned int framesToZero;
   unsigned int i;
   hostOutputChannels = bp->hostOutputChannels[(signed long int)0];
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(bp->hostOutputFrameCount[0l] >= frameCount))
-    tmp_if_expr$1 = bp->hostOutputFrameCount[(signed long int)0];
+    tmp_if_expr_1 = bp->hostOutputFrameCount[(signed long int)0];
 
   else
-    tmp_if_expr$1 = frameCount;
-  framesToZero = (unsigned int)tmp_if_expr$1;
+    tmp_if_expr_1 = frameCount;
+  framesToZero = (unsigned int)tmp_if_expr_1;
   i = (unsigned int)0;
   if(!(i >= bp->outputChannelCount))
   {
@@ -18716,7 +18716,7 @@ signed int Pa_AbortStream(void *stream)
 // file ./include/portaudio.h line 894
 signed int Pa_CloseStream(void *stream)
 {
-  struct anonymous$12 *interface;
+  struct anonymous_12 *interface;
   signed int result;
   result=PaUtil_ValidateStreamPointer(stream);
   RemoveOpenStream(stream);
@@ -19166,7 +19166,7 @@ const char * Pa_GetVersionText(void)
 signed int Pa_HostApiDeviceIndexToDeviceIndex(signed int hostApi, signed int hostApiDeviceIndex)
 {
   signed int result;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(initializationCount_ == 0)
     result = -10000;
 
@@ -19177,11 +19177,11 @@ signed int Pa_HostApiDeviceIndexToDeviceIndex(signed int hostApi, signed int hos
     else
     {
       if(!(hostApiDeviceIndex >= 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = hostApiDeviceIndex >= hostApis_[(signed long int)hostApi]->info.deviceCount ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = hostApiDeviceIndex >= hostApis_[(signed long int)hostApi]->info.deviceCount ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         result = -9996;
 
       else
@@ -19344,9 +19344,9 @@ signed int Pa_OpenDefaultStream(void **stream, signed int inputChannelCount, sig
 
     hostApiInputParameters.channelCount = inputChannelCount;
     hostApiInputParameters.sampleFormat = sampleFormat;
-    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo$1;
-    return_value_Pa_GetDeviceInfo$1=Pa_GetDeviceInfo(hostApiInputParameters.device);
-    hostApiInputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo$1->defaultHighInputLatency;
+    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo_1;
+    return_value_Pa_GetDeviceInfo_1=Pa_GetDeviceInfo(hostApiInputParameters.device);
+    hostApiInputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo_1->defaultHighInputLatency;
     hostApiInputParameters.hostApiSpecificStreamInfo = (void *)0;
     hostApiInputParametersPtr = &hostApiInputParameters;
   }
@@ -19361,9 +19361,9 @@ signed int Pa_OpenDefaultStream(void **stream, signed int inputChannelCount, sig
 
     hostApiOutputParameters.channelCount = outputChannelCount;
     hostApiOutputParameters.sampleFormat = sampleFormat;
-    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo$2;
-    return_value_Pa_GetDeviceInfo$2=Pa_GetDeviceInfo(hostApiOutputParameters.device);
-    hostApiOutputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo$2->defaultHighOutputLatency;
+    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo_2;
+    return_value_Pa_GetDeviceInfo_2=Pa_GetDeviceInfo(hostApiOutputParameters.device);
+    hostApiOutputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo_2->defaultHighOutputLatency;
     hostApiOutputParameters.hostApiSpecificStreamInfo = (void *)0;
     hostApiOutputParametersPtr = &hostApiOutputParameters;
   }
@@ -19614,13 +19614,13 @@ static signed int QaCallback(const void *inputBuffer, void *outputBuffer, unsign
   signed short int phase;
   struct PaQaData *data = (struct PaQaData *)userData;
   (void)inputBuffer;
-  float *tmp_post$1;
-  float *tmp_post$2;
-  signed int *tmp_post$3;
-  signed int *tmp_post$4;
-  signed short int *tmp_post$5;
-  signed short int *tmp_post$6;
-  unsigned char *tmp_post$7;
+  float *tmp_post_1;
+  float *tmp_post_2;
+  signed int *tmp_post_3;
+  signed int *tmp_post_4;
+  signed short int *tmp_post_5;
+  signed short int *tmp_post_6;
+  unsigned char *tmp_post_7;
   if(data->mode == 1)
   {
     phase = data->sawPhase;
@@ -19633,14 +19633,14 @@ static signed int QaCallback(const void *inputBuffer, void *outputBuffer, unsign
         for( ; !(i >= framesPerBuffer); i = i + 1ul)
         {
           phase = phase + (signed short int)0x123;
-          tmp_post$1 = out;
+          tmp_post_1 = out;
           out = out + 1l;
-          *tmp_post$1 = (float)((double)phase * (1.0 / 32768.0));
+          *tmp_post_1 = (float)((double)phase * (1.0 / 32768.0));
           if(data->numChannels == 2)
           {
-            tmp_post$2 = out;
+            tmp_post_2 = out;
             out = out + 1l;
-            *tmp_post$2 = (float)((double)phase * (1.0 / 32768.0));
+            *tmp_post_2 = (float)((double)phase * (1.0 / 32768.0));
           }
 
         }
@@ -19648,19 +19648,19 @@ static signed int QaCallback(const void *inputBuffer, void *outputBuffer, unsign
       }
       case (unsigned long int)0x00000002:
       {
-        signed int *QaCallback$$1$$1$$1$$2$$out = (signed int *)outputBuffer;
+        signed int *QaCallback__1__1__1__2__out = (signed int *)outputBuffer;
         i = (unsigned long int)0;
         for( ; !(i >= framesPerBuffer); i = i + 1ul)
         {
           phase = phase + (signed short int)0x123;
-          tmp_post$3 = QaCallback$$1$$1$$1$$2$$out;
-          QaCallback$$1$$1$$1$$2$$out = QaCallback$$1$$1$$1$$2$$out + 1l;
-          *tmp_post$3 = (signed int)phase << 16;
+          tmp_post_3 = QaCallback__1__1__1__2__out;
+          QaCallback__1__1__1__2__out = QaCallback__1__1__1__2__out + 1l;
+          *tmp_post_3 = (signed int)phase << 16;
           if(data->numChannels == 2)
           {
-            tmp_post$4 = QaCallback$$1$$1$$1$$2$$out;
-            QaCallback$$1$$1$$1$$2$$out = QaCallback$$1$$1$$1$$2$$out + 1l;
-            *tmp_post$4 = (signed int)phase << 16;
+            tmp_post_4 = QaCallback__1__1__1__2__out;
+            QaCallback__1__1__1__2__out = QaCallback__1__1__1__2__out + 1l;
+            *tmp_post_4 = (signed int)phase << 16;
           }
 
         }
@@ -19668,19 +19668,19 @@ static signed int QaCallback(const void *inputBuffer, void *outputBuffer, unsign
       }
       case (unsigned long int)0x00000008:
       {
-        signed short int *QaCallback$$1$$1$$1$$3$$out = (signed short int *)outputBuffer;
+        signed short int *QaCallback__1__1__1__3__out = (signed short int *)outputBuffer;
         i = (unsigned long int)0;
         for( ; !(i >= framesPerBuffer); i = i + 1ul)
         {
           phase = phase + (signed short int)0x123;
-          tmp_post$5 = QaCallback$$1$$1$$1$$3$$out;
-          QaCallback$$1$$1$$1$$3$$out = QaCallback$$1$$1$$1$$3$$out + 1l;
-          *tmp_post$5 = phase;
+          tmp_post_5 = QaCallback__1__1__1__3__out;
+          QaCallback__1__1__1__3__out = QaCallback__1__1__1__3__out + 1l;
+          *tmp_post_5 = phase;
           if(data->numChannels == 2)
           {
-            tmp_post$6 = QaCallback$$1$$1$$1$$3$$out;
-            QaCallback$$1$$1$$1$$3$$out = QaCallback$$1$$1$$1$$3$$out + 1l;
-            *tmp_post$6 = phase;
+            tmp_post_6 = QaCallback__1__1__1__3__out;
+            QaCallback__1__1__1__3__out = QaCallback__1__1__1__3__out + 1l;
+            *tmp_post_6 = phase;
           }
 
         }
@@ -19688,14 +19688,14 @@ static signed int QaCallback(const void *inputBuffer, void *outputBuffer, unsign
       }
       default:
       {
-        unsigned char *QaCallback$$1$$1$$1$$4$$out = (unsigned char *)outputBuffer;
+        unsigned char *QaCallback__1__1__1__4__out = (unsigned char *)outputBuffer;
         unsigned long int numBytes = framesPerBuffer * (unsigned long int)data->numChannels * (unsigned long int)data->bytesPerSample;
         i = (unsigned long int)0;
         for( ; !(i >= numBytes); i = i + 1ul)
         {
-          tmp_post$7 = QaCallback$$1$$1$$1$$4$$out;
-          QaCallback$$1$$1$$1$$4$$out = QaCallback$$1$$1$$1$$4$$out + 1l;
-          *tmp_post$7 = (unsigned char)0;
+          tmp_post_7 = QaCallback__1__1__1__4__out;
+          QaCallback__1__1__1__4__out = QaCallback__1__1__1__4__out + 1l;
+          *tmp_post_7 = (unsigned char)0;
         }
       }
     }
@@ -19717,7 +19717,7 @@ static signed int QaCallback(const void *inputBuffer, void *outputBuffer, unsign
 
 // QueryDevice
 // file src/hostapi/oss/pa_unix_oss.c line 457
-static signed int QueryDevice(char *deviceName, struct anonymous$14 *ossApi, struct PaDeviceInfo **deviceInfo)
+static signed int QueryDevice(char *deviceName, struct anonymous_14 *ossApi, struct PaDeviceInfo **deviceInfo)
 {
   signed int result = 0;
   double sampleRate = -1.;
@@ -19730,11 +19730,11 @@ static signed int QueryDevice(char *deviceName, struct anonymous$14 *ossApi, str
   signed int tmpRes = 0;
   signed int busy = 0;
   *deviceInfo = (struct PaDeviceInfo *)(void *)0;
-  tmpRes=QueryDirection(deviceName, (enum anonymous$15)StreamMode_In, &sampleRate, &maxInputChannels, &defaultLowInputLatency, &defaultHighInputLatency);
+  tmpRes=QueryDirection(deviceName, (enum anonymous_15)StreamMode_In, &sampleRate, &maxInputChannels, &defaultLowInputLatency, &defaultHighInputLatency);
   if(!(tmpRes == 0))
     busy = busy + 1;
 
-  tmpRes=QueryDirection(deviceName, (enum anonymous$15)StreamMode_Out, &sampleRate, &maxOutputChannels, &defaultLowOutputLatency, &defaultHighOutputLatency);
+  tmpRes=QueryDirection(deviceName, (enum anonymous_15)StreamMode_Out, &sampleRate, &maxOutputChannels, &defaultLowOutputLatency, &defaultHighOutputLatency);
   if(!(tmpRes == 0))
     busy = busy + 1;
 
@@ -19747,9 +19747,9 @@ static signed int QueryDevice(char *deviceName, struct anonymous$14 *ossApi, str
   {
     do
     {
-      void *return_value_PaUtil_GroupAllocateMemory$1;
-      return_value_PaUtil_GroupAllocateMemory$1=PaUtil_GroupAllocateMemory(ossApi->allocations, (signed long int)sizeof(struct PaDeviceInfo) /*72ul*/ );
-      *deviceInfo = (struct PaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory$1;
+      void *return_value_PaUtil_GroupAllocateMemory_1;
+      return_value_PaUtil_GroupAllocateMemory_1=PaUtil_GroupAllocateMemory(ossApi->allocations, (signed long int)sizeof(struct PaDeviceInfo) /*72ul*/ );
+      *deviceInfo = (struct PaDeviceInfo *)return_value_PaUtil_GroupAllocateMemory_1;
       if(*deviceInfo == ((struct PaDeviceInfo *)NULL))
       {
         PaUtil_DebugPrint("Expression '*deviceInfo = PaUtil_GroupAllocateMemory( ossApi->allocations, sizeof (PaDeviceInfo) )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 505\n");
@@ -19761,11 +19761,11 @@ static signed int QueryDevice(char *deviceName, struct anonymous$14 *ossApi, str
     while((_Bool)0);
     do
     {
-      paUtilErr_$link1=PaUtil_InitializeDeviceInfo(*deviceInfo, deviceName, ossApi->hostApiIndex, maxInputChannels, maxOutputChannels, defaultLowInputLatency, defaultLowOutputLatency, defaultHighInputLatency, defaultHighOutputLatency, sampleRate, ossApi->allocations);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaUtil_InitializeDeviceInfo(*deviceInfo, deviceName, ossApi->hostApiIndex, maxInputChannels, maxOutputChannels, defaultLowInputLatency, defaultLowOutputLatency, defaultHighInputLatency, defaultHighOutputLatency, sampleRate, ossApi->allocations);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUtil_InitializeDeviceInfo( *deviceInfo, deviceName, ossApi->hostApiIndex, maxInputChannels, maxOutputChannels, defaultLowInputLatency, defaultLowOutputLatency, defaultHighInputLatency, defaultHighOutputLatency, sampleRate, ossApi->allocations )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 508\n");
-        result = paUtilErr_$link1;
+        result = paUtilErr__link1;
         break;
       }
 
@@ -19780,7 +19780,7 @@ error:
 
 // QueryDirection
 // file src/hostapi/oss/pa_unix_oss.c line 328
-static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode, double *defaultSampleRate, signed int *maxChannelCount, double *defaultLowLatency, double *defaultHighLatency)
+static signed int QueryDirection(const char *deviceName, enum anonymous_15 mode, double *defaultSampleRate, signed int *maxChannelCount, double *defaultLowLatency, double *defaultHighLatency)
 {
   signed int result = 0;
   signed int numChannels;
@@ -19793,24 +19793,24 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
   signed int frgmt;
   unsigned long int fragFrames;
   devHandle=open(deviceName, ((signed int)mode == StreamMode_In ? 00 : 01) | 04000);
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   if(!(devHandle >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 16)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 16)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = *return_value___errno_location$3 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = *return_value___errno_location_3 == 11 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$4)
+    if(!tmp_if_expr_4)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
     }
 
     return -9985;
@@ -19818,26 +19818,26 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
 
   maxNumChannels = 0;
   numChannels = 1;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
   for( ; !(numChannels >= 17); numChannels = numChannels + 1)
   {
     temp = numChannels;
-    signed int return_value_ioctl$8;
-    return_value_ioctl$8=ioctl(devHandle, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(6 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &temp);
-    if(!(return_value_ioctl$8 >= 0))
+    signed int return_value_ioctl_8;
+    return_value_ioctl_8=ioctl(devHandle, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(6 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &temp);
+    if(!(return_value_ioctl_8 >= 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 11)
-        tmp_if_expr$7 = (_Bool)1;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 11)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$6=__errno_location();
-        tmp_if_expr$7 = 16 == *return_value___errno_location$6 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_6=__errno_location();
+        tmp_if_expr_7 = 16 == *return_value___errno_location_6 ? (_Bool)1 : (_Bool)0;
       }
-      busy = (signed int)tmp_if_expr$7;
+      busy = (signed int)tmp_if_expr_7;
       if(maxNumChannels >= 2)
         break;
 
@@ -19853,11 +19853,11 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
 
     }
   }
-  unsigned long int return_value_pthread_self$12;
-  unsigned long int return_value_pthread_self$15;
-  signed int return_value_CalcHigherLogTwo$16;
-  unsigned long int return_value_pthread_self$19;
-  double return_value_pow$20;
+  unsigned long int return_value_pthread_self_12;
+  unsigned long int return_value_pthread_self_15;
+  signed int return_value_CalcHigherLogTwo_16;
+  unsigned long int return_value_pthread_self_19;
+  double return_value_pow_20;
   if(maxNumChannels == 0 && !(busy == 0))
     result = -9985;
 
@@ -19866,9 +19866,9 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
     if(!(maxNumChannels >= 1))
     {
       signed int stereo = 1;
-      signed int return_value_ioctl$9;
-      return_value_ioctl$9=ioctl(devHandle, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(3 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &stereo);
-      if(!(return_value_ioctl$9 >= 0))
+      signed int return_value_ioctl_9;
+      return_value_ioctl_9=ioctl(devHandle, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(3 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &stereo);
+      if(!(return_value_ioctl_9 >= 0))
         maxNumChannels = 1;
 
       else
@@ -19881,14 +19881,14 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
       sysErr_=ioctl(devHandle, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(6 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &numChannels);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$12=pthread_self();
-        if(return_value_pthread_self$12 == mainThread_$link1)
+        return_value_pthread_self_12=pthread_self();
+        if(return_value_pthread_self_12 == mainThread__link1)
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          char *return_value_strerror$11;
-          return_value_strerror$11=strerror(*return_value___errno_location$10);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$11);
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          char *return_value_strerror_11;
+          return_value_strerror_11=strerror(*return_value___errno_location_10);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_11);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( devHandle, SNDCTL_DSP_CHANNELS, &numChannels )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 414\n");
@@ -19906,14 +19906,14 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
         sysErr_=ioctl(devHandle, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(2 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &sr);
         if(!(sysErr_ >= 0))
         {
-          return_value_pthread_self$15=pthread_self();
-          if(return_value_pthread_self$15 == mainThread_$link1)
+          return_value_pthread_self_15=pthread_self();
+          if(return_value_pthread_self_15 == mainThread__link1)
           {
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            char *return_value_strerror$14;
-            return_value_strerror$14=strerror(*return_value___errno_location$13);
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$14);
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            char *return_value_strerror_14;
+            return_value_strerror_14=strerror(*return_value___errno_location_13);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_14);
           }
 
           PaUtil_DebugPrint("Expression 'ioctl( devHandle, SNDCTL_DSP_SPEED, &sr )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 421\n");
@@ -19928,21 +19928,21 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
 
     *maxChannelCount = maxNumChannels;
     fragFrames = (unsigned long int)128;
-    return_value_CalcHigherLogTwo$16=CalcHigherLogTwo((signed int)(fragFrames * (unsigned long int)numChannels * (unsigned long int)2));
-    frgmt = (4 << 16) + (return_value_CalcHigherLogTwo$16 & 0xffff);
+    return_value_CalcHigherLogTwo_16=CalcHigherLogTwo((signed int)(fragFrames * (unsigned long int)numChannels * (unsigned long int)2));
+    frgmt = (4 << 16) + (return_value_CalcHigherLogTwo_16 & 0xffff);
     do
     {
       sysErr_=ioctl(devHandle, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(80 << 0 + 8) | (unsigned int)(10 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &frgmt);
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$19=pthread_self();
-        if(return_value_pthread_self$19 == mainThread_$link1)
+        return_value_pthread_self_19=pthread_self();
+        if(return_value_pthread_self_19 == mainThread__link1)
         {
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          char *return_value_strerror$18;
-          return_value_strerror$18=strerror(*return_value___errno_location$17);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$18);
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          char *return_value_strerror_18;
+          return_value_strerror_18=strerror(*return_value___errno_location_17);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_18);
         }
 
         PaUtil_DebugPrint("Expression 'ioctl( devHandle, SNDCTL_DSP_SETFRAGMENT, &frgmt )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 432\n");
@@ -19952,8 +19952,8 @@ static signed int QueryDirection(const char *deviceName, enum anonymous$15 mode,
 
     }
     while((_Bool)0);
-    return_value_pow$20=pow((double)2, (double)(frgmt & 0xffff));
-    fragFrames = (unsigned long int)(return_value_pow$20 / (double)(numChannels * 2));
+    return_value_pow_20=pow((double)2, (double)(frgmt & 0xffff));
+    fragFrames = (unsigned long int)(return_value_pow_20 / (double)(numChannels * 2));
     *defaultLowLatency = (double)((unsigned long int)((frgmt >> 16) - 1) * fragFrames) / *defaultSampleRate;
     temp = fragFrames < (unsigned long int)256 ? 4 : (fragFrames < (unsigned long int)512 ? 2 : 1);
     *defaultHighLatency = (double)temp * *defaultLowLatency;
@@ -19978,20 +19978,20 @@ static signed int ReadStream(void *s, void *buffer, unsigned long int frames)
   return 0;
 }
 
-// ReadStream$link1
+// ReadStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4365
-static signed int ReadStream$link1(void *s$link1, void *buffer$link1, unsigned long int frames$link1)
+static signed int ReadStream_link1(void *s_link1, void *buffer_link1, unsigned long int frames_link1)
 {
   signed int result = 0;
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
   unsigned long int framesGot;
   unsigned long int framesAvail;
   void *userBuffer;
-  struct _snd_pcm *save = stream$link1->playback.pcm;
+  struct _snd_pcm *save = stream_link1->playback.pcm;
   /* assertion stream */
-  assert(stream$link1 != ((struct PaAlsaStream *)NULL));
+  assert(stream_link1 != ((struct PaAlsaStream *)NULL));
   do
-    if(stream$link1->capture.pcm == ((struct _snd_pcm *)NULL))
+    if(stream_link1->capture.pcm == ((struct _snd_pcm *)NULL))
     {
       PaUtil_DebugPrint("Expression 'stream->capture.pcm' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4375\n");
       result = -9975;
@@ -19999,34 +19999,34 @@ static signed int ReadStream$link1(void *s$link1, void *buffer$link1, unsigned l
     }
 
   while((_Bool)0);
-  stream$link1->playback.pcm = (struct _snd_pcm *)(void *)0;
-  if(stream$link1->overrun > 0.)
+  stream_link1->playback.pcm = (struct _snd_pcm *)(void *)0;
+  if(stream_link1->overrun > 0.)
   {
     result = -9981;
-    stream$link1->overrun = 0.0;
+    stream_link1->overrun = 0.0;
   }
 
-  if(!(stream$link1->capture.userInterleaved == 0))
-    userBuffer = buffer$link1;
+  if(!(stream_link1->capture.userInterleaved == 0))
+    userBuffer = buffer_link1;
 
   else
   {
-    userBuffer = (void *)stream$link1->capture.userBuffers;
-    memcpy(userBuffer, buffer$link1, sizeof(void *) /*8ul*/  * (unsigned long int)stream$link1->capture.numUserChannels);
+    userBuffer = (void *)stream_link1->capture.userBuffers;
+    memcpy(userBuffer, buffer_link1, sizeof(void *) /*8ul*/  * (unsigned long int)stream_link1->capture.numUserChannels);
   }
   enum _snd_pcm_state return_value_1;
-  return_value_1=alsa_snd_pcm_state(stream$link1->capture.pcm);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  return_value_1=alsa_snd_pcm_state(stream_link1->capture.pcm);
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if((signed int)return_value_1 == SND_PCM_STATE_PREPARED)
   {
     signed int __pa_unsure_error_id;
-    __pa_unsure_error_id=alsa_snd_pcm_start(stream$link1->capture.pcm);
+    __pa_unsure_error_id=alsa_snd_pcm_start(stream_link1->capture.pcm);
     if(!(__pa_unsure_error_id >= 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-      if(!(return_value_pthread_equal$2 == 0))
+      return_value_pthread_self_1=pthread_self();
+      return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+      if(!(return_value_pthread_equal_2 == 0))
       {
         const char *return_value;
         return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -20039,18 +20039,18 @@ static signed int ReadStream$link1(void *s$link1, void *buffer$link1, unsigned l
 
   }
 
-  if(frames$link1 >= 1ul)
+  if(frames_link1 >= 1ul)
   {
     signed int xrun = 0;
-    paUtilErr_=PaAlsaStream_WaitForFrames(stream$link1, &framesAvail, &xrun);
+    paUtilErr_=PaAlsaStream_WaitForFrames(stream_link1, &framesAvail, &xrun);
     if(!(paUtilErr_ >= 0))
     {
       PaUtil_DebugPrint("Expression 'PaAlsaStream_WaitForFrames( stream, &framesAvail, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4406\n");
       result = paUtilErr_;
     }
 
-    framesGot = framesAvail < frames$link1 ? framesAvail : frames$link1;
-    paUtilErr_=PaAlsaStream_SetUpBuffers(stream$link1, &framesGot, &xrun);
+    framesGot = framesAvail < frames_link1 ? framesAvail : frames_link1;
+    paUtilErr_=PaAlsaStream_SetUpBuffers(stream_link1, &framesGot, &xrun);
     if(!(paUtilErr_ >= 0))
     {
       PaUtil_DebugPrint("Expression 'PaAlsaStream_SetUpBuffers( stream, &framesGot, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4409\n");
@@ -20059,15 +20059,15 @@ static signed int ReadStream$link1(void *s$link1, void *buffer$link1, unsigned l
 
     if(framesGot >= 1ul)
     {
-      framesGot=PaUtil_CopyInput(&stream$link1->bufferProcessor, &userBuffer, framesGot);
-      paUtilErr_=PaAlsaStream_EndProcessing(stream$link1, framesGot, &xrun);
+      framesGot=PaUtil_CopyInput(&stream_link1->bufferProcessor, &userBuffer, framesGot);
+      paUtilErr_=PaAlsaStream_EndProcessing(stream_link1, framesGot, &xrun);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStream_EndProcessing( stream, framesGot, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4413\n");
         result = paUtilErr_;
       }
 
-      frames$link1 = frames$link1 - framesGot;
+      frames_link1 = frames_link1 - framesGot;
     }
 
   }
@@ -20075,7 +20075,7 @@ static signed int ReadStream$link1(void *s$link1, void *buffer$link1, unsigned l
 
 end:
   ;
-  stream$link1->playback.pcm = save;
+  stream_link1->playback.pcm = save;
   return result;
 
 error:
@@ -20083,57 +20083,57 @@ error:
   goto end;
 }
 
-// ReadStream$link2
+// ReadStream_link2
 // file src/hostapi/oss/pa_unix_oss.c line 1927
-static signed int ReadStream$link2(void *s$link2, void *buffer$link2, unsigned long int frames$link2)
+static signed int ReadStream_link2(void *s_link2, void *buffer_link2, unsigned long int frames_link2)
 {
-  signed int result$link1 = 0;
-  struct PaOssStream *stream$link2 = (struct PaOssStream *)s$link2;
+  signed int result_link1 = 0;
+  struct PaOssStream *stream_link2 = (struct PaOssStream *)s_link2;
   signed int bytesRequested;
   signed int bytesRead;
   unsigned long int framesRequested;
-  void *userBuffer$link1;
-  if(!(stream$link2->bufferProcessor.userInputIsInterleaved == 0))
-    userBuffer$link1 = buffer$link2;
+  void *userBuffer_link1;
+  if(!(stream_link2->bufferProcessor.userInputIsInterleaved == 0))
+    userBuffer_link1 = buffer_link2;
 
   else
   {
-    userBuffer$link1 = (void *)stream$link2->capture->userBuffers;
-    memcpy((void *)userBuffer$link1, buffer$link2, sizeof(void *) /*8ul*/  * (unsigned long int)stream$link2->capture->userChannelCount);
+    userBuffer_link1 = (void *)stream_link2->capture->userBuffers;
+    memcpy((void *)userBuffer_link1, buffer_link2, sizeof(void *) /*8ul*/  * (unsigned long int)stream_link2->capture->userChannelCount);
   }
-  unsigned long int tmp_if_expr$1;
-  unsigned long int return_value_pthread_self$5;
-  while(!(frames$link2 == 0ul))
+  unsigned long int tmp_if_expr_1;
+  unsigned long int return_value_pthread_self_5;
+  while(!(frames_link2 == 0ul))
   {
-    if(!(frames$link2 >= stream$link2->capture->hostFrames))
-      tmp_if_expr$1 = frames$link2;
+    if(!(frames_link2 >= stream_link2->capture->hostFrames))
+      tmp_if_expr_1 = frames_link2;
 
     else
-      tmp_if_expr$1 = stream$link2->capture->hostFrames;
-    framesRequested = tmp_if_expr$1;
-    unsigned int return_value_PaOssStreamComponent_FrameSize$2;
-    return_value_PaOssStreamComponent_FrameSize$2=PaOssStreamComponent_FrameSize(stream$link2->capture);
-    bytesRequested = (signed int)(framesRequested * (unsigned long int)return_value_PaOssStreamComponent_FrameSize$2);
+      tmp_if_expr_1 = stream_link2->capture->hostFrames;
+    framesRequested = tmp_if_expr_1;
+    unsigned int return_value_PaOssStreamComponent_FrameSize_2;
+    return_value_PaOssStreamComponent_FrameSize_2=PaOssStreamComponent_FrameSize(stream_link2->capture);
+    bytesRequested = (signed int)(framesRequested * (unsigned long int)return_value_PaOssStreamComponent_FrameSize_2);
     do
     {
-      signed long int return_value_read$6;
-      return_value_read$6=read(stream$link2->capture->fd, stream$link2->capture->buffer, (unsigned long int)bytesRequested);
-      bytesRead = (signed int)return_value_read$6;
+      signed long int return_value_read_6;
+      return_value_read_6=read(stream_link2->capture->fd, stream_link2->capture->buffer, (unsigned long int)bytesRequested);
+      bytesRead = (signed int)return_value_read_6;
       sysErr_ = bytesRead;
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$5=pthread_self();
-        if(return_value_pthread_self$5 == mainThread_$link1)
+        return_value_pthread_self_5=pthread_self();
+        if(return_value_pthread_self_5 == mainThread__link1)
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$4);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_4);
         }
 
         PaUtil_DebugPrint("Expression '(bytesRead = read( stream->capture->fd, stream->capture->buffer, bytesRequested ))' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1953\n");
-        result$link1 = -9999;
+        result_link1 = -9999;
         goto error;
       }
 
@@ -20142,15 +20142,15 @@ static signed int ReadStream$link2(void *s$link2, void *buffer$link2, unsigned l
     if(!(bytesRequested == bytesRead))
       return -9999;
 
-    PaUtil_SetInputFrameCount(&stream$link2->bufferProcessor, stream$link2->capture->hostFrames);
-    PaUtil_SetInterleavedInputChannels(&stream$link2->bufferProcessor, (unsigned int)0, stream$link2->capture->buffer, (unsigned int)stream$link2->capture->hostChannelCount);
-    PaUtil_CopyInput(&stream$link2->bufferProcessor, &userBuffer$link1, framesRequested);
-    frames$link2 = frames$link2 - framesRequested;
+    PaUtil_SetInputFrameCount(&stream_link2->bufferProcessor, stream_link2->capture->hostFrames);
+    PaUtil_SetInterleavedInputChannels(&stream_link2->bufferProcessor, (unsigned int)0, stream_link2->capture->buffer, (unsigned int)stream_link2->capture->hostChannelCount);
+    PaUtil_CopyInput(&stream_link2->bufferProcessor, &userBuffer_link1, framesRequested);
+    frames_link2 = frames_link2 - framesRequested;
   }
 
 error:
   ;
-  return result$link1;
+  return result_link1;
 }
 
 // RealProcess
@@ -20162,19 +20162,19 @@ static signed int RealProcess(struct PaJackStream *stream, unsigned int frames)
   signed int chn;
   signed int framesProcessed;
   double sr;
-  unsigned int return_value_jack_get_sample_rate$1;
-  return_value_jack_get_sample_rate$1=jack_get_sample_rate(stream->jack_client);
-  sr = (const double)return_value_jack_get_sample_rate$1;
+  unsigned int return_value_jack_get_sample_rate_1;
+  return_value_jack_get_sample_rate_1=jack_get_sample_rate(stream->jack_client);
+  sr = (const double)return_value_jack_get_sample_rate_1;
   unsigned long int cbFlags = (unsigned long int)0;
-  signed int return_value_PaUtil_IsBufferProcessorOutputEmpty$2;
-  unsigned int return_value_jack_frame_time$3;
-  unsigned int return_value_jack_port_get_latency$4;
-  unsigned int return_value_jack_port_get_latency$5;
-  unsigned long int return_value_PaUtil_EndBufferProcessing$8;
+  signed int return_value_PaUtil_IsBufferProcessorOutputEmpty_2;
+  unsigned int return_value_jack_frame_time_3;
+  unsigned int return_value_jack_port_get_latency_4;
+  unsigned int return_value_jack_port_get_latency_5;
+  unsigned long int return_value_PaUtil_EndBufferProcessing_8;
   if(!(stream->callbackResult == 0))
   {
-    return_value_PaUtil_IsBufferProcessorOutputEmpty$2=PaUtil_IsBufferProcessorOutputEmpty(&stream->bufferProcessor);
-    if(return_value_PaUtil_IsBufferProcessorOutputEmpty$2 == 0)
+    return_value_PaUtil_IsBufferProcessorOutputEmpty_2=PaUtil_IsBufferProcessorOutputEmpty(&stream->bufferProcessor);
+    if(return_value_PaUtil_IsBufferProcessorOutputEmpty_2 == 0)
       goto __CPROVER_DUMP_L2;
 
     stream->is_active = 0;
@@ -20188,18 +20188,18 @@ static signed int RealProcess(struct PaJackStream *stream, unsigned int frames)
 
   __CPROVER_DUMP_L2:
     ;
-    return_value_jack_frame_time$3=jack_frame_time(stream->jack_client);
-    timeInfo.currentTime = (double)(return_value_jack_frame_time$3 - stream->t0) / sr;
+    return_value_jack_frame_time_3=jack_frame_time(stream->jack_client);
+    timeInfo.currentTime = (double)(return_value_jack_frame_time_3 - stream->t0) / sr;
     if(stream->num_incoming_connections >= 1)
     {
-      return_value_jack_port_get_latency$4=jack_port_get_latency(stream->remote_output_ports[(signed long int)0]);
-      timeInfo.inputBufferAdcTime = timeInfo.currentTime - (double)return_value_jack_port_get_latency$4 / sr;
+      return_value_jack_port_get_latency_4=jack_port_get_latency(stream->remote_output_ports[(signed long int)0]);
+      timeInfo.inputBufferAdcTime = timeInfo.currentTime - (double)return_value_jack_port_get_latency_4 / sr;
     }
 
     if(stream->num_outgoing_connections >= 1)
     {
-      return_value_jack_port_get_latency$5=jack_port_get_latency(stream->remote_input_ports[(signed long int)0]);
-      timeInfo.outputBufferDacTime = timeInfo.currentTime + (double)return_value_jack_port_get_latency$5 / sr;
+      return_value_jack_port_get_latency_5=jack_port_get_latency(stream->remote_input_ports[(signed long int)0]);
+      timeInfo.outputBufferDacTime = timeInfo.currentTime + (double)return_value_jack_port_get_latency_5 / sr;
     }
 
     PaUtil_BeginCpuLoadMeasurement(&stream->cpuLoadMeasurer);
@@ -20220,22 +20220,22 @@ static signed int RealProcess(struct PaJackStream *stream, unsigned int frames)
     for( ; !(chn >= stream->num_incoming_connections); chn = chn + 1)
     {
       float *channel_buf;
-      void *return_value_jack_port_get_buffer$6;
-      return_value_jack_port_get_buffer$6=jack_port_get_buffer(stream->local_input_ports[(signed long int)chn], frames);
-      channel_buf = (float *)return_value_jack_port_get_buffer$6;
+      void *return_value_jack_port_get_buffer_6;
+      return_value_jack_port_get_buffer_6=jack_port_get_buffer(stream->local_input_ports[(signed long int)chn], frames);
+      channel_buf = (float *)return_value_jack_port_get_buffer_6;
       PaUtil_SetNonInterleavedInputChannel(&stream->bufferProcessor, (unsigned int)chn, (void *)channel_buf);
     }
     chn = 0;
     for( ; !(chn >= stream->num_outgoing_connections); chn = chn + 1)
     {
-      float *RealProcess$$1$$4$$1$$channel_buf;
-      void *return_value_jack_port_get_buffer$7;
-      return_value_jack_port_get_buffer$7=jack_port_get_buffer(stream->local_output_ports[(signed long int)chn], frames);
-      RealProcess$$1$$4$$1$$channel_buf = (float *)return_value_jack_port_get_buffer$7;
-      PaUtil_SetNonInterleavedOutputChannel(&stream->bufferProcessor, (unsigned int)chn, (void *)RealProcess$$1$$4$$1$$channel_buf);
+      float *RealProcess__1__4__1__channel_buf;
+      void *return_value_jack_port_get_buffer_7;
+      return_value_jack_port_get_buffer_7=jack_port_get_buffer(stream->local_output_ports[(signed long int)chn], frames);
+      RealProcess__1__4__1__channel_buf = (float *)return_value_jack_port_get_buffer_7;
+      PaUtil_SetNonInterleavedOutputChannel(&stream->bufferProcessor, (unsigned int)chn, (void *)RealProcess__1__4__1__channel_buf);
     }
-    return_value_PaUtil_EndBufferProcessing$8=PaUtil_EndBufferProcessing(&stream->bufferProcessor, &stream->callbackResult);
-    framesProcessed = (signed int)return_value_PaUtil_EndBufferProcessing$8;
+    return_value_PaUtil_EndBufferProcessing_8=PaUtil_EndBufferProcessing(&stream->bufferProcessor, &stream->callbackResult);
+    framesProcessed = (signed int)return_value_PaUtil_EndBufferProcessing_8;
     /* assertion framesProcessed == frames */
     assert((unsigned int)framesProcessed == frames);
     PaUtil_EndCpuLoadMeasurement(&stream->cpuLoadMeasurer, (unsigned long int)framesProcessed);
@@ -20294,101 +20294,101 @@ error:
   goto end;
 }
 
-// RealStop$link1
+// RealStop_link1
 // file src/hostapi/jack/pa_jack.c line 1656
-static signed int RealStop$link1(struct PaJackStream *stream$link1, signed int abort$link1)
+static signed int RealStop_link1(struct PaJackStream *stream_link1, signed int abort_link1)
 {
-  signed int result$link1 = 0;
+  signed int result_link1 = 0;
   signed int i;
-  if(!(stream$link1->isBlockingStream == 0))
-    BlockingWaitEmpty((void *)stream$link1);
+  if(!(stream_link1->isBlockingStream == 0))
+    BlockingWaitEmpty((void *)stream_link1);
 
   do
   {
-    signed int RealStop$$1$$1$$err;
-    RealStop$$1$$1$$err=pthread_mutex_lock(&stream$link1->hostApi->mtx);
+    signed int RealStop__1__1__err;
+    RealStop__1__1__err=pthread_mutex_lock(&stream_link1->hostApi->mtx);
     /* assertion err == 0 */
-    assert(RealStop$$1$$1$$err == 0);
+    assert(RealStop__1__1__err == 0);
   }
   while((_Bool)0);
-  if(!(abort$link1 == 0))
-    stream$link1->doAbort = 1;
+  if(!(abort_link1 == 0))
+    stream_link1->doAbort = 1;
 
   else
-    stream$link1->doStop = 1;
-  result$link1=WaitCondition(stream$link1->hostApi);
+    stream_link1->doStop = 1;
+  result_link1=WaitCondition(stream_link1->hostApi);
   do
   {
-    signed int RealStop$$1$$2$$err;
-    RealStop$$1$$2$$err=pthread_mutex_unlock(&stream$link1->hostApi->mtx);
+    signed int RealStop__1__2__err;
+    RealStop__1__2__err=pthread_mutex_unlock(&stream_link1->hostApi->mtx);
     /* assertion err == 0 */
-    assert(RealStop$$1$$2$$err == 0);
+    assert(RealStop__1__2__err == 0);
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
   {
-    signed int paErr = result$link1;
+    signed int paErr = result_link1;
     if(!(paErr >= 0))
     {
       if(paErr == -9999)
       {
-        return_value_pthread_self$1=pthread_self();
-        if(return_value_pthread_self$1 == mainThread_)
+        return_value_pthread_self_1=pthread_self();
+        if(return_value_pthread_self_1 == mainThread_)
         {
-          const char *RealStop$$1$$3$$1$$1$$err = jackErr_;
-          if(RealStop$$1$$3$$1$$1$$err == ((const char *)NULL))
-            RealStop$$1$$3$$1$$1$$err = "unknown error";
+          const char *RealStop__1__3__1__1__err = jackErr_;
+          if(RealStop__1__3__1__1__err == ((const char *)NULL))
+            RealStop__1__3__1__1__err = "unknown error";
 
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, RealStop$$1$$3$$1$$1$$err);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, RealStop__1__3__1__1__err);
         }
 
       }
 
       PaUtil_DebugPrint("Expression 'result' failed in 'src/hostapi/jack/pa_jack.c', line: 1673\n");
-      result$link1 = paErr;
+      result_link1 = paErr;
       goto error;
     }
 
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
-    if(!(stream$link1->is_active == 0))
+    if(!(stream_link1->is_active == 0))
     {
       PaUtil_DebugPrint("Expression '!stream->is_active' failed in 'src/hostapi/jack/pa_jack.c', line: 1675\n");
-      result$link1 = -9986;
+      result_link1 = -9986;
       goto error;
     }
 
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$3;
-  signed int return_value_jack_port_connected$8;
-  signed int return_value_jack_port_disconnect$7;
-  unsigned long int return_value_pthread_self$6;
+  unsigned long int return_value_pthread_self_3;
+  signed int return_value_jack_port_connected_8;
+  signed int return_value_jack_port_disconnect_7;
+  unsigned long int return_value_pthread_self_6;
   do
   {
 
   error:
     ;
-    stream$link1->is_running = 0;
-    if(!(stream$link1->hostApi->jackIsDown == 0))
+    stream_link1->is_running = 0;
+    if(!(stream_link1->hostApi->jackIsDown == 0))
       goto __CPROVER_DUMP_L27;
 
     i = 0;
-    for( ; !(i >= stream$link1->num_incoming_connections); i = i + 1)
+    for( ; !(i >= stream_link1->num_incoming_connections); i = i + 1)
     {
-      signed int return_value_jack_port_connected$5;
-      return_value_jack_port_connected$5=jack_port_connected(stream$link1->local_input_ports[(signed long int)i]);
-      if(!(return_value_jack_port_connected$5 == 0))
+      signed int return_value_jack_port_connected_5;
+      return_value_jack_port_connected_5=jack_port_connected(stream_link1->local_input_ports[(signed long int)i]);
+      if(!(return_value_jack_port_connected_5 == 0))
         do
         {
-          signed int return_value_jack_port_disconnect$4;
-          return_value_jack_port_disconnect$4=jack_port_disconnect(stream$link1->jack_client, stream$link1->local_input_ports[(signed long int)i]);
-          if(!(return_value_jack_port_disconnect$4 == 0))
+          signed int return_value_jack_port_disconnect_4;
+          return_value_jack_port_disconnect_4=jack_port_disconnect(stream_link1->jack_client, stream_link1->local_input_ports[(signed long int)i]);
+          if(!(return_value_jack_port_disconnect_4 == 0))
           {
-            return_value_pthread_self$3=pthread_self();
-            if(return_value_pthread_self$3 == mainThread_)
+            return_value_pthread_self_3=pthread_self();
+            if(return_value_pthread_self_3 == mainThread_)
             {
               const char *err = jackErr_;
               if(err == ((const char *)NULL))
@@ -20398,7 +20398,7 @@ static signed int RealStop$link1(struct PaJackStream *stream$link1, signed int a
             }
 
             PaUtil_DebugPrint("Expression '!jack_port_disconnect( stream->jack_client, stream->local_input_ports[i] )' failed in 'src/hostapi/jack/pa_jack.c', line: 1691\n");
-            result$link1 = -9999;
+            result_link1 = -9999;
             goto error;
           }
 
@@ -20410,32 +20410,32 @@ static signed int RealStop$link1(struct PaJackStream *stream$link1, signed int a
 
   __CPROVER_DUMP_L21:
     ;
-    if(i >= stream$link1->num_outgoing_connections)
+    if(i >= stream_link1->num_outgoing_connections)
       goto __CPROVER_DUMP_L27;
 
-    return_value_jack_port_connected$8=jack_port_connected(stream$link1->local_output_ports[(signed long int)i]);
-    if(return_value_jack_port_connected$8 == 0)
+    return_value_jack_port_connected_8=jack_port_connected(stream_link1->local_output_ports[(signed long int)i]);
+    if(return_value_jack_port_connected_8 == 0)
       goto __CPROVER_DUMP_L26;
 
 
   __CPROVER_DUMP_L22:
     ;
-    return_value_jack_port_disconnect$7=jack_port_disconnect(stream$link1->jack_client, stream$link1->local_output_ports[(signed long int)i]);
-    if(return_value_jack_port_disconnect$7 == 0)
+    return_value_jack_port_disconnect_7=jack_port_disconnect(stream_link1->jack_client, stream_link1->local_output_ports[(signed long int)i]);
+    if(return_value_jack_port_disconnect_7 == 0)
       break;
 
-    return_value_pthread_self$6=pthread_self();
-    if(return_value_pthread_self$6 == mainThread_)
+    return_value_pthread_self_6=pthread_self();
+    if(return_value_pthread_self_6 == mainThread_)
     {
-      const char *RealStop$$1$$5$$2$$1$$1$$1$$1$$1$$err = jackErr_;
-      if(RealStop$$1$$5$$2$$1$$1$$1$$1$$1$$err == ((const char *)NULL))
-        RealStop$$1$$5$$2$$1$$1$$1$$1$$1$$err = "unknown error";
+      const char *RealStop__1__5__2__1__1__1__1__1__err = jackErr_;
+      if(RealStop__1__5__2__1__1__1__1__1__err == ((const char *)NULL))
+        RealStop__1__5__2__1__1__1__1__1__err = "unknown error";
 
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, RealStop$$1$$5$$2$$1$$1$$1$$1$$1$$err);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, RealStop__1__5__2__1__1__1__1__1__err);
     }
 
     PaUtil_DebugPrint("Expression '!jack_port_disconnect( stream->jack_client, stream->local_output_ports[i] )' failed in 'src/hostapi/jack/pa_jack.c', line: 1699\n");
-    result$link1 = -9999;
+    result_link1 = -9999;
   }
   while((_Bool)1);
 
@@ -20446,55 +20446,55 @@ __CPROVER_DUMP_L26:
 
 __CPROVER_DUMP_L27:
   ;
-  return result$link1;
+  return result_link1;
 }
 
-// RealStop$link2
+// RealStop_link2
 // file src/hostapi/oss/pa_unix_oss.c line 1822
-static signed int RealStop$link2(struct PaOssStream *stream$link2, signed int abort$link2)
+static signed int RealStop_link2(struct PaOssStream *stream_link2, signed int abort_link2)
 {
-  signed int result$link2 = 0;
-  if(!(stream$link2->callbackMode == 0))
+  signed int result_link2 = 0;
+  if(!(stream_link2->callbackMode == 0))
   {
-    if(!(abort$link2 == 0))
-      stream$link2->callbackAbort = 1;
+    if(!(abort_link2 == 0))
+      stream_link2->callbackAbort = 1;
 
     else
-      stream$link2->callbackStop = 1;
+      stream_link2->callbackStop = 1;
     do
     {
-      paUtilErr_$link1=PaUtil_CancelThreading(&stream$link2->threading, (signed int)!(abort$link2 != 0), (signed int *)(void *)0);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaUtil_CancelThreading(&stream_link2->threading, (signed int)!(abort_link2 != 0), (signed int *)(void *)0);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUtil_CancelThreading( &stream->threading, !abort, NULL )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1833\n");
-        result$link2 = paUtilErr_$link1;
+        result_link2 = paUtilErr__link1;
         goto error;
       }
 
     }
     while((_Bool)0);
-    stream$link2->callbackAbort = 0;
-    stream$link2->callbackStop = stream$link2->callbackAbort;
+    stream_link2->callbackAbort = 0;
+    stream_link2->callbackStop = stream_link2->callbackAbort;
   }
 
   else
     do
     {
-      paUtilErr_$link1=PaOssStream_Stop(stream$link2, abort$link2);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaOssStream_Stop(stream_link2, abort_link2);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaOssStream_Stop( stream, abort )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1838\n");
-        result$link2 = paUtilErr_$link1;
+        result_link2 = paUtilErr__link1;
         goto error;
       }
 
     }
     while((_Bool)0);
-  stream$link2->isStopped = 1;
+  stream_link2->isStopped = 1;
 
 error:
   ;
-  return result$link2;
+  return result_link2;
 }
 
 // RemoveOpenStream
@@ -20529,7 +20529,7 @@ __CPROVER_DUMP_L7:
 static signed int RemoveStream(struct PaJackStream *stream)
 {
   signed int result = 0;
-  struct anonymous$4 *hostApi = stream->hostApi;
+  struct anonymous_4 *hostApi = stream->hostApi;
   do
   {
     signed int err;
@@ -20546,13 +20546,13 @@ static signed int RemoveStream(struct PaJackStream *stream)
 
   do
   {
-    signed int RemoveStream$$1$$3$$err;
-    RemoveStream$$1$$3$$err=pthread_mutex_unlock(&hostApi->mtx);
+    signed int RemoveStream__1__3__err;
+    RemoveStream__1__3__err=pthread_mutex_unlock(&hostApi->mtx);
     /* assertion err == 0 */
-    assert(RemoveStream$$1$$3$$err == 0);
+    assert(RemoveStream__1__3__err == 0);
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
   {
     signed int paErr = result;
@@ -20560,14 +20560,14 @@ static signed int RemoveStream(struct PaJackStream *stream)
     {
       if(paErr == -9999)
       {
-        return_value_pthread_self$1=pthread_self();
-        if(return_value_pthread_self$1 == mainThread_)
+        return_value_pthread_self_1=pthread_self();
+        if(return_value_pthread_self_1 == mainThread_)
         {
-          const char *RemoveStream$$1$$4$$1$$1$$err = jackErr_;
-          if(RemoveStream$$1$$4$$1$$1$$err == ((const char *)NULL))
-            RemoveStream$$1$$4$$1$$1$$err = "unknown error";
+          const char *RemoveStream__1__4__1__1__err = jackErr_;
+          if(RemoveStream__1__4__1__1__err == ((const char *)NULL))
+            RemoveStream__1__4__1__1__err = "unknown error";
 
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, RemoveStream$$1$$4$$1$$1$$err);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, RemoveStream__1__4__1__1__err);
         }
 
       }
@@ -20622,28 +20622,28 @@ static signed int SetApproximateSampleRate(struct _snd_pcm *pcm, struct _snd_pcm
   assert(pcm != ((struct _snd_pcm *)NULL) && hwParams != ((struct _snd_pcm_hw_params *)NULL));
   setRate = (unsigned int)sampleRate;
   reqRate = setRate;
-  signed int SetApproximateSampleRate$$1$$1$$__pa_unsure_error_id;
-  SetApproximateSampleRate$$1$$1$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_set_rate_near(pcm, hwParams, &setRate, (signed int *)(void *)0);
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  if(!(SetApproximateSampleRate$$1$$1$$__pa_unsure_error_id >= 0))
+  signed int SetApproximateSampleRate__1__1____pa_unsure_error_id;
+  SetApproximateSampleRate__1__1____pa_unsure_error_id=alsa_snd_pcm_hw_params_set_rate_near(pcm, hwParams, &setRate, (signed int *)(void *)0);
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  if(!(SetApproximateSampleRate__1__1____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-    if(!(return_value_pthread_equal$2 == 0))
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+    if(!(return_value_pthread_equal_2 == 0))
     {
       const char *return_value;
-      return_value=alsa_snd_strerror(SetApproximateSampleRate$$1$$1$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)SetApproximateSampleRate$$1$$1$$__pa_unsure_error_id, return_value);
+      return_value=alsa_snd_strerror(SetApproximateSampleRate__1__1____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)SetApproximateSampleRate__1__1____pa_unsure_error_id, return_value);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_set_rate_near( pcm, hwParams, &setRate, NULL )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3201\n");
     result = -9999;
   }
 
-  signed int return_value_abs$3;
-  return_value_abs$3=abs((signed int)(setRate - reqRate));
-  deviation = (unsigned int)return_value_abs$3;
+  signed int return_value_abs_3;
+  return_value_abs_3=abs((signed int)(setRate - reqRate));
+  deviation = (unsigned int)return_value_abs_3;
   if(deviation >= 1u && !(reqRate >= 100u * deviation))
     result = -9997;
 
@@ -20659,13 +20659,13 @@ error:
   signed int _dir = 0;
   signed int __pa_unsure_error_id;
   __pa_unsure_error_id=alsa_snd_pcm_hw_params_get_rate_min(hwParams, &_min, &_dir);
-  unsigned long int return_value_pthread_self$4;
-  signed int return_value_pthread_equal$5;
+  unsigned long int return_value_pthread_self_4;
+  signed int return_value_pthread_equal_5;
   if(!(__pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$4=pthread_self();
-    return_value_pthread_equal$5=pthread_equal(return_value_pthread_self$4, paUnixMainThread);
-    if(!(return_value_pthread_equal$5 == 0))
+    return_value_pthread_self_4=pthread_self();
+    return_value_pthread_equal_5=pthread_equal(return_value_pthread_self_4, paUnixMainThread);
+    if(!(return_value_pthread_equal_5 == 0))
     {
       const char *return_value_1;
       return_value_1=alsa_snd_strerror(__pa_unsure_error_id);
@@ -20676,19 +20676,19 @@ error:
     result = -9999;
   }
 
-  signed int SetApproximateSampleRate$$1$$2$$2$$__pa_unsure_error_id;
-  SetApproximateSampleRate$$1$$2$$2$$__pa_unsure_error_id=alsa_snd_pcm_hw_params_get_rate_max(hwParams, &_max, &_dir);
-  unsigned long int return_value_pthread_self$6;
-  signed int return_value_pthread_equal$7;
-  if(!(SetApproximateSampleRate$$1$$2$$2$$__pa_unsure_error_id >= 0))
+  signed int SetApproximateSampleRate__1__2__2____pa_unsure_error_id;
+  SetApproximateSampleRate__1__2__2____pa_unsure_error_id=alsa_snd_pcm_hw_params_get_rate_max(hwParams, &_max, &_dir);
+  unsigned long int return_value_pthread_self_6;
+  signed int return_value_pthread_equal_7;
+  if(!(SetApproximateSampleRate__1__2__2____pa_unsure_error_id >= 0))
   {
-    return_value_pthread_self$6=pthread_self();
-    return_value_pthread_equal$7=pthread_equal(return_value_pthread_self$6, paUnixMainThread);
-    if(!(return_value_pthread_equal$7 == 0))
+    return_value_pthread_self_6=pthread_self();
+    return_value_pthread_equal_7=pthread_equal(return_value_pthread_self_6, paUnixMainThread);
+    if(!(return_value_pthread_equal_7 == 0))
     {
       const char *return_value_2;
-      return_value_2=alsa_snd_strerror(SetApproximateSampleRate$$1$$2$$2$$__pa_unsure_error_id);
-      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)SetApproximateSampleRate$$1$$2$$2$$__pa_unsure_error_id, return_value_2);
+      return_value_2=alsa_snd_strerror(SetApproximateSampleRate__1__2__2____pa_unsure_error_id);
+      PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)SetApproximateSampleRate__1__2__2____pa_unsure_error_id, return_value_2);
     }
 
     PaUtil_DebugPrint("Expression 'alsa_snd_pcm_hw_params_get_rate_max( hwParams, &_max, &_dir )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3217\n");
@@ -20702,13 +20702,13 @@ error:
 static signed int SetUpBuffers(struct PaOssStream *stream, unsigned long int framesAvail)
 {
   signed int result = 0;
-  if(!(stream->capture == ((struct anonymous$9 *)NULL)))
+  if(!(stream->capture == ((struct anonymous_9 *)NULL)))
   {
     PaUtil_SetInterleavedInputChannels(&stream->bufferProcessor, (unsigned int)0, stream->capture->buffer, (unsigned int)stream->capture->hostChannelCount);
     PaUtil_SetInputFrameCount(&stream->bufferProcessor, framesAvail);
   }
 
-  if(!(stream->playback == ((struct anonymous$9 *)NULL)))
+  if(!(stream->playback == ((struct anonymous_9 *)NULL)))
   {
     PaUtil_SetInterleavedOutputChannels(&stream->bufferProcessor, (unsigned int)0, stream->playback->buffer, (unsigned int)stream->playback->hostChannelCount);
     PaUtil_SetOutputFrameCount(&stream->bufferProcessor, framesAvail);
@@ -20737,8 +20737,8 @@ static void SilenceBuffer(struct PaAlsaStream *stream)
 static char * SkipCardDetailsInName(char *infoSkipName, char *cardRefName)
 {
   char *lastSpacePosn = infoSkipName;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
   while(!(*cardRefName == 0))
   {
     while(!(*infoSkipName == 0))
@@ -20752,25 +20752,25 @@ static char * SkipCardDetailsInName(char *infoSkipName, char *cardRefName)
       infoSkipName = infoSkipName + 1l;
       cardRefName = cardRefName + 1l;
       if((signed int)*infoSkipName == 32)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*infoSkipName == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)*infoSkipName == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         lastSpacePosn = infoSkipName;
 
     }
     infoSkipName = lastSpacePosn;
     while(!(*cardRefName == 0))
     {
-      tmp_post$2 = cardRefName;
+      tmp_post_2 = cardRefName;
       cardRefName = cardRefName + 1l;
-      if((signed int)*tmp_post$2 == 32)
+      if((signed int)*tmp_post_2 == 32)
         break;
 
     }
   }
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((signed int)*infoSkipName == 0)
     return "-";
 
@@ -20781,11 +20781,11 @@ static char * SkipCardDetailsInName(char *infoSkipName, char *cardRefName)
         break;
 
     if((signed int)*lastSpacePosn == 45)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*lastSpacePosn == 58 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)*lastSpacePosn == 58 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       if((signed int)lastSpacePosn[1l] == 32)
         lastSpacePosn = lastSpacePosn + (signed long int)2;
@@ -20807,23 +20807,23 @@ static signed int StartStream(void *s)
   return result;
 }
 
-// StartStream$link1
+// StartStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 2984
-static signed int StartStream$link1(void *s$link1)
+static signed int StartStream_link1(void *s_link1)
 {
-  signed int result$link1 = 0;
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
+  signed int result_link1 = 0;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
   signed int streamStarted = 0;
-  PaUtil_ResetBufferProcessor(&stream$link1->bufferProcessor);
-  stream$link1->isActive = 1;
-  if(!(stream$link1->callbackMode == 0))
+  PaUtil_ResetBufferProcessor(&stream_link1->bufferProcessor);
+  stream_link1->isActive = 1;
+  if(!(stream_link1->callbackMode == 0))
     do
     {
-      paUtilErr_=PaUnixThread_New(&stream$link1->thread, CallbackThreadFunc, (void *)stream$link1, 1., stream$link1->rtSched);
+      paUtilErr_=PaUnixThread_New(&stream_link1->thread, CallbackThreadFunc, (void *)stream_link1, 1., stream_link1->rtSched);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUnixThread_New( &stream->thread, &CallbackThreadFunc, stream, 1., stream->rtSched )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2998\n");
-        result$link1 = paUtilErr_;
+        result_link1 = paUtilErr_;
         goto error;
       }
 
@@ -20834,11 +20834,11 @@ static signed int StartStream$link1(void *s$link1)
   {
     do
     {
-      paUtilErr_=AlsaStart(stream$link1, 0);
+      paUtilErr_=AlsaStart(stream_link1, 0);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'AlsaStart( stream, 0 )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 3002\n");
-        result$link1 = paUtilErr_;
+        result_link1 = paUtilErr_;
         goto error;
       }
 
@@ -20849,52 +20849,52 @@ static signed int StartStream$link1(void *s$link1)
 
 end:
   ;
-  return result$link1;
+  return result_link1;
 
 error:
   ;
   if(!(streamStarted == 0))
-    AbortStream$link1((void *)stream$link1);
+    AbortStream_link1((void *)stream_link1);
 
-  stream$link1->isActive = 0;
+  stream_link1->isActive = 0;
   goto end;
 }
 
-// StartStream$link2
+// StartStream_link2
 // file src/hostapi/jack/pa_jack.c line 1593
-static signed int StartStream$link2(void *s$link2)
+static signed int StartStream_link2(void *s_link2)
 {
-  signed int result$link2 = 0;
-  struct PaJackStream *stream$link2 = (struct PaJackStream *)s$link2;
+  signed int result_link2 = 0;
+  struct PaJackStream *stream_link2 = (struct PaJackStream *)s_link2;
   signed int i;
-  PaUtil_ResetBufferProcessor(&stream$link2->bufferProcessor);
-  unsigned long int return_value_pthread_self$3;
-  if(stream$link2->num_incoming_connections >= 1)
+  PaUtil_ResetBufferProcessor(&stream_link2->bufferProcessor);
+  unsigned long int return_value_pthread_self_3;
+  if(stream_link2->num_incoming_connections >= 1)
   {
     i = 0;
-    for( ; !(i >= stream$link2->num_incoming_connections); i = i + 1)
+    for( ; !(i >= stream_link2->num_incoming_connections); i = i + 1)
     {
       signed int r;
-      const char *return_value_jack_port_name$1;
-      return_value_jack_port_name$1=jack_port_name(stream$link2->remote_output_ports[(signed long int)i]);
-      const char *return_value_jack_port_name$2;
-      return_value_jack_port_name$2=jack_port_name(stream$link2->local_input_ports[(signed long int)i]);
-      r=jack_connect(stream$link2->jack_client, return_value_jack_port_name$1, return_value_jack_port_name$2);
+      const char *return_value_jack_port_name_1;
+      return_value_jack_port_name_1=jack_port_name(stream_link2->remote_output_ports[(signed long int)i]);
+      const char *return_value_jack_port_name_2;
+      return_value_jack_port_name_2=jack_port_name(stream_link2->local_input_ports[(signed long int)i]);
+      r=jack_connect(stream_link2->jack_client, return_value_jack_port_name_1, return_value_jack_port_name_2);
       do
         if(!(r == 0) && !(r == 17))
         {
-          return_value_pthread_self$3=pthread_self();
-          if(return_value_pthread_self$3 == mainThread_)
+          return_value_pthread_self_3=pthread_self();
+          if(return_value_pthread_self_3 == mainThread_)
           {
-            const char *StartStream$$1$$1$$1$$1$$1$$1$$1$$err = jackErr_;
-            if(StartStream$$1$$1$$1$$1$$1$$1$$1$$err == ((const char *)NULL))
-              StartStream$$1$$1$$1$$1$$1$$1$$1$$err = "unknown error";
+            const char *StartStream__1__1__1__1__1__1__1__err = jackErr_;
+            if(StartStream__1__1__1__1__1__1__1__err == ((const char *)NULL))
+              StartStream__1__1__1__1__1__1__1__err = "unknown error";
 
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, StartStream$$1$$1$$1$$1$$1$$1$$1$$err);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, StartStream__1__1__1__1__1__1__1__err);
           }
 
           PaUtil_DebugPrint("Expression '0 == r || EEXIST == r' failed in 'src/hostapi/jack/pa_jack.c', line: 1611\n");
-          result$link2 = -9999;
+          result_link2 = -9999;
           goto error;
         }
 
@@ -20902,33 +20902,33 @@ static signed int StartStream$link2(void *s$link2)
     }
   }
 
-  unsigned long int return_value_pthread_self$6;
-  if(stream$link2->num_outgoing_connections >= 1)
+  unsigned long int return_value_pthread_self_6;
+  if(stream_link2->num_outgoing_connections >= 1)
   {
     i = 0;
-    for( ; !(i >= stream$link2->num_outgoing_connections); i = i + 1)
+    for( ; !(i >= stream_link2->num_outgoing_connections); i = i + 1)
     {
-      signed int StartStream$$1$$2$$1$$1$$r;
-      const char *return_value_jack_port_name$4;
-      return_value_jack_port_name$4=jack_port_name(stream$link2->local_output_ports[(signed long int)i]);
-      const char *return_value_jack_port_name$5;
-      return_value_jack_port_name$5=jack_port_name(stream$link2->remote_input_ports[(signed long int)i]);
-      StartStream$$1$$2$$1$$1$$r=jack_connect(stream$link2->jack_client, return_value_jack_port_name$4, return_value_jack_port_name$5);
+      signed int StartStream__1__2__1__1__r;
+      const char *return_value_jack_port_name_4;
+      return_value_jack_port_name_4=jack_port_name(stream_link2->local_output_ports[(signed long int)i]);
+      const char *return_value_jack_port_name_5;
+      return_value_jack_port_name_5=jack_port_name(stream_link2->remote_input_ports[(signed long int)i]);
+      StartStream__1__2__1__1__r=jack_connect(stream_link2->jack_client, return_value_jack_port_name_4, return_value_jack_port_name_5);
       do
-        if(!(StartStream$$1$$2$$1$$1$$r == 0) && !(StartStream$$1$$2$$1$$1$$r == 17))
+        if(!(StartStream__1__2__1__1__r == 0) && !(StartStream__1__2__1__1__r == 17))
         {
-          return_value_pthread_self$6=pthread_self();
-          if(return_value_pthread_self$6 == mainThread_)
+          return_value_pthread_self_6=pthread_self();
+          if(return_value_pthread_self_6 == mainThread_)
           {
-            const char *StartStream$$1$$2$$1$$1$$1$$1$$1$$err = jackErr_;
-            if(StartStream$$1$$2$$1$$1$$1$$1$$1$$err == ((const char *)NULL))
-              StartStream$$1$$2$$1$$1$$1$$1$$1$$err = "unknown error";
+            const char *StartStream__1__2__1__1__1__1__1__err = jackErr_;
+            if(StartStream__1__2__1__1__1__1__1__err == ((const char *)NULL))
+              StartStream__1__2__1__1__1__1__1__err = "unknown error";
 
-            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, StartStream$$1$$2$$1$$1$$1$$1$$1$$err);
+            PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paJACK, (signed long int)-1, StartStream__1__2__1__1__1__1__1__err);
           }
 
           PaUtil_DebugPrint("Expression '0 == r || EEXIST == r' failed in 'src/hostapi/jack/pa_jack.c', line: 1621\n");
-          result$link2 = -9999;
+          result_link2 = -9999;
           goto error;
         }
 
@@ -20936,41 +20936,41 @@ static signed int StartStream$link2(void *s$link2)
     }
   }
 
-  stream$link2->xrun = 0;
+  stream_link2->xrun = 0;
   do
   {
-    signed int StartStream$$1$$3$$err;
-    StartStream$$1$$3$$err=pthread_mutex_lock(&stream$link2->hostApi->mtx);
+    signed int StartStream__1__3__err;
+    StartStream__1__3__err=pthread_mutex_lock(&stream_link2->hostApi->mtx);
     /* assertion err == 0 */
-    assert(StartStream$$1$$3$$err == 0);
+    assert(StartStream__1__3__err == 0);
   }
   while((_Bool)0);
-  stream$link2->doStart = 1;
-  result$link2=WaitCondition(stream$link2->hostApi);
-  if(!(result$link2 == 0))
+  stream_link2->doStart = 1;
+  result_link2=WaitCondition(stream_link2->hostApi);
+  if(!(result_link2 == 0))
   {
-    stream$link2->doStart = 0;
-    stream$link2->is_active = 0;
+    stream_link2->doStart = 0;
+    stream_link2->is_active = 0;
   }
 
   do
   {
-    signed int StartStream$$1$$5$$err;
-    StartStream$$1$$5$$err=pthread_mutex_unlock(&stream$link2->hostApi->mtx);
+    signed int StartStream__1__5__err;
+    StartStream__1__5__err=pthread_mutex_unlock(&stream_link2->hostApi->mtx);
     /* assertion err == 0 */
-    assert(StartStream$$1$$5$$err == 0);
+    assert(StartStream__1__5__err == 0);
   }
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$7;
+  unsigned long int return_value_pthread_self_7;
   do
   {
-    signed int paErr = result$link2;
+    signed int paErr = result_link2;
     if(!(paErr >= 0))
     {
       if(paErr == -9999)
       {
-        return_value_pthread_self$7=pthread_self();
-        if(return_value_pthread_self$7 == mainThread_)
+        return_value_pthread_self_7=pthread_self();
+        if(return_value_pthread_self_7 == mainThread_)
         {
           const char *err = jackErr_;
           if(err == ((const char *)NULL))
@@ -20982,55 +20982,55 @@ static signed int StartStream$link2(void *s$link2)
       }
 
       PaUtil_DebugPrint("Expression 'result' failed in 'src/hostapi/jack/pa_jack.c', line: 1647\n");
-      result$link2 = paErr;
+      result_link2 = paErr;
       goto error;
     }
 
   }
   while((_Bool)0);
-  stream$link2->is_running = 1;
+  stream_link2->is_running = 1;
 
 error:
   ;
-  return result$link2;
+  return result_link2;
 }
 
-// StartStream$link3
+// StartStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1798
-static signed int StartStream$link3(void *s$link3)
+static signed int StartStream_link3(void *s_link3)
 {
-  signed int result$link3 = 0;
-  struct PaOssStream *stream$link3 = (struct PaOssStream *)s$link3;
-  stream$link3->isActive = 1;
-  stream$link3->isStopped = 0;
-  stream$link3->lastPosPtr = 0;
-  stream$link3->lastStreamBytes = (double)0;
-  stream$link3->framesProcessed = 0;
-  if(!(stream$link3->bufferProcessor.streamCallback == ((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))NULL)))
+  signed int result_link3 = 0;
+  struct PaOssStream *stream_link3 = (struct PaOssStream *)s_link3;
+  stream_link3->isActive = 1;
+  stream_link3->isStopped = 0;
+  stream_link3->lastPosPtr = 0;
+  stream_link3->lastStreamBytes = (double)0;
+  stream_link3->framesProcessed = 0;
+  if(!(stream_link3->bufferProcessor.streamCallback == ((signed int (*)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *))NULL)))
   {
     do
     {
-      paUtilErr_$link1=PaUtil_StartThreading(&stream$link3->threading, PaOSS_AudioThreadProc, (void *)stream$link3);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaUtil_StartThreading(&stream_link3->threading, PaOSS_AudioThreadProc, (void *)stream_link3);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaUtil_StartThreading( &stream->threading, &PaOSS_AudioThreadProc, stream )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1812\n");
-        result$link3 = paUtilErr_$link1;
+        result_link3 = paUtilErr__link1;
         goto error;
       }
 
     }
     while((_Bool)0);
-    sem_wait(&stream$link3->semaphore);
+    sem_wait(&stream_link3->semaphore);
   }
 
   else
     do
     {
-      paUtilErr_$link1=PaOssStream_Prepare(stream$link3);
-      if(!(paUtilErr_$link1 >= 0))
+      paUtilErr__link1=PaOssStream_Prepare(stream_link3);
+      if(!(paUtilErr__link1 >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaOssStream_Prepare( stream )' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 1816\n");
-        result$link3 = paUtilErr_$link1;
+        result_link3 = paUtilErr__link1;
         break;
       }
 
@@ -21039,7 +21039,7 @@ static signed int StartStream$link3(void *s$link3)
 
 error:
   ;
-  return result$link3;
+  return result_link3;
 }
 
 // StopStream
@@ -21052,41 +21052,41 @@ static signed int StopStream(void *s)
   return result;
 }
 
-// StopStream$link1
+// StopStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 3128
-static signed int StopStream$link1(void *s$link1)
+static signed int StopStream_link1(void *s_link1)
 {
-  signed int return_value_RealStop$1;
-  return_value_RealStop$1=RealStop((struct PaAlsaStream *)s$link1, 0);
-  return return_value_RealStop$1;
+  signed int return_value_RealStop_1;
+  return_value_RealStop_1=RealStop((struct PaAlsaStream *)s_link1, 0);
+  return return_value_RealStop_1;
 }
 
-// StopStream$link2
+// StopStream_link2
 // file src/hostapi/jack/pa_jack.c line 1707
-static signed int StopStream$link2(void *s$link2)
+static signed int StopStream_link2(void *s_link2)
 {
   /* assertion s */
-  assert(s$link2 != NULL);
-  signed int return_value_RealStop$1$link1;
-  return_value_RealStop$1$link1=RealStop$link1((struct PaJackStream *)s$link2, 0);
-  return return_value_RealStop$1$link1;
+  assert(s_link2 != NULL);
+  signed int return_value_RealStop_1_link1;
+  return_value_RealStop_1_link1=RealStop_link1((struct PaJackStream *)s_link2, 0);
+  return return_value_RealStop_1_link1;
 }
 
-// StopStream$link3
+// StopStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1851
-static signed int StopStream$link3(void *s$link3)
+static signed int StopStream_link3(void *s_link3)
 {
-  signed int return_value_RealStop$1$link2;
-  return_value_RealStop$1$link2=RealStop$link2((struct PaOssStream *)s$link3, 0);
-  return return_value_RealStop$1$link2;
+  signed int return_value_RealStop_1_link2;
+  return_value_RealStop_1_link2=RealStop_link2((struct PaOssStream *)s_link3, 0);
+  return return_value_RealStop_1_link2;
 }
 
 // Terminate
 // file src/hostapi/skeleton/pa_hostapi_skeleton.c line 241
 static void Terminate(struct PaUtilHostApiRepresentation *hostApi)
 {
-  struct anonymous$22 *skeletonHostApi = (struct anonymous$22 *)hostApi;
-  if(!(skeletonHostApi->allocations == ((struct anonymous$13 *)NULL)))
+  struct anonymous_22 *skeletonHostApi = (struct anonymous_22 *)hostApi;
+  if(!(skeletonHostApi->allocations == ((struct anonymous_13 *)NULL)))
   {
     PaUtil_FreeAllAllocations(skeletonHostApi->allocations);
     PaUtil_DestroyAllocationGroup(skeletonHostApi->allocations);
@@ -21095,14 +21095,14 @@ static void Terminate(struct PaUtilHostApiRepresentation *hostApi)
   PaUtil_FreeMemory((void *)skeletonHostApi);
 }
 
-// Terminate$link1
+// Terminate_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 806
-static void Terminate$link1(struct PaUtilHostApiRepresentation *hostApi$link1)
+static void Terminate_link1(struct PaUtilHostApiRepresentation *hostApi_link1)
 {
-  struct PaAlsaHostApiRepresentation *alsaHostApi = (struct PaAlsaHostApiRepresentation *)hostApi$link1;
+  struct PaAlsaHostApiRepresentation *alsaHostApi = (struct PaAlsaHostApiRepresentation *)hostApi_link1;
   /* assertion hostApi */
-  assert(hostApi$link1 != ((struct PaUtilHostApiRepresentation *)NULL));
-  if(!(alsaHostApi->allocations == ((struct anonymous$13 *)NULL)))
+  assert(hostApi_link1 != ((struct PaUtilHostApiRepresentation *)NULL));
+  if(!(alsaHostApi->allocations == ((struct anonymous_13 *)NULL)))
   {
     PaUtil_FreeAllAllocations(alsaHostApi->allocations);
     PaUtil_DestroyAllocationGroup(alsaHostApi->allocations);
@@ -21113,33 +21113,33 @@ static void Terminate$link1(struct PaUtilHostApiRepresentation *hostApi$link1)
   PaAlsa_CloseLibrary();
 }
 
-// Terminate$link2
+// Terminate_link2
 // file src/hostapi/jack/pa_jack.c line 814
-static void Terminate$link2(struct PaUtilHostApiRepresentation *hostApi$link2)
+static void Terminate_link2(struct PaUtilHostApiRepresentation *hostApi_link2)
 {
-  struct anonymous$4 *jackHostApi = (struct anonymous$4 *)hostApi$link2;
+  struct anonymous_4 *jackHostApi = (struct anonymous_4 *)hostApi_link2;
   do
   {
-    signed int Terminate$$1$$1$$err;
-    Terminate$$1$$1$$err=jack_deactivate(jackHostApi->jack_client);
+    signed int Terminate__1__1__err;
+    Terminate__1__1__err=jack_deactivate(jackHostApi->jack_client);
     /* assertion err == 0 */
-    assert(Terminate$$1$$1$$err == 0);
+    assert(Terminate__1__1__err == 0);
   }
   while((_Bool)0);
   do
   {
-    signed int Terminate$$1$$2$$err;
-    Terminate$$1$$2$$err=pthread_mutex_destroy(&jackHostApi->mtx);
+    signed int Terminate__1__2__err;
+    Terminate__1__2__err=pthread_mutex_destroy(&jackHostApi->mtx);
     /* assertion err == 0 */
-    assert(Terminate$$1$$2$$err == 0);
+    assert(Terminate__1__2__err == 0);
   }
   while((_Bool)0);
   do
   {
-    signed int Terminate$$1$$3$$err;
-    Terminate$$1$$3$$err=pthread_cond_destroy(&jackHostApi->cond);
+    signed int Terminate__1__3__err;
+    Terminate__1__3__err=pthread_cond_destroy(&jackHostApi->cond);
     /* assertion err == 0 */
-    assert(Terminate$$1$$3$$err == 0);
+    assert(Terminate__1__3__err == 0);
   }
   while((_Bool)0);
   do
@@ -21150,7 +21150,7 @@ static void Terminate$link2(struct PaUtilHostApiRepresentation *hostApi$link2)
     assert(err == 0);
   }
   while((_Bool)0);
-  if(!(jackHostApi->deviceInfoMemory == ((struct anonymous$13 *)NULL)))
+  if(!(jackHostApi->deviceInfoMemory == ((struct anonymous_13 *)NULL)))
   {
     PaUtil_FreeAllAllocations(jackHostApi->deviceInfoMemory);
     PaUtil_DestroyAllocationGroup(jackHostApi->deviceInfoMemory);
@@ -21161,12 +21161,12 @@ static void Terminate$link2(struct PaUtilHostApiRepresentation *hostApi$link2)
   jackErr_ = (char *)(void *)0;
 }
 
-// Terminate$link3
+// Terminate_link3
 // file src/hostapi/oss/pa_unix_oss.c line 592
-static void Terminate$link3(struct PaUtilHostApiRepresentation *hostApi$link3)
+static void Terminate_link3(struct PaUtilHostApiRepresentation *hostApi_link3)
 {
-  struct anonymous$14 *ossHostApi = (struct anonymous$14 *)hostApi$link3;
-  if(!(ossHostApi->allocations == ((struct anonymous$13 *)NULL)))
+  struct anonymous_14 *ossHostApi = (struct anonymous_14 *)hostApi_link3;
+  if(!(ossHostApi->allocations == ((struct anonymous_13 *)NULL)))
   {
     PaUtil_FreeAllAllocations(ossHostApi->allocations);
     PaUtil_DestroyAllocationGroup(ossHostApi->allocations);
@@ -21225,9 +21225,9 @@ __CPROVER_DUMP_L3:
     inputParameters.device = deviceID;
     inputParameters.channelCount = numChannels;
     inputParameters.sampleFormat = format;
-    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo$1;
-    return_value_Pa_GetDeviceInfo$1=Pa_GetDeviceInfo(inputParameters.device);
-    inputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo$1->defaultLowInputLatency;
+    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo_1;
+    return_value_Pa_GetDeviceInfo_1=Pa_GetDeviceInfo(inputParameters.device);
+    inputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo_1->defaultLowInputLatency;
     inputParameters.hostApiSpecificStreamInfo = (void *)0;
     ipp = &inputParameters;
   }
@@ -21239,28 +21239,28 @@ __CPROVER_DUMP_L3:
     outputParameters.device = deviceID;
     outputParameters.channelCount = numChannels;
     outputParameters.sampleFormat = format;
-    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo$2;
-    return_value_Pa_GetDeviceInfo$2=Pa_GetDeviceInfo(outputParameters.device);
-    outputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo$2->defaultLowOutputLatency;
+    const struct PaDeviceInfo *return_value_Pa_GetDeviceInfo_2;
+    return_value_Pa_GetDeviceInfo_2=Pa_GetDeviceInfo(outputParameters.device);
+    outputParameters.suggestedLatency = return_value_Pa_GetDeviceInfo_2->defaultLowOutputLatency;
     outputParameters.hostApiSpecificStreamInfo = (void *)0;
     opp = &outputParameters;
   }
 
   else
     opp = (struct PaStreamParameters *)(void *)0;
-  signed int return_value_Pa_IsFormatSupported$13;
-  return_value_Pa_IsFormatSupported$13=Pa_IsFormatSupported(ipp, opp, sampleRate);
-  char *tmp_if_expr$4;
-  const char *return_value_Pa_GetErrorText$3;
-  char *tmp_if_expr$6;
-  const char *return_value_Pa_GetErrorText$5;
-  char *tmp_if_expr$8;
-  const char *return_value_Pa_GetErrorText$7;
-  char *tmp_if_expr$10;
-  const char *return_value_Pa_GetErrorText$9;
-  char *tmp_if_expr$12;
-  const char *return_value_Pa_GetErrorText$11;
-  if(return_value_Pa_IsFormatSupported$13 == 0)
+  signed int return_value_Pa_IsFormatSupported_13;
+  return_value_Pa_IsFormatSupported_13=Pa_IsFormatSupported(ipp, opp, sampleRate);
+  char *tmp_if_expr_4;
+  const char *return_value_Pa_GetErrorText_3;
+  char *tmp_if_expr_6;
+  const char *return_value_Pa_GetErrorText_5;
+  char *tmp_if_expr_8;
+  const char *return_value_Pa_GetErrorText_7;
+  char *tmp_if_expr_10;
+  const char *return_value_Pa_GetErrorText_9;
+  char *tmp_if_expr_12;
+  const char *return_value_Pa_GetErrorText_11;
+  if(return_value_Pa_IsFormatSupported_13 == 0)
   {
     printf("------ TestAdvance: %s, device = %d, rate = %g, numChannels = %d, format = %lu -------\n", mode == 0 ? "INPUT" : "OUTPUT", deviceID, sampleRate, numChannels, (unsigned long int)format);
     do
@@ -21272,14 +21272,14 @@ __CPROVER_DUMP_L3:
       else
       {
         if(result == 0)
-          tmp_if_expr$4 = "-";
+          tmp_if_expr_4 = "-";
 
         else
         {
-          return_value_Pa_GetErrorText$3=Pa_GetErrorText(result);
-          tmp_if_expr$4 = return_value_Pa_GetErrorText$3;
+          return_value_Pa_GetErrorText_3=Pa_GetErrorText(result);
+          tmp_if_expr_4 = return_value_Pa_GetErrorText_3;
         }
-        printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr$4, (const void *)"((result = Pa_OpenStream( &stream, ipp, opp, sampleRate, FRAMES_PER_BUFFER, paClipOff, QaCallback, &myData ) ) == 0)");
+        printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr_4, (const void *)"((result = Pa_OpenStream( &stream, ipp, opp, sampleRate, FRAMES_PER_BUFFER, paClipOff, QaCallback, &myData ) ) == 0)");
         gNumFailed = gNumFailed + 1;
         goto error;
       }
@@ -21305,14 +21305,14 @@ __CPROVER_DUMP_L3:
         else
         {
           if(result == 0)
-            tmp_if_expr$6 = "-";
+            tmp_if_expr_6 = "-";
 
           else
           {
-            return_value_Pa_GetErrorText$5=Pa_GetErrorText(result);
-            tmp_if_expr$6 = return_value_Pa_GetErrorText$5;
+            return_value_Pa_GetErrorText_5=Pa_GetErrorText(result);
+            tmp_if_expr_6 = return_value_Pa_GetErrorText_5;
           }
-          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr$6, (const void *)"((result=Pa_StartStream( stream )) == 0)");
+          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr_6, (const void *)"((result=Pa_StartStream( stream )) == 0)");
           gNumFailed = gNumFailed + 1;
           goto error;
         }
@@ -21329,14 +21329,14 @@ __CPROVER_DUMP_L3:
         else
         {
           if(result == 0)
-            tmp_if_expr$8 = "-";
+            tmp_if_expr_8 = "-";
 
           else
           {
-            return_value_Pa_GetErrorText$7=Pa_GetErrorText(result);
-            tmp_if_expr$8 = return_value_Pa_GetErrorText$7;
+            return_value_Pa_GetErrorText_7=Pa_GetErrorText(result);
+            tmp_if_expr_8 = return_value_Pa_GetErrorText_7;
           }
-          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr$8, (const void *)"(oldStamp < newStamp)");
+          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr_8, (const void *)"(oldStamp < newStamp)");
           gNumFailed = gNumFailed + 1;
           goto error;
         }
@@ -21351,14 +21351,14 @@ __CPROVER_DUMP_L3:
         else
         {
           if(result == 0)
-            tmp_if_expr$10 = "-";
+            tmp_if_expr_10 = "-";
 
           else
           {
-            return_value_Pa_GetErrorText$9=Pa_GetErrorText(result);
-            tmp_if_expr$10 = return_value_Pa_GetErrorText$9;
+            return_value_Pa_GetErrorText_9=Pa_GetErrorText(result);
+            tmp_if_expr_10 = return_value_Pa_GetErrorText_9;
           }
-          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr$10, (const void *)"(oldFrames > myData.framesLeft)");
+          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr_10, (const void *)"(oldFrames > myData.framesLeft)");
           gNumFailed = gNumFailed + 1;
           goto error;
         }
@@ -21372,14 +21372,14 @@ __CPROVER_DUMP_L3:
         else
         {
           if(result == 0)
-            tmp_if_expr$12 = "-";
+            tmp_if_expr_12 = "-";
 
           else
           {
-            return_value_Pa_GetErrorText$11=Pa_GetErrorText(result);
-            tmp_if_expr$12 = return_value_Pa_GetErrorText$11;
+            return_value_Pa_GetErrorText_11=Pa_GetErrorText(result);
+            tmp_if_expr_12 = return_value_Pa_GetErrorText_11;
           }
-          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr$12, (const void *)"((result=Pa_CloseStream( stream )) == 0)");
+          printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr_12, (const void *)"((result=Pa_CloseStream( stream )) == 0)");
           gNumFailed = gNumFailed + 1;
           goto error;
         }
@@ -21412,16 +21412,16 @@ static void TestDevices(signed int mode)
   signed int numDevices;
   numDevices=Pa_GetDeviceCount();
   id = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(id >= numDevices); id = id + 1)
   {
     pdi=Pa_GetDeviceInfo(id);
     if(mode == 0)
-      tmp_if_expr$1 = pdi->maxInputChannels;
+      tmp_if_expr_1 = pdi->maxInputChannels;
 
     else
-      tmp_if_expr$1 = pdi->maxOutputChannels;
-    maxChannels = tmp_if_expr$1;
+      tmp_if_expr_1 = pdi->maxOutputChannels;
+    maxChannels = tmp_if_expr_1;
     if(maxChannels >= 5)
       maxChannels = 4;
 
@@ -21450,7 +21450,7 @@ static void TestFormats(signed int mode, signed int deviceID, double sampleRate,
 
 // TestParameters
 // file src/hostapi/alsa/pa_linux_alsa.c line 1747
-static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *parameters, double sampleRate, enum anonymous$17 streamDir)
+static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostApi, const struct PaStreamParameters *parameters, double sampleRate, enum anonymous_17 streamDir)
 {
   signed int result = 0;
   struct _snd_pcm *pcm = (struct _snd_pcm *)(void *)0;
@@ -21460,46 +21460,46 @@ static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostA
   struct _snd_pcm_hw_params *hwParams;
   unsigned long int __alsa_alloca_size;
   __alsa_alloca_size=alsa_snd_pcm_hw_params_sizeof();
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca(__alsa_alloca_size);
-  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca(__alsa_alloca_size);
+  *(&hwParams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_1;
   memset((void *)*(&hwParams), 0, __alsa_alloca_size);
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_3;
   if(parameters->hostApiSpecificStreamInfo == NULL)
   {
     const struct PaAlsaDeviceInfo *devInfo;
     devInfo=GetDeviceInfo(hostApi, parameters->device);
     if((signed int)streamDir == StreamDirection_In)
-      tmp_if_expr$2 = devInfo->minInputChannels;
+      tmp_if_expr_2 = devInfo->minInputChannels;
 
     else
-      tmp_if_expr$2 = devInfo->minOutputChannels;
-    if(!(tmp_if_expr$2 >= parameters->channelCount))
-      tmp_if_expr$4 = parameters->channelCount;
+      tmp_if_expr_2 = devInfo->minOutputChannels;
+    if(!(tmp_if_expr_2 >= parameters->channelCount))
+      tmp_if_expr_4 = parameters->channelCount;
 
     else
     {
       if((signed int)streamDir == StreamDirection_In)
-        tmp_if_expr$3 = devInfo->minInputChannels;
+        tmp_if_expr_3 = devInfo->minInputChannels;
 
       else
-        tmp_if_expr$3 = devInfo->minOutputChannels;
-      tmp_if_expr$4 = tmp_if_expr$3;
+        tmp_if_expr_3 = devInfo->minOutputChannels;
+      tmp_if_expr_4 = tmp_if_expr_3;
     }
-    numHostChannels = (unsigned int)tmp_if_expr$4;
+    numHostChannels = (unsigned int)tmp_if_expr_4;
   }
 
   else
     numHostChannels = (unsigned int)parameters->channelCount;
   paUtilErr_=AlsaOpen(hostApi, parameters, streamDir, &pcm);
-  signed int return_value_SetApproximateSampleRate$5;
+  signed int return_value_SetApproximateSampleRate_5;
   signed int return_value;
-  unsigned long int return_value_pthread_self$6;
-  signed int return_value_pthread_equal$7;
-  unsigned long int return_value_pthread_self$9;
-  signed int return_value_pthread_equal$10;
+  unsigned long int return_value_pthread_self_6;
+  signed int return_value_pthread_equal_7;
+  unsigned long int return_value_pthread_self_9;
+  signed int return_value_pthread_equal_10;
   if(!(paUtilErr_ >= 0))
   {
     PaUtil_DebugPrint("Expression 'AlsaOpen( hostApi, parameters, streamDir, &pcm )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1768\n");
@@ -21509,8 +21509,8 @@ static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostA
   else
   {
     alsa_snd_pcm_hw_params_any(pcm, hwParams);
-    return_value_SetApproximateSampleRate$5=SetApproximateSampleRate(pcm, hwParams, sampleRate);
-    if(!(return_value_SetApproximateSampleRate$5 >= 0))
+    return_value_SetApproximateSampleRate_5=SetApproximateSampleRate(pcm, hwParams, sampleRate);
+    if(!(return_value_SetApproximateSampleRate_5 >= 0))
       result = -9997;
 
     else
@@ -21533,14 +21533,14 @@ static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostA
         else
         {
           signed int __pa_unsure_error_id;
-          enum _snd_pcm_format return_value_Pa2AlsaFormat$8;
-          return_value_Pa2AlsaFormat$8=Pa2AlsaFormat(hostFormat);
-          __pa_unsure_error_id=alsa_snd_pcm_hw_params_set_format(pcm, hwParams, return_value_Pa2AlsaFormat$8);
+          enum _snd_pcm_format return_value_Pa2AlsaFormat_8;
+          return_value_Pa2AlsaFormat_8=Pa2AlsaFormat(hostFormat);
+          __pa_unsure_error_id=alsa_snd_pcm_hw_params_set_format(pcm, hwParams, return_value_Pa2AlsaFormat_8);
           if(!(__pa_unsure_error_id >= 0))
           {
-            return_value_pthread_self$6=pthread_self();
-            return_value_pthread_equal$7=pthread_equal(return_value_pthread_self$6, paUnixMainThread);
-            if(!(return_value_pthread_equal$7 == 0))
+            return_value_pthread_self_6=pthread_self();
+            return_value_pthread_equal_7=pthread_equal(return_value_pthread_self_6, paUnixMainThread);
+            if(!(return_value_pthread_equal_7 == 0))
             {
               const char *return_value_1;
               return_value_1=alsa_snd_strerror(__pa_unsure_error_id);
@@ -21564,18 +21564,18 @@ static signed int TestParameters(const struct PaUtilHostApiRepresentation *hostA
 
               else
                 result = -9999;
-            signed int TestParameters$$1$$8$$1$$4$$__pa_unsure_error_id = ret;
-            if(!(TestParameters$$1$$8$$1$$4$$__pa_unsure_error_id >= 0))
+            signed int TestParameters__1__8__1__4____pa_unsure_error_id = ret;
+            if(!(TestParameters__1__8__1__4____pa_unsure_error_id >= 0))
             {
               if(result == -9999)
               {
-                return_value_pthread_self$9=pthread_self();
-                return_value_pthread_equal$10=pthread_equal(return_value_pthread_self$9, paUnixMainThread);
-                if(!(return_value_pthread_equal$10 == 0))
+                return_value_pthread_self_9=pthread_self();
+                return_value_pthread_equal_10=pthread_equal(return_value_pthread_self_9, paUnixMainThread);
+                if(!(return_value_pthread_equal_10 == 0))
                 {
                   const char *return_value_2;
-                  return_value_2=alsa_snd_strerror(TestParameters$$1$$8$$1$$4$$__pa_unsure_error_id);
-                  PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)TestParameters$$1$$8$$1$$4$$__pa_unsure_error_id, return_value_2);
+                  return_value_2=alsa_snd_strerror(TestParameters__1__8__1__4____pa_unsure_error_id);
+                  PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paALSA, (signed long int)TestParameters__1__8__1__4____pa_unsure_error_id, return_value_2);
                 }
 
               }
@@ -21609,12 +21609,12 @@ static void UInt8_To_Float32(void *destinationBuffer, signed int destinationStri
   unsigned char *src = (unsigned char *)sourceBuffer;
   float *dest = (float *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     float samp = (float)((signed int)*src - 128) * const_1_div_128_;
@@ -21632,12 +21632,12 @@ static void UInt8_To_Int16(void *destinationBuffer, signed int destinationStride
   unsigned char *src = (unsigned char *)sourceBuffer;
   signed short int *dest = (signed short int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed short int)((signed int)*src - 128 << 8);
@@ -21654,12 +21654,12 @@ static void UInt8_To_Int24(void *destinationBuffer, signed int destinationStride
   unsigned char *src = (unsigned char *)sourceBuffer;
   unsigned char *dest = (unsigned char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dest[(signed long int)0] = (unsigned char)0;
@@ -21678,12 +21678,12 @@ static void UInt8_To_Int32(void *destinationBuffer, signed int destinationStride
   unsigned char *src = (unsigned char *)sourceBuffer;
   signed int *dest = (signed int *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed int)*src - 128 << 24;
@@ -21700,12 +21700,12 @@ static void UInt8_To_Int8(void *destinationBuffer, signed int destinationStride,
   unsigned char *src = (unsigned char *)sourceBuffer;
   signed char *dest = (signed char *)destinationBuffer;
   (void)ditherGenerator;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (signed char)((signed int)*src - 128);
@@ -21717,17 +21717,17 @@ static void UInt8_To_Int8(void *destinationBuffer, signed int destinationStride,
 
 // UpdateQueue
 // file src/hostapi/jack/pa_jack.c line 1423
-static signed int UpdateQueue(struct anonymous$4 *hostApi)
+static signed int UpdateQueue(struct anonymous_4 *hostApi)
 {
   signed int result = 0;
   signed int queueModified = 0;
   double jackSr;
-  unsigned int return_value_jack_get_sample_rate$1;
-  return_value_jack_get_sample_rate$1=jack_get_sample_rate(hostApi->jack_client);
-  jackSr = (const double)return_value_jack_get_sample_rate$1;
+  unsigned int return_value_jack_get_sample_rate_1;
+  return_value_jack_get_sample_rate_1=jack_get_sample_rate(hostApi->jack_client);
+  jackSr = (const double)return_value_jack_get_sample_rate_1;
   signed int err;
   err=pthread_mutex_trylock(&hostApi->mtx);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   if(!(err == 0))
   {
     /* assertion err == 16 */
@@ -21759,24 +21759,24 @@ static signed int UpdateQueue(struct anonymous$4 *hostApi)
     if(!(hostApi->toRemove == ((struct PaJackStream *)NULL)))
     {
       signed int removed = 0;
-      struct PaJackStream *UpdateQueue$$1$$3$$node = hostApi->processQueue;
+      struct PaJackStream *UpdateQueue__1__3__node = hostApi->processQueue;
       struct PaJackStream *prev = (struct PaJackStream *)(void *)0;
       /* assertion hostApi->processQueue */
       assert(hostApi->processQueue != ((struct PaJackStream *)NULL));
-      for( ; !(UpdateQueue$$1$$3$$node == ((struct PaJackStream *)NULL)); UpdateQueue$$1$$3$$node = UpdateQueue$$1$$3$$node->next)
+      for( ; !(UpdateQueue__1__3__node == ((struct PaJackStream *)NULL)); UpdateQueue__1__3__node = UpdateQueue__1__3__node->next)
       {
-        if(UpdateQueue$$1$$3$$node == hostApi->toRemove)
+        if(UpdateQueue__1__3__node == hostApi->toRemove)
         {
           if(!(prev == ((struct PaJackStream *)NULL)))
-            prev->next = UpdateQueue$$1$$3$$node->next;
+            prev->next = UpdateQueue__1__3__node->next;
 
           else
-            hostApi->processQueue = (struct PaJackStream *)UpdateQueue$$1$$3$$node->next;
+            hostApi->processQueue = (struct PaJackStream *)UpdateQueue__1__3__node->next;
           removed = 1;
           break;
         }
 
-        prev = UpdateQueue$$1$$3$$node;
+        prev = UpdateQueue__1__3__node;
       }
       do
         if(removed == 0)
@@ -21794,10 +21794,10 @@ static signed int UpdateQueue(struct anonymous$4 *hostApi)
     if(!(queueModified == 0))
       do
       {
-        signed int UpdateQueue$$1$$4$$1$$err;
-        UpdateQueue$$1$$4$$1$$err=pthread_cond_signal(&hostApi->cond);
+        signed int UpdateQueue__1__4__1__err;
+        UpdateQueue__1__4__1__err=pthread_cond_signal(&hostApi->cond);
         /* assertion err == 0 */
-        assert(UpdateQueue$$1$$4$$1$$err == 0);
+        assert(UpdateQueue__1__4__1__err == 0);
       }
       while((_Bool)0);
 
@@ -21806,10 +21806,10 @@ static signed int UpdateQueue(struct anonymous$4 *hostApi)
 
     error:
       ;
-      signed int UpdateQueue$$1$$5$$err;
-      UpdateQueue$$1$$5$$err=pthread_mutex_unlock(&hostApi->mtx);
+      signed int UpdateQueue__1__5__err;
+      UpdateQueue__1__5__err=pthread_mutex_unlock(&hostApi->mtx);
       /* assertion err == 0 */
-      assert(UpdateQueue$$1$$5$$err == 0);
+      assert(UpdateQueue__1__5__err == 0);
     }
     while((_Bool)0);
     return result;
@@ -21831,8 +21831,8 @@ static signed int ValidateOpenStreamParameters(const struct PaStreamParameters *
 {
   signed int inputHostApiIndex = -1;
   signed int outputHostApiIndex = -1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
   if(inputParameters == ((const struct PaStreamParameters *)NULL) && outputParameters == ((const struct PaStreamParameters *)NULL))
     return -9996;
 
@@ -21864,11 +21864,11 @@ static signed int ValidateOpenStreamParameters(const struct PaStreamParameters *
       else
       {
         if(!(inputParameters->device >= 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = inputParameters->device >= deviceCount_ ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = inputParameters->device >= deviceCount_ ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           return -9996;
 
         inputHostApiIndex=FindHostApi(inputParameters->device, hostApiInputDevice);
@@ -21879,9 +21879,9 @@ static signed int ValidateOpenStreamParameters(const struct PaStreamParameters *
         if(!(inputParameters->channelCount >= 1))
           return -9998;
 
-        signed int return_value_SampleFormatIsValid$2;
-        return_value_SampleFormatIsValid$2=SampleFormatIsValid(inputParameters->sampleFormat);
-        if(return_value_SampleFormatIsValid$2 == 0)
+        signed int return_value_SampleFormatIsValid_2;
+        return_value_SampleFormatIsValid_2=SampleFormatIsValid(inputParameters->sampleFormat);
+        if(return_value_SampleFormatIsValid_2 == 0)
           return -9994;
 
         if(!(inputParameters->hostApiSpecificStreamInfo == NULL))
@@ -21918,11 +21918,11 @@ static signed int ValidateOpenStreamParameters(const struct PaStreamParameters *
       else
       {
         if(!(outputParameters->device >= 0))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = outputParameters->device >= deviceCount_ ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = outputParameters->device >= deviceCount_ ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           return -9996;
 
         outputHostApiIndex=FindHostApi(outputParameters->device, hostApiOutputDevice);
@@ -21933,9 +21933,9 @@ static signed int ValidateOpenStreamParameters(const struct PaStreamParameters *
         if(!(outputParameters->channelCount >= 1))
           return -9998;
 
-        signed int return_value_SampleFormatIsValid$4;
-        return_value_SampleFormatIsValid$4=SampleFormatIsValid(outputParameters->sampleFormat);
-        if(return_value_SampleFormatIsValid$4 == 0)
+        signed int return_value_SampleFormatIsValid_4;
+        return_value_SampleFormatIsValid_4=SampleFormatIsValid(outputParameters->sampleFormat);
+        if(return_value_SampleFormatIsValid_4 == 0)
           return -9994;
 
         if(!(outputParameters->hostApiSpecificStreamInfo == NULL))
@@ -21987,14 +21987,14 @@ static signed int ValidateOpenStreamParameters(const struct PaStreamParameters *
 
 // ValidateParameters
 // file src/hostapi/alsa/pa_linux_alsa.c line 1484
-static signed int ValidateParameters(const struct PaStreamParameters *parameters, struct PaUtilHostApiRepresentation *hostApi, enum anonymous$17 mode)
+static signed int ValidateParameters(const struct PaStreamParameters *parameters, struct PaUtilHostApiRepresentation *hostApi, enum anonymous_17 mode)
 {
   signed int result = 0;
   signed int maxChans;
   const struct PaAlsaDeviceInfo *deviceInfo = (const struct PaAlsaDeviceInfo *)(void *)0;
   /* assertion parameters */
   assert(parameters != ((const struct PaStreamParameters *)NULL));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(parameters->device == -2))
   {
     /* assertion parameters->device < hostApi->info.deviceCount */
@@ -22026,11 +22026,11 @@ static signed int ValidateParameters(const struct PaStreamParameters *parameters
     do
     {
       if(streamInfo->size == sizeof(struct PaAlsaStreamInfo) /*32ul*/ )
-        tmp_if_expr$1 = streamInfo->version == (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = streamInfo->version == (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
       {
         PaUtil_DebugPrint("Expression 'streamInfo->size == sizeof (PaAlsaStreamInfo) && streamInfo->version == 1' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1503\n");
         result = -9984;
@@ -22054,13 +22054,13 @@ static signed int ValidateParameters(const struct PaStreamParameters *parameters
   assert(deviceInfo != ((const struct PaAlsaDeviceInfo *)NULL));
   /* assertion parameters->hostApiSpecificStreamInfo == ((void *)0) */
   assert(parameters->hostApiSpecificStreamInfo == (void *)0);
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if((signed int)mode == StreamDirection_In)
-    tmp_if_expr$2 = deviceInfo->baseDeviceInfo.maxInputChannels;
+    tmp_if_expr_2 = deviceInfo->baseDeviceInfo.maxInputChannels;
 
   else
-    tmp_if_expr$2 = deviceInfo->baseDeviceInfo.maxOutputChannels;
-  maxChans = tmp_if_expr$2;
+    tmp_if_expr_2 = deviceInfo->baseDeviceInfo.maxOutputChannels;
+  maxChans = tmp_if_expr_2;
   do
     if(!(maxChans >= parameters->channelCount))
     {
@@ -22076,26 +22076,26 @@ error:
   return result;
 }
 
-// ValidateParameters$link1
+// ValidateParameters_link1
 // file src/hostapi/oss/pa_unix_oss.c line 726
-static signed int ValidateParameters$link1(const struct PaStreamParameters *parameters$link1, const struct PaDeviceInfo *deviceInfo, enum anonymous$15 mode$link1)
+static signed int ValidateParameters_link1(const struct PaStreamParameters *parameters_link1, const struct PaDeviceInfo *deviceInfo, enum anonymous_15 mode_link1)
 {
-  signed int maxChans$link1;
+  signed int maxChans_link1;
   /* assertion parameters */
-  assert(parameters$link1 != ((const struct PaStreamParameters *)NULL));
-  signed int tmp_if_expr$1$link1;
-  if(parameters$link1->device == -2)
+  assert(parameters_link1 != ((const struct PaStreamParameters *)NULL));
+  signed int tmp_if_expr_1_link1;
+  if(parameters_link1->device == -2)
     return -9996;
 
   else
   {
-    if((signed int)mode$link1 == StreamMode_In)
-      tmp_if_expr$1$link1 = deviceInfo->maxInputChannels;
+    if((signed int)mode_link1 == StreamMode_In)
+      tmp_if_expr_1_link1 = deviceInfo->maxInputChannels;
 
     else
-      tmp_if_expr$1$link1 = deviceInfo->maxOutputChannels;
-    maxChans$link1 = tmp_if_expr$1$link1;
-    if(!(maxChans$link1 >= parameters$link1->channelCount))
+      tmp_if_expr_1_link1 = deviceInfo->maxOutputChannels;
+    maxChans_link1 = tmp_if_expr_1_link1;
+    if(!(maxChans_link1 >= parameters_link1->channelCount))
       return -9998;
 
     else
@@ -22105,21 +22105,21 @@ static signed int ValidateParameters$link1(const struct PaStreamParameters *para
 
 // WaitCondition
 // file src/hostapi/jack/pa_jack.c line 1004
-static signed int WaitCondition(struct anonymous$4 *hostApi)
+static signed int WaitCondition(struct anonymous_4 *hostApi)
 {
   signed int result = 0;
   signed int err = 0;
   double pt;
   pt=PaUtil_GetTime();
   struct timespec ts;
-  double return_value_floor$1;
-  return_value_floor$1=floor(pt + (double)(10 * 60));
-  ts.tv_sec = (signed long int)return_value_floor$1;
-  double return_value_floor$2;
-  return_value_floor$2=floor(pt);
-  ts.tv_nsec = (signed long int)((pt - return_value_floor$2) * (double)1000000000);
+  double return_value_floor_1;
+  return_value_floor_1=floor(pt + (double)(10 * 60));
+  ts.tv_sec = (signed long int)return_value_floor_1;
+  double return_value_floor_2;
+  return_value_floor_2=floor(pt);
+  ts.tv_nsec = (signed long int)((pt - return_value_floor_2) * (double)1000000000);
   err=pthread_cond_timedwait(&hostApi->cond, &hostApi->mtx, &ts);
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
     if(err == 110)
     {
@@ -22129,7 +22129,7 @@ static signed int WaitCondition(struct anonymous$4 *hostApi)
     }
 
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$4;
+  unsigned long int return_value_pthread_self_4;
   do
     if(!(err == 0))
     {
@@ -22156,21 +22156,21 @@ static signed int WriteStream(void *s, const void *buffer, unsigned long int fra
   return 0;
 }
 
-// WriteStream$link1
+// WriteStream_link1
 // file src/hostapi/alsa/pa_linux_alsa.c line 4425
-static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, unsigned long int frames$link1)
+static signed int WriteStream_link1(void *s_link1, const void *buffer_link1, unsigned long int frames_link1)
 {
   signed int result = 0;
   signed long int err;
-  struct PaAlsaStream *stream$link1 = (struct PaAlsaStream *)s$link1;
+  struct PaAlsaStream *stream_link1 = (struct PaAlsaStream *)s_link1;
   unsigned long int framesGot;
   unsigned long int framesAvail;
   const void *userBuffer;
-  struct _snd_pcm *save = stream$link1->capture.pcm;
+  struct _snd_pcm *save = stream_link1->capture.pcm;
   /* assertion stream */
-  assert(stream$link1 != ((struct PaAlsaStream *)NULL));
+  assert(stream_link1 != ((struct PaAlsaStream *)NULL));
   do
-    if(stream$link1->playback.pcm == ((struct _snd_pcm *)NULL))
+    if(stream_link1->playback.pcm == ((struct _snd_pcm *)NULL))
     {
       PaUtil_DebugPrint("Expression 'stream->playback.pcm' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4436\n");
       result = -9974;
@@ -22178,30 +22178,30 @@ static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, uns
     }
 
   while((_Bool)0);
-  stream$link1->capture.pcm = (struct _snd_pcm *)(void *)0;
-  if(stream$link1->underrun > 0.)
+  stream_link1->capture.pcm = (struct _snd_pcm *)(void *)0;
+  if(stream_link1->underrun > 0.)
   {
     result = -9980;
-    stream$link1->underrun = 0.0;
+    stream_link1->underrun = 0.0;
   }
 
-  if(!(stream$link1->playback.userInterleaved == 0))
-    userBuffer = buffer$link1;
+  if(!(stream_link1->playback.userInterleaved == 0))
+    userBuffer = buffer_link1;
 
   else
   {
-    userBuffer = (const void *)stream$link1->playback.userBuffers;
-    memcpy((void *)userBuffer, buffer$link1, sizeof(void *) /*8ul*/  * (unsigned long int)stream$link1->playback.numUserChannels);
+    userBuffer = (const void *)stream_link1->playback.userBuffers;
+    memcpy((void *)userBuffer, buffer_link1, sizeof(void *) /*8ul*/  * (unsigned long int)stream_link1->playback.numUserChannels);
   }
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
-  if(frames$link1 >= 1ul)
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
+  if(frames_link1 >= 1ul)
   {
     signed int xrun = 0;
     unsigned long int hwAvail;
     do
     {
-      paUtilErr_=PaAlsaStream_WaitForFrames(stream$link1, &framesAvail, &xrun);
+      paUtilErr_=PaAlsaStream_WaitForFrames(stream_link1, &framesAvail, &xrun);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStream_WaitForFrames( stream, &framesAvail, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4460\n");
@@ -22211,10 +22211,10 @@ static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, uns
 
     }
     while((_Bool)0);
-    framesGot = framesAvail < frames$link1 ? framesAvail : frames$link1;
+    framesGot = framesAvail < frames_link1 ? framesAvail : frames_link1;
     do
     {
-      paUtilErr_=PaAlsaStream_SetUpBuffers(stream$link1, &framesGot, &xrun);
+      paUtilErr_=PaAlsaStream_SetUpBuffers(stream_link1, &framesGot, &xrun);
       if(!(paUtilErr_ >= 0))
       {
         PaUtil_DebugPrint("Expression 'PaAlsaStream_SetUpBuffers( stream, &framesGot, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4463\n");
@@ -22226,10 +22226,10 @@ static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, uns
     while((_Bool)0);
     if(framesGot >= 1ul)
     {
-      framesGot=PaUtil_CopyOutput(&stream$link1->bufferProcessor, &userBuffer, framesGot);
+      framesGot=PaUtil_CopyOutput(&stream_link1->bufferProcessor, &userBuffer, framesGot);
       do
       {
-        paUtilErr_=PaAlsaStream_EndProcessing(stream$link1, framesGot, &xrun);
+        paUtilErr_=PaAlsaStream_EndProcessing(stream_link1, framesGot, &xrun);
         if(!(paUtilErr_ >= 0))
         {
           PaUtil_DebugPrint("Expression 'PaAlsaStream_EndProcessing( stream, framesGot, &xrun )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 4467\n");
@@ -22239,12 +22239,12 @@ static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, uns
 
       }
       while((_Bool)0);
-      frames$link1 = frames$link1 - framesGot;
+      frames_link1 = frames_link1 - framesGot;
     }
 
     do
     {
-      err=GetStreamWriteAvailable$link1((void *)stream$link1);
+      err=GetStreamWriteAvailable_link1((void *)stream_link1);
       paUtilErr_ = (signed int)err;
       if(!(paUtilErr_ >= 0))
       {
@@ -22256,20 +22256,20 @@ static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, uns
     }
     while((_Bool)0);
     framesAvail = (unsigned long int)err;
-    hwAvail = stream$link1->playback.alsaBufferSize - framesAvail;
+    hwAvail = stream_link1->playback.alsaBufferSize - framesAvail;
     enum _snd_pcm_state return_value_1;
-    return_value_1=alsa_snd_pcm_state(stream$link1->playback.pcm);
+    return_value_1=alsa_snd_pcm_state(stream_link1->playback.pcm);
     if((signed int)return_value_1 == SND_PCM_STATE_PREPARED)
     {
-      if(hwAvail >= stream$link1->playback.framesPerPeriod)
+      if(hwAvail >= stream_link1->playback.framesPerPeriod)
       {
         signed int __pa_unsure_error_id;
-        __pa_unsure_error_id=alsa_snd_pcm_start(stream$link1->playback.pcm);
+        __pa_unsure_error_id=alsa_snd_pcm_start(stream_link1->playback.pcm);
         if(!(__pa_unsure_error_id >= 0))
         {
-          return_value_pthread_self$1=pthread_self();
-          return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, paUnixMainThread);
-          if(!(return_value_pthread_equal$2 == 0))
+          return_value_pthread_self_1=pthread_self();
+          return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, paUnixMainThread);
+          if(!(return_value_pthread_equal_2 == 0))
           {
             const char *return_value;
             return_value=alsa_snd_strerror(__pa_unsure_error_id);
@@ -22289,7 +22289,7 @@ static signed int WriteStream$link1(void *s$link1, const void *buffer$link1, uns
 
 end:
   ;
-  stream$link1->capture.pcm = save;
+  stream_link1->capture.pcm = save;
   return result;
 
 error:
@@ -22297,54 +22297,54 @@ error:
   goto end;
 }
 
-// WriteStream$link2
+// WriteStream_link2
 // file src/hostapi/oss/pa_unix_oss.c line 1971
-static signed int WriteStream$link2(void *s$link2, const void *buffer$link2, unsigned long int frames$link2)
+static signed int WriteStream_link2(void *s_link2, const void *buffer_link2, unsigned long int frames_link2)
 {
-  signed int result$link1 = 0;
-  struct PaOssStream *stream$link2 = (struct PaOssStream *)s$link2;
+  signed int result_link1 = 0;
+  struct PaOssStream *stream_link2 = (struct PaOssStream *)s_link2;
   signed int bytesRequested;
   signed int bytesWritten;
   unsigned long int framesConverted;
-  const void *userBuffer$link1;
-  if(!(stream$link2->bufferProcessor.userOutputIsInterleaved == 0))
-    userBuffer$link1 = buffer$link2;
+  const void *userBuffer_link1;
+  if(!(stream_link2->bufferProcessor.userOutputIsInterleaved == 0))
+    userBuffer_link1 = buffer_link2;
 
   else
   {
-    userBuffer$link1 = (const void *)stream$link2->playback->userBuffers;
-    memcpy((void *)userBuffer$link1, buffer$link2, sizeof(void *) /*8ul*/  * (unsigned long int)stream$link2->playback->userChannelCount);
+    userBuffer_link1 = (const void *)stream_link2->playback->userBuffers;
+    memcpy((void *)userBuffer_link1, buffer_link2, sizeof(void *) /*8ul*/  * (unsigned long int)stream_link2->playback->userChannelCount);
   }
-  unsigned long int return_value_pthread_self$4;
-  while(!(frames$link2 == 0ul))
+  unsigned long int return_value_pthread_self_4;
+  while(!(frames_link2 == 0ul))
   {
-    PaUtil_SetOutputFrameCount(&stream$link2->bufferProcessor, stream$link2->playback->hostFrames);
-    PaUtil_SetInterleavedOutputChannels(&stream$link2->bufferProcessor, (unsigned int)0, stream$link2->playback->buffer, (unsigned int)stream$link2->playback->hostChannelCount);
-    framesConverted=PaUtil_CopyOutput(&stream$link2->bufferProcessor, &userBuffer$link1, frames$link2);
-    frames$link2 = frames$link2 - framesConverted;
-    unsigned int return_value_PaOssStreamComponent_FrameSize$1;
-    return_value_PaOssStreamComponent_FrameSize$1=PaOssStreamComponent_FrameSize(stream$link2->playback);
-    bytesRequested = (signed int)(framesConverted * (unsigned long int)return_value_PaOssStreamComponent_FrameSize$1);
+    PaUtil_SetOutputFrameCount(&stream_link2->bufferProcessor, stream_link2->playback->hostFrames);
+    PaUtil_SetInterleavedOutputChannels(&stream_link2->bufferProcessor, (unsigned int)0, stream_link2->playback->buffer, (unsigned int)stream_link2->playback->hostChannelCount);
+    framesConverted=PaUtil_CopyOutput(&stream_link2->bufferProcessor, &userBuffer_link1, frames_link2);
+    frames_link2 = frames_link2 - framesConverted;
+    unsigned int return_value_PaOssStreamComponent_FrameSize_1;
+    return_value_PaOssStreamComponent_FrameSize_1=PaOssStreamComponent_FrameSize(stream_link2->playback);
+    bytesRequested = (signed int)(framesConverted * (unsigned long int)return_value_PaOssStreamComponent_FrameSize_1);
     do
     {
-      signed long int return_value_write$5;
-      return_value_write$5=write(stream$link2->playback->fd, stream$link2->playback->buffer, (unsigned long int)bytesRequested);
-      bytesWritten = (signed int)return_value_write$5;
+      signed long int return_value_write_5;
+      return_value_write_5=write(stream_link2->playback->fd, stream_link2->playback->buffer, (unsigned long int)bytesRequested);
+      bytesWritten = (signed int)return_value_write_5;
       sysErr_ = bytesWritten;
       if(!(sysErr_ >= 0))
       {
-        return_value_pthread_self$4=pthread_self();
-        if(return_value_pthread_self$4 == mainThread_$link1)
+        return_value_pthread_self_4=pthread_self();
+        if(return_value_pthread_self_4 == mainThread__link1)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          PaUtil_SetLastHostErrorInfo((enum PaHostApiTypeId)paOSS, (signed long int)sysErr_, return_value_strerror_3);
         }
 
         PaUtil_DebugPrint("Expression '(bytesWritten = write( stream->playback->fd, stream->playback->buffer, bytesRequested ))' failed in 'src/hostapi/oss/pa_unix_oss.c', line: 2000\n");
-        result$link1 = -9999;
+        result_link1 = -9999;
         goto error;
       }
 
@@ -22357,7 +22357,7 @@ static signed int WriteStream$link2(void *s$link2, const void *buffer$link2, uns
 
 error:
   ;
-  return result$link1;
+  return result_link1;
 }
 
 // Zero16
@@ -22365,12 +22365,12 @@ error:
 static void Zero16(void *destinationBuffer, signed int destinationStride, unsigned int count)
 {
   unsigned short int *dest = (unsigned short int *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned short int)0;
@@ -22384,12 +22384,12 @@ static void Zero16(void *destinationBuffer, signed int destinationStride, unsign
 static void Zero24(void *destinationBuffer, signed int destinationStride, unsigned int count)
 {
   unsigned char *dest = (unsigned char *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dest[(signed long int)0] = (unsigned char)0;
@@ -22405,12 +22405,12 @@ static void Zero24(void *destinationBuffer, signed int destinationStride, unsign
 static void Zero32(void *destinationBuffer, signed int destinationStride, unsigned int count)
 {
   unsigned int *dest = (unsigned int *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned int)0;
@@ -22424,12 +22424,12 @@ static void Zero32(void *destinationBuffer, signed int destinationStride, unsign
 static void Zero8(void *destinationBuffer, signed int destinationStride, unsigned int count)
 {
   unsigned char *dest = (unsigned char *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned char)0;
@@ -22443,12 +22443,12 @@ static void Zero8(void *destinationBuffer, signed int destinationStride, unsigne
 static void ZeroU8(void *destinationBuffer, signed int destinationStride, unsigned int count)
 {
   unsigned char *dest = (unsigned char *)destinationBuffer;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dest = (unsigned char)128;
@@ -22462,8 +22462,8 @@ static void ZeroU8(void *destinationBuffer, signed int destinationStride, unsign
 signed int main(void)
 {
   signed int result;
-  char *tmp_if_expr$2;
-  const char *return_value_Pa_GetErrorText$1;
+  char *tmp_if_expr_2;
+  const char *return_value_Pa_GetErrorText_1;
   do
   {
     result=Pa_Initialize();
@@ -22473,14 +22473,14 @@ signed int main(void)
     else
     {
       if(result == 0)
-        tmp_if_expr$2 = "-";
+        tmp_if_expr_2 = "-";
 
       else
       {
-        return_value_Pa_GetErrorText$1=Pa_GetErrorText(result);
-        tmp_if_expr$2 = return_value_Pa_GetErrorText$1;
+        return_value_Pa_GetErrorText_1=Pa_GetErrorText(result);
+        tmp_if_expr_2 = return_value_Pa_GetErrorText_1;
       }
-      printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr$2, (const void *)"((result=Pa_Initialize()) == 0)");
+      printf("ERROR - 0x%x - %s for %s\n", result, tmp_if_expr_2, (const void *)"((result=Pa_Initialize()) == 0)");
       gNumFailed = gNumFailed + 1;
       goto error;
     }

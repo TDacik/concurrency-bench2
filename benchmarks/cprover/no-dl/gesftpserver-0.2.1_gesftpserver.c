@@ -1,38 +1,38 @@
-// tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}$S8$'__wchb'|]#'__value'|]
+// tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}_S8_'__wchb'|]#'__value'|]
 // file /usr/include/wchar.h line 82
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[S32'fd'||*{SYM#tag-__dirstream#}$SYM#tag-__dirstream#$'dir'|]
+// tag-#anon#UN[S32'fd'||*{SYM#tag-__dirstream#}_SYM#tag-__dirstream#_'dir'|]
 // file handle.c line 39
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
-// tag-#anon#UN[U32'__wch'||ARR4{S8}$S8$'__wchb'|]
+// tag-#anon#UN[U32'__wch'||ARR4{S8}_S8_'__wchb'|]
 // file /usr/include/wchar.h line 85
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#cST[S32'errno_value'||U32'status_value'|]
 // file status.c line 110
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#cST[U32'bit'||U32'$pad0'||*{cS8}$cS8$'description'|]
+// tag-#anon#cST[U32'bit'||U32'_pad0'||*{cS8}_cS8_'description'|]
 // file stat.c line 114
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -216,9 +216,9 @@ extern signed int dup2(signed int, signed int);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
-// exitfn$object
+// exitfn_object
 //
-void exitfn$object(signed int);
+void exitfn_object(signed int);
 // fatal
 // file utils.h line 185
 void fatal(const char *msg, ...);
@@ -353,7 +353,7 @@ extern signed int lstat(const char *, struct stat *);
 extern void * malloc(unsigned long int);
 // mbsrtowcs
 // file /usr/include/wchar.h line 408
-extern unsigned long int mbsrtowcs(signed int *, const char ** restrict , unsigned long int, struct anonymous$1 *);
+extern unsigned long int mbsrtowcs(signed int *, const char ** restrict , unsigned long int, struct anonymous_1 *);
 // memcpy
 // file /usr/include/string.h line 46
 extern void * memcpy(void *, const void *, unsigned long int);
@@ -410,16 +410,16 @@ static char * process_path(struct allocator *a, char *result, unsigned long int 
 static void process_sftpjob(void *jv, void *wdv, struct allocator *a);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$3 *);
+extern signed int pthread_cond_broadcast(union anonymous_3 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$5 *);
+extern signed int pthread_cond_init(union anonymous_3 *, const union anonymous_5 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -428,7 +428,7 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -892,7 +892,7 @@ void * xrecalloc(void *ptr, unsigned long int n, unsigned long int size);
 // file utils.h line 90
 char * xstrdup(const char *s);
 
-union anonymous$0
+union anonymous_0
 {
   // __wch
   unsigned int __wch;
@@ -900,15 +900,15 @@ union anonymous$0
   char __wchb[4l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __count
   signed int __count;
   // __value
-  union anonymous$0 __value;
+  union anonymous_0 __value;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __lock
   signed int __lock;
@@ -928,7 +928,7 @@ struct anonymous$4
   unsigned int __broadcast_seq;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -936,7 +936,7 @@ union anonymous$5
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // fd
   signed int fd;
@@ -944,10 +944,10 @@ union anonymous$2
   struct __dirstream *dir;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$4 __data;
+  struct anonymous_4 __data;
   // __size
   char __size[48l];
   // __align
@@ -992,7 +992,7 @@ union anonymous
   signed long int __align;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // errno_value
   signed int errno_value;
@@ -1000,7 +1000,7 @@ struct anonymous$6
   unsigned int status_value;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // bit
   unsigned int bit;
@@ -1151,7 +1151,7 @@ struct handle
   // tag
   unsigned int tag;
   // u
-  union anonymous$2 u;
+  union anonymous_2 u;
   // path
   char *path;
   // flags
@@ -1213,7 +1213,7 @@ struct queue
   // m
   union anonymous m;
   // c
-  union anonymous$3 c;
+  union anonymous_3 c;
   // details
   struct queuedetails *details;
   // nthreads
@@ -1517,7 +1517,7 @@ struct worker
 
 // attr_bits
 // file stat.c line 117
-static struct anonymous$7 attr_bits[12l] = { { .bit=(unsigned int)0x00000001, .description="ro" },
+static struct anonymous_7 attr_bits[12l] = { { .bit=(unsigned int)0x00000001, .description="ro" },
     { .bit=(unsigned int)0x00000002, .description="sys" },
     { .bit=(unsigned int)0x00000004, .description="hide" },
     { .bit=(unsigned int)0x00000008, .description="ci" },
@@ -1534,7 +1534,7 @@ static struct anonymous$7 attr_bits[12l] = { { .bit=(unsigned int)0x00000001, .d
 static struct _IO_FILE *debugfp;
 // errnotab
 // file status.c line 113
-static struct anonymous$6 errnotab[15l] = { { .errno_value=0, .status_value=(unsigned int)0 },
+static struct anonymous_6 errnotab[15l] = { { .errno_value=0, .status_value=(unsigned int)0 },
     { .errno_value=1, .status_value=(unsigned int)3 },
     { .errno_value=13, .status_value=(unsigned int)3 },
     { .errno_value=2, .status_value=(unsigned int)2 },
@@ -1834,7 +1834,7 @@ struct sftpprotocol sftp_v6 = { .ncommands=(signed int)(sizeof(struct sftpcmd [2
 signed int sftpout = 1;
 // sq_cond
 // file serialize.c line 94
-static union anonymous$3 sq_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 sq_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1868,11 +1868,11 @@ static struct queuedetails workqueue_details = { .init=(void * (*)())worker_init
 // file utils.c line 159
 char * append(struct allocator *a, char *s, unsigned long int *ns, const char *t)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  char *return_value_appendn$2;
-  return_value_appendn$2=appendn(a, s, ns, t, return_value_strlen$1);
-  return return_value_appendn$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  char *return_value_appendn_2;
+  return_value_appendn_2=appendn(a, s, ns, t, return_value_strlen_1);
+  return return_value_appendn_2;
 }
 
 // appendn
@@ -1880,36 +1880,36 @@ char * append(struct allocator *a, char *s, unsigned long int *ns, const char *t
 char * appendn(struct allocator *a, char *s, unsigned long int *ns, const char *t, unsigned long int lt)
 {
   unsigned long int ls;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(s == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(s);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(s);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  ls = tmp_if_expr$2;
+    tmp_if_expr_2 = (unsigned long int)0;
+  ls = tmp_if_expr_2;
   const unsigned long int need = lt + ls + (unsigned long int)1;
-  unsigned long int tmp_if_expr$3;
+  unsigned long int tmp_if_expr_3;
   if(!(*ns >= need))
   {
     unsigned long int newsize;
     if(!(*ns == 0ul))
-      tmp_if_expr$3 = *ns;
+      tmp_if_expr_3 = *ns;
 
     else
-      tmp_if_expr$3 = (unsigned long int)16;
-    newsize = tmp_if_expr$3;
+      tmp_if_expr_3 = (unsigned long int)16;
+    newsize = tmp_if_expr_3;
     for( ; !(newsize == 0ul) && !(newsize >= need); newsize = newsize * (unsigned long int)2)
       ;
     if(newsize == 0ul)
       fatal("appendn: out of memory (%zu, %zu)", ls, need);
 
-    void *return_value_sftp_alloc_more$4;
-    return_value_sftp_alloc_more$4=sftp_alloc_more(a, (void *)s, *ns, newsize);
-    s = (char *)return_value_sftp_alloc_more$4;
+    void *return_value_sftp_alloc_more_4;
+    return_value_sftp_alloc_more_4=sftp_alloc_more(a, (void *)s, *ns, newsize);
+    s = (char *)return_value_sftp_alloc_more_4;
     *ns = newsize;
   }
 
@@ -1935,8 +1935,8 @@ signed int do_read(signed int fd, void *buffer, unsigned long int size)
   unsigned long int sofar = (unsigned long int)0;
   signed long int n;
   char *ptr = (char *)buffer;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   while(!(sofar >= size))
   {
     n=read(fd, (void *)(ptr + (signed long int)sofar), size - sofar);
@@ -1949,9 +1949,9 @@ signed int do_read(signed int fd, void *buffer, unsigned long int size)
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fatal("read error: %s", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fatal("read error: %s", return_value_strerror_2);
       }
   }
   return 0;
@@ -2096,45 +2096,45 @@ void fatal(const char *msg, ...)
 // file stat.c line 517
 static signed int fd_chmod(const void *what, unsigned int mode)
 {
-  signed int return_value_fchmod$1;
-  return_value_fchmod$1=fchmod(*((const signed int *)what), mode);
-  return return_value_fchmod$1;
+  signed int return_value_fchmod_1;
+  return_value_fchmod_1=fchmod(*((const signed int *)what), mode);
+  return return_value_fchmod_1;
 }
 
 // fd_chown
 // file stat.c line 508
 static signed int fd_chown(const void *what, unsigned int uid, unsigned int gid)
 {
-  signed int return_value_fchown$1;
-  return_value_fchown$1=fchown(*((const signed int *)what), uid, gid);
-  return return_value_fchown$1;
+  signed int return_value_fchown_1;
+  return_value_fchown_1=fchown(*((const signed int *)what), uid, gid);
+  return return_value_fchown_1;
 }
 
 // fd_stat
 // file stat.c line 526
 static signed int fd_stat(const void *what, struct stat *sb)
 {
-  signed int return_value_fstat$1;
-  return_value_fstat$1=fstat(*((const signed int *)what), sb);
-  return return_value_fstat$1;
+  signed int return_value_fstat_1;
+  return_value_fstat_1=fstat(*((const signed int *)what), sb);
+  return return_value_fstat_1;
 }
 
 // fd_truncate
 // file stat.c line 498
 static signed int fd_truncate(const void *what, signed long int size)
 {
-  signed int return_value_ftruncate$1;
-  return_value_ftruncate$1=ftruncate(*((const signed int *)what), size);
-  return return_value_ftruncate$1;
+  signed int return_value_ftruncate_1;
+  return_value_ftruncate_1=ftruncate(*((const signed int *)what), size);
+  return return_value_ftruncate_1;
 }
 
 // fd_utimes
 // file stat.c line 535
 static signed int fd_utimes(const void *what, struct timeval *tv)
 {
-  signed int return_value_futimes$1;
-  return_value_futimes$1=futimes(*((const signed int *)what), tv);
-  return return_value_futimes$1;
+  signed int return_value_futimes_1;
+  return_value_futimes_1=futimes(*((const signed int *)what), tv);
+  return return_value_futimes_1;
 }
 
 // find_free_handle
@@ -2142,15 +2142,15 @@ static signed int fd_utimes(const void *what, struct timeval *tv)
 static void find_free_handle(struct handleid *id, signed int type)
 {
   unsigned long int n = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(n >= nhandles))
-      tmp_if_expr$1 = (handles + (signed long int)n)->tag != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (handles + (signed long int)n)->tag != 0u ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     n = n + 1ul;
@@ -2161,17 +2161,17 @@ static void find_free_handle(struct handleid *id, signed int type)
     nhandles = nhandles != 0ul ? (unsigned long int)2 * nhandles : (unsigned long int)16;
     /* assertion nhandles != 0 */
     assert(nhandles != (unsigned long int)0);
-    void *return_value_xrecalloc$2;
-    return_value_xrecalloc$2=xrecalloc((void *)handles, nhandles, sizeof(struct handle) /*32ul*/ );
-    handles = (struct handle *)return_value_xrecalloc$2;
+    void *return_value_xrecalloc_2;
+    return_value_xrecalloc_2=xrecalloc((void *)handles, nhandles, sizeof(struct handle) /*32ul*/ );
+    handles = (struct handle *)return_value_xrecalloc_2;
     memset((void *)(handles + (signed long int)n), 0, (nhandles - n) * sizeof(struct handle) /*32ul*/ );
   }
 
   for( ; sequence == 0u; sequence = sequence + 1u)
     ;
-  unsigned int tmp_post$3 = sequence;
+  unsigned int tmp_post_3 = sequence;
   sequence = sequence + 1u;
-  (handles + (signed long int)n)->tag = tmp_post$3;
+  (handles + (signed long int)n)->tag = tmp_post_3;
   (handles + (signed long int)n)->type = type;
   id->id = (unsigned int)n;
   id->tag = (handles + (signed long int)n)->tag;
@@ -2215,13 +2215,13 @@ static inline unsigned long int get64(const void *where)
 // file serialize.c line 101
 static inline signed int handles_equal(struct handleid *h1, struct handleid *h2)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(h1->id == h2->id)
-    tmp_if_expr$1 = h1->tag == h2->tag ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = h1->tag == h2->tag ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // help
@@ -2243,26 +2243,26 @@ signed int main(signed int argc, char **argv)
   if(bn == ((const char *)NULL))
     bn = argv[(signed long int)0];
 
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(bn, "-debug");
-  if(!(return_value_strstr$4 == ((char *)NULL)))
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(bn, "-debug");
+  if(!(return_value_strstr_4 == ((char *)NULL)))
   {
     const char *home;
     home=getenv("HOME");
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(home);
-    void *return_value_sftp__xmalloc$2;
-    return_value_sftp__xmalloc$2=sftp__xmalloc(return_value_strlen$1 + (unsigned long int)40);
-    sftp_debugpath = (const char *)return_value_sftp__xmalloc$2;
-    signed int return_value_getpid$3;
-    return_value_getpid$3=getpid();
-    sprintf((char *)sftp_debugpath, "%s/.gesftpserver.%ju", home, (unsigned long int)return_value_getpid$3);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(home);
+    void *return_value_sftp__xmalloc_2;
+    return_value_sftp__xmalloc_2=sftp__xmalloc(return_value_strlen_1 + (unsigned long int)40);
+    sftp_debugpath = (const char *)return_value_sftp__xmalloc_2;
+    signed int return_value_getpid_3;
+    return_value_getpid_3=getpid();
+    sprintf((char *)sftp_debugpath, "%s/.gesftpserver.%ju", home, (unsigned long int)return_value_getpid_3);
     sftp_debugging = 1;
   }
 
-  char *return_value_strstr$5;
-  return_value_strstr$5=strstr(bn, "-ro");
-  if(!(return_value_strstr$5 == ((char *)NULL)))
+  char *return_value_strstr_5;
+  return_value_strstr_5=strstr(bn, "-ro");
+  if(!(return_value_strstr_5 == ((char *)NULL)))
     readonly = 1;
 
   setlocale(0, "");
@@ -2301,15 +2301,15 @@ signed int main(signed int argc, char **argv)
   }
   while((_Bool)1);
   signal(13, (void (*)(signed int))1);
-  signed int return_value_prctl$8;
-  return_value_prctl$8=prctl(4, 0L);
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  if(!(return_value_prctl$8 >= 0))
+  signed int return_value_prctl_8;
+  return_value_prctl_8=prctl(4, 0L);
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  if(!(return_value_prctl_8 >= 0))
   {
-    return_value___errno_location$6=__errno_location();
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    fatal("error calling prctl: %s", return_value_strerror$7);
+    return_value___errno_location_6=__errno_location();
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    fatal("error calling prctl: %s", return_value_strerror_7);
   }
 
   sftp_service();
@@ -2320,45 +2320,45 @@ signed int main(signed int argc, char **argv)
 // file stat.c line 455
 static signed int name_chmod(const void *what, unsigned int mode)
 {
-  signed int return_value_chmod$1;
-  return_value_chmod$1=chmod((const char *)what, mode);
-  return return_value_chmod$1;
+  signed int return_value_chmod_1;
+  return_value_chmod_1=chmod((const char *)what, mode);
+  return return_value_chmod_1;
 }
 
 // name_chown
 // file stat.c line 446
 static signed int name_chown(const void *what, unsigned int uid, unsigned int gid)
 {
-  signed int return_value_chown$1;
-  return_value_chown$1=chown((const char *)what, uid, gid);
-  return return_value_chown$1;
+  signed int return_value_chown_1;
+  return_value_chown_1=chown((const char *)what, uid, gid);
+  return return_value_chown_1;
 }
 
 // name_lstat
 // file stat.c line 464
 static signed int name_lstat(const void *what, struct stat *sb)
 {
-  signed int return_value_lstat$1;
-  return_value_lstat$1=lstat((const char *)what, sb);
-  return return_value_lstat$1;
+  signed int return_value_lstat_1;
+  return_value_lstat_1=lstat((const char *)what, sb);
+  return return_value_lstat_1;
 }
 
 // name_truncate
 // file stat.c line 436
 static signed int name_truncate(const void *what, signed long int size)
 {
-  signed int return_value_truncate$1;
-  return_value_truncate$1=truncate((const char *)what, size);
-  return return_value_truncate$1;
+  signed int return_value_truncate_1;
+  return_value_truncate_1=truncate((const char *)what, size);
+  return return_value_truncate_1;
 }
 
 // name_utimes
 // file stat.c line 473
 static signed int name_utimes(const void *what, struct timeval *tv)
 {
-  signed int return_value_utimes$1;
-  return_value_utimes$1=utimes((const char *)what, tv);
-  return return_value_utimes$1;
+  signed int return_value_utimes_1;
+  return_value_utimes_1=utimes((const char *)what, tv);
+  return return_value_utimes_1;
 }
 
 // opendebug
@@ -2367,8 +2367,8 @@ static void opendebug(void)
 {
   /* assertion sftp_debugging */
   assert(sftp_debugging != 0);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(debugfp == ((struct _IO_FILE *)NULL))
   {
     if(!(sftp_debugpath == ((const char *)NULL)))
@@ -2380,9 +2380,9 @@ static void opendebug(void)
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(stderr, "%s: %s\n", sftp_debugpath, return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(stderr, "%s: %s\n", sftp_debugpath, return_value_strerror_2);
       }
     }
 
@@ -2402,11 +2402,11 @@ static char * process_path(struct allocator *a, char *result, unsigned long int 
       sftp_debug_printf("process_path path='%s' result='%s'", path, result);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   while(!(*path == 0))
     if((signed int)*path == 47)
       path = path + 1l;
@@ -2416,23 +2416,23 @@ static char * process_path(struct allocator *a, char *result, unsigned long int 
       unsigned long int elementlen;
       elementlen=strcspn(path, "/");
       if(elementlen == 1ul)
-        tmp_if_expr$6 = (signed int)path[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (signed int)path[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(!tmp_if_expr_6)
       {
         if(elementlen == 2ul)
-          tmp_if_expr$4 = (signed int)path[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)path[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (signed int)path[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (signed int)path[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           char *ls;
           ls=strrchr(result, 47);
@@ -2482,9 +2482,9 @@ static char * process_path(struct allocator *a, char *result, unsigned long int 
 
             else
             {
-              signed int *return_value___errno_location$1;
-              return_value___errno_location$1=__errno_location();
-              if(*return_value___errno_location$1 == 22)
+              signed int *return_value___errno_location_1;
+              return_value___errno_location_1=__errno_location();
+              if(*return_value___errno_location_1 == 22)
                 goto __CPROVER_DUMP_L27;
 
               if(!((2u & flags) == 0u))
@@ -2492,9 +2492,9 @@ static char * process_path(struct allocator *a, char *result, unsigned long int 
                 do
                   if(!(sftp_debugging == 0))
                   {
-                    return_value___errno_location$2=__errno_location();
-                    return_value_strerror$3=strerror(*return_value___errno_location$2);
-                    sftp_debug_printf("error reading link: %s", return_value_strerror$3);
+                    return_value___errno_location_2=__errno_location();
+                    return_value_strerror_3=strerror(*return_value___errno_location_2);
+                    sftp_debug_printf("error reading link: %s", return_value_strerror_3);
                   }
 
                 while((_Bool)0);
@@ -2540,15 +2540,15 @@ static void process_sftpjob(void *jv, void *wdv, struct allocator *a)
   job->worker = (struct worker *)wdv;
   job->ptr = job->data;
   job->left = job->len;
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   if(job->left == 0ul)
     sftp_send_status(job, (unsigned int)5, "empty request");
 
   else
   {
-    tmp_post$1 = job->ptr;
+    tmp_post_1 = job->ptr;
     job->ptr = job->ptr + 1l;
-    type = (signed int)*tmp_post$1;
+    type = (signed int)*tmp_post_1;
     job->left = job->left - 1ul;
     if(!(type == 1))
     {
@@ -2635,20 +2635,20 @@ static inline void put64(void *where, unsigned long int u)
 void queue_add(struct queue *q, void *job)
 {
   struct queuejob *qj;
-  void *return_value_sftp__xmalloc$1;
-  return_value_sftp__xmalloc$1=sftp__xmalloc(sizeof(struct queuejob) /*16ul*/ );
-  qj = (struct queuejob *)return_value_sftp__xmalloc$1;
+  void *return_value_sftp__xmalloc_1;
+  return_value_sftp__xmalloc_1=sftp__xmalloc(sizeof(struct queuejob) /*16ul*/ );
+  qj = (struct queuejob *)return_value_sftp__xmalloc_1;
   qj->next = ((struct queuejob *)NULL);
   qj->job = job;
   do
   {
-    signed int queue_add$$1$$1$$frc;
-    queue_add$$1$$1$$frc=pthread_mutex_lock(&q->m);
-    if(!(queue_add$$1$$1$$frc == 0))
+    signed int queue_add__1__1__frc;
+    queue_add__1__1__frc=pthread_mutex_lock(&q->m);
+    if(!(queue_add__1__1__frc == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(queue_add$$1$$1$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 131, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(queue_add__1__1__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 131, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror_2);
       exit(1);
     }
 
@@ -2658,13 +2658,13 @@ void queue_add(struct queue *q, void *job)
   q->jobstail = &qj->next;
   do
   {
-    signed int queue_add$$1$$2$$frc;
-    queue_add$$1$$2$$frc=pthread_cond_signal(&q->c);
-    if(!(queue_add$$1$$2$$frc == 0))
+    signed int queue_add__1__2__frc;
+    queue_add__1__2__frc=pthread_cond_signal(&q->c);
+    if(!(queue_add__1__2__frc == 0))
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(queue_add$$1$$2$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 134, (const void *)"pthread_cond_signal(&q->c)", return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(queue_add__1__2__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 134, (const void *)"pthread_cond_signal(&q->c)", return_value_strerror_3);
       exit(1);
     }
 
@@ -2676,9 +2676,9 @@ void queue_add(struct queue *q, void *job)
     frc=pthread_mutex_unlock(&q->m);
     if(!(frc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 135, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 135, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror_4);
       exit(1);
     }
 
@@ -2695,13 +2695,13 @@ void queue_destroy(struct queue *q)
   {
     do
     {
-      signed int queue_destroy$$1$$1$$1$$frc;
-      queue_destroy$$1$$1$$1$$frc=pthread_mutex_lock(&q->m);
-      if(!(queue_destroy$$1$$1$$1$$frc == 0))
+      signed int queue_destroy__1__1__1__frc;
+      queue_destroy__1__1__1__frc=pthread_mutex_lock(&q->m);
+      if(!(queue_destroy__1__1__1__frc == 0))
       {
-        char *return_value_strerror$1;
-        return_value_strerror$1=strerror(queue_destroy$$1$$1$$1$$frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 142, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror$1);
+        char *return_value_strerror_1;
+        return_value_strerror_1=strerror(queue_destroy__1__1__1__frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 142, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror_1);
         exit(1);
       }
 
@@ -2714,9 +2714,9 @@ void queue_destroy(struct queue *q)
       frc=pthread_cond_broadcast(&q->c);
       if(!(frc == 0))
       {
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 144, (const void *)"pthread_cond_broadcast(&q->c)", return_value_strerror$2);
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 144, (const void *)"pthread_cond_broadcast(&q->c)", return_value_strerror_2);
         exit(1);
       }
 
@@ -2724,13 +2724,13 @@ void queue_destroy(struct queue *q)
     while((_Bool)0);
     do
     {
-      signed int queue_destroy$$1$$1$$3$$frc;
-      queue_destroy$$1$$1$$3$$frc=pthread_mutex_unlock(&q->m);
-      if(!(queue_destroy$$1$$1$$3$$frc == 0))
+      signed int queue_destroy__1__1__3__frc;
+      queue_destroy__1__1__3__frc=pthread_mutex_unlock(&q->m);
+      if(!(queue_destroy__1__1__3__frc == 0))
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(queue_destroy$$1$$1$$3$$frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 145, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror$3);
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(queue_destroy__1__1__3__frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 145, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror_3);
         exit(1);
       }
 
@@ -2740,13 +2740,13 @@ void queue_destroy(struct queue *q)
     for( ; !(n >= q->nthreads); n = n + 1)
       do
       {
-        signed int queue_destroy$$1$$1$$4$$1$$frc;
-        queue_destroy$$1$$1$$4$$1$$frc=pthread_join(q->threads[(signed long int)n], ((void **)NULL));
-        if(!(queue_destroy$$1$$1$$4$$1$$frc == 0))
+        signed int queue_destroy__1__1__4__1__frc;
+        queue_destroy__1__1__4__1__frc=pthread_join(q->threads[(signed long int)n], ((void **)NULL));
+        if(!(queue_destroy__1__1__4__1__frc == 0))
         {
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(queue_destroy$$1$$1$$4$$1$$frc);
-          fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 147, (const void *)"pthread_join(q->threads[n], 0)", return_value_strerror$4);
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(queue_destroy__1__1__4__1__frc);
+          fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 147, (const void *)"pthread_join(q->threads[n], 0)", return_value_strerror_4);
           exit(1);
         }
 
@@ -2764,21 +2764,21 @@ void queue_init(struct queue **qr, struct queuedetails *details, signed int nthr
 {
   signed int n;
   struct queue *q;
-  void *return_value_sftp__xmalloc$1;
-  return_value_sftp__xmalloc$1=sftp__xmalloc(sizeof(struct queue) /*136ul*/ );
-  q = (struct queue *)return_value_sftp__xmalloc$1;
+  void *return_value_sftp__xmalloc_1;
+  return_value_sftp__xmalloc_1=sftp__xmalloc(sizeof(struct queue) /*136ul*/ );
+  q = (struct queue *)return_value_sftp__xmalloc_1;
   memset((void *)q, 0, sizeof(struct queue) /*136ul*/ );
   q->jobs = ((struct queuejob *)NULL);
   q->jobstail = &q->jobs;
   do
   {
     signed int frc;
-    frc=pthread_mutex_init(&q->m, ((const union anonymous$5 *)NULL));
+    frc=pthread_mutex_init(&q->m, ((const union anonymous_5 *)NULL));
     if(!(frc == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 114, (const void *)"pthread_mutex_init(&q->m, 0)", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 114, (const void *)"pthread_mutex_init(&q->m, 0)", return_value_strerror_2);
       exit(1);
     }
 
@@ -2786,13 +2786,13 @@ void queue_init(struct queue **qr, struct queuedetails *details, signed int nthr
   while((_Bool)0);
   do
   {
-    signed int queue_init$$1$$2$$frc;
-    queue_init$$1$$2$$frc=pthread_cond_init(&q->c, ((const union anonymous$5 *)NULL));
-    if(!(queue_init$$1$$2$$frc == 0))
+    signed int queue_init__1__2__frc;
+    queue_init__1__2__frc=pthread_cond_init(&q->c, ((const union anonymous_5 *)NULL));
+    if(!(queue_init__1__2__frc == 0))
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(queue_init$$1$$2$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 115, (const void *)"pthread_cond_init(&q->c, 0)", return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(queue_init__1__2__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 115, (const void *)"pthread_cond_init(&q->c, 0)", return_value_strerror_3);
       exit(1);
     }
 
@@ -2800,21 +2800,21 @@ void queue_init(struct queue **qr, struct queuedetails *details, signed int nthr
   while((_Bool)0);
   q->details = details;
   q->nthreads = nthreads;
-  void *return_value_xcalloc$4;
-  return_value_xcalloc$4=xcalloc((unsigned long int)nthreads, sizeof(unsigned long int) /*8ul*/ );
-  q->threads = (unsigned long int *)return_value_xcalloc$4;
+  void *return_value_xcalloc_4;
+  return_value_xcalloc_4=xcalloc((unsigned long int)nthreads, sizeof(unsigned long int) /*8ul*/ );
+  q->threads = (unsigned long int *)return_value_xcalloc_4;
   q->join = 0;
   n = 0;
   for( ; !(n >= q->nthreads); n = n + 1)
     do
     {
-      signed int queue_init$$1$$3$$1$$frc;
-      queue_init$$1$$3$$1$$frc=pthread_create(&q->threads[(signed long int)n], ((const union pthread_attr_t *)NULL), queue_thread, (void *)q);
-      if(!(queue_init$$1$$3$$1$$frc == 0))
+      signed int queue_init__1__3__1__frc;
+      queue_init__1__3__1__frc=pthread_create(&q->threads[(signed long int)n], ((const union pthread_attr_t *)NULL), queue_thread, (void *)q);
+      if(!(queue_init__1__3__1__frc == 0))
       {
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(queue_init$$1$$3$$1$$frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 121, (const void *)"pthread_create(&q->threads[n], 0, queue_thread, q)", return_value_strerror$5);
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(queue_init__1__3__1__frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 121, (const void *)"pthread_create(&q->threads[n], 0, queue_thread, q)", return_value_strerror_5);
         exit(1);
       }
 
@@ -2837,49 +2837,49 @@ void queue_serializable_job(struct sftpjob *job)
   struct sqnode *q;
   job->ptr = job->data;
   job->left = job->len;
-  unsigned int return_value_sftp_parse_uint8$1;
-  return_value_sftp_parse_uint8$1=sftp_parse_uint8(job, &type);
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_sftp_parse_uint32$2;
-  if(return_value_sftp_parse_uint8$1 == 0u && ((signed int)type == 5 || (signed int)type == 6))
+  unsigned int return_value_sftp_parse_uint8_1;
+  return_value_sftp_parse_uint8_1=sftp_parse_uint8(job, &type);
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_sftp_parse_uint32_2;
+  if(return_value_sftp_parse_uint8_1 == 0u && ((signed int)type == 5 || (signed int)type == 6))
   {
-    return_value_sftp_parse_uint32$2=sftp_parse_uint32(job, &id);
-    tmp_if_expr$3 = return_value_sftp_parse_uint32$2 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_sftp_parse_uint32_2=sftp_parse_uint32(job, &id);
+    tmp_if_expr_3 = return_value_sftp_parse_uint32_2 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_sftp_parse_handle$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_sftp_parse_handle_4;
+  if(tmp_if_expr_3)
   {
-    return_value_sftp_parse_handle$4=sftp_parse_handle(job, &hid);
-    tmp_if_expr$5 = return_value_sftp_parse_handle$4 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_sftp_parse_handle_4=sftp_parse_handle(job, &hid);
+    tmp_if_expr_5 = return_value_sftp_parse_handle_4 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_sftp_parse_uint64$6;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_sftp_parse_uint64_6;
+  if(tmp_if_expr_5)
   {
-    return_value_sftp_parse_uint64$6=sftp_parse_uint64(job, &offset);
-    tmp_if_expr$7 = return_value_sftp_parse_uint64$6 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_sftp_parse_uint64_6=sftp_parse_uint64(job, &offset);
+    tmp_if_expr_7 = return_value_sftp_parse_uint64_6 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  unsigned int return_value_sftp_parse_uint32$8;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  unsigned int return_value_sftp_parse_uint32_8;
+  if(tmp_if_expr_7)
   {
-    return_value_sftp_parse_uint32$8=sftp_parse_uint32(job, &len);
-    tmp_if_expr$9 = return_value_sftp_parse_uint32$8 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_sftp_parse_uint32_8=sftp_parse_uint32(job, &len);
+    tmp_if_expr_9 = return_value_sftp_parse_uint32_8 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  if(tmp_if_expr_9)
   {
     len64 = (unsigned long int)len;
     handleflags=sftp_handle_flags(&hid);
@@ -2898,17 +2898,17 @@ void queue_serializable_job(struct sftpjob *job)
     frc=pthread_mutex_lock(&sq_mutex);
     if(!(frc == 0))
     {
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 190, (const void *)"pthread_mutex_lock(&sq_mutex)", return_value_strerror$10);
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 190, (const void *)"pthread_mutex_lock(&sq_mutex)", return_value_strerror_10);
       exit(1);
     }
 
   }
   while((_Bool)0);
-  void *return_value_sftp__xmalloc$11;
-  return_value_sftp__xmalloc$11=sftp__xmalloc(sizeof(struct sqnode) /*56ul*/ );
-  q = (struct sqnode *)return_value_sftp__xmalloc$11;
+  void *return_value_sftp__xmalloc_11;
+  return_value_sftp__xmalloc_11=sftp__xmalloc(sizeof(struct sqnode) /*56ul*/ );
+  q = (struct sqnode *)return_value_sftp__xmalloc_11;
   q->older = newest;
   q->job = job;
   q->type = type;
@@ -2919,13 +2919,13 @@ void queue_serializable_job(struct sftpjob *job)
   newest = q;
   do
   {
-    signed int queue_serializable_job$$1$$4$$frc;
-    queue_serializable_job$$1$$4$$frc=pthread_mutex_unlock(&sq_mutex);
-    if(!(queue_serializable_job$$1$$4$$frc == 0))
+    signed int queue_serializable_job__1__4__frc;
+    queue_serializable_job__1__4__frc=pthread_mutex_unlock(&sq_mutex);
+    if(!(queue_serializable_job__1__4__frc == 0))
     {
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(queue_serializable_job$$1$$4$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 200, (const void *)"pthread_mutex_unlock(&sq_mutex)", return_value_strerror$12);
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(queue_serializable_job__1__4__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 200, (const void *)"pthread_mutex_unlock(&sq_mutex)", return_value_strerror_12);
       exit(1);
     }
 
@@ -2942,13 +2942,13 @@ static void * queue_thread(void *vq)
   struct allocator a;
   void *workerdata;
   workerdata=q->details->init();
-  signed int queue_thread$$1$$1$$frc;
-  queue_thread$$1$$1$$frc=pthread_mutex_lock(&q->m);
-  if(!(queue_thread$$1$$1$$frc == 0))
+  signed int queue_thread__1__1__frc;
+  queue_thread__1__1__frc=pthread_mutex_lock(&q->m);
+  if(!(queue_thread__1__1__frc == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(queue_thread$$1$$1$$frc);
-    fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 80, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(queue_thread__1__1__frc);
+    fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 80, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror_1);
     exit(1);
   }
 
@@ -2961,13 +2961,13 @@ static void * queue_thread(void *vq)
       if(q->jobs == ((struct queuejob *)NULL))
         q->jobstail = &q->jobs;
 
-      signed int queue_thread$$1$$2$$1$$1$$frc;
-      queue_thread$$1$$2$$1$$1$$frc=pthread_mutex_unlock(&q->m);
-      if(!(queue_thread$$1$$2$$1$$1$$frc == 0))
+      signed int queue_thread__1__2__1__1__frc;
+      queue_thread__1__2__1__1__frc=pthread_mutex_unlock(&q->m);
+      if(!(queue_thread__1__2__1__1__frc == 0))
       {
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(queue_thread$$1$$2$$1$$1$$frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 88, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror$2);
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(queue_thread__1__2__1__1__frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 88, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror_2);
         exit(1);
       }
 
@@ -2979,9 +2979,9 @@ static void * queue_thread(void *vq)
       frc=pthread_mutex_lock(&q->m);
       if(!(frc == 0))
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 93, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror$3);
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 93, (const void *)"pthread_mutex_lock(&q->m)", return_value_strerror_3);
         exit(1);
       }
 
@@ -2989,26 +2989,26 @@ static void * queue_thread(void *vq)
 
     else
     {
-      signed int queue_thread$$1$$2$$2$$1$$frc;
-      queue_thread$$1$$2$$2$$1$$frc=pthread_cond_wait(&q->c, &q->m);
-      if(!(queue_thread$$1$$2$$2$$1$$frc == 0))
+      signed int queue_thread__1__2__2__1__frc;
+      queue_thread__1__2__2__1__frc=pthread_cond_wait(&q->c, &q->m);
+      if(!(queue_thread__1__2__2__1__frc == 0))
       {
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(queue_thread$$1$$2$$2$$1$$frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 96, (const void *)"pthread_cond_wait(&q->c, &q->m)", return_value_strerror$4);
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(queue_thread__1__2__2__1__frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 96, (const void *)"pthread_cond_wait(&q->c, &q->m)", return_value_strerror_4);
         exit(1);
       }
 
     }
   }
 
-  signed int queue_thread$$1$$3$$frc;
-  queue_thread$$1$$3$$frc=pthread_mutex_unlock(&q->m);
-  if(!(queue_thread$$1$$3$$frc == 0))
+  signed int queue_thread__1__3__frc;
+  queue_thread__1__3__frc=pthread_mutex_unlock(&q->m);
+  if(!(queue_thread__1__3__frc == 0))
   {
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(queue_thread$$1$$3$$frc);
-    fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 99, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror$5);
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(queue_thread__1__3__frc);
+    fatal("%s:%d: %s: %s\n", (const void *)"queue.c", 99, (const void *)"pthread_mutex_unlock(&q->m)", return_value_strerror_5);
     exit(1);
   }
 
@@ -3051,33 +3051,33 @@ static signed int ranges_overlap(struct sqnode *a, struct sqnode *b)
 // file serialize.c line 134
 static signed int reorderable(struct sqnode *q1, struct sqnode *q2, unsigned int flags)
 {
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if((signed int)q1->type == 5)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)q1->type == 6 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (signed int)q1->type == 6 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
   {
     if((signed int)q2->type == 5)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)q2->type == 6 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)q2->type == 6 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_ranges_overlap$2;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed int return_value_ranges_overlap_2;
+  if(tmp_if_expr_6)
   {
-    signed int return_value_handles_equal$1;
-    return_value_handles_equal$1=handles_equal(&q1->hid, &q2->hid);
-    if(return_value_handles_equal$1 == 0)
+    signed int return_value_handles_equal_1;
+    return_value_handles_equal_1=handles_equal(&q1->hid, &q2->hid);
+    if(return_value_handles_equal_1 == 0)
       return 1;
 
     if((signed int)q1->type == 5)
@@ -3091,14 +3091,14 @@ static signed int reorderable(struct sqnode *q1, struct sqnode *q2, unsigned int
       return 0;
 
     if((signed int)q1->type == 6)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)q2->type == 6 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)q2->type == 6 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_ranges_overlap$2=ranges_overlap(q1, q2);
-      if(!(return_value_ranges_overlap$2 == 0))
+      return_value_ranges_overlap_2=ranges_overlap(q1, q2);
+      if(!(return_value_ranges_overlap_2 == 0))
         return 0;
 
     }
@@ -3122,27 +3122,27 @@ void serialize(struct sftpjob *job)
     frc=pthread_mutex_lock(&sq_mutex);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 206, (const void *)"pthread_mutex_lock(&sq_mutex)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 206, (const void *)"pthread_mutex_lock(&sq_mutex)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
-  signed int return_value_reorderable$3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_reorderable_3;
   do
   {
     q = newest;
     do
     {
       if(!(q == ((struct sqnode *)NULL)))
-        tmp_if_expr$2 = q->job != job ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = q->job != job ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       q = q->older;
@@ -3154,8 +3154,8 @@ void serialize(struct sftpjob *job)
     oq = q->older;
     for( ; !(oq == ((struct sqnode *)NULL)); oq = oq->older)
     {
-      return_value_reorderable$3=reorderable(q, oq, q->handleflags);
-      if(return_value_reorderable$3 == 0)
+      return_value_reorderable_3=reorderable(q, oq, q->handleflags);
+      if(return_value_reorderable_3 == 0)
         break;
 
     }
@@ -3164,13 +3164,13 @@ void serialize(struct sftpjob *job)
 
     do
     {
-      signed int serialize$$1$$2$$1$$3$$frc;
-      serialize$$1$$2$$1$$3$$frc=pthread_cond_wait(&sq_cond, &sq_mutex);
-      if(!(serialize$$1$$2$$1$$3$$frc == 0))
+      signed int serialize__1__2__1__3__frc;
+      serialize__1__2__1__3__frc=pthread_cond_wait(&sq_cond, &sq_mutex);
+      if(!(serialize__1__2__1__3__frc == 0))
       {
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(serialize$$1$$2$$1$$3$$frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 222, (const void *)"pthread_cond_wait(&sq_cond, &sq_mutex)", return_value_strerror$4);
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(serialize__1__2__1__3__frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 222, (const void *)"pthread_cond_wait(&sq_cond, &sq_mutex)", return_value_strerror_4);
         exit(1);
       }
 
@@ -3180,13 +3180,13 @@ void serialize(struct sftpjob *job)
   while((_Bool)1);
   do
   {
-    signed int serialize$$1$$3$$frc;
-    serialize$$1$$3$$frc=pthread_mutex_unlock(&sq_mutex);
-    if(!(serialize$$1$$3$$frc == 0))
+    signed int serialize__1__3__frc;
+    serialize__1__3__frc=pthread_mutex_unlock(&sq_mutex);
+    if(!(serialize__1__3__frc == 0))
     {
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(serialize$$1$$3$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 225, (const void *)"pthread_mutex_unlock(&sq_mutex)", return_value_strerror$5);
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(serialize__1__3__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 225, (const void *)"pthread_mutex_unlock(&sq_mutex)", return_value_strerror_5);
       exit(1);
     }
 
@@ -3206,25 +3206,25 @@ void serialize_remove_job(struct sftpjob *job)
     frc=pthread_mutex_lock(&sq_mutex);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 231, (const void *)"pthread_mutex_lock(&sq_mutex)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 231, (const void *)"pthread_mutex_lock(&sq_mutex)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
   qq = &newest;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     q = *qq;
     if(!(q == ((struct sqnode *)NULL)))
-      tmp_if_expr$2 = q->job != job ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = q->job != job ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     qq = &q->older;
@@ -3236,13 +3236,13 @@ void serialize_remove_job(struct sftpjob *job)
     free((void *)q);
     do
     {
-      signed int serialize_remove_job$$1$$3$$1$$frc;
-      serialize_remove_job$$1$$3$$1$$frc=pthread_cond_broadcast(&sq_cond);
-      if(!(serialize_remove_job$$1$$3$$1$$frc == 0))
+      signed int serialize_remove_job__1__3__1__frc;
+      serialize_remove_job__1__3__1__frc=pthread_cond_broadcast(&sq_cond);
+      if(!(serialize_remove_job__1__3__1__frc == 0))
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(serialize_remove_job$$1$$3$$1$$frc);
-        fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 238, (const void *)"pthread_cond_broadcast(&sq_cond)", return_value_strerror$3);
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(serialize_remove_job__1__3__1__frc);
+        fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 238, (const void *)"pthread_cond_broadcast(&sq_cond)", return_value_strerror_3);
         exit(1);
       }
 
@@ -3252,13 +3252,13 @@ void serialize_remove_job(struct sftpjob *job)
 
   do
   {
-    signed int serialize_remove_job$$1$$4$$frc;
-    serialize_remove_job$$1$$4$$frc=pthread_mutex_unlock(&sq_mutex);
-    if(!(serialize_remove_job$$1$$4$$frc == 0))
+    signed int serialize_remove_job__1__4__frc;
+    serialize_remove_job__1__4__frc=pthread_mutex_unlock(&sq_mutex);
+    if(!(serialize_remove_job__1__4__frc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(serialize_remove_job$$1$$4$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 240, (const void *)"pthread_mutex_unlock(&sq_mutex)", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(serialize_remove_job__1__4__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"serialize.c", 240, (const void *)"pthread_mutex_unlock(&sq_mutex)", return_value_strerror_4);
       exit(1);
     }
 
@@ -3311,7 +3311,7 @@ void * sftp_alloc(struct allocator *a, unsigned long int n)
   unsigned long int m;
   m=blocks(n);
   struct chunk *c;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(m == 0ul)
     return NULL;
 
@@ -3323,17 +3323,17 @@ void * sftp_alloc(struct allocator *a, unsigned long int n)
     assert(m != 18446744073709551615UL);
     c = a->chunks;
     if(c == ((struct chunk *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = c->left < m ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = c->left < m ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       const unsigned long int cs = m >= (unsigned long int)512 ? m + (unsigned long int)1 : (unsigned long int)512;
       union block *nb;
-      void *return_value_xcalloc$1;
-      return_value_xcalloc$1=xcalloc(cs, sizeof(union block) /*32ul*/ );
-      nb = (union block *)return_value_xcalloc$1;
+      void *return_value_xcalloc_1;
+      return_value_xcalloc_1=xcalloc(cs, sizeof(union block) /*32ul*/ );
+      nb = (union block *)return_value_xcalloc_1;
       c = &nb->c;
       c->next = a->chunks;
       c->ptr = nb + (signed long int)1;
@@ -3387,7 +3387,7 @@ void * sftp_alloc_more(struct allocator *a, void *ptr, unsigned long int oldn, u
   unsigned long int newm;
   newm=blocks(newn);
   void *newptr;
-  void *return_value_sftp_alloc$1;
+  void *return_value_sftp_alloc_1;
   if(!(ptr == NULL))
   {
     /* assertion a->chunks != 0 */
@@ -3428,8 +3428,8 @@ void * sftp_alloc_more(struct allocator *a, void *ptr, unsigned long int oldn, u
 
   else
   {
-    return_value_sftp_alloc$1=sftp_alloc(a, newn);
-    return return_value_sftp_alloc$1;
+    return_value_sftp_alloc_1=sftp_alloc(a, newn);
+    return return_value_sftp_alloc_1;
   }
 }
 
@@ -3444,23 +3444,23 @@ void sftp_debug_hexdump(const void *ptr, unsigned long int n)
   char *output;
   opendebug();
   i = (unsigned long int)0;
-  signed int return_value_sprintf$2;
-  char *tmp_post$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  signed int tmp_if_expr$5;
-  char *tmp_post$6;
+  signed int return_value_sprintf_2;
+  char *tmp_post_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  signed int tmp_if_expr_5;
+  char *tmp_post_6;
   for( ; !(i >= n); i = i + (unsigned long int)16)
   {
     output = buffer;
-    signed int return_value_sprintf$1;
-    return_value_sprintf$1=sprintf(output, "%4lx ", (unsigned long int)i);
-    output = output + (signed long int)return_value_sprintf$1;
+    signed int return_value_sprintf_1;
+    return_value_sprintf_1=sprintf(output, "%4lx ", (unsigned long int)i);
+    output = output + (signed long int)return_value_sprintf_1;
     j = (unsigned long int)0;
     for( ; !(j >= 16ul); j = j + 1ul)
       if(!(i + j >= n))
       {
-        return_value_sprintf$2=sprintf(output, " %02x", p[(signed long int)(i + j)]);
-        output = output + (signed long int)return_value_sprintf$2;
+        return_value_sprintf_2=sprintf(output, " %02x", p[(signed long int)(i + j)]);
+        output = output + (signed long int)return_value_sprintf_2;
       }
 
       else
@@ -3474,20 +3474,20 @@ void sftp_debug_hexdump(const void *ptr, unsigned long int n)
     for( ; !(j >= 16ul); j = j + 1ul)
       if(!(i + j >= n))
       {
-        tmp_post$3 = output;
+        tmp_post_3 = output;
         output = output + 1l;
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        if(!((16384 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)p[(signed long int)i + (signed long int)j]]) == 0))
-          tmp_if_expr$5 = (signed int)p[(signed long int)(i + j)];
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        if(!((16384 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)p[(signed long int)i + (signed long int)j]]) == 0))
+          tmp_if_expr_5 = (signed int)p[(signed long int)(i + j)];
 
         else
-          tmp_if_expr$5 = 46;
-        *tmp_post$3 = (char)tmp_if_expr$5;
+          tmp_if_expr_5 = 46;
+        *tmp_post_3 = (char)tmp_if_expr_5;
       }
 
-    tmp_post$6 = output;
+    tmp_post_6 = output;
     output = output + 1l;
-    *tmp_post$6 = (char)10;
+    *tmp_post_6 = (char)10;
     *output = (char)0;
     fputs(buffer, debugfp);
   }
@@ -3500,18 +3500,18 @@ void sftp_debug_printf(const char *fmt, ...)
 {
   void **ap;
   signed int save_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  save_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  save_errno = *return_value___errno_location_1;
   opendebug();
   ap = (void **)&fmt;
   vfprintf(debugfp, fmt, ap);
   ap = ((void **)NULL);
   fputc(10, debugfp);
   fflush(debugfp);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = save_errno;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = save_errno;
 }
 
 // sftp_dirname
@@ -3528,9 +3528,9 @@ const char * sftp_dirname(struct allocator *a, const char *path)
       char *d;
       /* assertion len + 1 != 0 */
       assert(len + (unsigned long int)1 != (unsigned long int)0);
-      void *return_value_sftp_alloc$1;
-      return_value_sftp_alloc$1=sftp_alloc(a, len + (unsigned long int)1);
-      d = (char *)return_value_sftp_alloc$1;
+      void *return_value_sftp_alloc_1;
+      return_value_sftp_alloc_1=sftp_alloc(a, len + (unsigned long int)1);
+      d = (char *)return_value_sftp_alloc_1;
       memcpy((void *)d, (const void *)path, len);
       return d;
     }
@@ -3553,12 +3553,12 @@ char * sftp_do_readlink(struct allocator *a, const char *path)
   signed int n;
   while(nresult >= 1ul && !(nresult >= 65537ul))
   {
-    void *return_value_sftp_alloc_more$1;
-    return_value_sftp_alloc_more$1=sftp_alloc_more(a, (void *)result, oldnresult, nresult);
-    result = (char *)return_value_sftp_alloc_more$1;
-    signed long int return_value_readlink$2;
-    return_value_readlink$2=readlink(path, result, nresult);
-    n = (signed int)return_value_readlink$2;
+    void *return_value_sftp_alloc_more_1;
+    return_value_sftp_alloc_more_1=sftp_alloc_more(a, (void *)result, oldnresult, nresult);
+    result = (char *)return_value_sftp_alloc_more_1;
+    signed long int return_value_readlink_2;
+    return_value_readlink_2=readlink(path, result, nresult);
+    n = (signed int)return_value_readlink_2;
     if(!(n >= 0))
       return ((char *)NULL);
 
@@ -3571,9 +3571,9 @@ char * sftp_do_readlink(struct allocator *a, const char *path)
     oldnresult = nresult;
     nresult = nresult * (unsigned long int)2;
   }
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  *return_value___errno_location$3 = 7;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  *return_value___errno_location_3 = 7;
   return ((char *)NULL);
 }
 
@@ -3601,13 +3601,13 @@ char * sftp_find_realpath(struct allocator *a, const char *path, unsigned int fl
 
     /* assertion cwd[0] == '/' */
     assert((signed int)cwd[(signed long int)0] == 47);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cwd);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(path);
-    void *return_value_sftp_alloc$3;
-    return_value_sftp_alloc$3=sftp_alloc(a, return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)2);
-    abspath = (char *)return_value_sftp_alloc$3;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cwd);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(path);
+    void *return_value_sftp_alloc_3;
+    return_value_sftp_alloc_3=sftp_alloc(a, return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)2);
+    abspath = (char *)return_value_sftp_alloc_3;
     strcpy(abspath, cwd);
     strcat(abspath, "/");
     strcat(abspath, path);
@@ -3620,9 +3620,9 @@ char * sftp_find_realpath(struct allocator *a, const char *path, unsigned int fl
   }
 
   result=append(a, result, &nresult, "/");
-  char *return_value_process_path$4;
-  return_value_process_path$4=process_path(a, result, &nresult, path, flags);
-  return return_value_process_path$4;
+  char *return_value_process_path_4;
+  return_value_process_path_4=process_path(a, result, &nresult, path, flags);
+  return return_value_process_path_4;
 }
 
 // sftp_format_attr
@@ -3643,136 +3643,136 @@ const char * sftp_format_attr(struct allocator *a, struct sftpattr *attrs, signe
   const char *group;
   unsigned long int n;
   p = perms;
-  char *tmp_post$1 = p;
+  char *tmp_post_1 = p;
   p = p + 1l;
   static const char typedetails[11l] = { '?', '-', 'd', 'l', '?', '?', 's', 'c', 'b', 'p', 0 };
-  *tmp_post$1 = typedetails[(signed long int)attrs->type];
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  char *tmp_post$11;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  char *tmp_post$16;
-  char *tmp_post$17;
-  char *tmp_post$18;
-  char *tmp_post$19;
+  *tmp_post_1 = typedetails[(signed long int)attrs->type];
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  char *tmp_post_11;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  char *tmp_post_16;
+  char *tmp_post_17;
+  char *tmp_post_18;
+  char *tmp_post_19;
   if(!((4u & attrs->valid) == 0u))
   {
-    tmp_post$2 = p;
+    tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = (char)((attrs->permissions & (unsigned int)00400) != 0u ? 114 : 45);
-    tmp_post$3 = p;
+    *tmp_post_2 = (char)((attrs->permissions & (unsigned int)00400) != 0u ? 114 : 45);
+    tmp_post_3 = p;
     p = p + 1l;
-    *tmp_post$3 = (char)((attrs->permissions & (unsigned int)00200) != 0u ? 119 : 45);
+    *tmp_post_3 = (char)((attrs->permissions & (unsigned int)00200) != 0u ? 119 : 45);
     switch(attrs->permissions & (unsigned int)04100)
     {
       case (unsigned int)00000:
       {
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        *tmp_post$4 = (char)45;
+        *tmp_post_4 = (char)45;
         break;
       }
       case (unsigned int)00100:
       {
-        tmp_post$5 = p;
+        tmp_post_5 = p;
         p = p + 1l;
-        *tmp_post$5 = (char)120;
+        *tmp_post_5 = (char)120;
         break;
       }
       case (unsigned int)04000:
       {
-        tmp_post$6 = p;
+        tmp_post_6 = p;
         p = p + 1l;
-        *tmp_post$6 = (char)83;
+        *tmp_post_6 = (char)83;
         break;
       }
       case (unsigned int)04100:
       {
-        tmp_post$7 = p;
+        tmp_post_7 = p;
         p = p + 1l;
-        *tmp_post$7 = (char)115;
+        *tmp_post_7 = (char)115;
       }
     }
-    tmp_post$8 = p;
+    tmp_post_8 = p;
     p = p + 1l;
-    *tmp_post$8 = (char)((attrs->permissions & (unsigned int)00040) != 0u ? 114 : 45);
-    tmp_post$9 = p;
+    *tmp_post_8 = (char)((attrs->permissions & (unsigned int)00040) != 0u ? 114 : 45);
+    tmp_post_9 = p;
     p = p + 1l;
-    *tmp_post$9 = (char)((attrs->permissions & (unsigned int)00020) != 0u ? 119 : 45);
+    *tmp_post_9 = (char)((attrs->permissions & (unsigned int)00020) != 0u ? 119 : 45);
     switch(attrs->permissions & (unsigned int)02010)
     {
       case (unsigned int)00000:
       {
-        tmp_post$10 = p;
+        tmp_post_10 = p;
         p = p + 1l;
-        *tmp_post$10 = (char)45;
+        *tmp_post_10 = (char)45;
         break;
       }
       case (unsigned int)00010:
       {
-        tmp_post$11 = p;
+        tmp_post_11 = p;
         p = p + 1l;
-        *tmp_post$11 = (char)120;
+        *tmp_post_11 = (char)120;
         break;
       }
       case (unsigned int)02000:
       {
-        tmp_post$12 = p;
+        tmp_post_12 = p;
         p = p + 1l;
-        *tmp_post$12 = (char)83;
+        *tmp_post_12 = (char)83;
         break;
       }
       case (unsigned int)02010:
       {
-        tmp_post$13 = p;
+        tmp_post_13 = p;
         p = p + 1l;
-        *tmp_post$13 = (char)115;
+        *tmp_post_13 = (char)115;
       }
     }
-    tmp_post$14 = p;
+    tmp_post_14 = p;
     p = p + 1l;
-    *tmp_post$14 = (char)((attrs->permissions & (unsigned int)00004) != 0u ? 114 : 45);
-    tmp_post$15 = p;
+    *tmp_post_14 = (char)((attrs->permissions & (unsigned int)00004) != 0u ? 114 : 45);
+    tmp_post_15 = p;
     p = p + 1l;
-    *tmp_post$15 = (char)((attrs->permissions & (unsigned int)00002) != 0u ? 119 : 45);
+    *tmp_post_15 = (char)((attrs->permissions & (unsigned int)00002) != 0u ? 119 : 45);
     switch(attrs->permissions & (unsigned int)01001)
     {
       case (unsigned int)00000:
       {
-        tmp_post$16 = p;
+        tmp_post_16 = p;
         p = p + 1l;
-        *tmp_post$16 = (char)45;
+        *tmp_post_16 = (char)45;
         break;
       }
       case (unsigned int)00001:
       {
-        tmp_post$17 = p;
+        tmp_post_17 = p;
         p = p + 1l;
-        *tmp_post$17 = (char)120;
+        *tmp_post_17 = (char)120;
         break;
       }
       case (unsigned int)01000:
       {
-        tmp_post$18 = p;
+        tmp_post_18 = p;
         p = p + 1l;
-        *tmp_post$18 = (char)84;
+        *tmp_post_18 = (char)84;
         break;
       }
       case (unsigned int)01001:
       {
-        tmp_post$19 = p;
+        tmp_post_19 = p;
         p = p + 1l;
-        *tmp_post$19 = (char)116;
+        *tmp_post_19 = (char)116;
       }
     }
     *p = (char)0;
@@ -3869,18 +3869,18 @@ const char * sftp_format_attr(struct allocator *a, struct sftpattr *attrs, signe
 
   }
 
-  unsigned long int return_value_strlen$20;
-  return_value_strlen$20=strlen(attrs->name);
-  void *return_value_sftp_alloc$21;
-  return_value_sftp_alloc$21=sftp_alloc(a, (unsigned long int)80 + return_value_strlen$20);
-  formatted = (char *)return_value_sftp_alloc$21;
-  const char *tmp_if_expr$22;
+  unsigned long int return_value_strlen_20;
+  return_value_strlen_20=strlen(attrs->name);
+  void *return_value_sftp_alloc_21;
+  return_value_sftp_alloc_21=sftp_alloc(a, (unsigned long int)80 + return_value_strlen_20);
+  formatted = (char *)return_value_sftp_alloc_21;
+  const char *tmp_if_expr_22;
   if(!(attrs->target == ((const char *)NULL)))
-    tmp_if_expr$22 = attrs->target;
+    tmp_if_expr_22 = attrs->target;
 
   else
-    tmp_if_expr$22 = "";
-  sprintf(formatted, "%10.10s %3.3s %-8.8s %-8.8s %8.8s %12.12s %s%s%s%s%s", (const void *)perms, (const void *)linkcount, owner, group, (const void *)size, (const void *)date, attrs->name, attrs->target != ((const char *)NULL) ? " -> " : "", tmp_if_expr$22, (flags & (unsigned long int)0x00000004) != 0ul ? " " : "", (flags & (unsigned long int)0x00000004) != 0ul ? bits : "");
+    tmp_if_expr_22 = "";
+  sprintf(formatted, "%10.10s %3.3s %-8.8s %-8.8s %8.8s %12.12s %s%s%s%s%s", (const void *)perms, (const void *)linkcount, owner, group, (const void *)size, (const void *)date, attrs->name, attrs->target != ((const char *)NULL) ? " -> " : "", tmp_if_expr_22, (flags & (unsigned long int)0x00000004) != 0ul ? " " : "", (flags & (unsigned long int)0x00000004) != 0ul ? bits : "");
   return formatted;
 }
 
@@ -3894,7 +3894,7 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
   signed int fd;
   struct stat sb;
   struct handleid id;
-  unsigned int sftp_generic_open$$1$$sftp_handle_flags = (unsigned int)0;
+  unsigned int sftp_generic_open__1__sftp_handle_flags = (unsigned int)0;
   unsigned int rc;
   do
     if(!(sftp_debugging == 0))
@@ -3902,13 +3902,13 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
 
   while((_Bool)0);
   rc=sftp_normalize_ownergroup(job->a, attrs);
-  unsigned int return_value_getuid$1;
-  signed int *return_value___errno_location$4;
-  signed int return_value_fstat$8;
-  signed int *return_value___errno_location$12;
-  signed int *return_value___errno_location$14;
-  _Bool tmp_if_expr$16;
-  signed int *return_value___errno_location$15;
+  unsigned int return_value_getuid_1;
+  signed int *return_value___errno_location_4;
+  signed int return_value_fstat_8;
+  signed int *return_value___errno_location_12;
+  signed int *return_value___errno_location_14;
+  _Bool tmp_if_expr_16;
+  signed int *return_value___errno_location_15;
   if(!(rc == 0u))
     return rc;
 
@@ -3973,8 +3973,8 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
     ;
     if(!((524288u & desired_access) == 0u))
     {
-      return_value_getuid$1=getuid();
-      if(return_value_getuid$1 == 0u)
+      return_value_getuid_1=getuid();
+      if(return_value_getuid_1 == 0u)
         goto __CPROVER_DUMP_L16;
 
       return (unsigned int)3;
@@ -3994,11 +3994,11 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
 
         while((_Bool)0);
         open_flags = open_flags | 02000;
-        sftp_generic_open$$1$$sftp_handle_flags = sftp_generic_open$$1$$sftp_handle_flags | (unsigned int)0x0002;
+        sftp_generic_open__1__sftp_handle_flags = sftp_generic_open__1__sftp_handle_flags | (unsigned int)0x0002;
       }
 
       if(!((32u & flags) == 0u))
-        sftp_generic_open$$1$$sftp_handle_flags = sftp_generic_open$$1$$sftp_handle_flags | (unsigned int)0x0001;
+        sftp_generic_open__1__sftp_handle_flags = sftp_generic_open__1__sftp_handle_flags | (unsigned int)0x0001;
 
       if(!((448u & flags) == 0u))
         return (unsigned int)8;
@@ -4057,9 +4057,9 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
                     sftp_debug_printf("SSH_FXF_CREATE_NEW -> test for existence");
 
                 while((_Bool)0);
-                signed int return_value_stat$2;
-                return_value_stat$2=stat(path, &sb);
-                if(return_value_stat$2 == 0)
+                signed int return_value_stat_2;
+                return_value_stat_2=stat(path, &sb);
+                if(return_value_stat_2 == 0)
                   return (unsigned int)11;
 
                 do
@@ -4105,17 +4105,17 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
 
                 else
                 {
-                  return_value___errno_location$4=__errno_location();
-                  if(*return_value___errno_location$4 == 17)
+                  return_value___errno_location_4=__errno_location();
+                  if(*return_value___errno_location_4 == 17)
                   {
                     do
                       if(!(sftp_debugging == 0))
                         sftp_debug_printf("SSH_FXF_*|SSH_FXF_NOFOLLOW -> EEXIST");
 
                     while((_Bool)0);
-                    signed int return_value_lstat$3;
-                    return_value_lstat$3=lstat(path, &sb);
-                    if(!(return_value_lstat$3 >= 0))
+                    signed int return_value_lstat_3;
+                    return_value_lstat_3=lstat(path, &sb);
+                    if(!(return_value_lstat_3 >= 0))
                       return (unsigned int)-2;
 
                     if((61440u & sb.st_mode) == 40960u)
@@ -4137,9 +4137,9 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
                     sftp_debug_printf("SSH_FXF_* -> test for existence");
 
                 while((_Bool)0);
-                signed int return_value_stat$5;
-                return_value_stat$5=stat(path, &sb);
-                if(return_value_stat$5 == 0)
+                signed int return_value_stat_5;
+                return_value_stat_5=stat(path, &sb);
+                if(return_value_stat_5 == 0)
                 {
                   do
                     if(!(sftp_debugging == 0))
@@ -4172,9 +4172,9 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
                     sftp_debug_printf("emulating O_NOFOLLOW");
 
                 while((_Bool)0);
-                signed int return_value_lstat$6;
-                return_value_lstat$6=lstat(path, &sb);
-                if(return_value_lstat$6 == 0)
+                signed int return_value_lstat_6;
+                return_value_lstat_6=lstat(path, &sb);
+                if(return_value_lstat_6 == 0)
                 {
                   if((61440u & sb.st_mode) == 40960u)
                     return (unsigned int)21;
@@ -4201,9 +4201,9 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
                     sftp_debug_printf("emulating O_NOFOLLOW");
 
                 while((_Bool)0);
-                signed int return_value_lstat$7;
-                return_value_lstat$7=lstat(path, &sb);
-                if(return_value_lstat$7 == 0)
+                signed int return_value_lstat_7;
+                return_value_lstat_7=lstat(path, &sb);
+                if(return_value_lstat_7 == 0)
                 {
                   if((61440u & sb.st_mode) == 40960u)
                     return (unsigned int)21;
@@ -4226,8 +4226,8 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
           }
           if(fd >= 0)
           {
-            return_value_fstat$8=fstat(fd, &sb);
-            if(!(return_value_fstat$8 == 0))
+            return_value_fstat_8=fstat(fd, &sb);
+            if(!(return_value_fstat_8 == 0))
               goto __CPROVER_DUMP_L75;
 
             if(!((61440u & sb.st_mode) == 16384u))
@@ -4246,39 +4246,39 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
             {
               if((7u & flags) == 2u || (7u & flags) == 4u)
               {
-                return_value___errno_location$12=__errno_location();
-                if(*return_value___errno_location$12 == 2)
+                return_value___errno_location_12=__errno_location();
+                if(*return_value___errno_location_12 == 2)
                 {
-                  const char *return_value_sftp_dirname$9;
-                  return_value_sftp_dirname$9=sftp_dirname(job->a, path);
-                  signed int return_value_lstat$10;
-                  return_value_lstat$10=lstat(return_value_sftp_dirname$9, &sb);
-                  if(!(return_value_lstat$10 >= 0))
+                  const char *return_value_sftp_dirname_9;
+                  return_value_sftp_dirname_9=sftp_dirname(job->a, path);
+                  signed int return_value_lstat_10;
+                  return_value_lstat_10=lstat(return_value_sftp_dirname_9, &sb);
+                  if(!(return_value_lstat_10 >= 0))
                     return (unsigned int)10;
 
-                  signed int *return_value___errno_location$11;
-                  return_value___errno_location$11=__errno_location();
-                  *return_value___errno_location$11 = 2;
+                  signed int *return_value___errno_location_11;
+                  return_value___errno_location_11=__errno_location();
+                  *return_value___errno_location_11 = 2;
                 }
 
               }
 
               if(!((1024u & flags) == 0u))
               {
-                return_value___errno_location$14=__errno_location();
-                if(*return_value___errno_location$14 == 2)
-                  tmp_if_expr$16 = (_Bool)1;
+                return_value___errno_location_14=__errno_location();
+                if(*return_value___errno_location_14 == 2)
+                  tmp_if_expr_16 = (_Bool)1;
 
                 else
                 {
-                  return_value___errno_location$15=__errno_location();
-                  tmp_if_expr$16 = *return_value___errno_location$15 == 17 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_15=__errno_location();
+                  tmp_if_expr_16 = *return_value___errno_location_15 == 17 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$16)
+                if(tmp_if_expr_16)
                 {
-                  signed int return_value_lstat$13;
-                  return_value_lstat$13=lstat(path, &sb);
-                  if(!(return_value_lstat$13 >= 0))
+                  signed int return_value_lstat_13;
+                  return_value_lstat_13=lstat(path, &sb);
+                  if(!(return_value_lstat_13 >= 0))
                     return (unsigned int)-2;
 
                   if((61440u & sb.st_mode) == 40960u)
@@ -4299,14 +4299,14 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
                 if(!(rc == 0u))
                 {
                   signed int save_errno;
-                  signed int *return_value___errno_location$17;
-                  return_value___errno_location$17=__errno_location();
-                  save_errno = *return_value___errno_location$17;
+                  signed int *return_value___errno_location_17;
+                  return_value___errno_location_17=__errno_location();
+                  save_errno = *return_value___errno_location_17;
                   close(fd);
                   unlink(path);
-                  signed int *return_value___errno_location$18;
-                  return_value___errno_location$18=__errno_location();
-                  *return_value___errno_location$18 = save_errno;
+                  signed int *return_value___errno_location_18;
+                  return_value___errno_location_18=__errno_location();
+                  *return_value___errno_location_18 = save_errno;
                   return rc;
                 }
 
@@ -4324,7 +4324,7 @@ unsigned int sftp_generic_open(struct sftpjob *job, const char *path, unsigned i
               unlink(path);
             }
 
-            sftp_handle_new_file(&id, fd, path, sftp_generic_open$$1$$sftp_handle_flags);
+            sftp_handle_new_file(&id, fd, path, sftp_generic_open__1__sftp_handle_flags);
             do
               if(!(sftp_debugging == 0))
                 sftp_debug_printf("...handle is %u %u", id.id, id.tag);
@@ -4350,30 +4350,30 @@ char * sftp_getcwd(struct allocator *a)
   char *buffer = ((char *)NULL);
   unsigned long int size = (unsigned long int)32;
   unsigned long int oldsize = (unsigned long int)0;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   do
   {
-    void *return_value_sftp_alloc_more$1;
-    return_value_sftp_alloc_more$1=sftp_alloc_more(a, (void *)buffer, oldsize, size);
-    buffer = (char *)return_value_sftp_alloc_more$1;
-    char *return_value_getcwd$5;
-    return_value_getcwd$5=getcwd(buffer, size);
-    if(!(return_value_getcwd$5 == ((char *)NULL)))
+    void *return_value_sftp_alloc_more_1;
+    return_value_sftp_alloc_more_1=sftp_alloc_more(a, (void *)buffer, oldsize, size);
+    buffer = (char *)return_value_sftp_alloc_more_1;
+    char *return_value_getcwd_5;
+    return_value_getcwd_5=getcwd(buffer, size);
+    if(!(return_value_getcwd_5 == ((char *)NULL)))
       return buffer;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 34))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 34))
       {
         do
           if(!(sftp_debugging == 0))
           {
-            return_value___errno_location$2=__errno_location();
-            return_value_strerror$3=strerror(*return_value___errno_location$2);
-            sftp_debug_printf("getcwd returned error %s", return_value_strerror$3);
+            return_value___errno_location_2=__errno_location();
+            return_value_strerror_3=strerror(*return_value___errno_location_2);
+            sftp_debug_printf("getcwd returned error %s", return_value_strerror_3);
           }
 
         while((_Bool)0);
@@ -4400,35 +4400,35 @@ char * sftp_gid2name(struct allocator *a, unsigned int gid)
     frc=pthread_mutex_lock(&user_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 52, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 52, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
   gr=getgrgid(gid);
-  unsigned long int return_value_strlen$2;
-  void *return_value_sftp_alloc$3;
+  unsigned long int return_value_strlen_2;
+  void *return_value_sftp_alloc_3;
   if(!(gr == ((struct group *)NULL)))
   {
-    return_value_strlen$2=strlen(gr->gr_name);
-    return_value_sftp_alloc$3=sftp_alloc(a, return_value_strlen$2 + (unsigned long int)1);
-    s=strcpy((char *)return_value_sftp_alloc$3, gr->gr_name);
+    return_value_strlen_2=strlen(gr->gr_name);
+    return_value_sftp_alloc_3=sftp_alloc(a, return_value_strlen_2 + (unsigned long int)1);
+    s=strcpy((char *)return_value_sftp_alloc_3, gr->gr_name);
   }
 
   else
     s = ((char *)NULL);
   do
   {
-    signed int sftp_gid2name$$1$$2$$frc;
-    sftp_gid2name$$1$$2$$frc=pthread_mutex_unlock(&user_lock);
-    if(!(sftp_gid2name$$1$$2$$frc == 0))
+    signed int sftp_gid2name__1__2__frc;
+    sftp_gid2name__1__2__frc=pthread_mutex_unlock(&user_lock);
+    if(!(sftp_gid2name__1__2__frc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(sftp_gid2name$$1$$2$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 57, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(sftp_gid2name__1__2__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 57, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror_4);
       exit(1);
     }
 
@@ -4448,31 +4448,31 @@ unsigned int sftp_handle_close(struct handleid *id)
     frc=pthread_mutex_lock(&sftp_handle_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 140, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 140, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!((unsigned long int)id->id >= nhandles))
-    tmp_if_expr$4 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  signed int return_value_close$2;
-  signed int return_value_closedir$3;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  signed int return_value_close_2;
+  signed int return_value_closedir_3;
+  if(tmp_if_expr_4)
   {
     (handles + (signed long int)id->id)->tag = (unsigned int)0;
     switch((handles + (signed long int)id->id)->type)
     {
       case 3:
       {
-        return_value_close$2=close((handles + (signed long int)id->id)->u.fd);
-        if(!(return_value_close$2 >= 0))
+        return_value_close_2=close((handles + (signed long int)id->id)->u.fd);
+        if(!(return_value_close_2 >= 0))
           rc = (unsigned int)-2;
 
         else
@@ -4481,8 +4481,8 @@ unsigned int sftp_handle_close(struct handleid *id)
       }
       case 11:
       {
-        return_value_closedir$3=closedir((handles + (signed long int)id->id)->u.dir);
-        if(!(return_value_closedir$3 >= 0))
+        return_value_closedir_3=closedir((handles + (signed long int)id->id)->u.dir);
+        if(!(return_value_closedir_3 >= 0))
           rc = (unsigned int)-2;
 
         else
@@ -4499,13 +4499,13 @@ unsigned int sftp_handle_close(struct handleid *id)
     rc = (unsigned int)9;
   do
   {
-    signed int sftp_handle_close$$1$$3$$frc;
-    sftp_handle_close$$1$$3$$frc=pthread_mutex_unlock(&sftp_handle_lock);
-    if(!(sftp_handle_close$$1$$3$$frc == 0))
+    signed int sftp_handle_close__1__3__frc;
+    sftp_handle_close__1__3__frc=pthread_mutex_unlock(&sftp_handle_lock);
+    if(!(sftp_handle_close__1__3__frc == 0))
     {
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(sftp_handle_close$$1$$3$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 164, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror$5);
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(sftp_handle_close__1__3__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 164, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror_5);
       exit(1);
     }
 
@@ -4525,34 +4525,34 @@ unsigned int sftp_handle_flags(struct handleid *id)
     frc=pthread_mutex_lock(&sftp_handle_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 171, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 171, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((unsigned long int)id->id >= nhandles))
-    tmp_if_expr$2 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     rc = (handles + (signed long int)id->id)->flags;
 
   else
     rc = (unsigned int)0;
   do
   {
-    signed int sftp_handle_flags$$1$$2$$frc;
-    sftp_handle_flags$$1$$2$$frc=pthread_mutex_unlock(&sftp_handle_lock);
-    if(!(sftp_handle_flags$$1$$2$$frc == 0))
+    signed int sftp_handle_flags__1__2__frc;
+    sftp_handle_flags__1__2__frc=pthread_mutex_unlock(&sftp_handle_lock);
+    if(!(sftp_handle_flags__1__2__frc == 0))
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(sftp_handle_flags$$1$$2$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 177, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(sftp_handle_flags__1__2__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 177, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror_3);
       exit(1);
     }
 
@@ -4568,31 +4568,31 @@ unsigned int sftp_handle_get_dir(struct handleid *id, struct __dirstream **dp, c
   unsigned int rc;
   do
   {
-    signed int sftp_handle_get_dir$$1$$1$$frc;
-    sftp_handle_get_dir$$1$$1$$frc=pthread_mutex_lock(&sftp_handle_lock);
-    if(!(sftp_handle_get_dir$$1$$1$$frc == 0))
+    signed int sftp_handle_get_dir__1__1__frc;
+    sftp_handle_get_dir__1__1__frc=pthread_mutex_lock(&sftp_handle_lock);
+    if(!(sftp_handle_get_dir__1__1__frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(sftp_handle_get_dir$$1$$1$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 123, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(sftp_handle_get_dir__1__1__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 123, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((unsigned long int)id->id >= nhandles))
-    tmp_if_expr$2 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (handles + (signed long int)id->id)->type == 11 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (handles + (signed long int)id->id)->type == 11 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     *dp = (handles + (signed long int)id->id)->u.dir;
     if(!(pathp == ((const char **)NULL)))
@@ -4609,9 +4609,9 @@ unsigned int sftp_handle_get_dir(struct handleid *id, struct __dirstream **dp, c
     frc=pthread_mutex_unlock(&sftp_handle_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 133, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 133, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror_4);
       exit(1);
     }
 
@@ -4631,27 +4631,27 @@ unsigned int sftp_handle_get_fd(struct handleid *id, signed int *fd, unsigned in
     frc=pthread_mutex_lock(&sftp_handle_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 105, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 105, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((unsigned long int)id->id >= nhandles))
-    tmp_if_expr$2 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = id->tag == (handles + (signed long int)id->id)->tag ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (handles + (signed long int)id->id)->type == 3 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (handles + (signed long int)id->id)->type == 3 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     *fd = (handles + (signed long int)id->id)->u.fd;
     if(!(flagsp == ((unsigned int *)NULL)))
@@ -4664,13 +4664,13 @@ unsigned int sftp_handle_get_fd(struct handleid *id, signed int *fd, unsigned in
     rc = (unsigned int)9;
   do
   {
-    signed int sftp_handle_get_fd$$1$$3$$frc;
-    sftp_handle_get_fd$$1$$3$$frc=pthread_mutex_unlock(&sftp_handle_lock);
-    if(!(sftp_handle_get_fd$$1$$3$$frc == 0))
+    signed int sftp_handle_get_fd__1__3__frc;
+    sftp_handle_get_fd__1__3__frc=pthread_mutex_unlock(&sftp_handle_lock);
+    if(!(sftp_handle_get_fd__1__3__frc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(sftp_handle_get_fd$$1$$3$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 115, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(sftp_handle_get_fd__1__3__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 115, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror_4);
       exit(1);
     }
 
@@ -4689,9 +4689,9 @@ void sftp_handle_new_dir(struct handleid *id, struct __dirstream *dp, const char
     frc=pthread_mutex_lock(&sftp_handle_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 94, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 94, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror_1);
       exit(1);
     }
 
@@ -4702,13 +4702,13 @@ void sftp_handle_new_dir(struct handleid *id, struct __dirstream *dp, const char
   (handles + (signed long int)id->id)->path=xstrdup(path);
   do
   {
-    signed int sftp_handle_new_dir$$1$$2$$frc;
-    sftp_handle_new_dir$$1$$2$$frc=pthread_mutex_unlock(&sftp_handle_lock);
-    if(!(sftp_handle_new_dir$$1$$2$$frc == 0))
+    signed int sftp_handle_new_dir__1__2__frc;
+    sftp_handle_new_dir__1__2__frc=pthread_mutex_unlock(&sftp_handle_lock);
+    if(!(sftp_handle_new_dir__1__2__frc == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(sftp_handle_new_dir$$1$$2$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 98, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(sftp_handle_new_dir__1__2__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 98, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror_2);
       exit(1);
     }
 
@@ -4726,9 +4726,9 @@ void sftp_handle_new_file(struct handleid *id, signed int fd, const char *path, 
     frc=pthread_mutex_lock(&sftp_handle_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 85, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 85, (const void *)"pthread_mutex_lock(&sftp_handle_lock)", return_value_strerror_1);
       exit(1);
     }
 
@@ -4740,13 +4740,13 @@ void sftp_handle_new_file(struct handleid *id, signed int fd, const char *path, 
   (handles + (signed long int)id->id)->flags = flags;
   do
   {
-    signed int sftp_handle_new_file$$1$$2$$frc;
-    sftp_handle_new_file$$1$$2$$frc=pthread_mutex_unlock(&sftp_handle_lock);
-    if(!(sftp_handle_new_file$$1$$2$$frc == 0))
+    signed int sftp_handle_new_file__1__2__frc;
+    sftp_handle_new_file__1__2__frc=pthread_mutex_unlock(&sftp_handle_lock);
+    if(!(sftp_handle_new_file__1__2__frc == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(sftp_handle_new_file$$1$$2$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 90, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(sftp_handle_new_file__1__2__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"handle.c", 90, (const void *)"pthread_mutex_unlock(&sftp_handle_lock)", return_value_strerror_2);
       exit(1);
     }
 
@@ -4762,9 +4762,9 @@ signed int sftp_iconv(struct allocator *a, void *cd, char **sp)
   unsigned long int inputsize;
   inputsize=strlen(input);
   unsigned long int outputsize;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(input);
-  outputsize = (unsigned long int)2 * return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(input);
+  outputsize = (unsigned long int)2 * return_value_strlen_1 + (unsigned long int)1;
   unsigned long int rc;
   const char *inbuf;
   char *outbuf;
@@ -4773,13 +4773,13 @@ signed int sftp_iconv(struct allocator *a, void *cd, char **sp)
   unsigned long int outbytesleft;
   /* assertion cd != 0 */
   assert(cd != NULL);
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
-    void *return_value_sftp_alloc$4;
-    return_value_sftp_alloc$4=sftp_alloc(a, outputsize);
-    output = (char *)return_value_sftp_alloc$4;
+    void *return_value_sftp_alloc_4;
+    return_value_sftp_alloc_4=sftp_alloc(a, outputsize);
+    output = (char *)return_value_sftp_alloc_4;
     iconv(cd, ((char ** restrict )NULL), ((unsigned long int *)NULL), ((char ** restrict )NULL), ((unsigned long int *)NULL));
     inbuf = input;
     inbytesleft = inputsize;
@@ -4789,14 +4789,14 @@ signed int sftp_iconv(struct allocator *a, void *cd, char **sp)
     outputsize = outputsize * (unsigned long int)2;
     if(rc == 18446744073709551615ul)
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 7 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 7 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   if(rc == 18446744073709551615ul)
     return -1;
 
@@ -4811,7 +4811,7 @@ signed int sftp_iconv(struct allocator *a, void *cd, char **sp)
 // file sftpserver.c line 141
 static unsigned int sftp_init(struct sftpjob *job)
 {
-  unsigned int sftp_init$$1$$version;
+  unsigned int sftp_init__1__version;
   unsigned long int offset;
   signed int n;
   if(!(protocol == &sftp_preinit))
@@ -4822,7 +4822,7 @@ static unsigned int sftp_init(struct sftpjob *job)
     do
     {
       unsigned int rc;
-      rc=sftp_parse_uint32(job, &sftp_init$$1$$version);
+      rc=sftp_parse_uint32(job, &sftp_init__1__version);
       if(!(rc == 0u))
       {
         do
@@ -4835,7 +4835,7 @@ static unsigned int sftp_init(struct sftpjob *job)
 
     }
     while((_Bool)0);
-    switch(sftp_init$$1$$version)
+    switch(sftp_init__1__version)
     {
       case (unsigned int)0:
 
@@ -4946,18 +4946,18 @@ signed int * sftp_mbs2wcs(const char *s)
 {
   signed int *ws;
   unsigned long int len;
-  struct anonymous$1 ps;
-  memset((void *)&ps, 0, sizeof(struct anonymous$1) /*8ul*/ );
+  struct anonymous_1 ps;
+  memset((void *)&ps, 0, sizeof(struct anonymous_1) /*8ul*/ );
   len=mbsrtowcs(((signed int *)NULL), &s, (unsigned long int)0, &ps);
   if(len == 18446744073709551615ul)
     return ((signed int *)NULL);
 
   else
   {
-    void *return_value_xcalloc$1;
-    return_value_xcalloc$1=xcalloc(len + (unsigned long int)1, sizeof(signed int) /*4ul*/ );
-    ws = (signed int *)return_value_xcalloc$1;
-    memset((void *)&ps, 0, sizeof(struct anonymous$1) /*8ul*/ );
+    void *return_value_xcalloc_1;
+    return_value_xcalloc_1=xcalloc(len + (unsigned long int)1, sizeof(signed int) /*4ul*/ );
+    ws = (signed int *)return_value_xcalloc_1;
+    memset((void *)&ps, 0, sizeof(struct anonymous_1) /*8ul*/ );
     mbsrtowcs(ws, &s, len, &ps);
     return ws;
   }
@@ -4971,13 +4971,13 @@ unsigned int sftp_name2gid(const char *name)
   unsigned int gid;
   do
   {
-    signed int sftp_name2gid$$1$$1$$frc;
-    sftp_name2gid$$1$$1$$frc=pthread_mutex_lock(&user_lock);
-    if(!(sftp_name2gid$$1$$1$$frc == 0))
+    signed int sftp_name2gid__1__1__frc;
+    sftp_name2gid__1__1__frc=pthread_mutex_lock(&user_lock);
+    if(!(sftp_name2gid__1__1__frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(sftp_name2gid$$1$$1$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 78, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(sftp_name2gid__1__1__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 78, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror_1);
       exit(1);
     }
 
@@ -4995,9 +4995,9 @@ unsigned int sftp_name2gid(const char *name)
     frc=pthread_mutex_unlock(&user_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 83, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 83, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror_2);
       exit(1);
     }
 
@@ -5018,9 +5018,9 @@ unsigned int sftp_name2uid(const char *name)
     frc=pthread_mutex_lock(&user_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 65, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 65, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror_1);
       exit(1);
     }
 
@@ -5034,13 +5034,13 @@ unsigned int sftp_name2uid(const char *name)
     uid = (unsigned int)-1;
   do
   {
-    signed int sftp_name2uid$$1$$2$$frc;
-    sftp_name2uid$$1$$2$$frc=pthread_mutex_unlock(&user_lock);
-    if(!(sftp_name2uid$$1$$2$$frc == 0))
+    signed int sftp_name2uid__1__2__frc;
+    sftp_name2uid__1__2__frc=pthread_mutex_unlock(&user_lock);
+    if(!(sftp_name2uid__1__2__frc == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(sftp_name2uid$$1$$2$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 70, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(sftp_name2uid__1__2__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 70, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror_2);
       exit(1);
     }
 
@@ -5094,27 +5094,27 @@ unsigned int sftp_parse_handle(struct sftpjob *job, struct handleid *id)
   unsigned int len;
   unsigned int rc;
   rc=sftp_parse_uint32(job, &len);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(len == 8u) || !(rc == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     rc=sftp_parse_uint32(job, &id->id);
-    tmp_if_expr$1 = rc != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = rc != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_sftp_parse_uint32$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_sftp_parse_uint32_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_sftp_parse_uint32$2=sftp_parse_uint32(job, &id->tag);
-    rc = (unsigned int)(return_value_sftp_parse_uint32$2 != (unsigned int)0);
-    tmp_if_expr$3 = rc != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_sftp_parse_uint32_2=sftp_parse_uint32(job, &id->tag);
+    rc = (unsigned int)(return_value_sftp_parse_uint32_2 != (unsigned int)0);
+    tmp_if_expr_3 = rc != 0u ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return rc;
 
   else
@@ -5164,9 +5164,9 @@ unsigned int sftp_parse_string(struct sftpjob *job, char **strp, unsigned long i
 
         if(!(strp == ((char **)NULL)))
         {
-          void *return_value_sftp_alloc$1;
-          return_value_sftp_alloc$1=sftp_alloc(job->a, (unsigned long int)(len + (unsigned int)1));
-          str = (char *)return_value_sftp_alloc$1;
+          void *return_value_sftp_alloc_1;
+          return_value_sftp_alloc_1=sftp_alloc(job->a, (unsigned long int)(len + (unsigned int)1));
+          str = (char *)return_value_sftp_alloc_1;
           memcpy((void *)str, (const void *)job->ptr, (unsigned long int)len);
           *strp = str;
         }
@@ -5229,15 +5229,15 @@ unsigned int sftp_parse_uint64(struct sftpjob *job, unsigned long int *ur)
 // file parse.c line 32
 unsigned int sftp_parse_uint8(struct sftpjob *job, unsigned char *ur)
 {
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   if(!(job->left >= 1ul))
     return (unsigned int)5;
 
   else
   {
-    tmp_post$1 = job->ptr;
+    tmp_post_1 = job->ptr;
     job->ptr = job->ptr + 1l;
-    *ur = *tmp_post$1;
+    *ur = *tmp_post_1;
     job->left = job->left - 1ul;
     return (unsigned int)0;
   }
@@ -5281,9 +5281,9 @@ void sftp_send_end(struct worker *w)
     frc=pthread_mutex_lock(&output_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"send.c", 88, (const void *)"pthread_mutex_lock(&output_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"send.c", 88, (const void *)"pthread_mutex_lock(&output_lock)", return_value_strerror_1);
       exit(1);
     }
 
@@ -5300,8 +5300,8 @@ void sftp_send_end(struct worker *w)
   }
 
   written = (signed long int)0;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   while(!((unsigned long int)written >= w->bufused))
   {
     n=write(sftpout, (const void *)(w->buffer + written), w->bufused - (unsigned long int)written);
@@ -5311,21 +5311,21 @@ void sftp_send_end(struct worker *w)
     else
       if(!(n >= 0l))
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fatal("error sending response: %s", return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fatal("error sending response: %s", return_value_strerror_3);
       }
 
   }
   do
   {
-    signed int sftp_send_end$$1$$3$$frc;
-    sftp_send_end$$1$$3$$frc=pthread_mutex_unlock(&output_lock);
-    if(!(sftp_send_end$$1$$3$$frc == 0))
+    signed int sftp_send_end__1__3__frc;
+    sftp_send_end__1__3__frc=pthread_mutex_unlock(&output_lock);
+    if(!(sftp_send_end__1__3__frc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(sftp_send_end$$1$$3$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"send.c", 100, (const void *)"pthread_mutex_unlock(&output_lock)", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(sftp_send_end__1__3__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"send.c", 100, (const void *)"pthread_mutex_unlock(&output_lock)", return_value_strerror_4);
       exit(1);
     }
 
@@ -5340,27 +5340,27 @@ void sftp_send_errno_status(struct sftpjob *job)
 {
   signed int n;
   signed int errno_value;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  errno_value = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  errno_value = *return_value___errno_location_1;
   n = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!(errnotab[(signed long int)n].errno_value == errno_value))
-      tmp_if_expr$2 = errnotab[(signed long int)n].errno_value != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = errnotab[(signed long int)n].errno_value != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     n = n + 1;
   }
   while((_Bool)1);
-  char *return_value_strerror$3;
-  return_value_strerror$3=strerror(errno_value);
-  sftp_send_status(job, errnotab[(signed long int)n].status_value, return_value_strerror$3);
+  char *return_value_strerror_3;
+  return_value_strerror_3=strerror(errno_value);
+  sftp_send_status(job, errnotab[(signed long int)n].status_value, return_value_strerror_3);
 }
 
 // sftp_send_handle
@@ -5394,16 +5394,16 @@ void sftp_send_need(struct worker *w, unsigned long int n)
 {
   /* assertion w->bufused < 0x80000000 */
   assert(w->bufused < (unsigned long int)0x80000000);
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(w->bufsize + -w->bufused >= n))
   {
     unsigned long int newsize;
     if(!(w->bufsize == 0ul))
-      tmp_if_expr$1 = w->bufsize;
+      tmp_if_expr_1 = w->bufsize;
 
     else
-      tmp_if_expr$1 = (unsigned long int)64;
-    newsize = tmp_if_expr$1;
+      tmp_if_expr_1 = (unsigned long int)64;
+    newsize = tmp_if_expr_1;
     for( ; !(newsize == 0ul); newsize = newsize << 1)
       if(newsize >= w->bufsize + n)
         break;
@@ -5412,9 +5412,9 @@ void sftp_send_need(struct worker *w, unsigned long int n)
       fatal("sftp_send_need: out of memory (%zu)", n);
 
     w->bufsize = newsize;
-    void *return_value_sftp__xrealloc$2;
-    return_value_sftp__xrealloc$2=sftp__xrealloc((void *)w->buffer, w->bufsize);
-    w->buffer = (unsigned char *)return_value_sftp__xrealloc$2;
+    void *return_value_sftp__xrealloc_2;
+    return_value_sftp__xrealloc_2=sftp__xrealloc((void *)w->buffer, w->bufsize);
+    w->buffer = (unsigned char *)return_value_sftp__xrealloc_2;
   }
 
 }
@@ -5474,9 +5474,9 @@ void sftp_send_status(struct sftpjob *job, unsigned int status, const char *msg)
 // file send.h line 93
 void sftp_send_string(struct worker *w, const char *s)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  sftp_send_bytes(w, (const void *)s, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  sftp_send_bytes(w, (const void *)s, return_value_strlen_1);
 }
 
 // sftp_send_sub_begin
@@ -5547,9 +5547,9 @@ void sftp_send_uint64(struct worker *w, unsigned long int u)
 void sftp_send_uint8(struct worker *w, signed int n)
 {
   sftp_send_need(w, (unsigned long int)1);
-  unsigned long int tmp_post$1 = w->bufused;
+  unsigned long int tmp_post_1 = w->bufused;
   w->bufused = w->bufused + 1ul;
-  w->buffer[(signed long int)tmp_post$1] = (unsigned char)n;
+  w->buffer[(signed long int)tmp_post_1] = (unsigned char)n;
 }
 
 // sftp_service
@@ -5567,34 +5567,34 @@ static void sftp_service(void)
 
   while((_Bool)0);
   umask((unsigned int)0);
-  signed int return_value_do_read$1;
-  _Bool tmp_if_expr$4;
+  signed int return_value_do_read_1;
+  _Bool tmp_if_expr_4;
   do
   {
-    return_value_do_read$1=do_read(0, (void *)&len, sizeof(unsigned int) /*4ul*/ );
-    if(!(return_value_do_read$1 == 0))
+    return_value_do_read_1=do_read(0, (void *)&len, sizeof(unsigned int) /*4ul*/ );
+    if(!(return_value_do_read_1 == 0))
       break;
 
-    void *return_value_sftp__xmalloc$2;
-    return_value_sftp__xmalloc$2=sftp__xmalloc(sizeof(struct sftpjob) /*56ul*/ );
-    job = (struct sftpjob *)return_value_sftp__xmalloc$2;
-    unsigned int return_value_ntohl$3;
-    return_value_ntohl$3=ntohl(len);
-    job->len = (unsigned long int)return_value_ntohl$3;
+    void *return_value_sftp__xmalloc_2;
+    return_value_sftp__xmalloc_2=sftp__xmalloc(sizeof(struct sftpjob) /*56ul*/ );
+    job = (struct sftpjob *)return_value_sftp__xmalloc_2;
+    unsigned int return_value_ntohl_3;
+    return_value_ntohl_3=ntohl(len);
+    job->len = (unsigned long int)return_value_ntohl_3;
     if(job->len == 0ul)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = job->len > (unsigned long int)1048576 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = job->len > (unsigned long int)1048576 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       fatal("invalid request size");
 
-    void *return_value_sftp__xmalloc$5;
-    return_value_sftp__xmalloc$5=sftp__xmalloc(job->len);
-    job->data = (unsigned char *)return_value_sftp__xmalloc$5;
-    signed int return_value_do_read$6;
-    return_value_do_read$6=do_read(0, (void *)job->data, job->len);
-    if(!(return_value_do_read$6 == 0))
+    void *return_value_sftp__xmalloc_5;
+    return_value_sftp__xmalloc_5=sftp__xmalloc(job->len);
+    job->data = (unsigned char *)return_value_sftp__xmalloc_5;
+    signed int return_value_do_read_6;
+    return_value_do_read_6=do_read(0, (void *)job->data, job->len);
+    if(!(return_value_do_read_6 == 0))
       fatal("read error: unexpected eof");
 
     if(!(sftp_debugging == 0))
@@ -5627,18 +5627,18 @@ static void sftp_service(void)
 // file stat.h line 89
 unsigned int sftp_set_fstatus(struct allocator *a, signed int fd, struct sftpattr *attrsp, const char **whyp)
 {
-  unsigned int return_value_do_sftp_set_status$1;
-  return_value_do_sftp_set_status$1=do_sftp_set_status(a, (const void *)&fd, attrsp, &fd_callbacks, whyp);
-  return return_value_do_sftp_set_status$1;
+  unsigned int return_value_do_sftp_set_status_1;
+  return_value_do_sftp_set_status_1=do_sftp_set_status(a, (const void *)&fd, attrsp, &fd_callbacks, whyp);
+  return return_value_do_sftp_set_status_1;
 }
 
 // sftp_set_status
 // file stat.h line 77
 unsigned int sftp_set_status(struct allocator *a, const char *path, struct sftpattr *attrsp, const char **whyp)
 {
-  unsigned int return_value_do_sftp_set_status$1;
-  return_value_do_sftp_set_status$1=do_sftp_set_status(a, (const void *)path, attrsp, &name_callbacks, whyp);
-  return return_value_do_sftp_set_status$1;
+  unsigned int return_value_do_sftp_set_status_1;
+  return_value_do_sftp_set_status_1=do_sftp_set_status(a, (const void *)path, attrsp, &name_callbacks, whyp);
+  return return_value_do_sftp_set_status_1;
 }
 
 // sftp_stat_to_attrs
@@ -5712,9 +5712,9 @@ void sftp_stat_to_attrs(struct allocator *a, struct stat *sb, struct sftpattr *a
   if(!(path == ((const char *)NULL)))
   {
     const char *s;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(path);
-    s = path + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(path);
+    s = path + (signed long int)return_value_strlen_1;
     for( ; !(path >= s); s = s - 1l)
       if(!((signed int)s[-1l] == 47))
         break;
@@ -5740,26 +5740,26 @@ char * sftp_uid2name(struct allocator *a, unsigned int uid)
   struct passwd *pw;
   do
   {
-    signed int sftp_uid2name$$1$$1$$frc;
-    sftp_uid2name$$1$$1$$frc=pthread_mutex_lock(&user_lock);
-    if(!(sftp_uid2name$$1$$1$$frc == 0))
+    signed int sftp_uid2name__1__1__frc;
+    sftp_uid2name__1__1__frc=pthread_mutex_lock(&user_lock);
+    if(!(sftp_uid2name__1__1__frc == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(sftp_uid2name$$1$$1$$frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 39, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(sftp_uid2name__1__1__frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 39, (const void *)"pthread_mutex_lock(&user_lock)", return_value_strerror_1);
       exit(1);
     }
 
   }
   while((_Bool)0);
   pw=getpwuid(uid);
-  unsigned long int return_value_strlen$2;
-  void *return_value_sftp_alloc$3;
+  unsigned long int return_value_strlen_2;
+  void *return_value_sftp_alloc_3;
   if(!(pw == ((struct passwd *)NULL)))
   {
-    return_value_strlen$2=strlen(pw->pw_name);
-    return_value_sftp_alloc$3=sftp_alloc(a, return_value_strlen$2 + (unsigned long int)1);
-    s=strcpy((char *)return_value_sftp_alloc$3, pw->pw_name);
+    return_value_strlen_2=strlen(pw->pw_name);
+    return_value_sftp_alloc_3=sftp_alloc(a, return_value_strlen_2 + (unsigned long int)1);
+    s=strcpy((char *)return_value_sftp_alloc_3, pw->pw_name);
   }
 
   else
@@ -5770,9 +5770,9 @@ char * sftp_uid2name(struct allocator *a, unsigned int uid)
     frc=pthread_mutex_unlock(&user_lock);
     if(!(frc == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(frc);
-      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 44, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(frc);
+      fatal("%s:%d: %s: %s\n", (const void *)"users.c", 44, (const void *)"pthread_mutex_unlock(&user_lock)", return_value_strerror_4);
       exit(1);
     }
 
@@ -5860,16 +5860,16 @@ unsigned int sftp_v345_symlink(struct sftpjob *job)
       while((_Bool)0);
       do
       {
-        unsigned int sftp_v345_symlink$$1$$1$$2$$rc;
-        sftp_v345_symlink$$1$$1$$2$$rc=sftp_parse_path(job, &linkpath);
-        if(!(sftp_v345_symlink$$1$$1$$2$$rc == 0u))
+        unsigned int sftp_v345_symlink__1__1__2__rc;
+        sftp_v345_symlink__1__1__2__rc=sftp_parse_path(job, &linkpath);
+        if(!(sftp_v345_symlink__1__1__2__rc == 0u))
         {
           do
             if(!(sftp_debugging == 0))
-              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 331, (const void *)"sftp_parse_path(job, &linkpath)", sftp_v345_symlink$$1$$1$$2$$rc);
+              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 331, (const void *)"sftp_parse_path(job, &linkpath)", sftp_v345_symlink__1__1__2__rc);
 
           while((_Bool)0);
-          return sftp_v345_symlink$$1$$1$$2$$rc;
+          return sftp_v345_symlink__1__1__2__rc;
         }
 
       }
@@ -5880,32 +5880,32 @@ unsigned int sftp_v345_symlink(struct sftpjob *job)
     {
       do
       {
-        unsigned int sftp_v345_symlink$$1$$2$$1$$rc;
-        sftp_v345_symlink$$1$$2$$1$$rc=sftp_parse_path(job, &linkpath);
-        if(!(sftp_v345_symlink$$1$$2$$1$$rc == 0u))
+        unsigned int sftp_v345_symlink__1__2__1__rc;
+        sftp_v345_symlink__1__2__1__rc=sftp_parse_path(job, &linkpath);
+        if(!(sftp_v345_symlink__1__2__1__rc == 0u))
         {
           do
             if(!(sftp_debugging == 0))
-              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 333, (const void *)"sftp_parse_path(job, &linkpath)", sftp_v345_symlink$$1$$2$$1$$rc);
+              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 333, (const void *)"sftp_parse_path(job, &linkpath)", sftp_v345_symlink__1__2__1__rc);
 
           while((_Bool)0);
-          return sftp_v345_symlink$$1$$2$$1$$rc;
+          return sftp_v345_symlink__1__2__1__rc;
         }
 
       }
       while((_Bool)0);
       do
       {
-        unsigned int sftp_v345_symlink$$1$$2$$2$$rc;
-        sftp_v345_symlink$$1$$2$$2$$rc=sftp_parse_path(job, &targetpath);
-        if(!(sftp_v345_symlink$$1$$2$$2$$rc == 0u))
+        unsigned int sftp_v345_symlink__1__2__2__rc;
+        sftp_v345_symlink__1__2__2__rc=sftp_parse_path(job, &targetpath);
+        if(!(sftp_v345_symlink__1__2__2__rc == 0u))
         {
           do
             if(!(sftp_debugging == 0))
-              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 334, (const void *)"sftp_parse_path(job, &targetpath)", sftp_v345_symlink$$1$$2$$2$$rc);
+              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 334, (const void *)"sftp_parse_path(job, &targetpath)", sftp_v345_symlink__1__2__2__rc);
 
           while((_Bool)0);
-          return sftp_v345_symlink$$1$$2$$2$$rc;
+          return sftp_v345_symlink__1__2__2__rc;
         }
 
       }
@@ -5916,9 +5916,9 @@ unsigned int sftp_v345_symlink(struct sftpjob *job)
         sftp_debug_printf("sftp_v345_symlink %s %s", targetpath, linkpath);
 
     while((_Bool)0);
-    signed int return_value_symlink$1;
-    return_value_symlink$1=symlink(targetpath, linkpath);
-    if(!(return_value_symlink$1 >= 0))
+    signed int return_value_symlink_1;
+    return_value_symlink_1=symlink(targetpath, linkpath);
+    if(!(return_value_symlink_1 >= 0))
       return (unsigned int)-2;
 
     else
@@ -5953,28 +5953,28 @@ unsigned int sftp_v34_open(struct sftpjob *job)
   while((_Bool)0);
   do
   {
-    unsigned int sftp_v34_open$$1$$2$$rc;
-    sftp_v34_open$$1$$2$$rc=sftp_parse_uint32(job, &pflags);
-    if(!(sftp_v34_open$$1$$2$$rc == 0u))
+    unsigned int sftp_v34_open__1__2__rc;
+    sftp_v34_open__1__2__rc=sftp_parse_uint32(job, &pflags);
+    if(!(sftp_v34_open__1__2__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 599, (const void *)"sftp_parse_uint32(job, &pflags)", sftp_v34_open$$1$$2$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 599, (const void *)"sftp_parse_uint32(job, &pflags)", sftp_v34_open__1__2__rc);
 
       while((_Bool)0);
-      return sftp_v34_open$$1$$2$$rc;
+      return sftp_v34_open__1__2__rc;
     }
 
   }
   while((_Bool)0);
-  unsigned int sftp_v34_open$$1$$3$$rc;
-  sftp_v34_open$$1$$3$$rc=protocol->parseattrs(job, &attrs);
-  if(!(sftp_v34_open$$1$$3$$rc == 0u))
+  unsigned int sftp_v34_open__1__3__rc;
+  sftp_v34_open__1__3__rc=protocol->parseattrs(job, &attrs);
+  if(!(sftp_v34_open__1__3__rc == 0u))
   {
     if(!(sftp_debugging == 0))
-      sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 600, (const void *)"protocol->parseattrs(job, &attrs)", sftp_v34_open$$1$$3$$rc);
+      sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 600, (const void *)"protocol->parseattrs(job, &attrs)", sftp_v34_open__1__3__rc);
 
-    return sftp_v34_open$$1$$3$$rc;
+    return sftp_v34_open__1__3__rc;
   }
 
   else
@@ -6007,9 +6007,9 @@ unsigned int sftp_v34_open(struct sftpjob *job)
       desired_access = desired_access | (unsigned int)0x00000004;
     }
 
-    unsigned int return_value_sftp_generic_open$1;
-    return_value_sftp_generic_open$1=sftp_generic_open(job, path, desired_access, flags, &attrs);
-    return return_value_sftp_generic_open$1;
+    unsigned int return_value_sftp_generic_open_1;
+    return_value_sftp_generic_open_1=sftp_generic_open(job, path, desired_access, flags, &attrs);
+    return return_value_sftp_generic_open_1;
   }
 }
 
@@ -6019,7 +6019,7 @@ unsigned int sftp_v34_rename(struct sftpjob *job)
 {
   char *oldpath;
   char *newpath;
-  signed int return_value_unlink$5;
+  signed int return_value_unlink_5;
   if(!(readonly == 0))
     return (unsigned int)3;
 
@@ -6043,16 +6043,16 @@ unsigned int sftp_v34_rename(struct sftpjob *job)
     while((_Bool)0);
     do
     {
-      unsigned int sftp_v34_rename$$1$$2$$rc;
-      sftp_v34_rename$$1$$2$$rc=sftp_parse_path(job, &newpath);
-      if(!(sftp_v34_rename$$1$$2$$rc == 0u))
+      unsigned int sftp_v34_rename__1__2__rc;
+      sftp_v34_rename__1__2__rc=sftp_parse_path(job, &newpath);
+      if(!(sftp_v34_rename__1__2__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 234, (const void *)"sftp_parse_path(job, &newpath)", sftp_v34_rename$$1$$2$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 234, (const void *)"sftp_parse_path(job, &newpath)", sftp_v34_rename__1__2__rc);
 
         while((_Bool)0);
-        return sftp_v34_rename$$1$$2$$rc;
+        return sftp_v34_rename__1__2__rc;
       }
 
     }
@@ -6062,17 +6062,17 @@ unsigned int sftp_v34_rename(struct sftpjob *job)
         sftp_debug_printf("sftp_v34_rename %s %s", oldpath, newpath);
 
     while((_Bool)0);
-    signed int return_value_link$6;
-    return_value_link$6=link(oldpath, newpath);
-    if(!(return_value_link$6 >= 0))
+    signed int return_value_link_6;
+    return_value_link_6=link(oldpath, newpath);
+    if(!(return_value_link_6 >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 17))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 17))
       {
-        signed int return_value_rename$1;
-        return_value_rename$1=rename(oldpath, newpath);
-        if(!(return_value_rename$1 >= 0))
+        signed int return_value_rename_1;
+        return_value_rename_1=rename(oldpath, newpath);
+        if(!(return_value_rename_1 >= 0))
           return (unsigned int)-2;
 
         else
@@ -6085,17 +6085,17 @@ unsigned int sftp_v34_rename(struct sftpjob *job)
 
     else
     {
-      return_value_unlink$5=unlink(oldpath);
-      if(!(return_value_unlink$5 >= 0))
+      return_value_unlink_5=unlink(oldpath);
+      if(!(return_value_unlink_5 >= 0))
       {
         signed int save_errno;
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        save_errno = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        save_errno = *return_value___errno_location_3;
         unlink(newpath);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = save_errno;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = save_errno;
         return (unsigned int)-2;
       }
 
@@ -6122,16 +6122,16 @@ static unsigned int sftp_v3_fstat(struct sftpjob *job)
   unsigned int rc;
   do
   {
-    unsigned int sftp_v3_fstat$$1$$1$$rc;
-    sftp_v3_fstat$$1$$1$$rc=sftp_parse_handle(job, &id);
-    if(!(sftp_v3_fstat$$1$$1$$rc == 0u))
+    unsigned int sftp_v3_fstat__1__1__rc;
+    sftp_v3_fstat__1__1__rc=sftp_parse_handle(job, &id);
+    if(!(sftp_v3_fstat__1__1__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 513, (const void *)"sftp_parse_handle(job, &id)", sftp_v3_fstat$$1$$1$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 513, (const void *)"sftp_parse_handle(job, &id)", sftp_v3_fstat__1__1__rc);
 
       while((_Bool)0);
-      return sftp_v3_fstat$$1$$1$$rc;
+      return sftp_v3_fstat__1__1__rc;
     }
 
   }
@@ -6147,11 +6147,11 @@ static unsigned int sftp_v3_fstat(struct sftpjob *job)
 
   else
   {
-    signed int return_value_fstat$1;
-    return_value_fstat$1=fstat(fd, &sb);
-    unsigned int return_value_sftp_v3_stat_core$2;
-    return_value_sftp_v3_stat_core$2=sftp_v3_stat_core(job, return_value_fstat$1, &sb);
-    return return_value_sftp_v3_stat_core$2;
+    signed int return_value_fstat_1;
+    return_value_fstat_1=fstat(fd, &sb);
+    unsigned int return_value_sftp_v3_stat_core_2;
+    return_value_sftp_v3_stat_core_2=sftp_v3_stat_core(job, return_value_fstat_1, &sb);
+    return return_value_sftp_v3_stat_core_2;
   }
 }
 
@@ -6182,11 +6182,11 @@ static unsigned int sftp_v3_lstat(struct sftpjob *job)
       sftp_debug_printf("sftp_v3_lstat %s", path);
 
   while((_Bool)0);
-  signed int return_value_lstat$1;
-  return_value_lstat$1=lstat(path, &sb);
-  unsigned int return_value_sftp_v3_stat_core$2;
-  return_value_sftp_v3_stat_core$2=sftp_v3_stat_core(job, return_value_lstat$1, &sb);
-  return return_value_sftp_v3_stat_core$2;
+  signed int return_value_lstat_1;
+  return_value_lstat_1=lstat(path, &sb);
+  unsigned int return_value_sftp_v3_stat_core_2;
+  return_value_sftp_v3_stat_core_2=sftp_v3_stat_core(job, return_value_lstat_1, &sb);
+  return return_value_sftp_v3_stat_core_2;
 }
 
 // sftp_v3_stat
@@ -6216,11 +6216,11 @@ static unsigned int sftp_v3_stat(struct sftpjob *job)
       sftp_debug_printf("sftp_v3_stat %s", path);
 
   while((_Bool)0);
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(path, &sb);
-  unsigned int return_value_sftp_v3_stat_core$2;
-  return_value_sftp_v3_stat_core$2=sftp_v3_stat_core(job, return_value_stat$1, &sb);
-  return return_value_sftp_v3_stat_core$2;
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(path, &sb);
+  unsigned int return_value_sftp_v3_stat_core_2;
+  return_value_sftp_v3_stat_core_2=sftp_v3_stat_core(job, return_value_stat_1, &sb);
+  return return_value_sftp_v3_stat_core_2;
 }
 
 // sftp_v3_stat_core
@@ -6247,9 +6247,9 @@ static unsigned int sftp_v3_stat_core(struct sftpjob *job, signed int rc, struct
 // file v4.c line 40
 unsigned int sftp_v456_decode(struct sftpjob *job, char **path)
 {
-  signed int return_value_sftp_iconv$1;
-  return_value_sftp_iconv$1=sftp_iconv(job->a, job->worker->utf8_to_local, path);
-  if(!(return_value_sftp_iconv$1 == 0))
+  signed int return_value_sftp_iconv_1;
+  return_value_sftp_iconv_1=sftp_iconv(job->a, job->worker->utf8_to_local, path);
+  if(!(return_value_sftp_iconv_1 == 0))
     return (unsigned int)20;
 
   else
@@ -6260,9 +6260,9 @@ unsigned int sftp_v456_decode(struct sftpjob *job, char **path)
 // file v4.c line 34
 signed int sftp_v456_encode(struct sftpjob *job, char **path)
 {
-  signed int return_value_sftp_iconv$1;
-  return_value_sftp_iconv$1=sftp_iconv(job->a, job->worker->local_to_utf8, path);
-  return return_value_sftp_iconv$1;
+  signed int return_value_sftp_iconv_1;
+  return_value_sftp_iconv_1=sftp_iconv(job->a, job->worker->local_to_utf8, path);
+  return return_value_sftp_iconv_1;
 }
 
 // sftp_v456_fstat
@@ -6275,16 +6275,16 @@ unsigned int sftp_v456_fstat(struct sftpjob *job)
   unsigned int rc;
   do
   {
-    unsigned int sftp_v456_fstat$$1$$1$$rc;
-    sftp_v456_fstat$$1$$1$$rc=sftp_parse_handle(job, &id);
-    if(!(sftp_v456_fstat$$1$$1$$rc == 0u))
+    unsigned int sftp_v456_fstat__1__1__rc;
+    sftp_v456_fstat__1__1__rc=sftp_parse_handle(job, &id);
+    if(!(sftp_v456_fstat__1__1__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v4.c", 256, (const void *)"sftp_parse_handle(job, &id)", sftp_v456_fstat$$1$$1$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v4.c", 256, (const void *)"sftp_parse_handle(job, &id)", sftp_v456_fstat__1__1__rc);
 
       while((_Bool)0);
-      return sftp_v456_fstat$$1$$1$$rc;
+      return sftp_v456_fstat__1__1__rc;
     }
 
   }
@@ -6300,11 +6300,11 @@ unsigned int sftp_v456_fstat(struct sftpjob *job)
 
   else
   {
-    signed int return_value_fstat$1;
-    return_value_fstat$1=fstat(fd, &sb);
-    unsigned int return_value_sftp_v456_stat_core$2;
-    return_value_sftp_v456_stat_core$2=sftp_v456_stat_core(job, return_value_fstat$1, &sb, ((const char *)NULL));
-    return return_value_sftp_v456_stat_core$2;
+    signed int return_value_fstat_1;
+    return_value_fstat_1=fstat(fd, &sb);
+    unsigned int return_value_sftp_v456_stat_core_2;
+    return_value_sftp_v456_stat_core_2=sftp_v456_stat_core(job, return_value_fstat_1, &sb, ((const char *)NULL));
+    return return_value_sftp_v456_stat_core_2;
   }
 }
 
@@ -6335,11 +6335,11 @@ unsigned int sftp_v456_lstat(struct sftpjob *job)
       sftp_debug_printf("sftp_lstat %s", path);
 
   while((_Bool)0);
-  signed int return_value_lstat$1;
-  return_value_lstat$1=lstat(path, &sb);
-  unsigned int return_value_sftp_v456_stat_core$2;
-  return_value_sftp_v456_stat_core$2=sftp_v456_stat_core(job, return_value_lstat$1, &sb, path);
-  return return_value_sftp_v456_stat_core$2;
+  signed int return_value_lstat_1;
+  return_value_lstat_1=lstat(path, &sb);
+  unsigned int return_value_sftp_v456_stat_core_2;
+  return_value_sftp_v456_stat_core_2=sftp_v456_stat_core(job, return_value_lstat_1, &sb, path);
+  return return_value_sftp_v456_stat_core_2;
 }
 
 // sftp_v456_parseattrs
@@ -6350,7 +6350,7 @@ unsigned int sftp_v456_parseattrs(struct sftpjob *job, struct sftpattr *attrs)
   unsigned int rc;
   memset((void *)attrs, 0, sizeof(struct sftpattr) /*200ul*/ );
   rc=sftp_parse_uint32(job, &attrs->valid);
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(!(rc == 0u))
     return rc;
 
@@ -6587,9 +6587,9 @@ unsigned int sftp_v456_parseattrs(struct sftpjob *job, struct sftpattr *attrs)
 
                                 do
                                 {
-                                  tmp_post$1 = n;
+                                  tmp_post_1 = n;
                                   n = n - 1u;
-                                  if(!(tmp_post$1 >= 1u))
+                                  if(!(tmp_post_1 >= 1u))
                                     break;
 
                                   rc=sftp_parse_string(job, ((char **)NULL), ((unsigned long int *)NULL));
@@ -6735,11 +6735,11 @@ unsigned int sftp_v456_stat(struct sftpjob *job)
       sftp_debug_printf("sftp_stat %s", path);
 
   while((_Bool)0);
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(path, &sb);
-  unsigned int return_value_sftp_v456_stat_core$2;
-  return_value_sftp_v456_stat_core$2=sftp_v456_stat_core(job, return_value_stat$1, &sb, path);
-  return return_value_sftp_v456_stat_core$2;
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(path, &sb);
+  unsigned int return_value_sftp_v456_stat_core_2;
+  return_value_sftp_v456_stat_core_2=sftp_v456_stat_core(job, return_value_stat_1, &sb, path);
+  return return_value_sftp_v456_stat_core_2;
 }
 
 // sftp_v456_stat_core
@@ -6752,16 +6752,16 @@ static unsigned int sftp_v456_stat_core(struct sftpjob *job, signed int rc, stru
   {
     do
     {
-      unsigned int sftp_v456_stat_core$$1$$1$$1$$rc;
-      sftp_v456_stat_core$$1$$1$$1$$rc=sftp_parse_uint32(job, &flags);
-      if(!(sftp_v456_stat_core$$1$$1$$1$$rc == 0u))
+      unsigned int sftp_v456_stat_core__1__1__1__rc;
+      sftp_v456_stat_core__1__1__1__rc=sftp_parse_uint32(job, &flags);
+      if(!(sftp_v456_stat_core__1__1__1__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v4.c", 220, (const void *)"sftp_parse_uint32(job, &flags)", sftp_v456_stat_core$$1$$1$$1$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v4.c", 220, (const void *)"sftp_parse_uint32(job, &flags)", sftp_v456_stat_core__1__1__1__rc);
 
         while((_Bool)0);
-        return sftp_v456_stat_core$$1$$1$$1$$rc;
+        return sftp_v456_stat_core__1__1__1__rc;
       }
 
     }
@@ -6789,16 +6789,16 @@ unsigned int sftp_v56_open(struct sftpjob *job)
   struct sftpattr attrs;
   do
   {
-    unsigned int sftp_v56_open$$1$$1$$rc;
-    sftp_v56_open$$1$$1$$rc=sftp_parse_path(job, &path);
-    if(!(sftp_v56_open$$1$$1$$rc == 0u))
+    unsigned int sftp_v56_open__1__1__rc;
+    sftp_v56_open__1__1__rc=sftp_parse_path(job, &path);
+    if(!(sftp_v56_open__1__1__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 44, (const void *)"sftp_parse_path(job, &path)", sftp_v56_open$$1$$1$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 44, (const void *)"sftp_parse_path(job, &path)", sftp_v56_open__1__1__rc);
 
       while((_Bool)0);
-      return sftp_v56_open$$1$$1$$rc;
+      return sftp_v56_open__1__1__rc;
     }
 
   }
@@ -6821,28 +6821,28 @@ unsigned int sftp_v56_open(struct sftpjob *job)
   while((_Bool)0);
   do
   {
-    unsigned int sftp_v56_open$$1$$3$$rc;
-    sftp_v56_open$$1$$3$$rc=sftp_parse_uint32(job, &flags);
-    if(!(sftp_v56_open$$1$$3$$rc == 0u))
+    unsigned int sftp_v56_open__1__3__rc;
+    sftp_v56_open__1__3__rc=sftp_parse_uint32(job, &flags);
+    if(!(sftp_v56_open__1__3__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 46, (const void *)"sftp_parse_uint32(job, &flags)", sftp_v56_open$$1$$3$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 46, (const void *)"sftp_parse_uint32(job, &flags)", sftp_v56_open__1__3__rc);
 
       while((_Bool)0);
-      return sftp_v56_open$$1$$3$$rc;
+      return sftp_v56_open__1__3__rc;
     }
 
   }
   while((_Bool)0);
-  unsigned int sftp_v56_open$$1$$4$$rc;
-  sftp_v56_open$$1$$4$$rc=protocol->parseattrs(job, &attrs);
-  if(!(sftp_v56_open$$1$$4$$rc == 0u))
+  unsigned int sftp_v56_open__1__4__rc;
+  sftp_v56_open__1__4__rc=protocol->parseattrs(job, &attrs);
+  if(!(sftp_v56_open__1__4__rc == 0u))
   {
     if(!(sftp_debugging == 0))
-      sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 47, (const void *)"protocol->parseattrs(job, &attrs)", sftp_v56_open$$1$$4$$rc);
+      sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 47, (const void *)"protocol->parseattrs(job, &attrs)", sftp_v56_open__1__4__rc);
 
-    return sftp_v56_open$$1$$4$$rc;
+    return sftp_v56_open__1__4__rc;
   }
 
   else
@@ -6850,9 +6850,9 @@ unsigned int sftp_v56_open(struct sftpjob *job)
     if(!(sftp_debugging == 0))
       sftp_debug_printf("sftp_v56_open %s %#x %#x", path, desired_access, flags);
 
-    unsigned int return_value_sftp_generic_open$1;
-    return_value_sftp_generic_open$1=sftp_generic_open(job, path, desired_access, flags, &attrs);
-    return return_value_sftp_generic_open$1;
+    unsigned int return_value_sftp_generic_open_1;
+    return_value_sftp_generic_open_1=sftp_generic_open(job, path, desired_access, flags, &attrs);
+    return return_value_sftp_generic_open_1;
   }
 }
 
@@ -6863,7 +6863,7 @@ unsigned int sftp_v56_rename(struct sftpjob *job)
   char *oldpath;
   char *newpath;
   unsigned int flags;
-  signed int return_value_unlink$6;
+  signed int return_value_unlink_6;
   if(!(readonly == 0))
     return (unsigned int)3;
 
@@ -6887,32 +6887,32 @@ unsigned int sftp_v56_rename(struct sftpjob *job)
     while((_Bool)0);
     do
     {
-      unsigned int sftp_v56_rename$$1$$2$$rc;
-      sftp_v56_rename$$1$$2$$rc=sftp_parse_path(job, &newpath);
-      if(!(sftp_v56_rename$$1$$2$$rc == 0u))
+      unsigned int sftp_v56_rename__1__2__rc;
+      sftp_v56_rename__1__2__rc=sftp_parse_path(job, &newpath);
+      if(!(sftp_v56_rename__1__2__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 323, (const void *)"sftp_parse_path(job, &newpath)", sftp_v56_rename$$1$$2$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 323, (const void *)"sftp_parse_path(job, &newpath)", sftp_v56_rename__1__2__rc);
 
         while((_Bool)0);
-        return sftp_v56_rename$$1$$2$$rc;
+        return sftp_v56_rename__1__2__rc;
       }
 
     }
     while((_Bool)0);
     do
     {
-      unsigned int sftp_v56_rename$$1$$3$$rc;
-      sftp_v56_rename$$1$$3$$rc=sftp_parse_uint32(job, &flags);
-      if(!(sftp_v56_rename$$1$$3$$rc == 0u))
+      unsigned int sftp_v56_rename__1__3__rc;
+      sftp_v56_rename__1__3__rc=sftp_parse_uint32(job, &flags);
+      if(!(sftp_v56_rename__1__3__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 324, (const void *)"sftp_parse_uint32(job, &flags)", sftp_v56_rename$$1$$3$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 324, (const void *)"sftp_parse_uint32(job, &flags)", sftp_v56_rename__1__3__rc);
 
         while((_Bool)0);
-        return sftp_v56_rename$$1$$3$$rc;
+        return sftp_v56_rename__1__3__rc;
       }
 
     }
@@ -6924,9 +6924,9 @@ unsigned int sftp_v56_rename(struct sftpjob *job)
     while((_Bool)0);
     if(!((5u & flags) == 0u))
     {
-      signed int return_value_rename$1;
-      return_value_rename$1=rename(oldpath, newpath);
-      if(!(return_value_rename$1 >= 0))
+      signed int return_value_rename_1;
+      return_value_rename_1=rename(oldpath, newpath);
+      if(!(return_value_rename_1 >= 0))
         return (unsigned int)-2;
 
       else
@@ -6935,17 +6935,17 @@ unsigned int sftp_v56_rename(struct sftpjob *job)
 
     else
     {
-      signed int return_value_link$7;
-      return_value_link$7=link(oldpath, newpath);
-      if(!(return_value_link$7 >= 0))
+      signed int return_value_link_7;
+      return_value_link_7=link(oldpath, newpath);
+      if(!(return_value_link_7 >= 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 17))
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 17))
         {
-          signed int return_value_rename$2;
-          return_value_rename$2=rename(oldpath, newpath);
-          if(!(return_value_rename$2 >= 0))
+          signed int return_value_rename_2;
+          return_value_rename_2=rename(oldpath, newpath);
+          if(!(return_value_rename_2 >= 0))
             return (unsigned int)-2;
 
           else
@@ -6958,17 +6958,17 @@ unsigned int sftp_v56_rename(struct sftpjob *job)
 
       else
       {
-        return_value_unlink$6=unlink(oldpath);
-        if(!(return_value_unlink$6 >= 0))
+        return_value_unlink_6=unlink(oldpath);
+        if(!(return_value_unlink_6 >= 0))
         {
           signed int save_errno;
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          save_errno = *return_value___errno_location$4;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          save_errno = *return_value___errno_location_4;
           unlink(newpath);
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = save_errno;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = save_errno;
           return (unsigned int)-2;
         }
 
@@ -6987,8 +6987,8 @@ unsigned int sftp_v6_link(struct sftpjob *job)
   char *newlinkpath;
   unsigned char symbolic;
   struct stat sb;
-  _Bool tmp_if_expr$3;
-  signed int return_value_stat$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_stat_2;
   if(!(readonly == 0))
     return (unsigned int)3;
 
@@ -7012,32 +7012,32 @@ unsigned int sftp_v6_link(struct sftpjob *job)
     while((_Bool)0);
     do
     {
-      unsigned int sftp_v6_link$$1$$2$$rc;
-      sftp_v6_link$$1$$2$$rc=sftp_parse_path(job, &oldpath);
-      if(!(sftp_v6_link$$1$$2$$rc == 0u))
+      unsigned int sftp_v6_link__1__2__rc;
+      sftp_v6_link__1__2__rc=sftp_parse_path(job, &oldpath);
+      if(!(sftp_v6_link__1__2__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 121, (const void *)"sftp_parse_path(job, &oldpath)", sftp_v6_link$$1$$2$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 121, (const void *)"sftp_parse_path(job, &oldpath)", sftp_v6_link__1__2__rc);
 
         while((_Bool)0);
-        return sftp_v6_link$$1$$2$$rc;
+        return sftp_v6_link__1__2__rc;
       }
 
     }
     while((_Bool)0);
     do
     {
-      unsigned int sftp_v6_link$$1$$3$$rc;
-      sftp_v6_link$$1$$3$$rc=sftp_parse_uint8(job, &symbolic);
-      if(!(sftp_v6_link$$1$$3$$rc == 0u))
+      unsigned int sftp_v6_link__1__3__rc;
+      sftp_v6_link__1__3__rc=sftp_parse_uint8(job, &symbolic);
+      if(!(sftp_v6_link__1__3__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 122, (const void *)"sftp_parse_uint8(job, &symbolic)", sftp_v6_link$$1$$3$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 122, (const void *)"sftp_parse_uint8(job, &symbolic)", sftp_v6_link__1__3__rc);
 
         while((_Bool)0);
-        return sftp_v6_link$$1$$3$$rc;
+        return sftp_v6_link__1__3__rc;
       }
 
     }
@@ -7051,19 +7051,19 @@ unsigned int sftp_v6_link(struct sftpjob *job)
     return_value=(symbolic != 0 ? symlink : link)(oldpath, newlinkpath);
     if(!(return_value >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 1)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 1)
       {
         if(symbolic == 0)
         {
-          return_value_stat$2=stat(oldpath, &sb);
-          tmp_if_expr$3 = return_value_stat$2 >= 0 ? (_Bool)1 : (_Bool)0;
+          return_value_stat_2=stat(oldpath, &sb);
+          tmp_if_expr_3 = return_value_stat_2 >= 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if((61440u & sb.st_mode) == 16384u && tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if((61440u & sb.st_mode) == 16384u && tmp_if_expr_3)
           return (unsigned int)24;
 
         else
@@ -7109,16 +7109,16 @@ unsigned int sftp_v6_realpath(struct sftpjob *job)
   {
     do
     {
-      unsigned int sftp_v6_realpath$$1$$2$$1$$rc;
-      sftp_v6_realpath$$1$$2$$1$$rc=sftp_parse_uint8(job, &control_byte);
-      if(!(sftp_v6_realpath$$1$$2$$1$$rc == 0u))
+      unsigned int sftp_v6_realpath__1__2__1__rc;
+      sftp_v6_realpath__1__2__1__rc=sftp_parse_uint8(job, &control_byte);
+      if(!(sftp_v6_realpath__1__2__1__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 45, (const void *)"sftp_parse_uint8(job, &control_byte)", sftp_v6_realpath$$1$$2$$1$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 45, (const void *)"sftp_parse_uint8(job, &control_byte)", sftp_v6_realpath__1__2__1__rc);
 
         while((_Bool)0);
-        return sftp_v6_realpath$$1$$2$$1$$rc;
+        return sftp_v6_realpath__1__2__1__rc;
       }
 
     }
@@ -7127,16 +7127,16 @@ unsigned int sftp_v6_realpath(struct sftpjob *job)
     {
       do
       {
-        unsigned int sftp_v6_realpath$$1$$2$$2$$1$$rc;
-        sftp_v6_realpath$$1$$2$$2$$1$$rc=sftp_parse_path(job, &compose);
-        if(!(sftp_v6_realpath$$1$$2$$2$$1$$rc == 0u))
+        unsigned int sftp_v6_realpath__1__2__2__1__rc;
+        sftp_v6_realpath__1__2__2__1__rc=sftp_parse_path(job, &compose);
+        if(!(sftp_v6_realpath__1__2__2__1__rc == 0u))
         {
           do
             if(!(sftp_debugging == 0))
-              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 47, (const void *)"sftp_parse_path(job, &compose)", sftp_v6_realpath$$1$$2$$2$$1$$rc);
+              sftp_debug_printf("%s:%d: %s: %u", (const void *)"v6.c", 47, (const void *)"sftp_parse_path(job, &compose)", sftp_v6_realpath__1__2__2__1__rc);
 
           while((_Bool)0);
-          return sftp_v6_realpath$$1$$2$$2$$1$$rc;
+          return sftp_v6_realpath__1__2__2__1__rc;
         }
 
       }
@@ -7147,13 +7147,13 @@ unsigned int sftp_v6_realpath(struct sftpjob *job)
       else
       {
         char *newpath;
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(path);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(compose);
-        void *return_value_sftp_alloc$3;
-        return_value_sftp_alloc$3=sftp_alloc(job->a, return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)2);
-        newpath = (char *)return_value_sftp_alloc$3;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(path);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(compose);
+        void *return_value_sftp_alloc_3;
+        return_value_sftp_alloc_3=sftp_alloc(job->a, return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)2);
+        newpath = (char *)return_value_sftp_alloc_3;
         strcpy(newpath, path);
         strcat(newpath, "/");
         strcat(newpath, compose);
@@ -7188,12 +7188,12 @@ unsigned int sftp_v6_realpath(struct sftpjob *job)
       return (unsigned int)5;
   }
   resolvedpath=sftp_find_realpath(job->a, path, rpflags);
-  signed int return_value_stat$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_lstat$5;
-  signed int return_value_stat$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_lstat$8;
+  signed int return_value_stat_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_lstat_5;
+  signed int return_value_stat_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_lstat_8;
   if(resolvedpath == ((char *)NULL))
     return (unsigned int)-2;
 
@@ -7214,16 +7214,16 @@ unsigned int sftp_v6_realpath(struct sftpjob *job)
       }
       case 0x00000002:
       {
-        return_value_stat$4=stat(resolvedpath, &sb);
-        if(return_value_stat$4 >= 0)
-          tmp_if_expr$6 = (_Bool)1;
+        return_value_stat_4=stat(resolvedpath, &sb);
+        if(return_value_stat_4 >= 0)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_lstat$5=lstat(resolvedpath, &sb);
-          tmp_if_expr$6 = return_value_lstat$5 >= 0 ? (_Bool)1 : (_Bool)0;
+          return_value_lstat_5=lstat(resolvedpath, &sb);
+          tmp_if_expr_6 = return_value_lstat_5 >= 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
           sftp_stat_to_attrs(job->a, &sb, &attrs, 0xFFFFFFFF, resolvedpath);
 
         else
@@ -7235,16 +7235,16 @@ unsigned int sftp_v6_realpath(struct sftpjob *job)
       }
       case 0x00000003:
       {
-        return_value_stat$7=stat(resolvedpath, &sb);
-        if(return_value_stat$7 >= 0)
-          tmp_if_expr$9 = (_Bool)1;
+        return_value_stat_7=stat(resolvedpath, &sb);
+        if(return_value_stat_7 >= 0)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
         {
-          return_value_lstat$8=lstat(resolvedpath, &sb);
-          tmp_if_expr$9 = return_value_lstat$8 >= 0 ? (_Bool)1 : (_Bool)0;
+          return_value_lstat_8=lstat(resolvedpath, &sb);
+          tmp_if_expr_9 = return_value_lstat_8 >= 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$9)
+        if(tmp_if_expr_9)
           sftp_stat_to_attrs(job->a, &sb, &attrs, 0xFFFFFFFF, resolvedpath);
 
         else
@@ -7283,33 +7283,33 @@ unsigned int sftp_v6_version_select(struct sftpjob *job)
 
     }
     while((_Bool)0);
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(newversion, "3");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(newversion, "3");
+    if(return_value_strcmp_1 == 0)
     {
       protocol = &sftp_v3;
       return (unsigned int)0;
     }
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(newversion, "4");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(newversion, "4");
+    if(return_value_strcmp_2 == 0)
     {
       protocol = &sftp_v4;
       return (unsigned int)0;
     }
 
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(newversion, "5");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(newversion, "5");
+    if(return_value_strcmp_3 == 0)
     {
       protocol = &sftp_v5;
       return (unsigned int)0;
     }
 
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(newversion, "6");
-    if(return_value_strcmp$4 == 0)
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(newversion, "6");
+    if(return_value_strcmp_4 == 0)
     {
       protocol = &sftp_v6;
       return (unsigned int)0;
@@ -7356,9 +7356,9 @@ unsigned int sftp_vany_close(struct sftpjob *job)
       sftp_debug_printf("sftp_vany_close %u %u", id.id, id.tag);
 
   while((_Bool)0);
-  unsigned int return_value_sftp_handle_close$1;
-  return_value_sftp_handle_close$1=sftp_handle_close(&id);
-  return return_value_sftp_handle_close$1;
+  unsigned int return_value_sftp_handle_close_1;
+  return_value_sftp_handle_close_1=sftp_handle_close(&id);
+  return return_value_sftp_handle_close_1;
 }
 
 // sftp_vany_extended
@@ -7389,19 +7389,19 @@ unsigned int sftp_vany_extended(struct sftpjob *job)
 
   while((_Bool)0);
   n = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   do
   {
     if(!(n >= protocol->nextensions))
     {
-      return_value_strcmp$1=strcmp(name, (protocol->extensions + (signed long int)n)->name);
-      tmp_if_expr$2 = return_value_strcmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_1=strcmp(name, (protocol->extensions + (signed long int)n)->name);
+      tmp_if_expr_2 = return_value_strcmp_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     n = n + 1;
@@ -7433,28 +7433,28 @@ unsigned int sftp_vany_fsetstat(struct sftpjob *job)
   {
     do
     {
-      unsigned int sftp_vany_fsetstat$$1$$1$$rc;
-      sftp_vany_fsetstat$$1$$1$$rc=sftp_parse_handle(job, &id);
-      if(!(sftp_vany_fsetstat$$1$$1$$rc == 0u))
+      unsigned int sftp_vany_fsetstat__1__1__rc;
+      sftp_vany_fsetstat__1__1__rc=sftp_parse_handle(job, &id);
+      if(!(sftp_vany_fsetstat__1__1__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 544, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_fsetstat$$1$$1$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 544, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_fsetstat__1__1__rc);
 
         while((_Bool)0);
-        return sftp_vany_fsetstat$$1$$1$$rc;
+        return sftp_vany_fsetstat__1__1__rc;
       }
 
     }
     while((_Bool)0);
-    unsigned int sftp_vany_fsetstat$$1$$2$$rc;
-    sftp_vany_fsetstat$$1$$2$$rc=protocol->parseattrs(job, &attrs);
-    if(!(sftp_vany_fsetstat$$1$$2$$rc == 0u))
+    unsigned int sftp_vany_fsetstat__1__2__rc;
+    sftp_vany_fsetstat__1__2__rc=protocol->parseattrs(job, &attrs);
+    if(!(sftp_vany_fsetstat__1__2__rc == 0u))
     {
       if(!(sftp_debugging == 0))
-        sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 545, (const void *)"protocol->parseattrs(job, &attrs)", sftp_vany_fsetstat$$1$$2$$rc);
+        sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 545, (const void *)"protocol->parseattrs(job, &attrs)", sftp_vany_fsetstat__1__2__rc);
 
-      return sftp_vany_fsetstat$$1$$2$$rc;
+      return sftp_vany_fsetstat__1__2__rc;
     }
 
     else
@@ -7474,9 +7474,9 @@ unsigned int sftp_vany_fsetstat(struct sftpjob *job)
 
         else
         {
-          unsigned int return_value_sftp_set_fstatus$1;
-          return_value_sftp_set_fstatus$1=sftp_set_fstatus(job->a, fd, &attrs, ((const char **)NULL));
-          return return_value_sftp_set_fstatus$1;
+          unsigned int return_value_sftp_set_fstatus_1;
+          return_value_sftp_set_fstatus_1=sftp_set_fstatus(job->a, fd, &attrs, ((const char **)NULL));
+          return return_value_sftp_set_fstatus_1;
         }
       }
     }
@@ -7497,28 +7497,28 @@ unsigned int sftp_vany_mkdir(struct sftpjob *job)
   {
     do
     {
-      unsigned int sftp_vany_mkdir$$1$$1$$rc;
-      sftp_vany_mkdir$$1$$1$$rc=sftp_parse_path(job, &path);
-      if(!(sftp_vany_mkdir$$1$$1$$rc == 0u))
+      unsigned int sftp_vany_mkdir__1__1__rc;
+      sftp_vany_mkdir__1__1__rc=sftp_parse_path(job, &path);
+      if(!(sftp_vany_mkdir__1__1__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 562, (const void *)"sftp_parse_path(job, &path)", sftp_vany_mkdir$$1$$1$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 562, (const void *)"sftp_parse_path(job, &path)", sftp_vany_mkdir__1__1__rc);
 
         while((_Bool)0);
-        return sftp_vany_mkdir$$1$$1$$rc;
+        return sftp_vany_mkdir__1__1__rc;
       }
 
     }
     while((_Bool)0);
-    unsigned int sftp_vany_mkdir$$1$$2$$rc;
-    sftp_vany_mkdir$$1$$2$$rc=protocol->parseattrs(job, &attrs);
-    if(!(sftp_vany_mkdir$$1$$2$$rc == 0u))
+    unsigned int sftp_vany_mkdir__1__2__rc;
+    sftp_vany_mkdir__1__2__rc=protocol->parseattrs(job, &attrs);
+    if(!(sftp_vany_mkdir__1__2__rc == 0u))
     {
       if(!(sftp_debugging == 0))
-        sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 563, (const void *)"protocol->parseattrs(job, &attrs)", sftp_vany_mkdir$$1$$2$$rc);
+        sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 563, (const void *)"protocol->parseattrs(job, &attrs)", sftp_vany_mkdir__1__2__rc);
 
-      return sftp_vany_mkdir$$1$$2$$rc;
+      return sftp_vany_mkdir__1__2__rc;
     }
 
     else
@@ -7532,9 +7532,9 @@ unsigned int sftp_vany_mkdir(struct sftpjob *job)
         if(!(sftp_debugging == 0))
           sftp_debug_printf("initial permissions are %#o (%d decimal)", attrs.permissions, attrs.permissions);
 
-        signed int return_value_mkdir$1;
-        return_value_mkdir$1=mkdir(path, attrs.permissions & (unsigned int)07777);
-        if(!(return_value_mkdir$1 >= 0))
+        signed int return_value_mkdir_1;
+        return_value_mkdir_1=mkdir(path, attrs.permissions & (unsigned int)07777);
+        if(!(return_value_mkdir_1 >= 0))
           return (unsigned int)-2;
 
         if(attrs.permissions == (511u & attrs.permissions))
@@ -7544,9 +7544,9 @@ unsigned int sftp_vany_mkdir(struct sftpjob *job)
 
       else
       {
-        signed int return_value_mkdir$2;
-        return_value_mkdir$2=mkdir(path, (unsigned int)0755);
-        if(!(return_value_mkdir$2 >= 0))
+        signed int return_value_mkdir_2;
+        return_value_mkdir_2=mkdir(path, (unsigned int)0755);
+        if(!(return_value_mkdir_2 >= 0))
           return (unsigned int)-2;
 
       }
@@ -7554,13 +7554,13 @@ unsigned int sftp_vany_mkdir(struct sftpjob *job)
       if(!(rc == 0u))
       {
         signed int save_errno;
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        save_errno = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        save_errno = *return_value___errno_location_3;
         rmdir(path);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = save_errno;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = save_errno;
         return rc;
       }
 
@@ -7647,16 +7647,16 @@ unsigned int sftp_vany_posix_rename(struct sftpjob *job)
     while((_Bool)0);
     do
     {
-      unsigned int sftp_vany_posix_rename$$1$$2$$rc;
-      sftp_vany_posix_rename$$1$$2$$rc=sftp_parse_path(job, &newpath);
-      if(!(sftp_vany_posix_rename$$1$$2$$rc == 0u))
+      unsigned int sftp_vany_posix_rename__1__2__rc;
+      sftp_vany_posix_rename__1__2__rc=sftp_parse_path(job, &newpath);
+      if(!(sftp_vany_posix_rename__1__2__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 722, (const void *)"sftp_parse_path(job, &newpath)", sftp_vany_posix_rename$$1$$2$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 722, (const void *)"sftp_parse_path(job, &newpath)", sftp_vany_posix_rename__1__2__rc);
 
         while((_Bool)0);
-        return sftp_vany_posix_rename$$1$$2$$rc;
+        return sftp_vany_posix_rename__1__2__rc;
       }
 
     }
@@ -7666,9 +7666,9 @@ unsigned int sftp_vany_posix_rename(struct sftpjob *job)
         sftp_debug_printf("sftp_vany_posix_rename %s %s", oldpath, newpath);
 
     while((_Bool)0);
-    signed int return_value_rename$1;
-    return_value_rename$1=rename(oldpath, newpath);
-    if(!(return_value_rename$1 >= 0))
+    signed int return_value_rename_1;
+    return_value_rename_1=rename(oldpath, newpath);
+    if(!(return_value_rename_1 >= 0))
       return (unsigned int)-2;
 
     else
@@ -7683,22 +7683,22 @@ unsigned int sftp_vany_read(struct sftpjob *job)
   struct handleid id;
   unsigned long int offset;
   unsigned int len;
-  unsigned int sftp_vany_read$$1$$rc;
+  unsigned int sftp_vany_read__1__rc;
   signed long int n;
   signed int fd;
   unsigned int flags;
   do
   {
-    unsigned int sftp_vany_read$$1$$1$$rc;
-    sftp_vany_read$$1$$1$$rc=sftp_parse_handle(job, &id);
-    if(!(sftp_vany_read$$1$$1$$rc == 0u))
+    unsigned int sftp_vany_read__1__1__rc;
+    sftp_vany_read__1__1__rc=sftp_parse_handle(job, &id);
+    if(!(sftp_vany_read__1__1__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 647, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_read$$1$$1$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 647, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_read__1__1__rc);
 
       while((_Bool)0);
-      return sftp_vany_read$$1$$1$$rc;
+      return sftp_vany_read__1__1__rc;
     }
 
   }
@@ -7721,16 +7721,16 @@ unsigned int sftp_vany_read(struct sftpjob *job)
   while((_Bool)0);
   do
   {
-    unsigned int sftp_vany_read$$1$$3$$rc;
-    sftp_vany_read$$1$$3$$rc=sftp_parse_uint32(job, &len);
-    if(!(sftp_vany_read$$1$$3$$rc == 0u))
+    unsigned int sftp_vany_read__1__3__rc;
+    sftp_vany_read__1__3__rc=sftp_parse_uint32(job, &len);
+    if(!(sftp_vany_read__1__3__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 649, (const void *)"sftp_parse_uint32(job, &len)", sftp_vany_read$$1$$3$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 649, (const void *)"sftp_parse_uint32(job, &len)", sftp_vany_read__1__3__rc);
 
       while((_Bool)0);
-      return sftp_vany_read$$1$$3$$rc;
+      return sftp_vany_read__1__3__rc;
     }
 
   }
@@ -7743,9 +7743,9 @@ unsigned int sftp_vany_read(struct sftpjob *job)
   if(len >= 1048577u)
     len = (unsigned int)1048576;
 
-  sftp_vany_read$$1$$rc=sftp_handle_get_fd(&id, &fd, &flags);
-  if(!(sftp_vany_read$$1$$rc == 0u))
-    return sftp_vany_read$$1$$rc;
+  sftp_vany_read__1__rc=sftp_handle_get_fd(&id, &fd, &flags);
+  if(!(sftp_vany_read__1__rc == 0u))
+    return sftp_vany_read__1__rc;
 
   else
   {
@@ -7791,16 +7791,16 @@ unsigned int sftp_vany_readdir(struct sftpjob *job)
   struct stat sb;
   do
   {
-    unsigned int sftp_vany_readdir$$1$$1$$rc;
-    sftp_vany_readdir$$1$$1$$rc=sftp_parse_handle(job, &id);
-    if(!(sftp_vany_readdir$$1$$1$$rc == 0u))
+    unsigned int sftp_vany_readdir__1__1__rc;
+    sftp_vany_readdir__1__1__rc=sftp_parse_handle(job, &id);
+    if(!(sftp_vany_readdir__1__1__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 396, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_readdir$$1$$1$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 396, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_readdir__1__1__rc);
 
       while((_Bool)0);
-      return sftp_vany_readdir$$1$$1$$rc;
+      return sftp_vany_readdir__1__1__rc;
     }
 
   }
@@ -7823,43 +7823,43 @@ unsigned int sftp_vany_readdir(struct sftpjob *job)
     n = 0;
     while(!(n >= 32))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
       de=readdir(dp);
       if(de == ((struct dirent *)NULL))
         break;
 
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(de->d_name);
-      void *return_value_sftp_alloc$3;
-      return_value_sftp_alloc$3=sftp_alloc(job->a, return_value_strlen$2 + (unsigned long int)1);
-      childpath=strcpy((char *)return_value_sftp_alloc$3, de->d_name);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(path);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(childpath);
-      void *return_value_sftp_alloc$6;
-      return_value_sftp_alloc$6=sftp_alloc(job->a, return_value_strlen$4 + return_value_strlen$5 + (unsigned long int)2);
-      fullpath = (char *)return_value_sftp_alloc$6;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(de->d_name);
+      void *return_value_sftp_alloc_3;
+      return_value_sftp_alloc_3=sftp_alloc(job->a, return_value_strlen_2 + (unsigned long int)1);
+      childpath=strcpy((char *)return_value_sftp_alloc_3, de->d_name);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(path);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(childpath);
+      void *return_value_sftp_alloc_6;
+      return_value_sftp_alloc_6=sftp_alloc(job->a, return_value_strlen_4 + return_value_strlen_5 + (unsigned long int)2);
+      fullpath = (char *)return_value_sftp_alloc_6;
       strcpy(fullpath, path);
       strcat(fullpath, "/");
       strcat(fullpath, childpath);
-      signed int return_value_lstat$7;
-      return_value_lstat$7=lstat(fullpath, &sb);
-      if(!(return_value_lstat$7 == 0))
+      signed int return_value_lstat_7;
+      return_value_lstat_7=lstat(fullpath, &sb);
+      if(!(return_value_lstat_7 == 0))
         return (unsigned int)-2;
 
       sftp_stat_to_attrs(job->a, &sb, &d[(signed long int)n], 0xFFFFFFFF, childpath);
       d[(signed long int)n].name = childpath;
       n = n + 1;
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = 0;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = 0;
     }
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    if(!(*return_value___errno_location$9 == 0))
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    if(!(*return_value___errno_location_9 == 0))
       return (unsigned int)-2;
 
     else
@@ -7909,9 +7909,9 @@ unsigned int sftp_vany_readlink(struct sftpjob *job)
   result=sftp_do_readlink(job->a, path);
   if(result == ((char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 7)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 7)
     {
       sftp_send_status(job, (unsigned int)4, "link name is too long");
       return (unsigned int)-1;
@@ -7962,26 +7962,26 @@ unsigned int sftp_vany_remove(struct sftpjob *job)
         sftp_debug_printf("sftp_vany_remove %s", path);
 
     while((_Bool)0);
-    signed int return_value_unlink$4;
-    return_value_unlink$4=unlink(path);
-    if(!(return_value_unlink$4 >= 0))
+    signed int return_value_unlink_4;
+    return_value_unlink_4=unlink(path);
+    if(!(return_value_unlink_4 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 1)
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 1)
       {
-        signed int return_value_lstat$1;
-        return_value_lstat$1=lstat(path, &sb);
-        if(return_value_lstat$1 == 0)
+        signed int return_value_lstat_1;
+        return_value_lstat_1=lstat(path, &sb);
+        if(return_value_lstat_1 == 0)
         {
           if((61440u & sb.st_mode) == 16384u)
             return (unsigned int)24;
 
         }
 
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 1;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 1;
       }
 
       return (unsigned int)-2;
@@ -7997,7 +7997,7 @@ unsigned int sftp_vany_remove(struct sftpjob *job)
 unsigned int sftp_vany_rmdir(struct sftpjob *job)
 {
   char *path;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(readonly == 0))
     return (unsigned int)3;
 
@@ -8024,12 +8024,12 @@ unsigned int sftp_vany_rmdir(struct sftpjob *job)
         sftp_debug_printf("sftp_vany_rmdir %s", path);
 
     while((_Bool)0);
-    signed int return_value_rmdir$2;
-    return_value_rmdir$2=rmdir(path);
-    if(!(return_value_rmdir$2 >= 0))
+    signed int return_value_rmdir_2;
+    return_value_rmdir_2=rmdir(path);
+    if(!(return_value_rmdir_2 >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 17)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 17)
         return (unsigned int)18;
 
       else
@@ -8055,28 +8055,28 @@ unsigned int sftp_vany_setstat(struct sftpjob *job)
   {
     do
     {
-      unsigned int sftp_vany_setstat$$1$$1$$rc;
-      sftp_vany_setstat$$1$$1$$rc=sftp_parse_path(job, &path);
-      if(!(sftp_vany_setstat$$1$$1$$rc == 0u))
+      unsigned int sftp_vany_setstat__1__1__rc;
+      sftp_vany_setstat__1__1__rc=sftp_parse_path(job, &path);
+      if(!(sftp_vany_setstat__1__1__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 527, (const void *)"sftp_parse_path(job, &path)", sftp_vany_setstat$$1$$1$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 527, (const void *)"sftp_parse_path(job, &path)", sftp_vany_setstat__1__1__rc);
 
         while((_Bool)0);
-        return sftp_vany_setstat$$1$$1$$rc;
+        return sftp_vany_setstat__1__1__rc;
       }
 
     }
     while((_Bool)0);
-    unsigned int sftp_vany_setstat$$1$$2$$rc;
-    sftp_vany_setstat$$1$$2$$rc=protocol->parseattrs(job, &attrs);
-    if(!(sftp_vany_setstat$$1$$2$$rc == 0u))
+    unsigned int sftp_vany_setstat__1__2__rc;
+    sftp_vany_setstat__1__2__rc=protocol->parseattrs(job, &attrs);
+    if(!(sftp_vany_setstat__1__2__rc == 0u))
     {
       if(!(sftp_debugging == 0))
-        sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 528, (const void *)"protocol->parseattrs(job, &attrs)", sftp_vany_setstat$$1$$2$$rc);
+        sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 528, (const void *)"protocol->parseattrs(job, &attrs)", sftp_vany_setstat__1__2__rc);
 
-      return sftp_vany_setstat$$1$$2$$rc;
+      return sftp_vany_setstat__1__2__rc;
     }
 
     else
@@ -8090,9 +8090,9 @@ unsigned int sftp_vany_setstat(struct sftpjob *job)
 
       else
       {
-        unsigned int return_value_sftp_set_status$1;
-        return_value_sftp_set_status$1=sftp_set_status(job->a, path, &attrs, ((const char **)NULL));
-        return return_value_sftp_set_status$1;
+        unsigned int return_value_sftp_set_status_1;
+        return_value_sftp_set_status_1=sftp_set_status(job->a, path, &attrs, ((const char **)NULL));
+        return return_value_sftp_set_status_1;
       }
     }
   }
@@ -8125,9 +8125,9 @@ unsigned int sftp_vany_space_available(struct sftpjob *job)
       sftp_debug_printf("sftp_space_available %s", path);
 
   while((_Bool)0);
-  signed int return_value_statvfs$1;
-  return_value_statvfs$1=statvfs(path, &fs);
-  if(!(return_value_statvfs$1 >= 0))
+  signed int return_value_statvfs_1;
+  return_value_statvfs_1=statvfs(path, &fs);
+  if(!(return_value_statvfs_1 >= 0))
     return (unsigned int)-2;
 
   else
@@ -8172,9 +8172,9 @@ unsigned int sftp_vany_statfs(struct sftpjob *job)
       sftp_debug_printf("sftp_vany_statfs %s", path);
 
   while((_Bool)0);
-  signed int return_value_statvfs$1;
-  return_value_statvfs$1=statvfs(path, &fs);
-  if(!(return_value_statvfs$1 >= 0))
+  signed int return_value_statvfs_1;
+  return_value_statvfs_1=statvfs(path, &fs);
+  if(!(return_value_statvfs_1 >= 0))
     return (unsigned int)-2;
 
   else
@@ -8206,46 +8206,46 @@ unsigned int sftp_vany_text_seek(struct sftpjob *job)
   unsigned int rc;
   do
   {
-    unsigned int sftp_vany_text_seek$$1$$1$$rc;
-    sftp_vany_text_seek$$1$$1$$rc=sftp_parse_handle(job, &id);
-    if(!(sftp_vany_text_seek$$1$$1$$rc == 0u))
+    unsigned int sftp_vany_text_seek__1__1__rc;
+    sftp_vany_text_seek__1__1__rc=sftp_parse_handle(job, &id);
+    if(!(sftp_vany_text_seek__1__1__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 376, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_text_seek$$1$$1$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 376, (const void *)"sftp_parse_handle(job, &id)", sftp_vany_text_seek__1__1__rc);
 
       while((_Bool)0);
-      return sftp_vany_text_seek$$1$$1$$rc;
+      return sftp_vany_text_seek__1__1__rc;
     }
 
   }
   while((_Bool)0);
   do
   {
-    unsigned int sftp_vany_text_seek$$1$$2$$rc;
-    sftp_vany_text_seek$$1$$2$$rc=sftp_parse_uint64(job, &line);
-    if(!(sftp_vany_text_seek$$1$$2$$rc == 0u))
+    unsigned int sftp_vany_text_seek__1__2__rc;
+    sftp_vany_text_seek__1__2__rc=sftp_parse_uint64(job, &line);
+    if(!(sftp_vany_text_seek__1__2__rc == 0u))
     {
       do
         if(!(sftp_debugging == 0))
-          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 377, (const void *)"sftp_parse_uint64(job, &line)", sftp_vany_text_seek$$1$$2$$rc);
+          sftp_debug_printf("%s:%d: %s: %u", (const void *)"v5.c", 377, (const void *)"sftp_parse_uint64(job, &line)", sftp_vany_text_seek__1__2__rc);
 
       while((_Bool)0);
-      return sftp_vany_text_seek$$1$$2$$rc;
+      return sftp_vany_text_seek__1__2__rc;
     }
 
   }
   while((_Bool)0);
   rc=sftp_handle_get_fd(&id, &fd, ((unsigned int *)NULL));
-  signed long int tmp_post$2;
+  signed long int tmp_post_2;
   if(!(rc == 0u))
     return rc;
 
   else
   {
-    signed long int return_value_lseek$1;
-    return_value_lseek$1=lseek(fd, (signed long int)0, 0);
-    if(!(return_value_lseek$1 >= 0l))
+    signed long int return_value_lseek_1;
+    return_value_lseek_1=lseek(fd, (signed long int)0, 0);
+    if(!(return_value_lseek_1 >= 0l))
       return (unsigned int)-2;
 
     else
@@ -8275,9 +8275,9 @@ unsigned int sftp_vany_text_seek(struct sftpjob *job)
           i = (signed long int)0;
           while(line >= 1ul && !(i >= n))
           {
-            tmp_post$2 = i;
+            tmp_post_2 = i;
             i = i + 1l;
-            if((signed int)buffer[tmp_post$2] == 10)
+            if((signed int)buffer[tmp_post_2] == 10)
               line = line - 1ul;
 
           }
@@ -8296,9 +8296,9 @@ unsigned int sftp_vany_text_seek(struct sftpjob *job)
 
           else
           {
-            signed long int return_value_lseek$3;
-            return_value_lseek$3=lseek(fd, i - n, 1);
-            if(!(return_value_lseek$3 >= 0l))
+            signed long int return_value_lseek_3;
+            return_value_lseek_3=lseek(fd, i - n, 1);
+            if(!(return_value_lseek_3 >= 0l))
               return (unsigned int)-2;
 
             return (unsigned int)0;
@@ -8314,7 +8314,7 @@ unsigned int sftp_vany_write(struct sftpjob *job)
   struct handleid id;
   unsigned long int offset;
   unsigned int len;
-  unsigned int sftp_vany_write$$1$$rc;
+  unsigned int sftp_vany_write__1__rc;
   signed long int n;
   signed int fd;
   unsigned int flags;
@@ -8341,32 +8341,32 @@ unsigned int sftp_vany_write(struct sftpjob *job)
     while((_Bool)0);
     do
     {
-      unsigned int sftp_vany_write$$1$$2$$rc;
-      sftp_vany_write$$1$$2$$rc=sftp_parse_uint64(job, &offset);
-      if(!(sftp_vany_write$$1$$2$$rc == 0u))
+      unsigned int sftp_vany_write__1__2__rc;
+      sftp_vany_write__1__2__rc=sftp_parse_uint64(job, &offset);
+      if(!(sftp_vany_write__1__2__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 692, (const void *)"sftp_parse_uint64(job, &offset)", sftp_vany_write$$1$$2$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 692, (const void *)"sftp_parse_uint64(job, &offset)", sftp_vany_write__1__2__rc);
 
         while((_Bool)0);
-        return sftp_vany_write$$1$$2$$rc;
+        return sftp_vany_write__1__2__rc;
       }
 
     }
     while((_Bool)0);
     do
     {
-      unsigned int sftp_vany_write$$1$$3$$rc;
-      sftp_vany_write$$1$$3$$rc=sftp_parse_uint32(job, &len);
-      if(!(sftp_vany_write$$1$$3$$rc == 0u))
+      unsigned int sftp_vany_write__1__3__rc;
+      sftp_vany_write__1__3__rc=sftp_parse_uint32(job, &len);
+      if(!(sftp_vany_write__1__3__rc == 0u))
       {
         do
           if(!(sftp_debugging == 0))
-            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 693, (const void *)"sftp_parse_uint32(job, &len)", sftp_vany_write$$1$$3$$rc);
+            sftp_debug_printf("%s:%d: %s: %u", (const void *)"v3.c", 693, (const void *)"sftp_parse_uint32(job, &len)", sftp_vany_write__1__3__rc);
 
         while((_Bool)0);
-        return sftp_vany_write$$1$$3$$rc;
+        return sftp_vany_write__1__3__rc;
       }
 
     }
@@ -8381,9 +8381,9 @@ unsigned int sftp_vany_write(struct sftpjob *job)
           sftp_debug_printf("sftp_vany_write %u %u: %u bytes at %lu", id.id, id.tag, len, offset);
 
       while((_Bool)0);
-      sftp_vany_write$$1$$rc=sftp_handle_get_fd(&id, &fd, &flags);
-      if(!(sftp_vany_write$$1$$rc == 0u))
-        return sftp_vany_write$$1$$rc;
+      sftp_vany_write__1__rc=sftp_handle_get_fd(&id, &fd, &flags);
+      if(!(sftp_vany_write__1__rc == 0u))
+        return sftp_vany_write__1__rc;
 
       else
       {
@@ -8497,8 +8497,8 @@ static unsigned int v3_parseattrs(struct sftpjob *job, struct sftpattr *attrs)
   unsigned int rc;
   memset((void *)attrs, 0, sizeof(struct sftpattr) /*200ul*/ );
   rc=sftp_parse_uint32(job, &attrs->valid);
-  unsigned int tmp_post$1;
-  _Bool tmp_if_expr$2;
+  unsigned int tmp_post_1;
+  _Bool tmp_if_expr_2;
   if(!(rc == 0u))
     return rc;
 
@@ -8615,21 +8615,21 @@ static unsigned int v3_parseattrs(struct sftpjob *job, struct sftpattr *attrs)
 
           do
           {
-            tmp_post$1 = n;
+            tmp_post_1 = n;
             n = n - 1u;
-            if(!(tmp_post$1 >= 1u))
+            if(!(tmp_post_1 >= 1u))
               break;
 
             rc=sftp_parse_string(job, ((char **)NULL), ((unsigned long int *)NULL));
             if(!(rc == 0u))
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
             {
               rc=sftp_parse_string(job, ((char **)NULL), ((unsigned long int *)NULL));
-              tmp_if_expr$2 = rc != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = rc != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$2)
+            if(tmp_if_expr_2)
               return rc;
 
           }
@@ -8695,9 +8695,9 @@ static void v3_sendnames(struct sftpjob *job, signed int nnames, struct sftpattr
   if(nnames >= 1)
   {
     sftp_send_path(job, job->worker, names->name);
-    const char *return_value_sftp_format_attr$1;
-    return_value_sftp_format_attr$1=sftp_format_attr(job->a, names, nowtime.tm_year, (unsigned long int)0);
-    sftp_send_string(job->worker, return_value_sftp_format_attr$1);
+    const char *return_value_sftp_format_attr_1;
+    return_value_sftp_format_attr_1=sftp_format_attr(job->a, names, nowtime.tm_year, (unsigned long int)0);
+    sftp_send_string(job->worker, return_value_sftp_format_attr_1);
     protocol->sendattrs(job, names);
     names = names + 1l;
     nnames = nnames - 1;
@@ -8729,29 +8729,29 @@ static void worker_cleanup(void *wdv)
 static void * worker_init(void)
 {
   struct worker *w;
-  void *return_value_sftp__xmalloc$1;
-  return_value_sftp__xmalloc$1=sftp__xmalloc(sizeof(struct worker) /*40ul*/ );
-  w = (struct worker *)return_value_sftp__xmalloc$1;
+  void *return_value_sftp__xmalloc_1;
+  return_value_sftp__xmalloc_1=sftp__xmalloc(sizeof(struct worker) /*40ul*/ );
+  w = (struct worker *)return_value_sftp__xmalloc_1;
   memset((void *)w, 0, sizeof(struct worker) /*40ul*/ );
   w->buffer = ((unsigned char *)NULL);
   w->utf8_to_local=iconv_open(local_encoding, "UTF-8");
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(w->utf8_to_local == (void *)-1)
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fatal("error calling iconv_open(%s,UTF-8): %s", local_encoding, return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fatal("error calling iconv_open(%s,UTF-8): %s", local_encoding, return_value_strerror_3);
   }
 
   w->local_to_utf8=iconv_open("UTF-8", local_encoding);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   if(w->local_to_utf8 == (void *)-1)
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fatal("error calling iconv_open(UTF-8,%s): %s", local_encoding, return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fatal("error calling iconv_open(UTF-8,%s): %s", local_encoding, return_value_strerror_5);
   }
 
   return (void *)w;
@@ -8779,15 +8779,15 @@ void * xcalloc(unsigned long int n, unsigned long int size)
 // file xfns.c line 30
 void xclose(signed int fd)
 {
-  signed int return_value_close$3;
-  return_value_close$3=close(fd);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(!(return_value_close$3 >= 0))
+  signed int return_value_close_3;
+  return_value_close_3=close(fd);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(!(return_value_close_3 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("error calling close: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("error calling close: %s", return_value_strerror_2);
   }
 
 }
@@ -8796,15 +8796,15 @@ void xclose(signed int fd)
 // file xfns.c line 35
 void xdup2(signed int fd, signed int newfd)
 {
-  signed int return_value_dup2$3;
-  return_value_dup2$3=dup2(fd, newfd);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(!(return_value_dup2$3 >= 0))
+  signed int return_value_dup2_3;
+  return_value_dup2_3=dup2(fd, newfd);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(!(return_value_dup2_3 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("error calling dup2: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("error calling dup2: %s", return_value_strerror_2);
   }
 
 }
@@ -8815,13 +8815,13 @@ signed int xfork(void)
 {
   signed int pid;
   pid=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(pid >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("fork: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("fork: %s", return_value_strerror_2);
   }
 
   if(pid == 0)
@@ -8834,15 +8834,15 @@ signed int xfork(void)
 // file xfns.c line 40
 void xpipe(signed int *pfd)
 {
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(pfd);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(!(return_value_pipe$3 >= 0))
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(pfd);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(!(return_value_pipe_3 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("error calling pipe: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("error calling pipe: %s", return_value_strerror_2);
   }
 
 }
@@ -8856,13 +8856,13 @@ signed int xprintf(const char *fmt, ...)
   ap = (void **)&fmt;
   rc=vfprintf(stdout, fmt, ap);
   ap = ((void **)NULL);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(rc >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("error writing to stdout: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("error writing to stdout: %s", return_value_strerror_2);
   }
 
   return rc;
@@ -8896,12 +8896,12 @@ void * xrecalloc(void *ptr, unsigned long int n, unsigned long int size)
 // file utils.h line 90
 char * xstrdup(const char *s)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  void *return_value_sftp__xmalloc$2;
-  return_value_sftp__xmalloc$2=sftp__xmalloc(return_value_strlen$1 + (unsigned long int)1);
-  char *return_value_strcpy$3;
-  return_value_strcpy$3=strcpy((char *)return_value_sftp__xmalloc$2, s);
-  return return_value_strcpy$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  void *return_value_sftp__xmalloc_2;
+  return_value_sftp__xmalloc_2=sftp__xmalloc(return_value_strlen_1 + (unsigned long int)1);
+  char *return_value_strcpy_3;
+  return_value_strcpy_3=strcpy((char *)return_value_sftp__xmalloc_2, s);
+  return return_value_strcpy_3;
 }
 

@@ -1,42 +1,42 @@
-// #anon_enum$PED_DEVICE_UNKNOWN=0$PED_DEVICE_SCSI=1$PED_DEVICE_IDE=2$PED_DEVICE_DAC960=3$PED_DEVICE_CPQARRAY=4$PED_DEVICE_FILE=5$PED_DEVICE_ATARAID=6$PED_DEVICE_I2O=7$PED_DEVICE_UBD=8$PED_DEVICE_DASD=9$PED_DEVICE_VIODASD=10$PED_DEVICE_SX8=11$PED_DEVICE_DM=12$PED_DEVICE_XVD=13$PED_DEVICE_SDMMC=14$PED_DEVICE_VIRTBLK=15$PED_DEVICE_AOE=16$PED_DEVICE_MD=17$PED_DEVICE_LOOP=18
+// #anon_enum_PED_DEVICE_UNKNOWN=0_PED_DEVICE_SCSI=1_PED_DEVICE_IDE=2_PED_DEVICE_DAC960=3_PED_DEVICE_CPQARRAY=4_PED_DEVICE_FILE=5_PED_DEVICE_ATARAID=6_PED_DEVICE_I2O=7_PED_DEVICE_UBD=8_PED_DEVICE_DASD=9_PED_DEVICE_VIODASD=10_PED_DEVICE_SX8=11_PED_DEVICE_DM=12_PED_DEVICE_XVD=13_PED_DEVICE_SDMMC=14_PED_DEVICE_VIRTBLK=15_PED_DEVICE_AOE=16_PED_DEVICE_MD=17_PED_DEVICE_LOOP=18
 // file /usr/include/parted/device.h line 33
-enum anonymous$5 { PED_DEVICE_UNKNOWN=0, PED_DEVICE_SCSI=1, PED_DEVICE_IDE=2, PED_DEVICE_DAC960=3, PED_DEVICE_CPQARRAY=4, PED_DEVICE_FILE=5, PED_DEVICE_ATARAID=6, PED_DEVICE_I2O=7, PED_DEVICE_UBD=8, PED_DEVICE_DASD=9, PED_DEVICE_VIODASD=10, PED_DEVICE_SX8=11, PED_DEVICE_DM=12, PED_DEVICE_XVD=13, PED_DEVICE_SDMMC=14, PED_DEVICE_VIRTBLK=15, PED_DEVICE_AOE=16, PED_DEVICE_MD=17, PED_DEVICE_LOOP=18 };
+enum anonymous_5 { PED_DEVICE_UNKNOWN=0, PED_DEVICE_SCSI=1, PED_DEVICE_IDE=2, PED_DEVICE_DAC960=3, PED_DEVICE_CPQARRAY=4, PED_DEVICE_FILE=5, PED_DEVICE_ATARAID=6, PED_DEVICE_I2O=7, PED_DEVICE_UBD=8, PED_DEVICE_DASD=9, PED_DEVICE_VIODASD=10, PED_DEVICE_SX8=11, PED_DEVICE_DM=12, PED_DEVICE_XVD=13, PED_DEVICE_SDMMC=14, PED_DEVICE_VIRTBLK=15, PED_DEVICE_AOE=16, PED_DEVICE_MD=17, PED_DEVICE_LOOP=18 };
 
-// tag-#anon#ST[*{*{SYM#tag-nwipe_context_t_#}$SYM#tag-nwipe_context_t_#$}$*{SYM#tag-nwipe_context_t_#}$SYM#tag-nwipe_context_t_#$$'c'||*{SYM#tag-#anon#ST[S32'nwipe_enumerated'||S32'nwipe_selected'||S64'maxeta'||U64'throughput'||U64'errors'||*{U64}$U64$'gui_thread'|]#}$SYM#tag-#anon#ST[S32'nwipe_enumerated'||S32'nwipe_selected'||S64'maxeta'||U64'throughput'||U64'errors'||*{U64}$U64$'gui_thread'|]#$'nwipe_misc_thread_data'|]
+// tag-#anon#ST[*{*{SYM#tag-nwipe_context_t_#}_SYM#tag-nwipe_context_t_#_}_*{SYM#tag-nwipe_context_t_#}_SYM#tag-nwipe_context_t_#__'c'||*{SYM#tag-#anon#ST[S32'nwipe_enumerated'||S32'nwipe_selected'||S64'maxeta'||U64'throughput'||U64'errors'||*{U64}_U64_'gui_thread'|]#}_SYM#tag-#anon#ST[S32'nwipe_enumerated'||S32'nwipe_selected'||S64'maxeta'||U64'throughput'||U64'errors'||*{U64}_U64_'gui_thread'|]#_'nwipe_misc_thread_data'|]
 // file context.h line 135
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{cS8}$cS8$'label'||*{S32(*{*{V}$V$}$*{V}$V$$|*{SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#}$SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#$)->S32}$S32(*{*{V}$V$}$*{V}$V$$|*{SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#}$SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#$)->S32$'init'||*{S32(*{*{V}$V$}$*{V}$V$$|*{V}$V$|U64)->S32}$S32(*{*{V}$V$}$*{V}$V$$|*{V}$V$|U64)->S32$'read'|]
+// tag-#anon#ST[*{cS8}_cS8_'label'||*{S32(*{*{V}_V_}_*{V}_V__|*{SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#}_SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#_)->S32}_S32(*{*{V}_V_}_*{V}_V__|*{SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#}_SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#_)->S32_'init'||*{S32(*{*{V}_V_}_*{V}_V__|*{V}_V_|U64)->S32}_S32(*{*{V}_V_}_*{V}_V__|*{V}_V_|U64)->S32_'read'|]
 // file prng.h line 39
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'autonuke'||S32'noblank'||S32'nowait'||S32'nogui'||*{S8}$S8$'banner'||*{V}$V$'method'||ARR4096{S8}$S8$'logfile'||*{SYM#tag-#anon#ST[*{cS8}$cS8$'label'||*{S32(*{*{V}$V$}$*{V}$V$$|*{SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#}$SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#$)->S32}$S32(*{*{V}$V$}$*{V}$V$$|*{SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#}$SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#$)->S32$'init'||*{S32(*{*{V}$V$}$*{V}$V$$|*{V}$V$|U64)->S32}$S32(*{*{V}$V$}$*{V}$V$$|*{V}$V$|U64)->S32$'read'|]#}$SYM#tag-#anon#ST[*{cS8}$cS8$'label'||*{S32(*{*{V}$V$}$*{V}$V$$|*{SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#}$SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#$)->S32}$S32(*{*{V}$V$}$*{V}$V$$|*{SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#}$SYM#tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]#$)->S32$'init'||*{S32(*{*{V}$V$}$*{V}$V$$|*{V}$V$|U64)->S32}$S32(*{*{V}$V$}$*{V}$V$$|*{V}$V$|U64)->S32$'read'|]#$'prng'||S32'rounds'||S32'sync'||ENtag-nwipe_verify_t_#{U32}$U32$'verify'||U32'$pad0'|]
+// tag-#anon#ST[S32'autonuke'||S32'noblank'||S32'nowait'||S32'nogui'||*{S8}_S8_'banner'||*{V}_V_'method'||ARR4096{S8}_S8_'logfile'||*{SYM#tag-#anon#ST[*{cS8}_cS8_'label'||*{S32(*{*{V}_V_}_*{V}_V__|*{SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#}_SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#_)->S32}_S32(*{*{V}_V_}_*{V}_V__|*{SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#}_SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#_)->S32_'init'||*{S32(*{*{V}_V_}_*{V}_V__|*{V}_V_|U64)->S32}_S32(*{*{V}_V_}_*{V}_V__|*{V}_V_|U64)->S32_'read'|]#}_SYM#tag-#anon#ST[*{cS8}_cS8_'label'||*{S32(*{*{V}_V_}_*{V}_V__|*{SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#}_SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#_)->S32}_S32(*{*{V}_V_}_*{V}_V__|*{SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#}_SYM#tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]#_)->S32_'init'||*{S32(*{*{V}_V_}_*{V}_V__|*{V}_V_|U64)->S32}_S32(*{*{V}_V_}_*{V}_V__|*{V}_V_|U64)->S32_'read'|]#_'prng'||S32'rounds'||S32'sync'||ENtag-nwipe_verify_t_#{U32}_U32_'verify'||U32'_pad0'|]
 // file options.h line 47
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'length'||U32'$pad0'||*{S8}$S8$'s'|]
+// tag-#anon#ST[S32'length'||U32'_pad0'||*{S8}_S8_'s'|]
 // file method.h line 40
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'nwipe_enumerated'||S32'nwipe_selected'||S64'maxeta'||U64'throughput'||U64'errors'||*{U64}$U64$'gui_thread'|]
+// tag-#anon#ST[S32'nwipe_enumerated'||S32'nwipe_selected'||S64'maxeta'||U64'throughput'||U64'errors'||*{U64}_U64_'gui_thread'|]
 // file context.h line 124
 struct anonymous;
 
-// tag-#anon#ST[U64'attr'||ARR5{S32}$S32$'chars'||U32'$pad0'|]
+// tag-#anon#ST[U64'attr'||ARR5{S32}_S32_'chars'||U32'_pad0'|]
 // file /usr/include/curses.h line 397
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[U64'length'||*{U8}$U8$'s'|]
+// tag-#anon#ST[U64'length'||*{U8}_U8_'s'|]
 // file prng.h line 25
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$8;
+union anonymous_8;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -339,7 +339,7 @@ void nwipe_gui_verify(void);
 void * nwipe_gutmann(void *ptr);
 // nwipe_isaac_init
 // file prng.c line 79
-signed int nwipe_isaac_init(void **state, struct anonymous$3 *seed);
+signed int nwipe_isaac_init(void **state, struct anonymous_3 *seed);
 // nwipe_isaac_read
 // file prng.c line 128
 signed int nwipe_isaac_read(void **state, void *buffer, unsigned long int count);
@@ -372,16 +372,16 @@ signed int nwipe_random_pass(struct nwipe_context_t_ *c);
 signed int nwipe_random_verify(struct nwipe_context_t_ *c);
 // nwipe_runmethod
 // file method.c line 547
-signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patterns);
+signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous_1 *patterns);
 // nwipe_static_pass
 // file pass.c line 576
-signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pattern);
+signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous_1 *pattern);
 // nwipe_static_verify
 // file pass.c line 377
-signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *pattern);
+signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous_1 *pattern);
 // nwipe_twister_init
 // file prng.c line 44
-signed int nwipe_twister_init(void **state, struct anonymous$3 *seed);
+signed int nwipe_twister_init(void **state, struct anonymous_3 *seed);
 // nwipe_twister_read
 // file prng.c line 55
 signed int nwipe_twister_read(void **state, void *buffer, unsigned long int count);
@@ -432,13 +432,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$8 *);
+extern signed int pthread_mutex_lock(union anonymous_8 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$8 *);
+extern signed int pthread_mutex_unlock(union anonymous_8 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$2 *, struct anonymous$2 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_2 *, struct anonymous_2 *);
 // pthread_testcancel
 // file /usr/include/pthread.h line 520
 extern void pthread_testcancel(void);
@@ -465,16 +465,16 @@ extern void setbuf(struct _IO_FILE *, char *);
 extern signed int show_panel(struct panel *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$2 *, signed int);
+extern signed int sigaddset(struct anonymous_2 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$2 *);
+extern signed int sigemptyset(struct anonymous_2 *);
 // signal_hand
 // file nwipe.c line 484
 void * signal_hand(void *ptr);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$2 *, signed int *);
+extern signed int sigwait(const struct anonymous_2 *, signed int *);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -548,7 +548,7 @@ extern signed int wrefresh(struct _win_st *);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$7
+struct anonymous_7
 {
   // c
   struct nwipe_context_t_ **c;
@@ -556,23 +556,23 @@ struct anonymous$7
   struct anonymous *nwipe_misc_thread_data;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // label
   const char *label;
   // init
-  signed int (*init)(void **, struct anonymous$3 *);
+  signed int (*init)(void **, struct anonymous_3 *);
   // read
   signed int (*read)(void **, void *, unsigned long int);
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // autonuke
   signed int autonuke;
@@ -589,7 +589,7 @@ struct anonymous$0
   // logfile
   char logfile[4096l];
   // prng
-  struct anonymous$6 *prng;
+  struct anonymous_6 *prng;
   // rounds
   signed int rounds;
   // sync
@@ -598,7 +598,7 @@ struct anonymous$0
   enum nwipe_verify_t_ verify;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // length
   signed int length;
@@ -622,7 +622,7 @@ struct anonymous
   unsigned long int *gui_thread;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // attr
   unsigned long int attr;
@@ -630,7 +630,7 @@ struct anonymous$4
   signed int chars[5l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // length
   unsigned long int length;
@@ -666,7 +666,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -767,7 +767,7 @@ struct _PedDevice
   // path
   char *path;
   // type
-  enum anonymous$5 type;
+  enum anonymous_5 type;
   // sector_size
   signed long long int sector_size;
   // phys_sector_size
@@ -869,7 +869,7 @@ struct _win_st
   // _yoffset
   signed short int _yoffset;
   // _bkgrnd
-  struct anonymous$4 _bkgrnd;
+  struct anonymous_4 _bkgrnd;
 };
 
 struct hd_driveid
@@ -1143,9 +1143,9 @@ struct nwipe_context_t_
   // pass_working
   signed int pass_working;
   // prng
-  struct anonymous$6 *prng;
+  struct anonymous_6 *prng;
   // prng_seed
-  struct anonymous$3 prng_seed;
+  struct anonymous_3 prng_seed;
   // prng_state
   void *prng_state;
   // result
@@ -1319,7 +1319,7 @@ struct panel *main_panel;
 struct _win_st *main_window;
 // mutex1
 // file logging.c line 35
-union anonymous$8 mutex1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_8 mutex1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // nwipe_buttons1
@@ -1342,25 +1342,25 @@ const char *nwipe_dodshort_label = "DoD Short";
 const char *nwipe_gutmann_label = "Gutmann Wipe";
 // nwipe_isaac
 // file prng.c line 35
-struct anonymous$6 nwipe_isaac;
+struct anonymous_6 nwipe_isaac;
 // nwipe_isaac
 // file prng.c line 35
-struct anonymous$6 nwipe_isaac = { .label="ISAAC (rand.c 20010626)", .init=nwipe_isaac_init, .read=nwipe_isaac_read };
+struct anonymous_6 nwipe_isaac = { .label="ISAAC (rand.c 20010626)", .init=nwipe_isaac_init, .read=nwipe_isaac_read };
 // nwipe_ops2_label
 // file method.c line 66
 const char *nwipe_ops2_label = "RCMP TSSIT OPS-II";
 // nwipe_options
 // file options.c line 33
-struct anonymous$0 nwipe_options;
+struct anonymous_0 nwipe_options;
 // nwipe_random_label
 // file method.c line 67
 const char *nwipe_random_label = "PRNG Stream";
 // nwipe_twister
 // file prng.c line 28
-struct anonymous$6 nwipe_twister;
+struct anonymous_6 nwipe_twister;
 // nwipe_twister
 // file prng.c line 28
-struct anonymous$6 nwipe_twister = { .label="Mersenne Twister (mt19937ar-cok)", .init=nwipe_twister_init,
+struct anonymous_6 nwipe_twister = { .label="Mersenne Twister (mt19937ar-cok)", .init=nwipe_twister_init,
     .read=nwipe_twister_read };
 // nwipe_unknown_label
 // file method.c line 70
@@ -1416,25 +1416,25 @@ const char *years = "2012";
 signed int check_device(struct nwipe_context_t_ ***c, struct _PedDevice *dev, signed int dcount)
 {
   struct nwipe_context_t_ *next_device;
-  signed int return_value_ped_device_open$1;
-  return_value_ped_device_open$1=ped_device_open(dev);
-  if(return_value_ped_device_open$1 == 0)
+  signed int return_value_ped_device_open_1;
+  return_value_ped_device_open_1=ped_device_open(dev);
+  if(return_value_ped_device_open_1 == 0)
     return 0;
 
   else
   {
     ped_device_close(dev);
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)*c, (unsigned long int)(dcount + 1) * sizeof(struct nwipe_context_t_ *) /*8ul*/ );
-    *c = (struct nwipe_context_t_ **)return_value_realloc$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct nwipe_context_t_) /*1928ul*/ );
-    next_device = (struct nwipe_context_t_ *)return_value_malloc$3;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)*c, (unsigned long int)(dcount + 1) * sizeof(struct nwipe_context_t_ *) /*8ul*/ );
+    *c = (struct nwipe_context_t_ **)return_value_realloc_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct nwipe_context_t_) /*1928ul*/ );
+    next_device = (struct nwipe_context_t_ *)return_value_malloc_3;
     if(next_device == ((struct nwipe_context_t_ *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      nwipe_perror(*return_value___errno_location$4, "check_device", "malloc");
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      nwipe_perror(*return_value___errno_location_4, "check_device", "malloc");
       nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to create the array of enumeration contexts.");
       return 0;
     }
@@ -1453,7 +1453,7 @@ signed int check_device(struct nwipe_context_t_ ***c, struct _PedDevice *dev, si
 // file gui.h line 38
 signed int compute_stats(void *ptr)
 {
-  struct anonymous$7 *nwipe_thread_data_ptr = (struct anonymous$7 *)ptr;
+  struct anonymous_7 *nwipe_thread_data_ptr = (struct anonymous_7 *)ptr;
   struct nwipe_context_t_ **c;
   struct anonymous *nwipe_misc_thread_data;
   c = nwipe_thread_data_ptr->c;
@@ -1563,128 +1563,128 @@ void isaac(struct randctx *ctx)
   m = mm;
   m2 = m + (signed long int)((1 << 8) / 2);
   mend = m2;
-  unsigned long int *tmp_post$1;
-  unsigned long int *tmp_post$2;
-  unsigned long int *tmp_post$3;
-  unsigned long int *tmp_post$4;
-  unsigned long int *tmp_post$5;
-  unsigned long int *tmp_post$6;
-  unsigned long int *tmp_post$7;
-  unsigned long int *tmp_post$8;
-  unsigned long int *tmp_post$9;
-  unsigned long int *tmp_post$10;
-  unsigned long int *tmp_post$11;
-  unsigned long int *tmp_post$12;
-  for( ; !(m >= mend); *tmp_post$12 = b)
+  unsigned long int *tmp_post_1;
+  unsigned long int *tmp_post_2;
+  unsigned long int *tmp_post_3;
+  unsigned long int *tmp_post_4;
+  unsigned long int *tmp_post_5;
+  unsigned long int *tmp_post_6;
+  unsigned long int *tmp_post_7;
+  unsigned long int *tmp_post_8;
+  unsigned long int *tmp_post_9;
+  unsigned long int *tmp_post_10;
+  unsigned long int *tmp_post_11;
+  unsigned long int *tmp_post_12;
+  for( ; !(m >= mend); *tmp_post_12 = b)
   {
     x = *m;
-    tmp_post$1 = m2;
+    tmp_post_1 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a << 13) + *tmp_post$1;
-    tmp_post$2 = m;
+    a = (a ^ a << 13) + *tmp_post_1;
+    tmp_post_2 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$2 = y;
-    tmp_post$3 = r;
+    *tmp_post_2 = y;
+    tmp_post_3 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
-    *tmp_post$3 = b;
+    *tmp_post_3 = b;
     x = *m;
-    tmp_post$4 = m2;
+    tmp_post_4 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a >> 6) + *tmp_post$4;
-    tmp_post$5 = m;
+    a = (a ^ a >> 6) + *tmp_post_4;
+    tmp_post_5 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$5 = y;
-    tmp_post$6 = r;
+    *tmp_post_5 = y;
+    tmp_post_6 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
-    *tmp_post$6 = b;
+    *tmp_post_6 = b;
     x = *m;
-    tmp_post$7 = m2;
+    tmp_post_7 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a << 2) + *tmp_post$7;
-    tmp_post$8 = m;
+    a = (a ^ a << 2) + *tmp_post_7;
+    tmp_post_8 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$8 = y;
-    tmp_post$9 = r;
+    *tmp_post_8 = y;
+    tmp_post_9 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
-    *tmp_post$9 = b;
+    *tmp_post_9 = b;
     x = *m;
-    tmp_post$10 = m2;
+    tmp_post_10 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a >> 16) + *tmp_post$10;
-    tmp_post$11 = m;
+    a = (a ^ a >> 16) + *tmp_post_10;
+    tmp_post_11 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$11 = y;
-    tmp_post$12 = r;
+    *tmp_post_11 = y;
+    tmp_post_12 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
   }
   m2 = mm;
-  unsigned long int *tmp_post$13;
-  unsigned long int *tmp_post$14;
-  unsigned long int *tmp_post$15;
-  unsigned long int *tmp_post$16;
-  unsigned long int *tmp_post$17;
-  unsigned long int *tmp_post$18;
-  unsigned long int *tmp_post$19;
-  unsigned long int *tmp_post$20;
-  unsigned long int *tmp_post$21;
-  unsigned long int *tmp_post$22;
-  unsigned long int *tmp_post$23;
-  unsigned long int *tmp_post$24;
-  for( ; !(m2 >= mend); *tmp_post$24 = b)
+  unsigned long int *tmp_post_13;
+  unsigned long int *tmp_post_14;
+  unsigned long int *tmp_post_15;
+  unsigned long int *tmp_post_16;
+  unsigned long int *tmp_post_17;
+  unsigned long int *tmp_post_18;
+  unsigned long int *tmp_post_19;
+  unsigned long int *tmp_post_20;
+  unsigned long int *tmp_post_21;
+  unsigned long int *tmp_post_22;
+  unsigned long int *tmp_post_23;
+  unsigned long int *tmp_post_24;
+  for( ; !(m2 >= mend); *tmp_post_24 = b)
   {
     x = *m;
-    tmp_post$13 = m2;
+    tmp_post_13 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a << 13) + *tmp_post$13;
-    tmp_post$14 = m;
+    a = (a ^ a << 13) + *tmp_post_13;
+    tmp_post_14 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$14 = y;
-    tmp_post$15 = r;
+    *tmp_post_14 = y;
+    tmp_post_15 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
-    *tmp_post$15 = b;
+    *tmp_post_15 = b;
     x = *m;
-    tmp_post$16 = m2;
+    tmp_post_16 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a >> 6) + *tmp_post$16;
-    tmp_post$17 = m;
+    a = (a ^ a >> 6) + *tmp_post_16;
+    tmp_post_17 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$17 = y;
-    tmp_post$18 = r;
+    *tmp_post_17 = y;
+    tmp_post_18 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
-    *tmp_post$18 = b;
+    *tmp_post_18 = b;
     x = *m;
-    tmp_post$19 = m2;
+    tmp_post_19 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a << 2) + *tmp_post$19;
-    tmp_post$20 = m;
+    a = (a ^ a << 2) + *tmp_post_19;
+    tmp_post_20 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$20 = y;
-    tmp_post$21 = r;
+    *tmp_post_20 = y;
+    tmp_post_21 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
-    *tmp_post$21 = b;
+    *tmp_post_21 = b;
     x = *m;
-    tmp_post$22 = m2;
+    tmp_post_22 = m2;
     m2 = m2 + 1l;
-    a = (a ^ a >> 16) + *tmp_post$22;
-    tmp_post$23 = m;
+    a = (a ^ a >> 16) + *tmp_post_22;
+    tmp_post_23 = m;
     m = m + 1l;
     y = *((unsigned long int *)((unsigned char *)mm + (signed long int)(x & (unsigned long int)((1 << 8) - 1 << 2)))) + a + b;
-    *tmp_post$23 = y;
-    tmp_post$24 = r;
+    *tmp_post_23 = y;
+    tmp_post_24 = r;
     r = r + 1l;
     b = *((unsigned long int *)((unsigned char *)mm + (signed long int)(y >> 8 & (unsigned long int)((1 << 8) - 1 << 2)))) + x;
   }
@@ -1708,9 +1708,9 @@ signed int main(signed int argc, char **argv)
   signed int r;
   struct nwipe_context_t_ **c1 = ((struct nwipe_context_t_ **)NULL);
   struct nwipe_context_t_ **c2;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)nwipe_enumerated * sizeof(struct nwipe_context_t_ *) /*8ul*/ );
-  c2 = (struct nwipe_context_t_ **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)nwipe_enumerated * sizeof(struct nwipe_context_t_ *) /*8ul*/ );
+  c2 = (struct nwipe_context_t_ **)return_value_malloc_1;
   nwipe_optind=nwipe_options_parse(argc, argv);
   if(nwipe_optind == argc)
   {
@@ -1737,26 +1737,26 @@ signed int main(signed int argc, char **argv)
   nwipe_entropy=open("/dev/urandom", 00);
   if(!(nwipe_entropy >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    nwipe_perror(*return_value___errno_location$2, "main", "open");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    nwipe_perror(*return_value___errno_location_2, "main", "open");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to open entropy source %s.", (const void *)"/dev/urandom");
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "Opened entropy source '%s'.", (const void *)"/dev/urandom");
-  struct anonymous$2 sigset;
+  struct anonymous_2 sigset;
   sigemptyset(&sigset);
   sigaddset(&sigset, 1);
   sigaddset(&sigset, 15);
   sigaddset(&sigset, 3);
   sigaddset(&sigset, 2);
   sigaddset(&sigset, 10);
-  pthread_sigmask(2, &sigset, (struct anonymous$2 *)(void *)0);
+  pthread_sigmask(2, &sigset, (struct anonymous_2 *)(void *)0);
   struct anonymous nwipe_misc_thread_data;
-  struct anonymous$7 nwipe_thread_data_ptr;
+  struct anonymous_7 nwipe_thread_data_ptr;
   nwipe_thread_data_ptr.c = c2;
   nwipe_misc_thread_data.nwipe_enumerated = nwipe_enumerated;
   if(nwipe_options.nogui == 0)
@@ -1781,7 +1781,7 @@ signed int main(signed int argc, char **argv)
     c1[(signed long int)i]->prng_seed.s = ((unsigned char *)NULL);
     c1[(signed long int)i]->prng_state = NULL;
   }
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(!(nwipe_error == 0))
     return -1;
 
@@ -1817,9 +1817,9 @@ signed int main(signed int argc, char **argv)
     for( ; !(i >= nwipe_enumerated); i = i + 1)
       if((signed int)c1[(signed long int)i]->select == NWIPE_SELECT_TRUE)
       {
-        tmp_post$4 = j;
+        tmp_post_4 = j;
         j = j + 1;
-        c2[(signed long int)tmp_post$4] = c1[(signed long int)i];
+        c2[(signed long int)tmp_post_4] = c1[(signed long int)i];
       }
 
     i = 0;
@@ -1829,21 +1829,21 @@ signed int main(signed int argc, char **argv)
       c2[(signed long int)i]->device_fd=open(c2[(signed long int)i]->device_name, 02);
       if(!(c2[(signed long int)i]->device_fd >= 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        nwipe_perror(*return_value___errno_location$5, "main", "open");
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        nwipe_perror(*return_value___errno_location_5, "main", "open");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "Unable to open device '%s'.", c2[(signed long int)i]->device_name);
         c2[(signed long int)i]->select = (enum nwipe_select_t_)NWIPE_SELECT_DISABLED;
         goto __CPROVER_DUMP_L44;
       }
 
-      signed int return_value_fstat$7;
-      return_value_fstat$7=fstat(c2[(signed long int)i]->device_fd, &c2[(signed long int)i]->device_stat);
-      if(!(return_value_fstat$7 == 0))
+      signed int return_value_fstat_7;
+      return_value_fstat_7=fstat(c2[(signed long int)i]->device_fd, &c2[(signed long int)i]->device_stat);
+      if(!(return_value_fstat_7 == 0))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        nwipe_perror(*return_value___errno_location$6, "main", "fstat");
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        nwipe_perror(*return_value___errno_location_6, "main", "fstat");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to stat file '%s'.", c2[(signed long int)i]->device_name);
         nwipe_error = nwipe_error + 1;
         goto __CPROVER_DUMP_L44;
@@ -1857,26 +1857,26 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen((const char *)c2[(signed long int)i]->identity.serial_no);
-        if(!(return_value_strlen$8 == 0ul))
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen((const char *)c2[(signed long int)i]->identity.serial_no);
+        if(!(return_value_strlen_8 == 0ul))
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_INFO, "Device %s has serial number %s", c2[(signed long int)i]->device_name, (const void *)c2[(signed long int)i]->identity.serial_no);
 
-        signed int return_value_ioctl$11;
-        return_value_ioctl$11=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(104 << 0) | (unsigned int)(0 << 0 + 8 + 8)), &c2[(signed long int)i]->sector_size);
-        if(return_value_ioctl$11 == 0)
+        signed int return_value_ioctl_11;
+        return_value_ioctl_11=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(104 << 0) | (unsigned int)(0 << 0 + 8 + 8)), &c2[(signed long int)i]->sector_size);
+        if(return_value_ioctl_11 == 0)
         {
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_INFO, "Device '%s' has sector size %i.", c2[(signed long int)i]->device_name, c2[(signed long int)i]->sector_size);
-          signed int return_value_ioctl$10;
-          return_value_ioctl$10=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(112 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, &c2[(signed long int)i]->block_size);
-          if(return_value_ioctl$10 == 0)
+          signed int return_value_ioctl_10;
+          return_value_ioctl_10=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(112 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, &c2[(signed long int)i]->block_size);
+          if(return_value_ioctl_10 == 0)
           {
             if(!(c2[(signed long int)i]->block_size == c2[(signed long int)i]->sector_size))
             {
               nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "Changing '%s' block size from %i to %i.", c2[(signed long int)i]->device_name, c2[(signed long int)i]->block_size, c2[(signed long int)i]->sector_size);
-              signed int return_value_ioctl$9;
-              return_value_ioctl$9=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(113 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, &c2[(signed long int)i]->sector_size);
-              if(return_value_ioctl$9 == 0)
+              signed int return_value_ioctl_9;
+              return_value_ioctl_9=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(113 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, &c2[(signed long int)i]->sector_size);
+              if(return_value_ioctl_9 == 0)
                 c2[(signed long int)i]->block_size = c2[(signed long int)i]->sector_size;
 
               else
@@ -1899,9 +1899,9 @@ signed int main(signed int argc, char **argv)
           c2[(signed long int)i]->block_size = 0;
         }
         c2[(signed long int)i]->device_size=lseek(c2[(signed long int)i]->device_fd, (signed long int)0, 2);
-        signed int return_value_ioctl$12;
-        return_value_ioctl$12=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(114 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, &size64);
-        if(!(return_value_ioctl$12 == 0))
+        signed int return_value_ioctl_12;
+        return_value_ioctl_12=ioctl(c2[(signed long int)i]->device_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(114 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, &size64);
+        if(!(return_value_ioctl_12 == 0))
         {
           fprintf(stderr, "Error: BLKGETSIZE64 failed  on '%s'.\n", c2[(signed long int)i]->device_name);
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "BLKGETSIZE64 failed  on '%s'.\n", c2[(signed long int)i]->device_name);
@@ -1918,23 +1918,23 @@ signed int main(signed int argc, char **argv)
 
         if(c2[(signed long int)i]->device_size == -1l)
         {
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          nwipe_perror(*return_value___errno_location$13, "main", "lseek");
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          nwipe_perror(*return_value___errno_location_13, "main", "lseek");
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to determine the size of '%s'.", c2[(signed long int)i]->device_name);
           nwipe_error = nwipe_error + 1;
         }
 
         else
         {
-          signed long int return_value_lseek$14;
-          return_value_lseek$14=lseek(c2[(signed long int)i]->device_fd, (signed long int)0, 0);
-          r = (signed int)return_value_lseek$14;
+          signed long int return_value_lseek_14;
+          return_value_lseek_14=lseek(c2[(signed long int)i]->device_fd, (signed long int)0, 0);
+          r = (signed int)return_value_lseek_14;
           if((signed long int)r == -1l)
           {
-            signed int *return_value___errno_location$15;
-            return_value___errno_location$15=__errno_location();
-            nwipe_perror(*return_value___errno_location$15, "main", "lseek");
+            signed int *return_value___errno_location_15;
+            return_value___errno_location_15=__errno_location();
+            nwipe_perror(*return_value___errno_location_15, "main", "lseek");
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to reset the '%s' file offset.", c2[(signed long int)i]->device_name);
             nwipe_error = nwipe_error + 1;
           }
@@ -1949,22 +1949,22 @@ signed int main(signed int argc, char **argv)
 
         else
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_INFO, "Device '%s' is size %llu.", c2[(signed long int)i]->device_name, c2[(signed long int)i]->device_size);
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        *return_value___errno_location$16=pthread_create(&c2[(signed long int)i]->thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))nwipe_options.method, (void *)c2[(signed long int)i]);
-        signed int *return_value___errno_location$19;
-        return_value___errno_location$19=__errno_location();
-        if(!(*return_value___errno_location$19 == 0))
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        *return_value___errno_location_16=pthread_create(&c2[(signed long int)i]->thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))nwipe_options.method, (void *)c2[(signed long int)i]);
+        signed int *return_value___errno_location_19;
+        return_value___errno_location_19=__errno_location();
+        if(!(*return_value___errno_location_19 == 0))
         {
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          nwipe_perror(*return_value___errno_location$17, "main", "pthread_create");
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          nwipe_perror(*return_value___errno_location_17, "main", "pthread_create");
           if(nwipe_options.nogui == 0)
             nwipe_gui_free();
 
-          signed int *return_value___errno_location$18;
-          return_value___errno_location$18=__errno_location();
-          return *return_value___errno_location$18;
+          signed int *return_value___errno_location_18;
+          return_value___errno_location_18=__errno_location();
+          return *return_value___errno_location_18;
         }
 
       }
@@ -1974,14 +1974,14 @@ signed int main(signed int argc, char **argv)
     }
     nodelay(stdscr, (_Bool)0);
     halfdelay(1 * 10);
-    struct anonymous$7 nwipe_gui_data;
+    struct anonymous_7 nwipe_gui_data;
     if(nwipe_options.nogui == 0)
     {
       nwipe_gui_data.c = c2;
       nwipe_gui_data.nwipe_misc_thread_data = &nwipe_misc_thread_data;
-      signed int *return_value___errno_location$20;
-      return_value___errno_location$20=__errno_location();
-      *return_value___errno_location$20=pthread_create(&nwipe_gui_thread, (const union pthread_attr_t *)(void *)0, nwipe_gui_status, (void *)&nwipe_gui_data);
+      signed int *return_value___errno_location_20;
+      return_value___errno_location_20=__errno_location();
+      *return_value___errno_location_20=pthread_create(&nwipe_gui_thread, (const union pthread_attr_t *)(void *)0, nwipe_gui_status, (void *)&nwipe_gui_data);
     }
 
     i = 0;
@@ -2070,9 +2070,9 @@ signed int nwipe_device_get(struct nwipe_context_t_ ***c, char **devnamelist, si
     if(dev == ((struct _PedDevice *)NULL))
       break;
 
-    signed int return_value_check_device$1;
-    return_value_check_device$1=check_device(c, dev, dcount);
-    if(!(return_value_check_device$1 == 0))
+    signed int return_value_check_device_1;
+    return_value_check_device_1=check_device(c, dev, dcount);
+    if(!(return_value_check_device_1 == 0))
       dcount = dcount + 1;
 
   }
@@ -2092,9 +2092,9 @@ signed int nwipe_device_scan(struct nwipe_context_t_ ***c)
     if(dev == ((struct _PedDevice *)NULL))
       break;
 
-    signed int return_value_check_device$1;
-    return_value_check_device$1=check_device(c, dev, dcount);
-    if(!(return_value_check_device$1 == 0))
+    signed int return_value_check_device_1;
+    return_value_check_device_1=check_device(c, dev, dcount);
+    if(!(return_value_check_device_1 == 0))
       dcount = dcount + 1;
 
   }
@@ -2109,20 +2109,20 @@ void * nwipe_dod522022m(void *ptr)
   struct nwipe_context_t_ *c = (struct nwipe_context_t_ *)ptr;
   signed int r;
   char dod[7l];
-  struct anonymous$1 patterns[8l] = { { .length=1, .s=&dod[(signed long int)0] },
+  struct anonymous_1 patterns[8l] = { { .length=1, .s=&dod[(signed long int)0] },
     { .length=1, .s=&dod[(signed long int)1] },
     { .length=-1, .s="" }, { .length=1, .s=&dod[(signed long int)3] },
     { .length=1, .s=&dod[(signed long int)4] },
     { .length=1, .s=&dod[(signed long int)5] },
     { .length=-1, .s="" }, { .length=0, .s=(char *)(void *)0 } };
-  signed long int return_value_read$1;
-  return_value_read$1=read(c->entropy_fd, (void *)&dod, sizeof(char [7l]) /*7ul*/ );
-  r = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(c->entropy_fd, (void *)&dod, sizeof(char [7l]) /*7ul*/ );
+  r = (signed int)return_value_read_1;
   if(!((unsigned long int)r == sizeof(char [7l]) /*7ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    r = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    r = *return_value___errno_location_2;
     nwipe_perror(r, "nwipe_dod522022m", "read");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to seed the %s method.", nwipe_dod522022m_label);
     if(!(r >= 0))
@@ -2152,17 +2152,17 @@ void * nwipe_dodshort(void *ptr)
   struct nwipe_context_t_ *c = (struct nwipe_context_t_ *)ptr;
   signed int r;
   char dod[3l];
-  struct anonymous$1 patterns[4l] = { { .length=1, .s=&dod[(signed long int)0] },
+  struct anonymous_1 patterns[4l] = { { .length=1, .s=&dod[(signed long int)0] },
     { .length=1, .s=&dod[(signed long int)1] },
     { .length=-1, .s="" }, { .length=0, .s=(char *)(void *)0 } };
-  signed long int return_value_read$1;
-  return_value_read$1=read(c->entropy_fd, (void *)&dod, sizeof(char [3l]) /*3ul*/ );
-  r = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(c->entropy_fd, (void *)&dod, sizeof(char [3l]) /*3ul*/ );
+  r = (signed int)return_value_read_1;
   if(!((unsigned long int)r == sizeof(char [3l]) /*3ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    r = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    r = *return_value___errno_location_2;
     nwipe_perror(r, "nwipe_dodshort", "read");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to seed the %s method.", nwipe_dodshort_label);
     if(!(r >= 0))
@@ -2209,14 +2209,14 @@ void nwipe_gui_init(void)
   cbreak();
   noecho();
   keypad(stdscr, (_Bool)1);
-  _Bool return_value_has_colors$2;
-  return_value_has_colors$2=has_colors();
-  if(!(return_value_has_colors$2 == (_Bool)0))
+  _Bool return_value_has_colors_2;
+  return_value_has_colors_2=has_colors();
+  if(!(return_value_has_colors_2 == (_Bool)0))
   {
     start_color();
-    _Bool return_value_can_change_color$1;
-    return_value_can_change_color$1=can_change_color();
-    if(!(return_value_can_change_color$1 == (_Bool)0))
+    _Bool return_value_can_change_color_1;
+    return_value_can_change_color_1=can_change_color();
+    if(!(return_value_can_change_color_1 == (_Bool)0))
       init_color((signed short int)6, (signed short int)128, (signed short int)128, (signed short int)128);
 
     init_pair((signed short int)1, (signed short int)7, (signed short int)4);
@@ -2232,26 +2232,26 @@ void nwipe_gui_init(void)
   wclear(stdscr);
   header_window=newwin(1, COLS, 0, 0);
   header_panel=new_panel(header_window);
-  _Bool return_value_has_colors$3;
-  return_value_has_colors$3=has_colors();
-  if(!(return_value_has_colors$3 == (_Bool)0))
+  _Bool return_value_has_colors_3;
+  return_value_has_colors_3=has_colors();
+  if(!(return_value_has_colors_3 == (_Bool)0))
     wbkgdset(header_window, (unsigned long int)4 << 0 + 8 | (unsigned long int)32);
 
   wclear(header_window);
   nwipe_gui_title(header_window, nwipe_options.banner);
   footer_window=newwin(1, COLS, LINES - 1, 0);
   footer_panel=new_panel(footer_window);
-  _Bool return_value_has_colors$4;
-  return_value_has_colors$4=has_colors();
-  if(!(return_value_has_colors$4 == (_Bool)0))
+  _Bool return_value_has_colors_4;
+  return_value_has_colors_4=has_colors();
+  if(!(return_value_has_colors_4 == (_Bool)0))
     wbkgdset(footer_window, (unsigned long int)4 << 0 + 8 | (unsigned long int)32);
 
   wclear(footer_window);
   options_window=newwin(7, 44, 1, 0);
   options_panel=new_panel(options_window);
-  _Bool return_value_has_colors$5;
-  return_value_has_colors$5=has_colors();
-  if(!(return_value_has_colors$5 == (_Bool)0))
+  _Bool return_value_has_colors_5;
+  return_value_has_colors_5=has_colors();
+  if(!(return_value_has_colors_5 == (_Bool)0))
   {
     wbkgdset(options_window, (unsigned long int)1 << 0 + 8 | (unsigned long int)32);
     wattr_on(options_window, (unsigned long int)((unsigned long int)1 << 0 + 8), (void *)0);
@@ -2261,9 +2261,9 @@ void nwipe_gui_init(void)
   wborder(options_window, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0);
   stats_window=newwin(7, 36, 1, 44);
   stats_panel=new_panel(stats_window);
-  _Bool return_value_has_colors$6;
-  return_value_has_colors$6=has_colors();
-  if(!(return_value_has_colors$6 == (_Bool)0))
+  _Bool return_value_has_colors_6;
+  return_value_has_colors_6=has_colors();
+  if(!(return_value_has_colors_6 == (_Bool)0))
   {
     wbkgdset(stats_window, (unsigned long int)1 << 0 + 8 | (unsigned long int)32);
     wattr_on(stats_window, (unsigned long int)((unsigned long int)1 << 0 + 8), (void *)0);
@@ -2279,9 +2279,9 @@ void nwipe_gui_init(void)
   mvwprintw(stats_window, 5, 1, "Errors:        ");
   main_window=newwin((LINES - 8) - 1, COLS, 8, 0);
   main_panel=new_panel(main_window);
-  _Bool return_value_has_colors$7;
-  return_value_has_colors$7=has_colors();
-  if(!(return_value_has_colors$7 == (_Bool)0))
+  _Bool return_value_has_colors_7;
+  return_value_has_colors_7=has_colors();
+  if(!(return_value_has_colors_7 == (_Bool)0))
   {
     wbkgdset(main_window, (unsigned long int)1 << 0 + 8 | (unsigned long int)32);
     wattr_on(main_window, (unsigned long int)((unsigned long int)1 << 0 + 8), (void *)0);
@@ -2312,25 +2312,25 @@ void nwipe_gui_load(void)
   mvwprintw(stats_window, 3, 1, "Load Averages:");
   if(!(nwipe_fp == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_fscanf$2;
-    return_value_fscanf$2=fscanf(nwipe_fp, "%f %f %f", &load_01, &load_05, &load_15);
-    if(return_value_fscanf$2 == 3)
+    signed int return_value_fscanf_2;
+    return_value_fscanf_2=fscanf(nwipe_fp, "%f %f %f", &load_01, &load_05, &load_15);
+    if(return_value_fscanf_2 == 3)
       mvwprintw(stats_window, 3, 16, "%04.2f %04.2f %04.2f", load_01, load_05, load_15);
 
     else
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      mvwprintw(stats_window, 3, 16, "(fscanf error %i)", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      mvwprintw(stats_window, 3, 16, "(fscanf error %i)", *return_value___errno_location_1);
     }
     fclose(nwipe_fp);
   }
 
   else
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    mvwprintw(stats_window, 3, 16, "(fopen error %i)", *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    mvwprintw(stats_window, 3, 16, "(fopen error %i)", *return_value___errno_location_3);
   }
 }
 
@@ -2365,75 +2365,75 @@ void nwipe_gui_method(void)
   if((void * (*)(void *))nwipe_options.method == nwipe_random)
     focus = 5;
 
-  signed int tmp_post$1;
-  signed int tmp_post$3;
-  signed int tmp_post$5;
-  signed int tmp_post$7;
-  signed int tmp_post$9;
-  signed int tmp_post$11;
-  signed int tmp_post$13;
-  signed int tmp_post$15;
-  signed int tmp_post$16;
-  signed int tmp_post$17;
-  signed int tmp_post$18;
-  signed int tmp_post$19;
-  signed int tmp_post$20;
-  signed int tmp_post$21;
-  signed int tmp_post$22;
-  signed int tmp_post$23;
-  signed int tmp_post$24;
-  signed int tmp_post$25;
-  signed int tmp_post$26;
-  signed int tmp_post$27;
-  signed int tmp_post$28;
-  signed int tmp_post$29;
-  signed int tmp_post$30;
-  signed int tmp_post$31;
-  signed int tmp_post$32;
-  signed int tmp_post$33;
-  signed int tmp_post$34;
-  signed int tmp_post$35;
-  signed int tmp_post$36;
+  signed int tmp_post_1;
+  signed int tmp_post_3;
+  signed int tmp_post_5;
+  signed int tmp_post_7;
+  signed int tmp_post_9;
+  signed int tmp_post_11;
+  signed int tmp_post_13;
+  signed int tmp_post_15;
+  signed int tmp_post_16;
+  signed int tmp_post_17;
+  signed int tmp_post_18;
+  signed int tmp_post_19;
+  signed int tmp_post_20;
+  signed int tmp_post_21;
+  signed int tmp_post_22;
+  signed int tmp_post_23;
+  signed int tmp_post_24;
+  signed int tmp_post_25;
+  signed int tmp_post_26;
+  signed int tmp_post_27;
+  signed int tmp_post_28;
+  signed int tmp_post_29;
+  signed int tmp_post_30;
+  signed int tmp_post_31;
+  signed int tmp_post_32;
+  signed int tmp_post_33;
+  signed int tmp_post_34;
+  signed int tmp_post_35;
+  signed int tmp_post_36;
   do
   {
     werase(main_window);
     yy = 2;
-    tmp_post$1 = yy;
+    tmp_post_1 = yy;
     yy = yy + 1;
-    const char *return_value_nwipe_method_label$2;
-    return_value_nwipe_method_label$2=nwipe_method_label((void *)nwipe_zero);
-    mvwprintw(main_window, tmp_post$1, tab1, "  %s", return_value_nwipe_method_label$2);
-    tmp_post$3 = yy;
+    const char *return_value_nwipe_method_label_2;
+    return_value_nwipe_method_label_2=nwipe_method_label((void *)nwipe_zero);
+    mvwprintw(main_window, tmp_post_1, tab1, "  %s", return_value_nwipe_method_label_2);
+    tmp_post_3 = yy;
     yy = yy + 1;
-    const char *return_value_nwipe_method_label$4;
-    return_value_nwipe_method_label$4=nwipe_method_label((void *)nwipe_ops2);
-    mvwprintw(main_window, tmp_post$3, tab1, "  %s", return_value_nwipe_method_label$4);
-    tmp_post$5 = yy;
+    const char *return_value_nwipe_method_label_4;
+    return_value_nwipe_method_label_4=nwipe_method_label((void *)nwipe_ops2);
+    mvwprintw(main_window, tmp_post_3, tab1, "  %s", return_value_nwipe_method_label_4);
+    tmp_post_5 = yy;
     yy = yy + 1;
-    const char *return_value_nwipe_method_label$6;
-    return_value_nwipe_method_label$6=nwipe_method_label((void *)nwipe_dodshort);
-    mvwprintw(main_window, tmp_post$5, tab1, "  %s", return_value_nwipe_method_label$6);
-    tmp_post$7 = yy;
+    const char *return_value_nwipe_method_label_6;
+    return_value_nwipe_method_label_6=nwipe_method_label((void *)nwipe_dodshort);
+    mvwprintw(main_window, tmp_post_5, tab1, "  %s", return_value_nwipe_method_label_6);
+    tmp_post_7 = yy;
     yy = yy + 1;
-    const char *return_value_nwipe_method_label$8;
-    return_value_nwipe_method_label$8=nwipe_method_label((void *)nwipe_dod522022m);
-    mvwprintw(main_window, tmp_post$7, tab1, "  %s", return_value_nwipe_method_label$8);
-    tmp_post$9 = yy;
+    const char *return_value_nwipe_method_label_8;
+    return_value_nwipe_method_label_8=nwipe_method_label((void *)nwipe_dod522022m);
+    mvwprintw(main_window, tmp_post_7, tab1, "  %s", return_value_nwipe_method_label_8);
+    tmp_post_9 = yy;
     yy = yy + 1;
-    const char *return_value_nwipe_method_label$10;
-    return_value_nwipe_method_label$10=nwipe_method_label((void *)nwipe_gutmann);
-    mvwprintw(main_window, tmp_post$9, tab1, "  %s", return_value_nwipe_method_label$10);
-    tmp_post$11 = yy;
+    const char *return_value_nwipe_method_label_10;
+    return_value_nwipe_method_label_10=nwipe_method_label((void *)nwipe_gutmann);
+    mvwprintw(main_window, tmp_post_9, tab1, "  %s", return_value_nwipe_method_label_10);
+    tmp_post_11 = yy;
     yy = yy + 1;
-    const char *return_value_nwipe_method_label$12;
-    return_value_nwipe_method_label$12=nwipe_method_label((void *)nwipe_random);
-    mvwprintw(main_window, tmp_post$11, tab1, "  %s", return_value_nwipe_method_label$12);
-    tmp_post$13 = yy;
+    const char *return_value_nwipe_method_label_12;
+    return_value_nwipe_method_label_12=nwipe_method_label((void *)nwipe_random);
+    mvwprintw(main_window, tmp_post_11, tab1, "  %s", return_value_nwipe_method_label_12);
+    tmp_post_13 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$13, tab1, "                                             ");
-    signed int return_value_wmove$14;
-    return_value_wmove$14=wmove(main_window, 2 + focus, tab1);
-    if(return_value_wmove$14 == -1)
+    mvwprintw(main_window, tmp_post_13, tab1, "                                             ");
+    signed int return_value_wmove_14;
+    return_value_wmove_14=wmove(main_window, 2 + focus, tab1);
+    if(return_value_wmove_14 == -1)
       -1;
 
     else
@@ -2444,102 +2444,102 @@ void nwipe_gui_method(void)
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg: nuke=\"nwipe --method zero\"");
         mvwprintw(main_window, 3, tab2, "Security Level: Low (1 pass)");
-        tmp_post$15 = yy;
+        tmp_post_15 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$15, tab1, "This method fills the device with zeros. Note that the rounds option does    ");
-        tmp_post$16 = yy;
+        mvwprintw(main_window, tmp_post_15, tab1, "This method fills the device with zeros. Note that the rounds option does    ");
+        tmp_post_16 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$16, tab1, "not apply to this method. This method always runs one round.                 ");
-        tmp_post$17 = yy;
+        mvwprintw(main_window, tmp_post_16, tab1, "not apply to this method. This method always runs one round.                 ");
+        tmp_post_17 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$17, tab1, "                                                                             ");
-        tmp_post$18 = yy;
+        mvwprintw(main_window, tmp_post_17, tab1, "                                                                             ");
+        tmp_post_18 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$18, tab1, "Use this method to blank disks before internal redeployment, or before       ");
-        tmp_post$19 = yy;
+        mvwprintw(main_window, tmp_post_18, tab1, "Use this method to blank disks before internal redeployment, or before       ");
+        tmp_post_19 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$19, tab1, "reinstalling Microsoft Windows to remove the data areas that the format      ");
-        tmp_post$20 = yy;
+        mvwprintw(main_window, tmp_post_19, tab1, "reinstalling Microsoft Windows to remove the data areas that the format      ");
+        tmp_post_20 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$20, tab1, "utility preserves.                                                    ");
+        mvwprintw(main_window, tmp_post_20, tab1, "utility preserves.                                                    ");
         break;
       }
       case 1:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg: nuke=\"nwipe --method ops2\"");
         mvwprintw(main_window, 3, tab2, "Security Level: Medium (8 passes)");
-        tmp_post$21 = yy;
+        tmp_post_21 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$21, tab1, "The Royal Canadian Mounted Police Technical Security Standard for            ");
-        tmp_post$22 = yy;
+        mvwprintw(main_window, tmp_post_21, tab1, "The Royal Canadian Mounted Police Technical Security Standard for            ");
+        tmp_post_22 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$22, tab1, "Information Technology, Appendix OPS-II: Media Sanitization.                 ");
-        tmp_post$23 = yy;
+        mvwprintw(main_window, tmp_post_22, tab1, "Information Technology, Appendix OPS-II: Media Sanitization.                 ");
+        tmp_post_23 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$23, tab1, "                                                                             ");
-        tmp_post$24 = yy;
+        mvwprintw(main_window, tmp_post_23, tab1, "                                                                             ");
+        tmp_post_24 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$24, tab1, "This implementation, with regards to paragraph 2 section A of the standard,  ");
-        tmp_post$25 = yy;
+        mvwprintw(main_window, tmp_post_24, tab1, "This implementation, with regards to paragraph 2 section A of the standard,  ");
+        tmp_post_25 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$25, tab1, "uses a pattern that is one random byte and that is changed each round.       ");
+        mvwprintw(main_window, tmp_post_25, tab1, "uses a pattern that is one random byte and that is changed each round.       ");
         break;
       }
       case 2:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg: nuke=\"nwipe --method dodshort\"");
         mvwprintw(main_window, 3, tab2, "Security Level: Medium (3 passes)");
-        tmp_post$26 = yy;
+        tmp_post_26 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$26, tab1, "The American Department of Defense 5220.22-M short wipe.                     ");
-        tmp_post$27 = yy;
+        mvwprintw(main_window, tmp_post_26, tab1, "The American Department of Defense 5220.22-M short wipe.                     ");
+        tmp_post_27 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$27, tab1, "This method is composed of passes 1,2,7 from the standard wipe.              ");
+        mvwprintw(main_window, tmp_post_27, tab1, "This method is composed of passes 1,2,7 from the standard wipe.              ");
         break;
       }
       case 3:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg: nuke=\"nwipe --method dod522022m\"");
         mvwprintw(main_window, 3, tab2, "Security Level: Medium (7 passes)");
-        tmp_post$28 = yy;
+        tmp_post_28 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$28, tab1, "The American Department of Defense 5220.22-M standard wipe.                  ");
-        tmp_post$29 = yy;
+        mvwprintw(main_window, tmp_post_28, tab1, "The American Department of Defense 5220.22-M standard wipe.                  ");
+        tmp_post_29 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$29, tab1, "This implementation uses the same algorithm as the Heidi Eraser product.     ");
+        mvwprintw(main_window, tmp_post_29, tab1, "This implementation uses the same algorithm as the Heidi Eraser product.     ");
         break;
       }
       case 4:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg: nuke=\"nwipe --method gutmann\"");
         mvwprintw(main_window, 3, tab2, "Security Level: High (35 passes)");
-        tmp_post$30 = yy;
+        tmp_post_30 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$30, tab1, "This is the method described by Peter Gutmann in the paper entitled          ");
-        tmp_post$31 = yy;
+        mvwprintw(main_window, tmp_post_30, tab1, "This is the method described by Peter Gutmann in the paper entitled          ");
+        tmp_post_31 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$31, tab1, "\"Secure Deletion of Data from Magnetic and Solid-State Memory\".            ");
+        mvwprintw(main_window, tmp_post_31, tab1, "\"Secure Deletion of Data from Magnetic and Solid-State Memory\".            ");
         break;
       }
       case 5:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg: nuke=\"nwipe --method random\"");
         mvwprintw(main_window, 3, tab2, "Security Level: Depends on Rounds");
-        tmp_post$32 = yy;
+        tmp_post_32 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$32, tab1, "This method fills the device with a stream from the PRNG. It is probably the ");
-        tmp_post$33 = yy;
+        mvwprintw(main_window, tmp_post_32, tab1, "This method fills the device with a stream from the PRNG. It is probably the ");
+        tmp_post_33 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$33, tab1, "best method to use on modern hard disk drives because encoding schemes vary. ");
-        tmp_post$34 = yy;
+        mvwprintw(main_window, tmp_post_33, tab1, "best method to use on modern hard disk drives because encoding schemes vary. ");
+        tmp_post_34 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$34, tab1, "                                                                             ");
-        tmp_post$35 = yy;
+        mvwprintw(main_window, tmp_post_34, tab1, "                                                                             ");
+        tmp_post_35 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$35, tab1, "This method has a medium security level with 4 rounds, and a high security   ");
-        tmp_post$36 = yy;
+        mvwprintw(main_window, tmp_post_35, tab1, "This method has a medium security level with 4 rounds, and a high security   ");
+        tmp_post_36 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$36, tab1, "level with 8 rounds.                                                         ");
+        mvwprintw(main_window, tmp_post_36, tab1, "level with 8 rounds.                                                         ");
       }
     }
     wborder(main_window, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0);
@@ -2629,29 +2629,29 @@ void nwipe_gui_noblank(void)
   werase(footer_window);
   nwipe_gui_title(footer_window, nwipe_buttons2);
   wrefresh(footer_window);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
   while(!(keystroke == -1))
   {
     werase(main_window);
     yy = 2;
-    tmp_post$1 = yy;
+    tmp_post_1 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$1, tab1, "  Perform a final blanking pass       ");
-    tmp_post$2 = yy;
+    mvwprintw(main_window, tmp_post_1, tab1, "  Perform a final blanking pass       ");
+    tmp_post_2 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$2, tab1, "  Do not perform final blanking pass  ");
-    tmp_post$3 = yy;
+    mvwprintw(main_window, tmp_post_2, tab1, "  Do not perform final blanking pass  ");
+    tmp_post_3 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$3, tab1, "                                      ");
-    signed int return_value_wmove$4;
-    return_value_wmove$4=wmove(main_window, 2 + focus, tab1);
-    if(return_value_wmove$4 == -1)
+    mvwprintw(main_window, tmp_post_3, tab1, "                                      ");
+    signed int return_value_wmove_4;
+    return_value_wmove_4=wmove(main_window, 2 + focus, tab1);
+    if(return_value_wmove_4 == -1)
       -1;
 
     else
@@ -2661,23 +2661,23 @@ void nwipe_gui_noblank(void)
       case 0:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg:  nuke=\"nwipe\"");
-        tmp_post$5 = yy;
+        tmp_post_5 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$5, tab1, "Perform a final blanking pass after the wipe, leaving disk with only zeros. ");
-        tmp_post$6 = yy;
+        mvwprintw(main_window, tmp_post_5, tab1, "Perform a final blanking pass after the wipe, leaving disk with only zeros. ");
+        tmp_post_6 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$6, tab1, "                                                                            ");
+        mvwprintw(main_window, tmp_post_6, tab1, "                                                                            ");
         break;
       }
       case 1:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg:  nuke=\"nwipe -b\"");
-        tmp_post$7 = yy;
+        tmp_post_7 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$7, tab1, "Do not perform a final blanking pass. Leave data as per final wiping pass.  ");
-        tmp_post$8 = yy;
+        mvwprintw(main_window, tmp_post_7, tab1, "Do not perform a final blanking pass. Leave data as per final wiping pass.  ");
+        tmp_post_8 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$8, tab1, "Any verification options will be ignored. Not compatible with Quick Erase.  ");
+        mvwprintw(main_window, tmp_post_8, tab1, "Any verification options will be ignored. Not compatible with Quick Erase.  ");
       }
     }
     wborder(main_window, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0);
@@ -2744,9 +2744,9 @@ void nwipe_gui_options(void)
   werase(options_window);
   mvwprintw(options_window, 1, 1, "Entropy: Linux Kernel (urandom)");
   mvwprintw(options_window, 2, 1, "PRNG:    %s", nwipe_options.prng->label);
-  const char *return_value_nwipe_method_label$1;
-  return_value_nwipe_method_label$1=nwipe_method_label(nwipe_options.method);
-  mvwprintw(options_window, 3, 1, "Method:  %s", return_value_nwipe_method_label$1);
+  const char *return_value_nwipe_method_label_1;
+  return_value_nwipe_method_label_1=nwipe_method_label(nwipe_options.method);
+  mvwprintw(options_window, 3, 1, "Method:  %s", return_value_nwipe_method_label_1);
   mvwprintw(options_window, 4, 1, "Verify:  ");
   switch((signed int)nwipe_options.verify)
   {
@@ -2798,43 +2798,43 @@ void nwipe_gui_prng(void)
   if(nwipe_options.prng == &nwipe_isaac)
     focus = 1;
 
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
-  signed int tmp_post$12;
-  signed int tmp_post$13;
-  signed int tmp_post$14;
-  signed int tmp_post$15;
-  signed int tmp_post$16;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
+  signed int tmp_post_12;
+  signed int tmp_post_13;
+  signed int tmp_post_14;
+  signed int tmp_post_15;
+  signed int tmp_post_16;
   while(!(keystroke == -1))
   {
     werase(main_window);
     yy = 2;
-    tmp_post$1 = yy;
+    tmp_post_1 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$1, tab1, "");
-    tmp_post$2 = yy;
+    mvwprintw(main_window, tmp_post_1, tab1, "");
+    tmp_post_2 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$2, tab1, "");
-    tmp_post$3 = yy;
+    mvwprintw(main_window, tmp_post_2, tab1, "");
+    tmp_post_3 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$3, tab1, "  %s", nwipe_twister.label);
-    tmp_post$4 = yy;
+    mvwprintw(main_window, tmp_post_3, tab1, "  %s", nwipe_twister.label);
+    tmp_post_4 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$4, tab1, "  %s", nwipe_isaac.label);
-    tmp_post$5 = yy;
+    mvwprintw(main_window, tmp_post_4, tab1, "  %s", nwipe_isaac.label);
+    tmp_post_5 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$5, tab1, "");
-    signed int return_value_wmove$6;
-    return_value_wmove$6=wmove(main_window, 4 + focus, tab1);
-    if(return_value_wmove$6 == -1)
+    mvwprintw(main_window, tmp_post_5, tab1, "");
+    signed int return_value_wmove_6;
+    return_value_wmove_6=wmove(main_window, 4 + focus, tab1);
+    if(return_value_wmove_6 == -1)
       -1;
 
     else
@@ -2844,41 +2844,41 @@ void nwipe_gui_prng(void)
       case 0:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg:  nuke=\"nwipe --prng twister\"");
-        tmp_post$7 = yy;
+        tmp_post_7 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$7, tab1, "The Mersenne Twister, by Makoto Matsumoto and Takuji Nishimura, is a        ");
-        tmp_post$8 = yy;
+        mvwprintw(main_window, tmp_post_7, tab1, "The Mersenne Twister, by Makoto Matsumoto and Takuji Nishimura, is a        ");
+        tmp_post_8 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$8, tab1, "generalized feedback shift register PRNG that is uniform and                ");
-        tmp_post$9 = yy;
+        mvwprintw(main_window, tmp_post_8, tab1, "generalized feedback shift register PRNG that is uniform and                ");
+        tmp_post_9 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$9, tab1, "equidistributed in 623-dimensions with a proven period of 2^19937-1.        ");
-        tmp_post$10 = yy;
+        mvwprintw(main_window, tmp_post_9, tab1, "equidistributed in 623-dimensions with a proven period of 2^19937-1.        ");
+        tmp_post_10 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$10, tab1, "                                                                            ");
-        tmp_post$11 = yy;
+        mvwprintw(main_window, tmp_post_10, tab1, "                                                                            ");
+        tmp_post_11 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$11, tab1, "This implementation passes the Marsaglia Diehard test suite.                ");
-        tmp_post$12 = yy;
+        mvwprintw(main_window, tmp_post_11, tab1, "This implementation passes the Marsaglia Diehard test suite.                ");
+        tmp_post_12 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$12, tab1, "                                                                            ");
+        mvwprintw(main_window, tmp_post_12, tab1, "                                                                            ");
         break;
       }
       case 1:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg:  nuke=\"nwipe --prng isaac\"");
-        tmp_post$13 = yy;
+        tmp_post_13 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$13, tab1, "ISAAC, by Bob Jenkins, is a PRNG derived from RC4 with a minimum period of  ");
-        tmp_post$14 = yy;
+        mvwprintw(main_window, tmp_post_13, tab1, "ISAAC, by Bob Jenkins, is a PRNG derived from RC4 with a minimum period of  ");
+        tmp_post_14 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$14, tab1, "2^40 and an expected period of 2^8295.  It is difficult to recover the      ");
-        tmp_post$15 = yy;
+        mvwprintw(main_window, tmp_post_14, tab1, "2^40 and an expected period of 2^8295.  It is difficult to recover the      ");
+        tmp_post_15 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$15, tab1, "initial PRNG state by cryptanalysis of the ISAAC stream.                    ");
-        tmp_post$16 = yy;
+        mvwprintw(main_window, tmp_post_15, tab1, "initial PRNG state by cryptanalysis of the ISAAC stream.                    ");
+        tmp_post_16 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$16, tab1, "                                                                            ");
+        mvwprintw(main_window, tmp_post_16, tab1, "                                                                            ");
       }
     }
     wborder(main_window, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0);
@@ -2948,35 +2948,35 @@ void nwipe_gui_rounds(void)
   signed int keystroke;
   werase(footer_window);
   wrefresh(footer_window);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   do
   {
     werase(main_window);
     wborder(main_window, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0);
     nwipe_gui_title(main_window, " Rounds ");
     yy = 4;
-    tmp_post$1 = yy;
+    tmp_post_1 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$1, tab1, "This is the number of times to run the wipe method on each device.");
-    tmp_post$2 = yy;
+    mvwprintw(main_window, tmp_post_1, tab1, "This is the number of times to run the wipe method on each device.");
+    tmp_post_2 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$2, tab1, "");
+    mvwprintw(main_window, tmp_post_2, tab1, "");
     if(focus >= 1)
     {
-      tmp_post$3 = yy;
+      tmp_post_3 = yy;
       yy = yy + 1;
-      mvwprintw(main_window, tmp_post$3, tab1, "syslinux.cfg:  nuke=\"nwipe --rounds %i\"", focus);
+      mvwprintw(main_window, tmp_post_3, tab1, "syslinux.cfg:  nuke=\"nwipe --rounds %i\"", focus);
       mvwprintw(main_window, 2, tab1, "> %i", focus);
     }
 
     else
     {
-      tmp_post$4 = yy;
+      tmp_post_4 = yy;
       yy = yy + 1;
-      mvwprintw(main_window, tmp_post$4, tab1, "The number of rounds must be a non-negative integer.");
+      mvwprintw(main_window, tmp_post_4, tab1, "The number of rounds must be a non-negative integer.");
       mvwprintw(main_window, 2, tab1, "> ");
     }
     curs_set(1);
@@ -3046,23 +3046,23 @@ void nwipe_gui_select(signed int count, struct nwipe_context_t_ **c)
   signed int i;
   signed int keystroke;
   signed int yy;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(main_window == ((struct _win_st *)NULL)))
-    tmp_if_expr$1 = (signed int)main_window->_maxy + 1;
+    tmp_if_expr_1 = (signed int)main_window->_maxy + 1;
 
   else
-    tmp_if_expr$1 = -1;
-  wlines = tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = -1;
+  wlines = tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(!(main_window == ((struct _win_st *)NULL)))
-    tmp_if_expr$2 = (signed int)main_window->_maxx + 1;
+    tmp_if_expr_2 = (signed int)main_window->_maxx + 1;
 
   else
-    tmp_if_expr$2 = -1;
-  wcols = tmp_if_expr$2;
+    tmp_if_expr_2 = -1;
+  wcols = tmp_if_expr_2;
   slots = wlines - 4;
-  signed int tmp_post$3;
-  _Bool tmp_if_expr$4;
+  signed int tmp_post_3;
+  _Bool tmp_if_expr_4;
   do
   {
     werase(main_window);
@@ -3074,17 +3074,17 @@ void nwipe_gui_select(signed int count, struct nwipe_context_t_ **c)
     i = 0;
     for( ; !(i >= slots) && !(i >= count); i = i + 1)
     {
-      tmp_post$3 = yy;
+      tmp_post_3 = yy;
       yy = yy + 1;
-      mvwprintw(main_window, tmp_post$3, 1, " ");
+      mvwprintw(main_window, tmp_post_3, 1, " ");
       if(i + offset == focus)
       {
         if((signed int)c[(signed long int)focus]->select == NWIPE_SELECT_TRUE)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)c[(signed long int)focus]->select == NWIPE_SELECT_FALSE ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)c[(signed long int)focus]->select == NWIPE_SELECT_FALSE ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
           waddch(main_window, acs_map[(signed long int)(unsigned char)43]);
 
         else
@@ -3394,7 +3394,7 @@ void nwipe_gui_select(signed int count, struct nwipe_context_t_ **c)
 // file gui.h line 30
 void * nwipe_gui_status(void *ptr)
 {
-  struct anonymous$7 *nwipe_thread_data_ptr = (struct anonymous$7 *)ptr;
+  struct anonymous_7 *nwipe_thread_data_ptr = (struct anonymous_7 *)ptr;
   struct nwipe_context_t_ **c;
   struct anonymous *nwipe_misc_thread_data;
   signed int count;
@@ -3424,35 +3424,35 @@ void * nwipe_gui_status(void *ptr)
   static signed long int nwipe_time_start = (signed long int)0;
   if(nwipe_time_start == 0l)
   {
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    nwipe_time_start = return_value_time$1 - (signed long int)1;
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    nwipe_time_start = return_value_time_1 - (signed long int)1;
   }
 
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(main_window == ((struct _win_st *)NULL)))
-    tmp_if_expr$2 = (signed int)main_window->_maxy + 1;
+    tmp_if_expr_2 = (signed int)main_window->_maxy + 1;
 
   else
-    tmp_if_expr$2 = -1;
-  wlines = tmp_if_expr$2;
-  signed int tmp_if_expr$3;
+    tmp_if_expr_2 = -1;
+  wlines = tmp_if_expr_2;
+  signed int tmp_if_expr_3;
   if(!(main_window == ((struct _win_st *)NULL)))
-    tmp_if_expr$3 = (signed int)main_window->_maxx + 1;
+    tmp_if_expr_3 = (signed int)main_window->_maxx + 1;
 
   else
-    tmp_if_expr$3 = -1;
-  wcols = tmp_if_expr$3;
+    tmp_if_expr_3 = -1;
+  wcols = tmp_if_expr_3;
   slots = wlines - 4;
   slots = slots / 3;
   nwipe_gui_title(footer_window, nwipe_buttons3);
   wrefresh(footer_window);
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
   while(!(nwipe_active == 0))
   {
     nwipe_time_now=time((signed long int *)(void *)0);
@@ -3531,49 +3531,49 @@ void * nwipe_gui_status(void *ptr)
       i = offset;
       while(!(i >= offset + slots) && !(i >= count))
       {
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen((const char *)c[(signed long int)i]->identity.serial_no);
-        if(!(return_value_strlen$6 == 0ul))
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen((const char *)c[(signed long int)i]->identity.serial_no);
+        if(!(return_value_strlen_6 == 0ul))
         {
-          tmp_post$4 = yy;
+          tmp_post_4 = yy;
           yy = yy + 1;
-          mvwprintw(main_window, tmp_post$4, 2, "%s - %s (%s)", c[(signed long int)i]->device_name, c[(signed long int)i]->label, (const void *)c[(signed long int)i]->identity.serial_no);
+          mvwprintw(main_window, tmp_post_4, 2, "%s - %s (%s)", c[(signed long int)i]->device_name, c[(signed long int)i]->label, (const void *)c[(signed long int)i]->identity.serial_no);
         }
 
         else
         {
-          tmp_post$5 = yy;
+          tmp_post_5 = yy;
           yy = yy + 1;
-          mvwprintw(main_window, tmp_post$5, 2, "%s - %s", c[(signed long int)i]->device_name, c[(signed long int)i]->label);
+          mvwprintw(main_window, tmp_post_5, 2, "%s - %s", c[(signed long int)i]->device_name, c[(signed long int)i]->label);
         }
         if(c[(signed long int)i]->thread >= 1ul)
         {
-          tmp_post$7 = yy;
+          tmp_post_7 = yy;
           yy = yy + 1;
-          mvwprintw(main_window, tmp_post$7, 4, "[%05.2f%%, round %i of %i, pass %i of %i] ", c[(signed long int)i]->round_percent, c[(signed long int)i]->round_working, c[(signed long int)i]->round_count, c[(signed long int)i]->pass_working, c[(signed long int)i]->pass_count);
+          mvwprintw(main_window, tmp_post_7, 4, "[%05.2f%%, round %i of %i, pass %i of %i] ", c[(signed long int)i]->round_percent, c[(signed long int)i]->round_working, c[(signed long int)i]->round_count, c[(signed long int)i]->pass_working, c[(signed long int)i]->pass_count);
         }
 
         else
           if(c[(signed long int)i]->result == 0)
           {
-            tmp_post$8 = yy;
+            tmp_post_8 = yy;
             yy = yy + 1;
-            mvwprintw(main_window, tmp_post$8, 4, "(success) ");
+            mvwprintw(main_window, tmp_post_8, 4, "(success) ");
           }
 
           else
             if(!(c[(signed long int)i]->signal == 0))
             {
-              tmp_post$9 = yy;
+              tmp_post_9 = yy;
               yy = yy + 1;
-              mvwprintw(main_window, tmp_post$9, 4, "(failure, signal %i) ", c[(signed long int)i]->signal);
+              mvwprintw(main_window, tmp_post_9, 4, "(failure, signal %i) ", c[(signed long int)i]->signal);
             }
 
             else
             {
-              tmp_post$10 = yy;
+              tmp_post_10 = yy;
               yy = yy + 1;
-              mvwprintw(main_window, tmp_post$10, 4, "(failure, code %i) ", c[(signed long int)i]->result);
+              mvwprintw(main_window, tmp_post_10, 4, "(failure, code %i) ", c[(signed long int)i]->result);
             }
         if(!(c[(signed long int)i]->verify_errors == 0ull))
           wprintw(main_window, "[verify errors: %llu] ", c[(signed long int)i]->verify_errors);
@@ -3707,9 +3707,9 @@ void * nwipe_gui_status(void *ptr)
       mvwprintw(stats_window, 5, 1, "Errors:");
       mvwprintw(stats_window, 5, 16, "%llu", nwipe_misc_thread_data->errors);
       wborder(stats_window, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0);
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(stats_title);
-      mvwprintw(stats_window, 0, (signed int)(((unsigned long int)36 - return_value_strlen$11) / (unsigned long int)2), "%s", stats_title);
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(stats_title);
+      mvwprintw(stats_window, 0, (signed int)(((unsigned long int)36 - return_value_strlen_11) / (unsigned long int)2), "%s", stats_title);
       wrefresh(stats_window);
     }
 
@@ -3736,9 +3736,9 @@ void * nwipe_gui_status(void *ptr)
 
   else
   {
-    const signed long int nwipe_maxeta$array_size0 = (signed long int)COLS;
-    char finish_message[nwipe_maxeta$array_size0];
-    snprintf(finish_message, (unsigned long int)nwipe_maxeta$array_size0, "Wipe finished - press enter to exit. Logged to %s", (const void *)nwipe_options.logfile);
+    const signed long int nwipe_maxeta_array_size0 = (signed long int)COLS;
+    char finish_message[nwipe_maxeta_array_size0];
+    snprintf(finish_message, (unsigned long int)nwipe_maxeta_array_size0, "Wipe finished - press enter to exit. Logged to %s", (const void *)nwipe_options.logfile);
     nwipe_gui_title(footer_window, finish_message);
   }
   wrefresh(footer_window);
@@ -3752,24 +3752,24 @@ void nwipe_gui_title(struct _win_st *w, const char *s)
 {
   signed int wy;
   signed int wx;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(w == ((struct _win_st *)NULL)))
-    tmp_if_expr$1 = (signed int)w->_maxy + 1;
+    tmp_if_expr_1 = (signed int)w->_maxy + 1;
 
   else
-    tmp_if_expr$1 = -1;
-  wy = tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = -1;
+  wy = tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(!(w == ((struct _win_st *)NULL)))
-    tmp_if_expr$2 = (signed int)w->_maxx + 1;
+    tmp_if_expr_2 = (signed int)w->_maxx + 1;
 
   else
-    tmp_if_expr$2 = -1;
-  wx = tmp_if_expr$2;
+    tmp_if_expr_2 = -1;
+  wx = tmp_if_expr_2;
   signed int margin;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(s);
-  margin = (signed int)((unsigned long int)wx - return_value_strlen$3);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(s);
+  margin = (signed int)((unsigned long int)wx - return_value_strlen_3);
   if(!(margin >= 0))
     margin = 0;
 
@@ -3789,38 +3789,38 @@ void nwipe_gui_verify(void)
   werase(footer_window);
   nwipe_gui_title(footer_window, nwipe_buttons2);
   wrefresh(footer_window);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
-  signed int tmp_post$12;
-  signed int tmp_post$13;
-  signed int tmp_post$14;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
+  signed int tmp_post_12;
+  signed int tmp_post_13;
+  signed int tmp_post_14;
   while(!(keystroke == -1))
   {
     werase(main_window);
     yy = 2;
-    tmp_post$1 = yy;
+    tmp_post_1 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$1, tab1, "  Verification Off  ");
-    tmp_post$2 = yy;
+    mvwprintw(main_window, tmp_post_1, tab1, "  Verification Off  ");
+    tmp_post_2 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$2, tab1, "  Verify Last Pass  ");
-    tmp_post$3 = yy;
+    mvwprintw(main_window, tmp_post_2, tab1, "  Verify Last Pass  ");
+    tmp_post_3 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$3, tab1, "  Verify All Passes ");
-    tmp_post$4 = yy;
+    mvwprintw(main_window, tmp_post_3, tab1, "  Verify All Passes ");
+    tmp_post_4 = yy;
     yy = yy + 1;
-    mvwprintw(main_window, tmp_post$4, tab1, "                    ");
-    signed int return_value_wmove$5;
-    return_value_wmove$5=wmove(main_window, 2 + focus, tab1);
-    if(return_value_wmove$5 == -1)
+    mvwprintw(main_window, tmp_post_4, tab1, "                    ");
+    signed int return_value_wmove_5;
+    return_value_wmove_5=wmove(main_window, 2 + focus, tab1);
+    if(return_value_wmove_5 == -1)
       -1;
 
     else
@@ -3830,43 +3830,43 @@ void nwipe_gui_verify(void)
       case 0:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg:  nuke=\"nwipe --verify off\"");
-        tmp_post$6 = yy;
+        tmp_post_6 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$6, tab1, "Do not verify passes. The wipe will be a write-only operation.              ");
-        tmp_post$7 = yy;
+        mvwprintw(main_window, tmp_post_6, tab1, "Do not verify passes. The wipe will be a write-only operation.              ");
+        tmp_post_7 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$7, tab1, "                                                                            ");
+        mvwprintw(main_window, tmp_post_7, tab1, "                                                                            ");
         break;
       }
       case 1:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg:  nuke=\"nwipe --verify last\"");
-        tmp_post$8 = yy;
+        tmp_post_8 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$8, tab1, "Check whether the device is actually empty after the last pass fills the    ");
-        tmp_post$9 = yy;
+        mvwprintw(main_window, tmp_post_8, tab1, "Check whether the device is actually empty after the last pass fills the    ");
+        tmp_post_9 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$9, tab1, "device with zeros.                                                          ");
+        mvwprintw(main_window, tmp_post_9, tab1, "device with zeros.                                                          ");
         break;
       }
       case 2:
       {
         mvwprintw(main_window, 2, tab2, "syslinux.cfg:  nuke=\"nwipe --verify all\"");
-        tmp_post$10 = yy;
+        tmp_post_10 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$10, tab1, "After every pass, read back the pattern and check whether it is correct.    ");
-        tmp_post$11 = yy;
+        mvwprintw(main_window, tmp_post_10, tab1, "After every pass, read back the pattern and check whether it is correct.    ");
+        tmp_post_11 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$11, tab1, "                                                                            ");
-        tmp_post$12 = yy;
+        mvwprintw(main_window, tmp_post_11, tab1, "                                                                            ");
+        tmp_post_12 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$12, tab1, "This program writes the entire length of the device before it reads back    ");
-        tmp_post$13 = yy;
+        mvwprintw(main_window, tmp_post_12, tab1, "This program writes the entire length of the device before it reads back    ");
+        tmp_post_13 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$13, tab1, "for verification, even for random pattern passes, to better ensure that     ");
-        tmp_post$14 = yy;
+        mvwprintw(main_window, tmp_post_13, tab1, "for verification, even for random pattern passes, to better ensure that     ");
+        tmp_post_14 = yy;
         yy = yy + 1;
-        mvwprintw(main_window, tmp_post$14, tab1, "hardware caches are actually flushed.                                       ");
+        mvwprintw(main_window, tmp_post_14, tab1, "hardware caches are actually flushed.                                       ");
       }
     }
     wborder(main_window, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0, (unsigned long int)0);
@@ -3935,18 +3935,18 @@ void * nwipe_gutmann(void *ptr)
   signed int i = 35;
   signed int j;
   signed int n;
-  struct anonymous$1 book[36l] = { { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=3, .s="UUU" }, { .length=3, .s="ªªª" }, { .length=3, .s="’I$" }, { .length=3, .s="I$’" }, { .length=3, .s="$’I" }, { .length=3, .s="\0\0\0" }, { .length=3, .s="\021\021\021" }, { .length=3, .s="\"\"\"" }, { .length=3, .s="333" }, { .length=3, .s="DDD" }, { .length=3, .s="UUU" }, { .length=3, .s="fff" }, { .length=3, .s="www" }, { .length=3, .s="ˆˆˆ" }, { .length=3, .s="™™™" }, { .length=3, .s="ªªª" }, { .length=3, .s="»»»" }, { .length=3, .s="ÌÌÌ" }, { .length=3, .s="ÝÝÝ" }, { .length=3, .s="îîî" }, { .length=3, .s="ÿÿÿ" }, { .length=3, .s="’I$" }, { .length=3, .s="I$’" }, { .length=3, .s="$’I" }, { .length=3, .s="m¶Û" }, { .length=3, .s="¶Ûm" }, { .length=3, .s="Ûm¶" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=0, .s=(char *)(void *)0 } };
-  struct anonymous$1 patterns[36l];
-  const signed long int patterns$array_size0 = (signed long int)i;
-  unsigned short int s[patterns$array_size0];
-  signed long int return_value_read$1;
-  return_value_read$1=read(c->entropy_fd, (void *)&s, 2ul * (unsigned long int)patterns$array_size0);
-  r = (signed int)return_value_read$1;
-  if(!((unsigned long int)r == 2ul * (unsigned long int)patterns$array_size0))
+  struct anonymous_1 book[36l] = { { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=3, .s="UUU" }, { .length=3, .s="ªªª" }, { .length=3, .s="’I_" }, { .length=3, .s="I_’" }, { .length=3, .s="_’I" }, { .length=3, .s="\0\0\0" }, { .length=3, .s="\021\021\021" }, { .length=3, .s="\"\"\"" }, { .length=3, .s="333" }, { .length=3, .s="DDD" }, { .length=3, .s="UUU" }, { .length=3, .s="fff" }, { .length=3, .s="www" }, { .length=3, .s="ˆˆˆ" }, { .length=3, .s="™™™" }, { .length=3, .s="ªªª" }, { .length=3, .s="»»»" }, { .length=3, .s="ÌÌÌ" }, { .length=3, .s="ÝÝÝ" }, { .length=3, .s="îîî" }, { .length=3, .s="ÿÿÿ" }, { .length=3, .s="’I_" }, { .length=3, .s="I_’" }, { .length=3, .s="_’I" }, { .length=3, .s="m¶Û" }, { .length=3, .s="¶Ûm" }, { .length=3, .s="Ûm¶" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=-1, .s="" }, { .length=0, .s=(char *)(void *)0 } };
+  struct anonymous_1 patterns[36l];
+  const signed long int patterns_array_size0 = (signed long int)i;
+  unsigned short int s[patterns_array_size0];
+  signed long int return_value_read_1;
+  return_value_read_1=read(c->entropy_fd, (void *)&s, 2ul * (unsigned long int)patterns_array_size0);
+  r = (signed int)return_value_read_1;
+  if(!((unsigned long int)r == 2ul * (unsigned long int)patterns_array_size0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    r = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    r = *return_value___errno_location_2;
     nwipe_perror(r, "nwipe_gutmann", "read");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to seed the %s method.", nwipe_gutmann_label);
     if(!(r >= 0))
@@ -3962,7 +3962,7 @@ void * nwipe_gutmann(void *ptr)
     }
   }
 
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   do
   {
     i = i - 1;
@@ -3973,9 +3973,9 @@ void * nwipe_gutmann(void *ptr)
     j = -1;
     do
     {
-      tmp_post$3 = n;
+      tmp_post_3 = n;
       n = n - 1;
-      if(!(tmp_post$3 >= 0))
+      if(!(tmp_post_3 >= 0))
         break;
 
       j = j + 1;
@@ -3997,7 +3997,7 @@ void * nwipe_gutmann(void *ptr)
 
 // nwipe_isaac_init
 // file prng.c line 79
-signed int nwipe_isaac_init(void **state, struct anonymous$3 *seed)
+signed int nwipe_isaac_init(void **state, struct anonymous_3 *seed)
 {
   signed int count;
   struct randctx *isaac_state = (struct randctx *)*state;
@@ -4007,9 +4007,9 @@ signed int nwipe_isaac_init(void **state, struct anonymous$3 *seed)
     isaac_state = (struct randctx *)*state;
     if(isaac_state == ((struct randctx *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      nwipe_perror(*return_value___errno_location$1, "nwipe_isaac_init", "malloc");
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      nwipe_perror(*return_value___errno_location_1, "nwipe_isaac_init", "malloc");
       nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the isaac state.");
       return -1;
     }
@@ -4054,80 +4054,80 @@ void nwipe_log(enum nwipe_log_t_ level, const char *format, ...)
   if(log_current_element == log_elements_allocated)
   {
     log_elements_allocated = log_elements_allocated + 1;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)log_lines, (unsigned long int)log_elements_allocated * sizeof(char *) /*8ul*/ );
-    log_lines = (char **)return_value_realloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)MAX_LOG_LINE_CHARS * sizeof(char) /*1ul*/ );
-    log_lines[(signed long int)log_current_element] = (char *)return_value_malloc$2;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)log_lines, (unsigned long int)log_elements_allocated * sizeof(char *) /*8ul*/ );
+    log_lines = (char **)return_value_realloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)MAX_LOG_LINE_CHARS * sizeof(char) /*1ul*/ );
+    log_lines[(signed long int)log_current_element] = (char *)return_value_malloc_2;
   }
 
   signed int line_current_pos = 0;
   line_current_pos=snprintf(log_lines[(signed long int)log_current_element], (unsigned long int)MAX_LOG_LINE_CHARS, "[%i/%02i/%02i %02i:%02i:%02i] nwipe: ", 1900 + p->tm_year, 1 + p->tm_mon, p->tm_mday, p->tm_hour, p->tm_min, p->tm_sec);
-  signed int return_value_snprintf$3;
-  signed int return_value_snprintf$4;
-  signed int return_value_snprintf$5;
-  signed int return_value_snprintf$6;
-  signed int return_value_snprintf$7;
-  signed int return_value_snprintf$8;
-  signed int return_value_snprintf$9;
+  signed int return_value_snprintf_3;
+  signed int return_value_snprintf_4;
+  signed int return_value_snprintf_5;
+  signed int return_value_snprintf_6;
+  signed int return_value_snprintf_7;
+  signed int return_value_snprintf_8;
+  signed int return_value_snprintf_9;
   switch((signed int)level)
   {
     case NWIPE_LOG_NONE:
       break;
     case NWIPE_LOG_DEBUG:
     {
-      return_value_snprintf$3=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "debug: ");
-      line_current_pos = line_current_pos + return_value_snprintf$3;
+      return_value_snprintf_3=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "debug: ");
+      line_current_pos = line_current_pos + return_value_snprintf_3;
       break;
     }
     case NWIPE_LOG_INFO:
     {
-      return_value_snprintf$4=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "info: ");
-      line_current_pos = line_current_pos + return_value_snprintf$4;
+      return_value_snprintf_4=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "info: ");
+      line_current_pos = line_current_pos + return_value_snprintf_4;
       break;
     }
     case NWIPE_LOG_NOTICE:
     {
-      return_value_snprintf$5=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "notice: ");
-      line_current_pos = line_current_pos + return_value_snprintf$5;
+      return_value_snprintf_5=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "notice: ");
+      line_current_pos = line_current_pos + return_value_snprintf_5;
       break;
     }
     case NWIPE_LOG_WARNING:
     {
-      return_value_snprintf$6=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "warning: ");
-      line_current_pos = line_current_pos + return_value_snprintf$6;
+      return_value_snprintf_6=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "warning: ");
+      line_current_pos = line_current_pos + return_value_snprintf_6;
       break;
     }
     case NWIPE_LOG_ERROR:
     {
-      return_value_snprintf$7=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "error: ");
-      line_current_pos = line_current_pos + return_value_snprintf$7;
+      return_value_snprintf_7=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "error: ");
+      line_current_pos = line_current_pos + return_value_snprintf_7;
       break;
     }
     case NWIPE_LOG_FATAL:
     {
-      return_value_snprintf$8=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "fatal: ");
-      line_current_pos = line_current_pos + return_value_snprintf$8;
+      return_value_snprintf_8=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "fatal: ");
+      line_current_pos = line_current_pos + return_value_snprintf_8;
       break;
     }
     case NWIPE_LOG_SANITY:
     {
-      return_value_snprintf$9=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "sanity: ");
-      line_current_pos = line_current_pos + return_value_snprintf$9;
+      return_value_snprintf_9=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "sanity: ");
+      line_current_pos = line_current_pos + return_value_snprintf_9;
       break;
     }
     default:
     {
-      signed int return_value_snprintf$10;
-      return_value_snprintf$10=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "level %i: ", level);
-      line_current_pos = line_current_pos + return_value_snprintf$10;
+      signed int return_value_snprintf_10;
+      return_value_snprintf_10=snprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, "level %i: ", level);
+      line_current_pos = line_current_pos + return_value_snprintf_10;
     }
   }
   void **ap = (void **)&format;
-  signed int return_value_vsnprintf$11;
-  return_value_vsnprintf$11=vsnprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, format, ap);
-  line_current_pos = line_current_pos + return_value_vsnprintf$11;
+  signed int return_value_vsnprintf_11;
+  return_value_vsnprintf_11=vsnprintf(log_lines[(signed long int)log_current_element] + (signed long int)line_current_pos, (unsigned long int)MAX_LOG_LINE_CHARS, format, ap);
+  line_current_pos = line_current_pos + return_value_vsnprintf_11;
   ap = ((void **)NULL);
   signed int r;
   struct _IO_FILE *fp;
@@ -4222,57 +4222,57 @@ void * nwipe_ops2(void *ptr)
   char *s;
   char *t;
   unsigned long int u;
-  struct anonymous$1 *patterns;
+  struct anonymous_1 *patterns;
   unsigned long int q;
   u = (unsigned long int)(1 * nwipe_options.rounds);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * u);
-  s = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * u);
+  s = (char *)return_value_malloc_1;
   if(s == ((char *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    nwipe_perror(*return_value___errno_location$2, "nwipe_ops2", "malloc");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    nwipe_perror(*return_value___errno_location_2, "nwipe_ops2", "malloc");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate the random character array.");
     c->result = -1;
     return (void *)0;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(char) /*1ul*/  * u);
-  t = (char *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(char) /*1ul*/  * u);
+  t = (char *)return_value_malloc_3;
   if(s == ((char *)NULL))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    nwipe_perror(*return_value___errno_location$4, "nwipe_ops2", "malloc");
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    nwipe_perror(*return_value___errno_location_4, "nwipe_ops2", "malloc");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate the complement character array.");
     c->result = -1;
     return (void *)0;
   }
 
   q = (unsigned long int)8 * u + (unsigned long int)1;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(struct anonymous$1) /*16ul*/  * q);
-  patterns = (struct anonymous$1 *)return_value_malloc$5;
-  if(patterns == ((struct anonymous$1 *)NULL))
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(struct anonymous_1) /*16ul*/  * q);
+  patterns = (struct anonymous_1 *)return_value_malloc_5;
+  if(patterns == ((struct anonymous_1 *)NULL))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    nwipe_perror(*return_value___errno_location$6, "nwipe_ops2", "malloc");
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    nwipe_perror(*return_value___errno_location_6, "nwipe_ops2", "malloc");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate the pattern array.");
     c->result = -1;
     return (void *)0;
   }
 
-  signed long int return_value_read$7;
-  return_value_read$7=read(c->entropy_fd, (void *)s, u);
-  r = (signed int)return_value_read$7;
+  signed long int return_value_read_7;
+  return_value_read_7=read(c->entropy_fd, (void *)s, u);
+  r = (signed int)return_value_read_7;
   if(!((unsigned long int)r == u))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    r = *return_value___errno_location$8;
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    r = *return_value___errno_location_8;
     nwipe_perror(r, "nwipe_ops2", "read");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to seed the %s method.", nwipe_ops2_label);
     if(!(r >= 0))
@@ -4342,9 +4342,9 @@ void nwipe_options_log(void)
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "  do not show GUI interface");
 
   nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "  banner   = %s", nwipe_options.banner);
-  const char *return_value_nwipe_method_label$1;
-  return_value_nwipe_method_label$1=nwipe_method_label(nwipe_options.method);
-  nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "  method   = %s", return_value_nwipe_method_label$1);
+  const char *return_value_nwipe_method_label_1;
+  return_value_nwipe_method_label_1=nwipe_method_label(nwipe_options.method);
+  nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "  method   = %s", return_value_nwipe_method_label_1);
   nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "  rounds   = %i", nwipe_options.rounds);
   nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "  sync     = %i", nwipe_options.sync);
   switch((signed int)nwipe_options.verify)
@@ -4377,19 +4377,19 @@ signed int nwipe_options_parse(signed int argc, char **argv)
   signed int nwipe_opt;
   signed int i;
   char nwipe_options_short[12l] = { 'V', 'h', 'l', ':', 'h', 'm', ':', 'p', ':', 'r', ':', 0 };
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)nwipe_banner_size);
-  nwipe_options.banner = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)nwipe_banner_size);
+  nwipe_options.banner = (char *)return_value_malloc_1;
   strncpy(nwipe_options.banner, program_name, (unsigned long int)nwipe_banner_size);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(nwipe_options.banner);
-  strncat(nwipe_options.banner, " ", ((unsigned long int)nwipe_banner_size - return_value_strlen$2) - (unsigned long int)1);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(nwipe_options.banner);
-  strncat(nwipe_options.banner, version_string, ((unsigned long int)nwipe_banner_size - return_value_strlen$3) - (unsigned long int)1);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(nwipe_options.banner);
-  strncat(nwipe_options.banner, " (based on DBAN's dwipe - Darik's Wipe)", ((unsigned long int)nwipe_banner_size - return_value_strlen$4) - (unsigned long int)1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(nwipe_options.banner);
+  strncat(nwipe_options.banner, " ", ((unsigned long int)nwipe_banner_size - return_value_strlen_2) - (unsigned long int)1);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(nwipe_options.banner);
+  strncat(nwipe_options.banner, version_string, ((unsigned long int)nwipe_banner_size - return_value_strlen_3) - (unsigned long int)1);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(nwipe_options.banner);
+  strncat(nwipe_options.banner, " (based on DBAN's dwipe - Darik's Wipe)", ((unsigned long int)nwipe_banner_size - return_value_strlen_4) - (unsigned long int)1);
   nwipe_options.autonuke = 0;
   nwipe_options.method = (void *)nwipe_dodshort;
   nwipe_options.prng = &nwipe_twister;
@@ -4400,40 +4400,40 @@ signed int nwipe_options_parse(signed int argc, char **argv)
   nwipe_options.sync = 0;
   nwipe_options.verify = (enum nwipe_verify_t_)NWIPE_VERIFY_LAST;
   memset((void *)nwipe_options.logfile, 0, sizeof(char [4096l]) /*4096ul*/ );
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$19;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strcmp$14;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$20;
-  _Bool tmp_if_expr$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$23;
-  _Bool tmp_if_expr$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$26;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$28;
-  _Bool tmp_if_expr$30;
-  signed int return_value_strcmp$29;
-  _Bool tmp_if_expr$32;
-  signed int return_value_strcmp$31;
-  signed int return_value_strcmp$33;
-  _Bool tmp_if_expr$35;
-  signed int return_value_strcmp$34;
-  unsigned long int return_value_strlen$36;
-  signed int return_value_strcmp$37;
-  _Bool tmp_if_expr$39;
-  signed int return_value_strcmp$38;
-  signed int return_value_strcmp$40;
-  signed int return_value_sscanf$41;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_19;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strcmp_14;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_20;
+  _Bool tmp_if_expr_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_23;
+  _Bool tmp_if_expr_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_26;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_28;
+  _Bool tmp_if_expr_30;
+  signed int return_value_strcmp_29;
+  _Bool tmp_if_expr_32;
+  signed int return_value_strcmp_31;
+  signed int return_value_strcmp_33;
+  _Bool tmp_if_expr_35;
+  signed int return_value_strcmp_34;
+  unsigned long int return_value_strlen_36;
+  signed int return_value_strcmp_37;
+  _Bool tmp_if_expr_39;
+  signed int return_value_strcmp_38;
+  signed int return_value_strcmp_40;
+  signed int return_value_sscanf_41;
   while((_Bool)1)
   {
     static struct option nwipe_options_long[13l] = { { .name="autonuke", .has_arg=0, .flag=((signed int *)NULL), .val=0 },
@@ -4458,88 +4458,88 @@ signed int nwipe_options_parse(signed int argc, char **argv)
     {
       case 0:
       {
-        return_value_strcmp$5=strcmp(nwipe_options_long[(signed long int)i].name, "autonuke");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(nwipe_options_long[(signed long int)i].name, "autonuke");
+        if(return_value_strcmp_5 == 0)
         {
           nwipe_options.autonuke = 1;
           break;
         }
 
-        return_value_strcmp$6=strcmp(nwipe_options_long[(signed long int)i].name, "noblank");
-        if(return_value_strcmp$6 == 0)
+        return_value_strcmp_6=strcmp(nwipe_options_long[(signed long int)i].name, "noblank");
+        if(return_value_strcmp_6 == 0)
         {
           nwipe_options.noblank = 1;
           break;
         }
 
-        return_value_strcmp$7=strcmp(nwipe_options_long[(signed long int)i].name, "nowait");
-        if(return_value_strcmp$7 == 0)
+        return_value_strcmp_7=strcmp(nwipe_options_long[(signed long int)i].name, "nowait");
+        if(return_value_strcmp_7 == 0)
         {
           nwipe_options.nowait = 1;
           break;
         }
 
-        return_value_strcmp$8=strcmp(nwipe_options_long[(signed long int)i].name, "nogui");
-        if(return_value_strcmp$8 == 0)
+        return_value_strcmp_8=strcmp(nwipe_options_long[(signed long int)i].name, "nogui");
+        if(return_value_strcmp_8 == 0)
         {
           nwipe_options.nogui = 1;
           nwipe_options.nowait = 1;
           break;
         }
 
-        return_value_strcmp$9=strcmp(nwipe_options_long[(signed long int)i].name, "sync");
-        if(return_value_strcmp$9 == 0)
+        return_value_strcmp_9=strcmp(nwipe_options_long[(signed long int)i].name, "sync");
+        if(return_value_strcmp_9 == 0)
         {
           nwipe_options.sync = 1;
           break;
         }
 
-        return_value_strcmp$19=strcmp(nwipe_options_long[(signed long int)i].name, "verify");
-        if(return_value_strcmp$19 == 0)
+        return_value_strcmp_19=strcmp(nwipe_options_long[(signed long int)i].name, "verify");
+        if(return_value_strcmp_19 == 0)
         {
-          signed int return_value_strcmp$10;
-          return_value_strcmp$10=strcmp(optarg, "0");
-          if(return_value_strcmp$10 == 0)
-            tmp_if_expr$12 = (_Bool)1;
+          signed int return_value_strcmp_10;
+          return_value_strcmp_10=strcmp(optarg, "0");
+          if(return_value_strcmp_10 == 0)
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$11=strcmp(optarg, "off");
-            tmp_if_expr$12 = return_value_strcmp$11 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_11=strcmp(optarg, "off");
+            tmp_if_expr_12 = return_value_strcmp_11 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$12)
+          if(tmp_if_expr_12)
           {
             nwipe_options.verify = (enum nwipe_verify_t_)NWIPE_VERIFY_NONE;
             break;
           }
 
-          signed int return_value_strcmp$13;
-          return_value_strcmp$13=strcmp(optarg, "1");
-          if(return_value_strcmp$13 == 0)
-            tmp_if_expr$15 = (_Bool)1;
+          signed int return_value_strcmp_13;
+          return_value_strcmp_13=strcmp(optarg, "1");
+          if(return_value_strcmp_13 == 0)
+            tmp_if_expr_15 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$14=strcmp(optarg, "last");
-            tmp_if_expr$15 = return_value_strcmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_14=strcmp(optarg, "last");
+            tmp_if_expr_15 = return_value_strcmp_14 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$15)
+          if(tmp_if_expr_15)
           {
             nwipe_options.verify = (enum nwipe_verify_t_)NWIPE_VERIFY_LAST;
             break;
           }
 
-          signed int return_value_strcmp$16;
-          return_value_strcmp$16=strcmp(optarg, "2");
-          if(return_value_strcmp$16 == 0)
-            tmp_if_expr$18 = (_Bool)1;
+          signed int return_value_strcmp_16;
+          return_value_strcmp_16=strcmp(optarg, "2");
+          if(return_value_strcmp_16 == 0)
+            tmp_if_expr_18 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$17=strcmp(optarg, "all");
-            tmp_if_expr$18 = return_value_strcmp$17 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_17=strcmp(optarg, "all");
+            tmp_if_expr_18 = return_value_strcmp_17 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$18)
+          if(tmp_if_expr_18)
           {
             nwipe_options.verify = (enum nwipe_verify_t_)NWIPE_VERIFY_ALL;
             break;
@@ -4552,83 +4552,83 @@ signed int nwipe_options_parse(signed int argc, char **argv)
       }
       case 109:
       {
-        return_value_strcmp$20=strcmp(optarg, "dod522022m");
-        if(return_value_strcmp$20 == 0)
-          tmp_if_expr$22 = (_Bool)1;
+        return_value_strcmp_20=strcmp(optarg, "dod522022m");
+        if(return_value_strcmp_20 == 0)
+          tmp_if_expr_22 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$21=strcmp(optarg, "dod");
-          tmp_if_expr$22 = return_value_strcmp$21 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_21=strcmp(optarg, "dod");
+          tmp_if_expr_22 = return_value_strcmp_21 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$22)
+        if(tmp_if_expr_22)
         {
           nwipe_options.method = (void *)nwipe_dod522022m;
           break;
         }
 
-        return_value_strcmp$23=strcmp(optarg, "dodshort");
-        if(return_value_strcmp$23 == 0)
-          tmp_if_expr$25 = (_Bool)1;
+        return_value_strcmp_23=strcmp(optarg, "dodshort");
+        if(return_value_strcmp_23 == 0)
+          tmp_if_expr_25 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$24=strcmp(optarg, "dod3pass");
-          tmp_if_expr$25 = return_value_strcmp$24 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_24=strcmp(optarg, "dod3pass");
+          tmp_if_expr_25 = return_value_strcmp_24 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$25)
+        if(tmp_if_expr_25)
         {
           nwipe_options.method = (void *)nwipe_dodshort;
           break;
         }
 
-        return_value_strcmp$26=strcmp(optarg, "gutmann");
-        if(return_value_strcmp$26 == 0)
+        return_value_strcmp_26=strcmp(optarg, "gutmann");
+        if(return_value_strcmp_26 == 0)
         {
           nwipe_options.method = (void *)nwipe_gutmann;
           break;
         }
 
-        return_value_strcmp$27=strcmp(optarg, "ops2");
-        if(return_value_strcmp$27 == 0)
+        return_value_strcmp_27=strcmp(optarg, "ops2");
+        if(return_value_strcmp_27 == 0)
         {
           nwipe_options.method = (void *)nwipe_ops2;
           break;
         }
 
-        return_value_strcmp$28=strcmp(optarg, "random");
-        if(return_value_strcmp$28 == 0)
-          tmp_if_expr$30 = (_Bool)1;
+        return_value_strcmp_28=strcmp(optarg, "random");
+        if(return_value_strcmp_28 == 0)
+          tmp_if_expr_30 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$29=strcmp(optarg, "prng");
-          tmp_if_expr$30 = return_value_strcmp$29 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_29=strcmp(optarg, "prng");
+          tmp_if_expr_30 = return_value_strcmp_29 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$30)
-          tmp_if_expr$32 = (_Bool)1;
+        if(tmp_if_expr_30)
+          tmp_if_expr_32 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$31=strcmp(optarg, "stream");
-          tmp_if_expr$32 = return_value_strcmp$31 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_31=strcmp(optarg, "stream");
+          tmp_if_expr_32 = return_value_strcmp_31 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$32)
+        if(tmp_if_expr_32)
         {
           nwipe_options.method = (void *)nwipe_random;
           break;
         }
 
-        return_value_strcmp$33=strcmp(optarg, "zero");
-        if(return_value_strcmp$33 == 0)
-          tmp_if_expr$35 = (_Bool)1;
+        return_value_strcmp_33=strcmp(optarg, "zero");
+        if(return_value_strcmp_33 == 0)
+          tmp_if_expr_35 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$34=strcmp(optarg, "quick");
-          tmp_if_expr$35 = return_value_strcmp$34 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_34=strcmp(optarg, "quick");
+          tmp_if_expr_35 = return_value_strcmp_34 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$35)
+        if(tmp_if_expr_35)
         {
           nwipe_options.method = (void *)nwipe_zero;
           break;
@@ -4639,8 +4639,8 @@ signed int nwipe_options_parse(signed int argc, char **argv)
       }
       case 108:
       {
-        return_value_strlen$36=strlen(optarg);
-        nwipe_options.logfile[(signed long int)return_value_strlen$36] = (char)0;
+        return_value_strlen_36=strlen(optarg);
+        nwipe_options.logfile[(signed long int)return_value_strlen_36] = (char)0;
         strncpy(nwipe_options.logfile, optarg, sizeof(char [4096l]) /*4096ul*/ );
         break;
       }
@@ -4651,23 +4651,23 @@ signed int nwipe_options_parse(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_strcmp$37=strcmp(optarg, "mersenne");
-        if(return_value_strcmp$37 == 0)
-          tmp_if_expr$39 = (_Bool)1;
+        return_value_strcmp_37=strcmp(optarg, "mersenne");
+        if(return_value_strcmp_37 == 0)
+          tmp_if_expr_39 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$38=strcmp(optarg, "twister");
-          tmp_if_expr$39 = return_value_strcmp$38 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_38=strcmp(optarg, "twister");
+          tmp_if_expr_39 = return_value_strcmp_38 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$39)
+        if(tmp_if_expr_39)
         {
           nwipe_options.prng = &nwipe_twister;
           break;
         }
 
-        return_value_strcmp$40=strcmp(optarg, "isaac");
-        if(return_value_strcmp$40 == 0)
+        return_value_strcmp_40=strcmp(optarg, "isaac");
+        if(return_value_strcmp_40 == 0)
         {
           nwipe_options.prng = &nwipe_isaac;
           break;
@@ -4678,8 +4678,8 @@ signed int nwipe_options_parse(signed int argc, char **argv)
       }
       case 114:
       {
-        return_value_sscanf$41=sscanf(optarg, " %i", &nwipe_options.rounds);
-        if(!(return_value_sscanf$41 == 1) || !(nwipe_options.rounds >= 1))
+        return_value_sscanf_41=sscanf(optarg, " %i", &nwipe_options.rounds);
+        if(!(return_value_sscanf_41 == 1) || !(nwipe_options.rounds >= 1))
         {
           fprintf(stderr, "Error: The rounds argument must be a postive integer.\n");
           exit(22);
@@ -4706,9 +4706,9 @@ signed int nwipe_options_parse(signed int argc, char **argv)
 // file logging.h line 38
 void nwipe_perror(signed int nwipe_errno, const char *f, const char *s)
 {
-  char *return_value_strerror$1;
-  return_value_strerror$1=strerror(nwipe_errno);
-  nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "%s: %s: %s", f, s, return_value_strerror$1);
+  char *return_value_strerror_1;
+  return_value_strerror_1=strerror(nwipe_errno);
+  nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "%s: %s: %s", f, s, return_value_strerror_1);
 }
 
 // nwipe_random
@@ -4716,7 +4716,7 @@ void nwipe_perror(signed int nwipe_errno, const char *f, const char *s)
 void * nwipe_random(void *ptr)
 {
   struct nwipe_context_t_ *c = (struct nwipe_context_t_ *)ptr;
-  struct anonymous$1 patterns[2l] = { { .length=-1, .s="" }, { .length=0, .s=(char *)(void *)0 } };
+  struct anonymous_1 patterns[2l] = { { .length=-1, .s="" }, { .length=0, .s=(char *)(void *)0 } };
   c->result=nwipe_runmethod(c, patterns);
   c->thread = (unsigned long int)0;
   return (void *)0;
@@ -4746,14 +4746,14 @@ signed int nwipe_random_pass(struct nwipe_context_t_ *c)
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)c->device_stat.st_blksize);
-      b = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)c->device_stat.st_blksize);
+      b = (char *)return_value_malloc_1;
       if(b == ((char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        nwipe_perror(*return_value___errno_location$2, "nwipe_random_pass", "malloc");
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        nwipe_perror(*return_value___errno_location_2, "nwipe_random_pass", "malloc");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the output buffer.");
         return -1;
       }
@@ -4763,9 +4763,9 @@ signed int nwipe_random_pass(struct nwipe_context_t_ *c)
       c->pass_done = (unsigned long long int)0;
       if(offset == -1l)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        nwipe_perror(*return_value___errno_location$3, "nwipe_random_pass", "lseek");
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        nwipe_perror(*return_value___errno_location_3, "nwipe_random_pass", "lseek");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to reset the '%s' file offset.", c->device_name);
         return -1;
       }
@@ -4789,14 +4789,14 @@ signed int nwipe_random_pass(struct nwipe_context_t_ *c)
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "%s: The size of '%s' is not a multiple of its block size %i.", (const void *)"nwipe_random_pass", c->device_name, c->device_stat.st_blksize);
           }
           c->prng->read(&c->prng_state, (void *)b, blocksize);
-          signed long int return_value_write$4;
-          return_value_write$4=write(c->device_fd, (const void *)b, blocksize);
-          r = (signed int)return_value_write$4;
+          signed long int return_value_write_4;
+          return_value_write_4=write(c->device_fd, (const void *)b, blocksize);
+          r = (signed int)return_value_write_4;
           if(!(r >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            nwipe_perror(*return_value___errno_location$5, "nwipe_random_pass", "write");
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            nwipe_perror(*return_value___errno_location_5, "nwipe_random_pass", "write");
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to read from '%s'.", c->device_name);
             return -1;
           }
@@ -4809,9 +4809,9 @@ signed int nwipe_random_pass(struct nwipe_context_t_ *c)
             offset=lseek(c->device_fd, (signed long int)s, 1);
             if(offset == -1l)
             {
-              signed int *return_value___errno_location$6;
-              return_value___errno_location$6=__errno_location();
-              nwipe_perror(*return_value___errno_location$6, "nwipe_random_pass", "lseek");
+              signed int *return_value___errno_location_6;
+              return_value___errno_location_6=__errno_location();
+              nwipe_perror(*return_value___errno_location_6, "nwipe_random_pass", "lseek");
               nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to bump the '%s' file offset after a partial write.", c->device_name);
               return -1;
             }
@@ -4830,9 +4830,9 @@ signed int nwipe_random_pass(struct nwipe_context_t_ *c)
         c->sync_status = (signed short int)0;
         if(!(r == 0))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          nwipe_perror(*return_value___errno_location$7, "nwipe_random_pass", "fdatasync");
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          nwipe_perror(*return_value___errno_location_7, "nwipe_random_pass", "fdatasync");
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "Buffer flush failure on '%s'.", c->device_name);
         }
 
@@ -4866,26 +4866,26 @@ signed int nwipe_random_verify(struct nwipe_context_t_ *c)
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)c->device_stat.st_blksize);
-      b = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)c->device_stat.st_blksize);
+      b = (char *)return_value_malloc_1;
       if(b == ((char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        nwipe_perror(*return_value___errno_location$2, "nwipe_random_verify", "malloc");
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        nwipe_perror(*return_value___errno_location_2, "nwipe_random_verify", "malloc");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the input buffer.");
         return -1;
       }
 
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)c->device_stat.st_blksize);
-      d = (char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)c->device_stat.st_blksize);
+      d = (char *)return_value_malloc_3;
       if(d == ((char *)NULL))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        nwipe_perror(*return_value___errno_location$4, "nwipe_random_verify", "malloc");
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        nwipe_perror(*return_value___errno_location_4, "nwipe_random_verify", "malloc");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the pattern buffer.");
         return -1;
       }
@@ -4894,9 +4894,9 @@ signed int nwipe_random_verify(struct nwipe_context_t_ *c)
       c->pass_done = (unsigned long long int)0;
       if(offset == -1l)
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        nwipe_perror(*return_value___errno_location$5, "nwipe_random_verify", "lseek");
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        nwipe_perror(*return_value___errno_location_5, "nwipe_random_verify", "lseek");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to reset the '%s' file offset.", c->device_name);
         return -1;
       }
@@ -4914,9 +4914,9 @@ signed int nwipe_random_verify(struct nwipe_context_t_ *c)
         c->sync_status = (signed short int)0;
         if(!(r == 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          nwipe_perror(*return_value___errno_location$6, "nwipe_random_verify", "fdatasync");
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          nwipe_perror(*return_value___errno_location_6, "nwipe_random_verify", "fdatasync");
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "Buffer flush failure on '%s'.", c->device_name);
         }
 
@@ -4932,14 +4932,14 @@ signed int nwipe_random_verify(struct nwipe_context_t_ *c)
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "%s: The size of '%s' is not a multiple of its block size %i.", (const void *)"nwipe_random_verify", c->device_name, c->device_stat.st_blksize);
           }
           c->prng->read(&c->prng_state, (void *)d, blocksize);
-          signed long int return_value_read$7;
-          return_value_read$7=read(c->device_fd, (void *)b, blocksize);
-          r = (signed int)return_value_read$7;
+          signed long int return_value_read_7;
+          return_value_read_7=read(c->device_fd, (void *)b, blocksize);
+          r = (signed int)return_value_read_7;
           if(!(r >= 0))
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            nwipe_perror(*return_value___errno_location$8, "nwipe_random_verify", "read");
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            nwipe_perror(*return_value___errno_location_8, "nwipe_random_verify", "read");
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to read from '%s'.", c->device_name);
             return -1;
           }
@@ -4952,18 +4952,18 @@ signed int nwipe_random_verify(struct nwipe_context_t_ *c)
             offset=lseek(c->device_fd, (signed long int)s, 1);
             if(offset == -1l)
             {
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              nwipe_perror(*return_value___errno_location$9, "nwipe_random_verify", "lseek");
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              nwipe_perror(*return_value___errno_location_9, "nwipe_random_verify", "lseek");
               nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to bump the '%s' file offset after a partial read.", c->device_name);
               return -1;
             }
 
           }
 
-          signed int return_value_memcmp$10;
-          return_value_memcmp$10=memcmp((const void *)b, (const void *)d, blocksize);
-          if(!(return_value_memcmp$10 == 0))
+          signed int return_value_memcmp_10;
+          return_value_memcmp_10=memcmp((const void *)b, (const void *)d, blocksize);
+          if(!(return_value_memcmp_10 == 0))
             c->verify_errors = c->verify_errors + (unsigned long long int)1;
 
           z = z - (unsigned long long int)r;
@@ -4981,20 +4981,20 @@ signed int nwipe_random_verify(struct nwipe_context_t_ *c)
 
 // nwipe_runmethod
 // file method.c line 547
-signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patterns)
+signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous_1 *patterns)
 {
   signed int r;
   signed int i = 0;
-  struct anonymous$1 pattern_zero = { .length=1, .s="\0" };
+  struct anonymous_1 pattern_zero = { .length=1, .s="\0" };
   c->prng_seed.length = (unsigned long int)512;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(c->prng_seed.length);
-  c->prng_seed.s = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(c->prng_seed.length);
+  c->prng_seed.s = (unsigned char *)return_value_malloc_1;
   if(c->prng_seed.s == ((unsigned char *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    nwipe_perror(*return_value___errno_location$2, "nwipe_runmethod", "malloc");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    nwipe_perror(*return_value___errno_location_2, "nwipe_runmethod", "malloc");
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the prng seed buffer.");
     return -1;
   }
@@ -5016,9 +5016,9 @@ signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patte
     c->round_size = c->round_size + (unsigned long long int)c->device_size;
 
   c->round_working = 0;
-  const char *return_value_nwipe_method_label$3;
-  return_value_nwipe_method_label$3=nwipe_method_label(nwipe_options.method);
-  nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "Invoking method '%s' on device '%s'.", return_value_nwipe_method_label$3, c->device_name);
+  const char *return_value_nwipe_method_label_3;
+  return_value_nwipe_method_label_3=nwipe_method_label(nwipe_options.method);
+  nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "Invoking method '%s' on device '%s'.", return_value_nwipe_method_label_3, c->device_name);
   while(!(c->round_working >= c->round_count))
   {
     c->round_working = c->round_working + 1;
@@ -5061,15 +5061,15 @@ signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patte
       else
       {
         c->pass_type = (enum nwipe_pass_t_)NWIPE_PASS_WRITE;
-        signed long int return_value_read$4;
-        return_value_read$4=read(c->entropy_fd, (void *)c->prng_seed.s, c->prng_seed.length);
-        r = (signed int)return_value_read$4;
+        signed long int return_value_read_4;
+        return_value_read_4=read(c->entropy_fd, (void *)c->prng_seed.s, c->prng_seed.length);
+        r = (signed int)return_value_read_4;
         if(!(r >= 0))
         {
           c->pass_type = (enum nwipe_pass_t_)NWIPE_PASS_NONE;
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          nwipe_perror(*return_value___errno_location$5, "nwipe_runmethod", "read");
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          nwipe_perror(*return_value___errno_location_5, "nwipe_runmethod", "read");
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to seed the PRNG.");
           return -1;
         }
@@ -5095,9 +5095,9 @@ signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patte
           if(!(r >= 0))
             return r;
 
-          const char *return_value_nwipe_method_label$6;
-          return_value_nwipe_method_label$6=nwipe_method_label(nwipe_options.method);
-          nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "Verified pass %i of %i, round %i of %i, on device '%s'.", c->pass_working, c->pass_count, c->round_working, c->round_count, return_value_nwipe_method_label$6);
+          const char *return_value_nwipe_method_label_6;
+          return_value_nwipe_method_label_6=nwipe_method_label(nwipe_options.method);
+          nwipe_log((enum nwipe_log_t_)NWIPE_LOG_NOTICE, "Verified pass %i of %i, round %i of %i, on device '%s'.", c->pass_working, c->pass_count, c->round_working, c->round_count, return_value_nwipe_method_label_6);
         }
 
       }
@@ -5108,14 +5108,14 @@ signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patte
   if((void * (*)(void *ptr))nwipe_options.method == nwipe_ops2)
   {
     c->pass_type = (enum nwipe_pass_t_)NWIPE_PASS_FINAL_OPS2;
-    signed long int return_value_read$7;
-    return_value_read$7=read(c->entropy_fd, (void *)c->prng_seed.s, c->prng_seed.length);
-    r = (signed int)return_value_read$7;
+    signed long int return_value_read_7;
+    return_value_read_7=read(c->entropy_fd, (void *)c->prng_seed.s, c->prng_seed.length);
+    r = (signed int)return_value_read_7;
     if(!(r >= 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      nwipe_perror(*return_value___errno_location$8, "nwipe_runmethod", "read");
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      nwipe_perror(*return_value___errno_location_8, "nwipe_runmethod", "read");
       nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to seed the PRNG.");
       return -1;
     }
@@ -5175,19 +5175,19 @@ signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patte
   if(c->pass_errors >= 1ul)
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "%llu wipe errors on device '%s'.", c->pass_errors, c->device_name);
 
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(c->pass_errors >= 1ul)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = c->round_errors > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_9 = c->round_errors > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = c->verify_errors > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$10)
+    tmp_if_expr_10 = c->verify_errors > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_10)
     return 1;
 
   else
@@ -5196,7 +5196,7 @@ signed int nwipe_runmethod(struct nwipe_context_t_ *c, struct anonymous$1 *patte
 
 // nwipe_static_pass
 // file pass.c line 576
-signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pattern)
+signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous_1 *pattern)
 {
   signed int r;
   unsigned long int blocksize;
@@ -5205,7 +5205,7 @@ signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pat
   char *p;
   signed int w = 0;
   unsigned long long int z = (unsigned long long int)c->device_size;
-  if(pattern == ((struct anonymous$1 *)NULL))
+  if(pattern == ((struct anonymous_1 *)NULL))
   {
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_SANITY, "__FUNCTION__: Null pattern pointer.");
     return -1;
@@ -5220,14 +5220,14 @@ signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pat
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(c->device_stat.st_blksize + (signed long int)(pattern->length * 2)));
-      b = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(c->device_stat.st_blksize + (signed long int)(pattern->length * 2)));
+      b = (char *)return_value_malloc_1;
       if(b == ((char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        nwipe_perror(*return_value___errno_location$2, "nwipe_static_pass", "malloc");
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        nwipe_perror(*return_value___errno_location_2, "nwipe_static_pass", "malloc");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the pattern buffer.");
         return -1;
       }
@@ -5239,9 +5239,9 @@ signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pat
       c->pass_done = (unsigned long long int)0;
       if(offset == -1l)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        nwipe_perror(*return_value___errno_location$3, "nwipe_static_pass", "lseek");
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        nwipe_perror(*return_value___errno_location_3, "nwipe_static_pass", "lseek");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to reset the '%s' file offset.", c->device_name);
         return -1;
       }
@@ -5264,14 +5264,14 @@ signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pat
             blocksize = z;
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "%s: The size of '%s' is not a multiple of its block size %i.", (const void *)"nwipe_static_pass", c->device_name, c->device_stat.st_blksize);
           }
-          signed long int return_value_write$4;
-          return_value_write$4=write(c->device_fd, (const void *)&b[(signed long int)w], blocksize);
-          r = (signed int)return_value_write$4;
+          signed long int return_value_write_4;
+          return_value_write_4=write(c->device_fd, (const void *)&b[(signed long int)w], blocksize);
+          r = (signed int)return_value_write_4;
           if(!(r >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            nwipe_perror(*return_value___errno_location$5, "nwipe_static_pass", "write");
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            nwipe_perror(*return_value___errno_location_5, "nwipe_static_pass", "write");
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to write to '%s'.", c->device_name);
             return -1;
           }
@@ -5284,9 +5284,9 @@ signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pat
             offset=lseek(c->device_fd, (signed long int)s, 1);
             if(offset == -1l)
             {
-              signed int *return_value___errno_location$6;
-              return_value___errno_location$6=__errno_location();
-              nwipe_perror(*return_value___errno_location$6, "nwipe_static_pass", "lseek");
+              signed int *return_value___errno_location_6;
+              return_value___errno_location_6=__errno_location();
+              nwipe_perror(*return_value___errno_location_6, "nwipe_static_pass", "lseek");
               nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to bump the '%s' file offset after a partial write.", c->device_name);
               return -1;
             }
@@ -5304,9 +5304,9 @@ signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pat
         c->sync_status = (signed short int)0;
         if(!(r == 0))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          nwipe_perror(*return_value___errno_location$7, "nwipe_static_pass", "fdatasync");
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          nwipe_perror(*return_value___errno_location_7, "nwipe_static_pass", "fdatasync");
           nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "Buffer flush failure on '%s'.", c->device_name);
         }
 
@@ -5318,7 +5318,7 @@ signed int nwipe_static_pass(struct nwipe_context_t_ *c, struct anonymous$1 *pat
 
 // nwipe_static_verify
 // file pass.c line 377
-signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *pattern)
+signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous_1 *pattern)
 {
   signed int r;
   unsigned long int blocksize;
@@ -5328,7 +5328,7 @@ signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *p
   char *q;
   signed int w = 0;
   unsigned long long int z = (unsigned long long int)c->device_size;
-  if(pattern == ((struct anonymous$1 *)NULL))
+  if(pattern == ((struct anonymous_1 *)NULL))
   {
     nwipe_log((enum nwipe_log_t_)NWIPE_LOG_SANITY, "nwipe_static_verify: Null entropy pointer.");
     return -1;
@@ -5343,26 +5343,26 @@ signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *p
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)c->device_stat.st_blksize);
-      b = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)c->device_stat.st_blksize);
+      b = (char *)return_value_malloc_1;
       if(b == ((char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        nwipe_perror(*return_value___errno_location$2, "nwipe_static_verify", "malloc");
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        nwipe_perror(*return_value___errno_location_2, "nwipe_static_verify", "malloc");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the input buffer.");
         return -1;
       }
 
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)(c->device_stat.st_blksize + (signed long int)(pattern->length * 2)));
-      d = (char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)(c->device_stat.st_blksize + (signed long int)(pattern->length * 2)));
+      d = (char *)return_value_malloc_3;
       if(d == ((char *)NULL))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        nwipe_perror(*return_value___errno_location$4, "nwipe_static_verify", "malloc");
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        nwipe_perror(*return_value___errno_location_4, "nwipe_static_verify", "malloc");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to allocate memory for the pattern buffer.");
         return -1;
       }
@@ -5375,9 +5375,9 @@ signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *p
       c->sync_status = (signed short int)0;
       if(!(r == 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        nwipe_perror(*return_value___errno_location$5, "nwipe_static_verify", "fdatasync");
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        nwipe_perror(*return_value___errno_location_5, "nwipe_static_verify", "fdatasync");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "Buffer flush failure on '%s'.", c->device_name);
       }
 
@@ -5385,9 +5385,9 @@ signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *p
       c->pass_done = (unsigned long long int)0;
       if(offset == -1l)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        nwipe_perror(*return_value___errno_location$6, "nwipe_static_verify", "lseek");
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        nwipe_perror(*return_value___errno_location_6, "nwipe_static_verify", "lseek");
         nwipe_log((enum nwipe_log_t_)NWIPE_LOG_FATAL, "Unable to reset the '%s' file offset.", c->device_name);
         return -1;
       }
@@ -5410,23 +5410,23 @@ signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *p
             blocksize = z;
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_WARNING, "%s: The size of '%s' is not a multiple of its block size %i.", (const void *)"nwipe_static_verify", c->device_name, c->device_stat.st_blksize);
           }
-          signed long int return_value_read$7;
-          return_value_read$7=read(c->device_fd, (void *)b, blocksize);
-          r = (signed int)return_value_read$7;
+          signed long int return_value_read_7;
+          return_value_read_7=read(c->device_fd, (void *)b, blocksize);
+          r = (signed int)return_value_read_7;
           if(!(r >= 0))
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            nwipe_perror(*return_value___errno_location$8, "nwipe_static_verify", "read");
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            nwipe_perror(*return_value___errno_location_8, "nwipe_static_verify", "read");
             nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to read from '%s'.", c->device_name);
             return -1;
           }
 
           if((unsigned long int)r == blocksize)
           {
-            signed int return_value_memcmp$9;
-            return_value_memcmp$9=memcmp((const void *)b, (const void *)&d[(signed long int)w], (unsigned long int)r);
-            if(!(return_value_memcmp$9 == 0))
+            signed int return_value_memcmp_9;
+            return_value_memcmp_9=memcmp((const void *)b, (const void *)&d[(signed long int)w], (unsigned long int)r);
+            if(!(return_value_memcmp_9 == 0))
               c->verify_errors = c->verify_errors + (unsigned long long int)1;
 
           }
@@ -5439,9 +5439,9 @@ signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *p
             offset=lseek(c->device_fd, (signed long int)s, 1);
             if(offset == -1l)
             {
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              nwipe_perror(*return_value___errno_location$10, "nwipe_static_verify", "lseek");
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              nwipe_perror(*return_value___errno_location_10, "nwipe_static_verify", "lseek");
               nwipe_log((enum nwipe_log_t_)NWIPE_LOG_ERROR, "Unable to bump the '%s' file offset after a partial read.", c->device_name);
               return -1;
             }
@@ -5462,7 +5462,7 @@ signed int nwipe_static_verify(struct nwipe_context_t_ *c, struct anonymous$1 *p
 
 // nwipe_twister_init
 // file prng.c line 44
-signed int nwipe_twister_init(void **state, struct anonymous$3 *seed)
+signed int nwipe_twister_init(void **state, struct anonymous_3 *seed)
 {
   if(*state == NULL)
     *state=malloc(sizeof(struct twister_state_t_) /*5008ul*/ );
@@ -5484,9 +5484,9 @@ signed int nwipe_twister_read(void **state, void *buffer, unsigned long int coun
   ii = (unsigned long int)1;
   for( ; remain >= ii; ii = ii + 1ul)
   {
-    unsigned long int return_value_twister_genrand_int32$1;
-    return_value_twister_genrand_int32$1=twister_genrand_int32((struct twister_state_t_ *)*state);
-    ((unsigned char *)buffer)[(signed long int)(count - ii)] = (unsigned char)return_value_twister_genrand_int32$1;
+    unsigned long int return_value_twister_genrand_int32_1;
+    return_value_twister_genrand_int32_1=twister_genrand_int32((struct twister_state_t_ *)*state);
+    ((unsigned char *)buffer)[(signed long int)(count - ii)] = (unsigned char)return_value_twister_genrand_int32_1;
   }
   return 0;
 }
@@ -5522,7 +5522,7 @@ void nwipe_update_speedring(struct nwipe_speedring_t_ *speedring, unsigned long 
 void * nwipe_zero(void *ptr)
 {
   struct nwipe_context_t_ *c = (struct nwipe_context_t_ *)ptr;
-  struct anonymous$1 patterns[1l] = { { .length=0, .s=(char *)(void *)0 } };
+  struct anonymous_1 patterns[1l] = { { .length=0, .s=(char *)(void *)0 } };
   c->result=nwipe_runmethod(c, patterns);
   c->thread = (unsigned long int)0;
   return (void *)0;
@@ -5724,7 +5724,7 @@ void randinit(struct randctx *ctx, signed int flag)
 void * signal_hand(void *ptr)
 {
   signed int sig;
-  struct anonymous$2 sigset;
+  struct anonymous_2 sigset;
   sigemptyset(&sigset);
   sigaddset(&sigset, 1);
   sigaddset(&sigset, 15);
@@ -5732,10 +5732,10 @@ void * signal_hand(void *ptr)
   sigaddset(&sigset, 2);
   sigaddset(&sigset, 10);
   signed int i;
-  struct anonymous$7 *nwipe_thread_data_ptr;
+  struct anonymous_7 *nwipe_thread_data_ptr;
   struct nwipe_context_t_ **c;
   struct anonymous *nwipe_misc_thread_data;
-  nwipe_thread_data_ptr = (struct anonymous$7 *)ptr;
+  nwipe_thread_data_ptr = (struct anonymous_7 *)ptr;
   c = nwipe_thread_data_ptr->c;
   nwipe_misc_thread_data = nwipe_thread_data_ptr->nwipe_misc_thread_data;
   while((_Bool)1)
@@ -5845,9 +5845,9 @@ unsigned long int twister_genrand_int32(struct twister_state_t_ *state)
   if(state->left == 0)
     next_state(state);
 
-  unsigned long int *tmp_post$1 = state->next;
+  unsigned long int *tmp_post_1 = state->next;
   state->next = state->next + 1l;
-  y = *tmp_post$1;
+  y = *tmp_post_1;
   y = y ^ y >> 11;
   y = y ^ y << 7 & 0x9d2c5680UL;
   y = y ^ y << 15 & 0xefc60000UL;

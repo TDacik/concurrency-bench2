@@ -1,114 +1,114 @@
-// #anon_enum$t_int=0$t_list=1$t_sep=2$t_func=3
+// #anon_enum_t_int=0_t_list=1_t_sep=2_t_func=3
 // file wavemon.h line 159
-enum anonymous$24 { t_int=0, t_list=1, t_sep=2, t_func=3 };
+enum anonymous_24 { t_int=0, t_list=1, t_sep=2, t_func=3 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'quot'||S32'rem'|]
 // file /usr/include/stdlib.h line 97
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[U16'encoding'||U16'parity'|]
 // file /usr/include/linux/hdlc/ioctl.h line 52
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]
 // file /usr/include/linux/hdlc/ioctl.h line 39
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]
 // file /usr/include/linux/hdlc/ioctl.h line 45
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[U32'dlci'|]
 // file /usr/include/linux/hdlc/ioctl.h line 67
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]
+// tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]
 // file /usr/include/linux/hdlc/ioctl.h line 71
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[U32'interval'||U32'timeout'|]
 // file /usr/include/linux/hdlc/ioctl.h line 76
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]
 // file /usr/include/linux/hdlc/ioctl.h line 57
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[U64'n'||S8'eol'||U56'$pad0'|]
+// tag-#anon#ST[U64'n'||S8'eol'||U56'_pad0'|]
 // file llist.c line 50
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#UN[*{S32}$S32$'i'||*{V(...)->V}$V(...)->V$'fp'|]
+// tag-#anon#UN[*{S32}_S32_'i'||*{V(...)->V}_V(...)->V_'fp'|]
 // file wavemon.h line 166
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}$SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#$'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}$SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#$'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}$SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#$'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}$SYM#tag-#anon#ST[U32'dlci'|]#$'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#}$SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#$'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#$'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#$'te1'|]
+// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}_SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#_'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}_SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#_'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}_SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#_'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}_SYM#tag-#anon#ST[U32'dlci'|]#_'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#}_SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#_'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#_'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#_'te1'|]
 // file /usr/include/linux/if.h line 182
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/linux/if.h line 205
 union anonymous;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{V}$V$'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{V}_V_'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
 // file /usr/include/linux/if.h line 210
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#cST[c*{cS8}$cS8$'key_name'||*{V()->V}$V()->V$'init'||*{S32(*{SYM#tag-_win_st#}$SYM#tag-_win_st#$)->S32}$S32(*{SYM#tag-_win_st#}$SYM#tag-_win_st#$)->S32$'loop'||*{V()->V}$V()->V$'fini'|]
+// tag-#anon#cST[c*{cS8}_cS8_'key_name'||*{V()->V}_V()->V_'init'||*{S32(*{SYM#tag-_win_st#}_SYM#tag-_win_st#_)->S32}_S32(*{SYM#tag-_win_st#}_SYM#tag-_win_st#_)->S32_'loop'||*{V()->V}_V()->V_'fini'|]
 // file wavemon.c line 33
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -442,9 +442,9 @@ static struct chain * arg2element(char type, void ***ap, struct chain *next);
 // argv_count
 // file wavemon.h line 319
 static inline unsigned long int argv_count(char **argv);
-// argv_count$link1
+// argv_count_link1
 // file wavemon.h line 319
-static inline unsigned long int argv_count$link1(char **argv$link1);
+static inline unsigned long int argv_count_link1(char **argv_link1);
 // argv_find
 // file wavemon.h line 329
 static inline signed int argv_find(char **argv, const char *what);
@@ -478,9 +478,9 @@ static void check_geometry(void);
 // clamp
 // file wavemon.h line 373
 static inline signed int clamp(signed int val, signed int min, signed int max);
-// clamp$link1
+// clamp_link1
 // file wavemon.h line 373
-static inline signed int clamp$link1(signed int val$link1, signed int min$link1, signed int max$link1);
+static inline signed int clamp_link1(signed int val_link1, signed int min_link1, signed int max_link1);
 // clear_scan_list
 // file iw_scan.c line 304
 static void clear_scan_list(struct scan_result *sr);
@@ -576,7 +576,7 @@ static void display_netinfo(struct _win_st *w_net);
 static void display_stats(void);
 // div
 // file /usr/include/stdlib.h line 788
-extern struct anonymous$12 div(signed int, signed int);
+extern struct anonymous_12 div(signed int, signed int);
 // do_scan
 // file iw_if.h line 296
 extern void * do_scan(void *sr_ptr);
@@ -844,9 +844,9 @@ extern void iw_nl80211_getreg(struct iw_nl80211_reg *ir);
 // iw_nl80211_have_survey_data
 // file iw_nl80211.h line 192
 static inline _Bool iw_nl80211_have_survey_data(struct iw_nl80211_linkstat *ls);
-// iw_nl80211_have_survey_data$link1
+// iw_nl80211_have_survey_data_link1
 // file iw_nl80211.h line 192
-static inline _Bool iw_nl80211_have_survey_data$link1(struct iw_nl80211_linkstat *ls$link1);
+static inline _Bool iw_nl80211_have_survey_data_link1(struct iw_nl80211_linkstat *ls_link1);
 // iw_nl80211_scan_trigger
 // file iw_scan.c line 253
 static signed int iw_nl80211_scan_trigger(void);
@@ -1053,31 +1053,31 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_detach(unsigned long int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$13 *);
+extern signed int pthread_mutex_destroy(union anonymous_13 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$13 *, const union anonymous$14 *);
+extern signed int pthread_mutex_init(union anonymous_13 *, const union anonymous_14 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$13 *);
+extern signed int pthread_mutex_lock(union anonymous_13 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$13 *);
+extern signed int pthread_mutex_trylock(union anonymous_13 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$13 *);
+extern signed int pthread_mutex_unlock(union anonymous_13 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$14 *);
+extern signed int pthread_mutexattr_init(union anonymous_14 *);
 // pthread_mutexattr_setrobust
 // file /usr/include/pthread.h line 874
-extern signed int pthread_mutexattr_setrobust(union anonymous$14 *, signed int);
+extern signed int pthread_mutexattr_setrobust(union anonymous_14 *, signed int);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$10 *, struct anonymous$10 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_10 *, struct anonymous_10 *);
 // qsort
 // file /usr/include/stdlib.h line 764
 extern void qsort(void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
@@ -1111,15 +1111,15 @@ extern void sampling_do_poll(void);
 // sampling_init
 // file info_scr.c line 29
 extern void sampling_init(void (*sampling_handler)(signed int));
-// sampling_init::sampling_handler$object
+// sampling_init::sampling_handler_object
 //
-void sampling_handler$object(signed int);
+void sampling_handler_object(signed int);
 // sampling_stop
 // file iw_if.h line 213
 static inline void sampling_stop(void);
-// sampling_stop$link1
+// sampling_stop_link1
 // file iw_if.h line 213
-static inline void sampling_stop$link1(void);
+static inline void sampling_stop_link1(void);
 // scan_dump_handler
 // file iw_scan.c line 143
 signed int scan_dump_handler(struct nl_msg *msg, void *arg);
@@ -1200,16 +1200,16 @@ static void sig_winch(signed int signo);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$10 *, signed int);
+extern signed int sigaddset(struct anonymous_10 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$10 *);
+extern signed int sigemptyset(struct anonymous_10 *);
 // siglongjmp
 // file /usr/include/setjmp.h line 102
 extern void siglongjmp(struct __jmp_buf_tag *, signed int);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$10 *, struct anonymous$10 *);
+extern signed int sigprocmask(signed int, const struct anonymous_10 *, struct anonymous_10 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1237,9 +1237,9 @@ extern void start_timer(struct timer *t, unsigned long int duration);
 // str_is_ascii
 // file wavemon.h line 347
 static inline _Bool str_is_ascii(char *s);
-// str_is_ascii$link1
+// str_is_ascii_link1
 // file wavemon.h line 347
-static inline _Bool str_is_ascii$link1(char *s$link1);
+static inline _Bool str_is_ascii_link1(char *s_link1);
 // str_tolower
 // file wavemon.h line 340
 static inline void str_tolower(char *s);
@@ -1327,12 +1327,12 @@ extern signed int waddnstr(struct _win_st *, const char *, signed int);
 // waddstr_b
 // file wavemon.h line 231
 static inline void waddstr_b(struct _win_st *win, const char *s);
-// waddstr_b$link1
+// waddstr_b_link1
 // file wavemon.h line 231
-static inline void waddstr_b$link1(struct _win_st *win$link1, const char *s$link1);
-// waddstr_b$link2
+static inline void waddstr_b_link1(struct _win_st *win_link1, const char *s_link1);
+// waddstr_b_link2
 // file wavemon.h line 231
-static inline void waddstr_b$link2(struct _win_st *win$link2, const char *s$link2);
+static inline void waddstr_b_link2(struct _win_st *win_link2, const char *s_link2);
 // waddstr_center
 // file wavemon.h line 236
 extern void waddstr_center(struct _win_st *win, signed int y, const char *s);
@@ -1390,23 +1390,23 @@ extern signed int wvline(struct _win_st *, unsigned long int, signed int);
 // xsignal
 // file wavemon.h line 310
 static inline void (*xsignal(signed int signo, void (*handler)(signed int)))(signed int);
-// xsignal$link1
+// xsignal_link1
 // file wavemon.h line 310
-static inline void (*xsignal$link1(signed int signo$link1, void (*handler$link1)(signed int)))(signed int);
-// xsignal$link2
+static inline void (*xsignal_link1(signed int signo_link1, void (*handler_link1)(signed int)))(signed int);
+// xsignal_link2
 // file wavemon.h line 310
-static inline void (*xsignal$link2(signed int signo$link2, void (*handler$link2)(signed int)))(signed int);
-// xsignal::handler$link1$object
+static inline void (*xsignal_link2(signed int signo_link2, void (*handler_link2)(signed int)))(signed int);
+// xsignal::handler_link1_object
 //
-void handler$link1$object(signed int);
-// xsignal::handler$link2$object
+void handler_link1_object(signed int);
+// xsignal::handler_link2_object
 //
-void handler$link2$object(signed int);
-// xsignal::handler$object
+void handler_link2_object(signed int);
+// xsignal::handler_object
 //
-void handler$object(signed int);
+void handler_object(signed int);
 
-struct anonymous$21
+struct anonymous_21
 {
   // _call_addr
   void *_call_addr;
@@ -1416,7 +1416,7 @@ struct anonymous$21
   unsigned int _arch;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_addr
   void *si_addr;
@@ -1424,13 +1424,13 @@ struct anonymous$19
   signed short int si_addr_lsb;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // quot
   signed int quot;
@@ -1438,7 +1438,7 @@ struct anonymous$12
   signed int rem;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_pid
   signed int si_pid;
@@ -1446,7 +1446,7 @@ struct anonymous$15
   unsigned int si_uid;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_pid
   signed int si_pid;
@@ -1468,7 +1468,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_pid
   signed int si_pid;
@@ -1478,7 +1478,7 @@ struct anonymous$17
   union sigval si_sigval;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_tid
   signed int si_tid;
@@ -1488,7 +1488,7 @@ struct anonymous$16
   union sigval si_sigval;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_band
   signed long int si_band;
@@ -1496,27 +1496,27 @@ struct anonymous$20
   signed int si_fd;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$15 _kill;
+  struct anonymous_15 _kill;
   // _timer
-  struct anonymous$16 _timer;
+  struct anonymous_16 _timer;
   // _rt
-  struct anonymous$17 _rt;
+  struct anonymous_17 _rt;
   // _sigchld
-  struct anonymous$18 _sigchld;
+  struct anonymous_18 _sigchld;
   // _sigfault
-  struct anonymous$19 _sigfault;
+  struct anonymous_19 _sigfault;
   // _sigpoll
-  struct anonymous$20 _sigpoll;
+  struct anonymous_20 _sigpoll;
   // _sigsys
-  struct anonymous$21 _sigsys;
+  struct anonymous_21 _sigsys;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // si_signo
   signed int si_signo;
@@ -1525,10 +1525,10 @@ struct anonymous$23
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$22 _sifields;
+  union anonymous_22 _sifields;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // encoding
   unsigned short int encoding;
@@ -1536,7 +1536,7 @@ struct anonymous$0
   unsigned short int parity;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1546,7 +1546,7 @@ struct anonymous$5
   unsigned short int loopback;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1558,13 +1558,13 @@ struct anonymous$6
   unsigned int slot_map;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // dlci
   unsigned int dlci;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // dlci
   unsigned int dlci;
@@ -1572,7 +1572,7 @@ struct anonymous$4
   char master[16l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // interval
   unsigned int interval;
@@ -1580,7 +1580,7 @@ struct anonymous$1
   unsigned int timeout;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // t391
   unsigned int t391;
@@ -1598,7 +1598,7 @@ struct anonymous$2
   unsigned short int dce;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // n
   unsigned long int n;
@@ -1606,7 +1606,7 @@ struct anonymous$26
   char eol;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // i
   signed int *i;
@@ -1614,30 +1614,30 @@ union anonymous$25
   void (*fp)();
 };
 
-union anonymous$7
+union anonymous_7
 {
   // raw_hdlc
-  struct anonymous$0 *raw_hdlc;
+  struct anonymous_0 *raw_hdlc;
   // cisco
-  struct anonymous$1 *cisco;
+  struct anonymous_1 *cisco;
   // fr
-  struct anonymous$2 *fr;
+  struct anonymous_2 *fr;
   // fr_pvc
-  struct anonymous$3 *fr_pvc;
+  struct anonymous_3 *fr_pvc;
   // fr_pvc_info
-  struct anonymous$4 *fr_pvc_info;
+  struct anonymous_4 *fr_pvc_info;
   // sync
-  struct anonymous$5 *sync;
+  struct anonymous_5 *sync;
   // te1
-  struct anonymous$6 *te1;
+  struct anonymous_6 *te1;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$23 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_23 *, void *);
 };
 
 union anonymous
@@ -1646,7 +1646,7 @@ union anonymous
   char ifrn_name[16l];
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __size
   char __size[4l];
@@ -1682,7 +1682,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1723,10 +1723,10 @@ struct if_settings
   // size
   unsigned int size;
   // ifs_ifsu
-  union anonymous$7 ifs_ifsu;
+  union anonymous_7 ifs_ifsu;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -1756,7 +1756,7 @@ union anonymous$8
   struct if_settings ifru_settings;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // key_name
   const char * const key_name;
@@ -1847,7 +1847,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$10 __saved_mask;
+  struct anonymous_10 __saved_mask;
 };
 
 struct pdat
@@ -1981,9 +1981,9 @@ struct conf_item
   // cfname
   char *cfname;
   // type
-  enum anonymous$24 type;
+  enum anonymous_24 type;
   // v
-  union anonymous$25 v;
+  union anonymous_25 v;
   // list
   char **list;
   // dep
@@ -2063,7 +2063,7 @@ struct ifreq
   // ifr_ifrn
   union anonymous ifr_ifrn;
   // ifr_ifru
-  union anonymous$8 ifr_ifru;
+  union anonymous_8 ifr_ifru;
 };
 
 struct timeval
@@ -2607,15 +2607,15 @@ struct scan_result
   // num
   struct assorted_numbers num;
   // mutex
-  union anonymous$13 mutex;
+  union anonymous_13 mutex;
 };
 
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$9 __sigaction_handler;
+  union anonymous_9 __sigaction_handler;
   // sa_mask
-  struct anonymous$10 sa_mask;
+  struct anonymous_10 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2797,7 +2797,7 @@ static signed int list_offset;
 static struct chain *lists[256l];
 // lp
 // file llist.c line 53
-static struct anonymous$26 lp[256l];
+static struct anonymous_26 lp[256l];
 // ls
 // file info_scr.c line 27
 static struct iw_nl80211_linkstat ls;
@@ -2830,10 +2830,10 @@ static struct nl_sock *scan_wait_sk;
 static char *screen_names[4l] = { "Info screen", "Histogram", "Scan window", (char *)(void *)0 };
 // screens
 // file wavemon.c line 38
-static struct anonymous$11 screens[10l];
+static struct anonymous_11 screens[10l];
 // screens
 // file wavemon.c line 38
-static struct anonymous$11 screens[10l] = { { .key_name="info", .init=scr_info_init, .loop=scr_info_loop,
+static struct anonymous_11 screens[10l] = { { .key_name="info", .init=scr_info_init, .loop=scr_info_loop,
     .fini=scr_info_fini },
     { .key_name="lhist", .init=scr_lhist_init, .loop=scr_lhist_loop,
     .fini=scr_lhist_fini },
@@ -2919,9 +2919,9 @@ extern struct nl_sock * alloc_nl_mcast_sk(const char *grp)
   if(sk == ((struct nl_sock *)NULL))
     err_sys("failed to allocate netlink multicast socket");
 
-  signed int return_value_genl_connect$1;
-  return_value_genl_connect$1=genl_connect(sk);
-  if(!(return_value_genl_connect$1 == 0))
+  signed int return_value_genl_connect_1;
+  return_value_genl_connect_1=genl_connect(sk);
+  if(!(return_value_genl_connect_1 == 0))
     err_sys("failed to connect multicast socket to GeNetlink");
 
   mcid=nl_get_multicast_id(sk, "nl80211", grp);
@@ -2940,36 +2940,36 @@ extern struct nl_sock * alloc_nl_mcast_sk(const char *grp)
 static struct chain * arg2element(char type, void ***ap, struct chain *next)
 {
   struct chain *l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct chain) /*24ul*/ );
-  l = (struct chain *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  void *return_value_malloc$3;
-  char *return_value_gcc_builtin_va_arg$4;
-  char *return_value_strdup$5;
-  void *return_value_malloc$6;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct chain) /*24ul*/ );
+  l = (struct chain *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  void *return_value_malloc_3;
+  char *return_value_gcc_builtin_va_arg_4;
+  char *return_value_strdup_5;
+  void *return_value_malloc_6;
   switch((signed int)type)
   {
     case 100:
     {
-      return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/ );
-      l->e = (void *)return_value_malloc$2;
+      return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/ );
+      l->e = (void *)return_value_malloc_2;
       *((signed int *)l->e)=va_arg(*ap, __typeof__(*((signed int *)l->e)));
       break;
     }
     case 115:
     {
-      return_value_malloc$3=malloc(sizeof(char *) /*8ul*/ );
-      l->e = (void *)return_value_malloc$3;
-      return_value_gcc_builtin_va_arg$4=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$4));
-      return_value_strdup$5=strdup(return_value_gcc_builtin_va_arg$4);
-      l->e = (void *)return_value_strdup$5;
+      return_value_malloc_3=malloc(sizeof(char *) /*8ul*/ );
+      l->e = (void *)return_value_malloc_3;
+      return_value_gcc_builtin_va_arg_4=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_4));
+      return_value_strdup_5=strdup(return_value_gcc_builtin_va_arg_4);
+      l->e = (void *)return_value_strdup_5;
       break;
     }
     case 102:
     {
-      return_value_malloc$6=malloc(sizeof(double) /*8ul*/ );
-      l->e = (void *)return_value_malloc$6;
+      return_value_malloc_6=malloc(sizeof(double) /*8ul*/ );
+      l->e = (void *)return_value_malloc_6;
       *((double *)l->e)=va_arg(*ap, __typeof__(*((double *)l->e)));
       break;
     }
@@ -2987,12 +2987,12 @@ static inline unsigned long int argv_count(char **argv)
   signed int cnt = 0;
   /* assertion argv != ((void *)0) */
   assert(argv != (char **)(void *)0);
-  char **tmp_post$1;
+  char **tmp_post_1;
   do
   {
-    tmp_post$1 = argv;
+    tmp_post_1 = argv;
     argv = argv + 1l;
-    if(*tmp_post$1 == ((char *)NULL))
+    if(*tmp_post_1 == ((char *)NULL))
       break;
 
     cnt = cnt + 1;
@@ -3001,25 +3001,25 @@ static inline unsigned long int argv_count(char **argv)
   return (unsigned long int)cnt;
 }
 
-// argv_count$link1
+// argv_count_link1
 // file wavemon.h line 319
-static inline unsigned long int argv_count$link1(char **argv$link1)
+static inline unsigned long int argv_count_link1(char **argv_link1)
 {
-  signed int cnt$link1 = 0;
+  signed int cnt_link1 = 0;
   /* assertion argv != ((void *)0) */
-  assert(argv$link1 != (char **)(void *)0);
-  char **tmp_post$1$link1;
+  assert(argv_link1 != (char **)(void *)0);
+  char **tmp_post_1_link1;
   do
   {
-    tmp_post$1$link1 = argv$link1;
-    argv$link1 = argv$link1 + 1l;
-    if(*tmp_post$1$link1 == ((char *)NULL))
+    tmp_post_1_link1 = argv_link1;
+    argv_link1 = argv_link1 + 1l;
+    if(*tmp_post_1_link1 == ((char *)NULL))
       break;
 
-    cnt$link1 = cnt$link1 + 1;
+    cnt_link1 = cnt_link1 + 1;
   }
   while((_Bool)1);
-  return (unsigned long int)cnt$link1;
+  return (unsigned long int)cnt_link1;
 }
 
 // argv_find
@@ -3027,23 +3027,23 @@ static inline unsigned long int argv_count$link1(char **argv$link1)
 static inline signed int argv_find(char **argv, const char *what)
 {
   signed int cnt;
-  unsigned long int return_value_argv_count$1;
-  return_value_argv_count$1=argv_count$link1(argv);
-  cnt = (signed int)return_value_argv_count$1;
+  unsigned long int return_value_argv_count_1;
+  return_value_argv_count_1=argv_count_link1(argv);
+  cnt = (signed int)return_value_argv_count_1;
   signed int len;
-  signed int argv_find$$1$$i;
+  signed int argv_find__1__i;
   /* assertion what != ((void *)0) */
   assert(what != (const char *)(void *)0);
-  argv_find$$1$$i = 0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(what);
-  len = (signed int)return_value_strlen$2;
-  signed int return_value_strncasecmp$3;
-  for( ; !(argv_find$$1$$i >= cnt); argv_find$$1$$i = argv_find$$1$$i + 1)
+  argv_find__1__i = 0;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(what);
+  len = (signed int)return_value_strlen_2;
+  signed int return_value_strncasecmp_3;
+  for( ; !(argv_find__1__i >= cnt); argv_find__1__i = argv_find__1__i + 1)
   {
-    return_value_strncasecmp$3=strncasecmp(argv[(signed long int)argv_find$$1$$i], what, (unsigned long int)len);
-    if(return_value_strncasecmp$3 == 0)
-      return argv_find$$1$$i;
+    return_value_strncasecmp_3=strncasecmp(argv[(signed long int)argv_find__1__i], what, (unsigned long int)len);
+    if(return_value_strncasecmp_3 == 0)
+      return argv_find__1__i;
 
   }
   return -1;
@@ -3085,11 +3085,11 @@ static inline char * byte_units(const double bytes)
 static void change_item(signed int inum, char sign)
 {
   struct conf_item *item;
-  void *return_value_ll_get$1;
-  return_value_ll_get$1=ll_get(conf_items, (unsigned long int)inum);
-  item = (struct conf_item *)return_value_ll_get$1;
+  void *return_value_ll_get_1;
+  return_value_ll_get_1=ll_get(conf_items, (unsigned long int)inum);
+  item = (struct conf_item *)return_value_ll_get_1;
   signed int tmp;
-  unsigned long int return_value_argv_count$2;
+  unsigned long int return_value_argv_count_2;
   switch((signed int)item->type)
   {
     case t_int:
@@ -3106,8 +3106,8 @@ static void change_item(signed int inum, char sign)
     case t_list:
     {
       *item->v.i = *item->v.i + (signed int)sign;
-      return_value_argv_count$2=argv_count(item->list);
-      tmp = (signed int)return_value_argv_count$2;
+      return_value_argv_count_2=argv_count(item->list);
+      tmp = (signed int)return_value_argv_count_2;
       if(*item->v.i >= tmp)
         *item->v.i = 0;
 
@@ -3185,11 +3185,11 @@ static inline signed int clamp(signed int val, signed int min, signed int max)
   return val < min ? min : (val > max ? max : val);
 }
 
-// clamp$link1
+// clamp_link1
 // file wavemon.h line 373
-static inline signed int clamp$link1(signed int val$link1, signed int min$link1, signed int max$link1)
+static inline signed int clamp_link1(signed int val_link1, signed int min_link1, signed int max_link1)
 {
-  return val$link1 < min$link1 ? min$link1 : (val$link1 > max$link1 ? max$link1 : val$link1);
+  return val_link1 < min_link1 ? min_link1 : (val_link1 > max_link1 ? max_link1 : val_link1);
 }
 
 // clear_scan_list
@@ -3211,42 +3211,42 @@ static void clear_scan_list(struct scan_result *sr)
 // file iw_scan.c line 52
 static _Bool cmp_chan(struct scan_entry *a, struct scan_entry *b)
 {
-  signed int tmp_if_expr$3;
-  _Bool return_value_cmp_essid$1;
-  _Bool return_value_cmp_freq$2;
+  signed int tmp_if_expr_3;
+  _Bool return_value_cmp_essid_1;
+  _Bool return_value_cmp_freq_2;
   if(a->freq == b->freq)
   {
-    return_value_cmp_essid$1=cmp_essid(a, b);
-    tmp_if_expr$3 = (signed int)return_value_cmp_essid$1;
+    return_value_cmp_essid_1=cmp_essid(a, b);
+    tmp_if_expr_3 = (signed int)return_value_cmp_essid_1;
   }
 
   else
   {
-    return_value_cmp_freq$2=cmp_freq(a, b);
-    tmp_if_expr$3 = (signed int)return_value_cmp_freq$2;
+    return_value_cmp_freq_2=cmp_freq(a, b);
+    tmp_if_expr_3 = (signed int)return_value_cmp_freq_2;
   }
-  return (_Bool)tmp_if_expr$3;
+  return (_Bool)tmp_if_expr_3;
 }
 
 // cmp_chan_sig
 // file iw_scan.c line 58
 static _Bool cmp_chan_sig(struct scan_entry *a, struct scan_entry *b)
 {
-  signed int tmp_if_expr$3;
-  _Bool return_value_cmp_sig$1;
-  _Bool return_value_cmp_chan$2;
+  signed int tmp_if_expr_3;
+  _Bool return_value_cmp_sig_1;
+  _Bool return_value_cmp_chan_2;
   if(a->freq == b->freq)
   {
-    return_value_cmp_sig$1=cmp_sig(a, b);
-    tmp_if_expr$3 = (signed int)return_value_cmp_sig$1;
+    return_value_cmp_sig_1=cmp_sig(a, b);
+    tmp_if_expr_3 = (signed int)return_value_cmp_sig_1;
   }
 
   else
   {
-    return_value_cmp_chan$2=cmp_chan(a, b);
-    tmp_if_expr$3 = (signed int)return_value_cmp_chan$2;
+    return_value_cmp_chan_2=cmp_chan(a, b);
+    tmp_if_expr_3 = (signed int)return_value_cmp_chan_2;
   }
-  return (_Bool)tmp_if_expr$3;
+  return (_Bool)tmp_if_expr_3;
 }
 
 // cmp_cnt
@@ -3266,29 +3266,29 @@ static _Bool cmp_essid(struct scan_entry *a, struct scan_entry *b)
 {
   signed int res;
   res=strncmp(a->essid, b->essid, (unsigned long int)32);
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$3;
-  _Bool return_value_cmp_sig$1;
-  _Bool return_value_cmp_freq$2;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_3;
+  _Bool return_value_cmp_sig_1;
+  _Bool return_value_cmp_freq_2;
   if(res == 0)
   {
     if(a->freq == b->freq)
     {
-      return_value_cmp_sig$1=cmp_sig(a, b);
-      tmp_if_expr$3 = (signed int)return_value_cmp_sig$1;
+      return_value_cmp_sig_1=cmp_sig(a, b);
+      tmp_if_expr_3 = (signed int)return_value_cmp_sig_1;
     }
 
     else
     {
-      return_value_cmp_freq$2=cmp_freq(a, b);
-      tmp_if_expr$3 = (signed int)return_value_cmp_freq$2;
+      return_value_cmp_freq_2=cmp_freq(a, b);
+      tmp_if_expr_3 = (signed int)return_value_cmp_freq_2;
     }
-    tmp_if_expr$4 = tmp_if_expr$3;
+    tmp_if_expr_4 = tmp_if_expr_3;
   }
 
   else
-    tmp_if_expr$4 = (signed int)(res < 0);
-  return (_Bool)tmp_if_expr$4;
+    tmp_if_expr_4 = (signed int)(res < 0);
+  return (_Bool)tmp_if_expr_4;
 }
 
 // cmp_freq
@@ -3309,9 +3309,9 @@ static signed int cmp_key(const void *a, const void *b)
 // file iw_scan.c line 46
 static _Bool cmp_mac(struct scan_entry *a, struct scan_entry *b)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)&a->ap_addr, (const void *)&b->ap_addr, sizeof(struct ether_addr) /*6ul*/ );
-  return return_value_memcmp$1 < 0;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)&a->ap_addr, (const void *)&b->ap_addr, sizeof(struct ether_addr) /*6ul*/ );
+  return return_value_memcmp_1 < 0;
 }
 
 // cmp_open
@@ -3325,21 +3325,21 @@ static _Bool cmp_open(struct scan_entry *a, struct scan_entry *b)
 // file iw_scan.c line 70
 static _Bool cmp_open_sig(struct scan_entry *a, struct scan_entry *b)
 {
-  signed int tmp_if_expr$3;
-  _Bool return_value_cmp_sig$1;
-  _Bool return_value_cmp_open$2;
+  signed int tmp_if_expr_3;
+  _Bool return_value_cmp_sig_1;
+  _Bool return_value_cmp_open_2;
   if(a->has_key == b->has_key)
   {
-    return_value_cmp_sig$1=cmp_sig(a, b);
-    tmp_if_expr$3 = (signed int)return_value_cmp_sig$1;
+    return_value_cmp_sig_1=cmp_sig(a, b);
+    tmp_if_expr_3 = (signed int)return_value_cmp_sig_1;
   }
 
   else
   {
-    return_value_cmp_open$2=cmp_open(a, b);
-    tmp_if_expr$3 = (signed int)return_value_cmp_open$2;
+    return_value_cmp_open_2=cmp_open(a, b);
+    tmp_if_expr_3 = (signed int)return_value_cmp_open_2;
   }
-  return (_Bool)tmp_if_expr$3;
+  return (_Bool)tmp_if_expr_3;
 }
 
 // cmp_sig
@@ -3373,17 +3373,17 @@ static void compute_channel_stats(struct scan_result *sr)
   unsigned long int n = (unsigned long int)0;
   if(!(sr->num.entries == 0))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)sr->num.entries, sizeof(struct cnt) /*8ul*/ );
-    sr->channel_stats = (struct cnt *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)sr->num.entries, sizeof(struct cnt) /*8ul*/ );
+    sr->channel_stats = (struct cnt *)return_value_calloc_1;
     cur = sr->head;
     for( ; !(cur == ((struct scan_entry *)NULL)); cur = cur->next)
       if(cur->chan >= 0)
       {
         key.val = cur->chan;
-        void *return_value_lsearch$2;
-        return_value_lsearch$2=lsearch((const void *)&key, (void *)sr->channel_stats, &n, sizeof(struct cnt) /*8ul*/ , cmp_key);
-        bin = (struct cnt *)return_value_lsearch$2;
+        void *return_value_lsearch_2;
+        return_value_lsearch_2=lsearch((const void *)&key, (void *)sr->channel_stats, &n, sizeof(struct cnt) /*8ul*/ , cmp_key);
+        bin = (struct cnt *)return_value_lsearch_2;
         if(!(bin == ((struct cnt *)NULL)))
           bin->count = bin->count + 1;
 
@@ -3434,19 +3434,19 @@ extern void conf_get_interface_list(void)
 // file wavemon.h line 282
 extern const char * conf_ifname(void)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(if_list[0l] == ((char *)NULL)))
-    tmp_if_expr$1 = if_list[(signed long int)conf.if_idx] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = if_list[(signed long int)conf.if_idx] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  char *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = if_list[(signed long int)conf.if_idx];
+    tmp_if_expr_1 = (_Bool)0;
+  char *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = if_list[(signed long int)conf.if_idx];
 
   else
-    tmp_if_expr$2 = "(none)";
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = "(none)";
+  return tmp_if_expr_2;
 }
 
 // cp_from_scale
@@ -3478,31 +3478,31 @@ extern const char * curtail(const char *str, const char *sep, signed int len)
   if((unsigned long int)len >= sizeof(char [128l]) /*128ul*/ )
     len = (signed int)(sizeof(char [128l]) /*128ul*/  - (unsigned long int)1);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sep == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*sep == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*sep == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     sep = fallback_sep;
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(sep);
-  mid = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(sep);
+  mid = (signed int)return_value_strlen_2;
   if(!(len >= mid))
   {
     sep = fallback_sep;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(sep);
-    mid = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(sep);
+    mid = (signed int)return_value_strlen_3;
   }
 
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   if(!(str == ((const char *)NULL)))
   {
-    return_value_strlen$4=strlen(str);
-    l = (signed int)return_value_strlen$4;
+    return_value_strlen_4=strlen(str);
+    l = (signed int)return_value_strlen_4;
   }
 
   if(len >= l)
@@ -3524,9 +3524,9 @@ extern const char * curtail(const char *str, const char *sep, signed int len)
 // file utils.c line 138
 double dbm2mw(const double in)
 {
-  double return_value_pow$1;
-  return_value_pow$1=pow(10.0, in / 10.0);
-  return return_value_pow$1;
+  double return_value_pow_1;
+  return_value_pow_1=pow(10.0, in / 10.0);
+  return return_value_pow_1;
 }
 
 // dbm2units
@@ -3584,26 +3584,26 @@ static void display_aplist(struct _win_st *w_aplst)
 {
   char s[256l];
   const char *sort_type[7l] = { "Chan", "Sig", "Mac", "Essid", "Open", "Ch/Sg", "Op/Sg" };
-  signed int display_aplist$$1$$i;
+  signed int display_aplist__1__i;
   signed int col;
   signed int line = 2;
   struct scan_entry *cur;
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&sr.mutex);
-  _Bool tmp_if_expr$2;
-  _Bool return_value_str_is_ascii$3;
-  if(return_value_pthread_mutex_trylock$1 == 0)
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&sr.mutex);
+  _Bool tmp_if_expr_2;
+  _Bool return_value_str_is_ascii_3;
+  if(return_value_pthread_mutex_trylock_1 == 0)
   {
     if(!(sr.head == ((struct scan_entry *)NULL)))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = sr.msg[0l] != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = sr.msg[0l] != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      display_aplist$$1$$i = 1;
-      for( ; LINES + -1 + -2 >= display_aplist$$1$$i; display_aplist$$1$$i = display_aplist$$1$$i + 1)
-        mvwclrtoborder(w_aplst, display_aplist$$1$$i, 1);
+      display_aplist__1__i = 1;
+      for( ; LINES + -1 + -2 >= display_aplist__1__i; display_aplist__1__i = display_aplist__1__i + 1)
+        mvwclrtoborder(w_aplst, display_aplist__1__i, 1);
     }
 
     if(sr.head == ((struct scan_entry *)NULL))
@@ -3631,11 +3631,11 @@ static void display_aplist(struct _win_st *w_aplst)
 
       else
       {
-        return_value_str_is_ascii$3=str_is_ascii(cur->essid);
-        if(!(return_value_str_is_ascii$3 == (_Bool)0))
+        return_value_str_is_ascii_3=str_is_ascii(cur->essid);
+        if(!(return_value_str_is_ascii_3 == (_Bool)0))
         {
           sprintf(s, "%-*s ", sr.max_essid_len, (const void *)cur->essid);
-          waddstr_b$link1(w_aplst, s);
+          waddstr_b_link1(w_aplst, s);
           wattr_on(w_aplst, (unsigned long int)((unsigned long int)col << 0 + 8), (void *)0);
         }
 
@@ -3646,9 +3646,9 @@ static void display_aplist(struct _win_st *w_aplst)
           waddnstr(w_aplst, s, -1);
         }
       }
-      char *return_value_ether_addr$4;
-      return_value_ether_addr$4=ether_addr(&cur->ap_addr);
-      waddnstr(w_aplst, return_value_ether_addr$4, -1);
+      char *return_value_ether_addr_4;
+      return_value_ether_addr_4=ether_addr(&cur->ap_addr);
+      waddnstr(w_aplst, return_value_ether_addr_4, -1);
       wattr_off(w_aplst, (unsigned long int)((unsigned long int)col << 0 + 8), (void *)0);
       fmt_scan_entry(cur, s, sizeof(char [256l]) /*256ul*/ );
       waddnstr(w_aplst, " ", -1);
@@ -3692,13 +3692,13 @@ static void display_aplist(struct _win_st *w_aplst)
         else
           sprintf(s, "top-%d:", (signed int)sr.num.ch_stats);
         wadd_attr_str(w_aplst, (const signed int)((unsigned long int)1UL << 10 + 8), s);
-        display_aplist$$1$$i = 0;
-        for( ; !((unsigned long int)display_aplist$$1$$i >= sr.num.ch_stats); display_aplist$$1$$i = display_aplist$$1$$i + 1)
+        display_aplist__1__i = 0;
+        for( ; !((unsigned long int)display_aplist__1__i >= sr.num.ch_stats); display_aplist__1__i = display_aplist__1__i + 1)
         {
-          waddnstr(w_aplst, display_aplist$$1$$i != 0 ? ", " : " ", -1);
-          sprintf(s, "ch#%d", (sr.channel_stats + (signed long int)display_aplist$$1$$i)->val);
+          waddnstr(w_aplst, display_aplist__1__i != 0 ? ", " : " ", -1);
+          sprintf(s, "ch#%d", (sr.channel_stats + (signed long int)display_aplist__1__i)->val);
           wadd_attr_str(w_aplst, (const signed int)((unsigned long int)1UL << 13 + 8), s);
-          sprintf(s, " (%d)", (sr.channel_stats + (signed long int)display_aplist$$1$$i)->count);
+          sprintf(s, " (%d)", (sr.channel_stats + (signed long int)display_aplist__1__i)->count);
           waddnstr(w_aplst, s, -1);
         }
       }
@@ -3722,21 +3722,21 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
   struct iw_nl80211_ifstat ifs;
   struct iw_nl80211_reg ir;
   char tmp[256l];
-  signed int display_info$$1$$i;
-  const char *return_value_conf_ifname$1;
-  return_value_conf_ifname$1=conf_ifname();
-  dyn_info_get(&info, return_value_conf_ifname$1, &range);
+  signed int display_info__1__i;
+  const char *return_value_conf_ifname_1;
+  return_value_conf_ifname_1=conf_ifname();
+  dyn_info_get(&info, return_value_conf_ifname_1, &range);
   iw_nl80211_getifstat(&ifs);
   iw_nl80211_getreg(&ir);
   wmove(w_if, 1, 1);
-  const char *return_value_conf_ifname$2;
-  return_value_conf_ifname$2=conf_ifname();
-  waddstr_b$link2(w_if, return_value_conf_ifname$2);
-  const char *return_value_format_wpa$3;
+  const char *return_value_conf_ifname_2;
+  return_value_conf_ifname_2=conf_ifname();
+  waddstr_b_link2(w_if, return_value_conf_ifname_2);
+  const char *return_value_format_wpa_3;
   if(!((3u & range.enc_capa) == 0u))
   {
-    return_value_format_wpa$3=format_wpa(&range);
-    sprintf(tmp, " (%s, %s)", (const void *)info.name, return_value_format_wpa$3);
+    return_value_format_wpa_3=format_wpa(&range);
+    sprintf(tmp, " (%s, %s)", (const void *)info.name, return_value_format_wpa_3);
   }
 
   else
@@ -3744,37 +3744,37 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
   waddnstr(w_if, tmp, -1);
   waddnstr(w_if, ", phy ", -1);
   sprintf(tmp, "%d", ifs.phy);
-  waddstr_b$link2(w_if, tmp);
+  waddstr_b_link2(w_if, tmp);
   waddnstr(w_if, ", reg: ", -1);
   if(ir.region >= 1)
   {
-    waddstr_b$link2(w_if, ir.country);
-    const char *return_value_dfs_domain_name$4;
-    return_value_dfs_domain_name$4=dfs_domain_name((enum nl80211_dfs_regions)ir.region);
-    sprintf(tmp, " (%s)", return_value_dfs_domain_name$4);
+    waddstr_b_link2(w_if, ir.country);
+    const char *return_value_dfs_domain_name_4;
+    return_value_dfs_domain_name_4=dfs_domain_name((enum nl80211_dfs_regions)ir.region);
+    sprintf(tmp, " (%s)", return_value_dfs_domain_name_4);
     waddnstr(w_if, tmp, -1);
   }
 
   else
-    waddstr_b$link2(w_if, "n/a");
+    waddstr_b_link2(w_if, "n/a");
   if(!(ifs.ssid[0l] == 0))
   {
     waddnstr(w_if, ", SSID: ", -1);
-    waddstr_b$link2(w_if, ifs.ssid);
+    waddstr_b_link2(w_if, ifs.ssid);
   }
 
   wclrtoborder(w_if);
   wrefresh(w_if);
   wmove(w_info, 1, 1);
   waddnstr(w_info, "mode: ", -1);
-  const char *return_value_iftype_name$5;
-  return_value_iftype_name$5=iftype_name((enum nl80211_iftype)ifs.iftype);
-  waddstr_b$link2(w_info, return_value_iftype_name$5);
-  _Bool return_value_ether_addr_is_zero$8;
-  return_value_ether_addr_is_zero$8=ether_addr_is_zero(&ls.bssid);
-  if(return_value_ether_addr_is_zero$8 == (_Bool)0)
+  const char *return_value_iftype_name_5;
+  return_value_iftype_name_5=iftype_name((enum nl80211_iftype)ifs.iftype);
+  waddstr_b_link2(w_info, return_value_iftype_name_5);
+  _Bool return_value_ether_addr_is_zero_8;
+  return_value_ether_addr_is_zero_8=ether_addr_is_zero(&ls.bssid);
+  if(return_value_ether_addr_is_zero_8 == (_Bool)0)
   {
-    waddstr_b$link2(w_info, ", ");
+    waddstr_b_link2(w_info, ", ");
     switch(ls.status)
     {
       case (unsigned int)1:
@@ -3795,31 +3795,31 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
       default:
         waddnstr(w_info, "station: ", -1);
     }
-    char *return_value_ether_lookup$6;
-    return_value_ether_lookup$6=ether_lookup(&ls.bssid);
-    waddstr_b$link2(w_info, return_value_ether_lookup$6);
+    char *return_value_ether_lookup_6;
+    return_value_ether_lookup_6=ether_lookup(&ls.bssid);
+    waddstr_b_link2(w_info, return_value_ether_lookup_6);
     if(ls.status == 1u)
     {
-      waddstr_b$link2(w_info, ",");
+      waddstr_b_link2(w_info, ",");
       waddnstr(w_info, " time: ", -1);
-      const char *return_value_pretty_time$7;
-      return_value_pretty_time$7=pretty_time(ls.connected_time);
-      waddstr_b$link2(w_info, return_value_pretty_time$7);
+      const char *return_value_pretty_time_7;
+      return_value_pretty_time_7=pretty_time(ls.connected_time);
+      waddstr_b_link2(w_info, return_value_pretty_time_7);
       waddnstr(w_info, ", inactive: ", -1);
       sprintf(tmp, "%.1fs", (double)(float)ls.inactive_time / 1e3);
-      waddstr_b$link2(w_info, tmp);
+      waddstr_b_link2(w_info, tmp);
     }
 
   }
 
   wclrtoborder(w_info);
   wmove(w_info, 2, 1);
-  _Bool return_value_iw_nl80211_have_survey_data$12;
+  _Bool return_value_iw_nl80211_have_survey_data_12;
   if(!(ifs.freq == 0u))
   {
     waddnstr(w_info, "freq: ", -1);
     sprintf(tmp, "%d MHz", ifs.freq);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
     if(!(ls.survey.freq == 0u) && !(ls.survey.freq == ifs.freq))
     {
       sprintf(tmp, " [survey freq: %d MHz]", ls.survey.freq);
@@ -3830,35 +3830,35 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
     {
       waddnstr(w_info, ", ctr1: ", -1);
       sprintf(tmp, "%d MHz", ifs.freq_ctr1);
-      waddstr_b$link2(w_info, tmp);
+      waddstr_b_link2(w_info, tmp);
     }
 
     if(!(ifs.freq_ctr2 == 0) && !(ifs.freq_ctr2 == ifs.freq_ctr1) && !((unsigned int)ifs.freq_ctr2 == ifs.freq))
     {
       waddnstr(w_info, ", ctr2: ", -1);
       sprintf(tmp, "%d MHz", ifs.freq_ctr2);
-      waddstr_b$link2(w_info, tmp);
+      waddstr_b_link2(w_info, tmp);
     }
 
     waddnstr(w_info, ", channel: ", -1);
-    signed int return_value_ieee80211_frequency_to_channel$9;
-    return_value_ieee80211_frequency_to_channel$9=ieee80211_frequency_to_channel((signed int)ifs.freq);
-    sprintf(tmp, "%d", return_value_ieee80211_frequency_to_channel$9);
-    waddstr_b$link2(w_info, tmp);
+    signed int return_value_ieee80211_frequency_to_channel_9;
+    return_value_ieee80211_frequency_to_channel_9=ieee80211_frequency_to_channel((signed int)ifs.freq);
+    sprintf(tmp, "%d", return_value_ieee80211_frequency_to_channel_9);
+    waddstr_b_link2(w_info, tmp);
     if(ifs.chan_width >= 0)
     {
-      const char *return_value_channel_width_name$10;
-      return_value_channel_width_name$10=channel_width_name((enum nl80211_chan_width)ifs.chan_width);
-      sprintf(tmp, " (width: %s)", return_value_channel_width_name$10);
+      const char *return_value_channel_width_name_10;
+      return_value_channel_width_name_10=channel_width_name((enum nl80211_chan_width)ifs.chan_width);
+      sprintf(tmp, " (width: %s)", return_value_channel_width_name_10);
       waddnstr(w_info, tmp, -1);
     }
 
     else
       if(ifs.chan_type >= 0)
       {
-        const char *return_value_channel_type_name$11;
-        return_value_channel_type_name$11=channel_type_name((enum nl80211_channel_type)ifs.chan_type);
-        sprintf(tmp, " (%s)", return_value_channel_type_name$11);
+        const char *return_value_channel_type_name_11;
+        return_value_channel_type_name_11=channel_type_name((enum nl80211_channel_type)ifs.chan_type);
+        sprintf(tmp, " (%s)", return_value_channel_type_name_11);
         waddnstr(w_info, tmp, -1);
       }
 
@@ -3866,12 +3866,12 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
 
   else
   {
-    return_value_iw_nl80211_have_survey_data$12=iw_nl80211_have_survey_data(&ls);
-    if(!(return_value_iw_nl80211_have_survey_data$12 == (_Bool)0))
+    return_value_iw_nl80211_have_survey_data_12=iw_nl80211_have_survey_data(&ls);
+    if(!(return_value_iw_nl80211_have_survey_data_12 == (_Bool)0))
     {
       waddnstr(w_info, "freq: ", -1);
       sprintf(tmp, "%d MHz", ls.survey.freq);
-      waddstr_b$link2(w_info, tmp);
+      waddstr_b_link2(w_info, tmp);
     }
 
     else
@@ -3879,41 +3879,41 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
   }
   wclrtoborder(w_info);
   wmove(w_info, 3, 1);
-  _Bool return_value_iw_nl80211_have_survey_data$19;
-  return_value_iw_nl80211_have_survey_data$19=iw_nl80211_have_survey_data(&ls);
-  if(!(return_value_iw_nl80211_have_survey_data$19 == (_Bool)0))
+  _Bool return_value_iw_nl80211_have_survey_data_19;
+  return_value_iw_nl80211_have_survey_data_19=iw_nl80211_have_survey_data(&ls);
+  if(!(return_value_iw_nl80211_have_survey_data_19 == (_Bool)0))
   {
     waddnstr(w_info, "channel ", -1);
     waddnstr(w_info, "active: ", -1);
-    const char *return_value_pretty_time_ms$13;
-    return_value_pretty_time_ms$13=pretty_time_ms((const unsigned int)ls.survey.time.active);
-    waddstr_b$link2(w_info, return_value_pretty_time_ms$13);
+    const char *return_value_pretty_time_ms_13;
+    return_value_pretty_time_ms_13=pretty_time_ms((const unsigned int)ls.survey.time.active);
+    waddstr_b_link2(w_info, return_value_pretty_time_ms_13);
     waddnstr(w_info, ", busy: ", -1);
-    const char *return_value_pretty_time_ms$14;
-    return_value_pretty_time_ms$14=pretty_time_ms((const unsigned int)ls.survey.time.busy);
-    waddstr_b$link2(w_info, return_value_pretty_time_ms$14);
+    const char *return_value_pretty_time_ms_14;
+    return_value_pretty_time_ms_14=pretty_time_ms((const unsigned int)ls.survey.time.busy);
+    waddstr_b_link2(w_info, return_value_pretty_time_ms_14);
     if(!(ls.survey.time.ext_busy == 0ul))
     {
       waddnstr(w_info, ", ext-busy: ", -1);
-      const char *return_value_pretty_time_ms$15;
-      return_value_pretty_time_ms$15=pretty_time_ms((const unsigned int)ls.survey.time.ext_busy);
-      waddstr_b$link2(w_info, return_value_pretty_time_ms$15);
+      const char *return_value_pretty_time_ms_15;
+      return_value_pretty_time_ms_15=pretty_time_ms((const unsigned int)ls.survey.time.ext_busy);
+      waddstr_b_link2(w_info, return_value_pretty_time_ms_15);
     }
 
     waddnstr(w_info, ", rx: ", -1);
-    const char *return_value_pretty_time_ms$16;
-    return_value_pretty_time_ms$16=pretty_time_ms((const unsigned int)ls.survey.time.rx);
-    waddstr_b$link2(w_info, return_value_pretty_time_ms$16);
+    const char *return_value_pretty_time_ms_16;
+    return_value_pretty_time_ms_16=pretty_time_ms((const unsigned int)ls.survey.time.rx);
+    waddstr_b_link2(w_info, return_value_pretty_time_ms_16);
     waddnstr(w_info, ", tx: ", -1);
-    const char *return_value_pretty_time_ms$17;
-    return_value_pretty_time_ms$17=pretty_time_ms((const unsigned int)ls.survey.time.tx);
-    waddstr_b$link2(w_info, return_value_pretty_time_ms$17);
+    const char *return_value_pretty_time_ms_17;
+    return_value_pretty_time_ms_17=pretty_time_ms((const unsigned int)ls.survey.time.tx);
+    waddstr_b_link2(w_info, return_value_pretty_time_ms_17);
     if(!(ls.survey.time.scan == 0ul))
     {
       waddnstr(w_info, ", scan: ", -1);
-      const char *return_value_pretty_time_ms$18;
-      return_value_pretty_time_ms$18=pretty_time_ms((const unsigned int)ls.survey.time.scan);
-      waddstr_b$link2(w_info, return_value_pretty_time_ms$18);
+      const char *return_value_pretty_time_ms_18;
+      return_value_pretty_time_ms_18=pretty_time_ms((const unsigned int)ls.survey.time.scan);
+      waddstr_b_link2(w_info, return_value_pretty_time_ms_18);
     }
 
   }
@@ -3924,7 +3924,7 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
       if(!(ls.rx_bitrate[0l] == 0))
       {
         waddnstr(w_info, "rx rate: ", -1);
-        waddstr_b$link2(w_info, ls.rx_bitrate);
+        waddstr_b_link2(w_info, ls.rx_bitrate);
         if(!(ls.expected_thru == 0u))
         {
           if(ls.expected_thru >= 1024u)
@@ -3936,7 +3936,7 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
         }
 
         waddnstr(w_info, ", tx rate: ", -1);
-        waddstr_b$link2(w_info, ls.tx_bitrate);
+        waddstr_b_link2(w_info, ls.tx_bitrate);
       }
 
     }
@@ -3946,55 +3946,55 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
   {
     waddnstr(w_info, "beacons: ", -1);
     sprintf(tmp, "%'llu", (unsigned long long int)ls.beacons);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
     if(!(ls.beacon_loss == 0u))
     {
       waddnstr(w_info, ", lost: ", -1);
       sprintf(tmp, "%'u", ls.beacon_loss);
-      waddstr_b$link2(w_info, tmp);
+      waddstr_b_link2(w_info, tmp);
     }
 
     waddnstr(w_info, ", avg sig: ", -1);
     sprintf(tmp, "%d dBm", (signed char)ls.beacon_avg_sig);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
     waddnstr(w_info, ", interval: ", -1);
     sprintf(tmp, "%.1fs", ((double)ls.beacon_int * 1024.0) / 1e6);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
     waddnstr(w_info, ", DTIM: ", -1);
     sprintf(tmp, "%u", ls.dtim_period);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
   }
 
   else
   {
     waddnstr(w_info, "station flags:", -1);
     if(!(ls.cts_protection == 0))
-      waddstr_b$link2(w_info, " CTS");
+      waddstr_b_link2(w_info, " CTS");
 
     if(!(ls.wme == 0))
-      waddstr_b$link2(w_info, " WME");
+      waddstr_b_link2(w_info, " WME");
 
     if(!(ls.tdls == 0))
-      waddstr_b$link2(w_info, " TDLS");
+      waddstr_b_link2(w_info, " TDLS");
 
     if(!(ls.mfp == 0))
-      waddstr_b$link2(w_info, " MFP");
+      waddstr_b_link2(w_info, " MFP");
 
     if(((signed int)ls.cts_protection | (signed int)ls.mfp | (signed int)ls.tdls | (signed int)ls.wme) == 0)
-      waddstr_b$link2(w_info, " (none)");
+      waddstr_b_link2(w_info, " (none)");
 
     waddnstr(w_info, ", preamble:", -1);
     if(!(ls.long_preamble == 0))
-      waddstr_b$link2(w_info, " long");
+      waddstr_b_link2(w_info, " long");
 
     else
-      waddstr_b$link2(w_info, " short");
+      waddstr_b_link2(w_info, " short");
     waddnstr(w_info, ", slot:", -1);
     if(!(ls.short_slot_time == 0))
-      waddstr_b$link2(w_info, " short");
+      waddstr_b_link2(w_info, " short");
 
     else
-      waddstr_b$link2(w_info, " long");
+      waddstr_b_link2(w_info, " long");
   }
   if(!(info.cap_sens == 0))
   {
@@ -4004,17 +4004,17 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
 
     else
       sprintf(tmp, "%d/%d", info.sens, range.sensitivity);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
   }
 
   wclrtoborder(w_info);
   wmove(w_info, 5, 1);
   waddnstr(w_info, "power mgt: ", -1);
-  char *return_value_format_power$20;
+  char *return_value_format_power_20;
   if(!(info.cap_power == 0))
   {
-    return_value_format_power$20=format_power(&info.power, &range);
-    waddstr_b$link2(w_info, return_value_format_power$20);
+    return_value_format_power_20=format_power(&info.power, &range);
+    waddstr_b_link2(w_info, return_value_format_power_20);
   }
 
   else
@@ -4030,19 +4030,19 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
 
       else
         waddnstr(w_info, ",  TX-power: ", -1);
-      char *return_value_format_txpower$21;
-      return_value_format_txpower$21=format_txpower(&info.txpower);
-      waddstr_b$link2(w_info, return_value_format_txpower$21);
+      char *return_value_format_txpower_21;
+      return_value_format_txpower_21=format_txpower(&info.txpower);
+      waddstr_b_link2(w_info, return_value_format_txpower_21);
     }
 
   wclrtoborder(w_info);
   wmove(w_info, 6, 1);
   waddnstr(w_info, "retry: ", -1);
-  char *return_value_format_retry$22;
+  char *return_value_format_retry_22;
   if(!(info.cap_retry == 0))
   {
-    return_value_format_retry$22=format_retry(&info.retry, &range);
-    waddstr_b$link2(w_info, return_value_format_retry$22);
+    return_value_format_retry_22=format_retry(&info.retry, &range);
+    waddstr_b_link2(w_info, return_value_format_retry_22);
   }
 
   else
@@ -4056,7 +4056,7 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
 
     else
       sprintf(tmp, "%d B", info.rts.value);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
   }
 
   else
@@ -4070,7 +4070,7 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
 
     else
       sprintf(tmp, "%d B", info.frag.value);
-    waddstr_b$link2(w_info, tmp);
+    waddstr_b_link2(w_info, tmp);
   }
 
   else
@@ -4078,41 +4078,41 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
   wclrtoborder(w_info);
   wmove(w_info, 7, 1);
   waddnstr(w_info, "encryption: ", -1);
-  unsigned char return_value_dyn_info_wep_keys$31;
-  unsigned char tmp_post$27;
-  _Bool tmp_if_expr$26;
-  signed int return_value_sprintf$28;
-  signed int return_value_sprintf$29;
-  signed int return_value_sprintf$30;
-  _Bool return_value_has_net_admin_capability$32;
+  unsigned char return_value_dyn_info_wep_keys_31;
+  unsigned char tmp_post_27;
+  _Bool tmp_if_expr_26;
+  signed int return_value_sprintf_28;
+  signed int return_value_sprintf_29;
+  signed int return_value_sprintf_30;
+  _Bool return_value_has_net_admin_capability_32;
   if(!(info.keys == ((struct iw_key *)NULL)))
   {
     signed int cnt;
-    unsigned char return_value_dyn_info_active_keys$23;
-    return_value_dyn_info_active_keys$23=dyn_info_active_keys(&info);
-    cnt = (signed int)return_value_dyn_info_active_keys$23;
+    unsigned char return_value_dyn_info_active_keys_23;
+    return_value_dyn_info_active_keys_23=dyn_info_active_keys(&info);
+    cnt = (signed int)return_value_dyn_info_active_keys_23;
     if(cnt == 0)
-      waddstr_b$link2(w_info, "off (no key set)");
+      waddstr_b_link2(w_info, "off (no key set)");
 
     else
       if(!(info.active_key == 0))
       {
-        display_info$$1$$i = (signed int)info.active_key - 1;
-        char *return_value_format_key$24;
-        return_value_format_key$24=format_key(info.keys + (signed long int)display_info$$1$$i);
-        const char *return_value_curtail$25;
-        return_value_curtail$25=curtail(return_value_format_key$24, "..", (COLS - 2) / 2);
-        waddstr_b$link2(w_info, return_value_curtail$25);
-        if(!((0x4000 & (signed int)(info.keys + (signed long int)display_info$$1$$i)->flags) == 0))
+        display_info__1__i = (signed int)info.active_key - 1;
+        char *return_value_format_key_24;
+        return_value_format_key_24=format_key(info.keys + (signed long int)display_info__1__i);
+        const char *return_value_curtail_25;
+        return_value_curtail_25=curtail(return_value_format_key_24, "..", (COLS - 2) / 2);
+        waddstr_b_link2(w_info, return_value_curtail_25);
+        if(!((0x4000 & (signed int)(info.keys + (signed long int)display_info__1__i)->flags) == 0))
           waddnstr(w_info, ", restricted", -1);
 
-        if(!((0x2000 & (signed int)(info.keys + (signed long int)display_info$$1$$i)->flags) == 0))
+        if(!((0x2000 & (signed int)(info.keys + (signed long int)display_info__1__i)->flags) == 0))
           waddnstr(w_info, ", open", -1);
 
         if(cnt >= 2 || !((signed int)info.active_key == 1))
         {
           sprintf(tmp, " [%d]", info.active_key);
-          waddstr_b$link2(w_info, tmp);
+          waddstr_b_link2(w_info, tmp);
         }
 
         if(cnt >= 2)
@@ -4125,70 +4125,70 @@ static void display_info(struct _win_st *w_if, struct _win_st *w_info)
 
       else
       {
-        return_value_dyn_info_wep_keys$31=dyn_info_wep_keys(&info);
-        if((signed int)return_value_dyn_info_wep_keys$31 == cnt)
+        return_value_dyn_info_wep_keys_31=dyn_info_wep_keys(&info);
+        if((signed int)return_value_dyn_info_wep_keys_31 == cnt)
         {
-          waddstr_b$link2(w_info, "off ");
+          waddstr_b_link2(w_info, "off ");
           sprintf(tmp, "(%d disabled WEP key%s)", cnt, cnt == 1 ? "" : "s");
           waddnstr(w_info, tmp, -1);
         }
 
         else
         {
-          unsigned char display_info$$1$$19$$4$$j = (unsigned char)0;
+          unsigned char display_info__1__19__4__j = (unsigned char)0;
           unsigned char k = (unsigned char)0;
           while((_Bool)1)
           {
-            if(!((info.keys + (signed long int)display_info$$1$$19$$4$$j)->size == 0))
+            if(!((info.keys + (signed long int)display_info__1__19__4__j)->size == 0))
             {
-              if((0x8000 & (signed int)(info.keys + (signed long int)display_info$$1$$19$$4$$j)->flags) == 0)
+              if((0x8000 & (signed int)(info.keys + (signed long int)display_info__1__19__4__j)->flags) == 0)
               {
-                tmp_post$27 = k;
+                tmp_post_27 = k;
                 k = k + 1;
-                (info.keys + (signed long int)tmp_post$27)->size = (info.keys + (signed long int)display_info$$1$$19$$4$$j)->size;
+                (info.keys + (signed long int)tmp_post_27)->size = (info.keys + (signed long int)display_info__1__19__4__j)->size;
               }
 
             }
 
             if(!((signed int)k >= cnt))
             {
-              display_info$$1$$19$$4$$j = display_info$$1$$19$$4$$j + 1;
-              tmp_if_expr$26 = (signed int)display_info$$1$$19$$4$$j < (signed int)info.nkeys ? (_Bool)1 : (_Bool)0;
+              display_info__1__19__4__j = display_info__1__19__4__j + 1;
+              tmp_if_expr_26 = (signed int)display_info__1__19__4__j < (signed int)info.nkeys ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$26 = (_Bool)0;
-            if(!tmp_if_expr$26)
+              tmp_if_expr_26 = (_Bool)0;
+            if(!tmp_if_expr_26)
               break;
 
           }
           if(cnt == 1)
           {
-            return_value_sprintf$28=sprintf(tmp, "1 key (index #%u), ", (signed int)display_info$$1$$19$$4$$j + 1);
-            display_info$$1$$19$$4$$j = (unsigned char)return_value_sprintf$28;
+            return_value_sprintf_28=sprintf(tmp, "1 key (index #%u), ", (signed int)display_info__1__19__4__j + 1);
+            display_info__1__19__4__j = (unsigned char)return_value_sprintf_28;
           }
 
           else
           {
-            return_value_sprintf$29=sprintf(tmp, "%d keys with ", k);
-            display_info$$1$$19$$4$$j = (unsigned char)return_value_sprintf$29;
+            return_value_sprintf_29=sprintf(tmp, "%d keys with ", k);
+            display_info__1__19__4__j = (unsigned char)return_value_sprintf_29;
           }
-          display_info$$1$$i = 0;
-          for( ; !(display_info$$1$$i >= (signed int)k); display_info$$1$$i = display_info$$1$$i + 1)
+          display_info__1__i = 0;
+          for( ; !(display_info__1__i >= (signed int)k); display_info__1__i = display_info__1__i + 1)
           {
-            return_value_sprintf$30=sprintf(tmp + (signed long int)display_info$$1$$19$$4$$j, "%s%d", display_info$$1$$i != 0 ? "/" : "", (signed int)(info.keys + (signed long int)display_info$$1$$i)->size * 8);
-            display_info$$1$$19$$4$$j = display_info$$1$$19$$4$$j + (unsigned char)return_value_sprintf$30;
+            return_value_sprintf_30=sprintf(tmp + (signed long int)display_info__1__19__4__j, "%s%d", display_info__1__i != 0 ? "/" : "", (signed int)(info.keys + (signed long int)display_info__1__i)->size * 8);
+            display_info__1__19__4__j = display_info__1__19__4__j + (unsigned char)return_value_sprintf_30;
           }
-          sprintf(tmp + (signed long int)display_info$$1$$19$$4$$j, " bits");
-          waddstr_b$link2(w_info, tmp);
+          sprintf(tmp + (signed long int)display_info__1__19__4__j, " bits");
+          waddstr_b_link2(w_info, tmp);
         }
       }
   }
 
   else
   {
-    return_value_has_net_admin_capability$32=has_net_admin_capability();
-    if(!(return_value_has_net_admin_capability$32 == (_Bool)0))
+    return_value_has_net_admin_capability_32=has_net_admin_capability();
+    if(!(return_value_has_net_admin_capability_32 == (_Bool)0))
       waddnstr(w_info, "no information available", -1);
 
     else
@@ -4231,9 +4231,9 @@ static void display_key(struct _win_st *w_key)
 
   else
     -1;
-  char *return_value_fmt_extrema$1;
-  return_value_fmt_extrema$1=fmt_extrema(&e_signal, "dBm");
-  wprintw(w_key, "] sig lvl (%s)  [", return_value_fmt_extrema$1);
+  char *return_value_fmt_extrema_1;
+  return_value_fmt_extrema_1=fmt_extrema(&e_signal, "dBm");
+  wprintw(w_key, "] sig lvl (%s)  [", return_value_fmt_extrema_1);
   if(!(w_key == ((struct _win_st *)NULL)))
   {
     w_key->_attrs = (unsigned long int)((unsigned long int)CP_STATNOISE << 0 + 8);
@@ -4251,9 +4251,9 @@ static void display_key(struct _win_st *w_key)
 
   else
     -1;
-  char *return_value_fmt_extrema$2;
-  return_value_fmt_extrema$2=fmt_extrema(&e_noise, "dBm");
-  wprintw(w_key, "] ns lvl (%s)  [", return_value_fmt_extrema$2);
+  char *return_value_fmt_extrema_2;
+  return_value_fmt_extrema_2=fmt_extrema(&e_noise, "dBm");
+  wprintw(w_key, "] ns lvl (%s)  [", return_value_fmt_extrema_2);
   if(!(w_key == ((struct _win_st *)NULL)))
   {
     w_key->_attrs = (unsigned long int)((unsigned long int)CP_STATSNR << 0 + 8);
@@ -4271,9 +4271,9 @@ static void display_key(struct _win_st *w_key)
 
   else
     -1;
-  char *return_value_fmt_extrema$3;
-  return_value_fmt_extrema$3=fmt_extrema(&e_snr, "dB");
-  wprintw(w_key, "] S-N ratio (%s)", return_value_fmt_extrema$3);
+  char *return_value_fmt_extrema_3;
+  return_value_fmt_extrema_3=fmt_extrema(&e_snr, "dB");
+  wprintw(w_key, "] S-N ratio (%s)", return_value_fmt_extrema_3);
   wrefresh(w_key);
 }
 
@@ -4317,12 +4317,12 @@ static void display_levels(void)
       sig_qual_max = 70;
     }
 
-  signed int tmp_post$2;
-  signed int tmp_post$4;
-  signed int tmp_post$6;
-  signed int tmp_post$10;
-  signed int tmp_post$13;
-  signed int tmp_post$15;
+  signed int tmp_post_2;
+  signed int tmp_post_4;
+  signed int tmp_post_6;
+  signed int tmp_post_10;
+  signed int tmp_post_13;
+  signed int tmp_post_15;
   if(noise_data_valid == (_Bool)0 && sig_level == 0 && sig_qual == -1)
   {
     wattr_on(w_levels, (unsigned long int)((unsigned long int)1UL << 13 + 8), (void *)0);
@@ -4340,26 +4340,26 @@ static void display_levels(void)
 
     else
     {
-      double return_value_ewma$1;
+      double return_value_ewma_1;
       static float qual;
-      return_value_ewma$1=ewma((double)qual, (double)sig_qual, (double)conf.meter_decay / 100.0);
-      qual = (float)return_value_ewma$1;
-      tmp_post$2 = line;
+      return_value_ewma_1=ewma((double)qual, (double)sig_qual, (double)conf.meter_decay / 100.0);
+      qual = (float)return_value_ewma_1;
+      tmp_post_2 = line;
       line = line + 1;
-      signed int return_value_wmove$3;
-      return_value_wmove$3=wmove(w_levels, tmp_post$2, 1);
-      if(return_value_wmove$3 == -1)
+      signed int return_value_wmove_3;
+      return_value_wmove_3=wmove(w_levels, tmp_post_2, 1);
+      if(return_value_wmove_3 == -1)
         -1;
 
       else
         waddnstr(w_levels, "link quality: ", -1);
       sprintf(tmp, "%0.f%%  ", (1e2 * (double)qual) / (double)sig_qual_max);
-      waddstr_b$link2(w_levels, tmp);
+      waddstr_b_link2(w_levels, tmp);
       sprintf(tmp, "(%0.f/%d)  ", qual, sig_qual_max);
       waddnstr(w_levels, tmp, -1);
-      tmp_post$4 = line;
+      tmp_post_4 = line;
       line = line + 1;
-      waddbar(w_levels, tmp_post$4, qual, (float)0, (float)sig_qual_max, lvlscale, (_Bool)1);
+      waddbar(w_levels, tmp_post_4, qual, (float)0, (float)sig_qual_max, lvlscale, (_Bool)1);
     }
     line = line + 1;
     if(noise_data_valid == (_Bool)0)
@@ -4367,23 +4367,23 @@ static void display_levels(void)
 
     if(!(sig_level == 0))
     {
-      double return_value_ewma$5;
+      double return_value_ewma_5;
       static float signal;
-      return_value_ewma$5=ewma((double)signal, (double)sig_level, (double)conf.meter_decay / 100.0);
-      signal = (float)return_value_ewma$5;
-      tmp_post$6 = line;
+      return_value_ewma_5=ewma((double)signal, (double)sig_level, (double)conf.meter_decay / 100.0);
+      signal = (float)return_value_ewma_5;
+      tmp_post_6 = line;
       line = line + 1;
-      signed int return_value_wmove$7;
-      return_value_wmove$7=wmove(w_levels, tmp_post$6, 1);
-      if(return_value_wmove$7 == -1)
+      signed int return_value_wmove_7;
+      return_value_wmove_7=wmove(w_levels, tmp_post_6, 1);
+      if(return_value_wmove_7 == -1)
         -1;
 
       else
         waddnstr(w_levels, "signal level: ", -1);
-      char *return_value_dbm2units$8;
-      return_value_dbm2units$8=dbm2units((const double)signal);
-      sprintf(tmp, "%.0f dBm (%s)", signal, return_value_dbm2units$8);
-      waddstr_b$link2(w_levels, tmp);
+      char *return_value_dbm2units_8;
+      return_value_dbm2units_8=dbm2units((const double)signal);
+      sprintf(tmp, "%.0f dBm (%s)", signal, return_value_dbm2units_8);
+      waddstr_b_link2(w_levels, tmp);
       waddbar(w_levels, line, signal, (float)conf.sig_min, (float)conf.sig_max, lvlscale, (_Bool)1);
       if(!(conf.lthreshold_action == 0))
         waddthreshold(w_levels, line, signal, (float)conf.lthreshold, (float)conf.sig_min, (float)conf.sig_max, lvlscale, (unsigned long int)62);
@@ -4396,45 +4396,45 @@ static void display_levels(void)
     line = line + 1;
     if(!(noise_data_valid == (_Bool)0))
     {
-      double return_value_ewma$9;
+      double return_value_ewma_9;
       static float noise;
-      return_value_ewma$9=ewma((double)noise, (double)ls.survey.noise, (double)conf.meter_decay / 100.0);
-      noise = (float)return_value_ewma$9;
-      tmp_post$10 = line;
+      return_value_ewma_9=ewma((double)noise, (double)ls.survey.noise, (double)conf.meter_decay / 100.0);
+      noise = (float)return_value_ewma_9;
+      tmp_post_10 = line;
       line = line + 1;
-      signed int return_value_wmove$11;
-      return_value_wmove$11=wmove(w_levels, tmp_post$10, 1);
-      if(return_value_wmove$11 == -1)
+      signed int return_value_wmove_11;
+      return_value_wmove_11=wmove(w_levels, tmp_post_10, 1);
+      if(return_value_wmove_11 == -1)
         -1;
 
       else
         waddnstr(w_levels, "noise level:  ", -1);
-      char *return_value_dbm2units$12;
-      return_value_dbm2units$12=dbm2units((const double)noise);
-      sprintf(tmp, "%.0f dBm (%s)", noise, return_value_dbm2units$12);
-      waddstr_b$link2(w_levels, tmp);
-      tmp_post$13 = line;
+      char *return_value_dbm2units_12;
+      return_value_dbm2units_12=dbm2units((const double)noise);
+      sprintf(tmp, "%.0f dBm (%s)", noise, return_value_dbm2units_12);
+      waddstr_b_link2(w_levels, tmp);
+      tmp_post_13 = line;
       line = line + 1;
-      waddbar(w_levels, tmp_post$13, noise, (float)conf.noise_min, (float)conf.noise_max, nscale, (_Bool)0);
+      waddbar(w_levels, tmp_post_13, noise, (float)conf.noise_min, (float)conf.noise_max, nscale, (_Bool)0);
     }
 
     if(!(sig_level == 0) && !(noise_data_valid == (_Bool)0))
     {
-      double return_value_ewma$14;
+      double return_value_ewma_14;
       static float ssnr;
-      return_value_ewma$14=ewma((double)ssnr, (double)(sig_level - (signed int)ls.survey.noise), (double)conf.meter_decay / 100.0);
-      ssnr = (float)return_value_ewma$14;
-      tmp_post$15 = line;
+      return_value_ewma_14=ewma((double)ssnr, (double)(sig_level - (signed int)ls.survey.noise), (double)conf.meter_decay / 100.0);
+      ssnr = (float)return_value_ewma_14;
+      tmp_post_15 = line;
       line = line + 1;
-      signed int return_value_wmove$16;
-      return_value_wmove$16=wmove(w_levels, tmp_post$15, 1);
-      if(return_value_wmove$16 == -1)
+      signed int return_value_wmove_16;
+      return_value_wmove_16=wmove(w_levels, tmp_post_15, 1);
+      if(return_value_wmove_16 == -1)
         -1;
 
       else
         waddnstr(w_levels, "SNR:           ", -1);
       sprintf(tmp, "%.0f dB", ssnr);
-      waddstr_b$link2(w_levels, tmp);
+      waddstr_b_link2(w_levels, tmp);
     }
 
   }
@@ -4456,13 +4456,13 @@ static void display_lhist(void)
   signed int x;
   signed int y;
   x = 1;
-  signed int return_value_hist_y$1;
-  signed int return_value_hist_x$2;
-  signed int return_value_wmove$3;
-  signed int return_value_clamp$4;
-  signed int return_value_hist_y$5;
-  signed int return_value_hist_x$6;
-  signed int return_value_wmove$7;
+  signed int return_value_hist_y_1;
+  signed int return_value_hist_x_2;
+  signed int return_value_wmove_3;
+  signed int return_value_clamp_4;
+  signed int return_value_hist_y_5;
+  signed int return_value_hist_x_6;
+  signed int return_value_wmove_7;
   for( ; COLS + -2 >= x; x = x + 1)
   {
     iwl=iw_cache_get((const unsigned int)x);
@@ -4477,10 +4477,10 @@ static void display_lhist(void)
     y = 1;
     for( ; LINES + -1 + -3 + -1 >= y; y = y + 1)
     {
-      return_value_hist_y$1=hist_y(y);
-      return_value_hist_x$2=hist_x(x);
-      return_value_wmove$3=wmove(w_lhist, return_value_hist_y$1, return_value_hist_x$2);
-      if(return_value_wmove$3 == -1)
+      return_value_hist_y_1=hist_y(y);
+      return_value_hist_x_2=hist_x(x);
+      return_value_wmove_3=wmove(w_lhist, return_value_hist_y_1, return_value_hist_x_2);
+      if(return_value_wmove_3 == -1)
         -1;
 
       else
@@ -4503,14 +4503,14 @@ static void display_lhist(void)
       y = 1;
       do
       {
-        return_value_clamp$4=clamp$link1((signed int)snr_level, 1, ((LINES - 1) - 3) - 1);
-        if(!(return_value_clamp$4 >= y))
+        return_value_clamp_4=clamp_link1((signed int)snr_level, 1, ((LINES - 1) - 3) - 1);
+        if(!(return_value_clamp_4 >= y))
           break;
 
-        return_value_hist_y$5=hist_y(y);
-        return_value_hist_x$6=hist_x(x);
-        return_value_wmove$7=wmove(w_lhist, return_value_hist_y$5, return_value_hist_x$6);
-        if(return_value_wmove$7 == -1)
+        return_value_hist_y_5=hist_y(y);
+        return_value_hist_x_6=hist_x(x);
+        return_value_wmove_7=wmove(w_lhist, return_value_hist_y_5, return_value_hist_x_6);
+        if(return_value_wmove_7 == -1)
           -1;
 
         else
@@ -4543,16 +4543,16 @@ static void display_lhist(void)
         for( ; LINES + -1 + -3 + -1 >= y; y = y + 1)
           if(y % 5 == 0 || y == LINES + -1 + -3 + -1 || y == 1)
           {
-            double return_value_hist_level_inverse$8;
-            return_value_hist_level_inverse$8=hist_level_inverse(y, conf.sig_min, conf.sig_max);
-            len=snprintf(tmp, sizeof(char [6l]) /*6ul*/ , "%.0f", return_value_hist_level_inverse$8);
-            signed int return_value_hist_y$9;
-            return_value_hist_y$9=hist_y(y);
-            signed int return_value_hist_x$10;
-            return_value_hist_x$10=hist_x(len);
-            signed int return_value_wmove$11;
-            return_value_wmove$11=wmove(w_lhist, return_value_hist_y$9, return_value_hist_x$10);
-            if(return_value_wmove$11 == -1)
+            double return_value_hist_level_inverse_8;
+            return_value_hist_level_inverse_8=hist_level_inverse(y, conf.sig_min, conf.sig_max);
+            len=snprintf(tmp, sizeof(char [6l]) /*6ul*/ , "%.0f", return_value_hist_level_inverse_8);
+            signed int return_value_hist_y_9;
+            return_value_hist_y_9=hist_y(y);
+            signed int return_value_hist_x_10;
+            return_value_hist_x_10=hist_x(len);
+            signed int return_value_wmove_11;
+            return_value_wmove_11=wmove(w_lhist, return_value_hist_y_9, return_value_hist_x_10);
+            if(return_value_wmove_11 == -1)
               -1;
 
             else
@@ -4578,23 +4578,23 @@ static void display_netinfo(struct _win_st *w_net)
 {
   struct if_info info;
   char tmp[64l];
-  const char *return_value_conf_ifname$1;
-  return_value_conf_ifname$1=conf_ifname();
-  if_getinf(return_value_conf_ifname$1, &info);
+  const char *return_value_conf_ifname_1;
+  return_value_conf_ifname_1=conf_ifname();
+  if_getinf(return_value_conf_ifname_1, &info);
   wmove(w_net, 1, 1);
   wclrtoborder(w_net);
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_3;
   if(!(w_net == ((struct _win_st *)NULL)))
-    tmp_if_expr$3 = (signed int)w_net->_maxy + 1;
+    tmp_if_expr_3 = (signed int)w_net->_maxy + 1;
 
   else
-    tmp_if_expr$3 = -1;
-  if(tmp_if_expr$3 == 5)
+    tmp_if_expr_3 = -1;
+  if(tmp_if_expr_3 == 5)
   {
-    const char *return_value_conf_ifname$2;
-    return_value_conf_ifname$2=conf_ifname();
-    waddnstr(w_net, return_value_conf_ifname$2, -1);
-    waddstr_b$link2(w_net, " (");
+    const char *return_value_conf_ifname_2;
+    return_value_conf_ifname_2=conf_ifname();
+    waddnstr(w_net, return_value_conf_ifname_2, -1);
+    waddstr_b_link2(w_net, " (");
     waddnstr(w_net, ((signed int)info.flags & 1) != 0 ? "UP" : "DOWN", -1);
     if(!((64 & (signed int)info.flags) == 0))
       waddnstr(w_net, " RUNNING", -1);
@@ -4638,26 +4638,26 @@ static void display_netinfo(struct _win_st *w_net)
     if(!((4 & (signed int)info.flags) == 0))
       waddnstr(w_net, " DEBUG", -1);
 
-    waddstr_b$link2(w_net, ")");
+    waddstr_b_link2(w_net, ")");
     wmove(w_net, 2, 1);
     wclrtoborder(w_net);
   }
 
   waddnstr(w_net, "mac: ", -1);
-  char *return_value_ether_lookup$4;
-  return_value_ether_lookup$4=ether_lookup(&info.hwaddr);
-  waddstr_b$link2(w_net, return_value_ether_lookup$4);
-  signed int tmp_if_expr$5;
+  char *return_value_ether_lookup_4;
+  return_value_ether_lookup_4=ether_lookup(&info.hwaddr);
+  waddstr_b_link2(w_net, return_value_ether_lookup_4);
+  signed int tmp_if_expr_5;
   if(!(w_net == ((struct _win_st *)NULL)))
-    tmp_if_expr$5 = (signed int)w_net->_maxy + 1;
+    tmp_if_expr_5 = (signed int)w_net->_maxy + 1;
 
   else
-    tmp_if_expr$5 = -1;
-  if(tmp_if_expr$5 == 5)
+    tmp_if_expr_5 = -1;
+  if(tmp_if_expr_5 == 5)
   {
     waddnstr(w_net, ", qlen: ", -1);
     sprintf(tmp, "%u", info.txqlen);
-    waddstr_b$link2(w_net, tmp);
+    waddstr_b_link2(w_net, tmp);
     wmove(w_net, 3, 1);
     wclrtoborder(w_net);
   }
@@ -4670,18 +4670,18 @@ static void display_netinfo(struct _win_st *w_net)
 
   else
   {
-    char *return_value_inet_ntoa$6;
-    return_value_inet_ntoa$6=inet_ntoa(info.addr);
-    unsigned char return_value_prefix_len$7;
-    return_value_prefix_len$7=prefix_len(&info.netmask);
-    sprintf(tmp, "%s/%u", return_value_inet_ntoa$6, return_value_prefix_len$7);
-    waddstr_b$link2(w_net, tmp);
+    char *return_value_inet_ntoa_6;
+    return_value_inet_ntoa_6=inet_ntoa(info.addr);
+    unsigned char return_value_prefix_len_7;
+    return_value_prefix_len_7=prefix_len(&info.netmask);
+    sprintf(tmp, "%s/%u", return_value_inet_ntoa_6, return_value_prefix_len_7);
+    waddstr_b_link2(w_net, tmp);
     if(!(info.bcast.s_addr == (~info.netmask.s_addr | info.addr.s_addr)))
     {
       waddnstr(w_net, ",  bcast: ", -1);
-      char *return_value_inet_ntoa$8;
-      return_value_inet_ntoa$8=inet_ntoa(info.bcast);
-      waddstr_b$link2(w_net, return_value_inet_ntoa$8);
+      char *return_value_inet_ntoa_8;
+      return_value_inet_ntoa_8=inet_ntoa(info.bcast);
+      waddstr_b_link2(w_net, return_value_inet_ntoa_8);
     }
 
   }
@@ -4689,7 +4689,7 @@ static void display_netinfo(struct _win_st *w_net)
   {
     waddnstr(w_net, ",  mtu: ", -1);
     sprintf(tmp, "%u", info.mtu);
-    waddstr_b$link2(w_net, tmp);
+    waddstr_b_link2(w_net, tmp);
   }
 
   wrefresh(w_net);
@@ -4701,34 +4701,34 @@ static void display_stats(void)
 {
   struct if_stat nstat;
   char tmp[256l];
-  const char *return_value_conf_ifname$1;
-  return_value_conf_ifname$1=conf_ifname();
-  if_getstat(return_value_conf_ifname$1, &nstat);
-  signed int return_value_wmove$2;
-  return_value_wmove$2=wmove(w_stats, 1, 1);
-  if(return_value_wmove$2 == -1)
+  const char *return_value_conf_ifname_1;
+  return_value_conf_ifname_1=conf_ifname();
+  if_getstat(return_value_conf_ifname_1, &nstat);
+  signed int return_value_wmove_2;
+  return_value_wmove_2=wmove(w_stats, 1, 1);
+  if(return_value_wmove_2 == -1)
     -1;
 
   else
     waddnstr(w_stats, "RX: ", -1);
   if(!(ls.rx_packets == 0u))
   {
-    char *return_value_byte_units$3;
-    return_value_byte_units$3=byte_units((const double)ls.rx_bytes);
-    sprintf(tmp, "%'u (%s)", ls.rx_packets, return_value_byte_units$3);
-    waddstr_b$link2(w_stats, tmp);
+    char *return_value_byte_units_3;
+    return_value_byte_units_3=byte_units((const double)ls.rx_bytes);
+    sprintf(tmp, "%'u (%s)", ls.rx_packets, return_value_byte_units_3);
+    waddstr_b_link2(w_stats, tmp);
   }
 
   else
     waddnstr(w_stats, "n/a", -1);
-  _Bool return_value_iw_nl80211_have_survey_data$4;
-  return_value_iw_nl80211_have_survey_data$4=iw_nl80211_have_survey_data(&ls);
-  if(!(return_value_iw_nl80211_have_survey_data$4 == (_Bool)0))
+  _Bool return_value_iw_nl80211_have_survey_data_4;
+  return_value_iw_nl80211_have_survey_data_4=iw_nl80211_have_survey_data(&ls);
+  if(!(return_value_iw_nl80211_have_survey_data_4 == (_Bool)0))
   {
     if(!(ls.rx_bitrate[0l] == 0))
     {
       waddnstr(w_stats, ", rate: ", -1);
-      waddstr_b$link2(w_stats, ls.rx_bitrate);
+      waddstr_b_link2(w_stats, ls.rx_bitrate);
     }
 
     if(!(ls.expected_thru == 0u))
@@ -4747,35 +4747,35 @@ static void display_stats(void)
   {
     waddnstr(w_stats, ", drop: ", -1);
     sprintf(tmp, "%'llu", (unsigned long long int)ls.rx_drop_misc);
-    waddstr_b$link2(w_stats, tmp);
+    waddstr_b_link2(w_stats, tmp);
   }
 
   wclrtoborder(w_stats);
-  signed int return_value_wmove$5;
-  return_value_wmove$5=wmove(w_stats, 2, 1);
-  if(return_value_wmove$5 == -1)
+  signed int return_value_wmove_5;
+  return_value_wmove_5=wmove(w_stats, 2, 1);
+  if(return_value_wmove_5 == -1)
     -1;
 
   else
     waddnstr(w_stats, "TX: ", -1);
   if(!(ls.tx_packets == 0u))
   {
-    char *return_value_byte_units$6;
-    return_value_byte_units$6=byte_units((const double)ls.tx_bytes);
-    sprintf(tmp, "%'u (%s)", ls.tx_packets, return_value_byte_units$6);
-    waddstr_b$link2(w_stats, tmp);
+    char *return_value_byte_units_6;
+    return_value_byte_units_6=byte_units((const double)ls.tx_bytes);
+    sprintf(tmp, "%'u (%s)", ls.tx_packets, return_value_byte_units_6);
+    waddstr_b_link2(w_stats, tmp);
   }
 
   else
     waddnstr(w_stats, "n/a", -1);
-  _Bool return_value_iw_nl80211_have_survey_data$7;
-  return_value_iw_nl80211_have_survey_data$7=iw_nl80211_have_survey_data(&ls);
-  if(!(return_value_iw_nl80211_have_survey_data$7 == (_Bool)0))
+  _Bool return_value_iw_nl80211_have_survey_data_7;
+  return_value_iw_nl80211_have_survey_data_7=iw_nl80211_have_survey_data(&ls);
+  if(!(return_value_iw_nl80211_have_survey_data_7 == (_Bool)0))
   {
     if(!(ls.tx_bitrate[0l] == 0))
     {
       waddnstr(w_stats, ", rate: ", -1);
-      waddstr_b$link2(w_stats, ls.tx_bitrate);
+      waddstr_b_link2(w_stats, ls.tx_bitrate);
     }
 
   }
@@ -4784,14 +4784,14 @@ static void display_stats(void)
   {
     waddnstr(w_stats, ", retries: ", -1);
     sprintf(tmp, "%'u", ls.tx_retries);
-    waddstr_b$link2(w_stats, tmp);
+    waddstr_b_link2(w_stats, tmp);
   }
 
   if(!(ls.tx_failed == 0u))
   {
     waddnstr(w_stats, ", failed: ", -1);
     sprintf(tmp, "%'u", ls.tx_failed);
-    waddstr_b$link2(w_stats, tmp);
+    waddstr_b_link2(w_stats, tmp);
   }
 
   wclrtoborder(w_stats);
@@ -4802,27 +4802,27 @@ static void display_stats(void)
 // file iw_if.h line 296
 extern void * do_scan(void *sr_ptr)
 {
-  struct scan_result *do_scan$$1$$sr = (struct scan_result *)sr_ptr;
-  struct anonymous$10 blockmask;
+  struct scan_result *do_scan__1__sr = (struct scan_result *)sr_ptr;
+  struct anonymous_10 blockmask;
   signed int ret = 0;
   sigemptyset(&blockmask);
   sigaddset(&blockmask, 28);
-  pthread_sigmask(0, &blockmask, (struct anonymous$10 *)(void *)0);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
-  _Bool return_value_wait_for_scan_events$6;
-  _Bool return_value_has_net_admin_capability$7;
-  const char *return_value_conf_ifname$12;
-  _Bool return_value_if_is_up$13;
-  const char *return_value_conf_ifname$8;
-  const char *return_value_conf_ifname$10;
-  signed int return_value_if_set_up$11;
-  const char *return_value_conf_ifname$9;
-  signed int return_value_usleep$2;
+  pthread_sigmask(0, &blockmask, (struct anonymous_10 *)(void *)0);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
+  _Bool return_value_wait_for_scan_events_6;
+  _Bool return_value_has_net_admin_capability_7;
+  const char *return_value_conf_ifname_12;
+  _Bool return_value_if_is_up_13;
+  const char *return_value_conf_ifname_8;
+  const char *return_value_conf_ifname_10;
+  signed int return_value_if_set_up_11;
+  const char *return_value_conf_ifname_9;
+  signed int return_value_usleep_2;
   do
   {
-    clear_scan_list(do_scan$$1$$sr);
+    clear_scan_list(do_scan__1__sr);
     ret=iw_nl80211_scan_trigger();
     switch(-ret)
     {
@@ -4830,41 +4830,41 @@ extern void * do_scan(void *sr_ptr)
 
       case 16:
       {
-        return_value_wait_for_scan_events$6=wait_for_scan_events(do_scan$$1$$sr);
-        if(return_value_wait_for_scan_events$6 == (_Bool)0)
-          snprintf(do_scan$$1$$sr->msg, sizeof(char [128l]) /*128ul*/ , "Waiting for scan data...");
+        return_value_wait_for_scan_events_6=wait_for_scan_events(do_scan__1__sr);
+        if(return_value_wait_for_scan_events_6 == (_Bool)0)
+          snprintf(do_scan__1__sr->msg, sizeof(char [128l]) /*128ul*/ , "Waiting for scan data...");
 
         else
         {
-          pthread_mutex_lock(&do_scan$$1$$sr->mutex);
-          ret=iw_nl80211_get_scan_data(do_scan$$1$$sr);
+          pthread_mutex_lock(&do_scan__1__sr->mutex);
+          ret=iw_nl80211_get_scan_data(do_scan__1__sr);
           if(!(ret >= 0))
           {
-            const char *return_value_conf_ifname$3;
-            return_value_conf_ifname$3=conf_ifname();
-            char *return_value_strerror$4;
-            return_value_strerror$4=strerror(-ret);
-            snprintf(do_scan$$1$$sr->msg, sizeof(char [128l]) /*128ul*/ , "Scan failed on %s: %s", return_value_conf_ifname$3, return_value_strerror$4);
+            const char *return_value_conf_ifname_3;
+            return_value_conf_ifname_3=conf_ifname();
+            char *return_value_strerror_4;
+            return_value_strerror_4=strerror(-ret);
+            snprintf(do_scan__1__sr->msg, sizeof(char [128l]) /*128ul*/ , "Scan failed on %s: %s", return_value_conf_ifname_3, return_value_strerror_4);
           }
 
           else
-            if(do_scan$$1$$sr->head == ((struct scan_entry *)NULL))
+            if(do_scan__1__sr->head == ((struct scan_entry *)NULL))
             {
-              const char *return_value_conf_ifname$5;
-              return_value_conf_ifname$5=conf_ifname();
-              snprintf(do_scan$$1$$sr->msg, sizeof(char [128l]) /*128ul*/ , "Empty scan results on %s", return_value_conf_ifname$5);
+              const char *return_value_conf_ifname_5;
+              return_value_conf_ifname_5=conf_ifname();
+              snprintf(do_scan__1__sr->msg, sizeof(char [128l]) /*128ul*/ , "Empty scan results on %s", return_value_conf_ifname_5);
             }
 
-          compute_channel_stats(do_scan$$1$$sr);
-          pthread_mutex_unlock(&do_scan$$1$$sr->mutex);
+          compute_channel_stats(do_scan__1__sr);
+          pthread_mutex_unlock(&do_scan__1__sr->mutex);
         }
         break;
       }
       case 1:
       {
-        return_value_has_net_admin_capability$7=has_net_admin_capability();
-        if(return_value_has_net_admin_capability$7 == (_Bool)0)
-          snprintf(do_scan$$1$$sr->msg, sizeof(char [128l]) /*128ul*/ , "This screen requires CAP_NET_ADMIN permissions");
+        return_value_has_net_admin_capability_7=has_net_admin_capability();
+        if(return_value_has_net_admin_capability_7 == (_Bool)0)
+          snprintf(do_scan__1__sr->msg, sizeof(char [128l]) /*128ul*/ , "This screen requires CAP_NET_ADMIN permissions");
 
         return (void *)0;
       }
@@ -4874,24 +4874,24 @@ extern void * do_scan(void *sr_ptr)
 
       case 11:
       {
-        snprintf(do_scan$$1$$sr->msg, sizeof(char [128l]) /*128ul*/ , "Waiting for device to become ready ...");
+        snprintf(do_scan__1__sr->msg, sizeof(char [128l]) /*128ul*/ , "Waiting for device to become ready ...");
         break;
       }
       case 100:
       {
-        return_value_conf_ifname$12=conf_ifname();
-        return_value_if_is_up$13=if_is_up(return_value_conf_ifname$12);
-        if(return_value_if_is_up$13 != (_Bool)0)
+        return_value_conf_ifname_12=conf_ifname();
+        return_value_if_is_up_13=if_is_up(return_value_conf_ifname_12);
+        if(return_value_if_is_up_13 != (_Bool)0)
           goto __CPROVER_DUMP_L12;
 
-        return_value_conf_ifname$8=conf_ifname();
-        snprintf(do_scan$$1$$sr->msg, sizeof(char [128l]) /*128ul*/ , "Interface %s is down - setting it up ...", return_value_conf_ifname$8);
-        return_value_conf_ifname$10=conf_ifname();
-        return_value_if_set_up$11=if_set_up(return_value_conf_ifname$10);
-        if(!(return_value_if_set_up$11 >= 0))
+        return_value_conf_ifname_8=conf_ifname();
+        snprintf(do_scan__1__sr->msg, sizeof(char [128l]) /*128ul*/ , "Interface %s is down - setting it up ...", return_value_conf_ifname_8);
+        return_value_conf_ifname_10=conf_ifname();
+        return_value_if_set_up_11=if_set_up(return_value_conf_ifname_10);
+        if(!(return_value_if_set_up_11 >= 0))
         {
-          return_value_conf_ifname$9=conf_ifname();
-          err_sys("Can not bring up interface '%s'", return_value_conf_ifname$9);
+          return_value_conf_ifname_9=conf_ifname();
+          err_sys("Can not bring up interface '%s'", return_value_conf_ifname_9);
         }
 
         break;
@@ -4901,16 +4901,16 @@ extern void * do_scan(void *sr_ptr)
 
       __CPROVER_DUMP_L12:
         ;
-        const char *return_value_conf_ifname$14;
-        return_value_conf_ifname$14=conf_ifname();
-        char *return_value_strerror$15;
-        return_value_strerror$15=strerror(-ret);
-        snprintf(do_scan$$1$$sr->msg, sizeof(char [128l]) /*128ul*/ , "Scan trigger failed on %s: %s", return_value_conf_ifname$14, return_value_strerror$15);
+        const char *return_value_conf_ifname_14;
+        return_value_conf_ifname_14=conf_ifname();
+        char *return_value_strerror_15;
+        return_value_strerror_15=strerror(-ret);
+        snprintf(do_scan__1__sr->msg, sizeof(char [128l]) /*128ul*/ , "Scan trigger failed on %s: %s", return_value_conf_ifname_14, return_value_strerror_15);
       }
     }
-    return_value_usleep$2=usleep((unsigned int)(conf.stat_iv * 1000));
+    return_value_usleep_2=usleep((unsigned int)(conf.stat_iv * 1000));
   }
-  while(return_value_usleep$2 == 0);
+  while(return_value_usleep_2 == 0);
   return (void *)0;
 }
 
@@ -4918,18 +4918,18 @@ extern void * do_scan(void *sr_ptr)
 // file iw_if.h line 158
 static inline unsigned char dyn_info_active_keys(struct iw_dyn_info *info)
 {
-  signed int dyn_info_active_keys$$1$$i;
+  signed int dyn_info_active_keys__1__i;
   signed int num_active = 0;
-  dyn_info_active_keys$$1$$i = 0;
-  _Bool tmp_if_expr$1;
-  for( ; !(dyn_info_active_keys$$1$$i >= (signed int)info->nkeys); dyn_info_active_keys$$1$$i = dyn_info_active_keys$$1$$i + 1)
+  dyn_info_active_keys__1__i = 0;
+  _Bool tmp_if_expr_1;
+  for( ; !(dyn_info_active_keys__1__i >= (signed int)info->nkeys); dyn_info_active_keys__1__i = dyn_info_active_keys__1__i + 1)
   {
-    if(!((info->keys + (signed long int)dyn_info_active_keys$$1$$i)->size == 0))
-      tmp_if_expr$1 = !(((signed int)(info->keys + (signed long int)dyn_info_active_keys$$1$$i)->flags & 0x8000) != 0) ? (_Bool)1 : (_Bool)0;
+    if(!((info->keys + (signed long int)dyn_info_active_keys__1__i)->size == 0))
+      tmp_if_expr_1 = !(((signed int)(info->keys + (signed long int)dyn_info_active_keys__1__i)->flags & 0x8000) != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    num_active = num_active + (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    num_active = num_active + (signed int)tmp_if_expr_1;
   }
   return (unsigned char)num_active;
 }
@@ -4948,7 +4948,7 @@ extern void dyn_info_cleanup(struct iw_dyn_info *info)
 extern void dyn_info_get(struct iw_dyn_info *info, const char *ifname, struct iw_range *ir)
 {
   struct iwreq iwr;
-  signed int dyn_info_get$$1$$i;
+  signed int dyn_info_get__1__i;
   signed int skfd;
   skfd=socket(2, 2, 0);
   if(!(skfd >= 0))
@@ -4956,18 +4956,18 @@ extern void dyn_info_get(struct iw_dyn_info *info, const char *ifname, struct iw
 
   memset((void *)info, 0, sizeof(struct iw_dyn_info) /*176ul*/ );
   strncpy(iwr.ifr_ifrn.ifrn_name, ifname, (unsigned long int)16);
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(skfd, (unsigned long int)0x8B01, &iwr);
-  if(!(return_value_ioctl$1 >= 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(skfd, (unsigned long int)0x8B01, &iwr);
+  if(!(return_value_ioctl_1 >= 0))
     err_sys("can not open device '%s'", ifname);
 
   strncpy(info->name, iwr.u.name, (unsigned long int)16);
   iwr.u.essid.pointer = (void *)(char *)info->essid;
   iwr.u.essid.length = (unsigned short int)sizeof(char [34l]) /*34ul*/ ;
   iwr.u.essid.flags = (unsigned short int)0;
-  signed int return_value_ioctl$2;
-  return_value_ioctl$2=ioctl(skfd, (unsigned long int)0x8B1B, &iwr);
-  if(return_value_ioctl$2 >= 0)
+  signed int return_value_ioctl_2;
+  return_value_ioctl_2=ioctl(skfd, (unsigned long int)0x8B1B, &iwr);
+  if(return_value_ioctl_2 >= 0)
   {
     info->cap_essid = (_Bool)1;
     info->essid_ct = (unsigned char)((_Bool)((signed int)iwr.u.essid.flags & 0x00FF) ? (signed int)iwr.u.essid.flags & 0x00FF : 1);
@@ -4977,79 +4977,79 @@ extern void dyn_info_get(struct iw_dyn_info *info, const char *ifname, struct iw
   iwr.u.essid.pointer = (void *)(char *)info->nickname;
   iwr.u.essid.length = (unsigned short int)sizeof(char [34l]) /*34ul*/ ;
   iwr.u.essid.flags = (unsigned short int)0;
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(skfd, (unsigned long int)0x8B1D, &iwr);
-  if(return_value_ioctl$3 >= 0)
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(skfd, (unsigned long int)0x8B1D, &iwr);
+  if(return_value_ioctl_3 >= 0)
   {
     if((signed int)iwr.u.data.length >= 2)
       info->cap_nickname = (_Bool)1;
 
   }
 
-  signed int return_value_ioctl$4;
-  return_value_ioctl$4=ioctl(skfd, (unsigned long int)0x8B05, &iwr);
-  if(return_value_ioctl$4 >= 0)
+  signed int return_value_ioctl_4;
+  return_value_ioctl_4=ioctl(skfd, (unsigned long int)0x8B05, &iwr);
+  if(return_value_ioctl_4 >= 0)
   {
     info->cap_freq = (_Bool)1;
     info->freq=freq_to_hz(&iwr.u.freq);
   }
 
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(skfd, (unsigned long int)0x8B09, &iwr);
-  if(return_value_ioctl$5 >= 0)
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(skfd, (unsigned long int)0x8B09, &iwr);
+  if(return_value_ioctl_5 >= 0)
   {
     info->cap_sens = (_Bool)1;
     info->sens = iwr.u.sens.value;
   }
 
-  signed int return_value_ioctl$6;
-  return_value_ioctl$6=ioctl(skfd, (unsigned long int)0x8B21, &iwr);
-  if(return_value_ioctl$6 >= 0)
+  signed int return_value_ioctl_6;
+  return_value_ioctl_6=ioctl(skfd, (unsigned long int)0x8B21, &iwr);
+  if(return_value_ioctl_6 >= 0)
     info->bitrate = (unsigned long int)iwr.u.bitrate.value;
 
-  signed int return_value_ioctl$7;
-  return_value_ioctl$7=ioctl(skfd, (unsigned long int)0x8B27, &iwr);
-  if(return_value_ioctl$7 >= 0)
+  signed int return_value_ioctl_7;
+  return_value_ioctl_7=ioctl(skfd, (unsigned long int)0x8B27, &iwr);
+  if(return_value_ioctl_7 >= 0)
   {
     info->cap_txpower = (_Bool)1;
     memcpy((void *)&info->txpower, (const void *)&iwr.u.txpower, sizeof(struct iw_param) /*8ul*/ );
   }
 
-  signed int return_value_ioctl$8;
-  return_value_ioctl$8=ioctl(skfd, (unsigned long int)0x8B2D, &iwr);
-  if(return_value_ioctl$8 >= 0)
+  signed int return_value_ioctl_8;
+  return_value_ioctl_8=ioctl(skfd, (unsigned long int)0x8B2D, &iwr);
+  if(return_value_ioctl_8 >= 0)
   {
     info->cap_power = (_Bool)1;
     memcpy((void *)&info->power, (const void *)&iwr.u.power, sizeof(struct iw_param) /*8ul*/ );
   }
 
-  signed int return_value_ioctl$9;
-  return_value_ioctl$9=ioctl(skfd, (unsigned long int)0x8B29, &iwr);
-  if(return_value_ioctl$9 >= 0)
+  signed int return_value_ioctl_9;
+  return_value_ioctl_9=ioctl(skfd, (unsigned long int)0x8B29, &iwr);
+  if(return_value_ioctl_9 >= 0)
   {
     info->cap_retry = (_Bool)1;
     memcpy((void *)&info->retry, (const void *)&iwr.u.retry, sizeof(struct iw_param) /*8ul*/ );
   }
 
-  signed int return_value_ioctl$10;
-  return_value_ioctl$10=ioctl(skfd, (unsigned long int)0x8B23, &iwr);
-  if(return_value_ioctl$10 >= 0)
+  signed int return_value_ioctl_10;
+  return_value_ioctl_10=ioctl(skfd, (unsigned long int)0x8B23, &iwr);
+  if(return_value_ioctl_10 >= 0)
   {
     info->cap_rts = (_Bool)1;
     memcpy((void *)&info->rts, (const void *)&iwr.u.rts, sizeof(struct iw_param) /*8ul*/ );
   }
 
-  signed int return_value_ioctl$11;
-  return_value_ioctl$11=ioctl(skfd, (unsigned long int)0x8B25, &iwr);
-  if(return_value_ioctl$11 >= 0)
+  signed int return_value_ioctl_11;
+  return_value_ioctl_11=ioctl(skfd, (unsigned long int)0x8B25, &iwr);
+  if(return_value_ioctl_11 >= 0)
   {
     info->cap_frag = (_Bool)1;
     memcpy((void *)&info->frag, (const void *)&iwr.u.frag, sizeof(struct iw_param) /*8ul*/ );
   }
 
-  signed int return_value_ioctl$12;
-  return_value_ioctl$12=ioctl(skfd, (unsigned long int)0x8B07, &iwr);
-  if(return_value_ioctl$12 >= 0)
+  signed int return_value_ioctl_12;
+  return_value_ioctl_12=ioctl(skfd, (unsigned long int)0x8B07, &iwr);
+  if(return_value_ioctl_12 >= 0)
   {
     info->cap_mode = (_Bool)1;
     info->mode = (unsigned char)iwr.u.mode;
@@ -5058,18 +5058,18 @@ extern void dyn_info_get(struct iw_dyn_info *info, const char *ifname, struct iw
   info->nkeys = ir->max_encoding_tokens;
   if(!(info->nkeys == 0))
   {
-    void *return_value_calloc$13;
-    return_value_calloc$13=calloc((unsigned long int)info->nkeys, sizeof(struct iw_key) /*68ul*/ );
-    info->keys = (struct iw_key *)return_value_calloc$13;
+    void *return_value_calloc_13;
+    return_value_calloc_13=calloc((unsigned long int)info->nkeys, sizeof(struct iw_key) /*68ul*/ );
+    info->keys = (struct iw_key *)return_value_calloc_13;
     if(info->keys == ((struct iw_key *)NULL))
       err_sys("malloc(key array)");
 
     iwr.u.data.pointer = (void *)(info->keys + (signed long int)0)->key;
     iwr.u.data.length = (unsigned short int)sizeof(unsigned char [64l]) /*64ul*/ ;
     iwr.u.data.flags = (unsigned short int)0;
-    signed int return_value_ioctl$14;
-    return_value_ioctl$14=ioctl(skfd, (unsigned long int)0x8B2B, &iwr);
-    if(!(return_value_ioctl$14 >= 0))
+    signed int return_value_ioctl_14;
+    return_value_ioctl_14=ioctl(skfd, (unsigned long int)0x8B2B, &iwr);
+    if(!(return_value_ioctl_14 >= 0))
     {
       free((void *)info->keys);
       info->keys = (struct iw_key *)(void *)0;
@@ -5080,40 +5080,40 @@ extern void dyn_info_get(struct iw_dyn_info *info, const char *ifname, struct iw
       info->active_key = (unsigned char)((signed int)iwr.u.data.flags & 0x00FF);
   }
 
-  dyn_info_get$$1$$i = 0;
-  _Bool tmp_if_expr$16;
-  for( ; !(dyn_info_get$$1$$i >= (signed int)info->nkeys); dyn_info_get$$1$$i = dyn_info_get$$1$$i + 1)
+  dyn_info_get__1__i = 0;
+  _Bool tmp_if_expr_16;
+  for( ; !(dyn_info_get__1__i >= (signed int)info->nkeys); dyn_info_get__1__i = dyn_info_get__1__i + 1)
   {
-    iwr.u.data.pointer = (void *)(info->keys + (signed long int)dyn_info_get$$1$$i)->key;
+    iwr.u.data.pointer = (void *)(info->keys + (signed long int)dyn_info_get__1__i)->key;
     iwr.u.data.length = (unsigned short int)sizeof(unsigned char [64l]) /*64ul*/ ;
-    iwr.u.data.flags = (unsigned short int)(dyn_info_get$$1$$i + 1);
-    signed int return_value_ioctl$15;
-    return_value_ioctl$15=ioctl(skfd, (unsigned long int)0x8B2B, &iwr);
-    if(!(return_value_ioctl$15 >= 0))
+    iwr.u.data.flags = (unsigned short int)(dyn_info_get__1__i + 1);
+    signed int return_value_ioctl_15;
+    return_value_ioctl_15=ioctl(skfd, (unsigned long int)0x8B2B, &iwr);
+    if(!(return_value_ioctl_15 >= 0))
     {
       free((void *)info->keys);
       info->nkeys = (unsigned char)0;
       break;
     }
 
-    (info->keys + (signed long int)dyn_info_get$$1$$i)->size = iwr.u.data.length;
-    (info->keys + (signed long int)dyn_info_get$$1$$i)->flags = iwr.u.data.flags;
-    if(1 + dyn_info_get$$1$$i == (signed int)info->active_key)
+    (info->keys + (signed long int)dyn_info_get__1__i)->size = iwr.u.data.length;
+    (info->keys + (signed long int)dyn_info_get__1__i)->flags = iwr.u.data.flags;
+    if(1 + dyn_info_get__1__i == (signed int)info->active_key)
     {
-      if((signed int)(info->keys + (signed long int)dyn_info_get$$1$$i)->size == 0)
-        tmp_if_expr$16 = (_Bool)1;
+      if((signed int)(info->keys + (signed long int)dyn_info_get__1__i)->size == 0)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
-        tmp_if_expr$16 = ((signed int)(info->keys + (signed long int)dyn_info_get$$1$$i)->flags & 0x8000) != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$16)
+        tmp_if_expr_16 = ((signed int)(info->keys + (signed long int)dyn_info_get__1__i)->flags & 0x8000) != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_16)
         info->active_key = (unsigned char)0;
 
     }
 
   }
-  signed int return_value_ioctl$17;
-  return_value_ioctl$17=ioctl(skfd, (unsigned long int)0x8B15, &iwr);
-  if(return_value_ioctl$17 >= 0)
+  signed int return_value_ioctl_17;
+  return_value_ioctl_17=ioctl(skfd, (unsigned long int)0x8B15, &iwr);
+  if(return_value_ioctl_17 >= 0)
   {
     info->cap_ap = (_Bool)1;
     memcpy((void *)&info->ap_addr, (const void *)&iwr.u.ap_addr, sizeof(struct sockaddr) /*16ul*/ );
@@ -5126,19 +5126,19 @@ extern void dyn_info_get(struct iw_dyn_info *info, const char *ifname, struct iw
 // file iw_if.h line 169
 static inline unsigned char dyn_info_wep_keys(struct iw_dyn_info *info)
 {
-  signed int dyn_info_wep_keys$$1$$i;
+  signed int dyn_info_wep_keys__1__i;
   signed int num_wep = 0;
-  dyn_info_wep_keys$$1$$i = 0;
-  _Bool tmp_if_expr$1;
-  for( ; !(dyn_info_wep_keys$$1$$i >= (signed int)info->nkeys); dyn_info_wep_keys$$1$$i = dyn_info_wep_keys$$1$$i + 1)
-    if((0x8000 & (signed int)(info->keys + (signed long int)dyn_info_wep_keys$$1$$i)->flags) == 0)
+  dyn_info_wep_keys__1__i = 0;
+  _Bool tmp_if_expr_1;
+  for( ; !(dyn_info_wep_keys__1__i >= (signed int)info->nkeys); dyn_info_wep_keys__1__i = dyn_info_wep_keys__1__i + 1)
+    if((0x8000 & (signed int)(info->keys + (signed long int)dyn_info_wep_keys__1__i)->flags) == 0)
     {
-      if((signed int)(info->keys + (signed long int)dyn_info_wep_keys$$1$$i)->size == 5)
-        tmp_if_expr$1 = (_Bool)1;
+      if((signed int)(info->keys + (signed long int)dyn_info_wep_keys__1__i)->size == 5)
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)(info->keys + (signed long int)dyn_info_wep_keys$$1$$i)->size == 13 ? (_Bool)1 : (_Bool)0;
-      num_wep = num_wep + (signed int)tmp_if_expr$1;
+        tmp_if_expr_1 = (signed int)(info->keys + (signed long int)dyn_info_wep_keys__1__i)->size == 13 ? (_Bool)1 : (_Bool)0;
+      num_wep = num_wep + (signed int)tmp_if_expr_1;
     }
 
   return (unsigned char)num_wep;
@@ -5148,9 +5148,9 @@ static inline unsigned char dyn_info_wep_keys(struct iw_dyn_info *info)
 // file timer.c line 38
 extern _Bool end_timer(struct timer *t)
 {
-  unsigned long int return_value_get_usecs$1;
-  return_value_get_usecs$1=get_usecs();
-  return return_value_get_usecs$1 >= t->stime + t->duration;
+  unsigned long int return_value_get_usecs_1;
+  return_value_get_usecs_1=get_usecs();
+  return return_value_get_usecs_1 >= t->stime + t->duration;
 }
 
 // err_msg
@@ -5196,64 +5196,64 @@ char * ether_addr(struct ether_addr *ea)
   char *d = mac;
   char *a;
   a=ether_ntoa(ea);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$1;
-  char *tmp_post$4;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$5;
-  signed int return_value_toupper$6;
-  char *tmp_post$8;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_1;
+  char *tmp_post_4;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_5;
+  signed int return_value_toupper_6;
+  char *tmp_post_8;
   do
   {
 
   next_chunk:
     ;
     if((signed int)*a == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)a[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)a[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)a[(signed long int)1] == 58 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)a[(signed long int)1] == 58 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (char)48;
+      *tmp_post_1 = (char)48;
     }
 
 
   __CPROVER_DUMP_L6:
     ;
-    tmp_post$4 = d;
+    tmp_post_4 = d;
     d = d + 1l;
     if(!(conf.cisco_mac == 0))
     {
       if((signed int)*a == 58)
-        tmp_if_expr$5 = 46;
+        tmp_if_expr_5 = 46;
 
       else
-        tmp_if_expr$5 = (signed int)*a;
-      tmp_if_expr$7 = tmp_if_expr$5;
+        tmp_if_expr_5 = (signed int)*a;
+      tmp_if_expr_7 = tmp_if_expr_5;
     }
 
     else
     {
-      return_value_toupper$6=toupper((signed int)*a);
-      tmp_if_expr$7 = return_value_toupper$6;
+      return_value_toupper_6=toupper((signed int)*a);
+      tmp_if_expr_7 = return_value_toupper_6;
     }
-    *tmp_post$4 = (char)tmp_if_expr$7;
-    if(*tmp_post$4 == 0)
+    *tmp_post_4 = (char)tmp_if_expr_7;
+    if(*tmp_post_4 == 0)
       goto __CPROVER_DUMP_L11;
 
-    tmp_post$8 = a;
+    tmp_post_8 = a;
     a = a + 1l;
   }
-  while((signed int)*tmp_post$8 == 58);
+  while((signed int)*tmp_post_8 == 58);
   goto __CPROVER_DUMP_L6;
 
 __CPROVER_DUMP_L11:
@@ -5265,27 +5265,27 @@ __CPROVER_DUMP_L11:
 // file utils.c line 18
 _Bool ether_addr_is_zero(struct ether_addr *ea)
 {
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   static struct ether_addr zero = { .ether_addr_octet={ (unsigned char)0, 0, 0, 0, 0, 0 } };
-  return_value_memcmp$1=memcmp((const void *)ea, (const void *)&zero, sizeof(struct ether_addr) /*6ul*/ );
-  return return_value_memcmp$1 == 0;
+  return_value_memcmp_1=memcmp((const void *)ea, (const void *)&zero, sizeof(struct ether_addr) /*6ul*/ );
+  return return_value_memcmp_1 == 0;
 }
 
 // ether_lookup
 // file utils.c line 40
 char * ether_lookup(struct ether_addr *ea)
 {
-  signed int return_value_ether_ntohost$1;
+  signed int return_value_ether_ntohost_1;
   static char hostname[8192l];
-  return_value_ether_ntohost$1=ether_ntohost(hostname, ea);
-  if(return_value_ether_ntohost$1 == 0)
+  return_value_ether_ntohost_1=ether_ntohost(hostname, ea);
+  if(return_value_ether_ntohost_1 == 0)
     return hostname;
 
   else
   {
-    char *return_value_ether_addr$2;
-    return_value_ether_addr$2=ether_addr(ea);
-    return return_value_ether_addr$2;
+    char *return_value_ether_addr_2;
+    return_value_ether_addr_2=ether_addr(ea);
+    return return_value_ether_addr_2;
   }
 }
 
@@ -5303,59 +5303,59 @@ static signed int family_handler(struct nl_msg *msg, void *arg)
   struct handler_args *grp = (struct handler_args *)arg;
   struct nlattr *tb[8l];
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$1;
-  return_value_nlmsg_hdr$1=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$2;
-  return_value_nlmsg_data$2=nlmsg_data(return_value_nlmsg_hdr$1);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$2;
+  struct nlmsghdr *return_value_nlmsg_hdr_1;
+  return_value_nlmsg_hdr_1=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_2;
+  return_value_nlmsg_data_2=nlmsg_data(return_value_nlmsg_hdr_1);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_2;
   struct nlattr *mcgrp;
   signed int rem_mcgrp;
-  struct nlattr *return_value_genlmsg_attrdata$3;
-  return_value_genlmsg_attrdata$3=genlmsg_attrdata(gnlh, 0);
-  signed int return_value_genlmsg_attrlen$4;
-  return_value_genlmsg_attrlen$4=genlmsg_attrlen(gnlh, 0);
-  nla_parse(tb, 8 - 1, return_value_genlmsg_attrdata$3, return_value_genlmsg_attrlen$4, (struct nla_policy *)(void *)0);
-  signed int return_value_nla_ok$6;
-  _Bool tmp_if_expr$9;
+  struct nlattr *return_value_genlmsg_attrdata_3;
+  return_value_genlmsg_attrdata_3=genlmsg_attrdata(gnlh, 0);
+  signed int return_value_genlmsg_attrlen_4;
+  return_value_genlmsg_attrlen_4=genlmsg_attrlen(gnlh, 0);
+  nla_parse(tb, 8 - 1, return_value_genlmsg_attrdata_3, return_value_genlmsg_attrlen_4, (struct nla_policy *)(void *)0);
+  signed int return_value_nla_ok_6;
+  _Bool tmp_if_expr_9;
   if(tb[7l] == ((struct nlattr *)NULL))
     return 1;
 
   else
   {
-    void *return_value_nla_data$5;
-    return_value_nla_data$5=nla_data(tb[(signed long int)7]);
-    mcgrp = (struct nlattr *)return_value_nla_data$5;
+    void *return_value_nla_data_5;
+    return_value_nla_data_5=nla_data(tb[(signed long int)7]);
+    mcgrp = (struct nlattr *)return_value_nla_data_5;
     rem_mcgrp=nla_len(tb[(signed long int)7]);
     do
     {
-      return_value_nla_ok$6=nla_ok(mcgrp, rem_mcgrp);
-      if(return_value_nla_ok$6 == 0)
+      return_value_nla_ok_6=nla_ok(mcgrp, rem_mcgrp);
+      if(return_value_nla_ok_6 == 0)
         break;
 
       struct nlattr *tb_mcgrp[3l];
-      void *return_value_nla_data$7;
-      return_value_nla_data$7=nla_data(mcgrp);
-      signed int return_value_nla_len$8;
-      return_value_nla_len$8=nla_len(mcgrp);
-      nla_parse(tb_mcgrp, 3 - 1, (struct nlattr *)return_value_nla_data$7, return_value_nla_len$8, (struct nla_policy *)(void *)0);
+      void *return_value_nla_data_7;
+      return_value_nla_data_7=nla_data(mcgrp);
+      signed int return_value_nla_len_8;
+      return_value_nla_len_8=nla_len(mcgrp);
+      nla_parse(tb_mcgrp, 3 - 1, (struct nlattr *)return_value_nla_data_7, return_value_nla_len_8, (struct nla_policy *)(void *)0);
       if(tb_mcgrp[1l] == ((struct nlattr *)NULL))
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = !(tb_mcgrp[(signed long int)2] != ((struct nlattr *)NULL)) ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$9)
+        tmp_if_expr_9 = !(tb_mcgrp[(signed long int)2] != ((struct nlattr *)NULL)) ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_9)
       {
-        void *return_value_nla_data$10;
-        return_value_nla_data$10=nla_data(tb_mcgrp[(signed long int)1]);
-        signed int return_value_nla_len$11;
-        return_value_nla_len$11=nla_len(tb_mcgrp[(signed long int)1]);
-        signed int return_value_strncmp$12;
-        return_value_strncmp$12=strncmp((const char *)return_value_nla_data$10, grp->group, (unsigned long int)return_value_nla_len$11);
-        if(return_value_strncmp$12 == 0)
+        void *return_value_nla_data_10;
+        return_value_nla_data_10=nla_data(tb_mcgrp[(signed long int)1]);
+        signed int return_value_nla_len_11;
+        return_value_nla_len_11=nla_len(tb_mcgrp[(signed long int)1]);
+        signed int return_value_strncmp_12;
+        return_value_strncmp_12=strncmp((const char *)return_value_nla_data_10, grp->group, (unsigned long int)return_value_nla_len_11);
+        if(return_value_strncmp_12 == 0)
         {
-          unsigned int return_value_nla_get_u32$13;
-          return_value_nla_get_u32$13=nla_get_u32(tb_mcgrp[(signed long int)2]);
-          grp->id = (signed int)return_value_nla_get_u32$13;
+          unsigned int return_value_nla_get_u32_13;
+          return_value_nla_get_u32_13=nla_get_u32(tb_mcgrp[(signed long int)2]);
+          grp->id = (signed int)return_value_nla_get_u32_13;
           break;
         }
 
@@ -5381,17 +5381,17 @@ static inline signed int finish_handler(struct nl_msg *msg, void *arg)
 // file lhist_scr.c line 68
 static char * fmt_extrema(struct iw_extrema *ie, const char *unit)
 {
-  static char fmt_extrema$$1$$range[256l];
+  static char fmt_extrema__1__range[256l];
   if(ie->initialised == (_Bool)0)
-    snprintf(fmt_extrema$$1$$range, sizeof(char [256l]) /*256ul*/ , "unknown");
+    snprintf(fmt_extrema__1__range, sizeof(char [256l]) /*256ul*/ , "unknown");
 
   else
     if(IEEE_FLOAT_EQUAL(ie->min, ie->max))
-      snprintf(fmt_extrema$$1$$range, sizeof(char [256l]) /*256ul*/ , "%+.0f %s", ie->min, unit);
+      snprintf(fmt_extrema__1__range, sizeof(char [256l]) /*256ul*/ , "%+.0f %s", ie->min, unit);
 
     else
-      snprintf(fmt_extrema$$1$$range, sizeof(char [256l]) /*256ul*/ , "%+.0f..%+.0f %s", ie->min, ie->max, unit);
-  return fmt_extrema$$1$$range;
+      snprintf(fmt_extrema__1__range, sizeof(char [256l]) /*256ul*/ , "%+.0f..%+.0f %s", ie->min, ie->max, unit);
+  return fmt_extrema__1__range;
 }
 
 // fmt_scan_entry
@@ -5422,82 +5422,82 @@ static void fmt_scan_entry(struct scan_entry *cur, char *buf, unsigned long int 
           sig_qual = (float)((signed int)cur->bss_signal + 110);
       sig_qual_max = (float)70;
     }
-    signed int return_value_snprintf$1;
-    return_value_snprintf$1=snprintf(buf + (signed long int)len, buflen - len, "%3.0f%%, %d dBm", (1E2 * (double)sig_qual) / (double)sig_qual_max, cur->bss_signal);
-    len = len + (unsigned long int)return_value_snprintf$1;
+    signed int return_value_snprintf_1;
+    return_value_snprintf_1=snprintf(buf + (signed long int)len, buflen - len, "%3.0f%%, %d dBm", (1E2 * (double)sig_qual) / (double)sig_qual_max, cur->bss_signal);
+    len = len + (unsigned long int)return_value_snprintf_1;
   }
 
   else
     if(!(cur->bss_signal_qual == 0))
     {
-      signed int return_value_snprintf$2;
-      return_value_snprintf$2=snprintf(buf + (signed long int)len, buflen - len, "%2d/%d", cur->bss_signal_qual, 100);
-      len = len + (unsigned long int)return_value_snprintf$2;
+      signed int return_value_snprintf_2;
+      return_value_snprintf_2=snprintf(buf + (signed long int)len, buflen - len, "%2d/%d", cur->bss_signal_qual, 100);
+      len = len + (unsigned long int)return_value_snprintf_2;
     }
 
     else
     {
-      signed int return_value_snprintf$3;
-      return_value_snprintf$3=snprintf(buf + (signed long int)len, buflen - len, "? dBm");
-      len = len + (unsigned long int)return_value_snprintf$3;
+      signed int return_value_snprintf_3;
+      return_value_snprintf_3=snprintf(buf + (signed long int)len, buflen - len, "? dBm");
+      len = len + (unsigned long int)return_value_snprintf_3;
     }
-  signed int return_value_snprintf$4;
-  signed int return_value_snprintf$5;
+  signed int return_value_snprintf_4;
+  signed int return_value_snprintf_5;
   if(cur->chan >= 0)
   {
-    return_value_snprintf$4=snprintf(buf + (signed long int)len, buflen - len, ", %s %3d, %d MHz", (double)cur->freq < 5e6 ? "ch" : "CH", cur->chan, cur->freq);
-    len = len + (unsigned long int)return_value_snprintf$4;
+    return_value_snprintf_4=snprintf(buf + (signed long int)len, buflen - len, ", %s %3d, %d MHz", (double)cur->freq < 5e6 ? "ch" : "CH", cur->chan, cur->freq);
+    len = len + (unsigned long int)return_value_snprintf_4;
   }
 
   else
   {
-    return_value_snprintf$5=snprintf(buf + (signed long int)len, buflen - len, ", %g GHz", (double)cur->freq / 1e3);
-    len = len + (unsigned long int)return_value_snprintf$5;
+    return_value_snprintf_5=snprintf(buf + (signed long int)len, buflen - len, ", %g GHz", (double)cur->freq / 1e3);
+    len = len + (unsigned long int)return_value_snprintf_5;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_snprintf$6;
-  signed int return_value_snprintf$7;
-  signed int return_value_snprintf$10;
-  signed int return_value_snprintf$11;
+  _Bool tmp_if_expr_9;
+  signed int return_value_snprintf_6;
+  signed int return_value_snprintf_7;
+  signed int return_value_snprintf_10;
+  signed int return_value_snprintf_11;
   if(!((1 & (signed int)cur->bss_capa) == 0))
   {
     if(!(cur->bss_sta_count == 0))
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (signed int)cur->bss_chan_usage > 2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (signed int)cur->bss_chan_usage > 2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
       if(!(cur->bss_sta_count == 0))
       {
-        return_value_snprintf$6=snprintf(buf + (signed long int)len, buflen - len, " %u sta", cur->bss_sta_count);
-        len = len + (unsigned long int)return_value_snprintf$6;
+        return_value_snprintf_6=snprintf(buf + (signed long int)len, buflen - len, " %u sta", cur->bss_sta_count);
+        len = len + (unsigned long int)return_value_snprintf_6;
       }
 
       if((signed int)cur->bss_chan_usage >= 3)
       {
-        return_value_snprintf$7=snprintf(buf + (signed long int)len, buflen - len, "%s %.0f%% chan", cur->bss_sta_count != 0 ? "," : "", (1e2 * (double)cur->bss_chan_usage) / 2.55e2);
-        len = len + (unsigned long int)return_value_snprintf$7;
+        return_value_snprintf_7=snprintf(buf + (signed long int)len, buflen - len, "%s %.0f%% chan", cur->bss_sta_count != 0 ? "," : "", (1e2 * (double)cur->bss_chan_usage) / 2.55e2);
+        len = len + (unsigned long int)return_value_snprintf_7;
       }
 
     }
 
     else
     {
-      signed int return_value_snprintf$8;
-      return_value_snprintf$8=snprintf(buf + (signed long int)len, buflen - len, " ESS");
-      len = len + (unsigned long int)return_value_snprintf$8;
+      signed int return_value_snprintf_8;
+      return_value_snprintf_8=snprintf(buf + (signed long int)len, buflen - len, " ESS");
+      len = len + (unsigned long int)return_value_snprintf_8;
     }
     if(!((4096 & (signed int)cur->bss_capa) == 0))
     {
-      return_value_snprintf$10=snprintf(buf + (signed long int)len, buflen - len, ", Radio Measure");
-      len = len + (unsigned long int)return_value_snprintf$10;
+      return_value_snprintf_10=snprintf(buf + (signed long int)len, buflen - len, ", Radio Measure");
+      len = len + (unsigned long int)return_value_snprintf_10;
     }
 
     if(!((256 & (signed int)cur->bss_capa) == 0))
     {
-      return_value_snprintf$11=snprintf(buf + (signed long int)len, buflen - len, ", Spectrum Mgmt");
-      len = len + (unsigned long int)return_value_snprintf$11;
+      return_value_snprintf_11=snprintf(buf + (signed long int)len, buflen - len, ", Spectrum Mgmt");
+      len = len + (unsigned long int)return_value_snprintf_11;
     }
 
   }
@@ -5505,9 +5505,9 @@ static void fmt_scan_entry(struct scan_entry *cur, char *buf, unsigned long int 
   else
     if(!((2 & (signed int)cur->bss_capa) == 0))
     {
-      signed int return_value_snprintf$12;
-      return_value_snprintf$12=snprintf(buf + (signed long int)len, buflen - len, " IBSS");
-      len = len + (unsigned long int)return_value_snprintf$12;
+      signed int return_value_snprintf_12;
+      return_value_snprintf_12=snprintf(buf + (signed long int)len, buflen - len, " IBSS");
+      len = len + (unsigned long int)return_value_snprintf_12;
     }
 
 }
@@ -5518,23 +5518,23 @@ char * format_bssid(struct sockaddr *ap)
 {
   unsigned char bcast_addr[6l] = { (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff, (unsigned char)0xff };
   unsigned char zero_addr[6l] = { (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00, (unsigned char)0x00 };
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)ap->sa_data, (const void *)zero_addr, (unsigned long int)6);
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)ap->sa_data, (const void *)zero_addr, (unsigned long int)6);
+  if(return_value_memcmp_1 == 0)
     return "Not-Associated";
 
   else
   {
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)ap->sa_data, (const void *)bcast_addr, (unsigned long int)6);
-    if(return_value_memcmp$2 == 0)
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)ap->sa_data, (const void *)bcast_addr, (unsigned long int)6);
+    if(return_value_memcmp_2 == 0)
       return "Invalid";
 
     else
     {
-      char *return_value_mac_addr$3;
-      return_value_mac_addr$3=mac_addr(ap);
-      return return_value_mac_addr$3;
+      char *return_value_mac_addr_3;
+      return_value_mac_addr_3=mac_addr(ap);
+      return return_value_mac_addr_3;
     }
   }
 }
@@ -5545,33 +5545,33 @@ static inline const char * format_enc_capab(const unsigned int capa, const char 
 {
   unsigned long int len = (unsigned long int)0;
   unsigned long int max = sizeof(char [32l]) /*32ul*/ ;
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   static char buf[32l];
   if(!((1u & capa) == 0u))
   {
-    return_value_snprintf$1=snprintf(buf, max, "WPA");
-    len = (unsigned long int)return_value_snprintf$1;
+    return_value_snprintf_1=snprintf(buf, max, "WPA");
+    len = (unsigned long int)return_value_snprintf_1;
   }
 
-  signed int return_value_snprintf$2;
+  signed int return_value_snprintf_2;
   if(!((2u & capa) == 0u))
   {
-    return_value_snprintf$2=snprintf(buf + (signed long int)len, max - len, "%sWPA2", len != 0ul ? sep : "");
-    len = len + (unsigned long int)return_value_snprintf$2;
+    return_value_snprintf_2=snprintf(buf + (signed long int)len, max - len, "%sWPA2", len != 0ul ? sep : "");
+    len = len + (unsigned long int)return_value_snprintf_2;
   }
 
-  signed int return_value_snprintf$3;
+  signed int return_value_snprintf_3;
   if(!((4u & capa) == 0u))
   {
-    return_value_snprintf$3=snprintf(buf + (signed long int)len, max - len, "%sTKIP", len != 0ul ? sep : "");
-    len = len + (unsigned long int)return_value_snprintf$3;
+    return_value_snprintf_3=snprintf(buf + (signed long int)len, max - len, "%sTKIP", len != 0ul ? sep : "");
+    len = len + (unsigned long int)return_value_snprintf_3;
   }
 
-  signed int return_value_snprintf$4;
+  signed int return_value_snprintf_4;
   if(!((8u & capa) == 0u))
   {
-    return_value_snprintf$4=snprintf(buf + (signed long int)len, max - len, "%sCCMP", len != 0ul ? sep : "");
-    len = len + (unsigned long int)return_value_snprintf$4;
+    return_value_snprintf_4=snprintf(buf + (signed long int)len, max - len, "%sCCMP", len != 0ul ? sep : "");
+    len = len + (unsigned long int)return_value_snprintf_4;
   }
 
   buf[(signed long int)len] = (char)0;
@@ -5582,72 +5582,72 @@ static inline const char * format_enc_capab(const unsigned int capa, const char 
 // file iw_if.h line 429
 static inline char * format_key(struct iw_key * const iwk)
 {
-  signed int format_key$$1$$i;
+  signed int format_key__1__i;
   signed int is_printable = 0;
   signed int len = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(iwk == ((struct iw_key *)NULL)))
-    tmp_if_expr$1 = (unsigned long int)((signed int)iwk->size * 3) < sizeof(char [128l]) /*128ul*/  ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (unsigned long int)((signed int)iwk->size * 3) < sizeof(char [128l]) /*128ul*/  ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion iwk != ((void *)0) && iwk->size * 3 < sizeof(buf) */
-  assert(tmp_if_expr$1);
-  format_key$$1$$i = 0;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  assert(tmp_if_expr_1);
+  format_key__1__i = 0;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
-    if(!(format_key$$1$$i >= (signed int)iwk->size))
+    if(!(format_key__1__i >= (signed int)iwk->size))
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      is_printable = (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)iwk->key[(signed long int)format_key$$1$$i]] & (signed int)(unsigned short int)16384;
-      tmp_if_expr$3 = is_printable != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      is_printable = (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)iwk->key[(signed long int)format_key__1__i]] & (signed int)(unsigned short int)16384;
+      tmp_if_expr_3 = is_printable != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
-    format_key$$1$$i = format_key$$1$$i + 1;
+    format_key__1__i = format_key__1__i + 1;
   }
   while((_Bool)1);
-  signed int return_value_sprintf$4;
+  signed int return_value_sprintf_4;
   static char buf[128l];
   if(!(is_printable == 0))
   {
-    return_value_sprintf$4=sprintf(buf, "\"");
-    len = len + return_value_sprintf$4;
+    return_value_sprintf_4=sprintf(buf, "\"");
+    len = len + return_value_sprintf_4;
   }
 
-  format_key$$1$$i = 0;
-  signed int return_value_sprintf$6;
-  for( ; !(format_key$$1$$i >= (signed int)iwk->size); format_key$$1$$i = format_key$$1$$i + 1)
+  format_key__1__i = 0;
+  signed int return_value_sprintf_6;
+  for( ; !(format_key__1__i >= (signed int)iwk->size); format_key__1__i = format_key__1__i + 1)
     if(!(is_printable == 0))
     {
-      signed int return_value_sprintf$5;
-      return_value_sprintf$5=sprintf(buf + (signed long int)len, "%c", iwk->key[(signed long int)format_key$$1$$i]);
-      len = len + return_value_sprintf$5;
+      signed int return_value_sprintf_5;
+      return_value_sprintf_5=sprintf(buf + (signed long int)len, "%c", iwk->key[(signed long int)format_key__1__i]);
+      len = len + return_value_sprintf_5;
     }
 
     else
     {
-      if((1 & format_key$$1$$i) == 0 && format_key$$1$$i >= 1)
+      if((1 & format_key__1__i) == 0 && format_key__1__i >= 1)
       {
-        return_value_sprintf$6=sprintf(buf + (signed long int)len, "-");
-        len = len + return_value_sprintf$6;
+        return_value_sprintf_6=sprintf(buf + (signed long int)len, "-");
+        len = len + return_value_sprintf_6;
       }
 
-      signed int return_value_sprintf$7;
-      return_value_sprintf$7=sprintf(buf + (signed long int)len, "%02X", iwk->key[(signed long int)format_key$$1$$i]);
-      len = len + return_value_sprintf$7;
+      signed int return_value_sprintf_7;
+      return_value_sprintf_7=sprintf(buf + (signed long int)len, "%02X", iwk->key[(signed long int)format_key__1__i]);
+      len = len + return_value_sprintf_7;
     }
-  signed int return_value_sprintf$8;
+  signed int return_value_sprintf_8;
   if(!(is_printable == 0))
   {
-    return_value_sprintf$8=sprintf(buf + (signed long int)len, "\"");
-    len = len + return_value_sprintf$8;
+    return_value_sprintf_8=sprintf(buf + (signed long int)len, "\"");
+    len = len + return_value_sprintf_8;
   }
 
   sprintf(buf + (signed long int)len, " (%u bits)", (signed int)iwk->size * 8);
@@ -5667,120 +5667,120 @@ static inline char * format_power(struct iw_param *pwr, struct iw_range *range)
     if((signed int)pwr->flags == 0x0000)
       return "on";
 
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   static char buf[128l];
   if(!((0x0001 & (signed int)pwr->flags) == 0))
   {
-    return_value_snprintf$1=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "min ");
-    len = len + return_value_snprintf$1;
+    return_value_snprintf_1=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "min ");
+    len = len + return_value_snprintf_1;
   }
 
-  signed int return_value_snprintf$2;
+  signed int return_value_snprintf_2;
   if(!((0x0002 & (signed int)pwr->flags) == 0))
   {
-    return_value_snprintf$2=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "max ");
-    len = len + return_value_snprintf$2;
+    return_value_snprintf_2=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "max ");
+    len = len + return_value_snprintf_2;
   }
 
-  signed int return_value_snprintf$3;
-  signed int return_value_snprintf$4;
-  signed int return_value_snprintf$5;
+  signed int return_value_snprintf_3;
+  signed int return_value_snprintf_4;
+  signed int return_value_snprintf_5;
   if(!((0x2000 & (signed int)pwr->flags) == 0))
   {
-    return_value_snprintf$3=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "timeout ");
-    len = len + return_value_snprintf$3;
+    return_value_snprintf_3=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "timeout ");
+    len = len + return_value_snprintf_3;
   }
 
   else
     if(!((0x4000 & (signed int)pwr->flags) == 0))
     {
-      return_value_snprintf$4=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "saving ");
-      len = len + return_value_snprintf$4;
+      return_value_snprintf_4=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "saving ");
+      len = len + return_value_snprintf_4;
     }
 
     else
     {
-      return_value_snprintf$5=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "period ");
-      len = len + return_value_snprintf$5;
+      return_value_snprintf_5=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "period ");
+      len = len + return_value_snprintf_5;
     }
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(!((0x0004 & (signed int)pwr->flags) == 0))
-    tmp_if_expr$11 = (signed int)range->we_version_compiled < 21 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_11 = (signed int)range->we_version_compiled < 21 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  signed int return_value_snprintf$6;
-  signed int return_value_snprintf$7;
-  signed int return_value_snprintf$8;
-  signed int return_value_snprintf$9;
-  signed int return_value_snprintf$10;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  signed int return_value_snprintf_6;
+  signed int return_value_snprintf_7;
+  signed int return_value_snprintf_8;
+  signed int return_value_snprintf_9;
+  signed int return_value_snprintf_10;
+  if(tmp_if_expr_11)
   {
-    return_value_snprintf$6=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val / 1e6);
-    len = len + return_value_snprintf$6;
+    return_value_snprintf_6=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val / 1e6);
+    len = len + return_value_snprintf_6;
   }
 
   else
     if(!((0x0004 & (signed int)pwr->flags) == 0))
     {
-      return_value_snprintf$7=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val);
-      len = len + return_value_snprintf$7;
+      return_value_snprintf_7=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val);
+      len = len + return_value_snprintf_7;
     }
 
     else
       if(val > 1e6)
       {
-        return_value_snprintf$8=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g s", val / 1e6);
-        len = len + return_value_snprintf$8;
+        return_value_snprintf_8=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g s", val / 1e6);
+        len = len + return_value_snprintf_8;
       }
 
       else
         if(val > 1e3)
         {
-          return_value_snprintf$9=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g ms", val / 1e3);
-          len = len + return_value_snprintf$9;
+          return_value_snprintf_9=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g ms", val / 1e3);
+          len = len + return_value_snprintf_9;
         }
 
         else
         {
-          return_value_snprintf$10=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g us", val);
-          len = len + return_value_snprintf$10;
+          return_value_snprintf_10=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g us", val);
+          len = len + return_value_snprintf_10;
         }
-  signed int return_value_snprintf$12;
-  signed int return_value_snprintf$13;
-  signed int return_value_snprintf$14;
-  signed int return_value_snprintf$15;
+  signed int return_value_snprintf_12;
+  signed int return_value_snprintf_13;
+  signed int return_value_snprintf_14;
+  signed int return_value_snprintf_15;
   switch((signed int)pwr->flags & 0x0F00)
   {
     case 0x0100:
     {
-      return_value_snprintf$12=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", rcv unicast");
-      len = len + return_value_snprintf$12;
+      return_value_snprintf_12=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", rcv unicast");
+      len = len + return_value_snprintf_12;
       break;
     }
     case 0x0200:
     {
-      return_value_snprintf$13=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", rcv mcast");
-      len = len + return_value_snprintf$13;
+      return_value_snprintf_13=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", rcv mcast");
+      len = len + return_value_snprintf_13;
       break;
     }
     case 0x0300:
     {
-      return_value_snprintf$14=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", rcv all");
-      len = len + return_value_snprintf$14;
+      return_value_snprintf_14=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", rcv all");
+      len = len + return_value_snprintf_14;
       break;
     }
     case 0x0400:
     {
-      return_value_snprintf$15=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", force send");
-      len = len + return_value_snprintf$15;
+      return_value_snprintf_15=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", force send");
+      len = len + return_value_snprintf_15;
       break;
     }
     case 0x0800:
     {
-      signed int return_value_snprintf$16;
-      return_value_snprintf$16=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", repeat mcast");
-      len = len + return_value_snprintf$16;
+      signed int return_value_snprintf_16;
+      return_value_snprintf_16=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, ", repeat mcast");
+      len = len + return_value_snprintf_16;
     }
   }
   return buf;
@@ -5799,40 +5799,40 @@ static inline char * format_retry(struct iw_param *retry, struct iw_range *range
     if((signed int)retry->flags == 0x0000)
       return "on";
 
-  signed int return_value_snprintf$1;
+  signed int return_value_snprintf_1;
   static char buf[128l];
   if(!((0x0001 & (signed int)retry->flags) == 0))
   {
-    return_value_snprintf$1=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "min ");
-    len = len + return_value_snprintf$1;
+    return_value_snprintf_1=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "min ");
+    len = len + return_value_snprintf_1;
   }
 
-  signed int return_value_snprintf$2;
+  signed int return_value_snprintf_2;
   if(!((0x0002 & (signed int)retry->flags) == 0))
   {
-    return_value_snprintf$2=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "max ");
-    len = len + return_value_snprintf$2;
+    return_value_snprintf_2=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "max ");
+    len = len + return_value_snprintf_2;
   }
 
-  signed int return_value_snprintf$3;
+  signed int return_value_snprintf_3;
   if(!((0x0010 & (signed int)retry->flags) == 0))
   {
-    return_value_snprintf$3=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "short ");
-    len = len + return_value_snprintf$3;
+    return_value_snprintf_3=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "short ");
+    len = len + return_value_snprintf_3;
   }
 
-  signed int return_value_snprintf$4;
+  signed int return_value_snprintf_4;
   if(!((0x0020 & (signed int)retry->flags) == 0))
   {
-    return_value_snprintf$4=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "long ");
-    len = len + return_value_snprintf$4;
+    return_value_snprintf_4=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "long ");
+    len = len + return_value_snprintf_4;
   }
 
-  signed int return_value_snprintf$5;
+  signed int return_value_snprintf_5;
   if(!((0x2000 & (signed int)retry->flags) == 0))
   {
-    return_value_snprintf$5=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "lifetime ");
-    len = len + return_value_snprintf$5;
+    return_value_snprintf_5=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "lifetime ");
+    len = len + return_value_snprintf_5;
   }
 
   else
@@ -5840,48 +5840,48 @@ static inline char * format_retry(struct iw_param *retry, struct iw_range *range
     snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "limit %d", retry->value);
     return buf;
   }
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(!((0x0004 & (signed int)retry->flags) == 0))
-    tmp_if_expr$11 = (signed int)range->we_version_compiled < 21 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_11 = (signed int)range->we_version_compiled < 21 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  signed int return_value_snprintf$6;
-  signed int return_value_snprintf$7;
-  signed int return_value_snprintf$8;
-  signed int return_value_snprintf$9;
-  signed int return_value_snprintf$10;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  signed int return_value_snprintf_6;
+  signed int return_value_snprintf_7;
+  signed int return_value_snprintf_8;
+  signed int return_value_snprintf_9;
+  signed int return_value_snprintf_10;
+  if(tmp_if_expr_11)
   {
-    return_value_snprintf$6=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val / 1e6);
-    len = len + return_value_snprintf$6;
+    return_value_snprintf_6=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val / 1e6);
+    len = len + return_value_snprintf_6;
   }
 
   else
     if(!((0x0004 & (signed int)retry->flags) == 0))
     {
-      return_value_snprintf$7=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val);
-      len = len + return_value_snprintf$7;
+      return_value_snprintf_7=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%+g", val);
+      len = len + return_value_snprintf_7;
     }
 
     else
       if(val > 1e6)
       {
-        return_value_snprintf$8=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g s", val / 1e6);
-        len = len + return_value_snprintf$8;
+        return_value_snprintf_8=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g s", val / 1e6);
+        len = len + return_value_snprintf_8;
       }
 
       else
         if(val > 1e3)
         {
-          return_value_snprintf$9=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g ms", val / 1e3);
-          len = len + return_value_snprintf$9;
+          return_value_snprintf_9=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g ms", val / 1e3);
+          len = len + return_value_snprintf_9;
         }
 
         else
         {
-          return_value_snprintf$10=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g us", val);
-          len = len + return_value_snprintf$10;
+          return_value_snprintf_10=snprintf(buf + (signed long int)len, sizeof(char [128l]) /*128ul*/  - (unsigned long int)len, "%g us", val);
+          len = len + return_value_snprintf_10;
         }
   return buf;
 }
@@ -5890,8 +5890,8 @@ static inline char * format_retry(struct iw_param *retry, struct iw_range *range
 // file iw_if.h line 325
 static inline char * format_txpower(struct iw_param *txpwr)
 {
-  double return_value_mw2dbm$1;
-  double return_value_dbm2mw$2;
+  double return_value_mw2dbm_1;
+  double return_value_dbm2mw_2;
   static char txline[64l];
   if(!((0x0002 & (signed int)txpwr->flags) == 0))
     snprintf(txline, sizeof(char [64l]) /*64ul*/ , "%d (no units)", txpwr->value);
@@ -5899,14 +5899,14 @@ static inline char * format_txpower(struct iw_param *txpwr)
   else
     if(!((0x0001 & (signed int)txpwr->flags) == 0))
     {
-      return_value_mw2dbm$1=mw2dbm((const double)txpwr->value);
-      snprintf(txline, sizeof(char [64l]) /*64ul*/ , "%.0f dBm (%d mW)", return_value_mw2dbm$1, txpwr->value);
+      return_value_mw2dbm_1=mw2dbm((const double)txpwr->value);
+      snprintf(txline, sizeof(char [64l]) /*64ul*/ , "%.0f dBm (%d mW)", return_value_mw2dbm_1, txpwr->value);
     }
 
     else
     {
-      return_value_dbm2mw$2=dbm2mw((const double)txpwr->value);
-      snprintf(txline, sizeof(char [64l]) /*64ul*/ , "%d dBm (%.2f mW)", txpwr->value, return_value_dbm2mw$2);
+      return_value_dbm2mw_2=dbm2mw((const double)txpwr->value);
+      snprintf(txline, sizeof(char [64l]) /*64ul*/ , "%d dBm (%.2f mW)", txpwr->value, return_value_dbm2mw_2);
     }
   return txline;
 }
@@ -5915,9 +5915,9 @@ static inline char * format_txpower(struct iw_param *txpwr)
 // file iw_if.h line 480
 static inline const char * format_wpa(struct iw_range *ir)
 {
-  const char *return_value_format_enc_capab$1;
-  return_value_format_enc_capab$1=format_enc_capab(ir->enc_capa & (unsigned int)(0x00000001 | 0x00000002), "/");
-  return return_value_format_enc_capab$1;
+  const char *return_value_format_enc_capab_1;
+  return_value_format_enc_capab_1=format_enc_capab(ir->enc_capa & (unsigned int)(0x00000001 | 0x00000002), "/");
+  return return_value_format_enc_capab_1;
 }
 
 // free_scan_list
@@ -5936,9 +5936,9 @@ static void free_scan_list(struct scan_entry *head)
 // file iw_if.h line 397
 static inline float freq_to_hz(struct iw_freq *freq)
 {
-  double return_value_pow$1;
-  return_value_pow$1=pow((double)10, (double)freq->e);
-  return (float)((double)freq->m * return_value_pow$1);
+  double return_value_pow_1;
+  return_value_pow_1=pow((double)10, (double)freq->e);
+  return (float)((double)freq->m * return_value_pow_1);
 }
 
 // get_confname
@@ -5951,22 +5951,22 @@ static char * get_confname(void)
   struct passwd *pw;
   if(homedir == ((char *)NULL))
   {
-    unsigned int return_value_getuid$1;
-    return_value_getuid$1=getuid();
-    pw=getpwuid(return_value_getuid$1);
+    unsigned int return_value_getuid_1;
+    return_value_getuid_1=getuid();
+    pw=getpwuid(return_value_getuid_1);
     if(pw == ((struct passwd *)NULL))
-      err_quit("can not determine $HOME");
+      err_quit("can not determine _HOME");
 
     homedir = pw->pw_dir;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(homedir);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(".wavemonrc");
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)3);
-  full_path = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(homedir);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(".wavemonrc");
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)3);
+  full_path = (char *)return_value_malloc_4;
   sprintf(full_path, "%s/%s", homedir, (const void *)".wavemonrc");
   return full_path;
 }
@@ -6030,9 +6030,9 @@ extern void getconf(signed int argc, char **argv)
   if(!(version == 0))
   {
     printf("wavemon %s", (const void *)"0.8.0");
-    const char *return_value_curses_version$1;
-    return_value_curses_version$1=curses_version();
-    printf(" with %s.\n", return_value_curses_version$1);
+    const char *return_value_curses_version_1;
+    return_value_curses_version_1=curses_version();
+    printf(" with %s.\n", return_value_curses_version_1);
     printf("Distributed under the terms of the GPLv3.\n%s", help != 0 ? "\n" : "");
   }
 
@@ -6065,9 +6065,9 @@ extern signed int handle_cmd(struct cmd *cmd)
     if(cmd->sk == ((struct nl_sock *)NULL))
       err_sys("failed to allocate netlink socket");
 
-    signed int return_value_genl_connect$1;
-    return_value_genl_connect$1=genl_connect(cmd->sk);
-    if(!(return_value_genl_connect$1 == 0))
+    signed int return_value_genl_connect_1;
+    return_value_genl_connect_1=genl_connect(cmd->sk);
+    if(!(return_value_genl_connect_1 == 0))
       err_sys("failed to connect to GeNetlink");
 
   }
@@ -6081,18 +6081,18 @@ extern signed int handle_cmd(struct cmd *cmd)
 
   }
 
-  const char *return_value_conf_ifname$2;
-  return_value_conf_ifname$2=conf_ifname();
-  ifindex=if_nametoindex(return_value_conf_ifname$2);
-  signed int *return_value___errno_location$4;
-  const char *return_value_conf_ifname$3;
+  const char *return_value_conf_ifname_2;
+  return_value_conf_ifname_2=conf_ifname();
+  ifindex=if_nametoindex(return_value_conf_ifname_2);
+  signed int *return_value___errno_location_4;
+  const char *return_value_conf_ifname_3;
   if(ifindex == 0u)
   {
-    return_value___errno_location$4=__errno_location();
-    if(!(*return_value___errno_location$4 == 0))
+    return_value___errno_location_4=__errno_location();
+    if(!(*return_value___errno_location_4 == 0))
     {
-      return_value_conf_ifname$3=conf_ifname();
-      err_sys("failed to look up interface %s", return_value_conf_ifname$3);
+      return_value_conf_ifname_3=conf_ifname();
+      err_sys("failed to look up interface %s", return_value_conf_ifname_3);
     }
 
   }
@@ -6108,9 +6108,9 @@ extern signed int handle_cmd(struct cmd *cmd)
   genlmsg_put(msg, (unsigned int)0, (unsigned int)0, nl80211_id, 0, cmd->flags, (unsigned char)cmd->cmd, (unsigned char)0);
   do
   {
-    signed int return_value_nla_put$5;
-    return_value_nla_put$5=nla_put(msg, 3, (signed int)sizeof(unsigned int) /*4ul*/ , (const void *)&ifindex);
-    if(!(return_value_nla_put$5 >= 0))
+    signed int return_value_nla_put_5;
+    return_value_nla_put_5=nla_put(msg, 3, (signed int)sizeof(unsigned int) /*4ul*/ , (const void *)&ifindex);
+    if(!(return_value_nla_put_5 >= 0))
       goto nla_put_failure;
 
   }
@@ -6121,9 +6121,9 @@ extern signed int handle_cmd(struct cmd *cmd)
     for( ; !(idx >= (unsigned int)cmd->msg_args_len); idx = idx + 1u)
       do
       {
-        signed int return_value_nla_put$6;
-        return_value_nla_put$6=nla_put(msg, (cmd->msg_args + (signed long int)idx)->type, (cmd->msg_args + (signed long int)idx)->len, (cmd->msg_args + (signed long int)idx)->data);
-        if(!(return_value_nla_put$6 >= 0))
+        signed int return_value_nla_put_6;
+        return_value_nla_put_6=nla_put(msg, (cmd->msg_args + (signed long int)idx)->type, (cmd->msg_args + (signed long int)idx)->len, (cmd->msg_args + (signed long int)idx)->data);
+        if(!(return_value_nla_put_6 >= 0))
           goto nla_put_failure;
 
       }
@@ -6159,27 +6159,27 @@ out:
 // file error.c line 42
 extern _Bool has_net_admin_capability(void)
 {
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  return return_value_geteuid$1 == (unsigned int)0;
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  return return_value_geteuid_1 == (unsigned int)0;
 }
 
 // hist_level
 // file lhist_scr.c line 172
 static double hist_level(double val, signed int min, signed int max)
 {
-  double return_value_map_range$1;
-  return_value_map_range$1=map_range(val, (double)min, (double)max, (double)1, (double)(((LINES - 1) - 3) - 1));
-  return return_value_map_range$1;
+  double return_value_map_range_1;
+  return_value_map_range_1=map_range(val, (double)min, (double)max, (double)1, (double)(((LINES - 1) - 3) - 1));
+  return return_value_map_range_1;
 }
 
 // hist_level_inverse
 // file lhist_scr.c line 177
 static double hist_level_inverse(signed int y_level, signed int min, signed int max)
 {
-  double return_value_map_range$1;
-  return_value_map_range$1=map_range((double)y_level, (double)1, (double)(((LINES - 1) - 3) - 1), (double)min, (double)max);
-  return return_value_map_range$1;
+  double return_value_map_range_1;
+  return_value_map_range_1=map_range((double)y_level, (double)1, (double)(((LINES - 1) - 3) - 1), (double)min, (double)max);
+  return return_value_map_range_1;
 }
 
 // hist_plot
@@ -6190,9 +6190,9 @@ static void hist_plot(double yval, signed int xval, enum colour_pair plot_colour
   double fraction;
   unsigned long int ch;
   fraction=modf(yval, &level);
-  _Bool return_value_in_range$4;
-  return_value_in_range$4=in_range((signed int)level, 1, ((LINES - 1) - 3) - 1);
-  if(!(return_value_in_range$4 == (_Bool)0))
+  _Bool return_value_in_range_4;
+  return_value_in_range_4=in_range((signed int)level, 1, ((LINES - 1) - 3) - 1);
+  if(!(return_value_in_range_4 == (_Bool)0))
   {
     if(fraction < 0.2)
       ch = acs_map[(signed long int)(unsigned char)115];
@@ -6219,13 +6219,13 @@ static void hist_plot(double yval, signed int xval, enum colour_pair plot_colour
 
     else
       -1;
-    signed int return_value_hist_y$1;
-    return_value_hist_y$1=hist_y((signed int)level);
-    signed int return_value_hist_x$2;
-    return_value_hist_x$2=hist_x(xval);
-    signed int return_value_wmove$3;
-    return_value_wmove$3=wmove(w_lhist, return_value_hist_y$1, return_value_hist_x$2);
-    if(return_value_wmove$3 == -1)
+    signed int return_value_hist_y_1;
+    return_value_hist_y_1=hist_y((signed int)level);
+    signed int return_value_hist_x_2;
+    return_value_hist_x_2=hist_x(xval);
+    signed int return_value_wmove_3;
+    return_value_wmove_3=wmove(w_lhist, return_value_hist_y_1, return_value_hist_x_2);
+    if(return_value_wmove_3 == -1)
       -1;
 
     else
@@ -6238,18 +6238,18 @@ static void hist_plot(double yval, signed int xval, enum colour_pair plot_colour
 // file lhist_scr.c line 189
 static signed int hist_x(signed int xval)
 {
-  signed int return_value_reverse_range$1;
-  return_value_reverse_range$1=reverse_range(xval, 1, COLS - 2);
-  return return_value_reverse_range$1;
+  signed int return_value_reverse_range_1;
+  return_value_reverse_range_1=reverse_range(xval, 1, COLS - 2);
+  return return_value_reverse_range_1;
 }
 
 // hist_y
 // file lhist_scr.c line 183
 static signed int hist_y(signed int yval)
 {
-  signed int return_value_reverse_range$1;
-  return_value_reverse_range$1=reverse_range(yval, 1, ((LINES - 1) - 3) - 1);
-  return return_value_reverse_range$1;
+  signed int return_value_reverse_range_1;
+  return_value_reverse_range_1=reverse_range(yval, 1, ((LINES - 1) - 3) - 1);
+  return return_value_reverse_range_1;
 }
 
 // ieee80211_frequency_to_channel
@@ -6286,9 +6286,9 @@ static signed int if_get_flags(signed int skfd, const char *ifname)
   struct ifreq ifr;
   memset((void *)&ifr, 0, sizeof(struct ifreq) /*40ul*/ );
   strncpy(ifr.ifr_ifrn.ifrn_name, ifname, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(skfd, (unsigned long int)0x8913, &ifr);
-  if(!(return_value_ioctl$1 >= 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(skfd, (unsigned long int)0x8913, &ifr);
+  if(!(return_value_ioctl_1 >= 0))
     err_sys("can not get interface flags for %s", ifname);
 
   return (signed int)ifr.ifr_ifru.ifru_flags;
@@ -6306,38 +6306,38 @@ extern void if_getinf(const char *ifname, struct if_info *info)
 
   memset((void *)&ifr, 0, sizeof(struct ifreq) /*40ul*/ );
   memset((void *)info, 0, sizeof(struct if_info) /*28ul*/ );
-  signed int return_value_if_get_flags$1;
-  return_value_if_get_flags$1=if_get_flags(skfd, ifname);
-  info->flags = (unsigned short int)return_value_if_get_flags$1;
+  signed int return_value_if_get_flags_1;
+  return_value_if_get_flags_1=if_get_flags(skfd, ifname);
+  info->flags = (unsigned short int)return_value_if_get_flags_1;
   strncpy(ifr.ifr_ifrn.ifrn_name, ifname, (unsigned long int)16);
-  signed int return_value_ioctl$2;
-  return_value_ioctl$2=ioctl(skfd, (unsigned long int)0x8921, &ifr);
-  if(return_value_ioctl$2 == 0)
+  signed int return_value_ioctl_2;
+  return_value_ioctl_2=ioctl(skfd, (unsigned long int)0x8921, &ifr);
+  if(return_value_ioctl_2 == 0)
     info->mtu = (unsigned short int)ifr.ifr_ifru.ifru_mtu;
 
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(skfd, (unsigned long int)0x8942, &ifr);
-  if(return_value_ioctl$3 >= 0)
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(skfd, (unsigned long int)0x8942, &ifr);
+  if(return_value_ioctl_3 >= 0)
     info->txqlen = (unsigned short int)ifr.ifr_ifru.ifru_ivalue;
 
-  signed int return_value_ioctl$4;
-  return_value_ioctl$4=ioctl(skfd, (unsigned long int)0x8927, &ifr);
-  if(return_value_ioctl$4 >= 0)
+  signed int return_value_ioctl_4;
+  return_value_ioctl_4=ioctl(skfd, (unsigned long int)0x8927, &ifr);
+  if(return_value_ioctl_4 >= 0)
     memcpy((void *)&info->hwaddr, (const void *)&ifr.ifr_ifru.ifru_hwaddr.sa_data, (unsigned long int)6);
 
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(skfd, (unsigned long int)0x8915, &ifr);
-  if(return_value_ioctl$5 >= 0)
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(skfd, (unsigned long int)0x8915, &ifr);
+  if(return_value_ioctl_5 >= 0)
     memcpy((void *)&info->addr, (const void *)&ifr.ifr_ifru.ifru_addr.sa_data[(signed long int)2], (unsigned long int)4);
 
-  signed int return_value_ioctl$6;
-  return_value_ioctl$6=ioctl(skfd, (unsigned long int)0x891b, &ifr);
-  if(return_value_ioctl$6 >= 0)
+  signed int return_value_ioctl_6;
+  return_value_ioctl_6=ioctl(skfd, (unsigned long int)0x891b, &ifr);
+  if(return_value_ioctl_6 >= 0)
     memcpy((void *)&info->netmask, (const void *)&ifr.ifr_ifru.ifru_netmask.sa_data[(signed long int)2], (unsigned long int)4);
 
-  signed int return_value_ioctl$7;
-  return_value_ioctl$7=ioctl(skfd, (unsigned long int)0x8919, &ifr);
-  if(return_value_ioctl$7 >= 0)
+  signed int return_value_ioctl_7;
+  return_value_ioctl_7=ioctl(skfd, (unsigned long int)0x8919, &ifr);
+  if(return_value_ioctl_7 >= 0)
     memcpy((void *)&info->bcast, (const void *)&ifr.ifr_ifru.ifru_broadaddr.sa_data[(signed long int)2], (unsigned long int)4);
 
   close(skfd);
@@ -6349,7 +6349,7 @@ extern void if_getstat(const char *ifname, struct if_stat *stat)
 {
   char line[256l];
   unsigned long long int d;
-  char *if_getstat$$1$$lp;
+  char *if_getstat__1__lp;
   unsigned long int l;
   l=strlen(ifname);
   const char path[14l] = { '/', 'p', 'r', 'o', 'c', '/', 'n', 'e', 't', '/', 'd', 'e', 'v', 0 };
@@ -6358,27 +6358,27 @@ extern void if_getstat(const char *ifname, struct if_stat *stat)
   if(fp == ((struct _IO_FILE *)NULL))
     err_sys("can not open %s", (const void *)path);
 
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strspn$2;
-    return_value_strspn$2=strspn(line, " ");
-    if_getstat$$1$$lp = line + (signed long int)return_value_strspn$2;
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(if_getstat$$1$$lp, ifname, l);
-    if(return_value_strncmp$4 == 0)
+    unsigned long int return_value_strspn_2;
+    return_value_strspn_2=strspn(line, " ");
+    if_getstat__1__lp = line + (signed long int)return_value_strspn_2;
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(if_getstat__1__lp, ifname, l);
+    if(return_value_strncmp_4 == 0)
     {
-      if((signed int)if_getstat$$1$$lp[(signed long int)l] == 58)
+      if((signed int)if_getstat__1__lp[(signed long int)l] == 58)
       {
-        if_getstat$$1$$lp = if_getstat$$1$$lp + (signed long int)(l + (unsigned long int)1);
-        unsigned long int return_value_strspn$3;
-        return_value_strspn$3=strspn(if_getstat$$1$$lp, " ");
-        if_getstat$$1$$lp = if_getstat$$1$$lp + (signed long int)return_value_strspn$3;
-        sscanf(if_getstat$$1$$lp, "%llu %llu %llu %llu %llu %llu %llu %llu %llu %llu", &stat->rx_bytes, &stat->rx_packets, &d, &d, &d, &d, &d, &d, &stat->tx_bytes, &stat->tx_packets);
+        if_getstat__1__lp = if_getstat__1__lp + (signed long int)(l + (unsigned long int)1);
+        unsigned long int return_value_strspn_3;
+        return_value_strspn_3=strspn(if_getstat__1__lp, " ");
+        if_getstat__1__lp = if_getstat__1__lp + (signed long int)return_value_strspn_3;
+        sscanf(if_getstat__1__lp, "%llu %llu %llu %llu %llu %llu %llu %llu %llu %llu", &stat->rx_bytes, &stat->rx_packets, &d, &d, &d, &d, &d, &d, &stat->tx_bytes, &stat->tx_packets);
       }
 
     }
@@ -6398,9 +6398,9 @@ extern _Bool if_is_up(const char *ifname)
   if(!(skfd >= 0))
     err_sys("%s: can not open socket", (const void *)"if_is_up");
 
-  signed int return_value_if_get_flags$1;
-  return_value_if_get_flags$1=if_get_flags(skfd, ifname);
-  ret = return_value_if_get_flags$1 & 1;
+  signed int return_value_if_get_flags_1;
+  return_value_if_get_flags_1=if_get_flags(skfd, ifname);
+  ret = return_value_if_get_flags_1 & 1;
   close(skfd);
   return (_Bool)ret;
 }
@@ -6418,9 +6418,9 @@ extern signed int if_set_up(const char *ifname)
 
   memset((void *)&ifr, 0, sizeof(struct ifreq) /*40ul*/ );
   strncpy(ifr.ifr_ifrn.ifrn_name, ifname, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
-  signed int return_value_if_get_flags$1;
-  return_value_if_get_flags$1=if_get_flags(skfd, ifname);
-  ifr.ifr_ifru.ifru_flags = (signed short int)return_value_if_get_flags$1;
+  signed int return_value_if_get_flags_1;
+  return_value_if_get_flags_1=if_get_flags(skfd, ifname);
+  ifr.ifr_ifru.ifru_flags = (signed short int)return_value_if_get_flags_1;
   if(!((1 & (signed int)ifr.ifr_ifru.ifru_flags) == 0))
     return 0;
 
@@ -6439,39 +6439,39 @@ static signed int iface_handler(struct nl_msg *msg, void *arg)
 {
   struct iw_nl80211_ifstat *ifs = (struct iw_nl80211_ifstat *)arg;
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$1;
-  return_value_nlmsg_hdr$1=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$2;
-  return_value_nlmsg_data$2=nlmsg_data(return_value_nlmsg_hdr$1);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$2;
+  struct nlmsghdr *return_value_nlmsg_hdr_1;
+  return_value_nlmsg_hdr_1=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_2;
+  return_value_nlmsg_data_2=nlmsg_data(return_value_nlmsg_hdr_1);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_2;
   struct nlattr *tb_msg[222l];
   /* assertion ifs != ((void *)0) */
   assert(ifs != (struct iw_nl80211_ifstat *)(void *)0);
-  struct nlattr *return_value_genlmsg_attrdata$3;
-  return_value_genlmsg_attrdata$3=genlmsg_attrdata(gnlh, 0);
-  signed int return_value_genlmsg_attrlen$4;
-  return_value_genlmsg_attrlen$4=genlmsg_attrlen(gnlh, 0);
-  nla_parse(tb_msg, 221, return_value_genlmsg_attrdata$3, return_value_genlmsg_attrlen$4, (struct nla_policy *)(void *)0);
+  struct nlattr *return_value_genlmsg_attrdata_3;
+  return_value_genlmsg_attrdata_3=genlmsg_attrdata(gnlh, 0);
+  signed int return_value_genlmsg_attrlen_4;
+  return_value_genlmsg_attrlen_4=genlmsg_attrlen(gnlh, 0);
+  nla_parse(tb_msg, 221, return_value_genlmsg_attrdata_3, return_value_genlmsg_attrlen_4, (struct nla_policy *)(void *)0);
   if(!(tb_msg[1l] == ((struct nlattr *)NULL)))
     ifs->phy=nla_get_u32(tb_msg[(signed long int)1]);
 
   if(!(tb_msg[3l] == ((struct nlattr *)NULL)))
     ifs->ifindex=nla_get_u32(tb_msg[(signed long int)3]);
 
-  unsigned long int return_value_nla_get_u64$5;
+  unsigned long int return_value_nla_get_u64_5;
   if(!(tb_msg[153l] == ((struct nlattr *)NULL)))
   {
-    return_value_nla_get_u64$5=nla_get_u64(tb_msg[(signed long int)153]);
-    ifs->wdev = (unsigned int)return_value_nla_get_u64$5;
+    return_value_nla_get_u64_5=nla_get_u64(tb_msg[(signed long int)153]);
+    ifs->wdev = (unsigned int)return_value_nla_get_u64_5;
   }
 
-  void *return_value_nla_data$6;
-  signed int return_value_nla_len$7;
+  void *return_value_nla_data_6;
+  signed int return_value_nla_len_7;
   if(!(tb_msg[52l] == ((struct nlattr *)NULL)))
   {
-    return_value_nla_data$6=nla_data(tb_msg[(signed long int)52]);
-    return_value_nla_len$7=nla_len(tb_msg[(signed long int)52]);
-    print_ssid_escaped(ifs->ssid, sizeof(char [64l]) /*64ul*/ , (const unsigned char *)return_value_nla_data$6, (const unsigned long int)return_value_nla_len$7);
+    return_value_nla_data_6=nla_data(tb_msg[(signed long int)52]);
+    return_value_nla_len_7=nla_len(tb_msg[(signed long int)52]);
+    print_ssid_escaped(ifs->ssid, sizeof(char [64l]) /*64ul*/ , (const unsigned char *)return_value_nla_data_6, (const unsigned long int)return_value_nla_len_7);
   }
 
   if(!(tb_msg[5l] == ((struct nlattr *)NULL)))
@@ -6479,35 +6479,35 @@ static signed int iface_handler(struct nl_msg *msg, void *arg)
 
   ifs->chan_width = -1;
   ifs->chan_type = -1;
-  unsigned int return_value_nla_get_u32$9;
-  unsigned int return_value_nla_get_u32$10;
-  unsigned int return_value_nla_get_u32$11;
+  unsigned int return_value_nla_get_u32_9;
+  unsigned int return_value_nla_get_u32_10;
+  unsigned int return_value_nla_get_u32_11;
   if(!(tb_msg[38l] == ((struct nlattr *)NULL)))
   {
     ifs->freq=nla_get_u32(tb_msg[(signed long int)38]);
     if(!(tb_msg[159l] == ((struct nlattr *)NULL)))
     {
-      unsigned int return_value_nla_get_u32$8;
-      return_value_nla_get_u32$8=nla_get_u32(tb_msg[(signed long int)159]);
-      ifs->chan_width = (signed int)return_value_nla_get_u32$8;
+      unsigned int return_value_nla_get_u32_8;
+      return_value_nla_get_u32_8=nla_get_u32(tb_msg[(signed long int)159]);
+      ifs->chan_width = (signed int)return_value_nla_get_u32_8;
       if(!(tb_msg[160l] == ((struct nlattr *)NULL)))
       {
-        return_value_nla_get_u32$9=nla_get_u32(tb_msg[(signed long int)160]);
-        ifs->freq_ctr1 = (signed int)return_value_nla_get_u32$9;
+        return_value_nla_get_u32_9=nla_get_u32(tb_msg[(signed long int)160]);
+        ifs->freq_ctr1 = (signed int)return_value_nla_get_u32_9;
       }
 
       if(!(tb_msg[161l] == ((struct nlattr *)NULL)))
       {
-        return_value_nla_get_u32$10=nla_get_u32(tb_msg[(signed long int)161]);
-        ifs->freq_ctr2 = (signed int)return_value_nla_get_u32$10;
+        return_value_nla_get_u32_10=nla_get_u32(tb_msg[(signed long int)161]);
+        ifs->freq_ctr2 = (signed int)return_value_nla_get_u32_10;
       }
 
     }
 
     if(!(tb_msg[39l] == ((struct nlattr *)NULL)))
     {
-      return_value_nla_get_u32$11=nla_get_u32(tb_msg[(signed long int)39]);
-      ifs->chan_type = (signed int)return_value_nla_get_u32$11;
+      return_value_nla_get_u32_11=nla_get_u32(tb_msg[(signed long int)39]);
+      ifs->chan_type = (signed int)return_value_nla_get_u32_11;
     }
 
   }
@@ -6552,121 +6552,121 @@ static void init_conf_items(void)
 {
   struct conf_item *item;
   conf_items=ll_create();
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_1;
   item->name=strdup("Interface");
-  item->type = (enum anonymous$24)t_sep;
+  item->type = (enum anonymous_24)t_sep;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_2;
   item->name=strdup("Interface");
   item->cfname=strdup("interface");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.if_idx;
   item->list = if_list;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_3;
   item->name=strdup("Cisco-style MAC addresses");
   item->cfname=strdup("cisco_mac");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.cisco_mac;
   item->list = on_off_names;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$4;
-  return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$4;
+  void *return_value_calloc_4;
+  return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_4;
   item->name=strdup("Scan sort type");
   item->cfname=strdup("sort_order");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.scan_sort_order;
   item->list = sort_order;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$5;
-  return_value_calloc$5=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$5;
+  void *return_value_calloc_5;
+  return_value_calloc_5=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_5;
   item->name=strdup("Scan sort in ascending order");
   item->cfname=strdup("sort_ascending");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.scan_sort_asc;
   item->list = on_off_names;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$6;
-  return_value_calloc$6=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$6;
+  void *return_value_calloc_6;
+  return_value_calloc_6=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_6;
   item->name=strdup("Statistics updates");
   item->cfname=strdup("stat_updates");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.stat_iv;
   item->min = (double)10;
   item->max = (double)4000;
   item->inc = (double)10;
   item->unit=strdup("ms");
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$7;
-  return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$7;
+  void *return_value_calloc_7;
+  return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_7;
   item->name=strdup("Histogram update cycles");
   item->cfname=strdup("lhist_slot_size");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.slotsize;
   item->min = (double)1;
   item->max = (double)64;
   item->inc = (double)1;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$8;
-  return_value_calloc$8=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$8;
+  void *return_value_calloc_8;
+  return_value_calloc_8=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_8;
   item->name=strdup("Level meter smoothness");
   item->cfname=strdup("meter_smoothness");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.meter_decay;
   item->min = (double)0;
   item->max = (double)99;
   item->inc = (double)1;
   item->unit=strdup("%");
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$9;
-  return_value_calloc$9=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$9;
+  void *return_value_calloc_9;
+  return_value_calloc_9=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_9;
   item->name=strdup("Dynamic info updates");
   item->cfname=strdup("info_updates");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.info_iv;
   item->min = (double)1;
   item->max = (double)60;
   item->inc = (double)1;
   item->unit=strdup("s");
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$10;
-  return_value_calloc$10=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$10;
-  item->type = (enum anonymous$24)t_sep;
+  void *return_value_calloc_10;
+  return_value_calloc_10=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_10;
+  item->type = (enum anonymous_24)t_sep;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$11;
-  return_value_calloc$11=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$11;
+  void *return_value_calloc_11;
+  return_value_calloc_11=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_11;
   item->name=strdup("Level scales");
-  item->type = (enum anonymous$24)t_sep;
+  item->type = (enum anonymous_24)t_sep;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$12;
-  return_value_calloc$12=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$12;
+  void *return_value_calloc_12;
+  return_value_calloc_12=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_12;
   item->name=strdup("Override scale autodetect");
   item->cfname=strdup("override_auto_scale");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.override_bounds;
   item->list = on_off_names;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$13;
-  return_value_calloc$13=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$13;
+  void *return_value_calloc_13;
+  return_value_calloc_13=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_13;
   item->name=strdup("Minimum signal level");
   item->cfname=strdup("min_signal_level");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.sig_min;
   item->min = (double)-100;
   item->max = (double)-39;
@@ -6674,12 +6674,12 @@ static void init_conf_items(void)
   item->unit=strdup("dBm");
   item->dep = &conf.override_bounds;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$14;
-  return_value_calloc$14=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$14;
+  void *return_value_calloc_14;
+  return_value_calloc_14=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_14;
   item->name=strdup("Maximum signal level");
   item->cfname=strdup("max_signal_level");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.sig_max;
   item->min = (double)-40;
   item->max = (double)-10;
@@ -6687,12 +6687,12 @@ static void init_conf_items(void)
   item->unit=strdup("dBm");
   item->dep = &conf.override_bounds;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$15;
-  return_value_calloc$15=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$15;
+  void *return_value_calloc_15;
+  return_value_calloc_15=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_15;
   item->name=strdup("Minimum noise level");
   item->cfname=strdup("min_noise_level");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.noise_min;
   item->min = (double)-120;
   item->max = (double)-70;
@@ -6700,12 +6700,12 @@ static void init_conf_items(void)
   item->unit=strdup("dBm");
   item->dep = &conf.override_bounds;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$16;
-  return_value_calloc$16=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$16;
+  void *return_value_calloc_16;
+  return_value_calloc_16=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_16;
   item->name=strdup("Maximum noise level");
   item->cfname=strdup("max_noise_level");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.noise_max;
   item->min = (double)-69;
   item->max = (double)-40;
@@ -6713,21 +6713,21 @@ static void init_conf_items(void)
   item->unit=strdup("dBm");
   item->dep = &conf.override_bounds;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$17;
-  return_value_calloc$17=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$17;
+  void *return_value_calloc_17;
+  return_value_calloc_17=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_17;
   item->name=strdup("Low threshold action");
   item->cfname=strdup("lo_threshold_action");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.lthreshold_action;
   item->list = action_items;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$18;
-  return_value_calloc$18=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$18;
+  void *return_value_calloc_18;
+  return_value_calloc_18=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_18;
   item->name=strdup("Low threshold");
   item->cfname=strdup("lo_threshold");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.lthreshold;
   item->min = (double)-120;
   item->max = (double)-60;
@@ -6735,21 +6735,21 @@ static void init_conf_items(void)
   item->unit=strdup("dBm");
   item->dep = &conf.lthreshold_action;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$19;
-  return_value_calloc$19=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$19;
+  void *return_value_calloc_19;
+  return_value_calloc_19=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_19;
   item->name=strdup("High threshold action");
   item->cfname=strdup("hi_threshold_action");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.hthreshold_action;
   item->list = action_items;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$20;
-  return_value_calloc$20=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$20;
+  void *return_value_calloc_20;
+  return_value_calloc_20=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_20;
   item->name=strdup("High threshold");
   item->cfname=strdup("hi_threshold");
-  item->type = (enum anonymous$24)t_int;
+  item->type = (enum anonymous_24)t_int;
   item->v.i = &conf.hthreshold;
   item->min = (double)-59;
   item->max = (double)120;
@@ -6757,36 +6757,36 @@ static void init_conf_items(void)
   item->unit=strdup("dBm");
   item->dep = &conf.hthreshold_action;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$21;
-  return_value_calloc$21=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$21;
-  item->type = (enum anonymous$24)t_sep;
+  void *return_value_calloc_21;
+  return_value_calloc_21=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_21;
+  item->type = (enum anonymous_24)t_sep;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$22;
-  return_value_calloc$22=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$22;
+  void *return_value_calloc_22;
+  return_value_calloc_22=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_22;
   item->name=strdup("Startup");
-  item->type = (enum anonymous$24)t_sep;
+  item->type = (enum anonymous_24)t_sep;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$23;
-  return_value_calloc$23=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$23;
+  void *return_value_calloc_23;
+  return_value_calloc_23=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_23;
   item->name=strdup("Startup screen");
   item->cfname=strdup("startup_screen");
-  item->type = (enum anonymous$24)t_list;
+  item->type = (enum anonymous_24)t_list;
   item->v.i = &conf.startup_scr;
   item->list = screen_names;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$24;
-  return_value_calloc$24=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$24;
-  item->type = (enum anonymous$24)t_sep;
+  void *return_value_calloc_24;
+  return_value_calloc_24=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_24;
+  item->type = (enum anonymous_24)t_sep;
   ll_push(conf_items, "*", item);
-  void *return_value_calloc$25;
-  return_value_calloc$25=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
-  item = (struct conf_item *)return_value_calloc$25;
+  void *return_value_calloc_25;
+  return_value_calloc_25=calloc((unsigned long int)1, sizeof(struct conf_item) /*80ul*/ );
+  item = (struct conf_item *)return_value_calloc_25;
   item->name=strdup("Save configuration");
-  item->type = (enum anonymous$24)t_func;
+  item->type = (enum anonymous_24)t_func;
   item->v.fp = (void (*)())write_cf;
   ll_push(conf_items, "*", item);
 }
@@ -6878,13 +6878,13 @@ static void iw_cache_insert(struct iw_levelstat new)
 extern void iw_cache_update(struct iw_nl80211_linkstat *ls)
 {
   signed int sig_level;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed int)ls->signal_avg == 0))
-    tmp_if_expr$1 = (signed int)ls->signal_avg;
+    tmp_if_expr_1 = (signed int)ls->signal_avg;
 
   else
-    tmp_if_expr$1 = (signed int)ls->signal;
-  sig_level = tmp_if_expr$1;
+    tmp_if_expr_1 = (signed int)ls->signal;
+  sig_level = tmp_if_expr_1;
   if(sig_level == 0)
     sig_level = (signed int)ls->bss_signal;
 
@@ -6898,9 +6898,9 @@ extern void iw_cache_update(struct iw_nl80211_linkstat *ls)
     avg.signal = avg.signal + (float)sig_level / (float)conf.slotsize;
     track_extrema((const float)sig_level, &e_signal);
   }
-  _Bool return_value_iw_nl80211_have_survey_data$2;
-  return_value_iw_nl80211_have_survey_data$2=iw_nl80211_have_survey_data$link1(ls);
-  if(!(return_value_iw_nl80211_have_survey_data$2 == (_Bool)0))
+  _Bool return_value_iw_nl80211_have_survey_data_2;
+  return_value_iw_nl80211_have_survey_data_2=iw_nl80211_have_survey_data_link1(ls);
+  if(!(return_value_iw_nl80211_have_survey_data_2 == (_Bool)0))
   {
     avg.flags = avg.flags & (unsigned char)~0x40;
     avg.noise = avg.noise + (float)ls->survey.noise / (float)conf.slotsize;
@@ -6950,13 +6950,13 @@ extern void iw_get_interface_list(char **if_list, unsigned long int max_entries)
   if(fp == ((struct _IO_FILE *)NULL))
     err_sys("can not open /proc/net/dev");
 
-  char *return_value_fgets$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  signed int tmp_post$4;
+  char *return_value_fgets_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  signed int tmp_post_4;
   do
   {
-    return_value_fgets$1=fgets(tmp, (signed int)sizeof(char [8192l]) /*8192ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(tmp, (signed int)sizeof(char [8192l]) /*8192ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     p=strchr(tmp, 58);
@@ -6966,25 +6966,25 @@ extern void iw_get_interface_list(char **if_list, unsigned long int max_entries)
       p = tmp;
       do
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
           break;
 
         p = p + 1l;
       }
       while((_Bool)1);
       snprintf(wrq.ifr_ifrn.ifrn_name, (unsigned long int)16, "%s", p);
-      signed int return_value_ioctl$3;
-      return_value_ioctl$3=ioctl(skfd, (unsigned long int)0x8B01, &wrq);
-      if(return_value_ioctl$3 >= 0)
+      signed int return_value_ioctl_3;
+      return_value_ioctl_3=ioctl(skfd, (unsigned long int)0x8B01, &wrq);
+      if(return_value_ioctl_3 >= 0)
       {
         if((unsigned long int)nifs >= max_entries)
           break;
 
         if_list[(signed long int)(nifs - 1)]=strdup(p);
-        tmp_post$4 = nifs;
+        tmp_post_4 = nifs;
         nifs = nifs + 1;
-        if_list[(signed long int)tmp_post$4] = (char *)(void *)0;
+        if_list[(signed long int)tmp_post_4] = (char *)(void *)0;
       }
 
     }
@@ -7010,9 +7010,9 @@ extern void iw_getinf_range(const char *ifname, struct iw_range *range)
   iwr.u.data.pointer = (void *)(char *)range;
   iwr.u.data.length = (unsigned short int)sizeof(struct iw_range) /*568ul*/ ;
   iwr.u.data.flags = (unsigned short int)0;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(skfd, (unsigned long int)0x8B0B, &iwr);
-  if(!(return_value_ioctl$1 >= 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(skfd, (unsigned long int)0x8B0B, &iwr);
+  if(!(return_value_ioctl_1 >= 0))
     err_sys("can not get range information");
 
   close(skfd);
@@ -7030,9 +7030,9 @@ extern void iw_nl80211_get_linkstat(struct iw_nl80211_linkstat *ls)
   cmd_linkstat.handler_arg = (void *)ls;
   memset((void *)ls, 0, sizeof(struct iw_nl80211_linkstat) /*344ul*/ );
   handle_cmd(&cmd_linkstat);
-  _Bool return_value_ether_addr_is_zero$1;
-  return_value_ether_addr_is_zero$1=ether_addr_is_zero(&ls->bssid);
-  if(return_value_ether_addr_is_zero$1 == (_Bool)0)
+  _Bool return_value_ether_addr_is_zero_1;
+  return_value_ether_addr_is_zero_1=ether_addr_is_zero(&ls->bssid);
+  if(return_value_ether_addr_is_zero_1 == (_Bool)0)
   {
     static struct cmd cmd_getstation = { .cmd=(enum nl80211_commands)NL80211_CMD_GET_STATION, .sk=((struct nl_sock *)NULL),
     .flags=0, .handler=link_sta_handler,
@@ -7057,9 +7057,9 @@ static signed int iw_nl80211_get_scan_data(struct scan_result *sr)
     .handler_arg=NULL, .msg_args=((struct msg_attribute *)NULL),
     .msg_args_len=0 };
   cmd_scan_dump.handler_arg = (void *)sr;
-  signed int return_value_handle_cmd$1;
-  return_value_handle_cmd$1=handle_cmd(&cmd_scan_dump);
-  return return_value_handle_cmd$1;
+  signed int return_value_handle_cmd_1;
+  return_value_handle_cmd_1=handle_cmd(&cmd_scan_dump);
+  return return_value_handle_cmd_1;
 }
 
 // iw_nl80211_get_survey
@@ -7105,65 +7105,65 @@ extern void iw_nl80211_getreg(struct iw_nl80211_reg *ir)
 // file iw_nl80211.h line 192
 static inline _Bool iw_nl80211_have_survey_data(struct iw_nl80211_linkstat *ls)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ls->survey.freq == 0u))
-    tmp_if_expr$1 = (signed int)ls->survey.noise != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)ls->survey.noise != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return tmp_if_expr_1;
 }
 
-// iw_nl80211_have_survey_data$link1
+// iw_nl80211_have_survey_data_link1
 // file iw_nl80211.h line 192
-static inline _Bool iw_nl80211_have_survey_data$link1(struct iw_nl80211_linkstat *ls$link1)
+static inline _Bool iw_nl80211_have_survey_data_link1(struct iw_nl80211_linkstat *ls_link1)
 {
-  _Bool tmp_if_expr$1$link1;
-  if(!(ls$link1->survey.freq == 0u))
-    tmp_if_expr$1$link1 = (signed int)ls$link1->survey.noise != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1_link1;
+  if(!(ls_link1->survey.freq == 0u))
+    tmp_if_expr_1_link1 = (signed int)ls_link1->survey.noise != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1$link1 = (_Bool)0;
-  return tmp_if_expr$1$link1;
+    tmp_if_expr_1_link1 = (_Bool)0;
+  return tmp_if_expr_1_link1;
 }
 
 // iw_nl80211_scan_trigger
 // file iw_scan.c line 253
 static signed int iw_nl80211_scan_trigger(void)
 {
-  signed int return_value_handle_cmd$1;
+  signed int return_value_handle_cmd_1;
   static struct cmd cmd_trigger_scan = { .cmd=(enum nl80211_commands)NL80211_CMD_TRIGGER_SCAN, .sk=((struct nl_sock *)NULL),
     .flags=0, .handler=((signed int (*)(struct nl_msg *, void *))NULL),
     .handler_arg=NULL,
     .msg_args=((struct msg_attribute *)NULL), .msg_args_len=0 };
-  return_value_handle_cmd$1=handle_cmd(&cmd_trigger_scan);
-  return return_value_handle_cmd$1;
+  return_value_handle_cmd_1=handle_cmd(&cmd_trigger_scan);
+  return return_value_handle_cmd_1;
 }
 
 // link_handler
 // file iw_nl80211.c line 329
 static signed int link_handler(struct nl_msg *msg, void *arg)
 {
-  struct iw_nl80211_linkstat *link_handler$$1$$ls = (struct iw_nl80211_linkstat *)arg;
+  struct iw_nl80211_linkstat *link_handler__1__ls = (struct iw_nl80211_linkstat *)arg;
   struct nlattr *tb[222l];
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$1;
-  return_value_nlmsg_hdr$1=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$2;
-  return_value_nlmsg_data$2=nlmsg_data(return_value_nlmsg_hdr$1);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$2;
+  struct nlmsghdr *return_value_nlmsg_hdr_1;
+  return_value_nlmsg_hdr_1=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_2;
+  return_value_nlmsg_data_2=nlmsg_data(return_value_nlmsg_hdr_1);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_2;
   struct nlattr *bss[15l];
-  struct nlattr *return_value_genlmsg_attrdata$3;
-  return_value_genlmsg_attrdata$3=genlmsg_attrdata(gnlh, 0);
-  signed int return_value_genlmsg_attrlen$4;
-  return_value_genlmsg_attrlen$4=genlmsg_attrlen(gnlh, 0);
-  nla_parse(tb, 221, return_value_genlmsg_attrdata$3, return_value_genlmsg_attrlen$4, (struct nla_policy *)(void *)0);
+  struct nlattr *return_value_genlmsg_attrdata_3;
+  return_value_genlmsg_attrdata_3=genlmsg_attrdata(gnlh, 0);
+  signed int return_value_genlmsg_attrlen_4;
+  return_value_genlmsg_attrlen_4=genlmsg_attrlen(gnlh, 0);
+  nla_parse(tb, 221, return_value_genlmsg_attrdata_3, return_value_genlmsg_attrlen_4, (struct nla_policy *)(void *)0);
   if(tb[47l] == ((struct nlattr *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_nla_parse_nested$5;
+    signed int return_value_nla_parse_nested_5;
     static struct nla_policy bss_policy[15l] = { { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)4, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)2, .minlen=0, .maxlen=0 },
@@ -7172,8 +7172,8 @@ static signed int link_handler(struct nl_msg *msg, void *arg)
     { .type=(unsigned short int)1, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 } };
-    return_value_nla_parse_nested$5=nla_parse_nested(bss, 14, tb[(signed long int)47], bss_policy);
-    if(!(return_value_nla_parse_nested$5 == 0))
+    return_value_nla_parse_nested_5=nla_parse_nested(bss, 14, tb[(signed long int)47], bss_policy);
+    if(!(return_value_nla_parse_nested_5 == 0))
       return 1;
 
     else
@@ -7187,23 +7187,23 @@ static signed int link_handler(struct nl_msg *msg, void *arg)
         else
         {
           if(!(bss[8l] == ((struct nlattr *)NULL)))
-            link_handler$$1$$ls->bss_signal_qual=nla_get_u8(bss[(signed long int)8]);
+            link_handler__1__ls->bss_signal_qual=nla_get_u8(bss[(signed long int)8]);
 
           if(!(bss[7l] == ((struct nlattr *)NULL)))
           {
             signed int s;
-            unsigned int return_value_nla_get_u32$6;
-            return_value_nla_get_u32$6=nla_get_u32(bss[(signed long int)7]);
-            s = (signed int)return_value_nla_get_u32$6;
-            link_handler$$1$$ls->bss_signal = (signed char)(s / 100);
+            unsigned int return_value_nla_get_u32_6;
+            return_value_nla_get_u32_6=nla_get_u32(bss[(signed long int)7]);
+            s = (signed int)return_value_nla_get_u32_6;
+            link_handler__1__ls->bss_signal = (signed char)(s / 100);
           }
 
-          link_handler$$1$$ls->status=nla_get_u32(bss[(signed long int)9]);
-          if(link_handler$$1$$ls->status == 0u || link_handler$$1$$ls->status == 1u || link_handler$$1$$ls->status == 2u)
+          link_handler__1__ls->status=nla_get_u32(bss[(signed long int)9]);
+          if(link_handler__1__ls->status == 0u || link_handler__1__ls->status == 1u || link_handler__1__ls->status == 2u)
           {
-            void *return_value_nla_data$7;
-            return_value_nla_data$7=nla_data(bss[(signed long int)1]);
-            memcpy((void *)&link_handler$$1$$ls->bssid, return_value_nla_data$7, (unsigned long int)6);
+            void *return_value_nla_data_7;
+            return_value_nla_data_7=nla_data(bss[(signed long int)1]);
+            memcpy((void *)&link_handler__1__ls->bssid, return_value_nla_data_7, (unsigned long int)6);
           }
 
           return 1;
@@ -7215,30 +7215,30 @@ static signed int link_handler(struct nl_msg *msg, void *arg)
 // file iw_nl80211.c line 381
 static signed int link_sta_handler(struct nl_msg *msg, void *arg)
 {
-  struct iw_nl80211_linkstat *link_sta_handler$$1$$ls = (struct iw_nl80211_linkstat *)arg;
+  struct iw_nl80211_linkstat *link_sta_handler__1__ls = (struct iw_nl80211_linkstat *)arg;
   struct nlattr *tb[222l];
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$1;
-  return_value_nlmsg_hdr$1=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$2;
-  return_value_nlmsg_data$2=nlmsg_data(return_value_nlmsg_hdr$1);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$2;
+  struct nlmsghdr *return_value_nlmsg_hdr_1;
+  return_value_nlmsg_hdr_1=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_2;
+  return_value_nlmsg_data_2=nlmsg_data(return_value_nlmsg_hdr_1);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_2;
   struct nlattr *sinfo[32l];
   struct nlattr *binfo[6l];
   struct nl80211_sta_flag_update *sta_flags;
-  struct nlattr *return_value_genlmsg_attrdata$3;
-  return_value_genlmsg_attrdata$3=genlmsg_attrdata(gnlh, 0);
-  signed int return_value_genlmsg_attrlen$4;
-  return_value_genlmsg_attrlen$4=genlmsg_attrlen(gnlh, 0);
-  nla_parse(tb, 221, return_value_genlmsg_attrdata$3, return_value_genlmsg_attrlen$4, (struct nla_policy *)(void *)0);
-  unsigned char return_value_nla_get_u8$6;
-  unsigned char return_value_nla_get_u8$7;
+  struct nlattr *return_value_genlmsg_attrdata_3;
+  return_value_genlmsg_attrdata_3=genlmsg_attrdata(gnlh, 0);
+  signed int return_value_genlmsg_attrlen_4;
+  return_value_genlmsg_attrlen_4=genlmsg_attrlen(gnlh, 0);
+  nla_parse(tb, 221, return_value_genlmsg_attrdata_3, return_value_genlmsg_attrlen_4, (struct nla_policy *)(void *)0);
+  unsigned char return_value_nla_get_u8_6;
+  unsigned char return_value_nla_get_u8_7;
   if(tb[21l] == ((struct nlattr *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_nla_parse_nested$5;
+    signed int return_value_nla_parse_nested_5;
     static struct nla_policy stats_policy[32l] = { { .type=0, .minlen=0, .maxlen=0 }, { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
@@ -7266,102 +7266,102 @@ static signed int link_sta_handler(struct nl_msg *msg, void *arg)
     { .type=(unsigned short int)4, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)1, .minlen=0, .maxlen=0 },
     { .type=0, .minlen=0, .maxlen=0 } };
-    return_value_nla_parse_nested$5=nla_parse_nested(sinfo, 31, tb[(signed long int)21], stats_policy);
-    if(!(return_value_nla_parse_nested$5 == 0))
+    return_value_nla_parse_nested_5=nla_parse_nested(sinfo, 31, tb[(signed long int)21], stats_policy);
+    if(!(return_value_nla_parse_nested_5 == 0))
       return 1;
 
     else
     {
       if(!(sinfo[11l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->tx_retries=nla_get_u32(sinfo[(signed long int)11]);
+        link_sta_handler__1__ls->tx_retries=nla_get_u32(sinfo[(signed long int)11]);
 
       if(!(sinfo[12l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->tx_failed=nla_get_u32(sinfo[(signed long int)12]);
+        link_sta_handler__1__ls->tx_failed=nla_get_u32(sinfo[(signed long int)12]);
 
       if(!(sinfo[27l] == ((struct nlattr *)NULL)))
       {
-        link_sta_handler$$1$$ls->expected_thru=nla_get_u32(sinfo[(signed long int)27]);
-        link_sta_handler$$1$$ls->expected_thru = (link_sta_handler$$1$$ls->expected_thru * (unsigned int)1000) / (unsigned int)1024;
+        link_sta_handler__1__ls->expected_thru=nla_get_u32(sinfo[(signed long int)27]);
+        link_sta_handler__1__ls->expected_thru = (link_sta_handler__1__ls->expected_thru * (unsigned int)1000) / (unsigned int)1024;
       }
 
       if(!(sinfo[1l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->inactive_time=nla_get_u32(sinfo[(signed long int)1]);
+        link_sta_handler__1__ls->inactive_time=nla_get_u32(sinfo[(signed long int)1]);
 
       if(!(sinfo[16l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->connected_time=nla_get_u32(sinfo[(signed long int)16]);
+        link_sta_handler__1__ls->connected_time=nla_get_u32(sinfo[(signed long int)16]);
 
       if(!(sinfo[2l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->rx_bytes=nla_get_u32(sinfo[(signed long int)2]);
+        link_sta_handler__1__ls->rx_bytes=nla_get_u32(sinfo[(signed long int)2]);
 
       if(!(sinfo[9l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->rx_packets=nla_get_u32(sinfo[(signed long int)9]);
+        link_sta_handler__1__ls->rx_packets=nla_get_u32(sinfo[(signed long int)9]);
 
       if(!(sinfo[28l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->rx_drop_misc=nla_get_u64(sinfo[(signed long int)28]);
+        link_sta_handler__1__ls->rx_drop_misc=nla_get_u64(sinfo[(signed long int)28]);
 
       if(!(sinfo[3l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->tx_bytes=nla_get_u32(sinfo[(signed long int)3]);
+        link_sta_handler__1__ls->tx_bytes=nla_get_u32(sinfo[(signed long int)3]);
 
       if(!(sinfo[10l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->tx_packets=nla_get_u32(sinfo[(signed long int)10]);
+        link_sta_handler__1__ls->tx_packets=nla_get_u32(sinfo[(signed long int)10]);
 
       if(!(sinfo[7l] == ((struct nlattr *)NULL)))
       {
-        return_value_nla_get_u8$6=nla_get_u8(sinfo[(signed long int)7]);
-        link_sta_handler$$1$$ls->signal = (signed char)return_value_nla_get_u8$6;
+        return_value_nla_get_u8_6=nla_get_u8(sinfo[(signed long int)7]);
+        link_sta_handler__1__ls->signal = (signed char)return_value_nla_get_u8_6;
       }
 
       if(!(sinfo[13l] == ((struct nlattr *)NULL)))
       {
-        return_value_nla_get_u8$7=nla_get_u8(sinfo[(signed long int)13]);
-        link_sta_handler$$1$$ls->signal_avg = (signed char)return_value_nla_get_u8$7;
+        return_value_nla_get_u8_7=nla_get_u8(sinfo[(signed long int)13]);
+        link_sta_handler__1__ls->signal_avg = (signed char)return_value_nla_get_u8_7;
       }
 
       if(!(sinfo[30l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->beacon_avg_sig=nla_get_u8(sinfo[(signed long int)30]);
+        link_sta_handler__1__ls->beacon_avg_sig=nla_get_u8(sinfo[(signed long int)30]);
 
       if(!(sinfo[29l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->beacons=nla_get_u64(sinfo[(signed long int)29]);
+        link_sta_handler__1__ls->beacons=nla_get_u64(sinfo[(signed long int)29]);
 
       if(!(sinfo[18l] == ((struct nlattr *)NULL)))
-        link_sta_handler$$1$$ls->beacon_loss=nla_get_u32(sinfo[(signed long int)18]);
+        link_sta_handler__1__ls->beacon_loss=nla_get_u32(sinfo[(signed long int)18]);
 
       if(!(sinfo[8l] == ((struct nlattr *)NULL)))
-        parse_bitrate(sinfo[(signed long int)8], link_sta_handler$$1$$ls->tx_bitrate, (signed int)sizeof(char [100l]) /*100ul*/ );
+        parse_bitrate(sinfo[(signed long int)8], link_sta_handler__1__ls->tx_bitrate, (signed int)sizeof(char [100l]) /*100ul*/ );
 
       if(!(sinfo[14l] == ((struct nlattr *)NULL)))
-        parse_bitrate(sinfo[(signed long int)14], link_sta_handler$$1$$ls->rx_bitrate, (signed int)sizeof(char [100l]) /*100ul*/ );
+        parse_bitrate(sinfo[(signed long int)14], link_sta_handler__1__ls->rx_bitrate, (signed int)sizeof(char [100l]) /*100ul*/ );
 
       if(!(sinfo[17l] == ((struct nlattr *)NULL)))
       {
-        void *return_value_nla_data$8;
-        return_value_nla_data$8=nla_data(sinfo[(signed long int)17]);
-        sta_flags = (struct nl80211_sta_flag_update *)return_value_nla_data$8;
+        void *return_value_nla_data_8;
+        return_value_nla_data_8=nla_data(sinfo[(signed long int)17]);
+        sta_flags = (struct nl80211_sta_flag_update *)return_value_nla_data_8;
         if(!((4ull & (unsigned long int)sta_flags->mask) == 0ul))
         {
           if(!((4ull & (unsigned long int)sta_flags->set) == 0ul))
-            link_sta_handler$$1$$ls->long_preamble = (_Bool)1;
+            link_sta_handler__1__ls->long_preamble = (_Bool)1;
 
         }
 
         if(!((8ull & (unsigned long int)sta_flags->mask) == 0ul))
         {
           if(!((8ull & (unsigned long int)sta_flags->set) == 0ul))
-            link_sta_handler$$1$$ls->wme = (_Bool)1;
+            link_sta_handler__1__ls->wme = (_Bool)1;
 
         }
 
         if(!((16ull & (unsigned long int)sta_flags->mask) == 0ul))
         {
           if(!((16ull & (unsigned long int)sta_flags->set) == 0ul))
-            link_sta_handler$$1$$ls->mfp = (_Bool)1;
+            link_sta_handler__1__ls->mfp = (_Bool)1;
 
         }
 
         if(!((64ull & (unsigned long int)sta_flags->mask) == 0ul))
         {
           if(!((64ull & (unsigned long int)sta_flags->set) == 0ul))
-            link_sta_handler$$1$$ls->tdls = (_Bool)1;
+            link_sta_handler__1__ls->tdls = (_Bool)1;
 
         }
 
@@ -7369,26 +7369,26 @@ static signed int link_sta_handler(struct nl_msg *msg, void *arg)
 
       if(!(sinfo[15l] == ((struct nlattr *)NULL)))
       {
-        signed int return_value_nla_parse_nested$9;
+        signed int return_value_nla_parse_nested_9;
         static struct nla_policy bss_policy[6l] = { { .type=0, .minlen=0, .maxlen=0 }, { .type=(unsigned short int)6, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)6, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)6, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)1, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)2, .minlen=0, .maxlen=0 } };
-        return_value_nla_parse_nested$9=nla_parse_nested(binfo, 5, sinfo[(signed long int)15], bss_policy);
-        if(return_value_nla_parse_nested$9 == 0)
+        return_value_nla_parse_nested_9=nla_parse_nested(binfo, 5, sinfo[(signed long int)15], bss_policy);
+        if(return_value_nla_parse_nested_9 == 0)
         {
           if(!(binfo[1l] == ((struct nlattr *)NULL)))
-            link_sta_handler$$1$$ls->cts_protection = (_Bool)1;
+            link_sta_handler__1__ls->cts_protection = (_Bool)1;
 
           if(!(binfo[2l] == ((struct nlattr *)NULL)))
-            link_sta_handler$$1$$ls->long_preamble = (_Bool)0;
+            link_sta_handler__1__ls->long_preamble = (_Bool)0;
 
           if(!(binfo[3l] == ((struct nlattr *)NULL)))
-            link_sta_handler$$1$$ls->short_slot_time = (_Bool)1;
+            link_sta_handler__1__ls->short_slot_time = (_Bool)1;
 
-          link_sta_handler$$1$$ls->beacon_int=nla_get_u16(binfo[(signed long int)5]);
-          link_sta_handler$$1$$ls->dtim_period=nla_get_u8(binfo[(signed long int)4]);
+          link_sta_handler__1__ls->beacon_int=nla_get_u16(binfo[(signed long int)5]);
+          link_sta_handler__1__ls->dtim_period=nla_get_u8(binfo[(signed long int)4]);
         }
 
       }
@@ -7402,27 +7402,27 @@ static signed int link_sta_handler(struct nl_msg *msg, void *arg)
 // file llist.c line 87
 signed int ll_create(void)
 {
-  unsigned long int ll_create$$1$$i;
+  unsigned long int ll_create__1__i;
   static char firstcall = (char)1;
   if(!(firstcall == 0))
   {
-    ll_create$$1$$i = (unsigned long int)0;
-    for( ; !(ll_create$$1$$i >= 256ul); ll_create$$1$$i = ll_create$$1$$i + 1ul)
-      lists[(signed long int)ll_create$$1$$i] = (struct chain *)(void *)0;
+    ll_create__1__i = (unsigned long int)0;
+    for( ; !(ll_create__1__i >= 256ul); ll_create__1__i = ll_create__1__i + 1ul)
+      lists[(signed long int)ll_create__1__i] = (struct chain *)(void *)0;
     firstcall = (char)0;
   }
 
-  ll_create$$1$$i = (unsigned long int)0;
-  for( ; !(ll_create$$1$$i >= 256ul); ll_create$$1$$i = ll_create$$1$$i + 1ul)
-    if(lists[(signed long int)ll_create$$1$$i] == ((struct chain *)NULL))
+  ll_create__1__i = (unsigned long int)0;
+  for( ; !(ll_create__1__i >= 256ul); ll_create__1__i = ll_create__1__i + 1ul)
+    if(lists[(signed long int)ll_create__1__i] == ((struct chain *)NULL))
       break;
 
-  if(!(ll_create$$1$$i >= 256ul))
+  if(!(ll_create__1__i >= 256ul))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct chain) /*24ul*/ );
-    lists[(signed long int)ll_create$$1$$i] = (struct chain *)return_value_calloc$1;
-    return (signed int)ll_create$$1$$i;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct chain) /*24ul*/ );
+    lists[(signed long int)ll_create__1__i] = (struct chain *)return_value_calloc_1;
+    return (signed int)ll_create__1__i;
   }
 
   else
@@ -7451,20 +7451,20 @@ void ll_destroy(signed int ld)
 void * ll_get(signed int ld, unsigned long int n)
 {
   struct chain *l = lists[(signed long int)ld]->next;
-  signed int ll_get$$1$$i = 0;
-  _Bool tmp_if_expr$1;
+  signed int ll_get__1__i = 0;
+  _Bool tmp_if_expr_1;
   do
   {
-    if(!((unsigned long int)ll_get$$1$$i >= n))
-      tmp_if_expr$1 = l->next != ((struct chain *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(!((unsigned long int)ll_get__1__i >= n))
+      tmp_if_expr_1 = l->next != ((struct chain *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     l = l->next;
-    ll_get$$1$$i = ll_get$$1$$i + 1;
+    ll_get__1__i = ll_get__1__i + 1;
   }
   while((_Bool)1);
   return l->e;
@@ -7476,23 +7476,23 @@ void * ll_getall(signed int ld)
 {
   struct chain *l = lists[(signed long int)ld]->next;
   void *rv;
-  unsigned long int ll_getall$$1$$i;
+  unsigned long int ll_getall__1__i;
   static char firstcall = (char)1;
   if(!(firstcall == 0))
   {
-    ll_getall$$1$$i = (unsigned long int)0;
-    for( ; !(ll_getall$$1$$i >= 256ul); ll_getall$$1$$i = ll_getall$$1$$i + 1ul)
+    ll_getall__1__i = (unsigned long int)0;
+    for( ; !(ll_getall__1__i >= 256ul); ll_getall__1__i = ll_getall__1__i + 1ul)
     {
-      lp[(signed long int)ll_getall$$1$$i].eol = (char)0;
-      lp[(signed long int)ll_getall$$1$$i].n = (unsigned long int)lp[(signed long int)ll_getall$$1$$i].eol;
+      lp[(signed long int)ll_getall__1__i].eol = (char)0;
+      lp[(signed long int)ll_getall__1__i].n = (unsigned long int)lp[(signed long int)ll_getall__1__i].eol;
     }
     firstcall = (char)0;
   }
 
   if(lp[(signed long int)ld].eol == 0)
   {
-    ll_getall$$1$$i = (unsigned long int)0;
-    for( ; !(ll_getall$$1$$i >= lp[(signed long int)ld].n); ll_getall$$1$$i = ll_getall$$1$$i + 1ul)
+    ll_getall__1__i = (unsigned long int)0;
+    for( ; !(ll_getall__1__i >= lp[(signed long int)ld].n); ll_getall__1__i = ll_getall__1__i + 1ul)
       l = l->next;
     if(l->next == ((struct chain *)NULL))
       lp[(signed long int)ld].eol = (char)1;
@@ -7519,12 +7519,12 @@ void ll_push(signed int ld, const char *format, ...)
   for( ; !(l->next == ((struct chain *)NULL)); l = l->next)
     ;
   ap = (void **)&format;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   for( ; !(*format == 0); l = l->next)
   {
-    tmp_post$1 = format;
+    tmp_post_1 = format;
     format = format + 1l;
-    l->next=arg2element(*tmp_post$1, &ap, (struct chain *)(void *)0);
+    l->next=arg2element(*tmp_post_1, &ap, (struct chain *)(void *)0);
   }
   ap = ((void **)NULL);
   l->next = (struct chain *)(void *)0;
@@ -7536,23 +7536,23 @@ void ll_replace(signed int ld, unsigned long int n, const char *format, ...)
 {
   struct chain *prevl = lists[(signed long int)ld];
   struct chain *l = lists[(signed long int)ld]->next;
-  signed int ll_replace$$1$$i;
+  signed int ll_replace__1__i;
   void **ap;
-  ll_replace$$1$$i = 0;
-  _Bool tmp_if_expr$1;
+  ll_replace__1__i = 0;
+  _Bool tmp_if_expr_1;
   do
   {
-    if(!((unsigned long int)ll_replace$$1$$i >= n))
-      tmp_if_expr$1 = l->next != ((struct chain *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(!((unsigned long int)ll_replace__1__i >= n))
+      tmp_if_expr_1 = l->next != ((struct chain *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     prevl = l;
     l = l->next;
-    ll_replace$$1$$i = ll_replace$$1$$i + 1;
+    ll_replace__1__i = ll_replace__1__i + 1;
   }
   while((_Bool)1);
   ap = (void **)&format;
@@ -7577,17 +7577,17 @@ void ll_reset(signed int ld)
 unsigned long int ll_size(signed int ld)
 {
   struct chain *l = lists[(signed long int)ld];
-  unsigned long int ll_size$$1$$i = (unsigned long int)0;
+  unsigned long int ll_size__1__i = (unsigned long int)0;
   do
   {
     l = l->next;
     if(l == ((struct chain *)NULL))
       break;
 
-    ll_size$$1$$i = ll_size$$1$$i + 1ul;
+    ll_size__1__i = ll_size__1__i + 1ul;
   }
   while((_Bool)1);
-  return ll_size$$1$$i;
+  return ll_size__1__i;
 }
 
 // m_pref
@@ -7595,41 +7595,41 @@ unsigned long int ll_size(signed int ld)
 static signed int m_pref(struct _win_st *w_conf, signed int list_offset, signed int active_item, signed int num_items)
 {
   signed int active_line;
-  signed int m_pref$$1$$i;
-  signed int m_pref$$1$$j;
+  signed int m_pref__1__i;
+  signed int m_pref__1__j;
   werase(w_conf);
-  m_pref$$1$$j = 0;
-  m_pref$$1$$i = m_pref$$1$$j;
-  active_line = m_pref$$1$$i;
-  _Bool tmp_if_expr$4;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  for( ; !(m_pref$$1$$i >= num_items); m_pref$$1$$i = m_pref$$1$$i + 1)
+  m_pref__1__j = 0;
+  m_pref__1__i = m_pref__1__j;
+  active_line = m_pref__1__i;
+  _Bool tmp_if_expr_4;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  for( ; !(m_pref__1__i >= num_items); m_pref__1__i = m_pref__1__i + 1)
   {
     struct conf_item *item;
-    void *return_value_ll_get$1;
-    return_value_ll_get$1=ll_get(conf_items, (unsigned long int)m_pref$$1$$i);
-    item = (struct conf_item *)return_value_ll_get$1;
+    void *return_value_ll_get_1;
+    return_value_ll_get_1=ll_get(conf_items, (unsigned long int)m_pref__1__i);
+    item = (struct conf_item *)return_value_ll_get_1;
     if(item->dep == ((signed int *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = *item->dep != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = *item->dep != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      if(!(m_pref$$1$$i == active_item))
+      if(!(m_pref__1__i == active_item))
       {
-        tmp_post$2 = m_pref$$1$$j;
-        m_pref$$1$$j = m_pref$$1$$j + 1;
-        waddstr_item(w_conf, tmp_post$2, item, (char)0);
+        tmp_post_2 = m_pref__1__j;
+        m_pref__1__j = m_pref__1__j + 1;
+        waddstr_item(w_conf, tmp_post_2, item, (char)0);
       }
 
       else
       {
-        waddstr_item(w_conf, m_pref$$1$$j, item, (char)1);
-        tmp_post$3 = m_pref$$1$$j;
-        m_pref$$1$$j = m_pref$$1$$j + 1;
-        active_line = tmp_post$3;
+        waddstr_item(w_conf, m_pref__1__j, item, (char)1);
+        tmp_post_3 = m_pref__1__j;
+        m_pref__1__j = m_pref__1__j + 1;
+        active_line = tmp_post_3;
       }
     }
 
@@ -7654,9 +7654,9 @@ char * mac_addr(struct sockaddr *sa)
 
   else
   {
-    char *return_value_ether_lookup$1;
-    return_value_ether_lookup$1=ether_lookup((struct ether_addr *)sa->sa_data);
-    return return_value_ether_lookup$1;
+    char *return_value_ether_lookup_1;
+    return_value_ether_lookup_1=ether_lookup((struct ether_addr *)sa->sa_data);
+    return return_value_ether_lookup_1;
   }
 }
 
@@ -7666,12 +7666,12 @@ signed int main(signed int argc, char **argv)
 {
   enum wavemon_screen cur;
   enum wavemon_screen next;
-  struct anonymous$10 blockmask;
-  struct anonymous$10 oldmask;
+  struct anonymous_10 blockmask;
+  struct anonymous_10 oldmask;
   getconf(argc, argv);
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(0);
-  if(return_value_isatty$1 == 0)
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(0);
+  if(return_value_isatty_1 == 0)
     errx(1, "input is not from a terminal");
 
   setlocale(1, "");
@@ -7711,22 +7711,22 @@ signed int main(signed int argc, char **argv)
   {
     struct _win_st *w_menu;
     signed int escape = 0;
-    signed int return_value_sigprocmask$2;
-    return_value_sigprocmask$2=sigprocmask(0, &blockmask, &oldmask);
-    if(!(return_value_sigprocmask$2 >= 0))
+    signed int return_value_sigprocmask_2;
+    return_value_sigprocmask_2=sigprocmask(0, &blockmask, &oldmask);
+    if(!(return_value_sigprocmask_2 >= 0))
       err_sys("cannot block SIGWINCH");
 
     next = cur;
     w_menu=init_menubar(cur);
     screens[(signed long int)cur].init();
-    signed int return_value_sigprocmask$3;
-    return_value_sigprocmask$3=sigprocmask(2, &oldmask, (struct anonymous$10 *)(void *)0);
-    if(!(return_value_sigprocmask$3 >= 0))
+    signed int return_value_sigprocmask_3;
+    return_value_sigprocmask_3=sigprocmask(2, &oldmask, (struct anonymous_10 *)(void *)0);
+    if(!(return_value_sigprocmask_3 >= 0))
       err_sys("cannot unblock SIGWINCH");
 
-    signed int return_value___sigsetjmp$4;
-    return_value___sigsetjmp$4=__sigsetjmp(env_winch, 1);
-    if(return_value___sigsetjmp$4 == 0)
+    signed int return_value___sigsetjmp_4;
+    return_value___sigsetjmp_4=__sigsetjmp(env_winch, 1);
+    if(return_value___sigsetjmp_4 == 0)
     {
       env_winch_ready = 1;
       signed int key;
@@ -7762,9 +7762,9 @@ signed int main(signed int argc, char **argv)
     if(next == cur)
     {
       struct winsize size;
-      signed int return_value_ioctl$5;
-      return_value_ioctl$5=ioctl(0, (unsigned long int)0x5413, &size);
-      if(!(return_value_ioctl$5 >= 0))
+      signed int return_value_ioctl_5;
+      return_value_ioctl_5=ioctl(0, (unsigned long int)0x5413, &size);
+      if(!(return_value_ioctl_5 >= 0))
         err_sys("can not determine terminal size");
 
       resizeterm((signed int)size.ws_row, (signed int)size.ws_col);
@@ -7784,9 +7784,9 @@ signed int main(signed int argc, char **argv)
 // file wavemon.h line 413
 static inline double map_range(double val, double minv, double maxv, double min, double max)
 {
-  double return_value_map_val$1;
-  return_value_map_val$1=map_val((val - minv) / (maxv - minv), min, max);
-  return return_value_map_val$1;
+  double return_value_map_val_1;
+  return_value_map_val_1=map_val((val - minv) / (maxv - minv), min, max);
+  return return_value_map_val_1;
 }
 
 // map_val
@@ -7800,11 +7800,11 @@ static inline double map_val(double ratio, double min, double max)
 // file ui.c line 54
 extern void mvwclrtoborder(struct _win_st *win, signed int y, signed int x)
 {
-  signed int return_value_wmove$1;
+  signed int return_value_wmove_1;
   if(COLS + -2 >= x && x >= 1)
   {
-    return_value_wmove$1=wmove(win, y, x);
-    if(return_value_wmove$1 == -1)
+    return_value_wmove_1=wmove(win, y, x);
+    if(return_value_wmove_1 == -1)
       -1;
 
     else
@@ -7817,9 +7817,9 @@ extern void mvwclrtoborder(struct _win_st *win, signed int y, signed int x)
 // file utils.c line 161
 double mw2dbm(const double in)
 {
-  double return_value_log10$1;
-  return_value_log10$1=log10(in);
-  return 10.0 * return_value_log10$1;
+  double return_value_log10_1;
+  return_value_log10_1=log10(in);
+  return 10.0 * return_value_log10_1;
 }
 
 // newwin_title
@@ -7829,54 +7829,54 @@ extern struct _win_st * newwin_title(signed int y, signed int h, const char *tit
   struct _win_st *win;
   win=newwin(h, COLS, y, 0);
   unsigned long int top_left;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(y >= 1)
-    tmp_if_expr$1 = acs_map[(signed long int)(unsigned char)116];
+    tmp_if_expr_1 = acs_map[(signed long int)(unsigned char)116];
 
   else
-    tmp_if_expr$1 = acs_map[(signed long int)(unsigned char)108];
-  top_left = tmp_if_expr$1;
+    tmp_if_expr_1 = acs_map[(signed long int)(unsigned char)108];
+  top_left = tmp_if_expr_1;
   unsigned long int top_right;
-  unsigned long int tmp_if_expr$2;
+  unsigned long int tmp_if_expr_2;
   if(y >= 1)
-    tmp_if_expr$2 = acs_map[(signed long int)(unsigned char)117];
+    tmp_if_expr_2 = acs_map[(signed long int)(unsigned char)117];
 
   else
-    tmp_if_expr$2 = acs_map[(signed long int)(unsigned char)107];
-  top_right = tmp_if_expr$2;
+    tmp_if_expr_2 = acs_map[(signed long int)(unsigned char)107];
+  top_right = tmp_if_expr_2;
   if(!(nobottom == (_Bool)0))
   {
-    signed int return_value_wmove$3;
-    return_value_wmove$3=wmove(win, 0, 0);
-    if(return_value_wmove$3 == -1)
+    signed int return_value_wmove_3;
+    return_value_wmove_3=wmove(win, 0, 0);
+    if(return_value_wmove_3 == -1)
       -1;
 
     else
       waddch(win, top_left);
-    signed int return_value_wmove$4;
-    return_value_wmove$4=wmove(win, 0, 1);
-    if(return_value_wmove$4 == -1)
+    signed int return_value_wmove_4;
+    return_value_wmove_4=wmove(win, 0, 1);
+    if(return_value_wmove_4 == -1)
       -1;
 
     else
       whline(win, acs_map[(signed long int)(unsigned char)113], COLS - 2);
-    signed int return_value_wmove$5;
-    return_value_wmove$5=wmove(win, 1, 0);
-    if(return_value_wmove$5 == -1)
+    signed int return_value_wmove_5;
+    return_value_wmove_5=wmove(win, 1, 0);
+    if(return_value_wmove_5 == -1)
       -1;
 
     else
       wvline(win, acs_map[(signed long int)(unsigned char)120], h);
-    signed int return_value_wmove$6;
-    return_value_wmove$6=wmove(win, 0, COLS - 1);
-    if(return_value_wmove$6 == -1)
+    signed int return_value_wmove_6;
+    return_value_wmove_6=wmove(win, 0, COLS - 1);
+    if(return_value_wmove_6 == -1)
       -1;
 
     else
       waddch(win, top_right);
-    signed int return_value_wmove$7;
-    return_value_wmove$7=wmove(win, 1, COLS - 1);
-    if(return_value_wmove$7 == -1)
+    signed int return_value_wmove_7;
+    return_value_wmove_7=wmove(win, 1, COLS - 1);
+    if(return_value_wmove_7 == -1)
       -1;
 
     else
@@ -7893,9 +7893,9 @@ extern struct _win_st * newwin_title(signed int y, signed int h, const char *tit
 
   else
     -1;
-  signed int return_value_wmove$8;
-  return_value_wmove$8=wmove(win, 0, 2);
-  if(return_value_wmove$8 == -1)
+  signed int return_value_wmove_8;
+  return_value_wmove_8=wmove(win, 0, 2);
+  if(return_value_wmove_8 == -1)
     -1;
 
   else
@@ -7930,11 +7930,11 @@ signed int nl_get_multicast_id(struct nl_sock *sock, const char *family, const c
       ret = -105;
       do
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(family);
-        signed int return_value_nla_put$2;
-        return_value_nla_put$2=nla_put(msg, 2, (signed int)return_value_strlen$1 + 1, (const void *)family);
-        if(!(return_value_nla_put$2 >= 0))
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(family);
+        signed int return_value_nla_put_2;
+        return_value_nla_put_2=nla_put(msg, 2, (signed int)return_value_strlen_1 + 1, (const void *)family);
+        if(!(return_value_nla_put_2 >= 0))
           goto nla_put_failure;
 
       }
@@ -7982,101 +7982,101 @@ void parse_bitrate(struct nlattr *bitrate_attr, char *buf, signed int buflen)
   signed int rate = 0;
   char *pos = buf;
   struct nlattr *rinfo[13l];
-  signed int return_value_nla_parse_nested$1;
+  signed int return_value_nla_parse_nested_1;
   static struct nla_policy rate_policy[13l] = { { .type=0, .minlen=0, .maxlen=0 }, { .type=(unsigned short int)2, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)1, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)6, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)6, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 } };
-  return_value_nla_parse_nested$1=nla_parse_nested(rinfo, 12, bitrate_attr, rate_policy);
-  unsigned int return_value_nla_get_u32$2;
-  unsigned short int return_value_nla_get_u16$3;
-  signed int return_value_snprintf$4;
-  unsigned char return_value_nla_get_u8$5;
-  signed int return_value_snprintf$6;
-  unsigned char return_value_nla_get_u8$7;
-  signed int return_value_snprintf$8;
-  signed int return_value_snprintf$9;
-  signed int return_value_snprintf$10;
-  signed int return_value_snprintf$11;
-  signed int return_value_snprintf$12;
-  signed int return_value_snprintf$13;
-  unsigned char return_value_nla_get_u8$14;
-  signed int return_value_snprintf$15;
-  if(!(return_value_nla_parse_nested$1 == 0))
+  return_value_nla_parse_nested_1=nla_parse_nested(rinfo, 12, bitrate_attr, rate_policy);
+  unsigned int return_value_nla_get_u32_2;
+  unsigned short int return_value_nla_get_u16_3;
+  signed int return_value_snprintf_4;
+  unsigned char return_value_nla_get_u8_5;
+  signed int return_value_snprintf_6;
+  unsigned char return_value_nla_get_u8_7;
+  signed int return_value_snprintf_8;
+  signed int return_value_snprintf_9;
+  signed int return_value_snprintf_10;
+  signed int return_value_snprintf_11;
+  signed int return_value_snprintf_12;
+  signed int return_value_snprintf_13;
+  unsigned char return_value_nla_get_u8_14;
+  signed int return_value_snprintf_15;
+  if(!(return_value_nla_parse_nested_1 == 0))
     snprintf(buf, (unsigned long int)buflen, "failed to parse nested rate attributes!");
 
   else
   {
     if(!(rinfo[5l] == ((struct nlattr *)NULL)))
     {
-      return_value_nla_get_u32$2=nla_get_u32(rinfo[(signed long int)5]);
-      rate = (signed int)return_value_nla_get_u32$2;
+      return_value_nla_get_u32_2=nla_get_u32(rinfo[(signed long int)5]);
+      rate = (signed int)return_value_nla_get_u32_2;
     }
 
     else
       if(!(rinfo[1l] == ((struct nlattr *)NULL)))
       {
-        return_value_nla_get_u16$3=nla_get_u16(rinfo[(signed long int)1]);
-        rate = (signed int)return_value_nla_get_u16$3;
+        return_value_nla_get_u16_3=nla_get_u16(rinfo[(signed long int)1]);
+        rate = (signed int)return_value_nla_get_u16_3;
       }
 
     if(rate >= 1)
     {
-      return_value_snprintf$4=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), "%d.%d MBit/s", rate / 10, rate % 10);
-      pos = pos + (signed long int)return_value_snprintf$4;
+      return_value_snprintf_4=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), "%d.%d MBit/s", rate / 10, rate % 10);
+      pos = pos + (signed long int)return_value_snprintf_4;
     }
 
     if(!(rinfo[2l] == ((struct nlattr *)NULL)))
     {
-      return_value_nla_get_u8$5=nla_get_u8(rinfo[(signed long int)2]);
-      return_value_snprintf$6=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " MCS %d", return_value_nla_get_u8$5);
-      pos = pos + (signed long int)return_value_snprintf$6;
+      return_value_nla_get_u8_5=nla_get_u8(rinfo[(signed long int)2]);
+      return_value_snprintf_6=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " MCS %d", return_value_nla_get_u8_5);
+      pos = pos + (signed long int)return_value_snprintf_6;
     }
 
     if(!(rinfo[6l] == ((struct nlattr *)NULL)))
     {
-      return_value_nla_get_u8$7=nla_get_u8(rinfo[(signed long int)6]);
-      return_value_snprintf$8=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " VHT-MCS %d", return_value_nla_get_u8$7);
-      pos = pos + (signed long int)return_value_snprintf$8;
+      return_value_nla_get_u8_7=nla_get_u8(rinfo[(signed long int)6]);
+      return_value_snprintf_8=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " VHT-MCS %d", return_value_nla_get_u8_7);
+      pos = pos + (signed long int)return_value_snprintf_8;
     }
 
     if(!(rinfo[3l] == ((struct nlattr *)NULL)))
     {
-      return_value_snprintf$9=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 40MHz");
-      pos = pos + (signed long int)return_value_snprintf$9;
+      return_value_snprintf_9=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 40MHz");
+      pos = pos + (signed long int)return_value_snprintf_9;
     }
 
     if(!(rinfo[8l] == ((struct nlattr *)NULL)))
     {
-      return_value_snprintf$10=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 80MHz");
-      pos = pos + (signed long int)return_value_snprintf$10;
+      return_value_snprintf_10=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 80MHz");
+      pos = pos + (signed long int)return_value_snprintf_10;
     }
 
     if(!(rinfo[9l] == ((struct nlattr *)NULL)))
     {
-      return_value_snprintf$11=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 80P80MHz");
-      pos = pos + (signed long int)return_value_snprintf$11;
+      return_value_snprintf_11=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 80P80MHz");
+      pos = pos + (signed long int)return_value_snprintf_11;
     }
 
     if(!(rinfo[10l] == ((struct nlattr *)NULL)))
     {
-      return_value_snprintf$12=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 160MHz");
-      pos = pos + (signed long int)return_value_snprintf$12;
+      return_value_snprintf_12=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " 160MHz");
+      pos = pos + (signed long int)return_value_snprintf_12;
     }
 
     if(!(rinfo[4l] == ((struct nlattr *)NULL)))
     {
-      return_value_snprintf$13=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " short GI");
-      pos = pos + (signed long int)return_value_snprintf$13;
+      return_value_snprintf_13=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " short GI");
+      pos = pos + (signed long int)return_value_snprintf_13;
     }
 
     if(!(rinfo[7l] == ((struct nlattr *)NULL)))
     {
-      return_value_nla_get_u8$14=nla_get_u8(rinfo[(signed long int)7]);
-      return_value_snprintf$15=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " VHT-NSS %d", return_value_nla_get_u8$14);
-      pos = pos + (signed long int)return_value_snprintf$15;
+      return_value_nla_get_u8_14=nla_get_u8(rinfo[(signed long int)7]);
+      return_value_snprintf_15=snprintf(pos, (unsigned long int)((signed long int)buflen - (pos - buf)), " VHT-NSS %d", return_value_nla_get_u8_14);
+      pos = pos + (signed long int)return_value_snprintf_15;
     }
 
   }
@@ -8086,9 +8086,9 @@ void parse_bitrate(struct nlattr *bitrate_attr, char *buf, signed int buflen)
 // file utils.c line 82
 unsigned char prefix_len(struct in_addr *netmask)
 {
-  unsigned char return_value_bit_count$1;
-  return_value_bit_count$1=bit_count(netmask->s_addr);
-  return return_value_bit_count$1;
+  unsigned char return_value_bit_count_1;
+  return_value_bit_count_1=bit_count(netmask->s_addr);
+  return return_value_bit_count_1;
 }
 
 // pretty_time
@@ -8142,9 +8142,9 @@ const char * pretty_time_ms(const unsigned int msec)
 
   else
   {
-    const char *return_value_pretty_time$1;
-    return_value_pretty_time$1=pretty_time(msec / (unsigned int)1000);
-    return return_value_pretty_time$1;
+    const char *return_value_pretty_time_1;
+    return_value_pretty_time_1=pretty_time(msec / (unsigned int)1000);
+    return return_value_pretty_time_1;
   }
 }
 
@@ -8152,68 +8152,68 @@ const char * pretty_time_ms(const unsigned int msec)
 // file iw_nl80211.c line 157
 extern void print_ssid_escaped(char *buf, const unsigned long int buflen, const unsigned char *data, const unsigned long int datalen)
 {
-  signed int print_ssid_escaped$$1$$i;
+  signed int print_ssid_escaped__1__i;
   signed int l;
   memset((void *)buf, 0, buflen);
-  print_ssid_escaped$$1$$i = 0;
-  _Bool tmp_if_expr$1;
+  print_ssid_escaped__1__i = 0;
+  _Bool tmp_if_expr_1;
   do
   {
-    if(!((unsigned long int)print_ssid_escaped$$1$$i >= datalen))
-      tmp_if_expr$1 = (signed int)data[(signed long int)print_ssid_escaped$$1$$i] == 0 ? (_Bool)1 : (_Bool)0;
+    if(!((unsigned long int)print_ssid_escaped__1__i >= datalen))
+      tmp_if_expr_1 = (signed int)data[(signed long int)print_ssid_escaped__1__i] == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    print_ssid_escaped$$1$$i = print_ssid_escaped$$1$$i + 1;
+    print_ssid_escaped__1__i = print_ssid_escaped__1__i + 1;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  signed int return_value_sprintf$2;
-  signed int return_value_sprintf$3;
-  signed int return_value_sprintf$4;
-  if(!((unsigned long int)print_ssid_escaped$$1$$i == datalen))
+  const unsigned short int **return_value___ctype_b_loc_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  signed int return_value_sprintf_2;
+  signed int return_value_sprintf_3;
+  signed int return_value_sprintf_4;
+  if(!((unsigned long int)print_ssid_escaped__1__i == datalen))
   {
     l = 0;
-    print_ssid_escaped$$1$$i = l;
-    for( ; !((unsigned long int)print_ssid_escaped$$1$$i >= datalen); print_ssid_escaped$$1$$i = print_ssid_escaped$$1$$i + 1)
+    print_ssid_escaped__1__i = l;
+    for( ; !((unsigned long int)print_ssid_escaped__1__i >= datalen); print_ssid_escaped__1__i = print_ssid_escaped__1__i + 1)
       if((unsigned long int)(4 + l) >= buflen)
         goto __CPROVER_DUMP_L16;
 
       else
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if(!((16384 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)data[(signed long int)print_ssid_escaped$$1$$i]]) == 0))
-          tmp_if_expr$6 = (signed int)data[(signed long int)print_ssid_escaped$$1$$i] != 32 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if(!((16384 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)data[(signed long int)print_ssid_escaped__1__i]]) == 0))
+          tmp_if_expr_6 = (signed int)data[(signed long int)print_ssid_escaped__1__i] != 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (signed int)data[(signed long int)print_ssid_escaped$$1$$i] != 92 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (signed int)data[(signed long int)print_ssid_escaped__1__i] != 92 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
-          return_value_sprintf$2=sprintf(buf + (signed long int)l, "%c", data[(signed long int)print_ssid_escaped$$1$$i]);
-          l = l + return_value_sprintf$2;
+          return_value_sprintf_2=sprintf(buf + (signed long int)l, "%c", data[(signed long int)print_ssid_escaped__1__i]);
+          l = l + return_value_sprintf_2;
         }
 
         else
-          if((signed int)data[(signed long int)print_ssid_escaped$$1$$i] == 32 && !(print_ssid_escaped$$1$$i == 0) && !((unsigned long int)print_ssid_escaped$$1$$i == datalen + 18446744073709551615ul))
+          if((signed int)data[(signed long int)print_ssid_escaped__1__i] == 32 && !(print_ssid_escaped__1__i == 0) && !((unsigned long int)print_ssid_escaped__1__i == datalen + 18446744073709551615ul))
           {
-            return_value_sprintf$3=sprintf(buf + (signed long int)l, " ");
-            l = l + return_value_sprintf$3;
+            return_value_sprintf_3=sprintf(buf + (signed long int)l, " ");
+            l = l + return_value_sprintf_3;
           }
 
           else
           {
-            return_value_sprintf$4=sprintf(buf + (signed long int)l, "\\x%.2x", data[(signed long int)print_ssid_escaped$$1$$i]);
-            l = l + return_value_sprintf$4;
+            return_value_sprintf_4=sprintf(buf + (signed long int)l, "\\x%.2x", data[(signed long int)print_ssid_escaped__1__i]);
+            l = l + return_value_sprintf_4;
           }
       }
   }
@@ -8236,24 +8236,24 @@ static void read_cf(void)
   signed int lnum;
   signed int found;
   signed int v_int;
-  char *read_cf$$1$$lp;
+  char *read_cf__1__lp;
   char *conv_err;
   _Bool file_needs_update = (_Bool)0;
   char *cfname;
   cfname=get_confname();
-  signed int return_value_access$1;
-  return_value_access$1=access(cfname, 0);
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  void *return_value_ll_getall$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcasecmp$8;
-  char *tmp_post$11;
-  signed long int return_value_strtol$13;
-  unsigned long int return_value_argv_count$14;
-  if(return_value_access$1 == 0)
+  signed int return_value_access_1;
+  return_value_access_1=access(cfname, 0);
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  void *return_value_ll_getall_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcasecmp_8;
+  char *tmp_post_11;
+  signed long int return_value_strtol_13;
+  unsigned long int return_value_argv_count_14;
+  if(return_value_access_1 == 0)
   {
     fd=fopen(cfname, "r");
     if(fd == ((struct _IO_FILE *)NULL))
@@ -8262,57 +8262,57 @@ static void read_cf(void)
     lnum = 1;
     do
     {
-      return_value_fgets$2=fgets(tmp, (signed int)sizeof(char [256l]) /*256ul*/ , fd);
-      if(return_value_fgets$2 == ((char *)NULL))
+      return_value_fgets_2=fgets(tmp, (signed int)sizeof(char [256l]) /*256ul*/ , fd);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
-      unsigned long int return_value_strspn$3;
-      return_value_strspn$3=strspn(tmp, " ");
-      read_cf$$1$$lp = tmp + (signed long int)return_value_strspn$3;
-      if((signed int)*read_cf$$1$$lp == 35)
-        tmp_if_expr$4 = (_Bool)1;
+      unsigned long int return_value_strspn_3;
+      return_value_strspn_3=strspn(tmp, " ");
+      read_cf__1__lp = tmp + (signed long int)return_value_strspn_3;
+      if((signed int)*read_cf__1__lp == 35)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*read_cf$$1$$lp == 10 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)*read_cf__1__lp == 10 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_4)
       {
-        len=strcspn(read_cf$$1$$lp, " =");
+        len=strcspn(read_cf__1__lp, " =");
         if(len >= 33ul)
           err_quit("parse error in %s, line %d: identifier too long", cfname, lnum);
 
-        strncpy(lv, read_cf$$1$$lp, len);
+        strncpy(lv, read_cf__1__lp, len);
         lv[(signed long int)len] = (char)0;
-        read_cf$$1$$lp = read_cf$$1$$lp + (signed long int)len;
+        read_cf__1__lp = read_cf__1__lp + (signed long int)len;
         ll_reset(conf_items);
         found = 0;
         do
         {
           if(found == 0)
           {
-            return_value_ll_getall$5=ll_getall(conf_items);
-            ci = (struct conf_item *)return_value_ll_getall$5;
-            tmp_if_expr$6 = ci != ((struct conf_item *)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_ll_getall_5=ll_getall(conf_items);
+            ci = (struct conf_item *)return_value_ll_getall_5;
+            tmp_if_expr_6 = ci != ((struct conf_item *)NULL) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(!tmp_if_expr_6)
             break;
 
           if(!((signed int)ci->type == t_sep))
-            tmp_if_expr$7 = (signed int)ci->type != t_func ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (signed int)ci->type != t_func ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
           {
-            return_value_strcasecmp$8=strcasecmp(ci->cfname, lv);
-            tmp_if_expr$9 = return_value_strcasecmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_8=strcasecmp(ci->cfname, lv);
+            tmp_if_expr_9 = return_value_strcasecmp_8 == 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          found = (signed int)tmp_if_expr$9;
+            tmp_if_expr_9 = (_Bool)0;
+          found = (signed int)tmp_if_expr_9;
         }
         while((_Bool)1);
         if(found == 0)
@@ -8323,33 +8323,33 @@ static void read_cf(void)
 
         else
         {
-          unsigned long int return_value_strspn$10;
-          return_value_strspn$10=strspn(read_cf$$1$$lp, " ");
-          read_cf$$1$$lp = read_cf$$1$$lp + (signed long int)return_value_strspn$10;
-          tmp_post$11 = read_cf$$1$$lp;
-          read_cf$$1$$lp = read_cf$$1$$lp + 1l;
-          if(!((signed int)*tmp_post$11 == 61))
+          unsigned long int return_value_strspn_10;
+          return_value_strspn_10=strspn(read_cf__1__lp, " ");
+          read_cf__1__lp = read_cf__1__lp + (signed long int)return_value_strspn_10;
+          tmp_post_11 = read_cf__1__lp;
+          read_cf__1__lp = read_cf__1__lp + 1l;
+          if(!((signed int)*tmp_post_11 == 61))
             err_quit("parse error in %s, line %d: missing '=' operator in assignment", cfname, lnum);
 
-          unsigned long int return_value_strspn$12;
-          return_value_strspn$12=strspn(read_cf$$1$$lp, " ");
-          read_cf$$1$$lp = read_cf$$1$$lp + (signed long int)return_value_strspn$12;
-          len=strcspn(read_cf$$1$$lp, " \n");
+          unsigned long int return_value_strspn_12;
+          return_value_strspn_12=strspn(read_cf__1__lp, " ");
+          read_cf__1__lp = read_cf__1__lp + (signed long int)return_value_strspn_12;
+          len=strcspn(read_cf__1__lp, " \n");
           if(len >= 33ul)
             err_quit("parse error in %s, line %d: argument too long", cfname, lnum);
 
           else
-            if((signed int)*read_cf$$1$$lp == 10)
+            if((signed int)*read_cf__1__lp == 10)
               err_quit("parse error in %s, line %d: argument expected", cfname, lnum);
 
-          strncpy(rv, read_cf$$1$$lp, len);
+          strncpy(rv, read_cf__1__lp, len);
           rv[(signed long int)len] = (char)0;
           switch((signed int)ci->type)
           {
             case t_int:
             {
-              return_value_strtol$13=strtol(rv, &conv_err, 10);
-              v_int = (signed int)return_value_strtol$13;
+              return_value_strtol_13=strtol(rv, &conv_err, 10);
+              v_int = (signed int)return_value_strtol_13;
               if(!((signed int)*conv_err == 0))
                 err_quit("parse error in %s, line %d: integer value expected, '%s' found instead", cfname, lnum, (const void *)rv);
 
@@ -8377,8 +8377,8 @@ static void read_cf(void)
             {
               /* assertion ci->list != ((void *)0) */
               assert(ci->list != (char **)(void *)0);
-              return_value_argv_count$14=argv_count$link1(ci->list);
-              if(return_value_argv_count$14 == 0ul)
+              return_value_argv_count_14=argv_count_link1(ci->list);
+              if(return_value_argv_count_14 == 0ul)
                 err_quit("no usable %s candidates available for '%s'", ci->name, (const void *)rv);
 
               v_int=argv_find(ci->list, rv);
@@ -8450,19 +8450,19 @@ static signed int reg_handler(struct nl_msg *msg, void *arg)
   struct iw_nl80211_reg *ir = (struct iw_nl80211_reg *)arg;
   struct nlattr *tb_msg[222l];
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$1;
-  return_value_nlmsg_hdr$1=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$2;
-  return_value_nlmsg_data$2=nlmsg_data(return_value_nlmsg_hdr$1);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$2;
+  struct nlmsghdr *return_value_nlmsg_hdr_1;
+  return_value_nlmsg_hdr_1=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_2;
+  return_value_nlmsg_data_2=nlmsg_data(return_value_nlmsg_hdr_1);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_2;
   char *alpha2;
   ir->region = -1;
-  struct nlattr *return_value_genlmsg_attrdata$3;
-  return_value_genlmsg_attrdata$3=genlmsg_attrdata(gnlh, 0);
-  signed int return_value_genlmsg_attrlen$4;
-  return_value_genlmsg_attrlen$4=genlmsg_attrlen(gnlh, 0);
-  nla_parse(tb_msg, 221, return_value_genlmsg_attrdata$3, return_value_genlmsg_attrlen$4, (struct nla_policy *)(void *)0);
-  unsigned char return_value_nla_get_u8$5;
+  struct nlattr *return_value_genlmsg_attrdata_3;
+  return_value_genlmsg_attrdata_3=genlmsg_attrdata(gnlh, 0);
+  signed int return_value_genlmsg_attrlen_4;
+  return_value_genlmsg_attrlen_4=genlmsg_attrlen(gnlh, 0);
+  nla_parse(tb_msg, 221, return_value_genlmsg_attrdata_3, return_value_genlmsg_attrlen_4, (struct nla_policy *)(void *)0);
+  unsigned char return_value_nla_get_u8_5;
   if(tb_msg[33l] == ((struct nlattr *)NULL))
     return 1;
 
@@ -8474,15 +8474,15 @@ static signed int reg_handler(struct nl_msg *msg, void *arg)
     {
       if(!(tb_msg[146l] == ((struct nlattr *)NULL)))
       {
-        return_value_nla_get_u8$5=nla_get_u8(tb_msg[(signed long int)146]);
-        ir->region = (signed int)return_value_nla_get_u8$5;
+        return_value_nla_get_u8_5=nla_get_u8(tb_msg[(signed long int)146]);
+        ir->region = (signed int)return_value_nla_get_u8_5;
       }
 
       else
         ir->region = NL80211_DFS_UNSET;
-      void *return_value_nla_data$6;
-      return_value_nla_data$6=nla_data(tb_msg[(signed long int)33]);
-      alpha2 = (char *)return_value_nla_data$6;
+      void *return_value_nla_data_6;
+      return_value_nla_data_6=nla_data(tb_msg[(signed long int)33]);
+      alpha2 = (char *)return_value_nla_data_6;
       ir->country[(signed long int)0] = alpha2[(signed long int)0];
       ir->country[(signed long int)1] = alpha2[(signed long int)1];
       return 1;
@@ -8510,20 +8510,20 @@ extern void sampling_do_poll(void)
 // file info_scr.c line 29
 extern void sampling_init(void (*sampling_handler)(signed int))
 {
-  struct itimerval sampling_init$$1$$i;
-  struct anonymous$12 d;
+  struct itimerval sampling_init__1__i;
+  struct anonymous_12 d;
   d=div(conf.stat_iv, 1000);
-  xsignal$link2(14, (void (*)(signed int))1);
-  const char *return_value_conf_ifname$1;
-  return_value_conf_ifname$1=conf_ifname();
-  iw_getinf_range(return_value_conf_ifname$1, &range);
-  sampling_init$$1$$i.it_value.tv_sec = (signed long int)d.quot;
-  sampling_init$$1$$i.it_interval.tv_sec = sampling_init$$1$$i.it_value.tv_sec;
-  sampling_init$$1$$i.it_value.tv_usec = (signed long int)(d.rem * 1000);
-  sampling_init$$1$$i.it_interval.tv_usec = sampling_init$$1$$i.it_value.tv_usec;
-  xsignal$link2(14, sampling_handler);
+  xsignal_link2(14, (void (*)(signed int))1);
+  const char *return_value_conf_ifname_1;
+  return_value_conf_ifname_1=conf_ifname();
+  iw_getinf_range(return_value_conf_ifname_1, &range);
+  sampling_init__1__i.it_value.tv_sec = (signed long int)d.quot;
+  sampling_init__1__i.it_interval.tv_sec = sampling_init__1__i.it_value.tv_sec;
+  sampling_init__1__i.it_value.tv_usec = (signed long int)(d.rem * 1000);
+  sampling_init__1__i.it_interval.tv_usec = sampling_init__1__i.it_value.tv_usec;
+  xsignal_link2(14, sampling_handler);
   sampling_handler(0);
-  setitimer(0, &sampling_init$$1$$i, (struct itimerval *)(void *)0);
+  setitimer(0, &sampling_init__1__i, (struct itimerval *)(void *)0);
 }
 
 // sampling_stop
@@ -8533,9 +8533,9 @@ static inline void sampling_stop(void)
   alarm((unsigned int)0);
 }
 
-// sampling_stop$link1
+// sampling_stop_link1
 // file iw_if.h line 213
-static inline void sampling_stop$link1(void)
+static inline void sampling_stop_link1(void)
 {
   alarm((unsigned int)0);
 }
@@ -8544,32 +8544,32 @@ static inline void sampling_stop$link1(void)
 // file iw_scan.c line 143
 signed int scan_dump_handler(struct nl_msg *msg, void *arg)
 {
-  struct scan_result *scan_dump_handler$$1$$sr = (struct scan_result *)arg;
+  struct scan_result *scan_dump_handler__1__sr = (struct scan_result *)arg;
   struct scan_entry *new;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct scan_entry) /*80ul*/ );
-  new = (struct scan_entry *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct scan_entry) /*80ul*/ );
+  new = (struct scan_entry *)return_value_calloc_1;
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$2;
-  return_value_nlmsg_hdr$2=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$3;
-  return_value_nlmsg_data$3=nlmsg_data(return_value_nlmsg_hdr$2);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$3;
+  struct nlmsghdr *return_value_nlmsg_hdr_2;
+  return_value_nlmsg_hdr_2=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_3;
+  return_value_nlmsg_data_3=nlmsg_data(return_value_nlmsg_hdr_2);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_3;
   struct nlattr *tb[222l];
   struct nlattr *bss[15l];
-  struct nlattr *return_value_genlmsg_attrdata$4;
-  return_value_genlmsg_attrdata$4=genlmsg_attrdata(gnlh, 0);
-  signed int return_value_genlmsg_attrlen$5;
-  return_value_genlmsg_attrlen$5=genlmsg_attrlen(gnlh, 0);
-  nla_parse(tb, 221, return_value_genlmsg_attrdata$4, return_value_genlmsg_attrlen$5, (struct nla_policy *)(void *)0);
-  unsigned long int return_value_strlen$11;
-  signed int return_value_clamp$12;
+  struct nlattr *return_value_genlmsg_attrdata_4;
+  return_value_genlmsg_attrdata_4=genlmsg_attrdata(gnlh, 0);
+  signed int return_value_genlmsg_attrlen_5;
+  return_value_genlmsg_attrlen_5=genlmsg_attrlen(gnlh, 0);
+  nla_parse(tb, 221, return_value_genlmsg_attrdata_4, return_value_genlmsg_attrlen_5, (struct nla_policy *)(void *)0);
+  unsigned long int return_value_strlen_11;
+  signed int return_value_clamp_12;
   if(tb[47l] == ((struct nlattr *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_nla_parse_nested$6;
+    signed int return_value_nla_parse_nested_6;
     static struct nla_policy bss_policy[15l] = { { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)4, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)2, .minlen=0, .maxlen=0 },
@@ -8579,8 +8579,8 @@ signed int scan_dump_handler(struct nl_msg *msg, void *arg)
     { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 }, { .type=0, .minlen=0, .maxlen=0 } };
-    return_value_nla_parse_nested$6=nla_parse_nested(bss, 14, tb[(signed long int)47], bss_policy);
-    if(!(return_value_nla_parse_nested$6 == 0))
+    return_value_nla_parse_nested_6=nla_parse_nested(bss, 14, tb[(signed long int)47], bss_policy);
+    if(!(return_value_nla_parse_nested_6 == 0))
       return 1;
 
     else
@@ -8589,15 +8589,15 @@ signed int scan_dump_handler(struct nl_msg *msg, void *arg)
 
       else
       {
-        void *return_value_calloc$7;
-        return_value_calloc$7=calloc((unsigned long int)1, sizeof(struct scan_entry) /*80ul*/ );
-        new = (struct scan_entry *)return_value_calloc$7;
+        void *return_value_calloc_7;
+        return_value_calloc_7=calloc((unsigned long int)1, sizeof(struct scan_entry) /*80ul*/ );
+        new = (struct scan_entry *)return_value_calloc_7;
         if(new == ((struct scan_entry *)NULL))
           err_sys("failed to allocate scan entry");
 
-        void *return_value_nla_data$8;
-        return_value_nla_data$8=nla_data(bss[(signed long int)1]);
-        memcpy((void *)&new->ap_addr, return_value_nla_data$8, sizeof(struct ether_addr) /*6ul*/ );
+        void *return_value_nla_data_8;
+        return_value_nla_data_8=nla_data(bss[(signed long int)1]);
+        memcpy((void *)&new->ap_addr, return_value_nla_data_8, sizeof(struct ether_addr) /*6ul*/ );
         if(!(bss[2l] == ((struct nlattr *)NULL)))
         {
           new->freq=nla_get_u32(bss[(signed long int)2]);
@@ -8610,9 +8610,9 @@ signed int scan_dump_handler(struct nl_msg *msg, void *arg)
         if(!(bss[7l] == ((struct nlattr *)NULL)))
         {
           signed int s;
-          unsigned int return_value_nla_get_u32$9;
-          return_value_nla_get_u32$9=nla_get_u32(bss[(signed long int)7]);
-          s = (signed int)return_value_nla_get_u32$9;
+          unsigned int return_value_nla_get_u32_9;
+          return_value_nla_get_u32_9=nla_get_u32(bss[(signed long int)7]);
+          s = (signed int)return_value_nla_get_u32_9;
           new->bss_signal = (signed char)(s / 100);
         }
 
@@ -8631,9 +8631,9 @@ signed int scan_dump_handler(struct nl_msg *msg, void *arg)
         if(!(bss[6l] == ((struct nlattr *)NULL)))
         {
           unsigned char *ie;
-          void *return_value_nla_data$10;
-          return_value_nla_data$10=nla_data(bss[(signed long int)6]);
-          ie = (unsigned char *)return_value_nla_data$10;
+          void *return_value_nla_data_10;
+          return_value_nla_data_10=nla_data(bss[(signed long int)6]);
+          ie = (unsigned char *)return_value_nla_data_10;
           signed int ielen;
           ielen=nla_len(bss[(signed long int)6]);
           unsigned char len = ie[(signed long int)1];
@@ -8663,15 +8663,15 @@ signed int scan_dump_handler(struct nl_msg *msg, void *arg)
           }
         }
 
-        new->next = scan_dump_handler$$1$$sr->head;
-        scan_dump_handler$$1$$sr->head = new;
-        _Bool return_value_str_is_ascii$13;
-        return_value_str_is_ascii$13=str_is_ascii$link1(new->essid);
-        if(!(return_value_str_is_ascii$13 == (_Bool)0))
+        new->next = scan_dump_handler__1__sr->head;
+        scan_dump_handler__1__sr->head = new;
+        _Bool return_value_str_is_ascii_13;
+        return_value_str_is_ascii_13=str_is_ascii_link1(new->essid);
+        if(!(return_value_str_is_ascii_13 == (_Bool)0))
         {
-          return_value_strlen$11=strlen(new->essid);
-          return_value_clamp$12=clamp((signed int)return_value_strlen$11, (signed int)scan_dump_handler$$1$$sr->max_essid_len, 32);
-          scan_dump_handler$$1$$sr->max_essid_len = (unsigned short int)return_value_clamp$12;
+          return_value_strlen_11=strlen(new->essid);
+          return_value_clamp_12=clamp((signed int)return_value_strlen_11, (signed int)scan_dump_handler__1__sr->max_essid_len, 32);
+          scan_dump_handler__1__sr->max_essid_len = (unsigned short int)return_value_clamp_12;
         }
 
         if(new->freq >= 45001u)
@@ -8679,14 +8679,14 @@ signed int scan_dump_handler(struct nl_msg *msg, void *arg)
 
         else
           if(new->freq >= 5000u)
-            scan_dump_handler$$1$$sr->num.five_gig = scan_dump_handler$$1$$sr->num.five_gig + 1;
+            scan_dump_handler__1__sr->num.five_gig = scan_dump_handler__1__sr->num.five_gig + 1;
 
           else
             if(new->freq >= 2000u)
-              scan_dump_handler$$1$$sr->num.two_gig = scan_dump_handler$$1$$sr->num.two_gig + 1;
+              scan_dump_handler__1__sr->num.two_gig = scan_dump_handler__1__sr->num.two_gig + 1;
 
-        scan_dump_handler$$1$$sr->num.entries = scan_dump_handler$$1$$sr->num.entries + (unsigned short int)1;
-        scan_dump_handler$$1$$sr->num.open = scan_dump_handler$$1$$sr->num.open + (unsigned short int)!(new->has_key != 0);
+        scan_dump_handler__1__sr->num.entries = scan_dump_handler__1__sr->num.entries + (unsigned short int)1;
+        scan_dump_handler__1__sr->num.open = scan_dump_handler__1__sr->num.open + (unsigned short int)!(new->has_key != 0);
         return 1;
       }
   }
@@ -8705,12 +8705,12 @@ extern void scan_result_fini(struct scan_result *sr)
 // file iw_if.h line 294
 extern void scan_result_init(struct scan_result *sr)
 {
-  union anonymous$14 ma;
+  union anonymous_14 ma;
   memset((void *)sr, 0, sizeof(struct scan_result) /*208ul*/ );
   pthread_mutexattr_init(&ma);
-  signed int return_value_pthread_mutexattr_setrobust$1;
-  return_value_pthread_mutexattr_setrobust$1=pthread_mutexattr_setrobust(&ma, 1);
-  if(!(return_value_pthread_mutexattr_setrobust$1 >= 0))
+  signed int return_value_pthread_mutexattr_setrobust_1;
+  return_value_pthread_mutexattr_setrobust_1=pthread_mutexattr_setrobust(&ma, 1);
+  if(!(return_value_pthread_mutexattr_setrobust_1 >= 0))
     err_sys("Failed to set the mutex robust attribute");
 
   pthread_mutex_init(&sr->mutex, &ma);
@@ -8732,24 +8732,24 @@ extern void scr_about_init(void)
 {
   w_about=newwin_title(0, LINES - 1, "About", (_Bool)0);
   i = 0;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_rand$4;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_rand_4;
   for( ; !((unsigned long int)i >= 10ul); i = i + 1)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(about_lines[(signed long int)i]);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_strlen$1 * sizeof(signed int) /*4ul*/ );
-    linecd[(signed long int)i] = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(about_lines[(signed long int)i]);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_strlen_1 * sizeof(signed int) /*4ul*/ );
+    linecd[(signed long int)i] = (signed int *)return_value_malloc_2;
     j = 0;
     do
     {
-      return_value_strlen$3=strlen(about_lines[(signed long int)i]);
-      if((unsigned long int)j >= return_value_strlen$3)
+      return_value_strlen_3=strlen(about_lines[(signed long int)i]);
+      if((unsigned long int)j >= return_value_strlen_3)
         break;
 
-      return_value_rand$4=rand();
-      linecd[(signed long int)i][(signed long int)j] = (signed int)(((float)return_value_rand$4 / (float)2147483647) * (float)120 + (float)60);
+      return_value_rand_4=rand();
+      linecd[(signed long int)i][(signed long int)j] = (signed int)(((float)return_value_rand_4 / (float)2147483647) * (float)120 + (float)60);
       j = j + 1;
     }
     while((_Bool)1);
@@ -8762,14 +8762,14 @@ extern signed int scr_about_loop(struct _win_st *w_menu)
 {
   char buf[256l];
   i = 0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   for( ; !((unsigned long int)i >= 10ul); i = i + 1)
   {
     j = 0;
     do
     {
-      return_value_strlen$1=strlen(about_lines[(signed long int)i]);
-      if((unsigned long int)j >= return_value_strlen$1)
+      return_value_strlen_1=strlen(about_lines[(signed long int)i]);
+      if((unsigned long int)j >= return_value_strlen_1)
         break;
 
       if(linecd[(signed long int)i][(signed long int)j] >= 61)
@@ -8781,9 +8781,9 @@ extern signed int scr_about_loop(struct _win_st *w_menu)
       else
         if(!(linecd[(signed long int)i][(signed long int)j] == 0))
         {
-          signed int return_value_rand$2;
-          return_value_rand$2=rand();
-          buf[(signed long int)j] = (char)(((float)return_value_rand$2 / (float)2147483647) * (float)54 + (float)65);
+          signed int return_value_rand_2;
+          return_value_rand_2=rand();
+          buf[(signed long int)j] = (char)(((float)return_value_rand_2 / (float)2147483647) * (float)54 + (float)65);
           linecd[(signed long int)i][(signed long int)j] = linecd[(signed long int)i][(signed long int)j] - 1;
         }
 
@@ -8796,9 +8796,9 @@ extern signed int scr_about_loop(struct _win_st *w_menu)
     waddstr_center(w_about, (signed int)(((unsigned long int)(LINES - 1) - sizeof(char *[10l]) /*80ul*/  / sizeof(char *) /*8ul*/ ) / (unsigned long int)2 + (unsigned long int)i), buf);
   }
   wrefresh(w_about);
-  signed int return_value_wgetch$3;
-  return_value_wgetch$3=wgetch(w_menu);
-  return return_value_wgetch$3;
+  signed int return_value_wgetch_3;
+  return_value_wgetch_3=wgetch(w_menu);
+  return return_value_wgetch_3;
 }
 
 // scr_aplst_fini
@@ -8815,9 +8815,9 @@ extern void scr_aplst_fini(void)
 extern void scr_aplst_init(void)
 {
   w_aplst=newwin_title(0, LINES - 1, "Scan window", (_Bool)0);
-  signed int return_value_wmove$1;
-  return_value_wmove$1=wmove(w_aplst, 2, 1);
-  if(return_value_wmove$1 == -1)
+  signed int return_value_wmove_1;
+  return_value_wmove_1=wmove(w_aplst, 2, 1);
+  if(return_value_wmove_1 == -1)
     -1;
 
   else
@@ -8902,18 +8902,18 @@ extern void scr_conf_init(void)
 {
   struct conf_item *item;
   conf_get_interface_list();
-  unsigned long int return_value_ll_size$1;
-  return_value_ll_size$1=ll_size(conf_items);
-  num_items = (signed int)return_value_ll_size$1;
+  unsigned long int return_value_ll_size_1;
+  return_value_ll_size_1=ll_size(conf_items);
+  num_items = (signed int)return_value_ll_size_1;
   w_conf=newwin_title(0, LINES - 1, "Preferences", (_Bool)0);
   w_confpad=newpad(num_items + 1, 80 / 2);
-  void *return_value_ll_get$2;
+  void *return_value_ll_get_2;
   if(first_item == 0)
   {
     do
     {
-      return_value_ll_get$2=ll_get(conf_items, (unsigned long int)first_item);
-      item = (struct conf_item *)return_value_ll_get$2;
+      return_value_ll_get_2=ll_get(conf_items, (unsigned long int)first_item);
+      item = (struct conf_item *)return_value_ll_get_2;
       if(item == ((struct conf_item *)NULL))
         break;
 
@@ -8985,9 +8985,9 @@ extern signed int scr_conf_loop(struct _win_st *w_menu)
     }
     case 13:
     {
-      void *return_value_ll_get$1;
-      return_value_ll_get$1=ll_get(conf_items, (unsigned long int)active_item);
-      item = (struct conf_item *)return_value_ll_get$1;
+      void *return_value_ll_get_1;
+      return_value_ll_get_1=ll_get(conf_items, (unsigned long int)active_item);
+      item = (struct conf_item *)return_value_ll_get_1;
       if((signed int)item->type == t_func)
       {
         flash();
@@ -9019,9 +9019,9 @@ extern void scr_help_init(void)
 // file wavemon.h line 214
 extern signed int scr_help_loop(struct _win_st *w_menu)
 {
-  signed int return_value_wgetch$1;
-  return_value_wgetch$1=wgetch(w_menu);
-  return return_value_wgetch$1;
+  signed int return_value_wgetch_1;
+  return_value_wgetch_1=wgetch(w_menu);
+  return return_value_wgetch_1;
 }
 
 // scr_info_fini
@@ -9064,25 +9064,25 @@ extern void scr_info_init(void)
 // file wavemon.h line 198
 extern signed int scr_info_loop(struct _win_st *w_menu)
 {
-  _Bool return_value_end_timer$1;
-  return_value_end_timer$1=end_timer(&dyn_updates);
-  if(!(return_value_end_timer$1 == (_Bool)0))
+  _Bool return_value_end_timer_1;
+  return_value_end_timer_1=end_timer(&dyn_updates);
+  if(!(return_value_end_timer_1 == (_Bool)0))
   {
     display_info(w_if, w_info);
     display_netinfo(w_net);
     start_timer(&dyn_updates, (unsigned long int)(conf.info_iv * 1000000));
   }
 
-  signed int return_value_wgetch$2;
-  return_value_wgetch$2=wgetch(w_menu);
-  return return_value_wgetch$2;
+  signed int return_value_wgetch_2;
+  return_value_wgetch_2=wgetch(w_menu);
+  return return_value_wgetch_2;
 }
 
 // scr_lhist_fini
 // file wavemon.h line 203
 extern void scr_lhist_fini(void)
 {
-  sampling_stop$link1();
+  sampling_stop_link1();
   delwin(w_lhist);
   delwin(w_key);
 }
@@ -9104,9 +9104,9 @@ extern void scr_lhist_init(void)
 // file wavemon.h line 202
 extern signed int scr_lhist_loop(struct _win_st *w_menu)
 {
-  signed int return_value_wgetch$1;
-  return_value_wgetch$1=wgetch(w_menu);
-  return return_value_wgetch$1;
+  signed int return_value_wgetch_1;
+  return_value_wgetch_1=wgetch(w_menu);
+  return return_value_wgetch_1;
 }
 
 // select_item
@@ -9114,28 +9114,28 @@ extern signed int scr_lhist_loop(struct _win_st *w_menu)
 static signed int select_item(signed int rv, signed int incr)
 {
   struct conf_item *item;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     rv = rv + incr;
-    void *return_value_ll_get$3;
-    return_value_ll_get$3=ll_get(conf_items, (unsigned long int)rv);
-    item = (struct conf_item *)return_value_ll_get$3;
+    void *return_value_ll_get_3;
+    return_value_ll_get_3=ll_get(conf_items, (unsigned long int)rv);
+    item = (struct conf_item *)return_value_ll_get_3;
     if((signed int)item->type == t_sep)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       if(!(item->dep == ((signed int *)NULL)))
-        tmp_if_expr$1 = !(*item->dep != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !(*item->dep != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return rv;
 }
 
@@ -9159,7 +9159,7 @@ extern void sort_scan_list(struct scan_entry **headp)
   struct scan_entry *cur;
   struct scan_entry *new = *headp;
   struct scan_entry **prev;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   _Bool return_value;
   for( ; !(new == ((struct scan_entry *)NULL)); (*prev)->next = cur)
   {
@@ -9170,12 +9170,12 @@ extern void sort_scan_list(struct scan_entry **headp)
       if(!(cur == ((struct scan_entry *)NULL)))
       {
         return_value=scan_cmp[(signed long int)conf.scan_sort_order](cur, new);
-        tmp_if_expr$1 = conf.scan_sort_asc == (signed int)return_value ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = conf.scan_sort_asc == (signed int)return_value ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       prev = &cur->next;
@@ -9200,15 +9200,15 @@ extern void start_timer(struct timer *t, unsigned long int duration)
 // file wavemon.h line 347
 static inline _Bool str_is_ascii(char *s)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*s != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*s != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  if(tmp_if_expr_1)
     return (_Bool)0;
 
   else
@@ -9216,14 +9216,14 @@ static inline _Bool str_is_ascii(char *s)
     for( ; !(*s == 0); s = s + 1l)
     {
       if(!((-128 & (signed int)*s) == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        tmp_if_expr$3 = ((signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)2) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        tmp_if_expr_3 = ((signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)2) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         return (_Bool)0;
 
     }
@@ -9231,34 +9231,34 @@ static inline _Bool str_is_ascii(char *s)
   }
 }
 
-// str_is_ascii$link1
+// str_is_ascii_link1
 // file wavemon.h line 347
-static inline _Bool str_is_ascii$link1(char *s$link1)
+static inline _Bool str_is_ascii_link1(char *s_link1)
 {
-  _Bool tmp_if_expr$1$link1;
-  if(s$link1 == ((char *)NULL))
-    tmp_if_expr$1$link1 = (_Bool)1;
+  _Bool tmp_if_expr_1_link1;
+  if(s_link1 == ((char *)NULL))
+    tmp_if_expr_1_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$1$link1 = !(*s$link1 != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3$link1;
-  const unsigned short int **return_value___ctype_b_loc$2$link1;
-  if(tmp_if_expr$1$link1)
+    tmp_if_expr_1_link1 = !(*s_link1 != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3_link1;
+  const unsigned short int **return_value___ctype_b_loc_2_link1;
+  if(tmp_if_expr_1_link1)
     return (_Bool)0;
 
   else
   {
-    for( ; !(*s$link1 == 0); s$link1 = s$link1 + 1l)
+    for( ; !(*s_link1 == 0); s_link1 = s_link1 + 1l)
     {
-      if(!((-128 & (signed int)*s$link1) == 0))
-        tmp_if_expr$3$link1 = (_Bool)1;
+      if(!((-128 & (signed int)*s_link1) == 0))
+        tmp_if_expr_3_link1 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$2$link1=__ctype_b_loc();
-        tmp_if_expr$3$link1 = ((signed int)(*return_value___ctype_b_loc$2$link1)[(signed long int)(signed int)*s$link1] & (signed int)(unsigned short int)2) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_2_link1=__ctype_b_loc();
+        tmp_if_expr_3_link1 = ((signed int)(*return_value___ctype_b_loc_2_link1)[(signed long int)(signed int)*s_link1] & (signed int)(unsigned short int)2) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3$link1)
+      if(tmp_if_expr_3_link1)
         return (_Bool)0;
 
     }
@@ -9270,20 +9270,20 @@ static inline _Bool str_is_ascii$link1(char *s$link1)
 // file wavemon.h line 340
 static inline void str_tolower(char *s)
 {
-  _Bool tmp_if_expr$1;
-  signed int return_value_tolower$2;
+  _Bool tmp_if_expr_1;
+  signed int return_value_tolower_2;
   do
   {
     if(!(s == ((char *)NULL)))
-      tmp_if_expr$1 = *s != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    return_value_tolower$2=tolower((signed int)*s);
-    *s = (char)return_value_tolower$2;
+    return_value_tolower_2=tolower((signed int)*s);
+    *s = (char)return_value_tolower_2;
     s = s + 1l;
   }
   while((_Bool)1);
@@ -9296,24 +9296,24 @@ static signed int survey_handler(struct nl_msg *msg, void *arg)
   struct iw_nl80211_survey *sd = (struct iw_nl80211_survey *)arg;
   struct nlattr *tb[222l];
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$1;
-  return_value_nlmsg_hdr$1=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$2;
-  return_value_nlmsg_data$2=nlmsg_data(return_value_nlmsg_hdr$1);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$2;
+  struct nlmsghdr *return_value_nlmsg_hdr_1;
+  return_value_nlmsg_hdr_1=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_2;
+  return_value_nlmsg_data_2=nlmsg_data(return_value_nlmsg_hdr_1);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_2;
   struct nlattr *sinfo[10l];
-  struct nlattr *return_value_genlmsg_attrdata$3;
-  return_value_genlmsg_attrdata$3=genlmsg_attrdata(gnlh, 0);
-  signed int return_value_genlmsg_attrlen$4;
-  return_value_genlmsg_attrlen$4=genlmsg_attrlen(gnlh, 0);
-  nla_parse(tb, 221, return_value_genlmsg_attrdata$3, return_value_genlmsg_attrlen$4, (struct nla_policy *)(void *)0);
-  unsigned char return_value_nla_get_u8$6;
+  struct nlattr *return_value_genlmsg_attrdata_3;
+  return_value_genlmsg_attrdata_3=genlmsg_attrdata(gnlh, 0);
+  signed int return_value_genlmsg_attrlen_4;
+  return_value_genlmsg_attrlen_4=genlmsg_attrlen(gnlh, 0);
+  nla_parse(tb, 221, return_value_genlmsg_attrdata_3, return_value_genlmsg_attrlen_4, (struct nla_policy *)(void *)0);
+  unsigned char return_value_nla_get_u8_6;
   if(tb[84l] == ((struct nlattr *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_nla_parse_nested$5;
+    signed int return_value_nla_parse_nested_5;
     static struct nla_policy survey_policy[10l] = { { .type=0, .minlen=0, .maxlen=0 }, { .type=(unsigned short int)3, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)1, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)6, .minlen=0, .maxlen=0 },
@@ -9323,8 +9323,8 @@ static signed int survey_handler(struct nl_msg *msg, void *arg)
     { .type=(unsigned short int)4, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)4, .minlen=0, .maxlen=0 },
     { .type=(unsigned short int)4, .minlen=0, .maxlen=0 } };
-    return_value_nla_parse_nested$5=nla_parse_nested(sinfo, 9, tb[(signed long int)84], survey_policy);
-    if(!(return_value_nla_parse_nested$5 == 0))
+    return_value_nla_parse_nested_5=nla_parse_nested(sinfo, 9, tb[(signed long int)84], survey_policy);
+    if(!(return_value_nla_parse_nested_5 == 0))
       return 1;
 
     else
@@ -9340,8 +9340,8 @@ static signed int survey_handler(struct nl_msg *msg, void *arg)
           sd->freq=nla_get_u32(sinfo[(signed long int)1]);
           if(!(sinfo[2l] == ((struct nlattr *)NULL)))
           {
-            return_value_nla_get_u8$6=nla_get_u8(sinfo[(signed long int)2]);
-            sd->noise = (signed char)return_value_nla_get_u8$6;
+            return_value_nla_get_u8_6=nla_get_u8(sinfo[(signed long int)2]);
+            sd->noise = (signed char)return_value_nla_get_u8_6;
           }
 
           if(!(sinfo[4l] == ((struct nlattr *)NULL)))
@@ -9372,26 +9372,26 @@ static signed int survey_handler(struct nl_msg *msg, void *arg)
 static void terminate_all_processes(const char *fmt, signed int strerr, void **ap)
 {
   signed int saved_errno;
-  signed int tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  signed int tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(!(strerr == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    tmp_if_expr$2 = *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    tmp_if_expr_2 = *return_value___errno_location_1;
   }
 
   else
-    tmp_if_expr$2 = 0;
-  saved_errno = tmp_if_expr$2;
-  xsignal$link1(15, (void (*)(signed int))1);
+    tmp_if_expr_2 = 0;
+  saved_errno = tmp_if_expr_2;
+  xsignal_link1(15, (void (*)(signed int))1);
   endwin();
   kill(0, 15);
   reset_shell_mode();
   if(!(saved_errno == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = saved_errno;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = saved_errno;
     vwarn(fmt, ap);
   }
 
@@ -9455,16 +9455,16 @@ extern void wadd_attr_str(struct _win_st *win, const signed int attrs, const cha
 extern void waddbar(struct _win_st *win, signed int y, float v, float min, float max, signed char *cscale, _Bool rev)
 {
   unsigned long int ch;
-  signed int return_value_cp_from_scale$1;
-  return_value_cp_from_scale$1=cp_from_scale(v, cscale, rev);
-  ch = (unsigned long int)61 | (unsigned long int)1UL << 13 + 8 | (unsigned long int)return_value_cp_from_scale$1;
+  signed int return_value_cp_from_scale_1;
+  return_value_cp_from_scale_1=cp_from_scale(v, cscale, rev);
+  ch = (unsigned long int)61 | (unsigned long int)1UL << 13 + 8 | (unsigned long int)return_value_cp_from_scale_1;
   signed int len;
-  double return_value_interpolate$2;
-  return_value_interpolate$2=interpolate((const double)v, (const double)min, (const double)max);
-  len = (signed int)((double)(COLS - 2) * return_value_interpolate$2);
-  signed int return_value_wmove$3;
-  return_value_wmove$3=wmove(win, y, 1);
-  if(return_value_wmove$3 == -1)
+  double return_value_interpolate_2;
+  return_value_interpolate_2=interpolate((const double)v, (const double)min, (const double)max);
+  len = (signed int)((double)(COLS - 2) * return_value_interpolate_2);
+  signed int return_value_wmove_3;
+  return_value_wmove_3=wmove(win, y, 1);
+  if(return_value_wmove_3 == -1)
     -1;
 
   else
@@ -9479,29 +9479,29 @@ static inline void waddstr_b(struct _win_st *win, const char *s)
   wadd_attr_str(win, (const signed int)((unsigned long int)1UL << 13 + 8), s);
 }
 
-// waddstr_b$link1
+// waddstr_b_link1
 // file wavemon.h line 231
-static inline void waddstr_b$link1(struct _win_st *win$link1, const char *s$link1)
+static inline void waddstr_b_link1(struct _win_st *win_link1, const char *s_link1)
 {
-  wadd_attr_str(win$link1, (const signed int)((unsigned long int)1UL << 13 + 8), s$link1);
+  wadd_attr_str(win_link1, (const signed int)((unsigned long int)1UL << 13 + 8), s_link1);
 }
 
-// waddstr_b$link2
+// waddstr_b_link2
 // file wavemon.h line 231
-static inline void waddstr_b$link2(struct _win_st *win$link2, const char *s$link2)
+static inline void waddstr_b_link2(struct _win_st *win_link2, const char *s_link2)
 {
-  wadd_attr_str(win$link2, (const signed int)((unsigned long int)1UL << 13 + 8), s$link2);
+  wadd_attr_str(win_link2, (const signed int)((unsigned long int)1UL << 13 + 8), s_link2);
 }
 
 // waddstr_center
 // file wavemon.h line 236
 extern void waddstr_center(struct _win_st *win, signed int y, const char *s)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  signed int return_value_wmove$2;
-  return_value_wmove$2=wmove(win, y, (signed int)(((unsigned long int)COLS - return_value_strlen$1) / (unsigned long int)2));
-  if(return_value_wmove$2 == -1)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  signed int return_value_wmove_2;
+  return_value_wmove_2=wmove(win, y, (signed int)(((unsigned long int)COLS - return_value_strlen_1) / (unsigned long int)2));
+  if(return_value_wmove_2 == -1)
     -1;
 
   else
@@ -9521,26 +9521,26 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
 
   else
     -1;
-  signed int return_value_wmove$1;
-  return_value_wmove$1=wmove(w, y, 0);
-  if(return_value_wmove$1 == -1)
+  signed int return_value_wmove_1;
+  return_value_wmove_1=wmove(w, y, 0);
+  if(return_value_wmove_1 == -1)
     -1;
 
   else
     whline(w, (unsigned long int)32, 80 / 2);
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   if(!((signed int)item->type == t_sep))
-    tmp_if_expr$13 = (signed int)item->type != t_func ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_13 = (signed int)item->type != t_func ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$13 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$12;
-  if(tmp_if_expr$13)
+    tmp_if_expr_13 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_12;
+  if(tmp_if_expr_13)
   {
-    signed int return_value_wmove$2;
-    return_value_wmove$2=wmove(w, y, item->dep != ((signed int *)NULL) ? 2 : 0);
-    if(return_value_wmove$2 == -1)
+    signed int return_value_wmove_2;
+    return_value_wmove_2=wmove(w, y, item->dep != ((signed int *)NULL) ? 2 : 0);
+    if(return_value_wmove_2 == -1)
       -1;
 
     else
@@ -9555,12 +9555,12 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
       case t_list:
       {
         if(!(item->list == ((char **)NULL)))
-          tmp_if_expr$3 = item->list[(signed long int)*item->v.i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = item->list[(signed long int)*item->v.i] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
         /* assertion item->list && item->list[*item->v.i] */
-        assert(tmp_if_expr$3);
+        assert(tmp_if_expr_3);
         strncpy(s, item->list[(signed long int)*item->v.i], sizeof(char [64l]) /*64ul*/ );
       }
       case t_sep:
@@ -9574,9 +9574,9 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
         ;
         if(item->unit == ((char *)NULL))
         {
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(s);
-          wmove(w, y, (signed int)((unsigned long int)(80 / 2) - return_value_strlen$4));
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(s);
+          wmove(w, y, (signed int)((unsigned long int)(80 / 2) - return_value_strlen_4));
           if(!(hilight == 0))
           {
             wattr_on(w, (unsigned long int)((unsigned long int)1UL << 10 + 8), (void *)0);
@@ -9590,11 +9590,11 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
 
         else
         {
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(s);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(item->unit);
-          wmove(w, y, (signed int)((((unsigned long int)(80 / 2) - return_value_strlen$5) - return_value_strlen$6) - (unsigned long int)1));
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(s);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(item->unit);
+          wmove(w, y, (signed int)((((unsigned long int)(80 / 2) - return_value_strlen_5) - return_value_strlen_6) - (unsigned long int)1));
           if(!(hilight == 0))
           {
             wattr_on(w, (unsigned long int)((unsigned long int)1UL << 10 + 8), (void *)0);
@@ -9604,11 +9604,11 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
 
           else
             waddstr_b(w, s);
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(item->unit);
-          signed int return_value_wmove$8;
-          return_value_wmove$8=wmove(w, y, (signed int)((unsigned long int)(80 / 2) - return_value_strlen$7));
-          if(return_value_wmove$8 == -1)
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(item->unit);
+          signed int return_value_wmove_8;
+          return_value_wmove_8=wmove(w, y, (signed int)((unsigned long int)(80 / 2) - return_value_strlen_7));
+          if(return_value_wmove_8 == -1)
             -1;
 
           else
@@ -9621,18 +9621,18 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
   else
   {
     if((signed int)item->type == t_sep)
-      tmp_if_expr$12 = item->name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = item->name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
     {
       sprintf(s, "- %s -", item->name);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(s);
-      signed int return_value_wmove$10;
-      return_value_wmove$10=wmove(w, y, (signed int)(((unsigned long int)(80 / 2) - return_value_strlen$9) / (unsigned long int)2));
-      if(return_value_wmove$10 == -1)
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(s);
+      signed int return_value_wmove_10;
+      return_value_wmove_10=wmove(w, y, (signed int)(((unsigned long int)(80 / 2) - return_value_strlen_9) / (unsigned long int)2));
+      if(return_value_wmove_10 == -1)
         -1;
 
       else
@@ -9642,9 +9642,9 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
     else
       if((signed int)item->type == t_func)
       {
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(item->name);
-        wmove(w, y, (signed int)(((unsigned long int)(80 / 2) - return_value_strlen$11) / (unsigned long int)2));
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(item->name);
+        wmove(w, y, (signed int)(((unsigned long int)(80 / 2) - return_value_strlen_11) / (unsigned long int)2));
         if(!(hilight == 0))
         {
           wattr_on(w, (unsigned long int)((unsigned long int)1UL << 10 + 8), (void *)0);
@@ -9663,7 +9663,7 @@ static void waddstr_item(struct _win_st *w, signed int y, struct conf_item *item
 // file ui.c line 129
 extern void waddthreshold(struct _win_st *win, signed int y, float v, float tv, float minv, float maxv, signed char *cscale, unsigned long int tch)
 {
-  signed int return_value_cp_from_scale$1;
+  signed int return_value_cp_from_scale_1;
   if(tv < maxv && tv > minv)
   {
     if(v > tv)
@@ -9671,14 +9671,14 @@ extern void waddthreshold(struct _win_st *win, signed int y, float v, float tv, 
 
     else
     {
-      return_value_cp_from_scale$1=cp_from_scale(v, cscale, (_Bool)1);
-      tch = tch | (unsigned long int)return_value_cp_from_scale$1;
+      return_value_cp_from_scale_1=cp_from_scale(v, cscale, (_Bool)1);
+      tch = tch | (unsigned long int)return_value_cp_from_scale_1;
     }
-    double return_value_interpolate$2;
-    return_value_interpolate$2=interpolate((const double)tv, (const double)minv, (const double)maxv);
-    signed int return_value_wmove$3;
-    return_value_wmove$3=wmove(win, y, (signed int)((double)1 + (double)(COLS - 2) * return_value_interpolate$2));
-    if(return_value_wmove$3 == -1)
+    double return_value_interpolate_2;
+    return_value_interpolate_2=interpolate((const double)tv, (const double)minv, (const double)maxv);
+    signed int return_value_wmove_3;
+    return_value_wmove_3=wmove(win, y, (signed int)((double)1 + (double)(COLS - 2) * return_value_interpolate_2));
+    if(return_value_wmove_3 == -1)
       -1;
 
     else
@@ -9693,14 +9693,14 @@ static signed int wait_event(struct nl_msg *msg, void *arg)
 {
   struct wait_event *wait = (struct wait_event *)arg;
   struct genlmsghdr *gnlh;
-  struct nlmsghdr *return_value_nlmsg_hdr$1;
-  return_value_nlmsg_hdr$1=nlmsg_hdr(msg);
-  void *return_value_nlmsg_data$2;
-  return_value_nlmsg_data$2=nlmsg_data(return_value_nlmsg_hdr$1);
-  gnlh = (struct genlmsghdr *)return_value_nlmsg_data$2;
-  signed int wait_event$$1$$i = 0;
-  for( ; !(wait_event$$1$$i >= (signed int)wait->n_cmds); wait_event$$1$$i = wait_event$$1$$i + 1)
-    if((unsigned int)gnlh->cmd == wait->cmds[(signed long int)wait_event$$1$$i])
+  struct nlmsghdr *return_value_nlmsg_hdr_1;
+  return_value_nlmsg_hdr_1=nlmsg_hdr(msg);
+  void *return_value_nlmsg_data_2;
+  return_value_nlmsg_data_2=nlmsg_data(return_value_nlmsg_hdr_1);
+  gnlh = (struct genlmsghdr *)return_value_nlmsg_data_2;
+  signed int wait_event__1__i = 0;
+  for( ; !(wait_event__1__i >= (signed int)wait->n_cmds); wait_event__1__i = wait_event__1__i + 1)
+    if((unsigned int)gnlh->cmd == wait->cmds[(signed long int)wait_event__1__i])
       wait->cmd = (unsigned int)gnlh->cmd;
 
   return 1;
@@ -9735,20 +9735,20 @@ extern void wclrtoborder(struct _win_st *win)
 {
   signed int x;
   signed int y;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(win == ((struct _win_st *)NULL)))
-    tmp_if_expr$1 = (signed int)win->_cury;
+    tmp_if_expr_1 = (signed int)win->_cury;
 
   else
-    tmp_if_expr$1 = -1;
-  y = tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = -1;
+  y = tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(!(win == ((struct _win_st *)NULL)))
-    tmp_if_expr$2 = (signed int)win->_curx;
+    tmp_if_expr_2 = (signed int)win->_curx;
 
   else
-    tmp_if_expr$2 = -1;
-  x = tmp_if_expr$2;
+    tmp_if_expr_2 = -1;
+  x = tmp_if_expr_2;
   mvwclrtoborder(win, y, x);
 }
 
@@ -9759,10 +9759,10 @@ static void write_cf(void)
   char tmp[256l];
   char rv[64l];
   struct conf_item *ci = (struct conf_item *)(void *)0;
-  char *write_cf$$1$$lp;
+  char *write_cf__1__lp;
   char *cp;
   signed int add;
-  signed int write_cf$$1$$i;
+  signed int write_cf__1__i;
   char *cfname;
   cfname=get_confname();
   signed int cfld;
@@ -9773,17 +9773,17 @@ static void write_cf(void)
     err_sys("failed to open configuration file '%s'", cfname);
 
   ll_reset(conf_items);
-  void *return_value_ll_getall$1;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_argv_count$2;
-  unsigned long int return_value_ll_size$3;
-  unsigned long int return_value_strlen$12;
-  unsigned long int return_value_strcspn$13;
+  void *return_value_ll_getall_1;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_argv_count_2;
+  unsigned long int return_value_ll_size_3;
+  unsigned long int return_value_strlen_12;
+  unsigned long int return_value_strcspn_13;
   do
   {
-    return_value_ll_getall$1=ll_getall(conf_items);
-    ci = (struct conf_item *)return_value_ll_getall$1;
+    return_value_ll_getall_1=ll_getall(conf_items);
+    ci = (struct conf_item *)return_value_ll_getall_1;
     if(ci == ((struct conf_item *)NULL))
       break;
 
@@ -9792,18 +9792,18 @@ static void write_cf(void)
       if(!((signed int)ci->type == t_func))
       {
         if(ci->dep == ((signed int *)NULL))
-          tmp_if_expr$17 = (_Bool)1;
+          tmp_if_expr_17 = (_Bool)1;
 
         else
         {
           if(!(ci->dep == ((signed int *)NULL)))
-            tmp_if_expr$16 = *ci->dep != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_16 = *ci->dep != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_16 = (_Bool)0;
+          tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$17)
+        if(tmp_if_expr_17)
           switch((signed int)ci->type)
           {
             case t_int:
@@ -9813,8 +9813,8 @@ static void write_cf(void)
             }
             case t_list:
             {
-              return_value_argv_count$2=argv_count$link1(ci->list);
-              if(return_value_argv_count$2 == 0ul)
+              return_value_argv_count_2=argv_count_link1(ci->list);
+              if(return_value_argv_count_2 == 0ul)
                 break;
 
               sprintf(rv, "%s", ci->list[(signed long int)*ci->v.i]);
@@ -9831,61 +9831,61 @@ static void write_cf(void)
             __CPROVER_DUMP_L10:
               ;
               add = 1;
-              write_cf$$1$$i = 0;
+              write_cf__1__i = 0;
               do
               {
-                return_value_ll_size$3=ll_size(cfld);
-                if((unsigned long int)write_cf$$1$$i >= return_value_ll_size$3)
+                return_value_ll_size_3=ll_size(cfld);
+                if((unsigned long int)write_cf__1__i >= return_value_ll_size_3)
                   break;
 
-                void *return_value_ll_get$4;
-                return_value_ll_get$4=ll_get(cfld, (unsigned long int)write_cf$$1$$i);
-                write_cf$$1$$lp = (char *)return_value_ll_get$4;
-                unsigned long int return_value_strspn$5;
-                return_value_strspn$5=strspn(write_cf$$1$$lp, " ");
-                write_cf$$1$$lp = write_cf$$1$$lp + (signed long int)return_value_strspn$5;
-                cp = write_cf$$1$$lp;
-                unsigned long int return_value_strcspn$14;
-                return_value_strcspn$14=strcspn(cp, " =");
-                signed int return_value_strncasecmp$15;
-                return_value_strncasecmp$15=strncasecmp(cp, ci->cfname, return_value_strcspn$14);
-                if(return_value_strncasecmp$15 == 0)
+                void *return_value_ll_get_4;
+                return_value_ll_get_4=ll_get(cfld, (unsigned long int)write_cf__1__i);
+                write_cf__1__lp = (char *)return_value_ll_get_4;
+                unsigned long int return_value_strspn_5;
+                return_value_strspn_5=strspn(write_cf__1__lp, " ");
+                write_cf__1__lp = write_cf__1__lp + (signed long int)return_value_strspn_5;
+                cp = write_cf__1__lp;
+                unsigned long int return_value_strcspn_14;
+                return_value_strcspn_14=strcspn(cp, " =");
+                signed int return_value_strncasecmp_15;
+                return_value_strncasecmp_15=strncasecmp(cp, ci->cfname, return_value_strcspn_14);
+                if(return_value_strncasecmp_15 == 0)
                 {
-                  return_value_strlen$12=strlen(ci->cfname);
-                  return_value_strcspn$13=strcspn(cp, " =");
-                  if(return_value_strlen$12 == return_value_strcspn$13)
+                  return_value_strlen_12=strlen(ci->cfname);
+                  return_value_strcspn_13=strcspn(cp, " =");
+                  if(return_value_strlen_12 == return_value_strcspn_13)
                   {
                     add = 0;
-                    unsigned long int return_value_strcspn$6;
-                    return_value_strcspn$6=strcspn(cp, "=");
-                    cp = cp + (signed long int)(return_value_strcspn$6 + (unsigned long int)1);
-                    unsigned long int return_value_strspn$7;
-                    return_value_strspn$7=strspn(cp, " ");
-                    cp = cp + (signed long int)return_value_strspn$7;
-                    unsigned long int return_value_strcspn$8;
-                    return_value_strcspn$8=strcspn(cp, " #\n");
-                    strncpy(tmp, cp, return_value_strcspn$8);
-                    signed int return_value_strcasecmp$11;
-                    return_value_strcasecmp$11=strcasecmp(tmp, rv);
-                    if(!(return_value_strcasecmp$11 == 0))
+                    unsigned long int return_value_strcspn_6;
+                    return_value_strcspn_6=strcspn(cp, "=");
+                    cp = cp + (signed long int)(return_value_strcspn_6 + (unsigned long int)1);
+                    unsigned long int return_value_strspn_7;
+                    return_value_strspn_7=strspn(cp, " ");
+                    cp = cp + (signed long int)return_value_strspn_7;
+                    unsigned long int return_value_strcspn_8;
+                    return_value_strcspn_8=strcspn(cp, " #\n");
+                    strncpy(tmp, cp, return_value_strcspn_8);
+                    signed int return_value_strcasecmp_11;
+                    return_value_strcasecmp_11=strcasecmp(tmp, rv);
+                    if(!(return_value_strcasecmp_11 == 0))
                     {
-                      unsigned long int return_value_strcspn$9;
-                      return_value_strcspn$9=strcspn(write_cf$$1$$lp, " =");
-                      strncpy(tmp, write_cf$$1$$lp, return_value_strcspn$9);
-                      unsigned long int return_value_strcspn$10;
-                      return_value_strcspn$10=strcspn(write_cf$$1$$lp, " =");
-                      tmp[(signed long int)return_value_strcspn$10] = (char)0;
+                      unsigned long int return_value_strcspn_9;
+                      return_value_strcspn_9=strcspn(write_cf__1__lp, " =");
+                      strncpy(tmp, write_cf__1__lp, return_value_strcspn_9);
+                      unsigned long int return_value_strcspn_10;
+                      return_value_strcspn_10=strcspn(write_cf__1__lp, " =");
+                      tmp[(signed long int)return_value_strcspn_10] = (char)0;
                       strcat(tmp, " = ");
                       strcat(tmp, rv);
                       strcat(tmp, "\n");
-                      ll_replace(cfld, (unsigned long int)write_cf$$1$$i, "s", (const void *)tmp);
+                      ll_replace(cfld, (unsigned long int)write_cf__1__i, "s", (const void *)tmp);
                     }
 
                   }
 
                 }
 
-                write_cf$$1$$i = write_cf$$1$$i + 1;
+                write_cf__1__i = write_cf__1__i + 1;
               }
               while((_Bool)1);
               if(!(add == 0))
@@ -9907,15 +9907,15 @@ static void write_cf(void)
   }
   while((_Bool)1);
   ll_reset(cfld);
-  void *return_value_ll_getall$18;
+  void *return_value_ll_getall_18;
   do
   {
-    return_value_ll_getall$18=ll_getall(cfld);
-    write_cf$$1$$lp = (char *)return_value_ll_getall$18;
-    if(write_cf$$1$$lp == ((char *)NULL))
+    return_value_ll_getall_18=ll_getall(cfld);
+    write_cf__1__lp = (char *)return_value_ll_getall_18;
+    if(write_cf__1__lp == ((char *)NULL))
       break;
 
-    fputs(write_cf$$1$$lp, fd);
+    fputs(write_cf__1__lp, fd);
   }
   while((_Bool)1);
   fclose(fd);
@@ -9931,73 +9931,73 @@ static inline void (*xsignal(signed int signo, void (*handler)(signed int)))(sig
   struct sigaction sa = { .__sigaction_handler={ .sa_handler=handler }, .sa_mask={ .__val={ 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul } },
     .sa_flags=0,
     .sa_restorer=((void (*)(void))NULL) };
-  signed int return_value_sigemptyset$1;
-  return_value_sigemptyset$1=sigemptyset(&sa.sa_mask);
-  _Bool tmp_if_expr$3;
-  signed int return_value_sigaction$2;
-  if(!(return_value_sigemptyset$1 >= 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_sigemptyset_1;
+  return_value_sigemptyset_1=sigemptyset(&sa.sa_mask);
+  _Bool tmp_if_expr_3;
+  signed int return_value_sigaction_2;
+  if(!(return_value_sigemptyset_1 >= 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_sigaction$2=sigaction(signo, &sa, &old_sa);
-    tmp_if_expr$3 = return_value_sigaction$2 < 0 ? (_Bool)1 : (_Bool)0;
+    return_value_sigaction_2=sigaction(signo, &sa, &old_sa);
+    tmp_if_expr_3 = return_value_sigaction_2 < 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     err_sys("xsignal(%d) failed", signo);
 
   return old_sa.__sigaction_handler.sa_handler;
 }
 
-// xsignal$link1
+// xsignal_link1
 // file wavemon.h line 310
-static inline void (*xsignal$link1(signed int signo$link1, void (*handler$link1)(signed int)))(signed int)
+static inline void (*xsignal_link1(signed int signo_link1, void (*handler_link1)(signed int)))(signed int)
 {
-  struct sigaction old_sa$link1;
-  struct sigaction sa$link1 = { .__sigaction_handler={ .sa_handler=handler$link1 }, .sa_mask={ .__val={ 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul } },
+  struct sigaction old_sa_link1;
+  struct sigaction sa_link1 = { .__sigaction_handler={ .sa_handler=handler_link1 }, .sa_mask={ .__val={ 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul } },
     .sa_flags=0,
     .sa_restorer=((void (*)(void))NULL) };
-  signed int return_value_sigemptyset$1$link1;
-  return_value_sigemptyset$1$link1=sigemptyset(&sa$link1.sa_mask);
-  _Bool tmp_if_expr$3$link1;
-  signed int return_value_sigaction$2$link1;
-  if(!(return_value_sigemptyset$1$link1 >= 0))
-    tmp_if_expr$3$link1 = (_Bool)1;
+  signed int return_value_sigemptyset_1_link1;
+  return_value_sigemptyset_1_link1=sigemptyset(&sa_link1.sa_mask);
+  _Bool tmp_if_expr_3_link1;
+  signed int return_value_sigaction_2_link1;
+  if(!(return_value_sigemptyset_1_link1 >= 0))
+    tmp_if_expr_3_link1 = (_Bool)1;
 
   else
   {
-    return_value_sigaction$2$link1=sigaction(signo$link1, &sa$link1, &old_sa$link1);
-    tmp_if_expr$3$link1 = return_value_sigaction$2$link1 < 0 ? (_Bool)1 : (_Bool)0;
+    return_value_sigaction_2_link1=sigaction(signo_link1, &sa_link1, &old_sa_link1);
+    tmp_if_expr_3_link1 = return_value_sigaction_2_link1 < 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3$link1)
-    err_sys("xsignal(%d) failed", signo$link1);
+  if(tmp_if_expr_3_link1)
+    err_sys("xsignal(%d) failed", signo_link1);
 
-  return old_sa$link1.__sigaction_handler.sa_handler;
+  return old_sa_link1.__sigaction_handler.sa_handler;
 }
 
-// xsignal$link2
+// xsignal_link2
 // file wavemon.h line 310
-static inline void (*xsignal$link2(signed int signo$link2, void (*handler$link2)(signed int)))(signed int)
+static inline void (*xsignal_link2(signed int signo_link2, void (*handler_link2)(signed int)))(signed int)
 {
-  struct sigaction old_sa$link2;
-  struct sigaction sa$link2 = { .__sigaction_handler={ .sa_handler=handler$link2 }, .sa_mask={ .__val={ 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul } },
+  struct sigaction old_sa_link2;
+  struct sigaction sa_link2 = { .__sigaction_handler={ .sa_handler=handler_link2 }, .sa_mask={ .__val={ 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul } },
     .sa_flags=0,
     .sa_restorer=((void (*)(void))NULL) };
-  signed int return_value_sigemptyset$1$link2;
-  return_value_sigemptyset$1$link2=sigemptyset(&sa$link2.sa_mask);
-  _Bool tmp_if_expr$3$link2;
-  signed int return_value_sigaction$2$link2;
-  if(!(return_value_sigemptyset$1$link2 >= 0))
-    tmp_if_expr$3$link2 = (_Bool)1;
+  signed int return_value_sigemptyset_1_link2;
+  return_value_sigemptyset_1_link2=sigemptyset(&sa_link2.sa_mask);
+  _Bool tmp_if_expr_3_link2;
+  signed int return_value_sigaction_2_link2;
+  if(!(return_value_sigemptyset_1_link2 >= 0))
+    tmp_if_expr_3_link2 = (_Bool)1;
 
   else
   {
-    return_value_sigaction$2$link2=sigaction(signo$link2, &sa$link2, &old_sa$link2);
-    tmp_if_expr$3$link2 = return_value_sigaction$2$link2 < 0 ? (_Bool)1 : (_Bool)0;
+    return_value_sigaction_2_link2=sigaction(signo_link2, &sa_link2, &old_sa_link2);
+    tmp_if_expr_3_link2 = return_value_sigaction_2_link2 < 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3$link2)
-    err_sys("xsignal(%d) failed", signo$link2);
+  if(tmp_if_expr_3_link2)
+    err_sys("xsignal(%d) failed", signo_link2);
 
-  return old_sa$link2.__sigaction_handler.sa_handler;
+  return old_sa_link2.__sigaction_handler.sa_handler;
 }
 

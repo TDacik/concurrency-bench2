@@ -1,262 +1,262 @@
-// #anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7
+// #anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7
 // file /usr/include/X11/Xresource.h line 326
-enum anonymous$27 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
+enum anonymous_27 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
 
-// #anon_enum$XtGeometryYes=0$XtGeometryNo=1$XtGeometryAlmost=2$XtGeometryDone=3
+// #anon_enum_XtGeometryYes=0_XtGeometryNo=1_XtGeometryAlmost=2_XtGeometryDone=3
 // file /usr/include/X11/Intrinsic.h line 340
-enum anonymous$22 { XtGeometryYes=0, XtGeometryNo=1, XtGeometryAlmost=2, XtGeometryDone=3 };
+enum anonymous_22 { XtGeometryYes=0, XtGeometryNo=1, XtGeometryAlmost=2, XtGeometryDone=3 };
 
-// #anon_enum$XtGrabNone=0$XtGrabNonexclusive=1$XtGrabExclusive=2
+// #anon_enum_XtGrabNone=0_XtGrabNonexclusive=1_XtGrabExclusive=2
 // file /usr/include/X11/Intrinsic.h line 347
-enum anonymous$23 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
+enum anonymous_23 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
 
-// tag-#anon#ST[*{S8}$S8$'name'|S64'value']
+// tag-#anon#ST[*{S8}_S8_'name'|S64'value']
 // file /usr/include/X11/Intrinsic.h line 316
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[*{S8}$S8$'option'|*{S8}$S8$'specifier'|SYM##anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7#'argKind'|U32'$pad0'|*{S8}$S8$'value']
+// tag-#anon#ST[*{S8}_S8_'option'|*{S8}_S8_'specifier'|SYM##anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7#'argKind'|U32'_pad0'|*{S8}_S8_'value']
 // file /usr/include/X11/Xresource.h line 338
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
 // file /usr/include/X11/Xutil.h line 287
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}$S8$'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'$pad0'|*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#$'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'|S32'qlen'|U32'$pad2'|U64'last_request_read'|U64'request'|*{S8}$S8$'private11'|*{S8}$S8$'private12'|*{S8}$S8$'private13'|*{S8}$S8$'private14'|U32'max_request_size'|U32'$pad3'|*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'|*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'|*{S8}$S8$'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}$S8$'private17'|*{S8}$S8$'private18'|S32'private19'|U32'$pad4'|*{S8}$S8$'xdefaults']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}_S8_'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'_pad0'|*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#_'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'|S32'qlen'|U32'_pad2'|U64'last_request_read'|U64'request'|*{S8}_S8_'private11'|*{S8}_S8_'private12'|*{S8}_S8_'private13'|*{S8}_S8_'private14'|U32'max_request_size'|U32'_pad3'|*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'|*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'|*{S8}_S8_'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}_S8_'private17'|*{S8}_S8_'private18'|S32'private19'|U32'_pad4'|*{S8}_S8_'xdefaults']
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}$SYM#tag-#anon#ST[U64'name'|U64'card32']#$'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}$SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#$'per_char'|S32'ascent'|S32'descent']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}_SYM#tag-#anon#ST[U64'name'|U64'card32']#_'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}_SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#_'per_char'|S32'ascent'|S32'descent']
 // file /usr/include/X11/Xlib.h line 1035
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{V(*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$|U64|U64|*{cS8}$cS8$|*{SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#}$SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#$|*{V}$V$)->V}$V(*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$|U64|U64|*{cS8}$cS8$|*{SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#}$SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#$|*{V}$V$)->V$'callback'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screen'|U64'window'|U64'drawable'|*{V}$V$'closure'|*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'read_pipe'|*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'write_pipe'|U64'pipe_id'|S32'pid'|U32'$pad0']
+// tag-#anon#ST[*{V(*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_|U64|U64|*{cS8}_cS8_|*{SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#}_SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#_|*{V}_V_)->V}_V(*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_|U64|U64|*{cS8}_cS8_|*{SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#}_SYM#tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']#_|*{V}_V_)->V_'callback'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screen'|U64'window'|U64'drawable'|*{V}_V_'closure'|*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'read_pipe'|*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'write_pipe'|U64'pipe_id'|S32'pid'|U32'_pad0']
 // file grabclient.c line 311
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$24;
+struct anonymous_24;
 
 // tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']
 // file /usr/include/X11/Xlib.h line 1017
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S16'x'|S16'y'|U16'width'|U16'height']
 // file /usr/include/X11/Xlib.h line 430
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'depth'|S32'bits_per_pixel'|S32'scanline_pad']
 // file /usr/include/X11/Xlib.h line 171
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']
+// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'function'|U32'$pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'$pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'$pad2']
+// tag-#anon#ST[S32'function'|U32'_pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'_pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'_pad2']
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'index'|U32'$pad0'|F64'value']
+// tag-#anon#ST[S32'index'|U32'_pad0'|F64'value']
 // file analogtv.h line 222
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'$pad1']
+// tag-#anon#ST[S32'type'|U32'_pad0'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'_pad1']
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype']
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$63;
+struct anonymous_63;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'$pad2'|*{V}$V$'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'_pad2'|*{V}_V_'data']
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$64;
+struct anonymous_64;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'major_code'|S32'minor_code']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'major_code'|S32'minor_code']
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window']
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'from_configure'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'from_configure'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y']
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'override_redirect'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'override_redirect'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$57;
+struct anonymous_57;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window']
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'detail'|U32'$pad3'|U64'value_mask']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'detail'|U32'_pad3'|U64'value_mask']
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window']
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|ARR32{S8}$S8$'key_vector']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|ARR32{S8}_S8_'key_vector']
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$62;
+struct anonymous_62;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'mode'|S32'detail']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'mode'|S32'detail']
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$61;
+struct anonymous_61;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'width'|S32'height']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'width'|S32'height']
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'message_type'|S32'format'|U32'$pad2'|SYM#tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']#'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'message_type'|S32'format'|U32'_pad2'|SYM#tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']#'data']
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$60;
+struct anonymous_60;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'$pad2'|S32'same_screen'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'_pad2'|S32'same_screen'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'selection'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'selection'|U64'time']
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screen']
+// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screen']
 // file /usr/include/X11/Xlib.h line 308
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[U32'request_mode'|S16'x'|S16'y'|U16'width'|U16'height'|U16'border_width'|U16'$pad0'|*{SYM#tag-_WidgetRec#}$SYM#tag-_WidgetRec#$'sibling'|S32'stack_mode'|U32'$pad1']
+// tag-#anon#ST[U32'request_mode'|S16'x'|S16'y'|U16'width'|U16'height'|U16'border_width'|U16'_pad0'|*{SYM#tag-_WidgetRec#}_SYM#tag-_WidgetRec#_'sibling'|S32'stack_mode'|U32'_pad1']
 // file /usr/include/X11/Intrinsic.h line 212
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[U32'size'|U32'$pad0'|*{S8}$S8$'addr']
+// tag-#anon#ST[U32'size'|U32'_pad0'|*{S8}_S8_'addr']
 // file /usr/include/X11/Xresource.h line 160
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'$pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad2'|U64'colormap'|U64'cursor']
+// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'_pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad2'|U64'colormap'|U64'cursor']
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[U64'name'|U64'card32']
 // file /usr/include/X11/Xlib.h line 1030
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'$pad0'|*{S8}$S8$'shmaddr'|S32'readOnly'|U32'$pad1']
+// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'_pad0'|*{S8}_S8_'shmaddr'|S32'readOnly'|U32'_pad1']
 // file /usr/include/X11/extensions/XShm.h line 50
-struct anonymous$31;
+struct anonymous_31;
 
 // tag-#anon#ST[U8'byte1'|U8'byte2']
 // file /usr/include/X11/Xlib.h line 1064
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']
+// tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$14;
+union anonymous_14;
 
 // tag-#anon#UN[F32'f'|S32'i']
 // file analogtv.c line 159
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_CoreClassPart
 // file /usr/include/X11/CoreP.h line 125
@@ -476,13 +476,13 @@ struct xscreensaver_function_table;
 static signed int MapNotify_event_p(struct _XDisplay *dpy, union _XEvent *event, char *window);
 // VirtualRootWindowOfScreen
 // file ./../utils/vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen(struct anonymous$6 *screen);
-// VirtualRootWindowOfScreen$link1
+static unsigned long int VirtualRootWindowOfScreen(struct anonymous_6 *screen);
+// VirtualRootWindowOfScreen_link1
 // file vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen$link1(struct anonymous$6 *screen$link1);
+static unsigned long int VirtualRootWindowOfScreen_link1(struct anonymous_6 *screen_link1);
 // XAllocColor
 // file /usr/include/X11/Xlib.h line 1958
-extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous$12 *);
+extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous_12 *);
 // XBell
 // file /usr/include/X11/Xlib.h line 2010
 extern signed int XBell(struct _XDisplay *, signed int);
@@ -491,7 +491,7 @@ extern signed int XBell(struct _XDisplay *, signed int);
 extern signed int XChangeProperty(struct _XDisplay *, unsigned long int, unsigned long int, unsigned long int, signed int, signed int, const unsigned char *, signed int);
 // XChar2b_to_utf8
 // file utf8wc.c line 306
-extern char * XChar2b_to_utf8(const struct anonymous$30 *in, signed int *length_ret);
+extern char * XChar2b_to_utf8(const struct anonymous_30 *in, signed int *length_ret);
 // XClearArea
 // file /usr/include/X11/Xlib.h line 2145
 extern signed int XClearArea(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, signed int);
@@ -500,13 +500,13 @@ extern signed int XClearArea(struct _XDisplay *, unsigned long int, signed int, 
 extern signed int XClearWindow(struct _XDisplay *, unsigned long int);
 // XCreateColormap
 // file /usr/include/X11/Xlib.h line 1552
-extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous$17 *, signed int);
+extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous_17 *, signed int);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$8 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_8 *);
 // XCreateImage
 // file /usr/include/X11/Xlib.h line 1441
-extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous$17 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous_17 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
 // XCreatePixmap
 // file /usr/include/X11/Xlib.h line 1597
 extern unsigned long int XCreatePixmap(struct _XDisplay *, unsigned long int, unsigned int, unsigned int, unsigned int);
@@ -530,7 +530,7 @@ extern signed int XFree(void *);
 extern signed int XFreeColors(struct _XDisplay *, unsigned long int, unsigned long int *, signed int, unsigned long int);
 // XFreeFont
 // file /usr/include/X11/Xlib.h line 2542
-extern signed int XFreeFont(struct _XDisplay *, struct anonymous$2 *);
+extern signed int XFreeFont(struct _XDisplay *, struct anonymous_2 *);
 // XFreeGC
 // file /usr/include/X11/Xlib.h line 2561
 extern signed int XFreeGC(struct _XDisplay *, struct _XGC *);
@@ -548,10 +548,10 @@ extern signed int XGetGeometry(struct _XDisplay *, unsigned long int, unsigned l
 extern struct _XImage * XGetImage(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned long int, signed int);
 // XGetVisualInfo
 // file /usr/include/X11/Xutil.h line 471
-extern struct anonymous$19 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous$19 *, signed int *);
+extern struct anonymous_19 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous_19 *, signed int *);
 // XGetWindowAttributes
 // file /usr/include/X11/Xlib.h line 2691
-extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous$9 *);
+extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous_9 *);
 // XGetWindowProperty
 // file /usr/include/X11/Xlib.h line 2676
 extern signed int XGetWindowProperty(struct _XDisplay *, unsigned long int, unsigned long int, signed long int, signed long int, signed int, unsigned long int, unsigned long int *, signed int *, unsigned long int *, unsigned long int *, unsigned char **);
@@ -566,19 +566,19 @@ extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed in
 extern signed int * XListDepths(struct _XDisplay *, signed int, signed int *);
 // XListPixmapFormats
 // file /usr/include/X11/Xlib.h line 1862
-extern struct anonymous$18 * XListPixmapFormats(struct _XDisplay *, signed int *);
+extern struct anonymous_18 * XListPixmapFormats(struct _XDisplay *, signed int *);
 // XLoadQueryFont
 // file /usr/include/X11/Xlib.h line 1394
-extern struct anonymous$2 * XLoadQueryFont(struct _XDisplay *, const char *);
+extern struct anonymous_2 * XLoadQueryFont(struct _XDisplay *, const char *);
 // XLookupString
 // file /usr/include/X11/Xutil.h line 534
-extern signed int XLookupString(struct anonymous$33 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
+extern signed int XLookupString(struct anonymous_33 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
 // XNextEvent
 // file /usr/include/X11/Xlib.h line 2841
 extern signed int XNextEvent(struct _XDisplay *, union _XEvent *);
 // XParseColor
 // file /usr/include/X11/Xlib.h line 2850
-extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$12 *);
+extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_12 *);
 // XParseGeometry
 // file /usr/include/X11/Xlib.h line 2857
 extern signed int XParseGeometry(const char *, signed int *, signed int *, unsigned int *, unsigned int *);
@@ -590,7 +590,7 @@ extern signed int XPending(struct _XDisplay *);
 extern signed int XPutImage(struct _XDisplay *, unsigned long int, struct _XGC *, struct _XImage *, signed int, signed int, signed int, signed int, unsigned int, unsigned int);
 // XQueryColors
 // file /usr/include/X11/Xlib.h line 2963
-extern signed int XQueryColors(struct _XDisplay *, unsigned long int, struct anonymous$12 *, signed int);
+extern signed int XQueryColors(struct _XDisplay *, unsigned long int, struct anonymous_12 *, signed int);
 // XQueryTree
 // file /usr/include/X11/Xlib.h line 3017
 extern signed int XQueryTree(struct _XDisplay *, unsigned long int, unsigned long int *, unsigned long int *, unsigned long int **, unsigned int *);
@@ -599,7 +599,7 @@ extern signed int XQueryTree(struct _XDisplay *, unsigned long int, unsigned lon
 extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed long int);
 // XSetErrorHandler
 // file /usr/include/X11/Xlib.h line 1848
-extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous$11 *)))(struct _XDisplay *, struct anonymous$11 *);
+extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous_11 *)))(struct _XDisplay *, struct anonymous_11 *);
 // XSetForeground
 // file /usr/include/X11/Xlib.h line 3227
 extern signed int XSetForeground(struct _XDisplay *, struct _XGC *, unsigned long int);
@@ -611,13 +611,13 @@ extern signed int XSetWindowBackground(struct _XDisplay *, unsigned long int, un
 extern signed int XSetWindowColormap(struct _XDisplay *, unsigned long int, unsigned long int);
 // XShmAttach
 // file /usr/include/X11/extensions/XShm.h line 78
-signed int XShmAttach(struct _XDisplay *, struct anonymous$31 *);
+signed int XShmAttach(struct _XDisplay *, struct anonymous_31 *);
 // XShmCreateImage
 // file /usr/include/X11/extensions/XShm.h line 111
-struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous$17 *, unsigned int, signed int, char *, struct anonymous$31 *, unsigned int, unsigned int);
+struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous_17 *, unsigned int, signed int, char *, struct anonymous_31 *, unsigned int, unsigned int);
 // XShmDetach
 // file /usr/include/X11/extensions/XShm.h line 83
-signed int XShmDetach(struct _XDisplay *, struct anonymous$31 *);
+signed int XShmDetach(struct _XDisplay *, struct anonymous_31 *);
 // XShmPutImage
 // file /usr/include/X11/extensions/XShm.h line 88
 signed int XShmPutImage(struct _XDisplay *, unsigned long int, struct _XGC *, struct _XImage *, signed int, signed int, signed int, signed int, unsigned int, unsigned int, signed int);
@@ -629,25 +629,25 @@ signed int XShmQueryExtension(struct _XDisplay *);
 extern signed int XSync(struct _XDisplay *, signed int);
 // XTextWidth
 // file /usr/include/X11/Xlib.h line 3434
-extern signed int XTextWidth(struct anonymous$2 *, const char *, signed int);
+extern signed int XTextWidth(struct anonymous_2 *, const char *, signed int);
 // XVisualIDFromVisual
 // file /usr/include/X11/Xlib.h line 1728
-extern unsigned long int XVisualIDFromVisual(struct anonymous$17 *);
+extern unsigned long int XVisualIDFromVisual(struct anonymous_17 *);
 // XmuPrintDefaultErrorMessage
 // file ./../utils/xmu.h line 12
-signed int XmuPrintDefaultErrorMessage(struct _XDisplay *, struct anonymous$11 *, struct _IO_FILE *);
+signed int XmuPrintDefaultErrorMessage(struct _XDisplay *, struct anonymous_11 *, struct _IO_FILE *);
 // XrmGetResource
 // file /usr/include/X11/Xresource.h line 223
-extern signed int XrmGetResource(struct _XrmHashBucketRec *, const char *, const char *, char **, struct anonymous$15 *);
+extern signed int XrmGetResource(struct _XrmHashBucketRec *, const char *, const char *, char **, struct anonymous_15 *);
 // XrmPutResource
 // file /usr/include/X11/Xresource.h line 190
-extern void XrmPutResource(struct _XrmHashBucketRec **, const char *, const char *, struct anonymous$15 *);
+extern void XrmPutResource(struct _XrmHashBucketRec **, const char *, const char *, struct anonymous_15 *);
 // XtAppAddInput
 // file /usr/include/X11/Intrinsic.h line 996
 extern unsigned long int XtAppAddInput(struct _XtAppStruct *, signed int, void *, void (*)(void *, signed int *, unsigned long int *), void *);
 // XtAppInitialize
 // file /usr/include/X11/Intrinsic.h line 1468
-extern struct _WidgetRec * XtAppInitialize(struct _XtAppStruct **, const char *, struct anonymous$28 *, unsigned int, signed int *, char **, char **, struct anonymous$21 *, unsigned int);
+extern struct _WidgetRec * XtAppInitialize(struct _XtAppStruct **, const char *, struct anonymous_28 *, unsigned int, signed int *, char **, char **, struct anonymous_21 *, unsigned int);
 // XtAppPending
 // file /usr/include/X11/Intrinsic.h line 1045
 extern unsigned long int XtAppPending(struct _XtAppStruct *);
@@ -671,7 +671,7 @@ extern struct _XtAppStruct * XtDisplayToApplicationContext(struct _XDisplay *);
 extern void XtGetApplicationNameAndClass(struct _XDisplay *, char **, char **);
 // XtPopup
 // file /usr/include/X11/Intrinsic.h line 1318
-extern void XtPopup(struct _WidgetRec *, enum anonymous$23);
+extern void XtPopup(struct _WidgetRec *, enum anonymous_23);
 // XtRealizeWidget
 // file /usr/include/X11/Intrinsic.h line 1104
 extern void XtRealizeWidget(struct _WidgetRec *);
@@ -869,7 +869,7 @@ static void analogtv_thread_draw_lines(void *thread_raw);
 extern void * calloc(unsigned long int, unsigned long int);
 // checkerboard
 // file grabclient.c line 123
-static void checkerboard(struct anonymous$6 *screen, unsigned long int drawable);
+static void checkerboard(struct anonymous_6 *screen, unsigned long int drawable);
 // close
 // file /usr/include/unistd.h line 356
 extern signed int close(signed int);
@@ -881,19 +881,19 @@ extern double cos(double);
 extern float cosf(float);
 // create_xshm_image
 // file ./../utils/xshm.h line 27
-extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous$17 *visual, unsigned int depth, signed int format, char *data, struct anonymous$31 *shm_info, unsigned int width, unsigned int height);
+extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous_17 *visual, unsigned int depth, signed int format, char *data, struct anonymous_31 *shm_info, unsigned int width, unsigned int height);
 // describe_visual
 // file visual.c line 445
-extern void describe_visual(struct _IO_FILE *f, struct anonymous$6 *screen, struct anonymous$17 *visual, signed int private_cmap_p);
+extern void describe_visual(struct _IO_FILE *f, struct anonymous_6 *screen, struct anonymous_17 *visual, signed int private_cmap_p);
 // destroy_xshm_image
 // file ./../utils/xshm.h line 32
-extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous$31 *shm_info);
+extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous_31 *shm_info);
 // drawable_window_p
 // file grabclient.c line 64
 static signed int drawable_window_p(struct _XDisplay *dpy, unsigned long int d);
-// drawable_window_p::1::old_handler$object
+// drawable_window_p::1::old_handler_object
 //
-signed int drawable_window_p$$1$$old_handler$object(struct _XDisplay *, struct anonymous$11 *);
+signed int drawable_window_p__1__old_handler_object(struct _XDisplay *, struct anonymous_11 *);
 // dup2
 // file /usr/include/unistd.h line 537
 extern signed int dup2(signed int, signed int);
@@ -926,7 +926,7 @@ extern signed int fileno(struct _IO_FILE *);
 static void finalize_cb(void *closure, signed int *fd, unsigned long int *id);
 // find_similar_visual
 // file visual.c line 503
-extern struct anonymous$17 * find_similar_visual(struct anonymous$6 *screen, struct anonymous$17 *old_visual);
+extern struct anonymous_17 * find_similar_visual(struct anonymous_6 *screen, struct anonymous_17 *old_visual);
 // fix_fds
 // file screenhack.c line 403
 static void fix_fds(void);
@@ -935,10 +935,10 @@ static void fix_fds(void);
 extern signed int fork(void);
 // fork_exec_cb
 // file grabclient.c line 328
-static void fork_exec_cb(const char *command, struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *), void *closure);
-// fork_exec_cb::callback$object
+static void fork_exec_cb(const char *command, struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *), void *closure);
+// fork_exec_cb::callback_object
 //
-void callback$object(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *);
+void callback_object(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *);
 // fork_exec_wait
 // file grabclient.c line 286
 static void fork_exec_wait(const char *command);
@@ -995,7 +995,7 @@ extern signed int get_boolean_resource(struct _XDisplay *dpy, char *res_name, ch
 extern double get_float_resource(struct _XDisplay *dpy, char *res_name, char *res_class);
 // get_geometry
 // file grabclient.c line 201
-static signed int get_geometry(struct _XDisplay *dpy, unsigned long int window, struct anonymous$7 *ret);
+static signed int get_geometry(struct _XDisplay *dpy, unsigned long int window, struct anonymous_7 *ret);
 // get_integer_resource
 // file ./../utils/resources.h line 17
 extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, char *res_class);
@@ -1019,10 +1019,10 @@ extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *r
 static unsigned int get_time_resource(struct _XDisplay *dpy, char *res_name, char *res_class, signed int sec_p);
 // get_visual
 // file visual.c line 50
-extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p);
+extern struct anonymous_17 * get_visual(struct anonymous_6 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p);
 // get_visual_resource
 // file ./../utils/visual.h line 16
-extern struct anonymous$17 * get_visual_resource(struct anonymous$6 *screen, char *name, char *class, signed int prefer_writable_cells);
+extern struct anonymous_17 * get_visual_resource(struct anonymous_6 *screen, char *name, char *class, signed int prefer_writable_cells);
 // getenv
 // file /usr/include/stdlib.h line 564
 extern char * getenv(const char *);
@@ -1049,16 +1049,16 @@ static void hack_subproc_environment(struct _XDisplay *dpy);
 unsigned int hardware_concurrency(struct _XDisplay *dpy);
 // has_writable_cells
 // file ./../utils/visual.h line 25
-extern signed int has_writable_cells(struct anonymous$6 *screen, struct anonymous$17 *visual);
+extern signed int has_writable_cells(struct anonymous_6 *screen, struct anonymous_17 *visual);
 // id_to_visual
 // file visual.c line 340
-extern struct anonymous$17 * id_to_visual(struct anonymous$6 *screen, signed int id);
+extern struct anonymous_17 * id_to_visual(struct anonymous_6 *screen, signed int id);
 // ignore_all_errors_ehandler
 // file grabclient.c line 54
-static signed int ignore_all_errors_ehandler(struct _XDisplay *dpy, struct anonymous$11 *error);
+static signed int ignore_all_errors_ehandler(struct _XDisplay *dpy, struct anonymous_11 *error);
 // image_loaded_cb
 // file xanalogtv.c line 311
-static void image_loaded_cb(struct anonymous$6 *screen, unsigned long int window, unsigned long int pixmap, const char *name, struct anonymous$7 *geometry, void *closure);
+static void image_loaded_cb(struct anonymous_6 *screen, unsigned long int window, unsigned long int pixmap, const char *name, struct anonymous_7 *geometry, void *closure);
 // init_window
 // file screenhack.c line 675
 static void init_window(struct _XDisplay *dpy, struct _WidgetRec *toplevel, const char *title);
@@ -1068,9 +1068,9 @@ signed int io_thread_cancel(struct io_thread *self);
 // io_thread_create
 // file thread_util.c line 950
 void * io_thread_create(struct io_thread *self, void *parent, void * (*start_routine)(void *), struct _XDisplay *dpy, unsigned int stacksize);
-// io_thread_create::start_routine$object
+// io_thread_create::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // io_thread_finish
 // file thread_util.c line 1029
 void io_thread_finish(struct io_thread *self);
@@ -1082,22 +1082,22 @@ signed int io_thread_is_done(struct io_thread *self);
 signed int io_thread_return(struct io_thread *self);
 // load_image_async
 // file ./../utils/grabscreen.h line 40
-extern void load_image_async(struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *), void *closure);
-// load_image_async::callback$object
+extern void load_image_async(struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *), void *closure);
+// load_image_async::callback_object
 //
-void callback$object(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *);
+void callback_object(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *);
 // load_image_async_simple
 // file grabclient.c line 949
-extern struct async_load_state * load_image_async_simple(struct async_load_state *state, struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, char **filename_ret, struct anonymous$7 *geometry_ret);
+extern struct async_load_state * load_image_async_simple(struct async_load_state *state, struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, char **filename_ret, struct anonymous_7 *geometry_ret);
 // load_image_async_simple_cb
 // file grabclient.c line 939
-static void load_image_async_simple_cb(struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, const char *name, struct anonymous$7 *geom, void *closure);
+static void load_image_async_simple_cb(struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, const char *name, struct anonymous_7 *geom, void *closure);
 // load_random_image_1
 // file grabclient.c line 444
-static void load_random_image_1(struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *), void *closure, char **name_ret, struct anonymous$7 *geom_ret);
-// load_random_image_1::callback$object
+static void load_random_image_1(struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *), void *closure, char **name_ret, struct anonymous_7 *geom_ret);
+// load_random_image_1::callback_object
 //
-void callback$object(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *);
+void callback_object(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *);
 // load_station_images
 // file xanalogtv.c line 417
 static void load_station_images(struct state *st);
@@ -1106,7 +1106,7 @@ static void load_station_images(struct state *st);
 extern struct tm * localtime(const signed long int *);
 // make_shell
 // file screenhack.c line 612
-static struct _WidgetRec * make_shell(struct anonymous$6 *screen, struct _WidgetRec *toplevel, signed int width, signed int height);
+static struct _WidgetRec * make_shell(struct anonymous_6 *screen, struct _WidgetRec *toplevel, signed int width, signed int height);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -1119,9 +1119,9 @@ extern void * memset(void *, signed int, unsigned long int);
 // merge_options
 // file screenhack.c line 182
 static void merge_options(void);
-// old_handler$object
+// old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$11 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_11 *);
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
@@ -1133,19 +1133,19 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
 extern void perror(const char *);
 // pick_best_gl_visual
 // file visual.c line 281
-static struct anonymous$17 * pick_best_gl_visual(struct anonymous$6 *screen);
+static struct anonymous_17 * pick_best_gl_visual(struct anonymous_6 *screen);
 // pick_best_visual
 // file visual.c line 174
-static struct anonymous$17 * pick_best_visual(struct anonymous$6 *screen, signed int prefer_writable_cells, signed int color_only);
+static struct anonymous_17 * pick_best_visual(struct anonymous_6 *screen, signed int prefer_writable_cells, signed int color_only);
 // pick_best_visual_of_class
 // file visual.c line 242
-static struct anonymous$17 * pick_best_visual_of_class(struct anonymous$6 *screen, signed int visual_class);
+static struct anonymous_17 * pick_best_visual_of_class(struct anonymous_6 *screen, signed int visual_class);
 // pick_mono_visual
 // file visual.c line 218
-static struct anonymous$17 * pick_mono_visual(struct anonymous$6 *screen);
+static struct anonymous_17 * pick_mono_visual(struct anonymous_6 *screen);
 // pick_visual
 // file screenhack.c line 321
-static struct anonymous$17 * pick_visual(struct anonymous$6 *screen);
+static struct anonymous_17 * pick_visual(struct anonymous_6 *screen);
 // pipe
 // file /usr/include/unistd.h line 420
 extern signed int pipe(signed int *);
@@ -1160,7 +1160,7 @@ extern double pow(double, double);
 extern float powf(float, float);
 // print_loading_msg
 // file grabclient.c line 879
-static void print_loading_msg(struct anonymous$6 *screen, unsigned long int window);
+static void print_loading_msg(struct anonymous_6 *screen, unsigned long int window);
 // pthread_attr_destroy
 // file /usr/include/pthread.h line 290
 extern signed int pthread_attr_destroy(union pthread_attr_t *);
@@ -1172,13 +1172,13 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 981
-extern signed int pthread_cond_broadcast(union anonymous$4 *);
+extern signed int pthread_cond_broadcast(union anonymous_4 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 973
-extern signed int pthread_cond_destroy(union anonymous$4 *);
+extern signed int pthread_cond_destroy(union anonymous_4 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 989
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 233
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1190,13 +1190,13 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 754
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // puramp
 // file analogtv.c line 119
 static float puramp(const struct analogtv_s *it, float tc, float start, float over);
@@ -1218,21 +1218,21 @@ static void rnd_seek_ac(unsigned int *a, unsigned int *c, unsigned int dist);
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb$object
+// run_screenhack_table::1::fps_cb_object
 //
-void fps_cb$object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb$object
+void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
+// run_screenhack_table::1::init_cb_object
 //
-void * init_cb$object(struct _XDisplay *, unsigned long int, void *);
+void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
 // screen_number
 // file visual.c line 475
-extern signed int screen_number(struct anonymous$6 *screen);
+extern signed int screen_number(struct anonymous_6 *screen);
 // screenhack_do_fps
 // file screenhack.c line 528
 static void screenhack_do_fps(struct _XDisplay *dpy, unsigned long int w, struct fps_state *fpst, void *closure);
 // screenhack_ehandler
 // file screenhack.c line 245
-static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous$11 *error);
+static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous_11 *error);
 // screenhack_event_helper
 // file ./../utils/resources.h line 39
 extern signed int screenhack_event_helper(struct _XDisplay *dpy, unsigned long int window, union _XEvent *event);
@@ -1247,10 +1247,10 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 extern void screenhack_usleep(unsigned long int usecs);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$24 *, struct anonymous$24 *, struct anonymous$24 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_24 *, struct anonymous_24 *, struct anonymous_24 *, struct timeval *);
 // shm_ehandler
 // file xshm.c line 62
-static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous$11 *error);
+static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous_11 *error);
 // shmat
 // file /usr/include/x86_64-linux-gnu/sys/shm.h line 56
 extern void * shmat(signed int, const void *, signed int);
@@ -1301,7 +1301,7 @@ extern char * strerror(signed int);
 extern unsigned long int strftime(char *, unsigned long int, const char *, struct tm *);
 // string_width
 // file fps.c line 175
-static signed int string_width(struct anonymous$2 *f, const char *c, signed int *height_ret);
+static signed int string_width(struct anonymous_2 *f, const char *c, signed int *height_ret);
 // strlen
 // file /usr/include/string.h line 394
 extern unsigned long int strlen(const char *);
@@ -1329,9 +1329,9 @@ void threadpool_destroy(struct threadpool *self);
 // threadpool_run
 // file ./../utils/thread_util.h line 306
 void threadpool_run(struct threadpool *self, void (*func)(void *));
-// threadpool_run::func$object
+// threadpool_run::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // threadpool_wait
 // file ./../utils/thread_util.h line 307
 void threadpool_wait(struct threadpool *self);
@@ -1349,7 +1349,7 @@ static unsigned long int uc_truncate(unsigned long int uc);
 static void update_smpte_colorbars(struct analogtv_input_s *input);
 // use_subwindow_mode_p
 // file grabclient.c line 111
-extern signed int use_subwindow_mode_p(struct anonymous$6 *screen, unsigned long int window);
+extern signed int use_subwindow_mode_p(struct anonymous_6 *screen, unsigned long int window);
 // usleep_and_process_events
 // file screenhack.c line 481
 static char usleep_and_process_events(struct _XDisplay *dpy, struct xscreensaver_function_table *ft, unsigned long int window, struct fps_state *fpst, void *closure, unsigned long int delay, unsigned long int window2, struct fps_state *fpst2, void *closure2, unsigned long int delay2);
@@ -1364,22 +1364,22 @@ extern signed int utf8_encode(unsigned long int uc, char *out, signed long int l
 extern char ** utf8_split(const char *string, signed int *length_ret);
 // utf8_to_XChar2b
 // file utf8wc.c line 215
-extern struct anonymous$30 * utf8_to_XChar2b(const char *string, signed int *length_ret);
+extern struct anonymous_30 * utf8_to_XChar2b(const char *string, signed int *length_ret);
 // utf8_to_latin1
 // file utf8wc.c line 347
 extern char * utf8_to_latin1(const char *string, signed int ascii_p);
 // visual_cells
 // file visual.c line 487
-extern signed int visual_cells(struct anonymous$6 *screen, struct anonymous$17 *visual);
+extern signed int visual_cells(struct anonymous_6 *screen, struct anonymous_17 *visual);
 // visual_class
 // file visual.c line 409
-extern signed int visual_class(struct anonymous$6 *screen, struct anonymous$17 *visual);
+extern signed int visual_class(struct anonymous_6 *screen, struct anonymous_17 *visual);
 // visual_depth
 // file ./../utils/visual.h line 17
-extern signed int visual_depth(struct anonymous$6 *screen, struct anonymous$17 *visual);
+extern signed int visual_depth(struct anonymous_6 *screen, struct anonymous_17 *visual);
 // visual_warning
 // file screenhack.c line 341
-static void visual_warning(struct anonymous$6 *screen, unsigned long int window, struct anonymous$17 *visual, unsigned long int cmap, signed int window_p);
+static void visual_warning(struct anonymous_6 *screen, unsigned long int window, struct anonymous_17 *visual, unsigned long int cmap, signed int window_p);
 // waitpid
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);
@@ -1400,7 +1400,7 @@ static void * xanalogtv_init(struct _XDisplay *dpy, unsigned long int window);
 static void xanalogtv_reshape(struct _XDisplay *dpy, unsigned long int window, void *closure, unsigned int w, unsigned int h);
 // xlib_rgb_init
 // file /usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlibrgb.h line 75
-void xlib_rgb_init(struct _XDisplay *, struct anonymous$6 *);
+void xlib_rgb_init(struct _XDisplay *, struct anonymous_6 *);
 // xpm_data_to_pixmap
 // file xpm-pixmap.c line 348
 extern unsigned long int xpm_data_to_pixmap(struct _XDisplay *dpy, unsigned long int window, char * const *xpm_data, signed int *width_ret, signed int *height_ret, unsigned long int *mask_ret);
@@ -1420,7 +1420,7 @@ extern void ya_rand_init(unsigned int seed);
 // file ./../utils/yarandom.h line 36
 extern unsigned int ya_random(void);
 
-struct anonymous$21
+struct anonymous_21
 {
   // name
   char *name;
@@ -1428,22 +1428,22 @@ struct anonymous$21
   signed long int value;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // option
   char *option;
   // specifier
   char *specifier;
   // argKind
-  enum anonymous$27 argKind;
+  enum anonymous_27 argKind;
   // value
   char *value;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // visual
-  struct anonymous$17 *visual;
+  struct anonymous_17 *visual;
   // visualid
   unsigned long int visualid;
   // screen
@@ -1464,7 +1464,7 @@ struct anonymous$19
   signed int bits_per_rgb;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1483,11 +1483,11 @@ struct anonymous$6
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$29 *depths;
+  struct anonymous_29 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$17 *root_visual;
+  struct anonymous_17 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -1508,7 +1508,7 @@ struct anonymous$6
   signed long int root_input_mask;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1545,7 +1545,7 @@ struct anonymous$13
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$26 *pixmap_format;
+  struct anonymous_26 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -1581,7 +1581,7 @@ struct anonymous$13
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$6 *screens;
+  struct anonymous_6 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -1600,7 +1600,7 @@ struct anonymous$13
   char *xdefaults;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1612,7 +1612,7 @@ struct anonymous$26
   signed int scanline_pad;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // lbearing
   signed short int lbearing;
@@ -1628,7 +1628,7 @@ struct anonymous$1
   unsigned short int attributes;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1651,20 +1651,20 @@ struct anonymous$2
   // n_properties
   signed int n_properties;
   // properties
-  struct anonymous$0 *properties;
+  struct anonymous_0 *properties;
   // min_bounds
-  struct anonymous$1 min_bounds;
+  struct anonymous_1 min_bounds;
   // max_bounds
-  struct anonymous$1 max_bounds;
+  struct anonymous_1 max_bounds;
   // per_char
-  struct anonymous$1 *per_char;
+  struct anonymous_1 *per_char;
   // ascent
   signed int ascent;
   // descent
   signed int descent;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1684,12 +1684,12 @@ struct anonymous$17
   signed int map_entries;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // callback
-  void (*callback)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *);
+  void (*callback)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *);
   // screen
-  struct anonymous$6 *screen;
+  struct anonymous_6 *screen;
   // window
   unsigned long int window;
   // drawable
@@ -1706,13 +1706,13 @@ struct anonymous$16
   signed int pid;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // x
   signed short int x;
@@ -1724,7 +1724,7 @@ struct anonymous$7
   unsigned short int height;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -1744,7 +1744,7 @@ struct anonymous$5
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // depth
   signed int depth;
@@ -1754,17 +1754,17 @@ struct anonymous$18
   signed int scanline_pad;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$17 *visuals;
+  struct anonymous_17 *visuals;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // function
   signed int function;
@@ -1814,7 +1814,7 @@ struct anonymous$8
   char dashes;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // index
   signed int index;
@@ -1822,7 +1822,7 @@ struct anonymous$32
   double value;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // type
   signed int type;
@@ -1840,7 +1840,7 @@ struct anonymous$11
   unsigned char minor_code;
 };
 
-struct anonymous$63
+struct anonymous_63
 {
   // type
   signed int type;
@@ -1856,7 +1856,7 @@ struct anonymous$63
   signed int evtype;
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // type
   signed int type;
@@ -1876,7 +1876,7 @@ struct anonymous$64
   void *data;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -1894,7 +1894,7 @@ struct anonymous$41
   signed int minor_code;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -1922,7 +1922,7 @@ struct anonymous$40
   signed int minor_code;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -1938,7 +1938,7 @@ struct anonymous$44
   unsigned long int window;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -1956,7 +1956,7 @@ struct anonymous$45
   signed int from_configure;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -1974,7 +1974,7 @@ struct anonymous$46
   signed int override_redirect;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // type
   signed int type;
@@ -1992,7 +1992,7 @@ struct anonymous$53
   signed int place;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -2012,7 +2012,7 @@ struct anonymous$50
   signed int y;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -2042,7 +2042,7 @@ struct anonymous$49
   signed int override_redirect;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   signed int type;
@@ -2066,7 +2066,7 @@ struct anonymous$48
   signed int override_redirect;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // type
   signed int type;
@@ -2090,7 +2090,7 @@ struct anonymous$57
   unsigned long int time;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   signed int type;
@@ -2106,7 +2106,7 @@ struct anonymous$47
   unsigned long int window;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // type
   signed int type;
@@ -2124,7 +2124,7 @@ struct anonymous$54
   signed int place;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   signed int type;
@@ -2152,7 +2152,7 @@ struct anonymous$43
   signed int override_redirect;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // type
   signed int type;
@@ -2184,7 +2184,7 @@ struct anonymous$52
   unsigned long int value_mask;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // type
   signed int type;
@@ -2206,7 +2206,7 @@ struct anonymous$58
   unsigned long int time;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // type
   signed int type;
@@ -2220,7 +2220,7 @@ struct anonymous$34
   unsigned long int window;
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // type
   signed int type;
@@ -2236,7 +2236,7 @@ struct anonymous$62
   char key_vector[32l];
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -2254,7 +2254,7 @@ struct anonymous$38
   signed int detail;
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // type
   signed int type;
@@ -2274,7 +2274,7 @@ struct anonymous$61
   signed int count;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -2290,7 +2290,7 @@ struct anonymous$42
   signed int state;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // type
   signed int type;
@@ -2308,7 +2308,7 @@ struct anonymous$51
   signed int height;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -2332,7 +2332,7 @@ struct anonymous$39
   signed int count;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // type
   signed int type;
@@ -2352,7 +2352,7 @@ struct anonymous$55
   signed int state;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // type
   signed int type;
@@ -2372,7 +2372,7 @@ struct anonymous$59
   signed int state;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // b
   char b[20l];
@@ -2382,7 +2382,7 @@ union anonymous$14
   signed long int l[5l];
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // type
   signed int type;
@@ -2399,10 +2399,10 @@ struct anonymous$60
   // format
   signed int format;
   // data
-  union anonymous$14 data;
+  union anonymous_14 data;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -2440,7 +2440,7 @@ struct anonymous$37
   unsigned int state;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   signed int type;
@@ -2474,7 +2474,7 @@ struct anonymous$36
   signed int same_screen;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -2508,7 +2508,7 @@ struct anonymous$35
   signed int same_screen;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   signed int type;
@@ -2542,7 +2542,7 @@ struct anonymous$33
   signed int same_screen;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // type
   signed int type;
@@ -2560,7 +2560,7 @@ struct anonymous$56
   unsigned long int time;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // x
   signed int x;
@@ -2575,7 +2575,7 @@ struct anonymous$9
   // depth
   signed int depth;
   // visual
-  struct anonymous$17 *visual;
+  struct anonymous_17 *visual;
   // root
   unsigned long int root;
   // class
@@ -2607,10 +2607,10 @@ struct anonymous$9
   // override_redirect
   signed int override_redirect;
   // screen
-  struct anonymous$6 *screen;
+  struct anonymous_6 *screen;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // request_mode
   unsigned int request_mode;
@@ -2630,7 +2630,7 @@ struct anonymous$20
   signed int stack_mode;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // size
   unsigned int size;
@@ -2638,7 +2638,7 @@ struct anonymous$15
   char *addr;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -2672,7 +2672,7 @@ struct anonymous$25
   unsigned long int cursor;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // name
   unsigned long int name;
@@ -2680,7 +2680,7 @@ struct anonymous$0
   unsigned long int card32;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // pixel
   unsigned long int pixel;
@@ -2696,7 +2696,7 @@ struct anonymous$12
   char pad;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // shmseg
   unsigned long int shmseg;
@@ -2708,7 +2708,7 @@ struct anonymous$31
   signed int readOnly;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // byte1
   unsigned char byte1;
@@ -2724,10 +2724,10 @@ union anonymous
   signed int i;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
@@ -2762,7 +2762,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2787,11 +2787,11 @@ struct _CoreClassPart
   // class_inited
   unsigned char class_inited;
   // initialize
-  void (*initialize)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous$21 *, unsigned int *);
+  void (*initialize)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous_21 *, unsigned int *);
   // initialize_hook
-  void (*initialize_hook)(struct _WidgetRec *, struct anonymous$21 *, unsigned int *);
+  void (*initialize_hook)(struct _WidgetRec *, struct anonymous_21 *, unsigned int *);
   // realize
-  void (*realize)(struct _WidgetRec *, unsigned long int *, struct anonymous$25 *);
+  void (*realize)(struct _WidgetRec *, unsigned long int *, struct anonymous_25 *);
   // actions
   struct _XtActionsRec *actions;
   // num_actions
@@ -2817,13 +2817,13 @@ struct _CoreClassPart
   // expose
   void (*expose)(struct _WidgetRec *, union _XEvent *, struct _XRegion *);
   // set_values
-  char (*set_values)(struct _WidgetRec *, struct _WidgetRec *, struct _WidgetRec *, struct anonymous$21 *, unsigned int *);
+  char (*set_values)(struct _WidgetRec *, struct _WidgetRec *, struct _WidgetRec *, struct anonymous_21 *, unsigned int *);
   // set_values_hook
-  char (*set_values_hook)(struct _WidgetRec *, struct anonymous$21 *, unsigned int *);
+  char (*set_values_hook)(struct _WidgetRec *, struct anonymous_21 *, unsigned int *);
   // set_values_almost
-  void (*set_values_almost)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous$20 *, struct anonymous$20 *);
+  void (*set_values_almost)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous_20 *, struct anonymous_20 *);
   // get_values_hook
-  void (*get_values_hook)(struct _WidgetRec *, struct anonymous$21 *, unsigned int *);
+  void (*get_values_hook)(struct _WidgetRec *, struct anonymous_21 *, unsigned int *);
   // accept_focus
   char (*accept_focus)(struct _WidgetRec *, unsigned long int *);
   // version
@@ -2833,7 +2833,7 @@ struct _CoreClassPart
   // tm_table
   char *tm_table;
   // query_geometry
-  enum anonymous$22 (*query_geometry)(struct _WidgetRec *, struct anonymous$20 *, struct anonymous$20 *);
+  enum anonymous_22 (*query_geometry)(struct _WidgetRec *, struct anonymous_20 *, struct anonymous_20 *);
   // display_accelerator
   void (*display_accelerator)(struct _WidgetRec *, char *);
   // extension
@@ -2901,7 +2901,7 @@ struct _CorePart
   // name
   char *name;
   // screen
-  struct anonymous$6 *screen;
+  struct anonymous_6 *screen;
   // colormap
   unsigned long int colormap;
   // window
@@ -3025,71 +3025,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$34 xany;
+  struct anonymous_34 xany;
   // xkey
-  struct anonymous$33 xkey;
+  struct anonymous_33 xkey;
   // xbutton
-  struct anonymous$35 xbutton;
+  struct anonymous_35 xbutton;
   // xmotion
-  struct anonymous$36 xmotion;
+  struct anonymous_36 xmotion;
   // xcrossing
-  struct anonymous$37 xcrossing;
+  struct anonymous_37 xcrossing;
   // xfocus
-  struct anonymous$38 xfocus;
+  struct anonymous_38 xfocus;
   // xexpose
-  struct anonymous$39 xexpose;
+  struct anonymous_39 xexpose;
   // xgraphicsexpose
-  struct anonymous$40 xgraphicsexpose;
+  struct anonymous_40 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$41 xnoexpose;
+  struct anonymous_41 xnoexpose;
   // xvisibility
-  struct anonymous$42 xvisibility;
+  struct anonymous_42 xvisibility;
   // xcreatewindow
-  struct anonymous$43 xcreatewindow;
+  struct anonymous_43 xcreatewindow;
   // xdestroywindow
-  struct anonymous$44 xdestroywindow;
+  struct anonymous_44 xdestroywindow;
   // xunmap
-  struct anonymous$45 xunmap;
+  struct anonymous_45 xunmap;
   // xmap
-  struct anonymous$46 xmap;
+  struct anonymous_46 xmap;
   // xmaprequest
-  struct anonymous$47 xmaprequest;
+  struct anonymous_47 xmaprequest;
   // xreparent
-  struct anonymous$48 xreparent;
+  struct anonymous_48 xreparent;
   // xconfigure
-  struct anonymous$49 xconfigure;
+  struct anonymous_49 xconfigure;
   // xgravity
-  struct anonymous$50 xgravity;
+  struct anonymous_50 xgravity;
   // xresizerequest
-  struct anonymous$51 xresizerequest;
+  struct anonymous_51 xresizerequest;
   // xconfigurerequest
-  struct anonymous$52 xconfigurerequest;
+  struct anonymous_52 xconfigurerequest;
   // xcirculate
-  struct anonymous$53 xcirculate;
+  struct anonymous_53 xcirculate;
   // xcirculaterequest
-  struct anonymous$54 xcirculaterequest;
+  struct anonymous_54 xcirculaterequest;
   // xproperty
-  struct anonymous$55 xproperty;
+  struct anonymous_55 xproperty;
   // xselectionclear
-  struct anonymous$56 xselectionclear;
+  struct anonymous_56 xselectionclear;
   // xselectionrequest
-  struct anonymous$57 xselectionrequest;
+  struct anonymous_57 xselectionrequest;
   // xselection
-  struct anonymous$58 xselection;
+  struct anonymous_58 xselection;
   // xcolormap
-  struct anonymous$59 xcolormap;
+  struct anonymous_59 xcolormap;
   // xclient
-  struct anonymous$60 xclient;
+  struct anonymous_60 xclient;
   // xmapping
-  struct anonymous$61 xmapping;
+  struct anonymous_61 xmapping;
   // xerror
-  struct anonymous$11 xerror;
+  struct anonymous_11 xerror;
   // xkeymap
-  struct anonymous$62 xkeymap;
+  struct anonymous_62 xkeymap;
   // xgeneric
-  struct anonymous$63 xgeneric;
+  struct anonymous_63 xgeneric;
   // xcookie
-  struct anonymous$64 xcookie;
+  struct anonymous_64 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -3109,7 +3109,7 @@ struct _XExtData
 struct funcs
 {
   // create_image
-  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous$17 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous_17 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
   // destroy_image
   signed int (*destroy_image)(struct _XImage *);
   // get_pixel
@@ -3267,9 +3267,9 @@ struct threadpool
   // serial_threads
   void *serial_threads;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // cond
-  union anonymous$4 cond;
+  union anonymous_4 cond;
   // parallel_pending
   unsigned int parallel_pending;
   // parallel_unfinished
@@ -3293,9 +3293,9 @@ struct analogtv_s
   // window
   unsigned long int window;
   // screen
-  struct anonymous$6 *screen;
+  struct anonymous_6 *screen;
   // xgwa
-  struct anonymous$9 xgwa;
+  struct anonymous_9 xgwa;
   // threads
   struct threadpool threads;
   // n_colors
@@ -3345,7 +3345,7 @@ struct analogtv_s
   // bilevel_signal
   signed int bilevel_signal;
   // shm_info
-  struct anonymous$31 shm_info;
+  struct anonymous_31 shm_info;
   // visdepth
   signed int visdepth;
   // visclass
@@ -3447,7 +3447,7 @@ struct analogtv_s
   // rx_signal
   float *rx_signal;
   // leveltable
-  struct anonymous$32 leveltable[13l][13l];
+  struct anonymous_32 leveltable[13l][13l];
   // random0
   unsigned int random0;
   // random1
@@ -3493,7 +3493,7 @@ struct async_load_state
   // filename
   char *filename;
   // geom
-  struct anonymous$7 geom;
+  struct anonymous_7 geom;
 };
 
 struct chansetting_s
@@ -3519,7 +3519,7 @@ struct fps_state
   // y
   signed int y;
   // font
-  struct anonymous$2 *font;
+  struct anonymous_2 *font;
   // clear_p
   signed int clear_p;
   // string
@@ -3691,7 +3691,7 @@ struct xscreensaver_function_table
   // defaults
   const char * const *defaults;
   // options
-  const struct anonymous$28 *options;
+  const struct anonymous_28 *options;
   // setup_cb
   void (*setup_cb)(struct xscreensaver_function_table *, void *);
   // setup_arg
@@ -3709,9 +3709,9 @@ struct xscreensaver_function_table
   // fps_cb
   void (*fps_cb)(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
   // pick_visual_hook
-  struct anonymous$17 * (*pick_visual_hook)(struct anonymous$6 *);
+  struct anonymous_17 * (*pick_visual_hook)(struct anonymous_6 *);
   // validate_visual_hook
-  signed int (*validate_visual_hook)(struct anonymous$6 *, const char *, struct anonymous$17 *);
+  signed int (*validate_visual_hook)(struct anonymous_6 *, const char *, struct anonymous_17 *);
 };
 
 
@@ -3738,7 +3738,7 @@ static signed int _has_pthread = 0;
 static unsigned int a[55l] = { 035340171546, (unsigned int)010401501101, 022364657325, 024130436022, (unsigned int)002167303062, 037570375137, 037210607110, (unsigned int)016272055420, 023011770546, (unsigned int)017143426366, (unsigned int)014753657433, 021657231332, 023553406142, (unsigned int)004236526362, (unsigned int)010365611275, (unsigned int)007117336710, (unsigned int)011051276551, (unsigned int)002362132524, (unsigned int)001011540233, (unsigned int)012162531646, (unsigned int)007056762337, (unsigned int)006631245521, (unsigned int)014164542224, 032633236305, 023342700176, (unsigned int)002433062234, (unsigned int)015257225043, 026762051606, (unsigned int)000742573230, (unsigned int)005366042132, (unsigned int)012126416411, (unsigned int)000520471171, (unsigned int)000725646277, 020116577576, 025765742604, (unsigned int)007633473735, (unsigned int)015674255275, (unsigned int)017555634041, (unsigned int)006503154145, 021576344247, (unsigned int)014577627653, (unsigned int)002707523333, 034146376720, 030060227734, (unsigned int)013765414060, 036072251540, (unsigned int)007255221037, 024364674123, (unsigned int)006200353166, (unsigned int)010126373326, (unsigned int)015664104320, (unsigned int)016401041535, (unsigned int)016215305520, 033115351014, (unsigned int)017411670323 };
 // cond_initializer
 // file thread_util.c line 285
-const union anonymous$4 cond_initializer = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+const union anonymous_4 cond_initializer = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -3748,23 +3748,23 @@ static char *default_defaults[10l] = { ".root:\t\tfalse", "*geometry:\t\t1280x72
     ((char *)NULL) };
 // default_options
 // file screenhack.c line 141
-static struct anonymous$28 default_options[11l] = { { .option="-root", .specifier=".root", .argKind=(enum anonymous$27)XrmoptionNoArg, .value="True" },
-    { .option="-window", .specifier=".root", .argKind=(enum anonymous$27)XrmoptionNoArg,
+static struct anonymous_28 default_options[11l] = { { .option="-root", .specifier=".root", .argKind=(enum anonymous_27)XrmoptionNoArg, .value="True" },
+    { .option="-window", .specifier=".root", .argKind=(enum anonymous_27)XrmoptionNoArg,
     .value="False" },
-    { .option="-mono", .specifier=".mono", .argKind=(enum anonymous$27)XrmoptionNoArg, .value="True" },
-    { .option="-install", .specifier=".installColormap", .argKind=(enum anonymous$27)XrmoptionNoArg,
+    { .option="-mono", .specifier=".mono", .argKind=(enum anonymous_27)XrmoptionNoArg, .value="True" },
+    { .option="-install", .specifier=".installColormap", .argKind=(enum anonymous_27)XrmoptionNoArg,
     .value="True" },
-    { .option="-noinstall", .specifier=".installColormap", .argKind=(enum anonymous$27)XrmoptionNoArg,
+    { .option="-noinstall", .specifier=".installColormap", .argKind=(enum anonymous_27)XrmoptionNoArg,
     .value="False" },
-    { .option="-visual", .specifier=".visualID", .argKind=(enum anonymous$27)XrmoptionSepArg,
+    { .option="-visual", .specifier=".visualID", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-window-id", .specifier=".windowID", .argKind=(enum anonymous$27)XrmoptionSepArg,
+    { .option="-window-id", .specifier=".windowID", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-fps", .specifier=".doFPS", .argKind=(enum anonymous$27)XrmoptionNoArg, .value="True" },
-    { .option="-no-fps", .specifier=".doFPS", .argKind=(enum anonymous$27)XrmoptionNoArg,
+    { .option="-fps", .specifier=".doFPS", .argKind=(enum anonymous_27)XrmoptionNoArg, .value="True" },
+    { .option="-no-fps", .specifier=".doFPS", .argKind=(enum anonymous_27)XrmoptionNoArg,
     .value="False" },
-    { .option="-pair", .specifier=".pair", .argKind=(enum anonymous$27)XrmoptionNoArg, .value="True" },
-    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous$27)0,
+    { .option="-pair", .specifier=".pair", .argKind=(enum anonymous_27)XrmoptionNoArg, .value="True" },
+    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous_27)0,
     .value=((char *)NULL) } };
 // error_handler_hit_p
 // file grabclient.c line 51
@@ -3792,7 +3792,7 @@ static signed int i2;
 static signed int localbyteorder;
 // logo_50_bad_xpm
 // file ./../utils/images/logo-50-bad.xpm line 2
-static char *logo_50_bad_xpm[116l] = { "50 50 65 1", " \tc None", ".\tc #070800", "+\tc #440000", "@\tc #5A0200", "#\tc #3B1C01", "$\tc #551113", "%\tc #303019", "&\tc #353402", "*\tc #323433", "=\tc #D10400", "-\tc #DC0003", ";\tc #474624", ">\tc #E60000", ",\tc #464745", "'\tc #4F5000", ")\tc #EF0000", "!\tc #C71516", "~\tc #FF0000", "{\tc #535452", "]\tc #C62C02", "^\tc #B52E26", "/\tc #8C4444", "(\tc #6A6601", "_\tc #60615F", ":\tc #FF2500", "<\tc #855D5B", "[\tc #C84D00", "}\tc #A56000", "|\tc #C64344", "1\tc #E83534", "2\tc #965959", "3\tc #6D6D6E", "4\tc #F43E01", "5\tc #868500", "6\tc #EC5803", "7\tc #7A7C79", "8\tc #A66E6E", "9\tc #81848A", "0\tc #EE7200", "a\tc #8D8E8B", "b\tc #A99C00", "c\tc #D48D00", "d\tc #93929F", "e\tc #99979B", "f\tc #F08B00", "g\tc #EC7B79", "h\tc #A2A0B2", "i\tc #BB9B9B", "j\tc #A7A9A6", "k\tc #F7A400", "l\tc #C6B52F", "m\tc #ACABBD", "n\tc #ECB800", "o\tc #D5C800", "p\tc #C8B2C2", "q\tc #EAC700", "r\tc #BFC1BE", "s\tc #FBA8AB", "t\tc #BFC0D0", "u\tc #C6CADA", "v\tc #CED1CD", "w\tc #D3D3DE", "x\tc #DEDFE9", "y\tc #E1E3DF", "z\tc #F5F6F3", "                                                  ",
+static char *logo_50_bad_xpm[116l] = { "50 50 65 1", " \tc None", ".\tc #070800", "+\tc #440000", "@\tc #5A0200", "#\tc #3B1C01", "_\tc #551113", "%\tc #303019", "&\tc #353402", "*\tc #323433", "=\tc #D10400", "-\tc #DC0003", ";\tc #474624", ">\tc #E60000", ",\tc #464745", "'\tc #4F5000", ")\tc #EF0000", "!\tc #C71516", "~\tc #FF0000", "{\tc #535452", "]\tc #C62C02", "^\tc #B52E26", "/\tc #8C4444", "(\tc #6A6601", "_\tc #60615F", ":\tc #FF2500", "<\tc #855D5B", "[\tc #C84D00", "}\tc #A56000", "|\tc #C64344", "1\tc #E83534", "2\tc #965959", "3\tc #6D6D6E", "4\tc #F43E01", "5\tc #868500", "6\tc #EC5803", "7\tc #7A7C79", "8\tc #A66E6E", "9\tc #81848A", "0\tc #EE7200", "a\tc #8D8E8B", "b\tc #A99C00", "c\tc #D48D00", "d\tc #93929F", "e\tc #99979B", "f\tc #F08B00", "g\tc #EC7B79", "h\tc #A2A0B2", "i\tc #BB9B9B", "j\tc #A7A9A6", "k\tc #F7A400", "l\tc #C6B52F", "m\tc #ACABBD", "n\tc #ECB800", "o\tc #D5C800", "p\tc #C8B2C2", "q\tc #EAC700", "r\tc #BFC1BE", "s\tc #FBA8AB", "t\tc #BFC0D0", "u\tc #C6CADA", "v\tc #CED1CD", "w\tc #D3D3DE", "x\tc #DEDFE9", "y\tc #E1E3DF", "z\tc #F5F6F3", "                                                  ",
     "                         ~k5                      ",
     "                         ~4q.                     ",
     "                         ~~fb.                    ",
@@ -3807,7 +3807,7 @@ static char *logo_50_bad_xpm[116l] = { "50 50 65 1", " \tc None", ".\tc #070800"
     "                    ~~~~~0q+:~:n&.                ",
     "                   ~)~~~6q#~~~0q.                 ",
     "                  ~~:~~:n'>~~:k(.                 ",
-    "     _____________^~)~~0o$~~~0o._____________     ",
+    "     _____________^~)~~0o_~~~0o._____________     ",
     "   __9mmmmmmmmhmhi~~~~:n'|~~~fb{hdddddddddd93_    ",
     "   _hxxxyyyyxwxvxg)~:~6q*1)~~k(duuwuuuuttttth9_   ",
     "  {3wxuttttttpgld1~~~~4q,>~~)k(jxwxxwxxxxxxxth_   ",
@@ -3847,7 +3847,7 @@ static char *logo_50_bad_xpm[116l] = { "50 50 65 1", " \tc None", ".\tc #070800"
 static char **merged_defaults;
 // merged_options
 // file screenhack.c line 176
-static struct anonymous$28 *merged_options;
+static struct anonymous_28 *merged_options;
 // merged_options_size
 // file screenhack.c line 177
 static signed int merged_options_size;
@@ -3856,12 +3856,12 @@ static signed int merged_options_size;
 signed int mono_p;
 // mutex_initializer
 // file thread_util.c line 277
-const union anonymous$3 mutex_initializer = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+const union anonymous_3 mutex_initializer = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // old_handler
 // file xshm.c line 60
-signed int (*old_handler)(struct _XDisplay *, struct anonymous$11 *) = ((signed int (*)(struct _XDisplay *, struct anonymous$11 *))NULL);
+signed int (*old_handler)(struct _XDisplay *, struct anonymous_11 *) = ((signed int (*)(struct _XDisplay *, struct anonymous_11 *))NULL);
 // progclass
 // file screenhack.c line 137
 const char *progclass;
@@ -3891,23 +3891,23 @@ extern struct _WidgetClassRec *topLevelShellWidgetClass;
 static const char *xanalogtv_defaults[16l] = { ".background:\t        black", ".foreground:\t        white", "*delay:\t        5", "*grabDesktopImages:  False", "*chooseRandomImages: True", "*TVColor:         70", "*TVTint:          5", "*TVBrightness:  2", "*TVContrast:    150", "*Background:      Black", "*use_cmap:        0", "*geometry:\t     800x600", "*fpsSolid:\t     True", "*useThreads: True", "*useSHM:           True", ((const char *)NULL) };
 // xanalogtv_options
 // file xanalogtv.c line 247
-static struct anonymous$28 xanalogtv_options[9l] = { { .option="-delay", .specifier=".delay", .argKind=(enum anonymous$27)XrmoptionSepArg,
+static struct anonymous_28 xanalogtv_options[9l] = { { .option="-delay", .specifier=".delay", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-threads", .specifier=".useThreads", .argKind=(enum anonymous$27)XrmoptionNoArg,
+    { .option="-threads", .specifier=".useThreads", .argKind=(enum anonymous_27)XrmoptionNoArg,
     .value="True" },
-    { .option="-no-threads", .specifier=".useThreads", .argKind=(enum anonymous$27)XrmoptionNoArg,
+    { .option="-no-threads", .specifier=".useThreads", .argKind=(enum anonymous_27)XrmoptionNoArg,
     .value="False" },
-    { .option="-use-cmap", .specifier=".use_cmap", .argKind=(enum anonymous$27)XrmoptionSepArg,
+    { .option="-use-cmap", .specifier=".use_cmap", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-color", .specifier=".TVColor", .argKind=(enum anonymous$27)XrmoptionSepArg,
+    { .option="-tv-color", .specifier=".TVColor", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-tint", .specifier=".TVTint", .argKind=(enum anonymous$27)XrmoptionSepArg,
+    { .option="-tv-tint", .specifier=".TVTint", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-brightness", .specifier=".TVBrightness", .argKind=(enum anonymous$27)XrmoptionSepArg,
+    { .option="-tv-brightness", .specifier=".TVBrightness", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-contrast", .specifier=".TVContrast", .argKind=(enum anonymous$27)XrmoptionSepArg,
+    { .option="-tv-contrast", .specifier=".TVContrast", .argKind=(enum anonymous_27)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous$27)0,
+    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous_27)0,
     .value=((char *)NULL) } };
 // xanalogtv_xscreensaver_function_table
 // file xanalogtv.c line 641
@@ -3919,8 +3919,8 @@ struct xscreensaver_function_table xanalogtv_xscreensaver_function_table = { .pr
     .init_cb=xanalogtv_init, .draw_cb=xanalogtv_draw,
     .reshape_cb=xanalogtv_reshape, .event_cb=xanalogtv_event,
     .free_cb=xanalogtv_free, .fps_cb=((void (*)(struct _XDisplay *, unsigned long int, struct fps_state *, void *))NULL),
-    .pick_visual_hook=((struct anonymous$17 * (*)(struct anonymous$6 *))NULL),
-    .validate_visual_hook=((signed int (*)(struct anonymous$6 *, const char *, struct anonymous$17 *))NULL) };
+    .pick_visual_hook=((struct anonymous_17 * (*)(struct anonymous_6 *))NULL),
+    .validate_visual_hook=((signed int (*)(struct anonymous_6 *, const char *, struct anonymous_17 *))NULL) };
 // xscreensaver_function_table
 // file xanalogtv.c line 641
 struct xscreensaver_function_table *xscreensaver_function_table;
@@ -3932,22 +3932,22 @@ struct xscreensaver_function_table *xscreensaver_function_table = &xanalogtv_xsc
 // file screenhack.c line 256
 static signed int MapNotify_event_p(struct _XDisplay *dpy, union _XEvent *event, char *window)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(event->xany.type == 19)
-    tmp_if_expr$1 = event->xvisibility.window == (unsigned long int)window ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = event->xvisibility.window == (unsigned long int)window ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // VirtualRootWindowOfScreen
 // file ./../utils/vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen(struct anonymous$6 *screen)
+static unsigned long int VirtualRootWindowOfScreen(struct anonymous_6 *screen)
 {
-  signed int return_value___isoc99_sscanf$2;
+  signed int return_value___isoc99_sscanf_2;
   static unsigned long int root = (unsigned long int)0;
-  static struct anonymous$6 *save_screen = (struct anonymous$6 *)0;
+  static struct anonymous_6 *save_screen = (struct anonymous_6 *)0;
   if(!(screen == save_screen))
   {
     struct _XDisplay *dpy = screen->display;
@@ -3965,18 +3965,18 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$6 *screen)
       {
         unsigned long int id = (unsigned long int)0;
         char c;
-        signed int return_value___isoc99_sscanf$1;
-        return_value___isoc99_sscanf$1=__isoc99_sscanf(xss_id, " 0x%lx %c", &id, &c);
-        _Bool tmp_if_expr$3;
-        if(return_value___isoc99_sscanf$1 == 1)
-          tmp_if_expr$3 = (_Bool)1;
+        signed int return_value___isoc99_sscanf_1;
+        return_value___isoc99_sscanf_1=__isoc99_sscanf(xss_id, " 0x%lx %c", &id, &c);
+        _Bool tmp_if_expr_3;
+        if(return_value___isoc99_sscanf_1 == 1)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value___isoc99_sscanf$2=__isoc99_sscanf(xss_id, " %lu %c", &id, &c);
-          tmp_if_expr$3 = 1 == return_value___isoc99_sscanf$2 ? (_Bool)1 : (_Bool)0;
+          return_value___isoc99_sscanf_2=__isoc99_sscanf(xss_id, " %lu %c", &id, &c);
+          tmp_if_expr_3 = 1 == return_value___isoc99_sscanf_2 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           root = (unsigned long int)id;
           save_screen = screen;
@@ -3989,9 +3989,9 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$6 *screen)
 
     root = screen->root;
     __SWM_VROOT=XInternAtom(dpy, "__SWM_VROOT", 0);
-    signed int return_value_XQueryTree$5;
-    return_value_XQueryTree$5=XQueryTree(dpy, root, &rootReturn, &parentReturn, &children, &numChildren);
-    if(!(return_value_XQueryTree$5 == 0))
+    signed int return_value_XQueryTree_5;
+    return_value_XQueryTree_5=XQueryTree(dpy, root, &rootReturn, &parentReturn, &children, &numChildren);
+    if(!(return_value_XQueryTree_5 == 0))
     {
       i = 0;
       for( ; !((unsigned int)i >= numChildren); i = i + 1)
@@ -4001,9 +4001,9 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$6 *screen)
         unsigned long int nitems;
         unsigned long int bytesafter;
         unsigned char *newRoot = ((unsigned char *)NULL);
-        signed int return_value_XGetWindowProperty$4;
-        return_value_XGetWindowProperty$4=XGetWindowProperty(dpy, children[(signed long int)i], __SWM_VROOT, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type, &actual_format, &nitems, &bytesafter, &newRoot);
-        if(return_value_XGetWindowProperty$4 == 0)
+        signed int return_value_XGetWindowProperty_4;
+        return_value_XGetWindowProperty_4=XGetWindowProperty(dpy, children[(signed long int)i], __SWM_VROOT, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type, &actual_format, &nitems, &bytesafter, &newRoot);
+        if(return_value_XGetWindowProperty_4 == 0)
         {
           if(!(newRoot == ((unsigned char *)NULL)))
           {
@@ -4025,110 +4025,110 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$6 *screen)
   return root;
 }
 
-// VirtualRootWindowOfScreen$link1
+// VirtualRootWindowOfScreen_link1
 // file vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen$link1(struct anonymous$6 *screen$link1)
+static unsigned long int VirtualRootWindowOfScreen_link1(struct anonymous_6 *screen_link1)
 {
-  signed int return_value___isoc99_sscanf$2$link1;
-  static unsigned long int root$link1 = (unsigned long int)0;
-  static struct anonymous$6 *save_screen$link1 = (struct anonymous$6 *)0;
-  if(!(screen$link1 == save_screen$link1))
+  signed int return_value___isoc99_sscanf_2_link1;
+  static unsigned long int root_link1 = (unsigned long int)0;
+  static struct anonymous_6 *save_screen_link1 = (struct anonymous_6 *)0;
+  if(!(screen_link1 == save_screen_link1))
   {
-    struct _XDisplay *dpy$link1 = screen$link1->display;
-    unsigned long int __SWM_VROOT$link1 = (unsigned long int)0L;
-    signed int i$link1;
-    unsigned long int rootReturn$link1;
-    unsigned long int parentReturn$link1;
-    unsigned long int *children$link1;
-    unsigned int numChildren$link1;
-    const char *xss_id$link1;
-    xss_id$link1=getenv("XSCREENSAVER_WINDOW");
-    if(!(xss_id$link1 == ((const char *)NULL)))
+    struct _XDisplay *dpy_link1 = screen_link1->display;
+    unsigned long int __SWM_VROOT_link1 = (unsigned long int)0L;
+    signed int i_link1;
+    unsigned long int rootReturn_link1;
+    unsigned long int parentReturn_link1;
+    unsigned long int *children_link1;
+    unsigned int numChildren_link1;
+    const char *xss_id_link1;
+    xss_id_link1=getenv("XSCREENSAVER_WINDOW");
+    if(!(xss_id_link1 == ((const char *)NULL)))
     {
-      if(!(*xss_id$link1 == 0))
+      if(!(*xss_id_link1 == 0))
       {
-        unsigned long int id$link1 = (unsigned long int)0;
-        char c$link1;
-        signed int return_value___isoc99_sscanf$1$link1;
-        return_value___isoc99_sscanf$1$link1=__isoc99_sscanf(xss_id$link1, " 0x%lx %c", &id$link1, &c$link1);
-        _Bool tmp_if_expr$3$link1;
-        if(return_value___isoc99_sscanf$1$link1 == 1)
-          tmp_if_expr$3$link1 = (_Bool)1;
+        unsigned long int id_link1 = (unsigned long int)0;
+        char c_link1;
+        signed int return_value___isoc99_sscanf_1_link1;
+        return_value___isoc99_sscanf_1_link1=__isoc99_sscanf(xss_id_link1, " 0x%lx %c", &id_link1, &c_link1);
+        _Bool tmp_if_expr_3_link1;
+        if(return_value___isoc99_sscanf_1_link1 == 1)
+          tmp_if_expr_3_link1 = (_Bool)1;
 
         else
         {
-          return_value___isoc99_sscanf$2$link1=__isoc99_sscanf(xss_id$link1, " %lu %c", &id$link1, &c$link1);
-          tmp_if_expr$3$link1 = 1 == return_value___isoc99_sscanf$2$link1 ? (_Bool)1 : (_Bool)0;
+          return_value___isoc99_sscanf_2_link1=__isoc99_sscanf(xss_id_link1, " %lu %c", &id_link1, &c_link1);
+          tmp_if_expr_3_link1 = 1 == return_value___isoc99_sscanf_2_link1 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3$link1)
+        if(tmp_if_expr_3_link1)
         {
-          root$link1 = (unsigned long int)id$link1;
-          save_screen$link1 = screen$link1;
-          return root$link1;
+          root_link1 = (unsigned long int)id_link1;
+          save_screen_link1 = screen_link1;
+          return root_link1;
         }
 
       }
 
     }
 
-    root$link1 = screen$link1->root;
-    __SWM_VROOT$link1=XInternAtom(dpy$link1, "__SWM_VROOT", 0);
-    signed int return_value_XQueryTree$5$link1;
-    return_value_XQueryTree$5$link1=XQueryTree(dpy$link1, root$link1, &rootReturn$link1, &parentReturn$link1, &children$link1, &numChildren$link1);
-    if(!(return_value_XQueryTree$5$link1 == 0))
+    root_link1 = screen_link1->root;
+    __SWM_VROOT_link1=XInternAtom(dpy_link1, "__SWM_VROOT", 0);
+    signed int return_value_XQueryTree_5_link1;
+    return_value_XQueryTree_5_link1=XQueryTree(dpy_link1, root_link1, &rootReturn_link1, &parentReturn_link1, &children_link1, &numChildren_link1);
+    if(!(return_value_XQueryTree_5_link1 == 0))
     {
-      i$link1 = 0;
-      for( ; !((unsigned int)i$link1 >= numChildren$link1); i$link1 = i$link1 + 1)
+      i_link1 = 0;
+      for( ; !((unsigned int)i_link1 >= numChildren_link1); i_link1 = i_link1 + 1)
       {
-        unsigned long int actual_type$link1;
-        signed int actual_format$link1;
-        unsigned long int nitems$link1;
-        unsigned long int bytesafter$link1;
-        unsigned char *newRoot$link1 = ((unsigned char *)NULL);
-        signed int return_value_XGetWindowProperty$4$link1;
-        return_value_XGetWindowProperty$4$link1=XGetWindowProperty(dpy$link1, children$link1[(signed long int)i$link1], __SWM_VROOT$link1, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type$link1, &actual_format$link1, &nitems$link1, &bytesafter$link1, &newRoot$link1);
-        if(return_value_XGetWindowProperty$4$link1 == 0)
+        unsigned long int actual_type_link1;
+        signed int actual_format_link1;
+        unsigned long int nitems_link1;
+        unsigned long int bytesafter_link1;
+        unsigned char *newRoot_link1 = ((unsigned char *)NULL);
+        signed int return_value_XGetWindowProperty_4_link1;
+        return_value_XGetWindowProperty_4_link1=XGetWindowProperty(dpy_link1, children_link1[(signed long int)i_link1], __SWM_VROOT_link1, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type_link1, &actual_format_link1, &nitems_link1, &bytesafter_link1, &newRoot_link1);
+        if(return_value_XGetWindowProperty_4_link1 == 0)
         {
-          if(!(newRoot$link1 == ((unsigned char *)NULL)))
+          if(!(newRoot_link1 == ((unsigned char *)NULL)))
           {
-            root$link1 = *((unsigned long int *)newRoot$link1);
+            root_link1 = *((unsigned long int *)newRoot_link1);
             break;
           }
 
         }
 
       }
-      if(!(children$link1 == ((unsigned long int *)NULL)))
-        XFree((void *)(char *)children$link1);
+      if(!(children_link1 == ((unsigned long int *)NULL)))
+        XFree((void *)(char *)children_link1);
 
     }
 
-    save_screen$link1 = screen$link1;
+    save_screen_link1 = screen_link1;
   }
 
-  return root$link1;
+  return root_link1;
 }
 
 // XChar2b_to_utf8
 // file utf8wc.c line 306
-extern char * XChar2b_to_utf8(const struct anonymous$30 *in, signed int *length_ret)
+extern char * XChar2b_to_utf8(const struct anonymous_30 *in, signed int *length_ret)
 {
   signed int in_len = 0;
-  const struct anonymous$30 *in_end;
+  const struct anonymous_30 *in_end;
   signed int out_len;
   char *utf8;
   char *out;
   const char *out_end;
   in_end = in;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(in_end->byte1 == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = in_end->byte2 != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = in_end->byte2 != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     in_end = in_end + 1l;
@@ -4136,9 +4136,9 @@ extern char * XChar2b_to_utf8(const struct anonymous$30 *in, signed int *length_
   }
   while((_Bool)1);
   out_len = (in_len + 1) * 3;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(out_len + 1));
-  out = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(out_len + 1));
+  out = (char *)return_value_malloc_2;
   utf8 = out;
   if(out == ((char *)NULL))
     return ((char *)NULL);
@@ -4159,9 +4159,9 @@ extern char * XChar2b_to_utf8(const struct anonymous$30 *in, signed int *length_
     }
     *out = (char)0;
     out_len = (signed int)((out - utf8) + (signed long int)1);
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)utf8, (unsigned long int)out_len);
-    utf8 = (char *)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)utf8, (unsigned long int)out_len);
+    utf8 = (char *)return_value_realloc_3;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = out_len;
 
@@ -4175,14 +4175,14 @@ static void _add_next_thread(struct _parallel_startup_type *self)
 {
   /* assertion !self->last_errno */
   assert(!(self->last_errno != 0));
-  unsigned int return_value__threadpool_count_parallel$2;
-  return_value__threadpool_count_parallel$2=_threadpool_count_parallel(self->parent);
-  if(self->parent->parallel_unfinished == return_value__threadpool_count_parallel$2)
+  unsigned int return_value__threadpool_count_parallel_2;
+  return_value__threadpool_count_parallel_2=_threadpool_count_parallel(self->parent);
+  if(self->parent->parallel_unfinished == return_value__threadpool_count_parallel_2)
   {
-    signed int return_value_pthread_cond_broadcast$1;
-    return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->parent->cond);
+    signed int return_value_pthread_cond_broadcast_1;
+    return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->parent->cond);
     /* assertion !(pthread_cond_broadcast(&self->parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$1 != 0));
+    assert(!(return_value_pthread_cond_broadcast_1 != 0));
   }
 
   else
@@ -4234,10 +4234,10 @@ static void _parallel_abort(struct threadpool *self)
   /* assertion self->count > 1 */
   assert(self->count > (unsigned int)1);
   self->count = self->parallel_unfinished + (unsigned int)1;
-  signed int return_value_pthread_cond_broadcast$1;
-  return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->cond);
+  signed int return_value_pthread_cond_broadcast_1;
+  return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->cond);
   /* assertion !(pthread_cond_broadcast(&self->cond)) */
-  assert(!(return_value_pthread_cond_broadcast$1 != 0));
+  assert(!(return_value_pthread_cond_broadcast_1 != 0));
 }
 
 // _serial_destroy
@@ -4266,21 +4266,21 @@ static void * _start_routine(void *startup_raw)
   struct _parallel_startup_type *startup = (struct _parallel_startup_type *)startup_raw;
   struct threadpool *parent = startup->parent;
   void *thread;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&parent->mutex);
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&parent->mutex);
   /* assertion !(pthread_mutex_lock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_lock$1 != 0));
+  assert(!(return_value_pthread_mutex_lock_1 != 0));
   parent->parallel_unfinished = parent->parallel_unfinished + 1u;
-  unsigned int return_value_thread_memory_alignment$2;
-  return_value_thread_memory_alignment$2=thread_memory_alignment((struct _XDisplay *)(void *)0);
-  startup->last_errno=aligned_malloc(&thread, return_value_thread_memory_alignment$2, parent->thread_size);
+  unsigned int return_value_thread_memory_alignment_2;
+  return_value_thread_memory_alignment_2=thread_memory_alignment((struct _XDisplay *)(void *)0);
+  startup->last_errno=aligned_malloc(&thread, return_value_thread_memory_alignment_2, parent->thread_size);
   if(!(startup->last_errno == 0))
   {
     _parallel_abort(parent);
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&parent->mutex);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&parent->mutex);
     /* assertion !(pthread_mutex_unlock(&parent->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
     return (void *)0;
   }
 
@@ -4288,69 +4288,69 @@ static void * _start_routine(void *startup_raw)
   if(!(startup->last_errno == 0))
   {
     _parallel_abort(parent);
-    void *return_value__thread_free_and_unlock$4;
-    return_value__thread_free_and_unlock$4=_thread_free_and_unlock(parent, thread);
-    return return_value__thread_free_and_unlock$4;
+    void *return_value__thread_free_and_unlock_4;
+    return_value__thread_free_and_unlock_4=_thread_free_and_unlock(parent, thread);
+    return return_value__thread_free_and_unlock_4;
   }
 
   /* assertion !startup->last_errno */
   assert(!(startup->last_errno != 0));
   _add_next_thread(startup);
-  void *return_value__thread_destroy_and_unlock$5;
+  void *return_value__thread_destroy_and_unlock_5;
   if(!(startup->last_errno == 0))
   {
-    return_value__thread_destroy_and_unlock$5=_thread_destroy_and_unlock(parent, thread);
-    return return_value__thread_destroy_and_unlock$5;
+    return_value__thread_destroy_and_unlock_5=_thread_destroy_and_unlock(parent, thread);
+    return return_value__thread_destroy_and_unlock_5;
   }
 
-  void *return_value__thread_destroy_and_unlock$6;
+  void *return_value__thread_destroy_and_unlock_6;
   if(parent->parallel_pending == 0u)
   {
     if(parent->parallel_threads == ((unsigned long int *)NULL))
     {
-      return_value__thread_destroy_and_unlock$6=_thread_destroy_and_unlock(parent, thread);
-      return return_value__thread_destroy_and_unlock$6;
+      return_value__thread_destroy_and_unlock_6=_thread_destroy_and_unlock(parent, thread);
+      return return_value__thread_destroy_and_unlock_6;
     }
 
-    signed int return_value_pthread_cond_wait$7;
-    return_value_pthread_cond_wait$7=pthread_cond_wait(&parent->cond, &parent->mutex);
+    signed int return_value_pthread_cond_wait_7;
+    return_value_pthread_cond_wait_7=pthread_cond_wait(&parent->cond, &parent->mutex);
     /* assertion !(pthread_cond_wait(&parent->cond, &parent->mutex)) */
-    assert(!(return_value_pthread_cond_wait$7 != 0));
+    assert(!(return_value_pthread_cond_wait_7 != 0));
   }
 
   parent->parallel_pending = parent->parallel_pending - 1u;
-  signed int return_value_pthread_cond_broadcast$8;
+  signed int return_value_pthread_cond_broadcast_8;
   if(parent->parallel_pending == 0u)
   {
-    return_value_pthread_cond_broadcast$8=pthread_cond_broadcast(&parent->cond);
+    return_value_pthread_cond_broadcast_8=pthread_cond_broadcast(&parent->cond);
     /* assertion !(pthread_cond_broadcast(&parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$8 != 0));
+    assert(!(return_value_pthread_cond_broadcast_8 != 0));
   }
 
-  signed int return_value_pthread_mutex_unlock$9;
-  return_value_pthread_mutex_unlock$9=pthread_mutex_unlock(&parent->mutex);
+  signed int return_value_pthread_mutex_unlock_9;
+  return_value_pthread_mutex_unlock_9=pthread_mutex_unlock(&parent->mutex);
   /* assertion !(pthread_mutex_unlock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$9 != 0));
+  assert(!(return_value_pthread_mutex_unlock_9 != 0));
   parent->thread_run(thread);
-  signed int return_value_pthread_mutex_lock$10;
-  return_value_pthread_mutex_lock$10=pthread_mutex_lock(&parent->mutex);
+  signed int return_value_pthread_mutex_lock_10;
+  return_value_pthread_mutex_lock_10=pthread_mutex_lock(&parent->mutex);
   /* assertion !(pthread_mutex_lock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_lock$10 != 0));
-  signed int return_value_pthread_cond_wait$11;
+  assert(!(return_value_pthread_mutex_lock_10 != 0));
+  signed int return_value_pthread_cond_wait_11;
   if(!(parent->parallel_pending == 0u))
   {
-    return_value_pthread_cond_wait$11=pthread_cond_wait(&parent->cond, &parent->mutex);
+    return_value_pthread_cond_wait_11=pthread_cond_wait(&parent->cond, &parent->mutex);
     /* assertion !(pthread_cond_wait(&parent->cond, &parent->mutex)) */
-    assert(!(return_value_pthread_cond_wait$11 != 0));
+    assert(!(return_value_pthread_cond_wait_11 != 0));
   }
 
   parent->parallel_unfinished = parent->parallel_unfinished - 1u;
-  signed int return_value_pthread_cond_broadcast$12;
+  signed int return_value_pthread_cond_broadcast_12;
   if(parent->parallel_unfinished == 0u)
   {
-    return_value_pthread_cond_broadcast$12=pthread_cond_broadcast(&parent->cond);
+    return_value_pthread_cond_broadcast_12=pthread_cond_broadcast(&parent->cond);
     /* assertion !(pthread_cond_broadcast(&parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$12 != 0));
+    assert(!(return_value_pthread_cond_broadcast_12 != 0));
   }
 
 }
@@ -4360,19 +4360,19 @@ static void * _start_routine(void *startup_raw)
 static void * _thread_destroy_and_unlock(struct threadpool *self, void *thread)
 {
   self->thread_destroy(thread);
-  void *return_value__thread_free_and_unlock$1;
-  return_value__thread_free_and_unlock$1=_thread_free_and_unlock(self, thread);
-  return return_value__thread_free_and_unlock$1;
+  void *return_value__thread_free_and_unlock_1;
+  return_value__thread_free_and_unlock_1=_thread_free_and_unlock(self, thread);
+  return return_value__thread_free_and_unlock_1;
 }
 
 // _thread_free_and_unlock
 // file thread_util.c line 568
 static void * _thread_free_and_unlock(struct threadpool *self, void *thread)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&self->mutex);
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&self->mutex);
   /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$1 != 0));
+  assert(!(return_value_pthread_mutex_unlock_1 != 0));
   aligned_free(thread);
   return (void *)0;
 }
@@ -4407,19 +4407,19 @@ static void _unlock_and_destroy(struct threadpool *self)
 {
   unsigned long int *threads = self->parallel_threads;
   self->parallel_threads = (unsigned long int *)(void *)0;
-  signed int return_value_pthread_cond_broadcast$1;
+  signed int return_value_pthread_cond_broadcast_1;
   if(!(threads == ((unsigned long int *)NULL)))
   {
-    return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->cond);
+    return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->cond);
     /* assertion !(pthread_cond_broadcast(&self->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$1 != 0));
+    assert(!(return_value_pthread_cond_broadcast_1 != 0));
   }
 
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&self->mutex);
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&self->mutex);
   /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$2 != 0));
-  signed int return_value_pthread_join$3;
+  assert(!(return_value_pthread_mutex_unlock_2 != 0));
+  signed int return_value_pthread_join_3;
   if(!(threads == ((unsigned long int *)NULL)))
   {
     unsigned int i;
@@ -4428,19 +4428,19 @@ static void _unlock_and_destroy(struct threadpool *self)
     i = (unsigned int)0;
     for( ; !(i == count); i = i + 1u)
     {
-      return_value_pthread_join$3=pthread_join(threads[(signed long int)i], (void **)(void *)0);
+      return_value_pthread_join_3=pthread_join(threads[(signed long int)i], (void **)(void *)0);
       /* assertion !(pthread_join(threads[i], ((void *)0))) */
-      assert(!(return_value_pthread_join$3 != 0));
+      assert(!(return_value_pthread_join_3 != 0));
     }
     free((void *)threads);
-    signed int return_value_pthread_cond_destroy$4;
-    return_value_pthread_cond_destroy$4=pthread_cond_destroy(&self->cond);
+    signed int return_value_pthread_cond_destroy_4;
+    return_value_pthread_cond_destroy_4=pthread_cond_destroy(&self->cond);
     /* assertion !(pthread_cond_destroy(&self->cond)) */
-    assert(!(return_value_pthread_cond_destroy$4 != 0));
-    signed int return_value_pthread_mutex_destroy$5;
-    return_value_pthread_mutex_destroy$5=pthread_mutex_destroy(&self->mutex);
+    assert(!(return_value_pthread_cond_destroy_4 != 0));
+    signed int return_value_pthread_mutex_destroy_5;
+    return_value_pthread_mutex_destroy_5=pthread_mutex_destroy(&self->mutex);
     /* assertion !(pthread_mutex_destroy(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_destroy$5 != 0));
+    assert(!(return_value_pthread_mutex_destroy_5 != 0));
   }
 
   _serial_destroy(self);
@@ -4454,9 +4454,9 @@ static void add_stations(struct state *st)
   {
     struct analogtv_input_s *input;
     input=analogtv_input_allocate();
-    signed int tmp_post$1 = st->n_stations;
+    signed int tmp_post_1 = st->n_stations;
     st->n_stations = st->n_stations + 1;
-    st->stations[(signed long int)tmp_post$1] = input;
+    st->stations[(signed long int)tmp_post_1] = input;
     input->client_data = (void *)st;
   }
 }
@@ -4509,9 +4509,9 @@ static void analogtv_add_signal(const struct analogtv_s *it, const struct analog
   float dp[5l];
   const float noise_decay = 0.99995f;
   float noise_ampl;
-  float return_value_powf$1;
-  return_value_powf$1=powf(noise_decay, (float)start);
-  noise_ampl = 1.3f * return_value_powf$1;
+  float return_value_powf_1;
+  return_value_powf_1=powf(noise_decay, (float)start);
+  noise_ampl = 1.3f * return_value_powf_1;
   if(!(end >= (unsigned int)ec))
     ec = (signed int)end;
 
@@ -4547,24 +4547,24 @@ static void analogtv_add_signal(const struct analogtv_s *it, const struct analog
   assert(!((pe - p) % (signed long int)4 != 0l));
   while(!(p == pe))
   {
-    float analogtv_add_signal$$1$$3$$sig0;
+    float analogtv_add_signal__1__3__sig0;
     float sig1;
     float sig2;
     float sig3;
     float sigr;
-    analogtv_add_signal$$1$$3$$sig0 = (float)s[(signed long int)0];
+    analogtv_add_signal__1__3__sig0 = (float)s[(signed long int)0];
     sig1 = (float)s[(signed long int)1];
     sig2 = (float)s[(signed long int)2];
     sig3 = (float)s[(signed long int)3];
-    dp[(signed long int)0] = analogtv_add_signal$$1$$3$$sig0 + sig1 + sig2 + sig3;
+    dp[(signed long int)0] = analogtv_add_signal__1__3__sig0 + sig1 + sig2 + sig3;
     sigr = (float)((double)dp[(signed long int)1] * rec->ghostfir[(signed long int)0] + (double)dp[(signed long int)2] * rec->ghostfir[(signed long int)1] + (double)dp[(signed long int)3] * rec->ghostfir[(signed long int)2] + (double)dp[(signed long int)4] * rec->ghostfir[(signed long int)3]);
     dp[(signed long int)4] = dp[(signed long int)3];
     dp[(signed long int)3] = dp[(signed long int)2];
     dp[(signed long int)2] = dp[(signed long int)1];
     dp[(signed long int)1] = dp[(signed long int)0];
-    p[(signed long int)0] = p[(signed long int)0] + (analogtv_add_signal$$1$$3$$sig0 + sigr + sig2 * hfloss) * level;
+    p[(signed long int)0] = p[(signed long int)0] + (analogtv_add_signal__1__3__sig0 + sigr + sig2 * hfloss) * level;
     p[(signed long int)1] = p[(signed long int)1] + (sig1 + sigr + sig3 * hfloss) * level;
-    p[(signed long int)2] = p[(signed long int)2] + (sig2 + sigr + analogtv_add_signal$$1$$3$$sig0 * hfloss) * level;
+    p[(signed long int)2] = p[(signed long int)2] + (sig2 + sigr + analogtv_add_signal__1__3__sig0 * hfloss) * level;
     p[(signed long int)3] = p[(signed long int)3] + (sig3 + sigr + sig1 * hfloss) * level;
     p = p + (signed long int)4;
     s = s + (signed long int)4;
@@ -4581,13 +4581,13 @@ static void analogtv_add_signal(const struct analogtv_s *it, const struct analog
 static void analogtv_alloc_image(struct analogtv_s *it)
 {
   unsigned int bits_per_pixel;
-  signed int return_value_get_bits_per_pixel$1;
-  return_value_get_bits_per_pixel$1=get_bits_per_pixel(it->dpy, it->xgwa.depth);
-  bits_per_pixel = (unsigned int)return_value_get_bits_per_pixel$1;
+  signed int return_value_get_bits_per_pixel_1;
+  return_value_get_bits_per_pixel_1=get_bits_per_pixel(it->dpy, it->xgwa.depth);
+  bits_per_pixel = (unsigned int)return_value_get_bits_per_pixel_1;
   unsigned int align;
-  unsigned int return_value_thread_memory_alignment$2;
-  return_value_thread_memory_alignment$2=thread_memory_alignment(it->dpy);
-  align = return_value_thread_memory_alignment$2 * (unsigned int)8 - (unsigned int)1;
+  unsigned int return_value_thread_memory_alignment_2;
+  return_value_thread_memory_alignment_2=thread_memory_alignment(it->dpy);
+  align = return_value_thread_memory_alignment_2 * (unsigned int)8 - (unsigned int)1;
   unsigned int width = (unsigned int)it->usewidth * bits_per_pixel + align & ~align;
   if(!(it->use_shm == 0))
   {
@@ -4602,11 +4602,11 @@ static void analogtv_alloc_image(struct analogtv_s *it)
     it->image=XCreateImage(it->dpy, it->xgwa.visual, (unsigned int)it->xgwa.depth, 2, 0, ((char *)NULL), (unsigned int)it->usewidth, (unsigned int)it->useheight, 8, (signed int)(width / (unsigned int)8));
     if(!(it->image == ((struct _XImage *)NULL)))
     {
-      unsigned int return_value_thread_memory_alignment$3;
-      return_value_thread_memory_alignment$3=thread_memory_alignment(it->dpy);
-      signed int return_value_posix_memalign$4;
-      return_value_posix_memalign$4=posix_memalign((void **)&it->image->data, (unsigned long int)return_value_thread_memory_alignment$3, (unsigned long int)(it->image->height * it->image->bytes_per_line));
-      if(!(return_value_posix_memalign$4 == 0))
+      unsigned int return_value_thread_memory_alignment_3;
+      return_value_thread_memory_alignment_3=thread_memory_alignment(it->dpy);
+      signed int return_value_posix_memalign_4;
+      return_value_posix_memalign_4=posix_memalign((void **)&it->image->data, (unsigned long int)return_value_thread_memory_alignment_3, (unsigned long int)(it->image->height * it->image->bytes_per_line));
+      if(!(return_value_posix_memalign_4 == 0))
       {
         it->image->data = (char *)(void *)0;
         it->image->f.destroy_image(it->image);
@@ -4622,9 +4622,9 @@ static void analogtv_alloc_image(struct analogtv_s *it)
 
   else
   {
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(12);
-    fprintf(stderr, "analogtv: %s\n", return_value_strerror$5);
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(12);
+    fprintf(stderr, "analogtv: %s\n", return_value_strerror_5);
   }
 }
 
@@ -4632,19 +4632,19 @@ static void analogtv_alloc_image(struct analogtv_s *it)
 // file analogtv.h line 239
 struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int window)
 {
-  struct anonymous$8 gcv;
+  struct anonymous_8 gcv;
   struct analogtv_s *it = (struct analogtv_s *)(void *)0;
   signed int i;
   const unsigned long int rx_signal_len = (const unsigned long int)(238944 + 2 * 912);
   analogtv_init();
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct analogtv_s) /*30336ul*/ );
-  it = (struct analogtv_s *)return_value_calloc$1;
-  unsigned int return_value_thread_memory_alignment$4;
-  signed int return_value_posix_memalign$5;
-  unsigned int return_value_hardware_concurrency$6;
-  signed int return_value_threadpool_create$7;
-  unsigned int return_value_get_pixel_resource$14;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct analogtv_s) /*30336ul*/ );
+  it = (struct analogtv_s *)return_value_calloc_1;
+  unsigned int return_value_thread_memory_alignment_4;
+  signed int return_value_posix_memalign_5;
+  unsigned int return_value_hardware_concurrency_6;
+  signed int return_value_threadpool_create_7;
+  unsigned int return_value_get_pixel_resource_14;
   if(it == ((struct analogtv_s *)NULL))
     return ((struct analogtv_s *)NULL);
 
@@ -4655,24 +4655,24 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
     it->signal_subtotals = (float *)(void *)0;
     it->dpy = dpy;
     it->window = window;
-    unsigned int return_value_thread_memory_alignment$2;
-    return_value_thread_memory_alignment$2=thread_memory_alignment(dpy);
-    signed int return_value_posix_memalign$3;
-    return_value_posix_memalign$3=posix_memalign((void **)&it->rx_signal, (unsigned long int)return_value_thread_memory_alignment$2, sizeof(float) /*4ul*/  * rx_signal_len);
-    if(return_value_posix_memalign$3 == 0)
+    unsigned int return_value_thread_memory_alignment_2;
+    return_value_thread_memory_alignment_2=thread_memory_alignment(dpy);
+    signed int return_value_posix_memalign_3;
+    return_value_posix_memalign_3=posix_memalign((void **)&it->rx_signal, (unsigned long int)return_value_thread_memory_alignment_2, sizeof(float) /*4ul*/  * rx_signal_len);
+    if(return_value_posix_memalign_3 == 0)
     {
       /* assertion !(ANALOGTV_SIGNAL_LEN % 32) */
       assert(!(238944 % 32 != 0));
-      return_value_thread_memory_alignment$4=thread_memory_alignment(dpy);
-      return_value_posix_memalign$5=posix_memalign((void **)&it->signal_subtotals, (unsigned long int)return_value_thread_memory_alignment$4, sizeof(float) /*4ul*/  * (rx_signal_len / (unsigned long int)32));
-      if(!(return_value_posix_memalign$5 == 0))
+      return_value_thread_memory_alignment_4=thread_memory_alignment(dpy);
+      return_value_posix_memalign_5=posix_memalign((void **)&it->signal_subtotals, (unsigned long int)return_value_thread_memory_alignment_4, sizeof(float) /*4ul*/  * (rx_signal_len / (unsigned long int)32));
+      if(!(return_value_posix_memalign_5 == 0))
         goto fail;
 
-      return_value_hardware_concurrency$6=hardware_concurrency(dpy);
+      return_value_hardware_concurrency_6=hardware_concurrency(dpy);
       static struct threadpool_class cls = { .size=sizeof(struct analogtv_thread_s) /*32ul*/ , .create=analogtv_thread_create,
     .destroy=analogtv_thread_destroy };
-      return_value_threadpool_create$7=threadpool_create(&it->threads, &cls, dpy, return_value_hardware_concurrency$6);
-      if(!(return_value_threadpool_create$7 == 0))
+      return_value_threadpool_create_7=threadpool_create(&it->threads, &cls, dpy, return_value_hardware_concurrency_6);
+      if(!(return_value_threadpool_create_7 == 0))
         goto fail;
 
       /* assertion it->threads.count */
@@ -4686,17 +4686,17 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
       it->visclass = it->xgwa.visual->class;
       it->visbits = it->xgwa.visual->bits_per_rgb;
       it->visdepth = it->xgwa.depth;
-      _Bool tmp_if_expr$10;
+      _Bool tmp_if_expr_10;
       if(it->visclass == 4)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = it->visclass == 5 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = it->visclass == 5 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
       {
-        signed int return_value_get_integer_resource$8;
-        return_value_get_integer_resource$8=get_integer_resource(it->dpy, "use_cmap", "Integer");
-        if(!(return_value_get_integer_resource$8 == 0))
+        signed int return_value_get_integer_resource_8;
+        return_value_get_integer_resource_8=get_integer_resource(it->dpy, "use_cmap", "Integer");
+        if(!(return_value_get_integer_resource_8 == 0))
           it->use_cmap = 1;
 
         else
@@ -4706,13 +4706,13 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
 
       else
       {
-        _Bool tmp_if_expr$9;
+        _Bool tmp_if_expr_9;
         if(it->visclass == 3)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = it->visclass == 2 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = it->visclass == 2 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
         {
           it->use_cmap = 1;
           it->use_color = (signed int)!(mono_p != 0);
@@ -4776,28 +4776,28 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
 
           }
         }
-        _Bool tmp_if_expr$11;
+        _Bool tmp_if_expr_11;
         if(!(it->red_shift >= 0))
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
-          tmp_if_expr$11 = it->green_shift < 0 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$12;
-        if(tmp_if_expr$11)
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_11 = it->green_shift < 0 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_12;
+        if(tmp_if_expr_11)
+          tmp_if_expr_12 = (_Bool)1;
 
         else
-          tmp_if_expr$12 = it->blue_shift < 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = it->blue_shift < 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_12)
           goto fail;
 
         i = 0;
         for( ; !(i >= 1024); i = i + 1)
         {
           signed int intensity;
-          double return_value_pow$13;
-          return_value_pow$13=pow((double)i / 256.0, 0.8);
-          intensity = (signed int)(return_value_pow$13 * 65535.0);
+          double return_value_pow_13;
+          return_value_pow_13=pow((double)i / 256.0, 0.8);
+          intensity = (signed int)(return_value_pow_13 * 65535.0);
           if(intensity >= 65536)
             intensity = 65535;
 
@@ -4807,8 +4807,8 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
         }
       }
 
-      return_value_get_pixel_resource$14=get_pixel_resource(it->dpy, it->colormap, "background", "Background");
-      gcv.background = (unsigned long int)return_value_get_pixel_resource$14;
+      return_value_get_pixel_resource_14=get_pixel_resource(it->dpy, it->colormap, "background", "Background");
+      gcv.background = (unsigned long int)return_value_get_pixel_resource_14;
       it->gc=XCreateGC(it->dpy, it->window, (unsigned long int)(1L << 3), &gcv);
       XSetWindowBackground(it->dpy, it->window, gcv.background);
       XClearWindow(dpy, window);
@@ -4868,68 +4868,68 @@ static void analogtv_blast_imagerow(const struct analogtv_s *it, float *rgbf, fl
     {
       level_copyfrom[(signed long int)level] = rowdata;
       {
-        _Bool tmp_if_expr$5;
+        _Bool tmp_if_expr_5;
         if(it->image->format == 2)
-          tmp_if_expr$5 = it->image->bits_per_pixel == 32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = it->image->bits_per_pixel == 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        _Bool tmp_if_expr$6;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        _Bool tmp_if_expr_6;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
-          unsigned int *analogtv_blast_imagerow$$1$$1$$2$$2$$pixelptr = (unsigned int *)rowdata;
-          unsigned int analogtv_blast_imagerow$$1$$1$$2$$2$$pix;
+          unsigned int *analogtv_blast_imagerow__1__1__2__2__pixelptr = (unsigned int *)rowdata;
+          unsigned int analogtv_blast_imagerow__1__1__2__2__pix;
           rpf = rgbf;
           for( ; !(rpf == rgbf_end); rpf = rpf + (signed long int)3)
           {
-            signed int analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri = (signed int)(rpf[(signed long int)0] * levelmult);
-            signed int analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi = (signed int)(rpf[(signed long int)1] * levelmult);
-            signed int analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi = (signed int)(rpf[(signed long int)2] * levelmult);
-            if(analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri >= 1024)
-              analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri = 1024 - 1;
+            signed int analogtv_blast_imagerow__1__1__2__2__1__ntscri = (signed int)(rpf[(signed long int)0] * levelmult);
+            signed int analogtv_blast_imagerow__1__1__2__2__1__ntscgi = (signed int)(rpf[(signed long int)1] * levelmult);
+            signed int analogtv_blast_imagerow__1__1__2__2__1__ntscbi = (signed int)(rpf[(signed long int)2] * levelmult);
+            if(analogtv_blast_imagerow__1__1__2__2__1__ntscri >= 1024)
+              analogtv_blast_imagerow__1__1__2__2__1__ntscri = 1024 - 1;
 
-            if(analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi >= 1024)
-              analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi = 1024 - 1;
+            if(analogtv_blast_imagerow__1__1__2__2__1__ntscgi >= 1024)
+              analogtv_blast_imagerow__1__1__2__2__1__ntscgi = 1024 - 1;
 
-            if(analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi >= 1024)
-              analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi = 1024 - 1;
+            if(analogtv_blast_imagerow__1__1__2__2__1__ntscbi >= 1024)
+              analogtv_blast_imagerow__1__1__2__2__1__ntscbi = 1024 - 1;
 
-            analogtv_blast_imagerow$$1$$1$$2$$2$$pix = it->red_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri] | it->green_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi] | it->blue_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi];
-            analogtv_blast_imagerow$$1$$1$$2$$2$$pixelptr[(signed long int)0] = analogtv_blast_imagerow$$1$$1$$2$$2$$pix;
+            analogtv_blast_imagerow__1__1__2__2__pix = it->red_values[(signed long int)analogtv_blast_imagerow__1__1__2__2__1__ntscri] | it->green_values[(signed long int)analogtv_blast_imagerow__1__1__2__2__1__ntscgi] | it->blue_values[(signed long int)analogtv_blast_imagerow__1__1__2__2__1__ntscbi];
+            analogtv_blast_imagerow__1__1__2__2__pixelptr[(signed long int)0] = analogtv_blast_imagerow__1__1__2__2__pix;
             if(xrepl >= 2)
             {
-              analogtv_blast_imagerow$$1$$1$$2$$2$$pixelptr[(signed long int)1] = analogtv_blast_imagerow$$1$$1$$2$$2$$pix;
+              analogtv_blast_imagerow__1__1__2__2__pixelptr[(signed long int)1] = analogtv_blast_imagerow__1__1__2__2__pix;
               if(xrepl >= 3)
-                analogtv_blast_imagerow$$1$$1$$2$$2$$pixelptr[(signed long int)2] = analogtv_blast_imagerow$$1$$1$$2$$2$$pix;
+                analogtv_blast_imagerow__1__1__2__2__pixelptr[(signed long int)2] = analogtv_blast_imagerow__1__1__2__2__pix;
 
             }
 
-            analogtv_blast_imagerow$$1$$1$$2$$2$$pixelptr = analogtv_blast_imagerow$$1$$1$$2$$2$$pixelptr + (signed long int)xrepl;
+            analogtv_blast_imagerow__1__1__2__2__pixelptr = analogtv_blast_imagerow__1__1__2__2__pixelptr + (signed long int)xrepl;
           }
         }
 
         else
         {
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if(it->image->format == 2)
-            tmp_if_expr$3 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          _Bool tmp_if_expr$4;
-          if(!(float_extraction_works == 0) && tmp_if_expr$3)
-            tmp_if_expr$4 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          _Bool tmp_if_expr_4;
+          if(!(float_extraction_works == 0) && tmp_if_expr_3)
+            tmp_if_expr_4 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
           {
-            unsigned short int *analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr = (unsigned short int *)rowdata;
+            unsigned short int *analogtv_blast_imagerow__1__1__2__3__pixelptr = (unsigned short int *)rowdata;
             float r2;
             float g2;
             float b2;
@@ -4947,59 +4947,59 @@ static void analogtv_blast_imagerow(const struct analogtv_s *it, float *rgbf, fl
               g1.f = (float)((double)(g2 * levelmult) + float_low8_ofs);
               b1.f = (float)((double)(b2 * levelmult) + float_low8_ofs);
               pix = (unsigned short int)(it->red_values[(signed long int)(r1.i & 0x3ff)] | it->green_values[(signed long int)(g1.i & 0x3ff)] | it->blue_values[(signed long int)(b1.i & 0x3ff)]);
-              analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr[(signed long int)0] = pix;
+              analogtv_blast_imagerow__1__1__2__3__pixelptr[(signed long int)0] = pix;
               if(xrepl >= 2)
               {
-                analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr[(signed long int)1] = pix;
+                analogtv_blast_imagerow__1__1__2__3__pixelptr[(signed long int)1] = pix;
                 if(xrepl >= 3)
-                  analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr[(signed long int)2] = pix;
+                  analogtv_blast_imagerow__1__1__2__3__pixelptr[(signed long int)2] = pix;
 
               }
 
-              analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr = analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr + (signed long int)xrepl;
+              analogtv_blast_imagerow__1__1__2__3__pixelptr = analogtv_blast_imagerow__1__1__2__3__pixelptr + (signed long int)xrepl;
             }
           }
 
           else
           {
-            _Bool tmp_if_expr$1;
+            _Bool tmp_if_expr_1;
             if(it->image->format == 2)
-              tmp_if_expr$1 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            _Bool tmp_if_expr$2;
-            if(tmp_if_expr$1)
-              tmp_if_expr$2 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = (_Bool)0;
+            _Bool tmp_if_expr_2;
+            if(tmp_if_expr_1)
+              tmp_if_expr_2 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
             {
               unsigned short int *pixelptr = (unsigned short int *)rowdata;
-              unsigned short int analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+              unsigned short int analogtv_blast_imagerow__1__1__2__4__pix;
               rpf = rgbf;
               for( ; !(rpf == rgbf_end); rpf = rpf + (signed long int)3)
               {
-                signed int analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1 = (signed int)(rpf[(signed long int)0] * levelmult);
-                signed int analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1 = (signed int)(rpf[(signed long int)1] * levelmult);
-                signed int analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1 = (signed int)(rpf[(signed long int)2] * levelmult);
-                if(analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1 >= 1024)
-                  analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1 = 1024 - 1;
+                signed int analogtv_blast_imagerow__1__1__2__4__1__r1 = (signed int)(rpf[(signed long int)0] * levelmult);
+                signed int analogtv_blast_imagerow__1__1__2__4__1__g1 = (signed int)(rpf[(signed long int)1] * levelmult);
+                signed int analogtv_blast_imagerow__1__1__2__4__1__b1 = (signed int)(rpf[(signed long int)2] * levelmult);
+                if(analogtv_blast_imagerow__1__1__2__4__1__r1 >= 1024)
+                  analogtv_blast_imagerow__1__1__2__4__1__r1 = 1024 - 1;
 
-                if(analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1 >= 1024)
-                  analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1 = 1024 - 1;
+                if(analogtv_blast_imagerow__1__1__2__4__1__g1 >= 1024)
+                  analogtv_blast_imagerow__1__1__2__4__1__g1 = 1024 - 1;
 
-                if(analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1 >= 1024)
-                  analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1 = 1024 - 1;
+                if(analogtv_blast_imagerow__1__1__2__4__1__b1 >= 1024)
+                  analogtv_blast_imagerow__1__1__2__4__1__b1 = 1024 - 1;
 
-                analogtv_blast_imagerow$$1$$1$$2$$4$$pix = (unsigned short int)(it->red_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1] | it->green_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1] | it->blue_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1]);
-                pixelptr[(signed long int)0] = analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+                analogtv_blast_imagerow__1__1__2__4__pix = (unsigned short int)(it->red_values[(signed long int)analogtv_blast_imagerow__1__1__2__4__1__r1] | it->green_values[(signed long int)analogtv_blast_imagerow__1__1__2__4__1__g1] | it->blue_values[(signed long int)analogtv_blast_imagerow__1__1__2__4__1__b1]);
+                pixelptr[(signed long int)0] = analogtv_blast_imagerow__1__1__2__4__pix;
                 if(xrepl >= 2)
                 {
-                  pixelptr[(signed long int)1] = analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+                  pixelptr[(signed long int)1] = analogtv_blast_imagerow__1__1__2__4__pix;
                   if(xrepl >= 3)
-                    pixelptr[(signed long int)2] = analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+                    pixelptr[(signed long int)2] = analogtv_blast_imagerow__1__1__2__4__pix;
 
                 }
 
@@ -5076,11 +5076,11 @@ static void analogtv_configure(struct analogtv_s *it)
     }
 
   height_diff = (hlim + 200 / 2) % 200 - 200 / 2;
-  double return_value_fabs$1;
+  double return_value_fabs_1;
   if(!(height_diff == 0))
   {
-    return_value_fabs$1=fabs((double)height_diff);
-    if(return_value_fabs$1 < (double)((float)hlim * height_snap))
+    return_value_fabs_1=fabs((double)height_diff);
+    if(return_value_fabs_1 < (double)((float)hlim * height_snap))
       hlim = hlim - height_diff;
 
   }
@@ -5139,18 +5139,18 @@ void analogtv_draw(struct analogtv_s *it, double noiselevel, const struct analog
     analogtv_sync(it);
     baseload = 0.5;
     it->crtload[(signed long int)(30 - 1)] = (float)baseload;
-    float return_value_puramp$1;
-    return_value_puramp$1=puramp(it, (float)2.0, (float)1.0, (float)1.3);
-    float return_value_puramp$2;
-    return_value_puramp$2=puramp(it, (float)2.0, (float)2.0, (float)1.1);
-    it->puheight = (float)((double)(return_value_puramp$1 * it->height_control) * (1.125 - 0.125 * (double)return_value_puramp$2));
+    float return_value_puramp_1;
+    return_value_puramp_1=puramp(it, (float)2.0, (float)1.0, (float)1.3);
+    float return_value_puramp_2;
+    return_value_puramp_2=puramp(it, (float)2.0, (float)2.0, (float)1.1);
+    it->puheight = (float)((double)(return_value_puramp_1 * it->height_control) * (1.125 - 0.125 * (double)return_value_puramp_2));
     analogtv_setup_levels(it, ((double)it->puheight * (double)it->useheight) / (double)200);
-    double return_value_cos$3;
-    return_value_cos$3=cos(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
-    it->tint_i = (float)-return_value_cos$3;
-    double return_value_sin$4;
-    return_value_sin$4=sin(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
-    it->tint_q = (float)return_value_sin$4;
+    double return_value_cos_3;
+    return_value_cos_3=cos(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
+    it->tint_i = (float)-return_value_cos_3;
+    double return_value_sin_4;
+    return_value_sin_4=sin(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
+    it->tint_q = (float)return_value_sin_4;
     lineno = 30;
     for( ; !(lineno >= 230); lineno = lineno + 1)
     {
@@ -5158,9 +5158,9 @@ void analogtv_draw(struct analogtv_s *it, double noiselevel, const struct analog
       signed int ytop;
       signed int ybot;
       unsigned int signal_offset;
-      signed int return_value_analogtv_get_line$5;
-      return_value_analogtv_get_line$5=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
-      if(!(return_value_analogtv_get_line$5 == 0))
+      signed int return_value_analogtv_get_line_5;
+      return_value_analogtv_get_line_5=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
+      if(!(return_value_analogtv_get_line_5 == 0))
       {
         if(lineno == it->shrinkpulse)
         {
@@ -5190,13 +5190,13 @@ void analogtv_draw(struct analogtv_s *it, double noiselevel, const struct analog
         for( ; !((unsigned int)i == frac); i = i + 1)
           totsignal = totsignal + p[(signed long int)i];
         totsignal = totsignal * it->agclevel;
-        float tmp_if_expr$6;
+        float tmp_if_expr_6;
         if(slineno >= 185)
-          tmp_if_expr$6 = (float)((slineno - 184) * (lineno - 184)) * 0.001f * it->squeezebottom;
+          tmp_if_expr_6 = (float)((slineno - 184) * (lineno - 184)) * 0.001f * it->squeezebottom;
 
         else
-          tmp_if_expr$6 = 0.0f;
-        ncl = (float)((double)(0.95f * it->crtload[(signed long int)(lineno - 1)]) + (double)0.05f * (baseload + (double)((totsignal - (float)30000) / 100000.0f) + (double)tmp_if_expr$6));
+          tmp_if_expr_6 = 0.0f;
+        ncl = (float)((double)(0.95f * it->crtload[(signed long int)(lineno - 1)]) + (double)0.05f * (baseload + (double)((totsignal - (float)30000) / 100000.0f) + (double)tmp_if_expr_6));
         it->crtload[(signed long int)lineno] = ncl;
       }
 
@@ -5321,9 +5321,9 @@ void analogtv_draw_string(struct analogtv_input_s *input, struct analogtv_font_s
 void analogtv_draw_string_centered(struct analogtv_input_s *input, struct analogtv_font_s *f, char *s, signed int x, signed int y, signed int *ntsc)
 {
   signed int width;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  width = (signed int)(return_value_strlen$1 * (unsigned long int)f->char_w * (unsigned long int)4);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  width = (signed int)(return_value_strlen_1 * (unsigned long int)f->char_w * (unsigned long int)4);
   x = x - width / 2;
   analogtv_draw_string(input, f, s, x, y, ntsc);
 }
@@ -5346,7 +5346,7 @@ void analogtv_draw_xpm(struct analogtv_s *tv, struct analogtv_input_s *input, co
   signed int nbytes;
   char dummyc;
   /* tag-#anon#lST[S32'r'|S32'g'|S32'b'] */
-struct anonymous$10
+struct anonymous_10
 {
   // r
   signed int r;
@@ -5358,10 +5358,10 @@ struct anonymous$10
 
 /* */
   ;
-  struct anonymous$10 cmap[256l];
-  signed int return_value___isoc99_sscanf$1;
-  return_value___isoc99_sscanf$1=__isoc99_sscanf((const char *)*xpm, "%d %d %d %d %c", &xpmw, &xpmh, &ncolors, &nbytes, &dummyc);
-  if(!(return_value___isoc99_sscanf$1 == 4))
+  struct anonymous_10 cmap[256l];
+  signed int return_value___isoc99_sscanf_1;
+  return_value___isoc99_sscanf_1=__isoc99_sscanf((const char *)*xpm, "%d %d %d %d %c", &xpmw, &xpmh, &ncolors, &nbytes, &dummyc);
+  if(!(return_value___isoc99_sscanf_1 == 4))
     abort();
 
   if(ncolors >= 256 || !(ncolors >= 1))
@@ -5374,21 +5374,21 @@ struct anonymous$10
   i = 0;
   for( ; !(i >= ncolors); i = i + 1)
   {
-    const char *analogtv_draw_xpm$$1$$1$$line = *xpm;
+    const char *analogtv_draw_xpm__1__1__line = *xpm;
     signed int colori;
-    const char *tmp_post$2 = analogtv_draw_xpm$$1$$1$$line;
-    analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l;
-    colori = (signed int)(unsigned char)*tmp_post$2 & 0xff;
-    while(!(*analogtv_draw_xpm$$1$$1$$line == 0))
+    const char *tmp_post_2 = analogtv_draw_xpm__1__1__line;
+    analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l;
+    colori = (signed int)(unsigned char)*tmp_post_2 & 0xff;
+    while(!(*analogtv_draw_xpm__1__1__line == 0))
     {
       signed int r;
       signed int g;
       signed int b;
       char which;
-      for( ; (_Bool)1; analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l)
-        if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 32))
+      for( ; (_Bool)1; analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l)
+        if(!((signed int)*analogtv_draw_xpm__1__1__line == 32))
         {
-          if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 9))
+          if(!((signed int)*analogtv_draw_xpm__1__1__line == 9))
             goto __CPROVER_DUMP_L8;
 
         }
@@ -5396,16 +5396,16 @@ struct anonymous$10
 
     __CPROVER_DUMP_L8:
       ;
-      const char *tmp_post$3 = analogtv_draw_xpm$$1$$1$$line;
-      analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l;
-      which = *tmp_post$3;
+      const char *tmp_post_3 = analogtv_draw_xpm__1__1__line;
+      analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l;
+      which = *tmp_post_3;
       if(!((signed int)which == 99) && !((signed int)which == 109))
         abort();
 
-      for( ; (_Bool)1; analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l)
-        if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 32))
+      for( ; (_Bool)1; analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l)
+        if(!((signed int)*analogtv_draw_xpm__1__1__line == 32))
         {
-          if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 9))
+          if(!((signed int)*analogtv_draw_xpm__1__1__line == 9))
             goto __CPROVER_DUMP_L11;
 
         }
@@ -5413,27 +5413,27 @@ struct anonymous$10
 
     __CPROVER_DUMP_L11:
       ;
-      signed int return_value_strncasecmp$4;
-      return_value_strncasecmp$4=strncasecmp(analogtv_draw_xpm$$1$$1$$line, "None", (unsigned long int)4);
-      if(return_value_strncasecmp$4 == 0)
+      signed int return_value_strncasecmp_4;
+      return_value_strncasecmp_4=strncasecmp(analogtv_draw_xpm__1__1__line, "None", (unsigned long int)4);
+      if(return_value_strncasecmp_4 == 0)
       {
         b = -1;
         g = b;
         r = g;
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)4;
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)4;
       }
 
       else
       {
-        if((signed int)*analogtv_draw_xpm$$1$$1$$line == 35)
-          analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l;
+        if((signed int)*analogtv_draw_xpm__1__1__line == 35)
+          analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l;
 
-        r = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)1]];
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)2;
-        g = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)1]];
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)2;
-        b = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)1]];
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)2;
+        r = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)1]];
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)2;
+        g = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)1]];
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)2;
+        b = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)1]];
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)2;
       }
       if((signed int)which == 99)
       {
@@ -5449,9 +5449,9 @@ struct anonymous$10
   for( ; !(y >= xpmh); y = y + 1)
   {
     const char *line;
-    const char * const *tmp_post$5 = xpm;
+    const char * const *tmp_post_5 = xpm;
     xpm = xpm + 1l;
-    line = *tmp_post$5;
+    line = *tmp_post_5;
     tvy = y + top;
     if(!(tvy >= 230) && tvy >= 30)
     {
@@ -5496,24 +5496,24 @@ struct anonymous$10
 // file analogtv.c line 2280
 signed int analogtv_font_pixel(struct analogtv_font_s *f, signed int c, signed int x, signed int y)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(x >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(y >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 0;
 
     else
@@ -5563,21 +5563,21 @@ __CPROVER_DUMP_L7:
 // file analogtv.c line 2289
 void analogtv_font_set_pixel(struct analogtv_font_s *f, signed int c, signed int x, signed int y, signed int value)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(x >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(y >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       if(!(c >= 256) && c >= 0)
         f->text_im->f.put_pixel(f->text_im, c * f->char_w + x, y, (unsigned long int)value);
@@ -5621,13 +5621,13 @@ static signed int analogtv_get_line(const struct analogtv_s *it, signed int line
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(*ybot >= 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = *ytop > it->useheight ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = *ytop > it->useheight ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
@@ -5685,9 +5685,9 @@ static void analogtv_init_signal(const struct analogtv_s *it, double noiselevel,
   float nm1;
   float nm2;
   float noisemul;
-  double return_value_sqrt$1;
-  return_value_sqrt$1=sqrt(noiselevel * (double)150);
-  noisemul = (float)(return_value_sqrt$1 / (double)(float)0x7fffffff);
+  double return_value_sqrt_1;
+  return_value_sqrt_1=sqrt(noiselevel * (double)150);
+  noisemul = (float)(return_value_sqrt_1 / (double)(float)0x7fffffff);
   fastrnd_offset = fastrnd - (unsigned int)0x7fffffff;
   nm1 = (float)(fastrnd_offset <= (unsigned int)0x7fffffff ? (signed int)fastrnd_offset : -1 - (signed int)(((unsigned int)0x7fffffff * 2U + 1U) - fastrnd_offset)) * noisemul;
   while(!(p == pe))
@@ -5696,9 +5696,9 @@ static void analogtv_init_signal(const struct analogtv_s *it, double noiselevel,
     fastrnd = fastrnd * (unsigned int)1103515245 + (unsigned int)12345 & 0xffffffffu;
     fastrnd_offset = fastrnd - (unsigned int)0x7fffffff;
     nm1 = (float)(fastrnd_offset <= (unsigned int)0x7fffffff ? (signed int)fastrnd_offset : -1 - (signed int)(((unsigned int)0x7fffffff * 2U + 1U) - fastrnd_offset)) * noisemul;
-    float *tmp_post$2 = p;
+    float *tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = nm1 * nm2;
+    *tmp_post_2 = nm1 * nm2;
   }
 }
 
@@ -5707,9 +5707,9 @@ static void analogtv_init_signal(const struct analogtv_s *it, double noiselevel,
 struct analogtv_input_s * analogtv_input_allocate(void)
 {
   struct analogtv_input_s *ret;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct analogtv_input_s) /*239888ul*/ );
-  ret = (struct analogtv_input_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct analogtv_input_s) /*239888ul*/ );
+  ret = (struct analogtv_input_s *)return_value_calloc_1;
   return ret;
 }
 
@@ -5722,9 +5722,9 @@ void analogtv_lcp_to_ntsc(double luma, double chroma, double phase, signed int *
   {
     double w = 90.0 * (double)i + phase;
     double val;
-    double return_value_cos$1;
-    return_value_cos$1=cos((3.1415926 / 180.0) * w);
-    val = luma + chroma * return_value_cos$1;
+    double return_value_cos_1;
+    return_value_cos_1=cos((3.1415926 / 180.0) * w);
+    val = luma + chroma * return_value_cos_1;
     if(val < 0.0)
       val = 0.0;
 
@@ -5782,10 +5782,10 @@ static signed int analogtv_level(const struct analogtv_s *it, signed int y, sign
 // file analogtv.c line 1115
 static double analogtv_levelmult(const struct analogtv_s *it, signed int level)
 {
-  float return_value_puramp$1;
-  return_value_puramp$1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
+  float return_value_puramp_1;
+  return_value_puramp_1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
   static const double levelfac[3l] = { -7.5, 5.5, 24.5 };
-  return (40.0 + levelfac[(signed long int)level] * (double)return_value_puramp$1) / 256.0;
+  return (40.0 + levelfac[(signed long int)level] * (double)return_value_puramp_1) / 256.0;
 }
 
 // analogtv_load_random_image
@@ -5820,8 +5820,8 @@ signed int analogtv_load_ximage(struct analogtv_s *it, struct analogtv_input_s *
   signed int fiy[4l];
   signed int fqx[4l];
   signed int fqy[4l];
-  struct anonymous$12 col1[755l];
-  struct anonymous$12 col2[755l];
+  struct anonymous_12 col1[755l];
+  struct anonymous_12 col2[755l];
   signed int multiq[759l];
   signed int y_overscan = 5;
   signed int y_scanlength = 200 + 2 * y_overscan;
@@ -5832,9 +5832,9 @@ signed int analogtv_load_ximage(struct analogtv_s *it, struct analogtv_input_s *
   {
     double phase = 90.0 - 90.0 * (double)i;
     double ampl = 1.0;
-    double return_value_cos$1;
-    return_value_cos$1=cos((3.1415926 / 180.0) * (phase - (double)303));
-    multiq[(signed long int)i] = (signed int)(-return_value_cos$1 * 4096.0 * ampl);
+    double return_value_cos_1;
+    return_value_cos_1=cos((3.1415926 / 180.0) * (phase - (double)303));
+    multiq[(signed long int)i] = (signed int)(-return_value_cos_1 * 4096.0 * ampl);
   }
   y = 0;
   for( ; !(y >= y_scanlength); y = y + 1)
@@ -5931,25 +5931,25 @@ signed int analogtv_load_ximage(struct analogtv_s *it, struct analogtv_input_s *
 void analogtv_make_font(struct _XDisplay *dpy, unsigned long int window, struct analogtv_font_s *f, signed int w, signed int h, char *fontname)
 {
   signed int i;
-  struct anonymous$2 *font;
+  struct anonymous_2 *font;
   unsigned long int text_pm;
   struct _XGC *gc;
-  struct anonymous$8 gcv;
-  struct anonymous$9 xgwa;
+  struct anonymous_8 gcv;
+  struct anonymous_9 xgwa;
   f->char_w = w;
   f->char_h = h;
   XGetWindowAttributes(dpy, window, &xgwa);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   if(!(fontname == ((char *)NULL)))
   {
-    return_value_strcmp$2=strcmp(fontname, "6x10");
-    tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(fontname, "6x10");
+    tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     text_pm=XCreatePixmapFromBitmapData(dpy, window, (char *)font6x10_bits, (unsigned int)1792, (unsigned int)10, (unsigned long int)1, (unsigned long int)0, (unsigned int)1);
     f->text_im=XGetImage(dpy, text_pm, 0, 0, (unsigned int)1792, (unsigned int)10, (unsigned long int)1, 1);
@@ -5960,14 +5960,14 @@ void analogtv_make_font(struct _XDisplay *dpy, unsigned long int window, struct 
     if(!(fontname == ((char *)NULL)))
     {
       font=XLoadQueryFont(dpy, fontname);
-      if(font == ((struct anonymous$2 *)NULL))
+      if(font == ((struct anonymous_2 *)NULL))
       {
         fprintf(stderr, "analogtv: can't load font %s\n", fontname);
         abort();
       }
 
       text_pm=XCreatePixmap(dpy, window, (unsigned int)(256 * f->char_w), (unsigned int)f->char_h, (unsigned int)1);
-      memset((void *)&gcv, 0, sizeof(struct anonymous$8) /*128ul*/ );
+      memset((void *)&gcv, 0, sizeof(struct anonymous_8) /*128ul*/ );
       gcv.foreground = (unsigned long int)1;
       gcv.background = (unsigned long int)0;
       gcv.font = font->fid;
@@ -5991,9 +5991,9 @@ void analogtv_make_font(struct _XDisplay *dpy, unsigned long int window, struct 
     else
     {
       f->text_im=XCreateImage(dpy, xgwa.visual, (unsigned int)1, 1, 0, ((char *)NULL), (unsigned int)(256 * f->char_w), (unsigned int)f->char_h, 8, 0);
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)f->text_im->height, (unsigned long int)f->text_im->bytes_per_line);
-      f->text_im->data = (char *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)f->text_im->height, (unsigned long int)f->text_im->bytes_per_line);
+      f->text_im->data = (char *)return_value_calloc_1;
     }
   f->x_mult = 4;
   f->y_mult = 2;
@@ -6095,27 +6095,27 @@ void analogtv_reception_update(struct analogtv_reception_s *rec)
     i = 0;
     for( ; !(i >= 4); i = i + 1)
     {
-      double tmp_statement_expression$1;
-      double analogtv_reception_update$$1$$1$$1$$1$$tmp;
-      unsigned int return_value_ya_random$2;
-      return_value_ya_random$2=ya_random();
-      analogtv_reception_update$$1$$1$$1$$1$$tmp = ((double)return_value_ya_random$2 * (double)0.02) / (double)(unsigned int)~0;
-      tmp_statement_expression$1 = analogtv_reception_update$$1$$1$$1$$1$$tmp < (double)0 ? -analogtv_reception_update$$1$$1$$1$$1$$tmp : analogtv_reception_update$$1$$1$$1$$1$$tmp;
-      rec->ghostfir2[(signed long int)i] = rec->ghostfir2[(signed long int)i] + -(rec->ghostfir2[(signed long int)i] / 16.0) + rec->multipath * (tmp_statement_expression$1 - 0.01);
+      double tmp_statement_expression_1;
+      double analogtv_reception_update__1__1__1__1__tmp;
+      unsigned int return_value_ya_random_2;
+      return_value_ya_random_2=ya_random();
+      analogtv_reception_update__1__1__1__1__tmp = ((double)return_value_ya_random_2 * (double)0.02) / (double)(unsigned int)~0;
+      tmp_statement_expression_1 = analogtv_reception_update__1__1__1__1__tmp < (double)0 ? -analogtv_reception_update__1__1__1__1__tmp : analogtv_reception_update__1__1__1__1__tmp;
+      rec->ghostfir2[(signed long int)i] = rec->ghostfir2[(signed long int)i] + -(rec->ghostfir2[(signed long int)i] / 16.0) + rec->multipath * (tmp_statement_expression_1 - 0.01);
     }
-    unsigned int return_value_ya_random$6;
-    return_value_ya_random$6=ya_random();
-    if(return_value_ya_random$6 % 20u == 0u)
+    unsigned int return_value_ya_random_6;
+    return_value_ya_random_6=ya_random();
+    if(return_value_ya_random_6 % 20u == 0u)
     {
-      unsigned int return_value_ya_random$3;
-      return_value_ya_random$3=ya_random();
-      double tmp_statement_expression$4;
+      unsigned int return_value_ya_random_3;
+      return_value_ya_random_3=ya_random();
+      double tmp_statement_expression_4;
       double tmp;
-      unsigned int return_value_ya_random$5;
-      return_value_ya_random$5=ya_random();
-      tmp = ((double)return_value_ya_random$5 * (double)0.08) / (double)(unsigned int)~0;
-      tmp_statement_expression$4 = tmp < (double)0 ? -tmp : tmp;
-      rec->ghostfir2[(signed long int)(return_value_ya_random$3 % (unsigned int)4)] = rec->multipath * (tmp_statement_expression$4 - 0.04);
+      unsigned int return_value_ya_random_5;
+      return_value_ya_random_5=ya_random();
+      tmp = ((double)return_value_ya_random_5 * (double)0.08) / (double)(unsigned int)~0;
+      tmp_statement_expression_4 = tmp < (double)0 ? -tmp : tmp;
+      rec->ghostfir2[(signed long int)(return_value_ya_random_3 % (unsigned int)4)] = rec->multipath * (tmp_statement_expression_4 - 0.04);
     }
 
     i = 0;
@@ -6177,21 +6177,21 @@ void analogtv_set_defaults(struct analogtv_s *it, char *prefix)
 {
   char buf[256l];
   sprintf(buf, "%sTVTint", prefix);
-  double return_value_get_float_resource$1;
-  return_value_get_float_resource$1=get_float_resource(it->dpy, buf, "TVTint");
-  it->tint_control = (float)return_value_get_float_resource$1;
+  double return_value_get_float_resource_1;
+  return_value_get_float_resource_1=get_float_resource(it->dpy, buf, "TVTint");
+  it->tint_control = (float)return_value_get_float_resource_1;
   sprintf(buf, "%sTVColor", prefix);
-  double return_value_get_float_resource$2;
-  return_value_get_float_resource$2=get_float_resource(it->dpy, buf, "TVColor");
-  it->color_control = (float)(return_value_get_float_resource$2 / 100.0);
+  double return_value_get_float_resource_2;
+  return_value_get_float_resource_2=get_float_resource(it->dpy, buf, "TVColor");
+  it->color_control = (float)(return_value_get_float_resource_2 / 100.0);
   sprintf(buf, "%sTVBrightness", prefix);
-  double return_value_get_float_resource$3;
-  return_value_get_float_resource$3=get_float_resource(it->dpy, buf, "TVBrightness");
-  it->brightness_control = (float)(return_value_get_float_resource$3 / 100.0);
+  double return_value_get_float_resource_3;
+  return_value_get_float_resource_3=get_float_resource(it->dpy, buf, "TVBrightness");
+  it->brightness_control = (float)(return_value_get_float_resource_3 / 100.0);
   sprintf(buf, "%sTVContrast", prefix);
-  double return_value_get_float_resource$4;
-  return_value_get_float_resource$4=get_float_resource(it->dpy, buf, "TVContrast");
-  it->contrast_control = (float)(return_value_get_float_resource$4 / 100.0);
+  double return_value_get_float_resource_4;
+  return_value_get_float_resource_4=get_float_resource(it->dpy, buf, "TVContrast");
+  it->contrast_control = (float)(return_value_get_float_resource_4 / 100.0);
   it->height_control = (float)1.0;
   it->width_control = (float)1.0;
   it->squish_control = (float)0.0;
@@ -6199,20 +6199,20 @@ void analogtv_set_defaults(struct analogtv_s *it, char *prefix)
   it->hashnoise_rpm = (double)0;
   it->hashnoise_on = 0;
   it->hashnoise_enable = 1;
-  double tmp_statement_expression$5;
+  double tmp_statement_expression_5;
   double tmp;
-  unsigned int return_value_ya_random$6;
-  return_value_ya_random$6=ya_random();
-  tmp = ((double)return_value_ya_random$6 * (double)10.0) / (double)(unsigned int)~0;
-  tmp_statement_expression$5 = tmp < (double)0 ? -tmp : tmp;
-  it->horiz_desync = (float)(tmp_statement_expression$5 - 5.0);
-  double tmp_statement_expression$7;
-  double analogtv_set_defaults$$1$$2$$tmp;
-  unsigned int return_value_ya_random$8;
-  return_value_ya_random$8=ya_random();
-  analogtv_set_defaults$$1$$2$$tmp = ((double)return_value_ya_random$8 * (double)5.0) / (double)(unsigned int)~0;
-  tmp_statement_expression$7 = analogtv_set_defaults$$1$$2$$tmp < (double)0 ? -analogtv_set_defaults$$1$$2$$tmp : analogtv_set_defaults$$1$$2$$tmp;
-  it->squeezebottom = (float)(tmp_statement_expression$7 - 1.0);
+  unsigned int return_value_ya_random_6;
+  return_value_ya_random_6=ya_random();
+  tmp = ((double)return_value_ya_random_6 * (double)10.0) / (double)(unsigned int)~0;
+  tmp_statement_expression_5 = tmp < (double)0 ? -tmp : tmp;
+  it->horiz_desync = (float)(tmp_statement_expression_5 - 5.0);
+  double tmp_statement_expression_7;
+  double analogtv_set_defaults__1__2__tmp;
+  unsigned int return_value_ya_random_8;
+  return_value_ya_random_8=ya_random();
+  analogtv_set_defaults__1__2__tmp = ((double)return_value_ya_random_8 * (double)5.0) / (double)(unsigned int)~0;
+  tmp_statement_expression_7 = analogtv_set_defaults__1__2__tmp < (double)0 ? -analogtv_set_defaults__1__2__tmp : analogtv_set_defaults__1__2__tmp;
+  it->squeezebottom = (float)(tmp_statement_expression_7 - 1.0);
 }
 
 // analogtv_set_demod
@@ -6235,8 +6235,8 @@ cmap_again:
   signed int r;
   signed int g;
   signed int b;
-  struct anonymous$12 col;
-  signed int return_value_XAllocColor$1;
+  struct anonymous_12 col;
+  signed int return_value_XAllocColor_1;
   while((_Bool)1)
   {
     if(it->use_cmap == 0)
@@ -6301,8 +6301,8 @@ cmap_again:
     col.green = (unsigned short int)g;
     col.blue = (unsigned short int)b;
     col.pixel = (unsigned long int)0;
-    return_value_XAllocColor$1=XAllocColor(it->dpy, it->colormap, &col);
-    if(!(return_value_XAllocColor$1 == 0))
+    return_value_XAllocColor_1=XAllocColor(it->dpy, it->colormap, &col);
+    if(!(return_value_XAllocColor_1 == 0))
       break;
 
     if(!((4 * y_levels) / 12 >= q_levels))
@@ -6318,9 +6318,9 @@ cmap_again:
       return -1;
 
   }
-  signed int tmp_post$2 = it->n_colors;
+  signed int tmp_post_2 = it->n_colors;
   it->n_colors = it->n_colors + 1;
-  it->colors[(signed long int)tmp_post$2] = col.pixel;
+  it->colors[(signed long int)tmp_post_2] = col.pixel;
   qli = qli + 1;
   goto __CPROVER_DUMP_L5;
 
@@ -6352,36 +6352,36 @@ void analogtv_setup_frame(struct analogtv_s *it)
   it->redraw_all = 0;
   if(!(it->flutter_horiz_desync == 0))
   {
-    unsigned int return_value_ya_random$1;
-    return_value_ya_random$1=ya_random();
-    unsigned int return_value_ya_random$2;
-    return_value_ya_random$2=ya_random();
-    unsigned int return_value_ya_random$3;
-    return_value_ya_random$3=ya_random();
-    it->horiz_desync = it->horiz_desync + (float)(-0.10 * ((double)it->horiz_desync - 3.0) + (double)(((signed int)(return_value_ya_random$1 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random$2 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random$3 & (unsigned int)0xff) - 0x80)) * 0.000001);
+    unsigned int return_value_ya_random_1;
+    return_value_ya_random_1=ya_random();
+    unsigned int return_value_ya_random_2;
+    return_value_ya_random_2=ya_random();
+    unsigned int return_value_ya_random_3;
+    return_value_ya_random_3=ya_random();
+    it->horiz_desync = it->horiz_desync + (float)(-0.10 * ((double)it->horiz_desync - 3.0) + (double)(((signed int)(return_value_ya_random_1 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random_2 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random_3 & (unsigned int)0xff) - 0x80)) * 0.000001);
   }
 
   if(!(it->hashnoise_enable == 0))
   {
     if(it->hashnoise_on == 0)
     {
-      unsigned int return_value_ya_random$5;
-      return_value_ya_random$5=ya_random();
-      if(return_value_ya_random$5 % 10000u == 0u)
+      unsigned int return_value_ya_random_5;
+      return_value_ya_random_5=ya_random();
+      if(return_value_ya_random_5 % 10000u == 0u)
       {
         it->hashnoise_on = 1;
-        unsigned int return_value_ya_random$4;
-        return_value_ya_random$4=ya_random();
-        it->shrinkpulse = (signed int)(return_value_ya_random$4 % (unsigned int)262);
+        unsigned int return_value_ya_random_4;
+        return_value_ya_random_4=ya_random();
+        it->shrinkpulse = (signed int)(return_value_ya_random_4 % (unsigned int)262);
       }
 
     }
 
   }
 
-  unsigned int return_value_ya_random$6;
-  return_value_ya_random$6=ya_random();
-  if(return_value_ya_random$6 % 1000u == 0u)
+  unsigned int return_value_ya_random_6;
+  return_value_ya_random_6=ya_random();
+  if(return_value_ya_random_6 % 1000u == 0u)
     it->hashnoise_on = 0;
 
   if(IEEE_FLOAT_NOTEQUAL(it->rx_signal_level, 0.0))
@@ -6421,10 +6421,10 @@ static void analogtv_setup_levels(struct analogtv_s *it, double avgheight)
     i = 0;
     for( ; !(i >= height); i = i + 1)
     {
-      float return_value_puramp$1;
-      return_value_puramp$1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
+      float return_value_puramp_1;
+      return_value_puramp_1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
       static const double levelfac[3l] = { -7.5, 5.5, 24.5 };
-      it->leveltable[(signed long int)height][(signed long int)i].value = (40.0 + levelfac[(signed long int)it->leveltable[(signed long int)height][(signed long int)i].index] * (double)return_value_puramp$1) / 256.0;
+      it->leveltable[(signed long int)height][(signed long int)i].value = (40.0 + levelfac[(signed long int)it->leveltable[(signed long int)height][(signed long int)i].index] * (double)return_value_puramp_1) / 256.0;
     }
   }
 }
@@ -6448,15 +6448,15 @@ void analogtv_setup_sync(struct analogtv_input_s *input, signed int do_cb, signe
     {
       while(!(i >= 67))
       {
-        signed int tmp_post$1 = i;
+        signed int tmp_post_1 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$1] = (signed char)0;
+        sig[(signed long int)tmp_post_1] = (signed char)0;
       }
       while(!(i >= 912))
       {
-        signed int tmp_post$2 = i;
+        signed int tmp_post_2 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$2] = (signed char)synclevel;
+        sig[(signed long int)tmp_post_2] = (signed char)synclevel;
       }
     }
 
@@ -6464,28 +6464,28 @@ void analogtv_setup_sync(struct analogtv_input_s *input, signed int do_cb, signe
     {
       while(!(i >= 67))
       {
-        signed int tmp_post$3 = i;
+        signed int tmp_post_3 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$3] = (signed char)synclevel;
+        sig[(signed long int)tmp_post_3] = (signed char)synclevel;
       }
       while(!(i >= 135))
       {
-        signed int tmp_post$4 = i;
+        signed int tmp_post_4 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$4] = (signed char)0;
+        sig[(signed long int)tmp_post_4] = (signed char)0;
       }
       while(!(i >= 890))
       {
-        signed int tmp_post$5 = i;
+        signed int tmp_post_5 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$5] = (signed char)10;
+        sig[(signed long int)tmp_post_5] = (signed char)10;
       }
     }
     while(!(i >= 912))
     {
-      signed int tmp_post$6 = i;
+      signed int tmp_post_6 = i;
       i = i + 1;
-      sig[(signed long int)tmp_post$6] = (signed char)0;
+      sig[(signed long int)tmp_post_6] = (signed char)0;
     }
     if(!(do_cb == 0))
     {
@@ -6515,9 +6515,9 @@ void analogtv_setup_teletext(struct analogtv_input_s *input)
     {
       if((7 & x) == 0)
       {
-        unsigned int return_value_ya_random$1;
-        return_value_ya_random$1=ya_random();
-        teletext = (return_value_ya_random$1 & (unsigned int)1) != 0u ? 100 : 10;
+        unsigned int return_value_ya_random_1;
+        return_value_ya_random_1=ya_random();
+        teletext = (return_value_ya_random_1 & (unsigned int)1) != 0u ? 100 : 10;
       }
 
       input->signal[(signed long int)y][(signed long int)x] = (signed char)teletext;
@@ -6590,9 +6590,9 @@ static void analogtv_sync(struct analogtv_s *it)
     i = 0;
     for( ; !(i >= 4); i = i + 1)
       tot = tot + (float)(it->cb_phase[(signed long int)i] * it->cb_phase[(signed long int)i]);
-    float return_value_sqrtf$1;
-    return_value_sqrtf$1=sqrtf(tot);
-    cbgain = 32.0f / return_value_sqrtf$1;
+    float return_value_sqrtf_1;
+    return_value_sqrtf_1=sqrtf(tot);
+    cbgain = 32.0f / return_value_sqrtf_1;
     i = 0;
     for( ; !(i >= 4); i = i + 1)
       it->line_cb_phase[(signed long int)lineno][(signed long int)i] = it->cb_phase[(signed long int)i] * (double)cbgain;
@@ -6622,13 +6622,13 @@ static void analogtv_thread_add_signals(void *thread_raw)
     i = (unsigned int)0;
     for( ; !(i == it->rec_count); i = i + 1u)
     {
-      signed int tmp_if_expr$1;
+      signed int tmp_if_expr_1;
       if(i == 0u)
-        tmp_if_expr$1 = it->channel_change_cycles;
+        tmp_if_expr_1 = it->channel_change_cycles;
 
       else
-        tmp_if_expr$1 = 0;
-      analogtv_add_signal(it, it->recs[(signed long int)i], start, end, tmp_if_expr$1);
+        tmp_if_expr_1 = 0;
+      analogtv_add_signal(it, it->recs[(signed long int)i], start, end, tmp_if_expr_1);
     }
     /* assertion !(start % 32) */
     assert(!(start % (unsigned int)32 != 0u));
@@ -6658,21 +6658,21 @@ static signed int analogtv_thread_create(void *thread_raw, struct threadpool *th
   unsigned int align;
   thread->it = (struct analogtv_s *)((char *)threads - (signed long int)160ul);
   thread->thread_id = thread_id;
-  unsigned int return_value_thread_memory_alignment$1;
-  return_value_thread_memory_alignment$1=thread_memory_alignment(thread->it->dpy);
-  align = (unsigned int)((unsigned long int)return_value_thread_memory_alignment$1 / sizeof(float) /*4ul*/ );
+  unsigned int return_value_thread_memory_alignment_1;
+  return_value_thread_memory_alignment_1=thread_memory_alignment(thread->it->dpy);
+  align = (unsigned int)((unsigned long int)return_value_thread_memory_alignment_1 / sizeof(float) /*4ul*/ );
   if(align == 0u)
     align = (unsigned int)1;
 
   align = ~(align * (unsigned int)32 - (unsigned int)1);
   thread->signal_start = (unsigned long int)(((unsigned int)238944 * thread_id) / threads->count & align);
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(1u + thread_id == threads->count)
-    tmp_if_expr$2 = (unsigned int)238944;
+    tmp_if_expr_2 = (unsigned int)238944;
 
   else
-    tmp_if_expr$2 = ((unsigned int)238944 * (thread_id + (unsigned int)1)) / threads->count & align;
-  thread->signal_end = (unsigned long int)tmp_if_expr$2;
+    tmp_if_expr_2 = ((unsigned int)238944 * (thread_id + (unsigned int)1)) / threads->count & align;
+  thread->signal_end = (unsigned long int)tmp_if_expr_2;
   return 0;
 }
 
@@ -6692,9 +6692,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
   signed int lineno;
   float *raw_rgb_start;
   float *raw_rgb_end;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(it->subwidth * 3), sizeof(float) /*4ul*/ );
-  raw_rgb_start = (float *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(it->subwidth * 3), sizeof(float) /*4ul*/ );
+  raw_rgb_start = (float *)return_value_calloc_1;
   if(!(raw_rgb_start == ((float *)NULL)))
   {
     raw_rgb_end = raw_rgb_start + (signed long int)(3 * it->subwidth);
@@ -6721,9 +6721,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
       signed int pixmultinc;
       float *rrp;
       struct analogtv_yiq_s yiq[765l];
-      signed int return_value_analogtv_get_line$2;
-      return_value_analogtv_get_line$2=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
-      if(!(return_value_analogtv_get_line$2 == 0))
+      signed int return_value_analogtv_get_line_2;
+      return_value_analogtv_get_line_2=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
+      if(!(return_value_analogtv_get_line_2 == 0))
       {
         signal = it->rx_signal + (signed long int)signal_offset;
         float bloomthisrow;
@@ -6743,20 +6743,20 @@ static void analogtv_thread_draw_lines(void *thread_raw)
 
         if(!(slineno >= 16))
         {
-          float return_value_expf$3;
-          return_value_expf$3=expf(-0.17f * (float)slineno);
-          float return_value_cosf$4;
-          return_value_cosf$4=cosf((float)slineno * 0.6f);
-          shiftthisrow = it->horiz_desync * return_value_expf$3 * (0.7f + return_value_cosf$4);
+          float return_value_expf_3;
+          return_value_expf_3=expf(-0.17f * (float)slineno);
+          float return_value_cosf_4;
+          return_value_cosf_4=cosf((float)slineno * 0.6f);
+          shiftthisrow = it->horiz_desync * return_value_expf_3 * (0.7f + return_value_cosf_4);
         }
 
         else
           shiftthisrow = 0.0f;
         viswidth = (float)755 * 0.79f - 5.0f * bloomthisrow;
         middle = (float)(755 / 2) - shiftthisrow;
-        float return_value_puramp$5;
-        return_value_puramp$5=puramp(it, 0.5f, 0.3f, 1.0f);
-        scanwidth = it->width_control * return_value_puramp$5;
+        float return_value_puramp_5;
+        return_value_puramp_5=puramp(it, 0.5f, 0.3f, 1.0f);
+        scanwidth = it->width_control * return_value_puramp_5;
         scw = (signed int)((float)it->subwidth * scanwidth);
         if(!(it->subwidth >= scw))
           scw = it->usewidth;
@@ -6766,9 +6766,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
         pixrate = (signed int)((float)(signed int)((viswidth * 65536.0f * 1.0f) / (float)it->subwidth) / scanwidth);
         scanstart_i = (signed int)((middle - viswidth * 0.5f) * 65536.0f);
         scanend_i = (755 - 1) * 65536;
-        float return_value_puramp$6;
-        return_value_puramp$6=puramp(it, 2.0f, 0.0f, 1.1f);
-        squishright_i = (signed int)((middle + viswidth * ((0.25f + 0.25f * return_value_puramp$6) - it->squish_control)) * 65536.0f);
+        float return_value_puramp_6;
+        return_value_puramp_6=puramp(it, 2.0f, 0.0f, 1.1f);
+        squishright_i = (signed int)((middle + viswidth * ((0.25f + 0.25f * return_value_puramp_6) - it->squish_control)) * 65536.0f);
         squishdiv = it->subwidth / 15;
         rgb_start = raw_rgb_start + (signed long int)(scl * 3);
         rgb_end = raw_rgb_start + (signed long int)(scr * 3);
@@ -6782,13 +6782,13 @@ static void analogtv_thread_draw_lines(void *thread_raw)
             signed int level;
             level=analogtv_level(it, y, ytop, ybot);
             float levelmult;
-            double return_value_analogtv_levelmult$7;
-            return_value_analogtv_levelmult$7=analogtv_levelmult(it, level);
-            levelmult = (float)return_value_analogtv_levelmult$7;
+            double return_value_analogtv_levelmult_7;
+            return_value_analogtv_levelmult_7=analogtv_levelmult(it, level);
+            levelmult = (float)return_value_analogtv_levelmult_7;
             float levelmult_y;
-            float return_value_puramp$8;
-            return_value_puramp$8=puramp(it, 1.0f, 0.0f, 1.0f);
-            levelmult_y = ((levelmult * it->contrast_control * return_value_puramp$8) / (0.5f + 0.5f * it->puheight)) * 0.070f;
+            float return_value_puramp_8;
+            return_value_puramp_8=puramp(it, 1.0f, 0.0f, 1.0f);
+            levelmult_y = ((levelmult * it->contrast_control * return_value_puramp_8) / (0.5f + 0.5f * it->puheight)) * 0.070f;
             float levelmult_iq = levelmult * 0.090f;
             analogtv_ntsc_to_yiq(it, lineno, signal, (scanstart_i >> 16) - 10, (scanend_i >> 16) + 10, yiq);
             pixmultinc = pixrate;
@@ -6817,10 +6817,10 @@ static void analogtv_thread_draw_lines(void *thread_raw)
               signed int ili;
               signed int qli;
               signed int cmi;
-              float analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpy = (yiq[(signed long int)pati].y * invpixfrac + yiq[(signed long int)(pati + 1)].y * pixfrac) * levelmult_y;
+              float analogtv_thread_draw_lines__1__1__2__1__2__interpy = (yiq[(signed long int)pati].y * invpixfrac + yiq[(signed long int)(pati + 1)].y * pixfrac) * levelmult_y;
               float interpi = (yiq[(signed long int)pati].i * invpixfrac + yiq[(signed long int)(pati + 1)].i * pixfrac) * levelmult_iq;
               float interpq = (yiq[(signed long int)pati].q * invpixfrac + yiq[(signed long int)(pati + 1)].q * pixfrac) * levelmult_iq;
-              yli = (signed int)(analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpy * (float)it->cmap_y_levels);
+              yli = (signed int)(analogtv_thread_draw_lines__1__1__2__1__2__interpy * (float)it->cmap_y_levels);
               ili = (signed int)((interpi + 0.5f) * (float)it->cmap_i_levels);
               qli = (signed int)((interpq + 0.5f) * (float)it->cmap_q_levels);
               if(!(yli >= 0))
@@ -6867,9 +6867,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
         else
         {
           analogtv_ntsc_to_yiq(it, lineno, signal, (scanstart_i >> 16) - 10, (scanend_i >> 16) + 10, yiq);
-          float return_value_puramp$9;
-          return_value_puramp$9=puramp(it, 1.0f, 0.0f, 1.0f);
-          pixbright = (((it->contrast_control * return_value_puramp$9) / (0.5f + 0.5f * it->puheight)) * 1024.0f) / 100.0f;
+          float return_value_puramp_9;
+          return_value_puramp_9=puramp(it, 1.0f, 0.0f, 1.0f);
+          pixbright = (((it->contrast_control * return_value_puramp_9) / (0.5f + 0.5f * it->puheight)) * 1024.0f) / 100.0f;
           pixmultinc = pixrate;
           i = scanstart_i;
           rrp = rgb_start;
@@ -6882,18 +6882,18 @@ static void analogtv_thread_draw_lines(void *thread_raw)
           }
           while(!(rrp == rgb_end) && !(i >= scanend_i))
           {
-            float analogtv_thread_draw_lines$$1$$1$$3$$2$$pixfrac = (float)(i & 0xffff) / 65536.0f;
-            float analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac = 1.0f - analogtv_thread_draw_lines$$1$$1$$3$$2$$pixfrac;
-            signed int analogtv_thread_draw_lines$$1$$1$$3$$2$$pati = i >> 16;
+            float analogtv_thread_draw_lines__1__1__3__2__pixfrac = (float)(i & 0xffff) / 65536.0f;
+            float analogtv_thread_draw_lines__1__1__3__2__invpixfrac = 1.0f - analogtv_thread_draw_lines__1__1__3__2__pixfrac;
+            signed int analogtv_thread_draw_lines__1__1__3__2__pati = i >> 16;
             float r;
             float g;
             float b;
-            float interpy = yiq[(signed long int)analogtv_thread_draw_lines$$1$$1$$3$$2$$pati].y * analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines$$1$$1$$3$$2$$pati + 1)].y * analogtv_thread_draw_lines$$1$$1$$3$$2$$pixfrac;
-            float analogtv_thread_draw_lines$$1$$1$$3$$2$$interpi = yiq[(signed long int)analogtv_thread_draw_lines$$1$$1$$3$$2$$pati].i * analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines$$1$$1$$3$$2$$pati + 1)].i * analogtv_thread_draw_lines$$1$$1$$3$$2$$pixfrac;
-            float analogtv_thread_draw_lines$$1$$1$$3$$2$$interpq = yiq[(signed long int)analogtv_thread_draw_lines$$1$$1$$3$$2$$pati].q * analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines$$1$$1$$3$$2$$pati + 1)].q * analogtv_thread_draw_lines$$1$$1$$3$$2$$pixfrac;
-            r = (interpy + 0.948f * analogtv_thread_draw_lines$$1$$1$$3$$2$$interpi + 0.624f * analogtv_thread_draw_lines$$1$$1$$3$$2$$interpq) * pixbright;
-            g = ((interpy - 0.276f * analogtv_thread_draw_lines$$1$$1$$3$$2$$interpi) - 0.639f * analogtv_thread_draw_lines$$1$$1$$3$$2$$interpq) * pixbright;
-            b = ((interpy - 1.105f * analogtv_thread_draw_lines$$1$$1$$3$$2$$interpi) + 1.729f * analogtv_thread_draw_lines$$1$$1$$3$$2$$interpq) * pixbright;
+            float interpy = yiq[(signed long int)analogtv_thread_draw_lines__1__1__3__2__pati].y * analogtv_thread_draw_lines__1__1__3__2__invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines__1__1__3__2__pati + 1)].y * analogtv_thread_draw_lines__1__1__3__2__pixfrac;
+            float analogtv_thread_draw_lines__1__1__3__2__interpi = yiq[(signed long int)analogtv_thread_draw_lines__1__1__3__2__pati].i * analogtv_thread_draw_lines__1__1__3__2__invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines__1__1__3__2__pati + 1)].i * analogtv_thread_draw_lines__1__1__3__2__pixfrac;
+            float analogtv_thread_draw_lines__1__1__3__2__interpq = yiq[(signed long int)analogtv_thread_draw_lines__1__1__3__2__pati].q * analogtv_thread_draw_lines__1__1__3__2__invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines__1__1__3__2__pati + 1)].q * analogtv_thread_draw_lines__1__1__3__2__pixfrac;
+            r = (interpy + 0.948f * analogtv_thread_draw_lines__1__1__3__2__interpi + 0.624f * analogtv_thread_draw_lines__1__1__3__2__interpq) * pixbright;
+            g = ((interpy - 0.276f * analogtv_thread_draw_lines__1__1__3__2__interpi) - 0.639f * analogtv_thread_draw_lines__1__1__3__2__interpq) * pixbright;
+            b = ((interpy - 1.105f * analogtv_thread_draw_lines__1__1__3__2__interpi) + 1.729f * analogtv_thread_draw_lines__1__1__3__2__interpq) * pixbright;
             if(r < 0.0f)
               r = 0.0f;
 
@@ -6933,15 +6933,15 @@ static void analogtv_thread_draw_lines(void *thread_raw)
 
 // checkerboard
 // file grabclient.c line 123
-static void checkerboard(struct anonymous$6 *screen, unsigned long int drawable)
+static void checkerboard(struct anonymous_6 *screen, unsigned long int drawable)
 {
   struct _XDisplay *dpy = screen->display;
-  unsigned int checkerboard$$1$$x;
-  unsigned int checkerboard$$1$$y;
+  unsigned int checkerboard__1__x;
+  unsigned int checkerboard__1__y;
   signed int size = 24;
-  struct anonymous$12 fg;
-  struct anonymous$12 bg;
-  struct anonymous$8 gcv;
+  struct anonymous_12 fg;
+  struct anonymous_12 bg;
+  struct anonymous_8 gcv;
   struct _XGC *gc;
   gc=XCreateGC(dpy, drawable, (unsigned long int)0, &gcv);
   unsigned long int cmap;
@@ -6957,11 +6957,11 @@ static void checkerboard(struct anonymous$6 *screen, unsigned long int drawable)
   bg.red = bg.green;
   fg.pixel = (unsigned long int)0;
   bg.pixel = (unsigned long int)1;
-  signed int return_value_drawable_window_p$2;
-  return_value_drawable_window_p$2=drawable_window_p(dpy, drawable);
-  if(!(return_value_drawable_window_p$2 == 0))
+  signed int return_value_drawable_window_p_2;
+  return_value_drawable_window_p_2=drawable_window_p(dpy, drawable);
+  if(!(return_value_drawable_window_p_2 == 0))
   {
-    struct anonymous$9 xgwa;
+    struct anonymous_9 xgwa;
     XGetWindowAttributes(dpy, drawable, &xgwa);
     win_width = (unsigned int)xgwa.width;
     win_height = (unsigned int)xgwa.height;
@@ -6971,39 +6971,39 @@ static void checkerboard(struct anonymous$6 *screen, unsigned long int drawable)
 
   else
   {
-    struct anonymous$9 checkerboard$$1$$2$$xgwa;
+    struct anonymous_9 checkerboard__1__2__xgwa;
     unsigned long int root;
     signed int x;
     signed int y;
     unsigned int bw;
     unsigned int d;
-    unsigned long int return_value_VirtualRootWindowOfScreen$1;
-    return_value_VirtualRootWindowOfScreen$1=VirtualRootWindowOfScreen$link1(screen);
-    XGetWindowAttributes(dpy, return_value_VirtualRootWindowOfScreen$1, &checkerboard$$1$$2$$xgwa);
-    cmap = checkerboard$$1$$2$$xgwa.colormap;
+    unsigned long int return_value_VirtualRootWindowOfScreen_1;
+    return_value_VirtualRootWindowOfScreen_1=VirtualRootWindowOfScreen_link1(screen);
+    XGetWindowAttributes(dpy, return_value_VirtualRootWindowOfScreen_1, &checkerboard__1__2__xgwa);
+    cmap = checkerboard__1__2__xgwa.colormap;
     XGetGeometry(dpy, drawable, &root, &x, &y, &win_width, &win_height, &bw, &d);
   }
-  signed int return_value_XAllocColor$3;
-  return_value_XAllocColor$3=XAllocColor(dpy, cmap, &fg);
-  if(!(return_value_XAllocColor$3 == 0))
+  signed int return_value_XAllocColor_3;
+  return_value_XAllocColor_3=XAllocColor(dpy, cmap, &fg);
+  if(!(return_value_XAllocColor_3 == 0))
     XFreeColors(dpy, cmap, &fg.pixel, 1, (unsigned long int)0);
 
-  signed int return_value_XAllocColor$4;
-  return_value_XAllocColor$4=XAllocColor(dpy, cmap, &bg);
-  if(!(return_value_XAllocColor$4 == 0))
+  signed int return_value_XAllocColor_4;
+  return_value_XAllocColor_4=XAllocColor(dpy, cmap, &bg);
+  if(!(return_value_XAllocColor_4 == 0))
     XFreeColors(dpy, cmap, &bg.pixel, 1, (unsigned long int)0);
 
   XSetForeground(dpy, gc, bg.pixel);
   XFillRectangle(dpy, drawable, gc, 0, 0, win_width, win_height);
   XSetForeground(dpy, gc, fg.pixel);
-  checkerboard$$1$$y = (unsigned int)0;
-  for( ; !(checkerboard$$1$$y >= win_height); checkerboard$$1$$y = checkerboard$$1$$y + (unsigned int)(size + size))
+  checkerboard__1__y = (unsigned int)0;
+  for( ; !(checkerboard__1__y >= win_height); checkerboard__1__y = checkerboard__1__y + (unsigned int)(size + size))
   {
-    checkerboard$$1$$x = (unsigned int)0;
-    for( ; !(checkerboard$$1$$x >= win_width); checkerboard$$1$$x = checkerboard$$1$$x + (unsigned int)(size + size))
+    checkerboard__1__x = (unsigned int)0;
+    for( ; !(checkerboard__1__x >= win_width); checkerboard__1__x = checkerboard__1__x + (unsigned int)(size + size))
     {
-      XFillRectangle(dpy, drawable, gc, (signed int)checkerboard$$1$$x, (signed int)checkerboard$$1$$y, (unsigned int)size, (unsigned int)size);
-      XFillRectangle(dpy, drawable, gc, (signed int)(checkerboard$$1$$x + (unsigned int)size), (signed int)(checkerboard$$1$$y + (unsigned int)size), (unsigned int)size, (unsigned int)size);
+      XFillRectangle(dpy, drawable, gc, (signed int)checkerboard__1__x, (signed int)checkerboard__1__y, (unsigned int)size, (unsigned int)size);
+      XFillRectangle(dpy, drawable, gc, (signed int)(checkerboard__1__x + (unsigned int)size), (signed int)(checkerboard__1__y + (unsigned int)size), (unsigned int)size, (unsigned int)size);
     }
   }
   XFreeGC(dpy, gc);
@@ -7011,20 +7011,20 @@ static void checkerboard(struct anonymous$6 *screen, unsigned long int drawable)
 
 // create_xshm_image
 // file ./../utils/xshm.h line 27
-extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous$17 *visual, unsigned int depth, signed int format, char *data, struct anonymous$31 *shm_info, unsigned int width, unsigned int height)
+extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous_17 *visual, unsigned int depth, signed int format, char *data, struct anonymous_31 *shm_info, unsigned int width, unsigned int height)
 {
   signed int status;
   struct _XImage *image = ((struct _XImage *)NULL);
-  signed int return_value_get_boolean_resource$1;
-  return_value_get_boolean_resource$1=get_boolean_resource(dpy, "useSHM", "Boolean");
-  if(return_value_get_boolean_resource$1 == 0)
+  signed int return_value_get_boolean_resource_1;
+  return_value_get_boolean_resource_1=get_boolean_resource(dpy, "useSHM", "Boolean");
+  if(return_value_get_boolean_resource_1 == 0)
     return ((struct _XImage *)NULL);
 
   else
   {
-    signed int return_value_XShmQueryExtension$2;
-    return_value_XShmQueryExtension$2=XShmQueryExtension(dpy);
-    if(return_value_XShmQueryExtension$2 == 0)
+    signed int return_value_XShmQueryExtension_2;
+    return_value_XShmQueryExtension_2=XShmQueryExtension(dpy);
+    if(return_value_XShmQueryExtension_2 == 0)
       return ((struct _XImage *)NULL);
 
     else
@@ -7042,10 +7042,10 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
       do
       {
         XSync(dpy, 0);
-        if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous$11 *))NULL)))
+        if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous_11 *))NULL)))
           XSetErrorHandler(old_handler);
 
-        old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous$11 *))NULL);
+        old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous_11 *))NULL);
       }
       while((_Bool)0);
       if(!(shm_got_x_error == 0))
@@ -7067,9 +7067,9 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
         else
         {
           shm_info->readOnly = 0;
-          void *return_value_shmat$3;
-          return_value_shmat$3=shmat(shm_info->shmid, NULL, 0);
-          shm_info->shmaddr = (char *)return_value_shmat$3;
+          void *return_value_shmat_3;
+          return_value_shmat_3=shmat(shm_info->shmid, NULL, 0);
+          shm_info->shmaddr = (char *)return_value_shmat_3;
           image->data = shm_info->shmaddr;
           do
           {
@@ -7084,10 +7084,10 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
           do
           {
             XSync(dpy, 0);
-            if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous$11 *))NULL)))
+            if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous_11 *))NULL)))
               XSetErrorHandler(old_handler);
 
-            old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous$11 *))NULL);
+            old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous_11 *))NULL);
           }
           while((_Bool)0);
           if(!(shm_got_x_error == 0))
@@ -7113,17 +7113,17 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
 
 // describe_visual
 // file visual.c line 445
-extern void describe_visual(struct _IO_FILE *f, struct anonymous$6 *screen, struct anonymous$17 *visual, signed int private_cmap_p)
+extern void describe_visual(struct _IO_FILE *f, struct anonymous_6 *screen, struct anonymous_17 *visual, signed int private_cmap_p)
 {
   char n[10l];
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   if(!(private_cmap_p == 0))
@@ -7131,51 +7131,51 @@ extern void describe_visual(struct _IO_FILE *f, struct anonymous$6 *screen, stru
 
   else
     strcpy(n, "default");
-  char *tmp_if_expr$5;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$3;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_5;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_3;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_1;
   if(vi_out->class == 0)
-    tmp_if_expr$5 = "StaticGray, ";
+    tmp_if_expr_5 = "StaticGray, ";
 
   else
   {
     if(vi_out->class == 2)
-      tmp_if_expr$4 = "StaticColor,";
+      tmp_if_expr_4 = "StaticColor,";
 
     else
     {
       if(vi_out->class == 4)
-        tmp_if_expr$3 = "TrueColor,  ";
+        tmp_if_expr_3 = "TrueColor,  ";
 
       else
       {
         if(vi_out->class == 1)
-          tmp_if_expr$2 = "GrayScale,  ";
+          tmp_if_expr_2 = "GrayScale,  ";
 
         else
         {
           if(vi_out->class == 3)
-            tmp_if_expr$1 = "PseudoColor,";
+            tmp_if_expr_1 = "PseudoColor,";
 
           else
-            tmp_if_expr$1 = vi_out->class == 5 ? "DirectColor," : "UNKNOWN:    ";
-          tmp_if_expr$2 = tmp_if_expr$1;
+            tmp_if_expr_1 = vi_out->class == 5 ? "DirectColor," : "UNKNOWN:    ";
+          tmp_if_expr_2 = tmp_if_expr_1;
         }
-        tmp_if_expr$3 = tmp_if_expr$2;
+        tmp_if_expr_3 = tmp_if_expr_2;
       }
-      tmp_if_expr$4 = tmp_if_expr$3;
+      tmp_if_expr_4 = tmp_if_expr_3;
     }
-    tmp_if_expr$5 = tmp_if_expr$4;
+    tmp_if_expr_5 = tmp_if_expr_4;
   }
-  fprintf(f, "0x%02x (%s depth: %2d, cmap: %s)\n", (unsigned int)vi_out->visualid, tmp_if_expr$5, vi_out->depth, (const void *)n);
+  fprintf(f, "0x%02x (%s depth: %2d, cmap: %s)\n", (unsigned int)vi_out->visualid, tmp_if_expr_5, vi_out->depth, (const void *)n);
   XFree((void *)(char *)vi_out);
 }
 
 // destroy_xshm_image
 // file ./../utils/xshm.h line 32
-extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous$31 *shm_info)
+extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous_31 *shm_info)
 {
   signed int status;
   do
@@ -7191,10 +7191,10 @@ extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, str
   do
   {
     XSync(dpy, 0);
-    if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous$11 *))NULL)))
+    if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous_11 *))NULL)))
       XSetErrorHandler(old_handler);
 
-    old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous$11 *))NULL);
+    old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous_11 *))NULL);
   }
   while((_Bool)0);
   if(!(shm_got_x_error == 0))
@@ -7220,14 +7220,14 @@ extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, str
 // file grabclient.c line 64
 static signed int drawable_window_p(struct _XDisplay *dpy, unsigned long int d)
 {
-  signed int (*drawable_window_p$$1$$old_handler)(struct _XDisplay *, struct anonymous$11 *);
-  struct anonymous$9 xgwa;
+  signed int (*drawable_window_p__1__old_handler)(struct _XDisplay *, struct anonymous_11 *);
+  struct anonymous_9 xgwa;
   XSync(dpy, 0);
-  drawable_window_p$$1$$old_handler=XSetErrorHandler(ignore_all_errors_ehandler);
+  drawable_window_p__1__old_handler=XSetErrorHandler(ignore_all_errors_ehandler);
   error_handler_hit_p = 0;
   XGetWindowAttributes(dpy, d, &xgwa);
   XSync(dpy, 0);
-  XSetErrorHandler(drawable_window_p$$1$$old_handler);
+  XSetErrorHandler(drawable_window_p__1__old_handler);
   XSync(dpy, 0);
   if(error_handler_hit_p == 0)
     return 1;
@@ -7243,14 +7243,14 @@ static void exec_simple_command(const char *command)
   char *av[1024l];
   signed int ac = 0;
   char *token;
-  char *return_value_strdup$1;
-  return_value_strdup$1=strdup(command);
-  token=strtok(return_value_strdup$1, " \t");
+  char *return_value_strdup_1;
+  return_value_strdup_1=strdup(command);
+  token=strtok(return_value_strdup_1, " \t");
   while(!(token == ((char *)NULL)))
   {
-    signed int tmp_post$2 = ac;
+    signed int tmp_post_2 = ac;
     ac = ac + 1;
-    av[(signed long int)tmp_post$2] = token;
+    av[(signed long int)tmp_post_2] = token;
     token=strtok(((char *)NULL), " \t");
   }
   av[(signed long int)ac] = ((char *)NULL);
@@ -7261,10 +7261,10 @@ static void exec_simple_command(const char *command)
 // file grabclient.c line 410
 static void finalize_cb(void *closure, signed int *fd, unsigned long int *id)
 {
-  struct anonymous$16 *data = (struct anonymous$16 *)closure;
+  struct anonymous_16 *data = (struct anonymous_16 *)closure;
   struct _XDisplay *dpy = data->screen->display;
   char *name;
-  struct anonymous$7 geom = { .x=(signed short int)0, .y=(signed short int)0, .width=(unsigned short int)0,
+  struct anonymous_7 geom = { .x=(signed short int)0, .y=(signed short int)0, .width=(unsigned short int)0,
     .height=(unsigned short int)0 };
   XtRemoveInput(*id);
   name=get_name(dpy, data->window);
@@ -7281,43 +7281,43 @@ static void finalize_cb(void *closure, signed int *fd, unsigned long int *id)
     data->pid = 0;
   }
 
-  memset((void *)data, 0, sizeof(struct anonymous$16) /*72ul*/ );
+  memset((void *)data, 0, sizeof(struct anonymous_16) /*72ul*/ );
   free((void *)data);
 }
 
 // find_similar_visual
 // file visual.c line 503
-extern struct anonymous$17 * find_similar_visual(struct anonymous$6 *screen, struct anonymous$17 *old_visual)
+extern struct anonymous_17 * find_similar_visual(struct anonymous_6 *screen, struct anonymous_17 *old_visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
-  struct anonymous$17 *result = ((struct anonymous$17 *)NULL);
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
+  struct anonymous_17 *result = ((struct anonymous_17 *)NULL);
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.class=visual_class(screen, old_visual);
   vi_in.depth=visual_depth(screen, old_visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x8 | 0x4), &vi_in, &out_count);
-  if(out_count >= 1 && !(vi_out == ((struct anonymous$19 *)NULL)))
+  if(out_count >= 1 && !(vi_out == ((struct anonymous_19 *)NULL)))
     result = (vi_out + (signed long int)0)->visual;
 
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
     XFree((void *)vi_out);
 
-  vi_out = ((struct anonymous$19 *)NULL);
-  if(result == ((struct anonymous$17 *)NULL))
+  vi_out = ((struct anonymous_19 *)NULL);
+  if(result == ((struct anonymous_17 *)NULL))
   {
     vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x8), &vi_in, &out_count);
-    if(out_count >= 1 && !(vi_out == ((struct anonymous$19 *)NULL)))
+    if(out_count >= 1 && !(vi_out == ((struct anonymous_19 *)NULL)))
       result = (vi_out + (signed long int)0)->visual;
 
-    if(!(vi_out == ((struct anonymous$19 *)NULL)))
+    if(!(vi_out == ((struct anonymous_19 *)NULL)))
       XFree((void *)vi_out);
 
-    vi_out = ((struct anonymous$19 *)NULL);
+    vi_out = ((struct anonymous_19 *)NULL);
   }
 
-  if(result == ((struct anonymous$17 *)NULL))
+  if(result == ((struct anonymous_17 *)NULL))
     result = screen->root_visual;
 
   return result;
@@ -7346,26 +7346,26 @@ static void fix_fds(void)
 
 // fork_exec_cb
 // file grabclient.c line 328
-static void fork_exec_cb(const char *command, struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *), void *closure)
+static void fork_exec_cb(const char *command, struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *), void *closure)
 {
   struct _XtAppStruct *app;
   app=XtDisplayToApplicationContext(screen->display);
-  struct anonymous$16 *data;
+  struct anonymous_16 *data;
   char buf[255l];
   signed int forked;
   signed int fds[2l];
-  signed int return_value_pipe$1;
-  return_value_pipe$1=pipe(fds);
-  if(!(return_value_pipe$1 == 0))
+  signed int return_value_pipe_1;
+  return_value_pipe_1=pipe(fds);
+  if(!(return_value_pipe_1 == 0))
   {
     sprintf(buf, "%s: creating pipe", progname);
     perror(buf);
     exit(1);
   }
 
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct anonymous$16) /*72ul*/ );
-  data = (struct anonymous$16 *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct anonymous_16) /*72ul*/ );
+  data = (struct anonymous_16 *)return_value_calloc_2;
   data->callback = callback;
   data->closure = closure;
   data->screen = screen;
@@ -7373,26 +7373,26 @@ static void fork_exec_cb(const char *command, struct anonymous$6 *screen, unsign
   data->drawable = drawable;
   data->read_pipe=fdopen(fds[(signed long int)0], "r");
   data->write_pipe=fdopen(fds[(signed long int)1], "w");
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(data->read_pipe == ((struct _IO_FILE *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !(data->write_pipe != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = !(data->write_pipe != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     sprintf(buf, "%s: fdopen", progname);
     perror(buf);
     exit(1);
   }
 
-  signed int return_value_fileno$4;
-  return_value_fileno$4=fileno(data->read_pipe);
-  data->pipe_id=XtAppAddInput(app, return_value_fileno$4, (void *)(1L << 0 | 1L << 2), finalize_cb, (void *)data);
+  signed int return_value_fileno_4;
+  return_value_fileno_4=fileno(data->read_pipe);
+  data->pipe_id=XtAppAddInput(app, return_value_fileno_4, (void *)(1L << 0 | 1L << 2), finalize_cb, (void *)data);
   forked=fork();
-  signed int return_value_fileno$5;
-  signed int return_value_fileno$6;
-  signed int return_value_fileno$7;
+  signed int return_value_fileno_5;
+  signed int return_value_fileno_6;
+  signed int return_value_fileno_7;
   if(!(forked == -1))
   {
     if(forked == 0)
@@ -7410,13 +7410,13 @@ static void fork_exec_cb(const char *command, struct anonymous$6 *screen, unsign
     ;
     fclose(data->read_pipe);
     data->read_pipe = ((struct _IO_FILE *)NULL);
-    return_value_fileno$5=fileno(stdout);
-    close(return_value_fileno$5);
-    return_value_fileno$6=fileno(stdout);
-    dup2(fds[(signed long int)1], return_value_fileno$6);
+    return_value_fileno_5=fileno(stdout);
+    close(return_value_fileno_5);
+    return_value_fileno_6=fileno(stdout);
+    dup2(fds[(signed long int)1], return_value_fileno_6);
     close(fds[(signed long int)1]);
-    return_value_fileno$7=fileno(stdin);
-    close(return_value_fileno$7);
+    return_value_fileno_7=fileno(stdin);
+    close(return_value_fileno_7);
     exec_simple_command(command);
     exit(1);
     goto __CPROVER_DUMP_L8;
@@ -7473,17 +7473,17 @@ __CPROVER_DUMP_L5:
 // file fps.h line 25
 extern double fps_compute(struct fps_state *st, unsigned long int polys, double depth)
 {
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
   if(st == ((struct fps_state *)NULL))
     return (double)0;
 
   else
   {
-    signed int tmp_post$1 = st->frame_count;
+    signed int tmp_post_1 = st->frame_count;
     st->frame_count = st->frame_count + 1;
-    if(tmp_post$1 >= st->last_ifps)
+    if(tmp_post_1 >= st->last_ifps)
     {
       struct timezone tzp;
       gettimeofday(&st->this_frame_end, &tzp);
@@ -7514,21 +7514,21 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
         strcat(st->string, "\nPolys: ");
         if(polys >= 1000000ul)
         {
-          return_value_strlen$2=strlen(st->string);
-          sprintf(st->string + (signed long int)return_value_strlen$2, "%lu,%03lu,%03lu%s ", polys / (unsigned long int)1000000, (polys / (unsigned long int)1000) % (unsigned long int)1000, polys % (unsigned long int)1000, s);
+          return_value_strlen_2=strlen(st->string);
+          sprintf(st->string + (signed long int)return_value_strlen_2, "%lu,%03lu,%03lu%s ", polys / (unsigned long int)1000000, (polys / (unsigned long int)1000) % (unsigned long int)1000, polys % (unsigned long int)1000, s);
         }
 
         else
           if(polys >= 1000ul)
           {
-            return_value_strlen$3=strlen(st->string);
-            sprintf(st->string + (signed long int)return_value_strlen$3, "%lu,%03lu%s ", polys / (unsigned long int)1000, polys % (unsigned long int)1000, s);
+            return_value_strlen_3=strlen(st->string);
+            sprintf(st->string + (signed long int)return_value_strlen_3, "%lu,%03lu%s ", polys / (unsigned long int)1000, polys % (unsigned long int)1000, s);
           }
 
           else
           {
-            return_value_strlen$4=strlen(st->string);
-            sprintf(st->string + (signed long int)return_value_strlen$4, "%lu%s ", polys, s);
+            return_value_strlen_4=strlen(st->string);
+            sprintf(st->string + (signed long int)return_value_strlen_4, "%lu%s ", polys, s);
           }
       }
 
@@ -7536,16 +7536,16 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
       {
         unsigned long int L;
         L=strlen(st->string);
-        char *fps_compute$$1$$2$$2$$s = st->string + (signed long int)L;
-        strcat(fps_compute$$1$$2$$2$$s, "\nDepth: ");
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(fps_compute$$1$$2$$2$$s);
-        sprintf(fps_compute$$1$$2$$2$$s + (signed long int)return_value_strlen$5, "%.1f", depth);
-        L=strlen(fps_compute$$1$$2$$2$$s);
-        if((signed int)fps_compute$$1$$2$$2$$s[-2l + (signed long int)L] == 46)
+        char *fps_compute__1__2__2__s = st->string + (signed long int)L;
+        strcat(fps_compute__1__2__2__s, "\nDepth: ");
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(fps_compute__1__2__2__s);
+        sprintf(fps_compute__1__2__2__s + (signed long int)return_value_strlen_5, "%.1f", depth);
+        L=strlen(fps_compute__1__2__2__s);
+        if((signed int)fps_compute__1__2__2__s[-2l + (signed long int)L] == 46)
         {
-          if((signed int)fps_compute$$1$$2$$2$$s[-1l + (signed long int)L] == 48)
-            fps_compute$$1$$2$$2$$s[(signed long int)(L - (unsigned long int)2)] = (char)0;
+          if((signed int)fps_compute__1__2__2__s[-1l + (signed long int)L] == 48)
+            fps_compute__1__2__2__s[(signed long int)(L - (unsigned long int)2)] = (char)0;
 
         }
 
@@ -7561,7 +7561,7 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
 // file fps.h line 26
 extern void fps_draw(struct fps_state *st)
 {
-  struct anonymous$9 xgwa;
+  struct anonymous_9 xgwa;
   const char *string = st->string;
   const char *s;
   signed int x = st->x;
@@ -7588,14 +7588,14 @@ extern void fps_draw(struct fps_state *st)
     XFillRectangle(st->dpy, st->window, st->erase_gc, x - st->font->descent, y - lh, (unsigned int)(w + 2 * st->font->descent), (unsigned int)(h + 2 * st->font->descent));
   }
 
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   while(!(lines == 0))
   {
     s=strchr(string, 10);
     if(s == ((const char *)NULL))
     {
-      return_value_strlen$1=strlen(string);
-      s = string + (signed long int)return_value_strlen$1;
+      return_value_strlen_1=strlen(string);
+      s = string + (signed long int)return_value_strlen_1;
     }
 
     XDrawString(st->dpy, st->window, st->draw_gc, x, y, string, (signed int)(s - string));
@@ -7616,7 +7616,7 @@ extern void fps_free(struct fps_state *st)
   if(!(st->erase_gc == ((struct _XGC *)NULL)))
     XFreeGC(st->dpy, st->erase_gc);
 
-  if(!(st->font == ((struct anonymous$2 *)NULL)))
+  if(!(st->font == ((struct anonymous_2 *)NULL)))
     XFreeFont(st->dpy, st->font);
 
   free((void *)st);
@@ -7628,17 +7628,17 @@ extern struct fps_state * fps_init(struct _XDisplay *dpy, unsigned long int wind
 {
   struct fps_state *st;
   const char *font;
-  struct anonymous$2 *f;
-  signed int return_value_get_boolean_resource$1;
-  return_value_get_boolean_resource$1=get_boolean_resource(dpy, "doFPS", "DoFPS");
-  if(return_value_get_boolean_resource$1 == 0)
+  struct anonymous_2 *f;
+  signed int return_value_get_boolean_resource_1;
+  return_value_get_boolean_resource_1=get_boolean_resource(dpy, "doFPS", "DoFPS");
+  if(return_value_get_boolean_resource_1 == 0)
     return ((struct fps_state *)NULL);
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct fps_state) /*1152ul*/ );
-    st = (struct fps_state *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct fps_state) /*1152ul*/ );
+    st = (struct fps_state *)return_value_calloc_2;
     st->dpy = dpy;
     st->window = window;
     st->clear_p=get_boolean_resource(dpy, "fpsSolid", "FPSSolid");
@@ -7647,27 +7647,27 @@ extern struct fps_state * fps_init(struct _XDisplay *dpy, unsigned long int wind
       font = "-*-courier-bold-r-normal-*-180-*";
 
     f=XLoadQueryFont(dpy, font);
-    if(f == ((struct anonymous$2 *)NULL))
+    if(f == ((struct anonymous_2 *)NULL))
       f=XLoadQueryFont(dpy, "fixed");
 
-    struct anonymous$9 xgwa;
-    struct anonymous$8 gcv;
+    struct anonymous_9 xgwa;
+    struct anonymous_8 gcv;
     XGetWindowAttributes(dpy, window, &xgwa);
     gcv.font = f->fid;
-    unsigned int return_value_get_pixel_resource$3;
-    return_value_get_pixel_resource$3=get_pixel_resource(st->dpy, xgwa.colormap, "foreground", "Foreground");
-    gcv.foreground = (unsigned long int)return_value_get_pixel_resource$3;
+    unsigned int return_value_get_pixel_resource_3;
+    return_value_get_pixel_resource_3=get_pixel_resource(st->dpy, xgwa.colormap, "foreground", "Foreground");
+    gcv.foreground = (unsigned long int)return_value_get_pixel_resource_3;
     st->draw_gc=XCreateGC(dpy, window, (unsigned long int)(1L << 14 | 1L << 2), &gcv);
-    unsigned int return_value_get_pixel_resource$4;
-    return_value_get_pixel_resource$4=get_pixel_resource(st->dpy, xgwa.colormap, "background", "Background");
-    gcv.foreground = (unsigned long int)return_value_get_pixel_resource$4;
+    unsigned int return_value_get_pixel_resource_4;
+    return_value_get_pixel_resource_4=get_pixel_resource(st->dpy, xgwa.colormap, "background", "Background");
+    gcv.foreground = (unsigned long int)return_value_get_pixel_resource_4;
     st->erase_gc=XCreateGC(dpy, window, (unsigned long int)(1L << 14 | 1L << 2), &gcv);
     st->font = f;
     st->x = 10;
     st->y = 10;
-    signed int return_value_get_boolean_resource$5;
-    return_value_get_boolean_resource$5=get_boolean_resource(dpy, "fpsTop", "FPSTop");
-    if(!(return_value_get_boolean_resource$5 == 0))
+    signed int return_value_get_boolean_resource_5;
+    return_value_get_boolean_resource_5=get_boolean_resource(dpy, "fpsTop", "FPSTop");
+    if(!(return_value_get_boolean_resource_5 == 0))
       st->y = -(st->font->ascent + st->font->descent + 10);
 
     strcpy(st->string, "FPS: ... ");
@@ -7689,9 +7689,9 @@ extern signed int get_bits_per_pixel(struct _XDisplay *dpy, signed int depth)
   unsigned int i = (unsigned int)0;
   signed int count;
   signed int result;
-  struct anonymous$18 *formats;
+  struct anonymous_18 *formats;
   formats=XListPixmapFormats(dpy, &count);
-  if(formats == ((struct anonymous$18 *)NULL))
+  if(formats == ((struct anonymous_18 *)NULL))
     return 0;
 
   else
@@ -7728,13 +7728,13 @@ extern signed int get_boolean_resource(struct _XDisplay *dpy, char *res_name, ch
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *os = s;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$15;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_15;
   if(s == ((char *)NULL))
     return 0;
 
@@ -7743,84 +7743,84 @@ extern signed int get_boolean_resource(struct _XDisplay *dpy, char *res_name, ch
     tmp = buf;
     for( ; !(*s == 0); s = s + 1l)
     {
-      char *tmp_post$1 = tmp;
+      char *tmp_post_1 = tmp;
       tmp = tmp + 1l;
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)*s >= 65)
-        tmp_if_expr$2 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      signed int tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = ((signed int)*s - 65) + 97;
+        tmp_if_expr_2 = (_Bool)0;
+      signed int tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = ((signed int)*s - 65) + 97;
 
       else
-        tmp_if_expr$3 = (signed int)*s;
-      *tmp_post$1 = (char)tmp_if_expr$3;
+        tmp_if_expr_3 = (signed int)*s;
+      *tmp_post_1 = (char)tmp_if_expr_3;
     }
     *tmp = (char)0;
     free((void *)os);
     while(!(buf[0l] == 0))
     {
-      return_value_strlen$4=strlen(buf);
-      if(!((signed int)buf[-1l + (signed long int)return_value_strlen$4] == 32))
+      return_value_strlen_4=strlen(buf);
+      if(!((signed int)buf[-1l + (signed long int)return_value_strlen_4] == 32))
       {
-        return_value_strlen$5=strlen(buf);
-        if(!((signed int)buf[-1l + (signed long int)return_value_strlen$5] == 9))
+        return_value_strlen_5=strlen(buf);
+        if(!((signed int)buf[-1l + (signed long int)return_value_strlen_5] == 9))
           break;
 
       }
 
-      return_value_strlen$6=strlen(buf);
-      buf[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
+      return_value_strlen_6=strlen(buf);
+      buf[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
     }
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(buf, "on");
-    _Bool tmp_if_expr$9;
-    if(return_value_strcmp$7 == 0)
-      tmp_if_expr$9 = (_Bool)1;
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(buf, "on");
+    _Bool tmp_if_expr_9;
+    if(return_value_strcmp_7 == 0)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$8=strcmp(buf, "true");
-      tmp_if_expr$9 = !(return_value_strcmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_8=strcmp(buf, "true");
+      tmp_if_expr_9 = !(return_value_strcmp_8 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$11;
-    if(tmp_if_expr$9)
-      tmp_if_expr$11 = (_Bool)1;
+    _Bool tmp_if_expr_11;
+    if(tmp_if_expr_9)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$10=strcmp(buf, "yes");
-      tmp_if_expr$11 = !(return_value_strcmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_10=strcmp(buf, "yes");
+      tmp_if_expr_11 = !(return_value_strcmp_10 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$11)
+    if(tmp_if_expr_11)
       return 1;
 
     else
     {
-      signed int return_value_strcmp$12;
-      return_value_strcmp$12=strcmp(buf, "off");
-      _Bool tmp_if_expr$14;
-      if(return_value_strcmp$12 == 0)
-        tmp_if_expr$14 = (_Bool)1;
+      signed int return_value_strcmp_12;
+      return_value_strcmp_12=strcmp(buf, "off");
+      _Bool tmp_if_expr_14;
+      if(return_value_strcmp_12 == 0)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$13=strcmp(buf, "false");
-        tmp_if_expr$14 = !(return_value_strcmp$13 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_13=strcmp(buf, "false");
+        tmp_if_expr_14 = !(return_value_strcmp_13 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$16;
-      if(tmp_if_expr$14)
-        tmp_if_expr$16 = (_Bool)1;
+      _Bool tmp_if_expr_16;
+      if(tmp_if_expr_14)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$15=strcmp(buf, "no");
-        tmp_if_expr$16 = !(return_value_strcmp$15 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_15=strcmp(buf, "no");
+        tmp_if_expr_16 = !(return_value_strcmp_15 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
+      if(tmp_if_expr_16)
         return 0;
 
       else
@@ -7845,9 +7845,9 @@ extern double get_float_resource(struct _XDisplay *dpy, char *res_name, char *re
 
   else
   {
-    signed int return_value___isoc99_sscanf$1;
-    return_value___isoc99_sscanf$1=__isoc99_sscanf(s, " %lf %c", &val, &c);
-    if(return_value___isoc99_sscanf$1 == 1)
+    signed int return_value___isoc99_sscanf_1;
+    return_value___isoc99_sscanf_1=__isoc99_sscanf(s, " %lf %c", &val, &c);
+    if(return_value___isoc99_sscanf_1 == 1)
     {
       free((void *)s);
       return val;
@@ -7864,7 +7864,7 @@ extern double get_float_resource(struct _XDisplay *dpy, char *res_name, char *re
 
 // get_geometry
 // file grabclient.c line 201
-static signed int get_geometry(struct _XDisplay *dpy, unsigned long int window, struct anonymous$7 *ret)
+static signed int get_geometry(struct _XDisplay *dpy, unsigned long int window, struct anonymous_7 *ret)
 {
   unsigned long int type;
   signed int format;
@@ -7877,9 +7877,9 @@ static signed int get_geometry(struct _XDisplay *dpy, unsigned long int window, 
   signed int y;
   unsigned int w;
   unsigned int h;
-  signed int return_value_XGetWindowProperty$1;
-  return_value_XGetWindowProperty$1=XGetWindowProperty(dpy, window, atom, (signed long int)0, (signed long int)1024, 0, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &name);
-  if(return_value_XGetWindowProperty$1 == 0 && !(type == 0ul))
+  signed int return_value_XGetWindowProperty_1;
+  return_value_XGetWindowProperty_1=XGetWindowProperty(dpy, window, atom, (signed long int)0, (signed long int)1024, 0, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &name);
+  if(return_value_XGetWindowProperty_1 == 0 && !(type == 0ul))
   {
     signed int flags;
     flags=XParseGeometry((char *)name, &x, &y, &w, &h);
@@ -7910,7 +7910,7 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *ss = s;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(s == ((char *)NULL))
     return 0;
 
@@ -7920,24 +7920,24 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
       if((signed int)*ss >= 33)
         break;
 
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if((signed int)*ss == 48)
     {
       if((signed int)ss[1l] == 120)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)ss[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)ss[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      signed int return_value___isoc99_sscanf$1;
-      return_value___isoc99_sscanf$1=__isoc99_sscanf(ss + (signed long int)2, "%x %c", (unsigned int *)&val, &c);
-      if(return_value___isoc99_sscanf$1 == 1)
+      signed int return_value___isoc99_sscanf_1;
+      return_value___isoc99_sscanf_1=__isoc99_sscanf(ss + (signed long int)2, "%x %c", (unsigned int *)&val, &c);
+      if(return_value___isoc99_sscanf_1 == 1)
       {
         free((void *)s);
         return val;
@@ -7947,9 +7947,9 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
 
     else
     {
-      signed int return_value___isoc99_sscanf$2;
-      return_value___isoc99_sscanf$2=__isoc99_sscanf(ss, "%d %c", &val, &c);
-      if(return_value___isoc99_sscanf$2 == 1)
+      signed int return_value___isoc99_sscanf_2;
+      return_value___isoc99_sscanf_2=__isoc99_sscanf(ss, "%d %c", &val, &c);
+      if(return_value___isoc99_sscanf_2 == 1)
       {
         free((void *)s);
         return val;
@@ -7966,9 +7966,9 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
 // file resources.c line 261
 extern unsigned int get_minutes_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  unsigned int return_value_get_time_resource$1;
-  return_value_get_time_resource$1=get_time_resource(dpy, res_name, res_class, 0);
-  return return_value_get_time_resource$1;
+  unsigned int return_value_get_time_resource_1;
+  return_value_get_time_resource_1=get_time_resource(dpy, res_name, res_class, 0);
+  return return_value_get_time_resource_1;
 }
 
 // get_name
@@ -7982,9 +7982,9 @@ static char * get_name(struct _XDisplay *dpy, unsigned long int window)
   unsigned char *name = ((unsigned char *)NULL);
   unsigned long int atom;
   atom=XInternAtom(dpy, "_SCREENSAVER_IMAGE_FILENAME", 0);
-  signed int return_value_XGetWindowProperty$1;
-  return_value_XGetWindowProperty$1=XGetWindowProperty(dpy, window, atom, (signed long int)0, (signed long int)1024, 0, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &name);
-  if(return_value_XGetWindowProperty$1 == 0 && !(type == 0ul))
+  signed int return_value_XGetWindowProperty_1;
+  return_value_XGetWindowProperty_1=XGetWindowProperty(dpy, window, atom, (signed long int)0, (signed long int)1024, 0, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &name);
+  if(return_value_XGetWindowProperty_1 == 0 && !(type == 0ul))
     return (char *)name;
 
   else
@@ -7995,44 +7995,44 @@ static char * get_name(struct _XDisplay *dpy, unsigned long int window)
 // file ./../utils/resources.h line 19
 extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int cmap, char *res_name, char *res_class)
 {
-  struct anonymous$12 color;
+  struct anonymous_12 color;
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *s2;
   signed int ok = 1;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_XParseColor$3;
-  signed int return_value_XAllocColor$4;
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strcasecmp$7;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_XParseColor_3;
+  signed int return_value_XAllocColor_4;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strcasecmp_7;
   if(!(s == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(s);
-    s2 = (s + (signed long int)return_value_strlen$1) - (signed long int)1;
+    return_value_strlen_1=strlen(s);
+    s2 = (s + (signed long int)return_value_strlen_1) - (signed long int)1;
     for( ; !(s >= s2); s2 = s2 - 1l)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)*s2 == 32)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*s2 == 9 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)*s2 == 9 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         *s2 = (char)0;
 
       else
         break;
     }
-    return_value_XParseColor$3=XParseColor(dpy, cmap, s, &color);
-    if(return_value_XParseColor$3 == 0)
+    return_value_XParseColor_3=XParseColor(dpy, cmap, s, &color);
+    if(return_value_XParseColor_3 == 0)
     {
       fprintf(stderr, "%s: can't parse color %s", progname, s);
       ok = 0;
       goto DEFAULT;
     }
 
-    return_value_XAllocColor$4=XAllocColor(dpy, cmap, &color);
-    if(return_value_XAllocColor$4 == 0)
+    return_value_XAllocColor_4=XAllocColor(dpy, cmap, &color);
+    if(return_value_XAllocColor_4 == 0)
     {
       fprintf(stderr, "%s: couldn't allocate color %s", progname, s);
       ok = 0;
@@ -8052,19 +8052,19 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
       free((void *)s);
 
     signed int black_p;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(res_class);
-    _Bool tmp_if_expr$8;
-    if(return_value_strlen$5 >= 10ul)
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(res_class);
+    _Bool tmp_if_expr_8;
+    if(return_value_strlen_5 >= 10ul)
     {
-      return_value_strlen$6=strlen(res_class);
-      return_value_strcasecmp$7=strcasecmp("Background", (res_class + (signed long int)return_value_strlen$6) - (signed long int)10);
-      tmp_if_expr$8 = !(return_value_strcasecmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_6=strlen(res_class);
+      return_value_strcasecmp_7=strcasecmp("Background", (res_class + (signed long int)return_value_strlen_6) - (signed long int)10);
+      tmp_if_expr_8 = !(return_value_strcasecmp_7 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    black_p = (signed int)tmp_if_expr$8;
+      tmp_if_expr_8 = (_Bool)0;
+    black_p = (signed int)tmp_if_expr_8;
     if(ok == 0)
       fprintf(stderr, ": using %s.\n", black_p != 0 ? "black" : "white");
 
@@ -8072,9 +8072,9 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
     color.blue = (unsigned short int)(black_p != 0 ? 0 : 0xFFFF);
     color.green = color.blue;
     color.red = color.green;
-    signed int return_value_XAllocColor$9;
-    return_value_XAllocColor$9=XAllocColor(dpy, cmap, &color);
-    if(!(return_value_XAllocColor$9 == 0))
+    signed int return_value_XAllocColor_9;
+    return_value_XAllocColor_9=XAllocColor(dpy, cmap, &color);
+    if(!(return_value_XAllocColor_9 == 0))
       return (unsigned int)color.pixel;
 
     else
@@ -8089,16 +8089,16 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
 // file resources.c line 255
 extern unsigned int get_seconds_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  unsigned int return_value_get_time_resource$1;
-  return_value_get_time_resource$1=get_time_resource(dpy, res_name, res_class, 1);
-  return return_value_get_time_resource$1;
+  unsigned int return_value_get_time_resource_1;
+  return_value_get_time_resource_1=get_time_resource(dpy, res_name, res_class, 1);
+  return return_value_get_time_resource_1;
 }
 
 // get_string_resource
 // file ./../utils/resources.h line 15
 extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  struct anonymous$15 value;
+  struct anonymous_15 value;
   char *type;
   char full_name[1024l];
   char full_class[1024l];
@@ -8108,16 +8108,16 @@ extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *r
   strcpy(full_class, progclass);
   strcat(full_class, ".");
   strcat(full_class, res_class);
-  struct _XrmHashBucketRec *return_value_XtDatabase$2;
-  return_value_XtDatabase$2=XtDatabase(dpy);
-  signed int return_value_XrmGetResource$3;
-  return_value_XrmGetResource$3=XrmGetResource(return_value_XtDatabase$2, full_name, full_class, &type, &value);
-  if(!(return_value_XrmGetResource$3 == 0))
+  struct _XrmHashBucketRec *return_value_XtDatabase_2;
+  return_value_XtDatabase_2=XtDatabase(dpy);
+  signed int return_value_XrmGetResource_3;
+  return_value_XrmGetResource_3=XrmGetResource(return_value_XtDatabase_2, full_name, full_class, &type, &value);
+  if(!(return_value_XrmGetResource_3 == 0))
   {
     char *str;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(value.size + (unsigned int)1));
-    str = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(value.size + (unsigned int)1));
+    str = (char *)return_value_malloc_1;
     strncpy(str, (char *)value.addr, (unsigned long int)value.size);
     str[(signed long int)value.size] = (char)0;
     return str;
@@ -8146,25 +8146,25 @@ static unsigned int get_time_resource(struct _XDisplay *dpy, char *res_name, cha
 
 // get_visual
 // file visual.c line 50
-extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p)
+extern struct anonymous_17 * get_visual(struct anonymous_6 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p)
 {
   char *v;
-  char *tmp_if_expr$2;
-  char *return_value_strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value_strdup_1;
   if(!(string == ((const char *)NULL)))
   {
-    return_value_strdup$1=strdup(string);
-    tmp_if_expr$2 = return_value_strdup$1;
+    return_value_strdup_1=strdup(string);
+    tmp_if_expr_2 = return_value_strdup_1;
   }
 
   else
-    tmp_if_expr$2 = ((char *)NULL);
-  v = tmp_if_expr$2;
+    tmp_if_expr_2 = ((char *)NULL);
+  v = tmp_if_expr_2;
   char c;
   char *tmp;
   signed int vclass;
   unsigned long int id;
-  struct anonymous$17 *result = ((struct anonymous$17 *)NULL);
+  struct anonymous_17 *result = ((struct anonymous_17 *)NULL);
   if(!(v == ((char *)NULL)))
   {
     tmp = v;
@@ -8178,132 +8178,132 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
 
   }
 
-  _Bool tmp_if_expr$20;
+  _Bool tmp_if_expr_20;
   if(v == ((char *)NULL))
-    tmp_if_expr$20 = (_Bool)1;
+    tmp_if_expr_20 = (_Bool)1;
 
   else
-    tmp_if_expr$20 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value___isoc99_sscanf$4;
-  signed int return_value___isoc99_sscanf$3;
-  if(tmp_if_expr$20)
+    tmp_if_expr_20 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value___isoc99_sscanf_4;
+  signed int return_value___isoc99_sscanf_3;
+  if(tmp_if_expr_20)
     vclass = -2;
 
   else
   {
-    return_value_strcmp$19=strcmp(v, "default");
-    if(return_value_strcmp$19 == 0)
+    return_value_strcmp_19=strcmp(v, "default");
+    if(return_value_strcmp_19 == 0)
       vclass = -1;
 
     else
     {
-      return_value_strcmp$18=strcmp(v, "best");
-      if(return_value_strcmp$18 == 0)
+      return_value_strcmp_18=strcmp(v, "best");
+      if(return_value_strcmp_18 == 0)
         vclass = -2;
 
       else
       {
-        return_value_strcmp$17=strcmp(v, "mono");
-        if(return_value_strcmp$17 == 0)
+        return_value_strcmp_17=strcmp(v, "mono");
+        if(return_value_strcmp_17 == 0)
           vclass = -3;
 
         else
         {
-          return_value_strcmp$16=strcmp(v, "monochrome");
-          if(return_value_strcmp$16 == 0)
+          return_value_strcmp_16=strcmp(v, "monochrome");
+          if(return_value_strcmp_16 == 0)
             vclass = -3;
 
           else
           {
-            return_value_strcmp$15=strcmp(v, "gray");
-            if(return_value_strcmp$15 == 0)
+            return_value_strcmp_15=strcmp(v, "gray");
+            if(return_value_strcmp_15 == 0)
               vclass = -4;
 
             else
             {
-              return_value_strcmp$14=strcmp(v, "grey");
-              if(return_value_strcmp$14 == 0)
+              return_value_strcmp_14=strcmp(v, "grey");
+              if(return_value_strcmp_14 == 0)
                 vclass = -4;
 
               else
               {
-                return_value_strcmp$13=strcmp(v, "color");
-                if(return_value_strcmp$13 == 0)
+                return_value_strcmp_13=strcmp(v, "color");
+                if(return_value_strcmp_13 == 0)
                   vclass = -5;
 
                 else
                 {
-                  return_value_strcmp$12=strcmp(v, "gl");
-                  if(return_value_strcmp$12 == 0)
+                  return_value_strcmp_12=strcmp(v, "gl");
+                  if(return_value_strcmp_12 == 0)
                     vclass = -6;
 
                   else
                   {
-                    return_value_strcmp$11=strcmp(v, "staticgray");
-                    if(return_value_strcmp$11 == 0)
+                    return_value_strcmp_11=strcmp(v, "staticgray");
+                    if(return_value_strcmp_11 == 0)
                       vclass = 0;
 
                     else
                     {
-                      return_value_strcmp$10=strcmp(v, "staticcolor");
-                      if(return_value_strcmp$10 == 0)
+                      return_value_strcmp_10=strcmp(v, "staticcolor");
+                      if(return_value_strcmp_10 == 0)
                         vclass = 2;
 
                       else
                       {
-                        return_value_strcmp$9=strcmp(v, "truecolor");
-                        if(return_value_strcmp$9 == 0)
+                        return_value_strcmp_9=strcmp(v, "truecolor");
+                        if(return_value_strcmp_9 == 0)
                           vclass = 4;
 
                         else
                         {
-                          return_value_strcmp$8=strcmp(v, "grayscale");
-                          if(return_value_strcmp$8 == 0)
+                          return_value_strcmp_8=strcmp(v, "grayscale");
+                          if(return_value_strcmp_8 == 0)
                             vclass = 1;
 
                           else
                           {
-                            return_value_strcmp$7=strcmp(v, "greyscale");
-                            if(return_value_strcmp$7 == 0)
+                            return_value_strcmp_7=strcmp(v, "greyscale");
+                            if(return_value_strcmp_7 == 0)
                               vclass = 1;
 
                             else
                             {
-                              return_value_strcmp$6=strcmp(v, "pseudocolor");
-                              if(return_value_strcmp$6 == 0)
+                              return_value_strcmp_6=strcmp(v, "pseudocolor");
+                              if(return_value_strcmp_6 == 0)
                                 vclass = 3;
 
                               else
                               {
-                                return_value_strcmp$5=strcmp(v, "directcolor");
-                                if(return_value_strcmp$5 == 0)
+                                return_value_strcmp_5=strcmp(v, "directcolor");
+                                if(return_value_strcmp_5 == 0)
                                   vclass = 5;
 
                                 else
                                 {
-                                  return_value___isoc99_sscanf$4=__isoc99_sscanf(v, " %lu %c", &id, &c);
-                                  if(return_value___isoc99_sscanf$4 == 1)
+                                  return_value___isoc99_sscanf_4=__isoc99_sscanf(v, " %lu %c", &id, &c);
+                                  if(return_value___isoc99_sscanf_4 == 1)
                                     vclass = -7;
 
                                   else
                                   {
-                                    return_value___isoc99_sscanf$3=__isoc99_sscanf(v, " 0x%lx %c", &id, &c);
-                                    if(return_value___isoc99_sscanf$3 == 1)
+                                    return_value___isoc99_sscanf_3=__isoc99_sscanf(v, " 0x%lx %c", &id, &c);
+                                    if(return_value___isoc99_sscanf_3 == 1)
                                       vclass = -7;
 
                                     else
@@ -8328,7 +8328,7 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
       }
     }
   }
-  signed int return_value_visual_depth$21;
+  signed int return_value_visual_depth_21;
   if(vclass == -1)
     result = screen->root_visual;
 
@@ -8340,7 +8340,7 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
       if(vclass == -3)
       {
         result=pick_mono_visual(screen);
-        if(result == ((struct anonymous$17 *)NULL) && !(verbose_p == 0))
+        if(result == ((struct anonymous_17 *)NULL) && !(verbose_p == 0))
           fprintf(stderr, "%s: no monochrome visuals.\n", progname);
 
       }
@@ -8351,13 +8351,13 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
           if(!(prefer_writable_cells == 0))
             result=pick_best_visual_of_class(screen, 1);
 
-          if(result == ((struct anonymous$17 *)NULL))
+          if(result == ((struct anonymous_17 *)NULL))
             result=pick_best_visual_of_class(screen, 0);
 
-          if(result == ((struct anonymous$17 *)NULL))
+          if(result == ((struct anonymous_17 *)NULL))
             result=pick_best_visual_of_class(screen, 1);
 
-          if(result == ((struct anonymous$17 *)NULL) && !(verbose_p == 0))
+          if(result == ((struct anonymous_17 *)NULL) && !(verbose_p == 0))
             fprintf(stderr, "%s: no GrayScale or StaticGray visuals.\n", progname);
 
         }
@@ -8369,20 +8369,20 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
             result = screen->root_visual;
             class=visual_class(screen, result);
             if(!(class == 2) && !(class == 3) && !(class == 4) && !(class == 5))
-              result = ((struct anonymous$17 *)NULL);
+              result = ((struct anonymous_17 *)NULL);
 
-            if(!(result == ((struct anonymous$17 *)NULL)))
+            if(!(result == ((struct anonymous_17 *)NULL)))
             {
-              return_value_visual_depth$21=visual_depth(screen, result);
-              if(!(return_value_visual_depth$21 >= 2))
-                result = ((struct anonymous$17 *)NULL);
+              return_value_visual_depth_21=visual_depth(screen, result);
+              if(!(return_value_visual_depth_21 >= 2))
+                result = ((struct anonymous_17 *)NULL);
 
             }
 
-            if(result == ((struct anonymous$17 *)NULL))
+            if(result == ((struct anonymous_17 *)NULL))
               result=pick_best_visual(screen, prefer_writable_cells, 1);
 
-            if(result == ((struct anonymous$17 *)NULL) && !(verbose_p == 0))
+            if(result == ((struct anonymous_17 *)NULL) && !(verbose_p == 0))
               fprintf(stderr, "%s: no color visuals.\n", progname);
 
           }
@@ -8390,9 +8390,9 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
           else
             if(vclass == -6)
             {
-              struct anonymous$17 *visual;
+              struct anonymous_17 *visual;
               visual=pick_best_gl_visual(screen);
-              if(!(visual == ((struct anonymous$17 *)NULL)))
+              if(!(visual == ((struct anonymous_17 *)NULL)))
                 result = visual;
 
               else
@@ -8405,17 +8405,17 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
               if(vclass == -7)
               {
                 result=id_to_visual(screen, (signed int)id);
-                if(result == ((struct anonymous$17 *)NULL) && !(verbose_p == 0))
+                if(result == ((struct anonymous_17 *)NULL) && !(verbose_p == 0))
                   fprintf(stderr, "%s: no visual with id 0x%x.\n", progname, (unsigned int)id);
 
               }
 
               else
               {
-                struct anonymous$17 *get_visual$$1$$7$$visual;
-                get_visual$$1$$7$$visual=pick_best_visual_of_class(screen, vclass);
-                if(!(get_visual$$1$$7$$visual == ((struct anonymous$17 *)NULL)))
-                  result = get_visual$$1$$7$$visual;
+                struct anonymous_17 *get_visual__1__7__visual;
+                get_visual__1__7__visual=pick_best_visual_of_class(screen, vclass);
+                if(!(get_visual__1__7__visual == ((struct anonymous_17 *)NULL)))
+                  result = get_visual__1__7__visual;
 
                 else
                   if(!(verbose_p == 0))
@@ -8430,16 +8430,16 @@ extern struct anonymous$17 * get_visual(struct anonymous$6 *screen, const char *
 
 // get_visual_resource
 // file ./../utils/visual.h line 16
-extern struct anonymous$17 * get_visual_resource(struct anonymous$6 *screen, char *name, char *class, signed int prefer_writable_cells)
+extern struct anonymous_17 * get_visual_resource(struct anonymous_6 *screen, char *name, char *class, signed int prefer_writable_cells)
 {
   char *string;
   string=get_string_resource(screen->display, name, class);
-  struct anonymous$17 *v;
+  struct anonymous_17 *v;
   v=get_visual(screen, string, prefer_writable_cells, 1);
   if(!(string == ((char *)NULL)))
     free((void *)string);
 
-  if(!(v == ((struct anonymous$17 *)NULL)))
+  if(!(v == ((struct anonymous_17 *)NULL)))
     return v;
 
   else
@@ -8474,13 +8474,13 @@ static void hack_resources(struct _XDisplay *dpy)
       val=get_string_resource(dpy, res, "DesktopGrabber");
       char buf1[255l];
       char buf2[255l];
-      struct anonymous$15 value;
+      struct anonymous_15 value;
       sprintf(buf1, "%.100s.%.100s", progname, res);
       sprintf(buf2, "%.200s -no-desktop", val);
       value.addr = buf2;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(buf2);
-      value.size = (unsigned int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(buf2);
+      value.size = (unsigned int)return_value_strlen_1;
       XrmPutResource(&db, buf1, "String", &value);
     }
 
@@ -8493,18 +8493,18 @@ __CPROVER_DUMP_L2:
 // file grabclient.c line 237
 static void hack_subproc_environment(struct _XDisplay *dpy)
 {
-  const char *odpy = ((struct anonymous$13 *)dpy)->display_name;
+  const char *odpy = ((struct anonymous_13 *)dpy)->display_name;
   char *ndpy;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(odpy);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)20);
-  ndpy = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(odpy);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)20);
+  ndpy = (char *)return_value_malloc_2;
   strcpy(ndpy, "DISPLAY=");
   strcat(ndpy, odpy);
-  signed int return_value_putenv$3;
-  return_value_putenv$3=putenv(ndpy);
-  if(!(return_value_putenv$3 == 0))
+  signed int return_value_putenv_3;
+  return_value_putenv_3=putenv(ndpy);
+  if(!(return_value_putenv_3 == 0))
     abort();
 
 }
@@ -8513,13 +8513,13 @@ static void hack_subproc_environment(struct _XDisplay *dpy)
 // file ./../utils/thread_util.h line 101
 unsigned int hardware_concurrency(struct _XDisplay *dpy)
 {
-  signed int return_value_threads_available$2;
-  return_value_threads_available$2=threads_available(dpy);
-  unsigned int return_value__hardware_concurrency$1;
-  if(return_value_threads_available$2 >= 0)
+  signed int return_value_threads_available_2;
+  return_value_threads_available_2=threads_available(dpy);
+  unsigned int return_value__hardware_concurrency_1;
+  if(return_value_threads_available_2 >= 0)
   {
-    return_value__hardware_concurrency$1=_hardware_concurrency();
-    return return_value__hardware_concurrency$1;
+    return_value__hardware_concurrency_1=_hardware_concurrency();
+    return return_value__hardware_concurrency_1;
   }
 
   return (unsigned int)1;
@@ -8527,11 +8527,11 @@ unsigned int hardware_concurrency(struct _XDisplay *dpy)
 
 // has_writable_cells
 // file ./../utils/visual.h line 25
-extern signed int has_writable_cells(struct anonymous$6 *screen, struct anonymous$17 *visual)
+extern signed int has_writable_cells(struct anonymous_6 *screen, struct anonymous_17 *visual)
 {
-  signed int return_value_visual_class$1;
-  return_value_visual_class$1=visual_class(screen, visual);
-  switch(return_value_visual_class$1)
+  signed int return_value_visual_class_1;
+  return_value_visual_class_1=visual_class(screen, visual);
+  switch(return_value_visual_class_1)
   {
     case 1:
 
@@ -8555,28 +8555,28 @@ extern signed int has_writable_cells(struct anonymous$6 *screen, struct anonymou
 
 // id_to_visual
 // file visual.c line 340
-extern struct anonymous$17 * id_to_visual(struct anonymous$6 *screen, signed int id)
+extern struct anonymous_17 * id_to_visual(struct anonymous_6 *screen, signed int id)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid = (unsigned long int)id;
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
   {
-    struct anonymous$17 *v = (vi_out + (signed long int)0)->visual;
+    struct anonymous_17 *v = (vi_out + (signed long int)0)->visual;
     XFree((void *)(char *)vi_out);
     return v;
   }
 
-  return ((struct anonymous$17 *)NULL);
+  return ((struct anonymous_17 *)NULL);
 }
 
 // ignore_all_errors_ehandler
 // file grabclient.c line 54
-static signed int ignore_all_errors_ehandler(struct _XDisplay *dpy, struct anonymous$11 *error)
+static signed int ignore_all_errors_ehandler(struct _XDisplay *dpy, struct anonymous_11 *error)
 {
   error_handler_hit_p = 1;
   return 0;
@@ -8584,7 +8584,7 @@ static signed int ignore_all_errors_ehandler(struct _XDisplay *dpy, struct anony
 
 // image_loaded_cb
 // file xanalogtv.c line 311
-static void image_loaded_cb(struct anonymous$6 *screen, unsigned long int window, unsigned long int pixmap, const char *name, struct anonymous$7 *geometry, void *closure)
+static void image_loaded_cb(struct anonymous_6 *screen, unsigned long int window, unsigned long int pixmap, const char *name, struct anonymous_7 *geometry, void *closure)
 {
   struct state *st = (struct state *)closure;
   signed int i;
@@ -8616,9 +8616,9 @@ static void image_loaded_cb(struct anonymous$6 *screen, unsigned long int window
   struct _XImage *image;
   image=XGetImage(st->dpy, pixmap, 0, 0, (unsigned int)width, (unsigned int)height, (unsigned long int)~0L, 2);
   XFreePixmap(st->dpy, pixmap);
-  unsigned int return_value_ya_random$1;
-  return_value_ya_random$1=ya_random();
-  analogtv_setup_sync(input, 1, (signed int)(return_value_ya_random$1 % (unsigned int)20 == (unsigned int)0));
+  unsigned int return_value_ya_random_1;
+  return_value_ya_random_1=ya_random();
+  analogtv_setup_sync(input, 1, (signed int)(return_value_ya_random_1 % (unsigned int)20 == (unsigned int)0));
   analogtv_load_ximage(st->tv, input, image);
   if(!(image == ((struct _XImage *)NULL)))
     image->f.destroy_image(image);
@@ -8634,8 +8634,8 @@ static void image_loaded_cb(struct anonymous$6 *screen, unsigned long int window
 static void init_window(struct _XDisplay *dpy, struct _WidgetRec *toplevel, const char *title)
 {
   unsigned long int window;
-  struct anonymous$9 xgwa;
-  XtPopup(toplevel, (enum anonymous$23)XtGrabNone);
+  struct anonymous_9 xgwa;
+  XtPopup(toplevel, (enum anonymous_23)XtGrabNone);
   XtVaSetValues(toplevel, (char *)&XtShellStrings[(signed long int)356], title, (void *)0);
   window = toplevel->core.window;
   XGetWindowAttributes(dpy, window, &xgwa);
@@ -8650,15 +8650,15 @@ signed int io_thread_cancel(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status old_status;
-    signed int return_value___atomic_exchange_n$1;
-    return_value___atomic_exchange_n$1=__atomic_exchange_n(&self->status, _io_thread_cancelled, 5);
-    old_status = (enum _io_thread_status)return_value___atomic_exchange_n$1;
+    signed int return_value___atomic_exchange_n_1;
+    return_value___atomic_exchange_n_1=__atomic_exchange_n(&self->status, _io_thread_cancelled, 5);
+    old_status = (enum _io_thread_status)return_value___atomic_exchange_n_1;
     /* assertion old_status == _io_thread_working || old_status == _io_thread_done */
     assert((signed int)old_status == _io_thread_working || (signed int)old_status == _io_thread_done);
-    signed int return_value_pthread_detach$2;
-    return_value_pthread_detach$2=pthread_detach(self->thread);
+    signed int return_value_pthread_detach_2;
+    return_value_pthread_detach_2=pthread_detach(self->thread);
     /* assertion !(pthread_detach(self->thread)) */
-    assert(!(return_value_pthread_detach$2 != 0));
+    assert(!(return_value_pthread_detach_2 != 0));
     return (signed int)((signed int)old_status != _io_thread_working);
   }
 
@@ -8669,10 +8669,10 @@ signed int io_thread_cancel(struct io_thread *self)
 // file thread_util.c line 950
 void * io_thread_create(struct io_thread *self, void *parent, void * (*start_routine)(void *), struct _XDisplay *dpy, unsigned int stacksize)
 {
-  signed int return_value_threads_available$4;
-  return_value_threads_available$4=threads_available(dpy);
-  signed int return_value_pthread_attr_destroy$3;
-  if(return_value_threads_available$4 >= 0)
+  signed int return_value_threads_available_4;
+  return_value_threads_available_4=threads_available(dpy);
+  signed int return_value_pthread_attr_destroy_3;
+  if(return_value_threads_available_4 >= 0)
   {
     signed int error;
     union pthread_attr_t attr;
@@ -8680,17 +8680,17 @@ void * io_thread_create(struct io_thread *self, void *parent, void * (*start_rou
     if(!(stacksize == 0u))
     {
       attr_ptr = &attr;
-      signed int return_value_pthread_attr_init$1;
-      return_value_pthread_attr_init$1=pthread_attr_init(&attr);
-      if(!(return_value_pthread_attr_init$1 == 0))
+      signed int return_value_pthread_attr_init_1;
+      return_value_pthread_attr_init_1=pthread_attr_init(&attr);
+      if(!(return_value_pthread_attr_init_1 == 0))
         return (void *)0;
 
       /* assertion stacksize >= 16384 */
       assert(stacksize >= (unsigned int)16384);
-      signed int return_value_pthread_attr_setstacksize$2;
-      return_value_pthread_attr_setstacksize$2=pthread_attr_setstacksize(&attr, (unsigned long int)stacksize);
+      signed int return_value_pthread_attr_setstacksize_2;
+      return_value_pthread_attr_setstacksize_2=pthread_attr_setstacksize(&attr, (unsigned long int)stacksize);
       /* assertion !(pthread_attr_setstacksize(&attr, stacksize)) */
-      assert(!(return_value_pthread_attr_setstacksize$2 != 0));
+      assert(!(return_value_pthread_attr_setstacksize_2 != 0));
     }
 
     self->status = (enum _io_thread_status)_io_thread_working;
@@ -8702,9 +8702,9 @@ void * io_thread_create(struct io_thread *self, void *parent, void * (*start_rou
 
     if(!(attr_ptr == ((union pthread_attr_t *)NULL)))
     {
-      return_value_pthread_attr_destroy$3=pthread_attr_destroy(attr_ptr);
+      return_value_pthread_attr_destroy_3=pthread_attr_destroy(attr_ptr);
       /* assertion !(pthread_attr_destroy(attr_ptr)) */
-      assert(!(return_value_pthread_attr_destroy$3 != 0));
+      assert(!(return_value_pthread_attr_destroy_3 != 0));
     }
 
     return parent;
@@ -8720,19 +8720,19 @@ void io_thread_finish(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status status;
-    signed int return_value___atomic_load_n$1;
-    return_value___atomic_load_n$1=__atomic_load_n(&self->status, 5);
-    status = (enum _io_thread_status)return_value___atomic_load_n$1;
+    signed int return_value___atomic_load_n_1;
+    return_value___atomic_load_n_1=__atomic_load_n(&self->status, 5);
+    status = (enum _io_thread_status)return_value___atomic_load_n_1;
     /* assertion status == _io_thread_working || status == _io_thread_done */
     assert((signed int)status == _io_thread_working || (signed int)status == _io_thread_done);
-    signed int return_value_pthread_join$2;
-    return_value_pthread_join$2=pthread_join(self->thread, (void **)(void *)0);
+    signed int return_value_pthread_join_2;
+    return_value_pthread_join_2=pthread_join(self->thread, (void **)(void *)0);
     /* assertion !(pthread_join(self->thread, ((void *)0))) */
-    assert(!(return_value_pthread_join$2 != 0));
-    signed int return_value___atomic_load_n$3;
-    return_value___atomic_load_n$3=__atomic_load_n(&self->status, 5);
+    assert(!(return_value_pthread_join_2 != 0));
+    signed int return_value___atomic_load_n_3;
+    return_value___atomic_load_n_3=__atomic_load_n(&self->status, 5);
     /* assertion (__atomic_load_n((&self->status), 5)) == _io_thread_done */
-    assert(return_value___atomic_load_n$3 == _io_thread_done);
+    assert(return_value___atomic_load_n_3 == _io_thread_done);
   }
 
 }
@@ -8760,9 +8760,9 @@ signed int io_thread_return(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status old_status;
-    signed int return_value___atomic_exchange_n$1;
-    return_value___atomic_exchange_n$1=__atomic_exchange_n(&self->status, _io_thread_done, 5);
-    old_status = (enum _io_thread_status)return_value___atomic_exchange_n$1;
+    signed int return_value___atomic_exchange_n_1;
+    return_value___atomic_exchange_n_1=__atomic_exchange_n(&self->status, _io_thread_done, 5);
+    old_status = (enum _io_thread_status)return_value___atomic_exchange_n_1;
     /* assertion old_status == _io_thread_working || old_status == _io_thread_cancelled */
     assert((signed int)old_status == _io_thread_working || (signed int)old_status == _io_thread_cancelled);
     return (signed int)((signed int)old_status != _io_thread_working);
@@ -8773,22 +8773,22 @@ signed int io_thread_return(struct io_thread *self)
 
 // load_image_async
 // file ./../utils/grabscreen.h line 40
-extern void load_image_async(struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *), void *closure)
+extern void load_image_async(struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *), void *closure)
 {
-  load_random_image_1(screen, window, drawable, callback, closure, ((char **)NULL), ((struct anonymous$7 *)NULL));
+  load_random_image_1(screen, window, drawable, callback, closure, ((char **)NULL), ((struct anonymous_7 *)NULL));
 }
 
 // load_image_async_simple
 // file grabclient.c line 949
-extern struct async_load_state * load_image_async_simple(struct async_load_state *state, struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, char **filename_ret, struct anonymous$7 *geometry_ret)
+extern struct async_load_state * load_image_async_simple(struct async_load_state *state, struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, char **filename_ret, struct anonymous_7 *geometry_ret)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(state == ((struct async_load_state *)NULL)))
-    tmp_if_expr$2 = state->done_p != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = state->done_p != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(!(filename_ret == ((char **)NULL)))
       *filename_ret = state->filename;
@@ -8797,7 +8797,7 @@ extern struct async_load_state * load_image_async_simple(struct async_load_state
       if(!(state->filename == ((char *)NULL)))
         free((void *)state->filename);
 
-    if(!(geometry_ret == ((struct anonymous$7 *)NULL)))
+    if(!(geometry_ret == ((struct anonymous_7 *)NULL)))
       *geometry_ret = state->geom;
 
     free((void *)state);
@@ -8807,9 +8807,9 @@ extern struct async_load_state * load_image_async_simple(struct async_load_state
   else
     if(state == ((struct async_load_state *)NULL))
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct async_load_state) /*24ul*/ );
-      state = (struct async_load_state *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct async_load_state) /*24ul*/ );
+      state = (struct async_load_state *)return_value_calloc_1;
       state->done_p = 0;
       print_loading_msg(screen, window);
       load_image_async(screen, window, drawable, load_image_async_simple_cb, (void *)state);
@@ -8822,53 +8822,53 @@ extern struct async_load_state * load_image_async_simple(struct async_load_state
 
 // load_image_async_simple_cb
 // file grabclient.c line 939
-static void load_image_async_simple_cb(struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, const char *name, struct anonymous$7 *geom, void *closure)
+static void load_image_async_simple_cb(struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, const char *name, struct anonymous_7 *geom, void *closure)
 {
   struct async_load_state *state = (struct async_load_state *)closure;
   state->done_p = 1;
-  char *tmp_if_expr$2;
-  char *return_value_strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value_strdup_1;
   if(!(name == ((const char *)NULL)))
   {
-    return_value_strdup$1=strdup(name);
-    tmp_if_expr$2 = return_value_strdup$1;
+    return_value_strdup_1=strdup(name);
+    tmp_if_expr_2 = return_value_strdup_1;
   }
 
   else
-    tmp_if_expr$2 = ((char *)NULL);
-  state->filename = tmp_if_expr$2;
+    tmp_if_expr_2 = ((char *)NULL);
+  state->filename = tmp_if_expr_2;
   state->geom = *geom;
 }
 
 // load_random_image_1
 // file grabclient.c line 444
-static void load_random_image_1(struct anonymous$6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *), void *closure, char **name_ret, struct anonymous$7 *geom_ret)
+static void load_random_image_1(struct anonymous_6 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *), void *closure, char **name_ret, struct anonymous_7 *geom_ret)
 {
   struct _XDisplay *dpy = screen->display;
   char *grabber;
   grabber=get_string_resource(dpy, "desktopGrabber", "DesktopGrabber");
   char *cmd;
   char id[200l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(grabber == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*grabber != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*grabber != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     fprintf(stderr, "%s: resources installed incorrectly: \"desktopGrabber\" is unset!\n", progname);
     exit(1);
   }
 
   sprintf(id, "0x%lx 0x%lx", (unsigned long int)window, (unsigned long int)drawable);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(grabber);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(id);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)1);
-  cmd = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(grabber);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(id);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)1);
+  cmd = (char *)return_value_malloc_4;
   sprintf(cmd, grabber, (const void *)id);
   free((void *)grabber);
   grabber = ((char *)NULL);
@@ -8878,7 +8878,7 @@ static void load_random_image_1(struct anonymous$6 *screen, unsigned long int wi
 
   XSync(dpy, 1);
   hack_subproc_environment(dpy);
-  if(!(callback == ((void (*)(struct anonymous$6 *, unsigned long int, unsigned long int, const char *, struct anonymous$7 *, void *))NULL)))
+  if(!(callback == ((void (*)(struct anonymous_6 *, unsigned long int, unsigned long int, const char *, struct anonymous_7 *, void *))NULL)))
   {
     if(!(name_ret == ((char **)NULL)))
       abort();
@@ -8892,7 +8892,7 @@ static void load_random_image_1(struct anonymous$6 *screen, unsigned long int wi
     if(!(name_ret == ((char **)NULL)))
       *name_ret=get_name(dpy, window);
 
-    if(!(geom_ret == ((struct anonymous$7 *)NULL)))
+    if(!(geom_ret == ((struct anonymous_7 *)NULL)))
       get_geometry(dpy, window, geom_ret);
 
   }
@@ -8929,7 +8929,7 @@ static void load_station_images(struct state *st)
 signed int main(signed int argc, char **argv)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  struct anonymous$9 xgwa;
+  struct anonymous_9 xgwa;
   struct _WidgetRec *toplevel;
   struct _XDisplay *dpy;
   unsigned long int window;
@@ -8948,43 +8948,43 @@ signed int main(signed int argc, char **argv)
     ft->setup_cb(ft, ft->setup_arg);
 
   merge_options();
-  toplevel=XtAppInitialize(&app, progclass, merged_options, (unsigned int)merged_options_size, &argc, argv, merged_defaults, ((struct anonymous$21 *)NULL), (unsigned int)0);
+  toplevel=XtAppInitialize(&app, progclass, merged_options, (unsigned int)merged_options_size, &argc, argv, merged_defaults, ((struct anonymous_21 *)NULL), (unsigned int)0);
   dpy = toplevel->core.screen->display;
   XtGetApplicationNameAndClass(dpy, (char **)&progname, (char **)&progclass);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(progname);
-  if(return_value_strlen$1 >= 100ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(progname);
+  if(return_value_strlen_1 >= 100ul)
     ((char *)progname)[(signed long int)100] = (char)0;
 
   XSetErrorHandler(screenhack_ehandler);
   XA_WM_PROTOCOLS=XInternAtom(dpy, "WM_PROTOCOLS", 0);
   XA_WM_DELETE_WINDOW=XInternAtom(dpy, "WM_DELETE_WINDOW", 0);
   char *v;
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr(screensaver_id, 32);
-  char *return_value_strdup$3;
-  return_value_strdup$3=strdup(return_value_strchr$2);
-  v = (char *)return_value_strdup$3;
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr(screensaver_id, 32);
+  char *return_value_strdup_3;
+  return_value_strdup_3=strdup(return_value_strchr_2);
+  v = (char *)return_value_strdup_3;
   char *s1;
   char *s2;
   char *s3;
   char *s4;
   const char *ot;
   ot=get_string_resource(dpy, "title", "Title");
-  char *return_value_strchr$4;
-  return_value_strchr$4=strchr(v, 32);
-  s1 = (char *)return_value_strchr$4;
+  char *return_value_strchr_4;
+  return_value_strchr_4=strchr(v, 32);
+  s1 = (char *)return_value_strchr_4;
   s1 = s1 + 1l;
-  char *return_value_strchr$5;
-  return_value_strchr$5=strchr(s1, 32);
-  s2 = (char *)return_value_strchr$5;
-  char *return_value_strchr$6;
-  return_value_strchr$6=strchr(v, 40);
-  s3 = (char *)return_value_strchr$6;
+  char *return_value_strchr_5;
+  return_value_strchr_5=strchr(s1, 32);
+  s2 = (char *)return_value_strchr_5;
+  char *return_value_strchr_6;
+  return_value_strchr_6=strchr(v, 40);
+  s3 = (char *)return_value_strchr_6;
   s3 = s3 + 1l;
-  char *return_value_strchr$7;
-  return_value_strchr$7=strchr(s3, 41);
-  s4 = (char *)return_value_strchr$7;
+  char *return_value_strchr_7;
+  return_value_strchr_7=strchr(s3, 41);
+  s4 = (char *)return_value_strchr_7;
   *s2 = (char)0;
   *s4 = (char)0;
   if(!(ot == ((const char *)NULL)))
@@ -8996,7 +8996,7 @@ signed int main(signed int argc, char **argv)
 
   sprintf(version, "%.50s%s%s: from the XScreenSaver %s distribution (%s)", ot != ((const char *)NULL) ? ot : "", ot != ((const char *)NULL) ? ": " : "", progclass, s1, s3);
   free((void *)v);
-  signed int return_value_strcmp$9;
+  signed int return_value_strcmp_9;
   if(argc >= 2)
   {
     const char *s;
@@ -9004,18 +9004,18 @@ signed int main(signed int argc, char **argv)
     signed int x = 18;
     signed int end = 78;
     signed int help_p;
-    signed int return_value_strcmp$8;
-    return_value_strcmp$8=strcmp(argv[(signed long int)1], "-help");
-    _Bool tmp_if_expr$10;
-    if(return_value_strcmp$8 == 0)
-      tmp_if_expr$10 = (_Bool)1;
+    signed int return_value_strcmp_8;
+    return_value_strcmp_8=strcmp(argv[(signed long int)1], "-help");
+    _Bool tmp_if_expr_10;
+    if(return_value_strcmp_8 == 0)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$9=strcmp(argv[(signed long int)1], "--help");
-      tmp_if_expr$10 = !(return_value_strcmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_9=strcmp(argv[(signed long int)1], "--help");
+      tmp_if_expr_10 = !(return_value_strcmp_9 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    help_p = (signed int)tmp_if_expr$10;
+    help_p = (signed int)tmp_if_expr_10;
     fprintf(stderr, "%s\n", (const void *)version);
     s = progclass;
     for( ; !(*s == 0); s = s + 1l)
@@ -9031,9 +9031,9 @@ signed int main(signed int argc, char **argv)
       char *sw = (merged_options + (signed long int)i)->option;
       signed int argp = (signed int)((signed int)(merged_options + (signed long int)i)->argKind == XrmoptionSepArg);
       signed int size;
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(sw);
-      size = (signed int)(return_value_strlen$11 + (unsigned long int)(argp != 0 ? 6 : 0) + (unsigned long int)2);
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(sw);
+      size = (signed int)(return_value_strlen_11 + (unsigned long int)(argp != 0 ? 6 : 0) + (unsigned long int)2);
       if(size + x >= end)
       {
         fprintf(stderr, "\n\t\t ");
@@ -9053,36 +9053,36 @@ signed int main(signed int argc, char **argv)
     exit(help_p != 0 ? 0 : 1);
   }
 
-  char **main$$1$$3$$s = merged_defaults;
-  for( ; !(*main$$1$$3$$s == ((char *)NULL)); main$$1$$3$$s = main$$1$$3$$s + 1l)
-    free((void *)*main$$1$$3$$s);
+  char **main__1__3__s = merged_defaults;
+  for( ; !(*main__1__3__s == ((char *)NULL)); main__1__3__s = main__1__3__s + 1l)
+    free((void *)*main__1__3__s);
   free((void *)merged_options);
   free((void *)merged_defaults);
-  merged_options = ((struct anonymous$28 *)NULL);
+  merged_options = ((struct anonymous_28 *)NULL);
   merged_defaults = ((char **)NULL);
-  signed int return_value_get_boolean_resource$12;
-  return_value_get_boolean_resource$12=get_boolean_resource(dpy, "dontClearRoot", "Boolean");
-  dont_clear = (char)return_value_get_boolean_resource$12;
+  signed int return_value_get_boolean_resource_12;
+  return_value_get_boolean_resource_12=get_boolean_resource(dpy, "dontClearRoot", "Boolean");
+  dont_clear = (char)return_value_get_boolean_resource_12;
   mono_p=get_boolean_resource(dpy, "mono", "Boolean");
-  if(!((((struct anonymous$13 *)dpy)->screens + (signed long int)((struct anonymous$13 *)dpy)->default_screen)->root_visual->map_entries >= 3))
+  if(!((((struct anonymous_13 *)dpy)->screens + (signed long int)((struct anonymous_13 *)dpy)->default_screen)->root_visual->map_entries >= 3))
     mono_p = 1;
 
   root_p=get_boolean_resource(dpy, "root", "Boolean");
-  char *main$$1$$4$$s;
-  main$$1$$4$$s=get_string_resource(dpy, "windowID", "WindowID");
-  signed int return_value_get_integer_resource$13;
-  if(!(main$$1$$4$$s == ((char *)NULL)))
+  char *main__1__4__s;
+  main__1__4__s=get_string_resource(dpy, "windowID", "WindowID");
+  signed int return_value_get_integer_resource_13;
+  if(!(main__1__4__s == ((char *)NULL)))
   {
-    if(!(*main$$1$$4$$s == 0))
+    if(!(*main__1__4__s == 0))
     {
-      return_value_get_integer_resource$13=get_integer_resource(dpy, "windowID", "WindowID");
-      on_window = (unsigned long int)return_value_get_integer_resource$13;
+      return_value_get_integer_resource_13=get_integer_resource(dpy, "windowID", "WindowID");
+      on_window = (unsigned long int)return_value_get_integer_resource_13;
     }
 
   }
 
-  if(!(main$$1$$4$$s == ((char *)NULL)))
-    free((void *)main$$1$$4$$s);
+  if(!(main__1__4__s == ((char *)NULL)))
+    free((void *)main__1__4__s);
 
   if(!(on_window == 0ul))
   {
@@ -9120,9 +9120,9 @@ signed int main(signed int argc, char **argv)
       init_window(dpy, toplevel, version);
       window = toplevel->core.window;
       XGetWindowAttributes(dpy, window, &xgwa);
-      signed int return_value_get_boolean_resource$14;
-      return_value_get_boolean_resource$14=get_boolean_resource(dpy, "pair", "Boolean");
-      if(!(return_value_get_boolean_resource$14 == 0))
+      signed int return_value_get_boolean_resource_14;
+      return_value_get_boolean_resource_14=get_boolean_resource(dpy, "pair", "Boolean");
+      if(!(return_value_get_boolean_resource_14 == 0))
       {
         toplevel2=make_shell(xgwa.screen, ((struct _WidgetRec *)NULL), (signed int)toplevel->core.width, (signed int)toplevel->core.height);
         init_window(dpy, toplevel2, version);
@@ -9157,19 +9157,19 @@ signed int main(signed int argc, char **argv)
 
 // make_shell
 // file screenhack.c line 612
-static struct _WidgetRec * make_shell(struct anonymous$6 *screen, struct _WidgetRec *toplevel, signed int width, signed int height)
+static struct _WidgetRec * make_shell(struct anonymous_6 *screen, struct _WidgetRec *toplevel, signed int width, signed int height)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$17 *visual;
+  struct anonymous_17 *visual;
   visual=pick_visual(screen);
   char def_visual_p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(toplevel == ((struct _WidgetRec *)NULL)))
-    tmp_if_expr$1 = visual == screen->root_visual ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = visual == screen->root_visual ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  def_visual_p = (char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  def_visual_p = (char)tmp_if_expr_1;
   if(!(width >= 1))
     width = 600;
 
@@ -9182,13 +9182,13 @@ static struct _WidgetRec * make_shell(struct anonymous$6 *screen, struct _Widget
     XtVaSetValues(toplevel, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
     XtRealizeWidget(toplevel);
     window = toplevel->core.window;
-    signed int return_value_get_boolean_resource$2;
-    return_value_get_boolean_resource$2=get_boolean_resource(dpy, "installColormap", "InstallColormap");
-    if(!(return_value_get_boolean_resource$2 == 0))
+    signed int return_value_get_boolean_resource_2;
+    return_value_get_boolean_resource_2=get_boolean_resource(dpy, "installColormap", "InstallColormap");
+    if(!(return_value_get_boolean_resource_2 == 0))
     {
-      unsigned long int make_shell$$1$$1$$1$$cmap;
-      make_shell$$1$$1$$1$$cmap=XCreateColormap(dpy, window, screen->root_visual, 0);
-      XSetWindowColormap(dpy, window, make_shell$$1$$1$$1$$cmap);
+      unsigned long int make_shell__1__1__1__cmap;
+      make_shell__1__1__1__cmap=XCreateColormap(dpy, window, screen->root_visual, 0);
+      XSetWindowColormap(dpy, window, make_shell__1__1__1__cmap);
     }
 
   }
@@ -9199,14 +9199,14 @@ static struct _WidgetRec * make_shell(struct anonymous$6 *screen, struct _Widget
     unsigned int bd;
     struct _WidgetRec *new;
     unsigned long int cmap;
-    unsigned long int return_value_VirtualRootWindowOfScreen$3;
-    return_value_VirtualRootWindowOfScreen$3=VirtualRootWindowOfScreen(screen);
-    cmap=XCreateColormap(dpy, return_value_VirtualRootWindowOfScreen$3, visual, 0);
+    unsigned long int return_value_VirtualRootWindowOfScreen_3;
+    return_value_VirtualRootWindowOfScreen_3=VirtualRootWindowOfScreen(screen);
+    cmap=XCreateColormap(dpy, return_value_VirtualRootWindowOfScreen_3, visual, 0);
     bg=get_pixel_resource(dpy, cmap, "background", "Background");
     bd=get_pixel_resource(dpy, cmap, "borderColor", "Foreground");
-    signed int return_value_visual_depth$4;
-    return_value_visual_depth$4=visual_depth(screen, visual);
-    new=XtVaAppCreateShell(progname, progclass, topLevelShellWidgetClass, dpy, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtShellStrings[(signed long int)104], visual, (char *)&XtStrings[(signed long int)163], return_value_visual_depth$4, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtStrings[(signed long int)154], cmap, (char *)&XtStrings[(signed long int)52], (unsigned long int)bg, (char *)&XtStrings[(signed long int)87], (unsigned long int)bd, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
+    signed int return_value_visual_depth_4;
+    return_value_visual_depth_4=visual_depth(screen, visual);
+    new=XtVaAppCreateShell(progname, progclass, topLevelShellWidgetClass, dpy, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtShellStrings[(signed long int)104], visual, (char *)&XtStrings[(signed long int)163], return_value_visual_depth_4, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtStrings[(signed long int)154], cmap, (char *)&XtStrings[(signed long int)52], (unsigned long int)bg, (char *)&XtStrings[(signed long int)87], (unsigned long int)bd, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
     if(toplevel == ((struct _WidgetRec *)NULL))
       XtVaSetValues(new, (char *)&XtStrings[(signed long int)885], 0, (char *)&XtStrings[(signed long int)887], 550, (void *)0);
 
@@ -9221,9 +9221,9 @@ static struct _WidgetRec * make_shell(struct anonymous$6 *screen, struct _Widget
 static void merge_options(void)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  const struct anonymous$28 *options = ft->options;
+  const struct anonymous_28 *options = ft->options;
   const char * const *defaults = ft->defaults;
-  const char *merge_options$$1$$progclass = ft->progclass;
+  const char *merge_options__1__progclass = ft->progclass;
   signed int def_opts_size;
   signed int opts_size;
   signed int def_defaults_size;
@@ -9235,20 +9235,20 @@ static void merge_options(void)
   for( ; !((options + (signed long int)opts_size)->option == ((char *)NULL)); opts_size = opts_size + 1)
     ;
   merged_options_size = def_opts_size + opts_size;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(merged_options_size + 1) * sizeof(struct anonymous$28) /*32ul*/ );
-  merged_options = (struct anonymous$28 *)return_value_malloc$1;
-  memcpy((void *)merged_options, (const void *)default_options, (unsigned long int)def_opts_size * sizeof(struct anonymous$28) /*32ul*/ );
-  memcpy((void *)(merged_options + (signed long int)def_opts_size), (const void *)options, (unsigned long int)(opts_size + 1) * sizeof(struct anonymous$28) /*32ul*/ );
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(merged_options_size + 1) * sizeof(struct anonymous_28) /*32ul*/ );
+  merged_options = (struct anonymous_28 *)return_value_malloc_1;
+  memcpy((void *)merged_options, (const void *)default_options, (unsigned long int)def_opts_size * sizeof(struct anonymous_28) /*32ul*/ );
+  memcpy((void *)(merged_options + (signed long int)def_opts_size), (const void *)options, (unsigned long int)(opts_size + 1) * sizeof(struct anonymous_28) /*32ul*/ );
   def_defaults_size = 0;
   for( ; !(default_defaults[(signed long int)def_defaults_size] == ((char *)NULL)); def_defaults_size = def_defaults_size + 1)
     ;
   defaults_size = 0;
   for( ; !(defaults[(signed long int)defaults_size] == ((const char *)NULL)); defaults_size = defaults_size + 1)
     ;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(def_defaults_size + defaults_size + 1) * sizeof(const char *) /*8ul*/ );
-  merged_defaults = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(def_defaults_size + defaults_size + 1) * sizeof(const char *) /*8ul*/ );
+  merged_defaults = (char **)return_value_malloc_2;
   memcpy((void *)merged_defaults, (const void *)default_defaults, (unsigned long int)def_defaults_size * sizeof(const char *) /*8ul*/ );
   memcpy((void *)(merged_defaults + (signed long int)def_defaults_size), (const void *)defaults, (unsigned long int)(defaults_size + 1) * sizeof(const char *) /*8ul*/ );
   char **s = merged_defaults;
@@ -9257,14 +9257,14 @@ static void merge_options(void)
     {
       const char *oldr = *s;
       char *newr;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(oldr);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(merge_options$$1$$progclass);
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)3);
-      newr = (char *)return_value_malloc$5;
-      strcpy(newr, merge_options$$1$$progclass);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(oldr);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(merge_options__1__progclass);
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)3);
+      newr = (char *)return_value_malloc_5;
+      strcpy(newr, merge_options__1__progclass);
       strcat(newr, oldr);
       *s = newr;
     }
@@ -9281,31 +9281,31 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
   unsigned int m;
   unsigned int s;
   char c;
-  signed int return_value___isoc99_sscanf$6;
-  return_value___isoc99_sscanf$6=__isoc99_sscanf(string, " %u : %2u : %2u %c", &h, &m, &s, &c);
-  signed int return_value___isoc99_sscanf$3;
-  signed int return_value___isoc99_sscanf$4;
-  signed int return_value___isoc99_sscanf$2;
-  signed int return_value___isoc99_sscanf$1;
-  if(!(return_value___isoc99_sscanf$6 == 3))
+  signed int return_value___isoc99_sscanf_6;
+  return_value___isoc99_sscanf_6=__isoc99_sscanf(string, " %u : %2u : %2u %c", &h, &m, &s, &c);
+  signed int return_value___isoc99_sscanf_3;
+  signed int return_value___isoc99_sscanf_4;
+  signed int return_value___isoc99_sscanf_2;
+  signed int return_value___isoc99_sscanf_1;
+  if(!(return_value___isoc99_sscanf_6 == 3))
   {
-    return_value___isoc99_sscanf$3=__isoc99_sscanf(string, " : %2u : %2u %c", &m, &s, &c);
-    _Bool tmp_if_expr$5;
-    if(return_value___isoc99_sscanf$3 == 2)
-      tmp_if_expr$5 = (_Bool)1;
+    return_value___isoc99_sscanf_3=__isoc99_sscanf(string, " : %2u : %2u %c", &m, &s, &c);
+    _Bool tmp_if_expr_5;
+    if(return_value___isoc99_sscanf_3 == 2)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___isoc99_sscanf$4=__isoc99_sscanf(string, " %u : %2u %c", &m, &s, &c);
-      tmp_if_expr$5 = 2 == return_value___isoc99_sscanf$4 ? (_Bool)1 : (_Bool)0;
+      return_value___isoc99_sscanf_4=__isoc99_sscanf(string, " %u : %2u %c", &m, &s, &c);
+      tmp_if_expr_5 = 2 == return_value___isoc99_sscanf_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       h = (unsigned int)0;
 
     else
     {
-      return_value___isoc99_sscanf$2=__isoc99_sscanf(string, " : %2u %c", &s, &c);
-      if(return_value___isoc99_sscanf$2 == 1)
+      return_value___isoc99_sscanf_2=__isoc99_sscanf(string, " : %2u %c", &s, &c);
+      if(return_value___isoc99_sscanf_2 == 1)
       {
         m = (unsigned int)0;
         h = m;
@@ -9313,8 +9313,8 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
 
       else
       {
-        return_value___isoc99_sscanf$1=__isoc99_sscanf(string, " %u %c", seconds_default_p != 0 ? &s : &m, &c);
-        if(return_value___isoc99_sscanf$1 == 1)
+        return_value___isoc99_sscanf_1=__isoc99_sscanf(string, " %u %c", seconds_default_p != 0 ? &s : &m, &c);
+        if(return_value___isoc99_sscanf_1 == 1)
         {
           h = (unsigned int)0;
           if(!(seconds_default_p == 0))
@@ -9358,26 +9358,26 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
 
 // pick_best_gl_visual
 // file visual.c line 281
-static struct anonymous$17 * pick_best_gl_visual(struct anonymous$6 *screen)
+static struct anonymous_17 * pick_best_gl_visual(struct anonymous_6 *screen)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
-  struct anonymous$17 *result = ((struct anonymous$17 *)NULL);
+  struct anonymous_17 *result = ((struct anonymous_17 *)NULL);
   signed int ndepths = 0;
   signed int *depths;
-  signed int return_value_screen_number$1;
-  return_value_screen_number$1=screen_number(screen);
-  depths=XListDepths(dpy, return_value_screen_number$1, &ndepths);
+  signed int return_value_screen_number_1;
+  return_value_screen_number_1=screen_number(screen);
+  depths=XListDepths(dpy, return_value_screen_number_1, &ndepths);
   signed int screen_depth;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(depths == ((signed int *)NULL)) && !(ndepths == 0))
-    tmp_if_expr$2 = depths[(signed long int)(ndepths - 1)];
+    tmp_if_expr_2 = depths[(signed long int)(ndepths - 1)];
 
   else
-    tmp_if_expr$2 = 0;
-  screen_depth = tmp_if_expr$2;
+    tmp_if_expr_2 = 0;
+  screen_depth = tmp_if_expr_2;
   XFree((void *)depths);
   vi_in.class = 4;
   vi_in.screen=screen_number(screen);
@@ -9386,10 +9386,10 @@ static struct anonymous$17 * pick_best_gl_visual(struct anonymous$6 *screen)
   if(out_count >= 1)
     result = (vi_out + (signed long int)0)->visual;
 
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
     XFree((void *)(char *)vi_out);
 
-  if(result == ((struct anonymous$17 *)NULL) && screen_depth >= 25)
+  if(result == ((struct anonymous_17 *)NULL) && screen_depth >= 25)
   {
     vi_in.class = 4;
     vi_in.screen=screen_number(screen);
@@ -9400,10 +9400,10 @@ static struct anonymous$17 * pick_best_gl_visual(struct anonymous$6 *screen)
 
   }
 
-  if(result == ((struct anonymous$17 *)NULL))
+  if(result == ((struct anonymous_17 *)NULL))
     result=pick_best_visual_of_class(screen, 4);
 
-  if(result == ((struct anonymous$17 *)NULL))
+  if(result == ((struct anonymous_17 *)NULL))
     result=pick_best_visual(screen, 0, 0);
 
   return result;
@@ -9411,17 +9411,17 @@ static struct anonymous$17 * pick_best_gl_visual(struct anonymous$6 *screen)
 
 // pick_best_visual
 // file visual.c line 174
-static struct anonymous$17 * pick_best_visual(struct anonymous$6 *screen, signed int prefer_writable_cells, signed int color_only)
+static struct anonymous_17 * pick_best_visual(struct anonymous_6 *screen, signed int prefer_writable_cells, signed int color_only)
 {
-  struct anonymous$17 *visual;
-  signed int return_value_visual_depth$1;
+  struct anonymous_17 *visual;
+  signed int return_value_visual_depth_1;
   if(prefer_writable_cells == 0)
   {
     visual=pick_best_visual_of_class(screen, 4);
-    if(!(visual == ((struct anonymous$17 *)NULL)))
+    if(!(visual == ((struct anonymous_17 *)NULL)))
     {
-      return_value_visual_depth$1=visual_depth(screen, visual);
-      if(return_value_visual_depth$1 >= 16)
+      return_value_visual_depth_1=visual_depth(screen, visual);
+      if(return_value_visual_depth_1 >= 16)
         return visual;
 
     }
@@ -9429,111 +9429,111 @@ static struct anonymous$17 * pick_best_visual(struct anonymous$6 *screen, signed
   }
 
   visual=pick_best_visual_of_class(screen, 3);
-  signed int return_value_visual_depth$2;
-  if(!(visual == ((struct anonymous$17 *)NULL)))
+  signed int return_value_visual_depth_2;
+  if(!(visual == ((struct anonymous_17 *)NULL)))
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(color_only == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$2=visual_depth(screen, visual);
-      tmp_if_expr$3 = return_value_visual_depth$2 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_2=visual_depth(screen, visual);
+      tmp_if_expr_3 = return_value_visual_depth_2 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 4);
-  signed int return_value_visual_depth$4;
-  if(!(visual == ((struct anonymous$17 *)NULL)))
+  signed int return_value_visual_depth_4;
+  if(!(visual == ((struct anonymous_17 *)NULL)))
   {
-    _Bool tmp_if_expr$5;
+    _Bool tmp_if_expr_5;
     if(color_only == 0)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$4=visual_depth(screen, visual);
-      tmp_if_expr$5 = return_value_visual_depth$4 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_4=visual_depth(screen, visual);
+      tmp_if_expr_5 = return_value_visual_depth_4 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 5);
-  signed int return_value_visual_depth$6;
-  if(!(visual == ((struct anonymous$17 *)NULL)))
+  signed int return_value_visual_depth_6;
+  if(!(visual == ((struct anonymous_17 *)NULL)))
   {
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(color_only == 0)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$6=visual_depth(screen, visual);
-      tmp_if_expr$7 = return_value_visual_depth$6 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_6=visual_depth(screen, visual);
+      tmp_if_expr_7 = return_value_visual_depth_6 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 2);
-  signed int return_value_visual_depth$8;
-  if(!(visual == ((struct anonymous$17 *)NULL)))
+  signed int return_value_visual_depth_8;
+  if(!(visual == ((struct anonymous_17 *)NULL)))
   {
-    _Bool tmp_if_expr$9;
+    _Bool tmp_if_expr_9;
     if(color_only == 0)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$8=visual_depth(screen, visual);
-      tmp_if_expr$9 = return_value_visual_depth$8 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_8=visual_depth(screen, visual);
+      tmp_if_expr_9 = return_value_visual_depth_8 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       return visual;
 
   }
 
-  signed int return_value_visual_depth$10;
-  signed int return_value_visual_depth$12;
+  signed int return_value_visual_depth_10;
+  signed int return_value_visual_depth_12;
   if(color_only == 0)
   {
     visual=pick_best_visual_of_class(screen, 1);
-    if(!(visual == ((struct anonymous$17 *)NULL)))
+    if(!(visual == ((struct anonymous_17 *)NULL)))
     {
-      _Bool tmp_if_expr$11;
+      _Bool tmp_if_expr_11;
       if(color_only == 0)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        return_value_visual_depth$10=visual_depth(screen, visual);
-        tmp_if_expr$11 = return_value_visual_depth$10 > 1 ? (_Bool)1 : (_Bool)0;
+        return_value_visual_depth_10=visual_depth(screen, visual);
+        tmp_if_expr_11 = return_value_visual_depth_10 > 1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
+      if(tmp_if_expr_11)
         return visual;
 
     }
 
     visual=pick_best_visual_of_class(screen, 0);
-    if(!(visual == ((struct anonymous$17 *)NULL)))
+    if(!(visual == ((struct anonymous_17 *)NULL)))
     {
-      _Bool tmp_if_expr$13;
+      _Bool tmp_if_expr_13;
       if(color_only == 0)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        return_value_visual_depth$12=visual_depth(screen, visual);
-        tmp_if_expr$13 = return_value_visual_depth$12 > 1 ? (_Bool)1 : (_Bool)0;
+        return_value_visual_depth_12=visual_depth(screen, visual);
+        tmp_if_expr_13 = return_value_visual_depth_12 > 1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
+      if(tmp_if_expr_13)
         return visual;
 
     }
@@ -9541,101 +9541,101 @@ static struct anonymous$17 * pick_best_visual(struct anonymous$6 *screen, signed
   }
 
   visual = screen->root_visual;
-  _Bool tmp_if_expr$15;
-  signed int return_value_visual_depth$14;
+  _Bool tmp_if_expr_15;
+  signed int return_value_visual_depth_14;
   if(color_only == 0)
-    tmp_if_expr$15 = (_Bool)1;
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_visual_depth$14=visual_depth(screen, visual);
-    tmp_if_expr$15 = return_value_visual_depth$14 > 1 ? (_Bool)1 : (_Bool)0;
+    return_value_visual_depth_14=visual_depth(screen, visual);
+    tmp_if_expr_15 = return_value_visual_depth_14 > 1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$15)
+  if(tmp_if_expr_15)
     return visual;
 
   else
-    return ((struct anonymous$17 *)NULL);
+    return ((struct anonymous_17 *)NULL);
 }
 
 // pick_best_visual_of_class
 // file visual.c line 242
-static struct anonymous$17 * pick_best_visual_of_class(struct anonymous$6 *screen, signed int visual_class)
+static struct anonymous_17 * pick_best_visual_of_class(struct anonymous_6 *screen, signed int visual_class)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.class = visual_class;
   vi_in.screen=screen_number(screen);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x8 | 0x2), &vi_in, &out_count);
-  _Bool tmp_if_expr$1;
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  _Bool tmp_if_expr_1;
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
   {
     signed int i;
     signed int best;
-    struct anonymous$17 *visual;
+    struct anonymous_17 *visual;
     i = out_count - 1;
     best = i;
     for( ; i >= 0; i = i - 1)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((vi_out + (signed long int)best)->depth >= (vi_out + (signed long int)i)->depth))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if((vi_out + (signed long int)i)->depth == (vi_out + (signed long int)best)->depth)
-          tmp_if_expr$1 = (vi_out + (signed long int)i)->colormap_size > (vi_out + (signed long int)best)->colormap_size ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (vi_out + (signed long int)i)->colormap_size > (vi_out + (signed long int)best)->colormap_size ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         best = i;
 
     }
-    struct anonymous$17 *tmp_if_expr$3;
+    struct anonymous_17 *tmp_if_expr_3;
     if(!(best >= out_count))
-      tmp_if_expr$3 = (vi_out + (signed long int)best)->visual;
+      tmp_if_expr_3 = (vi_out + (signed long int)best)->visual;
 
     else
-      tmp_if_expr$3 = ((struct anonymous$17 *)NULL);
-    visual = tmp_if_expr$3;
+      tmp_if_expr_3 = ((struct anonymous_17 *)NULL);
+    visual = tmp_if_expr_3;
     XFree((void *)(char *)vi_out);
     return visual;
   }
 
   else
-    return ((struct anonymous$17 *)NULL);
+    return ((struct anonymous_17 *)NULL);
 }
 
 // pick_mono_visual
 // file visual.c line 218
-static struct anonymous$17 * pick_mono_visual(struct anonymous$6 *screen)
+static struct anonymous_17 * pick_mono_visual(struct anonymous_6 *screen)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.depth = 1;
   vi_in.screen=screen_number(screen);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x4 | 0x2), &vi_in, &out_count);
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
   {
-    struct anonymous$17 *v;
-    struct anonymous$17 *tmp_if_expr$1;
+    struct anonymous_17 *v;
+    struct anonymous_17 *tmp_if_expr_1;
     if(out_count >= 1)
-      tmp_if_expr$1 = (vi_out + (signed long int)0)->visual;
+      tmp_if_expr_1 = (vi_out + (signed long int)0)->visual;
 
     else
-      tmp_if_expr$1 = ((struct anonymous$17 *)NULL);
-    v = tmp_if_expr$1;
-    if(!(v == ((struct anonymous$17 *)NULL)))
+      tmp_if_expr_1 = ((struct anonymous_17 *)NULL);
+    v = tmp_if_expr_1;
+    if(!(v == ((struct anonymous_17 *)NULL)))
     {
       if(!(vi_out->depth == 1))
-        v = ((struct anonymous$17 *)NULL);
+        v = ((struct anonymous_17 *)NULL);
 
     }
 
@@ -9644,36 +9644,36 @@ static struct anonymous$17 * pick_mono_visual(struct anonymous$6 *screen)
   }
 
   else
-    return ((struct anonymous$17 *)NULL);
+    return ((struct anonymous_17 *)NULL);
 }
 
 // pick_visual
 // file screenhack.c line 321
-static struct anonymous$17 * pick_visual(struct anonymous$6 *screen)
+static struct anonymous_17 * pick_visual(struct anonymous_6 *screen)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  if(!(ft->pick_visual_hook == ((struct anonymous$17 * (*)(struct anonymous$6 *))NULL)))
+  if(!(ft->pick_visual_hook == ((struct anonymous_17 * (*)(struct anonymous_6 *))NULL)))
   {
-    struct anonymous$17 *v;
+    struct anonymous_17 *v;
     v=ft->pick_visual_hook(screen);
-    if(!(v == ((struct anonymous$17 *)NULL)))
+    if(!(v == ((struct anonymous_17 *)NULL)))
       return v;
 
   }
 
-  struct anonymous$17 *return_value_get_visual_resource$1;
-  return_value_get_visual_resource$1=get_visual_resource(screen, "visualID", "VisualID", 0);
-  return return_value_get_visual_resource$1;
+  struct anonymous_17 *return_value_get_visual_resource_1;
+  return_value_get_visual_resource_1=get_visual_resource(screen, "visualID", "VisualID", 0);
+  return return_value_get_visual_resource_1;
 }
 
 // print_loading_msg
 // file grabclient.c line 879
-static void print_loading_msg(struct anonymous$6 *screen, unsigned long int window)
+static void print_loading_msg(struct anonymous_6 *screen, unsigned long int window)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$9 xgwa;
-  struct anonymous$8 gcv;
-  struct anonymous$2 *f = ((struct anonymous$2 *)NULL);
+  struct anonymous_9 xgwa;
+  struct anonymous_8 gcv;
+  struct anonymous_2 *f = ((struct anonymous_2 *)NULL);
   struct _XGC *gc;
   char *fn;
   fn=get_string_resource(dpy, "labelFont", "Font");
@@ -9689,29 +9689,29 @@ static void print_loading_msg(struct anonymous$6 *screen, unsigned long int wind
     fn=strdup("-*-times-bold-r-normal-*-180-*");
 
   f=XLoadQueryFont(dpy, fn);
-  if(f == ((struct anonymous$2 *)NULL))
+  if(f == ((struct anonymous_2 *)NULL))
     f=XLoadQueryFont(dpy, "fixed");
 
-  if(f == ((struct anonymous$2 *)NULL))
+  if(f == ((struct anonymous_2 *)NULL))
     abort();
 
   free((void *)fn);
   fn = ((char *)NULL);
   XGetWindowAttributes(dpy, window, &xgwa);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(text);
-  w=XTextWidth(f, text, (signed int)return_value_strlen$1);
-  unsigned int return_value_get_pixel_resource$2;
-  return_value_get_pixel_resource$2=get_pixel_resource(dpy, xgwa.colormap, "foreground", "Foreground");
-  gcv.foreground = (unsigned long int)return_value_get_pixel_resource$2;
-  unsigned int return_value_get_pixel_resource$3;
-  return_value_get_pixel_resource$3=get_pixel_resource(dpy, xgwa.colormap, "background", "Background");
-  gcv.background = (unsigned long int)return_value_get_pixel_resource$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(text);
+  w=XTextWidth(f, text, (signed int)return_value_strlen_1);
+  unsigned int return_value_get_pixel_resource_2;
+  return_value_get_pixel_resource_2=get_pixel_resource(dpy, xgwa.colormap, "foreground", "Foreground");
+  gcv.foreground = (unsigned long int)return_value_get_pixel_resource_2;
+  unsigned int return_value_get_pixel_resource_3;
+  return_value_get_pixel_resource_3=get_pixel_resource(dpy, xgwa.colormap, "background", "Background");
+  gcv.background = (unsigned long int)return_value_get_pixel_resource_3;
   gcv.font = f->fid;
   gc=XCreateGC(dpy, window, (unsigned long int)(1L << 14 | 1L << 2 | 1L << 3), &gcv);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(text);
-  XDrawImageString(dpy, window, gc, (xgwa.width - w) / 2, (xgwa.height - (f->ascent + f->descent)) / 2 + f->ascent, text, (signed int)return_value_strlen$4);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(text);
+  XDrawImageString(dpy, window, gc, (xgwa.width - w) / 2, (xgwa.height - (f->ascent + f->descent)) / 2 + f->ascent, text, (signed int)return_value_strlen_4);
   XFreeFont(dpy, f);
   XFreeGC(dpy, gc);
   XSync(dpy, 0);
@@ -9732,9 +9732,9 @@ static float puramp(const struct analogtv_s *it, float tc, float start, float ov
 
     else
     {
-      float return_value_expf$1;
-      return_value_expf$1=expf(-pt / tc);
-      ret = (1.0f - return_value_expf$1) * over;
+      float return_value_expf_1;
+      return_value_expf_1=expf(-pt / tc);
+      ret = (1.0f - return_value_expf_1) * over;
       if(ret > 1.0f)
         return 1.0f;
 
@@ -9814,8 +9814,8 @@ static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window
     if(!(fpst2 == ((struct fps_state *)NULL)))
       fps_cb(dpy, window, fpst2, closure);
 
-    char return_value_usleep_and_process_events$1;
-    return_value_usleep_and_process_events$1=usleep_and_process_events(dpy, ft, window, fpst, closure, delay, window2, fpst2, closure2, delay2);
+    char return_value_usleep_and_process_events_1;
+    return_value_usleep_and_process_events_1=usleep_and_process_events(dpy, ft, window, fpst, closure, delay, window2, fpst2, closure2, delay2);
   }
   ft->free_cb(dpy, window, closure);
   if(!(fpst == ((struct fps_state *)NULL)))
@@ -9831,12 +9831,12 @@ static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window
 
 // screen_number
 // file visual.c line 475
-extern signed int screen_number(struct anonymous$6 *screen)
+extern signed int screen_number(struct anonymous_6 *screen)
 {
   struct _XDisplay *dpy = screen->display;
   signed int i = 0;
-  for( ; !(i >= ((struct anonymous$13 *)dpy)->nscreens); i = i + 1)
-    if(((struct anonymous$13 *)dpy)->screens + (signed long int)i == screen)
+  for( ; !(i >= ((struct anonymous_13 *)dpy)->nscreens); i = i + 1)
+    if(((struct anonymous_13 *)dpy)->screens + (signed long int)i == screen)
       return i;
 
   abort();
@@ -9853,12 +9853,12 @@ static void screenhack_do_fps(struct _XDisplay *dpy, unsigned long int w, struct
 
 // screenhack_ehandler
 // file screenhack.c line 245
-static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous$11 *error)
+static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous_11 *error)
 {
   fprintf(stderr, "\nX error in %s:\n", progname);
-  signed int return_value_XmuPrintDefaultErrorMessage$1;
-  return_value_XmuPrintDefaultErrorMessage$1=XmuPrintDefaultErrorMessage(dpy, error, stderr);
-  if(!(return_value_XmuPrintDefaultErrorMessage$1 == 0))
+  signed int return_value_XmuPrintDefaultErrorMessage_1;
+  return_value_XmuPrintDefaultErrorMessage_1=XmuPrintDefaultErrorMessage(dpy, error, stderr);
+  if(!(return_value_XmuPrintDefaultErrorMessage_1 == 0))
     exit(-1);
 
   else
@@ -9961,21 +9961,21 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 {
   struct _XtAppStruct *app;
   app=XtDisplayToApplicationContext(dpy);
-  unsigned long int return_value_XtAppPending$1;
-  return_value_XtAppPending$1=XtAppPending(app);
-  if(!((6ul & return_value_XtAppPending$1) == 0ul))
+  unsigned long int return_value_XtAppPending_1;
+  return_value_XtAppPending_1=XtAppPending(app);
+  if(!((6ul & return_value_XtAppPending_1) == 0ul))
     XtAppProcessEvent(app, (unsigned long int)(2 | 4));
 
-  signed int return_value_XPending$2;
-  signed int tmp_if_expr$5;
+  signed int return_value_XPending_2;
+  signed int tmp_if_expr_5;
   signed int return_value;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_4;
   signed int return_value_1;
-  signed int return_value_screenhack_handle_event_1$3;
+  signed int return_value_screenhack_handle_event_1_3;
   do
   {
-    return_value_XPending$2=XPending(dpy);
-    if(return_value_XPending$2 == 0)
+    return_value_XPending_2=XPending(dpy);
+    if(return_value_XPending_2 == 0)
       break;
 
     union _XEvent event;
@@ -9992,16 +9992,16 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 
     else
     {
-      _Bool tmp_if_expr$6;
+      _Bool tmp_if_expr_6;
       if(event.xany.type == 33)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
         if(event.xany.window == window)
         {
           return_value=ft->event_cb(dpy, window, closure, &event);
-          tmp_if_expr$5 = return_value;
+          tmp_if_expr_5 = return_value;
         }
 
         else
@@ -10009,27 +10009,27 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
           if(event.xany.window == window2 && !(window2 == 0ul))
           {
             return_value_1=ft->event_cb(dpy, window2, closure2, &event);
-            tmp_if_expr$4 = return_value_1;
+            tmp_if_expr_4 = return_value_1;
           }
 
           else
-            tmp_if_expr$4 = 0;
-          tmp_if_expr$5 = tmp_if_expr$4;
+            tmp_if_expr_4 = 0;
+          tmp_if_expr_5 = tmp_if_expr_4;
         }
-        tmp_if_expr$6 = !(tmp_if_expr$5 != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = !(tmp_if_expr_5 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
       {
-        return_value_screenhack_handle_event_1$3=screenhack_handle_event_1(dpy, &event);
-        if(return_value_screenhack_handle_event_1$3 == 0)
+        return_value_screenhack_handle_event_1_3=screenhack_handle_event_1(dpy, &event);
+        if(return_value_screenhack_handle_event_1_3 == 0)
           return (char)0;
 
       }
 
     }
-    unsigned long int return_value_XtAppPending$7;
-    return_value_XtAppPending$7=XtAppPending(app);
-    if(!((6ul & return_value_XtAppPending$7) == 0ul))
+    unsigned long int return_value_XtAppPending_7;
+    return_value_XtAppPending_7=XtAppPending(app);
+    if(!((6ul & return_value_XtAppPending_7) == 0ul))
       XtAppProcessEvent(app, (unsigned long int)(2 | 4));
 
   }
@@ -10044,12 +10044,12 @@ extern void screenhack_usleep(unsigned long int usecs)
   struct timeval tv;
   tv.tv_sec = (signed long int)(usecs / (unsigned long int)1000000L);
   tv.tv_usec = (signed long int)(usecs % (unsigned long int)1000000L);
-  select(0, ((struct anonymous$24 *)NULL), ((struct anonymous$24 *)NULL), ((struct anonymous$24 *)NULL), &tv);
+  select(0, ((struct anonymous_24 *)NULL), ((struct anonymous_24 *)NULL), ((struct anonymous_24 *)NULL), &tv);
 }
 
 // shm_ehandler
 // file xshm.c line 62
-static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous$11 *error)
+static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous_11 *error)
 {
   shm_got_x_error = 1;
   return 0;
@@ -10057,7 +10057,7 @@ static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous$11 *error
 
 // string_width
 // file fps.c line 175
-static signed int string_width(struct anonymous$2 *f, const char *c, signed int *height_ret)
+static signed int string_width(struct anonymous_2 *f, const char *c, signed int *height_ret)
 {
   signed int x = 0;
   signed int max_w = 0;
@@ -10076,13 +10076,13 @@ static signed int string_width(struct anonymous$2 *f, const char *c, signed int 
 
     else
     {
-      signed int tmp_if_expr$1;
-      if(!(f->per_char == ((struct anonymous$1 *)NULL)))
-        tmp_if_expr$1 = (signed int)(f->per_char + (signed long int)((unsigned int)cc - f->min_char_or_byte2))->width;
+      signed int tmp_if_expr_1;
+      if(!(f->per_char == ((struct anonymous_1 *)NULL)))
+        tmp_if_expr_1 = (signed int)(f->per_char + (signed long int)((unsigned int)cc - f->min_char_or_byte2))->width;
 
       else
-        tmp_if_expr$1 = (signed int)f->min_bounds.rbearing;
-      x = x + tmp_if_expr$1;
+        tmp_if_expr_1 = (signed int)f->min_bounds.rbearing;
+      x = x + tmp_if_expr_1;
     }
     c = c + 1l;
   }
@@ -10146,7 +10146,7 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
 
   /* assertion _has_pthread */
   assert(_has_pthread != 0);
-  signed int return_value_pthread_cond_wait$3;
+  signed int return_value_pthread_cond_wait_3;
   if(_has_pthread >= 0)
   {
     unsigned int count_parallel;
@@ -10161,9 +10161,9 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
       return 0;
     }
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)count_parallel);
-    self->parallel_threads = (unsigned long int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)count_parallel);
+    self->parallel_threads = (unsigned long int *)return_value_malloc_1;
     if(self->parallel_threads == ((unsigned long int *)NULL))
       return 12;
 
@@ -10171,10 +10171,10 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
     startup.parent = self;
     startup.thread_create = cls->create;
     startup.last_errno = 0;
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$2 != 0));
+    assert(!(return_value_pthread_mutex_lock_2 != 0));
     _add_next_thread(&startup);
     if(startup.last_errno == 0)
       while(!(self->parallel_unfinished == count_parallel))
@@ -10182,9 +10182,9 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
         if(self->parallel_threads == ((unsigned long int *)NULL))
           break;
 
-        return_value_pthread_cond_wait$3=pthread_cond_wait(&self->cond, &self->mutex);
+        return_value_pthread_cond_wait_3=pthread_cond_wait(&self->cond, &self->mutex);
         /* assertion !(pthread_cond_wait(&self->cond, &self->mutex)) */
-        assert(!(return_value_pthread_cond_wait$3 != 0));
+        assert(!(return_value_pthread_cond_wait_3 != 0));
       }
 
     if(!(startup.last_errno == 0))
@@ -10193,10 +10193,10 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
     else
     {
       self->parallel_unfinished = (unsigned int)0;
-      signed int return_value_pthread_mutex_unlock$4;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&self->mutex);
+      signed int return_value_pthread_mutex_unlock_4;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&self->mutex);
       /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-      assert(!(return_value_pthread_mutex_unlock$4 != 0));
+      assert(!(return_value_pthread_mutex_unlock_4 != 0));
     }
     return startup.last_errno;
   }
@@ -10210,10 +10210,10 @@ void threadpool_destroy(struct threadpool *self)
 {
   if(_has_pthread >= 0)
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     _unlock_and_destroy(self);
     goto __CPROVER_DUMP_L2;
   }
@@ -10232,10 +10232,10 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
   {
     unsigned int count;
     count=_threadpool_count_parallel(self);
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     /* assertion !self->parallel_pending */
     assert(!(self->parallel_pending != 0u));
     /* assertion !self->parallel_unfinished */
@@ -10243,22 +10243,22 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
     self->parallel_pending = count;
     self->parallel_unfinished = count;
     self->thread_run = func;
-    signed int return_value_pthread_cond_broadcast$2;
-    return_value_pthread_cond_broadcast$2=pthread_cond_broadcast(&self->cond);
+    signed int return_value_pthread_cond_broadcast_2;
+    return_value_pthread_cond_broadcast_2=pthread_cond_broadcast(&self->cond);
     /* assertion !(pthread_cond_broadcast(&self->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$2 != 0));
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&self->mutex);
+    assert(!(return_value_pthread_cond_broadcast_2 != 0));
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&self->mutex);
     /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
   }
 
   void *thread = self->serial_threads;
   unsigned int i;
-  unsigned int threadpool_run$$1$$2$$count;
-  threadpool_run$$1$$2$$count=_threadpool_count_serial(self);
+  unsigned int threadpool_run__1__2__count;
+  threadpool_run__1__2__count=_threadpool_count_serial(self);
   i = (unsigned int)0;
-  if(!(i == threadpool_run$$1$$2$$count))
+  if(!(i == threadpool_run__1__2__count))
   {
     func(thread);
     thread = (void *)((char *)thread + (signed long int)self->thread_size);
@@ -10271,23 +10271,23 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
 // file ./../utils/thread_util.h line 307
 void threadpool_wait(struct threadpool *self)
 {
-  signed int return_value_pthread_cond_wait$2;
+  signed int return_value_pthread_cond_wait_2;
   if(_has_pthread >= 0)
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     while(!(self->parallel_unfinished == 0u))
     {
-      return_value_pthread_cond_wait$2=pthread_cond_wait(&self->cond, &self->mutex);
+      return_value_pthread_cond_wait_2=pthread_cond_wait(&self->cond, &self->mutex);
       /* assertion !(pthread_cond_wait(&self->cond, &self->mutex)) */
-      assert(!(return_value_pthread_cond_wait$2 != 0));
+      assert(!(return_value_pthread_cond_wait_2 != 0));
     }
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&self->mutex);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&self->mutex);
     /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
   }
 
 }
@@ -10301,13 +10301,13 @@ signed int threads_available(struct _XDisplay *dpy)
     _has_pthread = (signed int)200809L;
     if(_has_pthread >= 0)
     {
-      signed int return_value_get_boolean_resource$2;
-      return_value_get_boolean_resource$2=get_boolean_resource(dpy, "useThreads", "Boolean");
-      if(!(return_value_get_boolean_resource$2 == 0))
+      signed int return_value_get_boolean_resource_2;
+      return_value_get_boolean_resource_2=get_boolean_resource(dpy, "useThreads", "Boolean");
+      if(!(return_value_get_boolean_resource_2 == 0))
       {
-        unsigned int return_value__get_cache_line_size$1;
-        return_value__get_cache_line_size$1=_get_cache_line_size();
-        _cache_line_size = (signed int)return_value__get_cache_line_size$1;
+        unsigned int return_value__get_cache_line_size_1;
+        return_value__get_cache_line_size_1=_get_cache_line_size();
+        _cache_line_size = (signed int)return_value__get_cache_line_size_1;
         /* assertion _cache_line_size >= sizeof(void *) */
         assert((unsigned long int)_cache_line_size >= sizeof(void *) /*8ul*/ );
         /* assertion ((_cache_line_size) > 0 && !((_cache_line_size) & ((_cache_line_size) - 1))) */
@@ -10371,9 +10371,9 @@ static void update_smpte_colorbars(struct analogtv_input_s *input)
   ypos = 262 / 5;
   xpos = 229 + 566 / 2;
   char localname[256l];
-  signed int return_value_gethostname$1;
-  return_value_gethostname$1=gethostname(localname, sizeof(char [256l]) /*256ul*/ );
-  if(return_value_gethostname$1 == 0)
+  signed int return_value_gethostname_1;
+  return_value_gethostname_1=gethostname(localname, sizeof(char [256l]) /*256ul*/ );
+  if(return_value_gethostname_1 == 0)
   {
     localname[(signed long int)(sizeof(char [256l]) /*256ul*/  - (unsigned long int)1)] = (char)0;
     localname[(signed long int)24] = (char)0;
@@ -10395,18 +10395,18 @@ static void update_smpte_colorbars(struct analogtv_input_s *input)
 
 // use_subwindow_mode_p
 // file grabclient.c line 111
-extern signed int use_subwindow_mode_p(struct anonymous$6 *screen, unsigned long int window)
+extern signed int use_subwindow_mode_p(struct anonymous_6 *screen, unsigned long int window)
 {
-  unsigned long int return_value_VirtualRootWindowOfScreen$2;
-  return_value_VirtualRootWindowOfScreen$2=VirtualRootWindowOfScreen$link1(screen);
-  signed int return_value_xscreensaver_window_p$1;
-  if(!(window == return_value_VirtualRootWindowOfScreen$2))
+  unsigned long int return_value_VirtualRootWindowOfScreen_2;
+  return_value_VirtualRootWindowOfScreen_2=VirtualRootWindowOfScreen_link1(screen);
+  signed int return_value_xscreensaver_window_p_1;
+  if(!(window == return_value_VirtualRootWindowOfScreen_2))
     return 0;
 
   else
   {
-    return_value_xscreensaver_window_p$1=xscreensaver_window_p(screen->display, window);
-    if(!(return_value_xscreensaver_window_p$1 == 0))
+    return_value_xscreensaver_window_p_1=xscreensaver_window_p(screen->display, window);
+    if(!(return_value_xscreensaver_window_p_1 == 0))
       return 0;
 
     else
@@ -10437,9 +10437,9 @@ static char usleep_and_process_events(struct _XDisplay *dpy, struct xscreensaver
 
     }
 
-    char return_value_screenhack_table_handle_events$1;
-    return_value_screenhack_table_handle_events$1=screenhack_table_handle_events(dpy, ft, window, closure, window2, closure2);
-    if(return_value_screenhack_table_handle_events$1 == 0)
+    char return_value_screenhack_table_handle_events_1;
+    return_value_screenhack_table_handle_events_1=screenhack_table_handle_events(dpy, ft, window, closure, window2, closure2);
+    if(return_value_screenhack_table_handle_events_1 == 0)
       return (char)0;
 
   }
@@ -10458,9 +10458,9 @@ extern signed long int utf8_decode(const unsigned char *in, signed long int leng
   unsigned char c;
   if(length >= 1l)
   {
-    const unsigned char *tmp_post$1 = in;
+    const unsigned char *tmp_post_1 = in;
     in = in + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((0xC0 & (signed int)c) == 0x80)
       uc = (unsigned long int)0xFFFD;
 
@@ -10573,94 +10573,94 @@ extern signed int utf8_encode(unsigned long int uc, char *out, signed long int l
   uc=uc_truncate(uc);
   if(length >= 1l && !(uc >= 128ul))
   {
-    char *tmp_post$1 = out;
+    char *tmp_post_1 = out;
     out = out + 1l;
-    *tmp_post$1 = (char)uc;
+    *tmp_post_1 = (char)uc;
   }
 
   else
     if(length >= 2l && !(uc >= 2048ul))
     {
-      char *tmp_post$2 = out;
+      char *tmp_post_2 = out;
       out = out + 1l;
-      *tmp_post$2 = (char)((unsigned long int)0xC0 | uc >> 6 & (unsigned long int)0x1F);
-      char *tmp_post$3 = out;
+      *tmp_post_2 = (char)((unsigned long int)0xC0 | uc >> 6 & (unsigned long int)0x1F);
+      char *tmp_post_3 = out;
       out = out + 1l;
-      *tmp_post$3 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+      *tmp_post_3 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
     }
 
     else
       if(length >= 3l && !(uc >= 65536ul))
       {
-        char *tmp_post$4 = out;
+        char *tmp_post_4 = out;
         out = out + 1l;
-        *tmp_post$4 = (char)((unsigned long int)0xE0 | uc >> 12 & (unsigned long int)0x0F);
-        char *tmp_post$5 = out;
+        *tmp_post_4 = (char)((unsigned long int)0xE0 | uc >> 12 & (unsigned long int)0x0F);
+        char *tmp_post_5 = out;
         out = out + 1l;
-        *tmp_post$5 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-        char *tmp_post$6 = out;
+        *tmp_post_5 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+        char *tmp_post_6 = out;
         out = out + 1l;
-        *tmp_post$6 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+        *tmp_post_6 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
       }
 
       else
         if(length >= 4l && !(uc >= 2097152ul))
         {
-          char *tmp_post$7 = out;
+          char *tmp_post_7 = out;
           out = out + 1l;
-          *tmp_post$7 = (char)((unsigned long int)0xF0 | uc >> 18 & (unsigned long int)0x07);
-          char *tmp_post$8 = out;
+          *tmp_post_7 = (char)((unsigned long int)0xF0 | uc >> 18 & (unsigned long int)0x07);
+          char *tmp_post_8 = out;
           out = out + 1l;
-          *tmp_post$8 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-          char *tmp_post$9 = out;
+          *tmp_post_8 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+          char *tmp_post_9 = out;
           out = out + 1l;
-          *tmp_post$9 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-          char *tmp_post$10 = out;
+          *tmp_post_9 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+          char *tmp_post_10 = out;
           out = out + 1l;
-          *tmp_post$10 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+          *tmp_post_10 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
         }
 
         else
           if(length >= 5l && !(uc >= 67108864ul))
           {
-            char *tmp_post$11 = out;
+            char *tmp_post_11 = out;
             out = out + 1l;
-            *tmp_post$11 = (char)((unsigned long int)0xF8 | uc >> 24 & (unsigned long int)0x03);
-            char *tmp_post$12 = out;
+            *tmp_post_11 = (char)((unsigned long int)0xF8 | uc >> 24 & (unsigned long int)0x03);
+            char *tmp_post_12 = out;
             out = out + 1l;
-            *tmp_post$12 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
-            char *tmp_post$13 = out;
+            *tmp_post_12 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
+            char *tmp_post_13 = out;
             out = out + 1l;
-            *tmp_post$13 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-            char *tmp_post$14 = out;
+            *tmp_post_13 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+            char *tmp_post_14 = out;
             out = out + 1l;
-            *tmp_post$14 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-            char *tmp_post$15 = out;
+            *tmp_post_14 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+            char *tmp_post_15 = out;
             out = out + 1l;
-            *tmp_post$15 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+            *tmp_post_15 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
           }
 
           else
             if(length >= 6l)
             {
-              char *tmp_post$16 = out;
+              char *tmp_post_16 = out;
               out = out + 1l;
-              *tmp_post$16 = (char)((unsigned long int)0xFC | uc >> 30 & (unsigned long int)0x01);
-              char *tmp_post$17 = out;
+              *tmp_post_16 = (char)((unsigned long int)0xFC | uc >> 30 & (unsigned long int)0x01);
+              char *tmp_post_17 = out;
               out = out + 1l;
-              *tmp_post$17 = (char)((unsigned long int)0x80 | uc >> 24 & (unsigned long int)0x3F);
-              char *tmp_post$18 = out;
+              *tmp_post_17 = (char)((unsigned long int)0x80 | uc >> 24 & (unsigned long int)0x3F);
+              char *tmp_post_18 = out;
               out = out + 1l;
-              *tmp_post$18 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
-              char *tmp_post$19 = out;
+              *tmp_post_18 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
+              char *tmp_post_19 = out;
               out = out + 1l;
-              *tmp_post$19 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-              char *tmp_post$20 = out;
+              *tmp_post_19 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+              char *tmp_post_20 = out;
               out = out + 1l;
-              *tmp_post$20 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-              char *tmp_post$21 = out;
+              *tmp_post_20 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+              char *tmp_post_21 = out;
               out = out + 1l;
-              *tmp_post$21 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+              *tmp_post_21 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
             }
 
   return (signed int)(out - old);
@@ -10672,14 +10672,14 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 {
   const unsigned char *in = (const unsigned char *)string;
   signed long int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  len = (signed long int)return_value_strlen_1;
   const unsigned char *end = in + len;
   char **ret;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(len + (signed long int)1) * sizeof(char *) /*8ul*/ );
-  ret = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(len + (signed long int)1) * sizeof(char *) /*8ul*/ );
+  ret = (char **)return_value_malloc_2;
   signed int i = 0;
   if(ret == ((char **)NULL))
     return ((char **)NULL);
@@ -10694,24 +10694,24 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
       char tmp[10l];
       strncpy(tmp, (char *)in, (unsigned long int)len2);
       tmp[len2] = (char)0;
-      signed int tmp_post$3 = i;
+      signed int tmp_post_3 = i;
       i = i + 1;
-      ret[(signed long int)tmp_post$3]=strdup(tmp);
+      ret[(signed long int)tmp_post_3]=strdup(tmp);
       in = in + len2;
       if(i >= 2 && uc >= 768ul && !(uc >= 880ul))
       {
         signed long int L1;
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(ret[(signed long int)(i - 2)]);
-        L1 = (signed long int)return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(ret[(signed long int)(i - 2)]);
+        L1 = (signed long int)return_value_strlen_4;
         signed long int L2;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(ret[(signed long int)(i - 1)]);
-        L2 = (signed long int)return_value_strlen$5;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(ret[(signed long int)(i - 1)]);
+        L2 = (signed long int)return_value_strlen_5;
         char *s2;
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc((unsigned long int)(L1 + L2 + (signed long int)1));
-        s2 = (char *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc((unsigned long int)(L1 + L2 + (signed long int)1));
+        s2 = (char *)return_value_malloc_6;
         strncpy(s2, ret[(signed long int)(i - 2)], (unsigned long int)L1);
         strncpy(s2 + L1, ret[(signed long int)(i - 1)], (unsigned long int)L2);
         s2[L1 + L2] = (char)0;
@@ -10722,9 +10722,9 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 
     }
     ret[(signed long int)i] = ((char *)NULL);
-    void *return_value_realloc$7;
-    return_value_realloc$7=realloc((void *)ret, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
-    ret = (char **)return_value_realloc$7;
+    void *return_value_realloc_7;
+    return_value_realloc_7=realloc((void *)ret, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
+    ret = (char **)return_value_realloc_7;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = i;
 
@@ -10734,21 +10734,21 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 
 // utf8_to_XChar2b
 // file utf8wc.c line 215
-extern struct anonymous$30 * utf8_to_XChar2b(const char *string, signed int *length_ret)
+extern struct anonymous_30 * utf8_to_XChar2b(const char *string, signed int *length_ret)
 {
   signed long int in_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  in_len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  in_len = (signed long int)return_value_strlen_1;
   const unsigned char *in = (const unsigned char *)string;
   const unsigned char *in_end = in + in_len;
-  struct anonymous$30 *c2b;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(in_len + (signed long int)1) * sizeof(struct anonymous$30) /*2ul*/ );
-  c2b = (struct anonymous$30 *)return_value_malloc$2;
-  struct anonymous$30 *out = c2b;
-  if(out == ((struct anonymous$30 *)NULL))
-    return ((struct anonymous$30 *)NULL);
+  struct anonymous_30 *c2b;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(in_len + (signed long int)1) * sizeof(struct anonymous_30) /*2ul*/ );
+  c2b = (struct anonymous_30 *)return_value_malloc_2;
+  struct anonymous_30 *out = c2b;
+  if(out == ((struct anonymous_30 *)NULL))
+    return ((struct anonymous_30 *)NULL);
 
   else
   {
@@ -10767,9 +10767,9 @@ extern struct anonymous$30 * utf8_to_XChar2b(const char *string, signed int *len
     }
     out->byte1 = (unsigned char)0;
     out->byte2 = (unsigned char)0;
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)c2b, (unsigned long int)((out - c2b) + (signed long int)1) * sizeof(struct anonymous$30) /*2ul*/ );
-    c2b = (struct anonymous$30 *)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)c2b, (unsigned long int)((out - c2b) + (signed long int)1) * sizeof(struct anonymous_30) /*2ul*/ );
+    c2b = (struct anonymous_30 *)return_value_realloc_3;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = (signed int)(out - c2b);
 
@@ -10782,15 +10782,15 @@ extern struct anonymous$30 * utf8_to_XChar2b(const char *string, signed int *len
 extern char * utf8_to_latin1(const char *string, signed int ascii_p)
 {
   signed long int in_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  in_len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  in_len = (signed long int)return_value_strlen_1;
   const unsigned char *in = (const unsigned char *)string;
   const unsigned char *in_end = in + in_len;
   unsigned char *ret;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(in_len + (signed long int)1));
-  ret = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(in_len + (signed long int)1));
+  ret = (unsigned char *)return_value_malloc_2;
   unsigned char *out = ret;
   if(ret == ((unsigned char *)NULL))
     return ((char *)NULL);
@@ -10968,33 +10968,33 @@ extern char * utf8_to_latin1(const char *string, signed int ascii_p)
 
       if(uc >= 1ul)
       {
-        unsigned char *tmp_post$3 = out;
+        unsigned char *tmp_post_3 = out;
         out = out + 1l;
-        *tmp_post$3 = (unsigned char)uc;
+        *tmp_post_3 = (unsigned char)uc;
       }
 
     }
     *out = (unsigned char)0;
-    void *return_value_realloc$4;
-    return_value_realloc$4=realloc((void *)ret, (unsigned long int)((out - ret) + (signed long int)1) * sizeof(unsigned char) /*1ul*/ );
-    ret = (unsigned char *)return_value_realloc$4;
+    void *return_value_realloc_4;
+    return_value_realloc_4=realloc((void *)ret, (unsigned long int)((out - ret) + (signed long int)1) * sizeof(unsigned char) /*1ul*/ );
+    ret = (unsigned char *)return_value_realloc_4;
     return (char *)ret;
   }
 }
 
 // visual_cells
 // file visual.c line 487
-extern signed int visual_cells(struct anonymous$6 *screen, struct anonymous$17 *visual)
+extern signed int visual_cells(struct anonymous_6 *screen, struct anonymous_17 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   signed int c;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   c = (vi_out + (signed long int)0)->colormap_size;
@@ -11004,17 +11004,17 @@ extern signed int visual_cells(struct anonymous$6 *screen, struct anonymous$17 *
 
 // visual_class
 // file visual.c line 409
-extern signed int visual_class(struct anonymous$6 *screen, struct anonymous$17 *visual)
+extern signed int visual_class(struct anonymous_6 *screen, struct anonymous_17 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   signed int c;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   c = (vi_out + (signed long int)0)->class;
@@ -11024,17 +11024,17 @@ extern signed int visual_class(struct anonymous$6 *screen, struct anonymous$17 *
 
 // visual_depth
 // file ./../utils/visual.h line 17
-extern signed int visual_depth(struct anonymous$6 *screen, struct anonymous$17 *visual)
+extern signed int visual_depth(struct anonymous_6 *screen, struct anonymous_17 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   signed int d;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   d = (vi_out + (signed long int)0)->depth;
@@ -11044,18 +11044,18 @@ extern signed int visual_depth(struct anonymous$6 *screen, struct anonymous$17 *
 
 // visual_warning
 // file screenhack.c line 341
-static void visual_warning(struct anonymous$6 *screen, unsigned long int window, struct anonymous$17 *visual, unsigned long int cmap, signed int window_p)
+static void visual_warning(struct anonymous_6 *screen, unsigned long int window, struct anonymous_17 *visual, unsigned long int cmap, signed int window_p)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
   char *visual_string;
   visual_string=get_string_resource(screen->display, "visualID", "VisualID");
-  struct anonymous$17 *desired_visual;
+  struct anonymous_17 *desired_visual;
   desired_visual=pick_visual(screen);
   char win[100l];
   char why[100l];
-  unsigned long int return_value_VirtualRootWindowOfScreen$1;
-  return_value_VirtualRootWindowOfScreen$1=VirtualRootWindowOfScreen(screen);
-  if(window == return_value_VirtualRootWindowOfScreen$1)
+  unsigned long int return_value_VirtualRootWindowOfScreen_1;
+  return_value_VirtualRootWindowOfScreen_1=VirtualRootWindowOfScreen(screen);
+  if(window == return_value_VirtualRootWindowOfScreen_1)
     strcpy(win, "root window");
 
   else
@@ -11065,8 +11065,8 @@ static void visual_warning(struct anonymous$6 *screen, unsigned long int window,
 
   else
     strcpy(why, "-root");
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$6;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_6;
   if(!(visual_string == ((char *)NULL)))
   {
     if(!(*visual_string == 0))
@@ -11080,34 +11080,34 @@ static void visual_warning(struct anonymous$6 *screen, unsigned long int window,
 
         }
 
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(visual_string, "default");
-      _Bool tmp_if_expr$5;
-      if(return_value_strcmp$3 == 0)
-        tmp_if_expr$5 = (_Bool)1;
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(visual_string, "default");
+      _Bool tmp_if_expr_5;
+      if(return_value_strcmp_3 == 0)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$4=strcmp(visual_string, "default");
-        tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_4=strcmp(visual_string, "default");
+        tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$7;
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      _Bool tmp_if_expr_7;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$6=strcmp(visual_string, "best");
-        tmp_if_expr$7 = !(return_value_strcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_6=strcmp(visual_string, "best");
+        tmp_if_expr_7 = !(return_value_strcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$7)
+      if(!tmp_if_expr_7)
       {
         if(!(visual == desired_visual))
         {
           fprintf(stderr, "%s: ignoring `-visual %s' because of `%s'.\n", progname, visual_string, (const void *)why);
-          unsigned long int return_value_XVisualIDFromVisual$2;
-          return_value_XVisualIDFromVisual$2=XVisualIDFromVisual(visual);
-          fprintf(stderr, "%s: using %s's visual 0x%lx.\n", progname, (const void *)win, return_value_XVisualIDFromVisual$2);
+          unsigned long int return_value_XVisualIDFromVisual_2;
+          return_value_XVisualIDFromVisual_2=XVisualIDFromVisual(visual);
+          fprintf(stderr, "%s: using %s's visual 0x%lx.\n", progname, (const void *)win, return_value_XVisualIDFromVisual_2);
         }
 
       }
@@ -11117,15 +11117,15 @@ static void visual_warning(struct anonymous$6 *screen, unsigned long int window,
 
   }
 
-  signed int return_value_has_writable_cells$9;
-  signed int return_value_get_boolean_resource$8;
+  signed int return_value_has_writable_cells_9;
+  signed int return_value_get_boolean_resource_8;
   if(visual == screen->root_visual)
   {
-    return_value_has_writable_cells$9=has_writable_cells(screen, visual);
-    if(!(return_value_has_writable_cells$9 == 0))
+    return_value_has_writable_cells_9=has_writable_cells(screen, visual);
+    if(!(return_value_has_writable_cells_9 == 0))
     {
-      return_value_get_boolean_resource$8=get_boolean_resource(screen->display, "installColormap", "InstallColormap");
-      if(!(return_value_get_boolean_resource$8 == 0))
+      return_value_get_boolean_resource_8=get_boolean_resource(screen->display, "installColormap", "InstallColormap");
+      if(!(return_value_get_boolean_resource_8 == 0))
       {
         fprintf(stderr, "%s: ignoring `-install' because of `%s'.\n", progname, (const void *)why);
         fprintf(stderr, "%s: using %s's colormap 0x%lx.\n", progname, (const void *)win, (unsigned long int)cmap);
@@ -11135,7 +11135,7 @@ static void visual_warning(struct anonymous$6 *screen, unsigned long int window,
 
   }
 
-  if(!(ft->validate_visual_hook == ((signed int (*)(struct anonymous$6 *, const char *, struct anonymous$17 *))NULL)))
+  if(!(ft->validate_visual_hook == ((signed int (*)(struct anonymous_6 *, const char *, struct anonymous_17 *))NULL)))
   {
     signed int return_value;
     return_value=ft->validate_visual_hook(screen, win, visual);
@@ -11158,13 +11158,13 @@ static unsigned long int xanalogtv_draw(struct _XDisplay *dpy, unsigned long int
   const struct analogtv_reception_s *recs[2l];
   unsigned int rec_count = (unsigned int)0;
   signed int auto_change;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(curticks >= st->change_ticks)
-    tmp_if_expr$1 = (double)st->tv->powerup > 10.0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (double)st->tv->powerup > 10.0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  auto_change = tmp_if_expr$1 ? 1 : 0;
+    tmp_if_expr_1 = (_Bool)0;
+  auto_change = tmp_if_expr_1 ? 1 : 0;
   if(!(st->change_now == 0) || !(auto_change == 0))
   {
     st->curinputi = (st->curinputi + st->change_now + auto_change + 12) % 12;
@@ -11195,11 +11195,11 @@ static unsigned long int xanalogtv_draw(struct _XDisplay *dpy, unsigned long int
   i = 0;
   for( ; !(i >= 2); i = i + 1)
   {
-    struct analogtv_reception_s *xanalogtv_draw$$1$$3$$rec = &st->cs->recs[(signed long int)i];
-    if(!(xanalogtv_draw$$1$$3$$rec->input == ((struct analogtv_input_s *)NULL)))
+    struct analogtv_reception_s *xanalogtv_draw__1__3__rec = &st->cs->recs[(signed long int)i];
+    if(!(xanalogtv_draw__1__3__rec->input == ((struct analogtv_input_s *)NULL)))
     {
-      analogtv_reception_update(xanalogtv_draw$$1$$3$$rec);
-      recs[(signed long int)rec_count] = xanalogtv_draw$$1$$3$$rec;
+      analogtv_reception_update(xanalogtv_draw__1__3__rec);
+      recs[(signed long int)rec_count] = xanalogtv_draw__1__3__rec;
       rec_count = rec_count + 1u;
     }
 
@@ -11213,8 +11213,8 @@ static unsigned long int xanalogtv_draw(struct _XDisplay *dpy, unsigned long int
 static signed int xanalogtv_event(struct _XDisplay *dpy, unsigned long int window, void *closure, union _XEvent *event)
 {
   struct state *st = (struct state *)closure;
-  signed int return_value_screenhack_event_helper$1;
-  signed int return_value_screenhack_event_helper$3;
+  signed int return_value_screenhack_event_helper_1;
+  signed int return_value_screenhack_event_helper_3;
   if(event->type == 4)
   {
     unsigned int button = event->xbutton.button;
@@ -11243,8 +11243,8 @@ static signed int xanalogtv_event(struct _XDisplay *dpy, unsigned long int windo
 
         else
         {
-          return_value_screenhack_event_helper$1=screenhack_event_helper(dpy, window, event);
-          if(!(return_value_screenhack_event_helper$1 == 0))
+          return_value_screenhack_event_helper_1=screenhack_event_helper(dpy, window, event);
+          if(!(return_value_screenhack_event_helper_1 == 0))
             goto DEF;
 
         }
@@ -11252,15 +11252,15 @@ static signed int xanalogtv_event(struct _XDisplay *dpy, unsigned long int windo
 
     else
     {
-      return_value_screenhack_event_helper$3=screenhack_event_helper(dpy, window, event);
-      if(!(return_value_screenhack_event_helper$3 == 0))
+      return_value_screenhack_event_helper_3=screenhack_event_helper(dpy, window, event);
+      if(!(return_value_screenhack_event_helper_3 == 0))
       {
 
       DEF:
         ;
-        unsigned int return_value_ya_random$2;
-        return_value_ya_random$2=ya_random();
-        st->change_now = (return_value_ya_random$2 & (unsigned int)1) != 0u ? 1 : -1;
+        unsigned int return_value_ya_random_2;
+        return_value_ya_random_2=ya_random();
+        st->change_now = (return_value_ya_random_2 & (unsigned int)1) != 0u ? 1 : -1;
         return 1;
       }
 
@@ -11282,9 +11282,9 @@ static void xanalogtv_free(struct _XDisplay *dpy, unsigned long int window, void
 static void * xanalogtv_init(struct _XDisplay *dpy, unsigned long int window)
 {
   struct state *st;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct state) /*3224ul*/ );
-  st = (struct state *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct state) /*3224ul*/ );
+  st = (struct state *)return_value_calloc_1;
   signed int i;
   signed int last_station = 42;
   signed int delay;
@@ -11299,29 +11299,29 @@ static void * xanalogtv_init(struct _XDisplay *dpy, unsigned long int window)
   add_stations(st);
   analogtv_set_defaults(st->tv, "");
   st->tv->need_clear = 1;
-  unsigned int return_value_ya_random$5;
-  return_value_ya_random$5=ya_random();
-  if(return_value_ya_random$5 % 4u == 0u)
+  unsigned int return_value_ya_random_5;
+  return_value_ya_random_5=ya_random();
+  if(return_value_ya_random_5 % 4u == 0u)
   {
-    double tmp_statement_expression$2;
-    double xanalogtv_init$$1$$1$$1$$tmp;
-    unsigned int return_value_ya_random$3;
-    return_value_ya_random$3=ya_random();
-    xanalogtv_init$$1$$1$$1$$tmp = ((double)return_value_ya_random$3 * (double)2.0) / (double)(unsigned int)~0;
-    tmp_statement_expression$2 = xanalogtv_init$$1$$1$$1$$tmp < (double)0 ? -xanalogtv_init$$1$$1$$1$$tmp : xanalogtv_init$$1$$1$$1$$tmp;
-    double return_value_pow$4;
-    return_value_pow$4=pow(tmp_statement_expression$2 - 1.0, (double)7);
-    st->tv->tint_control = st->tv->tint_control + (float)(return_value_pow$4 * 180.0);
+    double tmp_statement_expression_2;
+    double xanalogtv_init__1__1__1__tmp;
+    unsigned int return_value_ya_random_3;
+    return_value_ya_random_3=ya_random();
+    xanalogtv_init__1__1__1__tmp = ((double)return_value_ya_random_3 * (double)2.0) / (double)(unsigned int)~0;
+    tmp_statement_expression_2 = xanalogtv_init__1__1__1__tmp < (double)0 ? -xanalogtv_init__1__1__1__tmp : xanalogtv_init__1__1__1__tmp;
+    double return_value_pow_4;
+    return_value_pow_4=pow(tmp_statement_expression_2 - 1.0, (double)7);
+    st->tv->tint_control = st->tv->tint_control + (float)(return_value_pow_4 * 180.0);
   }
 
   {
-    double tmp_statement_expression$6;
+    double tmp_statement_expression_6;
     double tmp;
-    unsigned int return_value_ya_random$7;
-    return_value_ya_random$7=ya_random();
-    tmp = ((double)return_value_ya_random$7 * (double)0.3) / (double)(unsigned int)~0;
-    tmp_statement_expression$6 = tmp < (double)0 ? -tmp : tmp;
-    st->tv->color_control = st->tv->color_control + (float)tmp_statement_expression$6;
+    unsigned int return_value_ya_random_7;
+    return_value_ya_random_7=ya_random();
+    tmp = ((double)return_value_ya_random_7 * (double)0.3) / (double)(unsigned int)~0;
+    tmp_statement_expression_6 = tmp < (double)0 ? -tmp : tmp;
+    st->tv->color_control = st->tv->color_control + (float)tmp_statement_expression_6;
   }
   i = 0;
   for( ; !(i >= 12); i = i + 1)
@@ -11329,9 +11329,9 @@ static void * xanalogtv_init(struct _XDisplay *dpy, unsigned long int window)
     memset((void *)&st->chansettings[(signed long int)i], 0, sizeof(struct chansetting_s) /*256ul*/ );
     st->chansettings[(signed long int)i].noise_level = 0.06;
     st->chansettings[(signed long int)i].dur = 1000 * delay;
-    unsigned int return_value_ya_random$20;
-    return_value_ya_random$20=ya_random();
-    if(return_value_ya_random$20 % 6u == 0u)
+    unsigned int return_value_ya_random_20;
+    return_value_ya_random_20=ya_random();
+    if(return_value_ya_random_20 % 6u == 0u)
       st->chansettings[(signed long int)i].dur = 600;
 
     else
@@ -11343,64 +11343,64 @@ static void * xanalogtv_init(struct _XDisplay *dpy, unsigned long int window)
         signed int station;
         while((_Bool)1)
         {
-          unsigned int return_value_ya_random$8;
-          return_value_ya_random$8=ya_random();
-          station = (signed int)(return_value_ya_random$8 % (unsigned int)st->n_stations);
+          unsigned int return_value_ya_random_8;
+          return_value_ya_random_8=ya_random();
+          station = (signed int)(return_value_ya_random_8 % (unsigned int)st->n_stations);
           if(!(station == last_station))
             break;
 
-          unsigned int return_value_ya_random$9;
-          return_value_ya_random$9=ya_random();
-          if(return_value_ya_random$9 % 10u == 0u)
+          unsigned int return_value_ya_random_9;
+          return_value_ya_random_9=ya_random();
+          if(return_value_ya_random_9 % 10u == 0u)
             break;
 
         }
         last_station = station;
         rec->input = st->stations[(signed long int)station];
-        double tmp_statement_expression$10;
-        double xanalogtv_init$$1$$3$$2$$1$$2$$tmp;
-        unsigned int return_value_ya_random$11;
-        return_value_ya_random$11=ya_random();
-        xanalogtv_init$$1$$3$$2$$1$$2$$tmp = ((double)return_value_ya_random$11 * (double)1.0) / (double)(unsigned int)~0;
-        tmp_statement_expression$10 = xanalogtv_init$$1$$3$$2$$1$$2$$tmp < (double)0 ? -xanalogtv_init$$1$$3$$2$$1$$2$$tmp : xanalogtv_init$$1$$3$$2$$1$$2$$tmp;
-        double return_value_pow$12;
-        return_value_pow$12=pow(tmp_statement_expression$10, 3.0);
-        rec->level = return_value_pow$12 * 2.0 + 0.05;
-        unsigned int return_value_ya_random$13;
-        return_value_ya_random$13=ya_random();
-        rec->ofs = (double)(return_value_ya_random$13 % (unsigned int)238944);
-        unsigned int return_value_ya_random$16;
-        return_value_ya_random$16=ya_random();
-        if(!(return_value_ya_random$16 % 3u == 0u))
+        double tmp_statement_expression_10;
+        double xanalogtv_init__1__3__2__1__2__tmp;
+        unsigned int return_value_ya_random_11;
+        return_value_ya_random_11=ya_random();
+        xanalogtv_init__1__3__2__1__2__tmp = ((double)return_value_ya_random_11 * (double)1.0) / (double)(unsigned int)~0;
+        tmp_statement_expression_10 = xanalogtv_init__1__3__2__1__2__tmp < (double)0 ? -xanalogtv_init__1__3__2__1__2__tmp : xanalogtv_init__1__3__2__1__2__tmp;
+        double return_value_pow_12;
+        return_value_pow_12=pow(tmp_statement_expression_10, 3.0);
+        rec->level = return_value_pow_12 * 2.0 + 0.05;
+        unsigned int return_value_ya_random_13;
+        return_value_ya_random_13=ya_random();
+        rec->ofs = (double)(return_value_ya_random_13 % (unsigned int)238944);
+        unsigned int return_value_ya_random_16;
+        return_value_ya_random_16=ya_random();
+        if(!(return_value_ya_random_16 % 3u == 0u))
         {
-          double tmp_statement_expression$14;
-          double xanalogtv_init$$1$$3$$2$$1$$3$$1$$tmp;
-          unsigned int return_value_ya_random$15;
-          return_value_ya_random$15=ya_random();
-          xanalogtv_init$$1$$3$$2$$1$$3$$1$$tmp = ((double)return_value_ya_random$15 * (double)1.0) / (double)(unsigned int)~0;
-          tmp_statement_expression$14 = xanalogtv_init$$1$$3$$2$$1$$3$$1$$tmp < (double)0 ? -xanalogtv_init$$1$$3$$2$$1$$3$$1$$tmp : xanalogtv_init$$1$$3$$2$$1$$3$$1$$tmp;
-          rec->multipath = tmp_statement_expression$14;
+          double tmp_statement_expression_14;
+          double xanalogtv_init__1__3__2__1__3__1__tmp;
+          unsigned int return_value_ya_random_15;
+          return_value_ya_random_15=ya_random();
+          xanalogtv_init__1__3__2__1__3__1__tmp = ((double)return_value_ya_random_15 * (double)1.0) / (double)(unsigned int)~0;
+          tmp_statement_expression_14 = xanalogtv_init__1__3__2__1__3__1__tmp < (double)0 ? -xanalogtv_init__1__3__2__1__3__1__tmp : xanalogtv_init__1__3__2__1__3__1__tmp;
+          rec->multipath = tmp_statement_expression_14;
         }
 
         else
           rec->multipath = 0.0;
         if(!(stati == 0))
         {
-          double tmp_statement_expression$17;
-          double xanalogtv_init$$1$$3$$2$$1$$5$$1$$tmp;
-          unsigned int return_value_ya_random$18;
-          return_value_ya_random$18=ya_random();
-          xanalogtv_init$$1$$3$$2$$1$$5$$1$$tmp = ((double)return_value_ya_random$18 * (double)2.0) / (double)(unsigned int)~0;
-          tmp_statement_expression$17 = xanalogtv_init$$1$$3$$2$$1$$5$$1$$tmp < (double)0 ? -xanalogtv_init$$1$$3$$2$$1$$5$$1$$tmp : xanalogtv_init$$1$$3$$2$$1$$5$$1$$tmp;
-          rec->freqerr = (tmp_statement_expression$17 - 1.0) * 3.0;
+          double tmp_statement_expression_17;
+          double xanalogtv_init__1__3__2__1__5__1__tmp;
+          unsigned int return_value_ya_random_18;
+          return_value_ya_random_18=ya_random();
+          xanalogtv_init__1__3__2__1__5__1__tmp = ((double)return_value_ya_random_18 * (double)2.0) / (double)(unsigned int)~0;
+          tmp_statement_expression_17 = xanalogtv_init__1__3__2__1__5__1__tmp < (double)0 ? -xanalogtv_init__1__3__2__1__5__1__tmp : xanalogtv_init__1__3__2__1__5__1__tmp;
+          rec->freqerr = (tmp_statement_expression_17 - 1.0) * 3.0;
         }
 
         if(rec->level > 0.3)
           break;
 
-        unsigned int return_value_ya_random$19;
-        return_value_ya_random$19=ya_random();
-        if(!(return_value_ya_random$19 % 4u == 0u))
+        unsigned int return_value_ya_random_19;
+        return_value_ya_random_19=ya_random();
+        if(!(return_value_ya_random_19 % 4u == 0u))
           break;
 
       }
@@ -11427,18 +11427,18 @@ static void xanalogtv_reshape(struct _XDisplay *dpy, unsigned long int window, v
 // file xpm-pixmap.c line 348
 extern unsigned long int xpm_data_to_pixmap(struct _XDisplay *dpy, unsigned long int window, char * const *xpm_data, signed int *width_ret, signed int *height_ret, unsigned long int *mask_ret)
 {
-  unsigned long int return_value_xpm_to_pixmap_1$1;
-  return_value_xpm_to_pixmap_1$1=xpm_to_pixmap_1(dpy, window, width_ret, height_ret, mask_ret, ((const char *)NULL), xpm_data);
-  return return_value_xpm_to_pixmap_1$1;
+  unsigned long int return_value_xpm_to_pixmap_1_1;
+  return_value_xpm_to_pixmap_1_1=xpm_to_pixmap_1(dpy, window, width_ret, height_ret, mask_ret, ((const char *)NULL), xpm_data);
+  return return_value_xpm_to_pixmap_1_1;
 }
 
 // xpm_file_to_pixmap
 // file xpm-pixmap.c line 359
 extern unsigned long int xpm_file_to_pixmap(struct _XDisplay *dpy, unsigned long int window, const char *filename, signed int *width_ret, signed int *height_ret, unsigned long int *mask_ret)
 {
-  unsigned long int return_value_xpm_to_pixmap_1$1;
-  return_value_xpm_to_pixmap_1$1=xpm_to_pixmap_1(dpy, window, width_ret, height_ret, mask_ret, filename, ((char * const *)NULL));
-  return return_value_xpm_to_pixmap_1$1;
+  unsigned long int return_value_xpm_to_pixmap_1_1;
+  return_value_xpm_to_pixmap_1_1=xpm_to_pixmap_1(dpy, window, width_ret, height_ret, mask_ret, filename, ((char * const *)NULL));
+  return return_value_xpm_to_pixmap_1_1;
 }
 
 // xpm_to_pixmap_1
@@ -11446,34 +11446,34 @@ extern unsigned long int xpm_file_to_pixmap(struct _XDisplay *dpy, unsigned long
 static unsigned long int xpm_to_pixmap_1(struct _XDisplay *dpy, unsigned long int window, signed int *width_ret, signed int *height_ret, unsigned long int *mask_ret, const char *filename, char * const *xpm_data)
 {
   struct _GdkPixbuf *pb;
-  struct anonymous$9 xgwa;
+  struct anonymous_9 xgwa;
   struct _GError *gerr = (struct _GError *)(void *)0;
   XGetWindowAttributes(dpy, window, &xgwa);
   static signed int initted = 0;
   if(initted == 0)
   {
-    signed int return_value_screen_number$1;
-    return_value_screen_number$1=screen_number(xgwa.screen);
-    gdk_pixbuf_xlib_init(dpy, return_value_screen_number$1);
+    signed int return_value_screen_number_1;
+    return_value_screen_number_1=screen_number(xgwa.screen);
+    gdk_pixbuf_xlib_init(dpy, return_value_screen_number_1);
     xlib_rgb_init(dpy, xgwa.screen);
     initted = 1;
   }
 
-  struct _GdkPixbuf *tmp_if_expr$4;
-  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_file$2;
-  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_xpm_data$3;
+  struct _GdkPixbuf *tmp_if_expr_4;
+  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_file_2;
+  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_xpm_data_3;
   if(!(filename == ((const char *)NULL)))
   {
-    return_value_gdk_pixbuf_new_from_file$2=gdk_pixbuf_new_from_file(filename, &gerr);
-    tmp_if_expr$4 = return_value_gdk_pixbuf_new_from_file$2;
+    return_value_gdk_pixbuf_new_from_file_2=gdk_pixbuf_new_from_file(filename, &gerr);
+    tmp_if_expr_4 = return_value_gdk_pixbuf_new_from_file_2;
   }
 
   else
   {
-    return_value_gdk_pixbuf_new_from_xpm_data$3=gdk_pixbuf_new_from_xpm_data((const char **)xpm_data);
-    tmp_if_expr$4 = return_value_gdk_pixbuf_new_from_xpm_data$3;
+    return_value_gdk_pixbuf_new_from_xpm_data_3=gdk_pixbuf_new_from_xpm_data((const char **)xpm_data);
+    tmp_if_expr_4 = return_value_gdk_pixbuf_new_from_xpm_data_3;
   }
-  pb = tmp_if_expr$4;
+  pb = tmp_if_expr_4;
   if(!(pb == ((struct _GdkPixbuf *)NULL)))
   {
     signed int w;
@@ -11521,11 +11521,11 @@ static signed int xscreensaver_window_p(struct _XDisplay *dpy, unsigned long int
   unsigned long int nitems;
   unsigned long int bytesafter;
   unsigned char *version;
-  unsigned long int return_value_XInternAtom$1;
-  return_value_XInternAtom$1=XInternAtom(dpy, "_SCREENSAVER_VERSION", 0);
-  signed int return_value_XGetWindowProperty$2;
-  return_value_XGetWindowProperty$2=XGetWindowProperty(dpy, window, return_value_XInternAtom$1, (signed long int)0, (signed long int)1, 0, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &version);
-  if(return_value_XGetWindowProperty$2 == 0)
+  unsigned long int return_value_XInternAtom_1;
+  return_value_XInternAtom_1=XInternAtom(dpy, "_SCREENSAVER_VERSION", 0);
+  signed int return_value_XGetWindowProperty_2;
+  return_value_XGetWindowProperty_2=XGetWindowProperty(dpy, window, return_value_XInternAtom_1, (signed long int)0, (signed long int)1, 0, (unsigned long int)31, &type, &format, &nitems, &bytesafter, &version);
+  if(return_value_XGetWindowProperty_2 == 0)
   {
     if(type == 0ul)
       goto __CPROVER_DUMP_L1;
@@ -11556,9 +11556,9 @@ extern void ya_rand_init(unsigned int seed)
     seed = seed << 11 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)11;
     seed = seed + (unsigned int)((signed long int)1001 * tp.tv_usec);
     seed = seed << 7 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)7;
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    seed = seed + (unsigned int)(1003 * return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    seed = seed + (unsigned int)(1003 * return_value_getpid_1);
     seed = seed << 13 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)13;
   }
 

@@ -1,4 +1,4 @@
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -204,9 +204,9 @@ static void * syscall_setreuid(void *arg)
     suid = (unsigned int)-1;
     euid = suid;
     ruid = euid;
-    signed int return_value_getresuid$1;
-    return_value_getresuid$1=getresuid(&ruid, &euid, &suid);
-    rc = (signed long int)return_value_getresuid$1;
+    signed int return_value_getresuid_1;
+    return_value_getresuid_1=getresuid(&ruid, &euid, &suid);
+    rc = (signed long int)return_value_getresuid_1;
     _assert_int_equal((unsigned long int)ruid, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-uid-wrapper/uid-wrapper-1.2.0+dfsg1/tests/test_thread_sync_setreuid.c", 51);
     _assert_int_equal((unsigned long int)euid, (unsigned long int)ru, "/srv/jenkins-slave/workspace/sid-goto-cc-uid-wrapper/uid-wrapper-1.2.0+dfsg1/tests/test_thread_sync_setreuid.c", 52);
     _assert_int_equal((unsigned long int)suid, (unsigned long int)ru, "/srv/jenkins-slave/workspace/sid-goto-cc-uid-wrapper/uid-wrapper-1.2.0+dfsg1/tests/test_thread_sync_setreuid.c", 53);
@@ -219,9 +219,9 @@ static void * syscall_setreuid(void *arg)
     suid = (unsigned int)-1;
     euid = suid;
     ruid = euid;
-    signed int return_value_getresuid$2;
-    return_value_getresuid$2=getresuid(&ruid, &euid, &suid);
-    rc = (signed long int)return_value_getresuid$2;
+    signed int return_value_getresuid_2;
+    return_value_getresuid_2=getresuid(&ruid, &euid, &suid);
+    rc = (signed long int)return_value_getresuid_2;
     _assert_int_equal((unsigned long int)ruid, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-uid-wrapper/uid-wrapper-1.2.0+dfsg1/tests/test_thread_sync_setreuid.c", 66);
     _assert_int_equal((unsigned long int)euid, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-uid-wrapper/uid-wrapper-1.2.0+dfsg1/tests/test_thread_sync_setreuid.c", 67);
     _assert_int_equal((unsigned long int)suid, (unsigned long int)ru, "/srv/jenkins-slave/workspace/sid-goto-cc-uid-wrapper/uid-wrapper-1.2.0+dfsg1/tests/test_thread_sync_setreuid.c", 68);
@@ -244,9 +244,9 @@ static void test_sync_setreuid(void **state)
   signed int i;
   (void)state;
   pthread_attr_init(&pthread_custom_attr);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)10 * sizeof(struct parm) /*8ul*/ );
-  p = (struct parm *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)10 * sizeof(struct parm) /*8ul*/ );
+  p = (struct parm *)return_value_malloc_1;
   _assert_true((unsigned long int)p, "p", "/srv/jenkins-slave/workspace/sid-goto-cc-uid-wrapper/uid-wrapper-1.2.0+dfsg1/tests/test_thread_sync_setreuid.c", 112);
   pthread_mutex_lock(&msg_mutex);
   i = 0;

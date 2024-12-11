@@ -1,62 +1,62 @@
-// #anon_enum$GNUTLS_CERT_IGNORE=0$GNUTLS_CERT_REQUEST=1$GNUTLS_CERT_REQUIRE=2
+// #anon_enum_GNUTLS_CERT_IGNORE=0_GNUTLS_CERT_REQUEST=1_GNUTLS_CERT_REQUIRE=2
 // file /usr/include/gnutls/gnutls.h line 529
-enum anonymous$12 { GNUTLS_CERT_IGNORE=0, GNUTLS_CERT_REQUEST=1, GNUTLS_CERT_REQUIRE=2 };
+enum anonymous_12 { GNUTLS_CERT_IGNORE=0, GNUTLS_CERT_REQUEST=1, GNUTLS_CERT_REQUIRE=2 };
 
-// #anon_enum$GNUTLS_CRD_CERTIFICATE=1$GNUTLS_CRD_ANON=2$GNUTLS_CRD_SRP=3$GNUTLS_CRD_PSK=4$GNUTLS_CRD_IA=5
+// #anon_enum_GNUTLS_CRD_CERTIFICATE=1_GNUTLS_CRD_ANON=2_GNUTLS_CRD_SRP=3_GNUTLS_CRD_PSK=4_GNUTLS_CRD_IA=5
 // file /usr/include/gnutls/gnutls.h line 222
-enum anonymous$0 { GNUTLS_CRD_CERTIFICATE=1, GNUTLS_CRD_ANON=2, GNUTLS_CRD_SRP=3, GNUTLS_CRD_PSK=4, GNUTLS_CRD_IA=5 };
+enum anonymous_0 { GNUTLS_CRD_CERTIFICATE=1, GNUTLS_CRD_ANON=2, GNUTLS_CRD_SRP=3, GNUTLS_CRD_PSK=4, GNUTLS_CRD_IA=5 };
 
-// #anon_enum$GNUTLS_CRT_UNKNOWN=0$GNUTLS_CRT_X509=1$GNUTLS_CRT_OPENPGP=2$GNUTLS_CRT_RAW=3
+// #anon_enum_GNUTLS_CRT_UNKNOWN=0_GNUTLS_CRT_X509=1_GNUTLS_CRT_OPENPGP=2_GNUTLS_CRT_RAW=3
 // file /usr/include/gnutls/gnutls.h line 599
-enum anonymous$6 { GNUTLS_CRT_UNKNOWN=0, GNUTLS_CRT_X509=1, GNUTLS_CRT_OPENPGP=2, GNUTLS_CRT_RAW=3 };
+enum anonymous_6 { GNUTLS_CRT_UNKNOWN=0, GNUTLS_CRT_X509=1, GNUTLS_CRT_OPENPGP=2, GNUTLS_CRT_RAW=3 };
 
-// #anon_enum$GNUTLS_PK_UNKNOWN=0$GNUTLS_PK_RSA=1$GNUTLS_PK_DSA=2$GNUTLS_PK_DH=3$GNUTLS_PK_EC=4
+// #anon_enum_GNUTLS_PK_UNKNOWN=0_GNUTLS_PK_RSA=1_GNUTLS_PK_DSA=2_GNUTLS_PK_DH=3_GNUTLS_PK_EC=4
 // file /usr/include/gnutls/gnutls.h line 647
-enum anonymous$9 { GNUTLS_PK_UNKNOWN=0, GNUTLS_PK_RSA=1, GNUTLS_PK_DSA=2, GNUTLS_PK_DH=3, GNUTLS_PK_EC=4 };
+enum anonymous_9 { GNUTLS_PK_UNKNOWN=0, GNUTLS_PK_RSA=1, GNUTLS_PK_DSA=2, GNUTLS_PK_DH=3, GNUTLS_PK_EC=4 };
 
-// #anon_enum$GNUTLS_SHUT_RDWR=0$GNUTLS_SHUT_WR=1
+// #anon_enum_GNUTLS_SHUT_RDWR=0_GNUTLS_SHUT_WR=1
 // file /usr/include/gnutls/gnutls.h line 554
-enum anonymous$10 { GNUTLS_SHUT_RDWR=0, GNUTLS_SHUT_WR=1 };
+enum anonymous_10 { GNUTLS_SHUT_RDWR=0, GNUTLS_SHUT_WR=1 };
 
-// #anon_enum$GNUTLS_SSL3=1$GNUTLS_TLS1_0=2$GNUTLS_TLS1=2$GNUTLS_TLS1_1=3$GNUTLS_TLS1_2=4$GNUTLS_DTLS0_9=200$GNUTLS_DTLS1_0=201$GNUTLS_DTLS1_2=202$GNUTLS_DTLS_VERSION_MIN=200$GNUTLS_DTLS_VERSION_MAX=202$GNUTLS_TLS_VERSION_MAX=4$GNUTLS_VERSION_UNKNOWN=255
+// #anon_enum_GNUTLS_SSL3=1_GNUTLS_TLS1_0=2_GNUTLS_TLS1=2_GNUTLS_TLS1_1=3_GNUTLS_TLS1_2=4_GNUTLS_DTLS0_9=200_GNUTLS_DTLS1_0=201_GNUTLS_DTLS1_2=202_GNUTLS_DTLS_VERSION_MIN=200_GNUTLS_DTLS_VERSION_MAX=202_GNUTLS_TLS_VERSION_MAX=4_GNUTLS_VERSION_UNKNOWN=255
 // file /usr/include/gnutls/gnutls.h line 574
-enum anonymous$8 { GNUTLS_SSL3=1, GNUTLS_TLS1_0=2, GNUTLS_TLS1=2, GNUTLS_TLS1_1=3, GNUTLS_TLS1_2=4, GNUTLS_DTLS0_9=200, GNUTLS_DTLS1_0=201, GNUTLS_DTLS1_2=202, GNUTLS_DTLS_VERSION_MIN=200, GNUTLS_DTLS_VERSION_MAX=202, GNUTLS_TLS_VERSION_MAX=4, GNUTLS_VERSION_UNKNOWN=255 };
+enum anonymous_8 { GNUTLS_SSL3=1, GNUTLS_TLS1_0=2, GNUTLS_TLS1=2, GNUTLS_TLS1_1=3, GNUTLS_TLS1_2=4, GNUTLS_DTLS0_9=200, GNUTLS_DTLS1_0=201, GNUTLS_DTLS1_2=202, GNUTLS_DTLS_VERSION_MIN=200, GNUTLS_DTLS_VERSION_MAX=202, GNUTLS_TLS_VERSION_MAX=4, GNUTLS_VERSION_UNKNOWN=255 };
 
-// #anon_enum$GNUTLS_X509_FMT_DER=0$GNUTLS_X509_FMT_PEM=1
+// #anon_enum_GNUTLS_X509_FMT_DER=0_GNUTLS_X509_FMT_PEM=1
 // file /usr/include/gnutls/gnutls.h line 613
-enum anonymous$1 { GNUTLS_X509_FMT_DER=0, GNUTLS_X509_FMT_PEM=1 };
+enum anonymous_1 { GNUTLS_X509_FMT_DER=0, GNUTLS_X509_FMT_PEM=1 };
 
-// tag-#anon#ST[*{U8}$U8$'data'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[*{U8}_U8_'data'||U32'size'||U32'_pad0'|]
 // file /usr/include/gnutls/gnutls.h line 795
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
 union anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
 // tag-#anon#UN[SYM#tag-in_addr#'ipv4'||SYM#tag-in6_addr#'ipv6'|]
 // file daemon.c line 191
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$13;
+union anonymous_13;
 
 // tag-MD5Context
 // file md5.h line 27
@@ -395,21 +395,21 @@ static void MHD_connection_update_event_loop_info(struct MHD_Connection *connect
 // MHD_create_post_processor
 // file ../../src/include/microhttpd.h line 2417
 extern struct MHD_PostProcessor * MHD_create_post_processor(struct MHD_Connection *connection, unsigned long int buffer_size, signed int (*iter)(void *, enum MHD_ValueKind, const char *, const char *, const char *, const char *, const char *, unsigned long int, unsigned long int), void *iter_cls);
-// MHD_create_post_processor::iter$object
+// MHD_create_post_processor::iter_object
 //
-signed int iter$object(void *, enum MHD_ValueKind, const char *, const char *, const char *, const char *, const char *, unsigned long int, unsigned long int);
+signed int iter_object(void *, enum MHD_ValueKind, const char *, const char *, const char *, const char *, const char *, unsigned long int, unsigned long int);
 // MHD_create_response_from_buffer
 // file ../../src/include/microhttpd.h line 2075
 extern struct MHD_Response * MHD_create_response_from_buffer(unsigned long int size, void *buffer, enum MHD_ResponseMemoryMode mode);
 // MHD_create_response_from_callback
 // file response.c line 244
 extern struct MHD_Response * MHD_create_response_from_callback(unsigned long int size, unsigned long int block_size, signed long int (*crc)(void *, unsigned long int, char *, unsigned long int), void *crc_cls, void (*crfc)(void *));
-// MHD_create_response_from_callback::crc$object
+// MHD_create_response_from_callback::crc_object
 //
-signed long int crc$object(void *, unsigned long int, char *, unsigned long int);
-// MHD_create_response_from_callback::crfc$object
+signed long int crc_object(void *, unsigned long int, char *, unsigned long int);
+// MHD_create_response_from_callback::crfc_object
 //
-void crfc$object(void *);
+void crfc_object(void *);
 // MHD_create_response_from_data
 // file response.c line 502
 extern struct MHD_Response * MHD_create_response_from_data(unsigned long int size, void *data, signed int must_free, signed int must_copy);
@@ -452,18 +452,18 @@ extern union MHD_ConnectionInfo * MHD_get_connection_info(struct MHD_Connection 
 // MHD_get_connection_values
 // file connection.c line 127
 extern signed int MHD_get_connection_values(struct MHD_Connection *connection, enum MHD_ValueKind kind, signed int (*iterator)(void *, enum MHD_ValueKind, const char *, const char *), void *iterator_cls);
-// MHD_get_connection_values::iterator$object
+// MHD_get_connection_values::iterator_object
 //
-signed int iterator$object(void *, enum MHD_ValueKind, const char *, const char *);
+signed int iterator_object(void *, enum MHD_ValueKind, const char *, const char *);
 // MHD_get_daemon_info
 // file daemon.c line 4625
 extern union MHD_DaemonInfo * MHD_get_daemon_info(struct MHD_Daemon *daemon, enum MHD_DaemonInfoType info_type, ...);
 // MHD_get_fdset
 // file daemon.c line 678
-extern signed int MHD_get_fdset(struct MHD_Daemon *daemon, struct anonymous$3 *read_fd_set, struct anonymous$3 *write_fd_set, struct anonymous$3 *except_fd_set, signed int *max_fd);
+extern signed int MHD_get_fdset(struct MHD_Daemon *daemon, struct anonymous_3 *read_fd_set, struct anonymous_3 *write_fd_set, struct anonymous_3 *except_fd_set, signed int *max_fd);
 // MHD_get_fdset2
 // file daemon.c line 711
-extern signed int MHD_get_fdset2(struct MHD_Daemon *daemon, struct anonymous$3 *read_fd_set, struct anonymous$3 *write_fd_set, struct anonymous$3 *except_fd_set, signed int *max_fd, unsigned int fd_setsize);
+extern signed int MHD_get_fdset2(struct MHD_Daemon *daemon, struct anonymous_3 *read_fd_set, struct anonymous_3 *write_fd_set, struct anonymous_3 *except_fd_set, signed int *max_fd, unsigned int fd_setsize);
 // MHD_get_master
 // file daemon.c line 170
 static struct MHD_Daemon * MHD_get_master(struct MHD_Daemon *daemon);
@@ -476,9 +476,9 @@ extern const char * MHD_get_response_header(struct MHD_Response *response, const
 // MHD_get_response_headers
 // file response.c line 186
 extern signed int MHD_get_response_headers(struct MHD_Response *response, signed int (*iterator)(void *, enum MHD_ValueKind, const char *, const char *), void *iterator_cls);
-// MHD_get_response_headers::iterator$object
+// MHD_get_response_headers::iterator_object
 //
-signed int iterator$object(void *, enum MHD_ValueKind, const char *, const char *);
+signed int iterator_object(void *, enum MHD_ValueKind, const char *, const char *);
 // MHD_get_timeout
 // file daemon.c line 2118
 extern signed int MHD_get_timeout(struct MHD_Daemon *daemon, unsigned long long int *timeout);
@@ -580,7 +580,7 @@ extern void MHD_resume_connection(struct MHD_Connection *connection);
 extern signed int MHD_run(struct MHD_Daemon *daemon);
 // MHD_run_from_select
 // file daemon.c line 2215
-extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct anonymous$3 *read_fd_set, const struct anonymous$3 *write_fd_set, const struct anonymous$3 *except_fd_set);
+extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct anonymous_3 *read_fd_set, const struct anonymous_3 *write_fd_set, const struct anonymous_3 *except_fd_set);
 // MHD_select
 // file daemon.c line 2306
 static signed int MHD_select(struct MHD_Daemon *daemon, signed int may_block);
@@ -602,30 +602,30 @@ void MHD_set_https_callbacks(struct MHD_Connection *connection);
 // MHD_set_panic_func
 // file daemon.c line 4679
 extern void MHD_set_panic_func(void (*cb)(void *, const char *, unsigned int, const char *), void *cls);
-// MHD_set_panic_func::cb$object
+// MHD_set_panic_func::cb_object
 //
-void cb$object(void *, const char *, unsigned int, const char *);
+void cb_object(void *, const char *, unsigned int, const char *);
 // MHD_set_response_options
 // file response.c line 283
 extern signed int MHD_set_response_options(struct MHD_Response *response, enum MHD_ResponseFlags flags, ...);
 // MHD_start_daemon
 // file ../../src/include/microhttpd.h line 1548
 extern struct MHD_Daemon * MHD_start_daemon(unsigned int flags, unsigned short int port, signed int (*apc)(void *, struct sockaddr *, unsigned int), void *apc_cls, signed int (*dh)(void *, struct MHD_Connection *, const char *, const char *, const char *, const char *, unsigned long int *, void **), void *dh_cls, ...);
-// MHD_start_daemon::apc$object
+// MHD_start_daemon::apc_object
 //
-signed int apc$object(void *, struct sockaddr *, unsigned int);
-// MHD_start_daemon::dh$object
+signed int apc_object(void *, struct sockaddr *, unsigned int);
+// MHD_start_daemon::dh_object
 //
-signed int dh$object(void *, struct MHD_Connection *, const char *, const char *, const char *, const char *, unsigned long int *, void **);
+signed int dh_object(void *, struct MHD_Connection *, const char *, const char *, const char *, const char *, unsigned long int *, void **);
 // MHD_start_daemon_va
 // file daemon.c line 3613
 extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned short int port, signed int (*apc)(void *, struct sockaddr *, unsigned int), void *apc_cls, signed int (*dh)(void *, struct MHD_Connection *, const char *, const char *, const char *, const char *, unsigned long int *, void **), void *dh_cls, void **ap);
-// MHD_start_daemon_va::apc$object
+// MHD_start_daemon_va::apc_object
 //
-signed int apc$object(void *, struct sockaddr *, unsigned int);
-// MHD_start_daemon_va::dh$object
+signed int apc_object(void *, struct sockaddr *, unsigned int);
+// MHD_start_daemon_va::dh_object
 //
-signed int dh$object(void *, struct MHD_Connection *, const char *, const char *, const char *, const char *, unsigned long int *, void **);
+signed int dh_object(void *, struct MHD_Connection *, const char *, const char *, const char *, const char *, unsigned long int *, void **);
 // MHD_stop_daemon
 // file ../../src/include/microhttpd.h line 1585
 extern void MHD_stop_daemon(struct MHD_Daemon *daemon);
@@ -658,19 +658,19 @@ extern signed int * __errno_location(void);
 extern void abort(void);
 // accept4
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 251
-extern signed int accept4(signed int, union anonymous$13, unsigned int *, signed int);
+extern signed int accept4(signed int, union anonymous_13, unsigned int *, signed int);
 // add_response_entry
 // file response.c line 54
 static signed int add_response_entry(struct MHD_Response *response, enum MHD_ValueKind kind, const char *header, const char *content);
 // add_to_fd_set
 // file daemon.c line 629
-static signed int add_to_fd_set(signed int fd, struct anonymous$3 *set, signed int *max_fd, unsigned int fd_setsize);
+static signed int add_to_fd_set(signed int fd, struct anonymous_3 *set, signed int *max_fd, unsigned int fd_setsize);
 // answer_to_connection
 // file largepost.c line 146
 static signed int answer_to_connection(void *cls, struct MHD_Connection *connection, const char *url, const char *method, const char *version, const char *upload_data, unsigned long int *upload_data_size, void **con_cls);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$13, unsigned int);
+extern signed int bind(signed int, union anonymous_13, unsigned int);
 // build_header_response
 // file connection.c line 642
 static signed int build_header_response(struct MHD_Connection *connection);
@@ -716,9 +716,9 @@ static signed int create_socket(struct MHD_Daemon *daemon, signed int domain, si
 // create_thread
 // file daemon.c line 1197
 static signed int create_thread(unsigned long int *thread, struct MHD_Daemon *daemon, void * (*start_routine)(void *), void *arg);
-// create_thread::start_routine$object
+// create_thread::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // cvthex
 // file digestauth.c line 75
 static void cvthex(const unsigned char *bin, unsigned long int len, char *hex);
@@ -793,7 +793,7 @@ extern signed int getchar(void);
 extern struct tm * gmtime_r(const signed long int *, struct tm *);
 // gnutls_bye
 // file /usr/include/gnutls/gnutls.h line 819
-signed int gnutls_bye(struct gnutls_session_int *, enum anonymous$10);
+signed int gnutls_bye(struct gnutls_session_int *, enum anonymous_10);
 // gnutls_certificate_allocate_credentials
 // file /usr/include/gnutls/gnutls.h line 1437
 signed int gnutls_certificate_allocate_credentials(struct gnutls_certificate_credentials_st **);
@@ -802,28 +802,28 @@ signed int gnutls_certificate_allocate_credentials(struct gnutls_certificate_cre
 void gnutls_certificate_free_credentials(struct gnutls_certificate_credentials_st *);
 // gnutls_certificate_server_set_request
 // file /usr/include/gnutls/gnutls.h line 2079
-void gnutls_certificate_server_set_request(struct gnutls_session_int *, enum anonymous$12);
+void gnutls_certificate_server_set_request(struct gnutls_session_int *, enum anonymous_12);
 // gnutls_certificate_set_dh_params
 // file /usr/include/gnutls/gnutls.h line 1466
 void gnutls_certificate_set_dh_params(struct gnutls_certificate_credentials_st *, struct gnutls_dh_params_int *);
 // gnutls_certificate_set_retrieve_function2
 // file /usr/include/gnutls/abstract.h line 513
-void gnutls_certificate_set_retrieve_function2(struct gnutls_certificate_credentials_st *, signed int (*)(struct gnutls_session_int *, const struct anonymous$2 *, signed int, const enum anonymous$9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **));
+void gnutls_certificate_set_retrieve_function2(struct gnutls_certificate_credentials_st *, signed int (*)(struct gnutls_session_int *, const struct anonymous_2 *, signed int, const enum anonymous_9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **));
 // gnutls_certificate_set_x509_key_mem
 // file /usr/include/gnutls/gnutls.h line 1532
-signed int gnutls_certificate_set_x509_key_mem(struct gnutls_certificate_credentials_st *, const struct anonymous$2 *, const struct anonymous$2 *, enum anonymous$1);
+signed int gnutls_certificate_set_x509_key_mem(struct gnutls_certificate_credentials_st *, const struct anonymous_2 *, const struct anonymous_2 *, enum anonymous_1);
 // gnutls_certificate_set_x509_key_mem2
 // file /usr/include/gnutls/gnutls.h line 1537
-signed int gnutls_certificate_set_x509_key_mem2(struct gnutls_certificate_credentials_st *, const struct anonymous$2 *, const struct anonymous$2 *, enum anonymous$1, const char *, unsigned int);
+signed int gnutls_certificate_set_x509_key_mem2(struct gnutls_certificate_credentials_st *, const struct anonymous_2 *, const struct anonymous_2 *, enum anonymous_1, const char *, unsigned int);
 // gnutls_certificate_set_x509_trust_mem
 // file /usr/include/gnutls/gnutls.h line 1506
-signed int gnutls_certificate_set_x509_trust_mem(struct gnutls_certificate_credentials_st *, const struct anonymous$2 *, enum anonymous$1);
+signed int gnutls_certificate_set_x509_trust_mem(struct gnutls_certificate_credentials_st *, const struct anonymous_2 *, enum anonymous_1);
 // gnutls_cipher_get
 // file /usr/include/gnutls/gnutls.h line 852
 enum gnutls_cipher_algorithm gnutls_cipher_get(struct gnutls_session_int *);
 // gnutls_credentials_set
 // file /usr/include/gnutls/gnutls.h line 1367
-signed int gnutls_credentials_set(struct gnutls_session_int *, enum anonymous$0, void *);
+signed int gnutls_credentials_set(struct gnutls_session_int *, enum anonymous_0, void *);
 // gnutls_deinit
 // file /usr/include/gnutls/gnutls.h line 816
 void gnutls_deinit(struct gnutls_session_int *);
@@ -832,7 +832,7 @@ void gnutls_deinit(struct gnutls_session_int *);
 void gnutls_dh_params_deinit(struct gnutls_dh_params_int *);
 // gnutls_dh_params_import_pkcs3
 // file /usr/include/gnutls/gnutls.h line 1670
-signed int gnutls_dh_params_import_pkcs3(struct gnutls_dh_params_int *, const struct anonymous$2 *, enum anonymous$1);
+signed int gnutls_dh_params_import_pkcs3(struct gnutls_dh_params_int *, const struct anonymous_2 *, enum anonymous_1);
 // gnutls_dh_params_init
 // file /usr/include/gnutls/gnutls.h line 1661
 signed int gnutls_dh_params_init(struct gnutls_dh_params_int **);
@@ -859,7 +859,7 @@ signed int gnutls_priority_init(struct gnutls_priority_st **, const char *, cons
 signed int gnutls_priority_set(struct gnutls_session_int *, struct gnutls_priority_st *);
 // gnutls_protocol_get_version
 // file /usr/include/gnutls/gnutls.h line 1211
-enum anonymous$8 gnutls_protocol_get_version(struct gnutls_session_int *);
+enum anonymous_8 gnutls_protocol_get_version(struct gnutls_session_int *);
 // gnutls_record_check_pending
 // file /usr/include/gnutls/gnutls.h line 1032
 unsigned long int gnutls_record_check_pending(struct gnutls_session_int *);
@@ -926,9 +926,9 @@ extern void * memmove(void *, const void *, unsigned long int);
 // memset
 // file /usr/include/string.h line 66
 extern void * memset(void *, signed int, unsigned long int);
-// mhd_panic$object
+// mhd_panic_object
 //
-void mhd_panic$object(void *, const char *, unsigned int, const char *);
+void mhd_panic_object(void *, const char *, unsigned int, const char *);
 // mhd_panic_std
 // file daemon.c line 132
 static void mhd_panic_std(void *cls, const char *file, unsigned int line, const char *reason);
@@ -1003,16 +1003,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$5 *);
+extern signed int pthread_mutex_destroy(union anonymous_5 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // pthread_setname_np
 // file /usr/include/pthread.h line 453
 extern signed int pthread_setname_np(unsigned long int, const char *);
@@ -1039,7 +1039,7 @@ static signed int resume_suspended_connections(struct MHD_Daemon *daemon);
 static signed int run_tls_handshake(struct MHD_Connection *connection);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$3 *, struct anonymous$3 *, struct anonymous$3 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *, struct anonymous_3 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1158,7 +1158,7 @@ extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$2
+struct anonymous_2
 {
   // data
   unsigned char *data;
@@ -1166,7 +1166,7 @@ struct anonymous$2
   unsigned int size;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // fds_bits
   signed long int fds_bits[16l];
@@ -1182,7 +1182,7 @@ union anonymous
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -1218,7 +1218,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1240,7 +1240,7 @@ struct in6_addr
   union anonymous __in6_u;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // ipv4
   struct in_addr ipv4;
@@ -1248,7 +1248,7 @@ union anonymous$7
   struct in6_addr ipv6;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1278,7 +1278,7 @@ union anonymous$11
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1527,9 +1527,9 @@ struct MHD_Daemon
   // pid
   unsigned long int pid;
   // per_ip_connection_mutex
-  union anonymous$5 per_ip_connection_mutex;
+  union anonymous_5 per_ip_connection_mutex;
   // cleanup_connection_mutex
-  union anonymous$5 cleanup_connection_mutex;
+  union anonymous_5 cleanup_connection_mutex;
   // socket_fd
   signed int socket_fd;
   // listening_address_reuse
@@ -1559,13 +1559,13 @@ struct MHD_Daemon
   // priority_cache
   struct gnutls_priority_st *priority_cache;
   // cred_type
-  enum anonymous$0 cred_type;
+  enum anonymous_0 cred_type;
   // x509_cred
   struct gnutls_certificate_credentials_st *x509_cred;
   // dh_params
   struct gnutls_dh_params_int *dh_params;
   // cert_callback
-  signed int (*cert_callback)(struct gnutls_session_int *, const struct anonymous$2 *, signed int, const enum anonymous$9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **);
+  signed int (*cert_callback)(struct gnutls_session_int *, const struct anonymous_2 *, signed int, const enum anonymous_9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **);
   // https_mem_key
   const char *https_mem_key;
   // https_mem_cert
@@ -1585,7 +1585,7 @@ struct MHD_Daemon
   // nnc
   struct MHD_NonceNc *nnc;
   // nnc_lock
-  union anonymous$5 nnc_lock;
+  union anonymous_5 nnc_lock;
   // digest_auth_rand_size
   unsigned long int digest_auth_rand_size;
   // nonce_nc_size
@@ -1623,7 +1623,7 @@ struct MHD_IPCount
   // family
   signed int family;
   // addr
-  union anonymous$7 addr;
+  union anonymous_7 addr;
   // count
   unsigned int count;
 };
@@ -1715,7 +1715,7 @@ struct MHD_Response
   // crfc
   void (*crfc)(void *);
   // mutex
-  union anonymous$5 mutex;
+  union anonymous_5 mutex;
   // total_size
   unsigned long int total_size;
   // data_start
@@ -1859,9 +1859,9 @@ struct gnutls_pcert_st
   // pubkey
   struct gnutls_pubkey_st *pubkey;
   // cert
-  struct anonymous$2 cert;
+  struct anonymous_2 cert;
   // type
-  enum anonymous$6 type;
+  enum anonymous_6 type;
 };
 
 struct pollfd
@@ -2042,21 +2042,21 @@ char * BASE64Decode(const char *src)
   in_len=strlen(src);
   char *dest;
   char *result;
-  const char *tmp_post$2;
-  const char *tmp_post$3;
-  const char *tmp_post$4;
-  const char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
+  const char *tmp_post_2;
+  const char *tmp_post_3;
+  const char *tmp_post_4;
+  const char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
   if(!(in_len % 4ul == 0ul))
     return (char *)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((in_len / (unsigned long int)4) * (unsigned long int)3 + (unsigned long int)1);
-    dest = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((in_len / (unsigned long int)4) * (unsigned long int)3 + (unsigned long int)1);
+    dest = (char *)return_value_malloc_1;
     result = dest;
     if(result == ((char *)NULL))
       return (char *)(void *)0;
@@ -2066,36 +2066,36 @@ char * BASE64Decode(const char *src)
       while(!(*src == 0))
       {
         char a;
-        tmp_post$2 = src;
+        tmp_post_2 = src;
         src = src + 1l;
-        a = base64_digits[(signed long int)(unsigned char)*tmp_post$2];
+        a = base64_digits[(signed long int)(unsigned char)*tmp_post_2];
         char b;
-        tmp_post$3 = src;
+        tmp_post_3 = src;
         src = src + 1l;
-        b = base64_digits[(signed long int)(unsigned char)*tmp_post$3];
+        b = base64_digits[(signed long int)(unsigned char)*tmp_post_3];
         char c;
-        tmp_post$4 = src;
+        tmp_post_4 = src;
         src = src + 1l;
-        c = base64_digits[(signed long int)(unsigned char)*tmp_post$4];
+        c = base64_digits[(signed long int)(unsigned char)*tmp_post_4];
         char d;
-        tmp_post$5 = src;
+        tmp_post_5 = src;
         src = src + 1l;
-        d = base64_digits[(signed long int)(unsigned char)*tmp_post$5];
-        tmp_post$6 = dest;
+        d = base64_digits[(signed long int)(unsigned char)*tmp_post_5];
+        tmp_post_6 = dest;
         dest = dest + 1l;
-        *tmp_post$6 = (char)((signed int)a << 2 | ((signed int)b & 0x30) >> 4);
+        *tmp_post_6 = (char)((signed int)a << 2 | ((signed int)b & 0x30) >> 4);
         if(c == -1)
           break;
 
-        tmp_post$7 = dest;
+        tmp_post_7 = dest;
         dest = dest + 1l;
-        *tmp_post$7 = (char)(((signed int)b & 0x0f) << 4 | ((signed int)c & 0x3c) >> 2);
+        *tmp_post_7 = (char)(((signed int)b & 0x0f) << 4 | ((signed int)c & 0x3c) >> 2);
         if(d == -1)
           break;
 
-        tmp_post$8 = dest;
+        tmp_post_8 = dest;
         dest = dest + 1l;
-        *tmp_post$8 = (char)(((signed int)c & 0x03) << 6 | (signed int)d);
+        *tmp_post_8 = (char)(((signed int)c & 0x03) << 6 | (signed int)d);
       }
       *dest = (char)0;
       return result;
@@ -2437,16 +2437,16 @@ void MHD_DLOG(struct MHD_Daemon *daemon, const char *format, ...)
 // file daemon.c line 597
 static signed int MHD_TLS_init(struct MHD_Daemon *daemon)
 {
-  signed int return_value_gnutls_certificate_allocate_credentials$1;
-  signed int return_value_MHD_init_daemon_certificate$2;
+  signed int return_value_gnutls_certificate_allocate_credentials_1;
+  signed int return_value_MHD_init_daemon_certificate_2;
   if((signed int)daemon->cred_type == GNUTLS_CRD_CERTIFICATE)
   {
-    return_value_gnutls_certificate_allocate_credentials$1=gnutls_certificate_allocate_credentials(&daemon->x509_cred);
-    if(!(return_value_gnutls_certificate_allocate_credentials$1 == 0))
+    return_value_gnutls_certificate_allocate_credentials_1=gnutls_certificate_allocate_credentials(&daemon->x509_cred);
+    if(!(return_value_gnutls_certificate_allocate_credentials_1 == 0))
       return -25;
 
-    return_value_MHD_init_daemon_certificate$2=MHD_init_daemon_certificate(daemon);
-    return return_value_MHD_init_daemon_certificate$2;
+    return_value_MHD_init_daemon_certificate_2=MHD_init_daemon_certificate(daemon);
+    return return_value_MHD_init_daemon_certificate_2;
   }
 
   MHD_DLOG(daemon, "Error: invalid credentials type %d specified.\n", daemon->cred_type);
@@ -2466,10 +2466,10 @@ static signed int MHD_accept_connection(struct MHD_Daemon *daemon)
   addrlen = (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ ;
   memset((void *)addr, 0, sizeof(struct sockaddr_in6) /*28ul*/ );
   fd = daemon->socket_fd;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(fd == -1)
     return 0;
 
@@ -2480,9 +2480,9 @@ static signed int MHD_accept_connection(struct MHD_Daemon *daemon)
     if(s == -1 || !(addrlen >= 1u))
     {
       signed int err;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      err = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      err = *return_value___errno_location_1;
       if(err == 22)
       {
         if(daemon->socket_fd == -1)
@@ -2492,24 +2492,24 @@ static signed int MHD_accept_connection(struct MHD_Daemon *daemon)
 
       if(!(err == 11))
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        MHD_DLOG(daemon, "Error accepting connection: %s\n", return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        MHD_DLOG(daemon, "Error accepting connection: %s\n", return_value_strerror_3);
       }
 
       if(!(s == -1))
       {
-        signed int return_value_close$4;
-        return_value_close$4=close(s);
-        if(!(return_value_close$4 == 0))
+        signed int return_value_close_4;
+        return_value_close_4=close(s);
+        if(!(return_value_close_4 == 0))
         {
-          return_value___errno_location$5=__errno_location();
-          tmp_if_expr$6 = 9 == *return_value___errno_location$5 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_5=__errno_location();
+          tmp_if_expr_6 = 9 == *return_value___errno_location_5 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
           mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1992, "close failed\n");
 
       }
@@ -2528,27 +2528,27 @@ static signed int MHD_accept_connection(struct MHD_Daemon *daemon)
 extern signed int MHD_add_connection(struct MHD_Daemon *daemon, signed int client_socket, struct sockaddr *addr, unsigned int addrlen)
 {
   make_nonblocking_noninheritable(daemon, client_socket);
-  signed int return_value_internal_add_connection$1;
-  return_value_internal_add_connection$1=internal_add_connection(daemon, client_socket, addr, addrlen, 1);
-  return return_value_internal_add_connection$1;
+  signed int return_value_internal_add_connection_1;
+  return_value_internal_add_connection_1=internal_add_connection(daemon, client_socket, addr, addrlen, 1);
+  return return_value_internal_add_connection_1;
 }
 
 // MHD_add_response_footer
 // file response.c line 123
 extern signed int MHD_add_response_footer(struct MHD_Response *response, const char *footer, const char *content)
 {
-  signed int return_value_add_response_entry$1;
-  return_value_add_response_entry$1=add_response_entry(response, (enum MHD_ValueKind)MHD_FOOTER_KIND, footer, content);
-  return return_value_add_response_entry$1;
+  signed int return_value_add_response_entry_1;
+  return_value_add_response_entry_1=add_response_entry(response, (enum MHD_ValueKind)MHD_FOOTER_KIND, footer, content);
+  return return_value_add_response_entry_1;
 }
 
 // MHD_add_response_header
 // file ../../src/include/microhttpd.h line 2326
 extern signed int MHD_add_response_header(struct MHD_Response *response, const char *header, const char *content)
 {
-  signed int return_value_add_response_entry$1;
-  return_value_add_response_entry$1=add_response_entry(response, (enum MHD_ValueKind)MHD_HEADER_KIND, header, content);
-  return return_value_add_response_entry$1;
+  signed int return_value_add_response_entry_1;
+  return_value_add_response_entry_1=add_response_entry(response, (enum MHD_ValueKind)MHD_HEADER_KIND, header, content);
+  return return_value_add_response_entry_1;
 }
 
 // MHD_basic_auth_get_username_password
@@ -2560,26 +2560,26 @@ extern char * MHD_basic_auth_get_username_password(struct MHD_Connection *connec
   const char *separator;
   char *user;
   header=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Authorization");
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_strncmp$2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_strncmp_2;
   if(header == ((const char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen("Basic ");
-    return_value_strncmp$2=strncmp(header, "Basic ", return_value_strlen$1);
-    tmp_if_expr$3 = 0 != return_value_strncmp$2 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen("Basic ");
+    return_value_strncmp_2=strncmp(header, "Basic ", return_value_strlen_1);
+    tmp_if_expr_3 = 0 != return_value_strncmp_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return (char *)(void *)0;
 
   else
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen("Basic ");
-    header = header + (signed long int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen("Basic ");
+    header = header + (signed long int)return_value_strlen_4;
     decode=BASE64Decode(header);
     if(decode == ((char *)NULL))
     {
@@ -2640,17 +2640,17 @@ extern char * MHD_basic_auth_get_username_password(struct MHD_Connection *connec
 static void MHD_cleanup_connections(struct MHD_Daemon *daemon)
 {
   struct MHD_Connection *pos;
-  signed int return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)2028, "Failed to acquire cleanup mutex\n");
 
   }
 
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   do
   {
     pos = daemon->cleanup_head;
@@ -2677,9 +2677,9 @@ static void MHD_cleanup_connections(struct MHD_Daemon *daemon)
     {
       if(pos->thread_joined == 0)
       {
-        signed int return_value_pthread_join$2;
-        return_value_pthread_join$2=pthread_join(pos->pid, (void **)(void *)0);
-        if(!(return_value_pthread_join$2 == 0))
+        signed int return_value_pthread_join_2;
+        return_value_pthread_join_2=pthread_join(pos->pid, (void **)(void *)0);
+        if(!(return_value_pthread_join_2 == 0))
           mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)2039, "Failed to join a thread\n");
 
       }
@@ -2722,9 +2722,9 @@ static void MHD_cleanup_connections(struct MHD_Daemon *daemon)
       {
         if(!((MHD_EPOLL_STATE_IN_EPOLL_SET & (signed int)pos->epoll_state) == 0))
         {
-          signed int return_value_epoll_ctl$3;
-          return_value_epoll_ctl$3=epoll_ctl(daemon->epoll_fd, 2, pos->socket_fd, (struct epoll_event *)(void *)0);
-          if(!(return_value_epoll_ctl$3 == 0))
+          signed int return_value_epoll_ctl_3;
+          return_value_epoll_ctl_3=epoll_ctl(daemon->epoll_fd, 2, pos->socket_fd, (struct epoll_event *)(void *)0);
+          if(!(return_value_epoll_ctl_3 == 0))
             mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)2076, "Failed to remove FD from epoll set\n");
 
           pos->epoll_state = pos->epoll_state & (enum MHD_EpollState)~MHD_EPOLL_STATE_IN_EPOLL_SET;
@@ -2742,17 +2742,17 @@ static void MHD_cleanup_connections(struct MHD_Daemon *daemon)
 
     if(!(pos->socket_fd == -1))
     {
-      signed int return_value_close$4;
-      return_value_close$4=close(pos->socket_fd);
-      if(!(return_value_close$4 == 0))
+      signed int return_value_close_4;
+      return_value_close_4=close(pos->socket_fd);
+      if(!(return_value_close_4 == 0))
       {
-        return_value___errno_location$5=__errno_location();
-        tmp_if_expr$6 = 9 == *return_value___errno_location$5 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_5=__errno_location();
+        tmp_if_expr_6 = 9 == *return_value___errno_location_5 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)2091, "close failed\n");
 
     }
@@ -2763,11 +2763,11 @@ static void MHD_cleanup_connections(struct MHD_Daemon *daemon)
     free((void *)pos);
   }
   while((_Bool)1);
-  signed int return_value_pthread_mutex_unlock$7;
+  signed int return_value_pthread_mutex_unlock_7;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$7 == 0))
+    return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_7 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)2099, "Failed to release cleanup mutex\n");
 
   }
@@ -2799,12 +2799,12 @@ void MHD_connection_close(struct MHD_Connection *connection, enum MHD_RequestTer
 signed int MHD_connection_epoll_update_(struct MHD_Connection *connection)
 {
   struct MHD_Daemon *daemon = connection->daemon;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!((MHD_USE_EPOLL_LINUX_ONLY & (signed int)daemon->options) == 0))
   {
     if((MHD_EPOLL_STATE_IN_EPOLL_SET & (signed int)connection->epoll_state) == 0)
@@ -2812,43 +2812,43 @@ signed int MHD_connection_epoll_update_(struct MHD_Connection *connection)
       if((MHD_EPOLL_STATE_SUSPENDED & (signed int)connection->epoll_state) == 0)
       {
         if((MHD_EPOLL_STATE_WRITE_READY & (signed int)connection->epoll_state) == 0)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           if((MHD_EPOLL_STATE_READ_READY & (signed int)connection->epoll_state) == 0)
           {
             if((signed int)connection->event_loop_info == MHD_EVENT_LOOP_INFO_READ)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = connection->read_buffer_size > connection->read_buffer_offset ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = connection->read_buffer_size > connection->read_buffer_offset ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = 0 == connection->read_closed ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = 0 == connection->read_closed ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           struct epoll_event event;
           event.events = (unsigned int)(1 | 4 | -2147483648);
           event.data.ptr = (void *)connection;
-          signed int return_value_epoll_ctl$3;
-          return_value_epoll_ctl$3=epoll_ctl(daemon->epoll_fd, 1, connection->socket_fd, &event);
-          if(!(return_value_epoll_ctl$3 == 0))
+          signed int return_value_epoll_ctl_3;
+          return_value_epoll_ctl_3=epoll_ctl(daemon->epoll_fd, 1, connection->socket_fd, &event);
+          if(!(return_value_epoll_ctl_3 == 0))
           {
             if(!((MHD_USE_DEBUG & (signed int)daemon->options) == 0))
             {
-              return_value___errno_location$1=__errno_location();
-              return_value_strerror$2=strerror(*return_value___errno_location$1);
-              MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror$2);
+              return_value___errno_location_1=__errno_location();
+              return_value_strerror_2=strerror(*return_value___errno_location_1);
+              MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror_2);
             }
 
             connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_CLOSED;
@@ -2879,45 +2879,45 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
   char *line;
   signed int client_close;
   connection->in_idle = 1;
-  signed int return_value_parse_initial_message_line$1;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_process_header_line$3;
-  signed int return_value_process_broken_line$4;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_need_100_continue$6;
-  signed int return_value_strcasecmp$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcasecmp$8;
-  unsigned long int return_value_strlen$10;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strlen$15;
-  signed int return_value_process_header_line$16;
-  signed int return_value_process_broken_line$17;
-  unsigned long int return_value_strlen$18;
-  signed int return_value_build_header_response$19;
-  signed int return_value_pthread_mutex_lock$20;
-  signed int return_value_pthread_mutex_unlock$21;
-  signed int return_value_try_ready_normal_body$23;
-  signed int return_value_pthread_mutex_unlock$22;
-  signed int return_value_pthread_mutex_lock$24;
-  _Bool tmp_if_expr$26;
-  signed int return_value_pthread_mutex_unlock$25;
-  signed int return_value_try_ready_chunked_body$28;
-  signed int return_value_pthread_mutex_unlock$27;
-  signed int return_value_pthread_mutex_unlock$29;
-  signed int return_value_build_header_response$30;
-  _Bool tmp_if_expr$31;
-  _Bool tmp_if_expr$33;
-  signed int return_value_strcasecmp$32;
-  _Bool tmp_if_expr$36;
-  _Bool tmp_if_expr$35;
-  signed int return_value_strcasecmp$34;
-  _Bool tmp_if_expr$38;
-  _Bool tmp_if_expr$40;
-  signed int return_value_keepalive_possible$39;
+  signed int return_value_parse_initial_message_line_1;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_process_header_line_3;
+  signed int return_value_process_broken_line_4;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_need_100_continue_6;
+  signed int return_value_strcasecmp_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcasecmp_8;
+  unsigned long int return_value_strlen_10;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strlen_15;
+  signed int return_value_process_header_line_16;
+  signed int return_value_process_broken_line_17;
+  unsigned long int return_value_strlen_18;
+  signed int return_value_build_header_response_19;
+  signed int return_value_pthread_mutex_lock_20;
+  signed int return_value_pthread_mutex_unlock_21;
+  signed int return_value_try_ready_normal_body_23;
+  signed int return_value_pthread_mutex_unlock_22;
+  signed int return_value_pthread_mutex_lock_24;
+  _Bool tmp_if_expr_26;
+  signed int return_value_pthread_mutex_unlock_25;
+  signed int return_value_try_ready_chunked_body_28;
+  signed int return_value_pthread_mutex_unlock_27;
+  signed int return_value_pthread_mutex_unlock_29;
+  signed int return_value_build_header_response_30;
+  _Bool tmp_if_expr_31;
+  _Bool tmp_if_expr_33;
+  signed int return_value_strcasecmp_32;
+  _Bool tmp_if_expr_36;
+  _Bool tmp_if_expr_35;
+  signed int return_value_strcasecmp_34;
+  _Bool tmp_if_expr_38;
+  _Bool tmp_if_expr_40;
+  signed int return_value_keepalive_possible_39;
   while((_Bool)1)
   {
     switch((signed int)connection->state)
@@ -2939,8 +2939,8 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
           break;
         }
 
-        return_value_parse_initial_message_line$1=parse_initial_message_line(connection, line);
-        if(return_value_parse_initial_message_line$1 == 0)
+        return_value_parse_initial_message_line_1=parse_initial_message_line(connection, line);
+        if(return_value_parse_initial_message_line_1 == 0)
           connection_close_error(connection, (const char *)(void *)0);
 
         else
@@ -2964,15 +2964,15 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
           break;
         }
 
-        return_value_strlen$2=strlen(line);
-        if(return_value_strlen$2 == 0ul)
+        return_value_strlen_2=strlen(line);
+        if(return_value_strlen_2 == 0ul)
         {
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_HEADERS_RECEIVED;
           goto __CPROVER_DUMP_L104;
         }
 
-        return_value_process_header_line$3=process_header_line(connection, line);
-        if(return_value_process_header_line$3 == 0)
+        return_value_process_header_line_3=process_header_line(connection, line);
+        if(return_value_process_header_line_3 == 0)
         {
           transmit_error_response(connection, (unsigned int)400, "<html><head><title>Request malformed</title></head><body>Your HTTP request was syntactically incorrect.</body></html>");
           break;
@@ -2998,12 +2998,12 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
           break;
         }
 
-        return_value_process_broken_line$4=process_broken_line(connection, line, (enum MHD_ValueKind)MHD_HEADER_KIND);
-        if(return_value_process_broken_line$4 == 0)
+        return_value_process_broken_line_4=process_broken_line(connection, line, (enum MHD_ValueKind)MHD_HEADER_KIND);
+        if(return_value_process_broken_line_4 == 0)
           goto __CPROVER_DUMP_L104;
 
-        return_value_strlen$5=strlen(line);
-        if(return_value_strlen$5 == 0ul)
+        return_value_strlen_5=strlen(line);
+        if(return_value_strlen_5 == 0ul)
         {
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_HEADERS_RECEIVED;
           goto __CPROVER_DUMP_L104;
@@ -3026,8 +3026,8 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
         if((signed int)connection->state == MHD_CONNECTION_CLOSED)
           goto __CPROVER_DUMP_L104;
 
-        return_value_need_100_continue$6=need_100_continue(connection);
-        if(!(return_value_need_100_continue$6 == 0))
+        return_value_need_100_continue_6=need_100_continue(connection);
+        if(!(return_value_need_100_continue_6 == 0))
         {
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_CONTINUE_SENDING;
           break;
@@ -3035,16 +3035,16 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
 
         if(!(connection->response == ((struct MHD_Response *)NULL)))
         {
-          return_value_strcasecmp$7=strcasecmp(connection->method, "POST");
-          if(return_value_strcasecmp$7 == 0)
-            tmp_if_expr$9 = (_Bool)1;
+          return_value_strcasecmp_7=strcasecmp(connection->method, "POST");
+          if(return_value_strcasecmp_7 == 0)
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_strcasecmp$8=strcasecmp(connection->method, "PUT");
-            tmp_if_expr$9 = 0 == return_value_strcasecmp$8 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_8=strcasecmp(connection->method, "PUT");
+            tmp_if_expr_9 = 0 == return_value_strcasecmp_8 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$9)
+          if(tmp_if_expr_9)
           {
             connection->remaining_upload_size = (unsigned long int)0;
             connection->read_closed = 1;
@@ -3057,8 +3057,8 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
       }
       case MHD_CONNECTION_CONTINUE_SENDING:
       {
-        return_value_strlen$10=strlen("HTTP/1.1 100 Continue\r\n\r\n");
-        if(connection->continue_message_write_offset == return_value_strlen$10)
+        return_value_strlen_10=strlen("HTTP/1.1 100 Continue\r\n\r\n");
+        if(connection->continue_message_write_offset == return_value_strlen_10)
         {
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_CONTINUE_SENT;
           goto __CPROVER_DUMP_L104;
@@ -3077,30 +3077,30 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
         }
 
         if(connection->remaining_upload_size == 0ul)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_14 = (_Bool)1;
 
         else
         {
           if(connection->remaining_upload_size == 18446744073709551615UL)
-            tmp_if_expr$12 = (unsigned long int)0 == connection->read_buffer_offset ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = (unsigned long int)0 == connection->read_buffer_offset ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          if(tmp_if_expr$12)
-            tmp_if_expr$13 = 1 == connection->read_closed ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = (_Bool)0;
+          if(tmp_if_expr_12)
+            tmp_if_expr_13 = 1 == connection->read_closed ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$13 = (_Bool)0;
-          tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_13 = (_Bool)0;
+          tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$14)
+        if(tmp_if_expr_14)
         {
           if(connection->have_chunked_upload == 1)
-            tmp_if_expr$11 = 0 == connection->read_closed ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_11 = 0 == connection->read_closed ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          if(tmp_if_expr$11)
+            tmp_if_expr_11 = (_Bool)0;
+          if(tmp_if_expr_11)
             connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_BODY_RECEIVED;
 
           else
@@ -3127,15 +3127,15 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
           break;
         }
 
-        return_value_strlen$15=strlen(line);
-        if(return_value_strlen$15 == 0ul)
+        return_value_strlen_15=strlen(line);
+        if(return_value_strlen_15 == 0ul)
         {
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_FOOTERS_RECEIVED;
           goto __CPROVER_DUMP_L104;
         }
 
-        return_value_process_header_line$16=process_header_line(connection, line);
-        if(return_value_process_header_line$16 == 0)
+        return_value_process_header_line_16=process_header_line(connection, line);
+        if(return_value_process_header_line_16 == 0)
         {
           transmit_error_response(connection, (unsigned int)400, "<html><head><title>Request malformed</title></head><body>Your HTTP request was syntactically incorrect.</body></html>");
           break;
@@ -3161,12 +3161,12 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
           break;
         }
 
-        return_value_process_broken_line$17=process_broken_line(connection, line, (enum MHD_ValueKind)MHD_FOOTER_KIND);
-        if(return_value_process_broken_line$17 == 0)
+        return_value_process_broken_line_17=process_broken_line(connection, line, (enum MHD_ValueKind)MHD_FOOTER_KIND);
+        if(return_value_process_broken_line_17 == 0)
           goto __CPROVER_DUMP_L104;
 
-        return_value_strlen$18=strlen(line);
-        if(return_value_strlen$18 == 0ul)
+        return_value_strlen_18=strlen(line);
+        if(return_value_strlen_18 == 0ul)
         {
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_FOOTERS_RECEIVED;
           goto __CPROVER_DUMP_L104;
@@ -3183,8 +3183,8 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
         if(connection->response == ((struct MHD_Response *)NULL))
           break;
 
-        return_value_build_header_response$19=build_header_response(connection);
-        if(return_value_build_header_response$19 == 0)
+        return_value_build_header_response_19=build_header_response(connection);
+        if(return_value_build_header_response_19 == 0)
         {
           connection_close_error(connection, "Closing connection (failed to create response header)\n");
           goto __CPROVER_DUMP_L104;
@@ -3212,29 +3212,29 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
       {
         if(!(connection->response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
         {
-          return_value_pthread_mutex_lock$20=pthread_mutex_lock(&connection->response->mutex);
-          (void)(0 == return_value_pthread_mutex_lock$20 ? 1 : 0);
+          return_value_pthread_mutex_lock_20=pthread_mutex_lock(&connection->response->mutex);
+          (void)(0 == return_value_pthread_mutex_lock_20 ? 1 : 0);
         }
 
         if(connection->response->total_size == 0ul)
         {
           if(!(connection->response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
           {
-            return_value_pthread_mutex_unlock$21=pthread_mutex_unlock(&connection->response->mutex);
-            (void)(0 == return_value_pthread_mutex_unlock$21 ? 1 : 0);
+            return_value_pthread_mutex_unlock_21=pthread_mutex_unlock(&connection->response->mutex);
+            (void)(0 == return_value_pthread_mutex_unlock_21 ? 1 : 0);
           }
 
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_BODY_SENT;
           goto __CPROVER_DUMP_L104;
         }
 
-        return_value_try_ready_normal_body$23=try_ready_normal_body(connection);
-        if(return_value_try_ready_normal_body$23 == 1)
+        return_value_try_ready_normal_body_23=try_ready_normal_body(connection);
+        if(return_value_try_ready_normal_body_23 == 1)
         {
           if(!(connection->response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
           {
-            return_value_pthread_mutex_unlock$22=pthread_mutex_unlock(&connection->response->mutex);
-            (void)(0 == return_value_pthread_mutex_unlock$22 ? 1 : 0);
+            return_value_pthread_mutex_unlock_22=pthread_mutex_unlock(&connection->response->mutex);
+            (void)(0 == return_value_pthread_mutex_unlock_22 ? 1 : 0);
           }
 
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_NORMAL_BODY_READY;
@@ -3249,34 +3249,34 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
       {
         if(!(connection->response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
         {
-          return_value_pthread_mutex_lock$24=pthread_mutex_lock(&connection->response->mutex);
-          (void)(0 == return_value_pthread_mutex_lock$24 ? 1 : 0);
+          return_value_pthread_mutex_lock_24=pthread_mutex_lock(&connection->response->mutex);
+          (void)(0 == return_value_pthread_mutex_lock_24 ? 1 : 0);
         }
 
         if(connection->response->total_size == 0ul)
-          tmp_if_expr$26 = (_Bool)1;
+          tmp_if_expr_26 = (_Bool)1;
 
         else
-          tmp_if_expr$26 = connection->response_write_position == connection->response->total_size ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$26)
+          tmp_if_expr_26 = connection->response_write_position == connection->response->total_size ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_26)
         {
           if(!(connection->response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
           {
-            return_value_pthread_mutex_unlock$25=pthread_mutex_unlock(&connection->response->mutex);
-            (void)(0 == return_value_pthread_mutex_unlock$25 ? 1 : 0);
+            return_value_pthread_mutex_unlock_25=pthread_mutex_unlock(&connection->response->mutex);
+            (void)(0 == return_value_pthread_mutex_unlock_25 ? 1 : 0);
           }
 
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_BODY_SENT;
           goto __CPROVER_DUMP_L104;
         }
 
-        return_value_try_ready_chunked_body$28=try_ready_chunked_body(connection);
-        if(return_value_try_ready_chunked_body$28 == 1)
+        return_value_try_ready_chunked_body_28=try_ready_chunked_body(connection);
+        if(return_value_try_ready_chunked_body_28 == 1)
         {
           if(!(connection->response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
           {
-            return_value_pthread_mutex_unlock$27=pthread_mutex_unlock(&connection->response->mutex);
-            (void)(0 == return_value_pthread_mutex_unlock$27 ? 1 : 0);
+            return_value_pthread_mutex_unlock_27=pthread_mutex_unlock(&connection->response->mutex);
+            (void)(0 == return_value_pthread_mutex_unlock_27 ? 1 : 0);
           }
 
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_CHUNKED_BODY_READY;
@@ -3285,27 +3285,27 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
 
         if(!(connection->response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
         {
-          return_value_pthread_mutex_unlock$29=pthread_mutex_unlock(&connection->response->mutex);
-          (void)(0 == return_value_pthread_mutex_unlock$29 ? 1 : 0);
+          return_value_pthread_mutex_unlock_29=pthread_mutex_unlock(&connection->response->mutex);
+          (void)(0 == return_value_pthread_mutex_unlock_29 ? 1 : 0);
         }
 
         break;
       }
       case MHD_CONNECTION_BODY_SENT:
       {
-        return_value_build_header_response$30=build_header_response(connection);
-        if(return_value_build_header_response$30 == 0)
+        return_value_build_header_response_30=build_header_response(connection);
+        if(return_value_build_header_response_30 == 0)
         {
           connection_close_error(connection, "Closing connection (failed to create response header)\n");
           goto __CPROVER_DUMP_L104;
         }
 
         if(connection->have_chunked_upload == 0)
-          tmp_if_expr$31 = (_Bool)1;
+          tmp_if_expr_31 = (_Bool)1;
 
         else
-          tmp_if_expr$31 = connection->write_buffer_send_offset == connection->write_buffer_append_offset ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$31)
+          tmp_if_expr_31 = connection->write_buffer_send_offset == connection->write_buffer_append_offset ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_31)
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_FOOTERS_SENT;
 
         else
@@ -3316,18 +3316,18 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
         break;
       case MHD_CONNECTION_FOOTERS_SENT:
       {
-        const signed int MHD_connection_handle_idle$$1$$1$$1$$24$$val = 0;
-        setsockopt(connection->socket_fd, 6, 3, (const void *)&MHD_connection_handle_idle$$1$$1$$1$$24$$val, (unsigned int)sizeof(const signed int) /*4ul*/ );
+        const signed int MHD_connection_handle_idle__1__1__1__24__val = 0;
+        setsockopt(connection->socket_fd, 6, 3, (const void *)&MHD_connection_handle_idle__1__1__1__24__val, (unsigned int)sizeof(const signed int) /*4ul*/ );
         end=MHD_get_response_header(connection->response, "Connection");
         if(!(end == ((const char *)NULL)))
         {
-          return_value_strcasecmp$32=strcasecmp(end, "close");
-          tmp_if_expr$33 = 0 == return_value_strcasecmp$32 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_32=strcasecmp(end, "close");
+          tmp_if_expr_33 = 0 == return_value_strcasecmp_32 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$33 = (_Bool)0;
-        client_close = (signed int)tmp_if_expr$33;
+          tmp_if_expr_33 = (_Bool)0;
+        client_close = (signed int)tmp_if_expr_33;
         MHD_destroy_response(connection->response);
         connection->response = (struct MHD_Response *)(void *)0;
         if(!(daemon->notify_completed == ((void (*)(void *, struct MHD_Connection *, void **, enum MHD_RequestTerminationCode))NULL)))
@@ -3342,40 +3342,40 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
 
         end=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Connection");
         if(connection->read_closed == 1 || !(client_close == 0))
-          tmp_if_expr$36 = (_Bool)1;
+          tmp_if_expr_36 = (_Bool)1;
 
         else
         {
           if(!(end == ((const char *)NULL)))
           {
-            return_value_strcasecmp$34=strcasecmp(end, "close");
-            tmp_if_expr$35 = 0 == return_value_strcasecmp$34 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_34=strcasecmp(end, "close");
+            tmp_if_expr_35 = 0 == return_value_strcasecmp_34 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$35 = (_Bool)0;
-          tmp_if_expr$36 = tmp_if_expr$35 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_35 = (_Bool)0;
+          tmp_if_expr_36 = tmp_if_expr_35 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$36)
+        if(tmp_if_expr_36)
         {
           connection->read_closed = 1;
           connection->read_buffer_offset = (unsigned long int)0;
         }
 
         if(connection->read_closed == 1)
-          tmp_if_expr$38 = (unsigned long int)0 == connection->read_buffer_offset ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_38 = (unsigned long int)0 == connection->read_buffer_offset ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$38 = (_Bool)0;
-        if(tmp_if_expr$38)
-          tmp_if_expr$40 = (_Bool)1;
+          tmp_if_expr_38 = (_Bool)0;
+        if(tmp_if_expr_38)
+          tmp_if_expr_40 = (_Bool)1;
 
         else
         {
-          return_value_keepalive_possible$39=keepalive_possible(connection);
-          tmp_if_expr$40 = 0 == return_value_keepalive_possible$39 ? (_Bool)1 : (_Bool)0;
+          return_value_keepalive_possible_39=keepalive_possible(connection);
+          tmp_if_expr_40 = 0 == return_value_keepalive_possible_39 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$40)
+        if(tmp_if_expr_40)
         {
           MHD_connection_close(connection, (enum MHD_RequestTerminationCode)MHD_REQUEST_TERMINATED_COMPLETED_OK);
           MHD_pool_destroy(connection->pool);
@@ -3389,9 +3389,9 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
         {
           connection->version = (char *)(void *)0;
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_INIT;
-          void *return_value_MHD_pool_reset$37;
-          return_value_MHD_pool_reset$37=MHD_pool_reset(connection->pool, (void *)connection->read_buffer, connection->read_buffer_size);
-          connection->read_buffer = (char *)return_value_MHD_pool_reset$37;
+          void *return_value_MHD_pool_reset_37;
+          return_value_MHD_pool_reset_37=MHD_pool_reset(connection->pool, (void *)connection->read_buffer, connection->read_buffer_size);
+          connection->read_buffer = (char *)return_value_MHD_pool_reset_37;
         }
         connection->client_aware = 0;
         connection->client_context = (void *)0;
@@ -3423,12 +3423,12 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
     ;
   }
   timeout = connection->connection_timeout;
-  signed long int return_value_MHD_monotonic_sec_counter$41;
-  signed int return_value_MHD_connection_epoll_update_$42;
+  signed long int return_value_MHD_monotonic_sec_counter_41;
+  signed int return_value_MHD_connection_epoll_update__42;
   if(!(timeout == 0u))
   {
-    return_value_MHD_monotonic_sec_counter$41=MHD_monotonic_sec_counter();
-    if(!(return_value_MHD_monotonic_sec_counter$41 + -connection->last_activity >= (signed long int)timeout))
+    return_value_MHD_monotonic_sec_counter_41=MHD_monotonic_sec_counter();
+    if(!(return_value_MHD_monotonic_sec_counter_41 + -connection->last_activity >= (signed long int)timeout))
       goto __CPROVER_DUMP_L106;
 
     MHD_connection_close(connection, (enum MHD_RequestTerminationCode)MHD_REQUEST_TERMINATED_TIMEOUT_REACHED);
@@ -3531,8 +3531,8 @@ signed int MHD_connection_handle_idle(struct MHD_Connection *connection)
 
       __CPROVER_DUMP_L121:
         ;
-        return_value_MHD_connection_epoll_update_$42=MHD_connection_epoll_update_(connection);
-        return return_value_MHD_connection_epoll_update_$42;
+        return_value_MHD_connection_epoll_update__42=MHD_connection_epoll_update_(connection);
+        return return_value_MHD_connection_epoll_update__42;
       }
     }
   }
@@ -3551,9 +3551,9 @@ signed int MHD_connection_handle_read(struct MHD_Connection *connection)
     if(!(connection->read_buffer_size >= connection->daemon->pool_increment + connection->read_buffer_offset))
       try_grow_read_buffer(connection);
 
-    signed int return_value_do_read$1;
-    return_value_do_read$1=do_read(connection);
-    if(return_value_do_read$1 == 0)
+    signed int return_value_do_read_1;
+    return_value_do_read_1=do_read(connection);
+    if(return_value_do_read_1 == 0)
       return 1;
 
     else
@@ -3610,9 +3610,9 @@ signed int MHD_connection_handle_write(struct MHD_Connection *connection)
   struct MHD_Response *response;
   signed long int ret;
   update_last_activity(connection);
-  unsigned long int return_value_strlen$1;
-  signed int return_value_pthread_mutex_lock$5;
-  signed int return_value_pthread_mutex_unlock$8;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_pthread_mutex_lock_5;
+  signed int return_value_pthread_mutex_unlock_8;
   switch((signed int)connection->state)
   {
     case MHD_CONNECTION_INIT:
@@ -3627,8 +3627,8 @@ signed int MHD_connection_handle_write(struct MHD_Connection *connection)
       break;
     case MHD_CONNECTION_CONTINUE_SENDING:
     {
-      return_value_strlen$1=strlen("HTTP/1.1 100 Continue\r\n\r\n");
-      ret=connection->send_cls(connection, (const void *)&"HTTP/1.1 100 Continue\r\n\r\n"[(signed long int)connection->continue_message_write_offset], return_value_strlen$1 - connection->continue_message_write_offset);
+      return_value_strlen_1=strlen("HTTP/1.1 100 Continue\r\n\r\n");
+      ret=connection->send_cls(connection, (const void *)&"HTTP/1.1 100 Continue\r\n\r\n"[(signed long int)connection->continue_message_write_offset], return_value_strlen_1 - connection->continue_message_write_offset);
     }
     case MHD_CONNECTION_CONTINUE_SENT:
 
@@ -3658,24 +3658,24 @@ signed int MHD_connection_handle_write(struct MHD_Connection *connection)
         unsigned long int data_write_offset;
         if(!(response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
         {
-          return_value_pthread_mutex_lock$5=pthread_mutex_lock(&response->mutex);
-          (void)(0 == return_value_pthread_mutex_lock$5 ? 1 : 0);
+          return_value_pthread_mutex_lock_5=pthread_mutex_lock(&response->mutex);
+          (void)(0 == return_value_pthread_mutex_lock_5 ? 1 : 0);
         }
 
-        signed int return_value_try_ready_normal_body$6;
-        return_value_try_ready_normal_body$6=try_ready_normal_body(connection);
-        if(!(return_value_try_ready_normal_body$6 == 1))
+        signed int return_value_try_ready_normal_body_6;
+        return_value_try_ready_normal_body_6=try_ready_normal_body(connection);
+        if(!(return_value_try_ready_normal_body_6 == 1))
           break;
 
         data_write_offset = connection->response_write_position - response->data_start;
         ret=connection->send_cls(connection, (const void *)&response->data[(signed long int)(unsigned long int)data_write_offset], response->data_size - (unsigned long int)data_write_offset);
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        err = *return_value___errno_location$7;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        err = *return_value___errno_location_7;
         if(!(response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
         {
-          return_value_pthread_mutex_unlock$8=pthread_mutex_unlock(&response->mutex);
-          (void)(0 == return_value_pthread_mutex_unlock$8 ? 1 : 0);
+          return_value_pthread_mutex_unlock_8=pthread_mutex_unlock(&response->mutex);
+          (void)(0 == return_value_pthread_mutex_unlock_8 ? 1 : 0);
         }
 
         if(!(ret >= 0l))
@@ -3683,11 +3683,11 @@ signed int MHD_connection_handle_write(struct MHD_Connection *connection)
           if(err == 4 || err == 11)
             return 1;
 
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          char *return_value_strerror$10;
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          MHD_DLOG(connection->daemon, "Failed to send data: %s\n", return_value_strerror$10);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          char *return_value_strerror_10;
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          MHD_DLOG(connection->daemon, "Failed to send data: %s\n", return_value_strerror_10);
           connection_close_error(connection, (const char *)(void *)0);
           return 1;
         }
@@ -3747,17 +3747,17 @@ __CPROVER_DUMP_L30:
 // file connection.c line 979
 static void MHD_connection_update_event_loop_info(struct MHD_Connection *connection)
 {
-  signed int return_value_gnutls_record_get_direction$1;
-  signed int return_value_try_grow_read_buffer$2;
-  _Bool tmp_if_expr$4;
+  signed int return_value_gnutls_record_get_direction_1;
+  signed int return_value_try_grow_read_buffer_2;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
     switch((signed int)connection->state)
     {
       case MHD_TLS_CONNECTION_INIT:
       {
-        return_value_gnutls_record_get_direction$1=gnutls_record_get_direction(connection->tls_session);
-        if(return_value_gnutls_record_get_direction$1 == 0)
+        return_value_gnutls_record_get_direction_1=gnutls_record_get_direction(connection->tls_session);
+        if(return_value_gnutls_record_get_direction_1 == 0)
           connection->event_loop_info = (enum MHD_ConnectionEventLoopInfo)MHD_EVENT_LOOP_INFO_READ;
 
         else
@@ -3772,8 +3772,8 @@ static void MHD_connection_update_event_loop_info(struct MHD_Connection *connect
       {
         if(connection->read_buffer_offset == connection->read_buffer_size)
         {
-          return_value_try_grow_read_buffer$2=try_grow_read_buffer(connection);
-          if(return_value_try_grow_read_buffer$2 == 0)
+          return_value_try_grow_read_buffer_2=try_grow_read_buffer(connection);
+          if(return_value_try_grow_read_buffer_2 == 0)
           {
             transmit_error_response(connection, (unsigned int)(connection->url != (char *)(void *)0 ? 413 : 414), "<html><head><title>Request too big</title></head><body>Your HTTP header was too big for the memory constraints of this webserver.</body></html>");
             goto __CPROVER_DUMP_L34;
@@ -3801,9 +3801,9 @@ static void MHD_connection_update_event_loop_info(struct MHD_Connection *connect
       {
         if(connection->read_buffer_offset == connection->read_buffer_size)
         {
-          signed int return_value_try_grow_read_buffer$3;
-          return_value_try_grow_read_buffer$3=try_grow_read_buffer(connection);
-          if(!(return_value_try_grow_read_buffer$3 == 1))
+          signed int return_value_try_grow_read_buffer_3;
+          return_value_try_grow_read_buffer_3=try_grow_read_buffer(connection);
+          if(!(return_value_try_grow_read_buffer_3 == 1))
           {
             if(!((12 & (signed int)connection->daemon->options) == 0))
             {
@@ -3816,11 +3816,11 @@ static void MHD_connection_update_event_loop_info(struct MHD_Connection *connect
         }
 
         if(!(connection->read_buffer_offset >= connection->read_buffer_size))
-          tmp_if_expr$4 = 0 == connection->read_closed ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = 0 == connection->read_closed ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
           connection->event_loop_info = (enum MHD_ConnectionEventLoopInfo)MHD_EVENT_LOOP_INFO_READ;
 
         else
@@ -3917,29 +3917,29 @@ extern struct MHD_PostProcessor * MHD_create_post_processor(struct MHD_Connectio
   else
   {
     boundary = (const char *)(void *)0;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen("application/x-www-form-urlencoded");
-    signed int return_value_strncasecmp$6;
-    return_value_strncasecmp$6=strncasecmp("application/x-www-form-urlencoded", encoding, return_value_strlen$5);
-    if(!(return_value_strncasecmp$6 == 0))
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen("application/x-www-form-urlencoded");
+    signed int return_value_strncasecmp_6;
+    return_value_strncasecmp_6=strncasecmp("application/x-www-form-urlencoded", encoding, return_value_strlen_5);
+    if(!(return_value_strncasecmp_6 == 0))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen("multipart/form-data");
-      signed int return_value_strncasecmp$2;
-      return_value_strncasecmp$2=strncasecmp("multipart/form-data", encoding, return_value_strlen$1);
-      if(!(return_value_strncasecmp$2 == 0))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen("multipart/form-data");
+      signed int return_value_strncasecmp_2;
+      return_value_strncasecmp_2=strncasecmp("multipart/form-data", encoding, return_value_strlen_1);
+      if(!(return_value_strncasecmp_2 == 0))
         return (struct MHD_PostProcessor *)(void *)0;
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen("multipart/form-data");
-      boundary = &encoding[(signed long int)return_value_strlen$3];
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen("multipart/form-data");
+      boundary = &encoding[(signed long int)return_value_strlen_3];
       boundary=strstr(boundary, "boundary=");
       if(boundary == ((const char *)NULL))
         return (struct MHD_PostProcessor *)(void *)0;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen("boundary=");
-      boundary = boundary + (signed long int)return_value_strlen$4;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen("boundary=");
+      boundary = boundary + (signed long int)return_value_strlen_4;
       blen=strlen(boundary);
       if(blen == 0ul || !(buffer_size >= 2ul * blen + 2ul))
         return (struct MHD_PostProcessor *)(void *)0;
@@ -3959,9 +3959,9 @@ extern struct MHD_PostProcessor * MHD_create_post_processor(struct MHD_Connectio
     else
       blen = (unsigned long int)0;
     buffer_size = buffer_size + (unsigned long int)4;
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(sizeof(struct MHD_PostProcessor) /*160ul*/  + buffer_size + (unsigned long int)1);
-    ret = (struct MHD_PostProcessor *)return_value_malloc$7;
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(sizeof(struct MHD_PostProcessor) /*160ul*/  + buffer_size + (unsigned long int)1);
+    ret = (struct MHD_PostProcessor *)return_value_malloc_7;
     if(ret == ((struct MHD_PostProcessor *)NULL))
       return (struct MHD_PostProcessor *)(void *)0;
 
@@ -3986,9 +3986,9 @@ extern struct MHD_PostProcessor * MHD_create_post_processor(struct MHD_Connectio
 // file ../../src/include/microhttpd.h line 2075
 extern struct MHD_Response * MHD_create_response_from_buffer(unsigned long int size, void *buffer, enum MHD_ResponseMemoryMode mode)
 {
-  struct MHD_Response *return_value_MHD_create_response_from_data$1;
-  return_value_MHD_create_response_from_data$1=MHD_create_response_from_data(size, buffer, (signed int)((signed int)mode == MHD_RESPMEM_MUST_FREE), (signed int)((signed int)mode == MHD_RESPMEM_MUST_COPY));
-  return return_value_MHD_create_response_from_data$1;
+  struct MHD_Response *return_value_MHD_create_response_from_data_1;
+  return_value_MHD_create_response_from_data_1=MHD_create_response_from_data(size, buffer, (signed int)((signed int)mode == MHD_RESPMEM_MUST_FREE), (signed int)((signed int)mode == MHD_RESPMEM_MUST_COPY));
+  return return_value_MHD_create_response_from_data_1;
 }
 
 // MHD_create_response_from_callback
@@ -4001,9 +4001,9 @@ extern struct MHD_Response * MHD_create_response_from_callback(unsigned long int
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct MHD_Response) /*136ul*/  + block_size);
-    response = (struct MHD_Response *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct MHD_Response) /*136ul*/  + block_size);
+    response = (struct MHD_Response *)return_value_malloc_1;
     if(response == ((struct MHD_Response *)NULL))
       return (struct MHD_Response *)(void *)0;
 
@@ -4013,9 +4013,9 @@ extern struct MHD_Response * MHD_create_response_from_callback(unsigned long int
       response->fd = -1;
       response->data = (char *)(void *)&response[(signed long int)1];
       response->data_buffer_size = block_size;
-      signed int return_value_pthread_mutex_init$2;
-      return_value_pthread_mutex_init$2=pthread_mutex_init(&response->mutex, (const union anonymous$4 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$2 == 0))
+      signed int return_value_pthread_mutex_init_2;
+      return_value_pthread_mutex_init_2=pthread_mutex_init(&response->mutex, (const union anonymous_4 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_2 == 0))
       {
         free((void *)response);
         return (struct MHD_Response *)(void *)0;
@@ -4045,9 +4045,9 @@ extern struct MHD_Response * MHD_create_response_from_data(unsigned long int siz
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct MHD_Response) /*136ul*/ );
-    response = (struct MHD_Response *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct MHD_Response) /*136ul*/ );
+    response = (struct MHD_Response *)return_value_malloc_1;
     if(response == ((struct MHD_Response *)NULL))
       return (struct MHD_Response *)(void *)0;
 
@@ -4055,9 +4055,9 @@ extern struct MHD_Response * MHD_create_response_from_data(unsigned long int siz
     {
       memset((void *)response, 0, sizeof(struct MHD_Response) /*136ul*/ );
       response->fd = -1;
-      signed int return_value_pthread_mutex_init$2;
-      return_value_pthread_mutex_init$2=pthread_mutex_init(&response->mutex, (const union anonymous$4 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$2 == 0))
+      signed int return_value_pthread_mutex_init_2;
+      return_value_pthread_mutex_init_2=pthread_mutex_init(&response->mutex, (const union anonymous_4 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_2 == 0))
       {
         free((void *)response);
         return (struct MHD_Response *)(void *)0;
@@ -4070,9 +4070,9 @@ extern struct MHD_Response * MHD_create_response_from_data(unsigned long int siz
           tmp=malloc(size);
           if(tmp == NULL)
           {
-            signed int return_value_pthread_mutex_destroy$3;
-            return_value_pthread_mutex_destroy$3=pthread_mutex_destroy(&response->mutex);
-            (void)(0 == return_value_pthread_mutex_destroy$3 ? 1 : 0);
+            signed int return_value_pthread_mutex_destroy_3;
+            return_value_pthread_mutex_destroy_3=pthread_mutex_destroy(&response->mutex);
+            (void)(0 == return_value_pthread_mutex_destroy_3 ? 1 : 0);
             free((void *)response);
             return (struct MHD_Response *)(void *)0;
           }
@@ -4099,27 +4099,27 @@ extern struct MHD_Response * MHD_create_response_from_data(unsigned long int siz
 // file response.c line 459
 extern struct MHD_Response * MHD_create_response_from_fd(unsigned long int size, signed int fd)
 {
-  struct MHD_Response *return_value_MHD_create_response_from_fd_at_offset64$1;
-  return_value_MHD_create_response_from_fd_at_offset64$1=MHD_create_response_from_fd_at_offset64(size, fd, (unsigned long int)0);
-  return return_value_MHD_create_response_from_fd_at_offset64$1;
+  struct MHD_Response *return_value_MHD_create_response_from_fd_at_offset64_1;
+  return_value_MHD_create_response_from_fd_at_offset64_1=MHD_create_response_from_fd_at_offset64(size, fd, (unsigned long int)0);
+  return return_value_MHD_create_response_from_fd_at_offset64_1;
 }
 
 // MHD_create_response_from_fd64
 // file response.c line 480
 extern struct MHD_Response * MHD_create_response_from_fd64(unsigned long int size, signed int fd)
 {
-  struct MHD_Response *return_value_MHD_create_response_from_fd_at_offset64$1;
-  return_value_MHD_create_response_from_fd_at_offset64$1=MHD_create_response_from_fd_at_offset64(size, fd, (unsigned long int)0);
-  return return_value_MHD_create_response_from_fd_at_offset64$1;
+  struct MHD_Response *return_value_MHD_create_response_from_fd_at_offset64_1;
+  return_value_MHD_create_response_from_fd_at_offset64_1=MHD_create_response_from_fd_at_offset64(size, fd, (unsigned long int)0);
+  return return_value_MHD_create_response_from_fd_at_offset64_1;
 }
 
 // MHD_create_response_from_fd_at_offset
 // file response.c line 396
 extern struct MHD_Response * MHD_create_response_from_fd_at_offset(unsigned long int size, signed int fd, signed long int offset)
 {
-  struct MHD_Response *return_value_MHD_create_response_from_fd_at_offset64$1;
-  return_value_MHD_create_response_from_fd_at_offset64$1=MHD_create_response_from_fd_at_offset64(size, fd, (unsigned long int)offset);
-  return return_value_MHD_create_response_from_fd_at_offset64$1;
+  struct MHD_Response *return_value_MHD_create_response_from_fd_at_offset64_1;
+  return_value_MHD_create_response_from_fd_at_offset64_1=MHD_create_response_from_fd_at_offset64(size, fd, (unsigned long int)offset);
+  return return_value_MHD_create_response_from_fd_at_offset64_1;
 }
 
 // MHD_create_response_from_fd_at_offset64
@@ -4152,7 +4152,7 @@ extern signed int MHD_del_response_header(struct MHD_Response *response, const c
 {
   struct MHD_HTTP_Header *pos;
   struct MHD_HTTP_Header *prev;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(content == ((const char *)NULL) || header == ((const char *)NULL))
     return 0;
 
@@ -4162,12 +4162,12 @@ extern signed int MHD_del_response_header(struct MHD_Response *response, const c
     pos = response->first_header;
     while(!(pos == ((struct MHD_HTTP_Header *)NULL)))
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(header, pos->header);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(header, pos->header);
+      if(return_value_strcmp_2 == 0)
       {
-        return_value_strcmp$1=strcmp(content, pos->value);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(content, pos->value);
+        if(return_value_strcmp_1 == 0)
         {
           free((void *)pos->header);
           free((void *)pos->value);
@@ -4194,8 +4194,8 @@ extern signed int MHD_del_response_header(struct MHD_Response *response, const c
 extern signed int MHD_destroy_post_processor(struct MHD_PostProcessor *pp)
 {
   signed int ret;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(pp == ((struct MHD_PostProcessor *)NULL))
     return 1;
 
@@ -4205,18 +4205,18 @@ extern signed int MHD_destroy_post_processor(struct MHD_PostProcessor *pp)
       post_process_urlencoded(pp, "\n", (unsigned long int)1);
 
     if(pp->xbuf_pos >= 1ul)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       if(!((signed int)pp->state == PP_Done))
-        tmp_if_expr$1 = (signed int)pp->state != PP_ExpectNewLine ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)pp->state != PP_ExpectNewLine ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       ret = 0;
 
     else
@@ -4238,24 +4238,24 @@ extern void MHD_destroy_response(struct MHD_Response *response)
   struct MHD_HTTP_Header *pos;
   if(!(response == ((struct MHD_Response *)NULL)))
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&response->mutex);
-    (void)(0 == return_value_pthread_mutex_lock$1 ? 1 : 0);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&response->mutex);
+    (void)(0 == return_value_pthread_mutex_lock_1 ? 1 : 0);
     response->reference_count = response->reference_count - 1u;
     if(!(response->reference_count == 0u))
     {
-      signed int return_value_pthread_mutex_unlock$2;
-      return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&response->mutex);
-      (void)(0 == return_value_pthread_mutex_unlock$2 ? 1 : 0);
+      signed int return_value_pthread_mutex_unlock_2;
+      return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&response->mutex);
+      (void)(0 == return_value_pthread_mutex_unlock_2 ? 1 : 0);
       goto __CPROVER_DUMP_L5;
     }
 
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&response->mutex);
-    (void)(0 == return_value_pthread_mutex_unlock$3 ? 1 : 0);
-    signed int return_value_pthread_mutex_destroy$4;
-    return_value_pthread_mutex_destroy$4=pthread_mutex_destroy(&response->mutex);
-    (void)(0 == return_value_pthread_mutex_destroy$4 ? 1 : 0);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&response->mutex);
+    (void)(0 == return_value_pthread_mutex_unlock_3 ? 1 : 0);
+    signed int return_value_pthread_mutex_destroy_4;
+    return_value_pthread_mutex_destroy_4=pthread_mutex_destroy(&response->mutex);
+    (void)(0 == return_value_pthread_mutex_destroy_4 ? 1 : 0);
     if(!(response->crfc == ((void (*)(void *))NULL)))
       response->crfc(response->crc_cls);
 
@@ -4296,153 +4296,153 @@ extern signed int MHD_digest_auth_check(struct MHD_Connection *connection, const
   unsigned long int left;
   unsigned long int nci;
   header=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Authorization");
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_lookup_sub_value$15;
-  _Bool tmp_if_expr$20;
-  signed int return_value_strcmp$17;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strcmp$18;
-  _Bool tmp_if_expr$22;
-  unsigned long int return_value_lookup_sub_value$21;
-  _Bool tmp_if_expr$24;
-  unsigned long int return_value_lookup_sub_value$23;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$26;
-  signed int *return_value___errno_location$25;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_lookup_sub_value_15;
+  _Bool tmp_if_expr_20;
+  signed int return_value_strcmp_17;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strcmp_18;
+  _Bool tmp_if_expr_22;
+  unsigned long int return_value_lookup_sub_value_21;
+  _Bool tmp_if_expr_24;
+  unsigned long int return_value_lookup_sub_value_23;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_26;
+  signed int *return_value___errno_location_25;
   if(header == ((const char *)NULL))
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen("Digest ");
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(header, "Digest ", return_value_strlen$1);
-    if(!(return_value_strncmp$2 == 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen("Digest ");
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(header, "Digest ", return_value_strlen_1);
+    if(!(return_value_strncmp_2 == 0))
       return 0;
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen("Digest ");
-      header = header + (signed long int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen("Digest ");
+      header = header + (signed long int)return_value_strlen_3;
       left=strlen(header);
       char un[128l];
       len=lookup_sub_value(un, sizeof(char [128l]) /*128ul*/ , header, "username");
       if(len == 0ul)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$4=strcmp(username, un);
-        tmp_if_expr$5 = 0 != return_value_strcmp$4 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_4=strcmp(username, un);
+        tmp_if_expr_5 = 0 != return_value_strcmp_4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         return 0;
 
       else
       {
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen("username");
-        left = left - (return_value_strlen$6 + len);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen("username");
+        left = left - (return_value_strlen_6 + len);
         char r[256l];
         len=lookup_sub_value(r, sizeof(char [256l]) /*256ul*/ , header, "realm");
         if(len == 0ul)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$7=strcmp(realm, r);
-          tmp_if_expr$8 = 0 != return_value_strcmp$7 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_7=strcmp(realm, r);
+          tmp_if_expr_8 = 0 != return_value_strcmp_7 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
           return 0;
 
         else
         {
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen("realm");
-          left = left - (return_value_strlen$9 + len);
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen("realm");
+          left = left - (return_value_strlen_9 + len);
           len=lookup_sub_value(nonce, sizeof(char [129l]) /*129ul*/ , header, "nonce");
           if(len == 0ul)
             return 0;
 
           else
           {
-            unsigned long int return_value_strlen$10;
-            return_value_strlen$10=strlen("nonce");
-            left = left - (return_value_strlen$10 + len);
+            unsigned long int return_value_strlen_10;
+            return_value_strlen_10=strlen("nonce");
+            left = left - (return_value_strlen_10 + len);
             if(left >= 32769ul)
               return 0;
 
             else
             {
-              unsigned long int return_value_strtoul$11;
-              return_value_strtoul$11=strtoul((nonce + (signed long int)len) - (signed long int)(2 * 4), (char **)(void *)0, 16);
-              nonce_time = (unsigned int)return_value_strtoul$11;
-              signed long int return_value_MHD_monotonic_sec_counter$12;
-              return_value_MHD_monotonic_sec_counter$12=MHD_monotonic_sec_counter();
-              t = (unsigned int)return_value_MHD_monotonic_sec_counter$12;
+              unsigned long int return_value_strtoul_11;
+              return_value_strtoul_11=strtoul((nonce + (signed long int)len) - (signed long int)(2 * 4), (char **)(void *)0, 16);
+              nonce_time = (unsigned int)return_value_strtoul_11;
+              signed long int return_value_MHD_monotonic_sec_counter_12;
+              return_value_MHD_monotonic_sec_counter_12=MHD_monotonic_sec_counter();
+              t = (unsigned int)return_value_MHD_monotonic_sec_counter_12;
               if(!(nonce_time + nonce_timeout >= nonce_time) || !(nonce_time + nonce_timeout >= t))
                 return -1;
 
               else
               {
                 calculate_nonce(nonce_time, connection->method, connection->daemon->digest_auth_random, connection->daemon->digest_auth_rand_size, connection->url, realm, noncehashexp);
-                signed int return_value_strcmp$13;
-                return_value_strcmp$13=strcmp(nonce, noncehashexp);
-                if(!(return_value_strcmp$13 == 0))
+                signed int return_value_strcmp_13;
+                return_value_strcmp_13=strcmp(nonce, noncehashexp);
+                if(!(return_value_strcmp_13 == 0))
                   return -1;
 
                 else
                 {
-                  unsigned long int return_value_lookup_sub_value$14;
-                  return_value_lookup_sub_value$14=lookup_sub_value(cnonce, sizeof(char [129l]) /*129ul*/ , header, "cnonce");
-                  if(return_value_lookup_sub_value$14 == 0ul)
-                    tmp_if_expr$16 = (_Bool)1;
+                  unsigned long int return_value_lookup_sub_value_14;
+                  return_value_lookup_sub_value_14=lookup_sub_value(cnonce, sizeof(char [129l]) /*129ul*/ , header, "cnonce");
+                  if(return_value_lookup_sub_value_14 == 0ul)
+                    tmp_if_expr_16 = (_Bool)1;
 
                   else
                   {
-                    return_value_lookup_sub_value$15=lookup_sub_value(qop, sizeof(char [15l]) /*15ul*/ , header, "qop");
-                    tmp_if_expr$16 = (unsigned long int)0 == return_value_lookup_sub_value$15 ? (_Bool)1 : (_Bool)0;
+                    return_value_lookup_sub_value_15=lookup_sub_value(qop, sizeof(char [15l]) /*15ul*/ , header, "qop");
+                    tmp_if_expr_16 = (unsigned long int)0 == return_value_lookup_sub_value_15 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$16)
-                    tmp_if_expr$20 = (_Bool)1;
+                  if(tmp_if_expr_16)
+                    tmp_if_expr_20 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$17=strcmp(qop, "auth");
-                    if(!(return_value_strcmp$17 == 0))
+                    return_value_strcmp_17=strcmp(qop, "auth");
+                    if(!(return_value_strcmp_17 == 0))
                     {
-                      return_value_strcmp$18=strcmp(qop, "");
-                      tmp_if_expr$19 = 0 != return_value_strcmp$18 ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_18=strcmp(qop, "");
+                      tmp_if_expr_19 = 0 != return_value_strcmp_18 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$19 = (_Bool)0;
-                    tmp_if_expr$20 = tmp_if_expr$19 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_19 = (_Bool)0;
+                    tmp_if_expr_20 = tmp_if_expr_19 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$20)
-                    tmp_if_expr$22 = (_Bool)1;
+                  if(tmp_if_expr_20)
+                    tmp_if_expr_22 = (_Bool)1;
 
                   else
                   {
-                    return_value_lookup_sub_value$21=lookup_sub_value(nc, sizeof(char [20l]) /*20ul*/ , header, "nc");
-                    tmp_if_expr$22 = (unsigned long int)0 == return_value_lookup_sub_value$21 ? (_Bool)1 : (_Bool)0;
+                    return_value_lookup_sub_value_21=lookup_sub_value(nc, sizeof(char [20l]) /*20ul*/ , header, "nc");
+                    tmp_if_expr_22 = (unsigned long int)0 == return_value_lookup_sub_value_21 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$22)
-                    tmp_if_expr$24 = (_Bool)1;
+                  if(tmp_if_expr_22)
+                    tmp_if_expr_24 = (_Bool)1;
 
                   else
                   {
-                    return_value_lookup_sub_value$23=lookup_sub_value(response, sizeof(char [128l]) /*128ul*/ , header, "response");
-                    tmp_if_expr$24 = (unsigned long int)0 == return_value_lookup_sub_value$23 ? (_Bool)1 : (_Bool)0;
+                    return_value_lookup_sub_value_23=lookup_sub_value(response, sizeof(char [128l]) /*128ul*/ , header, "response");
+                    tmp_if_expr_24 = (unsigned long int)0 == return_value_lookup_sub_value_23 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$24)
+                  if(tmp_if_expr_24)
                   {
                     MHD_DLOG(connection->daemon, "Authentication failed, invalid format.\n");
                     return 0;
@@ -4452,21 +4452,21 @@ extern signed int MHD_digest_auth_check(struct MHD_Connection *connection, const
                   {
                     nci=strtoul(nc, &end, 16);
                     if(!((signed int)*end == 0))
-                      tmp_if_expr$27 = (_Bool)1;
+                      tmp_if_expr_27 = (_Bool)1;
 
                     else
                     {
                       if(nci == 9223372036854775807ul)
                       {
-                        return_value___errno_location$25=__errno_location();
-                        tmp_if_expr$26 = 34 == *return_value___errno_location$25 ? (_Bool)1 : (_Bool)0;
+                        return_value___errno_location_25=__errno_location();
+                        tmp_if_expr_26 = 34 == *return_value___errno_location_25 ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$26 = (_Bool)0;
-                      tmp_if_expr$27 = tmp_if_expr$26 ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_26 = (_Bool)0;
+                      tmp_if_expr_27 = tmp_if_expr_26 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$27)
+                    if(tmp_if_expr_27)
                     {
                       MHD_DLOG(connection->daemon, "Authentication failed, invalid format.\n");
                       return 0;
@@ -4474,17 +4474,17 @@ extern signed int MHD_digest_auth_check(struct MHD_Connection *connection, const
 
                     else
                     {
-                      signed int return_value_check_nonce_nc$28;
-                      return_value_check_nonce_nc$28=check_nonce_nc(connection, nonce, nci);
-                      if(!(return_value_check_nonce_nc$28 == 1))
+                      signed int return_value_check_nonce_nc_28;
+                      return_value_check_nonce_nc_28=check_nonce_nc(connection, nonce, nci);
+                      if(!(return_value_check_nonce_nc_28 == 1))
                         return 0;
 
                       else
                       {
                         char *uri;
-                        void *return_value_malloc$29;
-                        return_value_malloc$29=malloc(left + (unsigned long int)1);
-                        uri = (char *)return_value_malloc$29;
+                        void *return_value_malloc_29;
+                        return_value_malloc_29=malloc(left + (unsigned long int)1);
+                        uri = (char *)return_value_malloc_29;
                         if(uri == ((char *)NULL))
                         {
                           MHD_DLOG(connection->daemon, "Failed to allocate memory for auth header processing\n");
@@ -4493,9 +4493,9 @@ extern signed int MHD_digest_auth_check(struct MHD_Connection *connection, const
 
                         else
                         {
-                          unsigned long int return_value_lookup_sub_value$30;
-                          return_value_lookup_sub_value$30=lookup_sub_value(uri, left + (unsigned long int)1, header, "uri");
-                          if(return_value_lookup_sub_value$30 == 0ul)
+                          unsigned long int return_value_lookup_sub_value_30;
+                          return_value_lookup_sub_value_30=lookup_sub_value(uri, left + (unsigned long int)1, header, "uri");
+                          if(return_value_lookup_sub_value_30 == 0ul)
                           {
                             free((void *)uri);
                             return 0;
@@ -4506,11 +4506,11 @@ extern signed int MHD_digest_auth_check(struct MHD_Connection *connection, const
                             digest_calc_ha1("md5", username, realm, password, nonce, cnonce, ha1);
                             digest_calc_response(ha1, nonce, nc, cnonce, qop, connection->method, uri, hentity, respexp);
                             connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, uri);
-                            unsigned long int return_value_strlen$31;
-                            return_value_strlen$31=strlen(connection->url);
-                            signed int return_value_strncmp$32;
-                            return_value_strncmp$32=strncmp(uri, connection->url, return_value_strlen$31);
-                            if(!(return_value_strncmp$32 == 0))
+                            unsigned long int return_value_strlen_31;
+                            return_value_strlen_31=strlen(connection->url);
+                            signed int return_value_strncmp_32;
+                            return_value_strncmp_32=strncmp(uri, connection->url, return_value_strlen_31);
+                            if(!(return_value_strncmp_32 == 0))
                             {
                               MHD_DLOG(connection->daemon, "Authentication failed, URI does not match.\n");
                               free((void *)uri);
@@ -4526,9 +4526,9 @@ extern signed int MHD_digest_auth_check(struct MHD_Connection *connection, const
 
                               else
                                 args = args + 1l;
-                              signed int return_value_check_argument_match$33;
-                              return_value_check_argument_match$33=check_argument_match(connection, args);
-                              if(!(return_value_check_argument_match$33 == 1))
+                              signed int return_value_check_argument_match_33;
+                              return_value_check_argument_match_33=check_argument_match(connection, args);
+                              if(!(return_value_check_argument_match_33 == 1))
                               {
                                 MHD_DLOG(connection->daemon, "Authentication failed, arguments do not match.\n");
                                 free((void *)uri);
@@ -4538,9 +4538,9 @@ extern signed int MHD_digest_auth_check(struct MHD_Connection *connection, const
                               else
                               {
                                 free((void *)uri);
-                                signed int return_value_strcmp$34;
-                                return_value_strcmp$34=strcmp(response, respexp);
-                                return 0 == return_value_strcmp$34 ? 1 : 0;
+                                signed int return_value_strcmp_34;
+                                return_value_strcmp_34=strcmp(response, respexp);
+                                return 0 == return_value_strcmp_34 ? 1 : 0;
                               }
                             }
                           }
@@ -4571,27 +4571,27 @@ extern char * MHD_digest_auth_get_username(struct MHD_Connection *connection)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen("Digest ");
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(header, "Digest ", return_value_strlen$1);
-    if(!(return_value_strncmp$2 == 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen("Digest ");
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(header, "Digest ", return_value_strlen_1);
+    if(!(return_value_strncmp_2 == 0))
       return (char *)(void *)0;
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen("Digest ");
-      header = header + (signed long int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen("Digest ");
+      header = header + (signed long int)return_value_strlen_3;
       len=lookup_sub_value(user, sizeof(char [128l]) /*128ul*/ , header, "username");
       if(len == 0ul)
         return (char *)(void *)0;
 
       else
       {
-        char *return_value_strdup$4;
-        return_value_strdup$4=strdup(user);
-        return return_value_strdup$4;
+        char *return_value_strdup_4;
+        return_value_strdup_4=strdup(user);
+        return return_value_strdup_4;
       }
     }
   }
@@ -4611,9 +4611,9 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
   unsigned int i;
   unsigned int series_length;
   char tmp;
-  _Bool tmp_if_expr$9;
-  signed int return_value_MHD_accept_connection$10;
-  signed int return_value_resume_suspended_connections$11;
+  _Bool tmp_if_expr_9;
+  signed int return_value_MHD_accept_connection_10;
+  signed int return_value_resume_suspended_connections_11;
   if(daemon->epoll_fd == -1)
     return 0;
 
@@ -4631,15 +4631,15 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
           {
             event.events = (unsigned int)1;
             event.data.ptr = (void *)daemon;
-            signed int return_value_epoll_ctl$3;
-            return_value_epoll_ctl$3=epoll_ctl(daemon->epoll_fd, 1, daemon->socket_fd, &event);
-            if(!(return_value_epoll_ctl$3 == 0))
+            signed int return_value_epoll_ctl_3;
+            return_value_epoll_ctl_3=epoll_ctl(daemon->epoll_fd, 1, daemon->socket_fd, &event);
+            if(!(return_value_epoll_ctl_3 == 0))
             {
-              signed int *return_value___errno_location$1;
-              return_value___errno_location$1=__errno_location();
-              char *return_value_strerror$2;
-              return_value_strerror$2=strerror(*return_value___errno_location$1);
-              MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror$2);
+              signed int *return_value___errno_location_1;
+              return_value___errno_location_1=__errno_location();
+              char *return_value_strerror_2;
+              return_value_strerror_2=strerror(*return_value___errno_location_1);
+              MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror_2);
               return 0;
             }
 
@@ -4654,9 +4654,9 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
       {
         if(daemon->connections == daemon->connection_limit)
         {
-          signed int return_value_epoll_ctl$4;
-          return_value_epoll_ctl$4=epoll_ctl(daemon->epoll_fd, 2, daemon->socket_fd, (struct epoll_event *)(void *)0);
-          if(!(return_value_epoll_ctl$4 == 0))
+          signed int return_value_epoll_ctl_4;
+          return_value_epoll_ctl_4=epoll_ctl(daemon->epoll_fd, 2, daemon->socket_fd, (struct epoll_event *)(void *)0);
+          if(!(return_value_epoll_ctl_4 == 0))
             mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)2738, "Failed to remove listen FD from epoll set\n");
 
           daemon->listen_socket_in_epoll = 0;
@@ -4666,9 +4666,9 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
 
       if(may_block == 1)
       {
-        signed int return_value_MHD_get_timeout$5;
-        return_value_MHD_get_timeout$5=MHD_get_timeout(daemon, &timeout_ll);
-        if(return_value_MHD_get_timeout$5 == 1)
+        signed int return_value_MHD_get_timeout_5;
+        return_value_MHD_get_timeout_5=MHD_get_timeout(daemon, &timeout_ll);
+        if(return_value_MHD_get_timeout_5 == 1)
         {
           if(timeout_ll >= 2147483647ull)
             timeout_ms = 0x7fffffff;
@@ -4689,16 +4689,16 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
         num_events=epoll_wait(daemon->epoll_fd, events, 128, timeout_ms);
         if(num_events == -1)
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(*return_value___errno_location$6 == 4)
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(*return_value___errno_location_6 == 4)
             return 1;
 
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          MHD_DLOG(daemon, "Call to epoll_wait failed: %s\n", return_value_strerror$8);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          MHD_DLOG(daemon, "Call to epoll_wait failed: %s\n", return_value_strerror_8);
           return 0;
         }
 
@@ -4726,11 +4726,11 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
                 {
                   pos->epoll_state = pos->epoll_state | (enum MHD_EpollState)MHD_EPOLL_STATE_READ_READY;
                   if((signed int)pos->event_loop_info == MHD_EVENT_LOOP_INFO_READ)
-                    tmp_if_expr$9 = (_Bool)1;
+                    tmp_if_expr_9 = (_Bool)1;
 
                   else
-                    tmp_if_expr$9 = pos->read_buffer_size > pos->read_buffer_offset ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$9)
+                    tmp_if_expr_9 = pos->read_buffer_size > pos->read_buffer_offset ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_9)
                   {
                     if((MHD_EPOLL_STATE_IN_EREADY_EDLL & (signed int)pos->epoll_state) == 0)
                     {
@@ -4786,8 +4786,8 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
                 series_length = (unsigned int)0;
                 do
                 {
-                  return_value_MHD_accept_connection$10=MHD_accept_connection(daemon);
-                  if(!(return_value_MHD_accept_connection$10 == 1))
+                  return_value_MHD_accept_connection_10=MHD_accept_connection(daemon);
+                  if(!(return_value_MHD_accept_connection_10 == 1))
                     break;
 
                   if(daemon->connections >= daemon->connection_limit)
@@ -4806,8 +4806,8 @@ static signed int MHD_epoll(struct MHD_Daemon *daemon, signed int may_block)
       }
       if((MHD_USE_SUSPEND_RESUME & (signed int)daemon->options) == MHD_USE_SUSPEND_RESUME)
       {
-        return_value_resume_suspended_connections$11=resume_suspended_connections(daemon);
-        if(return_value_resume_suspended_connections$11 == 1)
+        return_value_resume_suspended_connections_11=resume_suspended_connections(daemon);
+        if(return_value_resume_suspended_connections_11 == 1)
           may_block = 0;
 
       }
@@ -4873,8 +4873,8 @@ void MHD_fini(void)
 // file connection.c line 2790
 extern union MHD_ConnectionInfo * MHD_get_connection_info(struct MHD_Connection *connection, enum MHD_ConnectionInfoType info_type, ...)
 {
-  enum gnutls_cipher_algorithm return_value_gnutls_cipher_get$1;
-  enum anonymous$8 return_value_gnutls_protocol_get_version$2;
+  enum gnutls_cipher_algorithm return_value_gnutls_cipher_get_1;
+  enum anonymous_8 return_value_gnutls_protocol_get_version_2;
   switch((signed int)info_type)
   {
     case MHD_CONNECTION_INFO_CIPHER_ALGO:
@@ -4882,8 +4882,8 @@ extern union MHD_ConnectionInfo * MHD_get_connection_info(struct MHD_Connection 
       if(connection->tls_session == ((struct gnutls_session_int *)NULL))
         return (union MHD_ConnectionInfo *)(void *)0;
 
-      return_value_gnutls_cipher_get$1=gnutls_cipher_get(connection->tls_session);
-      connection->cipher = (signed int)return_value_gnutls_cipher_get$1;
+      return_value_gnutls_cipher_get_1=gnutls_cipher_get(connection->tls_session);
+      connection->cipher = (signed int)return_value_gnutls_cipher_get_1;
       return (union MHD_ConnectionInfo *)&connection->cipher;
     }
     case MHD_CONNECTION_INFO_PROTOCOL:
@@ -4891,8 +4891,8 @@ extern union MHD_ConnectionInfo * MHD_get_connection_info(struct MHD_Connection 
       if(connection->tls_session == ((struct gnutls_session_int *)NULL))
         return (union MHD_ConnectionInfo *)(void *)0;
 
-      return_value_gnutls_protocol_get_version$2=gnutls_protocol_get_version(connection->tls_session);
-      connection->protocol = (signed int)return_value_gnutls_protocol_get_version$2;
+      return_value_gnutls_protocol_get_version_2=gnutls_protocol_get_version(connection->tls_session);
+      connection->protocol = (signed int)return_value_gnutls_protocol_get_version_2;
       return (union MHD_ConnectionInfo *)&connection->protocol;
     }
     case MHD_CONNECTION_INFO_GNUTLS_SESSION:
@@ -4985,57 +4985,57 @@ extern union MHD_DaemonInfo * MHD_get_daemon_info(struct MHD_Daemon *daemon, enu
 
 // MHD_get_fdset
 // file daemon.c line 678
-extern signed int MHD_get_fdset(struct MHD_Daemon *daemon, struct anonymous$3 *read_fd_set, struct anonymous$3 *write_fd_set, struct anonymous$3 *except_fd_set, signed int *max_fd)
+extern signed int MHD_get_fdset(struct MHD_Daemon *daemon, struct anonymous_3 *read_fd_set, struct anonymous_3 *write_fd_set, struct anonymous_3 *except_fd_set, signed int *max_fd)
 {
-  signed int return_value_MHD_get_fdset2$1;
-  return_value_MHD_get_fdset2$1=MHD_get_fdset2(daemon, read_fd_set, write_fd_set, except_fd_set, max_fd, (unsigned int)1024);
-  return return_value_MHD_get_fdset2$1;
+  signed int return_value_MHD_get_fdset2_1;
+  return_value_MHD_get_fdset2_1=MHD_get_fdset2(daemon, read_fd_set, write_fd_set, except_fd_set, max_fd, (unsigned int)1024);
+  return return_value_MHD_get_fdset2_1;
 }
 
 // MHD_get_fdset2
 // file daemon.c line 711
-extern signed int MHD_get_fdset2(struct MHD_Daemon *daemon, struct anonymous$3 *read_fd_set, struct anonymous$3 *write_fd_set, struct anonymous$3 *except_fd_set, signed int *max_fd, unsigned int fd_setsize)
+extern signed int MHD_get_fdset2(struct MHD_Daemon *daemon, struct anonymous_3 *read_fd_set, struct anonymous_3 *write_fd_set, struct anonymous_3 *except_fd_set, signed int *max_fd, unsigned int fd_setsize)
 {
   struct MHD_Connection *pos;
-  _Bool tmp_if_expr$1;
-  if(read_fd_set == ((struct anonymous$3 *)NULL) || write_fd_set == ((struct anonymous$3 *)NULL) || daemon == ((struct MHD_Daemon *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+  _Bool tmp_if_expr_1;
+  if(read_fd_set == ((struct anonymous_3 *)NULL) || write_fd_set == ((struct anonymous_3 *)NULL) || daemon == ((struct MHD_Daemon *)NULL))
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = 1 == daemon->shutdown ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = 1 == daemon->shutdown ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = 0 != ((signed int)daemon->options & MHD_USE_THREAD_PER_CONNECTION) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = 0 != ((signed int)daemon->options & MHD_USE_THREAD_PER_CONNECTION) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = 0 != ((signed int)daemon->options & MHD_USE_POLL) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_add_to_fd_set$5;
-  signed int return_value_add_to_fd_set$6;
-  signed int return_value_add_to_fd_set$7;
-  signed int return_value_add_to_fd_set$8;
-  signed int return_value_add_to_fd_set$9;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = 0 != ((signed int)daemon->options & MHD_USE_POLL) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_add_to_fd_set_5;
+  signed int return_value_add_to_fd_set_6;
+  signed int return_value_add_to_fd_set_7;
+  signed int return_value_add_to_fd_set_8;
+  signed int return_value_add_to_fd_set_9;
+  if(tmp_if_expr_3)
     return 0;
 
   else
   {
     if(!((MHD_USE_EPOLL_LINUX_ONLY & (signed int)daemon->options) == 0))
     {
-      signed int return_value_add_to_fd_set$4;
-      return_value_add_to_fd_set$4=add_to_fd_set(daemon->epoll_fd, read_fd_set, max_fd, fd_setsize);
-      return return_value_add_to_fd_set$4;
+      signed int return_value_add_to_fd_set_4;
+      return_value_add_to_fd_set_4=add_to_fd_set(daemon->epoll_fd, read_fd_set, max_fd, fd_setsize);
+      return return_value_add_to_fd_set_4;
     }
 
     if(!(daemon->socket_fd == -1))
     {
-      return_value_add_to_fd_set$5=add_to_fd_set(daemon->socket_fd, read_fd_set, max_fd, fd_setsize);
-      if(return_value_add_to_fd_set$5 == 1)
+      return_value_add_to_fd_set_5=add_to_fd_set(daemon->socket_fd, read_fd_set, max_fd, fd_setsize);
+      if(return_value_add_to_fd_set_5 == 1)
         goto __CPROVER_DUMP_L9;
 
       return 0;
@@ -5052,22 +5052,22 @@ extern signed int MHD_get_fdset2(struct MHD_Daemon *daemon, struct anonymous$3 *
         {
           case MHD_EVENT_LOOP_INFO_READ:
           {
-            return_value_add_to_fd_set$6=add_to_fd_set(pos->socket_fd, read_fd_set, max_fd, fd_setsize);
-            if(!(return_value_add_to_fd_set$6 == 1))
+            return_value_add_to_fd_set_6=add_to_fd_set(pos->socket_fd, read_fd_set, max_fd, fd_setsize);
+            if(!(return_value_add_to_fd_set_6 == 1))
               return 0;
 
             break;
           }
           case MHD_EVENT_LOOP_INFO_WRITE:
           {
-            return_value_add_to_fd_set$7=add_to_fd_set(pos->socket_fd, write_fd_set, max_fd, fd_setsize);
-            if(!(return_value_add_to_fd_set$7 == 1))
+            return_value_add_to_fd_set_7=add_to_fd_set(pos->socket_fd, write_fd_set, max_fd, fd_setsize);
+            if(!(return_value_add_to_fd_set_7 == 1))
               return 0;
 
             if(!(pos->read_buffer_offset >= pos->read_buffer_size))
             {
-              return_value_add_to_fd_set$8=add_to_fd_set(pos->socket_fd, read_fd_set, max_fd, fd_setsize);
-              if(!(return_value_add_to_fd_set$8 == 1))
+              return_value_add_to_fd_set_8=add_to_fd_set(pos->socket_fd, read_fd_set, max_fd, fd_setsize);
+              if(!(return_value_add_to_fd_set_8 == 1))
                 return 0;
 
             }
@@ -5078,8 +5078,8 @@ extern signed int MHD_get_fdset2(struct MHD_Daemon *daemon, struct anonymous$3 *
           {
             if(!(pos->read_buffer_offset >= pos->read_buffer_size))
             {
-              return_value_add_to_fd_set$9=add_to_fd_set(pos->socket_fd, read_fd_set, max_fd, fd_setsize);
-              if(!(return_value_add_to_fd_set$9 == 1))
+              return_value_add_to_fd_set_9=add_to_fd_set(pos->socket_fd, read_fd_set, max_fd, fd_setsize);
+              if(!(return_value_add_to_fd_set_9 == 1))
                 return 0;
 
             }
@@ -5129,7 +5129,7 @@ const char * MHD_get_reason_phrase_for(unsigned int code)
 extern const char * MHD_get_response_header(struct MHD_Response *response, const char *key)
 {
   struct MHD_HTTP_Header *pos;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(key == ((const char *)NULL))
     return (const char *)(void *)0;
 
@@ -5138,8 +5138,8 @@ extern const char * MHD_get_response_header(struct MHD_Response *response, const
     pos = response->first_header;
     for( ; !(pos == ((struct MHD_HTTP_Header *)NULL)); pos = pos->next)
     {
-      return_value_strcmp$1=strcmp(key, pos->header);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(key, pos->header);
+      if(return_value_strcmp_1 == 0)
         return pos->value;
 
     }
@@ -5178,10 +5178,10 @@ extern signed int MHD_get_timeout(struct MHD_Daemon *daemon, unsigned long long 
   signed long int now;
   struct MHD_Connection *pos;
   signed int have_timeout;
-  _Bool tmp_if_expr$1;
-  unsigned long int return_value_gnutls_record_check_pending$2;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_gnutls_record_check_pending$4;
+  _Bool tmp_if_expr_1;
+  unsigned long int return_value_gnutls_record_check_pending_2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_gnutls_record_check_pending_4;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
     MHD_DLOG(daemon, "Illegal call to MHD_get_timeout\n");
@@ -5204,17 +5204,17 @@ extern signed int MHD_get_timeout(struct MHD_Daemon *daemon, unsigned long long 
         if(!(pos->connection_timeout == 0u))
         {
           if(have_timeout == 0)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = earliest_deadline > pos->last_activity + (signed long int)pos->connection_timeout ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = earliest_deadline > pos->last_activity + (signed long int)pos->connection_timeout ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             earliest_deadline = pos->last_activity + (signed long int)pos->connection_timeout;
 
           if(!((MHD_USE_SSL & (signed int)daemon->options) == 0))
           {
-            return_value_gnutls_record_check_pending$2=gnutls_record_check_pending(pos->tls_session);
-            if(!(return_value_gnutls_record_check_pending$2 == 0ul))
+            return_value_gnutls_record_check_pending_2=gnutls_record_check_pending(pos->tls_session);
+            if(!(return_value_gnutls_record_check_pending_2 == 0ul))
               earliest_deadline = (signed long int)0;
 
           }
@@ -5228,17 +5228,17 @@ extern signed int MHD_get_timeout(struct MHD_Daemon *daemon, unsigned long long 
         if(!(pos->connection_timeout == 0u))
         {
           if(have_timeout == 0)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = earliest_deadline > pos->last_activity + (signed long int)pos->connection_timeout ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = earliest_deadline > pos->last_activity + (signed long int)pos->connection_timeout ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             earliest_deadline = pos->last_activity + (signed long int)pos->connection_timeout;
 
           if(!((MHD_USE_SSL & (signed int)daemon->options) == 0))
           {
-            return_value_gnutls_record_check_pending$4=gnutls_record_check_pending(pos->tls_session);
-            if(!(return_value_gnutls_record_check_pending$4 == 0ul))
+            return_value_gnutls_record_check_pending_4=gnutls_record_check_pending(pos->tls_session);
+            if(!(return_value_gnutls_record_check_pending_4 == 0ul))
               earliest_deadline = (signed long int)0;
 
           }
@@ -5284,8 +5284,8 @@ static void * MHD_handle_connection(void *data)
 {
   struct MHD_Connection *con = (struct MHD_Connection *)data;
   signed int num_ready;
-  struct anonymous$3 rs;
-  struct anonymous$3 ws;
+  struct anonymous_3 rs;
+  struct anonymous_3 ws;
   signed int max;
   struct timeval tv;
   struct timeval *tvp;
@@ -5293,14 +5293,14 @@ static void * MHD_handle_connection(void *data)
   signed long int now;
   struct pollfd p[1l];
   timeout = con->daemon->connection_timeout;
-  signed int return_value_add_to_fd_set$1;
-  signed int return_value_add_to_fd_set$2;
-  signed int return_value_add_to_fd_set$3;
-  signed int return_value_add_to_fd_set$4;
-  _Bool tmp_if_expr$9;
+  signed int return_value_add_to_fd_set_1;
+  signed int return_value_add_to_fd_set_2;
+  signed int return_value_add_to_fd_set_3;
+  signed int return_value_add_to_fd_set_4;
+  _Bool tmp_if_expr_9;
   signed int return_value;
-  signed int return_value_poll$13;
-  _Bool tmp_if_expr$14;
+  signed int return_value_poll_13;
+  _Bool tmp_if_expr_14;
   signed int return_value_1;
   while(!(con->daemon->shutdown == 1))
   {
@@ -5335,16 +5335,16 @@ static void * MHD_handle_connection(void *data)
       signed int err_state = 0;
       do
       {
-        signed int MHD_handle_connection$$1$$1$$3$$1$$__d0;
-        signed int MHD_handle_connection$$1$$1$$3$$1$$__d1;
-        asm("cld; rep; stosq" : "=c"(MHD_handle_connection$$1$$1$$3$$1$$__d0), "=D"(MHD_handle_connection$$1$$1$$3$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rs)->fds_bits[(signed long int)0]) : "memory");
+        signed int MHD_handle_connection__1__1__3__1____d0;
+        signed int MHD_handle_connection__1__1__3__1____d1;
+        asm("cld; rep; stosq" : "=c"(MHD_handle_connection__1__1__3__1____d0), "=D"(MHD_handle_connection__1__1__3__1____d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rs)->fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       do
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ws)->fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ws)->fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       max = 0;
@@ -5352,22 +5352,22 @@ static void * MHD_handle_connection(void *data)
       {
         case MHD_EVENT_LOOP_INFO_READ:
         {
-          return_value_add_to_fd_set$1=add_to_fd_set(con->socket_fd, &rs, &max, (unsigned int)1024);
-          if(!(return_value_add_to_fd_set$1 == 1))
+          return_value_add_to_fd_set_1=add_to_fd_set(con->socket_fd, &rs, &max, (unsigned int)1024);
+          if(!(return_value_add_to_fd_set_1 == 1))
             err_state = 1;
 
           goto __CPROVER_DUMP_L16;
         }
         case MHD_EVENT_LOOP_INFO_WRITE:
         {
-          return_value_add_to_fd_set$2=add_to_fd_set(con->socket_fd, &ws, &max, (unsigned int)1024);
-          if(!(return_value_add_to_fd_set$2 == 1))
+          return_value_add_to_fd_set_2=add_to_fd_set(con->socket_fd, &ws, &max, (unsigned int)1024);
+          if(!(return_value_add_to_fd_set_2 == 1))
             err_state = 1;
 
           if(!(con->read_buffer_offset >= con->read_buffer_size))
           {
-            return_value_add_to_fd_set$3=add_to_fd_set(con->socket_fd, &rs, &max, (unsigned int)1024);
-            if(!(return_value_add_to_fd_set$3 == 1))
+            return_value_add_to_fd_set_3=add_to_fd_set(con->socket_fd, &rs, &max, (unsigned int)1024);
+            if(!(return_value_add_to_fd_set_3 == 1))
               err_state = 1;
 
           }
@@ -5378,8 +5378,8 @@ static void * MHD_handle_connection(void *data)
         {
           if(!(con->read_buffer_offset >= con->read_buffer_size))
           {
-            return_value_add_to_fd_set$4=add_to_fd_set(con->socket_fd, &rs, &max, (unsigned int)1024);
-            if(!(return_value_add_to_fd_set$4 == 1))
+            return_value_add_to_fd_set_4=add_to_fd_set(con->socket_fd, &rs, &max, (unsigned int)1024);
+            if(!(return_value_add_to_fd_set_4 == 1))
               err_state = 1;
 
           }
@@ -5402,30 +5402,30 @@ static void * MHD_handle_connection(void *data)
             goto exit;
           }
 
-          num_ready=select(max + 1, &rs, &ws, (struct anonymous$3 *)(void *)0, tvp);
+          num_ready=select(max + 1, &rs, &ws, (struct anonymous_3 *)(void *)0, tvp);
           if(!(num_ready >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            if(*return_value___errno_location$5 == 4)
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            if(*return_value___errno_location_5 == 4)
               goto __CPROVER_DUMP_L37;
 
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            char *return_value_strerror$8;
-            return_value_strerror$8=strerror(*return_value___errno_location$7);
-            MHD_DLOG(con->daemon, "Error during select (%d): `%s'\n", *return_value___errno_location$6, return_value_strerror$8);
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            char *return_value_strerror_8;
+            return_value_strerror_8=strerror(*return_value___errno_location_7);
+            MHD_DLOG(con->daemon, "Error during select (%d): `%s'\n", *return_value___errno_location_6, return_value_strerror_8);
             goto __CPROVER_DUMP_L38;
           }
 
           if(!((rs.fds_bits[(signed long int)(con->socket_fd / 8)] & (signed long int)(1UL << con->socket_fd % 8)) == 0l))
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = 1 == con->tls_read_ready ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = 1 == con->tls_read_ready ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_9)
             con->read_handler(con);
 
           if(!((ws.fds_bits[(signed long int)(con->socket_fd / 8)] & (signed long int)(1UL << con->socket_fd % 8)) == 0l))
@@ -5472,28 +5472,28 @@ static void * MHD_handle_connection(void *data)
 
         __CPROVER_DUMP_L30:
           ;
-          return_value_poll$13=poll(p, (unsigned long int)1, (signed int)((struct timeval *)(void *)0 == tvp ? (signed long int)-1 : tv.tv_sec * (signed long int)1000));
-          if(!(return_value_poll$13 >= 0))
+          return_value_poll_13=poll(p, (unsigned long int)1, (signed int)((struct timeval *)(void *)0 == tvp ? (signed long int)-1 : tv.tv_sec * (signed long int)1000));
+          if(!(return_value_poll_13 >= 0))
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            if(*return_value___errno_location$10 == 4)
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            if(*return_value___errno_location_10 == 4)
               break;
 
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            char *return_value_strerror$12;
-            return_value_strerror$12=strerror(*return_value___errno_location$11);
-            MHD_DLOG(con->daemon, "Error during poll: `%s'\n", return_value_strerror$12);
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            char *return_value_strerror_12;
+            return_value_strerror_12=strerror(*return_value___errno_location_11);
+            MHD_DLOG(con->daemon, "Error during poll: `%s'\n", return_value_strerror_12);
             goto __CPROVER_DUMP_L38;
           }
 
           if(!((0x001 & (signed int)p[0l].revents) == 0))
-            tmp_if_expr$14 = (_Bool)1;
+            tmp_if_expr_14 = (_Bool)1;
 
           else
-            tmp_if_expr$14 = 1 == con->tls_read_ready ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$14)
+            tmp_if_expr_14 = 1 == con->tls_read_ready ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_14)
             con->read_handler(con);
 
           if(!((0x004 & (signed int)p[0l].revents) == 0))
@@ -5545,18 +5545,18 @@ extern unsigned long int MHD_http_unescape(char *val)
   char *end;
   unsigned int num;
   char buf3[3l];
-  _Bool tmp_if_expr$1;
-  unsigned long int return_value_strtoul$2;
+  _Bool tmp_if_expr_1;
+  unsigned long int return_value_strtoul_2;
   while(!((signed int)*rpos == 0))
   {
     if((signed int)*rpos == 37)
     {
       if((signed int)rpos[1l] == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = 0 == (signed int)rpos[(signed long int)2] ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = 0 == (signed int)rpos[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         *wpos = (char)0;
         return (unsigned long int)(wpos - val);
@@ -5565,8 +5565,8 @@ extern unsigned long int MHD_http_unescape(char *val)
       buf3[(signed long int)0] = rpos[(signed long int)1];
       buf3[(signed long int)1] = rpos[(signed long int)2];
       buf3[(signed long int)2] = (char)0;
-      return_value_strtoul$2=strtoul(buf3, &end, 16);
-      num = (unsigned int)return_value_strtoul$2;
+      return_value_strtoul_2=strtoul(buf3, &end, 16);
+      num = (unsigned int)return_value_strtoul_2;
       if((signed int)*end == 0)
       {
         *wpos = (char)(unsigned char)num;
@@ -5589,13 +5589,13 @@ extern unsigned long int MHD_http_unescape(char *val)
 // file response.h line 35
 void MHD_increment_response_rc(struct MHD_Response *response)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&response->mutex);
-  (void)(0 == return_value_pthread_mutex_lock$1 ? 1 : 0);
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&response->mutex);
+  (void)(0 == return_value_pthread_mutex_lock_1 ? 1 : 0);
   response->reference_count = response->reference_count + 1u;
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&response->mutex);
-  (void)(0 == return_value_pthread_mutex_unlock$2 ? 1 : 0);
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&response->mutex);
+  (void)(0 == return_value_pthread_mutex_unlock_2 ? 1 : 0);
 }
 
 // MHD_init
@@ -5604,9 +5604,9 @@ void MHD_init(void)
 {
   mhd_panic = mhd_panic_std;
   mhd_panic_cls = (void *)0;
-  const char *return_value_gcry_check_version$1;
-  return_value_gcry_check_version$1=gcry_check_version("1.6.0");
-  if(return_value_gcry_check_version$1 == ((const char *)NULL))
+  const char *return_value_gcry_check_version_1;
+  return_value_gcry_check_version_1=gcry_check_version("1.6.0");
+  if(return_value_gcry_check_version_1 == ((const char *)NULL))
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4890, "libgcrypt is too old. MHD was compiled for libgcrypt 1.6.0 or newer\n");
 
   gnutls_global_init();
@@ -5617,21 +5617,21 @@ void MHD_init(void)
 // file daemon.c line 508
 static signed int MHD_init_daemon_certificate(struct MHD_Daemon *daemon)
 {
-  struct anonymous$2 key;
-  struct anonymous$2 cert;
+  struct anonymous_2 key;
+  struct anonymous_2 cert;
   signed int ret;
-  if(!(daemon->cert_callback == ((signed int (*)(struct gnutls_session_int *, const struct anonymous$2 *, signed int, const enum anonymous$9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **))NULL)))
+  if(!(daemon->cert_callback == ((signed int (*)(struct gnutls_session_int *, const struct anonymous_2 *, signed int, const enum anonymous_9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **))NULL)))
     gnutls_certificate_set_retrieve_function2(daemon->x509_cred, daemon->cert_callback);
 
   if(!(daemon->https_mem_trust == ((const char *)NULL)))
   {
     cert.data = (unsigned char *)daemon->https_mem_trust;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(daemon->https_mem_trust);
-    cert.size = (unsigned int)return_value_strlen$1;
-    signed int return_value_gnutls_certificate_set_x509_trust_mem$2;
-    return_value_gnutls_certificate_set_x509_trust_mem$2=gnutls_certificate_set_x509_trust_mem(daemon->x509_cred, &cert, (enum anonymous$1)GNUTLS_X509_FMT_PEM);
-    if(!(return_value_gnutls_certificate_set_x509_trust_mem$2 >= 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(daemon->https_mem_trust);
+    cert.size = (unsigned int)return_value_strlen_1;
+    signed int return_value_gnutls_certificate_set_x509_trust_mem_2;
+    return_value_gnutls_certificate_set_x509_trust_mem_2=gnutls_certificate_set_x509_trust_mem(daemon->x509_cred, &cert, (enum anonymous_1)GNUTLS_X509_FMT_PEM);
+    if(!(return_value_gnutls_certificate_set_x509_trust_mem_2 >= 0))
     {
       MHD_DLOG(daemon, "Bad trust certificate format\n");
       return -1;
@@ -5642,28 +5642,28 @@ static signed int MHD_init_daemon_certificate(struct MHD_Daemon *daemon)
   if(daemon->have_dhparams == 1)
     gnutls_certificate_set_dh_params(daemon->x509_cred, daemon->https_mem_dhparams);
 
-  const char *return_value_gnutls_strerror$5;
+  const char *return_value_gnutls_strerror_5;
   if(!(daemon->https_mem_cert == ((const char *)NULL)))
   {
     if(!(daemon->https_mem_key == ((const char *)NULL)))
     {
       key.data = (unsigned char *)daemon->https_mem_key;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(daemon->https_mem_key);
-      key.size = (unsigned int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(daemon->https_mem_key);
+      key.size = (unsigned int)return_value_strlen_3;
       cert.data = (unsigned char *)daemon->https_mem_cert;
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(daemon->https_mem_cert);
-      cert.size = (unsigned int)return_value_strlen$4;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(daemon->https_mem_cert);
+      cert.size = (unsigned int)return_value_strlen_4;
       if(!(daemon->https_key_password == ((const char *)NULL)))
-        ret=gnutls_certificate_set_x509_key_mem2(daemon->x509_cred, &cert, &key, (enum anonymous$1)GNUTLS_X509_FMT_PEM, daemon->https_key_password, (unsigned int)0);
+        ret=gnutls_certificate_set_x509_key_mem2(daemon->x509_cred, &cert, &key, (enum anonymous_1)GNUTLS_X509_FMT_PEM, daemon->https_key_password, (unsigned int)0);
 
       else
-        ret=gnutls_certificate_set_x509_key_mem(daemon->x509_cred, &cert, &key, (enum anonymous$1)GNUTLS_X509_FMT_PEM);
+        ret=gnutls_certificate_set_x509_key_mem(daemon->x509_cred, &cert, &key, (enum anonymous_1)GNUTLS_X509_FMT_PEM);
       if(!(ret == 0))
       {
-        return_value_gnutls_strerror$5=gnutls_strerror(ret);
-        MHD_DLOG(daemon, "GnuTLS failed to setup x509 certificate/key: %s\n", return_value_gnutls_strerror$5);
+        return_value_gnutls_strerror_5=gnutls_strerror(ret);
+        MHD_DLOG(daemon, "GnuTLS failed to setup x509 certificate/key: %s\n", return_value_gnutls_strerror_5);
       }
 
       return ret;
@@ -5671,7 +5671,7 @@ static signed int MHD_init_daemon_certificate(struct MHD_Daemon *daemon)
 
   }
 
-  if(!(daemon->cert_callback == ((signed int (*)(struct gnutls_session_int *, const struct anonymous$2 *, signed int, const enum anonymous$9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **))NULL)))
+  if(!(daemon->cert_callback == ((signed int (*)(struct gnutls_session_int *, const struct anonymous_2 *, signed int, const enum anonymous_9 *, signed int, struct gnutls_pcert_st **, unsigned int *, struct gnutls_privkey_st **))NULL)))
     return 0;
 
   else
@@ -5685,9 +5685,9 @@ static signed int MHD_init_daemon_certificate(struct MHD_Daemon *daemon)
 // file daemon.c line 252
 static signed int MHD_ip_addr_compare(const void *a1, const void *a2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp(a1, a2, 20ul);
-  return return_value_memcmp$1;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp(a1, a2, 20ul);
+  return return_value_memcmp_1;
 }
 
 // MHD_ip_addr_to_key
@@ -5718,9 +5718,9 @@ static signed int MHD_ip_addr_to_key(struct sockaddr *addr, unsigned int addrlen
 // file daemon.c line 218
 static void MHD_ip_count_lock(struct MHD_Daemon *daemon)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->per_ip_connection_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->per_ip_connection_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)222, "Failed to acquire IP connection limit mutex\n");
 
 }
@@ -5729,9 +5729,9 @@ static void MHD_ip_count_lock(struct MHD_Daemon *daemon)
 // file daemon.c line 233
 static void MHD_ip_count_unlock(struct MHD_Daemon *daemon)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&daemon->per_ip_connection_mutex);
-  if(!(return_value_pthread_mutex_unlock$1 == 0))
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&daemon->per_ip_connection_mutex);
+  if(!(return_value_pthread_mutex_unlock_1 == 0))
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)237, "Failed to release IP connection limit mutex\n");
 
 }
@@ -5750,17 +5750,17 @@ static signed int MHD_ip_limit_add(struct MHD_Daemon *daemon, struct sockaddr *a
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct MHD_IPCount) /*24ul*/ );
-    key = (struct MHD_IPCount *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct MHD_IPCount) /*24ul*/ );
+    key = (struct MHD_IPCount *)return_value_malloc_1;
     if(key == ((struct MHD_IPCount *)NULL))
       return 0;
 
     else
     {
-      signed int return_value_MHD_ip_addr_to_key$2;
-      return_value_MHD_ip_addr_to_key$2=MHD_ip_addr_to_key(addr, addrlen, key);
-      if(return_value_MHD_ip_addr_to_key$2 == 0)
+      signed int return_value_MHD_ip_addr_to_key_2;
+      return_value_MHD_ip_addr_to_key_2=MHD_ip_addr_to_key(addr, addrlen, key);
+      if(return_value_MHD_ip_addr_to_key_2 == 0)
       {
         free((void *)key);
         return 1;
@@ -5769,9 +5769,9 @@ static signed int MHD_ip_limit_add(struct MHD_Daemon *daemon, struct sockaddr *a
       else
       {
         MHD_ip_count_lock(daemon);
-        void *return_value_tsearch$3;
-        return_value_tsearch$3=tsearch((const void *)key, &daemon->per_ip_connection_count, MHD_ip_addr_compare);
-        nodep = (void **)return_value_tsearch$3;
+        void *return_value_tsearch_3;
+        return_value_tsearch_3=tsearch((const void *)key, &daemon->per_ip_connection_count, MHD_ip_addr_compare);
+        nodep = (void **)return_value_tsearch_3;
         if(nodep == ((void **)NULL))
         {
           MHD_DLOG(daemon, "Failed to add IP connection count node\n");
@@ -5809,14 +5809,14 @@ static void MHD_ip_limit_del(struct MHD_Daemon *daemon, struct sockaddr *addr, u
   daemon=MHD_get_master(daemon);
   if(!(daemon->per_ip_connection_limit == 0u))
   {
-    signed int return_value_MHD_ip_addr_to_key$1;
-    return_value_MHD_ip_addr_to_key$1=MHD_ip_addr_to_key(addr, addrlen, &search_key);
-    if(!(return_value_MHD_ip_addr_to_key$1 == 0))
+    signed int return_value_MHD_ip_addr_to_key_1;
+    return_value_MHD_ip_addr_to_key_1=MHD_ip_addr_to_key(addr, addrlen, &search_key);
+    if(!(return_value_MHD_ip_addr_to_key_1 == 0))
     {
       MHD_ip_count_lock(daemon);
-      void *return_value_tfind$2;
-      return_value_tfind$2=tfind((const void *)&search_key, &daemon->per_ip_connection_count, MHD_ip_addr_compare);
-      nodep = (void **)return_value_tfind$2;
+      void *return_value_tfind_2;
+      return_value_tfind_2=tfind((const void *)&search_key, &daemon->per_ip_connection_count, MHD_ip_addr_compare);
+      nodep = (void **)return_value_tfind_2;
       if(nodep == ((void **)NULL))
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)397, "Failed to find previously-added IP address\n");
 
@@ -5884,9 +5884,9 @@ extern signed int MHD_is_feature_supported(enum MHD_FEATURE feature)
 extern const char * MHD_lookup_connection_value(struct MHD_Connection *connection, enum MHD_ValueKind kind, const char *key)
 {
   struct MHD_HTTP_Header *pos;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcasecmp$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcasecmp_1;
   if(connection == ((struct MHD_Connection *)NULL))
     return (const char *)(void *)0;
 
@@ -5897,21 +5897,21 @@ extern const char * MHD_lookup_connection_value(struct MHD_Connection *connectio
       if(!(((signed int)pos->kind & (signed int)kind) == 0))
       {
         if(key == pos->header)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
           if(!(pos->header == ((char *)NULL)) && !(key == ((const char *)NULL)))
           {
-            return_value_strcasecmp$1=strcasecmp(key, pos->header);
-            tmp_if_expr$2 = 0 == return_value_strcasecmp$1 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_1=strcasecmp(key, pos->header);
+            tmp_if_expr_2 = 0 == return_value_strcasecmp_1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
           return pos->value;
 
       }
@@ -5925,11 +5925,11 @@ extern const char * MHD_lookup_connection_value(struct MHD_Connection *connectio
 signed long int MHD_monotonic_sec_counter(void)
 {
   struct timespec ts;
-  signed int return_value_clock_gettime$1;
+  signed int return_value_clock_gettime_1;
   if(!(mono_clock_id == 0))
   {
-    return_value_clock_gettime$1=clock_gettime(mono_clock_id, &ts);
-    if(!(return_value_clock_gettime$1 == 0))
+    return_value_clock_gettime_1=clock_gettime(mono_clock_id, &ts);
+    if(!(return_value_clock_gettime_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return ts.tv_sec - mono_clock_start;
@@ -5940,9 +5940,9 @@ signed long int MHD_monotonic_sec_counter(void)
 
   __CPROVER_DUMP_L1:
     ;
-    signed long int return_value_time$2;
-    return_value_time$2=time((signed long int *)(void *)0);
-    return return_value_time$2 - sys_clock_start;
+    signed long int return_value_time_2;
+    return_value_time_2=time((signed long int *)(void *)0);
+    return return_value_time_2 - sys_clock_start;
   }
 }
 
@@ -5960,12 +5960,12 @@ void MHD_monotonic_sec_counter_init(void)
   enum _MHD_mono_clock_source mono_clock_source = (enum _MHD_mono_clock_source)_MHD_CLOCK_NO_SOURCE;
   struct timespec ts;
   mono_clock_id = 0;
-  signed int return_value_clock_gettime$4;
-  signed int return_value_clock_gettime$3;
-  signed int return_value_clock_gettime$2;
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$4=clock_gettime(6, &ts);
-  if(return_value_clock_gettime$4 == 0)
+  signed int return_value_clock_gettime_4;
+  signed int return_value_clock_gettime_3;
+  signed int return_value_clock_gettime_2;
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_4=clock_gettime(6, &ts);
+  if(return_value_clock_gettime_4 == 0)
   {
     mono_clock_id = 6;
     mono_clock_start = ts.tv_sec;
@@ -5974,8 +5974,8 @@ void MHD_monotonic_sec_counter_init(void)
 
   else
   {
-    return_value_clock_gettime$3=clock_gettime(4, &ts);
-    if(return_value_clock_gettime$3 == 0)
+    return_value_clock_gettime_3=clock_gettime(4, &ts);
+    if(return_value_clock_gettime_3 == 0)
     {
       mono_clock_id = 4;
       mono_clock_start = ts.tv_sec;
@@ -5984,8 +5984,8 @@ void MHD_monotonic_sec_counter_init(void)
 
     else
     {
-      return_value_clock_gettime$2=clock_gettime(7, &ts);
-      if(return_value_clock_gettime$2 == 0)
+      return_value_clock_gettime_2=clock_gettime(7, &ts);
+      if(return_value_clock_gettime_2 == 0)
       {
         mono_clock_id = 7;
         mono_clock_start = ts.tv_sec;
@@ -5994,8 +5994,8 @@ void MHD_monotonic_sec_counter_init(void)
 
       else
       {
-        return_value_clock_gettime$1=clock_gettime(1, &ts);
-        if(return_value_clock_gettime$1 == 0)
+        return_value_clock_gettime_1=clock_gettime(1, &ts);
+        if(return_value_clock_gettime_1 == 0)
         {
           mono_clock_id = 1;
           mono_clock_start = ts.tv_sec;
@@ -6015,22 +6015,22 @@ void MHD_monotonic_sec_counter_init(void)
 // file daemon.c line 2653
 static signed int MHD_poll(struct MHD_Daemon *daemon, signed int may_block)
 {
-  signed int return_value_MHD_poll_all$1;
-  signed int return_value_MHD_poll_listen_socket$2;
+  signed int return_value_MHD_poll_all_1;
+  signed int return_value_MHD_poll_listen_socket_2;
   if(daemon->shutdown == 1)
     return 0;
 
   else
     if((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0)
     {
-      return_value_MHD_poll_all$1=MHD_poll_all(daemon, may_block);
-      return return_value_MHD_poll_all$1;
+      return_value_MHD_poll_all_1=MHD_poll_all(daemon, may_block);
+      return return_value_MHD_poll_all_1;
     }
 
     else
     {
-      return_value_MHD_poll_listen_socket$2=MHD_poll_listen_socket(daemon, may_block);
-      return return_value_MHD_poll_listen_socket$2;
+      return_value_MHD_poll_listen_socket_2=MHD_poll_listen_socket(daemon, may_block);
+      return return_value_MHD_poll_listen_socket_2;
     }
 }
 
@@ -6041,11 +6041,11 @@ static signed int MHD_poll_all(struct MHD_Daemon *daemon, signed int may_block)
   unsigned int num_connections;
   struct MHD_Connection *pos;
   struct MHD_Connection *next;
-  signed int return_value_resume_suspended_connections$1;
+  signed int return_value_resume_suspended_connections_1;
   if((MHD_USE_SUSPEND_RESUME & (signed int)daemon->options) == MHD_USE_SUSPEND_RESUME)
   {
-    return_value_resume_suspended_connections$1=resume_suspended_connections(daemon);
-    if(return_value_resume_suspended_connections$1 == 1)
+    return_value_resume_suspended_connections_1=resume_suspended_connections(daemon);
+    if(return_value_resume_suspended_connections_1 == 1)
       may_block = 0;
 
   }
@@ -6062,16 +6062,16 @@ static signed int MHD_poll_all(struct MHD_Daemon *daemon, signed int may_block)
   signed int poll_pipe;
   char tmp;
   struct pollfd *p;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)((unsigned int)2 + num_connections));
-  p = (struct pollfd *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)((unsigned int)2 + num_connections));
+  p = (struct pollfd *)return_value_malloc_2;
   if(p == ((struct pollfd *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror_4);
     return 0;
   }
 
@@ -6101,22 +6101,22 @@ static signed int MHD_poll_all(struct MHD_Daemon *daemon, signed int may_block)
     poll_server = poll_server + 1u;
   }
 
-  _Bool tmp_if_expr$6;
-  signed int return_value_MHD_get_timeout$5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_MHD_get_timeout_5;
   if(may_block == 0)
     timeout = 0;
 
   else
   {
     if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_MHD_get_timeout$5=MHD_get_timeout(daemon, &ltimeout);
-      tmp_if_expr$6 = 1 != return_value_MHD_get_timeout$5 ? (_Bool)1 : (_Bool)0;
+      return_value_MHD_get_timeout_5=MHD_get_timeout(daemon, &ltimeout);
+      tmp_if_expr_6 = 1 != return_value_MHD_get_timeout_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
       timeout = -1;
 
     else
@@ -6162,23 +6162,23 @@ static signed int MHD_poll_all(struct MHD_Daemon *daemon, signed int may_block)
 
   else
   {
-    signed int return_value_poll$10;
-    return_value_poll$10=poll(p, (unsigned long int)(poll_server + num_connections), timeout);
-    if(!(return_value_poll$10 >= 0))
+    signed int return_value_poll_10;
+    return_value_poll_10=poll(p, (unsigned long int)(poll_server + num_connections), timeout);
+    if(!(return_value_poll_10 >= 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      if(*return_value___errno_location$7 == 4)
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      if(*return_value___errno_location_7 == 4)
       {
         free((void *)p);
         return 1;
       }
 
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      char *return_value_strerror$9;
-      return_value_strerror$9=strerror(*return_value___errno_location$8);
-      MHD_DLOG(daemon, "poll failed: %s\n", return_value_strerror$9);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      char *return_value_strerror_9;
+      return_value_strerror_9=strerror(*return_value___errno_location_8);
+      MHD_DLOG(daemon, "poll failed: %s\n", return_value_strerror_9);
       free((void *)p);
       return 0;
     }
@@ -6301,20 +6301,20 @@ static signed int MHD_poll_listen_socket(struct MHD_Daemon *daemon, signed int m
 
   else
   {
-    signed int return_value_poll$4;
-    return_value_poll$4=poll(p, (unsigned long int)poll_count, timeout);
-    if(!(return_value_poll$4 >= 0))
+    signed int return_value_poll_4;
+    return_value_poll_4=poll(p, (unsigned long int)poll_count, timeout);
+    if(!(return_value_poll_4 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         return 1;
 
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      MHD_DLOG(daemon, "poll failed: %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      MHD_DLOG(daemon, "poll failed: %s\n", return_value_strerror_3);
       return 0;
     }
 
@@ -6341,18 +6341,18 @@ void * MHD_pool_allocate(struct MemoryPool *pool, unsigned long int size, signed
 {
   void *ret;
   unsigned long int asize = size + ((unsigned long int)2 * sizeof(void *) /*8ul*/  - (unsigned long int)1) & ~((unsigned long int)2 * sizeof(void *) /*8ul*/  - (unsigned long int)1);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(asize == 0ul && !(size == 0ul))
     return (void *)0;
 
   else
   {
     if(!(pool->end >= pool->pos + asize))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = pool->pos + asize < pool->pos ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = pool->pos + asize < pool->pos ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return (void *)0;
 
     else
@@ -6378,11 +6378,11 @@ void * MHD_pool_allocate(struct MemoryPool *pool, unsigned long int size, signed
 struct MemoryPool * MHD_pool_create(unsigned long int max)
 {
   struct MemoryPool *pool;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct MemoryPool) /*40ul*/ );
-  pool = (struct MemoryPool *)return_value_malloc$1;
-  void *return_value_mmap$2;
-  _Bool tmp_if_expr$4;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct MemoryPool) /*40ul*/ );
+  pool = (struct MemoryPool *)return_value_malloc_1;
+  void *return_value_mmap_2;
+  _Bool tmp_if_expr_4;
   if(pool == ((struct MemoryPool *)NULL))
     return (struct MemoryPool *)(void *)0;
 
@@ -6393,19 +6393,19 @@ struct MemoryPool * MHD_pool_create(unsigned long int max)
 
     else
     {
-      return_value_mmap$2=mmap((void *)0, max, 0x1 | 0x2, 0x02 | 0x20, -1, (signed long int)0);
-      pool->memory = (char *)return_value_mmap$2;
+      return_value_mmap_2=mmap((void *)0, max, 0x1 | 0x2, 0x02 | 0x20, -1, (signed long int)0);
+      pool->memory = (char *)return_value_mmap_2;
     }
     if(pool->memory == (char *)-1)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = pool->memory == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = pool->memory == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(max);
-      pool->memory = (char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(max);
+      pool->memory = (char *)return_value_malloc_3;
       if(pool->memory == ((char *)NULL))
       {
         free((void *)pool);
@@ -6446,18 +6446,18 @@ void * MHD_pool_reallocate(struct MemoryPool *pool, void *old, unsigned long int
 {
   void *ret;
   unsigned long int asize = new_size + ((unsigned long int)2 * sizeof(void *) /*8ul*/  - (unsigned long int)1) & ~((unsigned long int)2 * sizeof(void *) /*8ul*/  - (unsigned long int)1);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(asize == 0ul && !(new_size == 0ul))
     return (void *)0;
 
   else
   {
     if(!(pool->end >= old_size))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = pool->end < asize ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = pool->end < asize ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return (void *)0;
 
     else
@@ -6535,8 +6535,8 @@ void * MHD_pool_reset(struct MemoryPool *pool, void *keep, unsigned long int siz
 // file ../../src/include/microhttpd.h line 2436
 extern signed int MHD_post_process(struct MHD_PostProcessor *pp, const char *post_data, unsigned long int post_data_len)
 {
-  signed int return_value_post_process_urlencoded$1;
-  signed int return_value_post_process_multipart$4;
+  signed int return_value_post_process_urlencoded_1;
+  signed int return_value_post_process_multipart_4;
   if(post_data_len == 0ul)
     return 1;
 
@@ -6546,26 +6546,26 @@ extern signed int MHD_post_process(struct MHD_PostProcessor *pp, const char *pos
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen("application/x-www-form-urlencoded");
-      signed int return_value_strncasecmp$3;
-      return_value_strncasecmp$3=strncasecmp("application/x-www-form-urlencoded", pp->encoding, return_value_strlen$2);
-      if(return_value_strncasecmp$3 == 0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen("application/x-www-form-urlencoded");
+      signed int return_value_strncasecmp_3;
+      return_value_strncasecmp_3=strncasecmp("application/x-www-form-urlencoded", pp->encoding, return_value_strlen_2);
+      if(return_value_strncasecmp_3 == 0)
       {
-        return_value_post_process_urlencoded$1=post_process_urlencoded(pp, post_data, post_data_len);
-        return return_value_post_process_urlencoded$1;
+        return_value_post_process_urlencoded_1=post_process_urlencoded(pp, post_data, post_data_len);
+        return return_value_post_process_urlencoded_1;
       }
 
       else
       {
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen("multipart/form-data");
-        signed int return_value_strncasecmp$6;
-        return_value_strncasecmp$6=strncasecmp("multipart/form-data", pp->encoding, return_value_strlen$5);
-        if(return_value_strncasecmp$6 == 0)
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen("multipart/form-data");
+        signed int return_value_strncasecmp_6;
+        return_value_strncasecmp_6=strncasecmp("multipart/form-data", pp->encoding, return_value_strlen_5);
+        if(return_value_strncasecmp_6 == 0)
         {
-          return_value_post_process_multipart$4=post_process_multipart(pp, post_data, post_data_len);
-          return return_value_post_process_multipart$4;
+          return_value_post_process_multipart_4=post_process_multipart(pp, post_data, post_data_len);
+          return return_value_post_process_multipart_4;
         }
 
         else
@@ -6581,12 +6581,12 @@ extern signed int MHD_queue_auth_fail_response(struct MHD_Connection *connection
   signed int ret;
   unsigned long int hlen;
   char nonce[41l];
-  signed long int return_value_MHD_monotonic_sec_counter$1;
-  return_value_MHD_monotonic_sec_counter$1=MHD_monotonic_sec_counter();
-  calculate_nonce((unsigned int)return_value_MHD_monotonic_sec_counter$1, connection->method, connection->daemon->digest_auth_random, connection->daemon->digest_auth_rand_size, connection->url, realm, nonce);
-  signed int return_value_check_nonce_nc$2;
-  return_value_check_nonce_nc$2=check_nonce_nc(connection, nonce, (unsigned long int)0);
-  if(!(return_value_check_nonce_nc$2 == 1))
+  signed long int return_value_MHD_monotonic_sec_counter_1;
+  return_value_MHD_monotonic_sec_counter_1=MHD_monotonic_sec_counter();
+  calculate_nonce((unsigned int)return_value_MHD_monotonic_sec_counter_1, connection->method, connection->daemon->digest_auth_random, connection->daemon->digest_auth_rand_size, connection->url, realm, nonce);
+  signed int return_value_check_nonce_nc_2;
+  return_value_check_nonce_nc_2=check_nonce_nc(connection, nonce, (unsigned long int)0);
+  if(!(return_value_check_nonce_nc_2 == 1))
   {
     MHD_DLOG(connection->daemon, "Could not register nonce (is the nonce array size zero?).\n");
     return 0;
@@ -6594,13 +6594,13 @@ extern signed int MHD_queue_auth_fail_response(struct MHD_Connection *connection
 
   else
   {
-    signed int return_value_snprintf$3;
-    return_value_snprintf$3=snprintf((char *)(void *)0, (unsigned long int)0, "Digest realm=\"%s\",qop=\"auth\",nonce=\"%s\",opaque=\"%s\"%s", realm, (const void *)nonce, opaque, signal_stale != 0 ? ",stale=\"true\"" : "");
-    hlen = (unsigned long int)return_value_snprintf$3;
+    signed int return_value_snprintf_3;
+    return_value_snprintf_3=snprintf((char *)(void *)0, (unsigned long int)0, "Digest realm=\"%s\",qop=\"auth\",nonce=\"%s\",opaque=\"%s\"%s", realm, (const void *)nonce, opaque, signal_stale != 0 ? ",stale=\"true\"" : "");
+    hlen = (unsigned long int)return_value_snprintf_3;
     char *header;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(hlen + (unsigned long int)1);
-    header = (char *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(hlen + (unsigned long int)1);
+    header = (char *)return_value_malloc_4;
     if(header == ((char *)NULL))
     {
       MHD_DLOG(connection->daemon, "Failed to allocate memory for auth response header\n");
@@ -6626,15 +6626,15 @@ extern signed int MHD_queue_basic_auth_fail_response(struct MHD_Connection *conn
 {
   signed int ret;
   unsigned long int hlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(realm);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("Basic realm=\"\"");
-  hlen = return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(realm);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("Basic realm=\"\"");
+  hlen = return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1;
   char *header;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(hlen);
-  header = (char *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(hlen);
+  header = (char *)return_value_malloc_3;
   if(header == ((char *)NULL))
   {
     MHD_DLOG(connection->daemon, "Failed to allocate memory for auth header\n");
@@ -6657,31 +6657,31 @@ extern signed int MHD_queue_basic_auth_fail_response(struct MHD_Connection *conn
 // file ../../src/include/microhttpd.h line 1886
 extern signed int MHD_queue_response(struct MHD_Connection *connection, unsigned int status_code, struct MHD_Response *response)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(connection == ((struct MHD_Connection *)NULL) || response == ((struct MHD_Response *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (struct MHD_Response *)(void *)0 != connection->response ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (struct MHD_Response *)(void *)0 != connection->response ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(!((signed int)connection->state == MHD_CONNECTION_HEADERS_PROCESSED))
-      tmp_if_expr$2 = MHD_CONNECTION_FOOTERS_RECEIVED != (signed int)connection->state ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = MHD_CONNECTION_FOOTERS_RECEIVED != (signed int)connection->state ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcasecmp$6;
-  if(tmp_if_expr$3)
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcasecmp_6;
+  if(tmp_if_expr_3)
     return 0;
 
   else
@@ -6691,8 +6691,8 @@ extern signed int MHD_queue_response(struct MHD_Connection *connection, unsigned
     connection->responseCode = status_code;
     if(!(connection->method == ((char *)NULL)))
     {
-      return_value_strcasecmp$4=strcasecmp(connection->method, "HEAD");
-      if(return_value_strcasecmp$4 == 0)
+      return_value_strcasecmp_4=strcasecmp(connection->method, "HEAD");
+      if(return_value_strcasecmp_4 == 0)
         connection->response_write_position = response->total_size;
 
     }
@@ -6701,16 +6701,16 @@ extern signed int MHD_queue_response(struct MHD_Connection *connection, unsigned
     {
       if(!(connection->method == ((char *)NULL)))
       {
-        return_value_strcasecmp$5=strcasecmp(connection->method, "POST");
-        if(return_value_strcasecmp$5 == 0)
-          tmp_if_expr$7 = (_Bool)1;
+        return_value_strcasecmp_5=strcasecmp(connection->method, "POST");
+        if(return_value_strcasecmp_5 == 0)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_strcasecmp$6=strcasecmp(connection->method, "PUT");
-          tmp_if_expr$7 = 0 == return_value_strcasecmp$6 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_6=strcasecmp(connection->method, "PUT");
+          tmp_if_expr_7 = 0 == return_value_strcasecmp_6 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           connection->read_closed = 1;
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_FOOTERS_RECEIVED;
@@ -6763,9 +6763,9 @@ extern signed int MHD_quiesce_daemon(struct MHD_Daemon *daemon)
             {
               if((daemon->worker_pool + (signed long int)i)->listen_socket_in_epoll == 1)
               {
-                signed int return_value_epoll_ctl$1;
-                return_value_epoll_ctl$1=epoll_ctl((daemon->worker_pool + (signed long int)i)->epoll_fd, 2, ret, (struct epoll_event *)(void *)0);
-                if(!(return_value_epoll_ctl$1 == 0))
+                signed int return_value_epoll_ctl_1;
+                return_value_epoll_ctl_1=epoll_ctl((daemon->worker_pool + (signed long int)i)->epoll_fd, 2, ret, (struct epoll_event *)(void *)0);
+                if(!(return_value_epoll_ctl_1 == 0))
                   mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)3063, "Failed to remove listen FD from epoll set\n");
 
                 (daemon->worker_pool + (signed long int)i)->listen_socket_in_epoll = 0;
@@ -6785,9 +6785,9 @@ extern signed int MHD_quiesce_daemon(struct MHD_Daemon *daemon)
         {
           if(daemon->listen_socket_in_epoll == 1)
           {
-            signed int return_value_epoll_ctl$2;
-            return_value_epoll_ctl$2=epoll_ctl(daemon->epoll_fd, 2, ret, (struct epoll_event *)(void *)0);
-            if(!(return_value_epoll_ctl$2 == 0))
+            signed int return_value_epoll_ctl_2;
+            return_value_epoll_ctl_2=epoll_ctl(daemon->epoll_fd, 2, ret, (struct epoll_event *)(void *)0);
+            if(!(return_value_epoll_ctl_2 == 0))
               mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)3078, "Failed to remove listen FD from epoll set\n");
 
             daemon->listen_socket_in_epoll = 0;
@@ -6809,31 +6809,31 @@ extern void MHD_resume_connection(struct MHD_Connection *connection)
   if(!((MHD_USE_SUSPEND_RESUME & (signed int)daemon->options) == MHD_USE_SUSPEND_RESUME))
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1746, "Cannot resume connections without enabling MHD_USE_SUSPEND_RESUME!\n");
 
-  signed int return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1749, "Failed to acquire cleanup mutex\n");
 
   }
 
   connection->resuming = 1;
   daemon->resuming = 1;
-  signed long int return_value_write$2;
+  signed long int return_value_write_2;
   if(!(daemon->wpipe[1l] == -1))
   {
-    return_value_write$2=write(daemon->wpipe[(signed long int)1], (const void *)"r", (unsigned long int)1);
-    if(!(return_value_write$2 == 1l))
+    return_value_write_2=write(daemon->wpipe[(signed long int)1], (const void *)"r", (unsigned long int)1);
+    if(!(return_value_write_2 == 1l))
       MHD_DLOG(daemon, "failed to signal resume via pipe");
 
   }
 
-  signed int return_value_pthread_mutex_unlock$3;
+  signed int return_value_pthread_mutex_unlock_3;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$3 == 0))
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_3 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1762, "Failed to release cleanup mutex\n");
 
   }
@@ -6844,19 +6844,19 @@ extern void MHD_resume_connection(struct MHD_Connection *connection)
 // file daemon.c line 2904
 extern signed int MHD_run(struct MHD_Daemon *daemon)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(daemon->shutdown == 1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = 0 != ((signed int)daemon->options & MHD_USE_THREAD_PER_CONNECTION) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = 0 != ((signed int)daemon->options & MHD_USE_THREAD_PER_CONNECTION) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = 0 != ((signed int)daemon->options & MHD_USE_SELECT_INTERNALLY) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = 0 != ((signed int)daemon->options & MHD_USE_SELECT_INTERNALLY) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -6882,7 +6882,7 @@ extern signed int MHD_run(struct MHD_Daemon *daemon)
 
 // MHD_run_from_select
 // file daemon.c line 2215
-extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct anonymous$3 *read_fd_set, const struct anonymous$3 *write_fd_set, const struct anonymous$3 *except_fd_set)
+extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct anonymous_3 *read_fd_set, const struct anonymous_3 *write_fd_set, const struct anonymous_3 *except_fd_set)
 {
   signed int ds;
   char tmp;
@@ -6892,7 +6892,7 @@ extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct an
   if((mask & (unsigned int)daemon->options) == 9216u)
     resume_suspended_connections(daemon);
 
-  signed int return_value_MHD_run$1;
+  signed int return_value_MHD_run_1;
   if(!((MHD_USE_EPOLL_LINUX_ONLY & (signed int)daemon->options) == 0))
   {
     if(daemon->epoll_fd >= 1024)
@@ -6900,8 +6900,8 @@ extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct an
 
     if(!((read_fd_set->fds_bits[(signed long int)(daemon->epoll_fd / 8)] & (signed long int)(1UL << daemon->epoll_fd % 8)) == 0l))
     {
-      return_value_MHD_run$1=MHD_run(daemon);
-      return return_value_MHD_run$1;
+      return_value_MHD_run_1=MHD_run(daemon);
+      return return_value_MHD_run_1;
     }
 
     return 1;
@@ -6922,7 +6922,7 @@ extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct an
 
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0)
   {
     next = daemon->connections_head;
@@ -6940,11 +6940,11 @@ extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct an
           case MHD_EVENT_LOOP_INFO_READ:
           {
             if(!((read_fd_set->fds_bits[(signed long int)(ds / 8)] & (signed long int)(1UL << ds % 8)) == 0l))
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = 1 == pos->tls_read_ready ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = 1 == pos->tls_read_ready ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               pos->read_handler(pos);
 
             goto __CPROVER_DUMP_L16;
@@ -6995,19 +6995,19 @@ extern signed int MHD_run_from_select(struct MHD_Daemon *daemon, const struct an
 static signed int MHD_select(struct MHD_Daemon *daemon, signed int may_block)
 {
   signed int num_ready;
-  struct anonymous$3 rs;
-  struct anonymous$3 ws;
-  struct anonymous$3 es;
+  struct anonymous_3 rs;
+  struct anonymous_3 ws;
+  struct anonymous_3 es;
   signed int max;
   struct timeval timeout;
   struct timeval *tv;
   unsigned long long int ltimeout;
   timeout.tv_sec = (signed long int)0;
   timeout.tv_usec = (signed long int)0;
-  signed int return_value_resume_suspended_connections$1;
-  signed int return_value_add_to_fd_set$3;
-  signed int return_value_add_to_fd_set$4;
-  signed int return_value_MHD_get_timeout$5;
+  signed int return_value_resume_suspended_connections_1;
+  signed int return_value_add_to_fd_set_3;
+  signed int return_value_add_to_fd_set_4;
+  signed int return_value_MHD_get_timeout_5;
   if(daemon->shutdown == 1)
     return 0;
 
@@ -7015,23 +7015,23 @@ static signed int MHD_select(struct MHD_Daemon *daemon, signed int may_block)
   {
     do
     {
-      signed int MHD_select$$1$$1$$__d0;
-      signed int MHD_select$$1$$1$$__d1;
-      asm("cld; rep; stosq" : "=c"(MHD_select$$1$$1$$__d0), "=D"(MHD_select$$1$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rs)->fds_bits[(signed long int)0]) : "memory");
+      signed int MHD_select__1__1____d0;
+      signed int MHD_select__1__1____d1;
+      asm("cld; rep; stosq" : "=c"(MHD_select__1__1____d0), "=D"(MHD_select__1__1____d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rs)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ws)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&ws)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int MHD_select$$1$$3$$__d0;
-      signed int MHD_select$$1$$3$$__d1;
-      asm("cld; rep; stosq" : "=c"(MHD_select$$1$$3$$__d0), "=D"(MHD_select$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&es)->fds_bits[(signed long int)0]) : "memory");
+      signed int MHD_select__1__3____d0;
+      signed int MHD_select__1__3____d1;
+      asm("cld; rep; stosq" : "=c"(MHD_select__1__3____d0), "=D"(MHD_select__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&es)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     max = -1;
@@ -7039,15 +7039,15 @@ static signed int MHD_select(struct MHD_Daemon *daemon, signed int may_block)
     {
       if((MHD_USE_SUSPEND_RESUME & (signed int)daemon->options) == MHD_USE_SUSPEND_RESUME)
       {
-        return_value_resume_suspended_connections$1=resume_suspended_connections(daemon);
-        if(return_value_resume_suspended_connections$1 == 1)
+        return_value_resume_suspended_connections_1=resume_suspended_connections(daemon);
+        if(return_value_resume_suspended_connections_1 == 1)
           may_block = 0;
 
       }
 
-      signed int return_value_MHD_get_fdset2$2;
-      return_value_MHD_get_fdset2$2=MHD_get_fdset2(daemon, &rs, &ws, &es, &max, (unsigned int)1024);
-      if(return_value_MHD_get_fdset2$2 == 0)
+      signed int return_value_MHD_get_fdset2_2;
+      return_value_MHD_get_fdset2_2=MHD_get_fdset2(daemon, &rs, &ws, &es, &max, (unsigned int)1024);
+      if(return_value_MHD_get_fdset2_2 == 0)
         return 0;
 
       if(!(daemon->socket_fd == -1))
@@ -7066,16 +7066,16 @@ static signed int MHD_select(struct MHD_Daemon *daemon, signed int may_block)
     else
       if(!(daemon->socket_fd == -1))
       {
-        return_value_add_to_fd_set$3=add_to_fd_set(daemon->socket_fd, &rs, &max, (unsigned int)1024);
-        if(!(return_value_add_to_fd_set$3 == 1))
+        return_value_add_to_fd_set_3=add_to_fd_set(daemon->socket_fd, &rs, &max, (unsigned int)1024);
+        if(!(return_value_add_to_fd_set_3 == 1))
           return 0;
 
       }
 
     if(!(daemon->wpipe[0l] == -1))
     {
-      return_value_add_to_fd_set$4=add_to_fd_set(daemon->wpipe[(signed long int)0], &rs, &max, (unsigned int)1024);
-      if(return_value_add_to_fd_set$4 == 1)
+      return_value_add_to_fd_set_4=add_to_fd_set(daemon->wpipe[(signed long int)0], &rs, &max, (unsigned int)1024);
+      if(return_value_add_to_fd_set_4 == 1)
         goto __CPROVER_DUMP_L10;
 
       return 0;
@@ -7097,8 +7097,8 @@ static signed int MHD_select(struct MHD_Daemon *daemon, signed int may_block)
       else
         if((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0)
         {
-          return_value_MHD_get_timeout$5=MHD_get_timeout(daemon, &ltimeout);
-          if(return_value_MHD_get_timeout$5 == 1)
+          return_value_MHD_get_timeout_5=MHD_get_timeout(daemon, &ltimeout);
+          if(return_value_MHD_get_timeout_5 == 1)
           {
             timeout.tv_usec = (signed long int)((ltimeout % (unsigned long int)1000) * (unsigned long int)1000);
             if(ltimeout / 1000ul >= 9223372036854775808ul)
@@ -7119,22 +7119,22 @@ static signed int MHD_select(struct MHD_Daemon *daemon, signed int may_block)
       {
         if(!(num_ready >= 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(*return_value___errno_location$6 == 4)
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(*return_value___errno_location_6 == 4)
             return 1;
 
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          MHD_DLOG(daemon, "select failed: %s\n", return_value_strerror$8);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          MHD_DLOG(daemon, "select failed: %s\n", return_value_strerror_8);
           return 0;
         }
 
-        signed int return_value_MHD_run_from_select$9;
-        return_value_MHD_run_from_select$9=MHD_run_from_select(daemon, &rs, &ws, &es);
-        return return_value_MHD_run_from_select$9;
+        signed int return_value_MHD_run_from_select_9;
+        return_value_MHD_run_from_select_9=MHD_run_from_select(daemon, &rs, &ws, &es);
+        return return_value_MHD_run_from_select_9;
       }
     }
   }
@@ -7167,14 +7167,14 @@ extern signed int MHD_set_connection_option(struct MHD_Connection *connection, e
 {
   __builtin_va_list ap;
   struct MHD_Daemon *daemon = connection->daemon;
-  signed int return_value_pthread_mutex_lock$1;
-  signed int return_value_pthread_mutex_unlock$2;
+  signed int return_value_pthread_mutex_lock_1;
+  signed int return_value_pthread_mutex_unlock_2;
   if((signed int)option == MHD_CONNECTION_OPTION_TIMEOUT)
   {
     if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
     {
-      return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-      if(!(return_value_pthread_mutex_lock$1 == 0))
+      return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+      if(!(return_value_pthread_mutex_lock_1 == 0))
         mhd_panic(mhd_panic_cls, "connection.c", (unsigned int)2848, "Failed to acquire cleanup mutex\n");
 
     }
@@ -7254,8 +7254,8 @@ extern signed int MHD_set_connection_option(struct MHD_Connection *connection, e
 
     if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
     {
-      return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-      if(!(return_value_pthread_mutex_unlock$2 == 0))
+      return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+      if(!(return_value_pthread_mutex_unlock_2 == 0))
         mhd_panic(mhd_panic_cls, "connection.c", (unsigned int)2876, "Failed to release cleanup mutex\n");
 
     }
@@ -7271,9 +7271,9 @@ extern signed int MHD_set_connection_option(struct MHD_Connection *connection, e
 extern signed int MHD_set_connection_value(struct MHD_Connection *connection, enum MHD_ValueKind kind, const char *key, const char *value)
 {
   struct MHD_HTTP_Header *pos;
-  void *return_value_MHD_pool_allocate$1;
-  return_value_MHD_pool_allocate$1=MHD_pool_allocate(connection->pool, sizeof(struct MHD_HTTP_Header) /*32ul*/ , 1);
-  pos = (struct MHD_HTTP_Header *)return_value_MHD_pool_allocate$1;
+  void *return_value_MHD_pool_allocate_1;
+  return_value_MHD_pool_allocate_1=MHD_pool_allocate(connection->pool, sizeof(struct MHD_HTTP_Header) /*32ul*/ , 1);
+  pos = (struct MHD_HTTP_Header *)return_value_MHD_pool_allocate_1;
   if(pos == ((struct MHD_HTTP_Header *)NULL))
     return 0;
 
@@ -7372,46 +7372,46 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
   unsigned int i;
   signed int res_thread_create;
   signed int use_pipe;
-  signed int return_value_pipe$4;
-  _Bool tmp_if_expr$44;
-  _Bool tmp_if_expr$27;
-  signed int *return_value___errno_location$26;
-  _Bool tmp_if_expr$36;
-  signed int *return_value___errno_location$35;
-  _Bool tmp_if_expr$42;
-  signed int *return_value___errno_location$41;
-  _Bool tmp_if_expr$47;
-  signed int *return_value___errno_location$46;
-  signed int return_value_pthread_mutex_init$52;
-  signed int return_value_close$49;
-  _Bool tmp_if_expr$51;
-  signed int *return_value___errno_location$50;
-  signed int return_value_pthread_mutex_init$57;
-  signed int return_value_close$54;
-  _Bool tmp_if_expr$56;
-  signed int *return_value___errno_location$55;
-  signed int return_value_MHD_TLS_init$63;
-  signed int return_value_close$58;
-  _Bool tmp_if_expr$60;
-  signed int *return_value___errno_location$59;
-  _Bool tmp_if_expr$71;
-  _Bool tmp_if_expr$70;
-  signed int return_value_close$67;
-  _Bool tmp_if_expr$69;
-  signed int *return_value___errno_location$68;
-  signed int return_value_pipe$76;
-  signed int return_value_setup_epoll_to_listen$79;
-  signed int return_value_close$83;
-  _Bool tmp_if_expr$85;
-  signed int *return_value___errno_location$84;
+  signed int return_value_pipe_4;
+  _Bool tmp_if_expr_44;
+  _Bool tmp_if_expr_27;
+  signed int *return_value___errno_location_26;
+  _Bool tmp_if_expr_36;
+  signed int *return_value___errno_location_35;
+  _Bool tmp_if_expr_42;
+  signed int *return_value___errno_location_41;
+  _Bool tmp_if_expr_47;
+  signed int *return_value___errno_location_46;
+  signed int return_value_pthread_mutex_init_52;
+  signed int return_value_close_49;
+  _Bool tmp_if_expr_51;
+  signed int *return_value___errno_location_50;
+  signed int return_value_pthread_mutex_init_57;
+  signed int return_value_close_54;
+  _Bool tmp_if_expr_56;
+  signed int *return_value___errno_location_55;
+  signed int return_value_MHD_TLS_init_63;
+  signed int return_value_close_58;
+  _Bool tmp_if_expr_60;
+  signed int *return_value___errno_location_59;
+  _Bool tmp_if_expr_71;
+  _Bool tmp_if_expr_70;
+  signed int return_value_close_67;
+  _Bool tmp_if_expr_69;
+  signed int *return_value___errno_location_68;
+  signed int return_value_pipe_76;
+  signed int return_value_setup_epoll_to_listen_79;
+  signed int return_value_close_83;
+  _Bool tmp_if_expr_85;
+  signed int *return_value___errno_location_84;
   if(dh == ((signed int (*)(void *, struct MHD_Connection *, const char *, const char *, const char *, const char *, unsigned long int *, void **))NULL))
     return (struct MHD_Daemon *)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct MHD_Daemon) /*568ul*/ );
-    daemon = (struct MHD_Daemon *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct MHD_Daemon) /*568ul*/ );
+    daemon = (struct MHD_Daemon *)return_value_malloc_1;
     if(daemon == ((struct MHD_Daemon *)NULL))
       return (struct MHD_Daemon *)(void *)0;
 
@@ -7446,14 +7446,14 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
 
       if(!(use_pipe == 0))
       {
-        return_value_pipe$4=pipe(daemon->wpipe);
-        if(!(return_value_pipe$4 == 0))
+        return_value_pipe_4=pipe(daemon->wpipe);
+        if(!(return_value_pipe_4 == 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          MHD_DLOG(daemon, "Failed to create control pipe: %s\n", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          MHD_DLOG(daemon, "Failed to create control pipe: %s\n", return_value_strerror_3);
           free((void *)daemon);
           return (struct MHD_Daemon *)(void *)0;
         }
@@ -7465,14 +7465,14 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
         if(daemon->wpipe[0l] >= 1024)
         {
           MHD_DLOG(daemon, "file descriptor for control pipe exceeds maximum value\n");
-          signed int return_value_close$5;
-          return_value_close$5=close(daemon->wpipe[(signed long int)0]);
-          if(!(return_value_close$5 == 0))
+          signed int return_value_close_5;
+          return_value_close_5=close(daemon->wpipe[(signed long int)0]);
+          if(!(return_value_close_5 == 0))
             mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)3722, "close failed\n");
 
-          signed int return_value_close$6;
-          return_value_close$6=close(daemon->wpipe[(signed long int)1]);
-          if(!(return_value_close$6 == 0))
+          signed int return_value_close_6;
+          return_value_close_6=close(daemon->wpipe[(signed long int)1]);
+          if(!(return_value_close_6 == 0))
             mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)3724, "close failed\n");
 
           free((void *)daemon);
@@ -7485,11 +7485,11 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
       daemon->digest_auth_random = (const char *)(void *)0;
       daemon->nonce_nc_size = (unsigned int)4;
       if(!((2u & flags) == 0u))
-        daemon->cred_type = (enum anonymous$0)GNUTLS_CRD_CERTIFICATE;
+        daemon->cred_type = (enum anonymous_0)GNUTLS_CRD_CERTIFICATE;
 
-      signed int return_value_parse_options_va$7;
-      return_value_parse_options_va$7=parse_options_va(daemon, &servaddr, ap);
-      if(!(return_value_parse_options_va$7 == 1))
+      signed int return_value_parse_options_va_7;
+      return_value_parse_options_va_7=parse_options_va(daemon, &servaddr, ap);
+      if(!(return_value_parse_options_va_7 == 1))
       {
         if(!((2u & flags) == 0u))
         {
@@ -7516,16 +7516,16 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
             return (struct MHD_Daemon *)(void *)0;
           }
 
-          void *return_value_malloc$8;
-          return_value_malloc$8=malloc((unsigned long int)daemon->nonce_nc_size * sizeof(struct MHD_NonceNc) /*144ul*/ );
-          daemon->nnc = (struct MHD_NonceNc *)return_value_malloc$8;
+          void *return_value_malloc_8;
+          return_value_malloc_8=malloc((unsigned long int)daemon->nonce_nc_size * sizeof(struct MHD_NonceNc) /*144ul*/ );
+          daemon->nnc = (struct MHD_NonceNc *)return_value_malloc_8;
           if(daemon->nnc == ((struct MHD_NonceNc *)NULL))
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            char *return_value_strerror$10;
-            return_value_strerror$10=strerror(*return_value___errno_location$9);
-            MHD_DLOG(daemon, "Failed to allocate memory for nonce-nc map: %s\n", return_value_strerror$10);
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            char *return_value_strerror_10;
+            return_value_strerror_10=strerror(*return_value___errno_location_9);
+            MHD_DLOG(daemon, "Failed to allocate memory for nonce-nc map: %s\n", return_value_strerror_10);
             if(!((2u & flags) == 0u))
               gnutls_priority_deinit(daemon->priority_cache);
 
@@ -7535,9 +7535,9 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
 
         }
 
-        signed int return_value_pthread_mutex_init$11;
-        return_value_pthread_mutex_init$11=pthread_mutex_init(&daemon->nnc_lock, (const union anonymous$4 *)(void *)0);
-        if(!(return_value_pthread_mutex_init$11 == 0))
+        signed int return_value_pthread_mutex_init_11;
+        return_value_pthread_mutex_init_11=pthread_mutex_init(&daemon->nnc_lock, (const union anonymous_4 *)(void *)0);
+        if(!(return_value_pthread_mutex_init_11 == 0))
         {
           MHD_DLOG(daemon, "MHD failed to initialize nonce-nc mutex\n");
           if(!((2u & flags) == 0u))
@@ -7569,11 +7569,11 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
             else
             {
               if(daemon->socket_fd == -1)
-                tmp_if_expr$44 = 0 == ((signed int)daemon->options & MHD_USE_NO_LISTEN_SOCKET) ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_44 = 0 == ((signed int)daemon->options & MHD_USE_NO_LISTEN_SOCKET) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$44 = (_Bool)0;
-              if(tmp_if_expr$44)
+                tmp_if_expr_44 = (_Bool)0;
+              if(tmp_if_expr_44)
               {
                 if(!((16u & flags) == 0u))
                   socket_fd=create_socket(daemon, 10, 1, 0);
@@ -7582,25 +7582,25 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                   socket_fd=create_socket(daemon, 2, 1, 0);
                 if(socket_fd == -1)
                 {
-                  signed int *return_value___errno_location$12;
-                  return_value___errno_location$12=__errno_location();
-                  char *return_value_strerror$13;
-                  return_value_strerror$13=strerror(*return_value___errno_location$12);
-                  MHD_DLOG(daemon, "Call to socket failed: %s\n", return_value_strerror$13);
+                  signed int *return_value___errno_location_12;
+                  return_value___errno_location_12=__errno_location();
+                  char *return_value_strerror_13;
+                  return_value_strerror_13=strerror(*return_value___errno_location_12);
+                  MHD_DLOG(daemon, "Call to socket failed: %s\n", return_value_strerror_13);
                   goto free_and_fail;
                 }
 
                 if(daemon->listening_address_reuse == 0)
                 {
-                  signed int return_value_setsockopt$16;
-                  return_value_setsockopt$16=setsockopt(socket_fd, 1, 2, (void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
-                  if(!(return_value_setsockopt$16 >= 0))
+                  signed int return_value_setsockopt_16;
+                  return_value_setsockopt_16=setsockopt(socket_fd, 1, 2, (void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
+                  if(!(return_value_setsockopt_16 >= 0))
                   {
-                    signed int *return_value___errno_location$14;
-                    return_value___errno_location$14=__errno_location();
-                    char *return_value_strerror$15;
-                    return_value_strerror$15=strerror(*return_value___errno_location$14);
-                    MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror$15);
+                    signed int *return_value___errno_location_14;
+                    return_value___errno_location_14=__errno_location();
+                    char *return_value_strerror_15;
+                    return_value_strerror_15=strerror(*return_value___errno_location_14);
+                    MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror_15);
                   }
 
                 }
@@ -7608,15 +7608,15 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                 else
                   if(daemon->listening_address_reuse >= 1)
                   {
-                    signed int return_value_setsockopt$19;
-                    return_value_setsockopt$19=setsockopt(socket_fd, 1, 15, (void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
-                    if(!(return_value_setsockopt$19 >= 0))
+                    signed int return_value_setsockopt_19;
+                    return_value_setsockopt_19=setsockopt(socket_fd, 1, 15, (void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
+                    if(!(return_value_setsockopt_19 >= 0))
                     {
-                      signed int *return_value___errno_location$17;
-                      return_value___errno_location$17=__errno_location();
-                      char *return_value_strerror$18;
-                      return_value_strerror$18=strerror(*return_value___errno_location$17);
-                      MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror$18);
+                      signed int *return_value___errno_location_17;
+                      return_value___errno_location_17=__errno_location();
+                      char *return_value_strerror_18;
+                      return_value_strerror_18=strerror(*return_value___errno_location_17);
+                      MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror_18);
                       goto free_and_fail;
                     }
 
@@ -7650,39 +7650,39 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                 if(!((16u & flags) == 0u))
                 {
                   const signed int v6_only = (const signed int)((unsigned int)MHD_USE_DUAL_STACK != (flags & (unsigned int)MHD_USE_DUAL_STACK));
-                  signed int return_value_setsockopt$22;
-                  return_value_setsockopt$22=setsockopt(socket_fd, 41, 26, (const void *)&v6_only, (unsigned int)sizeof(const signed int) /*4ul*/ );
-                  if(!(return_value_setsockopt$22 >= 0))
+                  signed int return_value_setsockopt_22;
+                  return_value_setsockopt_22=setsockopt(socket_fd, 41, 26, (const void *)&v6_only, (unsigned int)sizeof(const signed int) /*4ul*/ );
+                  if(!(return_value_setsockopt_22 >= 0))
                   {
-                    signed int *return_value___errno_location$20;
-                    return_value___errno_location$20=__errno_location();
-                    char *return_value_strerror$21;
-                    return_value_strerror$21=strerror(*return_value___errno_location$20);
-                    MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror$21);
+                    signed int *return_value___errno_location_20;
+                    return_value___errno_location_20=__errno_location();
+                    char *return_value_strerror_21;
+                    return_value_strerror_21=strerror(*return_value___errno_location_20);
+                    MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror_21);
                   }
 
                 }
 
-                signed int return_value_bind$28;
-                return_value_bind$28=bind(socket_fd, servaddr, addrlen);
-                if(return_value_bind$28 == -1)
+                signed int return_value_bind_28;
+                return_value_bind_28=bind(socket_fd, servaddr, addrlen);
+                if(return_value_bind_28 == -1)
                 {
-                  signed int *return_value___errno_location$23;
-                  return_value___errno_location$23=__errno_location();
-                  char *return_value_strerror$24;
-                  return_value_strerror$24=strerror(*return_value___errno_location$23);
-                  MHD_DLOG(daemon, "Failed to bind to port %u: %s\n", (unsigned int)port, return_value_strerror$24);
-                  signed int return_value_close$25;
-                  return_value_close$25=close(socket_fd);
-                  if(!(return_value_close$25 == 0))
+                  signed int *return_value___errno_location_23;
+                  return_value___errno_location_23=__errno_location();
+                  char *return_value_strerror_24;
+                  return_value_strerror_24=strerror(*return_value___errno_location_23);
+                  MHD_DLOG(daemon, "Failed to bind to port %u: %s\n", (unsigned int)port, return_value_strerror_24);
+                  signed int return_value_close_25;
+                  return_value_close_25=close(socket_fd);
+                  if(!(return_value_close_25 == 0))
                   {
-                    return_value___errno_location$26=__errno_location();
-                    tmp_if_expr$27 = 9 == *return_value___errno_location$26 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_26=__errno_location();
+                    tmp_if_expr_27 = 9 == *return_value___errno_location_26 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$27 = (_Bool)0;
-                  if(tmp_if_expr$27)
+                    tmp_if_expr_27 = (_Bool)0;
+                  if(tmp_if_expr_27)
                     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4024, "close failed\n");
 
                   goto free_and_fail;
@@ -7693,15 +7693,15 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                   if(daemon->fastopen_queue_size == 0u)
                     daemon->fastopen_queue_size = (unsigned int)10;
 
-                  signed int return_value_setsockopt$31;
-                  return_value_setsockopt$31=setsockopt(socket_fd, 6, 23, (const void *)&daemon->fastopen_queue_size, (unsigned int)sizeof(unsigned int) /*4ul*/ );
-                  if(!(return_value_setsockopt$31 == 0))
+                  signed int return_value_setsockopt_31;
+                  return_value_setsockopt_31=setsockopt(socket_fd, 6, 23, (const void *)&daemon->fastopen_queue_size, (unsigned int)sizeof(unsigned int) /*4ul*/ );
+                  if(!(return_value_setsockopt_31 == 0))
                   {
-                    signed int *return_value___errno_location$29;
-                    return_value___errno_location$29=__errno_location();
-                    char *return_value_strerror$30;
-                    return_value_strerror$30=strerror(*return_value___errno_location$29);
-                    MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror$30);
+                    signed int *return_value___errno_location_29;
+                    return_value___errno_location_29=__errno_location();
+                    char *return_value_strerror_30;
+                    return_value_strerror_30=strerror(*return_value___errno_location_29);
+                    MHD_DLOG(daemon, "setsockopt failed: %s\n", return_value_strerror_30);
                   }
 
                 }
@@ -7710,26 +7710,26 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                 {
                   signed int sk_flags;
                   sk_flags=fcntl(socket_fd, 3);
-                  signed int return_value_fcntl$37;
-                  return_value_fcntl$37=fcntl(socket_fd, 4, sk_flags | 04000);
-                  if(!(return_value_fcntl$37 == 0))
+                  signed int return_value_fcntl_37;
+                  return_value_fcntl_37=fcntl(socket_fd, 4, sk_flags | 04000);
+                  if(!(return_value_fcntl_37 == 0))
                   {
-                    signed int *return_value___errno_location$32;
-                    return_value___errno_location$32=__errno_location();
-                    char *return_value_strerror$33;
-                    return_value_strerror$33=strerror(*return_value___errno_location$32);
-                    MHD_DLOG(daemon, "Failed to make listen socket non-blocking: %s\n", return_value_strerror$33);
-                    signed int return_value_close$34;
-                    return_value_close$34=close(socket_fd);
-                    if(!(return_value_close$34 == 0))
+                    signed int *return_value___errno_location_32;
+                    return_value___errno_location_32=__errno_location();
+                    char *return_value_strerror_33;
+                    return_value_strerror_33=strerror(*return_value___errno_location_32);
+                    MHD_DLOG(daemon, "Failed to make listen socket non-blocking: %s\n", return_value_strerror_33);
+                    signed int return_value_close_34;
+                    return_value_close_34=close(socket_fd);
+                    if(!(return_value_close_34 == 0))
                     {
-                      return_value___errno_location$35=__errno_location();
-                      tmp_if_expr$36 = 9 == *return_value___errno_location$35 ? (_Bool)1 : (_Bool)0;
+                      return_value___errno_location_35=__errno_location();
+                      tmp_if_expr_36 = 9 == *return_value___errno_location_35 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$36 = (_Bool)0;
-                    if(tmp_if_expr$36)
+                      tmp_if_expr_36 = (_Bool)0;
+                    if(tmp_if_expr_36)
                       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4057, "close failed\n");
 
                     goto free_and_fail;
@@ -7737,26 +7737,26 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
 
                 }
 
-                signed int return_value_listen$43;
-                return_value_listen$43=listen(socket_fd, 32);
-                if(!(return_value_listen$43 >= 0))
+                signed int return_value_listen_43;
+                return_value_listen_43=listen(socket_fd, 32);
+                if(!(return_value_listen_43 >= 0))
                 {
-                  signed int *return_value___errno_location$38;
-                  return_value___errno_location$38=__errno_location();
-                  char *return_value_strerror$39;
-                  return_value_strerror$39=strerror(*return_value___errno_location$38);
-                  MHD_DLOG(daemon, "Failed to listen for connections: %s\n", return_value_strerror$39);
-                  signed int return_value_close$40;
-                  return_value_close$40=close(socket_fd);
-                  if(!(return_value_close$40 == 0))
+                  signed int *return_value___errno_location_38;
+                  return_value___errno_location_38=__errno_location();
+                  char *return_value_strerror_39;
+                  return_value_strerror_39=strerror(*return_value___errno_location_38);
+                  MHD_DLOG(daemon, "Failed to listen for connections: %s\n", return_value_strerror_39);
+                  signed int return_value_close_40;
+                  return_value_close_40=close(socket_fd);
+                  if(!(return_value_close_40 == 0))
                   {
-                    return_value___errno_location$41=__errno_location();
-                    tmp_if_expr$42 = 9 == *return_value___errno_location$41 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_41=__errno_location();
+                    tmp_if_expr_42 = 9 == *return_value___errno_location_41 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$42 = (_Bool)0;
-                  if(tmp_if_expr$42)
+                    tmp_if_expr_42 = (_Bool)0;
+                  if(tmp_if_expr_42)
                     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4070, "close failed\n");
 
                   goto free_and_fail;
@@ -7769,17 +7769,17 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
               if((576u & flags) == 0u && socket_fd >= 1024)
               {
                 MHD_DLOG(daemon, "Socket descriptor larger than FD_SETSIZE: %d > %d\n", socket_fd, 1024);
-                signed int return_value_close$45;
-                return_value_close$45=close(socket_fd);
-                if(!(return_value_close$45 == 0))
+                signed int return_value_close_45;
+                return_value_close_45=close(socket_fd);
+                if(!(return_value_close_45 == 0))
                 {
-                  return_value___errno_location$46=__errno_location();
-                  tmp_if_expr$47 = 9 == *return_value___errno_location$46 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_46=__errno_location();
+                  tmp_if_expr_47 = 9 == *return_value___errno_location_46 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$47 = (_Bool)0;
-                if(tmp_if_expr$47)
+                  tmp_if_expr_47 = (_Bool)0;
+                if(tmp_if_expr_47)
                   mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4089, "close failed\n");
 
                 goto free_and_fail;
@@ -7797,9 +7797,9 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                       goto free_and_fail;
                     }
 
-                    signed int return_value_setup_epoll_to_listen$48;
-                    return_value_setup_epoll_to_listen$48=setup_epoll_to_listen(daemon);
-                    if(!(return_value_setup_epoll_to_listen$48 == 1))
+                    signed int return_value_setup_epoll_to_listen_48;
+                    return_value_setup_epoll_to_listen_48=setup_epoll_to_listen(daemon);
+                    if(!(return_value_setup_epoll_to_listen_48 == 1))
                       goto free_and_fail;
 
                   }
@@ -7808,22 +7808,22 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
 
               }
 
-              return_value_pthread_mutex_init$52=pthread_mutex_init(&daemon->per_ip_connection_mutex, (const union anonymous$4 *)(void *)0);
-              if(!(return_value_pthread_mutex_init$52 == 0))
+              return_value_pthread_mutex_init_52=pthread_mutex_init(&daemon->per_ip_connection_mutex, (const union anonymous_4 *)(void *)0);
+              if(!(return_value_pthread_mutex_init_52 == 0))
               {
                 MHD_DLOG(daemon, "MHD failed to initialize IP connection limit mutex\n");
                 if(!(socket_fd == -1))
                 {
-                  return_value_close$49=close(socket_fd);
-                  if(!(return_value_close$49 == 0))
+                  return_value_close_49=close(socket_fd);
+                  if(!(return_value_close_49 == 0))
                   {
-                    return_value___errno_location$50=__errno_location();
-                    tmp_if_expr$51 = 9 == *return_value___errno_location$50 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_50=__errno_location();
+                    tmp_if_expr_51 = 9 == *return_value___errno_location_50 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$51 = (_Bool)0;
-                  if(tmp_if_expr$51)
+                    tmp_if_expr_51 = (_Bool)0;
+                  if(tmp_if_expr_51)
                     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4129, "close failed\n");
 
                 }
@@ -7831,25 +7831,25 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                 goto free_and_fail;
               }
 
-              return_value_pthread_mutex_init$57=pthread_mutex_init(&daemon->cleanup_connection_mutex, (const union anonymous$4 *)(void *)0);
-              if(!(return_value_pthread_mutex_init$57 == 0))
+              return_value_pthread_mutex_init_57=pthread_mutex_init(&daemon->cleanup_connection_mutex, (const union anonymous_4 *)(void *)0);
+              if(!(return_value_pthread_mutex_init_57 == 0))
               {
                 MHD_DLOG(daemon, "MHD failed to initialize IP connection limit mutex\n");
-                signed int return_value_pthread_mutex_destroy$53;
-                return_value_pthread_mutex_destroy$53=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
-                (void)(0 == return_value_pthread_mutex_destroy$53 ? 1 : 0);
+                signed int return_value_pthread_mutex_destroy_53;
+                return_value_pthread_mutex_destroy_53=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
+                (void)(0 == return_value_pthread_mutex_destroy_53 ? 1 : 0);
                 if(!(socket_fd == -1))
                 {
-                  return_value_close$54=close(socket_fd);
-                  if(!(return_value_close$54 == 0))
+                  return_value_close_54=close(socket_fd);
+                  if(!(return_value_close_54 == 0))
                   {
-                    return_value___errno_location$55=__errno_location();
-                    tmp_if_expr$56 = 9 == *return_value___errno_location$55 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_55=__errno_location();
+                    tmp_if_expr_56 = 9 == *return_value___errno_location_55 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$56 = (_Bool)0;
-                  if(tmp_if_expr$56)
+                    tmp_if_expr_56 = (_Bool)0;
+                  if(tmp_if_expr_56)
                     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4141, "close failed\n");
 
                 }
@@ -7859,77 +7859,77 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
 
               if(!((2u & flags) == 0u))
               {
-                return_value_MHD_TLS_init$63=MHD_TLS_init(daemon);
-                if(!(return_value_MHD_TLS_init$63 == 0))
+                return_value_MHD_TLS_init_63=MHD_TLS_init(daemon);
+                if(!(return_value_MHD_TLS_init_63 == 0))
                 {
                   MHD_DLOG(daemon, "Failed to initialize TLS support\n");
                   if(!(socket_fd == -1))
                   {
-                    return_value_close$58=close(socket_fd);
-                    if(!(return_value_close$58 == 0))
+                    return_value_close_58=close(socket_fd);
+                    if(!(return_value_close_58 == 0))
                     {
-                      return_value___errno_location$59=__errno_location();
-                      tmp_if_expr$60 = 9 == *return_value___errno_location$59 ? (_Bool)1 : (_Bool)0;
+                      return_value___errno_location_59=__errno_location();
+                      tmp_if_expr_60 = 9 == *return_value___errno_location_59 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$60 = (_Bool)0;
-                    if(tmp_if_expr$60)
+                      tmp_if_expr_60 = (_Bool)0;
+                    if(tmp_if_expr_60)
                       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4155, "close failed\n");
 
                   }
 
-                  signed int return_value_pthread_mutex_destroy$61;
-                  return_value_pthread_mutex_destroy$61=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
-                  (void)(0 == return_value_pthread_mutex_destroy$61 ? 1 : 0);
-                  signed int return_value_pthread_mutex_destroy$62;
-                  return_value_pthread_mutex_destroy$62=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
-                  (void)(0 == return_value_pthread_mutex_destroy$62 ? 1 : 0);
+                  signed int return_value_pthread_mutex_destroy_61;
+                  return_value_pthread_mutex_destroy_61=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
+                  (void)(0 == return_value_pthread_mutex_destroy_61 ? 1 : 0);
+                  signed int return_value_pthread_mutex_destroy_62;
+                  return_value_pthread_mutex_destroy_62=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
+                  (void)(0 == return_value_pthread_mutex_destroy_62 ? 1 : 0);
                   goto free_and_fail;
                 }
 
               }
 
               if(!((4u & flags) == 0u))
-                tmp_if_expr$71 = (_Bool)1;
+                tmp_if_expr_71 = (_Bool)1;
 
               else
               {
                 if(!((8u & flags) == 0u))
-                  tmp_if_expr$70 = (unsigned int)0 == daemon->worker_pool_size ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_70 = (unsigned int)0 == daemon->worker_pool_size ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$70 = (_Bool)0;
-                tmp_if_expr$71 = tmp_if_expr$70 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_70 = (_Bool)0;
+                tmp_if_expr_71 = tmp_if_expr_70 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$71)
+              if(tmp_if_expr_71)
               {
                 if((MHD_USE_NO_LISTEN_SOCKET & (signed int)daemon->options) == 0)
                 {
                   res_thread_create=create_thread(&daemon->pid, daemon, MHD_select_thread, (void *)daemon);
                   if(!(res_thread_create == 0))
                   {
-                    char *return_value_strerror$64;
-                    return_value_strerror$64=strerror(res_thread_create);
-                    MHD_DLOG(daemon, "Failed to create listen thread: %s\n", return_value_strerror$64);
-                    signed int return_value_pthread_mutex_destroy$65;
-                    return_value_pthread_mutex_destroy$65=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
-                    (void)(0 == return_value_pthread_mutex_destroy$65 ? 1 : 0);
-                    signed int return_value_pthread_mutex_destroy$66;
-                    return_value_pthread_mutex_destroy$66=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
-                    (void)(0 == return_value_pthread_mutex_destroy$66 ? 1 : 0);
+                    char *return_value_strerror_64;
+                    return_value_strerror_64=strerror(res_thread_create);
+                    MHD_DLOG(daemon, "Failed to create listen thread: %s\n", return_value_strerror_64);
+                    signed int return_value_pthread_mutex_destroy_65;
+                    return_value_pthread_mutex_destroy_65=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
+                    (void)(0 == return_value_pthread_mutex_destroy_65 ? 1 : 0);
+                    signed int return_value_pthread_mutex_destroy_66;
+                    return_value_pthread_mutex_destroy_66=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
+                    (void)(0 == return_value_pthread_mutex_destroy_66 ? 1 : 0);
                     if(!(socket_fd == -1))
                     {
-                      return_value_close$67=close(socket_fd);
-                      if(!(return_value_close$67 == 0))
+                      return_value_close_67=close(socket_fd);
+                      if(!(return_value_close_67 == 0))
                       {
-                        return_value___errno_location$68=__errno_location();
-                        tmp_if_expr$69 = 9 == *return_value___errno_location$68 ? (_Bool)1 : (_Bool)0;
+                        return_value___errno_location_68=__errno_location();
+                        tmp_if_expr_69 = 9 == *return_value___errno_location_68 ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$69 = (_Bool)0;
-                      if(tmp_if_expr$69)
+                        tmp_if_expr_69 = (_Bool)0;
+                      if(tmp_if_expr_69)
                         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4177, "close failed\n");
 
                     }
@@ -7945,22 +7945,22 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
               {
                 if((MHD_USE_NO_LISTEN_SOCKET & (signed int)daemon->options) == 0)
                 {
-                  signed int MHD_start_daemon_va$$1$$18$$sk_flags;
+                  signed int MHD_start_daemon_va__1__18__sk_flags;
                   unsigned int conns_per_thread = daemon->connection_limit / daemon->worker_pool_size;
                   unsigned int leftover_conns = daemon->connection_limit % daemon->worker_pool_size;
                   i = (unsigned int)0;
-                  MHD_start_daemon_va$$1$$18$$sk_flags=fcntl(socket_fd, 3);
-                  if(!(MHD_start_daemon_va$$1$$18$$sk_flags >= 0))
+                  MHD_start_daemon_va__1__18__sk_flags=fcntl(socket_fd, 3);
+                  if(!(MHD_start_daemon_va__1__18__sk_flags >= 0))
                     goto thread_failed;
 
-                  signed int return_value_fcntl$72;
-                  return_value_fcntl$72=fcntl(socket_fd, 4, MHD_start_daemon_va$$1$$18$$sk_flags | 04000);
-                  if(!(return_value_fcntl$72 == 0))
+                  signed int return_value_fcntl_72;
+                  return_value_fcntl_72=fcntl(socket_fd, 4, MHD_start_daemon_va__1__18__sk_flags | 04000);
+                  if(!(return_value_fcntl_72 == 0))
                     goto thread_failed;
 
-                  void *return_value_malloc$73;
-                  return_value_malloc$73=malloc(sizeof(struct MHD_Daemon) /*568ul*/  * (unsigned long int)daemon->worker_pool_size);
-                  daemon->worker_pool = (struct MHD_Daemon *)return_value_malloc$73;
+                  void *return_value_malloc_73;
+                  return_value_malloc_73=malloc(sizeof(struct MHD_Daemon) /*568ul*/  * (unsigned long int)daemon->worker_pool_size);
+                  daemon->worker_pool = (struct MHD_Daemon *)return_value_malloc_73;
                   if(daemon->worker_pool == ((struct MHD_Daemon *)NULL))
                     goto thread_failed;
 
@@ -7974,14 +7974,14 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                     d->worker_pool = (struct MHD_Daemon *)(void *)0;
                     if((9216u & flags) == 9216u)
                     {
-                      return_value_pipe$76=pipe(d->wpipe);
-                      if(!(return_value_pipe$76 == 0))
+                      return_value_pipe_76=pipe(d->wpipe);
+                      if(!(return_value_pipe_76 == 0))
                       {
-                        signed int *return_value___errno_location$74;
-                        return_value___errno_location$74=__errno_location();
-                        char *return_value_strerror$75;
-                        return_value_strerror$75=strerror(*return_value___errno_location$74);
-                        MHD_DLOG(daemon, "Failed to create worker control pipe: %s\n", return_value_strerror$75);
+                        signed int *return_value___errno_location_74;
+                        return_value___errno_location_74=__errno_location();
+                        char *return_value_strerror_75;
+                        return_value_strerror_75=strerror(*return_value___errno_location_74);
+                        MHD_DLOG(daemon, "Failed to create worker control pipe: %s\n", return_value_strerror_75);
                         goto thread_failed;
                       }
 
@@ -7992,14 +7992,14 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                       if(d->wpipe[0l] >= 1024)
                       {
                         MHD_DLOG(daemon, "File descriptor for worker control pipe exceeds maximum value\n");
-                        signed int return_value_close$77;
-                        return_value_close$77=close(d->wpipe[(signed long int)0]);
-                        if(!(return_value_close$77 == 0))
+                        signed int return_value_close_77;
+                        return_value_close_77=close(d->wpipe[(signed long int)0]);
+                        if(!(return_value_close_77 == 0))
                           mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4254, "close failed\n");
 
-                        signed int return_value_close$78;
-                        return_value_close$78=close(d->wpipe[(signed long int)1]);
-                        if(!(return_value_close$78 == 0))
+                        signed int return_value_close_78;
+                        return_value_close_78=close(d->wpipe[(signed long int)1]);
+                        if(!(return_value_close_78 == 0))
                           mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4256, "close failed\n");
 
                         goto thread_failed;
@@ -8013,15 +8013,15 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
 
                     if(!((MHD_USE_EPOLL_LINUX_ONLY & (signed int)daemon->options) == 0))
                     {
-                      return_value_setup_epoll_to_listen$79=setup_epoll_to_listen(d);
-                      if(!(return_value_setup_epoll_to_listen$79 == 1))
+                      return_value_setup_epoll_to_listen_79=setup_epoll_to_listen(d);
+                      if(!(return_value_setup_epoll_to_listen_79 == 1))
                         goto thread_failed;
 
                     }
 
-                    signed int return_value_pthread_mutex_init$80;
-                    return_value_pthread_mutex_init$80=pthread_mutex_init(&d->cleanup_connection_mutex, (const union anonymous$4 *)(void *)0);
-                    if(!(return_value_pthread_mutex_init$80 == 0))
+                    signed int return_value_pthread_mutex_init_80;
+                    return_value_pthread_mutex_init_80=pthread_mutex_init(&d->cleanup_connection_mutex, (const union anonymous_4 *)(void *)0);
+                    if(!(return_value_pthread_mutex_init_80 == 0))
                     {
                       MHD_DLOG(daemon, "MHD failed to initialize cleanup connection mutex for thread worker %d\n", i);
                       goto thread_failed;
@@ -8030,12 +8030,12 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
                     res_thread_create=create_thread(&d->pid, daemon, MHD_select_thread, (void *)d);
                     if(!(res_thread_create == 0))
                     {
-                      char *return_value_strerror$81;
-                      return_value_strerror$81=strerror(res_thread_create);
-                      MHD_DLOG(daemon, "Failed to create pool thread: %s\n", return_value_strerror$81);
-                      signed int return_value_pthread_mutex_destroy$82;
-                      return_value_pthread_mutex_destroy$82=pthread_mutex_destroy(&d->cleanup_connection_mutex);
-                      (void)(0 == return_value_pthread_mutex_destroy$82 ? 1 : 0);
+                      char *return_value_strerror_81;
+                      return_value_strerror_81=strerror(res_thread_create);
+                      MHD_DLOG(daemon, "Failed to create pool thread: %s\n", return_value_strerror_81);
+                      signed int return_value_pthread_mutex_destroy_82;
+                      return_value_pthread_mutex_destroy_82=pthread_mutex_destroy(&d->cleanup_connection_mutex);
+                      (void)(0 == return_value_pthread_mutex_destroy_82 ? 1 : 0);
                       goto thread_failed;
                     }
 
@@ -8053,26 +8053,26 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
               {
                 if(!(socket_fd == -1))
                 {
-                  return_value_close$83=close(socket_fd);
-                  if(!(return_value_close$83 == 0))
+                  return_value_close_83=close(socket_fd);
+                  if(!(return_value_close_83 == 0))
                   {
-                    return_value___errno_location$84=__errno_location();
-                    tmp_if_expr$85 = 9 == *return_value___errno_location$84 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_84=__errno_location();
+                    tmp_if_expr_85 = 9 == *return_value___errno_location_84 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$85 = (_Bool)0;
-                  if(tmp_if_expr$85)
+                    tmp_if_expr_85 = (_Bool)0;
+                  if(tmp_if_expr_85)
                     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4315, "close failed\n");
 
                 }
 
-                signed int return_value_pthread_mutex_destroy$86;
-                return_value_pthread_mutex_destroy$86=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
-                (void)(0 == return_value_pthread_mutex_destroy$86 ? 1 : 0);
-                signed int return_value_pthread_mutex_destroy$87;
-                return_value_pthread_mutex_destroy$87=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
-                (void)(0 == return_value_pthread_mutex_destroy$87 ? 1 : 0);
+                signed int return_value_pthread_mutex_destroy_86;
+                return_value_pthread_mutex_destroy_86=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
+                (void)(0 == return_value_pthread_mutex_destroy_86 ? 1 : 0);
+                signed int return_value_pthread_mutex_destroy_87;
+                return_value_pthread_mutex_destroy_87=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
+                (void)(0 == return_value_pthread_mutex_destroy_87 ? 1 : 0);
                 if(!(daemon->worker_pool == ((struct MHD_Daemon *)NULL)))
                   free((void *)daemon->worker_pool);
 
@@ -8091,9 +8091,9 @@ extern struct MHD_Daemon * MHD_start_daemon_va(unsigned int flags, unsigned shor
             close(daemon->epoll_fd);
 
           free((void *)daemon->nnc);
-          signed int return_value_pthread_mutex_destroy$88;
-          return_value_pthread_mutex_destroy$88=pthread_mutex_destroy(&daemon->nnc_lock);
-          (void)(0 == return_value_pthread_mutex_destroy$88 ? 1 : 0);
+          signed int return_value_pthread_mutex_destroy_88;
+          return_value_pthread_mutex_destroy_88=pthread_mutex_destroy(&daemon->nnc_lock);
+          (void)(0 == return_value_pthread_mutex_destroy_88 ? 1 : 0);
           if(!((2u & flags) == 0u))
             gnutls_priority_deinit(daemon->priority_cache);
 
@@ -8111,17 +8111,17 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
 {
   signed int fd;
   unsigned int i;
-  signed int return_value_close$5;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  signed int return_value_close$13;
-  _Bool tmp_if_expr$15;
-  signed int *return_value___errno_location$14;
-  signed int return_value_close$16;
-  _Bool tmp_if_expr$18;
-  signed int *return_value___errno_location$17;
+  signed int return_value_close_5;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  signed int return_value_close_13;
+  _Bool tmp_if_expr_15;
+  signed int *return_value___errno_location_14;
+  signed int return_value_close_16;
+  _Bool tmp_if_expr_18;
+  signed int *return_value___errno_location_17;
   if(!(daemon == ((struct MHD_Daemon *)NULL)))
   {
     daemon->shutdown = 1;
@@ -8150,9 +8150,9 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
 
     if(!(daemon->wpipe[1l] == -1))
     {
-      signed long int return_value_write$1;
-      return_value_write$1=write(daemon->wpipe[(signed long int)1], (const void *)"e", (unsigned long int)1);
-      if(!(return_value_write$1 == 1l))
+      signed long int return_value_write_1;
+      return_value_write_1=write(daemon->wpipe[(signed long int)1], (const void *)"e", (unsigned long int)1);
+      if(!(return_value_write_1 == 1l))
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4497, "failed to signal shutdown via pipe");
 
     }
@@ -8183,34 +8183,34 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
       {
         if(!((daemon->worker_pool + (signed long int)i)->wpipe[1l] == -1))
         {
-          signed long int return_value_write$2;
-          return_value_write$2=write((daemon->worker_pool + (signed long int)i)->wpipe[(signed long int)1], (const void *)"e", (unsigned long int)1);
-          if(!(return_value_write$2 == 1l))
+          signed long int return_value_write_2;
+          return_value_write_2=write((daemon->worker_pool + (signed long int)i)->wpipe[(signed long int)1], (const void *)"e", (unsigned long int)1);
+          if(!(return_value_write_2 == 1l))
             mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4532, "failed to signal shutdown via pipe");
 
         }
 
-        signed int return_value_pthread_join$3;
-        return_value_pthread_join$3=pthread_join((daemon->worker_pool + (signed long int)i)->pid, (void **)(void *)0);
-        if(!(return_value_pthread_join$3 == 0))
+        signed int return_value_pthread_join_3;
+        return_value_pthread_join_3=pthread_join((daemon->worker_pool + (signed long int)i)->pid, (void **)(void *)0);
+        if(!(return_value_pthread_join_3 == 0))
           mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4535, "Failed to join a thread\n");
 
         close_all_connections(&daemon->worker_pool[(signed long int)i]);
-        signed int return_value_pthread_mutex_destroy$4;
-        return_value_pthread_mutex_destroy$4=pthread_mutex_destroy(&(daemon->worker_pool + (signed long int)i)->cleanup_connection_mutex);
-        (void)(0 == return_value_pthread_mutex_destroy$4 ? 1 : 0);
+        signed int return_value_pthread_mutex_destroy_4;
+        return_value_pthread_mutex_destroy_4=pthread_mutex_destroy(&(daemon->worker_pool + (signed long int)i)->cleanup_connection_mutex);
+        (void)(0 == return_value_pthread_mutex_destroy_4 ? 1 : 0);
         if(!((daemon->worker_pool + (signed long int)i)->epoll_fd == -1))
         {
-          return_value_close$5=close((daemon->worker_pool + (signed long int)i)->epoll_fd);
-          if(!(return_value_close$5 == 0))
+          return_value_close_5=close((daemon->worker_pool + (signed long int)i)->epoll_fd);
+          if(!(return_value_close_5 == 0))
           {
-            return_value___errno_location$6=__errno_location();
-            tmp_if_expr$7 = 9 == *return_value___errno_location$6 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_6=__errno_location();
+            tmp_if_expr_7 = 9 == *return_value___errno_location_6 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
             mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4541, "close failed\n");
 
         }
@@ -8219,14 +8219,14 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
         {
           if(!((daemon->worker_pool + (signed long int)i)->wpipe[1l] == -1))
           {
-            signed int return_value_close$8;
-            return_value_close$8=close((daemon->worker_pool + (signed long int)i)->wpipe[(signed long int)0]);
-            if(!(return_value_close$8 == 0))
+            signed int return_value_close_8;
+            return_value_close_8=close((daemon->worker_pool + (signed long int)i)->wpipe[(signed long int)0]);
+            if(!(return_value_close_8 == 0))
               mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4548, "close failed\n");
 
-            signed int return_value_close$9;
-            return_value_close$9=close((daemon->worker_pool + (signed long int)i)->wpipe[(signed long int)1]);
-            if(!(return_value_close$9 == 0))
+            signed int return_value_close_9;
+            return_value_close_9=close((daemon->worker_pool + (signed long int)i)->wpipe[(signed long int)1]);
+            if(!(return_value_close_9 == 0))
               mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4550, "close failed\n");
 
           }
@@ -8240,22 +8240,22 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
     else
     {
       if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if(!((MHD_USE_SELECT_INTERNALLY & (signed int)daemon->options) == 0))
-          tmp_if_expr$11 = (unsigned int)0 == daemon->worker_pool_size ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (unsigned int)0 == daemon->worker_pool_size ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
+      if(tmp_if_expr_12)
       {
-        signed int return_value_pthread_join$10;
-        return_value_pthread_join$10=pthread_join(daemon->pid, (void **)(void *)0);
-        if(!(return_value_pthread_join$10 == 0))
+        signed int return_value_pthread_join_10;
+        return_value_pthread_join_10=pthread_join(daemon->pid, (void **)(void *)0);
+        if(!(return_value_pthread_join_10 == 0))
           mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4565, "Failed to join a thread\n");
 
       }
@@ -8264,16 +8264,16 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
     close_all_connections(daemon);
     if(!(fd == -1))
     {
-      return_value_close$13=close(fd);
-      if(!(return_value_close$13 == 0))
+      return_value_close_13=close(fd);
+      if(!(return_value_close_13 == 0))
       {
-        return_value___errno_location$14=__errno_location();
-        tmp_if_expr$15 = 9 == *return_value___errno_location$14 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_14=__errno_location();
+        tmp_if_expr_15 = 9 == *return_value___errno_location_14 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$15 = (_Bool)0;
-      if(tmp_if_expr$15)
+        tmp_if_expr_15 = (_Bool)0;
+      if(tmp_if_expr_15)
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4572, "close failed\n");
 
     }
@@ -8296,16 +8296,16 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
     {
       if(!(daemon->epoll_fd == -1))
       {
-        return_value_close$16=close(daemon->epoll_fd);
-        if(!(return_value_close$16 == 0))
+        return_value_close_16=close(daemon->epoll_fd);
+        if(!(return_value_close_16 == 0))
         {
-          return_value___errno_location$17=__errno_location();
-          tmp_if_expr$18 = 9 == *return_value___errno_location$17 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_17=__errno_location();
+          tmp_if_expr_18 = 9 == *return_value___errno_location_17 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(tmp_if_expr$18)
+          tmp_if_expr_18 = (_Bool)0;
+        if(tmp_if_expr_18)
           mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4592, "close failed\n");
 
       }
@@ -8313,25 +8313,25 @@ extern void MHD_stop_daemon(struct MHD_Daemon *daemon)
     }
 
     free((void *)daemon->nnc);
-    signed int return_value_pthread_mutex_destroy$19;
-    return_value_pthread_mutex_destroy$19=pthread_mutex_destroy(&daemon->nnc_lock);
-    (void)(0 == return_value_pthread_mutex_destroy$19 ? 1 : 0);
-    signed int return_value_pthread_mutex_destroy$20;
-    return_value_pthread_mutex_destroy$20=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
-    (void)(0 == return_value_pthread_mutex_destroy$20 ? 1 : 0);
-    signed int return_value_pthread_mutex_destroy$21;
-    return_value_pthread_mutex_destroy$21=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
-    (void)(0 == return_value_pthread_mutex_destroy$21 ? 1 : 0);
+    signed int return_value_pthread_mutex_destroy_19;
+    return_value_pthread_mutex_destroy_19=pthread_mutex_destroy(&daemon->nnc_lock);
+    (void)(0 == return_value_pthread_mutex_destroy_19 ? 1 : 0);
+    signed int return_value_pthread_mutex_destroy_20;
+    return_value_pthread_mutex_destroy_20=pthread_mutex_destroy(&daemon->per_ip_connection_mutex);
+    (void)(0 == return_value_pthread_mutex_destroy_20 ? 1 : 0);
+    signed int return_value_pthread_mutex_destroy_21;
+    return_value_pthread_mutex_destroy_21=pthread_mutex_destroy(&daemon->cleanup_connection_mutex);
+    (void)(0 == return_value_pthread_mutex_destroy_21 ? 1 : 0);
     if(!(daemon->wpipe[1l] == -1))
     {
-      signed int return_value_close$22;
-      return_value_close$22=close(daemon->wpipe[(signed long int)0]);
-      if(!(return_value_close$22 == 0))
+      signed int return_value_close_22;
+      return_value_close_22=close(daemon->wpipe[(signed long int)0]);
+      if(!(return_value_close_22 == 0))
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4605, "close failed\n");
 
-      signed int return_value_close$23;
-      return_value_close$23=close(daemon->wpipe[(signed long int)1]);
-      if(!(return_value_close$23 == 0))
+      signed int return_value_close_23;
+      return_value_close_23=close(daemon->wpipe[(signed long int)1]);
+      if(!(return_value_close_23 == 0))
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4607, "close failed\n");
 
     }
@@ -8349,11 +8349,11 @@ extern void MHD_suspend_connection(struct MHD_Connection *connection)
   if(!((MHD_USE_SUSPEND_RESUME & (signed int)daemon->options) == MHD_USE_SUSPEND_RESUME))
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1684, "Cannot suspend connections without enabling MHD_USE_SUSPEND_RESUME!\n");
 
-  signed int return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1687, "Failed to acquire cleanup mutex\n");
 
   }
@@ -8446,9 +8446,9 @@ extern void MHD_suspend_connection(struct MHD_Connection *connection)
 
     if(!((MHD_EPOLL_STATE_IN_EPOLL_SET & (signed int)connection->epoll_state) == 0))
     {
-      signed int return_value_epoll_ctl$2;
-      return_value_epoll_ctl$2=epoll_ctl(daemon->epoll_fd, 2, connection->socket_fd, (struct epoll_event *)(void *)0);
-      if(!(return_value_epoll_ctl$2 == 0))
+      signed int return_value_epoll_ctl_2;
+      return_value_epoll_ctl_2=epoll_ctl(daemon->epoll_fd, 2, connection->socket_fd, (struct epoll_event *)(void *)0);
+      if(!(return_value_epoll_ctl_2 == 0))
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1718, "Failed to remove FD from epoll set\n");
 
       connection->epoll_state = connection->epoll_state & (enum MHD_EpollState)~MHD_EPOLL_STATE_IN_EPOLL_SET;
@@ -8458,11 +8458,11 @@ extern void MHD_suspend_connection(struct MHD_Connection *connection)
   }
 
   connection->suspended = 1;
-  signed int return_value_pthread_mutex_unlock$3;
+  signed int return_value_pthread_mutex_unlock_3;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$3 == 0))
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_3 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1727, "Failed to release cleanup mutex\n");
 
   }
@@ -8474,63 +8474,63 @@ extern void MHD_suspend_connection(struct MHD_Connection *connection)
 static signed int MHD_tls_connection_handle_idle(struct MHD_Connection *connection)
 {
   unsigned int timeout = connection->connection_timeout;
-  signed long int return_value_MHD_monotonic_sec_counter$1;
+  signed long int return_value_MHD_monotonic_sec_counter_1;
   if(!(timeout == 0u))
   {
-    return_value_MHD_monotonic_sec_counter$1=MHD_monotonic_sec_counter();
-    if(return_value_MHD_monotonic_sec_counter$1 + -connection->last_activity >= (signed long int)timeout)
+    return_value_MHD_monotonic_sec_counter_1=MHD_monotonic_sec_counter();
+    if(return_value_MHD_monotonic_sec_counter_1 + -connection->last_activity >= (signed long int)timeout)
       MHD_connection_close(connection, (enum MHD_RequestTerminationCode)MHD_REQUEST_TERMINATED_TIMEOUT_REACHED);
 
   }
 
-  signed int return_value_MHD_connection_handle_idle$2;
-  unsigned long int return_value_gnutls_record_check_pending$4;
-  signed int return_value_MHD_tls_connection_handle_read$3;
-  signed int return_value_MHD_connection_handle_idle$5;
+  signed int return_value_MHD_connection_handle_idle_2;
+  unsigned long int return_value_gnutls_record_check_pending_4;
+  signed int return_value_MHD_tls_connection_handle_read_3;
+  signed int return_value_MHD_connection_handle_idle_5;
   switch((signed int)connection->state)
   {
     case MHD_TLS_CONNECTION_INIT:
       break;
     case MHD_CONNECTION_CLOSED:
     {
-      gnutls_bye(connection->tls_session, (enum anonymous$10)GNUTLS_SHUT_RDWR);
-      return_value_MHD_connection_handle_idle$2=MHD_connection_handle_idle(connection);
-      return return_value_MHD_connection_handle_idle$2;
+      gnutls_bye(connection->tls_session, (enum anonymous_10)GNUTLS_SHUT_RDWR);
+      return_value_MHD_connection_handle_idle_2=MHD_connection_handle_idle(connection);
+      return return_value_MHD_connection_handle_idle_2;
     }
     default:
     {
-      return_value_gnutls_record_check_pending$4=gnutls_record_check_pending(connection->tls_session);
-      if(!(return_value_gnutls_record_check_pending$4 == 0ul))
+      return_value_gnutls_record_check_pending_4=gnutls_record_check_pending(connection->tls_session);
+      if(!(return_value_gnutls_record_check_pending_4 == 0ul))
       {
-        return_value_MHD_tls_connection_handle_read$3=MHD_tls_connection_handle_read(connection);
-        if(!(return_value_MHD_tls_connection_handle_read$3 == 1))
+        return_value_MHD_tls_connection_handle_read_3=MHD_tls_connection_handle_read(connection);
+        if(!(return_value_MHD_tls_connection_handle_read_3 == 1))
           return 1;
 
       }
 
-      return_value_MHD_connection_handle_idle$5=MHD_connection_handle_idle(connection);
-      return return_value_MHD_connection_handle_idle$5;
+      return_value_MHD_connection_handle_idle_5=MHD_connection_handle_idle(connection);
+      return return_value_MHD_connection_handle_idle_5;
     }
   }
-  signed int return_value_MHD_connection_epoll_update_$6;
-  return_value_MHD_connection_epoll_update_$6=MHD_connection_epoll_update_(connection);
-  return return_value_MHD_connection_epoll_update_$6;
+  signed int return_value_MHD_connection_epoll_update__6;
+  return_value_MHD_connection_epoll_update__6=MHD_connection_epoll_update_(connection);
+  return return_value_MHD_connection_epoll_update__6;
 }
 
 // MHD_tls_connection_handle_read
 // file connection_https.c line 97
 static signed int MHD_tls_connection_handle_read(struct MHD_Connection *connection)
 {
-  signed int return_value_run_tls_handshake$1;
-  return_value_run_tls_handshake$1=run_tls_handshake(connection);
-  if(return_value_run_tls_handshake$1 == 1)
+  signed int return_value_run_tls_handshake_1;
+  return_value_run_tls_handshake_1=run_tls_handshake(connection);
+  if(return_value_run_tls_handshake_1 == 1)
     return 1;
 
   else
   {
-    signed int return_value_MHD_connection_handle_read$2;
-    return_value_MHD_connection_handle_read$2=MHD_connection_handle_read(connection);
-    return return_value_MHD_connection_handle_read$2;
+    signed int return_value_MHD_connection_handle_read_2;
+    return_value_MHD_connection_handle_read_2=MHD_connection_handle_read(connection);
+    return return_value_MHD_connection_handle_read_2;
   }
 }
 
@@ -8538,16 +8538,16 @@ static signed int MHD_tls_connection_handle_read(struct MHD_Connection *connecti
 // file connection_https.c line 114
 static signed int MHD_tls_connection_handle_write(struct MHD_Connection *connection)
 {
-  signed int return_value_run_tls_handshake$1;
-  return_value_run_tls_handshake$1=run_tls_handshake(connection);
-  if(return_value_run_tls_handshake$1 == 1)
+  signed int return_value_run_tls_handshake_1;
+  return_value_run_tls_handshake_1=run_tls_handshake(connection);
+  if(return_value_run_tls_handshake_1 == 1)
     return 1;
 
   else
   {
-    signed int return_value_MHD_connection_handle_write$2;
-    return_value_MHD_connection_handle_write$2=MHD_connection_handle_write(connection);
-    return return_value_MHD_connection_handle_write$2;
+    signed int return_value_MHD_connection_handle_write_2;
+    return_value_MHD_connection_handle_write_2=MHD_connection_handle_write(connection);
+    return return_value_MHD_connection_handle_write_2;
   }
 }
 
@@ -8583,94 +8583,94 @@ void _GNUC_init_helper_MHD_init(void)
 static signed int add_response_entry(struct MHD_Response *response, enum MHD_ValueKind kind, const char *header, const char *content)
 {
   struct MHD_HTTP_Header *hdr;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(content == ((const char *)NULL) || header == ((const char *)NULL) || response == ((struct MHD_Response *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(header);
-    tmp_if_expr$2 = (unsigned long int)0 == return_value_strlen$1 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(header);
+    tmp_if_expr_2 = (unsigned long int)0 == return_value_strlen_1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strlen$3=strlen(content);
-    tmp_if_expr$4 = (unsigned long int)0 == return_value_strlen$3 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_3=strlen(content);
+    tmp_if_expr_4 = (unsigned long int)0 == return_value_strlen_3 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  char *return_value_strchr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  char *return_value_strchr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_strchr$5=strchr(header, 9);
-    tmp_if_expr$6 = (char *)(void *)0 != return_value_strchr$5 ? (_Bool)1 : (_Bool)0;
+    return_value_strchr_5=strchr(header, 9);
+    tmp_if_expr_6 = (char *)(void *)0 != return_value_strchr_5 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  char *return_value_strchr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  char *return_value_strchr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_strchr$7=strchr(header, 13);
-    tmp_if_expr$8 = (char *)(void *)0 != return_value_strchr$7 ? (_Bool)1 : (_Bool)0;
+    return_value_strchr_7=strchr(header, 13);
+    tmp_if_expr_8 = (char *)(void *)0 != return_value_strchr_7 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  char *return_value_strchr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  char *return_value_strchr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
-    return_value_strchr$9=strchr(header, 10);
-    tmp_if_expr$10 = (char *)(void *)0 != return_value_strchr$9 ? (_Bool)1 : (_Bool)0;
+    return_value_strchr_9=strchr(header, 10);
+    tmp_if_expr_10 = (char *)(void *)0 != return_value_strchr_9 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$12;
-  char *return_value_strchr$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$12 = (_Bool)1;
+  _Bool tmp_if_expr_12;
+  char *return_value_strchr_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_12 = (_Bool)1;
 
   else
   {
-    return_value_strchr$11=strchr(content, 9);
-    tmp_if_expr$12 = (char *)(void *)0 != return_value_strchr$11 ? (_Bool)1 : (_Bool)0;
+    return_value_strchr_11=strchr(content, 9);
+    tmp_if_expr_12 = (char *)(void *)0 != return_value_strchr_11 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$14;
-  char *return_value_strchr$13;
-  if(tmp_if_expr$12)
-    tmp_if_expr$14 = (_Bool)1;
+  _Bool tmp_if_expr_14;
+  char *return_value_strchr_13;
+  if(tmp_if_expr_12)
+    tmp_if_expr_14 = (_Bool)1;
 
   else
   {
-    return_value_strchr$13=strchr(content, 13);
-    tmp_if_expr$14 = (char *)(void *)0 != return_value_strchr$13 ? (_Bool)1 : (_Bool)0;
+    return_value_strchr_13=strchr(content, 13);
+    tmp_if_expr_14 = (char *)(void *)0 != return_value_strchr_13 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$16;
-  char *return_value_strchr$15;
-  if(tmp_if_expr$14)
-    tmp_if_expr$16 = (_Bool)1;
+  _Bool tmp_if_expr_16;
+  char *return_value_strchr_15;
+  if(tmp_if_expr_14)
+    tmp_if_expr_16 = (_Bool)1;
 
   else
   {
-    return_value_strchr$15=strchr(content, 10);
-    tmp_if_expr$16 = (char *)(void *)0 != return_value_strchr$15 ? (_Bool)1 : (_Bool)0;
+    return_value_strchr_15=strchr(content, 10);
+    tmp_if_expr_16 = (char *)(void *)0 != return_value_strchr_15 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$16)
+  if(tmp_if_expr_16)
     return 0;
 
   else
   {
-    void *return_value_malloc$17;
-    return_value_malloc$17=malloc(sizeof(struct MHD_HTTP_Header) /*32ul*/ );
-    hdr = (struct MHD_HTTP_Header *)return_value_malloc$17;
+    void *return_value_malloc_17;
+    return_value_malloc_17=malloc(sizeof(struct MHD_HTTP_Header) /*32ul*/ );
+    hdr = (struct MHD_HTTP_Header *)return_value_malloc_17;
     if(hdr == ((struct MHD_HTTP_Header *)NULL))
       return 0;
 
@@ -8707,10 +8707,10 @@ static signed int add_response_entry(struct MHD_Response *response, enum MHD_Val
 
 // add_to_fd_set
 // file daemon.c line 629
-static signed int add_to_fd_set(signed int fd, struct anonymous$3 *set, signed int *max_fd, unsigned int fd_setsize)
+static signed int add_to_fd_set(signed int fd, struct anonymous_3 *set, signed int *max_fd, unsigned int fd_setsize)
 {
-  _Bool tmp_if_expr$1;
-  if(set == ((struct anonymous$3 *)NULL))
+  _Bool tmp_if_expr_1;
+  if(set == ((struct anonymous_3 *)NULL))
     return 0;
 
   else
@@ -8723,11 +8723,11 @@ static signed int add_to_fd_set(signed int fd, struct anonymous$3 *set, signed i
       if(!(max_fd == ((signed int *)NULL)) && !(fd == -1))
       {
         if(!(*max_fd >= fd))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = -1 == *max_fd ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = -1 == *max_fd ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           *max_fd = fd;
 
       }
@@ -8740,60 +8740,60 @@ static signed int add_to_fd_set(signed int fd, struct anonymous$3 *set, signed i
 // file largepost.c line 146
 static signed int answer_to_connection(void *cls, struct MHD_Connection *connection, const char *url, const char *method, const char *version, const char *upload_data, unsigned long int *upload_data_size, void **con_cls)
 {
-  signed int return_value_send_page$1;
+  signed int return_value_send_page_1;
   if(*con_cls == NULL)
   {
-    struct connection_info_struct *answer_to_connection$$1$$1$$con_info;
+    struct connection_info_struct *answer_to_connection__1__1__con_info;
     if(nr_of_uploading_clients >= 2u)
     {
-      return_value_send_page$1=send_page(connection, busypage, 503);
-      return return_value_send_page$1;
+      return_value_send_page_1=send_page(connection, busypage, 503);
+      return return_value_send_page_1;
     }
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct connection_info_struct) /*40ul*/ );
-    answer_to_connection$$1$$1$$con_info = (struct connection_info_struct *)return_value_malloc$2;
-    if(answer_to_connection$$1$$1$$con_info == ((struct connection_info_struct *)NULL))
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct connection_info_struct) /*40ul*/ );
+    answer_to_connection__1__1__con_info = (struct connection_info_struct *)return_value_malloc_2;
+    if(answer_to_connection__1__1__con_info == ((struct connection_info_struct *)NULL))
       return 0;
 
-    answer_to_connection$$1$$1$$con_info->fp = (struct _IO_FILE *)(void *)0;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(method, "POST");
-    if(return_value_strcmp$3 == 0)
+    answer_to_connection__1__1__con_info->fp = (struct _IO_FILE *)(void *)0;
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(method, "POST");
+    if(return_value_strcmp_3 == 0)
     {
-      answer_to_connection$$1$$1$$con_info->postprocessor=MHD_create_post_processor(connection, (unsigned long int)512, iterate_post, (void *)answer_to_connection$$1$$1$$con_info);
-      if(answer_to_connection$$1$$1$$con_info->postprocessor == ((struct MHD_PostProcessor *)NULL))
+      answer_to_connection__1__1__con_info->postprocessor=MHD_create_post_processor(connection, (unsigned long int)512, iterate_post, (void *)answer_to_connection__1__1__con_info);
+      if(answer_to_connection__1__1__con_info->postprocessor == ((struct MHD_PostProcessor *)NULL))
       {
-        free((void *)answer_to_connection$$1$$1$$con_info);
+        free((void *)answer_to_connection__1__1__con_info);
         return 0;
       }
 
       nr_of_uploading_clients = nr_of_uploading_clients + 1u;
-      answer_to_connection$$1$$1$$con_info->connectiontype = 1;
-      answer_to_connection$$1$$1$$con_info->answercode = 200;
-      answer_to_connection$$1$$1$$con_info->answerstring = completepage;
+      answer_to_connection__1__1__con_info->connectiontype = 1;
+      answer_to_connection__1__1__con_info->answercode = 200;
+      answer_to_connection__1__1__con_info->answerstring = completepage;
     }
 
     else
-      answer_to_connection$$1$$1$$con_info->connectiontype = 0;
-    *con_cls = (void *)answer_to_connection$$1$$1$$con_info;
+      answer_to_connection__1__1__con_info->connectiontype = 0;
+    *con_cls = (void *)answer_to_connection__1__1__con_info;
     return 1;
   }
 
-  signed int return_value_strcmp$5;
-  return_value_strcmp$5=strcmp(method, "GET");
-  if(return_value_strcmp$5 == 0)
+  signed int return_value_strcmp_5;
+  return_value_strcmp_5=strcmp(method, "GET");
+  if(return_value_strcmp_5 == 0)
   {
     char buffer[1024l];
     snprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , askpage, nr_of_uploading_clients);
-    signed int return_value_send_page$4;
-    return_value_send_page$4=send_page(connection, buffer, 200);
-    return return_value_send_page$4;
+    signed int return_value_send_page_4;
+    return_value_send_page_4=send_page(connection, buffer, 200);
+    return return_value_send_page_4;
   }
 
-  signed int return_value_strcmp$7;
-  return_value_strcmp$7=strcmp(method, "POST");
-  if(return_value_strcmp$7 == 0)
+  signed int return_value_strcmp_7;
+  return_value_strcmp_7=strcmp(method, "POST");
+  if(return_value_strcmp_7 == 0)
   {
     struct connection_info_struct *con_info = (struct connection_info_struct *)*con_cls;
     if(!(*upload_data_size == 0ul))
@@ -8811,15 +8811,15 @@ static signed int answer_to_connection(void *cls, struct MHD_Connection *connect
         con_info->fp = (struct _IO_FILE *)(void *)0;
       }
 
-      signed int return_value_send_page$6;
-      return_value_send_page$6=send_page(connection, con_info->answerstring, con_info->answercode);
-      return return_value_send_page$6;
+      signed int return_value_send_page_6;
+      return_value_send_page_6=send_page(connection, con_info->answerstring, con_info->answercode);
+      return return_value_send_page_6;
     }
   }
 
-  signed int return_value_send_page$8;
-  return_value_send_page$8=send_page(connection, errorpage, 400);
-  return return_value_send_page$8;
+  signed int return_value_send_page_8;
+  return_value_send_page_8=send_page(connection, errorpage, 400);
+  return return_value_send_page_8;
 }
 
 // build_header_response
@@ -8846,13 +8846,13 @@ static signed int build_header_response(struct MHD_Connection *connection)
   signed int must_add_chunked_encoding;
   signed int must_add_keep_alive;
   signed int must_add_content_length;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(connection->version);
-  if(return_value_strlen$2 == 0ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(connection->version);
+  if(return_value_strlen_2 == 0ul)
   {
-    void *return_value_MHD_pool_allocate$1;
-    return_value_MHD_pool_allocate$1=MHD_pool_allocate(connection->pool, (unsigned long int)0, 1);
-    data = (char *)return_value_MHD_pool_allocate$1;
+    void *return_value_MHD_pool_allocate_1;
+    return_value_MHD_pool_allocate_1=MHD_pool_allocate(connection->pool, (unsigned long int)0, 1);
+    data = (char *)return_value_MHD_pool_allocate_1;
     connection->write_buffer = data;
     connection->write_buffer_append_offset = (unsigned long int)0;
     connection->write_buffer_send_offset = (unsigned long int)0;
@@ -8860,42 +8860,42 @@ static signed int build_header_response(struct MHD_Connection *connection)
     return 1;
   }
 
-  char *tmp_if_expr$4;
-  signed int return_value_strcasecmp$3;
-  _Bool tmp_if_expr$6;
-  const char *return_value_MHD_get_response_header$5;
+  char *tmp_if_expr_4;
+  signed int return_value_strcasecmp_3;
+  _Bool tmp_if_expr_6;
+  const char *return_value_MHD_get_response_header_5;
   if((signed int)connection->state == MHD_CONNECTION_FOOTERS_RECEIVED)
   {
     rc = connection->responseCode & ~((unsigned int)((unsigned int)1 << 31));
     reason_phrase=MHD_get_reason_phrase_for(rc);
     if(!((2147483648u & connection->responseCode) == 0u))
-      tmp_if_expr$4 = "ICY";
+      tmp_if_expr_4 = "ICY";
 
     else
     {
-      return_value_strcasecmp$3=strcasecmp("HTTP/1.0", connection->version);
-      tmp_if_expr$4 = 0 == return_value_strcasecmp$3 ? "HTTP/1.0" : "HTTP/1.1";
+      return_value_strcasecmp_3=strcasecmp("HTTP/1.0", connection->version);
+      tmp_if_expr_4 = 0 == return_value_strcasecmp_3 ? "HTTP/1.0" : "HTTP/1.1";
     }
-    sprintf(code, "%s %u %s\r\n", tmp_if_expr$4, rc, reason_phrase);
+    sprintf(code, "%s %u %s\r\n", tmp_if_expr_4, rc, reason_phrase);
     off=strlen(code);
     size = off + (unsigned long int)2;
     kind = (enum MHD_ValueKind)MHD_HEADER_KIND;
     if((MHD_SUPPRESS_DATE_NO_CLOCK & (signed int)connection->daemon->options) == 0)
     {
-      return_value_MHD_get_response_header$5=MHD_get_response_header(connection->response, "Date");
-      tmp_if_expr$6 = (const char *)(void *)0 == return_value_MHD_get_response_header$5 ? (_Bool)1 : (_Bool)0;
+      return_value_MHD_get_response_header_5=MHD_get_response_header(connection->response, "Date");
+      tmp_if_expr_6 = (const char *)(void *)0 == return_value_MHD_get_response_header_5 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
       get_date_string(date);
 
     else
       date[(signed long int)0] = (char)0;
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(date);
-    size = size + return_value_strlen$7;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(date);
+    size = size + return_value_strlen_7;
   }
 
   else
@@ -8908,16 +8908,16 @@ static signed int build_header_response(struct MHD_Connection *connection)
   must_add_chunked_encoding = 0;
   must_add_keep_alive = 0;
   must_add_content_length = 0;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$10;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$11;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strcasecmp$17;
-  signed int return_value_keepalive_possible$19;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_10;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_11;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strcasecmp_17;
+  signed int return_value_keepalive_possible_19;
   switch((signed int)connection->state)
   {
     case MHD_CONNECTION_FOOTERS_RECEIVED:
@@ -8926,16 +8926,16 @@ static signed int build_header_response(struct MHD_Connection *connection)
       response_has_keepalive = response_has_close;
       if(!(response_has_close == ((const char *)NULL)))
       {
-        return_value_strcasecmp$8=strcasecmp(response_has_close, "close");
-        if(!(return_value_strcasecmp$8 == 0))
+        return_value_strcasecmp_8=strcasecmp(response_has_close, "close");
+        if(!(return_value_strcasecmp_8 == 0))
           response_has_close = (const char *)(void *)0;
 
       }
 
       if(!(response_has_keepalive == ((const char *)NULL)))
       {
-        return_value_strcasecmp$9=strcasecmp(response_has_keepalive, "Keep-Alive");
-        if(!(return_value_strcasecmp$9 == 0))
+        return_value_strcasecmp_9=strcasecmp(response_has_keepalive, "Keep-Alive");
+        if(!(return_value_strcasecmp_9 == 0))
           response_has_keepalive = (const char *)(void *)0;
 
       }
@@ -8943,8 +8943,8 @@ static signed int build_header_response(struct MHD_Connection *connection)
       client_requested_close=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Connection");
       if(!(client_requested_close == ((const char *)NULL)))
       {
-        return_value_strcasecmp$10=strcasecmp(client_requested_close, "close");
-        if(!(return_value_strcasecmp$10 == 0))
+        return_value_strcasecmp_10=strcasecmp(client_requested_close, "close");
+        if(!(return_value_strcasecmp_10 == 0))
           client_requested_close = (const char *)(void *)0;
 
       }
@@ -8956,17 +8956,17 @@ static signed int build_header_response(struct MHD_Connection *connection)
         {
           if(client_requested_close == ((const char *)NULL))
           {
-            signed int return_value_keepalive_possible$12;
-            return_value_keepalive_possible$12=keepalive_possible(connection);
-            if(return_value_keepalive_possible$12 == 1)
+            signed int return_value_keepalive_possible_12;
+            return_value_keepalive_possible_12=keepalive_possible(connection);
+            if(return_value_keepalive_possible_12 == 1)
             {
-              return_value_strcasecmp$13=strcasecmp("HTTP/1.1", connection->version);
-              tmp_if_expr$14 = 0 == return_value_strcasecmp$13 ? (_Bool)1 : (_Bool)0;
+              return_value_strcasecmp_13=strcasecmp("HTTP/1.1", connection->version);
+              tmp_if_expr_14 = 0 == return_value_strcasecmp_13 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$14 = (_Bool)0;
-            if(tmp_if_expr$14)
+              tmp_if_expr_14 = (_Bool)0;
+            if(tmp_if_expr_14)
             {
               have_encoding=MHD_get_response_header(connection->response, "Transfer-Encoding");
               if(have_encoding == ((const char *)NULL))
@@ -8977,8 +8977,8 @@ static signed int build_header_response(struct MHD_Connection *connection)
 
               else
               {
-                return_value_strcasecmp$11=strcasecmp(have_encoding, "identity");
-                if(return_value_strcasecmp$11 == 0)
+                return_value_strcasecmp_11=strcasecmp(have_encoding, "identity");
+                if(return_value_strcasecmp_11 == 0)
                   must_add_close = 1;
 
                 else
@@ -8997,11 +8997,11 @@ static signed int build_header_response(struct MHD_Connection *connection)
       }
 
       if(!(client_requested_close == ((const char *)NULL)))
-        tmp_if_expr$15 = (_Bool)1;
+        tmp_if_expr_15 = (_Bool)1;
 
       else
-        tmp_if_expr$15 = 1 == connection->read_closed ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$15)
+        tmp_if_expr_15 = 1 == connection->read_closed ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_15)
       {
         if(response_has_close == ((const char *)NULL))
         {
@@ -9018,18 +9018,18 @@ static signed int build_header_response(struct MHD_Connection *connection)
         if(have_content_length == ((const char *)NULL))
         {
           if(connection->method == ((char *)NULL))
-            tmp_if_expr$18 = (_Bool)1;
+            tmp_if_expr_18 = (_Bool)1;
 
           else
           {
-            return_value_strcasecmp$17=strcasecmp(connection->method, "CONNECT");
-            tmp_if_expr$18 = !(0 == return_value_strcasecmp$17) ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_17=strcasecmp(connection->method, "CONNECT");
+            tmp_if_expr_18 = !(0 == return_value_strcasecmp_17) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$18)
+          if(tmp_if_expr_18)
           {
-            signed int return_value_sprintf$16;
-            return_value_sprintf$16=sprintf(content_length_buf, "Content-Length: %llu\r\n", (unsigned long long int)connection->response->total_size);
-            content_length_len = (unsigned long int)return_value_sprintf$16;
+            signed int return_value_sprintf_16;
+            return_value_sprintf_16=sprintf(content_length_buf, "Content-Length: %llu\r\n", (unsigned long long int)connection->response->total_size);
+            content_length_len = (unsigned long int)return_value_sprintf_16;
             must_add_content_length = 1;
           }
 
@@ -9041,8 +9041,8 @@ static signed int build_header_response(struct MHD_Connection *connection)
       {
         if((MHD_RF_HTTP_VERSION_1_0_ONLY & (signed int)connection->response->flags) == 0)
         {
-          return_value_keepalive_possible$19=keepalive_possible(connection);
-          if(return_value_keepalive_possible$19 == 1)
+          return_value_keepalive_possible_19=keepalive_possible(connection);
+          if(return_value_keepalive_possible_19 == 1)
             must_add_keep_alive = 1;
 
         }
@@ -9056,67 +9056,67 @@ static signed int build_header_response(struct MHD_Connection *connection)
     default:
       ;
   }
-  unsigned long int return_value_strlen$20;
+  unsigned long int return_value_strlen_20;
   if(!(must_add_close == 0))
   {
-    return_value_strlen$20=strlen("Connection: close\r\n");
-    size = size + return_value_strlen$20;
+    return_value_strlen_20=strlen("Connection: close\r\n");
+    size = size + return_value_strlen_20;
   }
 
-  unsigned long int return_value_strlen$21;
+  unsigned long int return_value_strlen_21;
   if(!(must_add_keep_alive == 0))
   {
-    return_value_strlen$21=strlen("Connection: Keep-Alive\r\n");
-    size = size + return_value_strlen$21;
+    return_value_strlen_21=strlen("Connection: Keep-Alive\r\n");
+    size = size + return_value_strlen_21;
   }
 
-  unsigned long int return_value_strlen$22;
+  unsigned long int return_value_strlen_22;
   if(!(must_add_chunked_encoding == 0))
   {
-    return_value_strlen$22=strlen("Transfer-Encoding: chunked\r\n");
-    size = size + return_value_strlen$22;
+    return_value_strlen_22=strlen("Transfer-Encoding: chunked\r\n");
+    size = size + return_value_strlen_22;
   }
 
   if(!(must_add_content_length == 0))
     size = size + content_length_len;
 
   pos = connection->response->first_header;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$27;
-  signed int return_value_strcasecmp$26;
-  unsigned long int return_value_strlen$23;
-  unsigned long int return_value_strlen$24;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_27;
+  signed int return_value_strcasecmp_26;
+  unsigned long int return_value_strlen_23;
+  unsigned long int return_value_strlen_24;
   for( ; !(pos == ((struct MHD_HTTP_Header *)NULL)); pos = pos->next)
     if(pos->kind == kind)
     {
       if(must_add_close == 1)
-        tmp_if_expr$25 = pos->value == response_has_keepalive ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_25 = pos->value == response_has_keepalive ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$25 = (_Bool)0;
-      if(tmp_if_expr$25)
+        tmp_if_expr_25 = (_Bool)0;
+      if(tmp_if_expr_25)
       {
-        return_value_strcasecmp$26=strcasecmp(pos->header, "Connection");
-        tmp_if_expr$27 = 0 == return_value_strcasecmp$26 ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_26=strcasecmp(pos->header, "Connection");
+        tmp_if_expr_27 = 0 == return_value_strcasecmp_26 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$27 = (_Bool)0;
-      if(!tmp_if_expr$27)
+        tmp_if_expr_27 = (_Bool)0;
+      if(!tmp_if_expr_27)
       {
-        return_value_strlen$23=strlen(pos->header);
-        return_value_strlen$24=strlen(pos->value);
-        size = size + return_value_strlen$23 + return_value_strlen$24 + (unsigned long int)4;
+        return_value_strlen_23=strlen(pos->header);
+        return_value_strlen_24=strlen(pos->value);
+        size = size + return_value_strlen_23 + return_value_strlen_24 + (unsigned long int)4;
       }
 
     }
 
-  void *return_value_MHD_pool_allocate$28;
-  return_value_MHD_pool_allocate$28=MHD_pool_allocate(connection->pool, size + (unsigned long int)1, 0);
-  data = (char *)return_value_MHD_pool_allocate$28;
-  _Bool tmp_if_expr$37;
-  signed int return_value_strcasecmp$36;
-  signed int return_value_sprintf$35;
+  void *return_value_MHD_pool_allocate_28;
+  return_value_MHD_pool_allocate_28=MHD_pool_allocate(connection->pool, size + (unsigned long int)1, 0);
+  data = (char *)return_value_MHD_pool_allocate_28;
+  _Bool tmp_if_expr_37;
+  signed int return_value_strcasecmp_36;
+  signed int return_value_sprintf_35;
   if(data == ((char *)NULL))
   {
     MHD_DLOG(connection->daemon, "Not enough memory for write!\n");
@@ -9130,32 +9130,32 @@ static signed int build_header_response(struct MHD_Connection *connection)
 
     if(!(must_add_close == 0))
     {
-      unsigned long int return_value_strlen$29;
-      return_value_strlen$29=strlen("Connection: close\r\n");
-      memcpy((void *)&data[(signed long int)off], (const void *)"Connection: close\r\n", return_value_strlen$29);
-      unsigned long int return_value_strlen$30;
-      return_value_strlen$30=strlen("Connection: close\r\n");
-      off = off + return_value_strlen$30;
+      unsigned long int return_value_strlen_29;
+      return_value_strlen_29=strlen("Connection: close\r\n");
+      memcpy((void *)&data[(signed long int)off], (const void *)"Connection: close\r\n", return_value_strlen_29);
+      unsigned long int return_value_strlen_30;
+      return_value_strlen_30=strlen("Connection: close\r\n");
+      off = off + return_value_strlen_30;
     }
 
     if(!(must_add_keep_alive == 0))
     {
-      unsigned long int return_value_strlen$31;
-      return_value_strlen$31=strlen("Connection: Keep-Alive\r\n");
-      memcpy((void *)&data[(signed long int)off], (const void *)"Connection: Keep-Alive\r\n", return_value_strlen$31);
-      unsigned long int return_value_strlen$32;
-      return_value_strlen$32=strlen("Connection: Keep-Alive\r\n");
-      off = off + return_value_strlen$32;
+      unsigned long int return_value_strlen_31;
+      return_value_strlen_31=strlen("Connection: Keep-Alive\r\n");
+      memcpy((void *)&data[(signed long int)off], (const void *)"Connection: Keep-Alive\r\n", return_value_strlen_31);
+      unsigned long int return_value_strlen_32;
+      return_value_strlen_32=strlen("Connection: Keep-Alive\r\n");
+      off = off + return_value_strlen_32;
     }
 
     if(!(must_add_chunked_encoding == 0))
     {
-      unsigned long int return_value_strlen$33;
-      return_value_strlen$33=strlen("Transfer-Encoding: chunked\r\n");
-      memcpy((void *)&data[(signed long int)off], (const void *)"Transfer-Encoding: chunked\r\n", return_value_strlen$33);
-      unsigned long int return_value_strlen$34;
-      return_value_strlen$34=strlen("Transfer-Encoding: chunked\r\n");
-      off = off + return_value_strlen$34;
+      unsigned long int return_value_strlen_33;
+      return_value_strlen_33=strlen("Transfer-Encoding: chunked\r\n");
+      memcpy((void *)&data[(signed long int)off], (const void *)"Transfer-Encoding: chunked\r\n", return_value_strlen_33);
+      unsigned long int return_value_strlen_34;
+      return_value_strlen_34=strlen("Transfer-Encoding: chunked\r\n");
+      off = off + return_value_strlen_34;
     }
 
     if(!(must_add_content_length == 0))
@@ -9170,16 +9170,16 @@ static signed int build_header_response(struct MHD_Connection *connection)
       {
         if(pos->value == response_has_keepalive && must_add_close == 1)
         {
-          return_value_strcasecmp$36=strcasecmp(pos->header, "Connection");
-          tmp_if_expr$37 = 0 == return_value_strcasecmp$36 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_36=strcasecmp(pos->header, "Connection");
+          tmp_if_expr_37 = 0 == return_value_strcasecmp_36 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$37 = (_Bool)0;
-        if(!tmp_if_expr$37)
+          tmp_if_expr_37 = (_Bool)0;
+        if(!tmp_if_expr_37)
         {
-          return_value_sprintf$35=sprintf(&data[(signed long int)off], "%s: %s\r\n", pos->header, pos->value);
-          off = off + (unsigned long int)return_value_sprintf$35;
+          return_value_sprintf_35=sprintf(&data[(signed long int)off], "%s: %s\r\n", pos->header, pos->value);
+          off = off + (unsigned long int)return_value_sprintf_35;
         }
 
       }
@@ -9187,9 +9187,9 @@ static signed int build_header_response(struct MHD_Connection *connection)
     if((signed int)connection->state == MHD_CONNECTION_FOOTERS_RECEIVED)
     {
       strcpy(&data[(signed long int)off], date);
-      unsigned long int return_value_strlen$38;
-      return_value_strlen$38=strlen(date);
-      off = off + return_value_strlen$38;
+      unsigned long int return_value_strlen_38;
+      return_value_strlen_38=strlen(date);
+      off = off + return_value_strlen_38;
     }
 
     memcpy((void *)&data[(signed long int)off], (const void *)"\r\n", (unsigned long int)2);
@@ -9220,21 +9220,21 @@ static void calculate_nonce(unsigned int nonce_time, const char *method, const c
   timestamp[(signed long int)3] = (unsigned char)(nonce_time & (unsigned int)0x000000ff);
   MD5Update(&md5, timestamp, sizeof(unsigned char [4l]) /*4ul*/ );
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(method);
-  MD5Update(&md5, (const unsigned char *)method, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(method);
+  MD5Update(&md5, (const unsigned char *)method, return_value_strlen_1);
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
   if(rnd_size >= 1ul)
     MD5Update(&md5, (const unsigned char *)rnd, rnd_size);
 
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(uri);
-  MD5Update(&md5, (const unsigned char *)uri, return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(uri);
+  MD5Update(&md5, (const unsigned char *)uri, return_value_strlen_2);
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(realm);
-  MD5Update(&md5, (const unsigned char *)realm, return_value_strlen$3);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(realm);
+  MD5Update(&md5, (const unsigned char *)realm, return_value_strlen_3);
   MD5Final(tmpnonce, &md5);
   cvthex(tmpnonce, sizeof(unsigned char [16l]) /*16ul*/ , nonce);
   cvthex(timestamp, sizeof(unsigned char [4l]) /*4ul*/ , timestamphex);
@@ -9291,9 +9291,9 @@ static signed int check_argument_match(struct MHD_Connection *connection, const 
           if(equals == ((char *)NULL))
           {
             MHD_unescape_plus(argp);
-            signed int return_value_test_header$1;
-            return_value_test_header$1=test_header(connection, argp, (const char *)(void *)0);
-            if(!(return_value_test_header$1 == 1))
+            signed int return_value_test_header_1;
+            return_value_test_header_1=test_header(connection, argp, (const char *)(void *)0);
+            if(!(return_value_test_header_1 == 1))
             {
               free((void *)argb);
               return 0;
@@ -9309,9 +9309,9 @@ static signed int check_argument_match(struct MHD_Connection *connection, const 
           connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, argp);
           MHD_unescape_plus(equals);
           connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, equals);
-          signed int return_value_test_header$2;
-          return_value_test_header$2=test_header(connection, argp, equals);
-          if(!(return_value_test_header$2 == 1))
+          signed int return_value_test_header_2;
+          return_value_test_header_2=test_header(connection, argp, equals);
+          if(!(return_value_test_header_2 == 1))
           {
             free((void *)argb);
             return 0;
@@ -9326,9 +9326,9 @@ static signed int check_argument_match(struct MHD_Connection *connection, const 
         {
           MHD_unescape_plus(argp);
           connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, argp);
-          signed int return_value_test_header$3;
-          return_value_test_header$3=test_header(connection, argp, (const char *)(void *)0);
-          if(!(return_value_test_header$3 == 1))
+          signed int return_value_test_header_3;
+          return_value_test_header_3=test_header(connection, argp, (const char *)(void *)0);
+          if(!(return_value_test_header_3 == 1))
           {
             free((void *)argb);
             return 0;
@@ -9344,9 +9344,9 @@ static signed int check_argument_match(struct MHD_Connection *connection, const 
         connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, argp);
         MHD_unescape_plus(equals);
         connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, equals);
-        signed int return_value_test_header$4;
-        return_value_test_header$4=test_header(connection, argp, equals);
-        if(!(return_value_test_header$4 == 1))
+        signed int return_value_test_header_4;
+        return_value_test_header_4=test_header(connection, argp, equals);
+        if(!(return_value_test_header_4 == 1))
         {
           free((void *)argb);
           return 0;
@@ -9383,8 +9383,8 @@ static signed int check_nonce_nc(struct MHD_Connection *connection, const char *
   unsigned int mod;
   const char *np;
   mod = connection->daemon->nonce_nc_size;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   if(mod == 0u)
     return 0;
 
@@ -9395,40 +9395,40 @@ static signed int check_nonce_nc(struct MHD_Connection *connection, const char *
     for( ; !((signed int)*np == 0); np = np + 1l)
       off = off << 8 | (unsigned int)*np ^ off >> 24;
     off = off % mod;
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&connection->daemon->nnc_lock);
-    (void)(0 == return_value_pthread_mutex_lock$1 ? 1 : 0);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&connection->daemon->nnc_lock);
+    (void)(0 == return_value_pthread_mutex_lock_1 ? 1 : 0);
     if(nc == 0ul)
     {
       strcpy((connection->daemon->nnc + (signed long int)off)->nonce, nonce);
       (connection->daemon->nnc + (signed long int)off)->nc = (unsigned long int)0;
-      signed int return_value_pthread_mutex_unlock$2;
-      return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&connection->daemon->nnc_lock);
-      (void)(0 == return_value_pthread_mutex_unlock$2 ? 1 : 0);
+      signed int return_value_pthread_mutex_unlock_2;
+      return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&connection->daemon->nnc_lock);
+      (void)(0 == return_value_pthread_mutex_unlock_2 ? 1 : 0);
       return 1;
     }
 
     if((connection->daemon->nnc + (signed long int)off)->nc >= nc)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$4=strcmp((connection->daemon->nnc + (signed long int)off)->nonce, nonce);
-      tmp_if_expr$5 = 0 != return_value_strcmp$4 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp((connection->daemon->nnc + (signed long int)off)->nonce, nonce);
+      tmp_if_expr_5 = 0 != return_value_strcmp_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&connection->daemon->nnc_lock);
-      (void)(0 == return_value_pthread_mutex_unlock$3 ? 1 : 0);
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&connection->daemon->nnc_lock);
+      (void)(0 == return_value_pthread_mutex_unlock_3 ? 1 : 0);
       MHD_DLOG(connection->daemon, "Stale nonce received.  If this happens a lot, you should probably increase the size of the nonce array.\n");
       return 0;
     }
 
     (connection->daemon->nnc + (signed long int)off)->nc = nc;
-    signed int return_value_pthread_mutex_unlock$6;
-    return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&connection->daemon->nnc_lock);
-    (void)(0 == return_value_pthread_mutex_unlock$6 ? 1 : 0);
+    signed int return_value_pthread_mutex_unlock_6;
+    return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&connection->daemon->nnc_lock);
+    (void)(0 == return_value_pthread_mutex_unlock_6 ? 1 : 0);
     return 1;
   }
 }
@@ -9463,11 +9463,11 @@ static void cleanup_connection(struct MHD_Connection *connection)
     connection->response = (struct MHD_Response *)(void *)0;
   }
 
-  signed int return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
       mhd_panic(mhd_panic_cls, "connection.c", (unsigned int)2240, "Failed to acquire cleanup mutex\n");
 
   }
@@ -9557,11 +9557,11 @@ static void cleanup_connection(struct MHD_Connection *connection)
   connection->suspended = 0;
   connection->resuming = 0;
   connection->in_idle = 0;
-  signed int return_value_pthread_mutex_unlock$2;
+  signed int return_value_pthread_mutex_unlock_2;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
       mhd_panic(mhd_panic_cls, "connection.c", (unsigned int)2265, "Failed to release cleanup mutex\n");
 
   }
@@ -9573,11 +9573,11 @@ static void cleanup_connection(struct MHD_Connection *connection)
 static void close_all_connections(struct MHD_Daemon *daemon)
 {
   struct MHD_Connection *pos;
-  signed int return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4400, "Failed to acquire cleanup mutex\n");
 
   }
@@ -9585,11 +9585,11 @@ static void close_all_connections(struct MHD_Daemon *daemon)
   pos = daemon->connections_head;
   for( ; !(pos == ((struct MHD_Connection *)NULL)); pos = pos->next)
     shutdown(pos->socket_fd, pos->read_closed == 1 ? 1 : 2);
-  signed int return_value_pthread_mutex_unlock$2;
+  signed int return_value_pthread_mutex_unlock_2;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4414, "Failed to release cleanup mutex\n");
 
   }
@@ -9599,9 +9599,9 @@ static void close_all_connections(struct MHD_Daemon *daemon)
     pos = daemon->connections_head;
     for( ; !(pos == ((struct MHD_Connection *)NULL)); pos = pos->next)
     {
-      signed int return_value_pthread_join$3;
-      return_value_pthread_join$3=pthread_join(pos->pid, (void **)(void *)0);
-      if(!(return_value_pthread_join$3 == 0))
+      signed int return_value_pthread_join_3;
+      return_value_pthread_join_3=pthread_join(pos->pid, (void **)(void *)0);
+      if(!(return_value_pthread_join_3 == 0))
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4422, "Failed to join a thread\n");
 
       pos->thread_joined = 1;
@@ -9700,9 +9700,9 @@ static void close_connection(struct MHD_Connection *pos)
 // file connection.c line 1178
 static signed int connection_add_header(struct MHD_Connection *connection, char *key, char *value, enum MHD_ValueKind kind)
 {
-  signed int return_value_MHD_set_connection_value$1;
-  return_value_MHD_set_connection_value$1=MHD_set_connection_value(connection, kind, key, value);
-  if(return_value_MHD_set_connection_value$1 == 0)
+  signed int return_value_MHD_set_connection_value_1;
+  return_value_MHD_set_connection_value_1=MHD_set_connection_value(connection, kind, key, value);
+  if(return_value_MHD_set_connection_value_1 == 0)
   {
     MHD_DLOG(connection->daemon, "Not enough memory to allocate header record!\n");
     transmit_error_response(connection, (unsigned int)413, "<html><head><title>Request too big</title></head><body>Your HTTP header was too big for the memory constraints of this webserver.</body></html>");
@@ -9730,11 +9730,11 @@ static signed int create_socket(struct MHD_Daemon *daemon, signed int domain, si
   signed int ctype = type | 524288;
   signed int fd;
   fd=socket(domain, ctype, protocol);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(fd == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 22)
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 22)
     {
       ctype = type;
       fd=socket(domain, type, protocol);
@@ -9789,9 +9789,9 @@ static signed int create_thread(unsigned long int *thread, struct MHD_Daemon *da
 ERR:
   ;
   MHD_DLOG(daemon, "Failed to set thread stack size\n");
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 22;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 22;
   return ret;
 }
 
@@ -9819,32 +9819,32 @@ static void digest_calc_ha1(const char *alg, const char *username, const char *r
   struct MD5Context md5;
   unsigned char ha1[16l];
   MD5Init(&md5);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(username);
-  MD5Update(&md5, (const unsigned char *)username, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(username);
+  MD5Update(&md5, (const unsigned char *)username, return_value_strlen_1);
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(realm);
-  MD5Update(&md5, (const unsigned char *)realm, return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(realm);
+  MD5Update(&md5, (const unsigned char *)realm, return_value_strlen_2);
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(password);
-  MD5Update(&md5, (const unsigned char *)password, return_value_strlen$3);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(password);
+  MD5Update(&md5, (const unsigned char *)password, return_value_strlen_3);
   MD5Final(ha1, &md5);
-  signed int return_value_strcasecmp$6;
-  return_value_strcasecmp$6=strcasecmp(alg, "md5-sess");
-  if(return_value_strcasecmp$6 == 0)
+  signed int return_value_strcasecmp_6;
+  return_value_strcasecmp_6=strcasecmp(alg, "md5-sess");
+  if(return_value_strcasecmp_6 == 0)
   {
     MD5Init(&md5);
     MD5Update(&md5, (const unsigned char *)ha1, sizeof(unsigned char [16l]) /*16ul*/ );
     MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(nonce);
-    MD5Update(&md5, (const unsigned char *)nonce, return_value_strlen$4);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(nonce);
+    MD5Update(&md5, (const unsigned char *)nonce, return_value_strlen_4);
     MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(cnonce);
-    MD5Update(&md5, (const unsigned char *)cnonce, return_value_strlen$5);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(cnonce);
+    MD5Update(&md5, (const unsigned char *)cnonce, return_value_strlen_5);
     MD5Final(ha1, &md5);
   }
 
@@ -9860,35 +9860,35 @@ static void digest_calc_response(const char *ha1, const char *nonce, const char 
   unsigned char resphash[16l];
   char ha2hex[33l];
   MD5Init(&md5);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(method);
-  MD5Update(&md5, (const unsigned char *)method, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(method);
+  MD5Update(&md5, (const unsigned char *)method, return_value_strlen_1);
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(uri);
-  MD5Update(&md5, (const unsigned char *)uri, return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(uri);
+  MD5Update(&md5, (const unsigned char *)uri, return_value_strlen_2);
   MD5Final(ha2, &md5);
   cvthex(ha2, (unsigned long int)16, ha2hex);
   MD5Init(&md5);
   MD5Update(&md5, (const unsigned char *)ha1, (unsigned long int)(2 * 16));
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(nonce);
-  MD5Update(&md5, (const unsigned char *)nonce, return_value_strlen$3);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(nonce);
+  MD5Update(&md5, (const unsigned char *)nonce, return_value_strlen_3);
   MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
   if(!((signed int)*qop == 0))
   {
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(noncecount);
-    MD5Update(&md5, (const unsigned char *)noncecount, return_value_strlen$4);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(noncecount);
+    MD5Update(&md5, (const unsigned char *)noncecount, return_value_strlen_4);
     MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(cnonce);
-    MD5Update(&md5, (const unsigned char *)cnonce, return_value_strlen$5);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(cnonce);
+    MD5Update(&md5, (const unsigned char *)cnonce, return_value_strlen_5);
     MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(qop);
-    MD5Update(&md5, (const unsigned char *)qop, return_value_strlen$6);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(qop);
+    MD5Update(&md5, (const unsigned char *)qop, return_value_strlen_6);
     MD5Update(&md5, (const unsigned char *)":", (unsigned long int)1);
   }
 
@@ -9911,9 +9911,9 @@ static signed int do_read(struct MHD_Connection *connection)
     if(!(bytes_read >= 0l))
     {
       signed int err;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      err = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      err = *return_value___errno_location_1;
       if(err == 4 || err == 11)
         return 0;
 
@@ -9952,9 +9952,9 @@ static signed int do_write(struct MHD_Connection *connection)
   if(!(ret >= 0l))
   {
     signed int err;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    err = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    err = *return_value___errno_location_1;
     if(err == 4 || err == 11)
       return 0;
 
@@ -9978,9 +9978,9 @@ static void epoll_shutdown(struct MHD_Daemon *daemon)
 
   event.events = (unsigned int)4;
   event.data.ptr = (void *)0;
-  signed int return_value_epoll_ctl$1;
-  return_value_epoll_ctl$1=epoll_ctl(daemon->epoll_fd, 1, daemon->wpipe[(signed long int)1], &event);
-  if(!(return_value_epoll_ctl$1 == 0))
+  signed int return_value_epoll_ctl_1;
+  return_value_epoll_ctl_1=epoll_ctl(daemon->epoll_fd, 1, daemon->wpipe[(signed long int)1], &event);
+  if(!(return_value_epoll_ctl_1 == 0))
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)4456, "Failed to add wpipe to epoll set to signal termination\n");
 
 }
@@ -9997,9 +9997,9 @@ static signed long int file_reader(void *cls, unsigned long int pos, char *buf, 
 
   else
   {
-    signed long int return_value_lseek64$1;
-    return_value_lseek64$1=lseek64(response->fd, offset64, 0);
-    if(!(return_value_lseek64$1 == offset64))
+    signed long int return_value_lseek64_1;
+    return_value_lseek64_1=lseek64(response->fd, offset64, 0);
+    if(!(return_value_lseek64_1 == offset64))
       return (signed long int)(18446744073709551615UL - (unsigned long int)1);
 
     else
@@ -10027,8 +10027,8 @@ static signed int find_boundary(struct MHD_PostProcessor *pp, const char *bounda
 {
   char *buf = (char *)&pp[(signed long int)1];
   const char *dash;
-  _Bool tmp_if_expr$4;
-  signed int return_value_memcmp$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_memcmp_3;
   if(!(pp->buffer_pos >= 2ul + blen))
   {
     if(pp->buffer_pos == pp->buffer_size)
@@ -10039,26 +10039,26 @@ static signed int find_boundary(struct MHD_PostProcessor *pp, const char *bounda
 
   else
   {
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)"--", (const void *)buf, (unsigned long int)2);
-    if(!(return_value_memcmp$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)"--", (const void *)buf, (unsigned long int)2);
+    if(!(return_value_memcmp_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_memcmp$3=memcmp((const void *)&buf[(signed long int)2], (const void *)boundary, blen);
-      tmp_if_expr$4 = 0 != return_value_memcmp$3 ? (_Bool)1 : (_Bool)0;
+      return_value_memcmp_3=memcmp((const void *)&buf[(signed long int)2], (const void *)boundary, blen);
+      tmp_if_expr_4 = 0 != return_value_memcmp_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       if(!((signed int)pp->state == PP_Init))
         pp->state = (enum PP_State)PP_Error;
 
       else
       {
-        void *return_value_memchr$1;
-        return_value_memchr$1=memchr((const void *)buf, 45, pp->buffer_pos);
-        dash = (const char *)return_value_memchr$1;
+        void *return_value_memchr_1;
+        return_value_memchr_1=memchr((const void *)buf, 45, pp->buffer_pos);
+        dash = (const char *)return_value_memchr_1;
         if(dash == ((const char *)NULL))
           *ioffptr = *ioffptr + pp->buffer_pos;
 
@@ -10146,11 +10146,11 @@ static void get_date_string(char *date)
   signed long int t;
   date[(signed long int)0] = (char)0;
   time(&t);
-  struct tm *return_value_gmtime_r$1;
-  return_value_gmtime_r$1=gmtime_r(&t, &now);
+  struct tm *return_value_gmtime_r_1;
+  return_value_gmtime_r_1=gmtime_r(&t, &now);
   static const char * const mons[12l] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
   static const char * const days[7l] = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
-  if(!(return_value_gmtime_r$1 == ((struct tm *)NULL)))
+  if(!(return_value_gmtime_r_1 == ((struct tm *)NULL)))
     sprintf(date, "Date: %3s, %02u %3s %04u %02u:%02u:%02u GMT\r\n", days[(signed long int)(now.tm_wday % 7)], (unsigned int)now.tm_mday, mons[(signed long int)(now.tm_mon % 12)], (unsigned int)(1900 + now.tm_year), (unsigned int)now.tm_hour, (unsigned int)now.tm_min, (unsigned int)now.tm_sec);
 
 }
@@ -10161,9 +10161,9 @@ static char * get_next_header_line(struct MHD_Connection *connection)
 {
   char *rbuf;
   unsigned long int pos;
-  signed int return_value_try_grow_read_buffer$1;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  signed int return_value_try_grow_read_buffer_1;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   if(connection->read_buffer_offset == 0ul)
     return (char *)(void *)0;
 
@@ -10186,8 +10186,8 @@ static char * get_next_header_line(struct MHD_Connection *connection)
       {
         if(connection->read_buffer_offset == connection->read_buffer_size)
         {
-          return_value_try_grow_read_buffer$1=try_grow_read_buffer(connection);
-          if(return_value_try_grow_read_buffer$1 == 0)
+          return_value_try_grow_read_buffer_1=try_grow_read_buffer(connection);
+          if(return_value_try_grow_read_buffer_1 == 0)
             transmit_error_response(connection, (unsigned int)((char *)(void *)0 != connection->url ? 413 : 414), "<html><head><title>Request too big</title></head><body>Your HTTP header was too big for the memory constraints of this webserver.</body></html>");
 
         }
@@ -10201,16 +10201,16 @@ static char * get_next_header_line(struct MHD_Connection *connection)
     {
       if((signed int)rbuf[1l + (signed long int)pos] == 10)
       {
-        tmp_post$2 = pos;
+        tmp_post_2 = pos;
         pos = pos + 1ul;
-        rbuf[(signed long int)tmp_post$2] = (char)0;
+        rbuf[(signed long int)tmp_post_2] = (char)0;
       }
 
     }
 
-    tmp_post$3 = pos;
+    tmp_post_3 = pos;
     pos = pos + 1ul;
-    rbuf[(signed long int)tmp_post$3] = (char)0;
+    rbuf[(signed long int)tmp_post_3] = (char)0;
     connection->read_buffer = connection->read_buffer + (signed long int)pos;
     connection->read_buffer_size = connection->read_buffer_size - pos;
     connection->read_buffer_offset = connection->read_buffer_offset - pos;
@@ -10227,9 +10227,9 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
   unsigned int i;
   signed int eno;
   struct MHD_Daemon *worker;
-  signed int return_value_internal_add_connection$1;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  signed int return_value_internal_add_connection_1;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   if(!(daemon->worker_pool == ((struct MHD_Daemon *)NULL)))
   {
     i = (unsigned int)0;
@@ -10238,111 +10238,111 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
       worker = &daemon->worker_pool[(signed long int)((i + (unsigned int)client_socket) % daemon->worker_pool_size)];
       if(!(worker->connections >= worker->connection_limit))
       {
-        return_value_internal_add_connection$1=internal_add_connection(worker, client_socket, addr, addrlen, external_add);
-        return return_value_internal_add_connection$1;
+        return_value_internal_add_connection_1=internal_add_connection(worker, client_socket, addr, addrlen, external_add);
+        return return_value_internal_add_connection_1;
       }
 
     }
-    signed int return_value_close$2;
-    return_value_close$2=close(client_socket);
-    if(!(return_value_close$2 == 0))
+    signed int return_value_close_2;
+    return_value_close_2=close(client_socket);
+    if(!(return_value_close_2 == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = 9 == *return_value___errno_location$3 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = 9 == *return_value___errno_location_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1309, "close failed\n");
 
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = 23;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = 23;
     return 0;
   }
 
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
   if(client_socket >= 1024)
   {
     if((576 & (signed int)daemon->options) == 0)
     {
       MHD_DLOG(daemon, "Socket descriptor larger than FD_SETSIZE: %d > %d\n", client_socket, 1024);
-      signed int return_value_close$6;
-      return_value_close$6=close(client_socket);
-      if(!(return_value_close$6 == 0))
+      signed int return_value_close_6;
+      return_value_close_6=close(client_socket);
+      if(!(return_value_close_6 == 0))
       {
-        return_value___errno_location$7=__errno_location();
-        tmp_if_expr$8 = 9 == *return_value___errno_location$7 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_7=__errno_location();
+        tmp_if_expr_8 = 9 == *return_value___errno_location_7 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1327, "close failed\n");
 
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      *return_value___errno_location$9 = 22;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      *return_value___errno_location_9 = 22;
       return 0;
     }
 
   }
 
-  _Bool tmp_if_expr$15;
-  signed int return_value_MHD_ip_limit_add$14;
+  _Bool tmp_if_expr_15;
+  signed int return_value_MHD_ip_limit_add_14;
   if(daemon->connections == daemon->connection_limit)
-    tmp_if_expr$15 = (_Bool)1;
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_MHD_ip_limit_add$14=MHD_ip_limit_add(daemon, addr, addrlen);
-    tmp_if_expr$15 = 0 == return_value_MHD_ip_limit_add$14 ? (_Bool)1 : (_Bool)0;
+    return_value_MHD_ip_limit_add_14=MHD_ip_limit_add(daemon, addr, addrlen);
+    tmp_if_expr_15 = 0 == return_value_MHD_ip_limit_add_14 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$11;
-  if(tmp_if_expr$15)
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_11;
+  if(tmp_if_expr_15)
   {
     MHD_DLOG(daemon, "Server reached connection limit (closing inbound connection)\n");
-    signed int return_value_close$10;
-    return_value_close$10=close(client_socket);
-    if(!(return_value_close$10 == 0))
+    signed int return_value_close_10;
+    return_value_close_10=close(client_socket);
+    if(!(return_value_close_10 == 0))
     {
-      return_value___errno_location$11=__errno_location();
-      tmp_if_expr$12 = 9 == *return_value___errno_location$11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_11=__errno_location();
+      tmp_if_expr_12 = 9 == *return_value___errno_location_11 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1352, "close failed\n");
 
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    *return_value___errno_location$13 = 23;
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    *return_value___errno_location_13 = 23;
     return 0;
   }
 
   signed int return_value;
-  _Bool tmp_if_expr$18;
-  signed int *return_value___errno_location$17;
+  _Bool tmp_if_expr_18;
+  signed int *return_value___errno_location_17;
   if(!(daemon->apc == ((signed int (*)(void *, struct sockaddr *, unsigned int))NULL)))
   {
     return_value=daemon->apc(daemon->apc_cls, addr, addrlen);
     if(return_value == 0)
     {
-      signed int return_value_close$16;
-      return_value_close$16=close(client_socket);
-      if(!(return_value_close$16 == 0))
+      signed int return_value_close_16;
+      return_value_close_16=close(client_socket);
+      if(!(return_value_close_16 == 0))
       {
-        return_value___errno_location$17=__errno_location();
-        tmp_if_expr$18 = 9 == *return_value___errno_location$17 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_17=__errno_location();
+        tmp_if_expr_18 = 9 == *return_value___errno_location_17 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$18 = (_Bool)0;
-      if(tmp_if_expr$18)
+        tmp_if_expr_18 = (_Bool)0;
+      if(tmp_if_expr_18)
         mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1371, "close failed\n");
 
       MHD_ip_limit_del(daemon, addr, addrlen);
@@ -10351,108 +10351,108 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
 
   }
 
-  void *return_value_malloc$26;
-  return_value_malloc$26=malloc(sizeof(struct MHD_Connection) /*392ul*/ );
-  connection = (struct MHD_Connection *)return_value_malloc$26;
-  _Bool tmp_if_expr$24;
-  signed int *return_value___errno_location$23;
+  void *return_value_malloc_26;
+  return_value_malloc_26=malloc(sizeof(struct MHD_Connection) /*392ul*/ );
+  connection = (struct MHD_Connection *)return_value_malloc_26;
+  _Bool tmp_if_expr_24;
+  signed int *return_value___errno_location_23;
   if(connection == ((struct MHD_Connection *)NULL))
   {
-    signed int *return_value___errno_location$19;
-    return_value___errno_location$19=__errno_location();
-    eno = *return_value___errno_location$19;
-    signed int *return_value___errno_location$20;
-    return_value___errno_location$20=__errno_location();
-    char *return_value_strerror$21;
-    return_value_strerror$21=strerror(*return_value___errno_location$20);
-    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror$21);
-    signed int return_value_close$22;
-    return_value_close$22=close(client_socket);
-    if(!(return_value_close$22 == 0))
+    signed int *return_value___errno_location_19;
+    return_value___errno_location_19=__errno_location();
+    eno = *return_value___errno_location_19;
+    signed int *return_value___errno_location_20;
+    return_value___errno_location_20=__errno_location();
+    char *return_value_strerror_21;
+    return_value_strerror_21=strerror(*return_value___errno_location_20);
+    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror_21);
+    signed int return_value_close_22;
+    return_value_close_22=close(client_socket);
+    if(!(return_value_close_22 == 0))
     {
-      return_value___errno_location$23=__errno_location();
-      tmp_if_expr$24 = 9 == *return_value___errno_location$23 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_23=__errno_location();
+      tmp_if_expr_24 = 9 == *return_value___errno_location_23 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$24 = (_Bool)0;
-    if(tmp_if_expr$24)
+      tmp_if_expr_24 = (_Bool)0;
+    if(tmp_if_expr_24)
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1398, "close failed\n");
 
     MHD_ip_limit_del(daemon, addr, addrlen);
-    signed int *return_value___errno_location$25;
-    return_value___errno_location$25=__errno_location();
-    *return_value___errno_location$25 = eno;
+    signed int *return_value___errno_location_25;
+    return_value___errno_location_25=__errno_location();
+    *return_value___errno_location_25 = eno;
     return 0;
   }
 
   memset((void *)connection, 0, sizeof(struct MHD_Connection) /*392ul*/ );
   connection->pool=MHD_pool_create(daemon->pool_size);
-  _Bool tmp_if_expr$31;
-  signed int *return_value___errno_location$30;
+  _Bool tmp_if_expr_31;
+  signed int *return_value___errno_location_30;
   if(connection->pool == ((struct MemoryPool *)NULL))
   {
-    signed int *return_value___errno_location$27;
-    return_value___errno_location$27=__errno_location();
-    char *return_value_strerror$28;
-    return_value_strerror$28=strerror(*return_value___errno_location$27);
-    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror$28);
-    signed int return_value_close$29;
-    return_value_close$29=close(client_socket);
-    if(!(return_value_close$29 == 0))
+    signed int *return_value___errno_location_27;
+    return_value___errno_location_27=__errno_location();
+    char *return_value_strerror_28;
+    return_value_strerror_28=strerror(*return_value___errno_location_27);
+    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror_28);
+    signed int return_value_close_29;
+    return_value_close_29=close(client_socket);
+    if(!(return_value_close_29 == 0))
     {
-      return_value___errno_location$30=__errno_location();
-      tmp_if_expr$31 = 9 == *return_value___errno_location$30 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_30=__errno_location();
+      tmp_if_expr_31 = 9 == *return_value___errno_location_30 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$31 = (_Bool)0;
-    if(tmp_if_expr$31)
+      tmp_if_expr_31 = (_Bool)0;
+    if(tmp_if_expr_31)
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1415, "close failed\n");
 
     MHD_ip_limit_del(daemon, addr, addrlen);
     free((void *)connection);
-    signed int *return_value___errno_location$32;
-    return_value___errno_location$32=__errno_location();
-    *return_value___errno_location$32 = 12;
+    signed int *return_value___errno_location_32;
+    return_value___errno_location_32=__errno_location();
+    *return_value___errno_location_32 = 12;
     return 0;
   }
 
   connection->connection_timeout = daemon->connection_timeout;
-  void *return_value_malloc$40;
-  return_value_malloc$40=malloc((unsigned long int)addrlen);
-  connection->addr = (struct sockaddr *)return_value_malloc$40;
-  _Bool tmp_if_expr$38;
-  signed int *return_value___errno_location$37;
+  void *return_value_malloc_40;
+  return_value_malloc_40=malloc((unsigned long int)addrlen);
+  connection->addr = (struct sockaddr *)return_value_malloc_40;
+  _Bool tmp_if_expr_38;
+  signed int *return_value___errno_location_37;
   if(connection->addr == ((struct sockaddr *)NULL))
   {
-    signed int *return_value___errno_location$33;
-    return_value___errno_location$33=__errno_location();
-    eno = *return_value___errno_location$33;
-    signed int *return_value___errno_location$34;
-    return_value___errno_location$34=__errno_location();
-    char *return_value_strerror$35;
-    return_value_strerror$35=strerror(*return_value___errno_location$34);
-    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror$35);
-    signed int return_value_close$36;
-    return_value_close$36=close(client_socket);
-    if(!(return_value_close$36 == 0))
+    signed int *return_value___errno_location_33;
+    return_value___errno_location_33=__errno_location();
+    eno = *return_value___errno_location_33;
+    signed int *return_value___errno_location_34;
+    return_value___errno_location_34=__errno_location();
+    char *return_value_strerror_35;
+    return_value_strerror_35=strerror(*return_value___errno_location_34);
+    MHD_DLOG(daemon, "Error allocating memory: %s\n", return_value_strerror_35);
+    signed int return_value_close_36;
+    return_value_close_36=close(client_socket);
+    if(!(return_value_close_36 == 0))
     {
-      return_value___errno_location$37=__errno_location();
-      tmp_if_expr$38 = 9 == *return_value___errno_location$37 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_37=__errno_location();
+      tmp_if_expr_38 = 9 == *return_value___errno_location_37 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$38 = (_Bool)0;
-    if(tmp_if_expr$38)
+      tmp_if_expr_38 = (_Bool)0;
+    if(tmp_if_expr_38)
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1434, "close failed\n");
 
     MHD_ip_limit_del(daemon, addr, addrlen);
     MHD_pool_destroy(connection->pool);
     free((void *)connection);
-    signed int *return_value___errno_location$39;
-    return_value___errno_location$39=__errno_location();
-    *return_value___errno_location$39 = eno;
+    signed int *return_value___errno_location_39;
+    return_value___errno_location_39=__errno_location();
+    *return_value___errno_location_39 = eno;
     return 0;
   }
 
@@ -10464,33 +10464,33 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
   MHD_set_http_callbacks_(connection);
   connection->recv_cls = recv_param_adapter;
   connection->send_cls = send_param_adapter;
-  _Bool tmp_if_expr$44;
-  signed int return_value_fcntl$43;
+  _Bool tmp_if_expr_44;
+  signed int return_value_fcntl_43;
   if((MHD_USE_EPOLL_TURBO & (signed int)connection->daemon->options) == 0)
   {
     signed int flags;
     flags=fcntl(connection->socket_fd, 3);
     if(flags == -1)
-      tmp_if_expr$44 = (_Bool)1;
+      tmp_if_expr_44 = (_Bool)1;
 
     else
     {
-      return_value_fcntl$43=fcntl(connection->socket_fd, 4, flags | 04000);
-      tmp_if_expr$44 = 0 != return_value_fcntl$43 ? (_Bool)1 : (_Bool)0;
+      return_value_fcntl_43=fcntl(connection->socket_fd, 4, flags | 04000);
+      tmp_if_expr_44 = 0 != return_value_fcntl_43 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$44)
+    if(tmp_if_expr_44)
     {
-      signed int *return_value___errno_location$41;
-      return_value___errno_location$41=__errno_location();
-      char *return_value_strerror$42;
-      return_value_strerror$42=strerror(*return_value___errno_location$41);
-      MHD_DLOG(daemon, "Failed to make socket non-blocking: %s\n", return_value_strerror$42);
+      signed int *return_value___errno_location_41;
+      return_value___errno_location_41=__errno_location();
+      char *return_value_strerror_42;
+      return_value_strerror_42=strerror(*return_value___errno_location_41);
+      MHD_DLOG(daemon, "Failed to make socket non-blocking: %s\n", return_value_strerror_42);
     }
 
   }
 
-  _Bool tmp_if_expr$47;
-  signed int *return_value___errno_location$46;
+  _Bool tmp_if_expr_47;
+  signed int *return_value___errno_location_46;
   if(!((MHD_USE_SSL & (signed int)daemon->options) == 0))
   {
     connection->recv_cls = recv_tls_adapter;
@@ -10501,31 +10501,31 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
     gnutls_priority_set(connection->tls_session, daemon->priority_cache);
     if((signed int)daemon->cred_type == GNUTLS_CRD_CERTIFICATE)
     {
-      gnutls_credentials_set(connection->tls_session, (enum anonymous$0)GNUTLS_CRD_CERTIFICATE, (void *)daemon->x509_cred);
+      gnutls_credentials_set(connection->tls_session, (enum anonymous_0)GNUTLS_CRD_CERTIFICATE, (void *)daemon->x509_cred);
       goto __CPROVER_DUMP_L52;
     }
 
     MHD_DLOG(connection->daemon, "Failed to setup TLS credentials: unknown credential type %d\n", daemon->cred_type);
-    signed int return_value_close$45;
-    return_value_close$45=close(client_socket);
-    if(!(return_value_close$45 == 0))
+    signed int return_value_close_45;
+    return_value_close_45=close(client_socket);
+    if(!(return_value_close_45 == 0))
     {
-      return_value___errno_location$46=__errno_location();
-      tmp_if_expr$47 = 9 == *return_value___errno_location$46 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_46=__errno_location();
+      tmp_if_expr_47 = 9 == *return_value___errno_location_46 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$47 = (_Bool)0;
-    if(tmp_if_expr$47)
+      tmp_if_expr_47 = (_Bool)0;
+    if(tmp_if_expr_47)
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1513, "close failed\n");
 
     MHD_ip_limit_del(daemon, addr, addrlen);
     free((void *)connection->addr);
     free((void *)connection);
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1517, "Unknown credential type");
-    signed int *return_value___errno_location$48;
-    return_value___errno_location$48=__errno_location();
-    *return_value___errno_location$48 = 22;
+    signed int *return_value___errno_location_48;
+    return_value___errno_location_48=__errno_location();
+    *return_value___errno_location_48 = 22;
     return 0;
 
   __CPROVER_DUMP_L52:
@@ -10534,15 +10534,15 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
     gnutls_transport_set_pull_function(connection->tls_session, (signed long int (*)(void *, void *, unsigned long int))recv_param_adapter);
     gnutls_transport_set_push_function(connection->tls_session, (signed long int (*)(void *, const void *, unsigned long int))send_param_adapter);
     if(!(daemon->https_mem_trust == ((const char *)NULL)))
-      gnutls_certificate_server_set_request(connection->tls_session, (enum anonymous$12)GNUTLS_CERT_REQUEST);
+      gnutls_certificate_server_set_request(connection->tls_session, (enum anonymous_12)GNUTLS_CERT_REQUEST);
 
   }
 
-  signed int return_value_pthread_mutex_lock$49;
+  signed int return_value_pthread_mutex_lock_49;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$49=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$49 == 0))
+    return_value_pthread_mutex_lock_49=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_49 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1538, "Failed to acquire cleanup mutex\n");
 
   }
@@ -10571,11 +10571,11 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
     daemon->connections_head = connection;
   }
   while((_Bool)0);
-  signed int return_value_pthread_mutex_unlock$50;
+  signed int return_value_pthread_mutex_unlock_50;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$50=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$50 == 0))
+    return_value_pthread_mutex_unlock_50=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_50 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1547, "Failed to release cleanup mutex\n");
 
   }
@@ -10583,18 +10583,18 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
   if(!(daemon->notify_connection == ((void (*)(void *, struct MHD_Connection *, void **, enum MHD_ConnectionNotificationCode))NULL)))
     daemon->notify_connection(daemon->notify_connection_cls, connection, &connection->socket_context, (enum MHD_ConnectionNotificationCode)MHD_CONNECTION_NOTIFY_STARTED);
 
-  signed long int return_value_write$53;
+  signed long int return_value_write_53;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
     res_thread_create=create_thread(&connection->pid, daemon, MHD_handle_connection, (void *)connection);
     if(!(res_thread_create == 0))
     {
-      signed int *return_value___errno_location$51;
-      return_value___errno_location$51=__errno_location();
-      eno = *return_value___errno_location$51;
-      char *return_value_strerror$52;
-      return_value_strerror$52=strerror(res_thread_create);
-      MHD_DLOG(daemon, "Failed to create a thread: %s\n", return_value_strerror$52);
+      signed int *return_value___errno_location_51;
+      return_value___errno_location_51=__errno_location();
+      eno = *return_value___errno_location_51;
+      char *return_value_strerror_52;
+      return_value_strerror_52=strerror(res_thread_create);
+      MHD_DLOG(daemon, "Failed to create a thread: %s\n", return_value_strerror_52);
       goto cleanup;
     }
 
@@ -10605,8 +10605,8 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
     {
       if(!(daemon->wpipe[1l] == -1))
       {
-        return_value_write$53=write(daemon->wpipe[(signed long int)1], (const void *)"n", (unsigned long int)1);
-        if(!(return_value_write$53 == 1l))
+        return_value_write_53=write(daemon->wpipe[(signed long int)1], (const void *)"n", (unsigned long int)1);
+        if(!(return_value_write_53 == 1l))
           MHD_DLOG(daemon, "failed to signal new connection via pipe");
 
       }
@@ -10620,18 +10620,18 @@ static signed int internal_add_connection(struct MHD_Daemon *daemon, signed int 
       struct epoll_event event;
       event.events = (unsigned int)(1 | 4 | -2147483648);
       event.data.ptr = (void *)connection;
-      signed int return_value_epoll_ctl$57;
-      return_value_epoll_ctl$57=epoll_ctl(daemon->epoll_fd, 1, client_socket, &event);
-      if(!(return_value_epoll_ctl$57 == 0))
+      signed int return_value_epoll_ctl_57;
+      return_value_epoll_ctl_57=epoll_ctl(daemon->epoll_fd, 1, client_socket, &event);
+      if(!(return_value_epoll_ctl_57 == 0))
       {
-        signed int *return_value___errno_location$54;
-        return_value___errno_location$54=__errno_location();
-        eno = *return_value___errno_location$54;
-        signed int *return_value___errno_location$55;
-        return_value___errno_location$55=__errno_location();
-        char *return_value_strerror$56;
-        return_value_strerror$56=strerror(*return_value___errno_location$55);
-        MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror$56);
+        signed int *return_value___errno_location_54;
+        return_value___errno_location_54=__errno_location();
+        eno = *return_value___errno_location_54;
+        signed int *return_value___errno_location_55;
+        return_value___errno_location_55=__errno_location();
+        char *return_value_strerror_56;
+        return_value_strerror_56=strerror(*return_value___errno_location_55);
+        MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror_56);
         goto cleanup;
       }
 
@@ -10664,27 +10664,27 @@ cleanup:
   if(!(daemon->notify_connection == ((void (*)(void *, struct MHD_Connection *, void **, enum MHD_ConnectionNotificationCode))NULL)))
     daemon->notify_connection(daemon->notify_connection_cls, connection, &connection->socket_context, (enum MHD_ConnectionNotificationCode)MHD_CONNECTION_NOTIFY_CLOSED);
 
-  signed int return_value_close$58;
-  return_value_close$58=close(client_socket);
-  _Bool tmp_if_expr$60;
-  signed int *return_value___errno_location$59;
-  if(!(return_value_close$58 == 0))
+  signed int return_value_close_58;
+  return_value_close_58=close(client_socket);
+  _Bool tmp_if_expr_60;
+  signed int *return_value___errno_location_59;
+  if(!(return_value_close_58 == 0))
   {
-    return_value___errno_location$59=__errno_location();
-    tmp_if_expr$60 = 9 == *return_value___errno_location$59 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_59=__errno_location();
+    tmp_if_expr_60 = 9 == *return_value___errno_location_59 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$60 = (_Bool)0;
-  if(tmp_if_expr$60)
+    tmp_if_expr_60 = (_Bool)0;
+  if(tmp_if_expr_60)
     mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1626, "close failed\n");
 
   MHD_ip_limit_del(daemon, addr, addrlen);
-  signed int return_value_pthread_mutex_lock$61;
+  signed int return_value_pthread_mutex_lock_61;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$61=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$61 == 0))
+    return_value_pthread_mutex_lock_61=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_61 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1630, "Failed to acquire cleanup mutex\n");
 
   }
@@ -10721,11 +10721,11 @@ cleanup:
     connection->prevX = (struct MHD_Connection *)(void *)0;
   }
   while((_Bool)0);
-  signed int return_value_pthread_mutex_unlock$62;
+  signed int return_value_pthread_mutex_unlock_62;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$62=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$62 == 0))
+    return_value_pthread_mutex_unlock_62=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_62 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1639, "Failed to release cleanup mutex\n");
 
   }
@@ -10733,9 +10733,9 @@ cleanup:
   MHD_pool_destroy(connection->pool);
   free((void *)connection->addr);
   free((void *)connection);
-  signed int *return_value___errno_location$63;
-  return_value___errno_location$63=__errno_location();
-  *return_value___errno_location$63 = eno;
+  signed int *return_value___errno_location_63;
+  return_value___errno_location_63=__errno_location();
+  *return_value___errno_location_63 = eno;
   return 0;
 }
 
@@ -10747,9 +10747,9 @@ static signed int iterate_post(void *coninfo_cls, enum MHD_ValueKind kind, const
   struct _IO_FILE *fp;
   con_info->answerstring = servererrorpage;
   con_info->answercode = 500;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(key, "file");
-  if(!(return_value_strcmp$1 == 0))
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(key, "file");
+  if(!(return_value_strcmp_1 == 0))
     return 0;
 
   else
@@ -10778,9 +10778,9 @@ static signed int iterate_post(void *coninfo_cls, enum MHD_ValueKind kind, const
       ;
       if(size >= 1ul)
       {
-        unsigned long int return_value_fwrite$2;
-        return_value_fwrite$2=fwrite((const void *)data, size, sizeof(char) /*1ul*/ , con_info->fp);
-        if(return_value_fwrite$2 == 0ul)
+        unsigned long int return_value_fwrite_2;
+        return_value_fwrite_2=fwrite((const void *)data, size, sizeof(char) /*1ul*/ , con_info->fp);
+        if(return_value_fwrite_2 == 0ul)
           return 0;
 
       }
@@ -10796,8 +10796,8 @@ static signed int iterate_post(void *coninfo_cls, enum MHD_ValueKind kind, const
 static signed int keepalive_possible(struct MHD_Connection *connection)
 {
   const char *end;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
   if(connection->version == ((char *)NULL))
     return 0;
 
@@ -10816,39 +10816,39 @@ static signed int keepalive_possible(struct MHD_Connection *connection)
     __CPROVER_DUMP_L2:
       ;
       end=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Connection");
-      signed int return_value_strcasecmp$4;
-      return_value_strcasecmp$4=strcasecmp(connection->version, "HTTP/1.1");
-      if(return_value_strcasecmp$4 == 0)
+      signed int return_value_strcasecmp_4;
+      return_value_strcasecmp_4=strcasecmp(connection->version, "HTTP/1.1");
+      if(return_value_strcasecmp_4 == 0)
       {
         if(end == ((const char *)NULL))
           return 1;
 
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp(end, "close");
-        if(return_value_strcasecmp$1 == 0)
-          tmp_if_expr$3 = (_Bool)1;
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp(end, "close");
+        if(return_value_strcasecmp_1 == 0)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_strcasecmp$2=strcasecmp(end, "upgrade");
-          tmp_if_expr$3 = 0 == return_value_strcasecmp$2 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_2=strcasecmp(end, "upgrade");
+          tmp_if_expr_3 = 0 == return_value_strcasecmp_2 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
           return 0;
 
         return 1;
       }
 
-      signed int return_value_strcasecmp$6;
-      return_value_strcasecmp$6=strcasecmp(connection->version, "HTTP/1.0");
-      if(return_value_strcasecmp$6 == 0)
+      signed int return_value_strcasecmp_6;
+      return_value_strcasecmp_6=strcasecmp(connection->version, "HTTP/1.0");
+      if(return_value_strcasecmp_6 == 0)
       {
         if(end == ((const char *)NULL))
           return 0;
 
-        signed int return_value_strcasecmp$5;
-        return_value_strcasecmp$5=strcasecmp(end, "Keep-Alive");
-        if(return_value_strcasecmp$5 == 0)
+        signed int return_value_strcasecmp_5;
+        return_value_strcasecmp_5=strcasecmp(end, "Keep-Alive");
+        if(return_value_strcasecmp_5 == 0)
           return 1;
 
         return 0;
@@ -10900,17 +10900,17 @@ static unsigned long int lookup_sub_value(char *dest, unsigned long int size, co
 
         qn = q2 + (signed long int)1;
       }
-      signed int return_value_strncasecmp$2;
-      return_value_strncasecmp$2=strncasecmp(ptr, key, keylen);
-      if(return_value_strncasecmp$2 == 0)
+      signed int return_value_strncasecmp_2;
+      return_value_strncasecmp_2=strncasecmp(ptr, key, keylen);
+      if(return_value_strncasecmp_2 == 0)
       {
         if(eq == ptr + (signed long int)keylen)
         {
           if(q2 == ((const char *)NULL))
           {
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(q1);
-            len = return_value_strlen$1 + (unsigned long int)1;
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(q1);
+            len = return_value_strlen_1 + (unsigned long int)1;
             if(!(len >= size))
               size = len;
 
@@ -10973,31 +10973,31 @@ static void make_nonblocking_noninheritable(struct MHD_Daemon *daemon, signed in
   signed int flags;
   signed int nonblock = 04000;
   flags=fcntl(sock, 1);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int return_value_fcntl$3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int return_value_fcntl_3;
   if(flags == -1)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
     if(!(flags == (1 | flags)))
     {
-      return_value_fcntl$3=fcntl(sock, 2, flags | nonblock | 1);
-      tmp_if_expr$4 = 0 != return_value_fcntl$3 ? (_Bool)1 : (_Bool)0;
+      return_value_fcntl_3=fcntl(sock, 2, flags | nonblock | 1);
+      tmp_if_expr_4 = 0 != return_value_fcntl_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    MHD_DLOG(daemon, "Failed to make socket non-inheritable: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    MHD_DLOG(daemon, "Failed to make socket non-inheritable: %s\n", return_value_strerror_2);
   }
 
 }
@@ -11015,52 +11015,52 @@ static void mhd_panic_std(void *cls, const char *file, unsigned int line, const 
 static signed int need_100_continue(struct MHD_Connection *connection)
 {
   const char *expect;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(connection->response == ((struct MHD_Response *)NULL))
-    tmp_if_expr$1 = (char *)(void *)0 != connection->version ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (char *)(void *)0 != connection->version ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  if(tmp_if_expr_1)
   {
-    return_value_strcasecmp$2=strcasecmp(connection->version, "HTTP/1.1");
-    tmp_if_expr$3 = 0 == return_value_strcasecmp$2 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_2=strcasecmp(connection->version, "HTTP/1.1");
+    tmp_if_expr_3 = 0 == return_value_strcasecmp_2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
   {
     expect=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Expect");
-    tmp_if_expr$4 = (const char *)(void *)0 != expect ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (const char *)(void *)0 != expect ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcasecmp$5;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcasecmp_5;
+  if(tmp_if_expr_4)
   {
-    return_value_strcasecmp$5=strcasecmp(expect, "100-continue");
-    tmp_if_expr$6 = 0 == return_value_strcasecmp$5 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_5=strcasecmp(expect, "100-continue");
+    tmp_if_expr_6 = 0 == return_value_strcasecmp_5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  _Bool tmp_if_expr$8;
-  unsigned long int return_value_strlen$7;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  _Bool tmp_if_expr_8;
+  unsigned long int return_value_strlen_7;
+  if(tmp_if_expr_6)
   {
-    return_value_strlen$7=strlen("HTTP/1.1 100 Continue\r\n\r\n");
-    tmp_if_expr$8 = connection->continue_message_write_offset < return_value_strlen$7 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_7=strlen("HTTP/1.1 100 Continue\r\n\r\n");
+    tmp_if_expr_8 = connection->continue_message_write_offset < return_value_strlen_7 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  return (signed int)tmp_if_expr$8;
+    tmp_if_expr_8 = (_Bool)0;
+  return (signed int)tmp_if_expr_8;
 }
 
 // parse_arguments
@@ -11079,9 +11079,9 @@ static signed int parse_arguments(enum MHD_ValueKind kind, struct MHD_Connection
       {
         MHD_unescape_plus(args);
         connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, args);
-        signed int return_value_connection_add_header$1;
-        return_value_connection_add_header$1=connection_add_header(connection, args, (char *)(void *)0, kind);
-        return return_value_connection_add_header$1;
+        signed int return_value_connection_add_header_1;
+        return_value_connection_add_header_1=connection_add_header(connection, args, (char *)(void *)0, kind);
+        return return_value_connection_add_header_1;
       }
 
       equals[(signed long int)0] = (char)0;
@@ -11090,9 +11090,9 @@ static signed int parse_arguments(enum MHD_ValueKind kind, struct MHD_Connection
       connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, args);
       MHD_unescape_plus(equals);
       connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, equals);
-      signed int return_value_connection_add_header$2;
-      return_value_connection_add_header$2=connection_add_header(connection, args, equals, kind);
-      return return_value_connection_add_header$2;
+      signed int return_value_connection_add_header_2;
+      return_value_connection_add_header_2=connection_add_header(connection, args, equals, kind);
+      return return_value_connection_add_header_2;
     }
 
     amper[(signed long int)0] = (char)0;
@@ -11101,9 +11101,9 @@ static signed int parse_arguments(enum MHD_ValueKind kind, struct MHD_Connection
     {
       MHD_unescape_plus(args);
       connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, args);
-      signed int return_value_connection_add_header$3;
-      return_value_connection_add_header$3=connection_add_header(connection, args, (char *)(void *)0, kind);
-      if(return_value_connection_add_header$3 == 0)
+      signed int return_value_connection_add_header_3;
+      return_value_connection_add_header_3=connection_add_header(connection, args, (char *)(void *)0, kind);
+      if(return_value_connection_add_header_3 == 0)
         return 0;
 
       args = amper;
@@ -11115,9 +11115,9 @@ static signed int parse_arguments(enum MHD_ValueKind kind, struct MHD_Connection
     connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, args);
     MHD_unescape_plus(equals);
     connection->daemon->unescape_callback(connection->daemon->unescape_callback_cls, connection, equals);
-    signed int return_value_connection_add_header$4;
-    return_value_connection_add_header$4=connection_add_header(connection, args, equals, kind);
-    if(return_value_connection_add_header$4 == 0)
+    signed int return_value_connection_add_header_4;
+    return_value_connection_add_header_4=connection_add_header(connection, args, equals, kind);
+    if(return_value_connection_add_header_4 == 0)
       return 0;
 
     args = amper;
@@ -11136,24 +11136,24 @@ static void parse_connection_headers(struct MHD_Connection *connection)
   const char *enc;
   char *end;
   parse_cookie_header(connection);
-  signed int return_value_strcasecmp$3;
-  const char *return_value_MHD_lookup_connection_value$2;
+  signed int return_value_strcasecmp_3;
+  const char *return_value_MHD_lookup_connection_value_2;
   if(!((MHD_USE_PEDANTIC_CHECKS & (signed int)connection->daemon->options) == 0))
   {
     if(!(connection->version == ((char *)NULL)))
     {
-      return_value_strcasecmp$3=strcasecmp("HTTP/1.1", connection->version);
-      if(return_value_strcasecmp$3 == 0)
+      return_value_strcasecmp_3=strcasecmp("HTTP/1.1", connection->version);
+      if(return_value_strcasecmp_3 == 0)
       {
-        return_value_MHD_lookup_connection_value$2=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Host");
-        if(return_value_MHD_lookup_connection_value$2 == ((const char *)NULL))
+        return_value_MHD_lookup_connection_value_2=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Host");
+        if(return_value_MHD_lookup_connection_value_2 == ((const char *)NULL))
         {
           connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_FOOTERS_RECEIVED;
           connection->read_closed = 1;
           MHD_DLOG(connection->daemon, "Received `%s' request without `%s' header.\n", (const void *)"HTTP/1.1", (const void *)"Host");
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen("<html><head><title>&quot;Host:&quot; header required</title></head><body>In HTTP 1.1, requests must include a &quot;Host:&quot; header, and your HTTP 1.1 request lacked such a header.</body></html>");
-          response=MHD_create_response_from_buffer(return_value_strlen$1, (void *)"<html><head><title>&quot;Host:&quot; header required</title></head><body>In HTTP 1.1, requests must include a &quot;Host:&quot; header, and your HTTP 1.1 request lacked such a header.</body></html>", (enum MHD_ResponseMemoryMode)MHD_RESPMEM_PERSISTENT);
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen("<html><head><title>&quot;Host:&quot; header required</title></head><body>In HTTP 1.1, requests must include a &quot;Host:&quot; header, and your HTTP 1.1 request lacked such a header.</body></html>");
+          response=MHD_create_response_from_buffer(return_value_strlen_1, (void *)"<html><head><title>&quot;Host:&quot; header required</title></head><body>In HTTP 1.1, requests must include a &quot;Host:&quot; header, and your HTTP 1.1 request lacked such a header.</body></html>", (enum MHD_ResponseMemoryMode)MHD_RESPMEM_PERSISTENT);
           MHD_queue_response(connection, (unsigned int)400, response);
           MHD_destroy_response(response);
           goto __CPROVER_DUMP_L10;
@@ -11167,15 +11167,15 @@ static void parse_connection_headers(struct MHD_Connection *connection)
 
   connection->remaining_upload_size = (unsigned long int)0;
   enc=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Transfer-Encoding");
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(!(enc == ((const char *)NULL)))
   {
     connection->remaining_upload_size = 18446744073709551615UL;
-    signed int return_value_strcasecmp$4;
-    return_value_strcasecmp$4=strcasecmp(enc, "chunked");
-    if(return_value_strcasecmp$4 == 0)
+    signed int return_value_strcasecmp_4;
+    return_value_strcasecmp_4=strcasecmp(enc, "chunked");
+    if(return_value_strcasecmp_4 == 0)
       connection->have_chunked_upload = 1;
 
   }
@@ -11187,21 +11187,21 @@ static void parse_connection_headers(struct MHD_Connection *connection)
     {
       cval=strtoul(clen, &end, 10);
       if(!((signed int)*end == 0))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
         if(cval == 9223372036854775807ul)
         {
-          return_value___errno_location$5=__errno_location();
-          tmp_if_expr$6 = *return_value___errno_location$5 == 34 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_5=__errno_location();
+          tmp_if_expr_6 = *return_value___errno_location_5 == 34 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
         MHD_DLOG(connection->daemon, "Failed to parse `%s' header `%s', closing connection.\n", (const void *)"Content-Length", clen);
         connection_close_error(connection, (const char *)(void *)0);
@@ -11231,18 +11231,18 @@ static signed int parse_cookie_header(struct MHD_Connection *connection)
   char old;
   signed int quotes;
   hdr=MHD_lookup_connection_value(connection, (enum MHD_ValueKind)MHD_HEADER_KIND, "Cookie");
-  char *tmp_post$4;
-  unsigned long int return_value_strlen$7;
+  char *tmp_post_4;
+  unsigned long int return_value_strlen_7;
   if(hdr == ((const char *)NULL))
     return 1;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(hdr);
-    void *return_value_MHD_pool_allocate$2;
-    return_value_MHD_pool_allocate$2=MHD_pool_allocate(connection->pool, return_value_strlen$1 + (unsigned long int)1, 1);
-    cpy = (char *)return_value_MHD_pool_allocate$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(hdr);
+    void *return_value_MHD_pool_allocate_2;
+    return_value_MHD_pool_allocate_2=MHD_pool_allocate(connection->pool, return_value_strlen_1 + (unsigned long int)1, 1);
+    cpy = (char *)return_value_MHD_pool_allocate_2;
     if(cpy == ((char *)NULL))
     {
       MHD_DLOG(connection->daemon, "Not enough memory to parse cookies!\n");
@@ -11252,9 +11252,9 @@ static signed int parse_cookie_header(struct MHD_Connection *connection)
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(hdr);
-      memcpy((void *)cpy, (const void *)hdr, return_value_strlen$3 + (unsigned long int)1);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(hdr);
+      memcpy((void *)cpy, (const void *)hdr, return_value_strlen_3 + (unsigned long int)1);
       pos = cpy;
       while(!(pos == ((char *)NULL)))
       {
@@ -11274,21 +11274,21 @@ static signed int parse_cookie_header(struct MHD_Connection *connection)
 
         }
         ekill = sce - (signed long int)1;
-        for( ; (signed int)*ekill == 32; *tmp_post$4 = (char)0)
+        for( ; (signed int)*ekill == 32; *tmp_post_4 = (char)0)
         {
           if(!(ekill >= pos))
             break;
 
-          tmp_post$4 = ekill;
+          tmp_post_4 = ekill;
           ekill = ekill - 1l;
         }
         old = *sce;
         *sce = (char)0;
         if(!((signed int)old == 61))
         {
-          signed int return_value_connection_add_header$5;
-          return_value_connection_add_header$5=connection_add_header(connection, pos, "", (enum MHD_ValueKind)MHD_COOKIE_KIND);
-          if(return_value_connection_add_header$5 == 0)
+          signed int return_value_connection_add_header_5;
+          return_value_connection_add_header_5=connection_add_header(connection, pos, "", (enum MHD_ValueKind)MHD_COOKIE_KIND);
+          if(return_value_connection_add_header_5 == 0)
             return 0;
 
           if((signed int)old == 0)
@@ -11336,20 +11336,20 @@ static signed int parse_cookie_header(struct MHD_Connection *connection)
 
         if((signed int)*equals == 34)
         {
-          return_value_strlen$7=strlen(equals);
-          if((signed int)equals[-1l + (signed long int)return_value_strlen$7] == 34)
+          return_value_strlen_7=strlen(equals);
+          if((signed int)equals[-1l + (signed long int)return_value_strlen_7] == 34)
           {
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(equals);
-            equals[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(equals);
+            equals[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
             equals = equals + 1l;
           }
 
         }
 
-        signed int return_value_connection_add_header$8;
-        return_value_connection_add_header$8=connection_add_header(connection, pos, equals, (enum MHD_ValueKind)MHD_COOKIE_KIND);
-        if(return_value_connection_add_header$8 == 0)
+        signed int return_value_connection_add_header_8;
+        return_value_connection_add_header_8=connection_add_header(connection, pos, equals, (enum MHD_ValueKind)MHD_COOKIE_KIND);
+        if(return_value_connection_add_header_8 == 0)
           return 0;
 
         pos = semicolon;
@@ -11427,20 +11427,20 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
   unsigned int i;
   signed int ret;
   const char *pstr;
-  signed int return_value_gcc_builtin_va_arg$1;
-  signed int return_value_gcc_builtin_va_arg$2;
-  unsigned int return_value_gcc_builtin_va_arg$7;
-  signed int return_value_parse_options$8;
-  signed int return_value_parse_options$9;
-  signed int return_value_parse_options$10;
-  signed int return_value_parse_options$11;
-  signed int return_value_parse_options$12;
-  signed int return_value_parse_options$13;
-  signed int return_value_parse_options$14;
+  signed int return_value_gcc_builtin_va_arg_1;
+  signed int return_value_gcc_builtin_va_arg_2;
+  unsigned int return_value_gcc_builtin_va_arg_7;
+  signed int return_value_parse_options_8;
+  signed int return_value_parse_options_9;
+  signed int return_value_parse_options_10;
+  signed int return_value_parse_options_11;
+  signed int return_value_parse_options_12;
+  signed int return_value_parse_options_13;
+  signed int return_value_parse_options_14;
   do
   {
-    return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-    opt = (enum MHD_OPTION)return_value_gcc_builtin_va_arg$1;
+    return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+    opt = (enum MHD_OPTION)return_value_gcc_builtin_va_arg_1;
     if((signed int)opt == MHD_OPTION_END)
       break;
 
@@ -11543,8 +11543,8 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
       }
       case MHD_OPTION_HTTPS_CRED_TYPE:
       {
-        return_value_gcc_builtin_va_arg$2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$2));
-        daemon->cred_type = (enum anonymous$0)return_value_gcc_builtin_va_arg$2;
+        return_value_gcc_builtin_va_arg_2=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_2));
+        daemon->cred_type = (enum anonymous_0)return_value_gcc_builtin_va_arg_2;
         break;
       }
       case MHD_OPTION_HTTPS_MEM_DHPARAMS:
@@ -11553,22 +11553,22 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
         {
           const char *arg;
           arg=va_arg(ap, __typeof__(arg));
-          struct anonymous$2 dhpar;
-          signed int return_value_gnutls_dh_params_init$3;
-          return_value_gnutls_dh_params_init$3=gnutls_dh_params_init(&daemon->https_mem_dhparams);
-          if(!(return_value_gnutls_dh_params_init$3 >= 0))
+          struct anonymous_2 dhpar;
+          signed int return_value_gnutls_dh_params_init_3;
+          return_value_gnutls_dh_params_init_3=gnutls_dh_params_init(&daemon->https_mem_dhparams);
+          if(!(return_value_gnutls_dh_params_init_3 >= 0))
           {
             MHD_DLOG(daemon, "Error initializing DH parameters\n");
             return 0;
           }
 
           dhpar.data = (unsigned char *)arg;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(arg);
-          dhpar.size = (unsigned int)return_value_strlen$4;
-          signed int return_value_gnutls_dh_params_import_pkcs3$5;
-          return_value_gnutls_dh_params_import_pkcs3$5=gnutls_dh_params_import_pkcs3(daemon->https_mem_dhparams, &dhpar, (enum anonymous$1)GNUTLS_X509_FMT_PEM);
-          if(!(return_value_gnutls_dh_params_import_pkcs3$5 >= 0))
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(arg);
+          dhpar.size = (unsigned int)return_value_strlen_4;
+          signed int return_value_gnutls_dh_params_import_pkcs3_5;
+          return_value_gnutls_dh_params_import_pkcs3_5=gnutls_dh_params_import_pkcs3(daemon->https_mem_dhparams, &dhpar, (enum anonymous_1)GNUTLS_X509_FMT_PEM);
+          if(!(return_value_gnutls_dh_params_import_pkcs3_5 >= 0))
           {
             MHD_DLOG(daemon, "Bad Diffie-Hellman parameters format\n");
             gnutls_dh_params_deinit(daemon->https_mem_dhparams);
@@ -11594,9 +11594,9 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
           ret=gnutls_priority_init(&daemon->priority_cache, pstr, (const char **)(void *)0);
           if(!(ret == 0))
           {
-            const char *return_value_gnutls_strerror$6;
-            return_value_gnutls_strerror$6=gnutls_strerror(ret);
-            MHD_DLOG(daemon, "Setting priorities to `%s' failed: %s\n", pstr, return_value_gnutls_strerror$6);
+            const char *return_value_gnutls_strerror_6;
+            return_value_gnutls_strerror_6=gnutls_strerror(ret);
+            MHD_DLOG(daemon, "Setting priorities to `%s' failed: %s\n", pstr, return_value_gnutls_strerror_6);
             daemon->priority_cache = (struct gnutls_priority_st *)(void *)0;
             return 0;
           }
@@ -11646,8 +11646,8 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
       }
       case MHD_OPTION_LISTENING_ADDRESS_REUSE:
       {
-        return_value_gcc_builtin_va_arg$7=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$7));
-        daemon->listening_address_reuse = return_value_gcc_builtin_va_arg$7 != 0u ? 1 : -1;
+        return_value_gcc_builtin_va_arg_7=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_7));
+        daemon->listening_address_reuse = return_value_gcc_builtin_va_arg_7 != 0u ? 1 : -1;
         break;
       }
       case MHD_OPTION_ARRAY:
@@ -11668,8 +11668,8 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
 
             case MHD_OPTION_THREAD_STACK_SIZE:
             {
-              return_value_parse_options$8=parse_options(daemon, servaddr, opt, (unsigned long int)(oa + (signed long int)i)->value, MHD_OPTION_END);
-              if(!(return_value_parse_options$8 == 1))
+              return_value_parse_options_8=parse_options(daemon, servaddr, opt, (unsigned long int)(oa + (signed long int)i)->value, MHD_OPTION_END);
+              if(!(return_value_parse_options_8 == 1))
                 return 0;
 
               break;
@@ -11688,24 +11688,24 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
 
             case MHD_OPTION_LISTENING_ADDRESS_REUSE:
             {
-              return_value_parse_options$9=parse_options(daemon, servaddr, opt, (unsigned int)(oa + (signed long int)i)->value, MHD_OPTION_END);
-              if(!(return_value_parse_options$9 == 1))
+              return_value_parse_options_9=parse_options(daemon, servaddr, opt, (unsigned int)(oa + (signed long int)i)->value, MHD_OPTION_END);
+              if(!(return_value_parse_options_9 == 1))
                 return 0;
 
               break;
             }
             case MHD_OPTION_HTTPS_CRED_TYPE:
             {
-              return_value_parse_options$10=parse_options(daemon, servaddr, opt, (signed int)(oa + (signed long int)i)->value, MHD_OPTION_END);
-              if(!(return_value_parse_options$10 == 1))
+              return_value_parse_options_10=parse_options(daemon, servaddr, opt, (signed int)(oa + (signed long int)i)->value, MHD_OPTION_END);
+              if(!(return_value_parse_options_10 == 1))
                 return 0;
 
               break;
             }
             case MHD_OPTION_LISTEN_SOCKET:
             {
-              return_value_parse_options$11=parse_options(daemon, servaddr, opt, (signed int)(oa + (signed long int)i)->value, MHD_OPTION_END);
-              if(!(return_value_parse_options$11 == 1))
+              return_value_parse_options_11=parse_options(daemon, servaddr, opt, (signed int)(oa + (signed long int)i)->value, MHD_OPTION_END);
+              if(!(return_value_parse_options_11 == 1))
                 return 0;
 
               break;
@@ -11728,8 +11728,8 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
 
             case MHD_OPTION_HTTPS_CERT_CALLBACK:
             {
-              return_value_parse_options$12=parse_options(daemon, servaddr, opt, (oa + (signed long int)i)->ptr_value, MHD_OPTION_END);
-              if(!(return_value_parse_options$12 == 1))
+              return_value_parse_options_12=parse_options(daemon, servaddr, opt, (oa + (signed long int)i)->ptr_value, MHD_OPTION_END);
+              if(!(return_value_parse_options_12 == 1))
                 return 0;
 
               break;
@@ -11744,16 +11744,16 @@ static signed int parse_options_va(struct MHD_Daemon *daemon, struct sockaddr **
 
             case MHD_OPTION_UNESCAPE_CALLBACK:
             {
-              return_value_parse_options$13=parse_options(daemon, servaddr, opt, (void *)(oa + (signed long int)i)->value, (oa + (signed long int)i)->ptr_value, MHD_OPTION_END);
-              if(!(return_value_parse_options$13 == 1))
+              return_value_parse_options_13=parse_options(daemon, servaddr, opt, (void *)(oa + (signed long int)i)->value, (oa + (signed long int)i)->ptr_value, MHD_OPTION_END);
+              if(!(return_value_parse_options_13 == 1))
                 return 0;
 
               break;
             }
             case MHD_OPTION_DIGEST_AUTH_RANDOM:
             {
-              return_value_parse_options$14=parse_options(daemon, servaddr, opt, (unsigned long int)(oa + (signed long int)i)->value, (oa + (signed long int)i)->ptr_value, MHD_OPTION_END);
-              if(!(return_value_parse_options$14 == 1))
+              return_value_parse_options_14=parse_options(daemon, servaddr, opt, (unsigned long int)(oa + (signed long int)i)->value, (oa + (signed long int)i)->ptr_value, MHD_OPTION_END);
+              if(!(return_value_parse_options_14 == 1))
                 return 0;
 
               break;
@@ -11800,15 +11800,15 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
   ioff = (unsigned long int)0;
   poff = (unsigned long int)0;
   state_changed = 1;
-  _Bool tmp_if_expr$1;
-  signed int return_value_find_boundary$2;
-  signed int return_value_process_multipart_headers$3;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_strncasecmp$6;
-  signed int return_value_process_value_to_boundary$7;
-  signed int return_value_find_boundary$8;
-  signed int return_value_process_multipart_headers$9;
-  signed int return_value_process_value_to_boundary$10;
+  _Bool tmp_if_expr_1;
+  signed int return_value_find_boundary_2;
+  signed int return_value_process_multipart_headers_3;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_strncasecmp_6;
+  signed int return_value_process_value_to_boundary_7;
+  signed int return_value_find_boundary_8;
+  signed int return_value_process_multipart_headers_9;
+  signed int return_value_process_value_to_boundary_10;
   while((_Bool)1)
   {
     if(poff >= post_data_len)
@@ -11871,11 +11871,11 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
         if((signed int)*buf == 13)
         {
           if(pp->buffer_pos >= 2ul)
-            tmp_if_expr$1 = (signed int)buf[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (signed int)buf[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
           {
             pp->skip_rn = (enum RN_State)RN_Inactive;
             ioff = ioff + (unsigned long int)2;
@@ -11933,8 +11933,8 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
           }
           case PP_NextBoundary:
           {
-            return_value_find_boundary$2=find_boundary(pp, pp->boundary, pp->blen, &ioff, (enum PP_State)PP_ProcessEntryHeaders, (enum PP_State)PP_Done);
-            if(return_value_find_boundary$2 == 0)
+            return_value_find_boundary_2=find_boundary(pp, pp->boundary, pp->blen, &ioff, (enum PP_State)PP_ProcessEntryHeaders, (enum PP_State)PP_Done);
+            if(return_value_find_boundary_2 == 0)
             {
               if((signed int)pp->state == PP_Error)
                 return 0;
@@ -11947,8 +11947,8 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
           case PP_ProcessEntryHeaders:
           {
             pp->must_ikvi = 1;
-            return_value_process_multipart_headers$3=process_multipart_headers(pp, &ioff, (enum PP_State)PP_PerformCheckMultipart);
-            if(return_value_process_multipart_headers$3 == 0)
+            return_value_process_multipart_headers_3=process_multipart_headers(pp, &ioff, (enum PP_State)PP_PerformCheckMultipart);
+            if(return_value_process_multipart_headers_3 == 0)
             {
               if((signed int)pp->state == PP_Error)
                 return 0;
@@ -11964,9 +11964,9 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
           {
             if(!(pp->content_type == ((char *)NULL)))
             {
-              return_value_strlen$5=strlen("multipart/mixed");
-              return_value_strncasecmp$6=strncasecmp(pp->content_type, "multipart/mixed", return_value_strlen$5);
-              if(return_value_strncasecmp$6 == 0)
+              return_value_strlen_5=strlen("multipart/mixed");
+              return_value_strncasecmp_6=strncasecmp(pp->content_type, "multipart/mixed", return_value_strlen_5);
+              if(return_value_strncasecmp_6 == 0)
               {
                 pp->nested_boundary=strstr(pp->content_type, "boundary=");
                 if(pp->nested_boundary == ((char *)NULL))
@@ -11975,9 +11975,9 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
                   return 0;
                 }
 
-                unsigned long int return_value_strlen$4;
-                return_value_strlen$4=strlen("boundary=");
-                pp->nested_boundary=strdup(&pp->nested_boundary[(signed long int)return_value_strlen$4]);
+                unsigned long int return_value_strlen_4;
+                return_value_strlen_4=strlen("boundary=");
+                pp->nested_boundary=strdup(&pp->nested_boundary[(signed long int)return_value_strlen_4]);
                 if(pp->nested_boundary == ((char *)NULL))
                 {
                   pp->state = (enum PP_State)PP_Error;
@@ -12001,8 +12001,8 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
           }
           case PP_ProcessValueToBoundary:
           {
-            return_value_process_value_to_boundary$7=process_value_to_boundary(pp, &ioff, pp->boundary, pp->blen, (enum PP_State)PP_PerformCleanup, (enum PP_State)PP_Done);
-            if(return_value_process_value_to_boundary$7 == 0)
+            return_value_process_value_to_boundary_7=process_value_to_boundary(pp, &ioff, pp->boundary, pp->blen, (enum PP_State)PP_PerformCleanup, (enum PP_State)PP_Done);
+            if(return_value_process_value_to_boundary_7 == 0)
             {
               if((signed int)pp->state == PP_Error)
                 return 0;
@@ -12034,8 +12034,8 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
               return 0;
             }
 
-            return_value_find_boundary$8=find_boundary(pp, pp->nested_boundary, pp->nlen, &ioff, (enum PP_State)PP_Nested_PerformMarking, (enum PP_State)PP_NextBoundary);
-            if(return_value_find_boundary$8 == 0)
+            return_value_find_boundary_8=find_boundary(pp, pp->nested_boundary, pp->nlen, &ioff, (enum PP_State)PP_Nested_PerformMarking, (enum PP_State)PP_NextBoundary);
+            if(return_value_find_boundary_8 == 0)
             {
               if((signed int)pp->state == PP_Error)
                 return 0;
@@ -12067,8 +12067,8 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
           case PP_Nested_ProcessEntryHeaders:
           {
             pp->value_offset = (unsigned long int)0;
-            return_value_process_multipart_headers$9=process_multipart_headers(pp, &ioff, (enum PP_State)PP_Nested_ProcessValueToBoundary);
-            if(return_value_process_multipart_headers$9 == 0)
+            return_value_process_multipart_headers_9=process_multipart_headers(pp, &ioff, (enum PP_State)PP_Nested_ProcessValueToBoundary);
+            if(return_value_process_multipart_headers_9 == 0)
             {
               if((signed int)pp->state == PP_Error)
                 return 0;
@@ -12082,8 +12082,8 @@ static signed int post_process_multipart(struct MHD_PostProcessor *pp, const cha
           }
           case PP_Nested_ProcessValueToBoundary:
           {
-            return_value_process_value_to_boundary$10=process_value_to_boundary(pp, &ioff, pp->nested_boundary, pp->nlen, (enum PP_State)PP_Nested_PerformCleanup, (enum PP_State)PP_NextBoundary);
-            if(return_value_process_value_to_boundary$10 == 0)
+            return_value_process_value_to_boundary_10=process_value_to_boundary(pp, &ioff, pp->nested_boundary, pp->nlen, (enum PP_State)PP_Nested_PerformCleanup, (enum PP_State)PP_NextBoundary);
+            if(return_value_process_value_to_boundary_10 == 0)
             {
               if((signed int)pp->state == PP_Error)
                 return 0;
@@ -12150,12 +12150,12 @@ static signed int post_process_urlencoded(struct MHD_PostProcessor *pp, const ch
   char xbuf[513l];
   buf = (char *)&pp[(signed long int)1];
   poff = (unsigned long int)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
   signed int return_value;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   while(!(poff >= post_data_len))
     switch((signed int)pp->state)
     {
@@ -12217,21 +12217,21 @@ static signed int post_process_urlencoded(struct MHD_PostProcessor *pp, const ch
         if(!(amper + poff >= post_data_len))
         {
           if((signed int)post_data[(signed long int)amper + (signed long int)poff] == 38)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (signed int)post_data[(signed long int)(amper + poff)] == 10 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_1 = (signed int)post_data[(signed long int)(amper + poff)] == 10 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = (signed int)post_data[(signed long int)(amper + poff)] == 13 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (signed int)post_data[(signed long int)(amper + poff)] == 13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        end_of_value_found = (signed int)tmp_if_expr$3;
+          tmp_if_expr_3 = (_Bool)0;
+        end_of_value_found = (signed int)tmp_if_expr_3;
         delta = amper;
         if(!(512ul + -xoff >= delta))
           delta = (unsigned long int)512 - xoff;
@@ -12241,11 +12241,11 @@ static signed int post_process_urlencoded(struct MHD_PostProcessor *pp, const ch
         poff = poff + delta;
         delta = xoff;
         if(delta >= 1ul)
-          tmp_if_expr$4 = (signed int)xbuf[(signed long int)(delta - (unsigned long int)1)] == 37 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)xbuf[(signed long int)(delta - (unsigned long int)1)] == 37 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
           delta = delta - 1ul;
 
         else
@@ -12275,11 +12275,11 @@ static signed int post_process_urlencoded(struct MHD_PostProcessor *pp, const ch
       case PP_ExpectNewLine:
       {
         if((signed int)post_data[(signed long int)poff] == 10)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)post_data[(signed long int)poff] == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (signed int)post_data[(signed long int)poff] == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
           poff = poff + 1ul;
           pp->state = (enum PP_State)PP_Done;
@@ -12303,13 +12303,13 @@ static signed int process_broken_line(struct MHD_Connection *connection, char *l
   unsigned long int last_len;
   unsigned long int tmp_len;
   last = connection->last;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)*line == 32)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)line[(signed long int)0] == 9 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)line[(signed long int)0] == 9 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     last_len=strlen(last);
     tmp = line;
@@ -12325,9 +12325,9 @@ static signed int process_broken_line(struct MHD_Connection *connection, char *l
   __CPROVER_DUMP_L5:
     ;
     tmp_len=strlen(tmp);
-    void *return_value_MHD_pool_reallocate$1;
-    return_value_MHD_pool_reallocate$1=MHD_pool_reallocate(connection->pool, (void *)last, last_len + (unsigned long int)1, last_len + tmp_len + (unsigned long int)1);
-    last = (char *)return_value_MHD_pool_reallocate$1;
+    void *return_value_MHD_pool_reallocate_1;
+    return_value_MHD_pool_reallocate_1=MHD_pool_reallocate(connection->pool, (void *)last, last_len + (unsigned long int)1, last_len + tmp_len + (unsigned long int)1);
+    last = (char *)return_value_MHD_pool_reallocate_1;
     if(last == ((char *)NULL))
     {
       transmit_error_response(connection, (unsigned int)413, "<html><head><title>Request too big</title></head><body>Your HTTP header was too big for the memory constraints of this webserver.</body></html>");
@@ -12339,9 +12339,9 @@ static signed int process_broken_line(struct MHD_Connection *connection, char *l
     return 1;
   }
 
-  signed int return_value_connection_add_header$3;
-  return_value_connection_add_header$3=connection_add_header(connection, last, connection->colon, kind);
-  if(return_value_connection_add_header$3 == 0)
+  signed int return_value_connection_add_header_3;
+  return_value_connection_add_header_3=connection_add_header(connection, last, connection->colon, kind);
+  if(return_value_connection_add_header_3 == 0)
   {
     transmit_error_response(connection, (unsigned int)413, "<html><head><title>Request too big</title></head><body>Your HTTP header was too big for the memory constraints of this webserver.</body></html>");
     return 0;
@@ -12349,13 +12349,13 @@ static signed int process_broken_line(struct MHD_Connection *connection, char *l
 
   else
   {
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(line);
-    if(!(return_value_strlen$5 == 0ul))
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(line);
+    if(!(return_value_strlen_5 == 0ul))
     {
-      signed int return_value_process_header_line$4;
-      return_value_process_header_line$4=process_header_line(connection, line);
-      if(return_value_process_header_line$4 == 0)
+      signed int return_value_process_header_line_4;
+      return_value_process_header_line_4=process_header_line(connection, line);
+      if(return_value_process_header_line_4 == 0)
       {
         transmit_error_response(connection, (unsigned int)400, "<html><head><title>Request malformed</title></head><body>Your HTTP request was syntactically incorrect.</body></html>");
         return 0;
@@ -12436,18 +12436,18 @@ static signed int process_multipart_headers(struct MHD_PostProcessor *pp, unsign
           pp->skip_rn = (enum RN_State)RN_OptN;
 
         buf[(signed long int)newline] = (char)0;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen("Content-disposition: ");
-        signed int return_value_strncasecmp$4;
-        return_value_strncasecmp$4=strncasecmp("Content-disposition: ", buf, return_value_strlen$3);
-        if(return_value_strncasecmp$4 == 0)
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen("Content-disposition: ");
+        signed int return_value_strncasecmp_4;
+        return_value_strncasecmp_4=strncasecmp("Content-disposition: ", buf, return_value_strlen_3);
+        if(return_value_strncasecmp_4 == 0)
         {
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen("Content-disposition: ");
-          try_get_value(&buf[(signed long int)return_value_strlen$1], "name", &pp->content_name);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen("Content-disposition: ");
-          try_get_value(&buf[(signed long int)return_value_strlen$2], "filename", &pp->content_filename);
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen("Content-disposition: ");
+          try_get_value(&buf[(signed long int)return_value_strlen_1], "name", &pp->content_name);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen("Content-disposition: ");
+          try_get_value(&buf[(signed long int)return_value_strlen_2], "filename", &pp->content_filename);
         }
 
         else
@@ -12472,14 +12472,14 @@ static void process_request_body(struct MHD_Connection *connection)
   signed int malformed;
   char *buffer_head;
   char *end;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(connection->response == ((struct MHD_Response *)NULL))
   {
     buffer_head = connection->read_buffer;
@@ -12488,11 +12488,11 @@ static void process_request_body(struct MHD_Connection *connection)
     {
       instant_retry = 0;
       if(connection->have_chunked_upload == 1)
-        tmp_if_expr$8 = 18446744073709551615UL == connection->remaining_upload_size ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = 18446744073709551615UL == connection->remaining_upload_size ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
         if(connection->current_chunk_offset == connection->current_chunk_size)
         {
@@ -12502,19 +12502,19 @@ static void process_request_body(struct MHD_Connection *connection)
             {
               i = (unsigned long int)0;
               if((signed int)buffer_head[(signed long int)i] == 13)
-                tmp_if_expr$1 = (_Bool)1;
+                tmp_if_expr_1 = (_Bool)1;
 
               else
-                tmp_if_expr$1 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$1)
+                tmp_if_expr_1 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_1)
                 i = i + 1ul;
 
               if((signed int)buffer_head[(signed long int)i] == 13)
-                tmp_if_expr$2 = (_Bool)1;
+                tmp_if_expr_2 = (_Bool)1;
 
               else
-                tmp_if_expr$2 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$2)
+                tmp_if_expr_2 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_2)
                 i = i + 1ul;
 
               if(i == 0ul)
@@ -12550,11 +12550,11 @@ static void process_request_body(struct MHD_Connection *connection)
           while(!(i >= available))
           {
             if((signed int)buffer_head[(signed long int)i] == 13)
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
               break;
 
             i = i + 1ul;
@@ -12565,11 +12565,11 @@ static void process_request_body(struct MHD_Connection *connection)
           if(1ul + i >= available)
           {
             if(available == 2ul && i == 1ul)
-              tmp_if_expr$4 = (signed int)buffer_head[(signed long int)0] == 48 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (signed int)buffer_head[(signed long int)0] == 48 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               break;
 
           }
@@ -12592,11 +12592,11 @@ static void process_request_body(struct MHD_Connection *connection)
           if(!(i >= available))
           {
             if((signed int)buffer_head[(signed long int)i] == 13)
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)1;
 
             else
-              tmp_if_expr$5 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$5)
+              tmp_if_expr_5 = (signed int)buffer_head[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_5)
               i = i + 1ul;
 
           }
@@ -12620,16 +12620,16 @@ static void process_request_body(struct MHD_Connection *connection)
       else
       {
         if(!(connection->remaining_upload_size == 0ul))
-          tmp_if_expr$6 = 18446744073709551615UL != connection->remaining_upload_size ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = 18446744073709551615UL != connection->remaining_upload_size ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = connection->remaining_upload_size < available ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = connection->remaining_upload_size < available ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
           processed = (unsigned long int)connection->remaining_upload_size;
 
         else
@@ -12682,9 +12682,9 @@ static signed int process_value_to_boundary(struct MHD_PostProcessor *pp, unsign
   {
     while(!(4ul + newline >= pp->buffer_pos))
     {
-      void *return_value_memchr$1;
-      return_value_memchr$1=memchr((const void *)&buf[(signed long int)newline], 13, (pp->buffer_pos - newline) - (unsigned long int)4);
-      r = (const char *)return_value_memchr$1;
+      void *return_value_memchr_1;
+      return_value_memchr_1=memchr((const void *)&buf[(signed long int)newline], 13, (pp->buffer_pos - newline) - (unsigned long int)4);
+      r = (const char *)return_value_memchr_1;
       if(r == ((const char *)NULL))
       {
         newline = pp->buffer_pos - (unsigned long int)4;
@@ -12692,18 +12692,18 @@ static signed int process_value_to_boundary(struct MHD_PostProcessor *pp, unsign
       }
 
       newline = (unsigned long int)(r - buf);
-      signed int return_value_memcmp$2;
-      return_value_memcmp$2=memcmp((const void *)"\r\n--", (const void *)&buf[(signed long int)newline], (unsigned long int)4);
-      if(return_value_memcmp$2 == 0)
+      signed int return_value_memcmp_2;
+      return_value_memcmp_2=memcmp((const void *)"\r\n--", (const void *)&buf[(signed long int)newline], (unsigned long int)4);
+      if(return_value_memcmp_2 == 0)
         break;
 
       newline = newline + 1ul;
     }
     if(pp->buffer_pos >= 4ul + pp->blen + newline)
     {
-      signed int return_value_memcmp$3;
-      return_value_memcmp$3=memcmp((const void *)&buf[(signed long int)(newline + (unsigned long int)4)], (const void *)boundary, pp->blen);
-      if(!(return_value_memcmp$3 == 0))
+      signed int return_value_memcmp_3;
+      return_value_memcmp_3=memcmp((const void *)&buf[(signed long int)(newline + (unsigned long int)4)], (const void *)boundary, pp->blen);
+      if(!(return_value_memcmp_3 == 0))
       {
         newline = newline + (unsigned long int)4;
         continue;
@@ -12758,26 +12758,26 @@ static signed long int recv_param_adapter(struct MHD_Connection *connection, voi
 {
   signed long int ret;
   const unsigned long int requested_size = i;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(connection->socket_fd == -1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = MHD_CONNECTION_CLOSED == (signed int)connection->state ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = MHD_CONNECTION_CLOSED == (signed int)connection->state ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 107;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 107;
     return (signed long int)-1;
   }
 
   if(i >= 9223372036854775808ul)
     i = (unsigned long int)0x7fffffffffffffffL;
 
-  signed long int return_value_recv$3;
-  return_value_recv$3=recv(connection->socket_fd, other, (unsigned long int)i, 16384);
-  ret = (signed long int)return_value_recv$3;
+  signed long int return_value_recv_3;
+  return_value_recv_3=recv(connection->socket_fd, other, (unsigned long int)i, 16384);
+  ret = (signed long int)return_value_recv_3;
   if(!(ret >= 0l) || !((unsigned long int)ret >= requested_size))
     connection->epoll_state = connection->epoll_state & (enum MHD_EpollState)~MHD_EPOLL_STATE_READ_READY;
 
@@ -12798,18 +12798,18 @@ static signed long int recv_tls_adapter(struct MHD_Connection *connection, void 
   res=gnutls_record_recv(connection->tls_session, other, i);
   if(res == -52l || res == -28l)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 4;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 4;
     connection->epoll_state = connection->epoll_state & (enum MHD_EpollState)~MHD_EPOLL_STATE_READ_READY;
     return (signed long int)-1;
   }
 
   if(!(res >= 0l))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 104;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 104;
     return res;
   }
 
@@ -12855,11 +12855,11 @@ static signed int resume_suspended_connections(struct MHD_Daemon *daemon)
   struct MHD_Connection *pos;
   struct MHD_Connection *next = (struct MHD_Connection *)(void *)0;
   signed int ret = 0;
-  signed int return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1783, "Failed to acquire cleanup mutex\n");
 
   }
@@ -12960,11 +12960,11 @@ static signed int resume_suspended_connections(struct MHD_Daemon *daemon)
   }
   while((_Bool)1);
   daemon->resuming = 0;
-  signed int return_value_pthread_mutex_unlock$2;
+  signed int return_value_pthread_mutex_unlock_2;
   if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
   {
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
       mhd_panic(mhd_panic_cls, "daemon.c", (unsigned int)1827, "Failed to release cleanup mutex\n");
 
   }
@@ -13005,9 +13005,9 @@ static signed int send_page(struct MHD_Connection *connection, const char *page,
 {
   signed int ret;
   struct MHD_Response *response;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(page);
-  response=MHD_create_response_from_buffer(return_value_strlen$1, (void *)page, (enum MHD_ResponseMemoryMode)MHD_RESPMEM_MUST_COPY);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(page);
+  response=MHD_create_response_from_buffer(return_value_strlen_1, (void *)page, (enum MHD_ResponseMemoryMode)MHD_RESPMEM_MUST_COPY);
   if(response == ((struct MHD_Response *)NULL))
     return 0;
 
@@ -13027,30 +13027,30 @@ static signed long int send_param_adapter(struct MHD_Connection *connection, con
   signed long int ret;
   const unsigned long int requested_size = i;
   signed int fd;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(connection->socket_fd == -1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = MHD_CONNECTION_CLOSED == (signed int)connection->state ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = MHD_CONNECTION_CLOSED == (signed int)connection->state ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 107;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 107;
     return (signed long int)-1;
   }
 
   if(i >= 9223372036854775808ul)
     i = (unsigned long int)0x7fffffffffffffffL;
 
-  signed long int return_value_send$3;
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$6;
+  signed long int return_value_send_3;
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_6;
   if(!((MHD_USE_SSL & (signed int)connection->daemon->options) == 0))
   {
-    return_value_send$3=send(connection->socket_fd, other, (unsigned long int)i, 16384);
-    return (signed long int)return_value_send$3;
+    return_value_send_3=send(connection->socket_fd, other, (unsigned long int)i, 16384);
+    return (signed long int)return_value_send_3;
   }
 
   else
@@ -13082,9 +13082,9 @@ static signed long int send_param_adapter(struct MHD_Connection *connection, con
 
           }
 
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          err = *return_value___errno_location$4;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          err = *return_value___errno_location_4;
           if(err == 4 || err == 11)
             return (signed long int)0;
 
@@ -13097,19 +13097,19 @@ static signed long int send_param_adapter(struct MHD_Connection *connection, con
 
     }
 
-    signed long int return_value_send$5;
-    return_value_send$5=send(connection->socket_fd, other, (unsigned long int)i, 16384);
-    ret = (signed long int)return_value_send$5;
+    signed long int return_value_send_5;
+    return_value_send_5=send(connection->socket_fd, other, (unsigned long int)i, 16384);
+    ret = (signed long int)return_value_send_5;
     if(!(ret >= 0l) || !((unsigned long int)ret >= requested_size))
       connection->epoll_state = connection->epoll_state & (enum MHD_EpollState)~MHD_EPOLL_STATE_WRITE_READY;
 
     if(!(ret >= 0l))
     {
-      return_value___errno_location$7=__errno_location();
-      if(*return_value___errno_location$7 == 0)
+      return_value___errno_location_7=__errno_location();
+      if(*return_value___errno_location_7 == 0)
       {
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 104;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 104;
       }
 
     }
@@ -13123,23 +13123,23 @@ static signed long int send_param_adapter(struct MHD_Connection *connection, con
 static signed long int send_tls_adapter(struct MHD_Connection *connection, const void *other, unsigned long int i)
 {
   signed int res;
-  signed long int return_value_gnutls_record_send$1;
-  return_value_gnutls_record_send$1=gnutls_record_send(connection->tls_session, other, i);
-  res = (signed int)return_value_gnutls_record_send$1;
+  signed long int return_value_gnutls_record_send_1;
+  return_value_gnutls_record_send_1=gnutls_record_send(connection->tls_session, other, i);
+  res = (signed int)return_value_gnutls_record_send_1;
   if(res == -52 || res == -28)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 4;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 4;
     connection->epoll_state = connection->epoll_state & (enum MHD_EpollState)~MHD_EPOLL_STATE_WRITE_READY;
     return (signed long int)-1;
   }
 
   if(!(res >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 104;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 104;
     return (signed long int)-1;
   }
 
@@ -13154,11 +13154,11 @@ static signed int setup_epoll_to_listen(struct MHD_Daemon *daemon)
   daemon->epoll_fd=epoll_create1(524288);
   if(daemon->epoll_fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    MHD_DLOG(daemon, "Call to epoll_create1 failed: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    MHD_DLOG(daemon, "Call to epoll_create1 failed: %s\n", return_value_strerror_2);
     return 0;
   }
 
@@ -13169,15 +13169,15 @@ static signed int setup_epoll_to_listen(struct MHD_Daemon *daemon)
   {
     event.events = (unsigned int)1;
     event.data.ptr = (void *)daemon;
-    signed int return_value_epoll_ctl$5;
-    return_value_epoll_ctl$5=epoll_ctl(daemon->epoll_fd, 1, daemon->socket_fd, &event);
-    if(!(return_value_epoll_ctl$5 == 0))
+    signed int return_value_epoll_ctl_5;
+    return_value_epoll_ctl_5=epoll_ctl(daemon->epoll_fd, 1, daemon->socket_fd, &event);
+    if(!(return_value_epoll_ctl_5 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror_4);
       return 0;
     }
 
@@ -13188,15 +13188,15 @@ static signed int setup_epoll_to_listen(struct MHD_Daemon *daemon)
         event.events = (unsigned int)(1 | -2147483648);
         event.data.ptr = (void *)0;
         event.data.fd = daemon->wpipe[(signed long int)0];
-        signed int return_value_epoll_ctl$8;
-        return_value_epoll_ctl$8=epoll_ctl(daemon->epoll_fd, 1, daemon->wpipe[(signed long int)0], &event);
-        if(!(return_value_epoll_ctl$8 == 0))
+        signed int return_value_epoll_ctl_8;
+        return_value_epoll_ctl_8=epoll_ctl(daemon->epoll_fd, 1, daemon->wpipe[(signed long int)0], &event);
+        if(!(return_value_epoll_ctl_8 == 0))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          char *return_value_strerror$7;
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror$7);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          char *return_value_strerror_7;
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          MHD_DLOG(daemon, "Call to epoll_ctl failed: %s\n", return_value_strerror_7);
           return 0;
         }
 
@@ -13214,15 +13214,15 @@ static signed int setup_epoll_to_listen(struct MHD_Daemon *daemon)
 static signed int test_header(struct MHD_Connection *connection, const char *key, const char *value)
 {
   struct MHD_HTTP_Header *pos = connection->headers_received;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   for( ; !(pos == ((struct MHD_HTTP_Header *)NULL)); pos = pos->next)
     if((signed int)pos->kind == MHD_GET_ARGUMENT_KIND)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(key, pos->header);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(key, pos->header);
+      if(return_value_strcmp_1 == 0)
       {
         if(value == ((const char *)NULL))
         {
@@ -13232,19 +13232,19 @@ static signed int test_header(struct MHD_Connection *connection, const char *key
         }
 
         if(value == ((const char *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (char *)(void *)0 == pos->value ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_2 = (char *)(void *)0 == pos->value ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$3=strcmp(value, pos->value);
-          tmp_if_expr$4 = 0 != return_value_strcmp$3 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_3=strcmp(value, pos->value);
+          tmp_if_expr_4 = 0 != return_value_strcmp_3 ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$4)
+        if(!tmp_if_expr_4)
           return 1;
 
       }
@@ -13265,14 +13265,14 @@ static void transmit_error_response(struct MHD_Connection *connection, unsigned 
   connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_FOOTERS_RECEIVED;
   connection->read_closed = 1;
   MHD_DLOG(connection->daemon, "Error %u (`%s') processing request, closing connection.\n", status_code, message);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(message);
-  response=MHD_create_response_from_buffer(return_value_strlen$1, (void *)message, (enum MHD_ResponseMemoryMode)MHD_RESPMEM_PERSISTENT);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(message);
+  response=MHD_create_response_from_buffer(return_value_strlen_1, (void *)message, (enum MHD_ResponseMemoryMode)MHD_RESPMEM_PERSISTENT);
   MHD_queue_response(connection, status_code, response);
   MHD_destroy_response(response);
-  signed int return_value_build_header_response$2;
-  return_value_build_header_response$2=build_header_response(connection);
-  if(return_value_build_header_response$2 == 0)
+  signed int return_value_build_header_response_2;
+  return_value_build_header_response_2=build_header_response(connection);
+  if(return_value_build_header_response_2 == 0)
     connection_close_error(connection, "Closing connection (failed to create response header)\n");
 
   else
@@ -13288,8 +13288,8 @@ static void try_get_value(const char *buf, const char *key, char **destination)
   const char *endv;
   unsigned long int klen;
   unsigned long int vlen;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(*destination == ((char *)NULL))
   {
     bpos = buf;
@@ -13301,18 +13301,18 @@ static void try_get_value(const char *buf, const char *key, char **destination)
         break;
 
       if(!((signed int)spos[(signed long int)klen] == 61))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if(!(spos == buf))
-          tmp_if_expr$1 = (signed int)spos[(signed long int)-1] != 32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)spos[(signed long int)-1] != 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         bpos = spos + (signed long int)1;
 
       else
@@ -13325,9 +13325,9 @@ static void try_get_value(const char *buf, const char *key, char **destination)
           goto __CPROVER_DUMP_L13;
 
         vlen = ((unsigned long int)(endv - spos) - klen) - (unsigned long int)1;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(vlen);
-        *destination = (char *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(vlen);
+        *destination = (char *)return_value_malloc_3;
         if(*destination == ((char *)NULL))
           goto __CPROVER_DUMP_L13;
 
@@ -13378,15 +13378,15 @@ static signed int try_match_header(const char *prefix, char *line, char **suffix
   {
     while(!((signed int)*line == 0))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(prefix);
-      signed int return_value_strncasecmp$3;
-      return_value_strncasecmp$3=strncasecmp(prefix, line, return_value_strlen$2);
-      if(return_value_strncasecmp$3 == 0)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(prefix);
+      signed int return_value_strncasecmp_3;
+      return_value_strncasecmp_3=strncasecmp(prefix, line, return_value_strlen_2);
+      if(return_value_strncasecmp_3 == 0)
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(prefix);
-        *suffix=strdup(&line[(signed long int)return_value_strlen$1]);
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(prefix);
+        *suffix=strdup(&line[(signed long int)return_value_strlen_1]);
         return 1;
       }
 
@@ -13407,15 +13407,15 @@ static signed int try_ready_chunked_body(struct MHD_Connection *connection)
   char cbuf[10l];
   signed int cblen;
   response = connection->response;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(connection->write_buffer_size == 0ul)
   {
     if(!(connection->daemon->pool_size >= 33554454ul))
-      tmp_if_expr$1 = connection->daemon->pool_size;
+      tmp_if_expr_1 = connection->daemon->pool_size;
 
     else
-      tmp_if_expr$1 = (unsigned long int)2 * ((unsigned long int)0xFFFFFF + sizeof(char [10l]) /*10ul*/  + (unsigned long int)2);
-    size = tmp_if_expr$1;
+      tmp_if_expr_1 = (unsigned long int)2 * ((unsigned long int)0xFFFFFF + sizeof(char [10l]) /*10ul*/  + (unsigned long int)2);
+    size = tmp_if_expr_1;
     do
     {
       size = size / (unsigned long int)2;
@@ -13425,27 +13425,27 @@ static signed int try_ready_chunked_body(struct MHD_Connection *connection)
         return 0;
       }
 
-      void *return_value_MHD_pool_allocate$2;
-      return_value_MHD_pool_allocate$2=MHD_pool_allocate(connection->pool, size, 0);
-      buf = (char *)return_value_MHD_pool_allocate$2;
+      void *return_value_MHD_pool_allocate_2;
+      return_value_MHD_pool_allocate_2=MHD_pool_allocate(connection->pool, size, 0);
+      buf = (char *)return_value_MHD_pool_allocate_2;
     }
     while(buf == ((char *)NULL));
     connection->write_buffer_size = size;
     connection->write_buffer = buf;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(response->total_size == 0ul)
     ret = (signed long int)0;
 
   else
   {
     if(connection->response_write_position >= response->data_start)
-      tmp_if_expr$3 = response->data_start + response->data_size > connection->response_write_position ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = response->data_start + response->data_size > connection->response_write_position ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       const unsigned long int data_write_offset = (unsigned long int)(connection->response_write_position - response->data_start);
       ret = (signed long int)(response->data_size - data_write_offset);
@@ -13458,7 +13458,7 @@ static signed int try_ready_chunked_body(struct MHD_Connection *connection)
     else
       ret=response->crc(response->crc_cls, connection->response_write_position, &connection->write_buffer[(signed long int)sizeof(char [10l]) /*10ul*/ ], (connection->write_buffer_size - sizeof(char [10l]) /*10ul*/ ) - (unsigned long int)2);
   }
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(ret == -2l)
   {
     response->total_size = connection->response_write_position;
@@ -13469,11 +13469,11 @@ static signed int try_ready_chunked_body(struct MHD_Connection *connection)
   else
   {
     if(ret == -1l)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (unsigned long int)0 == response->total_size ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (unsigned long int)0 == response->total_size ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       strcpy(connection->write_buffer, "0\r\n");
       connection->write_buffer_append_offset = (unsigned long int)3;
@@ -13511,21 +13511,21 @@ static signed int try_ready_normal_body(struct MHD_Connection *connection)
 {
   signed long int ret;
   struct MHD_Response *response = connection->response;
-  _Bool tmp_if_expr$1;
-  unsigned long int tmp_if_expr$2;
-  signed int return_value_pthread_mutex_unlock$3;
-  signed int return_value_pthread_mutex_unlock$4;
+  _Bool tmp_if_expr_1;
+  unsigned long int tmp_if_expr_2;
+  signed int return_value_pthread_mutex_unlock_3;
+  signed int return_value_pthread_mutex_unlock_4;
   if(response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL))
     return 1;
 
   else
   {
     if(response->total_size == 0ul)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = connection->response_write_position == response->total_size ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = connection->response_write_position == response->total_size ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 1;
 
     else
@@ -13556,18 +13556,18 @@ static signed int try_ready_normal_body(struct MHD_Connection *connection)
         __CPROVER_DUMP_L6:
           ;
           if(!(response->data_buffer_size >= response->total_size + -connection->response_write_position))
-            tmp_if_expr$2 = (unsigned long int)response->data_buffer_size;
+            tmp_if_expr_2 = (unsigned long int)response->data_buffer_size;
 
           else
-            tmp_if_expr$2 = response->total_size - connection->response_write_position;
-          ret=response->crc(response->crc_cls, connection->response_write_position, response->data, (unsigned long int)tmp_if_expr$2);
+            tmp_if_expr_2 = response->total_size - connection->response_write_position;
+          ret=response->crc(response->crc_cls, connection->response_write_position, response->data, (unsigned long int)tmp_if_expr_2);
           if(ret == -2l || ret == -1l)
           {
             response->total_size = connection->response_write_position;
             if(!(response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
             {
-              return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&response->mutex);
-              (void)(0 == return_value_pthread_mutex_unlock$3 ? 1 : 0);
+              return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&response->mutex);
+              (void)(0 == return_value_pthread_mutex_unlock_3 ? 1 : 0);
             }
 
             if(ret == -1l)
@@ -13585,8 +13585,8 @@ static signed int try_ready_normal_body(struct MHD_Connection *connection)
             connection->state = (enum MHD_CONNECTION_STATE)MHD_CONNECTION_NORMAL_BODY_UNREADY;
             if(!(response->crc == ((signed long int (*)(void *, unsigned long int, char *, unsigned long int))NULL)))
             {
-              return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&response->mutex);
-              (void)(0 == return_value_pthread_mutex_unlock$4 ? 1 : 0);
+              return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&response->mutex);
+              (void)(0 == return_value_pthread_mutex_unlock_4 ? 1 : 0);
             }
 
             return 0;
@@ -13602,9 +13602,9 @@ static signed int try_ready_normal_body(struct MHD_Connection *connection)
 // file daemon.c line 2971
 static unsigned long int unescape_wrapper(void *cls, struct MHD_Connection *connection, char *val)
 {
-  unsigned long int return_value_MHD_http_unescape$1;
-  return_value_MHD_http_unescape$1=MHD_http_unescape(val);
-  return return_value_MHD_http_unescape$1;
+  unsigned long int return_value_MHD_http_unescape_1;
+  return_value_MHD_http_unescape_1=MHD_http_unescape(val);
+  return return_value_MHD_http_unescape_1;
 }
 
 // update_last_activity
@@ -13613,14 +13613,14 @@ static void update_last_activity(struct MHD_Connection *connection)
 {
   struct MHD_Daemon *daemon = connection->daemon;
   connection->last_activity=MHD_monotonic_sec_counter();
-  signed int return_value_pthread_mutex_lock$1;
-  signed int return_value_pthread_mutex_unlock$2;
+  signed int return_value_pthread_mutex_lock_1;
+  signed int return_value_pthread_mutex_unlock_2;
   if(connection->connection_timeout == daemon->connection_timeout)
   {
     if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
     {
-      return_value_pthread_mutex_lock$1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
-      if(!(return_value_pthread_mutex_lock$1 == 0))
+      return_value_pthread_mutex_lock_1=pthread_mutex_lock(&daemon->cleanup_connection_mutex);
+      if(!(return_value_pthread_mutex_lock_1 == 0))
         mhd_panic(mhd_panic_cls, "connection.c", (unsigned int)1979, "Failed to acquire cleanup mutex\n");
 
     }
@@ -13655,8 +13655,8 @@ static void update_last_activity(struct MHD_Connection *connection)
     while((_Bool)0);
     if(!((MHD_USE_THREAD_PER_CONNECTION & (signed int)daemon->options) == 0))
     {
-      return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
-      if(!(return_value_pthread_mutex_unlock$2 == 0))
+      return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&daemon->cleanup_connection_mutex);
+      if(!(return_value_pthread_mutex_unlock_2 == 0))
         mhd_panic(mhd_panic_cls, "connection.c", (unsigned int)1988, "Failed to release cleanup mutex\n");
 
     }

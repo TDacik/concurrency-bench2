@@ -1,286 +1,286 @@
-// #anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7
+// #anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7
 // file /usr/include/X11/Xresource.h line 326
-enum anonymous$57 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
+enum anonymous_57 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
 
-// #anon_enum$XtGeometryYes=0$XtGeometryNo=1$XtGeometryAlmost=2$XtGeometryDone=3
+// #anon_enum_XtGeometryYes=0_XtGeometryNo=1_XtGeometryAlmost=2_XtGeometryDone=3
 // file /usr/include/X11/Intrinsic.h line 340
-enum anonymous$14 { XtGeometryYes=0, XtGeometryNo=1, XtGeometryAlmost=2, XtGeometryDone=3 };
+enum anonymous_14 { XtGeometryYes=0, XtGeometryNo=1, XtGeometryAlmost=2, XtGeometryDone=3 };
 
-// #anon_enum$XtGrabNone=0$XtGrabNonexclusive=1$XtGrabExclusive=2
+// #anon_enum_XtGrabNone=0_XtGrabNonexclusive=1_XtGrabExclusive=2
 // file /usr/include/X11/Intrinsic.h line 347
-enum anonymous$15 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
+enum anonymous_15 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
 
-// #anon_enum$color_scheme_default=0$color_scheme_uniform=1$color_scheme_smooth=2$color_scheme_bright=3
+// #anon_enum_color_scheme_default=0_color_scheme_uniform=1_color_scheme_smooth=2_color_scheme_bright=3
 // file ./../xlockmoreI.h line 154
-enum anonymous$1 { color_scheme_default=0, color_scheme_uniform=1, color_scheme_smooth=2, color_scheme_bright=3 };
+enum anonymous_1 { color_scheme_default=0, color_scheme_uniform=1, color_scheme_smooth=2, color_scheme_bright=3 };
 
-// #anon_enum$t_String=0$t_Float=1$t_Int=2$t_Bool=3
+// #anon_enum_t_String=0_t_Float=1_t_Int=2_t_Bool=3
 // file ./../xlockmoreI.h line 127
-enum anonymous$60 { t_String=0, t_Float=1, t_Int=2, t_Bool=3 };
+enum anonymous_60 { t_String=0, t_Float=1, t_Int=2, t_Bool=3 };
 
-// tag-#anon#ST[*{S8}$S8$'name'|S64'value']
+// tag-#anon#ST[*{S8}_S8_'name'|S64'value']
 // file /usr/include/X11/Intrinsic.h line 316
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{S8}$S8$'opt'|*{S8}$S8$'desc']
+// tag-#anon#ST[*{S8}_S8_'opt'|*{S8}_S8_'desc']
 // file ./../xlockmoreI.h line 137
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[*{S8}$S8$'option'|*{S8}$S8$'specifier'|SYM##anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7#'argKind'|U32'$pad0'|*{S8}$S8$'value']
+// tag-#anon#ST[*{S8}_S8_'option'|*{S8}_S8_'specifier'|SYM##anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7#'argKind'|U32'_pad0'|*{S8}_S8_'value']
 // file /usr/include/X11/Xresource.h line 338
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
 // file /usr/include/X11/Xutil.h line 287
-struct anonymous$62;
+struct anonymous_62;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}$S8$'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'$pad0'|*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#$'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'|S32'qlen'|U32'$pad2'|U64'last_request_read'|U64'request'|*{S8}$S8$'private11'|*{S8}$S8$'private12'|*{S8}$S8$'private13'|*{S8}$S8$'private14'|U32'max_request_size'|U32'$pad3'|*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'|*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'|*{S8}$S8$'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}$S8$'private17'|*{S8}$S8$'private18'|S32'private19'|U32'$pad4'|*{S8}$S8$'xdefaults']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}_S8_'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'_pad0'|*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#_'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'|S32'qlen'|U32'_pad2'|U64'last_request_read'|U64'request'|*{S8}_S8_'private11'|*{S8}_S8_'private12'|*{S8}_S8_'private13'|*{S8}_S8_'private14'|U32'max_request_size'|U32'_pad3'|*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'|*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'|*{S8}_S8_'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}_S8_'private17'|*{S8}_S8_'private18'|S32'private19'|U32'_pad4'|*{S8}_S8_'xdefaults']
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}$SYM#tag-#anon#ST[U64'name'|U64'card32']#$'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}$SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#$'per_char'|S32'ascent'|S32'descent']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}_SYM#tag-#anon#ST[U64'name'|U64'card32']#_'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}_SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#_'per_char'|S32'ascent'|S32'descent']
 // file /usr/include/X11/Xlib.h line 1035
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[*{SYM#tag-texture_font_data#}$SYM#tag-texture_font_data#$'texfont'|S32'line_height'|S32'top_p']
+// tag-#anon#ST[*{SYM#tag-texture_font_data#}_SYM#tag-texture_font_data#_'texfont'|S32'line_height'|S32'top_p']
 // file fps-gl.c line 38
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{V}$V$'var'|*{S8}$S8$'name'|*{S8}$S8$'classname'|*{S8}$S8$'def'|SYM##anon_enum$t_String=0$t_Float=1$t_Int=2$t_Bool=3#'type'|U32'$pad0']
+// tag-#anon#ST[*{V}_V_'var'|*{S8}_S8_'name'|*{S8}_S8_'classname'|*{S8}_S8_'def'|SYM##anon_enum_t_String=0_t_Float=1_t_Int=2_t_Bool=3#'type'|U32'_pad0']
 // file ./../xlockmoreI.h line 129
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$47;
+struct anonymous_47;
 
 // tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']
 // file /usr/include/X11/Xlib.h line 1017
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S16'x'|S16'y']
 // file /usr/include/X11/Xlib.h line 426
-struct anonymous$70;
+struct anonymous_70;
 
-// tag-#anon#ST[S32'WinH'|S32'WinW'|*{*{SYM#tag-__GLXcontextRec#}$SYM#tag-__GLXcontextRec#$}$*{SYM#tag-__GLXcontextRec#}$SYM#tag-__GLXcontextRec#$$'glx_context'|S32'num_sharks'|F32'sharkspeed'|F32'whalespeed'|S32'sharksize'|S32'wire'|S32'whaledir'|*{SYM#tag-_fishRec#}$SYM#tag-_fishRec#$'sharks'|SYM#tag-_fishRec#'momWhale'|SYM#tag-_fishRec#'babyWhale'|SYM#tag-_fishRec#'dolph'|*{SYM#tag-_XImage#}$SYM#tag-_XImage#$'texture']
+// tag-#anon#ST[S32'WinH'|S32'WinW'|*{*{SYM#tag-__GLXcontextRec#}_SYM#tag-__GLXcontextRec#_}_*{SYM#tag-__GLXcontextRec#}_SYM#tag-__GLXcontextRec#__'glx_context'|S32'num_sharks'|F32'sharkspeed'|F32'whalespeed'|S32'sharksize'|S32'wire'|S32'whaledir'|*{SYM#tag-_fishRec#}_SYM#tag-_fishRec#_'sharks'|SYM#tag-_fishRec#'momWhale'|SYM#tag-_fishRec#'babyWhale'|SYM#tag-_fishRec#'dolph'|*{SYM#tag-_XImage#}_SYM#tag-_XImage#_'texture']
 // file atlantis.h line 107
 struct anonymous;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$68;
+struct anonymous_68;
 
 // tag-#anon#ST[S32'depth'|S32'bits_per_pixel'|S32'scanline_pad']
 // file /usr/include/X11/Xlib.h line 171
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']
+// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'function'|U32'$pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'$pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'$pad2']
+// tag-#anon#ST[S32'function'|U32'_pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'_pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'_pad2']
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'numopts'|U32'$pad0'|*{SYM#tag-#anon#ST[*{S8}$S8$'option'|*{S8}$S8$'specifier'|SYM##anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7#'argKind'|U32'$pad0'|*{S8}$S8$'value']#}$SYM#tag-#anon#ST[*{S8}$S8$'option'|*{S8}$S8$'specifier'|SYM##anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7#'argKind'|U32'$pad0'|*{S8}$S8$'value']#$'opts'|S32'numvarsdesc'|U32'$pad1'|*{SYM#tag-#anon#ST[*{V}$V$'var'|*{S8}$S8$'name'|*{S8}$S8$'classname'|*{S8}$S8$'def'|SYM##anon_enum$t_String=0$t_Float=1$t_Int=2$t_Bool=3#'type'|U32'$pad0']#}$SYM#tag-#anon#ST[*{V}$V$'var'|*{S8}$S8$'name'|*{S8}$S8$'classname'|*{S8}$S8$'def'|SYM##anon_enum$t_String=0$t_Float=1$t_Int=2$t_Bool=3#'type'|U32'$pad0']#$'vars'|*{SYM#tag-#anon#ST[*{S8}$S8$'opt'|*{S8}$S8$'desc']#}$SYM#tag-#anon#ST[*{S8}$S8$'opt'|*{S8}$S8$'desc']#$'desc']
+// tag-#anon#ST[S32'numopts'|U32'_pad0'|*{SYM#tag-#anon#ST[*{S8}_S8_'option'|*{S8}_S8_'specifier'|SYM##anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7#'argKind'|U32'_pad0'|*{S8}_S8_'value']#}_SYM#tag-#anon#ST[*{S8}_S8_'option'|*{S8}_S8_'specifier'|SYM##anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7#'argKind'|U32'_pad0'|*{S8}_S8_'value']#_'opts'|S32'numvarsdesc'|U32'_pad1'|*{SYM#tag-#anon#ST[*{V}_V_'var'|*{S8}_S8_'name'|*{S8}_S8_'classname'|*{S8}_S8_'def'|SYM##anon_enum_t_String=0_t_Float=1_t_Int=2_t_Bool=3#'type'|U32'_pad0']#}_SYM#tag-#anon#ST[*{V}_V_'var'|*{S8}_S8_'name'|*{S8}_S8_'classname'|*{S8}_S8_'def'|SYM##anon_enum_t_String=0_t_Float=1_t_Int=2_t_Bool=3#'type'|U32'_pad0']#_'vars'|*{SYM#tag-#anon#ST[*{S8}_S8_'opt'|*{S8}_S8_'desc']#}_SYM#tag-#anon#ST[*{S8}_S8_'opt'|*{S8}_S8_'desc']#_'desc']
 // file ./../xlockmoreI.h line 142
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'$pad1']
+// tag-#anon#ST[S32'type'|U32'_pad0'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'_pad1']
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$64;
+struct anonymous_64;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype']
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'$pad2'|*{V}$V$'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'_pad2'|*{V}_V_'data']
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'major_code'|S32'minor_code']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'major_code'|S32'minor_code']
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window']
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'from_configure'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'from_configure'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y']
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'override_redirect'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'override_redirect'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window']
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'detail'|U32'$pad3'|U64'value_mask']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'detail'|U32'_pad3'|U64'value_mask']
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window']
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|ARR32{S8}$S8$'key_vector']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|ARR32{S8}_S8_'key_vector']
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'mode'|S32'detail']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'mode'|S32'detail']
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'width'|S32'height']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'width'|S32'height']
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'message_type'|S32'format'|U32'$pad2'|SYM#tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']#'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'message_type'|S32'format'|U32'_pad2'|SYM#tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']#'data']
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'$pad2'|S32'same_screen'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'_pad2'|S32'same_screen'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'selection'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'selection'|U64'time']
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screen']
+// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screen']
 // file /usr/include/X11/Xlib.h line 308
-struct anonymous$65;
+struct anonymous_65;
 
 // tag-#anon#ST[U16'red'|U16'green'|U16'blue'|U16'alpha']
 // file /usr/include/X11/extensions/Xrender.h line 83
-struct anonymous$66;
+struct anonymous_66;
 
-// tag-#anon#ST[U32'request_mode'|S16'x'|S16'y'|U16'width'|U16'height'|U16'border_width'|U16'$pad0'|*{SYM#tag-_WidgetRec#}$SYM#tag-_WidgetRec#$'sibling'|S32'stack_mode'|U32'$pad1']
+// tag-#anon#ST[U32'request_mode'|S16'x'|S16'y'|U16'width'|U16'height'|U16'border_width'|U16'_pad0'|*{SYM#tag-_WidgetRec#}_SYM#tag-_WidgetRec#_'sibling'|S32'stack_mode'|U32'_pad1']
 // file /usr/include/X11/Intrinsic.h line 212
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U32'size'|U32'$pad0'|*{S8}$S8$'addr']
+// tag-#anon#ST[U32'size'|U32'_pad0'|*{S8}_S8_'addr']
 // file /usr/include/X11/Xresource.h line 160
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'$pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad2'|U64'colormap'|U64'cursor']
+// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'_pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad2'|U64'colormap'|U64'cursor']
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$24;
+struct anonymous_24;
 
 // tag-#anon#ST[U64'name'|U64'card32']
 // file /usr/include/X11/Xlib.h line 1030
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'$pad0'|*{S8}$S8$'shmaddr'|S32'readOnly'|U32'$pad1']
+// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'_pad0'|*{S8}_S8_'shmaddr'|S32'readOnly'|U32'_pad1']
 // file /usr/include/X11/extensions/XShm.h line 50
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[U8'byte1'|U8'byte2']
 // file /usr/include/X11/Xlib.h line 1064
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|ARR8{U16}$U16$'__u6_addr16'|ARR4{U32}$U32$'__u6_addr32']
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|ARR8{U16}_U16_'__u6_addr16'|ARR4{U32}_U32_'__u6_addr32']
 // file /usr/include/netinet/in.h line 211
-union anonymous$63;
+union anonymous_63;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']
+// tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$49;
+union anonymous_49;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$69;
+union anonymous_69;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$67;
+union anonymous_67;
 
 // tag-ModeInfo
 // file ./../xlockmoreI.h line 27
@@ -547,7 +547,7 @@ static void AllDisplay(struct anonymous *ap);
 static void Animate(struct anonymous *ap);
 // BadValue_ehandler
 // file xlock-gl-utils.c line 36
-static signed int BadValue_ehandler(struct _XDisplay *dpy, struct anonymous$64 *error);
+static signed int BadValue_ehandler(struct _XDisplay *dpy, struct anonymous_64 *error);
 // Dolphin001
 // file dolphin.c line 461
 static void Dolphin001(unsigned int cap);
@@ -676,7 +676,7 @@ extern void SharkMiss(struct anonymous *ap, signed int i);
 extern void SharkPilot(struct _fishRec *fish, float sharkspeed);
 // VirtualRootWindowOfScreen
 // file ./../utils/vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen(struct anonymous$58 *screen);
+static unsigned long int VirtualRootWindowOfScreen(struct anonymous_58 *screen);
 // Whale001
 // file whale.c line 403
 static void Whale001(unsigned int cap);
@@ -730,7 +730,7 @@ static void Whale016(unsigned int cap);
 extern void WhalePilot(struct _fishRec *fish, float whalespeed, signed int whaledir);
 // XAllocColor
 // file /usr/include/X11/Xlib.h line 1958
-extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous$36 *);
+extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous_36 *);
 // XAllocColorCells
 // file /usr/include/X11/Xlib.h line 1964
 extern signed int XAllocColorCells(struct _XDisplay *, unsigned long int, signed int, unsigned long int *, unsigned int, unsigned long int *, unsigned int);
@@ -742,19 +742,19 @@ extern signed int XBell(struct _XDisplay *, signed int);
 extern signed int XChangeProperty(struct _XDisplay *, unsigned long int, unsigned long int, unsigned long int, signed int, signed int, const unsigned char *, signed int);
 // XChar2b_to_utf8
 // file utf8wc.c line 306
-extern char * XChar2b_to_utf8(const struct anonymous$4 *in, signed int *length_ret);
+extern char * XChar2b_to_utf8(const struct anonymous_4 *in, signed int *length_ret);
 // XClearWindow
 // file /usr/include/X11/Xlib.h line 2155
 extern signed int XClearWindow(struct _XDisplay *, unsigned long int);
 // XCreateColormap
 // file /usr/include/X11/Xlib.h line 1552
-extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous$59 *, signed int);
+extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous_59 *, signed int);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$34 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_34 *);
 // XCreateImage
 // file /usr/include/X11/Xlib.h line 1441
-extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous$59 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous_59 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
 // XCreatePixmap
 // file /usr/include/X11/Xlib.h line 1597
 extern unsigned long int XCreatePixmap(struct _XDisplay *, unsigned long int, unsigned int, unsigned int, unsigned int);
@@ -775,7 +775,7 @@ extern signed int XFree(void *);
 extern signed int XFreeColors(struct _XDisplay *, unsigned long int, unsigned long int *, signed int, unsigned long int);
 // XFreeFont
 // file /usr/include/X11/Xlib.h line 2542
-extern signed int XFreeFont(struct _XDisplay *, struct anonymous$13 *);
+extern signed int XFreeFont(struct _XDisplay *, struct anonymous_13 *);
 // XFreeGC
 // file /usr/include/X11/Xlib.h line 2561
 extern signed int XFreeGC(struct _XDisplay *, struct _XGC *);
@@ -790,10 +790,10 @@ extern char * XGetAtomName(struct _XDisplay *, unsigned long int);
 extern struct _XImage * XGetImage(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned long int, signed int);
 // XGetVisualInfo
 // file /usr/include/X11/Xutil.h line 471
-extern struct anonymous$62 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous$62 *, signed int *);
+extern struct anonymous_62 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous_62 *, signed int *);
 // XGetWindowAttributes
 // file /usr/include/X11/Xlib.h line 2691
-extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous$65 *);
+extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous_65 *);
 // XGetWindowProperty
 // file /usr/include/X11/Xlib.h line 2676
 extern signed int XGetWindowProperty(struct _XDisplay *, unsigned long int, unsigned long int, signed long int, signed long int, signed int, unsigned long int, unsigned long int *, signed int *, unsigned long int *, unsigned long int *, unsigned char **);
@@ -808,19 +808,19 @@ extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed in
 extern signed int * XListDepths(struct _XDisplay *, signed int, signed int *);
 // XListPixmapFormats
 // file /usr/include/X11/Xlib.h line 1862
-extern struct anonymous$31 * XListPixmapFormats(struct _XDisplay *, signed int *);
+extern struct anonymous_31 * XListPixmapFormats(struct _XDisplay *, signed int *);
 // XLoadQueryFont
 // file /usr/include/X11/Xlib.h line 1394
-extern struct anonymous$13 * XLoadQueryFont(struct _XDisplay *, const char *);
+extern struct anonymous_13 * XLoadQueryFont(struct _XDisplay *, const char *);
 // XLookupString
 // file /usr/include/X11/Xutil.h line 534
-extern signed int XLookupString(struct anonymous$8 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
+extern signed int XLookupString(struct anonymous_8 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
 // XNextEvent
 // file /usr/include/X11/Xlib.h line 2841
 extern signed int XNextEvent(struct _XDisplay *, union _XEvent *);
 // XParseColor
 // file /usr/include/X11/Xlib.h line 2850
-extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$36 *);
+extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_36 *);
 // XPending
 // file /usr/include/X11/Xlib.h line 2881
 extern signed int XPending(struct _XDisplay *);
@@ -832,7 +832,7 @@ extern signed int XQueryTree(struct _XDisplay *, unsigned long int, unsigned lon
 extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed long int);
 // XSetErrorHandler
 // file /usr/include/X11/Xlib.h line 1848
-extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous$64 *)))(struct _XDisplay *, struct anonymous$64 *);
+extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous_64 *)))(struct _XDisplay *, struct anonymous_64 *);
 // XSetFont
 // file /usr/include/X11/Xlib.h line 3215
 extern signed int XSetFont(struct _XDisplay *, struct _XGC *, unsigned long int);
@@ -844,22 +844,22 @@ extern signed int XSetWindowBackground(struct _XDisplay *, unsigned long int, un
 extern signed int XSetWindowColormap(struct _XDisplay *, unsigned long int, unsigned long int);
 // XStoreColors
 // file /usr/include/X11/Xlib.h line 3388
-extern signed int XStoreColors(struct _XDisplay *, unsigned long int, struct anonymous$36 *, signed int);
+extern signed int XStoreColors(struct _XDisplay *, unsigned long int, struct anonymous_36 *, signed int);
 // XSync
 // file /usr/include/X11/Xlib.h line 3409
 extern signed int XSync(struct _XDisplay *, signed int);
 // XVisualIDFromVisual
 // file /usr/include/X11/Xlib.h line 1728
-extern unsigned long int XVisualIDFromVisual(struct anonymous$59 *);
+extern unsigned long int XVisualIDFromVisual(struct anonymous_59 *);
 // XftColorAllocValue
 // file /usr/include/X11/Xft/Xft.h line 118
-signed int XftColorAllocValue(struct _XDisplay *, struct anonymous$59 *, unsigned long int, const struct anonymous$66 *, struct _XftColor *);
+signed int XftColorAllocValue(struct _XDisplay *, struct anonymous_59 *, unsigned long int, const struct anonymous_66 *, struct _XftColor *);
 // XftColorFree
 // file /usr/include/X11/Xft/Xft.h line 125
-void XftColorFree(struct _XDisplay *, struct anonymous$59 *, unsigned long int, struct _XftColor *);
+void XftColorFree(struct _XDisplay *, struct anonymous_59 *, unsigned long int, struct _XftColor *);
 // XftDrawCreate
 // file /usr/include/X11/Xft/Xft.h line 143
-struct _XftDraw * XftDrawCreate(struct _XDisplay *, unsigned long int, struct anonymous$59 *, unsigned long int);
+struct _XftDraw * XftDrawCreate(struct _XDisplay *, unsigned long int, struct anonymous_59 *, unsigned long int);
 // XftDrawDestroy
 // file /usr/include/X11/Xft/Xft.h line 174
 void XftDrawDestroy(struct _XftDraw *);
@@ -877,13 +877,13 @@ struct _XftFont * XftFontOpenXlfd(struct _XDisplay *, signed int, const char *);
 void XftTextExtentsUtf8(struct _XDisplay *, struct _XftFont *, const unsigned char *, signed int, struct _XGlyphInfo *);
 // XmuPrintDefaultErrorMessage
 // file ./../utils/xmu.h line 12
-signed int XmuPrintDefaultErrorMessage(struct _XDisplay *, struct anonymous$64 *, struct _IO_FILE *);
+signed int XmuPrintDefaultErrorMessage(struct _XDisplay *, struct anonymous_64 *, struct _IO_FILE *);
 // XrmGetResource
 // file /usr/include/X11/Xresource.h line 223
-extern signed int XrmGetResource(struct _XrmHashBucketRec *, const char *, const char *, char **, struct anonymous$9 *);
+extern signed int XrmGetResource(struct _XrmHashBucketRec *, const char *, const char *, char **, struct anonymous_9 *);
 // XtAppInitialize
 // file /usr/include/X11/Intrinsic.h line 1468
-extern struct _WidgetRec * XtAppInitialize(struct _XtAppStruct **, const char *, struct anonymous$51 *, unsigned int, signed int *, char **, char **, struct anonymous$7 *, unsigned int);
+extern struct _WidgetRec * XtAppInitialize(struct _XtAppStruct **, const char *, struct anonymous_51 *, unsigned int, signed int *, char **, char **, struct anonymous_7 *, unsigned int);
 // XtAppPending
 // file /usr/include/X11/Intrinsic.h line 1045
 extern unsigned long int XtAppPending(struct _XtAppStruct *);
@@ -907,7 +907,7 @@ extern struct _XtAppStruct * XtDisplayToApplicationContext(struct _XDisplay *);
 extern void XtGetApplicationNameAndClass(struct _XDisplay *, char **, char **);
 // XtPopup
 // file /usr/include/X11/Intrinsic.h line 1318
-extern void XtPopup(struct _WidgetRec *, enum anonymous$15);
+extern void XtPopup(struct _WidgetRec *, enum anonymous_15);
 // XtRealizeWidget
 // file /usr/include/X11/Intrinsic.h line 1104
 extern void XtRealizeWidget(struct _WidgetRec *);
@@ -1003,7 +1003,7 @@ void aligned_free(void *ptr);
 signed int aligned_malloc(void **ptr, unsigned int alignment, unsigned long int size);
 // allocate_writable_colors
 // file colors.c line 42
-extern void allocate_writable_colors(struct anonymous$58 *screen, unsigned long int cmap, unsigned long int *pixels, signed int *ncolorsP);
+extern void allocate_writable_colors(struct anonymous_58 *screen, unsigned long int cmap, unsigned long int *pixels, signed int *ncolorsP);
 // async_addr_from_name_cancel
 // file async_netdb.c line 344
 void async_addr_from_name_cancel(struct async_addr_from_name *self);
@@ -1033,7 +1033,7 @@ extern double atan2(double, double);
 static signed int bigendian(void);
 // bitmap_to_texture
 // file texfont.c line 108
-static void bitmap_to_texture(struct _XDisplay *dpy, unsigned long int p, struct anonymous$59 *visual, signed int depth, signed int *wP, signed int *hP);
+static void bitmap_to_texture(struct _XDisplay *dpy, unsigned long int p, struct anonymous_59 *visual, signed int depth, signed int *wP, signed int *hP);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -1057,10 +1057,10 @@ static void complain(signed int wanted_colors, signed int got_colors, signed int
 extern double cos(double);
 // describe_gl_visual
 // file visual-gl.c line 116
-extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous$58 *screen, struct anonymous$59 *visual, signed int private_cmap_p);
+extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous_58 *screen, struct anonymous_59 *visual, signed int private_cmap_p);
 // describe_visual
 // file visual.c line 445
-extern void describe_visual(struct _IO_FILE *f, struct anonymous$58 *screen, struct anonymous$59 *visual, signed int private_cmap_p);
+extern void describe_visual(struct _IO_FILE *f, struct anonymous_58 *screen, struct anonymous_59 *visual, signed int private_cmap_p);
 // draw_atlantis
 // file atlantis.c line 504
 static void draw_atlantis(struct ModeInfo *mi);
@@ -1075,7 +1075,7 @@ extern void exit(signed int);
 extern double fabs(double);
 // find_similar_visual
 // file visual.c line 503
-extern struct anonymous$59 * find_similar_visual(struct anonymous$58 *screen, struct anonymous$59 *old_visual);
+extern struct anonymous_59 * find_similar_visual(struct anonymous_58 *screen, struct anonymous_59 *old_visual);
 // fix_fds
 // file screenhack.c line 403
 static void fix_fds(void);
@@ -1102,7 +1102,7 @@ extern void fps_slept(struct fps_state *st, unsigned long int usecs);
 extern void free(void *);
 // free_colors
 // file colors.c line 25
-extern void free_colors(struct anonymous$58 *screen, unsigned long int cmap, struct anonymous$36 *colors, signed int ncolors);
+extern void free_colors(struct anonymous_58 *screen, unsigned long int cmap, struct anonymous_36 *colors, signed int ncolors);
 // free_texture_font
 // file texfont.c line 925
 extern void free_texture_font(struct texture_font_data *data);
@@ -1153,7 +1153,7 @@ static struct texfont_cache * get_cache(struct texture_font_data *data, const ch
 extern double get_float_resource(struct _XDisplay *dpy, char *res_name, char *res_class);
 // get_gl_visual
 // file ./../../utils/visual.h line 29
-extern struct anonymous$59 * get_gl_visual(struct anonymous$58 *screen);
+extern struct anonymous_59 * get_gl_visual(struct anonymous_58 *screen);
 // get_integer_resource
 // file ./../utils/resources.h line 17
 extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, char *res_class);
@@ -1174,10 +1174,10 @@ extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *r
 static unsigned int get_time_resource(struct _XDisplay *dpy, char *res_name, char *res_class, signed int sec_p);
 // get_visual
 // file visual.c line 50
-extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p);
+extern struct anonymous_59 * get_visual(struct anonymous_58 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p);
 // get_visual_resource
 // file ./../utils/visual.h line 16
-extern struct anonymous$59 * get_visual_resource(struct anonymous$58 *screen, char *name, char *class, signed int prefer_writable_cells);
+extern struct anonymous_59 * get_visual_resource(struct anonymous_58 *screen, char *name, char *class, signed int prefer_writable_cells);
 // getaddrinfo
 // file /usr/include/netdb.h line 662
 extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, struct addrinfo ** restrict );
@@ -1351,13 +1351,13 @@ void glVertex3fv(const float *);
 void glViewport(signed int, signed int, signed int, signed int);
 // glXChooseVisual
 // file /usr/include/GL/glx.h line 187
-extern struct anonymous$62 * glXChooseVisual(struct _XDisplay *, signed int, signed int *);
+extern struct anonymous_62 * glXChooseVisual(struct _XDisplay *, signed int, signed int *);
 // glXCreateContext
 // file /usr/include/GL/glx.h line 190
-extern struct __GLXcontextRec * glXCreateContext(struct _XDisplay *, struct anonymous$62 *, struct __GLXcontextRec *, signed int);
+extern struct __GLXcontextRec * glXCreateContext(struct _XDisplay *, struct anonymous_62 *, struct __GLXcontextRec *, signed int);
 // glXGetConfig
 // file /usr/include/GL/glx.h line 214
-extern signed int glXGetConfig(struct _XDisplay *, struct anonymous$62 *, signed int, signed int *);
+extern signed int glXGetConfig(struct _XDisplay *, struct anonymous_62 *, signed int, signed int *);
 // glXMakeCurrent
 // file /usr/include/GL/glx.h line 195
 extern signed int glXMakeCurrent(struct _XDisplay *, unsigned long int, struct __GLXcontextRec *);
@@ -1375,13 +1375,13 @@ void gluPerspective(double, double, double, double);
 unsigned int hardware_concurrency(struct _XDisplay *dpy);
 // has_writable_cells
 // file ./../utils/visual.h line 25
-extern signed int has_writable_cells(struct anonymous$58 *screen, struct anonymous$59 *visual);
+extern signed int has_writable_cells(struct anonymous_58 *screen, struct anonymous_59 *visual);
 // hsv_to_rgb
 // file hsv.c line 20
 extern void hsv_to_rgb(signed int h, double s, double v, unsigned short int *r, unsigned short int *g, unsigned short int *b);
 // id_to_visual
 // file visual.c line 340
-extern struct anonymous$59 * id_to_visual(struct anonymous$58 *screen, signed int id);
+extern struct anonymous_59 * id_to_visual(struct anonymous_58 *screen, signed int id);
 // init_GL
 // file ./../xlockmoreI.h line 61
 extern struct __GLXcontextRec ** init_GL(struct ModeInfo *mi);
@@ -1397,9 +1397,9 @@ signed int io_thread_cancel(struct io_thread *self);
 // io_thread_create
 // file thread_util.h line 380
 void * io_thread_create(struct io_thread *self, void *parent, void * (*start_routine)(void *), struct _XDisplay *dpy, unsigned int stacksize);
-// io_thread_create::start_routine$object
+// io_thread_create::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // io_thread_finish
 // file thread_util.h line 411
 void io_thread_finish(struct io_thread *self);
@@ -1411,31 +1411,31 @@ signed int io_thread_is_done(struct io_thread *self);
 signed int io_thread_return(struct io_thread *self);
 // iterate_texture_string
 // file texfont.c line 340
-static void iterate_texture_string(struct texture_font_data *data, const char *s, signed int draw_x, signed int draw_y, struct _XftDraw *xftdraw, struct _XftColor *xftcolor, struct anonymous$11 *metrics_ret);
+static void iterate_texture_string(struct texture_font_data *data, const char *s, signed int draw_x, signed int draw_y, struct _XftDraw *xftdraw, struct _XftColor *xftcolor, struct anonymous_11 *metrics_ret);
 // load_texture_font
 // file texfont.c line 257
 extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char *res);
 // make_color_loop
 // file colors.c line 451
-extern void make_color_loop(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, signed int h0, double s0, double v0, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP);
+extern void make_color_loop(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, signed int h0, double s0, double v0, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP);
 // make_color_path
 // file colors.c line 224
-static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, signed int npoints, signed int *h, double *s, double *v, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP);
+static void make_color_path(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, signed int npoints, signed int *h, double *s, double *v, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP);
 // make_color_ramp
 // file colors.c line 99
-extern void make_color_ramp(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous$36 *colors, signed int *ncolorsP, signed int closed_p, signed int allocate_p, signed int *writable_pP);
+extern void make_color_ramp(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous_36 *colors, signed int *ncolorsP, signed int closed_p, signed int allocate_p, signed int *writable_pP);
 // make_random_colormap
 // file ./../../utils/colors.h line 132
-extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, struct anonymous$36 *colors, signed int *ncolorsP, signed int bright_p, signed int allocate_p, signed int *writable_pP, signed int verbose_p);
+extern void make_random_colormap(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, struct anonymous_36 *colors, signed int *ncolorsP, signed int bright_p, signed int allocate_p, signed int *writable_pP, signed int verbose_p);
 // make_shell
 // file screenhack.c line 612
-static struct _WidgetRec * make_shell(struct anonymous$58 *screen, struct _WidgetRec *toplevel, signed int width, signed int height);
+static struct _WidgetRec * make_shell(struct anonymous_58 *screen, struct _WidgetRec *toplevel, signed int width, signed int height);
 // make_smooth_colormap
 // file ./../../utils/colors.h line 88
-extern void make_smooth_colormap(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p);
+extern void make_smooth_colormap(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p);
 // make_uniform_colormap
 // file ./../../utils/colors.h line 110
-extern void make_uniform_colormap(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p);
+extern void make_uniform_colormap(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -1451,9 +1451,9 @@ static void merge_options(void);
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
-// orig_ehandler$object
+// orig_ehandler_object
 //
-signed int orig_ehandler$object(struct _XDisplay *, struct anonymous$64 *);
+signed int orig_ehandler_object(struct _XDisplay *, struct anonymous_64 *);
 // parse_image_data
 // file atlantis.c line 173
 static void parse_image_data(struct ModeInfo *mi);
@@ -1462,19 +1462,19 @@ static void parse_image_data(struct ModeInfo *mi);
 extern signed int parse_time(const char *string, signed int seconds_default_p, signed int silent_p);
 // pick_best_gl_visual
 // file visual.c line 281
-static struct anonymous$59 * pick_best_gl_visual(struct anonymous$58 *screen);
+static struct anonymous_59 * pick_best_gl_visual(struct anonymous_58 *screen);
 // pick_best_visual
 // file visual.c line 174
-static struct anonymous$59 * pick_best_visual(struct anonymous$58 *screen, signed int prefer_writable_cells, signed int color_only);
+static struct anonymous_59 * pick_best_visual(struct anonymous_58 *screen, signed int prefer_writable_cells, signed int color_only);
 // pick_best_visual_of_class
 // file visual.c line 242
-static struct anonymous$59 * pick_best_visual_of_class(struct anonymous$58 *screen, signed int visual_class);
+static struct anonymous_59 * pick_best_visual_of_class(struct anonymous_58 *screen, signed int visual_class);
 // pick_mono_visual
 // file visual.c line 218
-static struct anonymous$59 * pick_mono_visual(struct anonymous$58 *screen);
+static struct anonymous_59 * pick_mono_visual(struct anonymous_58 *screen);
 // pick_visual
 // file screenhack.c line 321
-static struct anonymous$59 * pick_visual(struct anonymous$58 *screen);
+static struct anonymous_59 * pick_visual(struct anonymous_58 *screen);
 // print_texture_label
 // file texfont.c line 758
 void print_texture_label(struct _XDisplay *dpy, struct texture_font_data *data, signed int window_width, signed int window_height, signed int position, const char *string);
@@ -1495,13 +1495,13 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 981
-extern signed int pthread_cond_broadcast(union anonymous$69 *);
+extern signed int pthread_cond_broadcast(union anonymous_69 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 973
-extern signed int pthread_cond_destroy(union anonymous$69 *);
+extern signed int pthread_cond_destroy(union anonymous_69 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 989
-extern signed int pthread_cond_wait(union anonymous$69 *, union anonymous$67 *);
+extern signed int pthread_cond_wait(union anonymous_69 *, union anonymous_67 *);
 // pthread_create
 // file /usr/include/pthread.h line 233
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1513,13 +1513,13 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 754
-extern signed int pthread_mutex_destroy(union anonymous$67 *);
+extern signed int pthread_mutex_destroy(union anonymous_67 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$67 *);
+extern signed int pthread_mutex_lock(union anonymous_67 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$67 *);
+extern signed int pthread_mutex_unlock(union anonymous_67 *);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -1537,25 +1537,25 @@ static void reshape_atlantis(struct ModeInfo *mi, signed int width, signed int h
 extern void rgb_to_hsv(unsigned short int r, unsigned short int g, unsigned short int b, signed int *h, double *s, double *v);
 // rotate_colors
 // file colors.c line 711
-extern void rotate_colors(struct anonymous$58 *screen, unsigned long int cmap, struct anonymous$36 *colors, signed int ncolors, signed int distance);
+extern void rotate_colors(struct anonymous_58 *screen, unsigned long int cmap, struct anonymous_36 *colors, signed int ncolors, signed int distance);
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb$object
+// run_screenhack_table::1::fps_cb_object
 //
-void fps_cb$object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb$object
+void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
+// run_screenhack_table::1::init_cb_object
 //
-void * init_cb$object(struct _XDisplay *, unsigned long int, void *);
+void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
 // screen_number
 // file ./../../utils/visual.h line 21
-extern signed int screen_number(struct anonymous$58 *screen);
+extern signed int screen_number(struct anonymous_58 *screen);
 // screenhack_do_fps
 // file screenhack.c line 528
 static void screenhack_do_fps(struct _XDisplay *dpy, unsigned long int w, struct fps_state *fpst, void *closure);
 // screenhack_ehandler
 // file screenhack.c line 245
-static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous$64 *error);
+static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous_64 *error);
 // screenhack_event_helper
 // file resources.c line 276
 extern signed int screenhack_event_helper(struct _XDisplay *dpy, unsigned long int window, union _XEvent *event);
@@ -1570,7 +1570,7 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 extern void screenhack_usleep(unsigned long int usecs);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$47 *, struct anonymous$47 *, struct anonymous$47 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_47 *, struct anonymous_47 *, struct anonymous_47 *, struct timeval *);
 // sin
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 65
 extern double sin(double);
@@ -1600,10 +1600,10 @@ extern char * strcpy(char *, const char *);
 extern char * strdup(const char *);
 // string_to_texture
 // file texfont.c line 518
-void string_to_texture(struct texture_font_data *data, const char *string, struct anonymous$11 *extents_ret, signed int *tex_width_ret, signed int *tex_height_ret);
+void string_to_texture(struct texture_font_data *data, const char *string, struct anonymous_11 *extents_ret, signed int *tex_width_ret, signed int *tex_height_ret);
 // string_width
 // file fps.c line 175
-static signed int string_width(struct anonymous$13 *f, const char *c, signed int *height_ret);
+static signed int string_width(struct anonymous_13 *f, const char *c, signed int *height_ret);
 // strlen
 // file /usr/include/string.h line 394
 extern unsigned long int strlen(const char *);
@@ -1621,7 +1621,7 @@ extern char * strstr(const char *, const char *);
 extern signed long int sysconf(signed int);
 // texture_string_metrics
 // file texfont.c line 442
-extern void texture_string_metrics(struct texture_font_data *data, const char *s, struct anonymous$11 *metrics_ret, signed int *ascent_ret, signed int *descent_ret);
+extern void texture_string_metrics(struct texture_font_data *data, const char *s, struct anonymous_11 *metrics_ret, signed int *ascent_ret, signed int *descent_ret);
 // thread_memory_alignment
 // file thread_util.h line 112
 unsigned int thread_memory_alignment(struct _XDisplay *dpy);
@@ -1634,9 +1634,9 @@ void threadpool_destroy(struct threadpool *self);
 // threadpool_run
 // file thread_util.c line 826
 void threadpool_run(struct threadpool *self, void (*func)(void *));
-// threadpool_run::func$object
+// threadpool_run::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // threadpool_wait
 // file thread_util.c line 858
 void threadpool_wait(struct threadpool *self);
@@ -1663,28 +1663,28 @@ extern signed int utf8_encode(unsigned long int uc, char *out, signed long int l
 extern char ** utf8_split(const char *string, signed int *length_ret);
 // utf8_to_XChar2b
 // file utf8wc.c line 215
-extern struct anonymous$4 * utf8_to_XChar2b(const char *string, signed int *length_ret);
+extern struct anonymous_4 * utf8_to_XChar2b(const char *string, signed int *length_ret);
 // utf8_to_latin1
 // file utf8wc.c line 347
 extern char * utf8_to_latin1(const char *string, signed int ascii_p);
 // validate_gl_visual
 // file ./../../utils/visual.h line 31
-extern signed int validate_gl_visual(struct _IO_FILE *out, struct anonymous$58 *screen, const char *window_desc, struct anonymous$59 *visual);
+extern signed int validate_gl_visual(struct _IO_FILE *out, struct anonymous_58 *screen, const char *window_desc, struct anonymous_59 *visual);
 // visual_cells
 // file visual.c line 487
-extern signed int visual_cells(struct anonymous$58 *screen, struct anonymous$59 *visual);
+extern signed int visual_cells(struct anonymous_58 *screen, struct anonymous_59 *visual);
 // visual_class
 // file visual.c line 409
-extern signed int visual_class(struct anonymous$58 *screen, struct anonymous$59 *visual);
+extern signed int visual_class(struct anonymous_58 *screen, struct anonymous_59 *visual);
 // visual_depth
 // file ./../utils/visual.h line 17
-extern signed int visual_depth(struct anonymous$58 *screen, struct anonymous$59 *visual);
+extern signed int visual_depth(struct anonymous_58 *screen, struct anonymous_59 *visual);
 // visual_warning
 // file screenhack.c line 341
-static void visual_warning(struct anonymous$58 *screen, unsigned long int window, struct anonymous$59 *visual, unsigned long int cmap, signed int window_p);
+static void visual_warning(struct anonymous_58 *screen, unsigned long int window, struct anonymous_59 *visual, unsigned long int cmap, signed int window_p);
 // xlib_rgb_init
 // file /usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlibrgb.h line 75
-void xlib_rgb_init(struct _XDisplay *, struct anonymous$58 *);
+void xlib_rgb_init(struct _XDisplay *, struct anonymous_58 *);
 // xlockmore_do_fps
 // file ./../xlockmore.c line 533
 extern void xlockmore_do_fps(struct _XDisplay *dpy, unsigned long int w, struct fps_state *fpst, void *closure);
@@ -1711,7 +1711,7 @@ static void xlockmore_gl_fps_init(struct fps_state *st);
 static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, struct xlockmore_function_table *xlmft);
 // xlockmore_pick_gl_visual
 // file ./../xlockmoreI.h line 66
-extern struct anonymous$59 * xlockmore_pick_gl_visual(struct anonymous$58 *screen);
+extern struct anonymous_59 * xlockmore_pick_gl_visual(struct anonymous_58 *screen);
 // xlockmore_read_resources
 // file ./../xlockmore.c line 239
 static void xlockmore_read_resources(struct ModeInfo *mi);
@@ -1723,16 +1723,16 @@ static void xlockmore_reshape(struct _XDisplay *dpy, unsigned long int window, v
 extern void xlockmore_setup(struct xscreensaver_function_table *xsft, void *arg);
 // xlockmore_validate_gl_visual
 // file ./../xlockmoreI.h line 67
-extern signed int xlockmore_validate_gl_visual(struct anonymous$58 *screen, const char *name, struct anonymous$59 *visual);
+extern signed int xlockmore_validate_gl_visual(struct anonymous_58 *screen, const char *name, struct anonymous_59 *visual);
 // xpm_file_to_ximage
 // file xpm-ximage.c line 463
-extern struct _XImage * xpm_file_to_ximage(struct _XDisplay *dpy, struct anonymous$59 *visual, unsigned long int cmap, const char *filename);
+extern struct _XImage * xpm_file_to_ximage(struct _XDisplay *dpy, struct anonymous_59 *visual, unsigned long int cmap, const char *filename);
 // xpm_to_ximage
 // file xpm-ximage.h line 26
-extern struct _XImage * xpm_to_ximage(struct _XDisplay *dpy, struct anonymous$59 *visual, unsigned long int cmap, char **xpm_data);
+extern struct _XImage * xpm_to_ximage(struct _XDisplay *dpy, struct anonymous_59 *visual, unsigned long int cmap, char **xpm_data);
 // xpm_to_ximage_1
 // file xpm-ximage.c line 68
-static struct _XImage * xpm_to_ximage_1(struct _XDisplay *dpy, struct anonymous$59 *visual, unsigned long int cmap, const char *filename, char **xpm_data);
+static struct _XImage * xpm_to_ximage_1(struct _XDisplay *dpy, struct anonymous_59 *visual, unsigned long int cmap, const char *filename, char **xpm_data);
 // ya_rand_init
 // file ./../utils/yarandom.h line 37
 extern void ya_rand_init(unsigned int seed);
@@ -1740,7 +1740,7 @@ extern void ya_rand_init(unsigned int seed);
 // file ./../../utils/yarandom.h line 36
 extern unsigned int ya_random(void);
 
-struct anonymous$7
+struct anonymous_7
 {
   // name
   char *name;
@@ -1748,7 +1748,7 @@ struct anonymous$7
   signed long int value;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // opt
   char *opt;
@@ -1756,22 +1756,22 @@ struct anonymous$56
   char *desc;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // option
   char *option;
   // specifier
   char *specifier;
   // argKind
-  enum anonymous$57 argKind;
+  enum anonymous_57 argKind;
   // value
   char *value;
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // visual
-  struct anonymous$59 *visual;
+  struct anonymous_59 *visual;
   // visualid
   unsigned long int visualid;
   // screen
@@ -1792,7 +1792,7 @@ struct anonymous$62
   signed int bits_per_rgb;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1811,11 +1811,11 @@ struct anonymous$58
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$3 *depths;
+  struct anonymous_3 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$59 *root_visual;
+  struct anonymous_59 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -1836,7 +1836,7 @@ struct anonymous$58
   signed long int root_input_mask;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1873,7 +1873,7 @@ struct anonymous$0
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$27 *pixmap_format;
+  struct anonymous_27 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -1909,7 +1909,7 @@ struct anonymous$0
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$58 *screens;
+  struct anonymous_58 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -1928,7 +1928,7 @@ struct anonymous$0
   char *xdefaults;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1940,7 +1940,7 @@ struct anonymous$27
   signed int scanline_pad;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // lbearing
   signed short int lbearing;
@@ -1956,7 +1956,7 @@ struct anonymous$11
   unsigned short int attributes;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1979,20 +1979,20 @@ struct anonymous$13
   // n_properties
   signed int n_properties;
   // properties
-  struct anonymous$10 *properties;
+  struct anonymous_10 *properties;
   // min_bounds
-  struct anonymous$11 min_bounds;
+  struct anonymous_11 min_bounds;
   // max_bounds
-  struct anonymous$11 max_bounds;
+  struct anonymous_11 max_bounds;
   // per_char
-  struct anonymous$11 *per_char;
+  struct anonymous_11 *per_char;
   // ascent
   signed int ascent;
   // descent
   signed int descent;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2012,7 +2012,7 @@ struct anonymous$59
   signed int map_entries;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // texfont
   struct texture_font_data *texfont;
@@ -2022,7 +2022,7 @@ struct anonymous$5
   signed int top_p;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // var
   void *var;
@@ -2033,16 +2033,16 @@ struct anonymous$18
   // def
   char *def;
   // type
-  enum anonymous$60 type;
+  enum anonymous_60 type;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$70
+struct anonymous_70
 {
   // x
   signed short int x;
@@ -2118,7 +2118,7 @@ struct anonymous
   struct _XImage *texture;
 };
 
-struct anonymous$68
+struct anonymous_68
 {
   // __lock
   signed int __lock;
@@ -2138,7 +2138,7 @@ struct anonymous$68
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // depth
   signed int depth;
@@ -2148,17 +2148,17 @@ struct anonymous$31
   signed int scanline_pad;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$59 *visuals;
+  struct anonymous_59 *visuals;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // function
   signed int function;
@@ -2208,21 +2208,21 @@ struct anonymous$34
   char dashes;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // numopts
   signed int numopts;
   // opts
-  struct anonymous$51 *opts;
+  struct anonymous_51 *opts;
   // numvarsdesc
   signed int numvarsdesc;
   // vars
-  struct anonymous$18 *vars;
+  struct anonymous_18 *vars;
   // desc
-  struct anonymous$56 *desc;
+  struct anonymous_56 *desc;
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // type
   signed int type;
@@ -2240,7 +2240,7 @@ struct anonymous$64
   unsigned char minor_code;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // type
   signed int type;
@@ -2256,7 +2256,7 @@ struct anonymous$54
   signed int evtype;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // type
   signed int type;
@@ -2276,7 +2276,7 @@ struct anonymous$55
   void *data;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // type
   signed int type;
@@ -2294,7 +2294,7 @@ struct anonymous$25
   signed int minor_code;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // type
   signed int type;
@@ -2322,7 +2322,7 @@ struct anonymous$23
   signed int minor_code;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -2338,7 +2338,7 @@ struct anonymous$29
   unsigned long int window;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   signed int type;
@@ -2356,7 +2356,7 @@ struct anonymous$30
   signed int from_configure;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -2374,7 +2374,7 @@ struct anonymous$32
   signed int override_redirect;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -2392,7 +2392,7 @@ struct anonymous$41
   signed int place;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -2412,7 +2412,7 @@ struct anonymous$38
   signed int y;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -2442,7 +2442,7 @@ struct anonymous$37
   signed int override_redirect;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -2466,7 +2466,7 @@ struct anonymous$35
   signed int override_redirect;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -2490,7 +2490,7 @@ struct anonymous$45
   unsigned long int time;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   signed int type;
@@ -2506,7 +2506,7 @@ struct anonymous$33
   unsigned long int window;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -2524,7 +2524,7 @@ struct anonymous$42
   signed int place;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   signed int type;
@@ -2552,7 +2552,7 @@ struct anonymous$28
   signed int override_redirect;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -2584,7 +2584,7 @@ struct anonymous$40
   unsigned long int value_mask;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -2606,7 +2606,7 @@ struct anonymous$46
   unsigned long int time;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // type
   signed int type;
@@ -2620,7 +2620,7 @@ struct anonymous$53
   unsigned long int window;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // type
   signed int type;
@@ -2636,7 +2636,7 @@ struct anonymous$21
   char key_vector[32l];
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // type
   signed int type;
@@ -2654,7 +2654,7 @@ struct anonymous$20
   signed int detail;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // type
   signed int type;
@@ -2674,7 +2674,7 @@ struct anonymous$52
   signed int count;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // type
   signed int type;
@@ -2690,7 +2690,7 @@ struct anonymous$26
   signed int state;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -2708,7 +2708,7 @@ struct anonymous$39
   signed int height;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // type
   signed int type;
@@ -2732,7 +2732,7 @@ struct anonymous$22
   signed int count;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   signed int type;
@@ -2752,7 +2752,7 @@ struct anonymous$43
   signed int state;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   signed int type;
@@ -2772,7 +2772,7 @@ struct anonymous$48
   signed int state;
 };
 
-union anonymous$49
+union anonymous_49
 {
   // b
   char b[20l];
@@ -2782,7 +2782,7 @@ union anonymous$49
   signed long int l[5l];
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -2799,10 +2799,10 @@ struct anonymous$50
   // format
   signed int format;
   // data
-  union anonymous$49 data;
+  union anonymous_49 data;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // type
   signed int type;
@@ -2840,7 +2840,7 @@ struct anonymous$19
   unsigned int state;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // type
   signed int type;
@@ -2874,7 +2874,7 @@ struct anonymous$17
   signed int same_screen;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // type
   signed int type;
@@ -2908,7 +2908,7 @@ struct anonymous$12
   signed int same_screen;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // type
   signed int type;
@@ -2942,7 +2942,7 @@ struct anonymous$8
   signed int same_screen;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -2960,7 +2960,7 @@ struct anonymous$44
   unsigned long int time;
 };
 
-struct anonymous$65
+struct anonymous_65
 {
   // x
   signed int x;
@@ -2975,7 +2975,7 @@ struct anonymous$65
   // depth
   signed int depth;
   // visual
-  struct anonymous$59 *visual;
+  struct anonymous_59 *visual;
   // root
   unsigned long int root;
   // class
@@ -3007,10 +3007,10 @@ struct anonymous$65
   // override_redirect
   signed int override_redirect;
   // screen
-  struct anonymous$58 *screen;
+  struct anonymous_58 *screen;
 };
 
-struct anonymous$66
+struct anonymous_66
 {
   // red
   unsigned short int red;
@@ -3022,7 +3022,7 @@ struct anonymous$66
   unsigned short int alpha;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // request_mode
   unsigned int request_mode;
@@ -3042,7 +3042,7 @@ struct anonymous$6
   signed int stack_mode;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // size
   unsigned int size;
@@ -3050,7 +3050,7 @@ struct anonymous$9
   char *addr;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -3084,7 +3084,7 @@ struct anonymous$24
   unsigned long int cursor;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // name
   unsigned long int name;
@@ -3092,7 +3092,7 @@ struct anonymous$10
   unsigned long int card32;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // pixel
   unsigned long int pixel;
@@ -3108,7 +3108,7 @@ struct anonymous$36
   char pad;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // shmseg
   unsigned long int shmseg;
@@ -3120,7 +3120,7 @@ struct anonymous$2
   signed int readOnly;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // byte1
   unsigned char byte1;
@@ -3128,7 +3128,7 @@ struct anonymous$4
   unsigned char byte2;
 };
 
-union anonymous$63
+union anonymous_63
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3138,10 +3138,10 @@ union anonymous$63
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$69
+union anonymous_69
 {
   // __data
-  struct anonymous$68 __data;
+  struct anonymous_68 __data;
   // __size
   char __size[48l];
   // __align
@@ -3176,7 +3176,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$67
+union anonymous_67
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3205,7 +3205,7 @@ struct ModeInfo
   // pixels
   unsigned long int *pixels;
   // colors
-  struct anonymous$36 *colors;
+  struct anonymous_36 *colors;
   // writable_p
   signed int writable_p;
   // white
@@ -3213,7 +3213,7 @@ struct ModeInfo
   // black
   unsigned long int black;
   // xgwa
-  struct anonymous$65 xgwa;
+  struct anonymous_65 xgwa;
   // gc
   struct _XGC *gc;
   // pause
@@ -3253,7 +3253,7 @@ struct ModeInfo
   // use_shm
   signed int use_shm;
   // shm_info
-  struct anonymous$2 shm_info;
+  struct anonymous_2 shm_info;
 };
 
 struct _CoreClassPart
@@ -3271,11 +3271,11 @@ struct _CoreClassPart
   // class_inited
   unsigned char class_inited;
   // initialize
-  void (*initialize)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous$7 *, unsigned int *);
+  void (*initialize)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous_7 *, unsigned int *);
   // initialize_hook
-  void (*initialize_hook)(struct _WidgetRec *, struct anonymous$7 *, unsigned int *);
+  void (*initialize_hook)(struct _WidgetRec *, struct anonymous_7 *, unsigned int *);
   // realize
-  void (*realize)(struct _WidgetRec *, unsigned long int *, struct anonymous$24 *);
+  void (*realize)(struct _WidgetRec *, unsigned long int *, struct anonymous_24 *);
   // actions
   struct _XtActionsRec *actions;
   // num_actions
@@ -3301,13 +3301,13 @@ struct _CoreClassPart
   // expose
   void (*expose)(struct _WidgetRec *, union _XEvent *, struct _XRegion *);
   // set_values
-  char (*set_values)(struct _WidgetRec *, struct _WidgetRec *, struct _WidgetRec *, struct anonymous$7 *, unsigned int *);
+  char (*set_values)(struct _WidgetRec *, struct _WidgetRec *, struct _WidgetRec *, struct anonymous_7 *, unsigned int *);
   // set_values_hook
-  char (*set_values_hook)(struct _WidgetRec *, struct anonymous$7 *, unsigned int *);
+  char (*set_values_hook)(struct _WidgetRec *, struct anonymous_7 *, unsigned int *);
   // set_values_almost
-  void (*set_values_almost)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous$6 *, struct anonymous$6 *);
+  void (*set_values_almost)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous_6 *, struct anonymous_6 *);
   // get_values_hook
-  void (*get_values_hook)(struct _WidgetRec *, struct anonymous$7 *, unsigned int *);
+  void (*get_values_hook)(struct _WidgetRec *, struct anonymous_7 *, unsigned int *);
   // accept_focus
   char (*accept_focus)(struct _WidgetRec *, unsigned long int *);
   // version
@@ -3317,7 +3317,7 @@ struct _CoreClassPart
   // tm_table
   char *tm_table;
   // query_geometry
-  enum anonymous$14 (*query_geometry)(struct _WidgetRec *, struct anonymous$6 *, struct anonymous$6 *);
+  enum anonymous_14 (*query_geometry)(struct _WidgetRec *, struct anonymous_6 *, struct anonymous_6 *);
   // display_accelerator
   void (*display_accelerator)(struct _WidgetRec *, char *);
   // extension
@@ -3385,7 +3385,7 @@ struct _CorePart
   // name
   char *name;
   // screen
-  struct anonymous$58 *screen;
+  struct anonymous_58 *screen;
   // colormap
   unsigned long int colormap;
   // window
@@ -3509,71 +3509,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$53 xany;
+  struct anonymous_53 xany;
   // xkey
-  struct anonymous$8 xkey;
+  struct anonymous_8 xkey;
   // xbutton
-  struct anonymous$12 xbutton;
+  struct anonymous_12 xbutton;
   // xmotion
-  struct anonymous$17 xmotion;
+  struct anonymous_17 xmotion;
   // xcrossing
-  struct anonymous$19 xcrossing;
+  struct anonymous_19 xcrossing;
   // xfocus
-  struct anonymous$20 xfocus;
+  struct anonymous_20 xfocus;
   // xexpose
-  struct anonymous$22 xexpose;
+  struct anonymous_22 xexpose;
   // xgraphicsexpose
-  struct anonymous$23 xgraphicsexpose;
+  struct anonymous_23 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$25 xnoexpose;
+  struct anonymous_25 xnoexpose;
   // xvisibility
-  struct anonymous$26 xvisibility;
+  struct anonymous_26 xvisibility;
   // xcreatewindow
-  struct anonymous$28 xcreatewindow;
+  struct anonymous_28 xcreatewindow;
   // xdestroywindow
-  struct anonymous$29 xdestroywindow;
+  struct anonymous_29 xdestroywindow;
   // xunmap
-  struct anonymous$30 xunmap;
+  struct anonymous_30 xunmap;
   // xmap
-  struct anonymous$32 xmap;
+  struct anonymous_32 xmap;
   // xmaprequest
-  struct anonymous$33 xmaprequest;
+  struct anonymous_33 xmaprequest;
   // xreparent
-  struct anonymous$35 xreparent;
+  struct anonymous_35 xreparent;
   // xconfigure
-  struct anonymous$37 xconfigure;
+  struct anonymous_37 xconfigure;
   // xgravity
-  struct anonymous$38 xgravity;
+  struct anonymous_38 xgravity;
   // xresizerequest
-  struct anonymous$39 xresizerequest;
+  struct anonymous_39 xresizerequest;
   // xconfigurerequest
-  struct anonymous$40 xconfigurerequest;
+  struct anonymous_40 xconfigurerequest;
   // xcirculate
-  struct anonymous$41 xcirculate;
+  struct anonymous_41 xcirculate;
   // xcirculaterequest
-  struct anonymous$42 xcirculaterequest;
+  struct anonymous_42 xcirculaterequest;
   // xproperty
-  struct anonymous$43 xproperty;
+  struct anonymous_43 xproperty;
   // xselectionclear
-  struct anonymous$44 xselectionclear;
+  struct anonymous_44 xselectionclear;
   // xselectionrequest
-  struct anonymous$45 xselectionrequest;
+  struct anonymous_45 xselectionrequest;
   // xselection
-  struct anonymous$46 xselection;
+  struct anonymous_46 xselection;
   // xcolormap
-  struct anonymous$48 xcolormap;
+  struct anonymous_48 xcolormap;
   // xclient
-  struct anonymous$50 xclient;
+  struct anonymous_50 xclient;
   // xmapping
-  struct anonymous$52 xmapping;
+  struct anonymous_52 xmapping;
   // xerror
-  struct anonymous$64 xerror;
+  struct anonymous_64 xerror;
   // xkeymap
-  struct anonymous$21 xkeymap;
+  struct anonymous_21 xkeymap;
   // xgeneric
-  struct anonymous$54 xgeneric;
+  struct anonymous_54 xgeneric;
   // xcookie
-  struct anonymous$55 xcookie;
+  struct anonymous_55 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -3609,7 +3609,7 @@ struct _XGlyphInfo
 struct funcs
 {
   // create_image
-  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous$59 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous_59 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
   // destroy_image
   signed int (*destroy_image)(struct _XImage *);
   // get_pixel
@@ -3665,7 +3665,7 @@ struct _XftColor
   // pixel
   unsigned long int pixel;
   // color
-  struct anonymous$66 color;
+  struct anonymous_66 color;
 };
 
 struct _XftFont
@@ -3819,7 +3819,7 @@ struct fps_state
   // y
   signed int y;
   // font
-  struct anonymous$13 *font;
+  struct anonymous_13 *font;
   // clear_p
   signed int clear_p;
   // string
@@ -3861,7 +3861,7 @@ struct hostent
 struct in6_addr
 {
   // __in6_u
-  union anonymous$63 __in6_u;
+  union anonymous_63 __in6_u;
 };
 
 struct in_addr
@@ -3919,7 +3919,7 @@ struct texfont_cache
   // texid
   unsigned int texid;
   // extents
-  struct anonymous$11 extents;
+  struct anonymous_11 extents;
   // tex_width
   signed int tex_width;
   // tex_height
@@ -3953,9 +3953,9 @@ struct threadpool
   // serial_threads
   void *serial_threads;
   // mutex
-  union anonymous$67 mutex;
+  union anonymous_67 mutex;
   // cond
-  union anonymous$69 cond;
+  union anonymous_69 cond;
   // parallel_pending
   unsigned int parallel_pending;
   // parallel_unfinished
@@ -3991,7 +3991,7 @@ struct xlockmore_function_table
   // want_writable_colors
   signed int want_writable_colors;
   // desired_color_scheme
-  enum anonymous$1 desired_color_scheme;
+  enum anonymous_1 desired_color_scheme;
   // hack_init
   void (*hack_init)(struct ModeInfo *);
   // hack_draw
@@ -4005,7 +4005,7 @@ struct xlockmore_function_table
   // hack_handle_events
   signed int (*hack_handle_events)(struct ModeInfo *, union _XEvent *);
   // opts
-  struct anonymous$16 *opts;
+  struct anonymous_16 *opts;
   // screen_count
   unsigned int screen_count;
 };
@@ -4017,7 +4017,7 @@ struct xscreensaver_function_table
   // defaults
   const char * const *defaults;
   // options
-  const struct anonymous$51 *options;
+  const struct anonymous_51 *options;
   // setup_cb
   void (*setup_cb)(struct xscreensaver_function_table *, void *);
   // setup_arg
@@ -4035,591 +4035,591 @@ struct xscreensaver_function_table
   // fps_cb
   void (*fps_cb)(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
   // pick_visual_hook
-  struct anonymous$59 * (*pick_visual_hook)(struct anonymous$58 *);
+  struct anonymous_59 * (*pick_visual_hook)(struct anonymous_58 *);
   // validate_visual_hook
-  signed int (*validate_visual_hook)(struct anonymous$58 *, const char *, struct anonymous$59 *);
+  signed int (*validate_visual_hook)(struct anonymous_58 *, const char *, struct anonymous_59 *);
 };
 
 
 // N001
 // file dolphin.c line 80
 static const float N001[3l] = { (const float)-0.005937, (const float)-0.101998, (const float)-0.994767 };
-// N001$link1
+// N001_link1
 // file whale.c line 80
-static const float N001$link1[3l] = { (const float)0.019249, (const float)0.01134, (const float)-0.99975 };
+static const float N001_link1[3l] = { (const float)0.019249, (const float)0.01134, (const float)-0.99975 };
 // N002
 // file dolphin.c line 81
 static const float N002[3l] = { (const float)0.93678, (const float)-0.200803, (const float)0.286569 };
-// N002$link1
+// N002_link1
 // file shark.c line 83
-static const float N002$link1[3l] = { (const float)0.000077, (const float)-0.020611, (const float)0.999788 };
-// N002$link2
+static const float N002_link1[3l] = { (const float)0.000077, (const float)-0.020611, (const float)0.999788 };
+// N002_link2
 // file whale.c line 81
-static const float N002$link2[3l] = { (const float)-0.132579, (const float)0.954547, (const float)0.266952 };
+static const float N002_link2[3l] = { (const float)-0.132579, (const float)0.954547, (const float)0.266952 };
 // N003
 // file dolphin.c line 82
 static const float N003[3l] = { (const float)-0.233062, (const float)0.972058, (const float)0.028007 };
-// N003$link1
+// N003_link1
 // file shark.c line 84
-static const float N003$link1[3l] = { (const float)0.961425, (const float)0.258729, (const float)-0.09339 };
-// N003$link2
+static const float N003_link1[3l] = { (const float)0.961425, (const float)0.258729, (const float)-0.09339 };
+// N003_link2
 // file whale.c line 82
-static const float N003$link2[3l] = { (const float)-0.196061, (const float)0.980392, (const float)-0.019778 };
+static const float N003_link2[3l] = { (const float)-0.196061, (const float)0.980392, (const float)-0.019778 };
 // N004
 // file shark.c line 85
 static const float N004[3l] = { (const float)0.510811, (const float)-0.769633, (const float)-0.383063 };
-// N004$link1
+// N004_link1
 // file whale.c line 83
-static const float N004$link1[3l] = { (const float)0.695461, (const float)0.604704, (const float)0.388158 };
+static const float N004_link1[3l] = { (const float)0.695461, (const float)0.604704, (const float)0.388158 };
 // N005
 // file dolphin.c line 86
 static const float N005[3l] = { (const float)0.898117, (const float)0.360171, (const float)0.252315 };
-// N005$link1
+// N005_link1
 // file shark.c line 86
-static const float N005$link1[3l] = { (const float)0.400123, (const float)0.855734, (const float)-0.328055 };
-// N005$link2
+static const float N005_link1[3l] = { (const float)0.400123, (const float)0.855734, (const float)-0.328055 };
+// N005_link2
 // file whale.c line 84
-static const float N005$link2[3l] = { (const float)0.8706, (const float)0.425754, (const float)0.246557 };
+static const float N005_link2[3l] = { (const float)0.8706, (const float)0.425754, (const float)0.246557 };
 // N006
 // file dolphin.c line 87
 static const float N006[3l] = { (const float)-0.915437, (const float)0.348456, (const float)0.201378 };
-// N006$link1
+// N006_link1
 // file shark.c line 87
-static const float N006$link1[3l] = { (const float)-0.770715, (const float)0.610204, (const float)-0.18344 };
-// N006$link2
+static const float N006_link1[3l] = { (const float)-0.770715, (const float)0.610204, (const float)-0.18344 };
+// N006_link2
 // file whale.c line 85
-static const float N006$link2[3l] = { (const float)-0.881191, (const float)0.392012, (const float)0.264251 };
+static const float N006_link2[3l] = { (const float)-0.881191, (const float)0.392012, (const float)0.264251 };
 // N007
 // file dolphin.c line 88
 static const float N007[3l] = { (const float)0.602263, (const float)-0.777527, (const float)0.18092 };
-// N007$link1
+// N007_link1
 // file shark.c line 88
-static const float N007$link1[3l] = { (const float)-0.915597, (const float)-0.373345, (const float)-0.149316 };
+static const float N007_link1[3l] = { (const float)-0.915597, (const float)-0.373345, (const float)-0.149316 };
 // N008
 // file dolphin.c line 89
 static const float N008[3l] = { (const float)-0.906912, (const float)-0.412015, (const float)0.088061 };
-// N008$link1
+// N008_link1
 // file shark.c line 89
-static const float N008$link1[3l] = { (const float)-0.972788, (const float)0.208921, (const float)-0.100179 };
-// N008$link2
+static const float N008_link1[3l] = { (const float)-0.972788, (const float)0.208921, (const float)-0.100179 };
+// N008_link2
 // file whale.c line 89
-static const float N008$link2[3l] = { (const float)-0.341437, (const float)0.887477, (const float)0.309523 };
+static const float N008_link2[3l] = { (const float)-0.341437, (const float)0.887477, (const float)0.309523 };
 // N009
 // file shark.c line 90
 static const float N009[3l] = { (const float)-0.939713, (const float)-0.312268, (const float)-0.139383 };
-// N009$link1
+// N009_link1
 // file whale.c line 90
-static const float N009$link1[3l] = { (const float)0.124035, (const float)-0.992278, (const float)0 };
+static const float N009_link1[3l] = { (const float)0.124035, (const float)-0.992278, (const float)0 };
 // N010
 // file shark.c line 91
 static const float N010[3l] = { (const float)-0.624138, (const float)-0.741047, (const float)-0.247589 };
-// N010$link1
+// N010_link1
 // file whale.c line 91
-static const float N010$link1[3l] = { (const float)0.242536, (const float)0, (const float)-0.970143 };
+static const float N010_link1[3l] = { (const float)0.242536, (const float)0, (const float)-0.970143 };
 // N011
 // file shark.c line 92
 static const float N011[3l] = { (const float)0.591434, (const float)-0.768401, (const float)-0.244471 };
-// N011$link1
+// N011_link1
 // file whale.c line 92
-static const float N011$link1[3l] = { (const float)0.588172, (const float)0, (const float)0.808736 };
+static const float N011_link1[3l] = { (const float)0.588172, (const float)0, (const float)0.808736 };
 // N012
 // file dolphin.c line 95
 static const float N012[3l] = { (const float)0.884408, (const float)-0.429417, (const float)-0.182821 };
-// N012$link1
+// N012_link1
 // file shark.c line 93
-static const float N012$link1[3l] = { (const float)0.935152, (const float)-0.328495, (const float)-0.132598 };
-// N012$link2
+static const float N012_link1[3l] = { (const float)0.935152, (const float)-0.328495, (const float)-0.132598 };
+// N012_link2
 // file whale.c line 93
-static const float N012$link2[3l] = { (const float)0.929824, (const float)-0.340623, (const float)-0.139298 };
+static const float N012_link2[3l] = { (const float)0.929824, (const float)-0.340623, (const float)-0.139298 };
 // N013
 // file dolphin.c line 96
 static const float N013[3l] = { (const float)0.921121, (const float)0.311084, (const float)-0.234016 };
-// N013$link1
+// N013_link1
 // file shark.c line 94
-static const float N013$link1[3l] = { (const float)0.997102, (const float)0.074243, (const float)-0.016593 };
-// N013$link2
+static const float N013_link1[3l] = { (const float)0.997102, (const float)0.074243, (const float)-0.016593 };
+// N013_link2
 // file whale.c line 94
-static const float N013$link2[3l] = { (const float)0.954183, (const float)0.267108, (const float)-0.134865 };
+static const float N013_link2[3l] = { (const float)0.954183, (const float)0.267108, (const float)-0.134865 };
 // N014
 // file dolphin.c line 97
 static const float N014[3l] = { (const float)0.382635, (const float)0.877882, (const float)-0.287948 };
-// N014$link1
+// N014_link1
 // file shark.c line 95
-static const float N014$link1[3l] = { (const float)0.969995, (const float)0.241712, (const float)-0.026186 };
-// N014$link2
+static const float N014_link1[3l] = { (const float)0.969995, (const float)0.241712, (const float)-0.026186 };
+// N014_link2
 // file whale.c line 95
-static const float N014$link2[3l] = { (const float)0.495127, (const float)0.855436, (const float)-0.151914 };
+static const float N014_link2[3l] = { (const float)0.495127, (const float)0.855436, (const float)-0.151914 };
 // N015
 // file dolphin.c line 98
 static const float N015[3l] = { (const float)-0.380046, (const float)0.888166, (const float)-0.258316 };
-// N015$link1
+// N015_link1
 // file shark.c line 96
-static const float N015$link1[3l] = { (const float)0.844539, (const float)0.502628, (const float)-0.184714 };
-// N015$link2
+static const float N015_link1[3l] = { (const float)0.844539, (const float)0.502628, (const float)-0.184714 };
+// N015_link2
 // file whale.c line 96
-static const float N015$link2[3l] = { (const float)-0.390199, (const float)0.906569, (const float)-0.160867 };
+static const float N015_link2[3l] = { (const float)-0.390199, (const float)0.906569, (const float)-0.160867 };
 // N016
 // file dolphin.c line 99
 static const float N016[3l] = { (const float)-0.891515, (const float)0.392238, (const float)-0.226607 };
-// N016$link1
+// N016_link1
 // file shark.c line 97
-static const float N016$link1[3l] = { (const float)-0.906608, (const float)0.386308, (const float)-0.169787 };
-// N016$link2
+static const float N016_link1[3l] = { (const float)-0.906608, (const float)0.386308, (const float)-0.169787 };
+// N016_link2
 // file whale.c line 97
-static const float N016$link2[3l] = { (const float)-0.923605, (const float)0.354581, (const float)-0.145692 };
+static const float N016_link2[3l] = { (const float)-0.923605, (const float)0.354581, (const float)-0.145692 };
 // N017
 // file dolphin.c line 100
 static const float N017[3l] = { (const float)-0.901419, (const float)-0.382002, (const float)-0.203763 };
-// N017$link1
+// N017_link1
 // file shark.c line 98
-static const float N017$link1[3l] = { (const float)-0.970016, (const float)0.241698, (const float)-0.025516 };
-// N017$link2
+static const float N017_link1[3l] = { (const float)-0.970016, (const float)0.241698, (const float)-0.025516 };
+// N017_link2
 // file whale.c line 98
-static const float N017$link2[3l] = { (const float)-0.955796, (const float)-0.260667, (const float)-0.136036 };
+static const float N017_link2[3l] = { (const float)-0.955796, (const float)-0.260667, (const float)-0.136036 };
 // N018
 // file dolphin.c line 101
 static const float N018[3l] = { (const float)-0.367225, (const float)-0.911091, (const float)-0.187243 };
-// N018$link1
+// N018_link1
 // file shark.c line 99
-static const float N018$link1[3l] = { (const float)-0.998652, (const float)0.050493, (const float)-0.012045 };
-// N018$link2
+static const float N018_link1[3l] = { (const float)-0.998652, (const float)0.050493, (const float)-0.012045 };
+// N018_link2
 // file whale.c line 99
-static const float N018$link2[3l] = { (const float)-0.501283, (const float)-0.853462, (const float)-0.14254 };
+static const float N018_link2[3l] = { (const float)-0.501283, (const float)-0.853462, (const float)-0.14254 };
 // N019
 // file dolphin.c line 102
 static const float N019[3l] = { (const float)0.339539, (const float)-0.924846, (const float)-0.171388 };
-// N019$link1
+// N019_link1
 // file shark.c line 100
-static const float N019$link1[3l] = { (const float)-0.942685, (const float)-0.333051, (const float)-0.020556 };
-// N019$link2
+static const float N019_link1[3l] = { (const float)-0.942685, (const float)-0.333051, (const float)-0.020556 };
+// N019_link2
 // file whale.c line 100
-static const float N019$link2[3l] = { (const float)0.4053, (const float)-0.901974, (const float)-0.148913 };
+static const float N019_link2[3l] = { (const float)0.4053, (const float)-0.901974, (const float)-0.148913 };
 // N020
 // file dolphin.c line 103
 static const float N020[3l] = { (const float)0.914706, (const float)-0.378617, (const float)-0.14129 };
-// N020$link1
+// N020_link1
 // file shark.c line 101
-static const float N020$link1[3l] = { (const float)-0.660944, (const float)-0.750276, (const float)0.01548 };
-// N020$link2
+static const float N020_link1[3l] = { (const float)-0.660944, (const float)-0.750276, (const float)0.01548 };
+// N020_link2
 // file whale.c line 101
-static const float N020$link2[3l] = { (const float)0.909913, (const float)-0.392746, (const float)-0.133451 };
+static const float N020_link2[3l] = { (const float)0.909913, (const float)-0.392746, (const float)-0.133451 };
 // N021
 // file dolphin.c line 104
 static const float N021[3l] = { (const float)0.950662, (const float)0.262713, (const float)-0.164994 };
-// N021$link1
+// N021_link1
 // file shark.c line 102
-static const float N021$link1[3l] = { (const float)0.503549, (const float)-0.862908, (const float)-0.042749 };
-// N021$link2
+static const float N021_link1[3l] = { (const float)0.503549, (const float)-0.862908, (const float)-0.042749 };
+// N021_link2
 // file whale.c line 102
-static const float N021$link2[3l] = { (const float)0.936494, (const float)0.331147, (const float)-0.115414 };
+static const float N021_link2[3l] = { (const float)0.936494, (const float)0.331147, (const float)-0.115414 };
 // N022
 // file dolphin.c line 105
 static const float N022[3l] = { (const float)0.546359, (const float)0.80146, (const float)-0.243218 };
-// N022$link1
+// N022_link1
 // file shark.c line 103
-static const float N022$link1[3l] = { (const float)0.953202, (const float)-0.302092, (const float)-0.012089 };
-// N022$link2
+static const float N022_link1[3l] = { (const float)0.953202, (const float)-0.302092, (const float)-0.012089 };
+// N022_link2
 // file whale.c line 103
-static const float N022$link2[3l] = { (const float)0.600131, (const float)0.793724, (const float)-0.099222 };
+static const float N022_link2[3l] = { (const float)0.600131, (const float)0.793724, (const float)-0.099222 };
 // N023
 // file dolphin.c line 106
 static const float N023[3l] = { (const float)-0.315796, (const float)0.917068, (const float)-0.243431 };
-// N023$link1
+// N023_link1
 // file shark.c line 104
-static const float N023$link1[3l] = { (const float)0.998738, (const float)0.023574, (const float)0.044344 };
-// N023$link2
+static const float N023_link1[3l] = { (const float)0.998738, (const float)0.023574, (const float)0.044344 };
+// N023_link2
 // file whale.c line 104
-static const float N023$link2[3l] = { (const float)-0.231556, (const float)0.968361, (const float)-0.093053 };
+static const float N023_link2[3l] = { (const float)-0.231556, (const float)0.968361, (const float)-0.093053 };
 // N024
 // file dolphin.c line 107
 static const float N024[3l] = { (const float)-0.825687, (const float)0.532277, (const float)-0.186875 };
-// N024$link1
+// N024_link1
 // file shark.c line 105
-static const float N024$link1[3l] = { (const float)0.979297, (const float)0.193272, (const float)0.060202 };
-// N024$link2
+static const float N024_link1[3l] = { (const float)0.979297, (const float)0.193272, (const float)0.060202 };
+// N024_link2
 // file whale.c line 105
-static const float N024$link2[3l] = { (const float)-0.844369, (const float)0.52533, (const float)-0.105211 };
+static const float N024_link2[3l] = { (const float)-0.844369, (const float)0.52533, (const float)-0.105211 };
 // N025
 // file dolphin.c line 108
 static const float N025[3l] = { (const float)-0.974763, (const float)-0.155232, (const float)-0.160435 };
-// N025$link1
+// N025_link1
 // file shark.c line 106
-static const float N025$link1[3l] = { (const float)0.7983, (const float)0.464885, (const float)0.382883 };
-// N025$link2
+static const float N025_link1[3l] = { (const float)0.7983, (const float)0.464885, (const float)0.382883 };
+// N025_link2
 // file whale.c line 106
-static const float N025$link2[3l] = { (const float)-0.982725, (const float)-0.136329, (const float)-0.125164 };
+static const float N025_link2[3l] = { (const float)-0.982725, (const float)-0.136329, (const float)-0.125164 };
 // N026
 // file dolphin.c line 109
 static const float N026[3l] = { (const float)-0.560596, (const float)-0.816658, (const float)-0.137119 };
-// N026$link1
+// N026_link1
 // file shark.c line 107
-static const float N026$link1[3l] = { (const float)-0.75659, (const float)0.452403, (const float)0.472126 };
-// N026$link2
+static const float N026_link1[3l] = { (const float)-0.75659, (const float)0.452403, (const float)0.472126 };
+// N026_link2
 // file whale.c line 107
-static const float N026$link2[3l] = { (const float)-0.560844, (const float)-0.822654, (const float)-0.093241 };
+static const float N026_link2[3l] = { (const float)-0.560844, (const float)-0.822654, (const float)-0.093241 };
 // N027
 // file dolphin.c line 110
 static const float N027[3l] = { (const float)0.38021, (const float)-0.910817, (const float)-0.160786 };
-// N027$link1
+// N027_link1
 // file shark.c line 108
-static const float N027$link1[3l] = { (const float)-0.953855, (const float)0.293003, (const float)0.065651 };
-// N027$link2
+static const float N027_link1[3l] = { (const float)-0.953855, (const float)0.293003, (const float)0.065651 };
+// N027_link2
 // file whale.c line 108
-static const float N027$link2[3l] = { (const float)0.263884, (const float)-0.959981, (const float)-0.093817 };
+static const float N027_link2[3l] = { (const float)0.263884, (const float)-0.959981, (const float)-0.093817 };
 // N028
 // file dolphin.c line 111
 static const float N028[3l] = { (const float)0.923772, (const float)-0.358322, (const float)-0.135093 };
-// N028$link1
+// N028_link1
 // file shark.c line 109
-static const float N028$link1[3l] = { (const float)-0.998033, (const float)0.040292, (const float)0.048028 };
-// N028$link2
+static const float N028_link1[3l] = { (const float)-0.998033, (const float)0.040292, (const float)0.048028 };
+// N028_link2
 // file whale.c line 109
-static const float N028$link2[3l] = { (const float)0.842057, (const float)-0.525192, (const float)-0.122938 };
+static const float N028_link2[3l] = { (const float)0.842057, (const float)-0.525192, (const float)-0.122938 };
 // N029
 // file dolphin.c line 112
 static const float N029[3l] = { (const float)0.951202, (const float)0.275053, (const float)-0.139859 };
-// N029$link1
+// N029_link1
 // file shark.c line 110
-static const float N029$link1[3l] = { (const float)-0.977079, (const float)-0.204288, (const float)0.059858 };
-// N029$link2
+static const float N029_link1[3l] = { (const float)-0.977079, (const float)-0.204288, (const float)0.059858 };
+// N029_link2
 // file whale.c line 110
-static const float N029$link2[3l] = { (const float)0.92162, (const float)0.367565, (const float)-0.124546 };
+static const float N029_link2[3l] = { (const float)0.92162, (const float)0.367565, (const float)-0.124546 };
 // N030
 // file dolphin.c line 113
 static const float N030[3l] = { (const float)0.686099, (const float)0.702548, (const float)-0.188932 };
-// N030$link1
+// N030_link1
 // file shark.c line 111
-static const float N030$link1[3l] = { (const float)-0.729117, (const float)-0.675304, (const float)0.11114 };
-// N030$link2
+static const float N030_link1[3l] = { (const float)-0.729117, (const float)-0.675304, (const float)0.11114 };
+// N030_link2
 // file whale.c line 111
-static const float N030$link2[3l] = { (const float)0.613927, (const float)0.784109, (const float)-0.090918 };
+static const float N030_link2[3l] = { (const float)0.613927, (const float)0.784109, (const float)-0.090918 };
 // N031
 // file dolphin.c line 114
 static const float N031[3l] = { (const float)-0.521865, (const float)0.826719, (const float)-0.21022 };
-// N031$link1
+// N031_link1
 // file shark.c line 112
-static const float N031$link1[3l] = { (const float)0.598361, (const float)-0.792753, (const float)0.116221 };
-// N031$link2
+static const float N031_link1[3l] = { (const float)0.598361, (const float)-0.792753, (const float)0.116221 };
+// N031_link2
 // file whale.c line 112
-static const float N031$link2[3l] = { (const float)-0.448754, (const float)0.888261, (const float)-0.098037 };
+static const float N031_link2[3l] = { (const float)-0.448754, (const float)0.888261, (const float)-0.098037 };
 // N032
 // file dolphin.c line 115
 static const float N032[3l] = { (const float)-0.92382, (const float)0.346739, (const float)-0.162258 };
-// N032$link1
+// N032_link1
 // file shark.c line 113
-static const float N032$link1[3l] = { (const float)0.965192, (const float)-0.252991, (const float)0.066332 };
-// N032$link2
+static const float N032_link1[3l] = { (const float)0.965192, (const float)-0.252991, (const float)0.066332 };
+// N032_link2
 // file whale.c line 113
-static const float N032$link2[3l] = { (const float)-0.891865, (const float)0.434376, (const float)-0.126077 };
+static const float N032_link2[3l] = { (const float)-0.891865, (const float)0.434376, (const float)-0.126077 };
 // N033
 // file dolphin.c line 116
 static const float N033[3l] = { (const float)-0.902095, (const float)-0.409995, (const float)-0.134646 };
-// N033$link1
+// N033_link1
 // file shark.c line 114
-static const float N033$link1[3l] = { (const float)0.998201, (const float)-0.00279, (const float)0.059892 };
-// N033$link2
+static const float N033_link1[3l] = { (const float)0.998201, (const float)-0.00279, (const float)0.059892 };
+// N033_link2
 // file whale.c line 114
-static const float N033$link2[3l] = { (const float)-0.881447, (const float)-0.448017, (const float)-0.149437 };
+static const float N033_link2[3l] = { (const float)-0.881447, (const float)-0.448017, (const float)-0.149437 };
 // N034
 // file dolphin.c line 117
 static const float N034[3l] = { (const float)-0.509115, (const float)-0.848498, (const float)-0.144404 };
-// N034$link1
+// N034_link1
 // file shark.c line 115
-static const float N034$link1[3l] = { (const float)0.978657, (const float)0.193135, (const float)0.070207 };
-// N034$link2
+static const float N034_link1[3l] = { (const float)0.978657, (const float)0.193135, (const float)0.070207 };
+// N034_link2
 // file whale.c line 115
-static const float N034$link2[3l] = { (const float)-0.345647, (const float)-0.922057, (const float)-0.174183 };
+static const float N034_link2[3l] = { (const float)-0.345647, (const float)-0.922057, (const float)-0.174183 };
 // N035
 // file dolphin.c line 118
 static const float N035[3l] = { (const float)0.456469, (const float)-0.880293, (const float)-0.129305 };
-// N035$link1
+// N035_link1
 // file shark.c line 116
-static const float N035$link1[3l] = { (const float)0.718815, (const float)0.680392, (const float)0.142733 };
-// N035$link2
+static const float N035_link1[3l] = { (const float)0.718815, (const float)0.680392, (const float)0.142733 };
+// N035_link2
 // file whale.c line 116
-static const float N035$link2[3l] = { (const float)0.307998, (const float)-0.941371, (const float)-0.137688 };
+static const float N035_link2[3l] = { (const float)0.307998, (const float)-0.941371, (const float)-0.137688 };
 // N036
 // file dolphin.c line 119
 static const float N036[3l] = { (const float)0.873401, (const float)-0.475489, (const float)-0.105266 };
-// N036$link1
+// N036_link1
 // file shark.c line 117
-static const float N036$link1[3l] = { (const float)-0.383096, (const float)0.906212, (const float)0.178936 };
-// N036$link2
+static const float N036_link1[3l] = { (const float)-0.383096, (const float)0.906212, (const float)0.178936 };
+// N036_link2
 // file whale.c line 117
-static const float N036$link2[3l] = { (const float)0.806316, (const float)-0.574647, (const float)-0.140124 };
+static const float N036_link2[3l] = { (const float)0.806316, (const float)-0.574647, (const float)-0.140124 };
 // N037
 // file dolphin.c line 120
 static const float N037[3l] = { (const float)0.970825, (const float)0.179861, (const float)-0.158584 };
-// N037$link1
+// N037_link1
 // file shark.c line 118
-static const float N037$link1[3l] = { (const float)-0.952831, (const float)0.29259, (const float)0.080647 };
-// N037$link2
+static const float N037_link1[3l] = { (const float)-0.952831, (const float)0.29259, (const float)0.080647 };
+// N037_link2
 // file whale.c line 118
-static const float N037$link2[3l] = { (const float)0.961346, (const float)0.233646, (const float)-0.145681 };
+static const float N037_link2[3l] = { (const float)0.961346, (const float)0.233646, (const float)-0.145681 };
 // N038
 // file dolphin.c line 121
 static const float N038[3l] = { (const float)0.675609, (const float)0.714187, (const float)-0.183004 };
-// N038$link1
+// N038_link1
 // file shark.c line 119
-static const float N038$link1[3l] = { (const float)-0.99768, (const float)0.032417, (const float)0.059861 };
-// N038$link2
+static const float N038_link1[3l] = { (const float)-0.99768, (const float)0.032417, (const float)0.059861 };
+// N038_link2
 // file whale.c line 119
-static const float N038$link2[3l] = { (const float)0.488451, (const float)0.865586, (const float)-0.110351 };
+static const float N038_link2[3l] = { (const float)0.488451, (const float)0.865586, (const float)-0.110351 };
 // N039
 // file dolphin.c line 122
 static const float N039[3l] = { (const float)-0.523574, (const float)0.830212, (const float)-0.19136 };
-// N039$link1
+// N039_link1
 // file shark.c line 120
-static const float N039$link1[3l] = { (const float)-0.982629, (const float)-0.169881, (const float)0.0747 };
-// N039$link2
+static const float N039_link1[3l] = { (const float)-0.982629, (const float)-0.169881, (const float)0.0747 };
+// N039_link2
 // file whale.c line 120
-static const float N039$link2[3l] = { (const float)-0.37429, (const float)0.921953, (const float)-0.099553 };
+static const float N039_link2[3l] = { (const float)-0.37429, (const float)0.921953, (const float)-0.099553 };
 // N040
 // file dolphin.c line 123
 static const float N040[3l] = { (const float)-0.958895, (const float)0.230808, (const float)-0.165071 };
-// N040$link1
+// N040_link1
 // file shark.c line 121
-static const float N040$link1[3l] = { (const float)-0.695424, (const float)-0.703466, (const float)0.1467 };
-// N040$link2
+static const float N040_link1[3l] = { (const float)-0.695424, (const float)-0.703466, (const float)0.1467 };
+// N040_link2
 // file whale.c line 121
-static const float N040$link2[3l] = { (const float)-0.928504, (const float)0.344533, (const float)-0.138485 };
+static const float N040_link2[3l] = { (const float)-0.928504, (const float)0.344533, (const float)-0.138485 };
 // N041
 // file dolphin.c line 124
 static const float N041[3l] = { (const float)-0.918285, (const float)-0.376803, (const float)-0.121542 };
-// N041$link1
+// N041_link1
 // file shark.c line 122
-static const float N041$link1[3l] = { (const float)0.359323, (const float)-0.915531, (const float)0.180805 };
-// N041$link2
+static const float N041_link1[3l] = { (const float)0.359323, (const float)-0.915531, (const float)0.180805 };
+// N041_link2
 // file whale.c line 122
-static const float N041$link2[3l] = { (const float)-0.918419, (const float)-0.371792, (const float)-0.135189 };
+static const float N041_link2[3l] = { (const float)-0.918419, (const float)-0.371792, (const float)-0.135189 };
 // N042
 // file dolphin.c line 125
 static const float N042[3l] = { (const float)-0.622467, (const float)-0.774167, (const float)-0.114888 };
-// N042$link1
+// N042_link1
 // file shark.c line 123
-static const float N042$link1[3l] = { (const float)0.943356, (const float)-0.319387, (const float)0.089842 };
-// N042$link2
+static const float N042_link1[3l] = { (const float)0.943356, (const float)-0.319387, (const float)0.089842 };
+// N042_link2
 // file whale.c line 123
-static const float N042$link2[3l] = { (const float)-0.520666, (const float)-0.833704, (const float)-0.183968 };
+static const float N042_link2[3l] = { (const float)-0.520666, (const float)-0.833704, (const float)-0.183968 };
 // N043
 // file dolphin.c line 126
 static const float N043[3l] = { (const float)0.404497, (const float)-0.908807, (const float)-0.102231 };
-// N043$link1
+// N043_link1
 // file shark.c line 124
-static const float N043$link1[3l] = { (const float)0.998272, (const float)-0.032435, (const float)0.048993 };
-// N043$link2
+static const float N043_link1[3l] = { (const float)0.998272, (const float)-0.032435, (const float)0.048993 };
+// N043_link2
 // file whale.c line 124
-static const float N043$link2[3l] = { (const float)0.339204, (const float)-0.920273, (const float)-0.195036 };
+static const float N043_link2[3l] = { (const float)0.339204, (const float)-0.920273, (const float)-0.195036 };
 // N044
 // file dolphin.c line 127
 static const float N044[3l] = { (const float)0.930538, (const float)-0.365155, (const float)-0.027588 };
-// N044$link1
+// N044_link1
 // file shark.c line 125
-static const float N044$link1[3l] = { (const float)0.978997, (const float)0.193205, (const float)0.065084 };
-// N044$link2
+static const float N044_link1[3l] = { (const float)0.978997, (const float)0.193205, (const float)0.065084 };
+// N044_link2
 // file whale.c line 125
-static const float N044$link2[3l] = { (const float)0.921475, (const float)-0.387382, (const float)-0.028636 };
+static const float N044_link2[3l] = { (const float)0.921475, (const float)-0.387382, (const float)-0.028636 };
 // N045
 // file dolphin.c line 128
 static const float N045[3l] = { (const float)0.92192, (const float)0.374157, (const float)-0.100345 };
-// N045$link1
+// N045_link1
 // file shark.c line 126
-static const float N045$link1[3l] = { (const float)0.872144, (const float)0.470094, (const float)-0.135565 };
-// N045$link2
+static const float N045_link1[3l] = { (const float)0.872144, (const float)0.470094, (const float)-0.135565 };
+// N045_link2
 // file whale.c line 126
-static const float N045$link2[3l] = { (const float)0.842465, (const float)0.533335, (const float)-0.076204 };
+static const float N045_link2[3l] = { (const float)0.842465, (const float)0.533335, (const float)-0.076204 };
 // N046
 // file dolphin.c line 129
 static const float N046[3l] = { (const float)0.507346, (const float)0.860739, (const float)0.041562 };
-// N046$link1
+// N046_link1
 // file shark.c line 127
-static const float N046$link1[3l] = { (const float)-0.664282, (const float)0.737945, (const float)-0.119027 };
-// N046$link2
+static const float N046_link1[3l] = { (const float)-0.664282, (const float)0.737945, (const float)-0.119027 };
+// N046_link2
 // file whale.c line 127
-static const float N046$link2[3l] = { (const float)0.38011, (const float)0.924939, (const float)0.002073 };
+static const float N046_link2[3l] = { (const float)0.38011, (const float)0.924939, (const float)0.002073 };
 // N047
 // file dolphin.c line 130
 static const float N047[3l] = { (const float)-0.394646, (const float)0.918815, (const float)-0.00573 };
-// N047$link1
+// N047_link1
 // file shark.c line 128
-static const float N047$link1[3l] = { (const float)-0.954508, (const float)0.28857, (const float)0.075107 };
-// N047$link2
+static const float N047_link1[3l] = { (const float)-0.954508, (const float)0.28857, (const float)0.075107 };
+// N047_link2
 // file whale.c line 128
-static const float N047$link2[3l] = { (const float)-0.276128, (const float)0.961073, (const float)-0.009579 };
+static const float N047_link2[3l] = { (const float)-0.276128, (const float)0.961073, (const float)-0.009579 };
 // N048
 // file dolphin.c line 131
 static const float N048[3l] = { (const float)-0.925411, (const float)0.373024, (const float)-0.066837 };
-// N048$link1
+// N048_link1
 // file shark.c line 129
-static const float N048$link1[3l] = { (const float)-0.998273, (const float)0.032406, (const float)0.048993 };
-// N048$link2
+static const float N048_link1[3l] = { (const float)-0.998273, (const float)0.032406, (const float)0.048993 };
+// N048_link2
 // file whale.c line 129
-static const float N048$link2[3l] = { (const float)-0.879684, (const float)0.473001, (const float)-0.04925 };
+static const float N048_link2[3l] = { (const float)-0.879684, (const float)0.473001, (const float)-0.04925 };
 // N049
 // file dolphin.c line 132
 static const float N049[3l] = { (const float)-0.945337, (const float)-0.322309, (const float)-0.049551 };
-// N049$link1
+// N049_link1
 // file shark.c line 130
-static const float N049$link1[3l] = { (const float)-0.979908, (const float)-0.193579, (const float)0.048038 };
-// N049$link2
+static const float N049_link1[3l] = { (const float)-0.979908, (const float)-0.193579, (const float)0.048038 };
+// N049_link2
 // file whale.c line 130
-static const float N049$link2[3l] = { (const float)-0.947184, (const float)-0.317614, (const float)-0.044321 };
+static const float N049_link2[3l] = { (const float)-0.947184, (const float)-0.317614, (const float)-0.044321 };
 // N050
 // file dolphin.c line 133
 static const float N050[3l] = { (const float)-0.660437, (const float)-0.750557, (const float)-0.022072 };
-// N050$link1
+// N050_link1
 // file shark.c line 131
-static const float N050$link1[3l] = { (const float)-0.858736, (const float)-0.507202, (const float)-0.072938 };
-// N050$link2
+static const float N050_link1[3l] = { (const float)-0.858736, (const float)-0.507202, (const float)-0.072938 };
+// N050_link2
 // file whale.c line 131
-static const float N050$link2[3l] = { (const float)-0.642059, (const float)-0.764933, (const float)-0.051363 };
+static const float N050_link2[3l] = { (const float)-0.642059, (const float)-0.764933, (const float)-0.051363 };
 // N051
 // file dolphin.c line 134
 static const float N051[3l] = { (const float)0.488835, (const float)-0.87195, (const float)-0.027261 };
-// N051$link1
+// N051_link1
 // file shark.c line 132
-static const float N051$link1[3l] = { (const float)0.643545, (const float)-0.763887, (const float)-0.048237 };
-// N051$link2
+static const float N051_link1[3l] = { (const float)0.643545, (const float)-0.763887, (const float)-0.048237 };
+// N051_link2
 // file whale.c line 132
-static const float N051$link2[3l] = { (const float)0.466794, (const float)-0.880921, (const float)-0.07799 };
+static const float N051_link2[3l] = { (const float)0.466794, (const float)-0.880921, (const float)-0.07799 };
 // N052
 // file dolphin.c line 135
 static const float N052[3l] = { (const float)0.902599, (const float)-0.421397, (const float)0.087969 };
-// N052$link1
+// N052_link1
 // file shark.c line 133
-static const float N052$link1[3l] = { (const float)0.95558, (const float)-0.288954, (const float)0.058068 };
-// N052$link2
+static const float N052_link1[3l] = { (const float)0.95558, (const float)-0.288954, (const float)0.058068 };
+// N052_link2
 // file whale.c line 133
-static const float N052$link2[3l] = { (const float)0.898509, (const float)-0.432277, (const float)0.076279 };
+static const float N052_link2[3l] = { (const float)0.898509, (const float)-0.432277, (const float)0.076279 };
 // N053
 // file dolphin.c line 136
 static const float N053[3l] = { (const float)0.938636, (const float)0.322606, (const float)0.12202 };
-// N053$link1
+// N053_link1
 // file whale.c line 134
-static const float N053$link1[3l] = { (const float)0.938985, (const float)0.328141, (const float)0.103109 };
+static const float N053_link1[3l] = { (const float)0.938985, (const float)0.328141, (const float)0.103109 };
 // N054
 // file dolphin.c line 137
 static const float N054[3l] = { (const float)0.484605, (const float)0.871078, (const float)0.079878 };
-// N054$link1
+// N054_link1
 // file whale.c line 135
-static const float N054$link1[3l] = { (const float)0.44242, (const float)0.895745, (const float)0.043647 };
+static const float N054_link1[3l] = { (const float)0.44242, (const float)0.895745, (const float)0.043647 };
 // N055
 // file dolphin.c line 138
 static const float N055[3l] = { (const float)-0.353607, (const float)0.931559, (const float)0.084619 };
-// N055$link1
+// N055_link1
 // file whale.c line 136
-static const float N055$link1[3l] = { (const float)-0.255163, (const float)0.966723, (const float)0.018407 };
+static const float N055_link1[3l] = { (const float)-0.255163, (const float)0.966723, (const float)0.018407 };
 // N056
 // file dolphin.c line 139
 static const float N056[3l] = { (const float)-0.867759, (const float)0.478564, (const float)0.134054 };
-// N056$link1
+// N056_link1
 // file whale.c line 137
-static const float N056$link1[3l] = { (const float)-0.833769, (const float)0.54065, (const float)0.111924 };
+static const float N056_link1[3l] = { (const float)-0.833769, (const float)0.54065, (const float)0.111924 };
 // N057
 // file dolphin.c line 140
 static const float N057[3l] = { (const float)-0.951583, (const float)-0.29603, (const float)0.082794 };
-// N057$link1
+// N057_link1
 // file whale.c line 138
-static const float N057$link1[3l] = { (const float)-0.953653, (const float)-0.289939, (const float)0.080507 };
+static const float N057_link1[3l] = { (const float)-0.953653, (const float)-0.289939, (const float)0.080507 };
 // N058
 // file dolphin.c line 141
 static const float N058[3l] = { (const float)-0.672355, (const float)-0.730209, (const float)0.121384 };
-// N058$link1
+// N058_link1
 // file shark.c line 141
-static const float N058$link1[3l] = { (const float)0.00005, (const float)0.793007, (const float)-0.609213 };
-// N058$link2
+static const float N058_link1[3l] = { (const float)0.00005, (const float)0.793007, (const float)-0.609213 };
+// N058_link2
 // file whale.c line 139
-static const float N058$link2[3l] = { (const float)-0.672357, (const float)-0.730524, (const float)0.119461 };
+static const float N058_link2[3l] = { (const float)-0.672357, (const float)-0.730524, (const float)0.119461 };
 // N059
 // file dolphin.c line 142
 static const float N059[3l] = { (const float)0.528336, (const float)-0.842452, (const float)0.105525 };
-// N059$link1
+// N059_link1
 // file shark.c line 142
-static const float N059$link1[3l] = { (const float)0.91351, (const float)0.235418, (const float)-0.331779 };
-// N059$link2
+static const float N059_link1[3l] = { (const float)0.91351, (const float)0.235418, (const float)-0.331779 };
+// N059_link2
 // file whale.c line 140
-static const float N059$link2[3l] = { (const float)0.522249, (const float)-0.846652, (const float)0.102157 };
+static const float N059_link2[3l] = { (const float)0.522249, (const float)-0.846652, (const float)0.102157 };
 // N060
 // file dolphin.c line 143
 static const float N060[3l] = { (const float)0.786913, (const float)-0.56476, (const float)0.248627 };
-// N060$link1
+// N060_link1
 // file shark.c line 143
-static const float N060$link1[3l] = { (const float)-0.80797, (const float)0.495, (const float)-0.319625 };
-// N060$link2
+static const float N060_link1[3l] = { (const float)-0.80797, (const float)0.495, (const float)-0.319625 };
+// N060_link2
 // file whale.c line 141
-static const float N060$link2[3l] = { (const float)0.885868, (const float)-0.427631, (const float)0.179914 };
+static const float N060_link2[3l] = { (const float)0.885868, (const float)-0.427631, (const float)0.179914 };
 // N061
 // file shark.c line 144
 static const float N061[3l] = { (const float)0, (const float)0.784687, (const float)-0.619892 };
 // N062
 // file dolphin.c line 147
 static const float N062[3l] = { (const float)0.622098, (const float)0.76523, (const float)0.165584 };
-// N062$link1
+// N062_link1
 // file shark.c line 145
-static const float N062$link1[3l] = { (const float)0, (const float)-1, (const float)0 };
-// N062$link2
+static const float N062_link1[3l] = { (const float)0, (const float)-1, (const float)0 };
+// N062_link2
 // file whale.c line 145
-static const float N062$link2[3l] = { (const float)0.648942, (const float)0.743116, (const float)0.163255 };
+static const float N062_link2[3l] = { (const float)0.648942, (const float)0.743116, (const float)0.163255 };
 // N063
 // file dolphin.c line 148
 static const float N063[3l] = { (const float)-0.631711, (const float)0.767816, (const float)0.106773 };
-// N063$link1
+// N063_link1
 // file shark.c line 146
-static const float N063$link1[3l] = { (const float)0, (const float)1, (const float)0 };
-// N063$link2
+static const float N063_link1[3l] = { (const float)0, (const float)1, (const float)0 };
+// N063_link2
 // file whale.c line 146
-static const float N063$link2[3l] = { (const float)-0.578967, (const float)0.80773, (const float)0.111219 };
+static const float N063_link2[3l] = { (const float)-0.578967, (const float)0.80773, (const float)0.111219 };
 // N064
 // file dolphin.c line 149
 static const float N064[3l] = { (const float)-0.687886, (const float)0.606351, (const float)0.398938 };
-// N064$link1
+// N064_link1
 // file shark.c line 147
-static const float N064$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N064_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N065
 // file dolphin.c line 150
 static const float N065[3l] = { (const float)-0.946327, (const float)-0.281623, (const float)0.158598 };
-// N065$link1
+// N065_link1
 // file shark.c line 148
-static const float N065$link1[3l] = { (const float)0, (const float)1, (const float)0 };
-// N065$link2
+static const float N065_link1[3l] = { (const float)0, (const float)1, (const float)0 };
+// N065_link2
 // file whale.c line 150
-static const float N065$link2[3l] = { (const float)-0.909864, (const float)-0.352202, (const float)0.219321 };
+static const float N065_link2[3l] = { (const float)-0.909864, (const float)-0.352202, (const float)0.219321 };
 // N066
 // file dolphin.c line 151
 static const float N066[3l] = { (const float)-0.509549, (const float)-0.860437, (const float)0.002776 };
-// N066$link1
+// N066_link1
 // file shark.c line 149
-static const float N066$link1[3l] = { (const float)-0.055784, (const float)0.257059, (const float)0.964784 };
-// N066$link2
+static const float N066_link1[3l] = { (const float)-0.055784, (const float)0.257059, (const float)0.964784 };
+// N066_link2
 // file whale.c line 151
-static const float N066$link2[3l] = { (const float)-0.502541, (const float)-0.81809, (const float)0.27961 };
+static const float N066_link2[3l] = { (const float)-0.502541, (const float)-0.81809, (const float)0.27961 };
 // N067
 // file dolphin.c line 152
 static const float N067[3l] = { (const float)0.462594, (const float)-0.876692, (const float)0.131977 };
-// N067$link1
+// N067_link1
 // file whale.c line 152
-static const float N067$link1[3l] = { (const float)0.322919, (const float)-0.915358, (const float)0.240504 };
+static const float N067_link1[3l] = { (const float)0.322919, (const float)-0.915358, (const float)0.240504 };
 // N068
 // file whale.c line 153
 static const float N068[3l] = { (const float)0.242536, (const float)0, (const float)-0.970143 };
 // N069
 // file shark.c line 154
 static const float N069[3l] = { (const float)-0.000505, (const float)-0.929775, (const float)-0.368127 };
-// N069$link1
+// N069_link1
 // file whale.c line 154
-static const float N069$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N069_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N070
 // file shark.c line 155
 static const float N070[3l] = { (const float)0, (const float)1, (const float)0 };
-// N070$link1
+// N070_link1
 // file whale.c line 155
-static const float N070$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N070_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N071
 // file dolphin.c line 158
 static const float N071[3l] = { (const float)0, (const float)1, (const float)0 };
-// N071$link1
+// N071_link1
 // file whale.c line 156
-static const float N071$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N071_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N072
 // file whale.c line 157
 static const float N072[3l] = { (const float)0, (const float)1, (const float)0 };
@@ -4638,144 +4638,144 @@ static const float N076[3l] = { (const float)0, (const float)1, (const float)0 }
 // N077
 // file dolphin.c line 166
 static const float N077[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N077$link1
+// N077_link1
 // file whale.c line 162
-static const float N077$link1[3l] = { (const float)0.446821, (const float)0.893642, (const float)0.041889 };
+static const float N077_link1[3l] = { (const float)0.446821, (const float)0.893642, (const float)0.041889 };
 // N078
 // file dolphin.c line 167
 static const float N078[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N078$link1
+// N078_link1
 // file whale.c line 163
-static const float N078$link1[3l] = { (const float)0.863035, (const float)-0.10098, (const float)0.494949 };
+static const float N078_link1[3l] = { (const float)0.863035, (const float)-0.10098, (const float)0.494949 };
 // N079
 // file dolphin.c line 168
 static const float N079[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N079$link1
+// N079_link1
 // file whale.c line 164
-static const float N079$link1[3l] = { (const float)0.585597, (const float)-0.808215, (const float)0.062174 };
+static const float N079_link1[3l] = { (const float)0.585597, (const float)-0.808215, (const float)0.062174 };
 // N080
 // file dolphin.c line 169
 static const float N080[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N080$link1
+// N080_link1
 // file whale.c line 165
-static const float N080$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N080_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N081
 // file dolphin.c line 170
 static const float N081[3l] = { (const float)-0.571197, (const float)0.816173, (const float)0.087152 };
-// N081$link1
+// N081_link1
 // file whale.c line 166
-static const float N081$link1[3l] = { (const float)1, (const float)0, (const float)0 };
+static const float N081_link1[3l] = { (const float)1, (const float)0, (const float)0 };
 // N082
 // file dolphin.c line 171
 static const float N082[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N082$link1
+// N082_link1
 // file whale.c line 167
-static const float N082$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N082_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N083
 // file dolphin.c line 172
 static const float N083[3l] = { (const float)-0.571197, (const float)0.816173, (const float)0.087152 };
-// N083$link1
+// N083_link1
 // file whale.c line 168
-static const float N083$link1[3l] = { (const float)-1, (const float)0, (const float)0 };
+static const float N083_link1[3l] = { (const float)-1, (const float)0, (const float)0 };
 // N084
 // file dolphin.c line 173
 static const float N084[3l] = { (const float)-0.571197, (const float)0.816173, (const float)0.087152 };
-// N084$link1
+// N084_link1
 // file whale.c line 169
-static const float N084$link1[3l] = { (const float)-0.478893, (const float)0.837129, (const float)-0.264343 };
+static const float N084_link1[3l] = { (const float)-0.478893, (const float)0.837129, (const float)-0.264343 };
 // N085
 // file dolphin.c line 174
 static const float N085[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N085$link1
+// N085_link1
 // file whale.c line 170
-static const float N085$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N085_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N086
 // file dolphin.c line 175
 static const float N086[3l] = { (const float)-0.571197, (const float)0.816173, (const float)0.087152 };
-// N086$link1
+// N086_link1
 // file whale.c line 171
-static const float N086$link1[3l] = { (const float)0.763909, (const float)0.539455, (const float)-0.354163 };
+static const float N086_link1[3l] = { (const float)0.763909, (const float)0.539455, (const float)-0.354163 };
 // N087
 // file dolphin.c line 176
 static const float N087[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N087$link1
+// N087_link1
 // file whale.c line 172
-static const float N087$link1[3l] = { (const float)0.446821, (const float)0.893642, (const float)0.041889 };
+static const float N087_link1[3l] = { (const float)0.446821, (const float)0.893642, (const float)0.041889 };
 // N088
 // file dolphin.c line 177
 static const float N088[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N088$link1
+// N088_link1
 // file whale.c line 173
-static const float N088$link1[3l] = { (const float)0.385134, (const float)-0.908288, (const float)0.163352 };
+static const float N088_link1[3l] = { (const float)0.385134, (const float)-0.908288, (const float)0.163352 };
 // N089
 // file dolphin.c line 178
 static const float N089[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N089$link1
+// N089_link1
 // file whale.c line 174
-static const float N089$link1[3l] = { (const float)-0.605952, (const float)0.779253, (const float)-0.159961 };
+static const float N089_link1[3l] = { (const float)-0.605952, (const float)0.779253, (const float)-0.159961 };
 // N090
 // file dolphin.c line 179
 static const float N090[3l] = { (const float)-0.88077, (const float)0.461448, (const float)0.106351 };
-// N090$link1
+// N090_link1
 // file whale.c line 175
-static const float N090$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N090_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N091
 // file dolphin.c line 180
 static const float N091[3l] = { (const float)0, (const float)1, (const float)0 };
-// N091$link1
+// N091_link1
 // file whale.c line 176
-static const float N091$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N091_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N092
 // file dolphin.c line 181
 static const float N092[3l] = { (const float)0, (const float)1, (const float)0 };
-// N092$link1
+// N092_link1
 // file whale.c line 177
-static const float N092$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N092_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N093
 // file dolphin.c line 182
 static const float N093[3l] = { (const float)0, (const float)1, (const float)0 };
-// N093$link1
+// N093_link1
 // file whale.c line 178
-static const float N093$link1[3l] = { (const float)0, (const float)1, (const float)0 };
+static const float N093_link1[3l] = { (const float)0, (const float)1, (const float)0 };
 // N094
 // file dolphin.c line 183
 static const float N094[3l] = { (const float)1, (const float)0, (const float)0 };
-// N094$link1
+// N094_link1
 // file whale.c line 179
-static const float N094$link1[3l] = { (const float)1, (const float)0, (const float)0 };
+static const float N094_link1[3l] = { (const float)1, (const float)0, (const float)0 };
 // N095
 // file dolphin.c line 184
 static const float N095[3l] = { (const float)-1, (const float)0, (const float)0 };
-// N095$link1
+// N095_link1
 // file whale.c line 180
-static const float N095$link1[3l] = { (const float)-1, (const float)0, (const float)0 };
+static const float N095_link1[3l] = { (const float)-1, (const float)0, (const float)0 };
 // N096
 // file whale.c line 181
 static const float N096[3l] = { (const float)0.644444, (const float)-0.621516, (const float)0.445433 };
 // N097
 // file dolphin.c line 188
 static const float N097[3l] = { (const float)-0.697296, (const float)0.702881, (const float)0.140491 };
-// N097$link1
+// N097_link1
 // file whale.c line 182
-static const float N097$link1[3l] = { (const float)-0.760896, (const float)-0.474416, (const float)0.442681 };
+static const float N097_link1[3l] = { (const float)-0.760896, (const float)-0.474416, (const float)0.442681 };
 // N098
 // file dolphin.c line 189
 static const float N098[3l] = { (const float)0.918864, (const float)0.340821, (const float)0.198819 };
-// N098$link1
+// N098_link1
 // file whale.c line 183
-static const float N098$link1[3l] = { (const float)0.636888, (const float)-0.464314, (const float)0.615456 };
+static const float N098_link1[3l] = { (const float)0.636888, (const float)-0.464314, (const float)0.615456 };
 // N099
 // file dolphin.c line 190
 static const float N099[3l] = { (const float)-0.932737, (const float)0.201195, (const float)0.299202 };
-// N099$link1
+// N099_link1
 // file whale.c line 184
-static const float N099$link1[3l] = { (const float)-0.710295, (const float)0.647038, (const float)0.277168 };
+static const float N099_link1[3l] = { (const float)-0.710295, (const float)0.647038, (const float)0.277168 };
 // N100
 // file dolphin.c line 191
 static const float N100[3l] = { (const float)0.029517, (const float)0.981679, (const float)0.188244 };
-// N100$link1
+// N100_link1
 // file whale.c line 185
-static const float N100$link1[3l] = { (const float)0.009604, (const float)0.993655, (const float)0.112063 };
+static const float N100_link1[3l] = { (const float)0.009604, (const float)0.993655, (const float)0.112063 };
 // N102
 // file dolphin.c line 195
 static const float N102[3l] = { (const float)0.813521, (const float)-0.204936, (const float)0.544229 };
@@ -4821,813 +4821,813 @@ static const float N122[3l] = { (const float)0, (const float)1, (const float)0 }
 // P001
 // file dolphin.c line 232
 static float P001[3l] = { (float)5.68, (float)-300.95, (float)1324.7 };
-// P001$link1
+// P001_link1
 // file whale.c line 210
-static float P001$link1[3l] = { (float)18.74, (float)13.19, (float)3.76 };
+static float P001_link1[3l] = { (float)18.74, (float)13.19, (float)3.76 };
 // P002
 // file dolphin.c line 233
 static const float P002[3l] = { (const float)338.69, (const float)-219.63, (const float)9677.03 };
-// P002$link1
+// P002_link1
 // file shark.c line 171
-static float P002$link1[3l] = { (float)0, (float)-36.59, (float)5687.72 };
-// P002$link2
+static float P002_link1[3l] = { (float)0, (float)-36.59, (float)5687.72 };
+// P002_link2
 // file whale.c line 211
-static const float P002$link2[3l] = { (const float)0, (const float)390.42, (const float)10292.57 };
+static const float P002_link2[3l] = { (const float)0, (const float)390.42, (const float)10292.57 };
 // P003
 // file dolphin.c line 234
 static const float P003[3l] = { (const float)12.18, (const float)474.59, (const float)9138.14 };
-// P003$link1
+// P003_link1
 // file shark.c line 172
-static const float P003$link1[3l] = { (const float)90, (const float)114.73, (const float)724.38 };
-// P003$link2
+static const float P003_link1[3l] = { (const float)90, (const float)114.73, (const float)724.38 };
+// P003_link2
 // file whale.c line 212
-static const float P003$link2[3l] = { (const float)55.8, (const float)622.31, (const float)8254.35 };
+static const float P003_link2[3l] = { (const float)55.8, (const float)622.31, (const float)8254.35 };
 // P004
 // file shark.c line 173
 static float P004[3l] = { (float)58.24, (float)-146.84, (float)262.35 };
-// P004$link1
+// P004_link1
 // file whale.c line 213
-static const float P004$link1[3l] = { (const float)20.8, (const float)247.66, (const float)10652.13 };
+static const float P004_link1[3l] = { (const float)20.8, (const float)247.66, (const float)10652.13 };
 // P005
 // file dolphin.c line 238
 static const float P005[3l] = { (const float)487.51, (const float)198.05, (const float)9350.78 };
-// P005$link1
+// P005_link1
 // file shark.c line 174
-static const float P005$link1[3l] = { (const float)27.81, (const float)231.52, (const float)510.43 };
-// P005$link2
+static const float P005_link1[3l] = { (const float)27.81, (const float)231.52, (const float)510.43 };
+// P005_link2
 // file whale.c line 214
-static const float P005$link2[3l] = { (const float)487.51, (const float)198.05, (const float)9350.78 };
+static const float P005_link2[3l] = { (const float)487.51, (const float)198.05, (const float)9350.78 };
 // P006
 // file dolphin.c line 239
 static const float P006[3l] = { (const float)-457.61, (const float)68.74, (const float)9427.85 };
-// P006$link1
+// P006_link1
 // file shark.c line 175
-static const float P006$link1[3l] = { (const float)-27.81, (const float)230.43, (const float)509.76 };
-// P006$link2
+static const float P006_link1[3l] = { (const float)-27.81, (const float)230.43, (const float)509.76 };
+// P006_link2
 // file whale.c line 215
-static const float P006$link2[3l] = { (const float)-457.61, (const float)199.04, (const float)9353.01 };
+static const float P006_link2[3l] = { (const float)-457.61, (const float)199.04, (const float)9353.01 };
 // P007
 // file dolphin.c line 240
 static const float P007[3l] = { (const float)156.52, (const float)-266.72, (const float)10311.68 };
-// P007$link1
+// P007_link1
 // file shark.c line 176
-static float P007$link1[3l] = { (float)-46.09, (float)-146.83, (float)265.84 };
+static float P007_link1[3l] = { (float)-46.09, (float)-146.83, (float)265.84 };
 // P008
 // file dolphin.c line 241
 static const float P008[3l] = { (const float)-185.56, (const float)-266.51, (const float)10310.47 };
-// P008$link1
+// P008_link1
 // file shark.c line 177
-static const float P008$link1[3l] = { (const float)-90, (const float)103.84, (const float)718.53 };
-// P008$link2
+static const float P008_link1[3l] = { (const float)-90, (const float)103.84, (const float)718.53 };
+// P008_link2
 // file whale.c line 219
-static const float P008$link2[3l] = { (const float)-34.67, (const float)247.64, (const float)10663.71 };
+static const float P008_link2[3l] = { (const float)-34.67, (const float)247.64, (const float)10663.71 };
 // P009
 // file dolphin.c line 242
 static float P009[3l] = { (float)124.39, (float)-261.46, (float)1942.34 };
-// P009$link1
+// P009_link1
 // file shark.c line 178
-static const float P009$link1[3l] = { (const float)-131.1, (const float)-165.92, (const float)834.85 };
-// P009$link2
+static const float P009_link1[3l] = { (const float)-131.1, (const float)-165.92, (const float)834.85 };
+// P009_link2
 // file whale.c line 223
-static float P009$link2[3l] = { (float)97.46, (float)67.63, (float)593.82 };
+static float P009_link2[3l] = { (float)97.46, (float)67.63, (float)593.82 };
 // P010
 // file dolphin.c line 243
 static float P010[3l] = { (float)-130.05, (float)-261.46, (float)1946.03 };
-// P010$link1
+// P010_link1
 // file shark.c line 179
-static float P010$link1[3l] = { (float)-27.81, (float)-285.31, (float)500 };
-// P010$link2
+static float P010_link1[3l] = { (float)-27.81, (float)-285.31, (float)500 };
+// P010_link2
 // file whale.c line 224
-static float P010$link2[3l] = { (float)-84.33, (float)67.63, (float)588.18 };
+static float P010_link2[3l] = { (float)-84.33, (float)67.63, (float)588.18 };
 // P011
 // file dolphin.c line 244
 static float P011[3l] = { (float)141.07, (float)-320.11, (float)1239.38 };
-// P011$link1
+// P011_link1
 // file shark.c line 180
-static float P011$link1[3l] = { (float)27.81, (float)-285.32, (float)500 };
-// P011$link2
+static float P011_link1[3l] = { (float)27.81, (float)-285.32, (float)500 };
+// P011_link2
 // file whale.c line 225
-static float P011$link2[3l] = { (float)118.69, (float)8.98, (float)-66.91 };
+static float P011_link2[3l] = { (float)118.69, (float)8.98, (float)-66.91 };
 // P012
 // file dolphin.c line 245
 static float P012[3l] = { (float)156.48, (float)-360.12, (float)2073.41 };
-// P012$link1
+// P012_link1
 // file shark.c line 181
-static const float P012$link1[3l] = { (const float)147.96, (const float)-170.89, (const float)845.5 };
-// P012$link2
+static const float P012_link1[3l] = { (const float)147.96, (const float)-170.89, (const float)845.5 };
+// P012_link2
 // file whale.c line 266
-static float P012$link2[3l] = { (float)156.48, (float)-31.95, (float)924.54 };
+static float P012_link2[3l] = { (float)156.48, (float)-31.95, (float)924.54 };
 // P013
 // file dolphin.c line 246
 static float P013[3l] = { (float)162, (float)-175.88, (float)2064.44 };
-// P013$link1
+// P013_link1
 // file shark.c line 182
-static const float P013$link1[3l] = { (const float)180, (const float)0, (const float)2000 };
-// P013$link2
+static const float P013_link1[3l] = { (const float)180, (const float)0, (const float)2000 };
+// P013_link2
 // file whale.c line 267
-static float P013$link2[3l] = { (float)162, (float)110.22, (float)924.54 };
+static float P013_link2[3l] = { (float)162, (float)110.22, (float)924.54 };
 // P014
 // file dolphin.c line 247
 static float P014[3l] = { (float)88.16, (float)-87.72, (float)2064.02 };
-// P014$link1
+// P014_link1
 // file shark.c line 183
-static const float P014$link1[3l] = { (const float)145.62, (const float)352.67, (const float)2000 };
-// P014$link2
+static const float P014_link1[3l] = { (const float)145.62, (const float)352.67, (const float)2000 };
+// P014_link2
 // file whale.c line 268
-static float P014$link2[3l] = { (float)88.16, (float)221.65, (float)924.54 };
+static float P014_link2[3l] = { (float)88.16, (float)221.65, (float)924.54 };
 // P015
 // file dolphin.c line 248
 static float P015[3l] = { (float)-65.21, (float)-96.13, (float)2064.02 };
-// P015$link1
+// P015_link1
 // file shark.c line 184
-static const float P015$link1[3l] = { (const float)55.62, (const float)570.63, (const float)2000 };
-// P015$link2
+static const float P015_link1[3l] = { (const float)55.62, (const float)570.63, (const float)2000 };
+// P015_link2
 // file whale.c line 269
-static float P015$link2[3l] = { (float)-65.21, (float)231.16, (float)924.54 };
+static float P015_link2[3l] = { (float)-65.21, (float)231.16, (float)924.54 };
 // P016
 // file dolphin.c line 249
 static float P016[3l] = { (float)-156.48, (float)-180.96, (float)2064.44 };
-// P016$link1
+// P016_link1
 // file shark.c line 185
-static const float P016$link1[3l] = { (const float)-55.62, (const float)570.64, (const float)2000 };
-// P016$link2
+static const float P016_link1[3l] = { (const float)-55.62, (const float)570.64, (const float)2000 };
+// P016_link2
 // file whale.c line 270
-static float P016$link2[3l] = { (float)-156.48, (float)121.97, (float)924.54 };
+static float P016_link2[3l] = { (float)-156.48, (float)121.97, (float)924.54 };
 // P017
 // file dolphin.c line 250
 static float P017[3l] = { (float)-162, (float)-368.93, (float)2082.39 };
-// P017$link1
+// P017_link1
 // file shark.c line 186
-static const float P017$link1[3l] = { (const float)-145.62, (const float)352.68, (const float)2000 };
-// P017$link2
+static const float P017_link1[3l] = { (const float)-145.62, (const float)352.68, (const float)2000 };
+// P017_link2
 // file whale.c line 271
-static float P017$link2[3l] = { (float)-162, (float)-23.93, (float)924.54 };
+static float P017_link2[3l] = { (float)-162, (float)-23.93, (float)924.54 };
 // P018
 // file dolphin.c line 251
 static float P018[3l] = { (float)-88.16, (float)-439.22, (float)2082.39 };
-// P018$link1
+// P018_link1
 // file shark.c line 187
-static const float P018$link1[3l] = { (const float)-180, (const float)0.01, (const float)2000 };
-// P018$link2
+static const float P018_link1[3l] = { (const float)-180, (const float)0.01, (const float)2000 };
+// P018_link2
 // file whale.c line 272
-static float P018$link2[3l] = { (float)-88.16, (float)-139.1, (float)924.54 };
+static float P018_link2[3l] = { (float)-88.16, (float)-139.1, (float)924.54 };
 // P019
 // file dolphin.c line 252
 static float P019[3l] = { (float)65.21, (float)-440.32, (float)2083.39 };
-// P019$link1
+// P019_link1
 // file shark.c line 188
-static const float P019$link1[3l] = { (const float)-178.2, (const float)-352.66, (const float)2001.61 };
-// P019$link2
+static const float P019_link1[3l] = { (const float)-178.2, (const float)-352.66, (const float)2001.61 };
+// P019_link2
 // file whale.c line 273
-static float P019$link2[3l] = { (float)65.21, (float)-148.61, (float)924.54 };
+static float P019_link2[3l] = { (float)65.21, (float)-148.61, (float)924.54 };
 // P020
 // file dolphin.c line 253
 static float P020[3l] = { (float)246.87, (float)-356.02, (float)2576.95 };
-// P020$link1
+// P020_link1
 // file shark.c line 189
-static const float P020$link1[3l] = { (const float)-55.63, (const float)-570.63, (const float)2000 };
-// P020$link2
+static const float P020_link1[3l] = { (const float)-55.63, (const float)-570.63, (const float)2000 };
+// P020_link2
 // file whale.c line 274
-static float P020$link2[3l] = { (float)246.87, (float)-98.73, (float)1783.04 };
+static float P020_link2[3l] = { (float)246.87, (float)-98.73, (float)1783.04 };
 // P021
 // file dolphin.c line 254
 static float P021[3l] = { (float)253.17, (float)-111.15, (float)2567.15 };
-// P021$link1
+// P021_link1
 // file shark.c line 190
-static const float P021$link1[3l] = { (const float)55.62, (const float)-570.64, (const float)2000 };
-// P021$link2
+static const float P021_link1[3l] = { (const float)55.62, (const float)-570.64, (const float)2000 };
+// P021_link2
 // file whale.c line 275
-static float P021$link2[3l] = { (float)253.17, (float)127.76, (float)1783.04 };
+static float P021_link2[3l] = { (float)253.17, (float)127.76, (float)1783.04 };
 // P022
 // file dolphin.c line 255
 static float P022[3l] = { (float)132.34, (float)51.41, (float)2559.84 };
-// P022$link1
+// P022_link1
 // file shark.c line 191
-static const float P022$link1[3l] = { (const float)179.91, (const float)-352.69, (const float)1998.39 };
-// P022$link2
+static const float P022_link1[3l] = { (const float)179.91, (const float)-352.69, (const float)1998.39 };
+// P022_link2
 // file whale.c line 276
-static float P022$link2[3l] = { (float)132.34, (float)270.77, (float)1783.04 };
+static float P022_link2[3l] = { (float)132.34, (float)270.77, (float)1783.04 };
 // P023
 // file dolphin.c line 256
 static float P023[3l] = { (float)-97.88, (float)40.44, (float)2567.15 };
-// P023$link1
+// P023_link1
 // file shark.c line 192
-static float P023$link1[3l] = { (float)150, (float)0, (float)3000 };
-// P023$link2
+static float P023_link1[3l] = { (float)150, (float)0, (float)3000 };
+// P023_link2
 // file whale.c line 277
-static float P023$link2[3l] = { (float)-97.88, (float)285.04, (float)1783.04 };
+static float P023_link2[3l] = { (float)-97.88, (float)285.04, (float)1783.04 };
 // P024
 // file dolphin.c line 257
 static float P024[3l] = { (float)-222.97, (float)-117.49, (float)2567.15 };
-// P024$link1
+// P024_link1
 // file shark.c line 193
-static float P024$link1[3l] = { (float)121.35, (float)293.89, (float)3000 };
-// P024$link2
+static float P024_link1[3l] = { (float)121.35, (float)293.89, (float)3000 };
+// P024_link2
 // file whale.c line 278
-static float P024$link2[3l] = { (float)-222.97, (float)139.8, (float)1783.04 };
+static float P024_link2[3l] = { (float)-222.97, (float)139.8, (float)1783.04 };
 // P025
 // file dolphin.c line 258
 static float P025[3l] = { (float)-252.22, (float)-371.53, (float)2569.92 };
-// P025$link1
+// P025_link1
 // file shark.c line 194
-static float P025$link1[3l] = { (float)46.35, (float)502.93, (float)2883.09 };
-// P025$link2
+static float P025_link1[3l] = { (float)46.35, (float)502.93, (float)2883.09 };
+// P025_link2
 // file whale.c line 279
-static float P025$link2[3l] = { (float)-225.29, (float)-86.68, (float)1783.04 };
+static float P025_link2[3l] = { (float)-225.29, (float)-86.68, (float)1783.04 };
 // P026
 // file dolphin.c line 259
 static float P026[3l] = { (float)-108.44, (float)-518.19, (float)2586.75 };
-// P026$link1
+// P026_link1
 // file shark.c line 195
-static float P026$link1[3l] = { (float)-46.35, (float)497.45, (float)2877.24 };
-// P026$link2
+static float P026_link1[3l] = { (float)-46.35, (float)497.45, (float)2877.24 };
+// P026_link2
 // file whale.c line 280
-static float P026$link2[3l] = { (float)-108.44, (float)-224.15, (float)1783.04 };
+static float P026_link2[3l] = { (float)-108.44, (float)-224.15, (float)1783.04 };
 // P027
 // file dolphin.c line 260
 static float P027[3l] = { (float)97.88, (float)-524.79, (float)2586.75 };
-// P027$link1
+// P027_link1
 // file shark.c line 196
-static float P027$link1[3l] = { (float)-121.35, (float)293.9, (float)3000 };
-// P027$link2
+static float P027_link1[3l] = { (float)-121.35, (float)293.9, (float)3000 };
+// P027_link2
 // file whale.c line 281
-static float P027$link2[3l] = { (float)97.88, (float)-221.56, (float)1783.04 };
+static float P027_link2[3l] = { (float)97.88, (float)-221.56, (float)1783.04 };
 // P028
 // file dolphin.c line 261
 static float P028[3l] = { (float)370.03, (float)-421.19, (float)3419.7 };
-// P028$link1
+// P028_link1
 // file shark.c line 197
-static float P028$link1[3l] = { (float)-150, (float)0, (float)3000 };
-// P028$link2
+static float P028_link1[3l] = { (float)-150, (float)0, (float)3000 };
+// P028_link2
 // file whale.c line 282
-static float P028$link2[3l] = { (float)410.55, (float)-200.66, (float)3213.87 };
+static float P028_link2[3l] = { (float)410.55, (float)-200.66, (float)3213.87 };
 // P029
 // file dolphin.c line 262
 static float P029[3l] = { (float)351.15, (float)-16.98, (float)3423.17 };
-// P029$link1
+// P029_link1
 // file shark.c line 198
-static float P029$link1[3l] = { (float)-152.21, (float)-304.84, (float)2858.68 };
-// P029$link2
+static float P029_link1[3l] = { (float)-152.21, (float)-304.84, (float)2858.68 };
+// P029_link2
 // file whale.c line 283
-static float P029$link2[3l] = { (float)432.19, (float)148.42, (float)3213.87 };
+static float P029_link2[3l] = { (float)432.19, (float)148.42, (float)3213.87 };
 // P030
 // file dolphin.c line 263
 static float P030[3l] = { (float)200.66, (float)248.46, (float)3430.37 };
-// P030$link1
+// P030_link1
 // file shark.c line 199
-static float P030$link1[3l] = { (float)-46.36, (float)-475.52, (float)3000 };
-// P030$link2
+static float P030_link1[3l] = { (float)-46.36, (float)-475.52, (float)3000 };
+// P030_link2
 // file whale.c line 284
-static float P030$link2[3l] = { (float)200.66, (float)410.55, (float)3213.87 };
+static float P030_link2[3l] = { (float)200.66, (float)410.55, (float)3213.87 };
 // P031
 // file dolphin.c line 264
 static float P031[3l] = { (float)-148.42, (float)235.02, (float)3417.91 };
-// P031$link1
+// P031_link1
 // file shark.c line 200
-static float P031$link1[3l] = { (float)46.35, (float)-475.53, (float)3000 };
-// P031$link2
+static float P031_link1[3l] = { (float)46.35, (float)-475.53, (float)3000 };
+// P031_link2
 // file whale.c line 285
-static float P031$link2[3l] = { (float)-148.42, (float)432.19, (float)3213.87 };
+static float P031_link2[3l] = { (float)-148.42, (float)432.19, (float)3213.87 };
 // P032
 // file dolphin.c line 265
 static float P032[3l] = { (float)-360.21, (float)-30.27, (float)3416.84 };
-// P032$link1
+// P032_link1
 // file shark.c line 201
-static float P032$link1[3l] = { (float)155.64, (float)-304.87, (float)2863.5 };
-// P032$link2
+static float P032_link1[3l] = { (float)155.64, (float)-304.87, (float)2863.5 };
+// P032_link2
 // file whale.c line 286
-static float P032$link2[3l] = { (float)-407.48, (float)171.88, (float)3213.87 };
+static float P032_link2[3l] = { (float)-407.48, (float)171.88, (float)3213.87 };
 // P033
 // file dolphin.c line 266
 static float P033[3l] = { (float)-357.9, (float)-414.89, (float)3407.04 };
-// P033$link1
+// P033_link1
 // file shark.c line 202
-static float P033$link1[3l] = { (float)90, (float)0, (float)4000 };
-// P033$link2
+static float P033_link1[3l] = { (float)90, (float)0, (float)4000 };
+// P033_link2
 // file whale.c line 287
-static float P033$link2[3l] = { (float)-432.19, (float)-148.42, (float)3213.87 };
+static float P033_link2[3l] = { (float)-432.19, (float)-148.42, (float)3213.87 };
 // P034
 // file dolphin.c line 267
 static float P034[3l] = { (float)-148.88, (float)-631.35, (float)3409.9 };
-// P034$link1
+// P034_link1
 // file shark.c line 203
-static float P034$link1[3l] = { (float)72.81, (float)176.33, (float)4000 };
-// P034$link2
+static float P034_link1[3l] = { (float)72.81, (float)176.33, (float)4000 };
+// P034_link2
 // file whale.c line 288
-static float P034$link2[3l] = { (float)-148.88, (float)-309.74, (float)3213.87 };
+static float P034_link2[3l] = { (float)-148.88, (float)-309.74, (float)3213.87 };
 // P035
 // file dolphin.c line 268
 static float P035[3l] = { (float)156.38, (float)-632.59, (float)3419.7 };
-// P035$link1
+// P035_link1
 // file shark.c line 204
-static float P035$link1[3l] = { (float)27.81, (float)285.32, (float)4000 };
-// P035$link2
+static float P035_link1[3l] = { (float)27.81, (float)285.32, (float)4000 };
+// P035_link2
 // file whale.c line 289
-static float P035$link2[3l] = { (float)156.38, (float)-320.17, (float)3213.87 };
+static float P035_link2[3l] = { (float)156.38, (float)-320.17, (float)3213.87 };
 // P036
 // file dolphin.c line 269
 static float P036[3l] = { (float)462.61, (float)-469.21, (float)4431.51 };
-// P036$link1
+// P036_link1
 // file shark.c line 205
-static float P036$link1[3l] = { (float)-27.81, (float)285.32, (float)4000 };
-// P036$link2
+static float P036_link1[3l] = { (float)-27.81, (float)285.32, (float)4000 };
+// P036_link2
 // file whale.c line 290
-static float P036$link2[3l] = { (float)523.39, (float)-303.81, (float)4424.57 };
+static float P036_link2[3l] = { (float)523.39, (float)-303.81, (float)4424.57 };
 // P037
 // file dolphin.c line 270
 static float P037[3l] = { (float)466.6, (float)102.25, (float)4434.98 };
-// P037$link1
+// P037_link1
 // file shark.c line 206
-static float P037$link1[3l] = { (float)-72.81, (float)176.34, (float)4000 };
-// P037$link2
+static float P037_link1[3l] = { (float)-72.81, (float)176.34, (float)4000 };
+// P037_link2
 // file whale.c line 291
-static float P037$link2[3l] = { (float)574.66, (float)276.84, (float)4424.57 };
+static float P037_link2[3l] = { (float)574.66, (float)276.84, (float)4424.57 };
 // P038
 // file dolphin.c line 271
 static float P038[3l] = { (float)243.05, (float)474.34, (float)4562.02 };
-// P038$link1
+// P038_link1
 // file shark.c line 207
-static float P038$link1[3l] = { (float)-90, (float)0, (float)4000 };
-// P038$link2
+static float P038_link1[3l] = { (float)-90, (float)0, (float)4000 };
+// P038_link2
 // file whale.c line 292
-static float P038$link2[3l] = { (float)243.05, (float)492.5, (float)4424.57 };
+static float P038_link2[3l] = { (float)243.05, (float)492.5, (float)4424.57 };
 // P039
 // file dolphin.c line 272
 static float P039[3l] = { (float)-191.23, (float)474.4, (float)4554.42 };
-// P039$link1
+// P039_link1
 // file shark.c line 208
-static float P039$link1[3l] = { (float)-72.81, (float)-176.33, (float)4000 };
-// P039$link2
+static float P039_link1[3l] = { (float)-72.81, (float)-176.33, (float)4000 };
+// P039_link2
 // file whale.c line 293
-static float P039$link2[3l] = { (float)-191.23, (float)520.13, (float)4424.57 };
+static float P039_link2[3l] = { (float)-191.23, (float)520.13, (float)4424.57 };
 // P040
 // file dolphin.c line 273
 static float P040[3l] = { (float)-476.12, (float)111.05, (float)4451.11 };
-// P040$link1
+// P040_link1
 // file shark.c line 209
-static float P040$link1[3l] = { (float)-27.81, (float)-285.31, (float)4000 };
-// P040$link2
+static float P040_link1[3l] = { (float)-27.81, (float)-285.31, (float)4000 };
+// P040_link2
 // file whale.c line 294
-static float P040$link2[3l] = { (float)-523.39, (float)304.01, (float)4424.57 };
+static float P040_link2[3l] = { (float)-523.39, (float)304.01, (float)4424.57 };
 // P041
 // file dolphin.c line 274
 static float P041[3l] = { (float)-473.36, (float)-470.74, (float)4444.78 };
-// P041$link1
+// P041_link1
 // file shark.c line 210
-static float P041$link1[3l] = { (float)27.81, (float)-285.32, (float)4000 };
-// P041$link2
+static float P041_link1[3l] = { (float)27.81, (float)-285.32, (float)4000 };
+// P041_link2
 // file whale.c line 295
-static float P041$link2[3l] = { (float)-574.66, (float)-231.83, (float)4424.57 };
+static float P041_link2[3l] = { (float)-574.66, (float)-231.83, (float)4424.57 };
 // P042
 // file dolphin.c line 275
 static float P042[3l] = { (float)-266.95, (float)-748.41, (float)4447.78 };
-// P042$link1
+// P042_link1
 // file shark.c line 211
-static float P042$link1[3l] = { (float)72.81, (float)-176.34, (float)4000 };
-// P042$link2
+static float P042_link1[3l] = { (float)72.81, (float)-176.34, (float)4000 };
+// P042_link2
 // file whale.c line 296
-static float P042$link2[3l] = { (float)-266.95, (float)-578.17, (float)4424.57 };
+static float P042_link2[3l] = { (float)-266.95, (float)-578.17, (float)4424.57 };
 // P043
 // file dolphin.c line 276
 static float P043[3l] = { (float)211.14, (float)-749.91, (float)4429.73 };
-// P043$link1
+// P043_link1
 // file shark.c line 212
-static float P043$link1[3l] = { (float)30, (float)0, (float)5000 };
-// P043$link2
+static float P043_link1[3l] = { (float)30, (float)0, (float)5000 };
+// P043_link2
 // file whale.c line 297
-static float P043$link2[3l] = { (float)211.14, (float)-579.67, (float)4424.57 };
+static float P043_link2[3l] = { (float)211.14, (float)-579.67, (float)4424.57 };
 // P044
 // file dolphin.c line 277
 static float P044[3l] = { (float)680.57, (float)-370.27, (float)5943.46 };
-// P044$link1
+// P044_link1
 // file shark.c line 213
-static float P044$link1[3l] = { (float)24.27, (float)58.78, (float)5000 };
-// P044$link2
+static float P044_link1[3l] = { (float)24.27, (float)58.78, (float)5000 };
+// P044_link2
 // file whale.c line 298
-static float P044$link2[3l] = { (float)680.57, (float)-370.27, (float)5943.46 };
+static float P044_link2[3l] = { (float)680.57, (float)-370.27, (float)5943.46 };
 // P045
 // file dolphin.c line 278
 static float P045[3l] = { (float)834.01, (float)363.09, (float)6360.63 };
-// P045$link1
+// P045_link1
 // file shark.c line 214
-static float P045$link1[3l] = { (float)9.27, (float)95.11, (float)5000 };
-// P045$link2
+static float P045_link1[3l] = { (float)9.27, (float)95.11, (float)5000 };
+// P045_link2
 // file whale.c line 299
-static float P045$link2[3l] = { (float)834.01, (float)363.09, (float)5943.46 };
+static float P045_link2[3l] = { (float)834.01, (float)363.09, (float)5943.46 };
 // P046
 // file dolphin.c line 279
 static float P046[3l] = { (float)371.29, (float)804.51, (float)6486.26 };
-// P046$link1
+// P046_link1
 // file shark.c line 215
-static float P046$link1[3l] = { (float)-9.27, (float)95.11, (float)5000 };
-// P046$link2
+static float P046_link1[3l] = { (float)-9.27, (float)95.11, (float)5000 };
+// P046_link2
 // file whale.c line 300
-static float P046$link2[3l] = { (float)371.29, (float)614.13, (float)5943.46 };
+static float P046_link2[3l] = { (float)371.29, (float)614.13, (float)5943.46 };
 // P047
 // file dolphin.c line 280
 static float P047[3l] = { (float)-291.43, (float)797.22, (float)6494.28 };
-// P047$link1
+// P047_link1
 // file shark.c line 216
-static float P047$link1[3l] = { (float)-24.27, (float)58.78, (float)5000 };
-// P047$link2
+static float P047_link1[3l] = { (float)-24.27, (float)58.78, (float)5000 };
+// P047_link2
 // file whale.c line 301
-static float P047$link2[3l] = { (float)-291.43, (float)621.86, (float)5943.46 };
+static float P047_link2[3l] = { (float)-291.43, (float)621.86, (float)5943.46 };
 // P048
 // file dolphin.c line 281
 static float P048[3l] = { (float)-784.13, (float)370.75, (float)6378.01 };
-// P048$link1
+// P048_link1
 // file shark.c line 217
-static float P048$link1[3l] = { (float)-30, (float)0, (float)5000 };
-// P048$link2
+static float P048_link1[3l] = { (float)-30, (float)0, (float)5000 };
+// P048_link2
 // file whale.c line 302
-static float P048$link2[3l] = { (float)-784.13, (float)362.6, (float)5943.46 };
+static float P048_link2[3l] = { (float)-784.13, (float)362.6, (float)5943.46 };
 // P049
 // file dolphin.c line 282
 static float P049[3l] = { (float)-743.29, (float)-325.82, (float)5943.46 };
-// P049$link1
+// P049_link1
 // file shark.c line 218
-static float P049$link1[3l] = { (float)-24.27, (float)-58.78, (float)5000 };
-// P049$link2
+static float P049_link1[3l] = { (float)-24.27, (float)-58.78, (float)5000 };
+// P049_link2
 // file whale.c line 303
-static float P049$link2[3l] = { (float)-743.29, (float)-325.82, (float)5943.46 };
+static float P049_link2[3l] = { (float)-743.29, (float)-325.82, (float)5943.46 };
 // P050
 // file dolphin.c line 283
 static float P050[3l] = { (float)-383.24, (float)-804.77, (float)5943.46 };
-// P050$link1
+// P050_link1
 // file shark.c line 219
-static float P050$link1[3l] = { (float)-9.27, (float)-95.1, (float)5000 };
-// P050$link2
+static float P050_link1[3l] = { (float)-9.27, (float)-95.1, (float)5000 };
+// P050_link2
 // file whale.c line 304
-static float P050$link2[3l] = { (float)-383.24, (float)-804.77, (float)5943.46 };
+static float P050_link2[3l] = { (float)-383.24, (float)-804.77, (float)5943.46 };
 // P051
 // file dolphin.c line 284
 static float P051[3l] = { (float)283.47, (float)-846.09, (float)5943.46 };
-// P051$link1
+// P051_link1
 // file shark.c line 220
-static float P051$link1[3l] = { (float)9.27, (float)-95.11, (float)5000 };
-// P051$link2
+static float P051_link1[3l] = { (float)9.27, (float)-95.11, (float)5000 };
+// P051_link2
 // file whale.c line 305
-static float P051$link2[3l] = { (float)283.47, (float)-846.09, (float)5943.46 };
+static float P051_link2[3l] = { (float)283.47, (float)-846.09, (float)5943.46 };
 // P052
 // file dolphin.c line 338
 static const float P052[3l] = { (const float)599.09, (const float)-300.15, (const float)7894.03 };
-// P052$link1
+// P052_link1
 // file shark.c line 221
-static float P052$link1[3l] = { (float)24.27, (float)-58.78, (float)5000 };
-// P052$link2
+static float P052_link1[3l] = { (float)24.27, (float)-58.78, (float)5000 };
+// P052_link2
 // file whale.c line 306
-static const float P052$link2[3l] = { (const float)599.09, (const float)-332.24, (const float)7902.59 };
+static const float P052_link2[3l] = { (const float)599.09, (const float)-332.24, (const float)7902.59 };
 // P053
 // file dolphin.c line 339
 static const float P053[3l] = { (const float)735.48, (const float)306.26, (const float)7911.92 };
-// P053$link1
+// P053_link1
 // file whale.c line 307
-static const float P053$link1[3l] = { (const float)735.48, (const float)306.26, (const float)7911.92 };
+static const float P053_link1[3l] = { (const float)735.48, (const float)306.26, (const float)7911.92 };
 // P054
 // file dolphin.c line 340
 static const float P054[3l] = { (const float)246.22, (const float)558.53, (const float)8460.5 };
-// P054$link1
+// P054_link1
 // file whale.c line 308
-static const float P054$link1[3l] = { (const float)321.55, (const float)558.53, (const float)7902.59 };
+static const float P054_link1[3l] = { (const float)321.55, (const float)558.53, (const float)7902.59 };
 // P055
 // file dolphin.c line 341
 static const float P055[3l] = { (const float)-230.41, (const float)559.84, (const float)8473.23 };
-// P055$link1
+// P055_link1
 // file whale.c line 309
-static const float P055$link1[3l] = { (const float)-260.54, (const float)559.84, (const float)7902.59 };
+static const float P055_link1[3l] = { (const float)-260.54, (const float)559.84, (const float)7902.59 };
 // P056
 // file dolphin.c line 342
 static const float P056[3l] = { (const float)-698.66, (const float)320.83, (const float)7902.59 };
-// P056$link1
+// P056_link1
 // file whale.c line 310
-static const float P056$link1[3l] = { (const float)-698.66, (const float)320.83, (const float)7902.59 };
+static const float P056_link1[3l] = { (const float)-698.66, (const float)320.83, (const float)7902.59 };
 // P057
 // file dolphin.c line 343
 static const float P057[3l] = { (const float)-643.29, (const float)-299.16, (const float)7902.59 };
-// P057$link1
+// P057_link1
 // file whale.c line 311
-static const float P057$link1[3l] = { (const float)-643.29, (const float)-299.16, (const float)7902.59 };
+static const float P057_link1[3l] = { (const float)-643.29, (const float)-299.16, (const float)7902.59 };
 // P058
 // file dolphin.c line 344
 static const float P058[3l] = { (const float)-341.47, (const float)-719.3, (const float)7902.59 };
-// P058$link1
+// P058_link1
 // file shark.c line 229
-static const float P058$link1[3l] = { (const float)0, (const float)1212.72, (const float)2703.08 };
-// P058$link2
+static const float P058_link1[3l] = { (const float)0, (const float)1212.72, (const float)2703.08 };
+// P058_link2
 // file whale.c line 312
-static const float P058$link2[3l] = { (const float)-341.47, (const float)-719.3, (const float)7902.59 };
+static const float P058_link2[3l] = { (const float)-341.47, (const float)-719.3, (const float)7902.59 };
 // P059
 // file dolphin.c line 345
 static const float P059[3l] = { (const float)252.57, (const float)-756.12, (const float)7902.59 };
-// P059$link1
+// P059_link1
 // file shark.c line 230
-static const float P059$link1[3l] = { (const float)50.36, (const float)0, (const float)108.14 };
-// P059$link2
+static const float P059_link1[3l] = { (const float)50.36, (const float)0, (const float)108.14 };
+// P059_link2
 // file whale.c line 313
-static const float P059$link2[3l] = { (const float)252.57, (const float)-756.12, (const float)7902.59 };
+static const float P059_link2[3l] = { (const float)252.57, (const float)-756.12, (const float)7902.59 };
 // P060
 // file dolphin.c line 346
 static const float P060[3l] = { (const float)458.39, (const float)-265.31, (const float)9355.44 };
-// P060$link1
+// P060_link1
 // file shark.c line 231
-static const float P060$link1[3l] = { (const float)-22.18, (const float)0, (const float)108.14 };
-// P060$link2
+static const float P060_link1[3l] = { (const float)-22.18, (const float)0, (const float)108.14 };
+// P060_link2
 // file whale.c line 314
-static const float P060$link2[3l] = { (const float)458.39, (const float)-265.31, (const float)9355.44 };
+static const float P060_link2[3l] = { (const float)458.39, (const float)-265.31, (const float)9355.44 };
 // P061
 // file shark.c line 232
 static float P061[3l] = { (float)0, (float)1181.61, (float)6344.65 };
-// P061$link1
+// P061_link1
 // file whale.c line 316
-static float P061$link1[3l] = { (float)353.63, (float)138.7, (float)10214.2 };
+static float P061_link1[3l] = { (float)353.63, (float)138.7, (float)10214.2 };
 // P062
 // file dolphin.c line 350
 static const float P062[3l] = { (const float)224.04, (const float)338.75, (const float)9450.3 };
-// P062$link1
+// P062_link1
 // file shark.c line 233
-static const float P062$link1[3l] = { (const float)516.45, (const float)-887.08, (const float)2535.45 };
-// P062$link2
+static const float P062_link1[3l] = { (const float)516.45, (const float)-887.08, (const float)2535.45 };
+// P062_link2
 // file whale.c line 317
-static const float P062$link2[3l] = { (const float)224.04, (const float)438.98, (const float)9364.77 };
+static const float P062_link2[3l] = { (const float)224.04, (const float)438.98, (const float)9364.77 };
 // P063
 // file dolphin.c line 351
 static const float P063[3l] = { (const float)-165.71, (const float)341.04, (const float)9462.35 };
-// P063$link1
+// P063_link1
 // file shark.c line 234
-static const float P063$link1[3l] = { (const float)-545.69, (const float)-879.31, (const float)2555.63 };
-// P063$link2
+static const float P063_link1[3l] = { (const float)-545.69, (const float)-879.31, (const float)2555.63 };
+// P063_link2
 // file whale.c line 318
-static const float P063$link2[3l] = { (const float)-165.71, (const float)441.27, (const float)9355.44 };
+static const float P063_link2[3l] = { (const float)-165.71, (const float)441.27, (const float)9355.44 };
 // P064
 // file dolphin.c line 352
 static const float P064[3l] = { (const float)-298.11, (const float)110.13, (const float)10180.37 };
-// P064$link1
+// P064_link1
 // file shark.c line 235
-static const float P064$link1[3l] = { (const float)618.89, (const float)-1005.64, (const float)2988.32 };
-// P064$link2
+static const float P064_link1[3l] = { (const float)618.89, (const float)-1005.64, (const float)2988.32 };
+// P064_link2
 // file whale.c line 320
-static float P064$link2[3l] = { (float)-326.4, (float)162.04, (float)10209.54 };
+static float P064_link2[3l] = { (float)-326.4, (float)162.04, (float)10209.54 };
 // P065
 // file dolphin.c line 353
 static const float P065[3l] = { (const float)-473.99, (const float)-219.71, (const float)9355.44 };
-// P065$link1
+// P065_link1
 // file shark.c line 236
-static const float P065$link1[3l] = { (const float)-635.37, (const float)-1014.79, (const float)2938.68 };
-// P065$link2
+static const float P065_link1[3l] = { (const float)-635.37, (const float)-1014.79, (const float)2938.68 };
+// P065_link2
 // file whale.c line 321
-static const float P065$link2[3l] = { (const float)-473.99, (const float)-219.71, (const float)9355.44 };
+static const float P065_link2[3l] = { (const float)-473.99, (const float)-219.71, (const float)9355.44 };
 // P066
 // file dolphin.c line 354
 static const float P066[3l] = { (const float)-211.97, (const float)-479.87, (const float)9355.44 };
-// P066$link1
+// P066_link1
 // file shark.c line 237
-static const float P066$link1[3l] = { (const float)0, (const float)1374.43, (const float)3064.18 };
-// P066$link2
+static const float P066_link1[3l] = { (const float)0, (const float)1374.43, (const float)3064.18 };
+// P066_link2
 // file whale.c line 322
-static const float P066$link2[3l] = { (const float)-211.97, (const float)-479.87, (const float)9355.44 };
+static const float P066_link2[3l] = { (const float)-211.97, (const float)-479.87, (const float)9355.44 };
 // P067
 // file dolphin.c line 355
 static const float P067[3l] = { (const float)192.86, (const float)-491.45, (const float)9348.73 };
-// P067$link1
+// P067_link1
 // file whale.c line 323
-static const float P067$link1[3l] = { (const float)192.86, (const float)-504.03, (const float)9355.44 };
+static const float P067_link1[3l] = { (const float)192.86, (const float)-504.03, (const float)9355.44 };
 // P068
 // file dolphin.c line 356
 static float P068[3l] = { (float)-136.29, (float)-319.84, (float)1228.73 };
-// P068$link1
+// P068_link1
 // file whale.c line 333
-static float P068$link1[3l] = { (float)-112.44, (float)9.25, (float)-64.42 };
+static float P068_link1[3l] = { (float)-112.44, (float)9.25, (float)-64.42 };
 // P069
 // file dolphin.c line 357
 static float P069[3l] = { (float)1111.17, (float)-314.14, (float)1314.19 };
-// P069$link1
+// P069_link1
 // file shark.c line 242
-static float P069$link1[3l] = { (float)0, (float)-418.25, (float)5765.04 };
-// P069$link2
+static float P069_link1[3l] = { (float)0, (float)-418.25, (float)5765.04 };
+// P069_link2
 // file whale.c line 334
-static float P069$link2[3l] = { (float)1155.63, (float)0, (float)-182.46 };
+static float P069_link2[3l] = { (float)1155.63, (float)0, (float)-182.46 };
 // P070
 // file dolphin.c line 358
 static float P070[3l] = { (float)-1167.34, (float)-321.61, (float)1319.45 };
-// P070$link1
+// P070_link1
 // file shark.c line 243
-static float P070$link1[3l] = { (float)0, (float)1266.91, (float)6629.6 };
-// P070$link2
+static float P070_link1[3l] = { (float)0, (float)1266.91, (float)6629.6 };
+// P070_link2
 // file whale.c line 335
-static float P070$link2[3l] = { (float)-1143.13, (float)0, (float)-181.54 };
+static float P070_link2[3l] = { (float)-1143.13, (float)0, (float)-181.54 };
 // P071
 // file dolphin.c line 359
 static float P071[3l] = { (float)1404.86, (float)-306.66, (float)1235.45 };
-// P071$link1
+// P071_link1
 // file shark.c line 244
-static const float P071$link1[3l] = { (const float)-139.12, (const float)-124.96, (const float)997.98 };
-// P071$link2
+static const float P071_link1[3l] = { (const float)-139.12, (const float)-124.96, (const float)997.98 };
+// P071_link2
 // file whale.c line 336
-static float P071$link2[3l] = { (float)1424.23, (float)0, (float)-322.09 };
+static float P071_link2[3l] = { (float)1424.23, (float)0, (float)-322.09 };
 // P072
 // file dolphin.c line 360
 static float P072[3l] = { (float)-1409.73, (float)-314.14, (float)1247.66 };
-// P072$link1
+// P072_link1
 // file shark.c line 245
-static const float P072$link1[3l] = { (const float)-139.24, (const float)-110.18, (const float)1020.68 };
-// P072$link2
+static const float P072_link1[3l] = { (const float)-139.24, (const float)-110.18, (const float)1020.68 };
+// P072_link2
 // file whale.c line 337
-static float P072$link2[3l] = { (float)-1368.01, (float)0, (float)-310.38 };
+static float P072_link2[3l] = { (float)-1368.01, (float)0, (float)-310.38 };
 // P073
 // file dolphin.c line 361
 static float P073[3l] = { (float)1254.01, (float)-296.87, (float)1544.58 };
-// P073$link1
+// P073_link1
 // file shark.c line 246
-static const float P073$link1[3l] = { (const float)-137.33, (const float)-94.52, (const float)1022.63 };
-// P073$link2
+static const float P073_link1[3l] = { (const float)-137.33, (const float)-94.52, (const float)1022.63 };
+// P073_link2
 // file whale.c line 338
-static float P073$link2[3l] = { (float)1255.57, (float)2.31, (float)114.05 };
+static float P073_link2[3l] = { (float)1255.57, (float)2.31, (float)114.05 };
 // P074
 // file dolphin.c line 362
 static float P074[3l] = { (float)-1262.09, (float)-291.7, (float)1504.26 };
-// P074$link1
+// P074_link1
 // file shark.c line 247
-static const float P074$link1[3l] = { (const float)-137.03, (const float)-79.91, (const float)996.89 };
-// P074$link2
+static const float P074_link1[3l] = { (const float)-137.03, (const float)-79.91, (const float)996.89 };
+// P074_link2
 // file whale.c line 339
-static float P074$link2[3l] = { (float)-1149.38, (float)0, (float)117.12 };
+static float P074_link2[3l] = { (float)-1149.38, (float)0, (float)117.12 };
 // P075
 // file dolphin.c line 363
 static float P075[3l] = { (float)965.71, (float)-269.26, (float)1742.65 };
-// P075$link1
+// P075_link1
 // file shark.c line 248
-static const float P075$link1[3l] = { (const float)-135.21, (const float)-91.48, (const float)969.14 };
-// P075$link2
+static const float P075_link1[3l] = { (const float)-135.21, (const float)-91.48, (const float)969.14 };
+// P075_link2
 // file whale.c line 340
-static float P075$link2[3l] = { (float)718.36, (float)0, (float)433.36 };
+static float P075_link2[3l] = { (float)718.36, (float)0, (float)433.36 };
 // P076
 // file dolphin.c line 364
 static float P076[3l] = { (float)-900.97, (float)-276.74, (float)1726.07 };
-// P076$link1
+// P076_link1
 // file shark.c line 249
-static const float P076$link1[3l] = { (const float)-135.39, (const float)-110.87, (const float)968.76 };
-// P076$link2
+static const float P076_link1[3l] = { (const float)-135.39, (const float)-110.87, (const float)968.76 };
+// P076_link2
 // file whale.c line 341
-static float P076$link2[3l] = { (float)-655.9, (float)0, (float)433.36 };
+static float P076_link2[3l] = { (float)-655.9, (float)0, (float)433.36 };
 // P077
 // file dolphin.c line 374
 static const float P077[3l] = { (const float)1058, (const float)-448.81, (const float)8194.66 };
-// P077$link1
+// P077_link1
 // file shark.c line 250
-static const float P077$link1[3l] = { (const float)150.23, (const float)-78.44, (const float)995.53 };
-// P077$link2
+static const float P077_link1[3l] = { (const float)150.23, (const float)-78.44, (const float)995.53 };
+// P077_link2
 // file whale.c line 342
-static const float P077$link2[3l] = { (const float)1058, (const float)-2.66, (const float)7923.51 };
+static const float P077_link2[3l] = { (const float)1058, (const float)-2.66, (const float)7923.51 };
 // P078
 // file dolphin.c line 375
 static const float P078[3l] = { (const float)-1016.51, (const float)-456.43, (const float)8190.62 };
-// P078$link1
+// P078_link1
 // file shark.c line 251
-static const float P078$link1[3l] = { (const float)152.79, (const float)-92.76, (const float)1018.46 };
-// P078$link2
+static const float P078_link1[3l] = { (const float)152.79, (const float)-92.76, (const float)1018.46 };
+// P078_link2
 // file whale.c line 343
-static const float P078$link2[3l] = { (const float)-1016.51, (const float)-15.47, (const float)7902.87 };
+static const float P078_link2[3l] = { (const float)-1016.51, (const float)-15.47, (const float)7902.87 };
 // P079
 // file dolphin.c line 376
 static const float P079[3l] = { (const float)-1515.96, (const float)-676.45, (const float)7754.93 };
-// P079$link1
+// P079_link1
 // file shark.c line 252
-static const float P079$link1[3l] = { (const float)154.19, (const float)-110.2, (const float)1020.55 };
-// P079$link2
+static const float P079_link1[3l] = { (const float)154.19, (const float)-110.2, (const float)1020.55 };
+// P079_link2
 // file whale.c line 344
-static const float P079$link2[3l] = { (const float)-1363.99, (const float)-484.5, (const float)7593.38 };
+static const float P079_link2[3l] = { (const float)-1363.99, (const float)-484.5, (const float)7593.38 };
 // P080
 // file dolphin.c line 377
 static const float P080[3l] = { (const float)1856.75, (const float)-830.34, (const float)7296.56 };
-// P080$link1
+// P080_link1
 // file shark.c line 253
-static const float P080$link1[3l] = { (const float)151.33, (const float)-124.15, (const float)993.77 };
-// P080$link2
+static const float P080_link1[3l] = { (const float)151.33, (const float)-124.15, (const float)993.77 };
+// P080_link2
 // file whale.c line 345
-static const float P080$link2[3l] = { (const float)1478.09, (const float)-861.47, (const float)7098.12 };
+static const float P080_link2[3l] = { (const float)1478.09, (const float)-861.47, (const float)7098.12 };
 // P081
 // file dolphin.c line 378
 static const float P081[3l] = { (const float)1472.16, (const float)-497.38, (const float)7399.68 };
-// P081$link1
+// P081_link1
 // file shark.c line 254
-static const float P081$link1[3l] = { (const float)150.49, (const float)-111.19, (const float)969.86 };
-// P081$link2
+static const float P081_link1[3l] = { (const float)150.49, (const float)-111.19, (const float)969.86 };
+// P081_link2
 // file whale.c line 346
-static const float P081$link2[3l] = { (const float)1338.06, (const float)-284.68, (const float)7024.15 };
+static const float P081_link2[3l] = { (const float)1338.06, (const float)-284.68, (const float)7024.15 };
 // P082
 // file dolphin.c line 379
 static const float P082[3l] = { (const float)-1775.26, (const float)-829.51, (const float)7298.46 };
-// P082$link1
+// P082_link1
 // file shark.c line 255
-static const float P082$link1[3l] = { (const float)150.79, (const float)-92.41, (const float)969.7 };
-// P082$link2
+static const float P082_link1[3l] = { (const float)150.79, (const float)-92.41, (const float)969.7 };
+// P082_link2
 // file whale.c line 347
-static const float P082$link2[3l] = { (const float)-1545.51, (const float)-860.64, (const float)7106.6 };
+static const float P082_link2[3l] = { (const float)-1545.51, (const float)-860.64, (const float)7106.6 };
 // P083
 // file dolphin.c line 380
 static const float P083[3l] = { (const float)911.09, (const float)-252.51, (const float)7510.99 };
-// P083$link1
+// P083_link1
 // file whale.c line 348
-static const float P083$link1[3l] = { (const float)1063.19, (const float)-70.46, (const float)7466.6 };
+static const float P083_link1[3l] = { (const float)1063.19, (const float)-70.46, (const float)7466.6 };
 // P084
 // file dolphin.c line 381
 static const float P084[3l] = { (const float)-1451.94, (const float)-495.62, (const float)7384.3 };
-// P084$link1
+// P084_link1
 // file whale.c line 349
-static const float P084$link1[3l] = { (const float)-1369.18, (const float)-288.11, (const float)7015.34 };
+static const float P084_link1[3l] = { (const float)-1369.18, (const float)-288.11, (const float)7015.34 };
 // P085
 // file dolphin.c line 382
 static const float P085[3l] = { (const float)1598.75, (const float)-669.26, (const float)7769.9 };
-// P085$link1
+// P085_link1
 // file whale.c line 350
-static const float P085$link1[3l] = { (const float)1348.44, (const float)-482.5, (const float)7591.41 };
+static const float P085_link1[3l] = { (const float)1348.44, (const float)-482.5, (const float)7591.41 };
 // P086
 // file dolphin.c line 383
 static const float P086[3l] = { (const float)-836.53, (const float)-250.08, (const float)7463.25 };
-// P086$link1
+// P086_link1
 // file whale.c line 351
-static const float P086$link1[3l] = { (const float)-1015.45, (const float)-96.8, (const float)7474.86 };
+static const float P086_link1[3l] = { (const float)-1015.45, (const float)-96.8, (const float)7474.86 };
 // P087
 // file dolphin.c line 384
 static const float P087[3l] = { (const float)722.87, (const float)-158.18, (const float)8006.41 };
-// P087$link1
+// P087_link1
 // file whale.c line 352
-static const float P087$link1[3l] = { (const float)731.04, (const float)148.38, (const float)7682.58 };
+static const float P087_link1[3l] = { (const float)731.04, (const float)148.38, (const float)7682.58 };
 // P088
 // file dolphin.c line 385
 static const float P088[3l] = { (const float)-688.86, (const float)-162.28, (const float)7993.89 };
-// P088$link1
+// P088_link1
 // file whale.c line 353
-static const float P088$link1[3l] = { (const float)-697.03, (const float)151.82, (const float)7668.81 };
+static const float P088_link1[3l] = { (const float)-697.03, (const float)151.82, (const float)7668.81 };
 // P089
 // file dolphin.c line 386
 static const float P089[3l] = { (const float)-626.92, (const float)-185.3, (const float)8364.98 };
-// P089$link1
+// P089_link1
 // file whale.c line 354
-static const float P089$link1[3l] = { (const float)-686.82, (const float)157.09, (const float)7922.29 };
+static const float P089_link1[3l] = { (const float)-686.82, (const float)157.09, (const float)7922.29 };
 // P090
 // file dolphin.c line 387
 static const float P090[3l] = { (const float)647.72, (const float)-189.46, (const float)8354.99 };
-// P090$link1
+// P090_link1
 // file whale.c line 355
-static const float P090$link1[3l] = { (const float)724.73, (const float)147.75, (const float)7931.39 };
+static const float P090_link1[3l] = { (const float)724.73, (const float)147.75, (const float)7931.39 };
 // P091
 // file dolphin.c line 388
 static float P091[3l] = { (float)0, (float)835.01, (float)5555.62 };
-// P091$link1
+// P091_link1
 // file whale.c line 361
-static float P091$link1[3l] = { (float)0, (float)327.1, (float)2346.55 };
+static float P091_link1[3l] = { (float)0, (float)327.1, (float)2346.55 };
 // P092
 // file dolphin.c line 389
 static float P092[3l] = { (float)0, (float)1350.18, (float)5220.86 };
-// P092$link1
+// P092_link1
 // file whale.c line 362
-static float P092$link1[3l] = { (float)0, (float)552.28, (float)2311.31 };
+static float P092_link1[3l] = { (float)0, (float)552.28, (float)2311.31 };
 // P093
 // file dolphin.c line 390
 static float P093[3l] = { (float)0, (float)1422.94, (float)5285.27 };
-// P093$link1
+// P093_link1
 // file whale.c line 363
-static float P093$link1[3l] = { (float)0, (float)721.16, (float)2166.41 };
+static float P093_link1[3l] = { (float)0, (float)721.16, (float)2166.41 };
 // P094
 // file dolphin.c line 391
 static float P094[3l] = { (float)0, (float)1296.75, (float)5650.19 };
-// P094$link1
+// P094_link1
 // file whale.c line 364
-static float P094$link1[3l] = { (float)0, (float)693.42, (float)2388.8 };
+static float P094_link1[3l] = { (float)0, (float)693.42, (float)2388.8 };
 // P095
 // file dolphin.c line 392
 static float P095[3l] = { (float)0, (float)795.63, (float)6493.88 };
-// P095$link1
+// P095_link1
 // file whale.c line 365
-static float P095$link1[3l] = { (float)0, (float)389.44, (float)2859.97 };
+static float P095_link1[3l] = { (float)0, (float)389.44, (float)2859.97 };
 // P096
 // file whale.c line 370
 static float P096[3l] = { (float)222.02, (float)-183.67, (float)10266.89 };
 // P097
 // file dolphin.c line 401
 static float P097[3l] = { (float)-194.91, (float)-357.14, (float)10313.32 };
-// P097$link1
+// P097_link1
 // file whale.c line 371
-static float P097$link1[3l] = { (float)-128.9, (float)-182.7, (float)10266.89 };
+static float P097_link1[3l] = { (float)-128.9, (float)-182.7, (float)10266.89 };
 // P098
 // file dolphin.c line 402
 static float P098[3l] = { (float)135.35, (float)-357.66, (float)10307.94 };
-// P098$link1
+// P098_link1
 // file whale.c line 372
-static float P098$link1[3l] = { (float)41.04, (float)88.31, (float)10659.36 };
+static float P098_link1[3l] = { (float)41.04, (float)88.31, (float)10659.36 };
 // P099
 // file dolphin.c line 405
 static const float P099[3l] = { (const float)-380.53, (const float)-221.14, (const float)9677.98 };
-// P099$link1
+// P099_link1
 // file whale.c line 373
-static float P099$link1[3l] = { (float)-48.73, (float)88.3, (float)10659.36 };
+static float P099_link1[3l] = { (float)-48.73, (float)88.3, (float)10659.36 };
 // P100
 // file dolphin.c line 406
 static const float P100[3l] = { (const float)0, (const float)412.99, (const float)9629.33 };
-// P100$link1
+// P100_link1
 // file whale.c line 374
-static const float P100$link1[3l] = { (const float)0, (const float)603.42, (const float)9340.68 };
+static const float P100_link1[3l] = { (const float)0, (const float)603.42, (const float)9340.68 };
 // P102
 // file dolphin.c line 410
 static float P102[3l] = { (float)59.51, (float)-412.55, (float)10677.58 };
@@ -5640,9 +5640,9 @@ static const float P104[3l] = { (const float)-9.86, (const float)567.62, (const 
 // P105
 // file dolphin.c line 416
 static const float P105[3l] = { (const float)-41.86, (const float)476.51, (const float)9078.17 };
-// P105$link1
+// P105_link1
 // file whale.c line 381
-static const float P105$link1[3l] = { (const float)31.96, (const float)565.27, (const float)7908.46 };
+static const float P105_link1[3l] = { (const float)31.96, (const float)565.27, (const float)7908.46 };
 // P106
 // file whale.c line 382
 static const float P106[3l] = { (const float)22.75, (const float)568.13, (const float)7782.83 };
@@ -5652,84 +5652,84 @@ static const float P107[3l] = { (const float)58.93, (const float)568.42, (const 
 // P108
 // file dolphin.c line 421
 static const float P108[3l] = { (const float)49.2, (const float)476.83, (const float)9078.24 };
-// P108$link1
+// P108_link1
 // file whale.c line 384
-static const float P108$link1[3l] = { (const float)55.91, (const float)565.59, (const float)7905.86 };
+static const float P108_link1[3l] = { (const float)55.91, (const float)565.59, (const float)7905.86 };
 // P109
 // file whale.c line 385
 static const float P109[3l] = { (const float)99.21, (const float)566, (const float)7858.65 };
 // P110
 // file dolphin.c line 425
 static float P110[3l] = { (float)-187.62, (float)-410.04, (float)10674.12 };
-// P110$link1
+// P110_link1
 // file whale.c line 386
-static const float P110$link1[3l] = { (const float)-498.83, (const float)148.14, (const float)9135.1 };
+static const float P110_link1[3l] = { (const float)-498.83, (const float)148.14, (const float)9135.1 };
 // P111
 // file dolphin.c line 427
 static float P111[3l] = { (float)-184.25, (float)-318.7, (float)10723.88 };
-// P111$link1
+// P111_link1
 // file whale.c line 387
-static const float P111$link1[3l] = { (const float)-495.46, (const float)133.24, (const float)9158.48 };
+static const float P111_link1[3l] = { (const float)-495.46, (const float)133.24, (const float)9158.48 };
 // P112
 // file dolphin.c line 429
 static const float P112[3l] = { (const float)-179.61, (const float)-142.81, (const float)10670.26 };
-// P112$link1
+// P112_link1
 // file whale.c line 388
-static const float P112$link1[3l] = { (const float)-490.82, (const float)146.23, (const float)9182.76 };
+static const float P112_link1[3l] = { (const float)-490.82, (const float)146.23, (const float)9182.76 };
 // P113
 // file dolphin.c line 430
 static const float P113[3l] = { (const float)57.43, (const float)-147.94, (const float)10675.26 };
-// P113$link1
+// P113_link1
 // file whale.c line 389
-static const float P113$link1[3l] = { (const float)-489.55, (const float)174.11, (const float)9183.66 };
+static const float P113_link1[3l] = { (const float)-489.55, (const float)174.11, (const float)9183.66 };
 // P114
 // file dolphin.c line 431
 static const float P114[3l] = { (const float)54.06, (const float)-218.9, (const float)10712.44 };
-// P114$link1
+// P114_link1
 // file whale.c line 390
-static const float P114$link1[3l] = { (const float)-492.92, (const float)189, (const float)9160.28 };
+static const float P114_link1[3l] = { (const float)-492.92, (const float)189, (const float)9160.28 };
 // P115
 // file dolphin.c line 432
 static const float P115[3l] = { (const float)-186.35, (const float)-212.09, (const float)10713.76 };
-// P115$link1
+// P115_link1
 // file whale.c line 391
-static const float P115$link1[3l] = { (const float)-497.56, (const float)176.02, (const float)9136 };
+static const float P115_link1[3l] = { (const float)-497.56, (const float)176.02, (const float)9136 };
 // P116
 // file dolphin.c line 433
 static const float P116[3l] = { (const float)205.9, (const float)-84.61, (const float)10275.97 };
-// P116$link1
+// P116_link1
 // file whale.c line 392
-static const float P116$link1[3l] = { (const float)526.54, (const float)169.68, (const float)9137.7 };
+static const float P116_link1[3l] = { (const float)526.54, (const float)169.68, (const float)9137.7 };
 // P117
 // file dolphin.c line 434
 static const float P117[3l] = { (const float)-230.96, (const float)-83.26, (const float)10280.09 };
-// P117$link1
+// P117_link1
 // file whale.c line 393
-static const float P117$link1[3l] = { (const float)523.49, (const float)184.85, (const float)9161.42 };
+static const float P117_link1[3l] = { (const float)523.49, (const float)184.85, (const float)9161.42 };
 // P118
 // file dolphin.c line 437
 static float P118[3l] = { (float)216.78, (float)-509.17, (float)10098.94 };
-// P118$link1
+// P118_link1
 // file whale.c line 394
-static const float P118$link1[3l] = { (const float)518.56, (const float)171.78, (const float)9186.06 };
+static const float P118_link1[3l] = { (const float)518.56, (const float)171.78, (const float)9186.06 };
 // P119
 // file dolphin.c line 438
 static float P119[3l] = { (float)-313.21, (float)-510.79, (float)10102.62 };
-// P119$link1
+// P119_link1
 // file whale.c line 395
-static const float P119$link1[3l] = { (const float)516.68, (const float)143.53, (const float)9186.98 };
+static const float P119_link1[3l] = { (const float)516.68, (const float)143.53, (const float)9186.98 };
 // P120
 // file dolphin.c line 439
 static const float P120[3l] = { (const float)217.95, (const float)96.34, (const float)10161.62 };
-// P120$link1
+// P120_link1
 // file whale.c line 396
-static const float P120$link1[3l] = { (const float)519.73, (const float)128.36, (const float)9163.26 };
+static const float P120_link1[3l] = { (const float)519.73, (const float)128.36, (const float)9163.26 };
 // P121
 // file dolphin.c line 440
 static float P121[3l] = { (float)71.99, (float)-319.74, (float)10717.7 };
-// P121$link1
+// P121_link1
 // file whale.c line 397
-static const float P121$link1[3l] = { (const float)524.66, (const float)141.43, (const float)9138.62 };
+static const float P121_link1[3l] = { (const float)524.66, (const float)141.43, (const float)9138.62 };
 // P122
 // file dolphin.c line 442
 static float P122[3l] = { (float)0, (float)602.74, (float)5375.84 };
@@ -5798,27 +5798,27 @@ static unsigned int a[55l] = { 035340171546, (unsigned int)010401501101, 0223646
 static struct anonymous *atlantis = (struct anonymous *)(void *)0;
 // atlantis_opts
 // file atlantis.c line 153
-static struct anonymous$16 atlantis_opts;
+static struct anonymous_16 atlantis_opts;
 // desc
 // file atlantis.c line 146
-static struct anonymous$56 desc[3l] = { { .opt="-whalespeed num", .desc="speed of whales and the dolphin" },
+static struct anonymous_56 desc[3l] = { { .opt="-whalespeed num", .desc="speed of whales and the dolphin" },
     { .opt="-texture", .desc="whether to introduce water-like distortion" },
     { .opt="-gradient", .desc="whether to introduce gradient-filled background" } };
 // opts
 // file atlantis.c line 130
-static struct anonymous$51 opts[5l] = { { .option="-whalespeed", .specifier=".atlantis.whalespeed", .argKind=(enum anonymous$57)XrmoptionSepArg,
+static struct anonymous_51 opts[5l] = { { .option="-whalespeed", .specifier=".atlantis.whalespeed", .argKind=(enum anonymous_57)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-texture", .specifier=".atlantis.texture", .argKind=(enum anonymous$57)XrmoptionNoArg,
+    { .option="-texture", .specifier=".atlantis.texture", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="true" },
-    { .option="+texture", .specifier=".atlantis.texture", .argKind=(enum anonymous$57)XrmoptionNoArg,
+    { .option="+texture", .specifier=".atlantis.texture", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="false" },
-    { .option="-gradient", .specifier=".atlantis.gradient", .argKind=(enum anonymous$57)XrmoptionNoArg,
+    { .option="-gradient", .specifier=".atlantis.gradient", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="true" },
-    { .option="+gradient", .specifier=".atlantis.gradient", .argKind=(enum anonymous$57)XrmoptionNoArg,
+    { .option="+gradient", .specifier=".atlantis.gradient", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="false" } };
 // vars
 // file atlantis.c line 139
-static struct anonymous$18 vars[3l];
+static struct anonymous_18 vars[3l];
 // do_gradient
 // file atlantis.c line 129
 static signed int do_gradient;
@@ -5830,16 +5830,16 @@ static signed int do_texture;
 static signed int whalespeed;
 // vars
 // file atlantis.c line 139
-static struct anonymous$18 vars[3l] = { { .var=(void *)&whalespeed, .name="whalespeed", .classname="WhaleSpeed",
-    .def="250", .type=(enum anonymous$60)t_Int },
+static struct anonymous_18 vars[3l] = { { .var=(void *)&whalespeed, .name="whalespeed", .classname="WhaleSpeed",
+    .def="250", .type=(enum anonymous_60)t_Int },
     { .var=(void *)&do_texture, .name="texture", .classname="Texture",
-    .def="True", .type=(enum anonymous$60)t_Bool },
+    .def="True", .type=(enum anonymous_60)t_Bool },
     { .var=(void *)&do_gradient, .name="gradient", .classname="Gradient",
-    .def="True", .type=(enum anonymous$60)t_Bool } };
+    .def="True", .type=(enum anonymous_60)t_Bool } };
 // atlantis_opts
 // file atlantis.c line 153
-static struct anonymous$16 atlantis_opts = { .numopts=(signed int)(sizeof(struct anonymous$51 [5l]) /*160ul*/  / sizeof(struct anonymous$51) /*32ul*/ ), .opts=opts,
-    .numvarsdesc=(signed int)(sizeof(struct anonymous$18 [3l]) /*120ul*/  / sizeof(struct anonymous$18) /*40ul*/ ), .vars=vars,
+static struct anonymous_16 atlantis_opts = { .numopts=(signed int)(sizeof(struct anonymous_51 [5l]) /*160ul*/  / sizeof(struct anonymous_51) /*32ul*/ ), .opts=opts,
+    .numvarsdesc=(signed int)(sizeof(struct anonymous_18 [3l]) /*120ul*/  / sizeof(struct anonymous_18) /*40ul*/ ), .vars=vars,
     .desc=desc };
 // atlantis_xlockmore_function_table
 // file atlantis.c line 578
@@ -5847,7 +5847,7 @@ static struct xlockmore_function_table atlantis_xlockmore_function_table;
 // atlantis_xlockmore_function_table
 // file atlantis.c line 578
 static struct xlockmore_function_table atlantis_xlockmore_function_table = { .progclass="Atlantis", .defaults="*delay:       25000 \n*count:          4 \n*showFPS:    False \n*cycles:       100 \n*size:        6000 \n*wireframe:  False \n", .want_writable_colors=0,
-    .desired_color_scheme=(enum anonymous$1)color_scheme_default, .hack_init=init_atlantis,
+    .desired_color_scheme=(enum anonymous_1)color_scheme_default, .hack_init=init_atlantis,
     .hack_draw=draw_atlantis, .hack_reshape=reshape_atlantis,
     .hack_refresh=refresh_atlantis, .hack_free=release_atlantis,
     .hack_handle_events=((signed int (*)(struct ModeInfo *, union _XEvent *))NULL), .opts=&atlantis_opts,
@@ -5857,7 +5857,7 @@ static struct xlockmore_function_table atlantis_xlockmore_function_table = { .pr
 struct xscreensaver_function_table atlantis_xscreensaver_function_table;
 // atlantis_xscreensaver_function_table
 // file atlantis.c line 578
-struct xscreensaver_function_table atlantis_xscreensaver_function_table = { .progclass=((const char *)NULL), .defaults=((const char * const *)NULL), .options=((const struct anonymous$51 *)NULL),
+struct xscreensaver_function_table atlantis_xscreensaver_function_table = { .progclass=((const char *)NULL), .defaults=((const char * const *)NULL), .options=((const struct anonymous_51 *)NULL),
     .setup_cb=xlockmore_setup,
     .setup_arg=(void *)&atlantis_xlockmore_function_table, .init_cb=((void * (*)(struct _XDisplay *, unsigned long int))NULL),
     .draw_cb=((unsigned long int (*)(struct _XDisplay *, unsigned long int, void *))NULL),
@@ -5868,7 +5868,7 @@ struct xscreensaver_function_table atlantis_xscreensaver_function_table = { .pro
     .pick_visual_hook=xlockmore_pick_gl_visual, .validate_visual_hook=xlockmore_validate_gl_visual };
 // cond_initializer
 // file thread_util.c line 285
-const union anonymous$69 cond_initializer = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+const union anonymous_69 cond_initializer = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -5878,23 +5878,23 @@ static char *default_defaults[10l] = { ".root:\t\tfalse", "*geometry:\t\t1280x72
     ((char *)NULL) };
 // default_options
 // file screenhack.c line 141
-static struct anonymous$51 default_options[11l] = { { .option="-root", .specifier=".root", .argKind=(enum anonymous$57)XrmoptionNoArg, .value="True" },
-    { .option="-window", .specifier=".root", .argKind=(enum anonymous$57)XrmoptionNoArg,
+static struct anonymous_51 default_options[11l] = { { .option="-root", .specifier=".root", .argKind=(enum anonymous_57)XrmoptionNoArg, .value="True" },
+    { .option="-window", .specifier=".root", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="False" },
-    { .option="-mono", .specifier=".mono", .argKind=(enum anonymous$57)XrmoptionNoArg, .value="True" },
-    { .option="-install", .specifier=".installColormap", .argKind=(enum anonymous$57)XrmoptionNoArg,
+    { .option="-mono", .specifier=".mono", .argKind=(enum anonymous_57)XrmoptionNoArg, .value="True" },
+    { .option="-install", .specifier=".installColormap", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="True" },
-    { .option="-noinstall", .specifier=".installColormap", .argKind=(enum anonymous$57)XrmoptionNoArg,
+    { .option="-noinstall", .specifier=".installColormap", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="False" },
-    { .option="-visual", .specifier=".visualID", .argKind=(enum anonymous$57)XrmoptionSepArg,
+    { .option="-visual", .specifier=".visualID", .argKind=(enum anonymous_57)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-window-id", .specifier=".windowID", .argKind=(enum anonymous$57)XrmoptionSepArg,
+    { .option="-window-id", .specifier=".windowID", .argKind=(enum anonymous_57)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-fps", .specifier=".doFPS", .argKind=(enum anonymous$57)XrmoptionNoArg, .value="True" },
-    { .option="-no-fps", .specifier=".doFPS", .argKind=(enum anonymous$57)XrmoptionNoArg,
+    { .option="-fps", .specifier=".doFPS", .argKind=(enum anonymous_57)XrmoptionNoArg, .value="True" },
+    { .option="-no-fps", .specifier=".doFPS", .argKind=(enum anonymous_57)XrmoptionNoArg,
     .value="False" },
-    { .option="-pair", .specifier=".pair", .argKind=(enum anonymous$57)XrmoptionNoArg, .value="True" },
-    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous$57)0,
+    { .option="-pair", .specifier=".pair", .argKind=(enum anonymous_57)XrmoptionNoArg, .value="True" },
+    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous_57)0,
     .value=((char *)NULL) } };
 // got_error
 // file xlock-gl-utils.c line 33
@@ -5908,9 +5908,9 @@ static signed int i2;
 // iP001
 // file dolphin.c line 285
 static const float iP001[3l] = { (const float)5.68, (const float)-300.95, (const float)1324.7 };
-// iP001$link1
+// iP001_link1
 // file whale.c line 209
-static const float iP001$link1[3l] = { (const float)18.74, (const float)13.19, (const float)3.76 };
+static const float iP001_link1[3l] = { (const float)18.74, (const float)13.19, (const float)3.76 };
 // iP002
 // file shark.c line 256
 static const float iP002[3l] = { (const float)0, (const float)-36.59, (const float)5687.72 };
@@ -5923,471 +5923,471 @@ static const float iP007[3l] = { (const float)-46.09, (const float)-146.83, (con
 // iP009
 // file dolphin.c line 295
 static const float iP009[3l] = { (const float)124.39, (const float)-261.46, (const float)1942.34 };
-// iP009$link1
+// iP009_link1
 // file whale.c line 220
-static const float iP009$link1[3l] = { (const float)97.46, (const float)67.63, (const float)593.82 };
+static const float iP009_link1[3l] = { (const float)97.46, (const float)67.63, (const float)593.82 };
 // iP010
 // file dolphin.c line 296
 static const float iP010[3l] = { (const float)-130.05, (const float)-261.46, (const float)1946.03 };
-// iP010$link1
+// iP010_link1
 // file shark.c line 259
-static const float iP010$link1[3l] = { (const float)-27.81, (const float)-285.31, (const float)500 };
-// iP010$link2
+static const float iP010_link1[3l] = { (const float)-27.81, (const float)-285.31, (const float)500 };
+// iP010_link2
 // file whale.c line 221
-static const float iP010$link2[3l] = { (const float)-84.33, (const float)67.63, (const float)588.18 };
+static const float iP010_link2[3l] = { (const float)-84.33, (const float)67.63, (const float)588.18 };
 // iP011
 // file dolphin.c line 297
 static const float iP011[3l] = { (const float)141.07, (const float)-320.11, (const float)1239.38 };
-// iP011$link1
+// iP011_link1
 // file shark.c line 260
-static const float iP011$link1[3l] = { (const float)27.81, (const float)-285.32, (const float)500 };
-// iP011$link2
+static const float iP011_link1[3l] = { (const float)27.81, (const float)-285.32, (const float)500 };
+// iP011_link2
 // file whale.c line 222
-static const float iP011$link2[3l] = { (const float)118.69, (const float)8.98, (const float)-66.91 };
+static const float iP011_link2[3l] = { (const float)118.69, (const float)8.98, (const float)-66.91 };
 // iP012
 // file dolphin.c line 298
 static const float iP012[3l] = { (const float)156.48, (const float)-360.12, (const float)2073.41 };
-// iP012$link1
+// iP012_link1
 // file whale.c line 226
-static const float iP012$link1[3l] = { (const float)156.48, (const float)-31.95, (const float)924.54 };
+static const float iP012_link1[3l] = { (const float)156.48, (const float)-31.95, (const float)924.54 };
 // iP013
 // file dolphin.c line 299
 static const float iP013[3l] = { (const float)162, (const float)-175.88, (const float)2064.44 };
-// iP013$link1
+// iP013_link1
 // file whale.c line 227
-static const float iP013$link1[3l] = { (const float)162, (const float)110.22, (const float)924.54 };
+static const float iP013_link1[3l] = { (const float)162, (const float)110.22, (const float)924.54 };
 // iP014
 // file dolphin.c line 300
 static const float iP014[3l] = { (const float)88.16, (const float)-87.72, (const float)2064.02 };
-// iP014$link1
+// iP014_link1
 // file whale.c line 228
-static const float iP014$link1[3l] = { (const float)88.16, (const float)221.65, (const float)924.54 };
+static const float iP014_link1[3l] = { (const float)88.16, (const float)221.65, (const float)924.54 };
 // iP015
 // file dolphin.c line 301
 static const float iP015[3l] = { (const float)-65.21, (const float)-96.13, (const float)2064.02 };
-// iP015$link1
+// iP015_link1
 // file whale.c line 229
-static const float iP015$link1[3l] = { (const float)-65.21, (const float)231.16, (const float)924.54 };
+static const float iP015_link1[3l] = { (const float)-65.21, (const float)231.16, (const float)924.54 };
 // iP016
 // file dolphin.c line 302
 static const float iP016[3l] = { (const float)-156.48, (const float)-180.96, (const float)2064.44 };
-// iP016$link1
+// iP016_link1
 // file whale.c line 230
-static const float iP016$link1[3l] = { (const float)-156.48, (const float)121.97, (const float)924.54 };
+static const float iP016_link1[3l] = { (const float)-156.48, (const float)121.97, (const float)924.54 };
 // iP017
 // file dolphin.c line 303
 static const float iP017[3l] = { (const float)-162, (const float)-368.93, (const float)2082.39 };
-// iP017$link1
+// iP017_link1
 // file whale.c line 231
-static const float iP017$link1[3l] = { (const float)-162, (const float)-23.93, (const float)924.54 };
+static const float iP017_link1[3l] = { (const float)-162, (const float)-23.93, (const float)924.54 };
 // iP018
 // file dolphin.c line 304
 static const float iP018[3l] = { (const float)-88.16, (const float)-439.22, (const float)2082.39 };
-// iP018$link1
+// iP018_link1
 // file whale.c line 232
-static const float iP018$link1[3l] = { (const float)-88.16, (const float)-139.1, (const float)924.54 };
+static const float iP018_link1[3l] = { (const float)-88.16, (const float)-139.1, (const float)924.54 };
 // iP019
 // file dolphin.c line 305
 static const float iP019[3l] = { (const float)65.21, (const float)-440.32, (const float)2083.39 };
-// iP019$link1
+// iP019_link1
 // file whale.c line 233
-static const float iP019$link1[3l] = { (const float)65.21, (const float)-148.61, (const float)924.54 };
+static const float iP019_link1[3l] = { (const float)65.21, (const float)-148.61, (const float)924.54 };
 // iP020
 // file dolphin.c line 306
 static const float iP020[3l] = { (const float)246.87, (const float)-356.02, (const float)2576.95 };
-// iP020$link1
+// iP020_link1
 // file whale.c line 234
-static const float iP020$link1[3l] = { (const float)246.87, (const float)-98.73, (const float)1783.04 };
+static const float iP020_link1[3l] = { (const float)246.87, (const float)-98.73, (const float)1783.04 };
 // iP021
 // file dolphin.c line 307
 static const float iP021[3l] = { (const float)253.17, (const float)-111.15, (const float)2567.15 };
-// iP021$link1
+// iP021_link1
 // file whale.c line 235
-static const float iP021$link1[3l] = { (const float)253.17, (const float)127.76, (const float)1783.04 };
+static const float iP021_link1[3l] = { (const float)253.17, (const float)127.76, (const float)1783.04 };
 // iP022
 // file dolphin.c line 308
 static const float iP022[3l] = { (const float)132.34, (const float)51.41, (const float)2559.84 };
-// iP022$link1
+// iP022_link1
 // file whale.c line 236
-static const float iP022$link1[3l] = { (const float)132.34, (const float)270.77, (const float)1783.04 };
+static const float iP022_link1[3l] = { (const float)132.34, (const float)270.77, (const float)1783.04 };
 // iP023
 // file dolphin.c line 309
 static const float iP023[3l] = { (const float)-97.88, (const float)40.44, (const float)2567.15 };
-// iP023$link1
+// iP023_link1
 // file shark.c line 261
-static const float iP023$link1[3l] = { (const float)150, (const float)0, (const float)3000 };
-// iP023$link2
+static const float iP023_link1[3l] = { (const float)150, (const float)0, (const float)3000 };
+// iP023_link2
 // file whale.c line 237
-static const float iP023$link2[3l] = { (const float)-97.88, (const float)285.04, (const float)1783.04 };
+static const float iP023_link2[3l] = { (const float)-97.88, (const float)285.04, (const float)1783.04 };
 // iP024
 // file dolphin.c line 310
 static const float iP024[3l] = { (const float)-222.97, (const float)-117.49, (const float)2567.15 };
-// iP024$link1
+// iP024_link1
 // file shark.c line 262
-static const float iP024$link1[3l] = { (const float)121.35, (const float)293.89, (const float)3000 };
-// iP024$link2
+static const float iP024_link1[3l] = { (const float)121.35, (const float)293.89, (const float)3000 };
+// iP024_link2
 // file whale.c line 238
-static const float iP024$link2[3l] = { (const float)-222.97, (const float)139.8, (const float)1783.04 };
+static const float iP024_link2[3l] = { (const float)-222.97, (const float)139.8, (const float)1783.04 };
 // iP025
 // file dolphin.c line 311
 static const float iP025[3l] = { (const float)-252.22, (const float)-371.53, (const float)2569.92 };
-// iP025$link1
+// iP025_link1
 // file shark.c line 263
-static const float iP025$link1[3l] = { (const float)46.35, (const float)502.93, (const float)2883.09 };
-// iP025$link2
+static const float iP025_link1[3l] = { (const float)46.35, (const float)502.93, (const float)2883.09 };
+// iP025_link2
 // file whale.c line 239
-static const float iP025$link2[3l] = { (const float)-225.29, (const float)-86.68, (const float)1783.04 };
+static const float iP025_link2[3l] = { (const float)-225.29, (const float)-86.68, (const float)1783.04 };
 // iP026
 // file dolphin.c line 312
 static const float iP026[3l] = { (const float)-108.44, (const float)-518.19, (const float)2586.75 };
-// iP026$link1
+// iP026_link1
 // file shark.c line 264
-static const float iP026$link1[3l] = { (const float)-46.35, (const float)497.45, (const float)2877.24 };
-// iP026$link2
+static const float iP026_link1[3l] = { (const float)-46.35, (const float)497.45, (const float)2877.24 };
+// iP026_link2
 // file whale.c line 240
-static const float iP026$link2[3l] = { (const float)-108.44, (const float)-224.15, (const float)1783.04 };
+static const float iP026_link2[3l] = { (const float)-108.44, (const float)-224.15, (const float)1783.04 };
 // iP027
 // file dolphin.c line 313
 static const float iP027[3l] = { (const float)97.88, (const float)-524.79, (const float)2586.75 };
-// iP027$link1
+// iP027_link1
 // file shark.c line 265
-static const float iP027$link1[3l] = { (const float)-121.35, (const float)293.9, (const float)3000 };
-// iP027$link2
+static const float iP027_link1[3l] = { (const float)-121.35, (const float)293.9, (const float)3000 };
+// iP027_link2
 // file whale.c line 241
-static const float iP027$link2[3l] = { (const float)97.88, (const float)-221.56, (const float)1783.04 };
+static const float iP027_link2[3l] = { (const float)97.88, (const float)-221.56, (const float)1783.04 };
 // iP028
 // file dolphin.c line 314
 static const float iP028[3l] = { (const float)370.03, (const float)-421.19, (const float)3419.7 };
-// iP028$link1
+// iP028_link1
 // file shark.c line 266
-static const float iP028$link1[3l] = { (const float)-150, (const float)0, (const float)3000 };
-// iP028$link2
+static const float iP028_link1[3l] = { (const float)-150, (const float)0, (const float)3000 };
+// iP028_link2
 // file whale.c line 242
-static const float iP028$link2[3l] = { (const float)410.55, (const float)-200.66, (const float)3213.87 };
+static const float iP028_link2[3l] = { (const float)410.55, (const float)-200.66, (const float)3213.87 };
 // iP029
 // file dolphin.c line 315
 static const float iP029[3l] = { (const float)351.15, (const float)-16.98, (const float)3423.17 };
-// iP029$link1
+// iP029_link1
 // file shark.c line 267
-static const float iP029$link1[3l] = { (const float)-121.35, (const float)-304.84, (const float)2853.86 };
-// iP029$link2
+static const float iP029_link1[3l] = { (const float)-121.35, (const float)-304.84, (const float)2853.86 };
+// iP029_link2
 // file whale.c line 243
-static const float iP029$link2[3l] = { (const float)432.19, (const float)148.42, (const float)3213.87 };
+static const float iP029_link2[3l] = { (const float)432.19, (const float)148.42, (const float)3213.87 };
 // iP030
 // file dolphin.c line 316
 static const float iP030[3l] = { (const float)200.66, (const float)248.46, (const float)3430.37 };
-// iP030$link1
+// iP030_link1
 // file shark.c line 268
-static const float iP030$link1[3l] = { (const float)-46.36, (const float)-475.52, (const float)3000 };
-// iP030$link2
+static const float iP030_link1[3l] = { (const float)-46.36, (const float)-475.52, (const float)3000 };
+// iP030_link2
 // file whale.c line 244
-static const float iP030$link2[3l] = { (const float)200.66, (const float)410.55, (const float)3213.87 };
+static const float iP030_link2[3l] = { (const float)200.66, (const float)410.55, (const float)3213.87 };
 // iP031
 // file dolphin.c line 317
 static const float iP031[3l] = { (const float)-148.42, (const float)235.02, (const float)3417.91 };
-// iP031$link1
+// iP031_link1
 // file shark.c line 269
-static const float iP031$link1[3l] = { (const float)46.35, (const float)-475.53, (const float)3000 };
-// iP031$link2
+static const float iP031_link1[3l] = { (const float)46.35, (const float)-475.53, (const float)3000 };
+// iP031_link2
 // file whale.c line 245
-static const float iP031$link2[3l] = { (const float)-148.42, (const float)432.19, (const float)3213.87 };
+static const float iP031_link2[3l] = { (const float)-148.42, (const float)432.19, (const float)3213.87 };
 // iP032
 // file dolphin.c line 318
 static const float iP032[3l] = { (const float)-360.21, (const float)-30.27, (const float)3416.84 };
-// iP032$link1
+// iP032_link1
 // file shark.c line 270
-static const float iP032$link1[3l] = { (const float)121.35, (const float)-304.87, (const float)2853.86 };
-// iP032$link2
+static const float iP032_link1[3l] = { (const float)121.35, (const float)-304.87, (const float)2853.86 };
+// iP032_link2
 // file whale.c line 246
-static const float iP032$link2[3l] = { (const float)-407.48, (const float)171.88, (const float)3213.87 };
+static const float iP032_link2[3l] = { (const float)-407.48, (const float)171.88, (const float)3213.87 };
 // iP033
 // file dolphin.c line 319
 static const float iP033[3l] = { (const float)-357.9, (const float)-414.89, (const float)3407.04 };
-// iP033$link1
+// iP033_link1
 // file shark.c line 271
-static const float iP033$link1[3l] = { (const float)90, (const float)0, (const float)4000 };
-// iP033$link2
+static const float iP033_link1[3l] = { (const float)90, (const float)0, (const float)4000 };
+// iP033_link2
 // file whale.c line 247
-static const float iP033$link2[3l] = { (const float)-432.19, (const float)-148.42, (const float)3213.87 };
+static const float iP033_link2[3l] = { (const float)-432.19, (const float)-148.42, (const float)3213.87 };
 // iP034
 // file dolphin.c line 320
 static const float iP034[3l] = { (const float)-148.88, (const float)-631.35, (const float)3409.9 };
-// iP034$link1
+// iP034_link1
 // file shark.c line 272
-static const float iP034$link1[3l] = { (const float)72.81, (const float)176.33, (const float)4000 };
-// iP034$link2
+static const float iP034_link1[3l] = { (const float)72.81, (const float)176.33, (const float)4000 };
+// iP034_link2
 // file whale.c line 248
-static const float iP034$link2[3l] = { (const float)-148.88, (const float)-309.74, (const float)3213.87 };
+static const float iP034_link2[3l] = { (const float)-148.88, (const float)-309.74, (const float)3213.87 };
 // iP035
 // file dolphin.c line 321
 static const float iP035[3l] = { (const float)156.38, (const float)-632.59, (const float)3419.7 };
-// iP035$link1
+// iP035_link1
 // file shark.c line 273
-static const float iP035$link1[3l] = { (const float)27.81, (const float)285.32, (const float)4000 };
-// iP035$link2
+static const float iP035_link1[3l] = { (const float)27.81, (const float)285.32, (const float)4000 };
+// iP035_link2
 // file whale.c line 249
-static const float iP035$link2[3l] = { (const float)156.38, (const float)-320.17, (const float)3213.87 };
+static const float iP035_link2[3l] = { (const float)156.38, (const float)-320.17, (const float)3213.87 };
 // iP036
 // file dolphin.c line 322
 static const float iP036[3l] = { (const float)462.61, (const float)-469.21, (const float)4431.51 };
-// iP036$link1
+// iP036_link1
 // file shark.c line 274
-static const float iP036$link1[3l] = { (const float)-27.81, (const float)285.32, (const float)4000 };
-// iP036$link2
+static const float iP036_link1[3l] = { (const float)-27.81, (const float)285.32, (const float)4000 };
+// iP036_link2
 // file whale.c line 250
-static const float iP036$link2[3l] = { (const float)523.39, (const float)-303.81, (const float)4424.57 };
+static const float iP036_link2[3l] = { (const float)523.39, (const float)-303.81, (const float)4424.57 };
 // iP037
 // file dolphin.c line 323
 static const float iP037[3l] = { (const float)466.6, (const float)102.25, (const float)4434.98 };
-// iP037$link1
+// iP037_link1
 // file shark.c line 275
-static const float iP037$link1[3l] = { (const float)-72.81, (const float)176.34, (const float)4000 };
-// iP037$link2
+static const float iP037_link1[3l] = { (const float)-72.81, (const float)176.34, (const float)4000 };
+// iP037_link2
 // file whale.c line 251
-static const float iP037$link2[3l] = { (const float)574.66, (const float)276.84, (const float)4424.57 };
+static const float iP037_link2[3l] = { (const float)574.66, (const float)276.84, (const float)4424.57 };
 // iP038
 // file dolphin.c line 324
 static const float iP038[3l] = { (const float)243.05, (const float)474.34, (const float)4562.02 };
-// iP038$link1
+// iP038_link1
 // file shark.c line 276
-static const float iP038$link1[3l] = { (const float)-90, (const float)0, (const float)4000 };
-// iP038$link2
+static const float iP038_link1[3l] = { (const float)-90, (const float)0, (const float)4000 };
+// iP038_link2
 // file whale.c line 252
-static const float iP038$link2[3l] = { (const float)243.05, (const float)492.5, (const float)4424.57 };
+static const float iP038_link2[3l] = { (const float)243.05, (const float)492.5, (const float)4424.57 };
 // iP039
 // file dolphin.c line 325
 static const float iP039[3l] = { (const float)-191.23, (const float)474.4, (const float)4554.42 };
-// iP039$link1
+// iP039_link1
 // file shark.c line 277
-static const float iP039$link1[3l] = { (const float)-72.81, (const float)-176.33, (const float)4000 };
-// iP039$link2
+static const float iP039_link1[3l] = { (const float)-72.81, (const float)-176.33, (const float)4000 };
+// iP039_link2
 // file whale.c line 253
-static const float iP039$link2[3l] = { (const float)-191.23, (const float)520.13, (const float)4424.57 };
+static const float iP039_link2[3l] = { (const float)-191.23, (const float)520.13, (const float)4424.57 };
 // iP040
 // file dolphin.c line 326
 static const float iP040[3l] = { (const float)-476.12, (const float)111.05, (const float)4451.11 };
-// iP040$link1
+// iP040_link1
 // file shark.c line 278
-static const float iP040$link1[3l] = { (const float)-27.81, (const float)-285.31, (const float)4000 };
-// iP040$link2
+static const float iP040_link1[3l] = { (const float)-27.81, (const float)-285.31, (const float)4000 };
+// iP040_link2
 // file whale.c line 254
-static const float iP040$link2[3l] = { (const float)-523.39, (const float)304.01, (const float)4424.57 };
+static const float iP040_link2[3l] = { (const float)-523.39, (const float)304.01, (const float)4424.57 };
 // iP041
 // file dolphin.c line 327
 static const float iP041[3l] = { (const float)-473.36, (const float)-470.74, (const float)4444.78 };
-// iP041$link1
+// iP041_link1
 // file shark.c line 279
-static const float iP041$link1[3l] = { (const float)27.81, (const float)-285.32, (const float)4000 };
-// iP041$link2
+static const float iP041_link1[3l] = { (const float)27.81, (const float)-285.32, (const float)4000 };
+// iP041_link2
 // file whale.c line 255
-static const float iP041$link2[3l] = { (const float)-574.66, (const float)-231.83, (const float)4424.57 };
+static const float iP041_link2[3l] = { (const float)-574.66, (const float)-231.83, (const float)4424.57 };
 // iP042
 // file dolphin.c line 328
 static const float iP042[3l] = { (const float)-266.95, (const float)-748.41, (const float)4447.78 };
-// iP042$link1
+// iP042_link1
 // file shark.c line 280
-static const float iP042$link1[3l] = { (const float)72.81, (const float)-176.34, (const float)4000 };
-// iP042$link2
+static const float iP042_link1[3l] = { (const float)72.81, (const float)-176.34, (const float)4000 };
+// iP042_link2
 // file whale.c line 256
-static const float iP042$link2[3l] = { (const float)-266.95, (const float)-578.17, (const float)4424.57 };
+static const float iP042_link2[3l] = { (const float)-266.95, (const float)-578.17, (const float)4424.57 };
 // iP043
 // file dolphin.c line 329
 static const float iP043[3l] = { (const float)211.14, (const float)-749.91, (const float)4429.73 };
-// iP043$link1
+// iP043_link1
 // file shark.c line 281
-static const float iP043$link1[3l] = { (const float)30, (const float)0, (const float)5000 };
-// iP043$link2
+static const float iP043_link1[3l] = { (const float)30, (const float)0, (const float)5000 };
+// iP043_link2
 // file whale.c line 257
-static const float iP043$link2[3l] = { (const float)211.14, (const float)-579.67, (const float)4424.57 };
+static const float iP043_link2[3l] = { (const float)211.14, (const float)-579.67, (const float)4424.57 };
 // iP044
 // file dolphin.c line 330
 static const float iP044[3l] = { (const float)680.57, (const float)-370.27, (const float)5943.46 };
-// iP044$link1
+// iP044_link1
 // file shark.c line 282
-static const float iP044$link1[3l] = { (const float)24.27, (const float)58.78, (const float)5000 };
-// iP044$link2
+static const float iP044_link1[3l] = { (const float)24.27, (const float)58.78, (const float)5000 };
+// iP044_link2
 // file whale.c line 258
-static const float iP044$link2[3l] = { (const float)680.57, (const float)-370.27, (const float)5943.46 };
+static const float iP044_link2[3l] = { (const float)680.57, (const float)-370.27, (const float)5943.46 };
 // iP045
 // file dolphin.c line 331
 static const float iP045[3l] = { (const float)834.01, (const float)363.09, (const float)6360.63 };
-// iP045$link1
+// iP045_link1
 // file shark.c line 283
-static const float iP045$link1[3l] = { (const float)9.27, (const float)95.11, (const float)5000 };
-// iP045$link2
+static const float iP045_link1[3l] = { (const float)9.27, (const float)95.11, (const float)5000 };
+// iP045_link2
 // file whale.c line 259
-static const float iP045$link2[3l] = { (const float)834.01, (const float)363.09, (const float)5943.46 };
+static const float iP045_link2[3l] = { (const float)834.01, (const float)363.09, (const float)5943.46 };
 // iP046
 // file dolphin.c line 332
 static const float iP046[3l] = { (const float)371.29, (const float)804.51, (const float)6486.26 };
-// iP046$link1
+// iP046_link1
 // file shark.c line 284
-static const float iP046$link1[3l] = { (const float)-9.27, (const float)95.11, (const float)5000 };
-// iP046$link2
+static const float iP046_link1[3l] = { (const float)-9.27, (const float)95.11, (const float)5000 };
+// iP046_link2
 // file whale.c line 260
-static const float iP046$link2[3l] = { (const float)371.29, (const float)614.13, (const float)5943.46 };
+static const float iP046_link2[3l] = { (const float)371.29, (const float)614.13, (const float)5943.46 };
 // iP047
 // file dolphin.c line 333
 static const float iP047[3l] = { (const float)-291.43, (const float)797.22, (const float)6494.28 };
-// iP047$link1
+// iP047_link1
 // file shark.c line 285
-static const float iP047$link1[3l] = { (const float)-24.27, (const float)58.78, (const float)5000 };
-// iP047$link2
+static const float iP047_link1[3l] = { (const float)-24.27, (const float)58.78, (const float)5000 };
+// iP047_link2
 // file whale.c line 261
-static const float iP047$link2[3l] = { (const float)-291.43, (const float)621.86, (const float)5943.46 };
+static const float iP047_link2[3l] = { (const float)-291.43, (const float)621.86, (const float)5943.46 };
 // iP048
 // file dolphin.c line 334
 static const float iP048[3l] = { (const float)-784.13, (const float)370.75, (const float)6378.01 };
-// iP048$link1
+// iP048_link1
 // file shark.c line 286
-static const float iP048$link1[3l] = { (const float)-30, (const float)0, (const float)5000 };
-// iP048$link2
+static const float iP048_link1[3l] = { (const float)-30, (const float)0, (const float)5000 };
+// iP048_link2
 // file whale.c line 262
-static const float iP048$link2[3l] = { (const float)-784.13, (const float)362.6, (const float)5943.46 };
+static const float iP048_link2[3l] = { (const float)-784.13, (const float)362.6, (const float)5943.46 };
 // iP049
 // file dolphin.c line 335
 static const float iP049[3l] = { (const float)-743.29, (const float)-325.82, (const float)5943.46 };
-// iP049$link1
+// iP049_link1
 // file shark.c line 287
-static const float iP049$link1[3l] = { (const float)-24.27, (const float)-58.78, (const float)5000 };
-// iP049$link2
+static const float iP049_link1[3l] = { (const float)-24.27, (const float)-58.78, (const float)5000 };
+// iP049_link2
 // file whale.c line 263
-static const float iP049$link2[3l] = { (const float)-743.29, (const float)-325.82, (const float)5943.46 };
+static const float iP049_link2[3l] = { (const float)-743.29, (const float)-325.82, (const float)5943.46 };
 // iP050
 // file dolphin.c line 336
 static const float iP050[3l] = { (const float)-383.24, (const float)-804.77, (const float)5943.46 };
-// iP050$link1
+// iP050_link1
 // file shark.c line 288
-static const float iP050$link1[3l] = { (const float)-9.27, (const float)-95.1, (const float)5000 };
-// iP050$link2
+static const float iP050_link1[3l] = { (const float)-9.27, (const float)-95.1, (const float)5000 };
+// iP050_link2
 // file whale.c line 264
-static const float iP050$link2[3l] = { (const float)-383.24, (const float)-804.77, (const float)5943.46 };
+static const float iP050_link2[3l] = { (const float)-383.24, (const float)-804.77, (const float)5943.46 };
 // iP051
 // file dolphin.c line 337
 static const float iP051[3l] = { (const float)283.47, (const float)-846.09, (const float)5943.46 };
-// iP051$link1
+// iP051_link1
 // file shark.c line 289
-static const float iP051$link1[3l] = { (const float)9.27, (const float)-95.11, (const float)5000 };
-// iP051$link2
+static const float iP051_link1[3l] = { (const float)9.27, (const float)-95.11, (const float)5000 };
+// iP051_link2
 // file whale.c line 265
-static const float iP051$link2[3l] = { (const float)283.47, (const float)-846.09, (const float)5943.46 };
+static const float iP051_link2[3l] = { (const float)283.47, (const float)-846.09, (const float)5943.46 };
 // iP052
 // file shark.c line 290
 static const float iP052[3l] = { (const float)24.27, (const float)-58.78, (const float)5000 };
 // iP061
 // file shark.c line 294
 static const float iP061[3l] = { (const float)0, (const float)1181.61, (const float)6344.65 };
-// iP061$link1
+// iP061_link1
 // file whale.c line 315
-static const float iP061$link1[3l] = { (const float)353.63, (const float)138.7, (const float)10214.2 };
+static const float iP061_link1[3l] = { (const float)353.63, (const float)138.7, (const float)10214.2 };
 // iP064
 // file whale.c line 319
 static const float iP064[3l] = { (const float)-326.4, (const float)162.04, (const float)10209.54 };
 // iP068
 // file dolphin.c line 365
 static const float iP068[3l] = { (const float)-136.29, (const float)-319.84, (const float)1228.73 };
-// iP068$link1
+// iP068_link1
 // file whale.c line 324
-static const float iP068$link1[3l] = { (const float)-112.44, (const float)9.25, (const float)-64.42 };
+static const float iP068_link1[3l] = { (const float)-112.44, (const float)9.25, (const float)-64.42 };
 // iP069
 // file dolphin.c line 366
 static const float iP069[3l] = { (const float)1111.17, (const float)-314.14, (const float)1314.19 };
-// iP069$link1
+// iP069_link1
 // file shark.c line 295
-static const float iP069$link1[3l] = { (const float)0, (const float)-418.25, (const float)5765.04 };
-// iP069$link2
+static const float iP069_link1[3l] = { (const float)0, (const float)-418.25, (const float)5765.04 };
+// iP069_link2
 // file whale.c line 325
-static const float iP069$link2[3l] = { (const float)1155.63, (const float)0, (const float)-182.46 };
+static const float iP069_link2[3l] = { (const float)1155.63, (const float)0, (const float)-182.46 };
 // iP070
 // file dolphin.c line 367
 static const float iP070[3l] = { (const float)-1167.34, (const float)-321.61, (const float)1319.45 };
-// iP070$link1
+// iP070_link1
 // file shark.c line 296
-static const float iP070$link1[3l] = { (const float)0, (const float)1266.91, (const float)6629.6 };
-// iP070$link2
+static const float iP070_link1[3l] = { (const float)0, (const float)1266.91, (const float)6629.6 };
+// iP070_link2
 // file whale.c line 326
-static const float iP070$link2[3l] = { (const float)-1143.13, (const float)0, (const float)-181.54 };
+static const float iP070_link2[3l] = { (const float)-1143.13, (const float)0, (const float)-181.54 };
 // iP071
 // file dolphin.c line 368
 static const float iP071[3l] = { (const float)1404.86, (const float)-306.66, (const float)1235.45 };
-// iP071$link1
+// iP071_link1
 // file whale.c line 327
-static const float iP071$link1[3l] = { (const float)1424.23, (const float)0, (const float)-322.09 };
+static const float iP071_link1[3l] = { (const float)1424.23, (const float)0, (const float)-322.09 };
 // iP072
 // file dolphin.c line 369
 static const float iP072[3l] = { (const float)-1409.73, (const float)-314.14, (const float)1247.66 };
-// iP072$link1
+// iP072_link1
 // file whale.c line 328
-static const float iP072$link1[3l] = { (const float)-1368.01, (const float)0, (const float)-310.38 };
+static const float iP072_link1[3l] = { (const float)-1368.01, (const float)0, (const float)-310.38 };
 // iP073
 // file dolphin.c line 370
 static const float iP073[3l] = { (const float)1254.01, (const float)-296.87, (const float)1544.58 };
-// iP073$link1
+// iP073_link1
 // file whale.c line 329
-static const float iP073$link1[3l] = { (const float)1255.57, (const float)2.31, (const float)114.05 };
+static const float iP073_link1[3l] = { (const float)1255.57, (const float)2.31, (const float)114.05 };
 // iP074
 // file dolphin.c line 371
 static const float iP074[3l] = { (const float)-1262.09, (const float)-291.7, (const float)1504.26 };
-// iP074$link1
+// iP074_link1
 // file whale.c line 330
-static const float iP074$link1[3l] = { (const float)-1149.38, (const float)0, (const float)117.12 };
+static const float iP074_link1[3l] = { (const float)-1149.38, (const float)0, (const float)117.12 };
 // iP075
 // file dolphin.c line 372
 static const float iP075[3l] = { (const float)965.71, (const float)-269.26, (const float)1742.65 };
-// iP075$link1
+// iP075_link1
 // file whale.c line 331
-static const float iP075$link1[3l] = { (const float)718.36, (const float)0, (const float)433.36 };
+static const float iP075_link1[3l] = { (const float)718.36, (const float)0, (const float)433.36 };
 // iP076
 // file dolphin.c line 373
 static const float iP076[3l] = { (const float)-900.97, (const float)-276.74, (const float)1726.07 };
-// iP076$link1
+// iP076_link1
 // file whale.c line 332
-static const float iP076$link1[3l] = { (const float)-655.9, (const float)0, (const float)433.36 };
+static const float iP076_link1[3l] = { (const float)-655.9, (const float)0, (const float)433.36 };
 // iP091
 // file dolphin.c line 393
 static const float iP091[3l] = { (const float)0, (const float)835.01, (const float)5555.62 };
-// iP091$link1
+// iP091_link1
 // file whale.c line 356
-static const float iP091$link1[3l] = { (const float)0, (const float)327.1, (const float)2346.55 };
+static const float iP091_link1[3l] = { (const float)0, (const float)327.1, (const float)2346.55 };
 // iP092
 // file dolphin.c line 394
 static const float iP092[3l] = { (const float)0, (const float)1350.18, (const float)5220.86 };
-// iP092$link1
+// iP092_link1
 // file whale.c line 357
-static const float iP092$link1[3l] = { (const float)0, (const float)552.28, (const float)2311.31 };
+static const float iP092_link1[3l] = { (const float)0, (const float)552.28, (const float)2311.31 };
 // iP093
 // file dolphin.c line 395
 static const float iP093[3l] = { (const float)0, (const float)1422.94, (const float)5285.27 };
-// iP093$link1
+// iP093_link1
 // file whale.c line 358
-static const float iP093$link1[3l] = { (const float)0, (const float)721.16, (const float)2166.41 };
+static const float iP093_link1[3l] = { (const float)0, (const float)721.16, (const float)2166.41 };
 // iP094
 // file dolphin.c line 396
 static const float iP094[3l] = { (const float)0, (const float)1296.75, (const float)5650.19 };
-// iP094$link1
+// iP094_link1
 // file whale.c line 359
-static const float iP094$link1[3l] = { (const float)0, (const float)693.42, (const float)2388.8 };
+static const float iP094_link1[3l] = { (const float)0, (const float)693.42, (const float)2388.8 };
 // iP095
 // file dolphin.c line 397
 static const float iP095[3l] = { (const float)0, (const float)795.63, (const float)6493.88 };
-// iP095$link1
+// iP095_link1
 // file whale.c line 360
-static const float iP095$link1[3l] = { (const float)0, (const float)389.44, (const float)2859.97 };
+static const float iP095_link1[3l] = { (const float)0, (const float)389.44, (const float)2859.97 };
 // iP096
 // file whale.c line 366
 static const float iP096[3l] = { (const float)222.02, (const float)-183.67, (const float)10266.89 };
 // iP097
 // file dolphin.c line 403
 static const float iP097[3l] = { (const float)-194.91, (const float)-357.14, (const float)10313.32 };
-// iP097$link1
+// iP097_link1
 // file whale.c line 367
-static const float iP097$link1[3l] = { (const float)-128.9, (const float)-182.7, (const float)10266.89 };
+static const float iP097_link1[3l] = { (const float)-128.9, (const float)-182.7, (const float)10266.89 };
 // iP098
 // file dolphin.c line 404
 static const float iP098[3l] = { (const float)135.35, (const float)-357.66, (const float)10307.94 };
-// iP098$link1
+// iP098_link1
 // file whale.c line 368
-static const float iP098$link1[3l] = { (const float)41.04, (const float)88.31, (const float)10659.36 };
+static const float iP098_link1[3l] = { (const float)41.04, (const float)88.31, (const float)10659.36 };
 // iP099
 // file whale.c line 369
 static const float iP099[3l] = { (const float)-48.73, (const float)88.3, (const float)10659.36 };
@@ -6417,7 +6417,7 @@ static const float iP122[3l] = { (const float)0, (const float)602.74, (const flo
 static char **merged_defaults;
 // merged_options
 // file screenhack.c line 176
-static struct anonymous$51 *merged_options;
+static struct anonymous_51 *merged_options;
 // merged_options_size
 // file screenhack.c line 177
 static signed int merged_options_size;
@@ -6426,12 +6426,12 @@ static signed int merged_options_size;
 signed int mono_p;
 // mutex_initializer
 // file thread_util.c line 277
-const union anonymous$67 mutex_initializer = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+const union anonymous_67 mutex_initializer = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // orig_ehandler
 // file xlock-gl-utils.c line 32
-static signed int (*orig_ehandler)(struct _XDisplay *, struct anonymous$64 *) = ((signed int (*)(struct _XDisplay *, struct anonymous$64 *))NULL);
+static signed int (*orig_ehandler)(struct _XDisplay *, struct anonymous_64 *) = ((signed int (*)(struct _XDisplay *, struct anonymous_64 *))NULL);
 // progclass
 // file screenhack.c line 137
 const char *progclass;
@@ -6633,7 +6633,7 @@ static void Animate(struct anonymous *ap)
 
 // BadValue_ehandler
 // file xlock-gl-utils.c line 36
-static signed int BadValue_ehandler(struct _XDisplay *dpy, struct anonymous$64 *error)
+static signed int BadValue_ehandler(struct _XDisplay *dpy, struct anonymous_64 *error)
 {
   signed int return_value;
   if((signed int)error->error_code == 2)
@@ -8150,33 +8150,33 @@ extern void DrawDolphin(struct _fishRec *fish, signed int wire)
   unsigned int cap;
   fish->htail = (float)((signed int)(fish->htail - (float)(signed int)((float)10 * fish->v)) % 360);
   thrash = (float)70 * fish->v;
-  double return_value_sin$1;
-  return_value_sin$1=sin((double)fish->htail * 0.01745);
-  seg0 = (float)((double)((float)1 * thrash) * return_value_sin$1);
-  double return_value_sin$2;
-  return_value_sin$2=sin((double)fish->htail * 0.01745);
-  seg3 = (float)((double)((float)1 * thrash) * return_value_sin$2);
-  double return_value_sin$3;
-  return_value_sin$3=sin((double)(fish->htail + (float)4) * 0.01745);
-  seg1 = (float)((double)((float)2 * thrash) * return_value_sin$3);
-  double return_value_sin$4;
-  return_value_sin$4=sin((double)(fish->htail + (float)6) * 0.01745);
-  seg2 = (float)((double)((float)3 * thrash) * return_value_sin$4);
-  double return_value_sin$5;
-  return_value_sin$5=sin((double)(fish->htail + (float)10) * 0.01745);
-  seg4 = (float)((double)((float)4 * thrash) * return_value_sin$5);
-  double return_value_sin$6;
-  return_value_sin$6=sin((double)(fish->htail + (float)15) * 0.01745);
-  seg5 = (float)(4.5 * (double)thrash * return_value_sin$6);
-  double return_value_sin$7;
-  return_value_sin$7=sin((double)(fish->htail + (float)20) * 0.01745);
-  seg6 = (float)((double)((float)5 * thrash) * return_value_sin$7);
-  double return_value_sin$8;
-  return_value_sin$8=sin((double)(fish->htail + (float)30) * 0.01745);
-  seg7 = (float)((double)((float)6 * thrash) * return_value_sin$8);
-  double return_value_sin$9;
-  return_value_sin$9=sin((double)(fish->htail + (float)180) * 0.01745);
-  pitch = (float)((double)fish->v * return_value_sin$9);
+  double return_value_sin_1;
+  return_value_sin_1=sin((double)fish->htail * 0.01745);
+  seg0 = (float)((double)((float)1 * thrash) * return_value_sin_1);
+  double return_value_sin_2;
+  return_value_sin_2=sin((double)fish->htail * 0.01745);
+  seg3 = (float)((double)((float)1 * thrash) * return_value_sin_2);
+  double return_value_sin_3;
+  return_value_sin_3=sin((double)(fish->htail + (float)4) * 0.01745);
+  seg1 = (float)((double)((float)2 * thrash) * return_value_sin_3);
+  double return_value_sin_4;
+  return_value_sin_4=sin((double)(fish->htail + (float)6) * 0.01745);
+  seg2 = (float)((double)((float)3 * thrash) * return_value_sin_4);
+  double return_value_sin_5;
+  return_value_sin_5=sin((double)(fish->htail + (float)10) * 0.01745);
+  seg4 = (float)((double)((float)4 * thrash) * return_value_sin_5);
+  double return_value_sin_6;
+  return_value_sin_6=sin((double)(fish->htail + (float)15) * 0.01745);
+  seg5 = (float)(4.5 * (double)thrash * return_value_sin_6);
+  double return_value_sin_7;
+  return_value_sin_7=sin((double)(fish->htail + (float)20) * 0.01745);
+  seg6 = (float)((double)((float)5 * thrash) * return_value_sin_7);
+  double return_value_sin_8;
+  return_value_sin_8=sin((double)(fish->htail + (float)30) * 0.01745);
+  seg7 = (float)((double)((float)6 * thrash) * return_value_sin_8);
+  double return_value_sin_9;
+  return_value_sin_9=sin((double)(fish->htail + (float)180) * 0.01745);
+  pitch = (float)((double)fish->v * return_value_sin_9);
   chomp = (float)100;
   P012[(signed long int)1] = iP012[(signed long int)1] + seg5;
   P013[(signed long int)1] = iP013[(signed long int)1] + seg5;
@@ -8287,60 +8287,60 @@ extern void DrawShark(struct _fishRec *fish, signed int wire)
   unsigned int cap;
   fish->htail = (float)((signed int)(fish->htail - (float)(signed int)((float)5 * fish->v)) % 360);
   thrash = (float)50 * fish->v;
-  double return_value_sin$1;
-  return_value_sin$1=sin((double)fish->htail * 0.01745);
-  seg1 = (float)(0.6 * (double)thrash * return_value_sin$1);
-  double return_value_sin$2;
-  return_value_sin$2=sin((double)(fish->htail + (float)45) * 0.01745);
-  seg2 = (float)(1.8 * (double)thrash * return_value_sin$2);
-  double return_value_sin$3;
-  return_value_sin$3=sin((double)(fish->htail + (float)90) * 0.01745);
-  seg3 = (float)((double)((float)3 * thrash) * return_value_sin$3);
-  double return_value_sin$4;
-  return_value_sin$4=sin((double)(fish->htail + (float)110) * 0.01745);
-  seg4 = (float)((double)((float)4 * thrash) * return_value_sin$4);
+  double return_value_sin_1;
+  return_value_sin_1=sin((double)fish->htail * 0.01745);
+  seg1 = (float)(0.6 * (double)thrash * return_value_sin_1);
+  double return_value_sin_2;
+  return_value_sin_2=sin((double)(fish->htail + (float)45) * 0.01745);
+  seg2 = (float)(1.8 * (double)thrash * return_value_sin_2);
+  double return_value_sin_3;
+  return_value_sin_3=sin((double)(fish->htail + (float)90) * 0.01745);
+  seg3 = (float)((double)((float)3 * thrash) * return_value_sin_3);
+  double return_value_sin_4;
+  return_value_sin_4=sin((double)(fish->htail + (float)110) * 0.01745);
+  seg4 = (float)((double)((float)4 * thrash) * return_value_sin_4);
   chomp = (float)0;
   if(fish->v > 2.000000f)
     chomp = -(fish->v - (float)2) * (float)200;
 
   P004[(signed long int)1] = iP004[(signed long int)1] + chomp;
-  P007$link1[(signed long int)1] = iP007[(signed long int)1] + chomp;
-  P010$link1[(signed long int)1] = iP010$link1[(signed long int)1] + chomp;
-  P011$link1[(signed long int)1] = iP011$link1[(signed long int)1] + chomp;
-  P023$link1[(signed long int)0] = iP023$link1[(signed long int)0] + seg1;
-  P024$link1[(signed long int)0] = iP024$link1[(signed long int)0] + seg1;
-  P025$link1[(signed long int)0] = iP025$link1[(signed long int)0] + seg1;
-  P026$link1[(signed long int)0] = iP026$link1[(signed long int)0] + seg1;
-  P027$link1[(signed long int)0] = iP027$link1[(signed long int)0] + seg1;
-  P028$link1[(signed long int)0] = iP028$link1[(signed long int)0] + seg1;
-  P029$link1[(signed long int)0] = iP029$link1[(signed long int)0] + seg1;
-  P030$link1[(signed long int)0] = iP030$link1[(signed long int)0] + seg1;
-  P031$link1[(signed long int)0] = iP031$link1[(signed long int)0] + seg1;
-  P032$link1[(signed long int)0] = iP032$link1[(signed long int)0] + seg1;
-  P033$link1[(signed long int)0] = iP033$link1[(signed long int)0] + seg2;
-  P034$link1[(signed long int)0] = iP034$link1[(signed long int)0] + seg2;
-  P035$link1[(signed long int)0] = iP035$link1[(signed long int)0] + seg2;
-  P036$link1[(signed long int)0] = iP036$link1[(signed long int)0] + seg2;
-  P037$link1[(signed long int)0] = iP037$link1[(signed long int)0] + seg2;
-  P038$link1[(signed long int)0] = iP038$link1[(signed long int)0] + seg2;
-  P039$link1[(signed long int)0] = iP039$link1[(signed long int)0] + seg2;
-  P040$link1[(signed long int)0] = iP040$link1[(signed long int)0] + seg2;
-  P041$link1[(signed long int)0] = iP041$link1[(signed long int)0] + seg2;
-  P042$link1[(signed long int)0] = iP042$link1[(signed long int)0] + seg2;
-  P043$link1[(signed long int)0] = iP043$link1[(signed long int)0] + seg3;
-  P044$link1[(signed long int)0] = iP044$link1[(signed long int)0] + seg3;
-  P045$link1[(signed long int)0] = iP045$link1[(signed long int)0] + seg3;
-  P046$link1[(signed long int)0] = iP046$link1[(signed long int)0] + seg3;
-  P047$link1[(signed long int)0] = iP047$link1[(signed long int)0] + seg3;
-  P048$link1[(signed long int)0] = iP048$link1[(signed long int)0] + seg3;
-  P049$link1[(signed long int)0] = iP049$link1[(signed long int)0] + seg3;
-  P050$link1[(signed long int)0] = iP050$link1[(signed long int)0] + seg3;
-  P051$link1[(signed long int)0] = iP051$link1[(signed long int)0] + seg3;
-  P052$link1[(signed long int)0] = iP052[(signed long int)0] + seg3;
-  P002$link1[(signed long int)0] = iP002[(signed long int)0] + seg4;
+  P007_link1[(signed long int)1] = iP007[(signed long int)1] + chomp;
+  P010_link1[(signed long int)1] = iP010_link1[(signed long int)1] + chomp;
+  P011_link1[(signed long int)1] = iP011_link1[(signed long int)1] + chomp;
+  P023_link1[(signed long int)0] = iP023_link1[(signed long int)0] + seg1;
+  P024_link1[(signed long int)0] = iP024_link1[(signed long int)0] + seg1;
+  P025_link1[(signed long int)0] = iP025_link1[(signed long int)0] + seg1;
+  P026_link1[(signed long int)0] = iP026_link1[(signed long int)0] + seg1;
+  P027_link1[(signed long int)0] = iP027_link1[(signed long int)0] + seg1;
+  P028_link1[(signed long int)0] = iP028_link1[(signed long int)0] + seg1;
+  P029_link1[(signed long int)0] = iP029_link1[(signed long int)0] + seg1;
+  P030_link1[(signed long int)0] = iP030_link1[(signed long int)0] + seg1;
+  P031_link1[(signed long int)0] = iP031_link1[(signed long int)0] + seg1;
+  P032_link1[(signed long int)0] = iP032_link1[(signed long int)0] + seg1;
+  P033_link1[(signed long int)0] = iP033_link1[(signed long int)0] + seg2;
+  P034_link1[(signed long int)0] = iP034_link1[(signed long int)0] + seg2;
+  P035_link1[(signed long int)0] = iP035_link1[(signed long int)0] + seg2;
+  P036_link1[(signed long int)0] = iP036_link1[(signed long int)0] + seg2;
+  P037_link1[(signed long int)0] = iP037_link1[(signed long int)0] + seg2;
+  P038_link1[(signed long int)0] = iP038_link1[(signed long int)0] + seg2;
+  P039_link1[(signed long int)0] = iP039_link1[(signed long int)0] + seg2;
+  P040_link1[(signed long int)0] = iP040_link1[(signed long int)0] + seg2;
+  P041_link1[(signed long int)0] = iP041_link1[(signed long int)0] + seg2;
+  P042_link1[(signed long int)0] = iP042_link1[(signed long int)0] + seg2;
+  P043_link1[(signed long int)0] = iP043_link1[(signed long int)0] + seg3;
+  P044_link1[(signed long int)0] = iP044_link1[(signed long int)0] + seg3;
+  P045_link1[(signed long int)0] = iP045_link1[(signed long int)0] + seg3;
+  P046_link1[(signed long int)0] = iP046_link1[(signed long int)0] + seg3;
+  P047_link1[(signed long int)0] = iP047_link1[(signed long int)0] + seg3;
+  P048_link1[(signed long int)0] = iP048_link1[(signed long int)0] + seg3;
+  P049_link1[(signed long int)0] = iP049_link1[(signed long int)0] + seg3;
+  P050_link1[(signed long int)0] = iP050_link1[(signed long int)0] + seg3;
+  P051_link1[(signed long int)0] = iP051_link1[(signed long int)0] + seg3;
+  P052_link1[(signed long int)0] = iP052[(signed long int)0] + seg3;
+  P002_link1[(signed long int)0] = iP002[(signed long int)0] + seg4;
   P061[(signed long int)0] = iP061[(signed long int)0] + seg4;
-  P069$link1[(signed long int)0] = iP069$link1[(signed long int)0] + seg4;
-  P070$link1[(signed long int)0] = iP070$link1[(signed long int)0] + seg4;
+  P069_link1[(signed long int)0] = iP069_link1[(signed long int)0] + seg4;
+  P070_link1[(signed long int)0] = iP070_link1[(signed long int)0] + seg4;
   fish->vtail = fish->vtail + (float)((double)(fish->dtheta - fish->vtail) * 0.1);
   if(fish->vtail > 5.000000e-1f)
     fish->vtail = (float)0.5;
@@ -8350,40 +8350,40 @@ extern void DrawShark(struct _fishRec *fish, signed int wire)
       fish->vtail = (float)-0.5;
 
   segup = thrash * fish->vtail;
-  P023$link1[(signed long int)1] = iP023$link1[(signed long int)1] + segup;
-  P024$link1[(signed long int)1] = iP024$link1[(signed long int)1] + segup;
-  P025$link1[(signed long int)1] = iP025$link1[(signed long int)1] + segup;
-  P026$link1[(signed long int)1] = iP026$link1[(signed long int)1] + segup;
-  P027$link1[(signed long int)1] = iP027$link1[(signed long int)1] + segup;
-  P028$link1[(signed long int)1] = iP028$link1[(signed long int)1] + segup;
-  P029$link1[(signed long int)1] = iP029$link1[(signed long int)1] + segup;
-  P030$link1[(signed long int)1] = iP030$link1[(signed long int)1] + segup;
-  P031$link1[(signed long int)1] = iP031$link1[(signed long int)1] + segup;
-  P032$link1[(signed long int)1] = iP032$link1[(signed long int)1] + segup;
-  P033$link1[(signed long int)1] = iP033$link1[(signed long int)1] + segup * (float)5;
-  P034$link1[(signed long int)1] = iP034$link1[(signed long int)1] + segup * (float)5;
-  P035$link1[(signed long int)1] = iP035$link1[(signed long int)1] + segup * (float)5;
-  P036$link1[(signed long int)1] = iP036$link1[(signed long int)1] + segup * (float)5;
-  P037$link1[(signed long int)1] = iP037$link1[(signed long int)1] + segup * (float)5;
-  P038$link1[(signed long int)1] = iP038$link1[(signed long int)1] + segup * (float)5;
-  P039$link1[(signed long int)1] = iP039$link1[(signed long int)1] + segup * (float)5;
-  P040$link1[(signed long int)1] = iP040$link1[(signed long int)1] + segup * (float)5;
-  P041$link1[(signed long int)1] = iP041$link1[(signed long int)1] + segup * (float)5;
-  P042$link1[(signed long int)1] = iP042$link1[(signed long int)1] + segup * (float)5;
-  P043$link1[(signed long int)1] = iP043$link1[(signed long int)1] + segup * (float)12;
-  P044$link1[(signed long int)1] = iP044$link1[(signed long int)1] + segup * (float)12;
-  P045$link1[(signed long int)1] = iP045$link1[(signed long int)1] + segup * (float)12;
-  P046$link1[(signed long int)1] = iP046$link1[(signed long int)1] + segup * (float)12;
-  P047$link1[(signed long int)1] = iP047$link1[(signed long int)1] + segup * (float)12;
-  P048$link1[(signed long int)1] = iP048$link1[(signed long int)1] + segup * (float)12;
-  P049$link1[(signed long int)1] = iP049$link1[(signed long int)1] + segup * (float)12;
-  P050$link1[(signed long int)1] = iP050$link1[(signed long int)1] + segup * (float)12;
-  P051$link1[(signed long int)1] = iP051$link1[(signed long int)1] + segup * (float)12;
-  P052$link1[(signed long int)1] = iP052[(signed long int)1] + segup * (float)12;
-  P002$link1[(signed long int)1] = iP002[(signed long int)1] + segup * (float)17;
+  P023_link1[(signed long int)1] = iP023_link1[(signed long int)1] + segup;
+  P024_link1[(signed long int)1] = iP024_link1[(signed long int)1] + segup;
+  P025_link1[(signed long int)1] = iP025_link1[(signed long int)1] + segup;
+  P026_link1[(signed long int)1] = iP026_link1[(signed long int)1] + segup;
+  P027_link1[(signed long int)1] = iP027_link1[(signed long int)1] + segup;
+  P028_link1[(signed long int)1] = iP028_link1[(signed long int)1] + segup;
+  P029_link1[(signed long int)1] = iP029_link1[(signed long int)1] + segup;
+  P030_link1[(signed long int)1] = iP030_link1[(signed long int)1] + segup;
+  P031_link1[(signed long int)1] = iP031_link1[(signed long int)1] + segup;
+  P032_link1[(signed long int)1] = iP032_link1[(signed long int)1] + segup;
+  P033_link1[(signed long int)1] = iP033_link1[(signed long int)1] + segup * (float)5;
+  P034_link1[(signed long int)1] = iP034_link1[(signed long int)1] + segup * (float)5;
+  P035_link1[(signed long int)1] = iP035_link1[(signed long int)1] + segup * (float)5;
+  P036_link1[(signed long int)1] = iP036_link1[(signed long int)1] + segup * (float)5;
+  P037_link1[(signed long int)1] = iP037_link1[(signed long int)1] + segup * (float)5;
+  P038_link1[(signed long int)1] = iP038_link1[(signed long int)1] + segup * (float)5;
+  P039_link1[(signed long int)1] = iP039_link1[(signed long int)1] + segup * (float)5;
+  P040_link1[(signed long int)1] = iP040_link1[(signed long int)1] + segup * (float)5;
+  P041_link1[(signed long int)1] = iP041_link1[(signed long int)1] + segup * (float)5;
+  P042_link1[(signed long int)1] = iP042_link1[(signed long int)1] + segup * (float)5;
+  P043_link1[(signed long int)1] = iP043_link1[(signed long int)1] + segup * (float)12;
+  P044_link1[(signed long int)1] = iP044_link1[(signed long int)1] + segup * (float)12;
+  P045_link1[(signed long int)1] = iP045_link1[(signed long int)1] + segup * (float)12;
+  P046_link1[(signed long int)1] = iP046_link1[(signed long int)1] + segup * (float)12;
+  P047_link1[(signed long int)1] = iP047_link1[(signed long int)1] + segup * (float)12;
+  P048_link1[(signed long int)1] = iP048_link1[(signed long int)1] + segup * (float)12;
+  P049_link1[(signed long int)1] = iP049_link1[(signed long int)1] + segup * (float)12;
+  P050_link1[(signed long int)1] = iP050_link1[(signed long int)1] + segup * (float)12;
+  P051_link1[(signed long int)1] = iP051_link1[(signed long int)1] + segup * (float)12;
+  P052_link1[(signed long int)1] = iP052[(signed long int)1] + segup * (float)12;
+  P002_link1[(signed long int)1] = iP002[(signed long int)1] + segup * (float)17;
   P061[(signed long int)1] = iP061[(signed long int)1] + segup * (float)17;
-  P069$link1[(signed long int)1] = iP069$link1[(signed long int)1] + segup * (float)17;
-  P070$link1[(signed long int)1] = iP070$link1[(signed long int)1] + segup * (float)17;
+  P069_link1[(signed long int)1] = iP069_link1[(signed long int)1] + segup * (float)17;
+  P070_link1[(signed long int)1] = iP070_link1[(signed long int)1] + segup * (float)17;
   glPushMatrix();
   glTranslatef((float)0, (float)0, (float)-3000);
   glGetFloatv((unsigned int)0x0BA6, &mat[(signed long int)0][(signed long int)0]);
@@ -8462,100 +8462,100 @@ extern void DrawWhale(struct _fishRec *fish, signed int wire)
   unsigned int cap;
   fish->htail = (float)((signed int)(fish->htail - (float)(signed int)((float)5 * fish->v)) % 360);
   thrash = (float)70 * fish->v;
-  double return_value_sin$1;
-  return_value_sin$1=sin((double)fish->htail * 0.01745);
-  seg0 = (float)(1.5 * (double)thrash * return_value_sin$1);
-  double return_value_sin$2;
-  return_value_sin$2=sin((double)(fish->htail + (float)10) * 0.01745);
-  seg1 = (float)(2.5 * (double)thrash * return_value_sin$2);
-  double return_value_sin$3;
-  return_value_sin$3=sin((double)(fish->htail + (float)15) * 0.01745);
-  seg2 = (float)(3.7 * (double)thrash * return_value_sin$3);
-  double return_value_sin$4;
-  return_value_sin$4=sin((double)(fish->htail + (float)23) * 0.01745);
-  seg3 = (float)(4.8 * (double)thrash * return_value_sin$4);
-  double return_value_sin$5;
-  return_value_sin$5=sin((double)(fish->htail + (float)28) * 0.01745);
-  seg4 = (float)((double)((float)6 * thrash) * return_value_sin$5);
-  double return_value_sin$6;
-  return_value_sin$6=sin((double)(fish->htail + (float)35) * 0.01745);
-  seg5 = (float)(6.5 * (double)thrash * return_value_sin$6);
-  double return_value_sin$7;
-  return_value_sin$7=sin((double)(fish->htail + (float)40) * 0.01745);
-  seg6 = (float)(6.5 * (double)thrash * return_value_sin$7);
-  double return_value_sin$8;
-  return_value_sin$8=sin((double)(fish->htail + (float)55) * 0.01745);
-  seg7 = (float)(6.5 * (double)thrash * return_value_sin$8);
-  double return_value_sin$9;
-  return_value_sin$9=sin((double)(fish->htail - (float)160) * 0.01745);
-  pitch = (float)((double)fish->v * return_value_sin$9);
+  double return_value_sin_1;
+  return_value_sin_1=sin((double)fish->htail * 0.01745);
+  seg0 = (float)(1.5 * (double)thrash * return_value_sin_1);
+  double return_value_sin_2;
+  return_value_sin_2=sin((double)(fish->htail + (float)10) * 0.01745);
+  seg1 = (float)(2.5 * (double)thrash * return_value_sin_2);
+  double return_value_sin_3;
+  return_value_sin_3=sin((double)(fish->htail + (float)15) * 0.01745);
+  seg2 = (float)(3.7 * (double)thrash * return_value_sin_3);
+  double return_value_sin_4;
+  return_value_sin_4=sin((double)(fish->htail + (float)23) * 0.01745);
+  seg3 = (float)(4.8 * (double)thrash * return_value_sin_4);
+  double return_value_sin_5;
+  return_value_sin_5=sin((double)(fish->htail + (float)28) * 0.01745);
+  seg4 = (float)((double)((float)6 * thrash) * return_value_sin_5);
+  double return_value_sin_6;
+  return_value_sin_6=sin((double)(fish->htail + (float)35) * 0.01745);
+  seg5 = (float)(6.5 * (double)thrash * return_value_sin_6);
+  double return_value_sin_7;
+  return_value_sin_7=sin((double)(fish->htail + (float)40) * 0.01745);
+  seg6 = (float)(6.5 * (double)thrash * return_value_sin_7);
+  double return_value_sin_8;
+  return_value_sin_8=sin((double)(fish->htail + (float)55) * 0.01745);
+  seg7 = (float)(6.5 * (double)thrash * return_value_sin_8);
+  double return_value_sin_9;
+  return_value_sin_9=sin((double)(fish->htail - (float)160) * 0.01745);
+  pitch = (float)((double)fish->v * return_value_sin_9);
   chomp = (float)0;
   if(fish->v > 2.000000f)
     chomp = -(fish->v - (float)2) * (float)200;
 
-  P012$link2[(signed long int)1] = iP012$link1[(signed long int)1] + seg5;
-  P013$link2[(signed long int)1] = iP013$link1[(signed long int)1] + seg5;
-  P014$link2[(signed long int)1] = iP014$link1[(signed long int)1] + seg5;
-  P015$link2[(signed long int)1] = iP015$link1[(signed long int)1] + seg5;
-  P016$link2[(signed long int)1] = iP016$link1[(signed long int)1] + seg5;
-  P017$link2[(signed long int)1] = iP017$link1[(signed long int)1] + seg5;
-  P018$link2[(signed long int)1] = iP018$link1[(signed long int)1] + seg5;
-  P019$link2[(signed long int)1] = iP019$link1[(signed long int)1] + seg5;
-  P020$link2[(signed long int)1] = iP020$link1[(signed long int)1] + seg4;
-  P021$link2[(signed long int)1] = iP021$link1[(signed long int)1] + seg4;
-  P022$link2[(signed long int)1] = iP022$link1[(signed long int)1] + seg4;
-  P023$link2[(signed long int)1] = iP023$link2[(signed long int)1] + seg4;
-  P024$link2[(signed long int)1] = iP024$link2[(signed long int)1] + seg4;
-  P025$link2[(signed long int)1] = iP025$link2[(signed long int)1] + seg4;
-  P026$link2[(signed long int)1] = iP026$link2[(signed long int)1] + seg4;
-  P027$link2[(signed long int)1] = iP027$link2[(signed long int)1] + seg4;
-  P028$link2[(signed long int)1] = iP028$link2[(signed long int)1] + seg2;
-  P029$link2[(signed long int)1] = iP029$link2[(signed long int)1] + seg2;
-  P030$link2[(signed long int)1] = iP030$link2[(signed long int)1] + seg2;
-  P031$link2[(signed long int)1] = iP031$link2[(signed long int)1] + seg2;
-  P032$link2[(signed long int)1] = iP032$link2[(signed long int)1] + seg2;
-  P033$link2[(signed long int)1] = iP033$link2[(signed long int)1] + seg2;
-  P034$link2[(signed long int)1] = iP034$link2[(signed long int)1] + seg2;
-  P035$link2[(signed long int)1] = iP035$link2[(signed long int)1] + seg2;
-  P036$link2[(signed long int)1] = iP036$link2[(signed long int)1] + seg1;
-  P037$link2[(signed long int)1] = iP037$link2[(signed long int)1] + seg1;
-  P038$link2[(signed long int)1] = iP038$link2[(signed long int)1] + seg1;
-  P039$link2[(signed long int)1] = iP039$link2[(signed long int)1] + seg1;
-  P040$link2[(signed long int)1] = iP040$link2[(signed long int)1] + seg1;
-  P041$link2[(signed long int)1] = iP041$link2[(signed long int)1] + seg1;
-  P042$link2[(signed long int)1] = iP042$link2[(signed long int)1] + seg1;
-  P043$link2[(signed long int)1] = iP043$link2[(signed long int)1] + seg1;
-  P044$link2[(signed long int)1] = iP044$link2[(signed long int)1] + seg0;
-  P045$link2[(signed long int)1] = iP045$link2[(signed long int)1] + seg0;
-  P046$link2[(signed long int)1] = iP046$link2[(signed long int)1] + seg0;
-  P047$link2[(signed long int)1] = iP047$link2[(signed long int)1] + seg0;
-  P048$link2[(signed long int)1] = iP048$link2[(signed long int)1] + seg0;
-  P049$link2[(signed long int)1] = iP049$link2[(signed long int)1] + seg0;
-  P050$link2[(signed long int)1] = iP050$link2[(signed long int)1] + seg0;
-  P051$link2[(signed long int)1] = iP051$link2[(signed long int)1] + seg0;
-  P009$link2[(signed long int)1] = iP009$link1[(signed long int)1] + seg6;
-  P010$link2[(signed long int)1] = iP010$link2[(signed long int)1] + seg6;
-  P075$link2[(signed long int)1] = iP075$link1[(signed long int)1] + seg6;
-  P076$link2[(signed long int)1] = iP076$link1[(signed long int)1] + seg6;
-  P001$link1[(signed long int)1] = iP001$link1[(signed long int)1] + seg7;
-  P011$link2[(signed long int)1] = iP011$link2[(signed long int)1] + seg7;
-  P068$link1[(signed long int)1] = iP068$link1[(signed long int)1] + seg7;
-  P069$link2[(signed long int)1] = iP069$link2[(signed long int)1] + seg7;
-  P070$link2[(signed long int)1] = iP070$link2[(signed long int)1] + seg7;
-  P071$link2[(signed long int)1] = iP071$link1[(signed long int)1] + seg7;
-  P072$link2[(signed long int)1] = iP072$link1[(signed long int)1] + seg7;
-  P073$link2[(signed long int)1] = iP073$link1[(signed long int)1] + seg7;
-  P074$link2[(signed long int)1] = iP074$link1[(signed long int)1] + seg7;
-  P091$link1[(signed long int)1] = (float)((double)iP091$link1[(signed long int)1] + (double)seg3 * 1.1);
-  P092$link1[(signed long int)1] = iP092$link1[(signed long int)1] + seg3;
-  P093$link1[(signed long int)1] = iP093$link1[(signed long int)1] + seg3;
-  P094$link1[(signed long int)1] = iP094$link1[(signed long int)1] + seg3;
-  P095$link1[(signed long int)1] = (float)((double)iP095$link1[(signed long int)1] + (double)seg3 * 0.9);
-  P099$link1[(signed long int)1] = iP099[(signed long int)1] + chomp;
-  P098$link1[(signed long int)1] = iP098$link1[(signed long int)1] + chomp;
-  P064$link2[(signed long int)1] = iP064[(signed long int)1] + chomp;
-  P061$link1[(signed long int)1] = iP061$link1[(signed long int)1] + chomp;
-  P097$link1[(signed long int)1] = iP097$link1[(signed long int)1] + chomp;
+  P012_link2[(signed long int)1] = iP012_link1[(signed long int)1] + seg5;
+  P013_link2[(signed long int)1] = iP013_link1[(signed long int)1] + seg5;
+  P014_link2[(signed long int)1] = iP014_link1[(signed long int)1] + seg5;
+  P015_link2[(signed long int)1] = iP015_link1[(signed long int)1] + seg5;
+  P016_link2[(signed long int)1] = iP016_link1[(signed long int)1] + seg5;
+  P017_link2[(signed long int)1] = iP017_link1[(signed long int)1] + seg5;
+  P018_link2[(signed long int)1] = iP018_link1[(signed long int)1] + seg5;
+  P019_link2[(signed long int)1] = iP019_link1[(signed long int)1] + seg5;
+  P020_link2[(signed long int)1] = iP020_link1[(signed long int)1] + seg4;
+  P021_link2[(signed long int)1] = iP021_link1[(signed long int)1] + seg4;
+  P022_link2[(signed long int)1] = iP022_link1[(signed long int)1] + seg4;
+  P023_link2[(signed long int)1] = iP023_link2[(signed long int)1] + seg4;
+  P024_link2[(signed long int)1] = iP024_link2[(signed long int)1] + seg4;
+  P025_link2[(signed long int)1] = iP025_link2[(signed long int)1] + seg4;
+  P026_link2[(signed long int)1] = iP026_link2[(signed long int)1] + seg4;
+  P027_link2[(signed long int)1] = iP027_link2[(signed long int)1] + seg4;
+  P028_link2[(signed long int)1] = iP028_link2[(signed long int)1] + seg2;
+  P029_link2[(signed long int)1] = iP029_link2[(signed long int)1] + seg2;
+  P030_link2[(signed long int)1] = iP030_link2[(signed long int)1] + seg2;
+  P031_link2[(signed long int)1] = iP031_link2[(signed long int)1] + seg2;
+  P032_link2[(signed long int)1] = iP032_link2[(signed long int)1] + seg2;
+  P033_link2[(signed long int)1] = iP033_link2[(signed long int)1] + seg2;
+  P034_link2[(signed long int)1] = iP034_link2[(signed long int)1] + seg2;
+  P035_link2[(signed long int)1] = iP035_link2[(signed long int)1] + seg2;
+  P036_link2[(signed long int)1] = iP036_link2[(signed long int)1] + seg1;
+  P037_link2[(signed long int)1] = iP037_link2[(signed long int)1] + seg1;
+  P038_link2[(signed long int)1] = iP038_link2[(signed long int)1] + seg1;
+  P039_link2[(signed long int)1] = iP039_link2[(signed long int)1] + seg1;
+  P040_link2[(signed long int)1] = iP040_link2[(signed long int)1] + seg1;
+  P041_link2[(signed long int)1] = iP041_link2[(signed long int)1] + seg1;
+  P042_link2[(signed long int)1] = iP042_link2[(signed long int)1] + seg1;
+  P043_link2[(signed long int)1] = iP043_link2[(signed long int)1] + seg1;
+  P044_link2[(signed long int)1] = iP044_link2[(signed long int)1] + seg0;
+  P045_link2[(signed long int)1] = iP045_link2[(signed long int)1] + seg0;
+  P046_link2[(signed long int)1] = iP046_link2[(signed long int)1] + seg0;
+  P047_link2[(signed long int)1] = iP047_link2[(signed long int)1] + seg0;
+  P048_link2[(signed long int)1] = iP048_link2[(signed long int)1] + seg0;
+  P049_link2[(signed long int)1] = iP049_link2[(signed long int)1] + seg0;
+  P050_link2[(signed long int)1] = iP050_link2[(signed long int)1] + seg0;
+  P051_link2[(signed long int)1] = iP051_link2[(signed long int)1] + seg0;
+  P009_link2[(signed long int)1] = iP009_link1[(signed long int)1] + seg6;
+  P010_link2[(signed long int)1] = iP010_link2[(signed long int)1] + seg6;
+  P075_link2[(signed long int)1] = iP075_link1[(signed long int)1] + seg6;
+  P076_link2[(signed long int)1] = iP076_link1[(signed long int)1] + seg6;
+  P001_link1[(signed long int)1] = iP001_link1[(signed long int)1] + seg7;
+  P011_link2[(signed long int)1] = iP011_link2[(signed long int)1] + seg7;
+  P068_link1[(signed long int)1] = iP068_link1[(signed long int)1] + seg7;
+  P069_link2[(signed long int)1] = iP069_link2[(signed long int)1] + seg7;
+  P070_link2[(signed long int)1] = iP070_link2[(signed long int)1] + seg7;
+  P071_link2[(signed long int)1] = iP071_link1[(signed long int)1] + seg7;
+  P072_link2[(signed long int)1] = iP072_link1[(signed long int)1] + seg7;
+  P073_link2[(signed long int)1] = iP073_link1[(signed long int)1] + seg7;
+  P074_link2[(signed long int)1] = iP074_link1[(signed long int)1] + seg7;
+  P091_link1[(signed long int)1] = (float)((double)iP091_link1[(signed long int)1] + (double)seg3 * 1.1);
+  P092_link1[(signed long int)1] = iP092_link1[(signed long int)1] + seg3;
+  P093_link1[(signed long int)1] = iP093_link1[(signed long int)1] + seg3;
+  P094_link1[(signed long int)1] = iP094_link1[(signed long int)1] + seg3;
+  P095_link1[(signed long int)1] = (float)((double)iP095_link1[(signed long int)1] + (double)seg3 * 0.9);
+  P099_link1[(signed long int)1] = iP099[(signed long int)1] + chomp;
+  P098_link1[(signed long int)1] = iP098_link1[(signed long int)1] + chomp;
+  P064_link2[(signed long int)1] = iP064[(signed long int)1] + chomp;
+  P061_link1[(signed long int)1] = iP061_link1[(signed long int)1] + chomp;
+  P097_link1[(signed long int)1] = iP097_link1[(signed long int)1] + chomp;
   P096[(signed long int)1] = iP096[(signed long int)1] + chomp;
   glPushMatrix();
   glRotatef(pitch, (float)1, (float)0, (float)0);
@@ -8589,220 +8589,220 @@ extern void DrawWhale(struct _fishRec *fish, signed int wire)
 static void Fish001(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N005$link1);
-  glVertex3fv(P005$link1);
-  glNormal3fv(N059$link1);
-  glVertex3fv(P059$link1);
-  glNormal3fv(N060$link1);
-  glVertex3fv(P060$link1);
-  glNormal3fv(N006$link1);
-  glVertex3fv(P006$link1);
+  glNormal3fv(N005_link1);
+  glVertex3fv(P005_link1);
+  glNormal3fv(N059_link1);
+  glVertex3fv(P059_link1);
+  glNormal3fv(N060_link1);
+  glVertex3fv(P060_link1);
+  glNormal3fv(N006_link1);
+  glVertex3fv(P006_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
-  glNormal3fv(N005$link1);
-  glVertex3fv(P005$link1);
-  glNormal3fv(N006$link1);
-  glVertex3fv(P006$link1);
-  glNormal3fv(N016$link1);
-  glVertex3fv(P016$link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
+  glNormal3fv(N005_link1);
+  glVertex3fv(P005_link1);
+  glNormal3fv(N006_link1);
+  glVertex3fv(P006_link1);
+  glNormal3fv(N016_link1);
+  glVertex3fv(P016_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N006$link1);
-  glVertex3fv(P006$link1);
-  glNormal3fv(N060$link1);
-  glVertex3fv(P060$link1);
-  glNormal3fv(N008$link1);
-  glVertex3fv(P008$link1);
+  glNormal3fv(N006_link1);
+  glVertex3fv(P006_link1);
+  glNormal3fv(N060_link1);
+  glVertex3fv(P060_link1);
+  glNormal3fv(N008_link1);
+  glVertex3fv(P008_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N016$link1);
-  glVertex3fv(P016$link1);
-  glNormal3fv(N006$link1);
-  glVertex3fv(P006$link1);
-  glNormal3fv(N008$link1);
-  glVertex3fv(P008$link1);
+  glNormal3fv(N016_link1);
+  glVertex3fv(P016_link1);
+  glNormal3fv(N006_link1);
+  glVertex3fv(P006_link1);
+  glNormal3fv(N008_link1);
+  glVertex3fv(P008_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N016$link1);
-  glVertex3fv(P016$link1);
-  glNormal3fv(N008$link1);
-  glVertex3fv(P008$link1);
-  glNormal3fv(N017$link1);
-  glVertex3fv(P017$link1);
+  glNormal3fv(N016_link1);
+  glVertex3fv(P016_link1);
+  glNormal3fv(N008_link1);
+  glVertex3fv(P008_link1);
+  glNormal3fv(N017_link1);
+  glVertex3fv(P017_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N017$link1);
-  glVertex3fv(P017$link1);
-  glNormal3fv(N008$link1);
-  glVertex3fv(P008$link1);
-  glNormal3fv(N018$link1);
-  glVertex3fv(P018$link1);
+  glNormal3fv(N017_link1);
+  glVertex3fv(P017_link1);
+  glNormal3fv(N008_link1);
+  glVertex3fv(P008_link1);
+  glNormal3fv(N018_link1);
+  glVertex3fv(P018_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N008$link1);
-  glVertex3fv(P008$link1);
+  glNormal3fv(N008_link1);
+  glVertex3fv(P008_link1);
   glNormal3fv(N009);
-  glVertex3fv(P009$link1);
-  glNormal3fv(N018$link1);
-  glVertex3fv(P018$link1);
+  glVertex3fv(P009_link1);
+  glNormal3fv(N018_link1);
+  glVertex3fv(P018_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N008$link1);
-  glVertex3fv(P008$link1);
-  glNormal3fv(N060$link1);
-  glVertex3fv(P060$link1);
+  glNormal3fv(N008_link1);
+  glVertex3fv(P008_link1);
+  glNormal3fv(N060_link1);
+  glVertex3fv(P060_link1);
   glNormal3fv(N009);
-  glVertex3fv(P009$link1);
+  glVertex3fv(P009_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N007$link1);
-  glVertex3fv(P007$link1);
+  glNormal3fv(N007_link1);
+  glVertex3fv(P007_link1);
   glNormal3fv(N010);
-  glVertex3fv(P010$link1);
+  glVertex3fv(P010_link1);
   glNormal3fv(N009);
-  glVertex3fv(P009$link1);
+  glVertex3fv(P009_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N009);
-  glVertex3fv(P009$link1);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
-  glNormal3fv(N018$link1);
-  glVertex3fv(P018$link1);
+  glVertex3fv(P009_link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
+  glNormal3fv(N018_link1);
+  glVertex3fv(P018_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N009);
-  glVertex3fv(P009$link1);
+  glVertex3fv(P009_link1);
   glNormal3fv(N010);
-  glVertex3fv(P010$link1);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
-  glEnd();
-  glBegin(cap);
-  glNormal3fv(N010);
-  glVertex3fv(P010$link1);
-  glNormal3fv(N020$link1);
-  glVertex3fv(P020$link1);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
+  glVertex3fv(P010_link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N010);
-  glVertex3fv(P010$link1);
+  glVertex3fv(P010_link1);
+  glNormal3fv(N020_link1);
+  glVertex3fv(P020_link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
+  glEnd();
+  glBegin(cap);
+  glNormal3fv(N010);
+  glVertex3fv(P010_link1);
   glNormal3fv(N011);
-  glVertex3fv(P011$link1);
-  glNormal3fv(N021$link1);
-  glVertex3fv(P021$link1);
-  glNormal3fv(N020$link1);
-  glVertex3fv(P020$link1);
+  glVertex3fv(P011_link1);
+  glNormal3fv(N021_link1);
+  glVertex3fv(P021_link1);
+  glNormal3fv(N020_link1);
+  glVertex3fv(P020_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N004);
   glVertex3fv(P004);
   glNormal3fv(N011);
-  glVertex3fv(P011$link1);
+  glVertex3fv(P011_link1);
   glNormal3fv(N010);
-  glVertex3fv(P010$link1);
-  glNormal3fv(N007$link1);
-  glVertex3fv(P007$link1);
+  glVertex3fv(P010_link1);
+  glNormal3fv(N007_link1);
+  glVertex3fv(P007_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N004);
   glVertex3fv(P004);
-  glNormal3fv(N012$link1);
-  glVertex3fv(P012$link1);
+  glNormal3fv(N012_link1);
+  glVertex3fv(P012_link1);
   glNormal3fv(N011);
-  glVertex3fv(P011$link1);
+  glVertex3fv(P011_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N012$link1);
-  glVertex3fv(P012$link1);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
+  glNormal3fv(N012_link1);
+  glVertex3fv(P012_link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
   glNormal3fv(N011);
-  glVertex3fv(P011$link1);
+  glVertex3fv(P011_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N011);
-  glVertex3fv(P011$link1);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
-  glNormal3fv(N021$link1);
-  glVertex3fv(P021$link1);
+  glVertex3fv(P011_link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
+  glNormal3fv(N021_link1);
+  glVertex3fv(P021_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N059$link1);
-  glVertex3fv(P059$link1);
-  glNormal3fv(N005$link1);
-  glVertex3fv(P005$link1);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
+  glNormal3fv(N059_link1);
+  glVertex3fv(P059_link1);
+  glNormal3fv(N005_link1);
+  glVertex3fv(P005_link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
-  glNormal3fv(N014$link1);
-  glVertex3fv(P014$link1);
-  glNormal3fv(N003$link1);
-  glVertex3fv(P003$link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
+  glNormal3fv(N014_link1);
+  glVertex3fv(P014_link1);
+  glNormal3fv(N003_link1);
+  glVertex3fv(P003_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
-  glNormal3fv(N003$link1);
-  glVertex3fv(P003$link1);
-  glNormal3fv(N059$link1);
-  glVertex3fv(P059$link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
+  glNormal3fv(N003_link1);
+  glVertex3fv(P003_link1);
+  glNormal3fv(N059_link1);
+  glVertex3fv(P059_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N014$link1);
-  glVertex3fv(P014$link1);
-  glNormal3fv(N013$link1);
-  glVertex3fv(P013$link1);
-  glNormal3fv(N003$link1);
-  glVertex3fv(P003$link1);
+  glNormal3fv(N014_link1);
+  glVertex3fv(P014_link1);
+  glNormal3fv(N013_link1);
+  glVertex3fv(P013_link1);
+  glNormal3fv(N003_link1);
+  glVertex3fv(P003_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N003$link1);
-  glVertex3fv(P003$link1);
-  glNormal3fv(N012$link1);
-  glVertex3fv(P012$link1);
-  glNormal3fv(N059$link1);
-  glVertex3fv(P059$link1);
+  glNormal3fv(N003_link1);
+  glVertex3fv(P003_link1);
+  glNormal3fv(N012_link1);
+  glVertex3fv(P012_link1);
+  glNormal3fv(N059_link1);
+  glVertex3fv(P059_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N013$link1);
-  glVertex3fv(P013$link1);
-  glNormal3fv(N012$link1);
-  glVertex3fv(P012$link1);
-  glNormal3fv(N003$link1);
-  glVertex3fv(P003$link1);
+  glNormal3fv(N013_link1);
+  glVertex3fv(P013_link1);
+  glNormal3fv(N012_link1);
+  glVertex3fv(P012_link1);
+  glNormal3fv(N003_link1);
+  glVertex3fv(P003_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N013$link1);
-  glVertex3fv(P013$link1);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
-  glNormal3fv(N012$link1);
-  glVertex3fv(P012$link1);
+  glNormal3fv(N013_link1);
+  glVertex3fv(P013_link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
+  glNormal3fv(N012_link1);
+  glVertex3fv(P012_link1);
   glEnd();
   glBegin(cap);
-  glVertex3fv(P071$link1);
-  glVertex3fv(P072$link1);
-  glVertex3fv(P073$link1);
-  glVertex3fv(P074$link1);
-  glVertex3fv(P075$link1);
-  glVertex3fv(P076$link1);
+  glVertex3fv(P071_link1);
+  glVertex3fv(P072_link1);
+  glVertex3fv(P073_link1);
+  glVertex3fv(P074_link1);
+  glVertex3fv(P075_link1);
+  glVertex3fv(P076_link1);
   glEnd();
   glBegin(cap);
-  glVertex3fv(P077$link1);
-  glVertex3fv(P078$link1);
-  glVertex3fv(P079$link1);
-  glVertex3fv(P080$link1);
-  glVertex3fv(P081$link1);
-  glVertex3fv(P082$link1);
+  glVertex3fv(P077_link1);
+  glVertex3fv(P078_link1);
+  glVertex3fv(P079_link1);
+  glVertex3fv(P080_link1);
+  glVertex3fv(P081_link1);
+  glVertex3fv(P082_link1);
   glEnd();
 }
 
@@ -8811,118 +8811,118 @@ static void Fish001(unsigned int cap)
 static void Fish002(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N013$link1);
-  glVertex3fv(P013$link1);
-  glNormal3fv(N014$link1);
-  glVertex3fv(P014$link1);
-  glNormal3fv(N024$link1);
-  glVertex3fv(P024$link1);
-  glNormal3fv(N023$link1);
-  glVertex3fv(P023$link1);
+  glNormal3fv(N013_link1);
+  glVertex3fv(P013_link1);
+  glNormal3fv(N014_link1);
+  glVertex3fv(P014_link1);
+  glNormal3fv(N024_link1);
+  glVertex3fv(P024_link1);
+  glNormal3fv(N023_link1);
+  glVertex3fv(P023_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N014$link1);
-  glVertex3fv(P014$link1);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
-  glNormal3fv(N025$link1);
-  glVertex3fv(P025$link1);
-  glNormal3fv(N024$link1);
-  glVertex3fv(P024$link1);
+  glNormal3fv(N014_link1);
+  glVertex3fv(P014_link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
+  glNormal3fv(N025_link1);
+  glVertex3fv(P025_link1);
+  glNormal3fv(N024_link1);
+  glVertex3fv(P024_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N016$link1);
-  glVertex3fv(P016$link1);
-  glNormal3fv(N017$link1);
-  glVertex3fv(P017$link1);
-  glNormal3fv(N027$link1);
-  glVertex3fv(P027$link1);
-  glNormal3fv(N026$link1);
-  glVertex3fv(P026$link1);
+  glNormal3fv(N016_link1);
+  glVertex3fv(P016_link1);
+  glNormal3fv(N017_link1);
+  glVertex3fv(P017_link1);
+  glNormal3fv(N027_link1);
+  glVertex3fv(P027_link1);
+  glNormal3fv(N026_link1);
+  glVertex3fv(P026_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N017$link1);
-  glVertex3fv(P017$link1);
-  glNormal3fv(N018$link1);
-  glVertex3fv(P018$link1);
-  glNormal3fv(N028$link1);
-  glVertex3fv(P028$link1);
-  glNormal3fv(N027$link1);
-  glVertex3fv(P027$link1);
+  glNormal3fv(N017_link1);
+  glVertex3fv(P017_link1);
+  glNormal3fv(N018_link1);
+  glVertex3fv(P018_link1);
+  glNormal3fv(N028_link1);
+  glVertex3fv(P028_link1);
+  glNormal3fv(N027_link1);
+  glVertex3fv(P027_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N020$link1);
-  glVertex3fv(P020$link1);
-  glNormal3fv(N021$link1);
-  glVertex3fv(P021$link1);
-  glNormal3fv(N031$link1);
-  glVertex3fv(P031$link1);
-  glNormal3fv(N030$link1);
-  glVertex3fv(P030$link1);
+  glNormal3fv(N020_link1);
+  glVertex3fv(P020_link1);
+  glNormal3fv(N021_link1);
+  glVertex3fv(P021_link1);
+  glNormal3fv(N031_link1);
+  glVertex3fv(P031_link1);
+  glNormal3fv(N030_link1);
+  glVertex3fv(P030_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N013$link1);
-  glVertex3fv(P013$link1);
-  glNormal3fv(N023$link1);
-  glVertex3fv(P023$link1);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
+  glNormal3fv(N013_link1);
+  glVertex3fv(P013_link1);
+  glNormal3fv(N023_link1);
+  glVertex3fv(P023_link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
-  glNormal3fv(N023$link1);
-  glVertex3fv(P023$link1);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
+  glNormal3fv(N023_link1);
+  glVertex3fv(P023_link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
-  glNormal3fv(N031$link1);
-  glVertex3fv(P031$link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
+  glNormal3fv(N031_link1);
+  glVertex3fv(P031_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
-  glNormal3fv(N031$link1);
-  glVertex3fv(P031$link1);
-  glNormal3fv(N021$link1);
-  glVertex3fv(P021$link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
+  glNormal3fv(N031_link1);
+  glVertex3fv(P031_link1);
+  glNormal3fv(N021_link1);
+  glVertex3fv(P021_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N018$link1);
-  glVertex3fv(P018$link1);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
+  glNormal3fv(N018_link1);
+  glVertex3fv(P018_link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N018$link1);
-  glVertex3fv(P018$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
-  glNormal3fv(N028$link1);
-  glVertex3fv(P028$link1);
+  glNormal3fv(N018_link1);
+  glVertex3fv(P018_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
+  glNormal3fv(N028_link1);
+  glVertex3fv(P028_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
-  glNormal3fv(N020$link1);
-  glVertex3fv(P020$link1);
-  glNormal3fv(N030$link1);
-  glVertex3fv(P030$link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
+  glNormal3fv(N020_link1);
+  glVertex3fv(P020_link1);
+  glNormal3fv(N030_link1);
+  glVertex3fv(P030_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
-  glNormal3fv(N030$link1);
-  glVertex3fv(P030$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
+  glNormal3fv(N030_link1);
+  glVertex3fv(P030_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
   glEnd();
 }
 
@@ -8931,104 +8931,104 @@ static void Fish002(unsigned int cap)
 static void Fish003(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
-  glNormal3fv(N023$link1);
-  glVertex3fv(P023$link1);
-  glNormal3fv(N033$link1);
-  glVertex3fv(P033$link1);
-  glNormal3fv(N042$link1);
-  glVertex3fv(P042$link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
+  glNormal3fv(N023_link1);
+  glVertex3fv(P023_link1);
+  glNormal3fv(N033_link1);
+  glVertex3fv(P033_link1);
+  glNormal3fv(N042_link1);
+  glVertex3fv(P042_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N031$link1);
-  glVertex3fv(P031$link1);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
-  glNormal3fv(N042$link1);
-  glVertex3fv(P042$link1);
-  glNormal3fv(N041$link1);
-  glVertex3fv(P041$link1);
+  glNormal3fv(N031_link1);
+  glVertex3fv(P031_link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
+  glNormal3fv(N042_link1);
+  glVertex3fv(P042_link1);
+  glNormal3fv(N041_link1);
+  glVertex3fv(P041_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N023$link1);
-  glVertex3fv(P023$link1);
-  glNormal3fv(N024$link1);
-  glVertex3fv(P024$link1);
-  glNormal3fv(N034$link1);
-  glVertex3fv(P034$link1);
-  glNormal3fv(N033$link1);
-  glVertex3fv(P033$link1);
+  glNormal3fv(N023_link1);
+  glVertex3fv(P023_link1);
+  glNormal3fv(N024_link1);
+  glVertex3fv(P024_link1);
+  glNormal3fv(N034_link1);
+  glVertex3fv(P034_link1);
+  glNormal3fv(N033_link1);
+  glVertex3fv(P033_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N024$link1);
-  glVertex3fv(P024$link1);
-  glNormal3fv(N025$link1);
-  glVertex3fv(P025$link1);
-  glNormal3fv(N035$link1);
-  glVertex3fv(P035$link1);
-  glNormal3fv(N034$link1);
-  glVertex3fv(P034$link1);
+  glNormal3fv(N024_link1);
+  glVertex3fv(P024_link1);
+  glNormal3fv(N025_link1);
+  glVertex3fv(P025_link1);
+  glNormal3fv(N035_link1);
+  glVertex3fv(P035_link1);
+  glNormal3fv(N034_link1);
+  glVertex3fv(P034_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N030$link1);
-  glVertex3fv(P030$link1);
-  glNormal3fv(N031$link1);
-  glVertex3fv(P031$link1);
-  glNormal3fv(N041$link1);
-  glVertex3fv(P041$link1);
-  glNormal3fv(N040$link1);
-  glVertex3fv(P040$link1);
+  glNormal3fv(N030_link1);
+  glVertex3fv(P030_link1);
+  glNormal3fv(N031_link1);
+  glVertex3fv(P031_link1);
+  glNormal3fv(N041_link1);
+  glVertex3fv(P041_link1);
+  glNormal3fv(N040_link1);
+  glVertex3fv(P040_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N025$link1);
-  glVertex3fv(P025$link1);
-  glNormal3fv(N026$link1);
-  glVertex3fv(P026$link1);
-  glNormal3fv(N036$link1);
-  glVertex3fv(P036$link1);
-  glNormal3fv(N035$link1);
-  glVertex3fv(P035$link1);
+  glNormal3fv(N025_link1);
+  glVertex3fv(P025_link1);
+  glNormal3fv(N026_link1);
+  glVertex3fv(P026_link1);
+  glNormal3fv(N036_link1);
+  glVertex3fv(P036_link1);
+  glNormal3fv(N035_link1);
+  glVertex3fv(P035_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N026$link1);
-  glVertex3fv(P026$link1);
-  glNormal3fv(N027$link1);
-  glVertex3fv(P027$link1);
-  glNormal3fv(N037$link1);
-  glVertex3fv(P037$link1);
-  glNormal3fv(N036$link1);
-  glVertex3fv(P036$link1);
+  glNormal3fv(N026_link1);
+  glVertex3fv(P026_link1);
+  glNormal3fv(N027_link1);
+  glVertex3fv(P027_link1);
+  glNormal3fv(N037_link1);
+  glVertex3fv(P037_link1);
+  glNormal3fv(N036_link1);
+  glVertex3fv(P036_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N027$link1);
-  glVertex3fv(P027$link1);
-  glNormal3fv(N028$link1);
-  glVertex3fv(P028$link1);
-  glNormal3fv(N038$link1);
-  glVertex3fv(P038$link1);
-  glNormal3fv(N037$link1);
-  glVertex3fv(P037$link1);
+  glNormal3fv(N027_link1);
+  glVertex3fv(P027_link1);
+  glNormal3fv(N028_link1);
+  glVertex3fv(P028_link1);
+  glNormal3fv(N038_link1);
+  glVertex3fv(P038_link1);
+  glNormal3fv(N037_link1);
+  glVertex3fv(P037_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N028$link1);
-  glVertex3fv(P028$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
-  glNormal3fv(N039$link1);
-  glVertex3fv(P039$link1);
-  glNormal3fv(N038$link1);
-  glVertex3fv(P038$link1);
+  glNormal3fv(N028_link1);
+  glVertex3fv(P028_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
+  glNormal3fv(N039_link1);
+  glVertex3fv(P039_link1);
+  glNormal3fv(N038_link1);
+  glVertex3fv(P038_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
-  glNormal3fv(N030$link1);
-  glVertex3fv(P030$link1);
-  glNormal3fv(N040$link1);
-  glVertex3fv(P040$link1);
-  glNormal3fv(N039$link1);
-  glVertex3fv(P039$link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
+  glNormal3fv(N030_link1);
+  glVertex3fv(P030_link1);
+  glNormal3fv(N040_link1);
+  glVertex3fv(P040_link1);
+  glNormal3fv(N039_link1);
+  glVertex3fv(P039_link1);
   glEnd();
 }
 
@@ -9037,142 +9037,142 @@ static void Fish003(unsigned int cap)
 static void Fish004(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N040$link1);
-  glVertex3fv(P040$link1);
-  glNormal3fv(N041$link1);
-  glVertex3fv(P041$link1);
-  glNormal3fv(N051$link1);
-  glVertex3fv(P051$link1);
-  glNormal3fv(N050$link1);
-  glVertex3fv(P050$link1);
+  glNormal3fv(N040_link1);
+  glVertex3fv(P040_link1);
+  glNormal3fv(N041_link1);
+  glVertex3fv(P041_link1);
+  glNormal3fv(N051_link1);
+  glVertex3fv(P051_link1);
+  glNormal3fv(N050_link1);
+  glVertex3fv(P050_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N041$link1);
-  glVertex3fv(P041$link1);
-  glNormal3fv(N042$link1);
-  glVertex3fv(P042$link1);
-  glNormal3fv(N052$link1);
-  glVertex3fv(P052$link1);
-  glNormal3fv(N051$link1);
-  glVertex3fv(P051$link1);
+  glNormal3fv(N041_link1);
+  glVertex3fv(P041_link1);
+  glNormal3fv(N042_link1);
+  glVertex3fv(P042_link1);
+  glNormal3fv(N052_link1);
+  glVertex3fv(P052_link1);
+  glNormal3fv(N051_link1);
+  glVertex3fv(P051_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N042$link1);
-  glVertex3fv(P042$link1);
-  glNormal3fv(N033$link1);
-  glVertex3fv(P033$link1);
-  glNormal3fv(N043$link1);
-  glVertex3fv(P043$link1);
-  glNormal3fv(N052$link1);
-  glVertex3fv(P052$link1);
+  glNormal3fv(N042_link1);
+  glVertex3fv(P042_link1);
+  glNormal3fv(N033_link1);
+  glVertex3fv(P033_link1);
+  glNormal3fv(N043_link1);
+  glVertex3fv(P043_link1);
+  glNormal3fv(N052_link1);
+  glVertex3fv(P052_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N033$link1);
-  glVertex3fv(P033$link1);
-  glNormal3fv(N034$link1);
-  glVertex3fv(P034$link1);
-  glNormal3fv(N044$link1);
-  glVertex3fv(P044$link1);
-  glNormal3fv(N043$link1);
-  glVertex3fv(P043$link1);
+  glNormal3fv(N033_link1);
+  glVertex3fv(P033_link1);
+  glNormal3fv(N034_link1);
+  glVertex3fv(P034_link1);
+  glNormal3fv(N044_link1);
+  glVertex3fv(P044_link1);
+  glNormal3fv(N043_link1);
+  glVertex3fv(P043_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N034$link1);
-  glVertex3fv(P034$link1);
-  glNormal3fv(N035$link1);
-  glVertex3fv(P035$link1);
-  glNormal3fv(N045$link1);
-  glVertex3fv(P045$link1);
-  glNormal3fv(N044$link1);
-  glVertex3fv(P044$link1);
+  glNormal3fv(N034_link1);
+  glVertex3fv(P034_link1);
+  glNormal3fv(N035_link1);
+  glVertex3fv(P035_link1);
+  glNormal3fv(N045_link1);
+  glVertex3fv(P045_link1);
+  glNormal3fv(N044_link1);
+  glVertex3fv(P044_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N035$link1);
-  glVertex3fv(P035$link1);
-  glNormal3fv(N036$link1);
-  glVertex3fv(P036$link1);
-  glNormal3fv(N046$link1);
-  glVertex3fv(P046$link1);
-  glNormal3fv(N045$link1);
-  glVertex3fv(P045$link1);
+  glNormal3fv(N035_link1);
+  glVertex3fv(P035_link1);
+  glNormal3fv(N036_link1);
+  glVertex3fv(P036_link1);
+  glNormal3fv(N046_link1);
+  glVertex3fv(P046_link1);
+  glNormal3fv(N045_link1);
+  glVertex3fv(P045_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N036$link1);
-  glVertex3fv(P036$link1);
-  glNormal3fv(N037$link1);
-  glVertex3fv(P037$link1);
-  glNormal3fv(N047$link1);
-  glVertex3fv(P047$link1);
-  glNormal3fv(N046$link1);
-  glVertex3fv(P046$link1);
+  glNormal3fv(N036_link1);
+  glVertex3fv(P036_link1);
+  glNormal3fv(N037_link1);
+  glVertex3fv(P037_link1);
+  glNormal3fv(N047_link1);
+  glVertex3fv(P047_link1);
+  glNormal3fv(N046_link1);
+  glVertex3fv(P046_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N037$link1);
-  glVertex3fv(P037$link1);
-  glNormal3fv(N038$link1);
-  glVertex3fv(P038$link1);
-  glNormal3fv(N048$link1);
-  glVertex3fv(P048$link1);
-  glNormal3fv(N047$link1);
-  glVertex3fv(P047$link1);
+  glNormal3fv(N037_link1);
+  glVertex3fv(P037_link1);
+  glNormal3fv(N038_link1);
+  glVertex3fv(P038_link1);
+  glNormal3fv(N048_link1);
+  glVertex3fv(P048_link1);
+  glNormal3fv(N047_link1);
+  glVertex3fv(P047_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N038$link1);
-  glVertex3fv(P038$link1);
-  glNormal3fv(N039$link1);
-  glVertex3fv(P039$link1);
-  glNormal3fv(N049$link1);
-  glVertex3fv(P049$link1);
-  glNormal3fv(N048$link1);
-  glVertex3fv(P048$link1);
+  glNormal3fv(N038_link1);
+  glVertex3fv(P038_link1);
+  glNormal3fv(N039_link1);
+  glVertex3fv(P039_link1);
+  glNormal3fv(N049_link1);
+  glVertex3fv(P049_link1);
+  glNormal3fv(N048_link1);
+  glVertex3fv(P048_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N039$link1);
-  glVertex3fv(P039$link1);
-  glNormal3fv(N040$link1);
-  glVertex3fv(P040$link1);
-  glNormal3fv(N050$link1);
-  glVertex3fv(P050$link1);
-  glNormal3fv(N049$link1);
-  glVertex3fv(P049$link1);
+  glNormal3fv(N039_link1);
+  glVertex3fv(P039_link1);
+  glNormal3fv(N040_link1);
+  glVertex3fv(P040_link1);
+  glNormal3fv(N050_link1);
+  glVertex3fv(P050_link1);
+  glNormal3fv(N049_link1);
+  glVertex3fv(P049_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N070);
-  glVertex3fv(P070$link1);
+  glVertex3fv(P070_link1);
   glNormal3fv(N061);
   glVertex3fv(P061);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
   glEnd();
   glBegin(cap);
   glNormal3fv(N061);
   glVertex3fv(P061);
-  glNormal3fv(N046$link1);
-  glVertex3fv(P046$link1);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
+  glNormal3fv(N046_link1);
+  glVertex3fv(P046_link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N045$link1);
-  glVertex3fv(P045$link1);
-  glNormal3fv(N046$link1);
-  glVertex3fv(P046$link1);
+  glNormal3fv(N045_link1);
+  glVertex3fv(P045_link1);
+  glNormal3fv(N046_link1);
+  glVertex3fv(P046_link1);
   glNormal3fv(N061);
   glVertex3fv(P061);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
   glNormal3fv(N061);
   glVertex3fv(P061);
   glNormal3fv(N070);
-  glVertex3fv(P070$link1);
+  glVertex3fv(P070_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N045$link1);
-  glVertex3fv(P045$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N045_link1);
+  glVertex3fv(P045_link1);
   glNormal3fv(N061);
   glVertex3fv(P061);
   glEnd();
@@ -9183,92 +9183,92 @@ static void Fish004(unsigned int cap)
 static void Fish005(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N044$link1);
-  glVertex3fv(P044$link1);
-  glNormal3fv(N045$link1);
-  glVertex3fv(P045$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N044_link1);
+  glVertex3fv(P044_link1);
+  glNormal3fv(N045_link1);
+  glVertex3fv(P045_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N043$link1);
-  glVertex3fv(P043$link1);
-  glNormal3fv(N044$link1);
-  glVertex3fv(P044$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N043_link1);
+  glVertex3fv(P043_link1);
+  glNormal3fv(N044_link1);
+  glVertex3fv(P044_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N052$link1);
-  glVertex3fv(P052$link1);
-  glNormal3fv(N043$link1);
-  glVertex3fv(P043$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N052_link1);
+  glVertex3fv(P052_link1);
+  glNormal3fv(N043_link1);
+  glVertex3fv(P043_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N051$link1);
-  glVertex3fv(P051$link1);
-  glNormal3fv(N052$link1);
-  glVertex3fv(P052$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N051_link1);
+  glVertex3fv(P051_link1);
+  glNormal3fv(N052_link1);
+  glVertex3fv(P052_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N046$link1);
-  glVertex3fv(P046$link1);
-  glNormal3fv(N047$link1);
-  glVertex3fv(P047$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N046_link1);
+  glVertex3fv(P046_link1);
+  glNormal3fv(N047_link1);
+  glVertex3fv(P047_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N047$link1);
-  glVertex3fv(P047$link1);
-  glNormal3fv(N048$link1);
-  glVertex3fv(P048$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N047_link1);
+  glVertex3fv(P047_link1);
+  glNormal3fv(N048_link1);
+  glVertex3fv(P048_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N048$link1);
-  glVertex3fv(P048$link1);
-  glNormal3fv(N049$link1);
-  glVertex3fv(P049$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N048_link1);
+  glVertex3fv(P048_link1);
+  glNormal3fv(N049_link1);
+  glVertex3fv(P049_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
-  glNormal3fv(N049$link1);
-  glVertex3fv(P049$link1);
-  glNormal3fv(N050$link1);
-  glVertex3fv(P050$link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
+  glNormal3fv(N049_link1);
+  glVertex3fv(P049_link1);
+  glNormal3fv(N050_link1);
+  glVertex3fv(P050_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N050$link1);
-  glVertex3fv(P050$link1);
-  glNormal3fv(N051$link1);
-  glVertex3fv(P051$link1);
+  glNormal3fv(N050_link1);
+  glVertex3fv(P050_link1);
+  glNormal3fv(N051_link1);
+  glVertex3fv(P051_link1);
   glNormal3fv(N069);
-  glVertex3fv(P069$link1);
+  glVertex3fv(P069_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N051$link1);
-  glVertex3fv(P051$link1);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
+  glNormal3fv(N051_link1);
+  glVertex3fv(P051_link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
   glNormal3fv(N069);
-  glVertex3fv(P069$link1);
+  glVertex3fv(P069_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N050$link1);
-  glVertex3fv(P050$link1);
+  glNormal3fv(N050_link1);
+  glVertex3fv(P050_link1);
   glNormal3fv(N069);
-  glVertex3fv(P069$link1);
-  glNormal3fv(N002$link1);
-  glVertex3fv(P002$link1);
+  glVertex3fv(P069_link1);
+  glNormal3fv(N002_link1);
+  glVertex3fv(P002_link1);
   glEnd();
 }
 
@@ -9277,52 +9277,52 @@ static void Fish005(unsigned int cap)
 static void Fish006(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N066$link1);
-  glVertex3fv(P066$link1);
-  glNormal3fv(N016$link1);
-  glVertex3fv(P016$link1);
-  glNormal3fv(N026$link1);
-  glVertex3fv(P026$link1);
+  glNormal3fv(N066_link1);
+  glVertex3fv(P066_link1);
+  glNormal3fv(N016_link1);
+  glVertex3fv(P016_link1);
+  glNormal3fv(N026_link1);
+  glVertex3fv(P026_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
-  glNormal3fv(N066$link1);
-  glVertex3fv(P066$link1);
-  glNormal3fv(N025$link1);
-  glVertex3fv(P025$link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
+  glNormal3fv(N066_link1);
+  glVertex3fv(P066_link1);
+  glNormal3fv(N025_link1);
+  glVertex3fv(P025_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N025$link1);
-  glVertex3fv(P025$link1);
-  glNormal3fv(N066$link1);
-  glVertex3fv(P066$link1);
-  glNormal3fv(N026$link1);
-  glVertex3fv(P026$link1);
+  glNormal3fv(N025_link1);
+  glVertex3fv(P025_link1);
+  glNormal3fv(N066_link1);
+  glVertex3fv(P066_link1);
+  glNormal3fv(N026_link1);
+  glVertex3fv(P026_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N066$link1);
-  glVertex3fv(P066$link1);
-  glNormal3fv(N058$link1);
-  glVertex3fv(P058$link1);
-  glNormal3fv(N016$link1);
-  glVertex3fv(P016$link1);
+  glNormal3fv(N066_link1);
+  glVertex3fv(P066_link1);
+  glNormal3fv(N058_link1);
+  glVertex3fv(P058_link1);
+  glNormal3fv(N016_link1);
+  glVertex3fv(P016_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
-  glNormal3fv(N058$link1);
-  glVertex3fv(P058$link1);
-  glNormal3fv(N066$link1);
-  glVertex3fv(P066$link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
+  glNormal3fv(N058_link1);
+  glVertex3fv(P058_link1);
+  glNormal3fv(N066_link1);
+  glVertex3fv(P066_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N058$link1);
-  glVertex3fv(P058$link1);
-  glNormal3fv(N015$link1);
-  glVertex3fv(P015$link1);
-  glNormal3fv(N016$link1);
-  glVertex3fv(P016$link1);
+  glNormal3fv(N058_link1);
+  glVertex3fv(P058_link1);
+  glNormal3fv(N015_link1);
+  glVertex3fv(P015_link1);
+  glNormal3fv(N016_link1);
+  glVertex3fv(P016_link1);
   glEnd();
 }
 
@@ -9331,36 +9331,36 @@ static void Fish006(unsigned int cap)
 static void Fish007(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N062$link1);
-  glVertex3fv(P062$link1);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
+  glNormal3fv(N062_link1);
+  glVertex3fv(P062_link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N062$link1);
-  glVertex3fv(P062$link1);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
-  glNormal3fv(N064$link1);
-  glVertex3fv(P064$link1);
+  glNormal3fv(N062_link1);
+  glVertex3fv(P062_link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
+  glNormal3fv(N064_link1);
+  glVertex3fv(P064_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N022$link1);
-  glVertex3fv(P022$link1);
-  glNormal3fv(N062$link1);
-  glVertex3fv(P062$link1);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
+  glNormal3fv(N022_link1);
+  glVertex3fv(P022_link1);
+  glNormal3fv(N062_link1);
+  glVertex3fv(P062_link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N062$link1);
-  glVertex3fv(P062$link1);
-  glNormal3fv(N064$link1);
-  glVertex3fv(P064$link1);
-  glNormal3fv(N032$link1);
-  glVertex3fv(P032$link1);
+  glNormal3fv(N062_link1);
+  glVertex3fv(P062_link1);
+  glNormal3fv(N064_link1);
+  glVertex3fv(P064_link1);
+  glNormal3fv(N032_link1);
+  glVertex3fv(P032_link1);
   glEnd();
 }
 
@@ -9369,36 +9369,36 @@ static void Fish007(unsigned int cap)
 static void Fish008(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N063$link1);
-  glVertex3fv(P063$link1);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
+  glNormal3fv(N063_link1);
+  glVertex3fv(P063_link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N019$link1);
-  glVertex3fv(P019$link1);
-  glNormal3fv(N063$link1);
-  glVertex3fv(P063$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
+  glNormal3fv(N019_link1);
+  glVertex3fv(P019_link1);
+  glNormal3fv(N063_link1);
+  glVertex3fv(P063_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N063$link1);
-  glVertex3fv(P063$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
-  glNormal3fv(N065$link1);
-  glVertex3fv(P065$link1);
+  glNormal3fv(N063_link1);
+  glVertex3fv(P063_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
+  glNormal3fv(N065_link1);
+  glVertex3fv(P065_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N063$link1);
-  glVertex3fv(P063$link1);
-  glNormal3fv(N065$link1);
-  glVertex3fv(P065$link1);
-  glNormal3fv(N029$link1);
-  glVertex3fv(P029$link1);
+  glNormal3fv(N063_link1);
+  glVertex3fv(P063_link1);
+  glNormal3fv(N065_link1);
+  glVertex3fv(P065_link1);
+  glNormal3fv(N029_link1);
+  glVertex3fv(P029_link1);
   glEnd();
 }
 
@@ -9407,16 +9407,16 @@ static void Fish008(unsigned int cap)
 static void Fish009(unsigned int cap)
 {
   glBegin(cap);
-  glVertex3fv(P059$link1);
-  glVertex3fv(P012$link1);
-  glVertex3fv(P009$link1);
-  glVertex3fv(P060$link1);
+  glVertex3fv(P059_link1);
+  glVertex3fv(P012_link1);
+  glVertex3fv(P009_link1);
+  glVertex3fv(P060_link1);
   glEnd();
   glBegin(cap);
-  glVertex3fv(P012$link1);
+  glVertex3fv(P012_link1);
   glVertex3fv(P004);
-  glVertex3fv(P007$link1);
-  glVertex3fv(P009$link1);
+  glVertex3fv(P007_link1);
+  glVertex3fv(P009_link1);
   glEnd();
 }
 
@@ -9626,9 +9626,9 @@ static void Init(struct ModeInfo *mi)
     glMatrixMode((unsigned int)0x1700);
   }
   InitFishs(ap);
-  unsigned int return_value_ya_random$1;
-  return_value_ya_random$1=ya_random();
-  fblue = (float)((double)(float)(signed int)(((unsigned long int)return_value_ya_random$1 * (unsigned long int)(unsigned int)30) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1)) / 100.0 + 0.70);
+  unsigned int return_value_ya_random_1;
+  return_value_ya_random_1=ya_random();
+  fblue = (float)((double)(float)(signed int)(((unsigned long int)return_value_ya_random_1 * (unsigned long int)(unsigned int)30) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1)) / 100.0 + 0.70);
   fgreen = (float)((double)fblue * 0.56);
   glClearColor((float)0.0, fgreen, fblue, (float)1.0);
 }
@@ -9640,23 +9640,23 @@ static void InitFishs(struct anonymous *ap)
   signed int i = 0;
   for( ; !(i >= ap->num_sharks); i = i + 1)
   {
-    unsigned int return_value_ya_random$1;
-    return_value_ya_random$1=ya_random();
-    (ap->sharks + (signed long int)i)->x = (float)(70000.0 + (double)(signed int)(((unsigned long int)return_value_ya_random$1 * (unsigned long int)(unsigned int)ap->sharksize) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1)));
-    unsigned int return_value_ya_random$2;
-    return_value_ya_random$2=ya_random();
-    (ap->sharks + (signed long int)i)->y = (float)(signed int)(((unsigned long int)return_value_ya_random$2 * (unsigned long int)(unsigned int)ap->sharksize) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1));
-    unsigned int return_value_ya_random$3;
-    return_value_ya_random$3=ya_random();
-    (ap->sharks + (signed long int)i)->z = (float)(signed int)(((unsigned long int)return_value_ya_random$3 * (unsigned long int)(unsigned int)ap->sharksize) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1));
-    unsigned int return_value_ya_random$4;
-    return_value_ya_random$4=ya_random();
-    (ap->sharks + (signed long int)i)->psi = (float)((double)(signed int)(((unsigned long int)return_value_ya_random$4 * (unsigned long int)(unsigned int)360) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1)) - 180.0);
+    unsigned int return_value_ya_random_1;
+    return_value_ya_random_1=ya_random();
+    (ap->sharks + (signed long int)i)->x = (float)(70000.0 + (double)(signed int)(((unsigned long int)return_value_ya_random_1 * (unsigned long int)(unsigned int)ap->sharksize) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1)));
+    unsigned int return_value_ya_random_2;
+    return_value_ya_random_2=ya_random();
+    (ap->sharks + (signed long int)i)->y = (float)(signed int)(((unsigned long int)return_value_ya_random_2 * (unsigned long int)(unsigned int)ap->sharksize) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1));
+    unsigned int return_value_ya_random_3;
+    return_value_ya_random_3=ya_random();
+    (ap->sharks + (signed long int)i)->z = (float)(signed int)(((unsigned long int)return_value_ya_random_3 * (unsigned long int)(unsigned int)ap->sharksize) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1));
+    unsigned int return_value_ya_random_4;
+    return_value_ya_random_4=ya_random();
+    (ap->sharks + (signed long int)i)->psi = (float)((double)(signed int)(((unsigned long int)return_value_ya_random_4 * (unsigned long int)(unsigned int)360) / ((unsigned long int)0xFFFFFFFF + (unsigned long int)1)) - 180.0);
     (ap->sharks + (signed long int)i)->v = (float)1.0;
   }
-  unsigned int return_value_ya_random$5;
-  return_value_ya_random$5=ya_random();
-  ap->whaledir = (signed int)((signed long int)(return_value_ya_random$5 & (unsigned int)0x7fffffff) & (signed long int)1);
+  unsigned int return_value_ya_random_5;
+  return_value_ya_random_5=ya_random();
+  ap->whaledir = (signed int)((signed long int)(return_value_ya_random_5 & (unsigned int)0x7fffffff) & (signed long int)1);
   ap->dolph.x = (float)30000.0;
   ap->dolph.y = (float)0.0;
   ap->dolph.z = (float)ap->sharksize;
@@ -9681,13 +9681,13 @@ static void InitFishs(struct anonymous *ap)
 // file screenhack.c line 256
 static signed int MapNotify_event_p(struct _XDisplay *dpy, union _XEvent *event, char *window)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(event->xany.type == 19)
-    tmp_if_expr$1 = event->xvisibility.window == (unsigned long int)window ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = event->xvisibility.window == (unsigned long int)window ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // SharkMiss
@@ -9708,9 +9708,9 @@ extern void SharkMiss(struct anonymous *ap, signed int i)
       X = (ap->sharks + (signed long int)j)->x - (ap->sharks + (signed long int)i)->x;
       Y = (ap->sharks + (signed long int)j)->y - (ap->sharks + (signed long int)i)->y;
       Z = (ap->sharks + (signed long int)j)->z - (ap->sharks + (signed long int)i)->z;
-      double return_value_sqrt$1;
-      return_value_sqrt$1=sqrt((double)(X * X + Y * Y + Z * Z));
-      R = (float)return_value_sqrt$1;
+      double return_value_sqrt_1;
+      return_value_sqrt_1=sqrt((double)(X * X + Y * Y + Z * Z));
+      R = (float)return_value_sqrt_1;
       avoid = (float)1.0;
       thetal = (ap->sharks + (signed long int)i)->theta;
       if(R < (float)ap->sharksize)
@@ -9744,11 +9744,11 @@ extern void SharkPilot(struct _fishRec *fish, float sharkspeed)
   Y = fish->yt - fish->y;
   Z = fish->zt - fish->z;
   thetal = fish->theta;
-  double return_value_sqrt$1;
-  return_value_sqrt$1=sqrt((double)(X * X + Y * Y));
-  double return_value_atan$2;
-  return_value_atan$2=atan((double)Z / return_value_sqrt$1);
-  ttheta = (float)(57.295 * return_value_atan$2);
+  double return_value_sqrt_1;
+  return_value_sqrt_1=sqrt((double)(X * X + Y * Y));
+  double return_value_atan_2;
+  return_value_atan_2=atan((double)Z / return_value_sqrt_1);
+  ttheta = (float)(57.295 * return_value_atan_2);
   if((double)ttheta > (double)fish->theta + 0.25)
     fish->theta = fish->theta + (float)0.5;
 
@@ -9763,20 +9763,20 @@ extern void SharkPilot(struct _fishRec *fish, float sharkspeed)
     fish->theta = (float)-90.0;
 
   fish->dtheta = fish->theta - thetal;
-  double return_value_atan2$3;
-  return_value_atan2$3=atan2((double)Y, (double)X);
-  tpsi = (float)(57.295 * return_value_atan2$3);
+  double return_value_atan2_3;
+  return_value_atan2_3=atan2((double)Y, (double)X);
+  tpsi = (float)(57.295 * return_value_atan2_3);
   fish->attack = 0;
-  double return_value_fabs$6;
-  return_value_fabs$6=fabs((double)(tpsi - fish->psi));
-  double return_value_fabs$5;
-  if(return_value_fabs$6 < 10.0)
+  double return_value_fabs_6;
+  return_value_fabs_6=fabs((double)(tpsi - fish->psi));
+  double return_value_fabs_5;
+  if(return_value_fabs_6 < 10.0)
     fish->attack = 1;
 
   else
   {
-    return_value_fabs$5=fabs((double)(tpsi - fish->psi));
-    if(return_value_fabs$5 < 45.0)
+    return_value_fabs_5=fabs((double)(tpsi - fish->psi));
+    if(return_value_fabs_5 < 45.0)
     {
       if(fish->psi > tpsi)
       {
@@ -9799,9 +9799,9 @@ extern void SharkPilot(struct _fishRec *fish, float sharkspeed)
 
     else
     {
-      unsigned int return_value_ya_random$4;
-      return_value_ya_random$4=ya_random();
-      if((signed int)((100ul * (unsigned long int)return_value_ya_random$4) / 4294967296ul) >= 99)
+      unsigned int return_value_ya_random_4;
+      return_value_ya_random_4=ya_random();
+      if((signed int)((100ul * (unsigned long int)return_value_ya_random_4) / 4294967296ul) >= 99)
         fish->sign = fish->sign < 0 ? 1 : -1;
 
       fish->psi = fish->psi + (float)(fish->sign != 0 ? 1 : -1);
@@ -9835,9 +9835,9 @@ extern void SharkPilot(struct _fishRec *fish, float sharkspeed)
 
   else
   {
-    unsigned int return_value_ya_random$7;
-    return_value_ya_random$7=ya_random();
-    if((signed int)((400ul * (unsigned long int)return_value_ya_random$7) / 4294967296ul) == 0)
+    unsigned int return_value_ya_random_7;
+    return_value_ya_random_7=ya_random();
+    if((signed int)((400ul * (unsigned long int)return_value_ya_random_7) / 4294967296ul) == 0)
     {
       if(fish->spurt == 0)
         fish->spurt = 1;
@@ -9858,28 +9858,28 @@ extern void SharkPilot(struct _fishRec *fish, float sharkspeed)
     }
 
   }
-  double return_value_cos$8;
-  return_value_cos$8=cos((double)fish->psi / 57.295);
-  double return_value_cos$9;
-  return_value_cos$9=cos((double)fish->theta / 57.295);
-  fish->x = fish->x + (float)((double)(sharkspeed * fish->v) * return_value_cos$8 * return_value_cos$9);
-  double return_value_sin$10;
-  return_value_sin$10=sin((double)fish->psi / 57.295);
-  double return_value_cos$11;
-  return_value_cos$11=cos((double)fish->theta / 57.295);
-  fish->y = fish->y + (float)((double)(sharkspeed * fish->v) * return_value_sin$10 * return_value_cos$11);
-  double return_value_sin$12;
-  return_value_sin$12=sin((double)fish->theta / 57.295);
-  fish->z = fish->z + (float)((double)(sharkspeed * fish->v) * return_value_sin$12);
+  double return_value_cos_8;
+  return_value_cos_8=cos((double)fish->psi / 57.295);
+  double return_value_cos_9;
+  return_value_cos_9=cos((double)fish->theta / 57.295);
+  fish->x = fish->x + (float)((double)(sharkspeed * fish->v) * return_value_cos_8 * return_value_cos_9);
+  double return_value_sin_10;
+  return_value_sin_10=sin((double)fish->psi / 57.295);
+  double return_value_cos_11;
+  return_value_cos_11=cos((double)fish->theta / 57.295);
+  fish->y = fish->y + (float)((double)(sharkspeed * fish->v) * return_value_sin_10 * return_value_cos_11);
+  double return_value_sin_12;
+  return_value_sin_12=sin((double)fish->theta / 57.295);
+  fish->z = fish->z + (float)((double)(sharkspeed * fish->v) * return_value_sin_12);
 }
 
 // VirtualRootWindowOfScreen
 // file ./../utils/vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen(struct anonymous$58 *screen)
+static unsigned long int VirtualRootWindowOfScreen(struct anonymous_58 *screen)
 {
-  signed int return_value___isoc99_sscanf$2;
+  signed int return_value___isoc99_sscanf_2;
   static unsigned long int root = (unsigned long int)0;
-  static struct anonymous$58 *save_screen = (struct anonymous$58 *)0;
+  static struct anonymous_58 *save_screen = (struct anonymous_58 *)0;
   if(!(screen == save_screen))
   {
     struct _XDisplay *dpy = screen->display;
@@ -9897,18 +9897,18 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$58 *screen)
       {
         unsigned long int id = (unsigned long int)0;
         char c;
-        signed int return_value___isoc99_sscanf$1;
-        return_value___isoc99_sscanf$1=__isoc99_sscanf(xss_id, " 0x%lx %c", &id, &c);
-        _Bool tmp_if_expr$3;
-        if(return_value___isoc99_sscanf$1 == 1)
-          tmp_if_expr$3 = (_Bool)1;
+        signed int return_value___isoc99_sscanf_1;
+        return_value___isoc99_sscanf_1=__isoc99_sscanf(xss_id, " 0x%lx %c", &id, &c);
+        _Bool tmp_if_expr_3;
+        if(return_value___isoc99_sscanf_1 == 1)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value___isoc99_sscanf$2=__isoc99_sscanf(xss_id, " %lu %c", &id, &c);
-          tmp_if_expr$3 = 1 == return_value___isoc99_sscanf$2 ? (_Bool)1 : (_Bool)0;
+          return_value___isoc99_sscanf_2=__isoc99_sscanf(xss_id, " %lu %c", &id, &c);
+          tmp_if_expr_3 = 1 == return_value___isoc99_sscanf_2 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           root = (unsigned long int)id;
           save_screen = screen;
@@ -9921,9 +9921,9 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$58 *screen)
 
     root = screen->root;
     __SWM_VROOT=XInternAtom(dpy, "__SWM_VROOT", 0);
-    signed int return_value_XQueryTree$5;
-    return_value_XQueryTree$5=XQueryTree(dpy, root, &rootReturn, &parentReturn, &children, &numChildren);
-    if(!(return_value_XQueryTree$5 == 0))
+    signed int return_value_XQueryTree_5;
+    return_value_XQueryTree_5=XQueryTree(dpy, root, &rootReturn, &parentReturn, &children, &numChildren);
+    if(!(return_value_XQueryTree_5 == 0))
     {
       i = 0;
       for( ; !((unsigned int)i >= numChildren); i = i + 1)
@@ -9933,9 +9933,9 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$58 *screen)
         unsigned long int nitems;
         unsigned long int bytesafter;
         unsigned char *newRoot = ((unsigned char *)NULL);
-        signed int return_value_XGetWindowProperty$4;
-        return_value_XGetWindowProperty$4=XGetWindowProperty(dpy, children[(signed long int)i], __SWM_VROOT, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type, &actual_format, &nitems, &bytesafter, &newRoot);
-        if(return_value_XGetWindowProperty$4 == 0)
+        signed int return_value_XGetWindowProperty_4;
+        return_value_XGetWindowProperty_4=XGetWindowProperty(dpy, children[(signed long int)i], __SWM_VROOT, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type, &actual_format, &nitems, &bytesafter, &newRoot);
+        if(return_value_XGetWindowProperty_4 == 0)
         {
           if(!(newRoot == ((unsigned char *)NULL)))
           {
@@ -9962,84 +9962,84 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$58 *screen)
 static void Whale001(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
   glNormal3fv(N068);
-  glVertex3fv(P068$link1);
-  glNormal3fv(N010$link1);
-  glVertex3fv(P010$link2);
+  glVertex3fv(P068_link1);
+  glNormal3fv(N010_link1);
+  glVertex3fv(P010_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N068);
-  glVertex3fv(P068$link1);
+  glVertex3fv(P068_link1);
   glNormal3fv(N076);
-  glVertex3fv(P076$link2);
-  glNormal3fv(N010$link1);
-  glVertex3fv(P010$link2);
+  glVertex3fv(P076_link2);
+  glNormal3fv(N010_link1);
+  glVertex3fv(P010_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N068);
-  glVertex3fv(P068$link1);
-  glNormal3fv(N070$link1);
-  glVertex3fv(P070$link2);
+  glVertex3fv(P068_link1);
+  glNormal3fv(N070_link1);
+  glVertex3fv(P070_link2);
   glNormal3fv(N076);
-  glVertex3fv(P076$link2);
+  glVertex3fv(P076_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N076);
-  glVertex3fv(P076$link2);
-  glNormal3fv(N070$link1);
-  glVertex3fv(P070$link2);
+  glVertex3fv(P076_link2);
+  glNormal3fv(N070_link1);
+  glVertex3fv(P070_link2);
   glNormal3fv(N074);
-  glVertex3fv(P074$link2);
+  glVertex3fv(P074_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N070$link1);
-  glVertex3fv(P070$link2);
+  glNormal3fv(N070_link1);
+  glVertex3fv(P070_link2);
   glNormal3fv(N072);
-  glVertex3fv(P072$link2);
+  glVertex3fv(P072_link2);
   glNormal3fv(N074);
-  glVertex3fv(P074$link2);
+  glVertex3fv(P074_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N072);
-  glVertex3fv(P072$link2);
-  glNormal3fv(N070$link1);
-  glVertex3fv(P070$link2);
+  glVertex3fv(P072_link2);
+  glNormal3fv(N070_link1);
+  glVertex3fv(P070_link2);
   glNormal3fv(N074);
-  glVertex3fv(P074$link2);
+  glVertex3fv(P074_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N074);
-  glVertex3fv(P074$link2);
-  glNormal3fv(N070$link1);
-  glVertex3fv(P070$link2);
+  glVertex3fv(P074_link2);
+  glNormal3fv(N070_link1);
+  glVertex3fv(P070_link2);
   glNormal3fv(N076);
-  glVertex3fv(P076$link2);
+  glVertex3fv(P076_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N070$link1);
-  glVertex3fv(P070$link2);
+  glNormal3fv(N070_link1);
+  glVertex3fv(P070_link2);
   glNormal3fv(N068);
-  glVertex3fv(P068$link1);
+  glVertex3fv(P068_link1);
   glNormal3fv(N076);
-  glVertex3fv(P076$link2);
+  glVertex3fv(P076_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N076);
-  glVertex3fv(P076$link2);
+  glVertex3fv(P076_link2);
   glNormal3fv(N068);
-  glVertex3fv(P068$link1);
-  glNormal3fv(N010$link1);
-  glVertex3fv(P010$link2);
+  glVertex3fv(P068_link1);
+  glNormal3fv(N010_link1);
+  glVertex3fv(P010_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N068);
-  glVertex3fv(P068$link1);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N010$link1);
-  glVertex3fv(P010$link2);
+  glVertex3fv(P068_link1);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N010_link1);
+  glVertex3fv(P010_link2);
   glEnd();
 }
 
@@ -10048,84 +10048,84 @@ static void Whale001(unsigned int cap)
 static void Whale002(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N011$link1);
-  glVertex3fv(P011$link2);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N009$link1);
-  glVertex3fv(P009$link2);
+  glNormal3fv(N011_link1);
+  glVertex3fv(P011_link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N009_link1);
+  glVertex3fv(P009_link2);
   glEnd();
   glBegin(cap);
   glNormal3fv(N075);
-  glVertex3fv(P075$link2);
-  glNormal3fv(N011$link1);
-  glVertex3fv(P011$link2);
-  glNormal3fv(N009$link1);
-  glVertex3fv(P009$link2);
+  glVertex3fv(P075_link2);
+  glNormal3fv(N011_link1);
+  glVertex3fv(P011_link2);
+  glNormal3fv(N009_link1);
+  glVertex3fv(P009_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N069$link1);
-  glVertex3fv(P069$link2);
-  glNormal3fv(N011$link1);
-  glVertex3fv(P011$link2);
+  glNormal3fv(N069_link1);
+  glVertex3fv(P069_link2);
+  glNormal3fv(N011_link1);
+  glVertex3fv(P011_link2);
   glNormal3fv(N075);
-  glVertex3fv(P075$link2);
+  glVertex3fv(P075_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N069$link1);
-  glVertex3fv(P069$link2);
+  glNormal3fv(N069_link1);
+  glVertex3fv(P069_link2);
   glNormal3fv(N075);
-  glVertex3fv(P075$link2);
+  glVertex3fv(P075_link2);
   glNormal3fv(N073);
-  glVertex3fv(P073$link2);
+  glVertex3fv(P073_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N071$link1);
-  glVertex3fv(P071$link2);
-  glNormal3fv(N069$link1);
-  glVertex3fv(P069$link2);
+  glNormal3fv(N071_link1);
+  glVertex3fv(P071_link2);
+  glNormal3fv(N069_link1);
+  glVertex3fv(P069_link2);
   glNormal3fv(N073);
-  glVertex3fv(P073$link2);
+  glVertex3fv(P073_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N011$link1);
-  glVertex3fv(P011$link2);
-  glNormal3fv(N009$link1);
-  glVertex3fv(P009$link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N011_link1);
+  glVertex3fv(P011_link2);
+  glNormal3fv(N009_link1);
+  glVertex3fv(P009_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N009$link1);
-  glVertex3fv(P009$link2);
-  glNormal3fv(N011$link1);
-  glVertex3fv(P011$link2);
+  glNormal3fv(N009_link1);
+  glVertex3fv(P009_link2);
+  glNormal3fv(N011_link1);
+  glVertex3fv(P011_link2);
   glNormal3fv(N075);
-  glVertex3fv(P075$link2);
+  glVertex3fv(P075_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N011$link1);
-  glVertex3fv(P011$link2);
-  glNormal3fv(N069$link1);
-  glVertex3fv(P069$link2);
+  glNormal3fv(N011_link1);
+  glVertex3fv(P011_link2);
+  glNormal3fv(N069_link1);
+  glVertex3fv(P069_link2);
   glNormal3fv(N075);
-  glVertex3fv(P075$link2);
+  glVertex3fv(P075_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N069$link1);
-  glVertex3fv(P069$link2);
+  glNormal3fv(N069_link1);
+  glVertex3fv(P069_link2);
   glNormal3fv(N073);
-  glVertex3fv(P073$link2);
+  glVertex3fv(P073_link2);
   glNormal3fv(N075);
-  glVertex3fv(P075$link2);
+  glVertex3fv(P075_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N069$link1);
-  glVertex3fv(P069$link2);
-  glNormal3fv(N071$link1);
-  glVertex3fv(P071$link2);
+  glNormal3fv(N069_link1);
+  glVertex3fv(P069_link2);
+  glNormal3fv(N071_link1);
+  glVertex3fv(P071_link2);
   glNormal3fv(N073);
-  glVertex3fv(P073$link2);
+  glVertex3fv(P073_link2);
   glEnd();
 }
 
@@ -10134,68 +10134,68 @@ static void Whale002(unsigned int cap)
 static void Whale003(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N018$link2);
-  glVertex3fv(P018$link2);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N019$link2);
-  glVertex3fv(P019$link2);
+  glNormal3fv(N018_link2);
+  glVertex3fv(P018_link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N019_link2);
+  glVertex3fv(P019_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N019$link2);
-  glVertex3fv(P019$link2);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N012$link2);
-  glVertex3fv(P012$link2);
+  glNormal3fv(N019_link2);
+  glVertex3fv(P019_link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N012_link2);
+  glVertex3fv(P012_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N017$link2);
-  glVertex3fv(P017$link2);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N018$link2);
-  glVertex3fv(P018$link2);
+  glNormal3fv(N017_link2);
+  glVertex3fv(P017_link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N018_link2);
+  glVertex3fv(P018_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N017$link2);
-  glVertex3fv(P017$link2);
-  glNormal3fv(N016$link2);
-  glVertex3fv(P016$link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N017_link2);
+  glVertex3fv(P017_link2);
+  glNormal3fv(N016_link2);
+  glVertex3fv(P016_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N013$link2);
-  glVertex3fv(P013$link2);
-  glNormal3fv(N012$link2);
-  glVertex3fv(P012$link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N013_link2);
+  glVertex3fv(P013_link2);
+  glNormal3fv(N012_link2);
+  glVertex3fv(P012_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N016$link2);
-  glVertex3fv(P016$link2);
-  glNormal3fv(N015$link2);
-  glVertex3fv(P015$link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N016_link2);
+  glVertex3fv(P016_link2);
+  glNormal3fv(N015_link2);
+  glVertex3fv(P015_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N014$link2);
-  glVertex3fv(P014$link2);
-  glNormal3fv(N013$link2);
-  glVertex3fv(P013$link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N014_link2);
+  glVertex3fv(P014_link2);
+  glNormal3fv(N013_link2);
+  glVertex3fv(P013_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N001$link1);
-  glVertex3fv(P001$link1);
-  glNormal3fv(N015$link2);
-  glVertex3fv(P015$link2);
-  glNormal3fv(N014$link2);
-  glVertex3fv(P014$link2);
+  glNormal3fv(N001_link1);
+  glVertex3fv(P001_link1);
+  glNormal3fv(N015_link2);
+  glVertex3fv(P015_link2);
+  glNormal3fv(N014_link2);
+  glVertex3fv(P014_link2);
   glEnd();
 }
 
@@ -10204,84 +10204,84 @@ static void Whale003(unsigned int cap)
 static void Whale004(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N014$link2);
-  glVertex3fv(P014$link2);
-  glNormal3fv(N015$link2);
-  glVertex3fv(P015$link2);
-  glNormal3fv(N023$link2);
-  glVertex3fv(P023$link2);
-  glNormal3fv(N022$link2);
-  glVertex3fv(P022$link2);
+  glNormal3fv(N014_link2);
+  glVertex3fv(P014_link2);
+  glNormal3fv(N015_link2);
+  glVertex3fv(P015_link2);
+  glNormal3fv(N023_link2);
+  glVertex3fv(P023_link2);
+  glNormal3fv(N022_link2);
+  glVertex3fv(P022_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N015$link2);
-  glVertex3fv(P015$link2);
-  glNormal3fv(N016$link2);
-  glVertex3fv(P016$link2);
-  glNormal3fv(N024$link2);
-  glVertex3fv(P024$link2);
-  glNormal3fv(N023$link2);
-  glVertex3fv(P023$link2);
+  glNormal3fv(N015_link2);
+  glVertex3fv(P015_link2);
+  glNormal3fv(N016_link2);
+  glVertex3fv(P016_link2);
+  glNormal3fv(N024_link2);
+  glVertex3fv(P024_link2);
+  glNormal3fv(N023_link2);
+  glVertex3fv(P023_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N016$link2);
-  glVertex3fv(P016$link2);
-  glNormal3fv(N017$link2);
-  glVertex3fv(P017$link2);
-  glNormal3fv(N025$link2);
-  glVertex3fv(P025$link2);
-  glNormal3fv(N024$link2);
-  glVertex3fv(P024$link2);
+  glNormal3fv(N016_link2);
+  glVertex3fv(P016_link2);
+  glNormal3fv(N017_link2);
+  glVertex3fv(P017_link2);
+  glNormal3fv(N025_link2);
+  glVertex3fv(P025_link2);
+  glNormal3fv(N024_link2);
+  glVertex3fv(P024_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N017$link2);
-  glVertex3fv(P017$link2);
-  glNormal3fv(N018$link2);
-  glVertex3fv(P018$link2);
-  glNormal3fv(N026$link2);
-  glVertex3fv(P026$link2);
-  glNormal3fv(N025$link2);
-  glVertex3fv(P025$link2);
+  glNormal3fv(N017_link2);
+  glVertex3fv(P017_link2);
+  glNormal3fv(N018_link2);
+  glVertex3fv(P018_link2);
+  glNormal3fv(N026_link2);
+  glVertex3fv(P026_link2);
+  glNormal3fv(N025_link2);
+  glVertex3fv(P025_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N013$link2);
-  glVertex3fv(P013$link2);
-  glNormal3fv(N014$link2);
-  glVertex3fv(P014$link2);
-  glNormal3fv(N022$link2);
-  glVertex3fv(P022$link2);
-  glNormal3fv(N021$link2);
-  glVertex3fv(P021$link2);
+  glNormal3fv(N013_link2);
+  glVertex3fv(P013_link2);
+  glNormal3fv(N014_link2);
+  glVertex3fv(P014_link2);
+  glNormal3fv(N022_link2);
+  glVertex3fv(P022_link2);
+  glNormal3fv(N021_link2);
+  glVertex3fv(P021_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N012$link2);
-  glVertex3fv(P012$link2);
-  glNormal3fv(N013$link2);
-  glVertex3fv(P013$link2);
-  glNormal3fv(N021$link2);
-  glVertex3fv(P021$link2);
-  glNormal3fv(N020$link2);
-  glVertex3fv(P020$link2);
+  glNormal3fv(N012_link2);
+  glVertex3fv(P012_link2);
+  glNormal3fv(N013_link2);
+  glVertex3fv(P013_link2);
+  glNormal3fv(N021_link2);
+  glVertex3fv(P021_link2);
+  glNormal3fv(N020_link2);
+  glVertex3fv(P020_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N018$link2);
-  glVertex3fv(P018$link2);
-  glNormal3fv(N019$link2);
-  glVertex3fv(P019$link2);
-  glNormal3fv(N027$link2);
-  glVertex3fv(P027$link2);
-  glNormal3fv(N026$link2);
-  glVertex3fv(P026$link2);
+  glNormal3fv(N018_link2);
+  glVertex3fv(P018_link2);
+  glNormal3fv(N019_link2);
+  glVertex3fv(P019_link2);
+  glNormal3fv(N027_link2);
+  glVertex3fv(P027_link2);
+  glNormal3fv(N026_link2);
+  glVertex3fv(P026_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N019$link2);
-  glVertex3fv(P019$link2);
-  glNormal3fv(N012$link2);
-  glVertex3fv(P012$link2);
-  glNormal3fv(N020$link2);
-  glVertex3fv(P020$link2);
-  glNormal3fv(N027$link2);
-  glVertex3fv(P027$link2);
+  glNormal3fv(N019_link2);
+  glVertex3fv(P019_link2);
+  glNormal3fv(N012_link2);
+  glVertex3fv(P012_link2);
+  glNormal3fv(N020_link2);
+  glVertex3fv(P020_link2);
+  glNormal3fv(N027_link2);
+  glVertex3fv(P027_link2);
   glEnd();
 }
 
@@ -10290,120 +10290,120 @@ static void Whale004(unsigned int cap)
 static void Whale005(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N022$link2);
-  glVertex3fv(P022$link2);
-  glNormal3fv(N023$link2);
-  glVertex3fv(P023$link2);
-  glNormal3fv(N031$link2);
-  glVertex3fv(P031$link2);
-  glNormal3fv(N030$link2);
-  glVertex3fv(P030$link2);
+  glNormal3fv(N022_link2);
+  glVertex3fv(P022_link2);
+  glNormal3fv(N023_link2);
+  glVertex3fv(P023_link2);
+  glNormal3fv(N031_link2);
+  glVertex3fv(P031_link2);
+  glNormal3fv(N030_link2);
+  glVertex3fv(P030_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N021$link2);
-  glVertex3fv(P021$link2);
-  glNormal3fv(N022$link2);
-  glVertex3fv(P022$link2);
-  glNormal3fv(N030$link2);
-  glVertex3fv(P030$link2);
+  glNormal3fv(N021_link2);
+  glVertex3fv(P021_link2);
+  glNormal3fv(N022_link2);
+  glVertex3fv(P022_link2);
+  glNormal3fv(N030_link2);
+  glVertex3fv(P030_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N021$link2);
-  glVertex3fv(P021$link2);
-  glNormal3fv(N030$link2);
-  glVertex3fv(P030$link2);
-  glNormal3fv(N029$link2);
-  glVertex3fv(P029$link2);
+  glNormal3fv(N021_link2);
+  glVertex3fv(P021_link2);
+  glNormal3fv(N030_link2);
+  glVertex3fv(P030_link2);
+  glNormal3fv(N029_link2);
+  glVertex3fv(P029_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N023$link2);
-  glVertex3fv(P023$link2);
-  glNormal3fv(N024$link2);
-  glVertex3fv(P024$link2);
-  glNormal3fv(N031$link2);
-  glVertex3fv(P031$link2);
+  glNormal3fv(N023_link2);
+  glVertex3fv(P023_link2);
+  glNormal3fv(N024_link2);
+  glVertex3fv(P024_link2);
+  glNormal3fv(N031_link2);
+  glVertex3fv(P031_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N024$link2);
-  glVertex3fv(P024$link2);
-  glNormal3fv(N032$link2);
-  glVertex3fv(P032$link2);
-  glNormal3fv(N031$link2);
-  glVertex3fv(P031$link2);
+  glNormal3fv(N024_link2);
+  glVertex3fv(P024_link2);
+  glNormal3fv(N032_link2);
+  glVertex3fv(P032_link2);
+  glNormal3fv(N031_link2);
+  glVertex3fv(P031_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N024$link2);
-  glVertex3fv(P024$link2);
-  glNormal3fv(N025$link2);
-  glVertex3fv(P025$link2);
-  glNormal3fv(N032$link2);
-  glVertex3fv(P032$link2);
+  glNormal3fv(N024_link2);
+  glVertex3fv(P024_link2);
+  glNormal3fv(N025_link2);
+  glVertex3fv(P025_link2);
+  glNormal3fv(N032_link2);
+  glVertex3fv(P032_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N025$link2);
-  glVertex3fv(P025$link2);
-  glNormal3fv(N033$link2);
-  glVertex3fv(P033$link2);
-  glNormal3fv(N032$link2);
-  glVertex3fv(P032$link2);
+  glNormal3fv(N025_link2);
+  glVertex3fv(P025_link2);
+  glNormal3fv(N033_link2);
+  glVertex3fv(P033_link2);
+  glNormal3fv(N032_link2);
+  glVertex3fv(P032_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N020$link2);
-  glVertex3fv(P020$link2);
-  glNormal3fv(N021$link2);
-  glVertex3fv(P021$link2);
-  glNormal3fv(N029$link2);
-  glVertex3fv(P029$link2);
+  glNormal3fv(N020_link2);
+  glVertex3fv(P020_link2);
+  glNormal3fv(N021_link2);
+  glVertex3fv(P021_link2);
+  glNormal3fv(N029_link2);
+  glVertex3fv(P029_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N020$link2);
-  glVertex3fv(P020$link2);
-  glNormal3fv(N029$link2);
-  glVertex3fv(P029$link2);
-  glNormal3fv(N028$link2);
-  glVertex3fv(P028$link2);
+  glNormal3fv(N020_link2);
+  glVertex3fv(P020_link2);
+  glNormal3fv(N029_link2);
+  glVertex3fv(P029_link2);
+  glNormal3fv(N028_link2);
+  glVertex3fv(P028_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N027$link2);
-  glVertex3fv(P027$link2);
-  glNormal3fv(N020$link2);
-  glVertex3fv(P020$link2);
-  glNormal3fv(N028$link2);
-  glVertex3fv(P028$link2);
+  glNormal3fv(N027_link2);
+  glVertex3fv(P027_link2);
+  glNormal3fv(N020_link2);
+  glVertex3fv(P020_link2);
+  glNormal3fv(N028_link2);
+  glVertex3fv(P028_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N027$link2);
-  glVertex3fv(P027$link2);
-  glNormal3fv(N028$link2);
-  glVertex3fv(P028$link2);
-  glNormal3fv(N035$link2);
-  glVertex3fv(P035$link2);
+  glNormal3fv(N027_link2);
+  glVertex3fv(P027_link2);
+  glNormal3fv(N028_link2);
+  glVertex3fv(P028_link2);
+  glNormal3fv(N035_link2);
+  glVertex3fv(P035_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N025$link2);
-  glVertex3fv(P025$link2);
-  glNormal3fv(N026$link2);
-  glVertex3fv(P026$link2);
-  glNormal3fv(N033$link2);
-  glVertex3fv(P033$link2);
+  glNormal3fv(N025_link2);
+  glVertex3fv(P025_link2);
+  glNormal3fv(N026_link2);
+  glVertex3fv(P026_link2);
+  glNormal3fv(N033_link2);
+  glVertex3fv(P033_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N033$link2);
-  glVertex3fv(P033$link2);
-  glNormal3fv(N026$link2);
-  glVertex3fv(P026$link2);
-  glNormal3fv(N034$link2);
-  glVertex3fv(P034$link2);
+  glNormal3fv(N033_link2);
+  glVertex3fv(P033_link2);
+  glNormal3fv(N026_link2);
+  glVertex3fv(P026_link2);
+  glNormal3fv(N034_link2);
+  glVertex3fv(P034_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N026$link2);
-  glVertex3fv(P026$link2);
-  glNormal3fv(N027$link2);
-  glVertex3fv(P027$link2);
-  glNormal3fv(N035$link2);
-  glVertex3fv(P035$link2);
-  glNormal3fv(N034$link2);
-  glVertex3fv(P034$link2);
+  glNormal3fv(N026_link2);
+  glVertex3fv(P026_link2);
+  glNormal3fv(N027_link2);
+  glVertex3fv(P027_link2);
+  glNormal3fv(N035_link2);
+  glVertex3fv(P035_link2);
+  glNormal3fv(N034_link2);
+  glVertex3fv(P034_link2);
   glEnd();
 }
 
@@ -10412,40 +10412,40 @@ static void Whale005(unsigned int cap)
 static void Whale006(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N092$link1);
-  glVertex3fv(P092$link1);
-  glNormal3fv(N093$link1);
-  glVertex3fv(P093$link1);
-  glNormal3fv(N094$link1);
-  glVertex3fv(P094$link1);
+  glNormal3fv(N092_link1);
+  glVertex3fv(P092_link1);
+  glNormal3fv(N093_link1);
+  glVertex3fv(P093_link1);
+  glNormal3fv(N094_link1);
+  glVertex3fv(P094_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N093$link1);
-  glVertex3fv(P093$link1);
-  glNormal3fv(N092$link1);
-  glVertex3fv(P092$link1);
-  glNormal3fv(N094$link1);
-  glVertex3fv(P094$link1);
+  glNormal3fv(N093_link1);
+  glVertex3fv(P093_link1);
+  glNormal3fv(N092_link1);
+  glVertex3fv(P092_link1);
+  glNormal3fv(N094_link1);
+  glVertex3fv(P094_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N092$link1);
-  glVertex3fv(P092$link1);
-  glNormal3fv(N091$link1);
-  glVertex3fv(P091$link1);
-  glNormal3fv(N095$link1);
-  glVertex3fv(P095$link1);
-  glNormal3fv(N094$link1);
-  glVertex3fv(P094$link1);
+  glNormal3fv(N092_link1);
+  glVertex3fv(P092_link1);
+  glNormal3fv(N091_link1);
+  glVertex3fv(P091_link1);
+  glNormal3fv(N095_link1);
+  glVertex3fv(P095_link1);
+  glNormal3fv(N094_link1);
+  glVertex3fv(P094_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N091$link1);
-  glVertex3fv(P091$link1);
-  glNormal3fv(N092$link1);
-  glVertex3fv(P092$link1);
-  glNormal3fv(N094$link1);
-  glVertex3fv(P094$link1);
-  glNormal3fv(N095$link1);
-  glVertex3fv(P095$link1);
+  glNormal3fv(N091_link1);
+  glVertex3fv(P091_link1);
+  glNormal3fv(N092_link1);
+  glVertex3fv(P092_link1);
+  glNormal3fv(N094_link1);
+  glVertex3fv(P094_link1);
+  glNormal3fv(N095_link1);
+  glVertex3fv(P095_link1);
   glEnd();
 }
 
@@ -10454,120 +10454,120 @@ static void Whale006(unsigned int cap)
 static void Whale007(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N030$link2);
-  glVertex3fv(P030$link2);
-  glNormal3fv(N031$link2);
-  glVertex3fv(P031$link2);
-  glNormal3fv(N039$link2);
-  glVertex3fv(P039$link2);
-  glNormal3fv(N038$link2);
-  glVertex3fv(P038$link2);
+  glNormal3fv(N030_link2);
+  glVertex3fv(P030_link2);
+  glNormal3fv(N031_link2);
+  glVertex3fv(P031_link2);
+  glNormal3fv(N039_link2);
+  glVertex3fv(P039_link2);
+  glNormal3fv(N038_link2);
+  glVertex3fv(P038_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N029$link2);
-  glVertex3fv(P029$link2);
-  glNormal3fv(N030$link2);
-  glVertex3fv(P030$link2);
-  glNormal3fv(N038$link2);
-  glVertex3fv(P038$link2);
+  glNormal3fv(N029_link2);
+  glVertex3fv(P029_link2);
+  glNormal3fv(N030_link2);
+  glVertex3fv(P030_link2);
+  glNormal3fv(N038_link2);
+  glVertex3fv(P038_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N029$link2);
-  glVertex3fv(P029$link2);
-  glNormal3fv(N038$link2);
-  glVertex3fv(P038$link2);
-  glNormal3fv(N037$link2);
-  glVertex3fv(P037$link2);
+  glNormal3fv(N029_link2);
+  glVertex3fv(P029_link2);
+  glNormal3fv(N038_link2);
+  glVertex3fv(P038_link2);
+  glNormal3fv(N037_link2);
+  glVertex3fv(P037_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N028$link2);
-  glVertex3fv(P028$link2);
-  glNormal3fv(N029$link2);
-  glVertex3fv(P029$link2);
-  glNormal3fv(N037$link2);
-  glVertex3fv(P037$link2);
+  glNormal3fv(N028_link2);
+  glVertex3fv(P028_link2);
+  glNormal3fv(N029_link2);
+  glVertex3fv(P029_link2);
+  glNormal3fv(N037_link2);
+  glVertex3fv(P037_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N028$link2);
-  glVertex3fv(P028$link2);
-  glNormal3fv(N037$link2);
-  glVertex3fv(P037$link2);
-  glNormal3fv(N036$link2);
-  glVertex3fv(P036$link2);
+  glNormal3fv(N028_link2);
+  glVertex3fv(P028_link2);
+  glNormal3fv(N037_link2);
+  glVertex3fv(P037_link2);
+  glNormal3fv(N036_link2);
+  glVertex3fv(P036_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N035$link2);
-  glVertex3fv(P035$link2);
-  glNormal3fv(N028$link2);
-  glVertex3fv(P028$link2);
-  glNormal3fv(N036$link2);
-  glVertex3fv(P036$link2);
+  glNormal3fv(N035_link2);
+  glVertex3fv(P035_link2);
+  glNormal3fv(N028_link2);
+  glVertex3fv(P028_link2);
+  glNormal3fv(N036_link2);
+  glVertex3fv(P036_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N035$link2);
-  glVertex3fv(P035$link2);
-  glNormal3fv(N036$link2);
-  glVertex3fv(P036$link2);
-  glNormal3fv(N043$link2);
-  glVertex3fv(P043$link2);
+  glNormal3fv(N035_link2);
+  glVertex3fv(P035_link2);
+  glNormal3fv(N036_link2);
+  glVertex3fv(P036_link2);
+  glNormal3fv(N043_link2);
+  glVertex3fv(P043_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N034$link2);
-  glVertex3fv(P034$link2);
-  glNormal3fv(N035$link2);
-  glVertex3fv(P035$link2);
-  glNormal3fv(N043$link2);
-  glVertex3fv(P043$link2);
-  glNormal3fv(N042$link2);
-  glVertex3fv(P042$link2);
+  glNormal3fv(N034_link2);
+  glVertex3fv(P034_link2);
+  glNormal3fv(N035_link2);
+  glVertex3fv(P035_link2);
+  glNormal3fv(N043_link2);
+  glVertex3fv(P043_link2);
+  glNormal3fv(N042_link2);
+  glVertex3fv(P042_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N033$link2);
-  glVertex3fv(P033$link2);
-  glNormal3fv(N034$link2);
-  glVertex3fv(P034$link2);
-  glNormal3fv(N042$link2);
-  glVertex3fv(P042$link2);
+  glNormal3fv(N033_link2);
+  glVertex3fv(P033_link2);
+  glNormal3fv(N034_link2);
+  glVertex3fv(P034_link2);
+  glNormal3fv(N042_link2);
+  glVertex3fv(P042_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N033$link2);
-  glVertex3fv(P033$link2);
-  glNormal3fv(N042$link2);
-  glVertex3fv(P042$link2);
-  glNormal3fv(N041$link2);
-  glVertex3fv(P041$link2);
+  glNormal3fv(N033_link2);
+  glVertex3fv(P033_link2);
+  glNormal3fv(N042_link2);
+  glVertex3fv(P042_link2);
+  glNormal3fv(N041_link2);
+  glVertex3fv(P041_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N031$link2);
-  glVertex3fv(P031$link2);
-  glNormal3fv(N032$link2);
-  glVertex3fv(P032$link2);
-  glNormal3fv(N039$link2);
-  glVertex3fv(P039$link2);
+  glNormal3fv(N031_link2);
+  glVertex3fv(P031_link2);
+  glNormal3fv(N032_link2);
+  glVertex3fv(P032_link2);
+  glNormal3fv(N039_link2);
+  glVertex3fv(P039_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N039$link2);
-  glVertex3fv(P039$link2);
-  glNormal3fv(N032$link2);
-  glVertex3fv(P032$link2);
-  glNormal3fv(N040$link2);
-  glVertex3fv(P040$link2);
+  glNormal3fv(N039_link2);
+  glVertex3fv(P039_link2);
+  glNormal3fv(N032_link2);
+  glVertex3fv(P032_link2);
+  glNormal3fv(N040_link2);
+  glVertex3fv(P040_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N032$link2);
-  glVertex3fv(P032$link2);
-  glNormal3fv(N033$link2);
-  glVertex3fv(P033$link2);
-  glNormal3fv(N040$link2);
-  glVertex3fv(P040$link2);
+  glNormal3fv(N032_link2);
+  glVertex3fv(P032_link2);
+  glNormal3fv(N033_link2);
+  glVertex3fv(P033_link2);
+  glNormal3fv(N040_link2);
+  glVertex3fv(P040_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N040$link2);
-  glVertex3fv(P040$link2);
-  glNormal3fv(N033$link2);
-  glVertex3fv(P033$link2);
-  glNormal3fv(N041$link2);
-  glVertex3fv(P041$link2);
+  glNormal3fv(N040_link2);
+  glVertex3fv(P040_link2);
+  glNormal3fv(N033_link2);
+  glVertex3fv(P033_link2);
+  glNormal3fv(N041_link2);
+  glVertex3fv(P041_link2);
   glEnd();
 }
 
@@ -10576,120 +10576,120 @@ static void Whale007(unsigned int cap)
 static void Whale008(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N042$link2);
-  glVertex3fv(P042$link2);
-  glNormal3fv(N043$link2);
-  glVertex3fv(P043$link2);
-  glNormal3fv(N051$link2);
-  glVertex3fv(P051$link2);
-  glNormal3fv(N050$link2);
-  glVertex3fv(P050$link2);
+  glNormal3fv(N042_link2);
+  glVertex3fv(P042_link2);
+  glNormal3fv(N043_link2);
+  glVertex3fv(P043_link2);
+  glNormal3fv(N051_link2);
+  glVertex3fv(P051_link2);
+  glNormal3fv(N050_link2);
+  glVertex3fv(P050_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N043$link2);
-  glVertex3fv(P043$link2);
-  glNormal3fv(N036$link2);
-  glVertex3fv(P036$link2);
-  glNormal3fv(N051$link2);
-  glVertex3fv(P051$link2);
+  glNormal3fv(N043_link2);
+  glVertex3fv(P043_link2);
+  glNormal3fv(N036_link2);
+  glVertex3fv(P036_link2);
+  glNormal3fv(N051_link2);
+  glVertex3fv(P051_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N051$link2);
-  glVertex3fv(P051$link2);
-  glNormal3fv(N036$link2);
-  glVertex3fv(P036$link2);
-  glNormal3fv(N044$link2);
-  glVertex3fv(P044$link2);
+  glNormal3fv(N051_link2);
+  glVertex3fv(P051_link2);
+  glNormal3fv(N036_link2);
+  glVertex3fv(P036_link2);
+  glNormal3fv(N044_link2);
+  glVertex3fv(P044_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N041$link2);
-  glVertex3fv(P041$link2);
-  glNormal3fv(N042$link2);
-  glVertex3fv(P042$link2);
-  glNormal3fv(N050$link2);
-  glVertex3fv(P050$link2);
+  glNormal3fv(N041_link2);
+  glVertex3fv(P041_link2);
+  glNormal3fv(N042_link2);
+  glVertex3fv(P042_link2);
+  glNormal3fv(N050_link2);
+  glVertex3fv(P050_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N041$link2);
-  glVertex3fv(P041$link2);
-  glNormal3fv(N050$link2);
-  glVertex3fv(P050$link2);
-  glNormal3fv(N049$link2);
-  glVertex3fv(P049$link2);
+  glNormal3fv(N041_link2);
+  glVertex3fv(P041_link2);
+  glNormal3fv(N050_link2);
+  glVertex3fv(P050_link2);
+  glNormal3fv(N049_link2);
+  glVertex3fv(P049_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N036$link2);
-  glVertex3fv(P036$link2);
-  glNormal3fv(N037$link2);
-  glVertex3fv(P037$link2);
-  glNormal3fv(N044$link2);
-  glVertex3fv(P044$link2);
+  glNormal3fv(N036_link2);
+  glVertex3fv(P036_link2);
+  glNormal3fv(N037_link2);
+  glVertex3fv(P037_link2);
+  glNormal3fv(N044_link2);
+  glVertex3fv(P044_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N044$link2);
-  glVertex3fv(P044$link2);
-  glNormal3fv(N037$link2);
-  glVertex3fv(P037$link2);
-  glNormal3fv(N045$link2);
-  glVertex3fv(P045$link2);
+  glNormal3fv(N044_link2);
+  glVertex3fv(P044_link2);
+  glNormal3fv(N037_link2);
+  glVertex3fv(P037_link2);
+  glNormal3fv(N045_link2);
+  glVertex3fv(P045_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N040$link2);
-  glVertex3fv(P040$link2);
-  glNormal3fv(N041$link2);
-  glVertex3fv(P041$link2);
-  glNormal3fv(N049$link2);
-  glVertex3fv(P049$link2);
+  glNormal3fv(N040_link2);
+  glVertex3fv(P040_link2);
+  glNormal3fv(N041_link2);
+  glVertex3fv(P041_link2);
+  glNormal3fv(N049_link2);
+  glVertex3fv(P049_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N040$link2);
-  glVertex3fv(P040$link2);
-  glNormal3fv(N049$link2);
-  glVertex3fv(P049$link2);
-  glNormal3fv(N048$link2);
-  glVertex3fv(P048$link2);
+  glNormal3fv(N040_link2);
+  glVertex3fv(P040_link2);
+  glNormal3fv(N049_link2);
+  glVertex3fv(P049_link2);
+  glNormal3fv(N048_link2);
+  glVertex3fv(P048_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N039$link2);
-  glVertex3fv(P039$link2);
-  glNormal3fv(N040$link2);
-  glVertex3fv(P040$link2);
-  glNormal3fv(N048$link2);
-  glVertex3fv(P048$link2);
+  glNormal3fv(N039_link2);
+  glVertex3fv(P039_link2);
+  glNormal3fv(N040_link2);
+  glVertex3fv(P040_link2);
+  glNormal3fv(N048_link2);
+  glVertex3fv(P048_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N039$link2);
-  glVertex3fv(P039$link2);
-  glNormal3fv(N048$link2);
-  glVertex3fv(P048$link2);
-  glNormal3fv(N047$link2);
-  glVertex3fv(P047$link2);
+  glNormal3fv(N039_link2);
+  glVertex3fv(P039_link2);
+  glNormal3fv(N048_link2);
+  glVertex3fv(P048_link2);
+  glNormal3fv(N047_link2);
+  glVertex3fv(P047_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N037$link2);
-  glVertex3fv(P037$link2);
-  glNormal3fv(N038$link2);
-  glVertex3fv(P038$link2);
-  glNormal3fv(N045$link2);
-  glVertex3fv(P045$link2);
+  glNormal3fv(N037_link2);
+  glVertex3fv(P037_link2);
+  glNormal3fv(N038_link2);
+  glVertex3fv(P038_link2);
+  glNormal3fv(N045_link2);
+  glVertex3fv(P045_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N038$link2);
-  glVertex3fv(P038$link2);
-  glNormal3fv(N046$link2);
-  glVertex3fv(P046$link2);
-  glNormal3fv(N045$link2);
-  glVertex3fv(P045$link2);
+  glNormal3fv(N038_link2);
+  glVertex3fv(P038_link2);
+  glNormal3fv(N046_link2);
+  glVertex3fv(P046_link2);
+  glNormal3fv(N045_link2);
+  glVertex3fv(P045_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N038$link2);
-  glVertex3fv(P038$link2);
-  glNormal3fv(N039$link2);
-  glVertex3fv(P039$link2);
-  glNormal3fv(N047$link2);
-  glVertex3fv(P047$link2);
-  glNormal3fv(N046$link2);
-  glVertex3fv(P046$link2);
+  glNormal3fv(N038_link2);
+  glVertex3fv(P038_link2);
+  glNormal3fv(N039_link2);
+  glVertex3fv(P039_link2);
+  glNormal3fv(N047_link2);
+  glVertex3fv(P047_link2);
+  glNormal3fv(N046_link2);
+  glVertex3fv(P046_link2);
   glEnd();
 }
 
@@ -10698,120 +10698,120 @@ static void Whale008(unsigned int cap)
 static void Whale009(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N050$link2);
-  glVertex3fv(P050$link2);
-  glNormal3fv(N051$link2);
-  glVertex3fv(P051$link2);
-  glNormal3fv(N059$link2);
-  glVertex3fv(P059$link2);
-  glNormal3fv(N058$link2);
-  glVertex3fv(P058$link2);
+  glNormal3fv(N050_link2);
+  glVertex3fv(P050_link2);
+  glNormal3fv(N051_link2);
+  glVertex3fv(P051_link2);
+  glNormal3fv(N059_link2);
+  glVertex3fv(P059_link2);
+  glNormal3fv(N058_link2);
+  glVertex3fv(P058_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N051$link2);
-  glVertex3fv(P051$link2);
-  glNormal3fv(N044$link2);
-  glVertex3fv(P044$link2);
-  glNormal3fv(N059$link2);
-  glVertex3fv(P059$link2);
+  glNormal3fv(N051_link2);
+  glVertex3fv(P051_link2);
+  glNormal3fv(N044_link2);
+  glVertex3fv(P044_link2);
+  glNormal3fv(N059_link2);
+  glVertex3fv(P059_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N059$link2);
-  glVertex3fv(P059$link2);
-  glNormal3fv(N044$link2);
-  glVertex3fv(P044$link2);
-  glNormal3fv(N052$link2);
-  glVertex3fv(P052$link2);
+  glNormal3fv(N059_link2);
+  glVertex3fv(P059_link2);
+  glNormal3fv(N044_link2);
+  glVertex3fv(P044_link2);
+  glNormal3fv(N052_link2);
+  glVertex3fv(P052_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N044$link2);
-  glVertex3fv(P044$link2);
-  glNormal3fv(N045$link2);
-  glVertex3fv(P045$link2);
-  glNormal3fv(N053$link1);
-  glVertex3fv(P053$link1);
+  glNormal3fv(N044_link2);
+  glVertex3fv(P044_link2);
+  glNormal3fv(N045_link2);
+  glVertex3fv(P045_link2);
+  glNormal3fv(N053_link1);
+  glVertex3fv(P053_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N044$link2);
-  glVertex3fv(P044$link2);
-  glNormal3fv(N053$link1);
-  glVertex3fv(P053$link1);
-  glNormal3fv(N052$link2);
-  glVertex3fv(P052$link2);
+  glNormal3fv(N044_link2);
+  glVertex3fv(P044_link2);
+  glNormal3fv(N053_link1);
+  glVertex3fv(P053_link1);
+  glNormal3fv(N052_link2);
+  glVertex3fv(P052_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N049$link2);
-  glVertex3fv(P049$link2);
-  glNormal3fv(N050$link2);
-  glVertex3fv(P050$link2);
-  glNormal3fv(N058$link2);
-  glVertex3fv(P058$link2);
+  glNormal3fv(N049_link2);
+  glVertex3fv(P049_link2);
+  glNormal3fv(N050_link2);
+  glVertex3fv(P050_link2);
+  glNormal3fv(N058_link2);
+  glVertex3fv(P058_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N049$link2);
-  glVertex3fv(P049$link2);
-  glNormal3fv(N058$link2);
-  glVertex3fv(P058$link2);
-  glNormal3fv(N057$link1);
-  glVertex3fv(P057$link1);
+  glNormal3fv(N049_link2);
+  glVertex3fv(P049_link2);
+  glNormal3fv(N058_link2);
+  glVertex3fv(P058_link2);
+  glNormal3fv(N057_link1);
+  glVertex3fv(P057_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N048$link2);
-  glVertex3fv(P048$link2);
-  glNormal3fv(N049$link2);
-  glVertex3fv(P049$link2);
-  glNormal3fv(N057$link1);
-  glVertex3fv(P057$link1);
+  glNormal3fv(N048_link2);
+  glVertex3fv(P048_link2);
+  glNormal3fv(N049_link2);
+  glVertex3fv(P049_link2);
+  glNormal3fv(N057_link1);
+  glVertex3fv(P057_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N048$link2);
-  glVertex3fv(P048$link2);
-  glNormal3fv(N057$link1);
-  glVertex3fv(P057$link1);
-  glNormal3fv(N056$link1);
-  glVertex3fv(P056$link1);
+  glNormal3fv(N048_link2);
+  glVertex3fv(P048_link2);
+  glNormal3fv(N057_link1);
+  glVertex3fv(P057_link1);
+  glNormal3fv(N056_link1);
+  glVertex3fv(P056_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N047$link2);
-  glVertex3fv(P047$link2);
-  glNormal3fv(N048$link2);
-  glVertex3fv(P048$link2);
-  glNormal3fv(N056$link1);
-  glVertex3fv(P056$link1);
+  glNormal3fv(N047_link2);
+  glVertex3fv(P047_link2);
+  glNormal3fv(N048_link2);
+  glVertex3fv(P048_link2);
+  glNormal3fv(N056_link1);
+  glVertex3fv(P056_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N047$link2);
-  glVertex3fv(P047$link2);
-  glNormal3fv(N056$link1);
-  glVertex3fv(P056$link1);
-  glNormal3fv(N055$link1);
-  glVertex3fv(P055$link1);
+  glNormal3fv(N047_link2);
+  glVertex3fv(P047_link2);
+  glNormal3fv(N056_link1);
+  glVertex3fv(P056_link1);
+  glNormal3fv(N055_link1);
+  glVertex3fv(P055_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N045$link2);
-  glVertex3fv(P045$link2);
-  glNormal3fv(N046$link2);
-  glVertex3fv(P046$link2);
-  glNormal3fv(N053$link1);
-  glVertex3fv(P053$link1);
+  glNormal3fv(N045_link2);
+  glVertex3fv(P045_link2);
+  glNormal3fv(N046_link2);
+  glVertex3fv(P046_link2);
+  glNormal3fv(N053_link1);
+  glVertex3fv(P053_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N046$link2);
-  glVertex3fv(P046$link2);
-  glNormal3fv(N054$link1);
-  glVertex3fv(P054$link1);
-  glNormal3fv(N053$link1);
-  glVertex3fv(P053$link1);
+  glNormal3fv(N046_link2);
+  glVertex3fv(P046_link2);
+  glNormal3fv(N054_link1);
+  glVertex3fv(P054_link1);
+  glNormal3fv(N053_link1);
+  glVertex3fv(P053_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N046$link2);
-  glVertex3fv(P046$link2);
-  glNormal3fv(N047$link2);
-  glVertex3fv(P047$link2);
-  glNormal3fv(N055$link1);
-  glVertex3fv(P055$link1);
-  glNormal3fv(N054$link1);
-  glVertex3fv(P054$link1);
+  glNormal3fv(N046_link2);
+  glVertex3fv(P046_link2);
+  glNormal3fv(N047_link2);
+  glVertex3fv(P047_link2);
+  glNormal3fv(N055_link1);
+  glVertex3fv(P055_link1);
+  glNormal3fv(N054_link1);
+  glVertex3fv(P054_link1);
   glEnd();
 }
 
@@ -10820,84 +10820,84 @@ static void Whale009(unsigned int cap)
 static void Whale010(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N080$link1);
-  glVertex3fv(P080$link2);
-  glNormal3fv(N081$link1);
-  glVertex3fv(P081$link2);
-  glNormal3fv(N085$link1);
-  glVertex3fv(P085$link1);
+  glNormal3fv(N080_link1);
+  glVertex3fv(P080_link2);
+  glNormal3fv(N081_link1);
+  glVertex3fv(P081_link2);
+  glNormal3fv(N085_link1);
+  glVertex3fv(P085_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N081$link1);
-  glVertex3fv(P081$link2);
-  glNormal3fv(N083$link1);
-  glVertex3fv(P083$link1);
-  glNormal3fv(N085$link1);
-  glVertex3fv(P085$link1);
+  glNormal3fv(N081_link1);
+  glVertex3fv(P081_link2);
+  glNormal3fv(N083_link1);
+  glVertex3fv(P083_link1);
+  glNormal3fv(N085_link1);
+  glVertex3fv(P085_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N085$link1);
-  glVertex3fv(P085$link1);
-  glNormal3fv(N083$link1);
-  glVertex3fv(P083$link1);
-  glNormal3fv(N077$link1);
-  glVertex3fv(P077$link2);
+  glNormal3fv(N085_link1);
+  glVertex3fv(P085_link1);
+  glNormal3fv(N083_link1);
+  glVertex3fv(P083_link1);
+  glNormal3fv(N077_link1);
+  glVertex3fv(P077_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N083$link1);
-  glVertex3fv(P083$link1);
-  glNormal3fv(N087$link1);
-  glVertex3fv(P087$link1);
-  glNormal3fv(N077$link1);
-  glVertex3fv(P077$link2);
+  glNormal3fv(N083_link1);
+  glVertex3fv(P083_link1);
+  glNormal3fv(N087_link1);
+  glVertex3fv(P087_link1);
+  glNormal3fv(N077_link1);
+  glVertex3fv(P077_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N077$link1);
-  glVertex3fv(P077$link2);
-  glNormal3fv(N087$link1);
-  glVertex3fv(P087$link1);
-  glNormal3fv(N090$link1);
-  glVertex3fv(P090$link1);
+  glNormal3fv(N077_link1);
+  glVertex3fv(P077_link2);
+  glNormal3fv(N087_link1);
+  glVertex3fv(P087_link1);
+  glNormal3fv(N090_link1);
+  glVertex3fv(P090_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N081$link1);
-  glVertex3fv(P081$link2);
-  glNormal3fv(N080$link1);
-  glVertex3fv(P080$link2);
-  glNormal3fv(N085$link1);
-  glVertex3fv(P085$link1);
+  glNormal3fv(N081_link1);
+  glVertex3fv(P081_link2);
+  glNormal3fv(N080_link1);
+  glVertex3fv(P080_link2);
+  glNormal3fv(N085_link1);
+  glVertex3fv(P085_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N083$link1);
-  glVertex3fv(P083$link1);
-  glNormal3fv(N081$link1);
-  glVertex3fv(P081$link2);
-  glNormal3fv(N085$link1);
-  glVertex3fv(P085$link1);
+  glNormal3fv(N083_link1);
+  glVertex3fv(P083_link1);
+  glNormal3fv(N081_link1);
+  glVertex3fv(P081_link2);
+  glNormal3fv(N085_link1);
+  glVertex3fv(P085_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N083$link1);
-  glVertex3fv(P083$link1);
-  glNormal3fv(N085$link1);
-  glVertex3fv(P085$link1);
-  glNormal3fv(N077$link1);
-  glVertex3fv(P077$link2);
+  glNormal3fv(N083_link1);
+  glVertex3fv(P083_link1);
+  glNormal3fv(N085_link1);
+  glVertex3fv(P085_link1);
+  glNormal3fv(N077_link1);
+  glVertex3fv(P077_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N087$link1);
-  glVertex3fv(P087$link1);
-  glNormal3fv(N083$link1);
-  glVertex3fv(P083$link1);
-  glNormal3fv(N077$link1);
-  glVertex3fv(P077$link2);
+  glNormal3fv(N087_link1);
+  glVertex3fv(P087_link1);
+  glNormal3fv(N083_link1);
+  glVertex3fv(P083_link1);
+  glNormal3fv(N077_link1);
+  glVertex3fv(P077_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N087$link1);
-  glVertex3fv(P087$link1);
-  glNormal3fv(N077$link1);
-  glVertex3fv(P077$link2);
-  glNormal3fv(N090$link1);
-  glVertex3fv(P090$link1);
+  glNormal3fv(N087_link1);
+  glVertex3fv(P087_link1);
+  glNormal3fv(N077_link1);
+  glVertex3fv(P077_link2);
+  glNormal3fv(N090_link1);
+  glVertex3fv(P090_link1);
   glEnd();
 }
 
@@ -10906,84 +10906,84 @@ static void Whale010(unsigned int cap)
 static void Whale011(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N082$link1);
-  glVertex3fv(P082$link2);
-  glNormal3fv(N084$link1);
-  glVertex3fv(P084$link1);
-  glNormal3fv(N079$link1);
-  glVertex3fv(P079$link2);
+  glNormal3fv(N082_link1);
+  glVertex3fv(P082_link2);
+  glNormal3fv(N084_link1);
+  glVertex3fv(P084_link1);
+  glNormal3fv(N079_link1);
+  glVertex3fv(P079_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N084$link1);
-  glVertex3fv(P084$link1);
-  glNormal3fv(N086$link1);
-  glVertex3fv(P086$link1);
-  glNormal3fv(N079$link1);
-  glVertex3fv(P079$link2);
+  glNormal3fv(N084_link1);
+  glVertex3fv(P084_link1);
+  glNormal3fv(N086_link1);
+  glVertex3fv(P086_link1);
+  glNormal3fv(N079_link1);
+  glVertex3fv(P079_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N079$link1);
-  glVertex3fv(P079$link2);
-  glNormal3fv(N086$link1);
-  glVertex3fv(P086$link1);
-  glNormal3fv(N078$link1);
-  glVertex3fv(P078$link2);
+  glNormal3fv(N079_link1);
+  glVertex3fv(P079_link2);
+  glNormal3fv(N086_link1);
+  glVertex3fv(P086_link1);
+  glNormal3fv(N078_link1);
+  glVertex3fv(P078_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N086$link1);
-  glVertex3fv(P086$link1);
-  glNormal3fv(N088$link1);
-  glVertex3fv(P088$link1);
-  glNormal3fv(N078$link1);
-  glVertex3fv(P078$link2);
+  glNormal3fv(N086_link1);
+  glVertex3fv(P086_link1);
+  glNormal3fv(N088_link1);
+  glVertex3fv(P088_link1);
+  glNormal3fv(N078_link1);
+  glVertex3fv(P078_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N078$link1);
-  glVertex3fv(P078$link2);
-  glNormal3fv(N088$link1);
-  glVertex3fv(P088$link1);
-  glNormal3fv(N089$link1);
-  glVertex3fv(P089$link1);
+  glNormal3fv(N078_link1);
+  glVertex3fv(P078_link2);
+  glNormal3fv(N088_link1);
+  glVertex3fv(P088_link1);
+  glNormal3fv(N089_link1);
+  glVertex3fv(P089_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N088$link1);
-  glVertex3fv(P088$link1);
-  glNormal3fv(N086$link1);
-  glVertex3fv(P086$link1);
-  glNormal3fv(N089$link1);
-  glVertex3fv(P089$link1);
+  glNormal3fv(N088_link1);
+  glVertex3fv(P088_link1);
+  glNormal3fv(N086_link1);
+  glVertex3fv(P086_link1);
+  glNormal3fv(N089_link1);
+  glVertex3fv(P089_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N089$link1);
-  glVertex3fv(P089$link1);
-  glNormal3fv(N086$link1);
-  glVertex3fv(P086$link1);
-  glNormal3fv(N078$link1);
-  glVertex3fv(P078$link2);
+  glNormal3fv(N089_link1);
+  glVertex3fv(P089_link1);
+  glNormal3fv(N086_link1);
+  glVertex3fv(P086_link1);
+  glNormal3fv(N078_link1);
+  glVertex3fv(P078_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N086$link1);
-  glVertex3fv(P086$link1);
-  glNormal3fv(N084$link1);
-  glVertex3fv(P084$link1);
-  glNormal3fv(N078$link1);
-  glVertex3fv(P078$link2);
+  glNormal3fv(N086_link1);
+  glVertex3fv(P086_link1);
+  glNormal3fv(N084_link1);
+  glVertex3fv(P084_link1);
+  glNormal3fv(N078_link1);
+  glVertex3fv(P078_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N078$link1);
-  glVertex3fv(P078$link2);
-  glNormal3fv(N084$link1);
-  glVertex3fv(P084$link1);
-  glNormal3fv(N079$link1);
-  glVertex3fv(P079$link2);
+  glNormal3fv(N078_link1);
+  glVertex3fv(P078_link2);
+  glNormal3fv(N084_link1);
+  glVertex3fv(P084_link1);
+  glNormal3fv(N079_link1);
+  glVertex3fv(P079_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N084$link1);
-  glVertex3fv(P084$link1);
-  glNormal3fv(N082$link1);
-  glVertex3fv(P082$link2);
-  glNormal3fv(N079$link1);
-  glVertex3fv(P079$link2);
+  glNormal3fv(N084_link1);
+  glVertex3fv(P084_link1);
+  glNormal3fv(N082_link1);
+  glVertex3fv(P082_link2);
+  glNormal3fv(N079_link1);
+  glVertex3fv(P079_link2);
   glEnd();
 }
 
@@ -10992,110 +10992,110 @@ static void Whale011(unsigned int cap)
 static void Whale012(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N058$link2);
-  glVertex3fv(P058$link2);
-  glNormal3fv(N059$link2);
-  glVertex3fv(P059$link2);
-  glNormal3fv(N067$link1);
-  glVertex3fv(P067$link1);
-  glNormal3fv(N066$link2);
-  glVertex3fv(P066$link2);
+  glNormal3fv(N058_link2);
+  glVertex3fv(P058_link2);
+  glNormal3fv(N059_link2);
+  glVertex3fv(P059_link2);
+  glNormal3fv(N067_link1);
+  glVertex3fv(P067_link1);
+  glNormal3fv(N066_link2);
+  glVertex3fv(P066_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N059$link2);
-  glVertex3fv(P059$link2);
-  glNormal3fv(N052$link2);
-  glVertex3fv(P052$link2);
-  glNormal3fv(N060$link2);
-  glVertex3fv(P060$link2);
+  glNormal3fv(N059_link2);
+  glVertex3fv(P059_link2);
+  glNormal3fv(N052_link2);
+  glVertex3fv(P052_link2);
+  glNormal3fv(N060_link2);
+  glVertex3fv(P060_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N059$link2);
-  glVertex3fv(P059$link2);
-  glNormal3fv(N060$link2);
-  glVertex3fv(P060$link2);
-  glNormal3fv(N067$link1);
-  glVertex3fv(P067$link1);
+  glNormal3fv(N059_link2);
+  glVertex3fv(P059_link2);
+  glNormal3fv(N060_link2);
+  glVertex3fv(P060_link2);
+  glNormal3fv(N067_link1);
+  glVertex3fv(P067_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N058$link2);
-  glVertex3fv(P058$link2);
-  glNormal3fv(N066$link2);
-  glVertex3fv(P066$link2);
-  glNormal3fv(N065$link2);
-  glVertex3fv(P065$link2);
+  glNormal3fv(N058_link2);
+  glVertex3fv(P058_link2);
+  glNormal3fv(N066_link2);
+  glVertex3fv(P066_link2);
+  glNormal3fv(N065_link2);
+  glVertex3fv(P065_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N058$link2);
-  glVertex3fv(P058$link2);
-  glNormal3fv(N065$link2);
-  glVertex3fv(P065$link2);
-  glNormal3fv(N057$link1);
-  glVertex3fv(P057$link1);
+  glNormal3fv(N058_link2);
+  glVertex3fv(P058_link2);
+  glNormal3fv(N065_link2);
+  glVertex3fv(P065_link2);
+  glNormal3fv(N057_link1);
+  glVertex3fv(P057_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N056$link1);
-  glVertex3fv(P056$link1);
-  glNormal3fv(N057$link1);
-  glVertex3fv(P057$link1);
-  glNormal3fv(N065$link2);
-  glVertex3fv(P065$link2);
+  glNormal3fv(N056_link1);
+  glVertex3fv(P056_link1);
+  glNormal3fv(N057_link1);
+  glVertex3fv(P057_link1);
+  glNormal3fv(N065_link2);
+  glVertex3fv(P065_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N056$link1);
-  glVertex3fv(P056$link1);
-  glNormal3fv(N065$link2);
-  glVertex3fv(P065$link2);
-  glNormal3fv(N006$link2);
-  glVertex3fv(P006$link2);
+  glNormal3fv(N056_link1);
+  glVertex3fv(P056_link1);
+  glNormal3fv(N065_link2);
+  glVertex3fv(P065_link2);
+  glNormal3fv(N006_link2);
+  glVertex3fv(P006_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N056$link1);
-  glVertex3fv(P056$link1);
-  glNormal3fv(N006$link2);
-  glVertex3fv(P006$link2);
-  glNormal3fv(N063$link2);
-  glVertex3fv(P063$link2);
+  glNormal3fv(N056_link1);
+  glVertex3fv(P056_link1);
+  glNormal3fv(N006_link2);
+  glVertex3fv(P006_link2);
+  glNormal3fv(N063_link2);
+  glVertex3fv(P063_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N056$link1);
-  glVertex3fv(P056$link1);
-  glNormal3fv(N063$link2);
-  glVertex3fv(P063$link2);
-  glNormal3fv(N055$link1);
-  glVertex3fv(P055$link1);
+  glNormal3fv(N056_link1);
+  glVertex3fv(P056_link1);
+  glNormal3fv(N063_link2);
+  glVertex3fv(P063_link2);
+  glNormal3fv(N055_link1);
+  glVertex3fv(P055_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N054$link1);
-  glVertex3fv(P054$link1);
-  glNormal3fv(N062$link2);
-  glVertex3fv(P062$link2);
-  glNormal3fv(N005$link2);
-  glVertex3fv(P005$link2);
+  glNormal3fv(N054_link1);
+  glVertex3fv(P054_link1);
+  glNormal3fv(N062_link2);
+  glVertex3fv(P062_link2);
+  glNormal3fv(N005_link2);
+  glVertex3fv(P005_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N054$link1);
-  glVertex3fv(P054$link1);
-  glNormal3fv(N005$link2);
-  glVertex3fv(P005$link2);
-  glNormal3fv(N053$link1);
-  glVertex3fv(P053$link1);
+  glNormal3fv(N054_link1);
+  glVertex3fv(P054_link1);
+  glNormal3fv(N005_link2);
+  glVertex3fv(P005_link2);
+  glNormal3fv(N053_link1);
+  glVertex3fv(P053_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N053$link1);
-  glVertex3fv(P053$link1);
-  glNormal3fv(N005$link2);
-  glVertex3fv(P005$link2);
-  glNormal3fv(N060$link2);
-  glVertex3fv(P060$link2);
+  glNormal3fv(N053_link1);
+  glVertex3fv(P053_link1);
+  glNormal3fv(N005_link2);
+  glVertex3fv(P005_link2);
+  glNormal3fv(N060_link2);
+  glVertex3fv(P060_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N053$link1);
-  glVertex3fv(P053$link1);
-  glNormal3fv(N060$link2);
-  glVertex3fv(P060$link2);
-  glNormal3fv(N052$link2);
-  glVertex3fv(P052$link2);
+  glNormal3fv(N053_link1);
+  glVertex3fv(P053_link1);
+  glNormal3fv(N060_link2);
+  glVertex3fv(P060_link2);
+  glNormal3fv(N052_link2);
+  glVertex3fv(P052_link2);
   glEnd();
 }
 
@@ -11104,78 +11104,78 @@ static void Whale012(unsigned int cap)
 static void Whale013(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N066$link2);
-  glVertex3fv(P066$link2);
-  glNormal3fv(N067$link1);
-  glVertex3fv(P067$link1);
+  glNormal3fv(N066_link2);
+  glVertex3fv(P066_link2);
+  glNormal3fv(N067_link1);
+  glVertex3fv(P067_link1);
   glNormal3fv(N096);
   glVertex3fv(P096);
-  glNormal3fv(N097$link1);
-  glVertex3fv(P097$link1);
+  glNormal3fv(N097_link1);
+  glVertex3fv(P097_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N097$link1);
-  glVertex3fv(P097$link1);
+  glNormal3fv(N097_link1);
+  glVertex3fv(P097_link1);
   glNormal3fv(N096);
   glVertex3fv(P096);
-  glNormal3fv(N098$link1);
-  glVertex3fv(P098$link1);
-  glNormal3fv(N099$link1);
-  glVertex3fv(P099$link1);
+  glNormal3fv(N098_link1);
+  glVertex3fv(P098_link1);
+  glNormal3fv(N099_link1);
+  glVertex3fv(P099_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N065$link2);
-  glVertex3fv(P065$link2);
-  glNormal3fv(N066$link2);
-  glVertex3fv(P066$link2);
-  glNormal3fv(N097$link1);
-  glVertex3fv(P097$link1);
+  glNormal3fv(N065_link2);
+  glVertex3fv(P065_link2);
+  glNormal3fv(N066_link2);
+  glVertex3fv(P066_link2);
+  glNormal3fv(N097_link1);
+  glVertex3fv(P097_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N067$link1);
-  glVertex3fv(P067$link1);
-  glNormal3fv(N060$link2);
-  glVertex3fv(P060$link2);
-  glNormal3fv(N096);
-  glVertex3fv(P096);
-  glEnd();
-  glBegin(cap);
-  glNormal3fv(N060$link2);
-  glVertex3fv(P060$link2);
-  glNormal3fv(N005$link2);
-  glVertex3fv(P005$link2);
+  glNormal3fv(N067_link1);
+  glVertex3fv(P067_link1);
+  glNormal3fv(N060_link2);
+  glVertex3fv(P060_link2);
   glNormal3fv(N096);
   glVertex3fv(P096);
   glEnd();
   glBegin(cap);
+  glNormal3fv(N060_link2);
+  glVertex3fv(P060_link2);
+  glNormal3fv(N005_link2);
+  glVertex3fv(P005_link2);
   glNormal3fv(N096);
   glVertex3fv(P096);
-  glNormal3fv(N005$link2);
-  glVertex3fv(P005$link2);
-  glNormal3fv(N098$link1);
-  glVertex3fv(P098$link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N006$link2);
-  glVertex3fv(P006$link2);
-  glNormal3fv(N065$link2);
-  glVertex3fv(P065$link2);
-  glNormal3fv(N097$link1);
-  glVertex3fv(P097$link1);
+  glNormal3fv(N096);
+  glVertex3fv(P096);
+  glNormal3fv(N005_link2);
+  glVertex3fv(P005_link2);
+  glNormal3fv(N098_link1);
+  glVertex3fv(P098_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N006$link2);
-  glVertex3fv(P006$link2);
-  glNormal3fv(N097$link1);
-  glVertex3fv(P097$link1);
-  glNormal3fv(N099$link1);
-  glVertex3fv(P099$link1);
+  glNormal3fv(N006_link2);
+  glVertex3fv(P006_link2);
+  glNormal3fv(N065_link2);
+  glVertex3fv(P065_link2);
+  glNormal3fv(N097_link1);
+  glVertex3fv(P097_link1);
   glEnd();
   glBegin(cap);
-  glVertex3fv(P005$link2);
-  glVertex3fv(P006$link2);
-  glVertex3fv(P099$link1);
-  glVertex3fv(P098$link1);
+  glNormal3fv(N006_link2);
+  glVertex3fv(P006_link2);
+  glNormal3fv(N097_link1);
+  glVertex3fv(P097_link1);
+  glNormal3fv(N099_link1);
+  glVertex3fv(P099_link1);
+  glEnd();
+  glBegin(cap);
+  glVertex3fv(P005_link2);
+  glVertex3fv(P006_link2);
+  glVertex3fv(P099_link1);
+  glVertex3fv(P098_link1);
   glEnd();
 }
 
@@ -11184,50 +11184,50 @@ static void Whale013(unsigned int cap)
 static void Whale014(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N062$link2);
-  glVertex3fv(P062$link2);
-  glNormal3fv(N004$link1);
-  glVertex3fv(P004$link1);
-  glNormal3fv(N005$link2);
-  glVertex3fv(P005$link2);
+  glNormal3fv(N062_link2);
+  glVertex3fv(P062_link2);
+  glNormal3fv(N004_link1);
+  glVertex3fv(P004_link1);
+  glNormal3fv(N005_link2);
+  glVertex3fv(P005_link2);
   glEnd();
   glBegin(cap);
-  glVertex3fv(P006$link2);
-  glVertex3fv(P005$link2);
-  glVertex3fv(P004$link1);
-  glVertex3fv(P008$link2);
+  glVertex3fv(P006_link2);
+  glVertex3fv(P005_link2);
+  glVertex3fv(P004_link1);
+  glVertex3fv(P008_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N063$link2);
-  glVertex3fv(P063$link2);
-  glNormal3fv(N006$link2);
-  glVertex3fv(P006$link2);
-  glNormal3fv(N002$link2);
-  glVertex3fv(P002$link2);
+  glNormal3fv(N063_link2);
+  glVertex3fv(P063_link2);
+  glNormal3fv(N006_link2);
+  glVertex3fv(P006_link2);
+  glNormal3fv(N002_link2);
+  glVertex3fv(P002_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link2);
-  glVertex3fv(P002$link2);
-  glNormal3fv(N006$link2);
-  glVertex3fv(P006$link2);
-  glNormal3fv(N008$link2);
-  glVertex3fv(P008$link2);
+  glNormal3fv(N002_link2);
+  glVertex3fv(P002_link2);
+  glNormal3fv(N006_link2);
+  glVertex3fv(P006_link2);
+  glNormal3fv(N008_link2);
+  glVertex3fv(P008_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N002$link2);
-  glVertex3fv(P002$link2);
-  glNormal3fv(N008$link2);
-  glVertex3fv(P008$link2);
-  glNormal3fv(N004$link1);
-  glVertex3fv(P004$link1);
+  glNormal3fv(N002_link2);
+  glVertex3fv(P002_link2);
+  glNormal3fv(N008_link2);
+  glVertex3fv(P008_link2);
+  glNormal3fv(N004_link1);
+  glVertex3fv(P004_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N062$link2);
-  glVertex3fv(P062$link2);
-  glNormal3fv(N002$link2);
-  glVertex3fv(P002$link2);
-  glNormal3fv(N004$link1);
-  glVertex3fv(P004$link1);
+  glNormal3fv(N062_link2);
+  glVertex3fv(P062_link2);
+  glNormal3fv(N002_link2);
+  glVertex3fv(P002_link2);
+  glNormal3fv(N004_link1);
+  glVertex3fv(P004_link1);
   glEnd();
 }
 
@@ -11236,60 +11236,60 @@ static void Whale014(unsigned int cap)
 static void Whale015(unsigned int cap)
 {
   glBegin(cap);
-  glNormal3fv(N055$link1);
-  glVertex3fv(P055$link1);
-  glNormal3fv(N003$link2);
-  glVertex3fv(P003$link2);
-  glNormal3fv(N054$link1);
-  glVertex3fv(P054$link1);
+  glNormal3fv(N055_link1);
+  glVertex3fv(P055_link1);
+  glNormal3fv(N003_link2);
+  glVertex3fv(P003_link2);
+  glNormal3fv(N054_link1);
+  glVertex3fv(P054_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N003$link2);
-  glVertex3fv(P003$link2);
-  glNormal3fv(N055$link1);
-  glVertex3fv(P055$link1);
-  glNormal3fv(N063$link2);
-  glVertex3fv(P063$link2);
+  glNormal3fv(N003_link2);
+  glVertex3fv(P003_link2);
+  glNormal3fv(N055_link1);
+  glVertex3fv(P055_link1);
+  glNormal3fv(N063_link2);
+  glVertex3fv(P063_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N003$link2);
-  glVertex3fv(P003$link2);
-  glNormal3fv(N063$link2);
-  glVertex3fv(P063$link2);
-  glNormal3fv(N100$link1);
-  glVertex3fv(P100$link1);
+  glNormal3fv(N003_link2);
+  glVertex3fv(P003_link2);
+  glNormal3fv(N063_link2);
+  glVertex3fv(P063_link2);
+  glNormal3fv(N100_link1);
+  glVertex3fv(P100_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N003$link2);
-  glVertex3fv(P003$link2);
-  glNormal3fv(N100$link1);
-  glVertex3fv(P100$link1);
-  glNormal3fv(N054$link1);
-  glVertex3fv(P054$link1);
+  glNormal3fv(N003_link2);
+  glVertex3fv(P003_link2);
+  glNormal3fv(N100_link1);
+  glVertex3fv(P100_link1);
+  glNormal3fv(N054_link1);
+  glVertex3fv(P054_link1);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N054$link1);
-  glVertex3fv(P054$link1);
-  glNormal3fv(N100$link1);
-  glVertex3fv(P100$link1);
-  glNormal3fv(N062$link2);
-  glVertex3fv(P062$link2);
+  glNormal3fv(N054_link1);
+  glVertex3fv(P054_link1);
+  glNormal3fv(N100_link1);
+  glVertex3fv(P100_link1);
+  glNormal3fv(N062_link2);
+  glVertex3fv(P062_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N100$link1);
-  glVertex3fv(P100$link1);
-  glNormal3fv(N063$link2);
-  glVertex3fv(P063$link2);
-  glNormal3fv(N002$link2);
-  glVertex3fv(P002$link2);
+  glNormal3fv(N100_link1);
+  glVertex3fv(P100_link1);
+  glNormal3fv(N063_link2);
+  glVertex3fv(P063_link2);
+  glNormal3fv(N002_link2);
+  glVertex3fv(P002_link2);
   glEnd();
   glBegin(cap);
-  glNormal3fv(N100$link1);
-  glVertex3fv(P100$link1);
-  glNormal3fv(N002$link2);
-  glVertex3fv(P002$link2);
-  glNormal3fv(N062$link2);
-  glVertex3fv(P062$link2);
+  glNormal3fv(N100_link1);
+  glVertex3fv(P100_link1);
+  glNormal3fv(N002_link2);
+  glVertex3fv(P002_link2);
+  glNormal3fv(N062_link2);
+  glVertex3fv(P062_link2);
   glEnd();
 }
 
@@ -11299,29 +11299,29 @@ static void Whale016(unsigned int cap)
 {
   glBegin(cap);
   glVertex3fv(P104);
-  glVertex3fv(P105$link1);
+  glVertex3fv(P105_link1);
   glVertex3fv(P106);
   glEnd();
   glBegin(cap);
   glVertex3fv(P107);
-  glVertex3fv(P108$link1);
+  glVertex3fv(P108_link1);
   glVertex3fv(P109);
   glEnd();
   glBegin(cap);
-  glVertex3fv(P110$link1);
-  glVertex3fv(P111$link1);
-  glVertex3fv(P112$link1);
-  glVertex3fv(P113$link1);
-  glVertex3fv(P114$link1);
-  glVertex3fv(P115$link1);
+  glVertex3fv(P110_link1);
+  glVertex3fv(P111_link1);
+  glVertex3fv(P112_link1);
+  glVertex3fv(P113_link1);
+  glVertex3fv(P114_link1);
+  glVertex3fv(P115_link1);
   glEnd();
   glBegin(cap);
-  glVertex3fv(P116$link1);
-  glVertex3fv(P117$link1);
-  glVertex3fv(P118$link1);
-  glVertex3fv(P119$link1);
-  glVertex3fv(P120$link1);
-  glVertex3fv(P121$link1);
+  glVertex3fv(P116_link1);
+  glVertex3fv(P117_link1);
+  glVertex3fv(P118_link1);
+  glVertex3fv(P119_link1);
+  glVertex3fv(P120_link1);
+  glVertex3fv(P121_link1);
   glEnd();
 }
 
@@ -11332,41 +11332,41 @@ extern void WhalePilot(struct _fishRec *fish, float whalespeed, signed int whale
   fish->phi = (float)-20.0;
   fish->theta = (float)0.0;
   fish->psi = fish->psi + (float)(whaledir != 0 ? -0.5 : 0.5);
-  double return_value_cos$1;
-  return_value_cos$1=cos((double)fish->psi / 57.295);
-  double return_value_cos$2;
-  return_value_cos$2=cos((double)fish->theta / 57.295);
-  fish->x = fish->x + (float)((double)(whalespeed * fish->v) * return_value_cos$1 * return_value_cos$2);
-  double return_value_sin$3;
-  return_value_sin$3=sin((double)fish->psi / 57.295);
-  double return_value_cos$4;
-  return_value_cos$4=cos((double)fish->theta / 57.295);
-  fish->y = fish->y + (float)((double)(whalespeed * fish->v) * return_value_sin$3 * return_value_cos$4);
-  double return_value_sin$5;
-  return_value_sin$5=sin((double)fish->theta / 57.295);
-  fish->z = fish->z + (float)((double)(whalespeed * fish->v) * return_value_sin$5);
+  double return_value_cos_1;
+  return_value_cos_1=cos((double)fish->psi / 57.295);
+  double return_value_cos_2;
+  return_value_cos_2=cos((double)fish->theta / 57.295);
+  fish->x = fish->x + (float)((double)(whalespeed * fish->v) * return_value_cos_1 * return_value_cos_2);
+  double return_value_sin_3;
+  return_value_sin_3=sin((double)fish->psi / 57.295);
+  double return_value_cos_4;
+  return_value_cos_4=cos((double)fish->theta / 57.295);
+  fish->y = fish->y + (float)((double)(whalespeed * fish->v) * return_value_sin_3 * return_value_cos_4);
+  double return_value_sin_5;
+  return_value_sin_5=sin((double)fish->theta / 57.295);
+  fish->z = fish->z + (float)((double)(whalespeed * fish->v) * return_value_sin_5);
 }
 
 // XChar2b_to_utf8
 // file utf8wc.c line 306
-extern char * XChar2b_to_utf8(const struct anonymous$4 *in, signed int *length_ret)
+extern char * XChar2b_to_utf8(const struct anonymous_4 *in, signed int *length_ret)
 {
   signed int in_len = 0;
-  const struct anonymous$4 *in_end;
+  const struct anonymous_4 *in_end;
   signed int out_len;
   char *utf8;
   char *out;
   const char *out_end;
   in_end = in;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(in_end->byte1 == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = in_end->byte2 != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = in_end->byte2 != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     in_end = in_end + 1l;
@@ -11374,9 +11374,9 @@ extern char * XChar2b_to_utf8(const struct anonymous$4 *in, signed int *length_r
   }
   while((_Bool)1);
   out_len = (in_len + 1) * 3;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(out_len + 1));
-  out = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(out_len + 1));
+  out = (char *)return_value_malloc_2;
   utf8 = out;
   if(out == ((char *)NULL))
     return ((char *)NULL);
@@ -11397,9 +11397,9 @@ extern char * XChar2b_to_utf8(const struct anonymous$4 *in, signed int *length_r
     }
     *out = (char)0;
     out_len = (signed int)((out - utf8) + (signed long int)1);
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)utf8, (unsigned long int)out_len);
-    utf8 = (char *)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)utf8, (unsigned long int)out_len);
+    utf8 = (char *)return_value_realloc_3;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = out_len;
 
@@ -11413,14 +11413,14 @@ static void _add_next_thread(struct _parallel_startup_type *self)
 {
   /* assertion !self->last_errno */
   assert(!(self->last_errno != 0));
-  unsigned int return_value__threadpool_count_parallel$2;
-  return_value__threadpool_count_parallel$2=_threadpool_count_parallel(self->parent);
-  if(self->parent->parallel_unfinished == return_value__threadpool_count_parallel$2)
+  unsigned int return_value__threadpool_count_parallel_2;
+  return_value__threadpool_count_parallel_2=_threadpool_count_parallel(self->parent);
+  if(self->parent->parallel_unfinished == return_value__threadpool_count_parallel_2)
   {
-    signed int return_value_pthread_cond_broadcast$1;
-    return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->parent->cond);
+    signed int return_value_pthread_cond_broadcast_1;
+    return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->parent->cond);
     /* assertion !(pthread_cond_broadcast(&self->parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$1 != 0));
+    assert(!(return_value_pthread_cond_broadcast_1 != 0));
   }
 
   else
@@ -11455,15 +11455,15 @@ static char * _async_addr_from_name_hostname(struct async_addr_from_name *self)
 static void * _async_addr_from_name_thread(void *self_raw)
 {
   struct async_addr_from_name *self = (struct async_addr_from_name *)self_raw;
-  char *return_value__async_addr_from_name_hostname$1;
-  return_value__async_addr_from_name_hostname$1=_async_addr_from_name_hostname(self);
-  self->gai_error=getaddrinfo(return_value__async_addr_from_name_hostname$1, (const char *)(void *)0, (struct addrinfo *)(void *)0, &self->res);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  self->errno_error = *return_value___errno_location$2;
-  signed int return_value_io_thread_return$3;
-  return_value_io_thread_return$3=io_thread_return(&self->io);
-  if(!(return_value_io_thread_return$3 == 0))
+  char *return_value__async_addr_from_name_hostname_1;
+  return_value__async_addr_from_name_hostname_1=_async_addr_from_name_hostname(self);
+  self->gai_error=getaddrinfo(return_value__async_addr_from_name_hostname_1, (const char *)(void *)0, (struct addrinfo *)(void *)0, &self->res);
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  self->errno_error = *return_value___errno_location_2;
+  signed int return_value_io_thread_return_3;
+  return_value_io_thread_return_3=io_thread_return(&self->io);
+  if(!(return_value_io_thread_return_3 == 0))
     _async_addr_from_name_free(self);
 
   return (void *)0;
@@ -11483,12 +11483,12 @@ static void * _async_name_from_addr_thread(void *self_raw)
 {
   struct async_name_from_addr *self = (struct async_name_from_addr *)self_raw;
   self->gai_error=getnameinfo((struct sockaddr *)(void *)&self->param.addr, self->param.addrlen, self->host, (unsigned int)sizeof(char [1025l]) /*1025ul*/ , (char *)(void *)0, (unsigned int)0, 8);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  self->errno_error = *return_value___errno_location$1;
-  signed int return_value_io_thread_return$2;
-  return_value_io_thread_return$2=io_thread_return(&self->io);
-  if(!(return_value_io_thread_return$2 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  self->errno_error = *return_value___errno_location_1;
+  signed int return_value_io_thread_return_2;
+  return_value_io_thread_return_2=io_thread_return(&self->io);
+  if(!(return_value_io_thread_return_2 == 0))
     aligned_free((void *)self);
 
   return (void *)0;
@@ -11498,11 +11498,11 @@ static void * _async_name_from_addr_thread(void *self_raw)
 // file async_netdb.c line 39
 signed int _async_netdb_is_done(struct io_thread *io)
 {
-  signed int return_value_io_thread_is_done$1;
+  signed int return_value_io_thread_is_done_1;
   if(_has_threads >= 0)
   {
-    return_value_io_thread_is_done$1=io_thread_is_done(io);
-    return return_value_io_thread_is_done$1;
+    return_value_io_thread_is_done_1=io_thread_is_done(io);
+    return return_value_io_thread_is_done_1;
   }
 
   return 1;
@@ -11547,10 +11547,10 @@ static void _parallel_abort(struct threadpool *self)
   /* assertion self->count > 1 */
   assert(self->count > (unsigned int)1);
   self->count = self->parallel_unfinished + (unsigned int)1;
-  signed int return_value_pthread_cond_broadcast$1;
-  return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->cond);
+  signed int return_value_pthread_cond_broadcast_1;
+  return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->cond);
   /* assertion !(pthread_cond_broadcast(&self->cond)) */
-  assert(!(return_value_pthread_cond_broadcast$1 != 0));
+  assert(!(return_value_pthread_cond_broadcast_1 != 0));
 }
 
 // _serial_destroy
@@ -11579,21 +11579,21 @@ static void * _start_routine(void *startup_raw)
   struct _parallel_startup_type *startup = (struct _parallel_startup_type *)startup_raw;
   struct threadpool *parent = startup->parent;
   void *thread;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&parent->mutex);
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&parent->mutex);
   /* assertion !(pthread_mutex_lock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_lock$1 != 0));
+  assert(!(return_value_pthread_mutex_lock_1 != 0));
   parent->parallel_unfinished = parent->parallel_unfinished + 1u;
-  unsigned int return_value_thread_memory_alignment$2;
-  return_value_thread_memory_alignment$2=thread_memory_alignment((struct _XDisplay *)(void *)0);
-  startup->last_errno=aligned_malloc(&thread, return_value_thread_memory_alignment$2, parent->thread_size);
+  unsigned int return_value_thread_memory_alignment_2;
+  return_value_thread_memory_alignment_2=thread_memory_alignment((struct _XDisplay *)(void *)0);
+  startup->last_errno=aligned_malloc(&thread, return_value_thread_memory_alignment_2, parent->thread_size);
   if(!(startup->last_errno == 0))
   {
     _parallel_abort(parent);
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&parent->mutex);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&parent->mutex);
     /* assertion !(pthread_mutex_unlock(&parent->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
     return (void *)0;
   }
 
@@ -11601,69 +11601,69 @@ static void * _start_routine(void *startup_raw)
   if(!(startup->last_errno == 0))
   {
     _parallel_abort(parent);
-    void *return_value__thread_free_and_unlock$4;
-    return_value__thread_free_and_unlock$4=_thread_free_and_unlock(parent, thread);
-    return return_value__thread_free_and_unlock$4;
+    void *return_value__thread_free_and_unlock_4;
+    return_value__thread_free_and_unlock_4=_thread_free_and_unlock(parent, thread);
+    return return_value__thread_free_and_unlock_4;
   }
 
   /* assertion !startup->last_errno */
   assert(!(startup->last_errno != 0));
   _add_next_thread(startup);
-  void *return_value__thread_destroy_and_unlock$5;
+  void *return_value__thread_destroy_and_unlock_5;
   if(!(startup->last_errno == 0))
   {
-    return_value__thread_destroy_and_unlock$5=_thread_destroy_and_unlock(parent, thread);
-    return return_value__thread_destroy_and_unlock$5;
+    return_value__thread_destroy_and_unlock_5=_thread_destroy_and_unlock(parent, thread);
+    return return_value__thread_destroy_and_unlock_5;
   }
 
-  void *return_value__thread_destroy_and_unlock$6;
+  void *return_value__thread_destroy_and_unlock_6;
   if(parent->parallel_pending == 0u)
   {
     if(parent->parallel_threads == ((unsigned long int *)NULL))
     {
-      return_value__thread_destroy_and_unlock$6=_thread_destroy_and_unlock(parent, thread);
-      return return_value__thread_destroy_and_unlock$6;
+      return_value__thread_destroy_and_unlock_6=_thread_destroy_and_unlock(parent, thread);
+      return return_value__thread_destroy_and_unlock_6;
     }
 
-    signed int return_value_pthread_cond_wait$7;
-    return_value_pthread_cond_wait$7=pthread_cond_wait(&parent->cond, &parent->mutex);
+    signed int return_value_pthread_cond_wait_7;
+    return_value_pthread_cond_wait_7=pthread_cond_wait(&parent->cond, &parent->mutex);
     /* assertion !(pthread_cond_wait(&parent->cond, &parent->mutex)) */
-    assert(!(return_value_pthread_cond_wait$7 != 0));
+    assert(!(return_value_pthread_cond_wait_7 != 0));
   }
 
   parent->parallel_pending = parent->parallel_pending - 1u;
-  signed int return_value_pthread_cond_broadcast$8;
+  signed int return_value_pthread_cond_broadcast_8;
   if(parent->parallel_pending == 0u)
   {
-    return_value_pthread_cond_broadcast$8=pthread_cond_broadcast(&parent->cond);
+    return_value_pthread_cond_broadcast_8=pthread_cond_broadcast(&parent->cond);
     /* assertion !(pthread_cond_broadcast(&parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$8 != 0));
+    assert(!(return_value_pthread_cond_broadcast_8 != 0));
   }
 
-  signed int return_value_pthread_mutex_unlock$9;
-  return_value_pthread_mutex_unlock$9=pthread_mutex_unlock(&parent->mutex);
+  signed int return_value_pthread_mutex_unlock_9;
+  return_value_pthread_mutex_unlock_9=pthread_mutex_unlock(&parent->mutex);
   /* assertion !(pthread_mutex_unlock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$9 != 0));
+  assert(!(return_value_pthread_mutex_unlock_9 != 0));
   parent->thread_run(thread);
-  signed int return_value_pthread_mutex_lock$10;
-  return_value_pthread_mutex_lock$10=pthread_mutex_lock(&parent->mutex);
+  signed int return_value_pthread_mutex_lock_10;
+  return_value_pthread_mutex_lock_10=pthread_mutex_lock(&parent->mutex);
   /* assertion !(pthread_mutex_lock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_lock$10 != 0));
-  signed int return_value_pthread_cond_wait$11;
+  assert(!(return_value_pthread_mutex_lock_10 != 0));
+  signed int return_value_pthread_cond_wait_11;
   if(!(parent->parallel_pending == 0u))
   {
-    return_value_pthread_cond_wait$11=pthread_cond_wait(&parent->cond, &parent->mutex);
+    return_value_pthread_cond_wait_11=pthread_cond_wait(&parent->cond, &parent->mutex);
     /* assertion !(pthread_cond_wait(&parent->cond, &parent->mutex)) */
-    assert(!(return_value_pthread_cond_wait$11 != 0));
+    assert(!(return_value_pthread_cond_wait_11 != 0));
   }
 
   parent->parallel_unfinished = parent->parallel_unfinished - 1u;
-  signed int return_value_pthread_cond_broadcast$12;
+  signed int return_value_pthread_cond_broadcast_12;
   if(parent->parallel_unfinished == 0u)
   {
-    return_value_pthread_cond_broadcast$12=pthread_cond_broadcast(&parent->cond);
+    return_value_pthread_cond_broadcast_12=pthread_cond_broadcast(&parent->cond);
     /* assertion !(pthread_cond_broadcast(&parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$12 != 0));
+    assert(!(return_value_pthread_cond_broadcast_12 != 0));
   }
 
 }
@@ -11673,19 +11673,19 @@ static void * _start_routine(void *startup_raw)
 static void * _thread_destroy_and_unlock(struct threadpool *self, void *thread)
 {
   self->thread_destroy(thread);
-  void *return_value__thread_free_and_unlock$1;
-  return_value__thread_free_and_unlock$1=_thread_free_and_unlock(self, thread);
-  return return_value__thread_free_and_unlock$1;
+  void *return_value__thread_free_and_unlock_1;
+  return_value__thread_free_and_unlock_1=_thread_free_and_unlock(self, thread);
+  return return_value__thread_free_and_unlock_1;
 }
 
 // _thread_free_and_unlock
 // file thread_util.c line 568
 static void * _thread_free_and_unlock(struct threadpool *self, void *thread)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&self->mutex);
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&self->mutex);
   /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$1 != 0));
+  assert(!(return_value_pthread_mutex_unlock_1 != 0));
   aligned_free(thread);
   return (void *)0;
 }
@@ -11737,19 +11737,19 @@ static void _unlock_and_destroy(struct threadpool *self)
 {
   unsigned long int *threads = self->parallel_threads;
   self->parallel_threads = (unsigned long int *)(void *)0;
-  signed int return_value_pthread_cond_broadcast$1;
+  signed int return_value_pthread_cond_broadcast_1;
   if(!(threads == ((unsigned long int *)NULL)))
   {
-    return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->cond);
+    return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->cond);
     /* assertion !(pthread_cond_broadcast(&self->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$1 != 0));
+    assert(!(return_value_pthread_cond_broadcast_1 != 0));
   }
 
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&self->mutex);
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&self->mutex);
   /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$2 != 0));
-  signed int return_value_pthread_join$3;
+  assert(!(return_value_pthread_mutex_unlock_2 != 0));
+  signed int return_value_pthread_join_3;
   if(!(threads == ((unsigned long int *)NULL)))
   {
     unsigned int i;
@@ -11758,19 +11758,19 @@ static void _unlock_and_destroy(struct threadpool *self)
     i = (unsigned int)0;
     for( ; !(i == count); i = i + 1u)
     {
-      return_value_pthread_join$3=pthread_join(threads[(signed long int)i], (void **)(void *)0);
+      return_value_pthread_join_3=pthread_join(threads[(signed long int)i], (void **)(void *)0);
       /* assertion !(pthread_join(threads[i], ((void *)0))) */
-      assert(!(return_value_pthread_join$3 != 0));
+      assert(!(return_value_pthread_join_3 != 0));
     }
     free((void *)threads);
-    signed int return_value_pthread_cond_destroy$4;
-    return_value_pthread_cond_destroy$4=pthread_cond_destroy(&self->cond);
+    signed int return_value_pthread_cond_destroy_4;
+    return_value_pthread_cond_destroy_4=pthread_cond_destroy(&self->cond);
     /* assertion !(pthread_cond_destroy(&self->cond)) */
-    assert(!(return_value_pthread_cond_destroy$4 != 0));
-    signed int return_value_pthread_mutex_destroy$5;
-    return_value_pthread_mutex_destroy$5=pthread_mutex_destroy(&self->mutex);
+    assert(!(return_value_pthread_cond_destroy_4 != 0));
+    signed int return_value_pthread_mutex_destroy_5;
+    return_value_pthread_mutex_destroy_5=pthread_mutex_destroy(&self->mutex);
     /* assertion !(pthread_mutex_destroy(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_destroy$5 != 0));
+    assert(!(return_value_pthread_mutex_destroy_5 != 0));
   }
 
   _serial_destroy(self);
@@ -11806,16 +11806,16 @@ signed int aligned_malloc(void **ptr, unsigned int alignment, unsigned long int 
 
 // allocate_writable_colors
 // file colors.c line 42
-extern void allocate_writable_colors(struct anonymous$58 *screen, unsigned long int cmap, unsigned long int *pixels, signed int *ncolorsP)
+extern void allocate_writable_colors(struct anonymous_58 *screen, unsigned long int cmap, unsigned long int *pixels, signed int *ncolorsP)
 {
   struct _XDisplay *dpy;
-  struct _XDisplay *tmp_if_expr$1;
-  if(!(screen == ((struct anonymous$58 *)NULL)))
-    tmp_if_expr$1 = screen->display;
+  struct _XDisplay *tmp_if_expr_1;
+  if(!(screen == ((struct anonymous_58 *)NULL)))
+    tmp_if_expr_1 = screen->display;
 
   else
-    tmp_if_expr$1 = ((struct _XDisplay *)NULL);
-  dpy = tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct _XDisplay *)NULL);
+  dpy = tmp_if_expr_1;
   signed int desired = *ncolorsP;
   signed int got = 0;
   signed int requested = desired;
@@ -11826,9 +11826,9 @@ extern void allocate_writable_colors(struct anonymous$58 *screen, unsigned long 
     if(!(desired + -got >= requested))
       requested = desired - got;
 
-    signed int return_value_XAllocColorCells$2;
-    return_value_XAllocColorCells$2=XAllocColorCells(dpy, cmap, 0, ((unsigned long int *)NULL), (unsigned int)0, new_pixels, (unsigned int)requested);
-    if(!(return_value_XAllocColorCells$2 == 0))
+    signed int return_value_XAllocColorCells_2;
+    return_value_XAllocColorCells_2=XAllocColorCells(dpy, cmap, 0, ((unsigned long int *)NULL), (unsigned int)0, new_pixels, (unsigned int)requested);
+    if(!(return_value_XAllocColorCells_2 == 0))
     {
       new_pixels = new_pixels + (signed long int)requested;
       got = got + requested;
@@ -11846,9 +11846,9 @@ void async_addr_from_name_cancel(struct async_addr_from_name *self)
 {
   if(_has_threads >= 0)
   {
-    signed int return_value_io_thread_cancel$1;
-    return_value_io_thread_cancel$1=io_thread_cancel(&self->io);
-    if(!(return_value_io_thread_cancel$1 == 0))
+    signed int return_value_io_thread_cancel_1;
+    return_value_io_thread_cancel_1=io_thread_cancel(&self->io);
+    if(!(return_value_io_thread_cancel_1 == 0))
       _async_addr_from_name_free(self);
 
   }
@@ -11889,21 +11889,21 @@ signed int async_addr_from_name_finish(struct async_addr_from_name *self, void *
   }
 
   struct hostent *he;
-  char *return_value__async_addr_from_name_hostname$1;
-  return_value__async_addr_from_name_hostname$1=_async_addr_from_name_hostname(self);
-  he=gethostbyname(return_value__async_addr_from_name_hostname$1);
+  char *return_value__async_addr_from_name_hostname_1;
+  return_value__async_addr_from_name_hostname_1=_async_addr_from_name_hostname(self);
+  he=gethostbyname(return_value__async_addr_from_name_hostname_1);
   signed int error;
-  signed int *return_value___h_errno_location$2;
-  return_value___h_errno_location$2=__h_errno_location();
-  error = *return_value___h_errno_location$2;
+  signed int *return_value___h_errno_location_2;
+  return_value___h_errno_location_2=__h_errno_location();
+  error = *return_value___h_errno_location_2;
   void *raw_addr;
   struct sockaddr_storage *addr_storage = (struct sockaddr_storage *)addr;
   _async_addr_from_name_free(self);
-  signed int return_value__translate_h_errno$3;
+  signed int return_value__translate_h_errno_3;
   if(he == ((struct hostent *)NULL))
   {
-    return_value__translate_h_errno$3=_translate_h_errno(error);
-    return return_value__translate_h_errno$3;
+    return_value__translate_h_errno_3=_translate_h_errno(error);
+    return return_value__translate_h_errno_3;
   }
 
   switch(he->h_addrtype)
@@ -11942,28 +11942,28 @@ signed int async_addr_from_name_finish(struct async_addr_from_name *self, void *
 struct async_addr_from_name * async_addr_from_name_start(struct _XDisplay *dpy, const char *hostname)
 {
   struct async_addr_from_name *self;
-  unsigned int return_value_thread_memory_alignment$1;
-  return_value_thread_memory_alignment$1=thread_memory_alignment(dpy);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(hostname);
-  signed int return_value_aligned_malloc$3;
-  return_value_aligned_malloc$3=aligned_malloc((void **)&self, return_value_thread_memory_alignment$1, sizeof(struct async_addr_from_name) /*32ul*/  + return_value_strlen$2 + (unsigned long int)1);
-  if(!(return_value_aligned_malloc$3 == 0))
+  unsigned int return_value_thread_memory_alignment_1;
+  return_value_thread_memory_alignment_1=thread_memory_alignment(dpy);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(hostname);
+  signed int return_value_aligned_malloc_3;
+  return_value_aligned_malloc_3=aligned_malloc((void **)&self, return_value_thread_memory_alignment_1, sizeof(struct async_addr_from_name) /*32ul*/  + return_value_strlen_2 + (unsigned long int)1);
+  if(!(return_value_aligned_malloc_3 == 0))
     return (struct async_addr_from_name *)(void *)0;
 
   else
   {
-    char *return_value__async_addr_from_name_hostname$4;
-    return_value__async_addr_from_name_hostname$4=_async_addr_from_name_hostname(self);
-    strcpy(return_value__async_addr_from_name_hostname$4, hostname);
+    char *return_value__async_addr_from_name_hostname_4;
+    return_value__async_addr_from_name_hostname_4=_async_addr_from_name_hostname(self);
+    strcpy(return_value__async_addr_from_name_hostname_4, hostname);
     _has_threads=threads_available(dpy);
     self->res = (struct addrinfo *)(void *)0;
     if(_has_threads >= 0)
     {
       struct async_addr_from_name *result;
-      void *return_value_io_thread_create$5;
-      return_value_io_thread_create$5=io_thread_create(&self->io, (void *)self, _async_addr_from_name_thread, dpy, (unsigned int)65536);
-      result = (struct async_addr_from_name *)return_value_io_thread_create$5;
+      void *return_value_io_thread_create_5;
+      return_value_io_thread_create_5=io_thread_create(&self->io, (void *)self, _async_addr_from_name_thread, dpy, (unsigned int)65536);
+      result = (struct async_addr_from_name *)return_value_io_thread_create_5;
       if(result == ((struct async_addr_from_name *)NULL))
         aligned_free((void *)result);
 
@@ -11980,9 +11980,9 @@ void async_name_from_addr_cancel(struct async_name_from_addr *self)
 {
   if(_has_threads >= 0)
   {
-    signed int return_value_io_thread_cancel$1;
-    return_value_io_thread_cancel$1=io_thread_cancel(&self->io);
-    if(!(return_value_io_thread_cancel$1 == 0))
+    signed int return_value_io_thread_cancel_1;
+    return_value_io_thread_cancel_1=io_thread_cancel(&self->io);
+    if(!(return_value_io_thread_cancel_1 == 0))
       aligned_free((void *)self);
 
   }
@@ -12020,39 +12020,39 @@ signed int async_name_from_addr_finish(struct async_name_from_addr *self_raw, ch
     return gai_error;
   }
 
-  struct _async_name_from_addr_param *async_name_from_addr_finish$$1$$2$$self = (struct _async_name_from_addr_param *)self_raw;
+  struct _async_name_from_addr_param *async_name_from_addr_finish__1__2__self = (struct _async_name_from_addr_param *)self_raw;
   struct hostent *he;
   signed int error;
   const void *raw_addr;
   unsigned int addrlen;
-  switch((signed int)(&async_name_from_addr_finish$$1$$2$$self->addr)->ss_family)
+  switch((signed int)(&async_name_from_addr_finish__1__2__self->addr)->ss_family)
   {
     case 2:
     {
-      raw_addr = (const void *)&((struct sockaddr_in *)&async_name_from_addr_finish$$1$$2$$self->addr)->sin_addr;
+      raw_addr = (const void *)&((struct sockaddr_in *)&async_name_from_addr_finish__1__2__self->addr)->sin_addr;
       addrlen = (unsigned int)4;
       break;
     }
     case 10:
     {
-      raw_addr = (const void *)&((struct sockaddr_in6 *)&async_name_from_addr_finish$$1$$2$$self->addr)->sin6_addr;
+      raw_addr = (const void *)&((struct sockaddr_in6 *)&async_name_from_addr_finish__1__2__self->addr)->sin6_addr;
       addrlen = (unsigned int)16;
       break;
     }
     default:
       return -2;
   }
-  he=gethostbyaddr(raw_addr, addrlen, (signed int)(&async_name_from_addr_finish$$1$$2$$self->addr)->ss_family);
-  signed int *return_value___h_errno_location$1;
-  return_value___h_errno_location$1=__h_errno_location();
-  error = *return_value___h_errno_location$1;
-  free((void *)async_name_from_addr_finish$$1$$2$$self);
+  he=gethostbyaddr(raw_addr, addrlen, (signed int)(&async_name_from_addr_finish__1__2__self->addr)->ss_family);
+  signed int *return_value___h_errno_location_1;
+  return_value___h_errno_location_1=__h_errno_location();
+  error = *return_value___h_errno_location_1;
+  free((void *)async_name_from_addr_finish__1__2__self);
   if(he == ((struct hostent *)NULL))
   {
     *host = (char *)(void *)0;
-    signed int return_value__translate_h_errno$2;
-    return_value__translate_h_errno$2=_translate_h_errno(error);
-    return return_value__translate_h_errno$2;
+    signed int return_value__translate_h_errno_2;
+    return_value__translate_h_errno_2=_translate_h_errno(error);
+    return return_value__translate_h_errno_2;
   }
 
   if(he->h_name == ((char *)NULL))
@@ -12082,39 +12082,39 @@ struct async_name_from_addr * async_name_from_addr_start(struct _XDisplay *dpy, 
   {
     struct async_name_from_addr *self;
     struct async_name_from_addr *result;
-    unsigned int return_value_thread_memory_alignment$1;
-    return_value_thread_memory_alignment$1=thread_memory_alignment(dpy);
-    signed int return_value_aligned_malloc$2;
-    return_value_aligned_malloc$2=aligned_malloc((void **)&self, return_value_thread_memory_alignment$1, sizeof(struct async_name_from_addr) /*1192ul*/ );
-    if(!(return_value_aligned_malloc$2 == 0))
+    unsigned int return_value_thread_memory_alignment_1;
+    return_value_thread_memory_alignment_1=thread_memory_alignment(dpy);
+    signed int return_value_aligned_malloc_2;
+    return_value_aligned_malloc_2=aligned_malloc((void **)&self, return_value_thread_memory_alignment_1, sizeof(struct async_name_from_addr) /*1192ul*/ );
+    if(!(return_value_aligned_malloc_2 == 0))
       return (struct async_name_from_addr *)(void *)0;
 
     _async_name_from_addr_set_param(&self->param, addr, addrlen);
-    void *return_value_io_thread_create$3;
-    return_value_io_thread_create$3=io_thread_create(&self->io, (void *)self, _async_name_from_addr_thread, dpy, (unsigned int)65536);
-    result = (struct async_name_from_addr *)return_value_io_thread_create$3;
+    void *return_value_io_thread_create_3;
+    return_value_io_thread_create_3=io_thread_create(&self->io, (void *)self, _async_name_from_addr_thread, dpy, (unsigned int)65536);
+    result = (struct async_name_from_addr *)return_value_io_thread_create_3;
     if(result == ((struct async_name_from_addr *)NULL))
       aligned_free((void *)self);
 
     return result;
   }
 
-  struct _async_name_from_addr_param *async_name_from_addr_start$$1$$2$$result;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct _async_name_from_addr_param) /*136ul*/ );
-  async_name_from_addr_start$$1$$2$$result = (struct _async_name_from_addr_param *)return_value_malloc$4;
-  if(!(async_name_from_addr_start$$1$$2$$result == ((struct _async_name_from_addr_param *)NULL)))
-    _async_name_from_addr_set_param(async_name_from_addr_start$$1$$2$$result, addr, addrlen);
+  struct _async_name_from_addr_param *async_name_from_addr_start__1__2__result;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct _async_name_from_addr_param) /*136ul*/ );
+  async_name_from_addr_start__1__2__result = (struct _async_name_from_addr_param *)return_value_malloc_4;
+  if(!(async_name_from_addr_start__1__2__result == ((struct _async_name_from_addr_param *)NULL)))
+    _async_name_from_addr_set_param(async_name_from_addr_start__1__2__result, addr, addrlen);
 
-  return (struct async_name_from_addr *)async_name_from_addr_start$$1$$2$$result;
+  return (struct async_name_from_addr *)async_name_from_addr_start__1__2__result;
 }
 
 // bigendian
 // file xpm-ximage.c line 35
 static signed int bigendian(void)
 {
-  /* tag-#anon#lUN[S32'i'|lARR4{S8}$S8$'c'] */
-union anonymous$61
+  /* tag-#anon#lUN[S32'i'|lARR4{S8}_S8_'c'] */
+union anonymous_61
 {
   // i
   signed int i;
@@ -12124,14 +12124,14 @@ union anonymous$61
 
 /* */
   ;
-  union anonymous$61 u;
+  union anonymous_61 u;
   u.i = 1;
   return (signed int)!(u.c[(signed long int)0] != 0);
 }
 
 // bitmap_to_texture
 // file texfont.c line 108
-static void bitmap_to_texture(struct _XDisplay *dpy, unsigned long int p, struct anonymous$59 *visual, signed int depth, signed int *wP, signed int *hP)
+static void bitmap_to_texture(struct _XDisplay *dpy, unsigned long int p, struct anonymous_59 *visual, signed int depth, signed int *wP, signed int *hP)
 {
   signed int mipmap_p = 1;
   signed int ow = *wP;
@@ -12146,9 +12146,9 @@ static void bitmap_to_texture(struct _XDisplay *dpy, unsigned long int p, struct
   signed int scale;
   struct _XImage *image = ((struct _XImage *)NULL);
   unsigned char *data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(w2 * 2), (unsigned long int)(h2 + 1));
-  data = (unsigned char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(w2 * 2), (unsigned long int)(h2 + 1));
+  data = (unsigned char *)return_value_calloc_1;
   unsigned char *out = data;
   glGetIntegerv((unsigned int)0x0D33, &max);
   scale = 1;
@@ -12173,21 +12173,21 @@ static void bitmap_to_texture(struct _XDisplay *dpy, unsigned long int p, struct
       signed int sx = x * scale;
       signed int sy = y * scale;
       unsigned long int pixel;
-      unsigned long int tmp_if_expr$2;
+      unsigned long int tmp_if_expr_2;
       if(sx >= ow || sy >= oh)
-        tmp_if_expr$2 = (unsigned long int)0;
+        tmp_if_expr_2 = (unsigned long int)0;
 
       else
       {
         return_value=image->f.get_pixel(image, sx, sy);
-        tmp_if_expr$2 = return_value;
+        tmp_if_expr_2 = return_value;
       }
-      pixel = tmp_if_expr$2;
+      pixel = tmp_if_expr_2;
       unsigned long int r = pixel & visual->red_mask;
       pixel = (r >> 24 | r >> 16 | r >> 8 | r) & (unsigned long int)0xFF;
-      unsigned char *tmp_post$3 = out;
+      unsigned char *tmp_post_3 = out;
       out = out + 1l;
-      *tmp_post$3 = (unsigned char)pixel;
+      *tmp_post_3 = (unsigned char)pixel;
     }
   }
   image->f.destroy_image(image);
@@ -12279,11 +12279,11 @@ __CPROVER_DUMP_L13:
 // file ./../xlockmoreI.h line 63
 extern void clear_gl_error(void)
 {
-  unsigned int return_value_glGetError$1;
+  unsigned int return_value_glGetError_1;
   do
   {
-    return_value_glGetError$1=glGetError();
-    if(return_value_glGetError$1 == 0u)
+    return_value_glGetError_1=glGetError();
+    if(return_value_glGetError_1 == 0u)
       break;
 
   }
@@ -12346,19 +12346,19 @@ static void complain(signed int wanted_colors, signed int got_colors, signed int
 
 // describe_gl_visual
 // file visual-gl.c line 116
-extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous$58 *screen, struct anonymous$59 *visual, signed int private_cmap_p)
+extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous_58 *screen, struct anonymous_59 *visual, signed int private_cmap_p)
 {
   describe_visual(f, screen, visual, private_cmap_p);
   signed int status;
   signed int value = 0;
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$62 *)NULL))
+  if(vi_out == ((struct anonymous_62 *)NULL))
     abort();
 
   status=glXGetConfig(dpy, vi_out, 1, &value);
@@ -12366,37 +12366,37 @@ extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous$58 *screen, 
   {
     if(!(status == 4) && !(value == 0))
     {
-      signed int return_value_glXGetConfig$1;
-      return_value_glXGetConfig$1=glXGetConfig(dpy, vi_out, 3, &value);
-      if(return_value_glXGetConfig$1 == 0)
+      signed int return_value_glXGetConfig_1;
+      return_value_glXGetConfig_1=glXGetConfig(dpy, vi_out, 3, &value);
+      if(return_value_glXGetConfig_1 == 0)
       {
         if(!(value == 0))
           printf("    GLX level:         %d\n", value);
 
       }
 
-      signed int return_value_glXGetConfig$2;
-      return_value_glXGetConfig$2=glXGetConfig(dpy, vi_out, 4, &value);
-      if(return_value_glXGetConfig$2 == 0 && !(value == 0))
+      signed int return_value_glXGetConfig_2;
+      return_value_glXGetConfig_2=glXGetConfig(dpy, vi_out, 4, &value);
+      if(return_value_glXGetConfig_2 == 0 && !(value == 0))
       {
         signed int r = 0;
         signed int g = 0;
         signed int b = 0;
-        signed int describe_gl_visual$$1$$1$$1$$a = 0;
+        signed int describe_gl_visual__1__1__1__a = 0;
         glXGetConfig(dpy, vi_out, 8, &r);
         glXGetConfig(dpy, vi_out, 9, &g);
         glXGetConfig(dpy, vi_out, 10, &b);
-        glXGetConfig(dpy, vi_out, 11, &describe_gl_visual$$1$$1$$1$$a);
-        printf("    GLX type:          RGBA (%2d, %2d, %2d, %2d)\n", r, g, b, describe_gl_visual$$1$$1$$1$$a);
+        glXGetConfig(dpy, vi_out, 11, &describe_gl_visual__1__1__1__a);
+        printf("    GLX type:          RGBA (%2d, %2d, %2d, %2d)\n", r, g, b, describe_gl_visual__1__1__1__a);
         r = 0;
         g = 0;
         b = 0;
-        describe_gl_visual$$1$$1$$1$$a = 0;
+        describe_gl_visual__1__1__1__a = 0;
         glXGetConfig(dpy, vi_out, 14, &r);
         glXGetConfig(dpy, vi_out, 15, &g);
         glXGetConfig(dpy, vi_out, 16, &b);
-        glXGetConfig(dpy, vi_out, 17, &describe_gl_visual$$1$$1$$1$$a);
-        printf("    GLX accum:         RGBA (%2d, %2d, %2d, %2d)\n", r, g, b, describe_gl_visual$$1$$1$$1$$a);
+        glXGetConfig(dpy, vi_out, 17, &describe_gl_visual__1__1__1__a);
+        printf("    GLX accum:         RGBA (%2d, %2d, %2d, %2d)\n", r, g, b, describe_gl_visual__1__1__1__a);
       }
 
       else
@@ -12405,71 +12405,71 @@ extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous$58 *screen, 
         glXGetConfig(dpy, vi_out, 2, &value);
         printf("    GLX type:          indexed (%d)\n", value);
       }
-      signed int return_value_glXGetConfig$3;
-      return_value_glXGetConfig$3=glXGetConfig(dpy, vi_out, 0x20, &value);
-      if(return_value_glXGetConfig$3 == 0)
+      signed int return_value_glXGetConfig_3;
+      return_value_glXGetConfig_3=glXGetConfig(dpy, vi_out, 0x20, &value);
+      if(return_value_glXGetConfig_3 == 0)
       {
         if(!(value == 0x8000))
           printf("    GLX rating:        %s\n", value == 0x8000 ? "none" : (value == 0x8001 ? "slow" : "???"));
 
       }
 
-      signed int return_value_glXGetConfig$4;
-      return_value_glXGetConfig$4=glXGetConfig(dpy, vi_out, 5, &value);
-      if(return_value_glXGetConfig$4 == 0)
+      signed int return_value_glXGetConfig_4;
+      return_value_glXGetConfig_4=glXGetConfig(dpy, vi_out, 5, &value);
+      if(return_value_glXGetConfig_4 == 0)
         printf("    GLX double-buffer: %s\n", value != 0 ? "yes" : "no");
 
-      signed int return_value_glXGetConfig$5;
-      return_value_glXGetConfig$5=glXGetConfig(dpy, vi_out, 6, &value);
-      if(return_value_glXGetConfig$5 == 0)
+      signed int return_value_glXGetConfig_5;
+      return_value_glXGetConfig_5=glXGetConfig(dpy, vi_out, 6, &value);
+      if(return_value_glXGetConfig_5 == 0)
       {
         if(!(value == 0))
           printf("    GLX stereo:        %s\n", value != 0 ? "yes" : "no");
 
       }
 
-      signed int return_value_glXGetConfig$6;
-      return_value_glXGetConfig$6=glXGetConfig(dpy, vi_out, 7, &value);
-      if(return_value_glXGetConfig$6 == 0)
+      signed int return_value_glXGetConfig_6;
+      return_value_glXGetConfig_6=glXGetConfig(dpy, vi_out, 7, &value);
+      if(return_value_glXGetConfig_6 == 0)
       {
         if(!(value == 0))
           printf("    GLX aux buffers:   %d\n", value);
 
       }
 
-      signed int return_value_glXGetConfig$7;
-      return_value_glXGetConfig$7=glXGetConfig(dpy, vi_out, 12, &value);
-      if(return_value_glXGetConfig$7 == 0)
+      signed int return_value_glXGetConfig_7;
+      return_value_glXGetConfig_7=glXGetConfig(dpy, vi_out, 12, &value);
+      if(return_value_glXGetConfig_7 == 0)
         printf("    GLX depth size:    %d\n", value);
 
-      signed int return_value_glXGetConfig$8;
-      return_value_glXGetConfig$8=glXGetConfig(dpy, vi_out, 13, &value);
-      if(return_value_glXGetConfig$8 == 0)
+      signed int return_value_glXGetConfig_8;
+      return_value_glXGetConfig_8=glXGetConfig(dpy, vi_out, 13, &value);
+      if(return_value_glXGetConfig_8 == 0)
       {
         if(!(value == 0))
           printf("    GLX stencil size:  %d\n", value);
 
       }
 
-      signed int return_value_glXGetConfig$10;
-      return_value_glXGetConfig$10=glXGetConfig(dpy, vi_out, 0x80A8, &value);
-      if(return_value_glXGetConfig$10 == 0)
+      signed int return_value_glXGetConfig_10;
+      return_value_glXGetConfig_10=glXGetConfig(dpy, vi_out, 0x80A8, &value);
+      if(return_value_glXGetConfig_10 == 0)
       {
         if(!(value == 0))
         {
           signed int bufs = value;
-          signed int return_value_glXGetConfig$9;
-          return_value_glXGetConfig$9=glXGetConfig(dpy, vi_out, 0x80A9, &value);
-          if(return_value_glXGetConfig$9 == 0)
+          signed int return_value_glXGetConfig_9;
+          return_value_glXGetConfig_9=glXGetConfig(dpy, vi_out, 0x80A9, &value);
+          if(return_value_glXGetConfig_9 == 0)
             printf("    GLX multisample:   %d, %d\n", bufs, value);
 
         }
 
       }
 
-      signed int return_value_glXGetConfig$12;
-      return_value_glXGetConfig$12=glXGetConfig(dpy, vi_out, 0x23, &value);
-      if(return_value_glXGetConfig$12 == 0)
+      signed int return_value_glXGetConfig_12;
+      return_value_glXGetConfig_12=glXGetConfig(dpy, vi_out, 0x23, &value);
+      if(return_value_glXGetConfig_12 == 0)
       {
         if(!(value == 0x8000))
         {
@@ -12479,9 +12479,9 @@ extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous$58 *screen, 
           else
             if(value == 0x8009)
             {
-              signed int return_value_glXGetConfig$11;
-              return_value_glXGetConfig$11=glXGetConfig(dpy, vi_out, 0x24, &value);
-              if(return_value_glXGetConfig$11 == 0)
+              signed int return_value_glXGetConfig_11;
+              return_value_glXGetConfig_11=glXGetConfig(dpy, vi_out, 0x24, &value);
+              if(return_value_glXGetConfig_11 == 0)
                 printf("    GLX transparency:  indexed (%d)\n", value);
 
             }
@@ -12489,15 +12489,15 @@ extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous$58 *screen, 
             else
               if(value == 0x8008)
               {
-                signed int describe_gl_visual$$1$$1$$4$$2$$r = 0;
-                signed int describe_gl_visual$$1$$1$$4$$2$$g = 0;
-                signed int describe_gl_visual$$1$$1$$4$$2$$b = 0;
-                signed int describe_gl_visual$$1$$1$$4$$2$$a = 0;
-                glXGetConfig(dpy, vi_out, 0x25, &describe_gl_visual$$1$$1$$4$$2$$r);
-                glXGetConfig(dpy, vi_out, 0x26, &describe_gl_visual$$1$$1$$4$$2$$g);
-                glXGetConfig(dpy, vi_out, 0x27, &describe_gl_visual$$1$$1$$4$$2$$b);
-                glXGetConfig(dpy, vi_out, 0x28, &describe_gl_visual$$1$$1$$4$$2$$a);
-                printf("    GLX transparency:  RGBA (%2d, %2d, %2d, %2d)\n", describe_gl_visual$$1$$1$$4$$2$$r, describe_gl_visual$$1$$1$$4$$2$$g, describe_gl_visual$$1$$1$$4$$2$$b, describe_gl_visual$$1$$1$$4$$2$$a);
+                signed int describe_gl_visual__1__1__4__2__r = 0;
+                signed int describe_gl_visual__1__1__4__2__g = 0;
+                signed int describe_gl_visual__1__1__4__2__b = 0;
+                signed int describe_gl_visual__1__1__4__2__a = 0;
+                glXGetConfig(dpy, vi_out, 0x25, &describe_gl_visual__1__1__4__2__r);
+                glXGetConfig(dpy, vi_out, 0x26, &describe_gl_visual__1__1__4__2__g);
+                glXGetConfig(dpy, vi_out, 0x27, &describe_gl_visual__1__1__4__2__b);
+                glXGetConfig(dpy, vi_out, 0x28, &describe_gl_visual__1__1__4__2__a);
+                printf("    GLX transparency:  RGBA (%2d, %2d, %2d, %2d)\n", describe_gl_visual__1__1__4__2__r, describe_gl_visual__1__1__4__2__g, describe_gl_visual__1__1__4__2__b, describe_gl_visual__1__1__4__2__a);
               }
 
         }
@@ -12512,17 +12512,17 @@ extern void describe_gl_visual(struct _IO_FILE *f, struct anonymous$58 *screen, 
 
 // describe_visual
 // file visual.c line 445
-extern void describe_visual(struct _IO_FILE *f, struct anonymous$58 *screen, struct anonymous$59 *visual, signed int private_cmap_p)
+extern void describe_visual(struct _IO_FILE *f, struct anonymous_58 *screen, struct anonymous_59 *visual, signed int private_cmap_p)
 {
   char n[10l];
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$62 *)NULL))
+  if(vi_out == ((struct anonymous_62 *)NULL))
     abort();
 
   if(!(private_cmap_p == 0))
@@ -12530,45 +12530,45 @@ extern void describe_visual(struct _IO_FILE *f, struct anonymous$58 *screen, str
 
   else
     strcpy(n, "default");
-  char *tmp_if_expr$5;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$3;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_5;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_3;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_1;
   if(vi_out->class == 0)
-    tmp_if_expr$5 = "StaticGray, ";
+    tmp_if_expr_5 = "StaticGray, ";
 
   else
   {
     if(vi_out->class == 2)
-      tmp_if_expr$4 = "StaticColor,";
+      tmp_if_expr_4 = "StaticColor,";
 
     else
     {
       if(vi_out->class == 4)
-        tmp_if_expr$3 = "TrueColor,  ";
+        tmp_if_expr_3 = "TrueColor,  ";
 
       else
       {
         if(vi_out->class == 1)
-          tmp_if_expr$2 = "GrayScale,  ";
+          tmp_if_expr_2 = "GrayScale,  ";
 
         else
         {
           if(vi_out->class == 3)
-            tmp_if_expr$1 = "PseudoColor,";
+            tmp_if_expr_1 = "PseudoColor,";
 
           else
-            tmp_if_expr$1 = vi_out->class == 5 ? "DirectColor," : "UNKNOWN:    ";
-          tmp_if_expr$2 = tmp_if_expr$1;
+            tmp_if_expr_1 = vi_out->class == 5 ? "DirectColor," : "UNKNOWN:    ";
+          tmp_if_expr_2 = tmp_if_expr_1;
         }
-        tmp_if_expr$3 = tmp_if_expr$2;
+        tmp_if_expr_3 = tmp_if_expr_2;
       }
-      tmp_if_expr$4 = tmp_if_expr$3;
+      tmp_if_expr_4 = tmp_if_expr_3;
     }
-    tmp_if_expr$5 = tmp_if_expr$4;
+    tmp_if_expr_5 = tmp_if_expr_4;
   }
-  fprintf(f, "0x%02x (%s depth: %2d, cmap: %s)\n", (unsigned int)vi_out->visualid, tmp_if_expr$5, vi_out->depth, (const void *)n);
+  fprintf(f, "0x%02x (%s depth: %2d, cmap: %s)\n", (unsigned int)vi_out->visualid, tmp_if_expr_5, vi_out->depth, (const void *)n);
   XFree((void *)(char *)vi_out);
 }
 
@@ -12619,37 +12619,37 @@ void enable_texture_string_parameters(void)
 
 // find_similar_visual
 // file visual.c line 503
-extern struct anonymous$59 * find_similar_visual(struct anonymous$58 *screen, struct anonymous$59 *old_visual)
+extern struct anonymous_59 * find_similar_visual(struct anonymous_58 *screen, struct anonymous_59 *old_visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
-  struct anonymous$59 *result = ((struct anonymous$59 *)NULL);
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
+  struct anonymous_59 *result = ((struct anonymous_59 *)NULL);
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.class=visual_class(screen, old_visual);
   vi_in.depth=visual_depth(screen, old_visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x8 | 0x4), &vi_in, &out_count);
-  if(out_count >= 1 && !(vi_out == ((struct anonymous$62 *)NULL)))
+  if(out_count >= 1 && !(vi_out == ((struct anonymous_62 *)NULL)))
     result = (vi_out + (signed long int)0)->visual;
 
-  if(!(vi_out == ((struct anonymous$62 *)NULL)))
+  if(!(vi_out == ((struct anonymous_62 *)NULL)))
     XFree((void *)vi_out);
 
-  vi_out = ((struct anonymous$62 *)NULL);
-  if(result == ((struct anonymous$59 *)NULL))
+  vi_out = ((struct anonymous_62 *)NULL);
+  if(result == ((struct anonymous_59 *)NULL))
   {
     vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x8), &vi_in, &out_count);
-    if(out_count >= 1 && !(vi_out == ((struct anonymous$62 *)NULL)))
+    if(out_count >= 1 && !(vi_out == ((struct anonymous_62 *)NULL)))
       result = (vi_out + (signed long int)0)->visual;
 
-    if(!(vi_out == ((struct anonymous$62 *)NULL)))
+    if(!(vi_out == ((struct anonymous_62 *)NULL)))
       XFree((void *)vi_out);
 
-    vi_out = ((struct anonymous$62 *)NULL);
+    vi_out = ((struct anonymous_62 *)NULL);
   }
 
-  if(result == ((struct anonymous$59 *)NULL))
+  if(result == ((struct anonymous_59 *)NULL))
     result = screen->root_visual;
 
   return result;
@@ -12680,17 +12680,17 @@ static void fix_fds(void)
 // file fps.h line 25
 extern double fps_compute(struct fps_state *st, unsigned long int polys, double depth)
 {
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
   if(st == ((struct fps_state *)NULL))
     return (double)0;
 
   else
   {
-    signed int tmp_post$1 = st->frame_count;
+    signed int tmp_post_1 = st->frame_count;
     st->frame_count = st->frame_count + 1;
-    if(tmp_post$1 >= st->last_ifps)
+    if(tmp_post_1 >= st->last_ifps)
     {
       struct timezone tzp;
       gettimeofday(&st->this_frame_end, &tzp);
@@ -12721,21 +12721,21 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
         strcat(st->string, "\nPolys: ");
         if(polys >= 1000000ul)
         {
-          return_value_strlen$2=strlen(st->string);
-          sprintf(st->string + (signed long int)return_value_strlen$2, "%lu,%03lu,%03lu%s ", polys / (unsigned long int)1000000, (polys / (unsigned long int)1000) % (unsigned long int)1000, polys % (unsigned long int)1000, s);
+          return_value_strlen_2=strlen(st->string);
+          sprintf(st->string + (signed long int)return_value_strlen_2, "%lu,%03lu,%03lu%s ", polys / (unsigned long int)1000000, (polys / (unsigned long int)1000) % (unsigned long int)1000, polys % (unsigned long int)1000, s);
         }
 
         else
           if(polys >= 1000ul)
           {
-            return_value_strlen$3=strlen(st->string);
-            sprintf(st->string + (signed long int)return_value_strlen$3, "%lu,%03lu%s ", polys / (unsigned long int)1000, polys % (unsigned long int)1000, s);
+            return_value_strlen_3=strlen(st->string);
+            sprintf(st->string + (signed long int)return_value_strlen_3, "%lu,%03lu%s ", polys / (unsigned long int)1000, polys % (unsigned long int)1000, s);
           }
 
           else
           {
-            return_value_strlen$4=strlen(st->string);
-            sprintf(st->string + (signed long int)return_value_strlen$4, "%lu%s ", polys, s);
+            return_value_strlen_4=strlen(st->string);
+            sprintf(st->string + (signed long int)return_value_strlen_4, "%lu%s ", polys, s);
           }
       }
 
@@ -12743,16 +12743,16 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
       {
         unsigned long int L;
         L=strlen(st->string);
-        char *fps_compute$$1$$2$$2$$s = st->string + (signed long int)L;
-        strcat(fps_compute$$1$$2$$2$$s, "\nDepth: ");
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(fps_compute$$1$$2$$2$$s);
-        sprintf(fps_compute$$1$$2$$2$$s + (signed long int)return_value_strlen$5, "%.1f", depth);
-        L=strlen(fps_compute$$1$$2$$2$$s);
-        if((signed int)fps_compute$$1$$2$$2$$s[-2l + (signed long int)L] == 46)
+        char *fps_compute__1__2__2__s = st->string + (signed long int)L;
+        strcat(fps_compute__1__2__2__s, "\nDepth: ");
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(fps_compute__1__2__2__s);
+        sprintf(fps_compute__1__2__2__s + (signed long int)return_value_strlen_5, "%.1f", depth);
+        L=strlen(fps_compute__1__2__2__s);
+        if((signed int)fps_compute__1__2__2__s[-2l + (signed long int)L] == 46)
         {
-          if((signed int)fps_compute$$1$$2$$2$$s[-1l + (signed long int)L] == 48)
-            fps_compute$$1$$2$$2$$s[(signed long int)(L - (unsigned long int)2)] = (char)0;
+          if((signed int)fps_compute__1__2__2__s[-1l + (signed long int)L] == 48)
+            fps_compute__1__2__2__s[(signed long int)(L - (unsigned long int)2)] = (char)0;
 
         }
 
@@ -12768,7 +12768,7 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
 // file fps.h line 26
 extern void fps_draw(struct fps_state *st)
 {
-  struct anonymous$65 xgwa;
+  struct anonymous_65 xgwa;
   const char *string = st->string;
   const char *s;
   signed int x = st->x;
@@ -12795,14 +12795,14 @@ extern void fps_draw(struct fps_state *st)
     XFillRectangle(st->dpy, st->window, st->erase_gc, x - st->font->descent, y - lh, (unsigned int)(w + 2 * st->font->descent), (unsigned int)(h + 2 * st->font->descent));
   }
 
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   while(!(lines == 0))
   {
     s=strchr(string, 10);
     if(s == ((const char *)NULL))
     {
-      return_value_strlen$1=strlen(string);
-      s = string + (signed long int)return_value_strlen$1;
+      return_value_strlen_1=strlen(string);
+      s = string + (signed long int)return_value_strlen_1;
     }
 
     XDrawString(st->dpy, st->window, st->draw_gc, x, y, string, (signed int)(s - string));
@@ -12823,7 +12823,7 @@ extern void fps_free(struct fps_state *st)
   if(!(st->erase_gc == ((struct _XGC *)NULL)))
     XFreeGC(st->dpy, st->erase_gc);
 
-  if(!(st->font == ((struct anonymous$13 *)NULL)))
+  if(!(st->font == ((struct anonymous_13 *)NULL)))
     XFreeFont(st->dpy, st->font);
 
   free((void *)st);
@@ -12835,17 +12835,17 @@ extern struct fps_state * fps_init(struct _XDisplay *dpy, unsigned long int wind
 {
   struct fps_state *st;
   const char *font;
-  struct anonymous$13 *f;
-  signed int return_value_get_boolean_resource$1;
-  return_value_get_boolean_resource$1=get_boolean_resource(dpy, "doFPS", "DoFPS");
-  if(return_value_get_boolean_resource$1 == 0)
+  struct anonymous_13 *f;
+  signed int return_value_get_boolean_resource_1;
+  return_value_get_boolean_resource_1=get_boolean_resource(dpy, "doFPS", "DoFPS");
+  if(return_value_get_boolean_resource_1 == 0)
     return ((struct fps_state *)NULL);
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct fps_state) /*1152ul*/ );
-    st = (struct fps_state *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct fps_state) /*1152ul*/ );
+    st = (struct fps_state *)return_value_calloc_2;
     st->dpy = dpy;
     st->window = window;
     st->clear_p=get_boolean_resource(dpy, "fpsSolid", "FPSSolid");
@@ -12854,27 +12854,27 @@ extern struct fps_state * fps_init(struct _XDisplay *dpy, unsigned long int wind
       font = "-*-courier-bold-r-normal-*-180-*";
 
     f=XLoadQueryFont(dpy, font);
-    if(f == ((struct anonymous$13 *)NULL))
+    if(f == ((struct anonymous_13 *)NULL))
       f=XLoadQueryFont(dpy, "fixed");
 
-    struct anonymous$65 xgwa;
-    struct anonymous$34 gcv;
+    struct anonymous_65 xgwa;
+    struct anonymous_34 gcv;
     XGetWindowAttributes(dpy, window, &xgwa);
     gcv.font = f->fid;
-    unsigned int return_value_get_pixel_resource$3;
-    return_value_get_pixel_resource$3=get_pixel_resource(st->dpy, xgwa.colormap, "foreground", "Foreground");
-    gcv.foreground = (unsigned long int)return_value_get_pixel_resource$3;
+    unsigned int return_value_get_pixel_resource_3;
+    return_value_get_pixel_resource_3=get_pixel_resource(st->dpy, xgwa.colormap, "foreground", "Foreground");
+    gcv.foreground = (unsigned long int)return_value_get_pixel_resource_3;
     st->draw_gc=XCreateGC(dpy, window, (unsigned long int)(1L << 14 | 1L << 2), &gcv);
-    unsigned int return_value_get_pixel_resource$4;
-    return_value_get_pixel_resource$4=get_pixel_resource(st->dpy, xgwa.colormap, "background", "Background");
-    gcv.foreground = (unsigned long int)return_value_get_pixel_resource$4;
+    unsigned int return_value_get_pixel_resource_4;
+    return_value_get_pixel_resource_4=get_pixel_resource(st->dpy, xgwa.colormap, "background", "Background");
+    gcv.foreground = (unsigned long int)return_value_get_pixel_resource_4;
     st->erase_gc=XCreateGC(dpy, window, (unsigned long int)(1L << 14 | 1L << 2), &gcv);
     st->font = f;
     st->x = 10;
     st->y = 10;
-    signed int return_value_get_boolean_resource$5;
-    return_value_get_boolean_resource$5=get_boolean_resource(dpy, "fpsTop", "FPSTop");
-    if(!(return_value_get_boolean_resource$5 == 0))
+    signed int return_value_get_boolean_resource_5;
+    return_value_get_boolean_resource_5=get_boolean_resource(dpy, "fpsTop", "FPSTop");
+    if(!(return_value_get_boolean_resource_5 == 0))
       st->y = -(st->font->ascent + st->font->descent + 10);
 
     strcpy(st->string, "FPS: ... ");
@@ -12891,23 +12891,23 @@ extern void fps_slept(struct fps_state *st, unsigned long int usecs)
 
 // free_colors
 // file colors.c line 25
-extern void free_colors(struct anonymous$58 *screen, unsigned long int cmap, struct anonymous$36 *colors, signed int ncolors)
+extern void free_colors(struct anonymous_58 *screen, unsigned long int cmap, struct anonymous_36 *colors, signed int ncolors)
 {
   struct _XDisplay *dpy;
-  struct _XDisplay *tmp_if_expr$1;
-  if(!(screen == ((struct anonymous$58 *)NULL)))
-    tmp_if_expr$1 = screen->display;
+  struct _XDisplay *tmp_if_expr_1;
+  if(!(screen == ((struct anonymous_58 *)NULL)))
+    tmp_if_expr_1 = screen->display;
 
   else
-    tmp_if_expr$1 = ((struct _XDisplay *)NULL);
-  dpy = tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct _XDisplay *)NULL);
+  dpy = tmp_if_expr_1;
   signed int i;
   if(ncolors >= 1)
   {
     unsigned long int *pixels;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)ncolors);
-    pixels = (unsigned long int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)ncolors);
+    pixels = (unsigned long int *)return_value_malloc_2;
     i = 0;
     for( ; !(i >= ncolors); i = i + 1)
       pixels[(signed long int)i] = (colors + (signed long int)i)->pixel;
@@ -12941,9 +12941,9 @@ extern signed int get_bits_per_pixel(struct _XDisplay *dpy, signed int depth)
   unsigned int i = (unsigned int)0;
   signed int count;
   signed int result;
-  struct anonymous$31 *formats;
+  struct anonymous_31 *formats;
   formats=XListPixmapFormats(dpy, &count);
-  if(formats == ((struct anonymous$31 *)NULL))
+  if(formats == ((struct anonymous_31 *)NULL))
     return 0;
 
   else
@@ -12980,13 +12980,13 @@ extern signed int get_boolean_resource(struct _XDisplay *dpy, char *res_name, ch
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *os = s;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$15;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_15;
   if(s == ((char *)NULL))
     return 0;
 
@@ -12995,84 +12995,84 @@ extern signed int get_boolean_resource(struct _XDisplay *dpy, char *res_name, ch
     tmp = buf;
     for( ; !(*s == 0); s = s + 1l)
     {
-      char *tmp_post$1 = tmp;
+      char *tmp_post_1 = tmp;
       tmp = tmp + 1l;
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)*s >= 65)
-        tmp_if_expr$2 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      signed int tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = ((signed int)*s - 65) + 97;
+        tmp_if_expr_2 = (_Bool)0;
+      signed int tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = ((signed int)*s - 65) + 97;
 
       else
-        tmp_if_expr$3 = (signed int)*s;
-      *tmp_post$1 = (char)tmp_if_expr$3;
+        tmp_if_expr_3 = (signed int)*s;
+      *tmp_post_1 = (char)tmp_if_expr_3;
     }
     *tmp = (char)0;
     free((void *)os);
     while(!(buf[0l] == 0))
     {
-      return_value_strlen$4=strlen(buf);
-      if(!((signed int)buf[-1l + (signed long int)return_value_strlen$4] == 32))
+      return_value_strlen_4=strlen(buf);
+      if(!((signed int)buf[-1l + (signed long int)return_value_strlen_4] == 32))
       {
-        return_value_strlen$5=strlen(buf);
-        if(!((signed int)buf[-1l + (signed long int)return_value_strlen$5] == 9))
+        return_value_strlen_5=strlen(buf);
+        if(!((signed int)buf[-1l + (signed long int)return_value_strlen_5] == 9))
           break;
 
       }
 
-      return_value_strlen$6=strlen(buf);
-      buf[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
+      return_value_strlen_6=strlen(buf);
+      buf[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
     }
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(buf, "on");
-    _Bool tmp_if_expr$9;
-    if(return_value_strcmp$7 == 0)
-      tmp_if_expr$9 = (_Bool)1;
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(buf, "on");
+    _Bool tmp_if_expr_9;
+    if(return_value_strcmp_7 == 0)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$8=strcmp(buf, "true");
-      tmp_if_expr$9 = !(return_value_strcmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_8=strcmp(buf, "true");
+      tmp_if_expr_9 = !(return_value_strcmp_8 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$11;
-    if(tmp_if_expr$9)
-      tmp_if_expr$11 = (_Bool)1;
+    _Bool tmp_if_expr_11;
+    if(tmp_if_expr_9)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$10=strcmp(buf, "yes");
-      tmp_if_expr$11 = !(return_value_strcmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_10=strcmp(buf, "yes");
+      tmp_if_expr_11 = !(return_value_strcmp_10 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$11)
+    if(tmp_if_expr_11)
       return 1;
 
     else
     {
-      signed int return_value_strcmp$12;
-      return_value_strcmp$12=strcmp(buf, "off");
-      _Bool tmp_if_expr$14;
-      if(return_value_strcmp$12 == 0)
-        tmp_if_expr$14 = (_Bool)1;
+      signed int return_value_strcmp_12;
+      return_value_strcmp_12=strcmp(buf, "off");
+      _Bool tmp_if_expr_14;
+      if(return_value_strcmp_12 == 0)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$13=strcmp(buf, "false");
-        tmp_if_expr$14 = !(return_value_strcmp$13 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_13=strcmp(buf, "false");
+        tmp_if_expr_14 = !(return_value_strcmp_13 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$16;
-      if(tmp_if_expr$14)
-        tmp_if_expr$16 = (_Bool)1;
+      _Bool tmp_if_expr_16;
+      if(tmp_if_expr_14)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$15=strcmp(buf, "no");
-        tmp_if_expr$16 = !(return_value_strcmp$15 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_15=strcmp(buf, "no");
+        tmp_if_expr_16 = !(return_value_strcmp_15 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
+      if(tmp_if_expr_16)
         return 0;
 
       else
@@ -13093,7 +13093,7 @@ static struct texfont_cache * get_cache(struct texture_font_data *data, const ch
   struct texfont_cache *prev2 = ((struct texfont_cache *)NULL);
   struct texfont_cache *curr = ((struct texfont_cache *)NULL);
   struct texfont_cache *next = ((struct texfont_cache *)NULL);
-  struct texfont_cache *tmp_if_expr$1;
+  struct texfont_cache *tmp_if_expr_1;
   if(!(data->cache == ((struct texfont_cache *)NULL)))
   {
     prev2 = ((struct texfont_cache *)NULL);
@@ -13102,9 +13102,9 @@ static struct texfont_cache * get_cache(struct texture_font_data *data, const ch
     next = curr->next;
     for( ; !(curr == ((struct texfont_cache *)NULL)); count = count + 1)
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(string, curr->string);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(string, curr->string);
+      if(return_value_strcmp_2 == 0)
       {
         if(!(prev == ((struct texfont_cache *)NULL)))
           prev->next = next;
@@ -13122,11 +13122,11 @@ static struct texfont_cache * get_cache(struct texture_font_data *data, const ch
       prev = curr;
       curr = next;
       if(!(curr == ((struct texfont_cache *)NULL)))
-        tmp_if_expr$1 = curr->next;
+        tmp_if_expr_1 = curr->next;
 
       else
-        tmp_if_expr$1 = ((struct texfont_cache *)NULL);
-      next = tmp_if_expr$1;
+        tmp_if_expr_1 = ((struct texfont_cache *)NULL);
+      next = tmp_if_expr_1;
     }
   }
 
@@ -13136,7 +13136,7 @@ static struct texfont_cache * get_cache(struct texture_font_data *data, const ch
     prev->string = ((char *)NULL);
     prev->tex_width = 0;
     prev->tex_height = 0;
-    memset((void *)&prev->extents, 0, sizeof(struct anonymous$11) /*12ul*/ );
+    memset((void *)&prev->extents, 0, sizeof(struct anonymous_11) /*12ul*/ );
     if(!(prev2 == ((struct texfont_cache *)NULL)))
       prev2->next = ((struct texfont_cache *)NULL);
 
@@ -13149,9 +13149,9 @@ static struct texfont_cache * get_cache(struct texture_font_data *data, const ch
 
   else
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct texfont_cache) /*40ul*/ );
-    curr = (struct texfont_cache *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct texfont_cache) /*40ul*/ );
+    curr = (struct texfont_cache *)return_value_calloc_3;
     glGenTextures(1, &curr->texid);
     curr->string = ((char *)NULL);
     curr->next = data->cache;
@@ -13173,9 +13173,9 @@ extern double get_float_resource(struct _XDisplay *dpy, char *res_name, char *re
 
   else
   {
-    signed int return_value___isoc99_sscanf$1;
-    return_value___isoc99_sscanf$1=__isoc99_sscanf(s, " %lf %c", &val, &c);
-    if(return_value___isoc99_sscanf$1 == 1)
+    signed int return_value___isoc99_sscanf_1;
+    return_value___isoc99_sscanf_1=__isoc99_sscanf(s, " %lf %c", &val, &c);
+    if(return_value___isoc99_sscanf_1 == 1)
     {
       free((void *)s);
       return val;
@@ -13192,7 +13192,7 @@ extern double get_float_resource(struct _XDisplay *dpy, char *res_name, char *re
 
 // get_gl_visual
 // file ./../../utils/visual.h line 29
-extern struct anonymous$59 * get_gl_visual(struct anonymous$58 *screen)
+extern struct anonymous_59 * get_gl_visual(struct anonymous_58 *screen)
 {
   struct _XDisplay *dpy = screen->display;
   signed int screen_num;
@@ -13219,24 +13219,24 @@ extern struct anonymous$59 * get_gl_visual(struct anonymous$58 *screen)
     { 2, 4, 12, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     { 4, 8, 1, 9, 1, 10, 1, 12, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
   signed int i = 0;
-  signed int return_value_get_boolean_resource$1;
-  return_value_get_boolean_resource$1=get_boolean_resource(dpy, "multiSample", "MultiSample");
-  if(return_value_get_boolean_resource$1 == 0)
+  signed int return_value_get_boolean_resource_1;
+  return_value_get_boolean_resource_1=get_boolean_resource(dpy, "multiSample", "MultiSample");
+  if(return_value_get_boolean_resource_1 == 0)
     i = 4;
 
   for( ; !((unsigned long int)i >= 21ul); i = i + 1)
   {
-    struct anonymous$62 *vi;
+    struct anonymous_62 *vi;
     vi=glXChooseVisual(dpy, screen_num, attrs[(signed long int)i]);
-    if(!(vi == ((struct anonymous$62 *)NULL)))
+    if(!(vi == ((struct anonymous_62 *)NULL)))
     {
-      struct anonymous$59 *v = vi->visual;
+      struct anonymous_59 *v = vi->visual;
       XFree((void *)vi);
       return v;
     }
 
   }
-  return ((struct anonymous$59 *)NULL);
+  return ((struct anonymous_59 *)NULL);
 }
 
 // get_integer_resource
@@ -13248,7 +13248,7 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *ss = s;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(s == ((char *)NULL))
     return 0;
 
@@ -13258,24 +13258,24 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
       if((signed int)*ss >= 33)
         break;
 
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if((signed int)*ss == 48)
     {
       if((signed int)ss[1l] == 120)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)ss[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)ss[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      signed int return_value___isoc99_sscanf$1;
-      return_value___isoc99_sscanf$1=__isoc99_sscanf(ss + (signed long int)2, "%x %c", (unsigned int *)&val, &c);
-      if(return_value___isoc99_sscanf$1 == 1)
+      signed int return_value___isoc99_sscanf_1;
+      return_value___isoc99_sscanf_1=__isoc99_sscanf(ss + (signed long int)2, "%x %c", (unsigned int *)&val, &c);
+      if(return_value___isoc99_sscanf_1 == 1)
       {
         free((void *)s);
         return val;
@@ -13285,9 +13285,9 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
 
     else
     {
-      signed int return_value___isoc99_sscanf$2;
-      return_value___isoc99_sscanf$2=__isoc99_sscanf(ss, "%d %c", &val, &c);
-      if(return_value___isoc99_sscanf$2 == 1)
+      signed int return_value___isoc99_sscanf_2;
+      return_value___isoc99_sscanf_2=__isoc99_sscanf(ss, "%d %c", &val, &c);
+      if(return_value___isoc99_sscanf_2 == 1)
       {
         free((void *)s);
         return val;
@@ -13304,53 +13304,53 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
 // file resources.c line 261
 extern unsigned int get_minutes_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  unsigned int return_value_get_time_resource$1;
-  return_value_get_time_resource$1=get_time_resource(dpy, res_name, res_class, 0);
-  return return_value_get_time_resource$1;
+  unsigned int return_value_get_time_resource_1;
+  return_value_get_time_resource_1=get_time_resource(dpy, res_name, res_class, 0);
+  return return_value_get_time_resource_1;
 }
 
 // get_pixel_resource
 // file ./../utils/resources.h line 19
 extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int cmap, char *res_name, char *res_class)
 {
-  struct anonymous$36 color;
+  struct anonymous_36 color;
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *s2;
   signed int ok = 1;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_XParseColor$3;
-  signed int return_value_XAllocColor$4;
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strcasecmp$7;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_XParseColor_3;
+  signed int return_value_XAllocColor_4;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strcasecmp_7;
   if(!(s == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(s);
-    s2 = (s + (signed long int)return_value_strlen$1) - (signed long int)1;
+    return_value_strlen_1=strlen(s);
+    s2 = (s + (signed long int)return_value_strlen_1) - (signed long int)1;
     for( ; !(s >= s2); s2 = s2 - 1l)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)*s2 == 32)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*s2 == 9 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)*s2 == 9 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         *s2 = (char)0;
 
       else
         break;
     }
-    return_value_XParseColor$3=XParseColor(dpy, cmap, s, &color);
-    if(return_value_XParseColor$3 == 0)
+    return_value_XParseColor_3=XParseColor(dpy, cmap, s, &color);
+    if(return_value_XParseColor_3 == 0)
     {
       fprintf(stderr, "%s: can't parse color %s", progname, s);
       ok = 0;
       goto DEFAULT;
     }
 
-    return_value_XAllocColor$4=XAllocColor(dpy, cmap, &color);
-    if(return_value_XAllocColor$4 == 0)
+    return_value_XAllocColor_4=XAllocColor(dpy, cmap, &color);
+    if(return_value_XAllocColor_4 == 0)
     {
       fprintf(stderr, "%s: couldn't allocate color %s", progname, s);
       ok = 0;
@@ -13370,19 +13370,19 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
       free((void *)s);
 
     signed int black_p;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(res_class);
-    _Bool tmp_if_expr$8;
-    if(return_value_strlen$5 >= 10ul)
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(res_class);
+    _Bool tmp_if_expr_8;
+    if(return_value_strlen_5 >= 10ul)
     {
-      return_value_strlen$6=strlen(res_class);
-      return_value_strcasecmp$7=strcasecmp("Background", (res_class + (signed long int)return_value_strlen$6) - (signed long int)10);
-      tmp_if_expr$8 = !(return_value_strcasecmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_6=strlen(res_class);
+      return_value_strcasecmp_7=strcasecmp("Background", (res_class + (signed long int)return_value_strlen_6) - (signed long int)10);
+      tmp_if_expr_8 = !(return_value_strcasecmp_7 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    black_p = (signed int)tmp_if_expr$8;
+      tmp_if_expr_8 = (_Bool)0;
+    black_p = (signed int)tmp_if_expr_8;
     if(ok == 0)
       fprintf(stderr, ": using %s.\n", black_p != 0 ? "black" : "white");
 
@@ -13390,9 +13390,9 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
     color.blue = (unsigned short int)(black_p != 0 ? 0 : 0xFFFF);
     color.green = color.blue;
     color.red = color.green;
-    signed int return_value_XAllocColor$9;
-    return_value_XAllocColor$9=XAllocColor(dpy, cmap, &color);
-    if(!(return_value_XAllocColor$9 == 0))
+    signed int return_value_XAllocColor_9;
+    return_value_XAllocColor_9=XAllocColor(dpy, cmap, &color);
+    if(!(return_value_XAllocColor_9 == 0))
       return (unsigned int)color.pixel;
 
     else
@@ -13407,16 +13407,16 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
 // file resources.c line 255
 extern unsigned int get_seconds_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  unsigned int return_value_get_time_resource$1;
-  return_value_get_time_resource$1=get_time_resource(dpy, res_name, res_class, 1);
-  return return_value_get_time_resource$1;
+  unsigned int return_value_get_time_resource_1;
+  return_value_get_time_resource_1=get_time_resource(dpy, res_name, res_class, 1);
+  return return_value_get_time_resource_1;
 }
 
 // get_string_resource
 // file ./../utils/resources.h line 15
 extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  struct anonymous$9 value;
+  struct anonymous_9 value;
   char *type;
   char full_name[1024l];
   char full_class[1024l];
@@ -13426,16 +13426,16 @@ extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *r
   strcpy(full_class, progclass);
   strcat(full_class, ".");
   strcat(full_class, res_class);
-  struct _XrmHashBucketRec *return_value_XtDatabase$2;
-  return_value_XtDatabase$2=XtDatabase(dpy);
-  signed int return_value_XrmGetResource$3;
-  return_value_XrmGetResource$3=XrmGetResource(return_value_XtDatabase$2, full_name, full_class, &type, &value);
-  if(!(return_value_XrmGetResource$3 == 0))
+  struct _XrmHashBucketRec *return_value_XtDatabase_2;
+  return_value_XtDatabase_2=XtDatabase(dpy);
+  signed int return_value_XrmGetResource_3;
+  return_value_XrmGetResource_3=XrmGetResource(return_value_XtDatabase_2, full_name, full_class, &type, &value);
+  if(!(return_value_XrmGetResource_3 == 0))
   {
     char *str;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(value.size + (unsigned int)1));
-    str = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(value.size + (unsigned int)1));
+    str = (char *)return_value_malloc_1;
     strncpy(str, (char *)value.addr, (unsigned long int)value.size);
     str[(signed long int)value.size] = (char)0;
     return str;
@@ -13464,25 +13464,25 @@ static unsigned int get_time_resource(struct _XDisplay *dpy, char *res_name, cha
 
 // get_visual
 // file visual.c line 50
-extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p)
+extern struct anonymous_59 * get_visual(struct anonymous_58 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p)
 {
   char *v;
-  char *tmp_if_expr$2;
-  char *return_value_strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value_strdup_1;
   if(!(string == ((const char *)NULL)))
   {
-    return_value_strdup$1=strdup(string);
-    tmp_if_expr$2 = return_value_strdup$1;
+    return_value_strdup_1=strdup(string);
+    tmp_if_expr_2 = return_value_strdup_1;
   }
 
   else
-    tmp_if_expr$2 = ((char *)NULL);
-  v = tmp_if_expr$2;
+    tmp_if_expr_2 = ((char *)NULL);
+  v = tmp_if_expr_2;
   char c;
   char *tmp;
   signed int vclass;
   unsigned long int id;
-  struct anonymous$59 *result = ((struct anonymous$59 *)NULL);
+  struct anonymous_59 *result = ((struct anonymous_59 *)NULL);
   if(!(v == ((char *)NULL)))
   {
     tmp = v;
@@ -13496,132 +13496,132 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
 
   }
 
-  _Bool tmp_if_expr$20;
+  _Bool tmp_if_expr_20;
   if(v == ((char *)NULL))
-    tmp_if_expr$20 = (_Bool)1;
+    tmp_if_expr_20 = (_Bool)1;
 
   else
-    tmp_if_expr$20 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value___isoc99_sscanf$4;
-  signed int return_value___isoc99_sscanf$3;
-  if(tmp_if_expr$20)
+    tmp_if_expr_20 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value___isoc99_sscanf_4;
+  signed int return_value___isoc99_sscanf_3;
+  if(tmp_if_expr_20)
     vclass = -2;
 
   else
   {
-    return_value_strcmp$19=strcmp(v, "default");
-    if(return_value_strcmp$19 == 0)
+    return_value_strcmp_19=strcmp(v, "default");
+    if(return_value_strcmp_19 == 0)
       vclass = -1;
 
     else
     {
-      return_value_strcmp$18=strcmp(v, "best");
-      if(return_value_strcmp$18 == 0)
+      return_value_strcmp_18=strcmp(v, "best");
+      if(return_value_strcmp_18 == 0)
         vclass = -2;
 
       else
       {
-        return_value_strcmp$17=strcmp(v, "mono");
-        if(return_value_strcmp$17 == 0)
+        return_value_strcmp_17=strcmp(v, "mono");
+        if(return_value_strcmp_17 == 0)
           vclass = -3;
 
         else
         {
-          return_value_strcmp$16=strcmp(v, "monochrome");
-          if(return_value_strcmp$16 == 0)
+          return_value_strcmp_16=strcmp(v, "monochrome");
+          if(return_value_strcmp_16 == 0)
             vclass = -3;
 
           else
           {
-            return_value_strcmp$15=strcmp(v, "gray");
-            if(return_value_strcmp$15 == 0)
+            return_value_strcmp_15=strcmp(v, "gray");
+            if(return_value_strcmp_15 == 0)
               vclass = -4;
 
             else
             {
-              return_value_strcmp$14=strcmp(v, "grey");
-              if(return_value_strcmp$14 == 0)
+              return_value_strcmp_14=strcmp(v, "grey");
+              if(return_value_strcmp_14 == 0)
                 vclass = -4;
 
               else
               {
-                return_value_strcmp$13=strcmp(v, "color");
-                if(return_value_strcmp$13 == 0)
+                return_value_strcmp_13=strcmp(v, "color");
+                if(return_value_strcmp_13 == 0)
                   vclass = -5;
 
                 else
                 {
-                  return_value_strcmp$12=strcmp(v, "gl");
-                  if(return_value_strcmp$12 == 0)
+                  return_value_strcmp_12=strcmp(v, "gl");
+                  if(return_value_strcmp_12 == 0)
                     vclass = -6;
 
                   else
                   {
-                    return_value_strcmp$11=strcmp(v, "staticgray");
-                    if(return_value_strcmp$11 == 0)
+                    return_value_strcmp_11=strcmp(v, "staticgray");
+                    if(return_value_strcmp_11 == 0)
                       vclass = 0;
 
                     else
                     {
-                      return_value_strcmp$10=strcmp(v, "staticcolor");
-                      if(return_value_strcmp$10 == 0)
+                      return_value_strcmp_10=strcmp(v, "staticcolor");
+                      if(return_value_strcmp_10 == 0)
                         vclass = 2;
 
                       else
                       {
-                        return_value_strcmp$9=strcmp(v, "truecolor");
-                        if(return_value_strcmp$9 == 0)
+                        return_value_strcmp_9=strcmp(v, "truecolor");
+                        if(return_value_strcmp_9 == 0)
                           vclass = 4;
 
                         else
                         {
-                          return_value_strcmp$8=strcmp(v, "grayscale");
-                          if(return_value_strcmp$8 == 0)
+                          return_value_strcmp_8=strcmp(v, "grayscale");
+                          if(return_value_strcmp_8 == 0)
                             vclass = 1;
 
                           else
                           {
-                            return_value_strcmp$7=strcmp(v, "greyscale");
-                            if(return_value_strcmp$7 == 0)
+                            return_value_strcmp_7=strcmp(v, "greyscale");
+                            if(return_value_strcmp_7 == 0)
                               vclass = 1;
 
                             else
                             {
-                              return_value_strcmp$6=strcmp(v, "pseudocolor");
-                              if(return_value_strcmp$6 == 0)
+                              return_value_strcmp_6=strcmp(v, "pseudocolor");
+                              if(return_value_strcmp_6 == 0)
                                 vclass = 3;
 
                               else
                               {
-                                return_value_strcmp$5=strcmp(v, "directcolor");
-                                if(return_value_strcmp$5 == 0)
+                                return_value_strcmp_5=strcmp(v, "directcolor");
+                                if(return_value_strcmp_5 == 0)
                                   vclass = 5;
 
                                 else
                                 {
-                                  return_value___isoc99_sscanf$4=__isoc99_sscanf(v, " %lu %c", &id, &c);
-                                  if(return_value___isoc99_sscanf$4 == 1)
+                                  return_value___isoc99_sscanf_4=__isoc99_sscanf(v, " %lu %c", &id, &c);
+                                  if(return_value___isoc99_sscanf_4 == 1)
                                     vclass = -7;
 
                                   else
                                   {
-                                    return_value___isoc99_sscanf$3=__isoc99_sscanf(v, " 0x%lx %c", &id, &c);
-                                    if(return_value___isoc99_sscanf$3 == 1)
+                                    return_value___isoc99_sscanf_3=__isoc99_sscanf(v, " 0x%lx %c", &id, &c);
+                                    if(return_value___isoc99_sscanf_3 == 1)
                                       vclass = -7;
 
                                     else
@@ -13646,7 +13646,7 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
       }
     }
   }
-  signed int return_value_visual_depth$21;
+  signed int return_value_visual_depth_21;
   if(vclass == -1)
     result = screen->root_visual;
 
@@ -13658,7 +13658,7 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
       if(vclass == -3)
       {
         result=pick_mono_visual(screen);
-        if(result == ((struct anonymous$59 *)NULL) && !(verbose_p == 0))
+        if(result == ((struct anonymous_59 *)NULL) && !(verbose_p == 0))
           fprintf(stderr, "%s: no monochrome visuals.\n", progname);
 
       }
@@ -13669,13 +13669,13 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
           if(!(prefer_writable_cells == 0))
             result=pick_best_visual_of_class(screen, 1);
 
-          if(result == ((struct anonymous$59 *)NULL))
+          if(result == ((struct anonymous_59 *)NULL))
             result=pick_best_visual_of_class(screen, 0);
 
-          if(result == ((struct anonymous$59 *)NULL))
+          if(result == ((struct anonymous_59 *)NULL))
             result=pick_best_visual_of_class(screen, 1);
 
-          if(result == ((struct anonymous$59 *)NULL) && !(verbose_p == 0))
+          if(result == ((struct anonymous_59 *)NULL) && !(verbose_p == 0))
             fprintf(stderr, "%s: no GrayScale or StaticGray visuals.\n", progname);
 
         }
@@ -13687,20 +13687,20 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
             result = screen->root_visual;
             class=visual_class(screen, result);
             if(!(class == 2) && !(class == 3) && !(class == 4) && !(class == 5))
-              result = ((struct anonymous$59 *)NULL);
+              result = ((struct anonymous_59 *)NULL);
 
-            if(!(result == ((struct anonymous$59 *)NULL)))
+            if(!(result == ((struct anonymous_59 *)NULL)))
             {
-              return_value_visual_depth$21=visual_depth(screen, result);
-              if(!(return_value_visual_depth$21 >= 2))
-                result = ((struct anonymous$59 *)NULL);
+              return_value_visual_depth_21=visual_depth(screen, result);
+              if(!(return_value_visual_depth_21 >= 2))
+                result = ((struct anonymous_59 *)NULL);
 
             }
 
-            if(result == ((struct anonymous$59 *)NULL))
+            if(result == ((struct anonymous_59 *)NULL))
               result=pick_best_visual(screen, prefer_writable_cells, 1);
 
-            if(result == ((struct anonymous$59 *)NULL) && !(verbose_p == 0))
+            if(result == ((struct anonymous_59 *)NULL) && !(verbose_p == 0))
               fprintf(stderr, "%s: no color visuals.\n", progname);
 
           }
@@ -13708,9 +13708,9 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
           else
             if(vclass == -6)
             {
-              struct anonymous$59 *visual;
+              struct anonymous_59 *visual;
               visual=pick_best_gl_visual(screen);
-              if(!(visual == ((struct anonymous$59 *)NULL)))
+              if(!(visual == ((struct anonymous_59 *)NULL)))
                 result = visual;
 
               else
@@ -13723,17 +13723,17 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
               if(vclass == -7)
               {
                 result=id_to_visual(screen, (signed int)id);
-                if(result == ((struct anonymous$59 *)NULL) && !(verbose_p == 0))
+                if(result == ((struct anonymous_59 *)NULL) && !(verbose_p == 0))
                   fprintf(stderr, "%s: no visual with id 0x%x.\n", progname, (unsigned int)id);
 
               }
 
               else
               {
-                struct anonymous$59 *get_visual$$1$$7$$visual;
-                get_visual$$1$$7$$visual=pick_best_visual_of_class(screen, vclass);
-                if(!(get_visual$$1$$7$$visual == ((struct anonymous$59 *)NULL)))
-                  result = get_visual$$1$$7$$visual;
+                struct anonymous_59 *get_visual__1__7__visual;
+                get_visual__1__7__visual=pick_best_visual_of_class(screen, vclass);
+                if(!(get_visual__1__7__visual == ((struct anonymous_59 *)NULL)))
+                  result = get_visual__1__7__visual;
 
                 else
                   if(!(verbose_p == 0))
@@ -13748,16 +13748,16 @@ extern struct anonymous$59 * get_visual(struct anonymous$58 *screen, const char 
 
 // get_visual_resource
 // file ./../utils/visual.h line 16
-extern struct anonymous$59 * get_visual_resource(struct anonymous$58 *screen, char *name, char *class, signed int prefer_writable_cells)
+extern struct anonymous_59 * get_visual_resource(struct anonymous_58 *screen, char *name, char *class, signed int prefer_writable_cells)
 {
   char *string;
   string=get_string_resource(screen->display, name, class);
-  struct anonymous$59 *v;
+  struct anonymous_59 *v;
   v=get_visual(screen, string, prefer_writable_cells, 1);
   if(!(string == ((char *)NULL)))
     free((void *)string);
 
-  if(!(v == ((struct anonymous$59 *)NULL)))
+  if(!(v == ((struct anonymous_59 *)NULL)))
     return v;
 
   else
@@ -13768,13 +13768,13 @@ extern struct anonymous$59 * get_visual_resource(struct anonymous$58 *screen, ch
 // file thread_util.c line 478
 unsigned int hardware_concurrency(struct _XDisplay *dpy)
 {
-  signed int return_value_threads_available$2;
-  return_value_threads_available$2=threads_available(dpy);
-  unsigned int return_value__hardware_concurrency$1;
-  if(return_value_threads_available$2 >= 0)
+  signed int return_value_threads_available_2;
+  return_value_threads_available_2=threads_available(dpy);
+  unsigned int return_value__hardware_concurrency_1;
+  if(return_value_threads_available_2 >= 0)
   {
-    return_value__hardware_concurrency$1=_hardware_concurrency();
-    return return_value__hardware_concurrency$1;
+    return_value__hardware_concurrency_1=_hardware_concurrency();
+    return return_value__hardware_concurrency_1;
   }
 
   return (unsigned int)1;
@@ -13782,11 +13782,11 @@ unsigned int hardware_concurrency(struct _XDisplay *dpy)
 
 // has_writable_cells
 // file ./../utils/visual.h line 25
-extern signed int has_writable_cells(struct anonymous$58 *screen, struct anonymous$59 *visual)
+extern signed int has_writable_cells(struct anonymous_58 *screen, struct anonymous_59 *visual)
 {
-  signed int return_value_visual_class$1;
-  return_value_visual_class$1=visual_class(screen, visual);
-  switch(return_value_visual_class$1)
+  signed int return_value_visual_class_1;
+  return_value_visual_class_1=visual_class(screen, visual);
+  switch(return_value_visual_class_1)
   {
     case 1:
 
@@ -13895,23 +13895,23 @@ extern void hsv_to_rgb(signed int h, double s, double v, unsigned short int *r, 
 
 // id_to_visual
 // file visual.c line 340
-extern struct anonymous$59 * id_to_visual(struct anonymous$58 *screen, signed int id)
+extern struct anonymous_59 * id_to_visual(struct anonymous_58 *screen, signed int id)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid = (unsigned long int)id;
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(!(vi_out == ((struct anonymous$62 *)NULL)))
+  if(!(vi_out == ((struct anonymous_62 *)NULL)))
   {
-    struct anonymous$59 *v = (vi_out + (signed long int)0)->visual;
+    struct anonymous_59 *v = (vi_out + (signed long int)0)->visual;
     XFree((void *)(char *)vi_out);
     return v;
   }
 
-  return ((struct anonymous$59 *)NULL);
+  return ((struct anonymous_59 *)NULL);
 }
 
 // init_GL
@@ -13920,16 +13920,16 @@ extern struct __GLXcontextRec ** init_GL(struct ModeInfo *mi)
 {
   struct _XDisplay *dpy = mi->dpy;
   unsigned long int window = mi->window;
-  struct anonymous$58 *screen = mi->xgwa.screen;
-  struct anonymous$59 *visual = mi->xgwa.visual;
+  struct anonymous_58 *screen = mi->xgwa.screen;
+  struct anonymous_59 *visual = mi->xgwa.visual;
   struct __GLXcontextRec *glx_context = ((struct __GLXcontextRec *)NULL);
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$62 *)NULL))
+  if(vi_out == ((struct anonymous_62 *)NULL))
     abort();
 
   XSync(dpy, 0);
@@ -13943,9 +13943,9 @@ extern struct __GLXcontextRec ** init_GL(struct ModeInfo *mi)
   XFree((void *)(char *)vi_out);
   if(glx_context == ((struct __GLXcontextRec *)NULL))
   {
-    unsigned long int return_value_XVisualIDFromVisual$1;
-    return_value_XVisualIDFromVisual$1=XVisualIDFromVisual(visual);
-    fprintf(stderr, "%s: couldn't create GL context for visual 0x%x.\n", progname, (unsigned int)return_value_XVisualIDFromVisual$1);
+    unsigned long int return_value_XVisualIDFromVisual_1;
+    return_value_XVisualIDFromVisual_1=XVisualIDFromVisual(visual);
+    fprintf(stderr, "%s: couldn't create GL context for visual 0x%x.\n", progname, (unsigned int)return_value_XVisualIDFromVisual_1);
     exit(1);
   }
 
@@ -13968,19 +13968,19 @@ extern struct __GLXcontextRec ** init_GL(struct ModeInfo *mi)
   clear_gl_error();
   char *s;
   s=get_string_resource(mi->dpy, "background", "Background");
-  struct anonymous$36 c = { .pixel=(unsigned long int)0, .red=0, .green=0, .blue=0,
+  struct anonymous_36 c = { .pixel=(unsigned long int)0, .red=0, .green=0, .blue=0,
     .flags=0, .pad=0 };
-  signed int return_value_XParseColor$2;
-  return_value_XParseColor$2=XParseColor(dpy, mi->xgwa.colormap, s, &c);
-  if(return_value_XParseColor$2 == 0)
+  signed int return_value_XParseColor_2;
+  return_value_XParseColor_2=XParseColor(dpy, mi->xgwa.colormap, s, &c);
+  if(return_value_XParseColor_2 == 0)
     fprintf(stderr, "%s: can't parse color %s; using black.\n", progname, s);
 
   glClearColor((float)((double)c.red / 65535.0), (float)((double)c.green / 65535.0), (float)((double)c.blue / 65535.0), (float)1.0);
   glClear((unsigned int)(0x00004000 | 0x00000100));
   struct __GLXcontextRec **ptr;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct __GLXcontextRec *) /*8ul*/ );
-  ptr = (struct __GLXcontextRec **)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct __GLXcontextRec *) /*8ul*/ );
+  ptr = (struct __GLXcontextRec **)return_value_malloc_3;
   *ptr = glx_context;
   return ptr;
 }
@@ -13995,9 +13995,9 @@ static void init_atlantis(struct ModeInfo *mi)
   unsigned long int window = mi->window;
   if(atlantis == ((struct anonymous *)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)mi->num_screens, sizeof(struct anonymous) /*248ul*/ );
-    atlantis = (struct anonymous *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)mi->num_screens, sizeof(struct anonymous) /*248ul*/ );
+    atlantis = (struct anonymous *)return_value_calloc_1;
     if(atlantis == ((struct anonymous *)NULL))
       goto __CPROVER_DUMP_L8;
 
@@ -14007,9 +14007,9 @@ static void init_atlantis(struct ModeInfo *mi)
   ap->num_sharks = (signed int)mi->batchcount;
   if(ap->sharks == ((struct _fishRec *)NULL))
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)ap->num_sharks, sizeof(struct _fishRec) /*64ul*/ );
-    ap->sharks = (struct _fishRec *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)ap->num_sharks, sizeof(struct _fishRec) /*64ul*/ );
+    ap->sharks = (struct _fishRec *)return_value_calloc_2;
     if(ap->sharks == ((struct _fishRec *)NULL))
     {
       free((void *)atlantis);
@@ -14045,8 +14045,8 @@ __CPROVER_DUMP_L8:
 static void init_window(struct _XDisplay *dpy, struct _WidgetRec *toplevel, const char *title)
 {
   unsigned long int window;
-  struct anonymous$65 xgwa;
-  XtPopup(toplevel, (enum anonymous$15)XtGrabNone);
+  struct anonymous_65 xgwa;
+  XtPopup(toplevel, (enum anonymous_15)XtGrabNone);
   XtVaSetValues(toplevel, (char *)&XtShellStrings[(signed long int)356], title, (void *)0);
   window = toplevel->core.window;
   XGetWindowAttributes(dpy, window, &xgwa);
@@ -14061,15 +14061,15 @@ signed int io_thread_cancel(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status old_status;
-    signed int return_value___atomic_exchange_n$1;
-    return_value___atomic_exchange_n$1=__atomic_exchange_n(&self->status, _io_thread_cancelled, 5);
-    old_status = (enum _io_thread_status)return_value___atomic_exchange_n$1;
+    signed int return_value___atomic_exchange_n_1;
+    return_value___atomic_exchange_n_1=__atomic_exchange_n(&self->status, _io_thread_cancelled, 5);
+    old_status = (enum _io_thread_status)return_value___atomic_exchange_n_1;
     /* assertion old_status == _io_thread_working || old_status == _io_thread_done */
     assert((signed int)old_status == _io_thread_working || (signed int)old_status == _io_thread_done);
-    signed int return_value_pthread_detach$2;
-    return_value_pthread_detach$2=pthread_detach(self->thread);
+    signed int return_value_pthread_detach_2;
+    return_value_pthread_detach_2=pthread_detach(self->thread);
     /* assertion !(pthread_detach(self->thread)) */
-    assert(!(return_value_pthread_detach$2 != 0));
+    assert(!(return_value_pthread_detach_2 != 0));
     return (signed int)((signed int)old_status != _io_thread_working);
   }
 
@@ -14080,10 +14080,10 @@ signed int io_thread_cancel(struct io_thread *self)
 // file thread_util.h line 380
 void * io_thread_create(struct io_thread *self, void *parent, void * (*start_routine)(void *), struct _XDisplay *dpy, unsigned int stacksize)
 {
-  signed int return_value_threads_available$4;
-  return_value_threads_available$4=threads_available(dpy);
-  signed int return_value_pthread_attr_destroy$3;
-  if(return_value_threads_available$4 >= 0)
+  signed int return_value_threads_available_4;
+  return_value_threads_available_4=threads_available(dpy);
+  signed int return_value_pthread_attr_destroy_3;
+  if(return_value_threads_available_4 >= 0)
   {
     signed int error;
     union pthread_attr_t attr;
@@ -14091,17 +14091,17 @@ void * io_thread_create(struct io_thread *self, void *parent, void * (*start_rou
     if(!(stacksize == 0u))
     {
       attr_ptr = &attr;
-      signed int return_value_pthread_attr_init$1;
-      return_value_pthread_attr_init$1=pthread_attr_init(&attr);
-      if(!(return_value_pthread_attr_init$1 == 0))
+      signed int return_value_pthread_attr_init_1;
+      return_value_pthread_attr_init_1=pthread_attr_init(&attr);
+      if(!(return_value_pthread_attr_init_1 == 0))
         return (void *)0;
 
       /* assertion stacksize >= 16384 */
       assert(stacksize >= (unsigned int)16384);
-      signed int return_value_pthread_attr_setstacksize$2;
-      return_value_pthread_attr_setstacksize$2=pthread_attr_setstacksize(&attr, (unsigned long int)stacksize);
+      signed int return_value_pthread_attr_setstacksize_2;
+      return_value_pthread_attr_setstacksize_2=pthread_attr_setstacksize(&attr, (unsigned long int)stacksize);
       /* assertion !(pthread_attr_setstacksize(&attr, stacksize)) */
-      assert(!(return_value_pthread_attr_setstacksize$2 != 0));
+      assert(!(return_value_pthread_attr_setstacksize_2 != 0));
     }
 
     self->status = (enum _io_thread_status)_io_thread_working;
@@ -14113,9 +14113,9 @@ void * io_thread_create(struct io_thread *self, void *parent, void * (*start_rou
 
     if(!(attr_ptr == ((union pthread_attr_t *)NULL)))
     {
-      return_value_pthread_attr_destroy$3=pthread_attr_destroy(attr_ptr);
+      return_value_pthread_attr_destroy_3=pthread_attr_destroy(attr_ptr);
       /* assertion !(pthread_attr_destroy(attr_ptr)) */
-      assert(!(return_value_pthread_attr_destroy$3 != 0));
+      assert(!(return_value_pthread_attr_destroy_3 != 0));
     }
 
     return parent;
@@ -14131,19 +14131,19 @@ void io_thread_finish(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status status;
-    signed int return_value___atomic_load_n$1;
-    return_value___atomic_load_n$1=__atomic_load_n(&self->status, 5);
-    status = (enum _io_thread_status)return_value___atomic_load_n$1;
+    signed int return_value___atomic_load_n_1;
+    return_value___atomic_load_n_1=__atomic_load_n(&self->status, 5);
+    status = (enum _io_thread_status)return_value___atomic_load_n_1;
     /* assertion status == _io_thread_working || status == _io_thread_done */
     assert((signed int)status == _io_thread_working || (signed int)status == _io_thread_done);
-    signed int return_value_pthread_join$2;
-    return_value_pthread_join$2=pthread_join(self->thread, (void **)(void *)0);
+    signed int return_value_pthread_join_2;
+    return_value_pthread_join_2=pthread_join(self->thread, (void **)(void *)0);
     /* assertion !(pthread_join(self->thread, ((void *)0))) */
-    assert(!(return_value_pthread_join$2 != 0));
-    signed int return_value___atomic_load_n$3;
-    return_value___atomic_load_n$3=__atomic_load_n(&self->status, 5);
+    assert(!(return_value_pthread_join_2 != 0));
+    signed int return_value___atomic_load_n_3;
+    return_value___atomic_load_n_3=__atomic_load_n(&self->status, 5);
     /* assertion (__atomic_load_n((&self->status), 5)) == _io_thread_done */
-    assert(return_value___atomic_load_n$3 == _io_thread_done);
+    assert(return_value___atomic_load_n_3 == _io_thread_done);
   }
 
 }
@@ -14171,9 +14171,9 @@ signed int io_thread_return(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status old_status;
-    signed int return_value___atomic_exchange_n$1;
-    return_value___atomic_exchange_n$1=__atomic_exchange_n(&self->status, _io_thread_done, 5);
-    old_status = (enum _io_thread_status)return_value___atomic_exchange_n$1;
+    signed int return_value___atomic_exchange_n_1;
+    return_value___atomic_exchange_n_1=__atomic_exchange_n(&self->status, _io_thread_done, 5);
+    old_status = (enum _io_thread_status)return_value___atomic_exchange_n_1;
     /* assertion old_status == _io_thread_working || old_status == _io_thread_cancelled */
     assert((signed int)old_status == _io_thread_working || (signed int)old_status == _io_thread_cancelled);
     return (signed int)((signed int)old_status != _io_thread_working);
@@ -14184,7 +14184,7 @@ signed int io_thread_return(struct io_thread *self)
 
 // iterate_texture_string
 // file texfont.c line 340
-static void iterate_texture_string(struct texture_font_data *data, const char *s, signed int draw_x, signed int draw_y, struct _XftDraw *xftdraw, struct _XftColor *xftcolor, struct anonymous$11 *metrics_ret)
+static void iterate_texture_string(struct texture_font_data *data, const char *s, signed int draw_x, signed int draw_y, struct _XftDraw *xftdraw, struct _XftColor *xftcolor, struct anonymous_11 *metrics_ret)
 {
   signed int line_height = data->xftfont->ascent + data->xftfont->descent;
   signed int subscript_offset = (signed int)((double)line_height * 0.3);
@@ -14193,67 +14193,67 @@ static void iterate_texture_string(struct texture_font_data *data, const char *s
   signed int osub_p = 0;
   signed int cw = 0;
   signed int tabs = 0;
-  struct anonymous$11 overall = { .lbearing=(signed short int)0, .rbearing=0, .width=0,
+  struct anonymous_11 overall = { .lbearing=(signed short int)0, .rbearing=0, .width=0,
     .ascent=0, .descent=0, .attributes=0 };
   signed int x = 0;
   signed int y = 0;
   signed int ox = x;
   signed int oy = y;
-  _Bool tmp_if_expr$6;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_6;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  const unsigned short int **return_value___ctype_b_loc_1;
   while((_Bool)1)
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if((signed int)*s == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$4;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)*s == 10 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_4;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$7;
-    if(tmp_if_expr$4)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_4 = (signed int)*s == 9 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_7;
+    if(tmp_if_expr_4)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       if((signed int)*s == 91)
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        tmp_if_expr$6 = ((signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)s[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        tmp_if_expr_6 = ((signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)s[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$8;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+    _Bool tmp_if_expr_8;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = ((signed int)*s == 93 ? (sub_p != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = ((signed int)*s == 93 ? (sub_p != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       if(!(s == os))
       {
-        struct _XGlyphInfo iterate_texture_string$$1$$1$$1$$1$$e;
-        struct anonymous$11 c;
+        struct _XGlyphInfo iterate_texture_string__1__1__1__1__e;
+        struct anonymous_11 c;
         signed int y2 = y;
         if(!(sub_p == 0))
           y2 = y2 + subscript_offset;
 
-        XftTextExtentsUtf8(data->dpy, data->xftfont, (unsigned char *)os, (signed int)(s - os), &iterate_texture_string$$1$$1$$1$$1$$e);
-        c.lbearing = (signed short int)-((signed int)iterate_texture_string$$1$$1$$1$$1$$e.x);
-        c.rbearing = (signed short int)((signed int)iterate_texture_string$$1$$1$$1$$1$$e.width - (signed int)iterate_texture_string$$1$$1$$1$$1$$e.x);
-        c.ascent = iterate_texture_string$$1$$1$$1$$1$$e.y;
-        c.descent = (signed short int)((signed int)iterate_texture_string$$1$$1$$1$$1$$e.height - (signed int)iterate_texture_string$$1$$1$$1$$1$$e.y);
-        c.width = iterate_texture_string$$1$$1$$1$$1$$e.xOff;
+        XftTextExtentsUtf8(data->dpy, data->xftfont, (unsigned char *)os, (signed int)(s - os), &iterate_texture_string__1__1__1__1__e);
+        c.lbearing = (signed short int)-((signed int)iterate_texture_string__1__1__1__1__e.x);
+        c.rbearing = (signed short int)((signed int)iterate_texture_string__1__1__1__1__e.width - (signed int)iterate_texture_string__1__1__1__1__e.x);
+        c.ascent = iterate_texture_string__1__1__1__1__e.y;
+        c.descent = (signed short int)((signed int)iterate_texture_string__1__1__1__1__e.height - (signed int)iterate_texture_string__1__1__1__1__e.y);
+        c.width = iterate_texture_string__1__1__1__1__e.xOff;
         overall.ascent = (signed short int)((signed int)overall.ascent > -y2 + (signed int)c.ascent ? (signed int)overall.ascent : -y2 + (signed int)c.ascent);
         overall.descent = (signed short int)((signed int)overall.descent > y2 + (signed int)c.descent ? (signed int)overall.descent : y2 + (signed int)c.descent);
         overall.lbearing = (signed short int)((signed int)overall.lbearing < x + (signed int)c.lbearing ? (signed int)overall.lbearing : x + (signed int)c.lbearing);
@@ -14288,16 +14288,16 @@ static void iterate_texture_string(struct texture_font_data *data, const char *s
 
         else
         {
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if((signed int)*s == 91)
           {
-            return_value___ctype_b_loc$1=__ctype_b_loc();
-            tmp_if_expr$2 = ((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)s[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_1=__ctype_b_loc();
+            tmp_if_expr_2 = ((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)s[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
             sub_p = 1;
 
           else
@@ -14323,7 +14323,7 @@ static void iterate_texture_string(struct texture_font_data *data, const char *s
 
     s = s + 1l;
   }
-  if(!(metrics_ret == ((struct anonymous$11 *)NULL)))
+  if(!(metrics_ret == ((struct anonymous_11 *)NULL)))
     *metrics_ret = overall;
 
 }
@@ -14332,7 +14332,7 @@ static void iterate_texture_string(struct texture_font_data *data, const char *s
 // file texfont.c line 257
 extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char *res)
 {
-  signed int screen = ((struct anonymous$0 *)dpy)->default_screen;
+  signed int screen = ((struct anonymous_0 *)dpy)->default_screen;
   char *font;
   font=get_string_resource(dpy, res, "Font");
   const char *def1 = "-*-helvetica-medium-r-normal-*-*-180-*-*-*-*-*-*";
@@ -14345,18 +14345,18 @@ extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char 
   if(!(cache_size >= 1))
     cache_size = 30;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(res == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*res != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*res != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     abort();
 
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(res, "fpsFont");
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(res, "fpsFont");
+  if(return_value_strcmp_2 == 0)
   {
     def1 = "-*-courier-bold-r-normal-*-*-140-*-*-*-*-*-*";
     cache_size = 0;
@@ -14366,11 +14366,11 @@ extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char 
     font=strdup(def1);
 
   f=XftFontOpenXlfd(dpy, screen, font);
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if(f == ((struct _XftFont *)NULL))
   {
-    return_value_strcmp$3=strcmp(font, def1);
-    if(!(return_value_strcmp$3 == 0))
+    return_value_strcmp_3=strcmp(font, def1);
+    if(!(return_value_strcmp_3 == 0))
     {
       fprintf(stderr, "%s: unable to load font \"%s\", using \"%s\"\n", progname, font, def1);
       free((void *)font);
@@ -14380,11 +14380,11 @@ extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char 
 
   }
 
-  signed int return_value_strcmp$4;
+  signed int return_value_strcmp_4;
   if(f == ((struct _XftFont *)NULL))
   {
-    return_value_strcmp$4=strcmp(font, def2);
-    if(!(return_value_strcmp$4 == 0))
+    return_value_strcmp_4=strcmp(font, def2);
+    if(!(return_value_strcmp_4 == 0))
     {
       fprintf(stderr, "%s: unable to load font \"%s\", using \"%s\"\n", progname, font, def2);
       free((void *)font);
@@ -14394,11 +14394,11 @@ extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char 
 
   }
 
-  signed int return_value_strcmp$5;
+  signed int return_value_strcmp_5;
   if(f == ((struct _XftFont *)NULL))
   {
-    return_value_strcmp$5=strcmp(font, def3);
-    if(!(return_value_strcmp$5 == 0))
+    return_value_strcmp_5=strcmp(font, def3);
+    if(!(return_value_strcmp_5 == 0))
     {
       fprintf(stderr, "%s: unable to load font \"%s\", using \"%s\"\n", progname, font, def3);
       free((void *)font);
@@ -14416,9 +14416,9 @@ extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char 
 
   free((void *)font);
   font = ((char *)NULL);
-  void *return_value_calloc$6;
-  return_value_calloc$6=calloc((unsigned long int)1, sizeof(struct texture_font_data) /*32ul*/ );
-  data = (struct texture_font_data *)return_value_calloc$6;
+  void *return_value_calloc_6;
+  return_value_calloc_6=calloc((unsigned long int)1, sizeof(struct texture_font_data) /*32ul*/ );
+  data = (struct texture_font_data *)return_value_calloc_6;
   data->dpy = dpy;
   data->xftfont = f;
   data->cache_size = cache_size;
@@ -14430,7 +14430,7 @@ extern struct texture_font_data * load_texture_font(struct _XDisplay *dpy, char 
 signed int main(signed int argc, char **argv)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  struct anonymous$65 xgwa;
+  struct anonymous_65 xgwa;
   struct _WidgetRec *toplevel;
   struct _XDisplay *dpy;
   unsigned long int window;
@@ -14449,43 +14449,43 @@ signed int main(signed int argc, char **argv)
     ft->setup_cb(ft, ft->setup_arg);
 
   merge_options();
-  toplevel=XtAppInitialize(&app, progclass, merged_options, (unsigned int)merged_options_size, &argc, argv, merged_defaults, ((struct anonymous$7 *)NULL), (unsigned int)0);
+  toplevel=XtAppInitialize(&app, progclass, merged_options, (unsigned int)merged_options_size, &argc, argv, merged_defaults, ((struct anonymous_7 *)NULL), (unsigned int)0);
   dpy = toplevel->core.screen->display;
   XtGetApplicationNameAndClass(dpy, (char **)&progname, (char **)&progclass);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(progname);
-  if(return_value_strlen$1 >= 100ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(progname);
+  if(return_value_strlen_1 >= 100ul)
     ((char *)progname)[(signed long int)100] = (char)0;
 
   XSetErrorHandler(screenhack_ehandler);
   XA_WM_PROTOCOLS=XInternAtom(dpy, "WM_PROTOCOLS", 0);
   XA_WM_DELETE_WINDOW=XInternAtom(dpy, "WM_DELETE_WINDOW", 0);
   char *v;
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr(screensaver_id, 32);
-  char *return_value_strdup$3;
-  return_value_strdup$3=strdup(return_value_strchr$2);
-  v = (char *)return_value_strdup$3;
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr(screensaver_id, 32);
+  char *return_value_strdup_3;
+  return_value_strdup_3=strdup(return_value_strchr_2);
+  v = (char *)return_value_strdup_3;
   char *s1;
   char *s2;
   char *s3;
   char *s4;
   const char *ot;
   ot=get_string_resource(dpy, "title", "Title");
-  char *return_value_strchr$4;
-  return_value_strchr$4=strchr(v, 32);
-  s1 = (char *)return_value_strchr$4;
+  char *return_value_strchr_4;
+  return_value_strchr_4=strchr(v, 32);
+  s1 = (char *)return_value_strchr_4;
   s1 = s1 + 1l;
-  char *return_value_strchr$5;
-  return_value_strchr$5=strchr(s1, 32);
-  s2 = (char *)return_value_strchr$5;
-  char *return_value_strchr$6;
-  return_value_strchr$6=strchr(v, 40);
-  s3 = (char *)return_value_strchr$6;
+  char *return_value_strchr_5;
+  return_value_strchr_5=strchr(s1, 32);
+  s2 = (char *)return_value_strchr_5;
+  char *return_value_strchr_6;
+  return_value_strchr_6=strchr(v, 40);
+  s3 = (char *)return_value_strchr_6;
   s3 = s3 + 1l;
-  char *return_value_strchr$7;
-  return_value_strchr$7=strchr(s3, 41);
-  s4 = (char *)return_value_strchr$7;
+  char *return_value_strchr_7;
+  return_value_strchr_7=strchr(s3, 41);
+  s4 = (char *)return_value_strchr_7;
   *s2 = (char)0;
   *s4 = (char)0;
   if(!(ot == ((const char *)NULL)))
@@ -14497,29 +14497,29 @@ signed int main(signed int argc, char **argv)
 
   sprintf(version, "%.50s%s%s: from the XScreenSaver %s distribution (%s)", ot != ((const char *)NULL) ? ot : "", ot != ((const char *)NULL) ? ": " : "", progclass, s1, s3);
   free((void *)v);
-  signed int return_value_strcmp$9;
+  signed int return_value_strcmp_9;
   if(argc >= 2)
   {
-    const char *main$$1$$2$$s;
+    const char *main__1__2__s;
     signed int i;
     signed int x = 18;
     signed int end = 78;
     signed int help_p;
-    signed int return_value_strcmp$8;
-    return_value_strcmp$8=strcmp(argv[(signed long int)1], "-help");
-    _Bool tmp_if_expr$10;
-    if(return_value_strcmp$8 == 0)
-      tmp_if_expr$10 = (_Bool)1;
+    signed int return_value_strcmp_8;
+    return_value_strcmp_8=strcmp(argv[(signed long int)1], "-help");
+    _Bool tmp_if_expr_10;
+    if(return_value_strcmp_8 == 0)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$9=strcmp(argv[(signed long int)1], "--help");
-      tmp_if_expr$10 = !(return_value_strcmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_9=strcmp(argv[(signed long int)1], "--help");
+      tmp_if_expr_10 = !(return_value_strcmp_9 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    help_p = (signed int)tmp_if_expr$10;
+    help_p = (signed int)tmp_if_expr_10;
     fprintf(stderr, "%s\n", (const void *)version);
-    main$$1$$2$$s = progclass;
-    for( ; !(*main$$1$$2$$s == 0); main$$1$$2$$s = main$$1$$2$$s + 1l)
+    main__1__2__s = progclass;
+    for( ; !(*main__1__2__s == 0); main__1__2__s = main__1__2__s + 1l)
       fprintf(stderr, " ");
     fprintf(stderr, "  http://www.jwz.org/xscreensaver/\n\n");
     if(help_p == 0)
@@ -14532,9 +14532,9 @@ signed int main(signed int argc, char **argv)
       char *sw = (merged_options + (signed long int)i)->option;
       signed int argp = (signed int)((signed int)(merged_options + (signed long int)i)->argKind == XrmoptionSepArg);
       signed int size;
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(sw);
-      size = (signed int)(return_value_strlen$11 + (unsigned long int)(argp != 0 ? 6 : 0) + (unsigned long int)2);
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(sw);
+      size = (signed int)(return_value_strlen_11 + (unsigned long int)(argp != 0 ? 6 : 0) + (unsigned long int)2);
       if(size + x >= end)
       {
         fprintf(stderr, "\n\t\t ");
@@ -14559,31 +14559,31 @@ signed int main(signed int argc, char **argv)
     free((void *)*s);
   free((void *)merged_options);
   free((void *)merged_defaults);
-  merged_options = ((struct anonymous$51 *)NULL);
+  merged_options = ((struct anonymous_51 *)NULL);
   merged_defaults = ((char **)NULL);
-  signed int return_value_get_boolean_resource$12;
-  return_value_get_boolean_resource$12=get_boolean_resource(dpy, "dontClearRoot", "Boolean");
-  dont_clear = (char)return_value_get_boolean_resource$12;
+  signed int return_value_get_boolean_resource_12;
+  return_value_get_boolean_resource_12=get_boolean_resource(dpy, "dontClearRoot", "Boolean");
+  dont_clear = (char)return_value_get_boolean_resource_12;
   mono_p=get_boolean_resource(dpy, "mono", "Boolean");
-  if(!((((struct anonymous$0 *)dpy)->screens + (signed long int)((struct anonymous$0 *)dpy)->default_screen)->root_visual->map_entries >= 3))
+  if(!((((struct anonymous_0 *)dpy)->screens + (signed long int)((struct anonymous_0 *)dpy)->default_screen)->root_visual->map_entries >= 3))
     mono_p = 1;
 
   root_p=get_boolean_resource(dpy, "root", "Boolean");
-  char *main$$1$$4$$s;
-  main$$1$$4$$s=get_string_resource(dpy, "windowID", "WindowID");
-  signed int return_value_get_integer_resource$13;
-  if(!(main$$1$$4$$s == ((char *)NULL)))
+  char *main__1__4__s;
+  main__1__4__s=get_string_resource(dpy, "windowID", "WindowID");
+  signed int return_value_get_integer_resource_13;
+  if(!(main__1__4__s == ((char *)NULL)))
   {
-    if(!(*main$$1$$4$$s == 0))
+    if(!(*main__1__4__s == 0))
     {
-      return_value_get_integer_resource$13=get_integer_resource(dpy, "windowID", "WindowID");
-      on_window = (unsigned long int)return_value_get_integer_resource$13;
+      return_value_get_integer_resource_13=get_integer_resource(dpy, "windowID", "WindowID");
+      on_window = (unsigned long int)return_value_get_integer_resource_13;
     }
 
   }
 
-  if(!(main$$1$$4$$s == ((char *)NULL)))
-    free((void *)main$$1$$4$$s);
+  if(!(main__1__4__s == ((char *)NULL)))
+    free((void *)main__1__4__s);
 
   if(!(on_window == 0ul))
   {
@@ -14621,9 +14621,9 @@ signed int main(signed int argc, char **argv)
       init_window(dpy, toplevel, version);
       window = toplevel->core.window;
       XGetWindowAttributes(dpy, window, &xgwa);
-      signed int return_value_get_boolean_resource$14;
-      return_value_get_boolean_resource$14=get_boolean_resource(dpy, "pair", "Boolean");
-      if(!(return_value_get_boolean_resource$14 == 0))
+      signed int return_value_get_boolean_resource_14;
+      return_value_get_boolean_resource_14=get_boolean_resource(dpy, "pair", "Boolean");
+      if(!(return_value_get_boolean_resource_14 == 0))
       {
         toplevel2=make_shell(xgwa.screen, ((struct _WidgetRec *)NULL), (signed int)toplevel->core.width, (signed int)toplevel->core.height);
         init_window(dpy, toplevel2, version);
@@ -14658,16 +14658,16 @@ signed int main(signed int argc, char **argv)
 
 // make_color_loop
 // file colors.c line 451
-extern void make_color_loop(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, signed int h0, double s0, double v0, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP)
+extern void make_color_loop(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, signed int h0, double s0, double v0, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP)
 {
   signed int wanted_writable;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(writable_pP == ((signed int *)NULL)) && !(allocate_p == 0))
-    tmp_if_expr$1 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  wanted_writable = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  wanted_writable = (signed int)tmp_if_expr_1;
   signed int h[3l];
   double s[3l];
   double v[3l];
@@ -14680,11 +14680,11 @@ extern void make_color_loop(struct anonymous$58 *screen, struct anonymous$59 *vi
   v[(signed long int)0] = v0;
   v[(signed long int)1] = v1;
   v[(signed long int)2] = v2;
-  signed int return_value_has_writable_cells$2;
+  signed int return_value_has_writable_cells_2;
   if(!(wanted_writable == 0))
   {
-    return_value_has_writable_cells$2=has_writable_cells(screen, visual);
-    if(return_value_has_writable_cells$2 == 0)
+    return_value_has_writable_cells_2=has_writable_cells(screen, visual);
+    if(return_value_has_writable_cells_2 == 0)
       *writable_pP = 0;
 
   }
@@ -14694,18 +14694,18 @@ extern void make_color_loop(struct anonymous$58 *screen, struct anonymous$59 *vi
 
 // make_color_path
 // file colors.c line 224
-static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, signed int npoints, signed int *h, double *s, double *v, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP)
+static void make_color_path(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, signed int npoints, signed int *h, double *s, double *v, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP)
 {
   struct _XDisplay *dpy;
-  struct _XDisplay *tmp_if_expr$1;
-  if(!(screen == ((struct anonymous$58 *)NULL)))
-    tmp_if_expr$1 = screen->display;
+  struct _XDisplay *tmp_if_expr_1;
+  if(!(screen == ((struct anonymous_58 *)NULL)))
+    tmp_if_expr_1 = screen->display;
 
   else
-    tmp_if_expr$1 = ((struct _XDisplay *)NULL);
-  dpy = tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct _XDisplay *)NULL);
+  dpy = tmp_if_expr_1;
   signed int i;
-  signed int make_color_path$$1$$j;
+  signed int make_color_path__1__j;
   signed int k;
   signed int total_ncolors = *ncolorsP;
   signed int ncolors[50l];
@@ -14742,8 +14742,8 @@ static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *vi
     i = 0;
     for( ; !(i >= npoints); i = i + 1)
     {
-      signed int make_color_path$$1$$4$$1$$j = (i + 1) % npoints;
-      double d = (double)(h[(signed long int)i] - h[(signed long int)make_color_path$$1$$4$$1$$j]) / (double)360;
+      signed int make_color_path__1__4__1__j = (i + 1) % npoints;
+      double d = (double)(h[(signed long int)i] - h[(signed long int)make_color_path__1__4__1__j]) / (double)360;
       if(d < 0.000000)
         d = -d;
 
@@ -14776,16 +14776,16 @@ static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *vi
       i = 0;
       for( ; !(i >= npoints); i = i + 1)
       {
-        signed int make_color_path$$1$$4$$4$$j = (i + 1) % npoints;
+        signed int make_color_path__1__4__4__j = (i + 1) % npoints;
         if(ncolors[(signed long int)i] >= 1)
         {
           dh[(signed long int)i] = (double)360 * (DH[(signed long int)i] / (double)ncolors[(signed long int)i]);
-          ds[(signed long int)i] = (s[(signed long int)make_color_path$$1$$4$$4$$j] - s[(signed long int)i]) / (double)ncolors[(signed long int)i];
-          dv[(signed long int)i] = (v[(signed long int)make_color_path$$1$$4$$4$$j] - v[(signed long int)i]) / (double)ncolors[(signed long int)i];
+          ds[(signed long int)i] = (s[(signed long int)make_color_path__1__4__4__j] - s[(signed long int)i]) / (double)ncolors[(signed long int)i];
+          dv[(signed long int)i] = (v[(signed long int)make_color_path__1__4__4__j] - v[(signed long int)i]) / (double)ncolors[(signed long int)i];
         }
 
       }
-      memset((void *)colors, 0, (unsigned long int)*ncolorsP * sizeof(struct anonymous$36) /*16ul*/ );
+      memset((void *)colors, 0, (unsigned long int)*ncolorsP * sizeof(struct anonymous_36) /*16ul*/ );
       k = 0;
       i = 0;
       for( ; !(i >= npoints); i = i + 1)
@@ -14795,10 +14795,10 @@ static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *vi
         if(distance >= -180 && !(distance >= 181))
           direction = -direction;
 
-        make_color_path$$1$$j = 0;
-        for( ; !(make_color_path$$1$$j >= ncolors[(signed long int)i]); k = k + 1)
+        make_color_path__1__j = 0;
+        for( ; !(make_color_path__1__j >= ncolors[(signed long int)i]); k = k + 1)
         {
-          double hh = (double)h[(signed long int)i] + (double)make_color_path$$1$$j * dh[(signed long int)i] * (double)direction;
+          double hh = (double)h[(signed long int)i] + (double)make_color_path__1__j * dh[(signed long int)i] * (double)direction;
           if(hh < 0.000000)
             hh = hh + (double)360;
 
@@ -14807,8 +14807,8 @@ static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *vi
               hh = hh - (double)0;
 
           (colors + (signed long int)k)->flags = (char)(1 << 0 | 1 << 1 | 1 << 2);
-          hsv_to_rgb((signed int)hh, s[(signed long int)i] + (double)make_color_path$$1$$j * ds[(signed long int)i], v[(signed long int)i] + (double)make_color_path$$1$$j * dv[(signed long int)i], &(colors + (signed long int)k)->red, &(colors + (signed long int)k)->green, &(colors + (signed long int)k)->blue);
-          make_color_path$$1$$j = make_color_path$$1$$j + 1;
+          hsv_to_rgb((signed int)hh, s[(signed long int)i] + (double)make_color_path__1__j * ds[(signed long int)i], v[(signed long int)i] + (double)make_color_path__1__j * dv[(signed long int)i], &(colors + (signed long int)k)->red, &(colors + (signed long int)k)->green, &(colors + (signed long int)k)->blue);
+          make_color_path__1__j = make_color_path__1__j + 1;
         }
       }
       if(!(k >= *ncolorsP))
@@ -14822,21 +14822,21 @@ static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *vi
       if(allocate_p == 0)
         goto __CPROVER_DUMP_L40;
 
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if(!(writable_pP == ((signed int *)NULL)))
-        tmp_if_expr$5 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         unsigned long int *pixels;
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(*ncolorsP + 1));
-        pixels = (unsigned long int *)return_value_malloc$2;
-        signed int return_value_XAllocColorCells$3;
-        return_value_XAllocColorCells$3=XAllocColorCells(dpy, cmap, 0, ((unsigned long int *)NULL), (unsigned int)0, pixels, (unsigned int)*ncolorsP);
-        if(return_value_XAllocColorCells$3 == 0)
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(*ncolorsP + 1));
+        pixels = (unsigned long int *)return_value_malloc_2;
+        signed int return_value_XAllocColorCells_3;
+        return_value_XAllocColorCells_3=XAllocColorCells(dpy, cmap, 0, ((unsigned long int *)NULL), (unsigned int)0, pixels, (unsigned int)*ncolorsP);
+        if(return_value_XAllocColorCells_3 == 0)
         {
           free((void *)pixels);
           goto FAIL;
@@ -14854,10 +14854,10 @@ static void make_color_path(struct anonymous$58 *screen, struct anonymous$59 *vi
         i = 0;
         for( ; !(i >= *ncolorsP); i = i + 1)
         {
-          struct anonymous$36 color = colors[(signed long int)i];
-          signed int return_value_XAllocColor$4;
-          return_value_XAllocColor$4=XAllocColor(dpy, cmap, &color);
-          if(!(return_value_XAllocColor$4 == 0))
+          struct anonymous_36 color = colors[(signed long int)i];
+          signed int return_value_XAllocColor_4;
+          return_value_XAllocColor_4=XAllocColor(dpy, cmap, &color);
+          if(!(return_value_XAllocColor_4 == 0))
             (colors + (signed long int)i)->pixel = color.pixel;
 
           else
@@ -14884,29 +14884,29 @@ __CPROVER_DUMP_L40:
 
 // make_color_ramp
 // file colors.c line 99
-extern void make_color_ramp(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous$36 *colors, signed int *ncolorsP, signed int closed_p, signed int allocate_p, signed int *writable_pP)
+extern void make_color_ramp(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, signed int h1, double s1, double v1, signed int h2, double s2, double v2, struct anonymous_36 *colors, signed int *ncolorsP, signed int closed_p, signed int allocate_p, signed int *writable_pP)
 {
   struct _XDisplay *dpy;
-  struct _XDisplay *tmp_if_expr$1;
-  if(!(screen == ((struct anonymous$58 *)NULL)))
-    tmp_if_expr$1 = screen->display;
+  struct _XDisplay *tmp_if_expr_1;
+  if(!(screen == ((struct anonymous_58 *)NULL)))
+    tmp_if_expr_1 = screen->display;
 
   else
-    tmp_if_expr$1 = ((struct _XDisplay *)NULL);
-  dpy = tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct _XDisplay *)NULL);
+  dpy = tmp_if_expr_1;
   signed int verbose_p = 1;
   signed int i;
   signed int total_ncolors = *ncolorsP;
   signed int ncolors;
   signed int wanted;
   signed int wanted_writable;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(writable_pP == ((signed int *)NULL)) && !(allocate_p == 0))
-    tmp_if_expr$2 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  wanted_writable = (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  wanted_writable = (signed int)tmp_if_expr_2;
   double dh;
   double ds;
   double dv;
@@ -14914,11 +14914,11 @@ extern void make_color_ramp(struct anonymous$58 *screen, struct anonymous$59 *vi
   if(!(closed_p == 0))
     wanted = wanted / 2 + 1;
 
-  signed int return_value_has_writable_cells$3;
+  signed int return_value_has_writable_cells_3;
   if(!(wanted_writable == 0))
   {
-    return_value_has_writable_cells$3=has_writable_cells(screen, visual);
-    if(return_value_has_writable_cells$3 == 0)
+    return_value_has_writable_cells_3=has_writable_cells(screen, visual);
+    if(return_value_has_writable_cells_3 == 0)
       *writable_pP = 0;
 
   }
@@ -14929,7 +14929,7 @@ extern void make_color_ramp(struct anonymous$58 *screen, struct anonymous$59 *vi
   AGAIN:
     ;
     ncolors = total_ncolors;
-    memset((void *)colors, 0, (unsigned long int)*ncolorsP * sizeof(struct anonymous$36) /*16ul*/ );
+    memset((void *)colors, 0, (unsigned long int)*ncolorsP * sizeof(struct anonymous_36) /*16ul*/ );
     if(!(closed_p == 0))
       ncolors = ncolors / 2 + 1;
 
@@ -14952,21 +14952,21 @@ extern void make_color_ramp(struct anonymous$58 *screen, struct anonymous$59 *vi
     if(allocate_p == 0)
       goto __CPROVER_DUMP_L29;
 
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(!(writable_pP == ((signed int *)NULL)))
-      tmp_if_expr$7 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
     {
       unsigned long int *pixels;
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(*ncolorsP + 1));
-      pixels = (unsigned long int *)return_value_malloc$4;
-      signed int return_value_XAllocColorCells$5;
-      return_value_XAllocColorCells$5=XAllocColorCells(dpy, cmap, 0, ((unsigned long int *)NULL), (unsigned int)0, pixels, (unsigned int)*ncolorsP);
-      if(return_value_XAllocColorCells$5 == 0)
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(*ncolorsP + 1));
+      pixels = (unsigned long int *)return_value_malloc_4;
+      signed int return_value_XAllocColorCells_5;
+      return_value_XAllocColorCells_5=XAllocColorCells(dpy, cmap, 0, ((unsigned long int *)NULL), (unsigned int)0, pixels, (unsigned int)*ncolorsP);
+      if(return_value_XAllocColorCells_5 == 0)
       {
         free((void *)pixels);
         goto FAIL;
@@ -14984,10 +14984,10 @@ extern void make_color_ramp(struct anonymous$58 *screen, struct anonymous$59 *vi
       i = 0;
       for( ; !(i >= *ncolorsP); i = i + 1)
       {
-        struct anonymous$36 color = colors[(signed long int)i];
-        signed int return_value_XAllocColor$6;
-        return_value_XAllocColor$6=XAllocColor(dpy, cmap, &color);
-        if(!(return_value_XAllocColor$6 == 0))
+        struct anonymous_36 color = colors[(signed long int)i];
+        signed int return_value_XAllocColor_6;
+        return_value_XAllocColor_6=XAllocColor(dpy, cmap, &color);
+        if(!(return_value_XAllocColor_6 == 0))
           (colors + (signed long int)i)->pixel = color.pixel;
 
         else
@@ -15011,13 +15011,13 @@ WARN:
   ;
   if(!(verbose_p == 0) && (wanted_writable == 0 || !(ncolors == 0)))
   {
-    _Bool tmp_if_expr$8;
+    _Bool tmp_if_expr_8;
     if(!(writable_pP == ((signed int *)NULL)) && !(wanted_writable == 0))
-      tmp_if_expr$8 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    complain(wanted, ncolors, wanted_writable, (signed int)tmp_if_expr$8);
+      tmp_if_expr_8 = (_Bool)0;
+    complain(wanted, ncolors, wanted_writable, (signed int)tmp_if_expr_8);
   }
 
 
@@ -15027,40 +15027,40 @@ __CPROVER_DUMP_L29:
 
 // make_random_colormap
 // file ./../../utils/colors.h line 132
-extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, struct anonymous$36 *colors, signed int *ncolorsP, signed int bright_p, signed int allocate_p, signed int *writable_pP, signed int verbose_p)
+extern void make_random_colormap(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, struct anonymous_36 *colors, signed int *ncolorsP, signed int bright_p, signed int allocate_p, signed int *writable_pP, signed int verbose_p)
 {
   struct _XDisplay *dpy;
-  struct _XDisplay *tmp_if_expr$1;
-  if(!(screen == ((struct anonymous$58 *)NULL)))
-    tmp_if_expr$1 = screen->display;
+  struct _XDisplay *tmp_if_expr_1;
+  if(!(screen == ((struct anonymous_58 *)NULL)))
+    tmp_if_expr_1 = screen->display;
 
   else
-    tmp_if_expr$1 = ((struct _XDisplay *)NULL);
-  dpy = tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct _XDisplay *)NULL);
+  dpy = tmp_if_expr_1;
   signed int wanted_writable;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(writable_pP == ((signed int *)NULL)) && !(allocate_p == 0))
-    tmp_if_expr$2 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  wanted_writable = (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  wanted_writable = (signed int)tmp_if_expr_2;
   signed int ncolors = *ncolorsP;
   signed int i;
-  signed int return_value_has_writable_cells$3;
+  signed int return_value_has_writable_cells_3;
   signed int h0;
   signed int h1;
   double s0;
   double s1;
   double v0;
   double v1;
-  double return_value_fabs$10;
+  double return_value_fabs_10;
   if(*ncolorsP >= 1)
   {
     if(!(wanted_writable == 0))
     {
-      return_value_has_writable_cells$3=has_writable_cells(screen, visual);
-      if(return_value_has_writable_cells$3 == 0)
+      return_value_has_writable_cells_3=has_writable_cells(screen, visual);
+      if(return_value_has_writable_cells_3 == 0)
         *writable_pP = 0;
 
     }
@@ -15077,31 +15077,31 @@ extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$5
         if(!(bright_p == 0))
         {
           signed int H;
-          unsigned int return_value_ya_random$4;
-          return_value_ya_random$4=ya_random();
-          H = (signed int)(return_value_ya_random$4 % (unsigned int)360);
+          unsigned int return_value_ya_random_4;
+          return_value_ya_random_4=ya_random();
+          H = (signed int)(return_value_ya_random_4 % (unsigned int)360);
           double S;
-          unsigned int return_value_ya_random$5;
-          return_value_ya_random$5=ya_random();
-          S = ((double)(return_value_ya_random$5 % (unsigned int)70) + (double)30) / 100.0;
+          unsigned int return_value_ya_random_5;
+          return_value_ya_random_5=ya_random();
+          S = ((double)(return_value_ya_random_5 % (unsigned int)70) + (double)30) / 100.0;
           double V;
-          unsigned int return_value_ya_random$6;
-          return_value_ya_random$6=ya_random();
-          V = ((double)(return_value_ya_random$6 % (unsigned int)34) + (double)66) / 100.0;
+          unsigned int return_value_ya_random_6;
+          return_value_ya_random_6=ya_random();
+          V = ((double)(return_value_ya_random_6 % (unsigned int)34) + (double)66) / 100.0;
           hsv_to_rgb(H, S, V, &(colors + (signed long int)i)->red, &(colors + (signed long int)i)->green, &(colors + (signed long int)i)->blue);
         }
 
         else
         {
-          unsigned int return_value_ya_random$7;
-          return_value_ya_random$7=ya_random();
-          (colors + (signed long int)i)->red = (unsigned short int)(return_value_ya_random$7 % (unsigned int)0xFFFF);
-          unsigned int return_value_ya_random$8;
-          return_value_ya_random$8=ya_random();
-          (colors + (signed long int)i)->green = (unsigned short int)(return_value_ya_random$8 % (unsigned int)0xFFFF);
-          unsigned int return_value_ya_random$9;
-          return_value_ya_random$9=ya_random();
-          (colors + (signed long int)i)->blue = (unsigned short int)(return_value_ya_random$9 % (unsigned int)0xFFFF);
+          unsigned int return_value_ya_random_7;
+          return_value_ya_random_7=ya_random();
+          (colors + (signed long int)i)->red = (unsigned short int)(return_value_ya_random_7 % (unsigned int)0xFFFF);
+          unsigned int return_value_ya_random_8;
+          return_value_ya_random_8=ya_random();
+          (colors + (signed long int)i)->green = (unsigned short int)(return_value_ya_random_8 % (unsigned int)0xFFFF);
+          unsigned int return_value_ya_random_9;
+          return_value_ya_random_9=ya_random();
+          (colors + (signed long int)i)->blue = (unsigned short int)(return_value_ya_random_9 % (unsigned int)0xFFFF);
         }
       }
       if(!(bright_p == 0) || ncolors >= 5)
@@ -15109,9 +15109,9 @@ extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$5
 
       rgb_to_hsv((colors + (signed long int)0)->red, (colors + (signed long int)0)->green, (colors + (signed long int)0)->blue, &h0, &s0, &v0);
       rgb_to_hsv((colors + (signed long int)1)->red, (colors + (signed long int)1)->green, (colors + (signed long int)1)->blue, &h1, &s1, &v1);
-      return_value_fabs$10=fabs(v1 - v0);
+      return_value_fabs_10=fabs(v1 - v0);
     }
-    while(return_value_fabs$10 < 0.5);
+    while(return_value_fabs_10 < 0.5);
 
   __CPROVER_DUMP_L12:
     ;
@@ -15122,18 +15122,18 @@ extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$5
 
       RETRY_NON_WRITABLE:
         ;
-        _Bool tmp_if_expr$13;
+        _Bool tmp_if_expr_13;
         if(!(writable_pP == ((signed int *)NULL)))
-          tmp_if_expr$13 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
         {
           unsigned long int *pixels;
-          void *return_value_malloc$11;
-          return_value_malloc$11=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(ncolors + 1));
-          pixels = (unsigned long int *)return_value_malloc$11;
+          void *return_value_malloc_11;
+          return_value_malloc_11=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(ncolors + 1));
+          pixels = (unsigned long int *)return_value_malloc_11;
           allocate_writable_colors(screen, cmap, pixels, &ncolors);
           if(ncolors >= 1)
           {
@@ -15153,10 +15153,10 @@ extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$5
           i = 0;
           for( ; !(i >= ncolors); i = i + 1)
           {
-            struct anonymous$36 color = colors[(signed long int)i];
-            signed int return_value_XAllocColor$12;
-            return_value_XAllocColor$12=XAllocColor(dpy, cmap, &color);
-            if(return_value_XAllocColor$12 == 0)
+            struct anonymous_36 color = colors[(signed long int)i];
+            signed int return_value_XAllocColor_12;
+            return_value_XAllocColor_12=XAllocColor(dpy, cmap, &color);
+            if(return_value_XAllocColor_12 == 0)
               break;
 
             (colors + (signed long int)i)->pixel = color.pixel;
@@ -15175,13 +15175,13 @@ extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$5
       while((_Bool)1);
       if(!(verbose_p == 0))
       {
-        _Bool tmp_if_expr$14;
+        _Bool tmp_if_expr_14;
         if(!(wanted_writable == 0))
-          tmp_if_expr$14 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        complain(*ncolorsP, ncolors, wanted_writable, (signed int)tmp_if_expr$14);
+          tmp_if_expr_14 = (_Bool)0;
+        complain(*ncolorsP, ncolors, wanted_writable, (signed int)tmp_if_expr_14);
       }
 
       *ncolorsP = ncolors;
@@ -15193,19 +15193,19 @@ extern void make_random_colormap(struct anonymous$58 *screen, struct anonymous$5
 
 // make_shell
 // file screenhack.c line 612
-static struct _WidgetRec * make_shell(struct anonymous$58 *screen, struct _WidgetRec *toplevel, signed int width, signed int height)
+static struct _WidgetRec * make_shell(struct anonymous_58 *screen, struct _WidgetRec *toplevel, signed int width, signed int height)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$59 *visual;
+  struct anonymous_59 *visual;
   visual=pick_visual(screen);
   char def_visual_p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(toplevel == ((struct _WidgetRec *)NULL)))
-    tmp_if_expr$1 = visual == screen->root_visual ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = visual == screen->root_visual ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  def_visual_p = (char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  def_visual_p = (char)tmp_if_expr_1;
   if(!(width >= 1))
     width = 600;
 
@@ -15218,13 +15218,13 @@ static struct _WidgetRec * make_shell(struct anonymous$58 *screen, struct _Widge
     XtVaSetValues(toplevel, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
     XtRealizeWidget(toplevel);
     window = toplevel->core.window;
-    signed int return_value_get_boolean_resource$2;
-    return_value_get_boolean_resource$2=get_boolean_resource(dpy, "installColormap", "InstallColormap");
-    if(!(return_value_get_boolean_resource$2 == 0))
+    signed int return_value_get_boolean_resource_2;
+    return_value_get_boolean_resource_2=get_boolean_resource(dpy, "installColormap", "InstallColormap");
+    if(!(return_value_get_boolean_resource_2 == 0))
     {
-      unsigned long int make_shell$$1$$1$$1$$cmap;
-      make_shell$$1$$1$$1$$cmap=XCreateColormap(dpy, window, screen->root_visual, 0);
-      XSetWindowColormap(dpy, window, make_shell$$1$$1$$1$$cmap);
+      unsigned long int make_shell__1__1__1__cmap;
+      make_shell__1__1__1__cmap=XCreateColormap(dpy, window, screen->root_visual, 0);
+      XSetWindowColormap(dpy, window, make_shell__1__1__1__cmap);
     }
 
   }
@@ -15235,14 +15235,14 @@ static struct _WidgetRec * make_shell(struct anonymous$58 *screen, struct _Widge
     unsigned int bd;
     struct _WidgetRec *new;
     unsigned long int cmap;
-    unsigned long int return_value_VirtualRootWindowOfScreen$3;
-    return_value_VirtualRootWindowOfScreen$3=VirtualRootWindowOfScreen(screen);
-    cmap=XCreateColormap(dpy, return_value_VirtualRootWindowOfScreen$3, visual, 0);
+    unsigned long int return_value_VirtualRootWindowOfScreen_3;
+    return_value_VirtualRootWindowOfScreen_3=VirtualRootWindowOfScreen(screen);
+    cmap=XCreateColormap(dpy, return_value_VirtualRootWindowOfScreen_3, visual, 0);
     bg=get_pixel_resource(dpy, cmap, "background", "Background");
     bd=get_pixel_resource(dpy, cmap, "borderColor", "Foreground");
-    signed int return_value_visual_depth$4;
-    return_value_visual_depth$4=visual_depth(screen, visual);
-    new=XtVaAppCreateShell(progname, progclass, topLevelShellWidgetClass, dpy, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtShellStrings[(signed long int)104], visual, (char *)&XtStrings[(signed long int)163], return_value_visual_depth$4, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtStrings[(signed long int)154], cmap, (char *)&XtStrings[(signed long int)52], (unsigned long int)bg, (char *)&XtStrings[(signed long int)87], (unsigned long int)bd, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
+    signed int return_value_visual_depth_4;
+    return_value_visual_depth_4=visual_depth(screen, visual);
+    new=XtVaAppCreateShell(progname, progclass, topLevelShellWidgetClass, dpy, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtShellStrings[(signed long int)104], visual, (char *)&XtStrings[(signed long int)163], return_value_visual_depth_4, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtStrings[(signed long int)154], cmap, (char *)&XtStrings[(signed long int)52], (unsigned long int)bg, (char *)&XtStrings[(signed long int)87], (unsigned long int)bd, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
     if(toplevel == ((struct _WidgetRec *)NULL))
       XtVaSetValues(new, (char *)&XtStrings[(signed long int)885], 0, (char *)&XtStrings[(signed long int)887], 550, (void *)0);
 
@@ -15254,18 +15254,18 @@ static struct _WidgetRec * make_shell(struct anonymous$58 *screen, struct _Widge
 
 // make_smooth_colormap
 // file ./../../utils/colors.h line 88
-extern void make_smooth_colormap(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p)
+extern void make_smooth_colormap(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p)
 {
   signed int npoints;
   signed int ncolors = *ncolorsP;
   signed int wanted_writable;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(writable_pP == ((signed int *)NULL)) && !(allocate_p == 0))
-    tmp_if_expr$1 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  wanted_writable = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  wanted_writable = (signed int)tmp_if_expr_1;
   signed int i;
   signed int h[50l];
   double s[50l];
@@ -15273,19 +15273,19 @@ extern void make_smooth_colormap(struct anonymous$58 *screen, struct anonymous$5
   double total_s = (double)0;
   double total_v = (double)0;
   signed int loop = 0;
-  unsigned int return_value_ya_random$3;
+  unsigned int return_value_ya_random_3;
   signed int j;
   double hi;
   double hj;
   double dh;
   double distance;
-  signed int return_value_has_writable_cells$8;
+  signed int return_value_has_writable_cells_8;
   if(*ncolorsP >= 1)
   {
     signed int n;
-    unsigned int return_value_ya_random$2;
-    return_value_ya_random$2=ya_random();
-    n = (signed int)(return_value_ya_random$2 % (unsigned int)20);
+    unsigned int return_value_ya_random_2;
+    return_value_ya_random_2=ya_random();
+    n = (signed int)(return_value_ya_random_2 % (unsigned int)20);
     if(!(n >= 6))
       npoints = 2;
 
@@ -15316,22 +15316,22 @@ extern void make_smooth_colormap(struct anonymous$58 *screen, struct anonymous$5
           if(loop >= 10001)
             abort();
 
-          return_value_ya_random$3=ya_random();
-          h[(signed long int)i] = (signed int)(return_value_ya_random$3 % (unsigned int)360);
-          double tmp_statement_expression$4;
+          return_value_ya_random_3=ya_random();
+          h[(signed long int)i] = (signed int)(return_value_ya_random_3 % (unsigned int)360);
+          double tmp_statement_expression_4;
           double tmp;
-          unsigned int return_value_ya_random$5;
-          return_value_ya_random$5=ya_random();
-          tmp = ((double)return_value_ya_random$5 * (double)1.0) / (double)(unsigned int)~0;
-          tmp_statement_expression$4 = tmp < (double)0 ? -tmp : tmp;
-          s[(signed long int)i] = tmp_statement_expression$4;
-          double tmp_statement_expression$6;
-          double make_smooth_colormap$$1$$2$$2$$tmp;
-          unsigned int return_value_ya_random$7;
-          return_value_ya_random$7=ya_random();
-          make_smooth_colormap$$1$$2$$2$$tmp = ((double)return_value_ya_random$7 * (double)0.8) / (double)(unsigned int)~0;
-          tmp_statement_expression$6 = make_smooth_colormap$$1$$2$$2$$tmp < (double)0 ? -make_smooth_colormap$$1$$2$$2$$tmp : make_smooth_colormap$$1$$2$$2$$tmp;
-          v[(signed long int)i] = tmp_statement_expression$6 + 0.2;
+          unsigned int return_value_ya_random_5;
+          return_value_ya_random_5=ya_random();
+          tmp = ((double)return_value_ya_random_5 * (double)1.0) / (double)(unsigned int)~0;
+          tmp_statement_expression_4 = tmp < (double)0 ? -tmp : tmp;
+          s[(signed long int)i] = tmp_statement_expression_4;
+          double tmp_statement_expression_6;
+          double make_smooth_colormap__1__2__2__tmp;
+          unsigned int return_value_ya_random_7;
+          return_value_ya_random_7=ya_random();
+          make_smooth_colormap__1__2__2__tmp = ((double)return_value_ya_random_7 * (double)0.8) / (double)(unsigned int)~0;
+          tmp_statement_expression_6 = make_smooth_colormap__1__2__2__tmp < (double)0 ? -make_smooth_colormap__1__2__2__tmp : make_smooth_colormap__1__2__2__tmp;
+          v[(signed long int)i] = tmp_statement_expression_6 + 0.2;
           if(!(i >= 1))
             goto __CPROVER_DUMP_L14;
 
@@ -15361,8 +15361,8 @@ extern void make_smooth_colormap(struct anonymous$58 *screen, struct anonymous$5
     while(total_v / (double)npoints < 0.3);
     if(!(wanted_writable == 0))
     {
-      return_value_has_writable_cells$8=has_writable_cells(screen, visual);
-      if(return_value_has_writable_cells$8 == 0)
+      return_value_has_writable_cells_8=has_writable_cells(screen, visual);
+      if(return_value_has_writable_cells_8 == 0)
         *writable_pP = 0;
 
     }
@@ -15390,13 +15390,13 @@ extern void make_smooth_colormap(struct anonymous$58 *screen, struct anonymous$5
     while((_Bool)1);
     if(!(verbose_p == 0))
     {
-      _Bool tmp_if_expr$9;
+      _Bool tmp_if_expr_9;
       if(!(wanted_writable == 0))
-        tmp_if_expr$9 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      complain(*ncolorsP, ncolors, wanted_writable, (signed int)tmp_if_expr$9);
+        tmp_if_expr_9 = (_Bool)0;
+      complain(*ncolorsP, ncolors, wanted_writable, (signed int)tmp_if_expr_9);
     }
 
     *ncolorsP = ncolors;
@@ -15406,32 +15406,32 @@ extern void make_smooth_colormap(struct anonymous$58 *screen, struct anonymous$5
 
 // make_uniform_colormap
 // file ./../../utils/colors.h line 110
-extern void make_uniform_colormap(struct anonymous$58 *screen, struct anonymous$59 *visual, unsigned long int cmap, struct anonymous$36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p)
+extern void make_uniform_colormap(struct anonymous_58 *screen, struct anonymous_59 *visual, unsigned long int cmap, struct anonymous_36 *colors, signed int *ncolorsP, signed int allocate_p, signed int *writable_pP, signed int verbose_p)
 {
   signed int ncolors = *ncolorsP;
   signed int wanted_writable;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(writable_pP == ((signed int *)NULL)) && !(allocate_p == 0))
-    tmp_if_expr$1 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  wanted_writable = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  wanted_writable = (signed int)tmp_if_expr_1;
   double S;
-  unsigned int return_value_ya_random$2;
-  return_value_ya_random$2=ya_random();
-  S = ((double)(return_value_ya_random$2 % (unsigned int)34) + (double)66) / 100.0;
+  unsigned int return_value_ya_random_2;
+  return_value_ya_random_2=ya_random();
+  S = ((double)(return_value_ya_random_2 % (unsigned int)34) + (double)66) / 100.0;
   double V;
-  unsigned int return_value_ya_random$3;
-  return_value_ya_random$3=ya_random();
-  V = ((double)(return_value_ya_random$3 % (unsigned int)34) + (double)66) / 100.0;
-  signed int return_value_has_writable_cells$4;
+  unsigned int return_value_ya_random_3;
+  return_value_ya_random_3=ya_random();
+  V = ((double)(return_value_ya_random_3 % (unsigned int)34) + (double)66) / 100.0;
+  signed int return_value_has_writable_cells_4;
   if(*ncolorsP >= 1)
   {
     if(!(wanted_writable == 0))
     {
-      return_value_has_writable_cells$4=has_writable_cells(screen, visual);
-      if(return_value_has_writable_cells$4 == 0)
+      return_value_has_writable_cells_4=has_writable_cells(screen, visual);
+      if(return_value_has_writable_cells_4 == 0)
         *writable_pP = 0;
 
     }
@@ -15460,13 +15460,13 @@ extern void make_uniform_colormap(struct anonymous$58 *screen, struct anonymous$
     while((_Bool)1);
     if(!(verbose_p == 0))
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if(!(wanted_writable == 0))
-        tmp_if_expr$5 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = *writable_pP != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      complain(*ncolorsP, ncolors, wanted_writable, (signed int)tmp_if_expr$5);
+        tmp_if_expr_5 = (_Bool)0;
+      complain(*ncolorsP, ncolors, wanted_writable, (signed int)tmp_if_expr_5);
     }
 
     *ncolorsP = ncolors;
@@ -15479,9 +15479,9 @@ extern void make_uniform_colormap(struct anonymous$58 *screen, struct anonymous$
 static void merge_options(void)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  const struct anonymous$51 *options = ft->options;
+  const struct anonymous_51 *options = ft->options;
   const char * const *defaults = ft->defaults;
-  const char *merge_options$$1$$progclass = ft->progclass;
+  const char *merge_options__1__progclass = ft->progclass;
   signed int def_opts_size;
   signed int opts_size;
   signed int def_defaults_size;
@@ -15493,20 +15493,20 @@ static void merge_options(void)
   for( ; !((options + (signed long int)opts_size)->option == ((char *)NULL)); opts_size = opts_size + 1)
     ;
   merged_options_size = def_opts_size + opts_size;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(merged_options_size + 1) * sizeof(struct anonymous$51) /*32ul*/ );
-  merged_options = (struct anonymous$51 *)return_value_malloc$1;
-  memcpy((void *)merged_options, (const void *)default_options, (unsigned long int)def_opts_size * sizeof(struct anonymous$51) /*32ul*/ );
-  memcpy((void *)(merged_options + (signed long int)def_opts_size), (const void *)options, (unsigned long int)(opts_size + 1) * sizeof(struct anonymous$51) /*32ul*/ );
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(merged_options_size + 1) * sizeof(struct anonymous_51) /*32ul*/ );
+  merged_options = (struct anonymous_51 *)return_value_malloc_1;
+  memcpy((void *)merged_options, (const void *)default_options, (unsigned long int)def_opts_size * sizeof(struct anonymous_51) /*32ul*/ );
+  memcpy((void *)(merged_options + (signed long int)def_opts_size), (const void *)options, (unsigned long int)(opts_size + 1) * sizeof(struct anonymous_51) /*32ul*/ );
   def_defaults_size = 0;
   for( ; !(default_defaults[(signed long int)def_defaults_size] == ((char *)NULL)); def_defaults_size = def_defaults_size + 1)
     ;
   defaults_size = 0;
   for( ; !(defaults[(signed long int)defaults_size] == ((const char *)NULL)); defaults_size = defaults_size + 1)
     ;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(def_defaults_size + defaults_size + 1) * sizeof(const char *) /*8ul*/ );
-  merged_defaults = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(def_defaults_size + defaults_size + 1) * sizeof(const char *) /*8ul*/ );
+  merged_defaults = (char **)return_value_malloc_2;
   memcpy((void *)merged_defaults, (const void *)default_defaults, (unsigned long int)def_defaults_size * sizeof(const char *) /*8ul*/ );
   memcpy((void *)(merged_defaults + (signed long int)def_defaults_size), (const void *)defaults, (unsigned long int)(defaults_size + 1) * sizeof(const char *) /*8ul*/ );
   char **s = merged_defaults;
@@ -15515,14 +15515,14 @@ static void merge_options(void)
     {
       const char *oldr = *s;
       char *newr;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(oldr);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(merge_options$$1$$progclass);
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)3);
-      newr = (char *)return_value_malloc$5;
-      strcpy(newr, merge_options$$1$$progclass);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(oldr);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(merge_options__1__progclass);
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)3);
+      newr = (char *)return_value_malloc_5;
+      strcpy(newr, merge_options__1__progclass);
       strcat(newr, oldr);
       *s = newr;
     }
@@ -15547,31 +15547,31 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
   unsigned int m;
   unsigned int s;
   char c;
-  signed int return_value___isoc99_sscanf$6;
-  return_value___isoc99_sscanf$6=__isoc99_sscanf(string, " %u : %2u : %2u %c", &h, &m, &s, &c);
-  signed int return_value___isoc99_sscanf$3;
-  signed int return_value___isoc99_sscanf$4;
-  signed int return_value___isoc99_sscanf$2;
-  signed int return_value___isoc99_sscanf$1;
-  if(!(return_value___isoc99_sscanf$6 == 3))
+  signed int return_value___isoc99_sscanf_6;
+  return_value___isoc99_sscanf_6=__isoc99_sscanf(string, " %u : %2u : %2u %c", &h, &m, &s, &c);
+  signed int return_value___isoc99_sscanf_3;
+  signed int return_value___isoc99_sscanf_4;
+  signed int return_value___isoc99_sscanf_2;
+  signed int return_value___isoc99_sscanf_1;
+  if(!(return_value___isoc99_sscanf_6 == 3))
   {
-    return_value___isoc99_sscanf$3=__isoc99_sscanf(string, " : %2u : %2u %c", &m, &s, &c);
-    _Bool tmp_if_expr$5;
-    if(return_value___isoc99_sscanf$3 == 2)
-      tmp_if_expr$5 = (_Bool)1;
+    return_value___isoc99_sscanf_3=__isoc99_sscanf(string, " : %2u : %2u %c", &m, &s, &c);
+    _Bool tmp_if_expr_5;
+    if(return_value___isoc99_sscanf_3 == 2)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___isoc99_sscanf$4=__isoc99_sscanf(string, " %u : %2u %c", &m, &s, &c);
-      tmp_if_expr$5 = 2 == return_value___isoc99_sscanf$4 ? (_Bool)1 : (_Bool)0;
+      return_value___isoc99_sscanf_4=__isoc99_sscanf(string, " %u : %2u %c", &m, &s, &c);
+      tmp_if_expr_5 = 2 == return_value___isoc99_sscanf_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       h = (unsigned int)0;
 
     else
     {
-      return_value___isoc99_sscanf$2=__isoc99_sscanf(string, " : %2u %c", &s, &c);
-      if(return_value___isoc99_sscanf$2 == 1)
+      return_value___isoc99_sscanf_2=__isoc99_sscanf(string, " : %2u %c", &s, &c);
+      if(return_value___isoc99_sscanf_2 == 1)
       {
         m = (unsigned int)0;
         h = m;
@@ -15579,8 +15579,8 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
 
       else
       {
-        return_value___isoc99_sscanf$1=__isoc99_sscanf(string, " %u %c", seconds_default_p != 0 ? &s : &m, &c);
-        if(return_value___isoc99_sscanf$1 == 1)
+        return_value___isoc99_sscanf_1=__isoc99_sscanf(string, " %u %c", seconds_default_p != 0 ? &s : &m, &c);
+        if(return_value___isoc99_sscanf_1 == 1)
         {
           h = (unsigned int)0;
           if(!(seconds_default_p == 0))
@@ -15624,26 +15624,26 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
 
 // pick_best_gl_visual
 // file visual.c line 281
-static struct anonymous$59 * pick_best_gl_visual(struct anonymous$58 *screen)
+static struct anonymous_59 * pick_best_gl_visual(struct anonymous_58 *screen)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
-  struct anonymous$59 *result = ((struct anonymous$59 *)NULL);
+  struct anonymous_59 *result = ((struct anonymous_59 *)NULL);
   signed int ndepths = 0;
   signed int *depths;
-  signed int return_value_screen_number$1;
-  return_value_screen_number$1=screen_number(screen);
-  depths=XListDepths(dpy, return_value_screen_number$1, &ndepths);
+  signed int return_value_screen_number_1;
+  return_value_screen_number_1=screen_number(screen);
+  depths=XListDepths(dpy, return_value_screen_number_1, &ndepths);
   signed int screen_depth;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(depths == ((signed int *)NULL)) && !(ndepths == 0))
-    tmp_if_expr$2 = depths[(signed long int)(ndepths - 1)];
+    tmp_if_expr_2 = depths[(signed long int)(ndepths - 1)];
 
   else
-    tmp_if_expr$2 = 0;
-  screen_depth = tmp_if_expr$2;
+    tmp_if_expr_2 = 0;
+  screen_depth = tmp_if_expr_2;
   XFree((void *)depths);
   vi_in.class = 4;
   vi_in.screen=screen_number(screen);
@@ -15652,10 +15652,10 @@ static struct anonymous$59 * pick_best_gl_visual(struct anonymous$58 *screen)
   if(out_count >= 1)
     result = (vi_out + (signed long int)0)->visual;
 
-  if(!(vi_out == ((struct anonymous$62 *)NULL)))
+  if(!(vi_out == ((struct anonymous_62 *)NULL)))
     XFree((void *)(char *)vi_out);
 
-  if(result == ((struct anonymous$59 *)NULL) && screen_depth >= 25)
+  if(result == ((struct anonymous_59 *)NULL) && screen_depth >= 25)
   {
     vi_in.class = 4;
     vi_in.screen=screen_number(screen);
@@ -15666,10 +15666,10 @@ static struct anonymous$59 * pick_best_gl_visual(struct anonymous$58 *screen)
 
   }
 
-  if(result == ((struct anonymous$59 *)NULL))
+  if(result == ((struct anonymous_59 *)NULL))
     result=pick_best_visual_of_class(screen, 4);
 
-  if(result == ((struct anonymous$59 *)NULL))
+  if(result == ((struct anonymous_59 *)NULL))
     result=pick_best_visual(screen, 0, 0);
 
   return result;
@@ -15677,17 +15677,17 @@ static struct anonymous$59 * pick_best_gl_visual(struct anonymous$58 *screen)
 
 // pick_best_visual
 // file visual.c line 174
-static struct anonymous$59 * pick_best_visual(struct anonymous$58 *screen, signed int prefer_writable_cells, signed int color_only)
+static struct anonymous_59 * pick_best_visual(struct anonymous_58 *screen, signed int prefer_writable_cells, signed int color_only)
 {
-  struct anonymous$59 *visual;
-  signed int return_value_visual_depth$1;
+  struct anonymous_59 *visual;
+  signed int return_value_visual_depth_1;
   if(prefer_writable_cells == 0)
   {
     visual=pick_best_visual_of_class(screen, 4);
-    if(!(visual == ((struct anonymous$59 *)NULL)))
+    if(!(visual == ((struct anonymous_59 *)NULL)))
     {
-      return_value_visual_depth$1=visual_depth(screen, visual);
-      if(return_value_visual_depth$1 >= 16)
+      return_value_visual_depth_1=visual_depth(screen, visual);
+      if(return_value_visual_depth_1 >= 16)
         return visual;
 
     }
@@ -15695,111 +15695,111 @@ static struct anonymous$59 * pick_best_visual(struct anonymous$58 *screen, signe
   }
 
   visual=pick_best_visual_of_class(screen, 3);
-  signed int return_value_visual_depth$2;
-  if(!(visual == ((struct anonymous$59 *)NULL)))
+  signed int return_value_visual_depth_2;
+  if(!(visual == ((struct anonymous_59 *)NULL)))
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(color_only == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$2=visual_depth(screen, visual);
-      tmp_if_expr$3 = return_value_visual_depth$2 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_2=visual_depth(screen, visual);
+      tmp_if_expr_3 = return_value_visual_depth_2 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 4);
-  signed int return_value_visual_depth$4;
-  if(!(visual == ((struct anonymous$59 *)NULL)))
+  signed int return_value_visual_depth_4;
+  if(!(visual == ((struct anonymous_59 *)NULL)))
   {
-    _Bool tmp_if_expr$5;
+    _Bool tmp_if_expr_5;
     if(color_only == 0)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$4=visual_depth(screen, visual);
-      tmp_if_expr$5 = return_value_visual_depth$4 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_4=visual_depth(screen, visual);
+      tmp_if_expr_5 = return_value_visual_depth_4 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 5);
-  signed int return_value_visual_depth$6;
-  if(!(visual == ((struct anonymous$59 *)NULL)))
+  signed int return_value_visual_depth_6;
+  if(!(visual == ((struct anonymous_59 *)NULL)))
   {
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(color_only == 0)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$6=visual_depth(screen, visual);
-      tmp_if_expr$7 = return_value_visual_depth$6 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_6=visual_depth(screen, visual);
+      tmp_if_expr_7 = return_value_visual_depth_6 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 2);
-  signed int return_value_visual_depth$8;
-  if(!(visual == ((struct anonymous$59 *)NULL)))
+  signed int return_value_visual_depth_8;
+  if(!(visual == ((struct anonymous_59 *)NULL)))
   {
-    _Bool tmp_if_expr$9;
+    _Bool tmp_if_expr_9;
     if(color_only == 0)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$8=visual_depth(screen, visual);
-      tmp_if_expr$9 = return_value_visual_depth$8 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_8=visual_depth(screen, visual);
+      tmp_if_expr_9 = return_value_visual_depth_8 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       return visual;
 
   }
 
-  signed int return_value_visual_depth$10;
-  signed int return_value_visual_depth$12;
+  signed int return_value_visual_depth_10;
+  signed int return_value_visual_depth_12;
   if(color_only == 0)
   {
     visual=pick_best_visual_of_class(screen, 1);
-    if(!(visual == ((struct anonymous$59 *)NULL)))
+    if(!(visual == ((struct anonymous_59 *)NULL)))
     {
-      _Bool tmp_if_expr$11;
+      _Bool tmp_if_expr_11;
       if(color_only == 0)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        return_value_visual_depth$10=visual_depth(screen, visual);
-        tmp_if_expr$11 = return_value_visual_depth$10 > 1 ? (_Bool)1 : (_Bool)0;
+        return_value_visual_depth_10=visual_depth(screen, visual);
+        tmp_if_expr_11 = return_value_visual_depth_10 > 1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
+      if(tmp_if_expr_11)
         return visual;
 
     }
 
     visual=pick_best_visual_of_class(screen, 0);
-    if(!(visual == ((struct anonymous$59 *)NULL)))
+    if(!(visual == ((struct anonymous_59 *)NULL)))
     {
-      _Bool tmp_if_expr$13;
+      _Bool tmp_if_expr_13;
       if(color_only == 0)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        return_value_visual_depth$12=visual_depth(screen, visual);
-        tmp_if_expr$13 = return_value_visual_depth$12 > 1 ? (_Bool)1 : (_Bool)0;
+        return_value_visual_depth_12=visual_depth(screen, visual);
+        tmp_if_expr_13 = return_value_visual_depth_12 > 1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
+      if(tmp_if_expr_13)
         return visual;
 
     }
@@ -15807,101 +15807,101 @@ static struct anonymous$59 * pick_best_visual(struct anonymous$58 *screen, signe
   }
 
   visual = screen->root_visual;
-  _Bool tmp_if_expr$15;
-  signed int return_value_visual_depth$14;
+  _Bool tmp_if_expr_15;
+  signed int return_value_visual_depth_14;
   if(color_only == 0)
-    tmp_if_expr$15 = (_Bool)1;
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_visual_depth$14=visual_depth(screen, visual);
-    tmp_if_expr$15 = return_value_visual_depth$14 > 1 ? (_Bool)1 : (_Bool)0;
+    return_value_visual_depth_14=visual_depth(screen, visual);
+    tmp_if_expr_15 = return_value_visual_depth_14 > 1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$15)
+  if(tmp_if_expr_15)
     return visual;
 
   else
-    return ((struct anonymous$59 *)NULL);
+    return ((struct anonymous_59 *)NULL);
 }
 
 // pick_best_visual_of_class
 // file visual.c line 242
-static struct anonymous$59 * pick_best_visual_of_class(struct anonymous$58 *screen, signed int visual_class)
+static struct anonymous_59 * pick_best_visual_of_class(struct anonymous_58 *screen, signed int visual_class)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   vi_in.class = visual_class;
   vi_in.screen=screen_number(screen);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x8 | 0x2), &vi_in, &out_count);
-  _Bool tmp_if_expr$1;
-  if(!(vi_out == ((struct anonymous$62 *)NULL)))
+  _Bool tmp_if_expr_1;
+  if(!(vi_out == ((struct anonymous_62 *)NULL)))
   {
     signed int i;
     signed int best;
-    struct anonymous$59 *visual;
+    struct anonymous_59 *visual;
     i = out_count - 1;
     best = i;
     for( ; i >= 0; i = i - 1)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((vi_out + (signed long int)best)->depth >= (vi_out + (signed long int)i)->depth))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if((vi_out + (signed long int)i)->depth == (vi_out + (signed long int)best)->depth)
-          tmp_if_expr$1 = (vi_out + (signed long int)i)->colormap_size > (vi_out + (signed long int)best)->colormap_size ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (vi_out + (signed long int)i)->colormap_size > (vi_out + (signed long int)best)->colormap_size ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         best = i;
 
     }
-    struct anonymous$59 *tmp_if_expr$3;
+    struct anonymous_59 *tmp_if_expr_3;
     if(!(best >= out_count))
-      tmp_if_expr$3 = (vi_out + (signed long int)best)->visual;
+      tmp_if_expr_3 = (vi_out + (signed long int)best)->visual;
 
     else
-      tmp_if_expr$3 = ((struct anonymous$59 *)NULL);
-    visual = tmp_if_expr$3;
+      tmp_if_expr_3 = ((struct anonymous_59 *)NULL);
+    visual = tmp_if_expr_3;
     XFree((void *)(char *)vi_out);
     return visual;
   }
 
   else
-    return ((struct anonymous$59 *)NULL);
+    return ((struct anonymous_59 *)NULL);
 }
 
 // pick_mono_visual
 // file visual.c line 218
-static struct anonymous$59 * pick_mono_visual(struct anonymous$58 *screen)
+static struct anonymous_59 * pick_mono_visual(struct anonymous_58 *screen)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   vi_in.depth = 1;
   vi_in.screen=screen_number(screen);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x4 | 0x2), &vi_in, &out_count);
-  if(!(vi_out == ((struct anonymous$62 *)NULL)))
+  if(!(vi_out == ((struct anonymous_62 *)NULL)))
   {
-    struct anonymous$59 *v;
-    struct anonymous$59 *tmp_if_expr$1;
+    struct anonymous_59 *v;
+    struct anonymous_59 *tmp_if_expr_1;
     if(out_count >= 1)
-      tmp_if_expr$1 = (vi_out + (signed long int)0)->visual;
+      tmp_if_expr_1 = (vi_out + (signed long int)0)->visual;
 
     else
-      tmp_if_expr$1 = ((struct anonymous$59 *)NULL);
-    v = tmp_if_expr$1;
-    if(!(v == ((struct anonymous$59 *)NULL)))
+      tmp_if_expr_1 = ((struct anonymous_59 *)NULL);
+    v = tmp_if_expr_1;
+    if(!(v == ((struct anonymous_59 *)NULL)))
     {
       if(!(vi_out->depth == 1))
-        v = ((struct anonymous$59 *)NULL);
+        v = ((struct anonymous_59 *)NULL);
 
     }
 
@@ -15910,26 +15910,26 @@ static struct anonymous$59 * pick_mono_visual(struct anonymous$58 *screen)
   }
 
   else
-    return ((struct anonymous$59 *)NULL);
+    return ((struct anonymous_59 *)NULL);
 }
 
 // pick_visual
 // file screenhack.c line 321
-static struct anonymous$59 * pick_visual(struct anonymous$58 *screen)
+static struct anonymous_59 * pick_visual(struct anonymous_58 *screen)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  if(!(ft->pick_visual_hook == ((struct anonymous$59 * (*)(struct anonymous$58 *))NULL)))
+  if(!(ft->pick_visual_hook == ((struct anonymous_59 * (*)(struct anonymous_58 *))NULL)))
   {
-    struct anonymous$59 *v;
+    struct anonymous_59 *v;
     v=ft->pick_visual_hook(screen);
-    if(!(v == ((struct anonymous$59 *)NULL)))
+    if(!(v == ((struct anonymous_59 *)NULL)))
       return v;
 
   }
 
-  struct anonymous$59 *return_value_get_visual_resource$1;
-  return_value_get_visual_resource$1=get_visual_resource(screen, "visualID", "VisualID", 0);
-  return return_value_get_visual_resource$1;
+  struct anonymous_59 *return_value_get_visual_resource_1;
+  return_value_get_visual_resource_1=get_visual_resource(screen, "visualID", "VisualID", 0);
+  return return_value_get_visual_resource_1;
 }
 
 // print_texture_label
@@ -15938,29 +15938,29 @@ void print_texture_label(struct _XDisplay *dpy, struct texture_font_data *data, 
 {
   float color[4l];
   signed int tex_p;
-  unsigned char return_value_glIsEnabled$1;
-  return_value_glIsEnabled$1=glIsEnabled((unsigned int)0x0DE1);
-  tex_p = (signed int)return_value_glIsEnabled$1;
+  unsigned char return_value_glIsEnabled_1;
+  return_value_glIsEnabled_1=glIsEnabled((unsigned int)0x0DE1);
+  tex_p = (signed int)return_value_glIsEnabled_1;
   signed int texs_p;
-  unsigned char return_value_glIsEnabled$2;
-  return_value_glIsEnabled$2=glIsEnabled((unsigned int)0x0C60);
-  texs_p = (signed int)return_value_glIsEnabled$2;
+  unsigned char return_value_glIsEnabled_2;
+  return_value_glIsEnabled_2=glIsEnabled((unsigned int)0x0C60);
+  texs_p = (signed int)return_value_glIsEnabled_2;
   signed int text_p;
-  unsigned char return_value_glIsEnabled$3;
-  return_value_glIsEnabled$3=glIsEnabled((unsigned int)0x0C61);
-  text_p = (signed int)return_value_glIsEnabled$3;
+  unsigned char return_value_glIsEnabled_3;
+  return_value_glIsEnabled_3=glIsEnabled((unsigned int)0x0C61);
+  text_p = (signed int)return_value_glIsEnabled_3;
   signed int depth_p;
-  unsigned char return_value_glIsEnabled$4;
-  return_value_glIsEnabled$4=glIsEnabled((unsigned int)0x0B71);
-  depth_p = (signed int)return_value_glIsEnabled$4;
+  unsigned char return_value_glIsEnabled_4;
+  return_value_glIsEnabled_4=glIsEnabled((unsigned int)0x0B71);
+  depth_p = (signed int)return_value_glIsEnabled_4;
   signed int cull_p;
-  unsigned char return_value_glIsEnabled$5;
-  return_value_glIsEnabled$5=glIsEnabled((unsigned int)0x0B44);
-  cull_p = (signed int)return_value_glIsEnabled$5;
+  unsigned char return_value_glIsEnabled_5;
+  return_value_glIsEnabled_5=glIsEnabled((unsigned int)0x0B44);
+  cull_p = (signed int)return_value_glIsEnabled_5;
   signed int fog_p;
-  unsigned char return_value_glIsEnabled$6;
-  return_value_glIsEnabled$6=glIsEnabled((unsigned int)0x0B60);
-  fog_p = (signed int)return_value_glIsEnabled$6;
+  unsigned char return_value_glIsEnabled_6;
+  return_value_glIsEnabled_6=glIsEnabled((unsigned int)0x0B60);
+  fog_p = (signed int)return_value_glIsEnabled_6;
   signed int ovp[4l];
   signed int opoly[2l];
   glGetIntegerv((unsigned int)0x0B40, opoly);
@@ -15979,7 +15979,7 @@ void print_texture_label(struct _XDisplay *dpy, struct texture_font_data *data, 
   glLoadIdentity();
   glMatrixMode((unsigned int)0x1700);
   glPushMatrix();
-  struct anonymous$11 cs;
+  struct anonymous_11 cs;
   signed int ascent;
   signed int descent;
   signed int x;
@@ -16048,7 +16048,7 @@ void print_texture_label(struct _XDisplay *dpy, struct texture_font_data *data, 
       abort();
   }
   glTranslatef((float)x, (float)y, (float)0);
-  const struct anonymous$70 offsets[5l] = { { .x=(signed short int)-1, .y=(signed short int)-1 },
+  const struct anonymous_70 offsets[5l] = { { .x=(signed short int)-1, .y=(signed short int)-1 },
     { .x=(signed short int)-1, .y=(signed short int)1 },
     { .x=(signed short int)1, .y=(signed short int)1 },
     { .x=(signed short int)1, .y=(signed short int)-1 },
@@ -16100,7 +16100,7 @@ void print_texture_label(struct _XDisplay *dpy, struct texture_font_data *data, 
 // file texfont.c line 620
 extern void print_texture_string(struct texture_font_data *data, const char *string)
 {
-  struct anonymous$11 overall;
+  struct anonymous_11 overall;
   signed int tex_width;
   signed int tex_height;
   struct texfont_cache *cache;
@@ -16138,27 +16138,27 @@ extern void print_texture_string(struct texture_font_data *data, const char *str
     float tx1;
     float ty1;
     signed int draw_back_face_p;
-    unsigned char return_value_glIsEnabled$1;
-    return_value_glIsEnabled$1=glIsEnabled((unsigned int)0x0B44);
-    draw_back_face_p = (signed int)!(return_value_glIsEnabled$1 != 0);
+    unsigned char return_value_glIsEnabled_1;
+    return_value_glIsEnabled_1=glIsEnabled((unsigned int)0x0B44);
+    draw_back_face_p = (signed int)!(return_value_glIsEnabled_1 != 0);
     glGetIntegerv((unsigned int)0x0B46, &ofront);
     glGetIntegerv((unsigned int)0x0BE0, &oblend);
     glGetFloatv((unsigned int)0x0BA8, omatrix);
-    unsigned char return_value_glIsEnabled$2;
-    return_value_glIsEnabled$2=glIsEnabled((unsigned int)0x0BE2);
-    blend_p = (signed int)return_value_glIsEnabled$2;
-    unsigned char return_value_glIsEnabled$3;
-    return_value_glIsEnabled$3=glIsEnabled((unsigned int)0x0BC0);
-    alpha_p = (signed int)return_value_glIsEnabled$3;
-    unsigned char return_value_glIsEnabled$4;
-    return_value_glIsEnabled$4=glIsEnabled((unsigned int)0x0B50);
-    light_p = (signed int)return_value_glIsEnabled$4;
-    unsigned char return_value_glIsEnabled$5;
-    return_value_glIsEnabled$5=glIsEnabled((unsigned int)0x0C60);
-    gen_s_p = (signed int)return_value_glIsEnabled$5;
-    unsigned char return_value_glIsEnabled$6;
-    return_value_glIsEnabled$6=glIsEnabled((unsigned int)0x0C61);
-    gen_t_p = (signed int)return_value_glIsEnabled$6;
+    unsigned char return_value_glIsEnabled_2;
+    return_value_glIsEnabled_2=glIsEnabled((unsigned int)0x0BE2);
+    blend_p = (signed int)return_value_glIsEnabled_2;
+    unsigned char return_value_glIsEnabled_3;
+    return_value_glIsEnabled_3=glIsEnabled((unsigned int)0x0BC0);
+    alpha_p = (signed int)return_value_glIsEnabled_3;
+    unsigned char return_value_glIsEnabled_4;
+    return_value_glIsEnabled_4=glIsEnabled((unsigned int)0x0B50);
+    light_p = (signed int)return_value_glIsEnabled_4;
+    unsigned char return_value_glIsEnabled_5;
+    return_value_glIsEnabled_5=glIsEnabled((unsigned int)0x0C60);
+    gen_s_p = (signed int)return_value_glIsEnabled_5;
+    unsigned char return_value_glIsEnabled_6;
+    return_value_glIsEnabled_6=glIsEnabled((unsigned int)0x0C61);
+    gen_t_p = (signed int)return_value_glIsEnabled_6;
     glPushMatrix();
     glNormal3f((float)0, (float)0, (float)1);
     glFrontFace((unsigned int)0x0900);
@@ -16332,23 +16332,23 @@ extern void rgb_to_hsv(unsigned short int r, unsigned short int g, unsigned shor
 
 // rotate_colors
 // file colors.c line 711
-extern void rotate_colors(struct anonymous$58 *screen, unsigned long int cmap, struct anonymous$36 *colors, signed int ncolors, signed int distance)
+extern void rotate_colors(struct anonymous_58 *screen, unsigned long int cmap, struct anonymous_36 *colors, signed int ncolors, signed int distance)
 {
   struct _XDisplay *dpy;
-  struct _XDisplay *tmp_if_expr$1;
-  if(!(screen == ((struct anonymous$58 *)NULL)))
-    tmp_if_expr$1 = screen->display;
+  struct _XDisplay *tmp_if_expr_1;
+  if(!(screen == ((struct anonymous_58 *)NULL)))
+    tmp_if_expr_1 = screen->display;
 
   else
-    tmp_if_expr$1 = ((struct _XDisplay *)NULL);
-  dpy = tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct _XDisplay *)NULL);
+  dpy = tmp_if_expr_1;
   signed int i;
-  struct anonymous$36 *colors2;
+  struct anonymous_36 *colors2;
   if(ncolors >= 2)
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct anonymous$36) /*16ul*/  * (unsigned long int)ncolors);
-    colors2 = (struct anonymous$36 *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct anonymous_36) /*16ul*/  * (unsigned long int)ncolors);
+    colors2 = (struct anonymous_36 *)return_value_malloc_2;
     distance = distance % ncolors;
     i = 0;
     for( ; !(i >= ncolors); i = i + 1)
@@ -16365,7 +16365,7 @@ extern void rotate_colors(struct anonymous$58 *screen, unsigned long int cmap, s
     }
     XStoreColors(dpy, cmap, colors2, ncolors);
     XFlush(dpy);
-    memcpy((void *)colors, (const void *)colors2, sizeof(struct anonymous$36) /*16ul*/  * (unsigned long int)ncolors);
+    memcpy((void *)colors, (const void *)colors2, sizeof(struct anonymous_36) /*16ul*/  * (unsigned long int)ncolors);
     free((void *)colors2);
   }
 
@@ -16408,8 +16408,8 @@ static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window
     if(!(fpst2 == ((struct fps_state *)NULL)))
       fps_cb(dpy, window, fpst2, closure);
 
-    char return_value_usleep_and_process_events$1;
-    return_value_usleep_and_process_events$1=usleep_and_process_events(dpy, ft, window, fpst, closure, delay, window2, fpst2, closure2, delay2);
+    char return_value_usleep_and_process_events_1;
+    return_value_usleep_and_process_events_1=usleep_and_process_events(dpy, ft, window, fpst, closure, delay, window2, fpst2, closure2, delay2);
   }
   ft->free_cb(dpy, window, closure);
   if(!(fpst == ((struct fps_state *)NULL)))
@@ -16425,12 +16425,12 @@ static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window
 
 // screen_number
 // file ./../../utils/visual.h line 21
-extern signed int screen_number(struct anonymous$58 *screen)
+extern signed int screen_number(struct anonymous_58 *screen)
 {
   struct _XDisplay *dpy = screen->display;
   signed int i = 0;
-  for( ; !(i >= ((struct anonymous$0 *)dpy)->nscreens); i = i + 1)
-    if(((struct anonymous$0 *)dpy)->screens + (signed long int)i == screen)
+  for( ; !(i >= ((struct anonymous_0 *)dpy)->nscreens); i = i + 1)
+    if(((struct anonymous_0 *)dpy)->screens + (signed long int)i == screen)
       return i;
 
   abort();
@@ -16447,12 +16447,12 @@ static void screenhack_do_fps(struct _XDisplay *dpy, unsigned long int w, struct
 
 // screenhack_ehandler
 // file screenhack.c line 245
-static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous$64 *error)
+static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous_64 *error)
 {
   fprintf(stderr, "\nX error in %s:\n", progname);
-  signed int return_value_XmuPrintDefaultErrorMessage$1;
-  return_value_XmuPrintDefaultErrorMessage$1=XmuPrintDefaultErrorMessage(dpy, error, stderr);
-  if(!(return_value_XmuPrintDefaultErrorMessage$1 == 0))
+  signed int return_value_XmuPrintDefaultErrorMessage_1;
+  return_value_XmuPrintDefaultErrorMessage_1=XmuPrintDefaultErrorMessage(dpy, error, stderr);
+  if(!(return_value_XmuPrintDefaultErrorMessage_1 == 0))
     exit(-1);
 
   else
@@ -16555,21 +16555,21 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 {
   struct _XtAppStruct *app;
   app=XtDisplayToApplicationContext(dpy);
-  unsigned long int return_value_XtAppPending$1;
-  return_value_XtAppPending$1=XtAppPending(app);
-  if(!((6ul & return_value_XtAppPending$1) == 0ul))
+  unsigned long int return_value_XtAppPending_1;
+  return_value_XtAppPending_1=XtAppPending(app);
+  if(!((6ul & return_value_XtAppPending_1) == 0ul))
     XtAppProcessEvent(app, (unsigned long int)(2 | 4));
 
-  signed int return_value_XPending$2;
-  signed int tmp_if_expr$5;
+  signed int return_value_XPending_2;
+  signed int tmp_if_expr_5;
   signed int return_value;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_4;
   signed int return_value_1;
-  signed int return_value_screenhack_handle_event_1$3;
+  signed int return_value_screenhack_handle_event_1_3;
   do
   {
-    return_value_XPending$2=XPending(dpy);
-    if(return_value_XPending$2 == 0)
+    return_value_XPending_2=XPending(dpy);
+    if(return_value_XPending_2 == 0)
       break;
 
     union _XEvent event;
@@ -16586,16 +16586,16 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 
     else
     {
-      _Bool tmp_if_expr$6;
+      _Bool tmp_if_expr_6;
       if(event.xany.type == 33)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
         if(event.xany.window == window)
         {
           return_value=ft->event_cb(dpy, window, closure, &event);
-          tmp_if_expr$5 = return_value;
+          tmp_if_expr_5 = return_value;
         }
 
         else
@@ -16603,27 +16603,27 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
           if(event.xany.window == window2 && !(window2 == 0ul))
           {
             return_value_1=ft->event_cb(dpy, window2, closure2, &event);
-            tmp_if_expr$4 = return_value_1;
+            tmp_if_expr_4 = return_value_1;
           }
 
           else
-            tmp_if_expr$4 = 0;
-          tmp_if_expr$5 = tmp_if_expr$4;
+            tmp_if_expr_4 = 0;
+          tmp_if_expr_5 = tmp_if_expr_4;
         }
-        tmp_if_expr$6 = !(tmp_if_expr$5 != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = !(tmp_if_expr_5 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
       {
-        return_value_screenhack_handle_event_1$3=screenhack_handle_event_1(dpy, &event);
-        if(return_value_screenhack_handle_event_1$3 == 0)
+        return_value_screenhack_handle_event_1_3=screenhack_handle_event_1(dpy, &event);
+        if(return_value_screenhack_handle_event_1_3 == 0)
           return (char)0;
 
       }
 
     }
-    unsigned long int return_value_XtAppPending$7;
-    return_value_XtAppPending$7=XtAppPending(app);
-    if(!((6ul & return_value_XtAppPending$7) == 0ul))
+    unsigned long int return_value_XtAppPending_7;
+    return_value_XtAppPending_7=XtAppPending(app);
+    if(!((6ul & return_value_XtAppPending_7) == 0ul))
       XtAppProcessEvent(app, (unsigned long int)(2 | 4));
 
   }
@@ -16638,24 +16638,24 @@ extern void screenhack_usleep(unsigned long int usecs)
   struct timeval tv;
   tv.tv_sec = (signed long int)(usecs / (unsigned long int)1000000L);
   tv.tv_usec = (signed long int)(usecs % (unsigned long int)1000000L);
-  select(0, ((struct anonymous$47 *)NULL), ((struct anonymous$47 *)NULL), ((struct anonymous$47 *)NULL), &tv);
+  select(0, ((struct anonymous_47 *)NULL), ((struct anonymous_47 *)NULL), ((struct anonymous_47 *)NULL), &tv);
 }
 
 // string_to_texture
 // file texfont.c line 518
-void string_to_texture(struct texture_font_data *data, const char *string, struct anonymous$11 *extents_ret, signed int *tex_width_ret, signed int *tex_height_ret)
+void string_to_texture(struct texture_font_data *data, const char *string, struct anonymous_11 *extents_ret, signed int *tex_width_ret, signed int *tex_height_ret)
 {
-  unsigned long int window = (&((struct anonymous$0 *)data->dpy)->screens[(signed long int)0])->root;
+  unsigned long int window = (&((struct anonymous_0 *)data->dpy)->screens[(signed long int)0])->root;
   unsigned long int p;
-  struct anonymous$34 gcv;
+  struct anonymous_34 gcv;
   struct _XGC *gc;
-  struct anonymous$65 xgwa;
-  struct anonymous$66 rcolor;
+  struct anonymous_65 xgwa;
+  struct anonymous_66 rcolor;
   struct _XftColor xftcolor;
   struct _XftDraw *xftdraw;
   signed int width;
   signed int height;
-  struct anonymous$11 overall;
+  struct anonymous_11 overall;
   XGetWindowAttributes(data->dpy, window, &xgwa);
   iterate_texture_string(data, string, 0, 0, ((struct _XftDraw *)NULL), ((struct _XftColor *)NULL), &overall);
   width = (signed int)overall.rbearing - (signed int)overall.lbearing;
@@ -16677,12 +16677,12 @@ void string_to_texture(struct texture_font_data *data, const char *string, struc
   rcolor.red = rcolor.green;
   XftColorAllocValue(data->dpy, xgwa.visual, xgwa.colormap, &rcolor, &xftcolor);
   xftdraw=XftDrawCreate(data->dpy, p, xgwa.visual, xgwa.colormap);
-  iterate_texture_string(data, string, -((signed int)overall.lbearing), (signed int)overall.ascent, xftdraw, &xftcolor, ((struct anonymous$11 *)NULL));
+  iterate_texture_string(data, string, -((signed int)overall.lbearing), (signed int)overall.ascent, xftdraw, &xftcolor, ((struct anonymous_11 *)NULL));
   XftDrawDestroy(xftdraw);
   XftColorFree(data->dpy, xgwa.visual, xgwa.colormap, &xftcolor);
   bitmap_to_texture(data->dpy, p, xgwa.visual, xgwa.depth, &width, &height);
   XFreePixmap(data->dpy, p);
-  if(!(extents_ret == ((struct anonymous$11 *)NULL)))
+  if(!(extents_ret == ((struct anonymous_11 *)NULL)))
     *extents_ret = overall;
 
   if(!(tex_width_ret == ((signed int *)NULL)))
@@ -16695,7 +16695,7 @@ void string_to_texture(struct texture_font_data *data, const char *string, struc
 
 // string_width
 // file fps.c line 175
-static signed int string_width(struct anonymous$13 *f, const char *c, signed int *height_ret)
+static signed int string_width(struct anonymous_13 *f, const char *c, signed int *height_ret)
 {
   signed int x = 0;
   signed int max_w = 0;
@@ -16714,13 +16714,13 @@ static signed int string_width(struct anonymous$13 *f, const char *c, signed int
 
     else
     {
-      signed int tmp_if_expr$1;
-      if(!(f->per_char == ((struct anonymous$11 *)NULL)))
-        tmp_if_expr$1 = (signed int)(f->per_char + (signed long int)((unsigned int)cc - f->min_char_or_byte2))->width;
+      signed int tmp_if_expr_1;
+      if(!(f->per_char == ((struct anonymous_11 *)NULL)))
+        tmp_if_expr_1 = (signed int)(f->per_char + (signed long int)((unsigned int)cc - f->min_char_or_byte2))->width;
 
       else
-        tmp_if_expr$1 = (signed int)f->min_bounds.rbearing;
-      x = x + tmp_if_expr$1;
+        tmp_if_expr_1 = (signed int)f->min_bounds.rbearing;
+      x = x + tmp_if_expr_1;
     }
     c = c + 1l;
   }
@@ -16735,9 +16735,9 @@ static signed int string_width(struct anonymous$13 *f, const char *c, signed int
 
 // texture_string_metrics
 // file texfont.c line 442
-extern void texture_string_metrics(struct texture_font_data *data, const char *s, struct anonymous$11 *metrics_ret, signed int *ascent_ret, signed int *descent_ret)
+extern void texture_string_metrics(struct texture_font_data *data, const char *s, struct anonymous_11 *metrics_ret, signed int *ascent_ret, signed int *descent_ret)
 {
-  if(!(metrics_ret == ((struct anonymous$11 *)NULL)))
+  if(!(metrics_ret == ((struct anonymous_11 *)NULL)))
     iterate_texture_string(data, s, 0, 0, ((struct _XftDraw *)NULL), ((struct _XftColor *)NULL), metrics_ret);
 
   if(!(ascent_ret == ((signed int *)NULL)))
@@ -16799,7 +16799,7 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
 
   /* assertion _has_pthread */
   assert(_has_pthread != 0);
-  signed int return_value_pthread_cond_wait$3;
+  signed int return_value_pthread_cond_wait_3;
   if(_has_pthread >= 0)
   {
     unsigned int count_parallel;
@@ -16814,9 +16814,9 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
       return 0;
     }
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)count_parallel);
-    self->parallel_threads = (unsigned long int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)count_parallel);
+    self->parallel_threads = (unsigned long int *)return_value_malloc_1;
     if(self->parallel_threads == ((unsigned long int *)NULL))
       return 12;
 
@@ -16824,10 +16824,10 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
     startup.parent = self;
     startup.thread_create = cls->create;
     startup.last_errno = 0;
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$2 != 0));
+    assert(!(return_value_pthread_mutex_lock_2 != 0));
     _add_next_thread(&startup);
     if(startup.last_errno == 0)
       while(!(self->parallel_unfinished == count_parallel))
@@ -16835,9 +16835,9 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
         if(self->parallel_threads == ((unsigned long int *)NULL))
           break;
 
-        return_value_pthread_cond_wait$3=pthread_cond_wait(&self->cond, &self->mutex);
+        return_value_pthread_cond_wait_3=pthread_cond_wait(&self->cond, &self->mutex);
         /* assertion !(pthread_cond_wait(&self->cond, &self->mutex)) */
-        assert(!(return_value_pthread_cond_wait$3 != 0));
+        assert(!(return_value_pthread_cond_wait_3 != 0));
       }
 
     if(!(startup.last_errno == 0))
@@ -16846,10 +16846,10 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
     else
     {
       self->parallel_unfinished = (unsigned int)0;
-      signed int return_value_pthread_mutex_unlock$4;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&self->mutex);
+      signed int return_value_pthread_mutex_unlock_4;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&self->mutex);
       /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-      assert(!(return_value_pthread_mutex_unlock$4 != 0));
+      assert(!(return_value_pthread_mutex_unlock_4 != 0));
     }
     return startup.last_errno;
   }
@@ -16863,10 +16863,10 @@ void threadpool_destroy(struct threadpool *self)
 {
   if(_has_pthread >= 0)
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     _unlock_and_destroy(self);
     goto __CPROVER_DUMP_L2;
   }
@@ -16885,10 +16885,10 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
   {
     unsigned int count;
     count=_threadpool_count_parallel(self);
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     /* assertion !self->parallel_pending */
     assert(!(self->parallel_pending != 0u));
     /* assertion !self->parallel_unfinished */
@@ -16896,22 +16896,22 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
     self->parallel_pending = count;
     self->parallel_unfinished = count;
     self->thread_run = func;
-    signed int return_value_pthread_cond_broadcast$2;
-    return_value_pthread_cond_broadcast$2=pthread_cond_broadcast(&self->cond);
+    signed int return_value_pthread_cond_broadcast_2;
+    return_value_pthread_cond_broadcast_2=pthread_cond_broadcast(&self->cond);
     /* assertion !(pthread_cond_broadcast(&self->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$2 != 0));
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&self->mutex);
+    assert(!(return_value_pthread_cond_broadcast_2 != 0));
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&self->mutex);
     /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
   }
 
   void *thread = self->serial_threads;
   unsigned int i;
-  unsigned int threadpool_run$$1$$2$$count;
-  threadpool_run$$1$$2$$count=_threadpool_count_serial(self);
+  unsigned int threadpool_run__1__2__count;
+  threadpool_run__1__2__count=_threadpool_count_serial(self);
   i = (unsigned int)0;
-  if(!(i == threadpool_run$$1$$2$$count))
+  if(!(i == threadpool_run__1__2__count))
   {
     func(thread);
     thread = (void *)((char *)thread + (signed long int)self->thread_size);
@@ -16924,23 +16924,23 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
 // file thread_util.c line 858
 void threadpool_wait(struct threadpool *self)
 {
-  signed int return_value_pthread_cond_wait$2;
+  signed int return_value_pthread_cond_wait_2;
   if(_has_pthread >= 0)
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     while(!(self->parallel_unfinished == 0u))
     {
-      return_value_pthread_cond_wait$2=pthread_cond_wait(&self->cond, &self->mutex);
+      return_value_pthread_cond_wait_2=pthread_cond_wait(&self->cond, &self->mutex);
       /* assertion !(pthread_cond_wait(&self->cond, &self->mutex)) */
-      assert(!(return_value_pthread_cond_wait$2 != 0));
+      assert(!(return_value_pthread_cond_wait_2 != 0));
     }
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&self->mutex);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&self->mutex);
     /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
   }
 
 }
@@ -16954,13 +16954,13 @@ signed int threads_available(struct _XDisplay *dpy)
     _has_pthread = (signed int)200809L;
     if(_has_pthread >= 0)
     {
-      signed int return_value_get_boolean_resource$2;
-      return_value_get_boolean_resource$2=get_boolean_resource(dpy, "useThreads", "Boolean");
-      if(!(return_value_get_boolean_resource$2 == 0))
+      signed int return_value_get_boolean_resource_2;
+      return_value_get_boolean_resource_2=get_boolean_resource(dpy, "useThreads", "Boolean");
+      if(!(return_value_get_boolean_resource_2 == 0))
       {
-        unsigned int return_value__get_cache_line_size$1;
-        return_value__get_cache_line_size$1=_get_cache_line_size();
-        _cache_line_size = (signed int)return_value__get_cache_line_size$1;
+        unsigned int return_value__get_cache_line_size_1;
+        return_value__get_cache_line_size_1=_get_cache_line_size();
+        _cache_line_size = (signed int)return_value__get_cache_line_size_1;
         /* assertion _cache_line_size >= sizeof(void *) */
         assert((unsigned long int)_cache_line_size >= sizeof(void *) /*8ul*/ );
         /* assertion ((_cache_line_size) > 0 && !((_cache_line_size) & ((_cache_line_size) - 1))) */
@@ -17029,9 +17029,9 @@ static char usleep_and_process_events(struct _XDisplay *dpy, struct xscreensaver
 
     }
 
-    char return_value_screenhack_table_handle_events$1;
-    return_value_screenhack_table_handle_events$1=screenhack_table_handle_events(dpy, ft, window, closure, window2, closure2);
-    if(return_value_screenhack_table_handle_events$1 == 0)
+    char return_value_screenhack_table_handle_events_1;
+    return_value_screenhack_table_handle_events_1=screenhack_table_handle_events(dpy, ft, window, closure, window2, closure2);
+    if(return_value_screenhack_table_handle_events_1 == 0)
       return (char)0;
 
   }
@@ -17050,9 +17050,9 @@ extern signed long int utf8_decode(const unsigned char *in, signed long int leng
   unsigned char c;
   if(length >= 1l)
   {
-    const unsigned char *tmp_post$1 = in;
+    const unsigned char *tmp_post_1 = in;
     in = in + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((0xC0 & (signed int)c) == 0x80)
       uc = (unsigned long int)0xFFFD;
 
@@ -17165,94 +17165,94 @@ extern signed int utf8_encode(unsigned long int uc, char *out, signed long int l
   uc=uc_truncate(uc);
   if(length >= 1l && !(uc >= 128ul))
   {
-    char *tmp_post$1 = out;
+    char *tmp_post_1 = out;
     out = out + 1l;
-    *tmp_post$1 = (char)uc;
+    *tmp_post_1 = (char)uc;
   }
 
   else
     if(length >= 2l && !(uc >= 2048ul))
     {
-      char *tmp_post$2 = out;
+      char *tmp_post_2 = out;
       out = out + 1l;
-      *tmp_post$2 = (char)((unsigned long int)0xC0 | uc >> 6 & (unsigned long int)0x1F);
-      char *tmp_post$3 = out;
+      *tmp_post_2 = (char)((unsigned long int)0xC0 | uc >> 6 & (unsigned long int)0x1F);
+      char *tmp_post_3 = out;
       out = out + 1l;
-      *tmp_post$3 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+      *tmp_post_3 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
     }
 
     else
       if(length >= 3l && !(uc >= 65536ul))
       {
-        char *tmp_post$4 = out;
+        char *tmp_post_4 = out;
         out = out + 1l;
-        *tmp_post$4 = (char)((unsigned long int)0xE0 | uc >> 12 & (unsigned long int)0x0F);
-        char *tmp_post$5 = out;
+        *tmp_post_4 = (char)((unsigned long int)0xE0 | uc >> 12 & (unsigned long int)0x0F);
+        char *tmp_post_5 = out;
         out = out + 1l;
-        *tmp_post$5 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-        char *tmp_post$6 = out;
+        *tmp_post_5 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+        char *tmp_post_6 = out;
         out = out + 1l;
-        *tmp_post$6 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+        *tmp_post_6 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
       }
 
       else
         if(length >= 4l && !(uc >= 2097152ul))
         {
-          char *tmp_post$7 = out;
+          char *tmp_post_7 = out;
           out = out + 1l;
-          *tmp_post$7 = (char)((unsigned long int)0xF0 | uc >> 18 & (unsigned long int)0x07);
-          char *tmp_post$8 = out;
+          *tmp_post_7 = (char)((unsigned long int)0xF0 | uc >> 18 & (unsigned long int)0x07);
+          char *tmp_post_8 = out;
           out = out + 1l;
-          *tmp_post$8 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-          char *tmp_post$9 = out;
+          *tmp_post_8 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+          char *tmp_post_9 = out;
           out = out + 1l;
-          *tmp_post$9 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-          char *tmp_post$10 = out;
+          *tmp_post_9 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+          char *tmp_post_10 = out;
           out = out + 1l;
-          *tmp_post$10 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+          *tmp_post_10 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
         }
 
         else
           if(length >= 5l && !(uc >= 67108864ul))
           {
-            char *tmp_post$11 = out;
+            char *tmp_post_11 = out;
             out = out + 1l;
-            *tmp_post$11 = (char)((unsigned long int)0xF8 | uc >> 24 & (unsigned long int)0x03);
-            char *tmp_post$12 = out;
+            *tmp_post_11 = (char)((unsigned long int)0xF8 | uc >> 24 & (unsigned long int)0x03);
+            char *tmp_post_12 = out;
             out = out + 1l;
-            *tmp_post$12 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
-            char *tmp_post$13 = out;
+            *tmp_post_12 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
+            char *tmp_post_13 = out;
             out = out + 1l;
-            *tmp_post$13 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-            char *tmp_post$14 = out;
+            *tmp_post_13 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+            char *tmp_post_14 = out;
             out = out + 1l;
-            *tmp_post$14 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-            char *tmp_post$15 = out;
+            *tmp_post_14 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+            char *tmp_post_15 = out;
             out = out + 1l;
-            *tmp_post$15 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+            *tmp_post_15 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
           }
 
           else
             if(length >= 6l)
             {
-              char *tmp_post$16 = out;
+              char *tmp_post_16 = out;
               out = out + 1l;
-              *tmp_post$16 = (char)((unsigned long int)0xFC | uc >> 30 & (unsigned long int)0x01);
-              char *tmp_post$17 = out;
+              *tmp_post_16 = (char)((unsigned long int)0xFC | uc >> 30 & (unsigned long int)0x01);
+              char *tmp_post_17 = out;
               out = out + 1l;
-              *tmp_post$17 = (char)((unsigned long int)0x80 | uc >> 24 & (unsigned long int)0x3F);
-              char *tmp_post$18 = out;
+              *tmp_post_17 = (char)((unsigned long int)0x80 | uc >> 24 & (unsigned long int)0x3F);
+              char *tmp_post_18 = out;
               out = out + 1l;
-              *tmp_post$18 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
-              char *tmp_post$19 = out;
+              *tmp_post_18 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
+              char *tmp_post_19 = out;
               out = out + 1l;
-              *tmp_post$19 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-              char *tmp_post$20 = out;
+              *tmp_post_19 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+              char *tmp_post_20 = out;
               out = out + 1l;
-              *tmp_post$20 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-              char *tmp_post$21 = out;
+              *tmp_post_20 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+              char *tmp_post_21 = out;
               out = out + 1l;
-              *tmp_post$21 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+              *tmp_post_21 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
             }
 
   return (signed int)(out - old);
@@ -17264,14 +17264,14 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 {
   const unsigned char *in = (const unsigned char *)string;
   signed long int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  len = (signed long int)return_value_strlen_1;
   const unsigned char *end = in + len;
   char **ret;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(len + (signed long int)1) * sizeof(char *) /*8ul*/ );
-  ret = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(len + (signed long int)1) * sizeof(char *) /*8ul*/ );
+  ret = (char **)return_value_malloc_2;
   signed int i = 0;
   if(ret == ((char **)NULL))
     return ((char **)NULL);
@@ -17286,24 +17286,24 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
       char tmp[10l];
       strncpy(tmp, (char *)in, (unsigned long int)len2);
       tmp[len2] = (char)0;
-      signed int tmp_post$3 = i;
+      signed int tmp_post_3 = i;
       i = i + 1;
-      ret[(signed long int)tmp_post$3]=strdup(tmp);
+      ret[(signed long int)tmp_post_3]=strdup(tmp);
       in = in + len2;
       if(i >= 2 && uc >= 768ul && !(uc >= 880ul))
       {
         signed long int L1;
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(ret[(signed long int)(i - 2)]);
-        L1 = (signed long int)return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(ret[(signed long int)(i - 2)]);
+        L1 = (signed long int)return_value_strlen_4;
         signed long int L2;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(ret[(signed long int)(i - 1)]);
-        L2 = (signed long int)return_value_strlen$5;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(ret[(signed long int)(i - 1)]);
+        L2 = (signed long int)return_value_strlen_5;
         char *s2;
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc((unsigned long int)(L1 + L2 + (signed long int)1));
-        s2 = (char *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc((unsigned long int)(L1 + L2 + (signed long int)1));
+        s2 = (char *)return_value_malloc_6;
         strncpy(s2, ret[(signed long int)(i - 2)], (unsigned long int)L1);
         strncpy(s2 + L1, ret[(signed long int)(i - 1)], (unsigned long int)L2);
         s2[L1 + L2] = (char)0;
@@ -17314,9 +17314,9 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 
     }
     ret[(signed long int)i] = ((char *)NULL);
-    void *return_value_realloc$7;
-    return_value_realloc$7=realloc((void *)ret, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
-    ret = (char **)return_value_realloc$7;
+    void *return_value_realloc_7;
+    return_value_realloc_7=realloc((void *)ret, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
+    ret = (char **)return_value_realloc_7;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = i;
 
@@ -17326,21 +17326,21 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 
 // utf8_to_XChar2b
 // file utf8wc.c line 215
-extern struct anonymous$4 * utf8_to_XChar2b(const char *string, signed int *length_ret)
+extern struct anonymous_4 * utf8_to_XChar2b(const char *string, signed int *length_ret)
 {
   signed long int in_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  in_len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  in_len = (signed long int)return_value_strlen_1;
   const unsigned char *in = (const unsigned char *)string;
   const unsigned char *in_end = in + in_len;
-  struct anonymous$4 *c2b;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(in_len + (signed long int)1) * sizeof(struct anonymous$4) /*2ul*/ );
-  c2b = (struct anonymous$4 *)return_value_malloc$2;
-  struct anonymous$4 *out = c2b;
-  if(out == ((struct anonymous$4 *)NULL))
-    return ((struct anonymous$4 *)NULL);
+  struct anonymous_4 *c2b;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(in_len + (signed long int)1) * sizeof(struct anonymous_4) /*2ul*/ );
+  c2b = (struct anonymous_4 *)return_value_malloc_2;
+  struct anonymous_4 *out = c2b;
+  if(out == ((struct anonymous_4 *)NULL))
+    return ((struct anonymous_4 *)NULL);
 
   else
   {
@@ -17359,9 +17359,9 @@ extern struct anonymous$4 * utf8_to_XChar2b(const char *string, signed int *leng
     }
     out->byte1 = (unsigned char)0;
     out->byte2 = (unsigned char)0;
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)c2b, (unsigned long int)((out - c2b) + (signed long int)1) * sizeof(struct anonymous$4) /*2ul*/ );
-    c2b = (struct anonymous$4 *)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)c2b, (unsigned long int)((out - c2b) + (signed long int)1) * sizeof(struct anonymous_4) /*2ul*/ );
+    c2b = (struct anonymous_4 *)return_value_realloc_3;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = (signed int)(out - c2b);
 
@@ -17374,15 +17374,15 @@ extern struct anonymous$4 * utf8_to_XChar2b(const char *string, signed int *leng
 extern char * utf8_to_latin1(const char *string, signed int ascii_p)
 {
   signed long int in_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  in_len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  in_len = (signed long int)return_value_strlen_1;
   const unsigned char *in = (const unsigned char *)string;
   const unsigned char *in_end = in + in_len;
   unsigned char *ret;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(in_len + (signed long int)1));
-  ret = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(in_len + (signed long int)1));
+  ret = (unsigned char *)return_value_malloc_2;
   unsigned char *out = ret;
   if(ret == ((unsigned char *)NULL))
     return ((char *)NULL);
@@ -17560,35 +17560,35 @@ extern char * utf8_to_latin1(const char *string, signed int ascii_p)
 
       if(uc >= 1ul)
       {
-        unsigned char *tmp_post$3 = out;
+        unsigned char *tmp_post_3 = out;
         out = out + 1l;
-        *tmp_post$3 = (unsigned char)uc;
+        *tmp_post_3 = (unsigned char)uc;
       }
 
     }
     *out = (unsigned char)0;
-    void *return_value_realloc$4;
-    return_value_realloc$4=realloc((void *)ret, (unsigned long int)((out - ret) + (signed long int)1) * sizeof(unsigned char) /*1ul*/ );
-    ret = (unsigned char *)return_value_realloc$4;
+    void *return_value_realloc_4;
+    return_value_realloc_4=realloc((void *)ret, (unsigned long int)((out - ret) + (signed long int)1) * sizeof(unsigned char) /*1ul*/ );
+    ret = (unsigned char *)return_value_realloc_4;
     return (char *)ret;
   }
 }
 
 // validate_gl_visual
 // file ./../../utils/visual.h line 31
-extern signed int validate_gl_visual(struct _IO_FILE *out, struct anonymous$58 *screen, const char *window_desc, struct anonymous$59 *visual)
+extern signed int validate_gl_visual(struct _IO_FILE *out, struct anonymous_58 *screen, const char *window_desc, struct anonymous_59 *visual)
 {
   signed int status;
   signed int value = 0;
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   unsigned int id;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$62 *)NULL))
+  if(vi_out == ((struct anonymous_62 *)NULL))
     abort();
 
   status=glXGetConfig(dpy, vi_out, 1, &value);
@@ -17596,7 +17596,7 @@ extern signed int validate_gl_visual(struct _IO_FILE *out, struct anonymous$58 *
   XFree((void *)(char *)vi_out);
   if(status == 3)
   {
-    fprintf(out, "%s: display \"%s\" does not support the GLX extension.\n", progname, ((struct anonymous$0 *)dpy)->display_name);
+    fprintf(out, "%s: display \"%s\" does not support the GLX extension.\n", progname, ((struct anonymous_0 *)dpy)->display_name);
     return 0;
   }
 
@@ -17613,17 +17613,17 @@ extern signed int validate_gl_visual(struct _IO_FILE *out, struct anonymous$58 *
 
 // visual_cells
 // file visual.c line 487
-extern signed int visual_cells(struct anonymous$58 *screen, struct anonymous$59 *visual)
+extern signed int visual_cells(struct anonymous_58 *screen, struct anonymous_59 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   signed int c;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$62 *)NULL))
+  if(vi_out == ((struct anonymous_62 *)NULL))
     abort();
 
   c = (vi_out + (signed long int)0)->colormap_size;
@@ -17633,17 +17633,17 @@ extern signed int visual_cells(struct anonymous$58 *screen, struct anonymous$59 
 
 // visual_class
 // file visual.c line 409
-extern signed int visual_class(struct anonymous$58 *screen, struct anonymous$59 *visual)
+extern signed int visual_class(struct anonymous_58 *screen, struct anonymous_59 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   signed int c;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$62 *)NULL))
+  if(vi_out == ((struct anonymous_62 *)NULL))
     abort();
 
   c = (vi_out + (signed long int)0)->class;
@@ -17653,17 +17653,17 @@ extern signed int visual_class(struct anonymous$58 *screen, struct anonymous$59 
 
 // visual_depth
 // file ./../utils/visual.h line 17
-extern signed int visual_depth(struct anonymous$58 *screen, struct anonymous$59 *visual)
+extern signed int visual_depth(struct anonymous_58 *screen, struct anonymous_59 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$62 vi_in;
-  struct anonymous$62 *vi_out;
+  struct anonymous_62 vi_in;
+  struct anonymous_62 *vi_out;
   signed int out_count;
   signed int d;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$62 *)NULL))
+  if(vi_out == ((struct anonymous_62 *)NULL))
     abort();
 
   d = (vi_out + (signed long int)0)->depth;
@@ -17673,18 +17673,18 @@ extern signed int visual_depth(struct anonymous$58 *screen, struct anonymous$59 
 
 // visual_warning
 // file screenhack.c line 341
-static void visual_warning(struct anonymous$58 *screen, unsigned long int window, struct anonymous$59 *visual, unsigned long int cmap, signed int window_p)
+static void visual_warning(struct anonymous_58 *screen, unsigned long int window, struct anonymous_59 *visual, unsigned long int cmap, signed int window_p)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
   char *visual_string;
   visual_string=get_string_resource(screen->display, "visualID", "VisualID");
-  struct anonymous$59 *desired_visual;
+  struct anonymous_59 *desired_visual;
   desired_visual=pick_visual(screen);
   char win[100l];
   char why[100l];
-  unsigned long int return_value_VirtualRootWindowOfScreen$1;
-  return_value_VirtualRootWindowOfScreen$1=VirtualRootWindowOfScreen(screen);
-  if(window == return_value_VirtualRootWindowOfScreen$1)
+  unsigned long int return_value_VirtualRootWindowOfScreen_1;
+  return_value_VirtualRootWindowOfScreen_1=VirtualRootWindowOfScreen(screen);
+  if(window == return_value_VirtualRootWindowOfScreen_1)
     strcpy(win, "root window");
 
   else
@@ -17694,8 +17694,8 @@ static void visual_warning(struct anonymous$58 *screen, unsigned long int window
 
   else
     strcpy(why, "-root");
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$6;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_6;
   if(!(visual_string == ((char *)NULL)))
   {
     if(!(*visual_string == 0))
@@ -17709,34 +17709,34 @@ static void visual_warning(struct anonymous$58 *screen, unsigned long int window
 
         }
 
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(visual_string, "default");
-      _Bool tmp_if_expr$5;
-      if(return_value_strcmp$3 == 0)
-        tmp_if_expr$5 = (_Bool)1;
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(visual_string, "default");
+      _Bool tmp_if_expr_5;
+      if(return_value_strcmp_3 == 0)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$4=strcmp(visual_string, "default");
-        tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_4=strcmp(visual_string, "default");
+        tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$7;
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      _Bool tmp_if_expr_7;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$6=strcmp(visual_string, "best");
-        tmp_if_expr$7 = !(return_value_strcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_6=strcmp(visual_string, "best");
+        tmp_if_expr_7 = !(return_value_strcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$7)
+      if(!tmp_if_expr_7)
       {
         if(!(visual == desired_visual))
         {
           fprintf(stderr, "%s: ignoring `-visual %s' because of `%s'.\n", progname, visual_string, (const void *)why);
-          unsigned long int return_value_XVisualIDFromVisual$2;
-          return_value_XVisualIDFromVisual$2=XVisualIDFromVisual(visual);
-          fprintf(stderr, "%s: using %s's visual 0x%lx.\n", progname, (const void *)win, return_value_XVisualIDFromVisual$2);
+          unsigned long int return_value_XVisualIDFromVisual_2;
+          return_value_XVisualIDFromVisual_2=XVisualIDFromVisual(visual);
+          fprintf(stderr, "%s: using %s's visual 0x%lx.\n", progname, (const void *)win, return_value_XVisualIDFromVisual_2);
         }
 
       }
@@ -17746,15 +17746,15 @@ static void visual_warning(struct anonymous$58 *screen, unsigned long int window
 
   }
 
-  signed int return_value_has_writable_cells$9;
-  signed int return_value_get_boolean_resource$8;
+  signed int return_value_has_writable_cells_9;
+  signed int return_value_get_boolean_resource_8;
   if(visual == screen->root_visual)
   {
-    return_value_has_writable_cells$9=has_writable_cells(screen, visual);
-    if(!(return_value_has_writable_cells$9 == 0))
+    return_value_has_writable_cells_9=has_writable_cells(screen, visual);
+    if(!(return_value_has_writable_cells_9 == 0))
     {
-      return_value_get_boolean_resource$8=get_boolean_resource(screen->display, "installColormap", "InstallColormap");
-      if(!(return_value_get_boolean_resource$8 == 0))
+      return_value_get_boolean_resource_8=get_boolean_resource(screen->display, "installColormap", "InstallColormap");
+      if(!(return_value_get_boolean_resource_8 == 0))
       {
         fprintf(stderr, "%s: ignoring `-install' because of `%s'.\n", progname, (const void *)why);
         fprintf(stderr, "%s: using %s's colormap 0x%lx.\n", progname, (const void *)win, (unsigned long int)cmap);
@@ -17764,7 +17764,7 @@ static void visual_warning(struct anonymous$58 *screen, unsigned long int window
 
   }
 
-  if(!(ft->validate_visual_hook == ((signed int (*)(struct anonymous$58 *, const char *, struct anonymous$59 *))NULL)))
+  if(!(ft->validate_visual_hook == ((signed int (*)(struct anonymous_58 *, const char *, struct anonymous_59 *))NULL)))
   {
     signed int return_value;
     return_value=ft->validate_visual_hook(screen, win, visual);
@@ -17780,13 +17780,13 @@ static void visual_warning(struct anonymous$58 *screen, unsigned long int window
 extern void xlockmore_do_fps(struct _XDisplay *dpy, unsigned long int w, struct fps_state *fpst, void *closure)
 {
   struct ModeInfo *mi = (struct ModeInfo *)closure;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   if(!(mi == ((struct ModeInfo *)NULL)))
-    tmp_if_expr$1 = mi->recursion_depth;
+    tmp_if_expr_1 = mi->recursion_depth;
 
   else
-    tmp_if_expr$1 = (double)-1;
-  fps_compute(fpst, (unsigned long int)0, tmp_if_expr$1);
+    tmp_if_expr_1 = (double)-1;
+  fps_compute(fpst, (unsigned long int)0, tmp_if_expr_1);
   fps_draw(fpst);
 }
 
@@ -17808,14 +17808,14 @@ static unsigned long int xlockmore_draw(struct _XDisplay *dpy, unsigned long int
 static signed int xlockmore_event(struct _XDisplay *dpy, unsigned long int window, void *closure, union _XEvent *event)
 {
   struct ModeInfo *mi = (struct ModeInfo *)closure;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mi == ((struct ModeInfo *)NULL)))
-    tmp_if_expr$1 = mi->xlmft->hack_handle_events != ((signed int (*)(struct ModeInfo *, union _XEvent *))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = mi->xlmft->hack_handle_events != ((signed int (*)(struct ModeInfo *, union _XEvent *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   signed int return_value;
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
   {
     return_value=mi->xlmft->hack_handle_events(mi, event);
     return return_value;
@@ -17853,8 +17853,8 @@ extern void xlockmore_gl_draw_fps(struct ModeInfo *mi)
   struct fps_state *st = mi->fpst;
   if(!(st == ((struct fps_state *)NULL)))
   {
-    struct anonymous$5 *data = (struct anonymous$5 *)st->gl_fps_data;
-    struct anonymous$65 xgwa;
+    struct anonymous_5 *data = (struct anonymous_5 *)st->gl_fps_data;
+    struct anonymous_65 xgwa;
     signed int lines = 1;
     const char *s;
     signed int y = st->y;
@@ -17878,15 +17878,15 @@ extern void xlockmore_gl_draw_fps(struct ModeInfo *mi)
 // file fps-gl.c line 46
 static void xlockmore_gl_fps_init(struct fps_state *st)
 {
-  struct anonymous$5 *data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$5) /*16ul*/ );
-  data = (struct anonymous$5 *)return_value_calloc$1;
+  struct anonymous_5 *data;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_5) /*16ul*/ );
+  data = (struct anonymous_5 *)return_value_calloc_1;
   signed int ascent;
   signed int descent;
   data->top_p=get_boolean_resource(st->dpy, "fpsTop", "FPSTop");
   data->texfont=load_texture_font(st->dpy, "fpsFont");
-  texture_string_metrics(data->texfont, "M", ((struct anonymous$11 *)NULL), &ascent, &descent);
+  texture_string_metrics(data->texfont, "M", ((struct anonymous_11 *)NULL), &ascent, &descent);
   data->line_height = ascent + descent;
   st->gl_fps_data = (void *)data;
 }
@@ -17896,11 +17896,11 @@ static void xlockmore_gl_fps_init(struct fps_state *st)
 static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, struct xlockmore_function_table *xlmft)
 {
   struct ModeInfo *mi;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ModeInfo) /*392ul*/ );
-  mi = (struct ModeInfo *)return_value_calloc$1;
-  struct anonymous$34 gcv;
-  struct anonymous$36 color;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ModeInfo) /*392ul*/ );
+  mi = (struct ModeInfo *)return_value_calloc_1;
+  struct anonymous_34 gcv;
+  struct anonymous_36 color;
   signed int i;
   signed int root_p;
   if(xlmft == ((struct xlockmore_function_table *)NULL))
@@ -17924,23 +17924,23 @@ static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, st
   color.blue = (unsigned short int)0;
   color.green = color.blue;
   color.red = color.green;
-  signed int return_value_XAllocColor$2;
-  return_value_XAllocColor$2=XAllocColor(dpy, mi->xgwa.colormap, &color);
-  if(return_value_XAllocColor$2 == 0)
+  signed int return_value_XAllocColor_2;
+  return_value_XAllocColor_2=XAllocColor(dpy, mi->xgwa.colormap, &color);
+  if(return_value_XAllocColor_2 == 0)
     abort();
 
   mi->black = color.pixel;
   color.blue = (unsigned short int)0xFFFF;
   color.green = color.blue;
   color.red = color.green;
-  signed int return_value_XAllocColor$3;
-  return_value_XAllocColor$3=XAllocColor(dpy, mi->xgwa.colormap, &color);
-  if(return_value_XAllocColor$3 == 0)
+  signed int return_value_XAllocColor_3;
+  return_value_XAllocColor_3=XAllocColor(dpy, mi->xgwa.colormap, &color);
+  if(return_value_XAllocColor_3 == 0)
     abort();
 
   mi->white = color.pixel;
-  void *return_value_calloc$4;
-  void *return_value_calloc$5;
+  void *return_value_calloc_4;
+  void *return_value_calloc_5;
   if(!(mono_p == 0))
   {
 
@@ -17949,20 +17949,20 @@ static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, st
     mi->npixels = 2;
     if(mi->pixels == ((unsigned long int *)NULL))
     {
-      return_value_calloc$4=calloc((unsigned long int)mi->npixels, sizeof(unsigned long int) /*8ul*/ );
-      mi->pixels = (unsigned long int *)return_value_calloc$4;
+      return_value_calloc_4=calloc((unsigned long int)mi->npixels, sizeof(unsigned long int) /*8ul*/ );
+      mi->pixels = (unsigned long int *)return_value_calloc_4;
     }
 
-    if(mi->colors == ((struct anonymous$36 *)NULL))
+    if(mi->colors == ((struct anonymous_36 *)NULL))
     {
-      return_value_calloc$5=calloc((unsigned long int)mi->npixels, sizeof(struct anonymous$36) /*16ul*/ );
-      mi->colors = (struct anonymous$36 *)return_value_calloc$5;
+      return_value_calloc_5=calloc((unsigned long int)mi->npixels, sizeof(struct anonymous_36) /*16ul*/ );
+      mi->colors = (struct anonymous_36 *)return_value_calloc_5;
     }
 
     static unsigned long int pixels[2l];
     pixels[(signed long int)0] = mi->black;
     pixels[(signed long int)1] = mi->white;
-    static struct anonymous$36 colors[2l];
+    static struct anonymous_36 colors[2l];
     colors[(signed long int)0].flags = (char)(1 << 0 | 1 << 1 | 1 << 2);
     colors[(signed long int)1].flags = (char)(1 << 0 | 1 << 1 | 1 << 2);
     colors[(signed long int)0].blue = (unsigned short int)0;
@@ -17984,9 +17984,9 @@ static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, st
       if((signed long int)mi->npixels >= 8193l)
         mi->npixels = (signed int)(1L << 13);
 
-    void *return_value_calloc$6;
-    return_value_calloc$6=calloc((unsigned long int)mi->npixels, sizeof(struct anonymous$36) /*16ul*/ );
-    mi->colors = (struct anonymous$36 *)return_value_calloc$6;
+    void *return_value_calloc_6;
+    return_value_calloc_6=calloc((unsigned long int)mi->npixels, sizeof(struct anonymous_36) /*16ul*/ );
+    mi->colors = (struct anonymous_36 *)return_value_calloc_6;
     mi->writable_p = mi->xlmft->want_writable_colors;
     switch((signed int)mi->xlmft->desired_color_scheme)
     {
@@ -18015,9 +18015,9 @@ static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, st
 
     else
     {
-      void *return_value_calloc$7;
-      return_value_calloc$7=calloc((unsigned long int)mi->npixels, sizeof(unsigned long int) /*8ul*/ );
-      mi->pixels = (unsigned long int *)return_value_calloc$7;
+      void *return_value_calloc_7;
+      return_value_calloc_7=calloc((unsigned long int)mi->npixels, sizeof(unsigned long int) /*8ul*/ );
+      mi->pixels = (unsigned long int *)return_value_calloc_7;
       i = 0;
       for( ; !(i >= mi->npixels); i = i + 1)
         mi->pixels[(signed long int)i] = (mi->colors + (signed long int)i)->pixel;
@@ -18027,34 +18027,34 @@ static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, st
   gcv.background = mi->black;
   mi->gc=XCreateGC(dpy, window, (unsigned long int)(1L << 2 | 1L << 3), &gcv);
   mi->fullrandom = 1;
-  signed int return_value_get_integer_resource$8;
-  return_value_get_integer_resource$8=get_integer_resource(dpy, "delay", "Usecs");
-  mi->pause = (signed long int)return_value_get_integer_resource$8;
-  signed int return_value_get_integer_resource$9;
-  return_value_get_integer_resource$9=get_integer_resource(dpy, "cycles", "Int");
-  mi->cycles = (signed long int)return_value_get_integer_resource$9;
-  signed int return_value_get_integer_resource$10;
-  return_value_get_integer_resource$10=get_integer_resource(dpy, "count", "Int");
-  mi->batchcount = (signed long int)return_value_get_integer_resource$10;
-  signed int return_value_get_integer_resource$11;
-  return_value_get_integer_resource$11=get_integer_resource(dpy, "size", "Int");
-  mi->size = (signed long int)return_value_get_integer_resource$11;
+  signed int return_value_get_integer_resource_8;
+  return_value_get_integer_resource_8=get_integer_resource(dpy, "delay", "Usecs");
+  mi->pause = (signed long int)return_value_get_integer_resource_8;
+  signed int return_value_get_integer_resource_9;
+  return_value_get_integer_resource_9=get_integer_resource(dpy, "cycles", "Int");
+  mi->cycles = (signed long int)return_value_get_integer_resource_9;
+  signed int return_value_get_integer_resource_10;
+  return_value_get_integer_resource_10=get_integer_resource(dpy, "count", "Int");
+  mi->batchcount = (signed long int)return_value_get_integer_resource_10;
+  signed int return_value_get_integer_resource_11;
+  return_value_get_integer_resource_11=get_integer_resource(dpy, "size", "Int");
+  mi->size = (signed long int)return_value_get_integer_resource_11;
   mi->threed=get_boolean_resource(dpy, "use3d", "Boolean");
-  double return_value_get_float_resource$12;
-  return_value_get_float_resource$12=get_float_resource(dpy, "delta3d", "Float");
-  mi->threed_delta = (signed long int)return_value_get_float_resource$12;
-  unsigned int return_value_get_pixel_resource$13;
-  return_value_get_pixel_resource$13=get_pixel_resource(dpy, mi->xgwa.colormap, "right3d", "Color");
-  mi->threed_right_color = (signed long int)return_value_get_pixel_resource$13;
-  unsigned int return_value_get_pixel_resource$14;
-  return_value_get_pixel_resource$14=get_pixel_resource(dpy, mi->xgwa.colormap, "left3d", "Color");
-  mi->threed_left_color = (signed long int)return_value_get_pixel_resource$14;
-  unsigned int return_value_get_pixel_resource$15;
-  return_value_get_pixel_resource$15=get_pixel_resource(dpy, mi->xgwa.colormap, "both3d", "Color");
-  mi->threed_both_color = (signed long int)return_value_get_pixel_resource$15;
-  unsigned int return_value_get_pixel_resource$16;
-  return_value_get_pixel_resource$16=get_pixel_resource(dpy, mi->xgwa.colormap, "none3d", "Color");
-  mi->threed_none_color = (signed long int)return_value_get_pixel_resource$16;
+  double return_value_get_float_resource_12;
+  return_value_get_float_resource_12=get_float_resource(dpy, "delta3d", "Float");
+  mi->threed_delta = (signed long int)return_value_get_float_resource_12;
+  unsigned int return_value_get_pixel_resource_13;
+  return_value_get_pixel_resource_13=get_pixel_resource(dpy, mi->xgwa.colormap, "right3d", "Color");
+  mi->threed_right_color = (signed long int)return_value_get_pixel_resource_13;
+  unsigned int return_value_get_pixel_resource_14;
+  return_value_get_pixel_resource_14=get_pixel_resource(dpy, mi->xgwa.colormap, "left3d", "Color");
+  mi->threed_left_color = (signed long int)return_value_get_pixel_resource_14;
+  unsigned int return_value_get_pixel_resource_15;
+  return_value_get_pixel_resource_15=get_pixel_resource(dpy, mi->xgwa.colormap, "both3d", "Color");
+  mi->threed_both_color = (signed long int)return_value_get_pixel_resource_15;
+  unsigned int return_value_get_pixel_resource_16;
+  return_value_get_pixel_resource_16=get_pixel_resource(dpy, mi->xgwa.colormap, "none3d", "Color");
+  mi->threed_none_color = (signed long int)return_value_get_pixel_resource_16;
   mi->wireframe_p=get_boolean_resource(dpy, "wireframe", "Boolean");
   mi->root_p = root_p;
   mi->use_shm=get_boolean_resource(dpy, "useSHM", "Boolean");
@@ -18071,26 +18071,26 @@ static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, st
   name=get_string_resource(dpy, "font", "Font");
   if(!(name == ((char *)NULL)))
   {
-    struct anonymous$13 *f;
+    struct anonymous_13 *f;
     f=XLoadQueryFont(dpy, name);
     const char *def1 = "-*-helvetica-bold-r-normal-*-180-*";
     const char *def2 = "fixed";
-    if(f == ((struct anonymous$13 *)NULL))
+    if(f == ((struct anonymous_13 *)NULL))
     {
       fprintf(stderr, "%s: font %s does not exist, using %s\n", progname, name, def1);
       f=XLoadQueryFont(dpy, def1);
     }
 
-    if(f == ((struct anonymous$13 *)NULL))
+    if(f == ((struct anonymous_13 *)NULL))
     {
       fprintf(stderr, "%s: font %s does not exist, using %s\n", progname, def1, def2);
       f=XLoadQueryFont(dpy, def2);
     }
 
-    if(!(f == ((struct anonymous$13 *)NULL)))
+    if(!(f == ((struct anonymous_13 *)NULL)))
       XSetFont(dpy, mi->gc, f->fid);
 
-    if(!(f == ((struct anonymous$13 *)NULL)))
+    if(!(f == ((struct anonymous_13 *)NULL)))
       XFreeFont(dpy, f);
 
     free((void *)name);
@@ -18104,9 +18104,9 @@ static void * xlockmore_init(struct _XDisplay *dpy, unsigned long int window, st
 
 // xlockmore_pick_gl_visual
 // file ./../xlockmoreI.h line 66
-extern struct anonymous$59 * xlockmore_pick_gl_visual(struct anonymous$58 *screen)
+extern struct anonymous_59 * xlockmore_pick_gl_visual(struct anonymous_58 *screen)
 {
-  struct anonymous$59 *v = ((struct anonymous$59 *)NULL);
+  struct anonymous_59 *v = ((struct anonymous_59 *)NULL);
   struct _XDisplay *dpy = screen->display;
   char *string;
   string=get_string_resource(dpy, "visualID", "VisualID");
@@ -18124,53 +18124,53 @@ extern struct anonymous$59 * xlockmore_pick_gl_visual(struct anonymous$58 *scree
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(string == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*string != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
-
-  else
-  {
-    return_value_strcmp$2=strcmp(string, "gl");
-    tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
-  }
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_1 = !(*string != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$4=strcmp(string, "best");
-    tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(string, "gl");
+    tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$6=strcmp(string, "color");
-    tmp_if_expr$7 = !(return_value_strcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_4=strcmp(string, "best");
+    tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcmp$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$8=strcmp(string, "default");
-    tmp_if_expr$9 = !(return_value_strcmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_6=strcmp(string, "color");
+    tmp_if_expr_7 = !(return_value_strcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$9)
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcmp_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
+
+  else
+  {
+    return_value_strcmp_8=strcmp(string, "default");
+    tmp_if_expr_9 = !(return_value_strcmp_8 != 0) ? (_Bool)1 : (_Bool)0;
+  }
+  if(tmp_if_expr_9)
     v=get_gl_visual(screen);
 
   if(!(string == ((char *)NULL)))
@@ -18184,9 +18184,9 @@ extern struct anonymous$59 * xlockmore_pick_gl_visual(struct anonymous$58 *scree
 static void xlockmore_read_resources(struct ModeInfo *mi)
 {
   struct _XDisplay *dpy = mi->dpy;
-  struct anonymous$16 *xlockmore_opts = mi->xlmft->opts;
+  struct anonymous_16 *xlockmore_opts = mi->xlmft->opts;
   signed int i = 0;
-  double return_value_get_float_resource$1;
+  double return_value_get_float_resource_1;
   for( ; !(i >= xlockmore_opts->numvarsdesc); i = i + 1)
   {
     void *var = (xlockmore_opts->vars + (signed long int)i)->var;
@@ -18203,8 +18203,8 @@ static void xlockmore_read_resources(struct ModeInfo *mi)
       }
       case t_Float:
       {
-        return_value_get_float_resource$1=get_float_resource(dpy, (xlockmore_opts->vars + (signed long int)i)->name, (xlockmore_opts->vars + (signed long int)i)->classname);
-        *var_f = (float)return_value_get_float_resource$1;
+        return_value_get_float_resource_1=get_float_resource(dpy, (xlockmore_opts->vars + (signed long int)i)->name, (xlockmore_opts->vars + (signed long int)i)->classname);
+        *var_f = (float)return_value_get_float_resource_1;
         break;
       }
       case t_Int:
@@ -18248,10 +18248,10 @@ extern void xlockmore_setup(struct xscreensaver_function_table *xsft, void *arg)
   signed int i;
   signed int j;
   char *s;
-  struct anonymous$51 *new_options;
+  struct anonymous_51 *new_options;
   char **new_defaults;
   const char *xlockmore_defaults;
-  struct anonymous$16 *xlockmore_opts = xlmft->opts;
+  struct anonymous_16 *xlockmore_opts = xlmft->opts;
   ya_rand_init((unsigned int)0);
   xsft->init_cb = (void * (*)(struct _XDisplay *, unsigned long int))xlockmore_init;
   xsft->draw_cb = xlockmore_draw;
@@ -18260,103 +18260,103 @@ extern void xlockmore_setup(struct xscreensaver_function_table *xsft, void *arg)
   xsft->free_cb = xlockmore_free;
   progclass = xlmft->progclass;
   xlockmore_defaults = xlmft->defaults;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(xlockmore_opts->numopts * 3 + 100), sizeof(struct anonymous$51) /*32ul*/ );
-  new_options = (struct anonymous$51 *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(xlockmore_opts->numopts * 3 + 100), sizeof(struct anonymous_51) /*32ul*/ );
+  new_options = (struct anonymous_51 *)return_value_calloc_1;
   i = 0;
   for( ; !(i >= xlockmore_opts->numopts); i = i + 1)
   {
-    struct anonymous$51 *xlockmore_setup$$1$$1$$old = &xlockmore_opts->opts[(signed long int)i];
-    struct anonymous$51 *xlockmore_setup$$1$$1$$new = &new_options[(signed long int)i];
-    if((signed int)*xlockmore_setup$$1$$1$$old->option == 45)
-      xlockmore_setup$$1$$1$$new->option = xlockmore_setup$$1$$1$$old->option;
+    struct anonymous_51 *xlockmore_setup__1__1__old = &xlockmore_opts->opts[(signed long int)i];
+    struct anonymous_51 *xlockmore_setup__1__1__new = &new_options[(signed long int)i];
+    if((signed int)*xlockmore_setup__1__1__old->option == 45)
+      xlockmore_setup__1__1__new->option = xlockmore_setup__1__1__old->option;
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(xlockmore_setup$$1$$1$$old->option);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(return_value_strlen$2 + (unsigned long int)5);
-      xlockmore_setup$$1$$1$$new->option = (char *)return_value_malloc$3;
-      strcpy(xlockmore_setup$$1$$1$$new->option, "-no-");
-      strcat(xlockmore_setup$$1$$1$$new->option, xlockmore_setup$$1$$1$$old->option + (signed long int)1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(xlockmore_setup__1__1__old->option);
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(return_value_strlen_2 + (unsigned long int)5);
+      xlockmore_setup__1__1__new->option = (char *)return_value_malloc_3;
+      strcpy(xlockmore_setup__1__1__new->option, "-no-");
+      strcat(xlockmore_setup__1__1__new->option, xlockmore_setup__1__1__old->option + (signed long int)1);
     }
-    xlockmore_setup$$1$$1$$new->specifier=strrchr(xlockmore_setup$$1$$1$$old->specifier, 46);
-    if(xlockmore_setup$$1$$1$$new->specifier == ((char *)NULL))
+    xlockmore_setup__1__1__new->specifier=strrchr(xlockmore_setup__1__1__old->specifier, 46);
+    if(xlockmore_setup__1__1__new->specifier == ((char *)NULL))
       abort();
 
-    xlockmore_setup$$1$$1$$new->argKind = xlockmore_setup$$1$$1$$old->argKind;
-    xlockmore_setup$$1$$1$$new->value = xlockmore_setup$$1$$1$$old->value;
+    xlockmore_setup__1__1__new->argKind = xlockmore_setup__1__1__old->argKind;
+    xlockmore_setup__1__1__new->value = xlockmore_setup__1__1__old->value;
   }
   char *args[9l] = { "-count", "-cycles", "-delay", "-ncolors", "-size", "-font", "-wireframe", "-use3d", "-useSHM" };
   j = 0;
-  char *return_value_strstr$11;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
+  char *return_value_strstr_11;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
   for( ; !((unsigned long int)j >= 9ul); j = j + 1)
   {
-    return_value_strstr$11=strstr(xlockmore_defaults, args[(signed long int)j] + (signed long int)1);
-    if(!(return_value_strstr$11 == ((char *)NULL)))
+    return_value_strstr_11=strstr(xlockmore_defaults, args[(signed long int)j] + (signed long int)1);
+    if(!(return_value_strstr_11 == ((char *)NULL)))
     {
-      struct anonymous$51 *new;
-      signed int tmp_post$4 = i;
+      struct anonymous_51 *new;
+      signed int tmp_post_4 = i;
       i = i + 1;
-      new = &new_options[(signed long int)tmp_post$4];
+      new = &new_options[(signed long int)tmp_post_4];
       new->option = args[(signed long int)j];
       new->specifier=strdup(args[(signed long int)j]);
       new->specifier[(signed long int)0] = (char)46;
-      signed int return_value_strcmp$10;
-      return_value_strcmp$10=strcmp(new->option, "-wireframe");
-      if(return_value_strcmp$10 == 0)
+      signed int return_value_strcmp_10;
+      return_value_strcmp_10=strcmp(new->option, "-wireframe");
+      if(return_value_strcmp_10 == 0)
       {
-        new->argKind = (enum anonymous$57)XrmoptionNoArg;
+        new->argKind = (enum anonymous_57)XrmoptionNoArg;
         new->value = "True";
-        signed int tmp_post$5 = i;
+        signed int tmp_post_5 = i;
         i = i + 1;
-        new = &new_options[(signed long int)tmp_post$5];
+        new = &new_options[(signed long int)tmp_post_5];
         new->option = "-no-wireframe";
         new->specifier = (new_options + (signed long int)(i - 2))->specifier;
-        new->argKind = (enum anonymous$57)XrmoptionNoArg;
+        new->argKind = (enum anonymous_57)XrmoptionNoArg;
         new->value = "False";
       }
 
       else
       {
-        return_value_strcmp$9=strcmp(new->option, "-use3d");
-        if(return_value_strcmp$9 == 0)
+        return_value_strcmp_9=strcmp(new->option, "-use3d");
+        if(return_value_strcmp_9 == 0)
         {
           new->option = "-3d";
-          new->argKind = (enum anonymous$57)XrmoptionNoArg;
+          new->argKind = (enum anonymous_57)XrmoptionNoArg;
           new->value = "True";
-          signed int tmp_post$6 = i;
+          signed int tmp_post_6 = i;
           i = i + 1;
-          new = &new_options[(signed long int)tmp_post$6];
+          new = &new_options[(signed long int)tmp_post_6];
           new->option = "-no-3d";
           new->specifier = (new_options + (signed long int)(i - 2))->specifier;
-          new->argKind = (enum anonymous$57)XrmoptionNoArg;
+          new->argKind = (enum anonymous_57)XrmoptionNoArg;
           new->value = "False";
         }
 
         else
         {
-          return_value_strcmp$8=strcmp(new->option, "-useSHM");
-          if(return_value_strcmp$8 == 0)
+          return_value_strcmp_8=strcmp(new->option, "-useSHM");
+          if(return_value_strcmp_8 == 0)
           {
             new->option = "-shm";
-            new->argKind = (enum anonymous$57)XrmoptionNoArg;
+            new->argKind = (enum anonymous_57)XrmoptionNoArg;
             new->value = "True";
-            signed int tmp_post$7 = i;
+            signed int tmp_post_7 = i;
             i = i + 1;
-            new = &new_options[(signed long int)tmp_post$7];
+            new = &new_options[(signed long int)tmp_post_7];
             new->option = "-no-shm";
             new->specifier = (new_options + (signed long int)(i - 2))->specifier;
-            new->argKind = (enum anonymous$57)XrmoptionNoArg;
+            new->argKind = (enum anonymous_57)XrmoptionNoArg;
             new->value = "False";
           }
 
           else
           {
-            new->argKind = (enum anonymous$57)XrmoptionSepArg;
+            new->argKind = (enum anonymous_57)XrmoptionSepArg;
             new->value = ((char *)NULL);
           }
         }
@@ -18365,42 +18365,42 @@ extern void xlockmore_setup(struct xscreensaver_function_table *xsft, void *arg)
 
   }
   i = 0;
-  void *return_value_calloc$12;
-  return_value_calloc$12=calloc((unsigned long int)1, (unsigned long int)(xlockmore_opts->numvarsdesc * 10 + 1000));
-  new_defaults = (char **)return_value_calloc$12;
-  void *return_value_malloc$13;
-  return_value_malloc$13=malloc((unsigned long int)50);
-  s = (char *)return_value_malloc$13;
+  void *return_value_calloc_12;
+  return_value_calloc_12=calloc((unsigned long int)1, (unsigned long int)(xlockmore_opts->numvarsdesc * 10 + 1000));
+  new_defaults = (char **)return_value_calloc_12;
+  void *return_value_malloc_13;
+  return_value_malloc_13=malloc((unsigned long int)50);
+  s = (char *)return_value_malloc_13;
   *s = (char)0;
   strcpy(s, progclass);
   strcat(s, ".background: black");
-  signed int tmp_post$14 = i;
+  signed int tmp_post_14 = i;
   i = i + 1;
-  new_defaults[(signed long int)tmp_post$14] = s;
-  void *return_value_malloc$15;
-  return_value_malloc$15=malloc((unsigned long int)50);
-  s = (char *)return_value_malloc$15;
+  new_defaults[(signed long int)tmp_post_14] = s;
+  void *return_value_malloc_15;
+  return_value_malloc_15=malloc((unsigned long int)50);
+  s = (char *)return_value_malloc_15;
   *s = (char)0;
   strcpy(s, progclass);
   strcat(s, ".foreground: white");
-  signed int tmp_post$16 = i;
+  signed int tmp_post_16 = i;
   i = i + 1;
-  new_defaults[(signed long int)tmp_post$16] = s;
+  new_defaults[(signed long int)tmp_post_16] = s;
   s=strdup(xlockmore_defaults);
   while(!(s == ((char *)NULL)))
   {
     if(*s == 0)
       break;
 
-    signed int tmp_post$17 = i;
+    signed int tmp_post_17 = i;
     i = i + 1;
-    new_defaults[(signed long int)tmp_post$17] = s;
+    new_defaults[(signed long int)tmp_post_17] = s;
     s=strchr(s, 10);
     if(!(s == ((char *)NULL)))
     {
-      char *tmp_post$18 = s;
+      char *tmp_post_18 = s;
       s = s + 1l;
-      *tmp_post$18 = (char)0;
+      *tmp_post_18 = (char)0;
     }
 
   }
@@ -18414,36 +18414,36 @@ extern void xlockmore_setup(struct xscreensaver_function_table *xsft, void *arg)
     if(*def == 0)
       abort();
 
-    unsigned long int return_value_strlen$19;
-    return_value_strlen$19=strlen(def);
-    if(return_value_strlen$19 >= 1001ul)
+    unsigned long int return_value_strlen_19;
+    return_value_strlen_19=strlen(def);
+    if(return_value_strlen_19 >= 1001ul)
       abort();
 
-    unsigned long int return_value_strlen$20;
-    return_value_strlen$20=strlen((xlockmore_opts->vars + (signed long int)j)->name);
-    unsigned long int return_value_strlen$21;
-    return_value_strlen$21=strlen(def);
-    void *return_value_malloc$22;
-    return_value_malloc$22=malloc(return_value_strlen$20 + return_value_strlen$21 + (unsigned long int)10);
-    s = (char *)return_value_malloc$22;
+    unsigned long int return_value_strlen_20;
+    return_value_strlen_20=strlen((xlockmore_opts->vars + (signed long int)j)->name);
+    unsigned long int return_value_strlen_21;
+    return_value_strlen_21=strlen(def);
+    void *return_value_malloc_22;
+    return_value_malloc_22=malloc(return_value_strlen_20 + return_value_strlen_21 + (unsigned long int)10);
+    s = (char *)return_value_malloc_22;
     strcpy(s, "*");
     strcat(s, (xlockmore_opts->vars + (signed long int)j)->name);
     strcat(s, ": ");
     strcat(s, def);
-    signed int tmp_post$23 = i;
+    signed int tmp_post_23 = i;
     i = i + 1;
-    new_defaults[(signed long int)tmp_post$23] = s;
+    new_defaults[(signed long int)tmp_post_23] = s;
     char *onew;
     onew=strdup((xlockmore_opts->vars + (signed long int)j)->name);
-    const char *xlockmore_setup$$1$$4$$1$$new = onew;
+    const char *xlockmore_setup__1__4__1__new = onew;
     signed int k;
-    s=strrchr(xlockmore_setup$$1$$4$$1$$new, 46);
+    s=strrchr(xlockmore_setup__1__4__1__new, 46);
     if(!(s == ((char *)NULL)))
-      xlockmore_setup$$1$$4$$1$$new = s + (signed long int)1;
+      xlockmore_setup__1__4__1__new = s + (signed long int)1;
 
-    s=strrchr(xlockmore_setup$$1$$4$$1$$new, 42);
+    s=strrchr(xlockmore_setup__1__4__1__new, 42);
     if(!(s == ((char *)NULL)))
-      xlockmore_setup$$1$$4$$1$$new = s + (signed long int)1;
+      xlockmore_setup__1__4__1__new = s + (signed long int)1;
 
     k = 0;
     for( ; !(k >= i + -1); k = k + 1)
@@ -18463,9 +18463,9 @@ extern void xlockmore_setup(struct xscreensaver_function_table *xsft, void *arg)
       if(!(s == ((char *)NULL)))
         old = s + (signed long int)1;
 
-      signed int return_value_strcasecmp$24;
-      return_value_strcasecmp$24=strcasecmp(old, xlockmore_setup$$1$$4$$1$$new);
-      if(return_value_strcasecmp$24 == 0)
+      signed int return_value_strcasecmp_24;
+      return_value_strcasecmp_24=strcasecmp(old, xlockmore_setup__1__4__1__new);
+      if(return_value_strcasecmp_24 == 0)
         fprintf(stderr, "%s: duplicate resource \"%s\": set in both DEFAULTS and vars[]\n", progname, old);
 
       free((void *)oold);
@@ -18480,60 +18480,60 @@ extern void xlockmore_setup(struct xscreensaver_function_table *xsft, void *arg)
 
 // xlockmore_validate_gl_visual
 // file ./../xlockmoreI.h line 67
-extern signed int xlockmore_validate_gl_visual(struct anonymous$58 *screen, const char *name, struct anonymous$59 *visual)
+extern signed int xlockmore_validate_gl_visual(struct anonymous_58 *screen, const char *name, struct anonymous_59 *visual)
 {
-  signed int return_value_validate_gl_visual$1;
-  return_value_validate_gl_visual$1=validate_gl_visual(stderr, screen, name, visual);
-  return return_value_validate_gl_visual$1;
+  signed int return_value_validate_gl_visual_1;
+  return_value_validate_gl_visual_1=validate_gl_visual(stderr, screen, name, visual);
+  return return_value_validate_gl_visual_1;
 }
 
 // xpm_file_to_ximage
 // file xpm-ximage.c line 463
-extern struct _XImage * xpm_file_to_ximage(struct _XDisplay *dpy, struct anonymous$59 *visual, unsigned long int cmap, const char *filename)
+extern struct _XImage * xpm_file_to_ximage(struct _XDisplay *dpy, struct anonymous_59 *visual, unsigned long int cmap, const char *filename)
 {
-  struct _XImage *return_value_xpm_to_ximage_1$1;
-  return_value_xpm_to_ximage_1$1=xpm_to_ximage_1(dpy, visual, cmap, filename, ((char **)NULL));
-  return return_value_xpm_to_ximage_1$1;
+  struct _XImage *return_value_xpm_to_ximage_1_1;
+  return_value_xpm_to_ximage_1_1=xpm_to_ximage_1(dpy, visual, cmap, filename, ((char **)NULL));
+  return return_value_xpm_to_ximage_1_1;
 }
 
 // xpm_to_ximage
 // file xpm-ximage.h line 26
-extern struct _XImage * xpm_to_ximage(struct _XDisplay *dpy, struct anonymous$59 *visual, unsigned long int cmap, char **xpm_data)
+extern struct _XImage * xpm_to_ximage(struct _XDisplay *dpy, struct anonymous_59 *visual, unsigned long int cmap, char **xpm_data)
 {
-  struct _XImage *return_value_xpm_to_ximage_1$1;
-  return_value_xpm_to_ximage_1$1=xpm_to_ximage_1(dpy, visual, cmap, ((const char *)NULL), xpm_data);
-  return return_value_xpm_to_ximage_1$1;
+  struct _XImage *return_value_xpm_to_ximage_1_1;
+  return_value_xpm_to_ximage_1_1=xpm_to_ximage_1(dpy, visual, cmap, ((const char *)NULL), xpm_data);
+  return return_value_xpm_to_ximage_1_1;
 }
 
 // xpm_to_ximage_1
 // file xpm-ximage.c line 68
-static struct _XImage * xpm_to_ximage_1(struct _XDisplay *dpy, struct anonymous$59 *visual, unsigned long int cmap, const char *filename, char **xpm_data)
+static struct _XImage * xpm_to_ximage_1(struct _XDisplay *dpy, struct anonymous_59 *visual, unsigned long int cmap, const char *filename, char **xpm_data)
 {
   struct _GdkPixbuf *pb;
   struct _GError *gerr = (struct _GError *)(void *)0;
   static signed int initted = 0;
   if(initted == 0)
   {
-    gdk_pixbuf_xlib_init(dpy, ((struct anonymous$0 *)dpy)->default_screen);
-    xlib_rgb_init(dpy, &((struct anonymous$0 *)dpy)->screens[(signed long int)((struct anonymous$0 *)dpy)->default_screen]);
+    gdk_pixbuf_xlib_init(dpy, ((struct anonymous_0 *)dpy)->default_screen);
+    xlib_rgb_init(dpy, &((struct anonymous_0 *)dpy)->screens[(signed long int)((struct anonymous_0 *)dpy)->default_screen]);
     initted = 1;
   }
 
-  struct _GdkPixbuf *tmp_if_expr$3;
-  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_file$1;
-  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_xpm_data$2;
+  struct _GdkPixbuf *tmp_if_expr_3;
+  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_file_1;
+  struct _GdkPixbuf *return_value_gdk_pixbuf_new_from_xpm_data_2;
   if(!(filename == ((const char *)NULL)))
   {
-    return_value_gdk_pixbuf_new_from_file$1=gdk_pixbuf_new_from_file(filename, &gerr);
-    tmp_if_expr$3 = return_value_gdk_pixbuf_new_from_file$1;
+    return_value_gdk_pixbuf_new_from_file_1=gdk_pixbuf_new_from_file(filename, &gerr);
+    tmp_if_expr_3 = return_value_gdk_pixbuf_new_from_file_1;
   }
 
   else
   {
-    return_value_gdk_pixbuf_new_from_xpm_data$2=gdk_pixbuf_new_from_xpm_data((const char **)xpm_data);
-    tmp_if_expr$3 = return_value_gdk_pixbuf_new_from_xpm_data$2;
+    return_value_gdk_pixbuf_new_from_xpm_data_2=gdk_pixbuf_new_from_xpm_data((const char **)xpm_data);
+    tmp_if_expr_3 = return_value_gdk_pixbuf_new_from_xpm_data_2;
   }
-  pb = tmp_if_expr$3;
+  pb = tmp_if_expr_3;
   if(!(pb == ((struct _GdkPixbuf *)NULL)))
   {
     struct _XImage *image;
@@ -18550,12 +18550,12 @@ static struct _XImage * xpm_to_ximage_1(struct _XDisplay *dpy, struct anonymous$
     signed int x;
     signed int y;
     image=XCreateImage(dpy, visual, (unsigned int)32, 2, 0, ((char *)NULL), (unsigned int)w, (unsigned int)h, 32, 0);
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)(h * image->bytes_per_line));
-    image->data = (char *)return_value_malloc$4;
-    signed int return_value_bigendian$5;
-    return_value_bigendian$5=bigendian();
-    image->byte_order = return_value_bigendian$5 != 0 ? 1 : 0;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)(h * image->bytes_per_line));
+    image->data = (char *)return_value_malloc_4;
+    signed int return_value_bigendian_5;
+    return_value_bigendian_5=bigendian();
+    image->byte_order = return_value_bigendian_5 != 0 ? 1 : 0;
     image->bitmap_bit_order = image->byte_order;
     if(image->data == ((char *)NULL))
     {
@@ -18634,9 +18634,9 @@ extern void ya_rand_init(unsigned int seed)
     seed = seed << 11 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)11;
     seed = seed + (unsigned int)((signed long int)1001 * tp.tv_usec);
     seed = seed << 7 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)7;
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    seed = seed + (unsigned int)(1003 * return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    seed = seed + (unsigned int)(1003 * return_value_getpid_1);
     seed = seed << 13 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)13;
   }
 

@@ -1,42 +1,42 @@
-// tag-#anon#ST[*{SYM#tag-work#}$SYM#tag-work#$'stqe_next'|]
+// tag-#anon#ST[*{SYM#tag-work#}_SYM#tag-work#_'stqe_next'|]
 // file src/private.h line 138
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{SYM#tag-work#}$SYM#tag-work#$'stqh_first'||*{*{SYM#tag-work#}$SYM#tag-work#$}$*{SYM#tag-work#}$SYM#tag-work#$$'stqh_last'|]
+// tag-#anon#ST[*{SYM#tag-work#}_SYM#tag-work#_'stqh_first'||*{*{SYM#tag-work#}_SYM#tag-work#_}_*{SYM#tag-work#}_SYM#tag-work#__'stqh_last'|]
 // file src/private.h line 154
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[U32'sig'||S32'queueprio'||S32'overcommit'||ARR13{U32}$U32$'pad'|]
+// tag-#anon#ST[U32'sig'||S32'queueprio'||S32'overcommit'||ARR13{U32}_U32_'pad'|]
 // file ./include/pthread_workqueue.h line 43
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[vU32'runqueue_length'||vU32'count'||vU32'idle'||U32'$pad0'||SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#'sb_sem'||U32'sb_suspend'||U32'$pad1'|]
+// tag-#anon#ST[vU32'runqueue_length'||vU32'count'||vU32'idle'||U32'_pad0'||SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#'sb_sem'||U32'sb_suspend'||U32'_pad1'|]
 // file src/posix/manager.c line 78
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
 union anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -252,9 +252,9 @@ extern struct __dirstream * opendir(const char *);
 // overcommit_worker_main
 // file src/posix/manager.c line 244
 static void * overcommit_worker_main(void *unused);
-// overcommit_worker_main::1::func$object
+// overcommit_worker_main::1::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // perror
 // file /usr/include/stdio.h line 846
 extern void perror(const char *);
@@ -272,16 +272,16 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$1 *, const union anonymous$5 *);
+extern signed int pthread_cond_init(union anonymous_1 *, const union anonymous_5 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$1 *, union anonymous$4 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_1 *, union anonymous_4 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -290,16 +290,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern void pthread_exit(void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$7 *, struct anonymous$7 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_7 *, struct anonymous_7 *);
 // pthread_spin_init
 // file /usr/include/pthread.h line 1046
 extern signed int pthread_spin_init(volatile signed int *, signed int);
@@ -312,30 +312,30 @@ extern signed int pthread_spin_unlock(volatile signed int *);
 // pthread_workqueue_additem_np
 // file ./include/pthread_workqueue.h line 63
 signed int pthread_workqueue_additem_np(struct _pthread_workqueue *workq, void (*workitem_func)(void *), void *workitem_arg, void **itemhandlep, unsigned int *gencountp);
-// pthread_workqueue_additem_np::workitem_func$object
+// pthread_workqueue_additem_np::workitem_func_object
 //
-void workitem_func$object(void *);
+void workitem_func_object(void *);
 // pthread_workqueue_attr_destroy_np
 // file src/api.c line 151
-signed int pthread_workqueue_attr_destroy_np(struct anonymous$6 *attr);
+signed int pthread_workqueue_attr_destroy_np(struct anonymous_6 *attr);
 // pthread_workqueue_attr_getovercommit_np
 // file src/api.c line 160
-signed int pthread_workqueue_attr_getovercommit_np(const struct anonymous$6 *attr, signed int *ocommp);
+signed int pthread_workqueue_attr_getovercommit_np(const struct anonymous_6 *attr, signed int *ocommp);
 // pthread_workqueue_attr_getqueuepriority_np
 // file src/api.c line 182
-signed int pthread_workqueue_attr_getqueuepriority_np(struct anonymous$6 *attr, signed int *qpriop);
+signed int pthread_workqueue_attr_getqueuepriority_np(struct anonymous_6 *attr, signed int *qpriop);
 // pthread_workqueue_attr_init_np
 // file ./include/pthread_workqueue.h line 67
-signed int pthread_workqueue_attr_init_np(struct anonymous$6 *attr);
+signed int pthread_workqueue_attr_init_np(struct anonymous_6 *attr);
 // pthread_workqueue_attr_setovercommit_np
 // file ./include/pthread_workqueue.h line 77
-signed int pthread_workqueue_attr_setovercommit_np(struct anonymous$6 *attr, signed int ocomm);
+signed int pthread_workqueue_attr_setovercommit_np(struct anonymous_6 *attr, signed int ocomm);
 // pthread_workqueue_attr_setqueuepriority_np
 // file ./include/pthread_workqueue.h line 71
-signed int pthread_workqueue_attr_setqueuepriority_np(struct anonymous$6 *attr, signed int qprio);
+signed int pthread_workqueue_attr_setqueuepriority_np(struct anonymous_6 *attr, signed int qprio);
 // pthread_workqueue_create_np
 // file ./include/pthread_workqueue.h line 60
-signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const struct anonymous$6 *attr);
+signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const struct anonymous_6 *attr);
 // pthread_workqueue_init_np
 // file src/api.c line 46
 signed int pthread_workqueue_init_np(void);
@@ -374,7 +374,7 @@ extern signed int sem_timedwait(union anonymous *, struct timespec *);
 extern signed int sem_wait(union anonymous *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$7 *);
+extern signed int sigfillset(struct anonymous_7 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -408,9 +408,9 @@ static signed int valid_workq(struct _pthread_workqueue *workq);
 // witem_alloc
 // file src/private.h line 169
 struct work * witem_alloc(void (*func)(void *), void *func_arg);
-// witem_alloc::func$object
+// witem_alloc::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // witem_cache_cleanup
 // file src/witem_cache.c line 68
 void witem_cache_cleanup(void *value);
@@ -442,13 +442,13 @@ static struct work * wqlist_scan_spin(signed int *queue_priority);
 // file src/posix/manager.c line 401
 static struct work * wqlist_scan_wait(signed int *queue_priority);
 
-struct anonymous$0
+struct anonymous_0
 {
   // stqe_next
   struct work *stqe_next;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // stqh_first
   struct work *stqh_first;
@@ -456,13 +456,13 @@ struct anonymous$2
   struct work **stqh_last;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __lock
   signed int __lock;
@@ -482,7 +482,7 @@ struct anonymous$8
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // sig
   unsigned int sig;
@@ -502,7 +502,7 @@ union anonymous
   signed long int __align;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // runqueue_length
   volatile unsigned int runqueue_length;
@@ -516,7 +516,7 @@ struct anonymous$3
   unsigned int sb_suspend;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -524,10 +524,10 @@ union anonymous$5
   signed int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$8 __data;
+  struct anonymous_8 __data;
   // __size
   char __size[48l];
   // __align
@@ -562,7 +562,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -657,7 +657,7 @@ struct _pthread_workqueue
   // wqlist_index
   unsigned int wqlist_index;
   // item_listhead
-  struct anonymous$2 item_listhead;
+  struct anonymous_2 item_listhead;
   // mtx
   volatile signed int mtx;
 };
@@ -719,7 +719,7 @@ struct timezone
 struct work
 {
   // item_entry
-  struct anonymous$0 item_entry;
+  struct anonymous_0 item_entry;
   // func
   void (*func)(void *);
   // func_arg
@@ -794,10 +794,10 @@ static union pthread_attr_t detached_attr;
 static unsigned int events_processed;
 // generator_condition
 // file testing/latency/latency.c line 44
-union anonymous$1 generator_condition;
+union anonymous_1 generator_condition;
 // generator_mutex
 // file testing/latency/latency.c line 43
-union anonymous$4 generator_mutex;
+union anonymous_4 generator_mutex;
 // global_statistics
 // file testing/latency/latency.c line 40
 struct wq_statistics global_statistics;
@@ -809,7 +809,7 @@ unsigned int global_stats_used = (unsigned int)0;
 static struct _pthread_workqueue *ocwq[31l];
 // ocwq_has_work
 // file src/posix/manager.c line 65
-static union anonymous$1 ocwq_has_work;
+static union anonymous_1 ocwq_has_work;
 // ocwq_idle_threads
 // file src/posix/manager.c line 66
 static unsigned int ocwq_idle_threads;
@@ -818,7 +818,7 @@ static unsigned int ocwq_idle_threads;
 static signed int ocwq_mask;
 // ocwq_mtx
 // file src/posix/manager.c line 64
-static union anonymous$4 ocwq_mtx;
+static union anonymous_4 ocwq_mtx;
 // ocwq_signal_count
 // file src/posix/manager.c line 67
 static unsigned int ocwq_signal_count;
@@ -836,7 +836,7 @@ unsigned long int real_end;
 unsigned long int real_start;
 // scoreboard
 // file src/posix/manager.c line 84
-static struct anonymous$3 scoreboard;
+static struct anonymous_3 scoreboard;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -863,13 +863,13 @@ static struct _pthread_workqueue *wqlist[31l];
 static signed int wqlist_has_manager;
 // wqlist_has_work
 // file src/posix/manager.c line 74
-static union anonymous$1 wqlist_has_work;
+static union anonymous_1 wqlist_has_work;
 // wqlist_mask
 // file src/posix/manager.c line 71
 static volatile unsigned int wqlist_mask;
 // wqlist_mtx
 // file src/posix/manager.c line 72
-static union anonymous$4 wqlist_mtx;
+static union anonymous_4 wqlist_mtx;
 
 // _event_tick
 // file testing/latency/latency.c line 177
@@ -1018,19 +1018,19 @@ static void _process_data(void *context)
 {
   struct wq_event *event = (struct wq_event *)context;
   unsigned long int elapsed_time;
-  unsigned long int return_value_gettime$1;
-  return_value_gettime$1=gettime();
-  elapsed_time = return_value_gettime$1 - event->start_time;
+  unsigned long int return_value_gettime_1;
+  return_value_gettime_1=gettime();
+  elapsed_time = return_value_gettime_1 - event->start_time;
   workqueue_statistics[(signed long int)event->queue_index].avg = ((double)workqueue_statistics[(signed long int)event->queue_index].count * workqueue_statistics[(signed long int)event->queue_index].avg + (double)elapsed_time) / (double)(workqueue_statistics[(signed long int)event->queue_index].count + (unsigned int)1);
   workqueue_statistics[(signed long int)event->queue_index].total = workqueue_statistics[(signed long int)event->queue_index].total + elapsed_time;
   workqueue_statistics[(signed long int)event->queue_index].count = workqueue_statistics[(signed long int)event->queue_index].count + (unsigned int)1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(elapsed_time >= workqueue_statistics[(signed long int)event->queue_index].min))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = workqueue_statistics[(signed long int)event->queue_index].min == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = workqueue_statistics[(signed long int)event->queue_index].min == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     workqueue_statistics[(signed long int)event->queue_index].min = elapsed_time;
 
   if(!(workqueue_statistics[(signed long int)event->queue_index].max >= elapsed_time))
@@ -1041,13 +1041,13 @@ static void _process_data(void *context)
 
   else
     workqueue_statistics[(signed long int)event->queue_index].distribution[(signed long int)(20 - 1)] = workqueue_statistics[(signed long int)event->queue_index].distribution[(signed long int)(20 - 1)] + (unsigned int)1;
-  unsigned int return_value___sync_sub_and_fetch$3;
+  unsigned int return_value___sync_sub_and_fetch_3;
   __CPROVER_atomic_begin();
   *(&events_processed) = *(&events_processed) - (unsigned int)1;
-  return_value___sync_sub_and_fetch$3 = *(&events_processed);
+  return_value___sync_sub_and_fetch_3 = *(&events_processed);
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  if(return_value___sync_sub_and_fetch$3 == 0u)
+  if(return_value___sync_sub_and_fetch_3 == 0u)
   {
     pthread_mutex_lock(&generator_mutex);
     pthread_cond_signal(&generator_condition);
@@ -1068,29 +1068,29 @@ static signed int _read_file(const char *path, char *result)
   signed int retval = -1;
   signed long int actual_read;
   read_fd=open(path, 00);
-  signed long int return_value_syscall$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  signed int *return_value___errno_location$4;
-  signed long int return_value_syscall$5;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  signed int *return_value___errno_location$8;
-  signed long int return_value_syscall$10;
-  signed long int return_value_syscall$11;
-  signed int *return_value___errno_location$12;
-  char *return_value_strerror$13;
-  signed int *return_value___errno_location$14;
+  signed long int return_value_syscall_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  signed int *return_value___errno_location_4;
+  signed long int return_value_syscall_5;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  signed int *return_value___errno_location_8;
+  signed long int return_value_syscall_10;
+  signed long int return_value_syscall_11;
+  signed int *return_value___errno_location_12;
+  char *return_value_strerror_13;
+  signed int *return_value___errno_location_14;
   if(read_fd == -1)
   {
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$1=syscall((signed long int)186);
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        return_value___errno_location$4=__errno_location();
-        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"_read_file", (const void *)"open()", return_value_strerror$3, *return_value___errno_location$4);
+        return_value_syscall_1=syscall((signed long int)186);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        return_value___errno_location_4=__errno_location();
+        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"_read_file", (const void *)"open()", return_value_strerror_3, *return_value___errno_location_4);
       }
 
     while((_Bool)0);
@@ -1099,17 +1099,17 @@ static signed int _read_file(const char *path, char *result)
 
   else
   {
-    signed int return_value_fcntl$9;
-    return_value_fcntl$9=fcntl(read_fd, 4, 04000);
-    if(!(return_value_fcntl$9 == 0))
+    signed int return_value_fcntl_9;
+    return_value_fcntl_9=fcntl(read_fd, 4, 04000);
+    if(!(return_value_fcntl_9 == 0))
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$5=syscall((signed long int)186);
-          return_value___errno_location$6=__errno_location();
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          return_value___errno_location$8=__errno_location();
-          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$5, (const void *)"_read_file", (const void *)"fcntl()", return_value_strerror$7, *return_value___errno_location$8);
+          return_value_syscall_5=syscall((signed long int)186);
+          return_value___errno_location_6=__errno_location();
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          return_value___errno_location_8=__errno_location();
+          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_5, (const void *)"_read_file", (const void *)"fcntl()", return_value_strerror_7, *return_value___errno_location_8);
         }
 
       while((_Bool)0);
@@ -1120,8 +1120,8 @@ static signed int _read_file(const char *path, char *result)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$10=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): read %zu from %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$10, (const void *)"_read_file", (unsigned long int)actual_read, path);
+          return_value_syscall_10=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): read %zu from %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_10, (const void *)"_read_file", (unsigned long int)actual_read, path);
         }
 
       while((_Bool)0);
@@ -1132,17 +1132,17 @@ static signed int _read_file(const char *path, char *result)
 
   errout:
     ;
-    signed int return_value_close$15;
-    return_value_close$15=close(read_fd);
-    if(!(return_value_close$15 == 0))
+    signed int return_value_close_15;
+    return_value_close_15=close(read_fd);
+    if(!(return_value_close_15 == 0))
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$11=syscall((signed long int)186);
-          return_value___errno_location$12=__errno_location();
-          return_value_strerror$13=strerror(*return_value___errno_location$12);
-          return_value___errno_location$14=__errno_location();
-          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$11, (const void *)"_read_file", (const void *)"close()", return_value_strerror$13, *return_value___errno_location$14);
+          return_value_syscall_11=syscall((signed long int)186);
+          return_value___errno_location_12=__errno_location();
+          return_value_strerror_13=strerror(*return_value___errno_location_12);
+          return_value___errno_location_14=__errno_location();
+          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_11, (const void *)"_read_file", (const void *)"close()", return_value_strerror_13, *return_value___errno_location_14);
         }
 
       while((_Bool)0);
@@ -1156,22 +1156,22 @@ static signed int _read_file(const char *path, char *result)
 static unsigned int get_process_limit(void)
 {
   struct rlimit rlim;
-  signed int return_value_getrlimit$5;
-  return_value_getrlimit$5=getrlimit((enum __rlimit_resource)__RLIMIT_NPROC, &rlim);
-  signed long int return_value_syscall$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  signed int *return_value___errno_location$4;
-  if(!(return_value_getrlimit$5 >= 0))
+  signed int return_value_getrlimit_5;
+  return_value_getrlimit_5=getrlimit((enum __rlimit_resource)__RLIMIT_NPROC, &rlim);
+  signed long int return_value_syscall_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  signed int *return_value___errno_location_4;
+  if(!(return_value_getrlimit_5 >= 0))
   {
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$1=syscall((signed long int)186);
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        return_value___errno_location$4=__errno_location();
-        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"get_process_limit", (const void *)"getrlimit(2)", return_value_strerror$3, *return_value___errno_location$4);
+        return_value_syscall_1=syscall((signed long int)186);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        return_value___errno_location_4=__errno_location();
+        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"get_process_limit", (const void *)"getrlimit(2)", return_value_strerror_3, *return_value___errno_location_4);
       }
 
     while((_Bool)0);
@@ -1187,24 +1187,24 @@ static unsigned int get_process_limit(void)
 static unsigned int get_runqueue_length(void)
 {
   double loadavg;
-  unsigned int return_value_linux_get_runqueue_length$1;
-  return_value_linux_get_runqueue_length$1=linux_get_runqueue_length();
-  return return_value_linux_get_runqueue_length$1;
-  signed int return_value_getloadavg$6;
-  return_value_getloadavg$6=getloadavg(&loadavg, 1);
-  signed long int return_value_syscall$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  if(!(return_value_getloadavg$6 == 1))
+  unsigned int return_value_linux_get_runqueue_length_1;
+  return_value_linux_get_runqueue_length_1=linux_get_runqueue_length();
+  return return_value_linux_get_runqueue_length_1;
+  signed int return_value_getloadavg_6;
+  return_value_getloadavg_6=getloadavg(&loadavg, 1);
+  signed long int return_value_syscall_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  if(!(return_value_getloadavg_6 == 1))
   {
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$2=syscall((signed long int)186);
-      return_value___errno_location$3=__errno_location();
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      return_value___errno_location$5=__errno_location();
-      fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"get_runqueue_length", (const void *)"getloadavg(3)", return_value_strerror$4, *return_value___errno_location$5);
+      return_value_syscall_2=syscall((signed long int)186);
+      return_value___errno_location_3=__errno_location();
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      return_value___errno_location_5=__errno_location();
+      fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"get_runqueue_length", (const void *)"getloadavg(3)", return_value_strerror_4, *return_value___errno_location_5);
     }
 
     return (unsigned int)1;
@@ -1224,13 +1224,13 @@ static unsigned int get_runqueue_length(void)
 static unsigned long int gettime(void)
 {
   struct timespec ts;
-  signed int return_value_clock_gettime$2;
-  return_value_clock_gettime$2=clock_gettime(1, &ts);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_clock_gettime$2 == 0))
+  signed int return_value_clock_gettime_2;
+  return_value_clock_gettime_2=clock_gettime(1, &ts);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_clock_gettime_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    fprintf(stderr, "Failed to get high resolution clock! errno = %d\n", *return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    fprintf(stderr, "Failed to get high resolution clock! errno = %d\n", *return_value___errno_location_1);
   }
 
   return (unsigned long int)(ts.tv_sec * (signed long int)1000000000 + ts.tv_nsec);
@@ -1246,24 +1246,24 @@ unsigned int linux_get_runqueue_length(void)
   signed long int len = (signed long int)0;
   unsigned int runqsz = (unsigned int)0;
   fd=open("/proc/stat", 00);
-  signed long int return_value_syscall$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  signed int *return_value___errno_location$4;
-  signed long int return_value_syscall$5;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  signed int *return_value___errno_location$8;
+  signed long int return_value_syscall_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  signed int *return_value___errno_location_4;
+  signed long int return_value_syscall_5;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  signed int *return_value___errno_location_8;
   if(!(fd >= 0))
   {
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$1=syscall((signed long int)186);
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        return_value___errno_location$4=__errno_location();
-        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"linux_get_runqueue_length", (const void *)"open() of /proc/stat", return_value_strerror$3, *return_value___errno_location$4);
+        return_value_syscall_1=syscall((signed long int)186);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        return_value___errno_location_4=__errno_location();
+        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"linux_get_runqueue_length", (const void *)"open() of /proc/stat", return_value_strerror_3, *return_value___errno_location_4);
       }
 
     while((_Bool)0);
@@ -1277,11 +1277,11 @@ unsigned int linux_get_runqueue_length(void)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$5=syscall((signed long int)186);
-          return_value___errno_location$6=__errno_location();
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          return_value___errno_location$8=__errno_location();
-          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$5, (const void *)"linux_get_runqueue_length", (const void *)"read failed", return_value_strerror$7, *return_value___errno_location$8);
+          return_value_syscall_5=syscall((signed long int)186);
+          return_value___errno_location_6=__errno_location();
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          return_value___errno_location_8=__errno_location();
+          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_5, (const void *)"linux_get_runqueue_length", (const void *)"read failed", return_value_strerror_7, *return_value___errno_location_8);
         }
 
       while((_Bool)0);
@@ -1291,9 +1291,9 @@ unsigned int linux_get_runqueue_length(void)
       p=strstr(buf, "procs_running");
       if(!(p == ((char *)NULL)))
       {
-        signed int return_value_atoi$9;
-        return_value_atoi$9=atoi(p + (signed long int)14);
-        runqsz = (unsigned int)return_value_atoi$9;
+        signed int return_value_atoi_9;
+        return_value_atoi_9=atoi(p + (signed long int)14);
+        runqsz = (unsigned int)return_value_atoi_9;
       }
 
     }
@@ -1313,57 +1313,57 @@ unsigned int linux_get_runqueue_length(void)
 signed int main(void)
 {
   signed int i;
-  struct anonymous$6 attr;
+  struct anonymous_6 attr;
   memset((void *)&workqueues, 0, sizeof(struct _pthread_workqueue *[3l]) /*24ul*/ );
   memset((void *)&workqueue_statistics, 0, sizeof(struct wq_statistics [3l]) /*360ul*/ );
   memset((void *)&global_statistics, 0, sizeof(struct wq_statistics) /*120ul*/ );
   memset((void *)&workqueue_generator, 0, sizeof(struct wq_event_generator [1l]) /*16ul*/ );
-  pthread_mutex_init(&generator_mutex, (const union anonymous$5 *)(void *)0);
-  pthread_cond_init(&generator_condition, (const union anonymous$5 *)(void *)0);
-  signed int return_value_pthread_workqueue_attr_init_np$1;
-  return_value_pthread_workqueue_attr_init_np$1=pthread_workqueue_attr_init_np(&attr);
-  if(!(return_value_pthread_workqueue_attr_init_np$1 == 0))
+  pthread_mutex_init(&generator_mutex, (const union anonymous_5 *)(void *)0);
+  pthread_cond_init(&generator_condition, (const union anonymous_5 *)(void *)0);
+  signed int return_value_pthread_workqueue_attr_init_np_1;
+  return_value_pthread_workqueue_attr_init_np_1=pthread_workqueue_attr_init_np(&attr);
+  if(!(return_value_pthread_workqueue_attr_init_np_1 == 0))
     fprintf(stderr, "Failed to set workqueue attributes\n");
 
   i = 0;
   for( ; !(i >= 1); i = i + 1)
   {
-    signed int return_value_pthread_workqueue_attr_setqueuepriority_np$2;
-    return_value_pthread_workqueue_attr_setqueuepriority_np$2=pthread_workqueue_attr_setqueuepriority_np(&attr, i);
-    if(!(return_value_pthread_workqueue_attr_setqueuepriority_np$2 == 0))
+    signed int return_value_pthread_workqueue_attr_setqueuepriority_np_2;
+    return_value_pthread_workqueue_attr_setqueuepriority_np_2=pthread_workqueue_attr_setqueuepriority_np(&attr, i);
+    if(!(return_value_pthread_workqueue_attr_setqueuepriority_np_2 == 0))
       fprintf(stderr, "Failed to set workqueue priority\n");
 
-    signed int return_value_pthread_workqueue_attr_setovercommit_np$3;
-    return_value_pthread_workqueue_attr_setovercommit_np$3=pthread_workqueue_attr_setovercommit_np(&attr, 1);
-    if(!(return_value_pthread_workqueue_attr_setovercommit_np$3 == 0))
+    signed int return_value_pthread_workqueue_attr_setovercommit_np_3;
+    return_value_pthread_workqueue_attr_setovercommit_np_3=pthread_workqueue_attr_setovercommit_np(&attr, 1);
+    if(!(return_value_pthread_workqueue_attr_setovercommit_np_3 == 0))
       fprintf(stderr, "Failed to set workqueue overcommit\n");
 
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct wq_event) /*16ul*/  * (unsigned long int)100);
-    workqueue_generator[(signed long int)i].wq_events = (struct wq_event *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct wq_event) /*16ul*/  * (unsigned long int)100);
+    workqueue_generator[(signed long int)i].wq_events = (struct wq_event *)return_value_malloc_4;
     memset((void *)workqueue_generator[(signed long int)i].wq_events, 0, sizeof(struct wq_event) /*16ul*/  * (unsigned long int)100);
-    signed int return_value_pthread_workqueue_create_np$5;
-    return_value_pthread_workqueue_create_np$5=pthread_workqueue_create_np(&workqueue_generator[(signed long int)i].wq, &attr);
-    if(!(return_value_pthread_workqueue_create_np$5 == 0))
+    signed int return_value_pthread_workqueue_create_np_5;
+    return_value_pthread_workqueue_create_np_5=pthread_workqueue_create_np(&workqueue_generator[(signed long int)i].wq, &attr);
+    if(!(return_value_pthread_workqueue_create_np_5 == 0))
       fprintf(stderr, "Failed to create workqueue\n");
 
   }
   i = 0;
   for( ; !(i >= 3); i = i + 1)
   {
-    signed int return_value_pthread_workqueue_attr_init_np$6;
-    return_value_pthread_workqueue_attr_init_np$6=pthread_workqueue_attr_init_np(&attr);
-    if(!(return_value_pthread_workqueue_attr_init_np$6 == 0))
+    signed int return_value_pthread_workqueue_attr_init_np_6;
+    return_value_pthread_workqueue_attr_init_np_6=pthread_workqueue_attr_init_np(&attr);
+    if(!(return_value_pthread_workqueue_attr_init_np_6 == 0))
       fprintf(stderr, "Failed to set workqueue attributes\n");
 
-    signed int return_value_pthread_workqueue_attr_setqueuepriority_np$7;
-    return_value_pthread_workqueue_attr_setqueuepriority_np$7=pthread_workqueue_attr_setqueuepriority_np(&attr, i);
-    if(!(return_value_pthread_workqueue_attr_setqueuepriority_np$7 == 0))
+    signed int return_value_pthread_workqueue_attr_setqueuepriority_np_7;
+    return_value_pthread_workqueue_attr_setqueuepriority_np_7=pthread_workqueue_attr_setqueuepriority_np(&attr, i);
+    if(!(return_value_pthread_workqueue_attr_setqueuepriority_np_7 == 0))
       fprintf(stderr, "Failed to set workqueue priority\n");
 
-    signed int return_value_pthread_workqueue_create_np$8;
-    return_value_pthread_workqueue_create_np$8=pthread_workqueue_create_np(&workqueues[(signed long int)i], &attr);
-    if(!(return_value_pthread_workqueue_create_np$8 == 0))
+    signed int return_value_pthread_workqueue_create_np_8;
+    return_value_pthread_workqueue_create_np_8=pthread_workqueue_create_np(&workqueues[(signed long int)i], &attr);
+    if(!(return_value_pthread_workqueue_create_np_8 == 0))
       fprintf(stderr, "Failed to create workqueue\n");
 
   }
@@ -1381,51 +1381,51 @@ signed int main(void)
 signed int manager_init(void)
 {
   wqlist_has_manager = 0;
-  pthread_cond_init(&wqlist_has_work, (const union anonymous$5 *)(void *)0);
-  pthread_mutex_init(&wqlist_mtx, (const union anonymous$5 *)(void *)0);
+  pthread_cond_init(&wqlist_has_work, (const union anonymous_5 *)(void *)0);
+  pthread_mutex_init(&wqlist_mtx, (const union anonymous_5 *)(void *)0);
   wqlist_mask = (volatile unsigned int)0;
   pending_thread_create = (unsigned int)0;
-  pthread_cond_init(&ocwq_has_work, (const union anonymous$5 *)(void *)0);
-  pthread_mutex_init(&ocwq_mtx, (const union anonymous$5 *)(void *)0);
+  pthread_cond_init(&ocwq_has_work, (const union anonymous_5 *)(void *)0);
+  pthread_mutex_init(&ocwq_mtx, (const union anonymous_5 *)(void *)0);
   ocwq_mask = 0;
   ocwq_idle_threads = (unsigned int)0;
   ocwq_signal_count = (unsigned int)0;
   witem_cache_init();
-  unsigned int tmp_if_expr$2;
-  signed long int return_value_sysconf$1;
+  unsigned int tmp_if_expr_2;
+  signed long int return_value_sysconf_1;
   if(PWQ_ACTIVE_CPU >= 1u)
-    tmp_if_expr$2 = PWQ_ACTIVE_CPU;
+    tmp_if_expr_2 = PWQ_ACTIVE_CPU;
 
   else
   {
-    return_value_sysconf$1=sysconf(84);
-    tmp_if_expr$2 = (unsigned int)return_value_sysconf$1;
+    return_value_sysconf_1=sysconf(84);
+    tmp_if_expr_2 = (unsigned int)return_value_sysconf_1;
   }
-  cpu_count = tmp_if_expr$2;
+  cpu_count = tmp_if_expr_2;
   pthread_attr_init(&detached_attr);
   pthread_attr_setdetachstate(&detached_attr, 1);
-  signed int return_value_sem_init$7;
-  return_value_sem_init$7=sem_init(&scoreboard.sb_sem, 0, (unsigned int)0);
-  signed long int return_value_syscall$3;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int *return_value___errno_location$6;
-  unsigned int tmp_if_expr$9;
-  unsigned int return_value_worker_idle_threshold_per_cpu$8;
-  signed long int return_value_syscall$10;
-  signed int *return_value___errno_location$11;
-  char *return_value_strerror$12;
-  signed int *return_value___errno_location$13;
-  if(!(return_value_sem_init$7 == 0))
+  signed int return_value_sem_init_7;
+  return_value_sem_init_7=sem_init(&scoreboard.sb_sem, 0, (unsigned int)0);
+  signed long int return_value_syscall_3;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int *return_value___errno_location_6;
+  unsigned int tmp_if_expr_9;
+  unsigned int return_value_worker_idle_threshold_per_cpu_8;
+  signed long int return_value_syscall_10;
+  signed int *return_value___errno_location_11;
+  char *return_value_strerror_12;
+  signed int *return_value___errno_location_13;
+  if(!(return_value_sem_init_7 == 0))
   {
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$3=syscall((signed long int)186);
-        return_value___errno_location$4=__errno_location();
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        return_value___errno_location$6=__errno_location();
-        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$3, (const void *)"manager_init", (const void *)"sem_init()", return_value_strerror$5, *return_value___errno_location$6);
+        return_value_syscall_3=syscall((signed long int)186);
+        return_value___errno_location_4=__errno_location();
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        return_value___errno_location_6=__errno_location();
+        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_3, (const void *)"manager_init", (const void *)"sem_init()", return_value_strerror_5, *return_value___errno_location_6);
       }
 
     while((_Bool)0);
@@ -1439,26 +1439,26 @@ signed int manager_init(void)
     scoreboard.sb_suspend = (unsigned int)0;
     worker_min = (unsigned int)2;
     if(PWQ_ACTIVE_CPU >= 1u)
-      tmp_if_expr$9 = PWQ_ACTIVE_CPU;
+      tmp_if_expr_9 = PWQ_ACTIVE_CPU;
 
     else
     {
-      return_value_worker_idle_threshold_per_cpu$8=worker_idle_threshold_per_cpu();
-      tmp_if_expr$9 = return_value_worker_idle_threshold_per_cpu$8;
+      return_value_worker_idle_threshold_per_cpu_8=worker_idle_threshold_per_cpu();
+      tmp_if_expr_9 = return_value_worker_idle_threshold_per_cpu_8;
     }
-    worker_idle_threshold = tmp_if_expr$9;
-    signed int return_value_pthread_atfork$14;
-    return_value_pthread_atfork$14=pthread_atfork((void (*)(void))(void *)0, (void (*)(void))(void *)0, manager_reinit);
-    if(!(return_value_pthread_atfork$14 >= 0))
+    worker_idle_threshold = tmp_if_expr_9;
+    signed int return_value_pthread_atfork_14;
+    return_value_pthread_atfork_14=pthread_atfork((void (*)(void))(void *)0, (void (*)(void))(void *)0, manager_reinit);
+    if(!(return_value_pthread_atfork_14 >= 0))
     {
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$10=syscall((signed long int)186);
-          return_value___errno_location$11=__errno_location();
-          return_value_strerror$12=strerror(*return_value___errno_location$11);
-          return_value___errno_location$13=__errno_location();
-          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$10, (const void *)"manager_init", (const void *)"pthread_atfork()", return_value_strerror$12, *return_value___errno_location$13);
+          return_value_syscall_10=syscall((signed long int)186);
+          return_value___errno_location_11=__errno_location();
+          return_value_strerror_12=strerror(*return_value___errno_location_11);
+          return_value___errno_location_13=__errno_location();
+          fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_10, (const void *)"manager_init", (const void *)"pthread_atfork()", return_value_strerror_12, *return_value___errno_location_13);
         }
 
       while((_Bool)0);
@@ -1483,40 +1483,40 @@ static void * manager_main(void *unused)
   unsigned int i;
   unsigned int idle_surplus_threads = (unsigned int)0;
   signed int sem_timedwait_rv = 0;
-  struct anonymous$7 sigmask;
+  struct anonymous_7 sigmask;
   struct timespec ts;
   struct timeval tp;
   worker_max=get_process_limit();
   scoreboard.runqueue_length=get_runqueue_length();
   sigfillset(&sigmask);
-  pthread_sigmask(0, &sigmask, (struct anonymous$7 *)(void *)0);
+  pthread_sigmask(0, &sigmask, (struct anonymous_7 *)(void *)0);
   i = (unsigned int)0;
   for( ; !(i >= worker_min); i = i + 1u)
     worker_start();
-  signed long int return_value_syscall$1;
-  signed long int return_value_syscall$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  signed long int return_value_syscall$8;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
-  signed int *return_value___errno_location$11;
-  signed long int return_value_syscall$13;
-  signed long int return_value_syscall$14;
-  signed long int return_value_syscall$15;
-  signed int *return_value___errno_location$16;
-  char *return_value_strerror$17;
-  signed int *return_value___errno_location$18;
-  signed long int return_value_syscall$20;
-  signed long int return_value_syscall$21;
-  signed long int return_value_syscall$23;
-  signed long int return_value_syscall$24;
-  signed long int return_value_syscall$25;
-  signed long int return_value_syscall$26;
-  signed long int return_value_syscall$27;
-  signed long int return_value_syscall$28;
-  signed long int return_value_syscall$29;
+  signed long int return_value_syscall_1;
+  signed long int return_value_syscall_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  signed long int return_value_syscall_8;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
+  signed int *return_value___errno_location_11;
+  signed long int return_value_syscall_13;
+  signed long int return_value_syscall_14;
+  signed long int return_value_syscall_15;
+  signed int *return_value___errno_location_16;
+  char *return_value_strerror_17;
+  signed int *return_value___errno_location_18;
+  signed long int return_value_syscall_20;
+  signed long int return_value_syscall_21;
+  signed long int return_value_syscall_23;
+  signed long int return_value_syscall_24;
+  signed long int return_value_syscall_25;
+  signed long int return_value_syscall_26;
+  signed long int return_value_syscall_27;
+  signed long int return_value_syscall_28;
+  signed long int return_value_syscall_29;
   while((_Bool)1)
   {
     if(scoreboard.sb_suspend == 0u)
@@ -1524,22 +1524,22 @@ static void * manager_main(void *unused)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$1=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"manager_main", (const void *)"manager is sleeping");
+          return_value_syscall_1=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"manager_main", (const void *)"manager is sleeping");
         }
 
       while((_Bool)0);
-      signed int return_value_gettimeofday$6;
-      return_value_gettimeofday$6=gettimeofday(&tp, (struct timezone *)(void *)0);
-      if(!(return_value_gettimeofday$6 == 0))
+      signed int return_value_gettimeofday_6;
+      return_value_gettimeofday_6=gettimeofday(&tp, (struct timezone *)(void *)0);
+      if(!(return_value_gettimeofday_6 == 0))
         do
           if(!(DEBUG_WORKQUEUE == 0))
           {
-            return_value_syscall$2=syscall((signed long int)186);
-            return_value___errno_location$3=__errno_location();
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            return_value___errno_location$5=__errno_location();
-            fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"manager_main", (const void *)"gettimeofday()", return_value_strerror$4, *return_value___errno_location$5);
+            return_value_syscall_2=syscall((signed long int)186);
+            return_value___errno_location_3=__errno_location();
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            return_value___errno_location_5=__errno_location();
+            fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"manager_main", (const void *)"gettimeofday()", return_value_strerror_4, *return_value___errno_location_5);
           }
 
         while((_Bool)0);
@@ -1550,20 +1550,20 @@ static void * manager_main(void *unused)
       sem_timedwait_rv=sem_timedwait(&scoreboard.sb_sem, &ts);
       if(!(sem_timedwait_rv == 0))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        sem_timedwait_rv = *return_value___errno_location$7;
-        signed int *return_value___errno_location$12;
-        return_value___errno_location$12=__errno_location();
-        if(!(*return_value___errno_location$12 == 110))
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        sem_timedwait_rv = *return_value___errno_location_7;
+        signed int *return_value___errno_location_12;
+        return_value___errno_location_12=__errno_location();
+        if(!(*return_value___errno_location_12 == 110))
           do
             if(!(DEBUG_WORKQUEUE == 0))
             {
-              return_value_syscall$8=syscall((signed long int)186);
-              return_value___errno_location$9=__errno_location();
-              return_value_strerror$10=strerror(*return_value___errno_location$9);
-              return_value___errno_location$11=__errno_location();
-              fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$8, (const void *)"manager_main", (const void *)"sem_timedwait()", return_value_strerror$10, *return_value___errno_location$11);
+              return_value_syscall_8=syscall((signed long int)186);
+              return_value___errno_location_9=__errno_location();
+              return_value_strerror_10=strerror(*return_value___errno_location_9);
+              return_value___errno_location_11=__errno_location();
+              fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_8, (const void *)"manager_main", (const void *)"sem_timedwait()", return_value_strerror_10, *return_value___errno_location_11);
             }
 
           while((_Bool)0);
@@ -1573,8 +1573,8 @@ static void * manager_main(void *unused)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$13=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$13, (const void *)"manager_main", (const void *)"manager is awake");
+          return_value_syscall_13=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_13, (const void *)"manager_main", (const void *)"manager is awake");
         }
 
       while((_Bool)0);
@@ -1585,22 +1585,22 @@ static void * manager_main(void *unused)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$14=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$14, (const void *)"manager_main", (const void *)"manager is suspending");
+          return_value_syscall_14=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_14, (const void *)"manager_main", (const void *)"manager is suspending");
         }
 
       while((_Bool)0);
-      signed int return_value_sem_wait$19;
-      return_value_sem_wait$19=sem_wait(&scoreboard.sb_sem);
-      if(!(return_value_sem_wait$19 == 0))
+      signed int return_value_sem_wait_19;
+      return_value_sem_wait_19=sem_wait(&scoreboard.sb_sem);
+      if(!(return_value_sem_wait_19 == 0))
         do
           if(!(DEBUG_WORKQUEUE == 0))
           {
-            return_value_syscall$15=syscall((signed long int)186);
-            return_value___errno_location$16=__errno_location();
-            return_value_strerror$17=strerror(*return_value___errno_location$16);
-            return_value___errno_location$18=__errno_location();
-            fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$15, (const void *)"manager_main", (const void *)"sem_wait()", return_value_strerror$17, *return_value___errno_location$18);
+            return_value_syscall_15=syscall((signed long int)186);
+            return_value___errno_location_16=__errno_location();
+            return_value_strerror_17=strerror(*return_value___errno_location_16);
+            return_value___errno_location_18=__errno_location();
+            fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_15, (const void *)"manager_main", (const void *)"sem_wait()", return_value_strerror_17, *return_value___errno_location_18);
           }
 
         while((_Bool)0);
@@ -1608,8 +1608,8 @@ static void * manager_main(void *unused)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$20=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$20, (const void *)"manager_main", (const void *)"manager is resuming");
+          return_value_syscall_20=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_20, (const void *)"manager_main", (const void *)"manager is resuming");
         }
 
       while((_Bool)0);
@@ -1617,8 +1617,8 @@ static void * manager_main(void *unused)
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$21=syscall((signed long int)186);
-        fprintf(stderr, "%s [%d]: %s(): idle=%u workers=%u max_workers=%u worker_min = %u\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$21, (const void *)"manager_main", scoreboard.idle, scoreboard.count, worker_max, worker_min);
+        return_value_syscall_21=syscall((signed long int)186);
+        fprintf(stderr, "%s [%d]: %s(): idle=%u workers=%u max_workers=%u worker_min = %u\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_21, (const void *)"manager_main", scoreboard.idle, scoreboard.count, worker_max, worker_min);
       }
 
     while((_Bool)0);
@@ -1630,9 +1630,9 @@ static void * manager_main(void *unused)
       else
         if(!(scoreboard.count >= worker_max))
         {
-          signed int return_value_threads_runnable$22;
-          return_value_threads_runnable$22=threads_runnable(&current_thread_count, &threads_total);
-          if(!(return_value_threads_runnable$22 == 0))
+          signed int return_value_threads_runnable_22;
+          return_value_threads_runnable_22=threads_runnable(&current_thread_count, &threads_total);
+          if(!(return_value_threads_runnable_22 == 0))
             current_thread_count = (unsigned int)0;
 
           if(cpu_count >= current_thread_count)
@@ -1647,8 +1647,8 @@ static void * manager_main(void *unused)
                 do
                   if(!(DEBUG_WORKQUEUE == 0))
                   {
-                    return_value_syscall$23=syscall((signed long int)186);
-                    fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$23, (const void *)"manager_main", (const void *)"skipped thread creation as we got an idle one racing us");
+                    return_value_syscall_23=syscall((signed long int)186);
+                    fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_23, (const void *)"manager_main", (const void *)"skipped thread creation as we got an idle one racing us");
                   }
 
                 while((_Bool)0);
@@ -1658,8 +1658,8 @@ static void * manager_main(void *unused)
               do
                 if(!(DEBUG_WORKQUEUE == 0))
                 {
-                  return_value_syscall$24=syscall((signed long int)186);
-                  fprintf(stderr, "%s [%d]: %s(): Not spawning worker thread, scoreboard.runqueue_length = %d > runqueue_length_max = %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$24, (const void *)"manager_main", scoreboard.runqueue_length, runqueue_length_max);
+                  return_value_syscall_24=syscall((signed long int)186);
+                  fprintf(stderr, "%s [%d]: %s(): Not spawning worker thread, scoreboard.runqueue_length = %d > runqueue_length_max = %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_24, (const void *)"manager_main", scoreboard.runqueue_length, runqueue_length_max);
                 }
 
               while((_Bool)0);
@@ -1669,8 +1669,8 @@ static void * manager_main(void *unused)
             do
               if(!(DEBUG_WORKQUEUE == 0))
               {
-                return_value_syscall$25=syscall((signed long int)186);
-                fprintf(stderr, "%s [%d]: %s(): Not spawning worker thread, thread_runnable = %d > cpu_count = %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$25, (const void *)"manager_main", current_thread_count, cpu_count);
+                return_value_syscall_25=syscall((signed long int)186);
+                fprintf(stderr, "%s [%d]: %s(): Not spawning worker thread, thread_runnable = %d > cpu_count = %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_25, (const void *)"manager_main", current_thread_count, cpu_count);
               }
 
             while((_Bool)0);
@@ -1680,8 +1680,8 @@ static void * manager_main(void *unused)
           do
             if(!(DEBUG_WORKQUEUE == 0))
             {
-              return_value_syscall$26=syscall((signed long int)186);
-              fprintf(stderr, "%s [%d]: %s(): Not spawning worker thread, scoreboard.count = %d >= worker_max = %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$26, (const void *)"manager_main", scoreboard.count, worker_max);
+              return_value_syscall_26=syscall((signed long int)186);
+              fprintf(stderr, "%s [%d]: %s(): Not spawning worker thread, scoreboard.count = %d >= worker_max = %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_26, (const void *)"manager_main", scoreboard.count, worker_max);
             }
 
           while((_Bool)0);
@@ -1696,8 +1696,8 @@ static void * manager_main(void *unused)
           do
             if(!(DEBUG_WORKQUEUE == 0))
             {
-              return_value_syscall$27=syscall((signed long int)186);
-              fprintf(stderr, "%s [%d]: %s(): worker_idle_seconds_accumulated = %d, scoreboard.idle = %d, scoreboard.count = %d\n\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$27, (const void *)"manager_main", worker_idle_seconds_accumulated, scoreboard.idle, scoreboard.count);
+              return_value_syscall_27=syscall((signed long int)186);
+              fprintf(stderr, "%s [%d]: %s(): worker_idle_seconds_accumulated = %d, scoreboard.idle = %d, scoreboard.count = %d\n\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_27, (const void *)"manager_main", worker_idle_seconds_accumulated, scoreboard.idle, scoreboard.count);
             }
 
           while((_Bool)0);
@@ -1708,8 +1708,8 @@ static void * manager_main(void *unused)
           do
             if(!(DEBUG_WORKQUEUE == 0))
             {
-              return_value_syscall$28=syscall((signed long int)186);
-              fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$28, (const void *)"manager_main", (const void *)"Resetting worker_idle_seconds_accumulated");
+              return_value_syscall_28=syscall((signed long int)186);
+              fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_28, (const void *)"manager_main", (const void *)"Resetting worker_idle_seconds_accumulated");
             }
 
           while((_Bool)0);
@@ -1730,8 +1730,8 @@ static void * manager_main(void *unused)
               do
                 if(!(DEBUG_WORKQUEUE == 0))
                 {
-                  return_value_syscall$29=syscall((signed long int)186);
-                  fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$29, (const void *)"manager_main", (const void *)"Removing one thread from the thread pool");
+                  return_value_syscall_29=syscall((signed long int)186);
+                  fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_29, (const void *)"manager_main", (const void *)"Removing one thread from the thread pool");
                 }
 
               while((_Bool)0);
@@ -1751,12 +1751,12 @@ static void * manager_main(void *unused)
 unsigned long int manager_peek(const char *key)
 {
   unsigned long int rv;
-  signed int return_value_strcmp$4;
-  return_value_strcmp$4=strcmp(key, "combined_idle");
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed long int return_value_syscall$1;
-  if(return_value_strcmp$4 == 0)
+  signed int return_value_strcmp_4;
+  return_value_strcmp_4=strcmp(key, "combined_idle");
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed long int return_value_syscall_1;
+  if(return_value_strcmp_4 == 0)
   {
     rv = (unsigned long int)scoreboard.idle;
     if(!(worker_min >= scoreboard.idle))
@@ -1767,8 +1767,8 @@ unsigned long int manager_peek(const char *key)
 
   else
   {
-    return_value_strcmp$3=strcmp(key, "idle");
-    if(return_value_strcmp$3 == 0)
+    return_value_strcmp_3=strcmp(key, "idle");
+    if(return_value_strcmp_3 == 0)
     {
       rv = (unsigned long int)scoreboard.idle;
       if(!(worker_min >= scoreboard.idle))
@@ -1778,8 +1778,8 @@ unsigned long int manager_peek(const char *key)
 
     else
     {
-      return_value_strcmp$2=strcmp(key, "ocomm_idle");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(key, "ocomm_idle");
+      if(return_value_strcmp_2 == 0)
         rv = (unsigned long int)ocwq_idle_threads;
 
       else
@@ -1787,8 +1787,8 @@ unsigned long int manager_peek(const char *key)
         do
           if(!(DEBUG_WORKQUEUE == 0))
           {
-            return_value_syscall$1=syscall((signed long int)186);
-            fprintf(stderr, "%s [%d]: %s(): invalid key: %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"manager_peek", key);
+            return_value_syscall_1=syscall((signed long int)186);
+            fprintf(stderr, "%s [%d]: %s(): invalid key: %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"manager_peek", key);
           }
 
         while((_Bool)0);
@@ -1803,9 +1803,9 @@ unsigned long int manager_peek(const char *key)
 // file src/posix/manager.c line 127
 static void manager_reinit(void)
 {
-  signed int return_value_manager_init$1;
-  return_value_manager_init$1=manager_init();
-  if(!(return_value_manager_init$1 >= 0))
+  signed int return_value_manager_init_1;
+  return_value_manager_init_1=manager_init();
+  if(!(return_value_manager_init_1 >= 0))
     abort();
 
 }
@@ -1829,16 +1829,16 @@ static void manager_start(void)
 {
   unsigned long int tid;
   signed int rv;
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   do
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$1=syscall((signed long int)186);
-      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"manager_start", (const void *)"starting the manager thread");
+      return_value_syscall_1=syscall((signed long int)186);
+      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"manager_start", (const void *)"starting the manager thread");
     }
 
   while((_Bool)0);
-  signed long int return_value_syscall$2;
+  signed long int return_value_syscall_2;
   do
   {
     rv=pthread_create(&tid, &detached_attr, manager_main, (void *)0);
@@ -1851,8 +1851,8 @@ static void manager_start(void)
         do
           if(!(DEBUG_WORKQUEUE == 0))
           {
-            return_value_syscall$2=syscall((signed long int)186);
-            fprintf(stderr, "%s [%d]: %s(): thread creation failed, rv=%d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"manager_start", rv);
+            return_value_syscall_2=syscall((signed long int)186);
+            fprintf(stderr, "%s [%d]: %s(): thread creation failed, rv=%d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"manager_start", rv);
           }
 
         while((_Bool)0);
@@ -1880,7 +1880,7 @@ void manager_suspend(void)
 void manager_workqueue_additem(struct _pthread_workqueue *workq, struct work *witem)
 {
   unsigned int wqlist_index_bit = (unsigned int)(0x1 << workq->wqlist_index);
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   if(!(workq->overcommit == 0))
   {
     unsigned long int tid;
@@ -1900,8 +1900,8 @@ void manager_workqueue_additem(struct _pthread_workqueue *workq, struct work *wi
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$1=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"manager_workqueue_additem", (const void *)"signaling an idle worker");
+          return_value_syscall_1=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"manager_workqueue_additem", (const void *)"signaling an idle worker");
         }
 
       while((_Bool)0);
@@ -1963,8 +1963,8 @@ void manager_workqueue_create(struct _pthread_workqueue *workq)
 
   }
 
-  signed long int return_value_syscall$1;
-  signed long int return_value_syscall$2;
+  signed long int return_value_syscall_1;
+  signed long int return_value_syscall_2;
   if(!(workq->overcommit == 0))
   {
     if(ocwq[(signed long int)workq->queueprio] == ((struct _pthread_workqueue *)NULL))
@@ -1974,8 +1974,8 @@ void manager_workqueue_create(struct _pthread_workqueue *workq)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$1=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): created workqueue (ocommit=1, prio=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"manager_workqueue_create", workq->queueprio);
+          return_value_syscall_1=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): created workqueue (ocommit=1, prio=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"manager_workqueue_create", workq->queueprio);
         }
 
       while((_Bool)0);
@@ -1996,8 +1996,8 @@ void manager_workqueue_create(struct _pthread_workqueue *workq)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$2=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): created workqueue (ocommit=0, prio=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"manager_workqueue_create", workq->queueprio);
+          return_value_syscall_2=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): created workqueue (ocommit=0, prio=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"manager_workqueue_create", workq->queueprio);
         }
 
       while((_Bool)0);
@@ -2022,16 +2022,16 @@ static void my_sleep(unsigned long int nanoseconds)
   struct timespec *t1 = &timeout1;
   t0->tv_sec = (signed long int)(nanoseconds / (unsigned long int)1000000000);
   t0->tv_nsec = (signed long int)(nanoseconds % (unsigned long int)1000000000);
-  signed int return_value_nanosleep$1;
-  signed int *return_value___errno_location$2;
+  signed int return_value_nanosleep_1;
+  signed int *return_value___errno_location_2;
   do
   {
-    return_value_nanosleep$1=nanosleep(t0, t1);
-    if(!(return_value_nanosleep$1 == -1))
+    return_value_nanosleep_1=nanosleep(t0, t1);
+    if(!(return_value_nanosleep_1 == -1))
       break;
 
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
       break;
 
     tmp = t0;
@@ -2056,15 +2056,15 @@ static void * overcommit_worker_main(void *unused)
   struct work *witem;
   signed int rv;
   signed int idx;
-  struct anonymous$7 sigmask;
+  struct anonymous_7 sigmask;
   sigfillset(&sigmask);
-  pthread_sigmask(0, &sigmask, (struct anonymous$7 *)(void *)0);
+  pthread_sigmask(0, &sigmask, (struct anonymous_7 *)(void *)0);
   pthread_mutex_lock(&ocwq_mtx);
-  signed long int return_value_syscall$1;
-  signed long int return_value_syscall$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
+  signed long int return_value_syscall_1;
+  signed long int return_value_syscall_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
   do
   {
     idx=ffs(ocwq_mask);
@@ -2105,8 +2105,8 @@ static void * overcommit_worker_main(void *unused)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$1=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): waiting for work (idle=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"overcommit_worker_main", ocwq_idle_threads);
+          return_value_syscall_1=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): waiting for work (idle=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"overcommit_worker_main", ocwq_idle_threads);
         }
 
       while((_Bool)0);
@@ -2126,11 +2126,11 @@ static void * overcommit_worker_main(void *unused)
         do
           if(!(DEBUG_WORKQUEUE == 0))
           {
-            return_value_syscall$2=syscall((signed long int)186);
-            return_value___errno_location$3=__errno_location();
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            return_value___errno_location$5=__errno_location();
-            fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"overcommit_worker_main", (const void *)"pthread_cond_timedwait", return_value_strerror$4, *return_value___errno_location$5);
+            return_value_syscall_2=syscall((signed long int)186);
+            return_value___errno_location_3=__errno_location();
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            return_value___errno_location_5=__errno_location();
+            fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"overcommit_worker_main", (const void *)"pthread_cond_timedwait", return_value_strerror_4, *return_value___errno_location_5);
           }
 
         while((_Bool)0);
@@ -2140,12 +2140,12 @@ static void * overcommit_worker_main(void *unused)
     }
   }
   while((_Bool)1);
-  signed long int return_value_syscall$6;
+  signed long int return_value_syscall_6;
   do
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$6=syscall((signed long int)186);
-      fprintf(stderr, "%s [%d]: %s(): worker exiting (idle=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$6, (const void *)"overcommit_worker_main", ocwq_idle_threads);
+      return_value_syscall_6=syscall((signed long int)186);
+      fprintf(stderr, "%s [%d]: %s(): worker exiting (idle=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_6, (const void *)"overcommit_worker_main", ocwq_idle_threads);
     }
 
   while((_Bool)0);
@@ -2158,10 +2158,10 @@ static void * overcommit_worker_main(void *unused)
 signed int pthread_workqueue_additem_np(struct _pthread_workqueue *workq, void (*workitem_func)(void *), void *workitem_arg, void **itemhandlep, unsigned int *gencountp)
 {
   struct work *witem;
-  signed int return_value_valid_workq$1;
-  return_value_valid_workq$1=valid_workq(workq);
-  signed long int return_value_syscall$2;
-  if(workitem_func == ((void (*)(void *))NULL) || return_value_valid_workq$1 == 0)
+  signed int return_value_valid_workq_1;
+  return_value_valid_workq_1=valid_workq(workq);
+  signed long int return_value_syscall_2;
+  if(workitem_func == ((void (*)(void *))NULL) || return_value_valid_workq_1 == 0)
     return 22;
 
   else
@@ -2177,8 +2177,8 @@ signed int pthread_workqueue_additem_np(struct _pthread_workqueue *workq, void (
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$2=syscall((signed long int)186);
-        fprintf(stderr, "%s [%d]: %s(): added item %p to queue %p\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"pthread_workqueue_additem_np", (void *)witem, (void *)workq);
+        return_value_syscall_2=syscall((signed long int)186);
+        fprintf(stderr, "%s [%d]: %s(): added item %p to queue %p\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"pthread_workqueue_additem_np", (void *)witem, (void *)workq);
       }
 
     while((_Bool)0);
@@ -2188,7 +2188,7 @@ signed int pthread_workqueue_additem_np(struct _pthread_workqueue *workq, void (
 
 // pthread_workqueue_attr_destroy_np
 // file src/api.c line 151
-signed int pthread_workqueue_attr_destroy_np(struct anonymous$6 *attr)
+signed int pthread_workqueue_attr_destroy_np(struct anonymous_6 *attr)
 {
   if(attr->sig == 0xBEBEBEBE)
     return 0;
@@ -2199,7 +2199,7 @@ signed int pthread_workqueue_attr_destroy_np(struct anonymous$6 *attr)
 
 // pthread_workqueue_attr_getovercommit_np
 // file src/api.c line 160
-signed int pthread_workqueue_attr_getovercommit_np(const struct anonymous$6 *attr, signed int *ocommp)
+signed int pthread_workqueue_attr_getovercommit_np(const struct anonymous_6 *attr, signed int *ocommp)
 {
   if(attr->sig == 0xBEBEBEBE)
   {
@@ -2213,7 +2213,7 @@ signed int pthread_workqueue_attr_getovercommit_np(const struct anonymous$6 *att
 
 // pthread_workqueue_attr_getqueuepriority_np
 // file src/api.c line 182
-signed int pthread_workqueue_attr_getqueuepriority_np(struct anonymous$6 *attr, signed int *qpriop)
+signed int pthread_workqueue_attr_getqueuepriority_np(struct anonymous_6 *attr, signed int *qpriop)
 {
   if(attr->sig == 0xBEBEBEBE)
   {
@@ -2227,7 +2227,7 @@ signed int pthread_workqueue_attr_getqueuepriority_np(struct anonymous$6 *attr, 
 
 // pthread_workqueue_attr_init_np
 // file ./include/pthread_workqueue.h line 67
-signed int pthread_workqueue_attr_init_np(struct anonymous$6 *attr)
+signed int pthread_workqueue_attr_init_np(struct anonymous_6 *attr)
 {
   attr->queueprio = 1;
   attr->sig = 0xBEBEBEBE;
@@ -2237,7 +2237,7 @@ signed int pthread_workqueue_attr_init_np(struct anonymous$6 *attr)
 
 // pthread_workqueue_attr_setovercommit_np
 // file ./include/pthread_workqueue.h line 77
-signed int pthread_workqueue_attr_setovercommit_np(struct anonymous$6 *attr, signed int ocomm)
+signed int pthread_workqueue_attr_setovercommit_np(struct anonymous_6 *attr, signed int ocomm)
 {
   if(attr->sig == 0xBEBEBEBE)
   {
@@ -2251,7 +2251,7 @@ signed int pthread_workqueue_attr_setovercommit_np(struct anonymous$6 *attr, sig
 
 // pthread_workqueue_attr_setqueuepriority_np
 // file ./include/pthread_workqueue.h line 71
-signed int pthread_workqueue_attr_setqueuepriority_np(struct anonymous$6 *attr, signed int qprio)
+signed int pthread_workqueue_attr_setqueuepriority_np(struct anonymous_6 *attr, signed int qprio)
 {
   if(attr->sig == 0xBEBEBEBE)
   {
@@ -2270,25 +2270,25 @@ signed int pthread_workqueue_attr_setqueuepriority_np(struct anonymous$6 *attr, 
 
 // pthread_workqueue_create_np
 // file ./include/pthread_workqueue.h line 60
-signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const struct anonymous$6 *attr)
+signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const struct anonymous_6 *attr)
 {
   struct _pthread_workqueue *workq;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed long int return_value_syscall$4;
-  if(!(attr == ((const struct anonymous$6 *)NULL)))
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed long int return_value_syscall_4;
+  if(!(attr == ((const struct anonymous_6 *)NULL)))
   {
     if(!(attr->sig == 0xBEBEBEBE))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = attr->queueprio < 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = attr->queueprio < 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = attr->queueprio >= 4 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = attr->queueprio >= 4 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
       goto __CPROVER_DUMP_L5;
 
     return 22;
@@ -2299,9 +2299,9 @@ signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const
 
   __CPROVER_DUMP_L5:
     ;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct _pthread_workqueue) /*48ul*/ );
-    workq = (struct _pthread_workqueue *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct _pthread_workqueue) /*48ul*/ );
+    workq = (struct _pthread_workqueue *)return_value_calloc_3;
     if(workq == ((struct _pthread_workqueue *)NULL))
       return 12;
 
@@ -2316,7 +2316,7 @@ signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const
       }
       while((_Bool)0);
       pthread_spin_init(&workq->mtx, 0);
-      if(attr == ((const struct anonymous$6 *)NULL))
+      if(attr == ((const struct anonymous_6 *)NULL))
       {
         workq->queueprio = 1;
         workq->overcommit = 0;
@@ -2331,8 +2331,8 @@ signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$4=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): created queue %p\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$4, (const void *)"pthread_workqueue_create_np", (void *)workq);
+          return_value_syscall_4=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): created queue %p\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_4, (const void *)"pthread_workqueue_create_np", (void *)workq);
         }
 
       while((_Bool)0);
@@ -2346,48 +2346,48 @@ signed int pthread_workqueue_create_np(struct _pthread_workqueue **workqp, const
 // file src/api.c line 46
 signed int pthread_workqueue_init_np(void)
 {
-  signed int tmp_if_expr$6;
-  char *return_value_getenv$4;
-  signed int return_value_atoi$5;
-  char *return_value_getenv$7;
-  signed int return_value_atoi$8;
-  signed long int return_value_syscall$11;
+  signed int tmp_if_expr_6;
+  char *return_value_getenv_4;
+  signed int return_value_atoi_5;
+  char *return_value_getenv_7;
+  signed int return_value_atoi_8;
+  signed long int return_value_syscall_11;
   static signed int pwq_initialized = 0;
   if(!(pwq_initialized == 0))
     return 0;
 
   else
   {
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("PWQ_DEBUG");
-    DEBUG_WORKQUEUE = return_value_getenv$1 == (char *)(void *)0 ? 0 : 1;
-    char *return_value_getenv$2;
-    return_value_getenv$2=getenv("PWQ_RT_THREADS");
-    PWQ_RT_THREADS = (unsigned int)(return_value_getenv$2 == (char *)(void *)0 ? 0 : 1);
-    char *return_value_getenv$3;
-    return_value_getenv$3=getenv("PWQ_ACTIVE_CPU");
-    if(return_value_getenv$3 == ((char *)NULL))
-      tmp_if_expr$6 = 0;
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("PWQ_DEBUG");
+    DEBUG_WORKQUEUE = return_value_getenv_1 == (char *)(void *)0 ? 0 : 1;
+    char *return_value_getenv_2;
+    return_value_getenv_2=getenv("PWQ_RT_THREADS");
+    PWQ_RT_THREADS = (unsigned int)(return_value_getenv_2 == (char *)(void *)0 ? 0 : 1);
+    char *return_value_getenv_3;
+    return_value_getenv_3=getenv("PWQ_ACTIVE_CPU");
+    if(return_value_getenv_3 == ((char *)NULL))
+      tmp_if_expr_6 = 0;
 
     else
     {
-      return_value_getenv$4=getenv("PWQ_ACTIVE_CPU");
-      return_value_atoi$5=atoi(return_value_getenv$4);
-      tmp_if_expr$6 = return_value_atoi$5;
+      return_value_getenv_4=getenv("PWQ_ACTIVE_CPU");
+      return_value_atoi_5=atoi(return_value_getenv_4);
+      tmp_if_expr_6 = return_value_atoi_5;
     }
-    PWQ_ACTIVE_CPU = (unsigned int)tmp_if_expr$6;
-    char *return_value_getenv$9;
-    return_value_getenv$9=getenv("PWQ_SPIN_THREADS");
-    if(!(return_value_getenv$9 == ((char *)NULL)))
+    PWQ_ACTIVE_CPU = (unsigned int)tmp_if_expr_6;
+    char *return_value_getenv_9;
+    return_value_getenv_9=getenv("PWQ_SPIN_THREADS");
+    if(!(return_value_getenv_9 == ((char *)NULL)))
     {
-      return_value_getenv$7=getenv("PWQ_SPIN_THREADS");
-      return_value_atoi$8=atoi(return_value_getenv$7);
-      PWQ_SPIN_THREADS = (unsigned int)return_value_atoi$8;
+      return_value_getenv_7=getenv("PWQ_SPIN_THREADS");
+      return_value_atoi_8=atoi(return_value_getenv_7);
+      PWQ_SPIN_THREADS = (unsigned int)return_value_atoi_8;
     }
 
-    signed int return_value_manager_init$10;
-    return_value_manager_init$10=manager_init();
-    if(!(return_value_manager_init$10 >= 0))
+    signed int return_value_manager_init_10;
+    return_value_manager_init_10=manager_init();
+    if(!(return_value_manager_init_10 >= 0))
       return -1;
 
     else
@@ -2396,8 +2396,8 @@ signed int pthread_workqueue_init_np(void)
       do
         if(!(DEBUG_WORKQUEUE == 0))
         {
-          return_value_syscall$11=syscall((signed long int)186);
-          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$11, (const void *)"pthread_workqueue_init_np", (const void *)"pthread_workqueue library initialized");
+          return_value_syscall_11=syscall((signed long int)186);
+          fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_11, (const void *)"pthread_workqueue_init_np", (const void *)"pthread_workqueue library initialized");
         }
 
       while((_Bool)0);
@@ -2410,9 +2410,9 @@ signed int pthread_workqueue_init_np(void)
 // file src/api.c line 212
 unsigned long int pthread_workqueue_peek_np(const char *key)
 {
-  unsigned long int return_value_manager_peek$1;
-  return_value_manager_peek$1=manager_peek(key);
-  return return_value_manager_peek$1;
+  unsigned long int return_value_manager_peek_1;
+  return_value_manager_peek_1=manager_peek(key);
+  return return_value_manager_peek_1;
 }
 
 // pthread_workqueue_resume_np
@@ -2476,33 +2476,33 @@ signed int threads_runnable(unsigned int *threads_running, unsigned int *threads
   signed int pid;
   unsigned int running_count = (unsigned int)0;
   unsigned int total_count = (unsigned int)0;
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   do
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$1=syscall((signed long int)186);
-      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"threads_runnable", (const void *)"Checking threads_runnable()");
+      return_value_syscall_1=syscall((signed long int)186);
+      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"threads_runnable", (const void *)"Checking threads_runnable()");
     }
 
   while((_Bool)0);
   dip=opendir(task_path);
-  signed long int return_value_syscall$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  signed long int return_value_syscall$6;
-  signed long int return_value_syscall$7;
-  signed long int return_value_syscall$11;
+  signed long int return_value_syscall_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  signed long int return_value_syscall_6;
+  signed long int return_value_syscall_7;
+  signed long int return_value_syscall_11;
   if(dip == ((struct __dirstream *)NULL))
   {
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$2=syscall((signed long int)186);
-        return_value___errno_location$3=__errno_location();
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"threads_runnable", (const void *)"opendir", return_value_strerror$4, *return_value___errno_location$5);
+        return_value_syscall_2=syscall((signed long int)186);
+        return_value___errno_location_3=__errno_location();
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"threads_runnable", (const void *)"opendir", return_value_strerror_4, *return_value___errno_location_5);
       }
 
     while((_Bool)0);
@@ -2519,20 +2519,20 @@ signed int threads_runnable(unsigned int *threads_running, unsigned int *threads
 
       memset((void *)thread_data, 0, sizeof(char [4097l]) /*4097ul*/ );
       sprintf(thread_path, "%s/%s/stat", task_path, (const void *)dit->d_name);
-      signed int return_value__read_file$9;
-      return_value__read_file$9=_read_file(thread_path, thread_data);
-      if(return_value__read_file$9 == 0)
+      signed int return_value__read_file_9;
+      return_value__read_file_9=_read_file(thread_path, thread_data);
+      if(return_value__read_file_9 == 0)
       {
-        signed int return_value_sscanf$8;
-        return_value_sscanf$8=sscanf(thread_data, "%d %s %c", &pid, (const void *)dummy, &state);
-        if(return_value_sscanf$8 == 3)
+        signed int return_value_sscanf_8;
+        return_value_sscanf_8=sscanf(thread_data, "%d %s %c", &pid, (const void *)dummy, &state);
+        if(return_value_sscanf_8 == 3)
         {
           total_count = total_count + 1u;
           do
             if(!(DEBUG_WORKQUEUE == 0))
             {
-              return_value_syscall$6=syscall((signed long int)186);
-              fprintf(stderr, "%s [%d]: %s(): The state for thread %s is %c\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$6, (const void *)"threads_runnable", (const void *)dit->d_name, state);
+              return_value_syscall_6=syscall((signed long int)186);
+              fprintf(stderr, "%s [%d]: %s(): The state for thread %s is %c\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_6, (const void *)"threads_runnable", (const void *)dit->d_name, state);
             }
 
           while((_Bool)0);
@@ -2545,8 +2545,8 @@ signed int threads_runnable(unsigned int *threads_running, unsigned int *threads
           do
             if(!(DEBUG_WORKQUEUE == 0))
             {
-              return_value_syscall$7=syscall((signed long int)186);
-              fprintf(stderr, "%s [%d]: %s(): Failed to scan state for thread %s (%s)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$7, (const void *)"threads_runnable", (const void *)dit->d_name, (const void *)thread_data);
+              return_value_syscall_7=syscall((signed long int)186);
+              fprintf(stderr, "%s [%d]: %s(): Failed to scan state for thread %s (%s)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_7, (const void *)"threads_runnable", (const void *)dit->d_name, (const void *)thread_data);
             }
 
           while((_Bool)0);
@@ -2554,16 +2554,16 @@ signed int threads_runnable(unsigned int *threads_running, unsigned int *threads
 
     }
     while((_Bool)1);
-    signed int return_value_closedir$10;
-    return_value_closedir$10=closedir(dip);
-    if(return_value_closedir$10 == -1)
+    signed int return_value_closedir_10;
+    return_value_closedir_10=closedir(dip);
+    if(return_value_closedir_10 == -1)
       perror("closedir");
 
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$11=syscall((signed long int)186);
-        fprintf(stderr, "%s [%d]: %s(): Running count is %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$11, (const void *)"threads_runnable", running_count);
+        return_value_syscall_11=syscall((signed long int)186);
+        fprintf(stderr, "%s [%d]: %s(): Running count is %d\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_11, (const void *)"threads_runnable", running_count);
       }
 
     while((_Bool)0);
@@ -2589,11 +2589,11 @@ static signed int valid_workq(struct _pthread_workqueue *workq)
 struct work * witem_alloc(void (*func)(void *), void *func_arg)
 {
   struct work *witem;
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   do
   {
-    return_value_malloc$1=malloc(sizeof(struct work) /*32ul*/  + (unsigned long int)(64 - 1) & (unsigned long int)~(64 - 1));
-    witem = (struct work *)(void *)(signed long int)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct work) /*32ul*/  + (unsigned long int)(64 - 1) & (unsigned long int)~(64 - 1));
+    witem = (struct work *)(void *)(signed long int)return_value_malloc_1;
     if(!(witem == ((struct work *)NULL)))
       break;
 
@@ -2626,12 +2626,12 @@ signed int witem_cache_init(void)
 // file src/witem_cache.c line 61
 void witem_free(struct work *wi)
 {
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   do
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$1=syscall((signed long int)186);
-      fprintf(stderr, "%s [%d]: %s(): freed work item %p\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"witem_free", wi);
+      return_value_syscall_1=syscall((signed long int)186);
+      fprintf(stderr, "%s [%d]: %s(): freed work item %p\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"witem_free", wi);
     }
 
   while((_Bool)0);
@@ -2679,12 +2679,12 @@ static void * worker_main(void *unused)
   struct work *witem;
   signed int current_thread_priority = 1;
   signed int queue_priority = 1;
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   do
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$1=syscall((signed long int)186);
-      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"worker_main", (const void *)"worker thread started");
+      return_value_syscall_1=syscall((signed long int)186);
+      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"worker_main", (const void *)"worker thread started");
     }
 
   while((_Bool)0);
@@ -2725,12 +2725,12 @@ static void * worker_main(void *unused)
 static signed int worker_start(void)
 {
   unsigned long int tid;
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   do
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$1=syscall((signed long int)186);
-      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"worker_start", (const void *)"Spawning another worker");
+      return_value_syscall_1=syscall((signed long int)186);
+      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"worker_start", (const void *)"Spawning another worker");
     }
 
   while((_Bool)0);
@@ -2746,22 +2746,22 @@ static signed int worker_start(void)
   *(&scoreboard.count) = *(&scoreboard.count) + (volatile unsigned int)1;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  signed int return_value_pthread_create$6;
-  return_value_pthread_create$6=pthread_create(&tid, &detached_attr, worker_main, (void *)0);
-  signed long int return_value_syscall$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  if(!(return_value_pthread_create$6 == 0))
+  signed int return_value_pthread_create_6;
+  return_value_pthread_create_6=pthread_create(&tid, &detached_attr, worker_main, (void *)0);
+  signed long int return_value_syscall_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  if(!(return_value_pthread_create_6 == 0))
   {
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$2=syscall((signed long int)186);
-        return_value___errno_location$3=__errno_location();
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        return_value___errno_location$5=__errno_location();
-        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$2, (const void *)"worker_start", (const void *)"pthread_create(3)", return_value_strerror$4, *return_value___errno_location$5);
+        return_value_syscall_2=syscall((signed long int)186);
+        return_value___errno_location_3=__errno_location();
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        return_value___errno_location_5=__errno_location();
+        fprintf(stderr, "%s [%d]: %s(): %s: %s (errno=%d)\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_2, (const void *)"worker_start", (const void *)"pthread_create(3)", return_value_strerror_4, *return_value___errno_location_5);
       }
 
     while((_Bool)0);
@@ -2827,12 +2827,12 @@ static signed int worker_stop(void)
     }
 
   }
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   do
     if(!(DEBUG_WORKQUEUE == 0))
     {
-      return_value_syscall$1=syscall((signed long int)186);
-      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"worker_stop", (const void *)"Attempting to add a workitem without a workqueue");
+      return_value_syscall_1=syscall((signed long int)186);
+      fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"worker_stop", (const void *)"Attempting to add a workitem without a workqueue");
     }
 
   while((_Bool)0);
@@ -2848,7 +2848,7 @@ static struct work * wqlist_scan(signed int *queue_priority, signed int skip_thr
   struct work *witem = (struct work *)(void *)0;
   signed int idx;
   idx=ffs((signed int)wqlist_mask);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(idx == 0)
     return (struct work *)(void *)0;
 
@@ -2860,11 +2860,11 @@ static struct work * wqlist_scan(signed int *queue_priority, signed int skip_thr
     if(!(witem == ((struct work *)NULL)))
     {
       if(!(skip_thread_exit_events == 0))
-        tmp_if_expr$1 = witem->func == (void (*)(void *))(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = witem->func == (void (*)(void *))(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
       {
         do
         {
@@ -2894,13 +2894,13 @@ static struct work * wqlist_scan(signed int *queue_priority, signed int skip_thr
 static struct work * wqlist_scan_spin(signed int *queue_priority)
 {
   struct work *witem = (struct work *)(void *)0;
-  volatile unsigned int return_value___sync_add_and_fetch$1;
+  volatile unsigned int return_value___sync_add_and_fetch_1;
   __CPROVER_atomic_begin();
   *(&current_threads_spinning) = *(&current_threads_spinning) + (volatile unsigned int)1;
-  return_value___sync_add_and_fetch$1 = *(&current_threads_spinning);
+  return_value___sync_add_and_fetch_1 = *(&current_threads_spinning);
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  if(PWQ_SPIN_THREADS >= return_value___sync_add_and_fetch$1)
+  if(PWQ_SPIN_THREADS >= return_value___sync_add_and_fetch_1)
   {
     do
     {
@@ -2942,14 +2942,14 @@ static struct work * wqlist_scan_wait(signed int *queue_priority)
   if(scoreboard.idle == 1u)
     sem_post(&scoreboard.sb_sem);
 
-  signed long int return_value_syscall$1;
+  signed long int return_value_syscall_1;
   if(witem->func == ((void (*)(void *))NULL))
   {
     do
       if(!(DEBUG_WORKQUEUE == 0))
       {
-        return_value_syscall$1=syscall((signed long int)186);
-        fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall$1, (const void *)"wqlist_scan_wait", (const void *)"worker exiting..");
+        return_value_syscall_1=syscall((signed long int)186);
+        fprintf(stderr, "%s [%d]: %s(): %s\n", WORKQUEUE_DEBUG_IDENT, (signed int)return_value_syscall_1, (const void *)"wqlist_scan_wait", (const void *)"worker exiting..");
       }
 
     while((_Bool)0);

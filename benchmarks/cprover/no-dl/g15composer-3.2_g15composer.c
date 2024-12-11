@@ -1,8 +1,8 @@
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -358,7 +358,7 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -543,7 +543,7 @@ static unsigned long int yysyntax_error(char *yyresult, signed int yystate, sign
 // file g15composer.tab.c line 1089
 static unsigned long int yytnamerr(char *yyres, const char *yystr);
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -1279,7 +1279,7 @@ static const unsigned char yystos[184l] = { (const unsigned char)0, (const unsig
 static const unsigned char yytable[213l] = { (const unsigned char)64, (const unsigned char)73, (const unsigned char)74, (const unsigned char)147, (const unsigned char)150, (const unsigned char)148, (const unsigned char)151, (const unsigned char)160, (const unsigned char)164, (const unsigned char)161, (const unsigned char)165, (const unsigned char)2, (const unsigned char)3, (const unsigned char)171, (const unsigned char)81, (const unsigned char)172, (const unsigned char)80, (const unsigned char)4, (const unsigned char)5, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)9, (const unsigned char)10, (const unsigned char)11, (const unsigned char)12, (const unsigned char)13, (const unsigned char)14, (const unsigned char)15, (const unsigned char)16, (const unsigned char)17, (const unsigned char)18, (const unsigned char)19, (const unsigned char)20, (const unsigned char)21, (const unsigned char)22, (const unsigned char)23, (const unsigned char)24, (const unsigned char)25, (const unsigned char)26, (const unsigned char)27, (const unsigned char)28, (const unsigned char)29, (const unsigned char)30, (const unsigned char)31, (const unsigned char)32, (const unsigned char)33, (const unsigned char)34, (const unsigned char)96, (const unsigned char)4, (const unsigned char)5, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)9, (const unsigned char)10, (const unsigned char)11, (const unsigned char)12, (const unsigned char)13, (const unsigned char)14, (const unsigned char)15, (const unsigned char)16, (const unsigned char)17, (const unsigned char)18, (const unsigned char)19, (const unsigned char)20, (const unsigned char)21, (const unsigned char)22, (const unsigned char)23, (const unsigned char)24, (const unsigned char)25, (const unsigned char)26, (const unsigned char)27, (const unsigned char)28, (const unsigned char)29, (const unsigned char)30, (const unsigned char)31, (const unsigned char)32, (const unsigned char)33, (const unsigned char)34, (const unsigned char)179, (const unsigned char)50, (const unsigned char)180, (const unsigned char)51, (const unsigned char)126, (const unsigned char)63, (const unsigned char)103, (const unsigned char)63, (const unsigned char)105, (const unsigned char)63, (const unsigned char)106, (const unsigned char)63, (const unsigned char)170, (const unsigned char)52, (const unsigned char)53, (const unsigned char)54, (const unsigned char)55, (const unsigned char)56, (const unsigned char)57, (const unsigned char)58, (const unsigned char)59, (const unsigned char)60, (const unsigned char)61, (const unsigned char)62, (const unsigned char)0, (const unsigned char)63, (const unsigned char)65, (const unsigned char)66, (const unsigned char)67, (const unsigned char)68, (const unsigned char)69, (const unsigned char)70, (const unsigned char)71, (const unsigned char)75, (const unsigned char)76, (const unsigned char)77, (const unsigned char)146, (const unsigned char)78, (const unsigned char)79, (const unsigned char)157, (const unsigned char)82, (const unsigned char)83, (const unsigned char)84, (const unsigned char)85, (const unsigned char)86, (const unsigned char)0, (const unsigned char)88, (const unsigned char)87, (const unsigned char)89, (const unsigned char)90, (const unsigned char)91, (const unsigned char)92, (const unsigned char)93, (const unsigned char)94, (const unsigned char)0, (const unsigned char)0, (const unsigned char)95, (const unsigned char)97, (const unsigned char)98, (const unsigned char)99, (const unsigned char)100, (const unsigned char)101, (const unsigned char)102, (const unsigned char)107, (const unsigned char)0, (const unsigned char)109, (const unsigned char)108, (const unsigned char)0, (const unsigned char)110, (const unsigned char)111, (const unsigned char)112, (const unsigned char)113, (const unsigned char)177, (const unsigned char)114, (const unsigned char)115, (const unsigned char)116, (const unsigned char)117, (const unsigned char)118, (const unsigned char)119, (const unsigned char)120, (const unsigned char)121, (const unsigned char)122, (const unsigned char)123, (const unsigned char)124, (const unsigned char)0, (const unsigned char)127, (const unsigned char)125, (const unsigned char)128, (const unsigned char)129, (const unsigned char)131, (const unsigned char)130, (const unsigned char)132, (const unsigned char)133, (const unsigned char)134, (const unsigned char)135, (const unsigned char)136, (const unsigned char)137, (const unsigned char)138, (const unsigned char)139, (const unsigned char)0, (const unsigned char)141, (const unsigned char)140, (const unsigned char)143, (const unsigned char)142, (const unsigned char)144, (const unsigned char)145, (const unsigned char)149, (const unsigned char)152, (const unsigned char)153, (const unsigned char)154, (const unsigned char)155, (const unsigned char)156, (const unsigned char)0, (const unsigned char)0, (const unsigned char)158, (const unsigned char)159, (const unsigned char)162, (const unsigned char)163, (const unsigned char)166, (const unsigned char)167, (const unsigned char)168, (const unsigned char)169, (const unsigned char)0, (const unsigned char)174, (const unsigned char)173, (const unsigned char)176, (const unsigned char)175, (const unsigned char)0, (const unsigned char)178, (const unsigned char)181, (const unsigned char)182, (const unsigned char)183, (const unsigned char)49 };
 // yytname
 // file g15composer.tab.c line 558
-static const char * const yytname[56l] = { "$end", "error", "$undefined", "T_NUMBER", "T_STRING", "T_NEWLINE", "T_PIXELSET", "T_PIXELFILL", "T_PIXELRFILL", "T_PIXELOVERLAY", "T_PIXELBOX", "T_PIXELCLEAR", "T_DRAWLINE", "T_DRAWCIRCLE", "T_DRAWRBOX", "T_DRAWBAR", "T_DRAWNUM", "T_DRAWICON", "T_DRAWSPRITE", "T_WBMPSPLASH", "T_WBMPLOAD", "T_MODECACHE", "T_MODEREV", "T_MODEXOR", "T_MODEPRI", "T_FONTLOAD", "T_FONTPRINT", "T_TEXTSMALL", "T_TEXTMED", "T_TEXTLARGE", "T_TEXTOVERLAY", "T_KEYL", "T_KEYM", "T_LCDBL", "T_LCDCON", "T_SCREENNEW", "T_SCREENCLOSE", "$accept", "nt_commands", "nt_command", "nt_string", "nt_strings", "nt_pixel_command", "nt_pixelbox", "nt_draw_command", "nt_drawcircle", "nt_drawrbox", "nt_drawbar", "nt_wbmp_command", "nt_mode_command", "nt_font_command", "nt_text_command", "nt_key_command", "nt_lcd_command", "nt_screen_command", ((const char *)NULL) };
+static const char * const yytname[56l] = { "_end", "error", "_undefined", "T_NUMBER", "T_STRING", "T_NEWLINE", "T_PIXELSET", "T_PIXELFILL", "T_PIXELRFILL", "T_PIXELOVERLAY", "T_PIXELBOX", "T_PIXELCLEAR", "T_DRAWLINE", "T_DRAWCIRCLE", "T_DRAWRBOX", "T_DRAWBAR", "T_DRAWNUM", "T_DRAWICON", "T_DRAWSPRITE", "T_WBMPSPLASH", "T_WBMPLOAD", "T_MODECACHE", "T_MODEREV", "T_MODEXOR", "T_MODEPRI", "T_FONTLOAD", "T_FONTPRINT", "T_TEXTSMALL", "T_TEXTMED", "T_TEXTLARGE", "T_TEXTOVERLAY", "T_KEYL", "T_KEYM", "T_LCDBL", "T_LCDCON", "T_SCREENNEW", "T_SCREENCLOSE", "_accept", "nt_commands", "nt_command", "nt_string", "nt_strings", "nt_pixel_command", "nt_pixelbox", "nt_draw_command", "nt_drawcircle", "nt_drawrbox", "nt_drawbar", "nt_wbmp_command", "nt_mode_command", "nt_font_command", "nt_text_command", "nt_key_command", "nt_lcd_command", "nt_screen_command", ((const char *)NULL) };
 // yytranslate
 // file g15composer.tab.c line 463
 static const unsigned char yytranslate[292l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3, (const unsigned char)4, (const unsigned char)5, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)9, (const unsigned char)10, (const unsigned char)11, (const unsigned char)12, (const unsigned char)13, (const unsigned char)14, (const unsigned char)15, (const unsigned char)16, (const unsigned char)17, (const unsigned char)18, (const unsigned char)19, (const unsigned char)20, (const unsigned char)21, (const unsigned char)22, (const unsigned char)23, (const unsigned char)24, (const unsigned char)25, (const unsigned char)26, (const unsigned char)27, (const unsigned char)28, (const unsigned char)29, (const unsigned char)30, (const unsigned char)31, (const unsigned char)32, (const unsigned char)33, (const unsigned char)34, (const unsigned char)35, (const unsigned char)36 };
@@ -1297,11 +1297,11 @@ signed int add_buf(struct bufList *bufList, signed int id, char *buffer, signed 
       free((void *)new->buffer);
     }
 
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(new == ((struct bufItem *)NULL))
   {
-    return_value_malloc$1=malloc(sizeof(struct bufItem) /*32ul*/ );
-    new = (struct bufItem *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct bufItem) /*32ul*/ );
+    new = (struct bufItem *)return_value_malloc_1;
   }
 
   if(new == ((struct bufItem *)NULL))
@@ -1329,9 +1329,9 @@ signed int add_buf(struct bufList *bufList, signed int id, char *buffer, signed 
 void add_string(struct strList *list, char *string)
 {
   struct strItem *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct strItem) /*16ul*/ );
-  new = (struct strItem *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct strItem) /*16ul*/ );
+  new = (struct strItem *)return_value_malloc_1;
   if(!(new == ((struct strItem *)NULL)))
   {
     new->string=strdup(string);
@@ -1353,9 +1353,9 @@ void add_thread(struct parserData *data)
 {
   pthread_mutex_lock(&data->threads->mutex);
   struct threadItem *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct threadItem) /*24ul*/ );
-  new = (struct threadItem *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct threadItem) /*24ul*/ );
+  new = (struct threadItem *)return_value_malloc_1;
   if(!(new == ((struct threadItem *)NULL)))
   {
     new->thread = data->thread;
@@ -1448,9 +1448,9 @@ signed int getDispCol(signed int len, signed int size, signed int type)
 signed int main(signed int argc, char **argv)
 {
   struct parserData *param;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct parserData) /*96ul*/ );
-  param = (struct parserData *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct parserData) /*96ul*/ );
+  param = (struct parserData *)return_value_malloc_1;
   param->background = 0;
   param->fifo_filename = (char *)(void *)0;
   unsigned char user[256l];
@@ -1458,38 +1458,38 @@ signed int main(signed int argc, char **argv)
   signed int reuse_fifo = 0;
   signed int i = 1;
   i = 1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   do
   {
     if(!(i >= argc))
-      tmp_if_expr$2 = param->fifo_filename == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = param->fifo_filename == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
-    signed int return_value_strcmp$11;
-    return_value_strcmp$11=strcmp(argv[(signed long int)i], "-h");
-    if(return_value_strcmp$11 == 0)
-      tmp_if_expr$13 = (_Bool)1;
+    signed int return_value_strcmp_11;
+    return_value_strcmp_11=strcmp(argv[(signed long int)i], "-h");
+    if(return_value_strcmp_11 == 0)
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$12=strcmp(argv[(signed long int)i], "--help");
-      tmp_if_expr$13 = !(return_value_strcmp$12 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_12=strcmp(argv[(signed long int)i], "--help");
+      tmp_if_expr_13 = !(return_value_strcmp_12 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
+    if(tmp_if_expr_13)
     {
       printUsage();
       return 0;
@@ -1497,28 +1497,28 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$10=strcmp(argv[(signed long int)i], "-b");
-      if(return_value_strcmp$10 == 0)
+      return_value_strcmp_10=strcmp(argv[(signed long int)i], "-b");
+      if(return_value_strcmp_10 == 0)
         param->background = 1;
 
       else
       {
-        return_value_strcmp$9=strcmp(argv[(signed long int)i], "-r");
-        if(return_value_strcmp$9 == 0)
+        return_value_strcmp_9=strcmp(argv[(signed long int)i], "-r");
+        if(return_value_strcmp_9 == 0)
           reuse_fifo = 1;
 
         else
         {
-          return_value_strcmp$6=strcmp(argv[(signed long int)i], "-u");
-          if(return_value_strcmp$6 == 0)
-            tmp_if_expr$8 = (_Bool)1;
+          return_value_strcmp_6=strcmp(argv[(signed long int)i], "-u");
+          if(return_value_strcmp_6 == 0)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$7=strcmp(argv[(signed long int)i], "--user");
-            tmp_if_expr$8 = !(return_value_strcmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_7=strcmp(argv[(signed long int)i], "--user");
+            tmp_if_expr_8 = !(return_value_strcmp_7 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$8)
+          if(tmp_if_expr_8)
           {
             if(!(argv[(signed long int)(1 + i)] == ((char *)NULL)))
             {
@@ -1530,16 +1530,16 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            return_value_strcmp$3=strcmp(argv[(signed long int)i], "-g");
-            if(return_value_strcmp$3 == 0)
-              tmp_if_expr$5 = (_Bool)1;
+            return_value_strcmp_3=strcmp(argv[(signed long int)i], "-g");
+            if(return_value_strcmp_3 == 0)
+              tmp_if_expr_5 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$4=strcmp(argv[(signed long int)i], "--group");
-              tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_4=strcmp(argv[(signed long int)i], "--group");
+              tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$5)
+            if(tmp_if_expr_5)
             {
               if(!(argv[(signed long int)(1 + i)] == ((char *)NULL)))
               {
@@ -1558,16 +1558,16 @@ signed int main(signed int argc, char **argv)
     i = i + 1;
   }
   while((_Bool)1);
-  unsigned int return_value_geteuid$16;
+  unsigned int return_value_geteuid_16;
   if(!(param->fifo_filename == ((char *)NULL)))
   {
     char *dirc;
     char *dname;
     dirc=strdup(param->fifo_filename);
     dname=dirname(dirc);
-    signed int return_value_strncmp$14;
-    return_value_strncmp$14=strncmp(dname, "/", (unsigned long int)1);
-    if(!(return_value_strncmp$14 == 0))
+    signed int return_value_strncmp_14;
+    return_value_strncmp_14=strncmp(dname, "/", (unsigned long int)1);
+    if(!(return_value_strncmp_14 == 0))
     {
       char *bname;
       char cwd[256l];
@@ -1593,26 +1593,26 @@ signed int main(signed int argc, char **argv)
     }
 
     struct passwd *euser;
-    unsigned long int return_value_strlen$15;
-    return_value_strlen$15=strlen((char *)user);
-    if(return_value_strlen$15 == 0ul)
+    unsigned long int return_value_strlen_15;
+    return_value_strlen_15=strlen((char *)user);
+    if(return_value_strlen_15 == 0ul)
       euser=getpwnam("nobody");
 
     else
       euser=getpwnam((char *)user);
     if(euser == ((struct passwd *)NULL))
     {
-      return_value_geteuid$16=geteuid();
-      euser=getpwuid(return_value_geteuid$16);
+      return_value_geteuid_16=geteuid();
+      euser=getpwuid(return_value_geteuid_16);
     }
 
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen((char *)group);
-    if(!(return_value_strlen$18 == 0ul))
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen((char *)group);
+    if(!(return_value_strlen_18 == 0ul))
     {
-      signed int return_value_atoi$17;
-      return_value_atoi$17=atoi((const char *)group);
-      setegid((unsigned int)return_value_atoi$17);
+      signed int return_value_atoi_17;
+      return_value_atoi_17=atoi((const char *)group);
+      setegid((unsigned int)return_value_atoi_17);
     }
 
     if(!(euser == ((struct passwd *)NULL)))
@@ -1652,9 +1652,9 @@ signed int main(signed int argc, char **argv)
 struct bufList * new_bufList()
 {
   struct bufList *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct bufList) /*16ul*/ );
-  new = (struct bufList *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct bufList) /*16ul*/ );
+  new = (struct bufList *)return_value_malloc_1;
   if(new == ((struct bufList *)NULL))
     return (struct bufList *)(void *)0;
 
@@ -1671,9 +1671,9 @@ struct bufList * new_bufList()
 struct strList * new_strList()
 {
   struct strList *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct strList) /*16ul*/ );
-  new = (struct strList *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct strList) /*16ul*/ );
+  new = (struct strList *)return_value_malloc_1;
   if(new == ((struct strList *)NULL))
     return (struct strList *)(void *)0;
 
@@ -1690,9 +1690,9 @@ struct strList * new_strList()
 struct threadList * new_threadList()
 {
   struct threadList *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct threadList) /*64ul*/ );
-  new = (struct threadList *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct threadList) /*64ul*/ );
+  new = (struct threadList *)return_value_malloc_1;
   if(new == ((struct threadList *)NULL))
     return (struct threadList *)(void *)0;
 
@@ -1701,7 +1701,7 @@ struct threadList * new_threadList()
     new->first_thread = (struct threadItem *)(void *)0;
     new->last_thread = (struct threadItem *)(void *)0;
     new->leaving = 0;
-    pthread_mutex_init(&new->mutex, (const union anonymous$0 *)(void *)0);
+    pthread_mutex_init(&new->mutex, (const union anonymous_0 *)(void *)0);
     return new;
   }
 }
@@ -1725,23 +1725,23 @@ void * threadEntry(void *arg)
   param->leaving = 0;
   unsigned int mode = (unsigned int)(0400 | 0200 | 0200 >> 3);
   tmpfd=open(param->fifo_filename, 01 | 04000);
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(tmpfd == -1)
   {
-    return_value___errno_location$4=__errno_location();
-    tmp_if_expr$5 = *return_value___errno_location$4 == 2 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_4=__errno_location();
+    tmp_if_expr_5 = *return_value___errno_location_4 == 2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  if(tmp_if_expr_5)
   {
-    signed int return_value_mkfifo$1;
-    return_value_mkfifo$1=mkfifo(param->fifo_filename, mode);
-    if(!(return_value_mkfifo$1 == 0))
+    signed int return_value_mkfifo_1;
+    return_value_mkfifo_1=mkfifo(param->fifo_filename, mode);
+    if(!(return_value_mkfifo_1 == 0))
     {
       fprintf(stderr, "Error: Could not create FIFO %s, aborting.\n", param->fifo_filename);
       free((void *)param);
@@ -1756,13 +1756,13 @@ void * threadEntry(void *arg)
   {
     if(tmpfd == -1)
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 != 6 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 != 6 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       fprintf(stderr, "Error: Unable to access %s, aborting.\n", param->fifo_filename);
       free((void *)param);
@@ -1784,9 +1784,9 @@ void * threadEntry(void *arg)
   yylex_init(&param->scanner);
   if(param->background == 0)
   {
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(sizeof(struct g15canvas) /*1416ul*/ );
-    param->canvas = (struct g15canvas *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(sizeof(struct g15canvas) /*1416ul*/ );
+    param->canvas = (struct g15canvas *)return_value_malloc_6;
     param->g15screen_fd = 0;
     param->g15screen_fd=new_g15_screen(3);
     if(!(param->g15screen_fd >= 0))
@@ -1820,9 +1820,9 @@ void * threadEntry(void *arg)
       break;
 
     result=yyparse((void *)param);
-    struct _IO_FILE *return_value_yyget_in$7;
-    return_value_yyget_in$7=yyget_in(param->scanner);
-    fclose(return_value_yyget_in$7);
+    struct _IO_FILE *return_value_yyget_in_7;
+    return_value_yyget_in_7=yyget_in(param->scanner);
+    fclose(return_value_yyget_in_7);
     if(param->leaving == 0)
     {
       if(param->threads->leaving == 0)
@@ -1858,9 +1858,9 @@ void * threadEntry(void *arg)
   }
 
   yylex_destroy(param->scanner);
-  signed int return_value_strncmp$8;
-  return_value_strncmp$8=strncmp(param->fifo_filename, "/var/run/", (unsigned long int)9);
-  if(!(return_value_strncmp$8 == 0))
+  signed int return_value_strncmp_8;
+  return_value_strncmp_8=strncmp(param->fifo_filename, "/var/run/", (unsigned long int)9);
+  if(!(return_value_strncmp_8 == 0))
     unlink(param->fifo_filename);
 
   del_thread(param);
@@ -1872,13 +1872,13 @@ void * threadEntry(void *arg)
 // file g15composer.c line 482
 void updateScreen(struct g15canvas *canvas, signed int g15screen_fd, signed int force)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(force == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(canvas->mode_cache != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(canvas->mode_cache != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
 
 }
@@ -1888,16 +1888,16 @@ void updateScreen(struct g15canvas *canvas, signed int g15screen_fd, signed int 
 struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size, void *yyscanner)
 {
   struct yy_buffer_state *b;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc((unsigned int)sizeof(struct yy_buffer_state) /*64ul*/ , yyscanner);
-  b = (struct yy_buffer_state *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc((unsigned int)sizeof(struct yy_buffer_state) /*64ul*/ , yyscanner);
+  b = (struct yy_buffer_state *)return_value_yyalloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()", yyscanner);
 
   b->yy_buf_size = (unsigned int)size;
-  void *return_value_yyalloc$2;
-  return_value_yyalloc$2=yyalloc(b->yy_buf_size + (unsigned int)2, yyscanner);
-  b->yy_ch_buf = (char *)return_value_yyalloc$2;
+  void *return_value_yyalloc_2;
+  return_value_yyalloc_2=yyalloc(b->yy_buf_size + (unsigned int)2, yyscanner);
+  b->yy_ch_buf = (char *)return_value_yyalloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()", yyscanner);
 
@@ -1911,15 +1911,15 @@ struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size
 void yy_delete_buffer(struct yy_buffer_state *b, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)0;
 
     if(!(b->yy_is_our_buffer == 0))
@@ -1943,7 +1943,7 @@ static void yy_fatal_error(const char *msg, void *yyscanner)
 void yy_flush_buffer(struct yy_buffer_state *b, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     b->yy_n_chars = 0;
@@ -1953,11 +1953,11 @@ void yy_flush_buffer(struct yy_buffer_state *b, void *yyscanner)
     b->yy_at_bol = 1;
     b->yy_buffer_status = 0;
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_load_buffer_state(yyscanner);
 
   }
@@ -1977,10 +1977,10 @@ static signed int yy_get_next_buffer(void *yyscanner)
   if(!(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf + (signed long int)(1 + yyg->yy_n_chars) >= yyg->yy_c_buf_p))
     yy_fatal_error("fatal flex scanner internal error--end of buffer missed", yyscanner);
 
-  char *tmp_post$1;
-  char *tmp_post$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  signed int tmp_if_expr$5;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  signed int tmp_if_expr_5;
   if(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_fill_buffer == 0)
   {
     if(yyg->yy_c_buf_p - yyg->yytext_r == 1l)
@@ -1995,11 +1995,11 @@ static signed int yy_get_next_buffer(void *yyscanner)
     i = 0;
     for( ; !(i >= number_to_move); i = i + 1)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = source;
+      tmp_post_2 = source;
       source = source + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     if(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buffer_status == 2)
     {
@@ -2014,11 +2014,11 @@ static signed int yy_get_next_buffer(void *yyscanner)
       {
         struct yy_buffer_state *b;
         if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-          tmp_if_expr$3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+          tmp_if_expr_3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
         else
-          tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-        b = tmp_if_expr$3;
+          tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+        b = tmp_if_expr_3;
         signed int yy_c_buf_p_offset = (signed int)(yyg->yy_c_buf_p - b->yy_ch_buf);
         if(!(b->yy_is_our_buffer == 0))
         {
@@ -2028,9 +2028,9 @@ static signed int yy_get_next_buffer(void *yyscanner)
 
           else
             b->yy_buf_size = b->yy_buf_size * (unsigned int)2;
-          void *return_value_yyrealloc$4;
-          return_value_yyrealloc$4=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned int)2, yyscanner);
-          b->yy_ch_buf = (char *)return_value_yyrealloc$4;
+          void *return_value_yyrealloc_4;
+          return_value_yyrealloc_4=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned int)2, yyscanner);
+          b->yy_ch_buf = (char *)return_value_yyrealloc_4;
         }
 
         else
@@ -2047,14 +2047,14 @@ static signed int yy_get_next_buffer(void *yyscanner)
       signed int c;
       c=_IO_getc(yyg->yyin_r);
       if(c == -1)
-        tmp_if_expr$5 = 0;
+        tmp_if_expr_5 = 0;
 
       else
       {
         (&yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)0] = (char)c;
-        tmp_if_expr$5 = 1;
+        tmp_if_expr_5 = 1;
       }
-      yyg->yy_n_chars = tmp_if_expr$5;
+      yyg->yy_n_chars = tmp_if_expr_5;
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_n_chars = yyg->yy_n_chars;
     }
     if(yyg->yy_n_chars == 0)
@@ -2092,16 +2092,16 @@ static signed int yy_get_previous_state(void *yyscanner)
   yy_current_state = yyg->yy_start;
   yy_current_state = yy_current_state + yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_at_bol;
   yy_cp = yyg->yytext_r + (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(yy_cp >= yyg->yy_c_buf_p); yy_cp = yy_cp + 1l)
   {
     unsigned char yy_c;
     if(!(*yy_cp == 0))
-      tmp_if_expr$1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      tmp_if_expr_1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
 
     else
-      tmp_if_expr$1 = 1;
-    yy_c = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = 1;
+    yy_c = (unsigned char)tmp_if_expr_1;
     if(!(yy_accept[(signed long int)yy_current_state] == 0))
     {
       yyg->yy_last_accepting_state = yy_current_state;
@@ -2125,41 +2125,41 @@ static signed int yy_get_previous_state(void *yyscanner)
 static void yy_init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file, void *yyscanner)
 {
   signed int oerrno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  oerrno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  oerrno = *return_value___errno_location_1;
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   yy_flush_buffer(b, yyscanner);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  if(!(b == tmp_if_expr$2))
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  if(!(b == tmp_if_expr_2))
   {
     b->yy_bs_lineno = 1;
     b->yy_bs_column = 0;
   }
 
-  signed int tmp_if_expr$5;
-  signed int return_value_fileno$3;
-  signed int return_value_isatty$4;
+  signed int tmp_if_expr_5;
+  signed int return_value_fileno_3;
+  signed int return_value_isatty_4;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fileno$3=fileno(file);
-    return_value_isatty$4=isatty(return_value_fileno$3);
-    tmp_if_expr$5 = (signed int)(return_value_isatty$4 > 0);
+    return_value_fileno_3=fileno(file);
+    return_value_isatty_4=isatty(return_value_fileno_3);
+    tmp_if_expr_5 = (signed int)(return_value_isatty_4 > 0);
   }
 
   else
-    tmp_if_expr$5 = 0;
-  b->yy_is_interactive = tmp_if_expr$5;
-  signed int *return_value___errno_location$6;
-  return_value___errno_location$6=__errno_location();
-  *return_value___errno_location$6 = oerrno;
+    tmp_if_expr_5 = 0;
+  b->yy_is_interactive = tmp_if_expr_5;
+  signed int *return_value___errno_location_6;
+  return_value___errno_location_6=__errno_location();
+  *return_value___errno_location_6 = oerrno;
 }
 
 // yy_init_globals
@@ -2198,26 +2198,26 @@ static void yy_load_buffer_state(void *yyscanner)
 struct yy_buffer_state * yy_scan_buffer(char *base, unsigned int size, void *yyscanner)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_yyalloc$3;
-    return_value_yyalloc$3=yyalloc((unsigned int)sizeof(struct yy_buffer_state) /*64ul*/ , yyscanner);
-    b = (struct yy_buffer_state *)return_value_yyalloc$3;
+    void *return_value_yyalloc_3;
+    return_value_yyalloc_3=yyalloc((unsigned int)sizeof(struct yy_buffer_state) /*64ul*/ , yyscanner);
+    b = (struct yy_buffer_state *)return_value_yyalloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
       yy_fatal_error("out of dynamic memory in yy_scan_buffer()", yyscanner);
 
@@ -2245,9 +2245,9 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, signed int _yybytes_
   unsigned int n;
   signed int i;
   n = (unsigned int)(_yybytes_len + 2);
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(n, yyscanner);
-  buf = (char *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(n, yyscanner);
+  buf = (char *)return_value_yyalloc_1;
   if(buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_scan_bytes()", yyscanner);
 
@@ -2268,11 +2268,11 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, signed int _yybytes_
 // file g15composer.lex.c line 1760
 struct yy_buffer_state * yy_scan_string(const char *yystr, void *yyscanner)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(yystr);
-  struct yy_buffer_state *return_value_yy_scan_bytes$2;
-  return_value_yy_scan_bytes$2=yy_scan_bytes(yystr, (signed int)return_value_strlen$1, yyscanner);
-  return return_value_yy_scan_bytes$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(yystr);
+  struct yy_buffer_state *return_value_yy_scan_bytes_2;
+  return_value_yy_scan_bytes_2=yy_scan_bytes(yystr, (signed int)return_value_strlen_1, yyscanner);
+  return return_value_yy_scan_bytes_2;
 }
 
 // yy_switch_to_buffer
@@ -2281,21 +2281,21 @@ void yy_switch_to_buffer(struct yy_buffer_state *new_buffer, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   yyensure_buffer_stack(yyscanner);
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  if(!(tmp_if_expr$1 == new_buffer))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  if(!(tmp_if_expr_1 == new_buffer))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
     {
       *yyg->yy_c_buf_p = yyg->yy_hold_char;
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buf_pos = yyg->yy_c_buf_p;
@@ -2339,9 +2339,9 @@ static signed int yy_try_NUL_trans(signed int yy_current_state, void *yyscanner)
 // file g15composer.lex.c line 2103
 void * yyalloc(unsigned int size, void *yyscanner)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size);
-  return (void *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size);
+  return (void *)return_value_malloc_1;
 }
 
 // yydestruct
@@ -2363,9 +2363,9 @@ static void yyensure_buffer_stack(void *yyscanner)
   if(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL))
   {
     num_to_alloc = 1;
-    void *return_value_yyalloc$1;
-    return_value_yyalloc$1=yyalloc((unsigned int)((unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ ), yyscanner);
-    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc$1;
+    void *return_value_yyalloc_1;
+    return_value_yyalloc_1=yyalloc((unsigned int)((unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ ), yyscanner);
+    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc_1;
     memset((void *)yyg->yy_buffer_stack, 0, (unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
     yyg->yy_buffer_stack_max = (unsigned long int)num_to_alloc;
     yyg->yy_buffer_stack_top = (unsigned long int)0;
@@ -2376,9 +2376,9 @@ static void yyensure_buffer_stack(void *yyscanner)
   {
     signed int grow_size = 8;
     num_to_alloc = (signed int)(yyg->yy_buffer_stack_max + (unsigned long int)grow_size);
-    void *return_value_yyrealloc$2;
-    return_value_yyrealloc$2=yyrealloc((void *)yyg->yy_buffer_stack, (unsigned int)((unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ ), yyscanner);
-    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc$2;
+    void *return_value_yyrealloc_2;
+    return_value_yyrealloc_2=yyrealloc((void *)yyg->yy_buffer_stack, (unsigned int)((unsigned long int)num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ ), yyscanner);
+    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc_2;
     memset((void *)(yyg->yy_buffer_stack + (signed long int)yyg->yy_buffer_stack_max), 0, (unsigned long int)grow_size * sizeof(struct yy_buffer_state *) /*8ul*/ );
     yyg->yy_buffer_stack_max = (unsigned long int)num_to_alloc;
   }
@@ -2408,13 +2408,13 @@ void yyfree(void *ptr, void *yyscanner)
 signed int yyget_column(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     return 0;
 
   else
@@ -2458,13 +2458,13 @@ signed int yyget_leng(void *yyscanner)
 signed int yyget_lineno(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     return 0;
 
   else
@@ -2505,7 +2505,7 @@ extern signed int yylex(union YYSTYPE *yylval_param, void *yyscanner)
   signed int yy_act;
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   yyg->yylval_r = yylval_param;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(yyg->yy_init == 0)
   {
     yyg->yy_init = 1;
@@ -2519,11 +2519,11 @@ extern signed int yylex(union YYSTYPE *yylval_param, void *yyscanner)
       yyg->yyout_r = stdout;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     {
       yyensure_buffer_stack(yyscanner);
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]=yy_create_buffer(yyg->yyin_r, 16384, yyscanner);
@@ -2533,7 +2533,7 @@ extern signed int yylex(union YYSTYPE *yylval_param, void *yyscanner)
   }
 
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$2;
+  signed int return_value_yy_get_next_buffer_2;
   while((_Bool)1)
   {
     yy_cp = yyg->yy_c_buf_p;
@@ -3003,13 +3003,13 @@ extern signed int yylex(union YYSTYPE *yylval_param, void *yyscanner)
           }
         }
 
-        return_value_yy_get_next_buffer$2=yy_get_next_buffer(yyscanner);
-        if(!(return_value_yy_get_next_buffer$2 == 1))
+        return_value_yy_get_next_buffer_2=yy_get_next_buffer(yyscanner);
+        if(!(return_value_yy_get_next_buffer_2 == 1))
         {
-          if(return_value_yy_get_next_buffer$2 == 0)
+          if(return_value_yy_get_next_buffer_2 == 0)
             goto __CPROVER_DUMP_L97;
 
-          if(return_value_yy_get_next_buffer$2 == 2)
+          if(return_value_yy_get_next_buffer_2 == 2)
             goto __CPROVER_DUMP_L98;
 
           goto __CPROVER_DUMP_L99;
@@ -3058,24 +3058,24 @@ extern signed int yylex(union YYSTYPE *yylval_param, void *yyscanner)
 signed int yylex_destroy(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   do
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
       break;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2, yyscanner);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2, yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     yypop_buffer_state(yyscanner);
   }
@@ -3096,27 +3096,27 @@ signed int yylex_init(void **ptr_yy_globals)
 {
   if(ptr_yy_globals == ((void **)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return 1;
   }
 
-  void *return_value_yyalloc$2;
-  return_value_yyalloc$2=yyalloc((unsigned int)sizeof(struct yyguts_t) /*152ul*/ , (void *)0);
-  *ptr_yy_globals = (void *)return_value_yyalloc$2;
+  void *return_value_yyalloc_2;
+  return_value_yyalloc_2=yyalloc((unsigned int)sizeof(struct yyguts_t) /*152ul*/ , (void *)0);
+  *ptr_yy_globals = (void *)return_value_yyalloc_2;
   if(*ptr_yy_globals == NULL)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 12;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 12;
     return 1;
   }
 
   memset(*ptr_yy_globals, 0x00, sizeof(struct yyguts_t) /*152ul*/ );
-  signed int return_value_yy_init_globals$4;
-  return_value_yy_init_globals$4=yy_init_globals(*ptr_yy_globals);
-  return return_value_yy_init_globals$4;
+  signed int return_value_yy_init_globals_4;
+  return_value_yy_init_globals_4=yy_init_globals(*ptr_yy_globals);
+  return return_value_yy_init_globals_4;
 }
 
 // yyparse
@@ -3170,9 +3170,9 @@ yysetstate:
 
     signed short int *yyss1 = yyss;
     union yyalloc *yyptr;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*8ul*/ ) + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1));
-    yyptr = (union yyalloc *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*8ul*/ ) + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1));
+    yyptr = (union yyalloc *)return_value_malloc_1;
     if(yyptr == ((union yyalloc *)NULL))
       goto yyexhaustedlab;
 
@@ -3187,11 +3187,11 @@ yysetstate:
     while((_Bool)0);
     do
     {
-      unsigned long int yyparse$$1$$1$$1$$2$$yynewbytes;
+      unsigned long int yyparse__1__1__1__2__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyvs, (const void *)yyvs, yysize * sizeof(union YYSTYPE) /*8ul*/ );
       yyvs = &yyptr->yyvs;
-      yyparse$$1$$1$$1$$2$$yynewbytes = yystacksize * sizeof(union YYSTYPE) /*8ul*/  + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(yyparse$$1$$1$$1$$2$$yynewbytes / sizeof(union yyalloc) /*8ul*/ );
+      yyparse__1__1__1__2__yynewbytes = yystacksize * sizeof(union YYSTYPE) /*8ul*/  + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(yyparse__1__1__1__2__yynewbytes / sizeof(union yyalloc) /*8ul*/ );
     }
     while((_Bool)0);
     if(!(yyss1 == yyssa))
@@ -3208,8 +3208,8 @@ yysetstate:
 yybackup:
   ;
   yyn = (signed int)yypact[(signed long int)yystate];
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(yyn == -26))
   {
     if(yychar == -2)
@@ -3224,19 +3224,19 @@ yybackup:
     else
     {
       if(!((unsigned int)yychar >= 292u))
-        tmp_if_expr$2 = (signed int)yytranslate[(signed long int)yychar];
+        tmp_if_expr_2 = (signed int)yytranslate[(signed long int)yychar];
 
       else
-        tmp_if_expr$2 = 2;
-      yytoken = tmp_if_expr$2;
+        tmp_if_expr_2 = 2;
+      yytoken = tmp_if_expr_2;
     }
     yyn = yyn + yytoken;
     if(yyn >= 213 || !(yyn >= 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       yyn = (signed int)yytable[(signed long int)yyn];
       if(!(yyn >= 1))
@@ -3269,8 +3269,8 @@ yybackup:
 yydefault:
   ;
   yyn = (signed int)yydefact[(signed long int)yystate];
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_11;
   if(!(yyn == 0))
   {
 
@@ -3286,11 +3286,11 @@ yydefault:
           return 0;
 
         if(!(((struct parserData *)param)->leaving == 1))
-          tmp_if_expr$4 = ((struct parserData *)param)->cmd_only != 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = ((struct parserData *)param)->cmd_only != 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
           updateScreen(((struct parserData *)param)->canvas, ((struct parserData *)param)->g15screen_fd, 0);
 
         else
@@ -3358,20 +3358,20 @@ yydefault:
           return 0;
 
         signed short int output_line[1048l];
-        signed int yyparse$$1$$6$$9$$len;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen((yyvsp + (signed long int)(6 - 7))->string);
-        yyparse$$1$$6$$9$$len = (signed int)return_value_strlen$5;
+        signed int yyparse__1__6__9__len;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen((yyvsp + (signed long int)(6 - 7))->string);
+        yyparse__1__6__9__len = (signed int)return_value_strlen_5;
         signed int exp = (yyvsp + (signed long int)(4 - 7))->number * (yyvsp + (signed long int)(5 - 7))->number;
-        if(yyparse$$1$$6$$9$$len >= 1049 || !(yyparse$$1$$6$$9$$len == exp))
+        if(yyparse__1__6__9__len >= 1049 || !(yyparse__1__6__9__len == exp))
         {
-          fprintf(stderr, "Error: Expected %d pixels but received %d.\n", exp, yyparse$$1$$6$$9$$len);
+          fprintf(stderr, "Error: Expected %d pixels but received %d.\n", exp, yyparse__1__6__9__len);
           return 1;
         }
 
         signed int i = 0;
         i = 0;
-        for( ; !(i >= yyparse$$1$$6$$9$$len); i = i + 1)
+        for( ; !(i >= yyparse__1__6__9__len); i = i + 1)
         {
           output_line[(signed long int)i] = (signed short int)0;
           if((signed int)(yyvsp + -1l)->string[(signed long int)i] == 49)
@@ -3459,15 +3459,15 @@ yydefault:
         if(((struct parserData *)param)->background == 1)
           return 0;
 
-        struct bufItem *yyparse$$1$$6$$18$$buf = ((struct parserData *)param)->buflist->first_buf;
-        for( ; !(yyparse$$1$$6$$18$$buf->id == (yyvsp + -7l)->number); yyparse$$1$$6$$18$$buf = yyparse$$1$$6$$18$$buf->next)
-          if(yyparse$$1$$6$$18$$buf == ((struct bufItem *)NULL))
+        struct bufItem *yyparse__1__6__18__buf = ((struct parserData *)param)->buflist->first_buf;
+        for( ; !(yyparse__1__6__18__buf->id == (yyvsp + -7l)->number); yyparse__1__6__18__buf = yyparse__1__6__18__buf->next)
+          if(yyparse__1__6__18__buf == ((struct bufItem *)NULL))
             break;
 
-        if(yyparse$$1$$6$$18$$buf == ((struct bufItem *)NULL))
+        if(yyparse__1__6__18__buf == ((struct bufItem *)NULL))
           return -1;
 
-        g15r_drawSprite(((struct parserData *)param)->canvas, yyparse$$1$$6$$18$$buf->buffer, (yyvsp + (signed long int)(3 - 9))->number, (yyvsp + (signed long int)(4 - 9))->number, (yyvsp + (signed long int)(5 - 9))->number, (yyvsp + (signed long int)(6 - 9))->number, (yyvsp + (signed long int)(7 - 9))->number, (yyvsp + (signed long int)(8 - 9))->number, yyparse$$1$$6$$18$$buf->width);
+        g15r_drawSprite(((struct parserData *)param)->canvas, yyparse__1__6__18__buf->buffer, (yyvsp + (signed long int)(3 - 9))->number, (yyvsp + (signed long int)(4 - 9))->number, (yyvsp + (signed long int)(5 - 9))->number, (yyvsp + (signed long int)(6 - 9))->number, (yyvsp + (signed long int)(7 - 9))->number, (yyvsp + (signed long int)(8 - 9))->number, yyparse__1__6__18__buf->width);
         break;
       }
       case 34:
@@ -3579,13 +3579,13 @@ yydefault:
         signed int revert = (yyvsp + (signed long int)(2 - 3))->number == 2 ? 1 : 0;
         signed int dummy = 0;
         signed int at_front;
-        unsigned long int return_value_g15_send_cmd$6;
-        return_value_g15_send_cmd$6=g15_send_cmd(((struct parserData *)param)->g15screen_fd, (unsigned char)118, (unsigned char)dummy);
-        at_front = (signed int)return_value_g15_send_cmd$6;
+        unsigned long int return_value_g15_send_cmd_6;
+        return_value_g15_send_cmd_6=g15_send_cmd(((struct parserData *)param)->g15screen_fd, (unsigned char)118, (unsigned char)dummy);
+        at_front = (signed int)return_value_g15_send_cmd_6;
         signed int user_to_front;
-        unsigned long int return_value_g15_send_cmd$7;
-        return_value_g15_send_cmd$7=g15_send_cmd(((struct parserData *)param)->g15screen_fd, (unsigned char)117, (unsigned char)dummy);
-        user_to_front = (signed int)return_value_g15_send_cmd$7;
+        unsigned long int return_value_g15_send_cmd_7;
+        return_value_g15_send_cmd_7=g15_send_cmd(((struct parserData *)param)->g15screen_fd, (unsigned char)117, (unsigned char)dummy);
+        user_to_front = (signed int)return_value_g15_send_cmd_7;
         signed int sendCmd = 0;
         if(at_front == 1)
         {
@@ -3653,11 +3653,11 @@ yydefault:
 
         ((struct parserData *)param)->listptr = (yyvsp + (signed long int)(2 - 3))->strList;
         ((struct parserData *)param)->itemptr = ((struct parserData *)param)->listptr->first_string;
-        signed int yyparse$$1$$6$$34$$row = 0;
-        yyparse$$1$$6$$34$$row = 0;
-        for( ; !(((struct parserData *)param)->itemptr == ((struct strItem *)NULL)); yyparse$$1$$6$$34$$row = yyparse$$1$$6$$34$$row + 1)
+        signed int yyparse__1__6__34__row = 0;
+        yyparse__1__6__34__row = 0;
+        for( ; !(((struct parserData *)param)->itemptr == ((struct strItem *)NULL)); yyparse__1__6__34__row = yyparse__1__6__34__row + 1)
         {
-          g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse$$1$$6$$34$$row, 1, (unsigned int)0, (unsigned int)0);
+          g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse__1__6__34__row, 1, (unsigned int)0, (unsigned int)0);
           ((struct parserData *)param)->itemptr = ((struct parserData *)param)->itemptr->next_string;
         }
         break;
@@ -3669,11 +3669,11 @@ yydefault:
 
         ((struct parserData *)param)->listptr = (yyvsp + (signed long int)(2 - 3))->strList;
         ((struct parserData *)param)->itemptr = ((struct parserData *)param)->listptr->first_string;
-        signed int yyparse$$1$$6$$35$$row = 0;
-        yyparse$$1$$6$$35$$row = 0;
-        for( ; !(((struct parserData *)param)->itemptr == ((struct strItem *)NULL)); yyparse$$1$$6$$35$$row = yyparse$$1$$6$$35$$row + 1)
+        signed int yyparse__1__6__35__row = 0;
+        yyparse__1__6__35__row = 0;
+        for( ; !(((struct parserData *)param)->itemptr == ((struct strItem *)NULL)); yyparse__1__6__35__row = yyparse__1__6__35__row + 1)
         {
-          g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse$$1$$6$$35$$row, 2, (unsigned int)0, (unsigned int)0);
+          g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse__1__6__35__row, 2, (unsigned int)0, (unsigned int)0);
           ((struct parserData *)param)->itemptr = ((struct parserData *)param)->itemptr->next_string;
         }
         break;
@@ -3685,25 +3685,25 @@ yydefault:
 
         ((struct parserData *)param)->listptr = (yyvsp + (signed long int)(6 - 7))->strList;
         ((struct parserData *)param)->itemptr = ((struct parserData *)param)->listptr->first_string;
-        signed int yyparse$$1$$6$$36$$row = 0;
-        yyparse$$1$$6$$36$$row = 0;
-        for( ; !(((struct parserData *)param)->itemptr == ((struct strItem *)NULL)); yyparse$$1$$6$$36$$row = yyparse$$1$$6$$36$$row + 1)
+        signed int yyparse__1__6__36__row = 0;
+        yyparse__1__6__36__row = 0;
+        for( ; !(((struct parserData *)param)->itemptr == ((struct strItem *)NULL)); yyparse__1__6__36__row = yyparse__1__6__36__row + 1)
         {
           if(!((yyvsp + -2l)->number == 0))
           {
             unsigned int dispcol = (unsigned int)0;
             unsigned int len;
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(((struct parserData *)param)->itemptr->string);
-            len = (unsigned int)return_value_strlen$8;
-            signed int return_value_getDispCol$9;
-            return_value_getDispCol$9=getDispCol((signed int)len, (yyvsp + (signed long int)(4 - 7))->number, (yyvsp + (signed long int)(5 - 7))->number);
-            dispcol = (unsigned int)return_value_getDispCol$9;
-            g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse$$1$$6$$36$$row, (yyvsp + (signed long int)(4 - 7))->number, dispcol, (unsigned int)(yyvsp + (signed long int)(3 - 7))->number);
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(((struct parserData *)param)->itemptr->string);
+            len = (unsigned int)return_value_strlen_8;
+            signed int return_value_getDispCol_9;
+            return_value_getDispCol_9=getDispCol((signed int)len, (yyvsp + (signed long int)(4 - 7))->number, (yyvsp + (signed long int)(5 - 7))->number);
+            dispcol = (unsigned int)return_value_getDispCol_9;
+            g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse__1__6__36__row, (yyvsp + (signed long int)(4 - 7))->number, dispcol, (unsigned int)(yyvsp + (signed long int)(3 - 7))->number);
           }
 
           else
-            g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse$$1$$6$$36$$row, (yyvsp + (signed long int)(4 - 7))->number, (unsigned int)(yyvsp + (signed long int)(2 - 7))->number, (unsigned int)(yyvsp + (signed long int)(3 - 7))->number);
+            g15r_renderString(((struct parserData *)param)->canvas, (unsigned char *)((struct parserData *)param)->itemptr->string, yyparse__1__6__36__row, (yyvsp + (signed long int)(4 - 7))->number, (unsigned int)(yyvsp + (signed long int)(2 - 7))->number, (unsigned int)(yyvsp + (signed long int)(3 - 7))->number);
           ((struct parserData *)param)->itemptr = ((struct parserData *)param)->itemptr->next_string;
         }
         break;
@@ -3715,7 +3715,7 @@ yydefault:
         if(((struct parserData *)param)->background == 1)
           return 0;
 
-        signed int yyparse$$1$$6$$38$$sendCmd = 1;
+        signed int yyparse__1__6__38__sendCmd = 1;
         signed int LEDon = (yyvsp + (signed long int)(3 - 4))->number;
         ((struct parserData *)param)->mkey_state = ((struct parserData *)param)->mkey_state | 0x20;
         switch((yyvsp + (signed long int)(2 - 4))->number)
@@ -3757,10 +3757,10 @@ yydefault:
             break;
           }
           default:
-            yyparse$$1$$6$$38$$sendCmd = 0;
+            yyparse__1__6__38__sendCmd = 0;
         }
         ((struct parserData *)param)->cmd_only = 1;
-        if(yyparse$$1$$6$$38$$sendCmd == 1)
+        if(yyparse__1__6__38__sendCmd == 1)
           send(((struct parserData *)param)->g15screen_fd, (const void *)&((struct parserData *)param)->mkey_state, (unsigned long int)1, 1);
 
         break;
@@ -3787,9 +3787,9 @@ yydefault:
       case 56:
       {
         struct parserData *newParam;
-        void *return_value_malloc$10;
-        return_value_malloc$10=malloc(sizeof(struct parserData) /*96ul*/ );
-        newParam = (struct parserData *)return_value_malloc$10;
+        void *return_value_malloc_10;
+        return_value_malloc_10=malloc(sizeof(struct parserData) /*96ul*/ );
+        newParam = (struct parserData *)return_value_malloc_10;
         newParam->background = 0;
         newParam->threads = ((struct parserData *)param)->threads;
         newParam->fifo_filename=strdup((yyvsp + (signed long int)(2 - 3))->string);
@@ -3809,11 +3809,11 @@ yydefault:
     yyn = (signed int)yyr1[(signed long int)yyn];
     yystate = (signed int)yypgoto[(signed long int)(yyn - 37)] + (signed int)*yyssp;
     if(yystate >= 0 && !(yystate >= 213))
-      tmp_if_expr$11 = yycheck[(signed long int)yystate] == *yyssp ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_11 = yycheck[(signed long int)yystate] == *yyssp ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = (_Bool)0;
+    if(tmp_if_expr_11)
       yystate = (signed int)yytable[(signed long int)yystate];
 
     else
@@ -3827,22 +3827,22 @@ yyerrlab:
   if(yyerrstatus == 0)
   {
     yynerrs = yynerrs + 1;
-    unsigned long int yyparse$$1$$7$$1$$yysize;
-    yyparse$$1$$7$$1$$yysize=yysyntax_error(((char *)NULL), yystate, yychar);
-    if(!(yymsg_alloc >= 18446744073709551615ul) && !(yymsg_alloc >= yyparse$$1$$7$$1$$yysize))
+    unsigned long int yyparse__1__7__1__yysize;
+    yyparse__1__7__1__yysize=yysyntax_error(((char *)NULL), yystate, yychar);
+    if(!(yymsg_alloc >= 18446744073709551615ul) && !(yymsg_alloc >= yyparse__1__7__1__yysize))
     {
-      unsigned long int yyparse$$1$$7$$1$$1$$yyalloc = (unsigned long int)2 * yyparse$$1$$7$$1$$yysize;
-      if(!(yyparse$$1$$7$$1$$1$$yyalloc >= yyparse$$1$$7$$1$$yysize))
-        yyparse$$1$$7$$1$$1$$yyalloc = (unsigned long int)-1;
+      unsigned long int yyparse__1__7__1__1__yyalloc = (unsigned long int)2 * yyparse__1__7__1__yysize;
+      if(!(yyparse__1__7__1__1__yyalloc >= yyparse__1__7__1__yysize))
+        yyparse__1__7__1__1__yyalloc = (unsigned long int)-1;
 
       if(!(yymsg == yymsgbuf))
         free((void *)yymsg);
 
-      void *return_value_malloc$12;
-      return_value_malloc$12=malloc(yyparse$$1$$7$$1$$1$$yyalloc);
-      yymsg = (char *)return_value_malloc$12;
+      void *return_value_malloc_12;
+      return_value_malloc_12=malloc(yyparse__1__7__1__1__yyalloc);
+      yymsg = (char *)return_value_malloc_12;
       if(!(yymsg == ((char *)NULL)))
-        yymsg_alloc = yyparse$$1$$7$$1$$1$$yyalloc;
+        yymsg_alloc = yyparse__1__7__1__1__yyalloc;
 
       else
       {
@@ -3851,7 +3851,7 @@ yyerrlab:
       }
     }
 
-    if(yyparse$$1$$7$$1$$yysize >= 1ul && yymsg_alloc >= yyparse$$1$$7$$1$$yysize)
+    if(yyparse__1__7__1__yysize >= 1ul && yymsg_alloc >= yyparse__1__7__1__yysize)
     {
       yysyntax_error(yymsg, yystate, yychar);
       yyerror(yymsg);
@@ -3860,7 +3860,7 @@ yyerrlab:
     else
     {
       yyerror("syntax error");
-      if(!(yyparse$$1$$7$$1$$yysize == 0ul))
+      if(!(yyparse__1__7__1__yysize == 0ul))
         goto yyexhaustedlab;
 
     }
@@ -3973,32 +3973,32 @@ yyreturn:
 void yypop_buffer_state(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2, yyscanner);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2, yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     if(yyg->yy_buffer_stack_top >= 1ul)
       yyg->yy_buffer_stack_top = yyg->yy_buffer_stack_top - 1ul;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$3 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_3 == ((struct yy_buffer_state *)NULL)))
     {
       yy_load_buffer_state(yyscanner);
       yyg->yy_did_buffer_switch_on_eof = 1;
@@ -4013,17 +4013,17 @@ void yypop_buffer_state(void *yyscanner)
 void yypush_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(new_buffer == ((struct yy_buffer_state *)NULL)))
   {
     yyensure_buffer_stack(yyscanner);
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
     {
       *yyg->yy_c_buf_p = yyg->yy_hold_char;
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buf_pos = yyg->yy_c_buf_p;
@@ -4031,11 +4031,11 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
     }
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
       yyg->yy_buffer_stack_top = yyg->yy_buffer_stack_top + 1ul;
 
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = new_buffer;
@@ -4049,9 +4049,9 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
 // file g15composer.lex.c line 2108
 void * yyrealloc(void *ptr, unsigned int size, void *yyscanner)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)(char *)ptr, (unsigned long int)size);
-  return (void *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)(char *)ptr, (unsigned long int)size);
+  return (void *)return_value_realloc_1;
 }
 
 // yyrestart
@@ -4059,25 +4059,25 @@ void * yyrealloc(void *ptr, unsigned int size, void *yyscanner)
 void yyrestart(struct _IO_FILE *input_file, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
   {
     yyensure_buffer_stack(yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]=yy_create_buffer(yyg->yyin_r, 16384, yyscanner);
   }
 
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  yy_init_buffer(tmp_if_expr$2, input_file, yyscanner);
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  yy_init_buffer(tmp_if_expr_2, input_file, yyscanner);
   yy_load_buffer_state(yyscanner);
 }
 
@@ -4086,13 +4086,13 @@ void yyrestart(struct _IO_FILE *input_file, void *yyscanner)
 void yyset_column(signed int column_no, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("yyset_column called with no buffer", yyscanner);
 
   yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_bs_column = column_no;
@@ -4127,13 +4127,13 @@ void yyset_in(struct _IO_FILE *in_str, void *yyscanner)
 void yyset_lineno(signed int line_number, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("yyset_lineno called with no buffer", yyscanner);
 
   yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_bs_lineno = line_number;
@@ -4161,16 +4161,16 @@ static char * yystpcpy(char *yydest, const char *yysrc)
 {
   char *yyd = yydest;
   const char *yys = yysrc;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   do
   {
-    tmp_post$1 = yyd;
+    tmp_post_1 = yyd;
     yyd = yyd + 1l;
-    tmp_post$2 = yys;
+    tmp_post_2 = yys;
     yys = yys + 1l;
-    *tmp_post$1 = *tmp_post$2;
-    if((signed int)*tmp_post$1 == 0)
+    *tmp_post_1 = *tmp_post_2;
+    if((signed int)*tmp_post_1 == 0)
       break;
 
   }
@@ -4183,10 +4183,10 @@ static char * yystpcpy(char *yydest, const char *yysrc)
 static unsigned long int yysyntax_error(char *yyresult, signed int yystate, signed int yychar)
 {
   signed int yyn = (signed int)yypact[(signed long int)yystate];
-  signed int tmp_if_expr$1;
-  signed int tmp_post$2;
-  _Bool tmp_if_expr$7;
-  signed int tmp_post$5;
+  signed int tmp_if_expr_1;
+  signed int tmp_post_2;
+  _Bool tmp_if_expr_7;
+  signed int tmp_post_5;
   if(!(yyn >= -25) || yyn >= 213)
     return (unsigned long int)0;
 
@@ -4194,11 +4194,11 @@ static unsigned long int yysyntax_error(char *yyresult, signed int yystate, sign
   {
     signed int yytype;
     if(!((unsigned int)yychar >= 292u))
-      tmp_if_expr$1 = (signed int)yytranslate[(signed long int)yychar];
+      tmp_if_expr_1 = (signed int)yytranslate[(signed long int)yychar];
 
     else
-      tmp_if_expr$1 = 2;
-    yytype = tmp_if_expr$1;
+      tmp_if_expr_1 = 2;
+    yytype = tmp_if_expr_1;
     unsigned long int yysize0;
     yysize0=yytnamerr(((char *)NULL), yytname[(signed long int)yytype]);
     unsigned long int yysize = yysize0;
@@ -4232,12 +4232,12 @@ static unsigned long int yysyntax_error(char *yyresult, signed int yystate, sign
             break;
           }
 
-          tmp_post$2 = yycount;
+          tmp_post_2 = yycount;
           yycount = yycount + 1;
-          yyarg[(signed long int)tmp_post$2] = yytname[(signed long int)yyx];
-          unsigned long int return_value_yytnamerr$3;
-          return_value_yytnamerr$3=yytnamerr(((char *)NULL), yytname[(signed long int)yyx]);
-          yysize1 = yysize + return_value_yytnamerr$3;
+          yyarg[(signed long int)tmp_post_2] = yytname[(signed long int)yyx];
+          unsigned long int return_value_yytnamerr_3;
+          return_value_yytnamerr_3=yytnamerr(((char *)NULL), yytname[(signed long int)yyx]);
+          yysize1 = yysize + return_value_yytnamerr_3;
           yysize_overflow = yysize_overflow | (signed int)(yysize1 < yysize);
           yysize = yysize1;
           yyfmt=yystpcpy(yyfmt, yyprefix);
@@ -4248,9 +4248,9 @@ static unsigned long int yysyntax_error(char *yyresult, signed int yystate, sign
       }
 
     yyf = yyformat;
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(yyf);
-    yysize1 = yysize + return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(yyf);
+    yysize1 = yysize + return_value_strlen_4;
     yysize_overflow = yysize_overflow | (signed int)(yysize1 < yysize);
     yysize = yysize1;
     if(!(yysize_overflow == 0))
@@ -4267,17 +4267,17 @@ static unsigned long int yysyntax_error(char *yyresult, signed int yystate, sign
           break;
 
         if((signed int)*yyp == 37)
-          tmp_if_expr$7 = (signed int)yyf[(signed long int)1] == 115 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (signed int)yyf[(signed long int)1] == 115 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(!(yyi >= yycount) && tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(!(yyi >= yycount) && tmp_if_expr_7)
         {
-          tmp_post$5 = yyi;
+          tmp_post_5 = yyi;
           yyi = yyi + 1;
-          unsigned long int return_value_yytnamerr$6;
-          return_value_yytnamerr$6=yytnamerr(yyp, yyarg[(signed long int)tmp_post$5]);
-          yyp = yyp + (signed long int)return_value_yytnamerr$6;
+          unsigned long int return_value_yytnamerr_6;
+          return_value_yytnamerr_6=yytnamerr(yyp, yyarg[(signed long int)tmp_post_5]);
+          yyp = yyp + (signed long int)return_value_yytnamerr_6;
           yyf = yyf + (signed long int)2;
         }
 
@@ -4345,18 +4345,18 @@ static unsigned long int yytnamerr(char *yyres, const char *yystr)
 
 do_not_strip_quotes:
   ;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(yyres == ((char *)NULL))
   {
-    return_value_strlen$1=strlen(yystr);
-    return return_value_strlen$1;
+    return_value_strlen_1=strlen(yystr);
+    return return_value_strlen_1;
   }
 
   else
   {
-    char *return_value_yystpcpy$2;
-    return_value_yystpcpy$2=yystpcpy(yyres, yystr);
-    return (unsigned long int)(return_value_yystpcpy$2 - yyres);
+    char *return_value_yystpcpy_2;
+    return_value_yystpcpy_2=yystpcpy(yyres, yystr);
+    return (unsigned long int)(return_value_yystpcpy_2 - yyres);
   }
 }
 

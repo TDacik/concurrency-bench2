@@ -1,70 +1,70 @@
-// #anon_enum$JCS_UNKNOWN=0$JCS_GRAYSCALE=1$JCS_RGB=2$JCS_YCbCr=3$JCS_CMYK=4$JCS_YCCK=5$JCS_EXT_RGB=6$JCS_EXT_RGBX=7$JCS_EXT_BGR=8$JCS_EXT_BGRX=9$JCS_EXT_XBGR=10$JCS_EXT_XRGB=11$JCS_EXT_RGBA=12$JCS_EXT_BGRA=13$JCS_EXT_ABGR=14$JCS_EXT_ARGB=15$JCS_RGB565=16
+// #anon_enum_JCS_UNKNOWN=0_JCS_GRAYSCALE=1_JCS_RGB=2_JCS_YCbCr=3_JCS_CMYK=4_JCS_YCCK=5_JCS_EXT_RGB=6_JCS_EXT_RGBX=7_JCS_EXT_BGR=8_JCS_EXT_BGRX=9_JCS_EXT_XBGR=10_JCS_EXT_XRGB=11_JCS_EXT_RGBA=12_JCS_EXT_BGRA=13_JCS_EXT_ABGR=14_JCS_EXT_ARGB=15_JCS_RGB565=16
 // file /usr/include/jpeglib.h line 215
-enum anonymous$6 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
+enum anonymous_6 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
 
-// #anon_enum$JDCT_ISLOW=0$JDCT_IFAST=1$JDCT_FLOAT=2
+// #anon_enum_JDCT_ISLOW=0_JDCT_IFAST=1_JDCT_FLOAT=2
 // file /usr/include/jpeglib.h line 244
-enum anonymous$7 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
+enum anonymous_7 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
 
-// tag-#anon#ST[*{S8}$S8$'dev'||*{SYM#tag-#anon#ST[S32'childs'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}$U8$'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'img_cond'|]#}$SYM#tag-#anon#ST[S32'childs'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}$U8$'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'img_cond'|]#$'img'|]
+// tag-#anon#ST[*{S8}_S8_'dev'||*{SYM#tag-#anon#ST[S32'childs'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}_U8_'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'img_cond'|]#}_SYM#tag-#anon#ST[S32'childs'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}_U8_'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'img_cond'|]#_'img'|]
 // file w3camd.c line 80
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR17{U8}$U8$'bits'||ARR256{U8}$U8$'huffval'||U24'$pad0'||S32'sent_table'|]
+// tag-#anon#ST[ARR17{U8}_U8_'bits'||ARR256{U8}_U8_'huffval'||U24'_pad0'||S32'sent_table'|]
 // file /usr/include/jpeglib.h line 101
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]
+// tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]
 // file /usr/include/jpeglib.h line 84
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'childs'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}$U8$'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'img_cond'|]
+// tag-#anon#ST[S32'childs'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}_U8_'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'img_cond'|]
 // file w3camd.c line 54
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'component_id'||S32'component_index'||S32'h_samp_factor'||S32'v_samp_factor'||S32'quant_tbl_no'||S32'dc_tbl_no'||S32'ac_tbl_no'||U32'width_in_blocks'||U32'height_in_blocks'||S32'DCT_scaled_size'||U32'downsampled_width'||U32'downsampled_height'||S32'component_needed'||S32'MCU_width'||S32'MCU_height'||S32'MCU_blocks'||S32'MCU_sample_width'||S32'last_col_width'||S32'last_row_height'||U32'$pad0'||*{SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]#}$SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]#$'quant_table'||*{V}$V$'dct_table'|]
+// tag-#anon#ST[S32'component_id'||S32'component_index'||S32'h_samp_factor'||S32'v_samp_factor'||S32'quant_tbl_no'||S32'dc_tbl_no'||S32'ac_tbl_no'||U32'width_in_blocks'||U32'height_in_blocks'||S32'DCT_scaled_size'||U32'downsampled_width'||U32'downsampled_height'||S32'component_needed'||S32'MCU_width'||S32'MCU_height'||S32'MCU_blocks'||S32'MCU_sample_width'||S32'last_col_width'||S32'last_row_height'||U32'_pad0'||*{SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]#}_SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]#_'quant_table'||*{V}_V_'dct_table'|]
 // file /usr/include/jpeglib.h line 117
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'comps_in_scan'||ARR4{S32}$S32$'component_index'||S32'Ss'||S32'Se'||S32'Ah'||S32'Al'|]
+// tag-#anon#ST[S32'comps_in_scan'||ARR4{S32}_S32_'component_index'||S32'Ss'||S32'Se'||S32'Ah'||S32'Al'|]
 // file /usr/include/jpeglib.h line 190
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'fd'||S32'map_size'||*{S8}$S8$'mem'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'fd'||S32'map_size'||*{S8}_S8_'mem'||S32'width'||S32'height'|]
 // file w3v4l.h line 25
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'fd'||S32'verbose'||*{S8}$S8$'url'||*{S8}$S8$'image'||S32'image_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'childs'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}$U8$'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'img_cond'|]#}$SYM#tag-#anon#ST[S32'childs'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}$U8$'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'img_cond'|]#$'img'||U64'thread'||F32'refresh'||S32'quality'|]
+// tag-#anon#ST[S32'fd'||S32'verbose'||*{S8}_S8_'url'||*{S8}_S8_'image'||S32'image_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'childs'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}_U8_'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'img_cond'|]#}_SYM#tag-#anon#ST[S32'childs'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'childs_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'childs_cond'||S32'state'||S32'width'||S32'height'||S32'input'||*{U8}_U8_'img'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'img_lock'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'img_cond'|]#_'img'||U64'thread'||F32'refresh'||S32'quality'|]
 // file w3camd.c line 67
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'num'||U32'$pad0'||*{S8}$S8$'str'||S32'len'||U32'$pad1'|]
+// tag-#anon#ST[S32'num'||U32'_pad0'||*{S8}_S8_'str'||S32'len'||U32'_pad1'|]
 // file w3http.h line 25
 struct anonymous;
 
-// tag-#anon#ST[SYM#tag-jpeg_destination_mgr#'pub'||S32'fd'||U32'$pad0'||*{U8}$U8$'buffer'|]
+// tag-#anon#ST[SYM#tag-jpeg_destination_mgr#'pub'||S32'fd'||U32'_pad0'||*{U8}_U8_'buffer'|]
 // file w3jpeg.c line 29
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[ARR8{S32}$S32$'i'||ARR80{S8}$S8$'s'|]
+// tag-#anon#UN[ARR8{S32}_S32_'i'||ARR80{S8}_S8_'s'|]
 // file /usr/include/jpeglib.h line 736
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -237,13 +237,13 @@ extern void * calloc(unsigned long int, unsigned long int);
 extern signed int close(signed int);
 // e_error
 // file w3camd.c line 246
-void e_error(struct anonymous$15 *cn);
+void e_error(struct anonymous_15 *cn);
 // e_help
 // file w3camd.c line 209
-void e_help(struct anonymous$15 *cn);
+void e_help(struct anonymous_15 *cn);
 // e_wrong_url
 // file w3camd.c line 229
-void e_wrong_url(struct anonymous$15 *cn);
+void e_wrong_url(struct anonymous_15 *cn);
 // empty_output_buffer
 // file w3jpeg.c line 59
 static signed int empty_output_buffer(struct jpeg_compress_struct *cinfo);
@@ -366,16 +366,16 @@ extern void perror(const char *);
 extern signed int printf(const char *, ...);
 // process_url
 // file w3camd.c line 262
-void process_url(struct anonymous$15 *cn);
+void process_url(struct anonymous_15 *cn);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$10 *);
+extern signed int pthread_cond_broadcast(union anonymous_10 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$10 *, const union anonymous$11 *);
+extern signed int pthread_cond_init(union anonymous_10 *, const union anonymous_11 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$10 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_10 *, union anonymous_0 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -384,13 +384,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_detach(unsigned long int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$11 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_11 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -447,29 +447,29 @@ void usage(char *pname);
 extern signed int usleep(unsigned int);
 // v4l_fini
 // file w3v4l.h line 33
-void v4l_fini(struct anonymous$13 *vid);
+void v4l_fini(struct anonymous_13 *vid);
 // v4l_image
 // file w3v4l.h line 34
-signed int v4l_image(struct anonymous$13 *vid);
+signed int v4l_image(struct anonymous_13 *vid);
 // v4l_init
 // file w3v4l.h line 32
-struct anonymous$13 * v4l_init(char *dev, signed int input, signed int width, signed int height);
+struct anonymous_13 * v4l_init(char *dev, signed int input, signed int width, signed int height);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 // write_jpeg
 // file w3camd.c line 101
-signed int write_jpeg(struct anonymous$9 *img, signed int fd, signed int quality);
+signed int write_jpeg(struct anonymous_9 *img, signed int fd, signed int quality);
 
-struct anonymous$8
+struct anonymous_8
 {
   // dev
   char *dev;
   // img
-  struct anonymous$9 *img;
+  struct anonymous_9 *img;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // bits
   unsigned char bits[17l];
@@ -479,7 +479,7 @@ struct anonymous$2
   signed int sent_table;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // quantval
   unsigned short int quantval[64l];
@@ -487,7 +487,7 @@ struct anonymous$1
   signed int sent_table;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __lock
   signed int __lock;
@@ -535,7 +535,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -545,24 +545,24 @@ union anonymous$0
   signed long int __align;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
-  struct anonymous$3 __data;
+  struct anonymous_3 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // childs
   signed int childs;
   // childs_lock
-  union anonymous$0 childs_lock;
+  union anonymous_0 childs_lock;
   // childs_cond
-  union anonymous$10 childs_cond;
+  union anonymous_10 childs_cond;
   // state
   signed int state;
   // width
@@ -574,12 +574,12 @@ struct anonymous$9
   // img
   unsigned char *img;
   // img_lock
-  union anonymous$0 img_lock;
+  union anonymous_0 img_lock;
   // img_cond
-  union anonymous$10 img_cond;
+  union anonymous_10 img_cond;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // component_id
   signed int component_id;
@@ -620,12 +620,12 @@ struct anonymous$4
   // last_row_height
   signed int last_row_height;
   // quant_table
-  struct anonymous$1 *quant_table;
+  struct anonymous_1 *quant_table;
   // dct_table
   void *dct_table;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // comps_in_scan
   signed int comps_in_scan;
@@ -641,7 +641,7 @@ struct anonymous$5
   signed int Al;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // fd
   signed int fd;
@@ -655,7 +655,7 @@ struct anonymous$13
   signed int height;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // fd
   signed int fd;
@@ -668,7 +668,7 @@ struct anonymous$15
   // image_size
   signed int image_size;
   // img
-  struct anonymous$9 *img;
+  struct anonymous_9 *img;
   // thread
   unsigned long int thread;
   // refresh
@@ -701,7 +701,7 @@ struct jpeg_destination_mgr
   void (*term_destination)(struct jpeg_compress_struct *);
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // pub
   struct jpeg_destination_mgr pub;
@@ -711,7 +711,7 @@ struct anonymous$14
   unsigned char *buffer;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __size
   char __size[4l];
@@ -719,7 +719,7 @@ union anonymous$11
   signed int __align;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // i
   signed int i[8l];
@@ -858,7 +858,7 @@ struct jpeg_compress_struct
   // input_components
   signed int input_components;
   // in_color_space
-  enum anonymous$6 in_color_space;
+  enum anonymous_6 in_color_space;
   // input_gamma
   double input_gamma;
   // data_precision
@@ -866,15 +866,15 @@ struct jpeg_compress_struct
   // num_components
   signed int num_components;
   // jpeg_color_space
-  enum anonymous$6 jpeg_color_space;
+  enum anonymous_6 jpeg_color_space;
   // comp_info
-  struct anonymous$4 *comp_info;
+  struct anonymous_4 *comp_info;
   // quant_tbl_ptrs
-  struct anonymous$1 *quant_tbl_ptrs[4l];
+  struct anonymous_1 *quant_tbl_ptrs[4l];
   // dc_huff_tbl_ptrs
-  struct anonymous$2 *dc_huff_tbl_ptrs[4l];
+  struct anonymous_2 *dc_huff_tbl_ptrs[4l];
   // ac_huff_tbl_ptrs
-  struct anonymous$2 *ac_huff_tbl_ptrs[4l];
+  struct anonymous_2 *ac_huff_tbl_ptrs[4l];
   // arith_dc_L
   unsigned char arith_dc_L[16l];
   // arith_dc_U
@@ -884,7 +884,7 @@ struct jpeg_compress_struct
   // num_scans
   signed int num_scans;
   // scan_info
-  const struct anonymous$5 *scan_info;
+  const struct anonymous_5 *scan_info;
   // raw_data_in
   signed int raw_data_in;
   // arith_code
@@ -896,7 +896,7 @@ struct jpeg_compress_struct
   // smoothing_factor
   signed int smoothing_factor;
   // dct_method
-  enum anonymous$7 dct_method;
+  enum anonymous_7 dct_method;
   // restart_interval
   unsigned int restart_interval;
   // restart_in_rows
@@ -928,7 +928,7 @@ struct jpeg_compress_struct
   // comps_in_scan
   signed int comps_in_scan;
   // cur_comp_info
-  struct anonymous$4 *cur_comp_info[4l];
+  struct anonymous_4 *cur_comp_info[4l];
   // MCUs_per_row
   unsigned int MCUs_per_row;
   // MCU_rows_in_scan
@@ -964,7 +964,7 @@ struct jpeg_compress_struct
   // entropy
   struct jpeg_entropy_encoder *entropy;
   // script_space
-  struct anonymous$5 *script_space;
+  struct anonymous_5 *script_space;
   // script_space_size
   signed int script_space_size;
 };
@@ -984,7 +984,7 @@ struct jpeg_error_mgr
   // msg_code
   signed int msg_code;
   // msg_parm
-  union anonymous$12 msg_parm;
+  union anonymous_12 msg_parm;
   // trace_level
   signed int trace_level;
   // num_warnings
@@ -1221,9 +1221,9 @@ extern struct _IO_FILE *stderr;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // accept_con
@@ -1233,21 +1233,21 @@ signed int accept_con(signed int sd)
   signed int nd = -1;
   signed int len;
   struct sockaddr raddr;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     nd=accept(sd, &raddr, (unsigned int *)&len);
     if(!(nd >= 1))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(nd >= 0))
     return -1;
 
@@ -1259,18 +1259,18 @@ signed int accept_con(signed int sd)
 // file /usr/include/x86_64-linux-gnu/bits/stdlib-float.h line 26
 static inline double atof(const char *__nptr)
 {
-  double return_value_strtod$1;
-  return_value_strtod$1=strtod(__nptr, (char **)(void *)0);
-  return return_value_strtod$1;
+  double return_value_strtod_1;
+  return_value_strtod_1=strtod(__nptr, (char **)(void *)0);
+  return return_value_strtod_1;
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // bind_port
@@ -1282,14 +1282,14 @@ signed int bind_port(char *host, signed int port)
   signed int one = 1;
   memset((void *)(char *)&addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   addr.sin_family = (unsigned short int)2;
-  unsigned long int return_value_host_addr$1;
-  return_value_host_addr$1=host_addr(host);
-  addr.sin_addr.s_addr = (unsigned int)return_value_host_addr$1;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  unsigned short int tmp_statement_expression$3;
-  signed int return_value_listen$6;
-  if(*return_value___errno_location$2 == 22)
+  unsigned long int return_value_host_addr_1;
+  return_value_host_addr_1=host_addr(host);
+  addr.sin_addr.s_addr = (unsigned int)return_value_host_addr_1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  unsigned short int tmp_statement_expression_3;
+  signed int return_value_listen_6;
+  if(*return_value___errno_location_2 == 22)
   {
     perror(host);
     return -1;
@@ -1300,9 +1300,9 @@ signed int bind_port(char *host, signed int port)
     {
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$3 = __v;
-      addr.sin_port = tmp_statement_expression$3;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_3 = __v;
+      addr.sin_port = tmp_statement_expression_3;
     }
     sd=socket(2, 1, 0);
     if(!(sd >= 0))
@@ -1315,9 +1315,9 @@ signed int bind_port(char *host, signed int port)
     {
       printf("%s, sd=%d host_addr()=%d\n", (const void *)"w3socket.c", sd, addr.sin_addr.s_addr);
       setsockopt(sd, 1, 2, (const void *)(char *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
-      signed int return_value_bind$5;
-      return_value_bind$5=bind(sd, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_bind$5 >= 0))
+      signed int return_value_bind_5;
+      return_value_bind_5=bind(sd, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_bind_5 >= 0))
       {
         close(sd);
         perror("bind()");
@@ -1328,13 +1328,13 @@ signed int bind_port(char *host, signed int port)
       {
         do
         {
-          return_value_listen$6=listen(sd, 3);
-          if(!(return_value_listen$6 == -1))
+          return_value_listen_6=listen(sd, 3);
+          if(!(return_value_listen_6 == -1))
             break;
 
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          if(!(*return_value___errno_location$7 == 4))
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          if(!(*return_value___errno_location_7 == 4))
             return -1;
 
         }
@@ -1347,7 +1347,7 @@ signed int bind_port(char *host, signed int port)
 
 // e_error
 // file w3camd.c line 246
-void e_error(struct anonymous$15 *cn)
+void e_error(struct anonymous_15 *cn)
 {
   char buf[64l];
   http_status(cn->fd, 6);
@@ -1355,57 +1355,57 @@ void e_error(struct anonymous$15 *cn)
   http_header(cn->fd, 1, "text/plain");
   http_header(cn->fd, 5, (char *)(void *)0);
   sprintf(buf, "can't read image! device busy?!\n");
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  write(cn->fd, (const void *)buf, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  write(cn->fd, (const void *)buf, return_value_strlen_1);
 }
 
 // e_help
 // file w3camd.c line 209
-void e_help(struct anonymous$15 *cn)
+void e_help(struct anonymous_15 *cn)
 {
   char buf[16l];
   char *e = "Usage:\n  /image[?quality=<#>[&stream]] - retrieve an image\n  /help                - see these lines\n";
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(e);
-  sprintf(buf, "%d", return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(e);
+  sprintf(buf, "%d", return_value_strlen_1);
   http_status(cn->fd, 2);
   http_header(cn->fd, 0, "w3camd/0.3");
   http_header(cn->fd, 1, "text/plain");
   http_header(cn->fd, 2, buf);
   http_header(cn->fd, 5, (char *)(void *)0);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(e);
-  write(cn->fd, (const void *)e, return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(e);
+  write(cn->fd, (const void *)e, return_value_strlen_2);
 }
 
 // e_wrong_url
 // file w3camd.c line 229
-void e_wrong_url(struct anonymous$15 *cn)
+void e_wrong_url(struct anonymous_15 *cn)
 {
   char buf[16l];
   char *e = "wrong url!\n  try \"/help\"\n";
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(e);
-  sprintf(buf, "%d", return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(e);
+  sprintf(buf, "%d", return_value_strlen_1);
   http_status(cn->fd, 6);
   http_header(cn->fd, 0, "w3camd/0.3");
   http_header(cn->fd, 1, "text/plain");
   http_header(cn->fd, 2, buf);
   http_header(cn->fd, 5, (char *)(void *)0);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(e);
-  write(cn->fd, (const void *)e, return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(e);
+  write(cn->fd, (const void *)e, return_value_strlen_2);
 }
 
 // empty_output_buffer
 // file w3jpeg.c line 59
 static signed int empty_output_buffer(struct jpeg_compress_struct *cinfo)
 {
-  struct anonymous$14 *dest = (struct anonymous$14 *)cinfo->dest;
-  signed long int return_value_write$1;
-  return_value_write$1=write(dest->fd, (const void *)dest->buffer, (unsigned long int)2048);
-  if(!(return_value_write$1 == 2048l))
+  struct anonymous_14 *dest = (struct anonymous_14 *)cinfo->dest;
+  signed long int return_value_write_1;
+  return_value_write_1=write(dest->fd, (const void *)dest->buffer, (unsigned long int)2048);
+  if(!(return_value_write_1 == 2048l))
   {
     return 0;
     cinfo->err->msg_code = 37;
@@ -1430,9 +1430,9 @@ static char * hex_to_asc(const char *str, signed int len)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(len + 1));
-    s = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(len + 1));
+    s = (char *)return_value_malloc_1;
     p = s;
     buff[(signed long int)2] = (char)0;
     for( ; !(*str == 0); p = p + 1l)
@@ -1471,34 +1471,34 @@ unsigned long int host_addr(char *host)
 {
   unsigned long int bhost = (unsigned long int)0;
   struct hostent *hostp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(host == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)*host == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*host == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (unsigned long int)(unsigned int)0x00000000;
 
   else
   {
-    unsigned int return_value_inet_addr$2;
-    return_value_inet_addr$2=inet_addr(host);
-    bhost = (unsigned long int)return_value_inet_addr$2;
+    unsigned int return_value_inet_addr_2;
+    return_value_inet_addr_2=inet_addr(host);
+    bhost = (unsigned long int)return_value_inet_addr_2;
     hostp=gethostbyname(host);
     if(hostp == ((struct hostent *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 22;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 22;
       return (unsigned long int)-1;
     }
 
     if(!(hostp->h_addrtype == 2))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 22;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 22;
       return (unsigned long int)-1;
     }
 
@@ -1511,7 +1511,7 @@ unsigned long int host_addr(char *host)
 char * http_arg_val(char **args, char *key)
 {
   char *val = (char *)(void *)0;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(args == ((char **)NULL))
     return (char *)(void *)0;
 
@@ -1525,10 +1525,10 @@ char * http_arg_val(char **args, char *key)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(key, *args);
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(key, *args);
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
           return args[(signed long int)1];
 
       }
@@ -1541,15 +1541,15 @@ char * http_arg_val(char **args, char *key)
 void http_free_args(char **args)
 {
   char **p;
-  char **tmp_post$1;
+  char **tmp_post_1;
   if(!(args == ((char **)NULL)))
   {
     p = args;
     while(!(*p == ((char *)NULL)))
     {
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      free((void *)*tmp_post$1);
+      free((void *)*tmp_post_1);
     }
     free((void *)args);
   }
@@ -1569,25 +1569,25 @@ signed int http_header(signed int fd, signed int no, char *value)
 
   c = &_http_header[(signed long int)no];
   sprintf(buf, "%s", c->str);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  signed long int return_value_write$2;
-  return_value_write$2=write(fd, (const void *)buf, return_value_strlen$1);
-  rc = (signed int)return_value_write$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  signed long int return_value_write_2;
+  return_value_write_2=write(fd, (const void *)buf, return_value_strlen_1);
+  rc = (signed int)return_value_write_2;
   if(!(value == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(value);
-    len = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(value);
+    len = (signed int)return_value_strlen_3;
     if(len >= 2049)
       value = "--buffer too short!--";
 
     sprintf(buf, "%s\r\n", value);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(buf);
-    signed long int return_value_write$5;
-    return_value_write$5=write(fd, (const void *)buf, return_value_strlen$4);
-    rc = rc + (signed int)return_value_write$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(buf);
+    signed long int return_value_write_5;
+    return_value_write_5=write(fd, (const void *)buf, return_value_strlen_4);
+    rc = rc + (signed int)return_value_write_5;
   }
 
   return rc;
@@ -1600,9 +1600,9 @@ char * http_parse(char *buf, char ***args)
   char *url;
   char *ep;
   signed int len;
-  signed int return_value_strncasecmp$1;
-  return_value_strncasecmp$1=strncasecmp(buf, "GET ", (unsigned long int)4);
-  if(!(return_value_strncasecmp$1 == 0))
+  signed int return_value_strncasecmp_1;
+  return_value_strncasecmp_1=strncasecmp(buf, "GET ", (unsigned long int)4);
+  if(!(return_value_strncasecmp_1 == 0))
     return (char *)(void *)0;
 
   else
@@ -1617,9 +1617,9 @@ char * http_parse(char *buf, char ***args)
     else
     {
       len = (signed int)((ep - buf) - (signed long int)4);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)(len + 1));
-      url = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)(len + 1));
+      url = (char *)return_value_malloc_2;
       if(url == ((char *)NULL))
         return (char *)(void *)0;
 
@@ -1630,9 +1630,9 @@ char * http_parse(char *buf, char ***args)
         if(!(args == ((char ***)NULL)))
         {
           char *p;
-          char *return_value___builtin_strchr$3;
-          return_value___builtin_strchr$3=__builtin_strchr(url, 63);
-          p = return_value___builtin_strchr$3;
+          char *return_value___builtin_strchr_3;
+          return_value___builtin_strchr_3=__builtin_strchr(url, 63);
+          p = return_value___builtin_strchr_3;
           if(!(p == ((char *)NULL)))
             *args=parse_string(p + (signed long int)1);
 
@@ -1656,11 +1656,11 @@ signed int http_status(signed int fd, signed int no)
 
   c = &_http_status[(signed long int)no];
   sprintf(buf, "HTTP/1.1 %d %s\r\n", c->num, c->str);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  signed long int return_value_write$2;
-  return_value_write$2=write(fd, (const void *)buf, return_value_strlen$1);
-  rc = (signed int)return_value_write$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  signed long int return_value_write_2;
+  return_value_write_2=write(fd, (const void *)buf, return_value_strlen_1);
+  rc = (signed int)return_value_write_2;
   return rc;
 }
 
@@ -1668,13 +1668,13 @@ signed int http_status(signed int fd, signed int no)
 // file w3camd.c line 153
 void * image_thread(void *data)
 {
-  struct anonymous$8 *cam = (struct anonymous$8 *)data;
-  struct anonymous$9 *img = cam->img;
-  struct anonymous$13 *vid;
+  struct anonymous_8 *cam = (struct anonymous_8 *)data;
+  struct anonymous_9 *img = cam->img;
+  struct anonymous_13 *vid;
   printf("%s: image_thread() img->childs=%d\n", (const void *)"w3camd.c", img->childs);
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  printf("%s:  pid = %d\n", (const void *)"w3camd.c", return_value_getpid$1);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  printf("%s:  pid = %d\n", (const void *)"w3camd.c", return_value_getpid_1);
   do
   {
 
@@ -1692,7 +1692,7 @@ void * image_thread(void *data)
     }
     pthread_mutex_unlock(&img->childs_lock);
     vid=v4l_init(cam->dev, img->input, img->width, img->height);
-    if(vid == ((struct anonymous$13 *)NULL))
+    if(vid == ((struct anonymous_13 *)NULL))
     {
       img->state = 1;
       printf("%s: can't init v4l\n", (const void *)"w3camd.c");
@@ -1703,9 +1703,9 @@ void * image_thread(void *data)
     vid->height = img->height;
     while(img->childs >= 1)
     {
-      signed int return_value_v4l_image$2;
-      return_value_v4l_image$2=v4l_image(vid);
-      if(return_value_v4l_image$2 == 0)
+      signed int return_value_v4l_image_2;
+      return_value_v4l_image_2=v4l_image(vid);
+      if(return_value_v4l_image_2 == 0)
       {
         img->state = 1;
         printf("image_thread() error\n");
@@ -1735,7 +1735,7 @@ void * image_thread(void *data)
 // file w3jpeg.c line 43
 static void init_destination(struct jpeg_compress_struct *cinfo)
 {
-  struct anonymous$14 *dest = (struct anonymous$14 *)cinfo->dest;
+  struct anonymous_14 *dest = (struct anonymous_14 *)cinfo->dest;
   void *return_value;
   return_value=cinfo->mem->alloc_small((struct jpeg_common_struct *)cinfo, 1, (unsigned long int)2048 * sizeof(unsigned char) /*1ul*/ );
   dest->buffer = (unsigned char *)return_value;
@@ -1747,15 +1747,15 @@ static void init_destination(struct jpeg_compress_struct *cinfo)
 // file w3jpeg.h line 24
 void jpeg_io_dest(struct jpeg_compress_struct *cinfo, signed int fd)
 {
-  struct anonymous$14 *dest;
+  struct anonymous_14 *dest;
   if(cinfo->dest == ((struct jpeg_destination_mgr *)NULL))
   {
     void *return_value;
-    return_value=cinfo->mem->alloc_small((struct jpeg_common_struct *)cinfo, 0, sizeof(struct anonymous$14) /*56ul*/ );
+    return_value=cinfo->mem->alloc_small((struct jpeg_common_struct *)cinfo, 0, sizeof(struct anonymous_14) /*56ul*/ );
     cinfo->dest = (struct jpeg_destination_mgr *)return_value;
   }
 
-  dest = (struct anonymous$14 *)cinfo->dest;
+  dest = (struct anonymous_14 *)cinfo->dest;
   dest->pub.init_destination = init_destination;
   dest->pub.empty_output_buffer = empty_output_buffer;
   dest->pub.term_destination = term_destination;
@@ -1777,10 +1777,10 @@ signed int main(signed int argc, char **argv)
   signed int height = 180;
   signed int port = 8999;
   char *host = "localhost";
-  struct anonymous$15 *cn;
-  struct anonymous$9 *img;
+  struct anonymous_15 *cn;
+  struct anonymous_9 *img;
   unsigned long int ithread;
-  struct anonymous$8 cam;
+  struct anonymous_8 cam;
   cam.dev = "/dev/video0";
   do
   {
@@ -1835,17 +1835,17 @@ signed int main(signed int argc, char **argv)
     }
   }
   while((_Bool)1);
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(verbose == 0))
   {
-    return_value_getpid$1=getpid();
-    printf("main thread pid = %d\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    printf("main thread pid = %d\n", return_value_getpid_1);
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct anonymous$9) /*208ul*/  + (unsigned long int)(3 * 768 * 576));
-  img = (struct anonymous$9 *)return_value_malloc$2;
-  if(img == ((struct anonymous$9 *)NULL))
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct anonymous_9) /*208ul*/  + (unsigned long int)(3 * 768 * 576));
+  img = (struct anonymous_9 *)return_value_malloc_2;
+  if(img == ((struct anonymous_9 *)NULL))
     exit(1);
 
   img->img = (unsigned char *)(img + (signed long int)1);
@@ -1857,10 +1857,10 @@ signed int main(signed int argc, char **argv)
   cam.img = img;
   signal(13, on_sig_pipe);
   signal(11, on_signal);
-  pthread_mutex_init(&img->childs_lock, (const union anonymous$11 *)(void *)0);
-  pthread_mutex_init(&img->img_lock, (const union anonymous$11 *)(void *)0);
-  pthread_cond_init(&img->childs_cond, (const union anonymous$11 *)(void *)0);
-  pthread_cond_init(&img->img_cond, (const union anonymous$11 *)(void *)0);
+  pthread_mutex_init(&img->childs_lock, (const union anonymous_11 *)(void *)0);
+  pthread_mutex_init(&img->img_lock, (const union anonymous_11 *)(void *)0);
+  pthread_cond_init(&img->childs_cond, (const union anonymous_11 *)(void *)0);
+  pthread_cond_init(&img->img_cond, (const union anonymous_11 *)(void *)0);
   sd=bind_port(host, port);
   if(!(verbose == 0))
     printf("bind %s:%d to file descriptor %d\n", host, port, sd);
@@ -1895,10 +1895,10 @@ signed int main(signed int argc, char **argv)
           img->childs = img->childs + 1;
           pthread_cond_broadcast(&img->childs_cond);
           pthread_mutex_unlock(&img->childs_lock);
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc(sizeof(struct anonymous$15) /*56ul*/ );
-          cn = (struct anonymous$15 *)return_value_malloc$3;
-          if(cn == ((struct anonymous$15 *)NULL))
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc(sizeof(struct anonymous_15) /*56ul*/ );
+          cn = (struct anonymous_15 *)return_value_malloc_3;
+          if(cn == ((struct anonymous_15 *)NULL))
             exit(2);
 
           cn->fd = cd;
@@ -1927,9 +1927,9 @@ static void on_sig_pipe(signed int signum)
 // file w3camd.c line 401
 static void on_signal(signed int signum)
 {
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  printf("%d received signal %d\n", return_value_getpid$1, signum);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  printf("%d received signal %d\n", return_value_getpid_1, signum);
   exit(1);
 }
 
@@ -1943,8 +1943,8 @@ static char ** parse_string(const char *str)
   signed int num = 1;
   signed int i;
   signed int len;
-  char *return_value___builtin_strchr$1;
-  char *return_value___builtin_strchr$3;
+  char *return_value___builtin_strchr_1;
+  char *return_value___builtin_strchr_3;
   if(str == ((const char *)NULL))
     return (char **)(void *)0;
 
@@ -1953,8 +1953,8 @@ static char ** parse_string(const char *str)
     p = str;
     do
     {
-      return_value___builtin_strchr$1=__builtin_strchr(p, 38);
-      p = return_value___builtin_strchr$1;
+      return_value___builtin_strchr_1=__builtin_strchr(p, 38);
+      p = return_value___builtin_strchr_1;
       if(p == ((const char *)NULL))
         break;
 
@@ -1962,9 +1962,9 @@ static char ** parse_string(const char *str)
       p = p + 1l;
     }
     while((_Bool)1);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)(num * 2 + 1), sizeof(char **) /*8ul*/ );
-    kv = (char **)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)(num * 2 + 1), sizeof(char **) /*8ul*/ );
+    kv = (char **)return_value_calloc_2;
     p = str;
     i = 0;
     do
@@ -2010,8 +2010,8 @@ static char ** parse_string(const char *str)
 
         i = i + 1;
       }
-      return_value___builtin_strchr$3=__builtin_strchr(p, 38);
-      p = return_value___builtin_strchr$3;
+      return_value___builtin_strchr_3=__builtin_strchr(p, 38);
+      p = return_value___builtin_strchr_3;
     }
     while(!(p == ((const char *)NULL)));
     return kv;
@@ -2020,28 +2020,28 @@ static char ** parse_string(const char *str)
 
 // process_url
 // file w3camd.c line 262
-void process_url(struct anonymous$15 *cn)
+void process_url(struct anonymous_15 *cn)
 {
   char rfc1123[64l];
   signed long int gmt;
   signed int stream = 0;
   char buf[128l];
   gmt=time((signed long int *)(void *)0);
-  struct tm *return_value_gmtime$1;
-  return_value_gmtime$1=gmtime(&gmt);
-  strftime(rfc1123, (unsigned long int)64, "%a, %d %b %Y %H:%M:%S GMT", return_value_gmtime$1);
+  struct tm *return_value_gmtime_1;
+  return_value_gmtime_1=gmtime(&gmt);
+  strftime(rfc1123, (unsigned long int)64, "%a, %d %b %Y %H:%M:%S GMT", return_value_gmtime_1);
   if(cn->url == ((char *)NULL))
     e_wrong_url(cn);
 
   else
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(cn->url, "/image", (unsigned long int)6);
-    if(!(return_value_strncmp$3 == 0))
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(cn->url, "/image", (unsigned long int)6);
+    if(!(return_value_strncmp_3 == 0))
     {
-      signed int return_value_strncmp$2;
-      return_value_strncmp$2=strncmp(cn->url, "/help", (unsigned long int)5);
-      if(return_value_strncmp$2 == 0)
+      signed int return_value_strncmp_2;
+      return_value_strncmp_2=strncmp(cn->url, "/help", (unsigned long int)5);
+      if(return_value_strncmp_2 == 0)
         e_help(cn);
 
       else
@@ -2049,9 +2049,9 @@ void process_url(struct anonymous$15 *cn)
       goto __CPROVER_DUMP_L15;
     }
 
-    char *return_value_strstr$4;
-    return_value_strstr$4=strstr(cn->url, "stream");
-    if(!(return_value_strstr$4 == ((char *)NULL)))
+    char *return_value_strstr_4;
+    return_value_strstr_4=strstr(cn->url, "stream");
+    if(!(return_value_strstr_4 == ((char *)NULL)))
       stream = 1;
 
     if(cn->img->state == 1)
@@ -2077,18 +2077,18 @@ void process_url(struct anonymous$15 *cn)
           if(!(stream == 0))
           {
             sprintf(buf, "\n%s\n", (const void *)"--w3camd-ns-boundary--may-not-work-with-ie--");
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(buf);
-            write(cn->fd, (const void *)buf, return_value_strlen$5);
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(buf);
+            write(cn->fd, (const void *)buf, return_value_strlen_5);
             sprintf(buf, "Content-Type: image/jpeg\n\n");
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(buf);
-            write(cn->fd, (const void *)buf, return_value_strlen$6);
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(buf);
+            write(cn->fd, (const void *)buf, return_value_strlen_6);
           }
 
-          signed int return_value_write_jpeg$7;
-          return_value_write_jpeg$7=write_jpeg(cn->img, cn->fd, cn->quality);
-          if(return_value_write_jpeg$7 == 0)
+          signed int return_value_write_jpeg_7;
+          return_value_write_jpeg_7=write_jpeg(cn->img, cn->fd, cn->quality);
+          if(return_value_write_jpeg_7 == 0)
             goto __CPROVER_DUMP_L15;
 
           if(stream == 0)
@@ -2108,7 +2108,7 @@ __CPROVER_DUMP_L15:
 // file w3camd.c line 325
 void * server_thread(void *data)
 {
-  struct anonymous$15 *cn = (struct anonymous$15 *)data;
+  struct anonymous_15 *cn = (struct anonymous_15 *)data;
   signed int len;
   signed int inlen = 0;
   char buf[1025l];
@@ -2120,15 +2120,15 @@ void * server_thread(void *data)
   if(!(cn->verbose == 0))
     printf("server_thread() state=%d\n", cn->img->state);
 
-  _Bool tmp_if_expr$4;
-  char *return_value_strstr$3;
-  _Bool tmp_if_expr$6;
-  char *return_value_strstr$5;
+  _Bool tmp_if_expr_4;
+  char *return_value_strstr_3;
+  _Bool tmp_if_expr_6;
+  char *return_value_strstr_5;
   while((_Bool)1)
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(cn->fd, (void *)buf, (unsigned long int)1024);
-    len = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(cn->fd, (void *)buf, (unsigned long int)1024);
+    len = (signed int)return_value_read_1;
     if(!(len >= 1))
     {
       goto CLIENT_END;
@@ -2144,25 +2144,25 @@ void * server_thread(void *data)
 
     memcpy((void *)(inbuf + (signed long int)inlen), (const void *)buf, (unsigned long int)len);
     inlen = inlen + len;
-    char *return_value_strstr$2;
-    return_value_strstr$2=strstr(inbuf, "\n\n");
-    if(!(return_value_strstr$2 == ((char *)NULL)))
-      tmp_if_expr$4 = (_Bool)1;
+    char *return_value_strstr_2;
+    return_value_strstr_2=strstr(inbuf, "\n\n");
+    if(!(return_value_strstr_2 == ((char *)NULL)))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strstr$3=strstr(inbuf, "\r\n\r\n");
-      tmp_if_expr$4 = return_value_strstr$3 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_3=strstr(inbuf, "\r\n\r\n");
+      tmp_if_expr_4 = return_value_strstr_3 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strstr$5=strstr(inbuf, "\r\r");
-      tmp_if_expr$6 = return_value_strstr$5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_5=strstr(inbuf, "\r\r");
+      tmp_if_expr_6 = return_value_strstr_5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
       break;
 
   }
@@ -2171,14 +2171,14 @@ void * server_thread(void *data)
   if(cn->verbose >= 2)
     printf("getting url=%s\n", cn->url);
 
-  double return_value_atof$7;
+  double return_value_atof_7;
   if(!(args == ((char **)NULL)))
   {
     val=http_arg_val(args, "refresh");
     if(!(val == ((char *)NULL)))
     {
-      return_value_atof$7=atof(val);
-      cn->refresh = (float)return_value_atof$7;
+      return_value_atof_7=atof(val);
+      cn->refresh = (float)return_value_atof_7;
     }
 
     val=http_arg_val(args, "quality");
@@ -2215,13 +2215,13 @@ CLIENT_END:
 // file w3jpeg.c line 77
 static void term_destination(struct jpeg_compress_struct *cinfo)
 {
-  struct anonymous$14 *dest = (struct anonymous$14 *)cinfo->dest;
+  struct anonymous_14 *dest = (struct anonymous_14 *)cinfo->dest;
   unsigned long int datacount = (unsigned long int)2048 - dest->pub.free_in_buffer;
   if(datacount >= 1ul)
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(dest->fd, (const void *)dest->buffer, datacount);
-    if(!((unsigned long int)return_value_write$1 == datacount))
+    signed long int return_value_write_1;
+    return_value_write_1=write(dest->fd, (const void *)dest->buffer, datacount);
+    if(!((unsigned long int)return_value_write_1 == datacount))
     {
       goto __CPROVER_DUMP_L3;
       cinfo->err->msg_code = 37;
@@ -2245,7 +2245,7 @@ void usage(char *pname)
 
 // v4l_fini
 // file w3v4l.h line 33
-void v4l_fini(struct anonymous$13 *vid)
+void v4l_fini(struct anonymous_13 *vid)
 {
   if(vid->fd >= 0)
   {
@@ -2262,15 +2262,15 @@ void v4l_fini(struct anonymous$13 *vid)
 
 // v4l_image
 // file w3v4l.h line 34
-signed int v4l_image(struct anonymous$13 *vid)
+signed int v4l_image(struct anonymous_13 *vid)
 {
   struct video_mmap vid_mmap;
   if(vid->map_size == 0)
   {
     printf("%s: reading image .. \n", (const void *)"w3v4l.c");
-    signed long int return_value_read$1;
-    return_value_read$1=read(vid->fd, (void *)vid->mem, (unsigned long int)(vid->width * vid->height * 3));
-    if(!(return_value_read$1 >= 1l))
+    signed long int return_value_read_1;
+    return_value_read_1=read(vid->fd, (void *)vid->mem, (unsigned long int)(vid->width * vid->height * 3));
+    if(!(return_value_read_1 >= 1l))
     {
       free((void *)vid->mem);
       return 0;
@@ -2284,17 +2284,17 @@ signed int v4l_image(struct anonymous$13 *vid)
     vid_mmap.frame = (unsigned int)0;
     vid_mmap.width = vid->width;
     vid_mmap.height = vid->height;
-    signed int return_value_ioctl$2;
-    return_value_ioctl$2=ioctl(vid->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(19 << 0)) | sizeof(struct video_mmap) /*16ul*/  << 0 + 8 + 8, &vid_mmap);
-    if(return_value_ioctl$2 == -1)
+    signed int return_value_ioctl_2;
+    return_value_ioctl_2=ioctl(vid->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(19 << 0)) | sizeof(struct video_mmap) /*16ul*/  << 0 + 8 + 8, &vid_mmap);
+    if(return_value_ioctl_2 == -1)
     {
       perror("ioctl (VIDIOCMCAPTURE)");
       return 0;
     }
 
-    signed int return_value_ioctl$3;
-    return_value_ioctl$3=ioctl(vid->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(18 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &vid_mmap);
-    if(return_value_ioctl$3 == -1)
+    signed int return_value_ioctl_3;
+    return_value_ioctl_3=ioctl(vid->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(18 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &vid_mmap);
+    if(return_value_ioctl_3 == -1)
     {
       perror("ioctl (VIDIOCSYNC)");
       return 0;
@@ -2307,45 +2307,45 @@ signed int v4l_image(struct anonymous$13 *vid)
 
 // v4l_init
 // file w3v4l.h line 32
-struct anonymous$13 * v4l_init(char *dev, signed int input, signed int width, signed int height)
+struct anonymous_13 * v4l_init(char *dev, signed int input, signed int width, signed int height)
 {
   signed int fd;
   struct video_capability vid_caps;
   struct video_mbuf vid_mbuf;
   struct video_channel vid_chnl;
-  struct anonymous$13 *vid;
+  struct anonymous_13 *vid;
   fd=open(dev, 02);
   if(fd == -1)
   {
     perror(dev);
-    return (struct anonymous$13 *)(void *)0;
+    return (struct anonymous_13 *)(void *)0;
   }
 
   else
   {
-    signed int return_value_ioctl$1;
-    return_value_ioctl$1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(1 << 0)) | sizeof(struct video_capability) /*60ul*/  << 0 + 8 + 8, &vid_caps);
-    if(return_value_ioctl$1 == -1)
+    signed int return_value_ioctl_1;
+    return_value_ioctl_1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(1 << 0)) | sizeof(struct video_capability) /*60ul*/  << 0 + 8 + 8, &vid_caps);
+    if(return_value_ioctl_1 == -1)
     {
       perror("ioctl (VIDIOCGCAP)");
-      return (struct anonymous$13 *)(void *)0;
+      return (struct anonymous_13 *)(void *)0;
     }
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct anonymous$13) /*24ul*/ );
-      vid = (struct anonymous$13 *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct anonymous_13) /*24ul*/ );
+      vid = (struct anonymous_13 *)return_value_malloc_2;
       vid->fd = fd;
-      signed int return_value_ioctl$4;
-      return_value_ioctl$4=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(20 << 0)) | sizeof(struct video_mbuf) /*136ul*/  << 0 + 8 + 8, &vid_mbuf);
-      if(return_value_ioctl$4 == -1)
+      signed int return_value_ioctl_4;
+      return_value_ioctl_4=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(20 << 0)) | sizeof(struct video_mbuf) /*136ul*/  << 0 + 8 + 8, &vid_mbuf);
+      if(return_value_ioctl_4 == -1)
       {
         struct video_window vid_win;
         vid->map_size = 0;
-        signed int return_value_ioctl$3;
-        return_value_ioctl$3=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(9 << 0)) | sizeof(struct video_window) /*40ul*/  << 0 + 8 + 8, &vid_win);
-        if(!(return_value_ioctl$3 == -1))
+        signed int return_value_ioctl_3;
+        return_value_ioctl_3=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(9 << 0)) | sizeof(struct video_window) /*40ul*/  << 0 + 8 + 8, &vid_win);
+        if(!(return_value_ioctl_3 == -1))
         {
           vid_win.width = (unsigned int)width;
           vid_win.height = (unsigned int)height;
@@ -2360,17 +2360,17 @@ struct anonymous$13 * v4l_init(char *dev, signed int input, signed int width, si
       if(input >= 0)
       {
         vid_chnl.channel = input;
-        signed int return_value_ioctl$6;
-        return_value_ioctl$6=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(2 << 0)) | sizeof(struct video_channel) /*48ul*/  << 0 + 8 + 8, &vid_chnl);
-        if(return_value_ioctl$6 == -1)
+        signed int return_value_ioctl_6;
+        return_value_ioctl_6=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(2 << 0)) | sizeof(struct video_channel) /*48ul*/  << 0 + 8 + 8, &vid_chnl);
+        if(return_value_ioctl_6 == -1)
           perror("ioctl (VIDIOCGCHAN)");
 
         else
         {
           vid_chnl.channel = input;
-          signed int return_value_ioctl$5;
-          return_value_ioctl$5=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(3 << 0)) | sizeof(struct video_channel) /*48ul*/  << 0 + 8 + 8, &vid_chnl);
-          if(return_value_ioctl$5 == -1)
+          signed int return_value_ioctl_5;
+          return_value_ioctl_5=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(118 << 0 + 8) | (unsigned int)(3 << 0)) | sizeof(struct video_channel) /*48ul*/  << 0 + 8 + 8, &vid_chnl);
+          if(return_value_ioctl_5 == -1)
             perror("ioctl (VIDIOCSCHAN)");
 
         }
@@ -2378,24 +2378,24 @@ struct anonymous$13 * v4l_init(char *dev, signed int input, signed int width, si
 
       if(vid->map_size >= 1)
       {
-        void *return_value_mmap$7;
-        return_value_mmap$7=mmap(NULL, (unsigned long int)vid->map_size, 0x1 | 0x2, 0x01, fd, (signed long int)0);
-        vid->mem = (char *)return_value_mmap$7;
+        void *return_value_mmap_7;
+        return_value_mmap_7=mmap(NULL, (unsigned long int)vid->map_size, 0x1 | 0x2, 0x01, fd, (signed long int)0);
+        vid->mem = (char *)return_value_mmap_7;
         if((unsigned char *)-1 == (unsigned char *)vid->mem)
         {
           perror("mmap()");
           close(fd);
           free((void *)vid);
-          return (struct anonymous$13 *)(void *)0;
+          return (struct anonymous_13 *)(void *)0;
         }
 
       }
 
       else
       {
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc((unsigned long int)(width * height * 3));
-        vid->mem = (char *)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc((unsigned long int)(width * height * 3));
+        vid->mem = (char *)return_value_malloc_8;
       }
       vid->width = width;
       vid->height = height;
@@ -2406,7 +2406,7 @@ struct anonymous$13 * v4l_init(char *dev, signed int input, signed int width, si
 
 // write_jpeg
 // file w3camd.c line 101
-signed int write_jpeg(struct anonymous$9 *img, signed int fd, signed int quality)
+signed int write_jpeg(struct anonymous_9 *img, signed int fd, signed int quality)
 {
   unsigned char *row_ptr[1l];
   struct jpeg_compress_struct jpeg;
@@ -2417,9 +2417,9 @@ signed int write_jpeg(struct anonymous$9 *img, signed int fd, signed int quality
   signed int x;
   signed int line_width;
   fprintf(stderr, "%s: write_jpeg() width=%d height=%d\n", (const void *)"w3camd.c", img->width, img->height);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(img->width * 3));
-  line = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(img->width * 3));
+  line = (char *)return_value_malloc_1;
   if(line == ((char *)NULL))
     return 0;
 
@@ -2430,10 +2430,10 @@ signed int write_jpeg(struct anonymous$9 *img, signed int fd, signed int quality
     jpeg.image_width = (unsigned int)img->width;
     jpeg.image_height = (unsigned int)img->height;
     jpeg.input_components = 3;
-    jpeg.in_color_space = (enum anonymous$6)JCS_RGB;
+    jpeg.in_color_space = (enum anonymous_6)JCS_RGB;
     jpeg_set_defaults(&jpeg);
     jpeg_set_quality(&jpeg, quality, 1);
-    jpeg.dct_method = (enum anonymous$7)JDCT_IFAST;
+    jpeg.dct_method = (enum anonymous_7)JDCT_IFAST;
     jpeg_io_dest(&jpeg, fd);
     jpeg_start_compress(&jpeg, 1);
     row_ptr[(signed long int)0] = (unsigned char *)line;
@@ -2449,9 +2449,9 @@ signed int write_jpeg(struct anonymous$9 *img, signed int fd, signed int quality
         line[(signed long int)(x + 1)] = image[(signed long int)(x + 1)];
         line[(signed long int)(x + 2)] = image[(signed long int)x];
       }
-      unsigned int return_value_jpeg_write_scanlines$2;
-      return_value_jpeg_write_scanlines$2=jpeg_write_scanlines(&jpeg, row_ptr, (unsigned int)1);
-      if(return_value_jpeg_write_scanlines$2 == 0u)
+      unsigned int return_value_jpeg_write_scanlines_2;
+      return_value_jpeg_write_scanlines_2=jpeg_write_scanlines(&jpeg, row_ptr, (unsigned int)1);
+      if(return_value_jpeg_write_scanlines_2 == 0u)
       {
         jpeg_destroy_compress(&jpeg);
         free((void *)line);

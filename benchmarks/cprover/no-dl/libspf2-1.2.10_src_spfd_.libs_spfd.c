@@ -1,62 +1,62 @@
-// #anon_enum$res_goahead=0$res_nextns=1$res_modified=2$res_done=3$res_error=4
+// #anon_enum_res_goahead=0_res_nextns=1_res_modified=2_res_done=3_res_error=4
 // file /usr/include/resolv.h line 71
-enum anonymous$4 { res_goahead=0, res_nextns=1, res_modified=2, res_done=3, res_error=4 };
+enum anonymous_4 { res_goahead=0, res_nextns=1, res_modified=2, res_done=3, res_error=4 };
 
-// tag-#anon#ST[*{*{SYM#tag-SPF_dns_rr_struct#}$SYM#tag-SPF_dns_rr_struct#$}$*{SYM#tag-SPF_dns_rr_struct#}$SYM#tag-SPF_dns_rr_struct#$$'zone'|S32'num_zone'|S32'zone_buf_len'|*{SYM#tag-SPF_dns_rr_struct#}$SYM#tag-SPF_dns_rr_struct#$'nxdomain']
+// tag-#anon#ST[*{*{SYM#tag-SPF_dns_rr_struct#}_SYM#tag-SPF_dns_rr_struct#_}_*{SYM#tag-SPF_dns_rr_struct#}_SYM#tag-SPF_dns_rr_struct#__'zone'|S32'num_zone'|S32'zone_buf_len'|*{SYM#tag-SPF_dns_rr_struct#}_SYM#tag-SPF_dns_rr_struct#_'nxdomain']
 // file spf_dns_zone.c line 73
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{*{SYM#tag-_SPF_dns_cache_bucket_t#}$SYM#tag-_SPF_dns_cache_bucket_t#$}$*{SYM#tag-_SPF_dns_cache_bucket_t#}$SYM#tag-_SPF_dns_cache_bucket_t#$$'cache'|S32'cache_size'|U32'$pad0'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']#'cache_lock'|S32'hash_mask'|S32'max_hash_len'|S64'min_ttl'|S64'err_ttl'|S64'txt_ttl'|S64'rdns_ttl'|S32'conserve_cache'|U32'$pad1']
+// tag-#anon#ST[*{*{SYM#tag-_SPF_dns_cache_bucket_t#}_SYM#tag-_SPF_dns_cache_bucket_t#_}_*{SYM#tag-_SPF_dns_cache_bucket_t#}_SYM#tag-_SPF_dns_cache_bucket_t#__'cache'|S32'cache_size'|U32'_pad0'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']#'cache_lock'|S32'hash_mask'|S32'max_hash_len'|S64'min_ttl'|S64'err_ttl'|S64'txt_ttl'|S64'rdns_ttl'|S32'conserve_cache'|U32'_pad1']
 // file spf_dns_cache.c line 88
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{cS8}$cS8$'domain'|S32'rr_type'|S32'herrno'|*{cS8}$cS8$'data']
+// tag-#anon#ST[*{cS8}_cS8_'domain'|S32'rr_type'|S32'herrno'|*{cS8}_cS8_'data']
 // file spf_dns_test.c line 48
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[SYM#tag-in_addr#'addr'|U32'mask']
 // file /usr/include/resolv.h line 121
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[U16'nscount'|ARR3{U16}$U16$'nsmap'|ARR3{S32}$S32$'nssocks'|U16'nscount6'|U16'nsinit'|ARR3{*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$}$*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$$'nsaddrs'|ARR2{U32}$U32$'_initstamp']
+// tag-#anon#ST[U16'nscount'|ARR3{U16}_U16_'nsmap'|ARR3{S32}_S32_'nssocks'|U16'nscount6'|U16'nsinit'|ARR3{*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_}_*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#__'nsaddrs'|ARR2{U32}_U32_'_initstamp']
 // file /usr/include/resolv.h line 134
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|ARR8{U16}$U16$'__u6_addr16'|ARR4{U32}$U32$'__u6_addr32']
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|ARR8{U16}_U16_'__u6_addr16'|ARR4{U32}_U32_'__u6_addr32']
 // file /usr/include/netinet/in.h line 211
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[ARR52{S8}$S8$'pad'|SYM#tag-#anon#ST[U16'nscount'|ARR3{U16}$U16$'nsmap'|ARR3{S32}$S32$'nssocks'|U16'nscount6'|U16'nsinit'|ARR3{*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$}$*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$$'nsaddrs'|ARR2{U32}$U32$'_initstamp']#'_ext']
+// tag-#anon#UN[ARR52{S8}_S8_'pad'|SYM#tag-#anon#ST[U16'nscount'|ARR3{U16}_U16_'nsmap'|ARR3{S32}_S32_'nssocks'|U16'nscount6'|U16'nsinit'|ARR3{*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_}_*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#__'nsaddrs'|ARR2{U32}_U32_'_initstamp']#'_ext']
 // file /usr/include/resolv.h line 132
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-in_addr#'a'|ARR1{S8}$S8$'ptr'|ARR1{S8}$S8$'mx'|ARR1{S8}$S8$'txt'|SYM#tag-in6_addr#'aaaa']
+// tag-#anon#UN[SYM#tag-in_addr#'a'|ARR1{S8}_S8_'ptr'|ARR1{S8}_S8_'mx'|ARR1{S8}_S8_'txt'|SYM#tag-in6_addr#'aaaa']
 // file ../../src/include/spf_dns_rr.h line 31
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-sockaddr_in#'in'|SYM#tag-sockaddr_un#'un'|U896'$pad']
+// tag-#anon#UN[SYM#tag-sockaddr_in#'in'|SYM#tag-sockaddr_un#'un'|U896'_pad']
 // file spfd.c line 167
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$8;
+union anonymous_8;
 
 // tag-SPF_cidr_enum
 // file spf_compile.c line 48
@@ -326,39 +326,39 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
 // SPF_data_len
 // file ../../src/include/spf_internal.h line 107
 static inline unsigned long int SPF_data_len(union SPF_data_union *data);
-// SPF_data_len$link1
+// SPF_data_len_link1
 // file ../../src/include/spf_internal.h line 107
-static inline unsigned long int SPF_data_len$link1(union SPF_data_union *data$link1);
-// SPF_data_len$link2
+static inline unsigned long int SPF_data_len_link1(union SPF_data_union *data_link1);
+// SPF_data_len_link2
 // file ../../src/include/spf_internal.h line 107
-static inline unsigned long int SPF_data_len$link2(union SPF_data_union *data$link2);
-// SPF_data_len$link3
+static inline unsigned long int SPF_data_len_link2(union SPF_data_union *data_link2);
+// SPF_data_len_link3
 // file ../../src/include/spf_internal.h line 107
-static inline unsigned long int SPF_data_len$link3(union SPF_data_union *data$link3);
+static inline unsigned long int SPF_data_len_link3(union SPF_data_union *data_link3);
 // SPF_data_next
 // file ../../src/include/spf_internal.h line 110
 static inline union SPF_data_union * SPF_data_next(union SPF_data_union *data);
-// SPF_data_next$link1
+// SPF_data_next_link1
 // file ../../src/include/spf_internal.h line 110
-static inline union SPF_data_union * SPF_data_next$link1(union SPF_data_union *data$link1);
-// SPF_data_next$link2
+static inline union SPF_data_union * SPF_data_next_link1(union SPF_data_union *data_link1);
+// SPF_data_next_link2
 // file ../../src/include/spf_internal.h line 110
-static inline union SPF_data_union * SPF_data_next$link2(union SPF_data_union *data$link2);
-// SPF_data_next$link3
+static inline union SPF_data_union * SPF_data_next_link2(union SPF_data_union *data_link2);
+// SPF_data_next_link3
 // file ../../src/include/spf_internal.h line 110
-static inline union SPF_data_union * SPF_data_next$link3(union SPF_data_union *data$link3);
+static inline union SPF_data_union * SPF_data_next_link3(union SPF_data_union *data_link3);
 // SPF_data_str
 // file ../../src/include/spf_internal.h line 114
 static inline char * SPF_data_str(union SPF_data_union *data);
-// SPF_data_str$link1
+// SPF_data_str_link1
 // file ../../src/include/spf_internal.h line 114
-static inline char * SPF_data_str$link1(union SPF_data_union *data$link1);
-// SPF_data_str$link2
+static inline char * SPF_data_str_link1(union SPF_data_union *data_link1);
+// SPF_data_str_link2
 // file ../../src/include/spf_internal.h line 114
-static inline char * SPF_data_str$link2(union SPF_data_union *data$link2);
-// SPF_debug_handler$object
+static inline char * SPF_data_str_link2(union SPF_data_union *data_link2);
+// SPF_debug_handler_object
 //
-void SPF_debug_handler$object(const char *, signed int, const char *);
+void SPF_debug_handler_object(const char *, signed int, const char *);
 // SPF_debug_stdio
 // file ../../src/include/spf_log.h line 90
 void SPF_debug_stdio(const char *file, signed int line, const char *errmsg);
@@ -379,10 +379,10 @@ void SPF_debugx2(const char *format, ...);
 static inline signed int SPF_delim_valid(union SPF_data_union *d, char c);
 // SPF_dns_cache_bucket_add
 // file spf_dns_cache.c line 295
-static enum SPF_errcode_t SPF_dns_cache_bucket_add(struct anonymous$1 *spfhook, struct SPF_dns_rr_struct *rr, signed int idx);
+static enum SPF_errcode_t SPF_dns_cache_bucket_add(struct anonymous_1 *spfhook, struct SPF_dns_rr_struct *rr, signed int idx);
 // SPF_dns_cache_bucket_find
 // file spf_dns_cache.c line 239
-static struct _SPF_dns_cache_bucket_t * SPF_dns_cache_bucket_find(struct anonymous$1 *spfhook, const char *domain, enum __ns_type rr_type, signed int idx);
+static struct _SPF_dns_cache_bucket_t * SPF_dns_cache_bucket_find(struct anonymous_1 *spfhook, const char *domain, enum __ns_type rr_type, signed int idx);
 // SPF_dns_cache_free
 // file spf_dns_cache.c line 435
 static void SPF_dns_cache_free(struct SPF_dns_server_struct *spf_dns_server);
@@ -394,7 +394,7 @@ static struct SPF_dns_rr_struct * SPF_dns_cache_lookup(struct SPF_dns_server_str
 struct SPF_dns_server_struct * SPF_dns_cache_new(struct SPF_dns_server_struct *layer_below, const char *name, signed int debug, signed int cache_bits);
 // SPF_dns_cache_rr_fixup
 // file spf_dns_cache.c line 315
-static enum SPF_errcode_t SPF_dns_cache_rr_fixup(struct anonymous$1 *spfhook, struct SPF_dns_rr_struct *cached_rr, const char *domain, enum __ns_type rr_type);
+static enum SPF_errcode_t SPF_dns_cache_rr_fixup(struct anonymous_1 *spfhook, struct SPF_dns_rr_struct *cached_rr, const char *domain, enum __ns_type rr_type);
 // SPF_dns_cache_set_ttl
 // file spf_dns_cache.c line 555
 void SPF_dns_cache_set_ttl(struct SPF_dns_server_struct *spf_dns_server, signed long int min_ttl, signed long int err_ttl, signed long int txt_ttl, signed long int rdns_ttl);
@@ -491,9 +491,9 @@ enum SPF_errcode_t SPF_error_code(struct SPF_error_struct *err);
 // SPF_error_errorp
 // file ../../src/include/spf_response.h line 222
 char SPF_error_errorp(struct SPF_error_struct *err);
-// SPF_error_handler$object
+// SPF_error_handler_object
 //
-void SPF_error_handler$object(const char *, signed int, const char *);
+void SPF_error_handler_object(const char *, signed int, const char *);
 // SPF_error_message
 // file ../../src/include/spf_response.h line 221
 const char * SPF_error_message(struct SPF_error_struct *err);
@@ -542,9 +542,9 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
 // SPF_i_set_smtp_comment
 // file spf_interpret.c line 85
 static enum SPF_errcode_t SPF_i_set_smtp_comment(struct SPF_response_struct *spf_response);
-// SPF_info_handler$object
+// SPF_info_handler_object
 //
-void SPF_info_handler$object(const char *, signed int, const char *);
+void SPF_info_handler_object(const char *, signed int, const char *);
 // SPF_info_stdio
 // file ../../src/include/spf_log.h line 89
 void SPF_info_stdio(const char *file, signed int line, const char *errmsg);
@@ -563,102 +563,102 @@ void SPF_infox2(const char *format, ...);
 // SPF_macro_data
 // file ../../src/include/spf_internal.h line 134
 static inline union SPF_data_union * SPF_macro_data(struct SPF_macro_struct *mac);
-// SPF_macro_data$link1
+// SPF_macro_data_link1
 // file ../../src/include/spf_internal.h line 134
-static inline union SPF_data_union * SPF_macro_data$link1(struct SPF_macro_struct *mac$link1);
+static inline union SPF_data_union * SPF_macro_data_link1(struct SPF_macro_struct *mac_link1);
 // SPF_macro_free
 // file ../../src/include/spf_record.h line 231
 void SPF_macro_free(struct SPF_macro_struct *mac);
 // SPF_mech_data
 // file ../../src/include/spf_internal.h line 97
 static inline union SPF_data_union * SPF_mech_data(struct SPF_mech_struct *mech);
-// SPF_mech_data$link1
+// SPF_mech_data_link1
 // file ../../src/include/spf_internal.h line 97
-static inline union SPF_data_union * SPF_mech_data$link1(struct SPF_mech_struct *mech$link1);
-// SPF_mech_data$link2
+static inline union SPF_data_union * SPF_mech_data_link1(struct SPF_mech_struct *mech_link1);
+// SPF_mech_data_link2
 // file ../../src/include/spf_internal.h line 97
-static inline union SPF_data_union * SPF_mech_data$link2(struct SPF_mech_struct *mech$link2);
+static inline union SPF_data_union * SPF_mech_data_link2(struct SPF_mech_struct *mech_link2);
 // SPF_mech_data_len
 // file ../../src/include/spf_internal.h line 87
 static inline unsigned long int SPF_mech_data_len(struct SPF_mech_struct *mech);
-// SPF_mech_data_len$link1
+// SPF_mech_data_len_link1
 // file ../../src/include/spf_internal.h line 87
-static inline unsigned long int SPF_mech_data_len$link1(struct SPF_mech_struct *mech$link1);
-// SPF_mech_data_len$link2
+static inline unsigned long int SPF_mech_data_len_link1(struct SPF_mech_struct *mech_link1);
+// SPF_mech_data_len_link2
 // file ../../src/include/spf_internal.h line 87
-static inline unsigned long int SPF_mech_data_len$link2(struct SPF_mech_struct *mech$link2);
+static inline unsigned long int SPF_mech_data_len_link2(struct SPF_mech_struct *mech_link2);
 // SPF_mech_end_data
 // file ../../src/include/spf_internal.h line 99
 static inline union SPF_data_union * SPF_mech_end_data(struct SPF_mech_struct *mech);
-// SPF_mech_end_data$link1
+// SPF_mech_end_data_link1
 // file ../../src/include/spf_internal.h line 99
-static inline union SPF_data_union * SPF_mech_end_data$link1(struct SPF_mech_struct *mech$link1);
-// SPF_mech_end_data$link2
+static inline union SPF_data_union * SPF_mech_end_data_link1(struct SPF_mech_struct *mech_link1);
+// SPF_mech_end_data_link2
 // file ../../src/include/spf_internal.h line 99
-static inline union SPF_data_union * SPF_mech_end_data$link2(struct SPF_mech_struct *mech$link2);
+static inline union SPF_data_union * SPF_mech_end_data_link2(struct SPF_mech_struct *mech_link2);
 // SPF_mech_ip4_data
 // file ../../src/include/spf_internal.h line 102
 static inline struct in_addr * SPF_mech_ip4_data(struct SPF_mech_struct *mech);
-// SPF_mech_ip4_data$link1
+// SPF_mech_ip4_data_link1
 // file ../../src/include/spf_internal.h line 102
-static inline struct in_addr * SPF_mech_ip4_data$link1(struct SPF_mech_struct *mech$link1);
-// SPF_mech_ip4_data$link2
+static inline struct in_addr * SPF_mech_ip4_data_link1(struct SPF_mech_struct *mech_link1);
+// SPF_mech_ip4_data_link2
 // file ../../src/include/spf_internal.h line 102
-static inline struct in_addr * SPF_mech_ip4_data$link2(struct SPF_mech_struct *mech$link2);
+static inline struct in_addr * SPF_mech_ip4_data_link2(struct SPF_mech_struct *mech_link2);
 // SPF_mech_ip6_data
 // file ../../src/include/spf_internal.h line 104
 static inline struct in6_addr * SPF_mech_ip6_data(struct SPF_mech_struct *mech);
-// SPF_mech_ip6_data$link1
+// SPF_mech_ip6_data_link1
 // file ../../src/include/spf_internal.h line 104
-static inline struct in6_addr * SPF_mech_ip6_data$link1(struct SPF_mech_struct *mech$link1);
-// SPF_mech_ip6_data$link2
+static inline struct in6_addr * SPF_mech_ip6_data_link1(struct SPF_mech_struct *mech_link1);
+// SPF_mech_ip6_data_link2
 // file ../../src/include/spf_internal.h line 104
-static inline struct in6_addr * SPF_mech_ip6_data$link2(struct SPF_mech_struct *mech$link2);
+static inline struct in6_addr * SPF_mech_ip6_data_link2(struct SPF_mech_struct *mech_link2);
 // SPF_mech_next
 // file ../../src/include/spf_internal.h line 93
 static inline struct SPF_mech_struct * SPF_mech_next(struct SPF_mech_struct *mech);
-// SPF_mech_next$link1
+// SPF_mech_next_link1
 // file ../../src/include/spf_internal.h line 93
-static inline struct SPF_mech_struct * SPF_mech_next$link1(struct SPF_mech_struct *mech$link1);
-// SPF_mech_next$link2
+static inline struct SPF_mech_struct * SPF_mech_next_link1(struct SPF_mech_struct *mech_link1);
+// SPF_mech_next_link2
 // file ../../src/include/spf_internal.h line 93
-static inline struct SPF_mech_struct * SPF_mech_next$link2(struct SPF_mech_struct *mech$link2);
+static inline struct SPF_mech_struct * SPF_mech_next_link2(struct SPF_mech_struct *mech_link2);
 // SPF_mechtype_find
 // file spf_compile.c line 95
 static const struct SPF_mechtype_struct * SPF_mechtype_find(signed int mech_type);
 // SPF_mod_data
 // file ../../src/include/spf_internal.h line 125
 static inline union SPF_data_union * SPF_mod_data(struct SPF_mod_struct *mod);
-// SPF_mod_data$link1
+// SPF_mod_data_link1
 // file ../../src/include/spf_internal.h line 125
-static inline union SPF_data_union * SPF_mod_data$link1(struct SPF_mod_struct *mod$link1);
-// SPF_mod_data$link2
+static inline union SPF_data_union * SPF_mod_data_link1(struct SPF_mod_struct *mod_link1);
+// SPF_mod_data_link2
 // file ../../src/include/spf_internal.h line 125
-static inline union SPF_data_union * SPF_mod_data$link2(struct SPF_mod_struct *mod$link2);
+static inline union SPF_data_union * SPF_mod_data_link2(struct SPF_mod_struct *mod_link2);
 // SPF_mod_end_data
 // file ../../src/include/spf_internal.h line 129
 static inline union SPF_data_union * SPF_mod_end_data(struct SPF_mod_struct *mod);
 // SPF_mod_len
 // file ../../src/include/spf_internal.h line 117
 static inline unsigned long int SPF_mod_len(struct SPF_mod_struct *mod);
-// SPF_mod_len$link1
+// SPF_mod_len_link1
 // file ../../src/include/spf_internal.h line 117
-static inline unsigned long int SPF_mod_len$link1(struct SPF_mod_struct *mod$link1);
+static inline unsigned long int SPF_mod_len_link1(struct SPF_mod_struct *mod_link1);
 // SPF_mod_name
 // file ../../src/include/spf_internal.h line 123
 static inline char * SPF_mod_name(struct SPF_mod_struct *mod);
-// SPF_mod_name$link1
+// SPF_mod_name_link1
 // file ../../src/include/spf_internal.h line 123
-static inline char * SPF_mod_name$link1(struct SPF_mod_struct *mod$link1);
-// SPF_mod_name$link2
+static inline char * SPF_mod_name_link1(struct SPF_mod_struct *mod_link1);
+// SPF_mod_name_link2
 // file ../../src/include/spf_internal.h line 123
-static inline char * SPF_mod_name$link2(struct SPF_mod_struct *mod$link2);
+static inline char * SPF_mod_name_link2(struct SPF_mod_struct *mod_link2);
 // SPF_mod_next
 // file ../../src/include/spf_internal.h line 119
 static inline struct SPF_mod_struct * SPF_mod_next(struct SPF_mod_struct *mod);
-// SPF_mod_next$link1
+// SPF_mod_next_link1
 // file ../../src/include/spf_internal.h line 119
-static inline struct SPF_mod_struct * SPF_mod_next$link1(struct SPF_mod_struct *mod$link1);
+static inline struct SPF_mod_struct * SPF_mod_next_link1(struct SPF_mod_struct *mod_link1);
 // SPF_print_sizeof
 // file spf_print.c line 82
 void SPF_print_sizeof(void);
@@ -892,13 +892,13 @@ const char * SPF_strresult(enum SPF_result_enum result);
 const char * SPF_strrrtype(enum __ns_type rr_type);
 // SPF_voidp2spfhook
 // file spf_dns_cache.c line 113
-static inline struct anonymous$1 * SPF_voidp2spfhook(void *hook);
-// SPF_voidp2spfhook$link1
+static inline struct anonymous_1 * SPF_voidp2spfhook(void *hook);
+// SPF_voidp2spfhook_link1
 // file spf_dns_zone.c line 83
-static inline struct anonymous$9 * SPF_voidp2spfhook$link1(void *hook$link1);
-// SPF_warning_handler$object
+static inline struct anonymous_9 * SPF_voidp2spfhook_link1(void *hook_link1);
+// SPF_warning_handler_object
 //
-void SPF_warning_handler$object(const char *, signed int, const char *);
+void SPF_warning_handler_object(const char *, signed int, const char *);
 // SPF_warning_stdio
 // file ../../src/include/spf_log.h line 88
 void SPF_warning_stdio(const char *file, signed int line, const char *errmsg);
@@ -983,39 +983,39 @@ signed int __res_nquery(struct __res_state *, const char *, signed int, signed i
 // _align_ptr
 // file ../../src/include/spf_internal.h line 76
 static inline char * _align_ptr(char *s);
-// _align_ptr$link1
+// _align_ptr_link1
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link1(char *s$link1);
-// _align_ptr$link2
+static inline char * _align_ptr_link1(char *s_link1);
+// _align_ptr_link2
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link2(char *s$link2);
-// _align_ptr$link3
+static inline char * _align_ptr_link2(char *s_link2);
+// _align_ptr_link3
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link3(char *s$link3);
-// _align_ptr$link4
+static inline char * _align_ptr_link3(char *s_link3);
+// _align_ptr_link4
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link4(char *s$link4);
+static inline char * _align_ptr_link4(char *s_link4);
 // _align_sz
 // file ../../src/include/spf_internal.h line 74
 static inline unsigned long int _align_sz(unsigned long int s);
-// _align_sz$link1
+// _align_sz_link1
 // file ../../src/include/spf_internal.h line 74
-static inline unsigned long int _align_sz$link1(unsigned long int s$link1);
-// _align_sz$link2
+static inline unsigned long int _align_sz_link1(unsigned long int s_link1);
+// _align_sz_link2
 // file ../../src/include/spf_internal.h line 74
-static inline unsigned long int _align_sz$link2(unsigned long int s$link2);
+static inline unsigned long int _align_sz_link2(unsigned long int s_link2);
 // abort
 // file /usr/include/stdlib.h line 515
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$8, unsigned int *);
+extern signed int accept(signed int, union anonymous_8, unsigned int *);
 // atol
 // file /usr/include/stdlib.h line 150
 extern signed long int atol(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$8, unsigned int);
+extern signed int bind(signed int, union anonymous_8, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -1189,16 +1189,16 @@ extern void * pthread_getspecific(unsigned int);
 extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 754
-extern signed int pthread_mutex_destroy(union anonymous$0 *);
+extern signed int pthread_mutex_destroy(union anonymous_0 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_once
 // file /usr/include/pthread.h line 494
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -1210,7 +1210,7 @@ extern signed int pthread_setspecific(unsigned int, const void *);
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous$8, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_8, unsigned int *);
 // request_check
 // file spfd.c line 249
 static const char * request_check(struct _request_t *req);
@@ -1231,13 +1231,13 @@ static void response_print(const char *context, struct SPF_response_struct *spf_
 static void response_print_errors(const char *context, struct SPF_response_struct *spf_response, enum SPF_errcode_t err);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$10 *, struct anonymous$10 *, struct anonymous$10 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_10 *, struct anonymous_10 *, struct anonymous_10 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$8, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_8, unsigned int);
 // setsection
 // file __ns_initparse.c line 198
 static void setsection(struct __ns_msg *msg, enum __ns_sect sect);
@@ -1323,7 +1323,7 @@ void usage(void);
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 
-struct anonymous$9
+struct anonymous_9
 {
   // zone
   struct SPF_dns_rr_struct **zone;
@@ -1363,7 +1363,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1373,14 +1373,14 @@ union anonymous$0
   signed long int __align;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // cache
   struct _SPF_dns_cache_bucket_t **cache;
   // cache_size
   signed int cache_size;
   // cache_lock
-  union anonymous$0 cache_lock;
+  union anonymous_0 cache_lock;
   // hash_mask
   signed int hash_mask;
   // max_hash_len
@@ -1397,7 +1397,7 @@ struct anonymous$1
   signed int conserve_cache;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // domain
   const char *domain;
@@ -1409,7 +1409,7 @@ struct anonymous$7
   const char *data;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // fds_bits
   signed long int fds_bits[16l];
@@ -1421,7 +1421,7 @@ struct in_addr
   unsigned int s_addr;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // addr
   struct in_addr addr;
@@ -1429,7 +1429,7 @@ struct anonymous$3
   unsigned int mask;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1442,7 +1442,7 @@ union anonymous$12
 struct in6_addr
 {
   // __in6_u
-  union anonymous$12 __in6_u;
+  union anonymous_12 __in6_u;
 };
 
 struct sockaddr_in6
@@ -1459,7 +1459,7 @@ struct sockaddr_in6
   unsigned int sin6_scope_id;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // nscount
   unsigned short int nscount;
@@ -1485,15 +1485,15 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // pad
   char pad[52l];
   // _ext
-  struct anonymous$2 _ext;
+  struct anonymous_2 _ext;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // a
   struct in_addr a;
@@ -1535,7 +1535,7 @@ struct sockaddr_un
   char sun_path[108l];
 };
 
-union anonymous$14
+union anonymous_14
 {
   // in
   struct sockaddr_in in;
@@ -1543,7 +1543,7 @@ union anonymous$14
   struct sockaddr_un un;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1573,7 +1573,7 @@ union anonymous$15
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1672,7 +1672,7 @@ struct SPF_dns_rr_struct
   // num_rr
   signed int num_rr;
   // rr
-  union anonymous$13 **rr;
+  union anonymous_13 **rr;
   // rr_buf_len
   unsigned long int *rr_buf_len;
   // rr_buf_num
@@ -2018,11 +2018,11 @@ struct __res_state
   // unused
   unsigned int unused : 23;
   // sort_list
-  struct anonymous$3 sort_list[10l];
+  struct anonymous_3 sort_list[10l];
   // qhook
-  enum anonymous$4 (*qhook)(struct sockaddr_in * const *, const unsigned char **, signed int *, unsigned char *, signed int, signed int *);
+  enum anonymous_4 (*qhook)(struct sockaddr_in * const *, const unsigned char **, signed int *, unsigned char *, signed int, signed int *);
   // rhook
-  enum anonymous$4 (*rhook)(struct sockaddr_in *, const unsigned char *, signed int, unsigned char *, signed int, signed int *);
+  enum anonymous_4 (*rhook)(struct sockaddr_in *, const unsigned char *, signed int, unsigned char *, signed int, signed int *);
   // res_h_errno
   signed int res_h_errno;
   // _vcsock
@@ -2030,7 +2030,7 @@ struct __res_state
   // _flags
   unsigned int _flags;
   // _u
-  union anonymous$5 _u;
+  union anonymous_5 _u;
 };
 
 struct _config_t
@@ -2084,7 +2084,7 @@ struct _request_t
   // sock
   signed int sock;
   // addr
-  union anonymous$14 addr;
+  union anonymous_14 addr;
   // addrlen
   unsigned int addrlen;
   // data
@@ -2198,7 +2198,7 @@ void (*SPF_debug_handler)(const char *, signed int, const char *);
 void (*SPF_debug_handler)(const char *, signed int, const char *) = SPF_debug_stdio;
 // SPF_dns_db
 // file spf_dns_test.c line 59
-static const struct anonymous$7 SPF_dns_db[175l] = { { .domain="localhost", .rr_type=1, .herrno=0, .data="127.0.0.1" },
+static const struct anonymous_7 SPF_dns_db[175l] = { { .domain="localhost", .rr_type=1, .herrno=0, .data="127.0.0.1" },
     { .domain="example.com", .rr_type=1, .herrno=0, .data="192.0.2.3" },
     { .domain="example.com", .rr_type=15, .herrno=0, .data="mx.example.org" },
     { .domain="example.com", .rr_type=16, .herrno=0, .data="v=spf1 mx -all" },
@@ -2676,8 +2676,8 @@ static signed int SPF_c_ensure_capacity(void **datap, unsigned long int *sizep, 
 // file spf_compile.c line 824
 static enum SPF_errcode_t SPF_c_mech_add(struct SPF_server_struct *spf_server, struct SPF_record_struct *spf_record, struct SPF_response_struct *spf_response, const struct SPF_mechtype_struct *mechtype, signed int prefix, const char **mech_value)
 {
-  /* tag-#anon#lUN[F64'd'|S64'l'|lARR4096{S8}$S8$'buf'] */
-union anonymous$11
+  /* tag-#anon#lUN[F64'd'|S64'l'|lARR4096{S8}_S8_'buf'] */
+union anonymous_11
 {
   // d
   double d;
@@ -2689,7 +2689,7 @@ union anonymous$11
 
 /* */
   ;
-  union anonymous$11 u;
+  union anonymous_11 u;
   struct SPF_mech_struct *spf_mechanism = (struct SPF_mech_struct *)u.buf;
   union SPF_data_union *data;
   unsigned long int data_len;
@@ -2705,7 +2705,7 @@ union anonymous$11
   spf_mechanism->mech_type = mechtype->mech_type;
   spf_mechanism->mech_len = (unsigned short int)0;
   len = sizeof(struct SPF_mech_struct) /*4ul*/ ;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$3;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_3;
   if(spf_record->mech_len + len >= 512ul)
     return (enum SPF_errcode_t)SPF_E_BIG_MECH;
 
@@ -2748,13 +2748,13 @@ union anonymous$11
       }
       default:
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if((signed int)*(*mech_value) == 58)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)*(*mech_value) == 61 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)*(*mech_value) == 61 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           if((signed int)mechtype->has_domainspec == DOMSPEC_NONE)
           {
@@ -2792,13 +2792,13 @@ union anonymous$11
 
           else
           {
-            _Bool tmp_if_expr$1;
+            _Bool tmp_if_expr_1;
             if((signed int)*(*mech_value) == 32)
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = (signed int)*(*mech_value) == 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = (signed int)*(*mech_value) == 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
             {
               if((signed int)mechtype->has_domainspec == DOMSPEC_REQUIRED)
               {
@@ -2825,12 +2825,12 @@ union anonymous$11
       if(!(mechtype->is_dns_mech == 0))
         spf_record->num_dns_mech = spf_record->num_dns_mech + 1;
 
-      signed int return_value_SPF_c_ensure_capacity$4;
-      return_value_SPF_c_ensure_capacity$4=SPF_c_ensure_capacity((void **)&spf_record->mech_first, &spf_record->mech_size, spf_record->mech_len + len);
-      if(!(return_value_SPF_c_ensure_capacity$4 >= 0))
+      signed int return_value_SPF_c_ensure_capacity_4;
+      return_value_SPF_c_ensure_capacity_4=SPF_c_ensure_capacity((void **)&spf_record->mech_first, &spf_record->mech_size, spf_record->mech_len + len);
+      if(!(return_value_SPF_c_ensure_capacity_4 >= 0))
       {
-        return_value_SPF_response_add_error_ptr$3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NO_MEMORY, (const char *)(void *)0, (const char *)(void *)0, "Failed to allocate memory for mechanism");
-        return return_value_SPF_response_add_error_ptr$3;
+        return_value_SPF_response_add_error_ptr_3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NO_MEMORY, (const char *)(void *)0, (const char *)(void *)0, "Failed to allocate memory for mechanism");
+        return return_value_SPF_response_add_error_ptr_3;
       }
 
       memcpy((void *)((char *)spf_record->mech_first + (signed long int)spf_record->mech_len), (const void *)spf_mechanism, len);
@@ -2847,8 +2847,8 @@ union anonymous$11
 // file spf_compile.c line 982
 static enum SPF_errcode_t SPF_c_mod_add(struct SPF_server_struct *spf_server, struct SPF_record_struct *spf_record, struct SPF_response_struct *spf_response, const char *mod_name, unsigned long int name_len, const char **mod_value)
 {
-  /* tag-#anon#lUN[F64'd'|S64'l'|lARR4096{S8}$S8$'buf'] */
-union anonymous$11
+  /* tag-#anon#lUN[F64'd'|S64'l'|lARR4096{S8}_S8_'buf'] */
+union anonymous_11
 {
   // d
   double d;
@@ -2860,7 +2860,7 @@ union anonymous$11
 
 /* */
   ;
-  union anonymous$11 u;
+  union anonymous_11 u;
   struct SPF_mod_struct *spf_modifier = (struct SPF_mod_struct *)u.buf;
   union SPF_data_union *data;
   unsigned long int data_len;
@@ -2872,7 +2872,7 @@ union anonymous$11
 
   memset((void *)u.buf, 65, sizeof(char [4096l]) /*4096ul*/ );
   memset((void *)spf_modifier, 0, sizeof(struct SPF_mod_struct) /*4ul*/ );
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$2;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_2;
   if(name_len >= 512ul)
     return (enum SPF_errcode_t)SPF_E_BIG_MOD;
 
@@ -2886,9 +2886,9 @@ union anonymous$11
 
     else
     {
-      char *return_value_SPF_mod_name$1;
-      return_value_SPF_mod_name$1=SPF_mod_name(spf_modifier);
-      memcpy((void *)return_value_SPF_mod_name$1, (const void *)mod_name, name_len);
+      char *return_value_SPF_mod_name_1;
+      return_value_SPF_mod_name_1=SPF_mod_name(spf_modifier);
+      memcpy((void *)return_value_SPF_mod_name_1, (const void *)mod_name, name_len);
       data=SPF_mod_data(spf_modifier);
       data_len = (unsigned long int)0;
       src_len=strcspn(*mod_value, " ");
@@ -2897,12 +2897,12 @@ union anonymous$11
       len = len + data_len;
       if((signed int)err == SPF_E_SUCCESS)
       {
-        signed int return_value_SPF_c_ensure_capacity$3;
-        return_value_SPF_c_ensure_capacity$3=SPF_c_ensure_capacity((void **)&spf_record->mod_first, &spf_record->mod_size, spf_record->mod_len + len);
-        if(!(return_value_SPF_c_ensure_capacity$3 >= 0))
+        signed int return_value_SPF_c_ensure_capacity_3;
+        return_value_SPF_c_ensure_capacity_3=SPF_c_ensure_capacity((void **)&spf_record->mod_first, &spf_record->mod_size, spf_record->mod_len + len);
+        if(!(return_value_SPF_c_ensure_capacity_3 >= 0))
         {
-          return_value_SPF_response_add_error_ptr$2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NO_MEMORY, (const char *)(void *)0, (const char *)(void *)0, "Failed to allocate memory for modifier");
-          return return_value_SPF_response_add_error_ptr$2;
+          return_value_SPF_response_add_error_ptr_2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NO_MEMORY, (const char *)(void *)0, (const char *)(void *)0, "Failed to allocate memory for modifier");
+          return return_value_SPF_response_add_error_ptr_2;
         }
 
         memcpy((void *)((char *)spf_record->mod_first + (signed long int)spf_record->mod_len), (const void *)spf_modifier, len);
@@ -2924,26 +2924,26 @@ static enum SPF_errcode_t SPF_c_parse_cidr(struct SPF_response_struct *spf_respo
   memset((void *)data, 0, sizeof(struct SPF_data_cidr_struct) /*4ul*/ );
   data->parm_type = (unsigned char)11;
   idx = *src_len - (unsigned long int)1;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; idx >= 1ul; idx = idx - 1ul)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)src[(signed long int)idx]]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)src[(signed long int)idx]]) == 0)
       break;
 
   }
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   if(!(idx >= *src_len + 18446744073709551615ul))
   {
     if((signed int)src[(signed long int)idx] == 47)
     {
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(idx >= 1ul)
-        tmp_if_expr$3 = (signed int)src[(signed long int)(idx - (unsigned long int)1)] == 47 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)src[(signed long int)(idx - (unsigned long int)1)] == 47 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         err=SPF_c_parse_cidr_ip6(spf_response, &data->ipv6, &src[(signed long int)idx]);
         if(!(err == /*enum*/SPF_E_SUCCESS))
@@ -2953,8 +2953,8 @@ static enum SPF_errcode_t SPF_c_parse_cidr(struct SPF_response_struct *spf_respo
         idx = *src_len - (unsigned long int)1;
         for( ; idx >= 1ul; idx = idx - 1ul)
         {
-          return_value___ctype_b_loc$2=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)src[(signed long int)idx]]) == 0)
+          return_value___ctype_b_loc_2=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)src[(signed long int)idx]]) == 0)
             break;
 
         }
@@ -2993,22 +2993,22 @@ static enum SPF_errcode_t SPF_c_parse_cidr(struct SPF_response_struct *spf_respo
 static enum SPF_errcode_t SPF_c_parse_cidr_ip4(struct SPF_response_struct *spf_response, unsigned char *maskp, const char *src)
 {
   signed int mask;
-  unsigned long int return_value_strtoul$1;
-  return_value_strtoul$1=strtoul(src + (signed long int)1, (char ** restrict )(void *)0, 10);
-  mask = (signed int)return_value_strtoul$1;
+  unsigned long int return_value_strtoul_1;
+  return_value_strtoul_1=strtoul(src + (signed long int)1, (char ** restrict )(void *)0, 10);
+  mask = (signed int)return_value_strtoul_1;
   if(mask >= 33)
   {
-    enum SPF_errcode_t return_value_SPF_response_add_error_ptr$2;
-    return_value_SPF_response_add_error_ptr$2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv4 CIDR netmask (>32)");
-    return return_value_SPF_response_add_error_ptr$2;
+    enum SPF_errcode_t return_value_SPF_response_add_error_ptr_2;
+    return_value_SPF_response_add_error_ptr_2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv4 CIDR netmask (>32)");
+    return return_value_SPF_response_add_error_ptr_2;
   }
 
   else
     if(mask == 0)
     {
-      enum SPF_errcode_t return_value_SPF_response_add_error_ptr$3;
-      return_value_SPF_response_add_error_ptr$3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv4 CIDR netmask (=0)");
-      return return_value_SPF_response_add_error_ptr$3;
+      enum SPF_errcode_t return_value_SPF_response_add_error_ptr_3;
+      return_value_SPF_response_add_error_ptr_3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv4 CIDR netmask (=0)");
+      return return_value_SPF_response_add_error_ptr_3;
     }
 
     else
@@ -3024,22 +3024,22 @@ static enum SPF_errcode_t SPF_c_parse_cidr_ip4(struct SPF_response_struct *spf_r
 static enum SPF_errcode_t SPF_c_parse_cidr_ip6(struct SPF_response_struct *spf_response, unsigned char *maskp, const char *src)
 {
   signed int mask;
-  unsigned long int return_value_strtoul$1;
-  return_value_strtoul$1=strtoul(src + (signed long int)1, (char ** restrict )(void *)0, 10);
-  mask = (signed int)return_value_strtoul$1;
+  unsigned long int return_value_strtoul_1;
+  return_value_strtoul_1=strtoul(src + (signed long int)1, (char ** restrict )(void *)0, 10);
+  mask = (signed int)return_value_strtoul_1;
   if(mask >= 129)
   {
-    enum SPF_errcode_t return_value_SPF_response_add_error_ptr$2;
-    return_value_SPF_response_add_error_ptr$2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv6 CIDR netmask (>128)");
-    return return_value_SPF_response_add_error_ptr$2;
+    enum SPF_errcode_t return_value_SPF_response_add_error_ptr_2;
+    return_value_SPF_response_add_error_ptr_2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv6 CIDR netmask (>128)");
+    return return_value_SPF_response_add_error_ptr_2;
   }
 
   else
     if(mask == 0)
     {
-      enum SPF_errcode_t return_value_SPF_response_add_error_ptr$3;
-      return_value_SPF_response_add_error_ptr$3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv6 CIDR netmask (=0)");
-      return return_value_SPF_response_add_error_ptr$3;
+      enum SPF_errcode_t return_value_SPF_response_add_error_ptr_3;
+      return_value_SPF_response_add_error_ptr_3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid IPv6 CIDR netmask (=0)");
+      return return_value_SPF_response_add_error_ptr_3;
     }
 
     else
@@ -3065,29 +3065,29 @@ static enum SPF_errcode_t SPF_c_parse_domainspec(struct SPF_server_struct *spf_s
     if(!((signed int)err == SPF_E_SUCCESS))
       return err;
 
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if(!((signed int)data->dc.ipv4 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)data->dc.ipv6 != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)data->dc.ipv6 != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       len=SPF_data_len(data);
       do
       {
-        unsigned long int return_value__align_sz$2;
-        return_value__align_sz$2=_align_sz(len);
-        if(!(data_avail >= *data_used + return_value__align_sz$2))
+        unsigned long int return_value__align_sz_2;
+        return_value__align_sz_2=_align_sz(len);
+        if(!(data_avail >= *data_used + return_value__align_sz_2))
         {
-          enum SPF_errcode_t return_value_SPF_response_add_error_ptr$1;
-          return_value_SPF_response_add_error_ptr$1=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
-          return return_value_SPF_response_add_error_ptr$1;
+          enum SPF_errcode_t return_value_SPF_response_add_error_ptr_1;
+          return_value_SPF_response_add_error_ptr_1=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
+          return return_value_SPF_response_add_error_ptr_1;
         }
 
-        unsigned long int return_value__align_sz$3;
-        return_value__align_sz$3=_align_sz(len);
-        *data_used = *data_used + return_value__align_sz$3;
+        unsigned long int return_value__align_sz_3;
+        return_value__align_sz_3=_align_sz(len);
+        *data_used = *data_used + return_value__align_sz_3;
       }
       while((_Bool)0);
       data=SPF_data_next(data);
@@ -3095,16 +3095,16 @@ static enum SPF_errcode_t SPF_c_parse_domainspec(struct SPF_server_struct *spf_s
 
     if((signed int)cidr_ok == CIDR_ONLY && src_len >= 1ul)
     {
-      enum SPF_errcode_t return_value_SPF_response_add_error_ptr$5;
-      return_value_SPF_response_add_error_ptr$5=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid CIDR after mechanism");
-      return return_value_SPF_response_add_error_ptr$5;
+      enum SPF_errcode_t return_value_SPF_response_add_error_ptr_5;
+      return_value_SPF_response_add_error_ptr_5=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CIDR, (const char *)(void *)0, src, "Invalid CIDR after mechanism");
+      return return_value_SPF_response_add_error_ptr_5;
     }
 
   }
 
-  enum SPF_errcode_t return_value_SPF_c_parse_macro$6;
-  return_value_SPF_c_parse_macro$6=SPF_c_parse_macro(spf_server, spf_response, data, data_used, data_avail, src, src_len, big_err, is_mod);
-  return return_value_SPF_c_parse_macro$6;
+  enum SPF_errcode_t return_value_SPF_c_parse_macro_6;
+  return_value_SPF_c_parse_macro_6=SPF_c_parse_macro(spf_server, spf_response, data, data_used, data_avail, src, src_len, big_err, is_mod);
+  return return_value_SPF_c_parse_macro_6;
 }
 
 // SPF_c_parse_ip4
@@ -3123,11 +3123,11 @@ static enum SPF_errcode_t SPF_c_parse_ip4(struct SPF_response_struct *spf_respon
   end = start + (signed long int)len;
   p = end - (signed long int)1;
   mask = (unsigned char)0;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     p = p - 1l;
@@ -3148,7 +3148,7 @@ static enum SPF_errcode_t SPF_c_parse_ip4(struct SPF_response_struct *spf_respon
 
   mech->mech_len = (unsigned short int)mask;
   len = (unsigned long int)(end - start);
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$3;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_3;
   if(len >= 46ul)
     return (enum SPF_errcode_t)SPF_E_INVALID_IP4;
 
@@ -3157,13 +3157,13 @@ static enum SPF_errcode_t SPF_c_parse_ip4(struct SPF_response_struct *spf_respon
     memcpy((void *)buf, (const void *)start, len);
     buf[(signed long int)len] = (char)0;
     addr=SPF_mech_ip4_data(mech);
-    signed int return_value_inet_pton$2;
-    return_value_inet_pton$2=inet_pton(2, buf, (void *)addr);
-    err = (enum SPF_errcode_t)return_value_inet_pton$2;
+    signed int return_value_inet_pton_2;
+    return_value_inet_pton_2=inet_pton(2, buf, (void *)addr);
+    err = (enum SPF_errcode_t)return_value_inet_pton_2;
     if(!((signed int)err >= 1))
     {
-      return_value_SPF_response_add_error_ptr$3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_IP4, (const char *)(void *)0, buf, (const char *)(void *)0);
-      return return_value_SPF_response_add_error_ptr$3;
+      return_value_SPF_response_add_error_ptr_3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_IP4, (const char *)(void *)0, buf, (const char *)(void *)0);
+      return return_value_SPF_response_add_error_ptr_3;
     }
 
     return (enum SPF_errcode_t)SPF_E_SUCCESS;
@@ -3186,11 +3186,11 @@ static enum SPF_errcode_t SPF_c_parse_ip6(struct SPF_response_struct *spf_respon
   end = start + (signed long int)len;
   p = end - (signed long int)1;
   mask = (unsigned char)0;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     p = p - 1l;
@@ -3200,9 +3200,9 @@ static enum SPF_errcode_t SPF_c_parse_ip6(struct SPF_response_struct *spf_respon
   {
     if((signed int)*p == 47)
     {
-      enum SPF_errcode_t return_value_SPF_c_parse_cidr_ip6$2;
-      return_value_SPF_c_parse_cidr_ip6$2=SPF_c_parse_cidr_ip6(spf_response, &mask, p);
-      err = (signed int)return_value_SPF_c_parse_cidr_ip6$2;
+      enum SPF_errcode_t return_value_SPF_c_parse_cidr_ip6_2;
+      return_value_SPF_c_parse_cidr_ip6_2=SPF_c_parse_cidr_ip6(spf_response, &mask, p);
+      err = (signed int)return_value_SPF_c_parse_cidr_ip6_2;
       if(!(err == 0))
         return (enum SPF_errcode_t)err;
 
@@ -3213,7 +3213,7 @@ static enum SPF_errcode_t SPF_c_parse_ip6(struct SPF_response_struct *spf_respon
 
   mech->mech_len = (unsigned short int)mask;
   len = (unsigned long int)(end - start);
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$3;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_3;
   if(len >= 46ul)
     return (enum SPF_errcode_t)SPF_E_INVALID_IP6;
 
@@ -3225,8 +3225,8 @@ static enum SPF_errcode_t SPF_c_parse_ip6(struct SPF_response_struct *spf_respon
     err=inet_pton(10, buf, (void *)addr);
     if(!(err >= 1))
     {
-      return_value_SPF_response_add_error_ptr$3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_IP6, (const char *)(void *)0, buf, (const char *)(void *)0);
-      return return_value_SPF_response_add_error_ptr$3;
+      return_value_SPF_response_add_error_ptr_3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_IP6, (const char *)(void *)0, buf, (const char *)(void *)0);
+      return return_value_SPF_response_add_error_ptr_3;
     }
 
     return (enum SPF_errcode_t)SPF_E_SUCCESS;
@@ -3258,12 +3258,12 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
     ds_len = (unsigned long int)0;
   }
   while((_Bool)0);
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$1;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$2;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$4;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$6;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$10;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$17;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_1;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_2;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_4;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_6;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_10;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_17;
   while(!(idx >= src_len))
   {
     if(spf_server->debug >= 4)
@@ -3281,8 +3281,8 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
       do
         if(!(ds_avail >= ds_len + len))
         {
-          return_value_SPF_response_add_error_ptr$1=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
-          return return_value_SPF_response_add_error_ptr$1;
+          return_value_SPF_response_add_error_ptr_1=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
+          return return_value_SPF_response_add_error_ptr_1;
         }
 
       while((_Bool)0);
@@ -3317,14 +3317,14 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
       do
         if(!(ds_avail >= 1ul + ds_len))
         {
-          return_value_SPF_response_add_error_ptr$2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
-          return return_value_SPF_response_add_error_ptr$2;
+          return_value_SPF_response_add_error_ptr_2=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
+          return return_value_SPF_response_add_error_ptr_2;
         }
 
       while((_Bool)0);
-      char *tmp_post$3 = dst;
+      char *tmp_post_3 = dst;
       dst = dst + 1l;
-      *tmp_post$3 = (char)37;
+      *tmp_post_3 = (char)37;
       ds_len = ds_len + 1ul;
       idx = idx + 1ul;
       continue;
@@ -3337,14 +3337,14 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
       do
         if(!(ds_avail >= 1ul + ds_len))
         {
-          return_value_SPF_response_add_error_ptr$4=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
-          return return_value_SPF_response_add_error_ptr$4;
+          return_value_SPF_response_add_error_ptr_4=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
+          return return_value_SPF_response_add_error_ptr_4;
         }
 
       while((_Bool)0);
-      char *tmp_post$5 = dst;
+      char *tmp_post_5 = dst;
       dst = dst + 1l;
-      *tmp_post$5 = (char)32;
+      *tmp_post_5 = (char)32;
       ds_len = ds_len + 1ul;
       idx = idx + 1ul;
       continue;
@@ -3357,20 +3357,20 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
       do
         if(!(ds_avail >= 3ul + ds_len))
         {
-          return_value_SPF_response_add_error_ptr$6=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
-          return return_value_SPF_response_add_error_ptr$6;
+          return_value_SPF_response_add_error_ptr_6=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
+          return return_value_SPF_response_add_error_ptr_6;
         }
 
       while((_Bool)0);
-      char *tmp_post$7 = dst;
+      char *tmp_post_7 = dst;
       dst = dst + 1l;
-      *tmp_post$7 = (char)37;
-      char *tmp_post$8 = dst;
+      *tmp_post_7 = (char)37;
+      char *tmp_post_8 = dst;
       dst = dst + 1l;
-      *tmp_post$8 = (char)50;
-      char *tmp_post$9 = dst;
+      *tmp_post_8 = (char)50;
+      char *tmp_post_9 = dst;
       dst = dst + 1l;
-      *tmp_post$9 = (char)48;
+      *tmp_post_9 = (char)48;
       ds_len = ds_len + (unsigned long int)3;
       idx = idx + 1ul;
       continue;
@@ -3381,14 +3381,14 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
     do
       if(!(ds_avail >= 1ul + ds_len))
       {
-        return_value_SPF_response_add_error_ptr$10=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
-        return return_value_SPF_response_add_error_ptr$10;
+        return_value_SPF_response_add_error_ptr_10=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal fragment too long (%d chars, %d max)", ds_len, ds_avail);
+        return return_value_SPF_response_add_error_ptr_10;
       }
 
     while((_Bool)0);
-    char *tmp_post$11 = dst;
+    char *tmp_post_11 = dst;
     dst = dst + 1l;
-    *tmp_post$11 = (char)37;
+    *tmp_post_11 = (char)37;
     ds_len = ds_len + 1ul;
     continue;
 
@@ -3399,27 +3399,27 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
       {
         if(ds_len >= 256ul)
         {
-          enum SPF_errcode_t return_value_SPF_response_add_error_ptr$12;
-          return_value_SPF_response_add_error_ptr$12=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal too long (%d chars, %d max)", ds_len, 255);
-          return return_value_SPF_response_add_error_ptr$12;
+          enum SPF_errcode_t return_value_SPF_response_add_error_ptr_12;
+          return_value_SPF_response_add_error_ptr_12=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal too long (%d chars, %d max)", ds_len, 255);
+          return return_value_SPF_response_add_error_ptr_12;
         }
 
         data->ds.len = (unsigned char)ds_len;
         len = sizeof(union SPF_data_union) /*4ul*/  + ds_len;
         do
         {
-          unsigned long int return_value__align_sz$14;
-          return_value__align_sz$14=_align_sz(len);
-          if(!(data_avail >= *data_used + return_value__align_sz$14))
+          unsigned long int return_value__align_sz_14;
+          return_value__align_sz_14=_align_sz(len);
+          if(!(data_avail >= *data_used + return_value__align_sz_14))
           {
-            enum SPF_errcode_t return_value_SPF_response_add_error_ptr$13;
-            return_value_SPF_response_add_error_ptr$13=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
-            return return_value_SPF_response_add_error_ptr$13;
+            enum SPF_errcode_t return_value_SPF_response_add_error_ptr_13;
+            return_value_SPF_response_add_error_ptr_13=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
+            return return_value_SPF_response_add_error_ptr_13;
           }
 
-          unsigned long int return_value__align_sz$15;
-          return_value__align_sz$15=_align_sz(len);
-          *data_used = *data_used + return_value__align_sz$15;
+          unsigned long int return_value__align_sz_15;
+          return_value__align_sz_15=_align_sz(len);
+          *data_used = *data_used + return_value__align_sz_15;
         }
         while((_Bool)0);
         data=SPF_data_next(data);
@@ -3435,34 +3435,34 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
     if(!((signed int)err == SPF_E_SUCCESS))
       return err;
 
-    unsigned long int return_value_strcspn$16;
-    return_value_strcspn$16=strcspn(&src[(signed long int)idx], "} ");
-    idx = idx + return_value_strcspn$16;
+    unsigned long int return_value_strcspn_16;
+    return_value_strcspn_16=strcspn(&src[(signed long int)idx], "} ");
+    idx = idx + return_value_strcspn_16;
     if((signed int)src[(signed long int)idx] == 125)
       idx = idx + 1ul;
 
     else
       if((signed int)src[(signed long int)idx] == 32)
       {
-        return_value_SPF_response_add_error_ptr$17=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, src, &src[(signed long int)idx], "Unterminated variable?");
-        return return_value_SPF_response_add_error_ptr$17;
+        return_value_SPF_response_add_error_ptr_17=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, src, &src[(signed long int)idx], "Unterminated variable?");
+        return return_value_SPF_response_add_error_ptr_17;
       }
 
     len=SPF_data_len(data);
     do
     {
-      unsigned long int return_value__align_sz$19;
-      return_value__align_sz$19=_align_sz(len);
-      if(!(data_avail >= *data_used + return_value__align_sz$19))
+      unsigned long int return_value__align_sz_19;
+      return_value__align_sz_19=_align_sz(len);
+      if(!(data_avail >= *data_used + return_value__align_sz_19))
       {
-        enum SPF_errcode_t return_value_SPF_response_add_error_ptr$18;
-        return_value_SPF_response_add_error_ptr$18=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
-        return return_value_SPF_response_add_error_ptr$18;
+        enum SPF_errcode_t return_value_SPF_response_add_error_ptr_18;
+        return_value_SPF_response_add_error_ptr_18=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
+        return return_value_SPF_response_add_error_ptr_18;
       }
 
-      unsigned long int return_value__align_sz$20;
-      return_value__align_sz$20=_align_sz(len);
-      *data_used = *data_used + return_value__align_sz$20;
+      unsigned long int return_value__align_sz_20;
+      return_value__align_sz_20=_align_sz(len);
+      *data_used = *data_used + return_value__align_sz_20;
     }
     while((_Bool)0);
     data=SPF_data_next(data);
@@ -3486,27 +3486,27 @@ static enum SPF_errcode_t SPF_c_parse_macro(struct SPF_server_struct *spf_server
     {
       if(ds_len >= 256ul)
       {
-        enum SPF_errcode_t return_value_SPF_response_add_error_ptr$21;
-        return_value_SPF_response_add_error_ptr$21=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal too long (%d chars, %d max)", ds_len, 255);
-        return return_value_SPF_response_add_error_ptr$21;
+        enum SPF_errcode_t return_value_SPF_response_add_error_ptr_21;
+        return_value_SPF_response_add_error_ptr_21=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_STRING, (const char *)(void *)0, src, "String literal too long (%d chars, %d max)", ds_len, 255);
+        return return_value_SPF_response_add_error_ptr_21;
       }
 
       data->ds.len = (unsigned char)ds_len;
       len = sizeof(union SPF_data_union) /*4ul*/  + ds_len;
       do
       {
-        unsigned long int return_value__align_sz$23;
-        return_value__align_sz$23=_align_sz(len);
-        if(!(data_avail >= *data_used + return_value__align_sz$23))
+        unsigned long int return_value__align_sz_23;
+        return_value__align_sz_23=_align_sz(len);
+        if(!(data_avail >= *data_used + return_value__align_sz_23))
         {
-          enum SPF_errcode_t return_value_SPF_response_add_error_ptr$22;
-          return_value_SPF_response_add_error_ptr$22=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
-          return return_value_SPF_response_add_error_ptr$22;
+          enum SPF_errcode_t return_value_SPF_response_add_error_ptr_22;
+          return_value_SPF_response_add_error_ptr_22=SPF_response_add_error_ptr(spf_response, big_err, (const char *)(void *)0, src, "SPF domainspec too long (%d chars, %d max)", *data_used + len, data_avail);
+          return return_value_SPF_response_add_error_ptr_22;
         }
 
-        unsigned long int return_value__align_sz$24;
-        return_value__align_sz$24=_align_sz(len);
-        *data_used = *data_used + return_value__align_sz$24;
+        unsigned long int return_value__align_sz_24;
+        return_value__align_sz_24=_align_sz(len);
+        *data_used = *data_used + return_value__align_sz_24;
       }
       while((_Bool)0);
       data=SPF_data_next(data);
@@ -3528,22 +3528,22 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
   memset((void *)data, 0, sizeof(struct SPF_data_var_struct) /*4ul*/ );
   p = src;
   c = *p;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  return_value___ctype_b_loc$2=__ctype_b_loc();
-  if(!((256 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)c]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_2;
+  return_value___ctype_b_loc_2=__ctype_b_loc();
+  if(!((256 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)c]) == 0))
   {
     data->url_encode = (unsigned short int)1;
-    signed int return_value_tolower$1;
-    return_value_tolower$1=tolower((signed int)c);
-    c = (char)return_value_tolower$1;
+    signed int return_value_tolower_1;
+    return_value_tolower_1=tolower((signed int)c);
+    c = (char)return_value_tolower_1;
   }
 
   else
     data->url_encode = (unsigned short int)0;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$3;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$4;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$5;
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$6;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_3;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_4;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_5;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_6;
   switch((signed int)c)
   {
     case 108:
@@ -3575,8 +3575,8 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
     {
       if(is_mod == 0)
       {
-        return_value_SPF_response_add_error_ptr$3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "'%c' macro is only valid in modifiers", c);
-        return return_value_SPF_response_add_error_ptr$3;
+        return_value_SPF_response_add_error_ptr_3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "'%c' macro is only valid in modifiers", c);
+        return return_value_SPF_response_add_error_ptr_3;
       }
 
       data->parm_type = (unsigned char)5;
@@ -3586,8 +3586,8 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
     {
       if(is_mod == 0)
       {
-        return_value_SPF_response_add_error_ptr$4=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "'%c' macro is only valid in modifiers", c);
-        return return_value_SPF_response_add_error_ptr$4;
+        return_value_SPF_response_add_error_ptr_4=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "'%c' macro is only valid in modifiers", c);
+        return return_value_SPF_response_add_error_ptr_4;
       }
 
       data->parm_type = (unsigned char)6;
@@ -3612,8 +3612,8 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
     {
       if(is_mod == 0)
       {
-        return_value_SPF_response_add_error_ptr$5=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "'%c' macro is only valid in modifiers", c);
-        return return_value_SPF_response_add_error_ptr$5;
+        return_value_SPF_response_add_error_ptr_5=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "'%c' macro is only valid in modifiers", c);
+        return return_value_SPF_response_add_error_ptr_5;
       }
 
       data->parm_type = (unsigned char)10;
@@ -3621,18 +3621,18 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
     }
     default:
     {
-      return_value_SPF_response_add_error_ptr$6=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "Unknown variable '%c'", c);
-      return return_value_SPF_response_add_error_ptr$6;
+      return_value_SPF_response_add_error_ptr_6=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_VAR, (const char *)(void *)0, p, "Unknown variable '%c'", c);
+      return return_value_SPF_response_add_error_ptr_6;
     }
   }
   p = p + 1l;
   token = p;
   val = 0;
-  const unsigned short int **return_value___ctype_b_loc$7;
+  const unsigned short int **return_value___ctype_b_loc_7;
   do
   {
-    return_value___ctype_b_loc$7=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_7=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     val = val * 10;
@@ -3640,11 +3640,11 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
     p = p + 1l;
   }
   while((_Bool)1);
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$8;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_8;
   if(val >= 129 || !(p == token) && !(val >= 1))
   {
-    return_value_SPF_response_add_error_ptr$8=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_SUBDOM, (const char *)(void *)0, token, "Subdomain truncation depth too large");
-    return return_value_SPF_response_add_error_ptr$8;
+    return_value_SPF_response_add_error_ptr_8=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_BIG_SUBDOM, (const char *)(void *)0, token, "Subdomain truncation depth too large");
+    return return_value_SPF_response_add_error_ptr_8;
   }
 
   data->num_rhs = (unsigned char)val;
@@ -3667,7 +3667,7 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
   if((signed int)*p == 125)
     data->delim_dot = (unsigned short int)1;
 
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$9;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_9;
   for( ; !((signed int)*p == 125); p = p + 1l)
   {
     token = p;
@@ -3705,8 +3705,8 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
       }
       default:
       {
-        return_value_SPF_response_add_error_ptr$9=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_DELIM, (const char *)(void *)0, p, "Invalid delimiter '%c'", *p);
-        return return_value_SPF_response_add_error_ptr$9;
+        return_value_SPF_response_add_error_ptr_9=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_DELIM, (const char *)(void *)0, p, "Invalid delimiter '%c'", *p);
+        return return_value_SPF_response_add_error_ptr_9;
       }
     }
   }
@@ -3719,96 +3719,96 @@ static enum SPF_errcode_t SPF_c_parse_var(struct SPF_response_struct *spf_respon
 // file ../../src/include/spf_internal.h line 107
 static inline unsigned long int SPF_data_len(union SPF_data_union *data)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if((signed int)data->ds.parm_type == 12)
-    tmp_if_expr$1 = (signed int)data->ds.len;
+    tmp_if_expr_1 = (signed int)data->ds.len;
 
   else
-    tmp_if_expr$1 = 0;
-  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr_1;
 }
 
-// SPF_data_len$link1
+// SPF_data_len_link1
 // file ../../src/include/spf_internal.h line 107
-static inline unsigned long int SPF_data_len$link1(union SPF_data_union *data$link1)
+static inline unsigned long int SPF_data_len_link1(union SPF_data_union *data_link1)
 {
-  signed int tmp_if_expr$1$link1;
-  if((signed int)data$link1->ds.parm_type == 12)
-    tmp_if_expr$1$link1 = (signed int)data$link1->ds.len;
+  signed int tmp_if_expr_1_link1;
+  if((signed int)data_link1->ds.parm_type == 12)
+    tmp_if_expr_1_link1 = (signed int)data_link1->ds.len;
 
   else
-    tmp_if_expr$1$link1 = 0;
-  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr$1$link1;
+    tmp_if_expr_1_link1 = 0;
+  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr_1_link1;
 }
 
-// SPF_data_len$link2
+// SPF_data_len_link2
 // file ../../src/include/spf_internal.h line 107
-static inline unsigned long int SPF_data_len$link2(union SPF_data_union *data$link2)
+static inline unsigned long int SPF_data_len_link2(union SPF_data_union *data_link2)
 {
-  signed int tmp_if_expr$1$link2;
-  if((signed int)data$link2->ds.parm_type == 12)
-    tmp_if_expr$1$link2 = (signed int)data$link2->ds.len;
+  signed int tmp_if_expr_1_link2;
+  if((signed int)data_link2->ds.parm_type == 12)
+    tmp_if_expr_1_link2 = (signed int)data_link2->ds.len;
 
   else
-    tmp_if_expr$1$link2 = 0;
-  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr$1$link2;
+    tmp_if_expr_1_link2 = 0;
+  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr_1_link2;
 }
 
-// SPF_data_len$link3
+// SPF_data_len_link3
 // file ../../src/include/spf_internal.h line 107
-static inline unsigned long int SPF_data_len$link3(union SPF_data_union *data$link3)
+static inline unsigned long int SPF_data_len_link3(union SPF_data_union *data_link3)
 {
-  signed int tmp_if_expr$1$link3;
-  if((signed int)data$link3->ds.parm_type == 12)
-    tmp_if_expr$1$link3 = (signed int)data$link3->ds.len;
+  signed int tmp_if_expr_1_link3;
+  if((signed int)data_link3->ds.parm_type == 12)
+    tmp_if_expr_1_link3 = (signed int)data_link3->ds.len;
 
   else
-    tmp_if_expr$1$link3 = 0;
-  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr$1$link3;
+    tmp_if_expr_1_link3 = 0;
+  return sizeof(union SPF_data_union) /*4ul*/  + (unsigned long int)tmp_if_expr_1_link3;
 }
 
 // SPF_data_next
 // file ../../src/include/spf_internal.h line 110
 static inline union SPF_data_union * SPF_data_next(union SPF_data_union *data)
 {
-  unsigned long int return_value_SPF_data_len$1;
-  return_value_SPF_data_len$1=SPF_data_len(data);
-  char *return_value__align_ptr$2;
-  return_value__align_ptr$2=_align_ptr((char *)data + (signed long int)return_value_SPF_data_len$1);
-  return (union SPF_data_union *)return_value__align_ptr$2;
+  unsigned long int return_value_SPF_data_len_1;
+  return_value_SPF_data_len_1=SPF_data_len(data);
+  char *return_value__align_ptr_2;
+  return_value__align_ptr_2=_align_ptr((char *)data + (signed long int)return_value_SPF_data_len_1);
+  return (union SPF_data_union *)return_value__align_ptr_2;
 }
 
-// SPF_data_next$link1
+// SPF_data_next_link1
 // file ../../src/include/spf_internal.h line 110
-static inline union SPF_data_union * SPF_data_next$link1(union SPF_data_union *data$link1)
+static inline union SPF_data_union * SPF_data_next_link1(union SPF_data_union *data_link1)
 {
-  unsigned long int return_value_SPF_data_len$1$link1;
-  return_value_SPF_data_len$1$link1=SPF_data_len$link1(data$link1);
-  char *return_value__align_ptr$2$link1;
-  return_value__align_ptr$2$link1=_align_ptr$link1((char *)data$link1 + (signed long int)return_value_SPF_data_len$1$link1);
-  return (union SPF_data_union *)return_value__align_ptr$2$link1;
+  unsigned long int return_value_SPF_data_len_1_link1;
+  return_value_SPF_data_len_1_link1=SPF_data_len_link1(data_link1);
+  char *return_value__align_ptr_2_link1;
+  return_value__align_ptr_2_link1=_align_ptr_link1((char *)data_link1 + (signed long int)return_value_SPF_data_len_1_link1);
+  return (union SPF_data_union *)return_value__align_ptr_2_link1;
 }
 
-// SPF_data_next$link2
+// SPF_data_next_link2
 // file ../../src/include/spf_internal.h line 110
-static inline union SPF_data_union * SPF_data_next$link2(union SPF_data_union *data$link2)
+static inline union SPF_data_union * SPF_data_next_link2(union SPF_data_union *data_link2)
 {
-  unsigned long int return_value_SPF_data_len$1$link2;
-  return_value_SPF_data_len$1$link2=SPF_data_len$link2(data$link2);
-  char *return_value__align_ptr$2$link2;
-  return_value__align_ptr$2$link2=_align_ptr$link2((char *)data$link2 + (signed long int)return_value_SPF_data_len$1$link2);
-  return (union SPF_data_union *)return_value__align_ptr$2$link2;
+  unsigned long int return_value_SPF_data_len_1_link2;
+  return_value_SPF_data_len_1_link2=SPF_data_len_link2(data_link2);
+  char *return_value__align_ptr_2_link2;
+  return_value__align_ptr_2_link2=_align_ptr_link2((char *)data_link2 + (signed long int)return_value_SPF_data_len_1_link2);
+  return (union SPF_data_union *)return_value__align_ptr_2_link2;
 }
 
-// SPF_data_next$link3
+// SPF_data_next_link3
 // file ../../src/include/spf_internal.h line 110
-static inline union SPF_data_union * SPF_data_next$link3(union SPF_data_union *data$link3)
+static inline union SPF_data_union * SPF_data_next_link3(union SPF_data_union *data_link3)
 {
-  unsigned long int return_value_SPF_data_len$1$link3;
-  return_value_SPF_data_len$1$link3=SPF_data_len$link3(data$link3);
-  char *return_value__align_ptr$2$link3;
-  return_value__align_ptr$2$link3=_align_ptr$link3((char *)data$link3 + (signed long int)return_value_SPF_data_len$1$link3);
-  return (union SPF_data_union *)return_value__align_ptr$2$link3;
+  unsigned long int return_value_SPF_data_len_1_link3;
+  return_value_SPF_data_len_1_link3=SPF_data_len_link3(data_link3);
+  char *return_value__align_ptr_2_link3;
+  return_value__align_ptr_2_link3=_align_ptr_link3((char *)data_link3 + (signed long int)return_value_SPF_data_len_1_link3);
+  return (union SPF_data_union *)return_value__align_ptr_2_link3;
 }
 
 // SPF_data_str
@@ -3818,18 +3818,18 @@ static inline char * SPF_data_str(union SPF_data_union *data)
   return (char *)data + (signed long int)sizeof(union SPF_data_union) /*4ul*/ ;
 }
 
-// SPF_data_str$link1
+// SPF_data_str_link1
 // file ../../src/include/spf_internal.h line 114
-static inline char * SPF_data_str$link1(union SPF_data_union *data$link1)
+static inline char * SPF_data_str_link1(union SPF_data_union *data_link1)
 {
-  return (char *)data$link1 + (signed long int)sizeof(union SPF_data_union) /*4ul*/ ;
+  return (char *)data_link1 + (signed long int)sizeof(union SPF_data_union) /*4ul*/ ;
 }
 
-// SPF_data_str$link2
+// SPF_data_str_link2
 // file ../../src/include/spf_internal.h line 114
-static inline char * SPF_data_str$link2(union SPF_data_union *data$link2)
+static inline char * SPF_data_str_link2(union SPF_data_union *data_link2)
 {
-  return (char *)data$link2 + (signed long int)sizeof(union SPF_data_union) /*4ul*/ ;
+  return (char *)data_link2 + (signed long int)sizeof(union SPF_data_union) /*4ul*/ ;
 }
 
 // SPF_debug_stdio
@@ -3904,47 +3904,47 @@ void SPF_debugx2(const char *format, ...)
 // file spf_expand.c line 65
 static inline signed int SPF_delim_valid(union SPF_data_union *d, char c)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)c == 46 && !(d->dv.delim_dot == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (d->dv.delim_dash != 0 ? ((signed int)c == 45 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (d->dv.delim_dash != 0 ? ((signed int)c == 45 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (d->dv.delim_plus != 0 ? ((signed int)c == 43 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = (d->dv.delim_plus != 0 ? ((signed int)c == 43 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (d->dv.delim_equal != 0 ? ((signed int)c == 61 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (d->dv.delim_equal != 0 ? ((signed int)c == 61 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (d->dv.delim_bar != 0 ? ((signed int)c == 124 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = (d->dv.delim_bar != 0 ? ((signed int)c == 124 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (d->dv.delim_under != 0 ? ((signed int)c == 95 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$5;
+    tmp_if_expr_5 = (d->dv.delim_under != 0 ? ((signed int)c == 95 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_5;
 }
 
 // SPF_dns_cache_bucket_add
 // file spf_dns_cache.c line 295
-static enum SPF_errcode_t SPF_dns_cache_bucket_add(struct anonymous$1 *spfhook, struct SPF_dns_rr_struct *rr, signed int idx)
+static enum SPF_errcode_t SPF_dns_cache_bucket_add(struct anonymous_1 *spfhook, struct SPF_dns_rr_struct *rr, signed int idx)
 {
   struct _SPF_dns_cache_bucket_t *bucket;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _SPF_dns_cache_bucket_t) /*16ul*/ );
-  bucket = (struct _SPF_dns_cache_bucket_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _SPF_dns_cache_bucket_t) /*16ul*/ );
+  bucket = (struct _SPF_dns_cache_bucket_t *)return_value_malloc_1;
   if(bucket == ((struct _SPF_dns_cache_bucket_t *)NULL))
     return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -3959,7 +3959,7 @@ static enum SPF_errcode_t SPF_dns_cache_bucket_add(struct anonymous$1 *spfhook, 
 
 // SPF_dns_cache_bucket_find
 // file spf_dns_cache.c line 239
-static struct _SPF_dns_cache_bucket_t * SPF_dns_cache_bucket_find(struct anonymous$1 *spfhook, const char *domain, enum __ns_type rr_type, signed int idx)
+static struct _SPF_dns_cache_bucket_t * SPF_dns_cache_bucket_find(struct anonymous_1 *spfhook, const char *domain, enum __ns_type rr_type, signed int idx)
 {
   struct _SPF_dns_cache_bucket_t *bucket;
   struct _SPF_dns_cache_bucket_t *prev;
@@ -3968,7 +3968,7 @@ static struct _SPF_dns_cache_bucket_t * SPF_dns_cache_bucket_find(struct anonymo
   bucket = spfhook->cache[(signed long int)idx];
   prev = (struct _SPF_dns_cache_bucket_t *)(void *)0;
   time(&now);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   while(!(bucket == ((struct _SPF_dns_cache_bucket_t *)NULL)))
   {
     rr = bucket->rr;
@@ -3989,8 +3989,8 @@ static struct _SPF_dns_cache_bucket_t * SPF_dns_cache_bucket_find(struct anonymo
     else
       if(rr->rr_type == rr_type)
       {
-        return_value_strcmp$1=strcmp(rr->domain, domain);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(rr->domain, domain);
+        if(return_value_strcmp_1 == 0)
         {
           if(!(prev == ((struct _SPF_dns_cache_bucket_t *)NULL)))
           {
@@ -4018,7 +4018,7 @@ static struct _SPF_dns_cache_bucket_t * SPF_dns_cache_bucket_find(struct anonymo
 // file spf_dns_cache.c line 435
 static void SPF_dns_cache_free(struct SPF_dns_server_struct *spf_dns_server)
 {
-  struct anonymous$1 *spfhook;
+  struct anonymous_1 *spfhook;
   struct _SPF_dns_cache_bucket_t *bucket;
   struct _SPF_dns_cache_bucket_t *prev;
   signed int i;
@@ -4028,7 +4028,7 @@ static void SPF_dns_cache_free(struct SPF_dns_server_struct *spf_dns_server)
 
   while((_Bool)0);
   spfhook=SPF_voidp2spfhook(spf_dns_server->hook);
-  if(!(spfhook == ((struct anonymous$1 *)NULL)))
+  if(!(spfhook == ((struct anonymous_1 *)NULL)))
   {
     pthread_mutex_lock(&spfhook->cache_lock);
     if(!(spfhook->cache == ((struct _SPF_dns_cache_bucket_t **)NULL)))
@@ -4063,7 +4063,7 @@ static void SPF_dns_cache_free(struct SPF_dns_server_struct *spf_dns_server)
 // file spf_dns_cache.c line 368
 static struct SPF_dns_rr_struct * SPF_dns_cache_lookup(struct SPF_dns_server_struct *spf_dns_server, const char *domain, enum __ns_type rr_type, signed int should_cache)
 {
-  struct anonymous$1 *spfhook;
+  struct anonymous_1 *spfhook;
   struct _SPF_dns_cache_bucket_t *bucket;
   struct SPF_dns_rr_struct *cached_rr;
   struct SPF_dns_rr_struct *rr;
@@ -4077,9 +4077,9 @@ static struct SPF_dns_rr_struct * SPF_dns_cache_lookup(struct SPF_dns_server_str
   {
     if(!(bucket->rr == ((struct SPF_dns_rr_struct *)NULL)))
     {
-      enum SPF_errcode_t return_value_SPF_dns_rr_dup$1;
-      return_value_SPF_dns_rr_dup$1=SPF_dns_rr_dup(&rr, bucket->rr);
-      if((signed int)return_value_SPF_dns_rr_dup$1 == SPF_E_SUCCESS)
+      enum SPF_errcode_t return_value_SPF_dns_rr_dup_1;
+      return_value_SPF_dns_rr_dup_1=SPF_dns_rr_dup(&rr, bucket->rr);
+      if((signed int)return_value_SPF_dns_rr_dup_1 == SPF_E_SUCCESS)
       {
         pthread_mutex_unlock(&spfhook->cache_lock);
         return rr;
@@ -4095,11 +4095,11 @@ static struct SPF_dns_rr_struct * SPF_dns_cache_lookup(struct SPF_dns_server_str
 
   bucket = (struct _SPF_dns_cache_bucket_t *)(void *)0;
   pthread_mutex_unlock(&spfhook->cache_lock);
-  struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_nxdomain$2;
+  struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_nxdomain_2;
   if(spf_dns_server->layer_below == ((struct SPF_dns_server_struct *)NULL))
   {
-    return_value_SPF_dns_rr_new_nxdomain$2=SPF_dns_rr_new_nxdomain(spf_dns_server, domain);
-    return return_value_SPF_dns_rr_new_nxdomain$2;
+    return_value_SPF_dns_rr_new_nxdomain_2=SPF_dns_rr_new_nxdomain(spf_dns_server, domain);
+    return return_value_SPF_dns_rr_new_nxdomain_2;
   }
 
   rr=SPF_dns_lookup(spf_dns_server->layer_below, domain, rr_type, should_cache);
@@ -4117,17 +4117,17 @@ static struct SPF_dns_rr_struct * SPF_dns_cache_lookup(struct SPF_dns_server_str
   __CPROVER_DUMP_L5:
     ;
     pthread_mutex_lock(&spfhook->cache_lock);
-    enum SPF_errcode_t return_value_SPF_dns_rr_dup$5;
-    return_value_SPF_dns_rr_dup$5=SPF_dns_rr_dup(&cached_rr, rr);
-    if((signed int)return_value_SPF_dns_rr_dup$5 == SPF_E_SUCCESS)
+    enum SPF_errcode_t return_value_SPF_dns_rr_dup_5;
+    return_value_SPF_dns_rr_dup_5=SPF_dns_rr_dup(&cached_rr, rr);
+    if((signed int)return_value_SPF_dns_rr_dup_5 == SPF_E_SUCCESS)
     {
-      enum SPF_errcode_t return_value_SPF_dns_cache_rr_fixup$4;
-      return_value_SPF_dns_cache_rr_fixup$4=SPF_dns_cache_rr_fixup(spfhook, cached_rr, domain, rr_type);
-      if((signed int)return_value_SPF_dns_cache_rr_fixup$4 == SPF_E_SUCCESS)
+      enum SPF_errcode_t return_value_SPF_dns_cache_rr_fixup_4;
+      return_value_SPF_dns_cache_rr_fixup_4=SPF_dns_cache_rr_fixup(spfhook, cached_rr, domain, rr_type);
+      if((signed int)return_value_SPF_dns_cache_rr_fixup_4 == SPF_E_SUCCESS)
       {
-        enum SPF_errcode_t return_value_SPF_dns_cache_bucket_add$3;
-        return_value_SPF_dns_cache_bucket_add$3=SPF_dns_cache_bucket_add(spfhook, cached_rr, idx);
-        if((signed int)return_value_SPF_dns_cache_bucket_add$3 == SPF_E_SUCCESS)
+        enum SPF_errcode_t return_value_SPF_dns_cache_bucket_add_3;
+        return_value_SPF_dns_cache_bucket_add_3=SPF_dns_cache_bucket_add(spfhook, cached_rr, idx);
+        if((signed int)return_value_SPF_dns_cache_bucket_add_3 == SPF_E_SUCCESS)
         {
           pthread_mutex_unlock(&spfhook->cache_lock);
           return rr;
@@ -4150,7 +4150,7 @@ static struct SPF_dns_rr_struct * SPF_dns_cache_lookup(struct SPF_dns_server_str
 struct SPF_dns_server_struct * SPF_dns_cache_new(struct SPF_dns_server_struct *layer_below, const char *name, signed int debug, signed int cache_bits)
 {
   struct SPF_dns_server_struct *spf_dns_server;
-  struct anonymous$1 *spfhook;
+  struct anonymous_1 *spfhook;
   do
     if(layer_below == ((struct SPF_dns_server_struct *)NULL))
       SPF_errorx("spf_dns_cache.c", 493, "%s", (const void *)"layer_below is NULL");
@@ -4159,16 +4159,16 @@ struct SPF_dns_server_struct * SPF_dns_cache_new(struct SPF_dns_server_struct *l
   if(cache_bits >= 17 || !(cache_bits >= 1))
     SPF_errorx("spf_dns_cache.c", 496, "%s", (const void *)"cache bits out of range (1..16).");
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
-  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
+  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc_1;
   if(spf_dns_server == ((struct SPF_dns_server_struct *)NULL))
     return (struct SPF_dns_server_struct *)(void *)0;
 
   else
   {
     memset((void *)spf_dns_server, 0, sizeof(struct SPF_dns_server_struct) /*72ul*/ );
-    spf_dns_server->hook=malloc(sizeof(struct anonymous$1) /*104ul*/ );
+    spf_dns_server->hook=malloc(sizeof(struct anonymous_1) /*104ul*/ );
     if(spf_dns_server->hook == NULL)
     {
       free((void *)spf_dns_server);
@@ -4177,7 +4177,7 @@ struct SPF_dns_server_struct * SPF_dns_cache_new(struct SPF_dns_server_struct *l
 
     else
     {
-      memset(spf_dns_server->hook, 0, sizeof(struct anonymous$1) /*104ul*/ );
+      memset(spf_dns_server->hook, 0, sizeof(struct anonymous_1) /*104ul*/ );
       if(name == ((const char *)NULL))
         name = "cache";
 
@@ -4193,9 +4193,9 @@ struct SPF_dns_server_struct * SPF_dns_cache_new(struct SPF_dns_server_struct *l
       spfhook->cache_size = 1 << cache_bits;
       spfhook->hash_mask = spfhook->cache_size - 1;
       spfhook->max_hash_len = cache_bits > 4 ? cache_bits * 2 : 8;
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)spfhook->cache_size, sizeof(struct _SPF_dns_cache_bucket_t *) /*8ul*/ );
-      spfhook->cache = (struct _SPF_dns_cache_bucket_t **)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)spfhook->cache_size, sizeof(struct _SPF_dns_cache_bucket_t *) /*8ul*/ );
+      spfhook->cache = (struct _SPF_dns_cache_bucket_t **)return_value_calloc_2;
       spfhook->min_ttl = (signed long int)30;
       spfhook->err_ttl = (signed long int)(30 * 60);
       spfhook->txt_ttl = (signed long int)(30 * 60);
@@ -4219,30 +4219,30 @@ struct SPF_dns_server_struct * SPF_dns_cache_new(struct SPF_dns_server_struct *l
 
 // SPF_dns_cache_rr_fixup
 // file spf_dns_cache.c line 315
-static enum SPF_errcode_t SPF_dns_cache_rr_fixup(struct anonymous$1 *spfhook, struct SPF_dns_rr_struct *cached_rr, const char *domain, enum __ns_type rr_type)
+static enum SPF_errcode_t SPF_dns_cache_rr_fixup(struct anonymous_1 *spfhook, struct SPF_dns_rr_struct *cached_rr, const char *domain, enum __ns_type rr_type)
 {
   char *p;
   if((signed int)cached_rr->rr_type == ns_t_any)
     cached_rr->rr_type = rr_type;
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(cached_rr->domain == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)cached_rr->domain[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)cached_rr->domain[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     char *new_domain;
     unsigned long int new_len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(domain);
-    new_len = return_value_strlen$1 + (unsigned long int)1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(domain);
+    new_len = return_value_strlen_1 + (unsigned long int)1;
     if(!(cached_rr->domain_buf_len >= new_len))
     {
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)cached_rr->domain, new_len);
-      new_domain = (char *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)cached_rr->domain, new_len);
+      new_domain = (char *)return_value_realloc_2;
       if(new_domain == ((char *)NULL))
         return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -4282,9 +4282,9 @@ static enum SPF_errcode_t SPF_dns_cache_rr_fixup(struct anonymous$1 *spfhook, st
 
   }
 
-  signed long int return_value_time$4;
-  return_value_time$4=time((signed long int *)(void *)0);
-  cached_rr->utc_ttl = cached_rr->ttl + return_value_time$4;
+  signed long int return_value_time_4;
+  return_value_time_4=time((signed long int *)(void *)0);
+  cached_rr->utc_ttl = cached_rr->ttl + return_value_time_4;
   return (enum SPF_errcode_t)SPF_E_SUCCESS;
 }
 
@@ -4292,14 +4292,14 @@ static enum SPF_errcode_t SPF_dns_cache_rr_fixup(struct anonymous$1 *spfhook, st
 // file spf_dns_cache.c line 555
 void SPF_dns_cache_set_ttl(struct SPF_dns_server_struct *spf_dns_server, signed long int min_ttl, signed long int err_ttl, signed long int txt_ttl, signed long int rdns_ttl)
 {
-  struct anonymous$1 *spfhook;
+  struct anonymous_1 *spfhook;
   do
     if(spf_dns_server == ((struct SPF_dns_server_struct *)NULL))
       SPF_errorx("spf_dns_cache.c", 561, "%s", (const void *)"spf_dns_server is NULL");
 
   while((_Bool)0);
   spfhook=SPF_voidp2spfhook(spf_dns_server->hook);
-  if(!(spfhook == ((struct anonymous$1 *)NULL)))
+  if(!(spfhook == ((struct anonymous_1 *)NULL)))
   {
     pthread_mutex_lock(&spfhook->cache_lock);
     spfhook->min_ttl = min_ttl;
@@ -4315,40 +4315,40 @@ void SPF_dns_cache_set_ttl(struct SPF_dns_server_struct *spf_dns_server, signed 
 // file spf_dns.c line 59
 static void SPF_dns_debug_post(struct SPF_dns_server_struct *spf_dns_server, struct SPF_dns_rr_struct *spfrr)
 {
-  const char *tmp_if_expr$2;
-  const char *return_value_inet_ntop$4;
-  const char *return_value_inet_ntop$5;
+  const char *tmp_if_expr_2;
+  const char *return_value_inet_ntop_4;
+  const char *return_value_inet_ntop_5;
   if(!(spf_dns_server->debug == 0))
   {
     char ip4_buf[16l];
     char ip6_buf[46l];
     signed int i;
     SPF_debugx("spf_dns.c", 66, "DNS[%s] found record", spf_dns_server->name);
-    const char *return_value_SPF_strrrtype$1;
-    return_value_SPF_strrrtype$1=SPF_strrrtype(spfrr->rr_type);
-    SPF_debugx("spf_dns.c", 69, "    DOMAIN: %s  TYPE: %s (%d)", spfrr->domain, return_value_SPF_strrrtype$1, spfrr->rr_type);
-    const char *tmp_if_expr$3;
+    const char *return_value_SPF_strrrtype_1;
+    return_value_SPF_strrrtype_1=SPF_strrrtype(spfrr->rr_type);
+    SPF_debugx("spf_dns.c", 69, "    DOMAIN: %s  TYPE: %s (%d)", spfrr->domain, return_value_SPF_strrrtype_1, spfrr->rr_type);
+    const char *tmp_if_expr_3;
     if(!(spfrr->source == ((struct SPF_dns_server_struct *)NULL)))
     {
       if(!(spfrr->source->name == ((const char *)NULL)))
-        tmp_if_expr$2 = spfrr->source->name;
+        tmp_if_expr_2 = spfrr->source->name;
 
       else
-        tmp_if_expr$2 = "(unnamed source)";
-      tmp_if_expr$3 = tmp_if_expr$2;
+        tmp_if_expr_2 = "(unnamed source)";
+      tmp_if_expr_3 = tmp_if_expr_2;
     }
 
     else
-      tmp_if_expr$3 = "(null source)";
-    SPF_debugx("spf_dns.c", 76, "    TTL: %ld  RR found: %d  herrno: %d  source: %s", (signed long int)spfrr->ttl, spfrr->num_rr, spfrr->herrno, tmp_if_expr$3);
+      tmp_if_expr_3 = "(null source)";
+    SPF_debugx("spf_dns.c", 76, "    TTL: %ld  RR found: %d  herrno: %d  source: %s", (signed long int)spfrr->ttl, spfrr->num_rr, spfrr->herrno, tmp_if_expr_3);
     i = 0;
     for( ; !(i >= spfrr->num_rr); i = i + 1)
       switch((signed int)spfrr->rr_type)
       {
         case ns_t_a:
         {
-          return_value_inet_ntop$4=inet_ntop(2, (const void *)&spfrr->rr[(signed long int)i]->a, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-          SPF_debugx("spf_dns.c", 82, "    - A: %s", return_value_inet_ntop$4);
+          return_value_inet_ntop_4=inet_ntop(2, (const void *)&spfrr->rr[(signed long int)i]->a, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+          SPF_debugx("spf_dns.c", 82, "    - A: %s", return_value_inet_ntop_4);
           break;
         }
         case ns_t_ptr:
@@ -4373,8 +4373,8 @@ static void SPF_dns_debug_post(struct SPF_dns_server_struct *spf_dns_server, str
         }
         case ns_t_aaaa:
         {
-          return_value_inet_ntop$5=inet_ntop(10, (const void *)&spfrr->rr[(signed long int)i]->aaaa, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-          SPF_debugx("spf_dns.c", 104, "    - AAAA: %s", return_value_inet_ntop$5);
+          return_value_inet_ntop_5=inet_ntop(10, (const void *)&spfrr->rr[(signed long int)i]->aaaa, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+          SPF_debugx("spf_dns.c", 104, "    - AAAA: %s", return_value_inet_ntop_5);
           break;
         }
         default:
@@ -4390,9 +4390,9 @@ static void SPF_dns_debug_pre(struct SPF_dns_server_struct *spf_dns_server, cons
 {
   if(!(spf_dns_server->debug == 0))
   {
-    const char *return_value_SPF_strrrtype$1;
-    return_value_SPF_strrrtype$1=SPF_strrrtype(rr_type);
-    SPF_debugx("spf_dns.c", 54, "DNS[%s] lookup: %s %s (%d)", spf_dns_server->name, domain, return_value_SPF_strrrtype$1, rr_type);
+    const char *return_value_SPF_strrrtype_1;
+    return_value_SPF_strrrtype_1=SPF_strrrtype(rr_type);
+    SPF_debugx("spf_dns.c", 54, "DNS[%s] lookup: %s %s (%d)", spf_dns_server->name, domain, return_value_SPF_strrrtype_1, rr_type);
   }
 
 }
@@ -4480,9 +4480,9 @@ char * SPF_dns_get_client_dom(struct SPF_dns_server_struct *spf_dns_server, stru
         j = 0;
         for( ; !(j >= rr_aaaa->num_rr); j = j + 1)
         {
-          signed int return_value_memcmp$1;
-          return_value_memcmp$1=memcmp((const void *)&rr_aaaa->rr[(signed long int)j]->aaaa, (const void *)&sr->ipv6, sizeof(struct in6_addr) /*16ul*/ );
-          if(return_value_memcmp$1 == 0)
+          signed int return_value_memcmp_1;
+          return_value_memcmp_1=memcmp((const void *)&rr_aaaa->rr[(signed long int)j]->aaaa, (const void *)&sr->ipv6, sizeof(struct in6_addr) /*16ul*/ );
+          if(return_value_memcmp_1 == 0)
           {
             client_dom=strdup(rr_ptr->rr[(signed long int)i]->ptr);
             SPF_dns_rr_free(rr_ptr);
@@ -4496,9 +4496,9 @@ char * SPF_dns_get_client_dom(struct SPF_dns_server_struct *spf_dns_server, stru
       SPF_dns_rr_free(rr_ptr);
     }
 
-  char *return_value_strdup$2;
-  return_value_strdup$2=strdup("unknown");
-  return return_value_strdup$2;
+  char *return_value_strdup_2;
+  return_value_strdup_2=strdup("unknown");
+  return return_value_strdup_2;
 }
 
 // SPF_dns_lookup
@@ -4541,16 +4541,16 @@ static void SPF_dns_null_free(struct SPF_dns_server_struct *spf_dns_server)
 // file spf_dns_null.c line 42
 static struct SPF_dns_rr_struct * SPF_dns_null_lookup(struct SPF_dns_server_struct *spf_dns_server, const char *domain, enum __ns_type rr_type, signed int should_cache)
 {
-  struct SPF_dns_rr_struct *return_value_SPF_dns_lookup$1;
+  struct SPF_dns_rr_struct *return_value_SPF_dns_lookup_1;
   if(!(spf_dns_server->layer_below == ((struct SPF_dns_server_struct *)NULL)))
   {
-    return_value_SPF_dns_lookup$1=SPF_dns_lookup(spf_dns_server->layer_below, domain, rr_type, should_cache);
-    return return_value_SPF_dns_lookup$1;
+    return_value_SPF_dns_lookup_1=SPF_dns_lookup(spf_dns_server->layer_below, domain, rr_type, should_cache);
+    return return_value_SPF_dns_lookup_1;
   }
 
-  struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_nxdomain$2;
-  return_value_SPF_dns_rr_new_nxdomain$2=SPF_dns_rr_new_nxdomain(spf_dns_server, domain);
-  return return_value_SPF_dns_rr_new_nxdomain$2;
+  struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_nxdomain_2;
+  return_value_SPF_dns_rr_new_nxdomain_2=SPF_dns_rr_new_nxdomain(spf_dns_server, domain);
+  return return_value_SPF_dns_rr_new_nxdomain_2;
 }
 
 // SPF_dns_null_new
@@ -4558,9 +4558,9 @@ static struct SPF_dns_rr_struct * SPF_dns_null_lookup(struct SPF_dns_server_stru
 struct SPF_dns_server_struct * SPF_dns_null_new(struct SPF_dns_server_struct *spf_dns_server_below, const char *name, signed int debug)
 {
   struct SPF_dns_server_struct *spf_dns_server;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
-  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
+  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc_1;
   if(spf_dns_server == ((struct SPF_dns_server_struct *)NULL))
     return (struct SPF_dns_server_struct *)(void *)0;
 
@@ -4591,21 +4591,21 @@ static void SPF_dns_resolv_debug(struct SPF_dns_server_struct *spf_dns_server, s
   char name_buf[1025l];
   signed int prio;
   signed int err;
-  const char *return_value_inet_ntop$1;
-  const char *return_value_inet_ntop$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  signed int *return_value___errno_location$8;
-  unsigned int return_value_ns_get16$9;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
-  signed int *return_value___errno_location$12;
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  signed int *return_value___errno_location$15;
+  const char *return_value_inet_ntop_1;
+  const char *return_value_inet_ntop_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  signed int *return_value___errno_location_8;
+  unsigned int return_value_ns_get16_9;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
+  signed int *return_value___errno_location_12;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  signed int *return_value___errno_location_15;
   switch((signed int)(enum __ns_type)((signed int)rr.type + 0))
   {
     case ns_t_a:
@@ -4615,8 +4615,8 @@ static void SPF_dns_resolv_debug(struct SPF_dns_server_struct *spf_dns_server, s
 
       else
       {
-        return_value_inet_ntop$1=inet_ntop(2, (const void *)rdata, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-        SPF_debugx("spf_dns_resolv.c", 129, "A: %s", return_value_inet_ntop$1);
+        return_value_inet_ntop_1=inet_ntop(2, (const void *)rdata, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+        SPF_debugx("spf_dns_resolv.c", 129, "A: %s", return_value_inet_ntop_1);
       }
       break;
     }
@@ -4627,8 +4627,8 @@ static void SPF_dns_resolv_debug(struct SPF_dns_server_struct *spf_dns_server, s
 
       else
       {
-        return_value_inet_ntop$2=inet_ntop(10, (const void *)rdata, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-        SPF_debugx("spf_dns_resolv.c", 138, "AAAA: %s", return_value_inet_ntop$2);
+        return_value_inet_ntop_2=inet_ntop(10, (const void *)rdata, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+        SPF_debugx("spf_dns_resolv.c", 138, "AAAA: %s", return_value_inet_ntop_2);
       }
       break;
     }
@@ -4637,10 +4637,10 @@ static void SPF_dns_resolv_debug(struct SPF_dns_server_struct *spf_dns_server, s
       err=ns_name_uncompress(responsebuf, responsebuf + (signed long int)responselen, rdata, name_buf, sizeof(char [1025l]) /*1025ul*/ );
       if(!(err >= 0))
       {
-        return_value___errno_location$3=__errno_location();
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        return_value___errno_location$5=__errno_location();
-        SPF_debugx("spf_dns_resolv.c", 148, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror$4, *return_value___errno_location$5);
+        return_value___errno_location_3=__errno_location();
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        return_value___errno_location_5=__errno_location();
+        SPF_debugx("spf_dns_resolv.c", 148, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror_4, *return_value___errno_location_5);
       }
 
       else
@@ -4652,10 +4652,10 @@ static void SPF_dns_resolv_debug(struct SPF_dns_server_struct *spf_dns_server, s
       err=ns_name_uncompress(responsebuf, responsebuf + (signed long int)responselen, rdata, name_buf, sizeof(char [1025l]) /*1025ul*/ );
       if(!(err >= 0))
       {
-        return_value___errno_location$6=__errno_location();
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        return_value___errno_location$8=__errno_location();
-        SPF_debugx("spf_dns_resolv.c", 160, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror$7, *return_value___errno_location$8);
+        return_value___errno_location_6=__errno_location();
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        return_value___errno_location_8=__errno_location();
+        SPF_debugx("spf_dns_resolv.c", 160, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror_7, *return_value___errno_location_8);
       }
 
       else
@@ -4670,15 +4670,15 @@ static void SPF_dns_resolv_debug(struct SPF_dns_server_struct *spf_dns_server, s
         break;
       }
 
-      return_value_ns_get16$9=ns_get16(rdata);
-      prio = (signed int)return_value_ns_get16$9;
+      return_value_ns_get16_9=ns_get16(rdata);
+      prio = (signed int)return_value_ns_get16_9;
       err=ns_name_uncompress(responsebuf, responsebuf + (signed long int)responselen, rdata + (signed long int)2, name_buf, sizeof(char [1025l]) /*1025ul*/ );
       if(!(err >= 0))
       {
-        return_value___errno_location$10=__errno_location();
-        return_value_strerror$11=strerror(*return_value___errno_location$10);
-        return_value___errno_location$12=__errno_location();
-        SPF_debugx("spf_dns_resolv.c", 177, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror$11, *return_value___errno_location$12);
+        return_value___errno_location_10=__errno_location();
+        return_value_strerror_11=strerror(*return_value___errno_location_10);
+        return_value___errno_location_12=__errno_location();
+        SPF_debugx("spf_dns_resolv.c", 177, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror_11, *return_value___errno_location_12);
       }
 
       else
@@ -4701,10 +4701,10 @@ static void SPF_dns_resolv_debug(struct SPF_dns_server_struct *spf_dns_server, s
       err=ns_name_uncompress(responsebuf, responsebuf + (signed long int)responselen, rdata, name_buf, sizeof(char [1025l]) /*1025ul*/ );
       if(!(err >= 0))
       {
-        return_value___errno_location$13=__errno_location();
-        return_value_strerror$14=strerror(*return_value___errno_location$13);
-        return_value___errno_location$15=__errno_location();
-        SPF_debugx("spf_dns_resolv.c", 200, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror$14, *return_value___errno_location$15);
+        return_value___errno_location_13=__errno_location();
+        return_value_strerror_14=strerror(*return_value___errno_location_13);
+        return_value___errno_location_15=__errno_location();
+        SPF_debugx("spf_dns_resolv.c", 200, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror_14, *return_value___errno_location_15);
       }
 
       else
@@ -4762,16 +4762,16 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
   res_spec=pthread_getspecific(res_state_key);
   if(res_spec == NULL)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct __res_state) /*568ul*/ );
-    res_state = (struct __res_state *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct __res_state) /*568ul*/ );
+    res_state = (struct __res_state *)return_value_malloc_1;
     if(res_state == ((struct __res_state *)NULL))
       SPF_errorx("spf_dns_resolv.c", 259, "Failed to allocate %lu bytes for res_state", (unsigned long int)sizeof(struct __res_state) /*568ul*/ );
 
     memset((void *)res_state, 0, sizeof(struct __res_state) /*568ul*/ );
-    signed int return_value___res_ninit$2;
-    return_value___res_ninit$2=__res_ninit(res_state);
-    if(!(return_value___res_ninit$2 == 0))
+    signed int return_value___res_ninit_2;
+    return_value___res_ninit_2=__res_ninit(res_state);
+    if(!(return_value___res_ninit_2 == 0))
       SPF_errorx("spf_dns_resolv.c", 262, "%s", (const void *)"Failed to call res_ninit()");
 
     pthread_setspecific(res_state_key, (void *)res_state);
@@ -4780,28 +4780,28 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
   else
     res_state = (struct __res_state *)res_spec;
   responselen = (unsigned long int)2048;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(responselen);
-  responsebuf = (unsigned char *)return_value_malloc$3;
-  const char *return_value_hstrerror$4;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  signed int *return_value___errno_location$9;
-  signed int *return_value___errno_location$17;
-  char *return_value_strerror$18;
-  signed int *return_value___errno_location$19;
-  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc$21;
-  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc$22;
-  signed int *return_value___errno_location$23;
-  char *return_value_strerror$24;
-  signed int *return_value___errno_location$25;
-  unsigned long int return_value_strlen$26;
-  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc$27;
-  signed int *return_value___errno_location$30;
-  char *return_value_strerror$31;
-  signed int *return_value___errno_location$32;
-  unsigned long int return_value_strlen$33;
-  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc$34;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(responselen);
+  responsebuf = (unsigned char *)return_value_malloc_3;
+  const char *return_value_hstrerror_4;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  signed int *return_value___errno_location_9;
+  signed int *return_value___errno_location_17;
+  char *return_value_strerror_18;
+  signed int *return_value___errno_location_19;
+  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc_21;
+  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc_22;
+  signed int *return_value___errno_location_23;
+  char *return_value_strerror_24;
+  signed int *return_value___errno_location_25;
+  unsigned long int return_value_strlen_26;
+  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc_27;
+  signed int *return_value___errno_location_30;
+  char *return_value_strerror_31;
+  signed int *return_value___errno_location_32;
+  unsigned long int return_value_strlen_33;
+  enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc_34;
   if(responsebuf == ((unsigned char *)NULL))
     return (struct SPF_dns_rr_struct *)(void *)0;
 
@@ -4817,24 +4817,24 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
         free((void *)responsebuf);
         if(!(spf_dns_server->debug == 0))
         {
-          return_value_hstrerror$4=hstrerror(res_state->res_h_errno);
-          SPF_debugx("spf_dns_resolv.c", 311, "query failed: err = %d  %s (%d): %s", dns_len, return_value_hstrerror$4, res_state->res_h_errno, domain);
+          return_value_hstrerror_4=hstrerror(res_state->res_h_errno);
+          SPF_debugx("spf_dns_resolv.c", 311, "query failed: err = %d  %s (%d): %s", dns_len, return_value_hstrerror_4, res_state->res_h_errno, domain);
         }
 
         if(res_state->res_h_errno == 1)
         {
           if(!(spf_dns_server->layer_below == ((struct SPF_dns_server_struct *)NULL)))
           {
-            struct SPF_dns_rr_struct *return_value_SPF_dns_lookup$5;
-            return_value_SPF_dns_lookup$5=SPF_dns_lookup(spf_dns_server->layer_below, domain, rr_type, should_cache);
-            return return_value_SPF_dns_lookup$5;
+            struct SPF_dns_rr_struct *return_value_SPF_dns_lookup_5;
+            return_value_SPF_dns_lookup_5=SPF_dns_lookup(spf_dns_server->layer_below, domain, rr_type, should_cache);
+            return return_value_SPF_dns_lookup_5;
           }
 
         }
 
-        struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_init$6;
-        return_value_SPF_dns_rr_new_init$6=SPF_dns_rr_new_init(spf_dns_server, domain, rr_type, 0, res_state->res_h_errno);
-        return return_value_SPF_dns_rr_new_init$6;
+        struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_init_6;
+        return_value_SPF_dns_rr_new_init_6=SPF_dns_rr_new_init(spf_dns_server, domain, rr_type, 0, res_state->res_h_errno);
+        return return_value_SPF_dns_rr_new_init_6;
       }
 
       else
@@ -4873,10 +4873,10 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
       {
         if(!(spf_dns_server->debug == 0))
         {
-          return_value___errno_location$7=__errno_location();
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          return_value___errno_location$9=__errno_location();
-          SPF_debugx("spf_dns_resolv.c", 363, "ns_initparse failed: err = %d  %s (%d)", err, return_value_strerror$8, *return_value___errno_location$9);
+          return_value___errno_location_7=__errno_location();
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          return_value___errno_location_9=__errno_location();
+          SPF_debugx("spf_dns_resolv.c", 363, "ns_initparse failed: err = %d  %s (%d)", err, return_value_strerror_8, *return_value___errno_location_9);
         }
 
         free((void *)responsebuf);
@@ -4887,27 +4887,27 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
       if(spf_dns_server->debug >= 2)
       {
         SPF_debugx("spf_dns_resolv.c", 373, "msg id:             %d", (signed int)ns_handle._id + 0);
-        signed int return_value_ns_msg_getflag$10;
-        return_value_ns_msg_getflag$10=ns_msg_getflag(ns_handle, 0);
-        SPF_debugx("spf_dns_resolv.c", 374, "ns_f_qr quest/resp: %d", return_value_ns_msg_getflag$10);
-        signed int return_value_ns_msg_getflag$11;
-        return_value_ns_msg_getflag$11=ns_msg_getflag(ns_handle, 1);
-        SPF_debugx("spf_dns_resolv.c", 375, "ns_f_opcode:        %d", return_value_ns_msg_getflag$11);
-        signed int return_value_ns_msg_getflag$12;
-        return_value_ns_msg_getflag$12=ns_msg_getflag(ns_handle, 2);
-        SPF_debugx("spf_dns_resolv.c", 376, "ns_f_aa auth ans:   %d", return_value_ns_msg_getflag$12);
-        signed int return_value_ns_msg_getflag$13;
-        return_value_ns_msg_getflag$13=ns_msg_getflag(ns_handle, 3);
-        SPF_debugx("spf_dns_resolv.c", 377, "ns_f_tc truncated:  %d", return_value_ns_msg_getflag$13);
-        signed int return_value_ns_msg_getflag$14;
-        return_value_ns_msg_getflag$14=ns_msg_getflag(ns_handle, 4);
-        SPF_debugx("spf_dns_resolv.c", 378, "ns_f_rd rec desire: %d", return_value_ns_msg_getflag$14);
-        signed int return_value_ns_msg_getflag$15;
-        return_value_ns_msg_getflag$15=ns_msg_getflag(ns_handle, 5);
-        SPF_debugx("spf_dns_resolv.c", 379, "ns_f_ra rec avail:  %d", return_value_ns_msg_getflag$15);
-        signed int return_value_ns_msg_getflag$16;
-        return_value_ns_msg_getflag$16=ns_msg_getflag(ns_handle, 9);
-        SPF_debugx("spf_dns_resolv.c", 380, "ns_f_rcode:         %d", return_value_ns_msg_getflag$16);
+        signed int return_value_ns_msg_getflag_10;
+        return_value_ns_msg_getflag_10=ns_msg_getflag(ns_handle, 0);
+        SPF_debugx("spf_dns_resolv.c", 374, "ns_f_qr quest/resp: %d", return_value_ns_msg_getflag_10);
+        signed int return_value_ns_msg_getflag_11;
+        return_value_ns_msg_getflag_11=ns_msg_getflag(ns_handle, 1);
+        SPF_debugx("spf_dns_resolv.c", 375, "ns_f_opcode:        %d", return_value_ns_msg_getflag_11);
+        signed int return_value_ns_msg_getflag_12;
+        return_value_ns_msg_getflag_12=ns_msg_getflag(ns_handle, 2);
+        SPF_debugx("spf_dns_resolv.c", 376, "ns_f_aa auth ans:   %d", return_value_ns_msg_getflag_12);
+        signed int return_value_ns_msg_getflag_13;
+        return_value_ns_msg_getflag_13=ns_msg_getflag(ns_handle, 3);
+        SPF_debugx("spf_dns_resolv.c", 377, "ns_f_tc truncated:  %d", return_value_ns_msg_getflag_13);
+        signed int return_value_ns_msg_getflag_14;
+        return_value_ns_msg_getflag_14=ns_msg_getflag(ns_handle, 4);
+        SPF_debugx("spf_dns_resolv.c", 378, "ns_f_rd rec desire: %d", return_value_ns_msg_getflag_14);
+        signed int return_value_ns_msg_getflag_15;
+        return_value_ns_msg_getflag_15=ns_msg_getflag(ns_handle, 5);
+        SPF_debugx("spf_dns_resolv.c", 379, "ns_f_ra rec avail:  %d", return_value_ns_msg_getflag_15);
+        signed int return_value_ns_msg_getflag_16;
+        return_value_ns_msg_getflag_16=ns_msg_getflag(ns_handle, 9);
+        SPF_debugx("spf_dns_resolv.c", 380, "ns_f_rcode:         %d", return_value_ns_msg_getflag_16);
       }
 
       ns_sect = 0;
@@ -4934,10 +4934,10 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
           {
             if(spf_dns_server->debug >= 2)
             {
-              return_value___errno_location$17=__errno_location();
-              return_value_strerror$18=strerror(*return_value___errno_location$17);
-              return_value___errno_location$19=__errno_location();
-              SPF_debugx("spf_dns_resolv.c", 406, "ns_parserr failed: err = %d  %s (%d)", err, return_value_strerror$18, *return_value___errno_location$19);
+              return_value___errno_location_17=__errno_location();
+              return_value_strerror_18=strerror(*return_value___errno_location_17);
+              return_value___errno_location_19=__errno_location();
+              SPF_debugx("spf_dns_resolv.c", 406, "ns_parserr failed: err = %d  %s (%d)", err, return_value_strerror_18, *return_value___errno_location_19);
             }
 
             free((void *)responsebuf);
@@ -4948,13 +4948,13 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
           rdlen = (unsigned long int)((signed int)rr.rdlength + 0);
           if(spf_dns_server->debug >= 2)
           {
-            char *tmp_if_expr$20;
+            char *tmp_if_expr_20;
             if(!((signed int)rr.name[0l] == 0))
-              tmp_if_expr$20 = rr.name;
+              tmp_if_expr_20 = rr.name;
 
             else
-              tmp_if_expr$20 = ".";
-            SPF_debugx("spf_dns_resolv.c", 418, "name: %s  type: %d  class: %d  ttl: %d  rdlen: %lu", tmp_if_expr$20, (enum __ns_type)((signed int)rr.type + 0), (enum __ns_class)((signed int)rr.rr_class + 0), rr.ttl + (unsigned int)0, (unsigned long int)rdlen);
+              tmp_if_expr_20 = ".";
+            SPF_debugx("spf_dns_resolv.c", 418, "name: %s  type: %d  class: %d  ttl: %d  rdlen: %lu", tmp_if_expr_20, (enum __ns_type)((signed int)rr.type + 0), (enum __ns_class)((signed int)rr.rr_class + 0), rr.ttl + (unsigned int)0, (unsigned long int)rdlen);
           }
 
           if(rdlen >= 1ul)
@@ -4988,8 +4988,8 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
                       return spfrr;
                     }
 
-                    return_value_SPF_dns_rr_buf_realloc$21=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in_addr) /*4ul*/ );
-                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc$21 == SPF_E_SUCCESS))
+                    return_value_SPF_dns_rr_buf_realloc_21=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in_addr) /*4ul*/ );
+                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc_21 == SPF_E_SUCCESS))
                     {
                       free((void *)responsebuf);
                       return spfrr;
@@ -5007,8 +5007,8 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
                       return spfrr;
                     }
 
-                    return_value_SPF_dns_rr_buf_realloc$22=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in6_addr) /*16ul*/ );
-                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc$22 == SPF_E_SUCCESS))
+                    return_value_SPF_dns_rr_buf_realloc_22=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in6_addr) /*16ul*/ );
+                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc_22 == SPF_E_SUCCESS))
                     {
                       free((void *)responsebuf);
                       return spfrr;
@@ -5035,19 +5035,19 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
                     {
                       if(spf_dns_server->debug >= 2)
                       {
-                        return_value___errno_location$23=__errno_location();
-                        return_value_strerror$24=strerror(*return_value___errno_location$23);
-                        return_value___errno_location$25=__errno_location();
-                        SPF_debugx("spf_dns_resolv.c", 495, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror$24, *return_value___errno_location$25);
+                        return_value___errno_location_23=__errno_location();
+                        return_value_strerror_24=strerror(*return_value___errno_location_23);
+                        return_value___errno_location_25=__errno_location();
+                        SPF_debugx("spf_dns_resolv.c", 495, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror_24, *return_value___errno_location_25);
                       }
 
                       free((void *)responsebuf);
                       return spfrr;
                     }
 
-                    return_value_strlen$26=strlen(name_buf);
-                    return_value_SPF_dns_rr_buf_realloc$27=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen$26 + (unsigned long int)1);
-                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc$27 == SPF_E_SUCCESS))
+                    return_value_strlen_26=strlen(name_buf);
+                    return_value_SPF_dns_rr_buf_realloc_27=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen_26 + (unsigned long int)1);
+                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc_27 == SPF_E_SUCCESS))
                     {
                       free((void *)responsebuf);
                       return spfrr;
@@ -5064,9 +5064,9 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
                       unsigned char *src;
                       unsigned char *dst;
                       unsigned long int len;
-                      enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc$28;
-                      return_value_SPF_dns_rr_buf_realloc$28=SPF_dns_rr_buf_realloc(spfrr, cnt, rdlen);
-                      if(!((signed int)return_value_SPF_dns_rr_buf_realloc$28 == SPF_E_SUCCESS))
+                      enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc_28;
+                      return_value_SPF_dns_rr_buf_realloc_28=SPF_dns_rr_buf_realloc(spfrr, cnt, rdlen);
+                      if(!((signed int)return_value_SPF_dns_rr_buf_realloc_28 == SPF_E_SUCCESS))
                       {
                         free((void *)responsebuf);
                         return spfrr;
@@ -5092,9 +5092,9 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
 
                     else
                     {
-                      enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc$29;
-                      return_value_SPF_dns_rr_buf_realloc$29=SPF_dns_rr_buf_realloc(spfrr, cnt, (unsigned long int)1);
-                      if(!((signed int)return_value_SPF_dns_rr_buf_realloc$29 == SPF_E_SUCCESS))
+                      enum SPF_errcode_t return_value_SPF_dns_rr_buf_realloc_29;
+                      return_value_SPF_dns_rr_buf_realloc_29=SPF_dns_rr_buf_realloc(spfrr, cnt, (unsigned long int)1);
+                      if(!((signed int)return_value_SPF_dns_rr_buf_realloc_29 == SPF_E_SUCCESS))
                       {
                         free((void *)responsebuf);
                         return spfrr;
@@ -5112,19 +5112,19 @@ static struct SPF_dns_rr_struct * SPF_dns_resolv_lookup(struct SPF_dns_server_st
                     {
                       if(spf_dns_server->debug >= 2)
                       {
-                        return_value___errno_location$30=__errno_location();
-                        return_value_strerror$31=strerror(*return_value___errno_location$30);
-                        return_value___errno_location$32=__errno_location();
-                        SPF_debugx("spf_dns_resolv.c", 570, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror$31, *return_value___errno_location$32);
+                        return_value___errno_location_30=__errno_location();
+                        return_value_strerror_31=strerror(*return_value___errno_location_30);
+                        return_value___errno_location_32=__errno_location();
+                        SPF_debugx("spf_dns_resolv.c", 570, "ns_name_uncompress failed: err = %d  %s (%d)", err, return_value_strerror_31, *return_value___errno_location_32);
                       }
 
                       free((void *)responsebuf);
                       return spfrr;
                     }
 
-                    return_value_strlen$33=strlen(name_buf);
-                    return_value_SPF_dns_rr_buf_realloc$34=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen$33 + (unsigned long int)1);
-                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc$34 == SPF_E_SUCCESS))
+                    return_value_strlen_33=strlen(name_buf);
+                    return_value_SPF_dns_rr_buf_realloc_34=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen_33 + (unsigned long int)1);
+                    if(!((signed int)return_value_SPF_dns_rr_buf_realloc_34 == SPF_E_SUCCESS))
                     {
                       free((void *)responsebuf);
                       return spfrr;
@@ -5163,9 +5163,9 @@ struct SPF_dns_server_struct * SPF_dns_resolv_new(struct SPF_dns_server_struct *
 {
   struct SPF_dns_server_struct *spf_dns_server;
   pthread_once(&res_state_control, SPF_dns_resolv_init_key);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
-  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
+  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc_1;
   if(spf_dns_server == ((struct SPF_dns_server_struct *)NULL))
     return (struct SPF_dns_server_struct *)(void *)0;
 
@@ -5200,8 +5200,8 @@ static void SPF_dns_resolv_thread_term(void *arg)
 struct SPF_dns_rr_struct * SPF_dns_rlookup(struct SPF_dns_server_struct *spf_dns_server, struct in_addr ipv4, enum __ns_type rr_type, signed int should_cache)
 {
   char domain[(signed long int)sizeof(char [29l]) /*29l*/ ];
-  /* tag-#anon#lUN[lSYM#tag-in_addr#'ipv4'|lARR4{U8}$U8$'x'] */
-union anonymous$16
+  /* tag-#anon#lUN[lSYM#tag-in_addr#'ipv4'|lARR4{U8}_U8_'x'] */
+union anonymous_16
 {
   // ipv4
   struct in_addr ipv4;
@@ -5211,12 +5211,12 @@ union anonymous$16
 
 /* */
   ;
-  union anonymous$16 tmp;
+  union anonymous_16 tmp;
   tmp.ipv4 = ipv4;
   snprintf(domain, sizeof(char [29l]) /*29ul*/ , "%d.%d.%d.%d.in-addr.arpa", tmp.x[(signed long int)3], tmp.x[(signed long int)2], tmp.x[(signed long int)1], tmp.x[(signed long int)0]);
-  struct SPF_dns_rr_struct *return_value_SPF_dns_lookup$1;
-  return_value_SPF_dns_lookup$1=SPF_dns_lookup(spf_dns_server, domain, rr_type, should_cache);
-  return return_value_SPF_dns_lookup$1;
+  struct SPF_dns_rr_struct *return_value_SPF_dns_lookup_1;
+  return_value_SPF_dns_lookup_1=SPF_dns_lookup(spf_dns_server, domain, rr_type, should_cache);
+  return return_value_SPF_dns_lookup_1;
 }
 
 // SPF_dns_rlookup6
@@ -5232,23 +5232,23 @@ struct SPF_dns_rr_struct * SPF_dns_rlookup6(struct SPF_dns_server_struct *spf_dn
   i = (signed int)(sizeof(struct in6_addr) /*16ul*/  - (unsigned long int)1);
   for( ; i >= 0; i = i - 1)
   {
-    signed int return_value_snprintf$1;
-    return_value_snprintf$1=snprintf(p, (unsigned long int)(p_end - p), "%.1x.%.1x.", (signed int)ipv6.__in6_u.__u6_addr8[(signed long int)i] & 0xf, (signed int)ipv6.__in6_u.__u6_addr8[(signed long int)i] >> 4);
-    p = p + (signed long int)return_value_snprintf$1;
+    signed int return_value_snprintf_1;
+    return_value_snprintf_1=snprintf(p, (unsigned long int)(p_end - p), "%.1x.%.1x.", (signed int)ipv6.__in6_u.__u6_addr8[(signed long int)i] & 0xf, (signed int)ipv6.__in6_u.__u6_addr8[(signed long int)i] >> 4);
+    p = p + (signed long int)return_value_snprintf_1;
   }
-  signed int return_value_snprintf$2;
-  return_value_snprintf$2=snprintf(p, (unsigned long int)(p_end - p), "ip6.arpa");
-  p = p + (signed long int)return_value_snprintf$2;
-  struct SPF_dns_rr_struct *return_value_SPF_dns_lookup$3;
-  return_value_SPF_dns_lookup$3=SPF_dns_lookup(spf_dns_server, domain, rr_type, should_cache);
-  return return_value_SPF_dns_lookup$3;
+  signed int return_value_snprintf_2;
+  return_value_snprintf_2=snprintf(p, (unsigned long int)(p_end - p), "ip6.arpa");
+  p = p + (signed long int)return_value_snprintf_2;
+  struct SPF_dns_rr_struct *return_value_SPF_dns_lookup_3;
+  return_value_SPF_dns_lookup_3=SPF_dns_lookup(spf_dns_server, domain, rr_type, should_cache);
+  return return_value_SPF_dns_lookup_3;
 }
 
 // SPF_dns_rr_buf_realloc
 // file ../../src/include/spf_dns_rr.h line 82
 enum SPF_errcode_t SPF_dns_rr_buf_realloc(struct SPF_dns_rr_struct *spfrr, signed int idx, unsigned long int len)
 {
-  union anonymous$13 **new_data;
+  union anonymous_13 **new_data;
   unsigned long int *new_buf_len;
   signed int new_num;
   void *new_rr;
@@ -5256,16 +5256,16 @@ enum SPF_errcode_t SPF_dns_rr_buf_realloc(struct SPF_dns_rr_struct *spfrr, signe
   if(idx >= spfrr->rr_buf_num)
   {
     new_num = spfrr->rr_buf_num + idx + (idx >> 2) + 4;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)spfrr->rr, (unsigned long int)new_num * sizeof(union anonymous$13 *) /*8ul*/ );
-    new_data = (union anonymous$13 **)return_value_realloc$1;
-    if(new_data == ((union anonymous$13 **)NULL))
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)spfrr->rr, (unsigned long int)new_num * sizeof(union anonymous_13 *) /*8ul*/ );
+    new_data = (union anonymous_13 **)return_value_realloc_1;
+    if(new_data == ((union anonymous_13 **)NULL))
       return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
     spfrr->rr = new_data;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)spfrr->rr_buf_len, (unsigned long int)new_num * sizeof(unsigned long int) /*8ul*/ );
-    new_buf_len = (unsigned long int *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)spfrr->rr_buf_len, (unsigned long int)new_num * sizeof(unsigned long int) /*8ul*/ );
+    new_buf_len = (unsigned long int *)return_value_realloc_2;
     if(new_buf_len == ((unsigned long int *)NULL))
       return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -5273,14 +5273,14 @@ enum SPF_errcode_t SPF_dns_rr_buf_realloc(struct SPF_dns_rr_struct *spfrr, signe
     j = spfrr->rr_buf_num;
     for( ; !(j >= new_num); j = j + 1)
     {
-      spfrr->rr[(signed long int)j] = (union anonymous$13 *)(void *)0;
+      spfrr->rr[(signed long int)j] = (union anonymous_13 *)(void *)0;
       spfrr->rr_buf_len[(signed long int)j] = (unsigned long int)0;
     }
     spfrr->rr_buf_num = new_num;
   }
 
-  if(!(len >= sizeof(union anonymous$13) /*16ul*/ ))
-    len = sizeof(union anonymous$13) /*16ul*/ ;
+  if(!(len >= sizeof(union anonymous_13) /*16ul*/ ))
+    len = sizeof(union anonymous_13) /*16ul*/ ;
 
   if(spfrr->rr_buf_len[(signed long int)idx] >= len)
     return (enum SPF_errcode_t)SPF_E_SUCCESS;
@@ -5293,7 +5293,7 @@ enum SPF_errcode_t SPF_dns_rr_buf_realloc(struct SPF_dns_rr_struct *spfrr, signe
 
     else
     {
-      spfrr->rr[(signed long int)idx] = (union anonymous$13 *)new_rr;
+      spfrr->rr[(signed long int)idx] = (union anonymous_13 *)new_rr;
       spfrr->rr_buf_len[(signed long int)idx] = len;
       return (enum SPF_errcode_t)SPF_E_SUCCESS;
     }
@@ -5337,7 +5337,7 @@ enum SPF_errcode_t SPF_dns_rr_dup(struct SPF_dns_rr_struct **dstp, struct SPF_dn
         {
           do
           {
-            err=SPF_dns_rr_buf_realloc(dst, i, sizeof(union anonymous$13) /*16ul*/ );
+            err=SPF_dns_rr_buf_realloc(dst, i, sizeof(union anonymous_13) /*16ul*/ );
             if(!(err == /*enum*/SPF_E_SUCCESS))
               return err;
 
@@ -5350,9 +5350,9 @@ enum SPF_errcode_t SPF_dns_rr_dup(struct SPF_dns_rr_struct **dstp, struct SPF_dn
         {
           do
           {
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(src->rr[(signed long int)i]->ptr);
-            err=SPF_dns_rr_buf_realloc(dst, i, return_value_strlen$1 + (unsigned long int)1);
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(src->rr[(signed long int)i]->ptr);
+            err=SPF_dns_rr_buf_realloc(dst, i, return_value_strlen_1 + (unsigned long int)1);
             if(!(err == /*enum*/SPF_E_SUCCESS))
               return err;
 
@@ -5365,9 +5365,9 @@ enum SPF_errcode_t SPF_dns_rr_dup(struct SPF_dns_rr_struct **dstp, struct SPF_dn
         {
           do
           {
-            unsigned long int return_value_strlen$2;
-            return_value_strlen$2=strlen(src->rr[(signed long int)i]->mx);
-            err=SPF_dns_rr_buf_realloc(dst, i, return_value_strlen$2 + (unsigned long int)1);
+            unsigned long int return_value_strlen_2;
+            return_value_strlen_2=strlen(src->rr[(signed long int)i]->mx);
+            err=SPF_dns_rr_buf_realloc(dst, i, return_value_strlen_2 + (unsigned long int)1);
             if(!(err == /*enum*/SPF_E_SUCCESS))
               return err;
 
@@ -5382,9 +5382,9 @@ enum SPF_errcode_t SPF_dns_rr_dup(struct SPF_dns_rr_struct **dstp, struct SPF_dn
         {
           do
           {
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(src->rr[(signed long int)i]->txt);
-            err=SPF_dns_rr_buf_realloc(dst, i, return_value_strlen$3 + (unsigned long int)1);
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(src->rr[(signed long int)i]->txt);
+            err=SPF_dns_rr_buf_realloc(dst, i, return_value_strlen_3 + (unsigned long int)1);
             if(!(err == /*enum*/SPF_E_SUCCESS))
               return err;
 
@@ -5397,7 +5397,7 @@ enum SPF_errcode_t SPF_dns_rr_dup(struct SPF_dns_rr_struct **dstp, struct SPF_dn
         {
           do
           {
-            err=SPF_dns_rr_buf_realloc(dst, i, sizeof(union anonymous$13) /*16ul*/ );
+            err=SPF_dns_rr_buf_realloc(dst, i, sizeof(union anonymous_13) /*16ul*/ );
             if(!(err == /*enum*/SPF_E_SUCCESS))
               return err;
 
@@ -5421,11 +5421,11 @@ void SPF_dns_rr_free(struct SPF_dns_rr_struct *spfrr)
   if(!(spfrr->domain == ((char *)NULL)))
     free((void *)spfrr->domain);
 
-  if(!(spfrr->rr == ((union anonymous$13 **)NULL)))
+  if(!(spfrr->rr == ((union anonymous_13 **)NULL)))
   {
     i = 0;
     for( ; !(i >= spfrr->rr_buf_num); i = i + 1)
-      if(!(spfrr->rr[(signed long int)i] == ((union anonymous$13 *)NULL)))
+      if(!(spfrr->rr[(signed long int)i] == ((union anonymous_13 *)NULL)))
         free((void *)spfrr->rr[(signed long int)i]);
 
     free((void *)spfrr->rr);
@@ -5445,9 +5445,9 @@ void SPF_dns_rr_free(struct SPF_dns_rr_struct *spfrr)
 struct SPF_dns_rr_struct * SPF_dns_rr_new(void)
 {
   struct SPF_dns_rr_struct *spfrr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_dns_rr_struct) /*88ul*/ );
-  spfrr = (struct SPF_dns_rr_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_dns_rr_struct) /*88ul*/ );
+  spfrr = (struct SPF_dns_rr_struct *)return_value_malloc_1;
   if(spfrr == ((struct SPF_dns_rr_struct *)NULL))
     return spfrr;
 
@@ -5477,13 +5477,13 @@ struct SPF_dns_rr_struct * SPF_dns_rr_new_init(struct SPF_dns_server_struct *spf
   else
   {
     spfrr->source = spf_dns_server;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(domain == ((const char *)NULL)))
-      tmp_if_expr$2 = (signed int)domain[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)domain[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       spfrr->domain=strdup(domain);
       if(spfrr->domain == ((char *)NULL))
@@ -5492,9 +5492,9 @@ struct SPF_dns_rr_struct * SPF_dns_rr_new_init(struct SPF_dns_server_struct *spf
         return (struct SPF_dns_rr_struct *)(void *)0;
       }
 
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(domain);
-      spfrr->domain_buf_len = return_value_strlen$1 + (unsigned long int)1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(domain);
+      spfrr->domain_buf_len = return_value_strlen_1 + (unsigned long int)1;
     }
 
     else
@@ -5513,23 +5513,23 @@ struct SPF_dns_rr_struct * SPF_dns_rr_new_init(struct SPF_dns_server_struct *spf
 // file ../../src/include/spf_dns_rr.h line 79
 struct SPF_dns_rr_struct * SPF_dns_rr_new_nxdomain(struct SPF_dns_server_struct *spf_dns_server, const char *domain)
 {
-  struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_init$1;
-  return_value_SPF_dns_rr_new_init$1=SPF_dns_rr_new_init(spf_dns_server, domain, (enum __ns_type)ns_t_any, 0, 1);
-  return return_value_SPF_dns_rr_new_init$1;
+  struct SPF_dns_rr_struct *return_value_SPF_dns_rr_new_init_1;
+  return_value_SPF_dns_rr_new_init_1=SPF_dns_rr_new_init(spf_dns_server, domain, (enum __ns_type)ns_t_any, 0, 1);
+  return return_value_SPF_dns_rr_new_init_1;
 }
 
 // SPF_dns_set_conserve_cache
 // file spf_dns_cache.c line 577
 void SPF_dns_set_conserve_cache(struct SPF_dns_server_struct *spf_dns_server, signed int conserve_cache)
 {
-  struct anonymous$1 *spfhook;
+  struct anonymous_1 *spfhook;
   do
     if(spf_dns_server == ((struct SPF_dns_server_struct *)NULL))
       SPF_errorx("spf_dns_cache.c", 582, "%s", (const void *)"spf_dns_server is NULL");
 
   while((_Bool)0);
   spfhook=SPF_voidp2spfhook(spf_dns_server->hook);
-  if(!(spfhook == ((struct anonymous$1 *)NULL)))
+  if(!(spfhook == ((struct anonymous_1 *)NULL)))
     spfhook->conserve_cache = conserve_cache;
 
 }
@@ -5552,9 +5552,9 @@ struct SPF_dns_server_struct * SPF_dns_test_new(struct SPF_dns_server_struct *la
     i = 0;
     for( ; !((signed long int)i >= 175l); i = i + 1)
     {
-      enum SPF_errcode_t return_value_SPF_dns_zone_add_str$1;
-      return_value_SPF_dns_zone_add_str$1=SPF_dns_zone_add_str(spf_dns_server, SPF_dns_db[(signed long int)i].domain, (enum __ns_type)SPF_dns_db[(signed long int)i].rr_type, SPF_dns_db[(signed long int)i].herrno, SPF_dns_db[(signed long int)i].data);
-      if(!((signed int)return_value_SPF_dns_zone_add_str$1 == SPF_E_SUCCESS))
+      enum SPF_errcode_t return_value_SPF_dns_zone_add_str_1;
+      return_value_SPF_dns_zone_add_str_1=SPF_dns_zone_add_str(spf_dns_server, SPF_dns_db[(signed long int)i].domain, (enum __ns_type)SPF_dns_db[(signed long int)i].rr_type, SPF_dns_db[(signed long int)i].herrno, SPF_dns_db[(signed long int)i].data);
+      if(!((signed int)return_value_SPF_dns_zone_add_str_1 == SPF_E_SUCCESS))
         SPF_errorx("spf_dns_test.c", 455, "%s", (const void *)"Could not create test zone");
 
     }
@@ -5566,7 +5566,7 @@ struct SPF_dns_server_struct * SPF_dns_test_new(struct SPF_dns_server_struct *la
 // file ../../src/include/spf_dns_zone.h line 79
 enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_server, const char *domain, enum __ns_type rr_type, signed int herrno, const char *data)
 {
-  struct anonymous$9 *spfhook;
+  struct anonymous_9 *spfhook;
   struct SPF_dns_rr_struct *spfrr;
   signed int err;
   signed int cnt;
@@ -5580,10 +5580,10 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
 
   }
 
-  spfhook=SPF_voidp2spfhook$link1(spf_dns_server->hook);
+  spfhook=SPF_voidp2spfhook_link1(spf_dns_server->hook);
   spfrr=SPF_dns_zone_find(spf_dns_server, domain, rr_type, 1);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if(spfrr == ((struct SPF_dns_rr_struct *)NULL))
   {
     if(spfhook->num_zone == spfhook->zone_buf_len)
@@ -5592,9 +5592,9 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
       struct SPF_dns_rr_struct **new_zone;
       signed int i;
       new_len = spfhook->zone_buf_len + (spfhook->zone_buf_len >> 2) + 4;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)spfhook->zone, (unsigned long int)new_len * sizeof(struct SPF_dns_rr_struct *) /*8ul*/ );
-      new_zone = (struct SPF_dns_rr_struct **)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)spfhook->zone, (unsigned long int)new_len * sizeof(struct SPF_dns_rr_struct *) /*8ul*/ );
+      new_zone = (struct SPF_dns_rr_struct **)return_value_realloc_1;
       if(new_zone == ((struct SPF_dns_rr_struct **)NULL))
         return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -5629,10 +5629,10 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
       {
         do
         {
-          enum SPF_errcode_t SPF_dns_zone_add_str$$1$$3$$1$$__err;
-          SPF_dns_zone_add_str$$1$$3$$1$$__err=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in_addr) /*4ul*/ );
-          if(!((signed int)SPF_dns_zone_add_str$$1$$3$$1$$__err == SPF_E_SUCCESS))
-            return SPF_dns_zone_add_str$$1$$3$$1$$__err;
+          enum SPF_errcode_t SPF_dns_zone_add_str__1__3__1____err;
+          SPF_dns_zone_add_str__1__3__1____err=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in_addr) /*4ul*/ );
+          if(!((signed int)SPF_dns_zone_add_str__1__3__1____err == SPF_E_SUCCESS))
+            return SPF_dns_zone_add_str__1__3__1____err;
 
         }
         while((_Bool)0);
@@ -5646,10 +5646,10 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
       {
         do
         {
-          enum SPF_errcode_t SPF_dns_zone_add_str$$1$$3$$2$$__err;
-          SPF_dns_zone_add_str$$1$$3$$2$$__err=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in6_addr) /*16ul*/ );
-          if(!((signed int)SPF_dns_zone_add_str$$1$$3$$2$$__err == SPF_E_SUCCESS))
-            return SPF_dns_zone_add_str$$1$$3$$2$$__err;
+          enum SPF_errcode_t SPF_dns_zone_add_str__1__3__2____err;
+          SPF_dns_zone_add_str__1__3__2____err=SPF_dns_rr_buf_realloc(spfrr, cnt, sizeof(struct in6_addr) /*16ul*/ );
+          if(!((signed int)SPF_dns_zone_add_str__1__3__2____err == SPF_E_SUCCESS))
+            return SPF_dns_zone_add_str__1__3__2____err;
 
         }
         while((_Bool)0);
@@ -5663,8 +5663,8 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
       {
         do
         {
-          return_value___ctype_b_loc$2=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*data]) == 0)
+          return_value___ctype_b_loc_2=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*data]) == 0)
             break;
 
           data = data + 1l;
@@ -5672,8 +5672,8 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
         while((_Bool)1);
         do
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*data]) == 0)
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*data]) == 0)
             break;
 
           data = data + 1l;
@@ -5681,12 +5681,12 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
         while((_Bool)1);
         do
         {
-          enum SPF_errcode_t SPF_dns_zone_add_str$$1$$3$$3$$__err;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(data);
-          SPF_dns_zone_add_str$$1$$3$$3$$__err=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen$4 + (unsigned long int)1);
-          if(!((signed int)SPF_dns_zone_add_str$$1$$3$$3$$__err == SPF_E_SUCCESS))
-            return SPF_dns_zone_add_str$$1$$3$$3$$__err;
+          enum SPF_errcode_t SPF_dns_zone_add_str__1__3__3____err;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(data);
+          SPF_dns_zone_add_str__1__3__3____err=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen_4 + (unsigned long int)1);
+          if(!((signed int)SPF_dns_zone_add_str__1__3__3____err == SPF_E_SUCCESS))
+            return SPF_dns_zone_add_str__1__3__3____err;
 
         }
         while((_Bool)0);
@@ -5700,9 +5700,9 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
         do
         {
           enum SPF_errcode_t __err;
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(data);
-          __err=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen$5 + (unsigned long int)1);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(data);
+          __err=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen_5 + (unsigned long int)1);
           if(!((signed int)__err == SPF_E_SUCCESS))
             return __err;
 
@@ -5715,12 +5715,12 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
       {
         do
         {
-          enum SPF_errcode_t SPF_dns_zone_add_str$$1$$3$$5$$__err;
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(data);
-          SPF_dns_zone_add_str$$1$$3$$5$$__err=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen$6 + (unsigned long int)1);
-          if(!((signed int)SPF_dns_zone_add_str$$1$$3$$5$$__err == SPF_E_SUCCESS))
-            return SPF_dns_zone_add_str$$1$$3$$5$$__err;
+          enum SPF_errcode_t SPF_dns_zone_add_str__1__3__5____err;
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(data);
+          SPF_dns_zone_add_str__1__3__5____err=SPF_dns_rr_buf_realloc(spfrr, cnt, return_value_strlen_6 + (unsigned long int)1);
+          if(!((signed int)SPF_dns_zone_add_str__1__3__5____err == SPF_E_SUCCESS))
+            return SPF_dns_zone_add_str__1__3__5____err;
 
         }
         while((_Bool)0);
@@ -5750,34 +5750,34 @@ enum SPF_errcode_t SPF_dns_zone_add_str(struct SPF_dns_server_struct *spf_dns_se
 // file spf_dns_zone.c line 96
 static struct SPF_dns_rr_struct * SPF_dns_zone_find(struct SPF_dns_server_struct *spf_dns_server, const char *domain, enum __ns_type rr_type, signed int exact)
 {
-  struct anonymous$9 *spfhook;
+  struct anonymous_9 *spfhook;
   signed int i;
-  spfhook=SPF_voidp2spfhook$link1(spf_dns_server->hook);
+  spfhook=SPF_voidp2spfhook_link1(spf_dns_server->hook);
   if(!(spf_dns_server->debug == 0))
     SPF_debugx("spf_dns_zone.c", 106, "zone: Searching for RR %s (%d)", domain, rr_type);
 
-  _Bool tmp_if_expr$8;
-  signed int return_value_strncmp$7;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strncmp_7;
   if(!(exact == 0))
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_strncmp$7=strncmp(domain, "*.", (unsigned long int)2);
-    tmp_if_expr$8 = return_value_strncmp$7 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strncmp_7=strncmp(domain, "*.", (unsigned long int)2);
+    tmp_if_expr_8 = return_value_strncmp_7 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strncasecmp$3;
-  signed int return_value_strncasecmp$5;
-  unsigned long int return_value_strlen$4;
-  if(tmp_if_expr$8)
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strncasecmp_3;
+  signed int return_value_strncasecmp_5;
+  unsigned long int return_value_strlen_4;
+  if(tmp_if_expr_8)
   {
     i = 0;
     for( ; !(i >= spfhook->num_zone); i = i + 1)
       if(spfhook->zone[(signed long int)i]->rr_type == rr_type)
       {
-        return_value_strcasecmp$1=strcasecmp(spfhook->zone[(signed long int)i]->domain, domain);
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp(spfhook->zone[(signed long int)i]->domain, domain);
+        if(return_value_strcasecmp_1 == 0)
           return spfhook->zone[(signed long int)i];
 
       }
@@ -5815,18 +5815,18 @@ static struct SPF_dns_rr_struct * SPF_dns_zone_find(struct SPF_dns_server_struct
 
       __CPROVER_DUMP_L13:
         ;
-        signed int return_value_strncmp$6;
-        return_value_strncmp$6=strncmp(spfhook->zone[(signed long int)i]->domain, "*.", (unsigned long int)2);
-        if(return_value_strncmp$6 == 0)
+        signed int return_value_strncmp_6;
+        return_value_strncmp_6=strncmp(spfhook->zone[(signed long int)i]->domain, "*.", (unsigned long int)2);
+        if(return_value_strncmp_6 == 0)
         {
           unsigned long int zdomain_len;
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(spfhook->zone[(signed long int)i]->domain);
-          zdomain_len = return_value_strlen$2 - (unsigned long int)2;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(spfhook->zone[(signed long int)i]->domain);
+          zdomain_len = return_value_strlen_2 - (unsigned long int)2;
           if(domain_len >= zdomain_len)
           {
-            return_value_strncasecmp$3=strncasecmp(spfhook->zone[(signed long int)i]->domain + (signed long int)2, domain + (signed long int)(domain_len - zdomain_len), zdomain_len);
-            if(return_value_strncasecmp$3 == 0)
+            return_value_strncasecmp_3=strncasecmp(spfhook->zone[(signed long int)i]->domain + (signed long int)2, domain + (signed long int)(domain_len - zdomain_len), zdomain_len);
+            if(return_value_strncasecmp_3 == 0)
               return spfhook->zone[(signed long int)i];
 
           }
@@ -5835,11 +5835,11 @@ static struct SPF_dns_rr_struct * SPF_dns_zone_find(struct SPF_dns_server_struct
 
         else
         {
-          return_value_strncasecmp$5=strncasecmp(spfhook->zone[(signed long int)i]->domain, domain, domain_len);
-          if(return_value_strncasecmp$5 == 0)
+          return_value_strncasecmp_5=strncasecmp(spfhook->zone[(signed long int)i]->domain, domain, domain_len);
+          if(return_value_strncasecmp_5 == 0)
           {
-            return_value_strlen$4=strlen(spfhook->zone[(signed long int)i]->domain);
-            if(return_value_strlen$4 == domain_len)
+            return_value_strlen_4=strlen(spfhook->zone[(signed long int)i]->domain);
+            if(return_value_strlen_4 == domain_len)
               return spfhook->zone[(signed long int)i];
 
           }
@@ -5857,15 +5857,15 @@ static struct SPF_dns_rr_struct * SPF_dns_zone_find(struct SPF_dns_server_struct
 // file spf_dns_zone.c line 312
 static void SPF_dns_zone_free(struct SPF_dns_server_struct *spf_dns_server)
 {
-  struct anonymous$9 *spfhook;
+  struct anonymous_9 *spfhook;
   signed int i;
   do
     if(spf_dns_server == ((struct SPF_dns_server_struct *)NULL))
       SPF_errorx("spf_dns_zone.c", 317, "%s", (const void *)"spf_dns_server is NULL");
 
   while((_Bool)0);
-  spfhook=SPF_voidp2spfhook$link1(spf_dns_server->hook);
-  if(!(spfhook == ((struct anonymous$9 *)NULL)))
+  spfhook=SPF_voidp2spfhook_link1(spf_dns_server->hook);
+  if(!(spfhook == ((struct anonymous_9 *)NULL)))
   {
     if(!(spfhook->zone == ((struct SPF_dns_rr_struct **)NULL)))
     {
@@ -5890,7 +5890,7 @@ static void SPF_dns_zone_free(struct SPF_dns_server_struct *spf_dns_server)
 // file spf_dns_zone.c line 164
 static struct SPF_dns_rr_struct * SPF_dns_zone_lookup(struct SPF_dns_server_struct *spf_dns_server, const char *domain, enum __ns_type rr_type, signed int should_cache)
 {
-  struct anonymous$9 *spfhook;
+  struct anonymous_9 *spfhook;
   struct SPF_dns_rr_struct *spfrr;
   spfrr=SPF_dns_zone_find(spf_dns_server, domain, rr_type, 0);
   if(!(spfrr == ((struct SPF_dns_rr_struct *)NULL)))
@@ -5903,12 +5903,12 @@ static struct SPF_dns_rr_struct * SPF_dns_zone_lookup(struct SPF_dns_server_stru
   {
     if(!(spf_dns_server->layer_below == ((struct SPF_dns_server_struct *)NULL)))
     {
-      struct SPF_dns_rr_struct *return_value_SPF_dns_lookup$1;
-      return_value_SPF_dns_lookup$1=SPF_dns_lookup(spf_dns_server->layer_below, domain, rr_type, should_cache);
-      return return_value_SPF_dns_lookup$1;
+      struct SPF_dns_rr_struct *return_value_SPF_dns_lookup_1;
+      return_value_SPF_dns_lookup_1=SPF_dns_lookup(spf_dns_server->layer_below, domain, rr_type, should_cache);
+      return return_value_SPF_dns_lookup_1;
     }
 
-    spfhook=SPF_voidp2spfhook$link1(spf_dns_server->hook);
+    spfhook=SPF_voidp2spfhook_link1(spf_dns_server->hook);
     SPF_dns_rr_dup(&spfrr, spfhook->nxdomain);
     return spfrr;
   }
@@ -5919,17 +5919,17 @@ static struct SPF_dns_rr_struct * SPF_dns_zone_lookup(struct SPF_dns_server_stru
 struct SPF_dns_server_struct * SPF_dns_zone_new(struct SPF_dns_server_struct *layer_below, const char *name, signed int debug)
 {
   struct SPF_dns_server_struct *spf_dns_server;
-  struct anonymous$9 *spfhook;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
-  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc$1;
+  struct anonymous_9 *spfhook;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_dns_server_struct) /*72ul*/ );
+  spf_dns_server = (struct SPF_dns_server_struct *)return_value_malloc_1;
   if(spf_dns_server == ((struct SPF_dns_server_struct *)NULL))
     return (struct SPF_dns_server_struct *)(void *)0;
 
   else
   {
     memset((void *)spf_dns_server, 0, sizeof(struct SPF_dns_server_struct) /*72ul*/ );
-    spf_dns_server->hook=malloc(sizeof(struct anonymous$9) /*24ul*/ );
+    spf_dns_server->hook=malloc(sizeof(struct anonymous_9) /*24ul*/ );
     if(spf_dns_server->hook == NULL)
     {
       free((void *)spf_dns_server);
@@ -5938,7 +5938,7 @@ struct SPF_dns_server_struct * SPF_dns_zone_new(struct SPF_dns_server_struct *la
 
     else
     {
-      memset(spf_dns_server->hook, 0, sizeof(struct anonymous$9) /*24ul*/ );
+      memset(spf_dns_server->hook, 0, sizeof(struct anonymous_9) /*24ul*/ );
       if(name == ((const char *)NULL))
         name = "zone";
 
@@ -5950,12 +5950,12 @@ struct SPF_dns_server_struct * SPF_dns_zone_new(struct SPF_dns_server_struct *la
       spf_dns_server->layer_below = layer_below;
       spf_dns_server->name = name;
       spf_dns_server->debug = debug;
-      spfhook=SPF_voidp2spfhook$link1(spf_dns_server->hook);
+      spfhook=SPF_voidp2spfhook_link1(spf_dns_server->hook);
       spfhook->zone_buf_len = 32;
       spfhook->num_zone = 0;
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)spfhook->zone_buf_len, sizeof(struct SPF_dns_rr_struct *) /*8ul*/ );
-      spfhook->zone = (struct SPF_dns_rr_struct **)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)spfhook->zone_buf_len, sizeof(struct SPF_dns_rr_struct *) /*8ul*/ );
+      spfhook->zone = (struct SPF_dns_rr_struct **)return_value_calloc_2;
       if(spfhook->zone == ((struct SPF_dns_rr_struct **)NULL))
       {
         free((void *)spfhook);
@@ -6086,7 +6086,7 @@ void SPF_get_lib_version(signed int *major, signed int *minor, signed int *patch
 enum SPF_errcode_t SPF_i_done(struct SPF_response_struct *spf_response, enum SPF_result_enum result, enum SPF_reason_enum reason, enum SPF_errcode_t err)
 {
   struct SPF_request_struct *spf_request;
-  struct SPF_server_struct *SPF_i_done$$1$$spf_server;
+  struct SPF_server_struct *SPF_i_done__1__spf_server;
   do
     if(spf_response == ((struct SPF_response_struct *)NULL))
       SPF_errorx("spf_interpret.c", 394, "%s", (const void *)"spf_response is NULL");
@@ -6098,9 +6098,9 @@ enum SPF_errcode_t SPF_i_done(struct SPF_response_struct *spf_response, enum SPF
       SPF_errorx("spf_interpret.c", 396, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_i_done$$1$$spf_server = spf_request->spf_server;
+  SPF_i_done__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_i_done$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_i_done__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_interpret.c", 398, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
@@ -6125,7 +6125,7 @@ static signed int SPF_i_match_domain(struct SPF_server_struct *spf_server, const
 
   hlen=strlen(hostname);
   dlen=strlen(domain);
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(!(hlen >= dlen))
     return 0;
 
@@ -6133,8 +6133,8 @@ static signed int SPF_i_match_domain(struct SPF_server_struct *spf_server, const
   {
     if(dlen == hlen)
     {
-      return_value_strcasecmp$1=strcasecmp(hostname, domain);
-      return (signed int)(return_value_strcasecmp$1 == 0);
+      return_value_strcasecmp_1=strcasecmp(hostname, domain);
+      return (signed int)(return_value_strcasecmp_1 == 0);
     }
 
     hp = hostname + (signed long int)(hlen - dlen);
@@ -6143,9 +6143,9 @@ static signed int SPF_i_match_domain(struct SPF_server_struct *spf_server, const
 
     else
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(hp, domain);
-      return (signed int)(return_value_strcasecmp$2 == 0);
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(hp, domain);
+      return (signed int)(return_value_strcasecmp_2 == 0);
     }
   }
 }
@@ -6171,34 +6171,34 @@ static signed int SPF_i_match_ip4(struct SPF_server_struct *spf_server, struct S
       cidr = 32;
 
     mask = (signed int)(0xffffffff << 32 - cidr);
-    unsigned int return_value_htonl$1;
-    return_value_htonl$1=htonl((unsigned int)mask);
-    mask = (signed int)return_value_htonl$1;
+    unsigned int return_value_htonl_1;
+    return_value_htonl_1=htonl((unsigned int)mask);
+    mask = (signed int)return_value_htonl_1;
     if(!(spf_server->debug == 0))
     {
       do
       {
-        const char *return_value_inet_ntop$2;
-        return_value_inet_ntop$2=inet_ntop(2, (const void *)&src_ipv4.s_addr, src_ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-        if(return_value_inet_ntop$2 == ((const char *)NULL))
+        const char *return_value_inet_ntop_2;
+        return_value_inet_ntop_2=inet_ntop(2, (const void *)&src_ipv4.s_addr, src_ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+        if(return_value_inet_ntop_2 == ((const char *)NULL))
           snprintf(src_ip4_buf, sizeof(char [16l]) /*16ul*/ , "ip-error");
 
       }
       while((_Bool)0);
       do
       {
-        const char *return_value_inet_ntop$3;
-        return_value_inet_ntop$3=inet_ntop(2, (const void *)&ipv4.s_addr, dst_ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-        if(return_value_inet_ntop$3 == ((const char *)NULL))
+        const char *return_value_inet_ntop_3;
+        return_value_inet_ntop_3=inet_ntop(2, (const void *)&ipv4.s_addr, dst_ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+        if(return_value_inet_ntop_3 == ((const char *)NULL))
           snprintf(dst_ip4_buf, sizeof(char [16l]) /*16ul*/ , "ip-error");
 
       }
       while((_Bool)0);
       do
       {
-        const char *return_value_inet_ntop$4;
-        return_value_inet_ntop$4=inet_ntop(2, (const void *)&mask, mask_ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-        if(return_value_inet_ntop$4 == ((const char *)NULL))
+        const char *return_value_inet_ntop_4;
+        return_value_inet_ntop_4=inet_ntop(2, (const void *)&mask, mask_ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+        if(return_value_inet_ntop_4 == ((const char *)NULL))
           snprintf(mask_ip4_buf, sizeof(char [16l]) /*16ul*/ , "ip-error");
 
       }
@@ -6253,18 +6253,18 @@ static signed int SPF_i_match_ip6(struct SPF_server_struct *spf_server, struct S
     {
       do
       {
-        const char *return_value_inet_ntop$1;
-        return_value_inet_ntop$1=inet_ntop(10, (const void *)&src_ipv6.__in6_u.__u6_addr8, src_ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-        if(return_value_inet_ntop$1 == ((const char *)NULL))
+        const char *return_value_inet_ntop_1;
+        return_value_inet_ntop_1=inet_ntop(10, (const void *)&src_ipv6.__in6_u.__u6_addr8, src_ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+        if(return_value_inet_ntop_1 == ((const char *)NULL))
           snprintf(src_ip6_buf, sizeof(char [46l]) /*46ul*/ , "ip-error");
 
       }
       while((_Bool)0);
       do
       {
-        const char *return_value_inet_ntop$2;
-        return_value_inet_ntop$2=inet_ntop(10, (const void *)&ipv6.__in6_u.__u6_addr8, dst_ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-        if(return_value_inet_ntop$2 == ((const char *)NULL))
+        const char *return_value_inet_ntop_2;
+        return_value_inet_ntop_2=inet_ntop(10, (const void *)&ipv6.__in6_u.__u6_addr8, dst_ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+        if(return_value_inet_ntop_2 == ((const char *)NULL))
           snprintf(dst_ip6_buf, sizeof(char [46l]) /*46ul*/ , "ip-error");
 
       }
@@ -6286,7 +6286,7 @@ static signed int SPF_i_mech_cidr(struct SPF_request_struct *spf_request, struct
       SPF_errorx("spf_interpret.c", 428, "%s", (const void *)"mech is NULL");
 
   while((_Bool)0);
-  union SPF_data_union *return_value_SPF_mech_end_data$1;
+  union SPF_data_union *return_value_SPF_mech_end_data_1;
   switch((signed int)mech->mech_type)
   {
     case 5:
@@ -6297,9 +6297,9 @@ static signed int SPF_i_mech_cidr(struct SPF_request_struct *spf_request, struct
 
     case 2:
     {
-      data=SPF_mech_data$link2(mech);
-      return_value_SPF_mech_end_data$1=SPF_mech_end_data$link2(mech);
-      if(!(data >= return_value_SPF_mech_end_data$1))
+      data=SPF_mech_data_link2(mech);
+      return_value_SPF_mech_end_data_1=SPF_mech_end_data_link2(mech);
+      if(!(data >= return_value_SPF_mech_end_data_1))
       {
         if((signed int)data->dc.parm_type == 11)
         {
@@ -6324,7 +6324,7 @@ static signed int SPF_i_mech_cidr(struct SPF_request_struct *spf_request, struct
 // file spf_interpret.c line 44
 static enum SPF_errcode_t SPF_i_set_explanation(struct SPF_response_struct *spf_response)
 {
-  struct SPF_server_struct *SPF_i_set_explanation$$1$$spf_server;
+  struct SPF_server_struct *SPF_i_set_explanation__1__spf_server;
   struct SPF_request_struct *spf_request;
   struct SPF_record_struct *spf_record;
   enum SPF_errcode_t err;
@@ -6341,9 +6341,9 @@ static enum SPF_errcode_t SPF_i_set_explanation(struct SPF_response_struct *spf_
       SPF_errorx("spf_interpret.c", 55, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_i_set_explanation$$1$$spf_server = spf_request->spf_server;
+  SPF_i_set_explanation__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_i_set_explanation$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_i_set_explanation__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_interpret.c", 57, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
@@ -6358,16 +6358,16 @@ static enum SPF_errcode_t SPF_i_set_explanation(struct SPF_response_struct *spf_
 
   spf_response->explanation = (char *)(void *)0;
   buflen = (unsigned long int)(4 * 80 + 1);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(buflen);
-  buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(buflen);
+  buf = (char *)return_value_malloc_1;
   if(buf == ((char *)NULL))
     return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
   else
   {
     memset((void *)buf, 0, buflen);
-    err=SPF_request_get_exp(SPF_i_set_explanation$$1$$spf_server, spf_request, spf_response, spf_record, &buf, &buflen);
+    err=SPF_request_get_exp(SPF_i_set_explanation__1__spf_server, spf_request, spf_response, spf_record, &buf, &buflen);
     if(!((signed int)err == SPF_E_SUCCESS))
     {
       free((void *)buf);
@@ -6386,7 +6386,7 @@ static enum SPF_errcode_t SPF_i_set_explanation(struct SPF_response_struct *spf_
 // file spf_interpret.c line 137
 static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *spf_response)
 {
-  struct SPF_server_struct *SPF_i_set_header_comment$$1$$spf_server;
+  struct SPF_server_struct *SPF_i_set_header_comment__1__spf_server;
   struct SPF_request_struct *spf_request;
   char *spf_source;
   unsigned long int len;
@@ -6408,9 +6408,9 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
       SPF_errorx("spf_interpret.c", 155, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_i_set_header_comment$$1$$spf_server = spf_request->spf_server;
+  SPF_i_set_header_comment__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_i_set_header_comment$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_i_set_header_comment__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_interpret.c", 157, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
@@ -6428,13 +6428,13 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
   else
     if((signed int)spf_response->reason == SPF_REASON_2MX)
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(spf_request->rcpt_to_dom == ((char *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)spf_request->rcpt_to_dom[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)spf_request->rcpt_to_dom[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         SPF_errorx("spf_interpret.c", 173, "%s", (const void *)"RCPT TO domain is NULL");
 
       spf_source=strdup(spf_request->rcpt_to_dom);
@@ -6446,17 +6446,17 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
 
       else
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(sender_dom);
-        len = return_value_strlen$2 + sizeof(char [11l]) /*11ul*/ ;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(len);
-        spf_source = (char *)return_value_malloc$3;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(sender_dom);
+        len = return_value_strlen_2 + sizeof(char [11l]) /*11ul*/ ;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(len);
+        spf_source = (char *)return_value_malloc_3;
         if(!(spf_source == ((char *)NULL)))
           snprintf(spf_source, len, "domain of %s", sender_dom);
 
       }
-  const char *return_value_SPF_strerror$11;
+  const char *return_value_SPF_strerror_11;
   if(spf_source == ((char *)NULL))
     return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
@@ -6473,18 +6473,18 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
     if(ip == ((const char *)NULL))
       ip = "(unknown ip address)";
 
-    const char *return_value_SPF_request_get_rec_dom$4;
-    return_value_SPF_request_get_rec_dom$4=SPF_request_get_rec_dom(spf_request);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(return_value_SPF_request_get_rec_dom$4);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(spf_source);
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(ip);
-    len = return_value_strlen$5 + return_value_strlen$6 + return_value_strlen$7 + (unsigned long int)80;
-    void *return_value_malloc$8;
-    return_value_malloc$8=malloc(len);
-    buf = (char *)return_value_malloc$8;
+    const char *return_value_SPF_request_get_rec_dom_4;
+    return_value_SPF_request_get_rec_dom_4=SPF_request_get_rec_dom(spf_request);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(return_value_SPF_request_get_rec_dom_4);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(spf_source);
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(ip);
+    len = return_value_strlen_5 + return_value_strlen_6 + return_value_strlen_7 + (unsigned long int)80;
+    void *return_value_malloc_8;
+    return_value_malloc_8=malloc(len);
+    buf = (char *)return_value_malloc_8;
     if(buf == ((char *)NULL))
     {
       free((void *)spf_source);
@@ -6495,11 +6495,11 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
     {
       p = buf;
       p_end = p + (signed long int)len;
-      const char *return_value_SPF_request_get_rec_dom$9;
-      return_value_SPF_request_get_rec_dom$9=SPF_request_get_rec_dom(spf_request);
-      signed int return_value_snprintf$10;
-      return_value_snprintf$10=snprintf(p, (unsigned long int)(p_end - p), "%s: ", return_value_SPF_request_get_rec_dom$9);
-      p = p + (signed long int)return_value_snprintf$10;
+      const char *return_value_SPF_request_get_rec_dom_9;
+      return_value_SPF_request_get_rec_dom_9=SPF_request_get_rec_dom(spf_request);
+      signed int return_value_snprintf_10;
+      return_value_snprintf_10=snprintf(p, (unsigned long int)(p_end - p), "%s: ", return_value_SPF_request_get_rec_dom_9);
+      p = p + (signed long int)return_value_snprintf_10;
       switch((signed int)spf_response->result)
       {
         case SPF_RESULT_PASS:
@@ -6527,8 +6527,8 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
         }
         case SPF_RESULT_PERMERROR:
         {
-          return_value_SPF_strerror$11=SPF_strerror(spf_response->err);
-          snprintf(p, (unsigned long int)(p_end - p), "error in processing during lookup of %s: %s", spf_source, return_value_SPF_strerror$11);
+          return_value_SPF_strerror_11=SPF_strerror(spf_response->err);
+          snprintf(p, (unsigned long int)(p_end - p), "error in processing during lookup of %s: %s", spf_source, return_value_SPF_strerror_11);
           break;
         }
         case SPF_RESULT_NEUTRAL:
@@ -6552,7 +6552,7 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
       if(!(spf_source == ((char *)NULL)))
         free((void *)spf_source);
 
-      spf_response->header_comment=SPF_sanitize(SPF_i_set_header_comment$$1$$spf_server, buf);
+      spf_response->header_comment=SPF_sanitize(SPF_i_set_header_comment__1__spf_server, buf);
       return (enum SPF_errcode_t)SPF_E_SUCCESS;
     }
   }
@@ -6562,7 +6562,7 @@ static enum SPF_errcode_t SPF_i_set_header_comment(struct SPF_response_struct *s
 // file spf_interpret.c line 273
 static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf_response)
 {
-  struct SPF_server_struct *SPF_i_set_received_spf$$1$$spf_server;
+  struct SPF_server_struct *SPF_i_set_received_spf__1__spf_server;
   struct SPF_request_struct *spf_request;
   char ip4_buf[16l];
   char ip6_buf[46l];
@@ -6583,9 +6583,9 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
       SPF_errorx("spf_interpret.c", 289, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_i_set_received_spf$$1$$spf_server = spf_request->spf_server;
+  SPF_i_set_received_spf__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_i_set_received_spf$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_i_set_received_spf__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_interpret.c", 291, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
@@ -6593,9 +6593,9 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
     free((void *)spf_response->received_spf);
 
   spf_response->received_spf = (char *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(buflen);
-  buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(buflen);
+  buf = (char *)return_value_malloc_1;
   if(buf == ((char *)NULL))
     return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
@@ -6603,17 +6603,17 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
   {
     p = buf;
     p_end = p + (signed long int)buflen;
-    signed int return_value_snprintf$2;
-    return_value_snprintf$2=snprintf(p, (unsigned long int)(p_end - p), "Received-SPF: ");
-    p = p + (signed long int)return_value_snprintf$2;
+    signed int return_value_snprintf_2;
+    return_value_snprintf_2=snprintf(p, (unsigned long int)(p_end - p), "Received-SPF: ");
+    p = p + (signed long int)return_value_snprintf_2;
     buf_value = p;
     do
     {
-      const char *return_value_SPF_strresult$3;
-      return_value_SPF_strresult$3=SPF_strresult(spf_response->result);
-      signed int return_value_snprintf$4;
-      return_value_snprintf$4=snprintf(p, (unsigned long int)(p_end - p), "%s (%s)", return_value_SPF_strresult$3, spf_response->header_comment);
-      p = p + (signed long int)return_value_snprintf$4;
+      const char *return_value_SPF_strresult_3;
+      return_value_SPF_strresult_3=SPF_strresult(spf_response->result);
+      signed int return_value_snprintf_4;
+      return_value_snprintf_4=snprintf(p, (unsigned long int)(p_end - p), "%s (%s)", return_value_SPF_strresult_3, spf_response->header_comment);
+      p = p + (signed long int)return_value_snprintf_4;
       if(!(p_end - p >= 1l))
         break;
 
@@ -6627,9 +6627,9 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
 
       if(!(ip == ((const char *)NULL)))
       {
-        signed int return_value_snprintf$5;
-        return_value_snprintf$5=snprintf(p, (unsigned long int)(p_end - p), " client-ip=%s;", ip);
-        p = p + (signed long int)return_value_snprintf$5;
+        signed int return_value_snprintf_5;
+        return_value_snprintf_5=snprintf(p, (unsigned long int)(p_end - p), " client-ip=%s;", ip);
+        p = p + (signed long int)return_value_snprintf_5;
         if(!(p_end - p >= 1l))
           break;
 
@@ -6637,9 +6637,9 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
 
       if(!(spf_request->env_from == ((char *)NULL)))
       {
-        signed int return_value_snprintf$6;
-        return_value_snprintf$6=snprintf(p, (unsigned long int)(p_end - p), " envelope-from=%s;", spf_request->env_from);
-        p = p + (signed long int)return_value_snprintf$6;
+        signed int return_value_snprintf_6;
+        return_value_snprintf_6=snprintf(p, (unsigned long int)(p_end - p), " envelope-from=%s;", spf_request->env_from);
+        p = p + (signed long int)return_value_snprintf_6;
         if(!(p_end - p >= 1l))
           break;
 
@@ -6647,9 +6647,9 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
 
       if(!(spf_request->helo_dom == ((char *)NULL)))
       {
-        signed int return_value_snprintf$7;
-        return_value_snprintf$7=snprintf(p, (unsigned long int)(p_end - p), " helo=%s;", spf_request->helo_dom);
-        p = p + (signed long int)return_value_snprintf$7;
+        signed int return_value_snprintf_7;
+        return_value_snprintf_7=snprintf(p, (unsigned long int)(p_end - p), " helo=%s;", spf_request->helo_dom);
+        p = p + (signed long int)return_value_snprintf_7;
         if(!(p_end - p >= 1l))
           break;
 
@@ -6657,7 +6657,7 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
 
     }
     while((_Bool)0);
-    spf_response->received_spf=SPF_sanitize(SPF_i_set_received_spf$$1$$spf_server, buf);
+    spf_response->received_spf=SPF_sanitize(SPF_i_set_received_spf__1__spf_server, buf);
     spf_response->received_spf_value = buf_value;
     return (enum SPF_errcode_t)SPF_E_SUCCESS;
   }
@@ -6667,7 +6667,7 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
 // file spf_interpret.c line 85
 static enum SPF_errcode_t SPF_i_set_smtp_comment(struct SPF_response_struct *spf_response)
 {
-  struct SPF_server_struct *SPF_i_set_smtp_comment$$1$$spf_server;
+  struct SPF_server_struct *SPF_i_set_smtp_comment__1__spf_server;
   struct SPF_request_struct *spf_request;
   enum SPF_errcode_t err;
   char buf[320l];
@@ -6682,9 +6682,9 @@ static enum SPF_errcode_t SPF_i_set_smtp_comment(struct SPF_response_struct *spf
       SPF_errorx("spf_interpret.c", 94, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_i_set_smtp_comment$$1$$spf_server = spf_request->spf_server;
+  SPF_i_set_smtp_comment__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_i_set_smtp_comment$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_i_set_smtp_comment__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_interpret.c", 96, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
@@ -6692,7 +6692,7 @@ static enum SPF_errcode_t SPF_i_set_smtp_comment(struct SPF_response_struct *spf
     free((void *)spf_response->smtp_comment);
 
   spf_response->smtp_comment = (char *)(void *)0;
-  const char *return_value_SPF_strreason$1;
+  const char *return_value_SPF_strreason_1;
   if(!((signed int)spf_response->result == SPF_RESULT_NEUTRAL) && !((signed int)spf_response->result == SPF_RESULT_FAIL) && !((signed int)spf_response->result == SPF_RESULT_SOFTFAIL))
   {
     if((signed int)spf_response->result == SPF_RESULT_INVALID || (signed int)spf_response->result == SPF_RESULT_PASS || (signed int)spf_response->result == SPF_RESULT_NONE || (signed int)spf_response->result == SPF_RESULT_TEMPERROR || (signed int)spf_response->result == SPF_RESULT_PERMERROR)
@@ -6707,8 +6707,8 @@ static enum SPF_errcode_t SPF_i_set_smtp_comment(struct SPF_response_struct *spf
       return err;
 
     memset((void *)buf, 0, sizeof(char [320l]) /*320ul*/ );
-    return_value_SPF_strreason$1=SPF_strreason(spf_response->reason);
-    snprintf(buf, (unsigned long int)(4 * 80), "%s : Reason: %s", spf_response->explanation, return_value_SPF_strreason$1);
+    return_value_SPF_strreason_1=SPF_strreason(spf_response->reason);
+    snprintf(buf, (unsigned long int)(4 * 80), "%s : Reason: %s", spf_response->explanation, return_value_SPF_strreason_1);
     buf[(signed long int)(4 * 80 - 1)] = (char)0;
     spf_response->smtp_comment=strdup(buf);
     if(spf_response->smtp_comment == ((char *)NULL))
@@ -6785,11 +6785,11 @@ static inline union SPF_data_union * SPF_macro_data(struct SPF_macro_struct *mac
   return (union SPF_data_union *)((char *)mac + (signed long int)sizeof(struct SPF_macro_struct) /*8ul*/ );
 }
 
-// SPF_macro_data$link1
+// SPF_macro_data_link1
 // file ../../src/include/spf_internal.h line 134
-static inline union SPF_data_union * SPF_macro_data$link1(struct SPF_macro_struct *mac$link1)
+static inline union SPF_data_union * SPF_macro_data_link1(struct SPF_macro_struct *mac_link1)
 {
-  return (union SPF_data_union *)((char *)mac$link1 + (signed long int)sizeof(struct SPF_macro_struct) /*8ul*/ );
+  return (union SPF_data_union *)((char *)mac_link1 + (signed long int)sizeof(struct SPF_macro_struct) /*8ul*/ );
 }
 
 // SPF_macro_free
@@ -6806,114 +6806,114 @@ static inline union SPF_data_union * SPF_mech_data(struct SPF_mech_struct *mech)
   return (union SPF_data_union *)((char *)mech + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
-// SPF_mech_data$link1
+// SPF_mech_data_link1
 // file ../../src/include/spf_internal.h line 97
-static inline union SPF_data_union * SPF_mech_data$link1(struct SPF_mech_struct *mech$link1)
+static inline union SPF_data_union * SPF_mech_data_link1(struct SPF_mech_struct *mech_link1)
 {
-  return (union SPF_data_union *)((char *)mech$link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
+  return (union SPF_data_union *)((char *)mech_link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
-// SPF_mech_data$link2
+// SPF_mech_data_link2
 // file ../../src/include/spf_internal.h line 97
-static inline union SPF_data_union * SPF_mech_data$link2(struct SPF_mech_struct *mech$link2)
+static inline union SPF_data_union * SPF_mech_data_link2(struct SPF_mech_struct *mech_link2)
 {
-  return (union SPF_data_union *)((char *)mech$link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
+  return (union SPF_data_union *)((char *)mech_link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
 // SPF_mech_data_len
 // file ../../src/include/spf_internal.h line 87
 static inline unsigned long int SPF_mech_data_len(struct SPF_mech_struct *mech)
 {
-  unsigned long int tmp_if_expr$2;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int tmp_if_expr_1;
   if((signed int)mech->mech_type == 5)
-    tmp_if_expr$2 = sizeof(struct in_addr) /*4ul*/ ;
+    tmp_if_expr_2 = sizeof(struct in_addr) /*4ul*/ ;
 
   else
   {
     if((signed int)mech->mech_type == 6)
-      tmp_if_expr$1 = sizeof(struct in6_addr) /*16ul*/ ;
+      tmp_if_expr_1 = sizeof(struct in6_addr) /*16ul*/ ;
 
     else
-      tmp_if_expr$1 = (unsigned long int)mech->mech_len;
-    tmp_if_expr$2 = tmp_if_expr$1;
+      tmp_if_expr_1 = (unsigned long int)mech->mech_len;
+    tmp_if_expr_2 = tmp_if_expr_1;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
-// SPF_mech_data_len$link1
+// SPF_mech_data_len_link1
 // file ../../src/include/spf_internal.h line 87
-static inline unsigned long int SPF_mech_data_len$link1(struct SPF_mech_struct *mech$link1)
+static inline unsigned long int SPF_mech_data_len_link1(struct SPF_mech_struct *mech_link1)
 {
-  unsigned long int tmp_if_expr$2$link1;
-  unsigned long int tmp_if_expr$1$link1;
-  if((signed int)mech$link1->mech_type == 5)
-    tmp_if_expr$2$link1 = sizeof(struct in_addr) /*4ul*/ ;
+  unsigned long int tmp_if_expr_2_link1;
+  unsigned long int tmp_if_expr_1_link1;
+  if((signed int)mech_link1->mech_type == 5)
+    tmp_if_expr_2_link1 = sizeof(struct in_addr) /*4ul*/ ;
 
   else
   {
-    if((signed int)mech$link1->mech_type == 6)
-      tmp_if_expr$1$link1 = sizeof(struct in6_addr) /*16ul*/ ;
+    if((signed int)mech_link1->mech_type == 6)
+      tmp_if_expr_1_link1 = sizeof(struct in6_addr) /*16ul*/ ;
 
     else
-      tmp_if_expr$1$link1 = (unsigned long int)mech$link1->mech_len;
-    tmp_if_expr$2$link1 = tmp_if_expr$1$link1;
+      tmp_if_expr_1_link1 = (unsigned long int)mech_link1->mech_len;
+    tmp_if_expr_2_link1 = tmp_if_expr_1_link1;
   }
-  return tmp_if_expr$2$link1;
+  return tmp_if_expr_2_link1;
 }
 
-// SPF_mech_data_len$link2
+// SPF_mech_data_len_link2
 // file ../../src/include/spf_internal.h line 87
-static inline unsigned long int SPF_mech_data_len$link2(struct SPF_mech_struct *mech$link2)
+static inline unsigned long int SPF_mech_data_len_link2(struct SPF_mech_struct *mech_link2)
 {
-  unsigned long int tmp_if_expr$2$link2;
-  unsigned long int tmp_if_expr$1$link2;
-  if((signed int)mech$link2->mech_type == 5)
-    tmp_if_expr$2$link2 = sizeof(struct in_addr) /*4ul*/ ;
+  unsigned long int tmp_if_expr_2_link2;
+  unsigned long int tmp_if_expr_1_link2;
+  if((signed int)mech_link2->mech_type == 5)
+    tmp_if_expr_2_link2 = sizeof(struct in_addr) /*4ul*/ ;
 
   else
   {
-    if((signed int)mech$link2->mech_type == 6)
-      tmp_if_expr$1$link2 = sizeof(struct in6_addr) /*16ul*/ ;
+    if((signed int)mech_link2->mech_type == 6)
+      tmp_if_expr_1_link2 = sizeof(struct in6_addr) /*16ul*/ ;
 
     else
-      tmp_if_expr$1$link2 = (unsigned long int)mech$link2->mech_len;
-    tmp_if_expr$2$link2 = tmp_if_expr$1$link2;
+      tmp_if_expr_1_link2 = (unsigned long int)mech_link2->mech_len;
+    tmp_if_expr_2_link2 = tmp_if_expr_1_link2;
   }
-  return tmp_if_expr$2$link2;
+  return tmp_if_expr_2_link2;
 }
 
 // SPF_mech_end_data
 // file ../../src/include/spf_internal.h line 99
 static inline union SPF_data_union * SPF_mech_end_data(struct SPF_mech_struct *mech)
 {
-  union SPF_data_union *return_value_SPF_mech_data$1;
-  return_value_SPF_mech_data$1=SPF_mech_data(mech);
-  unsigned long int return_value_SPF_mech_data_len$2;
-  return_value_SPF_mech_data_len$2=SPF_mech_data_len(mech);
-  return (union SPF_data_union *)((char *)return_value_SPF_mech_data$1 + (signed long int)return_value_SPF_mech_data_len$2);
+  union SPF_data_union *return_value_SPF_mech_data_1;
+  return_value_SPF_mech_data_1=SPF_mech_data(mech);
+  unsigned long int return_value_SPF_mech_data_len_2;
+  return_value_SPF_mech_data_len_2=SPF_mech_data_len(mech);
+  return (union SPF_data_union *)((char *)return_value_SPF_mech_data_1 + (signed long int)return_value_SPF_mech_data_len_2);
 }
 
-// SPF_mech_end_data$link1
+// SPF_mech_end_data_link1
 // file ../../src/include/spf_internal.h line 99
-static inline union SPF_data_union * SPF_mech_end_data$link1(struct SPF_mech_struct *mech$link1)
+static inline union SPF_data_union * SPF_mech_end_data_link1(struct SPF_mech_struct *mech_link1)
 {
-  union SPF_data_union *return_value_SPF_mech_data$1$link1;
-  return_value_SPF_mech_data$1$link1=SPF_mech_data$link1(mech$link1);
-  unsigned long int return_value_SPF_mech_data_len$2$link1;
-  return_value_SPF_mech_data_len$2$link1=SPF_mech_data_len$link1(mech$link1);
-  return (union SPF_data_union *)((char *)return_value_SPF_mech_data$1$link1 + (signed long int)return_value_SPF_mech_data_len$2$link1);
+  union SPF_data_union *return_value_SPF_mech_data_1_link1;
+  return_value_SPF_mech_data_1_link1=SPF_mech_data_link1(mech_link1);
+  unsigned long int return_value_SPF_mech_data_len_2_link1;
+  return_value_SPF_mech_data_len_2_link1=SPF_mech_data_len_link1(mech_link1);
+  return (union SPF_data_union *)((char *)return_value_SPF_mech_data_1_link1 + (signed long int)return_value_SPF_mech_data_len_2_link1);
 }
 
-// SPF_mech_end_data$link2
+// SPF_mech_end_data_link2
 // file ../../src/include/spf_internal.h line 99
-static inline union SPF_data_union * SPF_mech_end_data$link2(struct SPF_mech_struct *mech$link2)
+static inline union SPF_data_union * SPF_mech_end_data_link2(struct SPF_mech_struct *mech_link2)
 {
-  union SPF_data_union *return_value_SPF_mech_data$1$link2;
-  return_value_SPF_mech_data$1$link2=SPF_mech_data$link2(mech$link2);
-  unsigned long int return_value_SPF_mech_data_len$2$link2;
-  return_value_SPF_mech_data_len$2$link2=SPF_mech_data_len$link2(mech$link2);
-  return (union SPF_data_union *)((char *)return_value_SPF_mech_data$1$link2 + (signed long int)return_value_SPF_mech_data_len$2$link2);
+  union SPF_data_union *return_value_SPF_mech_data_1_link2;
+  return_value_SPF_mech_data_1_link2=SPF_mech_data_link2(mech_link2);
+  unsigned long int return_value_SPF_mech_data_len_2_link2;
+  return_value_SPF_mech_data_len_2_link2=SPF_mech_data_len_link2(mech_link2);
+  return (union SPF_data_union *)((char *)return_value_SPF_mech_data_1_link2 + (signed long int)return_value_SPF_mech_data_len_2_link2);
 }
 
 // SPF_mech_ip4_data
@@ -6923,18 +6923,18 @@ static inline struct in_addr * SPF_mech_ip4_data(struct SPF_mech_struct *mech)
   return (struct in_addr *)((char *)mech + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
-// SPF_mech_ip4_data$link1
+// SPF_mech_ip4_data_link1
 // file ../../src/include/spf_internal.h line 102
-static inline struct in_addr * SPF_mech_ip4_data$link1(struct SPF_mech_struct *mech$link1)
+static inline struct in_addr * SPF_mech_ip4_data_link1(struct SPF_mech_struct *mech_link1)
 {
-  return (struct in_addr *)((char *)mech$link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
+  return (struct in_addr *)((char *)mech_link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
-// SPF_mech_ip4_data$link2
+// SPF_mech_ip4_data_link2
 // file ../../src/include/spf_internal.h line 102
-static inline struct in_addr * SPF_mech_ip4_data$link2(struct SPF_mech_struct *mech$link2)
+static inline struct in_addr * SPF_mech_ip4_data_link2(struct SPF_mech_struct *mech_link2)
 {
-  return (struct in_addr *)((char *)mech$link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
+  return (struct in_addr *)((char *)mech_link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
 // SPF_mech_ip6_data
@@ -6944,51 +6944,51 @@ static inline struct in6_addr * SPF_mech_ip6_data(struct SPF_mech_struct *mech)
   return (struct in6_addr *)((char *)mech + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
-// SPF_mech_ip6_data$link1
+// SPF_mech_ip6_data_link1
 // file ../../src/include/spf_internal.h line 104
-static inline struct in6_addr * SPF_mech_ip6_data$link1(struct SPF_mech_struct *mech$link1)
+static inline struct in6_addr * SPF_mech_ip6_data_link1(struct SPF_mech_struct *mech_link1)
 {
-  return (struct in6_addr *)((char *)mech$link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
+  return (struct in6_addr *)((char *)mech_link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
-// SPF_mech_ip6_data$link2
+// SPF_mech_ip6_data_link2
 // file ../../src/include/spf_internal.h line 104
-static inline struct in6_addr * SPF_mech_ip6_data$link2(struct SPF_mech_struct *mech$link2)
+static inline struct in6_addr * SPF_mech_ip6_data_link2(struct SPF_mech_struct *mech_link2)
 {
-  return (struct in6_addr *)((char *)mech$link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
+  return (struct in6_addr *)((char *)mech_link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/ );
 }
 
 // SPF_mech_next
 // file ../../src/include/spf_internal.h line 93
 static inline struct SPF_mech_struct * SPF_mech_next(struct SPF_mech_struct *mech)
 {
-  unsigned long int return_value_SPF_mech_data_len$1;
-  return_value_SPF_mech_data_len$1=SPF_mech_data_len(mech);
-  char *return_value__align_ptr$2;
-  return_value__align_ptr$2=_align_ptr((char *)mech + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/  + (signed long int)return_value_SPF_mech_data_len$1);
-  return (struct SPF_mech_struct *)return_value__align_ptr$2;
+  unsigned long int return_value_SPF_mech_data_len_1;
+  return_value_SPF_mech_data_len_1=SPF_mech_data_len(mech);
+  char *return_value__align_ptr_2;
+  return_value__align_ptr_2=_align_ptr((char *)mech + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/  + (signed long int)return_value_SPF_mech_data_len_1);
+  return (struct SPF_mech_struct *)return_value__align_ptr_2;
 }
 
-// SPF_mech_next$link1
+// SPF_mech_next_link1
 // file ../../src/include/spf_internal.h line 93
-static inline struct SPF_mech_struct * SPF_mech_next$link1(struct SPF_mech_struct *mech$link1)
+static inline struct SPF_mech_struct * SPF_mech_next_link1(struct SPF_mech_struct *mech_link1)
 {
-  unsigned long int return_value_SPF_mech_data_len$1$link1;
-  return_value_SPF_mech_data_len$1$link1=SPF_mech_data_len$link1(mech$link1);
-  char *return_value__align_ptr$2$link1;
-  return_value__align_ptr$2$link1=_align_ptr$link2((char *)mech$link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/  + (signed long int)return_value_SPF_mech_data_len$1$link1);
-  return (struct SPF_mech_struct *)return_value__align_ptr$2$link1;
+  unsigned long int return_value_SPF_mech_data_len_1_link1;
+  return_value_SPF_mech_data_len_1_link1=SPF_mech_data_len_link1(mech_link1);
+  char *return_value__align_ptr_2_link1;
+  return_value__align_ptr_2_link1=_align_ptr_link2((char *)mech_link1 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/  + (signed long int)return_value_SPF_mech_data_len_1_link1);
+  return (struct SPF_mech_struct *)return_value__align_ptr_2_link1;
 }
 
-// SPF_mech_next$link2
+// SPF_mech_next_link2
 // file ../../src/include/spf_internal.h line 93
-static inline struct SPF_mech_struct * SPF_mech_next$link2(struct SPF_mech_struct *mech$link2)
+static inline struct SPF_mech_struct * SPF_mech_next_link2(struct SPF_mech_struct *mech_link2)
 {
-  unsigned long int return_value_SPF_mech_data_len$1$link2;
-  return_value_SPF_mech_data_len$1$link2=SPF_mech_data_len$link2(mech$link2);
-  char *return_value__align_ptr$2$link2;
-  return_value__align_ptr$2$link2=_align_ptr$link3((char *)mech$link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/  + (signed long int)return_value_SPF_mech_data_len$1$link2);
-  return (struct SPF_mech_struct *)return_value__align_ptr$2$link2;
+  unsigned long int return_value_SPF_mech_data_len_1_link2;
+  return_value_SPF_mech_data_len_1_link2=SPF_mech_data_len_link2(mech_link2);
+  char *return_value__align_ptr_2_link2;
+  return_value__align_ptr_2_link2=_align_ptr_link3((char *)mech_link2 + (signed long int)sizeof(struct SPF_mech_struct) /*4ul*/  + (signed long int)return_value_SPF_mech_data_len_1_link2);
+  return (struct SPF_mech_struct *)return_value__align_ptr_2_link2;
 }
 
 // SPF_mechtype_find
@@ -7007,54 +7007,54 @@ static const struct SPF_mechtype_struct * SPF_mechtype_find(signed int mech_type
 // file ../../src/include/spf_internal.h line 125
 static inline union SPF_data_union * SPF_mod_data(struct SPF_mod_struct *mod)
 {
-  char *return_value__align_ptr$1;
-  return_value__align_ptr$1=_align_ptr((char *)mod + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/  + (signed long int)mod->name_len);
-  return (union SPF_data_union *)return_value__align_ptr$1;
+  char *return_value__align_ptr_1;
+  return_value__align_ptr_1=_align_ptr((char *)mod + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/  + (signed long int)mod->name_len);
+  return (union SPF_data_union *)return_value__align_ptr_1;
 }
 
-// SPF_mod_data$link1
+// SPF_mod_data_link1
 // file ../../src/include/spf_internal.h line 125
-static inline union SPF_data_union * SPF_mod_data$link1(struct SPF_mod_struct *mod$link1)
+static inline union SPF_data_union * SPF_mod_data_link1(struct SPF_mod_struct *mod_link1)
 {
-  char *return_value__align_ptr$1$link1;
-  return_value__align_ptr$1$link1=_align_ptr$link2((char *)mod$link1 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/  + (signed long int)mod$link1->name_len);
-  return (union SPF_data_union *)return_value__align_ptr$1$link1;
+  char *return_value__align_ptr_1_link1;
+  return_value__align_ptr_1_link1=_align_ptr_link2((char *)mod_link1 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/  + (signed long int)mod_link1->name_len);
+  return (union SPF_data_union *)return_value__align_ptr_1_link1;
 }
 
-// SPF_mod_data$link2
+// SPF_mod_data_link2
 // file ../../src/include/spf_internal.h line 125
-static inline union SPF_data_union * SPF_mod_data$link2(struct SPF_mod_struct *mod$link2)
+static inline union SPF_data_union * SPF_mod_data_link2(struct SPF_mod_struct *mod_link2)
 {
-  char *return_value__align_ptr$1$link2;
-  return_value__align_ptr$1$link2=_align_ptr$link4((char *)mod$link2 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/  + (signed long int)mod$link2->name_len);
-  return (union SPF_data_union *)return_value__align_ptr$1$link2;
+  char *return_value__align_ptr_1_link2;
+  return_value__align_ptr_1_link2=_align_ptr_link4((char *)mod_link2 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/  + (signed long int)mod_link2->name_len);
+  return (union SPF_data_union *)return_value__align_ptr_1_link2;
 }
 
 // SPF_mod_end_data
 // file ../../src/include/spf_internal.h line 129
 static inline union SPF_data_union * SPF_mod_end_data(struct SPF_mod_struct *mod)
 {
-  union SPF_data_union *return_value_SPF_mod_data$1;
-  return_value_SPF_mod_data$1=SPF_mod_data$link1(mod);
-  return (union SPF_data_union *)((char *)return_value_SPF_mod_data$1 + (signed long int)mod->data_len);
+  union SPF_data_union *return_value_SPF_mod_data_1;
+  return_value_SPF_mod_data_1=SPF_mod_data_link1(mod);
+  return (union SPF_data_union *)((char *)return_value_SPF_mod_data_1 + (signed long int)mod->data_len);
 }
 
 // SPF_mod_len
 // file ../../src/include/spf_internal.h line 117
 static inline unsigned long int SPF_mod_len(struct SPF_mod_struct *mod)
 {
-  unsigned long int return_value__align_sz$1;
-  return_value__align_sz$1=_align_sz$link1(sizeof(struct SPF_mod_struct) /*4ul*/  + (unsigned long int)mod->name_len);
-  return return_value__align_sz$1 + (unsigned long int)mod->data_len;
+  unsigned long int return_value__align_sz_1;
+  return_value__align_sz_1=_align_sz_link1(sizeof(struct SPF_mod_struct) /*4ul*/  + (unsigned long int)mod->name_len);
+  return return_value__align_sz_1 + (unsigned long int)mod->data_len;
 }
 
-// SPF_mod_len$link1
+// SPF_mod_len_link1
 // file ../../src/include/spf_internal.h line 117
-static inline unsigned long int SPF_mod_len$link1(struct SPF_mod_struct *mod$link1)
+static inline unsigned long int SPF_mod_len_link1(struct SPF_mod_struct *mod_link1)
 {
-  unsigned long int return_value__align_sz$1$link1;
-  return_value__align_sz$1$link1=_align_sz$link2(sizeof(struct SPF_mod_struct) /*4ul*/  + (unsigned long int)mod$link1->name_len);
-  return return_value__align_sz$1$link1 + (unsigned long int)mod$link1->data_len;
+  unsigned long int return_value__align_sz_1_link1;
+  return_value__align_sz_1_link1=_align_sz_link2(sizeof(struct SPF_mod_struct) /*4ul*/  + (unsigned long int)mod_link1->name_len);
+  return return_value__align_sz_1_link1 + (unsigned long int)mod_link1->data_len;
 }
 
 // SPF_mod_name
@@ -7064,40 +7064,40 @@ static inline char * SPF_mod_name(struct SPF_mod_struct *mod)
   return (char *)mod + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/ ;
 }
 
-// SPF_mod_name$link1
+// SPF_mod_name_link1
 // file ../../src/include/spf_internal.h line 123
-static inline char * SPF_mod_name$link1(struct SPF_mod_struct *mod$link1)
+static inline char * SPF_mod_name_link1(struct SPF_mod_struct *mod_link1)
 {
-  return (char *)mod$link1 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/ ;
+  return (char *)mod_link1 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/ ;
 }
 
-// SPF_mod_name$link2
+// SPF_mod_name_link2
 // file ../../src/include/spf_internal.h line 123
-static inline char * SPF_mod_name$link2(struct SPF_mod_struct *mod$link2)
+static inline char * SPF_mod_name_link2(struct SPF_mod_struct *mod_link2)
 {
-  return (char *)mod$link2 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/ ;
+  return (char *)mod_link2 + (signed long int)sizeof(struct SPF_mod_struct) /*4ul*/ ;
 }
 
 // SPF_mod_next
 // file ../../src/include/spf_internal.h line 119
 static inline struct SPF_mod_struct * SPF_mod_next(struct SPF_mod_struct *mod)
 {
-  unsigned long int return_value_SPF_mod_len$1;
-  return_value_SPF_mod_len$1=SPF_mod_len(mod);
-  char *return_value__align_ptr$2;
-  return_value__align_ptr$2=_align_ptr$link2((char *)mod + (signed long int)return_value_SPF_mod_len$1);
-  return (struct SPF_mod_struct *)return_value__align_ptr$2;
+  unsigned long int return_value_SPF_mod_len_1;
+  return_value_SPF_mod_len_1=SPF_mod_len(mod);
+  char *return_value__align_ptr_2;
+  return_value__align_ptr_2=_align_ptr_link2((char *)mod + (signed long int)return_value_SPF_mod_len_1);
+  return (struct SPF_mod_struct *)return_value__align_ptr_2;
 }
 
-// SPF_mod_next$link1
+// SPF_mod_next_link1
 // file ../../src/include/spf_internal.h line 119
-static inline struct SPF_mod_struct * SPF_mod_next$link1(struct SPF_mod_struct *mod$link1)
+static inline struct SPF_mod_struct * SPF_mod_next_link1(struct SPF_mod_struct *mod_link1)
 {
-  unsigned long int return_value_SPF_mod_len$1$link1;
-  return_value_SPF_mod_len$1$link1=SPF_mod_len$link1(mod$link1);
-  char *return_value__align_ptr$2$link1;
-  return_value__align_ptr$2$link1=_align_ptr$link4((char *)mod$link1 + (signed long int)return_value_SPF_mod_len$1$link1);
-  return (struct SPF_mod_struct *)return_value__align_ptr$2$link1;
+  unsigned long int return_value_SPF_mod_len_1_link1;
+  return_value_SPF_mod_len_1_link1=SPF_mod_len_link1(mod_link1);
+  char *return_value__align_ptr_2_link1;
+  return_value__align_ptr_2_link1=_align_ptr_link4((char *)mod_link1 + (signed long int)return_value_SPF_mod_len_1_link1);
+  return (struct SPF_mod_struct *)return_value__align_ptr_2_link1;
 }
 
 // SPF_print_sizeof
@@ -7119,9 +7119,9 @@ enum SPF_errcode_t SPF_recalloc(char **bufp, unsigned long int *buflenp, unsigne
     if(!(buflen >= 64ul))
       buflen = (unsigned long int)64;
 
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)*bufp, buflen);
-    buf = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)*bufp, buflen);
+    buf = (char *)return_value_realloc_1;
     if(buf == ((char *)NULL))
       return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -7174,23 +7174,23 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
 
   *spf_recordp = (struct SPF_record_struct *)(void *)0;
   p = record;
-  signed int return_value_strncasecmp$2;
-  return_value_strncasecmp$2=strncasecmp(p, "v=spf1", sizeof(char [7l]) /*7ul*/  - (unsigned long int)1);
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$1;
-  if(!(return_value_strncasecmp$2 == 0))
+  signed int return_value_strncasecmp_2;
+  return_value_strncasecmp_2=strncasecmp(p, "v=spf1", sizeof(char [7l]) /*7ul*/  - (unsigned long int)1);
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_1;
+  if(!(return_value_strncasecmp_2 == 0))
   {
-    return_value_SPF_response_add_error_ptr$1=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, (const char *)(void *)0, p, "Could not find a valid SPF record");
-    return return_value_SPF_response_add_error_ptr$1;
+    return_value_SPF_response_add_error_ptr_1=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, (const char *)(void *)0, p, "Could not find a valid SPF record");
+    return return_value_SPF_response_add_error_ptr_1;
   }
 
   p = p + (signed long int)(sizeof(char [7l]) /*7ul*/  - (unsigned long int)1);
-  enum SPF_errcode_t return_value_SPF_response_add_error_ptr$3;
+  enum SPF_errcode_t return_value_SPF_response_add_error_ptr_3;
   if(!((signed int)*p == 0))
   {
     if(!((signed int)*p == 32))
     {
-      return_value_SPF_response_add_error_ptr$3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, (const char *)(void *)0, p, "Could not find a valid SPF record");
-      return return_value_SPF_response_add_error_ptr$3;
+      return_value_SPF_response_add_error_ptr_3=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, (const char *)(void *)0, p, "Could not find a valid SPF record");
+      return return_value_SPF_response_add_error_ptr_3;
     }
 
   }
@@ -7199,25 +7199,25 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
   if(spf_record == ((struct SPF_record_struct *)NULL))
   {
     *spf_recordp = (struct SPF_record_struct *)(void *)0;
-    enum SPF_errcode_t return_value_SPF_response_add_error_ptr$4;
-    return_value_SPF_response_add_error_ptr$4=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NO_MEMORY, (const char *)(void *)0, p, "Failed to allocate an SPF record");
-    return return_value_SPF_response_add_error_ptr$4;
+    enum SPF_errcode_t return_value_SPF_response_add_error_ptr_4;
+    return_value_SPF_response_add_error_ptr_4=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_NO_MEMORY, (const char *)(void *)0, p, "Failed to allocate an SPF record");
+    return return_value_SPF_response_add_error_ptr_4;
   }
 
   spf_record->version = (unsigned char)1;
   *spf_recordp = spf_record;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  signed int return_value_strncasecmp$26;
-  signed int return_value_strncasecmp$24;
-  signed int return_value_strncasecmp$22;
-  signed int return_value_strncasecmp$20;
-  signed int return_value_strncasecmp$18;
-  signed int return_value_strncasecmp$16;
-  signed int return_value_strncasecmp$14;
-  signed int return_value_strncasecmp$12;
-  signed int return_value_strncasecmp$10;
-  signed int return_value_strncasecmp$29;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  signed int return_value_strncasecmp_26;
+  signed int return_value_strncasecmp_24;
+  signed int return_value_strncasecmp_22;
+  signed int return_value_strncasecmp_20;
+  signed int return_value_strncasecmp_18;
+  signed int return_value_strncasecmp_16;
+  signed int return_value_strncasecmp_14;
+  signed int return_value_strncasecmp_12;
+  signed int return_value_strncasecmp_10;
+  signed int return_value_strncasecmp_29;
   while(!((signed int)*p == 0))
   {
     for( ; (signed int)*p == 32; p = p + 1l)
@@ -7255,8 +7255,8 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
       default:
         do
         {
-          return_value___ctype_b_loc$5=__ctype_b_loc();
-          if((4 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+          return_value___ctype_b_loc_5=__ctype_b_loc();
+          if((4 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)(unsigned char)*p]) == 0)
             break;
 
           SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_PREFIX, (const char *)(void *)0, p, "Invalid prefix '%c'", *p);
@@ -7265,24 +7265,24 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
         while((_Bool)1);
     }
     name_start = p;
-    unsigned long int return_value_strcspn$6;
-    return_value_strcspn$6=strcspn(p, " ");
-    val_end = name_start + (signed long int)return_value_strcspn$6;
-    const unsigned short int **return_value___ctype_b_loc$8;
-    return_value___ctype_b_loc$8=__ctype_b_loc();
-    if((1024 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    unsigned long int return_value_strcspn_6;
+    return_value_strcspn_6=strcspn(p, " ");
+    val_end = name_start + (signed long int)return_value_strcspn_6;
+    const unsigned short int **return_value___ctype_b_loc_8;
+    return_value___ctype_b_loc_8=__ctype_b_loc();
+    if((1024 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)(unsigned char)*p]) == 0)
     {
       SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INVALID_CHAR, (const char *)(void *)0, p, "Invalid character at start of mechanism");
-      unsigned long int return_value_strcspn$7;
-      return_value_strcspn$7=strcspn(p, " ");
-      p = p + (signed long int)return_value_strcspn$7;
+      unsigned long int return_value_strcspn_7;
+      return_value_strcspn_7=strcspn(p, " ");
+      p = p + (signed long int)return_value_strcspn_7;
       continue;
     }
 
     do
     {
-      return_value___ctype_b_loc$9=__ctype_b_loc();
-      if((8 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+      return_value___ctype_b_loc_9=__ctype_b_loc();
+      if((8 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       {
         if(!((signed int)*p == 95))
         {
@@ -7316,128 +7316,128 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
         if(prefix == SPF_RESULT_PERMERROR)
           prefix = SPF_RESULT_PASS;
 
-        _Bool tmp_if_expr$27;
+        _Bool tmp_if_expr_27;
         if(name_len == 1ul)
         {
-          return_value_strncasecmp$26=strncasecmp(name_start, "a", name_len);
-          tmp_if_expr$27 = return_value_strncasecmp$26 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncasecmp_26=strncasecmp(name_start, "a", name_len);
+          tmp_if_expr_27 = return_value_strncasecmp_26 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$27 = (_Bool)0;
-        if(tmp_if_expr$27)
+          tmp_if_expr_27 = (_Bool)0;
+        if(tmp_if_expr_27)
           mechtype=SPF_mechtype_find(1);
 
         else
         {
-          _Bool tmp_if_expr$25;
+          _Bool tmp_if_expr_25;
           if(name_len == 2ul)
           {
-            return_value_strncasecmp$24=strncasecmp(name_start, "mx", name_len);
-            tmp_if_expr$25 = return_value_strncasecmp$24 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strncasecmp_24=strncasecmp(name_start, "mx", name_len);
+            tmp_if_expr_25 = return_value_strncasecmp_24 == 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$25 = (_Bool)0;
-          if(tmp_if_expr$25)
+            tmp_if_expr_25 = (_Bool)0;
+          if(tmp_if_expr_25)
             mechtype=SPF_mechtype_find(2);
 
           else
           {
-            _Bool tmp_if_expr$23;
+            _Bool tmp_if_expr_23;
             if(name_len == 3ul)
             {
-              return_value_strncasecmp$22=strncasecmp(name_start, "ptr", name_len);
-              tmp_if_expr$23 = return_value_strncasecmp$22 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strncasecmp_22=strncasecmp(name_start, "ptr", name_len);
+              tmp_if_expr_23 = return_value_strncasecmp_22 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$23 = (_Bool)0;
-            if(tmp_if_expr$23)
+              tmp_if_expr_23 = (_Bool)0;
+            if(tmp_if_expr_23)
               mechtype=SPF_mechtype_find(3);
 
             else
             {
-              _Bool tmp_if_expr$21;
+              _Bool tmp_if_expr_21;
               if(name_len == 7ul)
               {
-                return_value_strncasecmp$20=strncasecmp(name_start, "include", name_len);
-                tmp_if_expr$21 = return_value_strncasecmp$20 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_strncasecmp_20=strncasecmp(name_start, "include", name_len);
+                tmp_if_expr_21 = return_value_strncasecmp_20 == 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$21 = (_Bool)0;
-              if(tmp_if_expr$21)
+                tmp_if_expr_21 = (_Bool)0;
+              if(tmp_if_expr_21)
                 mechtype=SPF_mechtype_find(4);
 
               else
               {
-                _Bool tmp_if_expr$19;
+                _Bool tmp_if_expr_19;
                 if(name_len == 3ul)
                 {
-                  return_value_strncasecmp$18=strncasecmp(name_start, "ip4", name_len);
-                  tmp_if_expr$19 = return_value_strncasecmp$18 == 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strncasecmp_18=strncasecmp(name_start, "ip4", name_len);
+                  tmp_if_expr_19 = return_value_strncasecmp_18 == 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$19 = (_Bool)0;
-                if(tmp_if_expr$19)
+                  tmp_if_expr_19 = (_Bool)0;
+                if(tmp_if_expr_19)
                   mechtype=SPF_mechtype_find(5);
 
                 else
                 {
-                  _Bool tmp_if_expr$17;
+                  _Bool tmp_if_expr_17;
                   if(name_len == 3ul)
                   {
-                    return_value_strncasecmp$16=strncasecmp(name_start, "ip6", name_len);
-                    tmp_if_expr$17 = return_value_strncasecmp$16 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strncasecmp_16=strncasecmp(name_start, "ip6", name_len);
+                    tmp_if_expr_17 = return_value_strncasecmp_16 == 0 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$17 = (_Bool)0;
-                  if(tmp_if_expr$17)
+                    tmp_if_expr_17 = (_Bool)0;
+                  if(tmp_if_expr_17)
                     mechtype=SPF_mechtype_find(6);
 
                   else
                   {
-                    _Bool tmp_if_expr$15;
+                    _Bool tmp_if_expr_15;
                     if(name_len == 6ul)
                     {
-                      return_value_strncasecmp$14=strncasecmp(name_start, "exists", name_len);
-                      tmp_if_expr$15 = return_value_strncasecmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_strncasecmp_14=strncasecmp(name_start, "exists", name_len);
+                      tmp_if_expr_15 = return_value_strncasecmp_14 == 0 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$15 = (_Bool)0;
-                    if(tmp_if_expr$15)
+                      tmp_if_expr_15 = (_Bool)0;
+                    if(tmp_if_expr_15)
                       mechtype=SPF_mechtype_find(7);
 
                     else
                     {
-                      _Bool tmp_if_expr$13;
+                      _Bool tmp_if_expr_13;
                       if(name_len == 3ul)
                       {
-                        return_value_strncasecmp$12=strncasecmp(name_start, "all", name_len);
-                        tmp_if_expr$13 = return_value_strncasecmp$12 == 0 ? (_Bool)1 : (_Bool)0;
+                        return_value_strncasecmp_12=strncasecmp(name_start, "all", name_len);
+                        tmp_if_expr_13 = return_value_strncasecmp_12 == 0 ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$13 = (_Bool)0;
-                      if(tmp_if_expr$13)
+                        tmp_if_expr_13 = (_Bool)0;
+                      if(tmp_if_expr_13)
                         mechtype=SPF_mechtype_find(8);
 
                       else
                       {
-                        _Bool tmp_if_expr$11;
+                        _Bool tmp_if_expr_11;
                         if(name_len == 8ul)
                         {
-                          return_value_strncasecmp$10=strncasecmp(name_start, "redirect", name_len);
-                          tmp_if_expr$11 = return_value_strncasecmp$10 == 0 ? (_Bool)1 : (_Bool)0;
+                          return_value_strncasecmp_10=strncasecmp(name_start, "redirect", name_len);
+                          tmp_if_expr_11 = return_value_strncasecmp_10 == 0 ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$11 = (_Bool)0;
-                        if(tmp_if_expr$11)
+                          tmp_if_expr_11 = (_Bool)0;
+                        if(tmp_if_expr_11)
                           mechtype=SPF_mechtype_find(9);
 
                         else
@@ -7456,9 +7456,9 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
         }
         if(mechtype == ((const struct SPF_mechtype_struct *)NULL))
         {
-          enum SPF_errcode_t return_value_SPF_response_add_error_ptr$28;
-          return_value_SPF_response_add_error_ptr$28=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR, (const char *)(void *)0, name_start, "Failed to find specification for a recognised mechanism");
-          return return_value_SPF_response_add_error_ptr$28;
+          enum SPF_errcode_t return_value_SPF_response_add_error_ptr_28;
+          return_value_SPF_response_add_error_ptr_28=SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR, (const char *)(void *)0, name_start, "Failed to find specification for a recognised mechanism");
+          return return_value_SPF_response_add_error_ptr_28;
         }
 
         if(!(spf_server->debug == 0))
@@ -7478,8 +7478,8 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
           SPF_response_add_error_ptr(spf_response, (enum SPF_errcode_t)SPF_E_MOD_W_PREF, (const char *)(void *)0, name_start, "Modifiers may not have prefixes");
 
         prefix = SPF_RESULT_PERMERROR;
-        return_value_strncasecmp$29=strncasecmp(name_start, "redirect=", sizeof(char [10l]) /*10ul*/  - (unsigned long int)1);
-        if(return_value_strncasecmp$29 == 0)
+        return_value_strncasecmp_29=strncasecmp(name_start, "redirect=", sizeof(char [10l]) /*10ul*/  - (unsigned long int)1);
+        if(return_value_strncasecmp_29 == 0)
           goto compile_mech;
 
         p = p + 1l;
@@ -7502,34 +7502,34 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
     ;
   }
   SPF_record_lint(spf_server, spf_response, spf_record);
-  signed int return_value_SPF_response_errors$34;
-  return_value_SPF_response_errors$34=SPF_response_errors(spf_response);
-  signed int return_value_SPF_response_messages$30;
-  enum SPF_errcode_t return_value_SPF_error_code$31;
-  if(return_value_SPF_response_errors$34 >= 1)
+  signed int return_value_SPF_response_errors_34;
+  return_value_SPF_response_errors_34=SPF_response_errors(spf_response);
+  signed int return_value_SPF_response_messages_30;
+  enum SPF_errcode_t return_value_SPF_error_code_31;
+  if(return_value_SPF_response_errors_34 >= 1)
   {
     i = 0;
     do
     {
-      return_value_SPF_response_messages$30=SPF_response_messages(spf_response);
-      if(i >= return_value_SPF_response_messages$30)
+      return_value_SPF_response_messages_30=SPF_response_messages(spf_response);
+      if(i >= return_value_SPF_response_messages_30)
         break;
 
       spf_error=SPF_response_message(spf_response, i);
-      char return_value_SPF_error_errorp$32;
-      return_value_SPF_error_errorp$32=SPF_error_errorp(spf_error);
-      if(!(return_value_SPF_error_errorp$32 == 0))
+      char return_value_SPF_error_errorp_32;
+      return_value_SPF_error_errorp_32=SPF_error_errorp(spf_error);
+      if(!(return_value_SPF_error_errorp_32 == 0))
       {
-        return_value_SPF_error_code$31=SPF_error_code(spf_error);
-        return return_value_SPF_error_code$31;
+        return_value_SPF_error_code_31=SPF_error_code(spf_error);
+        return return_value_SPF_error_code_31;
       }
 
       i = i + 1;
     }
     while((_Bool)1);
-    enum SPF_errcode_t return_value_SPF_response_add_error$33;
-    return_value_SPF_response_add_error$33=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR, "Response has errors but can't find one!");
-    return return_value_SPF_response_add_error$33;
+    enum SPF_errcode_t return_value_SPF_response_add_error_33;
+    return_value_SPF_response_add_error_33=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR, "Response has errors but can't find one!");
+    return return_value_SPF_response_add_error_33;
   }
 
   return (enum SPF_errcode_t)SPF_E_SUCCESS;
@@ -7539,8 +7539,8 @@ enum SPF_errcode_t SPF_record_compile(struct SPF_server_struct *spf_server, stru
 // file spf_compile.c line 1499
 enum SPF_errcode_t SPF_record_compile_macro(struct SPF_server_struct *spf_server, struct SPF_response_struct *spf_response, struct SPF_macro_struct **spf_macrop, const char *record)
 {
-  /* tag-#anon#lUN[F64'd'|S64'l'|lARR519{S8}$S8$'buf'|U4160'$pad'] */
-union anonymous$6
+  /* tag-#anon#lUN[F64'd'|S64'l'|lARR519{S8}_S8_'buf'|U4160'_pad'] */
+union anonymous_6
 {
   // d
   double d;
@@ -7552,25 +7552,25 @@ union anonymous$6
 
 /* */
   ;
-  union anonymous$6 u;
+  union anonymous_6 u;
   struct SPF_macro_struct *spf_macro = (struct SPF_macro_struct *)u.buf;
   union SPF_data_union *data;
   enum SPF_errcode_t err;
   unsigned long int size;
   data=SPF_macro_data(spf_macro);
   spf_macro->macro_len = (unsigned long int)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(record);
-  err=SPF_c_parse_macro(spf_server, spf_response, data, &spf_macro->macro_len, (unsigned long int)511, record, return_value_strlen$1, (enum SPF_errcode_t)SPF_E_BIG_MOD, 1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(record);
+  err=SPF_c_parse_macro(spf_server, spf_response, data, &spf_macro->macro_len, (unsigned long int)511, record, return_value_strlen_1, (enum SPF_errcode_t)SPF_E_BIG_MOD, 1);
   if(!((signed int)err == SPF_E_SUCCESS))
     return err;
 
   else
   {
     size = sizeof(struct SPF_macro_struct) /*8ul*/  + spf_macro->macro_len;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(size);
-    *spf_macrop = (struct SPF_macro_struct *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(size);
+    *spf_macrop = (struct SPF_macro_struct *)return_value_malloc_2;
     if(*spf_macrop == ((struct SPF_macro_struct *)NULL))
       return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -7634,7 +7634,7 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
   p = (char *)(void *)0;
   p_end = (char *)(void *)0;
   data_end = (union SPF_data_union *)((char *)data + (signed long int)data_len);
-  signed long int return_value_time$3;
+  signed long int return_value_time_3;
   do
   {
 
@@ -7656,9 +7656,9 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
           if(!(p_end - (p + (signed long int)d->ds.len) >= 1l))
             SPF_errorx("spf_expand.c", 155, "%s", (const void *)"Failed to allocate enough memory to expand string.");
 
-          char *return_value_SPF_data_str$1;
-          return_value_SPF_data_str$1=SPF_data_str$link1(d);
-          memcpy((void *)p, (const void *)return_value_SPF_data_str$1, (unsigned long int)d->ds.len);
+          char *return_value_SPF_data_str_1;
+          return_value_SPF_data_str_1=SPF_data_str_link1(d);
+          memcpy((void *)p, (const void *)return_value_SPF_data_str_1, (unsigned long int)d->ds.len);
           p = p + (signed long int)d->ds.len;
           goto __CPROVER_DUMP_L73;
         }
@@ -7712,9 +7712,9 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
                 i = 0;
                 for( ; !((signed long int)i >= (signed long int)sizeof(unsigned char [16l]) /*16l*/ ); i = i + 1)
                 {
-                  signed int return_value_snprintf$2;
-                  return_value_snprintf$2=snprintf(p2, (unsigned long int)(p2_end - p2), "%.1x.%.1x.", (signed int)spf_request->ipv6.__in6_u.__u6_addr8[(signed long int)i] >> 4, (signed int)spf_request->ipv6.__in6_u.__u6_addr8[(signed long int)i] & 0xf);
-                  p2 = p2 + (signed long int)return_value_snprintf$2;
+                  signed int return_value_snprintf_2;
+                  return_value_snprintf_2=snprintf(p2, (unsigned long int)(p2_end - p2), "%.1x.%.1x.", (signed int)spf_request->ipv6.__in6_u.__u6_addr8[(signed long int)i] >> 4, (signed int)spf_request->ipv6.__in6_u.__u6_addr8[(signed long int)i] & 0xf);
+                  p2 = p2 + (signed long int)return_value_snprintf_2;
                 }
                 ip6_rbuf[(signed long int)(sizeof(struct in6_addr) /*16ul*/  * (unsigned long int)4 - (unsigned long int)1)] = (char)0;
                 var = ip6_rbuf;
@@ -7758,8 +7758,8 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
               goto __CPROVER_DUMP_L73;
             }
 
-            return_value_time$3=time((signed long int *)(void *)0);
-            snprintf(time_buf, sizeof(char [11l]) /*11ul*/ , "%ld", (signed long int)return_value_time$3);
+            return_value_time_3=time((signed long int *)(void *)0);
+            snprintf(time_buf, sizeof(char [11l]) /*11ul*/ , "%ld", (signed long int)return_value_time_3);
             var = time_buf;
             break;
           }
@@ -7809,9 +7809,9 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
 
         else
         {
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc(len + (unsigned long int)1);
-          munged_var = (char *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc(len + (unsigned long int)1);
+          munged_var = (char *)return_value_malloc_4;
           if(munged_var == ((char *)NULL))
             return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -7823,16 +7823,16 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
             p_read = p_read_end - (signed long int)1;
             while(p_read >= var)
             {
-              signed int return_value_SPF_delim_valid$6;
-              return_value_SPF_delim_valid$6=SPF_delim_valid(d, *p_read);
-              if(!(return_value_SPF_delim_valid$6 == 0))
+              signed int return_value_SPF_delim_valid_6;
+              return_value_SPF_delim_valid_6=SPF_delim_valid(d, *p_read);
+              if(!(return_value_SPF_delim_valid_6 == 0))
               {
                 len = (unsigned long int)((p_read_end - p_read) - (signed long int)1);
                 memcpy((void *)p_write, (const void *)(p_read + (signed long int)1), len);
                 p_write = p_write + (signed long int)len;
-                char *tmp_post$5 = p_write;
+                char *tmp_post_5 = p_write;
                 p_write = p_write + 1l;
-                *tmp_post$5 = (char)46;
+                *tmp_post_5 = (char)46;
                 p_read_end = p_read;
               }
 
@@ -7843,9 +7843,9 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
               len = (unsigned long int)((p_read_end - p_read) - (signed long int)1);
               memcpy((void *)p_write, (const void *)(p_read + (signed long int)1), len);
               p_write = p_write + (signed long int)len;
-              char *tmp_post$7 = p_write;
+              char *tmp_post_7 = p_write;
               p_write = p_write + 1l;
-              *tmp_post$7 = (char)46;
+              *tmp_post_7 = (char)46;
             }
 
             p_write = p_write - 1l;
@@ -7857,20 +7857,20 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
             p_read = var;
             while(!(p_read >= p_read_end))
             {
-              signed int return_value_SPF_delim_valid$10;
-              return_value_SPF_delim_valid$10=SPF_delim_valid(d, *p_read);
-              if(!(return_value_SPF_delim_valid$10 == 0))
+              signed int return_value_SPF_delim_valid_10;
+              return_value_SPF_delim_valid_10=SPF_delim_valid(d, *p_read);
+              if(!(return_value_SPF_delim_valid_10 == 0))
               {
-                char *tmp_post$8 = p_write;
+                char *tmp_post_8 = p_write;
                 p_write = p_write + 1l;
-                *tmp_post$8 = (char)46;
+                *tmp_post_8 = (char)46;
               }
 
               else
               {
-                char *tmp_post$9 = p_write;
+                char *tmp_post_9 = p_write;
                 p_write = p_write + 1l;
-                *tmp_post$9 = *p_read;
+                *tmp_post_9 = *p_read;
               }
               p_read = p_read + 1l;
             }
@@ -7898,9 +7898,9 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
           var = munged_var;
           if(!(d->dv.url_encode == 0))
           {
-            void *return_value_malloc$11;
-            return_value_malloc$11=malloc(len * (unsigned long int)3 + (unsigned long int)1);
-            url_var = (char *)return_value_malloc$11;
+            void *return_value_malloc_11;
+            return_value_malloc_11=malloc(len * (unsigned long int)3 + (unsigned long int)1);
+            url_var = (char *)return_value_malloc_11;
             if(url_var == ((char *)NULL))
             {
               if(!(munged_var == ((char *)NULL)))
@@ -7913,26 +7913,26 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
             p_write = url_var;
             while(!((signed int)*p_read == 0))
             {
-              const unsigned short int **return_value___ctype_b_loc$16;
-              return_value___ctype_b_loc$16=__ctype_b_loc();
-              if(!((8 & (signed int)(*return_value___ctype_b_loc$16)[(signed long int)(signed int)(unsigned char)*p_read]) == 0))
+              const unsigned short int **return_value___ctype_b_loc_16;
+              return_value___ctype_b_loc_16=__ctype_b_loc();
+              if(!((8 & (signed int)(*return_value___ctype_b_loc_16)[(signed long int)(signed int)(unsigned char)*p_read]) == 0))
               {
-                char *tmp_post$12 = p_write;
+                char *tmp_post_12 = p_write;
                 p_write = p_write + 1l;
-                const char *tmp_post$13 = p_read;
+                const char *tmp_post_13 = p_read;
                 p_read = p_read + 1l;
-                *tmp_post$12 = *tmp_post$13;
+                *tmp_post_12 = *tmp_post_13;
               }
 
               else
               {
                 if((signed int)*p_read == 33 || (signed int)*p_read == 39 || (signed int)*p_read == 40 || (signed int)*p_read == 41 || (signed int)*p_read == 42 || (signed int)*p_read == 45 || (signed int)*p_read == 46 || (signed int)*p_read == 95 || (signed int)*p_read == 126)
                 {
-                  char *tmp_post$14 = p_write;
+                  char *tmp_post_14 = p_write;
                   p_write = p_write + 1l;
-                  const char *tmp_post$15 = p_read;
+                  const char *tmp_post_15 = p_read;
                   p_read = p_read + 1l;
-                  *tmp_post$14 = *tmp_post$15;
+                  *tmp_post_14 = *tmp_post_15;
                   goto __CPROVER_DUMP_L65;
                 }
 
@@ -7949,9 +7949,9 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
             len = (unsigned long int)(p_write - url_var);
           }
 
-          signed int return_value_snprintf$17;
-          return_value_snprintf$17=snprintf(p, (unsigned long int)(p_end - p), "%s", var);
-          len = (unsigned long int)return_value_snprintf$17;
+          signed int return_value_snprintf_17;
+          return_value_snprintf_17=snprintf(p, (unsigned long int)(p_end - p), "%s", var);
+          len = (unsigned long int)return_value_snprintf_17;
           p = p + (signed long int)len;
           if(!(p_end - p >= 1l))
           {
@@ -7978,7 +7978,7 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
 
     __CPROVER_DUMP_L73:
       ;
-      d=SPF_data_next$link1(d);
+      d=SPF_data_next_link1(d);
     }
     if(compute_length == 0)
       break;
@@ -7992,9 +7992,9 @@ enum SPF_errcode_t SPF_record_expand_data(struct SPF_server_struct *spf_server, 
     p_end = *bufp + (signed long int)*buflenp;
   }
   while((_Bool)1);
-  char *tmp_post$18 = p;
+  char *tmp_post_18 = p;
   p = p + 1l;
-  *tmp_post$18 = (char)0;
+  *tmp_post_18 = (char)0;
   return (enum SPF_errcode_t)SPF_E_SUCCESS;
 }
 
@@ -8028,24 +8028,24 @@ static enum SPF_errcode_t SPF_record_find_mod_data(struct SPF_record_struct *spf
   while((_Bool)0);
   mod = spf_record->mod_first;
   i = 0;
-  char *return_value_SPF_mod_name$1;
-  signed int return_value_strncasecmp$2;
+  char *return_value_SPF_mod_name_1;
+  signed int return_value_strncasecmp_2;
   for( ; !(i >= (signed int)spf_record->num_mod); i = i + 1)
   {
     if(name_len == (unsigned long int)mod->name_len)
     {
-      return_value_SPF_mod_name$1=SPF_mod_name$link2(mod);
-      return_value_strncasecmp$2=strncasecmp(return_value_SPF_mod_name$1, mod_name, name_len);
-      if(return_value_strncasecmp$2 == 0)
+      return_value_SPF_mod_name_1=SPF_mod_name_link2(mod);
+      return_value_strncasecmp_2=strncasecmp(return_value_SPF_mod_name_1, mod_name, name_len);
+      if(return_value_strncasecmp_2 == 0)
       {
-        *datap=SPF_mod_data$link2(mod);
+        *datap=SPF_mod_data_link2(mod);
         *datalenp = (unsigned long int)mod->data_len;
         return (enum SPF_errcode_t)0;
       }
 
     }
 
-    mod=SPF_mod_next$link1(mod);
+    mod=SPF_mod_next_link1(mod);
   }
   return (enum SPF_errcode_t)SPF_E_MOD_NOT_FOUND;
 }
@@ -8083,9 +8083,9 @@ enum SPF_errcode_t SPF_record_find_mod_value(struct SPF_server_struct *spf_serve
 
   else
   {
-    enum SPF_errcode_t return_value_SPF_record_expand_data$1;
-    return_value_SPF_record_expand_data$1=SPF_record_expand_data(spf_server, spf_request, spf_response, data, data_len, bufp, buflenp);
-    return return_value_SPF_record_expand_data$1;
+    enum SPF_errcode_t return_value_SPF_record_expand_data_1;
+    return_value_SPF_record_expand_data_1=SPF_record_expand_data(spf_server, spf_request, spf_response, data, data_len, bufp, buflenp);
+    return return_value_SPF_record_expand_data_1;
   }
 }
 
@@ -8106,7 +8106,7 @@ void SPF_record_free(struct SPF_record_struct *rp)
 // file spf_interpret.c line 585
 enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, struct SPF_request_struct *spf_request, struct SPF_response_struct *spf_response, signed int depth)
 {
-  struct SPF_server_struct *SPF_record_interpret$$1$$spf_server;
+  struct SPF_server_struct *SPF_record_interpret__1__spf_server;
   signed int i;
   signed int j;
   signed int m;
@@ -8151,9 +8151,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
       SPF_errorx("spf_interpret.c", 639, "%s", (const void *)"spf_response is NULL");
 
   while((_Bool)0);
-  SPF_record_interpret$$1$$spf_server = spf_record->spf_server;
+  SPF_record_interpret__1__spf_server = spf_record->spf_server;
   do
-    if(SPF_record_interpret$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_record_interpret__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_interpret.c", 641, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
@@ -8162,35 +8162,35 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
       SPF_errorx("spf_interpret.c", 643, "%s", (const void *)"spf_response->spf_record_exp is NULL");
 
   while((_Bool)0);
-  enum SPF_errcode_t return_value_SPF_i_done$1;
+  enum SPF_errcode_t return_value_SPF_i_done_1;
   if(depth >= 21)
   {
-    return_value_SPF_i_done$1=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_RECURSIVE);
-    return return_value_SPF_i_done$1;
+    return_value_SPF_i_done_1=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_RECURSIVE);
+    return return_value_SPF_i_done_1;
   }
 
-  enum SPF_errcode_t return_value_SPF_i_done$2;
+  enum SPF_errcode_t return_value_SPF_i_done_2;
   if(!(spf_request->client_ver == 2))
   {
     if(!(spf_request->client_ver == 10))
     {
-      return_value_SPF_i_done$2=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_NOT_CONFIG);
-      return return_value_SPF_i_done$2;
+      return_value_SPF_i_done_2=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_NOT_CONFIG);
+      return return_value_SPF_i_done_2;
     }
 
   }
 
-  enum SPF_errcode_t return_value_SPF_i_done$3;
+  enum SPF_errcode_t return_value_SPF_i_done_3;
   if(spf_request->cur_dom == ((const char *)NULL))
   {
-    return_value_SPF_i_done$3=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_NOT_CONFIG);
-    return return_value_SPF_i_done$3;
+    return_value_SPF_i_done_3=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_NOT_CONFIG);
+    return return_value_SPF_i_done_3;
   }
 
   local_policy = (struct SPF_mech_struct *)(void *)0;
   if(!(spf_request->use_local_policy == 0))
   {
-    if(!(SPF_record_interpret$$1$$spf_server->local_policy == ((struct SPF_record_struct *)NULL)))
+    if(!(SPF_record_interpret__1__spf_server->local_policy == ((struct SPF_record_struct *)NULL)))
     {
       mech = spf_record->mech_first;
       found_all = 0;
@@ -8199,19 +8199,19 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
       {
         if((signed int)mech->mech_type == 8)
         {
-          _Bool tmp_if_expr$4;
+          _Bool tmp_if_expr_4;
           if((signed int)mech->prefix_type == SPF_RESULT_FAIL)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = (signed int)mech->prefix_type == SPF_RESULT_PERMERROR ? (_Bool)1 : (_Bool)0;
-          _Bool tmp_if_expr$5;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = (signed int)mech->prefix_type == SPF_RESULT_PERMERROR ? (_Bool)1 : (_Bool)0;
+          _Bool tmp_if_expr_5;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = (signed int)mech->prefix_type == SPF_RESULT_SOFTFAIL ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (signed int)mech->prefix_type == SPF_RESULT_SOFTFAIL ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
             found_all = 1;
 
         }
@@ -8223,7 +8223,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
         }
 
-        mech=SPF_mech_next$link2(mech);
+        mech=SPF_mech_next_link2(mech);
       }
       if(found_all == 0)
         local_policy = (struct SPF_mech_struct *)(void *)0;
@@ -8232,37 +8232,37 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
   }
 
-  resolver = SPF_record_interpret$$1$$spf_server->resolver;
+  resolver = SPF_record_interpret__1__spf_server->resolver;
   mech = spf_record->mech_first;
   m = 0;
-  union SPF_data_union *return_value_SPF_mech_data$40;
-  unsigned long int return_value_SPF_mech_data_len$41;
-  signed int return_value_strcmp$45;
-  const char *return_value_SPF_strerror$46;
-  enum SPF_errcode_t return_value_SPF_i_done$47;
-  enum SPF_errcode_t return_value_SPF_i_done$48;
-  const char *return_value_SPF_strerror$50;
-  const char *return_value_SPF_strresult$51;
-  const char *return_value_SPF_strreason$52;
-  enum SPF_errcode_t return_value_SPF_i_done$54;
-  enum SPF_errcode_t return_value_SPF_i_done$55;
-  enum SPF_errcode_t return_value_SPF_i_done$56;
-  enum SPF_errcode_t return_value_SPF_i_done$57;
-  struct in_addr *return_value_SPF_mech_ip4_data$58;
-  signed int return_value_SPF_i_match_ip4$60;
-  struct in6_addr *return_value_SPF_mech_ip6_data$61;
-  signed int return_value_SPF_i_match_ip6$63;
-  union SPF_data_union *return_value_SPF_mech_data$64;
-  unsigned long int return_value_SPF_mech_data_len$65;
-  enum SPF_errcode_t return_value_SPF_i_done$69;
-  enum SPF_errcode_t return_value_SPF_i_done$70;
-  enum SPF_errcode_t return_value_SPF_i_done$71;
-  const char *return_value_SPF_strerror$72;
-  const char *return_value_SPF_strresult$73;
-  const char *return_value_SPF_strreason$74;
+  union SPF_data_union *return_value_SPF_mech_data_40;
+  unsigned long int return_value_SPF_mech_data_len_41;
+  signed int return_value_strcmp_45;
+  const char *return_value_SPF_strerror_46;
+  enum SPF_errcode_t return_value_SPF_i_done_47;
+  enum SPF_errcode_t return_value_SPF_i_done_48;
+  const char *return_value_SPF_strerror_50;
+  const char *return_value_SPF_strresult_51;
+  const char *return_value_SPF_strreason_52;
+  enum SPF_errcode_t return_value_SPF_i_done_54;
+  enum SPF_errcode_t return_value_SPF_i_done_55;
+  enum SPF_errcode_t return_value_SPF_i_done_56;
+  enum SPF_errcode_t return_value_SPF_i_done_57;
+  struct in_addr *return_value_SPF_mech_ip4_data_58;
+  signed int return_value_SPF_i_match_ip4_60;
+  struct in6_addr *return_value_SPF_mech_ip6_data_61;
+  signed int return_value_SPF_i_match_ip6_63;
+  union SPF_data_union *return_value_SPF_mech_data_64;
+  unsigned long int return_value_SPF_mech_data_len_65;
+  enum SPF_errcode_t return_value_SPF_i_done_69;
+  enum SPF_errcode_t return_value_SPF_i_done_70;
+  enum SPF_errcode_t return_value_SPF_i_done_71;
+  const char *return_value_SPF_strerror_72;
+  const char *return_value_SPF_strresult_73;
+  const char *return_value_SPF_strreason_74;
   for( ; !(m >= (signed int)spf_record->num_mech); m = m + 1)
   {
-    if(!(SPF_record_interpret$$1$$spf_server->max_dns_mech >= spf_response->num_dns_mech))
+    if(!(SPF_record_interpret__1__spf_server->max_dns_mech >= spf_response->num_dns_mech))
     {
       do
         if(!(buf == ((char *)NULL)))
@@ -8272,13 +8272,13 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
         }
 
       while((_Bool)0);
-      enum SPF_errcode_t return_value_SPF_i_done$6;
-      return_value_SPF_i_done$6=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
-      return return_value_SPF_i_done$6;
+      enum SPF_errcode_t return_value_SPF_i_done_6;
+      return_value_SPF_i_done_6=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
+      return return_value_SPF_i_done_6;
     }
 
-    data=SPF_mech_data$link2(mech);
-    data_end=SPF_mech_end_data$link2(mech);
+    data=SPF_mech_data_link2(mech);
+    data_end=SPF_mech_end_data_link2(mech);
     switch((signed int)mech->mech_type)
     {
       case 1:
@@ -8290,7 +8290,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
           if(!(data >= data_end))
           {
             if((signed int)data->dc.parm_type == 11)
-              data=SPF_data_next$link3(data);
+              data=SPF_data_next_link3(data);
 
           }
 
@@ -8301,7 +8301,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
           else
           {
-            err=SPF_record_expand_data(SPF_record_interpret$$1$$spf_server, spf_request, spf_response, data, (unsigned long int)((char *)data_end - (char *)data), &buf, &buf_len);
+            err=SPF_record_expand_data(SPF_record_interpret__1__spf_server, spf_request, spf_response, data, (unsigned long int)((char *)data_end - (char *)data), &buf, &buf_len);
             if((signed int)err == SPF_E_NO_MEMORY)
             {
               do
@@ -8312,9 +8312,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$7;
-              return_value_SPF_i_done$7=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$7;
+              enum SPF_errcode_t return_value_SPF_i_done_7;
+              return_value_SPF_i_done_7=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_7;
             }
 
             if(!(err == /*enum*/SPF_E_SUCCESS))
@@ -8327,9 +8327,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$8;
-              return_value_SPF_i_done$8=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$8;
+              enum SPF_errcode_t return_value_SPF_i_done_8;
+              return_value_SPF_i_done_8=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_8;
             }
 
             lookup = buf;
@@ -8341,7 +8341,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
         else
           fetch_ns_type = (enum __ns_type)ns_t_aaaa;
         rr_a=SPF_dns_lookup(resolver, lookup, fetch_ns_type, 1);
-        if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+        if(!(SPF_record_interpret__1__spf_server->debug == 0))
           SPF_debugx("spf_interpret.c", 783, "found %d A records for %s  (herrno: %d)", rr_a->num_rr, lookup, rr_a->herrno);
 
         if(rr_a->herrno == 2)
@@ -8355,9 +8355,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$9;
-          return_value_SPF_i_done$9=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-          return return_value_SPF_i_done$9;
+          enum SPF_errcode_t return_value_SPF_i_done_9;
+          return_value_SPF_i_done_9=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+          return return_value_SPF_i_done_9;
         }
 
         i = 0;
@@ -8366,9 +8366,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
           {
             if(spf_request->client_ver == 2)
             {
-              signed int return_value_SPF_i_match_ip4$11;
-              return_value_SPF_i_match_ip4$11=SPF_i_match_ip4(SPF_record_interpret$$1$$spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->a);
-              if(!(return_value_SPF_i_match_ip4$11 == 0))
+              signed int return_value_SPF_i_match_ip4_11;
+              return_value_SPF_i_match_ip4_11=SPF_i_match_ip4(SPF_record_interpret__1__spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->a);
+              if(!(return_value_SPF_i_match_ip4_11 == 0))
               {
                 SPF_dns_rr_free(rr_a);
                 do
@@ -8379,18 +8379,18 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                   }
 
                 while((_Bool)0);
-                enum SPF_errcode_t return_value_SPF_i_done$10;
-                return_value_SPF_i_done$10=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-                return return_value_SPF_i_done$10;
+                enum SPF_errcode_t return_value_SPF_i_done_10;
+                return_value_SPF_i_done_10=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+                return return_value_SPF_i_done_10;
               }
 
             }
 
             else
             {
-              signed int return_value_SPF_i_match_ip6$13;
-              return_value_SPF_i_match_ip6$13=SPF_i_match_ip6(SPF_record_interpret$$1$$spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->aaaa);
-              if(!(return_value_SPF_i_match_ip6$13 == 0))
+              signed int return_value_SPF_i_match_ip6_13;
+              return_value_SPF_i_match_ip6_13=SPF_i_match_ip6(SPF_record_interpret__1__spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->aaaa);
+              if(!(return_value_SPF_i_match_ip6_13 == 0))
               {
                 SPF_dns_rr_free(rr_a);
                 do
@@ -8401,9 +8401,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                   }
 
                 while((_Bool)0);
-                enum SPF_errcode_t return_value_SPF_i_done$12;
-                return_value_SPF_i_done$12=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-                return return_value_SPF_i_done$12;
+                enum SPF_errcode_t return_value_SPF_i_done_12;
+                return_value_SPF_i_done_12=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+                return return_value_SPF_i_done_12;
               }
 
             }
@@ -8421,7 +8421,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
           if(!(data >= data_end))
           {
             if((signed int)data->dc.parm_type == 11)
-              data=SPF_data_next$link3(data);
+              data=SPF_data_next_link3(data);
 
           }
 
@@ -8432,7 +8432,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
           else
           {
-            err=SPF_record_expand_data(SPF_record_interpret$$1$$spf_server, spf_request, spf_response, data, (unsigned long int)((char *)data_end - (char *)data), &buf, &buf_len);
+            err=SPF_record_expand_data(SPF_record_interpret__1__spf_server, spf_request, spf_response, data, (unsigned long int)((char *)data_end - (char *)data), &buf, &buf_len);
             if((signed int)err == SPF_E_NO_MEMORY)
             {
               do
@@ -8443,9 +8443,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$14;
-              return_value_SPF_i_done$14=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$14;
+              enum SPF_errcode_t return_value_SPF_i_done_14;
+              return_value_SPF_i_done_14=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_14;
             }
 
             if(!(err == /*enum*/SPF_E_SUCCESS))
@@ -8458,16 +8458,16 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$15;
-              return_value_SPF_i_done$15=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$15;
+              enum SPF_errcode_t return_value_SPF_i_done_15;
+              return_value_SPF_i_done_15=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_15;
             }
 
             lookup = buf;
           }
         while((_Bool)0);
         rr_mx=SPF_dns_lookup(resolver, lookup, (enum __ns_type)ns_t_mx, 1);
-        if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+        if(!(SPF_record_interpret__1__spf_server->debug == 0))
           SPF_debugx("spf_interpret.c", 824, "found %d MX records for %s  (herrno: %d)", rr_mx->num_rr, lookup, rr_mx->herrno);
 
         if(rr_mx->herrno == 2)
@@ -8481,17 +8481,17 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$16;
-          return_value_SPF_i_done$16=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-          return return_value_SPF_i_done$16;
+          enum SPF_errcode_t return_value_SPF_i_done_16;
+          return_value_SPF_i_done_16=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+          return return_value_SPF_i_done_16;
         }
 
         max_mx = rr_mx->num_rr;
         max_exceeded = 0;
-        if(!(SPF_record_interpret$$1$$spf_server->max_dns_mx >= max_mx))
+        if(!(SPF_record_interpret__1__spf_server->max_dns_mx >= max_mx))
         {
           max_exceeded = 1;
-          max_mx=SPF_server_get_max_dns_mx(SPF_record_interpret$$1$$spf_server);
+          max_mx=SPF_server_get_max_dns_mx(SPF_record_interpret__1__spf_server);
         }
 
         j = 0;
@@ -8504,7 +8504,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             else
               fetch_ns_type = (enum __ns_type)ns_t_aaaa;
             rr_a=SPF_dns_lookup(resolver, rr_mx->rr[(signed long int)j]->mx, fetch_ns_type, 1);
-            if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+            if(!(SPF_record_interpret__1__spf_server->debug == 0))
               SPF_debugx("spf_interpret.c", 855, "%d: found %d A records for %s  (herrno: %d)", j, rr_a->num_rr, (const void *)rr_mx->rr[(signed long int)j]->mx, rr_a->herrno);
 
             if(rr_a->herrno == 2)
@@ -8519,9 +8519,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$17;
-              return_value_SPF_i_done$17=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-              return return_value_SPF_i_done$17;
+              enum SPF_errcode_t return_value_SPF_i_done_17;
+              return_value_SPF_i_done_17=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+              return return_value_SPF_i_done_17;
             }
 
             i = 0;
@@ -8530,9 +8530,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
               {
                 if(spf_request->client_ver == 2)
                 {
-                  signed int return_value_SPF_i_match_ip4$19;
-                  return_value_SPF_i_match_ip4$19=SPF_i_match_ip4(SPF_record_interpret$$1$$spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->a);
-                  if(!(return_value_SPF_i_match_ip4$19 == 0))
+                  signed int return_value_SPF_i_match_ip4_19;
+                  return_value_SPF_i_match_ip4_19=SPF_i_match_ip4(SPF_record_interpret__1__spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->a);
+                  if(!(return_value_SPF_i_match_ip4_19 == 0))
                   {
                     SPF_dns_rr_free(rr_mx);
                     SPF_dns_rr_free(rr_a);
@@ -8544,18 +8544,18 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                       }
 
                     while((_Bool)0);
-                    enum SPF_errcode_t return_value_SPF_i_done$18;
-                    return_value_SPF_i_done$18=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-                    return return_value_SPF_i_done$18;
+                    enum SPF_errcode_t return_value_SPF_i_done_18;
+                    return_value_SPF_i_done_18=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+                    return return_value_SPF_i_done_18;
                   }
 
                 }
 
                 else
                 {
-                  signed int return_value_SPF_i_match_ip6$21;
-                  return_value_SPF_i_match_ip6$21=SPF_i_match_ip6(SPF_record_interpret$$1$$spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->aaaa);
-                  if(!(return_value_SPF_i_match_ip6$21 == 0))
+                  signed int return_value_SPF_i_match_ip6_21;
+                  return_value_SPF_i_match_ip6_21=SPF_i_match_ip6(SPF_record_interpret__1__spf_server, spf_request, mech, rr_a->rr[(signed long int)i]->aaaa);
+                  if(!(return_value_SPF_i_match_ip6_21 == 0))
                   {
                     SPF_dns_rr_free(rr_mx);
                     SPF_dns_rr_free(rr_a);
@@ -8567,9 +8567,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                       }
 
                     while((_Bool)0);
-                    enum SPF_errcode_t return_value_SPF_i_done$20;
-                    return_value_SPF_i_done$20=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-                    return return_value_SPF_i_done$20;
+                    enum SPF_errcode_t return_value_SPF_i_done_20;
+                    return_value_SPF_i_done_20=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+                    return return_value_SPF_i_done_20;
                   }
 
                 }
@@ -8589,9 +8589,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$22;
-          return_value_SPF_i_done$22=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
-          return return_value_SPF_i_done$22;
+          enum SPF_errcode_t return_value_SPF_i_done_22;
+          return_value_SPF_i_done_22=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
+          return return_value_SPF_i_done_22;
         }
 
         break;
@@ -8607,7 +8607,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
           else
           {
-            err=SPF_record_expand_data(SPF_record_interpret$$1$$spf_server, spf_request, spf_response, data, (unsigned long int)((char *)data_end - (char *)data), &buf, &buf_len);
+            err=SPF_record_expand_data(SPF_record_interpret__1__spf_server, spf_request, spf_response, data, (unsigned long int)((char *)data_end - (char *)data), &buf, &buf_len);
             if((signed int)err == SPF_E_NO_MEMORY)
             {
               do
@@ -8618,9 +8618,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$23;
-              return_value_SPF_i_done$23=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$23;
+              enum SPF_errcode_t return_value_SPF_i_done_23;
+              return_value_SPF_i_done_23=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_23;
             }
 
             if(!(err == /*enum*/SPF_E_SUCCESS))
@@ -8633,9 +8633,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$24;
-              return_value_SPF_i_done$24=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$24;
+              enum SPF_errcode_t return_value_SPF_i_done_24;
+              return_value_SPF_i_done_24=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_24;
             }
 
             lookup = buf;
@@ -8644,13 +8644,13 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
         if(spf_request->client_ver == 2)
         {
           rr_ptr=SPF_dns_rlookup(resolver, spf_request->ipv4, (enum __ns_type)ns_t_ptr, 1);
-          if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+          if(!(SPF_record_interpret__1__spf_server->debug == 0))
           {
             do
             {
-              const char *return_value_inet_ntop$25;
-              return_value_inet_ntop$25=inet_ntop(2, (const void *)&spf_request->ipv4.s_addr, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-              if(return_value_inet_ntop$25 == ((const char *)NULL))
+              const char *return_value_inet_ntop_25;
+              return_value_inet_ntop_25=inet_ntop(2, (const void *)&spf_request->ipv4.s_addr, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+              if(return_value_inet_ntop_25 == ((const char *)NULL))
                 snprintf(ip4_buf, sizeof(char [16l]) /*16ul*/ , "ip-error");
 
             }
@@ -8669,24 +8669,24 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
               }
 
             while((_Bool)0);
-            enum SPF_errcode_t return_value_SPF_i_done$26;
-            return_value_SPF_i_done$26=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-            return return_value_SPF_i_done$26;
+            enum SPF_errcode_t return_value_SPF_i_done_26;
+            return_value_SPF_i_done_26=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+            return return_value_SPF_i_done_26;
           }
 
           max_ptr = rr_ptr->num_rr;
           max_exceeded = 0;
-          if(!(SPF_record_interpret$$1$$spf_server->max_dns_ptr >= max_ptr))
+          if(!(SPF_record_interpret__1__spf_server->max_dns_ptr >= max_ptr))
           {
             max_exceeded = 1;
-            max_ptr=SPF_server_get_max_dns_ptr(SPF_record_interpret$$1$$spf_server);
+            max_ptr=SPF_server_get_max_dns_ptr(SPF_record_interpret__1__spf_server);
           }
 
           i = 0;
           for( ; !(i >= max_ptr); i = i + 1)
           {
             rr_a=SPF_dns_lookup(resolver, rr_ptr->rr[(signed long int)i]->ptr, (enum __ns_type)ns_t_a, 1);
-            if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+            if(!(SPF_record_interpret__1__spf_server->debug == 0))
               SPF_debugx("spf_interpret.c", 937, "%d:  found %d A records for %s  (herrno: %d)", i, rr_a->num_rr, (const void *)rr_ptr->rr[(signed long int)i]->ptr, rr_a->herrno);
 
             if(rr_a->herrno == 2)
@@ -8701,21 +8701,21 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$27;
-              return_value_SPF_i_done$27=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-              return return_value_SPF_i_done$27;
+              enum SPF_errcode_t return_value_SPF_i_done_27;
+              return_value_SPF_i_done_27=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+              return return_value_SPF_i_done_27;
             }
 
             j = 0;
             for( ; !(j >= rr_a->num_rr); j = j + 1)
             {
-              if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+              if(!(SPF_record_interpret__1__spf_server->debug == 0))
               {
                 do
                 {
-                  const char *return_value_inet_ntop$28;
-                  return_value_inet_ntop$28=inet_ntop(2, (const void *)&rr_a->rr[(signed long int)j]->a.s_addr, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-                  if(return_value_inet_ntop$28 == ((const char *)NULL))
+                  const char *return_value_inet_ntop_28;
+                  return_value_inet_ntop_28=inet_ntop(2, (const void *)&rr_a->rr[(signed long int)j]->a.s_addr, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+                  if(return_value_inet_ntop_28 == ((const char *)NULL))
                     snprintf(ip4_buf, sizeof(char [16l]) /*16ul*/ , "ip-error");
 
                 }
@@ -8725,9 +8725,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
               if(rr_a->rr[(signed long int)j]->a.s_addr == spf_request->ipv4.s_addr)
               {
-                signed int return_value_SPF_i_match_domain$30;
-                return_value_SPF_i_match_domain$30=SPF_i_match_domain(SPF_record_interpret$$1$$spf_server, rr_ptr->rr[(signed long int)i]->ptr, lookup);
-                if(!(return_value_SPF_i_match_domain$30 == 0))
+                signed int return_value_SPF_i_match_domain_30;
+                return_value_SPF_i_match_domain_30=SPF_i_match_domain(SPF_record_interpret__1__spf_server, rr_ptr->rr[(signed long int)i]->ptr, lookup);
+                if(!(return_value_SPF_i_match_domain_30 == 0))
                 {
                   SPF_dns_rr_free(rr_ptr);
                   SPF_dns_rr_free(rr_a);
@@ -8739,9 +8739,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                     }
 
                   while((_Bool)0);
-                  enum SPF_errcode_t return_value_SPF_i_done$29;
-                  return_value_SPF_i_done$29=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-                  return return_value_SPF_i_done$29;
+                  enum SPF_errcode_t return_value_SPF_i_done_29;
+                  return_value_SPF_i_done_29=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+                  return return_value_SPF_i_done_29;
                 }
 
               }
@@ -8760,9 +8760,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
               }
 
             while((_Bool)0);
-            enum SPF_errcode_t return_value_SPF_i_done$31;
-            return_value_SPF_i_done$31=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
-            return return_value_SPF_i_done$31;
+            enum SPF_errcode_t return_value_SPF_i_done_31;
+            return_value_SPF_i_done_31=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
+            return return_value_SPF_i_done_31;
           }
 
         }
@@ -8771,13 +8771,13 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
           if(spf_request->client_ver == 10)
           {
             rr_ptr=SPF_dns_rlookup6(resolver, spf_request->ipv6, (enum __ns_type)ns_t_ptr, 1);
-            if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+            if(!(SPF_record_interpret__1__spf_server->debug == 0))
             {
               do
               {
-                const char *return_value_inet_ntop$32;
-                return_value_inet_ntop$32=inet_ntop(10, (const void *)&spf_request->ipv6.__in6_u.__u6_addr8, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-                if(return_value_inet_ntop$32 == ((const char *)NULL))
+                const char *return_value_inet_ntop_32;
+                return_value_inet_ntop_32=inet_ntop(10, (const void *)&spf_request->ipv6.__in6_u.__u6_addr8, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+                if(return_value_inet_ntop_32 == ((const char *)NULL))
                   snprintf(ip6_buf, sizeof(char [46l]) /*46ul*/ , "ip-error");
 
               }
@@ -8796,16 +8796,16 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$33;
-              return_value_SPF_i_done$33=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-              return return_value_SPF_i_done$33;
+              enum SPF_errcode_t return_value_SPF_i_done_33;
+              return_value_SPF_i_done_33=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+              return return_value_SPF_i_done_33;
             }
 
             max_ptr = rr_ptr->num_rr;
             max_exceeded = 0;
-            if(!(SPF_record_interpret$$1$$spf_server->max_dns_ptr >= max_ptr))
+            if(!(SPF_record_interpret__1__spf_server->max_dns_ptr >= max_ptr))
             {
-              max_ptr=SPF_server_get_max_dns_ptr(SPF_record_interpret$$1$$spf_server);
+              max_ptr=SPF_server_get_max_dns_ptr(SPF_record_interpret__1__spf_server);
               max_exceeded = 1;
             }
 
@@ -8813,7 +8813,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             for( ; !(i >= max_ptr); i = i + 1)
             {
               rr_aaaa=SPF_dns_lookup(resolver, rr_ptr->rr[(signed long int)i]->ptr, (enum __ns_type)ns_t_aaaa, 1);
-              if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+              if(!(SPF_record_interpret__1__spf_server->debug == 0))
                 SPF_debugx("spf_interpret.c", 1008, "%d:  found %d AAAA records for %s  (herrno: %d)", i, rr_aaaa->num_rr, (const void *)rr_ptr->rr[(signed long int)i]->ptr, rr_aaaa->herrno);
 
               if(rr_aaaa->herrno == 2)
@@ -8828,21 +8828,21 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                   }
 
                 while((_Bool)0);
-                enum SPF_errcode_t return_value_SPF_i_done$34;
-                return_value_SPF_i_done$34=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-                return return_value_SPF_i_done$34;
+                enum SPF_errcode_t return_value_SPF_i_done_34;
+                return_value_SPF_i_done_34=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+                return return_value_SPF_i_done_34;
               }
 
               j = 0;
               for( ; !(j >= rr_aaaa->num_rr); j = j + 1)
               {
-                if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+                if(!(SPF_record_interpret__1__spf_server->debug == 0))
                 {
                   do
                   {
-                    const char *return_value_inet_ntop$35;
-                    return_value_inet_ntop$35=inet_ntop(10, (const void *)&rr_aaaa->rr[(signed long int)j]->aaaa.__in6_u.__u6_addr8, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-                    if(return_value_inet_ntop$35 == ((const char *)NULL))
+                    const char *return_value_inet_ntop_35;
+                    return_value_inet_ntop_35=inet_ntop(10, (const void *)&rr_aaaa->rr[(signed long int)j]->aaaa.__in6_u.__u6_addr8, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+                    if(return_value_inet_ntop_35 == ((const char *)NULL))
                       snprintf(ip6_buf, sizeof(char [46l]) /*46ul*/ , "ip-error");
 
                   }
@@ -8850,13 +8850,13 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                   SPF_debugx("spf_interpret.c", 1022, "%d: %d:  found %s", i, j, (const void *)ip6_buf);
                 }
 
-                signed int return_value_memcmp$38;
-                return_value_memcmp$38=memcmp((const void *)&rr_aaaa->rr[(signed long int)j]->aaaa, (const void *)&spf_request->ipv6, sizeof(struct in6_addr) /*16ul*/ );
-                if(return_value_memcmp$38 == 0)
+                signed int return_value_memcmp_38;
+                return_value_memcmp_38=memcmp((const void *)&rr_aaaa->rr[(signed long int)j]->aaaa, (const void *)&spf_request->ipv6, sizeof(struct in6_addr) /*16ul*/ );
+                if(return_value_memcmp_38 == 0)
                 {
-                  signed int return_value_SPF_i_match_domain$37;
-                  return_value_SPF_i_match_domain$37=SPF_i_match_domain(SPF_record_interpret$$1$$spf_server, rr_ptr->rr[(signed long int)i]->ptr, lookup);
-                  if(!(return_value_SPF_i_match_domain$37 == 0))
+                  signed int return_value_SPF_i_match_domain_37;
+                  return_value_SPF_i_match_domain_37=SPF_i_match_domain(SPF_record_interpret__1__spf_server, rr_ptr->rr[(signed long int)i]->ptr, lookup);
+                  if(!(return_value_SPF_i_match_domain_37 == 0))
                   {
                     SPF_dns_rr_free(rr_ptr);
                     SPF_dns_rr_free(rr_aaaa);
@@ -8868,9 +8868,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                       }
 
                     while((_Bool)0);
-                    enum SPF_errcode_t return_value_SPF_i_done$36;
-                    return_value_SPF_i_done$36=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-                    return return_value_SPF_i_done$36;
+                    enum SPF_errcode_t return_value_SPF_i_done_36;
+                    return_value_SPF_i_done_36=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+                    return return_value_SPF_i_done_36;
                   }
 
                 }
@@ -8889,9 +8889,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
                 }
 
               while((_Bool)0);
-              enum SPF_errcode_t return_value_SPF_i_done$39;
-              return_value_SPF_i_done$39=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
-              return return_value_SPF_i_done$39;
+              enum SPF_errcode_t return_value_SPF_i_done_39;
+              return_value_SPF_i_done_39=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_BIG_DNS);
+              return return_value_SPF_i_done_39;
             }
 
           }
@@ -8905,9 +8905,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
         do
           spf_response->num_dns_mech = spf_response->num_dns_mech + 1;
         while((_Bool)0);
-        return_value_SPF_mech_data$40=SPF_mech_data$link2(mech);
-        return_value_SPF_mech_data_len$41=SPF_mech_data_len$link2(mech);
-        err=SPF_record_expand_data(SPF_record_interpret$$1$$spf_server, spf_request, spf_response, return_value_SPF_mech_data$40, return_value_SPF_mech_data_len$41, &buf, &buf_len);
+        return_value_SPF_mech_data_40=SPF_mech_data_link2(mech);
+        return_value_SPF_mech_data_len_41=SPF_mech_data_len_link2(mech);
+        err=SPF_record_expand_data(SPF_record_interpret__1__spf_server, spf_request, spf_response, return_value_SPF_mech_data_40, return_value_SPF_mech_data_len_41, &buf, &buf_len);
         if((signed int)err == SPF_E_NO_MEMORY)
         {
           do
@@ -8918,9 +8918,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$42;
-          return_value_SPF_i_done$42=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-          return return_value_SPF_i_done$42;
+          enum SPF_errcode_t return_value_SPF_i_done_42;
+          return_value_SPF_i_done_42=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+          return return_value_SPF_i_done_42;
         }
 
         if(!(err == /*enum*/SPF_E_SUCCESS))
@@ -8933,14 +8933,14 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$43;
-          return_value_SPF_i_done$43=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-          return return_value_SPF_i_done$43;
+          enum SPF_errcode_t return_value_SPF_i_done_43;
+          return_value_SPF_i_done_43=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+          return return_value_SPF_i_done_43;
         }
 
         lookup = buf;
-        return_value_strcmp$45=strcmp(lookup, spf_request->cur_dom);
-        if(return_value_strcmp$45 == 0)
+        return_value_strcmp_45=strcmp(lookup, spf_request->cur_dom);
+        if(return_value_strcmp_45 == 0)
         {
           do
             if(!(buf == ((char *)NULL)))
@@ -8950,19 +8950,19 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$44;
-          return_value_SPF_i_done$44=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_RECURSIVE);
-          return return_value_SPF_i_done$44;
+          enum SPF_errcode_t return_value_SPF_i_done_44;
+          return_value_SPF_i_done_44=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_RECURSIVE);
+          return return_value_SPF_i_done_44;
         }
 
         spf_record_subr = (struct SPF_record_struct *)(void *)0;
         save_cur_dom = spf_request->cur_dom;
         spf_request->cur_dom = lookup;
-        err=SPF_server_get_record(SPF_record_interpret$$1$$spf_server, spf_request, spf_response, &spf_record_subr);
-        if(SPF_record_interpret$$1$$spf_server->debug >= 1)
+        err=SPF_server_get_record(SPF_record_interpret__1__spf_server, spf_request, spf_response, &spf_record_subr);
+        if(SPF_record_interpret__1__spf_server->debug >= 1)
         {
-          return_value_SPF_strerror$46=SPF_strerror(err);
-          SPF_debugx("spf_interpret.c", 1087, "include/redirect:  got SPF record:  %s", return_value_SPF_strerror$46);
+          return_value_SPF_strerror_46=SPF_strerror(err);
+          SPF_debugx("spf_interpret.c", 1087, "include/redirect:  got SPF record:  %s", return_value_SPF_strerror_46);
         }
 
         if(!((signed int)err == SPF_E_SUCCESS))
@@ -8981,14 +8981,14 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
           while((_Bool)0);
           if((signed int)err == SPF_E_DNS_ERROR)
           {
-            return_value_SPF_i_done$47=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-            return return_value_SPF_i_done$47;
+            return_value_SPF_i_done_47=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+            return return_value_SPF_i_done_47;
           }
 
           else
           {
-            return_value_SPF_i_done$48=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-            return return_value_SPF_i_done$48;
+            return_value_SPF_i_done_48=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+            return return_value_SPF_i_done_48;
           }
         }
 
@@ -9027,9 +9027,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
               }
 
             while((_Bool)0);
-            enum SPF_errcode_t return_value_SPF_i_done$49;
-            return_value_SPF_i_done$49=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_NO_MEMORY);
-            return return_value_SPF_i_done$49;
+            enum SPF_errcode_t return_value_SPF_i_done_49;
+            return_value_SPF_i_done_49=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_NO_MEMORY);
+            return return_value_SPF_i_done_49;
           }
 
           spf_response->spf_record_exp = spf_record;
@@ -9043,12 +9043,12 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
         spf_request->cur_dom = save_cur_dom;
         SPF_record_free(spf_record_subr);
         spf_record_subr = (struct SPF_record_struct *)(void *)0;
-        if(SPF_record_interpret$$1$$spf_server->debug >= 1)
+        if(SPF_record_interpret__1__spf_server->debug >= 1)
         {
-          return_value_SPF_strerror$50=SPF_strerror(err);
-          return_value_SPF_strresult$51=SPF_strresult(spf_response->result);
-          return_value_SPF_strreason$52=SPF_strreason(spf_response->reason);
-          SPF_debugx("spf_interpret.c", 1143, "include/redirect:  executed SPF record:  %s  result: %s  reason: %s", return_value_SPF_strerror$50, return_value_SPF_strresult$51, return_value_SPF_strreason$52);
+          return_value_SPF_strerror_50=SPF_strerror(err);
+          return_value_SPF_strresult_51=SPF_strresult(spf_response->result);
+          return_value_SPF_strreason_52=SPF_strreason(spf_response->reason);
+          SPF_debugx("spf_interpret.c", 1143, "include/redirect:  executed SPF record:  %s  result: %s  reason: %s", return_value_SPF_strerror_50, return_value_SPF_strresult_51, return_value_SPF_strreason_52);
         }
 
         if((signed int)mech->mech_type == 9)
@@ -9069,9 +9069,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
           spf_response_subr = spf_response;
           spf_response = save_spf_response;
           save_spf_response = (struct SPF_response_struct *)(void *)0;
-          enum SPF_result_enum return_value_SPF_response_result$53;
-          return_value_SPF_response_result$53=SPF_response_result(spf_response_subr);
-          switch((signed int)return_value_SPF_response_result$53)
+          enum SPF_result_enum return_value_SPF_response_result_53;
+          return_value_SPF_response_result_53=SPF_response_result(spf_response_subr);
+          switch((signed int)return_value_SPF_response_result_53)
           {
             case SPF_RESULT_PASS:
             {
@@ -9084,8 +9084,8 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
               while((_Bool)0);
               SPF_response_free(spf_response_subr);
-              return_value_SPF_i_done$54=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-              return return_value_SPF_i_done$54;
+              return_value_SPF_i_done_54=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+              return return_value_SPF_i_done_54;
             }
             case SPF_RESULT_FAIL:
 
@@ -9108,8 +9108,8 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
               while((_Bool)0);
               SPF_response_free(spf_response_subr);
-              return_value_SPF_i_done$55=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$55;
+              return_value_SPF_i_done_55=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_55;
             }
             case SPF_RESULT_NONE:
             {
@@ -9122,8 +9122,8 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
               while((_Bool)0);
               SPF_response_free(spf_response_subr);
-              return_value_SPF_i_done$56=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_INCLUDE_RETURNED_NONE);
-              return return_value_SPF_i_done$56;
+              return_value_SPF_i_done_56=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_INCLUDE_RETURNED_NONE);
+              return return_value_SPF_i_done_56;
             }
             case SPF_RESULT_PERMERROR:
 
@@ -9139,8 +9139,8 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
               while((_Bool)0);
               SPF_response_free(spf_response_subr);
-              return_value_SPF_i_done$57=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-              return return_value_SPF_i_done$57;
+              return_value_SPF_i_done_57=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+              return return_value_SPF_i_done_57;
             }
             default:
 
@@ -9152,10 +9152,10 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
       }
       case 5:
       {
-        return_value_SPF_mech_ip4_data$58=SPF_mech_ip4_data$link2(mech);
-        memcpy((void *)&addr4, (const void *)return_value_SPF_mech_ip4_data$58, sizeof(struct in_addr) /*4ul*/ );
-        return_value_SPF_i_match_ip4$60=SPF_i_match_ip4(SPF_record_interpret$$1$$spf_server, spf_request, mech, addr4);
-        if(!(return_value_SPF_i_match_ip4$60 == 0))
+        return_value_SPF_mech_ip4_data_58=SPF_mech_ip4_data_link2(mech);
+        memcpy((void *)&addr4, (const void *)return_value_SPF_mech_ip4_data_58, sizeof(struct in_addr) /*4ul*/ );
+        return_value_SPF_i_match_ip4_60=SPF_i_match_ip4(SPF_record_interpret__1__spf_server, spf_request, mech, addr4);
+        if(!(return_value_SPF_i_match_ip4_60 == 0))
         {
           do
             if(!(buf == ((char *)NULL)))
@@ -9165,19 +9165,19 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$59;
-          return_value_SPF_i_done$59=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-          return return_value_SPF_i_done$59;
+          enum SPF_errcode_t return_value_SPF_i_done_59;
+          return_value_SPF_i_done_59=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+          return return_value_SPF_i_done_59;
         }
 
         break;
       }
       case 6:
       {
-        return_value_SPF_mech_ip6_data$61=SPF_mech_ip6_data$link2(mech);
-        memcpy((void *)&addr6, (const void *)return_value_SPF_mech_ip6_data$61, sizeof(struct in6_addr) /*16ul*/ );
-        return_value_SPF_i_match_ip6$63=SPF_i_match_ip6(SPF_record_interpret$$1$$spf_server, spf_request, mech, addr6);
-        if(!(return_value_SPF_i_match_ip6$63 == 0))
+        return_value_SPF_mech_ip6_data_61=SPF_mech_ip6_data_link2(mech);
+        memcpy((void *)&addr6, (const void *)return_value_SPF_mech_ip6_data_61, sizeof(struct in6_addr) /*16ul*/ );
+        return_value_SPF_i_match_ip6_63=SPF_i_match_ip6(SPF_record_interpret__1__spf_server, spf_request, mech, addr6);
+        if(!(return_value_SPF_i_match_ip6_63 == 0))
         {
           do
             if(!(buf == ((char *)NULL)))
@@ -9187,9 +9187,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$62;
-          return_value_SPF_i_done$62=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-          return return_value_SPF_i_done$62;
+          enum SPF_errcode_t return_value_SPF_i_done_62;
+          return_value_SPF_i_done_62=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+          return return_value_SPF_i_done_62;
         }
 
         break;
@@ -9199,9 +9199,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
         do
           spf_response->num_dns_mech = spf_response->num_dns_mech + 1;
         while((_Bool)0);
-        return_value_SPF_mech_data$64=SPF_mech_data$link2(mech);
-        return_value_SPF_mech_data_len$65=SPF_mech_data_len$link2(mech);
-        err=SPF_record_expand_data(SPF_record_interpret$$1$$spf_server, spf_request, spf_response, return_value_SPF_mech_data$64, return_value_SPF_mech_data_len$65, &buf, &buf_len);
+        return_value_SPF_mech_data_64=SPF_mech_data_link2(mech);
+        return_value_SPF_mech_data_len_65=SPF_mech_data_len_link2(mech);
+        err=SPF_record_expand_data(SPF_record_interpret__1__spf_server, spf_request, spf_response, return_value_SPF_mech_data_64, return_value_SPF_mech_data_len_65, &buf, &buf_len);
         if(!((signed int)err == SPF_E_SUCCESS))
         {
           do
@@ -9212,14 +9212,14 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$66;
-          return_value_SPF_i_done$66=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
-          return return_value_SPF_i_done$66;
+          enum SPF_errcode_t return_value_SPF_i_done_66;
+          return_value_SPF_i_done_66=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, err);
+          return return_value_SPF_i_done_66;
         }
 
         lookup = buf;
         rr_a=SPF_dns_lookup(resolver, lookup, (enum __ns_type)ns_t_a, 0);
-        if(!(SPF_record_interpret$$1$$spf_server->debug == 0))
+        if(!(SPF_record_interpret__1__spf_server->debug == 0))
           SPF_debugx("spf_interpret.c", 1231, "found %d A records for %s  (herrno: %d)", rr_a->num_rr, lookup, rr_a->herrno);
 
         if(rr_a->herrno == 2)
@@ -9233,9 +9233,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$67;
-          return_value_SPF_i_done$67=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
-          return return_value_SPF_i_done$67;
+          enum SPF_errcode_t return_value_SPF_i_done_67;
+          return_value_SPF_i_done_67=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_TEMPERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_DNS_ERROR);
+          return return_value_SPF_i_done_67;
         }
 
         if(rr_a->num_rr >= 1)
@@ -9249,9 +9249,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
             }
 
           while((_Bool)0);
-          enum SPF_errcode_t return_value_SPF_i_done$68;
-          return_value_SPF_i_done$68=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-          return return_value_SPF_i_done$68;
+          enum SPF_errcode_t return_value_SPF_i_done_68;
+          return_value_SPF_i_done_68=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+          return return_value_SPF_i_done_68;
         }
 
         SPF_dns_rr_free(rr_a);
@@ -9269,12 +9269,12 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
         while((_Bool)0);
         if((signed int)mech->prefix_type == SPF_RESULT_PERMERROR)
         {
-          return_value_SPF_i_done$69=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_UNKNOWN_MECH);
-          return return_value_SPF_i_done$69;
+          return_value_SPF_i_done_69=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_UNKNOWN_MECH);
+          return return_value_SPF_i_done_69;
         }
 
-        return_value_SPF_i_done$70=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
-        return return_value_SPF_i_done$70;
+        return_value_SPF_i_done_70=SPF_i_done(spf_response, (enum SPF_result_enum)mech->prefix_type, (enum SPF_reason_enum)SPF_REASON_MECH, (enum SPF_errcode_t)SPF_E_SUCCESS);
+        return return_value_SPF_i_done_70;
       }
       default:
       {
@@ -9286,19 +9286,19 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
           }
 
         while((_Bool)0);
-        return_value_SPF_i_done$71=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_UNKNOWN_MECH);
-        return return_value_SPF_i_done$71;
+        return_value_SPF_i_done_71=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_NONE, (enum SPF_errcode_t)SPF_E_UNKNOWN_MECH);
+        return return_value_SPF_i_done_71;
       }
     }
     if(mech == local_policy)
     {
-      err=SPF_record_interpret(SPF_record_interpret$$1$$spf_server->local_policy, spf_request, spf_response, depth + 1);
-      if(SPF_record_interpret$$1$$spf_server->debug >= 1)
+      err=SPF_record_interpret(SPF_record_interpret__1__spf_server->local_policy, spf_request, spf_response, depth + 1);
+      if(SPF_record_interpret__1__spf_server->debug >= 1)
       {
-        return_value_SPF_strerror$72=SPF_strerror(err);
-        return_value_SPF_strresult$73=SPF_strresult(spf_response->result);
-        return_value_SPF_strreason$74=SPF_strreason(spf_response->reason);
-        SPF_debugx("spf_interpret.c", 1272, "local_policy:  executed SPF record:  %s  result: %s  reason: %s", return_value_SPF_strerror$72, return_value_SPF_strresult$73, return_value_SPF_strreason$74);
+        return_value_SPF_strerror_72=SPF_strerror(err);
+        return_value_SPF_strresult_73=SPF_strresult(spf_response->result);
+        return_value_SPF_strreason_74=SPF_strreason(spf_response->reason);
+        SPF_debugx("spf_interpret.c", 1272, "local_policy:  executed SPF record:  %s  result: %s  reason: %s", return_value_SPF_strerror_72, return_value_SPF_strresult_73, return_value_SPF_strreason_74);
       }
 
       if(!((signed int)spf_response->result == SPF_RESULT_INVALID))
@@ -9316,7 +9316,7 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
 
     }
 
-    mech=SPF_mech_next$link2(mech);
+    mech=SPF_mech_next_link2(mech);
   }
   do
     if(!(buf == ((char *)NULL)))
@@ -9326,9 +9326,9 @@ enum SPF_errcode_t SPF_record_interpret(struct SPF_record_struct *spf_record, st
     }
 
   while((_Bool)0);
-  enum SPF_errcode_t return_value_SPF_i_done$75;
-  return_value_SPF_i_done$75=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NEUTRAL, (enum SPF_reason_enum)SPF_REASON_DEFAULT, (enum SPF_errcode_t)SPF_E_SUCCESS);
-  return return_value_SPF_i_done$75;
+  enum SPF_errcode_t return_value_SPF_i_done_75;
+  return_value_SPF_i_done_75=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NEUTRAL, (enum SPF_reason_enum)SPF_REASON_DEFAULT, (enum SPF_errcode_t)SPF_E_SUCCESS);
+  return return_value_SPF_i_done_75;
 }
 
 // SPF_record_lint
@@ -9346,29 +9346,29 @@ static void SPF_record_lint(struct SPF_server_struct *spf_server, struct SPF_res
   signed int i;
   mech = spf_record->mech_first;
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  const unsigned short int **return_value___ctype_b_loc_4;
   while(!(i >= (signed int)spf_record->num_mech))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((signed int)mech->mech_type == 8)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)mech->mech_type == 9 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)mech->mech_type == 9 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(!(i == (signed int)spf_record->num_mech + -1))
         SPF_response_add_warn(spf_response, (enum SPF_errcode_t)SPF_E_MECH_AFTER_ALL, "Mechanisms found after the \"all:\" mechanism will be ignored.");
 
     }
 
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((signed int)mech->mech_type == 5)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)mech->mech_type == 6 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)mech->mech_type == 6 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       data=SPF_mech_data(mech);
       data_end=SPF_mech_end_data(mech);
@@ -9410,9 +9410,9 @@ static void SPF_record_lint(struct SPF_server_struct *spf_server, struct SPF_res
               s_end = s + (signed long int)d->ds.len;
               for( ; !(s >= s_end); s = s + 1l)
               {
-                const unsigned short int **return_value___ctype_b_loc$3;
-                return_value___ctype_b_loc$3=__ctype_b_loc();
-                if((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*s]) == 0)
+                const unsigned short int **return_value___ctype_b_loc_3;
+                return_value___ctype_b_loc_3=__ctype_b_loc();
+                if((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*s]) == 0)
                 {
                   if(!((signed int)*s == 46))
                   {
@@ -9428,8 +9428,8 @@ static void SPF_record_lint(struct SPF_server_struct *spf_server, struct SPF_res
 
                 else
                 {
-                  return_value___ctype_b_loc$4=__ctype_b_loc();
-                  if((1024 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)*s]) == 0)
+                  return_value___ctype_b_loc_4=__ctype_b_loc();
+                  if((1024 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)*s]) == 0)
                     found_valid_tld = 0;
 
                 }
@@ -9472,9 +9472,9 @@ static void SPF_record_lint(struct SPF_server_struct *spf_server, struct SPF_res
 struct SPF_record_struct * SPF_record_new(struct SPF_server_struct *spf_server, const char *text)
 {
   struct SPF_record_struct *rp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_record_struct) /*64ul*/ );
-  rp = (struct SPF_record_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_record_struct) /*64ul*/ );
+  rp = (struct SPF_record_struct *)return_value_malloc_1;
   if(rp == ((struct SPF_record_struct *)NULL))
     return rp;
 
@@ -9493,7 +9493,7 @@ enum SPF_errcode_t SPF_record_print(struct SPF_record_struct *spf_record)
   char *prt_buf = (char *)(void *)0;
   unsigned long int prt_len = (unsigned long int)0;
   signed int err;
-  const char *return_value_SPF_strerror$2;
+  const char *return_value_SPF_strerror_2;
   if(spf_record == ((struct SPF_record_struct *)NULL))
   {
     SPF_infox("spf_print.c", 52, "%s", (const void *)"SPF header: <null record>");
@@ -9504,17 +9504,17 @@ enum SPF_errcode_t SPF_record_print(struct SPF_record_struct *spf_record)
   else
   {
     SPF_infox("spf_print.c", 63, "SPF header:  version: %d  mech %d/%u  mod %d/%u  len=%u", spf_record->version, (signed int)spf_record->num_mech, (unsigned int)spf_record->mech_len, (signed int)spf_record->num_mod, (unsigned int)spf_record->mod_len, (unsigned int)(sizeof(struct SPF_record_struct) /*64ul*/  + spf_record->mech_len + spf_record->mod_len));
-    enum SPF_errcode_t return_value_SPF_record_stringify$1;
-    return_value_SPF_record_stringify$1=SPF_record_stringify(spf_record, &prt_buf, &prt_len);
-    err = (signed int)return_value_SPF_record_stringify$1;
+    enum SPF_errcode_t return_value_SPF_record_stringify_1;
+    return_value_SPF_record_stringify_1=SPF_record_stringify(spf_record, &prt_buf, &prt_len);
+    err = (signed int)return_value_SPF_record_stringify_1;
     if(err == SPF_E_RESULT_UNKNOWN)
       SPF_infox("spf_print.c", 67, "%s", (const void *)"Unknown");
 
     else
       if(!(err == 0))
       {
-        return_value_SPF_strerror$2=SPF_strerror((enum SPF_errcode_t)err);
-        SPF_infox("spf_print.c", 69, "SPF_record_stringify error: %s (%d)", return_value_SPF_strerror$2, err);
+        return_value_SPF_strerror_2=SPF_strerror((enum SPF_errcode_t)err);
+        SPF_infox("spf_print.c", 69, "SPF_record_stringify error: %s (%d)", return_value_SPF_strerror_2, err);
       }
 
       else
@@ -9550,20 +9550,20 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
   while((_Bool)0);
   len = sizeof(char [7l]) /*7ul*/  + spf_record->mech_len * (unsigned long int)4 + spf_record->mod_len * (unsigned long int)4 + sizeof(char [2l]) /*2ul*/ ;
   err=SPF_recalloc(bufp, buflenp, len);
-  signed int return_value_snprintf$6;
-  signed int return_value_snprintf$7;
-  signed int return_value_snprintf$8;
-  signed int return_value_snprintf$9;
-  struct in_addr *return_value_SPF_mech_ip4_data$10;
-  signed int return_value_snprintf$11;
-  signed int return_value_snprintf$12;
-  struct in6_addr *return_value_SPF_mech_ip6_data$13;
-  signed int return_value_snprintf$14;
-  signed int return_value_snprintf$15;
-  signed int return_value_snprintf$16;
-  signed int return_value_snprintf$17;
-  signed int return_value_snprintf$18;
-  union SPF_data_union *return_value_SPF_data_next$20;
+  signed int return_value_snprintf_6;
+  signed int return_value_snprintf_7;
+  signed int return_value_snprintf_8;
+  signed int return_value_snprintf_9;
+  struct in_addr *return_value_SPF_mech_ip4_data_10;
+  signed int return_value_snprintf_11;
+  signed int return_value_snprintf_12;
+  struct in6_addr *return_value_SPF_mech_ip6_data_13;
+  signed int return_value_snprintf_14;
+  signed int return_value_snprintf_15;
+  signed int return_value_snprintf_16;
+  signed int return_value_snprintf_17;
+  signed int return_value_snprintf_18;
+  union SPF_data_union *return_value_SPF_data_next_20;
   if(!((signed int)err == SPF_E_SUCCESS))
     return err;
 
@@ -9574,9 +9574,9 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
     if(!(spf_record->spf_server->debug == 0))
       SPF_debugx("spf_id2str.c", 294, "stringify: Buffer length is %lu\n", (unsigned long int)*buflenp);
 
-    signed int return_value_snprintf$1;
-    return_value_snprintf$1=snprintf(p, (unsigned long int)(p_end - p), "v=spf%d", spf_record->version);
-    len = (unsigned long int)return_value_snprintf$1;
+    signed int return_value_snprintf_1;
+    return_value_snprintf_1=snprintf(p, (unsigned long int)(p_end - p), "v=spf%d", spf_record->version);
+    len = (unsigned long int)return_value_snprintf_1;
     p = p + (signed long int)len;
     if(!(p_end - p >= 1l))
       return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
@@ -9593,9 +9593,9 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
         if(!(p_end - p >= 2l))
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
-        char *tmp_post$2 = p;
+        char *tmp_post_2 = p;
         p = p + 1l;
-        *tmp_post$2 = (char)32;
+        *tmp_post_2 = (char)32;
         if(!(p_end - p >= 2l))
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
@@ -9605,23 +9605,23 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
             break;
           case SPF_RESULT_FAIL:
           {
-            char *tmp_post$3 = p;
+            char *tmp_post_3 = p;
             p = p + 1l;
-            *tmp_post$3 = (char)45;
+            *tmp_post_3 = (char)45;
             break;
           }
           case SPF_RESULT_SOFTFAIL:
           {
-            char *tmp_post$4 = p;
+            char *tmp_post_4 = p;
             p = p + 1l;
-            *tmp_post$4 = (char)126;
+            *tmp_post_4 = (char)126;
             break;
           }
           case SPF_RESULT_NEUTRAL:
           {
-            char *tmp_post$5 = p;
+            char *tmp_post_5 = p;
             p = p + 1l;
-            *tmp_post$5 = (char)63;
+            *tmp_post_5 = (char)63;
             break;
           }
           case SPF_RESULT_PERMERROR:
@@ -9636,84 +9636,84 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
         {
           case 1:
           {
-            return_value_snprintf$6=snprintf(p, (unsigned long int)(p_end - p), "a");
-            len = (unsigned long int)return_value_snprintf$6;
+            return_value_snprintf_6=snprintf(p, (unsigned long int)(p_end - p), "a");
+            len = (unsigned long int)return_value_snprintf_6;
             break;
           }
           case 2:
           {
-            return_value_snprintf$7=snprintf(p, (unsigned long int)(p_end - p), "mx");
-            len = (unsigned long int)return_value_snprintf$7;
+            return_value_snprintf_7=snprintf(p, (unsigned long int)(p_end - p), "mx");
+            len = (unsigned long int)return_value_snprintf_7;
             break;
           }
           case 3:
           {
-            return_value_snprintf$8=snprintf(p, (unsigned long int)(p_end - p), "ptr");
-            len = (unsigned long int)return_value_snprintf$8;
+            return_value_snprintf_8=snprintf(p, (unsigned long int)(p_end - p), "ptr");
+            len = (unsigned long int)return_value_snprintf_8;
             break;
           }
           case 4:
           {
-            return_value_snprintf$9=snprintf(p, (unsigned long int)(p_end - p), "include");
-            len = (unsigned long int)return_value_snprintf$9;
+            return_value_snprintf_9=snprintf(p, (unsigned long int)(p_end - p), "include");
+            len = (unsigned long int)return_value_snprintf_9;
             break;
           }
           case 5:
           {
-            return_value_SPF_mech_ip4_data$10=SPF_mech_ip4_data$link1(mech);
-            p_err=inet_ntop(2, (const void *)return_value_SPF_mech_ip4_data$10, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+            return_value_SPF_mech_ip4_data_10=SPF_mech_ip4_data_link1(mech);
+            p_err=inet_ntop(2, (const void *)return_value_SPF_mech_ip4_data_10, ip4_buf, (unsigned int)sizeof(char [16l]) /*16ul*/ );
             if(p_err == ((const char *)NULL))
               return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
             if(!(mech->mech_len == 0))
             {
-              return_value_snprintf$11=snprintf(p, (unsigned long int)(p_end - p), "ip4:%s/%d", (const void *)ip4_buf, mech->mech_len);
-              len = (unsigned long int)return_value_snprintf$11;
+              return_value_snprintf_11=snprintf(p, (unsigned long int)(p_end - p), "ip4:%s/%d", (const void *)ip4_buf, mech->mech_len);
+              len = (unsigned long int)return_value_snprintf_11;
             }
 
             else
             {
-              return_value_snprintf$12=snprintf(p, (unsigned long int)(p_end - p), "ip4:%s", (const void *)ip4_buf);
-              len = (unsigned long int)return_value_snprintf$12;
+              return_value_snprintf_12=snprintf(p, (unsigned long int)(p_end - p), "ip4:%s", (const void *)ip4_buf);
+              len = (unsigned long int)return_value_snprintf_12;
             }
             break;
           }
           case 6:
           {
-            return_value_SPF_mech_ip6_data$13=SPF_mech_ip6_data$link1(mech);
-            p_err=inet_ntop(10, (const void *)return_value_SPF_mech_ip6_data$13, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+            return_value_SPF_mech_ip6_data_13=SPF_mech_ip6_data_link1(mech);
+            p_err=inet_ntop(10, (const void *)return_value_SPF_mech_ip6_data_13, ip6_buf, (unsigned int)sizeof(char [46l]) /*46ul*/ );
             if(p_err == ((const char *)NULL))
               return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
             if(!(mech->mech_len == 0))
             {
-              return_value_snprintf$14=snprintf(p, (unsigned long int)(p_end - p), "ip6:%s/%d", (const void *)ip6_buf, mech->mech_len);
-              len = (unsigned long int)return_value_snprintf$14;
+              return_value_snprintf_14=snprintf(p, (unsigned long int)(p_end - p), "ip6:%s/%d", (const void *)ip6_buf, mech->mech_len);
+              len = (unsigned long int)return_value_snprintf_14;
             }
 
             else
             {
-              return_value_snprintf$15=snprintf(p, (unsigned long int)(p_end - p), "ip6:%s", (const void *)ip6_buf);
-              len = (unsigned long int)return_value_snprintf$15;
+              return_value_snprintf_15=snprintf(p, (unsigned long int)(p_end - p), "ip6:%s", (const void *)ip6_buf);
+              len = (unsigned long int)return_value_snprintf_15;
             }
             break;
           }
           case 7:
           {
-            return_value_snprintf$16=snprintf(p, (unsigned long int)(p_end - p), "exists");
-            len = (unsigned long int)return_value_snprintf$16;
+            return_value_snprintf_16=snprintf(p, (unsigned long int)(p_end - p), "exists");
+            len = (unsigned long int)return_value_snprintf_16;
             break;
           }
           case 8:
           {
-            return_value_snprintf$17=snprintf(p, (unsigned long int)(p_end - p), "all");
-            len = (unsigned long int)return_value_snprintf$17;
+            return_value_snprintf_17=snprintf(p, (unsigned long int)(p_end - p), "all");
+            len = (unsigned long int)return_value_snprintf_17;
             break;
           }
           case 9:
           {
-            return_value_snprintf$18=snprintf(p, (unsigned long int)(p_end - p), "redirect");
-            len = (unsigned long int)return_value_snprintf$18;
+            return_value_snprintf_18=snprintf(p, (unsigned long int)(p_end - p), "redirect");
+            len = (unsigned long int)return_value_snprintf_18;
             break;
           }
           default:
@@ -9730,37 +9730,37 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
         {
           if(!((signed int)mech->mech_type == 6))
           {
-            data=SPF_mech_data$link1(mech);
-            data_end=SPF_mech_end_data$link1(mech);
-            unsigned long int return_value_SPF_mech_data_len$22;
-            return_value_SPF_mech_data_len$22=SPF_mech_data_len$link1(mech);
-            if(return_value_SPF_mech_data_len$22 >= 1ul)
+            data=SPF_mech_data_link1(mech);
+            data_end=SPF_mech_end_data_link1(mech);
+            unsigned long int return_value_SPF_mech_data_len_22;
+            return_value_SPF_mech_data_len_22=SPF_mech_data_len_link1(mech);
+            if(return_value_SPF_mech_data_len_22 >= 1ul)
             {
-              _Bool tmp_if_expr$21;
+              _Bool tmp_if_expr_21;
               if(!((signed int)data->dc.parm_type == 11))
-                tmp_if_expr$21 = (_Bool)1;
+                tmp_if_expr_21 = (_Bool)1;
 
               else
               {
-                return_value_SPF_data_next$20=SPF_data_next$link2(data);
-                tmp_if_expr$21 = return_value_SPF_data_next$20 < data_end ? (_Bool)1 : (_Bool)0;
+                return_value_SPF_data_next_20=SPF_data_next_link2(data);
+                tmp_if_expr_21 = return_value_SPF_data_next_20 < data_end ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$21)
+              if(tmp_if_expr_21)
               {
-                char *tmp_post$19 = p;
+                char *tmp_post_19 = p;
                 p = p + 1l;
-                *tmp_post$19 = (char)58;
+                *tmp_post_19 = (char)58;
               }
 
             }
 
-            _Bool tmp_if_expr$23;
+            _Bool tmp_if_expr_23;
             if((signed int)mech->mech_type == 1)
-              tmp_if_expr$23 = (_Bool)1;
+              tmp_if_expr_23 = (_Bool)1;
 
             else
-              tmp_if_expr$23 = (signed int)mech->mech_type == 2 ? (_Bool)1 : (_Bool)0;
-            cidr_ok = (signed int)tmp_if_expr$23;
+              tmp_if_expr_23 = (signed int)mech->mech_type == 2 ? (_Bool)1 : (_Bool)0;
+            cidr_ok = (signed int)tmp_if_expr_23;
             err=SPF_record_stringify_data(data, data_end, &p, p_end, 0, cidr_ok, spf_record->spf_server->debug);
             if(!((signed int)err == SPF_E_SUCCESS))
               return err;
@@ -9769,7 +9769,7 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
 
         }
 
-        mech=SPF_mech_next$link1(mech);
+        mech=SPF_mech_next_link1(mech);
       }
       mod = spf_record->mod_first;
       i = 0;
@@ -9781,19 +9781,19 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
         if(!(p_end - p >= 2l))
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
-        char *tmp_post$24 = p;
+        char *tmp_post_24 = p;
         p = p + 1l;
-        *tmp_post$24 = (char)32;
-        char *return_value_SPF_mod_name$25;
-        return_value_SPF_mod_name$25=SPF_mod_name$link1(mod);
-        signed int return_value_snprintf$26;
-        return_value_snprintf$26=snprintf(p, (unsigned long int)(p_end - p), "%.*s=", mod->name_len, return_value_SPF_mod_name$25);
-        len = (unsigned long int)return_value_snprintf$26;
+        *tmp_post_24 = (char)32;
+        char *return_value_SPF_mod_name_25;
+        return_value_SPF_mod_name_25=SPF_mod_name_link1(mod);
+        signed int return_value_snprintf_26;
+        return_value_snprintf_26=snprintf(p, (unsigned long int)(p_end - p), "%.*s=", mod->name_len, return_value_SPF_mod_name_25);
+        len = (unsigned long int)return_value_snprintf_26;
         p = p + (signed long int)len;
         if(!(p_end - p >= 1l))
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
-        data=SPF_mod_data$link1(mod);
+        data=SPF_mod_data_link1(mod);
         data_end=SPF_mod_end_data(mod);
         err=SPF_record_stringify_data(data, data_end, &p, p_end, 1, 1, spf_record->spf_server->debug);
         if(!((signed int)err == SPF_E_SUCCESS))
@@ -9801,9 +9801,9 @@ enum SPF_errcode_t SPF_record_stringify(struct SPF_record_struct *spf_record, ch
 
         mod=SPF_mod_next(mod);
       }
-      char *tmp_post$27 = p;
+      char *tmp_post_27 = p;
       p = p + 1l;
-      *tmp_post$27 = (char)0;
+      *tmp_post_27 = (char)0;
       return (enum SPF_errcode_t)SPF_E_SUCCESS;
     }
   }
@@ -9819,7 +9819,7 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
   if(!(debug == 0))
     SPF_debugx("spf_id2str.c", 55, " string data: Building");
 
-  signed int return_value_toupper$10;
+  signed int return_value_toupper_10;
   if(!(p_end - p >= 1l))
     return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
@@ -9837,7 +9837,7 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
         cidr_data = data;
-        data=SPF_data_next$link2(data);
+        data=SPF_data_next_link2(data);
       }
 
     }
@@ -9850,7 +9850,7 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
       if((signed int)data->ds.parm_type == 12)
       {
         char *s;
-        s=SPF_data_str$link2(data);
+        s=SPF_data_str_link2(data);
         char *s_end = s + (signed long int)data->ds.len;
         if(!(debug == 0))
           SPF_debugx("spf_id2str.c", 84, " string data: String is [%d] '%*.*s'", data->ds.len, data->ds.len, data->ds.len, s);
@@ -9861,51 +9861,51 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
         while(!(s >= s_end))
           if((signed int)*s == 32)
           {
-            char *tmp_post$1 = p;
+            char *tmp_post_1 = p;
             p = p + 1l;
-            *tmp_post$1 = (char)37;
-            char *tmp_post$2 = p;
+            *tmp_post_1 = (char)37;
+            char *tmp_post_2 = p;
             p = p + 1l;
-            *tmp_post$2 = (char)95;
+            *tmp_post_2 = (char)95;
             s = s + 1l;
           }
 
           else
             if((signed int)*s == 37)
             {
-              char *tmp_post$3 = p;
+              char *tmp_post_3 = p;
               p = p + 1l;
-              *tmp_post$3 = (char)37;
+              *tmp_post_3 = (char)37;
               s = s + 1l;
-              _Bool tmp_if_expr$6;
+              _Bool tmp_if_expr_6;
               if((signed int)*s == 50)
-                tmp_if_expr$6 = (signed int)s[(signed long int)1] == 48 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_6 = (signed int)s[(signed long int)1] == 48 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
               {
-                char *tmp_post$4 = p;
+                char *tmp_post_4 = p;
                 p = p + 1l;
-                *tmp_post$4 = (char)45;
+                *tmp_post_4 = (char)45;
                 s = s + (signed long int)2;
               }
 
               else
               {
-                char *tmp_post$5 = p;
+                char *tmp_post_5 = p;
                 p = p + 1l;
-                *tmp_post$5 = (char)37;
+                *tmp_post_5 = (char)37;
               }
             }
 
             else
             {
-              char *tmp_post$7 = p;
+              char *tmp_post_7 = p;
               p = p + 1l;
-              char *tmp_post$8 = s;
+              char *tmp_post_8 = s;
               s = s + 1l;
-              *tmp_post$7 = *tmp_post$8;
+              *tmp_post_7 = *tmp_post_8;
             }
         if(!(p_end - p >= 1l))
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
@@ -9918,9 +9918,9 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
 
         else
         {
-          signed int return_value_snprintf$9;
-          return_value_snprintf$9=snprintf(p, (unsigned long int)(p_end - p), "%%{");
-          len = (unsigned long int)return_value_snprintf$9;
+          signed int return_value_snprintf_9;
+          return_value_snprintf_9=snprintf(p, (unsigned long int)(p_end - p), "%%{");
+          len = (unsigned long int)return_value_snprintf_9;
           p = p + (signed long int)len;
           if(!(p_end - p >= 1l))
             return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
@@ -9993,8 +9993,8 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
           }
           if(!(data->dv.url_encode == 0))
           {
-            return_value_toupper$10=toupper((signed int)*p);
-            *p = (char)return_value_toupper$10;
+            return_value_toupper_10=toupper((signed int)*p);
+            *p = (char)return_value_toupper_10;
           }
 
           p = p + 1l;
@@ -10003,9 +10003,9 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
 
           if(!(data->dv.num_rhs == 0))
           {
-            signed int return_value_snprintf$11;
-            return_value_snprintf$11=snprintf(p, (unsigned long int)(p_end - p), "%d", data->dv.num_rhs);
-            len = (unsigned long int)return_value_snprintf$11;
+            signed int return_value_snprintf_11;
+            return_value_snprintf_11=snprintf(p, (unsigned long int)(p_end - p), "%d", data->dv.num_rhs);
+            len = (unsigned long int)return_value_snprintf_11;
             p = p + (signed long int)len;
             if(!(p_end - p >= 1l))
               return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
@@ -10017,97 +10017,97 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
 
           if(!(data->dv.rev == 0))
           {
-            char *tmp_post$12 = p;
+            char *tmp_post_12 = p;
             p = p + 1l;
-            *tmp_post$12 = (char)114;
+            *tmp_post_12 = (char)114;
           }
 
           if(!(data->dv.delim_dot == 0))
           {
-            _Bool tmp_if_expr$14;
+            _Bool tmp_if_expr_14;
             if(!(data->dv.delim_dash == 0))
-              tmp_if_expr$14 = (_Bool)1;
+              tmp_if_expr_14 = (_Bool)1;
 
             else
-              tmp_if_expr$14 = data->dv.delim_plus != 0 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$15;
-            if(tmp_if_expr$14)
-              tmp_if_expr$15 = (_Bool)1;
+              tmp_if_expr_14 = data->dv.delim_plus != 0 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_15;
+            if(tmp_if_expr_14)
+              tmp_if_expr_15 = (_Bool)1;
 
             else
-              tmp_if_expr$15 = data->dv.delim_equal != 0 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$16;
-            if(tmp_if_expr$15)
-              tmp_if_expr$16 = (_Bool)1;
+              tmp_if_expr_15 = data->dv.delim_equal != 0 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_16;
+            if(tmp_if_expr_15)
+              tmp_if_expr_16 = (_Bool)1;
 
             else
-              tmp_if_expr$16 = data->dv.delim_bar != 0 ? (_Bool)1 : (_Bool)0;
-            _Bool tmp_if_expr$17;
-            if(tmp_if_expr$16)
-              tmp_if_expr$17 = (_Bool)1;
+              tmp_if_expr_16 = data->dv.delim_bar != 0 ? (_Bool)1 : (_Bool)0;
+            _Bool tmp_if_expr_17;
+            if(tmp_if_expr_16)
+              tmp_if_expr_17 = (_Bool)1;
 
             else
-              tmp_if_expr$17 = data->dv.delim_under != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$17)
+              tmp_if_expr_17 = data->dv.delim_under != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_17)
             {
-              char *tmp_post$13 = p;
+              char *tmp_post_13 = p;
               p = p + 1l;
-              *tmp_post$13 = (char)46;
+              *tmp_post_13 = (char)46;
             }
 
           }
 
           if(!(data->dv.delim_dash == 0))
           {
-            char *tmp_post$18 = p;
+            char *tmp_post_18 = p;
             p = p + 1l;
-            *tmp_post$18 = (char)45;
+            *tmp_post_18 = (char)45;
           }
 
           if(!(data->dv.delim_plus == 0))
           {
-            char *tmp_post$19 = p;
+            char *tmp_post_19 = p;
             p = p + 1l;
-            *tmp_post$19 = (char)43;
+            *tmp_post_19 = (char)43;
           }
 
           if(!(data->dv.delim_equal == 0))
           {
-            char *tmp_post$20 = p;
+            char *tmp_post_20 = p;
             p = p + 1l;
-            *tmp_post$20 = (char)61;
+            *tmp_post_20 = (char)61;
           }
 
           if(!(data->dv.delim_bar == 0))
           {
-            char *tmp_post$21 = p;
+            char *tmp_post_21 = p;
             p = p + 1l;
-            *tmp_post$21 = (char)124;
+            *tmp_post_21 = (char)124;
           }
 
           if(!(data->dv.delim_under == 0))
           {
-            char *tmp_post$22 = p;
+            char *tmp_post_22 = p;
             p = p + 1l;
-            *tmp_post$22 = (char)95;
+            *tmp_post_22 = (char)95;
           }
 
-          char *tmp_post$23 = p;
+          char *tmp_post_23 = p;
           p = p + 1l;
-          *tmp_post$23 = (char)125;
+          *tmp_post_23 = (char)125;
           if(!(p_end - p >= 1l))
             return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
         }
-      data=SPF_data_next$link2(data);
+      data=SPF_data_next_link2(data);
     }
     if(!(cidr_data == ((union SPF_data_union *)NULL)))
     {
       if(!(cidr_data->dc.ipv4 == 0))
       {
-        signed int return_value_snprintf$24;
-        return_value_snprintf$24=snprintf(p, (unsigned long int)(p_end - p), "/%d", cidr_data->dc.ipv4);
-        len = (unsigned long int)return_value_snprintf$24;
+        signed int return_value_snprintf_24;
+        return_value_snprintf_24=snprintf(p, (unsigned long int)(p_end - p), "/%d", cidr_data->dc.ipv4);
+        len = (unsigned long int)return_value_snprintf_24;
         p = p + (signed long int)len;
         if(!(p_end - p >= 1l))
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
@@ -10116,9 +10116,9 @@ static enum SPF_errcode_t SPF_record_stringify_data(union SPF_data_union *data, 
 
       if(!(cidr_data->dc.ipv6 == 0))
       {
-        signed int return_value_snprintf$25;
-        return_value_snprintf$25=snprintf(p, (unsigned long int)(p_end - p), "//%d", cidr_data->dc.ipv6);
-        len = (unsigned long int)return_value_snprintf$25;
+        signed int return_value_snprintf_25;
+        return_value_snprintf_25=snprintf(p, (unsigned long int)(p_end - p), "//%d", cidr_data->dc.ipv6);
+        len = (unsigned long int)return_value_snprintf_25;
         p = p + (signed long int)len;
         if(!(p_end - p >= 1l))
           return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
@@ -10188,20 +10188,20 @@ void SPF_request_free(struct SPF_request_struct *sr)
 // file ../../src/include/spf_request.h line 69
 const char * SPF_request_get_client_dom(struct SPF_request_struct *sr)
 {
-  struct SPF_server_struct *SPF_request_get_client_dom$$1$$spf_server;
+  struct SPF_server_struct *SPF_request_get_client_dom__1__spf_server;
   do
     if(sr == ((struct SPF_request_struct *)NULL))
       SPF_errorx("spf_request.c", 200, "%s", (const void *)"sr is NULL");
 
   while((_Bool)0);
-  SPF_request_get_client_dom$$1$$spf_server = sr->spf_server;
+  SPF_request_get_client_dom__1__spf_server = sr->spf_server;
   do
-    if(SPF_request_get_client_dom$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_request_get_client_dom__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_request.c", 202, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
   if(sr->client_dom == ((char *)NULL))
-    sr->client_dom=SPF_dns_get_client_dom(SPF_request_get_client_dom$$1$$spf_server->resolver, sr);
+    sr->client_dom=SPF_dns_get_client_dom(SPF_request_get_client_dom__1__spf_server->resolver, sr);
 
   return sr->client_dom;
 }
@@ -10246,18 +10246,18 @@ enum SPF_errcode_t SPF_request_get_exp(struct SPF_server_struct *spf_server, str
 
   while((_Bool)0);
   domain = spf_request->cur_dom;
-  enum SPF_errcode_t return_value_SPF_response_add_warn$1;
+  enum SPF_errcode_t return_value_SPF_response_add_warn_1;
   if(domain == ((const char *)NULL))
   {
-    return_value_SPF_response_add_warn$1=SPF_response_add_warn(spf_response, (enum SPF_errcode_t)SPF_E_NOT_CONFIG, "Could not identify current domain for explanation");
-    return return_value_SPF_response_add_warn$1;
+    return_value_SPF_response_add_warn_1=SPF_response_add_warn(spf_response, (enum SPF_errcode_t)SPF_E_NOT_CONFIG, "Could not identify current domain for explanation");
+    return return_value_SPF_response_add_warn_1;
   }
 
   err=SPF_record_find_mod_value(spf_server, spf_request, spf_response, spf_record, "exp-text", bufp, buflenp);
   enum SPF_errcode_t return_value;
-  enum SPF_errcode_t return_value_SPF_server_get_default_explanation$6;
-  enum SPF_errcode_t return_value_SPF_server_get_default_explanation$7;
-  enum SPF_errcode_t return_value_SPF_server_get_default_explanation$8;
+  enum SPF_errcode_t return_value_SPF_server_get_default_explanation_6;
+  enum SPF_errcode_t return_value_SPF_server_get_default_explanation_7;
+  enum SPF_errcode_t return_value_SPF_server_get_default_explanation_8;
   if((signed int)err == SPF_E_SUCCESS)
     return err;
 
@@ -10266,23 +10266,23 @@ enum SPF_errcode_t SPF_request_get_exp(struct SPF_server_struct *spf_server, str
     err=SPF_record_find_mod_value(spf_server, spf_request, spf_response, spf_record, "exp", bufp, buflenp);
     if(!((signed int)err == SPF_E_SUCCESS))
     {
-      enum SPF_errcode_t return_value_SPF_server_get_default_explanation$2;
-      return_value_SPF_server_get_default_explanation$2=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-      return return_value_SPF_server_get_default_explanation$2;
+      enum SPF_errcode_t return_value_SPF_server_get_default_explanation_2;
+      return_value_SPF_server_get_default_explanation_2=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+      return return_value_SPF_server_get_default_explanation_2;
     }
 
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if(*bufp == ((char *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)(*bufp)[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)(*bufp)[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       SPF_response_add_warn(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "Explanation is blank!");
-      enum SPF_errcode_t return_value_SPF_server_get_default_explanation$3;
-      return_value_SPF_server_get_default_explanation$3=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-      return return_value_SPF_server_get_default_explanation$3;
+      enum SPF_errcode_t return_value_SPF_server_get_default_explanation_3;
+      return_value_SPF_server_get_default_explanation_3=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+      return return_value_SPF_server_get_default_explanation_3;
     }
 
     resolver = spf_server->resolver;
@@ -10296,9 +10296,9 @@ enum SPF_errcode_t SPF_request_get_exp(struct SPF_server_struct *spf_server, str
     if(rr_txt == ((struct SPF_dns_rr_struct *)NULL))
     {
       SPF_dns_rr_free(rr_txt);
-      enum SPF_errcode_t return_value_SPF_server_get_default_explanation$5;
-      return_value_SPF_server_get_default_explanation$5=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-      return return_value_SPF_server_get_default_explanation$5;
+      enum SPF_errcode_t return_value_SPF_server_get_default_explanation_5;
+      return_value_SPF_server_get_default_explanation_5=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+      return return_value_SPF_server_get_default_explanation_5;
     }
 
     switch(rr_txt->herrno)
@@ -10308,14 +10308,14 @@ enum SPF_errcode_t SPF_request_get_exp(struct SPF_server_struct *spf_server, str
       case 4:
       {
         SPF_dns_rr_free(rr_txt);
-        return_value_SPF_server_get_default_explanation$6=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-        return return_value_SPF_server_get_default_explanation$6;
+        return_value_SPF_server_get_default_explanation_6=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+        return return_value_SPF_server_get_default_explanation_6;
       }
       case 2:
       {
         SPF_dns_rr_free(rr_txt);
-        return_value_SPF_server_get_default_explanation$7=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-        return return_value_SPF_server_get_default_explanation$7;
+        return_value_SPF_server_get_default_explanation_7=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+        return return_value_SPF_server_get_default_explanation_7;
       }
       case 0:
         break;
@@ -10323,16 +10323,16 @@ enum SPF_errcode_t SPF_request_get_exp(struct SPF_server_struct *spf_server, str
       {
         SPF_warningx("spf_get_exp.c", 180, "%s", (const void *)"Unknown DNS lookup error code");
         SPF_dns_rr_free(rr_txt);
-        return_value_SPF_server_get_default_explanation$8=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-        return return_value_SPF_server_get_default_explanation$8;
+        return_value_SPF_server_get_default_explanation_8=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+        return return_value_SPF_server_get_default_explanation_8;
       }
     }
     if(rr_txt->num_rr == 0)
     {
       SPF_response_add_warn(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "No TXT records returned from DNS lookup");
-      enum SPF_errcode_t return_value_SPF_server_get_default_explanation$9;
-      return_value_SPF_server_get_default_explanation$9=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-      return return_value_SPF_server_get_default_explanation$9;
+      enum SPF_errcode_t return_value_SPF_server_get_default_explanation_9;
+      return_value_SPF_server_get_default_explanation_9=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+      return return_value_SPF_server_get_default_explanation_9;
     }
 
     spf_macro = (struct SPF_macro_struct *)(void *)0;
@@ -10343,14 +10343,14 @@ enum SPF_errcode_t SPF_request_get_exp(struct SPF_server_struct *spf_server, str
         SPF_macro_free(spf_macro);
 
       SPF_dns_rr_free(rr_txt);
-      enum SPF_errcode_t return_value_SPF_server_get_default_explanation$10;
-      return_value_SPF_server_get_default_explanation$10=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
-      return return_value_SPF_server_get_default_explanation$10;
+      enum SPF_errcode_t return_value_SPF_server_get_default_explanation_10;
+      return_value_SPF_server_get_default_explanation_10=SPF_server_get_default_explanation(spf_server, spf_request, spf_response, bufp, buflenp);
+      return return_value_SPF_server_get_default_explanation_10;
     }
 
-    union SPF_data_union *return_value_SPF_macro_data$11;
-    return_value_SPF_macro_data$11=SPF_macro_data$link1(spf_macro);
-    err=SPF_record_expand_data(spf_server, spf_request, spf_response, return_value_SPF_macro_data$11, spf_macro->macro_len, bufp, buflenp);
+    union SPF_data_union *return_value_SPF_macro_data_11;
+    return_value_SPF_macro_data_11=SPF_macro_data_link1(spf_macro);
+    err=SPF_record_expand_data(spf_server, spf_request, spf_response, return_value_SPF_macro_data_11, spf_macro->macro_len, bufp, buflenp);
     SPF_macro_free(spf_macro);
     SPF_dns_rr_free(rr_txt);
     return err;
@@ -10361,20 +10361,20 @@ enum SPF_errcode_t SPF_request_get_exp(struct SPF_server_struct *spf_server, str
 // file ../../src/include/spf_request.h line 67
 const char * SPF_request_get_rec_dom(struct SPF_request_struct *sr)
 {
-  struct SPF_server_struct *SPF_request_get_rec_dom$$1$$spf_server = sr->spf_server;
-  return SPF_request_get_rec_dom$$1$$spf_server->rec_dom;
+  struct SPF_server_struct *SPF_request_get_rec_dom__1__spf_server = sr->spf_server;
+  return SPF_request_get_rec_dom__1__spf_server->rec_dom;
 }
 
 // SPF_request_is_loopback
 // file spf_request.c line 212
 signed int SPF_request_is_loopback(struct SPF_request_struct *sr)
 {
-  unsigned int return_value_htonl$5;
+  unsigned int return_value_htonl_5;
   if(sr->client_ver == 2)
   {
-    unsigned int return_value_ntohl$1;
-    return_value_ntohl$1=ntohl(sr->ipv4.s_addr);
-    if((0xff000000 & return_value_ntohl$1) == 2130706432u)
+    unsigned int return_value_ntohl_1;
+    return_value_ntohl_1=ntohl(sr->ipv4.s_addr);
+    if((0xff000000 & return_value_ntohl_1) == 2130706432u)
       return 1;
 
   }
@@ -10382,31 +10382,31 @@ signed int SPF_request_is_loopback(struct SPF_request_struct *sr)
   else
     if(sr->client_ver == 10)
     {
-      _Bool tmp_statement_expression$2;
+      _Bool tmp_statement_expression_2;
       struct in6_addr *__a = (struct in6_addr *)&sr->ipv6;
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(__a->__in6_u.__u6_addr32[0l] == 0u)
-        tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      _Bool tmp_if_expr$4;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      _Bool tmp_if_expr_4;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      _Bool tmp_if_expr$6;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      _Bool tmp_if_expr_6;
+      if(tmp_if_expr_4)
       {
-        return_value_htonl$5=htonl((unsigned int)1);
-        tmp_if_expr$6 = __a->__in6_u.__u6_addr32[(signed long int)3] == return_value_htonl$5 ? (_Bool)1 : (_Bool)0;
+        return_value_htonl_5=htonl((unsigned int)1);
+        tmp_if_expr_6 = __a->__in6_u.__u6_addr32[(signed long int)3] == return_value_htonl_5 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_statement_expression$2 = tmp_if_expr$6;
-      if(tmp_statement_expression$2)
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_statement_expression_2 = tmp_if_expr_6;
+      if(tmp_statement_expression_2)
         return 1;
 
     }
@@ -10419,9 +10419,9 @@ signed int SPF_request_is_loopback(struct SPF_request_struct *sr)
 struct SPF_request_struct * SPF_request_new(struct SPF_server_struct *spf_server)
 {
   struct SPF_request_struct *sr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_request_struct) /*96ul*/ );
-  sr = (struct SPF_request_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_request_struct) /*96ul*/ );
+  sr = (struct SPF_request_struct *)return_value_malloc_1;
   if(sr == ((struct SPF_request_struct *)NULL))
     return sr;
 
@@ -10452,7 +10452,7 @@ static enum SPF_errcode_t SPF_request_prepare(struct SPF_request_struct *sr)
 // file ../../src/include/spf_request.h line 77
 enum SPF_errcode_t SPF_request_query_fallback(struct SPF_request_struct *spf_request, struct SPF_response_struct **spf_responsep, const char *record)
 {
-  struct SPF_server_struct *SPF_request_query_fallback$$1$$spf_server;
+  struct SPF_server_struct *SPF_request_query_fallback__1__spf_server;
   struct SPF_record_struct *spf_record;
   enum SPF_errcode_t err;
   do
@@ -10460,32 +10460,32 @@ enum SPF_errcode_t SPF_request_query_fallback(struct SPF_request_struct *spf_req
       SPF_errorx("spf_request.c", 307, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_request_query_fallback$$1$$spf_server = spf_request->spf_server;
+  SPF_request_query_fallback__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_request_query_fallback$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_request_query_fallback__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_request.c", 309, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
   *spf_responsep=SPF_response_new(spf_request);
-  enum SPF_errcode_t return_value_SPF_i_done$1;
+  enum SPF_errcode_t return_value_SPF_i_done_1;
   if(*spf_responsep == ((struct SPF_response_struct *)NULL))
     return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
   else
   {
-    signed int return_value_SPF_request_is_loopback$2;
-    return_value_SPF_request_is_loopback$2=SPF_request_is_loopback(spf_request);
-    if(!(return_value_SPF_request_is_loopback$2 == 0))
+    signed int return_value_SPF_request_is_loopback_2;
+    return_value_SPF_request_is_loopback_2=SPF_request_is_loopback(spf_request);
+    if(!(return_value_SPF_request_is_loopback_2 == 0))
     {
-      return_value_SPF_i_done$1=SPF_i_done(*spf_responsep, (enum SPF_result_enum)SPF_RESULT_PASS, (enum SPF_reason_enum)SPF_REASON_LOCALHOST, (enum SPF_errcode_t)SPF_E_SUCCESS);
-      return return_value_SPF_i_done$1;
+      return_value_SPF_i_done_1=SPF_i_done(*spf_responsep, (enum SPF_result_enum)SPF_RESULT_PASS, (enum SPF_reason_enum)SPF_REASON_LOCALHOST, (enum SPF_errcode_t)SPF_E_SUCCESS);
+      return return_value_SPF_i_done_1;
     }
 
     SPF_request_prepare(spf_request);
-    err=SPF_record_compile(SPF_request_query_fallback$$1$$spf_server, *spf_responsep, &spf_record, record);
-    enum SPF_errcode_t return_value_SPF_request_query_record$3;
-    return_value_SPF_request_query_record$3=SPF_request_query_record(spf_request, *spf_responsep, spf_record, err);
-    return return_value_SPF_request_query_record$3;
+    err=SPF_record_compile(SPF_request_query_fallback__1__spf_server, *spf_responsep, &spf_record, record);
+    enum SPF_errcode_t return_value_SPF_request_query_record_3;
+    return_value_SPF_request_query_record_3=SPF_request_query_record(spf_request, *spf_responsep, spf_record, err);
+    return return_value_SPF_request_query_record_3;
   }
 }
 
@@ -10493,7 +10493,7 @@ enum SPF_errcode_t SPF_request_query_fallback(struct SPF_request_struct *spf_req
 // file ../../src/include/spf_request.h line 72
 enum SPF_errcode_t SPF_request_query_mailfrom(struct SPF_request_struct *spf_request, struct SPF_response_struct **spf_responsep)
 {
-  struct SPF_server_struct *SPF_request_query_mailfrom$$1$$spf_server;
+  struct SPF_server_struct *SPF_request_query_mailfrom__1__spf_server;
   struct SPF_record_struct *spf_record;
   enum SPF_errcode_t err;
   do
@@ -10501,32 +10501,32 @@ enum SPF_errcode_t SPF_request_query_mailfrom(struct SPF_request_struct *spf_req
       SPF_errorx("spf_request.c", 276, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_request_query_mailfrom$$1$$spf_server = spf_request->spf_server;
+  SPF_request_query_mailfrom__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_request_query_mailfrom$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_request_query_mailfrom__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_request.c", 278, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
   *spf_responsep=SPF_response_new(spf_request);
-  enum SPF_errcode_t return_value_SPF_i_done$1;
+  enum SPF_errcode_t return_value_SPF_i_done_1;
   if(*spf_responsep == ((struct SPF_response_struct *)NULL))
     return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
   else
   {
-    signed int return_value_SPF_request_is_loopback$2;
-    return_value_SPF_request_is_loopback$2=SPF_request_is_loopback(spf_request);
-    if(!(return_value_SPF_request_is_loopback$2 == 0))
+    signed int return_value_SPF_request_is_loopback_2;
+    return_value_SPF_request_is_loopback_2=SPF_request_is_loopback(spf_request);
+    if(!(return_value_SPF_request_is_loopback_2 == 0))
     {
-      return_value_SPF_i_done$1=SPF_i_done(*spf_responsep, (enum SPF_result_enum)SPF_RESULT_PASS, (enum SPF_reason_enum)SPF_REASON_LOCALHOST, (enum SPF_errcode_t)SPF_E_SUCCESS);
-      return return_value_SPF_i_done$1;
+      return_value_SPF_i_done_1=SPF_i_done(*spf_responsep, (enum SPF_result_enum)SPF_RESULT_PASS, (enum SPF_reason_enum)SPF_REASON_LOCALHOST, (enum SPF_errcode_t)SPF_E_SUCCESS);
+      return return_value_SPF_i_done_1;
     }
 
     SPF_request_prepare(spf_request);
-    err=SPF_server_get_record(SPF_request_query_mailfrom$$1$$spf_server, spf_request, *spf_responsep, &spf_record);
-    enum SPF_errcode_t return_value_SPF_request_query_record$3;
-    return_value_SPF_request_query_record$3=SPF_request_query_record(spf_request, *spf_responsep, spf_record, err);
-    return return_value_SPF_request_query_record$3;
+    err=SPF_server_get_record(SPF_request_query_mailfrom__1__spf_server, spf_request, *spf_responsep, &spf_record);
+    enum SPF_errcode_t return_value_SPF_request_query_record_3;
+    return_value_SPF_request_query_record_3=SPF_request_query_record(spf_request, *spf_responsep, spf_record, err);
+    return return_value_SPF_request_query_record_3;
   }
 }
 
@@ -10534,7 +10534,7 @@ enum SPF_errcode_t SPF_request_query_mailfrom(struct SPF_request_struct *spf_req
 // file ../../src/include/spf_request.h line 74
 enum SPF_errcode_t SPF_request_query_rcptto(struct SPF_request_struct *spf_request, struct SPF_response_struct **spf_responsep, const char *rcpt_to)
 {
-  struct SPF_server_struct *SPF_request_query_rcptto$$1$$spf_server;
+  struct SPF_server_struct *SPF_request_query_rcptto__1__spf_server;
   struct SPF_record_struct *spf_record;
   enum SPF_errcode_t err;
   const char *rcpt_to_dom;
@@ -10545,25 +10545,25 @@ enum SPF_errcode_t SPF_request_query_rcptto(struct SPF_request_struct *spf_reque
       SPF_errorx("spf_request.c", 350, "%s", (const void *)"spf_request is NULL");
 
   while((_Bool)0);
-  SPF_request_query_rcptto$$1$$spf_server = spf_request->spf_server;
+  SPF_request_query_rcptto__1__spf_server = spf_request->spf_server;
   do
-    if(SPF_request_query_rcptto$$1$$spf_server == ((struct SPF_server_struct *)NULL))
+    if(SPF_request_query_rcptto__1__spf_server == ((struct SPF_server_struct *)NULL))
       SPF_errorx("spf_request.c", 352, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
   *spf_responsep=SPF_response_new(spf_request);
-  enum SPF_errcode_t return_value_SPF_i_done$1;
+  enum SPF_errcode_t return_value_SPF_i_done_1;
   if(*spf_responsep == ((struct SPF_response_struct *)NULL))
     return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
   else
   {
-    signed int return_value_SPF_request_is_loopback$2;
-    return_value_SPF_request_is_loopback$2=SPF_request_is_loopback(spf_request);
-    if(!(return_value_SPF_request_is_loopback$2 == 0))
+    signed int return_value_SPF_request_is_loopback_2;
+    return_value_SPF_request_is_loopback_2=SPF_request_is_loopback(spf_request);
+    if(!(return_value_SPF_request_is_loopback_2 == 0))
     {
-      return_value_SPF_i_done$1=SPF_i_done(*spf_responsep, (enum SPF_result_enum)SPF_RESULT_PASS, (enum SPF_reason_enum)SPF_REASON_LOCALHOST, (enum SPF_errcode_t)SPF_E_SUCCESS);
-      return return_value_SPF_i_done$1;
+      return_value_SPF_i_done_1=SPF_i_done(*spf_responsep, (enum SPF_result_enum)SPF_RESULT_PASS, (enum SPF_reason_enum)SPF_REASON_LOCALHOST, (enum SPF_errcode_t)SPF_E_SUCCESS);
+      return return_value_SPF_i_done_1;
     }
 
     rcpt_to_dom=strchr(rcpt_to, 64);
@@ -10571,23 +10571,23 @@ enum SPF_errcode_t SPF_request_query_rcptto(struct SPF_request_struct *spf_reque
       rcpt_to_dom = rcpt_to;
 
     spf_request->cur_dom = rcpt_to_dom;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(rcpt_to_dom);
-    len = sizeof(char [7l]) /*7ul*/  + (unsigned long int)64 + return_value_strlen$3;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(len);
-    record = (char *)return_value_malloc$4;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(rcpt_to_dom);
+    len = sizeof(char [7l]) /*7ul*/  + (unsigned long int)64 + return_value_strlen_3;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(len);
+    record = (char *)return_value_malloc_4;
     if(record == ((char *)NULL))
       return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
     else
     {
       snprintf(record, len, "v=spf1 mx:%s", rcpt_to_dom);
-      err=SPF_record_compile(SPF_request_query_rcptto$$1$$spf_server, *spf_responsep, &spf_record, record);
+      err=SPF_record_compile(SPF_request_query_rcptto__1__spf_server, *spf_responsep, &spf_record, record);
       free((void *)record);
-      enum SPF_errcode_t return_value_SPF_request_query_record$5;
-      return_value_SPF_request_query_record$5=SPF_request_query_record(spf_request, *spf_responsep, spf_record, err);
-      return return_value_SPF_request_query_record$5;
+      enum SPF_errcode_t return_value_SPF_request_query_record_5;
+      return_value_SPF_request_query_record_5=SPF_request_query_record(spf_request, *spf_responsep, spf_record, err);
+      return return_value_SPF_request_query_record_5;
     }
   }
 }
@@ -10596,7 +10596,7 @@ enum SPF_errcode_t SPF_request_query_rcptto(struct SPF_request_struct *spf_reque
 // file spf_request.c line 241
 static enum SPF_errcode_t SPF_request_query_record(struct SPF_request_struct *spf_request, struct SPF_response_struct *spf_response, struct SPF_record_struct *spf_record, enum SPF_errcode_t err)
 {
-  signed int return_value_SPF_response_errors$1;
+  signed int return_value_SPF_response_errors_1;
   if(!((signed int)err == SPF_E_SUCCESS))
   {
     if(!(spf_record == ((struct SPF_record_struct *)NULL)))
@@ -10607,12 +10607,12 @@ static enum SPF_errcode_t SPF_request_query_record(struct SPF_request_struct *sp
 
   else
   {
-    signed int return_value_SPF_response_errors$2;
-    return_value_SPF_response_errors$2=SPF_response_errors(spf_response);
-    if(return_value_SPF_response_errors$2 >= 1)
+    signed int return_value_SPF_response_errors_2;
+    return_value_SPF_response_errors_2=SPF_response_errors(spf_response);
+    if(return_value_SPF_response_errors_2 >= 1)
     {
-      return_value_SPF_response_errors$1=SPF_response_errors(spf_response);
-      SPF_infox("spf_request.c", 255, "Warning: %d errors in response, but no error code. Evaluating.", return_value_SPF_response_errors$1);
+      return_value_SPF_response_errors_1=SPF_response_errors(spf_response);
+      SPF_infox("spf_request.c", 255, "Warning: %d errors in response, but no error code. Evaluating.", return_value_SPF_response_errors_1);
     }
 
     spf_response->spf_record_exp = spf_record;
@@ -10672,9 +10672,9 @@ signed int SPF_request_set_env_from(struct SPF_request_struct *sr, const char *f
       return SPF_E_NO_MEMORY;
 
     len = (unsigned long int)(cp - from);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(len + (unsigned long int)1);
-    sr->env_from_lp = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(len + (unsigned long int)1);
+    sr->env_from_lp = (char *)return_value_malloc_1;
     if(sr->env_from_lp == ((char *)NULL))
     {
       do
@@ -10719,12 +10719,12 @@ signed int SPF_request_set_env_from(struct SPF_request_struct *sr, const char *f
     if(cp == from)
       from = from + 1l;
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(from);
-    len = sizeof(char [12l]) /*12ul*/  + return_value_strlen$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(len + (unsigned long int)1);
-    sr->env_from = (char *)return_value_malloc$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(from);
+    len = sizeof(char [12l]) /*12ul*/  + return_value_strlen_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(len + (unsigned long int)1);
+    sr->env_from = (char *)return_value_malloc_3;
     if(sr->env_from == ((char *)NULL))
       return SPF_E_NO_MEMORY;
 
@@ -10787,7 +10787,7 @@ enum SPF_errcode_t SPF_request_set_helo_dom(struct SPF_request_struct *sr, const
   }
   while((_Bool)0);
   sr->helo_dom=strdup(dom);
-  signed int return_value_SPF_request_set_env_from$1;
+  signed int return_value_SPF_request_set_env_from_1;
   if(sr->helo_dom == ((char *)NULL))
     return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -10795,8 +10795,8 @@ enum SPF_errcode_t SPF_request_set_helo_dom(struct SPF_request_struct *sr, const
   {
     if(sr->env_from == ((char *)NULL))
     {
-      return_value_SPF_request_set_env_from$1=SPF_request_set_env_from(sr, dom);
-      return (enum SPF_errcode_t)return_value_SPF_request_set_env_from$1;
+      return_value_SPF_request_set_env_from_1=SPF_request_set_env_from(sr, dom);
+      return (enum SPF_errcode_t)return_value_SPF_request_set_env_from_1;
     }
 
     return (enum SPF_errcode_t)SPF_E_SUCCESS;
@@ -10826,16 +10826,16 @@ enum SPF_errcode_t SPF_request_set_ipv4_str(struct SPF_request_struct *sr, const
   if(astr == ((const char *)NULL))
     astr = "0.0.0.0";
 
-  signed int return_value_inet_pton$1;
-  return_value_inet_pton$1=inet_pton(2, astr, (void *)&addr);
-  if(!(return_value_inet_pton$1 >= 1))
+  signed int return_value_inet_pton_1;
+  return_value_inet_pton_1=inet_pton(2, astr, (void *)&addr);
+  if(!(return_value_inet_pton_1 >= 1))
     return (enum SPF_errcode_t)SPF_E_INVALID_IP4;
 
   else
   {
-    enum SPF_errcode_t return_value_SPF_request_set_ipv4$2;
-    return_value_SPF_request_set_ipv4$2=SPF_request_set_ipv4(sr, addr);
-    return return_value_SPF_request_set_ipv4$2;
+    enum SPF_errcode_t return_value_SPF_request_set_ipv4_2;
+    return_value_SPF_request_set_ipv4_2=SPF_request_set_ipv4(sr, addr);
+    return return_value_SPF_request_set_ipv4_2;
   }
 }
 
@@ -10862,16 +10862,16 @@ enum SPF_errcode_t SPF_request_set_ipv6_str(struct SPF_request_struct *sr, const
   if(astr == ((const char *)NULL))
     astr = "::";
 
-  signed int return_value_inet_pton$1;
-  return_value_inet_pton$1=inet_pton(10, astr, (void *)&addr);
-  if(!(return_value_inet_pton$1 >= 1))
+  signed int return_value_inet_pton_1;
+  return_value_inet_pton_1=inet_pton(10, astr, (void *)&addr);
+  if(!(return_value_inet_pton_1 >= 1))
     return (enum SPF_errcode_t)SPF_E_INVALID_IP6;
 
   else
   {
-    enum SPF_errcode_t return_value_SPF_request_set_ipv6$2;
-    return_value_SPF_request_set_ipv6$2=SPF_request_set_ipv6(sr, addr);
-    return return_value_SPF_request_set_ipv6$2;
+    enum SPF_errcode_t return_value_SPF_request_set_ipv6_2;
+    return_value_SPF_request_set_ipv6_2=SPF_request_set_ipv6(sr, addr);
+    return return_value_SPF_request_set_ipv6_2;
   }
 }
 
@@ -10926,9 +10926,9 @@ static enum SPF_errcode_t SPF_response_add_error_v(struct SPF_response_struct *r
   if(rp->errors_length == rp->errors_size)
   {
     size = (signed int)rp->errors_size + (signed int)rp->errors_size / 4 + 4;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)rp->errors, (unsigned long int)size * sizeof(struct SPF_error_struct) /*24ul*/ );
-    tmp = (struct SPF_error_struct *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)rp->errors, (unsigned long int)size * sizeof(struct SPF_error_struct) /*24ul*/ );
+    tmp = (struct SPF_error_struct *)return_value_realloc_1;
     if(tmp == ((struct SPF_error_struct *)NULL))
     {
       SPF_errorx("spf_response.c", 211, "%s", (const void *)"Failed to allocate memory for extra response error");
@@ -10988,45 +10988,45 @@ static struct SPF_response_struct * SPF_response_choose(struct SPF_response_stru
 // file ../../src/include/spf_response.h line 198
 struct SPF_response_struct * SPF_response_combine(struct SPF_response_struct *main, struct SPF_response_struct *r2mx)
 {
-  enum SPF_result_enum return_value_SPF_response_result$1;
-  return_value_SPF_response_result$1=SPF_response_result(main);
-  struct SPF_response_struct *return_value_SPF_response_choose$2;
-  struct SPF_response_struct *return_value_SPF_response_choose$3;
-  enum SPF_result_enum return_value_SPF_response_result$4;
-  struct SPF_response_struct *return_value_SPF_response_choose$5;
-  struct SPF_response_struct *return_value_SPF_response_choose$6;
-  struct SPF_response_struct *return_value_SPF_response_choose$7;
-  enum SPF_result_enum return_value_SPF_response_result$8;
-  struct SPF_response_struct *return_value_SPF_response_choose$9;
-  struct SPF_response_struct *return_value_SPF_response_choose$10;
-  switch((signed int)return_value_SPF_response_result$1)
+  enum SPF_result_enum return_value_SPF_response_result_1;
+  return_value_SPF_response_result_1=SPF_response_result(main);
+  struct SPF_response_struct *return_value_SPF_response_choose_2;
+  struct SPF_response_struct *return_value_SPF_response_choose_3;
+  enum SPF_result_enum return_value_SPF_response_result_4;
+  struct SPF_response_struct *return_value_SPF_response_choose_5;
+  struct SPF_response_struct *return_value_SPF_response_choose_6;
+  struct SPF_response_struct *return_value_SPF_response_choose_7;
+  enum SPF_result_enum return_value_SPF_response_result_8;
+  struct SPF_response_struct *return_value_SPF_response_choose_9;
+  struct SPF_response_struct *return_value_SPF_response_choose_10;
+  switch((signed int)return_value_SPF_response_result_1)
   {
     case SPF_RESULT_INVALID:
     {
-      return_value_SPF_response_choose$2=SPF_response_choose(r2mx, main);
-      return return_value_SPF_response_choose$2;
+      return_value_SPF_response_choose_2=SPF_response_choose(r2mx, main);
+      return return_value_SPF_response_choose_2;
     }
     case SPF_RESULT_PASS:
     {
-      return_value_SPF_response_choose$3=SPF_response_choose(main, r2mx);
-      return return_value_SPF_response_choose$3;
+      return_value_SPF_response_choose_3=SPF_response_choose(main, r2mx);
+      return return_value_SPF_response_choose_3;
     }
     case SPF_RESULT_NEUTRAL:
     {
-      return_value_SPF_response_result$4=SPF_response_result(r2mx);
-      if((signed int)return_value_SPF_response_result$4 == SPF_RESULT_PASS)
+      return_value_SPF_response_result_4=SPF_response_result(r2mx);
+      if((signed int)return_value_SPF_response_result_4 == SPF_RESULT_PASS)
       {
-        return_value_SPF_response_choose$5=SPF_response_choose(r2mx, main);
-        return return_value_SPF_response_choose$5;
+        return_value_SPF_response_choose_5=SPF_response_choose(r2mx, main);
+        return return_value_SPF_response_choose_5;
       }
 
-      return_value_SPF_response_choose$6=SPF_response_choose(main, r2mx);
-      return return_value_SPF_response_choose$6;
+      return_value_SPF_response_choose_6=SPF_response_choose(main, r2mx);
+      return return_value_SPF_response_choose_6;
     }
     case SPF_RESULT_FAIL:
     {
-      return_value_SPF_response_choose$7=SPF_response_choose(r2mx, main);
-      return return_value_SPF_response_choose$7;
+      return_value_SPF_response_choose_7=SPF_response_choose(r2mx, main);
+      return return_value_SPF_response_choose_7;
     }
     case SPF_RESULT_TEMPERROR:
 
@@ -11036,15 +11036,15 @@ struct SPF_response_struct * SPF_response_combine(struct SPF_response_struct *ma
 
     default:
     {
-      return_value_SPF_response_result$8=SPF_response_result(r2mx);
-      if((signed int)return_value_SPF_response_result$8 == SPF_RESULT_NEUTRAL || (signed int)return_value_SPF_response_result$8 == SPF_RESULT_PASS || (signed int)return_value_SPF_response_result$8 == SPF_RESULT_SOFTFAIL)
+      return_value_SPF_response_result_8=SPF_response_result(r2mx);
+      if((signed int)return_value_SPF_response_result_8 == SPF_RESULT_NEUTRAL || (signed int)return_value_SPF_response_result_8 == SPF_RESULT_PASS || (signed int)return_value_SPF_response_result_8 == SPF_RESULT_SOFTFAIL)
       {
-        return_value_SPF_response_choose$9=SPF_response_choose(r2mx, main);
-        return return_value_SPF_response_choose$9;
+        return_value_SPF_response_choose_9=SPF_response_choose(r2mx, main);
+        return return_value_SPF_response_choose_9;
       }
 
-      return_value_SPF_response_choose$10=SPF_response_choose(main, r2mx);
-      return return_value_SPF_response_choose$10;
+      return_value_SPF_response_choose_10=SPF_response_choose(main, r2mx);
+      return return_value_SPF_response_choose_10;
     }
   }
 }
@@ -11145,9 +11145,9 @@ signed int SPF_response_messages(struct SPF_response_struct *rp)
 struct SPF_response_struct * SPF_response_new(struct SPF_request_struct *spf_request)
 {
   struct SPF_response_struct *rp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_response_struct) /*96ul*/ );
-  rp = (struct SPF_response_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_response_struct) /*96ul*/ );
+  rp = (struct SPF_response_struct *)return_value_malloc_1;
   if(rp == ((struct SPF_response_struct *)NULL))
     return rp;
 
@@ -11191,7 +11191,7 @@ char * SPF_sanitize(struct SPF_server_struct *spf_server, char *str)
       SPF_errorx("spf_utils.c", 58, "%s", (const void *)"spf_server is NULL");
 
   while((_Bool)0);
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(spf_server->sanitize == 0)
     return str;
 
@@ -11204,8 +11204,8 @@ char * SPF_sanitize(struct SPF_server_struct *spf_server, char *str)
       p = str;
       for( ; !((signed int)*p == 0); p = p + 1l)
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((16384 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((16384 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
           *p = (char)63;
 
       }
@@ -11244,9 +11244,9 @@ static enum SPF_errcode_t SPF_server_get_default_explanation(struct SPF_server_s
   struct SPF_macro_struct *spf_macro = spf_server->explanation;
   if(!(spf_macro == ((struct SPF_macro_struct *)NULL)))
   {
-    union SPF_data_union *return_value_SPF_macro_data$1;
-    return_value_SPF_macro_data$1=SPF_macro_data$link1(spf_macro);
-    err=SPF_record_expand_data(spf_server, spf_request, spf_response, return_value_SPF_macro_data$1, spf_macro->macro_len, bufp, buflenp);
+    union SPF_data_union *return_value_SPF_macro_data_1;
+    return_value_SPF_macro_data_1=SPF_macro_data_link1(spf_macro);
+    err=SPF_record_expand_data(spf_server, spf_request, spf_response, return_value_SPF_macro_data_1, spf_macro->macro_len, bufp, buflenp);
     return err;
   }
 
@@ -11256,9 +11256,9 @@ static enum SPF_errcode_t SPF_server_get_default_explanation(struct SPF_server_s
     if(!(*buflenp >= len))
     {
       char *tmp;
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)*bufp, len);
-      tmp = (char *)return_value_realloc$2;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)*bufp, len);
+      tmp = (char *)return_value_realloc_2;
       if(tmp == ((char *)NULL))
         return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -11341,13 +11341,13 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
   }
 
   rr_type = (enum __ns_type)ns_t_txt;
-  enum SPF_errcode_t return_value_SPF_response_add_error$1;
-  enum SPF_errcode_t return_value_SPF_i_done$2;
-  enum SPF_errcode_t return_value_SPF_response_add_error$3;
-  enum SPF_errcode_t return_value_SPF_i_done$4;
-  enum SPF_errcode_t return_value_SPF_response_add_error$5;
-  enum SPF_errcode_t return_value_SPF_response_add_error$6;
-  enum SPF_errcode_t return_value_SPF_response_add_error$7;
+  enum SPF_errcode_t return_value_SPF_response_add_error_1;
+  enum SPF_errcode_t return_value_SPF_i_done_2;
+  enum SPF_errcode_t return_value_SPF_response_add_error_3;
+  enum SPF_errcode_t return_value_SPF_i_done_4;
+  enum SPF_errcode_t return_value_SPF_response_add_error_5;
+  enum SPF_errcode_t return_value_SPF_response_add_error_6;
+  enum SPF_errcode_t return_value_SPF_response_add_error_7;
   do
   {
 
@@ -11370,9 +11370,9 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
 
         spf_response->result = (enum SPF_result_enum)SPF_RESULT_NONE;
         spf_response->reason = (enum SPF_reason_enum)SPF_REASON_FAILURE;
-        return_value_SPF_response_add_error$1=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "Host '%s' not found.", domain);
-        return_value_SPF_i_done$2=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NONE, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error$1);
-        return return_value_SPF_i_done$2;
+        return_value_SPF_response_add_error_1=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "Host '%s' not found.", domain);
+        return_value_SPF_i_done_2=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NONE, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error_1);
+        return return_value_SPF_i_done_2;
       }
       case 4:
       {
@@ -11388,9 +11388,9 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
 
         spf_response->result = (enum SPF_result_enum)SPF_RESULT_NONE;
         spf_response->reason = (enum SPF_reason_enum)SPF_REASON_FAILURE;
-        return_value_SPF_response_add_error$3=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "No DNS data for '%s'.", domain);
-        return_value_SPF_i_done$4=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NONE, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error$3);
-        return return_value_SPF_i_done$4;
+        return_value_SPF_response_add_error_3=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "No DNS data for '%s'.", domain);
+        return_value_SPF_i_done_4=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NONE, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error_3);
+        return return_value_SPF_i_done_4;
       }
       case 2:
       {
@@ -11398,8 +11398,8 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
           SPF_debugx("spf_server.c", 386, "get_record(%s): TRY_AGAIN", domain);
 
         SPF_dns_rr_free(rr_txt);
-        return_value_SPF_response_add_error$5=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_DNS_ERROR, "Temporary DNS failure for '%s'.", domain);
-        return return_value_SPF_response_add_error$5;
+        return_value_SPF_response_add_error_5=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_DNS_ERROR, "Temporary DNS failure for '%s'.", domain);
+        return return_value_SPF_response_add_error_5;
       }
       case 3:
       {
@@ -11407,8 +11407,8 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
           SPF_debugx("spf_server.c", 394, "get_record(%s): NO_RECOERY", domain);
 
         SPF_dns_rr_free(rr_txt);
-        return_value_SPF_response_add_error$6=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_DNS_ERROR, "Unrecoverable DNS failure for '%s'.", domain);
-        return return_value_SPF_response_add_error$6;
+        return_value_SPF_response_add_error_6=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_DNS_ERROR, "Unrecoverable DNS failure for '%s'.", domain);
+        return return_value_SPF_response_add_error_6;
       }
       case 0:
       {
@@ -11424,8 +11424,8 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
 
         herrno = rr_txt->herrno;
         SPF_dns_rr_free(rr_txt);
-        return_value_SPF_response_add_error$7=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_DNS_ERROR, "Unknown DNS failure for '%s': %d.", domain, herrno);
-        return return_value_SPF_response_add_error$7;
+        return_value_SPF_response_add_error_7=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_DNS_ERROR, "Unknown DNS failure for '%s': %d.", domain, herrno);
+        return return_value_SPF_response_add_error_7;
       }
     }
     if(rr_txt->num_rr == 0)
@@ -11437,9 +11437,9 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
         goto retry;
       }
 
-      enum SPF_errcode_t return_value_SPF_response_add_error$8;
-      return_value_SPF_response_add_error$8=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "No TXT records returned from DNS lookup for '%s'", domain);
-      return return_value_SPF_response_add_error$8;
+      enum SPF_errcode_t return_value_SPF_response_add_error_8;
+      return_value_SPF_response_add_error_8=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "No TXT records returned from DNS lookup for '%s'", domain);
+      return return_value_SPF_response_add_error_8;
     }
 
     idx_found = 0;
@@ -11447,9 +11447,9 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
     i = 0;
     for( ; !(i >= rr_txt->num_rr); i = i + 1)
     {
-      signed int return_value_strncasecmp$9;
-      return_value_strncasecmp$9=strncasecmp(rr_txt->rr[(signed long int)i]->txt, "v=spf1", sizeof(char [7l]) /*7ul*/  - (unsigned long int)1);
-      if(return_value_strncasecmp$9 == 0)
+      signed int return_value_strncasecmp_9;
+      return_value_strncasecmp_9=strncasecmp(rr_txt->rr[(signed long int)i]->txt, "v=spf1", sizeof(char [7l]) /*7ul*/  - (unsigned long int)1);
+      if(return_value_strncasecmp_9 == 0)
       {
         char e = rr_txt->rr[(signed long int)i]->txt[(signed long int)(sizeof(char [7l]) /*7ul*/  - (unsigned long int)1)];
         if((signed int)e == 0 || (signed int)e == 32)
@@ -11476,11 +11476,11 @@ enum SPF_errcode_t SPF_server_get_record(struct SPF_server_struct *spf_server, s
   while((_Bool)1);
   spf_response->result = (enum SPF_result_enum)SPF_RESULT_NONE;
   spf_response->reason = (enum SPF_reason_enum)SPF_REASON_FAILURE;
-  enum SPF_errcode_t return_value_SPF_response_add_error$10;
-  return_value_SPF_response_add_error$10=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "No SPF records for '%s'", domain);
-  enum SPF_errcode_t return_value_SPF_i_done$11;
-  return_value_SPF_i_done$11=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NONE, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error$10);
-  return return_value_SPF_i_done$11;
+  enum SPF_errcode_t return_value_SPF_response_add_error_10;
+  return_value_SPF_response_add_error_10=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "No SPF records for '%s'", domain);
+  enum SPF_errcode_t return_value_SPF_i_done_11;
+  return_value_SPF_i_done_11=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_NONE, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error_10);
+  return return_value_SPF_i_done_11;
 
 __CPROVER_DUMP_L36:
   ;
@@ -11489,20 +11489,20 @@ __CPROVER_DUMP_L36:
     SPF_dns_rr_free(rr_txt);
     spf_response->result = (enum SPF_result_enum)SPF_RESULT_PERMERROR;
     spf_response->reason = (enum SPF_reason_enum)SPF_REASON_FAILURE;
-    enum SPF_errcode_t return_value_SPF_response_add_error$12;
-    return_value_SPF_response_add_error$12=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_MULTIPLE_RECORDS, "Multiple SPF records for '%s'", domain);
-    enum SPF_errcode_t return_value_SPF_i_done$13;
-    return_value_SPF_i_done$13=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error$12);
-    return return_value_SPF_i_done$13;
+    enum SPF_errcode_t return_value_SPF_response_add_error_12;
+    return_value_SPF_response_add_error_12=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_MULTIPLE_RECORDS, "Multiple SPF records for '%s'", domain);
+    enum SPF_errcode_t return_value_SPF_i_done_13;
+    return_value_SPF_i_done_13=SPF_i_done(spf_response, (enum SPF_result_enum)SPF_RESULT_PERMERROR, (enum SPF_reason_enum)SPF_REASON_FAILURE, return_value_SPF_response_add_error_12);
+    return return_value_SPF_i_done_13;
   }
 
   err=SPF_record_compile(spf_server, spf_response, spf_recordp, rr_txt->rr[(signed long int)idx_found]->txt);
   SPF_dns_rr_free(rr_txt);
-  enum SPF_errcode_t return_value_SPF_response_add_error$14;
+  enum SPF_errcode_t return_value_SPF_response_add_error_14;
   if(!((signed int)err == SPF_E_SUCCESS))
   {
-    return_value_SPF_response_add_error$14=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "Failed to compile SPF record for '%s'", domain);
-    return return_value_SPF_response_add_error$14;
+    return_value_SPF_response_add_error_14=SPF_response_add_error(spf_response, (enum SPF_errcode_t)SPF_E_NOT_SPF, "Failed to compile SPF record for '%s'", domain);
+    return return_value_SPF_response_add_error_14;
   }
 
   return (enum SPF_errcode_t)SPF_E_SUCCESS;
@@ -11516,9 +11516,9 @@ struct SPF_server_struct * SPF_server_new(enum SPF_server_dnstype_enum dnstype, 
   struct SPF_dns_server_struct *dc_c;
   struct SPF_dns_server_struct *dc_z;
   struct SPF_server_struct *sp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_server_struct) /*56ul*/ );
-  sp = (struct SPF_server_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_server_struct) /*56ul*/ );
+  sp = (struct SPF_server_struct *)return_value_malloc_1;
   if(sp == ((struct SPF_server_struct *)NULL))
     return sp;
 
@@ -11580,9 +11580,9 @@ static void SPF_server_new_common_post(struct SPF_server_struct *sp)
 
   if(!(spf_response == ((struct SPF_response_struct *)NULL)))
   {
-    signed int return_value_SPF_response_messages$1;
-    return_value_SPF_response_messages$1=SPF_response_messages(spf_response);
-    if(return_value_SPF_response_messages$1 >= 1)
+    signed int return_value_SPF_response_messages_1;
+    return_value_SPF_response_messages_1=SPF_response_messages(spf_response);
+    if(return_value_SPF_response_messages_1 >= 1)
       SPF_errorx("spf_server.c", 115, "%s", (const void *)"Response errors compiling default explanation");
 
     SPF_response_free(spf_response);
@@ -11595,9 +11595,9 @@ static void SPF_server_new_common_post(struct SPF_server_struct *sp)
 
   if(!(spf_response == ((struct SPF_response_struct *)NULL)))
   {
-    signed int return_value_SPF_response_messages$2;
-    return_value_SPF_response_messages$2=SPF_response_messages(spf_response);
-    if(return_value_SPF_response_messages$2 >= 1)
+    signed int return_value_SPF_response_messages_2;
+    return_value_SPF_response_messages_2=SPF_response_messages(spf_response);
+    if(return_value_SPF_response_messages_2 >= 1)
       SPF_errorx("spf_server.c", 126, "%s", (const void *)"Response errors compiling default whitelist");
 
     SPF_response_free(spf_response);
@@ -11626,9 +11626,9 @@ static void SPF_server_new_common_pre(struct SPF_server_struct *sp, signed int d
 struct SPF_server_struct * SPF_server_new_dns(struct SPF_dns_server_struct *dns, signed int debug)
 {
   struct SPF_server_struct *sp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SPF_server_struct) /*56ul*/ );
-  sp = (struct SPF_server_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SPF_server_struct) /*56ul*/ );
+  sp = (struct SPF_server_struct *)return_value_malloc_1;
   if(sp == ((struct SPF_server_struct *)NULL))
     return sp;
 
@@ -11714,15 +11714,15 @@ enum SPF_errcode_t SPF_server_set_localpolicy(struct SPF_server_struct *sp, cons
 
   __CPROVER_DUMP_L3:
     ;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(policy);
-    len = sizeof(char [7l]) /*7ul*/  + return_value_strlen$1 + (unsigned long int)20;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(policy);
+    len = sizeof(char [7l]) /*7ul*/  + return_value_strlen_1 + (unsigned long int)20;
     if(!(use_default_whitelist == 0))
       len = len + sizeof(char [34l]) /*34ul*/ ;
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(len);
-    record = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(len);
+    record = (char *)return_value_malloc_2;
     if(record == ((char *)NULL))
       return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
@@ -11786,11 +11786,11 @@ enum SPF_errcode_t SPF_server_set_rec_dom(struct SPF_server_struct *sp, const ch
   if(!(sp->rec_dom == ((char *)NULL)))
     free((void *)sp->rec_dom);
 
-  enum SPF_errcode_t return_value_SPF_server_set_rec_dom_ghbn$1;
+  enum SPF_errcode_t return_value_SPF_server_set_rec_dom_ghbn_1;
   if(dom == ((const char *)NULL))
   {
-    return_value_SPF_server_set_rec_dom_ghbn$1=SPF_server_set_rec_dom_ghbn(sp);
-    return return_value_SPF_server_set_rec_dom_ghbn$1;
+    return_value_SPF_server_set_rec_dom_ghbn_1=SPF_server_set_rec_dom_ghbn(sp);
+    return return_value_SPF_server_set_rec_dom_ghbn_1;
   }
 
   sp->rec_dom=strdup(dom);
@@ -11805,17 +11805,17 @@ enum SPF_errcode_t SPF_server_set_rec_dom(struct SPF_server_struct *sp, const ch
 // file spf_server.c line 68
 static enum SPF_errcode_t SPF_server_set_rec_dom_ghbn(struct SPF_server_struct *sp)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)64);
-  sp->rec_dom = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)64);
+  sp->rec_dom = (char *)return_value_malloc_1;
   if(sp->rec_dom == ((char *)NULL))
     return (enum SPF_errcode_t)SPF_E_NO_MEMORY;
 
   else
   {
-    signed int return_value_gethostname$2;
-    return_value_gethostname$2=gethostname(sp->rec_dom, (unsigned long int)64);
-    if(!(return_value_gethostname$2 >= 0))
+    signed int return_value_gethostname_2;
+    return_value_gethostname_2=gethostname(sp->rec_dom, (unsigned long int)64);
+    if(!(return_value_gethostname_2 >= 0))
       return (enum SPF_errcode_t)SPF_E_INTERNAL_ERROR;
 
     else
@@ -11988,16 +11988,16 @@ const char * SPF_strrrtype(enum __ns_type rr_type)
 
 // SPF_voidp2spfhook
 // file spf_dns_cache.c line 113
-static inline struct anonymous$1 * SPF_voidp2spfhook(void *hook)
+static inline struct anonymous_1 * SPF_voidp2spfhook(void *hook)
 {
-  return (struct anonymous$1 *)hook;
+  return (struct anonymous_1 *)hook;
 }
 
-// SPF_voidp2spfhook$link1
+// SPF_voidp2spfhook_link1
 // file spf_dns_zone.c line 83
-static inline struct anonymous$9 * SPF_voidp2spfhook$link1(void *hook$link1)
+static inline struct anonymous_9 * SPF_voidp2spfhook_link1(void *hook_link1)
 {
-  return (struct anonymous$9 *)hook$link1;
+  return (struct anonymous_9 *)hook_link1;
 }
 
 // SPF_warning_stdio
@@ -12105,24 +12105,24 @@ signed int __ns_initparse(const unsigned char *msg, signed int msglen, struct __
   handle->_eom = eom;
   if(!(eom >= msg + 2l))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 90;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 90;
     return -1;
   }
 
   do
   {
-    const unsigned char *__ns_initparse$$1$$2$$t_cp = (const unsigned char *)msg;
-    handle->_id = (unsigned short int)((signed int)(unsigned short int)__ns_initparse$$1$$2$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_initparse$$1$$2$$t_cp[(signed long int)1]);
+    const unsigned char *__ns_initparse__1__2__t_cp = (const unsigned char *)msg;
+    handle->_id = (unsigned short int)((signed int)(unsigned short int)__ns_initparse__1__2__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_initparse__1__2__t_cp[(signed long int)1]);
     msg = msg + (signed long int)2;
   }
   while((_Bool)0);
   if(!(eom >= msg + 2l))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 90;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 90;
     return -1;
   }
 
@@ -12138,16 +12138,16 @@ signed int __ns_initparse(const unsigned char *msg, signed int msglen, struct __
   {
     if(!(eom >= msg + 2l))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 90;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 90;
       return -1;
     }
 
     do
     {
-      const unsigned char *__ns_initparse$$1$$5$$1$$2$$t_cp = (const unsigned char *)msg;
-      handle->_counts[(signed long int)i] = (unsigned short int)((signed int)(unsigned short int)__ns_initparse$$1$$5$$1$$2$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_initparse$$1$$5$$1$$2$$t_cp[(signed long int)1]);
+      const unsigned char *__ns_initparse__1__5__1__2__t_cp = (const unsigned char *)msg;
+      handle->_counts[(signed long int)i] = (unsigned short int)((signed int)(unsigned short int)__ns_initparse__1__5__1__2__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_initparse__1__5__1__2__t_cp[(signed long int)1]);
       msg = msg + (signed long int)2;
     }
     while((_Bool)0);
@@ -12169,9 +12169,9 @@ signed int __ns_initparse(const unsigned char *msg, signed int msglen, struct __
     }
   if(!(msg == eom))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 90;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 90;
     return -1;
   }
 
@@ -12191,16 +12191,16 @@ signed int __ns_msg_getflag(struct __ns_msg handle, signed int flag)
 signed int __ns_name_compress(const char *src, unsigned char *dst, unsigned long int dstsiz, const unsigned char **dnptrs, const unsigned char **lastdnptr)
 {
   unsigned char tmp[255l];
-  signed int return_value___ns_name_pton$1;
-  return_value___ns_name_pton$1=__ns_name_pton(src, tmp, sizeof(unsigned char [255l]) /*255ul*/ );
-  if(return_value___ns_name_pton$1 == -1)
+  signed int return_value___ns_name_pton_1;
+  return_value___ns_name_pton_1=__ns_name_pton(src, tmp, sizeof(unsigned char [255l]) /*255ul*/ );
+  if(return_value___ns_name_pton_1 == -1)
     return -1;
 
   else
   {
-    signed int return_value___ns_name_pack$2;
-    return_value___ns_name_pack$2=__ns_name_pack(tmp, dst, (signed int)dstsiz, dnptrs, lastdnptr);
-    return return_value___ns_name_pack$2;
+    signed int return_value___ns_name_pack_2;
+    return_value___ns_name_pack_2=__ns_name_pack(tmp, dst, (signed int)dstsiz, dnptrs, lastdnptr);
+    return return_value___ns_name_pack_2;
   }
 }
 
@@ -12219,78 +12219,78 @@ signed int __ns_name_ntol(const unsigned char *src, unsigned char *dst, unsigned
   eom = dst + (signed long int)dstsiz;
   if(dn >= eom)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 90;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 90;
     return -1;
   }
 
-  const unsigned char *tmp_post$2;
-  signed int return_value_tolower$9;
+  const unsigned char *tmp_post_2;
+  signed int return_value_tolower_9;
   do
   {
-    tmp_post$2 = cp;
+    tmp_post_2 = cp;
     cp = cp + 1l;
-    n = (unsigned int)*tmp_post$2;
+    n = (unsigned int)*tmp_post_2;
     if(n == 0u)
       break;
 
     if((192u & n) == 192u)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 90;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 90;
       return -1;
     }
 
-    unsigned char *tmp_post$4 = dn;
+    unsigned char *tmp_post_4 = dn;
     dn = dn + 1l;
-    *tmp_post$4 = (unsigned char)n;
+    *tmp_post_4 = (unsigned char)n;
     l=labellen(cp - (signed long int)1);
     if(!(l >= 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 90;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 90;
       return -1;
     }
 
     if(dn + (signed long int)l >= eom)
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = 90;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = 90;
       return -1;
     }
 
     (void)(void *)0;
     for( ; l >= 1; l = l - 1)
     {
-      const unsigned char *tmp_post$7 = cp;
+      const unsigned char *tmp_post_7 = cp;
       cp = cp + 1l;
-      c = *tmp_post$7;
-      const unsigned short int **return_value___ctype_b_loc$11;
-      return_value___ctype_b_loc$11=__ctype_b_loc();
-      if(!((256 & (signed int)(*return_value___ctype_b_loc$11)[(signed long int)(signed int)c]) == 0))
+      c = *tmp_post_7;
+      const unsigned short int **return_value___ctype_b_loc_11;
+      return_value___ctype_b_loc_11=__ctype_b_loc();
+      if(!((256 & (signed int)(*return_value___ctype_b_loc_11)[(signed long int)(signed int)c]) == 0))
       {
-        unsigned char *tmp_post$8 = dn;
+        unsigned char *tmp_post_8 = dn;
         dn = dn + 1l;
-        return_value_tolower$9=tolower((signed int)c);
-        *tmp_post$8 = (unsigned char)return_value_tolower$9;
+        return_value_tolower_9=tolower((signed int)c);
+        *tmp_post_8 = (unsigned char)return_value_tolower_9;
       }
 
       else
       {
-        unsigned char *tmp_post$10 = dn;
+        unsigned char *tmp_post_10 = dn;
         dn = dn + 1l;
-        *tmp_post$10 = c;
+        *tmp_post_10 = c;
       }
     }
   }
   while((_Bool)1);
-  unsigned char *tmp_post$12 = dn;
+  unsigned char *tmp_post_12 = dn;
   dn = dn + 1l;
-  *tmp_post$12 = (unsigned char)0;
+  *tmp_post_12 = (unsigned char)0;
   return (signed int)(dn - dst);
 }
 
@@ -12307,21 +12307,21 @@ signed int __ns_name_ntop(const unsigned char *src, char *dst, unsigned long int
   cp = src;
   dn = dst;
   eom = dst + (signed long int)dstsiz;
-  const unsigned char *tmp_post$1;
-  signed int return_value_printable$20;
+  const unsigned char *tmp_post_1;
+  signed int return_value_printable_20;
   do
   {
-    tmp_post$1 = cp;
+    tmp_post_1 = cp;
     cp = cp + 1l;
-    n = (unsigned int)*tmp_post$1;
+    n = (unsigned int)*tmp_post_1;
     if(n == 0u)
       break;
 
     if((192u & n) == 192u)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 90;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 90;
       return -1;
     }
 
@@ -12329,31 +12329,31 @@ signed int __ns_name_ntop(const unsigned char *src, char *dst, unsigned long int
     {
       if(dn >= eom)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 90;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 90;
         return -1;
       }
 
-      char *tmp_post$4 = dn;
+      char *tmp_post_4 = dn;
       dn = dn + 1l;
-      *tmp_post$4 = (char)46;
+      *tmp_post_4 = (char)46;
     }
 
     l=labellen(cp - (signed long int)1);
     if(!(l >= 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 90;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 90;
       return -1;
     }
 
     if(dn + (signed long int)l >= eom)
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = 90;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = 90;
       return -1;
     }
 
@@ -12362,18 +12362,18 @@ signed int __ns_name_ntop(const unsigned char *src, char *dst, unsigned long int
       signed int m;
       if(!(n == 65u))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = 22;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = 22;
         return -1;
       }
 
       m=decode_bitstring((const char **)&cp, dn, eom);
       if(!(m >= 0))
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        *return_value___errno_location$8 = 90;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        *return_value___errno_location_8 = 90;
         return -1;
       }
 
@@ -12384,69 +12384,69 @@ signed int __ns_name_ntop(const unsigned char *src, char *dst, unsigned long int
     (void)(void *)0;
     for( ; l >= 1; l = l - 1)
     {
-      const unsigned char *tmp_post$9 = cp;
+      const unsigned char *tmp_post_9 = cp;
       cp = cp + 1l;
-      c = *tmp_post$9;
-      signed int return_value_special$21;
-      return_value_special$21=special((signed int)c);
-      if(!(return_value_special$21 == 0))
+      c = *tmp_post_9;
+      signed int return_value_special_21;
+      return_value_special_21=special((signed int)c);
+      if(!(return_value_special_21 == 0))
       {
         if(dn + 1l >= eom)
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          *return_value___errno_location$10 = 90;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          *return_value___errno_location_10 = 90;
           return -1;
         }
 
-        char *tmp_post$11 = dn;
+        char *tmp_post_11 = dn;
         dn = dn + 1l;
-        *tmp_post$11 = (char)92;
-        char *tmp_post$12 = dn;
+        *tmp_post_11 = (char)92;
+        char *tmp_post_12 = dn;
         dn = dn + 1l;
-        *tmp_post$12 = (char)c;
+        *tmp_post_12 = (char)c;
       }
 
       else
       {
-        return_value_printable$20=printable((signed int)c);
-        if(return_value_printable$20 == 0)
+        return_value_printable_20=printable((signed int)c);
+        if(return_value_printable_20 == 0)
         {
           if(dn + 3l >= eom)
           {
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            *return_value___errno_location$13 = 90;
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            *return_value___errno_location_13 = 90;
             return -1;
           }
 
-          char *tmp_post$14 = dn;
+          char *tmp_post_14 = dn;
           dn = dn + 1l;
-          *tmp_post$14 = (char)92;
-          char *tmp_post$15 = dn;
+          *tmp_post_14 = (char)92;
+          char *tmp_post_15 = dn;
           dn = dn + 1l;
-          *tmp_post$15 = digits[(signed long int)((signed int)c / 100)];
-          char *tmp_post$16 = dn;
+          *tmp_post_15 = digits[(signed long int)((signed int)c / 100)];
+          char *tmp_post_16 = dn;
           dn = dn + 1l;
-          *tmp_post$16 = digits[(signed long int)(((signed int)c % 100) / 10)];
-          char *tmp_post$17 = dn;
+          *tmp_post_16 = digits[(signed long int)(((signed int)c % 100) / 10)];
+          char *tmp_post_17 = dn;
           dn = dn + 1l;
-          *tmp_post$17 = digits[(signed long int)((signed int)c % 10)];
+          *tmp_post_17 = digits[(signed long int)((signed int)c % 10)];
         }
 
         else
         {
           if(dn >= eom)
           {
-            signed int *return_value___errno_location$18;
-            return_value___errno_location$18=__errno_location();
-            *return_value___errno_location$18 = 90;
+            signed int *return_value___errno_location_18;
+            return_value___errno_location_18=__errno_location();
+            *return_value___errno_location_18 = 90;
             return -1;
           }
 
-          char *tmp_post$19 = dn;
+          char *tmp_post_19 = dn;
           dn = dn + 1l;
-          *tmp_post$19 = (char)c;
+          *tmp_post_19 = (char)c;
         }
       }
     }
@@ -12456,28 +12456,28 @@ signed int __ns_name_ntop(const unsigned char *src, char *dst, unsigned long int
   {
     if(dn >= eom)
     {
-      signed int *return_value___errno_location$22;
-      return_value___errno_location$22=__errno_location();
-      *return_value___errno_location$22 = 90;
+      signed int *return_value___errno_location_22;
+      return_value___errno_location_22=__errno_location();
+      *return_value___errno_location_22 = 90;
       return -1;
     }
 
-    char *tmp_post$23 = dn;
+    char *tmp_post_23 = dn;
     dn = dn + 1l;
-    *tmp_post$23 = (char)46;
+    *tmp_post_23 = (char)46;
   }
 
   if(dn >= eom)
   {
-    signed int *return_value___errno_location$24;
-    return_value___errno_location$24=__errno_location();
-    *return_value___errno_location$24 = 90;
+    signed int *return_value___errno_location_24;
+    return_value___errno_location_24=__errno_location();
+    *return_value___errno_location_24 = 90;
     return -1;
   }
 
-  char *tmp_post$25 = dn;
+  char *tmp_post_25 = dn;
   dn = dn + 1l;
-  *tmp_post$25 = (char)0;
+  *tmp_post_25 = (char)0;
   return (signed int)(dn - dst);
 }
 
@@ -12501,9 +12501,9 @@ signed int __ns_name_pack(const unsigned char *src, unsigned char *dst, signed i
   lpp = cpp;
   if(!(dnptrs == ((const unsigned char **)NULL)))
   {
-    const unsigned char **tmp_post$1 = dnptrs;
+    const unsigned char **tmp_post_1 = dnptrs;
     dnptrs = dnptrs + 1l;
-    msg = *tmp_post$1;
+    msg = *tmp_post_1;
     if(!(msg == ((const unsigned char *)NULL)))
     {
       cpp = dnptrs;
@@ -12523,27 +12523,27 @@ signed int __ns_name_pack(const unsigned char *src, unsigned char *dst, signed i
     n = (signed int)*srcp;
     if((0xc0 & n) == 0xc0)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 90;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 90;
       return -1;
     }
 
     l0=labellen(srcp);
     if(!(l0 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 22;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 22;
       return -1;
     }
 
     l = l + l0 + 1;
     if(l >= 256)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 90;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 90;
       return -1;
     }
 
@@ -12562,20 +12562,20 @@ signed int __ns_name_pack(const unsigned char *src, unsigned char *dst, signed i
         if(dstp + 1l >= eob)
           goto cleanup;
 
-        unsigned char *tmp_post$5 = dstp;
+        unsigned char *tmp_post_5 = dstp;
         dstp = dstp + 1l;
-        *tmp_post$5 = (unsigned char)(l >> 8 | 0xc0);
-        unsigned char *tmp_post$6 = dstp;
+        *tmp_post_5 = (unsigned char)(l >> 8 | 0xc0);
+        unsigned char *tmp_post_6 = dstp;
         dstp = dstp + 1l;
-        *tmp_post$6 = (unsigned char)(l % 256);
+        *tmp_post_6 = (unsigned char)(l % 256);
         return (signed int)(dstp - dst);
       }
 
       if(!(lastdnptr == ((const unsigned char **)NULL)) && !(first == 0) && !(dstp - msg >= 16384l) && !(cpp >= lastdnptr + -1l))
       {
-        const unsigned char **tmp_post$7 = cpp;
+        const unsigned char **tmp_post_7 = cpp;
         cpp = cpp + 1l;
-        *tmp_post$7 = dstp;
+        *tmp_post_7 = dstp;
         *cpp = (const unsigned char *)(void *)0;
         first = 0;
       }
@@ -12602,9 +12602,9 @@ signed int __ns_name_pack(const unsigned char *src, unsigned char *dst, signed i
     if(!(msg == ((const unsigned char *)NULL)))
       *lpp = (const unsigned char *)(void *)0;
 
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    *return_value___errno_location$8 = 90;
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    *return_value___errno_location_8 = 90;
     return -1;
   }
 
@@ -12626,15 +12626,15 @@ signed int __ns_name_pton(const char *src, unsigned char *dst, unsigned long int
   escaped = 0;
   bp = dst;
   eom = dst + (signed long int)dstsiz;
-  unsigned char *tmp_post$1 = bp;
+  unsigned char *tmp_post_1 = bp;
   bp = bp + 1l;
-  label = tmp_post$1;
-  const char *tmp_post$2;
+  label = tmp_post_1;
+  const char *tmp_post_2;
   do
   {
-    tmp_post$2 = src;
+    tmp_post_2 = src;
     src = src + 1l;
-    c = (signed int)*tmp_post$2;
+    c = (signed int)*tmp_post_2;
     if(c == 0)
       break;
 
@@ -12645,37 +12645,37 @@ signed int __ns_name_pton(const char *src, unsigned char *dst, unsigned long int
         cp=strchr(src, 93);
         if(cp == ((char *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 22;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 22;
           return -1;
         }
 
         e=encode_bitsring(&src, cp + (signed long int)2, (char **)&label, (char **)&bp, (const char *)eom);
         if(!(e == 0))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = e;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = e;
           return -1;
         }
 
         escaped = 0;
-        unsigned char *tmp_post$5 = bp;
+        unsigned char *tmp_post_5 = bp;
         bp = bp + 1l;
-        label = tmp_post$5;
-        const char *tmp_post$7 = src;
+        label = tmp_post_5;
+        const char *tmp_post_7 = src;
         src = src + 1l;
-        c = (signed int)*tmp_post$7;
+        c = (signed int)*tmp_post_7;
         if(c == 0)
           goto done;
 
         else
           if(!(c == 46))
           {
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            *return_value___errno_location$6 = 22;
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            *return_value___errno_location_6 = 22;
             return -1;
           }
 
@@ -12688,53 +12688,53 @@ signed int __ns_name_pton(const char *src, unsigned char *dst, unsigned long int
         if(!(cp == ((char *)NULL)))
         {
           n = (signed int)((cp - digits) * (signed long int)100);
-          const char *tmp_post$9 = src;
+          const char *tmp_post_9 = src;
           src = src + 1l;
-          c = (signed int)*tmp_post$9;
-          _Bool tmp_if_expr$10;
+          c = (signed int)*tmp_post_9;
+          _Bool tmp_if_expr_10;
           if(c == 0)
-            tmp_if_expr$10 = (_Bool)1;
+            tmp_if_expr_10 = (_Bool)1;
 
           else
           {
             cp=strchr(digits, c);
-            tmp_if_expr$10 = cp == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_10 = cp == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$10)
+          if(tmp_if_expr_10)
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            *return_value___errno_location$8 = 90;
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            *return_value___errno_location_8 = 90;
             return -1;
           }
 
           n = n + (signed int)((cp - digits) * (signed long int)10);
-          const char *tmp_post$12 = src;
+          const char *tmp_post_12 = src;
           src = src + 1l;
-          c = (signed int)*tmp_post$12;
-          _Bool tmp_if_expr$13;
+          c = (signed int)*tmp_post_12;
+          _Bool tmp_if_expr_13;
           if(c == 0)
-            tmp_if_expr$13 = (_Bool)1;
+            tmp_if_expr_13 = (_Bool)1;
 
           else
           {
             cp=strchr(digits, c);
-            tmp_if_expr$13 = cp == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_13 = cp == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$13)
+          if(tmp_if_expr_13)
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            *return_value___errno_location$11 = 90;
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            *return_value___errno_location_11 = 90;
             return -1;
           }
 
           n = n + (signed int)(cp - digits);
           if(n >= 256)
           {
-            signed int *return_value___errno_location$14;
-            return_value___errno_location$14=__errno_location();
-            *return_value___errno_location$14 = 90;
+            signed int *return_value___errno_location_14;
+            return_value___errno_location_14=__errno_location();
+            *return_value___errno_location_14 = 90;
             return -1;
           }
 
@@ -12758,17 +12758,17 @@ signed int __ns_name_pton(const char *src, unsigned char *dst, unsigned long int
           c = (signed int)((bp - label) - (signed long int)1);
           if(!((0xc0 & c) == 0))
           {
-            signed int *return_value___errno_location$15;
-            return_value___errno_location$15=__errno_location();
-            *return_value___errno_location$15 = 90;
+            signed int *return_value___errno_location_15;
+            return_value___errno_location_15=__errno_location();
+            *return_value___errno_location_15 = 90;
             return -1;
           }
 
           if(label >= eom)
           {
-            signed int *return_value___errno_location$16;
-            return_value___errno_location$16=__errno_location();
-            *return_value___errno_location$16 = 90;
+            signed int *return_value___errno_location_16;
+            return_value___errno_location_16=__errno_location();
+            *return_value___errno_location_16 = 90;
             return -1;
           }
 
@@ -12779,67 +12779,67 @@ signed int __ns_name_pton(const char *src, unsigned char *dst, unsigned long int
             {
               if(bp >= eom)
               {
-                signed int *return_value___errno_location$17;
-                return_value___errno_location$17=__errno_location();
-                *return_value___errno_location$17 = 90;
+                signed int *return_value___errno_location_17;
+                return_value___errno_location_17=__errno_location();
+                *return_value___errno_location_17 = 90;
                 return -1;
               }
 
-              unsigned char *tmp_post$18 = bp;
+              unsigned char *tmp_post_18 = bp;
               bp = bp + 1l;
-              *tmp_post$18 = (unsigned char)0;
+              *tmp_post_18 = (unsigned char)0;
             }
 
             if(bp - dst >= 256l)
             {
-              signed int *return_value___errno_location$19;
-              return_value___errno_location$19=__errno_location();
-              *return_value___errno_location$19 = 90;
+              signed int *return_value___errno_location_19;
+              return_value___errno_location_19=__errno_location();
+              *return_value___errno_location_19 = 90;
               return -1;
             }
 
             return 1;
           }
 
-          _Bool tmp_if_expr$21;
+          _Bool tmp_if_expr_21;
           if(c == 0)
-            tmp_if_expr$21 = (_Bool)1;
+            tmp_if_expr_21 = (_Bool)1;
 
           else
-            tmp_if_expr$21 = (signed int)*src == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$21)
+            tmp_if_expr_21 = (signed int)*src == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_21)
           {
-            signed int *return_value___errno_location$20;
-            return_value___errno_location$20=__errno_location();
-            *return_value___errno_location$20 = 90;
+            signed int *return_value___errno_location_20;
+            return_value___errno_location_20=__errno_location();
+            *return_value___errno_location_20 = 90;
             return -1;
           }
 
-          unsigned char *tmp_post$22 = bp;
+          unsigned char *tmp_post_22 = bp;
           bp = bp + 1l;
-          label = tmp_post$22;
+          label = tmp_post_22;
           continue;
         }
 
     if(bp >= eom)
     {
-      signed int *return_value___errno_location$23;
-      return_value___errno_location$23=__errno_location();
-      *return_value___errno_location$23 = 90;
+      signed int *return_value___errno_location_23;
+      return_value___errno_location_23=__errno_location();
+      *return_value___errno_location_23 = 90;
       return -1;
     }
 
-    unsigned char *tmp_post$24 = bp;
+    unsigned char *tmp_post_24 = bp;
     bp = bp + 1l;
-    *tmp_post$24 = (unsigned char)c;
+    *tmp_post_24 = (unsigned char)c;
   }
   while((_Bool)1);
   c = (signed int)((bp - label) - (signed long int)1);
   if(!((0xc0 & c) == 0))
   {
-    signed int *return_value___errno_location$25;
-    return_value___errno_location$25=__errno_location();
-    *return_value___errno_location$25 = 90;
+    signed int *return_value___errno_location_25;
+    return_value___errno_location_25=__errno_location();
+    *return_value___errno_location_25 = 90;
     return -1;
   }
 
@@ -12848,9 +12848,9 @@ done:
   ;
   if(label >= eom)
   {
-    signed int *return_value___errno_location$26;
-    return_value___errno_location$26=__errno_location();
-    *return_value___errno_location$26 = 90;
+    signed int *return_value___errno_location_26;
+    return_value___errno_location_26=__errno_location();
+    *return_value___errno_location_26 = 90;
     return -1;
   }
 
@@ -12859,22 +12859,22 @@ done:
   {
     if(bp >= eom)
     {
-      signed int *return_value___errno_location$27;
-      return_value___errno_location$27=__errno_location();
-      *return_value___errno_location$27 = 90;
+      signed int *return_value___errno_location_27;
+      return_value___errno_location_27=__errno_location();
+      *return_value___errno_location_27 = 90;
       return -1;
     }
 
-    unsigned char *tmp_post$28 = bp;
+    unsigned char *tmp_post_28 = bp;
     bp = bp + 1l;
-    *tmp_post$28 = (unsigned char)0;
+    *tmp_post_28 = (unsigned char)0;
   }
 
   if(bp - dst >= 256l)
   {
-    signed int *return_value___errno_location$29;
-    return_value___errno_location$29=__errno_location();
-    *return_value___errno_location$29 = 90;
+    signed int *return_value___errno_location_29;
+    return_value___errno_location_29=__errno_location();
+    *return_value___errno_location_29 = 90;
     return -1;
   }
 
@@ -12907,13 +12907,13 @@ signed int __ns_name_skip(const unsigned char **ptrptr, const unsigned char *eom
   unsigned int n;
   signed int l;
   cp = *ptrptr;
-  const unsigned char *tmp_post$1;
-  signed int *return_value___errno_location$3;
+  const unsigned char *tmp_post_1;
+  signed int *return_value___errno_location_3;
   while(!(cp >= eom))
   {
-    tmp_post$1 = cp;
+    tmp_post_1 = cp;
     cp = cp + 1l;
-    n = (unsigned int)*tmp_post$1;
+    n = (unsigned int)*tmp_post_1;
     if(n == 0u)
       break;
 
@@ -12929,9 +12929,9 @@ signed int __ns_name_skip(const unsigned char **ptrptr, const unsigned char *eom
         l=labellen(cp - (signed long int)1);
         if(!(l >= 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = 90;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = 90;
           return -1;
         }
 
@@ -12945,8 +12945,8 @@ signed int __ns_name_skip(const unsigned char **ptrptr, const unsigned char *eom
       }
       default:
       {
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 90;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 90;
         return -1;
       }
     }
@@ -12957,9 +12957,9 @@ signed int __ns_name_skip(const unsigned char **ptrptr, const unsigned char *eom
   }
   if(!(eom >= cp))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 90;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 90;
     return -1;
   }
 
@@ -12979,9 +12979,9 @@ signed int __ns_name_uncompress(const unsigned char *msg, const unsigned char *e
 
   else
   {
-    signed int return_value___ns_name_ntop$1;
-    return_value___ns_name_ntop$1=__ns_name_ntop(tmp, dst, dstsiz);
-    if(return_value___ns_name_ntop$1 == -1)
+    signed int return_value___ns_name_ntop_1;
+    return_value___ns_name_ntop_1=__ns_name_ntop(tmp, dst, dstsiz);
+    if(return_value___ns_name_ntop_1 == -1)
       return -1;
 
     else
@@ -13007,19 +13007,19 @@ signed int __ns_name_unpack(const unsigned char *msg, const unsigned char *eom, 
   dstlim = dst + (signed long int)dstsiz;
   if(srcp >= eom || !(srcp >= msg))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 90;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 90;
     return -1;
   }
 
-  const unsigned char *tmp_post$2;
-  signed int *return_value___errno_location$9;
+  const unsigned char *tmp_post_2;
+  signed int *return_value___errno_location_9;
   do
   {
-    tmp_post$2 = srcp;
+    tmp_post_2 = srcp;
     srcp = srcp + 1l;
-    n = (signed int)*tmp_post$2;
+    n = (signed int)*tmp_post_2;
     if(n == 0)
       break;
 
@@ -13032,24 +13032,24 @@ signed int __ns_name_unpack(const unsigned char *msg, const unsigned char *eom, 
         l=labellen(srcp - (signed long int)1);
         if(!(l >= 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 90;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 90;
           return -1;
         }
 
         if(dstp + (signed long int)l + 1l >= dstlim || srcp + (signed long int)l >= eom)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 90;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 90;
           return -1;
         }
 
         checked = checked + l + 1;
-        unsigned char *tmp_post$5 = dstp;
+        unsigned char *tmp_post_5 = dstp;
         dstp = dstp + 1l;
-        *tmp_post$5 = (unsigned char)n;
+        *tmp_post_5 = (unsigned char)n;
         memcpy((void *)dstp, (const void *)srcp, (unsigned long int)l);
         dstp = dstp + (signed long int)l;
         srcp = srcp + (signed long int)l;
@@ -13059,9 +13059,9 @@ signed int __ns_name_unpack(const unsigned char *msg, const unsigned char *eom, 
       {
         if(srcp >= eom)
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 90;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 90;
           return -1;
         }
 
@@ -13071,18 +13071,18 @@ signed int __ns_name_unpack(const unsigned char *msg, const unsigned char *eom, 
         srcp = msg + (signed long int)((n & 0x3f) << 8 | (signed int)*srcp & 0xff);
         if(srcp >= eom || !(srcp >= msg))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          *return_value___errno_location$7 = 90;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          *return_value___errno_location_7 = 90;
           return -1;
         }
 
         checked = checked + 2;
         if((signed long int)checked >= eom - msg)
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          *return_value___errno_location$8 = 90;
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          *return_value___errno_location_8 = 90;
           return -1;
         }
 
@@ -13090,8 +13090,8 @@ signed int __ns_name_unpack(const unsigned char *msg, const unsigned char *eom, 
       }
       default:
       {
-        return_value___errno_location$9=__errno_location();
-        *return_value___errno_location$9 = 90;
+        return_value___errno_location_9=__errno_location();
+        *return_value___errno_location_9 = 90;
         return -1;
       }
     }
@@ -13112,9 +13112,9 @@ signed int __ns_parserr(struct __ns_msg *handle, enum __ns_sect section, signed 
   signed int tmp = (signed int)section;
   if((signed int)section >= ns_s_max || !(tmp >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 19;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 19;
     return -1;
   }
 
@@ -13124,17 +13124,17 @@ signed int __ns_parserr(struct __ns_msg *handle, enum __ns_sect section, signed 
   if(rrnum == -1)
     rrnum = handle->_rrnum;
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(rrnum >= 0))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = rrnum >= (signed int)handle->_counts[(signed long int)(signed int)section] ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = rrnum >= (signed int)handle->_counts[(signed long int)(signed int)section] ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 19;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 19;
     return -1;
   }
 
@@ -13160,23 +13160,23 @@ signed int __ns_parserr(struct __ns_msg *handle, enum __ns_sect section, signed 
     handle->_msg_ptr = handle->_msg_ptr + (signed long int)b;
     if(!(handle->_eom >= handle->_msg_ptr + 4l))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 90;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 90;
       return -1;
     }
 
     do
     {
-      const unsigned char *__ns_parserr$$1$$5$$t_cp = (const unsigned char *)handle->_msg_ptr;
-      rr->type = (unsigned short int)((signed int)(unsigned short int)__ns_parserr$$1$$5$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_parserr$$1$$5$$t_cp[(signed long int)1]);
+      const unsigned char *__ns_parserr__1__5__t_cp = (const unsigned char *)handle->_msg_ptr;
+      rr->type = (unsigned short int)((signed int)(unsigned short int)__ns_parserr__1__5__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_parserr__1__5__t_cp[(signed long int)1]);
       handle->_msg_ptr = handle->_msg_ptr + (signed long int)2;
     }
     while((_Bool)0);
     do
     {
-      const unsigned char *__ns_parserr$$1$$6$$t_cp = (const unsigned char *)handle->_msg_ptr;
-      rr->rr_class = (unsigned short int)((signed int)(unsigned short int)__ns_parserr$$1$$6$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_parserr$$1$$6$$t_cp[(signed long int)1]);
+      const unsigned char *__ns_parserr__1__6__t_cp = (const unsigned char *)handle->_msg_ptr;
+      rr->rr_class = (unsigned short int)((signed int)(unsigned short int)__ns_parserr__1__6__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_parserr__1__6__t_cp[(signed long int)1]);
       handle->_msg_ptr = handle->_msg_ptr + (signed long int)2;
     }
     while((_Bool)0);
@@ -13191,9 +13191,9 @@ signed int __ns_parserr(struct __ns_msg *handle, enum __ns_sect section, signed 
     {
       if(!(handle->_eom >= handle->_msg_ptr + 6l))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        *return_value___errno_location$5 = 90;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        *return_value___errno_location_5 = 90;
         return -1;
       }
 
@@ -13206,16 +13206,16 @@ signed int __ns_parserr(struct __ns_msg *handle, enum __ns_sect section, signed 
       while((_Bool)0);
       do
       {
-        const unsigned char *__ns_parserr$$1$$8$$3$$t_cp = (const unsigned char *)handle->_msg_ptr;
-        rr->rdlength = (unsigned short int)((signed int)(unsigned short int)__ns_parserr$$1$$8$$3$$t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_parserr$$1$$8$$3$$t_cp[(signed long int)1]);
+        const unsigned char *__ns_parserr__1__8__3__t_cp = (const unsigned char *)handle->_msg_ptr;
+        rr->rdlength = (unsigned short int)((signed int)(unsigned short int)__ns_parserr__1__8__3__t_cp[(signed long int)0] << 8 | (signed int)(unsigned short int)__ns_parserr__1__8__3__t_cp[(signed long int)1]);
         handle->_msg_ptr = handle->_msg_ptr + (signed long int)2;
       }
       while((_Bool)0);
       if(!(handle->_eom >= handle->_msg_ptr + (signed long int)rr->rdlength))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 90;
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 90;
         return -1;
       }
 
@@ -13243,9 +13243,9 @@ signed int __ns_skiprr(const unsigned char *ptr, const unsigned char *eom, enum 
     b=__dn_skipname(ptr, eom);
     if(!(b >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 90;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 90;
       return -1;
     }
 
@@ -13254,9 +13254,9 @@ signed int __ns_skiprr(const unsigned char *ptr, const unsigned char *eom, enum 
     {
       if(!(eom >= ptr + 6l))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 90;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 90;
         return -1;
       }
 
@@ -13274,9 +13274,9 @@ signed int __ns_skiprr(const unsigned char *ptr, const unsigned char *eom, enum 
   }
   if(!(eom >= ptr))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 90;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 90;
     return -1;
   }
 
@@ -13290,32 +13290,32 @@ static inline char * _align_ptr(char *s)
   return s + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
-// _align_ptr$link1
+// _align_ptr_link1
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link1(char *s$link1)
+static inline char * _align_ptr_link1(char *s_link1)
 {
-  return s$link1 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s$link1 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
+  return s_link1 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s_link1 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
-// _align_ptr$link2
+// _align_ptr_link2
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link2(char *s$link2)
+static inline char * _align_ptr_link2(char *s_link2)
 {
-  return s$link2 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s$link2 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
+  return s_link2 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s_link2 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
-// _align_ptr$link3
+// _align_ptr_link3
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link3(char *s$link3)
+static inline char * _align_ptr_link3(char *s_link3)
 {
-  return s$link3 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s$link3 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
+  return s_link3 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s_link3 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
-// _align_ptr$link4
+// _align_ptr_link4
 // file ../../src/include/spf_internal.h line 76
-static inline char * _align_ptr$link4(char *s$link4)
+static inline char * _align_ptr_link4(char *s_link4)
 {
-  return s$link4 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s$link4 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
+  return s_link4 + (signed long int)((unsigned long int)(4 - 1) - ((unsigned long int)s_link4 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
 // _align_sz
@@ -13325,18 +13325,18 @@ static inline unsigned long int _align_sz(unsigned long int s)
   return s + ((unsigned long int)(4 - 1) - (s - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
-// _align_sz$link1
+// _align_sz_link1
 // file ../../src/include/spf_internal.h line 74
-static inline unsigned long int _align_sz$link1(unsigned long int s$link1)
+static inline unsigned long int _align_sz_link1(unsigned long int s_link1)
 {
-  return s$link1 + ((unsigned long int)(4 - 1) - (s$link1 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
+  return s_link1 + ((unsigned long int)(4 - 1) - (s_link1 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
-// _align_sz$link2
+// _align_sz_link2
 // file ../../src/include/spf_internal.h line 74
-static inline unsigned long int _align_sz$link2(unsigned long int s$link2)
+static inline unsigned long int _align_sz_link2(unsigned long int s_link2)
 {
-  return s$link2 + ((unsigned long int)(4 - 1) - (s$link2 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
+  return s_link2 + ((unsigned long int)(4 - 1) - (s_link2 - (unsigned long int)1 & (unsigned long int)(4 - 1)));
 }
 
 // crc32str
@@ -13380,9 +13380,9 @@ static signed int daemon_bind_inet_tcp()
   addr.sin_family = (unsigned short int)2;
   addr.sin_port=htons((unsigned short int)spfd_config.tcpport);
   addr.sin_addr.s_addr = (unsigned int)0x00000000;
-  signed int return_value_bind$1;
-  return_value_bind$1=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$1 >= 0))
+  signed int return_value_bind_1;
+  return_value_bind_1=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_1 >= 0))
   {
     perror("bind");
     do
@@ -13393,9 +13393,9 @@ static signed int daemon_bind_inet_tcp()
     while((_Bool)0);
   }
 
-  signed int return_value_listen$2;
-  return_value_listen$2=listen(sock, 5);
-  if(!(return_value_listen$2 >= 0))
+  signed int return_value_listen_2;
+  return_value_listen_2=listen(sock, 5);
+  if(!(return_value_listen_2 >= 0))
   {
     perror("listen");
     do
@@ -13432,9 +13432,9 @@ static signed int daemon_bind_inet_udp()
   addr.sin_family = (unsigned short int)2;
   addr.sin_port=htons((unsigned short int)spfd_config.udpport);
   addr.sin_addr.s_addr = (unsigned int)0x00000000;
-  signed int return_value_bind$1;
-  return_value_bind$1=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$1 >= 0))
+  signed int return_value_bind_1;
+  return_value_bind_1=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_1 >= 0))
   {
     perror("bind");
     do
@@ -13470,13 +13470,13 @@ static signed int daemon_bind_unix()
   memset((void *)&addr, 0, sizeof(struct sockaddr_un) /*110ul*/ );
   addr.sun_family = (unsigned short int)1;
   strncpy(addr.sun_path, spfd_config.path, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1);
-  signed int return_value_unlink$2;
-  return_value_unlink$2=unlink(spfd_config.path);
-  if(!(return_value_unlink$2 >= 0))
+  signed int return_value_unlink_2;
+  return_value_unlink_2=unlink(spfd_config.path);
+  if(!(return_value_unlink_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 2))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 2))
     {
       perror("unlink");
       do
@@ -13489,9 +13489,9 @@ static signed int daemon_bind_unix()
 
   }
 
-  signed int return_value_bind$3;
-  return_value_bind$3=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-  if(!(return_value_bind$3 >= 0))
+  signed int return_value_bind_3;
+  return_value_bind_3=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+  if(!(return_value_bind_3 >= 0))
   {
     perror("bind");
     do
@@ -13502,9 +13502,9 @@ static signed int daemon_bind_unix()
     while((_Bool)0);
   }
 
-  signed int return_value_listen$4;
-  return_value_listen$4=listen(sock, 5);
-  if(!(return_value_listen$4 >= 0))
+  signed int return_value_listen_4;
+  return_value_listen_4=listen(sock, 5);
+  if(!(return_value_listen_4 >= 0))
   {
     perror("listen");
     do
@@ -13526,15 +13526,15 @@ static void daemon_config(signed int argc, char **argv)
   signed int idx;
   char c;
   memset((void *)&spfd_config, 0, sizeof(struct _config_t) /*96ul*/ );
-  signed int return_value_getopt_long$1;
-  signed long int return_value_atol$2;
-  signed long int return_value_atol$3;
-  signed long int return_value_atol$4;
-  signed long int return_value_atol$5;
+  signed int return_value_getopt_long_1;
+  signed long int return_value_atol_2;
+  signed long int return_value_atol_3;
+  signed long int return_value_atol_4;
+  signed long int return_value_atol_5;
   do
   {
-    return_value_getopt_long$1=getopt_long(argc, argv, shortopts, longopts, &idx);
-    c = (char)return_value_getopt_long$1;
+    return_value_getopt_long_1=getopt_long(argc, argv, shortopts, longopts, &idx);
+    c = (char)return_value_getopt_long_1;
     if((signed int)c == -1)
       break;
 
@@ -13542,14 +13542,14 @@ static void daemon_config(signed int argc, char **argv)
     {
       case 116:
       {
-        return_value_atol$2=atol(optarg);
-        spfd_config.tcpport = (signed int)return_value_atol$2;
+        return_value_atol_2=atol(optarg);
+        spfd_config.tcpport = (signed int)return_value_atol_2;
         break;
       }
       case 112:
       {
-        return_value_atol$3=atol(optarg);
-        spfd_config.udpport = (signed int)return_value_atol$3;
+        return_value_atol_3=atol(optarg);
+        spfd_config.udpport = (signed int)return_value_atol_3;
         break;
       }
       case 102:
@@ -13559,8 +13559,8 @@ static void daemon_config(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value_atol$4=atol(optarg);
-        spfd_config.debug = (signed int)return_value_atol$4;
+        return_value_atol_4=atol(optarg);
+        spfd_config.debug = (signed int)return_value_atol_4;
         break;
       }
       case 120:
@@ -13575,8 +13575,8 @@ static void daemon_config(signed int argc, char **argv)
       }
       case 109:
       {
-        return_value_atol$5=atol(optarg);
-        spfd_config.pathmode = (signed int)return_value_atol$5;
+        return_value_atol_5=atol(optarg);
+        spfd_config.pathmode = (signed int)return_value_atol_5;
         break;
       }
       case 117:
@@ -13633,13 +13633,13 @@ static void daemon_config(signed int argc, char **argv)
 static unsigned int daemon_get_group(const char *arg)
 {
   struct group *grp;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  return_value___ctype_b_loc$2=__ctype_b_loc();
-  signed long int return_value_atol$1;
-  if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*arg]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_2;
+  return_value___ctype_b_loc_2=__ctype_b_loc();
+  signed long int return_value_atol_1;
+  if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*arg]) == 0))
   {
-    return_value_atol$1=atol(arg);
-    grp=getgrgid((unsigned int)return_value_atol$1);
+    return_value_atol_1=atol(arg);
+    grp=getgrgid((unsigned int)return_value_atol_1);
   }
 
   else
@@ -13663,13 +13663,13 @@ static unsigned int daemon_get_group(const char *arg)
 static unsigned int daemon_get_user(const char *arg)
 {
   struct passwd *pwd;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  return_value___ctype_b_loc$2=__ctype_b_loc();
-  signed long int return_value_atol$1;
-  if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*arg]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_2;
+  return_value___ctype_b_loc_2=__ctype_b_loc();
+  signed long int return_value_atol_1;
+  if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*arg]) == 0))
   {
-    return_value_atol$1=atol(arg);
-    pwd=getpwuid((unsigned int)return_value_atol$1);
+    return_value_atol_1=atol(arg);
+    pwd=getpwuid((unsigned int)return_value_atol_1);
   }
 
   else
@@ -13802,8 +13802,8 @@ static void daemon_main()
   unsigned long int th;
   struct _request_t *req;
   char buf[4096l];
-  struct anonymous$10 rfd;
-  struct anonymous$10 sfd;
+  struct anonymous_10 rfd;
+  struct anonymous_10 sfd;
   signed int maxfd;
   pthread_attr_init(&attr);
   pthread_attr_setdetachstate(&attr, 1);
@@ -13811,7 +13811,7 @@ static void daemon_main()
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$10) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfd)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_10) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfd)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   maxfd = 0;
@@ -13841,24 +13841,24 @@ static void daemon_main()
 
   do
   {
-    memcpy((void *)&sfd, (const void *)&rfd, sizeof(struct anonymous$10) /*128ul*/ );
-    signed int return_value_select$1;
-    return_value_select$1=select(maxfd + 1, &sfd, (struct anonymous$10 *)(void *)0, (struct anonymous$10 *)(void *)0, (struct timeval *)(void *)0);
-    if(return_value_select$1 == -1)
+    memcpy((void *)&sfd, (const void *)&rfd, sizeof(struct anonymous_10) /*128ul*/ );
+    signed int return_value_select_1;
+    return_value_select_1=select(maxfd + 1, &sfd, (struct anonymous_10 *)(void *)0, (struct anonymous_10 *)(void *)0, (struct timeval *)(void *)0);
+    if(return_value_select_1 == -1)
       break;
 
     if(!(spfd_state.sock_udp == 0))
     {
       if(!((sfd.fds_bits[(signed long int)(spfd_state.sock_udp / 8)] & (signed long int)(1UL << spfd_state.sock_udp % 8)) == 0l))
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _request_t) /*4480ul*/ );
-        req = (struct _request_t *)return_value_calloc$2;
-        req->addrlen = (unsigned int)sizeof(union anonymous$14) /*112ul*/ ;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _request_t) /*4480ul*/ );
+        req = (struct _request_t *)return_value_calloc_2;
+        req->addrlen = (unsigned int)sizeof(union anonymous_14) /*112ul*/ ;
         req->sock = spfd_state.sock_udp;
-        signed long int return_value_recvfrom$3;
-        return_value_recvfrom$3=recvfrom(spfd_state.sock_udp, (void *)buf, (unsigned long int)4095, 0, (struct sockaddr *)&req->addr.in, &req->addrlen);
-        req->datalen = (signed int)return_value_recvfrom$3;
+        signed long int return_value_recvfrom_3;
+        return_value_recvfrom_3=recvfrom(spfd_state.sock_udp, (void *)buf, (unsigned long int)4095, 0, (struct sockaddr *)&req->addr.in, &req->addrlen);
+        req->datalen = (signed int)return_value_recvfrom_3;
         if(req->datalen >= 0)
         {
           buf[(signed long int)req->datalen] = (char)0;
@@ -13876,10 +13876,10 @@ static void daemon_main()
     {
       if(!((sfd.fds_bits[(signed long int)(spfd_state.sock_tcp / 8)] & (signed long int)(1UL << spfd_state.sock_tcp % 8)) == 0l))
       {
-        void *return_value_calloc$4;
-        return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct _request_t) /*4480ul*/ );
-        req = (struct _request_t *)return_value_calloc$4;
-        req->addrlen = (unsigned int)sizeof(union anonymous$14) /*112ul*/ ;
+        void *return_value_calloc_4;
+        return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct _request_t) /*4480ul*/ );
+        req = (struct _request_t *)return_value_calloc_4;
+        req->addrlen = (unsigned int)sizeof(union anonymous_14) /*112ul*/ ;
         req->sock=accept(spfd_state.sock_tcp, (struct sockaddr *)&req->addr.in, &req->addrlen);
         if(req->sock >= 0)
           pthread_create(&th, &attr, handle_stream, (void *)req);
@@ -13894,10 +13894,10 @@ static void daemon_main()
     {
       if(!((sfd.fds_bits[(signed long int)(spfd_state.sock_unix / 8)] & (signed long int)(1UL << spfd_state.sock_unix % 8)) == 0l))
       {
-        void *return_value_calloc$5;
-        return_value_calloc$5=calloc((unsigned long int)1, sizeof(struct _request_t) /*4480ul*/ );
-        req = (struct _request_t *)return_value_calloc$5;
-        req->addrlen = (unsigned int)sizeof(union anonymous$14) /*112ul*/ ;
+        void *return_value_calloc_5;
+        return_value_calloc_5=calloc((unsigned long int)1, sizeof(struct _request_t) /*4480ul*/ );
+        req = (struct _request_t *)return_value_calloc_5;
+        req->addrlen = (unsigned int)sizeof(union anonymous_14) /*112ul*/ ;
         req->sock=accept(spfd_state.sock_unix, (struct sockaddr *)&req->addr.un, &req->addrlen);
         if(req->sock >= 0)
           pthread_create(&th, &attr, handle_stream, (void *)req);
@@ -13936,9 +13936,9 @@ static signed int decode_bitstring(const char **cpp, char *dn, const char *eom)
   else
   {
     cp = cp + 1l;
-    signed int return_value_sprintf$1;
-    return_value_sprintf$1=sprintf(dn, "\\[x");
-    i = (signed int)(unsigned long int)return_value_sprintf$1;
+    signed int return_value_sprintf_1;
+    return_value_sprintf_1=sprintf(dn, "\\[x");
+    i = (signed int)(unsigned long int)return_value_sprintf_1;
     if(!(i >= 0))
       return -1;
 
@@ -13948,9 +13948,9 @@ static signed int decode_bitstring(const char **cpp, char *dn, const char *eom)
       b = blen;
       for( ; b >= 8; cp = cp + 1l)
       {
-        signed int return_value_sprintf$2;
-        return_value_sprintf$2=sprintf(dn, "%02x", (signed int)*cp & 0xff);
-        i = (signed int)(unsigned long int)return_value_sprintf$2;
+        signed int return_value_sprintf_2;
+        return_value_sprintf_2=sprintf(dn, "%02x", (signed int)*cp & 0xff);
+        i = (signed int)(unsigned long int)return_value_sprintf_2;
         if(!(i >= 0))
           return -1;
 
@@ -13959,12 +13959,12 @@ static signed int decode_bitstring(const char **cpp, char *dn, const char *eom)
       }
       if(b >= 5)
       {
-        const char *tmp_post$3 = cp;
+        const char *tmp_post_3 = cp;
         cp = cp + 1l;
-        tc = *tmp_post$3;
-        signed int return_value_sprintf$4;
-        return_value_sprintf$4=sprintf(dn, "%02x", (signed int)tc & 0xff << 8 - b);
-        i = (signed int)(unsigned long int)return_value_sprintf$4;
+        tc = *tmp_post_3;
+        signed int return_value_sprintf_4;
+        return_value_sprintf_4=sprintf(dn, "%02x", (signed int)tc & 0xff << 8 - b);
+        i = (signed int)(unsigned long int)return_value_sprintf_4;
         if(!(i >= 0))
           return -1;
 
@@ -13974,21 +13974,21 @@ static signed int decode_bitstring(const char **cpp, char *dn, const char *eom)
       else
         if(b >= 1)
         {
-          const char *tmp_post$5 = cp;
+          const char *tmp_post_5 = cp;
           cp = cp + 1l;
-          tc = *tmp_post$5;
-          signed int return_value_sprintf$6;
-          return_value_sprintf$6=sprintf(dn, "%1x", (signed int)tc >> 4 & 0x0f & 0x0f << 4 - b);
-          i = (signed int)(unsigned long int)return_value_sprintf$6;
+          tc = *tmp_post_5;
+          signed int return_value_sprintf_6;
+          return_value_sprintf_6=sprintf(dn, "%1x", (signed int)tc >> 4 & 0x0f & 0x0f << 4 - b);
+          i = (signed int)(unsigned long int)return_value_sprintf_6;
           if(!(i >= 0))
             return -1;
 
           dn = dn + (signed long int)i;
         }
 
-      signed int return_value_sprintf$7;
-      return_value_sprintf$7=sprintf(dn, "/%d]", blen);
-      i = (signed int)(unsigned long int)return_value_sprintf$7;
+      signed int return_value_sprintf_7;
+      return_value_sprintf_7=sprintf(dn, "/%d]", blen);
+      i = (signed int)(unsigned long int)return_value_sprintf_7;
       if(!(i >= 0))
         return -1;
 
@@ -14012,11 +14012,11 @@ static signed int dn_find(const unsigned char *domain, const unsigned char *msg,
   const unsigned char * const *cpp;
   unsigned int n;
   cpp = dnptrs;
-  const unsigned char *tmp_post$1;
-  signed int return_value_labellen$2;
-  signed int return_value_mklower$5;
-  signed int return_value_mklower$7;
-  signed int *return_value___errno_location$8;
+  const unsigned char *tmp_post_1;
+  signed int return_value_labellen_2;
+  signed int return_value_mklower_5;
+  signed int return_value_mklower_7;
+  signed int *return_value___errno_location_8;
   for( ; !(cpp >= lastdnptr); cpp = cpp + 1l)
   {
     sp = *cpp;
@@ -14032,9 +14032,9 @@ static signed int dn_find(const unsigned char *domain, const unsigned char *msg,
       cp = sp;
       do
       {
-        tmp_post$1 = cp;
+        tmp_post_1 = cp;
         cp = cp + 1l;
-        n = (unsigned int)*tmp_post$1;
+        n = (unsigned int)*tmp_post_1;
         if(n == 0u)
           break;
 
@@ -14042,23 +14042,23 @@ static signed int dn_find(const unsigned char *domain, const unsigned char *msg,
         {
           case (unsigned int)0:
           {
-            return_value_labellen$2=labellen(cp - (signed long int)1);
-            n = (unsigned int)return_value_labellen$2;
-            const unsigned char *tmp_post$3 = dn;
+            return_value_labellen_2=labellen(cp - (signed long int)1);
+            n = (unsigned int)return_value_labellen_2;
+            const unsigned char *tmp_post_3 = dn;
             dn = dn + 1l;
-            if(!(n == (unsigned int)*tmp_post$3))
+            if(!(n == (unsigned int)*tmp_post_3))
               goto next;
 
             (void)(void *)0;
             for( ; n >= 1u; n = n - 1u)
             {
-              const unsigned char *tmp_post$4 = dn;
+              const unsigned char *tmp_post_4 = dn;
               dn = dn + 1l;
-              return_value_mklower$5=mklower((signed int)*tmp_post$4);
-              const unsigned char *tmp_post$6 = cp;
+              return_value_mklower_5=mklower((signed int)*tmp_post_4);
+              const unsigned char *tmp_post_6 = cp;
               cp = cp + 1l;
-              return_value_mklower$7=mklower((signed int)*tmp_post$6);
-              if(!(return_value_mklower$5 == return_value_mklower$7))
+              return_value_mklower_7=mklower((signed int)*tmp_post_6);
+              if(!(return_value_mklower_5 == return_value_mklower_7))
                 goto next;
 
             }
@@ -14081,8 +14081,8 @@ static signed int dn_find(const unsigned char *domain, const unsigned char *msg,
           }
           default:
           {
-            return_value___errno_location$8=__errno_location();
-            *return_value___errno_location$8 = 90;
+            return_value___errno_location_8=__errno_location();
+            *return_value___errno_location_8 = 90;
             return -1;
           }
         }
@@ -14093,9 +14093,9 @@ static signed int dn_find(const unsigned char *domain, const unsigned char *msg,
       ;
     }
   }
-  signed int *return_value___errno_location$9;
-  return_value___errno_location$9=__errno_location();
-  *return_value___errno_location$9 = 2;
+  signed int *return_value___errno_location_9;
+  return_value___errno_location_9=__errno_location();
+  *return_value___errno_location_9 = 2;
   return -1;
 }
 
@@ -14120,16 +14120,16 @@ static signed int encode_bitsring(const char **bp, const char *end, char **label
 
   else
   {
-    const char *tmp_post$1 = cp;
+    const char *tmp_post_1 = cp;
     cp = cp + 1l;
-    if(!((signed int)*tmp_post$1 == 120))
+    if(!((signed int)*tmp_post_1 == 120))
       return 22;
 
     else
     {
-      const unsigned short int **return_value___ctype_b_loc$2;
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((4096 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(0xff & (signed int)*cp)]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_2;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((4096 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(0xff & (signed int)*cp)]) == 0)
         return 22;
 
       else
@@ -14147,9 +14147,9 @@ static signed int encode_bitsring(const char **bp, const char *end, char **label
                 if(beg_blen == ((const char *)NULL))
                   return 22;
 
-                signed long int return_value_strtol$3;
-                return_value_strtol$3=strtol(beg_blen, &end_blen, 10);
-                blen = (signed int)return_value_strtol$3;
+                signed long int return_value_strtol_3;
+                return_value_strtol_3=strtol(beg_blen, &end_blen, 10);
+                blen = (signed int)return_value_strtol_3;
                 if(!((signed int)*end_blen == 93))
                   return 22;
 
@@ -14157,9 +14157,9 @@ static signed int encode_bitsring(const char **bp, const char *end, char **label
 
               if(!(count == 0))
               {
-                char *tmp_post$4 = tp;
+                char *tmp_post_4 = tp;
                 tp = tp + 1l;
-                *tmp_post$4 = (char)(value << 4 & 0xff);
+                *tmp_post_4 = (char)(value << 4 & 0xff);
               }
 
               cp = cp + 1l;
@@ -14173,9 +14173,9 @@ static signed int encode_bitsring(const char **bp, const char *end, char **label
             default:
               if(!(afterslash == 0))
               {
-                const unsigned short int **return_value___ctype_b_loc$5;
-                return_value___ctype_b_loc$5=__ctype_b_loc();
-                if((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(0xff & (signed int)c)]) == 0)
+                const unsigned short int **return_value___ctype_b_loc_5;
+                return_value___ctype_b_loc_5=__ctype_b_loc();
+                if((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(0xff & (signed int)c)]) == 0)
                   return 22;
 
                 if(beg_blen == ((const char *)NULL))
@@ -14190,9 +14190,9 @@ static signed int encode_bitsring(const char **bp, const char *end, char **label
 
               else
               {
-                const unsigned short int **return_value___ctype_b_loc$6;
-                return_value___ctype_b_loc$6=__ctype_b_loc();
-                if((4096 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(0xff & (signed int)c)]) == 0)
+                const unsigned short int **return_value___ctype_b_loc_6;
+                return_value___ctype_b_loc_6=__ctype_b_loc();
+                if((4096 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(0xff & (signed int)c)]) == 0)
                   return 22;
 
                 value = value << 4;
@@ -14204,9 +14204,9 @@ static signed int encode_bitsring(const char **bp, const char *end, char **label
 
                 if(count == 8)
                 {
-                  char *tmp_post$7 = tp;
+                  char *tmp_post_7 = tp;
                   tp = tp + 1l;
-                  *tmp_post$7 = (char)value;
+                  *tmp_post_7 = (char)value;
                   count = 0;
                 }
 
@@ -14253,30 +14253,30 @@ static signed int encode_bitsring(const char **bp, const char *end, char **label
 // file spfd.c line 730
 static char ** find_field(struct _request_t *req, const char *key)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(key, "ip");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(key, "ip");
+  if(return_value_strcmp_1 == 0)
     return &req->ip;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(key, "helo");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(key, "helo");
+    if(return_value_strcmp_2 == 0)
       return &req->helo;
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(key, "sender");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(key, "sender");
+      if(return_value_strcmp_3 == 0)
         return &req->sender;
 
       else
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(key, "rcpt");
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(key, "rcpt");
+        if(return_value_strcmp_4 == 0)
           return &req->rcpt_to;
 
         else
@@ -14303,16 +14303,16 @@ static void * handle_datagram(void *arg)
   key = req->data;
   while(!(key >= req->data + (signed long int)req->datalen))
   {
-    unsigned long int return_value_strcspn$1;
-    return_value_strcspn$1=strcspn(key, "\r\n");
-    end = key + (signed long int)return_value_strcspn$1;
+    unsigned long int return_value_strcspn_1;
+    return_value_strcspn_1=strcspn(key, "\r\n");
+    end = key + (signed long int)return_value_strcspn_1;
     *end = (char)0;
     value=strchr(key, 61);
     if(!(value == ((char *)NULL)))
     {
-      char *tmp_post$2 = value;
+      char *tmp_post_2 = value;
       value = value + 1l;
-      *tmp_post$2 = (char)0;
+      *tmp_post_2 = (char)0;
       fp=find_field(req, key);
       if(!(fp == ((char **)NULL)))
         *fp = value;
@@ -14320,9 +14320,9 @@ static void * handle_datagram(void *arg)
       key = end + (signed long int)1;
       while(!(key >= req->data + (signed long int)req->datalen))
       {
-        char *return_value_strchr$3;
-        return_value_strchr$3=strchr("\r\n", (signed int)*key);
-        if(!(return_value_strchr$3 == ((char *)NULL)))
+        char *return_value_strchr_3;
+        return_value_strchr_3=strchr("\r\n", (signed int)*key);
+        if(!(return_value_strchr_3 == ((char *)NULL)))
           key = key + 1l;
 
         else
@@ -14334,9 +14334,9 @@ static void * handle_datagram(void *arg)
   request_handle(req);
   printf("- %s\n", req->sender);
   fflush(stdout);
-  signed long int return_value_sendto$4;
-  return_value_sendto$4=sendto(req->sock, (const void *)req->fmt, (unsigned long int)req->fmtlen, 0, (struct sockaddr *)&req->addr.in, req->addrlen);
-  err = (signed int)return_value_sendto$4;
+  signed long int return_value_sendto_4;
+  return_value_sendto_4=sendto(req->sock, (const void *)req->fmt, (unsigned long int)req->fmtlen, 0, (struct sockaddr *)&req->addr.in, req->addrlen);
+  err = (signed int)return_value_sendto_4;
   if(err == -1)
     perror("sendto");
 
@@ -14380,31 +14380,31 @@ static void * handle_stream(void *arg)
   char *end;
   req = (struct _request_t *)arg;
   stream=fdopen(req->sock, "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    char *return_value_fgets$2;
-    return_value_fgets$2=fgets(key, 8192, stream);
-    if(!(return_value_fgets$2 == ((char *)NULL)))
+    char *return_value_fgets_2;
+    return_value_fgets_2=fgets(key, 8192, stream);
+    if(!(return_value_fgets_2 == ((char *)NULL)))
     {
-      unsigned long int return_value_strcspn$3;
-      return_value_strcspn$3=strcspn(key, "\r\n");
-      key[(signed long int)return_value_strcspn$3] = (char)0;
+      unsigned long int return_value_strcspn_3;
+      return_value_strcspn_3=strcspn(key, "\r\n");
+      key[(signed long int)return_value_strcspn_3] = (char)0;
       if(!((signed int)key[0l] == 0))
       {
-        unsigned long int return_value_strcspn$4;
-        return_value_strcspn$4=strcspn(key, "\r\n");
-        end = key + (signed long int)return_value_strcspn$4;
+        unsigned long int return_value_strcspn_4;
+        return_value_strcspn_4=strcspn(key, "\r\n");
+        end = key + (signed long int)return_value_strcspn_4;
         *end = (char)0;
         value=strchr(key, 61);
         if(!(value == ((char *)NULL)))
         {
-          char *tmp_post$5 = value;
+          char *tmp_post_5 = value;
           value = value + 1l;
-          *tmp_post$5 = (char)0;
+          *tmp_post_5 = (char)0;
           fp=find_field(req, key);
           if(!(fp == ((char **)NULL)))
             *fp=strdup(value);
@@ -14452,9 +14452,9 @@ static void * handle_stream(void *arg)
       req->rcpt_to = (char *)(void *)0;
     }
     while((_Bool)0);
-    return_value_feof$1=feof(stream);
+    return_value_feof_1=feof(stream);
   }
-  while(return_value_feof$1 == 0);
+  while(return_value_feof_1 == 0);
   free(arg);
   return (void *)0;
 }
@@ -14540,40 +14540,40 @@ static void request_format(struct _request_t *req)
   struct SPF_response_struct *spf_response = req->spf_response;
   if(!(spf_response == ((struct SPF_response_struct *)NULL)))
   {
-    enum SPF_result_enum return_value_SPF_response_result$1;
-    return_value_SPF_response_result$1=SPF_response_result(spf_response);
-    const char *return_value_SPF_strresult$2;
-    return_value_SPF_strresult$2=SPF_strresult(return_value_SPF_response_result$1);
-    const char *return_value_W$3;
-    return_value_W$3=W(return_value_SPF_strresult$2);
-    enum SPF_reason_enum return_value_SPF_response_reason$4;
-    return_value_SPF_response_reason$4=SPF_response_reason(spf_response);
-    const char *return_value_SPF_strreason$5;
-    return_value_SPF_strreason$5=SPF_strreason(return_value_SPF_response_reason$4);
-    const char *return_value_W$6;
-    return_value_W$6=W(return_value_SPF_strreason$5);
-    const char *return_value_SPF_response_get_smtp_comment$7;
-    return_value_SPF_response_get_smtp_comment$7=SPF_response_get_smtp_comment(spf_response);
-    const char *return_value_W$8;
-    return_value_W$8=W(return_value_SPF_response_get_smtp_comment$7);
-    const char *return_value_SPF_response_get_header_comment$9;
-    return_value_SPF_response_get_header_comment$9=SPF_response_get_header_comment(spf_response);
-    const char *return_value_W$10;
-    return_value_W$10=W(return_value_SPF_response_get_header_comment$9);
-    enum SPF_errcode_t return_value_SPF_response_errcode$11;
-    return_value_SPF_response_errcode$11=SPF_response_errcode(spf_response);
-    const char *return_value_SPF_strerror$12;
-    return_value_SPF_strerror$12=SPF_strerror(return_value_SPF_response_errcode$11);
-    const char *return_value_W$13;
-    return_value_W$13=W(return_value_SPF_strerror$12);
-    req->fmtlen=snprintf(req->fmt, (unsigned long int)4095, "ip=%s\nsender=%s\nresult=%s\nreason=%s\nsmtp_comment=%s\nheader_comment=%s\nerror=%s\n", req->ip, req->sender, return_value_W$3, return_value_W$6, return_value_W$8, return_value_W$10, return_value_W$13);
+    enum SPF_result_enum return_value_SPF_response_result_1;
+    return_value_SPF_response_result_1=SPF_response_result(spf_response);
+    const char *return_value_SPF_strresult_2;
+    return_value_SPF_strresult_2=SPF_strresult(return_value_SPF_response_result_1);
+    const char *return_value_W_3;
+    return_value_W_3=W(return_value_SPF_strresult_2);
+    enum SPF_reason_enum return_value_SPF_response_reason_4;
+    return_value_SPF_response_reason_4=SPF_response_reason(spf_response);
+    const char *return_value_SPF_strreason_5;
+    return_value_SPF_strreason_5=SPF_strreason(return_value_SPF_response_reason_4);
+    const char *return_value_W_6;
+    return_value_W_6=W(return_value_SPF_strreason_5);
+    const char *return_value_SPF_response_get_smtp_comment_7;
+    return_value_SPF_response_get_smtp_comment_7=SPF_response_get_smtp_comment(spf_response);
+    const char *return_value_W_8;
+    return_value_W_8=W(return_value_SPF_response_get_smtp_comment_7);
+    const char *return_value_SPF_response_get_header_comment_9;
+    return_value_SPF_response_get_header_comment_9=SPF_response_get_header_comment(spf_response);
+    const char *return_value_W_10;
+    return_value_W_10=W(return_value_SPF_response_get_header_comment_9);
+    enum SPF_errcode_t return_value_SPF_response_errcode_11;
+    return_value_SPF_response_errcode_11=SPF_response_errcode(spf_response);
+    const char *return_value_SPF_strerror_12;
+    return_value_SPF_strerror_12=SPF_strerror(return_value_SPF_response_errcode_11);
+    const char *return_value_W_13;
+    return_value_W_13=W(return_value_SPF_strerror_12);
+    req->fmtlen=snprintf(req->fmt, (unsigned long int)4095, "ip=%s\nsender=%s\nresult=%s\nreason=%s\nsmtp_comment=%s\nheader_comment=%s\nerror=%s\n", req->ip, req->sender, return_value_W_3, return_value_W_6, return_value_W_8, return_value_W_10, return_value_W_13);
   }
 
   else
   {
-    const char *return_value_SPF_strerror$14;
-    return_value_SPF_strerror$14=SPF_strerror(req->spf_err);
-    req->fmtlen=snprintf(req->fmt, (unsigned long int)4095, "ip=%s\nsender=%s\nresult=unknown\nerror=%s\n", req->ip, req->sender, return_value_SPF_strerror$14);
+    const char *return_value_SPF_strerror_14;
+    return_value_SPF_strerror_14=SPF_strerror(req->spf_err);
+    req->fmtlen=snprintf(req->fmt, (unsigned long int)4095, "ip=%s\nsender=%s\nresult=unknown\nerror=%s\n", req->ip, req->sender, return_value_SPF_strerror_14);
   }
   req->fmt[(signed long int)4095] = (char)0;
 }
@@ -14584,9 +14584,9 @@ static void request_handle(struct _request_t *req)
 {
   printf("| %s\n", req->sender);
   fflush(stdout);
-  const char *return_value_request_check$1;
-  return_value_request_check$1=request_check(req);
-  if(return_value_request_check$1 == ((const char *)NULL))
+  const char *return_value_request_check_1;
+  return_value_request_check_1=request_check(req);
+  if(return_value_request_check_1 == ((const char *)NULL))
   {
     request_query(req);
     request_format(req);
@@ -14605,9 +14605,9 @@ static void request_query(struct _request_t *req)
   char *p;
   char *p_end;
   spf_request=SPF_request_new(spf_server);
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(req->ip, 58);
-  if(!(return_value_strchr$1 == ((char *)NULL)))
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(req->ip, 58);
+  if(!(return_value_strchr_1 == ((char *)NULL)))
   {
     err=SPF_request_set_ipv6_str(spf_request, req->ip);
     if(!(err == /*enum*/SPF_E_SUCCESS))
@@ -14632,9 +14632,9 @@ static void request_query(struct _request_t *req)
 
   if(!(req->sender == ((char *)NULL)))
   {
-    signed int return_value_SPF_request_set_env_from$2;
-    return_value_SPF_request_set_env_from$2=SPF_request_set_env_from(spf_request, req->sender);
-    err = (enum SPF_errcode_t)return_value_SPF_request_set_env_from$2;
+    signed int return_value_SPF_request_set_env_from_2;
+    return_value_SPF_request_set_env_from_2=SPF_request_set_env_from(spf_request, req->sender);
+    err = (enum SPF_errcode_t)return_value_SPF_request_set_env_from_2;
     if(!(err == /*enum*/SPF_E_SUCCESS))
       goto fail;
 
@@ -14644,7 +14644,7 @@ static void request_query(struct _request_t *req)
   if(!(err == /*enum*/SPF_E_SUCCESS))
     goto fail;
 
-  enum SPF_result_enum return_value_SPF_response_result$4;
+  enum SPF_result_enum return_value_SPF_response_result_4;
   if(!(spfd_config.sec_mx == 0))
   {
     if(!(req->rcpt_to == ((char *)NULL)))
@@ -14652,13 +14652,13 @@ static void request_query(struct _request_t *req)
       if(!(*req->rcpt_to == 0))
       {
         p = req->rcpt_to;
-        unsigned long int return_value_strcspn$3;
-        return_value_strcspn$3=strcspn(p, " ,;");
-        p_end = p + (signed long int)return_value_strcspn$3;
+        unsigned long int return_value_strcspn_3;
+        return_value_strcspn_3=strcspn(p, " ,;");
+        p_end = p + (signed long int)return_value_strcspn_3;
         do
         {
-          return_value_SPF_response_result$4=SPF_response_result(spf_response);
-          if((signed int)return_value_SPF_response_result$4 == SPF_RESULT_PASS)
+          return_value_SPF_response_result_4=SPF_response_result(spf_response);
+          if((signed int)return_value_SPF_response_result_4 == SPF_RESULT_PASS)
             break;
 
           if(!(*p_end == 0))
@@ -14745,24 +14745,24 @@ static void response_print(const char *context, struct SPF_response_struct *spf_
 
   else
   {
-    enum SPF_result_enum return_value_SPF_response_result$1;
-    return_value_SPF_response_result$1=SPF_response_result(spf_response);
-    const char *return_value_SPF_strresult$2;
-    return_value_SPF_strresult$2=SPF_strresult(return_value_SPF_response_result$1);
-    printf("Response result: %s\n", return_value_SPF_strresult$2);
-    enum SPF_reason_enum return_value_SPF_response_reason$3;
-    return_value_SPF_response_reason$3=SPF_response_reason(spf_response);
-    const char *return_value_SPF_strreason$4;
-    return_value_SPF_strreason$4=SPF_strreason(return_value_SPF_response_reason$3);
-    printf("Response reason: %s\n", return_value_SPF_strreason$4);
-    enum SPF_errcode_t return_value_SPF_response_errcode$5;
-    return_value_SPF_response_errcode$5=SPF_response_errcode(spf_response);
-    const char *return_value_SPF_strerror$6;
-    return_value_SPF_strerror$6=SPF_strerror(return_value_SPF_response_errcode$5);
-    printf("Response err: %s\n", return_value_SPF_strerror$6);
-    enum SPF_errcode_t return_value_SPF_response_errcode$7;
-    return_value_SPF_response_errcode$7=SPF_response_errcode(spf_response);
-    response_print_errors((const char *)(void *)0, spf_response, return_value_SPF_response_errcode$7);
+    enum SPF_result_enum return_value_SPF_response_result_1;
+    return_value_SPF_response_result_1=SPF_response_result(spf_response);
+    const char *return_value_SPF_strresult_2;
+    return_value_SPF_strresult_2=SPF_strresult(return_value_SPF_response_result_1);
+    printf("Response result: %s\n", return_value_SPF_strresult_2);
+    enum SPF_reason_enum return_value_SPF_response_reason_3;
+    return_value_SPF_response_reason_3=SPF_response_reason(spf_response);
+    const char *return_value_SPF_strreason_4;
+    return_value_SPF_strreason_4=SPF_strreason(return_value_SPF_response_reason_3);
+    printf("Response reason: %s\n", return_value_SPF_strreason_4);
+    enum SPF_errcode_t return_value_SPF_response_errcode_5;
+    return_value_SPF_response_errcode_5=SPF_response_errcode(spf_response);
+    const char *return_value_SPF_strerror_6;
+    return_value_SPF_strerror_6=SPF_strerror(return_value_SPF_response_errcode_5);
+    printf("Response err: %s\n", return_value_SPF_strerror_6);
+    enum SPF_errcode_t return_value_SPF_response_errcode_7;
+    return_value_SPF_response_errcode_7=SPF_response_errcode(spf_response);
+    response_print_errors((const char *)(void *)0, spf_response, return_value_SPF_response_errcode_7);
   }
   printf("--^^--\n");
 }
@@ -14776,31 +14776,31 @@ static void response_print_errors(const char *context, struct SPF_response_struc
   if(!(context == ((const char *)NULL)))
     printf("Context: %s\n", context);
 
-  const char *return_value_SPF_strerror$1;
+  const char *return_value_SPF_strerror_1;
   if(!((signed int)err == SPF_E_SUCCESS))
   {
-    return_value_SPF_strerror$1=SPF_strerror(err);
-    printf("ErrorCode: (%d) %s\n", err, return_value_SPF_strerror$1);
+    return_value_SPF_strerror_1=SPF_strerror(err);
+    printf("ErrorCode: (%d) %s\n", err, return_value_SPF_strerror_1);
   }
 
-  signed int return_value_SPF_response_messages$2;
+  signed int return_value_SPF_response_messages_2;
   if(!(spf_response == ((struct SPF_response_struct *)NULL)))
   {
     i = 0;
     do
     {
-      return_value_SPF_response_messages$2=SPF_response_messages(spf_response);
-      if(i >= return_value_SPF_response_messages$2)
+      return_value_SPF_response_messages_2=SPF_response_messages(spf_response);
+      if(i >= return_value_SPF_response_messages_2)
         break;
 
       spf_error=SPF_response_message(spf_response, i);
-      char return_value_SPF_error_errorp$3;
-      return_value_SPF_error_errorp$3=SPF_error_errorp(spf_error);
-      char return_value_SPF_error_errorp$4;
-      return_value_SPF_error_errorp$4=SPF_error_errorp(spf_error);
-      const char *return_value_SPF_error_message$5;
-      return_value_SPF_error_message$5=SPF_error_message(spf_error);
-      printf("%s: %s%s\n", return_value_SPF_error_errorp$3 != 0 ? "Error" : "Warning", (return_value_SPF_error_errorp$4 != 0 ? (!(err != (enum SPF_errcode_t)0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? "[UNRETURNED] " : "", return_value_SPF_error_message$5);
+      char return_value_SPF_error_errorp_3;
+      return_value_SPF_error_errorp_3=SPF_error_errorp(spf_error);
+      char return_value_SPF_error_errorp_4;
+      return_value_SPF_error_errorp_4=SPF_error_errorp(spf_error);
+      const char *return_value_SPF_error_message_5;
+      return_value_SPF_error_message_5=SPF_error_message(spf_error);
+      printf("%s: %s%s\n", return_value_SPF_error_errorp_3 != 0 ? "Error" : "Warning", (return_value_SPF_error_errorp_4 != 0 ? (!(err != (enum SPF_errcode_t)0) ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? "[UNRETURNED] " : "", return_value_SPF_error_message_5);
       i = i + 1;
     }
     while((_Bool)1);

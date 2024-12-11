@@ -1,22 +1,22 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -176,7 +176,7 @@ static struct xdf * alloc_ebdffile(struct format_operations *ops, struct ebdf_ch
 static signed int alloc_transfer_objects(struct xdf *xdf);
 // block_signals
 // file xdffile.c line 46
-static void block_signals(struct anonymous$0 *oldmask);
+static void block_signals(struct anonymous_0 *oldmask);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -408,9 +408,9 @@ static void conv_ui8_ui8(unsigned int ns, void * restrict d, unsigned int std, c
 // convert_recduration
 // file gdf1.c line 347
 static void convert_recduration(double len, unsigned int *ratio);
-// convert_recduration$link1
+// convert_recduration_link1
 // file gdf2.c line 459
-static void convert_recduration$link1(double len$link1, unsigned int *ratio$link1);
+static void convert_recduration_link1(double len_link1, unsigned int *ratio_link1);
 // copy_configuration
 // file example/copy_datafile.c line 47
 signed int copy_configuration(struct xdf *dst, struct xdf *src);
@@ -642,9 +642,9 @@ static signed int get_field_type(signed int field);
 // get_xdfch_type
 // file gdf1.c line 626
 static enum xdftype get_xdfch_type(unsigned int gdf1type);
-// get_xdfch_type$link1
+// get_xdfch_type_link1
 // file gdf2.c line 764
-static enum xdftype get_xdfch_type$link1(unsigned int gdf2type);
+static enum xdftype get_xdfch_type_link1(unsigned int gdf2type);
 // getopt
 // file /usr/include/getopt.h line 150
 extern signed int getopt(signed int, char * const *, const char *);
@@ -707,16 +707,16 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
 static signed int proceed_set_conf(struct xdf *xdf, enum xdffield field, union optval val);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$2 *);
+extern signed int pthread_cond_destroy(union anonymous_2 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous$1 *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous_1 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -725,19 +725,19 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$1 *);
+extern signed int pthread_mutex_destroy(union anonymous_1 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$0 *, struct anonymous$0 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_0 *, struct anonymous_0 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -791,10 +791,10 @@ static void setup_convdata(struct xdf *xdf);
 static signed int setup_read_xdf(struct xdf *xdf, signed int fd);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$0 *, signed int);
+extern signed int sigaddset(struct anonymous_0 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$0 *);
+extern signed int sigemptyset(struct anonymous_0 *);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -827,7 +827,7 @@ static unsigned long int time_to_gdf2time(double posixtime);
 static void * transfer_thread_fn(void *ptr);
 // unblock_signals
 // file xdffile.c line 54
-static void unblock_signals(struct anonymous$0 *oldmask);
+static void unblock_signals(struct anonymous_0 *oldmask);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -958,13 +958,13 @@ void xdf_transconv_data(unsigned int ns, void * restrict dst, void * restrict sr
 // file ../src/xdfio.h line 147
 signed long int xdf_write(struct xdf *xdf, unsigned long int ns, ...);
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __lock
   signed int __lock;
@@ -992,10 +992,10 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$3 __data;
+  struct anonymous_3 __data;
   // __size
   char __size[48l];
   // __align
@@ -1030,7 +1030,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1289,9 +1289,9 @@ struct xdf
   // thid
   unsigned long int thid;
   // mtx
-  union anonymous$1 mtx;
+  union anonymous_1 mtx;
   // cond
-  union anonymous$2 cond;
+  union anonymous_2 cond;
   // order
   signed int order;
 };
@@ -1856,9 +1856,9 @@ signed int add_event(struct eventtable *table, struct xdfevent *evt)
   signed int index = (signed int)(table->nevent % (unsigned int)50);
   if(index == 0)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct eventbatch) /*1208ul*/ );
-    batch = (struct eventbatch *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct eventbatch) /*1208ul*/ );
+    batch = (struct eventbatch *)return_value_malloc_1;
     if(batch == ((struct eventbatch *)NULL))
       return -1;
 
@@ -1889,20 +1889,20 @@ signed int add_event_entry(struct eventtable *table, signed int code, const char
   if(!(evttype >= 0))
   {
     roundup = ((table->nentry + (unsigned int)1) / (unsigned int)64 + (unsigned int)1) * (unsigned int)64;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)table->entry, (unsigned long int)roundup * sizeof(struct evententry) /*16ul*/ );
-    entry = (struct evententry *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)table->entry, (unsigned long int)roundup * sizeof(struct evententry) /*16ul*/ );
+    entry = (struct evententry *)return_value_realloc_1;
     if(entry == ((struct evententry *)NULL))
       return -1;
 
     table->entry = entry;
     if(!(label == ((const char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(label);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(return_value_strlen$2 + (unsigned long int)1);
-      elabel = (char *)return_value_malloc$3;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(label);
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(return_value_strlen_2 + (unsigned long int)1);
+      elabel = (char *)return_value_malloc_3;
       if(elabel == ((char *)NULL))
         return -1;
 
@@ -1923,21 +1923,21 @@ signed int add_event_entry(struct eventtable *table, signed int code, const char
 static signed int add_to_batch(struct data_batch *curr, struct xdfch *ch, signed int foff)
 {
   unsigned int datalen;
-  signed int return_value_xdf_get_datasize$1;
-  return_value_xdf_get_datasize$1=xdf_get_datasize(ch->inmemtype);
-  datalen = (unsigned int)return_value_xdf_get_datasize$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_xdf_get_datasize_1;
+  return_value_xdf_get_datasize_1=xdf_get_datasize(ch->inmemtype);
+  datalen = (unsigned int)return_value_xdf_get_datasize_1;
+  _Bool tmp_if_expr_2;
   if(curr == ((struct data_batch *)NULL))
     return 0;
 
   else
   {
     if(curr->iarray == ch->iarray)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = curr->len == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = curr->len == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(curr->len == 0)
       {
@@ -1973,9 +1973,9 @@ static signed int add_to_batch(struct data_batch *curr, struct xdfch *ch, signed
 static struct xdf * alloc_ebdffile(struct format_operations *ops, struct ebdf_channel *defch)
 {
   struct ebdf_file *ebdf;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ebdf_file) /*752ul*/ );
-  ebdf = (struct ebdf_file *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ebdf_file) /*752ul*/ );
+  ebdf = (struct ebdf_file *)return_value_calloc_1;
   if(ebdf == ((struct ebdf_file *)NULL))
     return (struct xdf *)(void *)0;
 
@@ -1998,64 +1998,64 @@ static signed int alloc_transfer_objects(struct xdf *xdf)
   unsigned int samsize;
   samsize=compute_sample_size(xdf, 1);
   xdf->sample_size = samsize;
-  unsigned int return_value_compute_sample_size$1;
-  return_value_compute_sample_size$1=compute_sample_size(xdf, 0);
-  xdf->filerec_size = return_value_compute_sample_size$1 * xdf->ns_per_rec;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)xdf->numch * sizeof(struct convertion_data) /*72ul*/ );
-  xdf->convdata = (struct convertion_data *)return_value_malloc$2;
-  _Bool tmp_if_expr$4;
-  void *return_value_malloc$3;
+  unsigned int return_value_compute_sample_size_1;
+  return_value_compute_sample_size_1=compute_sample_size(xdf, 0);
+  xdf->filerec_size = return_value_compute_sample_size_1 * xdf->ns_per_rec;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)xdf->numch * sizeof(struct convertion_data) /*72ul*/ );
+  xdf->convdata = (struct convertion_data *)return_value_malloc_2;
+  _Bool tmp_if_expr_4;
+  void *return_value_malloc_3;
   if(xdf->convdata == ((struct convertion_data *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_malloc$3=malloc((unsigned long int)xdf->nbatch * sizeof(struct data_batch) /*20ul*/ );
-    xdf->batch = (struct data_batch *)return_value_malloc$3;
-    tmp_if_expr$4 = !(xdf->batch != ((struct data_batch *)NULL)) ? (_Bool)1 : (_Bool)0;
+    return_value_malloc_3=malloc((unsigned long int)xdf->nbatch * sizeof(struct data_batch) /*20ul*/ );
+    xdf->batch = (struct data_batch *)return_value_malloc_3;
+    tmp_if_expr_4 = !(xdf->batch != ((struct data_batch *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  void *return_value_malloc$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  void *return_value_malloc_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_malloc$5=malloc((unsigned long int)(xdf->ns_per_rec * samsize));
-    xdf->buff = (char *)return_value_malloc$5;
-    tmp_if_expr$6 = !(xdf->buff != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    return_value_malloc_5=malloc((unsigned long int)(xdf->ns_per_rec * samsize));
+    xdf->buff = (char *)return_value_malloc_5;
+    tmp_if_expr_6 = !(xdf->buff != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  void *return_value_malloc$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  void *return_value_malloc_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_malloc$7=malloc((unsigned long int)(xdf->ns_per_rec * samsize));
-    xdf->backbuff = (char *)return_value_malloc$7;
-    tmp_if_expr$8 = !(xdf->backbuff != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    return_value_malloc_7=malloc((unsigned long int)(xdf->ns_per_rec * samsize));
+    xdf->backbuff = (char *)return_value_malloc_7;
+    tmp_if_expr_8 = !(xdf->backbuff != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
     xdf->tmpbuff[(signed long int)0]=malloc((unsigned long int)(xdf->ns_per_rec * (unsigned int)8));
-    tmp_if_expr$9 = !(xdf->tmpbuff[(signed long int)0] != NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = !(xdf->tmpbuff[(signed long int)0] != NULL) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
     xdf->tmpbuff[(signed long int)1]=malloc((unsigned long int)(xdf->ns_per_rec * (unsigned int)8));
-    tmp_if_expr$10 = !(xdf->tmpbuff[(signed long int)1] != NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_10 = !(xdf->tmpbuff[(signed long int)1] != NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$10)
+  if(tmp_if_expr_10)
     return -1;
 
   else
@@ -2064,9 +2064,9 @@ static signed int alloc_transfer_objects(struct xdf *xdf)
 
 // block_signals
 // file xdffile.c line 46
-static void block_signals(struct anonymous$0 *oldmask)
+static void block_signals(struct anonymous_0 *oldmask)
 {
-  struct anonymous$0 mask;
+  struct anonymous_0 mask;
   sigemptyset(&mask);
   sigaddset(&mask, 25);
   pthread_sigmask(0, &mask, oldmask);
@@ -2077,21 +2077,21 @@ static void block_signals(struct anonymous$0 *oldmask)
 static signed int complete_file_content(struct xdf *xdf)
 {
   signed int retval = 0;
-  struct anonymous$0 oldmask;
+  struct anonymous_0 oldmask;
   block_signals(&oldmask);
   signed int return_value;
   return_value=xdf->ops->complete_file(xdf);
-  _Bool tmp_if_expr$2;
-  signed int return_value_fsync$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_fsync_1;
   if(!(return_value == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_fsync$1=fsync(xdf->fd);
-    tmp_if_expr$2 = return_value_fsync$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fsync_1=fsync(xdf->fd);
+    tmp_if_expr_2 = return_value_fsync_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     retval = -1;
 
   unblock_signals(&oldmask);
@@ -2109,17 +2109,17 @@ static signed int compute_batches(struct xdf *xdf, signed int assign)
   unsigned int foff;
   unsigned int dlen;
   struct xdfch *ch;
-  struct data_batch *tmp_if_expr$1;
+  struct data_batch *tmp_if_expr_1;
   if(!(assign == 0))
-    tmp_if_expr$1 = xdf->batch;
+    tmp_if_expr_1 = xdf->batch;
 
   else
-    tmp_if_expr$1 = &curr;
-  currb = tmp_if_expr$1;
+    tmp_if_expr_1 = &curr;
+  currb = tmp_if_expr_1;
   reset_batch(currb, (unsigned int)0, (unsigned int)0);
   iarr = (unsigned int)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_add_to_batch$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_add_to_batch_4;
   for( ; !(iarr >= xdf->narrays); iarr = iarr + 1u)
   {
     foff = (unsigned int)0;
@@ -2127,21 +2127,21 @@ static signed int compute_batches(struct xdf *xdf, signed int assign)
     for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
       if(ch->iarray >= 0)
       {
-        signed int return_value_xdf_get_datasize$2;
-        return_value_xdf_get_datasize$2=xdf_get_datasize(ch->inmemtype);
-        dlen = (unsigned int)return_value_xdf_get_datasize$2;
+        signed int return_value_xdf_get_datasize_2;
+        return_value_xdf_get_datasize_2=xdf_get_datasize(ch->inmemtype);
+        dlen = (unsigned int)return_value_xdf_get_datasize_2;
         if(!(xdf->narrays >= (unsigned int)ch->iarray))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (unsigned long int)((unsigned int)ch->offset + dlen) > xdf->array_stride[(signed long int)ch->iarray] ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (unsigned long int)((unsigned int)ch->offset + dlen) > xdf->array_stride[(signed long int)ch->iarray] ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           return -1;
 
         if(iarr == (unsigned int)ch->iarray)
         {
-          return_value_add_to_batch$4=add_to_batch(currb, ch, (signed int)foff);
-          if(return_value_add_to_batch$4 == 0)
+          return_value_add_to_batch_4=add_to_batch(currb, ch, (signed int)foff);
+          if(return_value_add_to_batch_4 == 0)
           {
             nbatch = nbatch + 1u;
             if(!(assign == 0))
@@ -2171,19 +2171,19 @@ static unsigned int compute_sample_size(struct xdf *xdf, signed int inmem)
   enum xdftype type;
   struct xdfch *ch = xdf->channels;
   ch = xdf->channels;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
     if(ch->iarray >= 0)
     {
       if(!(inmem == 0))
-        tmp_if_expr$1 = (signed int)ch->inmemtype;
+        tmp_if_expr_1 = (signed int)ch->inmemtype;
 
       else
-        tmp_if_expr$1 = (signed int)ch->infiletype;
-      type = (enum xdftype)tmp_if_expr$1;
-      signed int return_value_xdf_get_datasize$2;
-      return_value_xdf_get_datasize$2=xdf_get_datasize(type);
-      sample_size = sample_size + (unsigned int)return_value_xdf_get_datasize$2;
+        tmp_if_expr_1 = (signed int)ch->infiletype;
+      type = (enum xdftype)tmp_if_expr_1;
+      signed int return_value_xdf_get_datasize_2;
+      return_value_xdf_get_datasize_2=xdf_get_datasize(type);
+      sample_size = sample_size + (unsigned int)return_value_xdf_get_datasize_2;
     }
 
   return sample_size;
@@ -2195,12 +2195,12 @@ static void conv_d_d(unsigned int ns, void * restrict d, unsigned int std, const
 {
   const double *src = (const double *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = *src;
@@ -2216,12 +2216,12 @@ static void conv_d_f(unsigned int ns, void * restrict d, unsigned int std, const
 {
   const double *src = (const double *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -2237,12 +2237,12 @@ static void conv_d_i16(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const double *src = (const double *)s;
   signed short int *dst = (signed short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed short int)*src;
@@ -2259,12 +2259,12 @@ static void conv_d_i24(unsigned int ns, void * restrict d, unsigned int std, con
   const double *src = (const double *)s;
   signed char *dst = (signed char *)d;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     tmp.i32 = (signed int)*src;
@@ -2287,12 +2287,12 @@ static void conv_d_i32(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const double *src = (const double *)s;
   signed int *dst = (signed int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed int)*src;
@@ -2308,12 +2308,12 @@ static void conv_d_i64(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const double *src = (const double *)s;
   signed long int *dst = (signed long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed long int)*src;
@@ -2329,12 +2329,12 @@ static void conv_d_i8(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const double *src = (const double *)s;
   signed char *dst = (signed char *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed char)*src;
@@ -2350,12 +2350,12 @@ static void conv_d_u16(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const double *src = (const double *)s;
   unsigned short int *dst = (unsigned short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned short int)*src;
@@ -2372,12 +2372,12 @@ static void conv_d_u24(unsigned int ns, void * restrict d, unsigned int std, con
   const double *src = (const double *)s;
   signed char *dst = (signed char *)d;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     tmp.u32 = (unsigned int)*src;
@@ -2400,12 +2400,12 @@ static void conv_d_u32(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const double *src = (const double *)s;
   unsigned int *dst = (unsigned int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned int)*src;
@@ -2421,12 +2421,12 @@ static void conv_d_u64(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const double *src = (const double *)s;
   unsigned long int *dst = (unsigned long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned long int)*src;
@@ -2442,12 +2442,12 @@ static void conv_d_u8(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const double *src = (const double *)s;
   unsigned char *dst = (unsigned char *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned char)*src;
@@ -2463,12 +2463,12 @@ static void conv_f_d(unsigned int ns, void * restrict d, unsigned int std, const
 {
   const float *src = (const float *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -2484,12 +2484,12 @@ static void conv_f_f(unsigned int ns, void * restrict d, unsigned int std, const
 {
   const float *src = (const float *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = *src;
@@ -2505,12 +2505,12 @@ static void conv_f_i16(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const float *src = (const float *)s;
   signed short int *dst = (signed short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed short int)*src;
@@ -2527,12 +2527,12 @@ static void conv_f_i24(unsigned int ns, void * restrict d, unsigned int std, con
   const float *src = (const float *)s;
   signed char *dst = (signed char *)d;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     tmp.i32 = (signed int)*src;
@@ -2555,12 +2555,12 @@ static void conv_f_i32(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const float *src = (const float *)s;
   signed int *dst = (signed int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed int)*src;
@@ -2576,12 +2576,12 @@ static void conv_f_i64(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const float *src = (const float *)s;
   signed long int *dst = (signed long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed long int)*src;
@@ -2597,12 +2597,12 @@ static void conv_f_i8(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const float *src = (const float *)s;
   signed char *dst = (signed char *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed char)*src;
@@ -2618,12 +2618,12 @@ static void conv_f_u16(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const float *src = (const float *)s;
   unsigned short int *dst = (unsigned short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned short int)*src;
@@ -2640,12 +2640,12 @@ static void conv_f_u24(unsigned int ns, void * restrict d, unsigned int std, con
   const float *src = (const float *)s;
   signed char *dst = (signed char *)d;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     tmp.u32 = (unsigned int)*src;
@@ -2668,12 +2668,12 @@ static void conv_f_u32(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const float *src = (const float *)s;
   unsigned int *dst = (unsigned int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned int)*src;
@@ -2689,12 +2689,12 @@ static void conv_f_u64(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const float *src = (const float *)s;
   unsigned long int *dst = (unsigned long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned long int)*src;
@@ -2710,12 +2710,12 @@ static void conv_f_u8(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const float *src = (const float *)s;
   unsigned char *dst = (unsigned char *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned char)*src;
@@ -2731,12 +2731,12 @@ static void conv_i16_d(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const signed short int *src = (const signed short int *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -2752,12 +2752,12 @@ static void conv_i16_f(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const signed short int *src = (const signed short int *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -2773,12 +2773,12 @@ static void conv_i16_i32(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const signed short int *src = (const signed short int *)s;
   signed int *dst = (signed int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed int)*src;
@@ -2794,12 +2794,12 @@ static void conv_i16_i64(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const signed short int *src = (const signed short int *)s;
   signed long int *dst = (signed long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed long int)*src;
@@ -2816,12 +2816,12 @@ static void conv_i24_d(unsigned int ns, void * restrict d, unsigned int std, con
   double *dst = (double *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -2845,12 +2845,12 @@ static void conv_i24_f(unsigned int ns, void * restrict d, unsigned int std, con
   float *dst = (float *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -2874,12 +2874,12 @@ static void conv_i24_i32(unsigned int ns, void * restrict d, unsigned int std, c
   signed int *dst = (signed int *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -2903,12 +2903,12 @@ static void conv_i24_i64(unsigned int ns, void * restrict d, unsigned int std, c
   signed long int *dst = (signed long int *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -2931,12 +2931,12 @@ static void conv_i32_d(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const signed int *src = (const signed int *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -2952,12 +2952,12 @@ static void conv_i32_f(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const signed int *src = (const signed int *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -2973,12 +2973,12 @@ static void conv_i32_i16(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const signed int *src = (const signed int *)s;
   signed short int *dst = (signed short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed short int)*src;
@@ -2994,12 +2994,12 @@ static void conv_i32_i64(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const signed int *src = (const signed int *)s;
   signed long int *dst = (signed long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed long int)*src;
@@ -3015,12 +3015,12 @@ static void conv_i64_d(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const signed long int *src = (const signed long int *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -3036,12 +3036,12 @@ static void conv_i64_f(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const signed long int *src = (const signed long int *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -3057,12 +3057,12 @@ static void conv_i64_i16(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const signed long int *src = (const signed long int *)s;
   signed short int *dst = (signed short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed short int)*src;
@@ -3078,12 +3078,12 @@ static void conv_i64_i32(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const signed long int *src = (const signed long int *)s;
   signed int *dst = (signed int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed int)*src;
@@ -3099,12 +3099,12 @@ static void conv_i64_i8(unsigned int ns, void * restrict d, unsigned int std, co
 {
   const signed long int *src = (const signed long int *)s;
   signed char *dst = (signed char *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed char)*src;
@@ -3120,12 +3120,12 @@ static void conv_i8_d(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const signed char *src = (const signed char *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -3141,12 +3141,12 @@ static void conv_i8_f(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const signed char *src = (const signed char *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -3162,12 +3162,12 @@ static void conv_i8_i64(unsigned int ns, void * restrict d, unsigned int std, co
 {
   const signed char *src = (const signed char *)s;
   signed long int *dst = (signed long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (signed long int)*src;
@@ -3183,12 +3183,12 @@ static void conv_u16_d(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const unsigned short int *src = (const unsigned short int *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -3204,12 +3204,12 @@ static void conv_u16_f(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const unsigned short int *src = (const unsigned short int *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -3225,12 +3225,12 @@ static void conv_u16_u32(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const unsigned short int *src = (const unsigned short int *)s;
   unsigned int *dst = (unsigned int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned int)*src;
@@ -3246,12 +3246,12 @@ static void conv_u16_u64(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const unsigned short int *src = (const unsigned short int *)s;
   unsigned long int *dst = (unsigned long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned long int)*src;
@@ -3268,12 +3268,12 @@ static void conv_u24_d(unsigned int ns, void * restrict d, unsigned int std, con
   double *dst = (double *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -3297,12 +3297,12 @@ static void conv_u24_f(unsigned int ns, void * restrict d, unsigned int std, con
   float *dst = (float *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -3326,12 +3326,12 @@ static void conv_u24_u32(unsigned int ns, void * restrict d, unsigned int std, c
   unsigned int *dst = (unsigned int *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -3355,12 +3355,12 @@ static void conv_u24_u64(unsigned int ns, void * restrict d, unsigned int std, c
   unsigned long int *dst = (unsigned long int *)d;
   const signed char *src = (const signed char *)s;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     do
@@ -3383,12 +3383,12 @@ static void conv_u32_d(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const unsigned int *src = (const unsigned int *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -3404,12 +3404,12 @@ static void conv_u32_f(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const unsigned int *src = (const unsigned int *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -3425,12 +3425,12 @@ static void conv_u32_u16(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const unsigned int *src = (const unsigned int *)s;
   unsigned short int *dst = (unsigned short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned short int)*src;
@@ -3446,12 +3446,12 @@ static void conv_u32_u64(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const unsigned int *src = (const unsigned int *)s;
   unsigned long int *dst = (unsigned long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned long int)*src;
@@ -3467,12 +3467,12 @@ static void conv_u64_d(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const unsigned long int *src = (const unsigned long int *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -3488,12 +3488,12 @@ static void conv_u64_f(unsigned int ns, void * restrict d, unsigned int std, con
 {
   const unsigned long int *src = (const unsigned long int *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -3509,12 +3509,12 @@ static void conv_u64_u16(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const unsigned long int *src = (const unsigned long int *)s;
   unsigned short int *dst = (unsigned short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned short int)*src;
@@ -3530,12 +3530,12 @@ static void conv_u64_u32(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const unsigned long int *src = (const unsigned long int *)s;
   unsigned int *dst = (unsigned int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned int)*src;
@@ -3551,12 +3551,12 @@ static void conv_u64_u8(unsigned int ns, void * restrict d, unsigned int std, co
 {
   const unsigned long int *src = (const unsigned long int *)s;
   unsigned char *dst = (unsigned char *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned char)*src;
@@ -3572,12 +3572,12 @@ static void conv_u8_d(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const unsigned char *src = (const unsigned char *)s;
   double *dst = (double *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (double)*src;
@@ -3593,12 +3593,12 @@ static void conv_u8_f(unsigned int ns, void * restrict d, unsigned int std, cons
 {
   const unsigned char *src = (const unsigned char *)s;
   float *dst = (float *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (float)*src;
@@ -3614,12 +3614,12 @@ static void conv_u8_u64(unsigned int ns, void * restrict d, unsigned int std, co
 {
   const unsigned char *src = (const unsigned char *)s;
   unsigned long int *dst = (unsigned long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = (unsigned long int)*src;
@@ -3635,12 +3635,12 @@ static void conv_ui16_ui16(unsigned int ns, void * restrict d, unsigned int std,
 {
   const signed short int *src = (const signed short int *)s;
   signed short int *dst = (signed short int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = *src;
@@ -3656,12 +3656,12 @@ static void conv_ui24_ui24(unsigned int ns, void * restrict d, unsigned int std,
 {
   unsigned char *dstc = (unsigned char *)d;
   const unsigned char *srcc = (const unsigned char *)s;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     dstc[(signed long int)0] = srcc[(signed long int)0];
@@ -3680,12 +3680,12 @@ static void conv_ui32_ui24(unsigned int ns, void * restrict d, unsigned int std,
   const signed int *src = (const signed int *)s;
   signed char *dst = (signed char *)d;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     tmp.i32 = *src;
@@ -3708,12 +3708,12 @@ static void conv_ui32_ui32(unsigned int ns, void * restrict d, unsigned int std,
 {
   const signed int *src = (const signed int *)s;
   signed int *dst = (signed int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = *src;
@@ -3730,12 +3730,12 @@ static void conv_ui64_ui24(unsigned int ns, void * restrict d, unsigned int std,
   const signed long int *src = (const signed long int *)s;
   signed char *dst = (signed char *)d;
   union ui24 tmp;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     tmp.i32 = (signed int)*src;
@@ -3758,12 +3758,12 @@ static void conv_ui64_ui64(unsigned int ns, void * restrict d, unsigned int std,
 {
   const signed long int *src = (const signed long int *)s;
   signed long int *dst = (signed long int *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = *src;
@@ -3779,12 +3779,12 @@ static void conv_ui8_ui8(unsigned int ns, void * restrict d, unsigned int std, c
 {
   const signed char *src = (const signed char *)s;
   signed char *dst = (signed char *)d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *dst = *src;
@@ -3811,20 +3811,20 @@ static void convert_recduration(double len, unsigned int *ratio)
   }
 }
 
-// convert_recduration$link1
+// convert_recduration_link1
 // file gdf2.c line 459
-static void convert_recduration$link1(double len$link1, unsigned int *ratio$link1)
+static void convert_recduration_link1(double len_link1, unsigned int *ratio_link1)
 {
-  if(len$link1 >= 1.0)
+  if(len_link1 >= 1.0)
   {
-    ratio$link1[(signed long int)0] = (unsigned int)len$link1;
-    ratio$link1[(signed long int)1] = (unsigned int)1;
+    ratio_link1[(signed long int)0] = (unsigned int)len_link1;
+    ratio_link1[(signed long int)1] = (unsigned int)1;
   }
 
   else
   {
-    ratio$link1[(signed long int)0] = (unsigned int)1;
-    ratio$link1[(signed long int)1] = (unsigned int)(1.0 / len$link1);
+    ratio_link1[(signed long int)0] = (unsigned int)1;
+    ratio_link1[(signed long int)1] = (unsigned int)(1.0 / len_link1);
   }
 }
 
@@ -3841,40 +3841,40 @@ signed int copy_configuration(struct xdf *dst, struct xdf *src)
   const char *desc;
   xdf_copy_conf(dst, src);
   nch = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = nch;
+    tmp_post_1 = nch;
     nch = nch + 1;
-    srcch=xdf_get_channel(src, (unsigned int)tmp_post$1);
+    srcch=xdf_get_channel(src, (unsigned int)tmp_post_1);
     if(srcch == ((struct xdfch *)NULL))
       break;
 
     dstch=xdf_add_channel(dst, (const char *)(void *)0);
-    signed int return_value_xdf_copy_chconf$2;
-    return_value_xdf_copy_chconf$2=xdf_copy_chconf(dstch, srcch);
-    if(!(return_value_xdf_copy_chconf$2 == 0))
+    signed int return_value_xdf_copy_chconf_2;
+    return_value_xdf_copy_chconf_2=xdf_copy_chconf(dstch, srcch);
+    if(!(return_value_xdf_copy_chconf_2 == 0))
       return -1;
 
   }
   while((_Bool)1);
   xdf_get_conf(src, (enum xdffield)XDF_F_NEVTTYPE, &nevtcode, XDF_NOF);
   i = 0;
-  _Bool tmp_if_expr$5;
-  signed int return_value_xdf_add_evttype$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_xdf_add_evttype_4;
   for( ; !(i >= nevtcode); i = i + 1)
   {
-    signed int return_value_xdf_get_evttype$3;
-    return_value_xdf_get_evttype$3=xdf_get_evttype(src, (unsigned int)i, &evtcode, &desc);
-    if(!(return_value_xdf_get_evttype$3 >= 0))
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_xdf_get_evttype_3;
+    return_value_xdf_get_evttype_3=xdf_get_evttype(src, (unsigned int)i, &evtcode, &desc);
+    if(!(return_value_xdf_get_evttype_3 >= 0))
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_xdf_add_evttype$4=xdf_add_evttype(dst, evtcode, desc);
-      tmp_if_expr$5 = return_value_xdf_add_evttype$4 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_xdf_add_evttype_4=xdf_add_evttype(dst, evtcode, desc);
+      tmp_if_expr_5 = return_value_xdf_add_evttype_4 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return -1;
 
   }
@@ -3925,21 +3925,21 @@ signed int copy_eventtable(struct xdf *dst, struct xdf *src)
   double duration;
   xdf_get_conf(src, (enum xdffield)XDF_F_NEVENT, &nevent, XDF_NOF);
   i = 0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_xdf_add_event$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_xdf_add_event_2;
   for( ; !(i >= nevent); i = i + 1)
   {
-    signed int return_value_xdf_get_event$1;
-    return_value_xdf_get_event$1=xdf_get_event(src, (unsigned int)i, &evttype, &onset, &duration);
-    if(!(return_value_xdf_get_event$1 >= 0))
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_xdf_get_event_1;
+    return_value_xdf_get_event_1=xdf_get_event(src, (unsigned int)i, &evttype, &onset, &duration);
+    if(!(return_value_xdf_get_event_1 >= 0))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_xdf_add_event$2=xdf_add_event(dst, (signed int)evttype, onset, duration);
-      tmp_if_expr$3 = return_value_xdf_add_event$2 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_xdf_add_event_2=xdf_add_event(dst, (signed int)evttype, onset, duration);
+      tmp_if_expr_3 = return_value_xdf_add_event_2 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return -1;
 
   }
@@ -3955,9 +3955,9 @@ signed int copy_xdf(const char *genfilename, const char *reffilename, signed int
   signed int srcfmt;
   signed int retcode = -1;
   src=xdf_open(reffilename, 1, (enum xdffiletype)XDF_ANY);
-  signed int return_value_copy_configuration$1;
-  signed int return_value_copy_datastream$2;
-  signed int return_value_copy_eventtable$3;
+  signed int return_value_copy_configuration_1;
+  signed int return_value_copy_datastream_2;
+  signed int return_value_copy_eventtable_3;
   if(!(src == ((struct xdf *)NULL)))
   {
     xdf_get_conf(src, (enum xdffield)XDF_F_FILEFMT, &srcfmt, XDF_NOF);
@@ -3967,14 +3967,14 @@ signed int copy_xdf(const char *genfilename, const char *reffilename, signed int
     dst=xdf_open(genfilename, 0, (enum xdffiletype)dstfmt);
     if(!(dst == ((struct xdf *)NULL)))
     {
-      return_value_copy_configuration$1=copy_configuration(dst, src);
-      if(return_value_copy_configuration$1 == 0)
+      return_value_copy_configuration_1=copy_configuration(dst, src);
+      if(return_value_copy_configuration_1 == 0)
       {
-        return_value_copy_datastream$2=copy_datastream(dst, src);
-        if(return_value_copy_datastream$2 == 0)
+        return_value_copy_datastream_2=copy_datastream(dst, src);
+        if(return_value_copy_datastream_2 == 0)
         {
-          return_value_copy_eventtable$3=copy_eventtable(dst, src);
-          if(return_value_copy_eventtable$3 == 0)
+          return_value_copy_eventtable_3=copy_eventtable(dst, src);
+          if(return_value_copy_eventtable_3 == 0)
             retcode = 0;
 
         }
@@ -3998,9 +3998,9 @@ exit:
 struct eventtable * create_event_table(void)
 {
   struct eventtable *table = (struct eventtable *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct eventtable) /*40ul*/ );
-  table = (struct eventtable *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct eventtable) /*40ul*/ );
+  table = (struct eventtable *)return_value_malloc_1;
   if(table == ((struct eventtable *)NULL))
     return (struct eventtable *)(void *)0;
 
@@ -4025,31 +4025,31 @@ static struct xdf * create_read_xdf(enum xdffiletype type, const char *filename)
   signed int fd;
   signed int errnum = 0;
   fd=open_cloexec(filename, 00 | 0, (unsigned int)0);
-  _Bool tmp_if_expr$4;
-  signed long int return_value_lseek$3;
-  signed int return_value_setup_read_xdf$6;
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$8;
+  _Bool tmp_if_expr_4;
+  signed long int return_value_lseek_3;
+  signed int return_value_setup_read_xdf_6;
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_8;
   if(fd == -1)
     return (struct xdf *)(void *)0;
 
   else
   {
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)magickey, sizeof(unsigned char [8l]) /*8ul*/ );
-    if(return_value_read$2 == -1l)
-      tmp_if_expr$4 = (_Bool)1;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)magickey, sizeof(unsigned char [8l]) /*8ul*/ );
+    if(return_value_read_2 == -1l)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_lseek$3=lseek(fd, (signed long int)0, 0);
-      tmp_if_expr$4 = return_value_lseek$3 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+      return_value_lseek_3=lseek(fd, (signed long int)0, 0);
+      tmp_if_expr_4 = return_value_lseek_3 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      errnum = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      errnum = *return_value___errno_location_1;
       goto error;
     }
 
@@ -4062,30 +4062,30 @@ static struct xdf * create_read_xdf(enum xdffiletype type, const char *filename)
       xdf=xdf_alloc_file(gtype);
       if(xdf == ((struct xdf *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        errnum = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        errnum = *return_value___errno_location_5;
         goto error;
       }
 
-      return_value_setup_read_xdf$6=setup_read_xdf(xdf, fd);
-      if(return_value_setup_read_xdf$6 == 0)
+      return_value_setup_read_xdf_6=setup_read_xdf(xdf, fd);
+      if(return_value_setup_read_xdf_6 == 0)
         return xdf;
 
-      return_value___errno_location$7=__errno_location();
-      errnum = *return_value___errno_location$7;
+      return_value___errno_location_7=__errno_location();
+      errnum = *return_value___errno_location_7;
       xdf_close(xdf);
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = errnum;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = errnum;
       return (struct xdf *)(void *)0;
     }
 
   error:
     ;
     close(fd);
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    *return_value___errno_location$9 = errnum;
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    *return_value___errno_location_9 = errnum;
     return (struct xdf *)(void *)0;
   }
 }
@@ -4107,13 +4107,13 @@ static struct xdf * create_write_xdf(enum xdffiletype type, const char *filename
     xdf=xdf_alloc_file(type);
     if(xdf == ((struct xdf *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      errnum = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      errnum = *return_value___errno_location_1;
       close(fd);
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = errnum;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = errnum;
       return (struct xdf *)(void *)0;
     }
 
@@ -4165,9 +4165,9 @@ static signed int disk_transfer(struct xdf *xdf)
   {
     if(!(xdf->reportval >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = -xdf->reportval;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = -xdf->reportval;
       retval = -1;
     }
 
@@ -4206,19 +4206,19 @@ static signed int ebdf_complete_file(struct xdf *xdf)
   signed int retval = 0;
   char numrecstr[9l];
   snprintf(numrecstr, (unsigned long int)9, "%-8i", xdf->nrecord);
-  signed long int return_value_lseek$1;
-  return_value_lseek$1=lseek(xdf->fd, (signed long int)236, 0);
-  _Bool tmp_if_expr$3;
-  signed long int return_value_write$2;
-  if(!(return_value_lseek$1 >= 0l))
-    tmp_if_expr$3 = (_Bool)1;
+  signed long int return_value_lseek_1;
+  return_value_lseek_1=lseek(xdf->fd, (signed long int)236, 0);
+  _Bool tmp_if_expr_3;
+  signed long int return_value_write_2;
+  if(!(return_value_lseek_1 >= 0l))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_write$2=write(xdf->fd, (const void *)numrecstr, (unsigned long int)8);
-    tmp_if_expr$3 = return_value_write$2 < (signed long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_write_2=write(xdf->fd, (const void *)numrecstr, (unsigned long int)8);
+    tmp_if_expr_3 = return_value_write_2 < (signed long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     retval = -1;
 
   return retval;
@@ -4295,38 +4295,38 @@ static signed int ebdf_read_channels_header(struct ebdf_file *ebdf, struct _IO_F
   struct xdfch *ch;
   signed int ival;
   ch = ebdf->xdf.channels;
-  signed int return_value_read_string_field$1;
+  signed int return_value_read_string_field_1;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$1=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->label, (unsigned int)16);
-    if(!(return_value_read_string_field$1 == 0))
+    return_value_read_string_field_1=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->label, (unsigned int)16);
+    if(!(return_value_read_string_field_1 == 0))
       return -1;
 
   }
   ch = ebdf->xdf.channels;
-  signed int return_value_read_string_field$2;
+  signed int return_value_read_string_field_2;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$2=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->transducter, (unsigned int)80);
-    if(!(return_value_read_string_field$2 == 0))
+    return_value_read_string_field_2=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->transducter, (unsigned int)80);
+    if(!(return_value_read_string_field_2 == 0))
       return -1;
 
   }
   ch = ebdf->xdf.channels;
-  signed int return_value_read_string_field$3;
+  signed int return_value_read_string_field_3;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$3=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->unit, (unsigned int)8);
-    if(!(return_value_read_string_field$3 == 0))
+    return_value_read_string_field_3=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->unit, (unsigned int)8);
+    if(!(return_value_read_string_field_3 == 0))
       return -1;
 
   }
   ch = ebdf->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    signed int return_value_read_int_field$4;
-    return_value_read_int_field$4=read_int_field(file, &ival, (unsigned int)8);
-    if(!(return_value_read_int_field$4 == 0))
+    signed int return_value_read_int_field_4;
+    return_value_read_int_field_4=read_int_field(file, &ival, (unsigned int)8);
+    if(!(return_value_read_int_field_4 == 0))
       return -1;
 
     ch->physical_mm[(signed long int)0] = (double)ival;
@@ -4334,9 +4334,9 @@ static signed int ebdf_read_channels_header(struct ebdf_file *ebdf, struct _IO_F
   ch = ebdf->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    signed int return_value_read_int_field$5;
-    return_value_read_int_field$5=read_int_field(file, &ival, (unsigned int)8);
-    if(!(return_value_read_int_field$5 == 0))
+    signed int return_value_read_int_field_5;
+    return_value_read_int_field_5=read_int_field(file, &ival, (unsigned int)8);
+    if(!(return_value_read_int_field_5 == 0))
       return -1;
 
     ch->physical_mm[(signed long int)1] = (double)ival;
@@ -4344,9 +4344,9 @@ static signed int ebdf_read_channels_header(struct ebdf_file *ebdf, struct _IO_F
   ch = ebdf->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    signed int return_value_read_int_field$6;
-    return_value_read_int_field$6=read_int_field(file, &ival, (unsigned int)8);
-    if(!(return_value_read_int_field$6 == 0))
+    signed int return_value_read_int_field_6;
+    return_value_read_int_field_6=read_int_field(file, &ival, (unsigned int)8);
+    if(!(return_value_read_int_field_6 == 0))
       return -1;
 
     ch->digital_mm[(signed long int)0] = (double)ival;
@@ -4354,37 +4354,37 @@ static signed int ebdf_read_channels_header(struct ebdf_file *ebdf, struct _IO_F
   ch = ebdf->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    signed int return_value_read_int_field$7;
-    return_value_read_int_field$7=read_int_field(file, &ival, (unsigned int)8);
-    if(!(return_value_read_int_field$7 == 0))
+    signed int return_value_read_int_field_7;
+    return_value_read_int_field_7=read_int_field(file, &ival, (unsigned int)8);
+    if(!(return_value_read_int_field_7 == 0))
       return -1;
 
     ch->digital_mm[(signed long int)1] = (double)ival;
   }
   ch = ebdf->xdf.channels;
-  signed int return_value_read_string_field$8;
+  signed int return_value_read_string_field_8;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$8=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->prefiltering, (unsigned int)80);
-    if(!(return_value_read_string_field$8 == 0))
+    return_value_read_string_field_8=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->prefiltering, (unsigned int)80);
+    if(!(return_value_read_string_field_8 == 0))
       return -1;
 
   }
   ch = ebdf->xdf.channels;
-  signed int return_value_read_int_field$9;
+  signed int return_value_read_int_field_9;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_int_field$9=read_int_field(file, (signed int *)&ebdf->xdf.ns_per_rec, (unsigned int)8);
-    if(!(return_value_read_int_field$9 == 0))
+    return_value_read_int_field_9=read_int_field(file, (signed int *)&ebdf->xdf.ns_per_rec, (unsigned int)8);
+    if(!(return_value_read_int_field_9 == 0))
       return -1;
 
   }
   ch = ebdf->xdf.channels;
-  signed int return_value_read_string_field$10;
+  signed int return_value_read_string_field_10;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$10=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->reserved, (unsigned int)32);
-    if(!(return_value_read_string_field$10 == 0))
+    return_value_read_string_field_10=read_string_field(file, ((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->reserved, (unsigned int)32);
+    if(!(return_value_read_string_field_10 == 0))
       return -1;
 
   }
@@ -4404,79 +4404,79 @@ static signed int ebdf_read_file_header(struct ebdf_file *bdf, struct _IO_FILE *
     .tm_year=0, .tm_wday=0, .tm_yday=0, .tm_isdst=-1,
     .tm_gmtoff=0l, .tm_zone=((const char *)NULL) };
   fseek(file, (signed long int)8, 0);
-  signed int return_value_read_string_field$1;
-  return_value_read_string_field$1=read_string_field(file, bdf->subjstr, (unsigned int)80);
-  _Bool tmp_if_expr$3;
-  signed int return_value_read_string_field$2;
-  if(!(return_value_read_string_field$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_read_string_field_1;
+  return_value_read_string_field_1=read_string_field(file, bdf->subjstr, (unsigned int)80);
+  _Bool tmp_if_expr_3;
+  signed int return_value_read_string_field_2;
+  if(!(return_value_read_string_field_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_read_string_field$2=read_string_field(file, bdf->recstr, (unsigned int)80);
-    tmp_if_expr$3 = return_value_read_string_field$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_string_field_2=read_string_field(file, bdf->recstr, (unsigned int)80);
+    tmp_if_expr_3 = return_value_read_string_field_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_read_string_field$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_read_string_field_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_read_string_field$4=read_string_field(file, timestring, (unsigned int)16);
-    tmp_if_expr$5 = return_value_read_string_field$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_string_field_4=read_string_field(file, timestring, (unsigned int)16);
+    tmp_if_expr_5 = return_value_read_string_field_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_read_int_field$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_read_int_field_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_read_int_field$6=read_int_field(file, &hdrsize, (unsigned int)8);
-    tmp_if_expr$7 = return_value_read_int_field$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_int_field_6=read_int_field(file, &hdrsize, (unsigned int)8);
+    tmp_if_expr_7 = return_value_read_int_field_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_read_string_field$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_read_string_field_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_read_string_field$8=read_string_field(file, type, (unsigned int)44);
-    tmp_if_expr$9 = return_value_read_string_field$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_string_field_8=read_string_field(file, type, (unsigned int)44);
+    tmp_if_expr_9 = return_value_read_string_field_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_read_int_field$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_read_int_field_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_read_int_field$10=read_int_field(file, &bdf->xdf.nrecord, (unsigned int)8);
-    tmp_if_expr$11 = return_value_read_int_field$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_int_field_10=read_int_field(file, &bdf->xdf.nrecord, (unsigned int)8);
+    tmp_if_expr_11 = return_value_read_int_field_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_read_int_field$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed int return_value_read_int_field_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_read_int_field$12=read_int_field(file, &recdur, (unsigned int)8);
-    tmp_if_expr$13 = return_value_read_int_field$12 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_int_field_12=read_int_field(file, &recdur, (unsigned int)8);
+    tmp_if_expr_13 = return_value_read_int_field_12 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_read_int_field$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_read_int_field_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_read_int_field$14=read_int_field(file, (signed int *)&bdf->xdf.numch, (unsigned int)4);
-    tmp_if_expr$15 = return_value_read_int_field$14 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_int_field_14=read_int_field(file, (signed int *)&bdf->xdf.numch, (unsigned int)4);
+    tmp_if_expr_15 = return_value_read_int_field_14 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$15)
+  if(tmp_if_expr_15)
     return -1;
 
   else
@@ -4501,30 +4501,30 @@ static signed int ebdf_read_header(struct xdf *xdf)
   unsigned int i;
   struct ebdf_file *ebdf = (struct ebdf_file *)((char *)xdf - (signed long int)0ul);
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "rb");
-  signed int return_value_ebdf_read_channels_header$4;
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "rb");
+  signed int return_value_ebdf_read_channels_header_4;
   if(file == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_ebdf_read_file_header$2;
-    return_value_ebdf_read_file_header$2=ebdf_read_file_header(ebdf, file);
-    if(return_value_ebdf_read_file_header$2 == 0)
+    signed int return_value_ebdf_read_file_header_2;
+    return_value_ebdf_read_file_header_2=ebdf_read_file_header(ebdf, file);
+    if(return_value_ebdf_read_file_header_2 == 0)
     {
       i = (unsigned int)0;
       for( ; !(i >= xdf->numch); i = i + 1u)
       {
-        struct xdfch *return_value_xdf_alloc_channel$3;
-        return_value_xdf_alloc_channel$3=xdf_alloc_channel(xdf);
-        if(return_value_xdf_alloc_channel$3 == ((struct xdfch *)NULL))
+        struct xdfch *return_value_xdf_alloc_channel_3;
+        return_value_xdf_alloc_channel_3=xdf_alloc_channel(xdf);
+        if(return_value_xdf_alloc_channel_3 == ((struct xdfch *)NULL))
           goto exit;
 
       }
-      return_value_ebdf_read_channels_header$4=ebdf_read_channels_header(ebdf, file);
-      if(return_value_ebdf_read_channels_header$4 == 0)
+      return_value_ebdf_read_channels_header_4=ebdf_read_channels_header(ebdf, file);
+      if(return_value_ebdf_read_channels_header_4 == 0)
         retval = 0;
 
     }
@@ -4607,92 +4607,92 @@ static signed int ebdf_set_conf(struct xdf *xdf, enum xdffield field, union optv
 static signed int ebdf_write_channels_header(struct ebdf_file *bdf, struct _IO_FILE *file)
 {
   struct xdfch *ch = bdf->xdf.channels;
-  signed int return_value_fprintf$1;
+  signed int return_value_fprintf_1;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$1=fprintf(file, "%-16.16s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->label);
-    if(!(return_value_fprintf$1 >= 0))
+    return_value_fprintf_1=fprintf(file, "%-16.16s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->label);
+    if(!(return_value_fprintf_1 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$2;
+  signed int return_value_fprintf_2;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$2=fprintf(file, "%-80.80s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->transducter);
-    if(!(return_value_fprintf$2 >= 0))
+    return_value_fprintf_2=fprintf(file, "%-80.80s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->transducter);
+    if(!(return_value_fprintf_2 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$3;
+  signed int return_value_fprintf_3;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$3=fprintf(file, "%-8.8s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->unit);
-    if(!(return_value_fprintf$3 >= 0))
+    return_value_fprintf_3=fprintf(file, "%-8.8s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->unit);
+    if(!(return_value_fprintf_3 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$4;
+  signed int return_value_fprintf_4;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$4=fprintf(file, "%-8i", (signed int)ch->physical_mm[(signed long int)0]);
-    if(!(return_value_fprintf$4 >= 0))
+    return_value_fprintf_4=fprintf(file, "%-8i", (signed int)ch->physical_mm[(signed long int)0]);
+    if(!(return_value_fprintf_4 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$5;
+  signed int return_value_fprintf_5;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$5=fprintf(file, "%-8i", (signed int)ch->physical_mm[(signed long int)1]);
-    if(!(return_value_fprintf$5 >= 0))
+    return_value_fprintf_5=fprintf(file, "%-8i", (signed int)ch->physical_mm[(signed long int)1]);
+    if(!(return_value_fprintf_5 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$6;
+  signed int return_value_fprintf_6;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$6=fprintf(file, "%-8i", (signed int)ch->digital_mm[(signed long int)0]);
-    if(!(return_value_fprintf$6 >= 0))
+    return_value_fprintf_6=fprintf(file, "%-8i", (signed int)ch->digital_mm[(signed long int)0]);
+    if(!(return_value_fprintf_6 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$7;
+  signed int return_value_fprintf_7;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$7=fprintf(file, "%-8i", (signed int)ch->digital_mm[(signed long int)1]);
-    if(!(return_value_fprintf$7 >= 0))
+    return_value_fprintf_7=fprintf(file, "%-8i", (signed int)ch->digital_mm[(signed long int)1]);
+    if(!(return_value_fprintf_7 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$8;
+  signed int return_value_fprintf_8;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$8=fprintf(file, "%-80.80s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->prefiltering);
-    if(!(return_value_fprintf$8 >= 0))
+    return_value_fprintf_8=fprintf(file, "%-80.80s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->prefiltering);
+    if(!(return_value_fprintf_8 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$9;
+  signed int return_value_fprintf_9;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$9=fprintf(file, "%-8u", bdf->xdf.ns_per_rec);
-    if(!(return_value_fprintf$9 >= 0))
+    return_value_fprintf_9=fprintf(file, "%-8u", bdf->xdf.ns_per_rec);
+    if(!(return_value_fprintf_9 >= 0))
       return -1;
 
   }
   ch = bdf->xdf.channels;
-  signed int return_value_fprintf$10;
+  signed int return_value_fprintf_10;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$10=fprintf(file, "%-32.32s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->reserved);
-    if(!(return_value_fprintf$10 >= 0))
+    return_value_fprintf_10=fprintf(file, "%-32.32s", (const void *)((struct ebdf_channel *)((char *)ch - (signed long int)0ul))->reserved);
+    if(!(return_value_fprintf_10 >= 0))
       return -1;
 
   }
@@ -4709,18 +4709,18 @@ static signed int ebdf_write_file_header(struct ebdf_file *ebdf, struct _IO_FILE
   const unsigned char *mkey;
   enum xdffiletype type = ebdf->xdf.ops->type;
   struct tm ltm;
-  const unsigned char *tmp_if_expr$1;
+  const unsigned char *tmp_if_expr_1;
   if((signed int)type == XDF_BDF)
-    tmp_if_expr$1 = bdf_magickey;
+    tmp_if_expr_1 = bdf_magickey;
 
   else
-    tmp_if_expr$1 = edf_magickey;
-  mkey = tmp_if_expr$1;
+    tmp_if_expr_1 = edf_magickey;
+  mkey = tmp_if_expr_1;
   localtime_r(&ebdf->rectime, &ltm);
   strftime(timestring, sizeof(char [17l]) /*17ul*/ , "%d.%m.%y%H.%M.%S", &ltm);
-  unsigned long int return_value_fwrite$2;
-  return_value_fwrite$2=fwrite((const void *)mkey, (unsigned long int)8, (unsigned long int)1, file);
-  if(!(return_value_fwrite$2 >= 1ul))
+  unsigned long int return_value_fwrite_2;
+  return_value_fwrite_2=fwrite((const void *)mkey, (unsigned long int)8, (unsigned long int)1, file);
+  if(!(return_value_fwrite_2 >= 1ul))
     return -1;
 
   else
@@ -4741,42 +4741,42 @@ static signed int ebdf_write_header(struct xdf *xdf)
   signed int retval = 0;
   struct ebdf_file *bdf = (struct ebdf_file *)((char *)xdf - (signed long int)0ul);
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "wb");
-  _Bool tmp_if_expr$4;
-  signed int return_value_ebdf_write_channels_header$3;
-  _Bool tmp_if_expr$7;
-  signed int return_value_fclose$6;
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "wb");
+  _Bool tmp_if_expr_4;
+  signed int return_value_ebdf_write_channels_header_3;
+  _Bool tmp_if_expr_7;
+  signed int return_value_fclose_6;
   if(file == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_ebdf_write_file_header$2;
-    return_value_ebdf_write_file_header$2=ebdf_write_file_header(bdf, file);
-    if(!(return_value_ebdf_write_file_header$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_ebdf_write_file_header_2;
+    return_value_ebdf_write_file_header_2=ebdf_write_file_header(bdf, file);
+    if(!(return_value_ebdf_write_file_header_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_ebdf_write_channels_header$3=ebdf_write_channels_header(bdf, file);
-      tmp_if_expr$4 = return_value_ebdf_write_channels_header$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_ebdf_write_channels_header_3=ebdf_write_channels_header(bdf, file);
+      tmp_if_expr_4 = return_value_ebdf_write_channels_header_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       retval = -1;
 
-    signed int return_value_fflush$5;
-    return_value_fflush$5=fflush(file);
-    if(!(return_value_fflush$5 == 0))
-      tmp_if_expr$7 = (_Bool)1;
+    signed int return_value_fflush_5;
+    return_value_fflush_5=fflush(file);
+    if(!(return_value_fflush_5 == 0))
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_fclose$6=fclose(file);
-      tmp_if_expr$7 = return_value_fclose$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fclose_6=fclose(file);
+      tmp_if_expr_7 = return_value_fclose_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       retval = -1;
 
     lseek(xdf->fd, (signed long int)((xdf->numch + (unsigned int)1) * (unsigned int)256), 0);
@@ -4789,7 +4789,7 @@ static signed int ebdf_write_header(struct xdf *xdf)
 static signed int find_entry(struct eventtable *table, signed int code, const char *s)
 {
   unsigned int i = (unsigned int)0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= table->nentry); i = i + 1u)
     if((table->entry + (signed long int)i)->code == code)
     {
@@ -4797,8 +4797,8 @@ static signed int find_entry(struct eventtable *table, signed int code, const ch
       {
         if(!(s == ((const char *)NULL)))
         {
-          return_value_strcmp$1=strcmp((table->entry + (signed long int)i)->label, s);
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp((table->entry + (signed long int)i)->label, s);
+          if(return_value_strcmp_1 == 0)
             return (signed int)i;
 
         }
@@ -4834,32 +4834,32 @@ static _Bool find_match(enum xdftype *match, struct data_information *tinfo, con
   }
 
   i = initval;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; i >= 0 && !(i >= ntypes); i = i + inc)
   {
     info = &data_info[(signed long int)tp[(signed long int)i]];
     if(!(m_int == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = info->is_int == tint ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = info->is_int == tint ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       if(!(m_signed == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = info->is_signed == tsigned ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = info->is_signed == tsigned ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(!(m_size == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)info->size >= (signed int)tsize ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)info->size >= (signed int)tsize ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           *match = tp[(signed long int)i];
           return (_Bool)1;
@@ -4879,7 +4879,7 @@ static signed int finish_record(struct xdf *xdf)
 {
   char *buffer = xdf->buff + (signed long int)(xdf->sample_size * xdf->ns_buff);
   unsigned int ns = xdf->ns_per_rec - xdf->ns_buff;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(xdf->ns_buff == 0u)
     return 0;
 
@@ -4887,18 +4887,18 @@ static signed int finish_record(struct xdf *xdf)
   {
     do
     {
-      tmp_post$1 = ns;
+      tmp_post_1 = ns;
       ns = ns - 1u;
-      if(tmp_post$1 == 0u)
+      if(tmp_post_1 == 0u)
         break;
 
       memset((void *)buffer, 0, (unsigned long int)xdf->sample_size);
       buffer = buffer + (signed long int)xdf->sample_size;
     }
     while((_Bool)1);
-    signed int return_value_disk_transfer$2;
-    return_value_disk_transfer$2=disk_transfer(xdf);
-    return return_value_disk_transfer$2;
+    signed int return_value_disk_transfer_2;
+    return_value_disk_transfer_2=disk_transfer(xdf);
+    return return_value_disk_transfer_2;
   }
 }
 
@@ -4948,61 +4948,61 @@ static signed int gdf1_complete_file(struct xdf *xdf)
   signed int retval = 0;
   signed long int numrec = (signed long int)xdf->nrecord;
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "wb");
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "wb");
   signed long int evt_sect = xdf->hdr_offset + (signed long int)((unsigned int)xdf->nrecord * xdf->filerec_size);
-  _Bool tmp_if_expr$3;
-  signed int return_value_fseek$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_fseek_2;
   if(file == ((struct _IO_FILE *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_fseek$2=fseek(file, evt_sect, 0);
-    tmp_if_expr$3 = return_value_fseek$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_2=fseek(file, evt_sect, 0);
+    tmp_if_expr_3 = return_value_fseek_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_gdf1_write_event_table$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_gdf1_write_event_table_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_gdf1_write_event_table$4=gdf1_write_event_table((struct gdf1_file *)((char *)xdf - (signed long int)0ul), file);
-    tmp_if_expr$5 = return_value_gdf1_write_event_table$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_gdf1_write_event_table_4=gdf1_write_event_table((struct gdf1_file *)((char *)xdf - (signed long int)0ul), file);
+    tmp_if_expr_5 = return_value_gdf1_write_event_table_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_fseek$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_fseek_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_fseek$6=fseek(file, (signed long int)236, 0);
-    tmp_if_expr$7 = return_value_fseek$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_6=fseek(file, (signed long int)236, 0);
+    tmp_if_expr_7 = return_value_fseek_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_write64bval$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_write64bval_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_write64bval$8=write64bval(file, (unsigned int)1, (const void *)&numrec);
-    tmp_if_expr$9 = return_value_write64bval$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_write64bval_8=write64bval(file, (unsigned int)1, (const void *)&numrec);
+    tmp_if_expr_9 = return_value_write64bval_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_fclose$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_fclose_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_fclose$10=fclose(file);
-    tmp_if_expr$11 = return_value_fclose$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fclose_10=fclose(file);
+    tmp_if_expr_11 = return_value_fclose_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$11)
+  if(tmp_if_expr_11)
     retval = -1;
 
   return retval;
@@ -5081,7 +5081,7 @@ static signed int gdf1_interpret_events(struct gdf1_file *gdf1, unsigned int nev
   char desc[32l];
   struct xdfevent evt;
   i = (unsigned int)0;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   for( ; !(i >= nevent); i = i + 1u)
   {
     if(!(channel[(signed long int)i] == 0))
@@ -5095,15 +5095,15 @@ static signed int gdf1_interpret_events(struct gdf1_file *gdf1, unsigned int nev
 
     evt.onset = (double)pos[(signed long int)i] / fs;
     if(dur == ((unsigned int *)NULL))
-      tmp_if_expr$1 = (double)-1;
+      tmp_if_expr_1 = (double)-1;
 
     else
-      tmp_if_expr$1 = (double)dur[(signed long int)i] / fs;
-    evt.duration = tmp_if_expr$1;
+      tmp_if_expr_1 = (double)dur[(signed long int)i] / fs;
+    evt.duration = tmp_if_expr_1;
     evt.evttype = evttype;
-    signed int return_value_add_event$2;
-    return_value_add_event$2=add_event(gdf1->xdf.table, &evt);
-    if(!(return_value_add_event$2 == 0))
+    signed int return_value_add_event_2;
+    return_value_add_event_2=add_event(gdf1->xdf.table, &evt);
+    if(!(return_value_add_event_2 == 0))
       return -1;
 
   }
@@ -5118,103 +5118,103 @@ static signed int gdf1_read_channels_header(struct gdf1_file *gdf1, struct _IO_F
   signed int i;
   unsigned int offset = (unsigned int)0;
   ch = gdf1->xdf.channels;
-  signed int return_value_read_string_field$1;
+  signed int return_value_read_string_field_1;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$1=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->label, (unsigned int)16);
-    if(!(return_value_read_string_field$1 == 0))
+    return_value_read_string_field_1=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->label, (unsigned int)16);
+    if(!(return_value_read_string_field_1 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_read_string_field$2;
+  signed int return_value_read_string_field_2;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$2=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->transducter, (unsigned int)80);
-    if(!(return_value_read_string_field$2 == 0))
+    return_value_read_string_field_2=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->transducter, (unsigned int)80);
+    if(!(return_value_read_string_field_2 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_read_string_field$3;
+  signed int return_value_read_string_field_3;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$3=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->unit, (unsigned int)8);
-    if(!(return_value_read_string_field$3 == 0))
-      return -1;
-
-  }
-  ch = gdf1->xdf.channels;
-  for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
-  {
-    signed int return_value_read64bval$4;
-    return_value_read64bval$4=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)0]);
-    if(!(return_value_read64bval$4 == 0))
+    return_value_read_string_field_3=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->unit, (unsigned int)8);
+    if(!(return_value_read_string_field_3 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    signed int return_value_read64bval$5;
-    return_value_read64bval$5=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)1]);
-    if(!(return_value_read64bval$5 == 0))
+    signed int return_value_read64bval_4;
+    return_value_read64bval_4=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)0]);
+    if(!(return_value_read64bval_4 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    signed long int gdf1_read_channels_header$$1$$6$$1$$val;
-    signed int return_value_read64bval$6;
-    return_value_read64bval$6=read64bval(file, (unsigned int)1, (void *)&gdf1_read_channels_header$$1$$6$$1$$val);
-    if(!(return_value_read64bval$6 == 0))
+    signed int return_value_read64bval_5;
+    return_value_read64bval_5=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)1]);
+    if(!(return_value_read64bval_5 == 0))
       return -1;
 
-    ch->digital_mm[(signed long int)0] = (double)gdf1_read_channels_header$$1$$6$$1$$val;
+  }
+  ch = gdf1->xdf.channels;
+  for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
+  {
+    signed long int gdf1_read_channels_header__1__6__1__val;
+    signed int return_value_read64bval_6;
+    return_value_read64bval_6=read64bval(file, (unsigned int)1, (void *)&gdf1_read_channels_header__1__6__1__val);
+    if(!(return_value_read64bval_6 == 0))
+      return -1;
+
+    ch->digital_mm[(signed long int)0] = (double)gdf1_read_channels_header__1__6__1__val;
   }
   ch = gdf1->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
     signed long int val;
-    signed int return_value_read64bval$7;
-    return_value_read64bval$7=read64bval(file, (unsigned int)1, (void *)&val);
-    if(!(return_value_read64bval$7 == 0))
+    signed int return_value_read64bval_7;
+    return_value_read64bval_7=read64bval(file, (unsigned int)1, (void *)&val);
+    if(!(return_value_read64bval_7 == 0))
       return -1;
 
     ch->digital_mm[(signed long int)1] = (double)val;
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_read_string_field$8;
+  signed int return_value_read_string_field_8;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$8=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->prefiltering, (unsigned int)80);
-    if(!(return_value_read_string_field$8 == 0))
+    return_value_read_string_field_8=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->prefiltering, (unsigned int)80);
+    if(!(return_value_read_string_field_8 == 0))
       return -1;
 
   }
   i = 0;
   ch = gdf1->xdf.channels;
-  signed int tmp_post$11;
+  signed int tmp_post_11;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    unsigned int gdf1_read_channels_header$$1$$9$$1$$val;
-    signed int return_value_read32bval$9;
-    return_value_read32bval$9=read32bval(file, (unsigned int)1, (void *)&gdf1_read_channels_header$$1$$9$$1$$val);
-    if(!(return_value_read32bval$9 == 0))
+    unsigned int gdf1_read_channels_header__1__9__1__val;
+    signed int return_value_read32bval_9;
+    return_value_read32bval_9=read32bval(file, (unsigned int)1, (void *)&gdf1_read_channels_header__1__9__1__val);
+    if(!(return_value_read32bval_9 == 0))
       return -1;
 
-    tmp_post$11 = i;
+    tmp_post_11 = i;
     i = i + 1;
-    if(tmp_post$11 == 0)
-      ch->owner->ns_per_rec = gdf1_read_channels_header$$1$$9$$1$$val;
+    if(tmp_post_11 == 0)
+      ch->owner->ns_per_rec = gdf1_read_channels_header__1__9__1__val;
 
     else
-      if(!(ch->owner->ns_per_rec == gdf1_read_channels_header$$1$$9$$1$$val))
+      if(!(ch->owner->ns_per_rec == gdf1_read_channels_header__1__9__1__val))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        *return_value___errno_location$10 = 1;
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        *return_value___errno_location_10 = 1;
         return -1;
       }
 
@@ -5224,19 +5224,19 @@ static signed int gdf1_read_channels_header(struct gdf1_file *gdf1, struct _IO_F
   {
     unsigned int type;
     signed int xdftype;
-    signed int return_value_read32bval$12;
-    return_value_read32bval$12=read32bval(file, (unsigned int)1, (void *)&type);
-    if(!(return_value_read32bval$12 == 0))
+    signed int return_value_read32bval_12;
+    return_value_read32bval_12=read32bval(file, (unsigned int)1, (void *)&type);
+    if(!(return_value_read32bval_12 == 0))
       return -1;
 
-    enum xdftype return_value_get_xdfch_type$14;
-    return_value_get_xdfch_type$14=get_xdfch_type(type);
-    xdftype = (signed int)return_value_get_xdfch_type$14;
+    enum xdftype return_value_get_xdfch_type_14;
+    return_value_get_xdfch_type_14=get_xdfch_type(type);
+    xdftype = (signed int)return_value_get_xdfch_type_14;
     if(xdftype == -1)
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      *return_value___errno_location$13 = 84;
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      *return_value___errno_location_13 = 84;
       return -1;
     }
 
@@ -5244,17 +5244,17 @@ static signed int gdf1_read_channels_header(struct gdf1_file *gdf1, struct _IO_F
     ch->inmemtype = ch->infiletype;
     ch->digital_inmem = 1;
     ch->offset = (signed int)offset;
-    signed int return_value_xdf_get_datasize$15;
-    return_value_xdf_get_datasize$15=xdf_get_datasize(ch->inmemtype);
-    offset = offset + (unsigned int)return_value_xdf_get_datasize$15;
+    signed int return_value_xdf_get_datasize_15;
+    return_value_xdf_get_datasize_15=xdf_get_datasize(ch->inmemtype);
+    offset = offset + (unsigned int)return_value_xdf_get_datasize_15;
   }
   gdf1->xdf.filerec_size = offset * gdf1->xdf.ns_per_rec;
   ch = gdf1->xdf.channels;
-  signed int return_value_read_string_field$16;
+  signed int return_value_read_string_field_16;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$16=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->reserved, (unsigned int)32);
-    if(!(return_value_read_string_field$16 == 0))
+    return_value_read_string_field_16=read_string_field(file, ((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->reserved, (unsigned int)32);
+    if(!(return_value_read_string_field_16 == 0))
       return -1;
 
   }
@@ -5268,24 +5268,24 @@ static signed int gdf1_read_event_hdr(struct gdf1_file *gdf1, struct _IO_FILE *f
   signed long int flen;
   signed long int evt_sect;
   unsigned char fs24[8l];
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek(file, 0L, 2);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_fseek$1 == 0))
-    tmp_if_expr$2 = (_Bool)1;
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek(file, 0L, 2);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_fseek_1 == 0))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     flen=ftell(file);
-    tmp_if_expr$2 = flen < (signed long int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = flen < (signed long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_fread$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_read24bval$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_read32bval$8;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_fread_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_read24bval_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_read32bval_8;
+  if(tmp_if_expr_2)
     return -1;
 
   else
@@ -5299,33 +5299,33 @@ static signed int gdf1_read_event_hdr(struct gdf1_file *gdf1, struct _IO_FILE *f
 
     else
     {
-      signed int return_value_fseek$3;
-      return_value_fseek$3=fseek(file, evt_sect, 0);
-      if(!(return_value_fseek$3 == 0))
-        tmp_if_expr$5 = (_Bool)1;
+      signed int return_value_fseek_3;
+      return_value_fseek_3=fseek(file, evt_sect, 0);
+      if(!(return_value_fseek_3 == 0))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_fread$4=fread((void *)mode, (unsigned long int)1, (unsigned long int)1, file);
-        tmp_if_expr$5 = (return_value_fread$4 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_fread_4=fread((void *)mode, (unsigned long int)1, (unsigned long int)1, file);
+        tmp_if_expr_5 = (return_value_fread_4 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_read24bval$6=read24bval(file, (unsigned int)1, (void *)fs24);
-        tmp_if_expr$7 = return_value_read24bval$6 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read24bval_6=read24bval(file, (unsigned int)1, (void *)fs24);
+        tmp_if_expr_7 = return_value_read24bval_6 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
-        tmp_if_expr$9 = (_Bool)1;
+      if(tmp_if_expr_7)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_read32bval$8=read32bval(file, (unsigned int)1, (void *)nevent);
-        tmp_if_expr$9 = return_value_read32bval$8 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read32bval_8=read32bval(file, (unsigned int)1, (void *)nevent);
+        tmp_if_expr_9 = return_value_read32bval_8 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
+      if(tmp_if_expr_9)
         return -1;
 
       else
@@ -5349,21 +5349,21 @@ static signed int gdf1_read_event_table(struct gdf1_file *gdf1, struct _IO_FILE 
   unsigned int *dur = (unsigned int *)(void *)0;
   unsigned short int *code = (unsigned short int *)(void *)0;
   unsigned short int *ch = (unsigned short int *)(void *)0;
-  signed int return_value_gdf1_read_event_hdr$1;
-  return_value_gdf1_read_event_hdr$1=gdf1_read_event_hdr(gdf1, file, &nevt, &mode, &fs);
-  _Bool tmp_if_expr$7;
-  signed int return_value_read32bval$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_read16bval$8;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  signed int return_value_read16bval$10;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$14;
-  signed int return_value_read16bval$13;
-  _Bool tmp_if_expr$17;
-  signed int return_value_gdf1_interpret_events$16;
-  if(!(return_value_gdf1_read_event_hdr$1 == 0))
+  signed int return_value_gdf1_read_event_hdr_1;
+  return_value_gdf1_read_event_hdr_1=gdf1_read_event_hdr(gdf1, file, &nevt, &mode, &fs);
+  _Bool tmp_if_expr_7;
+  signed int return_value_read32bval_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_read16bval_8;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  signed int return_value_read16bval_10;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_14;
+  signed int return_value_read16bval_13;
+  _Bool tmp_if_expr_17;
+  signed int return_value_gdf1_interpret_events_16;
+  if(!(return_value_gdf1_read_event_hdr_1 == 0))
     return -1;
 
   else
@@ -5372,73 +5372,73 @@ static signed int gdf1_read_event_table(struct gdf1_file *gdf1, struct _IO_FILE 
 
     else
     {
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
-      onset = (unsigned int *)return_value_calloc$2;
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
-      code = (unsigned short int *)return_value_calloc$3;
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
-      ch = (unsigned short int *)return_value_calloc$4;
-      void *return_value_calloc$5;
-      return_value_calloc$5=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
-      dur = (unsigned int *)return_value_calloc$5;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
+      onset = (unsigned int *)return_value_calloc_2;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
+      code = (unsigned short int *)return_value_calloc_3;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
+      ch = (unsigned short int *)return_value_calloc_4;
+      void *return_value_calloc_5;
+      return_value_calloc_5=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
+      dur = (unsigned int *)return_value_calloc_5;
       if(ch == ((unsigned short int *)NULL) || code == ((unsigned short int *)NULL) || dur == ((unsigned int *)NULL) || onset == ((unsigned int *)NULL))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_read32bval$6=read32bval(file, nevt, (void *)onset);
-        tmp_if_expr$7 = return_value_read32bval$6 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read32bval_6=read32bval(file, nevt, (void *)onset);
+        tmp_if_expr_7 = return_value_read32bval_6 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
-        tmp_if_expr$9 = (_Bool)1;
+      if(tmp_if_expr_7)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_read16bval$8=read16bval(file, nevt, (void *)code);
-        tmp_if_expr$9 = return_value_read16bval$8 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read16bval_8=read16bval(file, nevt, (void *)code);
+        tmp_if_expr_9 = return_value_read16bval_8 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
-        tmp_if_expr$12 = (_Bool)1;
-
-      else
-      {
-        if((signed int)mode == 3)
-        {
-          return_value_read16bval$10=read16bval(file, nevt, (void *)ch);
-          tmp_if_expr$11 = return_value_read16bval$10 != 0 ? (_Bool)1 : (_Bool)0;
-        }
-
-        else
-          tmp_if_expr$11 = (_Bool)0;
-        tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
-      }
-      if(tmp_if_expr$12)
-        tmp_if_expr$15 = (_Bool)1;
+      if(tmp_if_expr_9)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if((signed int)mode == 3)
         {
-          return_value_read16bval$13=read16bval(file, nevt, (void *)dur);
-          tmp_if_expr$14 = return_value_read16bval$13 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_read16bval_10=read16bval(file, nevt, (void *)ch);
+          tmp_if_expr_11 = return_value_read16bval_10 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        tmp_if_expr$15 = tmp_if_expr$14 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$15)
-        tmp_if_expr$17 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_15 = (_Bool)1;
 
       else
       {
-        return_value_gdf1_interpret_events$16=gdf1_interpret_events(gdf1, nevt, fs, onset, code, ch, dur);
-        tmp_if_expr$17 = return_value_gdf1_interpret_events$16 != 0 ? (_Bool)1 : (_Bool)0;
+        if((signed int)mode == 3)
+        {
+          return_value_read16bval_13=read16bval(file, nevt, (void *)dur);
+          tmp_if_expr_14 = return_value_read16bval_13 != 0 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr_14 = (_Bool)0;
+        tmp_if_expr_15 = tmp_if_expr_14 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$17)
+      if(tmp_if_expr_15)
+        tmp_if_expr_17 = (_Bool)1;
+
+      else
+      {
+        return_value_gdf1_interpret_events_16=gdf1_interpret_events(gdf1, nevt, fs, onset, code, ch, dur);
+        tmp_if_expr_17 = return_value_gdf1_interpret_events_16 != 0 ? (_Bool)1 : (_Bool)0;
+      }
+      if(tmp_if_expr_17)
         retcode = -1;
 
       free((void *)onset);
@@ -5462,109 +5462,109 @@ static signed int gdf1_read_file_header(struct gdf1_file *gdf1, struct _IO_FILE 
     .tm_year=0, .tm_wday=0, .tm_yday=0, .tm_isdst=-1,
     .tm_gmtoff=0l, .tm_zone=((const char *)NULL) };
   fseek(file, (signed long int)8, 0);
-  signed int return_value_read_string_field$1;
-  return_value_read_string_field$1=read_string_field(file, gdf1->subjstr, (unsigned int)80);
-  _Bool tmp_if_expr$3;
-  signed int return_value_read_string_field$2;
-  if(!(return_value_read_string_field$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_read_string_field_1;
+  return_value_read_string_field_1=read_string_field(file, gdf1->subjstr, (unsigned int)80);
+  _Bool tmp_if_expr_3;
+  signed int return_value_read_string_field_2;
+  if(!(return_value_read_string_field_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_read_string_field$2=read_string_field(file, gdf1->recstr, (unsigned int)80);
-    tmp_if_expr$3 = return_value_read_string_field$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_string_field_2=read_string_field(file, gdf1->recstr, (unsigned int)80);
+    tmp_if_expr_3 = return_value_read_string_field_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_read_string_field$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_read_string_field_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_read_string_field$4=read_string_field(file, timestring, (unsigned int)16);
-    tmp_if_expr$5 = return_value_read_string_field$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_string_field_4=read_string_field(file, timestring, (unsigned int)16);
+    tmp_if_expr_5 = return_value_read_string_field_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_read64bval$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_read64bval_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$6=read64bval(file, (unsigned int)1, (void *)&hdrsize);
-    tmp_if_expr$7 = return_value_read64bval$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_6=read64bval(file, (unsigned int)1, (void *)&hdrsize);
+    tmp_if_expr_7 = return_value_read64bval_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_read64bval$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_read64bval_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$8=read64bval(file, (unsigned int)1, (void *)&gdf1->epid);
-    tmp_if_expr$9 = return_value_read64bval$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_8=read64bval(file, (unsigned int)1, (void *)&gdf1->epid);
+    tmp_if_expr_9 = return_value_read64bval_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_read64bval$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_read64bval_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$10=read64bval(file, (unsigned int)1, (void *)&gdf1->lid);
-    tmp_if_expr$11 = return_value_read64bval$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_10=read64bval(file, (unsigned int)1, (void *)&gdf1->lid);
+    tmp_if_expr_11 = return_value_read64bval_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_read64bval$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed int return_value_read64bval_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$12=read64bval(file, (unsigned int)1, (void *)&gdf1->tid);
-    tmp_if_expr$13 = return_value_read64bval$12 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_12=read64bval(file, (unsigned int)1, (void *)&gdf1->tid);
+    tmp_if_expr_13 = return_value_read64bval_12 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_read_string_field$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_read_string_field_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_read_string_field$14=read_string_field(file, gdf1->sn, (unsigned int)20);
-    tmp_if_expr$15 = return_value_read_string_field$14 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_string_field_14=read_string_field(file, gdf1->sn, (unsigned int)20);
+    tmp_if_expr_15 = return_value_read_string_field_14 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed int return_value_read64bval$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed int return_value_read64bval_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$16=read64bval(file, (unsigned int)1, (void *)&nrec);
-    tmp_if_expr$17 = return_value_read64bval$16 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_16=read64bval(file, (unsigned int)1, (void *)&nrec);
+    tmp_if_expr_17 = return_value_read64bval_16 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed int return_value_read32bval$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed int return_value_read32bval_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value_read32bval$18=read32bval(file, (unsigned int)2, (void *)recduration);
-    tmp_if_expr$19 = return_value_read32bval$18 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read32bval_18=read32bval(file, (unsigned int)2, (void *)recduration);
+    tmp_if_expr_19 = return_value_read32bval_18 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed int return_value_read32bval$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed int return_value_read32bval_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_read32bval$20=read32bval(file, (unsigned int)1, (void *)&nch);
-    tmp_if_expr$21 = return_value_read32bval$20 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read32bval_20=read32bval(file, (unsigned int)1, (void *)&nch);
+    tmp_if_expr_21 = return_value_read32bval_20 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$21)
+  if(tmp_if_expr_21)
     return -1;
 
   else
@@ -5590,20 +5590,20 @@ static signed int gdf1_read_header(struct xdf *xdf)
   struct xdfch **curr = &xdf->channels;
   struct gdf1_file *gdf1 = (struct gdf1_file *)((char *)xdf - (signed long int)0ul);
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "rb");
-  signed int return_value_gdf1_read_channels_header$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_gdf1_read_event_table$4;
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "rb");
+  signed int return_value_gdf1_read_channels_header_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_gdf1_read_event_table_4;
   if(file == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_gdf1_read_file_header$2;
-    return_value_gdf1_read_file_header$2=gdf1_read_file_header(gdf1, file);
-    if(return_value_gdf1_read_file_header$2 == 0)
+    signed int return_value_gdf1_read_file_header_2;
+    return_value_gdf1_read_file_header_2=gdf1_read_file_header(gdf1, file);
+    if(return_value_gdf1_read_file_header_2 == 0)
     {
       i = (unsigned int)0;
       for( ; !(i >= xdf->numch); i = i + 1u)
@@ -5614,16 +5614,16 @@ static signed int gdf1_read_header(struct xdf *xdf)
 
         curr = &(*curr)->next;
       }
-      return_value_gdf1_read_channels_header$3=gdf1_read_channels_header(gdf1, file);
-      if(!(return_value_gdf1_read_channels_header$3 == 0))
-        tmp_if_expr$5 = (_Bool)1;
+      return_value_gdf1_read_channels_header_3=gdf1_read_channels_header(gdf1, file);
+      if(!(return_value_gdf1_read_channels_header_3 == 0))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_gdf1_read_event_table$4=gdf1_read_event_table(gdf1, file);
-        tmp_if_expr$5 = return_value_gdf1_read_event_table$4 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_gdf1_read_event_table_4=gdf1_read_event_table(gdf1, file);
+        tmp_if_expr_5 = return_value_gdf1_read_event_table_4 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$5)
+      if(!tmp_if_expr_5)
         retval = 0;
 
     }
@@ -5713,8 +5713,8 @@ static signed int gdf1_setup_events(struct eventtable *table, double fs, unsigne
   const char *desc;
   struct xdfevent *evt;
   i = (unsigned int)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_sscanf$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_sscanf_1;
   for( ; !(i >= nevent); i = i + 1u)
   {
     evt=get_event(table, i);
@@ -5732,13 +5732,13 @@ static signed int gdf1_setup_events(struct eventtable *table, double fs, unsigne
     ch[(signed long int)i] = (unsigned short int)0;
     if(!(desc == ((const char *)NULL)))
     {
-      return_value_sscanf$1=sscanf(desc, "ch:%u", &chval);
-      tmp_if_expr$2 = return_value_sscanf$1 >= 1 ? (_Bool)1 : (_Bool)0;
+      return_value_sscanf_1=sscanf(desc, "ch:%u", &chval);
+      tmp_if_expr_2 = return_value_sscanf_1 >= 1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       ch[(signed long int)i] = (unsigned short int)chval;
       use_extevt = 1;
@@ -5756,47 +5756,47 @@ static signed int gdf1_setup_events(struct eventtable *table, double fs, unsigne
 static signed int gdf1_write_channels_header(struct gdf1_file *gdf1, struct _IO_FILE *file)
 {
   struct xdfch *ch = gdf1->xdf.channels;
-  signed int return_value_fprintf$1;
+  signed int return_value_fprintf_1;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$1=fprintf(file, "%-16.16s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->label);
-    if(!(return_value_fprintf$1 >= 0))
+    return_value_fprintf_1=fprintf(file, "%-16.16s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->label);
+    if(!(return_value_fprintf_1 >= 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_fprintf$2;
+  signed int return_value_fprintf_2;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$2=fprintf(file, "%-80.80s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->transducter);
-    if(!(return_value_fprintf$2 >= 0))
+    return_value_fprintf_2=fprintf(file, "%-80.80s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->transducter);
+    if(!(return_value_fprintf_2 >= 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_fprintf$3;
+  signed int return_value_fprintf_3;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$3=fprintf(file, "%-8.8s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->unit);
-    if(!(return_value_fprintf$3 >= 0))
+    return_value_fprintf_3=fprintf(file, "%-8.8s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->unit);
+    if(!(return_value_fprintf_3 >= 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_write64bval$4;
+  signed int return_value_write64bval_4;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write64bval$4=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)0]);
-    if(!(return_value_write64bval$4 == 0))
+    return_value_write64bval_4=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)0]);
+    if(!(return_value_write64bval_4 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_write64bval$5;
+  signed int return_value_write64bval_5;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write64bval$5=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)1]);
-    if(!(return_value_write64bval$5 == 0))
+    return_value_write64bval_5=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)1]);
+    if(!(return_value_write64bval_5 == 0))
       return -1;
 
   }
@@ -5804,28 +5804,28 @@ static signed int gdf1_write_channels_header(struct gdf1_file *gdf1, struct _IO_
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
     signed long int val = (signed long int)ch->digital_mm[(signed long int)0];
-    signed int return_value_write64bval$6;
-    return_value_write64bval$6=write64bval(file, (unsigned int)1, (const void *)&val);
-    if(!(return_value_write64bval$6 == 0))
+    signed int return_value_write64bval_6;
+    return_value_write64bval_6=write64bval(file, (unsigned int)1, (const void *)&val);
+    if(!(return_value_write64bval_6 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    signed long int gdf1_write_channels_header$$1$$7$$1$$val = (signed long int)ch->digital_mm[(signed long int)1];
-    signed int return_value_write64bval$7;
-    return_value_write64bval$7=write64bval(file, (unsigned int)1, (const void *)&gdf1_write_channels_header$$1$$7$$1$$val);
-    if(!(return_value_write64bval$7 == 0))
+    signed long int gdf1_write_channels_header__1__7__1__val = (signed long int)ch->digital_mm[(signed long int)1];
+    signed int return_value_write64bval_7;
+    return_value_write64bval_7=write64bval(file, (unsigned int)1, (const void *)&gdf1_write_channels_header__1__7__1__val);
+    if(!(return_value_write64bval_7 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_fprintf$8;
+  signed int return_value_fprintf_8;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$8=fprintf(file, "%-80.80s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->prefiltering);
-    if(!(return_value_fprintf$8 >= 0))
+    return_value_fprintf_8=fprintf(file, "%-80.80s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->prefiltering);
+    if(!(return_value_fprintf_8 >= 0))
       return -1;
 
   }
@@ -5833,9 +5833,9 @@ static signed int gdf1_write_channels_header(struct gdf1_file *gdf1, struct _IO_
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
     signed int nsprec = (signed int)gdf1->xdf.ns_per_rec;
-    signed int return_value_write32bval$9;
-    return_value_write32bval$9=write32bval(file, (unsigned int)1, (const void *)&nsprec);
-    if(!(return_value_write32bval$9 == 0))
+    signed int return_value_write32bval_9;
+    return_value_write32bval_9=write32bval(file, (unsigned int)1, (const void *)&nsprec);
+    if(!(return_value_write32bval_9 == 0))
       return -1;
 
   }
@@ -5843,18 +5843,18 @@ static signed int gdf1_write_channels_header(struct gdf1_file *gdf1, struct _IO_
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
     signed int type = (signed int)gdf1_types[(signed long int)ch->infiletype];
-    signed int return_value_write32bval$10;
-    return_value_write32bval$10=write32bval(file, (unsigned int)1, (const void *)&type);
-    if(!(return_value_write32bval$10 == 0))
+    signed int return_value_write32bval_10;
+    return_value_write32bval_10=write32bval(file, (unsigned int)1, (const void *)&type);
+    if(!(return_value_write32bval_10 == 0))
       return -1;
 
   }
   ch = gdf1->xdf.channels;
-  signed int return_value_fprintf$11;
+  signed int return_value_fprintf_11;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$11=fprintf(file, "%-32.32s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->reserved);
-    if(!(return_value_fprintf$11 >= 0))
+    return_value_fprintf_11=fprintf(file, "%-32.32s", (const void *)((struct gdf1_channel *)((char *)ch - (signed long int)0ul))->reserved);
+    if(!(return_value_fprintf_11 >= 0))
       return -1;
 
   }
@@ -5875,22 +5875,22 @@ static signed int gdf1_write_event_table(struct gdf1_file *gdf1, struct _IO_FILE
   unsigned int *dur = (unsigned int *)(void *)0;
   unsigned short int *code = (unsigned short int *)(void *)0;
   unsigned short int *ch = (unsigned short int *)(void *)0;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_fwrite$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_write24bval$7;
-  _Bool tmp_if_expr$10;
-  signed int return_value_write32bval$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_write32bval$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_write16bval$13;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$16;
-  signed int return_value_write16bval$15;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$19;
-  signed int return_value_write16bval$18;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_fwrite_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_write24bval_7;
+  _Bool tmp_if_expr_10;
+  signed int return_value_write32bval_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_write32bval_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_write16bval_13;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_16;
+  signed int return_value_write16bval_15;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_19;
+  signed int return_value_write16bval_18;
   if(nevt == 0u)
     return 0;
 
@@ -5899,93 +5899,93 @@ static signed int gdf1_write_event_table(struct gdf1_file *gdf1, struct _IO_FILE
     fs24[(signed long int)0] = (unsigned char)((unsigned int)fs & (unsigned int)0x000000FF);
     fs24[(signed long int)1] = (unsigned char)(((unsigned int)fs & (unsigned int)0x0000FF00) / (unsigned int)256);
     fs24[(signed long int)2] = (unsigned char)(((unsigned int)fs & (unsigned int)0x00FF0000) / (unsigned int)65536);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
-    onset = (unsigned int *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
-    code = (unsigned short int *)return_value_malloc$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
-    ch = (unsigned short int *)return_value_malloc$3;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
-    dur = (unsigned int *)return_value_malloc$4;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
+    onset = (unsigned int *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
+    code = (unsigned short int *)return_value_malloc_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
+    ch = (unsigned short int *)return_value_malloc_3;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
+    dur = (unsigned int *)return_value_malloc_4;
     if(ch == ((unsigned short int *)NULL) || code == ((unsigned short int *)NULL) || dur == ((unsigned int *)NULL) || onset == ((unsigned int *)NULL))
       retcode = -1;
 
     gdf1_setup_events(table, fs, &mode, onset, code, ch, dur);
     if(!(retcode == 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$5=fwrite((const void *)&mode, (unsigned long int)1, (unsigned long int)1, file);
-      tmp_if_expr$6 = (return_value_fwrite$5 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_5=fwrite((const void *)&mode, (unsigned long int)1, (unsigned long int)1, file);
+      tmp_if_expr_6 = (return_value_fwrite_5 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_write24bval$7=write24bval(file, (unsigned int)1, (const void *)fs24);
-      tmp_if_expr$8 = return_value_write24bval$7 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write24bval_7=write24bval(file, (unsigned int)1, (const void *)fs24);
+      tmp_if_expr_8 = return_value_write24bval_7 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$9=write32bval(file, (unsigned int)1, (const void *)&nevt);
-      tmp_if_expr$10 = return_value_write32bval$9 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_9=write32bval(file, (unsigned int)1, (const void *)&nevt);
+      tmp_if_expr_10 = return_value_write32bval_9 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$11=write32bval(file, nevt, (const void *)onset);
-      tmp_if_expr$12 = return_value_write32bval$11 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_11=write32bval(file, nevt, (const void *)onset);
+      tmp_if_expr_12 = return_value_write32bval_11 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
-      tmp_if_expr$14 = (_Bool)1;
+    if(tmp_if_expr_12)
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_write16bval$13=write16bval(file, nevt, (const void *)code);
-      tmp_if_expr$14 = return_value_write16bval$13 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write16bval_13=write16bval(file, nevt, (const void *)code);
+      tmp_if_expr_14 = return_value_write16bval_13 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
-      tmp_if_expr$17 = (_Bool)1;
-
-    else
-    {
-      if((signed int)mode == 3)
-      {
-        return_value_write16bval$15=write16bval(file, nevt, (const void *)ch);
-        tmp_if_expr$16 = return_value_write16bval$15 != 0 ? (_Bool)1 : (_Bool)0;
-      }
-
-      else
-        tmp_if_expr$16 = (_Bool)0;
-      tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
-    }
-    if(tmp_if_expr$17)
-      tmp_if_expr$20 = (_Bool)1;
+    if(tmp_if_expr_14)
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
       if((signed int)mode == 3)
       {
-        return_value_write16bval$18=write16bval(file, nevt, (const void *)dur);
-        tmp_if_expr$19 = return_value_write16bval$18 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_write16bval_15=write16bval(file, nevt, (const void *)ch);
+        tmp_if_expr_16 = return_value_write16bval_15 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$19 = (_Bool)0;
-      tmp_if_expr$20 = tmp_if_expr$19 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (_Bool)0;
+      tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$20)
+    if(tmp_if_expr_17)
+      tmp_if_expr_20 = (_Bool)1;
+
+    else
+    {
+      if((signed int)mode == 3)
+      {
+        return_value_write16bval_18=write16bval(file, nevt, (const void *)dur);
+        tmp_if_expr_19 = return_value_write16bval_18 != 0 ? (_Bool)1 : (_Bool)0;
+      }
+
+      else
+        tmp_if_expr_19 = (_Bool)0;
+      tmp_if_expr_20 = tmp_if_expr_19 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr_20)
       retcode = -1;
 
     free((void *)onset);
@@ -6014,96 +6014,96 @@ static signed int gdf1_write_file_header(struct gdf1_file *gdf1, struct _IO_FILE
   localtime_r(&gdf1->rectime, &ltm);
   strftime(timestring, sizeof(char [17l]) /*17ul*/ , "%Y%m%d%H%M%S00", &ltm);
   snprintf(key, sizeof(char [9l]) /*9ul*/ , "GDF 1.%02u", gdf1->version);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)key, (unsigned long int)8, (unsigned long int)1, file);
-  _Bool tmp_if_expr$4;
-  signed int return_value_write64bval$3;
-  _Bool tmp_if_expr$6;
-  signed int return_value_write64bval$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_write64bval$7;
-  _Bool tmp_if_expr$10;
-  signed int return_value_write64bval$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_fprintf$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_write64bval$13;
-  _Bool tmp_if_expr$16;
-  signed int return_value_write32bval$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_write32bval$17;
-  if(!(return_value_fwrite$1 >= 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)key, (unsigned long int)8, (unsigned long int)1, file);
+  _Bool tmp_if_expr_4;
+  signed int return_value_write64bval_3;
+  _Bool tmp_if_expr_6;
+  signed int return_value_write64bval_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_write64bval_7;
+  _Bool tmp_if_expr_10;
+  signed int return_value_write64bval_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_fprintf_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_write64bval_13;
+  _Bool tmp_if_expr_16;
+  signed int return_value_write32bval_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_write32bval_17;
+  if(!(return_value_fwrite_1 >= 1ul))
     return -1;
 
   else
   {
-    signed int return_value_fprintf$2;
-    return_value_fprintf$2=fprintf(file, "%-80.80s%-80.80s%16s", (const void *)gdf1->subjstr, (const void *)gdf1->recstr, (const void *)timestring);
-    if(!(return_value_fprintf$2 >= 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_fprintf_2;
+    return_value_fprintf_2=fprintf(file, "%-80.80s%-80.80s%16s", (const void *)gdf1->subjstr, (const void *)gdf1->recstr, (const void *)timestring);
+    if(!(return_value_fprintf_2 >= 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$3=write64bval(file, (unsigned int)1, (const void *)&hdrsize);
-      tmp_if_expr$4 = return_value_write64bval$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_3=write64bval(file, (unsigned int)1, (const void *)&hdrsize);
+      tmp_if_expr_4 = return_value_write64bval_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$5=write64bval(file, (unsigned int)1, (const void *)&gdf1->epid);
-      tmp_if_expr$6 = return_value_write64bval$5 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_5=write64bval(file, (unsigned int)1, (const void *)&gdf1->epid);
+      tmp_if_expr_6 = return_value_write64bval_5 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$7=write64bval(file, (unsigned int)1, (const void *)&gdf1->lid);
-      tmp_if_expr$8 = return_value_write64bval$7 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_7=write64bval(file, (unsigned int)1, (const void *)&gdf1->lid);
+      tmp_if_expr_8 = return_value_write64bval_7 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$9=write64bval(file, (unsigned int)1, (const void *)&gdf1->tid);
-      tmp_if_expr$10 = return_value_write64bval$9 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_9=write64bval(file, (unsigned int)1, (const void *)&gdf1->tid);
+      tmp_if_expr_10 = return_value_write64bval_9 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_fprintf$11=fprintf(file, "%-20.20s", (const void *)gdf1->sn);
-      tmp_if_expr$12 = return_value_fprintf$11 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fprintf_11=fprintf(file, "%-20.20s", (const void *)gdf1->sn);
+      tmp_if_expr_12 = return_value_fprintf_11 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
-      tmp_if_expr$14 = (_Bool)1;
+    if(tmp_if_expr_12)
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$13=write64bval(file, (unsigned int)1, (const void *)&nrec);
-      tmp_if_expr$14 = return_value_write64bval$13 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_13=write64bval(file, (unsigned int)1, (const void *)&nrec);
+      tmp_if_expr_14 = return_value_write64bval_13 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
-      tmp_if_expr$16 = (_Bool)1;
+    if(tmp_if_expr_14)
+      tmp_if_expr_16 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$15=write32bval(file, (unsigned int)2, (const void *)recduration);
-      tmp_if_expr$16 = return_value_write32bval$15 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_15=write32bval(file, (unsigned int)2, (const void *)recduration);
+      tmp_if_expr_16 = return_value_write32bval_15 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$16)
-      tmp_if_expr$18 = (_Bool)1;
+    if(tmp_if_expr_16)
+      tmp_if_expr_18 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$17=write32bval(file, (unsigned int)1, (const void *)&nch);
-      tmp_if_expr$18 = return_value_write32bval$17 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_17=write32bval(file, (unsigned int)1, (const void *)&nch);
+      tmp_if_expr_18 = return_value_write32bval_17 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$18)
+    if(tmp_if_expr_18)
       return -1;
 
     else
@@ -6121,42 +6121,42 @@ static signed int gdf1_write_header(struct xdf *xdf)
   signed int retval = 0;
   struct gdf1_file *gdf1 = (struct gdf1_file *)((char *)xdf - (signed long int)0ul);
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "wb");
-  _Bool tmp_if_expr$4;
-  signed int return_value_gdf1_write_channels_header$3;
-  _Bool tmp_if_expr$7;
-  signed int return_value_fclose$6;
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "wb");
+  _Bool tmp_if_expr_4;
+  signed int return_value_gdf1_write_channels_header_3;
+  _Bool tmp_if_expr_7;
+  signed int return_value_fclose_6;
   if(file == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_gdf1_write_file_header$2;
-    return_value_gdf1_write_file_header$2=gdf1_write_file_header(gdf1, file);
-    if(!(return_value_gdf1_write_file_header$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_gdf1_write_file_header_2;
+    return_value_gdf1_write_file_header_2=gdf1_write_file_header(gdf1, file);
+    if(!(return_value_gdf1_write_file_header_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_gdf1_write_channels_header$3=gdf1_write_channels_header(gdf1, file);
-      tmp_if_expr$4 = return_value_gdf1_write_channels_header$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_gdf1_write_channels_header_3=gdf1_write_channels_header(gdf1, file);
+      tmp_if_expr_4 = return_value_gdf1_write_channels_header_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       retval = -1;
 
-    signed int return_value_fflush$5;
-    return_value_fflush$5=fflush(file);
-    if(!(return_value_fflush$5 == 0))
-      tmp_if_expr$7 = (_Bool)1;
+    signed int return_value_fflush_5;
+    return_value_fflush_5=fflush(file);
+    if(!(return_value_fflush_5 == 0))
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_fclose$6=fclose(file);
-      tmp_if_expr$7 = return_value_fclose$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fclose_6=fclose(file);
+      tmp_if_expr_7 = return_value_fclose_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       retval = -1;
 
     lseek(xdf->fd, (signed long int)((xdf->numch + (unsigned int)1) * (unsigned int)256), 0);
@@ -6171,61 +6171,61 @@ static signed int gdf2_complete_file(struct xdf *xdf)
   signed int retval = 0;
   signed long int numrec = (signed long int)xdf->nrecord;
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "wb");
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "wb");
   signed long int evt_sect = xdf->hdr_offset + (signed long int)((unsigned int)xdf->nrecord * xdf->filerec_size);
-  _Bool tmp_if_expr$3;
-  signed int return_value_fseek$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_fseek_2;
   if(file == ((struct _IO_FILE *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_fseek$2=fseek(file, evt_sect, 0);
-    tmp_if_expr$3 = return_value_fseek$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_2=fseek(file, evt_sect, 0);
+    tmp_if_expr_3 = return_value_fseek_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_gdf2_write_event_table$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_gdf2_write_event_table_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_gdf2_write_event_table$4=gdf2_write_event_table((struct gdf2_file *)((char *)xdf - (signed long int)0ul), file);
-    tmp_if_expr$5 = return_value_gdf2_write_event_table$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_gdf2_write_event_table_4=gdf2_write_event_table((struct gdf2_file *)((char *)xdf - (signed long int)0ul), file);
+    tmp_if_expr_5 = return_value_gdf2_write_event_table_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_fseek$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_fseek_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_fseek$6=fseek(file, (signed long int)236, 0);
-    tmp_if_expr$7 = return_value_fseek$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_6=fseek(file, (signed long int)236, 0);
+    tmp_if_expr_7 = return_value_fseek_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_write64bval$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_write64bval_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_write64bval$8=write64bval(file, (unsigned int)1, (const void *)&numrec);
-    tmp_if_expr$9 = return_value_write64bval$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_write64bval_8=write64bval(file, (unsigned int)1, (const void *)&numrec);
+    tmp_if_expr_9 = return_value_write64bval_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_fclose$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_fclose_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_fclose$10=fclose(file);
-    tmp_if_expr$11 = return_value_fclose$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fclose_10=fclose(file);
+    tmp_if_expr_11 = return_value_fclose_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$11)
+  if(tmp_if_expr_11)
     retval = -1;
 
   return retval;
@@ -6392,7 +6392,7 @@ static signed int gdf2_interpret_events(struct gdf2_file *gdf2, unsigned int nev
   char desc[32l];
   struct xdfevent evt;
   i = (unsigned int)0;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   for( ; !(i >= nevent); i = i + 1u)
   {
     if(!(channel[(signed long int)i] == 0))
@@ -6406,15 +6406,15 @@ static signed int gdf2_interpret_events(struct gdf2_file *gdf2, unsigned int nev
 
     evt.onset = (double)pos[(signed long int)i] / fs;
     if(dur == ((unsigned int *)NULL))
-      tmp_if_expr$1 = (double)-1;
+      tmp_if_expr_1 = (double)-1;
 
     else
-      tmp_if_expr$1 = (double)dur[(signed long int)i] / fs;
-    evt.duration = tmp_if_expr$1;
+      tmp_if_expr_1 = (double)dur[(signed long int)i] / fs;
+    evt.duration = tmp_if_expr_1;
     evt.evttype = evttype;
-    signed int return_value_add_event$2;
-    return_value_add_event$2=add_event(gdf2->xdf.table, &evt);
-    if(!(return_value_add_event$2 == 0))
+    signed int return_value_add_event_2;
+    return_value_add_event_2=add_event(gdf2->xdf.table, &evt);
+    if(!(return_value_add_event_2 == 0))
       return -1;
 
   }
@@ -6429,135 +6429,135 @@ static signed int gdf2_read_channels_header(struct gdf2_file *gdf2, struct _IO_F
   signed int i;
   unsigned int offset = (unsigned int)0;
   ch = gdf2->xdf.channels;
-  signed int return_value_read_string_field$1;
+  signed int return_value_read_string_field_1;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$1=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->label, (unsigned int)16);
-    if(!(return_value_read_string_field$1 == 0))
+    return_value_read_string_field_1=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->label, (unsigned int)16);
+    if(!(return_value_read_string_field_1 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read_string_field$2;
+  signed int return_value_read_string_field_2;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$2=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->transducter, (unsigned int)80);
-    if(!(return_value_read_string_field$2 == 0))
+    return_value_read_string_field_2=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->transducter, (unsigned int)80);
+    if(!(return_value_read_string_field_2 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read_string_field$3;
+  signed int return_value_read_string_field_3;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$3=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->unit, (unsigned int)6);
-    if(!(return_value_read_string_field$3 == 0))
+    return_value_read_string_field_3=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->unit, (unsigned int)6);
+    if(!(return_value_read_string_field_3 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read16bval$4;
+  signed int return_value_read16bval_4;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read16bval$4=read16bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->dimcode);
-    if(!(return_value_read16bval$4 == 0))
+    return_value_read16bval_4=read16bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->dimcode);
+    if(!(return_value_read16bval_4 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read64bval$5;
+  signed int return_value_read64bval_5;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read64bval$5=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)0]);
-    if(!(return_value_read64bval$5 == 0))
+    return_value_read64bval_5=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)0]);
+    if(!(return_value_read64bval_5 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read64bval$6;
+  signed int return_value_read64bval_6;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read64bval$6=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)1]);
-    if(!(return_value_read64bval$6 == 0))
+    return_value_read64bval_6=read64bval(file, (unsigned int)1, (void *)&ch->physical_mm[(signed long int)1]);
+    if(!(return_value_read64bval_6 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read64bval$7;
+  signed int return_value_read64bval_7;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read64bval$7=read64bval(file, (unsigned int)1, (void *)&ch->digital_mm[(signed long int)0]);
-    if(!(return_value_read64bval$7 == 0))
+    return_value_read64bval_7=read64bval(file, (unsigned int)1, (void *)&ch->digital_mm[(signed long int)0]);
+    if(!(return_value_read64bval_7 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read64bval$8;
+  signed int return_value_read64bval_8;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read64bval$8=read64bval(file, (unsigned int)1, (void *)&ch->digital_mm[(signed long int)1]);
-    if(!(return_value_read64bval$8 == 0))
+    return_value_read64bval_8=read64bval(file, (unsigned int)1, (void *)&ch->digital_mm[(signed long int)1]);
+    if(!(return_value_read64bval_8 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read_string_field$9;
+  signed int return_value_read_string_field_9;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$9=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->filtering, (unsigned int)68);
-    if(!(return_value_read_string_field$9 == 0))
+    return_value_read_string_field_9=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->filtering, (unsigned int)68);
+    if(!(return_value_read_string_field_9 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read32bval$10;
+  signed int return_value_read32bval_10;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read32bval$10=read32bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->lp);
-    if(!(return_value_read32bval$10 == 0))
+    return_value_read32bval_10=read32bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->lp);
+    if(!(return_value_read32bval_10 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read32bval$11;
+  signed int return_value_read32bval_11;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read32bval$11=read32bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->hp);
-    if(!(return_value_read32bval$11 == 0))
+    return_value_read32bval_11=read32bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->hp);
+    if(!(return_value_read32bval_11 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read32bval$12;
+  signed int return_value_read32bval_12;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read32bval$12=read32bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->sp);
-    if(!(return_value_read32bval$12 == 0))
+    return_value_read32bval_12=read32bval(file, (unsigned int)1, (void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->sp);
+    if(!(return_value_read32bval_12 == 0))
       return -1;
 
   }
   i = 0;
   ch = gdf2->xdf.channels;
-  signed int tmp_post$15;
+  signed int tmp_post_15;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
     unsigned int val;
-    signed int return_value_read32bval$13;
-    return_value_read32bval$13=read32bval(file, (unsigned int)1, (void *)&val);
-    if(!(return_value_read32bval$13 == 0))
+    signed int return_value_read32bval_13;
+    return_value_read32bval_13=read32bval(file, (unsigned int)1, (void *)&val);
+    if(!(return_value_read32bval_13 == 0))
       return -1;
 
-    tmp_post$15 = i;
+    tmp_post_15 = i;
     i = i + 1;
-    if(tmp_post$15 == 0)
+    if(tmp_post_15 == 0)
       ch->owner->ns_per_rec = val;
 
     else
       if(!(ch->owner->ns_per_rec == val))
       {
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        *return_value___errno_location$14 = 1;
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        *return_value___errno_location_14 = 1;
         return -1;
       }
 
@@ -6567,19 +6567,19 @@ static signed int gdf2_read_channels_header(struct gdf2_file *gdf2, struct _IO_F
   {
     unsigned int type;
     signed int xdftype;
-    signed int return_value_read32bval$16;
-    return_value_read32bval$16=read32bval(file, (unsigned int)1, (void *)&type);
-    if(!(return_value_read32bval$16 == 0))
+    signed int return_value_read32bval_16;
+    return_value_read32bval_16=read32bval(file, (unsigned int)1, (void *)&type);
+    if(!(return_value_read32bval_16 == 0))
       return -1;
 
-    enum xdftype return_value_get_xdfch_type$18;
-    return_value_get_xdfch_type$18=get_xdfch_type$link1(type);
-    xdftype = (signed int)return_value_get_xdfch_type$18;
+    enum xdftype return_value_get_xdfch_type_18;
+    return_value_get_xdfch_type_18=get_xdfch_type_link1(type);
+    xdftype = (signed int)return_value_get_xdfch_type_18;
     if(xdftype == -1)
     {
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      *return_value___errno_location$17 = 84;
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      *return_value___errno_location_17 = 84;
       return -1;
     }
 
@@ -6587,35 +6587,35 @@ static signed int gdf2_read_channels_header(struct gdf2_file *gdf2, struct _IO_F
     ch->inmemtype = ch->infiletype;
     ch->digital_inmem = 1;
     ch->offset = (signed int)offset;
-    signed int return_value_xdf_get_datasize$19;
-    return_value_xdf_get_datasize$19=xdf_get_datasize(ch->inmemtype);
-    offset = offset + (unsigned int)return_value_xdf_get_datasize$19;
+    signed int return_value_xdf_get_datasize_19;
+    return_value_xdf_get_datasize_19=xdf_get_datasize(ch->inmemtype);
+    offset = offset + (unsigned int)return_value_xdf_get_datasize_19;
   }
   gdf2->xdf.filerec_size = offset * gdf2->xdf.ns_per_rec;
   ch = gdf2->xdf.channels;
-  signed int return_value_read32bval$20;
+  signed int return_value_read32bval_20;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read32bval$20=read32bval(file, (unsigned int)3, (void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->pos);
-    if(!(return_value_read32bval$20 == 0))
+    return_value_read32bval_20=read32bval(file, (unsigned int)3, (void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->pos);
+    if(!(return_value_read32bval_20 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  unsigned long int return_value_fread$21;
+  unsigned long int return_value_fread_21;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fread$21=fread((void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->impedance, (unsigned long int)1, (unsigned long int)1, file);
-    if(!(return_value_fread$21 >= 1ul))
+    return_value_fread_21=fread((void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->impedance, (unsigned long int)1, (unsigned long int)1, file);
+    if(!(return_value_fread_21 >= 1ul))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_read_string_field$22;
+  signed int return_value_read_string_field_22;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_read_string_field$22=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->reserved, (unsigned int)19);
-    if(!(return_value_read_string_field$22 == 0))
+    return_value_read_string_field_22=read_string_field(file, ((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->reserved, (unsigned int)19);
+    if(!(return_value_read_string_field_22 == 0))
       return -1;
 
   }
@@ -6629,24 +6629,24 @@ static signed int gdf2_read_event_hdr(struct gdf2_file *gdf2, struct _IO_FILE *f
   signed long int flen;
   signed long int evt_sect;
   unsigned char nevt24[3l];
-  signed int return_value_fseek$1;
-  return_value_fseek$1=fseek(file, 0L, 2);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_fseek$1 == 0))
-    tmp_if_expr$2 = (_Bool)1;
+  signed int return_value_fseek_1;
+  return_value_fseek_1=fseek(file, 0L, 2);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_fseek_1 == 0))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     flen=ftell(file);
-    tmp_if_expr$2 = flen < (signed long int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = flen < (signed long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_fread$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_read24bval$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_read32bval$8;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_fread_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_read24bval_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_read32bval_8;
+  if(tmp_if_expr_2)
     return -1;
 
   else
@@ -6660,33 +6660,33 @@ static signed int gdf2_read_event_hdr(struct gdf2_file *gdf2, struct _IO_FILE *f
 
     else
     {
-      signed int return_value_fseek$3;
-      return_value_fseek$3=fseek(file, evt_sect, 0);
-      if(!(return_value_fseek$3 == 0))
-        tmp_if_expr$5 = (_Bool)1;
+      signed int return_value_fseek_3;
+      return_value_fseek_3=fseek(file, evt_sect, 0);
+      if(!(return_value_fseek_3 == 0))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_fread$4=fread((void *)mode, (unsigned long int)1, (unsigned long int)1, file);
-        tmp_if_expr$5 = (return_value_fread$4 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_fread_4=fread((void *)mode, (unsigned long int)1, (unsigned long int)1, file);
+        tmp_if_expr_5 = (return_value_fread_4 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_read24bval$6=read24bval(file, (unsigned int)1, (void *)nevt24);
-        tmp_if_expr$7 = return_value_read24bval$6 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read24bval_6=read24bval(file, (unsigned int)1, (void *)nevt24);
+        tmp_if_expr_7 = return_value_read24bval_6 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
-        tmp_if_expr$9 = (_Bool)1;
+      if(tmp_if_expr_7)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_read32bval$8=read32bval(file, (unsigned int)1, (void *)fs);
-        tmp_if_expr$9 = return_value_read32bval$8 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read32bval_8=read32bval(file, (unsigned int)1, (void *)fs);
+        tmp_if_expr_9 = return_value_read32bval_8 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
+      if(tmp_if_expr_9)
         return -1;
 
       else
@@ -6710,21 +6710,21 @@ static signed int gdf2_read_event_table(struct gdf2_file *gdf2, struct _IO_FILE 
   unsigned int *dur = (unsigned int *)(void *)0;
   unsigned short int *code = (unsigned short int *)(void *)0;
   unsigned short int *ch = (unsigned short int *)(void *)0;
-  signed int return_value_gdf2_read_event_hdr$1;
-  return_value_gdf2_read_event_hdr$1=gdf2_read_event_hdr(gdf2, file, &nevt, &mode, &fs);
-  _Bool tmp_if_expr$7;
-  signed int return_value_read32bval$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_read16bval$8;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  signed int return_value_read16bval$10;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$14;
-  signed int return_value_read16bval$13;
-  _Bool tmp_if_expr$17;
-  signed int return_value_gdf2_interpret_events$16;
-  if(!(return_value_gdf2_read_event_hdr$1 == 0))
+  signed int return_value_gdf2_read_event_hdr_1;
+  return_value_gdf2_read_event_hdr_1=gdf2_read_event_hdr(gdf2, file, &nevt, &mode, &fs);
+  _Bool tmp_if_expr_7;
+  signed int return_value_read32bval_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_read16bval_8;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  signed int return_value_read16bval_10;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_14;
+  signed int return_value_read16bval_13;
+  _Bool tmp_if_expr_17;
+  signed int return_value_gdf2_interpret_events_16;
+  if(!(return_value_gdf2_read_event_hdr_1 == 0))
     return -1;
 
   else
@@ -6733,73 +6733,73 @@ static signed int gdf2_read_event_table(struct gdf2_file *gdf2, struct _IO_FILE 
 
     else
     {
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
-      onset = (unsigned int *)return_value_calloc$2;
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
-      code = (unsigned short int *)return_value_calloc$3;
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
-      ch = (unsigned short int *)return_value_calloc$4;
-      void *return_value_calloc$5;
-      return_value_calloc$5=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
-      dur = (unsigned int *)return_value_calloc$5;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
+      onset = (unsigned int *)return_value_calloc_2;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
+      code = (unsigned short int *)return_value_calloc_3;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)nevt, sizeof(unsigned short int) /*2ul*/ );
+      ch = (unsigned short int *)return_value_calloc_4;
+      void *return_value_calloc_5;
+      return_value_calloc_5=calloc((unsigned long int)nevt, sizeof(unsigned int) /*4ul*/ );
+      dur = (unsigned int *)return_value_calloc_5;
       if(ch == ((unsigned short int *)NULL) || code == ((unsigned short int *)NULL) || dur == ((unsigned int *)NULL) || onset == ((unsigned int *)NULL))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_read32bval$6=read32bval(file, nevt, (void *)onset);
-        tmp_if_expr$7 = return_value_read32bval$6 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read32bval_6=read32bval(file, nevt, (void *)onset);
+        tmp_if_expr_7 = return_value_read32bval_6 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
-        tmp_if_expr$9 = (_Bool)1;
+      if(tmp_if_expr_7)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_read16bval$8=read16bval(file, nevt, (void *)code);
-        tmp_if_expr$9 = return_value_read16bval$8 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_read16bval_8=read16bval(file, nevt, (void *)code);
+        tmp_if_expr_9 = return_value_read16bval_8 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
-        tmp_if_expr$12 = (_Bool)1;
-
-      else
-      {
-        if((signed int)mode == 3)
-        {
-          return_value_read16bval$10=read16bval(file, nevt, (void *)ch);
-          tmp_if_expr$11 = return_value_read16bval$10 != 0 ? (_Bool)1 : (_Bool)0;
-        }
-
-        else
-          tmp_if_expr$11 = (_Bool)0;
-        tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
-      }
-      if(tmp_if_expr$12)
-        tmp_if_expr$15 = (_Bool)1;
+      if(tmp_if_expr_9)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if((signed int)mode == 3)
         {
-          return_value_read16bval$13=read16bval(file, nevt, (void *)dur);
-          tmp_if_expr$14 = return_value_read16bval$13 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_read16bval_10=read16bval(file, nevt, (void *)ch);
+          tmp_if_expr_11 = return_value_read16bval_10 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        tmp_if_expr$15 = tmp_if_expr$14 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$15)
-        tmp_if_expr$17 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_15 = (_Bool)1;
 
       else
       {
-        return_value_gdf2_interpret_events$16=gdf2_interpret_events(gdf2, nevt, (double)fs, onset, code, ch, dur);
-        tmp_if_expr$17 = return_value_gdf2_interpret_events$16 != 0 ? (_Bool)1 : (_Bool)0;
+        if((signed int)mode == 3)
+        {
+          return_value_read16bval_13=read16bval(file, nevt, (void *)dur);
+          tmp_if_expr_14 = return_value_read16bval_13 != 0 ? (_Bool)1 : (_Bool)0;
+        }
+
+        else
+          tmp_if_expr_14 = (_Bool)0;
+        tmp_if_expr_15 = tmp_if_expr_14 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$17)
+      if(tmp_if_expr_15)
+        tmp_if_expr_17 = (_Bool)1;
+
+      else
+      {
+        return_value_gdf2_interpret_events_16=gdf2_interpret_events(gdf2, nevt, (double)fs, onset, code, ch, dur);
+        tmp_if_expr_17 = return_value_gdf2_interpret_events_16 != 0 ? (_Bool)1 : (_Bool)0;
+      }
+      if(tmp_if_expr_17)
         retcode = -1;
 
       free((void *)onset);
@@ -6819,209 +6819,209 @@ static signed int gdf2_read_file_header(struct gdf2_file *gdf2, struct _IO_FILE 
   unsigned short int nhdr_blk;
   signed long int nrec;
   fseek(file, (signed long int)8, 0);
-  signed int return_value_read_string_field$1;
-  return_value_read_string_field$1=read_string_field(file, gdf2->subjstr, (unsigned int)66);
-  _Bool tmp_if_expr$3;
-  signed int return_value_fseek$2;
-  if(!(return_value_read_string_field$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_read_string_field_1;
+  return_value_read_string_field_1=read_string_field(file, gdf2->subjstr, (unsigned int)66);
+  _Bool tmp_if_expr_3;
+  signed int return_value_fseek_2;
+  if(!(return_value_read_string_field_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_fseek$2=fseek(file, (signed long int)10, 1);
-    tmp_if_expr$3 = return_value_fseek$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_2=fseek(file, (signed long int)10, 1);
+    tmp_if_expr_3 = return_value_fseek_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_fread$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_fread_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_fread$4=fread((void *)&gdf2->addiction, (unsigned long int)1, (unsigned long int)1, file);
-    tmp_if_expr$5 = (return_value_fread$4 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fread_4=fread((void *)&gdf2->addiction, (unsigned long int)1, (unsigned long int)1, file);
+    tmp_if_expr_5 = (return_value_fread_4 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_fread$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_fread_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_fread$6=fread((void *)&gdf2->weight, (unsigned long int)1, (unsigned long int)1, file);
-    tmp_if_expr$7 = (return_value_fread$6 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fread_6=fread((void *)&gdf2->weight, (unsigned long int)1, (unsigned long int)1, file);
+    tmp_if_expr_7 = (return_value_fread_6 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  unsigned long int return_value_fread$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  unsigned long int return_value_fread_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_fread$8=fread((void *)&gdf2->height, (unsigned long int)1, (unsigned long int)1, file);
-    tmp_if_expr$9 = (return_value_fread$8 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fread_8=fread((void *)&gdf2->height, (unsigned long int)1, (unsigned long int)1, file);
+    tmp_if_expr_9 = (return_value_fread_8 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_fread$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_fread_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_fread$10=fread((void *)&gdf2->ghv, (unsigned long int)1, (unsigned long int)1, file);
-    tmp_if_expr$11 = (return_value_fread$10 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fread_10=fread((void *)&gdf2->ghv, (unsigned long int)1, (unsigned long int)1, file);
+    tmp_if_expr_11 = (return_value_fread_10 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_read_string_field$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed int return_value_read_string_field_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_read_string_field$12=read_string_field(file, gdf2->recstr, (unsigned int)64);
-    tmp_if_expr$13 = return_value_read_string_field$12 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read_string_field_12=read_string_field(file, gdf2->recstr, (unsigned int)64);
+    tmp_if_expr_13 = return_value_read_string_field_12 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_read32bval$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_read32bval_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_read32bval$14=read32bval(file, (unsigned int)4, (void *)gdf2->location);
-    tmp_if_expr$15 = return_value_read32bval$14 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read32bval_14=read32bval(file, (unsigned int)4, (void *)gdf2->location);
+    tmp_if_expr_15 = return_value_read32bval_14 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$17;
-  signed int return_value_read64bval$16;
-  if(tmp_if_expr$15)
-    tmp_if_expr$17 = (_Bool)1;
+  _Bool tmp_if_expr_17;
+  signed int return_value_read64bval_16;
+  if(tmp_if_expr_15)
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$16=read64bval(file, (unsigned int)1, (void *)&gdf2->rectime);
-    tmp_if_expr$17 = return_value_read64bval$16 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_16=read64bval(file, (unsigned int)1, (void *)&gdf2->rectime);
+    tmp_if_expr_17 = return_value_read64bval_16 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$19;
-  signed int return_value_read64bval$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$19 = (_Bool)1;
+  _Bool tmp_if_expr_19;
+  signed int return_value_read64bval_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_19 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$18=read64bval(file, (unsigned int)1, (void *)&gdf2->birthday);
-    tmp_if_expr$19 = return_value_read64bval$18 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_18=read64bval(file, (unsigned int)1, (void *)&gdf2->birthday);
+    tmp_if_expr_19 = return_value_read64bval_18 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$21;
-  signed int return_value_read16bval$20;
-  if(tmp_if_expr$19)
-    tmp_if_expr$21 = (_Bool)1;
+  _Bool tmp_if_expr_21;
+  signed int return_value_read16bval_20;
+  if(tmp_if_expr_19)
+    tmp_if_expr_21 = (_Bool)1;
 
   else
   {
-    return_value_read16bval$20=read16bval(file, (unsigned int)1, (void *)&nhdr_blk);
-    tmp_if_expr$21 = return_value_read16bval$20 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read16bval_20=read16bval(file, (unsigned int)1, (void *)&nhdr_blk);
+    tmp_if_expr_21 = return_value_read16bval_20 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$23;
-  unsigned long int return_value_fread$22;
-  if(tmp_if_expr$21)
-    tmp_if_expr$23 = (_Bool)1;
+  _Bool tmp_if_expr_23;
+  unsigned long int return_value_fread_22;
+  if(tmp_if_expr_21)
+    tmp_if_expr_23 = (_Bool)1;
 
   else
   {
-    return_value_fread$22=fread((void *)gdf2->pclass, (unsigned long int)6, (unsigned long int)1, file);
-    tmp_if_expr$23 = return_value_fread$22 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+    return_value_fread_22=fread((void *)gdf2->pclass, (unsigned long int)6, (unsigned long int)1, file);
+    tmp_if_expr_23 = return_value_fread_22 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$25;
-  signed int return_value_read64bval$24;
-  if(tmp_if_expr$23)
-    tmp_if_expr$25 = (_Bool)1;
+  _Bool tmp_if_expr_25;
+  signed int return_value_read64bval_24;
+  if(tmp_if_expr_23)
+    tmp_if_expr_25 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$24=read64bval(file, (unsigned int)1, (void *)&gdf2->epid);
-    tmp_if_expr$25 = return_value_read64bval$24 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_24=read64bval(file, (unsigned int)1, (void *)&gdf2->epid);
+    tmp_if_expr_25 = return_value_read64bval_24 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$27;
-  signed int return_value_fseek$26;
-  if(tmp_if_expr$25)
-    tmp_if_expr$27 = (_Bool)1;
+  _Bool tmp_if_expr_27;
+  signed int return_value_fseek_26;
+  if(tmp_if_expr_25)
+    tmp_if_expr_27 = (_Bool)1;
 
   else
   {
-    return_value_fseek$26=fseek(file, (signed long int)6, 1);
-    tmp_if_expr$27 = return_value_fseek$26 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_26=fseek(file, (signed long int)6, 1);
+    tmp_if_expr_27 = return_value_fseek_26 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$29;
-  signed int return_value_read16bval$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$29 = (_Bool)1;
+  _Bool tmp_if_expr_29;
+  signed int return_value_read16bval_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_29 = (_Bool)1;
 
   else
   {
-    return_value_read16bval$28=read16bval(file, (unsigned int)3, (void *)gdf2->headsize);
-    tmp_if_expr$29 = return_value_read16bval$28 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read16bval_28=read16bval(file, (unsigned int)3, (void *)gdf2->headsize);
+    tmp_if_expr_29 = return_value_read16bval_28 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$31;
-  signed int return_value_read32bval$30;
-  if(tmp_if_expr$29)
-    tmp_if_expr$31 = (_Bool)1;
+  _Bool tmp_if_expr_31;
+  signed int return_value_read32bval_30;
+  if(tmp_if_expr_29)
+    tmp_if_expr_31 = (_Bool)1;
 
   else
   {
-    return_value_read32bval$30=read32bval(file, (unsigned int)3, (void *)gdf2->refpos);
-    tmp_if_expr$31 = return_value_read32bval$30 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read32bval_30=read32bval(file, (unsigned int)3, (void *)gdf2->refpos);
+    tmp_if_expr_31 = return_value_read32bval_30 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$33;
-  signed int return_value_read32bval$32;
-  if(tmp_if_expr$31)
-    tmp_if_expr$33 = (_Bool)1;
+  _Bool tmp_if_expr_33;
+  signed int return_value_read32bval_32;
+  if(tmp_if_expr_31)
+    tmp_if_expr_33 = (_Bool)1;
 
   else
   {
-    return_value_read32bval$32=read32bval(file, (unsigned int)3, (void *)gdf2->gndpos);
-    tmp_if_expr$33 = return_value_read32bval$32 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read32bval_32=read32bval(file, (unsigned int)3, (void *)gdf2->gndpos);
+    tmp_if_expr_33 = return_value_read32bval_32 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$35;
-  signed int return_value_read64bval$34;
-  if(tmp_if_expr$33)
-    tmp_if_expr$35 = (_Bool)1;
+  _Bool tmp_if_expr_35;
+  signed int return_value_read64bval_34;
+  if(tmp_if_expr_33)
+    tmp_if_expr_35 = (_Bool)1;
 
   else
   {
-    return_value_read64bval$34=read64bval(file, (unsigned int)1, (void *)&nrec);
-    tmp_if_expr$35 = return_value_read64bval$34 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read64bval_34=read64bval(file, (unsigned int)1, (void *)&nrec);
+    tmp_if_expr_35 = return_value_read64bval_34 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$37;
-  signed int return_value_read32bval$36;
-  if(tmp_if_expr$35)
-    tmp_if_expr$37 = (_Bool)1;
+  _Bool tmp_if_expr_37;
+  signed int return_value_read32bval_36;
+  if(tmp_if_expr_35)
+    tmp_if_expr_37 = (_Bool)1;
 
   else
   {
-    return_value_read32bval$36=read32bval(file, (unsigned int)2, (void *)recduration);
-    tmp_if_expr$37 = return_value_read32bval$36 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read32bval_36=read32bval(file, (unsigned int)2, (void *)recduration);
+    tmp_if_expr_37 = return_value_read32bval_36 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$39;
-  signed int return_value_read16bval$38;
-  if(tmp_if_expr$37)
-    tmp_if_expr$39 = (_Bool)1;
+  _Bool tmp_if_expr_39;
+  signed int return_value_read16bval_38;
+  if(tmp_if_expr_37)
+    tmp_if_expr_39 = (_Bool)1;
 
   else
   {
-    return_value_read16bval$38=read16bval(file, (unsigned int)1, (void *)&nch);
-    tmp_if_expr$39 = return_value_read16bval$38 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_read16bval_38=read16bval(file, (unsigned int)1, (void *)&nch);
+    tmp_if_expr_39 = return_value_read16bval_38 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$41;
-  signed int return_value_fseek$40;
-  if(tmp_if_expr$39)
-    tmp_if_expr$41 = (_Bool)1;
+  _Bool tmp_if_expr_41;
+  signed int return_value_fseek_40;
+  if(tmp_if_expr_39)
+    tmp_if_expr_41 = (_Bool)1;
 
   else
   {
-    return_value_fseek$40=fseek(file, (signed long int)2, 1);
-    tmp_if_expr$41 = return_value_fseek$40 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_40=fseek(file, (signed long int)2, 1);
+    tmp_if_expr_41 = return_value_fseek_40 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$41)
+  if(tmp_if_expr_41)
     return -1;
 
   else
@@ -7043,20 +7043,20 @@ static signed int gdf2_read_header(struct xdf *xdf)
   struct xdfch **curr = &xdf->channels;
   struct gdf2_file *gdf2 = (struct gdf2_file *)((char *)xdf - (signed long int)0ul);
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "rb");
-  signed int return_value_gdf2_read_channels_header$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_gdf2_read_event_table$4;
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "rb");
+  signed int return_value_gdf2_read_channels_header_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_gdf2_read_event_table_4;
   if(file == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_gdf2_read_file_header$2;
-    return_value_gdf2_read_file_header$2=gdf2_read_file_header(gdf2, file);
-    if(return_value_gdf2_read_file_header$2 == 0)
+    signed int return_value_gdf2_read_file_header_2;
+    return_value_gdf2_read_file_header_2=gdf2_read_file_header(gdf2, file);
+    if(return_value_gdf2_read_file_header_2 == 0)
     {
       i = (unsigned int)0;
       for( ; !(i >= xdf->numch); i = i + 1u)
@@ -7067,16 +7067,16 @@ static signed int gdf2_read_header(struct xdf *xdf)
 
         curr = &(*curr)->next;
       }
-      return_value_gdf2_read_channels_header$3=gdf2_read_channels_header(gdf2, file);
-      if(!(return_value_gdf2_read_channels_header$3 == 0))
-        tmp_if_expr$5 = (_Bool)1;
+      return_value_gdf2_read_channels_header_3=gdf2_read_channels_header(gdf2, file);
+      if(!(return_value_gdf2_read_channels_header_3 == 0))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_gdf2_read_event_table$4=gdf2_read_event_table(gdf2, file);
-        tmp_if_expr$5 = return_value_gdf2_read_event_table$4 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_gdf2_read_event_table_4=gdf2_read_event_table(gdf2, file);
+        tmp_if_expr_5 = return_value_gdf2_read_event_table_4 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$5)
+      if(!tmp_if_expr_5)
         retval = 0;
 
     }
@@ -7254,8 +7254,8 @@ static signed int gdf2_setup_events(struct eventtable *table, double fs, unsigne
   const char *desc;
   struct xdfevent *evt;
   i = (unsigned int)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_sscanf$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_sscanf_1;
   for( ; !(i >= nevent); i = i + 1u)
   {
     evt=get_event(table, i);
@@ -7273,13 +7273,13 @@ static signed int gdf2_setup_events(struct eventtable *table, double fs, unsigne
     ch[(signed long int)i] = (unsigned short int)0;
     if(!(desc == ((const char *)NULL)))
     {
-      return_value_sscanf$1=sscanf(desc, "ch:%u", &chval);
-      tmp_if_expr$2 = return_value_sscanf$1 >= 1 ? (_Bool)1 : (_Bool)0;
+      return_value_sscanf_1=sscanf(desc, "ch:%u", &chval);
+      tmp_if_expr_2 = return_value_sscanf_1 >= 1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       ch[(signed long int)i] = (unsigned short int)chval;
       use_extevt = 1;
@@ -7297,110 +7297,110 @@ static signed int gdf2_setup_events(struct eventtable *table, double fs, unsigne
 static signed int gdf2_write_channels_header(struct gdf2_file *gdf2, struct _IO_FILE *file)
 {
   struct xdfch *ch = gdf2->xdf.channels;
-  signed int return_value_fprintf$1;
+  signed int return_value_fprintf_1;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$1=fprintf(file, "%-16.16s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->label);
-    if(!(return_value_fprintf$1 >= 0))
+    return_value_fprintf_1=fprintf(file, "%-16.16s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->label);
+    if(!(return_value_fprintf_1 >= 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_fprintf$2;
+  signed int return_value_fprintf_2;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$2=fprintf(file, "%-80.80s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->transducter);
-    if(!(return_value_fprintf$2 >= 0))
+    return_value_fprintf_2=fprintf(file, "%-80.80s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->transducter);
+    if(!(return_value_fprintf_2 >= 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_fprintf$3;
+  signed int return_value_fprintf_3;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$3=fprintf(file, "%-6.6s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->unit);
-    if(!(return_value_fprintf$3 >= 0))
+    return_value_fprintf_3=fprintf(file, "%-6.6s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->unit);
+    if(!(return_value_fprintf_3 >= 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write16bval$4;
+  signed int return_value_write16bval_4;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write16bval$4=write16bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->dimcode);
-    if(!(return_value_write16bval$4 == 0))
+    return_value_write16bval_4=write16bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->dimcode);
+    if(!(return_value_write16bval_4 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write64bval$5;
+  signed int return_value_write64bval_5;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write64bval$5=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)0]);
-    if(!(return_value_write64bval$5 == 0))
+    return_value_write64bval_5=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)0]);
+    if(!(return_value_write64bval_5 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write64bval$6;
+  signed int return_value_write64bval_6;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write64bval$6=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)1]);
-    if(!(return_value_write64bval$6 == 0))
+    return_value_write64bval_6=write64bval(file, (unsigned int)1, (const void *)&ch->physical_mm[(signed long int)1]);
+    if(!(return_value_write64bval_6 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write64bval$7;
+  signed int return_value_write64bval_7;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write64bval$7=write64bval(file, (unsigned int)1, (const void *)&ch->digital_mm[(signed long int)0]);
-    if(!(return_value_write64bval$7 == 0))
+    return_value_write64bval_7=write64bval(file, (unsigned int)1, (const void *)&ch->digital_mm[(signed long int)0]);
+    if(!(return_value_write64bval_7 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write64bval$8;
+  signed int return_value_write64bval_8;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write64bval$8=write64bval(file, (unsigned int)1, (const void *)&ch->digital_mm[(signed long int)1]);
-    if(!(return_value_write64bval$8 == 0))
+    return_value_write64bval_8=write64bval(file, (unsigned int)1, (const void *)&ch->digital_mm[(signed long int)1]);
+    if(!(return_value_write64bval_8 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_fprintf$9;
+  signed int return_value_fprintf_9;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$9=fprintf(file, "%-68.68s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->filtering);
-    if(!(return_value_fprintf$9 >= 0))
+    return_value_fprintf_9=fprintf(file, "%-68.68s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->filtering);
+    if(!(return_value_fprintf_9 >= 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write32bval$10;
+  signed int return_value_write32bval_10;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write32bval$10=write32bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->lp);
-    if(!(return_value_write32bval$10 == 0))
+    return_value_write32bval_10=write32bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->lp);
+    if(!(return_value_write32bval_10 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write32bval$11;
+  signed int return_value_write32bval_11;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write32bval$11=write32bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->hp);
-    if(!(return_value_write32bval$11 == 0))
+    return_value_write32bval_11=write32bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->hp);
+    if(!(return_value_write32bval_11 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write32bval$12;
+  signed int return_value_write32bval_12;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write32bval$12=write32bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->sp);
-    if(!(return_value_write32bval$12 == 0))
+    return_value_write32bval_12=write32bval(file, (unsigned int)1, (const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->sp);
+    if(!(return_value_write32bval_12 == 0))
       return -1;
 
   }
@@ -7408,9 +7408,9 @@ static signed int gdf2_write_channels_header(struct gdf2_file *gdf2, struct _IO_
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
     signed int nsprec = (signed int)gdf2->xdf.ns_per_rec;
-    signed int return_value_write32bval$13;
-    return_value_write32bval$13=write32bval(file, (unsigned int)1, (const void *)&nsprec);
-    if(!(return_value_write32bval$13 == 0))
+    signed int return_value_write32bval_13;
+    return_value_write32bval_13=write32bval(file, (unsigned int)1, (const void *)&nsprec);
+    if(!(return_value_write32bval_13 == 0))
       return -1;
 
   }
@@ -7418,36 +7418,36 @@ static signed int gdf2_write_channels_header(struct gdf2_file *gdf2, struct _IO_
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
     signed int type = (signed int)gdf2_types[(signed long int)ch->infiletype];
-    signed int return_value_write32bval$14;
-    return_value_write32bval$14=write32bval(file, (unsigned int)1, (const void *)&type);
-    if(!(return_value_write32bval$14 == 0))
+    signed int return_value_write32bval_14;
+    return_value_write32bval_14=write32bval(file, (unsigned int)1, (const void *)&type);
+    if(!(return_value_write32bval_14 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_write32bval$15;
+  signed int return_value_write32bval_15;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_write32bval$15=write32bval(file, (unsigned int)3, (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->pos);
-    if(!(return_value_write32bval$15 == 0))
+    return_value_write32bval_15=write32bval(file, (unsigned int)3, (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->pos);
+    if(!(return_value_write32bval_15 == 0))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  unsigned long int return_value_fwrite$16;
+  unsigned long int return_value_fwrite_16;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fwrite$16=fwrite((const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->impedance, (unsigned long int)1, (unsigned long int)1, file);
-    if(!(return_value_fwrite$16 >= 1ul))
+    return_value_fwrite_16=fwrite((const void *)&((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->impedance, (unsigned long int)1, (unsigned long int)1, file);
+    if(!(return_value_fwrite_16 >= 1ul))
       return -1;
 
   }
   ch = gdf2->xdf.channels;
-  signed int return_value_fprintf$17;
+  signed int return_value_fprintf_17;
   for( ; !(ch == ((struct xdfch *)NULL)); ch = ch->next)
   {
-    return_value_fprintf$17=fprintf(file, "%-19.19s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->reserved);
-    if(!(return_value_fprintf$17 >= 0))
+    return_value_fprintf_17=fprintf(file, "%-19.19s", (const void *)((struct gdf2_channel *)((char *)ch - (signed long int)0ul))->reserved);
+    if(!(return_value_fprintf_17 >= 0))
       return -1;
 
   }
@@ -7468,22 +7468,22 @@ static signed int gdf2_write_event_table(struct gdf2_file *gdf2, struct _IO_FILE
   unsigned int *dur = (unsigned int *)(void *)0;
   unsigned short int *code = (unsigned short int *)(void *)0;
   unsigned short int *ch = (unsigned short int *)(void *)0;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_fwrite$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_write24bval$7;
-  _Bool tmp_if_expr$10;
-  signed int return_value_write32bval$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_write32bval$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_write16bval$13;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$16;
-  signed int return_value_write16bval$15;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$19;
-  signed int return_value_write32bval$18;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_fwrite_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_write24bval_7;
+  _Bool tmp_if_expr_10;
+  signed int return_value_write32bval_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_write32bval_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_write16bval_13;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_16;
+  signed int return_value_write16bval_15;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_19;
+  signed int return_value_write32bval_18;
   if(nevt == 0u)
     return 0;
 
@@ -7492,93 +7492,93 @@ static signed int gdf2_write_event_table(struct gdf2_file *gdf2, struct _IO_FILE
     nevt24[(signed long int)0] = (unsigned char)(nevt & (unsigned int)0x000000FF);
     nevt24[(signed long int)1] = (unsigned char)((nevt & (unsigned int)0x0000FF00) / (unsigned int)256);
     nevt24[(signed long int)2] = (unsigned char)((nevt & (unsigned int)0x00FF0000) / (unsigned int)65536);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
-    onset = (unsigned int *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
-    code = (unsigned short int *)return_value_malloc$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
-    ch = (unsigned short int *)return_value_malloc$3;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
-    dur = (unsigned int *)return_value_malloc$4;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
+    onset = (unsigned int *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
+    code = (unsigned short int *)return_value_malloc_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)nevt * sizeof(unsigned short int) /*2ul*/ );
+    ch = (unsigned short int *)return_value_malloc_3;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)nevt * sizeof(unsigned int) /*4ul*/ );
+    dur = (unsigned int *)return_value_malloc_4;
     if(ch == ((unsigned short int *)NULL) || code == ((unsigned short int *)NULL) || dur == ((unsigned int *)NULL) || onset == ((unsigned int *)NULL))
       retcode = -1;
 
     gdf2_setup_events(table, (double)fs, &mode, onset, code, ch, dur);
     if(!(retcode == 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$5=fwrite((const void *)&mode, (unsigned long int)1, (unsigned long int)1, file);
-      tmp_if_expr$6 = (return_value_fwrite$5 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_5=fwrite((const void *)&mode, (unsigned long int)1, (unsigned long int)1, file);
+      tmp_if_expr_6 = (return_value_fwrite_5 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_write24bval$7=write24bval(file, (unsigned int)1, (const void *)nevt24);
-      tmp_if_expr$8 = return_value_write24bval$7 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write24bval_7=write24bval(file, (unsigned int)1, (const void *)nevt24);
+      tmp_if_expr_8 = return_value_write24bval_7 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$9=write32bval(file, (unsigned int)1, (const void *)&fs);
-      tmp_if_expr$10 = return_value_write32bval$9 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_9=write32bval(file, (unsigned int)1, (const void *)&fs);
+      tmp_if_expr_10 = return_value_write32bval_9 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$11=write32bval(file, nevt, (const void *)onset);
-      tmp_if_expr$12 = return_value_write32bval$11 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_11=write32bval(file, nevt, (const void *)onset);
+      tmp_if_expr_12 = return_value_write32bval_11 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
-      tmp_if_expr$14 = (_Bool)1;
+    if(tmp_if_expr_12)
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_write16bval$13=write16bval(file, nevt, (const void *)code);
-      tmp_if_expr$14 = return_value_write16bval$13 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write16bval_13=write16bval(file, nevt, (const void *)code);
+      tmp_if_expr_14 = return_value_write16bval_13 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
-      tmp_if_expr$17 = (_Bool)1;
-
-    else
-    {
-      if((signed int)mode == 3)
-      {
-        return_value_write16bval$15=write16bval(file, nevt, (const void *)ch);
-        tmp_if_expr$16 = return_value_write16bval$15 != 0 ? (_Bool)1 : (_Bool)0;
-      }
-
-      else
-        tmp_if_expr$16 = (_Bool)0;
-      tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
-    }
-    if(tmp_if_expr$17)
-      tmp_if_expr$20 = (_Bool)1;
+    if(tmp_if_expr_14)
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
       if((signed int)mode == 3)
       {
-        return_value_write32bval$18=write32bval(file, nevt, (const void *)dur);
-        tmp_if_expr$19 = return_value_write32bval$18 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_write16bval_15=write16bval(file, nevt, (const void *)ch);
+        tmp_if_expr_16 = return_value_write16bval_15 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$19 = (_Bool)0;
-      tmp_if_expr$20 = tmp_if_expr$19 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (_Bool)0;
+      tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$20)
+    if(tmp_if_expr_17)
+      tmp_if_expr_20 = (_Bool)1;
+
+    else
+    {
+      if((signed int)mode == 3)
+      {
+        return_value_write32bval_18=write32bval(file, nevt, (const void *)dur);
+        tmp_if_expr_19 = return_value_write32bval_18 != 0 ? (_Bool)1 : (_Bool)0;
+      }
+
+      else
+        tmp_if_expr_19 = (_Bool)0;
+      tmp_if_expr_20 = tmp_if_expr_19 ? (_Bool)1 : (_Bool)0;
+    }
+    if(tmp_if_expr_20)
       retcode = -1;
 
     free((void *)onset);
@@ -7599,220 +7599,220 @@ static signed int gdf2_write_file_header(struct gdf2_file *gdf2, struct _IO_FILE
   unsigned short int nhdr_blk = (unsigned short int)(gdf2->xdf.numch + (unsigned int)1);
   unsigned char reserved[10l] = { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   char key[9l];
-  convert_recduration$link1(gdf2->xdf.rec_duration, recduration);
+  convert_recduration_link1(gdf2->xdf.rec_duration, recduration);
   nrec = (signed long int)gdf2->xdf.nrecord;
   nch = (unsigned short int)gdf2->xdf.numch;
   snprintf(key, sizeof(char [9l]) /*9ul*/ , "GDF 2.%02u", gdf2->version);
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)key, (unsigned long int)8, (unsigned long int)1, file);
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_fwrite$3;
-  _Bool tmp_if_expr$6;
-  unsigned long int return_value_fwrite$5;
-  _Bool tmp_if_expr$8;
-  unsigned long int return_value_fwrite$7;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_fwrite$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_fwrite$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_fprintf$13;
-  _Bool tmp_if_expr$16;
-  signed int return_value_write32bval$15;
-  _Bool tmp_if_expr$18;
-  signed int return_value_write64bval$17;
-  _Bool tmp_if_expr$20;
-  signed int return_value_write64bval$19;
-  _Bool tmp_if_expr$22;
-  signed int return_value_write16bval$21;
-  _Bool tmp_if_expr$24;
-  unsigned long int return_value_fwrite$23;
-  _Bool tmp_if_expr$26;
-  signed int return_value_write64bval$25;
-  _Bool tmp_if_expr$28;
-  unsigned long int return_value_fwrite$27;
-  _Bool tmp_if_expr$30;
-  signed int return_value_write16bval$29;
-  _Bool tmp_if_expr$32;
-  signed int return_value_write32bval$31;
-  _Bool tmp_if_expr$34;
-  signed int return_value_write32bval$33;
-  _Bool tmp_if_expr$36;
-  signed int return_value_write64bval$35;
-  _Bool tmp_if_expr$38;
-  signed int return_value_write32bval$37;
-  _Bool tmp_if_expr$40;
-  signed int return_value_write16bval$39;
-  _Bool tmp_if_expr$42;
-  unsigned long int return_value_fwrite$41;
-  if(!(return_value_fwrite$1 >= 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)key, (unsigned long int)8, (unsigned long int)1, file);
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_fwrite_3;
+  _Bool tmp_if_expr_6;
+  unsigned long int return_value_fwrite_5;
+  _Bool tmp_if_expr_8;
+  unsigned long int return_value_fwrite_7;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_fwrite_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_fwrite_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_fprintf_13;
+  _Bool tmp_if_expr_16;
+  signed int return_value_write32bval_15;
+  _Bool tmp_if_expr_18;
+  signed int return_value_write64bval_17;
+  _Bool tmp_if_expr_20;
+  signed int return_value_write64bval_19;
+  _Bool tmp_if_expr_22;
+  signed int return_value_write16bval_21;
+  _Bool tmp_if_expr_24;
+  unsigned long int return_value_fwrite_23;
+  _Bool tmp_if_expr_26;
+  signed int return_value_write64bval_25;
+  _Bool tmp_if_expr_28;
+  unsigned long int return_value_fwrite_27;
+  _Bool tmp_if_expr_30;
+  signed int return_value_write16bval_29;
+  _Bool tmp_if_expr_32;
+  signed int return_value_write32bval_31;
+  _Bool tmp_if_expr_34;
+  signed int return_value_write32bval_33;
+  _Bool tmp_if_expr_36;
+  signed int return_value_write64bval_35;
+  _Bool tmp_if_expr_38;
+  signed int return_value_write32bval_37;
+  _Bool tmp_if_expr_40;
+  signed int return_value_write16bval_39;
+  _Bool tmp_if_expr_42;
+  unsigned long int return_value_fwrite_41;
+  if(!(return_value_fwrite_1 >= 1ul))
     return -1;
 
   else
   {
-    signed int return_value_fprintf$2;
-    return_value_fprintf$2=fprintf(file, "%-66.66s", (const void *)gdf2->subjstr);
-    if(!(return_value_fprintf$2 >= 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_fprintf_2;
+    return_value_fprintf_2=fprintf(file, "%-66.66s", (const void *)gdf2->subjstr);
+    if(!(return_value_fprintf_2 >= 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$3=fwrite((const void *)reserved, (unsigned long int)10, (unsigned long int)1, file);
-      tmp_if_expr$4 = (return_value_fwrite$3 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_3=fwrite((const void *)reserved, (unsigned long int)10, (unsigned long int)1, file);
+      tmp_if_expr_4 = (return_value_fwrite_3 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$5=fwrite((const void *)&gdf2->addiction, (unsigned long int)1, (unsigned long int)1, file);
-      tmp_if_expr$6 = (return_value_fwrite$5 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_5=fwrite((const void *)&gdf2->addiction, (unsigned long int)1, (unsigned long int)1, file);
+      tmp_if_expr_6 = (return_value_fwrite_5 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$7=fwrite((const void *)&gdf2->weight, (unsigned long int)1, (unsigned long int)1, file);
-      tmp_if_expr$8 = (return_value_fwrite$7 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_7=fwrite((const void *)&gdf2->weight, (unsigned long int)1, (unsigned long int)1, file);
+      tmp_if_expr_8 = (return_value_fwrite_7 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$9=fwrite((const void *)&gdf2->height, (unsigned long int)1, (unsigned long int)1, file);
-      tmp_if_expr$10 = (return_value_fwrite$9 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_9=fwrite((const void *)&gdf2->height, (unsigned long int)1, (unsigned long int)1, file);
+      tmp_if_expr_10 = (return_value_fwrite_9 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$11=fwrite((const void *)&gdf2->ghv, (unsigned long int)1, (unsigned long int)1, file);
-      tmp_if_expr$12 = (return_value_fwrite$11 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_11=fwrite((const void *)&gdf2->ghv, (unsigned long int)1, (unsigned long int)1, file);
+      tmp_if_expr_12 = (return_value_fwrite_11 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
-      tmp_if_expr$14 = (_Bool)1;
+    if(tmp_if_expr_12)
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_fprintf$13=fprintf(file, "%-64.64s", (const void *)gdf2->recstr);
-      tmp_if_expr$14 = return_value_fprintf$13 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fprintf_13=fprintf(file, "%-64.64s", (const void *)gdf2->recstr);
+      tmp_if_expr_14 = return_value_fprintf_13 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
-      tmp_if_expr$16 = (_Bool)1;
+    if(tmp_if_expr_14)
+      tmp_if_expr_16 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$15=write32bval(file, (unsigned int)4, (const void *)gdf2->location);
-      tmp_if_expr$16 = return_value_write32bval$15 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_15=write32bval(file, (unsigned int)4, (const void *)gdf2->location);
+      tmp_if_expr_16 = return_value_write32bval_15 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$16)
-      tmp_if_expr$18 = (_Bool)1;
+    if(tmp_if_expr_16)
+      tmp_if_expr_18 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$17=write64bval(file, (unsigned int)1, (const void *)&gdf2->rectime);
-      tmp_if_expr$18 = return_value_write64bval$17 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_17=write64bval(file, (unsigned int)1, (const void *)&gdf2->rectime);
+      tmp_if_expr_18 = return_value_write64bval_17 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$18)
-      tmp_if_expr$20 = (_Bool)1;
+    if(tmp_if_expr_18)
+      tmp_if_expr_20 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$19=write64bval(file, (unsigned int)1, (const void *)&gdf2->birthday);
-      tmp_if_expr$20 = return_value_write64bval$19 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_19=write64bval(file, (unsigned int)1, (const void *)&gdf2->birthday);
+      tmp_if_expr_20 = return_value_write64bval_19 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$20)
-      tmp_if_expr$22 = (_Bool)1;
+    if(tmp_if_expr_20)
+      tmp_if_expr_22 = (_Bool)1;
 
     else
     {
-      return_value_write16bval$21=write16bval(file, (unsigned int)1, (const void *)&nhdr_blk);
-      tmp_if_expr$22 = return_value_write16bval$21 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write16bval_21=write16bval(file, (unsigned int)1, (const void *)&nhdr_blk);
+      tmp_if_expr_22 = return_value_write16bval_21 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$22)
-      tmp_if_expr$24 = (_Bool)1;
+    if(tmp_if_expr_22)
+      tmp_if_expr_24 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$23=fwrite((const void *)gdf2->pclass, (unsigned long int)6, (unsigned long int)1, file);
-      tmp_if_expr$24 = return_value_fwrite$23 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_23=fwrite((const void *)gdf2->pclass, (unsigned long int)6, (unsigned long int)1, file);
+      tmp_if_expr_24 = return_value_fwrite_23 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$24)
-      tmp_if_expr$26 = (_Bool)1;
+    if(tmp_if_expr_24)
+      tmp_if_expr_26 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$25=write64bval(file, (unsigned int)1, (const void *)&gdf2->epid);
-      tmp_if_expr$26 = return_value_write64bval$25 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_25=write64bval(file, (unsigned int)1, (const void *)&gdf2->epid);
+      tmp_if_expr_26 = return_value_write64bval_25 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$26)
-      tmp_if_expr$28 = (_Bool)1;
+    if(tmp_if_expr_26)
+      tmp_if_expr_28 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$27=fwrite((const void *)reserved, (unsigned long int)6, (unsigned long int)1, file);
-      tmp_if_expr$28 = (return_value_fwrite$27 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_27=fwrite((const void *)reserved, (unsigned long int)6, (unsigned long int)1, file);
+      tmp_if_expr_28 = (return_value_fwrite_27 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$28)
-      tmp_if_expr$30 = (_Bool)1;
+    if(tmp_if_expr_28)
+      tmp_if_expr_30 = (_Bool)1;
 
     else
     {
-      return_value_write16bval$29=write16bval(file, (unsigned int)3, (const void *)gdf2->headsize);
-      tmp_if_expr$30 = return_value_write16bval$29 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write16bval_29=write16bval(file, (unsigned int)3, (const void *)gdf2->headsize);
+      tmp_if_expr_30 = return_value_write16bval_29 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$30)
-      tmp_if_expr$32 = (_Bool)1;
+    if(tmp_if_expr_30)
+      tmp_if_expr_32 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$31=write32bval(file, (unsigned int)3, (const void *)gdf2->refpos);
-      tmp_if_expr$32 = return_value_write32bval$31 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_31=write32bval(file, (unsigned int)3, (const void *)gdf2->refpos);
+      tmp_if_expr_32 = return_value_write32bval_31 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$32)
-      tmp_if_expr$34 = (_Bool)1;
+    if(tmp_if_expr_32)
+      tmp_if_expr_34 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$33=write32bval(file, (unsigned int)3, (const void *)gdf2->gndpos);
-      tmp_if_expr$34 = return_value_write32bval$33 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_33=write32bval(file, (unsigned int)3, (const void *)gdf2->gndpos);
+      tmp_if_expr_34 = return_value_write32bval_33 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$34)
-      tmp_if_expr$36 = (_Bool)1;
+    if(tmp_if_expr_34)
+      tmp_if_expr_36 = (_Bool)1;
 
     else
     {
-      return_value_write64bval$35=write64bval(file, (unsigned int)1, (const void *)&nrec);
-      tmp_if_expr$36 = return_value_write64bval$35 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write64bval_35=write64bval(file, (unsigned int)1, (const void *)&nrec);
+      tmp_if_expr_36 = return_value_write64bval_35 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$36)
-      tmp_if_expr$38 = (_Bool)1;
+    if(tmp_if_expr_36)
+      tmp_if_expr_38 = (_Bool)1;
 
     else
     {
-      return_value_write32bval$37=write32bval(file, (unsigned int)2, (const void *)recduration);
-      tmp_if_expr$38 = return_value_write32bval$37 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write32bval_37=write32bval(file, (unsigned int)2, (const void *)recduration);
+      tmp_if_expr_38 = return_value_write32bval_37 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$38)
-      tmp_if_expr$40 = (_Bool)1;
+    if(tmp_if_expr_38)
+      tmp_if_expr_40 = (_Bool)1;
 
     else
     {
-      return_value_write16bval$39=write16bval(file, (unsigned int)1, (const void *)&nch);
-      tmp_if_expr$40 = return_value_write16bval$39 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_write16bval_39=write16bval(file, (unsigned int)1, (const void *)&nch);
+      tmp_if_expr_40 = return_value_write16bval_39 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$40)
-      tmp_if_expr$42 = (_Bool)1;
+    if(tmp_if_expr_40)
+      tmp_if_expr_42 = (_Bool)1;
 
     else
     {
-      return_value_fwrite$41=fwrite((const void *)reserved, (unsigned long int)2, (unsigned long int)1, file);
-      tmp_if_expr$42 = (return_value_fwrite$41 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fwrite_41=fwrite((const void *)reserved, (unsigned long int)2, (unsigned long int)1, file);
+      tmp_if_expr_42 = (return_value_fwrite_41 < (unsigned long int)1 ? -1 : 0) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$42)
+    if(tmp_if_expr_42)
       return -1;
 
     else
@@ -7830,42 +7830,42 @@ static signed int gdf2_write_header(struct xdf *xdf)
   signed int retval = 0;
   struct gdf2_file *gdf2 = (struct gdf2_file *)((char *)xdf - (signed long int)0ul);
   struct _IO_FILE *file;
-  signed int return_value_dup_cloexec$1;
-  return_value_dup_cloexec$1=dup_cloexec(xdf->fd);
-  file=fdopen(return_value_dup_cloexec$1, "wb");
-  _Bool tmp_if_expr$4;
-  signed int return_value_gdf2_write_channels_header$3;
-  _Bool tmp_if_expr$7;
-  signed int return_value_fclose$6;
+  signed int return_value_dup_cloexec_1;
+  return_value_dup_cloexec_1=dup_cloexec(xdf->fd);
+  file=fdopen(return_value_dup_cloexec_1, "wb");
+  _Bool tmp_if_expr_4;
+  signed int return_value_gdf2_write_channels_header_3;
+  _Bool tmp_if_expr_7;
+  signed int return_value_fclose_6;
   if(file == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_gdf2_write_file_header$2;
-    return_value_gdf2_write_file_header$2=gdf2_write_file_header(gdf2, file);
-    if(!(return_value_gdf2_write_file_header$2 == 0))
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_gdf2_write_file_header_2;
+    return_value_gdf2_write_file_header_2=gdf2_write_file_header(gdf2, file);
+    if(!(return_value_gdf2_write_file_header_2 == 0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_gdf2_write_channels_header$3=gdf2_write_channels_header(gdf2, file);
-      tmp_if_expr$4 = return_value_gdf2_write_channels_header$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_gdf2_write_channels_header_3=gdf2_write_channels_header(gdf2, file);
+      tmp_if_expr_4 = return_value_gdf2_write_channels_header_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       retval = -1;
 
-    signed int return_value_fflush$5;
-    return_value_fflush$5=fflush(file);
-    if(!(return_value_fflush$5 == 0))
-      tmp_if_expr$7 = (_Bool)1;
+    signed int return_value_fflush_5;
+    return_value_fflush_5=fflush(file);
+    if(!(return_value_fflush_5 == 0))
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_fclose$6=fclose(file);
-      tmp_if_expr$7 = return_value_fclose$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_fclose_6=fclose(file);
+      tmp_if_expr_7 = return_value_fclose_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       retval = -1;
 
     lseek(xdf->fd, xdf->hdr_offset, 0);
@@ -7890,21 +7890,21 @@ enum xdftype get_closest_type(enum xdftype target, const _Bool *supported_type)
   enum xdftype tp[12l];
   struct data_information *tinfo;
   unsigned int nt = (unsigned int)0;
-  unsigned int tmp_post$1;
-  _Bool tmp_if_expr$4;
-  _Bool return_value_find_match$3;
-  _Bool tmp_if_expr$6;
-  _Bool return_value_find_match$5;
-  _Bool tmp_if_expr$8;
-  _Bool return_value_find_match$7;
-  _Bool tmp_if_expr$10;
-  _Bool return_value_find_match$9;
-  _Bool tmp_if_expr$12;
-  _Bool return_value_find_match$11;
-  _Bool tmp_if_expr$14;
-  _Bool return_value_find_match$13;
-  _Bool tmp_if_expr$16;
-  _Bool return_value_find_match$15;
+  unsigned int tmp_post_1;
+  _Bool tmp_if_expr_4;
+  _Bool return_value_find_match_3;
+  _Bool tmp_if_expr_6;
+  _Bool return_value_find_match_5;
+  _Bool tmp_if_expr_8;
+  _Bool return_value_find_match_7;
+  _Bool tmp_if_expr_10;
+  _Bool return_value_find_match_9;
+  _Bool tmp_if_expr_12;
+  _Bool return_value_find_match_11;
+  _Bool tmp_if_expr_14;
+  _Bool return_value_find_match_13;
+  _Bool tmp_if_expr_16;
+  _Bool return_value_find_match_15;
   if(!(supported_type[(signed long int)target] == (_Bool)0))
     return target;
 
@@ -7914,73 +7914,73 @@ enum xdftype get_closest_type(enum xdftype target, const _Bool *supported_type)
     for( ; !((unsigned long int)i >= 12ul); i = i + 1u)
       if(!(supported_type[(signed long int)sortedlst[(signed long int)i]] == (_Bool)0))
       {
-        tmp_post$1 = nt;
+        tmp_post_1 = nt;
         nt = nt + 1u;
-        tp[(signed long int)tmp_post$1] = sortedlst[(signed long int)i];
+        tp[(signed long int)tmp_post_1] = sortedlst[(signed long int)i];
       }
 
     /* assertion nt > 0 */
     assert(nt > (unsigned int)0);
     tinfo = &data_info[(signed long int)target];
-    _Bool return_value_find_match$2;
-    return_value_find_match$2=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(1 | 2 | 4));
-    if(!(return_value_find_match$2 == (_Bool)0))
-      tmp_if_expr$4 = (_Bool)1;
+    _Bool return_value_find_match_2;
+    return_value_find_match_2=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(1 | 2 | 4));
+    if(!(return_value_find_match_2 == (_Bool)0))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_find_match$3=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(2 | 4));
-      tmp_if_expr$4 = return_value_find_match$3 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_match_3=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(2 | 4));
+      tmp_if_expr_4 = return_value_find_match_3 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_find_match$5=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(1 | 4));
-      tmp_if_expr$6 = return_value_find_match$5 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_match_5=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(1 | 4));
+      tmp_if_expr_6 = return_value_find_match_5 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_find_match$7=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)4);
-      tmp_if_expr$8 = return_value_find_match$7 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_match_7=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)4);
+      tmp_if_expr_8 = return_value_find_match_7 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$10 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_find_match$9=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(1 | 2));
-      tmp_if_expr$10 = return_value_find_match$9 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_match_9=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)(1 | 2));
+      tmp_if_expr_10 = return_value_find_match_9 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_find_match$11=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)2);
-      tmp_if_expr$12 = return_value_find_match$11 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_match_11=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)2);
+      tmp_if_expr_12 = return_value_find_match_11 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
-      tmp_if_expr$14 = (_Bool)1;
+    if(tmp_if_expr_12)
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_find_match$13=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)1);
-      tmp_if_expr$14 = return_value_find_match$13 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_match_13=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)1);
+      tmp_if_expr_14 = return_value_find_match_13 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
-      tmp_if_expr$16 = (_Bool)1;
+    if(tmp_if_expr_14)
+      tmp_if_expr_16 = (_Bool)1;
 
     else
     {
-      return_value_find_match$15=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)0);
-      tmp_if_expr$16 = return_value_find_match$15 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      return_value_find_match_15=find_match(&match, tinfo, tp, (signed int)nt, (unsigned int)0);
+      tmp_if_expr_16 = return_value_find_match_15 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$16)
+    if(tmp_if_expr_16)
       return match;
 
     else
@@ -8012,15 +8012,15 @@ signed int get_event_entry(struct eventtable *table, unsigned int ind, signed in
 static signed int get_field_type(signed int field)
 {
   signed int i = (signed int)(sizeof(struct opt_detail [38l]) /*304ul*/  / sizeof(struct opt_detail) /*8ul*/  - (unsigned long int)1);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while((_Bool)1)
   {
     if(field_table[(signed long int)i].field == field)
       return (signed int)field_table[(signed long int)i].type;
 
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
   }
@@ -8046,20 +8046,20 @@ static enum xdftype get_xdfch_type(unsigned int gdf1type)
   }
 }
 
-// get_xdfch_type$link1
+// get_xdfch_type_link1
 // file gdf2.c line 764
-static enum xdftype get_xdfch_type$link1(unsigned int gdf2type)
+static enum xdftype get_xdfch_type_link1(unsigned int gdf2type)
 {
-  unsigned int i$link1;
+  unsigned int i_link1;
   if(gdf2type == 0u)
     return (enum xdftype)XDFUINT8;
 
   else
   {
-    i$link1 = (unsigned int)0;
-    for( ; !((unsigned long int)i$link1 >= 12ul); i$link1 = i$link1 + 1u)
-      if(gdf2_types[(signed long int)i$link1] == gdf2type)
-        return (enum xdftype)i$link1;
+    i_link1 = (unsigned int)0;
+    for( ; !((unsigned long int)i_link1 >= 12ul); i_link1 = i_link1 + 1u)
+      if(gdf2_types[(signed long int)i_link1] == gdf2type)
+        return (enum xdftype)i_link1;
 
     return (enum xdftype)-1;
   }
@@ -8070,21 +8070,21 @@ static enum xdftype get_xdfch_type$link1(unsigned int gdf2type)
 static signed int init_file_content(struct xdf *xdf)
 {
   signed int retval = 0;
-  struct anonymous$0 oldmask;
+  struct anonymous_0 oldmask;
   block_signals(&oldmask);
   signed int return_value;
   return_value=xdf->ops->write_header(xdf);
-  _Bool tmp_if_expr$2;
-  signed int return_value_fsync$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_fsync_1;
   if(!(return_value == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_fsync$1=fsync(xdf->fd);
-    tmp_if_expr$2 = return_value_fsync$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fsync_1=fsync(xdf->fd);
+    tmp_if_expr_2 = return_value_fsync_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     retval = -1;
 
   unblock_signals(&oldmask);
@@ -8098,8 +8098,8 @@ static signed int init_transfer_thread(struct xdf *xdf)
   signed int ret;
   signed int done = 0;
   ret=pthread_mutex_init(&xdf->mtx, (const union anonymous *)(void *)0);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(ret == 0)
   {
     done = done + 1;
@@ -8122,19 +8122,19 @@ static signed int init_transfer_thread(struct xdf *xdf)
 
   error:
     ;
-    tmp_post$1 = done;
+    tmp_post_1 = done;
     done = done - 1;
-    if(tmp_post$1 >= 1)
+    if(tmp_post_1 >= 1)
       pthread_cond_destroy(&xdf->cond);
 
-    tmp_post$2 = done;
+    tmp_post_2 = done;
     done = done - 1;
-    if(tmp_post$2 >= 1)
+    if(tmp_post_2 >= 1)
       pthread_mutex_destroy(&xdf->mtx);
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = ret;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = ret;
     return -1;
   }
 }
@@ -8158,9 +8158,9 @@ static void init_xdf_struct(struct xdf *xdf, signed int fd, signed int mode)
   xdf->batch = (struct data_batch *)(void *)0;
   xdf->array_stride = (unsigned long int *)(void *)0;
   ch->inmemtype = ch->infiletype;
-  struct data_information *return_value_xdf_datinfo$1;
-  return_value_xdf_datinfo$1=xdf_datinfo(ch->infiletype);
-  lim = return_value_xdf_datinfo$1->lim;
+  struct data_information *return_value_xdf_datinfo_1;
+  return_value_xdf_datinfo_1=xdf_datinfo(ch->infiletype);
+  lim = return_value_xdf_datinfo_1->lim;
   memcpy((void *)ch->digital_mm, (const void *)lim, sizeof(double [2l]) /*16ul*/ );
   memcpy((void *)ch->physical_mm, (const void *)lim, sizeof(double [2l]) /*16ul*/ );
   ch->digital_inmem = 0;
@@ -8175,9 +8175,9 @@ signed int interpret_type(const char *req)
   signed int i = 0;
   for( ; !(i >= XDF_NUM_FILE_TYPES); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(filetype_args[(signed long int)i], req);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(filetype_args[(signed long int)i], req);
+    if(return_value_strcmp_1 == 0)
       return i;
 
   }
@@ -8313,9 +8313,9 @@ static signed int proceed_get_chconf(struct xdfch *ch, enum xdffield field, unio
   retval=ch->owner->ops->get_channel(ch, field, val, retval);
   if(retval >= 1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     retval = -1;
   }
 
@@ -8327,8 +8327,8 @@ static signed int proceed_get_chconf(struct xdfch *ch, enum xdffield field, unio
 static signed int proceed_get_conf(struct xdf *xdf, enum xdffield field, union optval *val)
 {
   signed int retval = 0;
-  unsigned int tmp_if_expr$1;
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_1;
+  unsigned int tmp_if_expr_2;
   if((signed int)field == XDF_F_REC_NSAMPLE)
     val->i = (signed int)xdf->ns_per_rec;
 
@@ -8352,22 +8352,22 @@ static signed int proceed_get_conf(struct xdf *xdf, enum xdffield field, union o
             if((signed int)field == XDF_F_NEVTTYPE)
             {
               if(!(xdf->table == ((struct eventtable *)NULL)))
-                tmp_if_expr$1 = xdf->table->nentry;
+                tmp_if_expr_1 = xdf->table->nentry;
 
               else
-                tmp_if_expr$1 = (unsigned int)0;
-              val->i = (signed int)tmp_if_expr$1;
+                tmp_if_expr_1 = (unsigned int)0;
+              val->i = (signed int)tmp_if_expr_1;
             }
 
             else
               if((signed int)field == XDF_F_NEVENT)
               {
                 if(!(xdf->table == ((struct eventtable *)NULL)))
-                  tmp_if_expr$2 = xdf->table->nevent;
+                  tmp_if_expr_2 = xdf->table->nevent;
 
                 else
-                  tmp_if_expr$2 = (unsigned int)0;
-                val->i = (signed int)tmp_if_expr$2;
+                  tmp_if_expr_2 = (unsigned int)0;
+                val->i = (signed int)tmp_if_expr_2;
               }
 
               else
@@ -8375,9 +8375,9 @@ static signed int proceed_get_conf(struct xdf *xdf, enum xdffield field, union o
   retval=xdf->ops->get_conf(xdf, field, val, retval);
   if(retval >= 1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 22;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 22;
     retval = -1;
   }
 
@@ -8389,16 +8389,16 @@ static signed int proceed_get_conf(struct xdf *xdf, enum xdffield field, union o
 static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, union optval val)
 {
   signed int retval = 0;
-  _Bool tmp_if_expr$4;
-  struct data_information *return_value_xdf_datinfo$3;
-  _Bool tmp_if_expr$6;
-  struct data_information *return_value_xdf_datinfo$5;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_4;
+  struct data_information *return_value_xdf_datinfo_3;
+  _Bool tmp_if_expr_6;
+  struct data_information *return_value_xdf_datinfo_5;
+  _Bool tmp_if_expr_7;
   if((signed int)field == XDF_CF_DMIN)
   {
-    struct data_information *return_value_xdf_datinfo$1;
-    return_value_xdf_datinfo$1=xdf_datinfo(ch->infiletype);
-    if(return_value_xdf_datinfo$1->lim[0l] > val.d)
+    struct data_information *return_value_xdf_datinfo_1;
+    return_value_xdf_datinfo_1=xdf_datinfo(ch->infiletype);
+    if(return_value_xdf_datinfo_1->lim[0l] > val.d)
       retval=xdf_set_error(33);
 
     else
@@ -8408,9 +8408,9 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
   else
     if((signed int)field == XDF_CF_DMAX)
     {
-      struct data_information *return_value_xdf_datinfo$2;
-      return_value_xdf_datinfo$2=xdf_datinfo(ch->infiletype);
-      if(return_value_xdf_datinfo$2->lim[1l] < val.d)
+      struct data_information *return_value_xdf_datinfo_2;
+      return_value_xdf_datinfo_2=xdf_datinfo(ch->infiletype);
+      if(return_value_xdf_datinfo_2->lim[1l] < val.d)
         retval=xdf_set_error(33);
 
       else
@@ -8422,13 +8422,13 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
       {
         if(ch->digital_inmem == 0)
         {
-          return_value_xdf_datinfo$3=xdf_datinfo(ch->inmemtype);
-          tmp_if_expr$4 = return_value_xdf_datinfo$3->lim[(signed long int)0] > val.d ? (_Bool)1 : (_Bool)0;
+          return_value_xdf_datinfo_3=xdf_datinfo(ch->inmemtype);
+          tmp_if_expr_4 = return_value_xdf_datinfo_3->lim[(signed long int)0] > val.d ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
           retval=xdf_set_error(33);
 
         else
@@ -8440,13 +8440,13 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
         {
           if(ch->digital_inmem == 0)
           {
-            return_value_xdf_datinfo$5=xdf_datinfo(ch->inmemtype);
-            tmp_if_expr$6 = return_value_xdf_datinfo$5->lim[(signed long int)1] < val.d ? (_Bool)1 : (_Bool)0;
+            return_value_xdf_datinfo_5=xdf_datinfo(ch->inmemtype);
+            tmp_if_expr_6 = return_value_xdf_datinfo_5->lim[(signed long int)1] < val.d ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
             retval=xdf_set_error(33);
 
           else
@@ -8457,11 +8457,11 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
           if((signed int)field == XDF_CF_ARRINDEX)
           {
             if(!(val.i >= 0))
-              tmp_if_expr$7 = ch->owner->mode == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = ch->owner->mode == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
               retval=xdf_set_error(1);
 
             else
@@ -8486,9 +8486,9 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
                     if(!(ch->owner->ops->supported_type[(signed long int)val.i] == (_Bool)0))
                     {
                       ch->infiletype = (enum xdftype)val.i;
-                      struct data_information *return_value_xdf_datinfo$8;
-                      return_value_xdf_datinfo$8=xdf_datinfo((enum xdftype)val.i);
-                      memcpy((void *)ch->digital_mm, (const void *)return_value_xdf_datinfo$8->lim, sizeof(double [2l]) /*16ul*/ );
+                      struct data_information *return_value_xdf_datinfo_8;
+                      return_value_xdf_datinfo_8=xdf_datinfo((enum xdftype)val.i);
+                      memcpy((void *)ch->digital_mm, (const void *)return_value_xdf_datinfo_8->lim, sizeof(double [2l]) /*16ul*/ );
                     }
 
                     else
@@ -8500,9 +8500,9 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
   retval=ch->owner->ops->set_channel(ch, field, val, retval);
   if(retval >= 1)
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    *return_value___errno_location$9 = 22;
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    *return_value___errno_location_9 = 22;
     retval = -1;
   }
 
@@ -8514,11 +8514,11 @@ static signed int proceed_set_chconf(struct xdfch *ch, enum xdffield field, unio
 static signed int proceed_set_conf(struct xdf *xdf, enum xdffield field, union optval val)
 {
   signed int retval = 0;
-  signed int return_value_xdf_set_error$1;
+  signed int return_value_xdf_set_error_1;
   if(!(xdf->mode == 0u))
   {
-    return_value_xdf_set_error$1=xdf_set_error(1);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(1);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -8539,9 +8539,9 @@ static signed int proceed_set_conf(struct xdf *xdf, enum xdffield field, union o
     retval=xdf->ops->set_conf(xdf, field, val, retval);
     if(retval >= 1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
       retval = -1;
     }
 
@@ -8553,9 +8553,9 @@ static signed int proceed_set_conf(struct xdf *xdf, enum xdffield field, union o
 // file streamops.c line 46
 signed int read16bval(struct _IO_FILE *file, unsigned int num, void *value)
 {
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread(value, sizeof(unsigned short int) /*2ul*/ , (unsigned long int)num, file);
-  if(return_value_fread$1 == 0ul)
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread(value, sizeof(unsigned short int) /*2ul*/ , (unsigned long int)num, file);
+  if(return_value_fread_1 == 0ul)
     return -1;
 
   else
@@ -8566,9 +8566,9 @@ signed int read16bval(struct _IO_FILE *file, unsigned int num, void *value)
 // file streamops.c line 79
 signed int read24bval(struct _IO_FILE *file, unsigned int num, void *value)
 {
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread(value, (unsigned long int)3, (unsigned long int)num, file);
-  if(return_value_fread$1 == 0ul)
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread(value, (unsigned long int)3, (unsigned long int)num, file);
+  if(return_value_fread_1 == 0ul)
     return -1;
 
   else
@@ -8579,9 +8579,9 @@ signed int read24bval(struct _IO_FILE *file, unsigned int num, void *value)
 // file streamops.c line 119
 signed int read32bval(struct _IO_FILE *file, unsigned int num, void *value)
 {
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread(value, sizeof(unsigned int) /*4ul*/ , (unsigned long int)num, file);
-  if(return_value_fread$1 == 0ul)
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread(value, sizeof(unsigned int) /*4ul*/ , (unsigned long int)num, file);
+  if(return_value_fread_1 == 0ul)
     return -1;
 
   else
@@ -8592,9 +8592,9 @@ signed int read32bval(struct _IO_FILE *file, unsigned int num, void *value)
 // file streamops.c line 152
 signed int read64bval(struct _IO_FILE *file, unsigned int num, void *value)
 {
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread(value, sizeof(unsigned long int) /*8ul*/ , (unsigned long int)num, file);
-  if(return_value_fread$1 == 0ul)
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread(value, sizeof(unsigned long int) /*8ul*/ , (unsigned long int)num, file);
+  if(return_value_fread_1 == 0ul)
     return -1;
 
   else
@@ -8614,8 +8614,8 @@ static signed int read_diskrec(struct xdf *xdf)
   void *src = xdf->tmpbuff[(signed long int)0];
   void *buff = xdf->tmpbuff[(signed long int)1];
   ich = (unsigned int)0;
-  signed int tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  signed int tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   for( ; !(ich >= xdf->numch); ich = ich + 1u)
   {
     ch = xdf->convdata + (signed long int)ich;
@@ -8627,14 +8627,14 @@ static signed int read_diskrec(struct xdf *xdf)
       if(rsize == 0l || rsize == -1l)
       {
         if(rsize == 0l)
-          tmp_if_expr$2 = 1;
+          tmp_if_expr_2 = 1;
 
         else
         {
-          return_value___errno_location$1=__errno_location();
-          tmp_if_expr$2 = -(*return_value___errno_location$1);
+          return_value___errno_location_1=__errno_location();
+          tmp_if_expr_2 = -(*return_value___errno_location_1);
         }
-        xdf->reportval = tmp_if_expr$2;
+        xdf->reportval = tmp_if_expr_2;
         return -1;
       }
 
@@ -8660,19 +8660,19 @@ signed int read_int_field(struct _IO_FILE *file, signed int *val, unsigned int n
   signed long int pos;
   pos=ftell(file);
   snprintf(format, sizeof(char [8l]) /*8ul*/ , "%%%ui", nch);
-  signed int return_value_fscanf$1;
-  return_value_fscanf$1=fscanf(file, format, val);
-  _Bool tmp_if_expr$3;
-  signed int return_value_fseek$2;
-  if(!(return_value_fscanf$1 >= 1))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_fscanf_1;
+  return_value_fscanf_1=fscanf(file, format, val);
+  _Bool tmp_if_expr_3;
+  signed int return_value_fseek_2;
+  if(!(return_value_fscanf_1 >= 1))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_fseek$2=fseek(file, pos + (signed long int)nch, 0);
-    tmp_if_expr$3 = return_value_fseek$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fseek_2=fseek(file, pos + (signed long int)nch, 0);
+    tmp_if_expr_3 = return_value_fseek_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return -1;
 
   else
@@ -8685,16 +8685,16 @@ signed int read_string_field(struct _IO_FILE *file, char *val, unsigned int nch)
 {
   signed int pos;
   val[(signed long int)nch] = (char)0;
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)val, (unsigned long int)nch, (unsigned long int)1, file);
-  if(!(return_value_fread$1 >= 1ul))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)val, (unsigned long int)nch, (unsigned long int)1, file);
+  if(!(return_value_fread_1 >= 1ul))
     return -1;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(val);
-    pos = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(val);
+    pos = (signed int)return_value_strlen_2;
     for( ; !(pos == 0); pos = pos - 1)
       if(!((signed int)val[(signed long int)(pos + -1)] == 32))
         break;
@@ -8721,12 +8721,12 @@ static void scale_data_d(unsigned int ns, void *data, struct scaling_param *scal
   double *tdata = (double *)data;
   double sc = scaling->scale.d;
   double off = scaling->offset.d;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *tdata = *tdata * sc;
@@ -8743,12 +8743,12 @@ static void scale_data_f(unsigned int ns, void *data, struct scaling_param *scal
   float *tdata = (float *)data;
   float sc = scaling->scale.f;
   float off = scaling->offset.f;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = ns;
+    tmp_post_1 = ns;
     ns = ns - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     *tdata = *tdata * sc;
@@ -8764,8 +8764,8 @@ static signed int set_arg_to_val(signed int field, void ***ap, union optval *val
 {
   signed int argtype;
   argtype=get_field_type(field);
-  double *return_value_gcc_builtin_va_arg$1;
-  char *return_value_gcc_builtin_va_arg$2;
+  double *return_value_gcc_builtin_va_arg_1;
+  char *return_value_gcc_builtin_va_arg_2;
   if(argtype == 0)
     val->i=va_arg(*ap, __typeof__(val->i));
 
@@ -8788,15 +8788,15 @@ static signed int set_arg_to_val(signed int field, void ***ap, union optval *val
           else
             if(argtype == 5)
             {
-              return_value_gcc_builtin_va_arg$1=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-              memcpy((void *)val->pos, (const void *)return_value_gcc_builtin_va_arg$1, sizeof(double [3l]) /*24ul*/ );
+              return_value_gcc_builtin_va_arg_1=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+              memcpy((void *)val->pos, (const void *)return_value_gcc_builtin_va_arg_1, sizeof(double [3l]) /*24ul*/ );
             }
 
             else
               if(argtype == 6)
               {
-                return_value_gcc_builtin_va_arg$2=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$2));
-                memcpy((void *)val->icd, (const void *)return_value_gcc_builtin_va_arg$2, sizeof(char [6l]) /*6ul*/ );
+                return_value_gcc_builtin_va_arg_2=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_2));
+                memcpy((void *)val->icd, (const void *)return_value_gcc_builtin_va_arg_2, sizeof(char [6l]) /*6ul*/ );
               }
 
               else
@@ -8819,59 +8819,59 @@ static signed int set_val_to_arg(signed int field, union optval val, void ***ap)
 {
   signed int argtype;
   argtype=get_field_type(field);
-  signed int *return_value_gcc_builtin_va_arg$1;
-  enum xdftype *return_value_gcc_builtin_va_arg$2;
-  const char **return_value_gcc_builtin_va_arg$3;
-  double *return_value_gcc_builtin_va_arg$4;
-  unsigned int *return_value_gcc_builtin_va_arg$5;
-  double *return_value_gcc_builtin_va_arg$6;
-  char *return_value_gcc_builtin_va_arg$7;
+  signed int *return_value_gcc_builtin_va_arg_1;
+  enum xdftype *return_value_gcc_builtin_va_arg_2;
+  const char **return_value_gcc_builtin_va_arg_3;
+  double *return_value_gcc_builtin_va_arg_4;
+  unsigned int *return_value_gcc_builtin_va_arg_5;
+  double *return_value_gcc_builtin_va_arg_6;
+  char *return_value_gcc_builtin_va_arg_7;
   if(argtype == 0)
   {
-    return_value_gcc_builtin_va_arg$1=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-    *return_value_gcc_builtin_va_arg$1 = val.i;
+    return_value_gcc_builtin_va_arg_1=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+    *return_value_gcc_builtin_va_arg_1 = val.i;
   }
 
   else
     if(argtype == 4)
     {
-      return_value_gcc_builtin_va_arg$2=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$2));
-      *return_value_gcc_builtin_va_arg$2 = val.type;
+      return_value_gcc_builtin_va_arg_2=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_2));
+      *return_value_gcc_builtin_va_arg_2 = val.type;
     }
 
     else
       if(argtype == 3)
       {
-        return_value_gcc_builtin_va_arg$3=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$3));
-        *return_value_gcc_builtin_va_arg$3 = val.str;
+        return_value_gcc_builtin_va_arg_3=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_3));
+        *return_value_gcc_builtin_va_arg_3 = val.str;
       }
 
       else
         if(argtype == 2)
         {
-          return_value_gcc_builtin_va_arg$4=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$4));
-          *return_value_gcc_builtin_va_arg$4 = val.d;
+          return_value_gcc_builtin_va_arg_4=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_4));
+          *return_value_gcc_builtin_va_arg_4 = val.d;
         }
 
         else
           if(argtype == 1)
           {
-            return_value_gcc_builtin_va_arg$5=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$5));
-            *return_value_gcc_builtin_va_arg$5 = val.ui;
+            return_value_gcc_builtin_va_arg_5=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_5));
+            *return_value_gcc_builtin_va_arg_5 = val.ui;
           }
 
           else
             if(argtype == 5)
             {
-              return_value_gcc_builtin_va_arg$6=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$6));
-              memcpy((void *)return_value_gcc_builtin_va_arg$6, (const void *)val.pos, sizeof(double [3l]) /*24ul*/ );
+              return_value_gcc_builtin_va_arg_6=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_6));
+              memcpy((void *)return_value_gcc_builtin_va_arg_6, (const void *)val.pos, sizeof(double [3l]) /*24ul*/ );
             }
 
             else
               if(argtype == 6)
               {
-                return_value_gcc_builtin_va_arg$7=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg$7));
-                memcpy((void *)return_value_gcc_builtin_va_arg$7, (const void *)val.icd, sizeof(char [6l]) /*6ul*/ );
+                return_value_gcc_builtin_va_arg_7=va_arg(*ap, __typeof__(return_value_gcc_builtin_va_arg_7));
+                memcpy((void *)return_value_gcc_builtin_va_arg_7, (const void *)val.icd, sizeof(char [6l]) /*6ul*/ );
               }
 
               else
@@ -8901,9 +8901,9 @@ static void setup_convdata(struct xdf *xdf)
       in_str = xdf->sample_size;
       in_mm = ch->physical_mm;
       out_tp = ch->infiletype;
-      signed int return_value_xdf_get_datasize$1;
-      return_value_xdf_get_datasize$1=xdf_get_datasize(out_tp);
-      out_str = (unsigned int)return_value_xdf_get_datasize$1;
+      signed int return_value_xdf_get_datasize_1;
+      return_value_xdf_get_datasize_1=xdf_get_datasize(out_tp);
+      out_str = (unsigned int)return_value_xdf_get_datasize_1;
       out_mm = ch->digital_mm;
       swaptype = 2;
     }
@@ -8911,9 +8911,9 @@ static void setup_convdata(struct xdf *xdf)
     else
     {
       in_tp = ch->infiletype;
-      signed int return_value_xdf_get_datasize$2;
-      return_value_xdf_get_datasize$2=xdf_get_datasize(in_tp);
-      in_str = (unsigned int)return_value_xdf_get_datasize$2;
+      signed int return_value_xdf_get_datasize_2;
+      return_value_xdf_get_datasize_2=xdf_get_datasize(in_tp);
+      in_str = (unsigned int)return_value_xdf_get_datasize_2;
       in_mm = ch->digital_mm;
       out_tp = ch->inmemtype;
       out_str = xdf->sample_size;
@@ -8927,12 +8927,12 @@ static void setup_convdata(struct xdf *xdf)
     }
 
     (xdf->convdata + (signed long int)i)->skip = ch->iarray < 0 ? 1 : 0;
-    signed int return_value_xdf_get_datasize$3;
-    return_value_xdf_get_datasize$3=xdf_get_datasize(ch->infiletype);
-    (xdf->convdata + (signed long int)i)->filetypesize = (unsigned int)return_value_xdf_get_datasize$3;
-    signed int return_value_xdf_get_datasize$4;
-    return_value_xdf_get_datasize$4=xdf_get_datasize(ch->inmemtype);
-    (xdf->convdata + (signed long int)i)->memtypesize = (unsigned int)return_value_xdf_get_datasize$4;
+    signed int return_value_xdf_get_datasize_3;
+    return_value_xdf_get_datasize_3=xdf_get_datasize(ch->infiletype);
+    (xdf->convdata + (signed long int)i)->filetypesize = (unsigned int)return_value_xdf_get_datasize_3;
+    signed int return_value_xdf_get_datasize_4;
+    return_value_xdf_get_datasize_4=xdf_get_datasize(ch->inmemtype);
+    (xdf->convdata + (signed long int)i)->memtypesize = (unsigned int)return_value_xdf_get_datasize_4;
     xdf_setup_transform(&(xdf->convdata + (signed long int)i)->prm, swaptype, in_str, in_tp, in_mm, out_str, out_tp, out_mm);
     ch = ch->next;
   }
@@ -8959,9 +8959,9 @@ static signed int setup_read_xdf(struct xdf *xdf, signed int fd)
       ch->digital_inmem = 1;
       ch->iarray = 0;
       ch->offset = offset;
-      signed int return_value_xdf_get_datasize$1;
-      return_value_xdf_get_datasize$1=xdf_get_datasize(ch->inmemtype);
-      offset = offset + return_value_xdf_get_datasize$1;
+      signed int return_value_xdf_get_datasize_1;
+      return_value_xdf_get_datasize_1=xdf_get_datasize(ch->inmemtype);
+      offset = offset + return_value_xdf_get_datasize_1;
       ch = ch->next;
     }
 
@@ -8983,7 +8983,7 @@ static void * transfer_thread_fn(void *ptr)
 {
   struct xdf *xdf = (struct xdf *)ptr;
   signed int wmode = xdf->mode == (unsigned int)0 ? 1 : 0;
-  block_signals((struct anonymous$0 *)(void *)0);
+  block_signals((struct anonymous_0 *)(void *)0);
   pthread_mutex_lock(&xdf->mtx);
   while((_Bool)1)
   {
@@ -9006,18 +9006,18 @@ static void * transfer_thread_fn(void *ptr)
 
 // unblock_signals
 // file xdffile.c line 54
-static void unblock_signals(struct anonymous$0 *oldmask)
+static void unblock_signals(struct anonymous_0 *oldmask)
 {
-  pthread_sigmask(2, oldmask, (struct anonymous$0 *)(void *)0);
+  pthread_sigmask(2, oldmask, (struct anonymous_0 *)(void *)0);
 }
 
 // write16bval
 // file streamops.c line 61
 signed int write16bval(struct _IO_FILE *file, unsigned int num, const void *value)
 {
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite(value, sizeof(unsigned short int) /*2ul*/ , (unsigned long int)num, file);
-  if(return_value_fwrite$1 == 0ul)
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite(value, sizeof(unsigned short int) /*2ul*/ , (unsigned long int)num, file);
+  if(return_value_fwrite_1 == 0ul)
     return -1;
 
   else
@@ -9028,9 +9028,9 @@ signed int write16bval(struct _IO_FILE *file, unsigned int num, const void *valu
 // file streamops.c line 98
 signed int write24bval(struct _IO_FILE *file, unsigned int num, const void *value)
 {
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite(value, (unsigned long int)3, (unsigned long int)num, file);
-  if(return_value_fwrite$1 == 0ul)
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite(value, (unsigned long int)3, (unsigned long int)num, file);
+  if(return_value_fwrite_1 == 0ul)
     return -1;
 
   else
@@ -9041,9 +9041,9 @@ signed int write24bval(struct _IO_FILE *file, unsigned int num, const void *valu
 // file streamops.c line 134
 signed int write32bval(struct _IO_FILE *file, unsigned int num, const void *value)
 {
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite(value, sizeof(unsigned int) /*4ul*/ , (unsigned long int)num, file);
-  if(return_value_fwrite$1 == 0ul)
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite(value, sizeof(unsigned int) /*4ul*/ , (unsigned long int)num, file);
+  if(return_value_fwrite_1 == 0ul)
     return -1;
 
   else
@@ -9054,9 +9054,9 @@ signed int write32bval(struct _IO_FILE *file, unsigned int num, const void *valu
 // file streamops.c line 167
 signed int write64bval(struct _IO_FILE *file, unsigned int num, const void *value)
 {
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite(value, sizeof(unsigned long int) /*8ul*/ , (unsigned long int)num, file);
-  if(return_value_fwrite$1 == 0ul)
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite(value, sizeof(unsigned long int) /*8ul*/ , (unsigned long int)num, file);
+  if(return_value_fwrite_1 == 0ul)
     return -1;
 
   else
@@ -9087,9 +9087,9 @@ static signed int write_diskrec(struct xdf *xdf)
       wsize=write(xdf->fd, (const void *)fbuff, reqsize);
       if(wsize == -1l)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        xdf->reportval = -(*return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        xdf->reportval = -(*return_value___errno_location_1);
         return -1;
       }
 
@@ -9099,13 +9099,13 @@ static signed int write_diskrec(struct xdf *xdf)
     while(!(reqsize == 0ul));
     src = src + (signed long int)ch->memtypesize;
   }
-  signed int return_value_fsync$3;
-  return_value_fsync$3=fsync(xdf->fd);
-  if(!(return_value_fsync$3 == 0))
+  signed int return_value_fsync_3;
+  return_value_fsync_3=fsync(xdf->fd);
+  if(!(return_value_fsync_3 == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    xdf->reportval = -(*return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    xdf->reportval = -(*return_value___errno_location_2);
     return -1;
   }
 
@@ -9118,17 +9118,17 @@ static signed int write_diskrec(struct xdf *xdf)
 struct xdfch * xdf_add_channel(struct xdf *xdf, const char *label)
 {
   struct xdfch *ch;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(xdf == ((struct xdf *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = xdf->mode != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = xdf->mode != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
     return (struct xdfch *)(void *)0;
   }
 
@@ -9153,29 +9153,29 @@ signed int xdf_add_event(struct xdf *xdf, signed int evttype, double onset, doub
   struct xdfevent evt = { .onset=onset, .duration=duration, .evttype=evttype };
   if(xdf == ((struct xdf *)NULL) || !(evttype >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(xdf->table == ((struct eventtable *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = evttype >= (signed int)xdf->table->nentry ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = evttype >= (signed int)xdf->table->nentry ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = xdf->table == (struct eventtable *)(void *)0 ? 1 : 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = xdf->table == (struct eventtable *)(void *)0 ? 1 : 22;
     return -1;
   }
 
-  signed int return_value_add_event$4;
-  return_value_add_event$4=add_event(xdf->table, &evt);
-  return return_value_add_event$4;
+  signed int return_value_add_event_4;
+  return_value_add_event_4=add_event(xdf->table, &evt);
+  return return_value_add_event_4;
 }
 
 // xdf_add_evttype
@@ -9183,26 +9183,26 @@ signed int xdf_add_event(struct xdf *xdf, signed int evttype, double onset, doub
 signed int xdf_add_evttype(struct xdf *xdf, signed int code, const char *desc)
 {
   signed int evttype;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(xdf == ((struct xdf *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = xdf->table == (struct eventtable *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = xdf->table == (struct eventtable *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
     return -1;
   }
 
   evttype=add_event_entry(xdf->table, code, desc);
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(!(evttype >= 0))
   {
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 12;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 12;
   }
 
   return evttype;
@@ -9212,9 +9212,9 @@ signed int xdf_add_evttype(struct xdf *xdf, signed int code, const char *desc)
 // file ebdf.h line 23
 struct xdf * xdf_alloc_bdffile(void)
 {
-  struct xdf *return_value_alloc_ebdffile$1;
-  return_value_alloc_ebdffile$1=alloc_ebdffile(&bdf_ops, &bdfch_def);
-  return return_value_alloc_ebdffile$1;
+  struct xdf *return_value_alloc_ebdffile_1;
+  return_value_alloc_ebdffile_1=alloc_ebdffile(&bdf_ops, &bdfch_def);
+  return return_value_alloc_ebdffile_1;
 }
 
 // xdf_alloc_channel
@@ -9225,9 +9225,9 @@ struct xdfch * xdf_alloc_channel(struct xdf *xdf)
   struct xdfch *ch;
   struct xdfch **plastch;
   char *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(ops->chlen);
-  data = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(ops->chlen);
+  data = (char *)return_value_malloc_1;
   if(data == ((char *)NULL))
     return (struct xdfch *)(void *)0;
 
@@ -9241,9 +9241,9 @@ struct xdfch * xdf_alloc_channel(struct xdf *xdf)
     for( ; !(*plastch == ((struct xdfch *)NULL)); plastch = &(*plastch)->next)
       ;
     *plastch = ch;
-    signed int return_value_xdf_get_datasize$2;
-    return_value_xdf_get_datasize$2=xdf_get_datasize(ch->inmemtype);
-    xdf->defaultch->offset = xdf->defaultch->offset + return_value_xdf_get_datasize$2;
+    signed int return_value_xdf_get_datasize_2;
+    return_value_xdf_get_datasize_2=xdf_get_datasize(ch->inmemtype);
+    xdf->defaultch->offset = xdf->defaultch->offset + return_value_xdf_get_datasize_2;
     return ch;
   }
 }
@@ -9252,9 +9252,9 @@ struct xdfch * xdf_alloc_channel(struct xdf *xdf)
 // file ebdf.h line 26
 struct xdf * xdf_alloc_edffile(void)
 {
-  struct xdf *return_value_alloc_ebdffile$1;
-  return_value_alloc_ebdffile$1=alloc_ebdffile(&edf_ops, &edfch_def);
-  return return_value_alloc_ebdffile$1;
+  struct xdf *return_value_alloc_ebdffile_1;
+  return_value_alloc_ebdffile_1=alloc_ebdffile(&edf_ops, &edfch_def);
+  return return_value_alloc_ebdffile_1;
 }
 
 // xdf_alloc_file
@@ -9279,9 +9279,9 @@ struct xdf * xdf_alloc_gdf1file(void)
 {
   struct gdf1_file *gdf1;
   struct eventtable *table;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct gdf1_file) /*808ul*/ );
-  gdf1 = (struct gdf1_file *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct gdf1_file) /*808ul*/ );
+  gdf1 = (struct gdf1_file *)return_value_calloc_1;
   table=create_event_table();
   if(table == ((struct eventtable *)NULL) || gdf1 == ((struct gdf1_file *)NULL))
   {
@@ -9310,9 +9310,9 @@ struct xdf * xdf_alloc_gdf2file(void)
 {
   struct gdf2_file *gdf2;
   struct eventtable *table;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct gdf2_file) /*808ul*/ );
-  gdf2 = (struct gdf2_file *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct gdf2_file) /*808ul*/ );
+  gdf2 = (struct gdf2_file *)return_value_calloc_1;
   table=create_event_table();
   if(table == ((struct eventtable *)NULL) || gdf2 == ((struct gdf2_file *)NULL))
   {
@@ -9330,9 +9330,9 @@ struct xdf * xdf_alloc_gdf2file(void)
     gdf2->default_gdf2ch.xdfch.owner = &gdf2->xdf;
     gdf2->xdf.rec_duration = 1.0;
     gdf2->version = (unsigned int)0;
-    signed long int return_value_time$2;
-    return_value_time$2=time((signed long int *)(void *)0);
-    gdf2->rectime=time_to_gdf2time((double)return_value_time$2);
+    signed long int return_value_time_2;
+    return_value_time_2=time((signed long int *)(void *)0);
+    gdf2->rectime=time_to_gdf2time((double)return_value_time_2);
     return &gdf2->xdf;
   }
 }
@@ -9344,14 +9344,14 @@ signed int xdf_close(struct xdf *xdf)
   signed int retval = 0;
   struct xdfch *ch;
   struct xdfch *prev;
-  signed int return_value_xdf_set_error$1;
-  signed int return_value_finish_record$2;
-  signed int return_value_complete_file_content$3;
-  signed int return_value_close$4;
+  signed int return_value_xdf_set_error_1;
+  signed int return_value_finish_record_2;
+  signed int return_value_complete_file_content_3;
+  signed int return_value_close_4;
   if(xdf == ((struct xdf *)NULL))
   {
-    return_value_xdf_set_error$1=xdf_set_error(22);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(22);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -9360,8 +9360,8 @@ signed int xdf_close(struct xdf *xdf)
     {
       if(xdf->mode == 0u)
       {
-        return_value_finish_record$2=finish_record(xdf);
-        if(!(return_value_finish_record$2 == 0))
+        return_value_finish_record_2=finish_record(xdf);
+        if(!(return_value_finish_record_2 == 0))
           retval = -1;
 
       }
@@ -9370,8 +9370,8 @@ signed int xdf_close(struct xdf *xdf)
       free_transfer_objects(xdf);
       if(xdf->mode == 0u)
       {
-        return_value_complete_file_content$3=complete_file_content(xdf);
-        if(!(return_value_complete_file_content$3 == 0))
+        return_value_complete_file_content_3=complete_file_content(xdf);
+        if(!(return_value_complete_file_content_3 == 0))
           retval = -1;
 
       }
@@ -9380,8 +9380,8 @@ signed int xdf_close(struct xdf *xdf)
 
     if(xdf->fd >= 0)
     {
-      return_value_close$4=close(xdf->fd);
-      if(!(return_value_close$4 == 0))
+      return_value_close_4=close(xdf->fd);
+      if(!(return_value_close_4 == 0))
         retval = -1;
 
     }
@@ -9406,27 +9406,27 @@ signed int xdf_closest_type(struct xdf *xdf, enum xdftype type)
 {
   if(xdf == ((struct xdf *)NULL) || (signed int)type >= XDF_NUM_DATA_TYPES)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  enum xdftype return_value_get_closest_type$2;
-  return_value_get_closest_type$2=get_closest_type(type, xdf->ops->supported_type);
-  return (signed int)return_value_get_closest_type$2;
+  enum xdftype return_value_get_closest_type_2;
+  return_value_get_closest_type_2=get_closest_type(type, xdf->ops->supported_type);
+  return (signed int)return_value_get_closest_type_2;
 }
 
 // xdf_copy_chconf
 // file ../src/xdfio.h line 141
 signed int xdf_copy_chconf(struct xdfch *dst, struct xdfch *src)
 {
-  signed int return_value_xdf_set_error$1;
-  enum xdftype return_value_get_closest_type$4;
+  signed int return_value_xdf_set_error_1;
+  enum xdftype return_value_get_closest_type_4;
   if(dst == ((struct xdfch *)NULL) || src == ((struct xdfch *)NULL))
   {
-    return_value_xdf_set_error$1=xdf_set_error(22);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(22);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -9445,29 +9445,29 @@ signed int xdf_copy_chconf(struct xdfch *dst, struct xdfch *src)
       return 0;
     }
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    errnum = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    errnum = *return_value___errno_location_2;
     req = ops->chfields;
     for( ; !((signed int)*req == XDF_NOF); req = req + 1l)
     {
-      signed int return_value_proceed_get_chconf$3;
-      return_value_proceed_get_chconf$3=proceed_get_chconf(src, *req, &val);
-      if(return_value_proceed_get_chconf$3 == 0)
+      signed int return_value_proceed_get_chconf_3;
+      return_value_proceed_get_chconf_3=proceed_get_chconf(src, *req, &val);
+      if(return_value_proceed_get_chconf_3 == 0)
       {
         if((signed int)*req == XDF_CF_STOTYPE)
         {
-          return_value_get_closest_type$4=get_closest_type((enum xdftype)val.i, ops->supported_type);
-          val.i = (signed int)return_value_get_closest_type$4;
+          return_value_get_closest_type_4=get_closest_type((enum xdftype)val.i, ops->supported_type);
+          val.i = (signed int)return_value_get_closest_type_4;
         }
 
         proceed_set_chconf(dst, *req, val);
       }
 
     }
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = errnum;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = errnum;
     return 0;
   }
 }
@@ -9476,12 +9476,12 @@ signed int xdf_copy_chconf(struct xdfch *dst, struct xdfch *src)
 // file ../src/xdfio.h line 126
 signed int xdf_copy_conf(struct xdf *dst, struct xdf *src)
 {
-  signed int return_value_xdf_set_error$1;
-  enum xdftype return_value_get_closest_type$4;
+  signed int return_value_xdf_set_error_1;
+  enum xdftype return_value_get_closest_type_4;
   if(dst == ((struct xdf *)NULL) || src == ((struct xdf *)NULL))
   {
-    return_value_xdf_set_error$1=xdf_set_error(22);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(22);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -9490,29 +9490,29 @@ signed int xdf_copy_conf(struct xdf *dst, struct xdf *src)
     const enum xdffield *req;
     union optval val;
     signed int errnum;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    errnum = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    errnum = *return_value___errno_location_2;
     req = ops->filefields;
     for( ; !((signed int)*req == XDF_NOF); req = req + 1l)
     {
-      signed int return_value_proceed_get_conf$3;
-      return_value_proceed_get_conf$3=proceed_get_conf(src, *req, &val);
-      if(return_value_proceed_get_conf$3 == 0)
+      signed int return_value_proceed_get_conf_3;
+      return_value_proceed_get_conf_3=proceed_get_conf(src, *req, &val);
+      if(return_value_proceed_get_conf_3 == 0)
       {
         if((signed int)*req == XDF_CF_STOTYPE)
         {
-          return_value_get_closest_type$4=get_closest_type((enum xdftype)val.i, ops->supported_type);
-          val.i = (signed int)return_value_get_closest_type$4;
+          return_value_get_closest_type_4=get_closest_type((enum xdftype)val.i, ops->supported_type);
+          val.i = (signed int)return_value_get_closest_type_4;
         }
 
         proceed_set_conf(dst, *req, val);
       }
 
     }
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = errnum;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = errnum;
     return 0;
   }
 }
@@ -9521,13 +9521,13 @@ signed int xdf_copy_conf(struct xdf *dst, struct xdf *src)
 // file xdftypes.h line 75
 struct data_information * xdf_datinfo(enum xdftype type)
 {
-  struct data_information *tmp_if_expr$1;
+  struct data_information *tmp_if_expr_1;
   if(!((signed int)type >= XDF_NUM_DATA_TYPES))
-    tmp_if_expr$1 = &data_info[(signed long int)type];
+    tmp_if_expr_1 = &data_info[(signed long int)type];
 
   else
-    tmp_if_expr$1 = (struct data_information *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (struct data_information *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // xdf_define_arrays
@@ -9535,9 +9535,9 @@ struct data_information * xdf_datinfo(enum xdftype type)
 signed int xdf_define_arrays(struct xdf *xdf, unsigned int numarrays, const unsigned long int *strides)
 {
   unsigned long int *newstrides;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)numarrays * sizeof(unsigned long int) /*8ul*/ );
-  newstrides = (unsigned long int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)numarrays * sizeof(unsigned long int) /*8ul*/ );
+  newstrides = (unsigned long int *)return_value_malloc_1;
   if(newstrides == ((unsigned long int *)NULL))
     return -1;
 
@@ -9557,17 +9557,17 @@ struct xdfch * xdf_get_channel(struct xdf *xdf, unsigned int index)
 {
   struct xdfch *ch = xdf->channels;
   unsigned int ich = (unsigned int)0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(xdf == ((struct xdf *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = index >= xdf->numch ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = index >= xdf->numch ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct xdfch *)(void *)0;
   }
 
@@ -9583,11 +9583,11 @@ signed int xdf_get_chconf(struct xdfch *ch, enum xdffield field, ...)
   __builtin_va_list ap;
   signed int retval = 0;
   union optval val;
-  signed int return_value_xdf_set_error$1;
+  signed int return_value_xdf_set_error_1;
   if(ch == ((struct xdfch *)NULL))
   {
-    return_value_xdf_set_error$1=xdf_set_error(14);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(14);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -9603,9 +9603,9 @@ signed int xdf_get_chconf(struct xdfch *ch, enum xdffield field, ...)
       if(!(retval == 0))
         break;
 
-      signed int return_value_set_val_to_arg$2;
-      return_value_set_val_to_arg$2=set_val_to_arg((signed int)field, val, &ap);
-      if(!(return_value_set_val_to_arg$2 == 0))
+      signed int return_value_set_val_to_arg_2;
+      return_value_set_val_to_arg_2=set_val_to_arg((signed int)field, val, &ap);
+      if(!(return_value_set_val_to_arg_2 == 0))
       {
         retval=xdf_set_error(22);
         break;
@@ -9626,11 +9626,11 @@ signed int xdf_get_conf(struct xdf *xdf, enum xdffield field, ...)
   signed int retval = 0;
   union optval val;
   struct xdfch *defch;
-  signed int return_value_xdf_set_error$1;
+  signed int return_value_xdf_set_error_1;
   if(xdf == ((struct xdf *)NULL))
   {
-    return_value_xdf_set_error$1=xdf_set_error(14);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(14);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -9647,9 +9647,9 @@ signed int xdf_get_conf(struct xdf *xdf, enum xdffield field, ...)
       if(!(retval == 0))
         break;
 
-      signed int return_value_set_val_to_arg$2;
-      return_value_set_val_to_arg$2=set_val_to_arg((signed int)field, val, &ap);
-      if(!(return_value_set_val_to_arg$2 == 0))
+      signed int return_value_set_val_to_arg_2;
+      return_value_set_val_to_arg_2=set_val_to_arg((signed int)field, val, &ap);
+      if(!(return_value_set_val_to_arg_2 == 0))
       {
         retval=xdf_set_error(22);
         break;
@@ -9666,13 +9666,13 @@ signed int xdf_get_conf(struct xdf *xdf, enum xdffield field, ...)
 // file xdftypes.h line 77
 signed int xdf_get_datasize(enum xdftype type)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed int)type >= XDF_NUM_DATA_TYPES))
-    tmp_if_expr$1 = (signed int)data_info[(signed long int)type].size;
+    tmp_if_expr_1 = (signed int)data_info[(signed long int)type].size;
 
   else
-    tmp_if_expr$1 = -1;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = -1;
+  return tmp_if_expr_1;
 }
 
 // xdf_get_event
@@ -9682,23 +9682,23 @@ signed int xdf_get_event(struct xdf *xdf, unsigned int index, unsigned int *evtt
   struct xdfevent *evt;
   if(start == ((double *)NULL) || xdf == ((struct xdf *)NULL) || evttype == ((unsigned int *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(xdf->table == ((struct eventtable *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = index >= xdf->table->nevent ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = index >= xdf->table->nevent ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = xdf->table == (struct eventtable *)(void *)0 ? 1 : 34;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = xdf->table == (struct eventtable *)(void *)0 ? 1 : 34;
     return -1;
   }
 
@@ -9716,37 +9716,37 @@ signed int xdf_get_evttype(struct xdf *xdf, unsigned int evttype, signed int *co
   struct evententry *entry;
   if(desc == ((const char **)NULL) || code == ((signed int *)NULL) || xdf == ((struct xdf *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(xdf->table == ((struct eventtable *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = evttype >= xdf->table->nentry ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = evttype >= xdf->table->nentry ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = xdf->table == (struct eventtable *)(void *)0 ? 1 : 34;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = xdf->table == (struct eventtable *)(void *)0 ? 1 : 34;
     return -1;
   }
 
   entry = xdf->table->entry + (signed long int)evttype;
   *code = entry->code;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(entry->label);
-  char *tmp_if_expr$5;
-  if(!(return_value_strlen$4 == 0ul))
-    tmp_if_expr$5 = entry->label;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(entry->label);
+  char *tmp_if_expr_5;
+  if(!(return_value_strlen_4 == 0ul))
+    tmp_if_expr_5 = entry->label;
 
   else
-    tmp_if_expr$5 = (char *)(void *)0;
-  *desc = tmp_if_expr$5;
+    tmp_if_expr_5 = (char *)(void *)0;
+  *desc = tmp_if_expr_5;
   return 0;
 }
 
@@ -9782,9 +9782,9 @@ enum xdffiletype xdf_guess_filetype(const unsigned char *magickey)
 // file ebdf.h line 24
 signed int xdf_is_bdffile(const unsigned char *magickey)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)magickey, (const void *)bdf_magickey, sizeof(const unsigned char [8l]) /*8ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)magickey, (const void *)bdf_magickey, sizeof(const unsigned char [8l]) /*8ul*/ );
+  if(return_value_memcmp_1 == 0)
     return 1;
 
   else
@@ -9795,9 +9795,9 @@ signed int xdf_is_bdffile(const unsigned char *magickey)
 // file ebdf.h line 27
 signed int xdf_is_edffile(const unsigned char *magickey)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)magickey, (const void *)edf_magickey, sizeof(const unsigned char [8l]) /*8ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)magickey, (const void *)edf_magickey, sizeof(const unsigned char [8l]) /*8ul*/ );
+  if(return_value_memcmp_1 == 0)
     return 1;
 
   else
@@ -9811,9 +9811,9 @@ signed int xdf_is_gdf1file(const unsigned char *magickey)
   char key[9l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0 };
   unsigned int version;
   strncpy(key, (const char *)magickey, (unsigned long int)8);
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(key, "GDF 1.%u", &version);
-  if(return_value_sscanf$1 == 1)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(key, "GDF 1.%u", &version);
+  if(return_value_sscanf_1 == 1)
     return 1;
 
   else
@@ -9827,9 +9827,9 @@ signed int xdf_is_gdf2file(const unsigned char *magickey)
   char key[9l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0 };
   unsigned int version;
   strncpy(key, (const char *)magickey, (unsigned long int)8);
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(key, "GDF 2.%u", &version);
-  if(return_value_sscanf$1 == 1)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(key, "GDF 2.%u", &version);
+  if(return_value_sscanf_1 == 1)
     return 1;
 
   else
@@ -9843,9 +9843,9 @@ struct xdf * xdf_open(const char *filename, signed int mode, enum xdffiletype ty
   struct xdf *xdf = (struct xdf *)(void *)0;
   if(filename == ((const char *)NULL) || !(mode == 0) && !(mode == 1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct xdf *)(void *)0;
   }
 
@@ -9862,8 +9862,8 @@ struct xdf * xdf_open(const char *filename, signed int mode, enum xdffiletype ty
 signed int xdf_prepare_transfer(struct xdf *xdf)
 {
   signed int nbatch;
-  signed int return_value_alloc_transfer_objects$1;
-  signed int return_value_init_transfer_thread$3;
+  signed int return_value_alloc_transfer_objects_1;
+  signed int return_value_init_transfer_thread_3;
   if(!(xdf->ready == 0u))
     return -1;
 
@@ -9873,23 +9873,23 @@ signed int xdf_prepare_transfer(struct xdf *xdf)
     if(nbatch >= 0)
     {
       xdf->nbatch = (unsigned int)nbatch;
-      return_value_alloc_transfer_objects$1=alloc_transfer_objects(xdf);
-      if(!(return_value_alloc_transfer_objects$1 == 0))
+      return_value_alloc_transfer_objects_1=alloc_transfer_objects(xdf);
+      if(!(return_value_alloc_transfer_objects_1 == 0))
         goto error;
 
       compute_batches(xdf, 1);
       setup_convdata(xdf);
       if(xdf->mode == 0u)
       {
-        signed int return_value_init_file_content$2;
-        return_value_init_file_content$2=init_file_content(xdf);
-        if(!(return_value_init_file_content$2 == 0))
+        signed int return_value_init_file_content_2;
+        return_value_init_file_content_2=init_file_content(xdf);
+        if(!(return_value_init_file_content_2 == 0))
           goto error;
 
       }
 
-      return_value_init_transfer_thread$3=init_transfer_thread(xdf);
-      if(!(return_value_init_transfer_thread$3 == 0))
+      return_value_init_transfer_thread_3=init_transfer_thread(xdf);
+      if(!(return_value_init_transfer_thread_3 == 0))
         goto error;
 
       if(xdf->mode == 1u)
@@ -9918,23 +9918,23 @@ signed int xdf_prepare_transfer(struct xdf *xdf)
 // file ../src/xdfio.h line 148
 signed long int xdf_read(struct xdf *xdf, unsigned long int ns, ...)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(xdf == ((struct xdf *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(xdf->ready != 0u) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !(xdf->ready != 0u) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = xdf->mode == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = xdf->mode == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
     return (signed long int)-1;
   }
 
@@ -9945,8 +9945,8 @@ signed long int xdf_read(struct xdf *xdf, unsigned long int ns, ...)
   unsigned int samsize = xdf->sample_size;
   char * restrict buff = xdf->buff + (signed long int)(samsize * (xdf->ns_per_rec - xdf->ns_buff));
   struct data_batch *batch = xdf->batch;
-  const signed long int batch$array_size0 = (signed long int)xdf->narrays;
-  char * restrict out[batch$array_size0];
+  const signed long int batch_array_size0 = (signed long int)xdf->narrays;
+  char * restrict out[batch_array_size0];
   __builtin_va_list ap;
   signed int ret;
   va_start(ap, ns);
@@ -9991,34 +9991,34 @@ signed long int xdf_seek(struct xdf *xdf, signed long int offset, signed int whe
   signed int irec;
   signed int errnum = 0;
   unsigned int nsprec = xdf->ns_per_rec;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(xdf == ((struct xdf *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = xdf->mode != (unsigned int)1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = xdf->mode != (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !(xdf->ready != 0u) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = !(xdf->ready != 0u) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = xdf != ((struct xdf *)NULL) ? 1 : 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = xdf != ((struct xdf *)NULL) ? 1 : 22;
     return (signed long int)-1;
   }
 
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_4;
   if(!(xdf->nrecread >= 0))
-    tmp_if_expr$4 = 0;
+    tmp_if_expr_4 = 0;
 
   else
-    tmp_if_expr$4 = xdf->nrecread;
-  curpoint = (signed long int)((unsigned int)tmp_if_expr$4 * nsprec - xdf->ns_buff);
-  signed int return_value_xdf_set_error$5;
+    tmp_if_expr_4 = xdf->nrecread;
+  curpoint = (signed long int)((unsigned int)tmp_if_expr_4 * nsprec - xdf->ns_buff);
+  signed int return_value_xdf_set_error_5;
   if(whence == 1)
     reqpoint = curpoint + offset;
 
@@ -10032,24 +10032,24 @@ signed long int xdf_seek(struct xdf *xdf, signed long int offset, signed int whe
 
       else
       {
-        return_value_xdf_set_error$5=xdf_set_error(22);
-        return (signed long int)return_value_xdf_set_error$5;
+        return_value_xdf_set_error_5=xdf_set_error(22);
+        return (signed long int)return_value_xdf_set_error_5;
       }
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(!(reqpoint >= 0l))
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = reqpoint >= (signed long int)((unsigned int)xdf->nrecord * nsprec) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_xdf_set_error$6;
-  _Bool tmp_if_expr$11;
-  signed int return_value_read_diskrec$10;
-  signed int *return_value___errno_location$8;
-  signed int return_value_xdf_set_error$12;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = reqpoint >= (signed long int)((unsigned int)xdf->nrecord * nsprec) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_xdf_set_error_6;
+  _Bool tmp_if_expr_11;
+  signed int return_value_read_diskrec_10;
+  signed int *return_value___errno_location_8;
+  signed int return_value_xdf_set_error_12;
+  if(tmp_if_expr_7)
   {
-    return_value_xdf_set_error$6=xdf_set_error(34);
-    return (signed long int)return_value_xdf_set_error$6;
+    return_value_xdf_set_error_6=xdf_set_error(34);
+    return (signed long int)return_value_xdf_set_error_6;
   }
 
   else
@@ -10068,34 +10068,34 @@ signed long int xdf_seek(struct xdf *xdf, signed long int offset, signed int whe
           pthread_cond_wait(&xdf->cond, &xdf->mtx);
         }
         fileoff = (signed long int)((unsigned int)irec * xdf->filerec_size) + xdf->hdr_offset;
-        signed long int return_value_lseek$9;
-        return_value_lseek$9=lseek(xdf->fd, fileoff, 0);
-        if(!(return_value_lseek$9 >= 0l))
-          tmp_if_expr$11 = (_Bool)1;
+        signed long int return_value_lseek_9;
+        return_value_lseek_9=lseek(xdf->fd, fileoff, 0);
+        if(!(return_value_lseek_9 >= 0l))
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_read_diskrec$10=read_diskrec(xdf);
-          tmp_if_expr$11 = return_value_read_diskrec$10 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_read_diskrec_10=read_diskrec(xdf);
+          tmp_if_expr_11 = return_value_read_diskrec_10 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
         {
-          return_value___errno_location$8=__errno_location();
-          errnum = *return_value___errno_location$8;
+          return_value___errno_location_8=__errno_location();
+          errnum = *return_value___errno_location_8;
         }
 
         pthread_mutex_unlock(&xdf->mtx);
         if(!(errnum == 0))
         {
-          return_value_xdf_set_error$12=xdf_set_error(errnum);
-          return (signed long int)return_value_xdf_set_error$12;
+          return_value_xdf_set_error_12=xdf_set_error(errnum);
+          return (signed long int)return_value_xdf_set_error_12;
         }
 
       }
 
-      signed int return_value_disk_transfer$13;
-      return_value_disk_transfer$13=disk_transfer(xdf);
-      if(!(return_value_disk_transfer$13 == 0))
+      signed int return_value_disk_transfer_13;
+      return_value_disk_transfer_13=disk_transfer(xdf);
+      if(!(return_value_disk_transfer_13 == 0))
         return (signed long int)-1;
 
       xdf->nrecread = irec;
@@ -10113,11 +10113,11 @@ signed int xdf_set_chconf(struct xdfch *ch, enum xdffield field, ...)
   __builtin_va_list ap;
   signed int retval = 0;
   union optval val;
-  signed int return_value_xdf_set_error$1;
+  signed int return_value_xdf_set_error_1;
   if(ch == ((struct xdfch *)NULL))
   {
-    return_value_xdf_set_error$1=xdf_set_error(22);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(22);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -10131,9 +10131,9 @@ signed int xdf_set_chconf(struct xdfch *ch, enum xdffield field, ...)
         break;
       }
 
-      signed int return_value_set_arg_to_val$2;
-      return_value_set_arg_to_val$2=set_arg_to_val((signed int)field, &ap, &val);
-      if(!(return_value_set_arg_to_val$2 == 0))
+      signed int return_value_set_arg_to_val_2;
+      return_value_set_arg_to_val_2=set_arg_to_val((signed int)field, &ap, &val);
+      if(!(return_value_set_arg_to_val_2 == 0))
       {
         retval=xdf_set_error(22);
         break;
@@ -10158,11 +10158,11 @@ signed int xdf_set_conf(struct xdf *xdf, enum xdffield field, ...)
   signed int retval = 0;
   union optval val;
   struct xdfch *defch;
-  signed int return_value_xdf_set_error$1;
+  signed int return_value_xdf_set_error_1;
   if(xdf == ((struct xdf *)NULL))
   {
-    return_value_xdf_set_error$1=xdf_set_error(22);
-    return return_value_xdf_set_error$1;
+    return_value_xdf_set_error_1=xdf_set_error(22);
+    return return_value_xdf_set_error_1;
   }
 
   else
@@ -10171,9 +10171,9 @@ signed int xdf_set_conf(struct xdf *xdf, enum xdffield field, ...)
     va_start(ap, field);
     while(!((signed int)field == XDF_NOF))
     {
-      signed int return_value_set_arg_to_val$2;
-      return_value_set_arg_to_val$2=set_arg_to_val((signed int)field, &ap, &val);
-      if(!(return_value_set_arg_to_val$2 == 0))
+      signed int return_value_set_arg_to_val_2;
+      return_value_set_arg_to_val_2=set_arg_to_val((signed int)field, &ap, &val);
+      if(!(return_value_set_arg_to_val_2 == 0))
       {
         retval=xdf_set_error(22);
         break;
@@ -10200,9 +10200,9 @@ signed int xdf_set_error(signed int error)
 {
   if(!(error == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = error;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = error;
     return -1;
   }
 
@@ -10220,17 +10220,17 @@ signed int xdf_setup_transform(struct convprm *prm, signed int swaptype, unsigne
   memset((void *)prm, 0, sizeof(struct convprm) /*56ul*/ );
   prm->stride1 = in_str;
   prm->stride3 = out_str;
-  _Bool tmp_if_expr$2;
-  signed int return_value_memcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_memcmp_1;
   if(in_mm == ((const double *)NULL) || out_mm == ((const double *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_memcmp$1=memcmp((const void *)in_mm, (const void *)out_mm, (unsigned long int)2 * sizeof(const double) /*8ul*/ );
-    tmp_if_expr$2 = !(return_value_memcmp$1 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_1=memcmp((const void *)in_mm, (const void *)out_mm, (unsigned long int)2 * sizeof(const double) /*8ul*/ );
+    tmp_if_expr_2 = !(return_value_memcmp_1 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     scaling = 0;
 
   ti = (enum xdftype)(data_info[(signed long int)out_tp].is_int != (_Bool)0 ? (signed int)in_tp : (signed int)out_tp);
@@ -10241,40 +10241,40 @@ signed int xdf_setup_transform(struct convprm *prm, signed int swaptype, unsigne
 
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(scaling == 0)
   {
     if(convtable[(signed long int)ti][(signed long int)out_tp] == ((void (*)(unsigned int, void *, unsigned int, const void *, unsigned int))NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = !(convtable[(signed long int)in_tp][(signed long int)ti] != ((void (*)(unsigned int, void *, unsigned int, const void *, unsigned int))NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = !(convtable[(signed long int)in_tp][(signed long int)ti] != ((void (*)(unsigned int, void *, unsigned int, const void *, unsigned int))NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       ti = (enum xdftype)(data_info[(signed long int)in_tp].is_signed != (_Bool)0 ? XDFINT64 : XDFUINT64);
 
   }
 
   prm->stride2 = (unsigned int)data_info[(signed long int)ti].size;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(in_tp == ti))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (unsigned int)data_info[(signed long int)in_tp].size != in_str ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (unsigned int)data_info[(signed long int)in_tp].size != in_str ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     prm->cvfn1 = convtable[(signed long int)in_tp][(signed long int)ti];
     /* assertion prm->cvfn1 != ((void *)0) */
     assert(prm->cvfn1 != (void (*)(unsigned int, void *, unsigned int, const void *, unsigned int))(void *)0);
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(ti == out_tp))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (unsigned int)data_info[(signed long int)out_tp].size != out_str ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (unsigned int)data_info[(signed long int)out_tp].size != out_str ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     prm->cvfn3 = convtable[(signed long int)ti][(signed long int)out_tp];
     /* assertion prm->cvfn3 != ((void *)0) */
@@ -10338,23 +10338,23 @@ void xdf_transconv_data(unsigned int ns, void * restrict dst, void * restrict sr
 // file ../src/xdfio.h line 147
 signed long int xdf_write(struct xdf *xdf, unsigned long int ns, ...)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(xdf == ((struct xdf *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(xdf->ready != 0u) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = !(xdf->ready != 0u) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = xdf->mode == (unsigned int)1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = xdf->mode == (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = xdf == (struct xdf *)(void *)0 ? 22 : 1;
     return (signed long int)-1;
   }
 
@@ -10366,8 +10366,8 @@ signed long int xdf_write(struct xdf *xdf, unsigned long int ns, ...)
   unsigned int samsize = xdf->sample_size;
   char * restrict buff = xdf->buff + (signed long int)(samsize * xdf->ns_buff);
   struct data_batch *batch = xdf->batch;
-  const signed long int batch$array_size0 = (signed long int)xdf->narrays;
-  const char * restrict in[batch$array_size0];
+  const signed long int batch_array_size0 = (signed long int)xdf->narrays;
+  const char * restrict in[batch_array_size0];
   __builtin_va_list ap;
   va_start(ap, ns);
   ia = (unsigned int)0;
@@ -10379,9 +10379,9 @@ signed long int xdf_write(struct xdf *xdf, unsigned long int ns, ...)
   {
     if(xdf->ns_buff == nsrec)
     {
-      signed int return_value_disk_transfer$4;
-      return_value_disk_transfer$4=disk_transfer(xdf);
-      if(!(return_value_disk_transfer$4 == 0))
+      signed int return_value_disk_transfer_4;
+      return_value_disk_transfer_4=disk_transfer(xdf);
+      if(!(return_value_disk_transfer_4 == 0))
         return i == (unsigned int)0 ? (signed long int)-1 : (signed long int)i;
 
       buff = xdf->buff;

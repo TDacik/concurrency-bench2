@@ -1,114 +1,114 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
 struct anonymous;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$26;
+union anonymous_26;
 
 // tag-ASIdentifiers_st
 // file /usr/include/openssl/x509.h line 293
@@ -781,13 +781,13 @@ const struct ssl_method_st * TLSv1_client_method(void);
 extern signed int * __errno_location(void);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$6 *);
+extern void __pthread_register_cancel(struct anonymous_6 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$6 *);
+extern void __pthread_unregister_cancel(struct anonymous_6 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$6 *);
+extern void __pthread_unwind_next(struct anonymous_6 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -811,7 +811,7 @@ extern signed int base64_encode(const char *str, signed int length, char *b64sto
 extern char * basic_authentication_encode(const char *user, const char *passwd);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$26, unsigned int);
+extern signed int bind(signed int, union anonymous_26, unsigned int);
 // checkOptions
 // file medusa.c line 98
 signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit);
@@ -826,7 +826,7 @@ static void clone_attributes(union pthread_attr_t *new_attr, union pthread_attr_
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$26, unsigned int);
+extern signed int connect(signed int, union anonymous_26, unsigned int);
 // create_worker
 // file medusa-thread-pool.c line 77
 static signed int create_worker(struct thr_pool *pool);
@@ -935,12 +935,12 @@ void init_locks_openssl(void);
 // invokeModule
 // file medusa.c line 365
 signed int invokeModule(char *pModuleName, struct __sLogin *pLogin, signed int argc, char **argv);
-// invokeModule::1::pGo$object
+// invokeModule::1::pGo_object
 //
-signed int pGo$object(struct __sLogin *, signed int, char **);
-// invokeModule::1::pUsage$object
+signed int pGo_object(struct __sLogin *, signed int, char **);
+// invokeModule::1::pUsage_object
 //
-void pUsage$object();
+void pUsage_object();
 // job_cleanup
 // file medusa-thread-pool.c line 133
 static void job_cleanup(struct thr_pool *pool);
@@ -953,9 +953,9 @@ void kill_locks_openssl(void);
 // listModules
 // file listModules.c line 44
 void listModules(char **arrPaths, signed int nTerminateNow);
-// listModules::1::pSummary$object
+// listModules::1::pSummary_object
 //
-signed int pSummary$object(char **);
+signed int pSummary_object(char **);
 // loadFile
 // file medusa.c line 463
 void loadFile(char *pFile, char **pFileContent, signed int *iFileCnt);
@@ -1111,34 +1111,34 @@ extern signed int pthread_attr_setstack(union pthread_attr_t *, void *, unsigned
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$13 *);
+extern signed int pthread_cond_broadcast(union anonymous_13 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$13 *, const union anonymous$14 *);
+extern signed int pthread_cond_init(union anonymous_13 *, const union anonymous_14 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$13 *);
+extern signed int pthread_cond_signal(union anonymous_13 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$13 *, union anonymous$11 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_13 *, union anonymous_11 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$13 *, union anonymous$11 *);
+extern signed int pthread_cond_wait(union anonymous_13 *, union anonymous_11 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$11 *);
+extern signed int pthread_mutex_destroy(union anonymous_11 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$11 *, const union anonymous$14 *);
+extern signed int pthread_mutex_init(union anonymous_11 *, const union anonymous_14 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$11 *);
+extern signed int pthread_mutex_lock(union anonymous_11 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$11 *);
+extern signed int pthread_mutex_unlock(union anonymous_11 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1150,7 +1150,7 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setcanceltype(signed int, signed int *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$5 *, struct anonymous$5 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_5 *, struct anonymous_5 *);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -1165,7 +1165,7 @@ extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 extern unsigned long int regerror(signed int, const struct re_pattern_buffer *, char *, unsigned long int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$2 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_2 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
@@ -1177,7 +1177,7 @@ extern void rewind(struct _IO_FILE *);
 extern signed int scandir(const char *, struct dirent *** restrict , signed int (*)(struct dirent *), signed int (*)(struct dirent **, struct dirent **));
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$0 *, struct anonymous$0 *, struct anonymous$0 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_0 *, struct anonymous_0 *, struct anonymous_0 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1189,19 +1189,19 @@ void setPassResult(struct __sLogin *_psLogin, char *_pPass);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$5 *, signed int);
+extern signed int sigaddset(struct anonymous_5 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$5 *);
+extern signed int sigemptyset(struct anonymous_5 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$5 *);
+extern signed int sigfillset(struct anonymous_5 *);
 // sigint_handler
 // file medusa.c line 1857
 void sigint_handler(signed int sig);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$5 *, struct anonymous$5 *);
+extern signed int sigprocmask(signed int, const struct anonymous_5 *, struct anonymous_5 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1256,18 +1256,18 @@ extern struct thr_pool * thr_pool_create(unsigned int min_threads, unsigned int 
 // thr_pool_destroy
 // file medusa-thread-pool.h line 60
 extern void thr_pool_destroy(struct thr_pool *pool);
-// thr_pool_destroy::1::1::__cancel_routine$object
+// thr_pool_destroy::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // thr_pool_queue
 // file medusa-thread-pool.h line 50
 extern signed int thr_pool_queue(struct thr_pool *pool, void *func, void *arg);
 // thr_pool_wait
 // file medusa-thread-pool.h line 55
 extern void thr_pool_wait(struct thr_pool *pool);
-// thr_pool_wait::1::1::__cancel_routine$object
+// thr_pool_wait::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // thread_id
 // file medusa-thread-ssl.c line 32
 static unsigned long int thread_id(void);
@@ -1289,15 +1289,15 @@ static void worker_cleanup(struct thr_pool *pool);
 // worker_thread
 // file medusa-thread-pool.c line 153
 static void * worker_thread(void *arg);
-// worker_thread::1::1::2::1::1::2::1::__cancel_routine$object
+// worker_thread::1::1::2::1::1::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// worker_thread::1::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// worker_thread::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// worker_thread::1::func$object
+void __cancel_routine_object(void *);
+// worker_thread::1::func_object
 //
-void * func$object(void *);
+void * func_object(void *);
 // writeError
 // file medusa-trace.h line 47
 void writeError(signed int iLevel, char *pMsg, ...);
@@ -1308,7 +1308,7 @@ void writeErrorBin(signed int iLevel, char *pMsg, unsigned char *pData, signed i
 // file modsrc/../medusa-trace.h line 46
 void writeVerbose(signed int iLevel, char *pMsg, ...);
 
-struct anonymous$17
+struct anonymous_17
 {
   // _call_addr
   void *_call_addr;
@@ -1318,7 +1318,7 @@ struct anonymous$17
   unsigned int _arch;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_addr
   void *si_addr;
@@ -1326,7 +1326,7 @@ struct anonymous$15
   signed short int si_addr_lsb;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -1380,19 +1380,19 @@ struct anonymous$1
   signed int cert_request;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -1400,15 +1400,15 @@ struct anonymous$7
   signed int __mask_was_saved;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __cancel_jmp_buf
-  struct anonymous$7 __cancel_jmp_buf[1l];
+  struct anonymous_7 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // __lock
   signed int __lock;
@@ -1428,7 +1428,7 @@ struct anonymous$23
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // rm_so
   signed int rm_so;
@@ -1436,7 +1436,7 @@ struct anonymous$2
   signed int rm_eo;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // sess_connect
   signed int sess_connect;
@@ -1462,7 +1462,7 @@ struct anonymous$25
   signed int sess_cb_hit;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_pid
   signed int si_pid;
@@ -1470,7 +1470,7 @@ struct anonymous$8
   unsigned int si_uid;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -1492,7 +1492,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -1502,7 +1502,7 @@ struct anonymous$10
   union sigval si_sigval;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_tid
   signed int si_tid;
@@ -1512,7 +1512,7 @@ struct anonymous$9
   union sigval si_sigval;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_band
   signed long int si_band;
@@ -1520,27 +1520,27 @@ struct anonymous$16
   signed int si_fd;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$8 _kill;
+  struct anonymous_8 _kill;
   // _timer
-  struct anonymous$9 _timer;
+  struct anonymous_9 _timer;
   // _rt
-  struct anonymous$10 _rt;
+  struct anonymous_10 _rt;
   // _sigchld
-  struct anonymous$12 _sigchld;
+  struct anonymous_12 _sigchld;
   // _sigfault
-  struct anonymous$15 _sigfault;
+  struct anonymous_15 _sigfault;
   // _sigpoll
-  struct anonymous$16 _sigpoll;
+  struct anonymous_16 _sigpoll;
   // _sigsys
-  struct anonymous$17 _sigsys;
+  struct anonymous_17 _sigsys;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_signo
   signed int si_signo;
@@ -1549,7 +1549,7 @@ struct anonymous$20
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$18 _sifields;
+  union anonymous_18 _sifields;
 };
 
 struct anonymous
@@ -1578,7 +1578,7 @@ struct anonymous
   unsigned int rlen;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // ptr
   char *ptr;
@@ -1592,7 +1592,7 @@ union anonymous$24
   struct ec_key_st *ec;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // ptr
   char *ptr;
@@ -1638,15 +1638,15 @@ union anonymous$21
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$20 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_20 *, void *);
 };
 
-union anonymous$19
+union anonymous_19
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -1654,7 +1654,7 @@ union anonymous$19
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1664,7 +1664,7 @@ union anonymous$3
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __size
   char __size[4l];
@@ -1672,10 +1672,10 @@ union anonymous$14
   signed int __align;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __data
-  struct anonymous$23 __data;
+  struct anonymous_23 __data;
   // __size
   char __size[48l];
   // __align
@@ -1710,7 +1710,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1720,7 +1720,7 @@ union anonymous$11
   signed long int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1750,7 +1750,7 @@ union anonymous$4
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2147,7 +2147,7 @@ struct __sAudit
   // server_pool
   struct thr_pool *server_pool;
   // ptmMutex
-  union anonymous$11 ptmMutex;
+  union anonymous_11 ptmMutex;
 };
 
 struct __sConnectParams
@@ -2287,7 +2287,7 @@ struct __sServer
   // iCredentialsMissed
   signed int iCredentialsMissed;
   // ptmMutex
-  union anonymous$11 ptmMutex;
+  union anonymous_11 ptmMutex;
 };
 
 struct __sUser
@@ -2375,7 +2375,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$21 value;
+  union anonymous_21 value;
 };
 
 struct bignum_st
@@ -2465,7 +2465,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$19 cb;
+  union anonymous_19 cb;
 };
 
 struct bn_mont_ctx_st
@@ -2929,7 +2929,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$24 pkey;
+  union anonymous_24 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -2955,7 +2955,7 @@ struct hmac_ctx_st
 struct in6_addr
 {
   // __in6_u
-  union anonymous$3 __in6_u;
+  union anonymous_3 __in6_u;
 };
 
 struct in_addr
@@ -3107,9 +3107,9 @@ struct sched_param
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$22 __sigaction_handler;
+  union anonymous_22 __sigaction_handler;
   // sa_mask
-  struct anonymous$5 sa_mask;
+  struct anonymous_5 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -3383,7 +3383,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$1 tmp;
+  struct anonymous_1 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -3471,7 +3471,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$25 stats;
+  struct anonymous_25 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -4039,13 +4039,13 @@ struct thr_pool
   // pool_back
   struct thr_pool *pool_back;
   // pool_mutex
-  union anonymous$11 pool_mutex;
+  union anonymous_11 pool_mutex;
   // pool_busycv
-  union anonymous$13 pool_busycv;
+  union anonymous_13 pool_busycv;
   // pool_workcv
-  union anonymous$13 pool_workcv;
+  union anonymous_13 pool_workcv;
   // pool_waitcv
-  union anonymous$13 pool_waitcv;
+  union anonymous_13 pool_waitcv;
   // pool_active
   struct active *pool_active;
   // pool_head
@@ -4314,7 +4314,7 @@ struct x509_store_st
 char **arrModuleParams;
 // fillset
 // file medusa-thread-pool.c line 72
-static struct anonymous$5 fillset;
+static struct anonymous_5 fillset;
 // iErrorLevel
 // file modsrc/../medusa.h line 65
 signed int iErrorLevel;
@@ -4323,7 +4323,7 @@ signed int iErrorLevel;
 signed int iVerboseLevel;
 // lockarray
 // file medusa-thread-ssl.c line 17
-static union anonymous$11 *lockarray;
+static union anonymous_11 *lockarray;
 // nModuleParamCount
 // file medusa.c line 36
 signed int nModuleParamCount;
@@ -4341,10 +4341,10 @@ struct __sAudit *psAudit = (struct __sAudit *)(void *)0;
 struct SSLSOCKETINFO *psSSLSocketInfo = (struct SSLSOCKETINFO *)(void *)0;
 // ptmFileMutex
 // file modsrc/../medusa.h line 63
-union anonymous$11 ptmFileMutex;
+union anonymous_11 ptmFileMutex;
 // ptmSSLMutex
 // file medusa-net.c line 73
-union anonymous$11 ptmSSLMutex;
+union anonymous_11 ptmSSLMutex;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -4362,7 +4362,7 @@ char *szModulePaths[3l] = { "a", "b", "c" };
 char *szTempModuleParam;
 // thr_pool_lock
 // file medusa-thread-pool.c line 69
-static union anonymous$11 thr_pool_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_11 thr_pool_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // thr_pools
@@ -4380,22 +4380,22 @@ signed int addMissedCredSet(struct __sLogin *_psLogin, struct __sCredentialSet *
     _psLogin->psServer->iLoginCnt = _psLogin->psServer->iLoginCnt - 1;
 
   writeError(5, "[%s] Host: %s User: %s Password: %s - The noted credentials have been added to the end of the queue for testing.", _psLogin->psServer->psAudit->pModuleName, _psLogin->psServer->psHost->pHost, _psCredSet->psUser->pUser, _psCredSet->pPass);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct __sCredentialSet) /*32ul*/ );
-  psCredSetMissed = (struct __sCredentialSet *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct __sCredentialSet) /*32ul*/ );
+  psCredSetMissed = (struct __sCredentialSet *)return_value_malloc_1;
   memset((void *)psCredSetMissed, 0, sizeof(struct __sCredentialSet) /*32ul*/ );
   psCredSetMissed->psUser = _psCredSet->psUser;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(_psCredSet->pPass);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(return_value_strlen$2 + (unsigned long int)1);
-  psCredSetMissed->pPass = (char *)return_value_malloc$3;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(_psCredSet->pPass);
-  memset((void *)psCredSetMissed->pPass, 0, return_value_strlen$4 + (unsigned long int)1);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(_psCredSet->pPass);
-  strncpy(psCredSetMissed->pPass, _psCredSet->pPass, return_value_strlen$5);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(_psCredSet->pPass);
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(return_value_strlen_2 + (unsigned long int)1);
+  psCredSetMissed->pPass = (char *)return_value_malloc_3;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(_psCredSet->pPass);
+  memset((void *)psCredSetMissed->pPass, 0, return_value_strlen_4 + (unsigned long int)1);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(_psCredSet->pPass);
+  strncpy(psCredSetMissed->pPass, _psCredSet->pPass, return_value_strlen_5);
   if(_psLogin->psServer->psCredentialSetMissed == ((struct __sCredentialSet *)NULL))
   {
     _psLogin->psServer->psCredentialSetMissed = psCredSetMissed;
@@ -4416,24 +4416,24 @@ extern signed int base64_decode(const char *base64, char *to)
 {
   const char *p = base64;
   char *q = to;
-  const char *tmp_post$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  const char *tmp_post$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  char *tmp_post$7;
-  const char *tmp_post$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  const char *tmp_post$13;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  char *tmp_post$14;
-  const char *tmp_post$17;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  char *tmp_post$18;
+  const char *tmp_post_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  const char *tmp_post_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  char *tmp_post_7;
+  const char *tmp_post_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  const char *tmp_post_13;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  char *tmp_post_14;
+  const char *tmp_post_17;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  char *tmp_post_18;
   while((_Bool)1)
   {
     unsigned char c;
@@ -4441,23 +4441,23 @@ extern signed int base64_decode(const char *base64, char *to)
     static signed short int base64_char_to_value[128l] = { (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)62, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)63, (signed short int)52, (signed short int)53, (signed short int)54, (signed short int)55, (signed short int)56, (signed short int)57, (signed short int)58, (signed short int)59, (signed short int)60, (signed short int)61, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)0, (signed short int)1, (signed short int)2, (signed short int)3, (signed short int)4, (signed short int)5, (signed short int)6, (signed short int)7, (signed short int)8, (signed short int)9, (signed short int)10, (signed short int)11, (signed short int)12, (signed short int)13, (signed short int)14, (signed short int)15, (signed short int)16, (signed short int)17, (signed short int)18, (signed short int)19, (signed short int)20, (signed short int)21, (signed short int)22, (signed short int)23, (signed short int)24, (signed short int)25, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)26, (signed short int)27, (signed short int)28, (signed short int)29, (signed short int)30, (signed short int)31, (signed short int)32, (signed short int)33, (signed short int)34, (signed short int)35, (signed short int)36, (signed short int)37, (signed short int)38, (signed short int)39, (signed short int)40, (signed short int)41, (signed short int)42, (signed short int)43, (signed short int)44, (signed short int)45, (signed short int)46, (signed short int)47, (signed short int)48, (signed short int)49, (signed short int)50, (signed short int)51, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1, (signed short int)-1 };
     do
     {
-      tmp_post$3 = p;
+      tmp_post_3 = p;
       p = p + 1l;
-      c = (unsigned char)*tmp_post$3;
+      c = (unsigned char)*tmp_post_3;
       if(!((signed int)c == 0))
       {
         if((0x80 & (signed int)c) == 0)
-          tmp_if_expr$1 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = !(tmp_if_expr$1 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = !(tmp_if_expr_1 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     if(c == 0)
       break;
 
@@ -4467,23 +4467,23 @@ extern signed int base64_decode(const char *base64, char *to)
     value = (unsigned long int)((signed int)base64_char_to_value[(signed long int)c] << 18);
     do
     {
-      tmp_post$6 = p;
+      tmp_post_6 = p;
       p = p + 1l;
-      c = (unsigned char)*tmp_post$6;
+      c = (unsigned char)*tmp_post_6;
       if(!((signed int)c == 0))
       {
         if((0x80 & (signed int)c) == 0)
-          tmp_if_expr$4 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = !(tmp_if_expr$4 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = !(tmp_if_expr_4 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
     }
-    while(tmp_if_expr$5);
+    while(tmp_if_expr_5);
     if(c == 0)
       return -1;
 
@@ -4491,28 +4491,28 @@ extern signed int base64_decode(const char *base64, char *to)
       return -1;
 
     value = value | (unsigned long int)((signed int)base64_char_to_value[(signed long int)c] << 12);
-    tmp_post$7 = q;
+    tmp_post_7 = q;
     q = q + 1l;
-    *tmp_post$7 = (char)(value >> 16);
+    *tmp_post_7 = (char)(value >> 16);
     do
     {
-      tmp_post$10 = p;
+      tmp_post_10 = p;
       p = p + 1l;
-      c = (unsigned char)*tmp_post$10;
+      c = (unsigned char)*tmp_post_10;
       if(!((signed int)c == 0))
       {
         if((0x80 & (signed int)c) == 0)
-          tmp_if_expr$8 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        tmp_if_expr$9 = !(tmp_if_expr$8 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        tmp_if_expr_9 = !(tmp_if_expr_8 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
+        tmp_if_expr_9 = (_Bool)0;
     }
-    while(tmp_if_expr$9);
+    while(tmp_if_expr_9);
     if(c == 0)
       return -1;
 
@@ -4520,23 +4520,23 @@ extern signed int base64_decode(const char *base64, char *to)
     {
       do
       {
-        tmp_post$13 = p;
+        tmp_post_13 = p;
         p = p + 1l;
-        c = (unsigned char)*tmp_post$13;
+        c = (unsigned char)*tmp_post_13;
         if(!((signed int)c == 0))
         {
           if((0x80 & (signed int)c) == 0)
-            tmp_if_expr$11 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_11 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          tmp_if_expr$12 = !(tmp_if_expr$11 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_11 = (_Bool)0;
+          tmp_if_expr_12 = !(tmp_if_expr_11 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
+          tmp_if_expr_12 = (_Bool)0;
       }
-      while(tmp_if_expr$12);
+      while(tmp_if_expr_12);
       if(c == 0)
         return -1;
 
@@ -4548,37 +4548,37 @@ extern signed int base64_decode(const char *base64, char *to)
     else
     {
       value = value | (unsigned long int)((signed int)base64_char_to_value[(signed long int)c] << 6);
-      tmp_post$14 = q;
+      tmp_post_14 = q;
       q = q + 1l;
-      *tmp_post$14 = (char)((unsigned long int)0xff & value >> 8);
+      *tmp_post_14 = (char)((unsigned long int)0xff & value >> 8);
       do
       {
-        tmp_post$17 = p;
+        tmp_post_17 = p;
         p = p + 1l;
-        c = (unsigned char)*tmp_post$17;
+        c = (unsigned char)*tmp_post_17;
         if(!((signed int)c == 0))
         {
           if((0x80 & (signed int)c) == 0)
-            tmp_if_expr$15 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_15 = (signed int)base64_char_to_value[(signed long int)c] >= 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$15 = (_Bool)0;
-          tmp_if_expr$16 = !(tmp_if_expr$15 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_15 = (_Bool)0;
+          tmp_if_expr_16 = !(tmp_if_expr_15 ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$16 = (_Bool)0;
+          tmp_if_expr_16 = (_Bool)0;
       }
-      while(tmp_if_expr$16);
+      while(tmp_if_expr_16);
       if(c == 0)
         return -1;
 
       if(!((signed int)c == 61))
       {
         value = value | (unsigned long int)base64_char_to_value[(signed long int)c];
-        tmp_post$18 = q;
+        tmp_post_18 = q;
         q = q + 1l;
-        *tmp_post$18 = (char)((unsigned long int)0xff & value);
+        *tmp_post_18 = (char)((unsigned long int)0xff & value);
       }
 
     }
@@ -4594,25 +4594,25 @@ extern signed int base64_encode(const char *str, signed int length, char *b64sto
   const unsigned char *s = (const unsigned char *)str;
   char *p = b64store;
   i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   for( ; !(i >= length); i = i + 3)
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
     static char tbl[64l] = { (char)65, (char)66, (char)67, (char)68, (char)69, (char)70, (char)71, (char)72, (char)73, (char)74, (char)75, (char)76, (char)77, (char)78, (char)79, (char)80, (char)81, (char)82, (char)83, (char)84, (char)85, (char)86, (char)87, (char)88, (char)89, (char)90, (char)97, (char)98, (char)99, (char)100, (char)101, (char)102, (char)103, (char)104, (char)105, (char)106, (char)107, (char)108, (char)109, (char)110, (char)111, (char)112, (char)113, (char)114, (char)115, (char)116, (char)117, (char)118, (char)119, (char)120, (char)121, (char)122, (char)48, (char)49, (char)50, (char)51, (char)52, (char)53, (char)54, (char)55, (char)56, (char)57, (char)43, (char)47 };
-    *tmp_post$1 = tbl[(signed long int)((signed int)s[(signed long int)0] >> 2)];
-    tmp_post$2 = p;
+    *tmp_post_1 = tbl[(signed long int)((signed int)s[(signed long int)0] >> 2)];
+    tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = tbl[(signed long int)((((signed int)s[(signed long int)0] & 3) << 4) + ((signed int)s[(signed long int)1] >> 4))];
-    tmp_post$3 = p;
+    *tmp_post_2 = tbl[(signed long int)((((signed int)s[(signed long int)0] & 3) << 4) + ((signed int)s[(signed long int)1] >> 4))];
+    tmp_post_3 = p;
     p = p + 1l;
-    *tmp_post$3 = tbl[(signed long int)((((signed int)s[(signed long int)1] & 0xf) << 2) + ((signed int)s[(signed long int)2] >> 6))];
-    tmp_post$4 = p;
+    *tmp_post_3 = tbl[(signed long int)((((signed int)s[(signed long int)1] & 0xf) << 2) + ((signed int)s[(signed long int)2] >> 6))];
+    tmp_post_4 = p;
     p = p + 1l;
-    *tmp_post$4 = tbl[(signed long int)((signed int)s[(signed long int)2] & 0x3f)];
+    *tmp_post_4 = tbl[(signed long int)((signed int)s[(signed long int)2] & 0x3f)];
     s = s + (signed long int)3;
   }
   if(i == 1 + length)
@@ -4636,18 +4636,18 @@ extern char * basic_authentication_encode(const char *user, const char *passwd)
   char *t1;
   char *t2;
   signed int len1;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(user);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(passwd);
-  len1 = (signed int)(return_value_strlen$1 + (unsigned long int)1 + return_value_strlen$2);
-  void *return_value___builtin_alloca$3;
-  return_value___builtin_alloca$3=__builtin_alloca((unsigned long int)(len1 + 1));
-  t1 = (char *)return_value___builtin_alloca$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(user);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(passwd);
+  len1 = (signed int)(return_value_strlen_1 + (unsigned long int)1 + return_value_strlen_2);
+  void *return_value___builtin_alloca_3;
+  return_value___builtin_alloca_3=__builtin_alloca((unsigned long int)(len1 + 1));
+  t1 = (char *)return_value___builtin_alloca_3;
   sprintf(t1, "%s:%s", user, passwd);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)(4 * ((len1 + 2) / 3) + 1));
-  t2 = (char *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)(4 * ((len1 + 2) / 3) + 1));
+  t2 = (char *)return_value_malloc_4;
   base64_encode(t1, len1, t2);
   return t2;
 }
@@ -4675,9 +4675,9 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
   i = 0;
   for( ; !(i >= argc); i = i + 1)
   {
-    char *return_value_strstr$1;
-    return_value_strstr$1=strstr(argv[(signed long int)i], "-b");
-    if(!(return_value_strstr$1 == ((char *)NULL)))
+    char *return_value_strstr_1;
+    return_value_strstr_1=strstr(argv[(signed long int)i], "-b");
+    if(!(return_value_strstr_1 == ((char *)NULL)))
     {
       nIgnoreBanner = 1;
       break;
@@ -4687,32 +4687,32 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
   if(nIgnoreBanner == 0)
     writeVerbose(1, "%s v%s [%s] (C) %s %s\n", (const void *)"Medusa", (const void *)"2.2_rc3", (const void *)"http://www.foofus.net", (const void *)"JoMo-Kun / Foofus Networks", (const void *)"<jmk@foofus.net>");
 
-  unsigned long int return_value_strlen$26;
-  void *return_value_malloc$27;
-  unsigned long int return_value_strlen$28;
-  unsigned long int return_value_strlen$29;
-  unsigned long int return_value_strlen$30;
-  void *return_value_malloc$31;
-  unsigned long int return_value_strlen$32;
-  unsigned long int return_value_strlen$33;
-  signed int return_value_strcmp$38;
-  signed int return_value_strcmp$37;
-  signed int return_value_strcmp$34;
-  _Bool tmp_if_expr$36;
-  signed int return_value_strcmp$35;
-  unsigned long int return_value_strlen$39;
-  void *return_value_malloc$40;
-  unsigned long int return_value_strlen$41;
-  unsigned long int return_value_strlen$42;
-  unsigned long int return_value_strlen$43;
-  void *return_value_malloc$44;
-  unsigned long int return_value_strlen$45;
-  unsigned long int return_value_strlen$46;
-  void *return_value_realloc$47;
-  unsigned long int return_value_strlen$48;
-  void *return_value_malloc$49;
-  unsigned long int return_value_strlen$50;
-  unsigned long int return_value_strlen$51;
+  unsigned long int return_value_strlen_26;
+  void *return_value_malloc_27;
+  unsigned long int return_value_strlen_28;
+  unsigned long int return_value_strlen_29;
+  unsigned long int return_value_strlen_30;
+  void *return_value_malloc_31;
+  unsigned long int return_value_strlen_32;
+  unsigned long int return_value_strlen_33;
+  signed int return_value_strcmp_38;
+  signed int return_value_strcmp_37;
+  signed int return_value_strcmp_34;
+  _Bool tmp_if_expr_36;
+  signed int return_value_strcmp_35;
+  unsigned long int return_value_strlen_39;
+  void *return_value_malloc_40;
+  unsigned long int return_value_strlen_41;
+  unsigned long int return_value_strlen_42;
+  unsigned long int return_value_strlen_43;
+  void *return_value_malloc_44;
+  unsigned long int return_value_strlen_45;
+  unsigned long int return_value_strlen_46;
+  void *return_value_realloc_47;
+  unsigned long int return_value_strlen_48;
+  void *return_value_malloc_49;
+  unsigned long int return_value_strlen_50;
+  unsigned long int return_value_strlen_51;
   do
   {
     opt=getopt(argc, argv, "h:H:u:U:p:P:C:O:e:M:m:g:r:R:c:t:T:n:bqdsLfFVv:w:Z:");
@@ -4731,17 +4731,17 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
         else
         {
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(optarg);
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc(return_value_strlen$2 + (unsigned long int)1);
-          _psAudit->pGlobalHost = (char *)return_value_malloc$3;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(optarg);
-          memset((void *)_psAudit->pGlobalHost, 0, return_value_strlen$4 + (unsigned long int)1);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(optarg);
-          strncpy(_psAudit->pGlobalHost, optarg, return_value_strlen$5);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(optarg);
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc(return_value_strlen_2 + (unsigned long int)1);
+          _psAudit->pGlobalHost = (char *)return_value_malloc_3;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(optarg);
+          memset((void *)_psAudit->pGlobalHost, 0, return_value_strlen_4 + (unsigned long int)1);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(optarg);
+          strncpy(_psAudit->pGlobalHost, optarg, return_value_strlen_5);
           _psAudit->HostType = 1;
         }
         break;
@@ -4756,17 +4756,17 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
         else
         {
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(optarg);
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc(return_value_strlen$6 + (unsigned long int)1);
-          _psAudit->pOptHost = (char *)return_value_malloc$7;
-          unsigned long int return_value_strlen$8;
-          return_value_strlen$8=strlen(optarg);
-          memset((void *)_psAudit->pOptHost, 0, return_value_strlen$8 + (unsigned long int)1);
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(optarg);
-          strncpy(_psAudit->pOptHost, optarg, return_value_strlen$9);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(optarg);
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc(return_value_strlen_6 + (unsigned long int)1);
+          _psAudit->pOptHost = (char *)return_value_malloc_7;
+          unsigned long int return_value_strlen_8;
+          return_value_strlen_8=strlen(optarg);
+          memset((void *)_psAudit->pOptHost, 0, return_value_strlen_8 + (unsigned long int)1);
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(optarg);
+          strncpy(_psAudit->pOptHost, optarg, return_value_strlen_9);
           _psAudit->HostType = 2;
         }
         break;
@@ -4781,17 +4781,17 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
         else
         {
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(optarg);
-          void *return_value_malloc$11;
-          return_value_malloc$11=malloc(return_value_strlen$10 + (unsigned long int)1);
-          _psAudit->pGlobalUser = (char *)return_value_malloc$11;
-          unsigned long int return_value_strlen$12;
-          return_value_strlen$12=strlen(optarg);
-          memset((void *)_psAudit->pGlobalUser, 0, return_value_strlen$12 + (unsigned long int)1);
-          unsigned long int return_value_strlen$13;
-          return_value_strlen$13=strlen(optarg);
-          strncpy(_psAudit->pGlobalUser, optarg, return_value_strlen$13);
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(optarg);
+          void *return_value_malloc_11;
+          return_value_malloc_11=malloc(return_value_strlen_10 + (unsigned long int)1);
+          _psAudit->pGlobalUser = (char *)return_value_malloc_11;
+          unsigned long int return_value_strlen_12;
+          return_value_strlen_12=strlen(optarg);
+          memset((void *)_psAudit->pGlobalUser, 0, return_value_strlen_12 + (unsigned long int)1);
+          unsigned long int return_value_strlen_13;
+          return_value_strlen_13=strlen(optarg);
+          strncpy(_psAudit->pGlobalUser, optarg, return_value_strlen_13);
           _psAudit->UserType = 1;
           _psAudit->iUserCnt = 1;
         }
@@ -4807,17 +4807,17 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
         else
         {
-          unsigned long int return_value_strlen$14;
-          return_value_strlen$14=strlen(optarg);
-          void *return_value_malloc$15;
-          return_value_malloc$15=malloc(return_value_strlen$14 + (unsigned long int)1);
-          _psAudit->pOptUser = (char *)return_value_malloc$15;
-          unsigned long int return_value_strlen$16;
-          return_value_strlen$16=strlen(optarg);
-          memset((void *)_psAudit->pOptUser, 0, return_value_strlen$16 + (unsigned long int)1);
-          unsigned long int return_value_strlen$17;
-          return_value_strlen$17=strlen(optarg);
-          strncpy(_psAudit->pOptUser, optarg, return_value_strlen$17);
+          unsigned long int return_value_strlen_14;
+          return_value_strlen_14=strlen(optarg);
+          void *return_value_malloc_15;
+          return_value_malloc_15=malloc(return_value_strlen_14 + (unsigned long int)1);
+          _psAudit->pOptUser = (char *)return_value_malloc_15;
+          unsigned long int return_value_strlen_16;
+          return_value_strlen_16=strlen(optarg);
+          memset((void *)_psAudit->pOptUser, 0, return_value_strlen_16 + (unsigned long int)1);
+          unsigned long int return_value_strlen_17;
+          return_value_strlen_17=strlen(optarg);
+          strncpy(_psAudit->pOptUser, optarg, return_value_strlen_17);
           _psAudit->UserType = 2;
         }
         break;
@@ -4832,17 +4832,17 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
         else
         {
-          unsigned long int return_value_strlen$18;
-          return_value_strlen$18=strlen(optarg);
-          void *return_value_malloc$19;
-          return_value_malloc$19=malloc(return_value_strlen$18 + (unsigned long int)2);
-          _psAudit->pGlobalPass = (char *)return_value_malloc$19;
-          unsigned long int return_value_strlen$20;
-          return_value_strlen$20=strlen(optarg);
-          memset((void *)_psAudit->pGlobalPass, 0, return_value_strlen$20 + (unsigned long int)2);
-          unsigned long int return_value_strlen$21;
-          return_value_strlen$21=strlen(optarg);
-          strncpy(_psAudit->pGlobalPass, optarg, return_value_strlen$21);
+          unsigned long int return_value_strlen_18;
+          return_value_strlen_18=strlen(optarg);
+          void *return_value_malloc_19;
+          return_value_malloc_19=malloc(return_value_strlen_18 + (unsigned long int)2);
+          _psAudit->pGlobalPass = (char *)return_value_malloc_19;
+          unsigned long int return_value_strlen_20;
+          return_value_strlen_20=strlen(optarg);
+          memset((void *)_psAudit->pGlobalPass, 0, return_value_strlen_20 + (unsigned long int)2);
+          unsigned long int return_value_strlen_21;
+          return_value_strlen_21=strlen(optarg);
+          strncpy(_psAudit->pGlobalPass, optarg, return_value_strlen_21);
           _psAudit->PassType = 1;
           _psAudit->iPassCnt = 1;
         }
@@ -4858,47 +4858,47 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
         else
         {
-          unsigned long int return_value_strlen$22;
-          return_value_strlen$22=strlen(optarg);
-          void *return_value_malloc$23;
-          return_value_malloc$23=malloc(return_value_strlen$22 + (unsigned long int)1);
-          _psAudit->pOptPass = (char *)return_value_malloc$23;
-          unsigned long int return_value_strlen$24;
-          return_value_strlen$24=strlen(optarg);
-          memset((void *)_psAudit->pOptPass, 0, return_value_strlen$24 + (unsigned long int)1);
-          unsigned long int return_value_strlen$25;
-          return_value_strlen$25=strlen(optarg);
-          strncpy(_psAudit->pOptPass, optarg, return_value_strlen$25);
+          unsigned long int return_value_strlen_22;
+          return_value_strlen_22=strlen(optarg);
+          void *return_value_malloc_23;
+          return_value_malloc_23=malloc(return_value_strlen_22 + (unsigned long int)1);
+          _psAudit->pOptPass = (char *)return_value_malloc_23;
+          unsigned long int return_value_strlen_24;
+          return_value_strlen_24=strlen(optarg);
+          memset((void *)_psAudit->pOptPass, 0, return_value_strlen_24 + (unsigned long int)1);
+          unsigned long int return_value_strlen_25;
+          return_value_strlen_25=strlen(optarg);
+          strncpy(_psAudit->pOptPass, optarg, return_value_strlen_25);
           _psAudit->PassType = 2;
         }
         break;
       }
       case 67:
       {
-        return_value_strlen$26=strlen(optarg);
-        return_value_malloc$27=malloc(return_value_strlen$26 + (unsigned long int)1);
-        _psAudit->pOptCombo = (char *)return_value_malloc$27;
-        return_value_strlen$28=strlen(optarg);
-        memset((void *)_psAudit->pOptCombo, 0, return_value_strlen$28 + (unsigned long int)1);
-        return_value_strlen$29=strlen(optarg);
-        strncpy(_psAudit->pOptCombo, optarg, return_value_strlen$29);
+        return_value_strlen_26=strlen(optarg);
+        return_value_malloc_27=malloc(return_value_strlen_26 + (unsigned long int)1);
+        _psAudit->pOptCombo = (char *)return_value_malloc_27;
+        return_value_strlen_28=strlen(optarg);
+        memset((void *)_psAudit->pOptCombo, 0, return_value_strlen_28 + (unsigned long int)1);
+        return_value_strlen_29=strlen(optarg);
+        strncpy(_psAudit->pOptCombo, optarg, return_value_strlen_29);
         break;
       }
       case 79:
       {
-        return_value_strlen$30=strlen(optarg);
-        return_value_malloc$31=malloc(return_value_strlen$30 + (unsigned long int)1);
-        _psAudit->pOptOutput = (char *)return_value_malloc$31;
-        return_value_strlen$32=strlen(optarg);
-        memset((void *)_psAudit->pOptOutput, 0, return_value_strlen$32 + (unsigned long int)1);
-        return_value_strlen$33=strlen(optarg);
-        strncpy(_psAudit->pOptOutput, optarg, return_value_strlen$33);
+        return_value_strlen_30=strlen(optarg);
+        return_value_malloc_31=malloc(return_value_strlen_30 + (unsigned long int)1);
+        _psAudit->pOptOutput = (char *)return_value_malloc_31;
+        return_value_strlen_32=strlen(optarg);
+        memset((void *)_psAudit->pOptOutput, 0, return_value_strlen_32 + (unsigned long int)1);
+        return_value_strlen_33=strlen(optarg);
+        strncpy(_psAudit->pOptOutput, optarg, return_value_strlen_33);
         break;
       }
       case 101:
       {
-        return_value_strcmp$38=strcmp(optarg, "n");
-        if(return_value_strcmp$38 == 0)
+        return_value_strcmp_38=strcmp(optarg, "n");
+        if(return_value_strcmp_38 == 0)
         {
           _psAudit->iPasswordBlankFlag = 1;
           _psAudit->iPasswordUsernameFlag = 0;
@@ -4906,8 +4906,8 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
         else
         {
-          return_value_strcmp$37=strcmp(optarg, "s");
-          if(return_value_strcmp$37 == 0)
+          return_value_strcmp_37=strcmp(optarg, "s");
+          if(return_value_strcmp_37 == 0)
           {
             _psAudit->iPasswordBlankFlag = 0;
             _psAudit->iPasswordUsernameFlag = 1;
@@ -4915,16 +4915,16 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
 
           else
           {
-            return_value_strcmp$34=strcmp(optarg, "ns");
-            if(return_value_strcmp$34 == 0)
-              tmp_if_expr$36 = (_Bool)1;
+            return_value_strcmp_34=strcmp(optarg, "ns");
+            if(return_value_strcmp_34 == 0)
+              tmp_if_expr_36 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$35=strcmp(optarg, "sn");
-              tmp_if_expr$36 = return_value_strcmp$35 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_35=strcmp(optarg, "sn");
+              tmp_if_expr_36 = return_value_strcmp_35 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$36)
+            if(tmp_if_expr_36)
             {
               _psAudit->iPasswordBlankFlag = 1;
               _psAudit->iPasswordUsernameFlag = 1;
@@ -4991,28 +4991,28 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
       }
       case 77:
       {
-        return_value_strlen$39=strlen(optarg);
-        return_value_malloc$40=malloc(return_value_strlen$39 + (unsigned long int)1);
-        szModuleName = (char *)return_value_malloc$40;
-        return_value_strlen$41=strlen(optarg);
-        memset((void *)szModuleName, 0, return_value_strlen$41 + (unsigned long int)1);
-        return_value_strlen$42=strlen(optarg);
-        strncpy(szModuleName, optarg, return_value_strlen$42);
+        return_value_strlen_39=strlen(optarg);
+        return_value_malloc_40=malloc(return_value_strlen_39 + (unsigned long int)1);
+        szModuleName = (char *)return_value_malloc_40;
+        return_value_strlen_41=strlen(optarg);
+        memset((void *)szModuleName, 0, return_value_strlen_41 + (unsigned long int)1);
+        return_value_strlen_42=strlen(optarg);
+        strncpy(szModuleName, optarg, return_value_strlen_42);
         _psAudit->pModuleName = szModuleName;
         break;
       }
       case 109:
       {
         nModuleParamCount = nModuleParamCount + 1;
-        return_value_strlen$43=strlen(optarg);
-        return_value_malloc$44=malloc(return_value_strlen$43 + (unsigned long int)1);
-        szTempModuleParam = (char *)return_value_malloc$44;
-        return_value_strlen$45=strlen(optarg);
-        memset((void *)szTempModuleParam, 0, return_value_strlen$45 + (unsigned long int)1);
-        return_value_strlen$46=strlen(optarg);
-        strncpy(szTempModuleParam, optarg, return_value_strlen$46);
-        return_value_realloc$47=realloc((void *)arrModuleParams, (unsigned long int)nModuleParamCount * sizeof(char *) /*8ul*/ );
-        arrModuleParams = (char **)return_value_realloc$47;
+        return_value_strlen_43=strlen(optarg);
+        return_value_malloc_44=malloc(return_value_strlen_43 + (unsigned long int)1);
+        szTempModuleParam = (char *)return_value_malloc_44;
+        return_value_strlen_45=strlen(optarg);
+        memset((void *)szTempModuleParam, 0, return_value_strlen_45 + (unsigned long int)1);
+        return_value_strlen_46=strlen(optarg);
+        strncpy(szTempModuleParam, optarg, return_value_strlen_46);
+        return_value_realloc_47=realloc((void *)arrModuleParams, (unsigned long int)nModuleParamCount * sizeof(char *) /*8ul*/ );
+        arrModuleParams = (char **)return_value_realloc_47;
         arrModuleParams[(signed long int)(nModuleParamCount - 1)] = szTempModuleParam;
         break;
       }
@@ -5050,13 +5050,13 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
       }
       case 90:
       {
-        return_value_strlen$48=strlen(optarg);
-        return_value_malloc$49=malloc(return_value_strlen$48 + (unsigned long int)1);
-        _psAudit->pOptResume = (char *)return_value_malloc$49;
-        return_value_strlen$50=strlen(optarg);
-        memset((void *)_psAudit->pOptResume, 0, return_value_strlen$50 + (unsigned long int)1);
-        return_value_strlen$51=strlen(optarg);
-        strncpy(_psAudit->pOptResume, optarg, return_value_strlen$51);
+        return_value_strlen_48=strlen(optarg);
+        return_value_malloc_49=malloc(return_value_strlen_48 + (unsigned long int)1);
+        _psAudit->pOptResume = (char *)return_value_malloc_49;
+        return_value_strlen_50=strlen(optarg);
+        memset((void *)_psAudit->pOptResume, 0, return_value_strlen_50 + (unsigned long int)1);
+        return_value_strlen_51=strlen(optarg);
+        strncpy(_psAudit->pOptResume, optarg, return_value_strlen_51);
         break;
       }
       default:
@@ -5070,11 +5070,11 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
   if(!(argc >= 2))
     ret = 1;
 
-  _Bool tmp_if_expr$56;
-  _Bool tmp_if_expr$55;
-  _Bool tmp_if_expr$52;
-  _Bool tmp_if_expr$53;
-  _Bool tmp_if_expr$54;
+  _Bool tmp_if_expr_56;
+  _Bool tmp_if_expr_55;
+  _Bool tmp_if_expr_52;
+  _Bool tmp_if_expr_53;
+  _Bool tmp_if_expr_54;
   if(!(_psAudit->iShowModuleHelp == 0))
   {
     ret=invokeModule(_psAudit->pModuleName, (struct __sLogin *)(void *)0, 0, (char **)(void *)0);
@@ -5086,11 +5086,11 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
   else
   {
     if(!(_psAudit->HostType == 0))
-      tmp_if_expr$56 = (_Bool)1;
+      tmp_if_expr_56 = (_Bool)1;
 
     else
-      tmp_if_expr$56 = _psAudit->pOptCombo != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$56)
+      tmp_if_expr_56 = _psAudit->pOptCombo != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_56)
     {
       writeError(1, "Host information must be supplied.");
       ret = 1;
@@ -5099,11 +5099,11 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
     else
     {
       if(!(_psAudit->UserType == 0))
-        tmp_if_expr$55 = (_Bool)1;
+        tmp_if_expr_55 = (_Bool)1;
 
       else
-        tmp_if_expr$55 = _psAudit->pOptCombo != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$55)
+        tmp_if_expr_55 = _psAudit->pOptCombo != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_55)
       {
         writeError(1, "User logon information must be supplied.");
         ret = 1;
@@ -5112,21 +5112,21 @@ signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit)
       else
       {
         if(!(_psAudit->PassType == 0))
-          tmp_if_expr$52 = (_Bool)1;
+          tmp_if_expr_52 = (_Bool)1;
 
         else
-          tmp_if_expr$52 = _psAudit->pOptCombo != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$52)
-          tmp_if_expr$53 = (_Bool)1;
+          tmp_if_expr_52 = _psAudit->pOptCombo != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_52)
+          tmp_if_expr_53 = (_Bool)1;
 
         else
-          tmp_if_expr$53 = _psAudit->iPasswordBlankFlag != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$53)
-          tmp_if_expr$54 = (_Bool)1;
+          tmp_if_expr_53 = _psAudit->iPasswordBlankFlag != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_53)
+          tmp_if_expr_54 = (_Bool)1;
 
         else
-          tmp_if_expr$54 = _psAudit->iPasswordUsernameFlag != 0 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$54)
+          tmp_if_expr_54 = _psAudit->iPasswordUsernameFlag != 0 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_54)
         {
           writeError(1, "Password information must be supplied.");
           ret = 1;
@@ -5170,16 +5170,16 @@ static void clone_attributes(union pthread_attr_t *new_attr, union pthread_attr_
 // file medusa-thread-pool.c line 77
 static signed int create_worker(struct thr_pool *pool)
 {
-  struct anonymous$5 oset;
+  struct anonymous_5 oset;
   signed int error;
   unsigned long int *ppthread;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/ );
-  ppthread = (unsigned long int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/ );
+  ppthread = (unsigned long int *)return_value_malloc_1;
   memset((void *)ppthread, 0, sizeof(unsigned long int) /*8ul*/ );
   pthread_sigmask(2, &fillset, &oset);
   error=pthread_create(ppthread, &pool->pool_attr, worker_thread, (void *)pool);
-  pthread_sigmask(2, &oset, (struct anonymous$5 *)(void *)0);
+  pthread_sigmask(2, &oset, (struct anonymous_5 *)(void *)0);
   free((void *)ppthread);
   return error;
 }
@@ -5190,13 +5190,13 @@ char * findLocalPass(struct __sAudit *_psAudit)
 {
   char *pPass;
   char *pComboTmp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(_psAudit->PassType == 3)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = _psAudit->PassType == 4 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = _psAudit->PassType == 4 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!(_psAudit->pGlobalCombo == ((char *)NULL)))
     {
@@ -5222,8 +5222,8 @@ char * findLocalPass(struct __sAudit *_psAudit)
 // file medusa.c line 684
 char * findNextHost(struct __sAudit *_psAudit, char *_pHost)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(_psAudit->pGlobalCombo == ((char *)NULL)))
   {
     writeError(7, "[findNextHost] Process global combo file.");
@@ -5251,18 +5251,18 @@ char * findNextHost(struct __sAudit *_psAudit, char *_pHost)
     }
 
     if(_psAudit->pComboEntryTmp == ((char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       if(_psAudit->iUserListFlag == 1)
-        tmp_if_expr$1 = _psAudit->iHostListFlag == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = _psAudit->iHostListFlag == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
       writeError(7, "[findNextHost] Convert ':' to '\\0' in combo entries.");
       _psAudit->pComboEntryTmp = _psAudit->pGlobalCombo;
@@ -5422,11 +5422,11 @@ signed int getNextCredSet(struct __sLogin *_psLogin, struct __sCredentialSet *_p
 
   memset((void *)_psCredSet, 0, sizeof(struct __sCredentialSet) /*32ul*/ );
   pthread_mutex_lock(&_psLogin->psServer->ptmMutex);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int return_value_getNextNormalCredSet$1;
-  signed int return_value_getNextMissedCredSet$2;
-  signed int return_value_getNextMissedCredSet$3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int return_value_getNextNormalCredSet_1;
+  signed int return_value_getNextMissedCredSet_2;
+  signed int return_value_getNextMissedCredSet_3;
   if(_psLogin->psServer->psAudit->iStatus == 1)
   {
     writeError(6, "Audit aborting... notifying login module: %d", _psLogin->iId);
@@ -5436,11 +5436,11 @@ signed int getNextCredSet(struct __sLogin *_psLogin, struct __sCredentialSet *_p
   else
   {
     if(!(_psLogin->psServer->iValidPairFound == 0))
-      tmp_if_expr$5 = _psLogin->psServer->psAudit->iFoundPairExitFlag == 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = _psLogin->psServer->psAudit->iFoundPairExitFlag == 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       writeError(6, "Exiting Login Module: %d [Stop Host Scan After Valid Pair Found Enabled]", _psLogin->iId);
       _psCredSet->iStatus = 3;
@@ -5449,11 +5449,11 @@ signed int getNextCredSet(struct __sLogin *_psLogin, struct __sCredentialSet *_p
     else
     {
       if(!(_psLogin->psServer->psAudit->iValidPairFound == 0))
-        tmp_if_expr$4 = _psLogin->psServer->psAudit->iFoundPairExitFlag == 2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = _psLogin->psServer->psAudit->iFoundPairExitFlag == 2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         writeError(6, "Exiting Login Module: %d [Stop Audit Scans After Valid Pair Found Enabled]", _psLogin->iId);
         _psCredSet->iStatus = 3;
@@ -5466,14 +5466,14 @@ signed int getNextCredSet(struct __sLogin *_psLogin, struct __sCredentialSet *_p
 
           case 1:
           {
-            return_value_getNextNormalCredSet$1=getNextNormalCredSet(_psLogin, _psCredSet);
-            if(!(return_value_getNextNormalCredSet$1 == 0))
+            return_value_getNextNormalCredSet_1=getNextNormalCredSet(_psLogin, _psCredSet);
+            if(!(return_value_getNextNormalCredSet_1 == 0))
               writeError(0, "getNextNormalCredSet() function call failed.");
 
             if(_psLogin->psServer->psHost->iUserStatus == 2)
             {
-              return_value_getNextMissedCredSet$2=getNextMissedCredSet(_psLogin, _psCredSet);
-              if(!(return_value_getNextMissedCredSet$2 == 0))
+              return_value_getNextMissedCredSet_2=getNextMissedCredSet(_psLogin, _psCredSet);
+              if(!(return_value_getNextMissedCredSet_2 == 0))
                 writeError(0, "getNextMissedCredSet() function call failed.");
 
             }
@@ -5482,8 +5482,8 @@ signed int getNextCredSet(struct __sLogin *_psLogin, struct __sCredentialSet *_p
           }
           case 2:
           {
-            return_value_getNextMissedCredSet$3=getNextMissedCredSet(_psLogin, _psCredSet);
-            if(!(return_value_getNextMissedCredSet$3 == 0))
+            return_value_getNextMissedCredSet_3=getNextMissedCredSet(_psLogin, _psCredSet);
+            if(!(return_value_getNextMissedCredSet_3 == 0))
               writeError(0, "getNextMissedCredSet() function call failed.");
 
             break;
@@ -5584,7 +5584,7 @@ signed int getNextNormalCredSet(struct __sLogin *_psLogin, struct __sCredentialS
     }
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(_psLogin->psUser == ((struct __sUser *)NULL)))
   {
     _psCredSet->pPass=getNextPass(_psLogin);
@@ -5592,11 +5592,11 @@ signed int getNextNormalCredSet(struct __sLogin *_psLogin, struct __sCredentialS
       break;
 
     if(_psLogin->psUser->iPassStatus == 5)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = _psLogin->psUser->iPassStatus == 6 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = _psLogin->psUser->iPassStatus == 6 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       writeError(6, "Login Module: %d - Current user password list is complete, selecting next user.", _psLogin->iId);
       if(_psLogin->psServer->psHost->psUserCurrent == ((struct __sUser *)NULL))
@@ -5632,13 +5632,13 @@ signed int getNextNormalCredSet(struct __sLogin *_psLogin, struct __sCredentialS
     }
 
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(_psLogin->psUser == ((struct __sUser *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = _psCredSet->pPass == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = _psCredSet->pPass == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     writeError(6, "Login Module: %d - No more users/passwords available in the normal queue.", _psLogin->iId);
     _psLogin->psServer->psHost->iUserStatus = 2;
@@ -5655,9 +5655,9 @@ char * getNextPass(struct __sLogin *_psLogin)
   struct __sAudit *_psAudit = _psLogin->psServer->psAudit;
   struct __sUser *_psUser = _psLogin->psUser;
   char *pPass = (char *)(void *)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
   if(!(_psUser->iPassStatus == 5))
   {
     if(!(_psUser->iPassStatus == 6))
@@ -5666,18 +5666,18 @@ char * getNextPass(struct __sLogin *_psLogin)
         _psUser->iPassStatus = 1;
 
       if(_psUser->iPassStatus == 1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = _psUser->iPassStatus == 2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = _psUser->iPassStatus == 2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(_psUser->iPassStatus == 1)
-          tmp_if_expr$1 = _psAudit->iPasswordBlankFlag != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = _psAudit->iPasswordBlankFlag != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
         {
           pPass = "";
           _psUser->iPassStatus = 2;
@@ -5697,11 +5697,11 @@ char * getNextPass(struct __sLogin *_psLogin)
       if(pPass == ((char *)NULL))
       {
         if(_psUser->iPassStatus == 3)
-          tmp_if_expr$3 = _psUser->psPassCurrent != ((struct __sPass *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = _psUser->psPassCurrent != ((struct __sPass *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           pPass = _psUser->psPassCurrent->pPass;
           _psUser->psPassCurrent = _psUser->psPassCurrent->psPassNext;
@@ -5751,9 +5751,9 @@ char * getNextPass(struct __sLogin *_psLogin)
 // file medusa-net.c line 84
 void initConnectionParams(struct __sLogin *pLogin, struct __sConnectParams *pParams)
 {
-  unsigned int return_value_inet_addr$1;
-  return_value_inet_addr$1=inet_addr(pLogin->psServer->pHostIP);
-  pParams->nHost = (signed long int)return_value_inet_addr$1;
+  unsigned int return_value_inet_addr_1;
+  return_value_inet_addr_1=inet_addr(pLogin->psServer->pHostIP);
+  pParams->nHost = (signed long int)return_value_inet_addr_1;
   if(!(pLogin->psServer->psHost->iPortOverride == 0))
     pParams->nPort = pLogin->psServer->psHost->iPortOverride;
 
@@ -5781,20 +5781,20 @@ extern void init_crypto_locks(void)
 void init_locks_openssl(void)
 {
   signed int i;
-  signed int return_value_CRYPTO_num_locks$1;
-  return_value_CRYPTO_num_locks$1=CRYPTO_num_locks();
-  void *return_value_CRYPTO_malloc$2;
-  return_value_CRYPTO_malloc$2=CRYPTO_malloc((signed int)((unsigned long int)(signed int)return_value_CRYPTO_num_locks$1 * sizeof(union anonymous$11) /*40ul*/ ), "medusa-thread-ssl.c", 45);
-  lockarray = (union anonymous$11 *)return_value_CRYPTO_malloc$2;
+  signed int return_value_CRYPTO_num_locks_1;
+  return_value_CRYPTO_num_locks_1=CRYPTO_num_locks();
+  void *return_value_CRYPTO_malloc_2;
+  return_value_CRYPTO_malloc_2=CRYPTO_malloc((signed int)((unsigned long int)(signed int)return_value_CRYPTO_num_locks_1 * sizeof(union anonymous_11) /*40ul*/ ), "medusa-thread-ssl.c", 45);
+  lockarray = (union anonymous_11 *)return_value_CRYPTO_malloc_2;
   i = 0;
-  signed int return_value_CRYPTO_num_locks$3;
+  signed int return_value_CRYPTO_num_locks_3;
   do
   {
-    return_value_CRYPTO_num_locks$3=CRYPTO_num_locks();
-    if(i >= return_value_CRYPTO_num_locks$3)
+    return_value_CRYPTO_num_locks_3=CRYPTO_num_locks();
+    if(i >= return_value_CRYPTO_num_locks_3)
       break;
 
-    pthread_mutex_init(&lockarray[(signed long int)i], (const union anonymous$14 *)(void *)0);
+    pthread_mutex_init(&lockarray[(signed long int)i], (const union anonymous_14 *)(void *)0);
     i = i + 1;
   }
   while((_Bool)1);
@@ -5833,27 +5833,27 @@ signed int invokeModule(char *pModuleName, struct __sLogin *pLogin, signed int a
       if(!(szModulePaths[(signed long int)i] == ((char *)NULL)))
       {
         writeError(7, "Trying module path of %s", szModulePaths[(signed long int)i]);
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(szModulePaths[(signed long int)i]);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(pModuleName);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(".mod");
-        nPathLength = (signed int)(return_value_strlen$1 + return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)2);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc((unsigned long int)nPathLength);
-        modPath = (char *)return_value_malloc$4;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(szModulePaths[(signed long int)i]);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(pModuleName);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(".mod");
+        nPathLength = (signed int)(return_value_strlen_1 + return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)2);
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc((unsigned long int)nPathLength);
+        modPath = (char *)return_value_malloc_4;
         memset((void *)modPath, 0, (unsigned long int)nPathLength);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(szModulePaths[(signed long int)i]);
-        strncpy(modPath, szModulePaths[(signed long int)i], return_value_strlen$5);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(szModulePaths[(signed long int)i]);
+        strncpy(modPath, szModulePaths[(signed long int)i], return_value_strlen_5);
         strncat(modPath, "/", (unsigned long int)1);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(pModuleName);
-        strncat(modPath, pModuleName, return_value_strlen$6);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(".mod");
-        strncat(modPath, ".mod", return_value_strlen$7);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(pModuleName);
+        strncat(modPath, pModuleName, return_value_strlen_6);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(".mod");
+        strncat(modPath, ".mod", return_value_strlen_7);
         writeError(7, "Attempting to load %s", modPath);
         pLibrary=dlopen(modPath, 0x00002);
         if(pLibrary == NULL)
@@ -5862,15 +5862,15 @@ signed int invokeModule(char *pModuleName, struct __sLogin *pLogin, signed int a
         else
           if(pLogin == ((struct __sLogin *)NULL))
           {
-            void *return_value_dlsym$8;
-            return_value_dlsym$8=dlsym(pLibrary, "showUsage");
-            pUsage = (void (*)())return_value_dlsym$8;
+            void *return_value_dlsym_8;
+            return_value_dlsym_8=dlsym(pLibrary, "showUsage");
+            pUsage = (void (*)())return_value_dlsym_8;
             writeError(7, "Attempting to display usage information for module: %s", modPath);
             if(pUsage == ((void (*)())NULL))
             {
-              char *return_value_dlerror$9;
-              return_value_dlerror$9=dlerror();
-              writeError(1, "Couldn't get a pointer to \"showUsage\" for module %s [%s]", modPath, return_value_dlerror$9);
+              char *return_value_dlerror_9;
+              return_value_dlerror_9=dlerror();
+              writeError(1, "Couldn't get a pointer to \"showUsage\" for module %s [%s]", modPath, return_value_dlerror_9);
               return -1;
             }
 
@@ -5885,14 +5885,14 @@ signed int invokeModule(char *pModuleName, struct __sLogin *pLogin, signed int a
 
           else
           {
-            void *return_value_dlsym$10;
-            return_value_dlsym$10=dlsym(pLibrary, "go");
-            pGo = (signed int (*)(struct __sLogin *, signed int, char **))return_value_dlsym$10;
+            void *return_value_dlsym_10;
+            return_value_dlsym_10=dlsym(pLibrary, "go");
+            pGo = (signed int (*)(struct __sLogin *, signed int, char **))return_value_dlsym_10;
             if(pGo == ((signed int (*)(struct __sLogin *, signed int, char **))NULL))
             {
-              char *return_value_dlerror$11;
-              return_value_dlerror$11=dlerror();
-              writeError(1, "Couldn't get a pointer to \"go\" for module %s [%s]", modPath, return_value_dlerror$11);
+              char *return_value_dlerror_11;
+              return_value_dlerror_11=dlerror();
+              writeError(1, "Couldn't get a pointer to \"go\" for module %s [%s]", modPath, return_value_dlerror_11);
               return -1;
             }
 
@@ -5912,9 +5912,9 @@ signed int invokeModule(char *pModuleName, struct __sLogin *pLogin, signed int a
     }
     if(nSuccess == 0)
     {
-      char *return_value_dlerror$12;
-      return_value_dlerror$12=dlerror();
-      writeVerbose(3, "Couldn't load \"%s\" [%s]. Place the module in the medusa directory, set the MEDUSA_MODULE_NAME environment variable or run the configure script again using --with-default-mod-path=[path].", pModuleName, return_value_dlerror$12);
+      char *return_value_dlerror_12;
+      return_value_dlerror_12=dlerror();
+      writeVerbose(3, "Couldn't load \"%s\" [%s]. Place the module in the medusa directory, set the MEDUSA_MODULE_NAME environment variable or run the configure script again using --with-default-mod-path=[path].", pModuleName, return_value_dlerror_12);
       iReturn = -1;
     }
 
@@ -5966,11 +5966,11 @@ void kill_locks_openssl(void)
   signed int i;
   CRYPTO_set_locking_callback((void (*)(signed int, signed int, const char *, signed int))(void *)0);
   i = 0;
-  signed int return_value_CRYPTO_num_locks$1;
+  signed int return_value_CRYPTO_num_locks_1;
   do
   {
-    return_value_CRYPTO_num_locks$1=CRYPTO_num_locks();
-    if(i >= return_value_CRYPTO_num_locks$1)
+    return_value_CRYPTO_num_locks_1=CRYPTO_num_locks();
+    if(i >= return_value_CRYPTO_num_locks_1)
       break;
 
     pthread_mutex_destroy(&lockarray[(signed long int)i]);
@@ -6010,16 +6010,16 @@ void listModules(char **arrPaths, signed int nTerminateNow)
 
     else
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(pszDir);
-      iLength = (signed int)(return_value_strlen$1 + (unsigned long int)1);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)iLength);
-      pszTarget = (char *)return_value_malloc$2;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(pszDir);
+      iLength = (signed int)(return_value_strlen_1 + (unsigned long int)1);
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)iLength);
+      pszTarget = (char *)return_value_malloc_2;
       memset((void *)pszTarget, 0, (unsigned long int)iLength);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(pszDir);
-      strncpy(pszTarget, pszDir, return_value_strlen$3);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(pszDir);
+      strncpy(pszTarget, pszDir, return_value_strlen_3);
       iLength = 0;
     }
     writeVerbose(1, "  Available modules in \"%s\" :", pszTarget);
@@ -6042,51 +6042,51 @@ void listModules(char **arrPaths, signed int nTerminateNow)
         if(j >= k)
           break;
 
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(pdeEntry[(signed long int)j]->d_name);
-        iLength = (signed int)return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(pdeEntry[(signed long int)j]->d_name);
+        iLength = (signed int)return_value_strlen_4;
         if(iLength >= 5)
         {
-          unsigned long int return_value_strlen$13;
-          return_value_strlen$13=strlen(pdeEntry[(signed long int)j]->d_name);
-          signed int return_value_strcmp$14;
-          return_value_strcmp$14=strcmp((char *)((pdeEntry[(signed long int)j]->d_name + (signed long int)return_value_strlen$13) - (signed long int)4), ".mod");
-          if(return_value_strcmp$14 == 0)
+          unsigned long int return_value_strlen_13;
+          return_value_strlen_13=strlen(pdeEntry[(signed long int)j]->d_name);
+          signed int return_value_strcmp_14;
+          return_value_strcmp_14=strcmp((char *)((pdeEntry[(signed long int)j]->d_name + (signed long int)return_value_strlen_13) - (signed long int)4), ".mod");
+          if(return_value_strcmp_14 == 0)
           {
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(pdeEntry[(signed long int)j]->d_name);
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(pszTarget);
-            iLength = (signed int)(return_value_strlen$5 + return_value_strlen$6 + (unsigned long int)2);
-            void *return_value_malloc$7;
-            return_value_malloc$7=malloc((unsigned long int)iLength);
-            pszLibName = (char *)return_value_malloc$7;
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(pdeEntry[(signed long int)j]->d_name);
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(pszTarget);
+            iLength = (signed int)(return_value_strlen_5 + return_value_strlen_6 + (unsigned long int)2);
+            void *return_value_malloc_7;
+            return_value_malloc_7=malloc((unsigned long int)iLength);
+            pszLibName = (char *)return_value_malloc_7;
             memset((void *)pszLibName, 0, (unsigned long int)iLength);
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(pszTarget);
-            strncpy(pszLibName, pszTarget, return_value_strlen$8);
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(pszTarget);
+            strncpy(pszLibName, pszTarget, return_value_strlen_8);
             strncat(pszLibName, "/", (unsigned long int)1);
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(pdeEntry[(signed long int)j]->d_name);
-            strncat(pszLibName, pdeEntry[(signed long int)j]->d_name, return_value_strlen$9);
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(pdeEntry[(signed long int)j]->d_name);
+            strncat(pszLibName, pdeEntry[(signed long int)j]->d_name, return_value_strlen_9);
             pLibrary=dlopen(pszLibName, 0x00002);
             if(pLibrary == NULL)
             {
-              char *return_value_dlerror$10;
-              return_value_dlerror$10=dlerror();
-              writeVerbose(1, "    + %s : Couldn't load \"%s\" [%s]", (const void *)pdeEntry[(signed long int)j]->d_name, pszLibName, return_value_dlerror$10);
+              char *return_value_dlerror_10;
+              return_value_dlerror_10=dlerror();
+              writeVerbose(1, "    + %s : Couldn't load \"%s\" [%s]", (const void *)pdeEntry[(signed long int)j]->d_name, pszLibName, return_value_dlerror_10);
             }
 
             else
             {
-              void *return_value_dlsym$11;
-              return_value_dlsym$11=dlsym(pLibrary, "summaryUsage");
-              pSummary = (signed int (*)(char **))return_value_dlsym$11;
+              void *return_value_dlsym_11;
+              return_value_dlsym_11=dlsym(pLibrary, "summaryUsage");
+              pSummary = (signed int (*)(char **))return_value_dlsym_11;
               if(pSummary == ((signed int (*)(char **))NULL))
               {
-                char *return_value_dlerror$12;
-                return_value_dlerror$12=dlerror();
-                writeVerbose(1, "    + %s : Invalid module %s [no export of summaryUsage() : %s]", (const void *)pdeEntry[(signed long int)j]->d_name, pszLibName, return_value_dlerror$12);
+                char *return_value_dlerror_12;
+                return_value_dlerror_12=dlerror();
+                writeVerbose(1, "    + %s : Invalid module %s [no export of summaryUsage() : %s]", (const void *)pdeEntry[(signed long int)j]->d_name, pszLibName, return_value_dlerror_12);
               }
 
               else
@@ -6128,37 +6128,37 @@ void loadFile(char *pFile, char **pFileContent, signed int *iFileCnt)
   char *ptr;
   *iFileCnt = 0;
   pfFile=fopen(pFile, "r");
-  signed int return_value_feof$3;
-  signed int return_value_feof$7;
-  _Bool tmp_if_expr$14;
-  unsigned long int return_value_strlen$8;
-  unsigned long int return_value_strlen$10;
+  signed int return_value_feof_3;
+  signed int return_value_feof_7;
+  _Bool tmp_if_expr_14;
+  unsigned long int return_value_strlen_8;
+  unsigned long int return_value_strlen_10;
   if(pfFile == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    writeError(0, "Failed to open file %s - %s", pFile, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    writeError(0, "Failed to open file %s - %s", pFile, return_value_strerror_2);
   }
 
   else
   {
     do
     {
-      return_value_feof$3=feof(pfFile);
-      if(!(return_value_feof$3 == 0))
+      return_value_feof_3=feof(pfFile);
+      if(!(return_value_feof_3 == 0))
         break;
 
-      char *return_value_fgets$5;
-      return_value_fgets$5=fgets(tmp, 16384, pfFile);
-      if(!(return_value_fgets$5 == ((char *)NULL)))
+      char *return_value_fgets_5;
+      return_value_fgets_5=fgets(tmp, 16384, pfFile);
+      if(!(return_value_fgets_5 == ((char *)NULL)))
       {
         if(!((signed int)tmp[0l] == 0))
         {
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(tmp);
-          stFileSize = stFileSize + return_value_strlen$4 + (unsigned long int)1;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(tmp);
+          stFileSize = stFileSize + return_value_strlen_4 + (unsigned long int)1;
           *iFileCnt = *iFileCnt + 1;
         }
 
@@ -6167,9 +6167,9 @@ void loadFile(char *pFile, char **pFileContent, signed int *iFileCnt)
     }
     while((_Bool)1);
     rewind(pfFile);
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(stFileSize + (unsigned long int)1);
-    *pFileContent = (char *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(stFileSize + (unsigned long int)1);
+    *pFileContent = (char *)return_value_malloc_6;
     if(pFileContent == ((char **)NULL))
       writeError(0, "Failed to allocate memory for file %s.", pFile);
 
@@ -6177,20 +6177,20 @@ void loadFile(char *pFile, char **pFileContent, signed int *iFileCnt)
     ptr = *pFileContent;
     do
     {
-      return_value_feof$7=feof(pfFile);
-      if(!(return_value_feof$7 == 0))
+      return_value_feof_7=feof(pfFile);
+      if(!(return_value_feof_7 == 0))
         break;
 
-      char *return_value_fgets$15;
-      return_value_fgets$15=fgets(tmp, 16384, pfFile);
-      if(!(return_value_fgets$15 == ((char *)NULL)))
+      char *return_value_fgets_15;
+      return_value_fgets_15=fgets(tmp, 16384, pfFile);
+      if(!(return_value_fgets_15 == ((char *)NULL)))
       {
         if((signed int)tmp[0l] == 10)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = (signed int)tmp[(signed long int)0] == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (signed int)tmp[(signed long int)0] == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
         {
           *iFileCnt = *iFileCnt - 1;
           writeError(7, "Ignoring blank line in file: %s. Resetting total count: %d.", pFile, *iFileCnt);
@@ -6199,28 +6199,28 @@ void loadFile(char *pFile, char **pFileContent, signed int *iFileCnt)
         else
           if(!((signed int)tmp[0l] == 0))
           {
-            unsigned long int return_value_strlen$9;
-            return_value_strlen$9=strlen(tmp);
-            if((signed int)tmp[-1l + (signed long int)return_value_strlen$9] == 10)
+            unsigned long int return_value_strlen_9;
+            return_value_strlen_9=strlen(tmp);
+            if((signed int)tmp[-1l + (signed long int)return_value_strlen_9] == 10)
             {
-              return_value_strlen$8=strlen(tmp);
-              tmp[(signed long int)(return_value_strlen$8 - (unsigned long int)1)] = (char)0;
+              return_value_strlen_8=strlen(tmp);
+              tmp[(signed long int)(return_value_strlen_8 - (unsigned long int)1)] = (char)0;
             }
 
-            unsigned long int return_value_strlen$11;
-            return_value_strlen$11=strlen(tmp);
-            if((signed int)tmp[-1l + (signed long int)return_value_strlen$11] == 13)
+            unsigned long int return_value_strlen_11;
+            return_value_strlen_11=strlen(tmp);
+            if((signed int)tmp[-1l + (signed long int)return_value_strlen_11] == 13)
             {
-              return_value_strlen$10=strlen(tmp);
-              tmp[(signed long int)(return_value_strlen$10 - (unsigned long int)1)] = (char)0;
+              return_value_strlen_10=strlen(tmp);
+              tmp[(signed long int)(return_value_strlen_10 - (unsigned long int)1)] = (char)0;
             }
 
-            unsigned long int return_value_strlen$12;
-            return_value_strlen$12=strlen(tmp);
-            memcpy((void *)ptr, (const void *)tmp, return_value_strlen$12 + (unsigned long int)1);
-            unsigned long int return_value_strlen$13;
-            return_value_strlen$13=strlen(tmp);
-            ptr = ptr + (signed long int)(return_value_strlen$13 + (unsigned long int)1);
+            unsigned long int return_value_strlen_12;
+            return_value_strlen_12=strlen(tmp);
+            memcpy((void *)ptr, (const void *)tmp, return_value_strlen_12 + (unsigned long int)1);
+            unsigned long int return_value_strlen_13;
+            return_value_strlen_13=strlen(tmp);
+            ptr = ptr + (signed long int)(return_value_strlen_13 + (unsigned long int)1);
           }
 
       }
@@ -6261,9 +6261,9 @@ signed int loadLoginInfo(struct __sAudit *_psAudit)
     psHost = _psAudit->psHostRoot;
     while(!(psHost == ((struct __sHost *)NULL)))
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(pHost, psHost->pHost);
-      if(!(return_value_strcmp$1 == 0))
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(pHost, psHost->pHost);
+      if(!(return_value_strcmp_1 == 0))
         psHost = psHost->psHostNext;
 
       else
@@ -6272,9 +6272,9 @@ signed int loadLoginInfo(struct __sAudit *_psAudit)
     if(psHost == ((struct __sHost *)NULL))
     {
       _psAudit->iHostCnt = _psAudit->iHostCnt + 1;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct __sHost) /*88ul*/ );
-      psHost = (struct __sHost *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct __sHost) /*88ul*/ );
+      psHost = (struct __sHost *)return_value_malloc_2;
       memset((void *)psHost, 0, sizeof(struct __sHost) /*88ul*/ );
       if(_psAudit->psHostRoot == ((struct __sHost *)NULL))
       {
@@ -6287,17 +6287,17 @@ signed int loadLoginInfo(struct __sAudit *_psAudit)
         psHostPrevTmp->psHostNext = psHost;
         psHostPrevTmp = psHost;
       }
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(pHost);
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)1);
-      psHost->pHost = (char *)return_value_malloc$4;
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(pHost);
-      memset((void *)psHost->pHost, 0, return_value_strlen$5 + (unsigned long int)1);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(pHost);
-      strncpy(psHost->pHost, pHost, return_value_strlen$6 + (unsigned long int)1);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(pHost);
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)1);
+      psHost->pHost = (char *)return_value_malloc_4;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(pHost);
+      memset((void *)psHost->pHost, 0, return_value_strlen_5 + (unsigned long int)1);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(pHost);
+      strncpy(psHost->pHost, pHost, return_value_strlen_6 + (unsigned long int)1);
       psHost->iPortOverride = _psAudit->iPortOverride;
       psHost->iUseSSL = _psAudit->iUseSSL;
       psHost->iTimeout = _psAudit->iTimeout;
@@ -6316,9 +6316,9 @@ signed int loadLoginInfo(struct __sAudit *_psAudit)
       psUser = psHost->psUser;
       while(!(psUser == ((struct __sUser *)NULL)))
       {
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp(pUser, psUser->pUser);
-        if(!(return_value_strcmp$7 == 0))
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp(pUser, psUser->pUser);
+        if(!(return_value_strcmp_7 == 0))
           psUser = psUser->psUserNext;
 
         else
@@ -6327,9 +6327,9 @@ signed int loadLoginInfo(struct __sAudit *_psAudit)
       if(psUser == ((struct __sUser *)NULL))
       {
         psHost->iUserCnt = psHost->iUserCnt + 1;
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc(sizeof(struct __sUser) /*64ul*/ );
-        psUser = (struct __sUser *)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc(sizeof(struct __sUser) /*64ul*/ );
+        psUser = (struct __sUser *)return_value_malloc_8;
         memset((void *)psUser, 0, sizeof(struct __sUser) /*64ul*/ );
         if(!(psHost->psUserPrevTmp == ((struct __sUser *)NULL)))
           psHost->psUserPrevTmp->psUserNext = psUser;
@@ -6337,17 +6337,17 @@ signed int loadLoginInfo(struct __sAudit *_psAudit)
         else
           psHost->psUser = psUser;
         psHost->psUserPrevTmp = psUser;
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(pUser);
-        void *return_value_malloc$10;
-        return_value_malloc$10=malloc(return_value_strlen$9 + (unsigned long int)1);
-        psUser->pUser = (char *)return_value_malloc$10;
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(pUser);
-        memset((void *)psUser->pUser, 0, return_value_strlen$11 + (unsigned long int)1);
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(pUser);
-        strncpy(psUser->pUser, pUser, return_value_strlen$12);
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(pUser);
+        void *return_value_malloc_10;
+        return_value_malloc_10=malloc(return_value_strlen_9 + (unsigned long int)1);
+        psUser->pUser = (char *)return_value_malloc_10;
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(pUser);
+        memset((void *)psUser->pUser, 0, return_value_strlen_11 + (unsigned long int)1);
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(pUser);
+        strncpy(psUser->pUser, pUser, return_value_strlen_12);
         psUser->iPassCnt = _psAudit->iPassCnt;
         psUser->iPassStatus = 0;
         psUser->iId = psHost->iUserCnt;
@@ -6369,21 +6369,21 @@ signed int loadLoginInfo(struct __sAudit *_psAudit)
       pPass=findLocalPass(_psAudit);
       if(!(pPass == ((char *)NULL)))
       {
-        void *return_value_malloc$13;
-        return_value_malloc$13=malloc(sizeof(struct __sPass) /*16ul*/ );
-        psPass = (struct __sPass *)return_value_malloc$13;
+        void *return_value_malloc_13;
+        return_value_malloc_13=malloc(sizeof(struct __sPass) /*16ul*/ );
+        psPass = (struct __sPass *)return_value_malloc_13;
         memset((void *)psPass, 0, sizeof(struct __sPass) /*16ul*/ );
-        unsigned long int return_value_strlen$14;
-        return_value_strlen$14=strlen(pPass);
-        void *return_value_malloc$15;
-        return_value_malloc$15=malloc(return_value_strlen$14 + (unsigned long int)1);
-        psPass->pPass = (char *)return_value_malloc$15;
-        unsigned long int return_value_strlen$16;
-        return_value_strlen$16=strlen(pPass);
-        memset((void *)psPass->pPass, 0, return_value_strlen$16 + (unsigned long int)1);
-        unsigned long int return_value_strlen$17;
-        return_value_strlen$17=strlen(pPass);
-        strncpy(psPass->pPass, pPass, return_value_strlen$17);
+        unsigned long int return_value_strlen_14;
+        return_value_strlen_14=strlen(pPass);
+        void *return_value_malloc_15;
+        return_value_malloc_15=malloc(return_value_strlen_14 + (unsigned long int)1);
+        psPass->pPass = (char *)return_value_malloc_15;
+        unsigned long int return_value_strlen_16;
+        return_value_strlen_16=strlen(pPass);
+        memset((void *)psPass->pPass, 0, return_value_strlen_16 + (unsigned long int)1);
+        unsigned long int return_value_strlen_17;
+        return_value_strlen_17=strlen(pPass);
+        strncpy(psPass->pPass, pPass, return_value_strlen_17);
         psUser->iPassCnt = psUser->iPassCnt + 1;
         psHost->iUserPassCnt = psHost->iUserPassCnt + 1;
         if(!(psUser->psPassPrevTmp == ((struct __sPass *)NULL)))
@@ -6437,29 +6437,29 @@ signed int main(signed int argc, char **argv, char **envp)
   szModulePaths[(signed long int)1] = ".";
   szModulePaths[(signed long int)2] = "/usr/lib/medusa/modules";
   szTempModuleParam = (char *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char *) /*8ul*/ );
-  arrModuleParams = (char **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char *) /*8ul*/ );
+  arrModuleParams = (char **)return_value_malloc_1;
   memset((void *)arrModuleParams, 0, sizeof(char *) /*8ul*/ );
   nModuleParamCount = 0;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct __sAudit) /*296ul*/ );
-  psAudit = (struct __sAudit *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct __sAudit) /*296ul*/ );
+  psAudit = (struct __sAudit *)return_value_malloc_2;
   memset((void *)psAudit, 0, sizeof(struct __sAudit) /*296ul*/ );
-  signed int return_value_pthread_mutex_init$5;
-  return_value_pthread_mutex_init$5=pthread_mutex_init(&psAudit->ptmMutex, (const union anonymous$14 *)(void *)0);
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(!(return_value_pthread_mutex_init$5 == 0))
+  signed int return_value_pthread_mutex_init_5;
+  return_value_pthread_mutex_init_5=pthread_mutex_init(&psAudit->ptmMutex, (const union anonymous_14 *)(void *)0);
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(!(return_value_pthread_mutex_init_5 == 0))
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    writeError(0, "Audit mutex initialization failed - %s\n", return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    writeError(0, "Audit mutex initialization failed - %s\n", return_value_strerror_4);
   }
 
-  signed int return_value_checkOptions$6;
-  return_value_checkOptions$6=checkOptions(argc, argv, psAudit);
-  if(!(return_value_checkOptions$6 == 0))
+  signed int return_value_checkOptions_6;
+  return_value_checkOptions_6=checkOptions(argc, argv, psAudit);
+  if(!(return_value_checkOptions_6 == 0))
   {
     usage();
     exit(1);
@@ -6497,16 +6497,16 @@ signed int main(signed int argc, char **argv, char **envp)
   {
     loadFile(psAudit->pOptCombo, &psAudit->pComboFile, &psAudit->iComboCnt);
     psAudit->pGlobalCombo = psAudit->pComboFile;
-    signed int return_value_processComboFile$7;
-    return_value_processComboFile$7=processComboFile(&psAudit);
-    if(!(return_value_processComboFile$7 == 0))
+    signed int return_value_processComboFile_7;
+    return_value_processComboFile_7=processComboFile(&psAudit);
+    if(!(return_value_processComboFile_7 == 0))
       exit(iExitStatus);
 
   }
 
-  signed int return_value_loadLoginInfo$8;
-  return_value_loadLoginInfo$8=loadLoginInfo(psAudit);
-  if(return_value_loadLoginInfo$8 == 0)
+  signed int return_value_loadLoginInfo_8;
+  return_value_loadLoginInfo_8=loadLoginInfo(psAudit);
+  if(return_value_loadLoginInfo_8 == 0)
     writeError(7, "Successfully loaded login information.");
 
   else
@@ -6520,29 +6520,29 @@ signed int main(signed int argc, char **argv, char **envp)
   if(!(psAudit->pUserFile == ((char *)NULL)))
     free((void *)psAudit->pUserFile);
 
-  signed int *return_value___errno_location$11;
-  char *return_value_strerror$12;
+  signed int *return_value___errno_location_11;
+  char *return_value_strerror_12;
   if(!(psAudit->pOptOutput == ((char *)NULL)))
   {
     pOutputFile=fopen(psAudit->pOptOutput, "a+");
     if(pOutputFile == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      writeError(0, "Failed to open output file %s - %s", psAudit->pOptOutput, return_value_strerror$10);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      writeError(0, "Failed to open output file %s - %s", psAudit->pOptOutput, return_value_strerror_10);
     }
 
     else
     {
-      signed int return_value_pthread_mutex_init$13;
-      return_value_pthread_mutex_init$13=pthread_mutex_init(&ptmFileMutex, (const union anonymous$14 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$13 == 0))
+      signed int return_value_pthread_mutex_init_13;
+      return_value_pthread_mutex_init_13=pthread_mutex_init(&ptmFileMutex, (const union anonymous_14 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_13 == 0))
       {
-        return_value___errno_location$11=__errno_location();
-        return_value_strerror$12=strerror(*return_value___errno_location$11);
-        writeError(0, "File mutex initialization failed - %s\n", return_value_strerror$12);
+        return_value___errno_location_11=__errno_location();
+        return_value_strerror_12=strerror(*return_value___errno_location_11);
+        writeError(0, "File mutex initialization failed - %s\n", return_value_strerror_12);
       }
 
       time(&the_time);
@@ -6557,9 +6557,9 @@ signed int main(signed int argc, char **argv, char **envp)
     }
   }
 
-  signed int return_value_startServerThreadPool$14;
-  return_value_startServerThreadPool$14=startServerThreadPool(psAudit);
-  if(return_value_startServerThreadPool$14 == 0)
+  signed int return_value_startServerThreadPool_14;
+  return_value_startServerThreadPool_14=startServerThreadPool(psAudit);
+  if(return_value_startServerThreadPool_14 == 0)
   {
     time(&the_time);
     tm_ptr=localtime(&the_time);
@@ -6578,30 +6578,30 @@ signed int main(signed int argc, char **argv, char **envp)
     writeError(2, "Medusa failed.");
     iExitStatus = 1;
   }
-  signed int return_value_pthread_mutex_destroy$17;
-  signed int *return_value___errno_location$15;
-  char *return_value_strerror$16;
+  signed int return_value_pthread_mutex_destroy_17;
+  signed int *return_value___errno_location_15;
+  char *return_value_strerror_16;
   if(!(psAudit->pOptOutput == ((char *)NULL)))
   {
-    return_value_pthread_mutex_destroy$17=pthread_mutex_destroy(&ptmFileMutex);
-    if(!(return_value_pthread_mutex_destroy$17 == 0))
+    return_value_pthread_mutex_destroy_17=pthread_mutex_destroy(&ptmFileMutex);
+    if(!(return_value_pthread_mutex_destroy_17 == 0))
     {
-      return_value___errno_location$15=__errno_location();
-      return_value_strerror$16=strerror(*return_value___errno_location$15);
-      writeError(0, "File mutex destroy call failed - %s\n", return_value_strerror$16);
+      return_value___errno_location_15=__errno_location();
+      return_value_strerror_16=strerror(*return_value___errno_location_15);
+      writeError(0, "File mutex destroy call failed - %s\n", return_value_strerror_16);
     }
 
   }
 
-  signed int return_value_pthread_mutex_destroy$20;
-  return_value_pthread_mutex_destroy$20=pthread_mutex_destroy(&psAudit->ptmMutex);
-  signed int *return_value___errno_location$18;
-  char *return_value_strerror$19;
-  if(!(return_value_pthread_mutex_destroy$20 == 0))
+  signed int return_value_pthread_mutex_destroy_20;
+  return_value_pthread_mutex_destroy_20=pthread_mutex_destroy(&psAudit->ptmMutex);
+  signed int *return_value___errno_location_18;
+  char *return_value_strerror_19;
+  if(!(return_value_pthread_mutex_destroy_20 == 0))
   {
-    return_value___errno_location$18=__errno_location();
-    return_value_strerror$19=strerror(*return_value___errno_location$18);
-    writeError(0, "Audit mutex destroy call failed - %s\n", return_value_strerror$19);
+    return_value___errno_location_18=__errno_location();
+    return_value_strerror_19=strerror(*return_value___errno_location_18);
+    writeError(0, "Audit mutex destroy call failed - %s\n", return_value_strerror_19);
   }
 
   free((void *)psAudit->pPassFile);
@@ -6624,9 +6624,9 @@ extern signed int makeToLower(char *buf)
   {
     while(!((signed int)*buf == 0))
     {
-      signed int return_value_tolower$1;
-      return_value_tolower$1=tolower((signed int)buf[(signed long int)0]);
-      buf[(signed long int)0] = (char)return_value_tolower$1;
+      signed int return_value_tolower_1;
+      return_value_tolower_1=tolower((signed int)buf[(signed long int)0]);
+      buf[(signed long int)0] = (char)return_value_tolower_1;
       buf = buf + 1l;
     }
     return 1;
@@ -6638,9 +6638,9 @@ extern signed int makeToLower(char *buf)
 extern signed int medusaCheckSocket(signed int socket, signed int usec)
 {
   writeError(7, "Socket Check - wait time: %d", usec);
-  signed int return_value_medusaDataReadyTimed$1;
-  return_value_medusaDataReadyTimed$1=medusaDataReadyTimed(socket, (signed long int)0, (signed long int)usec);
-  if(return_value_medusaDataReadyTimed$1 == 0)
+  signed int return_value_medusaDataReadyTimed_1;
+  return_value_medusaDataReadyTimed_1=medusaDataReadyTimed(socket, (signed long int)0, (signed long int)usec);
+  if(return_value_medusaDataReadyTimed_1 == 0)
     return 1;
 
   else
@@ -6651,9 +6651,9 @@ extern signed int medusaCheckSocket(signed int socket, signed int usec)
 // file medusa-net.c line 616
 extern signed int medusaConnect(struct __sConnectParams *pParams)
 {
-  signed int return_value_medusaConnectInternal$1;
-  return_value_medusaConnectInternal$1=medusaConnectInternal((unsigned long int)pParams->nHost, pParams->nPort, pParams->nProtocol, pParams->nType, pParams->nTimeout, pParams->nRetries, pParams->nRetryWait, pParams->nProxyStringIP, pParams->nProxyStringPort, pParams->szProxyAuthentication, pParams->nSourcePort);
-  return return_value_medusaConnectInternal$1;
+  signed int return_value_medusaConnectInternal_1;
+  return_value_medusaConnectInternal_1=medusaConnectInternal((unsigned long int)pParams->nHost, pParams->nPort, pParams->nProtocol, pParams->nType, pParams->nTimeout, pParams->nRetries, pParams->nRetryWait, pParams->nProxyStringIP, pParams->nProxyStringPort, pParams->szProxyAuthentication, pParams->nSourcePort);
+  return return_value_medusaConnectInternal_1;
 }
 
 // medusaConnectInternal
@@ -6671,17 +6671,17 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
   signed long int flag;
   signed int nOpt;
   unsigned int nSize;
-  struct anonymous$0 myset;
+  struct anonymous_0 myset;
   struct timeval tv;
   signed int nUseProxy = nProxyStringIP > (unsigned long int)0 ? 1 : 0;
   s=socket(2, nProtocol, nType);
-  unsigned int return_value_getuid$1;
-  _Bool tmp_if_expr$20;
-  signed int *return_value___errno_location$19;
-  const char *return_value_inet_ntop$29;
-  const char *return_value_inet_ntop$30;
-  _Bool tmp_if_expr$34;
-  _Bool tmp_if_expr$35;
+  unsigned int return_value_getuid_1;
+  _Bool tmp_if_expr_20;
+  signed int *return_value___errno_location_19;
+  const char *return_value_inet_ntop_29;
+  const char *return_value_inet_ntop_30;
+  _Bool tmp_if_expr_34;
+  _Bool tmp_if_expr_35;
   if(s >= 0)
   {
     if(!(nSourcePort == 0))
@@ -6692,13 +6692,13 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
       source.sin_addr.s_addr = (unsigned int)0x00000000;
       while(bind_ok == 0 && nSourcePort >= 512)
       {
-        signed int return_value_bind$4;
-        return_value_bind$4=bind(s, (struct sockaddr *)&source, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-        if(return_value_bind$4 == -1)
+        signed int return_value_bind_4;
+        return_value_bind_4=bind(s, (struct sockaddr *)&source, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+        if(return_value_bind_4 == -1)
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          if(*return_value___errno_location$3 == 98)
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          if(*return_value___errno_location_3 == 98)
           {
             writeError(7, "Port %d in use trying next lower port.", nSourcePort);
             nSourcePort = nSourcePort - 1;
@@ -6707,12 +6707,12 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
 
           else
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            if(*return_value___errno_location$2 == 13)
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            if(*return_value___errno_location_2 == 13)
             {
-              return_value_getuid$1=getuid();
-              if(return_value_getuid$1 >= 1u)
+              return_value_getuid_1=getuid();
+              if(return_value_getuid_1 >= 1u)
               {
                 writeError(3, "Source port for this service requires root privileges.");
                 return -1;
@@ -6740,46 +6740,46 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
       memcpy((void *)&target.sin_addr.s_addr, (const void *)&nHost, sizeof(unsigned long int) /*8ul*/ );
     }
     target.sin_family = (unsigned short int)2;
-    signed int return_value_fcntl$7;
-    return_value_fcntl$7=fcntl(s, 3, (void *)0);
-    flag = (signed long int)return_value_fcntl$7;
+    signed int return_value_fcntl_7;
+    return_value_fcntl_7=fcntl(s, 3, (void *)0);
+    flag = (signed long int)return_value_fcntl_7;
     if(!(flag >= 0l))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      writeError(3, "Error fcntl(..., F_GETFL) (%s)", return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      writeError(3, "Error fcntl(..., F_GETFL) (%s)", return_value_strerror_6);
       return -1;
     }
 
     flag = flag | (signed long int)04000;
-    signed int return_value_fcntl$10;
-    return_value_fcntl$10=fcntl(s, 4, flag);
-    if(!(return_value_fcntl$10 >= 0))
+    signed int return_value_fcntl_10;
+    return_value_fcntl_10=fcntl(s, 4, flag);
+    if(!(return_value_fcntl_10 >= 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      char *return_value_strerror$9;
-      return_value_strerror$9=strerror(*return_value___errno_location$8);
-      writeError(3, "Error fcntl(..., F_SETFL) (%s)", return_value_strerror$9);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      char *return_value_strerror_9;
+      return_value_strerror_9=strerror(*return_value___errno_location_8);
+      writeError(3, "Error fcntl(..., F_SETFL) (%s)", return_value_strerror_9);
       return -1;
     }
 
     nFail = 0;
     ret=connect(s, (struct sockaddr *)&target, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    signed int *return_value___errno_location$21;
-    return_value___errno_location$21=__errno_location();
-    if(*return_value___errno_location$21 == 115)
+    signed int *return_value___errno_location_21;
+    return_value___errno_location_21=__errno_location();
+    if(*return_value___errno_location_21 == 115)
       while((_Bool)1)
       {
         if(nFail >= 1 && nRetries >= nFail)
         {
-          unsigned long int return_value_pthread_self$11;
-          return_value_pthread_self$11=pthread_self();
-          const char *return_value_inet_ntop$12;
-          return_value_inet_ntop$12=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-          writeError(3, "Thread %X: Host: %s Cannot connect [unreachable], retrying (%d of %d retries)", (signed int)return_value_pthread_self$11, return_value_inet_ntop$12, nFail, nRetries);
+          unsigned long int return_value_pthread_self_11;
+          return_value_pthread_self_11=pthread_self();
+          const char *return_value_inet_ntop_12;
+          return_value_inet_ntop_12=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+          writeError(3, "Thread %X: Host: %s Cannot connect [unreachable], retrying (%d of %d retries)", (signed int)return_value_pthread_self_11, return_value_inet_ntop_12, nFail, nRetries);
           sleep((unsigned int)nRetryWait);
         }
 
@@ -6793,26 +6793,26 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
         {
           signed int __d0;
           signed int __d1;
-          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&myset)->fds_bits[(signed long int)0]) : "memory");
+          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&myset)->fds_bits[(signed long int)0]) : "memory");
         }
         while((_Bool)0);
         (&myset)->fds_bits[(signed long int)(s / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&myset)->fds_bits[(signed long int)(s / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << s % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-        ret=select(s + 1, (struct anonymous$0 *)(void *)0, &myset, (struct anonymous$0 *)(void *)0, &tv);
+        ret=select(s + 1, (struct anonymous_0 *)(void *)0, &myset, (struct anonymous_0 *)(void *)0, &tv);
         if(!(ret >= 0))
         {
-          return_value___errno_location$19=__errno_location();
-          tmp_if_expr$20 = *return_value___errno_location$19 != 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_19=__errno_location();
+          tmp_if_expr_20 = *return_value___errno_location_19 != 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$20 = (_Bool)0;
-        if(tmp_if_expr$20)
+          tmp_if_expr_20 = (_Bool)0;
+        if(tmp_if_expr_20)
         {
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          char *return_value_strerror$14;
-          return_value_strerror$14=strerror(*return_value___errno_location$13);
-          writeError(3, "Error connecting to host: %s", return_value_strerror$14);
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          char *return_value_strerror_14;
+          return_value_strerror_14=strerror(*return_value___errno_location_13);
+          writeError(3, "Error connecting to host: %s", return_value_strerror_14);
           return -1;
         }
 
@@ -6820,23 +6820,23 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
           if(ret >= 1)
           {
             nSize = (unsigned int)sizeof(signed int) /*4ul*/ ;
-            signed int return_value_getsockopt$17;
-            return_value_getsockopt$17=getsockopt(s, 1, 4, (void *)&nOpt, &nSize);
-            if(!(return_value_getsockopt$17 >= 0))
+            signed int return_value_getsockopt_17;
+            return_value_getsockopt_17=getsockopt(s, 1, 4, (void *)&nOpt, &nSize);
+            if(!(return_value_getsockopt_17 >= 0))
             {
-              signed int *return_value___errno_location$15;
-              return_value___errno_location$15=__errno_location();
-              char *return_value_strerror$16;
-              return_value_strerror$16=strerror(*return_value___errno_location$15);
-              writeError(3, "Error in getsockopt() %s", return_value_strerror$16);
+              signed int *return_value___errno_location_15;
+              return_value___errno_location_15=__errno_location();
+              char *return_value_strerror_16;
+              return_value_strerror_16=strerror(*return_value___errno_location_15);
+              writeError(3, "Error in getsockopt() %s", return_value_strerror_16);
               return -1;
             }
 
             if(!(nOpt == 0))
             {
-              const char *return_value_inet_ntop$18;
-              return_value_inet_ntop$18=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-              writeVerbose(6, "Unable to connect (invalid socket): unreachable destination - %s", return_value_inet_ntop$18);
+              const char *return_value_inet_ntop_18;
+              return_value_inet_ntop_18=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+              writeVerbose(6, "Unable to connect (invalid socket): unreachable destination - %s", return_value_inet_ntop_18);
               return -1;
             }
 
@@ -6855,29 +6855,29 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
       return ret;
     }
 
-    signed int return_value_fcntl$24;
-    return_value_fcntl$24=fcntl(s, 3, (void *)0);
-    flag = (signed long int)return_value_fcntl$24;
+    signed int return_value_fcntl_24;
+    return_value_fcntl_24=fcntl(s, 3, (void *)0);
+    flag = (signed long int)return_value_fcntl_24;
     if(!(flag >= 0l))
     {
-      signed int *return_value___errno_location$22;
-      return_value___errno_location$22=__errno_location();
-      char *return_value_strerror$23;
-      return_value_strerror$23=strerror(*return_value___errno_location$22);
-      writeError(3, "Error fcntl(..., F_GETFL) (%s)", return_value_strerror$23);
+      signed int *return_value___errno_location_22;
+      return_value___errno_location_22=__errno_location();
+      char *return_value_strerror_23;
+      return_value_strerror_23=strerror(*return_value___errno_location_22);
+      writeError(3, "Error fcntl(..., F_GETFL) (%s)", return_value_strerror_23);
       return -1;
     }
 
     flag = flag & (signed long int)~04000;
-    signed int return_value_fcntl$27;
-    return_value_fcntl$27=fcntl(s, 4, flag);
-    if(!(return_value_fcntl$27 >= 0))
+    signed int return_value_fcntl_27;
+    return_value_fcntl_27=fcntl(s, 4, flag);
+    if(!(return_value_fcntl_27 >= 0))
     {
-      signed int *return_value___errno_location$25;
-      return_value___errno_location$25=__errno_location();
-      char *return_value_strerror$26;
-      return_value_strerror$26=strerror(*return_value___errno_location$25);
-      writeError(3, "Error fcntl(..., F_SETFL) (%s)", return_value_strerror$26);
+      signed int *return_value___errno_location_25;
+      return_value___errno_location_25=__errno_location();
+      char *return_value_strerror_26;
+      return_value_strerror_26=strerror(*return_value___errno_location_25);
+      writeError(3, "Error fcntl(..., F_SETFL) (%s)", return_value_strerror_26);
       return -1;
     }
 
@@ -6885,49 +6885,49 @@ signed int medusaConnectInternal(unsigned long int nHost, signed int nPort, sign
     writeError(7, "Connected (internal)");
     if(nUseProxy >= 1)
     {
-      void *return_value_malloc$28;
-      return_value_malloc$28=malloc((unsigned long int)4096);
-      buf = (char *)return_value_malloc$28;
+      void *return_value_malloc_28;
+      return_value_malloc_28=malloc((unsigned long int)4096);
+      buf = (char *)return_value_malloc_28;
       memset((void *)buf, 0, (unsigned long int)4096);
       memset((void *)&target, 0, sizeof(struct sockaddr_in) /*16ul*/ );
       memcpy((void *)&target.sin_addr.s_addr, (const void *)&nHost, sizeof(unsigned long int) /*8ul*/ );
       target.sin_family = (unsigned short int)2;
       if(szProxyAuthentication == ((char *)NULL))
       {
-        return_value_inet_ntop$29=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-        snprintf(buf, (unsigned long int)4095, "CONNECT %s:%d HTTP/1.0\r\n\r\n", return_value_inet_ntop$29, nPort);
+        return_value_inet_ntop_29=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+        snprintf(buf, (unsigned long int)4095, "CONNECT %s:%d HTTP/1.0\r\n\r\n", return_value_inet_ntop_29, nPort);
       }
 
       else
       {
-        return_value_inet_ntop$30=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-        snprintf(buf, (unsigned long int)4095, "CONNECT %s:%d HTTP/1.0\r\nProxy-Authorization: Basic %s\r\n\r\n", return_value_inet_ntop$30, nPort, szProxyAuthentication);
+        return_value_inet_ntop_30=inet_ntop(2, (const void *)&target.sin_addr, out, (unsigned int)sizeof(char [16l]) /*16ul*/ );
+        snprintf(buf, (unsigned long int)4095, "CONNECT %s:%d HTTP/1.0\r\nProxy-Authorization: Basic %s\r\n\r\n", return_value_inet_ntop_30, nPort, szProxyAuthentication);
       }
-      unsigned long int return_value_strlen$31;
-      return_value_strlen$31=strlen(buf);
-      send(s, (const void *)buf, return_value_strlen$31, 0);
+      unsigned long int return_value_strlen_31;
+      return_value_strlen_31=strlen(buf);
+      send(s, (const void *)buf, return_value_strlen_31, 0);
       recv(s, (void *)buf, (unsigned long int)4096, 0);
-      unsigned long int return_value_strlen$32;
-      return_value_strlen$32=strlen("HTTP/");
-      signed int return_value_strncmp$33;
-      return_value_strncmp$33=strncmp("HTTP/", buf, return_value_strlen$32);
-      if(return_value_strncmp$33 == 0)
+      unsigned long int return_value_strlen_32;
+      return_value_strlen_32=strlen("HTTP/");
+      signed int return_value_strncmp_33;
+      return_value_strncmp_33=strncmp("HTTP/", buf, return_value_strlen_32);
+      if(return_value_strncmp_33 == 0)
       {
         tmpptr=index(buf, 32);
-        tmp_if_expr$34 = tmpptr != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_34 = tmpptr != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$34 = (_Bool)0;
-      if(tmp_if_expr$34)
+        tmp_if_expr_34 = (_Bool)0;
+      if(tmp_if_expr_34)
       {
         tmpptr = tmpptr + 1l;
-        tmp_if_expr$35 = (signed int)*tmpptr == 50 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_35 = (signed int)*tmpptr == 50 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$35 = (_Bool)0;
-      if(tmp_if_expr$35)
+        tmp_if_expr_35 = (_Bool)0;
+      if(tmp_if_expr_35)
         writeError(7, "Connected (with proxy)");
 
       else
@@ -6971,27 +6971,27 @@ signed int medusaConnectSSLInternal(struct __sConnectParams *pParams, signed int
   pthread_mutex_lock(&ptmSSLMutex);
   SSL_load_error_strings();
   SSL_library_init();
-  const struct ssl_method_st *return_value_TLSv1_client_method$1;
+  const struct ssl_method_st *return_value_TLSv1_client_method_1;
   if(IEEE_FLOAT_EQUAL(pParams->nSSLVersion, 3.100000e+0f))
   {
-    return_value_TLSv1_client_method$1=TLSv1_client_method();
-    sslContext=SSL_CTX_new(return_value_TLSv1_client_method$1);
+    return_value_TLSv1_client_method_1=TLSv1_client_method();
+    sslContext=SSL_CTX_new(return_value_TLSv1_client_method_1);
   }
 
   else
   {
-    const struct ssl_method_st *return_value_SSLv23_client_method$2;
-    return_value_SSLv23_client_method$2=SSLv23_client_method();
-    sslContext=SSL_CTX_new(return_value_SSLv23_client_method$2);
+    const struct ssl_method_st *return_value_SSLv23_client_method_2;
+    return_value_SSLv23_client_method_2=SSLv23_client_method();
+    sslContext=SSL_CTX_new(return_value_SSLv23_client_method_2);
   }
   if(sslContext == ((struct ssl_ctx_st *)NULL))
   {
-    unsigned long int return_value_ERR_get_error$3;
-    return_value_ERR_get_error$3=ERR_get_error();
-    err = (signed int)return_value_ERR_get_error$3;
-    char *return_value_ERR_error_string$4;
-    return_value_ERR_error_string$4=ERR_error_string((unsigned long int)err, (char *)(void *)0);
-    writeError(3, "SSL: Error allocating context: %s", return_value_ERR_error_string$4);
+    unsigned long int return_value_ERR_get_error_3;
+    return_value_ERR_get_error_3=ERR_get_error();
+    err = (signed int)return_value_ERR_get_error_3;
+    char *return_value_ERR_error_string_4;
+    return_value_ERR_error_string_4=ERR_error_string((unsigned long int)err, (char *)(void *)0);
+    writeError(3, "SSL: Error allocating context: %s", return_value_ERR_error_string_4);
     return -1;
   }
 
@@ -6999,7 +6999,7 @@ signed int medusaConnectSSLInternal(struct __sConnectParams *pParams, signed int
   SSL_CTX_set_default_verify_paths(sslContext);
   SSL_CTX_set_tmp_rsa_callback(sslContext, sslTempRSACallback);
   SSL_CTX_set_verify(sslContext, 0x00, (signed int (*)(signed int, struct x509_store_ctx_st *))(void *)0);
-  unsigned int tmp_if_expr$16;
+  unsigned int tmp_if_expr_16;
   if(!(hSocket >= 0))
   {
     hSocket=medusaConnect(pParams);
@@ -7017,37 +7017,37 @@ signed int medusaConnectSSLInternal(struct __sConnectParams *pParams, signed int
     ssl=SSL_new(sslContext);
     if(ssl == ((struct ssl_st *)NULL))
     {
-      unsigned long int return_value_ERR_get_error$5;
-      return_value_ERR_get_error$5=ERR_get_error();
-      err = (signed int)return_value_ERR_get_error$5;
-      char *return_value_ERR_error_string$6;
-      return_value_ERR_error_string$6=ERR_error_string((unsigned long int)err, (char *)(void *)0);
-      writeError(3, "Error preparing an SSL context: %s", return_value_ERR_error_string$6);
+      unsigned long int return_value_ERR_get_error_5;
+      return_value_ERR_get_error_5=ERR_get_error();
+      err = (signed int)return_value_ERR_get_error_5;
+      char *return_value_ERR_error_string_6;
+      return_value_ERR_error_string_6=ERR_error_string((unsigned long int)err, (char *)(void *)0);
+      writeError(3, "Error preparing an SSL context: %s", return_value_ERR_error_string_6);
       return -1;
     }
 
     SSL_set_fd(ssl, hSocket);
-    signed int return_value_SSL_connect$9;
-    return_value_SSL_connect$9=SSL_connect(ssl);
-    if(!(return_value_SSL_connect$9 >= 1))
+    signed int return_value_SSL_connect_9;
+    return_value_SSL_connect_9=SSL_connect(ssl);
+    if(!(return_value_SSL_connect_9 >= 1))
     {
-      unsigned long int return_value_ERR_get_error$7;
-      return_value_ERR_get_error$7=ERR_get_error();
-      err = (signed int)return_value_ERR_get_error$7;
-      char *return_value_ERR_error_string$8;
-      return_value_ERR_error_string$8=ERR_error_string((unsigned long int)err, (char *)(void *)0);
-      writeError(3, "Could not create an SSL session: %s", return_value_ERR_error_string$8);
+      unsigned long int return_value_ERR_get_error_7;
+      return_value_ERR_get_error_7=ERR_get_error();
+      err = (signed int)return_value_ERR_get_error_7;
+      char *return_value_ERR_error_string_8;
+      return_value_ERR_error_string_8=ERR_error_string((unsigned long int)err, (char *)(void *)0);
+      writeError(3, "Could not create an SSL session: %s", return_value_ERR_error_string_8);
       return -1;
     }
 
-    const struct ssl_cipher_st *return_value_SSL_get_current_cipher$10;
-    return_value_SSL_get_current_cipher$10=SSL_get_current_cipher(ssl);
-    const char *return_value_SSL_CIPHER_get_name$11;
-    return_value_SSL_CIPHER_get_name$11=SSL_CIPHER_get_name(return_value_SSL_get_current_cipher$10);
-    writeError(7, "SSL negotiated cipher: %s", return_value_SSL_CIPHER_get_name$11);
-    void *return_value_malloc$12;
-    return_value_malloc$12=malloc(sizeof(struct SSLSOCKETINFO) /*80ul*/ );
-    s = (struct SSLSOCKETINFO *)return_value_malloc$12;
+    const struct ssl_cipher_st *return_value_SSL_get_current_cipher_10;
+    return_value_SSL_get_current_cipher_10=SSL_get_current_cipher(ssl);
+    const char *return_value_SSL_CIPHER_get_name_11;
+    return_value_SSL_CIPHER_get_name_11=SSL_CIPHER_get_name(return_value_SSL_get_current_cipher_10);
+    writeError(7, "SSL negotiated cipher: %s", return_value_SSL_CIPHER_get_name_11);
+    void *return_value_malloc_12;
+    return_value_malloc_12=malloc(sizeof(struct SSLSOCKETINFO) /*80ul*/ );
+    s = (struct SSLSOCKETINFO *)return_value_malloc_12;
     memset((void *)s, 0, sizeof(struct SSLSOCKETINFO) /*80ul*/ );
     s->id = hSocket;
     s->nUseSSL = 1;
@@ -7065,9 +7065,9 @@ signed int medusaConnectSSLInternal(struct __sConnectParams *pParams, signed int
         psSSLSocketInfo->hh.prev = (void *)0;
         do
         {
-          void *return_value_malloc$13;
-          return_value_malloc$13=malloc(sizeof(struct UT_hash_table) /*64ul*/ );
-          psSSLSocketInfo->hh.tbl = (struct UT_hash_table *)return_value_malloc$13;
+          void *return_value_malloc_13;
+          return_value_malloc_13=malloc(sizeof(struct UT_hash_table) /*64ul*/ );
+          psSSLSocketInfo->hh.tbl = (struct UT_hash_table *)return_value_malloc_13;
           if(psSSLSocketInfo->hh.tbl == ((struct UT_hash_table *)NULL))
             exit(-1);
 
@@ -7076,9 +7076,9 @@ signed int medusaConnectSSLInternal(struct __sConnectParams *pParams, signed int
           psSSLSocketInfo->hh.tbl->num_buckets = (unsigned int)32;
           psSSLSocketInfo->hh.tbl->log2_num_buckets = (unsigned int)5;
           psSSLSocketInfo->hh.tbl->hho = (char *)&psSSLSocketInfo->hh - (char *)psSSLSocketInfo;
-          void *return_value_malloc$14;
-          return_value_malloc$14=malloc((unsigned long int)32 * sizeof(struct UT_hash_bucket) /*16ul*/ );
-          psSSLSocketInfo->hh.tbl->buckets = (struct UT_hash_bucket *)return_value_malloc$14;
+          void *return_value_malloc_14;
+          return_value_malloc_14=malloc((unsigned long int)32 * sizeof(struct UT_hash_bucket) /*16ul*/ );
+          psSSLSocketInfo->hh.tbl->buckets = (struct UT_hash_bucket *)return_value_malloc_14;
           if(psSSLSocketInfo->hh.tbl->buckets == ((struct UT_hash_bucket *)NULL))
             exit(-1);
 
@@ -7224,9 +7224,9 @@ signed int medusaConnectSSLInternal(struct __sConnectParams *pParams, signed int
               struct UT_hash_handle *_he_hh_nxt;
               struct UT_hash_bucket *_he_new_buckets;
               struct UT_hash_bucket *_he_newbkt;
-              void *return_value_malloc$15;
-              return_value_malloc$15=malloc((unsigned long int)((unsigned int)2 * (&s->hh)->tbl->num_buckets) * sizeof(struct UT_hash_bucket) /*16ul*/ );
-              _he_new_buckets = (struct UT_hash_bucket *)return_value_malloc$15;
+              void *return_value_malloc_15;
+              return_value_malloc_15=malloc((unsigned long int)((unsigned int)2 * (&s->hh)->tbl->num_buckets) * sizeof(struct UT_hash_bucket) /*16ul*/ );
+              _he_new_buckets = (struct UT_hash_bucket *)return_value_malloc_15;
               if(_he_new_buckets == ((struct UT_hash_bucket *)NULL))
                 exit(-1);
 
@@ -7264,11 +7264,11 @@ signed int medusaConnectSSLInternal(struct __sConnectParams *pParams, signed int
               free((void *)(&s->hh)->tbl->buckets);
               (&s->hh)->tbl->buckets = _he_new_buckets;
               if(!(s->hh.tbl->num_items >> 1 >= s->hh.tbl->nonideal_items))
-                tmp_if_expr$16 = (&s->hh)->tbl->ineff_expands + (unsigned int)1;
+                tmp_if_expr_16 = (&s->hh)->tbl->ineff_expands + (unsigned int)1;
 
               else
-                tmp_if_expr$16 = (unsigned int)0;
-              (&s->hh)->tbl->ineff_expands = tmp_if_expr$16;
+                tmp_if_expr_16 = (unsigned int)0;
+              (&s->hh)->tbl->ineff_expands = tmp_if_expr_16;
               if(s->hh.tbl->ineff_expands >= 2u)
                 (&s->hh)->tbl->noexpand = (unsigned int)1;
 
@@ -7293,9 +7293,9 @@ extern signed int medusaConnectSocketSSL(struct __sConnectParams *pParams, signe
   if(hSocket >= 1)
   {
     pParams->nUseSSL = 1;
-    signed int return_value_medusaConnectSSLInternal$1;
-    return_value_medusaConnectSSLInternal$1=medusaConnectSSLInternal(pParams, hSocket);
-    return return_value_medusaConnectSSLInternal$1;
+    signed int return_value_medusaConnectSSLInternal_1;
+    return_value_medusaConnectSSLInternal_1=medusaConnectSSLInternal(pParams, hSocket);
+    return return_value_medusaConnectSSLInternal_1;
   }
 
   else
@@ -7312,9 +7312,9 @@ extern signed int medusaConnectTCP(struct __sConnectParams *pParams)
 {
   pParams->nProtocol = 1;
   pParams->nType = 6;
-  signed int return_value_medusaConnect$1;
-  return_value_medusaConnect$1=medusaConnect(pParams);
-  return return_value_medusaConnect$1;
+  signed int return_value_medusaConnect_1;
+  return_value_medusaConnect_1=medusaConnect(pParams);
+  return return_value_medusaConnect_1;
 }
 
 // medusaConnectUDP
@@ -7323,69 +7323,69 @@ extern signed int medusaConnectUDP(struct __sConnectParams *pParams)
 {
   pParams->nProtocol = 2;
   pParams->nType = 17;
-  signed int return_value_medusaConnect$1;
-  return_value_medusaConnect$1=medusaConnect(pParams);
-  return return_value_medusaConnect$1;
+  signed int return_value_medusaConnect_1;
+  return_value_medusaConnect_1=medusaConnect(pParams);
+  return return_value_medusaConnect_1;
 }
 
 // medusaDataReady
 // file medusa-net.c line 739
 extern signed int medusaDataReady(signed int socket)
 {
-  signed int return_value_medusaDataReadyTimed$1;
-  return_value_medusaDataReadyTimed$1=medusaDataReadyTimed(socket, (signed long int)0, (signed long int)0);
-  return return_value_medusaDataReadyTimed$1;
+  signed int return_value_medusaDataReadyTimed_1;
+  return_value_medusaDataReadyTimed_1=medusaDataReadyTimed(socket, (signed long int)0, (signed long int)0);
+  return return_value_medusaDataReadyTimed_1;
 }
 
 // medusaDataReadyTimed
 // file medusa-net.c line 726
 extern signed int medusaDataReadyTimed(signed int socket, signed long int sec, signed long int usec)
 {
-  struct anonymous$0 fds;
+  struct anonymous_0 fds;
   struct timeval tv;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&fds)->fds_bits[(signed long int)(socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->fds_bits[(signed long int)(socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   tv.tv_sec = sec;
   tv.tv_usec = usec;
-  signed int return_value_select$1;
-  return_value_select$1=select(socket + 1, &fds, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, &tv);
-  return return_value_select$1;
+  signed int return_value_select_1;
+  return_value_select_1=select(socket + 1, &fds, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, &tv);
+  return return_value_select_1;
 }
 
 // medusaDataReadyWriting
 // file medusa-net.c line 721
 extern signed int medusaDataReadyWriting(signed int socket)
 {
-  signed int return_value_medusaDataReadyWritingTimed$1;
-  return_value_medusaDataReadyWritingTimed$1=medusaDataReadyWritingTimed(socket, (signed long int)30, (signed long int)0);
-  return return_value_medusaDataReadyWritingTimed$1;
+  signed int return_value_medusaDataReadyWritingTimed_1;
+  return_value_medusaDataReadyWritingTimed_1=medusaDataReadyWritingTimed(socket, (signed long int)30, (signed long int)0);
+  return return_value_medusaDataReadyWritingTimed_1;
 }
 
 // medusaDataReadyWritingTimed
 // file medusa-net.c line 708
 extern signed int medusaDataReadyWritingTimed(signed int socket, signed long int sec, signed long int usec)
 {
-  struct anonymous$0 fds;
+  struct anonymous_0 fds;
   struct timeval tv;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&fds)->fds_bits[(signed long int)(socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->fds_bits[(signed long int)(socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   tv.tv_sec = sec;
   tv.tv_usec = usec;
-  signed int return_value_select$1;
-  return_value_select$1=select(socket + 1, &fds, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, &tv);
-  return return_value_select$1;
+  signed int return_value_select_1;
+  return_value_select_1=select(socket + 1, &fds, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, &tv);
+  return return_value_select_1;
 }
 
 // medusaDisconnect
@@ -7393,9 +7393,9 @@ extern signed int medusaDataReadyWritingTimed(signed int socket, signed long int
 extern signed int medusaDisconnect(signed int hSocket)
 {
   struct SSLSOCKETINFO *s;
-  void *tmp_if_expr$1;
-  void *tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  void *tmp_if_expr_1;
+  void *tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(hSocket >= 1))
     return -1;
 
@@ -7518,27 +7518,27 @@ extern signed int medusaDisconnect(signed int hSocket)
         }
         while((_Bool)0);
         if(!((psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head == ((struct UT_hash_handle *)NULL)))
-          tmp_if_expr$1 = (void *)((char *)(psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head - psSSLSocketInfo->hh.tbl->hho);
+          tmp_if_expr_1 = (void *)((char *)(psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head - psSSLSocketInfo->hh.tbl->hho);
 
         else
-          tmp_if_expr$1 = (void *)0;
-        s = (struct SSLSOCKETINFO *)tmp_if_expr$1;
-        for( ; !(s == ((struct SSLSOCKETINFO *)NULL)); s = (struct SSLSOCKETINFO *)tmp_if_expr$3)
+          tmp_if_expr_1 = (void *)0;
+        s = (struct SSLSOCKETINFO *)tmp_if_expr_1;
+        for( ; !(s == ((struct SSLSOCKETINFO *)NULL)); s = (struct SSLSOCKETINFO *)tmp_if_expr_3)
         {
           if((unsigned long int)s->hh.keylen == sizeof(signed int) /*4ul*/ )
           {
-            signed int return_value_memcmp$2;
-            return_value_memcmp$2=memcmp(s->hh.key, (const void *)&hSocket, sizeof(signed int) /*4ul*/ );
-            if(return_value_memcmp$2 == 0)
+            signed int return_value_memcmp_2;
+            return_value_memcmp_2=memcmp(s->hh.key, (const void *)&hSocket, sizeof(signed int) /*4ul*/ );
+            if(return_value_memcmp_2 == 0)
               break;
 
           }
 
           if(!(s->hh.hh_next == ((struct UT_hash_handle *)NULL)))
-            tmp_if_expr$3 = (void *)((char *)s->hh.hh_next - psSSLSocketInfo->hh.tbl->hho);
+            tmp_if_expr_3 = (void *)((char *)s->hh.hh_next - psSSLSocketInfo->hh.tbl->hho);
 
           else
-            tmp_if_expr$3 = (void *)0;
+            tmp_if_expr_3 = (void *)0;
         }
       }
 
@@ -7550,11 +7550,11 @@ extern signed int medusaDisconnect(signed int hSocket)
         unsigned int _hd_bkt;
         struct UT_hash_handle *_hd_hh_del;
         if(s->hh.prev == NULL)
-          tmp_if_expr$4 = s->hh.next == (void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = s->hh.next == (void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
           free((void *)psSSLSocketInfo->hh.tbl->buckets);
           free((void *)psSSLSocketInfo->hh.tbl);
@@ -7626,9 +7626,9 @@ unsigned char * medusaReceiveDataInternal(signed int socket, signed int *nBuffer
   signed int nReceiveDelay2sec = 0;
   signed int nReceiveDelay2usec = 0;
   *nBufferSize = 0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(BUFFER_SIZE + 1));
-  szBufReceive = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(BUFFER_SIZE + 1));
+  szBufReceive = (unsigned char *)return_value_malloc_1;
   memset((void *)szBufReceive, 0, (unsigned long int)(BUFFER_SIZE + 1));
   nReceiveDelay1sec = nReceiveDelay1 / 1000000;
   nReceiveDelay1usec = nReceiveDelay1 % 1000000;
@@ -7662,16 +7662,16 @@ unsigned char * medusaReceiveDataInternal(signed int socket, signed int *nBuffer
       free((void *)szBufReceive);
       return (unsigned char *)(void *)0;
     }
-  signed int return_value_medusaDataReadyTimed$2;
+  signed int return_value_medusaDataReadyTimed_2;
   do
   {
-    return_value_medusaDataReadyTimed$2=medusaDataReadyTimed(socket, (signed long int)nReceiveDelay2sec, (signed long int)nReceiveDelay2usec);
-    if(!(return_value_medusaDataReadyTimed$2 >= 1))
+    return_value_medusaDataReadyTimed_2=medusaDataReadyTimed(socket, (signed long int)nReceiveDelay2sec, (signed long int)nReceiveDelay2usec);
+    if(!(return_value_medusaDataReadyTimed_2 >= 1))
       break;
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(BUFFER_SIZE + 1));
-    szBufReceiveTmp = (unsigned char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(BUFFER_SIZE + 1));
+    szBufReceiveTmp = (unsigned char *)return_value_malloc_3;
     memset((void *)szBufReceiveTmp, 0, (unsigned long int)(BUFFER_SIZE + 1));
     nBufReceiveTmp=medusaReceive(socket, szBufReceiveTmp, BUFFER_SIZE);
     if(!(nBufReceiveTmp >= 1))
@@ -7684,9 +7684,9 @@ unsigned char * medusaReceiveDataInternal(signed int socket, signed int *nBuffer
     if(!(BUFFER_SIZE >= nBufReceive + nBufReceiveTmp))
     {
       writeError(7, "Additional data received. Increasing receive buffer %d bytes to %d.", nBufReceiveTmp, nBufReceive + nBufReceiveTmp + 1);
-      void *return_value_realloc$4;
-      return_value_realloc$4=realloc((void *)szBufReceive, (unsigned long int)(nBufReceive + nBufReceiveTmp + 1));
-      szBufReceive = (unsigned char *)return_value_realloc$4;
+      void *return_value_realloc_4;
+      return_value_realloc_4=realloc((void *)szBufReceive, (unsigned long int)(nBufReceive + nBufReceiveTmp + 1));
+      szBufReceive = (unsigned char *)return_value_realloc_4;
     }
 
     memcpy((void *)(szBufReceive + (signed long int)nBufReceive), (const void *)szBufReceiveTmp, (unsigned long int)nBufReceiveTmp);
@@ -7717,8 +7717,8 @@ signed int medusaReceiveInternal(signed int socket, unsigned char *buf, signed i
   signed int err;
   signed int nRet;
   struct SSLSOCKETINFO *s;
-  void *tmp_if_expr$1;
-  void *tmp_if_expr$3;
+  void *tmp_if_expr_1;
+  void *tmp_if_expr_3;
   do
   {
     unsigned int _hf_bkt;
@@ -7835,43 +7835,43 @@ signed int medusaReceiveInternal(signed int socket, unsigned char *buf, signed i
       }
       while((_Bool)0);
       if(!((psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head == ((struct UT_hash_handle *)NULL)))
-        tmp_if_expr$1 = (void *)((char *)(psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head - psSSLSocketInfo->hh.tbl->hho);
+        tmp_if_expr_1 = (void *)((char *)(psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head - psSSLSocketInfo->hh.tbl->hho);
 
       else
-        tmp_if_expr$1 = (void *)0;
-      s = (struct SSLSOCKETINFO *)tmp_if_expr$1;
-      for( ; !(s == ((struct SSLSOCKETINFO *)NULL)); s = (struct SSLSOCKETINFO *)tmp_if_expr$3)
+        tmp_if_expr_1 = (void *)0;
+      s = (struct SSLSOCKETINFO *)tmp_if_expr_1;
+      for( ; !(s == ((struct SSLSOCKETINFO *)NULL)); s = (struct SSLSOCKETINFO *)tmp_if_expr_3)
       {
         if((unsigned long int)s->hh.keylen == sizeof(signed int) /*4ul*/ )
         {
-          signed int return_value_memcmp$2;
-          return_value_memcmp$2=memcmp(s->hh.key, (const void *)&socket, sizeof(signed int) /*4ul*/ );
-          if(return_value_memcmp$2 == 0)
+          signed int return_value_memcmp_2;
+          return_value_memcmp_2=memcmp(s->hh.key, (const void *)&socket, sizeof(signed int) /*4ul*/ );
+          if(return_value_memcmp_2 == 0)
             break;
 
         }
 
         if(!(s->hh.hh_next == ((struct UT_hash_handle *)NULL)))
-          tmp_if_expr$3 = (void *)((char *)s->hh.hh_next - psSSLSocketInfo->hh.tbl->hho);
+          tmp_if_expr_3 = (void *)((char *)s->hh.hh_next - psSSLSocketInfo->hh.tbl->hho);
 
         else
-          tmp_if_expr$3 = (void *)0;
+          tmp_if_expr_3 = (void *)0;
       }
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(!(s == ((struct SSLSOCKETINFO *)NULL)))
-    tmp_if_expr$9 = s->nUseSSL != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = s->nUseSSL != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  char *return_value_ERR_error_string$6;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  signed long int return_value_recv$8;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  char *return_value_ERR_error_string_6;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  signed long int return_value_recv_8;
+  if(tmp_if_expr_9)
   {
     do
     {
@@ -7893,36 +7893,36 @@ signed int medusaReceiveInternal(signed int socket, unsigned char *buf, signed i
           }
           case 5:
           {
-            return_value_ERR_error_string$6=ERR_error_string((unsigned long int)err, (char *)(void *)0);
-            writeError(7, "TLS/SSL I/O error occurered (%d - %s)", err, return_value_ERR_error_string$6);
+            return_value_ERR_error_string_6=ERR_error_string((unsigned long int)err, (char *)(void *)0);
+            writeError(7, "TLS/SSL I/O error occurered (%d - %s)", err, return_value_ERR_error_string_6);
             break;
           }
           default:
           {
-            char *return_value_ERR_error_string$7;
-            return_value_ERR_error_string$7=ERR_error_string((unsigned long int)err, (char *)(void *)0);
-            writeError(3, "Unknown TLS/SSL error occurred (%d - %s)", err, return_value_ERR_error_string$7);
+            char *return_value_ERR_error_string_7;
+            return_value_ERR_error_string_7=ERR_error_string((unsigned long int)err, (char *)(void *)0);
+            writeError(3, "Unknown TLS/SSL error occurred (%d - %s)", err, return_value_ERR_error_string_7);
           }
         }
       }
 
       if(err == 5 && nRet == -1)
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
     }
-    while(tmp_if_expr$5);
+    while(tmp_if_expr_5);
     return nRet;
   }
 
   else
   {
-    return_value_recv$8=recv(socket, (void *)buf, (unsigned long int)length, 0);
-    return (signed int)return_value_recv$8;
+    return_value_recv_8=recv(socket, (void *)buf, (unsigned long int)length, 0);
+    return (signed int)return_value_recv_8;
   }
 }
 
@@ -7930,36 +7930,36 @@ signed int medusaReceiveInternal(signed int socket, unsigned char *buf, signed i
 // file medusa-net.c line 774
 extern unsigned char * medusaReceiveLine(signed int socket, signed int *nBufferSize)
 {
-  unsigned char *return_value_medusaReceiveDataInternal$1;
-  return_value_medusaReceiveDataInternal$1=medusaReceiveDataInternal(socket, nBufferSize, 1, 20 * 1000000, 0);
-  return return_value_medusaReceiveDataInternal$1;
+  unsigned char *return_value_medusaReceiveDataInternal_1;
+  return_value_medusaReceiveDataInternal_1=medusaReceiveDataInternal(socket, nBufferSize, 1, 20 * 1000000, 0);
+  return return_value_medusaReceiveDataInternal_1;
 }
 
 // medusaReceiveLineDelay
 // file medusa-net.c line 779
 extern unsigned char * medusaReceiveLineDelay(signed int socket, signed int *nBufferSize, signed int nReceiveDelay1, signed int nReceiveDelay2)
 {
-  unsigned char *return_value_medusaReceiveDataInternal$1;
-  return_value_medusaReceiveDataInternal$1=medusaReceiveDataInternal(socket, nBufferSize, 1, nReceiveDelay1, nReceiveDelay2);
-  return return_value_medusaReceiveDataInternal$1;
+  unsigned char *return_value_medusaReceiveDataInternal_1;
+  return_value_medusaReceiveDataInternal_1=medusaReceiveDataInternal(socket, nBufferSize, 1, nReceiveDelay1, nReceiveDelay2);
+  return return_value_medusaReceiveDataInternal_1;
 }
 
 // medusaReceiveRaw
 // file medusa-net.c line 764
 extern unsigned char * medusaReceiveRaw(signed int socket, signed int *nBufferSize)
 {
-  unsigned char *return_value_medusaReceiveDataInternal$1;
-  return_value_medusaReceiveDataInternal$1=medusaReceiveDataInternal(socket, nBufferSize, 0, 20 * 1000000, 0);
-  return return_value_medusaReceiveDataInternal$1;
+  unsigned char *return_value_medusaReceiveDataInternal_1;
+  return_value_medusaReceiveDataInternal_1=medusaReceiveDataInternal(socket, nBufferSize, 0, 20 * 1000000, 0);
+  return return_value_medusaReceiveDataInternal_1;
 }
 
 // medusaReceiveRawDelay
 // file medusa-net.c line 769
 extern unsigned char * medusaReceiveRawDelay(signed int socket, signed int *nBufferSize, signed int nReceiveDelay1, signed int nReceiveDelay2)
 {
-  unsigned char *return_value_medusaReceiveDataInternal$1;
-  return_value_medusaReceiveDataInternal$1=medusaReceiveDataInternal(socket, nBufferSize, 0, nReceiveDelay1, nReceiveDelay2);
-  return return_value_medusaReceiveDataInternal$1;
+  unsigned char *return_value_medusaReceiveDataInternal_1;
+  return_value_medusaReceiveDataInternal_1=medusaReceiveDataInternal(socket, nBufferSize, 0, nReceiveDelay1, nReceiveDelay2);
+  return return_value_medusaReceiveDataInternal_1;
 }
 
 // medusaReceiveRegex
@@ -7993,17 +7993,17 @@ extern signed int medusaReceiveRegex(signed int hSocket, unsigned char **szBufRe
     {
       do
       {
-        errcode=regexec(&preg, (char *)*szBufReceive, (unsigned long int)0, ((struct anonymous$2 *)NULL), 0);
+        errcode=regexec(&preg, (char *)*szBufReceive, (unsigned long int)0, ((struct anonymous_2 *)NULL), 0);
         if(errcode == 1)
         {
           writeError(7, "Failed to match regex. Checking for additional data.");
-          signed int return_value_medusaDataReadyTimed$3;
-          return_value_medusaDataReadyTimed$3=medusaDataReadyTimed(hSocket, (signed long int)0, (signed long int)(20000 * nAttempt));
-          if(return_value_medusaDataReadyTimed$3 >= 1)
+          signed int return_value_medusaDataReadyTimed_3;
+          return_value_medusaDataReadyTimed_3=medusaDataReadyTimed(hSocket, (signed long int)0, (signed long int)(20000 * nAttempt));
+          if(return_value_medusaDataReadyTimed_3 >= 1)
           {
-            void *return_value_malloc$1;
-            return_value_malloc$1=malloc((unsigned long int)(BUFFER_SIZE + 1));
-            szBufReceiveTmp = (unsigned char *)return_value_malloc$1;
+            void *return_value_malloc_1;
+            return_value_malloc_1=malloc((unsigned long int)(BUFFER_SIZE + 1));
+            szBufReceiveTmp = (unsigned char *)return_value_malloc_1;
             memset((void *)szBufReceiveTmp, 0, (unsigned long int)(BUFFER_SIZE + 1));
             nBufReceiveTmp=medusaReceive(hSocket, szBufReceiveTmp, BUFFER_SIZE);
             if(!(nBufReceiveTmp >= 1))
@@ -8016,9 +8016,9 @@ extern signed int medusaReceiveRegex(signed int hSocket, unsigned char **szBufRe
             if(!(BUFFER_SIZE >= *nBufReceive + nBufReceiveTmp))
             {
               writeError(7, "Additional data received. Increasing receive buffer %d bytes to %d.", nBufReceiveTmp, *nBufReceive + nBufReceiveTmp + 1);
-              void *return_value_realloc$2;
-              return_value_realloc$2=realloc((void *)*szBufReceive, (unsigned long int)(*nBufReceive + nBufReceiveTmp + 1));
-              *szBufReceive = (unsigned char *)return_value_realloc$2;
+              void *return_value_realloc_2;
+              return_value_realloc_2=realloc((void *)*szBufReceive, (unsigned long int)(*nBufReceive + nBufReceiveTmp + 1));
+              *szBufReceive = (unsigned char *)return_value_realloc_2;
             }
 
             memcpy((void *)(*szBufReceive + (signed long int)*nBufReceive), (const void *)szBufReceiveTmp, (unsigned long int)nBufReceiveTmp);
@@ -8053,8 +8053,8 @@ extern signed int medusaReceiveRegex(signed int hSocket, unsigned char **szBufRe
 // file medusa-net.c line 871
 extern signed int medusaSend(signed int socket, unsigned char *buf, signed int size, signed int options)
 {
-  const signed long int medusaSend$array_size0 = (signed long int)(size + 1);
-  char debugbuf[medusaSend$array_size0];
+  const signed long int medusaSend_array_size0 = (signed long int)(size + 1);
+  char debugbuf[medusaSend_array_size0];
   signed int k;
   memset((void *)debugbuf, 0, (unsigned long int)(size + 1));
   k = 0;
@@ -8065,9 +8065,9 @@ extern signed int medusaSend(signed int socket, unsigned char *buf, signed int s
     else
       debugbuf[(signed long int)k] = (char)buf[(signed long int)k];
   writeError(7, "Data sent: %s", (const void *)debugbuf);
-  signed int return_value_medusaSendInternal$1;
-  return_value_medusaSendInternal$1=medusaSendInternal(socket, buf, size, options);
-  return return_value_medusaSendInternal$1;
+  signed int return_value_medusaSendInternal_1;
+  return_value_medusaSendInternal_1=medusaSendInternal(socket, buf, size, options);
+  return return_value_medusaSendInternal_1;
 }
 
 // medusaSendInternal
@@ -8075,8 +8075,8 @@ extern signed int medusaSend(signed int socket, unsigned char *buf, signed int s
 signed int medusaSendInternal(signed int socket, unsigned char *buf, signed int size, signed int options)
 {
   struct SSLSOCKETINFO *s;
-  void *tmp_if_expr$1;
-  void *tmp_if_expr$3;
+  void *tmp_if_expr_1;
+  void *tmp_if_expr_3;
   do
   {
     unsigned int _hf_bkt;
@@ -8193,58 +8193,58 @@ signed int medusaSendInternal(signed int socket, unsigned char *buf, signed int 
       }
       while((_Bool)0);
       if(!((psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head == ((struct UT_hash_handle *)NULL)))
-        tmp_if_expr$1 = (void *)((char *)(psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head - psSSLSocketInfo->hh.tbl->hho);
+        tmp_if_expr_1 = (void *)((char *)(psSSLSocketInfo->hh.tbl->buckets + (signed long int)_hf_bkt)->hh_head - psSSLSocketInfo->hh.tbl->hho);
 
       else
-        tmp_if_expr$1 = (void *)0;
-      s = (struct SSLSOCKETINFO *)tmp_if_expr$1;
-      for( ; !(s == ((struct SSLSOCKETINFO *)NULL)); s = (struct SSLSOCKETINFO *)tmp_if_expr$3)
+        tmp_if_expr_1 = (void *)0;
+      s = (struct SSLSOCKETINFO *)tmp_if_expr_1;
+      for( ; !(s == ((struct SSLSOCKETINFO *)NULL)); s = (struct SSLSOCKETINFO *)tmp_if_expr_3)
       {
         if((unsigned long int)s->hh.keylen == sizeof(signed int) /*4ul*/ )
         {
-          signed int return_value_memcmp$2;
-          return_value_memcmp$2=memcmp(s->hh.key, (const void *)&socket, sizeof(signed int) /*4ul*/ );
-          if(return_value_memcmp$2 == 0)
+          signed int return_value_memcmp_2;
+          return_value_memcmp_2=memcmp(s->hh.key, (const void *)&socket, sizeof(signed int) /*4ul*/ );
+          if(return_value_memcmp_2 == 0)
             break;
 
         }
 
         if(!(s->hh.hh_next == ((struct UT_hash_handle *)NULL)))
-          tmp_if_expr$3 = (void *)((char *)s->hh.hh_next - psSSLSocketInfo->hh.tbl->hho);
+          tmp_if_expr_3 = (void *)((char *)s->hh.hh_next - psSSLSocketInfo->hh.tbl->hho);
 
         else
-          tmp_if_expr$3 = (void *)0;
+          tmp_if_expr_3 = (void *)0;
       }
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(!(s == ((struct SSLSOCKETINFO *)NULL)))
-    tmp_if_expr$8 = s->nUseSSL != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_8 = s->nUseSSL != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (_Bool)0;
+  if(tmp_if_expr_8)
   {
-    signed int return_value_SSL_write$4;
-    return_value_SSL_write$4=SSL_write(s->ssl, (const void *)buf, size);
-    return return_value_SSL_write$4;
+    signed int return_value_SSL_write_4;
+    return_value_SSL_write_4=SSL_write(s->ssl, (const void *)buf, size);
+    return return_value_SSL_write_4;
   }
 
   else
   {
     signed int nRet;
-    signed long int return_value_send$5;
-    return_value_send$5=send(socket, (const void *)buf, (unsigned long int)size, options);
-    nRet = (signed int)return_value_send$5;
+    signed long int return_value_send_5;
+    return_value_send_5=send(socket, (const void *)buf, (unsigned long int)size, options);
+    nRet = (signed int)return_value_send_5;
     if(!(nRet >= 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      writeError(3, "Error in send() %s", return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      writeError(3, "Error in send() %s", return_value_strerror_7);
     }
 
     return nRet;
@@ -8279,9 +8279,9 @@ signed int processComboFile(struct __sAudit **_psAudit)
   writeError(7, "[processComboFile] PwDump file check.");
   while(!((signed int)*pComboTmp == 0))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(pComboTmp, ":::");
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(pComboTmp, ":::");
+    if(return_value_strcmp_1 == 0)
     {
       iColonCount = iColonCount + 3;
       pComboTmp = pComboTmp + (signed long int)3;
@@ -8479,44 +8479,44 @@ void sigint_handler(signed int sig)
   sigaddset(&sig_action.sa_mask, 2);
   sig_action.__sigaction_handler.sa_handler = (void (*)(signed int))0;
   sigaction(2, &sig_action, ((struct sigaction *)NULL));
-  sigprocmask(1, &sig_action.sa_mask, ((struct anonymous$5 *)NULL));
+  sigprocmask(1, &sig_action.sa_mask, ((struct anonymous_5 *)NULL));
   writeError(1, "Medusa received SIGINT - Sending notification to login threads that we are are aborting.");
   psAudit->iStatus = 1;
   writeError(6, "Waiting for login threads to terminate...");
   thr_pool_wait(psAudit->server_pool);
-  double return_value_log10$1;
-  double return_value_log10$2;
+  double return_value_log10_1;
+  double return_value_log10_2;
   if(!(psAudit->iUserCnt >= psAudit->iHostCnt))
   {
-    return_value_log10$1=log10((double)psAudit->iHostCnt);
-    nItemByteSize = 1 + (signed int)return_value_log10$1 + 1;
+    return_value_log10_1=log10((double)psAudit->iHostCnt);
+    nItemByteSize = 1 + (signed int)return_value_log10_1 + 1;
   }
 
   else
   {
-    return_value_log10$2=log10((double)psAudit->iUserCnt);
-    nItemByteSize = 1 + (signed int)return_value_log10$2 + 1;
+    return_value_log10_2=log10((double)psAudit->iUserCnt);
+    nItemByteSize = 1 + (signed int)return_value_log10_2 + 1;
   }
   nResumeMapSize = nItemByteSize * (psAudit->iServerCnt * psAudit->iLoginCnt + psAudit->iServerCnt + 1) + 1;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)(nResumeMapSize + 1));
-  szResumeMap = (char *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)(nResumeMapSize + 1));
+  szResumeMap = (char *)return_value_malloc_3;
   memset((void *)szResumeMap, 0, (unsigned long int)(nResumeMapSize + 1));
   memset((void *)szTmp, 0, (unsigned long int)(10 + 1));
   psHost = psAudit->psHostRoot;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
   for( ; !(psHost == ((struct __sHost *)NULL)); psHost = psHost->psHostNext)
   {
     if(psHost->iUserStatus == 0)
       break;
 
     if(!(psHost->iUserStatus == 3))
-      tmp_if_expr$5 = psHost->iUserStatus != 4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = psHost->iUserStatus != 4 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       writeError(7, "Incomplete Host: %d", psHost->iId);
       memset((void *)szTmp, 0, (unsigned long int)(10 + 1));
@@ -8529,11 +8529,11 @@ void sigint_handler(signed int sig)
           break;
 
         if(psUser->iPassStatus == 5)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = psUser->iPassStatus == 6 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = psUser->iPassStatus == 6 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
           writeError(7, "Complete User: %d", psUser->iId);
 
         else
@@ -8596,10 +8596,10 @@ void startLoginThreadPool(void *arg)
 {
   struct __sServer *_psServer = (struct __sServer *)arg;
   struct thr_pool *login_pool = (struct thr_pool *)(void *)0;
-  const signed long int login_pool$array_size0 = (signed long int)_psServer->psAudit->iLoginCnt;
-  struct __sLogin psLogin[login_pool$array_size0];
-  const signed long int psLogin$array_size0 = (signed long int)_psServer->psAudit->iLoginCnt;
-  struct __sModuleStart modParams[psLogin$array_size0];
+  const signed long int login_pool_array_size0 = (signed long int)_psServer->psAudit->iLoginCnt;
+  struct __sLogin psLogin[login_pool_array_size0];
+  const signed long int psLogin_array_size0 = (signed long int)_psServer->psAudit->iLoginCnt;
+  struct __sModuleStart modParams[psLogin_array_size0];
   signed int iLoginId = 0;
   signed int iLoginCnt = _psServer->psAudit->iLoginCnt;
   struct addrinfo hints;
@@ -8614,9 +8614,9 @@ void startLoginThreadPool(void *arg)
   if(login_pool == ((struct thr_pool *)NULL))
     writeError(0, "Failed to create root login thread pool for host: %s", _psServer->psHost->pHost);
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)100);
-  _psServer->pHostIP = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)100);
+  _psServer->pHostIP = (char *)return_value_malloc_1;
   memset((void *)_psServer->pHostIP, 0, (unsigned long int)100);
   memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
   hints.ai_family = 0;
@@ -8625,9 +8625,9 @@ void startLoginThreadPool(void *arg)
   errcode=getaddrinfo(_psServer->psHost->pHost, (const char *)(void *)0, &hints, &res);
   if(!(errcode == 0))
   {
-    const char *return_value_gai_strerror$2;
-    return_value_gai_strerror$2=gai_strerror(errcode);
-    writeError(2, "Failed to resolve hostname: %s - %s", _psServer->psHost->pHost, return_value_gai_strerror$2);
+    const char *return_value_gai_strerror_2;
+    return_value_gai_strerror_2=gai_strerror(errcode);
+    writeError(2, "Failed to resolve hostname: %s - %s", _psServer->psHost->pHost, return_value_gai_strerror_2);
     goto __CPROVER_DUMP_L16;
   }
 
@@ -8662,9 +8662,9 @@ void startLoginThreadPool(void *arg)
     modParams[(signed long int)iLoginId].pLogin = &psLogin[(signed long int)iLoginId];
     modParams[(signed long int)iLoginId].argc = nModuleParamCount;
     modParams[(signed long int)iLoginId].argv = (char **)arrModuleParams;
-    signed int return_value_thr_pool_queue$3;
-    return_value_thr_pool_queue$3=thr_pool_queue(login_pool, (void *)startModule, (void *)&modParams[(signed long int)iLoginId]);
-    if(!(return_value_thr_pool_queue$3 >= 0))
+    signed int return_value_thr_pool_queue_3;
+    return_value_thr_pool_queue_3=thr_pool_queue(login_pool, (void *)startModule, (void *)&modParams[(signed long int)iLoginId]);
+    if(!(return_value_thr_pool_queue_3 >= 0))
     {
       writeError(2, "Failed to add module launch task to login thread pool for server queue: %d.", _psServer->iId);
       goto __CPROVER_DUMP_L16;
@@ -8683,9 +8683,9 @@ void startLoginThreadPool(void *arg)
       psLogin[(signed long int)iLoginId].iResult = 1;
       psLogin[(signed long int)iLoginId].pErrorMsg = (char *)(void *)0;
       psLogin[(signed long int)iLoginId].psUser = (struct __sUser *)(void *)0;
-      signed int return_value_thr_pool_queue$4;
-      return_value_thr_pool_queue$4=thr_pool_queue(login_pool, (void *)startModule, (void *)&modParams[(signed long int)iLoginId]);
-      if(!(return_value_thr_pool_queue$4 >= 0))
+      signed int return_value_thr_pool_queue_4;
+      return_value_thr_pool_queue_4=thr_pool_queue(login_pool, (void *)startModule, (void *)&modParams[(signed long int)iLoginId]);
+      if(!(return_value_thr_pool_queue_4 >= 0))
       {
         writeError(2, "Failed to add module launch task to login thread pool for server queue: %d.", _psServer->iId);
         goto __CPROVER_DUMP_L16;
@@ -8702,15 +8702,15 @@ void startLoginThreadPool(void *arg)
   pthread_mutex_lock(&_psServer->psAudit->ptmMutex);
   _psServer->psAudit->iHostsDone = _psServer->psAudit->iHostsDone + 1;
   pthread_mutex_unlock(&_psServer->psAudit->ptmMutex);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(_psServer->psAudit->iStatus == 1))
   {
     if(_psServer->psHost->iUserStatus == 1)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = _psServer->psHost->iUserStatus == 2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = _psServer->psHost->iUserStatus == 2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       writeError(9, "Server thread exiting and server's userlist testing was marked as in progress. Was this host prematurely aborted?");
       _psServer->psHost->iUserStatus = 4;
@@ -8738,9 +8738,9 @@ void startModule(void *pParams)
   else
   {
     writeError(7, "startModule iId: %d pLogin: %X modParams->argv: %X modParams: %X", modParams->pLogin->iId, modParams->pLogin, modParams->argv, modParams);
-    signed int return_value_invokeModule$1;
-    return_value_invokeModule$1=invokeModule(modParams->szModuleName, modParams->pLogin, modParams->argc, modParams->argv);
-    nRet = (signed long int)return_value_invokeModule$1;
+    signed int return_value_invokeModule_1;
+    return_value_invokeModule_1=invokeModule(modParams->szModuleName, modParams->pLogin, modParams->argc, modParams->argv);
+    nRet = (signed long int)return_value_invokeModule_1;
     if(!(nRet >= 0l))
       writeVerbose(0, "invokeModule failed - see previous errors for an explanation");
 
@@ -8755,8 +8755,8 @@ __CPROVER_DUMP_L3:
 // file medusa.c line 1682
 signed int startServerThreadPool(struct __sAudit *_psAudit)
 {
-  const signed long int startServerThreadPool$array_size0 = (signed long int)_psAudit->iHostCnt;
-  struct __sServer psServer[startServerThreadPool$array_size0];
+  const signed long int startServerThreadPool_array_size0 = (signed long int)_psAudit->iHostCnt;
+  struct __sServer psServer[startServerThreadPool_array_size0];
   struct __sHost *psHost;
   signed int iServerId;
   struct __sUser *psUser;
@@ -8786,19 +8786,19 @@ signed int startServerThreadPool(struct __sAudit *_psAudit)
 
   init_crypto_locks();
   _psAudit->server_pool=thr_pool_create((unsigned int)0, (unsigned int)_psAudit->iServerCnt, (unsigned int)1, (union pthread_attr_t *)(void *)0);
-  char *return_value_index$1;
-  char *return_value_index$4;
-  char *return_value_index$2;
-  unsigned long int return_value_strlen$3;
-  char *return_value_strstr$10;
-  char *return_value_strstr$7;
-  _Bool tmp_if_expr$9;
-  char *return_value_strstr$8;
-  char *return_value_strstr$11;
-  signed int *return_value___errno_location$12;
-  char *return_value_strerror$13;
-  signed int *return_value___errno_location$16;
-  char *return_value_strerror$17;
+  char *return_value_index_1;
+  char *return_value_index_4;
+  char *return_value_index_2;
+  unsigned long int return_value_strlen_3;
+  char *return_value_strstr_10;
+  char *return_value_strstr_7;
+  _Bool tmp_if_expr_9;
+  char *return_value_strstr_8;
+  char *return_value_strstr_11;
+  signed int *return_value___errno_location_12;
+  char *return_value_strerror_13;
+  signed int *return_value___errno_location_16;
+  char *return_value_strerror_17;
   if(_psAudit->server_pool == ((struct thr_pool *)NULL))
   {
     writeError(3, "Failed to create root server thread pool.");
@@ -8829,35 +8829,35 @@ signed int startServerThreadPool(struct __sAudit *_psAudit)
           if(!(szResumeMap == ((char *)NULL)))
           {
             writeError(9, "[Host Resume] Adding host: %d (host was located in resume map)", psHost->iId);
-            char *return_value_index$5;
-            return_value_index$5=index(szResumeMap + (signed long int)1, 0x68);
-            if(!(return_value_index$5 == ((char *)NULL)))
+            char *return_value_index_5;
+            return_value_index_5=index(szResumeMap + (signed long int)1, 0x68);
+            if(!(return_value_index_5 == ((char *)NULL)))
             {
-              return_value_index$1=index(szResumeMap + (signed long int)1, 0x68);
-              nUserMapSize = (signed int)(return_value_index$1 - szResumeMap);
+              return_value_index_1=index(szResumeMap + (signed long int)1, 0x68);
+              nUserMapSize = (signed int)(return_value_index_1 - szResumeMap);
             }
 
             else
             {
-              return_value_index$4=index(szResumeMap + (signed long int)1, 0x2e);
-              if(!(return_value_index$4 == ((char *)NULL)))
+              return_value_index_4=index(szResumeMap + (signed long int)1, 0x2e);
+              if(!(return_value_index_4 == ((char *)NULL)))
               {
-                return_value_index$2=index(szResumeMap + (signed long int)1, 0x2e);
-                nUserMapSize = (signed int)(return_value_index$2 - szResumeMap);
+                return_value_index_2=index(szResumeMap + (signed long int)1, 0x2e);
+                nUserMapSize = (signed int)(return_value_index_2 - szResumeMap);
               }
 
               else
               {
-                return_value_strlen$3=strlen(szResumeMap);
-                nUserMapSize = (signed int)return_value_strlen$3;
+                return_value_strlen_3=strlen(szResumeMap);
+                nUserMapSize = (signed int)return_value_strlen_3;
               }
             }
             if(!(nUserMapSize >= 4))
               writeError(0, "Error extacting user resume map for host: %d", psHost->iId);
 
-            void *return_value_malloc$6;
-            return_value_malloc$6=malloc((unsigned long int)(nUserMapSize + 1));
-            szUserMap = (char *)return_value_malloc$6;
+            void *return_value_malloc_6;
+            return_value_malloc_6=malloc((unsigned long int)(nUserMapSize + 1));
+            szUserMap = (char *)return_value_malloc_6;
             memset((void *)szUserMap, 0, (unsigned long int)(nUserMapSize + 1));
             strncpy(szUserMap, szResumeMap, (unsigned long int)nUserMapSize);
             writeError(9, "[Host Resume] Host: %d - Processing host's user resume map: %s", psHost->iId, szUserMap);
@@ -8875,22 +8875,22 @@ signed int startServerThreadPool(struct __sAudit *_psAudit)
 
               else
               {
-                return_value_strstr$10=strstr(szResumeMap, szTmp);
-                if(!(return_value_strstr$10 == ((char *)NULL)))
+                return_value_strstr_10=strstr(szResumeMap, szTmp);
+                if(!(return_value_strstr_10 == ((char *)NULL)))
                   writeError(9, "[User Resume] Adding user: %d (user was located in resume map)", psUser->iId);
 
                 else
                 {
-                  return_value_strstr$7=strstr(szResumeMap, szTmp1);
-                  if(!(return_value_strstr$7 == ((char *)NULL)))
-                    tmp_if_expr$9 = (_Bool)1;
+                  return_value_strstr_7=strstr(szResumeMap, szTmp1);
+                  if(!(return_value_strstr_7 == ((char *)NULL)))
+                    tmp_if_expr_9 = (_Bool)1;
 
                   else
                   {
-                    return_value_strstr$8=strstr(szResumeMap, szTmp2);
-                    tmp_if_expr$9 = return_value_strstr$8 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                    return_value_strstr_8=strstr(szResumeMap, szTmp2);
+                    tmp_if_expr_9 = return_value_strstr_8 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$9)
+                  if(tmp_if_expr_9)
                   {
                     writeError(9, "[User Resume] Adding user: %d (user was located in resume map and identified as first untouched account)", psUser->iId);
                     nFirstNewUserFound = 1;
@@ -8909,8 +8909,8 @@ signed int startServerThreadPool(struct __sAudit *_psAudit)
 
           else
           {
-            return_value_strstr$11=strstr(_psAudit->pOptResume, szTmp);
-            if(!(return_value_strstr$11 == ((char *)NULL)))
+            return_value_strstr_11=strstr(_psAudit->pOptResume, szTmp);
+            if(!(return_value_strstr_11 == ((char *)NULL)))
             {
               writeError(9, "[Host Resume] Adding host: %d (host was located in resume map and identified as first untouched system)", psHost->iId);
               nFirstNewHostFound = 1;
@@ -8929,13 +8929,13 @@ signed int startServerThreadPool(struct __sAudit *_psAudit)
       if(!(nAddHost == 0))
       {
         writeError(8, "adding new server (%d) to queue", iServerId);
-        signed int return_value_pthread_mutex_init$14;
-        return_value_pthread_mutex_init$14=pthread_mutex_init(&psServer[(signed long int)iServerId].ptmMutex, (const union anonymous$14 *)(void *)0);
-        if(!(return_value_pthread_mutex_init$14 == 0))
+        signed int return_value_pthread_mutex_init_14;
+        return_value_pthread_mutex_init_14=pthread_mutex_init(&psServer[(signed long int)iServerId].ptmMutex, (const union anonymous_14 *)(void *)0);
+        if(!(return_value_pthread_mutex_init_14 == 0))
         {
-          return_value___errno_location$12=__errno_location();
-          return_value_strerror$13=strerror(*return_value___errno_location$12);
-          writeError(0, "Server (%d) mutex initialization failed - %s\n", iServerId, return_value_strerror$13);
+          return_value___errno_location_12=__errno_location();
+          return_value_strerror_13=strerror(*return_value___errno_location_12);
+          writeError(0, "Server (%d) mutex initialization failed - %s\n", iServerId, return_value_strerror_13);
         }
 
         psServer[(signed long int)iServerId].psAudit = _psAudit;
@@ -8944,9 +8944,9 @@ signed int startServerThreadPool(struct __sAudit *_psAudit)
         psServer[(signed long int)iServerId].iLoginCnt = _psAudit->iLoginCnt;
         psServer[(signed long int)iServerId].iLoginsDone = 0;
         psServer[(signed long int)iServerId].iCredentialsMissed = 0;
-        signed int return_value_thr_pool_queue$15;
-        return_value_thr_pool_queue$15=thr_pool_queue(_psAudit->server_pool, (void *)startLoginThreadPool, (void *)&psServer[(signed long int)iServerId]);
-        if(!(return_value_thr_pool_queue$15 >= 0))
+        signed int return_value_thr_pool_queue_15;
+        return_value_thr_pool_queue_15=thr_pool_queue(_psAudit->server_pool, (void *)startLoginThreadPool, (void *)&psServer[(signed long int)iServerId]);
+        if(!(return_value_thr_pool_queue_15 >= 0))
         {
           writeError(3, "Failed to add host task to server thread pool.");
           return -1;
@@ -8963,13 +8963,13 @@ signed int startServerThreadPool(struct __sAudit *_psAudit)
     iServerId = 0;
     for( ; !(iServerId >= _psAudit->iHostCnt); iServerId = iServerId + 1)
     {
-      signed int return_value_pthread_mutex_init$18;
-      return_value_pthread_mutex_init$18=pthread_mutex_init(&psServer[(signed long int)iServerId].ptmMutex, (const union anonymous$14 *)(void *)0);
-      if(!(return_value_pthread_mutex_init$18 == 0))
+      signed int return_value_pthread_mutex_init_18;
+      return_value_pthread_mutex_init_18=pthread_mutex_init(&psServer[(signed long int)iServerId].ptmMutex, (const union anonymous_14 *)(void *)0);
+      if(!(return_value_pthread_mutex_init_18 == 0))
       {
-        return_value___errno_location$16=__errno_location();
-        return_value_strerror$17=strerror(*return_value___errno_location$16);
-        writeError(0, "Server (%d) mutex destroy call failed - %s\n", iServerId, return_value_strerror$17);
+        return_value___errno_location_16=__errno_location();
+        return_value_strerror_17=strerror(*return_value___errno_location_16);
+        writeError(0, "Server (%d) mutex destroy call failed - %s\n", iServerId, return_value_strerror_17);
       }
 
     }
@@ -8986,27 +8986,27 @@ extern struct thr_pool * thr_pool_create(unsigned int min_threads, unsigned int 
   sigfillset(&fillset);
   if(!(max_threads >= 1u) || !(max_threads >= min_threads))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct thr_pool *)(void *)0;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct thr_pool) /*304ul*/ );
-  pool = (struct thr_pool *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct thr_pool) /*304ul*/ );
+  pool = (struct thr_pool *)return_value_malloc_3;
   if(pool == ((struct thr_pool *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 12;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 12;
     return (struct thr_pool *)(void *)0;
   }
 
-  pthread_mutex_init(&pool->pool_mutex, (const union anonymous$14 *)(void *)0);
-  pthread_cond_init(&pool->pool_busycv, (const union anonymous$14 *)(void *)0);
-  pthread_cond_init(&pool->pool_workcv, (const union anonymous$14 *)(void *)0);
-  pthread_cond_init(&pool->pool_waitcv, (const union anonymous$14 *)(void *)0);
+  pthread_mutex_init(&pool->pool_mutex, (const union anonymous_14 *)(void *)0);
+  pthread_cond_init(&pool->pool_busycv, (const union anonymous_14 *)(void *)0);
+  pthread_cond_init(&pool->pool_workcv, (const union anonymous_14 *)(void *)0);
+  pthread_cond_init(&pool->pool_waitcv, (const union anonymous_14 *)(void *)0);
   pool->pool_active = (struct active *)(void *)0;
   pool->pool_head = (struct job *)(void *)0;
   pool->pool_tail = (struct job *)(void *)0;
@@ -9045,7 +9045,7 @@ extern void thr_pool_destroy(struct thr_pool *pool)
   pthread_mutex_lock(&pool->pool_mutex);
   do
   {
-    struct anonymous$6 __cancel_buf;
+    struct anonymous_6 __cancel_buf;
     void (*__cancel_routine)(void *) = (void (*)(void *))(void *)pthread_mutex_unlock;
     void *__cancel_arg = (void *)&pool->pool_mutex;
     signed int __not_first_call;
@@ -9108,14 +9108,14 @@ extern void thr_pool_destroy(struct thr_pool *pool)
 extern signed int thr_pool_queue(struct thr_pool *pool, void *func, void *arg)
 {
   struct job *job;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct job) /*24ul*/ );
-  job = (struct job *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct job) /*24ul*/ );
+  job = (struct job *)return_value_malloc_2;
   if(job == ((struct job *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 12;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 12;
     return -1;
   }
 
@@ -9129,15 +9129,15 @@ extern signed int thr_pool_queue(struct thr_pool *pool, void *func, void *arg)
   else
     pool->pool_tail->job_next = job;
   pool->pool_tail = job;
-  signed int return_value_create_worker$3;
+  signed int return_value_create_worker_3;
   if(pool->pool_idle >= 1)
     pthread_cond_signal(&pool->pool_workcv);
 
   else
     if(!(pool->pool_nthreads >= pool->pool_maximum))
     {
-      return_value_create_worker$3=create_worker(pool);
-      if(return_value_create_worker$3 == 0)
+      return_value_create_worker_3=create_worker(pool);
+      if(return_value_create_worker_3 == 0)
         pool->pool_nthreads = pool->pool_nthreads + 1;
 
     }
@@ -9153,7 +9153,7 @@ extern void thr_pool_wait(struct thr_pool *pool)
   pthread_mutex_lock(&pool->pool_mutex);
   do
   {
-    struct anonymous$6 __cancel_buf;
+    struct anonymous_6 __cancel_buf;
     void (*__cancel_routine)(void *) = (void (*)(void *))(void *)pthread_mutex_unlock;
     void *__cancel_arg = (void *)&pool->pool_mutex;
     signed int __not_first_call;
@@ -9202,9 +9202,9 @@ extern void thr_pool_wait(struct thr_pool *pool)
 static unsigned long int thread_id(void)
 {
   unsigned long int ret;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  ret = (unsigned long int)return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  ret = (unsigned long int)return_value_pthread_self_1;
   return ret;
 }
 
@@ -9254,7 +9254,7 @@ void usage()
 static void worker_cleanup(struct thr_pool *pool)
 {
   pool->pool_nthreads = pool->pool_nthreads - 1;
-  signed int return_value_create_worker$1;
+  signed int return_value_create_worker_1;
   if(!((0x02 & pool->pool_flags) == 0))
   {
     if(pool->pool_nthreads == 0)
@@ -9267,8 +9267,8 @@ static void worker_cleanup(struct thr_pool *pool)
     {
       if(!(pool->pool_nthreads >= pool->pool_maximum))
       {
-        return_value_create_worker$1=create_worker(pool);
-        if(return_value_create_worker$1 == 0)
+        return_value_create_worker_1=create_worker(pool);
+        if(return_value_create_worker_1 == 0)
           pool->pool_nthreads = pool->pool_nthreads + 1;
 
       }
@@ -9289,28 +9289,28 @@ static void * worker_thread(void *arg)
   struct active active;
   struct timespec ts;
   pthread_mutex_lock(&pool->pool_mutex);
-  _Bool tmp_if_expr$2;
-  signed int return_value_pthread_cond_timedwait$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_pthread_cond_timedwait_1;
   do
   {
-    struct anonymous$6 worker_thread$$1$$1$$__cancel_buf;
+    struct anonymous_6 worker_thread__1__1____cancel_buf;
     void (*__cancel_routine)(void *) = (void (*)(void *))(void *)worker_cleanup;
-    void *worker_thread$$1$$1$$__cancel_arg = (void *)pool;
-    signed int worker_thread$$1$$1$$__not_first_call;
-    worker_thread$$1$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)worker_thread$$1$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-    if(!((signed long int)worker_thread$$1$$1$$__not_first_call == 0l))
+    void *worker_thread__1__1____cancel_arg = (void *)pool;
+    signed int worker_thread__1__1____not_first_call;
+    worker_thread__1__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)worker_thread__1__1____cancel_buf.__cancel_jmp_buf, 0);
+    if(!((signed long int)worker_thread__1__1____not_first_call == 0l))
     {
-      __cancel_routine(worker_thread$$1$$1$$__cancel_arg);
-      __pthread_unwind_next(&worker_thread$$1$$1$$__cancel_buf);
+      __cancel_routine(worker_thread__1__1____cancel_arg);
+      __pthread_unwind_next(&worker_thread__1__1____cancel_buf);
     }
 
-    __pthread_register_cancel(&worker_thread$$1$$1$$__cancel_buf);
+    __pthread_register_cancel(&worker_thread__1__1____cancel_buf);
     do
     {
       active.active_tid=pthread_self();
       do
       {
-        pthread_sigmask(2, &fillset, (struct anonymous$5 *)(void *)0);
+        pthread_sigmask(2, &fillset, (struct anonymous_5 *)(void *)0);
         pthread_setcanceltype(0, (signed int *)(void *)0);
         pthread_setcancelstate(0, (signed int *)(void *)0);
         timedout = 0;
@@ -9331,14 +9331,14 @@ static void * worker_thread(void *arg)
             clock_gettime(0, &ts);
             ts.tv_sec = ts.tv_sec + (signed long int)pool->pool_linger;
             if(pool->pool_linger == 0u)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
             {
-              return_value_pthread_cond_timedwait$1=pthread_cond_timedwait(&pool->pool_workcv, &pool->pool_mutex, &ts);
-              tmp_if_expr$2 = return_value_pthread_cond_timedwait$1 == 110 ? (_Bool)1 : (_Bool)0;
+              return_value_pthread_cond_timedwait_1=pthread_cond_timedwait(&pool->pool_workcv, &pool->pool_mutex, &ts);
+              tmp_if_expr_2 = return_value_pthread_cond_timedwait_1 == 110 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$2)
+            if(tmp_if_expr_2)
             {
               timedout = 1;
               break;
@@ -9363,14 +9363,14 @@ static void * worker_thread(void *arg)
           active.active_next = pool->pool_active;
           pool->pool_active = &active;
           pthread_mutex_unlock(&pool->pool_mutex);
-          struct anonymous$6 __cancel_buf;
-          void (*worker_thread$$1$$1$$2$$1$$1$$2$$1$$__cancel_routine)(void *) = (void (*)(void *))(void *)job_cleanup;
+          struct anonymous_6 __cancel_buf;
+          void (*worker_thread__1__1__2__1__1__2__1____cancel_routine)(void *) = (void (*)(void *))(void *)job_cleanup;
           void *__cancel_arg = (void *)pool;
           signed int __not_first_call;
           __not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)__cancel_buf.__cancel_jmp_buf, 0);
           if(!((signed long int)__not_first_call == 0l))
           {
-            worker_thread$$1$$1$$2$$1$$1$$2$$1$$__cancel_routine(__cancel_arg);
+            worker_thread__1__1__2__1__1__2__1____cancel_routine(__cancel_arg);
             __pthread_unwind_next(&__cancel_buf);
           }
 
@@ -9378,7 +9378,7 @@ static void * worker_thread(void *arg)
           free((void *)job);
           func(arg);
           __pthread_unregister_cancel(&__cancel_buf);
-          worker_thread$$1$$1$$2$$1$$1$$2$$1$$__cancel_routine(__cancel_arg);
+          worker_thread__1__1__2__1__1__2__1____cancel_routine(__cancel_arg);
         }
 
         if(!(timedout == 0))
@@ -9395,8 +9395,8 @@ static void * worker_thread(void *arg)
       ;
     }
     while((_Bool)0);
-    __pthread_unregister_cancel(&worker_thread$$1$$1$$__cancel_buf);
-    __cancel_routine(worker_thread$$1$$1$$__cancel_arg);
+    __pthread_unregister_cancel(&worker_thread__1__1____cancel_buf);
+    __cancel_routine(worker_thread__1__1____cancel_arg);
   }
   while((_Bool)0);
   return (void *)0;
@@ -9412,11 +9412,11 @@ void writeError(signed int iLevel, char *pMsg, ...)
   char temp[6l];
   unsigned char cTemp;
   unsigned int i = (unsigned int)0;
-  unsigned long int return_value_pthread_self$1;
-  unsigned long int return_value_pthread_self$2;
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$4;
-  unsigned long int return_value_pthread_self$5;
+  unsigned long int return_value_pthread_self_1;
+  unsigned long int return_value_pthread_self_2;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_4;
+  unsigned long int return_value_pthread_self_5;
   if(pMsg == ((char *)NULL))
     fprintf(stderr, "CRITICAL: writeError() called with NULL message.\n");
 
@@ -9480,32 +9480,32 @@ void writeError(signed int iLevel, char *pMsg, ...)
         }
         case 7:
         {
-          return_value_pthread_self$1=pthread_self();
-          fprintf(stderr, "DEBUG [%X]: ", (signed int)return_value_pthread_self$1);
+          return_value_pthread_self_1=pthread_self();
+          fprintf(stderr, "DEBUG [%X]: ", (signed int)return_value_pthread_self_1);
           break;
         }
         case 8:
         {
-          return_value_pthread_self$2=pthread_self();
-          fprintf(stderr, "DEBUG AUDIT [%X]: ", (signed int)return_value_pthread_self$2);
+          return_value_pthread_self_2=pthread_self();
+          fprintf(stderr, "DEBUG AUDIT [%X]: ", (signed int)return_value_pthread_self_2);
           break;
         }
         case 9:
         {
-          return_value_pthread_self$3=pthread_self();
-          fprintf(stderr, "DEBUG SERVER [%X]: ", (signed int)return_value_pthread_self$3);
+          return_value_pthread_self_3=pthread_self();
+          fprintf(stderr, "DEBUG SERVER [%X]: ", (signed int)return_value_pthread_self_3);
           break;
         }
         case 10:
         {
-          return_value_pthread_self$4=pthread_self();
-          fprintf(stderr, "DEBUG MODULE [%X]: ", (signed int)return_value_pthread_self$4);
+          return_value_pthread_self_4=pthread_self();
+          fprintf(stderr, "DEBUG MODULE [%X]: ", (signed int)return_value_pthread_self_4);
           break;
         }
         default:
         {
-          return_value_pthread_self$5=pthread_self();
-          fprintf(stdout, "UNKNOWN ERROR [%X]: ", (signed int)return_value_pthread_self$5);
+          return_value_pthread_self_5=pthread_self();
+          fprintf(stdout, "UNKNOWN ERROR [%X]: ", (signed int)return_value_pthread_self_5);
         }
       }
       fprintf(stderr, "%s\n", (const void *)bufOut);

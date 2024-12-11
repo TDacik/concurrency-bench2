@@ -1,60 +1,60 @@
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visual'||U64'visualid'||S32'screen'||S32'depth'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'colormap_size'||S32'bits_per_rgb'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visual'||U64'visualid'||S32'screen'||S32'depth'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'colormap_size'||S32'bits_per_rgb'|]
 // file /usr/include/X11/Xutil.h line 287
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{V}$V$'pointer'|]
+// tag-#anon#ST[*{V}_V_'pointer'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 99
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[U32'sequence'|]
 // file /usr/include/xcb/xcb.h line 187
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[U8'response_type'||U8'error_code'||U16'sequence'||U32'resource_id'||U16'minor_code'||U8'major_code'||U8'pad0'||ARR5{U32}$U32$'pad'||U32'full_sequence'|]
+// tag-#anon#ST[U8'response_type'||U8'error_code'||U16'sequence'||U32'resource_id'||U16'minor_code'||U8'major_code'||U8'pad0'||ARR5{U32}_U32_'pad'||U32'full_sequence'|]
 // file /usr/include/xcb/xcb.h line 170
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -342,7 +342,7 @@ struct waffle_x11_egl_window;
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.h line 43
 struct wayland_display;
 
-// tag-wayland_platform$link1
+// tag-wayland_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_platform.h line 40
 struct wayland_platform;
 
@@ -418,17 +418,17 @@ struct wegl_display;
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 33
 struct wegl_platform;
 
-// tag-wegl_platform$link1
+// tag-wegl_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 33
-struct wegl_platform$0;
+struct wegl_platform_0;
 
-// tag-wegl_platform$link2
+// tag-wegl_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 33
-struct wegl_platform$1;
+struct wegl_platform_1;
 
-// tag-wegl_platform$link3
+// tag-wegl_platform_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 33
-struct wegl_platform$2;
+struct wegl_platform_2;
 
 // tag-wegl_window
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_window.h line 38
@@ -440,15 +440,15 @@ struct wgbm_display;
 
 // tag-wgbm_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 39
-struct wgbm_platform$0;
+struct wgbm_platform_0;
 
-// tag-wgbm_platform$link1
+// tag-wgbm_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 39
 struct wgbm_platform;
 
-// tag-wgbm_platform$link2
+// tag-wgbm_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 39
-struct wgbm_platform$1;
+struct wgbm_platform_1;
 
 // tag-wgbm_window
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_window.h line 35
@@ -576,7 +576,7 @@ struct xcb_connection_t * XGetXCBConnection(struct _XDisplay *);
 extern struct _XDisplay * XOpenDisplay(const char *);
 // XSetErrorHandler
 // file /usr/include/X11/Xlib.h line 1848
-extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous$6 *)))(struct _XDisplay *, struct anonymous$6 *);
+extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous_6 *)))(struct _XDisplay *, struct anonymous_6 *);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -622,9 +622,9 @@ void _expect_any(const char * const function, const char * const parameter, cons
 // _expect_check
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 746
 void _expect_check(const char * const function, const char * const parameter, const char * const file, const signed int line, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const unsigned long long int check_data, struct CheckParameterEvent * const event, const signed int count);
-// _expect_check::check_function$object
+// _expect_check::check_function_object
 //
-signed int check_function$object(const unsigned long long int, const unsigned long long int);
+signed int check_function_object(const unsigned long long int, const unsigned long long int);
 // _expect_in_range
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1047
 void _expect_in_range(const char * const function, const char * const parameter, const char * const file, const signed int line, const unsigned long long int minimum, const unsigned long long int maximum, const signed int count);
@@ -664,9 +664,9 @@ unsigned long long int _mock(const char * const function, const char * const fil
 // _run_test
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1646
 signed int _run_test(const char * const function_name, void (* const Function)(void **), void ** const volatile state, const enum UnitTestFunctionType function_type, const void * const heap_check_point);
-// _run_test::Function$object
+// _run_test::Function_object
 //
-void Function$object(void **);
+void Function_object(void **);
 // _run_tests
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/include/cmocka.h line 1726
 signed int _run_tests(const struct UnitTest * const tests, const unsigned long int number_of_tests);
@@ -709,9 +709,9 @@ static _Bool bind_api(struct wegl_platform *plat, signed int waffle_context_api)
 // call_once
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads.h line 147
 void call_once(signed int *flag, void (*func)(void));
-// call_once::func$object
+// call_once::func_object
 //
-void func$object(void);
+void func_object(void);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -771,22 +771,22 @@ static void * choose_real_config(struct wegl_display *dpy, struct wcore_config_a
 extern signed int close(signed int);
 // cnd_broadcast
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 83
-signed int cnd_broadcast(union anonymous$2 *cond);
+signed int cnd_broadcast(union anonymous_2 *cond);
 // cnd_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 91
-void cnd_destroy(union anonymous$2 *cond);
+void cnd_destroy(union anonymous_2 *cond);
 // cnd_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 98
-signed int cnd_init(union anonymous$2 *cond);
+signed int cnd_init(union anonymous_2 *cond);
 // cnd_signal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 106
-signed int cnd_signal(union anonymous$2 *cond);
+signed int cnd_signal(union anonymous_2 *cond);
 // cnd_timedwait
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 114
-signed int cnd_timedwait(union anonymous$2 *cond, union anonymous *mtx, const struct xtime *xt);
+signed int cnd_timedwait(union anonymous_2 *cond, union anonymous *mtx, const struct xtime *xt);
 // cnd_wait
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 126
-signed int cnd_wait(union anonymous$2 *cond, union anonymous *mtx);
+signed int cnd_wait(union anonymous_2 *cond, union anonymous *mtx);
 // create_real_context
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.c line 64
 static void * create_real_context(struct wegl_config *config, void *share_ctx);
@@ -817,21 +817,21 @@ static void exit_test(const signed int quit_application);
 // expect_memory_setup
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1161
 static void expect_memory_setup(const char * const function, const char * const parameter, const char * const file, const signed int line, const void * const memory, const unsigned long int size, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const signed int count);
-// expect_memory_setup::check_function$object
+// expect_memory_setup::check_function_object
 //
-signed int check_function$object(const unsigned long long int, const unsigned long long int);
+signed int check_function_object(const unsigned long long int, const unsigned long long int);
 // expect_range
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1031
 static void expect_range(const char * const function, const char * const parameter, const char * const file, const signed int line, const unsigned long long int minimum, const unsigned long long int maximum, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const signed int count);
-// expect_range::check_function$object
+// expect_range::check_function_object
 //
-signed int check_function$object(const unsigned long long int, const unsigned long long int);
+signed int check_function_object(const unsigned long long int, const unsigned long long int);
 // expect_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 962
 static void expect_set(const char * const function, const char * const parameter, const char * const file, const signed int line, const unsigned long long int *values, const unsigned long int number_of_values, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const signed int count);
-// expect_set::check_function$object
+// expect_set::check_function_object
 //
-signed int check_function$object(const unsigned long long int, const unsigned long long int);
+signed int check_function_object(const unsigned long long int, const unsigned long long int);
 // fail_if_blocks_allocated
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1541
 static void fail_if_blocks_allocated(const struct ListNode * const check_point, const char * const test_name);
@@ -874,12 +874,12 @@ extern char * getenv(const char *);
 // glx_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_config.h line 48
 static inline struct glx_config * glx_config(struct wcore_config *wcore_self);
-// glx_config$link1
+// glx_config_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_config.h line 48
-static inline struct glx_config * glx_config$link1(struct wcore_config *wcore_self$link1);
-// glx_config$link2
+static inline struct glx_config * glx_config_link1(struct wcore_config *wcore_self_link1);
+// glx_config_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_config.h line 48
-static inline struct glx_config * glx_config$link2(struct wcore_config *wcore_self$link2);
+static inline struct glx_config * glx_config_link2(struct wcore_config *wcore_self_link2);
 // glx_config_check_context_attrs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_config.c line 54
 static _Bool glx_config_check_context_attrs(struct glx_display *dpy, struct wcore_config_attrs *attrs);
@@ -895,9 +895,9 @@ union waffle_native_config * glx_config_get_native(struct wcore_config *wc_self)
 // glx_context
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_context.h line 43
 static inline struct glx_context * glx_context(struct wcore_context *wcore_self);
-// glx_context$link1
+// glx_context_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_context.h line 43
-static inline struct glx_context * glx_context$link1(struct wcore_context *wcore_self$link1);
+static inline struct glx_context * glx_context_link1(struct wcore_context *wcore_self_link1);
 // glx_context_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_context.c line 203
 struct wcore_context * glx_context_create(struct wcore_platform *wc_plat, struct wcore_config *wc_config, struct wcore_context *wc_share_ctx);
@@ -916,18 +916,18 @@ union waffle_native_context * glx_context_get_native(struct wcore_context *wc_se
 // glx_display
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
 static inline struct glx_display * glx_display(struct wcore_display *wcore_self);
-// glx_display$link1
+// glx_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link1(struct wcore_display *wcore_self$link1);
-// glx_display$link2
+static inline struct glx_display * glx_display_link1(struct wcore_display *wcore_self_link1);
+// glx_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link2(struct wcore_display *wcore_self$link2);
-// glx_display$link3
+static inline struct glx_display * glx_display_link2(struct wcore_display *wcore_self_link2);
+// glx_display_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link3(struct wcore_display *wcore_self$link3);
-// glx_display$link4
+static inline struct glx_display * glx_display_link3(struct wcore_display *wcore_self_link3);
+// glx_display_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link4(struct wcore_display *wcore_self$link4);
+static inline struct glx_display * glx_display_link4(struct wcore_display *wcore_self_link4);
 // glx_display_connect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.c line 86
 struct wcore_display * glx_display_connect(struct wcore_platform *wc_plat, const char *name);
@@ -946,18 +946,18 @@ _Bool glx_display_supports_context_api(struct wcore_display *wc_self, signed int
 // glx_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
 static inline struct glx_platform * glx_platform(struct wcore_platform *wcore_self);
-// glx_platform$link1
+// glx_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link1(struct wcore_platform *wcore_self$link1);
-// glx_platform$link2
+static inline struct glx_platform * glx_platform_link1(struct wcore_platform *wcore_self_link1);
+// glx_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link2(struct wcore_platform *wcore_self$link2);
-// glx_platform$link3
+static inline struct glx_platform * glx_platform_link2(struct wcore_platform *wcore_self_link2);
+// glx_platform_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link3(struct wcore_platform *wcore_self$link3);
-// glx_platform$link4
+static inline struct glx_platform * glx_platform_link3(struct wcore_platform *wcore_self_link3);
+// glx_platform_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link4(struct wcore_platform *wcore_self$link4);
+static inline struct glx_platform * glx_platform_link4(struct wcore_platform *wcore_self_link4);
 // glx_platform_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_init.c line 33
 struct wcore_platform * glx_platform_create(void);
@@ -979,9 +979,9 @@ static _Bool glx_platform_make_current(struct wcore_platform *wc_self, struct wc
 // glx_window
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_window.h line 42
 static inline struct glx_window * glx_window(struct wcore_window *wcore_self);
-// glx_window$link1
+// glx_window_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_window.h line 42
-static inline struct glx_window * glx_window$link1(struct wcore_window *wcore_self$link1);
+static inline struct glx_window * glx_window_link1(struct wcore_window *wcore_self_link1);
 // glx_window_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_window.h line 47
 struct wcore_window * glx_window_create(struct wcore_platform *wc_plat, struct wcore_config *wc_config, signed int width, signed int height);
@@ -1054,33 +1054,33 @@ static signed int list_empty(const struct ListNode * const head);
 // list_find
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 464
 static signed int list_find(struct ListNode * const head, const void *value, signed int (* const equal_func)(const void *, const void *), struct ListNode **output);
-// list_find::equal_func$object
+// list_find::equal_func_object
 //
-signed int equal_func$object(const void *, const void *);
+signed int equal_func_object(const void *, const void *);
 // list_first
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 478
 static signed int list_first(struct ListNode * const head, struct ListNode **output);
 // list_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 442
 static struct ListNode * list_free(struct ListNode * const head, void (* const cleanup_value)(const void *, void *), void * const cleanup_value_data);
-// list_free::cleanup_value$object
+// list_free::cleanup_value_object
 //
-void cleanup_value$object(const void *, void *);
+void cleanup_value_object(const void *, void *);
 // list_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 377
 static struct ListNode * list_initialize(struct ListNode * const node);
 // list_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 414
 static struct ListNode * list_remove(struct ListNode * const node, void (* const cleanup_value)(const void *, void *), void * const cleanup_value_data);
-// list_remove::cleanup_value$object
+// list_remove::cleanup_value_object
 //
-void cleanup_value$object(const void *, void *);
+void cleanup_value_object(const void *, void *);
 // list_remove_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 428
 static void list_remove_free(struct ListNode * const node, void (* const cleanup_value)(const void *, void *), void * const cleanup_value_data);
-// list_remove_free::cleanup_value$object
+// list_remove_free::cleanup_value_object
 //
-void cleanup_value$object(const void *, void *);
+void cleanup_value_object(const void *, void *);
 // longjmp
 // file /usr/include/setjmp.h line 74
 extern void longjmp(struct __jmp_buf_tag *, signed int);
@@ -1155,22 +1155,22 @@ void print_message(const char * const format, ...);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$2 *);
+extern signed int pthread_cond_broadcast(union anonymous_2 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$2 *);
+extern signed int pthread_cond_destroy(union anonymous_2 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous$3 *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous_3 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$2 *, union anonymous *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_2 *, union anonymous *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1200,7 +1200,7 @@ extern signed int pthread_key_delete(unsigned int);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1215,13 +1215,13 @@ extern signed int pthread_mutex_trylock(union anonymous *);
 extern signed int pthread_mutex_unlock(union anonymous *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$3 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_3 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$3 *);
+extern signed int pthread_mutexattr_init(union anonymous_3 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$3 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_3 *, signed int);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -1492,9 +1492,9 @@ static void test_wcore_config_attrs_sample_buffers_is_bad(void **state);
 // thrd_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 220
 signed int thrd_create(unsigned long int *thr, signed int (*func)(void *), void *arg);
-// thrd_create::func$object
+// thrd_create::func_object
 //
-signed int func$object(void *);
+signed int func_object(void *);
 // thrd_current
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 236
 unsigned long int thrd_current(void);
@@ -1522,9 +1522,9 @@ extern signed long int time(signed long int *);
 // tss_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads.h line 172
 signed int tss_create(unsigned int *key, void (*dtor)(void *));
-// tss_create::dtor$object
+// tss_create::dtor_object
 //
-void dtor$object(void *);
+void dtor_object(void *);
 // tss_delete
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 296
 void tss_delete(unsigned int key);
@@ -1714,12 +1714,12 @@ static union waffle_native_context * wayland_context_get_native(struct wcore_con
 // wayland_display
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.h line 53
 static inline struct wayland_display * wayland_display(struct wcore_display *wc_self);
-// wayland_display$link1
+// wayland_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.h line 53
-static inline struct wayland_display * wayland_display$link1(struct wcore_display *wc_self$link1);
-// wayland_display$link2
+static inline struct wayland_display * wayland_display_link1(struct wcore_display *wc_self_link1);
+// wayland_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.h line 53
-static inline struct wayland_display * wayland_display$link2(struct wcore_display *wc_self$link2);
+static inline struct wayland_display * wayland_display_link2(struct wcore_display *wc_self_link2);
 // wayland_display_connect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.c line 92
 struct wcore_display * wayland_display_connect(struct wcore_platform *wc_plat, const char *name);
@@ -1743,7 +1743,7 @@ static _Bool wayland_dl_can_open(struct wcore_platform *wc_self, signed int waff
 static void * wayland_dl_sym(struct wcore_platform *wc_self, signed int waffle_dl, const char *name);
 // wayland_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_platform.h line 45
-static inline struct wayland_platform * wayland_platform(struct wegl_platform$0 *wegl_self);
+static inline struct wayland_platform * wayland_platform(struct wegl_platform_0 *wegl_self);
 // wayland_platform_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_init.c line 34
 struct wcore_platform * wayland_platform_create(void);
@@ -1789,12 +1789,12 @@ void * wcore_calloc(unsigned long int size);
 // wcore_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 54
 static inline struct wcore_config * wcore_config(struct waffle_config *cfg);
-// wcore_config$link1
+// wcore_config_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 54
-static inline struct wcore_config * wcore_config$link1(struct waffle_config *cfg$link1);
-// wcore_config$link2
+static inline struct wcore_config * wcore_config_link1(struct waffle_config *cfg_link1);
+// wcore_config_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 54
-static inline struct wcore_config * wcore_config$link2(struct waffle_config *cfg$link2);
+static inline struct wcore_config * wcore_config_link2(struct waffle_config *cfg_link2);
 // wcore_config_attrs_parse
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.h line 59
 _Bool wcore_config_attrs_parse(const signed int *waffle_attrib_list, struct wcore_config_attrs *attrs);
@@ -1816,42 +1816,42 @@ _Bool wcore_config_attrs_version_lt(struct wcore_config_attrs *attrs, signed int
 // wcore_config_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 59
 static inline _Bool wcore_config_init(struct wcore_config *self, struct wcore_display *display, struct wcore_config_attrs *attrs);
-// wcore_config_init$link1
+// wcore_config_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 59
-static inline _Bool wcore_config_init$link1(struct wcore_config *self$link1, struct wcore_display *display$link1, struct wcore_config_attrs *attrs$link1);
+static inline _Bool wcore_config_init_link1(struct wcore_config *self_link1, struct wcore_display *display_link1, struct wcore_config_attrs *attrs_link1);
 // wcore_config_teardown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 74
 static inline _Bool wcore_config_teardown(struct wcore_config *self);
-// wcore_config_teardown$link1
+// wcore_config_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 74
-static inline _Bool wcore_config_teardown$link1(struct wcore_config *self$link1);
+static inline _Bool wcore_config_teardown_link1(struct wcore_config *self_link1);
 // wcore_context
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 52
 static inline struct wcore_context * wcore_context(struct waffle_context *ctx);
-// wcore_context$link1
+// wcore_context_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 52
-static inline struct wcore_context * wcore_context$link1(struct waffle_context *ctx$link1);
+static inline struct wcore_context * wcore_context_link1(struct waffle_context *ctx_link1);
 // wcore_context_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 57
 static inline _Bool wcore_context_init(struct wcore_context *self, struct wcore_config *config);
-// wcore_context_init$link1
+// wcore_context_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 57
-static inline _Bool wcore_context_init$link1(struct wcore_context *self$link1, struct wcore_config *config$link1);
+static inline _Bool wcore_context_init_link1(struct wcore_context *self_link1, struct wcore_config *config_link1);
 // wcore_context_teardown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 70
 static inline _Bool wcore_context_teardown(struct wcore_context *self);
-// wcore_context_teardown$link1
+// wcore_context_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 70
-static inline _Bool wcore_context_teardown$link1(struct wcore_context *self$link1);
+static inline _Bool wcore_context_teardown_link1(struct wcore_context *self_link1);
 // wcore_display
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_display.h line 49
 static inline struct wcore_display * wcore_display(struct waffle_display *dpy);
-// wcore_display$link1
+// wcore_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_display.h line 49
-static inline struct wcore_display * wcore_display$link1(struct waffle_display *dpy$link1);
-// wcore_display$link2
+static inline struct wcore_display * wcore_display_link1(struct waffle_display *dpy_link1);
+// wcore_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_display.h line 49
-static inline struct wcore_display * wcore_display$link2(struct waffle_display *dpy$link2);
+static inline struct wcore_display * wcore_display_link2(struct waffle_display *dpy_link2);
 // wcore_display_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_display.c line 33
 _Bool wcore_display_init(struct wcore_display *self, struct wcore_platform *platform);
@@ -1891,15 +1891,15 @@ void * wcore_malloc(unsigned long int size);
 // wcore_platform_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_platform.h line 144
 static inline _Bool wcore_platform_init(struct wcore_platform *self);
-// wcore_platform_init$link1
+// wcore_platform_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_platform.h line 144
-static inline _Bool wcore_platform_init$link1(struct wcore_platform *self$link1);
+static inline _Bool wcore_platform_init_link1(struct wcore_platform *self_link1);
 // wcore_platform_teardown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_platform.h line 151
 static inline _Bool wcore_platform_teardown(struct wcore_platform *self);
-// wcore_platform_teardown$link1
+// wcore_platform_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_platform.h line 151
-static inline _Bool wcore_platform_teardown$link1(struct wcore_platform *self$link1);
+static inline _Bool wcore_platform_teardown_link1(struct wcore_platform *self_link1);
 // wcore_tinfo_abort_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_tinfo.c line 66
 static void wcore_tinfo_abort_init(void);
@@ -1918,42 +1918,42 @@ static void wcore_tinfo_key_dtor(void *args);
 // wcore_window
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 45
 static inline struct wcore_window * wcore_window(struct waffle_window *win);
-// wcore_window$link1
+// wcore_window_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 45
-static inline struct wcore_window * wcore_window$link1(struct waffle_window *win$link1);
+static inline struct wcore_window * wcore_window_link1(struct waffle_window *win_link1);
 // wcore_window_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 50
 static inline _Bool wcore_window_init(struct wcore_window *self, struct wcore_config *config);
-// wcore_window_init$link1
+// wcore_window_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 50
-static inline _Bool wcore_window_init$link1(struct wcore_window *self$link1, struct wcore_config *config$link1);
+static inline _Bool wcore_window_init_link1(struct wcore_window *self_link1, struct wcore_config *config_link1);
 // wcore_window_teardown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 63
 static inline _Bool wcore_window_teardown(struct wcore_window *self);
-// wcore_window_teardown$link1
+// wcore_window_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 63
-static inline _Bool wcore_window_teardown$link1(struct wcore_window *self$link1);
+static inline _Bool wcore_window_teardown_link1(struct wcore_window *self_link1);
 // wegl_config
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
 static inline struct wegl_config * wegl_config(struct wcore_config *wcore_self);
-// wegl_config$link1
+// wegl_config_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link1(struct wcore_config *wcore_self$link1);
-// wegl_config$link2
+static inline struct wegl_config * wegl_config_link1(struct wcore_config *wcore_self_link1);
+// wegl_config_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link2(struct wcore_config *wcore_self$link2);
-// wegl_config$link3
+static inline struct wegl_config * wegl_config_link2(struct wcore_config *wcore_self_link2);
+// wegl_config_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link3(struct wcore_config *wcore_self$link3);
-// wegl_config$link4
+static inline struct wegl_config * wegl_config_link3(struct wcore_config *wcore_self_link3);
+// wegl_config_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link4(struct wcore_config *wcore_self$link4);
-// wegl_config$link5
+static inline struct wegl_config * wegl_config_link4(struct wcore_config *wcore_self_link4);
+// wegl_config_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link5(struct wcore_config *wcore_self$link5);
-// wegl_config$link6
+static inline struct wegl_config * wegl_config_link5(struct wcore_config *wcore_self_link5);
+// wegl_config_link6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link6(struct wcore_config *wcore_self$link6);
+static inline struct wegl_config * wegl_config_link6(struct wcore_config *wcore_self_link6);
 // wegl_config_choose
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.c line 210
 struct wcore_config * wegl_config_choose(struct wcore_platform *wc_plat, struct wcore_display *wc_dpy, struct wcore_config_attrs *attrs);
@@ -1963,18 +1963,18 @@ _Bool wegl_config_destroy(struct wcore_config *wc_config);
 // wegl_context
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
 static inline struct wegl_context * wegl_context(struct wcore_context *wcore_self);
-// wegl_context$link1
+// wegl_context_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link1(struct wcore_context *wcore_self$link1);
-// wegl_context$link2
+static inline struct wegl_context * wegl_context_link1(struct wcore_context *wcore_self_link1);
+// wegl_context_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link2(struct wcore_context *wcore_self$link2);
-// wegl_context$link3
+static inline struct wegl_context * wegl_context_link2(struct wcore_context *wcore_self_link2);
+// wegl_context_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link3(struct wcore_context *wcore_self$link3);
-// wegl_context$link4
+static inline struct wegl_context * wegl_context_link3(struct wcore_context *wcore_self_link3);
+// wegl_context_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link4(struct wcore_context *wcore_self$link4);
+static inline struct wegl_context * wegl_context_link4(struct wcore_context *wcore_self_link4);
 // wegl_context_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.c line 160
 struct wcore_context * wegl_context_create(struct wcore_platform *wc_plat, struct wcore_config *wc_config, struct wcore_context *wc_share_ctx);
@@ -1984,18 +1984,18 @@ _Bool wegl_context_destroy(struct wcore_context *wc_ctx);
 // wegl_display
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
 static inline struct wegl_display * wegl_display(struct wcore_display *wcore_self);
-// wegl_display$link1
+// wegl_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link1(struct wcore_display *wcore_self$link1);
-// wegl_display$link2
+static inline struct wegl_display * wegl_display_link1(struct wcore_display *wcore_self_link1);
+// wegl_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link2(struct wcore_display *wcore_self$link2);
-// wegl_display$link3
+static inline struct wegl_display * wegl_display_link2(struct wcore_display *wcore_self_link2);
+// wegl_display_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link3(struct wcore_display *wcore_self$link3);
-// wegl_display$link4
+static inline struct wegl_display * wegl_display_link3(struct wcore_display *wcore_self_link3);
+// wegl_display_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link4(struct wcore_display *wcore_self$link4);
+static inline struct wegl_display * wegl_display_link4(struct wcore_display *wcore_self_link4);
 // wegl_display_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.c line 60
 _Bool wegl_display_init(struct wegl_display *dpy, struct wcore_platform *wc_plat, signed long int native_display);
@@ -2011,48 +2011,48 @@ void wegl_emit_error(struct wegl_platform *plat, const char *egl_func_call);
 // wegl_get_proc_address
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_util.c line 95
 void * wegl_get_proc_address(struct wcore_platform *wc_self, const char *name);
-// wegl_get_proc_address::$tmp::return_value$object
+// wegl_get_proc_address::_tmp::return_value_object
 //
-void return_value$object(void);
+void return_value_object(void);
 // wegl_make_current
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_util.c line 73
 _Bool wegl_make_current(struct wcore_platform *wc_plat, struct wcore_display *wc_dpy, struct wcore_window *wc_window, struct wcore_context *wc_ctx);
 // wegl_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
 static inline struct wegl_platform * wegl_platform(struct wcore_platform *wcore_self);
-// wegl_platform$link1
+// wegl_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link1(struct wcore_platform *wcore_self$link1);
-// wegl_platform$link10
+static inline struct wegl_platform * wegl_platform_link1(struct wcore_platform *wcore_self_link1);
+// wegl_platform_link10
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link10(struct wcore_platform *wcore_self$link10);
-// wegl_platform$link11
+static inline struct wegl_platform * wegl_platform_link10(struct wcore_platform *wcore_self_link10);
+// wegl_platform_link11
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform$2 * wegl_platform$link11(struct wcore_platform *wcore_self$link11);
-// wegl_platform$link2
+static inline struct wegl_platform_2 * wegl_platform_link11(struct wcore_platform *wcore_self_link11);
+// wegl_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link2(struct wcore_platform *wcore_self$link2);
-// wegl_platform$link3
+static inline struct wegl_platform * wegl_platform_link2(struct wcore_platform *wcore_self_link2);
+// wegl_platform_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link3(struct wcore_platform *wcore_self$link3);
-// wegl_platform$link4
+static inline struct wegl_platform * wegl_platform_link3(struct wcore_platform *wcore_self_link3);
+// wegl_platform_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link4(struct wcore_platform *wcore_self$link4);
-// wegl_platform$link5
+static inline struct wegl_platform * wegl_platform_link4(struct wcore_platform *wcore_self_link4);
+// wegl_platform_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform$0 * wegl_platform$link5(struct wcore_platform *wcore_self$link5);
-// wegl_platform$link6
+static inline struct wegl_platform_0 * wegl_platform_link5(struct wcore_platform *wcore_self_link5);
+// wegl_platform_link6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link6(struct wcore_platform *wcore_self$link6);
-// wegl_platform$link7
+static inline struct wegl_platform * wegl_platform_link6(struct wcore_platform *wcore_self_link6);
+// wegl_platform_link7
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link7(struct wcore_platform *wcore_self$link7);
-// wegl_platform$link8
+static inline struct wegl_platform * wegl_platform_link7(struct wcore_platform *wcore_self_link7);
+// wegl_platform_link8
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link8(struct wcore_platform *wcore_self$link8);
-// wegl_platform$link9
+static inline struct wegl_platform * wegl_platform_link8(struct wcore_platform *wcore_self_link8);
+// wegl_platform_link9
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform$1 * wegl_platform$link9(struct wcore_platform *wcore_self$link9);
+static inline struct wegl_platform_1 * wegl_platform_link9(struct wcore_platform *wcore_self_link9);
 // wegl_platform_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.c line 58
 _Bool wegl_platform_init(struct wegl_platform *self);
@@ -2062,9 +2062,9 @@ _Bool wegl_platform_teardown(struct wegl_platform *self);
 // wegl_window
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_window.h line 43
 static inline struct wegl_window * wegl_window(struct wcore_window *wcore_self);
-// wegl_window$link1
+// wegl_window_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_window.h line 43
-static inline struct wegl_window * wegl_window$link1(struct wcore_window *wcore_self$link1);
+static inline struct wegl_window * wegl_window_link1(struct wcore_window *wcore_self_link1);
 // wegl_window_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_window.c line 36
 _Bool wegl_window_init(struct wegl_window *window, struct wcore_config *wc_config, signed long int native_window);
@@ -2089,15 +2089,15 @@ static union waffle_native_context * wgbm_context_get_native(struct wcore_contex
 // wgbm_display
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
 static inline struct wgbm_display * wgbm_display(struct wcore_display *wc_self);
-// wgbm_display$link1
+// wgbm_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
-static inline struct wgbm_display * wgbm_display$link1(struct wcore_display *wc_self$link1);
-// wgbm_display$link2
+static inline struct wgbm_display * wgbm_display_link1(struct wcore_display *wc_self_link1);
+// wgbm_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
-static inline struct wgbm_display * wgbm_display$link2(struct wcore_display *wc_self$link2);
-// wgbm_display$link3
+static inline struct wgbm_display * wgbm_display_link2(struct wcore_display *wc_self_link2);
+// wgbm_display_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
-static inline struct wgbm_display * wgbm_display$link3(struct wcore_display *wc_self$link3);
+static inline struct wgbm_display * wgbm_display_link3(struct wcore_display *wc_self_link3);
 // wgbm_display_connect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.c line 119
 struct wcore_display * wgbm_display_connect(struct wcore_platform *wc_plat, const char *name);
@@ -2124,13 +2124,13 @@ static signed int wgbm_get_default_fd(void);
 static signed int wgbm_get_default_fd_for_pattern(const char *pattern);
 // wgbm_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 60
-static inline struct wgbm_platform * wgbm_platform(struct wegl_platform$1 *wegl_self);
-// wgbm_platform$link1
+static inline struct wgbm_platform * wgbm_platform(struct wegl_platform_1 *wegl_self);
+// wgbm_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 60
-static inline struct wgbm_platform$0 * wgbm_platform$link1(struct wegl_platform *wegl_self$link1);
-// wgbm_platform$link2
+static inline struct wgbm_platform_0 * wgbm_platform_link1(struct wegl_platform *wegl_self_link1);
+// wgbm_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 60
-static inline struct wgbm_platform$1 * wgbm_platform$link2(struct wegl_platform$2 *wegl_self$link2);
+static inline struct wgbm_platform_1 * wgbm_platform_link2(struct wegl_platform_2 *wegl_self_link2);
 // wgbm_platform_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_init.c line 36
 struct wcore_platform * wgbm_platform_create(void);
@@ -2218,75 +2218,75 @@ static inline void wl_surface_destroy(struct wl_surface *wl_surface);
 // wrapped_XCloseDisplay
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 64
 static inline signed int wrapped_XCloseDisplay(struct _XDisplay *dpy);
-// wrapped_XCloseDisplay::1::old_handler$object
+// wrapped_XCloseDisplay::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_XGetXCBConnection
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 73
 static inline struct xcb_connection_t * wrapped_XGetXCBConnection(struct _XDisplay *dpy);
-// wrapped_XGetXCBConnection::1::old_handler$object
+// wrapped_XGetXCBConnection::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_XOpenDisplay
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 55
 static inline struct _XDisplay * wrapped_XOpenDisplay(const char *name);
-// wrapped_XOpenDisplay::1::old_handler$object
+// wrapped_XOpenDisplay::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXChooseFBConfig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 48
 static inline struct __GLXFBConfigRec ** wrapped_glXChooseFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, signed int screen, const signed int *attribList, signed int *nitems);
-// wrapped_glXChooseFBConfig::1::old_handler$object
+// wrapped_glXChooseFBConfig::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXCreateContextAttribsARB
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 60
 static inline struct __GLXcontextRec * wrapped_glXCreateContextAttribsARB(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, struct __GLXcontextRec *share_context, signed int direct, const signed int *attrib_list);
-// wrapped_glXCreateContextAttribsARB::1::old_handler$object
+// wrapped_glXCreateContextAttribsARB::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXCreateNewContext
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 73
 static inline struct __GLXcontextRec * wrapped_glXCreateNewContext(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, signed int renderType, struct __GLXcontextRec *shareList, signed int direct);
-// wrapped_glXCreateNewContext::1::old_handler$object
+// wrapped_glXCreateNewContext::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXDestroyContext
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 106
 static inline void wrapped_glXDestroyContext(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXcontextRec *ctx);
-// wrapped_glXDestroyContext::1::old_handler$object
+// wrapped_glXDestroyContext::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXGetFBConfigAttrib
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 85
 static inline signed int wrapped_glXGetFBConfigAttrib(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, signed int attribute, signed int *value);
-// wrapped_glXGetFBConfigAttrib::1::old_handler$object
+// wrapped_glXGetFBConfigAttrib::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXGetVisualFromFBConfig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 96
-static inline struct anonymous$4 * wrapped_glXGetVisualFromFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config);
-// wrapped_glXGetVisualFromFBConfig::1::old_handler$object
+static inline struct anonymous_4 * wrapped_glXGetVisualFromFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config);
+// wrapped_glXGetVisualFromFBConfig::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXMakeCurrent
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 115
 static inline signed int wrapped_glXMakeCurrent(struct glx_platform *platform, struct _XDisplay *dpy, unsigned long int drawable, struct __GLXcontextRec *ctx);
-// wrapped_glXMakeCurrent::1::old_handler$object
+// wrapped_glXMakeCurrent::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXQueryExtensionsString
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 125
 static inline const char * wrapped_glXQueryExtensionsString(struct glx_platform *platform, struct _XDisplay *dpy, signed int screen);
-// wrapped_glXQueryExtensionsString::1::old_handler$object
+// wrapped_glXQueryExtensionsString::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // wrapped_glXSwapBuffers
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 135
 static inline void wrapped_glXSwapBuffers(struct glx_platform *platform, struct _XDisplay *dpy, unsigned long int drawable);
-// wrapped_glXSwapBuffers::1::old_handler$object
+// wrapped_glXSwapBuffers::1::old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$6 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
 // x11_display_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_display.h line 39
 _Bool x11_display_init(struct x11_display *self, const char *name);
@@ -2295,22 +2295,22 @@ _Bool x11_display_init(struct x11_display *self, const char *name);
 _Bool x11_display_teardown(struct x11_display *self);
 // x11_dummy_error_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler(struct _XDisplay *dpy, struct anonymous$6 *err);
-// x11_dummy_error_handler$link1
+static inline signed int x11_dummy_error_handler(struct _XDisplay *dpy, struct anonymous_6 *err);
+// x11_dummy_error_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link1(struct _XDisplay *dpy$link1, struct anonymous$6 *err$link1);
-// x11_dummy_error_handler$link2
+static inline signed int x11_dummy_error_handler_link1(struct _XDisplay *dpy_link1, struct anonymous_6 *err_link1);
+// x11_dummy_error_handler_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link2(struct _XDisplay *dpy$link2, struct anonymous$6 *err$link2);
-// x11_dummy_error_handler$link3
+static inline signed int x11_dummy_error_handler_link2(struct _XDisplay *dpy_link2, struct anonymous_6 *err_link2);
+// x11_dummy_error_handler_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link3(struct _XDisplay *dpy$link3, struct anonymous$6 *err$link3);
-// x11_dummy_error_handler$link4
+static inline signed int x11_dummy_error_handler_link3(struct _XDisplay *dpy_link3, struct anonymous_6 *err_link3);
+// x11_dummy_error_handler_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link4(struct _XDisplay *dpy$link4, struct anonymous$6 *err$link4);
-// x11_dummy_error_handler$link5
+static inline signed int x11_dummy_error_handler_link4(struct _XDisplay *dpy_link4, struct anonymous_6 *err_link4);
+// x11_dummy_error_handler_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link5(struct _XDisplay *dpy$link5, struct anonymous$6 *err$link5);
+static inline signed int x11_dummy_error_handler_link5(struct _XDisplay *dpy_link5, struct anonymous_6 *err_link5);
 // x11_winddow_get_depth
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_window.c line 34
 static unsigned char x11_winddow_get_depth(struct xcb_connection_t *conn, const struct xcb_screen_t *screen, unsigned int id);
@@ -2328,13 +2328,13 @@ _Bool x11_window_show(struct x11_window *self);
 _Bool x11_window_teardown(struct x11_window *self);
 // xcb_configure_window
 // file /usr/include/xcb/xproto.h line 6040
-struct anonymous$12 xcb_configure_window(struct xcb_connection_t *, unsigned int, unsigned short int, const unsigned int *);
+struct anonymous_12 xcb_configure_window(struct xcb_connection_t *, unsigned int, unsigned short int, const unsigned int *);
 // xcb_create_colormap_checked
 // file /usr/include/xcb/xproto.h line 9866
-struct anonymous$12 xcb_create_colormap_checked(struct xcb_connection_t *, unsigned char, unsigned int, unsigned int, unsigned int);
+struct anonymous_12 xcb_create_colormap_checked(struct xcb_connection_t *, unsigned char, unsigned int, unsigned int, unsigned int);
 // xcb_create_window_checked
 // file /usr/include/xcb/xproto.h line 5507
-struct anonymous$12 xcb_create_window_checked(struct xcb_connection_t *, unsigned char, unsigned int, unsigned int, signed short int, signed short int, unsigned short int, unsigned short int, unsigned short int, unsigned short int, unsigned int, unsigned int, const unsigned int *);
+struct anonymous_12 xcb_create_window_checked(struct xcb_connection_t *, unsigned char, unsigned int, unsigned int, signed short int, signed short int, unsigned short int, unsigned short int, unsigned short int, unsigned short int, unsigned int, unsigned int, const unsigned int *);
 // xcb_depth_next
 // file /usr/include/xcb/xproto.h line 5224
 void xcb_depth_next(struct xcb_depth_iterator_t *);
@@ -2343,13 +2343,13 @@ void xcb_depth_next(struct xcb_depth_iterator_t *);
 struct xcb_visualtype_iterator_t xcb_depth_visuals_iterator(const struct xcb_depth_t *);
 // xcb_destroy_window
 // file /usr/include/xcb/xproto.h line 5715
-struct anonymous$12 xcb_destroy_window(struct xcb_connection_t *, unsigned int);
+struct anonymous_12 xcb_destroy_window(struct xcb_connection_t *, unsigned int);
 // xcb_destroy_window_checked
 // file /usr/include/xcb/xproto.h line 5696
-struct anonymous$12 xcb_destroy_window_checked(struct xcb_connection_t *, unsigned int);
+struct anonymous_12 xcb_destroy_window_checked(struct xcb_connection_t *, unsigned int);
 // xcb_free_colormap
 // file /usr/include/xcb/xproto.h line 9911
-struct anonymous$12 xcb_free_colormap(struct xcb_connection_t *, unsigned int);
+struct anonymous_12 xcb_free_colormap(struct xcb_connection_t *, unsigned int);
 // xcb_generate_id
 // file /usr/include/xcb/xcb.h line 587
 unsigned int xcb_generate_id(struct xcb_connection_t *);
@@ -2358,10 +2358,10 @@ unsigned int xcb_generate_id(struct xcb_connection_t *);
 struct xcb_setup_t * xcb_get_setup(struct xcb_connection_t *);
 // xcb_map_window_checked
 // file /usr/include/xcb/xproto.h line 5873
-struct anonymous$12 xcb_map_window_checked(struct xcb_connection_t *, unsigned int);
+struct anonymous_12 xcb_map_window_checked(struct xcb_connection_t *, unsigned int);
 // xcb_request_check
 // file /usr/include/xcb/xcb.h line 363
-struct anonymous$13 * xcb_request_check(struct xcb_connection_t *, struct anonymous$12);
+struct anonymous_13 * xcb_request_check(struct xcb_connection_t *, struct anonymous_12);
 // xcb_screen_allowed_depths_iterator
 // file /usr/include/xcb/xproto.h line 5245
 struct xcb_depth_iterator_t xcb_screen_allowed_depths_iterator(const struct xcb_screen_t *);
@@ -2383,12 +2383,12 @@ static union waffle_native_context * xegl_context_get_native(struct wcore_contex
 // xegl_display
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_display.h line 45
 static inline struct xegl_display * xegl_display(struct wcore_display *wc_self);
-// xegl_display$link1
+// xegl_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_display.h line 45
-static inline struct xegl_display * xegl_display$link1(struct wcore_display *wc_self$link1);
-// xegl_display$link2
+static inline struct xegl_display * xegl_display_link1(struct wcore_display *wc_self_link1);
+// xegl_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_display.h line 45
-static inline struct xegl_display * xegl_display$link2(struct wcore_display *wc_self$link2);
+static inline struct xegl_display * xegl_display_link2(struct wcore_display *wc_self_link2);
 // xegl_display_connect
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_display.c line 50
 struct wcore_display * xegl_display_connect(struct wcore_platform *wc_plat, const char *name);
@@ -2438,10 +2438,10 @@ _Bool xegl_window_show(struct wcore_window *wc_self);
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 316
 signed int xtime_get(struct xtime *xt, signed int base);
 
-struct anonymous$4
+struct anonymous_4
 {
   // visual
-  struct anonymous$5 *visual;
+  struct anonymous_5 *visual;
   // visualid
   unsigned long int visualid;
   // screen
@@ -2462,7 +2462,7 @@ struct anonymous$4
   signed int bits_per_rgb;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2481,11 +2481,11 @@ struct anonymous$9
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$8 *depths;
+  struct anonymous_8 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$5 *root_visual;
+  struct anonymous_5 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -2506,7 +2506,7 @@ struct anonymous$9
   signed long int root_input_mask;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2543,7 +2543,7 @@ struct anonymous$10
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$7 *pixmap_format;
+  struct anonymous_7 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -2579,7 +2579,7 @@ struct anonymous$10
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$9 *screens;
+  struct anonymous_9 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -2598,7 +2598,7 @@ struct anonymous$10
   char *xdefaults;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2610,7 +2610,7 @@ struct anonymous$7
   signed int scanline_pad;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -2630,19 +2630,19 @@ struct anonymous$5
   signed int map_entries;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // pointer
   void *pointer;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -2662,17 +2662,17 @@ struct anonymous$1
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$5 *visuals;
+  struct anonymous_5 *visuals;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // type
   signed int type;
@@ -2690,13 +2690,13 @@ struct anonymous$6
   unsigned char minor_code;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // sequence
   unsigned int sequence;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // response_type
   unsigned char response_type;
@@ -2718,7 +2718,7 @@ struct anonymous$13
   unsigned int full_sequence;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -2726,10 +2726,10 @@ union anonymous$3
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
@@ -2889,7 +2889,7 @@ union ValuePointer
   // value
   unsigned long long int value;
   // x
-  struct anonymous$0 x;
+  struct anonymous_0 x;
 };
 
 struct _IO_FILE
@@ -2983,7 +2983,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$11 __saved_mask;
+  struct anonymous_11 __saved_mask;
 };
 
 struct api_object
@@ -3129,7 +3129,7 @@ struct glx_platform
   // glXGetProcAddress
   void * (*glXGetProcAddress)(const unsigned char *);
   // glXGetVisualFromFBConfig
-  struct anonymous$4 * (*glXGetVisualFromFBConfig)(struct _XDisplay *, struct __GLXFBConfigRec *);
+  struct anonymous_4 * (*glXGetVisualFromFBConfig)(struct _XDisplay *, struct __GLXFBConfigRec *);
   // glXGetFBConfigAttrib
   signed int (*glXGetFBConfigAttrib)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *);
   // glXChooseFBConfig
@@ -3436,7 +3436,7 @@ struct wayland_display
   struct wegl_display wegl;
 };
 
-struct wegl_platform$0
+struct wegl_platform_0
 {
   // wcore
   struct wcore_platform wcore;
@@ -3477,7 +3477,7 @@ struct wegl_platform$0
 struct wayland_platform
 {
   // wegl
-  struct wegl_platform$0 wegl;
+  struct wegl_platform_0 wegl;
   // linux
   struct linux_platform *linux;
 };
@@ -3646,7 +3646,7 @@ struct wegl_platform
   unsigned int (*eglSwapBuffers)(void *, void *);
 };
 
-struct wegl_platform$1
+struct wegl_platform_1
 {
   // wcore
   struct wcore_platform wcore;
@@ -3684,7 +3684,7 @@ struct wegl_platform$1
   unsigned int (*eglSwapBuffers)(void *, void *);
 };
 
-struct wegl_platform$2
+struct wegl_platform_2
 {
   // wcore
   struct wcore_platform wcore;
@@ -3730,7 +3730,7 @@ struct wgbm_display
   struct wegl_display wegl;
 };
 
-struct wgbm_platform$0
+struct wgbm_platform_0
 {
   // wegl
   struct wegl_platform wegl;
@@ -3757,7 +3757,7 @@ struct wgbm_platform$0
 struct wgbm_platform
 {
   // wegl
-  struct wegl_platform$1 wegl;
+  struct wegl_platform_1 wegl;
   // linux
   struct linux_platform *linux;
   // gbmHandle
@@ -3778,10 +3778,10 @@ struct wgbm_platform
   void (*gbm_surface_release_buffer)(struct gbm_surface *, struct gbm_bo *);
 };
 
-struct wgbm_platform$1
+struct wgbm_platform_1
 {
   // wegl
-  struct wegl_platform$2 wegl;
+  struct wegl_platform_2 wegl;
   // linux
   struct linux_platform *linux;
   // gbmHandle
@@ -4180,9 +4180,9 @@ static struct wcore_platform_vtbl xegl_platform_vtbl = { .destroy=xegl_platform_
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1353
 void _assert_in_range(const unsigned long long int value, const unsigned long long int minimum, const unsigned long long int maximum, const char * const file, const signed int line)
 {
-  signed int return_value_integer_in_range_display_error$1;
-  return_value_integer_in_range_display_error$1=integer_in_range_display_error(value, minimum, maximum);
-  if(return_value_integer_in_range_display_error$1 == 0)
+  signed int return_value_integer_in_range_display_error_1;
+  return_value_integer_in_range_display_error_1=integer_in_range_display_error(value, minimum, maximum);
+  if(return_value_integer_in_range_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4194,9 +4194,9 @@ void _assert_in_set(const unsigned long long int value, const unsigned long long
   struct CheckIntegerSet check_integer_set;
   check_integer_set.set = values;
   check_integer_set.size_of_set = number_of_values;
-  signed int return_value_value_in_set_display_error$1;
-  return_value_value_in_set_display_error$1=value_in_set_display_error(value, &check_integer_set, 0);
-  if(return_value_value_in_set_display_error$1 == 0)
+  signed int return_value_value_in_set_display_error_1;
+  return_value_value_in_set_display_error_1=value_in_set_display_error(value, &check_integer_set, 0);
+  if(return_value_value_in_set_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4205,9 +4205,9 @@ void _assert_in_set(const unsigned long long int value, const unsigned long long
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/include/cmocka.h line 1687
 void _assert_int_equal(const unsigned long long int a, const unsigned long long int b, const char * const file, const signed int line)
 {
-  signed int return_value_values_equal_display_error$1;
-  return_value_values_equal_display_error$1=values_equal_display_error(a, b);
-  if(return_value_values_equal_display_error$1 == 0)
+  signed int return_value_values_equal_display_error_1;
+  return_value_values_equal_display_error_1=values_equal_display_error(a, b);
+  if(return_value_values_equal_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4216,9 +4216,9 @@ void _assert_int_equal(const unsigned long long int a, const unsigned long long 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1309
 void _assert_int_not_equal(const unsigned long long int a, const unsigned long long int b, const char * const file, const signed int line)
 {
-  signed int return_value_values_not_equal_display_error$1;
-  return_value_values_not_equal_display_error$1=values_not_equal_display_error(a, b);
-  if(return_value_values_not_equal_display_error$1 == 0)
+  signed int return_value_values_not_equal_display_error_1;
+  return_value_values_not_equal_display_error_1=values_not_equal_display_error(a, b);
+  if(return_value_values_not_equal_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4227,9 +4227,9 @@ void _assert_int_not_equal(const unsigned long long int a, const unsigned long l
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/include/cmocka.h line 1697
 void _assert_memory_equal(const void * const a, const void * const b, const unsigned long int size, const char * const file, const signed int line)
 {
-  signed int return_value_memory_equal_display_error$1;
-  return_value_memory_equal_display_error$1=memory_equal_display_error((const char *)a, (const char *)b, size);
-  if(return_value_memory_equal_display_error$1 == 0)
+  signed int return_value_memory_equal_display_error_1;
+  return_value_memory_equal_display_error_1=memory_equal_display_error((const char *)a, (const char *)b, size);
+  if(return_value_memory_equal_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4238,9 +4238,9 @@ void _assert_memory_equal(const void * const a, const void * const b, const unsi
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1343
 void _assert_memory_not_equal(const void * const a, const void * const b, const unsigned long int size, const char * const file, const signed int line)
 {
-  signed int return_value_memory_not_equal_display_error$1;
-  return_value_memory_not_equal_display_error$1=memory_not_equal_display_error((const char *)a, (const char *)b, size);
-  if(return_value_memory_not_equal_display_error$1 == 0)
+  signed int return_value_memory_not_equal_display_error_1;
+  return_value_memory_not_equal_display_error_1=memory_not_equal_display_error((const char *)a, (const char *)b, size);
+  if(return_value_memory_not_equal_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4249,9 +4249,9 @@ void _assert_memory_not_equal(const void * const a, const void * const b, const 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1362
 void _assert_not_in_range(const unsigned long long int value, const unsigned long long int minimum, const unsigned long long int maximum, const char * const file, const signed int line)
 {
-  signed int return_value_integer_not_in_range_display_error$1;
-  return_value_integer_not_in_range_display_error$1=integer_not_in_range_display_error(value, minimum, maximum);
-  if(return_value_integer_not_in_range_display_error$1 == 0)
+  signed int return_value_integer_not_in_range_display_error_1;
+  return_value_integer_not_in_range_display_error_1=integer_not_in_range_display_error(value, minimum, maximum);
+  if(return_value_integer_not_in_range_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4263,9 +4263,9 @@ void _assert_not_in_set(const unsigned long long int value, const unsigned long 
   struct CheckIntegerSet check_integer_set;
   check_integer_set.set = values;
   check_integer_set.size_of_set = number_of_values;
-  signed int return_value_value_in_set_display_error$1;
-  return_value_value_in_set_display_error$1=value_in_set_display_error(value, &check_integer_set, 1);
-  if(return_value_value_in_set_display_error$1 == 0)
+  signed int return_value_value_in_set_display_error_1;
+  return_value_value_in_set_display_error_1=value_in_set_display_error(value, &check_integer_set, 1);
+  if(return_value_value_in_set_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4274,9 +4274,9 @@ void _assert_not_in_set(const unsigned long long int value, const unsigned long 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1318
 void _assert_string_equal(const char * const a, const char * const b, const char * const file, const signed int line)
 {
-  signed int return_value_string_equal_display_error$1;
-  return_value_string_equal_display_error$1=string_equal_display_error(a, b);
-  if(return_value_string_equal_display_error$1 == 0)
+  signed int return_value_string_equal_display_error_1;
+  return_value_string_equal_display_error_1=string_equal_display_error(a, b);
+  if(return_value_string_equal_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4285,9 +4285,9 @@ void _assert_string_equal(const char * const a, const char * const b, const char
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1326
 void _assert_string_not_equal(const char * const a, const char * const b, const char *file, const signed int line)
 {
-  signed int return_value_string_not_equal_display_error$1;
-  return_value_string_not_equal_display_error$1=string_not_equal_display_error(a, b);
-  if(return_value_string_not_equal_display_error$1 == 0)
+  signed int return_value_string_not_equal_display_error_1;
+  return_value_string_not_equal_display_error_1=string_not_equal_display_error(a, b);
+  if(return_value_string_not_equal_display_error_1 == 0)
     _fail(file, line);
 
 }
@@ -4332,9 +4332,9 @@ void _check_expected(const char * const function_name, const char * const parame
   else
   {
     print_error("%s:%u: error: Could not get value to check parameter %s of function %s\n", file, line, parameter_name, function_name);
-    signed int return_value_source_location_is_set$1;
-    return_value_source_location_is_set$1=source_location_is_set(&global_last_parameter_location);
-    if(!(return_value_source_location_is_set$1 == 0))
+    signed int return_value_source_location_is_set_1;
+    return_value_source_location_is_set_1=source_location_is_set(&global_last_parameter_location);
+    if(!(return_value_source_location_is_set_1 == 0))
       print_error("%s:%u: note: Previously declared parameter value was declared here\n", global_last_parameter_location.file, global_last_parameter_location.line);
 
     else
@@ -4355,17 +4355,17 @@ void _expect_any(const char * const function, const char * const parameter, cons
 void _expect_check(const char * const function, const char * const parameter, const char * const file, const signed int line, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const unsigned long long int check_data, struct CheckParameterEvent * const event, const signed int count)
 {
   struct CheckParameterEvent *check;
-  struct CheckParameterEvent *tmp_if_expr$2;
-  void *return_value_malloc$1;
+  struct CheckParameterEvent *tmp_if_expr_2;
+  void *return_value_malloc_1;
   if(!(event == ((struct CheckParameterEvent *)NULL)))
-    tmp_if_expr$2 = event;
+    tmp_if_expr_2 = event;
 
   else
   {
-    return_value_malloc$1=malloc(sizeof(struct CheckParameterEvent) /*40ul*/ );
-    tmp_if_expr$2 = (struct CheckParameterEvent *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct CheckParameterEvent) /*40ul*/ );
+    tmp_if_expr_2 = (struct CheckParameterEvent *)return_value_malloc_1;
   }
-  check = tmp_if_expr$2;
+  check = tmp_if_expr_2;
   const char *symbols[2l] = { function, parameter };
   check->parameter_name = parameter;
   check->check_value = check_function;
@@ -4479,9 +4479,9 @@ unsigned long long int _mock(const char * const function, const char * const fil
   else
   {
     print_error("%s:%u: error: Could not get value to mock function %s\n", file, line, function);
-    signed int return_value_source_location_is_set$1;
-    return_value_source_location_is_set$1=source_location_is_set(&global_last_mock_value_location);
-    if(!(return_value_source_location_is_set$1 == 0))
+    signed int return_value_source_location_is_set_1;
+    return_value_source_location_is_set_1=source_location_is_set(&global_last_mock_value_location);
+    if(!(return_value_source_location_is_set_1 == 0))
       print_error("%s:%u: note: Previously returned mock value was declared here\n", global_last_mock_value_location.file, global_last_mock_value_location.line);
 
     else
@@ -4496,17 +4496,17 @@ unsigned long long int _mock(const char * const function, const char * const fil
 signed int _run_test(const char * const function_name, void (* const Function)(void **), void ** const volatile state, const enum UnitTestFunctionType function_type, const void * const heap_check_point)
 {
   const struct ListNode * volatile check_point;
-  const struct ListNode *tmp_if_expr$2;
-  const struct ListNode *return_value_check_point_allocated_blocks$1;
+  const struct ListNode *tmp_if_expr_2;
+  const struct ListNode *return_value_check_point_allocated_blocks_1;
   if(!(heap_check_point == NULL))
-    tmp_if_expr$2 = (const struct ListNode *)heap_check_point;
+    tmp_if_expr_2 = (const struct ListNode *)heap_check_point;
 
   else
   {
-    return_value_check_point_allocated_blocks$1=check_point_allocated_blocks();
-    tmp_if_expr$2 = return_value_check_point_allocated_blocks$1;
+    return_value_check_point_allocated_blocks_1=check_point_allocated_blocks();
+    tmp_if_expr_2 = return_value_check_point_allocated_blocks_1;
   }
-  check_point = (const struct ListNode *)tmp_if_expr$2;
+  check_point = (const struct ListNode *)tmp_if_expr_2;
   void *current_state = (void *)0;
   volatile signed int rc = 1;
   signed int handle_exceptions = 1;
@@ -4522,9 +4522,9 @@ signed int _run_test(const char * const function_name, void (* const Function)(v
 
   initialize_testing(function_name);
   global_running_test = 1;
-  signed int return_value__setjmp$3;
-  return_value__setjmp$3=_setjmp(global_run_test_env);
-  if(return_value__setjmp$3 == 0)
+  signed int return_value__setjmp_3;
+  return_value__setjmp_3=_setjmp(global_run_test_env);
+  if(return_value__setjmp_3 == 0)
   {
     Function(state != ((void ** const volatile )NULL) ? state : &current_state);
     fail_if_leftover_values(function_name);
@@ -4546,9 +4546,9 @@ signed int _run_test(const char * const function_name, void (* const Function)(v
   teardown_testing(function_name);
   if(!(handle_exceptions == 0))
   {
-    unsigned int _run_test$$1$$5$$i = (unsigned int)0;
-    for( ; !((unsigned long int)_run_test$$1$$5$$i >= 5ul); _run_test$$1$$5$$i = _run_test$$1$$5$$i + 1u)
-      signal(exception_signals[(signed long int)_run_test$$1$$5$$i], default_signal_functions[(signed long int)_run_test$$1$$5$$i]);
+    unsigned int _run_test__1__5__i = (unsigned int)0;
+    for( ; !((unsigned long int)_run_test__1__5__i >= 5ul); _run_test__1__5__i = _run_test__1__5__i + 1u)
+      signal(exception_signals[(signed long int)_run_test__1__5__i], default_signal_functions[(signed long int)_run_test__1__5__i]);
   }
 
   return rc;
@@ -4568,27 +4568,27 @@ signed int _run_tests(const struct UnitTest * const tests, const unsigned long i
   unsigned long int setups = (unsigned long int)0;
   unsigned long int teardowns = (unsigned long int)0;
   struct TestState *test_states;
-  void *return_value__test_malloc$1;
-  return_value__test_malloc$1=_test_malloc(number_of_tests * sizeof(struct TestState) /*16ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1743);
-  test_states = (struct TestState *)return_value__test_malloc$1;
+  void *return_value__test_malloc_1;
+  return_value__test_malloc_1=_test_malloc(number_of_tests * sizeof(struct TestState) /*16ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1743);
+  test_states = (struct TestState *)return_value__test_malloc_1;
   unsigned long int number_of_test_states = (unsigned long int)0;
   const char **failed_names;
-  void *return_value__test_malloc$2;
-  return_value__test_malloc$2=_test_malloc(number_of_tests * sizeof(const char *) /*8ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1746);
-  failed_names = (const char **)return_value__test_malloc$2;
+  void *return_value__test_malloc_2;
+  return_value__test_malloc_2=_test_malloc(number_of_tests * sizeof(const char *) /*8ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1746);
+  failed_names = (const char **)return_value__test_malloc_2;
   void **current_state = (void **)(void *)0;
   print_message("[==========] Running %zd test(s).\n", number_of_tests);
   _assert_true((unsigned long int)(sizeof(unsigned long long int) /*8ul*/  >= sizeof(void *) /*8ul*/ ), "sizeof(LargestIntegralType) >= sizeof(void*)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1753);
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
   while(!(current_test >= number_of_tests))
   {
     const struct ListNode *test_check_point = (const struct ListNode *)(void *)0;
     struct TestState *current_TestState;
     const struct UnitTest *test;
-    tmp_post$3 = current_test;
+    tmp_post_3 = current_test;
     current_test = current_test + 1ul;
-    test = &tests[(signed long int)tmp_post$3];
+    test = &tests[(signed long int)tmp_post_3];
     if(!(test->function == ((void (*)(void **))NULL)))
     {
       switch((signed int)test->function_type)
@@ -4600,9 +4600,9 @@ signed int _run_tests(const struct UnitTest * const tests, const unsigned long i
         }
         case UNIT_TEST_FUNCTION_TYPE_SETUP:
         {
-          tmp_post$4 = number_of_test_states;
+          tmp_post_4 = number_of_test_states;
           number_of_test_states = number_of_test_states + 1ul;
-          current_TestState = &test_states[(signed long int)tmp_post$4];
+          current_TestState = &test_states[(signed long int)tmp_post_4];
           current_TestState->check_point=check_point_allocated_blocks();
           test_check_point = current_TestState->check_point;
           current_state = &current_TestState->state;
@@ -4750,9 +4750,9 @@ void * _test_malloc(const unsigned long int size, const char *file, const signed
   block_list=get_allocated_blocks_list();
   const unsigned long int allocate_size = size + (unsigned long int)(16 * 2) + sizeof(struct MallocBlockInfo) /*72ul*/  + sizeof(unsigned long int) /*8ul*/ ;
   char *block;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(allocate_size);
-  block = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(allocate_size);
+  block = (char *)return_value_malloc_1;
   _assert_true((unsigned long int)block, "block", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1415);
   ptr = (char *)((unsigned long int)block + (unsigned long int)16 + sizeof(struct MallocBlockInfo) /*72ul*/  + sizeof(unsigned long int) /*8ul*/  & ~(sizeof(unsigned long int) /*8ul*/  - (unsigned long int)1));
   memset((void *)(ptr - (signed long int)16), 0xEF, (unsigned long int)16);
@@ -4772,18 +4772,18 @@ void * _test_malloc(const unsigned long int size, const char *file, const signed
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_error.c line 78
 void _wcore_error_disable(void)
 {
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  return_value_wcore_tinfo_get$1->error->is_enabled = (_Bool)0;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  return_value_wcore_tinfo_get_1->error->is_enabled = (_Bool)0;
 }
 
 // _wcore_error_enable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_error.c line 72
 void _wcore_error_enable(void)
 {
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  return_value_wcore_tinfo_get$1->error->is_enabled = (_Bool)1;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  return_value_wcore_tinfo_get_1->error->is_enabled = (_Bool)1;
 }
 
 // _wcore_error_internal
@@ -4791,9 +4791,9 @@ void _wcore_error_enable(void)
 void _wcore_error_internal(const char *file, signed int line, const char *format, ...)
 {
   struct wcore_error_tinfo *t;
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  t = return_value_wcore_tinfo_get$1->error;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  t = return_value_wcore_tinfo_get_1->error;
   char *cur = t->message;
   char *end = t->message + (signed long int)1024;
   signed int printed;
@@ -4830,9 +4830,9 @@ __CPROVER_DUMP_L5:
 void _will_return(const char * const function_name, const char * const file, const signed int line, const unsigned long long int value, const signed int count)
 {
   struct SymbolValue *return_value;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct SymbolValue) /*24ul*/ );
-  return_value = (struct SymbolValue *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct SymbolValue) /*24ul*/ );
+  return_value = (struct SymbolValue *)return_value_malloc_1;
   _assert_true((unsigned long int)(count > 0 || count == -1), "count > 0 || count == -1", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 732);
   return_value->value = value;
   set_source_location(&return_value->location, file, line);
@@ -4850,14 +4850,14 @@ static void add_symbol_value(struct ListNode * const symbol_map_head, const char
   _assert_true((unsigned long int)symbol_names, "symbol_names", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 533);
   _assert_true((unsigned long int)number_of_symbol_names, "number_of_symbol_names", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 534);
   symbol_name = symbol_names[(signed long int)0];
-  signed int return_value_list_find$2;
-  return_value_list_find$2=list_find(symbol_map_head, (const void *)symbol_name, symbol_names_match, &target_node);
-  if(return_value_list_find$2 == 0)
+  signed int return_value_list_find_2;
+  return_value_list_find_2=list_find(symbol_map_head, (const void *)symbol_name, symbol_names_match, &target_node);
+  if(return_value_list_find_2 == 0)
   {
     struct SymbolMapValue *new_symbol_map_value;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct SymbolMapValue) /*40ul*/ );
-    new_symbol_map_value = (struct SymbolMapValue *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct SymbolMapValue) /*40ul*/ );
+    new_symbol_map_value = (struct SymbolMapValue *)return_value_malloc_1;
     new_symbol_map_value->symbol_name = symbol_name;
     list_initialize(&new_symbol_map_value->symbol_values_list_head);
     target_node=list_add_value(symbol_map_head, (const void *)new_symbol_map_value, 1);
@@ -4954,8 +4954,8 @@ static signed int check_any(const unsigned long long int value, const unsigned l
 static _Bool check_context_attrs(struct wegl_display *dpy, struct wcore_config_attrs *attrs)
 {
   struct wcore_platform *plat = dpy->wcore.platform;
-  _Bool return_value_wcore_config_attrs_version_eq$1;
-  _Bool return_value_wcore_config_attrs_version_ge$2;
+  _Bool return_value_wcore_config_attrs_version_eq_1;
+  _Bool return_value_wcore_config_attrs_version_ge_2;
   _Bool return_value;
   _Bool return_value_1;
   _Bool return_value_2;
@@ -4978,8 +4978,8 @@ static _Bool check_context_attrs(struct wegl_display *dpy, struct wcore_config_a
     {
       case 523:
       {
-        return_value_wcore_config_attrs_version_eq$1=wcore_config_attrs_version_eq(attrs, 10);
-        if(return_value_wcore_config_attrs_version_eq$1 == (_Bool)0)
+        return_value_wcore_config_attrs_version_eq_1=wcore_config_attrs_version_eq(attrs, 10);
+        if(return_value_wcore_config_attrs_version_eq_1 == (_Bool)0)
         {
           if(dpy->KHR_create_context == (_Bool)0)
           {
@@ -4989,7 +4989,7 @@ static _Bool check_context_attrs(struct wegl_display *dpy, struct wcore_config_a
 
         }
 
-        return_value_wcore_config_attrs_version_ge$2=wcore_config_attrs_version_ge(attrs, 32);
+        return_value_wcore_config_attrs_version_ge_2=wcore_config_attrs_version_ge(attrs, 32);
         if(!(attrs->context_forward_compatible == (_Bool)0))
         {
           if(dpy->KHR_create_context == (_Bool)0)
@@ -5036,14 +5036,14 @@ static _Bool check_context_attrs(struct wegl_display *dpy, struct wcore_config_a
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 456
 static _Bool check_final(struct wcore_config_attrs *attrs)
 {
-  _Bool return_value_wcore_config_attrs_version_ge$1;
+  _Bool return_value_wcore_config_attrs_version_ge_1;
   if(attrs->context_api == 523)
   {
     if(!(attrs->context_profile == 529))
       goto __CPROVER_DUMP_L1;
 
-    return_value_wcore_config_attrs_version_ge$1=wcore_config_attrs_version_ge(attrs, 32);
-    if(return_value_wcore_config_attrs_version_ge$1 == (_Bool)0)
+    return_value_wcore_config_attrs_version_ge_1=wcore_config_attrs_version_ge(attrs, 32);
+    if(return_value_wcore_config_attrs_version_ge_1 == (_Bool)0)
       goto __CPROVER_DUMP_L1;
 
     if(attrs->accum_buffer == (_Bool)0)
@@ -5077,9 +5077,9 @@ static signed int check_for_leftover_values(const struct ListNode * const map_he
     const struct ListNode *child_list;
     _assert_true((unsigned long int)value, "value", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 666);
     child_list = &value->symbol_values_list_head;
-    signed int return_value_list_empty$1;
-    return_value_list_empty$1=list_empty(child_list);
-    if(return_value_list_empty$1 == 0)
+    signed int return_value_list_empty_1;
+    return_value_list_empty_1=list_empty(child_list);
+    if(return_value_list_empty_1 == 0)
     {
       if(number_of_symbol_names == 1ul)
       {
@@ -5111,18 +5111,18 @@ static signed int check_in_range(const unsigned long long int value, const unsig
 {
   struct CheckIntegerRange * const check_integer_range = (struct CheckIntegerRange *)((union ValuePointer *)&check_value_data)->x.pointer;
   _assert_true((unsigned long int)check_integer_range, "check_integer_range", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1011);
-  signed int return_value_integer_in_range_display_error$1;
-  return_value_integer_in_range_display_error$1=integer_in_range_display_error(value, check_integer_range->minimum, check_integer_range->maximum);
-  return return_value_integer_in_range_display_error$1;
+  signed int return_value_integer_in_range_display_error_1;
+  return_value_integer_in_range_display_error_1=integer_in_range_display_error(value, check_integer_range->minimum, check_integer_range->maximum);
+  return return_value_integer_in_range_display_error_1;
 }
 
 // check_in_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 943
 static signed int check_in_set(const unsigned long long int value, const unsigned long long int check_value_data)
 {
-  signed int return_value_value_in_set_display_error$1;
-  return_value_value_in_set_display_error$1=value_in_set_display_error(value, (struct CheckIntegerSet *)((union ValuePointer *)&check_value_data)->x.pointer, 0);
-  return return_value_value_in_set_display_error$1;
+  signed int return_value_value_in_set_display_error_1;
+  return_value_value_in_set_display_error_1=value_in_set_display_error(value, (struct CheckIntegerSet *)((union ValuePointer *)&check_value_data)->x.pointer, 0);
+  return return_value_value_in_set_display_error_1;
 }
 
 // check_keys
@@ -5157,9 +5157,9 @@ static signed int check_memory(const unsigned long long int value, const unsigne
 {
   struct CheckMemoryData * const check = (struct CheckMemoryData *)((union ValuePointer *)&check_value_data)->x.pointer;
   _assert_true((unsigned long int)check, "check", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1152);
-  signed int return_value_memory_equal_display_error$1;
-  return_value_memory_equal_display_error$1=memory_equal_display_error((const char *)((union ValuePointer *)&value)->x.pointer, (const char *)check->memory, check->size);
-  return return_value_memory_equal_display_error$1;
+  signed int return_value_memory_equal_display_error_1;
+  return_value_memory_equal_display_error_1=memory_equal_display_error((const char *)((union ValuePointer *)&value)->x.pointer, (const char *)check->memory, check->size);
+  return return_value_memory_equal_display_error_1;
 }
 
 // check_not_in_range
@@ -5168,18 +5168,18 @@ static signed int check_not_in_range(const unsigned long long int value, const u
 {
   struct CheckIntegerRange * const check_integer_range = (struct CheckIntegerRange *)((union ValuePointer *)&check_value_data)->x.pointer;
   _assert_true((unsigned long int)check_integer_range, "check_integer_range", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1023);
-  signed int return_value_integer_not_in_range_display_error$1;
-  return_value_integer_not_in_range_display_error$1=integer_not_in_range_display_error(value, check_integer_range->minimum, check_integer_range->maximum);
-  return return_value_integer_not_in_range_display_error$1;
+  signed int return_value_integer_not_in_range_display_error_1;
+  return_value_integer_not_in_range_display_error_1=integer_not_in_range_display_error(value, check_integer_range->minimum, check_integer_range->maximum);
+  return return_value_integer_not_in_range_display_error_1;
 }
 
 // check_not_in_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 952
 static signed int check_not_in_set(const unsigned long long int value, const unsigned long long int check_value_data)
 {
-  signed int return_value_value_in_set_display_error$1;
-  return_value_value_in_set_display_error$1=value_in_set_display_error(value, (struct CheckIntegerSet *)((union ValuePointer *)&check_value_data)->x.pointer, 1);
-  return return_value_value_in_set_display_error$1;
+  signed int return_value_value_in_set_display_error_1;
+  return_value_value_in_set_display_error_1=value_in_set_display_error(value, (struct CheckIntegerSet *)((union ValuePointer *)&check_value_data)->x.pointer, 1);
+  return return_value_value_in_set_display_error_1;
 }
 
 // check_not_memory
@@ -5188,54 +5188,54 @@ static signed int check_not_memory(const unsigned long long int value, const uns
 {
   struct CheckMemoryData * const check = (struct CheckMemoryData *)((union ValuePointer *)&check_value_data)->x.pointer;
   _assert_true((unsigned long int)check, "check", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 1196);
-  signed int return_value_memory_not_equal_display_error$1;
-  return_value_memory_not_equal_display_error$1=memory_not_equal_display_error((const char *)((union ValuePointer *)&value)->x.pointer, (const char *)check->memory, check->size);
-  return return_value_memory_not_equal_display_error$1;
+  signed int return_value_memory_not_equal_display_error_1;
+  return_value_memory_not_equal_display_error_1=memory_not_equal_display_error((const char *)((union ValuePointer *)&value)->x.pointer, (const char *)check->memory, check->size);
+  return return_value_memory_not_equal_display_error_1;
 }
 
 // check_not_string
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1127
 static signed int check_not_string(const unsigned long long int value, const unsigned long long int check_value_data)
 {
-  signed int return_value_string_not_equal_display_error$1;
-  return_value_string_not_equal_display_error$1=string_not_equal_display_error((char *)((union ValuePointer *)&value)->x.pointer, (char *)((union ValuePointer *)&check_value_data)->x.pointer);
-  return return_value_string_not_equal_display_error$1;
+  signed int return_value_string_not_equal_display_error_1;
+  return_value_string_not_equal_display_error_1=string_not_equal_display_error((char *)((union ValuePointer *)&value)->x.pointer, (char *)((union ValuePointer *)&check_value_data)->x.pointer);
+  return return_value_string_not_equal_display_error_1;
 }
 
 // check_not_value
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1088
 static signed int check_not_value(const unsigned long long int value, const unsigned long long int check_value_data)
 {
-  signed int return_value_values_not_equal_display_error$1;
-  return_value_values_not_equal_display_error$1=values_not_equal_display_error(value, check_value_data);
-  return return_value_values_not_equal_display_error$1;
+  signed int return_value_values_not_equal_display_error_1;
+  return_value_values_not_equal_display_error_1=values_not_equal_display_error(value, check_value_data);
+  return return_value_values_not_equal_display_error_1;
 }
 
 // check_point_allocated_blocks
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1491
 static const struct ListNode * check_point_allocated_blocks()
 {
-  struct ListNode *return_value_get_allocated_blocks_list$1;
-  return_value_get_allocated_blocks_list$1=get_allocated_blocks_list();
-  return return_value_get_allocated_blocks_list$1->prev;
+  struct ListNode *return_value_get_allocated_blocks_list_1;
+  return_value_get_allocated_blocks_list_1=get_allocated_blocks_list();
+  return return_value_get_allocated_blocks_list_1->prev;
 }
 
 // check_string
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1105
 static signed int check_string(const unsigned long long int value, const unsigned long long int check_value_data)
 {
-  signed int return_value_string_equal_display_error$1;
-  return_value_string_equal_display_error$1=string_equal_display_error((char *)((union ValuePointer *)&value)->x.pointer, (char *)((union ValuePointer *)&check_value_data)->x.pointer);
-  return return_value_string_equal_display_error$1;
+  signed int return_value_string_equal_display_error_1;
+  return_value_string_equal_display_error_1=string_equal_display_error((char *)((union ValuePointer *)&value)->x.pointer, (char *)((union ValuePointer *)&check_value_data)->x.pointer);
+  return return_value_string_equal_display_error_1;
 }
 
 // check_value
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 1070
 static signed int check_value(const unsigned long long int value, const unsigned long long int check_value_data)
 {
-  signed int return_value_values_equal_display_error$1;
-  return_value_values_equal_display_error$1=values_equal_display_error(value, check_value_data);
-  return return_value_values_equal_display_error$1;
+  signed int return_value_values_equal_display_error_1;
+  return_value_values_equal_display_error_1=values_equal_display_error(value, check_value_data);
+  return return_value_values_equal_display_error_1;
 }
 
 // choose_real_config
@@ -5307,9 +5307,9 @@ static void * choose_real_config(struct wegl_display *dpy, struct wcore_config_a
 
 // cnd_broadcast
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 83
-signed int cnd_broadcast(union anonymous$2 *cond)
+signed int cnd_broadcast(union anonymous_2 *cond)
 {
-  if(cond == ((union anonymous$2 *)NULL))
+  if(cond == ((union anonymous_2 *)NULL))
     return 2;
 
   else
@@ -5321,30 +5321,30 @@ signed int cnd_broadcast(union anonymous$2 *cond)
 
 // cnd_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 91
-void cnd_destroy(union anonymous$2 *cond)
+void cnd_destroy(union anonymous_2 *cond)
 {
   pthread_cond_destroy(cond);
 }
 
 // cnd_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 98
-signed int cnd_init(union anonymous$2 *cond)
+signed int cnd_init(union anonymous_2 *cond)
 {
-  if(cond == ((union anonymous$2 *)NULL))
+  if(cond == ((union anonymous_2 *)NULL))
     return 2;
 
   else
   {
-    pthread_cond_init(cond, (const union anonymous$3 *)(void *)0);
+    pthread_cond_init(cond, (const union anonymous_3 *)(void *)0);
     return 0;
   }
 }
 
 // cnd_signal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 106
-signed int cnd_signal(union anonymous$2 *cond)
+signed int cnd_signal(union anonymous_2 *cond)
 {
-  if(cond == ((union anonymous$2 *)NULL))
+  if(cond == ((union anonymous_2 *)NULL))
     return 2;
 
   else
@@ -5356,11 +5356,11 @@ signed int cnd_signal(union anonymous$2 *cond)
 
 // cnd_timedwait
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 114
-signed int cnd_timedwait(union anonymous$2 *cond, union anonymous *mtx, const struct xtime *xt)
+signed int cnd_timedwait(union anonymous_2 *cond, union anonymous *mtx, const struct xtime *xt)
 {
   struct timespec abs_time;
   signed int rt;
-  if(cond == ((union anonymous$2 *)NULL) || mtx == ((union anonymous *)NULL) || xt == ((const struct xtime *)NULL))
+  if(cond == ((union anonymous_2 *)NULL) || mtx == ((union anonymous *)NULL) || xt == ((const struct xtime *)NULL))
     return 2;
 
   else
@@ -5376,9 +5376,9 @@ signed int cnd_timedwait(union anonymous$2 *cond, union anonymous *mtx, const st
 
 // cnd_wait
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 126
-signed int cnd_wait(union anonymous$2 *cond, union anonymous *mtx)
+signed int cnd_wait(union anonymous_2 *cond, union anonymous *mtx)
 {
-  if(cond == ((union anonymous$2 *)NULL) || mtx == ((union anonymous *)NULL))
+  if(cond == ((union anonymous_2 *)NULL) || mtx == ((union anonymous *)NULL))
     return 2;
 
   else
@@ -5393,9 +5393,9 @@ signed int cnd_wait(union anonymous$2 *cond, union anonymous *mtx)
 static void * create_real_context(struct wegl_config *config, void *share_ctx)
 {
   struct wegl_display *dpy;
-  dpy=wegl_display$link1(config->wcore.display);
+  dpy=wegl_display_link1(config->wcore.display);
   struct wegl_platform *plat;
-  plat=wegl_platform$link1(dpy->wcore.platform);
+  plat=wegl_platform_link1(dpy->wcore.platform);
   struct wcore_config_attrs *attrs = &config->wcore.attrs;
   _Bool ok = (_Bool)1;
   signed int waffle_context_api = attrs->context_api;
@@ -5405,64 +5405,64 @@ static void * create_real_context(struct wegl_config *config, void *share_ctx)
   if(!(attrs->context_debug == (_Bool)0))
     context_flags = context_flags | 0x00000001;
 
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  _Bool return_value_wcore_config_attrs_version_ge$9;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
-  signed int tmp_post$12;
-  signed int tmp_post$13;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  _Bool return_value_wcore_config_attrs_version_ge_9;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
+  signed int tmp_post_12;
+  signed int tmp_post_13;
   switch(waffle_context_api)
   {
     case 523:
     {
       if(!(dpy->KHR_create_context == (_Bool)0))
       {
-        tmp_post$1 = i;
+        tmp_post_1 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$1] = 0x3098;
-        tmp_post$2 = i;
+        attrib_list[(signed long int)tmp_post_1] = 0x3098;
+        tmp_post_2 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$2] = attrs->context_major_version;
-        tmp_post$3 = i;
+        attrib_list[(signed long int)tmp_post_2] = attrs->context_major_version;
+        tmp_post_3 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$3] = 0x30FB;
-        tmp_post$4 = i;
+        attrib_list[(signed long int)tmp_post_3] = 0x30FB;
+        tmp_post_4 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$4] = attrs->context_minor_version;
+        attrib_list[(signed long int)tmp_post_4] = attrs->context_minor_version;
       }
 
       if(!(attrs->context_forward_compatible == (_Bool)0))
         context_flags = context_flags | 0x00000002;
 
-      return_value_wcore_config_attrs_version_ge$9=wcore_config_attrs_version_ge(attrs, 32);
-      if(!(return_value_wcore_config_attrs_version_ge$9 == (_Bool)0))
+      return_value_wcore_config_attrs_version_ge_9=wcore_config_attrs_version_ge(attrs, 32);
+      if(!(return_value_wcore_config_attrs_version_ge_9 == (_Bool)0))
         switch(attrs->context_profile)
         {
           case 529:
           {
-            tmp_post$5 = i;
+            tmp_post_5 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$5] = 0x30FD;
-            tmp_post$6 = i;
+            attrib_list[(signed long int)tmp_post_5] = 0x30FD;
+            tmp_post_6 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$6] = 0x00000001;
+            attrib_list[(signed long int)tmp_post_6] = 0x00000001;
             break;
           }
           case 530:
           {
-            tmp_post$7 = i;
+            tmp_post_7 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$7] = 0x30FD;
-            tmp_post$8 = i;
+            attrib_list[(signed long int)tmp_post_7] = 0x30FD;
+            tmp_post_8 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$8] = 0x00000002;
+            attrib_list[(signed long int)tmp_post_8] = 0x00000002;
             break;
           }
           default:
@@ -5480,20 +5480,20 @@ static void * create_real_context(struct wegl_config *config, void *share_ctx)
 
     case 532:
     {
-      tmp_post$10 = i;
+      tmp_post_10 = i;
       i = i + 1;
-      attrib_list[(signed long int)tmp_post$10] = 0x3098;
-      tmp_post$11 = i;
+      attrib_list[(signed long int)tmp_post_10] = 0x3098;
+      tmp_post_11 = i;
       i = i + 1;
-      attrib_list[(signed long int)tmp_post$11] = attrs->context_major_version;
+      attrib_list[(signed long int)tmp_post_11] = attrs->context_major_version;
       if(!(dpy->KHR_create_context == (_Bool)0))
       {
-        tmp_post$12 = i;
+        tmp_post_12 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$12] = 0x30FB;
-        tmp_post$13 = i;
+        attrib_list[(signed long int)tmp_post_12] = 0x30FB;
+        tmp_post_13 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$13] = attrs->context_minor_version;
+        attrib_list[(signed long int)tmp_post_13] = attrs->context_minor_version;
       }
 
       break;
@@ -5504,21 +5504,21 @@ static void * create_real_context(struct wegl_config *config, void *share_ctx)
       return (void *)0;
     }
   }
-  signed int tmp_post$14;
-  signed int tmp_post$15;
+  signed int tmp_post_14;
+  signed int tmp_post_15;
   if(!(context_flags == 0))
   {
-    tmp_post$14 = i;
+    tmp_post_14 = i;
     i = i + 1;
-    attrib_list[(signed long int)tmp_post$14] = 0x30FC;
-    tmp_post$15 = i;
+    attrib_list[(signed long int)tmp_post_14] = 0x30FC;
+    tmp_post_15 = i;
     i = i + 1;
-    attrib_list[(signed long int)tmp_post$15] = context_flags;
+    attrib_list[(signed long int)tmp_post_15] = context_flags;
   }
 
-  signed int tmp_post$16 = i;
+  signed int tmp_post_16 = i;
   i = i + 1;
-  attrib_list[(signed long int)tmp_post$16] = 0x3038;
+  attrib_list[(signed long int)tmp_post_16] = 0x3038;
   ok=bind_api(plat, waffle_context_api);
   if(ok == (_Bool)0)
     return NULL;
@@ -5584,9 +5584,9 @@ static void exit_test(const signed int quit_application)
 static void expect_memory_setup(const char * const function, const char * const parameter, const char * const file, const signed int line, const void * const memory, const unsigned long int size, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const signed int count)
 {
   struct CheckMemoryData *check_data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CheckMemoryData) /*56ul*/  + size);
-  check_data = (struct CheckMemoryData *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CheckMemoryData) /*56ul*/  + size);
+  check_data = (struct CheckMemoryData *)return_value_malloc_1;
   void * const mem = (void *)(check_data + (signed long int)1);
   union ValuePointer check_data_pointer;
   check_data_pointer.value = (unsigned long long int)0;
@@ -5604,9 +5604,9 @@ static void expect_memory_setup(const char * const function, const char * const 
 static void expect_range(const char * const function, const char * const parameter, const char * const file, const signed int line, const unsigned long long int minimum, const unsigned long long int maximum, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const signed int count)
 {
   struct CheckIntegerRange *check_integer_range;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CheckIntegerRange) /*56ul*/ );
-  check_integer_range = (struct CheckIntegerRange *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CheckIntegerRange) /*56ul*/ );
+  check_integer_range = (struct CheckIntegerRange *)return_value_malloc_1;
   union ValuePointer check_data;
   check_data.value = (unsigned long long int)0;
   check_data.x.pointer = (void *)check_integer_range;
@@ -5620,9 +5620,9 @@ static void expect_range(const char * const function, const char * const paramet
 static void expect_set(const char * const function, const char * const parameter, const char * const file, const signed int line, const unsigned long long int *values, const unsigned long int number_of_values, signed int (* const check_function)(const unsigned long long int, const unsigned long long int), const signed int count)
 {
   struct CheckIntegerSet *check_integer_set;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CheckIntegerSet) /*56ul*/  + sizeof(const unsigned long long int) /*8ul*/  * number_of_values);
-  check_integer_set = (struct CheckIntegerSet *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CheckIntegerSet) /*56ul*/  + sizeof(const unsigned long long int) /*8ul*/  * number_of_values);
+  check_integer_set = (struct CheckIntegerSet *)return_value_malloc_1;
   unsigned long long int * const set = (unsigned long long int *)(check_integer_set + (signed long int)1);
   union ValuePointer check_data;
   check_data.value = (unsigned long long int)0;
@@ -5656,15 +5656,15 @@ static void fail_if_leftover_values(const char *test_name)
   signed int error_occurred = 0;
   (void)test_name;
   remove_always_return_values(&global_function_result_map_head, (const unsigned long int)1);
-  signed int return_value_check_for_leftover_values$1;
-  return_value_check_for_leftover_values$1=check_for_leftover_values(&global_function_result_map_head, "%s() has remaining non-returned values.\n", (const unsigned long int)1);
-  if(!(return_value_check_for_leftover_values$1 == 0))
+  signed int return_value_check_for_leftover_values_1;
+  return_value_check_for_leftover_values_1=check_for_leftover_values(&global_function_result_map_head, "%s() has remaining non-returned values.\n", (const unsigned long int)1);
+  if(!(return_value_check_for_leftover_values_1 == 0))
     error_occurred = 1;
 
   remove_always_return_values(&global_function_parameter_map_head, (const unsigned long int)2);
-  signed int return_value_check_for_leftover_values$2;
-  return_value_check_for_leftover_values$2=check_for_leftover_values(&global_function_parameter_map_head, "%s parameter still has values that haven't been checked.\n", (const unsigned long int)2);
-  if(!(return_value_check_for_leftover_values$2 == 0))
+  signed int return_value_check_for_leftover_values_2;
+  return_value_check_for_leftover_values_2=check_for_leftover_values(&global_function_parameter_map_head, "%s parameter still has values that haven't been checked.\n", (const unsigned long int)2);
+  if(!(return_value_check_for_leftover_values_2 == 0))
     error_occurred = 1;
 
   if(!(error_occurred == 0))
@@ -5728,7 +5728,7 @@ static struct ListNode * get_allocated_blocks_list()
 static _Bool get_extensions(struct wegl_display *dpy)
 {
   struct wegl_platform *plat;
-  plat=wegl_platform$link2(dpy->wcore.platform);
+  plat=wegl_platform_link2(dpy->wcore.platform);
   const char *extensions;
   extensions=plat->eglQueryString(dpy->egl, 0x3055);
   if(extensions == ((const char *)NULL))
@@ -5755,9 +5755,9 @@ static signed int get_symbol_value(struct ListNode * const head, const char * co
   _assert_true((unsigned long int)number_of_symbol_names, "number_of_symbol_names", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 572);
   _assert_true((unsigned long int)output, "output", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 573);
   symbol_name = symbol_names[(signed long int)0];
-  signed int return_value_list_find$2;
-  return_value_list_find$2=list_find(head, (const void *)symbol_name, symbol_names_match, &target_node);
-  if(!(return_value_list_find$2 == 0))
+  signed int return_value_list_find_2;
+  return_value_list_find_2=list_find(head, (const void *)symbol_name, symbol_names_match, &target_node);
+  if(!(return_value_list_find_2 == 0))
   {
     struct SymbolMapValue *map_value;
     struct ListNode *child_list;
@@ -5781,9 +5781,9 @@ static signed int get_symbol_value(struct ListNode * const head, const char * co
 
     else
       return_value=get_symbol_value(child_list, &symbol_names[(signed long int)1], number_of_symbol_names - (unsigned long int)1, output);
-    signed int return_value_list_empty$1;
-    return_value_list_empty$1=list_empty(child_list);
-    if(!(return_value_list_empty$1 == 0))
+    signed int return_value_list_empty_1;
+    return_value_list_empty_1=list_empty(child_list);
+    if(!(return_value_list_empty_1 == 0))
       list_remove_free(target_node, free_symbol_map_value, (void *)0);
 
     return return_value;
@@ -5815,44 +5815,44 @@ static struct xcb_screen_t * get_xcb_screen(const struct xcb_setup_t *setup, sig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_config.h line 48
 static inline struct glx_config * glx_config(struct wcore_config *wcore_self)
 {
-  struct glx_config *tmp_statement_expression$1;
+  struct glx_config *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_config *)NULL)))
   {
     const struct wcore_config *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct glx_config *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct glx_config *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct glx_config *)NULL);
 }
 
-// glx_config$link1
+// glx_config_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_config.h line 48
-static inline struct glx_config * glx_config$link1(struct wcore_config *wcore_self$link1)
+static inline struct glx_config * glx_config_link1(struct wcore_config *wcore_self_link1)
 {
-  struct glx_config *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_config *)NULL)))
+  struct glx_config *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct glx_config *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_config *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct glx_config *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
     return ((struct glx_config *)NULL);
 }
 
-// glx_config$link2
+// glx_config_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_config.h line 48
-static inline struct glx_config * glx_config$link2(struct wcore_config *wcore_self$link2)
+static inline struct glx_config * glx_config_link2(struct wcore_config *wcore_self_link2)
 {
-  struct glx_config *tmp_statement_expression$1$link2;
-  if(!(wcore_self$link2 == ((struct wcore_config *)NULL)))
+  struct glx_config *tmp_statement_expression_1_link2;
+  if(!(wcore_self_link2 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link2 = wcore_self$link2;
-    tmp_statement_expression$1$link2 = (struct glx_config *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wcore_config *__mptr_link2 = wcore_self_link2;
+    tmp_statement_expression_1_link2 = (struct glx_config *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
@@ -5865,14 +5865,14 @@ static _Bool glx_config_check_context_attrs(struct glx_display *dpy, struct wcor
 {
   struct glx_platform *plat;
   plat=glx_platform(dpy->wcore.platform);
-  _Bool return_value_wcore_config_attrs_version_eq$4;
-  _Bool tmp_if_expr$5;
-  _Bool return_value_wcore_config_attrs_version_ge$2;
-  _Bool tmp_if_expr$3;
-  _Bool return_value_wcore_config_attrs_version_ge$1;
-  _Bool return_value_linux_platform_dl_can_open$6;
-  _Bool return_value_linux_platform_dl_can_open$7;
-  _Bool return_value_linux_platform_dl_can_open$8;
+  _Bool return_value_wcore_config_attrs_version_eq_4;
+  _Bool tmp_if_expr_5;
+  _Bool return_value_wcore_config_attrs_version_ge_2;
+  _Bool tmp_if_expr_3;
+  _Bool return_value_wcore_config_attrs_version_ge_1;
+  _Bool return_value_linux_platform_dl_can_open_6;
+  _Bool return_value_linux_platform_dl_can_open_7;
+  _Bool return_value_linux_platform_dl_can_open_8;
   if(!(attrs->context_debug == (_Bool)0))
   {
     if(dpy->ARB_create_context != (_Bool)0)
@@ -5891,13 +5891,13 @@ static _Bool glx_config_check_context_attrs(struct glx_display *dpy, struct wcor
     {
       case 523:
       {
-        return_value_wcore_config_attrs_version_eq$4=wcore_config_attrs_version_eq(attrs, 10);
-        if(return_value_wcore_config_attrs_version_eq$4 == (_Bool)0)
-          tmp_if_expr$5 = !(dpy->ARB_create_context != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        return_value_wcore_config_attrs_version_eq_4=wcore_config_attrs_version_eq(attrs, 10);
+        if(return_value_wcore_config_attrs_version_eq_4 == (_Bool)0)
+          tmp_if_expr_5 = !(dpy->ARB_create_context != (_Bool)0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNSUPPORTED_ON_PLATFORM, "GLX_ARB_create_context is required in order to request an OpenGL version not equal to the default value 1.0");
           return (_Bool)0;
@@ -5905,20 +5905,20 @@ static _Bool glx_config_check_context_attrs(struct glx_display *dpy, struct wcor
 
         else
         {
-          return_value_wcore_config_attrs_version_ge$2=wcore_config_attrs_version_ge(attrs, 32);
-          if(!(return_value_wcore_config_attrs_version_ge$2 == (_Bool)0))
-            tmp_if_expr$3 = !(dpy->ARB_create_context_profile != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+          return_value_wcore_config_attrs_version_ge_2=wcore_config_attrs_version_ge(attrs, 32);
+          if(!(return_value_wcore_config_attrs_version_ge_2 == (_Bool)0))
+            tmp_if_expr_3 = !(dpy->ARB_create_context_profile != (_Bool)0) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
           {
             wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNSUPPORTED_ON_PLATFORM, "GLX_ARB_create_context_profile is required to create a context with version >= 3.2");
             return (_Bool)0;
           }
 
           else
-            return_value_wcore_config_attrs_version_ge$1=wcore_config_attrs_version_ge(attrs, 32);
+            return_value_wcore_config_attrs_version_ge_1=wcore_config_attrs_version_ge(attrs, 32);
         }
         if(!(attrs->context_forward_compatible == (_Bool)0))
         {
@@ -5942,8 +5942,8 @@ static _Bool glx_config_check_context_attrs(struct glx_display *dpy, struct wcor
 
         else
         {
-          return_value_linux_platform_dl_can_open$6=linux_platform_dl_can_open(plat->linux, 770);
-          if(return_value_linux_platform_dl_can_open$6 == (_Bool)0)
+          return_value_linux_platform_dl_can_open_6=linux_platform_dl_can_open(plat->linux, 770);
+          if(return_value_linux_platform_dl_can_open_6 == (_Bool)0)
           {
             wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNSUPPORTED_ON_PLATFORM, "failed to open the OpenGL ES1 library");
             return (_Bool)0;
@@ -5964,8 +5964,8 @@ static _Bool glx_config_check_context_attrs(struct glx_display *dpy, struct wcor
 
         }
 
-        return_value_linux_platform_dl_can_open$7=linux_platform_dl_can_open(plat->linux, 771);
-        if(return_value_linux_platform_dl_can_open$7 == (_Bool)0)
+        return_value_linux_platform_dl_can_open_7=linux_platform_dl_can_open(plat->linux, 771);
+        if(return_value_linux_platform_dl_can_open_7 == (_Bool)0)
         {
           wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNSUPPORTED_ON_PLATFORM, "failed to open the OpenGL ES2 library");
           return (_Bool)0;
@@ -5981,8 +5981,8 @@ static _Bool glx_config_check_context_attrs(struct glx_display *dpy, struct wcor
           return (_Bool)0;
         }
 
-        return_value_linux_platform_dl_can_open$8=linux_platform_dl_can_open(plat->linux, 772);
-        if(return_value_linux_platform_dl_can_open$8 == (_Bool)0)
+        return_value_linux_platform_dl_can_open_8=linux_platform_dl_can_open(plat->linux, 772);
+        if(return_value_linux_platform_dl_can_open_8 == (_Bool)0)
         {
           wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNSUPPORTED_ON_PLATFORM, "failed to open the OpenGL ES3 library");
           return (_Bool)0;
@@ -6010,26 +6010,26 @@ struct wcore_config * glx_config_choose(struct wcore_platform *wc_plat, struct w
   plat=glx_platform(wc_plat);
   struct __GLXFBConfigRec **configs = (struct __GLXFBConfigRec **)(void *)0;
   signed int num_configs = 0;
-  struct anonymous$4 *vi = (struct anonymous$4 *)(void *)0;
+  struct anonymous_4 *vi = (struct anonymous_4 *)(void *)0;
   _Bool ok = (_Bool)1;
-  _Bool return_value_glx_config_check_context_attrs$1;
-  return_value_glx_config_check_context_attrs$1=glx_config_check_context_attrs(dpy, attrs);
+  _Bool return_value_glx_config_check_context_attrs_1;
+  return_value_glx_config_check_context_attrs_1=glx_config_check_context_attrs(dpy, attrs);
   signed int attrib_list[31l];
-  signed int return_value_wrapped_glXGetFBConfigAttrib$3;
-  if(return_value_glx_config_check_context_attrs$1 == (_Bool)0)
+  signed int return_value_wrapped_glXGetFBConfigAttrib_3;
+  if(return_value_glx_config_check_context_attrs_1 == (_Bool)0)
     return (struct wcore_config *)(void *)0;
 
   else
   {
-    void *return_value_wcore_calloc$2;
-    return_value_wcore_calloc$2=wcore_calloc(sizeof(struct glx_config) /*96ul*/ );
-    self = (struct glx_config *)return_value_wcore_calloc$2;
+    void *return_value_wcore_calloc_2;
+    return_value_wcore_calloc_2=wcore_calloc(sizeof(struct glx_config) /*96ul*/ );
+    self = (struct glx_config *)return_value_wcore_calloc_2;
     if(self == ((struct glx_config *)NULL))
       return (struct wcore_config *)(void *)0;
 
     else
     {
-      ok=wcore_config_init$link1(&self->wcore, wc_dpy, attrs);
+      ok=wcore_config_init_link1(&self->wcore, wc_dpy, attrs);
       if(!(ok == (_Bool)0))
       {
         attrib_list[0] = 2;
@@ -6071,8 +6071,8 @@ struct wcore_config * glx_config_choose(struct wcore_platform *wc_plat, struct w
         }
 
         self->glx_fbconfig = configs[(signed long int)0];
-        return_value_wrapped_glXGetFBConfigAttrib$3=wrapped_glXGetFBConfigAttrib(plat, dpy->x11.xlib, self->glx_fbconfig, 0x8013, &self->glx_fbconfig_id);
-        ok = !(return_value_wrapped_glXGetFBConfigAttrib$3 != 0);
+        return_value_wrapped_glXGetFBConfigAttrib_3=wrapped_glXGetFBConfigAttrib(plat, dpy->x11.xlib, self->glx_fbconfig, 0x8013, &self->glx_fbconfig_id);
+        ok = !(return_value_wrapped_glXGetFBConfigAttrib_3 != 0);
         if(ok == (_Bool)0)
         {
           wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "glxGetFBConfigAttrib failed");
@@ -6080,7 +6080,7 @@ struct wcore_config * glx_config_choose(struct wcore_platform *wc_plat, struct w
         }
 
         vi=wrapped_glXGetVisualFromFBConfig(plat, dpy->x11.xlib, self->glx_fbconfig);
-        if(vi == ((struct anonymous$4 *)NULL))
+        if(vi == ((struct anonymous_4 *)NULL))
         {
           wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "glXGetVisualInfoFromFBConfig failed with GLXFBConfigID=0x%x\n", self->glx_fbconfig_id);
           goto error;
@@ -6103,7 +6103,7 @@ struct wcore_config * glx_config_choose(struct wcore_platform *wc_plat, struct w
       if(!(configs == ((struct __GLXFBConfigRec **)NULL)))
         XFree((void *)configs);
 
-      if(!(vi == ((struct anonymous$4 *)NULL)))
+      if(!(vi == ((struct anonymous_4 *)NULL)))
         XFree((void *)vi);
 
       return &self->wcore;
@@ -6121,12 +6121,12 @@ _Bool glx_config_destroy(struct wcore_config *wc_self)
 
   else
   {
-    _Bool return_value_wcore_config_teardown$1;
-    return_value_wcore_config_teardown$1=wcore_config_teardown$link1(wc_self);
-    ok = ((signed int)ok & (signed int)return_value_wcore_config_teardown$1) != 0;
-    struct glx_config *return_value_glx_config$2;
-    return_value_glx_config$2=glx_config(wc_self);
-    free((void *)return_value_glx_config$2);
+    _Bool return_value_wcore_config_teardown_1;
+    return_value_wcore_config_teardown_1=wcore_config_teardown_link1(wc_self);
+    ok = ((signed int)ok & (signed int)return_value_wcore_config_teardown_1) != 0;
+    struct glx_config *return_value_glx_config_2;
+    return_value_glx_config_2=glx_config(wc_self);
+    free((void *)return_value_glx_config_2);
     return ok;
   }
 }
@@ -6142,9 +6142,9 @@ union waffle_native_config * glx_config_get_native(struct wcore_config *wc_self)
   union waffle_native_config *n_config;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_glx_config) /*16ul*/ );
-    n_config = (union waffle_native_config *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_glx_config) /*16ul*/ );
+    n_config = (union waffle_native_config *)return_value_wcore_malloc_1;
     if(!(n_config == ((union waffle_native_config *)NULL)))
       n_config->glx = (struct waffle_glx_config *)(void *)(n_config + (signed long int)1);
 
@@ -6165,28 +6165,28 @@ union waffle_native_config * glx_config_get_native(struct wcore_config *wc_self)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_context.h line 43
 static inline struct glx_context * glx_context(struct wcore_context *wcore_self)
 {
-  struct glx_context *tmp_statement_expression$1;
+  struct glx_context *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_context *)NULL)))
   {
     const struct wcore_context *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct glx_context *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct glx_context *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct glx_context *)NULL);
 }
 
-// glx_context$link1
+// glx_context_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_context.h line 43
-static inline struct glx_context * glx_context$link1(struct wcore_context *wcore_self$link1)
+static inline struct glx_context * glx_context_link1(struct wcore_context *wcore_self_link1)
 {
-  struct glx_context *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_context *)NULL)))
+  struct glx_context *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_context *)NULL)))
   {
-    const struct wcore_context *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct glx_context *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_context *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct glx_context *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
@@ -6199,19 +6199,19 @@ struct wcore_context * glx_context_create(struct wcore_platform *wc_plat, struct
 {
   struct glx_context *self;
   struct glx_config *config;
-  config=glx_config$link1(wc_config);
+  config=glx_config_link1(wc_config);
   struct glx_context *share_ctx;
   share_ctx=glx_context(wc_share_ctx);
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct glx_context) /*24ul*/ );
-  self = (struct glx_context *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct glx_context) /*24ul*/ );
+  self = (struct glx_context *)return_value_wcore_calloc_1;
   if(self == ((struct glx_context *)NULL))
     return (struct wcore_context *)(void *)0;
 
   else
   {
-    ok=wcore_context_init$link1(&self->wcore, wc_config);
+    ok=wcore_context_init_link1(&self->wcore, wc_config);
     if(!(ok == (_Bool)0))
     {
       self->glx=glx_context_create_native(config, share_ctx);
@@ -6238,17 +6238,17 @@ static struct __GLXcontextRec * glx_context_create_native(struct glx_config *con
 {
   struct __GLXcontextRec *ctx;
   struct __GLXcontextRec *real_share_ctx;
-  struct __GLXcontextRec *tmp_if_expr$1;
+  struct __GLXcontextRec *tmp_if_expr_1;
   if(!(share_ctx == ((struct glx_context *)NULL)))
-    tmp_if_expr$1 = share_ctx->glx;
+    tmp_if_expr_1 = share_ctx->glx;
 
   else
-    tmp_if_expr$1 = (struct __GLXcontextRec *)(void *)0;
-  real_share_ctx = tmp_if_expr$1;
+    tmp_if_expr_1 = (struct __GLXcontextRec *)(void *)0;
+  real_share_ctx = tmp_if_expr_1;
   struct glx_display *dpy;
-  dpy=glx_display$link1(config->wcore.display);
+  dpy=glx_display_link1(config->wcore.display);
   struct glx_platform *platform;
-  platform=glx_platform$link1(dpy->wcore.platform);
+  platform=glx_platform_link1(dpy->wcore.platform);
   if(!(dpy->ARB_create_context == (_Bool)0))
   {
     _Bool ok;
@@ -6293,14 +6293,14 @@ _Bool glx_context_destroy(struct wcore_context *wc_self)
   else
   {
     self=glx_context(wc_self);
-    dpy=glx_display$link1(wc_self->display);
-    platform=glx_platform$link1(wc_self->display->platform);
+    dpy=glx_display_link1(wc_self->display);
+    platform=glx_platform_link1(wc_self->display->platform);
     if(!(self->glx == ((struct __GLXcontextRec *)NULL)))
       wrapped_glXDestroyContext(platform, dpy->x11.xlib, self->glx);
 
-    _Bool return_value_wcore_context_teardown$1;
-    return_value_wcore_context_teardown$1=wcore_context_teardown$link1(wc_self);
-    ok = ((signed int)ok & (signed int)return_value_wcore_context_teardown$1) != 0;
+    _Bool return_value_wcore_context_teardown_1;
+    return_value_wcore_context_teardown_1=wcore_context_teardown_link1(wc_self);
+    ok = ((signed int)ok & (signed int)return_value_wcore_context_teardown_1) != 0;
     free((void *)self);
     return ok;
   }
@@ -6313,70 +6313,70 @@ static _Bool glx_context_fill_attrib_list(struct glx_config *config, signed int 
   struct wcore_config_attrs *attrs = &config->wcore.attrs;
   signed int i = 0;
   signed int context_flags = 0;
-  _Bool return_value_wcore_config_attrs_version_eq$5;
-  return_value_wcore_config_attrs_version_eq$5=wcore_config_attrs_version_eq(attrs, 10);
-  _Bool tmp_if_expr$6;
-  if(!(return_value_wcore_config_attrs_version_eq$5 == (_Bool)0))
-    tmp_if_expr$6 = attrs->context_api == 523 ? (_Bool)1 : (_Bool)0;
+  _Bool return_value_wcore_config_attrs_version_eq_5;
+  return_value_wcore_config_attrs_version_eq_5=wcore_config_attrs_version_eq(attrs, 10);
+  _Bool tmp_if_expr_6;
+  if(!(return_value_wcore_config_attrs_version_eq_5 == (_Bool)0))
+    tmp_if_expr_6 = attrs->context_api == 523 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  if(!tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  if(!tmp_if_expr_6)
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    attrib_list[(signed long int)tmp_post$1] = 0x2091;
-    tmp_post$2 = i;
+    attrib_list[(signed long int)tmp_post_1] = 0x2091;
+    tmp_post_2 = i;
     i = i + 1;
-    attrib_list[(signed long int)tmp_post$2] = attrs->context_major_version;
-    tmp_post$3 = i;
+    attrib_list[(signed long int)tmp_post_2] = attrs->context_major_version;
+    tmp_post_3 = i;
     i = i + 1;
-    attrib_list[(signed long int)tmp_post$3] = 0x2092;
-    tmp_post$4 = i;
+    attrib_list[(signed long int)tmp_post_3] = 0x2092;
+    tmp_post_4 = i;
     i = i + 1;
-    attrib_list[(signed long int)tmp_post$4] = attrs->context_minor_version;
+    attrib_list[(signed long int)tmp_post_4] = attrs->context_minor_version;
   }
 
-  _Bool return_value_wcore_config_attrs_version_ge$11;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
-  signed int tmp_post$12;
-  signed int tmp_post$13;
-  signed int tmp_post$14;
-  signed int tmp_post$15;
-  signed int tmp_post$16;
+  _Bool return_value_wcore_config_attrs_version_ge_11;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
+  signed int tmp_post_12;
+  signed int tmp_post_13;
+  signed int tmp_post_14;
+  signed int tmp_post_15;
+  signed int tmp_post_16;
   switch(attrs->context_api)
   {
     case 523:
     {
-      return_value_wcore_config_attrs_version_ge$11=wcore_config_attrs_version_ge(attrs, 32);
-      if(!(return_value_wcore_config_attrs_version_ge$11 == (_Bool)0))
+      return_value_wcore_config_attrs_version_ge_11=wcore_config_attrs_version_ge(attrs, 32);
+      if(!(return_value_wcore_config_attrs_version_ge_11 == (_Bool)0))
         switch(attrs->context_profile)
         {
           case 529:
           {
-            tmp_post$7 = i;
+            tmp_post_7 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$7] = 0x9126;
-            tmp_post$8 = i;
+            attrib_list[(signed long int)tmp_post_7] = 0x9126;
+            tmp_post_8 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$8] = 0x00000001;
+            attrib_list[(signed long int)tmp_post_8] = 0x00000001;
             break;
           }
           case 530:
           {
-            tmp_post$9 = i;
+            tmp_post_9 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$9] = 0x9126;
-            tmp_post$10 = i;
+            attrib_list[(signed long int)tmp_post_9] = 0x9126;
+            tmp_post_10 = i;
             i = i + 1;
-            attrib_list[(signed long int)tmp_post$10] = 0x00000002;
+            attrib_list[(signed long int)tmp_post_10] = 0x00000002;
           }
         }
 
@@ -6391,12 +6391,12 @@ static _Bool glx_context_fill_attrib_list(struct glx_config *config, signed int 
 
     case 532:
     {
-      tmp_post$12 = i;
+      tmp_post_12 = i;
       i = i + 1;
-      attrib_list[(signed long int)tmp_post$12] = 0x9126;
-      tmp_post$13 = i;
+      attrib_list[(signed long int)tmp_post_12] = 0x9126;
+      tmp_post_13 = i;
       i = i + 1;
-      attrib_list[(signed long int)tmp_post$13] = 0x00000004;
+      attrib_list[(signed long int)tmp_post_13] = 0x00000004;
     }
     default:
     {
@@ -6408,17 +6408,17 @@ static _Bool glx_context_fill_attrib_list(struct glx_config *config, signed int 
 
       if(!(context_flags == 0))
       {
-        tmp_post$14 = i;
+        tmp_post_14 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$14] = 0x2094;
-        tmp_post$15 = i;
+        attrib_list[(signed long int)tmp_post_14] = 0x2094;
+        tmp_post_15 = i;
         i = i + 1;
-        attrib_list[(signed long int)tmp_post$15] = context_flags;
+        attrib_list[(signed long int)tmp_post_15] = context_flags;
       }
 
-      tmp_post$16 = i;
+      tmp_post_16 = i;
       i = i + 1;
-      attrib_list[(signed long int)tmp_post$16] = 0;
+      attrib_list[(signed long int)tmp_post_16] = 0;
       return (_Bool)1;
     }
   }
@@ -6431,13 +6431,13 @@ union waffle_native_context * glx_context_get_native(struct wcore_context *wc_se
   struct glx_context *self;
   self=glx_context(wc_self);
   struct glx_display *dpy;
-  dpy=glx_display$link1(wc_self->display);
+  dpy=glx_display_link1(wc_self->display);
   union waffle_native_context *n_ctx;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_glx_context) /*16ul*/ );
-    n_ctx = (union waffle_native_context *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_glx_context) /*16ul*/ );
+    n_ctx = (union waffle_native_context *)return_value_wcore_malloc_1;
     if(!(n_ctx == ((union waffle_native_context *)NULL)))
       n_ctx->glx = (struct waffle_glx_context *)(void *)(n_ctx + (signed long int)1);
 
@@ -6458,76 +6458,76 @@ union waffle_native_context * glx_context_get_native(struct wcore_context *wc_se
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
 static inline struct glx_display * glx_display(struct wcore_display *wcore_self)
 {
-  struct glx_display *tmp_statement_expression$1;
+  struct glx_display *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_display *)NULL)))
   {
     const struct wcore_display *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct glx_display *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct glx_display *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct glx_display *)NULL);
 }
 
-// glx_display$link1
+// glx_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link1(struct wcore_display *wcore_self$link1)
+static inline struct glx_display * glx_display_link1(struct wcore_display *wcore_self_link1)
 {
-  struct glx_display *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_display *)NULL)))
+  struct glx_display *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct glx_display *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_display *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct glx_display *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
     return ((struct glx_display *)NULL);
 }
 
-// glx_display$link2
+// glx_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link2(struct wcore_display *wcore_self$link2)
+static inline struct glx_display * glx_display_link2(struct wcore_display *wcore_self_link2)
 {
-  struct glx_display *tmp_statement_expression$1$link2;
-  if(!(wcore_self$link2 == ((struct wcore_display *)NULL)))
+  struct glx_display *tmp_statement_expression_1_link2;
+  if(!(wcore_self_link2 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link2 = wcore_self$link2;
-    tmp_statement_expression$1$link2 = (struct glx_display *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wcore_display *__mptr_link2 = wcore_self_link2;
+    tmp_statement_expression_1_link2 = (struct glx_display *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
     return ((struct glx_display *)NULL);
 }
 
-// glx_display$link3
+// glx_display_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link3(struct wcore_display *wcore_self$link3)
+static inline struct glx_display * glx_display_link3(struct wcore_display *wcore_self_link3)
 {
-  struct glx_display *tmp_statement_expression$1$link3;
-  if(!(wcore_self$link3 == ((struct wcore_display *)NULL)))
+  struct glx_display *tmp_statement_expression_1_link3;
+  if(!(wcore_self_link3 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link3 = wcore_self$link3;
-    tmp_statement_expression$1$link3 = (struct glx_display *)((void *)__mptr$link3 - (signed long int)0ul);
-    return tmp_statement_expression$1$link3;
+    const struct wcore_display *__mptr_link3 = wcore_self_link3;
+    tmp_statement_expression_1_link3 = (struct glx_display *)((void *)__mptr_link3 - (signed long int)0ul);
+    return tmp_statement_expression_1_link3;
   }
 
   else
     return ((struct glx_display *)NULL);
 }
 
-// glx_display$link4
+// glx_display_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_display.h line 53
-static inline struct glx_display * glx_display$link4(struct wcore_display *wcore_self$link4)
+static inline struct glx_display * glx_display_link4(struct wcore_display *wcore_self_link4)
 {
-  struct glx_display *tmp_statement_expression$1$link4;
-  if(!(wcore_self$link4 == ((struct wcore_display *)NULL)))
+  struct glx_display *tmp_statement_expression_1_link4;
+  if(!(wcore_self_link4 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link4 = wcore_self$link4;
-    tmp_statement_expression$1$link4 = (struct glx_display *)((void *)__mptr$link4 - (signed long int)0ul);
-    return tmp_statement_expression$1$link4;
+    const struct wcore_display *__mptr_link4 = wcore_self_link4;
+    tmp_statement_expression_1_link4 = (struct glx_display *)((void *)__mptr_link4 - (signed long int)0ul);
+    return tmp_statement_expression_1_link4;
   }
 
   else
@@ -6540,9 +6540,9 @@ struct wcore_display * glx_display_connect(struct wcore_platform *wc_plat, const
 {
   struct glx_display *self;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct glx_display) /*48ul*/ );
-  self = (struct glx_display *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct glx_display) /*48ul*/ );
+  self = (struct glx_display *)return_value_wcore_calloc_1;
   if(self == ((struct glx_display *)NULL))
     return (struct wcore_display *)(void *)0;
 
@@ -6578,19 +6578,19 @@ struct wcore_display * glx_display_connect(struct wcore_platform *wc_plat, const
 _Bool glx_display_destroy(struct wcore_display *wc_self)
 {
   struct glx_display *self;
-  self=glx_display$link2(wc_self);
+  self=glx_display_link2(wc_self);
   _Bool ok = (_Bool)1;
   if(self == ((struct glx_display *)NULL))
     return ok;
 
   else
   {
-    _Bool return_value_x11_display_teardown$1;
-    return_value_x11_display_teardown$1=x11_display_teardown(&self->x11);
-    ok = ((signed int)ok & (signed int)return_value_x11_display_teardown$1) != 0;
-    _Bool return_value_wcore_display_teardown$2;
-    return_value_wcore_display_teardown$2=wcore_display_teardown(&self->wcore);
-    ok = ((signed int)ok & (signed int)return_value_wcore_display_teardown$2) != 0;
+    _Bool return_value_x11_display_teardown_1;
+    return_value_x11_display_teardown_1=x11_display_teardown(&self->x11);
+    ok = ((signed int)ok & (signed int)return_value_x11_display_teardown_1) != 0;
+    _Bool return_value_wcore_display_teardown_2;
+    return_value_wcore_display_teardown_2=wcore_display_teardown(&self->wcore);
+    ok = ((signed int)ok & (signed int)return_value_wcore_display_teardown_2) != 0;
     free((void *)self);
     return ok;
   }
@@ -6601,13 +6601,13 @@ _Bool glx_display_destroy(struct wcore_display *wc_self)
 union waffle_native_display * glx_display_get_native(struct wcore_display *wc_self)
 {
   struct glx_display *self;
-  self=glx_display$link2(wc_self);
+  self=glx_display_link2(wc_self);
   union waffle_native_display *n_dpy;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_glx_display) /*8ul*/ );
-    n_dpy = (union waffle_native_display *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_glx_display) /*8ul*/ );
+    n_dpy = (union waffle_native_display *)return_value_wcore_malloc_1;
     if(!(n_dpy == ((union waffle_native_display *)NULL)))
       n_dpy->glx = (struct waffle_glx_display *)(void *)(n_dpy + (signed long int)1);
 
@@ -6628,7 +6628,7 @@ union waffle_native_display * glx_display_get_native(struct wcore_display *wc_se
 static _Bool glx_display_set_extensions(struct glx_display *self)
 {
   struct glx_platform *platform;
-  platform=glx_platform$link2(self->wcore.platform);
+  platform=glx_platform_link2(self->wcore.platform);
   const char *s;
   s=wrapped_glXQueryExtensionsString(platform, self->x11.xlib, self->x11.screen);
   if(s == ((const char *)NULL))
@@ -6656,15 +6656,15 @@ static _Bool glx_display_set_extensions(struct glx_display *self)
 _Bool glx_display_supports_context_api(struct wcore_display *wc_self, signed int context_api)
 {
   struct glx_display *self;
-  self=glx_display$link2(wc_self);
+  self=glx_display_link2(wc_self);
   struct glx_platform *plat;
-  plat=glx_platform$link2(wc_self->platform);
-  _Bool tmp_if_expr$2;
-  _Bool return_value_linux_platform_dl_can_open$1;
-  _Bool tmp_if_expr$4;
-  _Bool return_value_linux_platform_dl_can_open$3;
-  _Bool tmp_if_expr$6;
-  _Bool return_value_linux_platform_dl_can_open$5;
+  plat=glx_platform_link2(wc_self->platform);
+  _Bool tmp_if_expr_2;
+  _Bool return_value_linux_platform_dl_can_open_1;
+  _Bool tmp_if_expr_4;
+  _Bool return_value_linux_platform_dl_can_open_3;
+  _Bool tmp_if_expr_6;
+  _Bool return_value_linux_platform_dl_can_open_5;
   switch(context_api)
   {
     case 523:
@@ -6673,37 +6673,37 @@ _Bool glx_display_supports_context_api(struct wcore_display *wc_self, signed int
     {
       if(!(self->EXT_create_context_es_profile == (_Bool)0))
       {
-        return_value_linux_platform_dl_can_open$1=linux_platform_dl_can_open(plat->linux, 770);
-        tmp_if_expr$2 = return_value_linux_platform_dl_can_open$1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+        return_value_linux_platform_dl_can_open_1=linux_platform_dl_can_open(plat->linux, 770);
+        tmp_if_expr_2 = return_value_linux_platform_dl_can_open_1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      return tmp_if_expr$2;
+        tmp_if_expr_2 = (_Bool)0;
+      return tmp_if_expr_2;
     }
     case 525:
     {
       if(!(self->EXT_create_context_es2_profile == (_Bool)0))
       {
-        return_value_linux_platform_dl_can_open$3=linux_platform_dl_can_open(plat->linux, 771);
-        tmp_if_expr$4 = return_value_linux_platform_dl_can_open$3 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+        return_value_linux_platform_dl_can_open_3=linux_platform_dl_can_open(plat->linux, 771);
+        tmp_if_expr_4 = return_value_linux_platform_dl_can_open_3 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      return tmp_if_expr$4;
+        tmp_if_expr_4 = (_Bool)0;
+      return tmp_if_expr_4;
     }
     case 532:
     {
       if(!(self->EXT_create_context_es_profile == (_Bool)0))
       {
-        return_value_linux_platform_dl_can_open$5=linux_platform_dl_can_open(plat->linux, 772);
-        tmp_if_expr$6 = return_value_linux_platform_dl_can_open$5 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+        return_value_linux_platform_dl_can_open_5=linux_platform_dl_can_open(plat->linux, 772);
+        tmp_if_expr_6 = return_value_linux_platform_dl_can_open_5 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      return tmp_if_expr$6;
+        tmp_if_expr_6 = (_Bool)0;
+      return tmp_if_expr_6;
     }
     default:
     {
@@ -6717,76 +6717,76 @@ _Bool glx_display_supports_context_api(struct wcore_display *wc_self, signed int
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
 static inline struct glx_platform * glx_platform(struct wcore_platform *wcore_self)
 {
-  struct glx_platform *tmp_statement_expression$1;
+  struct glx_platform *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_platform *)NULL)))
   {
     const struct wcore_platform *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct glx_platform *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct glx_platform *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct glx_platform *)NULL);
 }
 
-// glx_platform$link1
+// glx_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link1(struct wcore_platform *wcore_self$link1)
+static inline struct glx_platform * glx_platform_link1(struct wcore_platform *wcore_self_link1)
 {
-  struct glx_platform *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_platform *)NULL)))
+  struct glx_platform *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct glx_platform *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_platform *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct glx_platform *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
     return ((struct glx_platform *)NULL);
 }
 
-// glx_platform$link2
+// glx_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link2(struct wcore_platform *wcore_self$link2)
+static inline struct glx_platform * glx_platform_link2(struct wcore_platform *wcore_self_link2)
 {
-  struct glx_platform *tmp_statement_expression$1$link2;
-  if(!(wcore_self$link2 == ((struct wcore_platform *)NULL)))
+  struct glx_platform *tmp_statement_expression_1_link2;
+  if(!(wcore_self_link2 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link2 = wcore_self$link2;
-    tmp_statement_expression$1$link2 = (struct glx_platform *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wcore_platform *__mptr_link2 = wcore_self_link2;
+    tmp_statement_expression_1_link2 = (struct glx_platform *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
     return ((struct glx_platform *)NULL);
 }
 
-// glx_platform$link3
+// glx_platform_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link3(struct wcore_platform *wcore_self$link3)
+static inline struct glx_platform * glx_platform_link3(struct wcore_platform *wcore_self_link3)
 {
-  struct glx_platform *tmp_statement_expression$1$link3;
-  if(!(wcore_self$link3 == ((struct wcore_platform *)NULL)))
+  struct glx_platform *tmp_statement_expression_1_link3;
+  if(!(wcore_self_link3 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link3 = wcore_self$link3;
-    tmp_statement_expression$1$link3 = (struct glx_platform *)((void *)__mptr$link3 - (signed long int)0ul);
-    return tmp_statement_expression$1$link3;
+    const struct wcore_platform *__mptr_link3 = wcore_self_link3;
+    tmp_statement_expression_1_link3 = (struct glx_platform *)((void *)__mptr_link3 - (signed long int)0ul);
+    return tmp_statement_expression_1_link3;
   }
 
   else
     return ((struct glx_platform *)NULL);
 }
 
-// glx_platform$link4
+// glx_platform_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.h line 64
-static inline struct glx_platform * glx_platform$link4(struct wcore_platform *wcore_self$link4)
+static inline struct glx_platform * glx_platform_link4(struct wcore_platform *wcore_self_link4)
 {
-  struct glx_platform *tmp_statement_expression$1$link4;
-  if(!(wcore_self$link4 == ((struct wcore_platform *)NULL)))
+  struct glx_platform *tmp_statement_expression_1_link4;
+  if(!(wcore_self_link4 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link4 = wcore_self$link4;
-    tmp_statement_expression$1$link4 = (struct glx_platform *)((void *)__mptr$link4 - (signed long int)0ul);
-    return tmp_statement_expression$1$link4;
+    const struct wcore_platform *__mptr_link4 = wcore_self_link4;
+    tmp_statement_expression_1_link4 = (struct glx_platform *)((void *)__mptr_link4 - (signed long int)0ul);
+    return tmp_statement_expression_1_link4;
   }
 
   else
@@ -6799,123 +6799,123 @@ struct wcore_platform * glx_platform_create(void)
 {
   struct glx_platform *self;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct glx_platform) /*104ul*/ );
-  self = (struct glx_platform *)return_value_wcore_calloc$1;
-  void *return_value_dlsym$3;
-  void *return_value_dlsym$5;
-  void *return_value_dlsym$7;
-  void *return_value_dlsym$9;
-  void *return_value_dlsym$11;
-  void *return_value_dlsym$13;
-  void *return_value_dlsym$15;
-  void *return_value_dlsym$17;
-  void *return_value_dlsym$19;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct glx_platform) /*104ul*/ );
+  self = (struct glx_platform *)return_value_wcore_calloc_1;
+  void *return_value_dlsym_3;
+  void *return_value_dlsym_5;
+  void *return_value_dlsym_7;
+  void *return_value_dlsym_9;
+  void *return_value_dlsym_11;
+  void *return_value_dlsym_13;
+  void *return_value_dlsym_15;
+  void *return_value_dlsym_17;
+  void *return_value_dlsym_19;
   void *return_value;
   if(self == ((struct glx_platform *)NULL))
     return (struct wcore_platform *)(void *)0;
 
   else
   {
-    ok=wcore_platform_init$link1(&self->wcore);
+    ok=wcore_platform_init_link1(&self->wcore);
     if(!(ok == (_Bool)0))
     {
       self->glxHandle=dlopen(libGL_filename, 0x00001 | 0);
       if(self->glxHandle == NULL)
       {
-        char *return_value_dlerror$2;
-        return_value_dlerror$2=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlopen(\"%s\") failed: %s", libGL_filename, return_value_dlerror$2);
+        char *return_value_dlerror_2;
+        return_value_dlerror_2=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlopen(\"%s\") failed: %s", libGL_filename, return_value_dlerror_2);
         goto error;
       }
 
-      return_value_dlsym$3=dlsym(self->glxHandle, "glXCreateNewContext");
-      self->glXCreateNewContext = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))return_value_dlsym$3;
+      return_value_dlsym_3=dlsym(self->glxHandle, "glXCreateNewContext");
+      self->glXCreateNewContext = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))return_value_dlsym_3;
       if(self->glXCreateNewContext == ((struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))NULL))
       {
-        char *return_value_dlerror$4;
-        return_value_dlerror$4=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXCreateNewContext\") failed: %s", libGL_filename, return_value_dlerror$4);
+        char *return_value_dlerror_4;
+        return_value_dlerror_4=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXCreateNewContext\") failed: %s", libGL_filename, return_value_dlerror_4);
         goto error;
       }
 
-      return_value_dlsym$5=dlsym(self->glxHandle, "glXDestroyContext");
-      self->glXDestroyContext = (void (*)(struct _XDisplay *, struct __GLXcontextRec *))return_value_dlsym$5;
+      return_value_dlsym_5=dlsym(self->glxHandle, "glXDestroyContext");
+      self->glXDestroyContext = (void (*)(struct _XDisplay *, struct __GLXcontextRec *))return_value_dlsym_5;
       if(self->glXDestroyContext == ((void (*)(struct _XDisplay *, struct __GLXcontextRec *))NULL))
       {
-        char *return_value_dlerror$6;
-        return_value_dlerror$6=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXDestroyContext\") failed: %s", libGL_filename, return_value_dlerror$6);
+        char *return_value_dlerror_6;
+        return_value_dlerror_6=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXDestroyContext\") failed: %s", libGL_filename, return_value_dlerror_6);
         goto error;
       }
 
-      return_value_dlsym$7=dlsym(self->glxHandle, "glXMakeCurrent");
-      self->glXMakeCurrent = (signed int (*)(struct _XDisplay *, unsigned long int, struct __GLXcontextRec *))return_value_dlsym$7;
+      return_value_dlsym_7=dlsym(self->glxHandle, "glXMakeCurrent");
+      self->glXMakeCurrent = (signed int (*)(struct _XDisplay *, unsigned long int, struct __GLXcontextRec *))return_value_dlsym_7;
       if(self->glXMakeCurrent == ((signed int (*)(struct _XDisplay *, unsigned long int, struct __GLXcontextRec *))NULL))
       {
-        char *return_value_dlerror$8;
-        return_value_dlerror$8=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXMakeCurrent\") failed: %s", libGL_filename, return_value_dlerror$8);
+        char *return_value_dlerror_8;
+        return_value_dlerror_8=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXMakeCurrent\") failed: %s", libGL_filename, return_value_dlerror_8);
         goto error;
       }
 
-      return_value_dlsym$9=dlsym(self->glxHandle, "glXQueryExtensionsString");
-      self->glXQueryExtensionsString = (const char * (*)(struct _XDisplay *, signed int))return_value_dlsym$9;
+      return_value_dlsym_9=dlsym(self->glxHandle, "glXQueryExtensionsString");
+      self->glXQueryExtensionsString = (const char * (*)(struct _XDisplay *, signed int))return_value_dlsym_9;
       if(self->glXQueryExtensionsString == ((const char * (*)(struct _XDisplay *, signed int))NULL))
       {
-        char *return_value_dlerror$10;
-        return_value_dlerror$10=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXQueryExtensionsString\") failed: %s", libGL_filename, return_value_dlerror$10);
+        char *return_value_dlerror_10;
+        return_value_dlerror_10=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXQueryExtensionsString\") failed: %s", libGL_filename, return_value_dlerror_10);
         goto error;
       }
 
-      return_value_dlsym$11=dlsym(self->glxHandle, "glXGetProcAddress");
-      self->glXGetProcAddress = (void * (*)(const unsigned char *))return_value_dlsym$11;
+      return_value_dlsym_11=dlsym(self->glxHandle, "glXGetProcAddress");
+      self->glXGetProcAddress = (void * (*)(const unsigned char *))return_value_dlsym_11;
       if(self->glXGetProcAddress == ((void * (*)(const unsigned char *))NULL))
       {
-        char *return_value_dlerror$12;
-        return_value_dlerror$12=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXGetProcAddress\") failed: %s", libGL_filename, return_value_dlerror$12);
+        char *return_value_dlerror_12;
+        return_value_dlerror_12=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXGetProcAddress\") failed: %s", libGL_filename, return_value_dlerror_12);
         goto error;
       }
 
-      return_value_dlsym$13=dlsym(self->glxHandle, "glXGetVisualFromFBConfig");
-      self->glXGetVisualFromFBConfig = (struct anonymous$4 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))return_value_dlsym$13;
-      if(self->glXGetVisualFromFBConfig == ((struct anonymous$4 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))NULL))
+      return_value_dlsym_13=dlsym(self->glxHandle, "glXGetVisualFromFBConfig");
+      self->glXGetVisualFromFBConfig = (struct anonymous_4 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))return_value_dlsym_13;
+      if(self->glXGetVisualFromFBConfig == ((struct anonymous_4 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))NULL))
       {
-        char *return_value_dlerror$14;
-        return_value_dlerror$14=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXGetVisualFromFBConfig\") failed: %s", libGL_filename, return_value_dlerror$14);
+        char *return_value_dlerror_14;
+        return_value_dlerror_14=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXGetVisualFromFBConfig\") failed: %s", libGL_filename, return_value_dlerror_14);
         goto error;
       }
 
-      return_value_dlsym$15=dlsym(self->glxHandle, "glXGetFBConfigAttrib");
-      self->glXGetFBConfigAttrib = (signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))return_value_dlsym$15;
+      return_value_dlsym_15=dlsym(self->glxHandle, "glXGetFBConfigAttrib");
+      self->glXGetFBConfigAttrib = (signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))return_value_dlsym_15;
       if(self->glXGetFBConfigAttrib == ((signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))NULL))
       {
-        char *return_value_dlerror$16;
-        return_value_dlerror$16=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXGetFBConfigAttrib\") failed: %s", libGL_filename, return_value_dlerror$16);
+        char *return_value_dlerror_16;
+        return_value_dlerror_16=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXGetFBConfigAttrib\") failed: %s", libGL_filename, return_value_dlerror_16);
         goto error;
       }
 
-      return_value_dlsym$17=dlsym(self->glxHandle, "glXChooseFBConfig");
-      self->glXChooseFBConfig = (struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, const signed int *, signed int *))return_value_dlsym$17;
+      return_value_dlsym_17=dlsym(self->glxHandle, "glXChooseFBConfig");
+      self->glXChooseFBConfig = (struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, const signed int *, signed int *))return_value_dlsym_17;
       if(self->glXChooseFBConfig == ((struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, const signed int *, signed int *))NULL))
       {
-        char *return_value_dlerror$18;
-        return_value_dlerror$18=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXChooseFBConfig\") failed: %s", libGL_filename, return_value_dlerror$18);
+        char *return_value_dlerror_18;
+        return_value_dlerror_18=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXChooseFBConfig\") failed: %s", libGL_filename, return_value_dlerror_18);
         goto error;
       }
 
-      return_value_dlsym$19=dlsym(self->glxHandle, "glXSwapBuffers");
-      self->glXSwapBuffers = (void (*)(struct _XDisplay *, unsigned long int))return_value_dlsym$19;
+      return_value_dlsym_19=dlsym(self->glxHandle, "glXSwapBuffers");
+      self->glXSwapBuffers = (void (*)(struct _XDisplay *, unsigned long int))return_value_dlsym_19;
       if(self->glXSwapBuffers == ((void (*)(struct _XDisplay *, unsigned long int))NULL))
       {
-        char *return_value_dlerror$20;
-        return_value_dlerror$20=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXSwapBuffers\") failed: %s", libGL_filename, return_value_dlerror$20);
+        char *return_value_dlerror_20;
+        return_value_dlerror_20=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"glXSwapBuffers\") failed: %s", libGL_filename, return_value_dlerror_20);
         goto error;
       }
 
@@ -6945,10 +6945,10 @@ struct wcore_platform * glx_platform_create(void)
 static _Bool glx_platform_destroy(struct wcore_platform *wc_self)
 {
   struct glx_platform *self;
-  self=glx_platform$link3(wc_self);
+  self=glx_platform_link3(wc_self);
   _Bool ok = (_Bool)1;
   signed int error = 0;
-  _Bool return_value_linux_platform_destroy$1;
+  _Bool return_value_linux_platform_destroy_1;
   if(self == ((struct glx_platform *)NULL))
     return (_Bool)1;
 
@@ -6956,8 +6956,8 @@ static _Bool glx_platform_destroy(struct wcore_platform *wc_self)
   {
     if(!(self->linux == ((struct linux_platform *)NULL)))
     {
-      return_value_linux_platform_destroy$1=linux_platform_destroy(self->linux);
-      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy$1) != 0;
+      return_value_linux_platform_destroy_1=linux_platform_destroy(self->linux);
+      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy_1) != 0;
     }
 
     if(!(self->glxHandle == NULL))
@@ -6966,16 +6966,16 @@ static _Bool glx_platform_destroy(struct wcore_platform *wc_self)
       if(!(error == 0))
       {
         ok = ((signed int)ok & 0) != 0;
-        char *return_value_dlerror$2;
-        return_value_dlerror$2=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(\"%s\") failed: %s", libGL_filename, return_value_dlerror$2);
+        char *return_value_dlerror_2;
+        return_value_dlerror_2=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(\"%s\") failed: %s", libGL_filename, return_value_dlerror_2);
       }
 
     }
 
-    _Bool return_value_wcore_platform_teardown$3;
-    return_value_wcore_platform_teardown$3=wcore_platform_teardown$link1(wc_self);
-    ok = ((signed int)ok & (signed int)return_value_wcore_platform_teardown$3) != 0;
+    _Bool return_value_wcore_platform_teardown_3;
+    return_value_wcore_platform_teardown_3=wcore_platform_teardown_link1(wc_self);
+    ok = ((signed int)ok & (signed int)return_value_wcore_platform_teardown_3) != 0;
     free((void *)self);
     return ok;
   }
@@ -6985,22 +6985,22 @@ static _Bool glx_platform_destroy(struct wcore_platform *wc_self)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.c line 160
 static _Bool glx_platform_dl_can_open(struct wcore_platform *wc_self, signed int waffle_dl)
 {
-  struct glx_platform *return_value_glx_platform$1;
-  return_value_glx_platform$1=glx_platform$link3(wc_self);
-  _Bool return_value_linux_platform_dl_can_open$2;
-  return_value_linux_platform_dl_can_open$2=linux_platform_dl_can_open(return_value_glx_platform$1->linux, waffle_dl);
-  return return_value_linux_platform_dl_can_open$2;
+  struct glx_platform *return_value_glx_platform_1;
+  return_value_glx_platform_1=glx_platform_link3(wc_self);
+  _Bool return_value_linux_platform_dl_can_open_2;
+  return_value_linux_platform_dl_can_open_2=linux_platform_dl_can_open(return_value_glx_platform_1->linux, waffle_dl);
+  return return_value_linux_platform_dl_can_open_2;
 }
 
 // glx_platform_dl_sym
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_platform.c line 168
 static void * glx_platform_dl_sym(struct wcore_platform *wc_self, signed int waffle_dl, const char *name)
 {
-  struct glx_platform *return_value_glx_platform$1;
-  return_value_glx_platform$1=glx_platform$link3(wc_self);
-  void *return_value_linux_platform_dl_sym$2;
-  return_value_linux_platform_dl_sym$2=linux_platform_dl_sym(return_value_glx_platform$1->linux, waffle_dl, name);
-  return return_value_linux_platform_dl_sym$2;
+  struct glx_platform *return_value_glx_platform_1;
+  return_value_glx_platform_1=glx_platform_link3(wc_self);
+  void *return_value_linux_platform_dl_sym_2;
+  return_value_linux_platform_dl_sym_2=linux_platform_dl_sym(return_value_glx_platform_1->linux, waffle_dl, name);
+  return return_value_linux_platform_dl_sym_2;
 }
 
 // glx_platform_get_proc_address
@@ -7008,7 +7008,7 @@ static void * glx_platform_dl_sym(struct wcore_platform *wc_self, signed int waf
 static void * glx_platform_get_proc_address(struct wcore_platform *wc_self, const char *name)
 {
   struct glx_platform *self;
-  self=glx_platform$link3(wc_self);
+  self=glx_platform_link3(wc_self);
   void *return_value;
   return_value=self->glXGetProcAddress((const unsigned char *)name);
   return return_value;
@@ -7019,39 +7019,39 @@ static void * glx_platform_get_proc_address(struct wcore_platform *wc_self, cons
 static _Bool glx_platform_make_current(struct wcore_platform *wc_self, struct wcore_display *wc_dpy, struct wcore_window *wc_window, struct wcore_context *wc_ctx)
 {
   struct glx_platform *self;
-  self=glx_platform$link3(wc_self);
+  self=glx_platform_link3(wc_self);
   struct _XDisplay *dpy;
-  struct glx_display *return_value_glx_display$1;
-  return_value_glx_display$1=glx_display$link3(wc_dpy);
-  dpy = return_value_glx_display$1->x11.xlib;
+  struct glx_display *return_value_glx_display_1;
+  return_value_glx_display_1=glx_display_link3(wc_dpy);
+  dpy = return_value_glx_display_1->x11.xlib;
   unsigned long int win;
-  unsigned int tmp_if_expr$3;
-  struct glx_window *return_value_glx_window$2;
+  unsigned int tmp_if_expr_3;
+  struct glx_window *return_value_glx_window_2;
   if(!(wc_window == ((struct wcore_window *)NULL)))
   {
-    return_value_glx_window$2=glx_window(wc_window);
-    tmp_if_expr$3 = return_value_glx_window$2->x11.xcb;
+    return_value_glx_window_2=glx_window(wc_window);
+    tmp_if_expr_3 = return_value_glx_window_2->x11.xcb;
   }
 
   else
-    tmp_if_expr$3 = (unsigned int)0;
-  win = (unsigned long int)tmp_if_expr$3;
+    tmp_if_expr_3 = (unsigned int)0;
+  win = (unsigned long int)tmp_if_expr_3;
   struct __GLXcontextRec *ctx;
-  struct __GLXcontextRec *tmp_if_expr$5;
-  struct glx_context *return_value_glx_context$4;
+  struct __GLXcontextRec *tmp_if_expr_5;
+  struct glx_context *return_value_glx_context_4;
   if(!(wc_ctx == ((struct wcore_context *)NULL)))
   {
-    return_value_glx_context$4=glx_context$link1(wc_ctx);
-    tmp_if_expr$5 = return_value_glx_context$4->glx;
+    return_value_glx_context_4=glx_context_link1(wc_ctx);
+    tmp_if_expr_5 = return_value_glx_context_4->glx;
   }
 
   else
-    tmp_if_expr$5 = (struct __GLXcontextRec *)(void *)0;
-  ctx = tmp_if_expr$5;
+    tmp_if_expr_5 = (struct __GLXcontextRec *)(void *)0;
+  ctx = tmp_if_expr_5;
   _Bool ok;
-  signed int return_value_wrapped_glXMakeCurrent$6;
-  return_value_wrapped_glXMakeCurrent$6=wrapped_glXMakeCurrent(self, dpy, win, ctx);
-  ok = (_Bool)return_value_wrapped_glXMakeCurrent$6;
+  signed int return_value_wrapped_glXMakeCurrent_6;
+  return_value_wrapped_glXMakeCurrent_6=wrapped_glXMakeCurrent(self, dpy, win, ctx);
+  ok = (_Bool)return_value_wrapped_glXMakeCurrent_6;
   if(ok == (_Bool)0)
     wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "glXMakeCurrent failed");
 
@@ -7062,28 +7062,28 @@ static _Bool glx_platform_make_current(struct wcore_platform *wc_self, struct wc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_window.h line 42
 static inline struct glx_window * glx_window(struct wcore_window *wcore_self)
 {
-  struct glx_window *tmp_statement_expression$1;
+  struct glx_window *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_window *)NULL)))
   {
     const struct wcore_window *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct glx_window *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct glx_window *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct glx_window *)NULL);
 }
 
-// glx_window$link1
+// glx_window_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_window.h line 42
-static inline struct glx_window * glx_window$link1(struct wcore_window *wcore_self$link1)
+static inline struct glx_window * glx_window_link1(struct wcore_window *wcore_self_link1)
 {
-  struct glx_window *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_window *)NULL)))
+  struct glx_window *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_window *)NULL)))
   {
-    const struct wcore_window *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct glx_window *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_window *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct glx_window *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
@@ -7096,19 +7096,19 @@ struct wcore_window * glx_window_create(struct wcore_platform *wc_plat, struct w
 {
   struct glx_window *self;
   struct glx_display *dpy;
-  dpy=glx_display$link4(wc_config->display);
+  dpy=glx_display_link4(wc_config->display);
   struct glx_config *config;
-  config=glx_config$link2(wc_config);
+  config=glx_config_link2(wc_config);
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct glx_window) /*32ul*/ );
-  self = (struct glx_window *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct glx_window) /*32ul*/ );
+  self = (struct glx_window *)return_value_wcore_calloc_1;
   if(self == ((struct glx_window *)NULL))
     return (struct wcore_window *)(void *)0;
 
   else
   {
-    ok=wcore_window_init$link1(&self->wcore, wc_config);
+    ok=wcore_window_init_link1(&self->wcore, wc_config);
     if(!(ok == (_Bool)0))
     {
       ok=x11_window_init(&self->x11, &dpy->x11, config->xcb_visual_id, width, height);
@@ -7134,19 +7134,19 @@ struct wcore_window * glx_window_create(struct wcore_platform *wc_plat, struct w
 _Bool glx_window_destroy(struct wcore_window *wc_self)
 {
   struct glx_window *self;
-  self=glx_window$link1(wc_self);
+  self=glx_window_link1(wc_self);
   _Bool ok = (_Bool)1;
   if(wc_self == ((struct wcore_window *)NULL))
     return ok;
 
   else
   {
-    _Bool return_value_x11_window_teardown$1;
-    return_value_x11_window_teardown$1=x11_window_teardown(&self->x11);
-    ok = ((signed int)ok & (signed int)return_value_x11_window_teardown$1) != 0;
-    _Bool return_value_wcore_window_teardown$2;
-    return_value_wcore_window_teardown$2=wcore_window_teardown$link1(wc_self);
-    ok = ((signed int)ok & (signed int)return_value_wcore_window_teardown$2) != 0;
+    _Bool return_value_x11_window_teardown_1;
+    return_value_x11_window_teardown_1=x11_window_teardown(&self->x11);
+    ok = ((signed int)ok & (signed int)return_value_x11_window_teardown_1) != 0;
+    _Bool return_value_wcore_window_teardown_2;
+    return_value_wcore_window_teardown_2=wcore_window_teardown_link1(wc_self);
+    ok = ((signed int)ok & (signed int)return_value_wcore_window_teardown_2) != 0;
     free((void *)self);
     return ok;
   }
@@ -7157,15 +7157,15 @@ _Bool glx_window_destroy(struct wcore_window *wc_self)
 union waffle_native_window * glx_window_get_native(struct wcore_window *wc_self)
 {
   struct glx_window *self;
-  self=glx_window$link1(wc_self);
+  self=glx_window_link1(wc_self);
   struct glx_display *dpy;
-  dpy=glx_display$link4(wc_self->display);
+  dpy=glx_display_link4(wc_self->display);
   union waffle_native_window *n_window;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_glx_window) /*16ul*/ );
-    n_window = (union waffle_native_window *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_glx_window) /*16ul*/ );
+    n_window = (union waffle_native_window *)return_value_wcore_malloc_1;
     if(!(n_window == ((union waffle_native_window *)NULL)))
       n_window->glx = (struct waffle_glx_window *)(void *)(n_window + (signed long int)1);
 
@@ -7186,22 +7186,22 @@ union waffle_native_window * glx_window_get_native(struct wcore_window *wc_self)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_window.h line 59
 _Bool glx_window_resize(struct wcore_window *wc_self, signed int width, signed int height)
 {
-  struct glx_window *return_value_glx_window$1;
-  return_value_glx_window$1=glx_window$link1(wc_self);
-  _Bool return_value_x11_window_resize$2;
-  return_value_x11_window_resize$2=x11_window_resize(&return_value_glx_window$1->x11, width, height);
-  return return_value_x11_window_resize$2;
+  struct glx_window *return_value_glx_window_1;
+  return_value_glx_window_1=glx_window_link1(wc_self);
+  _Bool return_value_x11_window_resize_2;
+  return_value_x11_window_resize_2=x11_window_resize(&return_value_glx_window_1->x11, width, height);
+  return return_value_x11_window_resize_2;
 }
 
 // glx_window_show
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_window.h line 56
 _Bool glx_window_show(struct wcore_window *wc_self)
 {
-  struct glx_window *return_value_glx_window$1;
-  return_value_glx_window$1=glx_window$link1(wc_self);
-  _Bool return_value_x11_window_show$2;
-  return_value_x11_window_show$2=x11_window_show(&return_value_glx_window$1->x11);
-  return return_value_x11_window_show$2;
+  struct glx_window *return_value_glx_window_1;
+  return_value_glx_window_1=glx_window_link1(wc_self);
+  _Bool return_value_x11_window_show_2;
+  return_value_x11_window_show_2=x11_window_show(&return_value_glx_window_1->x11);
+  return return_value_x11_window_show_2;
 }
 
 // glx_window_swap_buffers
@@ -7209,11 +7209,11 @@ _Bool glx_window_show(struct wcore_window *wc_self)
 _Bool glx_window_swap_buffers(struct wcore_window *wc_self)
 {
   struct glx_window *self;
-  self=glx_window$link1(wc_self);
+  self=glx_window_link1(wc_self);
   struct glx_display *dpy;
-  dpy=glx_display$link4(wc_self->display);
+  dpy=glx_display_link4(wc_self->display);
   struct glx_platform *plat;
-  plat=glx_platform$link4(wc_self->display->platform);
+  plat=glx_platform_link4(wc_self->display->platform);
   wrapped_glXSwapBuffers(plat, dpy->x11.xlib, (unsigned long int)self->x11.xcb);
   return (_Bool)1;
 }
@@ -7292,9 +7292,9 @@ _Bool linux_dl_close(struct linux_dl *self)
       error=dlclose(self->dl);
       if(!(error == 0))
       {
-        char *return_value_dlerror$1;
-        return_value_dlerror$1=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(libname=\"%s\") failed: %s", self->name, return_value_dlerror$1);
+        char *return_value_dlerror_1;
+        return_value_dlerror_1=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(libname=\"%s\") failed: %s", self->name, return_value_dlerror_1);
       }
 
     }
@@ -7331,9 +7331,9 @@ static const char * linux_dl_get_name(signed int waffle_dl)
 struct linux_dl * linux_dl_open(signed int waffle_dl)
 {
   struct linux_dl *self;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct linux_dl) /*16ul*/ );
-  self = (struct linux_dl *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct linux_dl) /*16ul*/ );
+  self = (struct linux_dl *)return_value_wcore_calloc_1;
   if(self == ((struct linux_dl *)NULL))
     return (struct linux_dl *)(void *)0;
 
@@ -7345,9 +7345,9 @@ struct linux_dl * linux_dl_open(signed int waffle_dl)
       self->dl=dlopen(self->name, 0x00001);
       if(self->dl == NULL)
       {
-        char *return_value_dlerror$2;
-        return_value_dlerror$2=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlopen(\"%s\") failed: %s", self->name, return_value_dlerror$2);
+        char *return_value_dlerror_2;
+        return_value_dlerror_2=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlopen(\"%s\") failed: %s", self->name, return_value_dlerror_2);
         goto error;
       }
 
@@ -7388,9 +7388,9 @@ void * linux_dl_sym(struct linux_dl *self, const char *symbol)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/linux/linux_platform.h line 34
 struct linux_platform * linux_platform_create(void)
 {
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct linux_platform) /*24ul*/ );
-  return (struct linux_platform *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct linux_platform) /*24ul*/ );
+  return (struct linux_platform *)return_value_wcore_calloc_1;
 }
 
 // linux_platform_destroy
@@ -7403,15 +7403,15 @@ _Bool linux_platform_destroy(struct linux_platform *self)
 
   else
   {
-    _Bool return_value_linux_dl_close$1;
-    return_value_linux_dl_close$1=linux_dl_close(self->libgl);
-    ok = ((signed int)ok & (signed int)return_value_linux_dl_close$1) != 0;
-    _Bool return_value_linux_dl_close$2;
-    return_value_linux_dl_close$2=linux_dl_close(self->libgles1);
-    ok = ((signed int)ok & (signed int)return_value_linux_dl_close$2) != 0;
-    _Bool return_value_linux_dl_close$3;
-    return_value_linux_dl_close$3=linux_dl_close(self->libgles2);
-    ok = ((signed int)ok & (signed int)return_value_linux_dl_close$3) != 0;
+    _Bool return_value_linux_dl_close_1;
+    return_value_linux_dl_close_1=linux_dl_close(self->libgl);
+    ok = ((signed int)ok & (signed int)return_value_linux_dl_close_1) != 0;
+    _Bool return_value_linux_dl_close_2;
+    return_value_linux_dl_close_2=linux_dl_close(self->libgles1);
+    ok = ((signed int)ok & (signed int)return_value_linux_dl_close_2) != 0;
+    _Bool return_value_linux_dl_close_3;
+    return_value_linux_dl_close_3=linux_dl_close(self->libgles2);
+    ok = ((signed int)ok & (signed int)return_value_linux_dl_close_3) != 0;
     free((void *)self);
     return ok;
   }
@@ -7443,9 +7443,9 @@ void * linux_platform_dl_sym(struct linux_platform *self, signed int waffle_dl, 
 
   else
   {
-    void *return_value_linux_dl_sym$1;
-    return_value_linux_dl_sym$1=linux_dl_sym(dl, name);
-    return return_value_linux_dl_sym$1;
+    void *return_value_linux_dl_sym_1;
+    return_value_linux_dl_sym_1=linux_dl_sym(dl, name);
+    return return_value_linux_dl_sym_1;
   }
 }
 
@@ -7506,16 +7506,16 @@ static struct ListNode * list_add(struct ListNode * const head, struct ListNode 
 static struct ListNode * list_add_value(struct ListNode * const head, const void *value, const signed int refcount)
 {
   struct ListNode *new_node;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ListNode) /*32ul*/ );
-  new_node = (struct ListNode *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ListNode) /*32ul*/ );
+  new_node = (struct ListNode *)return_value_malloc_1;
   _assert_true((unsigned long int)head, "head", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 393);
   _assert_true((unsigned long int)value, "value", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 394);
   new_node->value = value;
   new_node->refcount = refcount;
-  struct ListNode *return_value_list_add$2;
-  return_value_list_add$2=list_add(head, new_node);
-  return return_value_list_add$2;
+  struct ListNode *return_value_list_add_2;
+  return_value_list_add_2=list_add(head, new_node);
+  return return_value_list_add_2;
 }
 
 // list_empty
@@ -7555,9 +7555,9 @@ static signed int list_first(struct ListNode * const head, struct ListNode **out
 {
   struct ListNode *target_node;
   _assert_true((unsigned long int)head, "head", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 480);
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty(head);
-  if(!(return_value_list_empty$1 == 0))
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty(head);
+  if(!(return_value_list_empty_1 == 0))
     return 0;
 
   else
@@ -7573,11 +7573,11 @@ static signed int list_first(struct ListNode * const head, struct ListNode **out
 static struct ListNode * list_free(struct ListNode * const head, void (* const cleanup_value)(const void *, void *), void * const cleanup_value_data)
 {
   _assert_true((unsigned long int)head, "head", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 445);
-  signed int return_value_list_empty$1;
+  signed int return_value_list_empty_1;
   do
   {
-    return_value_list_empty$1=list_empty(head);
-    if(!(return_value_list_empty$1 == 0))
+    return_value_list_empty_1=list_empty(head);
+    if(!(return_value_list_empty_1 == 0))
       break;
 
     list_remove_free(head->next, cleanup_value, cleanup_value_data);
@@ -7615,9 +7615,9 @@ static struct ListNode * list_remove(struct ListNode * const node, void (* const
 static void list_remove_free(struct ListNode * const node, void (* const cleanup_value)(const void *, void *), void * const cleanup_value_data)
 {
   _assert_true((unsigned long int)node, "node", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 431);
-  struct ListNode *return_value_list_remove$1;
-  return_value_list_remove$1=list_remove(node, cleanup_value, cleanup_value_data);
-  free((void *)return_value_list_remove$1);
+  struct ListNode *return_value_list_remove_1;
+  return_value_list_remove_1=list_remove(node, cleanup_value, cleanup_value_data);
+  free((void *)return_value_list_remove_1);
 }
 
 // main
@@ -7990,9 +7990,9 @@ signed int main(void)
     .function_type=(enum UnitTestFunctionType)UNIT_TEST_FUNCTION_TYPE_TEST },
     { .name="test_wcore_config_attrs_debug_gles3_teardown", .function=teardown,
     .function_type=(enum UnitTestFunctionType)UNIT_TEST_FUNCTION_TYPE_TEARDOWN } };
-  signed int return_value__run_tests$1;
-  return_value__run_tests$1=_run_tests(tests, sizeof(const struct UnitTest [183l]) /*4392ul*/  / sizeof(const struct UnitTest) /*24ul*/ );
-  return return_value__run_tests$1;
+  signed int return_value__run_tests_1;
+  return_value__run_tests_1=_run_tests(tests, sizeof(const struct UnitTest [183l]) /*4392ul*/  / sizeof(const struct UnitTest) /*24ul*/ );
+  return return_value__run_tests_1;
 }
 
 // memory_equal_display_error
@@ -8078,7 +8078,7 @@ void mtx_destroy(union anonymous *mtx)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 143
 signed int mtx_init(union anonymous *mtx, signed int type)
 {
-  union anonymous$3 attr;
+  union anonymous_3 attr;
   if(mtx == ((union anonymous *)NULL))
     return 2;
 
@@ -8143,9 +8143,9 @@ signed int mtx_trylock(union anonymous *mtx)
 
   else
   {
-    signed int return_value_pthread_mutex_trylock$1;
-    return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(mtx);
-    return return_value_pthread_mutex_trylock$1 == 0 ? 0 : 3;
+    signed int return_value_pthread_mutex_trylock_1;
+    return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(mtx);
+    return return_value_pthread_mutex_trylock_1 == 0 ? 0 : 3;
   }
 }
 
@@ -8178,9 +8178,9 @@ static _Bool parse_bool(const signed int *attrib_list, signed int attrib_name, _
 
     else
     {
-      const char *return_value_wcore_enum_to_string$1;
-      return_value_wcore_enum_to_string$1=wcore_enum_to_string(attrib_name);
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_BAD_ATTRIBUTE, "%s has bad value 0x%x. Must be true(1), false(0), or WAFFLE_DONT_CARE(-1)", return_value_wcore_enum_to_string$1, raw_value);
+      const char *return_value_wcore_enum_to_string_1;
+      return_value_wcore_enum_to_string_1=wcore_enum_to_string(attrib_name);
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_BAD_ATTRIBUTE, "%s has bad value 0x%x. Must be true(1), false(0), or WAFFLE_DONT_CARE(-1)", return_value_wcore_enum_to_string_1, raw_value);
       return (_Bool)0;
     }
   return (_Bool)1;
@@ -8216,9 +8216,9 @@ static _Bool parse_context_api(struct wcore_config_attrs *attrs, const signed in
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 307
 static _Bool parse_context_forward_compatible(struct wcore_config_attrs *attrs, const signed int *attrib_list)
 {
-  _Bool return_value_parse_bool$1;
-  return_value_parse_bool$1=parse_bool(attrib_list, 533, &attrs->context_forward_compatible, (_Bool)0);
-  if(return_value_parse_bool$1 == (_Bool)0)
+  _Bool return_value_parse_bool_1;
+  return_value_parse_bool_1=parse_bool(attrib_list, 533, &attrs->context_forward_compatible, (_Bool)0);
+  if(return_value_parse_bool_1 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -8234,9 +8234,9 @@ static _Bool parse_context_forward_compatible(struct wcore_config_attrs *attrs, 
 
       else
       {
-        _Bool return_value_wcore_config_attrs_version_lt$2;
-        return_value_wcore_config_attrs_version_lt$2=wcore_config_attrs_version_lt(attrs, 30);
-        if(!(return_value_wcore_config_attrs_version_lt$2 == (_Bool)0))
+        _Bool return_value_wcore_config_attrs_version_lt_2;
+        return_value_wcore_config_attrs_version_lt_2=wcore_config_attrs_version_lt(attrs, 30);
+        if(!(return_value_wcore_config_attrs_version_lt_2 == (_Bool)0))
         {
           wcore_errorf((enum waffle_error)WAFFLE_ERROR_BAD_ATTRIBUTE, "To request a forward-compatible context, the context version must be at least 3.0");
           return (_Bool)0;
@@ -8252,26 +8252,26 @@ static _Bool parse_context_forward_compatible(struct wcore_config_attrs *attrs, 
 static _Bool parse_context_profile(struct wcore_config_attrs *attrs, const signed int *attrib_list)
 {
   wcore_attrib_list_get_with_default(attrib_list, 528, &attrs->context_profile, attrs->context_profile);
-  _Bool return_value_wcore_config_attrs_version_ge$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool return_value_wcore_config_attrs_version_lt$1;
+  _Bool return_value_wcore_config_attrs_version_ge_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool return_value_wcore_config_attrs_version_lt_1;
   switch(attrs->context_api)
   {
     case 523:
     {
-      return_value_wcore_config_attrs_version_ge$2=wcore_config_attrs_version_ge(attrs, 32);
-      if(!(return_value_wcore_config_attrs_version_ge$2 == (_Bool)0))
-        tmp_if_expr$3 = attrs->context_profile != 529 ? (_Bool)1 : (_Bool)0;
+      return_value_wcore_config_attrs_version_ge_2=wcore_config_attrs_version_ge(attrs, 32);
+      if(!(return_value_wcore_config_attrs_version_ge_2 == (_Bool)0))
+        tmp_if_expr_3 = attrs->context_profile != 529 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = attrs->context_profile != 530 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = attrs->context_profile != 530 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         wcore_errorf((enum waffle_error)WAFFLE_ERROR_BAD_ATTRIBUTE, "for OpenGL >= 3.2, WAFFLE_CONTEXT_PROFILE must be either WAFFLE_CONTEXT_CORE_PROFILE or WAFFLE_CONTEXT_COMPATIBILITY_PROFILE");
         return (_Bool)0;
@@ -8279,8 +8279,8 @@ static _Bool parse_context_profile(struct wcore_config_attrs *attrs, const signe
 
       else
       {
-        return_value_wcore_config_attrs_version_lt$1=wcore_config_attrs_version_lt(attrs, 32);
-        if(!(return_value_wcore_config_attrs_version_lt$1 == (_Bool)0))
+        return_value_wcore_config_attrs_version_lt_1=wcore_config_attrs_version_lt(attrs, 32);
+        if(!(return_value_wcore_config_attrs_version_lt_1 == (_Bool)0))
         {
           if(!(attrs->context_profile == 0))
           {
@@ -8319,9 +8319,9 @@ static _Bool parse_context_version(struct wcore_config_attrs *attrs, const signe
 {
   wcore_attrib_list_get_with_default(attrib_list, 526, &attrs->context_major_version, attrs->context_major_version);
   wcore_attrib_list_get_with_default(attrib_list, 527, &attrs->context_minor_version, attrs->context_minor_version);
-  _Bool return_value_wcore_config_attrs_version_lt$1;
-  _Bool return_value_wcore_config_attrs_version_eq$3;
-  _Bool return_value_wcore_config_attrs_version_eq$2;
+  _Bool return_value_wcore_config_attrs_version_lt_1;
+  _Bool return_value_wcore_config_attrs_version_eq_3;
+  _Bool return_value_wcore_config_attrs_version_eq_2;
   if(!(attrs->context_major_version >= 1))
   {
     wcore_errorf((enum waffle_error)WAFFLE_ERROR_BAD_ATTRIBUTE, "WAFFLE_CONTEXT_MAJOR_VERSION must be >= 1");
@@ -8341,8 +8341,8 @@ static _Bool parse_context_version(struct wcore_config_attrs *attrs, const signe
       {
         case 523:
         {
-          return_value_wcore_config_attrs_version_lt$1=wcore_config_attrs_version_lt(attrs, 10);
-          if(!(return_value_wcore_config_attrs_version_lt$1 == (_Bool)0))
+          return_value_wcore_config_attrs_version_lt_1=wcore_config_attrs_version_lt(attrs, 10);
+          if(!(return_value_wcore_config_attrs_version_lt_1 == (_Bool)0))
           {
             wcore_errorf((enum waffle_error)WAFFLE_ERROR_BAD_ATTRIBUTE, "for OpenGL, the requested context version must be >= 1.0");
             return (_Bool)0;
@@ -8352,11 +8352,11 @@ static _Bool parse_context_version(struct wcore_config_attrs *attrs, const signe
         }
         case 524:
         {
-          return_value_wcore_config_attrs_version_eq$3=wcore_config_attrs_version_eq(attrs, 10);
-          if(return_value_wcore_config_attrs_version_eq$3 == (_Bool)0)
+          return_value_wcore_config_attrs_version_eq_3=wcore_config_attrs_version_eq(attrs, 10);
+          if(return_value_wcore_config_attrs_version_eq_3 == (_Bool)0)
           {
-            return_value_wcore_config_attrs_version_eq$2=wcore_config_attrs_version_eq(attrs, 11);
-            if(return_value_wcore_config_attrs_version_eq$2 == (_Bool)0)
+            return_value_wcore_config_attrs_version_eq_2=wcore_config_attrs_version_eq(attrs, 11);
+            if(return_value_wcore_config_attrs_version_eq_2 == (_Bool)0)
             {
               wcore_errorf((enum waffle_error)WAFFLE_ERROR_BAD_ATTRIBUTE, "for OpenGL ES1, the requested context version must be 1.0 or 1.1");
               return (_Bool)0;
@@ -8401,10 +8401,10 @@ static _Bool parse_context_version(struct wcore_config_attrs *attrs, const signe
 static _Bool parse_misc(struct wcore_config_attrs *attrs, const signed int *attrib_list)
 {
   signed int i = 0;
-  _Bool return_value_parse_bool$1;
-  _Bool return_value_parse_bool$2;
-  _Bool return_value_parse_bool$3;
-  _Bool return_value_parse_bool$4;
+  _Bool return_value_parse_bool_1;
+  _Bool return_value_parse_bool_2;
+  _Bool return_value_parse_bool_3;
+  _Bool return_value_parse_bool_4;
   for( ; !(attrib_list[(signed long int)i] == 0); i = i + 2)
   {
     signed int key = attrib_list[(signed long int)(i + 0)];
@@ -8507,32 +8507,32 @@ static _Bool parse_misc(struct wcore_config_attrs *attrs, const signed int *attr
       }
       case 534:
       {
-        return_value_parse_bool$1=parse_bool(attrib_list, 534, &attrs->context_debug, (_Bool)0);
-        if(return_value_parse_bool$1 == (_Bool)0)
+        return_value_parse_bool_1=parse_bool(attrib_list, 534, &attrs->context_debug, (_Bool)0);
+        if(return_value_parse_bool_1 == (_Bool)0)
           return (_Bool)0;
 
         break;
       }
       case 519:
       {
-        return_value_parse_bool$2=parse_bool(attrib_list, 519, &attrs->sample_buffers, (_Bool)0);
-        if(return_value_parse_bool$2 == (_Bool)0)
+        return_value_parse_bool_2=parse_bool(attrib_list, 519, &attrs->sample_buffers, (_Bool)0);
+        if(return_value_parse_bool_2 == (_Bool)0)
           return (_Bool)0;
 
         break;
       }
       case 521:
       {
-        return_value_parse_bool$3=parse_bool(attrib_list, 521, &attrs->double_buffered, (_Bool)1);
-        if(return_value_parse_bool$3 == (_Bool)0)
+        return_value_parse_bool_3=parse_bool(attrib_list, 521, &attrs->double_buffered, (_Bool)1);
+        if(return_value_parse_bool_3 == (_Bool)0)
           return (_Bool)0;
 
         break;
       }
       case 531:
       {
-        return_value_parse_bool$4=parse_bool(attrib_list, 531, &attrs->accum_buffer, (_Bool)0);
-        if(return_value_parse_bool$4 == (_Bool)0)
+        return_value_parse_bool_4=parse_bool(attrib_list, 531, &attrs->accum_buffer, (_Bool)0);
+        if(return_value_parse_bool_4 == (_Bool)0)
           return (_Bool)0;
 
         break;
@@ -8591,24 +8591,24 @@ static inline signed int pthread_equal(unsigned long int __thread1, unsigned lon
 static void registry_listener_global(void *data, struct wl_registry *registry, unsigned int name, const char *interface, unsigned int version)
 {
   struct wayland_display *self = (struct wayland_display *)data;
-  signed int return_value_strncmp$4;
-  return_value_strncmp$4=strncmp(interface, "wl_compositor", (unsigned long int)14);
-  signed int return_value_strncmp$3;
-  if(return_value_strncmp$4 == 0)
+  signed int return_value_strncmp_4;
+  return_value_strncmp_4=strncmp(interface, "wl_compositor", (unsigned long int)14);
+  signed int return_value_strncmp_3;
+  if(return_value_strncmp_4 == 0)
   {
-    void *return_value_wl_registry_bind$1;
-    return_value_wl_registry_bind$1=wl_registry_bind(self->wl_registry, name, &wl_compositor_interface, (unsigned int)1);
-    self->wl_compositor = (struct wl_compositor *)return_value_wl_registry_bind$1;
+    void *return_value_wl_registry_bind_1;
+    return_value_wl_registry_bind_1=wl_registry_bind(self->wl_registry, name, &wl_compositor_interface, (unsigned int)1);
+    self->wl_compositor = (struct wl_compositor *)return_value_wl_registry_bind_1;
   }
 
   else
   {
-    return_value_strncmp$3=strncmp(interface, "wl_shell", (unsigned long int)9);
-    if(return_value_strncmp$3 == 0)
+    return_value_strncmp_3=strncmp(interface, "wl_shell", (unsigned long int)9);
+    if(return_value_strncmp_3 == 0)
     {
-      void *return_value_wl_registry_bind$2;
-      return_value_wl_registry_bind$2=wl_registry_bind(self->wl_registry, name, &wl_shell_interface, (unsigned int)1);
-      self->wl_shell = (struct wl_shell *)return_value_wl_registry_bind$2;
+      void *return_value_wl_registry_bind_2;
+      return_value_wl_registry_bind_2=wl_registry_bind(self->wl_registry, name, &wl_shell_interface, (unsigned int)1);
+      self->wl_shell = (struct wl_shell *)return_value_wl_registry_bind_2;
     }
 
   }
@@ -8636,9 +8636,9 @@ static void remove_always_return_values(struct ListNode * const map_head, const 
     struct ListNode *child_list;
     _assert_true((unsigned long int)value, "value", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 626);
     child_list = &value->symbol_values_list_head;
-    signed int return_value_list_empty$1;
-    return_value_list_empty$1=list_empty(child_list);
-    if(return_value_list_empty$1 == 0)
+    signed int return_value_list_empty_1;
+    return_value_list_empty_1=list_empty(child_list);
+    if(return_value_list_empty_1 == 0)
     {
       if(number_of_symbol_names == 1ul)
       {
@@ -8652,9 +8652,9 @@ static void remove_always_return_values(struct ListNode * const map_head, const 
         remove_always_return_values(child_list, number_of_symbol_names - (unsigned long int)1);
     }
 
-    signed int return_value_list_empty$2;
-    return_value_list_empty$2=list_empty(child_list);
-    if(!(return_value_list_empty$2 == 0))
+    signed int return_value_list_empty_2;
+    return_value_list_empty_2=list_empty(child_list);
+    if(!(return_value_list_empty_2 == 0))
       list_remove_free(current, free_value, (void *)0);
 
     current = next;
@@ -8665,13 +8665,13 @@ static void remove_always_return_values(struct ListNode * const map_head, const 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 235
 static _Bool set_context_profile_default(struct wcore_config_attrs *attrs)
 {
-  _Bool return_value_wcore_config_attrs_version_ge$1;
+  _Bool return_value_wcore_config_attrs_version_ge_1;
   switch(attrs->context_api)
   {
     case 523:
     {
-      return_value_wcore_config_attrs_version_ge$1=wcore_config_attrs_version_ge(attrs, 32);
-      if(!(return_value_wcore_config_attrs_version_ge$1 == (_Bool)0))
+      return_value_wcore_config_attrs_version_ge_1=wcore_config_attrs_version_ge(attrs, 32);
+      if(!(return_value_wcore_config_attrs_version_ge_1 == (_Bool)0))
         attrs->context_profile = 529;
 
       else
@@ -8765,9 +8765,9 @@ static void setup(void **state)
 {
   struct test_state_wcore_config_attrs *ts;
   wcore_error_reset();
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct test_state_wcore_config_attrs) /*120ul*/ );
-  ts = (struct test_state_wcore_config_attrs *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct test_state_wcore_config_attrs) /*120ul*/ );
+  ts = (struct test_state_wcore_config_attrs *)return_value_calloc_1;
   *state = (void *)ts;
   memset((void *)&ts->actual_attrs, 0x99, sizeof(struct wcore_config_attrs) /*60ul*/ );
   static struct wcore_config_attrs default_attrs = { .context_api=523, .context_major_version=1, .context_minor_version=0,
@@ -8807,26 +8807,26 @@ static void shell_surface_listener_popup_done(void *data, struct wl_shell_surfac
 static signed int source_location_is_set(const struct SourceLocation * const location)
 {
   _assert_true((unsigned long int)location, "location", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c", 319);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(location->file == ((const char *)NULL)))
-    tmp_if_expr$1 = location->line != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = location->line != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // string_equal_display_error
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 866
 static signed int string_equal_display_error(const char * const left, const char * const right)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(left, right);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  if(tmp_statement_expression$1 == 0)
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(left, right);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  if(tmp_statement_expression_1 == 0)
     return 1;
 
   else
@@ -8840,13 +8840,13 @@ static signed int string_equal_display_error(const char * const left, const char
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 881
 static signed int string_not_equal_display_error(const char * const left, const char * const right)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(left, right);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  if(!(tmp_statement_expression$1 == 0))
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(left, right);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  if(!(tmp_statement_expression_1 == 0))
     return 1;
 
   else
@@ -8860,13 +8860,13 @@ static signed int string_not_equal_display_error(const char * const left, const 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 515
 static signed int symbol_names_match(const void *map_value, const void *symbol)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(((struct SymbolMapValue *)map_value)->symbol_name, (const char *)symbol);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  return (signed int)!(tmp_statement_expression$1 != 0);
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(((struct SymbolMapValue *)map_value)->symbol_name, (const char *)symbol);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  return (signed int)!(tmp_statement_expression_1 != 0);
 }
 
 // teardown
@@ -8893,22 +8893,22 @@ static void test_wcore_config_attrs_accum_buffer_is_bad(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 531, 0x31415926, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 672);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 673);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_ACCUM_BUFFER");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_ACCUM_BUFFER\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 674);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "0x31415926");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"0x31415926\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 675);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 672);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 673);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_ACCUM_BUFFER");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_ACCUM_BUFFER\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 674);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "0x31415926");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"0x31415926\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 675);
 }
 
 // test_wcore_config_attrs_bad_attr
@@ -8917,12 +8917,12 @@ static void test_wcore_config_attrs_bad_attr(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 529, 525, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 224);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 225);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 224);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 225);
 }
 
 // test_wcore_config_attrs_color_buffer_size
@@ -8937,9 +8937,9 @@ static void test_wcore_config_attrs_color_buffer_size(void **state)
   ts->expect_attrs.green_size = 6;
   ts->expect_attrs.rgb_size = 5 + 6;
   ts->expect_attrs.rgba_size = 8 + 5 + 6;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 594);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 594);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 595);
 }
 
@@ -8949,12 +8949,12 @@ static void test_wcore_config_attrs_core_profile_and_accum_buffer(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[11l] = { 522, 523, 526, 3, 527, 2, 528, 529, 531, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 693);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 694);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 693);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 694);
 }
 
 // test_wcore_config_attrs_debug_gl
@@ -8965,12 +8965,12 @@ static void test_wcore_config_attrs_debug_gl(void **state)
   const signed int attrib_list[5l] = { 522, 523, 534, 1, 0 };
   ts->expect_attrs.context_api = 523;
   ts->expect_attrs.context_debug = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1014);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1015);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1014);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1015);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1016);
 }
 
@@ -8984,12 +8984,12 @@ static void test_wcore_config_attrs_debug_gl21(void **state)
   ts->expect_attrs.context_major_version = 2;
   ts->expect_attrs.context_minor_version = 1;
   ts->expect_attrs.context_debug = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1036);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1037);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1036);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1037);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1038);
 }
 
@@ -9004,12 +9004,12 @@ static void test_wcore_config_attrs_debug_gl32_compat(void **state)
   ts->expect_attrs.context_major_version = 3;
   ts->expect_attrs.context_minor_version = 2;
   ts->expect_attrs.context_debug = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1084);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1085);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1084);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1085);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1086);
 }
 
@@ -9024,12 +9024,12 @@ static void test_wcore_config_attrs_debug_gl32_core(void **state)
   ts->expect_attrs.context_major_version = 3;
   ts->expect_attrs.context_minor_version = 2;
   ts->expect_attrs.context_debug = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1060);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1061);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1060);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1061);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1062);
 }
 
@@ -9042,12 +9042,12 @@ static void test_wcore_config_attrs_debug_gles1(void **state)
   ts->expect_attrs.context_api = 524;
   ts->expect_attrs.context_major_version = 1;
   ts->expect_attrs.context_debug = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1103);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1104);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1103);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1104);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1105);
 }
 
@@ -9060,12 +9060,12 @@ static void test_wcore_config_attrs_debug_gles2(void **state)
   ts->expect_attrs.context_api = 525;
   ts->expect_attrs.context_major_version = 2;
   ts->expect_attrs.context_debug = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1122);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1123);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1122);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1123);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1124);
 }
 
@@ -9078,12 +9078,12 @@ static void test_wcore_config_attrs_debug_gles3(void **state)
   ts->expect_attrs.context_api = 532;
   ts->expect_attrs.context_major_version = 3;
   ts->expect_attrs.context_debug = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1141);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1142);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1141);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1142);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 1143);
 }
 
@@ -9093,22 +9093,22 @@ static void test_wcore_config_attrs_double_buffered_is_bad(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 521, 0x31415926, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 640);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 641);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_DOUBLE_BUFFERED");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_DOUBLE_BUFFERED\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 642);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "0x31415926");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"0x31415926\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 643);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 640);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 641);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_DOUBLE_BUFFERED");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_DOUBLE_BUFFERED\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 642);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "0x31415926");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"0x31415926\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 643);
 }
 
 // test_wcore_config_attrs_double_buffered_is_false
@@ -9118,9 +9118,9 @@ static void test_wcore_config_attrs_double_buffered_is_false(void **state)
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 521, 0, 0 };
   ts->expect_attrs.double_buffered = (_Bool)0;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 626);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 626);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 627);
 }
 
@@ -9131,9 +9131,9 @@ static void test_wcore_config_attrs_double_buffered_is_true(void **state)
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 521, 1, 0 };
   ts->expect_attrs.double_buffered = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 610);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 610);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 611);
 }
 
@@ -9143,12 +9143,12 @@ static void test_wcore_config_attrs_empty_attrib_list(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[1l] = { 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 103);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 104);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 103);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 104);
 }
 
 // test_wcore_config_attrs_forward_compat_gl10_emits_bad_attribute
@@ -9157,12 +9157,12 @@ static void test_wcore_config_attrs_forward_compat_gl10_emits_bad_attribute(void
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 1, 526, 0, 533, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 878);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 879);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 878);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 879);
 }
 
 // test_wcore_config_attrs_forward_compat_gl21_emits_bad_attribute
@@ -9171,12 +9171,12 @@ static void test_wcore_config_attrs_forward_compat_gl21_emits_bad_attribute(void
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 2, 526, 1, 533, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 894);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 895);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 894);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 895);
 }
 
 // test_wcore_config_attrs_forward_compat_gl30
@@ -9188,12 +9188,12 @@ static void test_wcore_config_attrs_forward_compat_gl30(void **state)
   ts->expect_attrs.context_major_version = 3;
   ts->expect_attrs.context_minor_version = 0;
   ts->expect_attrs.context_forward_compatible = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 914);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 915);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 914);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 915);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 916);
 }
 
@@ -9203,17 +9203,17 @@ static void test_wcore_config_attrs_forward_compat_gl30_bad_value(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 526, 0, 533, 2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 996);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 997);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "2");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 998);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 996);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 997);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "2");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 998);
 }
 
 // test_wcore_config_attrs_forward_compat_gl30_dont_care
@@ -9225,12 +9225,12 @@ static void test_wcore_config_attrs_forward_compat_gl30_dont_care(void **state)
   ts->expect_attrs.context_major_version = 3;
   ts->expect_attrs.context_minor_version = 0;
   ts->expect_attrs.context_forward_compatible = (_Bool)0;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 979);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 980);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 979);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 980);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 981);
 }
 
@@ -9244,12 +9244,12 @@ static void test_wcore_config_attrs_forward_compat_gl32(void **state)
   ts->expect_attrs.context_minor_version = 2;
   ts->expect_attrs.context_profile = 529;
   ts->expect_attrs.context_forward_compatible = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 936);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 937);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 936);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 937);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 938);
 }
 
@@ -9263,12 +9263,12 @@ static void test_wcore_config_attrs_forward_compat_gl41(void **state)
   ts->expect_attrs.context_minor_version = 1;
   ts->expect_attrs.context_profile = 529;
   ts->expect_attrs.context_forward_compatible = (_Bool)1;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 958);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 959);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 958);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_NO_ERROR, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 959);
   _assert_memory_equal((const void *)&ts->actual_attrs, (const void *)&ts->expect_attrs, sizeof(struct wcore_config_attrs) /*60ul*/ , "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 960);
 }
 
@@ -9278,12 +9278,12 @@ static void test_wcore_config_attrs_forward_compat_gl_emits_bad_attribute(void *
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 533, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 862);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 863);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 862);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 863);
 }
 
 // test_wcore_config_attrs_forward_compat_gles1_emits_bad_attribute
@@ -9292,12 +9292,12 @@ static void test_wcore_config_attrs_forward_compat_gles1_emits_bad_attribute(voi
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 524, 533, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 820);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 821);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 820);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 821);
 }
 
 // test_wcore_config_attrs_forward_compat_gles2_emits_bad_attribute
@@ -9306,12 +9306,12 @@ static void test_wcore_config_attrs_forward_compat_gles2_emits_bad_attribute(voi
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 525, 533, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 834);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 835);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 834);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 835);
 }
 
 // test_wcore_config_attrs_forward_compat_gles3_emits_bad_attribute
@@ -9320,12 +9320,12 @@ static void test_wcore_config_attrs_forward_compat_gles3_emits_bad_attribute(voi
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 532, 533, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 848);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 849);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 848);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 849);
 }
 
 // test_wcore_config_attrs_gl31_compat
@@ -9334,12 +9334,12 @@ static void test_wcore_config_attrs_gl31_compat(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 1, 528, 530, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 288);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 289);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 288);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 289);
 }
 
 // test_wcore_config_attrs_gl31_core
@@ -9348,12 +9348,12 @@ static void test_wcore_config_attrs_gl31_core(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 1, 528, 529, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 272);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 273);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 272);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 273);
 }
 
 // test_wcore_config_attrs_gl31_none_profile
@@ -9362,9 +9362,9 @@ static void test_wcore_config_attrs_gl31_none_profile(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 1, 528, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 240);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 240);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_profile, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 241);
 }
 
@@ -9374,12 +9374,12 @@ static void test_wcore_config_attrs_gl31_trash_profile(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 1, 528, 0x314159, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 256);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 257);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 256);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 257);
 }
 
 // test_wcore_config_attrs_gl32_compat
@@ -9388,9 +9388,9 @@ static void test_wcore_config_attrs_gl32_compat(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 2, 528, 530, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 352);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 352);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_profile, (unsigned long int)530, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 353);
 }
 
@@ -9400,9 +9400,9 @@ static void test_wcore_config_attrs_gl32_core(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 2, 528, 529, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 336);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 336);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_profile, (unsigned long int)529, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 337);
 }
 
@@ -9412,12 +9412,12 @@ static void test_wcore_config_attrs_gl32_none_profile(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 2, 528, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 304);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 305);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 304);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 305);
 }
 
 // test_wcore_config_attrs_gl32_trash_profile
@@ -9426,12 +9426,12 @@ static void test_wcore_config_attrs_gl32_trash_profile(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[9l] = { 522, 523, 526, 3, 527, 2, 528, 0x314159, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 320);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 321);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 320);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 321);
 }
 
 // test_wcore_config_attrs_gl_defaults
@@ -9440,9 +9440,9 @@ static void test_wcore_config_attrs_gl_defaults(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[3l] = { 522, 523, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 115);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 115);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)1, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 117);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 118);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_profile, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 119);
@@ -9465,9 +9465,9 @@ static void test_wcore_config_attrs_gles10(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 524, 526, 1, 527, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 426);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 426);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)1, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 427);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 428);
 }
@@ -9478,9 +9478,9 @@ static void test_wcore_config_attrs_gles11(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 524, 526, 1, 527, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 442);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 442);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)1, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 443);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)1, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 444);
 }
@@ -9491,12 +9491,12 @@ static void test_wcore_config_attrs_gles12_is_bad(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 524, 526, 1, 527, 2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 458);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 459);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 458);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 459);
 }
 
 // test_wcore_config_attrs_gles1_defaults
@@ -9505,9 +9505,9 @@ static void test_wcore_config_attrs_gles1_defaults(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[3l] = { 522, 524, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 142);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 142);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)1, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 144);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 145);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_profile, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 146);
@@ -9529,17 +9529,17 @@ static void test_wcore_config_attrs_gles1_profile_is_checked(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 524, 528, 529, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 366);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 367);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_CONTEXT_PROFILE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_CONTEXT_PROFILE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 368);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 366);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 367);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_CONTEXT_PROFILE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_CONTEXT_PROFILE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 368);
 }
 
 // test_wcore_config_attrs_gles20
@@ -9548,9 +9548,9 @@ static void test_wcore_config_attrs_gles20(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 525, 526, 2, 527, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 473);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 473);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)2, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 474);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 475);
 }
@@ -9561,9 +9561,9 @@ static void test_wcore_config_attrs_gles21(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 525, 526, 2, 527, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 489);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 489);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)2, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 490);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)1, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 491);
 }
@@ -9574,9 +9574,9 @@ static void test_wcore_config_attrs_gles2_defaults(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[3l] = { 522, 525, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 169);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 169);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)2, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 171);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 172);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_profile, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 173);
@@ -9598,17 +9598,17 @@ static void test_wcore_config_attrs_gles2_profile_is_checked(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 525, 528, 529, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 381);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 382);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_CONTEXT_PROFILE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_CONTEXT_PROFILE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 383);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 381);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 382);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_CONTEXT_PROFILE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_CONTEXT_PROFILE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 383);
 }
 
 // test_wcore_config_attrs_gles2_with_version_30
@@ -9617,12 +9617,12 @@ static void test_wcore_config_attrs_gles2_with_version_30(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 525, 526, 3, 527, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 505);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 506);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 505);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 506);
 }
 
 // test_wcore_config_attrs_gles30
@@ -9631,9 +9631,9 @@ static void test_wcore_config_attrs_gles30(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 532, 526, 3, 527, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 520);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 520);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)3, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 521);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 522);
 }
@@ -9644,9 +9644,9 @@ static void test_wcore_config_attrs_gles31(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 532, 526, 3, 527, 1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 536);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 536);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)3, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 537);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)1, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 538);
 }
@@ -9657,9 +9657,9 @@ static void test_wcore_config_attrs_gles3_defaults(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[3l] = { 522, 532, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse$1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 196);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((unsigned long int)return_value_wcore_config_attrs_parse_1, "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 196);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_major_version, (unsigned long int)3, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 198);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_minor_version, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 199);
   _assert_int_equal((unsigned long int)ts->actual_attrs.context_profile, (unsigned long int)0, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 200);
@@ -9681,17 +9681,17 @@ static void test_wcore_config_attrs_gles3_profile_is_checked(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 532, 528, 529, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 396);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 397);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_CONTEXT_PROFILE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_CONTEXT_PROFILE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 398);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 396);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 397);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_CONTEXT_PROFILE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_CONTEXT_PROFILE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 398);
 }
 
 // test_wcore_config_attrs_gles3_with_version_20
@@ -9700,12 +9700,12 @@ static void test_wcore_config_attrs_gles3_with_version_20(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 532, 526, 2, 527, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 552);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 553);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 552);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 553);
 }
 
 // test_wcore_config_attrs_gles3_with_version_40
@@ -9714,12 +9714,12 @@ static void test_wcore_config_attrs_gles3_with_version_40(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[7l] = { 522, 532, 526, 4, 527, 0, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 567);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 568);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 567);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 568);
 }
 
 // test_wcore_config_attrs_negative_alpha
@@ -9728,22 +9728,22 @@ static void test_wcore_config_attrs_negative_alpha(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 516, -2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 755);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 756);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_ALPHA_SIZE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_ALPHA_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 757);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "-2");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 758);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 755);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 756);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_ALPHA_SIZE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_ALPHA_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 757);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "-2");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 758);
 }
 
 // test_wcore_config_attrs_negative_blue
@@ -9752,22 +9752,22 @@ static void test_wcore_config_attrs_negative_blue(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 515, -2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 739);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 740);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_BLUE_SIZE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_BLUE_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 741);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "-2");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 742);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 739);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 740);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_BLUE_SIZE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_BLUE_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 741);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "-2");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 742);
 }
 
 // test_wcore_config_attrs_negative_depth
@@ -9776,22 +9776,22 @@ static void test_wcore_config_attrs_negative_depth(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 517, -2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 771);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 772);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_DEPTH_SIZE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_DEPTH_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 773);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "-2");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 774);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 771);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 772);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_DEPTH_SIZE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_DEPTH_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 773);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "-2");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 774);
 }
 
 // test_wcore_config_attrs_negative_green
@@ -9800,22 +9800,22 @@ static void test_wcore_config_attrs_negative_green(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 514, -2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 723);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 724);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_GREEN_SIZE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_GREEN_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 725);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "-2");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 726);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 723);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 724);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_GREEN_SIZE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_GREEN_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 725);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "-2");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 726);
 }
 
 // test_wcore_config_attrs_negative_minor_version
@@ -9824,12 +9824,12 @@ static void test_wcore_config_attrs_negative_minor_version(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 527, -1, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 411);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 412);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 411);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 412);
 }
 
 // test_wcore_config_attrs_negative_red
@@ -9838,22 +9838,22 @@ static void test_wcore_config_attrs_negative_red(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 513, -2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 707);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 708);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_RED_SIZE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_RED_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 709);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "-2");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 710);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 707);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 708);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_RED_SIZE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_RED_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 709);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "-2");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 710);
 }
 
 // test_wcore_config_attrs_negative_samples
@@ -9862,22 +9862,22 @@ static void test_wcore_config_attrs_negative_samples(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 520, -2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 803);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 804);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_SAMPLES");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_SAMPLES\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 805);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "-2");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 806);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 803);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 804);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_SAMPLES");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_SAMPLES\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 805);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "-2");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 806);
 }
 
 // test_wcore_config_attrs_negative_stencil
@@ -9886,22 +9886,22 @@ static void test_wcore_config_attrs_negative_stencil(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 518, -2, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 787);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 788);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_STENCIL_SIZE");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_STENCIL_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 789);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "-2");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 790);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 787);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 788);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_STENCIL_SIZE");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_STENCIL_SIZE\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 789);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "-2");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"-2\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 790);
 }
 
 // test_wcore_config_attrs_null_attrib_list
@@ -9909,12 +9909,12 @@ static void test_wcore_config_attrs_negative_stencil(void **state)
 static void test_wcore_config_attrs_null_attrib_list(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse((const signed int *)(void *)0, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(NULL, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 94);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 95);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse((const signed int *)(void *)0, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(NULL, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 94);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 95);
 }
 
 // test_wcore_config_attrs_sample_buffers_is_bad
@@ -9923,22 +9923,22 @@ static void test_wcore_config_attrs_sample_buffers_is_bad(void **state)
 {
   struct test_state_wcore_config_attrs *ts = (struct test_state_wcore_config_attrs *)*state;
   const signed int attrib_list[5l] = { 522, 523, 519, 0x31415926, 0 };
-  _Bool return_value_wcore_config_attrs_parse$1;
-  return_value_wcore_config_attrs_parse$1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
-  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse$1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 656);
-  enum waffle_error return_value_wcore_error_get_code$2;
-  return_value_wcore_error_get_code$2=wcore_error_get_code();
-  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code$2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 657);
-  struct waffle_error_info *return_value_wcore_error_get_info$3;
-  return_value_wcore_error_get_info$3=wcore_error_get_info();
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(return_value_wcore_error_get_info$3->message, "WAFFLE_SAMPLE_BUFFERS");
-  _assert_true((unsigned long int)return_value_strstr$4, "strstr(wcore_error_get_info()->message, \"WAFFLE_SAMPLE_BUFFERS\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 658);
-  struct waffle_error_info *return_value_wcore_error_get_info$5;
-  return_value_wcore_error_get_info$5=wcore_error_get_info();
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(return_value_wcore_error_get_info$5->message, "0x31415926");
-  _assert_true((unsigned long int)return_value_strstr$6, "strstr(wcore_error_get_info()->message, \"0x31415926\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 659);
+  _Bool return_value_wcore_config_attrs_parse_1;
+  return_value_wcore_config_attrs_parse_1=wcore_config_attrs_parse(attrib_list, &ts->actual_attrs);
+  _assert_true((const unsigned long long int)!((unsigned long int)return_value_wcore_config_attrs_parse_1 != 0ull), "wcore_config_attrs_parse(attrib_list, &ts->actual_attrs)", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 656);
+  enum waffle_error return_value_wcore_error_get_code_2;
+  return_value_wcore_error_get_code_2=wcore_error_get_code();
+  _assert_int_equal((unsigned long int)return_value_wcore_error_get_code_2, (unsigned long int)WAFFLE_ERROR_BAD_ATTRIBUTE, "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 657);
+  struct waffle_error_info *return_value_wcore_error_get_info_3;
+  return_value_wcore_error_get_info_3=wcore_error_get_info();
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(return_value_wcore_error_get_info_3->message, "WAFFLE_SAMPLE_BUFFERS");
+  _assert_true((unsigned long int)return_value_strstr_4, "strstr(wcore_error_get_info()->message, \"WAFFLE_SAMPLE_BUFFERS\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 658);
+  struct waffle_error_info *return_value_wcore_error_get_info_5;
+  return_value_wcore_error_get_info_5=wcore_error_get_info();
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(return_value_wcore_error_get_info_5->message, "0x31415926");
+  _assert_true((unsigned long int)return_value_strstr_6, "strstr(wcore_error_get_info()->message, \"0x31415926\")", "/srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs_unittest.c", 659);
 }
 
 // thrd_create
@@ -9951,9 +9951,9 @@ signed int thrd_create(unsigned long int *thr, signed int (*func)(void *), void 
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct impl_thrd_param) /*16ul*/ );
-    pack = (struct impl_thrd_param *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct impl_thrd_param) /*16ul*/ );
+    pack = (struct impl_thrd_param *)return_value_malloc_1;
     if(pack == ((struct impl_thrd_param *)NULL))
       return 4;
 
@@ -9961,9 +9961,9 @@ signed int thrd_create(unsigned long int *thr, signed int (*func)(void *), void 
     {
       pack->func = func;
       pack->arg = arg;
-      signed int return_value_pthread_create$2;
-      return_value_pthread_create$2=pthread_create(thr, (const union pthread_attr_t *)(void *)0, impl_thrd_routine, (void *)pack);
-      if(!(return_value_pthread_create$2 == 0))
+      signed int return_value_pthread_create_2;
+      return_value_pthread_create_2=pthread_create(thr, (const union pthread_attr_t *)(void *)0, impl_thrd_routine, (void *)pack);
+      if(!(return_value_pthread_create_2 == 0))
       {
         free((void *)pack);
         return 2;
@@ -9979,27 +9979,27 @@ signed int thrd_create(unsigned long int *thr, signed int (*func)(void *), void 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 236
 unsigned long int thrd_current(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  return return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  return return_value_pthread_self_1;
 }
 
 // thrd_detach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 242
 signed int thrd_detach(unsigned long int thr)
 {
-  signed int return_value_pthread_detach$1;
-  return_value_pthread_detach$1=pthread_detach(thr);
-  return return_value_pthread_detach$1 == 0 ? 0 : 2;
+  signed int return_value_pthread_detach_1;
+  return_value_pthread_detach_1=pthread_detach(thr);
+  return return_value_pthread_detach_1 == 0 ? 0 : 2;
 }
 
 // thrd_equal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 248
 signed int thrd_equal(unsigned long int thr0, unsigned long int thr1)
 {
-  signed int return_value_pthread_equal$1;
-  return_value_pthread_equal$1=pthread_equal(thr0, thr1);
-  return return_value_pthread_equal$1;
+  signed int return_value_pthread_equal_1;
+  return_value_pthread_equal_1=pthread_equal(thr0, thr1);
+  return return_value_pthread_equal_1;
 }
 
 // thrd_exit
@@ -10014,9 +10014,9 @@ void thrd_exit(signed int res)
 signed int thrd_join(unsigned long int thr, signed int *res)
 {
   void *code;
-  signed int return_value_pthread_join$1;
-  return_value_pthread_join$1=pthread_join(thr, &code);
-  if(!(return_value_pthread_join$1 == 0))
+  signed int return_value_pthread_join_1;
+  return_value_pthread_join_1=pthread_join(thr, &code);
+  if(!(return_value_pthread_join_1 == 0))
     return 2;
 
   else
@@ -10054,9 +10054,9 @@ signed int tss_create(unsigned int *key, void (*dtor)(void *))
 
   else
   {
-    signed int return_value_pthread_key_create$1;
-    return_value_pthread_key_create$1=pthread_key_create(key, dtor);
-    return return_value_pthread_key_create$1 == 0 ? 0 : 2;
+    signed int return_value_pthread_key_create_1;
+    return_value_pthread_key_create_1=pthread_key_create(key, dtor);
+    return return_value_pthread_key_create_1 == 0 ? 0 : 2;
   }
 }
 
@@ -10071,18 +10071,18 @@ void tss_delete(unsigned int key)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 302
 void * tss_get(unsigned int key)
 {
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(key);
-  return return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(key);
+  return return_value_pthread_getspecific_1;
 }
 
 // tss_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads.h line 175
 signed int tss_set(unsigned int key, void *val)
 {
-  signed int return_value_pthread_setspecific$1;
-  return_value_pthread_setspecific$1=pthread_setspecific(key, val);
-  return return_value_pthread_setspecific$1 == 0 ? 0 : 2;
+  signed int return_value_pthread_setspecific_1;
+  return_value_pthread_setspecific_1=pthread_setspecific(key, val);
+  return return_value_pthread_setspecific_1 == 0 ? 0 : 2;
 }
 
 // value_in_set_display_error
@@ -10162,9 +10162,9 @@ void vprint_message(const char * const format, void **args)
 _Bool waffle_attrib_list_get(const signed int *attrib_list, signed int key, signed int *value)
 {
   wcore_error_reset();
-  _Bool return_value_wcore_attrib_list_get$1;
-  return_value_wcore_attrib_list_get$1=wcore_attrib_list_get(attrib_list, key, value);
-  return return_value_wcore_attrib_list_get$1;
+  _Bool return_value_wcore_attrib_list_get_1;
+  return_value_wcore_attrib_list_get_1=wcore_attrib_list_get(attrib_list, key, value);
+  return return_value_wcore_attrib_list_get_1;
 }
 
 // waffle_attrib_list_get_with_default
@@ -10172,9 +10172,9 @@ _Bool waffle_attrib_list_get(const signed int *attrib_list, signed int key, sign
 _Bool waffle_attrib_list_get_with_default(const signed int *attrib_list, signed int key, signed int *value, signed int default_value)
 {
   wcore_error_reset();
-  _Bool return_value_wcore_attrib_list_get_with_default$1;
-  return_value_wcore_attrib_list_get_with_default$1=wcore_attrib_list_get_with_default(attrib_list, key, value, default_value);
-  return return_value_wcore_attrib_list_get_with_default$1;
+  _Bool return_value_wcore_attrib_list_get_with_default_1;
+  return_value_wcore_attrib_list_get_with_default_1=wcore_attrib_list_get_with_default(attrib_list, key, value, default_value);
+  return return_value_wcore_attrib_list_get_with_default_1;
 }
 
 // waffle_attrib_list_length
@@ -10182,9 +10182,9 @@ _Bool waffle_attrib_list_get_with_default(const signed int *attrib_list, signed 
 signed int waffle_attrib_list_length(const signed int *attrib_list)
 {
   wcore_error_reset();
-  signed int return_value_wcore_attrib_list_length$1;
-  return_value_wcore_attrib_list_length$1=wcore_attrib_list_length(attrib_list);
-  return return_value_wcore_attrib_list_length$1;
+  signed int return_value_wcore_attrib_list_length_1;
+  return_value_wcore_attrib_list_length_1=wcore_attrib_list_length(attrib_list);
+  return return_value_wcore_attrib_list_length_1;
 }
 
 // waffle_attrib_list_update
@@ -10192,9 +10192,9 @@ signed int waffle_attrib_list_length(const signed int *attrib_list)
 _Bool waffle_attrib_list_update(signed int *attrib_list, signed int key, signed int value)
 {
   wcore_error_reset();
-  _Bool return_value_wcore_attrib_list_update$1;
-  return_value_wcore_attrib_list_update$1=wcore_attrib_list_update(attrib_list, key, value);
-  return return_value_wcore_attrib_list_update$1;
+  _Bool return_value_wcore_attrib_list_update_1;
+  return_value_wcore_attrib_list_update_1=wcore_attrib_list_update(attrib_list, key, value);
+  return return_value_wcore_attrib_list_update_1;
 }
 
 // waffle_config
@@ -10214,16 +10214,16 @@ struct waffle_config * waffle_config_choose(struct waffle_display *dpy, const si
   struct wcore_config_attrs attrs;
   _Bool ok = (_Bool)1;
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_dpy == ((struct wcore_display *)NULL)))
-    tmp_if_expr$1 = &wc_dpy->api;
+    tmp_if_expr_1 = &wc_dpy->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (struct waffle_config *)(void *)0;
 
   else
@@ -10240,9 +10240,9 @@ struct waffle_config * waffle_config_choose(struct waffle_display *dpy, const si
 
       else
       {
-        struct waffle_config *return_value_waffle_config$3;
-        return_value_waffle_config$3=waffle_config(wc_self);
-        return return_value_waffle_config$3;
+        struct waffle_config *return_value_waffle_config_3;
+        return_value_waffle_config_3=waffle_config(wc_self);
+        return return_value_waffle_config_3;
       }
     }
   }
@@ -10255,16 +10255,16 @@ _Bool waffle_config_destroy(struct waffle_config *self)
   struct wcore_config *wc_self;
   wc_self=wcore_config(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_config *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -10282,16 +10282,16 @@ union waffle_native_config * waffle_config_get_native(struct waffle_config *self
   struct wcore_config *wc_self;
   wc_self=wcore_config(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_config *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (union waffle_native_config *)(void *)0;
 
   else
@@ -10322,31 +10322,31 @@ struct waffle_context * waffle_context_create(struct waffle_config *config, stru
 {
   struct wcore_context *wc_self;
   struct wcore_config *wc_config;
-  wc_config=wcore_config$link1(config);
+  wc_config=wcore_config_link1(config);
   struct wcore_context *wc_shared_ctx;
   wc_shared_ctx=wcore_context(shared_ctx);
   struct api_object *obj_list[2l];
   signed int len = 0;
-  signed int tmp_post$1 = len;
+  signed int tmp_post_1 = len;
   len = len + 1;
-  struct api_object *tmp_if_expr$2;
+  struct api_object *tmp_if_expr_2;
   if(!(wc_config == ((struct wcore_config *)NULL)))
-    tmp_if_expr$2 = &wc_config->api;
+    tmp_if_expr_2 = &wc_config->api;
 
   else
-    tmp_if_expr$2 = (struct api_object *)(void *)0;
-  obj_list[(signed long int)tmp_post$1] = tmp_if_expr$2;
-  signed int tmp_post$3;
+    tmp_if_expr_2 = (struct api_object *)(void *)0;
+  obj_list[(signed long int)tmp_post_1] = tmp_if_expr_2;
+  signed int tmp_post_3;
   if(!(wc_shared_ctx == ((struct wcore_context *)NULL)))
   {
-    tmp_post$3 = len;
+    tmp_post_3 = len;
     len = len + 1;
-    obj_list[(signed long int)tmp_post$3] = &wc_shared_ctx->api;
+    obj_list[(signed long int)tmp_post_3] = &wc_shared_ctx->api;
   }
 
-  _Bool return_value_api_check_entry$4;
-  return_value_api_check_entry$4=api_check_entry(obj_list, len);
-  if(return_value_api_check_entry$4 == (_Bool)0)
+  _Bool return_value_api_check_entry_4;
+  return_value_api_check_entry_4=api_check_entry(obj_list, len);
+  if(return_value_api_check_entry_4 == (_Bool)0)
     return (struct waffle_context *)(void *)0;
 
   else
@@ -10357,9 +10357,9 @@ struct waffle_context * waffle_context_create(struct waffle_config *config, stru
 
     else
     {
-      struct waffle_context *return_value_waffle_context$5;
-      return_value_waffle_context$5=waffle_context(wc_self);
-      return return_value_waffle_context$5;
+      struct waffle_context *return_value_waffle_context_5;
+      return_value_waffle_context_5=waffle_context(wc_self);
+      return return_value_waffle_context_5;
     }
   }
 }
@@ -10371,16 +10371,16 @@ _Bool waffle_context_destroy(struct waffle_context *self)
   struct wcore_context *wc_self;
   wc_self=wcore_context(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_context *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -10398,16 +10398,16 @@ union waffle_native_context * waffle_context_get_native(struct waffle_context *s
   struct wcore_context *wc_self;
   wc_self=wcore_context(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_context *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (union waffle_native_context *)(void *)0;
 
   else
@@ -10437,9 +10437,9 @@ static inline struct waffle_display * waffle_display(struct wcore_display *dpy)
 struct waffle_display * waffle_display_connect(const char *name)
 {
   struct wcore_display *wc_self;
-  _Bool return_value_api_check_entry$1;
-  return_value_api_check_entry$1=api_check_entry((struct api_object **)(void *)0, 0);
-  if(return_value_api_check_entry$1 == (_Bool)0)
+  _Bool return_value_api_check_entry_1;
+  return_value_api_check_entry_1=api_check_entry((struct api_object **)(void *)0, 0);
+  if(return_value_api_check_entry_1 == (_Bool)0)
     return (struct waffle_display *)(void *)0;
 
   else
@@ -10450,9 +10450,9 @@ struct waffle_display * waffle_display_connect(const char *name)
 
     else
     {
-      struct waffle_display *return_value_waffle_display$2;
-      return_value_waffle_display$2=waffle_display(wc_self);
-      return return_value_waffle_display$2;
+      struct waffle_display *return_value_waffle_display_2;
+      return_value_waffle_display_2=waffle_display(wc_self);
+      return return_value_waffle_display_2;
     }
   }
 }
@@ -10462,18 +10462,18 @@ struct waffle_display * waffle_display_connect(const char *name)
 _Bool waffle_display_disconnect(struct waffle_display *self)
 {
   struct wcore_display *wc_self;
-  wc_self=wcore_display$link1(self);
+  wc_self=wcore_display_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_display *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -10489,18 +10489,18 @@ _Bool waffle_display_disconnect(struct waffle_display *self)
 union waffle_native_display * waffle_display_get_native(struct waffle_display *self)
 {
   struct wcore_display *wc_self;
-  wc_self=wcore_display$link1(self);
+  wc_self=wcore_display_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_display *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (union waffle_native_display *)(void *)0;
 
   else
@@ -10523,18 +10523,18 @@ union waffle_native_display * waffle_display_get_native(struct waffle_display *s
 _Bool waffle_display_supports_context_api(struct waffle_display *self, signed int context_api)
 {
   struct wcore_display *wc_self;
-  wc_self=wcore_display$link1(self);
+  wc_self=wcore_display_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_display *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -10557,16 +10557,16 @@ _Bool waffle_display_supports_context_api(struct waffle_display *self, signed in
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_dl.c line 47
 _Bool waffle_dl_can_open(signed int dl)
 {
-  _Bool return_value_api_check_entry$1;
-  return_value_api_check_entry$1=api_check_entry((struct api_object **)(void *)0, 0);
-  if(return_value_api_check_entry$1 == (_Bool)0)
+  _Bool return_value_api_check_entry_1;
+  return_value_api_check_entry_1=api_check_entry((struct api_object **)(void *)0, 0);
+  if(return_value_api_check_entry_1 == (_Bool)0)
     return (_Bool)0;
 
   else
   {
-    _Bool return_value_waffle_dl_check_enum$2;
-    return_value_waffle_dl_check_enum$2=waffle_dl_check_enum(dl);
-    if(return_value_waffle_dl_check_enum$2 == (_Bool)0)
+    _Bool return_value_waffle_dl_check_enum_2;
+    return_value_waffle_dl_check_enum_2=waffle_dl_check_enum(dl);
+    if(return_value_waffle_dl_check_enum_2 == (_Bool)0)
       return (_Bool)0;
 
     else
@@ -10593,16 +10593,16 @@ static _Bool waffle_dl_check_enum(signed int dl)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_dl.c line 59
 void * waffle_dl_sym(signed int dl, const char *name)
 {
-  _Bool return_value_api_check_entry$1;
-  return_value_api_check_entry$1=api_check_entry((struct api_object **)(void *)0, 0);
-  if(return_value_api_check_entry$1 == (_Bool)0)
+  _Bool return_value_api_check_entry_1;
+  return_value_api_check_entry_1=api_check_entry((struct api_object **)(void *)0, 0);
+  if(return_value_api_check_entry_1 == (_Bool)0)
     return (void *)0;
 
   else
   {
-    _Bool return_value_waffle_dl_check_enum$2;
-    return_value_waffle_dl_check_enum$2=waffle_dl_check_enum(dl);
-    if(return_value_waffle_dl_check_enum$2 == (_Bool)0)
+    _Bool return_value_waffle_dl_check_enum_2;
+    return_value_waffle_dl_check_enum_2=waffle_dl_check_enum(dl);
+    if(return_value_waffle_dl_check_enum_2 == (_Bool)0)
       return (void *)0;
 
     else
@@ -10619,27 +10619,27 @@ void * waffle_dl_sym(signed int dl, const char *name)
 const char * waffle_enum_to_string(signed int e)
 {
   wcore_error_reset();
-  const char *return_value_wcore_enum_to_string$1;
-  return_value_wcore_enum_to_string$1=wcore_enum_to_string(e);
-  return return_value_wcore_enum_to_string$1;
+  const char *return_value_wcore_enum_to_string_1;
+  return_value_wcore_enum_to_string_1=wcore_enum_to_string(e);
+  return return_value_wcore_enum_to_string_1;
 }
 
 // waffle_error_get_code
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_error.c line 33
 enum waffle_error waffle_error_get_code(void)
 {
-  enum waffle_error return_value_wcore_error_get_code$1;
-  return_value_wcore_error_get_code$1=wcore_error_get_code();
-  return return_value_wcore_error_get_code$1;
+  enum waffle_error return_value_wcore_error_get_code_1;
+  return_value_wcore_error_get_code_1=wcore_error_get_code();
+  return return_value_wcore_error_get_code_1;
 }
 
 // waffle_error_get_info
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_error.c line 39
 struct waffle_error_info * waffle_error_get_info(void)
 {
-  struct waffle_error_info *return_value_wcore_error_get_info$1;
-  return_value_wcore_error_get_info$1=wcore_error_get_info();
-  return return_value_wcore_error_get_info$1;
+  struct waffle_error_info *return_value_wcore_error_get_info_1;
+  return_value_wcore_error_get_info_1=wcore_error_get_info();
+  return return_value_wcore_error_get_info_1;
 }
 
 // waffle_error_to_string
@@ -10681,9 +10681,9 @@ const char * waffle_error_to_string(enum waffle_error e)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_gl_misc.c line 104
 void * waffle_get_proc_address(const char *name)
 {
-  _Bool return_value_api_check_entry$1;
-  return_value_api_check_entry$1=api_check_entry((struct api_object **)(void *)0, 0);
-  if(return_value_api_check_entry$1 == (_Bool)0)
+  _Bool return_value_api_check_entry_1;
+  return_value_api_check_entry_1=api_check_entry((struct api_object **)(void *)0, 0);
+  if(return_value_api_check_entry_1 == (_Bool)0)
     return (void *)0;
 
   else
@@ -10709,9 +10709,9 @@ _Bool waffle_init(const signed int *attrib_list)
 
   else
   {
-    _Bool return_value_waffle_init_parse_attrib_list$1;
-    return_value_waffle_init_parse_attrib_list$1=waffle_init_parse_attrib_list(attrib_list, &platform);
-    ok = ((signed int)ok & (signed int)return_value_waffle_init_parse_attrib_list$1) != 0;
+    _Bool return_value_waffle_init_parse_attrib_list_1;
+    return_value_waffle_init_parse_attrib_list_1=waffle_init_parse_attrib_list(attrib_list, &platform);
+    ok = ((signed int)ok & (signed int)return_value_waffle_init_parse_attrib_list_1) != 0;
     if(ok == (_Bool)0)
       return (_Bool)0;
 
@@ -10731,31 +10731,31 @@ _Bool waffle_init(const signed int *attrib_list)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_init.c line 136
 static struct wcore_platform * waffle_init_create_platform(signed int waffle_platform)
 {
-  struct wcore_platform *return_value_glx_platform_create$1;
-  struct wcore_platform *return_value_wayland_platform_create$2;
-  struct wcore_platform *return_value_xegl_platform_create$3;
-  struct wcore_platform *return_value_wgbm_platform_create$4;
+  struct wcore_platform *return_value_glx_platform_create_1;
+  struct wcore_platform *return_value_wayland_platform_create_2;
+  struct wcore_platform *return_value_xegl_platform_create_3;
+  struct wcore_platform *return_value_wgbm_platform_create_4;
   switch(waffle_platform)
   {
     case 19:
     {
-      return_value_glx_platform_create$1=glx_platform_create();
-      return return_value_glx_platform_create$1;
+      return_value_glx_platform_create_1=glx_platform_create();
+      return return_value_glx_platform_create_1;
     }
     case 20:
     {
-      return_value_wayland_platform_create$2=wayland_platform_create();
-      return return_value_wayland_platform_create$2;
+      return_value_wayland_platform_create_2=wayland_platform_create();
+      return return_value_wayland_platform_create_2;
     }
     case 21:
     {
-      return_value_xegl_platform_create$3=xegl_platform_create();
-      return return_value_xegl_platform_create$3;
+      return_value_xegl_platform_create_3=xegl_platform_create();
+      return return_value_xegl_platform_create_3;
     }
     case 22:
     {
-      return_value_wgbm_platform_create$4=wgbm_platform_create();
-      return return_value_wgbm_platform_create$4;
+      return_value_wgbm_platform_create_4=wgbm_platform_create();
+      return return_value_wgbm_platform_create_4;
     }
     default:
       return (struct wcore_platform *)(void *)0;
@@ -10847,7 +10847,7 @@ _Bool waffle_is_extension_in_string(const char * restrict extension_string, cons
   unsigned long int name_length;
   const char * restrict search_start;
   wcore_error_reset();
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(extension_name == ((const char *)NULL) || extension_string == ((const char *)NULL))
     return (_Bool)0;
 
@@ -10869,11 +10869,11 @@ _Bool waffle_is_extension_in_string(const char * restrict extension_string, cons
 
         next_char = s + (signed long int)name_length;
         if((signed int)*next_char == 32)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)*next_char == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)*next_char == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           return (_Bool)1;
 
         search_start = next_char;
@@ -10886,41 +10886,41 @@ _Bool waffle_is_extension_in_string(const char * restrict extension_string, cons
 _Bool waffle_make_current(struct waffle_display *dpy, struct waffle_window *window, struct waffle_context *ctx)
 {
   struct wcore_display *wc_dpy;
-  wc_dpy=wcore_display$link2(dpy);
+  wc_dpy=wcore_display_link2(dpy);
   struct wcore_window *wc_window;
   wc_window=wcore_window(window);
   struct wcore_context *wc_ctx;
-  wc_ctx=wcore_context$link1(ctx);
+  wc_ctx=wcore_context_link1(ctx);
   struct api_object *obj_list[3l];
   signed int len = 0;
-  signed int tmp_post$1 = len;
+  signed int tmp_post_1 = len;
   len = len + 1;
-  struct api_object *tmp_if_expr$2;
+  struct api_object *tmp_if_expr_2;
   if(!(wc_dpy == ((struct wcore_display *)NULL)))
-    tmp_if_expr$2 = &wc_dpy->api;
+    tmp_if_expr_2 = &wc_dpy->api;
 
   else
-    tmp_if_expr$2 = (struct api_object *)(void *)0;
-  obj_list[(signed long int)tmp_post$1] = tmp_if_expr$2;
-  signed int tmp_post$3;
+    tmp_if_expr_2 = (struct api_object *)(void *)0;
+  obj_list[(signed long int)tmp_post_1] = tmp_if_expr_2;
+  signed int tmp_post_3;
   if(!(wc_window == ((struct wcore_window *)NULL)))
   {
-    tmp_post$3 = len;
+    tmp_post_3 = len;
     len = len + 1;
-    obj_list[(signed long int)tmp_post$3] = &wc_window->api;
+    obj_list[(signed long int)tmp_post_3] = &wc_window->api;
   }
 
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(!(wc_ctx == ((struct wcore_context *)NULL)))
   {
-    tmp_post$4 = len;
+    tmp_post_4 = len;
     len = len + 1;
-    obj_list[(signed long int)tmp_post$4] = &wc_ctx->api;
+    obj_list[(signed long int)tmp_post_4] = &wc_ctx->api;
   }
 
-  _Bool return_value_api_check_entry$5;
-  return_value_api_check_entry$5=api_check_entry(obj_list, len);
-  if(return_value_api_check_entry$5 == (_Bool)0)
+  _Bool return_value_api_check_entry_5;
+  return_value_api_check_entry_5=api_check_entry(obj_list, len);
+  if(return_value_api_check_entry_5 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -10944,18 +10944,18 @@ struct waffle_window * waffle_window_create(struct waffle_config *config, signed
 {
   struct wcore_window *wc_self;
   struct wcore_config *wc_config;
-  wc_config=wcore_config$link2(config);
+  wc_config=wcore_config_link2(config);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_config == ((struct wcore_config *)NULL)))
-    tmp_if_expr$1 = &wc_config->api;
+    tmp_if_expr_1 = &wc_config->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (struct waffle_window *)(void *)0;
 
   else
@@ -10966,9 +10966,9 @@ struct waffle_window * waffle_window_create(struct waffle_config *config, signed
 
     else
     {
-      struct waffle_window *return_value_waffle_window$3;
-      return_value_waffle_window$3=waffle_window(wc_self);
-      return return_value_waffle_window$3;
+      struct waffle_window *return_value_waffle_window_3;
+      return_value_waffle_window_3=waffle_window(wc_self);
+      return return_value_waffle_window_3;
     }
   }
 }
@@ -10978,18 +10978,18 @@ struct waffle_window * waffle_window_create(struct waffle_config *config, signed
 _Bool waffle_window_destroy(struct waffle_window *self)
 {
   struct wcore_window *wc_self;
-  wc_self=wcore_window$link1(self);
+  wc_self=wcore_window_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_window *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -11005,18 +11005,18 @@ _Bool waffle_window_destroy(struct waffle_window *self)
 union waffle_native_window * waffle_window_get_native(struct waffle_window *self)
 {
   struct wcore_window *wc_self;
-  wc_self=wcore_window$link1(self);
+  wc_self=wcore_window_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_window *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (union waffle_native_window *)(void *)0;
 
   else
@@ -11039,18 +11039,18 @@ union waffle_native_window * waffle_window_get_native(struct waffle_window *self
 _Bool waffle_window_resize(struct waffle_window *self, signed int width, signed int height)
 {
   struct wcore_window *wc_self;
-  wc_self=wcore_window$link1(self);
+  wc_self=wcore_window_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_window *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -11073,18 +11073,18 @@ _Bool waffle_window_resize(struct waffle_window *self, signed int width, signed 
 _Bool waffle_window_show(struct waffle_window *self)
 {
   struct wcore_window *wc_self;
-  wc_self=wcore_window$link1(self);
+  wc_self=wcore_window_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_window *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -11100,18 +11100,18 @@ _Bool waffle_window_show(struct waffle_window *self)
 _Bool waffle_window_swap_buffers(struct waffle_window *self)
 {
   struct wcore_window *wc_self;
-  wc_self=wcore_window$link1(self);
+  wc_self=wcore_window_link1(self);
   struct api_object *obj_list[1l];
-  struct api_object *tmp_if_expr$1;
+  struct api_object *tmp_if_expr_1;
   if(!(wc_self == ((struct wcore_window *)NULL)))
-    tmp_if_expr$1 = &wc_self->api;
+    tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr$1 = (struct api_object *)(void *)0;
-  obj_list[0] = tmp_if_expr$1;
-  _Bool return_value_api_check_entry$2;
-  return_value_api_check_entry$2=api_check_entry(obj_list, 1);
-  if(return_value_api_check_entry$2 == (_Bool)0)
+    tmp_if_expr_1 = (struct api_object *)(void *)0;
+  obj_list[0] = tmp_if_expr_1;
+  _Bool return_value_api_check_entry_2;
+  return_value_api_check_entry_2=api_check_entry(obj_list, 1);
+  if(return_value_api_check_entry_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -11127,15 +11127,15 @@ _Bool waffle_window_swap_buffers(struct waffle_window *self)
 static union waffle_native_config * wayland_config_get_native(struct wcore_config *wc_config)
 {
   struct wegl_config *config;
-  config=wegl_config$link3(wc_config);
+  config=wegl_config_link3(wc_config);
   struct wayland_display *dpy;
-  dpy=wayland_display$link1(wc_config->display);
+  dpy=wayland_display_link1(wc_config->display);
   union waffle_native_config *n_config;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_wayland_config) /*40ul*/ );
-    n_config = (union waffle_native_config *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_wayland_config) /*40ul*/ );
+    n_config = (union waffle_native_config *)return_value_wcore_malloc_1;
     if(!(n_config == ((union waffle_native_config *)NULL)))
       n_config->wayland = (struct waffle_wayland_config *)(void *)(n_config + (signed long int)1);
 
@@ -11157,15 +11157,15 @@ static union waffle_native_config * wayland_config_get_native(struct wcore_confi
 static union waffle_native_context * wayland_context_get_native(struct wcore_context *wc_ctx)
 {
   struct wayland_display *dpy;
-  dpy=wayland_display$link1(wc_ctx->display);
+  dpy=wayland_display_link1(wc_ctx->display);
   struct wegl_context *ctx;
-  ctx=wegl_context$link2(wc_ctx);
+  ctx=wegl_context_link2(wc_ctx);
   union waffle_native_context *n_ctx;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_wayland_context) /*40ul*/ );
-    n_ctx = (union waffle_native_context *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_wayland_context) /*40ul*/ );
+    n_ctx = (union waffle_native_context *)return_value_wcore_malloc_1;
     if(!(n_ctx == ((union waffle_native_context *)NULL)))
       n_ctx->wayland = (struct waffle_wayland_context *)(void *)(n_ctx + (signed long int)1);
 
@@ -11186,59 +11186,59 @@ static union waffle_native_context * wayland_context_get_native(struct wcore_con
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.h line 53
 static inline struct wayland_display * wayland_display(struct wcore_display *wc_self)
 {
-  struct wegl_display *tmp_statement_expression$1;
-  struct wayland_display *tmp_statement_expression$2;
+  struct wegl_display *tmp_statement_expression_1;
+  struct wayland_display *tmp_statement_expression_2;
   if(!(wc_self == ((struct wcore_display *)NULL)))
   {
     struct wegl_display *wegl_self;
-    const struct wcore_display *wayland_display$$1$$1$$1$$__mptr = wc_self;
-    tmp_statement_expression$1 = (struct wegl_display *)((void *)wayland_display$$1$$1$$1$$__mptr - (signed long int)0ul);
-    wegl_self = tmp_statement_expression$1;
+    const struct wcore_display *wayland_display__1__1__1____mptr = wc_self;
+    tmp_statement_expression_1 = (struct wegl_display *)((void *)wayland_display__1__1__1____mptr - (signed long int)0ul);
+    wegl_self = tmp_statement_expression_1;
     const struct wegl_display *__mptr = wegl_self;
-    tmp_statement_expression$2 = (struct wayland_display *)((void *)__mptr - (signed long int)32ul);
-    return tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct wayland_display *)((void *)__mptr - (signed long int)32ul);
+    return tmp_statement_expression_2;
   }
 
   else
     return (struct wayland_display *)(void *)0;
 }
 
-// wayland_display$link1
+// wayland_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.h line 53
-static inline struct wayland_display * wayland_display$link1(struct wcore_display *wc_self$link1)
+static inline struct wayland_display * wayland_display_link1(struct wcore_display *wc_self_link1)
 {
-  struct wegl_display *tmp_statement_expression$1$link1;
-  struct wayland_display *tmp_statement_expression$2$link1;
-  if(!(wc_self$link1 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link1;
+  struct wayland_display *tmp_statement_expression_2_link1;
+  if(!(wc_self_link1 == ((struct wcore_display *)NULL)))
   {
-    struct wegl_display *wegl_self$link1;
-    const struct wcore_display *wayland_display$$1$$1$$1$$__mptr$link1 = wc_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_display *)((void *)wayland_display$$1$$1$$1$$__mptr$link1 - (signed long int)0ul);
-    wegl_self$link1 = tmp_statement_expression$1$link1;
-    const struct wegl_display *__mptr$link1 = wegl_self$link1;
-    tmp_statement_expression$2$link1 = (struct wayland_display *)((void *)__mptr$link1 - (signed long int)32ul);
-    return tmp_statement_expression$2$link1;
+    struct wegl_display *wegl_self_link1;
+    const struct wcore_display *wayland_display__1__1__1____mptr_link1 = wc_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_display *)((void *)wayland_display__1__1__1____mptr_link1 - (signed long int)0ul);
+    wegl_self_link1 = tmp_statement_expression_1_link1;
+    const struct wegl_display *__mptr_link1 = wegl_self_link1;
+    tmp_statement_expression_2_link1 = (struct wayland_display *)((void *)__mptr_link1 - (signed long int)32ul);
+    return tmp_statement_expression_2_link1;
   }
 
   else
     return (struct wayland_display *)(void *)0;
 }
 
-// wayland_display$link2
+// wayland_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.h line 53
-static inline struct wayland_display * wayland_display$link2(struct wcore_display *wc_self$link2)
+static inline struct wayland_display * wayland_display_link2(struct wcore_display *wc_self_link2)
 {
-  struct wegl_display *tmp_statement_expression$1$link2;
-  struct wayland_display *tmp_statement_expression$2$link2;
-  if(!(wc_self$link2 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link2;
+  struct wayland_display *tmp_statement_expression_2_link2;
+  if(!(wc_self_link2 == ((struct wcore_display *)NULL)))
   {
-    struct wegl_display *wegl_self$link2;
-    const struct wcore_display *__mptr$link2 = wc_self$link2;
-    tmp_statement_expression$1$link2 = (struct wegl_display *)((void *)__mptr$link2 - (signed long int)0ul);
-    wegl_self$link2 = tmp_statement_expression$1$link2;
-    const struct wegl_display *wayland_display$$1$$1$$2$$__mptr$link2 = wegl_self$link2;
-    tmp_statement_expression$2$link2 = (struct wayland_display *)((void *)wayland_display$$1$$1$$2$$__mptr$link2 - (signed long int)32ul);
-    return tmp_statement_expression$2$link2;
+    struct wegl_display *wegl_self_link2;
+    const struct wcore_display *__mptr_link2 = wc_self_link2;
+    tmp_statement_expression_1_link2 = (struct wegl_display *)((void *)__mptr_link2 - (signed long int)0ul);
+    wegl_self_link2 = tmp_statement_expression_1_link2;
+    const struct wegl_display *wayland_display__1__1__2____mptr_link2 = wegl_self_link2;
+    tmp_statement_expression_2_link2 = (struct wayland_display *)((void *)wayland_display__1__1__2____mptr_link2 - (signed long int)32ul);
+    return tmp_statement_expression_2_link2;
   }
 
   else
@@ -11252,9 +11252,9 @@ struct wcore_display * wayland_display_connect(struct wcore_platform *wc_plat, c
   struct wayland_display *self;
   _Bool ok = (_Bool)1;
   signed int error = 0;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct wayland_display) /*64ul*/ );
-  self = (struct wayland_display *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct wayland_display) /*64ul*/ );
+  self = (struct wayland_display *)return_value_wcore_calloc_1;
   if(self == ((struct wayland_display *)NULL))
     return (struct wcore_display *)(void *)0;
 
@@ -11320,9 +11320,9 @@ _Bool wayland_display_destroy(struct wcore_display *wc_self)
 
   else
   {
-    _Bool return_value_wegl_display_teardown$1;
-    return_value_wegl_display_teardown$1=wegl_display_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_display_teardown$1) != 0;
+    _Bool return_value_wegl_display_teardown_1;
+    return_value_wegl_display_teardown_1=wegl_display_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_display_teardown_1) != 0;
     if(!(self->wl_display == ((struct wl_display *)NULL)))
       wl_display_disconnect(self->wl_display);
 
@@ -11350,9 +11350,9 @@ union waffle_native_display * wayland_display_get_native(struct wcore_display *w
   union waffle_native_display *n_dpy;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_wayland_display) /*32ul*/ );
-    n_dpy = (union waffle_native_display *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_wayland_display) /*32ul*/ );
+    n_dpy = (union waffle_native_display *)return_value_wcore_malloc_1;
     if(!(n_dpy == ((union waffle_native_display *)NULL)))
       n_dpy->wayland = (struct waffle_wayland_display *)(void *)(n_dpy + (signed long int)1);
 
@@ -11372,9 +11372,9 @@ union waffle_native_display * wayland_display_get_native(struct wcore_display *w
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_display.c line 180
 _Bool wayland_display_sync(struct wayland_display *dpy)
 {
-  signed int return_value_wl_display_roundtrip$1;
-  return_value_wl_display_roundtrip$1=wl_display_roundtrip(dpy->wl_display);
-  if(return_value_wl_display_roundtrip$1 == -1)
+  signed int return_value_wl_display_roundtrip_1;
+  return_value_wl_display_roundtrip_1=wl_display_roundtrip(dpy->wl_display);
+  if(return_value_wl_display_roundtrip_1 == -1)
   {
     wcore_error_errno("error on wl_display");
     return (_Bool)0;
@@ -11389,12 +11389,12 @@ _Bool wayland_display_sync(struct wayland_display *dpy)
 static _Bool wayland_dl_can_open(struct wcore_platform *wc_self, signed int waffle_dl)
 {
   struct wayland_platform *self;
-  struct wegl_platform$0 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link5(wc_self);
-  self=wayland_platform(return_value_wegl_platform$1);
-  _Bool return_value_linux_platform_dl_can_open$2;
-  return_value_linux_platform_dl_can_open$2=linux_platform_dl_can_open(self->linux, waffle_dl);
-  return return_value_linux_platform_dl_can_open$2;
+  struct wegl_platform_0 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link5(wc_self);
+  self=wayland_platform(return_value_wegl_platform_1);
+  _Bool return_value_linux_platform_dl_can_open_2;
+  return_value_linux_platform_dl_can_open_2=linux_platform_dl_can_open(self->linux, waffle_dl);
+  return return_value_linux_platform_dl_can_open_2;
 }
 
 // wayland_dl_sym
@@ -11402,24 +11402,24 @@ static _Bool wayland_dl_can_open(struct wcore_platform *wc_self, signed int waff
 static void * wayland_dl_sym(struct wcore_platform *wc_self, signed int waffle_dl, const char *name)
 {
   struct wayland_platform *self;
-  struct wegl_platform$0 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link5(wc_self);
-  self=wayland_platform(return_value_wegl_platform$1);
-  void *return_value_linux_platform_dl_sym$2;
-  return_value_linux_platform_dl_sym$2=linux_platform_dl_sym(self->linux, waffle_dl, name);
-  return return_value_linux_platform_dl_sym$2;
+  struct wegl_platform_0 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link5(wc_self);
+  self=wayland_platform(return_value_wegl_platform_1);
+  void *return_value_linux_platform_dl_sym_2;
+  return_value_linux_platform_dl_sym_2=linux_platform_dl_sym(self->linux, waffle_dl, name);
+  return return_value_linux_platform_dl_sym_2;
 }
 
 // wayland_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_platform.h line 45
-static inline struct wayland_platform * wayland_platform(struct wegl_platform$0 *wegl_self)
+static inline struct wayland_platform * wayland_platform(struct wegl_platform_0 *wegl_self)
 {
-  struct wayland_platform *tmp_statement_expression$1;
-  if(!(wegl_self == ((struct wegl_platform$0 *)NULL)))
+  struct wayland_platform *tmp_statement_expression_1;
+  if(!(wegl_self == ((struct wegl_platform_0 *)NULL)))
   {
-    const struct wegl_platform$0 *__mptr = wegl_self;
-    tmp_statement_expression$1 = (struct wayland_platform *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    const struct wegl_platform_0 *__mptr = wegl_self;
+    tmp_statement_expression_1 = (struct wayland_platform *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
@@ -11432,9 +11432,9 @@ struct wcore_platform * wayland_platform_create(void)
 {
   struct wayland_platform *self;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct wayland_platform) /*144ul*/ );
-  self = (struct wayland_platform *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct wayland_platform) /*144ul*/ );
+  self = (struct wayland_platform *)return_value_wcore_calloc_1;
   if(self == ((struct wayland_platform *)NULL))
     return (struct wcore_platform *)(void *)0;
 
@@ -11468,11 +11468,11 @@ struct wcore_platform * wayland_platform_create(void)
 static _Bool wayland_platform_destroy(struct wcore_platform *wc_self)
 {
   struct wayland_platform *self;
-  struct wegl_platform$0 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link5(wc_self);
-  self=wayland_platform(return_value_wegl_platform$1);
+  struct wegl_platform_0 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link5(wc_self);
+  self=wayland_platform(return_value_wegl_platform_1);
   _Bool ok = (_Bool)1;
-  _Bool return_value_linux_platform_destroy$2;
+  _Bool return_value_linux_platform_destroy_2;
   if(self == ((struct wayland_platform *)NULL))
     return (_Bool)1;
 
@@ -11481,13 +11481,13 @@ static _Bool wayland_platform_destroy(struct wcore_platform *wc_self)
     unsetenv("EGL_PLATFORM");
     if(!(self->linux == ((struct linux_platform *)NULL)))
     {
-      return_value_linux_platform_destroy$2=linux_platform_destroy(self->linux);
-      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy$2) != 0;
+      return_value_linux_platform_destroy_2=linux_platform_destroy(self->linux);
+      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy_2) != 0;
     }
 
-    _Bool return_value_wegl_platform_teardown$3;
-    return_value_wegl_platform_teardown$3=wegl_platform_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_platform_teardown$3) != 0;
+    _Bool return_value_wegl_platform_teardown_3;
+    return_value_wegl_platform_teardown_3=wegl_platform_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_platform_teardown_3) != 0;
     free((void *)self);
     return ok;
   }
@@ -11497,17 +11497,17 @@ static _Bool wayland_platform_destroy(struct wcore_platform *wc_self)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/wayland/wayland_window.h line 48
 static inline struct wayland_window * wayland_window(struct wcore_window *wc_self)
 {
-  struct wegl_window *tmp_statement_expression$1;
-  struct wayland_window *tmp_statement_expression$2;
+  struct wegl_window *tmp_statement_expression_1;
+  struct wayland_window *tmp_statement_expression_2;
   if(!(wc_self == ((struct wcore_window *)NULL)))
   {
     struct wegl_window *wegl_self;
     const struct wcore_window *__mptr = wc_self;
-    tmp_statement_expression$1 = (struct wegl_window *)((void *)__mptr - (signed long int)0ul);
-    wegl_self = tmp_statement_expression$1;
-    const struct wegl_window *wayland_window$$1$$1$$2$$__mptr = wegl_self;
-    tmp_statement_expression$2 = (struct wayland_window *)((void *)wayland_window$$1$$1$$2$$__mptr - (signed long int)24ul);
-    return tmp_statement_expression$2;
+    tmp_statement_expression_1 = (struct wegl_window *)((void *)__mptr - (signed long int)0ul);
+    wegl_self = tmp_statement_expression_1;
+    const struct wegl_window *wayland_window__1__1__2____mptr = wegl_self;
+    tmp_statement_expression_2 = (struct wayland_window *)((void *)wayland_window__1__1__2____mptr - (signed long int)24ul);
+    return tmp_statement_expression_2;
   }
 
   else
@@ -11520,11 +11520,11 @@ struct wcore_window * wayland_window_create(struct wcore_platform *wc_plat, stru
 {
   struct wayland_window *self;
   struct wayland_display *dpy;
-  dpy=wayland_display$link2(wc_config->display);
+  dpy=wayland_display_link2(wc_config->display);
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct wayland_window) /*48ul*/ );
-  self = (struct wayland_window *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct wayland_window) /*48ul*/ );
+  self = (struct wayland_window *)return_value_wcore_calloc_1;
   if(self == ((struct wayland_window *)NULL))
     return (struct wcore_window *)(void *)0;
 
@@ -11591,9 +11591,9 @@ _Bool wayland_window_destroy(struct wcore_window *wc_self)
 
   else
   {
-    _Bool return_value_wegl_window_teardown$1;
-    return_value_wegl_window_teardown$1=wegl_window_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_window_teardown$1) != 0;
+    _Bool return_value_wegl_window_teardown_1;
+    return_value_wegl_window_teardown_1=wegl_window_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_window_teardown_1) != 0;
     if(!(self->wl_window == ((struct wl_egl_window *)NULL)))
       wl_egl_window_destroy(self->wl_window);
 
@@ -11615,13 +11615,13 @@ union waffle_native_window * wayland_window_get_native(struct wcore_window *wc_s
   struct wayland_window *self;
   self=wayland_window(wc_self);
   struct wayland_display *dpy;
-  dpy=wayland_display$link2(wc_self->display);
+  dpy=wayland_display_link2(wc_self->display);
   union waffle_native_window *n_window;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_wayland_window) /*64ul*/ );
-    n_window = (union waffle_native_window *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_wayland_window) /*64ul*/ );
+    n_window = (union waffle_native_window *)return_value_wcore_malloc_1;
     if(!(n_window == ((union waffle_native_window *)NULL)))
       n_window->wayland = (struct waffle_wayland_window *)(void *)(n_window + (signed long int)1);
 
@@ -11648,13 +11648,13 @@ _Bool wayland_window_resize(struct wcore_window *wc_self, signed int width, sign
   struct wayland_window *self;
   self=wayland_window(wc_self);
   struct wayland_display *dpy;
-  dpy=wayland_display$link2(self->wegl.wcore.display);
-  struct wayland_window *return_value_wayland_window$1;
-  return_value_wayland_window$1=wayland_window(wc_self);
-  wl_egl_window_resize(return_value_wayland_window$1->wl_window, width, height, 0, 0);
-  _Bool return_value_wayland_display_sync$2;
-  return_value_wayland_display_sync$2=wayland_display_sync(dpy);
-  if(return_value_wayland_display_sync$2 == (_Bool)0)
+  dpy=wayland_display_link2(self->wegl.wcore.display);
+  struct wayland_window *return_value_wayland_window_1;
+  return_value_wayland_window_1=wayland_window(wc_self);
+  wl_egl_window_resize(return_value_wayland_window_1->wl_window, width, height, 0, 0);
+  _Bool return_value_wayland_display_sync_2;
+  return_value_wayland_display_sync_2=wayland_display_sync(dpy);
+  if(return_value_wayland_display_sync_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -11668,7 +11668,7 @@ _Bool wayland_window_show(struct wcore_window *wc_self)
   struct wayland_window *self;
   self=wayland_window(wc_self);
   struct wayland_display *dpy;
-  dpy=wayland_display$link2(wc_self->display);
+  dpy=wayland_display_link2(wc_self->display);
   _Bool ok = (_Bool)1;
   wl_shell_surface_set_toplevel(self->wl_shell_surface);
   ok=wayland_display_sync(dpy);
@@ -11684,7 +11684,7 @@ _Bool wayland_window_show(struct wcore_window *wc_self)
 _Bool wayland_window_swap_buffers(struct wcore_window *wc_self)
 {
   struct wayland_display *dpy;
-  dpy=wayland_display$link2(wc_self->display);
+  dpy=wayland_display_link2(wc_self->display);
   _Bool ok;
   ok=wegl_window_swap_buffers(wc_self);
   if(ok == (_Bool)0)
@@ -11726,9 +11726,9 @@ _Bool wcore_attrib_list_get(const signed int *attrib_list, signed int key, signe
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_attrib_list.h line 41
 _Bool wcore_attrib_list_get_with_default(const signed int *attrib_list, signed int key, signed int *value, signed int default_value)
 {
-  _Bool return_value_wcore_attrib_list_get$1;
-  return_value_wcore_attrib_list_get$1=wcore_attrib_list_get(attrib_list, key, value);
-  if(!(return_value_wcore_attrib_list_get$1 == (_Bool)0))
+  _Bool return_value_wcore_attrib_list_get_1;
+  return_value_wcore_attrib_list_get_1=wcore_attrib_list_get(attrib_list, key, value);
+  if(!(return_value_wcore_attrib_list_get_1 == (_Bool)0))
     return (_Bool)1;
 
   else
@@ -11798,18 +11798,18 @@ static inline struct wcore_config * wcore_config(struct waffle_config *cfg)
   return (struct wcore_config *)cfg;
 }
 
-// wcore_config$link1
+// wcore_config_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 54
-static inline struct wcore_config * wcore_config$link1(struct waffle_config *cfg$link1)
+static inline struct wcore_config * wcore_config_link1(struct waffle_config *cfg_link1)
 {
-  return (struct wcore_config *)cfg$link1;
+  return (struct wcore_config *)cfg_link1;
 }
 
-// wcore_config$link2
+// wcore_config_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 54
-static inline struct wcore_config * wcore_config$link2(struct waffle_config *cfg$link2)
+static inline struct wcore_config * wcore_config_link2(struct waffle_config *cfg_link2)
 {
-  return (struct wcore_config *)cfg$link2;
+  return (struct wcore_config *)cfg_link2;
 }
 
 // wcore_config_attrs_parse
@@ -11817,72 +11817,72 @@ static inline struct wcore_config * wcore_config$link2(struct waffle_config *cfg
 _Bool wcore_config_attrs_parse(const signed int *waffle_attrib_list, struct wcore_config_attrs *attrs)
 {
   memset((void *)attrs, 0, sizeof(struct wcore_config_attrs) /*60ul*/ );
-  _Bool return_value_check_keys$1;
-  return_value_check_keys$1=check_keys(waffle_attrib_list);
-  if(return_value_check_keys$1 == (_Bool)0)
+  _Bool return_value_check_keys_1;
+  return_value_check_keys_1=check_keys(waffle_attrib_list);
+  if(return_value_check_keys_1 == (_Bool)0)
     return (_Bool)0;
 
   else
   {
-    _Bool return_value_parse_context_api$2;
-    return_value_parse_context_api$2=parse_context_api(attrs, waffle_attrib_list);
-    if(return_value_parse_context_api$2 == (_Bool)0)
+    _Bool return_value_parse_context_api_2;
+    return_value_parse_context_api_2=parse_context_api(attrs, waffle_attrib_list);
+    if(return_value_parse_context_api_2 == (_Bool)0)
       return (_Bool)0;
 
     else
     {
-      _Bool return_value_set_context_version_default$3;
-      return_value_set_context_version_default$3=set_context_version_default(attrs);
-      if(return_value_set_context_version_default$3 == (_Bool)0)
+      _Bool return_value_set_context_version_default_3;
+      return_value_set_context_version_default_3=set_context_version_default(attrs);
+      if(return_value_set_context_version_default_3 == (_Bool)0)
         return (_Bool)0;
 
       else
       {
-        _Bool return_value_parse_context_version$4;
-        return_value_parse_context_version$4=parse_context_version(attrs, waffle_attrib_list);
-        if(return_value_parse_context_version$4 == (_Bool)0)
+        _Bool return_value_parse_context_version_4;
+        return_value_parse_context_version_4=parse_context_version(attrs, waffle_attrib_list);
+        if(return_value_parse_context_version_4 == (_Bool)0)
           return (_Bool)0;
 
         else
         {
-          _Bool return_value_set_context_profile_default$5;
-          return_value_set_context_profile_default$5=set_context_profile_default(attrs);
-          if(return_value_set_context_profile_default$5 == (_Bool)0)
+          _Bool return_value_set_context_profile_default_5;
+          return_value_set_context_profile_default_5=set_context_profile_default(attrs);
+          if(return_value_set_context_profile_default_5 == (_Bool)0)
             return (_Bool)0;
 
           else
           {
-            _Bool return_value_parse_context_profile$6;
-            return_value_parse_context_profile$6=parse_context_profile(attrs, waffle_attrib_list);
-            if(return_value_parse_context_profile$6 == (_Bool)0)
+            _Bool return_value_parse_context_profile_6;
+            return_value_parse_context_profile_6=parse_context_profile(attrs, waffle_attrib_list);
+            if(return_value_parse_context_profile_6 == (_Bool)0)
               return (_Bool)0;
 
             else
             {
-              _Bool return_value_parse_context_forward_compatible$7;
-              return_value_parse_context_forward_compatible$7=parse_context_forward_compatible(attrs, waffle_attrib_list);
-              if(return_value_parse_context_forward_compatible$7 == (_Bool)0)
+              _Bool return_value_parse_context_forward_compatible_7;
+              return_value_parse_context_forward_compatible_7=parse_context_forward_compatible(attrs, waffle_attrib_list);
+              if(return_value_parse_context_forward_compatible_7 == (_Bool)0)
                 return (_Bool)0;
 
               else
               {
-                _Bool return_value_set_misc_defaults$8;
-                return_value_set_misc_defaults$8=set_misc_defaults(attrs);
-                if(return_value_set_misc_defaults$8 == (_Bool)0)
+                _Bool return_value_set_misc_defaults_8;
+                return_value_set_misc_defaults_8=set_misc_defaults(attrs);
+                if(return_value_set_misc_defaults_8 == (_Bool)0)
                   return (_Bool)0;
 
                 else
                 {
-                  _Bool return_value_parse_misc$9;
-                  return_value_parse_misc$9=parse_misc(attrs, waffle_attrib_list);
-                  if(return_value_parse_misc$9 == (_Bool)0)
+                  _Bool return_value_parse_misc_9;
+                  return_value_parse_misc_9=parse_misc(attrs, waffle_attrib_list);
+                  if(return_value_parse_misc_9 == (_Bool)0)
                     return (_Bool)0;
 
                   else
                   {
-                    _Bool return_value_check_final$10;
-                    return_value_check_final$10=check_final(attrs);
-                    if(return_value_check_final$10 == (_Bool)0)
+                    _Bool return_value_check_final_10;
+                    return_value_check_final_10=check_final(attrs);
+                    if(return_value_check_final_10 == (_Bool)0)
                       return (_Bool)0;
 
                     else
@@ -11902,73 +11902,73 @@ _Bool wcore_config_attrs_parse(const signed int *waffle_attrib_list, struct wcor
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 512
 _Bool wcore_config_attrs_version_eq(struct wcore_config_attrs *attrs, signed int merged_version)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(attrs->context_major_version == merged_version / 10)
-    tmp_if_expr$1 = attrs->context_minor_version == merged_version % 10 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = attrs->context_minor_version == merged_version % 10 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return tmp_if_expr_1;
 }
 
 // wcore_config_attrs_version_ge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 533
 _Bool wcore_config_attrs_version_ge(struct wcore_config_attrs *attrs, signed int merged_version)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(merged_version / 10 >= attrs->context_major_version))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(attrs->context_major_version == merged_version / 10)
-      tmp_if_expr$1 = attrs->context_minor_version >= merged_version % 10 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = attrs->context_minor_version >= merged_version % 10 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // wcore_config_attrs_version_gt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 522
 _Bool wcore_config_attrs_version_gt(struct wcore_config_attrs *attrs, signed int merged_version)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(merged_version / 10 >= attrs->context_major_version))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(attrs->context_major_version == merged_version / 10)
-      tmp_if_expr$1 = attrs->context_minor_version > merged_version % 10 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = attrs->context_minor_version > merged_version % 10 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // wcore_config_attrs_version_le
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 552
 _Bool wcore_config_attrs_version_le(struct wcore_config_attrs *attrs, signed int merged_version)
 {
-  _Bool return_value_wcore_config_attrs_version_gt$1;
-  return_value_wcore_config_attrs_version_gt$1=wcore_config_attrs_version_gt(attrs, merged_version);
-  return !(return_value_wcore_config_attrs_version_gt$1 != (_Bool)0);
+  _Bool return_value_wcore_config_attrs_version_gt_1;
+  return_value_wcore_config_attrs_version_gt_1=wcore_config_attrs_version_gt(attrs, merged_version);
+  return !(return_value_wcore_config_attrs_version_gt_1 != (_Bool)0);
 }
 
 // wcore_config_attrs_version_lt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config_attrs.c line 544
 _Bool wcore_config_attrs_version_lt(struct wcore_config_attrs *attrs, signed int merged_version)
 {
-  _Bool return_value_wcore_config_attrs_version_ge$1;
-  return_value_wcore_config_attrs_version_ge$1=wcore_config_attrs_version_ge(attrs, merged_version);
-  return !(return_value_wcore_config_attrs_version_ge$1 != (_Bool)0);
+  _Bool return_value_wcore_config_attrs_version_ge_1;
+  return_value_wcore_config_attrs_version_ge_1=wcore_config_attrs_version_ge(attrs, merged_version);
+  return !(return_value_wcore_config_attrs_version_ge_1 != (_Bool)0);
 }
 
 // wcore_config_init
@@ -11981,13 +11981,13 @@ static inline _Bool wcore_config_init(struct wcore_config *self, struct wcore_di
   return (_Bool)1;
 }
 
-// wcore_config_init$link1
+// wcore_config_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 59
-static inline _Bool wcore_config_init$link1(struct wcore_config *self$link1, struct wcore_display *display$link1, struct wcore_config_attrs *attrs$link1)
+static inline _Bool wcore_config_init_link1(struct wcore_config *self_link1, struct wcore_display *display_link1, struct wcore_config_attrs *attrs_link1)
 {
-  self$link1->api.display_id = display$link1->api.display_id;
-  self$link1->display = display$link1;
-  memcpy((void *)&self$link1->attrs, (const void *)attrs$link1, sizeof(struct wcore_config_attrs) /*60ul*/ );
+  self_link1->api.display_id = display_link1->api.display_id;
+  self_link1->display = display_link1;
+  memcpy((void *)&self_link1->attrs, (const void *)attrs_link1, sizeof(struct wcore_config_attrs) /*60ul*/ );
   return (_Bool)1;
 }
 
@@ -11998,9 +11998,9 @@ static inline _Bool wcore_config_teardown(struct wcore_config *self)
   return (_Bool)1;
 }
 
-// wcore_config_teardown$link1
+// wcore_config_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_config.h line 74
-static inline _Bool wcore_config_teardown$link1(struct wcore_config *self$link1)
+static inline _Bool wcore_config_teardown_link1(struct wcore_config *self_link1)
 {
   return (_Bool)1;
 }
@@ -12012,11 +12012,11 @@ static inline struct wcore_context * wcore_context(struct waffle_context *ctx)
   return (struct wcore_context *)ctx;
 }
 
-// wcore_context$link1
+// wcore_context_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 52
-static inline struct wcore_context * wcore_context$link1(struct waffle_context *ctx$link1)
+static inline struct wcore_context * wcore_context_link1(struct waffle_context *ctx_link1)
 {
-  return (struct wcore_context *)ctx$link1;
+  return (struct wcore_context *)ctx_link1;
 }
 
 // wcore_context_init
@@ -12028,12 +12028,12 @@ static inline _Bool wcore_context_init(struct wcore_context *self, struct wcore_
   return (_Bool)1;
 }
 
-// wcore_context_init$link1
+// wcore_context_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 57
-static inline _Bool wcore_context_init$link1(struct wcore_context *self$link1, struct wcore_config *config$link1)
+static inline _Bool wcore_context_init_link1(struct wcore_context *self_link1, struct wcore_config *config_link1)
 {
-  self$link1->api.display_id = config$link1->display->api.display_id;
-  self$link1->display = config$link1->display;
+  self_link1->api.display_id = config_link1->display->api.display_id;
+  self_link1->display = config_link1->display;
   return (_Bool)1;
 }
 
@@ -12044,9 +12044,9 @@ static inline _Bool wcore_context_teardown(struct wcore_context *self)
   return (_Bool)1;
 }
 
-// wcore_context_teardown$link1
+// wcore_context_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_context.h line 70
-static inline _Bool wcore_context_teardown$link1(struct wcore_context *self$link1)
+static inline _Bool wcore_context_teardown_link1(struct wcore_context *self_link1)
 {
   return (_Bool)1;
 }
@@ -12058,18 +12058,18 @@ static inline struct wcore_display * wcore_display(struct waffle_display *dpy)
   return (struct wcore_display *)dpy;
 }
 
-// wcore_display$link1
+// wcore_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_display.h line 49
-static inline struct wcore_display * wcore_display$link1(struct waffle_display *dpy$link1)
+static inline struct wcore_display * wcore_display_link1(struct waffle_display *dpy_link1)
 {
-  return (struct wcore_display *)dpy$link1;
+  return (struct wcore_display *)dpy_link1;
 }
 
-// wcore_display$link2
+// wcore_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_display.h line 49
-static inline struct wcore_display * wcore_display$link2(struct waffle_display *dpy$link2)
+static inline struct wcore_display * wcore_display_link2(struct waffle_display *dpy_link2)
 {
-  return (struct wcore_display *)dpy$link2;
+  return (struct wcore_display *)dpy_link2;
 }
 
 // wcore_display_init
@@ -12189,9 +12189,9 @@ const char * wcore_enum_to_string(signed int e)
 void wcore_error(enum waffle_error error)
 {
   struct wcore_error_tinfo *t;
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  t = return_value_wcore_tinfo_get$1->error;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  t = return_value_wcore_tinfo_get_1->error;
   if(!(t->is_enabled == (_Bool)0))
   {
     if((signed int)t->code == WAFFLE_NO_ERROR)
@@ -12209,13 +12209,13 @@ void wcore_error(enum waffle_error error)
 void wcore_error_errno(const char *format, ...)
 {
   signed int saved_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  saved_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  saved_errno = *return_value___errno_location_1;
   struct wcore_error_tinfo *t;
-  struct wcore_tinfo *return_value_wcore_tinfo_get$2;
-  return_value_wcore_tinfo_get$2=wcore_tinfo_get();
-  t = return_value_wcore_tinfo_get$2->error;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_2;
+  return_value_wcore_tinfo_get_2=wcore_tinfo_get();
+  t = return_value_wcore_tinfo_get_2->error;
   char *cur = t->message;
   char *end = t->message + (signed long int)1024;
   signed int printed;
@@ -12250,9 +12250,9 @@ __CPROVER_DUMP_L5:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_error.h line 80
 enum waffle_error wcore_error_get_code(void)
 {
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  return return_value_wcore_tinfo_get$1->error->code;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  return return_value_wcore_tinfo_get_1->error->code;
 }
 
 // wcore_error_get_info
@@ -12260,9 +12260,9 @@ enum waffle_error wcore_error_get_code(void)
 struct waffle_error_info * wcore_error_get_info(void)
 {
   struct wcore_error_tinfo *info;
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  info = return_value_wcore_tinfo_get$1->error;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  info = return_value_wcore_tinfo_get_1->error;
   info->user_info.code = info->code;
   info->user_info.message = info->message;
   info->user_info.message_length=strlen(info->message);
@@ -12274,9 +12274,9 @@ struct waffle_error_info * wcore_error_get_info(void)
 void wcore_error_reset(void)
 {
   struct wcore_error_tinfo *t;
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  t = return_value_wcore_tinfo_get$1->error;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  t = return_value_wcore_tinfo_get_1->error;
   if(!(t->is_enabled == (_Bool)0))
   {
     t->code = (enum waffle_error)WAFFLE_NO_ERROR;
@@ -12290,9 +12290,9 @@ void wcore_error_reset(void)
 struct wcore_error_tinfo * wcore_error_tinfo_create(void)
 {
   struct wcore_error_tinfo *self;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct wcore_error_tinfo) /*1056ul*/ );
-  self = (struct wcore_error_tinfo *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct wcore_error_tinfo) /*1056ul*/ );
+  self = (struct wcore_error_tinfo *)return_value_malloc_1;
   if(self == ((struct wcore_error_tinfo *)NULL))
     return (struct wcore_error_tinfo *)(void *)0;
 
@@ -12318,9 +12318,9 @@ _Bool wcore_error_tinfo_destroy(struct wcore_error_tinfo *self)
 void wcore_errorf(enum waffle_error error, const char *format, ...)
 {
   struct wcore_error_tinfo *t;
-  struct wcore_tinfo *return_value_wcore_tinfo_get$1;
-  return_value_wcore_tinfo_get$1=wcore_tinfo_get();
-  t = return_value_wcore_tinfo_get$1->error;
+  struct wcore_tinfo *return_value_wcore_tinfo_get_1;
+  return_value_wcore_tinfo_get_1=wcore_tinfo_get();
+  t = return_value_wcore_tinfo_get_1->error;
   void **ap;
   if(!(t->is_enabled == (_Bool)0))
   {
@@ -12355,9 +12355,9 @@ static inline _Bool wcore_platform_init(struct wcore_platform *self)
   return (_Bool)1;
 }
 
-// wcore_platform_init$link1
+// wcore_platform_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_platform.h line 144
-static inline _Bool wcore_platform_init$link1(struct wcore_platform *self$link1)
+static inline _Bool wcore_platform_init_link1(struct wcore_platform *self_link1)
 {
   return (_Bool)1;
 }
@@ -12369,9 +12369,9 @@ static inline _Bool wcore_platform_teardown(struct wcore_platform *self)
   return (_Bool)1;
 }
 
-// wcore_platform_teardown$link1
+// wcore_platform_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_platform.h line 151
-static inline _Bool wcore_platform_teardown$link1(struct wcore_platform *self$link1)
+static inline _Bool wcore_platform_teardown_link1(struct wcore_platform *self_link1)
 {
   return (_Bool)1;
 }
@@ -12441,11 +12441,11 @@ static inline struct wcore_window * wcore_window(struct waffle_window *win)
   return (struct wcore_window *)win;
 }
 
-// wcore_window$link1
+// wcore_window_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 45
-static inline struct wcore_window * wcore_window$link1(struct waffle_window *win$link1)
+static inline struct wcore_window * wcore_window_link1(struct waffle_window *win_link1)
 {
-  return (struct wcore_window *)win$link1;
+  return (struct wcore_window *)win_link1;
 }
 
 // wcore_window_init
@@ -12457,12 +12457,12 @@ static inline _Bool wcore_window_init(struct wcore_window *self, struct wcore_co
   return (_Bool)1;
 }
 
-// wcore_window_init$link1
+// wcore_window_init_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 50
-static inline _Bool wcore_window_init$link1(struct wcore_window *self$link1, struct wcore_config *config$link1)
+static inline _Bool wcore_window_init_link1(struct wcore_window *self_link1, struct wcore_config *config_link1)
 {
-  self$link1->api.display_id = config$link1->display->api.display_id;
-  self$link1->display = config$link1->display;
+  self_link1->api.display_id = config_link1->display->api.display_id;
+  self_link1->display = config_link1->display;
   return (_Bool)1;
 }
 
@@ -12473,9 +12473,9 @@ static inline _Bool wcore_window_teardown(struct wcore_window *self)
   return (_Bool)1;
 }
 
-// wcore_window_teardown$link1
+// wcore_window_teardown_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/core/wcore_window.h line 63
-static inline _Bool wcore_window_teardown$link1(struct wcore_window *self$link1)
+static inline _Bool wcore_window_teardown_link1(struct wcore_window *self_link1)
 {
   return (_Bool)1;
 }
@@ -12484,108 +12484,108 @@ static inline _Bool wcore_window_teardown$link1(struct wcore_window *self$link1)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
 static inline struct wegl_config * wegl_config(struct wcore_config *wcore_self)
 {
-  struct wegl_config *tmp_statement_expression$1;
+  struct wegl_config *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_config *)NULL)))
   {
     const struct wcore_config *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct wegl_config *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct wegl_config *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct wegl_config *)NULL);
 }
 
-// wegl_config$link1
+// wegl_config_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link1(struct wcore_config *wcore_self$link1)
+static inline struct wegl_config * wegl_config_link1(struct wcore_config *wcore_self_link1)
 {
-  struct wegl_config *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_config *)NULL)))
+  struct wegl_config *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_config *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_config *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_config *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
     return ((struct wegl_config *)NULL);
 }
 
-// wegl_config$link2
+// wegl_config_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link2(struct wcore_config *wcore_self$link2)
+static inline struct wegl_config * wegl_config_link2(struct wcore_config *wcore_self_link2)
 {
-  struct wegl_config *tmp_statement_expression$1$link2;
-  if(!(wcore_self$link2 == ((struct wcore_config *)NULL)))
+  struct wegl_config *tmp_statement_expression_1_link2;
+  if(!(wcore_self_link2 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link2 = wcore_self$link2;
-    tmp_statement_expression$1$link2 = (struct wegl_config *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wcore_config *__mptr_link2 = wcore_self_link2;
+    tmp_statement_expression_1_link2 = (struct wegl_config *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
     return ((struct wegl_config *)NULL);
 }
 
-// wegl_config$link3
+// wegl_config_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link3(struct wcore_config *wcore_self$link3)
+static inline struct wegl_config * wegl_config_link3(struct wcore_config *wcore_self_link3)
 {
-  struct wegl_config *tmp_statement_expression$1$link3;
-  if(!(wcore_self$link3 == ((struct wcore_config *)NULL)))
+  struct wegl_config *tmp_statement_expression_1_link3;
+  if(!(wcore_self_link3 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link3 = wcore_self$link3;
-    tmp_statement_expression$1$link3 = (struct wegl_config *)((void *)__mptr$link3 - (signed long int)0ul);
-    return tmp_statement_expression$1$link3;
+    const struct wcore_config *__mptr_link3 = wcore_self_link3;
+    tmp_statement_expression_1_link3 = (struct wegl_config *)((void *)__mptr_link3 - (signed long int)0ul);
+    return tmp_statement_expression_1_link3;
   }
 
   else
     return ((struct wegl_config *)NULL);
 }
 
-// wegl_config$link4
+// wegl_config_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link4(struct wcore_config *wcore_self$link4)
+static inline struct wegl_config * wegl_config_link4(struct wcore_config *wcore_self_link4)
 {
-  struct wegl_config *tmp_statement_expression$1$link4;
-  if(!(wcore_self$link4 == ((struct wcore_config *)NULL)))
+  struct wegl_config *tmp_statement_expression_1_link4;
+  if(!(wcore_self_link4 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link4 = wcore_self$link4;
-    tmp_statement_expression$1$link4 = (struct wegl_config *)((void *)__mptr$link4 - (signed long int)0ul);
-    return tmp_statement_expression$1$link4;
+    const struct wcore_config *__mptr_link4 = wcore_self_link4;
+    tmp_statement_expression_1_link4 = (struct wegl_config *)((void *)__mptr_link4 - (signed long int)0ul);
+    return tmp_statement_expression_1_link4;
   }
 
   else
     return ((struct wegl_config *)NULL);
 }
 
-// wegl_config$link5
+// wegl_config_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link5(struct wcore_config *wcore_self$link5)
+static inline struct wegl_config * wegl_config_link5(struct wcore_config *wcore_self_link5)
 {
-  struct wegl_config *tmp_statement_expression$1$link5;
-  if(!(wcore_self$link5 == ((struct wcore_config *)NULL)))
+  struct wegl_config *tmp_statement_expression_1_link5;
+  if(!(wcore_self_link5 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link5 = wcore_self$link5;
-    tmp_statement_expression$1$link5 = (struct wegl_config *)((void *)__mptr$link5 - (signed long int)0ul);
-    return tmp_statement_expression$1$link5;
+    const struct wcore_config *__mptr_link5 = wcore_self_link5;
+    tmp_statement_expression_1_link5 = (struct wegl_config *)((void *)__mptr_link5 - (signed long int)0ul);
+    return tmp_statement_expression_1_link5;
   }
 
   else
     return ((struct wegl_config *)NULL);
 }
 
-// wegl_config$link6
+// wegl_config_link6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_config.h line 45
-static inline struct wegl_config * wegl_config$link6(struct wcore_config *wcore_self$link6)
+static inline struct wegl_config * wegl_config_link6(struct wcore_config *wcore_self_link6)
 {
-  struct wegl_config *tmp_statement_expression$1$link6;
-  if(!(wcore_self$link6 == ((struct wcore_config *)NULL)))
+  struct wegl_config *tmp_statement_expression_1_link6;
+  if(!(wcore_self_link6 == ((struct wcore_config *)NULL)))
   {
-    const struct wcore_config *__mptr$link6 = wcore_self$link6;
-    tmp_statement_expression$1$link6 = (struct wegl_config *)((void *)__mptr$link6 - (signed long int)0ul);
-    return tmp_statement_expression$1$link6;
+    const struct wcore_config *__mptr_link6 = wcore_self_link6;
+    tmp_statement_expression_1_link6 = (struct wegl_config *)((void *)__mptr_link6 - (signed long int)0ul);
+    return tmp_statement_expression_1_link6;
   }
 
   else
@@ -12600,10 +12600,10 @@ struct wcore_config * wegl_config_choose(struct wcore_platform *wc_plat, struct 
   dpy=wegl_display(wc_dpy);
   struct wegl_config *config;
   _Bool ok;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct wegl_config) /*88ul*/ );
-  config = (struct wegl_config *)return_value_wcore_calloc$1;
-  _Bool return_value_check_context_attrs$2;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct wegl_config) /*88ul*/ );
+  config = (struct wegl_config *)return_value_wcore_calloc_1;
+  _Bool return_value_check_context_attrs_2;
   if(config == ((struct wegl_config *)NULL))
     return (struct wcore_config *)(void *)0;
 
@@ -12612,8 +12612,8 @@ struct wcore_config * wegl_config_choose(struct wcore_platform *wc_plat, struct 
     ok=wcore_config_init(&config->wcore, wc_dpy, attrs);
     if(!(ok == (_Bool)0))
     {
-      return_value_check_context_attrs$2=check_context_attrs(dpy, attrs);
-      if(return_value_check_context_attrs$2 == (_Bool)0)
+      return_value_check_context_attrs_2=check_context_attrs(dpy, attrs);
+      if(return_value_check_context_attrs_2 == (_Bool)0)
         goto fail;
 
       config->egl=choose_real_config(dpy, attrs);
@@ -12646,9 +12646,9 @@ _Bool wegl_config_destroy(struct wcore_config *wc_config)
 
   else
   {
-    _Bool return_value_wcore_config_teardown$1;
-    return_value_wcore_config_teardown$1=wcore_config_teardown(wc_config);
-    result = ((signed int)result & (signed int)return_value_wcore_config_teardown$1) != 0;
+    _Bool return_value_wcore_config_teardown_1;
+    return_value_wcore_config_teardown_1=wcore_config_teardown(wc_config);
+    result = ((signed int)result & (signed int)return_value_wcore_config_teardown_1) != 0;
     free((void *)config);
     return result;
   }
@@ -12658,76 +12658,76 @@ _Bool wegl_config_destroy(struct wcore_config *wc_config)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
 static inline struct wegl_context * wegl_context(struct wcore_context *wcore_self)
 {
-  struct wegl_context *tmp_statement_expression$1;
+  struct wegl_context *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_context *)NULL)))
   {
     const struct wcore_context *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct wegl_context *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct wegl_context *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct wegl_context *)NULL);
 }
 
-// wegl_context$link1
+// wegl_context_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link1(struct wcore_context *wcore_self$link1)
+static inline struct wegl_context * wegl_context_link1(struct wcore_context *wcore_self_link1)
 {
-  struct wegl_context *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_context *)NULL)))
+  struct wegl_context *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_context *)NULL)))
   {
-    const struct wcore_context *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_context *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_context *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_context *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
     return ((struct wegl_context *)NULL);
 }
 
-// wegl_context$link2
+// wegl_context_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link2(struct wcore_context *wcore_self$link2)
+static inline struct wegl_context * wegl_context_link2(struct wcore_context *wcore_self_link2)
 {
-  struct wegl_context *tmp_statement_expression$1$link2;
-  if(!(wcore_self$link2 == ((struct wcore_context *)NULL)))
+  struct wegl_context *tmp_statement_expression_1_link2;
+  if(!(wcore_self_link2 == ((struct wcore_context *)NULL)))
   {
-    const struct wcore_context *__mptr$link2 = wcore_self$link2;
-    tmp_statement_expression$1$link2 = (struct wegl_context *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wcore_context *__mptr_link2 = wcore_self_link2;
+    tmp_statement_expression_1_link2 = (struct wegl_context *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
     return ((struct wegl_context *)NULL);
 }
 
-// wegl_context$link3
+// wegl_context_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link3(struct wcore_context *wcore_self$link3)
+static inline struct wegl_context * wegl_context_link3(struct wcore_context *wcore_self_link3)
 {
-  struct wegl_context *tmp_statement_expression$1$link3;
-  if(!(wcore_self$link3 == ((struct wcore_context *)NULL)))
+  struct wegl_context *tmp_statement_expression_1_link3;
+  if(!(wcore_self_link3 == ((struct wcore_context *)NULL)))
   {
-    const struct wcore_context *__mptr$link3 = wcore_self$link3;
-    tmp_statement_expression$1$link3 = (struct wegl_context *)((void *)__mptr$link3 - (signed long int)0ul);
-    return tmp_statement_expression$1$link3;
+    const struct wcore_context *__mptr_link3 = wcore_self_link3;
+    tmp_statement_expression_1_link3 = (struct wegl_context *)((void *)__mptr_link3 - (signed long int)0ul);
+    return tmp_statement_expression_1_link3;
   }
 
   else
     return ((struct wegl_context *)NULL);
 }
 
-// wegl_context$link4
+// wegl_context_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_context.h line 43
-static inline struct wegl_context * wegl_context$link4(struct wcore_context *wcore_self$link4)
+static inline struct wegl_context * wegl_context_link4(struct wcore_context *wcore_self_link4)
 {
-  struct wegl_context *tmp_statement_expression$1$link4;
-  if(!(wcore_self$link4 == ((struct wcore_context *)NULL)))
+  struct wegl_context *tmp_statement_expression_1_link4;
+  if(!(wcore_self_link4 == ((struct wcore_context *)NULL)))
   {
-    const struct wcore_context *__mptr$link4 = wcore_self$link4;
-    tmp_statement_expression$1$link4 = (struct wegl_context *)((void *)__mptr$link4 - (signed long int)0ul);
-    return tmp_statement_expression$1$link4;
+    const struct wcore_context *__mptr_link4 = wcore_self_link4;
+    tmp_statement_expression_1_link4 = (struct wegl_context *)((void *)__mptr_link4 - (signed long int)0ul);
+    return tmp_statement_expression_1_link4;
   }
 
   else
@@ -12740,14 +12740,14 @@ struct wcore_context * wegl_context_create(struct wcore_platform *wc_plat, struc
 {
   struct wegl_context *ctx;
   struct wegl_config *config;
-  config=wegl_config$link1(wc_config);
+  config=wegl_config_link1(wc_config);
   struct wegl_context *share_ctx;
   share_ctx=wegl_context(wc_share_ctx);
   _Bool ok;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct wegl_context) /*24ul*/ );
-  ctx = (struct wegl_context *)return_value_wcore_calloc$1;
-  void *tmp_if_expr$2;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct wegl_context) /*24ul*/ );
+  ctx = (struct wegl_context *)return_value_wcore_calloc_1;
+  void *tmp_if_expr_2;
   if(ctx == ((struct wegl_context *)NULL))
     return (struct wcore_context *)(void *)0;
 
@@ -12757,11 +12757,11 @@ struct wcore_context * wegl_context_create(struct wcore_platform *wc_plat, struc
     if(!(ok == (_Bool)0))
     {
       if(!(share_ctx == ((struct wegl_context *)NULL)))
-        tmp_if_expr$2 = share_ctx->egl;
+        tmp_if_expr_2 = share_ctx->egl;
 
       else
-        tmp_if_expr$2 = (void *)0;
-      ctx->egl=create_real_context(config, tmp_if_expr$2);
+        tmp_if_expr_2 = (void *)0;
+      ctx->egl=create_real_context(config, tmp_if_expr_2);
       if(ctx->egl == NULL)
         goto fail;
 
@@ -12784,9 +12784,9 @@ struct wcore_context * wegl_context_create(struct wcore_platform *wc_plat, struc
 _Bool wegl_context_destroy(struct wcore_context *wc_ctx)
 {
   struct wegl_display *dpy;
-  dpy=wegl_display$link1(wc_ctx->display);
+  dpy=wegl_display_link1(wc_ctx->display);
   struct wegl_platform *plat;
-  plat=wegl_platform$link1(dpy->wcore.platform);
+  plat=wegl_platform_link1(dpy->wcore.platform);
   struct wegl_context *ctx;
   _Bool result = (_Bool)1;
   if(wc_ctx == ((struct wcore_context *)NULL))
@@ -12798,10 +12798,10 @@ _Bool wegl_context_destroy(struct wcore_context *wc_ctx)
     if(!(ctx->egl == NULL))
     {
       _Bool ok;
-      struct wegl_display *return_value_wegl_display$1;
-      return_value_wegl_display$1=wegl_display$link1(wc_ctx->display);
+      struct wegl_display *return_value_wegl_display_1;
+      return_value_wegl_display_1=wegl_display_link1(wc_ctx->display);
       unsigned int return_value;
-      return_value=plat->eglDestroyContext(return_value_wegl_display$1->egl, ctx->egl);
+      return_value=plat->eglDestroyContext(return_value_wegl_display_1->egl, ctx->egl);
       ok = (_Bool)return_value;
       if(ok == (_Bool)0)
       {
@@ -12811,9 +12811,9 @@ _Bool wegl_context_destroy(struct wcore_context *wc_ctx)
 
     }
 
-    _Bool return_value_wcore_context_teardown$2;
-    return_value_wcore_context_teardown$2=wcore_context_teardown(wc_ctx);
-    result = ((signed int)result & (signed int)return_value_wcore_context_teardown$2) != 0;
+    _Bool return_value_wcore_context_teardown_2;
+    return_value_wcore_context_teardown_2=wcore_context_teardown(wc_ctx);
+    result = ((signed int)result & (signed int)return_value_wcore_context_teardown_2) != 0;
     free((void *)ctx);
     return result;
   }
@@ -12823,76 +12823,76 @@ _Bool wegl_context_destroy(struct wcore_context *wc_ctx)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
 static inline struct wegl_display * wegl_display(struct wcore_display *wcore_self)
 {
-  struct wegl_display *tmp_statement_expression$1;
+  struct wegl_display *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_display *)NULL)))
   {
     const struct wcore_display *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct wegl_display *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct wegl_display *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct wegl_display *)NULL);
 }
 
-// wegl_display$link1
+// wegl_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link1(struct wcore_display *wcore_self$link1)
+static inline struct wegl_display * wegl_display_link1(struct wcore_display *wcore_self_link1)
 {
-  struct wegl_display *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_display *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_display *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_display *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
     return ((struct wegl_display *)NULL);
 }
 
-// wegl_display$link2
+// wegl_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link2(struct wcore_display *wcore_self$link2)
+static inline struct wegl_display * wegl_display_link2(struct wcore_display *wcore_self_link2)
 {
-  struct wegl_display *tmp_statement_expression$1$link2;
-  if(!(wcore_self$link2 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link2;
+  if(!(wcore_self_link2 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link2 = wcore_self$link2;
-    tmp_statement_expression$1$link2 = (struct wegl_display *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wcore_display *__mptr_link2 = wcore_self_link2;
+    tmp_statement_expression_1_link2 = (struct wegl_display *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
     return ((struct wegl_display *)NULL);
 }
 
-// wegl_display$link3
+// wegl_display_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link3(struct wcore_display *wcore_self$link3)
+static inline struct wegl_display * wegl_display_link3(struct wcore_display *wcore_self_link3)
 {
-  struct wegl_display *tmp_statement_expression$1$link3;
-  if(!(wcore_self$link3 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link3;
+  if(!(wcore_self_link3 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link3 = wcore_self$link3;
-    tmp_statement_expression$1$link3 = (struct wegl_display *)((void *)__mptr$link3 - (signed long int)0ul);
-    return tmp_statement_expression$1$link3;
+    const struct wcore_display *__mptr_link3 = wcore_self_link3;
+    tmp_statement_expression_1_link3 = (struct wegl_display *)((void *)__mptr_link3 - (signed long int)0ul);
+    return tmp_statement_expression_1_link3;
   }
 
   else
     return ((struct wegl_display *)NULL);
 }
 
-// wegl_display$link4
+// wegl_display_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_display.h line 43
-static inline struct wegl_display * wegl_display$link4(struct wcore_display *wcore_self$link4)
+static inline struct wegl_display * wegl_display_link4(struct wcore_display *wcore_self_link4)
 {
-  struct wegl_display *tmp_statement_expression$1$link4;
-  if(!(wcore_self$link4 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link4;
+  if(!(wcore_self_link4 == ((struct wcore_display *)NULL)))
   {
-    const struct wcore_display *__mptr$link4 = wcore_self$link4;
-    tmp_statement_expression$1$link4 = (struct wegl_display *)((void *)__mptr$link4 - (signed long int)0ul);
-    return tmp_statement_expression$1$link4;
+    const struct wcore_display *__mptr_link4 = wcore_self_link4;
+    tmp_statement_expression_1_link4 = (struct wegl_display *)((void *)__mptr_link4 - (signed long int)0ul);
+    return tmp_statement_expression_1_link4;
   }
 
   else
@@ -12904,7 +12904,7 @@ static inline struct wegl_display * wegl_display$link4(struct wcore_display *wco
 _Bool wegl_display_init(struct wegl_display *dpy, struct wcore_platform *wc_plat, signed long int native_display)
 {
   struct wegl_platform *plat;
-  plat=wegl_platform$link2(wc_plat);
+  plat=wegl_platform_link2(wc_plat);
   _Bool ok;
   signed int major;
   signed int minor;
@@ -12940,7 +12940,7 @@ _Bool wegl_display_init(struct wegl_display *dpy, struct wcore_platform *wc_plat
 _Bool wegl_display_supports_context_api(struct wcore_display *wc_dpy, signed int waffle_context_api)
 {
   struct wegl_display *dpy;
-  dpy=wegl_display$link2(wc_dpy);
+  dpy=wegl_display_link2(wc_dpy);
   struct wcore_platform *wc_plat = dpy->wcore.platform;
   signed int waffle_dl;
   switch(waffle_context_api)
@@ -12984,7 +12984,7 @@ _Bool wegl_display_supports_context_api(struct wcore_display *wc_dpy, signed int
 _Bool wegl_display_teardown(struct wegl_display *dpy)
 {
   struct wegl_platform *plat;
-  plat=wegl_platform$link2(dpy->wcore.platform);
+  plat=wegl_platform_link2(dpy->wcore.platform);
   _Bool ok = (_Bool)1;
   if(!(dpy->egl == NULL))
   {
@@ -13037,7 +13037,7 @@ void wegl_emit_error(struct wegl_platform *plat, const char *egl_func_call)
 void * wegl_get_proc_address(struct wcore_platform *wc_self, const char *name)
 {
   struct wegl_platform *self;
-  self=wegl_platform$link3(wc_self);
+  self=wegl_platform_link3(wc_self);
   void (*return_value)(void);
   return_value=self->eglGetProcAddress(name);
   return (void *)return_value;
@@ -13048,34 +13048,34 @@ void * wegl_get_proc_address(struct wcore_platform *wc_self, const char *name)
 _Bool wegl_make_current(struct wcore_platform *wc_plat, struct wcore_display *wc_dpy, struct wcore_window *wc_window, struct wcore_context *wc_ctx)
 {
   struct wegl_platform *plat;
-  plat=wegl_platform$link3(wc_plat);
+  plat=wegl_platform_link3(wc_plat);
   void *surface;
-  void *tmp_if_expr$2;
-  struct wegl_window *return_value_wegl_window$1;
+  void *tmp_if_expr_2;
+  struct wegl_window *return_value_wegl_window_1;
   if(!(wc_window == ((struct wcore_window *)NULL)))
   {
-    return_value_wegl_window$1=wegl_window(wc_window);
-    tmp_if_expr$2 = return_value_wegl_window$1->egl;
+    return_value_wegl_window_1=wegl_window(wc_window);
+    tmp_if_expr_2 = return_value_wegl_window_1->egl;
   }
 
   else
-    tmp_if_expr$2 = (void *)0;
-  surface = tmp_if_expr$2;
+    tmp_if_expr_2 = (void *)0;
+  surface = tmp_if_expr_2;
   _Bool ok;
-  struct wegl_display *return_value_wegl_display$3;
-  return_value_wegl_display$3=wegl_display$link3(wc_dpy);
-  void *tmp_if_expr$5;
-  struct wegl_context *return_value_wegl_context$4;
+  struct wegl_display *return_value_wegl_display_3;
+  return_value_wegl_display_3=wegl_display_link3(wc_dpy);
+  void *tmp_if_expr_5;
+  struct wegl_context *return_value_wegl_context_4;
   if(!(wc_ctx == ((struct wcore_context *)NULL)))
   {
-    return_value_wegl_context$4=wegl_context$link1(wc_ctx);
-    tmp_if_expr$5 = return_value_wegl_context$4->egl;
+    return_value_wegl_context_4=wegl_context_link1(wc_ctx);
+    tmp_if_expr_5 = return_value_wegl_context_4->egl;
   }
 
   else
-    tmp_if_expr$5 = (void *)0;
+    tmp_if_expr_5 = (void *)0;
   unsigned int return_value;
-  return_value=plat->eglMakeCurrent(return_value_wegl_display$3->egl, surface, surface, tmp_if_expr$5);
+  return_value=plat->eglMakeCurrent(return_value_wegl_display_3->egl, surface, surface, tmp_if_expr_5);
   ok = (_Bool)return_value;
   if(ok == (_Bool)0)
     wegl_emit_error(plat, "eglMakeCurrent");
@@ -13087,192 +13087,192 @@ _Bool wegl_make_current(struct wcore_platform *wc_plat, struct wcore_display *wc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
 static inline struct wegl_platform * wegl_platform(struct wcore_platform *wcore_self)
 {
-  struct wegl_platform *tmp_statement_expression$1;
+  struct wegl_platform *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_platform *)NULL)))
   {
     const struct wcore_platform *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct wegl_platform *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct wegl_platform *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link1
+// wegl_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link1(struct wcore_platform *wcore_self$link1)
+static inline struct wegl_platform * wegl_platform_link1(struct wcore_platform *wcore_self_link1)
 {
-  struct wegl_platform *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_platform *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_platform *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_platform *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link10
+// wegl_platform_link10
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link10(struct wcore_platform *wcore_self$link10)
+static inline struct wegl_platform * wegl_platform_link10(struct wcore_platform *wcore_self_link10)
 {
-  struct wegl_platform *tmp_statement_expression$1$link10;
-  if(!(wcore_self$link10 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link10;
+  if(!(wcore_self_link10 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link10 = wcore_self$link10;
-    tmp_statement_expression$1$link10 = (struct wegl_platform *)((void *)__mptr$link10 - (signed long int)0ul);
-    return tmp_statement_expression$1$link10;
+    const struct wcore_platform *__mptr_link10 = wcore_self_link10;
+    tmp_statement_expression_1_link10 = (struct wegl_platform *)((void *)__mptr_link10 - (signed long int)0ul);
+    return tmp_statement_expression_1_link10;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link11
+// wegl_platform_link11
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform$2 * wegl_platform$link11(struct wcore_platform *wcore_self$link11)
+static inline struct wegl_platform_2 * wegl_platform_link11(struct wcore_platform *wcore_self_link11)
 {
-  struct wegl_platform$2 *tmp_statement_expression$1$link11;
-  if(!(wcore_self$link11 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform_2 *tmp_statement_expression_1_link11;
+  if(!(wcore_self_link11 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link11 = wcore_self$link11;
-    tmp_statement_expression$1$link11 = (struct wegl_platform$2 *)((void *)__mptr$link11 - (signed long int)0ul);
-    return tmp_statement_expression$1$link11;
+    const struct wcore_platform *__mptr_link11 = wcore_self_link11;
+    tmp_statement_expression_1_link11 = (struct wegl_platform_2 *)((void *)__mptr_link11 - (signed long int)0ul);
+    return tmp_statement_expression_1_link11;
   }
 
   else
-    return ((struct wegl_platform$2 *)NULL);
+    return ((struct wegl_platform_2 *)NULL);
 }
 
-// wegl_platform$link2
+// wegl_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link2(struct wcore_platform *wcore_self$link2)
+static inline struct wegl_platform * wegl_platform_link2(struct wcore_platform *wcore_self_link2)
 {
-  struct wegl_platform *tmp_statement_expression$1$link2;
-  if(!(wcore_self$link2 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link2;
+  if(!(wcore_self_link2 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link2 = wcore_self$link2;
-    tmp_statement_expression$1$link2 = (struct wegl_platform *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wcore_platform *__mptr_link2 = wcore_self_link2;
+    tmp_statement_expression_1_link2 = (struct wegl_platform *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link3
+// wegl_platform_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link3(struct wcore_platform *wcore_self$link3)
+static inline struct wegl_platform * wegl_platform_link3(struct wcore_platform *wcore_self_link3)
 {
-  struct wegl_platform *tmp_statement_expression$1$link3;
-  if(!(wcore_self$link3 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link3;
+  if(!(wcore_self_link3 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link3 = wcore_self$link3;
-    tmp_statement_expression$1$link3 = (struct wegl_platform *)((void *)__mptr$link3 - (signed long int)0ul);
-    return tmp_statement_expression$1$link3;
+    const struct wcore_platform *__mptr_link3 = wcore_self_link3;
+    tmp_statement_expression_1_link3 = (struct wegl_platform *)((void *)__mptr_link3 - (signed long int)0ul);
+    return tmp_statement_expression_1_link3;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link4
+// wegl_platform_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link4(struct wcore_platform *wcore_self$link4)
+static inline struct wegl_platform * wegl_platform_link4(struct wcore_platform *wcore_self_link4)
 {
-  struct wegl_platform *tmp_statement_expression$1$link4;
-  if(!(wcore_self$link4 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link4;
+  if(!(wcore_self_link4 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link4 = wcore_self$link4;
-    tmp_statement_expression$1$link4 = (struct wegl_platform *)((void *)__mptr$link4 - (signed long int)0ul);
-    return tmp_statement_expression$1$link4;
+    const struct wcore_platform *__mptr_link4 = wcore_self_link4;
+    tmp_statement_expression_1_link4 = (struct wegl_platform *)((void *)__mptr_link4 - (signed long int)0ul);
+    return tmp_statement_expression_1_link4;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link5
+// wegl_platform_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform$0 * wegl_platform$link5(struct wcore_platform *wcore_self$link5)
+static inline struct wegl_platform_0 * wegl_platform_link5(struct wcore_platform *wcore_self_link5)
 {
-  struct wegl_platform$0 *tmp_statement_expression$1$link5;
-  if(!(wcore_self$link5 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform_0 *tmp_statement_expression_1_link5;
+  if(!(wcore_self_link5 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link5 = wcore_self$link5;
-    tmp_statement_expression$1$link5 = (struct wegl_platform$0 *)((void *)__mptr$link5 - (signed long int)0ul);
-    return tmp_statement_expression$1$link5;
+    const struct wcore_platform *__mptr_link5 = wcore_self_link5;
+    tmp_statement_expression_1_link5 = (struct wegl_platform_0 *)((void *)__mptr_link5 - (signed long int)0ul);
+    return tmp_statement_expression_1_link5;
   }
 
   else
-    return ((struct wegl_platform$0 *)NULL);
+    return ((struct wegl_platform_0 *)NULL);
 }
 
-// wegl_platform$link6
+// wegl_platform_link6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link6(struct wcore_platform *wcore_self$link6)
+static inline struct wegl_platform * wegl_platform_link6(struct wcore_platform *wcore_self_link6)
 {
-  struct wegl_platform *tmp_statement_expression$1$link6;
-  if(!(wcore_self$link6 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link6;
+  if(!(wcore_self_link6 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link6 = wcore_self$link6;
-    tmp_statement_expression$1$link6 = (struct wegl_platform *)((void *)__mptr$link6 - (signed long int)0ul);
-    return tmp_statement_expression$1$link6;
+    const struct wcore_platform *__mptr_link6 = wcore_self_link6;
+    tmp_statement_expression_1_link6 = (struct wegl_platform *)((void *)__mptr_link6 - (signed long int)0ul);
+    return tmp_statement_expression_1_link6;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link7
+// wegl_platform_link7
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link7(struct wcore_platform *wcore_self$link7)
+static inline struct wegl_platform * wegl_platform_link7(struct wcore_platform *wcore_self_link7)
 {
-  struct wegl_platform *tmp_statement_expression$1$link7;
-  if(!(wcore_self$link7 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link7;
+  if(!(wcore_self_link7 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link7 = wcore_self$link7;
-    tmp_statement_expression$1$link7 = (struct wegl_platform *)((void *)__mptr$link7 - (signed long int)0ul);
-    return tmp_statement_expression$1$link7;
+    const struct wcore_platform *__mptr_link7 = wcore_self_link7;
+    tmp_statement_expression_1_link7 = (struct wegl_platform *)((void *)__mptr_link7 - (signed long int)0ul);
+    return tmp_statement_expression_1_link7;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link8
+// wegl_platform_link8
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform * wegl_platform$link8(struct wcore_platform *wcore_self$link8)
+static inline struct wegl_platform * wegl_platform_link8(struct wcore_platform *wcore_self_link8)
 {
-  struct wegl_platform *tmp_statement_expression$1$link8;
-  if(!(wcore_self$link8 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform *tmp_statement_expression_1_link8;
+  if(!(wcore_self_link8 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link8 = wcore_self$link8;
-    tmp_statement_expression$1$link8 = (struct wegl_platform *)((void *)__mptr$link8 - (signed long int)0ul);
-    return tmp_statement_expression$1$link8;
+    const struct wcore_platform *__mptr_link8 = wcore_self_link8;
+    tmp_statement_expression_1_link8 = (struct wegl_platform *)((void *)__mptr_link8 - (signed long int)0ul);
+    return tmp_statement_expression_1_link8;
   }
 
   else
     return ((struct wegl_platform *)NULL);
 }
 
-// wegl_platform$link9
+// wegl_platform_link9
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_platform.h line 73
-static inline struct wegl_platform$1 * wegl_platform$link9(struct wcore_platform *wcore_self$link9)
+static inline struct wegl_platform_1 * wegl_platform_link9(struct wcore_platform *wcore_self_link9)
 {
-  struct wegl_platform$1 *tmp_statement_expression$1$link9;
-  if(!(wcore_self$link9 == ((struct wcore_platform *)NULL)))
+  struct wegl_platform_1 *tmp_statement_expression_1_link9;
+  if(!(wcore_self_link9 == ((struct wcore_platform *)NULL)))
   {
-    const struct wcore_platform *__mptr$link9 = wcore_self$link9;
-    tmp_statement_expression$1$link9 = (struct wegl_platform$1 *)((void *)__mptr$link9 - (signed long int)0ul);
-    return tmp_statement_expression$1$link9;
+    const struct wcore_platform *__mptr_link9 = wcore_self_link9;
+    tmp_statement_expression_1_link9 = (struct wegl_platform_1 *)((void *)__mptr_link9 - (signed long int)0ul);
+    return tmp_statement_expression_1_link9;
   }
 
   else
-    return ((struct wegl_platform$1 *)NULL);
+    return ((struct wegl_platform_1 *)NULL);
 }
 
 // wegl_platform_init
@@ -13281,194 +13281,194 @@ _Bool wegl_platform_init(struct wegl_platform *self)
 {
   _Bool ok;
   ok=wcore_platform_init(&self->wcore);
-  void *return_value_dlsym$2;
-  void *return_value_dlsym$4;
-  void *return_value_dlsym$6;
-  void *return_value_dlsym$8;
-  void *return_value_dlsym$10;
-  void *return_value_dlsym$12;
-  void *return_value_dlsym$14;
-  void *return_value_dlsym$16;
-  void *return_value_dlsym$18;
-  void *return_value_dlsym$20;
-  void *return_value_dlsym$22;
-  void *return_value_dlsym$24;
-  void *return_value_dlsym$26;
-  void *return_value_dlsym$28;
-  void *return_value_dlsym$30;
+  void *return_value_dlsym_2;
+  void *return_value_dlsym_4;
+  void *return_value_dlsym_6;
+  void *return_value_dlsym_8;
+  void *return_value_dlsym_10;
+  void *return_value_dlsym_12;
+  void *return_value_dlsym_14;
+  void *return_value_dlsym_16;
+  void *return_value_dlsym_18;
+  void *return_value_dlsym_20;
+  void *return_value_dlsym_22;
+  void *return_value_dlsym_24;
+  void *return_value_dlsym_26;
+  void *return_value_dlsym_28;
+  void *return_value_dlsym_30;
   if(!(ok == (_Bool)0))
   {
     self->eglHandle=dlopen(libEGL_filename, 0x00001 | 0);
     if(self->eglHandle == NULL)
     {
-      char *return_value_dlerror$1;
-      return_value_dlerror$1=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlopen(\"%s\") failed: %s", libEGL_filename, return_value_dlerror$1);
+      char *return_value_dlerror_1;
+      return_value_dlerror_1=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlopen(\"%s\") failed: %s", libEGL_filename, return_value_dlerror_1);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$2=dlsym(self->eglHandle, "eglMakeCurrent");
-    self->eglMakeCurrent = (unsigned int (*)(void *, void *, void *, void *))return_value_dlsym$2;
+    return_value_dlsym_2=dlsym(self->eglHandle, "eglMakeCurrent");
+    self->eglMakeCurrent = (unsigned int (*)(void *, void *, void *, void *))return_value_dlsym_2;
     if(self->eglMakeCurrent == ((unsigned int (*)(void *, void *, void *, void *))NULL))
     {
-      char *return_value_dlerror$3;
-      return_value_dlerror$3=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglMakeCurrent\") failed: %s", libEGL_filename, return_value_dlerror$3);
+      char *return_value_dlerror_3;
+      return_value_dlerror_3=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglMakeCurrent\") failed: %s", libEGL_filename, return_value_dlerror_3);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$4=dlsym(self->eglHandle, "eglGetProcAddress");
-    self->eglGetProcAddress = (void (*(*)(const char *))(void))return_value_dlsym$4;
+    return_value_dlsym_4=dlsym(self->eglHandle, "eglGetProcAddress");
+    self->eglGetProcAddress = (void (*(*)(const char *))(void))return_value_dlsym_4;
     if(self->eglGetProcAddress == ((void (*(*)(const char *))(void))NULL))
     {
-      char *return_value_dlerror$5;
-      return_value_dlerror$5=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetProcAddress\") failed: %s", libEGL_filename, return_value_dlerror$5);
+      char *return_value_dlerror_5;
+      return_value_dlerror_5=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetProcAddress\") failed: %s", libEGL_filename, return_value_dlerror_5);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$6=dlsym(self->eglHandle, "eglGetDisplay");
-    self->eglGetDisplay = (void * (*)(struct _XDisplay *))return_value_dlsym$6;
+    return_value_dlsym_6=dlsym(self->eglHandle, "eglGetDisplay");
+    self->eglGetDisplay = (void * (*)(struct _XDisplay *))return_value_dlsym_6;
     if(self->eglGetDisplay == ((void * (*)(struct _XDisplay *))NULL))
     {
-      char *return_value_dlerror$7;
-      return_value_dlerror$7=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetDisplay\") failed: %s", libEGL_filename, return_value_dlerror$7);
+      char *return_value_dlerror_7;
+      return_value_dlerror_7=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetDisplay\") failed: %s", libEGL_filename, return_value_dlerror_7);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$8=dlsym(self->eglHandle, "eglInitialize");
-    self->eglInitialize = (unsigned int (*)(void *, signed int *, signed int *))return_value_dlsym$8;
+    return_value_dlsym_8=dlsym(self->eglHandle, "eglInitialize");
+    self->eglInitialize = (unsigned int (*)(void *, signed int *, signed int *))return_value_dlsym_8;
     if(self->eglInitialize == ((unsigned int (*)(void *, signed int *, signed int *))NULL))
     {
-      char *return_value_dlerror$9;
-      return_value_dlerror$9=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglInitialize\") failed: %s", libEGL_filename, return_value_dlerror$9);
+      char *return_value_dlerror_9;
+      return_value_dlerror_9=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglInitialize\") failed: %s", libEGL_filename, return_value_dlerror_9);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$10=dlsym(self->eglHandle, "eglQueryString");
-    self->eglQueryString = (const char * (*)(void *, signed int))return_value_dlsym$10;
+    return_value_dlsym_10=dlsym(self->eglHandle, "eglQueryString");
+    self->eglQueryString = (const char * (*)(void *, signed int))return_value_dlsym_10;
     if(self->eglQueryString == ((const char * (*)(void *, signed int))NULL))
     {
-      char *return_value_dlerror$11;
-      return_value_dlerror$11=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglQueryString\") failed: %s", libEGL_filename, return_value_dlerror$11);
+      char *return_value_dlerror_11;
+      return_value_dlerror_11=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglQueryString\") failed: %s", libEGL_filename, return_value_dlerror_11);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$12=dlsym(self->eglHandle, "eglGetError");
-    self->eglGetError = (signed int (*)(void))return_value_dlsym$12;
+    return_value_dlsym_12=dlsym(self->eglHandle, "eglGetError");
+    self->eglGetError = (signed int (*)(void))return_value_dlsym_12;
     if(self->eglGetError == ((signed int (*)(void))NULL))
     {
-      char *return_value_dlerror$13;
-      return_value_dlerror$13=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetError\") failed: %s", libEGL_filename, return_value_dlerror$13);
+      char *return_value_dlerror_13;
+      return_value_dlerror_13=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetError\") failed: %s", libEGL_filename, return_value_dlerror_13);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$14=dlsym(self->eglHandle, "eglTerminate");
-    self->eglTerminate = (unsigned int (*)(void *))return_value_dlsym$14;
+    return_value_dlsym_14=dlsym(self->eglHandle, "eglTerminate");
+    self->eglTerminate = (unsigned int (*)(void *))return_value_dlsym_14;
     if(self->eglTerminate == ((unsigned int (*)(void *))NULL))
     {
-      char *return_value_dlerror$15;
-      return_value_dlerror$15=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglTerminate\") failed: %s", libEGL_filename, return_value_dlerror$15);
+      char *return_value_dlerror_15;
+      return_value_dlerror_15=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglTerminate\") failed: %s", libEGL_filename, return_value_dlerror_15);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$16=dlsym(self->eglHandle, "eglChooseConfig");
-    self->eglChooseConfig = (unsigned int (*)(void *, const signed int *, void **, signed int, signed int *))return_value_dlsym$16;
+    return_value_dlsym_16=dlsym(self->eglHandle, "eglChooseConfig");
+    self->eglChooseConfig = (unsigned int (*)(void *, const signed int *, void **, signed int, signed int *))return_value_dlsym_16;
     if(self->eglChooseConfig == ((unsigned int (*)(void *, const signed int *, void **, signed int, signed int *))NULL))
     {
-      char *return_value_dlerror$17;
-      return_value_dlerror$17=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglChooseConfig\") failed: %s", libEGL_filename, return_value_dlerror$17);
+      char *return_value_dlerror_17;
+      return_value_dlerror_17=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglChooseConfig\") failed: %s", libEGL_filename, return_value_dlerror_17);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$18=dlsym(self->eglHandle, "eglBindAPI");
-    self->eglBindAPI = (unsigned int (*)(unsigned int))return_value_dlsym$18;
+    return_value_dlsym_18=dlsym(self->eglHandle, "eglBindAPI");
+    self->eglBindAPI = (unsigned int (*)(unsigned int))return_value_dlsym_18;
     if(self->eglBindAPI == ((unsigned int (*)(unsigned int))NULL))
     {
-      char *return_value_dlerror$19;
-      return_value_dlerror$19=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglBindAPI\") failed: %s", libEGL_filename, return_value_dlerror$19);
+      char *return_value_dlerror_19;
+      return_value_dlerror_19=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglBindAPI\") failed: %s", libEGL_filename, return_value_dlerror_19);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$20=dlsym(self->eglHandle, "eglCreateContext");
-    self->eglCreateContext = (void * (*)(void *, void *, void *, const signed int *))return_value_dlsym$20;
+    return_value_dlsym_20=dlsym(self->eglHandle, "eglCreateContext");
+    self->eglCreateContext = (void * (*)(void *, void *, void *, const signed int *))return_value_dlsym_20;
     if(self->eglCreateContext == ((void * (*)(void *, void *, void *, const signed int *))NULL))
     {
-      char *return_value_dlerror$21;
-      return_value_dlerror$21=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglCreateContext\") failed: %s", libEGL_filename, return_value_dlerror$21);
+      char *return_value_dlerror_21;
+      return_value_dlerror_21=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglCreateContext\") failed: %s", libEGL_filename, return_value_dlerror_21);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$22=dlsym(self->eglHandle, "eglDestroyContext");
-    self->eglDestroyContext = (unsigned int (*)(void *, void *))return_value_dlsym$22;
+    return_value_dlsym_22=dlsym(self->eglHandle, "eglDestroyContext");
+    self->eglDestroyContext = (unsigned int (*)(void *, void *))return_value_dlsym_22;
     if(self->eglDestroyContext == ((unsigned int (*)(void *, void *))NULL))
     {
-      char *return_value_dlerror$23;
-      return_value_dlerror$23=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglDestroyContext\") failed: %s", libEGL_filename, return_value_dlerror$23);
+      char *return_value_dlerror_23;
+      return_value_dlerror_23=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglDestroyContext\") failed: %s", libEGL_filename, return_value_dlerror_23);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$24=dlsym(self->eglHandle, "eglGetConfigAttrib");
-    self->eglGetConfigAttrib = (unsigned int (*)(void *, void *, signed int, signed int *))return_value_dlsym$24;
+    return_value_dlsym_24=dlsym(self->eglHandle, "eglGetConfigAttrib");
+    self->eglGetConfigAttrib = (unsigned int (*)(void *, void *, signed int, signed int *))return_value_dlsym_24;
     if(self->eglGetConfigAttrib == ((unsigned int (*)(void *, void *, signed int, signed int *))NULL))
     {
-      char *return_value_dlerror$25;
-      return_value_dlerror$25=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetConfigAttrib\") failed: %s", libEGL_filename, return_value_dlerror$25);
+      char *return_value_dlerror_25;
+      return_value_dlerror_25=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglGetConfigAttrib\") failed: %s", libEGL_filename, return_value_dlerror_25);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$26=dlsym(self->eglHandle, "eglCreateWindowSurface");
-    self->eglCreateWindowSurface = (void * (*)(void *, void *, unsigned long int, const signed int *))return_value_dlsym$26;
+    return_value_dlsym_26=dlsym(self->eglHandle, "eglCreateWindowSurface");
+    self->eglCreateWindowSurface = (void * (*)(void *, void *, unsigned long int, const signed int *))return_value_dlsym_26;
     if(self->eglCreateWindowSurface == ((void * (*)(void *, void *, unsigned long int, const signed int *))NULL))
     {
-      char *return_value_dlerror$27;
-      return_value_dlerror$27=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglCreateWindowSurface\") failed: %s", libEGL_filename, return_value_dlerror$27);
+      char *return_value_dlerror_27;
+      return_value_dlerror_27=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglCreateWindowSurface\") failed: %s", libEGL_filename, return_value_dlerror_27);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$28=dlsym(self->eglHandle, "eglDestroySurface");
-    self->eglDestroySurface = (unsigned int (*)(void *, void *))return_value_dlsym$28;
+    return_value_dlsym_28=dlsym(self->eglHandle, "eglDestroySurface");
+    self->eglDestroySurface = (unsigned int (*)(void *, void *))return_value_dlsym_28;
     if(self->eglDestroySurface == ((unsigned int (*)(void *, void *))NULL))
     {
-      char *return_value_dlerror$29;
-      return_value_dlerror$29=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglDestroySurface\") failed: %s", libEGL_filename, return_value_dlerror$29);
+      char *return_value_dlerror_29;
+      return_value_dlerror_29=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglDestroySurface\") failed: %s", libEGL_filename, return_value_dlerror_29);
       ok = (_Bool)0;
       goto error;
     }
 
-    return_value_dlsym$30=dlsym(self->eglHandle, "eglSwapBuffers");
-    self->eglSwapBuffers = (unsigned int (*)(void *, void *))return_value_dlsym$30;
+    return_value_dlsym_30=dlsym(self->eglHandle, "eglSwapBuffers");
+    self->eglSwapBuffers = (unsigned int (*)(void *, void *))return_value_dlsym_30;
     if(self->eglSwapBuffers == ((unsigned int (*)(void *, void *))NULL))
     {
-      char *return_value_dlerror$31;
-      return_value_dlerror$31=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglSwapBuffers\") failed: %s", libEGL_filename, return_value_dlerror$31);
+      char *return_value_dlerror_31;
+      return_value_dlerror_31=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"eglSwapBuffers\") failed: %s", libEGL_filename, return_value_dlerror_31);
       ok = (_Bool)0;
       goto error;
     }
@@ -13493,16 +13493,16 @@ _Bool wegl_platform_teardown(struct wegl_platform *self)
     if(!(error == 0))
     {
       ok = (_Bool)0;
-      char *return_value_dlerror$1;
-      return_value_dlerror$1=dlerror();
-      wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(\"%s\") failed: %s", libEGL_filename, return_value_dlerror$1);
+      char *return_value_dlerror_1;
+      return_value_dlerror_1=dlerror();
+      wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(\"%s\") failed: %s", libEGL_filename, return_value_dlerror_1);
     }
 
   }
 
-  _Bool return_value_wcore_platform_teardown$2;
-  return_value_wcore_platform_teardown$2=wcore_platform_teardown(&self->wcore);
-  ok = ((signed int)ok & (signed int)return_value_wcore_platform_teardown$2) != 0;
+  _Bool return_value_wcore_platform_teardown_2;
+  return_value_wcore_platform_teardown_2=wcore_platform_teardown(&self->wcore);
+  ok = ((signed int)ok & (signed int)return_value_wcore_platform_teardown_2) != 0;
   return ok;
 }
 
@@ -13510,28 +13510,28 @@ _Bool wegl_platform_teardown(struct wegl_platform *self)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_window.h line 43
 static inline struct wegl_window * wegl_window(struct wcore_window *wcore_self)
 {
-  struct wegl_window *tmp_statement_expression$1;
+  struct wegl_window *tmp_statement_expression_1;
   if(!(wcore_self == ((struct wcore_window *)NULL)))
   {
     const struct wcore_window *__mptr = wcore_self;
-    tmp_statement_expression$1 = (struct wegl_window *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct wegl_window *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct wegl_window *)NULL);
 }
 
-// wegl_window$link1
+// wegl_window_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_window.h line 43
-static inline struct wegl_window * wegl_window$link1(struct wcore_window *wcore_self$link1)
+static inline struct wegl_window * wegl_window_link1(struct wcore_window *wcore_self_link1)
 {
-  struct wegl_window *tmp_statement_expression$1$link1;
-  if(!(wcore_self$link1 == ((struct wcore_window *)NULL)))
+  struct wegl_window *tmp_statement_expression_1_link1;
+  if(!(wcore_self_link1 == ((struct wcore_window *)NULL)))
   {
-    const struct wcore_window *__mptr$link1 = wcore_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_window *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wcore_window *__mptr_link1 = wcore_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_window *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
@@ -13543,11 +13543,11 @@ static inline struct wegl_window * wegl_window$link1(struct wcore_window *wcore_
 _Bool wegl_window_init(struct wegl_window *window, struct wcore_config *wc_config, signed long int native_window)
 {
   struct wegl_config *config;
-  config=wegl_config$link2(wc_config);
+  config=wegl_config_link2(wc_config);
   struct wegl_display *dpy;
-  dpy=wegl_display$link4(wc_config->display);
+  dpy=wegl_display_link4(wc_config->display);
   struct wegl_platform *plat;
-  plat=wegl_platform$link4(dpy->wcore.platform);
+  plat=wegl_platform_link4(dpy->wcore.platform);
   signed int egl_render_buffer;
   _Bool ok;
   ok=wcore_window_init(&window->wcore, wc_config);
@@ -13584,11 +13584,11 @@ _Bool wegl_window_init(struct wegl_window *window, struct wcore_config *wc_confi
 _Bool wegl_window_swap_buffers(struct wcore_window *wc_window)
 {
   struct wegl_window *window;
-  window=wegl_window$link1(wc_window);
+  window=wegl_window_link1(wc_window);
   struct wegl_display *dpy;
-  dpy=wegl_display$link4(window->wcore.display);
+  dpy=wegl_display_link4(window->wcore.display);
   struct wegl_platform *plat;
-  plat=wegl_platform$link4(dpy->wcore.platform);
+  plat=wegl_platform_link4(dpy->wcore.platform);
   _Bool ok;
   unsigned int return_value;
   return_value=plat->eglSwapBuffers(dpy->egl, window->egl);
@@ -13604,9 +13604,9 @@ _Bool wegl_window_swap_buffers(struct wcore_window *wc_window)
 _Bool wegl_window_teardown(struct wegl_window *window)
 {
   struct wegl_display *dpy;
-  dpy=wegl_display$link4(window->wcore.display);
+  dpy=wegl_display_link4(window->wcore.display);
   struct wegl_platform *plat;
-  plat=wegl_platform$link4(dpy->wcore.platform);
+  plat=wegl_platform_link4(dpy->wcore.platform);
   _Bool result = (_Bool)1;
   if(!(window->egl == NULL))
   {
@@ -13622,9 +13622,9 @@ _Bool wegl_window_teardown(struct wegl_window *window)
 
   }
 
-  _Bool return_value_wcore_window_teardown$1;
-  return_value_wcore_window_teardown$1=wcore_window_teardown(&window->wcore);
-  result = ((signed int)result & (signed int)return_value_wcore_window_teardown$1) != 0;
+  _Bool return_value_wcore_window_teardown_1;
+  return_value_wcore_window_teardown_1=wcore_window_teardown(&window->wcore);
+  result = ((signed int)result & (signed int)return_value_wcore_window_teardown_1) != 0;
   return result;
 }
 
@@ -13639,9 +13639,9 @@ struct wcore_config * wgbm_config_choose(struct wcore_platform *wc_plat, struct 
 
   else
   {
-    unsigned int return_value_wgbm_config_get_gbm_format$1;
-    return_value_wgbm_config_get_gbm_format$1=wgbm_config_get_gbm_format(wc_plat, wc_dpy, wc_config);
-    if(return_value_wgbm_config_get_gbm_format$1 == 0u)
+    unsigned int return_value_wgbm_config_get_gbm_format_1;
+    return_value_wgbm_config_get_gbm_format_1=wgbm_config_get_gbm_format(wc_plat, wc_dpy, wc_config);
+    if(return_value_wgbm_config_get_gbm_format_1 == 0u)
     {
       wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNSUPPORTED_ON_PLATFORM, "requested config is unsupported on GBM");
       wegl_config_destroy(wc_config);
@@ -13661,9 +13661,9 @@ unsigned int wgbm_config_get_gbm_format(struct wcore_platform *wc_plat, struct w
   struct wgbm_display *dpy;
   dpy=wgbm_display(wc_display);
   struct wegl_platform *plat;
-  plat=wegl_platform$link8(wc_plat);
+  plat=wegl_platform_link8(wc_plat);
   struct wegl_config *egl_config;
-  egl_config=wegl_config$link6(wc_config);
+  egl_config=wegl_config_link6(wc_config);
   _Bool ok;
   unsigned int return_value;
   return_value=plat->eglGetConfigAttrib(dpy->wegl.egl, egl_config->egl, 0x302E, &gbm_format);
@@ -13682,13 +13682,13 @@ union waffle_native_config * wgbm_config_get_native(struct wcore_config *wc_conf
   struct wgbm_display *dpy;
   dpy=wgbm_display(wc_config->display);
   struct wegl_config *config;
-  config=wegl_config$link6(wc_config);
+  config=wegl_config_link6(wc_config);
   union waffle_native_config *n_config;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_gbm_config) /*24ul*/ );
-    n_config = (union waffle_native_config *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_gbm_config) /*24ul*/ );
+    n_config = (union waffle_native_config *)return_value_wcore_malloc_1;
     if(!(n_config == ((union waffle_native_config *)NULL)))
       n_config->gbm = (struct waffle_gbm_config *)(void *)(n_config + (signed long int)1);
 
@@ -13710,15 +13710,15 @@ union waffle_native_config * wgbm_config_get_native(struct wcore_config *wc_conf
 static union waffle_native_context * wgbm_context_get_native(struct wcore_context *wc_ctx)
 {
   struct wgbm_display *dpy;
-  dpy=wgbm_display$link2(wc_ctx->display);
+  dpy=wgbm_display_link2(wc_ctx->display);
   struct wegl_context *ctx;
-  ctx=wegl_context$link4(wc_ctx);
+  ctx=wegl_context_link4(wc_ctx);
   union waffle_native_context *n_ctx;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_gbm_context) /*24ul*/ );
-    n_ctx = (union waffle_native_context *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_gbm_context) /*24ul*/ );
+    n_ctx = (union waffle_native_context *)return_value_wcore_malloc_1;
     if(!(n_ctx == ((union waffle_native_context *)NULL)))
       n_ctx->gbm = (struct waffle_gbm_context *)(void *)(n_ctx + (signed long int)1);
 
@@ -13739,80 +13739,80 @@ static union waffle_native_context * wgbm_context_get_native(struct wcore_contex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
 static inline struct wgbm_display * wgbm_display(struct wcore_display *wc_self)
 {
-  struct wegl_display *tmp_statement_expression$1;
-  struct wgbm_display *tmp_statement_expression$2;
+  struct wegl_display *tmp_statement_expression_1;
+  struct wgbm_display *tmp_statement_expression_2;
   if(!(wc_self == ((struct wcore_display *)NULL)))
   {
     struct wegl_display *wegl_self;
-    const struct wcore_display *wgbm_display$$1$$1$$1$$__mptr = wc_self;
-    tmp_statement_expression$1 = (struct wegl_display *)((void *)wgbm_display$$1$$1$$1$$__mptr - (signed long int)0ul);
-    wegl_self = tmp_statement_expression$1;
+    const struct wcore_display *wgbm_display__1__1__1____mptr = wc_self;
+    tmp_statement_expression_1 = (struct wegl_display *)((void *)wgbm_display__1__1__1____mptr - (signed long int)0ul);
+    wegl_self = tmp_statement_expression_1;
     const struct wegl_display *__mptr = wegl_self;
-    tmp_statement_expression$2 = (struct wgbm_display *)((void *)__mptr - (signed long int)8ul);
-    return tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct wgbm_display *)((void *)__mptr - (signed long int)8ul);
+    return tmp_statement_expression_2;
   }
 
   else
     return (struct wgbm_display *)(void *)0;
 }
 
-// wgbm_display$link1
+// wgbm_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
-static inline struct wgbm_display * wgbm_display$link1(struct wcore_display *wc_self$link1)
+static inline struct wgbm_display * wgbm_display_link1(struct wcore_display *wc_self_link1)
 {
-  struct wegl_display *tmp_statement_expression$1$link1;
-  struct wgbm_display *tmp_statement_expression$2$link1;
-  if(!(wc_self$link1 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link1;
+  struct wgbm_display *tmp_statement_expression_2_link1;
+  if(!(wc_self_link1 == ((struct wcore_display *)NULL)))
   {
-    struct wegl_display *wegl_self$link1;
-    const struct wcore_display *__mptr$link1 = wc_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_display *)((void *)__mptr$link1 - (signed long int)0ul);
-    wegl_self$link1 = tmp_statement_expression$1$link1;
-    const struct wegl_display *wgbm_display$$1$$1$$2$$__mptr$link1 = wegl_self$link1;
-    tmp_statement_expression$2$link1 = (struct wgbm_display *)((void *)wgbm_display$$1$$1$$2$$__mptr$link1 - (signed long int)8ul);
-    return tmp_statement_expression$2$link1;
+    struct wegl_display *wegl_self_link1;
+    const struct wcore_display *__mptr_link1 = wc_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_display *)((void *)__mptr_link1 - (signed long int)0ul);
+    wegl_self_link1 = tmp_statement_expression_1_link1;
+    const struct wegl_display *wgbm_display__1__1__2____mptr_link1 = wegl_self_link1;
+    tmp_statement_expression_2_link1 = (struct wgbm_display *)((void *)wgbm_display__1__1__2____mptr_link1 - (signed long int)8ul);
+    return tmp_statement_expression_2_link1;
   }
 
   else
     return (struct wgbm_display *)(void *)0;
 }
 
-// wgbm_display$link2
+// wgbm_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
-static inline struct wgbm_display * wgbm_display$link2(struct wcore_display *wc_self$link2)
+static inline struct wgbm_display * wgbm_display_link2(struct wcore_display *wc_self_link2)
 {
-  struct wegl_display *tmp_statement_expression$1$link2;
-  struct wgbm_display *tmp_statement_expression$2$link2;
-  if(!(wc_self$link2 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link2;
+  struct wgbm_display *tmp_statement_expression_2_link2;
+  if(!(wc_self_link2 == ((struct wcore_display *)NULL)))
   {
-    struct wegl_display *wegl_self$link2;
-    const struct wcore_display *wgbm_display$$1$$1$$1$$__mptr$link2 = wc_self$link2;
-    tmp_statement_expression$1$link2 = (struct wegl_display *)((void *)wgbm_display$$1$$1$$1$$__mptr$link2 - (signed long int)0ul);
-    wegl_self$link2 = tmp_statement_expression$1$link2;
-    const struct wegl_display *__mptr$link2 = wegl_self$link2;
-    tmp_statement_expression$2$link2 = (struct wgbm_display *)((void *)__mptr$link2 - (signed long int)8ul);
-    return tmp_statement_expression$2$link2;
+    struct wegl_display *wegl_self_link2;
+    const struct wcore_display *wgbm_display__1__1__1____mptr_link2 = wc_self_link2;
+    tmp_statement_expression_1_link2 = (struct wegl_display *)((void *)wgbm_display__1__1__1____mptr_link2 - (signed long int)0ul);
+    wegl_self_link2 = tmp_statement_expression_1_link2;
+    const struct wegl_display *__mptr_link2 = wegl_self_link2;
+    tmp_statement_expression_2_link2 = (struct wgbm_display *)((void *)__mptr_link2 - (signed long int)8ul);
+    return tmp_statement_expression_2_link2;
   }
 
   else
     return (struct wgbm_display *)(void *)0;
 }
 
-// wgbm_display$link3
+// wgbm_display_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_display.h line 44
-static inline struct wgbm_display * wgbm_display$link3(struct wcore_display *wc_self$link3)
+static inline struct wgbm_display * wgbm_display_link3(struct wcore_display *wc_self_link3)
 {
-  struct wegl_display *tmp_statement_expression$1$link3;
-  struct wgbm_display *tmp_statement_expression$2$link3;
-  if(!(wc_self$link3 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link3;
+  struct wgbm_display *tmp_statement_expression_2_link3;
+  if(!(wc_self_link3 == ((struct wcore_display *)NULL)))
   {
-    struct wegl_display *wegl_self$link3;
-    const struct wcore_display *__mptr$link3 = wc_self$link3;
-    tmp_statement_expression$1$link3 = (struct wegl_display *)((void *)__mptr$link3 - (signed long int)0ul);
-    wegl_self$link3 = tmp_statement_expression$1$link3;
-    const struct wegl_display *wgbm_display$$1$$1$$2$$__mptr$link3 = wegl_self$link3;
-    tmp_statement_expression$2$link3 = (struct wgbm_display *)((void *)wgbm_display$$1$$1$$2$$__mptr$link3 - (signed long int)8ul);
-    return tmp_statement_expression$2$link3;
+    struct wegl_display *wegl_self_link3;
+    const struct wcore_display *__mptr_link3 = wc_self_link3;
+    tmp_statement_expression_1_link3 = (struct wegl_display *)((void *)__mptr_link3 - (signed long int)0ul);
+    wegl_self_link3 = tmp_statement_expression_1_link3;
+    const struct wegl_display *wgbm_display__1__1__2____mptr_link3 = wegl_self_link3;
+    tmp_statement_expression_2_link3 = (struct wgbm_display *)((void *)wgbm_display__1__1__2____mptr_link3 - (signed long int)8ul);
+    return tmp_statement_expression_2_link3;
   }
 
   else
@@ -13825,14 +13825,14 @@ struct wcore_display * wgbm_display_connect(struct wcore_platform *wc_plat, cons
 {
   struct wgbm_display *self;
   struct wgbm_platform *plat;
-  struct wegl_platform$1 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link9(wc_plat);
-  plat=wgbm_platform(return_value_wegl_platform$1);
+  struct wegl_platform_1 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link9(wc_plat);
+  plat=wgbm_platform(return_value_wegl_platform_1);
   _Bool ok = (_Bool)1;
   signed int fd;
-  void *return_value_wcore_calloc$2;
-  return_value_wcore_calloc$2=wcore_calloc(sizeof(struct wgbm_display) /*40ul*/ );
-  self = (struct wgbm_display *)return_value_wcore_calloc$2;
+  void *return_value_wcore_calloc_2;
+  return_value_wcore_calloc_2=wcore_calloc(sizeof(struct wgbm_display) /*40ul*/ );
+  self = (struct wgbm_display *)return_value_wcore_calloc_2;
   if(self == ((struct wgbm_display *)NULL))
     return (struct wcore_display *)(void *)0;
 
@@ -13887,12 +13887,12 @@ struct wcore_display * wgbm_display_connect(struct wcore_platform *wc_plat, cons
 _Bool wgbm_display_destroy(struct wcore_display *wc_self)
 {
   struct wgbm_display *self;
-  self=wgbm_display$link1(wc_self);
+  self=wgbm_display_link1(wc_self);
   struct wcore_platform *wc_plat = wc_self->platform;
   struct wgbm_platform *plat;
-  struct wegl_platform$1 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link9(wc_plat);
-  plat=wgbm_platform(return_value_wegl_platform$1);
+  struct wegl_platform_1 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link9(wc_plat);
+  plat=wgbm_platform(return_value_wegl_platform_1);
   _Bool ok = (_Bool)1;
   signed int fd;
   if(self == ((struct wgbm_display *)NULL))
@@ -13900,9 +13900,9 @@ _Bool wgbm_display_destroy(struct wcore_display *wc_self)
 
   else
   {
-    _Bool return_value_wegl_display_teardown$2;
-    return_value_wegl_display_teardown$2=wegl_display_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_display_teardown$2) != 0;
+    _Bool return_value_wegl_display_teardown_2;
+    return_value_wegl_display_teardown_2=wegl_display_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_display_teardown_2) != 0;
     if(!(self->gbm_device == ((struct gbm_device *)NULL)))
     {
       fd=plat->gbm_device_get_fd(self->gbm_device);
@@ -13928,13 +13928,13 @@ void wgbm_display_fill_native(struct wgbm_display *self, struct waffle_gbm_displ
 union waffle_native_display * wgbm_display_get_native(struct wcore_display *wc_self)
 {
   struct wgbm_display *self;
-  self=wgbm_display$link1(wc_self);
+  self=wgbm_display_link1(wc_self);
   union waffle_native_display *n_dpy;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_gbm_display) /*16ul*/ );
-    n_dpy = (union waffle_native_display *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_gbm_display) /*16ul*/ );
+    n_dpy = (union waffle_native_display *)return_value_wcore_malloc_1;
     if(!(n_dpy == ((union waffle_native_display *)NULL)))
       n_dpy->gbm = (struct waffle_gbm_display *)(void *)(n_dpy + (signed long int)1);
 
@@ -13954,26 +13954,26 @@ union waffle_native_display * wgbm_display_get_native(struct wcore_display *wc_s
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.c line 136
 static _Bool wgbm_dl_can_open(struct wcore_platform *wc_self, signed int waffle_dl)
 {
-  struct wgbm_platform$0 *self;
-  struct wegl_platform *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link10(wc_self);
-  self=wgbm_platform$link1(return_value_wegl_platform$1);
-  _Bool return_value_linux_platform_dl_can_open$2;
-  return_value_linux_platform_dl_can_open$2=linux_platform_dl_can_open(self->linux, waffle_dl);
-  return return_value_linux_platform_dl_can_open$2;
+  struct wgbm_platform_0 *self;
+  struct wegl_platform *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link10(wc_self);
+  self=wgbm_platform_link1(return_value_wegl_platform_1);
+  _Bool return_value_linux_platform_dl_can_open_2;
+  return_value_linux_platform_dl_can_open_2=linux_platform_dl_can_open(self->linux, waffle_dl);
+  return return_value_linux_platform_dl_can_open_2;
 }
 
 // wgbm_dl_sym
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.c line 144
 static void * wgbm_dl_sym(struct wcore_platform *wc_self, signed int waffle_dl, const char *name)
 {
-  struct wgbm_platform$0 *self;
-  struct wegl_platform *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link10(wc_self);
-  self=wgbm_platform$link1(return_value_wegl_platform$1);
-  void *return_value_linux_platform_dl_sym$2;
-  return_value_linux_platform_dl_sym$2=linux_platform_dl_sym(self->linux, waffle_dl, name);
-  return return_value_linux_platform_dl_sym$2;
+  struct wgbm_platform_0 *self;
+  struct wegl_platform *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link10(wc_self);
+  self=wgbm_platform_link1(return_value_wegl_platform_1);
+  void *return_value_linux_platform_dl_sym_2;
+  return_value_linux_platform_dl_sym_2=linux_platform_dl_sym(self->linux, waffle_dl, name);
+  return return_value_linux_platform_dl_sym_2;
 }
 
 // wgbm_get_default_fd
@@ -14034,69 +14034,69 @@ static signed int wgbm_get_default_fd_for_pattern(const char *pattern)
 
 // wgbm_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 60
-static inline struct wgbm_platform * wgbm_platform(struct wegl_platform$1 *wegl_self)
+static inline struct wgbm_platform * wgbm_platform(struct wegl_platform_1 *wegl_self)
 {
-  struct wgbm_platform *tmp_statement_expression$1;
-  if(!(wegl_self == ((struct wegl_platform$1 *)NULL)))
+  struct wgbm_platform *tmp_statement_expression_1;
+  if(!(wegl_self == ((struct wegl_platform_1 *)NULL)))
   {
-    const struct wegl_platform$1 *__mptr = wegl_self;
-    tmp_statement_expression$1 = (struct wgbm_platform *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    const struct wegl_platform_1 *__mptr = wegl_self;
+    tmp_statement_expression_1 = (struct wgbm_platform *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
     return ((struct wgbm_platform *)NULL);
 }
 
-// wgbm_platform$link1
+// wgbm_platform_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 60
-static inline struct wgbm_platform$0 * wgbm_platform$link1(struct wegl_platform *wegl_self$link1)
+static inline struct wgbm_platform_0 * wgbm_platform_link1(struct wegl_platform *wegl_self_link1)
 {
-  struct wgbm_platform$0 *tmp_statement_expression$1$link1;
-  if(!(wegl_self$link1 == ((struct wegl_platform *)NULL)))
+  struct wgbm_platform_0 *tmp_statement_expression_1_link1;
+  if(!(wegl_self_link1 == ((struct wegl_platform *)NULL)))
   {
-    const struct wegl_platform *__mptr$link1 = wegl_self$link1;
-    tmp_statement_expression$1$link1 = (struct wgbm_platform$0 *)((void *)__mptr$link1 - (signed long int)0ul);
-    return tmp_statement_expression$1$link1;
+    const struct wegl_platform *__mptr_link1 = wegl_self_link1;
+    tmp_statement_expression_1_link1 = (struct wgbm_platform_0 *)((void *)__mptr_link1 - (signed long int)0ul);
+    return tmp_statement_expression_1_link1;
   }
 
   else
-    return ((struct wgbm_platform$0 *)NULL);
+    return ((struct wgbm_platform_0 *)NULL);
 }
 
-// wgbm_platform$link2
+// wgbm_platform_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.h line 60
-static inline struct wgbm_platform$1 * wgbm_platform$link2(struct wegl_platform$2 *wegl_self$link2)
+static inline struct wgbm_platform_1 * wgbm_platform_link2(struct wegl_platform_2 *wegl_self_link2)
 {
-  struct wgbm_platform$1 *tmp_statement_expression$1$link2;
-  if(!(wegl_self$link2 == ((struct wegl_platform$2 *)NULL)))
+  struct wgbm_platform_1 *tmp_statement_expression_1_link2;
+  if(!(wegl_self_link2 == ((struct wegl_platform_2 *)NULL)))
   {
-    const struct wegl_platform$2 *__mptr$link2 = wegl_self$link2;
-    tmp_statement_expression$1$link2 = (struct wgbm_platform$1 *)((void *)__mptr$link2 - (signed long int)0ul);
-    return tmp_statement_expression$1$link2;
+    const struct wegl_platform_2 *__mptr_link2 = wegl_self_link2;
+    tmp_statement_expression_1_link2 = (struct wgbm_platform_1 *)((void *)__mptr_link2 - (signed long int)0ul);
+    return tmp_statement_expression_1_link2;
   }
 
   else
-    return ((struct wgbm_platform$1 *)NULL);
+    return ((struct wgbm_platform_1 *)NULL);
 }
 
 // wgbm_platform_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/api/waffle_init.c line 36
 struct wcore_platform * wgbm_platform_create(void)
 {
-  struct wgbm_platform$0 *self;
+  struct wgbm_platform_0 *self;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct wgbm_platform$0) /*208ul*/ );
-  self = (struct wgbm_platform$0 *)return_value_wcore_calloc$1;
-  void *return_value_dlsym$3;
-  void *return_value_dlsym$5;
-  void *return_value_dlsym$7;
-  void *return_value_dlsym$9;
-  void *return_value_dlsym$11;
-  void *return_value_dlsym$13;
-  void *return_value_dlsym$15;
-  if(self == ((struct wgbm_platform$0 *)NULL))
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct wgbm_platform_0) /*208ul*/ );
+  self = (struct wgbm_platform_0 *)return_value_wcore_calloc_1;
+  void *return_value_dlsym_3;
+  void *return_value_dlsym_5;
+  void *return_value_dlsym_7;
+  void *return_value_dlsym_9;
+  void *return_value_dlsym_11;
+  void *return_value_dlsym_13;
+  void *return_value_dlsym_15;
+  if(self == ((struct wgbm_platform_0 *)NULL))
     return (struct wcore_platform *)(void *)0;
 
   else
@@ -14107,79 +14107,79 @@ struct wcore_platform * wgbm_platform_create(void)
       self->gbmHandle=dlopen(libgbm_filename, 0x00001 | 0);
       if(self->gbmHandle == NULL)
       {
-        char *return_value_dlerror$2;
-        return_value_dlerror$2=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlopen(\"%s\") failed: %s", libgbm_filename, return_value_dlerror$2);
+        char *return_value_dlerror_2;
+        return_value_dlerror_2=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlopen(\"%s\") failed: %s", libgbm_filename, return_value_dlerror_2);
         goto error;
       }
 
-      return_value_dlsym$3=dlsym(self->gbmHandle, "gbm_create_device");
-      self->gbm_create_device = (struct gbm_device * (*)(signed int))return_value_dlsym$3;
+      return_value_dlsym_3=dlsym(self->gbmHandle, "gbm_create_device");
+      self->gbm_create_device = (struct gbm_device * (*)(signed int))return_value_dlsym_3;
       if(self->gbm_create_device == ((struct gbm_device * (*)(signed int))NULL))
       {
-        char *return_value_dlerror$4;
-        return_value_dlerror$4=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_create_device\") failed: %s", libgbm_filename, return_value_dlerror$4);
+        char *return_value_dlerror_4;
+        return_value_dlerror_4=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_create_device\") failed: %s", libgbm_filename, return_value_dlerror_4);
         goto error;
       }
 
-      return_value_dlsym$5=dlsym(self->gbmHandle, "gbm_device_get_fd");
-      self->gbm_device_get_fd = (signed int (*)(struct gbm_device *))return_value_dlsym$5;
+      return_value_dlsym_5=dlsym(self->gbmHandle, "gbm_device_get_fd");
+      self->gbm_device_get_fd = (signed int (*)(struct gbm_device *))return_value_dlsym_5;
       if(self->gbm_device_get_fd == ((signed int (*)(struct gbm_device *))NULL))
       {
-        char *return_value_dlerror$6;
-        return_value_dlerror$6=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_device_get_fd\") failed: %s", libgbm_filename, return_value_dlerror$6);
+        char *return_value_dlerror_6;
+        return_value_dlerror_6=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_device_get_fd\") failed: %s", libgbm_filename, return_value_dlerror_6);
         goto error;
       }
 
-      return_value_dlsym$7=dlsym(self->gbmHandle, "gbm_device_destroy");
-      self->gbm_device_destroy = (void (*)(struct gbm_device *))return_value_dlsym$7;
+      return_value_dlsym_7=dlsym(self->gbmHandle, "gbm_device_destroy");
+      self->gbm_device_destroy = (void (*)(struct gbm_device *))return_value_dlsym_7;
       if(self->gbm_device_destroy == ((void (*)(struct gbm_device *))NULL))
       {
-        char *return_value_dlerror$8;
-        return_value_dlerror$8=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_device_destroy\") failed: %s", libgbm_filename, return_value_dlerror$8);
+        char *return_value_dlerror_8;
+        return_value_dlerror_8=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_device_destroy\") failed: %s", libgbm_filename, return_value_dlerror_8);
         goto error;
       }
 
-      return_value_dlsym$9=dlsym(self->gbmHandle, "gbm_surface_create");
-      self->gbm_surface_create = (struct gbm_surface * (*)(struct gbm_device *, unsigned int, unsigned int, unsigned int, unsigned int))return_value_dlsym$9;
+      return_value_dlsym_9=dlsym(self->gbmHandle, "gbm_surface_create");
+      self->gbm_surface_create = (struct gbm_surface * (*)(struct gbm_device *, unsigned int, unsigned int, unsigned int, unsigned int))return_value_dlsym_9;
       if(self->gbm_surface_create == ((struct gbm_surface * (*)(struct gbm_device *, unsigned int, unsigned int, unsigned int, unsigned int))NULL))
       {
-        char *return_value_dlerror$10;
-        return_value_dlerror$10=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_create\") failed: %s", libgbm_filename, return_value_dlerror$10);
+        char *return_value_dlerror_10;
+        return_value_dlerror_10=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_create\") failed: %s", libgbm_filename, return_value_dlerror_10);
         goto error;
       }
 
-      return_value_dlsym$11=dlsym(self->gbmHandle, "gbm_surface_destroy");
-      self->gbm_surface_destroy = (void (*)(struct gbm_surface *))return_value_dlsym$11;
+      return_value_dlsym_11=dlsym(self->gbmHandle, "gbm_surface_destroy");
+      self->gbm_surface_destroy = (void (*)(struct gbm_surface *))return_value_dlsym_11;
       if(self->gbm_surface_destroy == ((void (*)(struct gbm_surface *))NULL))
       {
-        char *return_value_dlerror$12;
-        return_value_dlerror$12=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_destroy\") failed: %s", libgbm_filename, return_value_dlerror$12);
+        char *return_value_dlerror_12;
+        return_value_dlerror_12=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_destroy\") failed: %s", libgbm_filename, return_value_dlerror_12);
         goto error;
       }
 
-      return_value_dlsym$13=dlsym(self->gbmHandle, "gbm_surface_lock_front_buffer");
-      self->gbm_surface_lock_front_buffer = (struct gbm_bo * (*)(struct gbm_surface *))return_value_dlsym$13;
+      return_value_dlsym_13=dlsym(self->gbmHandle, "gbm_surface_lock_front_buffer");
+      self->gbm_surface_lock_front_buffer = (struct gbm_bo * (*)(struct gbm_surface *))return_value_dlsym_13;
       if(self->gbm_surface_lock_front_buffer == ((struct gbm_bo * (*)(struct gbm_surface *))NULL))
       {
-        char *return_value_dlerror$14;
-        return_value_dlerror$14=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_lock_front_buffer\") failed: %s", libgbm_filename, return_value_dlerror$14);
+        char *return_value_dlerror_14;
+        return_value_dlerror_14=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_lock_front_buffer\") failed: %s", libgbm_filename, return_value_dlerror_14);
         goto error;
       }
 
-      return_value_dlsym$15=dlsym(self->gbmHandle, "gbm_surface_release_buffer");
-      self->gbm_surface_release_buffer = (void (*)(struct gbm_surface *, struct gbm_bo *))return_value_dlsym$15;
+      return_value_dlsym_15=dlsym(self->gbmHandle, "gbm_surface_release_buffer");
+      self->gbm_surface_release_buffer = (void (*)(struct gbm_surface *, struct gbm_bo *))return_value_dlsym_15;
       if(self->gbm_surface_release_buffer == ((void (*)(struct gbm_surface *, struct gbm_bo *))NULL))
       {
-        char *return_value_dlerror$16;
-        return_value_dlerror$16=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_release_buffer\") failed: %s", libgbm_filename, return_value_dlerror$16);
+        char *return_value_dlerror_16;
+        return_value_dlerror_16=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_FATAL, "dlsym(\"%s\", \"gbm_surface_release_buffer\") failed: %s", libgbm_filename, return_value_dlerror_16);
         goto error;
       }
 
@@ -14207,14 +14207,14 @@ struct wcore_platform * wgbm_platform_create(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_platform.c line 50
 static _Bool wgbm_platform_destroy(struct wcore_platform *wc_self)
 {
-  struct wgbm_platform$0 *self;
-  struct wegl_platform *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link10(wc_self);
-  self=wgbm_platform$link1(return_value_wegl_platform$1);
+  struct wgbm_platform_0 *self;
+  struct wegl_platform *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link10(wc_self);
+  self=wgbm_platform_link1(return_value_wegl_platform_1);
   _Bool ok = (_Bool)1;
   signed int error = 0;
-  _Bool return_value_linux_platform_destroy$2;
-  if(self == ((struct wgbm_platform$0 *)NULL))
+  _Bool return_value_linux_platform_destroy_2;
+  if(self == ((struct wgbm_platform_0 *)NULL))
     return (_Bool)1;
 
   else
@@ -14222,8 +14222,8 @@ static _Bool wgbm_platform_destroy(struct wcore_platform *wc_self)
     unsetenv("EGL_PLATFORM");
     if(!(self->linux == ((struct linux_platform *)NULL)))
     {
-      return_value_linux_platform_destroy$2=linux_platform_destroy(self->linux);
-      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy$2) != 0;
+      return_value_linux_platform_destroy_2=linux_platform_destroy(self->linux);
+      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy_2) != 0;
     }
 
     if(!(self->gbmHandle == NULL))
@@ -14232,16 +14232,16 @@ static _Bool wgbm_platform_destroy(struct wcore_platform *wc_self)
       if(!(error == 0))
       {
         ok = ((signed int)ok & 0) != 0;
-        char *return_value_dlerror$3;
-        return_value_dlerror$3=dlerror();
-        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(\"%s\") failed: %s", libgbm_filename, return_value_dlerror$3);
+        char *return_value_dlerror_3;
+        return_value_dlerror_3=dlerror();
+        wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "dlclose(\"%s\") failed: %s", libgbm_filename, return_value_dlerror_3);
       }
 
     }
 
-    _Bool return_value_wegl_platform_teardown$4;
-    return_value_wegl_platform_teardown$4=wegl_platform_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_platform_teardown$4) != 0;
+    _Bool return_value_wegl_platform_teardown_4;
+    return_value_wegl_platform_teardown_4=wegl_platform_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_platform_teardown_4) != 0;
     free((void *)self);
     return ok;
   }
@@ -14251,17 +14251,17 @@ static _Bool wgbm_platform_destroy(struct wcore_platform *wc_self)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/gbm/wgbm_window.h line 41
 static inline struct wgbm_window * wgbm_window(struct wcore_window *wc_self)
 {
-  struct wegl_window *tmp_statement_expression$1;
-  struct wgbm_window *tmp_statement_expression$2;
+  struct wegl_window *tmp_statement_expression_1;
+  struct wgbm_window *tmp_statement_expression_2;
   if(!(wc_self == ((struct wcore_window *)NULL)))
   {
     struct wegl_window *wegl_self;
-    const struct wcore_window *wgbm_window$$1$$1$$1$$__mptr = wc_self;
-    tmp_statement_expression$1 = (struct wegl_window *)((void *)wgbm_window$$1$$1$$1$$__mptr - (signed long int)0ul);
-    wegl_self = tmp_statement_expression$1;
+    const struct wcore_window *wgbm_window__1__1__1____mptr = wc_self;
+    tmp_statement_expression_1 = (struct wegl_window *)((void *)wgbm_window__1__1__1____mptr - (signed long int)0ul);
+    wegl_self = tmp_statement_expression_1;
     const struct wegl_window *__mptr = wegl_self;
-    tmp_statement_expression$2 = (struct wgbm_window *)((void *)__mptr - (signed long int)8ul);
-    return tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct wgbm_window *)((void *)__mptr - (signed long int)8ul);
+    return tmp_statement_expression_2;
   }
 
   else
@@ -14273,17 +14273,17 @@ static inline struct wgbm_window * wgbm_window(struct wcore_window *wc_self)
 struct wcore_window * wgbm_window_create(struct wcore_platform *wc_plat, struct wcore_config *wc_config, signed int width, signed int height)
 {
   struct wgbm_display *dpy;
-  dpy=wgbm_display$link3(wc_config->display);
-  struct wgbm_platform$1 *plat;
-  struct wegl_platform$2 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link11(wc_plat);
-  plat=wgbm_platform$link2(return_value_wegl_platform$1);
+  dpy=wgbm_display_link3(wc_config->display);
+  struct wgbm_platform_1 *plat;
+  struct wegl_platform_2 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link11(wc_plat);
+  plat=wgbm_platform_link2(return_value_wegl_platform_1);
   struct wgbm_window *self;
   unsigned int gbm_format;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$2;
-  return_value_wcore_calloc$2=wcore_calloc(sizeof(struct wgbm_window) /*32ul*/ );
-  self = (struct wgbm_window *)return_value_wcore_calloc$2;
+  void *return_value_wcore_calloc_2;
+  return_value_wcore_calloc_2=wcore_calloc(sizeof(struct wgbm_window) /*32ul*/ );
+  self = (struct wgbm_window *)return_value_wcore_calloc_2;
   if(self == ((struct wgbm_window *)NULL))
     return (struct wcore_window *)(void *)0;
 
@@ -14314,10 +14314,10 @@ struct wcore_window * wgbm_window_create(struct wcore_platform *wc_plat, struct 
 _Bool wgbm_window_destroy(struct wcore_window *wc_self)
 {
   struct wcore_platform *wc_plat = wc_self->display->platform;
-  struct wgbm_platform$1 *plat;
-  struct wegl_platform$2 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link11(wc_plat);
-  plat=wgbm_platform$link2(return_value_wegl_platform$1);
+  struct wgbm_platform_1 *plat;
+  struct wegl_platform_2 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link11(wc_plat);
+  plat=wgbm_platform_link2(return_value_wegl_platform_1);
   struct wgbm_window *self;
   self=wgbm_window(wc_self);
   _Bool ok = (_Bool)1;
@@ -14326,9 +14326,9 @@ _Bool wgbm_window_destroy(struct wcore_window *wc_self)
 
   else
   {
-    _Bool return_value_wegl_window_teardown$2;
-    return_value_wegl_window_teardown$2=wegl_window_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_window_teardown$2) != 0;
+    _Bool return_value_wegl_window_teardown_2;
+    return_value_wegl_window_teardown_2=wegl_window_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_window_teardown_2) != 0;
     plat->gbm_surface_destroy(self->gbm_surface);
     free((void *)self);
     return ok;
@@ -14342,13 +14342,13 @@ union waffle_native_window * wgbm_window_get_native(struct wcore_window *wc_self
   struct wgbm_window *self;
   self=wgbm_window(wc_self);
   struct wgbm_display *dpy;
-  dpy=wgbm_display$link3(wc_self->display);
+  dpy=wgbm_display_link3(wc_self->display);
   union waffle_native_window *n_window;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_gbm_window) /*32ul*/ );
-    n_window = (union waffle_native_window *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_gbm_window) /*32ul*/ );
+    n_window = (union waffle_native_window *)return_value_wcore_malloc_1;
     if(!(n_window == ((union waffle_native_window *)NULL)))
       n_window->gbm = (struct waffle_gbm_window *)(void *)(n_window + (signed long int)1);
 
@@ -14378,13 +14378,13 @@ _Bool wgbm_window_show(struct wcore_window *wc_self)
 _Bool wgbm_window_swap_buffers(struct wcore_window *wc_self)
 {
   struct wcore_platform *wc_plat = wc_self->display->platform;
-  struct wgbm_platform$1 *plat;
-  struct wegl_platform$2 *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link11(wc_plat);
-  plat=wgbm_platform$link2(return_value_wegl_platform$1);
-  _Bool return_value_wegl_window_swap_buffers$2;
-  return_value_wegl_window_swap_buffers$2=wegl_window_swap_buffers(wc_self);
-  if(return_value_wegl_window_swap_buffers$2 == (_Bool)0)
+  struct wgbm_platform_1 *plat;
+  struct wegl_platform_2 *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link11(wc_plat);
+  plat=wgbm_platform_link2(return_value_wegl_platform_1);
+  _Bool return_value_wegl_window_swap_buffers_2;
+  return_value_wegl_window_swap_buffers_2=wegl_window_swap_buffers(wc_self);
+  if(return_value_wegl_window_swap_buffers_2 == (_Bool)0)
     return (_Bool)0;
 
   else
@@ -14426,9 +14426,9 @@ static inline struct wl_registry * wl_display_get_registry(struct wl_display *wl
 // file /usr/include/wayland-client-protocol.h line 256
 static inline signed int wl_registry_add_listener(struct wl_registry *wl_registry, struct wl_registry_listener *listener, void *data)
 {
-  signed int return_value_wl_proxy_add_listener$1;
-  return_value_wl_proxy_add_listener$1=wl_proxy_add_listener((struct wl_proxy *)wl_registry, (void (**)(void))listener, data);
-  return return_value_wl_proxy_add_listener$1;
+  signed int return_value_wl_proxy_add_listener_1;
+  return_value_wl_proxy_add_listener_1=wl_proxy_add_listener((struct wl_proxy *)wl_registry, (void (**)(void))listener, data);
+  return return_value_wl_proxy_add_listener_1;
 }
 
 // wl_registry_bind
@@ -14453,9 +14453,9 @@ static inline struct wl_shell_surface * wl_shell_get_shell_surface(struct wl_she
 // file /usr/include/wayland-client-protocol.h line 1242
 static inline signed int wl_shell_surface_add_listener(struct wl_shell_surface *wl_shell_surface, struct wl_shell_surface_listener *listener, void *data)
 {
-  signed int return_value_wl_proxy_add_listener$1;
-  return_value_wl_proxy_add_listener$1=wl_proxy_add_listener((struct wl_proxy *)wl_shell_surface, (void (**)(void))listener, data);
-  return return_value_wl_proxy_add_listener$1;
+  signed int return_value_wl_proxy_add_listener_1;
+  return_value_wl_proxy_add_listener_1=wl_proxy_add_listener((struct wl_proxy *)wl_shell_surface, (void (**)(void))listener, data);
+  return return_value_wl_proxy_add_listener_1;
 }
 
 // wl_shell_surface_destroy
@@ -14491,8 +14491,8 @@ static inline void wl_surface_destroy(struct wl_surface *wl_surface)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 64
 static inline signed int wrapped_XCloseDisplay(struct _XDisplay *dpy)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link5);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link5);
   signed int error;
   error=XCloseDisplay(dpy);
   XSetErrorHandler(old_handler);
@@ -14503,8 +14503,8 @@ static inline signed int wrapped_XCloseDisplay(struct _XDisplay *dpy)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 73
 static inline struct xcb_connection_t * wrapped_XGetXCBConnection(struct _XDisplay *dpy)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link5);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link5);
   struct xcb_connection_t *conn;
   conn=XGetXCBConnection(dpy);
   XSetErrorHandler(old_handler);
@@ -14515,8 +14515,8 @@ static inline struct xcb_connection_t * wrapped_XGetXCBConnection(struct _XDispl
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 55
 static inline struct _XDisplay * wrapped_XOpenDisplay(const char *name)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link5);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link5);
   struct _XDisplay *dpy;
   dpy=XOpenDisplay(name);
   XSetErrorHandler(old_handler);
@@ -14527,7 +14527,7 @@ static inline struct _XDisplay * wrapped_XOpenDisplay(const char *name)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 48
 static inline struct __GLXFBConfigRec ** wrapped_glXChooseFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, signed int screen, const signed int *attribList, signed int *nitems)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
   old_handler=XSetErrorHandler(x11_dummy_error_handler);
   struct __GLXFBConfigRec **configs;
   configs=platform->glXChooseFBConfig(dpy, screen, attribList, nitems);
@@ -14539,8 +14539,8 @@ static inline struct __GLXFBConfigRec ** wrapped_glXChooseFBConfig(struct glx_pl
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 60
 static inline struct __GLXcontextRec * wrapped_glXCreateContextAttribsARB(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, struct __GLXcontextRec *share_context, signed int direct, const signed int *attrib_list)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link1);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link1);
   struct __GLXcontextRec *ctx;
   ctx=platform->glXCreateContextAttribsARB(dpy, config, share_context, direct, attrib_list);
   XSetErrorHandler(old_handler);
@@ -14551,8 +14551,8 @@ static inline struct __GLXcontextRec * wrapped_glXCreateContextAttribsARB(struct
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 73
 static inline struct __GLXcontextRec * wrapped_glXCreateNewContext(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, signed int renderType, struct __GLXcontextRec *shareList, signed int direct)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link1);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link1);
   struct __GLXcontextRec *ctx;
   ctx=platform->glXCreateNewContext(dpy, config, renderType, shareList, direct);
   XSetErrorHandler(old_handler);
@@ -14563,8 +14563,8 @@ static inline struct __GLXcontextRec * wrapped_glXCreateNewContext(struct glx_pl
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 106
 static inline void wrapped_glXDestroyContext(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXcontextRec *ctx)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link1);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link1);
   platform->glXDestroyContext(dpy, ctx);
   XSetErrorHandler(old_handler);
 }
@@ -14573,7 +14573,7 @@ static inline void wrapped_glXDestroyContext(struct glx_platform *platform, stru
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 85
 static inline signed int wrapped_glXGetFBConfigAttrib(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, signed int attribute, signed int *value)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
   old_handler=XSetErrorHandler(x11_dummy_error_handler);
   signed int error;
   error=platform->glXGetFBConfigAttrib(dpy, config, attribute, value);
@@ -14583,11 +14583,11 @@ static inline signed int wrapped_glXGetFBConfigAttrib(struct glx_platform *platf
 
 // wrapped_glXGetVisualFromFBConfig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 96
-static inline struct anonymous$4 * wrapped_glXGetVisualFromFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config)
+static inline struct anonymous_4 * wrapped_glXGetVisualFromFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
   old_handler=XSetErrorHandler(x11_dummy_error_handler);
-  struct anonymous$4 *vi;
+  struct anonymous_4 *vi;
   vi=platform->glXGetVisualFromFBConfig(dpy, config);
   XSetErrorHandler(old_handler);
   return vi;
@@ -14597,8 +14597,8 @@ static inline struct anonymous$4 * wrapped_glXGetVisualFromFBConfig(struct glx_p
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 115
 static inline signed int wrapped_glXMakeCurrent(struct glx_platform *platform, struct _XDisplay *dpy, unsigned long int drawable, struct __GLXcontextRec *ctx)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link3);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link3);
   signed int ok;
   ok=platform->glXMakeCurrent(dpy, drawable, ctx);
   XSetErrorHandler(old_handler);
@@ -14609,8 +14609,8 @@ static inline signed int wrapped_glXMakeCurrent(struct glx_platform *platform, s
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 125
 static inline const char * wrapped_glXQueryExtensionsString(struct glx_platform *platform, struct _XDisplay *dpy, signed int screen)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link2);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link2);
   const char *s;
   s=platform->glXQueryExtensionsString(dpy, screen);
   XSetErrorHandler(old_handler);
@@ -14621,8 +14621,8 @@ static inline const char * wrapped_glXQueryExtensionsString(struct glx_platform 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 135
 static inline void wrapped_glXSwapBuffers(struct glx_platform *platform, struct _XDisplay *dpy, unsigned long int drawable)
 {
-  signed int (*old_handler)(struct _XDisplay *, struct anonymous$6 *);
-  old_handler=XSetErrorHandler(x11_dummy_error_handler$link4);
+  signed int (*old_handler)(struct _XDisplay *, struct anonymous_6 *);
+  old_handler=XSetErrorHandler(x11_dummy_error_handler_link4);
   platform->glXSwapBuffers(dpy, drawable);
   XSetErrorHandler(old_handler);
 }
@@ -14650,7 +14650,7 @@ _Bool x11_display_init(struct x11_display *self, const char *name)
 
     else
     {
-      self->screen = ((struct anonymous$10 *)self->xlib)->default_screen;
+      self->screen = ((struct anonymous_10 *)self->xlib)->default_screen;
       return (_Bool)1;
     }
   }
@@ -14676,42 +14676,42 @@ _Bool x11_display_teardown(struct x11_display *self)
 
 // x11_dummy_error_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler(struct _XDisplay *dpy, struct anonymous$6 *err)
+static inline signed int x11_dummy_error_handler(struct _XDisplay *dpy, struct anonymous_6 *err)
 {
   return 0;
 }
 
-// x11_dummy_error_handler$link1
+// x11_dummy_error_handler_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link1(struct _XDisplay *dpy$link1, struct anonymous$6 *err$link1)
+static inline signed int x11_dummy_error_handler_link1(struct _XDisplay *dpy_link1, struct anonymous_6 *err_link1)
 {
   return 0;
 }
 
-// x11_dummy_error_handler$link2
+// x11_dummy_error_handler_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link2(struct _XDisplay *dpy$link2, struct anonymous$6 *err$link2)
+static inline signed int x11_dummy_error_handler_link2(struct _XDisplay *dpy_link2, struct anonymous_6 *err_link2)
 {
   return 0;
 }
 
-// x11_dummy_error_handler$link3
+// x11_dummy_error_handler_link3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link3(struct _XDisplay *dpy$link3, struct anonymous$6 *err$link3)
+static inline signed int x11_dummy_error_handler_link3(struct _XDisplay *dpy_link3, struct anonymous_6 *err_link3)
 {
   return 0;
 }
 
-// x11_dummy_error_handler$link4
+// x11_dummy_error_handler_link4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link4(struct _XDisplay *dpy$link4, struct anonymous$6 *err$link4)
+static inline signed int x11_dummy_error_handler_link4(struct _XDisplay *dpy_link4, struct anonymous_6 *err_link4)
 {
   return 0;
 }
 
-// x11_dummy_error_handler$link5
+// x11_dummy_error_handler_link5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 49
-static inline signed int x11_dummy_error_handler$link5(struct _XDisplay *dpy$link5, struct anonymous$6 *err$link5)
+static inline signed int x11_dummy_error_handler_link5(struct _XDisplay *dpy_link5, struct anonymous_6 *err_link5)
 {
   return 0;
 }
@@ -14746,22 +14746,22 @@ _Bool x11_window_init(struct x11_window *self, struct x11_display *dpy, unsigned
   unsigned int window = (unsigned int)0;
   _Bool ok = (_Bool)1;
   struct xcb_connection_t *conn = dpy->xcb;
-  const struct xcb_setup_t *x11_window_init$$1$$setup;
-  x11_window_init$$1$$setup=xcb_get_setup(conn);
+  const struct xcb_setup_t *x11_window_init__1__setup;
+  x11_window_init__1__setup=xcb_get_setup(conn);
   const struct xcb_screen_t *screen;
-  struct anonymous$12 colormap_cookie;
+  struct anonymous_12 colormap_cookie;
   unsigned int event_mask;
   unsigned int attrib_mask;
   unsigned int attrib_list[3l];
-  struct anonymous$12 create_cookie;
-  unsigned char return_value_x11_winddow_get_depth$1;
-  struct anonymous$13 *error;
-  if(x11_window_init$$1$$setup == ((const struct xcb_setup_t *)NULL))
+  struct anonymous_12 create_cookie;
+  unsigned char return_value_x11_winddow_get_depth_1;
+  struct anonymous_13 *error;
+  if(x11_window_init__1__setup == ((const struct xcb_setup_t *)NULL))
     wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "xcb_get_setup() failed");
 
   else
   {
-    screen=get_xcb_screen(x11_window_init$$1$$setup, dpy->screen);
+    screen=get_xcb_screen(x11_window_init__1__setup, dpy->screen);
     if(screen == ((const struct xcb_screen_t *)NULL))
       wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "failed to get xcb screen");
 
@@ -14780,16 +14780,16 @@ _Bool x11_window_init(struct x11_window *self, struct x11_display *dpy, unsigned
         attrib_list[0] = (const unsigned int)0;
         attrib_list[1] = event_mask;
         attrib_list[2] = colormap;
-        return_value_x11_winddow_get_depth$1=x11_winddow_get_depth(conn, screen, visual_id);
-        create_cookie=xcb_create_window_checked(conn, return_value_x11_winddow_get_depth$1, window, screen->root, (signed short int)0, (signed short int)0, (unsigned short int)width, (unsigned short int)height, (unsigned short int)0, (unsigned short int)1, visual_id, attrib_mask, attrib_list);
+        return_value_x11_winddow_get_depth_1=x11_winddow_get_depth(conn, screen, visual_id);
+        create_cookie=xcb_create_window_checked(conn, return_value_x11_winddow_get_depth_1, window, screen->root, (signed short int)0, (signed short int)0, (unsigned short int)width, (unsigned short int)height, (unsigned short int)0, (unsigned short int)1, visual_id, attrib_mask, attrib_list);
         error=xcb_request_check(conn, colormap_cookie);
-        if(!(error == ((struct anonymous$13 *)NULL)))
+        if(!(error == ((struct anonymous_13 *)NULL)))
           wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "xcb_create_colormap() failed on visual_id=0x%x with error=0x%x\n", visual_id, error->error_code);
 
         else
         {
           error=xcb_request_check(conn, create_cookie);
-          if(!(error == ((struct anonymous$13 *)NULL)))
+          if(!(error == ((struct anonymous_13 *)NULL)))
             wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "xcb_create_window_checked() failed: error=0x%x", error->error_code);
 
           else
@@ -14822,12 +14822,12 @@ end:
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_window.h line 53
 _Bool x11_window_resize(struct x11_window *self, signed int width, signed int height)
 {
-  struct anonymous$12 cookie;
-  struct anonymous$13 *error;
-  unsigned int literal$1[2l] = { (unsigned int)width, (unsigned int)height };
-  cookie=xcb_configure_window(self->display->xcb, self->xcb, (unsigned short int)(4 | 8), literal$1);
+  struct anonymous_12 cookie;
+  struct anonymous_13 *error;
+  unsigned int literal_1[2l] = { (unsigned int)width, (unsigned int)height };
+  cookie=xcb_configure_window(self->display->xcb, self->xcb, (unsigned short int)(4 | 8), literal_1);
   error=xcb_request_check(self->display->xcb, cookie);
-  if(!(error == ((struct anonymous$13 *)NULL)))
+  if(!(error == ((struct anonymous_13 *)NULL)))
   {
     wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "xcb_configure_window() failed to resize width, height: error=0x%x\n", error->error_code);
     return (_Bool)0;
@@ -14841,22 +14841,22 @@ _Bool x11_window_resize(struct x11_window *self, signed int width, signed int he
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_window.h line 50
 _Bool x11_window_show(struct x11_window *self)
 {
-  struct anonymous$12 cookie;
-  struct anonymous$13 *error;
+  struct anonymous_12 cookie;
+  struct anonymous_13 *error;
   cookie=xcb_map_window_checked(self->display->xcb, self->xcb);
   error=xcb_request_check(self->display->xcb, cookie);
-  if(!(error == ((struct anonymous$13 *)NULL)))
+  if(!(error == ((struct anonymous_13 *)NULL)))
     wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "xcb_map_window_checked() failed: error=0x%x", error->error_code);
 
-  return !(error != ((struct anonymous$13 *)NULL));
+  return !(error != ((struct anonymous_13 *)NULL));
 }
 
 // x11_window_teardown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_window.h line 47
 _Bool x11_window_teardown(struct x11_window *self)
 {
-  struct anonymous$12 cookie;
-  struct anonymous$13 *error;
+  struct anonymous_12 cookie;
+  struct anonymous_13 *error;
   if(self->xcb == 0u)
     return (_Bool)1;
 
@@ -14864,10 +14864,10 @@ _Bool x11_window_teardown(struct x11_window *self)
   {
     cookie=xcb_destroy_window_checked(self->display->xcb, self->xcb);
     error=xcb_request_check(self->display->xcb, cookie);
-    if(!(error == ((struct anonymous$13 *)NULL)))
+    if(!(error == ((struct anonymous_13 *)NULL)))
       wcore_errorf((enum waffle_error)WAFFLE_ERROR_UNKNOWN, "xcb_destroy_window_checked() failed: error=0x%x", error->error_code);
 
-    return !(error != ((struct anonymous$13 *)NULL));
+    return !(error != ((struct anonymous_13 *)NULL));
   }
 }
 
@@ -14876,15 +14876,15 @@ _Bool x11_window_teardown(struct x11_window *self)
 static union waffle_native_config * xegl_config_get_native(struct wcore_config *wc_config)
 {
   struct xegl_display *dpy;
-  dpy=xegl_display$link1(wc_config->display);
+  dpy=xegl_display_link1(wc_config->display);
   struct wegl_config *config;
-  config=wegl_config$link4(wc_config);
+  config=wegl_config_link4(wc_config);
   union waffle_native_config *n_config;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_x11_egl_config) /*24ul*/ );
-    n_config = (union waffle_native_config *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_config) /*8ul*/  + sizeof(struct waffle_x11_egl_config) /*24ul*/ );
+    n_config = (union waffle_native_config *)return_value_wcore_malloc_1;
     if(!(n_config == ((union waffle_native_config *)NULL)))
       n_config->x11_egl = (struct waffle_x11_egl_config *)(void *)(n_config + (signed long int)1);
 
@@ -14906,15 +14906,15 @@ static union waffle_native_config * xegl_config_get_native(struct wcore_config *
 static union waffle_native_context * xegl_context_get_native(struct wcore_context *wc_ctx)
 {
   struct xegl_display *dpy;
-  dpy=xegl_display$link1(wc_ctx->display);
+  dpy=xegl_display_link1(wc_ctx->display);
   struct wegl_context *ctx;
-  ctx=wegl_context$link3(wc_ctx);
+  ctx=wegl_context_link3(wc_ctx);
   union waffle_native_context *n_ctx;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_x11_egl_context) /*24ul*/ );
-    n_ctx = (union waffle_native_context *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_context) /*8ul*/  + sizeof(struct waffle_x11_egl_context) /*24ul*/ );
+    n_ctx = (union waffle_native_context *)return_value_wcore_malloc_1;
     if(!(n_ctx == ((union waffle_native_context *)NULL)))
       n_ctx->x11_egl = (struct waffle_x11_egl_context *)(void *)(n_ctx + (signed long int)1);
 
@@ -14935,59 +14935,59 @@ static union waffle_native_context * xegl_context_get_native(struct wcore_contex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_display.h line 45
 static inline struct xegl_display * xegl_display(struct wcore_display *wc_self)
 {
-  struct wegl_display *tmp_statement_expression$1;
-  struct xegl_display *tmp_statement_expression$2;
+  struct wegl_display *tmp_statement_expression_1;
+  struct xegl_display *tmp_statement_expression_2;
   if(!(wc_self == ((struct wcore_display *)NULL)))
   {
     struct wegl_display *wegl_self;
-    const struct wcore_display *xegl_display$$1$$1$$1$$__mptr = wc_self;
-    tmp_statement_expression$1 = (struct wegl_display *)((void *)xegl_display$$1$$1$$1$$__mptr - (signed long int)0ul);
-    wegl_self = tmp_statement_expression$1;
+    const struct wcore_display *xegl_display__1__1__1____mptr = wc_self;
+    tmp_statement_expression_1 = (struct wegl_display *)((void *)xegl_display__1__1__1____mptr - (signed long int)0ul);
+    wegl_self = tmp_statement_expression_1;
     const struct wegl_display *__mptr = wegl_self;
-    tmp_statement_expression$2 = (struct xegl_display *)((void *)__mptr - (signed long int)24ul);
-    return tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct xegl_display *)((void *)__mptr - (signed long int)24ul);
+    return tmp_statement_expression_2;
   }
 
   else
     return (struct xegl_display *)(void *)0;
 }
 
-// xegl_display$link1
+// xegl_display_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_display.h line 45
-static inline struct xegl_display * xegl_display$link1(struct wcore_display *wc_self$link1)
+static inline struct xegl_display * xegl_display_link1(struct wcore_display *wc_self_link1)
 {
-  struct wegl_display *tmp_statement_expression$1$link1;
-  struct xegl_display *tmp_statement_expression$2$link1;
-  if(!(wc_self$link1 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link1;
+  struct xegl_display *tmp_statement_expression_2_link1;
+  if(!(wc_self_link1 == ((struct wcore_display *)NULL)))
   {
-    struct wegl_display *wegl_self$link1;
-    const struct wcore_display *__mptr$link1 = wc_self$link1;
-    tmp_statement_expression$1$link1 = (struct wegl_display *)((void *)__mptr$link1 - (signed long int)0ul);
-    wegl_self$link1 = tmp_statement_expression$1$link1;
-    const struct wegl_display *xegl_display$$1$$1$$2$$__mptr$link1 = wegl_self$link1;
-    tmp_statement_expression$2$link1 = (struct xegl_display *)((void *)xegl_display$$1$$1$$2$$__mptr$link1 - (signed long int)24ul);
-    return tmp_statement_expression$2$link1;
+    struct wegl_display *wegl_self_link1;
+    const struct wcore_display *__mptr_link1 = wc_self_link1;
+    tmp_statement_expression_1_link1 = (struct wegl_display *)((void *)__mptr_link1 - (signed long int)0ul);
+    wegl_self_link1 = tmp_statement_expression_1_link1;
+    const struct wegl_display *xegl_display__1__1__2____mptr_link1 = wegl_self_link1;
+    tmp_statement_expression_2_link1 = (struct xegl_display *)((void *)xegl_display__1__1__2____mptr_link1 - (signed long int)24ul);
+    return tmp_statement_expression_2_link1;
   }
 
   else
     return (struct xegl_display *)(void *)0;
 }
 
-// xegl_display$link2
+// xegl_display_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_display.h line 45
-static inline struct xegl_display * xegl_display$link2(struct wcore_display *wc_self$link2)
+static inline struct xegl_display * xegl_display_link2(struct wcore_display *wc_self_link2)
 {
-  struct wegl_display *tmp_statement_expression$1$link2;
-  struct xegl_display *tmp_statement_expression$2$link2;
-  if(!(wc_self$link2 == ((struct wcore_display *)NULL)))
+  struct wegl_display *tmp_statement_expression_1_link2;
+  struct xegl_display *tmp_statement_expression_2_link2;
+  if(!(wc_self_link2 == ((struct wcore_display *)NULL)))
   {
-    struct wegl_display *wegl_self$link2;
-    const struct wcore_display *__mptr$link2 = wc_self$link2;
-    tmp_statement_expression$1$link2 = (struct wegl_display *)((void *)__mptr$link2 - (signed long int)0ul);
-    wegl_self$link2 = tmp_statement_expression$1$link2;
-    const struct wegl_display *xegl_display$$1$$1$$2$$__mptr$link2 = wegl_self$link2;
-    tmp_statement_expression$2$link2 = (struct xegl_display *)((void *)xegl_display$$1$$1$$2$$__mptr$link2 - (signed long int)24ul);
-    return tmp_statement_expression$2$link2;
+    struct wegl_display *wegl_self_link2;
+    const struct wcore_display *__mptr_link2 = wc_self_link2;
+    tmp_statement_expression_1_link2 = (struct wegl_display *)((void *)__mptr_link2 - (signed long int)0ul);
+    wegl_self_link2 = tmp_statement_expression_1_link2;
+    const struct wegl_display *xegl_display__1__1__2____mptr_link2 = wegl_self_link2;
+    tmp_statement_expression_2_link2 = (struct xegl_display *)((void *)xegl_display__1__1__2____mptr_link2 - (signed long int)24ul);
+    return tmp_statement_expression_2_link2;
   }
 
   else
@@ -15000,9 +15000,9 @@ struct wcore_display * xegl_display_connect(struct wcore_platform *wc_plat, cons
 {
   struct xegl_display *self;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct xegl_display) /*56ul*/ );
-  self = (struct xegl_display *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct xegl_display) /*56ul*/ );
+  self = (struct xegl_display *)return_value_wcore_calloc_1;
   if(self == ((struct xegl_display *)NULL))
     return (struct wcore_display *)(void *)0;
 
@@ -15041,12 +15041,12 @@ _Bool xegl_display_destroy(struct wcore_display *wc_self)
 
   else
   {
-    _Bool return_value_wegl_display_teardown$1;
-    return_value_wegl_display_teardown$1=wegl_display_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_display_teardown$1) != 0;
-    _Bool return_value_x11_display_teardown$2;
-    return_value_x11_display_teardown$2=x11_display_teardown(&self->x11);
-    ok = ((signed int)ok & (signed int)return_value_x11_display_teardown$2) != 0;
+    _Bool return_value_wegl_display_teardown_1;
+    return_value_wegl_display_teardown_1=wegl_display_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_display_teardown_1) != 0;
+    _Bool return_value_x11_display_teardown_2;
+    return_value_x11_display_teardown_2=x11_display_teardown(&self->x11);
+    ok = ((signed int)ok & (signed int)return_value_x11_display_teardown_2) != 0;
     free((void *)self);
     return ok;
   }
@@ -15069,9 +15069,9 @@ union waffle_native_display * xegl_display_get_native(struct wcore_display *wc_s
   union waffle_native_display *n_dpy;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_x11_egl_display) /*16ul*/ );
-    n_dpy = (union waffle_native_display *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_display) /*8ul*/  + sizeof(struct waffle_x11_egl_display) /*16ul*/ );
+    n_dpy = (union waffle_native_display *)return_value_wcore_malloc_1;
     if(!(n_dpy == ((union waffle_native_display *)NULL)))
       n_dpy->x11_egl = (struct waffle_x11_egl_display *)(void *)(n_dpy + (signed long int)1);
 
@@ -15092,12 +15092,12 @@ union waffle_native_display * xegl_display_get_native(struct wcore_display *wc_s
 static _Bool xegl_dl_can_open(struct wcore_platform *wc_self, signed int waffle_dl)
 {
   struct xegl_platform *self;
-  struct wegl_platform *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link6(wc_self);
-  self=xegl_platform(return_value_wegl_platform$1);
-  _Bool return_value_linux_platform_dl_can_open$2;
-  return_value_linux_platform_dl_can_open$2=linux_platform_dl_can_open(self->linux, waffle_dl);
-  return return_value_linux_platform_dl_can_open$2;
+  struct wegl_platform *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link6(wc_self);
+  self=xegl_platform(return_value_wegl_platform_1);
+  _Bool return_value_linux_platform_dl_can_open_2;
+  return_value_linux_platform_dl_can_open_2=linux_platform_dl_can_open(self->linux, waffle_dl);
+  return return_value_linux_platform_dl_can_open_2;
 }
 
 // xegl_dl_sym
@@ -15105,24 +15105,24 @@ static _Bool xegl_dl_can_open(struct wcore_platform *wc_self, signed int waffle_
 static void * xegl_dl_sym(struct wcore_platform *wc_self, signed int waffle_dl, const char *name)
 {
   struct xegl_platform *self;
-  struct wegl_platform *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link6(wc_self);
-  self=xegl_platform(return_value_wegl_platform$1);
-  void *return_value_linux_platform_dl_sym$2;
-  return_value_linux_platform_dl_sym$2=linux_platform_dl_sym(self->linux, waffle_dl, name);
-  return return_value_linux_platform_dl_sym$2;
+  struct wegl_platform *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link6(wc_self);
+  self=xegl_platform(return_value_wegl_platform_1);
+  void *return_value_linux_platform_dl_sym_2;
+  return_value_linux_platform_dl_sym_2=linux_platform_dl_sym(self->linux, waffle_dl, name);
+  return return_value_linux_platform_dl_sym_2;
 }
 
 // xegl_platform
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_platform.h line 44
 static inline struct xegl_platform * xegl_platform(struct wegl_platform *wegl_self)
 {
-  struct xegl_platform *tmp_statement_expression$1;
+  struct xegl_platform *tmp_statement_expression_1;
   if(!(wegl_self == ((struct wegl_platform *)NULL)))
   {
     const struct wegl_platform *__mptr = wegl_self;
-    tmp_statement_expression$1 = (struct xegl_platform *)((void *)__mptr - (signed long int)0ul);
-    return tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct xegl_platform *)((void *)__mptr - (signed long int)0ul);
+    return tmp_statement_expression_1;
   }
 
   else
@@ -15135,9 +15135,9 @@ struct wcore_platform * xegl_platform_create(void)
 {
   struct xegl_platform *self;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct xegl_platform) /*144ul*/ );
-  self = (struct xegl_platform *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct xegl_platform) /*144ul*/ );
+  self = (struct xegl_platform *)return_value_wcore_calloc_1;
   if(self == ((struct xegl_platform *)NULL))
     return (struct wcore_platform *)(void *)0;
 
@@ -15171,11 +15171,11 @@ struct wcore_platform * xegl_platform_create(void)
 static _Bool xegl_platform_destroy(struct wcore_platform *wc_self)
 {
   struct xegl_platform *self;
-  struct wegl_platform *return_value_wegl_platform$1;
-  return_value_wegl_platform$1=wegl_platform$link6(wc_self);
-  self=xegl_platform(return_value_wegl_platform$1);
+  struct wegl_platform *return_value_wegl_platform_1;
+  return_value_wegl_platform_1=wegl_platform_link6(wc_self);
+  self=xegl_platform(return_value_wegl_platform_1);
   _Bool ok = (_Bool)1;
-  _Bool return_value_linux_platform_destroy$2;
+  _Bool return_value_linux_platform_destroy_2;
   if(self == ((struct xegl_platform *)NULL))
     return (_Bool)1;
 
@@ -15184,13 +15184,13 @@ static _Bool xegl_platform_destroy(struct wcore_platform *wc_self)
     unsetenv("EGL_PLATFORM");
     if(!(self->linux == ((struct linux_platform *)NULL)))
     {
-      return_value_linux_platform_destroy$2=linux_platform_destroy(self->linux);
-      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy$2) != 0;
+      return_value_linux_platform_destroy_2=linux_platform_destroy(self->linux);
+      ok = ((signed int)ok & (signed int)return_value_linux_platform_destroy_2) != 0;
     }
 
-    _Bool return_value_wegl_platform_teardown$3;
-    return_value_wegl_platform_teardown$3=wegl_platform_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_platform_teardown$3) != 0;
+    _Bool return_value_wegl_platform_teardown_3;
+    return_value_wegl_platform_teardown_3=wegl_platform_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_platform_teardown_3) != 0;
     free((void *)self);
     return ok;
   }
@@ -15200,17 +15200,17 @@ static _Bool xegl_platform_destroy(struct wcore_platform *wc_self)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_window.h line 45
 static inline struct xegl_window * xegl_window(struct wcore_window *wc_self)
 {
-  struct wegl_window *tmp_statement_expression$1;
-  struct xegl_window *tmp_statement_expression$2;
+  struct wegl_window *tmp_statement_expression_1;
+  struct xegl_window *tmp_statement_expression_2;
   if(!(wc_self == ((struct wcore_window *)NULL)))
   {
     struct wegl_window *wegl_self;
-    const struct wcore_window *xegl_window$$1$$1$$1$$__mptr = wc_self;
-    tmp_statement_expression$1 = (struct wegl_window *)((void *)xegl_window$$1$$1$$1$$__mptr - (signed long int)0ul);
-    wegl_self = tmp_statement_expression$1;
+    const struct wcore_window *xegl_window__1__1__1____mptr = wc_self;
+    tmp_statement_expression_1 = (struct wegl_window *)((void *)xegl_window__1__1__1____mptr - (signed long int)0ul);
+    wegl_self = tmp_statement_expression_1;
     const struct wegl_window *__mptr = wegl_self;
-    tmp_statement_expression$2 = (struct xegl_window *)((void *)__mptr - (signed long int)16ul);
-    return tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct xegl_window *)((void *)__mptr - (signed long int)16ul);
+    return tmp_statement_expression_2;
   }
 
   else
@@ -15223,16 +15223,16 @@ struct wcore_window * xegl_window_create(struct wcore_platform *wc_plat, struct 
 {
   struct xegl_window *self;
   struct xegl_display *dpy;
-  dpy=xegl_display$link2(wc_config->display);
+  dpy=xegl_display_link2(wc_config->display);
   struct wegl_config *config;
-  config=wegl_config$link5(wc_config);
+  config=wegl_config_link5(wc_config);
   struct wegl_platform *plat;
-  plat=wegl_platform$link7(wc_plat);
+  plat=wegl_platform_link7(wc_plat);
   unsigned int visual;
   _Bool ok = (_Bool)1;
-  void *return_value_wcore_calloc$1;
-  return_value_wcore_calloc$1=wcore_calloc(sizeof(struct xegl_window) /*40ul*/ );
-  self = (struct xegl_window *)return_value_wcore_calloc$1;
+  void *return_value_wcore_calloc_1;
+  return_value_wcore_calloc_1=wcore_calloc(sizeof(struct xegl_window) /*40ul*/ );
+  self = (struct xegl_window *)return_value_wcore_calloc_1;
   if(self == ((struct xegl_window *)NULL))
     return (struct wcore_window *)(void *)0;
 
@@ -15276,12 +15276,12 @@ _Bool xegl_window_destroy(struct wcore_window *wc_self)
 
   else
   {
-    _Bool return_value_wegl_window_teardown$1;
-    return_value_wegl_window_teardown$1=wegl_window_teardown(&self->wegl);
-    ok = ((signed int)ok & (signed int)return_value_wegl_window_teardown$1) != 0;
-    _Bool return_value_x11_window_teardown$2;
-    return_value_x11_window_teardown$2=x11_window_teardown(&self->x11);
-    ok = ((signed int)ok & (signed int)return_value_x11_window_teardown$2) != 0;
+    _Bool return_value_wegl_window_teardown_1;
+    return_value_wegl_window_teardown_1=wegl_window_teardown(&self->wegl);
+    ok = ((signed int)ok & (signed int)return_value_wegl_window_teardown_1) != 0;
+    _Bool return_value_x11_window_teardown_2;
+    return_value_x11_window_teardown_2=x11_window_teardown(&self->x11);
+    ok = ((signed int)ok & (signed int)return_value_x11_window_teardown_2) != 0;
     free((void *)self);
     return ok;
   }
@@ -15294,13 +15294,13 @@ union waffle_native_window * xegl_window_get_native(struct wcore_window *wc_self
   struct xegl_window *self;
   self=xegl_window(wc_self);
   struct xegl_display *dpy;
-  dpy=xegl_display$link2(wc_self->display);
+  dpy=xegl_display_link2(wc_self->display);
   union waffle_native_window *n_window;
   do
   {
-    void *return_value_wcore_malloc$1;
-    return_value_wcore_malloc$1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_x11_egl_window) /*32ul*/ );
-    n_window = (union waffle_native_window *)return_value_wcore_malloc$1;
+    void *return_value_wcore_malloc_1;
+    return_value_wcore_malloc_1=wcore_malloc(sizeof(union waffle_native_window) /*8ul*/  + sizeof(struct waffle_x11_egl_window) /*32ul*/ );
+    n_window = (union waffle_native_window *)return_value_wcore_malloc_1;
     if(!(n_window == ((union waffle_native_window *)NULL)))
       n_window->x11_egl = (struct waffle_x11_egl_window *)(void *)(n_window + (signed long int)1);
 
@@ -15322,22 +15322,22 @@ union waffle_native_window * xegl_window_get_native(struct wcore_window *wc_self
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_window.h line 69
 _Bool xegl_window_resize(struct wcore_window *wc_self, signed int width, signed int height)
 {
-  struct xegl_window *return_value_xegl_window$1;
-  return_value_xegl_window$1=xegl_window(wc_self);
-  _Bool return_value_x11_window_resize$2;
-  return_value_x11_window_resize$2=x11_window_resize(&return_value_xegl_window$1->x11, width, height);
-  return return_value_x11_window_resize$2;
+  struct xegl_window *return_value_xegl_window_1;
+  return_value_xegl_window_1=xegl_window(wc_self);
+  _Bool return_value_x11_window_resize_2;
+  return_value_x11_window_resize_2=x11_window_resize(&return_value_xegl_window_1->x11, width, height);
+  return return_value_x11_window_resize_2;
 }
 
 // xegl_window_show
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/xegl/xegl_window.h line 66
 _Bool xegl_window_show(struct wcore_window *wc_self)
 {
-  struct xegl_window *return_value_xegl_window$1;
-  return_value_xegl_window$1=xegl_window(wc_self);
-  _Bool return_value_x11_window_show$2;
-  return_value_x11_window_show$2=x11_window_show(&return_value_xegl_window$1->x11);
-  return return_value_x11_window_show$2;
+  struct xegl_window *return_value_xegl_window_1;
+  return_value_xegl_window_1=xegl_window(wc_self);
+  _Bool return_value_x11_window_show_2;
+  return_value_x11_window_show_2=x11_window_show(&return_value_xegl_window_1->x11);
+  return return_value_x11_window_show_2;
 }
 
 // xtime_get

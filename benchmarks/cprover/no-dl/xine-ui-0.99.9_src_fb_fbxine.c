@@ -1,74 +1,74 @@
-// tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$}$*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$$'get_param_descr'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'get_help'|]
+// tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_}_*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#__'get_param_descr'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'get_help'|]
 // file /usr/include/xine.h line 834
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{SYM#tag-lirc_config#}$SYM#tag-lirc_config#$'config'||S32'fd'||U32'$pad0'||U64'thread'|]
+// tag-#anon#ST[*{SYM#tag-lirc_config#}_SYM#tag-lirc_config#_'config'||S32'fd'||U32'_pad0'||U64'thread'|]
 // file main.h line 94
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$'post'||*{S8}$S8$'name'|]
+// tag-#anon#ST[*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_'post'||*{S8}_S8_'name'|]
 // file main.h line 46
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$'post'||*{SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$}$*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$$'get_param_descr'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'get_help'|]#}$SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32}$S32(*{SYM#tag-xine_post_s#}$SYM#tag-xine_post_s#$|*{V}$V$)->S32$'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$}$*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$$'get_param_descr'||*{*{S8}$S8$()->*{S8}$S8$}$*{S8}$S8$()->*{S8}$S8$$'get_help'|]#$'api'||*{SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#}$SYM#tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]#$'descr'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'param'||*{S8}$S8$'param_data'||S32'x'||S32'y'||S32'readonly'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'properties_names'|]
+// tag-#anon#ST[*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_'post'||*{SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_}_*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#__'get_param_descr'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'get_help'|]#}_SYM#tag-#anon#ST[*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'set_parameters'||*{S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32}_S32(*{SYM#tag-xine_post_s#}_SYM#tag-xine_post_s#_|*{V}_V_)->S32_'get_parameters'||*{*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_}_*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_()->*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#__'get_param_descr'||*{*{S8}_S8_()->*{S8}_S8_}_*{S8}_S8_()->*{S8}_S8__'get_help'|]#_'api'||*{SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#}_SYM#tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]#_'descr'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'param'||*{S8}_S8_'param_data'||S32'x'||S32'y'||S32'readonly'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'properties_names'|]
 // file post.c line 29
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{SYM#tag-xine_stream_s#}$SYM#tag-xine_stream_s#$'stream'||*{V}$V$'data'||S32'data_length'||S32'type'||SYM#tag-timeval#'tv'|]
+// tag-#anon#ST[*{SYM#tag-xine_stream_s#}_SYM#tag-xine_stream_s#_'stream'||*{V}_V_'data'||S32'data_length'||S32'type'||SYM#tag-timeval#'tv'|]
 // file /usr/include/xine.h line 1847
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[BF{U8}$U8$'cb'||BF{U8}$U8$'cr'||BF{U8}$U8$'y'||BF{U8}$U8$'foo'|]
+// tag-#anon#ST[BF{U8}_U8_'cb'||BF{U8}_U8_'cr'||BF{U8}_U8_'y'||BF{U8}_U8_'foo'|]
 // file osd.c line 46
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'enabled'||S32'timeout'||*{SYM#tag-xine_osd_s#}$SYM#tag-xine_osd_s#$'sinfo'||S32'sinfo_visible'||U32'$pad0'||ARR2{*{SYM#tag-xine_osd_s#}$SYM#tag-xine_osd_s#$}$*{SYM#tag-xine_osd_s#}$SYM#tag-xine_osd_s#$$'bar'||S32'bar_visible'||U32'$pad1'||*{SYM#tag-xine_osd_s#}$SYM#tag-xine_osd_s#$'status'||S32'status_visible'||U32'$pad2'||*{SYM#tag-xine_osd_s#}$SYM#tag-xine_osd_s#$'info'||S32'info_visible'||U32'$pad3'|]
+// tag-#anon#ST[S32'enabled'||S32'timeout'||*{SYM#tag-xine_osd_s#}_SYM#tag-xine_osd_s#_'sinfo'||S32'sinfo_visible'||U32'_pad0'||ARR2{*{SYM#tag-xine_osd_s#}_SYM#tag-xine_osd_s#_}_*{SYM#tag-xine_osd_s#}_SYM#tag-xine_osd_s#__'bar'||S32'bar_visible'||U32'_pad1'||*{SYM#tag-xine_osd_s#}_SYM#tag-xine_osd_s#_'status'||S32'status_visible'||U32'_pad2'||*{SYM#tag-xine_osd_s#}_SYM#tag-xine_osd_s#_'info'||S32'info_visible'||U32'_pad3'|]
 // file main.h line 109
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'fd'||U32'$pad0'||U64'thread'|]
+// tag-#anon#ST[S32'fd'||U32'_pad0'||U64'thread'|]
 // file stdctl.c line 46
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'set'||S32'arg'|]
 // file actions.h line 213
 struct anonymous;
 
-// tag-#anon#ST[S32'set'||U32'$pad0'||*{S8}$S8$'arg'|]
+// tag-#anon#ST[S32'set'||U32'_pad0'||*{S8}_S8_'arg'|]
 // file actions.h line 218
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'struct_size'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#}$SYM#tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]#$'parameter'|]
+// tag-#anon#ST[S32'struct_size'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#}_SYM#tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]#_'parameter'|]
 // file /usr/include/xine.h line 829
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'||S32'size'||S32'offset'||*{*{S8}$S8$}$*{S8}$S8$$'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'$pad1'||*{cS8}$cS8$'description'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'||S32'size'||S32'offset'||*{*{S8}_S8_}_*{S8}_S8__'enum_values'||F64'range_min'||F64'range_max'||S32'readonly'||U32'_pad1'||*{cS8}_cS8_'description'|]
 // file /usr/include/xine.h line 816
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'set'||S32'arg'|]#'numeric'||SYM#tag-#anon#ST[S32'set'||U32'$pad0'||*{S8}$S8$'arg'|]#'alphanum'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'set'||S32'arg'|]#'numeric'||SYM#tag-#anon#ST[S32'set'||U32'_pad0'||*{S8}_S8_'arg'|]#'alphanum'|]
 // file actions.h line 211
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#cST[*{S8}$S8$'description'||*{S8}$S8$'name'||S32'action'||U32'$pad0'|]
+// tag-#anon#cST[*{S8}_S8_'description'||*{S8}_S8_'name'||S32'action'||U32'_pad0'|]
 // file actions.c line 50
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -202,7 +202,7 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // __pplugin_retrieve_parameters
 // file post.c line 45
-static signed int __pplugin_retrieve_parameters(struct anonymous$13 *pobj);
+static signed int __pplugin_retrieve_parameters(struct anonymous_13 *pobj);
 // __rawmemchr
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 393
 extern void * __rawmemchr(const void *, signed int);
@@ -212,39 +212,39 @@ extern char * __strdup(const char *);
 // __strsep_1c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
 static inline char * __strsep_1c(char **__s, char __reject);
-// __strsep_1c$link1
+// __strsep_1c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link1(char **__s$link1, char __reject$link1);
-// __strsep_1c$link2
+static inline char * __strsep_1c_link1(char **__s_link1, char __reject_link1);
+// __strsep_1c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link2(char **__s$link2, char __reject$link2);
-// __strsep_1c$link3
+static inline char * __strsep_1c_link2(char **__s_link2, char __reject_link2);
+// __strsep_1c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link3(char **__s$link3, char __reject$link3);
+static inline char * __strsep_1c_link3(char **__s_link3, char __reject_link3);
 // __strsep_2c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2);
-// __strsep_2c$link1
+// __strsep_2c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1);
-// __strsep_2c$link2
+static inline char * __strsep_2c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1);
+// __strsep_2c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2);
-// __strsep_2c$link3
+static inline char * __strsep_2c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2);
+// __strsep_2c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3);
+static inline char * __strsep_2c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3);
 // __strsep_3c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3);
-// __strsep_3c$link1
+// __strsep_3c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1, char __reject3$link1);
-// __strsep_3c$link2
+static inline char * __strsep_3c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1, char __reject3_link1);
+// __strsep_3c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2, char __reject3$link2);
-// __strsep_3c$link3
+static inline char * __strsep_3c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2, char __reject3_link2);
+// __strsep_3c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3, char __reject3$link3);
+static inline char * __strsep_3c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3, char __reject3_link3);
 // __strsep_g
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1179
 extern char * __strsep_g(char **, const char *);
@@ -256,7 +256,7 @@ extern signed int __xstat(signed int, const char *, struct stat *);
 static void _applugin_rewire(void);
 // _applugin_rewire_from_post_elements
 // file post.c line 351
-static void _applugin_rewire_from_post_elements(struct anonymous$14 **post_elements, signed int post_elements_num);
+static void _applugin_rewire_from_post_elements(struct anonymous_14 **post_elements, signed int post_elements_num);
 // _applugin_unwire
 // file post.c line 311
 static void _applugin_unwire(void);
@@ -271,19 +271,19 @@ static const char * _osd_get_speed_sym(signed int speed);
 static const char * _osd_get_status_sym(signed int status);
 // _pplugin_join_deinterlace_and_post_elements
 // file post.c line 382
-static struct anonymous$14 ** _pplugin_join_deinterlace_and_post_elements(signed int *post_elements_num);
+static struct anonymous_14 ** _pplugin_join_deinterlace_and_post_elements(signed int *post_elements_num);
 // _pplugin_join_visualization_and_post_elements
 // file post.c line 409
-static struct anonymous$14 ** _pplugin_join_visualization_and_post_elements(signed int *post_elements_num);
+static struct anonymous_14 ** _pplugin_join_visualization_and_post_elements(signed int *post_elements_num);
 // _pplugin_update_parameter
 // file post.c line 87
-static void _pplugin_update_parameter(struct anonymous$13 *pobj);
+static void _pplugin_update_parameter(struct anonymous_13 *pobj);
 // _vpplugin_rewire
 // file post.c line 437
 static void _vpplugin_rewire(void);
 // _vpplugin_rewire_from_post_elements
 // file post.c line 320
-static void _vpplugin_rewire_from_post_elements(struct anonymous$14 **post_elements, signed int post_elements_num);
+static void _vpplugin_rewire_from_post_elements(struct anonymous_14 **post_elements, signed int post_elements_num);
 // _vpplugin_unwire
 // file post.c line 302
 static void _vpplugin_unwire(void);
@@ -379,7 +379,7 @@ void dump_info(const char *msg);
 extern signed int dup(signed int);
 // event_listener
 // file main.c line 99
-static void event_listener(void *user_data, const struct anonymous$2 *event);
+static void event_listener(void *user_data, const struct anonymous_2 *event);
 // execve
 // file /usr/include/unistd.h line 551
 extern signed int execve(const char *, char * const *, char * const *);
@@ -440,21 +440,21 @@ static void * fbxine_keyboard_loop(void *dummy);
 // fbxine_register_abort
 // file callback.h line 32
 void fbxine_register_abort(struct fbxine_callback *callback, void (*func)(void));
-// fbxine_register_abort::func$object
+// fbxine_register_abort::func_object
 //
-void func$object(void);
+void func_object(void);
 // fbxine_register_callback
 // file callback.c line 30
 static void fbxine_register_callback(struct fbxine_callback **top, struct fbxine_callback *callback, void (*func)(void));
-// fbxine_register_callback::func$object
+// fbxine_register_callback::func_object
 //
-void func$object(void);
+void func_object(void);
 // fbxine_register_exit
 // file callback.h line 30
 void fbxine_register_exit(struct fbxine_callback *callback, void (*func)(void));
-// fbxine_register_exit::func$object
+// fbxine_register_exit::func_object
 //
-void func$object(void);
+void func_object(void);
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);
@@ -631,7 +631,7 @@ void post_deinterlace(void);
 void post_deinterlace_init(const char *deinterlace_post);
 // pplugin_parse_and_load
 // file post.c line 94
-static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, const char *pchain, signed int *post_elements_num);
+static struct anonymous_14 ** pplugin_parse_and_load(signed int plugin_type, const char *pchain, signed int *post_elements_num);
 // pplugin_parse_and_store_post
 // file post.c line 263
 static void pplugin_parse_and_store_post(signed int plugin_type, const char *post_chain);
@@ -652,10 +652,10 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$4 *);
+extern signed int pthread_cond_signal(union anonymous_4 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous$5 *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous_5 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -670,10 +670,10 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -694,7 +694,7 @@ static void reset_zoom(void);
 static void * seek_relative_thread(void *data);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$7 *, struct anonymous$7 *, struct anonymous$7 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_7 *, struct anonymous_7 *, struct anonymous_7 *, struct timeval *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -796,7 +796,7 @@ void xine_dispose(struct xine_stream_s *);
 void xine_engine_set_param(struct xine_s *, signed int, signed int);
 // xine_event_create_listener_thread
 // file /usr/include/xine.h line 2164
-void xine_event_create_listener_thread(struct xine_event_queue_s *, void (*)(void *, const struct anonymous$2 *), void *);
+void xine_event_create_listener_thread(struct xine_event_queue_s *, void (*)(void *, const struct anonymous_2 *), void *);
 // xine_event_dispose_queue
 // file /usr/include/xine.h line 2142
 void xine_event_dispose_queue(struct xine_event_queue_s *);
@@ -805,7 +805,7 @@ void xine_event_dispose_queue(struct xine_event_queue_s *);
 struct xine_event_queue_s * xine_event_new_queue(struct xine_stream_s *);
 // xine_event_send
 // file /usr/include/xine.h line 2174
-void xine_event_send(struct xine_stream_s *, const struct anonymous$2 *);
+void xine_event_send(struct xine_stream_s *, const struct anonymous_2 *);
 // xine_exit
 // file /usr/include/xine.h line 173
 void xine_exit(struct xine_s *);
@@ -948,19 +948,19 @@ signed int xine_system(signed int dont_run_as_root, char *command);
 // file /usr/include/xine/xineutils.h line 185
 void xine_usec_sleep(unsigned int);
 
-struct anonymous$10
+struct anonymous_10
 {
   // set_parameters
   signed int (*set_parameters)(struct xine_post_s *, void *);
   // get_parameters
   signed int (*get_parameters)(struct xine_post_s *, void *);
   // get_param_descr
-  struct anonymous$9 * (*get_param_descr)(void);
+  struct anonymous_9 * (*get_param_descr)(void);
   // get_help
   char * (*get_help)(void);
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // config
   struct lirc_config *config;
@@ -970,7 +970,7 @@ struct anonymous$15
   unsigned long int thread;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // post
   struct xine_post_s *post;
@@ -978,16 +978,16 @@ struct anonymous$14
   char *name;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // post
   struct xine_post_s *post;
   // api
-  struct anonymous$10 *api;
+  struct anonymous_10 *api;
   // descr
-  struct anonymous$9 *descr;
+  struct anonymous_9 *descr;
   // param
-  struct anonymous$11 *param;
+  struct anonymous_11 *param;
   // param_data
   char *param_data;
   // x
@@ -1008,7 +1008,7 @@ struct timeval
   signed long int tv_usec;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // stream
   struct xine_stream_s *stream;
@@ -1022,13 +1022,13 @@ struct anonymous$2
   struct timeval tv;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // cb
   unsigned char cb : 8;
@@ -1040,7 +1040,7 @@ struct anonymous$18
   unsigned char foo : 8;
 } __attribute__ ((__packed__));
 
-struct anonymous$3
+struct anonymous_3
 {
   // __lock
   signed int __lock;
@@ -1060,7 +1060,7 @@ struct anonymous$3
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // enabled
   signed int enabled;
@@ -1084,7 +1084,7 @@ struct anonymous$16
   signed int info_visible;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // fd
   signed int fd;
@@ -1100,7 +1100,7 @@ struct anonymous
   signed int arg;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // set
   signed int set;
@@ -1108,15 +1108,15 @@ struct anonymous$0
   char *arg;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // struct_size
   signed int struct_size;
   // parameter
-  struct anonymous$11 *parameter;
+  struct anonymous_11 *parameter;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // type
   signed int type;
@@ -1138,18 +1138,18 @@ struct anonymous$11
   const char *description;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // numeric
   struct anonymous numeric;
   // alphanum
-  struct anonymous$0 alphanum;
+  struct anonymous_0 alphanum;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$3 __data;
+  struct anonymous_3 __data;
   // __size
   char __size[48l];
   // __align
@@ -1184,7 +1184,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1194,7 +1194,7 @@ union anonymous$5
   signed long int __align;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // description
   char *description;
@@ -1335,13 +1335,13 @@ struct fbxine
   // ignore_next
   signed int ignore_next;
   // post_video_elements
-  struct anonymous$14 **post_video_elements;
+  struct anonymous_14 **post_video_elements;
   // post_video_elements_num
   signed int post_video_elements_num;
   // post_video_enable
   signed int post_video_enable;
   // post_audio_elements
-  struct anonymous$14 **post_audio_elements;
+  struct anonymous_14 **post_audio_elements;
   // post_audio_elements_num
   signed int post_audio_elements_num;
   // post_audio_enable
@@ -1349,23 +1349,23 @@ struct fbxine
   // deinterlace_plugin
   char *deinterlace_plugin;
   // deinterlace_elements
-  struct anonymous$14 **deinterlace_elements;
+  struct anonymous_14 **deinterlace_elements;
   // deinterlace_elements_num
   signed int deinterlace_elements_num;
   // deinterlace_enable
   signed int deinterlace_enable;
   // lirc
-  struct anonymous$15 lirc;
+  struct anonymous_15 lirc;
   // mutex
-  union anonymous$5 mutex;
+  union anonymous_5 mutex;
   // exit_cond
-  union anonymous$4 exit_cond;
+  union anonymous_4 exit_cond;
   // keyboard_thread
   unsigned long int keyboard_thread;
   // osd_thread
   unsigned long int osd_thread;
   // osd
-  struct anonymous$16 osd;
+  struct anonymous_16 osd;
 };
 
 struct fbxine_callback
@@ -1615,7 +1615,7 @@ signed int __xineui_global_verbosity;
 struct xine_s *__xineui_global_xine_instance;
 // default_actions
 // file actions.c line 55
-static struct anonymous$17 default_actions[120l] = { { .description="Select next sub picture (subtitle) channel.", .name="SpuNext",
+static struct anonymous_17 default_actions[120l] = { { .description="Select next sub picture (subtitle) channel.", .name="SpuNext",
     .action=6 },
     { .description="Select previous sub picture (subtitle) channel.", .name="SpuPrior",
     .action=7 },
@@ -1800,11 +1800,11 @@ struct fbxine fbxine = { .stream=((struct xine_stream_s *)NULL), .video_port=((s
     .current_mrl=0, .audio_port_id=((const char *)NULL), .video_port_id="fb",
     .audio_channel=0, .screen_width=0,
     .screen_height=0, .debug=0, .ignore_next=0,
-    .post_video_elements=(struct anonymous$14 **)(void *)0, .post_video_elements_num=0,
-    .post_video_enable=1, .post_audio_elements=(struct anonymous$14 **)(void *)0,
+    .post_video_elements=(struct anonymous_14 **)(void *)0, .post_video_elements_num=0,
+    .post_video_enable=1, .post_audio_elements=(struct anonymous_14 **)(void *)0,
     .post_audio_elements_num=0,
     .post_audio_enable=1, .deinterlace_plugin=(char *)(void *)0,
-    .deinterlace_elements=(struct anonymous$14 **)(void *)0,
+    .deinterlace_elements=(struct anonymous_14 **)(void *)0,
     .deinterlace_elements_num=0,
     .deinterlace_enable=0, .lirc={ .config=((struct lirc_config *)NULL), .fd=0, .thread=0ul },
     .mutex={ .__data={ .__lock=0, .__count=0u, .__owner=0, .__nusers=0u, .__kind=0,
@@ -1826,7 +1826,7 @@ static struct fbxine_callback *fbxine_fifo_abort = ((struct fbxine_callback *)NU
 static struct fbxine_callback *fbxine_fifo_exit = ((struct fbxine_callback *)NULL);
 // gParameter
 // file actions.c line 44
-struct anonymous$1 gParameter = { .numeric={ .set=0, .arg=0 }, .alphanum={ .set=0, .arg=(char *)(void *)0 } };
+struct anonymous_1 gParameter = { .numeric={ .set=0, .arg=0 }, .alphanum={ .set=0, .arg=(char *)(void *)0 } };
 // no_lirc
 // file options.c line 43
 signed int no_lirc;
@@ -1848,9 +1848,9 @@ signed int pplugins_num = 0;
 // stdctl
 // file options.c line 42
 signed int stdctl;
-// stdctl$link1
+// stdctl_link1
 // file stdctl.c line 51
-static struct anonymous$6 stdctl$link1;
+static struct anonymous_6 stdctl_link1;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -1859,7 +1859,7 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdout;
 // textpalettes_color
 // file osd.c line 53
-static const struct anonymous$18 textpalettes_color[22l] = { { .cb=0x00, .cr=0x00, .y=0x00, .foo=0 },
+static const struct anonymous_18 textpalettes_color[22l] = { { .cb=0x00, .cr=0x00, .y=0x00, .foo=0 },
     { .cb=0x80, .cr=0x80, .y=0x60, .foo=0 },
     { .cb=0x80, .cr=0x80, .y=0x70, .foo=0 },
     { .cb=0x80, .cr=0x80, .y=0x80, .foo=0 },
@@ -1888,8 +1888,8 @@ static const unsigned char textpalettes_trans[22l] = { (const unsigned char)0, (
 // file osd.c line 100
 static struct xine_speeds_s xine_speeds[6l] = { { .symbol={ '<', 0, 0, 0 }, .speed=0 }, { .symbol={ '@', '@', '>', 0 }, .speed=1 },
     { .symbol={ '@', '>', 0, 0 }, .speed=2 },
-    { .symbol={ '>', 0, 0, 0 }, .speed=4 }, { .symbol={ '>', '$', 0, 0 }, .speed=8 },
-    { .symbol={ '>', '$', '$', 0 }, .speed=16 } };
+    { .symbol={ '>', 0, 0, 0 }, .speed=4 }, { .symbol={ '>', '_', 0, 0 }, .speed=8 },
+    { .symbol={ '>', '_', '_', 0 }, .speed=16 } };
 // xine_status
 // file osd.c line 90
 static struct xine_status_s xine_status[4l] = { { .symbol={ -40, 0, 0, 0 }, .status=0 },
@@ -1899,43 +1899,43 @@ static struct xine_status_s xine_status[4l] = { { .symbol={ -40, 0, 0, 0 }, .sta
 
 // __pplugin_retrieve_parameters
 // file post.c line 45
-static signed int __pplugin_retrieve_parameters(struct anonymous$13 *pobj)
+static signed int __pplugin_retrieve_parameters(struct anonymous_13 *pobj)
 {
   struct xine_post_in_s *input_api;
-  struct xine_post_in_s *return_value_xine_post_input$5;
-  return_value_xine_post_input$5=xine_post_input(pobj->post, "parameters");
-  input_api = (struct xine_post_in_s *)return_value_xine_post_input$5;
-  void *return_value_malloc$2;
-  void *return_value_realloc$3;
+  struct xine_post_in_s *return_value_xine_post_input_5;
+  return_value_xine_post_input_5=xine_post_input(pobj->post, "parameters");
+  input_api = (struct xine_post_in_s *)return_value_xine_post_input_5;
+  void *return_value_malloc_2;
+  void *return_value_realloc_3;
   if(!(input_api == ((struct xine_post_in_s *)NULL)))
   {
-    struct anonymous$10 *post_api;
-    struct anonymous$9 *api_descr;
-    struct anonymous$11 *parm;
+    struct anonymous_10 *post_api;
+    struct anonymous_9 *api_descr;
+    struct anonymous_11 *parm;
     signed int pnum = 0;
-    post_api = (struct anonymous$10 *)input_api->data;
+    post_api = (struct anonymous_10 *)input_api->data;
     api_descr=post_api->get_param_descr();
     parm = api_descr->parameter;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)api_descr->struct_size);
-    pobj->param_data = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)api_descr->struct_size);
+    pobj->param_data = (char *)return_value_malloc_1;
     if(!(parm->type == 0))
     {
       post_api->get_parameters(pobj->post, (void *)pobj->param_data);
       if(pnum == 0)
       {
-        return_value_malloc$2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)2);
-        pobj->properties_names = (char **)return_value_malloc$2;
+        return_value_malloc_2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)2);
+        pobj->properties_names = (char **)return_value_malloc_2;
       }
 
       else
       {
-        return_value_realloc$3=realloc((void *)pobj->properties_names, sizeof(char *) /*8ul*/  * (unsigned long int)(pnum + 2));
-        pobj->properties_names = (char **)return_value_realloc$3;
+        return_value_realloc_3=realloc((void *)pobj->properties_names, sizeof(char *) /*8ul*/  * (unsigned long int)(pnum + 2));
+        pobj->properties_names = (char **)return_value_realloc_3;
       }
-      char *return_value___strdup$4;
-      return_value___strdup$4=__strdup(parm->name);
-      pobj->properties_names[(signed long int)pnum] = return_value___strdup$4;
+      char *return_value___strdup_4;
+      return_value___strdup_4=__strdup(parm->name);
+      pobj->properties_names[(signed long int)pnum] = return_value___strdup_4;
       pobj->properties_names[(signed long int)(pnum + 1)] = (char *)(void *)0;
       pnum = pnum + 1;
       parm = parm + 1l;
@@ -1955,17 +1955,17 @@ static signed int __pplugin_retrieve_parameters(struct anonymous$13 *pobj)
 static inline char * __strsep_1c(char **__s, char __reject)
 {
   char *__retval = *__s;
-  char *return_value___builtin_strchr$2;
-  char *tmp_post$1;
+  char *return_value___builtin_strchr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2=__builtin_strchr(__retval, (signed int)__reject);
-    *__s = return_value___builtin_strchr$2;
+    return_value___builtin_strchr_2=__builtin_strchr(__retval, (signed int)__reject);
+    *__s = return_value___builtin_strchr_2;
     if(!(*__s == ((char *)NULL)))
     {
-      tmp_post$1 = *__s;
+      tmp_post_1 = *__s;
       *__s = *__s + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
     }
 
   }
@@ -1973,73 +1973,73 @@ static inline char * __strsep_1c(char **__s, char __reject)
   return __retval;
 }
 
-// __strsep_1c$link1
+// __strsep_1c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link1(char **__s$link1, char __reject$link1)
+static inline char * __strsep_1c_link1(char **__s_link1, char __reject_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  char *return_value___builtin_strchr$2$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  char *return_value___builtin_strchr_2_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link1=__builtin_strchr(__retval$link1, (signed int)__reject$link1);
-    *__s$link1 = return_value___builtin_strchr$2$link1;
-    if(!(*__s$link1 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link1=__builtin_strchr(__retval_link1, (signed int)__reject_link1);
+    *__s_link1 = return_value___builtin_strchr_2_link1;
+    if(!(*__s_link1 == ((char *)NULL)))
     {
-      tmp_post$1$link1 = *__s$link1;
-      *__s$link1 = *__s$link1 + 1l;
-      *tmp_post$1$link1 = (char)0;
+      tmp_post_1_link1 = *__s_link1;
+      *__s_link1 = *__s_link1 + 1l;
+      *tmp_post_1_link1 = (char)0;
     }
 
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_1c$link2
+// __strsep_1c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link2(char **__s$link2, char __reject$link2)
+static inline char * __strsep_1c_link2(char **__s_link2, char __reject_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  char *return_value___builtin_strchr$2$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  char *return_value___builtin_strchr_2_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link2=__builtin_strchr(__retval$link2, (signed int)__reject$link2);
-    *__s$link2 = return_value___builtin_strchr$2$link2;
-    if(!(*__s$link2 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link2=__builtin_strchr(__retval_link2, (signed int)__reject_link2);
+    *__s_link2 = return_value___builtin_strchr_2_link2;
+    if(!(*__s_link2 == ((char *)NULL)))
     {
-      tmp_post$1$link2 = *__s$link2;
-      *__s$link2 = *__s$link2 + 1l;
-      *tmp_post$1$link2 = (char)0;
+      tmp_post_1_link2 = *__s_link2;
+      *__s_link2 = *__s_link2 + 1l;
+      *tmp_post_1_link2 = (char)0;
     }
 
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
-// __strsep_1c$link3
+// __strsep_1c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link3(char **__s$link3, char __reject$link3)
+static inline char * __strsep_1c_link3(char **__s_link3, char __reject_link3)
 {
-  char *__retval$link3 = *__s$link3;
-  char *return_value___builtin_strchr$2$link3;
-  char *tmp_post$1$link3;
-  if(!(__retval$link3 == ((char *)NULL)))
+  char *__retval_link3 = *__s_link3;
+  char *return_value___builtin_strchr_2_link3;
+  char *tmp_post_1_link3;
+  if(!(__retval_link3 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link3=__builtin_strchr(__retval$link3, (signed int)__reject$link3);
-    *__s$link3 = return_value___builtin_strchr$2$link3;
-    if(!(*__s$link3 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link3=__builtin_strchr(__retval_link3, (signed int)__reject_link3);
+    *__s_link3 = return_value___builtin_strchr_2_link3;
+    if(!(*__s_link3 == ((char *)NULL)))
     {
-      tmp_post$1$link3 = *__s$link3;
-      *__s$link3 = *__s$link3 + 1l;
-      *tmp_post$1$link3 = (char)0;
+      tmp_post_1_link3 = *__s_link3;
+      *__s_link3 = *__s_link3 + 1l;
+      *tmp_post_1_link3 = (char)0;
     }
 
   }
 
-  return __retval$link3;
+  return __retval_link3;
 }
 
 // __strsep_2c
@@ -2047,8 +2047,8 @@ static inline char * __strsep_1c$link3(char **__s$link3, char __reject$link3)
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -2061,15 +2061,15 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -2080,118 +2080,118 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
   return __retval;
 }
 
-// __strsep_2c$link1
+// __strsep_2c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1)
+static inline char * __strsep_2c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  _Bool tmp_if_expr$2$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  _Bool tmp_if_expr_2_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    char *__cp$link1 = __retval$link1;
-    for( ; (_Bool)1; __cp$link1 = __cp$link1 + 1l)
+    char *__cp_link1 = __retval_link1;
+    for( ; (_Bool)1; __cp_link1 = __cp_link1 + 1l)
     {
-      if((signed int)*__cp$link1 == 0)
+      if((signed int)*__cp_link1 == 0)
       {
-        __cp$link1 = (char *)(void *)0;
+        __cp_link1 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link1 == __reject1$link1)
-        tmp_if_expr$2$link1 = (_Bool)1;
+      if(*__cp_link1 == __reject1_link1)
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link1 = *__cp$link1 == __reject2$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link1)
+        tmp_if_expr_2_link1 = *__cp_link1 == __reject2_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link1)
       {
-        tmp_post$1$link1 = __cp$link1;
-        __cp$link1 = __cp$link1 + 1l;
-        *tmp_post$1$link1 = (char)0;
+        tmp_post_1_link1 = __cp_link1;
+        __cp_link1 = __cp_link1 + 1l;
+        *tmp_post_1_link1 = (char)0;
         break;
       }
 
     }
-    *__s$link1 = __cp$link1;
+    *__s_link1 = __cp_link1;
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_2c$link2
+// __strsep_2c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2)
+static inline char * __strsep_2c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  _Bool tmp_if_expr$2$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  _Bool tmp_if_expr_2_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    char *__cp$link2 = __retval$link2;
-    for( ; (_Bool)1; __cp$link2 = __cp$link2 + 1l)
+    char *__cp_link2 = __retval_link2;
+    for( ; (_Bool)1; __cp_link2 = __cp_link2 + 1l)
     {
-      if((signed int)*__cp$link2 == 0)
+      if((signed int)*__cp_link2 == 0)
       {
-        __cp$link2 = (char *)(void *)0;
+        __cp_link2 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link2 == __reject1$link2)
-        tmp_if_expr$2$link2 = (_Bool)1;
+      if(*__cp_link2 == __reject1_link2)
+        tmp_if_expr_2_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link2 = *__cp$link2 == __reject2$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link2)
+        tmp_if_expr_2_link2 = *__cp_link2 == __reject2_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link2)
       {
-        tmp_post$1$link2 = __cp$link2;
-        __cp$link2 = __cp$link2 + 1l;
-        *tmp_post$1$link2 = (char)0;
+        tmp_post_1_link2 = __cp_link2;
+        __cp_link2 = __cp_link2 + 1l;
+        *tmp_post_1_link2 = (char)0;
         break;
       }
 
     }
-    *__s$link2 = __cp$link2;
+    *__s_link2 = __cp_link2;
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
-// __strsep_2c$link3
+// __strsep_2c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3)
+static inline char * __strsep_2c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3)
 {
-  char *__retval$link3 = *__s$link3;
-  _Bool tmp_if_expr$2$link3;
-  char *tmp_post$1$link3;
-  if(!(__retval$link3 == ((char *)NULL)))
+  char *__retval_link3 = *__s_link3;
+  _Bool tmp_if_expr_2_link3;
+  char *tmp_post_1_link3;
+  if(!(__retval_link3 == ((char *)NULL)))
   {
-    char *__cp$link3 = __retval$link3;
-    for( ; (_Bool)1; __cp$link3 = __cp$link3 + 1l)
+    char *__cp_link3 = __retval_link3;
+    for( ; (_Bool)1; __cp_link3 = __cp_link3 + 1l)
     {
-      if((signed int)*__cp$link3 == 0)
+      if((signed int)*__cp_link3 == 0)
       {
-        __cp$link3 = (char *)(void *)0;
+        __cp_link3 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link3 == __reject1$link3)
-        tmp_if_expr$2$link3 = (_Bool)1;
+      if(*__cp_link3 == __reject1_link3)
+        tmp_if_expr_2_link3 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link3 = *__cp$link3 == __reject2$link3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link3)
+        tmp_if_expr_2_link3 = *__cp_link3 == __reject2_link3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link3)
       {
-        tmp_post$1$link3 = __cp$link3;
-        __cp$link3 = __cp$link3 + 1l;
-        *tmp_post$1$link3 = (char)0;
+        tmp_post_1_link3 = __cp_link3;
+        __cp_link3 = __cp_link3 + 1l;
+        *tmp_post_1_link3 = (char)0;
         break;
       }
 
     }
-    *__s$link3 = __cp$link3;
+    *__s_link3 = __cp_link3;
   }
 
-  return __retval$link3;
+  return __retval_link3;
 }
 
 // __strsep_3c
@@ -2199,9 +2199,9 @@ static inline char * __strsep_2c$link3(char **__s$link3, char __reject1$link3, c
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -2214,20 +2214,20 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -2238,136 +2238,136 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
   return __retval;
 }
 
-// __strsep_3c$link1
+// __strsep_3c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1, char __reject3$link1)
+static inline char * __strsep_3c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1, char __reject3_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$3$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_3_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    char *__cp$link1 = __retval$link1;
-    for( ; (_Bool)1; __cp$link1 = __cp$link1 + 1l)
+    char *__cp_link1 = __retval_link1;
+    for( ; (_Bool)1; __cp_link1 = __cp_link1 + 1l)
     {
-      if((signed int)*__cp$link1 == 0)
+      if((signed int)*__cp_link1 == 0)
       {
-        __cp$link1 = (char *)(void *)0;
+        __cp_link1 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link1 == __reject1$link1)
-        tmp_if_expr$2$link1 = (_Bool)1;
+      if(*__cp_link1 == __reject1_link1)
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link1 = *__cp$link1 == __reject2$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link1)
-        tmp_if_expr$3$link1 = (_Bool)1;
+        tmp_if_expr_2_link1 = *__cp_link1 == __reject2_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link1)
+        tmp_if_expr_3_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link1 = *__cp$link1 == __reject3$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link1)
+        tmp_if_expr_3_link1 = *__cp_link1 == __reject3_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link1)
       {
-        tmp_post$1$link1 = __cp$link1;
-        __cp$link1 = __cp$link1 + 1l;
-        *tmp_post$1$link1 = (char)0;
+        tmp_post_1_link1 = __cp_link1;
+        __cp_link1 = __cp_link1 + 1l;
+        *tmp_post_1_link1 = (char)0;
         break;
       }
 
     }
-    *__s$link1 = __cp$link1;
+    *__s_link1 = __cp_link1;
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_3c$link2
+// __strsep_3c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2, char __reject3$link2)
+static inline char * __strsep_3c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2, char __reject3_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  _Bool tmp_if_expr$2$link2;
-  _Bool tmp_if_expr$3$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  _Bool tmp_if_expr_2_link2;
+  _Bool tmp_if_expr_3_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    char *__cp$link2 = __retval$link2;
-    for( ; (_Bool)1; __cp$link2 = __cp$link2 + 1l)
+    char *__cp_link2 = __retval_link2;
+    for( ; (_Bool)1; __cp_link2 = __cp_link2 + 1l)
     {
-      if((signed int)*__cp$link2 == 0)
+      if((signed int)*__cp_link2 == 0)
       {
-        __cp$link2 = (char *)(void *)0;
+        __cp_link2 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link2 == __reject1$link2)
-        tmp_if_expr$2$link2 = (_Bool)1;
+      if(*__cp_link2 == __reject1_link2)
+        tmp_if_expr_2_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link2 = *__cp$link2 == __reject2$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link2)
-        tmp_if_expr$3$link2 = (_Bool)1;
+        tmp_if_expr_2_link2 = *__cp_link2 == __reject2_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link2)
+        tmp_if_expr_3_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link2 = *__cp$link2 == __reject3$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link2)
+        tmp_if_expr_3_link2 = *__cp_link2 == __reject3_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link2)
       {
-        tmp_post$1$link2 = __cp$link2;
-        __cp$link2 = __cp$link2 + 1l;
-        *tmp_post$1$link2 = (char)0;
+        tmp_post_1_link2 = __cp_link2;
+        __cp_link2 = __cp_link2 + 1l;
+        *tmp_post_1_link2 = (char)0;
         break;
       }
 
     }
-    *__s$link2 = __cp$link2;
+    *__s_link2 = __cp_link2;
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
-// __strsep_3c$link3
+// __strsep_3c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3, char __reject3$link3)
+static inline char * __strsep_3c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3, char __reject3_link3)
 {
-  char *__retval$link3 = *__s$link3;
-  _Bool tmp_if_expr$2$link3;
-  _Bool tmp_if_expr$3$link3;
-  char *tmp_post$1$link3;
-  if(!(__retval$link3 == ((char *)NULL)))
+  char *__retval_link3 = *__s_link3;
+  _Bool tmp_if_expr_2_link3;
+  _Bool tmp_if_expr_3_link3;
+  char *tmp_post_1_link3;
+  if(!(__retval_link3 == ((char *)NULL)))
   {
-    char *__cp$link3 = __retval$link3;
-    for( ; (_Bool)1; __cp$link3 = __cp$link3 + 1l)
+    char *__cp_link3 = __retval_link3;
+    for( ; (_Bool)1; __cp_link3 = __cp_link3 + 1l)
     {
-      if((signed int)*__cp$link3 == 0)
+      if((signed int)*__cp_link3 == 0)
       {
-        __cp$link3 = (char *)(void *)0;
+        __cp_link3 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link3 == __reject1$link3)
-        tmp_if_expr$2$link3 = (_Bool)1;
+      if(*__cp_link3 == __reject1_link3)
+        tmp_if_expr_2_link3 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link3 = *__cp$link3 == __reject2$link3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link3)
-        tmp_if_expr$3$link3 = (_Bool)1;
+        tmp_if_expr_2_link3 = *__cp_link3 == __reject2_link3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link3)
+        tmp_if_expr_3_link3 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link3 = *__cp$link3 == __reject3$link3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link3)
+        tmp_if_expr_3_link3 = *__cp_link3 == __reject3_link3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link3)
       {
-        tmp_post$1$link3 = __cp$link3;
-        __cp$link3 = __cp$link3 + 1l;
-        *tmp_post$1$link3 = (char)0;
+        tmp_post_1_link3 = __cp_link3;
+        __cp_link3 = __cp_link3 + 1l;
+        *tmp_post_1_link3 = (char)0;
         break;
       }
 
     }
-    *__s$link3 = __cp$link3;
+    *__s_link3 = __cp_link3;
   }
 
-  return __retval$link3;
+  return __retval_link3;
 }
 
 // _applugin_rewire
@@ -2375,9 +2375,9 @@ static inline char * __strsep_3c$link3(char **__s$link3, char __reject1$link3, c
 static void _applugin_rewire(void)
 {
   signed int post_elements_num;
-  static struct anonymous$14 **post_elements;
+  static struct anonymous_14 **post_elements;
   post_elements=_pplugin_join_visualization_and_post_elements(&post_elements_num);
-  if(!(post_elements == ((struct anonymous$14 **)NULL)))
+  if(!(post_elements == ((struct anonymous_14 **)NULL)))
   {
     _applugin_rewire_from_post_elements(post_elements, post_elements_num);
     free((void *)post_elements);
@@ -2387,7 +2387,7 @@ static void _applugin_rewire(void)
 
 // _applugin_rewire_from_post_elements
 // file post.c line 351
-static void _applugin_rewire_from_post_elements(struct anonymous$14 **post_elements, signed int post_elements_num)
+static void _applugin_rewire_from_post_elements(struct anonymous_14 **post_elements, signed int post_elements_num)
 {
   if(!(post_elements_num == 0))
   {
@@ -2438,19 +2438,19 @@ static signed int _mkdir_safe(char *path)
 
   else
   {
-    signed int return_value_stat$5;
-    return_value_stat$5=stat(path, &pstat);
-    if(!(return_value_stat$5 >= 0))
+    signed int return_value_stat_5;
+    return_value_stat_5=stat(path, &pstat);
+    if(!(return_value_stat_5 >= 0))
     {
-      signed int return_value_mkdir$3;
-      return_value_mkdir$3=mkdir(path, (unsigned int)0755);
-      if(!(return_value_mkdir$3 >= 0))
+      signed int return_value_mkdir_3;
+      return_value_mkdir_3=mkdir(path, (unsigned int)0755);
+      if(!(return_value_mkdir_3 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(stderr, "mkdir(%s) failed: %s\n", path, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(stderr, "mkdir(%s) failed: %s\n", path, return_value_strerror_2);
         return 0;
       }
 
@@ -2460,9 +2460,9 @@ static signed int _mkdir_safe(char *path)
       if(!((61440u & pstat.st_mode) == 16384u))
       {
         fprintf(stderr, "%s is not a directory.\n", path);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 17;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 17;
         return 0;
       }
 
@@ -2496,9 +2496,9 @@ static const char * _osd_get_status_sym(signed int status)
 
 // _pplugin_join_deinterlace_and_post_elements
 // file post.c line 382
-static struct anonymous$14 ** _pplugin_join_deinterlace_and_post_elements(signed int *post_elements_num)
+static struct anonymous_14 ** _pplugin_join_deinterlace_and_post_elements(signed int *post_elements_num)
 {
-  struct anonymous$14 **post_elements;
+  struct anonymous_14 **post_elements;
   signed int i = 0;
   signed int j = 0;
   *post_elements_num = 0;
@@ -2509,13 +2509,13 @@ static struct anonymous$14 ** _pplugin_join_deinterlace_and_post_elements(signed
     *post_elements_num = *post_elements_num + fbxine.deinterlace_elements_num;
 
   if(*post_elements_num == 0)
-    return (struct anonymous$14 **)(void *)0;
+    return (struct anonymous_14 **)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct anonymous$14 *) /*8ul*/  * (unsigned long int)*post_elements_num);
-    post_elements = (struct anonymous$14 **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct anonymous_14 *) /*8ul*/  * (unsigned long int)*post_elements_num);
+    post_elements = (struct anonymous_14 **)return_value_malloc_1;
     i = 0;
     for( ; !(fbxine.deinterlace_enable == 0) && !(i >= fbxine.deinterlace_elements_num); i = i + 1)
       post_elements[(signed long int)(i + j)] = fbxine.deinterlace_elements[(signed long int)i];
@@ -2528,9 +2528,9 @@ static struct anonymous$14 ** _pplugin_join_deinterlace_and_post_elements(signed
 
 // _pplugin_join_visualization_and_post_elements
 // file post.c line 409
-static struct anonymous$14 ** _pplugin_join_visualization_and_post_elements(signed int *post_elements_num)
+static struct anonymous_14 ** _pplugin_join_visualization_and_post_elements(signed int *post_elements_num)
 {
-  struct anonymous$14 **post_elements;
+  struct anonymous_14 **post_elements;
   signed int i = 0;
   signed int j = 0;
   *post_elements_num = 0;
@@ -2538,13 +2538,13 @@ static struct anonymous$14 ** _pplugin_join_visualization_and_post_elements(sign
     *post_elements_num = *post_elements_num + fbxine.post_audio_elements_num;
 
   if(*post_elements_num == 0)
-    return (struct anonymous$14 **)(void *)0;
+    return (struct anonymous_14 **)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct anonymous$14 *) /*8ul*/  * (unsigned long int)*post_elements_num);
-    post_elements = (struct anonymous$14 **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct anonymous_14 *) /*8ul*/  * (unsigned long int)*post_elements_num);
+    post_elements = (struct anonymous_14 **)return_value_malloc_1;
     j = 0;
     for( ; !(fbxine.post_audio_enable == 0) && !(j >= fbxine.post_audio_elements_num); j = j + 1)
       post_elements[(signed long int)(i + j)] = fbxine.post_audio_elements[(signed long int)j];
@@ -2554,7 +2554,7 @@ static struct anonymous$14 ** _pplugin_join_visualization_and_post_elements(sign
 
 // _pplugin_update_parameter
 // file post.c line 87
-static void _pplugin_update_parameter(struct anonymous$13 *pobj)
+static void _pplugin_update_parameter(struct anonymous_13 *pobj)
 {
   pobj->api->set_parameters(pobj->post, (void *)pobj->param_data);
   pobj->api->get_parameters(pobj->post, (void *)pobj->param_data);
@@ -2565,9 +2565,9 @@ static void _pplugin_update_parameter(struct anonymous$13 *pobj)
 static void _vpplugin_rewire(void)
 {
   signed int post_elements_num;
-  static struct anonymous$14 **post_elements;
+  static struct anonymous_14 **post_elements;
   post_elements=_pplugin_join_deinterlace_and_post_elements(&post_elements_num);
-  if(!(post_elements == ((struct anonymous$14 **)NULL)))
+  if(!(post_elements == ((struct anonymous_14 **)NULL)))
   {
     _vpplugin_rewire_from_post_elements(post_elements, post_elements_num);
     free((void *)post_elements);
@@ -2577,7 +2577,7 @@ static void _vpplugin_rewire(void)
 
 // _vpplugin_rewire_from_post_elements
 // file post.c line 320
-static void _vpplugin_rewire_from_post_elements(struct anonymous$14 **post_elements, signed int post_elements_num)
+static void _vpplugin_rewire_from_post_elements(struct anonymous_14 **post_elements, signed int post_elements_num)
 {
   if(!(post_elements_num == 0))
   {
@@ -2622,9 +2622,9 @@ static void _vpplugin_unwire(void)
 // file actions.c line 326
 static void action_pause(void)
 {
-  signed int return_value_xine_get_param$1;
-  return_value_xine_get_param$1=xine_get_param(fbxine.stream, 1);
-  xine_set_param(fbxine.stream, 1, return_value_xine_get_param$1 == 0 ? 4 : 0);
+  signed int return_value_xine_get_param_1;
+  return_value_xine_get_param_1=xine_get_param(fbxine.stream, 1);
+  xine_set_param(fbxine.stream, 1, return_value_xine_get_param_1 == 0 ? 4 : 0);
   osd_update_status();
 }
 
@@ -2640,27 +2640,27 @@ static void action_play(void)
 static void action_seek_relative(signed int off_sec)
 {
   signed int err;
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_xine_get_stream_info$1;
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_xine_get_stream_info_1;
   if(!(fbxine.ignore_next == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_xine_get_stream_info$1=xine_get_stream_info(fbxine.stream, 1);
-    tmp_if_expr$2 = !(return_value_xine_get_stream_info$1 != 0u) ? (_Bool)1 : (_Bool)0;
+    return_value_xine_get_stream_info_1=xine_get_stream_info(fbxine.stream, 1);
+    tmp_if_expr_2 = !(return_value_xine_get_stream_info_1 != 0u) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  signed int return_value_xine_get_status$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_xine_get_status_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_xine_get_status$3=xine_get_status(fbxine.stream);
-    tmp_if_expr$4 = return_value_xine_get_status$3 != 2 ? (_Bool)1 : (_Bool)0;
+    return_value_xine_get_status_3=xine_get_status(fbxine.stream);
+    tmp_if_expr_4 = return_value_xine_get_status_3 != 2 ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$4)
+  if(!tmp_if_expr_4)
   {
     fbxine.ignore_next = 1;
     static unsigned long int seek_thread;
@@ -2731,27 +2731,27 @@ char * atoa(char *str)
 
     *pbuf = (char)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(quote == 0))
-    tmp_if_expr$1 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(!(dblquote == 0))
-      tmp_if_expr$2 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     *pbuf = (char)0;
     pbuf = pbuf - 1l;
@@ -2769,27 +2769,27 @@ char * atoa(char *str)
 
 __CPROVER_DUMP_L20:
   ;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(quote == 0))
-    tmp_if_expr$4 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
     if(!(dblquote == 0))
-      tmp_if_expr$5 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
     pbuf = pbuf + 1l;
 
   return pbuf;
@@ -2799,9 +2799,9 @@ __CPROVER_DUMP_L20:
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // change_audio_channel
@@ -2852,12 +2852,12 @@ static void change_spu(void *data)
 // file actions.c line 443
 static void change_zoom(signed int zoom_dx, signed int zoom_dy)
 {
-  signed int return_value_xine_get_param$1;
-  return_value_xine_get_param$1=xine_get_param(fbxine.stream, 0x01000008);
-  xine_set_param(fbxine.stream, 0x01000008, return_value_xine_get_param$1 + zoom_dx);
-  signed int return_value_xine_get_param$2;
-  return_value_xine_get_param$2=xine_get_param(fbxine.stream, 0x0100000d);
-  xine_set_param(fbxine.stream, 0x0100000d, return_value_xine_get_param$2 + zoom_dy);
+  signed int return_value_xine_get_param_1;
+  return_value_xine_get_param_1=xine_get_param(fbxine.stream, 0x01000008);
+  xine_set_param(fbxine.stream, 0x01000008, return_value_xine_get_param_1 + zoom_dx);
+  signed int return_value_xine_get_param_2;
+  return_value_xine_get_param_2=xine_get_param(fbxine.stream, 0x0100000d);
+  xine_set_param(fbxine.stream, 0x0100000d, return_value_xine_get_param_2 + zoom_dy);
   osd_display_zoom();
 }
 
@@ -2868,9 +2868,9 @@ static signed int check_version(void)
   signed int major;
   signed int minor;
   signed int sub;
-  signed int return_value_xine_check_version$1;
-  return_value_xine_check_version$1=xine_check_version(1, 0, 0);
-  if(!(return_value_xine_check_version$1 == 0))
+  signed int return_value_xine_check_version_1;
+  return_value_xine_check_version_1=xine_check_version(1, 0, 0);
+  if(!(return_value_xine_check_version_1 == 0))
     return 1;
 
   else
@@ -2889,30 +2889,30 @@ void config_mrl(const char *mrl)
   char *key;
   char *config;
   char *_mrl;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, "misc.implicit_config", &entry);
-  unsigned long int return_value_strlen$4;
-  char *tmp_statement_expression$5;
-  unsigned long int return_value_strlen$9;
-  char *tmp_post$8;
-  unsigned long int return_value_strlen$13;
-  signed long int return_value_strtol$10;
-  signed int return_value_get_bool_value$11;
-  if(entry.num_value == 0 || return_value_xine_config_lookup_entry$1 == 0 || !(entry.type == 5))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, "misc.implicit_config", &entry);
+  unsigned long int return_value_strlen_4;
+  char *tmp_statement_expression_5;
+  unsigned long int return_value_strlen_9;
+  char *tmp_post_8;
+  unsigned long int return_value_strlen_13;
+  signed long int return_value_strtol_10;
+  signed int return_value_get_bool_value_11;
+  if(entry.num_value == 0 || return_value_xine_config_lookup_entry_1 == 0 || !(entry.type == 5))
     fprintf(stderr, "You tried to change the configuration with a cfg: MRL.\nThis is not allowed unless you enable the 'misc.implicit_config' setting after reading and understanding its help text.");
 
   else
   {
-    char *return_value___strdup$2;
-    return_value___strdup$2=__strdup(mrl);
-    _mrl = return_value___strdup$2;
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(_mrl, 47);
-    config = return_value___builtin_strchr$3;
+    char *return_value___strdup_2;
+    return_value___strdup_2=__strdup(mrl);
+    _mrl = return_value___strdup_2;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(_mrl, 47);
+    config = return_value___builtin_strchr_3;
     if(!(config == ((char *)NULL)))
     {
-      return_value_strlen$4=strlen(config);
-      if(!(return_value_strlen$4 == 0ul))
+      return_value_strlen_4=strlen(config);
+      if(!(return_value_strlen_4 == 0ul))
         config = config + 1l;
 
     }
@@ -2922,37 +2922,37 @@ void config_mrl(const char *mrl)
       char __r0;
       char __r1;
       char __r2;
-      char *return_value___strsep_g$6;
-      return_value___strsep_g$6=__strsep_g(&config, ",");
-      tmp_statement_expression$5 = return_value___strsep_g$6;
-      key = tmp_statement_expression$5;
+      char *return_value___strsep_g_6;
+      return_value___strsep_g_6=__strsep_g(&config, ",");
+      tmp_statement_expression_5 = return_value___strsep_g_6;
+      key = tmp_statement_expression_5;
       if(key == ((char *)NULL))
         break;
 
       char *str_value;
-      char *return_value___builtin_strchr$7;
-      return_value___builtin_strchr$7=__builtin_strchr(key, 58);
-      str_value = return_value___builtin_strchr$7;
+      char *return_value___builtin_strchr_7;
+      return_value___builtin_strchr_7=__builtin_strchr(key, 58);
+      str_value = return_value___builtin_strchr_7;
       if(!(str_value == ((char *)NULL)))
       {
-        return_value_strlen$9=strlen(str_value);
-        if(!(return_value_strlen$9 == 0ul))
+        return_value_strlen_9=strlen(str_value);
+        if(!(return_value_strlen_9 == 0ul))
         {
-          tmp_post$8 = str_value;
+          tmp_post_8 = str_value;
           str_value = str_value + 1l;
-          *tmp_post$8 = (char)0;
+          *tmp_post_8 = (char)0;
         }
 
       }
 
       if(!(str_value == ((char *)NULL)))
       {
-        return_value_strlen$13=strlen(str_value);
-        if(!(return_value_strlen$13 == 0ul))
+        return_value_strlen_13=strlen(str_value);
+        if(!(return_value_strlen_13 == 0ul))
         {
-          signed int return_value_xine_config_lookup_entry$12;
-          return_value_xine_config_lookup_entry$12=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-          if(!(return_value_xine_config_lookup_entry$12 == 0))
+          signed int return_value_xine_config_lookup_entry_12;
+          return_value_xine_config_lookup_entry_12=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+          if(!(return_value_xine_config_lookup_entry_12 == 0))
           {
             if(entry.exp_level >= 30)
             {
@@ -2973,14 +2973,14 @@ void config_mrl(const char *mrl)
 
               case 4:
               {
-                return_value_strtol$10=strtol(str_value, &str_value, 10);
-                config_update(&entry, entry.type == 1 ? 4 : entry.type, 0, 0, (signed int)return_value_strtol$10, (char *)(void *)0);
+                return_value_strtol_10=strtol(str_value, &str_value, 10);
+                config_update(&entry, entry.type == 1 ? 4 : entry.type, 0, 0, (signed int)return_value_strtol_10, (char *)(void *)0);
                 break;
               }
               case 5:
               {
-                return_value_get_bool_value$11=get_bool_value(str_value);
-                config_update(&entry, entry.type, 0, 0, return_value_get_bool_value$11, (char *)(void *)0);
+                return_value_get_bool_value_11=get_bool_value(str_value);
+                config_update(&entry, entry.type, 0, 0, return_value_get_bool_value_11, (char *)(void *)0);
                 break;
               }
               case 0:
@@ -3048,9 +3048,9 @@ __CPROVER_DUMP_L7:
 void config_update_bool(const char *key, signed int value)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 5, 0, 0, value > 0 ? 1 : 0, (char *)(void *)0);
 
   else
@@ -3062,9 +3062,9 @@ void config_update_bool(const char *key, signed int value)
 void config_update_enum(const char *key, signed int value)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 3, 0, 0, value, (char *)(void *)0);
 
   else
@@ -3076,9 +3076,9 @@ void config_update_enum(const char *key, signed int value)
 void config_update_num(const char *key, signed int value)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 4, 0, 0, value, (char *)(void *)0);
 
   else
@@ -3090,9 +3090,9 @@ void config_update_num(const char *key, signed int value)
 void config_update_range(const char *key, signed int min, signed int max)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 1, min, max, 0, (char *)(void *)0);
 
   else
@@ -3104,9 +3104,9 @@ void config_update_range(const char *key, signed int min, signed int max)
 void config_update_string(const char *key, char *string)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(string == ((char *)NULL)) && !(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(string == ((char *)NULL)) && !(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 2, 0, 0, 0, string);
 
   else
@@ -3122,11 +3122,11 @@ void config_update_string(const char *key, char *string)
 signed int default_command_action(char *action_name)
 {
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   for( ; !(default_actions[(signed long int)i].name == ((char *)NULL)); i = i + 1)
   {
-    return_value_strcasecmp$1=strcasecmp(default_actions[(signed long int)i].name, action_name);
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(default_actions[(signed long int)i].name, action_name);
+    if(return_value_strcasecmp_1 == 0)
       return default_actions[(signed long int)i].action;
 
   }
@@ -3322,7 +3322,7 @@ void do_action(signed int action)
 {
   if(!((0x400 & action) == 0))
   {
-    struct anonymous$2 xine_event;
+    struct anonymous_2 xine_event;
     xine_event.type = action & ~0x400;
     xine_event.data_length = 0;
     xine_event.data = NULL;
@@ -3488,9 +3488,9 @@ static signed int do_getc(void)
   signed int n;
   signed int i;
   signed int k;
-  signed long int return_value_read$1;
-  return_value_read$1=read(fbxine.tty_fd, (void *)c, (unsigned long int)4);
-  n = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(fbxine.tty_fd, (void *)c, (unsigned long int)4);
+  n = (signed int)return_value_read_1;
   k = 0;
   i = 0;
   for( ; !(i >= n); i = i + 1)
@@ -3505,11 +3505,11 @@ void dump_cpu_infos(void)
   struct _IO_FILE *stream;
   char buffer[2048l];
   stream=fopen("/proc/cpuinfo", "r");
-  unsigned long int return_value_fread$1;
-  char *tmp_statement_expression$2;
-  unsigned long int return_value_strlen$4;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
+  unsigned long int return_value_fread_1;
+  char *tmp_statement_expression_2;
+  unsigned long int return_value_strlen_4;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
   if(!(stream == ((struct _IO_FILE *)NULL)))
   {
     printf("   CPU information:\n");
@@ -3517,8 +3517,8 @@ void dump_cpu_infos(void)
     memset((void *)&buffer, 0, sizeof(char [2048l]) /*2048ul*/ );
     do
     {
-      return_value_fread$1=fread((void *)&buffer, (unsigned long int)1, (unsigned long int)2047, stream);
-      if(return_value_fread$1 == 0ul)
+      return_value_fread_1=fread((void *)&buffer, (unsigned long int)1, (unsigned long int)2047, stream);
+      if(return_value_fread_1 == 0ul)
         break;
 
       char *p;
@@ -3528,17 +3528,17 @@ void dump_cpu_infos(void)
         char __r0;
         char __r1;
         char __r2;
-        char *return_value___strsep_g$3;
-        return_value___strsep_g$3=__strsep_g(&pp, "\n");
-        tmp_statement_expression$2 = return_value___strsep_g$3;
-        p = tmp_statement_expression$2;
+        char *return_value___strsep_g_3;
+        return_value___strsep_g_3=__strsep_g(&pp, "\n");
+        tmp_statement_expression_2 = return_value___strsep_g_3;
+        p = tmp_statement_expression_2;
         if(p == ((char *)NULL))
           break;
 
         if(!(p == ((char *)NULL)))
         {
-          return_value_strlen$4=strlen(p);
-          if(!(return_value_strlen$4 == 0ul))
+          return_value_strlen_4=strlen(p);
+          if(!(return_value_strlen_4 == 0ul))
             printf("\t%s\n", p);
 
         }
@@ -3554,9 +3554,9 @@ void dump_cpu_infos(void)
 
   else
   {
-    return_value___errno_location$5=__errno_location();
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    printf("   Unable to open '/proc/cpuinfo': '%s'.\n", return_value_strerror$6);
+    return_value___errno_location_5=__errno_location();
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    printf("   Unable to open '/proc/cpuinfo': '%s'.\n", return_value_strerror_6);
   }
 }
 
@@ -3578,15 +3578,15 @@ void dump_error(const char *msg)
 void dump_host_info(void)
 {
   struct utsname uts;
-  signed int return_value_uname$3;
-  return_value_uname$3=uname(&uts);
-  if(return_value_uname$3 == -1)
+  signed int return_value_uname_3;
+  return_value_uname_3=uname(&uts);
+  if(return_value_uname_3 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("uname() failed: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("uname() failed: %s\n", return_value_strerror_2);
   }
 
   else
@@ -3616,7 +3616,7 @@ void dump_info(const char *msg)
 
 // event_listener
 // file main.c line 99
-static void event_listener(void *user_data, const struct anonymous$2 *event)
+static void event_listener(void *user_data, const struct anonymous_2 *event)
 {
   if(event->type == 1)
   {
@@ -3642,9 +3642,9 @@ static void exit_keyboard(void)
     pthread_cancel(fbxine.keyboard_thread);
 
   tcsetattr(fbxine.tty_fd, 0, &fbxine.ti_save);
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fbxine.tty_fd, (unsigned long int)0x4B3A, 0x00);
-  if(return_value_ioctl$1 == -1)
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fbxine.tty_fd, (unsigned long int)0x4B3A, 0x00);
+  if(return_value_ioctl_1 == -1)
     perror("Failed to set /dev/tty to text mode");
 
   close(fbxine.tty_fd);
@@ -3663,8 +3663,8 @@ static void exit_lirc(void)
 // file stdctl.c line 160
 static void exit_stdctl(void)
 {
-  pthread_cancel(stdctl$link1.thread);
-  pthread_join(stdctl$link1.thread, (void **)(void *)0);
+  pthread_cancel(stdctl_link1.thread);
+  pthread_join(stdctl_link1.thread, (void **)(void *)0);
 }
 
 // exit_stream
@@ -3747,24 +3747,24 @@ void fbxine_exit(void)
 // file main.c line 255
 static signed int fbxine_init(signed int argc, char **argv)
 {
-  signed int return_value_check_version$1;
-  return_value_check_version$1=check_version();
-  signed int return_value_fbxine_init_keyboard$4;
-  if(return_value_check_version$1 == 0)
+  signed int return_value_check_version_1;
+  return_value_check_version_1=check_version();
+  signed int return_value_fbxine_init_keyboard_4;
+  if(return_value_check_version_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_init_xine$2;
-    return_value_init_xine$2=init_xine();
-    if(return_value_init_xine$2 == 0)
+    signed int return_value_init_xine_2;
+    return_value_init_xine_2=init_xine();
+    if(return_value_init_xine_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_parse_options$3;
-      return_value_parse_options$3=parse_options(argc, argv);
-      if(return_value_parse_options$3 == 0 || return_value_parse_options$3 == -1)
+      signed int return_value_parse_options_3;
+      return_value_parse_options_3=parse_options(argc, argv);
+      if(return_value_parse_options_3 == 0 || return_value_parse_options_3 == -1)
         return 0;
 
       if(!(stdctl == 0))
@@ -3772,28 +3772,28 @@ static signed int fbxine_init(signed int argc, char **argv)
 
       else
       {
-        return_value_fbxine_init_keyboard$4=fbxine_init_keyboard();
-        if(return_value_fbxine_init_keyboard$4 == 0)
+        return_value_fbxine_init_keyboard_4=fbxine_init_keyboard();
+        if(return_value_fbxine_init_keyboard_4 == 0)
           return 0;
 
       }
-      signed int return_value_init_video$5;
-      return_value_init_video$5=init_video();
-      if(return_value_init_video$5 == 0)
+      signed int return_value_init_video_5;
+      return_value_init_video_5=init_video();
+      if(return_value_init_video_5 == 0)
         return 0;
 
       else
       {
-        signed int return_value_init_audio$6;
-        return_value_init_audio$6=init_audio();
-        if(return_value_init_audio$6 == 0)
+        signed int return_value_init_audio_6;
+        return_value_init_audio_6=init_audio();
+        if(return_value_init_audio_6 == 0)
           return 0;
 
         else
         {
-          signed int return_value_init_stream$7;
-          return_value_init_stream$7=init_stream();
-          if(return_value_init_stream$7 == 0)
+          signed int return_value_init_stream_7;
+          return_value_init_stream_7=init_stream();
+          if(return_value_init_stream_7 == 0)
             return 0;
 
           else
@@ -3835,9 +3835,9 @@ signed int fbxine_init_keyboard(void)
   static struct fbxine_callback exit_callback;
   fbxine_register_exit(&exit_callback, (void (*)(void))exit_keyboard);
   fbxine_register_abort(&exit_callback, (void (*)(void))exit_keyboard);
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(0);
-  if(!(return_value_isatty$1 == 0))
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(0);
+  if(!(return_value_isatty_1 == 0))
     fbxine.tty_fd=dup(0);
 
   else
@@ -3851,9 +3851,9 @@ signed int fbxine_init_keyboard(void)
   else
   {
     fcntl(fbxine.tty_fd, 2, 1);
-    signed int return_value_ioctl$2;
-    return_value_ioctl$2=ioctl(fbxine.tty_fd, (unsigned long int)0x4B3A, 0x01);
-    if(return_value_ioctl$2 == -1)
+    signed int return_value_ioctl_2;
+    return_value_ioctl_2=ioctl(fbxine.tty_fd, (unsigned long int)0x4B3A, 0x01);
+    if(return_value_ioctl_2 == -1)
       perror("Failed to set /dev/tty to graphics mode");
 
     tcgetattr(fbxine.tty_fd, &fbxine.ti_save);
@@ -3862,9 +3862,9 @@ signed int fbxine_init_keyboard(void)
     fbxine.ti_cur.c_cc[(signed long int)5] = (unsigned char)0;
     fbxine.ti_cur.c_iflag = fbxine.ti_cur.c_iflag & (unsigned int)~(0000001 | 0000002 | 0000010 | 0000040 | 0000100 | 0000200 | 0000400 | 0002000);
     fbxine.ti_cur.c_lflag = fbxine.ti_cur.c_lflag & (unsigned int)~(0000010 | 0000100 | 0000001 | 0000002);
-    signed int return_value_tcsetattr$3;
-    return_value_tcsetattr$3=tcsetattr(fbxine.tty_fd, 2, &fbxine.ti_cur);
-    if(return_value_tcsetattr$3 == -1)
+    signed int return_value_tcsetattr_3;
+    return_value_tcsetattr_3=tcsetattr(fbxine.tty_fd, 2, &fbxine.ti_cur);
+    if(return_value_tcsetattr_3 == -1)
     {
       perror("Failed to change terminal attributes");
       close(fbxine.tty_fd);
@@ -3889,9 +3889,9 @@ signed int fbxine_init_lirc(void)
 
   else
   {
-    signed int return_value_lirc_readconfig$1;
-    return_value_lirc_readconfig$1=lirc_readconfig(((char *)NULL), &fbxine.lirc.config, ((signed int (*)(char *))NULL));
-    if(!(return_value_lirc_readconfig$1 == 0))
+    signed int return_value_lirc_readconfig_1;
+    return_value_lirc_readconfig_1=lirc_readconfig(((char *)NULL), &fbxine.lirc.config, ((signed int (*)(char *))NULL));
+    if(!(return_value_lirc_readconfig_1 == 0))
       return 0;
 
     else
@@ -3908,27 +3908,27 @@ signed int fbxine_init_lirc(void)
 // file stdctl.h line 35
 void fbxine_init_stdctl(void)
 {
-  stdctl$link1.fd = 0;
+  stdctl_link1.fd = 0;
   static struct fbxine_callback exit_callback;
   fbxine_register_exit(&exit_callback, (void (*)(void))exit_stdctl);
-  pthread_create(&stdctl$link1.thread, (const union pthread_attr_t *)(void *)0, xine_stdctl_loop, (void *)0);
+  pthread_create(&stdctl_link1.thread, (const union pthread_attr_t *)(void *)0, xine_stdctl_loop, (void *)0);
 }
 
 // fbxine_keyboard_loop
 // file keys.c line 107
 static void * fbxine_keyboard_loop(void *dummy)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
   do
   {
     pthread_testcancel();
-    signed int return_value_do_getc$2;
-    return_value_do_getc$2=do_getc();
-    signed int return_value_default_key_action$3;
-    return_value_default_key_action$3=default_key_action(return_value_do_getc$2);
-    do_action(return_value_default_key_action$3);
+    signed int return_value_do_getc_2;
+    return_value_do_getc_2=do_getc();
+    signed int return_value_default_key_action_3;
+    return_value_default_key_action_3=default_key_action(return_value_do_getc_2);
+    do_action(return_value_default_key_action_3);
   }
   while((_Bool)1);
   pthread_exit((void *)0);
@@ -3967,9 +3967,9 @@ signed int get_bool_value(const char *val)
     i = 0;
     for( ; !((unsigned long int)i >= 8ul); i = i + 1)
     {
-      signed int return_value_strcasecmp$1;
-      /* tag-#anon#clST[lARR7{S8}$S8$'str'||S8'value'|] */
-struct anonymous$8
+      signed int return_value_strcasecmp_1;
+      /* tag-#anon#clST[lARR7{S8}_S8_'str'||S8'value'|] */
+struct anonymous_8
 {
   // str
   char str[7l];
@@ -3979,7 +3979,7 @@ struct anonymous$8
 
 /* */
       ;
-      static struct anonymous$8 bools[8l] = { { .str={ '1', 0, 0, 0, 0, 0, 0 }, .value=(char)1 },
+      static struct anonymous_8 bools[8l] = { { .str={ '1', 0, 0, 0, 0, 0, 0 }, .value=(char)1 },
     { .str={ 't', 'r', 'u', 'e', 0, 0, 0 }, .value=(char)1 },
     { .str={ 'y', 'e', 's', 0, 0, 0, 0 }, .value=(char)1 },
     { .str={ 'o', 'n', 0, 0, 0, 0, 0 }, .value=(char)1 },
@@ -3987,8 +3987,8 @@ struct anonymous$8
     { .str={ 'f', 'a', 'l', 's', 'e', 0, 0 }, .value=(char)0 },
     { .str={ 'n', 'o', 0, 0, 0, 0, 0 }, .value=(char)0 },
     { .str={ 'o', 'f', 'f', 0, 0, 0, 0 }, .value=(char)0 } };
-      return_value_strcasecmp$1=strcasecmp(bools[(signed long int)i].str, val);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(bools[(signed long int)i].str, val);
+      if(return_value_strcasecmp_1 == 0)
         return (signed int)bools[(signed long int)i].value;
 
     }
@@ -4002,11 +4002,11 @@ struct anonymous$8
 const char * get_last_double_semicolon(const char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(str == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(str);
-    len = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(str);
+    len = (signed int)return_value_strlen_1;
     if(!(len == 0))
     {
       const char *p = str + (signed long int)(len - 1);
@@ -4031,24 +4031,24 @@ signed int get_pos_length(struct xine_stream_s *stream, signed int *pos, signed 
 {
   signed int t = 0;
   signed int ret = 0;
-  signed int return_value_xine_get_status$2;
-  _Bool tmp_if_expr$1;
+  signed int return_value_xine_get_status_2;
+  _Bool tmp_if_expr_1;
   if(!(stream == ((struct xine_stream_s *)NULL)))
   {
-    return_value_xine_get_status$2=xine_get_status(stream);
-    if(return_value_xine_get_status$2 == 2)
+    return_value_xine_get_status_2=xine_get_status(stream);
+    if(return_value_xine_get_status_2 == 2)
       do
       {
         ret=xine_get_pos_length(stream, pos, time, length);
         if(!(ret == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
         {
           t = t + 1;
-          tmp_if_expr$1 = 10 < t ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = 10 < t ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$1)
+        if(tmp_if_expr_1)
           break;
 
         xine_usec_sleep((unsigned int)100000);
@@ -4099,24 +4099,24 @@ static signed int init_video(void)
 {
   static struct fbxine_callback exit_callback;
   fbxine_register_exit(&exit_callback, (void (*)(void))exit_video);
-  signed int tmp_statement_expression$3;
-  unsigned long int init_video$$1$$1$$__s1_len;
-  unsigned long int init_video$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$4;
-  return_value___builtin_strcmp$4=__builtin_strcmp(fbxine.video_port_id, "dxr3");
-  tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-  signed int tmp_statement_expression$1;
-  if(tmp_statement_expression$3 == 0)
+  signed int tmp_statement_expression_3;
+  unsigned long int init_video__1__1____s1_len;
+  unsigned long int init_video__1__1____s2_len;
+  signed int return_value___builtin_strcmp_4;
+  return_value___builtin_strcmp_4=__builtin_strcmp(fbxine.video_port_id, "dxr3");
+  tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+  signed int tmp_statement_expression_1;
+  if(tmp_statement_expression_3 == 0)
     fbxine.video_port=xine_open_video_driver(__xineui_global_xine_instance, fbxine.video_port_id, 1, (void *)0);
 
   else
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(fbxine.video_port_id, "none");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(fbxine.video_port_id, "none");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       fbxine.video_port=xine_open_video_driver(__xineui_global_xine_instance, fbxine.video_port_id, 0, (void *)0);
 
     else
@@ -4168,9 +4168,9 @@ static void install_abort(void)
 signed int is_a_dir(char *filename)
 {
   struct stat pstat;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &pstat);
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &pstat);
+  if(!(return_value_stat_1 >= 0))
     return 0;
 
   else
@@ -4182,9 +4182,9 @@ signed int is_a_dir(char *filename)
 signed int is_a_file(char *filename)
 {
   struct stat pstat;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &pstat);
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &pstat);
+  if(!(return_value_stat_1 >= 0))
     return 0;
 
   else
@@ -4195,21 +4195,21 @@ signed int is_a_file(char *filename)
 // file utils.c line 314
 signed int is_downloadable(char *filename)
 {
-  signed int return_value_strncasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncasecmp$2;
+  signed int return_value_strncasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncasecmp_2;
   if(!(filename == ((char *)NULL)))
   {
-    return_value_strncasecmp$1=strncasecmp(filename, "http://", (unsigned long int)7);
-    if(return_value_strncasecmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value_strncasecmp_1=strncasecmp(filename, "http://", (unsigned long int)7);
+    if(return_value_strncasecmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strncasecmp$2=strncasecmp(filename, "ftp://", (unsigned long int)6);
-      tmp_if_expr$3 = !(return_value_strncasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncasecmp_2=strncasecmp(filename, "ftp://", (unsigned long int)6);
+      tmp_if_expr_3 = !(return_value_strncasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L3;
 
     return 1;
@@ -4228,13 +4228,13 @@ signed int is_downloadable(char *filename)
 // file utils.c line 230
 signed int is_ipv6_last_double_semicolon(const char *str)
 {
-  unsigned long int return_value_strlen$3;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  unsigned long int return_value_strlen_3;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
   if(!(str == ((const char *)NULL)))
   {
-    return_value_strlen$3=strlen(str);
-    if(!(return_value_strlen$3 == 0ul))
+    return_value_strlen_3=strlen(str);
+    if(!(return_value_strlen_3 == 0ul))
     {
       const char *d_semic;
       d_semic=get_last_double_semicolon(str);
@@ -4283,8 +4283,8 @@ signed int is_ipv6_last_double_semicolon(const char *str)
                         return 1;
                       default:
                       {
-                        return_value___ctype_b_loc$1=__ctype_b_loc();
-                        if((4096 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p]) == 0)
+                        return_value___ctype_b_loc_1=__ctype_b_loc();
+                        if((4096 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p]) == 0)
                           return 0;
 
                       }
@@ -4293,8 +4293,8 @@ signed int is_ipv6_last_double_semicolon(const char *str)
                 }
                 default:
                 {
-                  return_value___ctype_b_loc$2=__ctype_b_loc();
-                  if((4096 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+                  return_value___ctype_b_loc_2=__ctype_b_loc();
+                  if((4096 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
                     return 0;
 
                 }
@@ -4320,14 +4320,14 @@ static void * lirc_loop(void *dummy)
   char *c;
   signed int k;
   signed int ret;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
-  signed int return_value_lirc_nextcode$2;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
+  signed int return_value_lirc_nextcode_2;
   do
   {
-    return_value_lirc_nextcode$2=lirc_nextcode(&code);
-    if(!(return_value_lirc_nextcode$2 == 0))
+    return_value_lirc_nextcode_2=lirc_nextcode(&code);
+    if(!(return_value_lirc_nextcode_2 == 0))
       break;
 
     pthread_testcancel();
@@ -4363,24 +4363,24 @@ static void load_config(void)
   __xineui_global_config_file=getenv("XINERC");
   if(__xineui_global_config_file == ((char *)NULL))
   {
-    const char *return_value_xine_get_homedir$1;
-    return_value_xine_get_homedir$1=xine_get_homedir();
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(return_value_xine_get_homedir$1);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(".xine");
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen("config");
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(return_value_strlen$2 + return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)3);
-    __xineui_global_config_file = (char *)return_value_malloc$5;
-    const char *return_value_xine_get_homedir$6;
-    return_value_xine_get_homedir$6=xine_get_homedir();
-    sprintf(__xineui_global_config_file, "%s/%s", return_value_xine_get_homedir$6, (const void *)".xine");
+    const char *return_value_xine_get_homedir_1;
+    return_value_xine_get_homedir_1=xine_get_homedir();
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(return_value_xine_get_homedir_1);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(".xine");
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen("config");
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(return_value_strlen_2 + return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)3);
+    __xineui_global_config_file = (char *)return_value_malloc_5;
+    const char *return_value_xine_get_homedir_6;
+    return_value_xine_get_homedir_6=xine_get_homedir();
+    sprintf(__xineui_global_config_file, "%s/%s", return_value_xine_get_homedir_6, (const void *)".xine");
     mkdir(__xineui_global_config_file, (unsigned int)0755);
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(__xineui_global_config_file);
-    sprintf(__xineui_global_config_file + (signed long int)return_value_strlen$7, "/%s", (const void *)"config");
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(__xineui_global_config_file);
+    sprintf(__xineui_global_config_file + (signed long int)return_value_strlen_7, "/%s", (const void *)"config");
   }
 
   xine_config_load(__xineui_global_xine_instance, __xineui_global_config_file);
@@ -4394,15 +4394,15 @@ signed int main(signed int argc, char **argv)
   signed int exit_code = 1;
   install_abort();
   pthread_mutex_lock(&fbxine.mutex);
-  signed int return_value_fbxine_init$2;
-  return_value_fbxine_init$2=fbxine_init(argc, argv);
-  if(!(return_value_fbxine_init$2 == 0))
+  signed int return_value_fbxine_init_2;
+  return_value_fbxine_init_2=fbxine_init(argc, argv);
+  if(!(return_value_fbxine_init_2 == 0))
   {
     while(!(fbxine.current_mrl >= fbxine.num_mrls))
     {
-      signed int return_value_open_and_play$1;
-      return_value_open_and_play$1=open_and_play(fbxine.mrl[(signed long int)fbxine.current_mrl]);
-      if(!(return_value_open_and_play$1 == 0))
+      signed int return_value_open_and_play_1;
+      return_value_open_and_play_1=open_and_play(fbxine.mrl[(signed long int)fbxine.current_mrl]);
+      if(!(return_value_open_and_play_1 == 0))
       {
         wait_for_exit();
         xine_close(fbxine.stream);
@@ -4426,8 +4426,8 @@ signed int mkdir_safe(char *path)
   char *pp;
   char buf[4352l];
   char buf2[4352l];
-  char *tmp_statement_expression$1;
-  unsigned long int return_value_strlen$5;
+  char *tmp_statement_expression_1;
+  unsigned long int return_value_strlen_5;
   if(path == ((char *)NULL))
     return 0;
 
@@ -4442,24 +4442,24 @@ signed int mkdir_safe(char *path)
       char __r0;
       char __r1;
       char __r2;
-      char *return_value___strsep_g$2;
-      return_value___strsep_g$2=__strsep_g(&pp, "/");
-      tmp_statement_expression$1 = return_value___strsep_g$2;
-      p = tmp_statement_expression$1;
+      char *return_value___strsep_g_2;
+      return_value___strsep_g_2=__strsep_g(&pp, "/");
+      tmp_statement_expression_1 = return_value___strsep_g_2;
+      p = tmp_statement_expression_1;
       if(p == ((char *)NULL))
         break;
 
       if(!(p == ((char *)NULL)))
       {
-        return_value_strlen$5=strlen(p);
-        if(!(return_value_strlen$5 == 0ul))
+        return_value_strlen_5=strlen(p);
+        if(!(return_value_strlen_5 == 0ul))
         {
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(buf2);
-          sprintf(buf2 + (signed long int)return_value_strlen$3, "/%s", p);
-          signed int return_value__mkdir_safe$4;
-          return_value__mkdir_safe$4=_mkdir_safe(buf2);
-          if(return_value__mkdir_safe$4 == 0)
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(buf2);
+          sprintf(buf2 + (signed long int)return_value_strlen_3, "/%s", p);
+          signed int return_value__mkdir_safe_4;
+          return_value__mkdir_safe_4=_mkdir_safe(buf2);
+          if(return_value__mkdir_safe_4 == 0)
             return 0;
 
         }
@@ -4476,11 +4476,11 @@ signed int mkdir_safe(char *path)
 // file main.c line 113
 static signed int open_and_play(const char *mrl)
 {
-  signed int return_value_strncasecmp$1;
-  return_value_strncasecmp$1=strncasecmp(mrl, "cfg:/", (unsigned long int)5);
-  _Bool tmp_if_expr$4;
-  signed int return_value_xine_play$3;
-  if(return_value_strncasecmp$1 == 0)
+  signed int return_value_strncasecmp_1;
+  return_value_strncasecmp_1=strncasecmp(mrl, "cfg:/", (unsigned long int)5);
+  _Bool tmp_if_expr_4;
+  signed int return_value_xine_play_3;
+  if(return_value_strncasecmp_1 == 0)
   {
     config_mrl(mrl);
     return 0;
@@ -4488,17 +4488,17 @@ static signed int open_and_play(const char *mrl)
 
   else
   {
-    signed int return_value_xine_open$2;
-    return_value_xine_open$2=xine_open(fbxine.stream, fbxine.mrl[(signed long int)fbxine.current_mrl]);
-    if(return_value_xine_open$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_xine_open_2;
+    return_value_xine_open_2=xine_open(fbxine.stream, fbxine.mrl[(signed long int)fbxine.current_mrl]);
+    if(return_value_xine_open_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_xine_play$3=xine_play(fbxine.stream, 0, 0);
-      tmp_if_expr$4 = !(return_value_xine_play$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_xine_play_3=xine_play(fbxine.stream, 0, 0);
+      tmp_if_expr_4 = !(return_value_xine_play_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       fprintf(stderr, "Unable to open MRL '%s'\n", fbxine.mrl[(signed long int)fbxine.current_mrl]);
       return 0;
@@ -4555,7 +4555,7 @@ void osd_display_audio_lang(void)
   char *lang = (char *)(void *)0;
   signed int channel;
   channel=xine_get_param(fbxine.stream, 3);
-  signed int return_value_xine_get_audio_lang$1;
+  signed int return_value_xine_get_audio_lang_1;
   if(!(channel == -2))
   {
     if(channel == -1)
@@ -4570,17 +4570,17 @@ void osd_display_audio_lang(void)
 
   __CPROVER_DUMP_L2:
     ;
-    return_value_xine_get_audio_lang$1=xine_get_audio_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
-    if(return_value_xine_get_audio_lang$1 == 0)
+    return_value_xine_get_audio_lang_1=xine_get_audio_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
+    if(return_value_xine_get_audio_lang_1 == 0)
       lang = "auto";
 
     else
       lang = lang_buffer;
     goto __CPROVER_DUMP_L7;
   }
-  signed int return_value_xine_get_audio_lang$2;
-  return_value_xine_get_audio_lang$2=xine_get_audio_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
-  if(return_value_xine_get_audio_lang$2 == 0)
+  signed int return_value_xine_get_audio_lang_2;
+  return_value_xine_get_audio_lang_2=xine_get_audio_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
+  if(return_value_xine_get_audio_lang_2 == 0)
     sprintf(lang_buffer, "%3d", channel);
 
   lang = lang_buffer;
@@ -4602,9 +4602,9 @@ void osd_display_info(char *info, ...)
     char *buf;
     signed int n;
     signed int size = 100;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)size);
-    buf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)size);
+    buf = (char *)return_value_malloc_1;
     if(!(buf == ((char *)NULL)))
     {
       while((_Bool)1)
@@ -4620,9 +4620,9 @@ void osd_display_info(char *info, ...)
 
         else
           size = size * 2;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)buf, (unsigned long int)size);
-        buf = (char *)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)buf, (unsigned long int)size);
+        buf = (char *)return_value_realloc_2;
         if(buf == ((char *)NULL))
           goto __CPROVER_DUMP_L9;
 
@@ -4630,9 +4630,9 @@ void osd_display_info(char *info, ...)
       xine_osd_clear(fbxine.osd.info);
       xine_osd_draw_text(fbxine.osd.info, 0, 0, buf, 0 * 11);
       xine_osd_set_position(fbxine.osd.info, 20, 10 + 30);
-      unsigned int return_value_xine_osd_get_capabilities$3;
-      return_value_xine_osd_get_capabilities$3=xine_osd_get_capabilities(fbxine.osd.info);
-      if(!((2u & return_value_xine_osd_get_capabilities$3) == 0u))
+      unsigned int return_value_xine_osd_get_capabilities_3;
+      return_value_xine_osd_get_capabilities_3=xine_osd_get_capabilities(fbxine.osd.info);
+      if(!((2u & return_value_xine_osd_get_capabilities_3) == 0u))
         xine_osd_show_unscaled(fbxine.osd.info, (signed long int)0);
 
       else
@@ -4662,7 +4662,7 @@ void osd_display_spu_lang(void)
   char *lang = (char *)(void *)0;
   signed int channel;
   channel=xine_get_param(fbxine.stream, 4);
-  signed int return_value_xine_get_spu_lang$1;
+  signed int return_value_xine_get_spu_lang_1;
   if(!(channel == -2))
   {
     if(channel == -1)
@@ -4677,17 +4677,17 @@ void osd_display_spu_lang(void)
 
   __CPROVER_DUMP_L2:
     ;
-    return_value_xine_get_spu_lang$1=xine_get_spu_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
-    if(return_value_xine_get_spu_lang$1 == 0)
+    return_value_xine_get_spu_lang_1=xine_get_spu_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
+    if(return_value_xine_get_spu_lang_1 == 0)
       lang = "auto";
 
     else
       lang = lang_buffer;
     goto __CPROVER_DUMP_L7;
   }
-  signed int return_value_xine_get_spu_lang$2;
-  return_value_xine_get_spu_lang$2=xine_get_spu_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
-  if(return_value_xine_get_spu_lang$2 == 0)
+  signed int return_value_xine_get_spu_lang_2;
+  return_value_xine_get_spu_lang_2=xine_get_spu_lang(fbxine.stream, channel, &lang_buffer[(signed long int)0]);
+  if(return_value_xine_get_spu_lang_2 == 0)
     sprintf(lang_buffer, "%3d", channel);
 
   lang = lang_buffer;
@@ -4703,11 +4703,11 @@ __CPROVER_DUMP_L7:
 // file osd.h line 36
 void osd_display_zoom(void)
 {
-  signed int return_value_xine_get_param$1;
-  return_value_xine_get_param$1=xine_get_param(fbxine.stream, 0x01000008);
-  signed int return_value_xine_get_param$2;
-  return_value_xine_get_param$2=xine_get_param(fbxine.stream, 0x0100000d);
-  osd_draw_bar("Zoom Setting", 0, 200, (return_value_xine_get_param$1 + return_value_xine_get_param$2) / 2, 3);
+  signed int return_value_xine_get_param_1;
+  return_value_xine_get_param_1=xine_get_param(fbxine.stream, 0x01000008);
+  signed int return_value_xine_get_param_2;
+  return_value_xine_get_param_2=xine_get_param(fbxine.stream, 0x0100000d);
+  osd_draw_bar("Zoom Setting", 0, 200, (return_value_xine_get_param_1 + return_value_xine_get_param_2) / 2, 3);
 }
 
 // osd_draw_bar
@@ -4821,16 +4821,16 @@ void osd_draw_bar(char *title, signed int min, signed int max, signed int val, s
           xine_osd_draw_text(fbxine.osd.bar[(signed long int)1], 336 - tw >> 1, 0, title, 0 * 11);
         }
 
-        unsigned int return_value_xine_osd_get_capabilities$3;
-        return_value_xine_osd_get_capabilities$3=xine_osd_get_capabilities(fbxine.osd.bar[(signed long int)0]);
-        if(!((2u & return_value_xine_osd_get_capabilities$3) == 0u))
+        unsigned int return_value_xine_osd_get_capabilities_3;
+        return_value_xine_osd_get_capabilities_3=xine_osd_get_capabilities(fbxine.osd.bar[(signed long int)0]);
+        if(!((2u & return_value_xine_osd_get_capabilities_3) == 0u))
         {
-          signed int return_value_xine_get_param$1;
-          return_value_xine_get_param$1=xine_get_param(fbxine.stream, 0x0100000f);
-          width = (unsigned int)return_value_xine_get_param$1;
-          signed int return_value_xine_get_param$2;
-          return_value_xine_get_param$2=xine_get_param(fbxine.stream, 0x01000010);
-          height = (unsigned int)return_value_xine_get_param$2;
+          signed int return_value_xine_get_param_1;
+          return_value_xine_get_param_1=xine_get_param(fbxine.stream, 0x0100000f);
+          width = (unsigned int)return_value_xine_get_param_1;
+          signed int return_value_xine_get_param_2;
+          return_value_xine_get_param_2=xine_get_param(fbxine.stream, 0x01000010);
+          height = (unsigned int)return_value_xine_get_param_2;
         }
 
         else
@@ -4841,9 +4841,9 @@ void osd_draw_bar(char *title, signed int min, signed int max, signed int val, s
         x = (signed int)(width - (unsigned int)336 >> 1);
         xine_osd_set_position(fbxine.osd.bar[(signed long int)0], x >= 0 ? x : 0, (signed int)((height - (unsigned int)25) - (unsigned int)40));
         xine_osd_set_position(fbxine.osd.bar[(signed long int)1], x >= 0 ? x : 0, (signed int)((height - (unsigned int)(25 * 2)) - (unsigned int)40));
-        unsigned int return_value_xine_osd_get_capabilities$4;
-        return_value_xine_osd_get_capabilities$4=xine_osd_get_capabilities(fbxine.osd.bar[(signed long int)0]);
-        if(!((2u & return_value_xine_osd_get_capabilities$4) == 0u))
+        unsigned int return_value_xine_osd_get_capabilities_4;
+        return_value_xine_osd_get_capabilities_4=xine_osd_get_capabilities(fbxine.osd.bar[(signed long int)0]);
+        if(!((2u & return_value_xine_osd_get_capabilities_4) == 0u))
         {
           xine_osd_show_unscaled(fbxine.osd.bar[(signed long int)0], (signed long int)0);
           if(!(title == ((char *)NULL)))
@@ -4892,9 +4892,9 @@ void osd_init(void)
 // file osd.c line 113
 static void * osd_loop(void *dummy)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
   while((_Bool)1)
   {
     sleep((unsigned int)1);
@@ -4941,12 +4941,12 @@ static void * osd_loop(void *dummy)
 // file osd.h line 41
 void osd_stream_infos(void)
 {
-  signed int return_value_xine_get_audio_lang$3;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_xine_get_spu_lang$8;
-  unsigned long int return_value_strlen$9;
-  signed int return_value_xine_get_param$11;
+  signed int return_value_xine_get_audio_lang_3;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_xine_get_spu_lang_8;
+  unsigned long int return_value_strlen_9;
+  signed int return_value_xine_get_param_11;
   if(!(fbxine.osd.enabled == 0))
   {
     unsigned int width;
@@ -4974,9 +4974,9 @@ void osd_stream_infos(void)
     asrate=xine_get_stream_info(fbxine.stream, 13);
     audiochannel=xine_get_param(fbxine.stream, 3);
     spuchannel=xine_get_param(fbxine.stream, 4);
-    signed int return_value_get_pos_length$1;
-    return_value_get_pos_length$1=get_pos_length(fbxine.stream, &pos, &playedtime, &totaltime);
-    if(!(return_value_get_pos_length$1 == 0))
+    signed int return_value_get_pos_length_1;
+    return_value_get_pos_length_1=get_pos_length(fbxine.stream, &pos, &playedtime, &totaltime);
+    if(!(return_value_get_pos_length_1 == 0))
     {
       playedtime = playedtime / 1000;
       totaltime = totaltime / 1000;
@@ -5007,9 +5007,9 @@ void osd_stream_infos(void)
       }
 
       strlcpy(buffer, "Audio: ", sizeof(char [256l]) /*256ul*/ );
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(buffer);
-      len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(buffer);
+      len = (signed int)return_value_strlen_2;
       if(!(audiochannel == -2))
       {
         if(audiochannel == -1)
@@ -5024,19 +5024,19 @@ void osd_stream_infos(void)
 
       __CPROVER_DUMP_L7:
         ;
-        return_value_xine_get_audio_lang$3=xine_get_audio_lang(fbxine.stream, audiochannel, &buffer[(signed long int)len]);
-        if(return_value_xine_get_audio_lang$3 == 0)
+        return_value_xine_get_audio_lang_3=xine_get_audio_lang(fbxine.stream, audiochannel, &buffer[(signed long int)len]);
+        if(return_value_xine_get_audio_lang_3 == 0)
           strlcat(buffer, "auto", sizeof(char [256l]) /*256ul*/ );
 
         goto __CPROVER_DUMP_L11;
       }
-      signed int return_value_xine_get_audio_lang$6;
-      return_value_xine_get_audio_lang$6=xine_get_audio_lang(fbxine.stream, audiochannel, &buffer[(signed long int)len]);
-      if(return_value_xine_get_audio_lang$6 == 0)
+      signed int return_value_xine_get_audio_lang_6;
+      return_value_xine_get_audio_lang_6=xine_get_audio_lang(fbxine.stream, audiochannel, &buffer[(signed long int)len]);
+      if(return_value_xine_get_audio_lang_6 == 0)
       {
-        return_value_strlen$4=strlen(buffer);
-        return_value_strlen$5=strlen(buffer);
-        snprintf(buffer + (signed long int)return_value_strlen$4, sizeof(char [256l]) /*256ul*/  - return_value_strlen$5, "%3d", audiochannel);
+        return_value_strlen_4=strlen(buffer);
+        return_value_strlen_5=strlen(buffer);
+        snprintf(buffer + (signed long int)return_value_strlen_4, sizeof(char [256l]) /*256ul*/  - return_value_strlen_5, "%3d", audiochannel);
       }
 
       goto __CPROVER_DUMP_L11;
@@ -5044,9 +5044,9 @@ void osd_stream_infos(void)
     __CPROVER_DUMP_L11:
       ;
       strlcat(buffer, ", Spu: ", sizeof(char [256l]) /*256ul*/ );
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(buffer);
-      len = (signed int)return_value_strlen$7;
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(buffer);
+      len = (signed int)return_value_strlen_7;
       if(!(spuchannel == -2))
       {
         if(spuchannel == -1)
@@ -5061,18 +5061,18 @@ void osd_stream_infos(void)
 
       __CPROVER_DUMP_L13:
         ;
-        return_value_xine_get_spu_lang$8=xine_get_spu_lang(fbxine.stream, spuchannel, &buffer[(signed long int)len]);
-        if(return_value_xine_get_spu_lang$8 == 0)
+        return_value_xine_get_spu_lang_8=xine_get_spu_lang(fbxine.stream, spuchannel, &buffer[(signed long int)len]);
+        if(return_value_xine_get_spu_lang_8 == 0)
           strlcat(buffer, "auto", sizeof(char [256l]) /*256ul*/ );
 
         goto __CPROVER_DUMP_L17;
       }
-      signed int return_value_xine_get_spu_lang$10;
-      return_value_xine_get_spu_lang$10=xine_get_spu_lang(fbxine.stream, spuchannel, &buffer[(signed long int)len]);
-      if(return_value_xine_get_spu_lang$10 == 0)
+      signed int return_value_xine_get_spu_lang_10;
+      return_value_xine_get_spu_lang_10=xine_get_spu_lang(fbxine.stream, spuchannel, &buffer[(signed long int)len]);
+      if(return_value_xine_get_spu_lang_10 == 0)
       {
-        return_value_strlen$9=strlen(buffer);
-        sprintf(buffer + (signed long int)return_value_strlen$9, "%3d", spuchannel);
+        return_value_strlen_9=strlen(buffer);
+        sprintf(buffer + (signed long int)return_value_strlen_9, "%3d", spuchannel);
       }
 
       goto __CPROVER_DUMP_L17;
@@ -5097,21 +5097,21 @@ void osd_stream_infos(void)
         osd_stream_position();
       }
 
-      unsigned int return_value_xine_osd_get_capabilities$12;
-      return_value_xine_osd_get_capabilities$12=xine_osd_get_capabilities(fbxine.osd.sinfo);
-      if(!((2u & return_value_xine_osd_get_capabilities$12) == 0u))
+      unsigned int return_value_xine_osd_get_capabilities_12;
+      return_value_xine_osd_get_capabilities_12=xine_osd_get_capabilities(fbxine.osd.sinfo);
+      if(!((2u & return_value_xine_osd_get_capabilities_12) == 0u))
       {
-        return_value_xine_get_param$11=xine_get_param(fbxine.stream, 0x0100000f);
-        width = (unsigned int)return_value_xine_get_param$11;
+        return_value_xine_get_param_11=xine_get_param(fbxine.stream, 0x0100000f);
+        width = (unsigned int)return_value_xine_get_param_11;
       }
 
       else
         width = vwidth;
       x = (signed int)((width - (unsigned int)osdw) - (unsigned int)40);
       xine_osd_set_position(fbxine.osd.sinfo, x >= 0 ? x : 0, 15);
-      unsigned int return_value_xine_osd_get_capabilities$13;
-      return_value_xine_osd_get_capabilities$13=xine_osd_get_capabilities(fbxine.osd.sinfo);
-      if(!((2u & return_value_xine_osd_get_capabilities$13) == 0u))
+      unsigned int return_value_xine_osd_get_capabilities_13;
+      return_value_xine_osd_get_capabilities_13=xine_osd_get_capabilities(fbxine.osd.sinfo);
+      if(!((2u & return_value_xine_osd_get_capabilities_13) == 0u))
         xine_osd_show_unscaled(fbxine.osd.sinfo, (signed long int)0);
 
       else
@@ -5128,9 +5128,9 @@ void osd_stream_infos(void)
 void osd_stream_position(void)
 {
   signed int pos;
-  signed int return_value_get_pos_length$1;
-  return_value_get_pos_length$1=get_pos_length(fbxine.stream, &pos, (signed int *)(void *)0, (signed int *)(void *)0);
-  if(!(return_value_get_pos_length$1 == 0))
+  signed int return_value_get_pos_length_1;
+  return_value_get_pos_length_1=get_pos_length(fbxine.stream, &pos, (signed int *)(void *)0, (signed int *)(void *)0);
+  if(!(return_value_get_pos_length_1 == 0))
     osd_draw_bar("Position in Stream", 0, 65535, pos, 3);
 
 }
@@ -5139,8 +5139,8 @@ void osd_stream_position(void)
 // file osd.h line 37
 void osd_update_status(void)
 {
-  const char *return_value__osd_get_status_sym$1;
-  const char *return_value__osd_get_speed_sym$3;
+  const char *return_value__osd_get_status_sym_1;
+  const char *return_value__osd_get_speed_sym_3;
   if(!(fbxine.osd.enabled == 0))
   {
     signed int status;
@@ -5154,8 +5154,8 @@ void osd_update_status(void)
 
       case 1:
       {
-        return_value__osd_get_status_sym$1=_osd_get_status_sym(status);
-        strcpy(buffer, return_value__osd_get_status_sym$1);
+        return_value__osd_get_status_sym_1=_osd_get_status_sym(status);
+        strcpy(buffer, return_value__osd_get_status_sym_1);
         break;
       }
       case 2:
@@ -5163,20 +5163,20 @@ void osd_update_status(void)
         signed int speed;
         speed=xine_get_param(fbxine.stream, 1);
         signed int secs;
-        signed int return_value_get_pos_length$4;
-        return_value_get_pos_length$4=get_pos_length(fbxine.stream, (signed int *)(void *)0, &secs, (signed int *)(void *)0);
-        if(!(return_value_get_pos_length$4 == 0))
+        signed int return_value_get_pos_length_4;
+        return_value_get_pos_length_4=get_pos_length(fbxine.stream, (signed int *)(void *)0, &secs, (signed int *)(void *)0);
+        if(!(return_value_get_pos_length_4 == 0))
         {
           secs = secs / 1000;
-          const char *return_value__osd_get_speed_sym$2;
-          return_value__osd_get_speed_sym$2=_osd_get_speed_sym(speed);
-          sprintf(buffer, "%s %02d:%02d:%02d", return_value__osd_get_speed_sym$2, secs / (60 * 60), (secs / 60) % 60, secs % 60);
+          const char *return_value__osd_get_speed_sym_2;
+          return_value__osd_get_speed_sym_2=_osd_get_speed_sym(speed);
+          sprintf(buffer, "%s %02d:%02d:%02d", return_value__osd_get_speed_sym_2, secs / (60 * 60), (secs / 60) % 60, secs % 60);
         }
 
         else
         {
-          return_value__osd_get_speed_sym$3=_osd_get_speed_sym(speed);
-          strcpy(buffer, return_value__osd_get_speed_sym$3);
+          return_value__osd_get_speed_sym_3=_osd_get_speed_sym(speed);
+          strcpy(buffer, return_value__osd_get_speed_sym_3);
         }
         break;
       }
@@ -5185,9 +5185,9 @@ void osd_update_status(void)
     }
     xine_osd_draw_text(fbxine.osd.status, 0, 0, buffer, 0 * 11);
     xine_osd_set_position(fbxine.osd.status, 20, 10);
-    unsigned int return_value_xine_osd_get_capabilities$5;
-    return_value_xine_osd_get_capabilities$5=xine_osd_get_capabilities(fbxine.osd.status);
-    if(!((2u & return_value_xine_osd_get_capabilities$5) == 0u))
+    unsigned int return_value_xine_osd_get_capabilities_5;
+    return_value_xine_osd_get_capabilities_5=xine_osd_get_capabilities(fbxine.osd.status);
+    if(!((2u & return_value_xine_osd_get_capabilities_5) == 0u))
       xine_osd_show_unscaled(fbxine.osd.status, (signed long int)0);
 
     else
@@ -5218,11 +5218,11 @@ signed int parse_options(signed int argc, char **argv)
   signed int c = 63;
   signed int option_index = 0;
   opterr = 0;
-  char *return_value___strdup$1;
-  char *return_value___strdup$2;
-  void *return_value_malloc$3;
-  void *return_value_realloc$4;
-  signed long int return_value_strtol$5;
+  char *return_value___strdup_1;
+  char *return_value___strdup_2;
+  void *return_value_malloc_3;
+  void *return_value_realloc_4;
+  signed long int return_value_strtol_5;
   do
   {
     c=getopt_long(argc, argv, short_options, long_options, &option_index);
@@ -5254,8 +5254,8 @@ signed int parse_options(signed int argc, char **argv)
           return -1;
         }
 
-        return_value___strdup$1=__strdup(optarg);
-        fbxine.audio_port_id = return_value___strdup$1;
+        return_value___strdup_1=__strdup(optarg);
+        fbxine.audio_port_id = return_value___strdup_1;
         break;
       }
       case 86:
@@ -5266,8 +5266,8 @@ signed int parse_options(signed int argc, char **argv)
           return -1;
         }
 
-        return_value___strdup$2=__strdup(optarg);
-        fbxine.video_port_id = return_value___strdup$2;
+        return_value___strdup_2=__strdup(optarg);
+        fbxine.video_port_id = return_value___strdup_2;
         break;
       }
       case 118:
@@ -5289,14 +5289,14 @@ signed int parse_options(signed int argc, char **argv)
       {
         if(pplugins_num == 0)
         {
-          return_value_malloc$3=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)2);
-          pplugins = (char **)return_value_malloc$3;
+          return_value_malloc_3=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)2);
+          pplugins = (char **)return_value_malloc_3;
         }
 
         else
         {
-          return_value_realloc$4=realloc((void *)pplugins, sizeof(char *) /*8ul*/  * (unsigned long int)(pplugins_num + 2));
-          pplugins = (char **)return_value_realloc$4;
+          return_value_realloc_4=realloc((void *)pplugins, sizeof(char *) /*8ul*/  * (unsigned long int)(pplugins_num + 2));
+          pplugins = (char **)return_value_realloc_4;
         }
         pplugins[(signed long int)pplugins_num] = optarg;
         pplugins_num = pplugins_num + 1;
@@ -5310,8 +5310,8 @@ signed int parse_options(signed int argc, char **argv)
 
         else
         {
-          return_value_strtol$5=strtol(optarg, &optarg, 10);
-          __xineui_global_verbosity = (signed int)return_value_strtol$5;
+          return_value_strtol_5=strtol(optarg, &optarg, 10);
+          __xineui_global_verbosity = (signed int)return_value_strtol_5;
         }
         break;
       }
@@ -5348,9 +5348,9 @@ signed int parse_options(signed int argc, char **argv)
 // file actions.c line 350
 static signed int play(struct xine_stream_s *stream, signed int start_pos, signed int start_time_in_secs, signed int update_mmk)
 {
-  signed int return_value_xine_play$1;
-  return_value_xine_play$1=xine_play(stream, start_pos, start_time_in_secs * 1000);
-  return return_value_xine_play$1;
+  signed int return_value_xine_play_1;
+  return_value_xine_play_1=xine_play(stream, start_pos, start_time_in_secs * 1000);
+  return return_value_xine_play_1;
 }
 
 // post_deinterlace
@@ -5371,21 +5371,21 @@ void post_deinterlace(void)
 // file post.h line 30
 void post_deinterlace_init(const char *deinterlace_post)
 {
-  struct anonymous$14 **posts = (struct anonymous$14 **)(void *)0;
+  struct anonymous_14 **posts = (struct anonymous_14 **)(void *)0;
   signed int num;
   fbxine.deinterlace_plugin = "tvtime:method=Linear,cheap_mode=1,pulldown=0,use_progressive_frame_flag=1";
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(deinterlace_post == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(deinterlace_post);
-    tmp_if_expr$2 = return_value_strlen$1 != 0ul ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(deinterlace_post);
+    tmp_if_expr_2 = return_value_strlen_1 != 0ul ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  posts=pplugin_parse_and_load(0, tmp_if_expr$2 ? deinterlace_post : fbxine.deinterlace_plugin, &num);
-  if(!(posts == ((struct anonymous$14 **)NULL)))
+    tmp_if_expr_2 = (_Bool)0;
+  posts=pplugin_parse_and_load(0, tmp_if_expr_2 ? deinterlace_post : fbxine.deinterlace_plugin, &num);
+  if(!(posts == ((struct anonymous_14 **)NULL)))
   {
     fbxine.deinterlace_elements = posts;
     fbxine.deinterlace_elements_num = num;
@@ -5395,73 +5395,73 @@ void post_deinterlace_init(const char *deinterlace_post)
 
 // pplugin_parse_and_load
 // file post.c line 94
-static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, const char *pchain, signed int *post_elements_num)
+static struct anonymous_14 ** pplugin_parse_and_load(signed int plugin_type, const char *pchain, signed int *post_elements_num)
 {
-  struct anonymous$14 **post_elements = (struct anonymous$14 **)(void *)0;
+  struct anonymous_14 **post_elements = (struct anonymous_14 **)(void *)0;
   *post_elements_num = 0;
-  unsigned long int return_value_strlen$23;
-  char *tmp_statement_expression$2;
-  unsigned long int return_value_strlen$22;
-  char *tmp_post$5;
-  unsigned long int return_value_strlen$7;
-  void *return_value_malloc$8;
-  void *return_value_realloc$9;
-  char *tmp_statement_expression$12;
-  unsigned long int return_value_strlen$20;
-  char *tmp_post$14;
-  signed int return_value_strcasecmp$15;
-  signed long int return_value_strtol$17;
+  unsigned long int return_value_strlen_23;
+  char *tmp_statement_expression_2;
+  unsigned long int return_value_strlen_22;
+  char *tmp_post_5;
+  unsigned long int return_value_strlen_7;
+  void *return_value_malloc_8;
+  void *return_value_realloc_9;
+  char *tmp_statement_expression_12;
+  unsigned long int return_value_strlen_20;
+  char *tmp_post_14;
+  signed int return_value_strcasecmp_15;
+  signed long int return_value_strtol_17;
   if(!(pchain == ((const char *)NULL)))
   {
-    return_value_strlen$23=strlen(pchain);
-    if(!(return_value_strlen$23 == 0ul))
+    return_value_strlen_23=strlen(pchain);
+    if(!(return_value_strlen_23 == 0ul))
     {
       char *p;
       char *post_chain;
       char *ppost_chain;
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(pchain);
-      post_chain = return_value___strdup$1;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(pchain);
+      post_chain = return_value___strdup_1;
       ppost_chain = post_chain;
       do
       {
-        char pplugin_parse_and_load$$1$$1$$2$$__r0;
-        char pplugin_parse_and_load$$1$$1$$2$$__r1;
-        char pplugin_parse_and_load$$1$$1$$2$$__r2;
-        char *return_value___strsep_g$3;
-        return_value___strsep_g$3=__strsep_g(&ppost_chain, ";");
-        tmp_statement_expression$2 = return_value___strsep_g$3;
-        p = tmp_statement_expression$2;
+        char pplugin_parse_and_load__1__1__2____r0;
+        char pplugin_parse_and_load__1__1__2____r1;
+        char pplugin_parse_and_load__1__1__2____r2;
+        char *return_value___strsep_g_3;
+        return_value___strsep_g_3=__strsep_g(&ppost_chain, ";");
+        tmp_statement_expression_2 = return_value___strsep_g_3;
+        p = tmp_statement_expression_2;
         if(p == ((char *)NULL))
           break;
 
         if(!(p == ((char *)NULL)))
         {
-          return_value_strlen$22=strlen(p);
-          if(!(return_value_strlen$22 == 0ul))
+          return_value_strlen_22=strlen(p);
+          if(!(return_value_strlen_22 == 0ul))
           {
             char *plugin;
             char *args = (char *)(void *)0;
             struct xine_post_s *post;
             for( ; (signed int)*p == 32; p = p + 1l)
               ;
-            char *return_value___strdup$4;
-            return_value___strdup$4=__strdup(p);
-            plugin = return_value___strdup$4;
-            char *return_value___builtin_strchr$6;
-            return_value___builtin_strchr$6=__builtin_strchr(plugin, 58);
-            p = return_value___builtin_strchr$6;
+            char *return_value___strdup_4;
+            return_value___strdup_4=__strdup(p);
+            plugin = return_value___strdup_4;
+            char *return_value___builtin_strchr_6;
+            return_value___builtin_strchr_6=__builtin_strchr(plugin, 58);
+            p = return_value___builtin_strchr_6;
             if(!(p == ((char *)NULL)))
             {
-              tmp_post$5 = p;
+              tmp_post_5 = p;
               p = p + 1l;
-              *tmp_post$5 = (char)0;
+              *tmp_post_5 = (char)0;
             }
 
             if(!(p == ((char *)NULL)))
             {
-              return_value_strlen$7=strlen(p);
-              if(return_value_strlen$7 >= 2ul)
+              return_value_strlen_7=strlen(p);
+              if(return_value_strlen_7 >= 2ul)
                 args = p;
 
             }
@@ -5479,32 +5479,32 @@ static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, con
 
             if(!(post == ((struct xine_post_s *)NULL)))
             {
-              struct anonymous$13 pobj;
+              struct anonymous_13 pobj;
               if(*post_elements_num == 0)
               {
-                return_value_malloc$8=malloc(sizeof(struct anonymous$14 *) /*8ul*/  * (unsigned long int)2);
-                post_elements = (struct anonymous$14 **)return_value_malloc$8;
+                return_value_malloc_8=malloc(sizeof(struct anonymous_14 *) /*8ul*/  * (unsigned long int)2);
+                post_elements = (struct anonymous_14 **)return_value_malloc_8;
               }
 
               else
               {
-                return_value_realloc$9=realloc((void *)post_elements, sizeof(struct anonymous$14 *) /*8ul*/  * (unsigned long int)(*post_elements_num + 2));
-                post_elements = (struct anonymous$14 **)return_value_realloc$9;
+                return_value_realloc_9=realloc((void *)post_elements, sizeof(struct anonymous_14 *) /*8ul*/  * (unsigned long int)(*post_elements_num + 2));
+                post_elements = (struct anonymous_14 **)return_value_realloc_9;
               }
-              void *return_value_malloc$10;
-              return_value_malloc$10=malloc(sizeof(struct anonymous$14) /*16ul*/ );
-              post_elements[(signed long int)*post_elements_num] = (struct anonymous$14 *)return_value_malloc$10;
+              void *return_value_malloc_10;
+              return_value_malloc_10=malloc(sizeof(struct anonymous_14) /*16ul*/ );
+              post_elements[(signed long int)*post_elements_num] = (struct anonymous_14 *)return_value_malloc_10;
               post_elements[(signed long int)*post_elements_num]->post = post;
-              char *return_value___strdup$11;
-              return_value___strdup$11=__strdup(plugin);
-              post_elements[(signed long int)*post_elements_num]->name = return_value___strdup$11;
+              char *return_value___strdup_11;
+              return_value___strdup_11=__strdup(plugin);
+              post_elements[(signed long int)*post_elements_num]->name = return_value___strdup_11;
               *post_elements_num = *post_elements_num + 1;
-              post_elements[(signed long int)*post_elements_num] = (struct anonymous$14 *)(void *)0;
-              memset((void *)&pobj, 0, sizeof(struct anonymous$13) /*64ul*/ );
+              post_elements[(signed long int)*post_elements_num] = (struct anonymous_14 *)(void *)0;
+              memset((void *)&pobj, 0, sizeof(struct anonymous_13) /*64ul*/ );
               pobj.post = post;
-              signed int return_value___pplugin_retrieve_parameters$21;
-              return_value___pplugin_retrieve_parameters$21=__pplugin_retrieve_parameters(&pobj);
-              if(!(return_value___pplugin_retrieve_parameters$21 == 0))
+              signed int return_value___pplugin_retrieve_parameters_21;
+              return_value___pplugin_retrieve_parameters_21=__pplugin_retrieve_parameters(&pobj);
+              if(!(return_value___pplugin_retrieve_parameters_21 == 0))
               {
                 signed int i;
                 if(!(pobj.properties_names == ((char **)NULL)) && !(args == ((char *)NULL)))
@@ -5515,10 +5515,10 @@ static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, con
                     char __r0;
                     char __r1;
                     char __r2;
-                    char *return_value___strsep_g$13;
-                    return_value___strsep_g$13=__strsep_g(&args, ",");
-                    tmp_statement_expression$12 = return_value___strsep_g$13;
-                    param = tmp_statement_expression$12;
+                    char *return_value___strsep_g_13;
+                    return_value___strsep_g_13=__strsep_g(&args, ",");
+                    tmp_statement_expression_12 = return_value___strsep_g_13;
+                    param = tmp_statement_expression_12;
                     if(param == ((char *)NULL))
                       break;
 
@@ -5529,17 +5529,17 @@ static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, con
 
                     if(!(p == ((char *)NULL)))
                     {
-                      return_value_strlen$20=strlen(p);
-                      if(!(return_value_strlen$20 == 0ul))
+                      return_value_strlen_20=strlen(p);
+                      if(!(return_value_strlen_20 == 0ul))
                       {
                         signed int param_num = 0;
-                        tmp_post$14 = p;
+                        tmp_post_14 = p;
                         p = p + 1l;
-                        *tmp_post$14 = (char)0;
+                        *tmp_post_14 = (char)0;
                         for( ; !(pobj.properties_names[(signed long int)param_num] == ((char *)NULL)); param_num = param_num + 1)
                         {
-                          return_value_strcasecmp$15=strcasecmp(pobj.properties_names[(signed long int)param_num], param);
-                          if(return_value_strcasecmp$15 == 0)
+                          return_value_strcasecmp_15=strcasecmp(pobj.properties_names[(signed long int)param_num], param);
+                          if(return_value_strcasecmp_15 == 0)
                             break;
 
                         }
@@ -5557,32 +5557,32 @@ static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, con
                                 if(!(pobj.param->enum_values == ((char **)NULL)))
                                 {
                                   char **values = pobj.param->enum_values;
-                                  signed int pplugin_parse_and_load$$1$$1$$3$$1$$3$$2$$1$$2$$1$$1$$1$$1$$1$$i = 0;
-                                  while(!(values[(signed long int)pplugin_parse_and_load$$1$$1$$3$$1$$3$$2$$1$$2$$1$$1$$1$$1$$1$$i] == ((char *)NULL)))
+                                  signed int pplugin_parse_and_load__1__1__3__1__3__2__1__2__1__1__1__1__1__i = 0;
+                                  while(!(values[(signed long int)pplugin_parse_and_load__1__1__3__1__3__2__1__2__1__1__1__1__1__i] == ((char *)NULL)))
                                   {
-                                    signed int return_value_strcasecmp$16;
-                                    return_value_strcasecmp$16=strcasecmp(values[(signed long int)pplugin_parse_and_load$$1$$1$$3$$1$$3$$2$$1$$2$$1$$1$$1$$1$$1$$i], p);
-                                    if(return_value_strcasecmp$16 == 0)
+                                    signed int return_value_strcasecmp_16;
+                                    return_value_strcasecmp_16=strcasecmp(values[(signed long int)pplugin_parse_and_load__1__1__3__1__3__2__1__2__1__1__1__1__1__i], p);
+                                    if(return_value_strcasecmp_16 == 0)
                                     {
-                                      *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = pplugin_parse_and_load$$1$$1$$3$$1$$3$$2$$1$$2$$1$$1$$1$$1$$1$$i;
+                                      *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = pplugin_parse_and_load__1__1__3__1__3__2__1__2__1__1__1__1__1__i;
                                       break;
                                     }
 
-                                    pplugin_parse_and_load$$1$$1$$3$$1$$3$$2$$1$$2$$1$$1$$1$$1$$1$$i = pplugin_parse_and_load$$1$$1$$3$$1$$3$$2$$1$$2$$1$$1$$1$$1$$1$$i + 1;
+                                    pplugin_parse_and_load__1__1__3__1__3__2__1__2__1__1__1__1__1__i = pplugin_parse_and_load__1__1__3__1__3__2__1__2__1__1__1__1__1__i + 1;
                                   }
-                                  if(values[(signed long int)pplugin_parse_and_load$$1$$1$$3$$1$$3$$2$$1$$2$$1$$1$$1$$1$$1$$i] == ((char *)NULL))
+                                  if(values[(signed long int)pplugin_parse_and_load__1__1__3__1__3__2__1__2__1__1__1__1__1__i] == ((char *)NULL))
                                   {
-                                    return_value_strtol$17=strtol(p, &p, 10);
-                                    *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol$17;
+                                    return_value_strtol_17=strtol(p, &p, 10);
+                                    *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol_17;
                                   }
 
                                 }
 
                                 else
                                 {
-                                  signed long int return_value_strtol$18;
-                                  return_value_strtol$18=strtol(p, &p, 10);
-                                  *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol$18;
+                                  signed long int return_value_strtol_18;
+                                  return_value_strtol_18=strtol(p, &p, 10);
+                                  *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol_18;
                                 }
                                 _pplugin_update_parameter(&pobj);
                               }
@@ -5628,9 +5628,9 @@ static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, con
                             case 6:
                               if(pobj.readonly == 0)
                               {
-                                signed long int return_value_strtol$19;
-                                return_value_strtol$19=strtol(p, &p, 10);
-                                *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol$19 != 0 ? 1 : 0;
+                                signed long int return_value_strtol_19;
+                                return_value_strtol_19=strtol(p, &p, 10);
+                                *((signed int *)(pobj.param_data + (signed long int)pobj.param->offset)) = (signed int)return_value_strtol_19 != 0 ? 1 : 0;
                                 _pplugin_update_parameter(&pobj);
                               }
 
@@ -5673,24 +5673,24 @@ static struct anonymous$14 ** pplugin_parse_and_load(signed int plugin_type, con
 // file post.c line 263
 static void pplugin_parse_and_store_post(signed int plugin_type, const char *post_chain)
 {
-  struct anonymous$14 ***_post_elements = plugin_type == 0x010000 ? &fbxine.post_video_elements : &fbxine.post_audio_elements;
+  struct anonymous_14 ***_post_elements = plugin_type == 0x010000 ? &fbxine.post_video_elements : &fbxine.post_audio_elements;
   signed int *_post_elements_num = plugin_type == 0x010000 ? &fbxine.post_video_elements_num : &fbxine.post_audio_elements_num;
-  struct anonymous$14 **posts = (struct anonymous$14 **)(void *)0;
+  struct anonymous_14 **posts = (struct anonymous_14 **)(void *)0;
   signed int num;
   posts=pplugin_parse_and_load(plugin_type, post_chain, &num);
-  if(!(posts == ((struct anonymous$14 **)NULL)))
+  if(!(posts == ((struct anonymous_14 **)NULL)))
   {
     if(!(*_post_elements_num == 0))
     {
       signed int i;
       signed int ptot = *_post_elements_num + num;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)*_post_elements, sizeof(struct anonymous$14 *) /*8ul*/  * (unsigned long int)(ptot + 1));
-      *_post_elements = (struct anonymous$14 **)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)*_post_elements, sizeof(struct anonymous_14 *) /*8ul*/  * (unsigned long int)(ptot + 1));
+      *_post_elements = (struct anonymous_14 **)return_value_realloc_1;
       i = *_post_elements_num;
       for( ; !(i >= ptot); i = i + 1)
         (*_post_elements)[(signed long int)i] = posts[(signed long int)(i - *_post_elements_num)];
-      (*_post_elements)[(signed long int)i] = (struct anonymous$14 *)(void *)0;
+      (*_post_elements)[(signed long int)i] = (struct anonymous_14 *)(void *)0;
       *_post_elements_num = *_post_elements_num + num;
     }
 
@@ -5722,21 +5722,21 @@ static void print_usage(void)
   const char * const *driver_id;
   printf("Usage: fbxine [options] <MRL> ...\n\n  -v, --version                  Display version.\n      --verbose [=level]         Set verbosity level. Default is 1.\n  -V, --video-driver <drv>       Select video driver:\n");
   driver_id=xine_list_video_output_plugins(__xineui_global_xine_instance);
-  const char * const *tmp_post$1;
+  const char * const *tmp_post_1;
   while(!(*driver_id == ((const char *)NULL)))
   {
-    tmp_post$1 = driver_id;
+    tmp_post_1 = driver_id;
     driver_id = driver_id + 1l;
-    printf("                                   '%s'\n", *tmp_post$1);
+    printf("                                   '%s'\n", *tmp_post_1);
   }
   printf("\n  -A, --audio-driver <drv>       Select audio driver:\n");
   driver_id=xine_list_audio_output_plugins(__xineui_global_xine_instance);
-  const char * const *tmp_post$2;
+  const char * const *tmp_post_2;
   while(!(*driver_id == ((const char *)NULL)))
   {
-    tmp_post$2 = driver_id;
+    tmp_post_2 = driver_id;
     driver_id = driver_id + 1l;
-    printf("                                    '%s'\n", *tmp_post$2);
+    printf("                                    '%s'\n", *tmp_post_2);
   }
   printf("\n  -a, --audio-channel <number>   Select audio channel.\n");
   printf("  -L, --no-lirc                  Turn off LIRC support.\n");
@@ -5766,12 +5766,12 @@ static void * seek_relative_thread(void *data)
 {
   signed int sec;
   signed int off_sec = (signed int)(signed long int)data;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
-  signed int return_value_get_pos_length$2;
-  return_value_get_pos_length$2=get_pos_length(fbxine.stream, ((signed int *)NULL), &sec, ((signed int *)NULL));
-  if(!(return_value_get_pos_length$2 == 0))
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
+  signed int return_value_get_pos_length_2;
+  return_value_get_pos_length_2=get_pos_length(fbxine.stream, ((signed int *)NULL), &sec, ((signed int *)NULL));
+  if(!(return_value_get_pos_length_2 == 0))
   {
     sec = sec / 1000;
     if(!(off_sec + sec >= 0))
@@ -5791,9 +5791,9 @@ static void * seek_relative_thread(void *data)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // strlcat
@@ -5804,12 +5804,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   const char *s = src;
   unsigned long int n = siz;
   unsigned long int dlen;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     if((signed int)*d == 0)
@@ -5820,12 +5820,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   while((_Bool)1);
   dlen = (unsigned long int)(d - dst);
   n = siz - dlen;
-  unsigned long int return_value_strlen$2;
-  char *tmp_post$3;
+  unsigned long int return_value_strlen_2;
+  char *tmp_post_3;
   if(n == 0ul)
   {
-    return_value_strlen$2=strlen(s);
-    return dlen + return_value_strlen$2;
+    return_value_strlen_2=strlen(s);
+    return dlen + return_value_strlen_2;
   }
 
   else
@@ -5833,9 +5833,9 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
     for( ; !((signed int)*s == 0); s = s + 1l)
       if(!(n == 1ul))
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1l;
-        *tmp_post$3 = *s;
+        *tmp_post_3 = *s;
         n = n - 1ul;
       }
 
@@ -5851,8 +5851,8 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
   char *d = dst;
   const char *s = src;
   unsigned long int n = siz;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   if(!(n == 0ul))
     do
     {
@@ -5860,18 +5860,18 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
       if(n == 0ul)
         break;
 
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1l;
-      tmp_post$2 = s;
+      tmp_post_2 = s;
       s = s + 1l;
-      *tmp_post$1 = *tmp_post$2;
-      if((signed int)*tmp_post$1 == 0)
+      *tmp_post_1 = *tmp_post_2;
+      if((signed int)*tmp_post_1 == 0)
         break;
 
     }
     while((_Bool)1);
 
-  const char *tmp_post$3;
+  const char *tmp_post_3;
   if(n == 0ul)
   {
     if(!(siz == 0ul))
@@ -5879,9 +5879,9 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
 
     do
     {
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      if(*tmp_post$3 == 0)
+      if(*tmp_post_3 == 0)
         break;
 
     }
@@ -5920,7 +5920,7 @@ static void * xine_stdctl_loop(void *dummy)
   char c[255l];
   signed int len;
   signed int k;
-  struct anonymous$7 set;
+  struct anonymous_7 set;
   struct timeval tv;
   signed int secs;
   signed int last_secs;
@@ -5933,25 +5933,25 @@ static void * xine_stdctl_loop(void *dummy)
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$7) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_7) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
-    (&set)->fds_bits[(signed long int)(stdctl$link1.fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->fds_bits[(signed long int)(stdctl$link1.fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << stdctl$link1.fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+    (&set)->fds_bits[(signed long int)(stdctl_link1.fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->fds_bits[(signed long int)(stdctl_link1.fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << stdctl_link1.fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     tv.tv_sec = (signed long int)0;
     tv.tv_usec = (signed long int)500000;
-    select(stdctl$link1.fd + 1, &set, (struct anonymous$7 *)(void *)0, (struct anonymous$7 *)(void *)0, &tv);
-    if(!((set.fds_bits[(signed long int)(stdctl$link1.fd / 8)] & (signed long int)(1UL << stdctl$link1.fd % 8)) == 0l))
+    select(stdctl_link1.fd + 1, &set, (struct anonymous_7 *)(void *)0, (struct anonymous_7 *)(void *)0, &tv);
+    if(!((set.fds_bits[(signed long int)(stdctl_link1.fd / 8)] & (signed long int)(1UL << stdctl_link1.fd % 8)) == 0l))
     {
-      signed long int return_value_read$1;
-      return_value_read$1=read(stdctl$link1.fd, (void *)&c, (unsigned long int)255);
-      len = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(stdctl_link1.fd, (void *)&c, (unsigned long int)255);
+      len = (signed int)return_value_read_1;
       if(len >= 1)
       {
         c[(signed long int)(len - 1)] = (char)0;
         gParameter.alphanum.set = 0;
-        char *return_value___builtin_strchr$2;
-        return_value___builtin_strchr$2=__builtin_strchr(c, 36);
-        params = return_value___builtin_strchr$2;
+        char *return_value___builtin_strchr_2;
+        return_value___builtin_strchr_2=__builtin_strchr(c, 36);
+        params = return_value___builtin_strchr_2;
         if(!(params == ((char *)NULL)))
         {
           *params = (char)0;
@@ -5961,9 +5961,9 @@ static void * xine_stdctl_loop(void *dummy)
         }
 
         gParameter.numeric.set = 0;
-        char *return_value___builtin_strchr$3;
-        return_value___builtin_strchr$3=__builtin_strchr(c, 35);
-        params = return_value___builtin_strchr$3;
+        char *return_value___builtin_strchr_3;
+        return_value___builtin_strchr_3=__builtin_strchr(c, 35);
+        params = return_value___builtin_strchr_3;
         if(!(params == ((char *)NULL)))
         {
           *params = (char)0;
@@ -5980,9 +5980,9 @@ static void * xine_stdctl_loop(void *dummy)
 
     }
 
-    signed int return_value_get_pos_length$4;
-    return_value_get_pos_length$4=get_pos_length(fbxine.stream, (signed int *)(void *)0, &secs, (signed int *)(void *)0);
-    if(!(return_value_get_pos_length$4 == 0))
+    signed int return_value_get_pos_length_4;
+    return_value_get_pos_length_4=get_pos_length(fbxine.stream, (signed int *)(void *)0, &secs, (signed int *)(void *)0);
+    if(!(return_value_get_pos_length_4 == 0))
     {
       secs = secs / 1000;
       if(!(secs == last_secs))
@@ -6006,9 +6006,9 @@ signed int xine_system(signed int dont_run_as_root, char *command)
   signed int status;
   if(!(dont_run_as_root == 0))
   {
-    unsigned int return_value_getuid$1;
-    return_value_getuid$1=getuid();
-    if(return_value_getuid$1 == 0u)
+    unsigned int return_value_getuid_1;
+    return_value_getuid_1=getuid();
+    if(return_value_getuid_1 == 0u)
       return -1;
 
   }
@@ -6037,10 +6037,10 @@ signed int xine_system(signed int dont_run_as_root, char *command)
 
       do
       {
-        signed int return_value_waitpid$3;
-        return_value_waitpid$3=waitpid(pid, &status, 0);
+        signed int return_value_waitpid_3;
+        return_value_waitpid_3=waitpid(pid, &status, 0);
         /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$12
+union anonymous_12
 {
   // __in
   signed int __in;
@@ -6050,17 +6050,17 @@ union anonymous$12
 
 /* */
         ;
-        if(return_value_waitpid$3 == -1)
+        if(return_value_waitpid_3 == -1)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          if(!(*return_value___errno_location$2 == 4))
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          if(!(*return_value___errno_location_2 == 4))
             return -1;
 
         }
 
         else
-          return (((union anonymous$12){ .__in=status }).__i & 0xff00) >> 8;
+          return (((union anonymous_12){ .__in=status }).__i & 0xff00) >> 8;
       }
       while((_Bool)1);
       return -1;

@@ -1,14 +1,14 @@
-// #anon_enum$MPD_CST_PLAYLIST=1$MPD_CST_SONGPOS=2$MPD_CST_SONGID=4$MPD_CST_DATABASE=8$MPD_CST_UPDATING=16$MPD_CST_VOLUME=32$MPD_CST_TOTAL_TIME=64$MPD_CST_ELAPSED_TIME=128$MPD_CST_CROSSFADE=256$MPD_CST_RANDOM=512$MPD_CST_REPEAT=1024$MPD_CST_AUDIO=2048$MPD_CST_STATE=4096$MPD_CST_PERMISSION=8192$MPD_CST_BITRATE=16384$MPD_CST_AUDIOFORMAT=32768$MPD_CST_STORED_PLAYLIST=131072$MPD_CST_SERVER_ERROR=262144$MPD_CST_OUTPUT=524288$MPD_CST_STICKER=1048576$MPD_CST_NEXTSONG=2097152$MPD_CST_SINGLE_MODE=4194304$MPD_CST_CONSUME_MODE=8388608$MPD_CST_REPLAYGAIN=16777216
+// #anon_enum_MPD_CST_PLAYLIST=1_MPD_CST_SONGPOS=2_MPD_CST_SONGID=4_MPD_CST_DATABASE=8_MPD_CST_UPDATING=16_MPD_CST_VOLUME=32_MPD_CST_TOTAL_TIME=64_MPD_CST_ELAPSED_TIME=128_MPD_CST_CROSSFADE=256_MPD_CST_RANDOM=512_MPD_CST_REPEAT=1024_MPD_CST_AUDIO=2048_MPD_CST_STATE=4096_MPD_CST_PERMISSION=8192_MPD_CST_BITRATE=16384_MPD_CST_AUDIOFORMAT=32768_MPD_CST_STORED_PLAYLIST=131072_MPD_CST_SERVER_ERROR=262144_MPD_CST_OUTPUT=524288_MPD_CST_STICKER=1048576_MPD_CST_NEXTSONG=2097152_MPD_CST_SINGLE_MODE=4194304_MPD_CST_CONSUME_MODE=8388608_MPD_CST_REPLAYGAIN=16777216
 // file /usr/include/libmpd-1.0/libmpd/libmpd.h line 349
-enum anonymous$1 { MPD_CST_PLAYLIST=1, MPD_CST_SONGPOS=2, MPD_CST_SONGID=4, MPD_CST_DATABASE=8, MPD_CST_UPDATING=16, MPD_CST_VOLUME=32, MPD_CST_TOTAL_TIME=64, MPD_CST_ELAPSED_TIME=128, MPD_CST_CROSSFADE=256, MPD_CST_RANDOM=512, MPD_CST_REPEAT=1024, MPD_CST_AUDIO=2048, MPD_CST_STATE=4096, MPD_CST_PERMISSION=8192, MPD_CST_BITRATE=16384, MPD_CST_AUDIOFORMAT=32768, MPD_CST_STORED_PLAYLIST=131072, MPD_CST_SERVER_ERROR=262144, MPD_CST_OUTPUT=524288, MPD_CST_STICKER=1048576, MPD_CST_NEXTSONG=2097152, MPD_CST_SINGLE_MODE=4194304, MPD_CST_CONSUME_MODE=8388608, MPD_CST_REPLAYGAIN=16777216 };
+enum anonymous_1 { MPD_CST_PLAYLIST=1, MPD_CST_SONGPOS=2, MPD_CST_SONGID=4, MPD_CST_DATABASE=8, MPD_CST_UPDATING=16, MPD_CST_VOLUME=32, MPD_CST_TOTAL_TIME=64, MPD_CST_ELAPSED_TIME=128, MPD_CST_CROSSFADE=256, MPD_CST_RANDOM=512, MPD_CST_REPEAT=1024, MPD_CST_AUDIO=2048, MPD_CST_STATE=4096, MPD_CST_PERMISSION=8192, MPD_CST_BITRATE=16384, MPD_CST_AUDIOFORMAT=32768, MPD_CST_STORED_PLAYLIST=131072, MPD_CST_SERVER_ERROR=262144, MPD_CST_OUTPUT=524288, MPD_CST_STICKER=1048576, MPD_CST_NEXTSONG=2097152, MPD_CST_SINGLE_MODE=4194304, MPD_CST_CONSUME_MODE=8388608, MPD_CST_REPLAYGAIN=16777216 };
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_MpdObj
 // file /usr/include/libmpd-1.0/libmpd/libmpd.h line 100
@@ -173,7 +173,7 @@ signed int mpd_set_connection_timeout(struct _MpdObj *, float);
 void mpd_signal_connect_error(struct _MpdObj *, signed int (*)(struct _MpdObj *, signed int, char *, void *), void *);
 // mpd_signal_connect_status_changed
 // file /usr/include/libmpd-1.0/libmpd/libmpd.h line 444
-void mpd_signal_connect_status_changed(struct _MpdObj *, void (*)(struct _MpdObj *, enum anonymous$1, void *), void *);
+void mpd_signal_connect_status_changed(struct _MpdObj *, void (*)(struct _MpdObj *, enum anonymous_1, void *), void *);
 // mpd_status_get_elapsed_song_time
 // file /usr/include/libmpd-1.0/libmpd/libmpd-status.h line 157
 signed int mpd_status_get_elapsed_song_time(struct _MpdObj *);
@@ -218,16 +218,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$0 *);
+extern signed int pthread_mutex_destroy(union anonymous_0 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -239,7 +239,7 @@ extern signed int snprintf(char *, unsigned long int, const char *, ...);
 extern signed int sscanf(const char *, const char *, ...);
 // status_changed
 // file g15mpd.c line 512
-void status_changed(struct _MpdObj *mi, enum anonymous$1 what);
+void status_changed(struct _MpdObj *mi, enum anonymous_1 what);
 // strlen
 // file /usr/include/string.h line 398
 extern unsigned long int strlen(const char *);
@@ -292,7 +292,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -421,7 +421,7 @@ struct g15canvas *canvas;
 signed int current_fg_check = 0;
 // daemon_mutex
 // file g15mpd.c line 62
-union anonymous$0 daemon_mutex;
+union anonymous_0 daemon_mutex;
 // g15screen_fd
 // file g15mpd.c line 49
 signed int g15screen_fd;
@@ -433,7 +433,7 @@ signed int item_selected = 0;
 signed int leaving = 0;
 // lockit
 // file g15mpd.c line 63
-union anonymous$0 lockit;
+union anonymous_0 lockit;
 // menulevel
 // file g15mpd.c line 67
 static signed int menulevel = 0;
@@ -488,9 +488,9 @@ void * Lkeys_thread()
   signed int volume;
   struct pollfd fds;
   char ver[5l];
-  const char *return_value_g15daemon_version$1;
-  return_value_g15daemon_version$1=g15daemon_version();
-  strncpy(ver, return_value_g15daemon_version$1, (unsigned long int)3);
+  const char *return_value_g15daemon_version_1;
+  return_value_g15daemon_version_1=g15daemon_version();
+  strncpy(ver, return_value_g15daemon_version_1, (unsigned long int)3);
   float g15v;
   sscanf(ver, "%f", &g15v);
   fds.fd = g15screen_fd;
@@ -498,9 +498,9 @@ void * Lkeys_thread()
   while(leaving == 0)
   {
     signed int foo = 0;
-    unsigned long int return_value_g15_send_cmd$2;
-    return_value_g15_send_cmd$2=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)foo);
-    current_fg_check = (signed int)return_value_g15_send_cmd$2;
+    unsigned long int return_value_g15_send_cmd_2;
+    return_value_g15_send_cmd_2=g15_send_cmd(g15screen_fd, (unsigned char)118, (unsigned char)foo);
+    current_fg_check = (signed int)return_value_g15_send_cmd_2;
     static signed int last_fg_check = 0;
     if(!(last_fg_check == current_fg_check) && !(playlist_mode == 0))
     {
@@ -521,16 +521,16 @@ void * Lkeys_thread()
     pthread_mutex_lock(&daemon_mutex);
     if(g15v * 10.000000f <= 18.000000f)
     {
-      unsigned long int return_value_g15_send_cmd$3;
-      return_value_g15_send_cmd$3=g15_send_cmd(g15screen_fd, (unsigned char)107, (unsigned char)foo);
-      keystate = (signed int)return_value_g15_send_cmd$3;
+      unsigned long int return_value_g15_send_cmd_3;
+      return_value_g15_send_cmd_3=g15_send_cmd(g15screen_fd, (unsigned char)107, (unsigned char)foo);
+      keystate = (signed int)return_value_g15_send_cmd_3;
     }
 
     else
     {
-      signed int return_value_poll$4;
-      return_value_poll$4=poll(&fds, (unsigned long int)1, 5);
-      if(return_value_poll$4 >= 1)
+      signed int return_value_poll_4;
+      return_value_poll_4=poll(&fds, (unsigned long int)1, 5);
+      if(return_value_poll_4 >= 1)
         read(g15screen_fd, (void *)&keystate, sizeof(signed int) /*4ul*/ );
 
     }
@@ -580,9 +580,9 @@ void * Lkeys_thread()
         {
           if(menulevel == 0)
           {
-            signed int return_value_mpd_player_get_random$5;
-            return_value_mpd_player_get_random$5=mpd_player_get_random(obj);
-            mpd_player_set_random(obj, return_value_mpd_player_get_random$5 ^ 1);
+            signed int return_value_mpd_player_get_random_5;
+            return_value_mpd_player_get_random_5=mpd_player_get_random(obj);
+            mpd_player_set_random(obj, return_value_mpd_player_get_random_5 ^ 1);
           }
 
           if(menulevel == 1)
@@ -600,9 +600,9 @@ void * Lkeys_thread()
         {
           if(menulevel == 0)
           {
-            signed int return_value_mpd_player_get_repeat$6;
-            return_value_mpd_player_get_repeat$6=mpd_player_get_repeat(obj);
-            mpd_player_set_repeat(obj, return_value_mpd_player_get_repeat$6 ^ 1);
+            signed int return_value_mpd_player_get_repeat_6;
+            return_value_mpd_player_get_repeat_6=mpd_player_get_repeat(obj);
+            mpd_player_set_repeat(obj, return_value_mpd_player_get_repeat_6 ^ 1);
           }
 
           if(menulevel == 1)
@@ -636,24 +636,24 @@ void error_callback(struct _MpdObj *mi, signed int errorid, char *msg, void *use
 void * event_key_thread()
 {
   struct input_event *event;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct input_event) /*24ul*/ );
-  event = (struct input_event *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct input_event) /*24ul*/ );
+  event = (struct input_event *)return_value_malloc_1;
   struct pollfd fds;
-  signed int event_key_thread$$1$$retval;
+  signed int event_key_thread__1__retval;
   while(leaving == 0)
   {
     event->value = 0;
     event->code = (unsigned short int)0;
     fds.fd = mmedia_fd;
     fds.events = (signed short int)0x001;
-    signed int return_value_poll$2;
-    return_value_poll$2=poll(&fds, (unsigned long int)1, 500);
-    if(return_value_poll$2 >= 1)
+    signed int return_value_poll_2;
+    return_value_poll_2=poll(&fds, (unsigned long int)1, 500);
+    if(return_value_poll_2 >= 1)
     {
-      signed long int return_value_read$3;
-      return_value_read$3=read(mmedia_fd, (void *)event, sizeof(struct input_event) /*24ul*/ );
-      event_key_thread$$1$$retval = (signed int)return_value_read$3;
+      signed long int return_value_read_3;
+      return_value_read_3=read(mmedia_fd, (void *)event, sizeof(struct input_event) /*24ul*/ );
+      event_key_thread__1__retval = (signed int)return_value_read_3;
       if(!(event->value == 0) && !(current_fg_check == 0))
       {
         signed int keycode = (signed int)event->code;
@@ -785,7 +785,7 @@ void * g15display_thread()
   unsigned char time_elapsed[41l];
   unsigned char time_total[41l];
   signed int changed = 0;
-  signed int return_value_g15_send$6;
+  signed int return_value_g15_send_6;
   while(leaving == 0)
   {
     if(!(playlist_mode == 0))
@@ -803,9 +803,9 @@ void * g15display_thread()
 
       if(playlist_selection >= 1)
       {
-        signed int return_value_mpd_playlist_get_playlist_length$1;
-        return_value_mpd_playlist_get_playlist_length$1=mpd_playlist_get_playlist_length(obj);
-        if(!(1 + current >= return_value_mpd_playlist_get_playlist_length$1))
+        signed int return_value_mpd_playlist_get_playlist_length_1;
+        return_value_mpd_playlist_get_playlist_length_1=mpd_playlist_get_playlist_length(obj);
+        if(!(1 + current >= return_value_mpd_playlist_get_playlist_length_1))
         {
           current = current + playlist_selection;
           changed = 1;
@@ -852,14 +852,14 @@ void * g15display_thread()
 
           }
 
-          signed int return_value_mpd_playlist_get_playlist_length$2;
-          return_value_mpd_playlist_get_playlist_length$2=mpd_playlist_get_playlist_length(obj);
-          if(i == return_value_mpd_playlist_get_playlist_length$2)
+          signed int return_value_mpd_playlist_get_playlist_length_2;
+          return_value_mpd_playlist_get_playlist_length_2=mpd_playlist_get_playlist_length(obj);
+          if(i == return_value_mpd_playlist_get_playlist_length_2)
             strncpy(title, "End of PlayList", (unsigned long int)99);
 
-          signed int return_value_mpd_playlist_get_playlist_length$3;
-          return_value_mpd_playlist_get_playlist_length$3=mpd_playlist_get_playlist_length(obj);
-          if(!(return_value_mpd_playlist_get_playlist_length$3 >= i))
+          signed int return_value_mpd_playlist_get_playlist_length_3;
+          return_value_mpd_playlist_get_playlist_length_3=mpd_playlist_get_playlist_length(obj);
+          if(!(return_value_mpd_playlist_get_playlist_length_3 >= i))
             break;
 
           if(!(i >= 0))
@@ -889,12 +889,12 @@ void * g15display_thread()
     else
     {
       g15r_pixelBox(canvas, 0, 0, 159, 42, 0, 1, 1);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(track_info.artist);
-      g15r_renderString(canvas, (unsigned char *)track_info.artist, 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen$4 * (unsigned long int)8) / (unsigned long int)2), (unsigned int)2);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(track_info.title);
-      g15r_renderString(canvas, (unsigned char *)track_info.title, 0, 1, (unsigned int)((unsigned long int)80 - (return_value_strlen$5 * (unsigned long int)5) / (unsigned long int)2), (unsigned int)12);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(track_info.artist);
+      g15r_renderString(canvas, (unsigned char *)track_info.artist, 0, 2, (unsigned int)((unsigned long int)80 - (return_value_strlen_4 * (unsigned long int)8) / (unsigned long int)2), (unsigned int)2);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(track_info.title);
+      g15r_renderString(canvas, (unsigned char *)track_info.title, 0, 1, (unsigned int)((unsigned long int)80 - (return_value_strlen_5 * (unsigned long int)5) / (unsigned long int)2), (unsigned int)12);
       memset((void *)time_elapsed, 0, (unsigned long int)41);
       memset((void *)time_total, 0, (unsigned long int)41);
       if(!(track_info.total == 0))
@@ -1006,8 +1006,8 @@ void * g15display_thread()
     if(!(last_chksum == chksum))
       do
       {
-        return_value_g15_send$6=g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
-        if(return_value_g15_send$6 >= 0)
+        return_value_g15_send_6=g15_send(g15screen_fd, (char *)canvas->buffer, (unsigned int)1048);
+        if(return_value_g15_send_6 >= 0)
           break;
 
         if(!(leaving == 0))
@@ -1052,41 +1052,41 @@ signed int main(signed int argc, char **argv)
   pthread_mutex_init(&lockit, (const union anonymous *)(void *)0);
   pthread_mutex_init(&daemon_mutex, (const union anonymous *)(void *)0);
   signed int i = 0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncmp$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strncmp$8;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncmp_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strncmp_8;
   for( ; !(i >= argc); i = i + 1)
   {
     char argument[20l];
     memset((void *)argument, 0, (unsigned long int)20);
     strncpy(argument, argv[(signed long int)i], (unsigned long int)19);
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(argument, "-q", (unsigned long int)2);
-    if(return_value_strncmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(argument, "-q", (unsigned long int)2);
+    if(return_value_strncmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$2=strncmp(argument, "--quickscroll", (unsigned long int)13);
-      tmp_if_expr$3 = !(return_value_strncmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_2=strncmp(argument, "--quickscroll", (unsigned long int)13);
+      tmp_if_expr_3 = !(return_value_strncmp_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       quickscroll = 1;
 
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(argument, "-h", (unsigned long int)2);
-    if(return_value_strncmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(argument, "-h", (unsigned long int)2);
+    if(return_value_strncmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$5=strncmp(argument, "--help", (unsigned long int)6);
-      tmp_if_expr$6 = !(return_value_strncmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_5=strncmp(argument, "--help", (unsigned long int)6);
+      tmp_if_expr_6 = !(return_value_strncmp_5 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       printf("  %s version %s\n  (c)2006-2007 Mike Lampard\n\n", argv[(signed long int)0], (const void *)"1.2.0");
       printf("%s -q or --quickscroll\tUse volume control to scroll through the playlist\n", argv[(signed long int)0]);
@@ -1095,17 +1095,17 @@ signed int main(signed int argc, char **argv)
       exit(0);
     }
 
-    signed int return_value_strncmp$7;
-    return_value_strncmp$7=strncmp(argument, "-v", (unsigned long int)2);
-    if(return_value_strncmp$7 == 0)
-      tmp_if_expr$9 = (_Bool)1;
+    signed int return_value_strncmp_7;
+    return_value_strncmp_7=strncmp(argument, "-v", (unsigned long int)2);
+    if(return_value_strncmp_7 == 0)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strncmp$8=strncmp(argument, "--version", (unsigned long int)9);
-      tmp_if_expr$9 = !(return_value_strncmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_8=strncmp(argument, "--version", (unsigned long int)9);
+      tmp_if_expr_9 = !(return_value_strncmp_8 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
     {
       printf("%s version %s\n", argv[(signed long int)0], (const void *)"1.2.0");
       exit(0);
@@ -1121,9 +1121,9 @@ signed int main(signed int argc, char **argv)
       printf("error opening interface %i", eventdev);
 
     ioctl(mmedia_fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(69 << 0 + 8) | (unsigned int)(0x06 << 0)) | sizeof(char [256l]) /*256ul*/  << 0 + 8 + 8, (const void *)devname);
-    signed int return_value_strncmp$10;
-    return_value_strncmp$10=strncmp(devname, "Logitech Logitech Gaming Keyboard", (unsigned long int)256);
-    if(return_value_strncmp$10 == 0)
+    signed int return_value_strncmp_10;
+    return_value_strncmp_10=strncmp(devname, "Logitech Logitech Gaming Keyboard", (unsigned long int)256);
+    if(return_value_strncmp_10 == 0)
     {
       printf("Found device: \"%s\" on %s ", (const void *)devname, (const void *)evdev_name);
       break;
@@ -1153,7 +1153,7 @@ signed int main(signed int argc, char **argv)
     iport=atoi(port);
 
   g15screen_fd=new_g15_screen(3);
-  signed int return_value_usleep$12;
+  signed int return_value_usleep_12;
   if(!(g15screen_fd >= 0))
   {
     printf("Sorry, cant connect to the G15daemon\n");
@@ -1162,9 +1162,9 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    void *return_value_malloc$11;
-    return_value_malloc$11=malloc(sizeof(struct g15canvas) /*1060ul*/ );
-    canvas = (struct g15canvas *)return_value_malloc$11;
+    void *return_value_malloc_11;
+    return_value_malloc_11=malloc(sizeof(struct g15canvas) /*1060ul*/ );
+    canvas = (struct g15canvas *)return_value_malloc_11;
     if(!(canvas == ((struct g15canvas *)NULL)))
     {
       memset((void *)canvas->buffer, 0, (unsigned long int)1048);
@@ -1175,11 +1175,11 @@ signed int main(signed int argc, char **argv)
 
     obj=mpd_new(hostname, iport, password);
     mpd_signal_connect_error(obj, (signed int (*)(struct _MpdObj *, signed int, char *, void *))error_callback, (void *)0);
-    mpd_signal_connect_status_changed(obj, (void (*)(struct _MpdObj *, enum anonymous$1, void *))status_changed, (void *)0);
+    mpd_signal_connect_status_changed(obj, (void (*)(struct _MpdObj *, enum anonymous_1, void *))status_changed, (void *)0);
     mpd_set_connection_timeout(obj, (float)10);
-    signed int return_value_mpd_connect$14;
-    return_value_mpd_connect$14=mpd_connect(obj);
-    if(return_value_mpd_connect$14 == 0)
+    signed int return_value_mpd_connect_14;
+    return_value_mpd_connect_14=mpd_connect(obj);
+    if(return_value_mpd_connect_14 == 0)
     {
       char buffer[20l];
       union pthread_attr_t attr;
@@ -1205,9 +1205,9 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            signed int return_value_mpd_status_get_volume$13;
-            return_value_mpd_status_get_volume$13=mpd_status_get_volume(obj);
-            if(return_value_mpd_status_get_volume$13 == 0)
+            signed int return_value_mpd_status_get_volume_13;
+            return_value_mpd_status_get_volume_13=mpd_status_get_volume(obj);
+            if(return_value_mpd_status_get_volume_13 == 0)
               mpd_status_set_volume(obj, muted_volume);
 
             muted_volume = 0;
@@ -1238,9 +1238,9 @@ signed int main(signed int argc, char **argv)
 
         mpd_status_update(obj);
         pthread_mutex_unlock(&daemon_mutex);
-        return_value_usleep$12=usleep((unsigned int)5000);
+        return_value_usleep_12=usleep((unsigned int)5000);
       }
-      while(leaving == 0 && return_value_usleep$12 == 0);
+      while(leaving == 0 && return_value_usleep_12 == 0);
     }
 
     mpd_free(obj);
@@ -1260,7 +1260,7 @@ signed int main(signed int argc, char **argv)
 
 // status_changed
 // file g15mpd.c line 512
-void status_changed(struct _MpdObj *mi, enum anonymous$1 what)
+void status_changed(struct _MpdObj *mi, enum anonymous_1 what)
 {
   pthread_mutex_lock(&lockit);
   struct _mpd_Song *song;

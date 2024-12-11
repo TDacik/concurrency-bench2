@@ -1,82 +1,82 @@
-// tag-#anon#ST[*{S8}$S8$'scheme'||*{S8}$S8$'host'||*{S8}$S8$'userinfo'||U32'port'||U32'$pad0'||*{S8}$S8$'path'||*{S8}$S8$'query'||*{S8}$S8$'fragment'|]
+// tag-#anon#ST[*{S8}_S8_'scheme'||*{S8}_S8_'host'||*{S8}_S8_'userinfo'||U32'port'||U32'_pad0'||*{S8}_S8_'path'||*{S8}_S8_'query'||*{S8}_S8_'fragment'|]
 // file /usr/include/neon/ne_uri.h line 58
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{cS8}$cS8$'nspace'||*{cS8}$cS8$'name'|]
+// tag-#anon#ST[*{cS8}_cS8_'nspace'||*{cS8}_cS8_'name'|]
 // file /usr/include/neon/ne_props.h line 56
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{cSYM#tag-#anon#ST[*{cS8}$cS8$'nspace'||*{cS8}$cS8$'name'|]#}$cSYM#tag-#anon#ST[*{cS8}$cS8$'nspace'||*{cS8}$cS8$'name'|]#$'name'||ENtag-ne_proppatch_optype#{U32}$U32$'type'||U32'$pad0'||*{cS8}$cS8$'value'|]
+// tag-#anon#ST[*{cSYM#tag-#anon#ST[*{cS8}_cS8_'nspace'||*{cS8}_cS8_'name'|]#}_cSYM#tag-#anon#ST[*{cS8}_cS8_'nspace'||*{cS8}_cS8_'name'|]#_'name'||ENtag-ne_proppatch_optype#{U32}_U32_'type'||U32'_pad0'||*{cS8}_cS8_'value'|]
 // file /usr/include/neon/ne_props.h line 146
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'major_version'||S32'minor_version'||S32'code'||S32'klass'||*{S8}$S8$'reason_phrase'|]
+// tag-#anon#ST[S32'major_version'||S32'minor_version'||S32'code'||S32'klass'||*{S8}_S8_'reason_phrase'|]
 // file /usr/include/neon/ne_utils.h line 98
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
 struct anonymous;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'valid'||S32'filling'||S32'in_use'||S32'valid2'||U32'hash'||U32'$pad0'||*{S8}$S8$'filename'||*{SYM#tag-dir_entry#}$SYM#tag-dir_entry#$'entries'||*{SYM#tag-dir_entry#}$SYM#tag-dir_entry#$'entries2'||S64'dead'||S64'dead2'|]
+// tag-#anon#ST[S32'valid'||S32'filling'||S32'in_use'||S32'valid2'||U32'hash'||U32'_pad0'||*{S8}_S8_'filename'||*{SYM#tag-dir_entry#}_SYM#tag-dir_entry#_'entries'||*{SYM#tag-dir_entry#}_SYM#tag-dir_entry#_'entries2'||S64'dead'||S64'dead2'|]
 // file ../../../src/statcache.c line 56
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'valid'||U32'hash'||*{S8}$S8$'filename'||S64'dead'||SYM#tag-stat#'st'|]
+// tag-#anon#ST[S32'valid'||U32'hash'||*{S8}_S8_'filename'||S64'dead'||SYM#tag-stat#'st'|]
 // file ../../../src/statcache.c line 48
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[S64'start'||S64'end'||S64'total'|]
 // file /usr/include/neon/ne_basic.h line 130
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$12;
+union anonymous_12;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -272,9 +272,9 @@ static signed int dav_read(const char *path, char *buf, unsigned long int size, 
 // dav_readdir
 // file ../../../src/fusedav.c line 276
 static signed int dav_readdir(const char *path, void *buf, signed int (*filler)(void *, const char *, struct stat *, signed long int), signed long int offset, struct fuse_file_info *fi);
-// dav_readdir::filler$object
+// dav_readdir::filler_object
 //
-signed int filler$object(void *, const char *, struct stat *, signed long int);
+signed int filler_object(void *, const char *, struct stat *, signed long int);
 // dav_release
 // file ../../../src/fusedav.c line 497
 static signed int dav_release(const char *path, struct fuse_file_info *info);
@@ -311,9 +311,9 @@ void dir_cache_begin(const char *fn);
 // dir_cache_enumerate
 // file ../../../src/statcache.h line 35
 signed int dir_cache_enumerate(const char *fn, void (*f)(const char *, const char *, void *), void *user);
-// dir_cache_enumerate::f$object
+// dir_cache_enumerate::f_object
 //
-void f$object(const char *, const char *, void *);
+void f_object(const char *, const char *, void *);
 // dir_cache_finish
 // file ../../../src/statcache.h line 33
 void dir_cache_finish(const char *fn, signed int success);
@@ -418,13 +418,13 @@ extern char * get_current_dir_name(void);
 static signed int get_stat(const char *path, struct stat *stbuf);
 // getattr_propfind_callback
 // file ../../../src/fusedav.c line 320
-static void getattr_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results);
+static void getattr_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results);
 // getdir_cache_callback
 // file ../../../src/fusedav.c line 259
 static void getdir_cache_callback(const char *root, const char *fn, void *user);
 // getdir_propfind_callback
 // file ../../../src/fusedav.c line 230
-static void getdir_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results);
+static void getdir_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results);
 // getenv
 // file /usr/include/stdlib.h line 564
 extern char * getenv(const char *);
@@ -439,19 +439,19 @@ extern signed int getopt(signed int, char * const *, const char *);
 extern unsigned int getuid(void);
 // getxattr_iterator
 // file ../../../src/fusedav.c line 854
-static signed int getxattr_iterator(void *userdata, const struct anonymous$14 *pname, const char *value, const struct anonymous$16 *status);
+static signed int getxattr_iterator(void *userdata, const struct anonymous_14 *pname, const char *value, const struct anonymous_16 *status);
 // getxattr_propfind_callback
 // file ../../../src/fusedav.c line 891
-static void getxattr_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results);
+static void getxattr_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results);
 // isatty
 // file /usr/include/unistd.h line 779
 extern signed int isatty(signed int);
 // listxattr_iterator
 // file ../../../src/fusedav.c line 754
-static signed int listxattr_iterator(void *userdata, const struct anonymous$14 *pname, const char *value, const struct anonymous$16 *status);
+static signed int listxattr_iterator(void *userdata, const struct anonymous_14 *pname, const char *value, const struct anonymous_16 *status);
 // listxattr_propfind_callback
 // file ../../../src/fusedav.c line 793
-static void listxattr_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results);
+static void listxattr_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results);
 // load_up_to_unlocked
 // file ../../../src/filecache.c line 235
 static signed int load_up_to_unlocked(struct file_info *fi, signed long int l);
@@ -484,13 +484,13 @@ static signed int ne_auth_creds_cb(void *userdata, const char *realm, signed int
 signed int ne_delete(struct ne_session_s *, const char *);
 // ne_fill_server_uri
 // file /usr/include/neon/ne_session.h line 330
-void ne_fill_server_uri(struct ne_session_s *, struct anonymous$13 *);
+void ne_fill_server_uri(struct ne_session_s *, struct anonymous_13 *);
 // ne_get_error
 // file /usr/include/neon/ne_session.h line 346
 const char * ne_get_error(struct ne_session_s *);
 // ne_get_range
 // file /usr/include/neon/ne_basic.h line 148
-signed int ne_get_range(struct ne_session_s *, const char *, struct anonymous$11 *, signed int);
+signed int ne_get_range(struct ne_session_s *, const char *, struct anonymous_11 *, signed int);
 // ne_get_response_header
 // file /usr/include/neon/ne_request.h line 134
 const char * ne_get_response_header(struct ne_request_s *, const char *);
@@ -541,19 +541,19 @@ char * ne_path_parent(const char *);
 char * ne_path_unescape(const char *);
 // ne_proppatch
 // file /usr/include/neon/ne_props.h line 155
-signed int ne_proppatch(struct ne_session_s *, const char *, const struct anonymous$15 *);
+signed int ne_proppatch(struct ne_session_s *, const char *, const struct anonymous_15 *);
 // ne_propset_iterate
 // file /usr/include/neon/ne_props.h line 101
-signed int ne_propset_iterate(const struct ne_prop_result_set_s *, signed int (*)(void *, const struct anonymous$14 *, const char *, const struct anonymous$16 *), void *);
+signed int ne_propset_iterate(const struct ne_prop_result_set_s *, signed int (*)(void *, const struct anonymous_14 *, const char *, const struct anonymous_16 *), void *);
 // ne_propset_value
 // file /usr/include/neon/ne_props.h line 65
-const char * ne_propset_value(const struct ne_prop_result_set_s *, const struct anonymous$14 *);
+const char * ne_propset_value(const struct ne_prop_result_set_s *, const struct anonymous_14 *);
 // ne_put
 // file /usr/include/neon/ne_basic.h line 37
 signed int ne_put(struct ne_session_s *, const char *, signed int);
 // ne_redirect_location
 // file /usr/include/neon/ne_redirect.h line 38
-const struct anonymous$13 * ne_redirect_location(struct ne_session_s *);
+const struct anonymous_13 * ne_redirect_location(struct ne_session_s *);
 // ne_redirect_register
 // file /usr/include/neon/ne_redirect.h line 33
 void ne_redirect_register(struct ne_session_s *);
@@ -583,7 +583,7 @@ void ne_session_destroy(struct ne_session_s *);
 void ne_set_server_auth(struct ne_session_s *, signed int (*)(void *, const char *, signed int, char *, char *), void *);
 // ne_simple_propfind
 // file /usr/include/neon/ne_props.h line 127
-signed int ne_simple_propfind(struct ne_session_s *, const char *, signed int, const struct anonymous$14 *, void (*)(void *, const struct anonymous$13 *, const struct ne_prop_result_set_s *), void *);
+signed int ne_simple_propfind(struct ne_session_s *, const char *, signed int, const struct anonymous_14 *, void (*)(void *, const struct anonymous_13 *, const struct ne_prop_result_set_s *), void *);
 // ne_sock_init
 // file /usr/include/neon/ne_socket.h line 58
 signed int ne_sock_init(void);
@@ -598,10 +598,10 @@ signed int ne_unlock(struct ne_session_s *, struct ne_lock *);
 unsigned int ne_uri_defaultport(const char *);
 // ne_uri_free
 // file /usr/include/neon/ne_uri.h line 98
-void ne_uri_free(struct anonymous$13 *);
+void ne_uri_free(struct anonymous_13 *);
 // ne_uri_parse
 // file /usr/include/neon/ne_uri.h line 71
-signed int ne_uri_parse(const char *, struct anonymous$13 *);
+signed int ne_uri_parse(const char *, struct anonymous_13 *);
 // parse_xattr
 // file ../../../src/fusedav.c line 896
 static signed int parse_xattr(const char *name, char *dnspace, unsigned long int dnspace_length, char *dname, unsigned long int dname_length);
@@ -616,7 +616,7 @@ static void path_cvt_tsd_key_init(void);
 extern signed long int pread(signed int, void *, unsigned long int, signed long int);
 // proppatch_with_redirect
 // file ../../../src/fusedav.c line 148
-static signed int proppatch_with_redirect(struct ne_session_s *session, const char *path, const struct anonymous$15 *ops);
+static signed int proppatch_with_redirect(struct ne_session_s *session, const char *path, const struct anonymous_15 *ops);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -634,16 +634,16 @@ extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$12 *);
+extern signed int pthread_mutex_destroy(union anonymous_12 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$12 *, const union anonymous$10 *);
+extern signed int pthread_mutex_init(union anonymous_12 *, const union anonymous_10 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$12 *);
+extern signed int pthread_mutex_lock(union anonymous_12 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$12 *);
+extern signed int pthread_mutex_unlock(union anonymous_12 *);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -652,7 +652,7 @@ extern signed int pthread_once(signed int *, void (*)(void));
 extern signed int pthread_setspecific(unsigned int, const void *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$17 *, struct anonymous$17 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_17 *, struct anonymous_17 *);
 // pwrite
 // file /usr/include/unistd.h line 391
 extern signed long int pwrite(signed int, const void *, unsigned long int, signed long int);
@@ -670,7 +670,7 @@ void session_free(void);
 struct ne_session_s * session_get(signed int with_lock);
 // session_is_local
 // file ../../../src/session.h line 31
-signed int session_is_local(const struct anonymous$13 *u);
+signed int session_is_local(const struct anonymous_13 *u);
 // session_open
 // file ../../../src/session.c line 128
 static struct ne_session_s * session_open(signed int with_lock);
@@ -688,19 +688,19 @@ static signed int setup_signal_handlers(void);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$17 *, signed int);
+extern signed int sigaddset(struct anonymous_17 *, signed int);
 // sigdelset
 // file /usr/include/signal.h line 224
-extern signed int sigdelset(struct anonymous$17 *, signed int);
+extern signed int sigdelset(struct anonymous_17 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$17 *);
+extern signed int sigemptyset(struct anonymous_17 *);
 // simple_propfind_with_redirect
 // file ../../../src/fusedav.c line 117
-static signed int simple_propfind_with_redirect(struct ne_session_s *session, const char *path, signed int depth, const struct anonymous$14 *props, void (*results)(void *, const struct anonymous$13 *, const struct ne_prop_result_set_s *), void *userdata);
-// simple_propfind_with_redirect::results$object
+static signed int simple_propfind_with_redirect(struct ne_session_s *session, const char *path, signed int depth, const struct anonymous_14 *props, void (*results)(void *, const struct anonymous_13 *, const struct ne_prop_result_set_s *), void *userdata);
+// simple_propfind_with_redirect::results_object
 //
-void results$object(void *, const struct anonymous$13 *, const struct ne_prop_result_set_s *);
+void results_object(void *, const struct anonymous_13 *, const struct ne_prop_result_set_s *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -777,7 +777,7 @@ static void usage(char *argv0);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$13
+struct anonymous_13
 {
   // scheme
   char *scheme;
@@ -795,7 +795,7 @@ struct anonymous$13
   char *fragment;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // _call_addr
   void *_call_addr;
@@ -805,7 +805,7 @@ struct anonymous$5
   unsigned int _arch;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_addr
   void *si_addr;
@@ -813,7 +813,7 @@ struct anonymous$3
   signed short int si_addr_lsb;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // nspace
   const char *nspace;
@@ -821,23 +821,23 @@ struct anonymous$14
   const char *name;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // name
-  const struct anonymous$14 *name;
+  const struct anonymous_14 *name;
   // type
   enum ne_proppatch_optype type;
   // value
   const char *value;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // major_version
   signed int major_version;
@@ -859,7 +859,7 @@ struct anonymous
   unsigned int si_uid;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_pid
   signed int si_pid;
@@ -881,7 +881,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // si_pid
   signed int si_pid;
@@ -891,7 +891,7 @@ struct anonymous$1
   union sigval si_sigval;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_tid
   signed int si_tid;
@@ -901,7 +901,7 @@ struct anonymous$0
   union sigval si_sigval;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_band
   signed long int si_band;
@@ -909,27 +909,27 @@ struct anonymous$4
   signed int si_fd;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // _pad
   signed int _pad[28l];
   // _kill
   struct anonymous _kill;
   // _timer
-  struct anonymous$0 _timer;
+  struct anonymous_0 _timer;
   // _rt
-  struct anonymous$1 _rt;
+  struct anonymous_1 _rt;
   // _sigchld
-  struct anonymous$2 _sigchld;
+  struct anonymous_2 _sigchld;
   // _sigfault
-  struct anonymous$3 _sigfault;
+  struct anonymous_3 _sigfault;
   // _sigpoll
-  struct anonymous$4 _sigpoll;
+  struct anonymous_4 _sigpoll;
   // _sigsys
-  struct anonymous$5 _sigsys;
+  struct anonymous_5 _sigsys;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_signo
   signed int si_signo;
@@ -938,10 +938,10 @@ struct anonymous$7
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$6 _sifields;
+  union anonymous_6 _sifields;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // valid
   signed int valid;
@@ -1007,7 +1007,7 @@ struct stat
   signed long int __glibc_reserved[3l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // valid
   signed int valid;
@@ -1021,7 +1021,7 @@ struct anonymous$8
   struct stat st;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // start
   signed long int start;
@@ -1031,15 +1031,15 @@ struct anonymous$11
   signed long int total;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$7 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_7 *, void *);
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __size
   char __size[4l];
@@ -1075,7 +1075,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1160,9 +1160,9 @@ struct _IO_marker
 struct cache_entry
 {
   // stat_info
-  struct anonymous$8 stat_info;
+  struct anonymous_8 stat_info;
   // dir_info
-  struct anonymous$9 dir_info;
+  struct anonymous_9 dir_info;
 };
 
 struct dir_entry
@@ -1196,7 +1196,7 @@ struct file_info
   // dead
   signed int dead;
   // mutex
-  union anonymous$12 mutex;
+  union anonymous_12 mutex;
   // next
   struct file_info *next;
 };
@@ -1324,7 +1324,7 @@ struct fuse_operations_compat25
 struct getxattr_info
 {
   // propname
-  struct anonymous$14 propname;
+  struct anonymous_14 propname;
   // value
   char *value;
   // space
@@ -1346,7 +1346,7 @@ struct listxattr_info
 struct ne_lock
 {
   // uri
-  struct anonymous$13 uri;
+  struct anonymous_13 uri;
   // depth
   signed int depth;
   // type
@@ -1372,9 +1372,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$18 __sigaction_handler;
+  union anonymous_18 __sigaction_handler;
   // sa_mask
-  struct anonymous$17 sa_mask;
+  struct anonymous_17 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1449,7 +1449,7 @@ char *base_directory = (char *)(void *)0;
 static struct cache_entry *cache = (struct cache_entry *)(void *)0;
 // credential_mutex
 // file ../../../src/session.c line 56
-static union anonymous$12 credential_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_12 credential_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // dav_oper
@@ -1482,7 +1482,7 @@ static struct fuse_operations_compat25 dav_oper = { .getattr=dav_getattr, .readl
 signed int debug = 0;
 // dir_cache_mutex
 // file ../../../src/statcache.c line 67
-static union anonymous$12 dir_cache_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_12 dir_cache_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // files
@@ -1490,7 +1490,7 @@ static union anonymous$12 dir_cache_mutex = { .__data={ .__lock=0, .__count=(uns
 static struct file_info *files = (struct file_info *)(void *)0;
 // files_mutex
 // file ../../../src/filecache.c line 69
-static union anonymous$12 files_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_12 files_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // fuse
@@ -1528,7 +1528,7 @@ static signed int path_cvt_once = 0;
 static unsigned int path_cvt_tsd_key;
 // query_properties
 // file ../../../src/fusedav.c line 57
-const struct anonymous$14 query_properties[6l] = { { .nspace="DAV:", .name="resourcetype" },
+const struct anonymous_14 query_properties[6l] = { { .nspace="DAV:", .name="resourcetype" },
     { .nspace="http://apache.org/dav/props/", .name="executable" },
     { .nspace="DAV:", .name="getcontentlength" },
     { .nspace="DAV:", .name="getlastmodified" },
@@ -1542,7 +1542,7 @@ static signed int session_once = 0;
 static unsigned int session_tsd_key;
 // stat_cache_mutex
 // file ../../../src/statcache.c line 66
-static union anonymous$12 stat_cache_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_12 stat_cache_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // stderr
@@ -1553,7 +1553,7 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdin;
 // uri
 // file ../../../src/session.c line 49
-struct anonymous$13 uri;
+struct anonymous_13 uri;
 // username
 // file ../../../src/session.c line 52
 char *username = (char *)(void *)0;
@@ -1569,31 +1569,31 @@ static char * ask_user(const char *p, signed int hidden)
   signed int l;
   if(!(hidden == 0))
   {
-    signed int return_value_fileno$5;
-    return_value_fileno$5=fileno(stdin);
-    signed int return_value_isatty$6;
-    return_value_isatty$6=isatty(return_value_fileno$5);
-    if(return_value_isatty$6 == 0)
+    signed int return_value_fileno_5;
+    return_value_fileno_5=fileno(stdin);
+    signed int return_value_isatty_6;
+    return_value_isatty_6=isatty(return_value_fileno_5);
+    if(return_value_isatty_6 == 0)
       hidden = 0;
 
     else
     {
-      signed int return_value_fileno$3;
-      return_value_fileno$3=fileno(stdin);
-      signed int return_value_tcgetattr$4;
-      return_value_tcgetattr$4=tcgetattr(return_value_fileno$3, &t);
-      if(!(return_value_tcgetattr$4 >= 0))
+      signed int return_value_fileno_3;
+      return_value_fileno_3=fileno(stdin);
+      signed int return_value_tcgetattr_4;
+      return_value_tcgetattr_4=tcgetattr(return_value_fileno_3, &t);
+      if(!(return_value_tcgetattr_4 >= 0))
         hidden = 0;
 
       else
       {
         c = (signed int)t.c_lflag;
         t.c_lflag = t.c_lflag & (unsigned int)~0000010;
-        signed int return_value_fileno$1;
-        return_value_fileno$1=fileno(stdin);
-        signed int return_value_tcsetattr$2;
-        return_value_tcsetattr$2=tcsetattr(return_value_fileno$1, 0, &t);
-        if(!(return_value_tcsetattr$2 >= 0))
+        signed int return_value_fileno_1;
+        return_value_fileno_1=fileno(stdin);
+        signed int return_value_tcsetattr_2;
+        return_value_tcsetattr_2=tcsetattr(return_value_fileno_1, 0, &t);
+        if(!(return_value_tcsetattr_2 >= 0))
           hidden = 0;
 
       }
@@ -1602,9 +1602,9 @@ static char * ask_user(const char *p, signed int hidden)
 
   fprintf(stderr, "%s: ", p);
   r=fgets(q, (signed int)sizeof(char [256l]) /*256ul*/ , stdin);
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(q);
-  l = (signed int)return_value_strlen$7;
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(q);
+  l = (signed int)return_value_strlen_7;
   if(!(l == 0))
   {
     if((signed int)q[(signed long int)(l + -1)] == 10)
@@ -1615,23 +1615,23 @@ static char * ask_user(const char *p, signed int hidden)
   if(!(hidden == 0))
   {
     t.c_lflag = (unsigned int)c;
-    signed int return_value_fileno$8;
-    return_value_fileno$8=fileno(stdin);
-    tcsetattr(return_value_fileno$8, 0, &t);
+    signed int return_value_fileno_8;
+    return_value_fileno_8=fileno(stdin);
+    tcsetattr(return_value_fileno_8, 0, &t);
     fprintf(stderr, "\n");
   }
 
-  char *tmp_if_expr$10;
-  char *return_value_strdup$9;
+  char *tmp_if_expr_10;
+  char *return_value_strdup_9;
   if(!(r == ((char *)NULL)))
   {
-    return_value_strdup$9=strdup(r);
-    tmp_if_expr$10 = return_value_strdup$9;
+    return_value_strdup_9=strdup(r);
+    tmp_if_expr_10 = return_value_strdup_9;
   }
 
   else
-    tmp_if_expr$10 = (char *)(void *)0;
-  return tmp_if_expr$10;
+    tmp_if_expr_10 = (char *)(void *)0;
+  return tmp_if_expr_10;
 }
 
 // cache_alloc
@@ -1640,9 +1640,9 @@ void cache_alloc(void)
 {
   if(cache == ((struct cache_entry *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct cache_entry) /*232ul*/  * (unsigned long int)2049);
-    cache = (struct cache_entry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct cache_entry) /*232ul*/  * (unsigned long int)2049);
+    cache = (struct cache_entry *)return_value_malloc_1;
     /* assertion cache */
     assert(cache != ((struct cache_entry *)NULL));
     memset((void *)cache, 0, sizeof(struct cache_entry) /*232ul*/  * (unsigned long int)2049);
@@ -1713,9 +1713,9 @@ static signed int create_lock(void)
         owner=getenv("LOGNAME");
         if(owner == ((char *)NULL))
         {
-          unsigned int return_value_getuid$1;
-          return_value_getuid$1=getuid();
-          snprintf(_owner, sizeof(char [64l]) /*64ul*/ , "%lu", (unsigned long int)return_value_getuid$1);
+          unsigned int return_value_getuid_1;
+          return_value_getuid_1=getuid();
+          snprintf(_owner, sizeof(char [64l]) /*64ul*/ , "%lu", (unsigned long int)return_value_getuid_1);
           owner = owner;
         }
 
@@ -1734,18 +1734,18 @@ static signed int create_lock(void)
     i = 0;
     for( ; !(i >= 10); i = i + 1)
     {
-      const struct anonymous$13 *u;
+      const struct anonymous_13 *u;
       ret=ne_lock(session, lock);
       if(!(ret == 9))
         break;
 
       u=ne_redirect_location(session);
-      if(u == ((const struct anonymous$13 *)NULL))
+      if(u == ((const struct anonymous_13 *)NULL))
         break;
 
-      signed int return_value_session_is_local$2;
-      return_value_session_is_local$2=session_is_local(u);
-      if(return_value_session_is_local$2 == 0)
+      signed int return_value_session_is_local_2;
+      return_value_session_is_local_2=session_is_local(u);
+      if(return_value_session_is_local_2 == 0)
         break;
 
       if(!(debug == 0))
@@ -1756,9 +1756,9 @@ static signed int create_lock(void)
     }
     if(!(ret == 0))
     {
-      const char *return_value_ne_get_error$3;
-      return_value_ne_get_error$3=ne_get_error(session);
-      fprintf(stderr, "LOCK failed: %s\n", return_value_ne_get_error$3);
+      const char *return_value_ne_get_error_3;
+      return_value_ne_get_error_3=ne_get_error(session);
+      fprintf(stderr, "LOCK failed: %s\n", return_value_ne_get_error_3);
       ne_lock_destroy(lock);
       lock = (struct ne_lock *)(void *)0;
       return -1;
@@ -1777,8 +1777,8 @@ static signed int create_lock(void)
 static signed int dav_chmod(const char *path, unsigned int mode)
 {
   struct ne_session_s *session;
-  const struct anonymous$14 executable = { .nspace="http://apache.org/dav/props/", .name="executable" };
-  struct anonymous$15 ops[2l];
+  const struct anonymous_14 executable = { .nspace="http://apache.org/dav/props/", .name="executable" };
+  struct anonymous_15 ops[2l];
   signed int r = 0;
   /* assertion path */
   assert(path != ((const char *)NULL));
@@ -1789,20 +1789,20 @@ static signed int dav_chmod(const char *path, unsigned int mode)
   ops[(signed long int)0].name = &executable;
   ops[(signed long int)0].type = (enum ne_proppatch_optype)ne_propset;
   ops[(signed long int)0].value = (mode & (unsigned int)0111) != 0u ? "T" : "F";
-  ops[(signed long int)1].name = (const struct anonymous$14 *)(void *)0;
+  ops[(signed long int)1].name = (const struct anonymous_14 *)(void *)0;
   session=session_get(1);
-  signed int return_value_proppatch_with_redirect$2;
+  signed int return_value_proppatch_with_redirect_2;
   if(session == ((struct ne_session_s *)NULL))
     r = -5;
 
   else
   {
-    return_value_proppatch_with_redirect$2=proppatch_with_redirect(session, path, ops);
-    if(!(return_value_proppatch_with_redirect$2 == 0))
+    return_value_proppatch_with_redirect_2=proppatch_with_redirect(session, path, ops);
+    if(!(return_value_proppatch_with_redirect_2 == 0))
     {
-      const char *return_value_ne_get_error$1;
-      return_value_ne_get_error$1=ne_get_error(session);
-      fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error$1);
+      const char *return_value_ne_get_error_1;
+      return_value_ne_get_error_1=ne_get_error(session);
+      fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error_1);
       r = -95;
       goto finish;
     }
@@ -1827,7 +1827,7 @@ static signed int dav_fsync(const char *path, signed int isdatasync, struct fuse
     fprintf(stderr, "fsync(%s)\n", path);
 
   session=session_get(1);
-  signed int return_value_file_cache_sync$2;
+  signed int return_value_file_cache_sync_2;
   if(session == ((struct ne_session_s *)NULL))
     r = -5;
 
@@ -1842,12 +1842,12 @@ static signed int dav_fsync(const char *path, signed int isdatasync, struct fuse
 
     else
     {
-      return_value_file_cache_sync$2=file_cache_sync(f);
-      if(!(return_value_file_cache_sync$2 >= 0))
+      return_value_file_cache_sync_2=file_cache_sync(f);
+      if(!(return_value_file_cache_sync_2 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        r = -(*return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        r = -(*return_value___errno_location_1);
         goto finish;
       }
 
@@ -1870,9 +1870,9 @@ static signed int dav_getattr(const char *path, struct stat *stbuf)
   if(!(debug == 0))
     fprintf(stderr, "getattr(%s)\n", path);
 
-  signed int return_value_get_stat$1;
-  return_value_get_stat$1=get_stat(path, stbuf);
-  return return_value_get_stat$1;
+  signed int return_value_get_stat_1;
+  return_value_get_stat_1=get_stat(path, stbuf);
+  return return_value_get_stat_1;
 }
 
 // dav_getxattr
@@ -1881,7 +1881,7 @@ static signed int dav_getxattr(const char *path, const char *name, char *value, 
 {
   struct ne_session_s *session;
   struct getxattr_info g;
-  struct anonymous$14 props[2l];
+  struct anonymous_14 props[2l];
   char dnspace[128l];
   char dname[128l];
   /* assertion path */
@@ -1891,9 +1891,9 @@ static signed int dav_getxattr(const char *path, const char *name, char *value, 
   if(!(debug == 0))
     fprintf(stderr, "getxattr(%s, %s, .., %lu)\n", path, name, (unsigned long int)size);
 
-  signed int return_value_parse_xattr$1;
-  return_value_parse_xattr$1=parse_xattr(name, dnspace, sizeof(char [128l]) /*128ul*/ , dname, sizeof(char [128l]) /*128ul*/ );
-  if(!(return_value_parse_xattr$1 >= 0))
+  signed int return_value_parse_xattr_1;
+  return_value_parse_xattr_1=parse_xattr(name, dnspace, sizeof(char [128l]) /*128ul*/ , dname, sizeof(char [128l]) /*128ul*/ );
+  if(!(return_value_parse_xattr_1 >= 0))
     return -61;
 
   else
@@ -1922,13 +1922,13 @@ static signed int dav_getxattr(const char *path, const char *name, char *value, 
 
     else
     {
-      signed int return_value_simple_propfind_with_redirect$3;
-      return_value_simple_propfind_with_redirect$3=simple_propfind_with_redirect(session, path, 0, props, getxattr_propfind_callback, (void *)&g);
-      if(!(return_value_simple_propfind_with_redirect$3 == 0))
+      signed int return_value_simple_propfind_with_redirect_3;
+      return_value_simple_propfind_with_redirect_3=simple_propfind_with_redirect(session, path, 0, props, getxattr_propfind_callback, (void *)&g);
+      if(!(return_value_simple_propfind_with_redirect_3 == 0))
       {
-        const char *return_value_ne_get_error$2;
-        return_value_ne_get_error$2=ne_get_error(session);
-        fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error$2);
+        const char *return_value_ne_get_error_2;
+        return_value_ne_get_error_2=ne_get_error(session);
+        fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error_2);
         return -5;
       }
 
@@ -1980,13 +1980,13 @@ static signed int dav_listxattr(const char *path, char *list, unsigned long int 
 
   else
   {
-    signed int return_value_simple_propfind_with_redirect$2;
-    return_value_simple_propfind_with_redirect$2=simple_propfind_with_redirect(session, path, 0, (const struct anonymous$14 *)(void *)0, listxattr_propfind_callback, (void *)&l);
-    if(!(return_value_simple_propfind_with_redirect$2 == 0))
+    signed int return_value_simple_propfind_with_redirect_2;
+    return_value_simple_propfind_with_redirect_2=simple_propfind_with_redirect(session, path, 0, (const struct anonymous_14 *)(void *)0, listxattr_propfind_callback, (void *)&l);
+    if(!(return_value_simple_propfind_with_redirect_2 == 0))
     {
-      const char *return_value_ne_get_error$1;
-      return_value_ne_get_error$1=ne_get_error(session);
-      fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error$1);
+      const char *return_value_ne_get_error_1;
+      return_value_ne_get_error_1=ne_get_error(session);
+      fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error_1);
       return -5;
     }
 
@@ -2018,13 +2018,13 @@ static signed int dav_mkdir(const char *path, unsigned int mode)
   else
   {
     snprintf(fn, sizeof(char [4096l]) /*4096ul*/ , "%s/", path);
-    signed int return_value_ne_mkcol$2;
-    return_value_ne_mkcol$2=ne_mkcol(session, fn);
-    if(!(return_value_ne_mkcol$2 == 0))
+    signed int return_value_ne_mkcol_2;
+    return_value_ne_mkcol_2=ne_mkcol(session, fn);
+    if(!(return_value_ne_mkcol_2 == 0))
     {
-      const char *return_value_ne_get_error$1;
-      return_value_ne_get_error$1=ne_get_error(session);
-      fprintf(stderr, "MKCOL failed: %s\n", return_value_ne_get_error$1);
+      const char *return_value_ne_get_error_1;
+      return_value_ne_get_error_1=ne_get_error(session);
+      fprintf(stderr, "MKCOL failed: %s\n", return_value_ne_get_error_1);
       return -2;
     }
 
@@ -2046,7 +2046,7 @@ static signed int dav_mknod(const char *path, unsigned int mode, unsigned long i
     fprintf(stderr, "mknod(%s)\n", path);
 
   session=session_get(1);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(session == ((struct ne_session_s *)NULL))
     return -5;
 
@@ -2060,20 +2060,20 @@ static signed int dav_mknod(const char *path, unsigned int mode, unsigned long i
       fd=mkstemp(tempfile);
       if(!(fd >= 0))
       {
-        return_value___errno_location$1=__errno_location();
-        return -(*return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        return -(*return_value___errno_location_1);
       }
 
       else
       {
         unlink(tempfile);
-        signed int return_value_ne_put$3;
-        return_value_ne_put$3=ne_put(session, path, fd);
-        if(!(return_value_ne_put$3 == 0))
+        signed int return_value_ne_put_3;
+        return_value_ne_put_3=ne_put(session, path, fd);
+        if(!(return_value_ne_put_3 == 0))
         {
-          const char *return_value_ne_get_error$2;
-          return_value_ne_get_error$2=ne_get_error(session);
-          fprintf(stderr, "mknod:PUT failed: %s\n", return_value_ne_get_error$2);
+          const char *return_value_ne_get_error_2;
+          return_value_ne_get_error_2=ne_get_error(session);
+          fprintf(stderr, "mknod:PUT failed: %s\n", return_value_ne_get_error_2);
           close(fd);
           return -13;
         }
@@ -2096,11 +2096,11 @@ static signed int dav_open(const char *path, struct fuse_file_info *info)
 
   path=path_cvt(path);
   f=file_cache_open(path, info->flags);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(f == NULL)
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -2121,7 +2121,7 @@ static signed int dav_read(const char *path, char *buf, unsigned long int size, 
     fprintf(stderr, "read(%s, %lu+%lu)\n", path, (unsigned long int)offset, (unsigned long int)size);
 
   f=file_cache_get(path);
-  signed int return_value_file_cache_read$2;
+  signed int return_value_file_cache_read_2;
   if(f == NULL)
   {
     fprintf(stderr, "read() called for closed file\n");
@@ -2130,13 +2130,13 @@ static signed int dav_read(const char *path, char *buf, unsigned long int size, 
 
   else
   {
-    return_value_file_cache_read$2=file_cache_read(f, buf, size, offset);
-    r = (signed long int)return_value_file_cache_read$2;
+    return_value_file_cache_read_2=file_cache_read(f, buf, size, offset);
+    r = (signed long int)return_value_file_cache_read_2;
     if(!(r >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      r = (signed long int)-(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      r = (signed long int)-(*return_value___errno_location_1);
       goto finish;
     }
 
@@ -2165,9 +2165,9 @@ static signed int dav_readdir(const char *path, void *buf, signed int (*filler)(
   f.root = path;
   filler(buf, ".", (struct stat *)(void *)0, (signed long int)0);
   filler(buf, "..", (struct stat *)(void *)0, (signed long int)0);
-  signed int return_value_dir_cache_enumerate$3;
-  return_value_dir_cache_enumerate$3=dir_cache_enumerate(path, getdir_cache_callback, (void *)&f);
-  if(!(return_value_dir_cache_enumerate$3 >= 0))
+  signed int return_value_dir_cache_enumerate_3;
+  return_value_dir_cache_enumerate_3=dir_cache_enumerate(path, getdir_cache_callback, (void *)&f);
+  if(!(return_value_dir_cache_enumerate_3 >= 0))
   {
     if(!(debug == 0))
       fprintf(stderr, "DIR-CACHE-MISS\n");
@@ -2177,14 +2177,14 @@ static signed int dav_readdir(const char *path, void *buf, signed int (*filler)(
       return -5;
 
     dir_cache_begin(path);
-    signed int return_value_simple_propfind_with_redirect$2;
-    return_value_simple_propfind_with_redirect$2=simple_propfind_with_redirect(session, path, 1, query_properties, getdir_propfind_callback, (void *)&f);
-    if(!(return_value_simple_propfind_with_redirect$2 == 0))
+    signed int return_value_simple_propfind_with_redirect_2;
+    return_value_simple_propfind_with_redirect_2=simple_propfind_with_redirect(session, path, 1, query_properties, getdir_propfind_callback, (void *)&f);
+    if(!(return_value_simple_propfind_with_redirect_2 == 0))
     {
       dir_cache_finish(path, 2);
-      const char *return_value_ne_get_error$1;
-      return_value_ne_get_error$1=ne_get_error(session);
-      fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error$1);
+      const char *return_value_ne_get_error_1;
+      return_value_ne_get_error_1=ne_get_error(session);
+      fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error_1);
       return -2;
     }
 
@@ -2206,7 +2206,7 @@ static signed int dav_release(const char *path, struct fuse_file_info *info)
     fprintf(stderr, "release(%s)\n", path);
 
   session=session_get(1);
-  signed int return_value_file_cache_close$2;
+  signed int return_value_file_cache_close_2;
   if(session == ((struct ne_session_s *)NULL))
     r = -5;
 
@@ -2221,12 +2221,12 @@ static signed int dav_release(const char *path, struct fuse_file_info *info)
 
     else
     {
-      return_value_file_cache_close$2=file_cache_close(f);
-      if(!(return_value_file_cache_close$2 >= 0))
+      return_value_file_cache_close_2=file_cache_close(f);
+      if(!(return_value_file_cache_close_2 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        r = -(*return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        r = -(*return_value___errno_location_1);
         goto finish;
       }
 
@@ -2246,8 +2246,8 @@ finish:
 static signed int dav_removexattr(const char *path, const char *name)
 {
   struct ne_session_s *session;
-  struct anonymous$14 propname;
-  struct anonymous$15 ops[2l];
+  struct anonymous_14 propname;
+  struct anonymous_15 ops[2l];
   signed int r = 0;
   char dnspace[128l];
   char dname[128l];
@@ -2260,10 +2260,10 @@ static signed int dav_removexattr(const char *path, const char *name)
   if(!(debug == 0))
     fprintf(stderr, "removexattr(%s, %s)\n", path, name);
 
-  signed int return_value_parse_xattr$1;
-  return_value_parse_xattr$1=parse_xattr(name, dnspace, sizeof(char [128l]) /*128ul*/ , dname, sizeof(char [128l]) /*128ul*/ );
-  signed int return_value_proppatch_with_redirect$3;
-  if(!(return_value_parse_xattr$1 >= 0))
+  signed int return_value_parse_xattr_1;
+  return_value_parse_xattr_1=parse_xattr(name, dnspace, sizeof(char [128l]) /*128ul*/ , dname, sizeof(char [128l]) /*128ul*/ );
+  signed int return_value_proppatch_with_redirect_3;
+  if(!(return_value_parse_xattr_1 >= 0))
     r = -61;
 
   else
@@ -2273,19 +2273,19 @@ static signed int dav_removexattr(const char *path, const char *name)
     ops[(signed long int)0].name = &propname;
     ops[(signed long int)0].type = (enum ne_proppatch_optype)ne_propremove;
     ops[(signed long int)0].value = (const char *)(void *)0;
-    ops[(signed long int)1].name = (const struct anonymous$14 *)(void *)0;
+    ops[(signed long int)1].name = (const struct anonymous_14 *)(void *)0;
     session=session_get(1);
     if(session == ((struct ne_session_s *)NULL))
       r = -5;
 
     else
     {
-      return_value_proppatch_with_redirect$3=proppatch_with_redirect(session, path, ops);
-      if(!(return_value_proppatch_with_redirect$3 == 0))
+      return_value_proppatch_with_redirect_3=proppatch_with_redirect(session, path, ops);
+      if(!(return_value_proppatch_with_redirect_3 == 0))
       {
-        const char *return_value_ne_get_error$2;
-        return_value_ne_get_error$2=ne_get_error(session);
-        fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error$2);
+        const char *return_value_ne_get_error_2;
+        return_value_ne_get_error_2=ne_get_error(session);
+        fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error_2);
         r = -95;
         goto finish;
       }
@@ -2308,9 +2308,9 @@ static signed int dav_rename(const char *from, const char *to)
   struct stat st;
   char fn[4096l];
   char *_from;
-  const char *return_value_path_cvt$1;
-  return_value_path_cvt$1=path_cvt(from);
-  _from=strdup(return_value_path_cvt$1);
+  const char *return_value_path_cvt_1;
+  return_value_path_cvt_1=path_cvt(from);
+  _from=strdup(return_value_path_cvt_1);
   from = _from;
   /* assertion from */
   assert(from != ((const char *)NULL));
@@ -2319,7 +2319,7 @@ static signed int dav_rename(const char *from, const char *to)
     fprintf(stderr, "rename(%s, %s)\n", from, to);
 
   session=session_get(1);
-  signed int return_value_ne_move$3;
+  signed int return_value_ne_move_3;
   if(session == ((struct ne_session_s *)NULL))
     r = -5;
 
@@ -2334,12 +2334,12 @@ static signed int dav_rename(const char *from, const char *to)
         from = fn;
       }
 
-      return_value_ne_move$3=ne_move(session, 1, from, to);
-      if(!(return_value_ne_move$3 == 0))
+      return_value_ne_move_3=ne_move(session, 1, from, to);
+      if(!(return_value_ne_move_3 == 0))
       {
-        const char *return_value_ne_get_error$2;
-        return_value_ne_get_error$2=ne_get_error(session);
-        fprintf(stderr, "MOVE failed: %s\n", return_value_ne_get_error$2);
+        const char *return_value_ne_get_error_2;
+        return_value_ne_get_error_2=ne_get_error(session);
+        fprintf(stderr, "MOVE failed: %s\n", return_value_ne_get_error_2);
         r = -2;
         goto finish;
       }
@@ -2387,13 +2387,13 @@ static signed int dav_rmdir(const char *path)
       else
       {
         snprintf(fn, sizeof(char [4096l]) /*4096ul*/ , "%s/", path);
-        signed int return_value_ne_delete$2;
-        return_value_ne_delete$2=ne_delete(session, fn);
-        if(!(return_value_ne_delete$2 == 0))
+        signed int return_value_ne_delete_2;
+        return_value_ne_delete_2=ne_delete(session, fn);
+        if(!(return_value_ne_delete_2 == 0))
         {
-          const char *return_value_ne_get_error$1;
-          return_value_ne_get_error$1=ne_get_error(session);
-          fprintf(stderr, "DELETE failed: %s\n", return_value_ne_get_error$1);
+          const char *return_value_ne_get_error_1;
+          return_value_ne_get_error_1=ne_get_error(session);
+          fprintf(stderr, "DELETE failed: %s\n", return_value_ne_get_error_1);
           return -2;
         }
 
@@ -2409,8 +2409,8 @@ static signed int dav_rmdir(const char *path)
 static signed int dav_setxattr(const char *path, const char *name, const char *value, unsigned long int size, signed int flags)
 {
   struct ne_session_s *session;
-  struct anonymous$14 propname;
-  struct anonymous$15 ops[2l];
+  struct anonymous_14 propname;
+  struct anonymous_15 ops[2l];
   signed int r = 0;
   char dnspace[128l];
   char dname[128l];
@@ -2426,28 +2426,28 @@ static signed int dav_setxattr(const char *path, const char *name, const char *v
   if(!(debug == 0))
     fprintf(stderr, "setxattr(%s, %s)\n", path, name);
 
-  signed int return_value_parse_xattr$1;
-  void *return_value_memchr$3;
-  signed int return_value_proppatch_with_redirect$5;
+  signed int return_value_parse_xattr_1;
+  void *return_value_memchr_3;
+  signed int return_value_proppatch_with_redirect_5;
   if(!(flags == 0))
     r = 95;
 
   else
   {
-    return_value_parse_xattr$1=parse_xattr(name, dnspace, sizeof(char [128l]) /*128ul*/ , dname, sizeof(char [128l]) /*128ul*/ );
-    if(!(return_value_parse_xattr$1 >= 0))
+    return_value_parse_xattr_1=parse_xattr(name, dnspace, sizeof(char [128l]) /*128ul*/ , dname, sizeof(char [128l]) /*128ul*/ );
+    if(!(return_value_parse_xattr_1 >= 0))
       r = -61;
 
     else
     {
       propname.nspace = dnspace;
       propname.name = dname;
-      return_value_memchr$3=memchr((const void *)value, 0, size);
-      if(return_value_memchr$3 == NULL)
+      return_value_memchr_3=memchr((const void *)value, 0, size);
+      if(return_value_memchr_3 == NULL)
       {
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(size + (unsigned long int)1);
-        value_fixed = (char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(size + (unsigned long int)1);
+        value_fixed = (char *)return_value_malloc_2;
         /* assertion value_fixed */
         assert(value_fixed != ((char *)NULL));
         memcpy((void *)value_fixed, (const void *)value, size);
@@ -2458,19 +2458,19 @@ static signed int dav_setxattr(const char *path, const char *name, const char *v
       ops[(signed long int)0].name = &propname;
       ops[(signed long int)0].type = (enum ne_proppatch_optype)ne_propset;
       ops[(signed long int)0].value = value;
-      ops[(signed long int)1].name = (const struct anonymous$14 *)(void *)0;
+      ops[(signed long int)1].name = (const struct anonymous_14 *)(void *)0;
       session=session_get(1);
       if(session == ((struct ne_session_s *)NULL))
         r = -5;
 
       else
       {
-        return_value_proppatch_with_redirect$5=proppatch_with_redirect(session, path, ops);
-        if(!(return_value_proppatch_with_redirect$5 == 0))
+        return_value_proppatch_with_redirect_5=proppatch_with_redirect(session, path, ops);
+        if(!(return_value_proppatch_with_redirect_5 == 0))
         {
-          const char *return_value_ne_get_error$4;
-          return_value_ne_get_error$4=ne_get_error(session);
-          fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error$4);
+          const char *return_value_ne_get_error_4;
+          return_value_ne_get_error_4=ne_get_error(session);
+          fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error_4);
           r = -95;
           goto finish;
         }
@@ -2503,7 +2503,7 @@ static signed int dav_truncate(const char *path, signed long int size)
 
   goto finish;
   f=file_cache_get(path);
-  signed int return_value_file_cache_truncate$2;
+  signed int return_value_file_cache_truncate_2;
   if(f == NULL)
   {
     fprintf(stderr, "truncate() called for closed file\n");
@@ -2512,12 +2512,12 @@ static signed int dav_truncate(const char *path, signed long int size)
 
   else
   {
-    return_value_file_cache_truncate$2=file_cache_truncate(f, size);
-    if(!(return_value_file_cache_truncate$2 >= 0))
+    return_value_file_cache_truncate_2=file_cache_truncate(f, size);
+    if(!(return_value_file_cache_truncate_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      r = -(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      r = -(*return_value___errno_location_1);
     }
 
   }
@@ -2557,13 +2557,13 @@ static signed int dav_unlink(const char *path)
 
       else
       {
-        signed int return_value_ne_delete$2;
-        return_value_ne_delete$2=ne_delete(session, path);
-        if(!(return_value_ne_delete$2 == 0))
+        signed int return_value_ne_delete_2;
+        return_value_ne_delete_2=ne_delete(session, path);
+        if(!(return_value_ne_delete_2 == 0))
         {
-          const char *return_value_ne_get_error$1;
-          return_value_ne_get_error$1=ne_get_error(session);
-          fprintf(stderr, "DELETE failed: %s\n", return_value_ne_get_error$1);
+          const char *return_value_ne_get_error_1;
+          return_value_ne_get_error_1=ne_get_error(session);
+          fprintf(stderr, "DELETE failed: %s\n", return_value_ne_get_error_1);
           return -2;
         }
 
@@ -2579,8 +2579,8 @@ static signed int dav_unlink(const char *path)
 static signed int dav_utime(const char *path, struct utimbuf *buf)
 {
   struct ne_session_s *session;
-  const struct anonymous$14 getlastmodified = { .nspace="DAV:", .name="getlastmodified" };
-  struct anonymous$15 ops[2l];
+  const struct anonymous_14 getlastmodified = { .nspace="DAV:", .name="getlastmodified" };
+  struct anonymous_15 ops[2l];
   signed int r = 0;
   char *date;
   /* assertion path */
@@ -2595,20 +2595,20 @@ static signed int dav_utime(const char *path, struct utimbuf *buf)
   ops[(signed long int)0].type = (enum ne_proppatch_optype)ne_propset;
   date=ne_rfc1123_date(buf->modtime);
   ops[(signed long int)0].value = date;
-  ops[(signed long int)1].name = (const struct anonymous$14 *)(void *)0;
+  ops[(signed long int)1].name = (const struct anonymous_14 *)(void *)0;
   session=session_get(1);
-  signed int return_value_proppatch_with_redirect$2;
+  signed int return_value_proppatch_with_redirect_2;
   if(session == ((struct ne_session_s *)NULL))
     r = -5;
 
   else
   {
-    return_value_proppatch_with_redirect$2=proppatch_with_redirect(session, path, ops);
-    if(!(return_value_proppatch_with_redirect$2 == 0))
+    return_value_proppatch_with_redirect_2=proppatch_with_redirect(session, path, ops);
+    if(!(return_value_proppatch_with_redirect_2 == 0))
     {
-      const char *return_value_ne_get_error$1;
-      return_value_ne_get_error$1=ne_get_error(session);
-      fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error$1);
+      const char *return_value_ne_get_error_1;
+      return_value_ne_get_error_1=ne_get_error(session);
+      fprintf(stderr, "PROPPATCH failed: %s\n", return_value_ne_get_error_1);
       r = -95;
       goto finish;
     }
@@ -2633,7 +2633,7 @@ static signed int dav_write(const char *path, const char *buf, unsigned long int
     fprintf(stderr, "write(%s, %lu+%lu)\n", path, (unsigned long int)offset, (unsigned long int)size);
 
   f=file_cache_get(path);
-  signed int return_value_file_cache_write$2;
+  signed int return_value_file_cache_write_2;
   if(f == NULL)
   {
     fprintf(stderr, "write() called for closed file\n");
@@ -2642,13 +2642,13 @@ static signed int dav_write(const char *path, const char *buf, unsigned long int
 
   else
   {
-    return_value_file_cache_write$2=file_cache_write(f, buf, size, offset);
-    r = (signed long int)return_value_file_cache_write$2;
+    return_value_file_cache_write_2=file_cache_write(f, buf, size, offset);
+    r = (signed long int)return_value_file_cache_write_2;
     if(!(r >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      r = (signed long int)-(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      r = (signed long int)-(*return_value___errno_location_1);
       goto finish;
     }
 
@@ -2673,24 +2673,24 @@ void dir_cache_add(const char *fn, const char *subdir)
   h=calc_hash(fn);
   ce = cache + (signed long int)(h % (unsigned int)2049);
   pthread_mutex_lock(&dir_cache_mutex);
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if(!(ce->dir_info.filling == 0))
   {
     if(!(ce->dir_info.filename == ((char *)NULL)))
     {
       if(ce->dir_info.hash == h)
       {
-        return_value_strcmp$3=strcmp(ce->dir_info.filename, fn);
-        if(return_value_strcmp$3 == 0)
+        return_value_strcmp_3=strcmp(ce->dir_info.filename, fn);
+        if(return_value_strcmp_3 == 0)
         {
           struct dir_entry *n;
           /* assertion !ce->dir_info.valid2 */
           assert(!(ce->dir_info.valid2 != 0));
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen(subdir);
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(struct dir_entry) /*8ul*/  + return_value_strlen$1 + (unsigned long int)1);
-          n = (struct dir_entry *)return_value_malloc$2;
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen(subdir);
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(struct dir_entry) /*8ul*/  + return_value_strlen_1 + (unsigned long int)1);
+          n = (struct dir_entry *)return_value_malloc_2;
           /* assertion n */
           assert(n != ((struct dir_entry *)NULL));
           strcpy(n->filename, subdir);
@@ -2720,25 +2720,25 @@ void dir_cache_begin(const char *fn)
   h=calc_hash(fn);
   ce = cache + (signed long int)(h % (unsigned int)2049);
   pthread_mutex_lock(&dir_cache_mutex);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   if(ce->dir_info.filling == 0)
   {
     if(ce->dir_info.filename == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ce->dir_info.hash != h ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = ce->dir_info.hash != h ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$2=strcmp(ce->dir_info.filename, fn);
-      tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_2=strcmp(ce->dir_info.filename, fn);
+      tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       free((void *)ce->dir_info.filename);
       ce->dir_info.filename=strdup(fn);
@@ -2772,19 +2772,19 @@ signed int dir_cache_enumerate(const char *fn, void (*f)(const char *, const cha
   h=calc_hash(fn);
   ce = cache + (signed long int)(h % (unsigned int)2049);
   pthread_mutex_lock(&dir_cache_mutex);
-  signed int return_value_strcmp$2;
-  signed long int return_value_time$1;
+  signed int return_value_strcmp_2;
+  signed long int return_value_time_1;
   if(!(ce->dir_info.valid == 0))
   {
     if(!(ce->dir_info.filename == ((char *)NULL)))
     {
       if(ce->dir_info.hash == h)
       {
-        return_value_strcmp$2=strcmp(ce->dir_info.filename, fn);
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(ce->dir_info.filename, fn);
+        if(return_value_strcmp_2 == 0)
         {
-          return_value_time$1=time((signed long int *)(void *)0);
-          if(ce->dir_info.dead >= return_value_time$1)
+          return_value_time_1=time((signed long int *)(void *)0);
+          if(ce->dir_info.dead >= return_value_time_1)
           {
             ce->dir_info.in_use = 1;
             pthread_mutex_unlock(&dir_cache_mutex);
@@ -2835,15 +2835,15 @@ void dir_cache_finish(const char *fn, signed int success)
   h=calc_hash(fn);
   ce = cache + (signed long int)(h % (unsigned int)2049);
   pthread_mutex_lock(&dir_cache_mutex);
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   if(!(ce->dir_info.filling == 0))
   {
     if(!(ce->dir_info.filename == ((char *)NULL)))
     {
       if(ce->dir_info.hash == h)
       {
-        return_value_strcmp$2=strcmp(ce->dir_info.filename, fn);
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(ce->dir_info.filename, fn);
+        if(return_value_strcmp_2 == 0)
         {
           /* assertion !ce->dir_info.valid2 */
           assert(!(ce->dir_info.valid2 != 0));
@@ -2851,9 +2851,9 @@ void dir_cache_finish(const char *fn, signed int success)
           {
             ce->dir_info.valid2 = 1;
             ce->dir_info.filling = 0;
-            signed long int return_value_time$1;
-            return_value_time$1=time((signed long int *)(void *)0);
-            ce->dir_info.dead2 = return_value_time$1 + (signed long int)60;
+            signed long int return_value_time_1;
+            return_value_time_1=time((signed long int *)(void *)0);
+            ce->dir_info.dead2 = return_value_time_1 + (signed long int)60;
             if(ce->dir_info.in_use == 0)
             {
               de = ce->dir_info.entries;
@@ -2896,15 +2896,15 @@ void dir_cache_invalidate(const char *fn)
   h=calc_hash(fn);
   ce = cache + (signed long int)(h % (unsigned int)2049);
   pthread_mutex_lock(&dir_cache_mutex);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(ce->dir_info.valid == 0))
   {
     if(!(ce->dir_info.filename == ((char *)NULL)))
     {
       if(ce->dir_info.hash == h)
       {
-        return_value_strcmp$1=strcmp(ce->dir_info.filename, fn);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(ce->dir_info.filename, fn);
+        if(return_value_strcmp_1 == 0)
         {
           ce->dir_info.valid = 0;
           de = ce->dir_info.entries;
@@ -2930,12 +2930,12 @@ void dir_cache_invalidate_parent(const char *fn)
   if(!(p == ((char *)NULL)))
   {
     signed int l;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(p);
-    l = (signed int)return_value_strlen$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(p, "/");
-    if(!(return_value_strcmp$2 == 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(p);
+    l = (signed int)return_value_strlen_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(p, "/");
+    if(!(return_value_strcmp_2 == 0))
     {
       if(!(l == 0))
       {
@@ -2968,10 +2968,10 @@ static void exit_handler(signed int sig)
   if(!(fuse == ((struct fuse *)NULL)))
     fuse_exit(fuse);
 
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   static const char m[23l] = { '*', '*', '*', ' ', 'C', 'a', 'u', 'g', 'h', 't', ' ', 's', 'i', 'g', 'n', 'a', 'l', ' ', '*', '*', '*', '\n', 0 };
-  return_value_strlen$1=strlen(m);
-  write(2, (const void *)m, return_value_strlen$1);
+  return_value_strlen_1=strlen(m);
+  write(2, (const void *)m, return_value_strlen_1);
 }
 
 // file_cache_close
@@ -3014,20 +3014,20 @@ signed int file_cache_close_all(void)
 // file ../../../src/filecache.c line 95
 static void file_cache_free_unlocked(struct file_info *fi)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fi == ((struct file_info *)NULL)))
-    tmp_if_expr$1 = fi->dead != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = fi->dead != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = fi->ref == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = fi->ref == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
   /* assertion fi && fi->dead && fi->ref == 0 */
-  assert(tmp_if_expr$2);
+  assert(tmp_if_expr_2);
   free((void *)fi->filename);
   if(fi->fd >= 0)
     close(fi->fd);
@@ -3044,7 +3044,7 @@ void * file_cache_get(const char *path)
   struct file_info *r = (struct file_info *)(void *)0;
   pthread_mutex_lock(&files_mutex);
   f = files;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(f == ((struct file_info *)NULL)); f = f->next)
   {
     pthread_mutex_lock(&f->mutex);
@@ -3052,8 +3052,8 @@ void * file_cache_get(const char *path)
     {
       if(!(f->filename == ((char *)NULL)))
       {
-        return_value_strcmp$1=strcmp(path, f->filename);
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(path, f->filename);
+        if(return_value_strcmp_1 == 0)
         {
           f->ref = f->ref + 1;
           r = f;
@@ -3094,17 +3094,17 @@ void * file_cache_open(const char *path, signed int flags)
   session=session_get(1);
   if(session == ((struct ne_session_s *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 5;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 5;
     goto fail;
   }
 
-  void *return_value_file_cache_get$2;
-  return_value_file_cache_get$2=file_cache_get(path);
-  fi = (struct file_info *)return_value_file_cache_get$2;
-  signed int return_value_ne_request_dispatch$6;
-  signed int return_value_atoi$7;
+  void *return_value_file_cache_get_2;
+  return_value_file_cache_get_2=file_cache_get(path);
+  fi = (struct file_info *)return_value_file_cache_get_2;
+  signed int return_value_ne_request_dispatch_6;
+  signed int return_value_atoi_7;
   if(!(fi == ((struct file_info *)NULL)))
   {
     if(!((00 & flags) == 0) || !((02 & flags) == 0))
@@ -3118,9 +3118,9 @@ void * file_cache_open(const char *path, signed int flags)
 
   else
   {
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct file_info) /*112ul*/ );
-    fi = (struct file_info *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct file_info) /*112ul*/ );
+    fi = (struct file_info *)return_value_malloc_3;
     memset((void *)fi, 0, sizeof(struct file_info) /*112ul*/ );
     fi->fd = -1;
     fi->filename=strdup(path);
@@ -3132,15 +3132,15 @@ void * file_cache_open(const char *path, signed int flags)
       req=ne_request_create(session, "HEAD", path);
       /* assertion req */
       assert(req != ((struct ne_request_s *)NULL));
-      return_value_ne_request_dispatch$6=ne_request_dispatch(req);
-      if(!(return_value_ne_request_dispatch$6 == 0))
+      return_value_ne_request_dispatch_6=ne_request_dispatch(req);
+      if(!(return_value_ne_request_dispatch_6 == 0))
       {
-        const char *return_value_ne_get_error$4;
-        return_value_ne_get_error$4=ne_get_error(session);
-        fprintf(stderr, "HEAD failed: %s\n", return_value_ne_get_error$4);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        *return_value___errno_location$5 = 2;
+        const char *return_value_ne_get_error_4;
+        return_value_ne_get_error_4=ne_get_error(session);
+        fprintf(stderr, "HEAD failed: %s\n", return_value_ne_get_error_4);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        *return_value___errno_location_5 = 2;
         goto fail;
       }
 
@@ -3153,8 +3153,8 @@ void * file_cache_open(const char *path, signed int flags)
 
       else
       {
-        return_value_atoi$7=atoi(length);
-        fi->length = (signed long int)return_value_atoi$7;
+        return_value_atoi_7=atoi(length);
+        fi->length = (signed long int)return_value_atoi_7;
         fi->server_length = fi->length;
       }
       ne_request_destroy(req);
@@ -3164,7 +3164,7 @@ void * file_cache_open(const char *path, signed int flags)
       if(!((01 & flags) == 0) || !((02 & flags) == 0))
         fi->writable = 1;
 
-      pthread_mutex_init(&fi->mutex, (const union anonymous$10 *)(void *)0);
+      pthread_mutex_init(&fi->mutex, (const union anonymous_10 *)(void *)0);
       pthread_mutex_lock(&files_mutex);
       fi->next = files;
       files = fi;
@@ -3204,9 +3204,9 @@ signed int file_cache_read(void *f, char *buf, unsigned long int size, signed lo
   /* assertion fi && buf && size */
   assert(fi != ((struct file_info *)NULL) && buf != ((char *)NULL) && size != 0ul);
   pthread_mutex_lock(&fi->mutex);
-  signed int return_value_load_up_to_unlocked$1;
-  return_value_load_up_to_unlocked$1=load_up_to_unlocked(fi, (signed long int)((unsigned long int)offset + size));
-  if(return_value_load_up_to_unlocked$1 >= 0)
+  signed int return_value_load_up_to_unlocked_1;
+  return_value_load_up_to_unlocked_1=load_up_to_unlocked(fi, (signed long int)((unsigned long int)offset + size));
+  if(return_value_load_up_to_unlocked_1 >= 0)
     r=pread(fi->fd, (void *)buf, size, offset);
 
 
@@ -3240,44 +3240,44 @@ static signed int file_cache_sync_unlocked(struct file_info *fi)
   assert(fi != ((struct file_info *)NULL));
   if(fi->writable == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 9;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 9;
     goto finish;
   }
 
-  signed int return_value_load_up_to_unlocked$2;
-  signed long int return_value_lseek$3;
-  signed int return_value_ne_put$7;
+  signed int return_value_load_up_to_unlocked_2;
+  signed long int return_value_lseek_3;
+  signed int return_value_ne_put_7;
   if(fi->modified == 0)
     r = 0;
 
   else
   {
-    return_value_load_up_to_unlocked$2=load_up_to_unlocked(fi, (signed long int)-1);
-    if(return_value_load_up_to_unlocked$2 >= 0)
+    return_value_load_up_to_unlocked_2=load_up_to_unlocked(fi, (signed long int)-1);
+    if(return_value_load_up_to_unlocked_2 >= 0)
     {
-      return_value_lseek$3=lseek(fi->fd, (signed long int)0, 0);
-      if(!(return_value_lseek$3 == -1l))
+      return_value_lseek_3=lseek(fi->fd, (signed long int)0, 0);
+      if(!(return_value_lseek_3 == -1l))
       {
         session=session_get(1);
         if(session == ((struct ne_session_s *)NULL))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 5;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 5;
           goto finish;
         }
 
-        return_value_ne_put$7=ne_put(session, fi->filename, fi->fd);
-        if(!(return_value_ne_put$7 == 0))
+        return_value_ne_put_7=ne_put(session, fi->filename, fi->fd);
+        if(!(return_value_ne_put_7 == 0))
         {
-          const char *return_value_ne_get_error$5;
-          return_value_ne_get_error$5=ne_get_error(session);
-          fprintf(stderr, "PUT failed: %s\n", return_value_ne_get_error$5);
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 2;
+          const char *return_value_ne_get_error_5;
+          return_value_ne_get_error_5=ne_get_error(session);
+          fprintf(stderr, "PUT failed: %s\n", return_value_ne_get_error_5);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 2;
           goto finish;
         }
 
@@ -3373,15 +3373,15 @@ signed int file_cache_write(void *f, const char *buf, unsigned long int size, si
   pthread_mutex_lock(&fi->mutex);
   if(fi->writable == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 9;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 9;
     goto finish;
   }
 
-  signed int return_value_load_up_to_unlocked$2;
-  return_value_load_up_to_unlocked$2=load_up_to_unlocked(fi, offset);
-  if(return_value_load_up_to_unlocked$2 >= 0)
+  signed int return_value_load_up_to_unlocked_2;
+  return_value_load_up_to_unlocked_2=load_up_to_unlocked(fi, offset);
+  if(return_value_load_up_to_unlocked_2 >= 0)
   {
     r=pwrite(fi->fd, (const void *)buf, size, offset);
     if(r >= 0l)
@@ -3413,11 +3413,11 @@ static void fill_stat(struct stat *st, const struct ne_prop_result_set_s *result
   const char *gcl;
   const char *glm;
   const char *cd;
-  const struct anonymous$14 resourcetype = { .nspace="DAV:", .name="resourcetype" };
-  const struct anonymous$14 executable = { .nspace="http://apache.org/dav/props/", .name="executable" };
-  const struct anonymous$14 getcontentlength = { .nspace="DAV:", .name="getcontentlength" };
-  const struct anonymous$14 getlastmodified = { .nspace="DAV:", .name="getlastmodified" };
-  const struct anonymous$14 creationdate = { .nspace="DAV:", .name="creationdate" };
+  const struct anonymous_14 resourcetype = { .nspace="DAV:", .name="resourcetype" };
+  const struct anonymous_14 executable = { .nspace="http://apache.org/dav/props/", .name="executable" };
+  const struct anonymous_14 getcontentlength = { .nspace="DAV:", .name="getcontentlength" };
+  const struct anonymous_14 getlastmodified = { .nspace="DAV:", .name="getlastmodified" };
+  const struct anonymous_14 creationdate = { .nspace="DAV:", .name="creationdate" };
   /* assertion st && results */
   assert(st != ((struct stat *)NULL) && results != ((const struct ne_prop_result_set_s *)NULL));
   rt=ne_propset_value(results, &resourcetype);
@@ -3426,10 +3426,10 @@ static void fill_stat(struct stat *st, const struct ne_prop_result_set_s *result
   glm=ne_propset_value(results, &getlastmodified);
   cd=ne_propset_value(results, &creationdate);
   memset((void *)st, 0, sizeof(struct stat) /*144ul*/ );
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  signed long long int tmp_if_expr$4;
-  signed long long int return_value_atoll$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  signed long long int tmp_if_expr_4;
+  signed long long int return_value_atoll_3;
   if(!(is_dir == 0))
   {
     st->st_mode = (unsigned int)(0040000 | 0777);
@@ -3442,50 +3442,50 @@ static void fill_stat(struct stat *st, const struct ne_prop_result_set_s *result
     if(!(e == ((const char *)NULL)))
     {
       if((signed int)*e == 84)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*e == 116 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*e == 116 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    st->st_mode = (unsigned int)(0100000 | (tmp_if_expr$2 ? 0777 : 0666));
+      tmp_if_expr_2 = (_Bool)0;
+    st->st_mode = (unsigned int)(0100000 | (tmp_if_expr_2 ? 0777 : 0666));
     st->st_nlink = (unsigned long int)1;
     if(!(gcl == ((const char *)NULL)))
     {
-      return_value_atoll$3=atoll(gcl);
-      tmp_if_expr$4 = return_value_atoll$3;
+      return_value_atoll_3=atoll(gcl);
+      tmp_if_expr_4 = return_value_atoll_3;
     }
 
     else
-      tmp_if_expr$4 = (signed long int)0;
-    st->st_size = tmp_if_expr$4;
+      tmp_if_expr_4 = (signed long int)0;
+    st->st_size = tmp_if_expr_4;
   }
   st->st_atim.tv_sec=time((signed long int *)(void *)0);
-  signed long int tmp_if_expr$6;
-  signed long int return_value_ne_rfc1123_parse$5;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_ne_rfc1123_parse_5;
   if(!(glm == ((const char *)NULL)))
   {
-    return_value_ne_rfc1123_parse$5=ne_rfc1123_parse(glm);
-    tmp_if_expr$6 = return_value_ne_rfc1123_parse$5;
+    return_value_ne_rfc1123_parse_5=ne_rfc1123_parse(glm);
+    tmp_if_expr_6 = return_value_ne_rfc1123_parse_5;
   }
 
   else
-    tmp_if_expr$6 = (signed long int)0;
-  st->st_mtim.tv_sec = tmp_if_expr$6;
-  signed long int tmp_if_expr$8;
-  signed long int return_value_ne_iso8601_parse$7;
+    tmp_if_expr_6 = (signed long int)0;
+  st->st_mtim.tv_sec = tmp_if_expr_6;
+  signed long int tmp_if_expr_8;
+  signed long int return_value_ne_iso8601_parse_7;
   if(!(cd == ((const char *)NULL)))
   {
-    return_value_ne_iso8601_parse$7=ne_iso8601_parse(cd);
-    tmp_if_expr$8 = return_value_ne_iso8601_parse$7;
+    return_value_ne_iso8601_parse_7=ne_iso8601_parse(cd);
+    tmp_if_expr_8 = return_value_ne_iso8601_parse_7;
   }
 
   else
-    tmp_if_expr$8 = (signed long int)0;
-  st->st_ctim.tv_sec = tmp_if_expr$8;
+    tmp_if_expr_8 = (signed long int)0;
+  st->st_ctim.tv_sec = tmp_if_expr_8;
   st->st_blocks = (st->st_size + (signed long int)511) / (signed long int)512;
   st->st_mode = st->st_mode & ~mask;
   st->st_uid=getuid();
@@ -3498,9 +3498,9 @@ static const char * fix_xattr(const char *name)
 {
   /* assertion name */
   assert(name != ((const char *)NULL));
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(name, "user.mime_type");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(name, "user.mime_type");
+  if(return_value_strcmp_1 == 0)
     return "user.webdav(DAV:;getcontenttype)";
 
   else
@@ -3530,9 +3530,9 @@ static signed int get_stat(const char *path, struct stat *stbuf)
 
   else
   {
-    signed int return_value_stat_cache_get$3;
-    return_value_stat_cache_get$3=stat_cache_get(path, stbuf);
-    if(return_value_stat_cache_get$3 == 0)
+    signed int return_value_stat_cache_get_3;
+    return_value_stat_cache_get_3=stat_cache_get(path, stbuf);
+    if(return_value_stat_cache_get_3 == 0)
       return stbuf->st_mode == (unsigned int)0 ? -2 : 0;
 
     else
@@ -3540,14 +3540,14 @@ static signed int get_stat(const char *path, struct stat *stbuf)
       if(!(debug == 0))
         fprintf(stderr, "STAT-CACHE-MISS\n");
 
-      signed int return_value_simple_propfind_with_redirect$2;
-      return_value_simple_propfind_with_redirect$2=simple_propfind_with_redirect(session, path, 0, query_properties, getattr_propfind_callback, (void *)stbuf);
-      if(!(return_value_simple_propfind_with_redirect$2 == 0))
+      signed int return_value_simple_propfind_with_redirect_2;
+      return_value_simple_propfind_with_redirect_2=simple_propfind_with_redirect(session, path, 0, query_properties, getattr_propfind_callback, (void *)stbuf);
+      if(!(return_value_simple_propfind_with_redirect_2 == 0))
       {
         stat_cache_invalidate(path);
-        const char *return_value_ne_get_error$1;
-        return_value_ne_get_error$1=ne_get_error(session);
-        fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error$1);
+        const char *return_value_ne_get_error_1;
+        return_value_ne_get_error_1=ne_get_error(session);
+        fprintf(stderr, "PROPFIND failed: %s\n", return_value_ne_get_error_1);
         return -2;
       }
 
@@ -3558,7 +3558,7 @@ static signed int get_stat(const char *path, struct stat *stbuf)
 
 // getattr_propfind_callback
 // file ../../../src/fusedav.c line 320
-static void getattr_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results)
+static void getattr_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results)
 {
   struct stat *st = (struct stat *)userdata;
   char fn[4096l];
@@ -3581,9 +3581,9 @@ static void getdir_cache_callback(const char *root, const char *fn, void *user)
   char *h;
   /* assertion f */
   assert(f != ((struct fill_info *)NULL));
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(root, "/");
-  snprintf(path, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", !(return_value_strcmp$1 != 0) ? "" : root, fn);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(root, "/");
+  snprintf(path, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", !(return_value_strcmp_1 != 0) ? "" : root, fn);
   h=ne_path_unescape(fn);
   f->filler(f->buf, h, (struct stat *)(void *)0, (signed long int)0);
   free((void *)h);
@@ -3591,7 +3591,7 @@ static void getdir_cache_callback(const char *root, const char *fn, void *user)
 
 // getdir_propfind_callback
 // file ../../../src/fusedav.c line 230
-static void getdir_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results)
+static void getdir_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results)
 {
   struct fill_info *f = (struct fill_info *)userdata;
   struct stat st;
@@ -3603,9 +3603,9 @@ static void getdir_propfind_callback(void *userdata, const struct anonymous$13 *
   strncpy(fn, u->path, sizeof(char [4096l]) /*4096ul*/ );
   fn[(signed long int)(sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1)] = (char)0;
   strip_trailing_slash(fn, &is_dir);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(fn, f->root);
-  if(!(return_value_strcmp$1 == 0))
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(fn, f->root);
+  if(!(return_value_strcmp_1 == 0))
   {
     if(!(fn[0l] == 0))
     {
@@ -3630,29 +3630,29 @@ static void getdir_propfind_callback(void *userdata, const struct anonymous$13 *
 
 // getxattr_iterator
 // file ../../../src/fusedav.c line 854
-static signed int getxattr_iterator(void *userdata, const struct anonymous$14 *pname, const char *value, const struct anonymous$16 *status)
+static signed int getxattr_iterator(void *userdata, const struct anonymous_14 *pname, const char *value, const struct anonymous_16 *status)
 {
   struct getxattr_info *g = (struct getxattr_info *)userdata;
   /* assertion g */
   assert(g != ((struct getxattr_info *)NULL));
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(value == ((const char *)NULL) || pname == ((const struct anonymous$14 *)NULL))
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(value == ((const char *)NULL) || pname == ((const struct anonymous_14 *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(pname->nspace, g->propname.nspace);
-    if(!(return_value_strcmp$1 == 0))
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(pname->nspace, g->propname.nspace);
+    if(!(return_value_strcmp_1 == 0))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$2=strcmp(pname->name, g->propname.name);
-      tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_2=strcmp(pname->name, g->propname.name);
+      tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return 0;
 
     else
@@ -3680,7 +3680,7 @@ static signed int getxattr_iterator(void *userdata, const struct anonymous$14 *p
 
 // getxattr_propfind_callback
 // file ../../../src/fusedav.c line 891
-static void getxattr_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results)
+static void getxattr_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results)
 {
   struct getxattr_info *g = (struct getxattr_info *)userdata;
   ne_propset_iterate(results, getxattr_iterator, (void *)g);
@@ -3688,21 +3688,21 @@ static void getxattr_propfind_callback(void *userdata, const struct anonymous$13
 
 // listxattr_iterator
 // file ../../../src/fusedav.c line 754
-static signed int listxattr_iterator(void *userdata, const struct anonymous$14 *pname, const char *value, const struct anonymous$16 *status)
+static signed int listxattr_iterator(void *userdata, const struct anonymous_14 *pname, const char *value, const struct anonymous_16 *status)
 {
   struct listxattr_info *l = (struct listxattr_info *)userdata;
   signed int n;
   /* assertion l */
   assert(l != ((struct listxattr_info *)NULL));
-  if(value == ((const char *)NULL) || pname == ((const struct anonymous$14 *)NULL))
+  if(value == ((const char *)NULL) || pname == ((const struct anonymous_14 *)NULL))
     return -1;
 
   else
     if(!(l->list == ((char *)NULL)))
     {
-      signed int return_value_snprintf$1;
-      return_value_snprintf$1=snprintf(l->list, l->space, "user.webdav(%s;%s)", pname->nspace, pname->name);
-      n = return_value_snprintf$1 + 1;
+      signed int return_value_snprintf_1;
+      return_value_snprintf_1=snprintf(l->list, l->space, "user.webdav(%s;%s)", pname->nspace, pname->name);
+      n = return_value_snprintf_1 + 1;
       if(n >= (signed int)l->space)
       {
         l->size = l->size + l->space;
@@ -3723,18 +3723,18 @@ static signed int listxattr_iterator(void *userdata, const struct anonymous$14 *
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(pname->nspace);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(pname->name);
-      l->size = l->size + return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)15;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(pname->nspace);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(pname->name);
+      l->size = l->size + return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)15;
       return 0;
     }
 }
 
 // listxattr_propfind_callback
 // file ../../../src/fusedav.c line 793
-static void listxattr_propfind_callback(void *userdata, const struct anonymous$13 *u, const struct ne_prop_result_set_s *results)
+static void listxattr_propfind_callback(void *userdata, const struct anonymous_13 *u, const struct ne_prop_result_set_s *results)
 {
   struct listxattr_info *l = (struct listxattr_info *)userdata;
   ne_propset_iterate(results, listxattr_iterator, (void *)l);
@@ -3744,16 +3744,16 @@ static void listxattr_propfind_callback(void *userdata, const struct anonymous$1
 // file ../../../src/filecache.c line 235
 static signed int load_up_to_unlocked(struct file_info *fi, signed long int l)
 {
-  struct anonymous$11 range;
+  struct anonymous_11 range;
   struct ne_session_s *session;
   /* assertion fi */
   assert(fi != ((struct file_info *)NULL));
   session=session_get(1);
   if(session == ((struct ne_session_s *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 5;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 5;
     return -1;
   }
 
@@ -3765,9 +3765,9 @@ static signed int load_up_to_unlocked(struct file_info *fi, signed long int l)
 
   else
   {
-    signed long int return_value_lseek$2;
-    return_value_lseek$2=lseek(fi->fd, fi->present, 0);
-    if(!(return_value_lseek$2 == fi->present))
+    signed long int return_value_lseek_2;
+    return_value_lseek_2=lseek(fi->fd, fi->present, 0);
+    if(!(return_value_lseek_2 == fi->present))
       return -1;
 
     else
@@ -3775,16 +3775,16 @@ static signed int load_up_to_unlocked(struct file_info *fi, signed long int l)
       range.start = fi->present;
       range.end = l - (signed long int)1;
       range.total = (signed long int)0;
-      signed int return_value_ne_get_range$5;
-      return_value_ne_get_range$5=ne_get_range(session, fi->filename, &range, fi->fd);
-      if(!(return_value_ne_get_range$5 == 0))
+      signed int return_value_ne_get_range_5;
+      return_value_ne_get_range_5=ne_get_range(session, fi->filename, &range, fi->fd);
+      if(!(return_value_ne_get_range_5 == 0))
       {
-        const char *return_value_ne_get_error$3;
-        return_value_ne_get_error$3=ne_get_error(session);
-        fprintf(stderr, "GET failed: %s\n", return_value_ne_get_error$3);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 2;
+        const char *return_value_ne_get_error_3;
+        return_value_ne_get_error_3=ne_get_error(session);
+        fprintf(stderr, "GET failed: %s\n", return_value_ne_get_error_3);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 2;
         return -1;
       }
 
@@ -3799,7 +3799,7 @@ static signed int load_up_to_unlocked(struct file_info *fi, signed long int l)
 static void * lock_thread_func(void *p)
 {
   struct ne_session_s *session;
-  struct anonymous$17 block;
+  struct anonymous_17 block;
   if(!(debug == 0))
     fprintf(stderr, "lock_thread entering\n");
 
@@ -3818,14 +3818,14 @@ static void * lock_thread_func(void *p)
       signed int r;
       signed int t;
       lock->timeout = (signed long int)lock_timeout;
-      pthread_sigmask(0, &block, (struct anonymous$17 *)(void *)0);
+      pthread_sigmask(0, &block, (struct anonymous_17 *)(void *)0);
       r=ne_lock_refresh(session, lock);
-      pthread_sigmask(1, &block, (struct anonymous$17 *)(void *)0);
+      pthread_sigmask(1, &block, (struct anonymous_17 *)(void *)0);
       if(!(r == 0))
       {
-        const char *return_value_ne_get_error$1;
-        return_value_ne_get_error$1=ne_get_error(session);
-        fprintf(stderr, "LOCK refresh failed: %s\n", return_value_ne_get_error$1);
+        const char *return_value_ne_get_error_1;
+        return_value_ne_get_error_1=ne_get_error(session);
+        fprintf(stderr, "LOCK refresh failed: %s\n", return_value_ne_get_error_1);
         break;
       }
 
@@ -3861,35 +3861,35 @@ signed int main(signed int argc, char **argv)
   signed int enable_locking = 0;
   static char *mount_args_strings[4l] = { (char *)(void *)0, (char *)(void *)0, (char *)(void *)0, (char *)(void *)0 };
   struct fuse_args mount_args = { .argc=1, .argv=mount_args_strings, .allocated=0 };
-  signed int return_value_ne_sock_init$1;
-  return_value_ne_sock_init$1=ne_sock_init();
-  signed int return_value_ne_has_support$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_ne_has_support$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_setup_signal_handlers$6;
-  signed int return_value_session_set_uri$7;
-  signed int return_value_create_lock$9;
-  if(!(return_value_ne_sock_init$1 == 0))
+  signed int return_value_ne_sock_init_1;
+  return_value_ne_sock_init_1=ne_sock_init();
+  signed int return_value_ne_has_support_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_ne_has_support_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_setup_signal_handlers_6;
+  signed int return_value_session_set_uri_7;
+  signed int return_value_create_lock_9;
+  if(!(return_value_ne_sock_init_1 == 0))
     fprintf(stderr, "Failed to initialize libneon.\n");
 
   else
   {
-    return_value_ne_has_support$2=ne_has_support(1);
-    if(return_value_ne_has_support$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    return_value_ne_has_support_2=ne_has_support(1);
+    if(return_value_ne_has_support_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_ne_has_support$3=ne_has_support(6);
-      tmp_if_expr$4 = !(return_value_ne_has_support$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_ne_has_support_3=ne_has_support(6);
+      tmp_if_expr_4 = !(return_value_ne_has_support_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = !((_Bool)1) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = !((_Bool)1) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       fprintf(stderr, "fusedav requires libneon built with SSL, SSL thread safety and LFS enabled.\n");
 
     else
@@ -3897,8 +3897,8 @@ signed int main(signed int argc, char **argv)
       mask=umask((unsigned int)0);
       umask(mask);
       cache_alloc();
-      return_value_setup_signal_handlers$6=setup_signal_handlers();
-      if(return_value_setup_signal_handlers$6 >= 0)
+      return_value_setup_signal_handlers_6=setup_signal_handlers();
+      if(return_value_setup_signal_handlers_6 >= 0)
       {
         do
         {
@@ -3959,8 +3959,8 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          return_value_session_set_uri$7=session_set_uri(argv[(signed long int)optind], u, p);
-          if(!(return_value_session_set_uri$7 >= 0))
+          return_value_session_set_uri_7=session_set_uri(argv[(signed long int)optind], u, p);
+          if(!(return_value_session_set_uri_7 >= 0))
             usage(argv[(signed long int)0]);
 
           else
@@ -3997,16 +3997,16 @@ signed int main(signed int argc, char **argv)
               {
                 if(!(enable_locking == 0))
                 {
-                  return_value_create_lock$9=create_lock();
-                  if(return_value_create_lock$9 >= 0)
+                  return_value_create_lock_9=create_lock();
+                  if(return_value_create_lock_9 >= 0)
                   {
                     signed int r;
                     r=pthread_create(&lock_thread, (const union pthread_attr_t *)(void *)0, lock_thread_func, (void *)0);
                     if(!(r >= 0))
                     {
-                      char *return_value_strerror$8;
-                      return_value_strerror$8=strerror(r);
-                      fprintf(stderr, "pthread_create(): %s\n", return_value_strerror$8);
+                      char *return_value_strerror_8;
+                      return_value_strerror_8=strerror(r);
+                      fprintf(stderr, "pthread_create(): %s\n", return_value_strerror_8);
                       goto finish;
                     }
 
@@ -4103,28 +4103,28 @@ static signed int parse_xattr(const char *name, char *dnspace, unsigned long int
   assert(dname != ((char *)NULL));
   /* assertion dname_length */
   assert(dname_length != 0ul);
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(name, "user.webdav(", (unsigned long int)12);
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(!(return_value_strncmp$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(name, "user.webdav(", (unsigned long int)12);
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(!(return_value_strncmp_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strlen$2=strlen(name);
-    tmp_if_expr$3 = (signed int)name[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] != 41 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_2=strlen(name);
+    tmp_if_expr_3 = (signed int)name[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] != 41 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     e=strchr(name + (signed long int)12, 59);
-    tmp_if_expr$4 = !(e != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = !(e != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
     return -1;
 
   else
@@ -4163,20 +4163,20 @@ static const char * path_cvt(const char *path)
   char *t;
   signed int l;
   pthread_once(&path_cvt_once, path_cvt_tsd_key_init);
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(path_cvt_tsd_key);
-  r = (char *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(path_cvt_tsd_key);
+  r = (char *)return_value_pthread_getspecific_1;
   if(!(r == ((char *)NULL)))
     free((void *)r);
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(base_directory);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(path);
-  l = (signed int)(return_value_strlen$2 + return_value_strlen$3);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)(l + 1));
-  t = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(base_directory);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(path);
+  l = (signed int)(return_value_strlen_2 + return_value_strlen_3);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)(l + 1));
+  t = (char *)return_value_malloc_4;
   /* assertion t */
   assert(t != ((char *)NULL));
   sprintf(t, "%s%s", base_directory, path);
@@ -4202,25 +4202,25 @@ static void path_cvt_tsd_key_init(void)
 
 // proppatch_with_redirect
 // file ../../../src/fusedav.c line 148
-static signed int proppatch_with_redirect(struct ne_session_s *session, const char *path, const struct anonymous$15 *ops)
+static signed int proppatch_with_redirect(struct ne_session_s *session, const char *path, const struct anonymous_15 *ops)
 {
   signed int i;
   signed int ret;
   i = 0;
   for( ; !(i >= 10); i = i + 1)
   {
-    const struct anonymous$13 *u;
+    const struct anonymous_13 *u;
     ret=ne_proppatch(session, path, ops);
     if(!(ret == 9))
       return ret;
 
     u=ne_redirect_location(session);
-    if(u == ((const struct anonymous$13 *)NULL))
+    if(u == ((const struct anonymous_13 *)NULL))
       break;
 
-    signed int return_value_session_is_local$1;
-    return_value_session_is_local$1=session_is_local(u);
-    if(return_value_session_is_local$1 == 0)
+    signed int return_value_session_is_local_1;
+    return_value_session_is_local_1=session_is_local(u);
+    if(return_value_session_is_local_1 == 0)
       break;
 
     if(!(debug == 0))
@@ -4247,13 +4247,13 @@ static signed int remove_lock(void)
     if(!(debug == 0))
       fprintf(stderr, "Removing lock...\n");
 
-    signed int return_value_ne_unlock$2;
-    return_value_ne_unlock$2=ne_unlock(session, lock);
-    if(!(return_value_ne_unlock$2 == 0))
+    signed int return_value_ne_unlock_2;
+    return_value_ne_unlock_2=ne_unlock(session, lock);
+    if(!(return_value_ne_unlock_2 == 0))
     {
-      const char *return_value_ne_get_error$1;
-      return_value_ne_get_error$1=ne_get_error(session);
-      fprintf(stderr, "UNLOCK failed: %s\n", return_value_ne_get_error$1);
+      const char *return_value_ne_get_error_1;
+      return_value_ne_get_error_1=ne_get_error(session);
+      fprintf(stderr, "UNLOCK failed: %s\n", return_value_ne_get_error_1);
       return -1;
     }
 
@@ -4295,9 +4295,9 @@ struct ne_session_s * session_get(signed int with_lock)
 {
   struct ne_session_s *session;
   pthread_once(&session_once, session_tsd_key_init);
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(session_tsd_key);
-  session = (struct ne_session_s *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(session_tsd_key);
+  session = (struct ne_session_s *)return_value_pthread_getspecific_1;
   if(!(session == ((struct ne_session_s *)NULL)))
     return session;
 
@@ -4311,31 +4311,31 @@ struct ne_session_s * session_get(signed int with_lock)
 
 // session_is_local
 // file ../../../src/session.h line 31
-signed int session_is_local(const struct anonymous$13 *u)
+signed int session_is_local(const struct anonymous_13 *u)
 {
   /* assertion u */
-  assert(u != ((const struct anonymous$13 *)NULL));
+  assert(u != ((const struct anonymous_13 *)NULL));
   /* assertion b_uri */
   assert(b_uri != 0);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(u->scheme, uri.scheme);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(u->scheme, uri.scheme);
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(return_value_strcmp_1 == 0)
   {
-    return_value_strcmp$2=strcmp(u->host, uri.host);
-    tmp_if_expr$3 = return_value_strcmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(u->host, uri.host);
+    tmp_if_expr_3 = return_value_strcmp_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = u->port == uri.port ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = u->port == uri.port ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return (signed int)tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return (signed int)tmp_if_expr_4;
 }
 
 // session_open
@@ -4344,8 +4344,8 @@ static struct ne_session_s * session_open(signed int with_lock)
 {
   const char *scheme = (const char *)(void *)0;
   struct ne_session_s *session;
-  unsigned int tmp_if_expr$2;
-  unsigned int return_value_ne_uri_defaultport$1;
+  unsigned int tmp_if_expr_2;
+  unsigned int return_value_ne_uri_defaultport_1;
   if(b_uri == 0)
     return (struct ne_session_s *)(void *)0;
 
@@ -4353,14 +4353,14 @@ static struct ne_session_s * session_open(signed int with_lock)
   {
     scheme = uri.scheme != ((char *)NULL) ? uri.scheme : "http";
     if(!(uri.port == 0u))
-      tmp_if_expr$2 = uri.port;
+      tmp_if_expr_2 = uri.port;
 
     else
     {
-      return_value_ne_uri_defaultport$1=ne_uri_defaultport(scheme);
-      tmp_if_expr$2 = return_value_ne_uri_defaultport$1;
+      return_value_ne_uri_defaultport_1=ne_uri_defaultport(scheme);
+      tmp_if_expr_2 = return_value_ne_uri_defaultport_1;
     }
-    session=ne_session_create(scheme, uri.host, tmp_if_expr$2);
+    session=ne_session_create(scheme, uri.host, tmp_if_expr_2);
     if(session == ((struct ne_session_s *)NULL))
     {
       fprintf(stderr, "Failed to create session\n");
@@ -4391,10 +4391,10 @@ signed int session_set_uri(const char *s, const char *u, const char *p)
   assert(!(username != ((char *)NULL)));
   /* assertion !password */
   assert(!(password != ((char *)NULL)));
-  signed int return_value_ne_uri_parse$1;
-  return_value_ne_uri_parse$1=ne_uri_parse(s, &uri);
-  unsigned long int return_value_strlen$2;
-  if(!(return_value_ne_uri_parse$1 == 0))
+  signed int return_value_ne_uri_parse_1;
+  return_value_ne_uri_parse_1=ne_uri_parse(s, &uri);
+  unsigned long int return_value_strlen_2;
+  if(!(return_value_ne_uri_parse_1 == 0))
     fprintf(stderr, "Invalid URI <%s>\n", s);
 
   else
@@ -4406,8 +4406,8 @@ signed int session_set_uri(const char *s, const char *u, const char *p)
     else
     {
       base_directory=strdup(uri.path);
-      return_value_strlen$2=strlen(base_directory);
-      l = (signed int)return_value_strlen$2;
+      return_value_strlen_2=strlen(base_directory);
+      l = (signed int)return_value_strlen_2;
       if((signed int)base_directory[(signed long int)(l + -1)] == 47)
         ((char *)base_directory)[(signed long int)(l - 1)] = (char)0;
 
@@ -4444,65 +4444,65 @@ static void session_tsd_key_init(void)
 static signed int setup_signal_handlers(void)
 {
   struct sigaction sa;
-  struct anonymous$17 m;
+  struct anonymous_17 m;
   sa.__sigaction_handler.sa_handler = exit_handler;
   sigemptyset(&sa.sa_mask);
   sa.sa_flags = 0;
-  signed int return_value_sigaction$3;
-  return_value_sigaction$3=sigaction(1, &sa, (struct sigaction *)(void *)0);
-  _Bool tmp_if_expr$5;
-  signed int return_value_sigaction$4;
-  if(return_value_sigaction$3 == -1)
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_sigaction_3;
+  return_value_sigaction_3=sigaction(1, &sa, (struct sigaction *)(void *)0);
+  _Bool tmp_if_expr_5;
+  signed int return_value_sigaction_4;
+  if(return_value_sigaction_3 == -1)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_sigaction$4=sigaction(2, &sa, (struct sigaction *)(void *)0);
-    tmp_if_expr$5 = return_value_sigaction$4 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_sigaction_4=sigaction(2, &sa, (struct sigaction *)(void *)0);
+    tmp_if_expr_5 = return_value_sigaction_4 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_sigaction$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_sigaction_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_sigaction$6=sigaction(15, &sa, (struct sigaction *)(void *)0);
-    tmp_if_expr$7 = return_value_sigaction$6 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_sigaction_6=sigaction(15, &sa, (struct sigaction *)(void *)0);
+    tmp_if_expr_7 = return_value_sigaction_6 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Cannot set exit signal handlers: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Cannot set exit signal handlers: %s\n", return_value_strerror_2);
     return -1;
   }
 
   sa.__sigaction_handler.sa_handler = (void (*)(signed int))1;
-  signed int return_value_sigaction$10;
-  return_value_sigaction$10=sigaction(13, &sa, (struct sigaction *)(void *)0);
-  if(return_value_sigaction$10 == -1)
+  signed int return_value_sigaction_10;
+  return_value_sigaction_10=sigaction(13, &sa, (struct sigaction *)(void *)0);
+  if(return_value_sigaction_10 == -1)
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    char *return_value_strerror$9;
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    fprintf(stderr, "Cannot set ignored signals: %s\n", return_value_strerror$9);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    char *return_value_strerror_9;
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    fprintf(stderr, "Cannot set ignored signals: %s\n", return_value_strerror_9);
     return -1;
   }
 
   sa.__sigaction_handler.sa_handler = empty_handler;
-  signed int return_value_sigaction$13;
-  return_value_sigaction$13=sigaction(10, &sa, (struct sigaction *)(void *)0);
-  if(return_value_sigaction$13 == -1)
+  signed int return_value_sigaction_13;
+  return_value_sigaction_13=sigaction(10, &sa, (struct sigaction *)(void *)0);
+  if(return_value_sigaction_13 == -1)
   {
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    char *return_value_strerror$12;
-    return_value_strerror$12=strerror(*return_value___errno_location$11);
-    fprintf(stderr, "Cannot set user signals: %s\n", return_value_strerror$12);
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    char *return_value_strerror_12;
+    return_value_strerror_12=strerror(*return_value___errno_location_11);
+    fprintf(stderr, "Cannot set user signals: %s\n", return_value_strerror_12);
     return -1;
   }
 
@@ -4513,31 +4513,31 @@ static signed int setup_signal_handlers(void)
   sigdelset(&m, 15);
   sigaddset(&m, 13);
   sigaddset(&m, 10);
-  pthread_sigmask(2, &m, (struct anonymous$17 *)(void *)0);
+  pthread_sigmask(2, &m, (struct anonymous_17 *)(void *)0);
   return 0;
 }
 
 // simple_propfind_with_redirect
 // file ../../../src/fusedav.c line 117
-static signed int simple_propfind_with_redirect(struct ne_session_s *session, const char *path, signed int depth, const struct anonymous$14 *props, void (*results)(void *, const struct anonymous$13 *, const struct ne_prop_result_set_s *), void *userdata)
+static signed int simple_propfind_with_redirect(struct ne_session_s *session, const char *path, signed int depth, const struct anonymous_14 *props, void (*results)(void *, const struct anonymous_13 *, const struct ne_prop_result_set_s *), void *userdata)
 {
   signed int i;
   signed int ret;
   i = 0;
   for( ; !(i >= 10); i = i + 1)
   {
-    const struct anonymous$13 *u;
+    const struct anonymous_13 *u;
     ret=ne_simple_propfind(session, path, depth, props, results, userdata);
     if(!(ret == 9))
       return ret;
 
     u=ne_redirect_location(session);
-    if(u == ((const struct anonymous$13 *)NULL))
+    if(u == ((const struct anonymous_13 *)NULL))
       break;
 
-    signed int return_value_session_is_local$1;
-    return_value_session_is_local$1=session_is_local(u);
-    if(return_value_session_is_local$1 == 0)
+    signed int return_value_session_is_local_1;
+    return_value_session_is_local_1=session_is_local(u);
+    if(return_value_session_is_local_1 == 0)
       break;
 
     if(!(debug == 0))
@@ -4571,19 +4571,19 @@ signed int stat_cache_get(const char *fn, struct stat *st)
   h=calc_hash(fn);
   ce = cache + (signed long int)(h % (unsigned int)2049);
   pthread_mutex_lock(&stat_cache_mutex);
-  signed int return_value_strcmp$2;
-  signed long int return_value_time$1;
+  signed int return_value_strcmp_2;
+  signed long int return_value_time_1;
   if(!(ce->stat_info.valid == 0))
   {
     if(!(ce->stat_info.filename == ((char *)NULL)))
     {
       if(ce->stat_info.hash == h)
       {
-        return_value_strcmp$2=strcmp(ce->stat_info.filename, fn);
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(ce->stat_info.filename, fn);
+        if(return_value_strcmp_2 == 0)
         {
-          return_value_time$1=time((signed long int *)(void *)0);
-          if(ce->stat_info.dead >= return_value_time$1)
+          return_value_time_1=time((signed long int *)(void *)0);
+          if(ce->stat_info.dead >= return_value_time_1)
           {
             *st = ce->stat_info.st;
             f=file_cache_get(fn);
@@ -4639,23 +4639,23 @@ void stat_cache_set(const char *fn, struct stat *st)
   h=calc_hash(fn);
   ce = cache + (signed long int)(h % (unsigned int)2049);
   pthread_mutex_lock(&stat_cache_mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ce->stat_info.filename == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ce->stat_info.hash != h ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = ce->stat_info.hash != h ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$2=strcmp(ce->stat_info.filename, fn);
-    tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(ce->stat_info.filename, fn);
+    tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     free((void *)ce->stat_info.filename);
     ce->stat_info.filename=strdup(fn);
@@ -4663,9 +4663,9 @@ void stat_cache_set(const char *fn, struct stat *st)
   }
 
   ce->stat_info.st = *st;
-  signed long int return_value_time$4;
-  return_value_time$4=time((signed long int *)(void *)0);
-  ce->stat_info.dead = return_value_time$4 + (signed long int)60;
+  signed long int return_value_time_4;
+  return_value_time_4=time((signed long int *)(void *)0);
+  ce->stat_info.dead = return_value_time_4 + (signed long int)60;
   ce->stat_info.valid = 1;
   pthread_mutex_unlock(&stat_cache_mutex);
 }

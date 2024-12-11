@@ -1,82 +1,82 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$14;
+union anonymous_14;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -172,13 +172,13 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 extern signed int * __errno_location(void);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 682
-extern void __pthread_register_cancel(struct anonymous$3 *);
+extern void __pthread_register_cancel(struct anonymous_3 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 694
-extern void __pthread_unregister_cancel(struct anonymous$3 *);
+extern void __pthread_unregister_cancel(struct anonymous_3 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 735
-extern void __pthread_unwind_next(struct anonymous$3 *);
+extern void __pthread_unwind_next(struct anonymous_3 *);
 // __sigsetjmp
 // file /usr/include/pthread.h line 745
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
@@ -314,9 +314,9 @@ void initNetworkInput(const char *addr);
 // inputThread
 // file mbuffer.c line 673
 static void * inputThread(void *ignored);
-// inputThread::1::1::1::1::1::1::__cancel_routine$object
+// inputThread::1::1::1::1::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // kb2str
 // file mbuffer.c line 219
 static signed int kb2str(char *s, double v);
@@ -389,12 +389,12 @@ static void openDestinationFiles(struct destination *d);
 // outputThread
 // file mbuffer.c line 1150
 static void * outputThread(void *arg);
-// outputThread::1::2::1::__cancel_routine$object
+// outputThread::1::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// outputThread::1::3::1::1::1::1::__cancel_routine$object
+void __cancel_routine_object(void *);
+// outputThread::1::3::1::1::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // pipe
 // file /usr/include/unistd.h line 417
 extern signed int pipe(signed int *);
@@ -409,16 +409,16 @@ static signed int promptInteractive(unsigned int at, unsigned int num);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$16 *);
+extern signed int pthread_cond_broadcast(union anonymous_16 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$16 *, const union anonymous$15 *);
+extern signed int pthread_cond_init(union anonymous_16 *, const union anonymous_15 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$16 *);
+extern signed int pthread_cond_signal(union anonymous_16 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$16 *, union anonymous$14 *);
+extern signed int pthread_cond_wait(union anonymous_16 *, union anonymous_14 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -430,13 +430,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$14 *, const union anonymous$15 *);
+extern signed int pthread_mutex_init(union anonymous_14 *, const union anonymous_15 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$14 *);
+extern signed int pthread_mutex_lock(union anonymous_14 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$14 *);
+extern signed int pthread_mutex_unlock(union anonymous_14 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -463,19 +463,19 @@ static signed int requestOutputVolume(signed int out, const char *outfile);
 extern double rint(double);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$1 *, struct anonymous$1 *, struct anonymous$1 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_1 *, struct anonymous_1 *, struct anonymous_1 *, struct timeval *);
 // sem_getvalue
 // file /usr/include/semaphore.h line 72
-extern signed int sem_getvalue(union anonymous$17 *, signed int *);
+extern signed int sem_getvalue(union anonymous_17 *, signed int *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$17 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_17 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$17 *);
+extern signed int sem_post(union anonymous_17 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$17 *);
+extern signed int sem_wait(union anonymous_17 *);
 // senderThread
 // file mbuffer.c line 866
 static void * senderThread(void *arg);
@@ -563,9 +563,9 @@ static void summary(unsigned long long int numb, signed int numthreads);
 // syncSenders
 // file mbuffer.c line 791
 static inline signed int syncSenders(char *b, signed int s);
-// syncSenders::1::2::1::__cancel_routine$object
+// syncSenders::1::2::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // sysconf
 // file /usr/include/unistd.h line 619
 extern signed long int sysconf(signed int);
@@ -612,7 +612,7 @@ static void * watchdogThread(void *ignored);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$10
+struct anonymous_10
 {
   // _call_addr
   void *_call_addr;
@@ -622,7 +622,7 @@ struct anonymous$10
   unsigned int _arch;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_addr
   void *si_addr;
@@ -630,7 +630,7 @@ struct anonymous$8
   signed short int si_addr_lsb;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // fds_bits
   signed long int fds_bits[16l];
@@ -642,7 +642,7 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -650,15 +650,15 @@ struct anonymous$2
   signed int __mask_was_saved;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __cancel_jmp_buf
-  struct anonymous$2 __cancel_jmp_buf[1l];
+  struct anonymous_2 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // __lock
   signed int __lock;
@@ -678,7 +678,7 @@ struct anonymous$18
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_pid
   signed int si_pid;
@@ -686,7 +686,7 @@ struct anonymous$4
   unsigned int si_uid;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_pid
   signed int si_pid;
@@ -708,7 +708,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_pid
   signed int si_pid;
@@ -718,7 +718,7 @@ struct anonymous$6
   union sigval si_sigval;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_tid
   signed int si_tid;
@@ -728,7 +728,7 @@ struct anonymous$5
   union sigval si_sigval;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_band
   signed long int si_band;
@@ -736,27 +736,27 @@ struct anonymous$9
   signed int si_fd;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$4 _kill;
+  struct anonymous_4 _kill;
   // _timer
-  struct anonymous$5 _timer;
+  struct anonymous_5 _timer;
   // _rt
-  struct anonymous$6 _rt;
+  struct anonymous_6 _rt;
   // _sigchld
-  struct anonymous$7 _sigchld;
+  struct anonymous_7 _sigchld;
   // _sigfault
-  struct anonymous$8 _sigfault;
+  struct anonymous_8 _sigfault;
   // _sigpoll
-  struct anonymous$9 _sigpoll;
+  struct anonymous_9 _sigpoll;
   // _sigsys
-  struct anonymous$10 _sigsys;
+  struct anonymous_10 _sigsys;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_signo
   signed int si_signo;
@@ -765,18 +765,18 @@ struct anonymous$12
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$11 _sifields;
+  union anonymous_11 _sifields;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$12 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_12 *, void *);
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -786,7 +786,7 @@ union anonymous$0
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __size
   char __size[32l];
@@ -794,7 +794,7 @@ union anonymous$17
   signed long int __align;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __size
   char __size[4l];
@@ -802,10 +802,10 @@ union anonymous$15
   signed int __align;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __data
-  struct anonymous$18 __data;
+  struct anonymous_18 __data;
   // __size
   char __size[48l];
   // __align
@@ -840,7 +840,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -987,7 +987,7 @@ struct destination
 struct in6_addr
 {
   // __in6_u
-  union anonymous$0 __in6_u;
+  union anonymous_0 __in6_u;
 };
 
 union pthread_attr_t
@@ -1001,7 +1001,7 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$13 __sigaction_handler;
+  union anonymous_13 __sigaction_handler;
   // sa_mask
   struct anonymous sa_mask;
   // sa_flags
@@ -1131,7 +1131,7 @@ static signed int Autoloader = 0;
 static unsigned long long int Blocksize = (unsigned long long int)10240;
 // Buf2Dev
 // file mbuffer.c line 195
-static union anonymous$17 Buf2Dev;
+static union anonymous_17 Buf2Dev;
 // Buffer
 // file mbuffer.c line 155
 static char **Buffer;
@@ -1143,7 +1143,7 @@ static signed int ClockSrc = 0;
 static struct destination *Dest = ((struct destination *)NULL);
 // Dev2Buf
 // file mbuffer.c line 195
-static union anonymous$17 Dev2Buf;
+static union anonymous_17 Dev2Buf;
 // Direct
 // file mbuffer.c line 163
 static signed int Direct = 0;
@@ -1170,7 +1170,7 @@ static volatile signed int FullCount = 0;
 static signed int Hashers = 0;
 // HighMut
 // file mbuffer.c line 203
-static union anonymous$14 HighMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 HighMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // In
@@ -1184,7 +1184,7 @@ static const char *Infile = ((const char *)NULL);
 signed int Log = 2;
 // LowMut
 // file mbuffer.c line 202
-static union anonymous$14 LowMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 LowMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // MainOutOK
@@ -1234,13 +1234,13 @@ static unsigned long int Outsize = (unsigned long int)10240;
 static unsigned long int Pause = (unsigned long int)0;
 // PercHigh
 // file mbuffer.c line 198
-static union anonymous$16 PercHigh = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_16 PercHigh = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // PercLow
 // file mbuffer.c line 197
-static union anonymous$16 PercLow = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_16 PercLow = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1267,13 +1267,13 @@ static volatile unsigned long long int Rest = (volatile unsigned long long int)0
 static char * volatile SendAt = ((char *)NULL);
 // SendCond
 // file mbuffer.c line 199
-static union anonymous$16 SendCond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_16 SendCond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // SendMut
 // file mbuffer.c line 204
-static union anonymous$14 SendMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 SendMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // SendSize
@@ -1302,7 +1302,7 @@ static signed int StatusLog = 1;
 signed int TCPBufSize = 1 << 20;
 // TermMut
 // file mbuffer.c line 201
-static union anonymous$14 TermMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_14 TermMut = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // TermQ
@@ -1349,33 +1349,33 @@ static void addHashAlgorithm(const char *name)
   const char *algoname = "";
   signed int algo = 0;
   signed int numalgo;
-  unsigned int return_value_mhash_count$1;
-  return_value_mhash_count$1=mhash_count();
-  numalgo = (signed int)return_value_mhash_count$1;
-  signed int return_value_strcasecmp$3;
+  unsigned int return_value_mhash_count_1;
+  return_value_mhash_count_1=mhash_count();
+  numalgo = (signed int)return_value_mhash_count_1;
+  signed int return_value_strcasecmp_3;
   while(numalgo >= algo)
   {
-    const unsigned char *return_value_mhash_get_hash_name_static$2;
-    return_value_mhash_get_hash_name_static$2=mhash_get_hash_name_static((enum __hashid)algo);
-    algoname = (const char *)return_value_mhash_get_hash_name_static$2;
+    const unsigned char *return_value_mhash_get_hash_name_static_2;
+    return_value_mhash_get_hash_name_static_2=mhash_get_hash_name_static((enum __hashid)algo);
+    algoname = (const char *)return_value_mhash_get_hash_name_static_2;
     if(!(algoname == ((const char *)NULL)))
     {
-      return_value_strcasecmp$3=strcasecmp(algoname, name);
-      if(return_value_strcasecmp$3 == 0)
+      return_value_strcasecmp_3=strcasecmp(algoname, name);
+      if(return_value_strcasecmp_3 == 0)
         break;
 
     }
 
     algo = algo + 1;
   }
-  signed int return_value_strcasecmp$5;
-  return_value_strcasecmp$5=strcasecmp(algoname, name);
-  if(return_value_strcasecmp$5 == 0)
+  signed int return_value_strcasecmp_5;
+  return_value_strcasecmp_5=strcasecmp(algoname, name);
+  if(return_value_strcasecmp_5 == 0)
   {
     struct destination *dest;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct destination) /*56ul*/ );
-    dest = (struct destination *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct destination) /*56ul*/ );
+    dest = (struct destination *)return_value_malloc_4;
     bzero((void *)dest, sizeof(struct destination) /*56ul*/ );
     dest->name = algoname;
     dest->fd = algo;
@@ -1405,18 +1405,18 @@ static void addHashAlgorithm(const char *name)
 // file mbuffer.c line 1504
 static signed int argcheck(const char *opt, const char **argv, signed int *c, signed int argc)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(opt);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(opt, argv[(signed long int)*c], return_value_strlen$1);
-  if(!(return_value_strncmp$2 == 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(opt);
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(opt, argv[(signed long int)*c], return_value_strlen_1);
+  if(!(return_value_strncmp_2 == 0))
     return 1;
 
   else
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(argv[(signed long int)*c]);
-    if(return_value_strlen$3 >= 3ul)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(argv[(signed long int)*c]);
+    if(return_value_strlen_3 >= 3ul)
       argv[(signed long int)*c] = argv[(signed long int)*c] + (signed long int)2;
 
     else
@@ -1436,14 +1436,14 @@ static unsigned long long int calcint(const char **argv, signed int c, unsigned 
 {
   char ch;
   double d = (double)def;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(argv[(signed long int)c], "%lf%c", &d, &ch);
-  if(!(return_value_sscanf$1 == 2))
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(argv[(signed long int)c], "%lf%c", &d, &ch);
+  if(!(return_value_sscanf_1 == 2))
   {
-    if(return_value_sscanf$1 == 1)
+    if(return_value_sscanf_1 == 1)
       goto __CPROVER_DUMP_L14;
 
-    if(return_value_sscanf$1 == 0)
+    if(return_value_sscanf_1 == 0)
       goto __CPROVER_DUMP_L18;
 
     /* assertion 0 */
@@ -1541,14 +1541,14 @@ static const char * calcval(const char *arg, unsigned long long int *res)
 {
   char ch;
   double d;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(arg, "%lf%c", &d, &ch);
-  if(!(return_value_sscanf$1 == 2))
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(arg, "%lf%c", &d, &ch);
+  if(!(return_value_sscanf_1 == 2))
   {
-    if(return_value_sscanf$1 == 1)
+    if(return_value_sscanf_1 == 1)
       goto __CPROVER_DUMP_L12;
 
-    if(return_value_sscanf$1 == 0)
+    if(return_value_sscanf_1 == 0)
       goto __CPROVER_DUMP_L15;
 
     /* assertion 0 */
@@ -1673,9 +1673,9 @@ struct destination * createNetworkOutput(const char *addr)
   if(port == ((char *)NULL))
     fatal("syntax error - target must be given in the form <host>:<port>\n");
 
-  char *tmp_post$1 = port;
+  char *tmp_post_1 = port;
   port = port + 1l;
-  *tmp_post$1 = (char)0;
+  *tmp_post_1 = (char)0;
   bzero((void *)&hint, sizeof(struct addrinfo) /*48ul*/ );
   hint.ai_family = AddrFam;
   hint.ai_protocol = 6;
@@ -1685,11 +1685,11 @@ struct destination * createNetworkOutput(const char *addr)
     logdebug("getting address info for %s\n", addr);
 
   err=getaddrinfo(host, port, &hint, &ret);
-  const char *return_value_gai_strerror$2;
+  const char *return_value_gai_strerror_2;
   if(!(err == 0))
   {
-    return_value_gai_strerror$2=gai_strerror(err);
-    fatal("unable to resolve address information for '%s': %s\n", addr, return_value_gai_strerror$2);
+    return_value_gai_strerror_2=gai_strerror(err);
+    fatal("unable to resolve address information for '%s': %s\n", addr, return_value_gai_strerror_2);
   }
 
   x = ret;
@@ -1698,17 +1698,17 @@ struct destination * createNetworkOutput(const char *addr)
     fd=socket(x->ai_family, 1, 0);
     if(fd == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      errormsg("unable to create socket: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      errormsg("unable to create socket: %s\n", return_value_strerror_4);
       goto __CPROVER_DUMP_L8;
     }
 
-    signed int return_value_connect$5;
-    return_value_connect$5=connect(fd, x->ai_addr, x->ai_addrlen);
-    if(return_value_connect$5 == 0)
+    signed int return_value_connect_5;
+    return_value_connect_5=connect(fd, x->ai_addr, x->ai_addrlen);
+    if(return_value_connect_5 == 0)
     {
       if(Verbose >= 5)
         logdebug("successfully connected to %s\n", addr);
@@ -1718,11 +1718,11 @@ struct destination * createNetworkOutput(const char *addr)
 
     close(fd);
     fd = -1;
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    warningmsg("error connecting to %s: %s\n", addr, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    warningmsg("error connecting to %s: %s\n", addr, return_value_strerror_7);
 
   __CPROVER_DUMP_L8:
     ;
@@ -1734,9 +1734,9 @@ struct destination * createNetworkOutput(const char *addr)
   if(!(fd == -1))
     setTCPBufferSize(fd, (unsigned int)7);
 
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(sizeof(struct destination) /*56ul*/ );
-  d = (struct destination *)return_value_malloc$8;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(sizeof(struct destination) /*56ul*/ );
+  d = (struct destination *)return_value_malloc_8;
   d->arg = addr;
   d->name = host;
   d->port = port;
@@ -1755,9 +1755,9 @@ static signed long long int enforceSpeedLimit(unsigned long long int limit, sign
   signed long long int tdiff;
   double dt;
   signed long int self;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  self = (signed long int)return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  self = (signed long int)return_value_pthread_self_1;
   num = num + (signed long long int)Blocksize;
   if(!(num >= 0l))
   {
@@ -1821,9 +1821,9 @@ void errormsg(const char *msg, ...)
     memcpy((void *)buf, (const void *)Prefix, PrefixLen);
     memcpy((void *)b, (const void *)"error: ", (unsigned long int)7);
     b = b + (signed long int)7;
-    signed int return_value_vsnprintf$1;
-    return_value_vsnprintf$1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
-    b = b + (signed long int)return_value_vsnprintf$1;
+    signed int return_value_vsnprintf_1;
+    return_value_vsnprintf_1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
+    b = b + (signed long int)return_value_vsnprintf_1;
     s = (unsigned long int)(b - buf);
     /* assertion s < sizeof(buf) */
     assert(s < sizeof(char [256l]) /*256ul*/ );
@@ -1853,9 +1853,9 @@ void fatal(const char *msg, ...)
     memcpy((void *)buf, (const void *)Prefix, PrefixLen);
     memcpy((void *)b, (const void *)"fatal: ", (unsigned long int)7);
     b = b + (signed long int)7;
-    signed int return_value_vsnprintf$1;
-    return_value_vsnprintf$1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
-    b = b + (signed long int)return_value_vsnprintf$1;
+    signed int return_value_vsnprintf_1;
+    return_value_vsnprintf_1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
+    b = b + (signed long int)return_value_vsnprintf_1;
     s = (unsigned long int)(b - buf);
     /* assertion s < sizeof(buf) */
     assert(s < sizeof(char [256l]) /*256ul*/ );
@@ -1879,8 +1879,8 @@ static void * hashThread(void *arg)
   if(Verbose >= 5)
     logdebug("hashThread(): starting...\n");
 
-  signed int return_value_sprintf$5;
-  char *tmp_post$6;
+  signed int return_value_sprintf_5;
+  char *tmp_post_6;
   do
   {
     signed int size;
@@ -1894,34 +1894,34 @@ static void * hashThread(void *arg)
       char *m;
       const char *an;
       signed int i;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)300);
-      msg = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)300);
+      msg = (char *)return_value_malloc_1;
       m = msg;
       if(Verbose >= 5)
         logdebug("hashThread(): done.\n");
 
       mhash_deinit(ctxt, (void *)hashvalue);
-      const unsigned char *return_value_mhash_get_hash_name_static$2;
-      return_value_mhash_get_hash_name_static$2=mhash_get_hash_name_static((enum __hashid)algo);
-      an = (const char *)return_value_mhash_get_hash_name_static$2;
-      unsigned int return_value_mhash_get_block_size$3;
-      return_value_mhash_get_block_size$3=mhash_get_block_size((enum __hashid)algo);
-      ds = (unsigned long int)return_value_mhash_get_block_size$3;
+      const unsigned char *return_value_mhash_get_hash_name_static_2;
+      return_value_mhash_get_hash_name_static_2=mhash_get_hash_name_static((enum __hashid)algo);
+      an = (const char *)return_value_mhash_get_hash_name_static_2;
+      unsigned int return_value_mhash_get_block_size_3;
+      return_value_mhash_get_block_size_3=mhash_get_block_size((enum __hashid)algo);
+      ds = (unsigned long int)return_value_mhash_get_block_size_3;
       /* assertion sizeof(hashvalue) >= ds */
       assert(sizeof(unsigned char [128l]) /*128ul*/  >= ds);
-      signed int return_value_sprintf$4;
-      return_value_sprintf$4=sprintf(m, "%s hash: ", an);
-      m = m + (signed long int)return_value_sprintf$4;
+      signed int return_value_sprintf_4;
+      return_value_sprintf_4=sprintf(m, "%s hash: ", an);
+      m = m + (signed long int)return_value_sprintf_4;
       i = 0;
       for( ; !((unsigned long int)i >= ds); i = i + 1)
       {
-        return_value_sprintf$5=sprintf(m, "%02x", (unsigned int)hashvalue[(signed long int)i]);
-        m = m + (signed long int)return_value_sprintf$5;
+        return_value_sprintf_5=sprintf(m, "%02x", (unsigned int)hashvalue[(signed long int)i]);
+        m = m + (signed long int)return_value_sprintf_5;
       }
-      tmp_post$6 = m;
+      tmp_post_6 = m;
       m = m + 1l;
-      *tmp_post$6 = (char)10;
+      *tmp_post_6 = (char)10;
       *m = (char)0;
       dest->result = msg;
       pthread_exit((void *)msg);
@@ -1955,9 +1955,9 @@ void infomsg(const char *msg, ...)
     unsigned long int s;
     val = (void **)&msg;
     memcpy((void *)buf, (const void *)Prefix, PrefixLen);
-    signed int return_value_vsnprintf$1;
-    return_value_vsnprintf$1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
-    b = b + (signed long int)return_value_vsnprintf$1;
+    signed int return_value_vsnprintf_1;
+    return_value_vsnprintf_1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
+    b = b + (signed long int)return_value_vsnprintf_1;
     s = (unsigned long int)(b - buf);
     /* assertion s < sizeof(buf) */
     assert(s < sizeof(char [256l]) /*256ul*/ );
@@ -1979,66 +1979,66 @@ static void initDefaults()
   signed int df;
   struct _IO_FILE *dfstr;
   struct stat st;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int return_value_feof$8;
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
-  signed int return_value_strcasecmp$69;
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$11;
-  signed int return_value_strcasecmp$68;
-  _Bool tmp_if_expr$15;
-  signed int *return_value___errno_location$14;
-  signed int return_value_strcasecmp$67;
-  signed int return_value_strcasecmp$66;
-  signed int return_value_strcasecmp$65;
-  _Bool tmp_if_expr$19;
-  signed int *return_value___errno_location$18;
-  signed int return_value_strcasecmp$64;
-  _Bool tmp_if_expr$27;
-  signed int return_value_strcasecmp$26;
-  _Bool tmp_if_expr$29;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcasecmp$20;
-  _Bool tmp_if_expr$22;
-  signed int return_value_strcasecmp$21;
-  _Bool tmp_if_expr$24;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcasecmp$63;
-  _Bool tmp_if_expr$37;
-  signed int return_value_strcasecmp$36;
-  _Bool tmp_if_expr$39;
-  signed int return_value_strcmp$38;
-  signed int return_value_strcasecmp$30;
-  _Bool tmp_if_expr$32;
-  signed int return_value_strcasecmp$31;
-  _Bool tmp_if_expr$34;
-  signed int return_value_strcmp$33;
-  signed int return_value_strcasecmp$62;
-  _Bool tmp_if_expr$47;
-  signed int return_value_strcasecmp$46;
-  _Bool tmp_if_expr$49;
-  signed int return_value_strcmp$48;
-  signed int return_value_strcasecmp$40;
-  _Bool tmp_if_expr$42;
-  signed int return_value_strcasecmp$41;
-  _Bool tmp_if_expr$44;
-  signed int return_value_strcmp$43;
-  signed int return_value_strcasecmp$61;
-  _Bool tmp_if_expr$58;
-  signed int return_value_strcasecmp$57;
-  _Bool tmp_if_expr$60;
-  signed int return_value_strcmp$59;
-  signed int return_value_strcasecmp$51;
-  _Bool tmp_if_expr$53;
-  signed int return_value_strcasecmp$52;
-  _Bool tmp_if_expr$55;
-  signed int return_value_strcmp$54;
-  signed int return_value_strcasecmp$74;
-  signed int return_value_strcasecmp$73;
-  signed int return_value_strcasecmp$72;
-  signed int return_value_strcasecmp$71;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int return_value_feof_8;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
+  signed int return_value_strcasecmp_69;
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_11;
+  signed int return_value_strcasecmp_68;
+  _Bool tmp_if_expr_15;
+  signed int *return_value___errno_location_14;
+  signed int return_value_strcasecmp_67;
+  signed int return_value_strcasecmp_66;
+  signed int return_value_strcasecmp_65;
+  _Bool tmp_if_expr_19;
+  signed int *return_value___errno_location_18;
+  signed int return_value_strcasecmp_64;
+  _Bool tmp_if_expr_27;
+  signed int return_value_strcasecmp_26;
+  _Bool tmp_if_expr_29;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcasecmp_20;
+  _Bool tmp_if_expr_22;
+  signed int return_value_strcasecmp_21;
+  _Bool tmp_if_expr_24;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcasecmp_63;
+  _Bool tmp_if_expr_37;
+  signed int return_value_strcasecmp_36;
+  _Bool tmp_if_expr_39;
+  signed int return_value_strcmp_38;
+  signed int return_value_strcasecmp_30;
+  _Bool tmp_if_expr_32;
+  signed int return_value_strcasecmp_31;
+  _Bool tmp_if_expr_34;
+  signed int return_value_strcmp_33;
+  signed int return_value_strcasecmp_62;
+  _Bool tmp_if_expr_47;
+  signed int return_value_strcasecmp_46;
+  _Bool tmp_if_expr_49;
+  signed int return_value_strcmp_48;
+  signed int return_value_strcasecmp_40;
+  _Bool tmp_if_expr_42;
+  signed int return_value_strcasecmp_41;
+  _Bool tmp_if_expr_44;
+  signed int return_value_strcmp_43;
+  signed int return_value_strcasecmp_61;
+  _Bool tmp_if_expr_58;
+  signed int return_value_strcasecmp_57;
+  _Bool tmp_if_expr_60;
+  signed int return_value_strcmp_59;
+  signed int return_value_strcasecmp_51;
+  _Bool tmp_if_expr_53;
+  signed int return_value_strcasecmp_52;
+  _Bool tmp_if_expr_55;
+  signed int return_value_strcmp_54;
+  signed int return_value_strcasecmp_74;
+  signed int return_value_strcasecmp_73;
+  signed int return_value_strcasecmp_72;
+  signed int return_value_strcasecmp_71;
   if(home == ((const char *)NULL))
     warningmsg("HOME environment variable not set - unable to find defaults file\n");
 
@@ -2056,36 +2056,36 @@ static void initDefaults()
       df=open(dfname, 00);
       if(df == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 2)
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 2)
           infomsg("no defaults file ~/.mbuffer.rc\n");
 
         else
         {
-          return_value___errno_location$1=__errno_location();
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          warningmsg("error opening defaults file %s: %s\n", (const void *)dfname, return_value_strerror$2);
+          return_value___errno_location_1=__errno_location();
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          warningmsg("error opening defaults file %s: %s\n", (const void *)dfname, return_value_strerror_2);
         }
         goto __CPROVER_DUMP_L101;
       }
 
-      signed int return_value_fstat$6;
-      return_value_fstat$6=fstat(df, &st);
-      if(return_value_fstat$6 == -1)
+      signed int return_value_fstat_6;
+      return_value_fstat_6=fstat(df, &st);
+      if(return_value_fstat_6 == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        warningmsg("unable to stat defaults file %s: %s\n", (const void *)dfname, return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        warningmsg("unable to stat defaults file %s: %s\n", (const void *)dfname, return_value_strerror_5);
         close(df);
         goto __CPROVER_DUMP_L101;
       }
 
-      unsigned int return_value_getuid$7;
-      return_value_getuid$7=getuid();
-      if(!(return_value_getuid$7 == st.st_uid))
+      unsigned int return_value_getuid_7;
+      return_value_getuid_7=getuid();
+      if(!(return_value_getuid_7 == st.st_uid))
       {
         warningmsg("ignoring defaults file from different user\n");
         close(df);
@@ -2099,8 +2099,8 @@ static void initDefaults()
         assert(dfstr != ((struct _IO_FILE *)NULL));
         do
         {
-          return_value_feof$8=feof(dfstr);
-          if(!(return_value_feof$8 == 0))
+          return_value_feof_8=feof(dfstr);
+          if(!(return_value_feof_8 == 0))
             break;
 
           char key[64l];
@@ -2122,21 +2122,21 @@ static void initDefaults()
             if(Verbose >= 5)
               logdebug("parsing key/value pair %s=%s\n", (const void *)key, (const void *)valuestr);
 
-            signed int return_value_strcasecmp$70;
-            return_value_strcasecmp$70=strcasecmp(key, "numblocks");
-            if(return_value_strcasecmp$70 == 0)
+            signed int return_value_strcasecmp_70;
+            return_value_strcasecmp_70=strcasecmp(key, "numblocks");
+            if(return_value_strcasecmp_70 == 0)
             {
               signed long int nb;
               nb=strtol(valuestr, ((char ** restrict )NULL), 0);
               if(nb == 0l)
               {
-                return_value___errno_location$9=__errno_location();
-                tmp_if_expr$10 = *return_value___errno_location$9 == 22 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_9=__errno_location();
+                tmp_if_expr_10 = *return_value___errno_location_9 == 22 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$10 = (_Bool)0;
-              if(tmp_if_expr$10)
+                tmp_if_expr_10 = (_Bool)0;
+              if(tmp_if_expr_10)
                 warningmsg("invalid argument for %s: \"%s\"\n", (const void *)key, (const void *)valuestr);
 
               else
@@ -2150,20 +2150,20 @@ static void initDefaults()
 
             else
             {
-              return_value_strcasecmp$69=strcasecmp(key, "pause");
-              if(return_value_strcasecmp$69 == 0)
+              return_value_strcasecmp_69=strcasecmp(key, "pause");
+              if(return_value_strcasecmp_69 == 0)
               {
                 signed long int p;
                 p=strtol(valuestr, ((char ** restrict )NULL), 0);
                 if(p == 0l)
                 {
-                  return_value___errno_location$11=__errno_location();
-                  tmp_if_expr$12 = *return_value___errno_location$11 == 22 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_11=__errno_location();
+                  tmp_if_expr_12 = *return_value___errno_location_11 == 22 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                if(tmp_if_expr$12)
+                  tmp_if_expr_12 = (_Bool)0;
+                if(tmp_if_expr_12)
                   warningmsg("invalid argument for %s: \"%s\"\n", (const void *)key, (const void *)valuestr);
 
                 else
@@ -2177,22 +2177,22 @@ static void initDefaults()
 
               else
               {
-                return_value_strcasecmp$68=strcasecmp(key, "autoloadtime");
-                if(return_value_strcasecmp$68 == 0)
+                return_value_strcasecmp_68=strcasecmp(key, "autoloadtime");
+                if(return_value_strcasecmp_68 == 0)
                 {
                   signed long int at;
-                  signed long int return_value_strtol$13;
-                  return_value_strtol$13=strtol(valuestr, ((char ** restrict )NULL), 0);
-                  at = return_value_strtol$13 - (signed long int)1;
+                  signed long int return_value_strtol_13;
+                  return_value_strtol_13=strtol(valuestr, ((char ** restrict )NULL), 0);
+                  at = return_value_strtol_13 - (signed long int)1;
                   if(at == 0l)
                   {
-                    return_value___errno_location$14=__errno_location();
-                    tmp_if_expr$15 = *return_value___errno_location$14 == 22 ? (_Bool)1 : (_Bool)0;
+                    return_value___errno_location_14=__errno_location();
+                    tmp_if_expr_15 = *return_value___errno_location_14 == 22 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$15 = (_Bool)0;
-                  if(tmp_if_expr$15)
+                    tmp_if_expr_15 = (_Bool)0;
+                  if(tmp_if_expr_15)
                     warningmsg("invalid argument for %s: \"%s\"\n", (const void *)key, (const void *)valuestr);
 
                   else
@@ -2206,13 +2206,13 @@ static void initDefaults()
 
                 else
                 {
-                  return_value_strcasecmp$67=strcasecmp(key, "startread");
-                  if(return_value_strcasecmp$67 == 0)
+                  return_value_strcasecmp_67=strcasecmp(key, "startread");
+                  if(return_value_strcasecmp_67 == 0)
                   {
                     double sr = (double)0;
-                    signed int return_value_sscanf$16;
-                    return_value_sscanf$16=sscanf(valuestr, "%lf", &sr);
-                    if(return_value_sscanf$16 == 1)
+                    signed int return_value_sscanf_16;
+                    return_value_sscanf_16=sscanf(valuestr, "%lf", &sr);
+                    if(return_value_sscanf_16 == 1)
                       sr = sr / (double)100;
 
                     if(sr <= 1.000000 && sr > 0.000000)
@@ -2227,13 +2227,13 @@ static void initDefaults()
 
                   else
                   {
-                    return_value_strcasecmp$66=strcasecmp(key, "startwrite");
-                    if(return_value_strcasecmp$66 == 0)
+                    return_value_strcasecmp_66=strcasecmp(key, "startwrite");
+                    if(return_value_strcasecmp_66 == 0)
                     {
                       double sw = (double)0;
-                      signed int return_value_sscanf$17;
-                      return_value_sscanf$17=sscanf(valuestr, "%lf", &sw);
-                      if(return_value_sscanf$17 == 1)
+                      signed int return_value_sscanf_17;
+                      return_value_sscanf_17=sscanf(valuestr, "%lf", &sw);
+                      if(return_value_sscanf_17 == 1)
                         sw = sw / (double)100;
 
                       if(sw <= 1.000000 && sw > 0.000000)
@@ -2248,20 +2248,20 @@ static void initDefaults()
 
                     else
                     {
-                      return_value_strcasecmp$65=strcasecmp(key, "timeout");
-                      if(return_value_strcasecmp$65 == 0)
+                      return_value_strcasecmp_65=strcasecmp(key, "timeout");
+                      if(return_value_strcasecmp_65 == 0)
                       {
                         signed long int t;
                         t=strtol(valuestr, ((char ** restrict )NULL), 0);
                         if(t == 0l)
                         {
-                          return_value___errno_location$18=__errno_location();
-                          tmp_if_expr$19 = *return_value___errno_location$18 == 22 ? (_Bool)1 : (_Bool)0;
+                          return_value___errno_location_18=__errno_location();
+                          tmp_if_expr_19 = *return_value___errno_location_18 == 22 ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$19 = (_Bool)0;
-                        if(!(t >= 0l) || tmp_if_expr$19)
+                          tmp_if_expr_19 = (_Bool)0;
+                        if(!(t >= 0l) || tmp_if_expr_19)
                           warningmsg("invalid argument for %s: \"%s\"\n", (const void *)key, (const void *)valuestr);
 
                         else
@@ -2275,28 +2275,28 @@ static void initDefaults()
 
                       else
                       {
-                        return_value_strcasecmp$64=strcasecmp(key, "showstatus");
-                        if(return_value_strcasecmp$64 == 0)
+                        return_value_strcasecmp_64=strcasecmp(key, "showstatus");
+                        if(return_value_strcasecmp_64 == 0)
                         {
-                          signed int return_value_strcasecmp$25;
-                          return_value_strcasecmp$25=strcasecmp(valuestr, "yes");
-                          if(return_value_strcasecmp$25 == 0)
-                            tmp_if_expr$27 = (_Bool)1;
+                          signed int return_value_strcasecmp_25;
+                          return_value_strcasecmp_25=strcasecmp(valuestr, "yes");
+                          if(return_value_strcasecmp_25 == 0)
+                            tmp_if_expr_27 = (_Bool)1;
 
                           else
                           {
-                            return_value_strcasecmp$26=strcasecmp(valuestr, "on");
-                            tmp_if_expr$27 = return_value_strcasecmp$26 == 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_strcasecmp_26=strcasecmp(valuestr, "on");
+                            tmp_if_expr_27 = return_value_strcasecmp_26 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$27)
-                            tmp_if_expr$29 = (_Bool)1;
+                          if(tmp_if_expr_27)
+                            tmp_if_expr_29 = (_Bool)1;
 
                           else
                           {
-                            return_value_strcmp$28=strcmp(valuestr, "1");
-                            tmp_if_expr$29 = return_value_strcmp$28 == 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_strcmp_28=strcmp(valuestr, "1");
+                            tmp_if_expr_29 = return_value_strcmp_28 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$29)
+                          if(tmp_if_expr_29)
                           {
                             Quiet = 0;
                             if(Verbose >= 5)
@@ -2306,24 +2306,24 @@ static void initDefaults()
 
                           else
                           {
-                            return_value_strcasecmp$20=strcasecmp(valuestr, "no");
-                            if(return_value_strcasecmp$20 == 0)
-                              tmp_if_expr$22 = (_Bool)1;
+                            return_value_strcasecmp_20=strcasecmp(valuestr, "no");
+                            if(return_value_strcasecmp_20 == 0)
+                              tmp_if_expr_22 = (_Bool)1;
 
                             else
                             {
-                              return_value_strcasecmp$21=strcasecmp(valuestr, "off");
-                              tmp_if_expr$22 = return_value_strcasecmp$21 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_strcasecmp_21=strcasecmp(valuestr, "off");
+                              tmp_if_expr_22 = return_value_strcasecmp_21 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$22)
-                              tmp_if_expr$24 = (_Bool)1;
+                            if(tmp_if_expr_22)
+                              tmp_if_expr_24 = (_Bool)1;
 
                             else
                             {
-                              return_value_strcmp$23=strcmp(valuestr, "0");
-                              tmp_if_expr$24 = return_value_strcmp$23 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_strcmp_23=strcmp(valuestr, "0");
+                              tmp_if_expr_24 = return_value_strcmp_23 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$24)
+                            if(tmp_if_expr_24)
                             {
                               Quiet = 1;
                               if(Verbose >= 5)
@@ -2339,28 +2339,28 @@ static void initDefaults()
 
                         else
                         {
-                          return_value_strcasecmp$63=strcasecmp(key, "logstatus");
-                          if(return_value_strcasecmp$63 == 0)
+                          return_value_strcasecmp_63=strcasecmp(key, "logstatus");
+                          if(return_value_strcasecmp_63 == 0)
                           {
-                            signed int return_value_strcasecmp$35;
-                            return_value_strcasecmp$35=strcasecmp(valuestr, "yes");
-                            if(return_value_strcasecmp$35 == 0)
-                              tmp_if_expr$37 = (_Bool)1;
+                            signed int return_value_strcasecmp_35;
+                            return_value_strcasecmp_35=strcasecmp(valuestr, "yes");
+                            if(return_value_strcasecmp_35 == 0)
+                              tmp_if_expr_37 = (_Bool)1;
 
                             else
                             {
-                              return_value_strcasecmp$36=strcasecmp(valuestr, "on");
-                              tmp_if_expr$37 = return_value_strcasecmp$36 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_strcasecmp_36=strcasecmp(valuestr, "on");
+                              tmp_if_expr_37 = return_value_strcasecmp_36 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$37)
-                              tmp_if_expr$39 = (_Bool)1;
+                            if(tmp_if_expr_37)
+                              tmp_if_expr_39 = (_Bool)1;
 
                             else
                             {
-                              return_value_strcmp$38=strcmp(valuestr, "1");
-                              tmp_if_expr$39 = return_value_strcmp$38 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_strcmp_38=strcmp(valuestr, "1");
+                              tmp_if_expr_39 = return_value_strcmp_38 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$39)
+                            if(tmp_if_expr_39)
                             {
                               StatusLog = 1;
                               if(Verbose >= 5)
@@ -2370,24 +2370,24 @@ static void initDefaults()
 
                             else
                             {
-                              return_value_strcasecmp$30=strcasecmp(valuestr, "no");
-                              if(return_value_strcasecmp$30 == 0)
-                                tmp_if_expr$32 = (_Bool)1;
+                              return_value_strcasecmp_30=strcasecmp(valuestr, "no");
+                              if(return_value_strcasecmp_30 == 0)
+                                tmp_if_expr_32 = (_Bool)1;
 
                               else
                               {
-                                return_value_strcasecmp$31=strcasecmp(valuestr, "off");
-                                tmp_if_expr$32 = return_value_strcasecmp$31 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_strcasecmp_31=strcasecmp(valuestr, "off");
+                                tmp_if_expr_32 = return_value_strcasecmp_31 == 0 ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$32)
-                                tmp_if_expr$34 = (_Bool)1;
+                              if(tmp_if_expr_32)
+                                tmp_if_expr_34 = (_Bool)1;
 
                               else
                               {
-                                return_value_strcmp$33=strcmp(valuestr, "0");
-                                tmp_if_expr$34 = return_value_strcmp$33 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_strcmp_33=strcmp(valuestr, "0");
+                                tmp_if_expr_34 = return_value_strcmp_33 == 0 ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$34)
+                              if(tmp_if_expr_34)
                               {
                                 StatusLog = 0;
                                 if(Verbose >= 5)
@@ -2403,28 +2403,28 @@ static void initDefaults()
 
                           else
                           {
-                            return_value_strcasecmp$62=strcasecmp(key, "memlock");
-                            if(return_value_strcasecmp$62 == 0)
+                            return_value_strcasecmp_62=strcasecmp(key, "memlock");
+                            if(return_value_strcasecmp_62 == 0)
                             {
-                              signed int return_value_strcasecmp$45;
-                              return_value_strcasecmp$45=strcasecmp(valuestr, "yes");
-                              if(return_value_strcasecmp$45 == 0)
-                                tmp_if_expr$47 = (_Bool)1;
+                              signed int return_value_strcasecmp_45;
+                              return_value_strcasecmp_45=strcasecmp(valuestr, "yes");
+                              if(return_value_strcasecmp_45 == 0)
+                                tmp_if_expr_47 = (_Bool)1;
 
                               else
                               {
-                                return_value_strcasecmp$46=strcasecmp(valuestr, "on");
-                                tmp_if_expr$47 = return_value_strcasecmp$46 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_strcasecmp_46=strcasecmp(valuestr, "on");
+                                tmp_if_expr_47 = return_value_strcasecmp_46 == 0 ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$47)
-                                tmp_if_expr$49 = (_Bool)1;
+                              if(tmp_if_expr_47)
+                                tmp_if_expr_49 = (_Bool)1;
 
                               else
                               {
-                                return_value_strcmp$48=strcmp(valuestr, "1");
-                                tmp_if_expr$49 = return_value_strcmp$48 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_strcmp_48=strcmp(valuestr, "1");
+                                tmp_if_expr_49 = return_value_strcmp_48 == 0 ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$49)
+                              if(tmp_if_expr_49)
                               {
                                 Memlock = 1;
                                 if(Verbose >= 5)
@@ -2434,24 +2434,24 @@ static void initDefaults()
 
                               else
                               {
-                                return_value_strcasecmp$40=strcasecmp(valuestr, "no");
-                                if(return_value_strcasecmp$40 == 0)
-                                  tmp_if_expr$42 = (_Bool)1;
+                                return_value_strcasecmp_40=strcasecmp(valuestr, "no");
+                                if(return_value_strcasecmp_40 == 0)
+                                  tmp_if_expr_42 = (_Bool)1;
 
                                 else
                                 {
-                                  return_value_strcasecmp$41=strcasecmp(valuestr, "off");
-                                  tmp_if_expr$42 = return_value_strcasecmp$41 == 0 ? (_Bool)1 : (_Bool)0;
+                                  return_value_strcasecmp_41=strcasecmp(valuestr, "off");
+                                  tmp_if_expr_42 = return_value_strcasecmp_41 == 0 ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$42)
-                                  tmp_if_expr$44 = (_Bool)1;
+                                if(tmp_if_expr_42)
+                                  tmp_if_expr_44 = (_Bool)1;
 
                                 else
                                 {
-                                  return_value_strcmp$43=strcmp(valuestr, "0");
-                                  tmp_if_expr$44 = return_value_strcmp$43 == 0 ? (_Bool)1 : (_Bool)0;
+                                  return_value_strcmp_43=strcmp(valuestr, "0");
+                                  tmp_if_expr_44 = return_value_strcmp_43 == 0 ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$44)
+                                if(tmp_if_expr_44)
                                 {
                                   Memlock = 0;
                                   if(Verbose >= 5)
@@ -2467,54 +2467,54 @@ static void initDefaults()
 
                             else
                             {
-                              return_value_strcasecmp$61=strcasecmp(key, "printpid");
-                              if(return_value_strcasecmp$61 == 0)
+                              return_value_strcasecmp_61=strcasecmp(key, "printpid");
+                              if(return_value_strcasecmp_61 == 0)
                               {
-                                signed int return_value_strcasecmp$56;
-                                return_value_strcasecmp$56=strcasecmp(valuestr, "yes");
-                                if(return_value_strcasecmp$56 == 0)
-                                  tmp_if_expr$58 = (_Bool)1;
+                                signed int return_value_strcasecmp_56;
+                                return_value_strcasecmp_56=strcasecmp(valuestr, "yes");
+                                if(return_value_strcasecmp_56 == 0)
+                                  tmp_if_expr_58 = (_Bool)1;
 
                                 else
                                 {
-                                  return_value_strcasecmp$57=strcasecmp(valuestr, "on");
-                                  tmp_if_expr$58 = return_value_strcasecmp$57 == 0 ? (_Bool)1 : (_Bool)0;
+                                  return_value_strcasecmp_57=strcasecmp(valuestr, "on");
+                                  tmp_if_expr_58 = return_value_strcasecmp_57 == 0 ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$58)
-                                  tmp_if_expr$60 = (_Bool)1;
+                                if(tmp_if_expr_58)
+                                  tmp_if_expr_60 = (_Bool)1;
 
                                 else
                                 {
-                                  return_value_strcmp$59=strcmp(valuestr, "1");
-                                  tmp_if_expr$60 = return_value_strcmp$59 == 0 ? (_Bool)1 : (_Bool)0;
+                                  return_value_strcmp_59=strcmp(valuestr, "1");
+                                  tmp_if_expr_60 = return_value_strcmp_59 == 0 ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$60)
+                                if(tmp_if_expr_60)
                                 {
-                                  signed int return_value_getpid$50;
-                                  return_value_getpid$50=getpid();
-                                  printmsg("PID is %d\n", return_value_getpid$50);
+                                  signed int return_value_getpid_50;
+                                  return_value_getpid_50=getpid();
+                                  printmsg("PID is %d\n", return_value_getpid_50);
                                 }
 
                                 else
                                 {
-                                  return_value_strcasecmp$51=strcasecmp(valuestr, "no");
-                                  if(return_value_strcasecmp$51 == 0)
-                                    tmp_if_expr$53 = (_Bool)1;
+                                  return_value_strcasecmp_51=strcasecmp(valuestr, "no");
+                                  if(return_value_strcasecmp_51 == 0)
+                                    tmp_if_expr_53 = (_Bool)1;
 
                                   else
                                   {
-                                    return_value_strcasecmp$52=strcasecmp(valuestr, "off");
-                                    tmp_if_expr$53 = return_value_strcasecmp$52 == 0 ? (_Bool)1 : (_Bool)0;
+                                    return_value_strcasecmp_52=strcasecmp(valuestr, "off");
+                                    tmp_if_expr_53 = return_value_strcasecmp_52 == 0 ? (_Bool)1 : (_Bool)0;
                                   }
-                                  if(tmp_if_expr$53)
-                                    tmp_if_expr$55 = (_Bool)1;
+                                  if(tmp_if_expr_53)
+                                    tmp_if_expr_55 = (_Bool)1;
 
                                   else
                                   {
-                                    return_value_strcmp$54=strcmp(valuestr, "0");
-                                    tmp_if_expr$55 = return_value_strcmp$54 == 0 ? (_Bool)1 : (_Bool)0;
+                                    return_value_strcmp_54=strcmp(valuestr, "0");
+                                    tmp_if_expr_55 = return_value_strcmp_54 == 0 ? (_Bool)1 : (_Bool)0;
                                   }
-                                  if(!tmp_if_expr$55)
+                                  if(!tmp_if_expr_55)
                                     warningmsg("invalid argument for %s: \"%s\"\n", (const void *)key, (const void *)valuestr);
 
                                 }
@@ -2537,27 +2537,27 @@ static void initDefaults()
 
             else
             {
-              signed int return_value_strcasecmp$75;
-              return_value_strcasecmp$75=strcasecmp(key, "blocksize");
-              if(return_value_strcasecmp$75 == 0)
+              signed int return_value_strcasecmp_75;
+              return_value_strcasecmp_75=strcasecmp(key, "blocksize");
+              if(return_value_strcasecmp_75 == 0)
                 Blocksize = value;
 
               else
               {
-                return_value_strcasecmp$74=strcasecmp(key, "maxwritespeed");
-                if(return_value_strcasecmp$74 == 0)
+                return_value_strcasecmp_74=strcasecmp(key, "maxwritespeed");
+                if(return_value_strcasecmp_74 == 0)
                   MaxWriteSpeed = value;
 
                 else
                 {
-                  return_value_strcasecmp$73=strcasecmp(key, "maxreadspeed");
-                  if(return_value_strcasecmp$73 == 0)
+                  return_value_strcasecmp_73=strcasecmp(key, "maxreadspeed");
+                  if(return_value_strcasecmp_73 == 0)
                     MaxReadSpeed = value;
 
                   else
                   {
-                    return_value_strcasecmp$72=strcasecmp(key, "Totalmem");
-                    if(return_value_strcasecmp$72 == 0)
+                    return_value_strcasecmp_72=strcasecmp(key, "Totalmem");
+                    if(return_value_strcasecmp_72 == 0)
                     {
                       if(!(value >= 100ul))
                       {
@@ -2571,8 +2571,8 @@ static void initDefaults()
 
                     else
                     {
-                      return_value_strcasecmp$71=strcasecmp(key, "tcpbuffer");
-                      if(return_value_strcasecmp$71 == 0)
+                      return_value_strcasecmp_71=strcasecmp(key, "tcpbuffer");
+                      if(return_value_strcasecmp_71 == 0)
                         TCPBufSize = (signed int)value;
 
                       else
@@ -2615,15 +2615,15 @@ void initNetworkInput(const char *addr)
   if(Verbose >= 5)
     logdebug("initNetworkInput(\"%s\")\n", addr);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(addr);
-  l = (signed int)(return_value_strlen$1 + (unsigned long int)1);
-  void *return_value___builtin_alloca$2;
-  return_value___builtin_alloca$2=__builtin_alloca((unsigned long int)l);
-  host = (char *)return_value___builtin_alloca$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(addr);
+  l = (signed int)(return_value_strlen_1 + (unsigned long int)1);
+  void *return_value___builtin_alloca_2;
+  return_value___builtin_alloca_2=__builtin_alloca((unsigned long int)l);
+  host = (char *)return_value___builtin_alloca_2;
   memcpy((void *)host, (const void *)addr, (unsigned long int)l);
   port=strrchr(host, 58);
-  const char *return_value_gai_strerror$3;
+  const char *return_value_gai_strerror_3;
   if(port == ((char *)NULL))
   {
     port = host;
@@ -2649,8 +2649,8 @@ void initNetworkInput(const char *addr)
       err=getaddrinfo(host, ((const char *)NULL), &hint, &cinfo);
       if(!(err == 0))
       {
-        return_value_gai_strerror$3=gai_strerror(err);
-        fatal("unable to resolve address information for expected host '%s': %s\n", host, return_value_gai_strerror$3);
+        return_value_gai_strerror_3=gai_strerror(err);
+        fatal("unable to resolve address information for expected host '%s': %s\n", host, return_value_gai_strerror_3);
       }
 
     }
@@ -2660,18 +2660,18 @@ void initNetworkInput(const char *addr)
   hint.ai_socktype = 1;
   hint.ai_flags = 0x0001 | 0x0020;
   err=getaddrinfo(((const char *)NULL), port, &hint, &pinfo);
-  const char *return_value_gai_strerror$4;
+  const char *return_value_gai_strerror_4;
   if(!(err == 0))
   {
-    return_value_gai_strerror$4=gai_strerror(err);
-    fatal("unable to get address information for port/service '%s': %s\n", port, return_value_gai_strerror$4);
+    return_value_gai_strerror_4=gai_strerror(err);
+    fatal("unable to get address information for port/service '%s': %s\n", port, return_value_gai_strerror_4);
   }
 
   /* assertion pinfo */
   assert(pinfo != ((struct addrinfo *)NULL));
   x = pinfo;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
   for( ; !(x == ((struct addrinfo *)NULL)); x = x->ai_next)
   {
     signed int reuse_addr = 1;
@@ -2681,26 +2681,26 @@ void initNetworkInput(const char *addr)
     sock=socket(x->ai_family, 1, 0);
     if(sock == -1)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      warningmsg("unable to create socket for input: %s\n", return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      warningmsg("unable to create socket for input: %s\n", return_value_strerror_6);
       goto __CPROVER_DUMP_L13;
     }
 
-    signed int return_value_setsockopt$9;
-    return_value_setsockopt$9=setsockopt(sock, 1, 2, (const void *)&reuse_addr, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(return_value_setsockopt$9 == -1)
+    signed int return_value_setsockopt_9;
+    return_value_setsockopt_9=setsockopt(sock, 1, 2, (const void *)&reuse_addr, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(return_value_setsockopt_9 == -1)
     {
-      return_value___errno_location$7=__errno_location();
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      warningmsg("cannot set socket to reuse address: %s\n", return_value_strerror$8);
+      return_value___errno_location_7=__errno_location();
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      warningmsg("cannot set socket to reuse address: %s\n", return_value_strerror_8);
     }
 
-    signed int return_value_bind$10;
-    return_value_bind$10=bind(sock, x->ai_addr, x->ai_addrlen);
-    if(return_value_bind$10 == 0)
+    signed int return_value_bind_10;
+    return_value_bind_10=bind(sock, x->ai_addr, x->ai_addrlen);
+    if(return_value_bind_10 == 0)
     {
       if(Verbose >= 5)
         logdebug("successfully bound socket - address length %d\n", x->ai_addrlen);
@@ -2708,11 +2708,11 @@ void initNetworkInput(const char *addr)
       break;
     }
 
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    char *return_value_strerror$12;
-    return_value_strerror$12=strerror(*return_value___errno_location$11);
-    warningmsg("could not bind to socket for network input: %s\n", return_value_strerror$12);
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    char *return_value_strerror_12;
+    return_value_strerror_12=strerror(*return_value___errno_location_11);
+    warningmsg("could not bind to socket for network input: %s\n", return_value_strerror_12);
     close(sock);
 
   __CPROVER_DUMP_L13:
@@ -2722,21 +2722,21 @@ void initNetworkInput(const char *addr)
     fatal("Unable to initialize network input.\n");
 
   infomsg("listening on socket...\n");
-  signed int return_value_listen$15;
-  return_value_listen$15=listen(sock, 0);
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  if(!(return_value_listen$15 >= 0))
+  signed int return_value_listen_15;
+  return_value_listen_15=listen(sock, 0);
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  if(!(return_value_listen_15 >= 0))
   {
-    return_value___errno_location$13=__errno_location();
-    return_value_strerror$14=strerror(*return_value___errno_location$13);
-    fatal("could not listen on socket for network input: %s\n", return_value_strerror$14);
+    return_value___errno_location_13=__errno_location();
+    return_value_strerror_14=strerror(*return_value___errno_location_13);
+    fatal("could not listen on socket for network input: %s\n", return_value_strerror_14);
   }
 
-  signed int *return_value___errno_location$16;
-  char *return_value_strerror$17;
-  signed int *return_value___errno_location$21;
-  char *return_value_strerror$22;
+  signed int *return_value___errno_location_16;
+  char *return_value_strerror_17;
+  signed int *return_value___errno_location_21;
+  char *return_value_strerror_22;
   do
   {
     char chost[1025l];
@@ -2744,24 +2744,24 @@ void initNetworkInput(const char *addr)
     struct sockaddr_in6 caddr;
     struct addrinfo *c;
     unsigned int len = (unsigned int)sizeof(struct sockaddr_in6) /*28ul*/ ;
-    signed int initNetworkInput$$1$$5$$1$$err;
+    signed int initNetworkInput__1__5__1__err;
     if(Verbose >= 5)
       logdebug("waiting for incoming connection\n");
 
     In=accept(sock, (struct sockaddr *)&caddr, &len);
     if(!(In >= 0))
     {
-      return_value___errno_location$16=__errno_location();
-      return_value_strerror$17=strerror(*return_value___errno_location$16);
-      fatal("Unable to accept connection for network input: %s\n", return_value_strerror$17);
+      return_value___errno_location_16=__errno_location();
+      return_value_strerror_17=strerror(*return_value___errno_location_16);
+      fatal("Unable to accept connection for network input: %s\n", return_value_strerror_17);
     }
 
-    initNetworkInput$$1$$5$$1$$err=getnameinfo((struct sockaddr *)&caddr, len, chost, (unsigned int)sizeof(char [1025l]) /*1025ul*/ , serv, (unsigned int)sizeof(char [32l]) /*32ul*/ , 1 | 2 | 4);
-    if(!(initNetworkInput$$1$$5$$1$$err == 0))
+    initNetworkInput__1__5__1__err=getnameinfo((struct sockaddr *)&caddr, len, chost, (unsigned int)sizeof(char [1025l]) /*1025ul*/ , serv, (unsigned int)sizeof(char [32l]) /*32ul*/ , 1 | 2 | 4);
+    if(!(initNetworkInput__1__5__1__err == 0))
     {
-      const char *return_value_gai_strerror$18;
-      return_value_gai_strerror$18=gai_strerror(initNetworkInput$$1$$5$$1$$err);
-      fatal("unable to get name information for hostname of incoming connection: %s\n", return_value_gai_strerror$18);
+      const char *return_value_gai_strerror_18;
+      return_value_gai_strerror_18=gai_strerror(initNetworkInput__1__5__1__err);
+      fatal("unable to get name information for hostname of incoming connection: %s\n", return_value_gai_strerror_18);
     }
 
     infomsg("incoming connection from %s:%s\n", (const void *)chost, (const void *)serv);
@@ -2772,16 +2772,16 @@ void initNetworkInput(const char *addr)
     for( ; !(c == ((struct addrinfo *)NULL)); c = c->ai_next)
     {
       char xhost[1025l];
-      signed int return_value_getnameinfo$20;
-      return_value_getnameinfo$20=getnameinfo((struct sockaddr *)c->ai_addr, c->ai_addrlen, xhost, (unsigned int)sizeof(char [1025l]) /*1025ul*/ , ((char *)NULL), (unsigned int)0, 1 | 4);
-      if(return_value_getnameinfo$20 == 0)
+      signed int return_value_getnameinfo_20;
+      return_value_getnameinfo_20=getnameinfo((struct sockaddr *)c->ai_addr, c->ai_addrlen, xhost, (unsigned int)sizeof(char [1025l]) /*1025ul*/ , ((char *)NULL), (unsigned int)0, 1 | 4);
+      if(return_value_getnameinfo_20 == 0)
       {
         if(Verbose >= 5)
           logdebug("checking against host '%s'\n", (const void *)xhost);
 
-        signed int return_value_strcmp$19;
-        return_value_strcmp$19=strcmp(xhost, chost);
-        if(return_value_strcmp$19 == 0)
+        signed int return_value_strcmp_19;
+        return_value_strcmp_19=strcmp(xhost, chost);
+        if(return_value_strcmp_19 == 0)
           break;
 
       }
@@ -2791,13 +2791,13 @@ void initNetworkInput(const char *addr)
       break;
 
     warningmsg("rejected connection from %s\n", (const void *)chost);
-    signed int return_value_close$23;
-    return_value_close$23=close(In);
-    if(return_value_close$23 == -1)
+    signed int return_value_close_23;
+    return_value_close_23=close(In);
+    if(return_value_close_23 == -1)
     {
-      return_value___errno_location$21=__errno_location();
-      return_value_strerror$22=strerror(*return_value___errno_location$21);
-      warningmsg("error closing rejected input: %s\n", return_value_strerror$22);
+      return_value___errno_location_21=__errno_location();
+      return_value_strerror_22=strerror(*return_value___errno_location_21);
+      warningmsg("error closing rejected input: %s\n", return_value_strerror_22);
     }
 
   }
@@ -2825,13 +2825,13 @@ static void * inputThread(void *ignored)
   const double startwrite = StartWrite;
   struct timespec last;
   signed int maxfd;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(In >= TermQ[0l]))
-    tmp_if_expr$1 = TermQ[(signed long int)0] + 1;
+    tmp_if_expr_1 = TermQ[(signed long int)0] + 1;
 
   else
-    tmp_if_expr$1 = In + 1;
-  maxfd = tmp_if_expr$1;
+    tmp_if_expr_1 = In + 1;
+  maxfd = tmp_if_expr_1;
   if(!(Status == 0))
     /* assertion TermQ[0] != -1 */
     assert(TermQ[(signed long int)0] != -1);
@@ -2839,17 +2839,17 @@ static void * inputThread(void *ignored)
   clock_gettime(ClockSrc, &last);
   /* assertion ignored == 0 */
   assert(ignored == NULL);
-  unsigned long int return_value_pthread_self$2;
-  return_value_pthread_self$2=pthread_self();
-  infomsg("inputThread: starting with threadid %ld...\n", (signed long int)return_value_pthread_self$2);
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$13;
-  signed int *return_value___errno_location$12;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
+  unsigned long int return_value_pthread_self_2;
+  return_value_pthread_self_2=pthread_self();
+  infomsg("inputThread: starting with threadid %ld...\n", (signed long int)return_value_pthread_self_2);
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_13;
+  signed int *return_value___errno_location_12;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
   do
   {
     signed int err;
@@ -2868,7 +2868,7 @@ static void * inputThread(void *ignored)
 
         do
         {
-          struct anonymous$3 __cancel_buf;
+          struct anonymous_3 __cancel_buf;
           void (*__cancel_routine)(void *) = releaseLock;
           void *__cancel_arg = (void *)&LowMut;
           signed int __not_first_call;
@@ -2909,13 +2909,13 @@ static void * inputThread(void *ignored)
       if(Verbose >= 5)
         logdebug("inputThread: terminating early upon request...\n");
 
-      signed int return_value_close$5;
-      return_value_close$5=close(In);
-      if(return_value_close$5 == -1)
+      signed int return_value_close_5;
+      return_value_close_5=close(In);
+      if(return_value_close_5 == -1)
       {
-        return_value___errno_location$3=__errno_location();
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        errormsg("error closing input: %s\n", return_value_strerror$4);
+        return_value___errno_location_3=__errno_location();
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        errormsg("error closing input: %s\n", return_value_strerror_4);
       }
 
       if(!(Status == 0))
@@ -2933,30 +2933,30 @@ static void * inputThread(void *ignored)
       signed int in;
       if(!(Status == 0))
       {
-        struct anonymous$1 readfds;
+        struct anonymous_1 readfds;
         do
         {
           signed int __d0;
           signed int __d1;
-          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
+          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
         }
         while((_Bool)0);
         (&readfds)->fds_bits[(signed long int)(TermQ[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(TermQ[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << TermQ[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
         (&readfds)->fds_bits[(signed long int)(In / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(In / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << In % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-        err=select(maxfd, &readfds, ((struct anonymous$1 *)NULL), ((struct anonymous$1 *)NULL), ((struct timeval *)NULL));
+        err=select(maxfd, &readfds, ((struct anonymous_1 *)NULL), ((struct anonymous_1 *)NULL), ((struct timeval *)NULL));
         if(Verbose >= 6)
           logdebug("inputThread: select(%d, {%d,%d}, 0, 0, 0) = %d\n", maxfd, In, TermQ[(signed long int)0], err);
 
         if(err >= 1)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$6=__errno_location();
-          tmp_if_expr$7 = *return_value___errno_location$6 == 9 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_6=__errno_location();
+          tmp_if_expr_7 = *return_value___errno_location_6 == 9 ? (_Bool)1 : (_Bool)0;
         }
         /* assertion (err > 0) || ((*__errno_location ()) == 9) */
-        assert(tmp_if_expr$7);
+        assert(tmp_if_expr_7);
         if(!((readfds.fds_bits[(signed long int)(TermQ[0l] / 8)] & (signed long int)(1UL << TermQ[0l] % 8)) == 0l))
           return (void *)-1;
 
@@ -2964,9 +2964,9 @@ static void * inputThread(void *ignored)
         assert(((&readfds)->fds_bits[(signed long int)(In / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << In % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0);
       }
 
-      signed long int return_value_read$8;
-      return_value_read$8=read(In, (void *)(Buffer[(signed long int)at] + (signed long int)num), Blocksize - num);
-      in = (signed int)return_value_read$8;
+      signed long int return_value_read_8;
+      return_value_read_8=read(In, (void *)(Buffer[(signed long int)at] + (signed long int)num), Blocksize - num);
+      in = (signed int)return_value_read_8;
       if(Verbose >= 6)
         logdebug("inputThread: read(In, Buffer[%d] + %llu, %llu) = %d\n", at, num, Blocksize - num, in);
 
@@ -2976,9 +2976,9 @@ static void * inputThread(void *ignored)
       else
         if(in == 0 && !(NumVolumes == 1l) && (!(Autoloader == 0) || !(Terminal == 0)))
         {
-          signed int return_value_requestInputVolume$9;
-          return_value_requestInputVolume$9=requestInputVolume((unsigned int)at, (unsigned int)num);
-          if(return_value_requestInputVolume$9 == 0)
+          signed int return_value_requestInputVolume_9;
+          return_value_requestInputVolume_9=requestInputVolume((unsigned int)at, (unsigned int)num);
+          if(return_value_requestInputVolume_9 == 0)
             return NULL;
 
         }
@@ -2987,13 +2987,13 @@ static void * inputThread(void *ignored)
         {
           if(in == -1)
           {
-            return_value___errno_location$12=__errno_location();
-            tmp_if_expr$13 = *return_value___errno_location$12 == 5 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_12=__errno_location();
+            tmp_if_expr_13 = *return_value___errno_location_12 == 5 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$13 = (_Bool)0;
-          if(!(NumVolumes == 1l) && (!(Autoloader == 0) || !(Terminal == 0)) && tmp_if_expr$13)
+            tmp_if_expr_13 = (_Bool)0;
+          if(!(NumVolumes == 1l) && (!(Autoloader == 0) || !(Terminal == 0)) && tmp_if_expr_13)
             requestInputVolume((unsigned int)at, (unsigned int)num);
 
           else
@@ -3001,9 +3001,9 @@ static void * inputThread(void *ignored)
             {
               if(Terminate == 0 && in == -1)
               {
-                return_value___errno_location$10=__errno_location();
-                return_value_strerror$11=strerror(*return_value___errno_location$10);
-                errormsg("inputThread: error reading at offset 0x%llx: %s\n", Numin * Blocksize, return_value_strerror$11);
+                return_value___errno_location_10=__errno_location();
+                return_value_strerror_11=strerror(*return_value___errno_location_10);
+                errormsg("inputThread: error reading at offset 0x%llx: %s\n", Numin * Blocksize, return_value_strerror_11);
               }
 
               Rest = num;
@@ -3101,9 +3101,9 @@ static signed int kb2str(char *s, double v)
 
       else
         f = "%5.lg ";
-  signed int return_value_sprintf$1;
-  return_value_sprintf$1=sprintf(s, f, v, *dim);
-  return return_value_sprintf$1;
+  signed int return_value_sprintf_1;
+  return_value_sprintf_1=sprintf(s, f, v, *dim);
+  return return_value_sprintf_1;
 }
 
 // logdebug
@@ -3115,9 +3115,9 @@ void logdebug(const char *msg, ...)
   unsigned long int b = PrefixLen;
   val = (void **)&msg;
   memcpy((void *)buf, (const void *)Prefix, b);
-  signed int return_value_vsnprintf$1;
-  return_value_vsnprintf$1=vsnprintf(buf + (signed long int)b, sizeof(char [256l]) /*256ul*/  - b, msg, val);
-  b = b + (unsigned long int)return_value_vsnprintf$1;
+  signed int return_value_vsnprintf_1;
+  return_value_vsnprintf_1=vsnprintf(buf + (signed long int)b, sizeof(char [256l]) /*256ul*/  - b, msg, val);
+  b = b + (unsigned long int)return_value_vsnprintf_1;
   /* assertion b < sizeof(buf) */
   assert(b < sizeof(char [256l]) /*256ul*/ );
   logwrite(buf, b);
@@ -3156,20 +3156,20 @@ signed int main(signed int argc, const char **argv)
   char null;
   const char *outfile = ((const char *)NULL);
   struct sigaction sig;
-  struct destination *main$$1$$dest = ((struct destination *)NULL);
+  struct destination *main__1__dest = ((struct destination *)NULL);
   progname=__xpg_basename(argv0);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(progname);
-  PrefixLen = return_value_strlen$1 + (unsigned long int)2;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(PrefixLen);
-  Prefix = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(progname);
+  PrefixLen = return_value_strlen_1 + (unsigned long int)2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(PrefixLen);
+  Prefix = (char *)return_value_malloc_2;
   strcpy(Prefix, progname);
   Prefix[(signed long int)(PrefixLen - (unsigned long int)2)] = (char)58;
   Prefix[(signed long int)(PrefixLen - (unsigned long int)1)] = (char)32;
   c = 1;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   for( ; !(c >= argc); c = c + 1)
   {
     const char *arg = argv[(signed long int)c];
@@ -3188,13 +3188,13 @@ signed int main(signed int argc, const char **argv)
         }
         if(verb == 0l)
         {
-          return_value___errno_location$3=__errno_location();
-          tmp_if_expr$4 = *return_value___errno_location$3 == 22 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_3=__errno_location();
+          tmp_if_expr_4 = *return_value___errno_location_3 == 22 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
           errormsg("invalid argument to option -v: \"%s\"\n", argv[(signed long int)c]);
 
         else
@@ -3207,17 +3207,17 @@ signed int main(signed int argc, const char **argv)
     }
 
   }
-  signed long int return_value_sysconf$5;
-  return_value_sysconf$5=sysconf(2);
-  TickTime = (signed long int)1000000 / return_value_sysconf$5;
-  signed long int return_value_sysconf$6;
-  return_value_sysconf$6=sysconf(30);
-  PgSz = (unsigned long long int)return_value_sysconf$6;
+  signed long int return_value_sysconf_5;
+  return_value_sysconf_5=sysconf(2);
+  TickTime = (signed long int)1000000 / return_value_sysconf_5;
+  signed long int return_value_sysconf_6;
+  return_value_sysconf_6=sysconf(30);
+  PgSz = (unsigned long long int)return_value_sysconf_6;
   /* assertion PgSz > 0 */
   assert(PgSz > (unsigned long int)0);
-  signed long int return_value_sysconf$7;
-  return_value_sysconf$7=sysconf(86);
-  NumP = (unsigned long long int)return_value_sysconf$7;
+  signed long int return_value_sysconf_7;
+  return_value_sysconf_7=sysconf(86);
+  NumP = (unsigned long long int)return_value_sysconf_7;
   /* assertion NumP > 0 */
   assert(NumP > (unsigned long int)0);
   Blocksize = PgSz;
@@ -3225,9 +3225,9 @@ signed int main(signed int argc, const char **argv)
     logdebug("total # of phys pages: %li (pagesize %li)\n", NumP, PgSz);
 
   Numblocks = (signed long int)(NumP / (unsigned long int)50);
-  signed long int return_value_sysconf$8;
-  return_value_sysconf$8=sysconf(149);
-  if(return_value_sysconf$8 >= 1l)
+  signed long int return_value_sysconf_8;
+  return_value_sysconf_8=sysconf(149);
+  if(return_value_sysconf_8 >= 1l)
     ClockSrc = 1;
 
   initDefaults();
@@ -3235,66 +3235,66 @@ signed int main(signed int argc, const char **argv)
     logdebug("default buffer set to %d blocks of %lld bytes\n", Numblocks, Blocksize);
 
   c = 1;
-  signed int return_value_strcmp$79;
-  signed int return_value_strcmp$78;
-  signed int return_value_argcheck$77;
-  signed int return_value_argcheck$76;
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
-  signed int return_value_strcmp$75;
-  signed int return_value_argcheck$74;
-  signed int return_value_argcheck$73;
-  signed int return_value_argcheck$72;
-  _Bool tmp_if_expr$13;
-  signed int *return_value___errno_location$12;
-  signed int return_value_argcheck$71;
-  signed int return_value_argcheck$70;
-  signed int return_value_argcheck$69;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  signed int *return_value___errno_location$14;
-  signed int return_value_argcheck$68;
-  signed int return_value_argcheck$67;
-  signed int tmp_post$19;
-  signed int return_value_strcmp$66;
-  signed int return_value_strcmp$65;
-  signed int return_value_strcmp$64;
-  signed int return_value_argcheck$63;
-  signed int return_value_argcheck$62;
-  signed int return_value_argcheck$61;
-  signed int return_value_strcmp$60;
-  signed int return_value_argcheck$59;
-  signed int return_value_strcmp$58;
-  signed int return_value_strcmp$57;
-  signed int return_value_strcmp$56;
-  signed int return_value_strcmp$55;
-  signed int return_value_strcmp$54;
-  signed int return_value_argcheck$53;
-  _Bool tmp_if_expr$27;
-  signed int *return_value___errno_location$26;
-  signed int return_value_argcheck$52;
-  signed int return_value_argcheck$51;
-  signed int return_value_argcheck$50;
-  signed int return_value_strcmp$49;
-  signed int return_value_argcheck$48;
-  signed int return_value_strcmp$47;
-  signed int return_value_strcmp$44;
-  _Bool tmp_if_expr$46;
-  signed int return_value_strcmp$45;
-  signed int return_value_strcmp$41;
-  _Bool tmp_if_expr$43;
-  signed int return_value_strcmp$42;
-  signed int return_value_strcmp$38;
-  _Bool tmp_if_expr$40;
-  signed int return_value_strcmp$39;
-  signed int return_value_strcmp$37;
-  signed int return_value_strcmp$36;
-  signed int return_value_argcheck$35;
+  signed int return_value_strcmp_79;
+  signed int return_value_strcmp_78;
+  signed int return_value_argcheck_77;
+  signed int return_value_argcheck_76;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
+  signed int return_value_strcmp_75;
+  signed int return_value_argcheck_74;
+  signed int return_value_argcheck_73;
+  signed int return_value_argcheck_72;
+  _Bool tmp_if_expr_13;
+  signed int *return_value___errno_location_12;
+  signed int return_value_argcheck_71;
+  signed int return_value_argcheck_70;
+  signed int return_value_argcheck_69;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  signed int *return_value___errno_location_14;
+  signed int return_value_argcheck_68;
+  signed int return_value_argcheck_67;
+  signed int tmp_post_19;
+  signed int return_value_strcmp_66;
+  signed int return_value_strcmp_65;
+  signed int return_value_strcmp_64;
+  signed int return_value_argcheck_63;
+  signed int return_value_argcheck_62;
+  signed int return_value_argcheck_61;
+  signed int return_value_strcmp_60;
+  signed int return_value_argcheck_59;
+  signed int return_value_strcmp_58;
+  signed int return_value_strcmp_57;
+  signed int return_value_strcmp_56;
+  signed int return_value_strcmp_55;
+  signed int return_value_strcmp_54;
+  signed int return_value_argcheck_53;
+  _Bool tmp_if_expr_27;
+  signed int *return_value___errno_location_26;
+  signed int return_value_argcheck_52;
+  signed int return_value_argcheck_51;
+  signed int return_value_argcheck_50;
+  signed int return_value_strcmp_49;
+  signed int return_value_argcheck_48;
+  signed int return_value_strcmp_47;
+  signed int return_value_strcmp_44;
+  _Bool tmp_if_expr_46;
+  signed int return_value_strcmp_45;
+  signed int return_value_strcmp_41;
+  _Bool tmp_if_expr_43;
+  signed int return_value_strcmp_42;
+  signed int return_value_strcmp_38;
+  _Bool tmp_if_expr_40;
+  signed int return_value_strcmp_39;
+  signed int return_value_strcmp_37;
+  signed int return_value_strcmp_36;
+  signed int return_value_argcheck_35;
   for( ; !(c >= argc); c = c + 1)
   {
-    signed int return_value_argcheck$80;
-    return_value_argcheck$80=argcheck("-s", argv, &c, argc);
-    if(return_value_argcheck$80 == 0)
+    signed int return_value_argcheck_80;
+    return_value_argcheck_80=argcheck("-s", argv, &c, argc);
+    if(return_value_argcheck_80 == 0)
     {
       Outsize=calcint(argv, c, Blocksize);
       Blocksize = Outsize;
@@ -3309,8 +3309,8 @@ signed int main(signed int argc, const char **argv)
 
     else
     {
-      return_value_strcmp$79=strcmp("--append", argv[(signed long int)c]);
-      if(return_value_strcmp$79 == 0)
+      return_value_strcmp_79=strcmp("--append", argv[(signed long int)c]);
+      if(return_value_strcmp_79 == 0)
       {
         optMode = optMode | 02000;
         if(Verbose >= 5)
@@ -3320,8 +3320,8 @@ signed int main(signed int argc, const char **argv)
 
       else
       {
-        return_value_strcmp$78=strcmp("--truncate", argv[(signed long int)c]);
-        if(return_value_strcmp$78 == 0)
+        return_value_strcmp_78=strcmp("--truncate", argv[(signed long int)c]);
+        if(return_value_strcmp_78 == 0)
         {
           optMode = optMode | 01000;
           if(Verbose >= 5)
@@ -3331,8 +3331,8 @@ signed int main(signed int argc, const char **argv)
 
         else
         {
-          return_value_argcheck$77=argcheck("-m", argv, &c, argc);
-          if(return_value_argcheck$77 == 0)
+          return_value_argcheck_77=argcheck("-m", argv, &c, argc);
+          if(return_value_argcheck_77 == 0)
           {
             Totalmem=calcint(argv, c, Totalmem);
             optMset = 1;
@@ -3346,20 +3346,20 @@ signed int main(signed int argc, const char **argv)
 
           else
           {
-            return_value_argcheck$76=argcheck("-b", argv, &c, argc);
-            if(return_value_argcheck$76 == 0)
+            return_value_argcheck_76=argcheck("-b", argv, &c, argc);
+            if(return_value_argcheck_76 == 0)
             {
               signed long int nb;
               nb=strtol(argv[(signed long int)c], ((char ** restrict )NULL), 0);
               if(nb == 0l)
               {
-                return_value___errno_location$9=__errno_location();
-                tmp_if_expr$10 = *return_value___errno_location$9 == 22 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_9=__errno_location();
+                tmp_if_expr_10 = *return_value___errno_location_9 == 22 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$10 = (_Bool)0;
-              if(tmp_if_expr$10)
+                tmp_if_expr_10 = (_Bool)0;
+              if(tmp_if_expr_10)
                 errormsg("invalid argument to option -b: \"%s\"\n", argv[(signed long int)c]);
 
               else
@@ -3374,13 +3374,13 @@ signed int main(signed int argc, const char **argv)
 
             else
             {
-              return_value_strcmp$75=strcmp("--tcpbuffer", argv[(signed long int)c]);
-              if(return_value_strcmp$75 == 0)
+              return_value_strcmp_75=strcmp("--tcpbuffer", argv[(signed long int)c]);
+              if(return_value_strcmp_75 == 0)
               {
                 c = c + 1;
-                unsigned long long int return_value_calcint$11;
-                return_value_calcint$11=calcint(argv, c, (unsigned long long int)TCPBufSize);
-                TCPBufSize = (signed int)return_value_calcint$11;
+                unsigned long long int return_value_calcint_11;
+                return_value_calcint_11=calcint(argv, c, (unsigned long long int)TCPBufSize);
+                TCPBufSize = (signed int)return_value_calcint_11;
                 if(Verbose >= 5)
                   logdebug("TCPBufSize = %lu\n", TCPBufSize);
 
@@ -3388,8 +3388,8 @@ signed int main(signed int argc, const char **argv)
 
               else
               {
-                return_value_argcheck$74=argcheck("-d", argv, &c, argc);
-                if(return_value_argcheck$74 == 0)
+                return_value_argcheck_74=argcheck("-d", argv, &c, argc);
+                if(return_value_argcheck_74 == 0)
                 {
                   SetOutsize = 1;
                   if(Verbose >= 5)
@@ -3399,23 +3399,23 @@ signed int main(signed int argc, const char **argv)
 
                 else
                 {
-                  return_value_argcheck$73=argcheck("-v", argv, &c, argc);
-                  if(!(return_value_argcheck$73 == 0))
+                  return_value_argcheck_73=argcheck("-v", argv, &c, argc);
+                  if(!(return_value_argcheck_73 == 0))
                   {
-                    return_value_argcheck$72=argcheck("-u", argv, &c, argc);
-                    if(return_value_argcheck$72 == 0)
+                    return_value_argcheck_72=argcheck("-u", argv, &c, argc);
+                    if(return_value_argcheck_72 == 0)
                     {
                       signed long int p;
                       p=strtol(argv[(signed long int)c], ((char ** restrict )NULL), 0);
                       if(p == 0l)
                       {
-                        return_value___errno_location$12=__errno_location();
-                        tmp_if_expr$13 = *return_value___errno_location$12 == 22 ? (_Bool)1 : (_Bool)0;
+                        return_value___errno_location_12=__errno_location();
+                        tmp_if_expr_13 = *return_value___errno_location_12 == 22 ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$13 = (_Bool)0;
-                      if(tmp_if_expr$13)
+                        tmp_if_expr_13 = (_Bool)0;
+                      if(tmp_if_expr_13)
                         errormsg("invalid argument to option -u: \"%s\"\n", argv[(signed long int)c]);
 
                       else
@@ -3427,8 +3427,8 @@ signed int main(signed int argc, const char **argv)
 
                     else
                     {
-                      return_value_argcheck$71=argcheck("-r", argv, &c, argc);
-                      if(return_value_argcheck$71 == 0)
+                      return_value_argcheck_71=argcheck("-r", argv, &c, argc);
+                      if(return_value_argcheck_71 == 0)
                       {
                         MaxReadSpeed=calcint(argv, c, (unsigned long long int)0);
                         if(Verbose >= 5)
@@ -3438,8 +3438,8 @@ signed int main(signed int argc, const char **argv)
 
                       else
                       {
-                        return_value_argcheck$70=argcheck("-R", argv, &c, argc);
-                        if(return_value_argcheck$70 == 0)
+                        return_value_argcheck_70=argcheck("-R", argv, &c, argc);
+                        if(return_value_argcheck_70 == 0)
                         {
                           MaxWriteSpeed=calcint(argv, c, (unsigned long long int)0);
                           if(Verbose >= 5)
@@ -3449,27 +3449,27 @@ signed int main(signed int argc, const char **argv)
 
                         else
                         {
-                          return_value_argcheck$69=argcheck("-n", argv, &c, argc);
-                          if(return_value_argcheck$69 == 0)
+                          return_value_argcheck_69=argcheck("-n", argv, &c, argc);
+                          if(return_value_argcheck_69 == 0)
                           {
                             signed long int nv;
                             nv=strtol(argv[(signed long int)c], ((char ** restrict )NULL), 0);
                             if(!(nv >= 0l))
-                              tmp_if_expr$16 = (_Bool)1;
+                              tmp_if_expr_16 = (_Bool)1;
 
                             else
                             {
                               if(nv == 0l)
                               {
-                                return_value___errno_location$14=__errno_location();
-                                tmp_if_expr$15 = *return_value___errno_location$14 == 22 ? (_Bool)1 : (_Bool)0;
+                                return_value___errno_location_14=__errno_location();
+                                tmp_if_expr_15 = *return_value___errno_location_14 == 22 ? (_Bool)1 : (_Bool)0;
                               }
 
                               else
-                                tmp_if_expr$15 = (_Bool)0;
-                              tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_15 = (_Bool)0;
+                              tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$16)
+                            if(tmp_if_expr_16)
                               fatal("invalid argument to option -n: \"%s\"\n", argv[(signed long int)c]);
 
                             else
@@ -3484,12 +3484,12 @@ signed int main(signed int argc, const char **argv)
 
                           else
                           {
-                            return_value_argcheck$68=argcheck("-i", argv, &c, argc);
-                            if(return_value_argcheck$68 == 0)
+                            return_value_argcheck_68=argcheck("-i", argv, &c, argc);
+                            if(return_value_argcheck_68 == 0)
                             {
-                              signed int return_value_strcmp$17;
-                              return_value_strcmp$17=strcmp(argv[(signed long int)c], "-");
-                              if(!(return_value_strcmp$17 == 0))
+                              signed int return_value_strcmp_17;
+                              return_value_strcmp_17=strcmp(argv[(signed long int)c], "-");
+                              if(!(return_value_strcmp_17 == 0))
                               {
                                 Infile = argv[(signed long int)c];
                                 if(Verbose >= 5)
@@ -3508,16 +3508,16 @@ signed int main(signed int argc, const char **argv)
 
                             else
                             {
-                              return_value_argcheck$67=argcheck("-o", argv, &c, argc);
-                              if(return_value_argcheck$67 == 0)
+                              return_value_argcheck_67=argcheck("-o", argv, &c, argc);
+                              if(return_value_argcheck_67 == 0)
                               {
                                 struct destination *dest;
-                                void *return_value_malloc$18;
-                                return_value_malloc$18=malloc(sizeof(struct destination) /*56ul*/ );
-                                dest = (struct destination *)return_value_malloc$18;
-                                signed int return_value_strcmp$20;
-                                return_value_strcmp$20=strcmp(argv[(signed long int)c], "-");
-                                if(!(return_value_strcmp$20 == 0))
+                                void *return_value_malloc_18;
+                                return_value_malloc_18=malloc(sizeof(struct destination) /*56ul*/ );
+                                dest = (struct destination *)return_value_malloc_18;
+                                signed int return_value_strcmp_20;
+                                return_value_strcmp_20=strcmp(argv[(signed long int)c], "-");
+                                if(!(return_value_strcmp_20 == 0))
                                 {
                                   if(Verbose >= 5)
                                     logdebug("output file: %s\n", argv[(signed long int)c]);
@@ -3530,9 +3530,9 @@ signed int main(signed int argc, const char **argv)
 
                                 else
                                 {
-                                  tmp_post$19 = numstdout;
+                                  tmp_post_19 = numstdout;
                                   numstdout = numstdout + 1;
-                                  if(!(tmp_post$19 == 0))
+                                  if(!(tmp_post_19 == 0))
                                     fatal("cannot output multiple times to stdout\n");
 
                                   if(Verbose >= 5)
@@ -3561,42 +3561,42 @@ signed int main(signed int argc, const char **argv)
 
                               else
                               {
-                                return_value_strcmp$66=strcmp("-0", argv[(signed long int)c]);
-                                if(return_value_strcmp$66 == 0)
+                                return_value_strcmp_66=strcmp("-0", argv[(signed long int)c]);
+                                if(return_value_strcmp_66 == 0)
                                   AddrFam = 0;
 
                                 else
                                 {
-                                  return_value_strcmp$65=strcmp("-4", argv[(signed long int)c]);
-                                  if(return_value_strcmp$65 == 0)
+                                  return_value_strcmp_65=strcmp("-4", argv[(signed long int)c]);
+                                  if(return_value_strcmp_65 == 0)
                                     AddrFam = 2;
 
                                   else
                                   {
-                                    return_value_strcmp$64=strcmp("-6", argv[(signed long int)c]);
-                                    if(return_value_strcmp$64 == 0)
+                                    return_value_strcmp_64=strcmp("-6", argv[(signed long int)c]);
+                                    if(return_value_strcmp_64 == 0)
                                       AddrFam = 10;
 
                                     else
                                     {
-                                      return_value_argcheck$63=argcheck("-I", argv, &c, argc);
-                                      if(return_value_argcheck$63 == 0)
+                                      return_value_argcheck_63=argcheck("-I", argv, &c, argc);
+                                      if(return_value_argcheck_63 == 0)
                                         initNetworkInput(argv[(signed long int)c]);
 
                                       else
                                       {
-                                        return_value_argcheck$62=argcheck("-O", argv, &c, argc);
-                                        if(return_value_argcheck$62 == 0)
+                                        return_value_argcheck_62=argcheck("-O", argv, &c, argc);
+                                        if(return_value_argcheck_62 == 0)
                                         {
-                                          struct destination *main$$1$$2$$1$$19$$d;
-                                          main$$1$$2$$1$$19$$d=createNetworkOutput(argv[(signed long int)c]);
-                                          if(main$$1$$2$$1$$19$$d->fd == -1)
-                                            free((void *)main$$1$$2$$1$$19$$d);
+                                          struct destination *main__1__2__1__19__d;
+                                          main__1__2__1__19__d=createNetworkOutput(argv[(signed long int)c]);
+                                          if(main__1__2__1__19__d->fd == -1)
+                                            free((void *)main__1__2__1__19__d);
 
                                           else
                                           {
-                                            main$$1$$2$$1$$19$$d->next = Dest;
-                                            Dest = main$$1$$2$$1$$19$$d;
+                                            main__1__2__1__19__d->next = Dest;
+                                            Dest = main__1__2__1__19__d;
                                             NumSenders = NumSenders + 1;
                                           }
                                           numOut = numOut + 1;
@@ -3604,14 +3604,14 @@ signed int main(signed int argc, const char **argv)
 
                                         else
                                         {
-                                          return_value_argcheck$61=argcheck("-T", argv, &c, argc);
-                                          if(return_value_argcheck$61 == 0)
+                                          return_value_argcheck_61=argcheck("-T", argv, &c, argc);
+                                          if(return_value_argcheck_61 == 0)
                                           {
-                                            unsigned long int return_value_strlen$21;
-                                            return_value_strlen$21=strlen(argv[(signed long int)c]);
-                                            void *return_value_malloc$22;
-                                            return_value_malloc$22=malloc(return_value_strlen$21 + (unsigned long int)1);
-                                            Tmpfile = (char *)return_value_malloc$22;
+                                            unsigned long int return_value_strlen_21;
+                                            return_value_strlen_21=strlen(argv[(signed long int)c]);
+                                            void *return_value_malloc_22;
+                                            return_value_malloc_22=malloc(return_value_strlen_21 + (unsigned long int)1);
+                                            Tmpfile = (char *)return_value_malloc_22;
                                             if(Tmpfile == ((char *)NULL))
                                               fatal("out of memory\n");
 
@@ -3624,8 +3624,8 @@ signed int main(signed int argc, const char **argv)
 
                                           else
                                           {
-                                            return_value_strcmp$60=strcmp("-t", argv[(signed long int)c]);
-                                            if(return_value_strcmp$60 == 0)
+                                            return_value_strcmp_60=strcmp("-t", argv[(signed long int)c]);
+                                            if(return_value_strcmp_60 == 0)
                                             {
                                               Memmap = 1;
                                               if(Verbose >= 5)
@@ -3635,18 +3635,18 @@ signed int main(signed int argc, const char **argv)
 
                                             else
                                             {
-                                              return_value_argcheck$59=argcheck("-l", argv, &c, argc);
-                                              if(return_value_argcheck$59 == 0)
+                                              return_value_argcheck_59=argcheck("-l", argv, &c, argc);
+                                              if(return_value_argcheck_59 == 0)
                                               {
                                                 Log=open(argv[(signed long int)c], 01 | 02000 | 01000 | 0100 | 0, 0666);
                                                 if(Log == -1)
                                                 {
                                                   Log = 2;
-                                                  signed int *return_value___errno_location$23;
-                                                  return_value___errno_location$23=__errno_location();
-                                                  char *return_value_strerror$24;
-                                                  return_value_strerror$24=strerror(*return_value___errno_location$23);
-                                                  errormsg("error opening log file: %s\n", return_value_strerror$24);
+                                                  signed int *return_value___errno_location_23;
+                                                  return_value___errno_location_23=__errno_location();
+                                                  char *return_value_strerror_24;
+                                                  return_value_strerror_24=strerror(*return_value___errno_location_23);
+                                                  errormsg("error opening log file: %s\n", return_value_strerror_24);
                                                 }
 
                                                 if(Verbose >= 5)
@@ -3656,8 +3656,8 @@ signed int main(signed int argc, const char **argv)
 
                                               else
                                               {
-                                                return_value_strcmp$58=strcmp("-f", argv[(signed long int)c]);
-                                                if(return_value_strcmp$58 == 0)
+                                                return_value_strcmp_58=strcmp("-f", argv[(signed long int)c]);
+                                                if(return_value_strcmp_58 == 0)
                                                 {
                                                   optMode = optMode & ~0200;
                                                   if(Verbose >= 5)
@@ -3667,8 +3667,8 @@ signed int main(signed int argc, const char **argv)
 
                                                 else
                                                 {
-                                                  return_value_strcmp$57=strcmp("-q", argv[(signed long int)c]);
-                                                  if(return_value_strcmp$57 == 0)
+                                                  return_value_strcmp_57=strcmp("-q", argv[(signed long int)c]);
+                                                  if(return_value_strcmp_57 == 0)
                                                   {
                                                     if(Verbose >= 5)
                                                       logdebug("disabling display of status\n");
@@ -3678,8 +3678,8 @@ signed int main(signed int argc, const char **argv)
 
                                                   else
                                                   {
-                                                    return_value_strcmp$56=strcmp("-Q", argv[(signed long int)c]);
-                                                    if(return_value_strcmp$56 == 0)
+                                                    return_value_strcmp_56=strcmp("-Q", argv[(signed long int)c]);
+                                                    if(return_value_strcmp_56 == 0)
                                                     {
                                                       if(Verbose >= 5)
                                                         logdebug("disabling logging of status\n");
@@ -3689,8 +3689,8 @@ signed int main(signed int argc, const char **argv)
 
                                                     else
                                                     {
-                                                      return_value_strcmp$55=strcmp("-c", argv[(signed long int)c]);
-                                                      if(return_value_strcmp$55 == 0)
+                                                      return_value_strcmp_55=strcmp("-c", argv[(signed long int)c]);
+                                                      if(return_value_strcmp_55 == 0)
                                                       {
                                                         if(Verbose >= 5)
                                                           logdebug("enabling full synchronous I/O\n");
@@ -3700,8 +3700,8 @@ signed int main(signed int argc, const char **argv)
 
                                                       else
                                                       {
-                                                        return_value_strcmp$54=strcmp("-e", argv[(signed long int)c]);
-                                                        if(return_value_strcmp$54 == 0)
+                                                        return_value_strcmp_54=strcmp("-e", argv[(signed long int)c]);
+                                                        if(return_value_strcmp_54 == 0)
                                                         {
                                                           if(Verbose >= 5)
                                                             logdebug("will terminate on any kind of error\n");
@@ -3711,22 +3711,22 @@ signed int main(signed int argc, const char **argv)
 
                                                         else
                                                         {
-                                                          return_value_argcheck$53=argcheck("-a", argv, &c, argc);
-                                                          if(return_value_argcheck$53 == 0)
+                                                          return_value_argcheck_53=argcheck("-a", argv, &c, argc);
+                                                          if(return_value_argcheck_53 == 0)
                                                           {
                                                             signed long int at;
-                                                            signed long int return_value_strtol$25;
-                                                            return_value_strtol$25=strtol(argv[(signed long int)c], ((char ** restrict )NULL), 0);
-                                                            at = return_value_strtol$25 - (signed long int)1;
+                                                            signed long int return_value_strtol_25;
+                                                            return_value_strtol_25=strtol(argv[(signed long int)c], ((char ** restrict )NULL), 0);
+                                                            at = return_value_strtol_25 - (signed long int)1;
                                                             if(at == 0l)
                                                             {
-                                                              return_value___errno_location$26=__errno_location();
-                                                              tmp_if_expr$27 = *return_value___errno_location$26 == 22 ? (_Bool)1 : (_Bool)0;
+                                                              return_value___errno_location_26=__errno_location();
+                                                              tmp_if_expr_27 = *return_value___errno_location_26 == 22 ? (_Bool)1 : (_Bool)0;
                                                             }
 
                                                             else
-                                                              tmp_if_expr$27 = (_Bool)0;
-                                                            if(tmp_if_expr$27)
+                                                              tmp_if_expr_27 = (_Bool)0;
+                                                            if(tmp_if_expr_27)
                                                               errormsg("invalid argument to option -a: \"%s\"\n", argv[(signed long int)c]);
 
                                                             else
@@ -3741,8 +3741,8 @@ signed int main(signed int argc, const char **argv)
 
                                                           else
                                                           {
-                                                            return_value_argcheck$52=argcheck("-A", argv, &c, argc);
-                                                            if(return_value_argcheck$52 == 0)
+                                                            return_value_argcheck_52=argcheck("-A", argv, &c, argc);
+                                                            if(return_value_argcheck_52 == 0)
                                                             {
                                                               Autoloader = 1;
                                                               AutoloadCmd = argv[(signed long int)c];
@@ -3753,12 +3753,12 @@ signed int main(signed int argc, const char **argv)
 
                                                             else
                                                             {
-                                                              return_value_argcheck$51=argcheck("-P", argv, &c, argc);
-                                                              if(return_value_argcheck$51 == 0)
+                                                              return_value_argcheck_51=argcheck("-P", argv, &c, argc);
+                                                              if(return_value_argcheck_51 == 0)
                                                               {
-                                                                signed int return_value_sscanf$28;
-                                                                return_value_sscanf$28=sscanf(argv[(signed long int)c], "%lf", &StartWrite);
-                                                                if(!(return_value_sscanf$28 == 1))
+                                                                signed int return_value_sscanf_28;
+                                                                return_value_sscanf_28=sscanf(argv[(signed long int)c], "%lf", &StartWrite);
+                                                                if(!(return_value_sscanf_28 == 1))
                                                                   StartWrite = (double)0;
 
                                                                 StartWrite = StartWrite / (double)100;
@@ -3772,12 +3772,12 @@ signed int main(signed int argc, const char **argv)
 
                                                               else
                                                               {
-                                                                return_value_argcheck$50=argcheck("-p", argv, &c, argc);
-                                                                if(return_value_argcheck$50 == 0)
+                                                                return_value_argcheck_50=argcheck("-p", argv, &c, argc);
+                                                                if(return_value_argcheck_50 == 0)
                                                                 {
-                                                                  signed int return_value_sscanf$29;
-                                                                  return_value_sscanf$29=sscanf(argv[(signed long int)c], "%lf", &StartRead);
-                                                                  if(return_value_sscanf$29 == 1)
+                                                                  signed int return_value_sscanf_29;
+                                                                  return_value_sscanf_29=sscanf(argv[(signed long int)c], "%lf", &StartRead);
+                                                                  if(return_value_sscanf_29 == 1)
                                                                     StartRead = StartRead / (double)100;
 
                                                                   else
@@ -3792,8 +3792,8 @@ signed int main(signed int argc, const char **argv)
 
                                                                 else
                                                                 {
-                                                                  return_value_strcmp$49=strcmp("-L", argv[(signed long int)c]);
-                                                                  if(return_value_strcmp$49 == 0)
+                                                                  return_value_strcmp_49=strcmp("-L", argv[(signed long int)c]);
+                                                                  if(return_value_strcmp_49 == 0)
                                                                   {
                                                                     Memlock = 1;
                                                                     if(Verbose >= 5)
@@ -3803,12 +3803,12 @@ signed int main(signed int argc, const char **argv)
 
                                                                   else
                                                                   {
-                                                                    return_value_argcheck$48=argcheck("-W", argv, &c, argc);
-                                                                    if(return_value_argcheck$48 == 0)
+                                                                    return_value_argcheck_48=argcheck("-W", argv, &c, argc);
+                                                                    if(return_value_argcheck_48 == 0)
                                                                     {
-                                                                      signed long int return_value_strtol$30;
-                                                                      return_value_strtol$30=strtol(argv[(signed long int)c], ((char ** restrict )NULL), 0);
-                                                                      Timeout = (unsigned long int)return_value_strtol$30;
+                                                                      signed long int return_value_strtol_30;
+                                                                      return_value_strtol_30=strtol(argv[(signed long int)c], ((char ** restrict )NULL), 0);
+                                                                      Timeout = (unsigned long int)return_value_strtol_30;
                                                                       if(!(Timeout >= 1ul))
                                                                         fatal("invalid argument to option -W\n");
 
@@ -3819,8 +3819,8 @@ signed int main(signed int argc, const char **argv)
 
                                                                     else
                                                                     {
-                                                                      return_value_strcmp$47=strcmp("--direct", argv[(signed long int)c]);
-                                                                      if(return_value_strcmp$47 == 0)
+                                                                      return_value_strcmp_47=strcmp("--direct", argv[(signed long int)c]);
+                                                                      if(return_value_strcmp_47 == 0)
                                                                       {
                                                                         if(Verbose >= 5)
                                                                           logdebug("using O_DIRECT to open file descriptors\n");
@@ -3830,70 +3830,70 @@ signed int main(signed int argc, const char **argv)
 
                                                                       else
                                                                       {
-                                                                        return_value_strcmp$44=strcmp("--help", argv[(signed long int)c]);
-                                                                        if(return_value_strcmp$44 == 0)
-                                                                          tmp_if_expr$46 = (_Bool)1;
+                                                                        return_value_strcmp_44=strcmp("--help", argv[(signed long int)c]);
+                                                                        if(return_value_strcmp_44 == 0)
+                                                                          tmp_if_expr_46 = (_Bool)1;
 
                                                                         else
                                                                         {
-                                                                          return_value_strcmp$45=strcmp("-h", argv[(signed long int)c]);
-                                                                          tmp_if_expr$46 = !(return_value_strcmp$45 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                          return_value_strcmp_45=strcmp("-h", argv[(signed long int)c]);
+                                                                          tmp_if_expr_46 = !(return_value_strcmp_45 != 0) ? (_Bool)1 : (_Bool)0;
                                                                         }
-                                                                        if(tmp_if_expr$46)
+                                                                        if(tmp_if_expr_46)
                                                                           usage();
 
                                                                         else
                                                                         {
-                                                                          return_value_strcmp$41=strcmp("--version", argv[(signed long int)c]);
-                                                                          if(return_value_strcmp$41 == 0)
-                                                                            tmp_if_expr$43 = (_Bool)1;
+                                                                          return_value_strcmp_41=strcmp("--version", argv[(signed long int)c]);
+                                                                          if(return_value_strcmp_41 == 0)
+                                                                            tmp_if_expr_43 = (_Bool)1;
 
                                                                           else
                                                                           {
-                                                                            return_value_strcmp$42=strcmp("-V", argv[(signed long int)c]);
-                                                                            tmp_if_expr$43 = !(return_value_strcmp$42 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                            return_value_strcmp_42=strcmp("-V", argv[(signed long int)c]);
+                                                                            tmp_if_expr_43 = !(return_value_strcmp_42 != 0) ? (_Bool)1 : (_Bool)0;
                                                                           }
-                                                                          if(tmp_if_expr$43)
+                                                                          if(tmp_if_expr_43)
                                                                             version();
 
                                                                           else
                                                                           {
-                                                                            return_value_strcmp$38=strcmp("--md5", argv[(signed long int)c]);
-                                                                            if(return_value_strcmp$38 == 0)
-                                                                              tmp_if_expr$40 = (_Bool)1;
+                                                                            return_value_strcmp_38=strcmp("--md5", argv[(signed long int)c]);
+                                                                            if(return_value_strcmp_38 == 0)
+                                                                              tmp_if_expr_40 = (_Bool)1;
 
                                                                             else
                                                                             {
-                                                                              return_value_strcmp$39=strcmp("-H", argv[(signed long int)c]);
-                                                                              tmp_if_expr$40 = !(return_value_strcmp$39 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                              return_value_strcmp_39=strcmp("-H", argv[(signed long int)c]);
+                                                                              tmp_if_expr_40 = !(return_value_strcmp_39 != 0) ? (_Bool)1 : (_Bool)0;
                                                                             }
-                                                                            if(tmp_if_expr$40)
+                                                                            if(tmp_if_expr_40)
                                                                               addHashAlgorithm("MD5");
 
                                                                             else
                                                                             {
-                                                                              return_value_strcmp$37=strcmp("--hash", argv[(signed long int)c]);
-                                                                              if(return_value_strcmp$37 == 0)
+                                                                              return_value_strcmp_37=strcmp("--hash", argv[(signed long int)c]);
+                                                                              if(return_value_strcmp_37 == 0)
                                                                               {
                                                                                 c = c + 1;
                                                                                 if(c == argc)
                                                                                   fatal("missing argument to option --hash\n");
 
-                                                                                signed int return_value_strcmp$33;
-                                                                                return_value_strcmp$33=strcmp(argv[(signed long int)c], "list");
-                                                                                if(return_value_strcmp$33 == 0)
+                                                                                signed int return_value_strcmp_33;
+                                                                                return_value_strcmp_33=strcmp(argv[(signed long int)c], "list");
+                                                                                if(return_value_strcmp_33 == 0)
                                                                                 {
                                                                                   fprintf(stderr, "valid hash functions are:\n");
                                                                                   signed int algo;
-                                                                                  unsigned int return_value_mhash_count$31;
-                                                                                  return_value_mhash_count$31=mhash_count();
-                                                                                  algo = (signed int)return_value_mhash_count$31;
+                                                                                  unsigned int return_value_mhash_count_31;
+                                                                                  return_value_mhash_count_31=mhash_count();
+                                                                                  algo = (signed int)return_value_mhash_count_31;
                                                                                   while(algo >= 0)
                                                                                   {
                                                                                     const char *algoname;
-                                                                                    const unsigned char *return_value_mhash_get_hash_name_static$32;
-                                                                                    return_value_mhash_get_hash_name_static$32=mhash_get_hash_name_static((enum __hashid)algo);
-                                                                                    algoname = (const char *)return_value_mhash_get_hash_name_static$32;
+                                                                                    const unsigned char *return_value_mhash_get_hash_name_static_32;
+                                                                                    return_value_mhash_get_hash_name_static_32=mhash_get_hash_name_static((enum __hashid)algo);
+                                                                                    algoname = (const char *)return_value_mhash_get_hash_name_static_32;
                                                                                     if(!(algoname == ((const char *)NULL)))
                                                                                       fprintf(stderr, "\t%s\n", algoname);
 
@@ -3907,18 +3907,18 @@ signed int main(signed int argc, const char **argv)
 
                                                                               else
                                                                               {
-                                                                                return_value_strcmp$36=strcmp("--pid", argv[(signed long int)c]);
-                                                                                if(return_value_strcmp$36 == 0)
+                                                                                return_value_strcmp_36=strcmp("--pid", argv[(signed long int)c]);
+                                                                                if(return_value_strcmp_36 == 0)
                                                                                 {
-                                                                                  signed int return_value_getpid$34;
-                                                                                  return_value_getpid$34=getpid();
-                                                                                  printmsg("PID is %d\n", return_value_getpid$34);
+                                                                                  signed int return_value_getpid_34;
+                                                                                  return_value_getpid_34=getpid();
+                                                                                  printmsg("PID is %d\n", return_value_getpid_34);
                                                                                 }
 
                                                                                 else
                                                                                 {
-                                                                                  return_value_argcheck$35=argcheck("-D", argv, &c, argc);
-                                                                                  if(return_value_argcheck$35 == 0)
+                                                                                  return_value_argcheck_35=argcheck("-D", argv, &c, argc);
+                                                                                  if(return_value_argcheck_35 == 0)
                                                                                   {
                                                                                     OutVolsize=calcint(argv, c, (unsigned long long int)0);
                                                                                     if(Verbose >= 5)
@@ -4049,34 +4049,34 @@ signed int main(signed int argc, const char **argv)
   if(Blocksize * (unsigned long int)Numblocks >= 9223372036854775808ul)
     fatal("Cannot address so much memory (%lld*%d=%lld>%lld).\n", Blocksize, Numblocks, Blocksize * (unsigned long int)(signed long long int)Numblocks, (signed long long int)0x7fffffffffffffffL);
 
-  void *return_value_valloc$81;
-  return_value_valloc$81=valloc((unsigned long int)Numblocks * sizeof(char *) /*8ul*/ );
-  Buffer = (char **)return_value_valloc$81;
-  signed int *return_value___errno_location$82;
-  char *return_value_strerror$83;
+  void *return_value_valloc_81;
+  return_value_valloc_81=valloc((unsigned long int)Numblocks * sizeof(char *) /*8ul*/ );
+  Buffer = (char **)return_value_valloc_81;
+  signed int *return_value___errno_location_82;
+  char *return_value_strerror_83;
   if(Buffer == ((char **)NULL))
   {
-    return_value___errno_location$82=__errno_location();
-    return_value_strerror$83=strerror(*return_value___errno_location$82);
-    fatal("Could not allocate enough memory (%d requested): %s\n", (unsigned long int)Numblocks * sizeof(char *) /*8ul*/ , return_value_strerror$83);
+    return_value___errno_location_82=__errno_location();
+    return_value_strerror_83=strerror(*return_value___errno_location_82);
+    fatal("Could not allocate enough memory (%d requested): %s\n", (unsigned long int)Numblocks * sizeof(char *) /*8ul*/ , return_value_strerror_83);
   }
 
-  char *tmp_if_expr$86;
-  char *return_value_getenv$85;
-  signed int *return_value___errno_location$91;
-  char *return_value_strerror$92;
-  signed int *return_value___errno_location$95;
-  char *return_value_strerror$96;
-  signed int *return_value___errno_location$98;
-  char *return_value_strerror$99;
-  signed int *return_value___errno_location$101;
-  char *return_value_strerror$102;
-  signed int *return_value___errno_location$105;
-  char *return_value_strerror$106;
-  signed int *return_value___errno_location$108;
-  char *return_value_strerror$109;
-  signed int *return_value___errno_location$110;
-  char *return_value_strerror$111;
+  char *tmp_if_expr_86;
+  char *return_value_getenv_85;
+  signed int *return_value___errno_location_91;
+  char *return_value_strerror_92;
+  signed int *return_value___errno_location_95;
+  char *return_value_strerror_96;
+  signed int *return_value___errno_location_98;
+  char *return_value_strerror_99;
+  signed int *return_value___errno_location_101;
+  char *return_value_strerror_102;
+  signed int *return_value___errno_location_105;
+  char *return_value_strerror_106;
+  signed int *return_value___errno_location_108;
+  char *return_value_strerror_109;
+  signed int *return_value___errno_location_110;
+  char *return_value_strerror_111;
   if(!(Memmap == 0))
   {
     infomsg("mapping temporary file to memory with %llu blocks with %llu byte (%llu kB total)...\n", (unsigned long long int)Numblocks, (unsigned long long int)Blocksize, (unsigned long long int)((unsigned long int)Numblocks * Blocksize >> 10));
@@ -4084,38 +4084,38 @@ signed int main(signed int argc, const char **argv)
     {
       char tmplname[15l] = { 'm', 'b', 'u', 'f', 'f', 'e', 'r', '-', 'X', 'X', 'X', 'X', 'X', 'X', 0 };
       char *tmpdir;
-      char *return_value_getenv$84;
-      return_value_getenv$84=getenv("TMPDIR");
-      if(!(return_value_getenv$84 == ((char *)NULL)))
+      char *return_value_getenv_84;
+      return_value_getenv_84=getenv("TMPDIR");
+      if(!(return_value_getenv_84 == ((char *)NULL)))
       {
-        return_value_getenv$85=getenv("TMPDIR");
-        tmp_if_expr$86 = return_value_getenv$85;
+        return_value_getenv_85=getenv("TMPDIR");
+        tmp_if_expr_86 = return_value_getenv_85;
       }
 
       else
-        tmp_if_expr$86 = "/var/tmp";
-      tmpdir = tmp_if_expr$86;
-      signed long int tmpdir$array_size0;
-      unsigned long int return_value_strlen$87;
-      return_value_strlen$87=strlen(tmpdir);
-      tmpdir$array_size0 = (signed long int)(sizeof(char [15l]) /*15ul*/  + return_value_strlen$87 + (unsigned long int)1);
-      char tfilename[tmpdir$array_size0];
+        tmp_if_expr_86 = "/var/tmp";
+      tmpdir = tmp_if_expr_86;
+      signed long int tmpdir_array_size0;
+      unsigned long int return_value_strlen_87;
+      return_value_strlen_87=strlen(tmpdir);
+      tmpdir_array_size0 = (signed long int)(sizeof(char [15l]) /*15ul*/  + return_value_strlen_87 + (unsigned long int)1);
+      char tfilename[tmpdir_array_size0];
       strcpy(tfilename, tmpdir);
       strcat(tfilename, "/");
       strcat(tfilename, tmplname);
-      signed int return_value_mkstemp$88;
-      return_value_mkstemp$88=mkstemp(tfilename);
-      Tmp = (signed long int)return_value_mkstemp$88;
-      unsigned long int return_value_strlen$89;
-      return_value_strlen$89=strlen(tfilename);
-      void *return_value_malloc$90;
-      return_value_malloc$90=malloc(return_value_strlen$89);
-      Tmpfile = (char *)return_value_malloc$90;
+      signed int return_value_mkstemp_88;
+      return_value_mkstemp_88=mkstemp(tfilename);
+      Tmp = (signed long int)return_value_mkstemp_88;
+      unsigned long int return_value_strlen_89;
+      return_value_strlen_89=strlen(tfilename);
+      void *return_value_malloc_90;
+      return_value_malloc_90=malloc(return_value_strlen_89);
+      Tmpfile = (char *)return_value_malloc_90;
       if(Tmpfile == ((char *)NULL))
       {
-        return_value___errno_location$91=__errno_location();
-        return_value_strerror$92=strerror(*return_value___errno_location$91);
-        fatal("out of memory: %s\n", return_value_strerror$92);
+        return_value___errno_location_91=__errno_location();
+        return_value_strerror_92=strerror(*return_value___errno_location_91);
+        fatal("out of memory: %s\n", return_value_strerror_92);
       }
 
       strcpy(Tmpfile, tfilename);
@@ -4125,53 +4125,53 @@ signed int main(signed int argc, const char **argv)
     else
     {
       unsigned int mode = (unsigned int)(02 | 0);
-      signed int return_value_strncmp$93;
-      return_value_strncmp$93=strncmp(Tmpfile, "/dev/", (unsigned long int)5);
-      if(!(return_value_strncmp$93 == 0))
+      signed int return_value_strncmp_93;
+      return_value_strncmp_93=strncmp(Tmpfile, "/dev/", (unsigned long int)5);
+      if(!(return_value_strncmp_93 == 0))
         mode = mode | (unsigned int)(0100 | 0200);
 
-      signed int return_value_open$94;
-      return_value_open$94=open(Tmpfile, (signed int)mode, 0600);
-      Tmp = (signed long int)return_value_open$94;
+      signed int return_value_open_94;
+      return_value_open_94=open(Tmpfile, (signed int)mode, 0600);
+      Tmp = (signed long int)return_value_open_94;
     }
     if(Tmp == -1l)
     {
-      return_value___errno_location$95=__errno_location();
-      return_value_strerror$96=strerror(*return_value___errno_location$95);
-      fatal("could not create temporary file (%s): %s\n", Tmpfile, return_value_strerror$96);
+      return_value___errno_location_95=__errno_location();
+      return_value_strerror_96=strerror(*return_value___errno_location_95);
+      fatal("could not create temporary file (%s): %s\n", Tmpfile, return_value_strerror_96);
     }
 
-    signed int return_value_strncmp$97;
-    return_value_strncmp$97=strncmp(Tmpfile, "/dev/", (unsigned long int)5);
-    if(!(return_value_strncmp$97 == 0))
+    signed int return_value_strncmp_97;
+    return_value_strncmp_97=strncmp(Tmpfile, "/dev/", (unsigned long int)5);
+    if(!(return_value_strncmp_97 == 0))
       unlink(Tmpfile);
 
-    signed long int return_value_lseek$100;
-    return_value_lseek$100=lseek((signed int)Tmp, (signed long int)((unsigned long int)Numblocks * Blocksize - sizeof(signed int) /*4ul*/ ), 0);
-    if(return_value_lseek$100 == -1l)
+    signed long int return_value_lseek_100;
+    return_value_lseek_100=lseek((signed int)Tmp, (signed long int)((unsigned long int)Numblocks * Blocksize - sizeof(signed int) /*4ul*/ ), 0);
+    if(return_value_lseek_100 == -1l)
     {
-      return_value___errno_location$98=__errno_location();
-      return_value_strerror$99=strerror(*return_value___errno_location$98);
-      fatal("could not resize temporary file: %s\n", return_value_strerror$99);
+      return_value___errno_location_98=__errno_location();
+      return_value_strerror_99=strerror(*return_value___errno_location_98);
+      fatal("could not resize temporary file: %s\n", return_value_strerror_99);
     }
 
-    signed long int return_value_write$103;
-    return_value_write$103=write((signed int)Tmp, (const void *)&c, sizeof(signed int) /*4ul*/ );
-    if(return_value_write$103 == -1l)
+    signed long int return_value_write_103;
+    return_value_write_103=write((signed int)Tmp, (const void *)&c, sizeof(signed int) /*4ul*/ );
+    if(return_value_write_103 == -1l)
     {
-      return_value___errno_location$101=__errno_location();
-      return_value_strerror$102=strerror(*return_value___errno_location$101);
-      fatal("could not resize temporary file: %s\n", return_value_strerror$102);
+      return_value___errno_location_101=__errno_location();
+      return_value_strerror_102=strerror(*return_value___errno_location_101);
+      fatal("could not resize temporary file: %s\n", return_value_strerror_102);
     }
 
-    void *return_value_mmap$104;
-    return_value_mmap$104=mmap(NULL, Blocksize * (unsigned long int)Numblocks, 0x1 | 0x2, 0x01, (signed int)Tmp, (signed long int)0);
-    Buffer[(signed long int)0] = (char *)return_value_mmap$104;
+    void *return_value_mmap_104;
+    return_value_mmap_104=mmap(NULL, Blocksize * (unsigned long int)Numblocks, 0x1 | 0x2, 0x01, (signed int)Tmp, (signed long int)0);
+    Buffer[(signed long int)0] = (char *)return_value_mmap_104;
     if((char *)-1 == *Buffer)
     {
-      return_value___errno_location$105=__errno_location();
-      return_value_strerror$106=strerror(*return_value___errno_location$105);
-      fatal("could not map buffer-file to memory: %s\n", return_value_strerror$106);
+      return_value___errno_location_105=__errno_location();
+      return_value_strerror_106=strerror(*return_value___errno_location_105);
+      fatal("could not map buffer-file to memory: %s\n", return_value_strerror_106);
     }
 
     if(Verbose >= 5)
@@ -4182,23 +4182,23 @@ signed int main(signed int argc, const char **argv)
   else
   {
     infomsg("allocating memory for %d blocks with %llu byte (%llu kB total)...\n", Numblocks, (unsigned long long int)Blocksize, (unsigned long long int)((unsigned long int)Numblocks * Blocksize >> 10));
-    void *return_value_valloc$107;
-    return_value_valloc$107=valloc(Blocksize * (unsigned long int)Numblocks);
-    Buffer[(signed long int)0] = (char *)return_value_valloc$107;
+    void *return_value_valloc_107;
+    return_value_valloc_107=valloc(Blocksize * (unsigned long int)Numblocks);
+    Buffer[(signed long int)0] = (char *)return_value_valloc_107;
     if(*Buffer == ((char *)NULL))
     {
-      return_value___errno_location$108=__errno_location();
-      return_value_strerror$109=strerror(*return_value___errno_location$108);
-      fatal("Could not allocate enough memory (%lld requested): %s\n", (unsigned long long int)Blocksize * (unsigned long int)Numblocks, return_value_strerror$109);
+      return_value___errno_location_108=__errno_location();
+      return_value_strerror_109=strerror(*return_value___errno_location_108);
+      fatal("Could not allocate enough memory (%lld requested): %s\n", (unsigned long long int)Blocksize * (unsigned long int)Numblocks, return_value_strerror_109);
     }
 
-    signed int return_value_madvise$112;
-    return_value_madvise$112=madvise((void *)Buffer[(signed long int)0], Blocksize * (unsigned long int)Numblocks, 10);
-    if(return_value_madvise$112 == -1)
+    signed int return_value_madvise_112;
+    return_value_madvise_112=madvise((void *)Buffer[(signed long int)0], Blocksize * (unsigned long int)Numblocks, 10);
+    if(return_value_madvise_112 == -1)
     {
-      return_value___errno_location$110=__errno_location();
-      return_value_strerror$111=strerror(*return_value___errno_location$110);
-      warningmsg("unable to advise memory handling of buffer: %s\n", return_value_strerror$111);
+      return_value___errno_location_110=__errno_location();
+      return_value_strerror_111=strerror(*return_value___errno_location_110);
+      warningmsg("unable to advise memory handling of buffer: %s\n", return_value_strerror_111);
     }
 
   }
@@ -4208,36 +4208,36 @@ signed int main(signed int argc, const char **argv)
     Buffer[(signed long int)c] = Buffer[(signed long int)0] + (signed long int)(Blocksize * (unsigned long int)c);
     *Buffer[(signed long int)c] = (char)0;
   }
-  signed int return_value_mlock$115;
-  _Bool tmp_if_expr$117;
-  signed int return_value_mlock$116;
-  signed int *return_value___errno_location$113;
-  char *return_value_strerror$114;
+  signed int return_value_mlock_115;
+  _Bool tmp_if_expr_117;
+  signed int return_value_mlock_116;
+  signed int *return_value___errno_location_113;
+  char *return_value_strerror_114;
   if(!(Memlock == 0))
   {
     unsigned int uid;
     uid=geteuid();
-    signed int return_value_seteuid$118;
-    return_value_seteuid$118=seteuid((unsigned int)0);
-    if(!(return_value_seteuid$118 == 0))
+    signed int return_value_seteuid_118;
+    return_value_seteuid_118=seteuid((unsigned int)0);
+    if(!(return_value_seteuid_118 == 0))
       warningmsg("could not change to uid 0 to lock memory (is mbuffer setuid root?)\n");
 
     else
     {
-      return_value_mlock$115=mlock((const void *)(char *)Buffer, (unsigned long int)Numblocks * sizeof(char *) /*8ul*/ );
-      if(!(return_value_mlock$115 == 0))
-        tmp_if_expr$117 = (_Bool)1;
+      return_value_mlock_115=mlock((const void *)(char *)Buffer, (unsigned long int)Numblocks * sizeof(char *) /*8ul*/ );
+      if(!(return_value_mlock_115 == 0))
+        tmp_if_expr_117 = (_Bool)1;
 
       else
       {
-        return_value_mlock$116=mlock((const void *)Buffer[(signed long int)0], Blocksize * (unsigned long int)Numblocks);
-        tmp_if_expr$117 = 0 != return_value_mlock$116 ? (_Bool)1 : (_Bool)0;
+        return_value_mlock_116=mlock((const void *)Buffer[(signed long int)0], Blocksize * (unsigned long int)Numblocks);
+        tmp_if_expr_117 = 0 != return_value_mlock_116 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$117)
+      if(tmp_if_expr_117)
       {
-        return_value___errno_location$113=__errno_location();
-        return_value_strerror$114=strerror(*return_value___errno_location$113);
-        warningmsg("could not lock buffer in memory: %s\n", return_value_strerror$114);
+        return_value___errno_location_113=__errno_location();
+        return_value_strerror_114=strerror(*return_value___errno_location_113);
+        warningmsg("could not lock buffer in memory: %s\n", return_value_strerror_114);
       }
 
       else
@@ -4251,42 +4251,42 @@ signed int main(signed int argc, const char **argv)
   if(Verbose >= 5)
     logdebug("creating semaphores...\n");
 
-  signed int return_value_sem_init$121;
-  return_value_sem_init$121=sem_init(&Buf2Dev, 0, (unsigned int)0);
-  signed int *return_value___errno_location$119;
-  char *return_value_strerror$120;
-  if(!(return_value_sem_init$121 == 0))
+  signed int return_value_sem_init_121;
+  return_value_sem_init_121=sem_init(&Buf2Dev, 0, (unsigned int)0);
+  signed int *return_value___errno_location_119;
+  char *return_value_strerror_120;
+  if(!(return_value_sem_init_121 == 0))
   {
-    return_value___errno_location$119=__errno_location();
-    return_value_strerror$120=strerror(*return_value___errno_location$119);
-    fatal("Error creating semaphore Buf2Dev: %s\n", return_value_strerror$120);
+    return_value___errno_location_119=__errno_location();
+    return_value_strerror_120=strerror(*return_value___errno_location_119);
+    fatal("Error creating semaphore Buf2Dev: %s\n", return_value_strerror_120);
   }
 
-  signed int return_value_sem_init$124;
-  return_value_sem_init$124=sem_init(&Dev2Buf, 0, (unsigned int)Numblocks);
-  signed int *return_value___errno_location$122;
-  char *return_value_strerror$123;
-  if(!(return_value_sem_init$124 == 0))
+  signed int return_value_sem_init_124;
+  return_value_sem_init_124=sem_init(&Dev2Buf, 0, (unsigned int)Numblocks);
+  signed int *return_value___errno_location_122;
+  char *return_value_strerror_123;
+  if(!(return_value_sem_init_124 == 0))
   {
-    return_value___errno_location$122=__errno_location();
-    return_value_strerror$123=strerror(*return_value___errno_location$122);
-    fatal("Error creating semaphore Dev2Buf: %s\n", return_value_strerror$123);
+    return_value___errno_location_122=__errno_location();
+    return_value_strerror_123=strerror(*return_value___errno_location_122);
+    fatal("Error creating semaphore Dev2Buf: %s\n", return_value_strerror_123);
   }
 
   if(Verbose >= 5)
     logdebug("opening input...\n");
 
-  signed int *return_value___errno_location$126;
-  char *return_value_strerror$127;
+  signed int *return_value___errno_location_126;
+  char *return_value_strerror_127;
   if(!(Infile == ((const char *)NULL)))
   {
     signed int flags = 00 | 0 | Direct;
     In=open(Infile, flags);
     if(In == -1)
     {
-      signed int *return_value___errno_location$125;
-      return_value___errno_location$125=__errno_location();
-      if(*return_value___errno_location$125 == 22)
+      signed int *return_value___errno_location_125;
+      return_value___errno_location_125=__errno_location();
+      if(*return_value___errno_location_125 == 22)
       {
         flags = flags & ~0;
         In=open(Infile, flags);
@@ -4294,9 +4294,9 @@ signed int main(signed int argc, const char **argv)
 
       if(In == -1)
       {
-        return_value___errno_location$126=__errno_location();
-        return_value_strerror$127=strerror(*return_value___errno_location$126);
-        fatal("could not open input file: %s\n", return_value_strerror$127);
+        return_value___errno_location_126=__errno_location();
+        return_value_strerror_127=strerror(*return_value___errno_location_126);
+        fatal("could not open input file: %s\n", return_value_strerror_127);
       }
 
     }
@@ -4310,9 +4310,9 @@ signed int main(signed int argc, const char **argv)
   if(numOut == 0)
   {
     struct destination *d;
-    void *return_value_malloc$128;
-    return_value_malloc$128=malloc(sizeof(struct destination) /*56ul*/ );
-    d = (struct destination *)return_value_malloc$128;
+    void *return_value_malloc_128;
+    return_value_malloc_128=malloc(sizeof(struct destination) /*56ul*/ );
+    d = (struct destination *)return_value_malloc_128;
     d->fd=dup(1);
     err=dup2(2, 1);
     /* assertion err != -1 */
@@ -4344,13 +4344,13 @@ signed int main(signed int argc, const char **argv)
   err=fcntl(2, 4, fl | 04000);
   /* assertion err == 0 */
   assert(err == 0);
-  signed long int return_value_read$130;
-  return_value_read$130=read(2, (void *)&c, (unsigned long int)1);
-  signed int *return_value___errno_location$129;
-  if(return_value_read$130 == -1l)
+  signed long int return_value_read_130;
+  return_value_read_130=read(2, (void *)&c, (unsigned long int)1);
+  signed int *return_value___errno_location_129;
+  if(return_value_read_130 == -1l)
   {
-    return_value___errno_location$129=__errno_location();
-    if(!(*return_value___errno_location$129 == 11))
+    return_value___errno_location_129=__errno_location();
+    if(!(*return_value___errno_location_129 == 11))
     {
       signed int tty;
       tty=open("/dev/tty", 02);
@@ -4376,20 +4376,20 @@ signed int main(signed int argc, const char **argv)
   err=fcntl(2, 4, fl);
   /* assertion err == 0 */
   assert(err == 0);
-  signed int *return_value___errno_location$133;
-  char *return_value_strerror$134;
+  signed int *return_value___errno_location_133;
+  char *return_value_strerror_134;
   if(Terminal == 1 && !(NumVolumes == 1l))
   {
     struct termios tset;
-    signed int return_value_tcgetattr$136;
-    return_value_tcgetattr$136=tcgetattr(2, &tset);
-    if(return_value_tcgetattr$136 == -1)
+    signed int return_value_tcgetattr_136;
+    return_value_tcgetattr_136=tcgetattr(2, &tset);
+    if(return_value_tcgetattr_136 == -1)
     {
-      signed int *return_value___errno_location$131;
-      return_value___errno_location$131=__errno_location();
-      char *return_value_strerror$132;
-      return_value_strerror$132=strerror(*return_value___errno_location$131);
-      warningmsg("unable to get terminal attributes: %s\n", return_value_strerror$132);
+      signed int *return_value___errno_location_131;
+      return_value___errno_location_131=__errno_location();
+      char *return_value_strerror_132;
+      return_value_strerror_132=strerror(*return_value___errno_location_131);
+      warningmsg("unable to get terminal attributes: %s\n", return_value_strerror_132);
     }
 
     else
@@ -4397,13 +4397,13 @@ signed int main(signed int argc, const char **argv)
       tset.c_lflag = tset.c_lflag & (unsigned int)(~0000002 & ~0000010);
       tset.c_cc[(signed long int)5] = (unsigned char)0;
       tset.c_cc[(signed long int)6] = (unsigned char)1;
-      signed int return_value_tcsetattr$135;
-      return_value_tcsetattr$135=tcsetattr(2, 0, &tset);
-      if(return_value_tcsetattr$135 == -1)
+      signed int return_value_tcsetattr_135;
+      return_value_tcsetattr_135=tcsetattr(2, 0, &tset);
+      if(return_value_tcsetattr_135 == -1)
       {
-        return_value___errno_location$133=__errno_location();
-        return_value_strerror$134=strerror(*return_value___errno_location$133);
-        warningmsg("unable to set terminal attributes: %s\n", return_value_strerror$134);
+        return_value___errno_location_133=__errno_location();
+        return_value_strerror_134=strerror(*return_value___errno_location_133);
+        warningmsg("unable to set terminal attributes: %s\n", return_value_strerror_134);
       }
 
     }
@@ -4420,15 +4420,15 @@ signed int main(signed int argc, const char **argv)
   /* assertion err == 0 */
   assert(err == 0);
   sig.sa_flags = 0x10000000;
-  signed int return_value_sigaction$139;
-  return_value_sigaction$139=sigaction(2, &sig, ((struct sigaction *)NULL));
-  signed int *return_value___errno_location$137;
-  char *return_value_strerror$138;
-  if(!(return_value_sigaction$139 == 0))
+  signed int return_value_sigaction_139;
+  return_value_sigaction_139=sigaction(2, &sig, ((struct sigaction *)NULL));
+  signed int *return_value___errno_location_137;
+  char *return_value_strerror_138;
+  if(!(return_value_sigaction_139 == 0))
   {
-    return_value___errno_location$137=__errno_location();
-    return_value_strerror$138=strerror(*return_value___errno_location$137);
-    warningmsg("error registering new SIGINT handler: %s\n", return_value_strerror$138);
+    return_value___errno_location_137=__errno_location();
+    return_value_strerror_138=strerror(*return_value___errno_location_137);
+    warningmsg("error registering new SIGINT handler: %s\n", return_value_strerror_138);
   }
 
   err=sigemptyset(&sig.sa_mask);
@@ -4437,15 +4437,15 @@ signed int main(signed int argc, const char **argv)
   err=sigaddset(&sig.sa_mask, 1);
   /* assertion err == 0 */
   assert(err == 0);
-  signed int return_value_sigaction$142;
-  return_value_sigaction$142=sigaction(1, &sig, ((struct sigaction *)NULL));
-  signed int *return_value___errno_location$140;
-  char *return_value_strerror$141;
-  if(!(return_value_sigaction$142 == 0))
+  signed int return_value_sigaction_142;
+  return_value_sigaction_142=sigaction(1, &sig, ((struct sigaction *)NULL));
+  signed int *return_value___errno_location_140;
+  char *return_value_strerror_141;
+  if(!(return_value_sigaction_142 == 0))
   {
-    return_value___errno_location$140=__errno_location();
-    return_value_strerror$141=strerror(*return_value___errno_location$140);
-    warningmsg("error registering new SIGHUP handler: %s\n", return_value_strerror$141);
+    return_value___errno_location_140=__errno_location();
+    return_value_strerror_141=strerror(*return_value___errno_location_140);
+    warningmsg("error registering new SIGHUP handler: %s\n", return_value_strerror_141);
   }
 
   if(Verbose >= 5)
@@ -4456,28 +4456,28 @@ signed int main(signed int argc, const char **argv)
   /* assertion 0 == err */
   assert(0 == err);
   pthread_sigmask(0, &signalSet, (struct anonymous *)(void *)0);
-  main$$1$$dest = Dest;
-  for( ; main$$1$$dest->fd == -1; main$$1$$dest = main$$1$$dest->next)
+  main__1__dest = Dest;
+  for( ; main__1__dest->fd == -1; main__1__dest = main__1__dest->next)
   {
-    main$$1$$dest->name = ((const char *)NULL);
+    main__1__dest->name = ((const char *)NULL);
     if(Verbose >= 5)
-      logdebug("skipping destination %s\n", main$$1$$dest->arg);
+      logdebug("skipping destination %s\n", main__1__dest->arg);
 
     /* assertion dest->next */
-    assert(main$$1$$dest->next != ((struct destination *)NULL));
+    assert(main__1__dest->next != ((struct destination *)NULL));
   }
   if(Verbose >= 5)
     logdebug("checking output device...\n");
 
-  signed int return_value_fstat$145;
-  return_value_fstat$145=fstat(main$$1$$dest->fd, &st);
-  signed int *return_value___errno_location$143;
-  char *return_value_strerror$144;
-  if(return_value_fstat$145 == -1)
+  signed int return_value_fstat_145;
+  return_value_fstat_145=fstat(main__1__dest->fd, &st);
+  signed int *return_value___errno_location_143;
+  char *return_value_strerror_144;
+  if(return_value_fstat_145 == -1)
   {
-    return_value___errno_location$143=__errno_location();
-    return_value_strerror$144=strerror(*return_value___errno_location$143);
-    errormsg("could not stat output: %s\n", return_value_strerror$144);
+    return_value___errno_location_143=__errno_location();
+    return_value_strerror_144=strerror(*return_value___errno_location_143);
+    errormsg("could not stat output: %s\n", return_value_strerror_144);
   }
 
   else
@@ -4506,15 +4506,15 @@ signed int main(signed int argc, const char **argv)
   if(Verbose >= 5)
     logdebug("checking input device...\n");
 
-  signed int return_value_fstat$148;
-  return_value_fstat$148=fstat(In, &st);
-  signed int *return_value___errno_location$146;
-  char *return_value_strerror$147;
-  if(return_value_fstat$148 == -1)
+  signed int return_value_fstat_148;
+  return_value_fstat_148=fstat(In, &st);
+  signed int *return_value___errno_location_146;
+  char *return_value_strerror_147;
+  if(return_value_fstat_148 == -1)
   {
-    return_value___errno_location$146=__errno_location();
-    return_value_strerror$147=strerror(*return_value___errno_location$146);
-    warningmsg("could not stat input: %s\n", return_value_strerror$147);
+    return_value___errno_location_146=__errno_location();
+    return_value_strerror_147=strerror(*return_value___errno_location_146);
+    warningmsg("could not stat input: %s\n", return_value_strerror_147);
   }
 
   else
@@ -4531,17 +4531,17 @@ signed int main(signed int argc, const char **argv)
   if(!(Quiet == 0) && (StatusLog == 0 || !(Verbose >= 4)))
     Status = 0;
 
-  signed int *return_value___errno_location$149;
-  char *return_value_strerror$150;
+  signed int *return_value___errno_location_149;
+  char *return_value_strerror_150;
   if(!(Status == 0))
   {
-    signed int return_value_pipe$151;
-    return_value_pipe$151=pipe(TermQ);
-    if(return_value_pipe$151 == -1)
+    signed int return_value_pipe_151;
+    return_value_pipe_151=pipe(TermQ);
+    if(return_value_pipe_151 == -1)
     {
-      return_value___errno_location$149=__errno_location();
-      return_value_strerror$150=strerror(*return_value___errno_location$149);
-      fatal("could not create termination pipe: %s\n", return_value_strerror$150);
+      return_value___errno_location_149=__errno_location();
+      return_value_strerror_150=strerror(*return_value___errno_location_149);
+      fatal("could not create termination pipe: %s\n", return_value_strerror_150);
     }
 
   }
@@ -4551,7 +4551,7 @@ signed int main(signed int argc, const char **argv)
     TermQ[(signed long int)0] = -1;
     TermQ[(signed long int)1] = -1;
   }
-  err=pthread_create(&main$$1$$dest->thread, ((const union pthread_attr_t *)NULL), outputThread, (void *)main$$1$$dest);
+  err=pthread_create(&main__1__dest->thread, ((const union pthread_attr_t *)NULL), outputThread, (void *)main__1__dest);
   /* assertion 0 == err */
   assert(0 == err);
   if(!(Timeout == 0ul))
@@ -4561,8 +4561,8 @@ signed int main(signed int argc, const char **argv)
     assert(0 == err);
   }
 
-  signed int *return_value___errno_location$152;
-  char *return_value_strerror$153;
+  signed int *return_value___errno_location_152;
+  char *return_value_strerror_153;
   if(!(Status == 0))
   {
     err=pthread_create(&Reader, ((const union pthread_attr_t *)NULL), inputThread, NULL);
@@ -4573,9 +4573,9 @@ signed int main(signed int argc, const char **argv)
     err=pthread_join(Reader, ((void **)NULL));
     if(!(err == 0))
     {
-      return_value___errno_location$152=__errno_location();
-      return_value_strerror$153=strerror(*return_value___errno_location$152);
-      errormsg("error joining reader: %s\n", return_value_strerror$153);
+      return_value___errno_location_152=__errno_location();
+      return_value_strerror_153=strerror(*return_value___errno_location_152);
+      errormsg("error joining reader: %s\n", return_value_strerror_153);
     }
 
   }
@@ -4589,19 +4589,19 @@ signed int main(signed int argc, const char **argv)
 
     if(!(TermQ[0l] == -1))
     {
-      signed long int return_value_read$154;
-      return_value_read$154=read(TermQ[(signed long int)0], (void *)&null, (unsigned long int)1);
-      err = (signed int)return_value_read$154;
+      signed long int return_value_read_154;
+      return_value_read_154=read(TermQ[(signed long int)0], (void *)&null, (unsigned long int)1);
+      err = (signed int)return_value_read_154;
       /* assertion err == 1 */
       assert(err == 1);
     }
 
   }
-  signed int *return_value___errno_location$155;
-  char *return_value_strerror$156;
+  signed int *return_value___errno_location_155;
+  char *return_value_strerror_156;
   if(!(Dest == ((struct destination *)NULL)))
   {
-    struct destination *main$$1$$27$$d = Dest;
+    struct destination *main__1__27__d = Dest;
     signed int ret;
     infomsg("waiting for senders...\n");
     if(!(Terminate == 0))
@@ -4609,26 +4609,26 @@ signed int main(signed int argc, const char **argv)
 
     while((_Bool)1)
     {
-      if(!(main$$1$$27$$d->name == ((const char *)NULL)))
+      if(!(main__1__27__d->name == ((const char *)NULL)))
       {
         void *status;
-        if(!(main$$1$$27$$d->arg == ((const char *)NULL)))
+        if(!(main__1__27__d->arg == ((const char *)NULL)))
         {
           if(Verbose >= 5)
-            logdebug("joining sender for %s\n", main$$1$$27$$d->arg);
+            logdebug("joining sender for %s\n", main__1__27__d->arg);
 
         }
 
         else
           if(Verbose >= 5)
-            logdebug("joining hasher for %s\n", main$$1$$27$$d->name);
+            logdebug("joining hasher for %s\n", main__1__27__d->name);
 
-        ret=pthread_join(main$$1$$27$$d->thread, &status);
+        ret=pthread_join(main__1__27__d->thread, &status);
         if(!(ret == 0))
         {
-          return_value___errno_location$155=__errno_location();
-          return_value_strerror$156=strerror(*return_value___errno_location$155);
-          errormsg("error joining %s: %s\n", main$$1$$27$$d->arg, main$$1$$27$$d->name, return_value_strerror$156);
+          return_value___errno_location_155=__errno_location();
+          return_value_strerror_156=strerror(*return_value___errno_location_155);
+          errormsg("error joining %s: %s\n", main__1__27__d->arg, main__1__27__d->name, return_value_strerror_156);
         }
 
         if(status == NULL)
@@ -4636,8 +4636,8 @@ signed int main(signed int argc, const char **argv)
 
       }
 
-      main$$1$$27$$d = main$$1$$27$$d->next;
-      if(main$$1$$27$$d == ((struct destination *)NULL))
+      main__1__27__d = main__1__27__d->next;
+      if(main__1__27__d == ((struct destination *)NULL))
         break;
 
     }
@@ -4648,45 +4648,45 @@ signed int main(signed int argc, const char **argv)
 
   if(!(Memmap == 0))
   {
-    signed int main$$1$$28$$ret;
-    main$$1$$28$$ret=munmap((void *)Buffer[(signed long int)0], Blocksize * (unsigned long int)Numblocks);
+    signed int main__1__28__ret;
+    main__1__28__ret=munmap((void *)Buffer[(signed long int)0], Blocksize * (unsigned long int)Numblocks);
     /* assertion ret == 0 */
-    assert(main$$1$$28$$ret == 0);
+    assert(main__1__28__ret == 0);
   }
 
   if(!(Tmp == -1l))
     close((signed int)Tmp);
 
-  unsigned long int return_value_strlen$158;
+  unsigned long int return_value_strlen_158;
   if(!(Dest == ((struct destination *)NULL)))
   {
-    struct destination *main$$1$$29$$d = Dest;
+    struct destination *main__1__29__d = Dest;
     do
     {
-      struct destination *n = main$$1$$29$$d->next;
-      if(!(main$$1$$29$$d->result == ((const char *)NULL)))
+      struct destination *n = main__1__29__d->next;
+      if(!(main__1__29__d->result == ((const char *)NULL)))
       {
-        if(!(main$$1$$29$$d->arg == ((const char *)NULL)))
-          warningmsg("error during output to %s: %s\n", main$$1$$29$$d->arg, main$$1$$29$$d->result);
+        if(!(main__1__29__d->arg == ((const char *)NULL)))
+          warningmsg("error during output to %s: %s\n", main__1__29__d->arg, main__1__29__d->result);
 
         else
         {
-          unsigned long int return_value_strlen$157;
-          return_value_strlen$157=strlen(main$$1$$29$$d->result);
-          write(2, (const void *)main$$1$$29$$d->result, return_value_strlen$157);
+          unsigned long int return_value_strlen_157;
+          return_value_strlen_157=strlen(main__1__29__d->result);
+          write(2, (const void *)main__1__29__d->result, return_value_strlen_157);
           if(!(Log == 2))
           {
-            return_value_strlen$158=strlen(main$$1$$29$$d->result);
-            write(Log, (const void *)main$$1$$29$$d->result, return_value_strlen$158);
+            return_value_strlen_158=strlen(main__1__29__d->result);
+            write(Log, (const void *)main__1__29__d->result, return_value_strlen_158);
           }
 
         }
       }
 
-      free((void *)main$$1$$29$$d);
-      main$$1$$29$$d = n;
+      free((void *)main__1__29__d);
+      main__1__29__d = n;
     }
-    while(!(main$$1$$29$$d == ((struct destination *)NULL)));
+    while(!(main__1__29__d == ((struct destination *)NULL)));
   }
 
   if(!(ErrorOccurred == 0))
@@ -4702,17 +4702,17 @@ static signed int mt_usleep(unsigned long int sleep_usecs)
   struct timespec tv;
   tv.tv_sec = (signed long int)(sleep_usecs / (unsigned long int)1000000);
   tv.tv_nsec = (signed long int)((sleep_usecs % (unsigned long int)1000000) * (unsigned long int)1000);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int return_value_nanosleep$2;
-    return_value_nanosleep$2=nanosleep(&tv, &tv);
-    if(return_value_nanosleep$2 == 0)
+    signed int return_value_nanosleep_2;
+    return_value_nanosleep_2=nanosleep(&tv, &tv);
+    if(return_value_nanosleep_2 == 0)
       return 0;
 
-    return_value___errno_location$1=__errno_location();
+    return_value___errno_location_1=__errno_location();
   }
-  while(*return_value___errno_location$1 == 4);
+  while(*return_value___errno_location_1 == 4);
   return -1;
 }
 
@@ -4721,22 +4721,22 @@ static signed int mt_usleep(unsigned long int sleep_usecs)
 static void openDestinationFiles(struct destination *d)
 {
   unsigned int errs = (unsigned int)ErrorOccurred;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_3;
   for( ; !(d == ((struct destination *)NULL)); d = d->next)
   {
     if(d->fd == -1)
     {
-      signed int return_value_strncmp$1;
-      return_value_strncmp$1=strncmp(d->arg, "/dev/", (unsigned long int)5);
-      if(return_value_strncmp$1 == 0)
+      signed int return_value_strncmp_1;
+      return_value_strncmp_1=strncmp(d->arg, "/dev/", (unsigned long int)5);
+      if(return_value_strncmp_1 == 0)
         d->mode = d->mode & ~0200;
 
       d->fd=open(d->arg, d->mode, 0666);
       if(d->fd == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 22)
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 22)
         {
           d->mode = d->mode & ~0;
           d->fd=open(d->arg, d->mode, 0666);
@@ -4746,8 +4746,8 @@ static void openDestinationFiles(struct destination *d)
 
       if(d->fd == -1)
       {
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 22)
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 22)
         {
           d->mode = d->mode & ~01000;
           d->fd=open(d->arg, d->mode, 0666);
@@ -4757,14 +4757,14 @@ static void openDestinationFiles(struct destination *d)
 
       if(d->fd == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        d->result=strerror(*return_value___errno_location$4);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        errormsg("unable to open output %s: %s\n", d->arg, return_value_strerror$6);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        d->result=strerror(*return_value___errno_location_4);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        errormsg("unable to open output %s: %s\n", d->arg, return_value_strerror_6);
       }
 
       else
@@ -4810,10 +4810,10 @@ static void * outputThread(void *arg)
       logdebug("NumSenders = %d\n", NumSenders);
 
     ActSenders = NumSenders + 1;
-    ret=pthread_mutex_init(&SendMut, ((const union anonymous$15 *)NULL));
+    ret=pthread_mutex_init(&SendMut, ((const union anonymous_15 *)NULL));
     /* assertion ret == 0 */
     assert(ret == 0);
-    ret=pthread_cond_init(&SendCond, ((const union anonymous$15 *)NULL));
+    ret=pthread_cond_init(&SendCond, ((const union anonymous_15 *)NULL));
     /* assertion ret == 0 */
     assert(ret == 0);
     while((_Bool)1)
@@ -4867,7 +4867,7 @@ static void * outputThread(void *arg)
 
     do
     {
-      struct anonymous$3 __cancel_buf;
+      struct anonymous_3 __cancel_buf;
       void (*__cancel_routine)(void *) = releaseLock;
       void *__cancel_arg = (void *)&HighMut;
       signed int __not_first_call;
@@ -4903,24 +4903,24 @@ static void * outputThread(void *arg)
   else
     infomsg("outputThread: starting output on %s...\n", dest->arg);
   clock_gettime(ClockSrc, &last);
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   do
   {
     unsigned long long int rest = blocksize;
-    signed int outputThread$$1$$3$$1$$err;
+    signed int outputThread__1__3__1__err;
     if(startwrite > 0.000000 && !(fill >= 1))
     {
       /* assertion fill == 0 */
       assert(fill == 0);
-      outputThread$$1$$3$$1$$err=pthread_mutex_lock(&HighMut);
+      outputThread__1__3__1__err=pthread_mutex_lock(&HighMut);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
-      outputThread$$1$$3$$1$$err=sem_getvalue(&Buf2Dev, &fill);
+      assert(outputThread__1__3__1__err == 0);
+      outputThread__1__3__1__err=sem_getvalue(&Buf2Dev, &fill);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
+      assert(outputThread__1__3__1__err == 0);
       if(fill == 0)
       {
         if(Verbose >= 5)
@@ -4928,29 +4928,29 @@ static void * outputThread(void *arg)
 
         do
         {
-          struct anonymous$3 outputThread$$1$$3$$1$$1$$1$$1$$__cancel_buf;
-          void (*outputThread$$1$$3$$1$$1$$1$$1$$__cancel_routine)(void *) = releaseLock;
-          void *outputThread$$1$$3$$1$$1$$1$$1$$__cancel_arg = (void *)&HighMut;
-          signed int outputThread$$1$$3$$1$$1$$1$$1$$__not_first_call;
-          outputThread$$1$$3$$1$$1$$1$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)outputThread$$1$$3$$1$$1$$1$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-          if(!((signed long int)outputThread$$1$$3$$1$$1$$1$$1$$__not_first_call == 0l))
+          struct anonymous_3 outputThread__1__3__1__1__1__1____cancel_buf;
+          void (*outputThread__1__3__1__1__1__1____cancel_routine)(void *) = releaseLock;
+          void *outputThread__1__3__1__1__1__1____cancel_arg = (void *)&HighMut;
+          signed int outputThread__1__3__1__1__1__1____not_first_call;
+          outputThread__1__3__1__1__1__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)outputThread__1__3__1__1__1__1____cancel_buf.__cancel_jmp_buf, 0);
+          if(!((signed long int)outputThread__1__3__1__1__1__1____not_first_call == 0l))
           {
-            outputThread$$1$$3$$1$$1$$1$$1$$__cancel_routine(outputThread$$1$$3$$1$$1$$1$$1$$__cancel_arg);
-            __pthread_unwind_next(&outputThread$$1$$3$$1$$1$$1$$1$$__cancel_buf);
+            outputThread__1__3__1__1__1__1____cancel_routine(outputThread__1__3__1__1__1__1____cancel_arg);
+            __pthread_unwind_next(&outputThread__1__3__1__1__1__1____cancel_buf);
           }
 
-          __pthread_register_cancel(&outputThread$$1$$3$$1$$1$$1$$1$$__cancel_buf);
+          __pthread_register_cancel(&outputThread__1__3__1__1__1__1____cancel_buf);
           do
           {
-            outputThread$$1$$3$$1$$err=pthread_cond_wait(&PercHigh, &HighMut);
+            outputThread__1__3__1__err=pthread_cond_wait(&PercHigh, &HighMut);
             /* assertion err == 0 */
-            assert(outputThread$$1$$3$$1$$err == 0);
+            assert(outputThread__1__3__1__err == 0);
 
           __CPROVER_DUMP_L22:
             ;
           }
           while((_Bool)0);
-          __pthread_unregister_cancel(&outputThread$$1$$3$$1$$1$$1$$1$$__cancel_buf);
+          __pthread_unregister_cancel(&outputThread__1__3__1__1__1__1____cancel_buf);
         }
         while((_Bool)0);
         EmptyCount = EmptyCount + 1;
@@ -4960,16 +4960,16 @@ static void * outputThread(void *arg)
         clock_gettime(ClockSrc, &last);
       }
 
-      outputThread$$1$$3$$1$$err=pthread_mutex_unlock(&HighMut);
+      outputThread__1__3__1__err=pthread_mutex_unlock(&HighMut);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
+      assert(outputThread__1__3__1__err == 0);
     }
 
     else
       fill = fill - 1;
-    outputThread$$1$$3$$1$$err=sem_wait(&Buf2Dev);
+    outputThread__1__3__1__err=sem_wait(&Buf2Dev);
     /* assertion err == 0 */
-    assert(outputThread$$1$$3$$1$$err == 0);
+    assert(outputThread__1__3__1__err == 0);
     if(!(Terminate == 0))
     {
       infomsg("outputThread: terminating upon termination request...\n");
@@ -4979,9 +4979,9 @@ static void * outputThread(void *arg)
 
     if(Finish == (signed long int)at)
     {
-      outputThread$$1$$3$$1$$err=sem_getvalue(&Buf2Dev, &fill);
+      outputThread__1__3__1__err=sem_getvalue(&Buf2Dev, &fill);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
+      assert(outputThread__1__3__1__err == 0);
       if(fill == 0 && Rest == 0ul)
       {
         if(!(multipleSenders == 0))
@@ -5011,9 +5011,9 @@ static void * outputThread(void *arg)
       if(out == -1)
       {
         haderror = 1;
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        dest->result=strerror(*return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        dest->result=strerror(*return_value___errno_location_1);
       }
 
     }
@@ -5032,9 +5032,9 @@ static void * outputThread(void *arg)
 
       else
       {
-        signed long int return_value_write$2;
-        return_value_write$2=write(out, (const void *)((Buffer[(signed long int)at] + (signed long int)blocksize) - (signed long int)rest), n);
-        num = (signed int)return_value_write$2;
+        signed long int return_value_write_2;
+        return_value_write_2=write(out, (const void *)((Buffer[(signed long int)at] + (signed long int)blocksize) - (signed long int)rest), n);
+        num = (signed int)return_value_write_2;
         if(Verbose >= 6)
           logdebug("outputThread: writing %lld@0x%p: ret = %d\n", n, (Buffer[(signed long int)at] + (signed long int)blocksize) - (signed long int)rest, num);
 
@@ -5043,21 +5043,21 @@ static void * outputThread(void *arg)
       {
         if(num == -1)
         {
-          return_value___errno_location$3=__errno_location();
-          if(*return_value___errno_location$3 == 12)
-            tmp_if_expr$5 = (_Bool)1;
+          return_value___errno_location_3=__errno_location();
+          if(*return_value___errno_location_3 == 12)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$4=__errno_location();
-            tmp_if_expr$5 = *return_value___errno_location$4 == 28 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_4=__errno_location();
+            tmp_if_expr_5 = *return_value___errno_location_4 == 28 ? (_Bool)1 : (_Bool)0;
           }
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(num == 0 || tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(num == 0 || tmp_if_expr_6)
         {
           out=requestOutputVolume(out, dest->name);
           if(out == -1)
@@ -5071,14 +5071,14 @@ static void * outputThread(void *arg)
       else
         if(num == -1)
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          dest->result=strerror(*return_value___errno_location$7);
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          char *return_value_strerror$9;
-          return_value_strerror$9=strerror(*return_value___errno_location$8);
-          errormsg("outputThread: error writing to %s at offset 0x%llx: %s\n", dest->arg, ((unsigned long int)(signed long long int)Blocksize * Numout + blocksize) - rest, return_value_strerror$9);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          dest->result=strerror(*return_value___errno_location_7);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          char *return_value_strerror_9;
+          return_value_strerror_9=strerror(*return_value___errno_location_8);
+          errormsg("outputThread: error writing to %s at offset 0x%llx: %s\n", dest->arg, ((unsigned long int)(signed long long int)Blocksize * Numout + blocksize) - rest, return_value_strerror_9);
           MainOutOK = 0;
           if(NumSenders == 0)
           {
@@ -5086,9 +5086,9 @@ static void * outputThread(void *arg)
               logdebug("outputThread: terminating...\n");
 
             Terminate = 1;
-            outputThread$$1$$3$$1$$err=sem_post(&Dev2Buf);
+            outputThread__1__3__1__err=sem_post(&Dev2Buf);
             /* assertion err == 0 */
-            assert(outputThread$$1$$3$$1$$err == 0);
+            assert(outputThread__1__3__1__err == 0);
             terminateOutputThread(dest, 1);
           }
 
@@ -5103,9 +5103,9 @@ static void * outputThread(void *arg)
     while(rest >= 1ul);
     if(multipleSenders == 0)
     {
-      outputThread$$1$$3$$1$$err=sem_post(&Dev2Buf);
+      outputThread__1__3__1__err=sem_post(&Dev2Buf);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
+      assert(outputThread__1__3__1__err == 0);
     }
 
     if(!(MaxWriteSpeed == 0ull))
@@ -5116,9 +5116,9 @@ static void * outputThread(void *arg)
 
     if(Finish == (signed long int)at)
     {
-      outputThread$$1$$3$$1$$err=sem_getvalue(&Buf2Dev, &fill);
+      outputThread__1__3__1__err=sem_getvalue(&Buf2Dev, &fill);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
+      assert(outputThread__1__3__1__err == 0);
       if(fill == 0)
       {
         if(!(multipleSenders == 0))
@@ -5136,22 +5136,22 @@ static void * outputThread(void *arg)
 
     if(startread < 1.000000)
     {
-      outputThread$$1$$3$$1$$err=pthread_mutex_lock(&LowMut);
+      outputThread__1__3__1__err=pthread_mutex_lock(&LowMut);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
-      outputThread$$1$$3$$1$$err=sem_getvalue(&Buf2Dev, &fill);
+      assert(outputThread__1__3__1__err == 0);
+      outputThread__1__3__1__err=sem_getvalue(&Buf2Dev, &fill);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
+      assert(outputThread__1__3__1__err == 0);
       if((double)fill / (double)Numblocks < startread)
       {
-        outputThread$$1$$3$$1$$err=pthread_cond_signal(&PercLow);
+        outputThread__1__3__1__err=pthread_cond_signal(&PercLow);
         /* assertion err == 0 */
-        assert(outputThread$$1$$3$$1$$err == 0);
+        assert(outputThread__1__3__1__err == 0);
       }
 
-      outputThread$$1$$3$$1$$err=pthread_mutex_unlock(&LowMut);
+      outputThread__1__3__1__err=pthread_mutex_unlock(&LowMut);
       /* assertion err == 0 */
-      assert(outputThread$$1$$3$$1$$err == 0);
+      assert(outputThread__1__3__1__err == 0);
     }
 
     Numout = Numout + 1ull;
@@ -5169,9 +5169,9 @@ void printmsg(const char *msg, ...)
   unsigned long int s;
   val = (void **)&msg;
   memcpy((void *)buf, (const void *)Prefix, PrefixLen);
-  signed int return_value_vsnprintf$1;
-  return_value_vsnprintf$1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
-  b = b + (signed long int)return_value_vsnprintf$1;
+  signed int return_value_vsnprintf_1;
+  return_value_vsnprintf_1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
+  b = b + (signed long int)return_value_vsnprintf_1;
   s = (unsigned long int)(b - buf);
   /* assertion s < sizeof(buf) */
   assert(s < sizeof(char [256l]) /*256ul*/ );
@@ -5187,36 +5187,36 @@ static signed int promptInteractive(unsigned int at, unsigned int num)
   err=pthread_mutex_lock(&TermMut);
   /* assertion 0 == err */
   assert(0 == err);
-  signed long int return_value_write$3;
+  signed long int return_value_write_3;
   static const char prompt[70l] = { '\n', 'C', 'o', 'n', 't', 'i', 'n', 'u', 'e', ' ', 'w', 'i', 't', 'h', ' ', 'n', 'e', 'x', 't', ' ', 'v', 'o', 'l', 'u', 'm', 'e', '?', ' ', 'P', 'r', 'e', 's', 's', ' ', '\'', 'y', '\'', ' ', 't', 'o', ' ', 'c', 'o', 'n', 't', 'i', 'n', 'u', 'e', ' ', 'o', 'r', ' ', '\'', 'n', '\'', ' ', 't', 'o', ' ', 'f', 'i', 'n', 'i', 's', 'h', '.', '.', '.', 0 };
-  return_value_write$3=write(2, (const void *)prompt, sizeof(const char [70l]) /*70ul*/ );
-  if(return_value_write$3 == -1l)
+  return_value_write_3=write(2, (const void *)prompt, sizeof(const char [70l]) /*70ul*/ );
+  if(return_value_write_3 == -1l)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror_2);
     Terminate = 1;
     pthread_exit((void *)-1);
   }
 
-  signed int *return_value___errno_location$6;
+  signed int *return_value___errno_location_6;
   do
   {
     char c = (char)0;
-    signed long int return_value_read$7;
-    return_value_read$7=read(2, (void *)&c, (unsigned long int)1);
-    if(return_value_read$7 == -1l)
+    signed long int return_value_read_7;
+    return_value_read_7=read(2, (void *)&c, (unsigned long int)1);
+    if(return_value_read_7 == -1l)
     {
-      return_value___errno_location$6=__errno_location();
-      if(!(*return_value___errno_location$6 == 4))
+      return_value___errno_location_6=__errno_location();
+      if(!(*return_value___errno_location_6 == 4))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror_5);
         Terminate = 1;
         pthread_exit((void *)-1);
       }
@@ -5279,7 +5279,7 @@ static signed int promptInteractive(unsigned int at, unsigned int num)
 static void releaseLock(void *l)
 {
   signed int err;
-  err=pthread_mutex_unlock((union anonymous$14 *)l);
+  err=pthread_mutex_unlock((union anonymous_14 *)l);
   /* assertion err == 0 */
   assert(err == 0);
 }
@@ -5293,11 +5293,11 @@ static signed int requestInputVolume(unsigned int at, unsigned int num)
   double diff;
   unsigned int min;
   unsigned int hr;
-  signed long int hr$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(Infile);
-  hr$array_size0 = (signed long int)((unsigned long int)15 + return_value_strlen$1);
-  char cmd_buf[hr$array_size0];
+  signed long int hr_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(Infile);
+  hr_array_size0 = (signed long int)((unsigned long int)15 + return_value_strlen_1);
+  char cmd_buf[hr_array_size0];
   if(Verbose >= 5)
     logdebug("requesting new volume for input\n");
 
@@ -5327,20 +5327,20 @@ static signed int requestInputVolume(unsigned int at, unsigned int num)
 
     else
       infomsg("time for reading volume: %02fsec.\n", diff);
-  signed int return_value_close$4;
-  return_value_close$4=close(In);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  if(return_value_close$4 == -1)
+  signed int return_value_close_4;
+  return_value_close_4=close(In);
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  if(return_value_close_4 == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    errormsg("error closing input: %s\n", return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    errormsg("error closing input: %s\n", return_value_strerror_3);
   }
 
-  signed int *return_value___errno_location$8;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  signed int *return_value___errno_location_8;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   while((_Bool)1)
   {
     if(!(Infile == ((const char *)NULL)) && !(Autoloader == 0))
@@ -5351,7 +5351,7 @@ static signed int requestInputVolume(unsigned int at, unsigned int num)
 
       else
       {
-        snprintf(cmd_buf, (unsigned long int)hr$array_size0, "mt -f %s offline", Infile);
+        snprintf(cmd_buf, (unsigned long int)hr_array_size0, "mt -f %s offline", Infile);
         cmd = cmd_buf;
       }
       infomsg("requesting new input volume with command '%s'\n", cmd);
@@ -5366,11 +5366,11 @@ static signed int requestInputVolume(unsigned int at, unsigned int num)
       else
         if(!(ret >= 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          errormsg("error starting \"%s\" to change volume in autoloader: %s\n", cmd, return_value_strerror$6);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          errormsg("error starting \"%s\" to change volume in autoloader: %s\n", cmd, return_value_strerror_6);
           Terminate = 1;
           pthread_exit((void *)-1);
         }
@@ -5385,26 +5385,26 @@ static signed int requestInputVolume(unsigned int at, unsigned int num)
 
     else
     {
-      signed int return_value_promptInteractive$7;
-      return_value_promptInteractive$7=promptInteractive(at, num);
-      if(return_value_promptInteractive$7 == 0)
+      signed int return_value_promptInteractive_7;
+      return_value_promptInteractive_7=promptInteractive(at, num);
+      if(return_value_promptInteractive_7 == 0)
         return 0;
 
     }
     In=open(Infile, 00 | 0 | Direct);
     if(In == -1)
     {
-      return_value___errno_location$8=__errno_location();
-      if(*return_value___errno_location$8 == 22)
+      return_value___errno_location_8=__errno_location();
+      if(*return_value___errno_location_8 == 22)
         In=open(Infile, 00 | Direct);
 
     }
 
     if(In == -1)
     {
-      return_value___errno_location$9=__errno_location();
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      errormsg("could not reopen input: %s\n", return_value_strerror$10);
+      return_value___errno_location_9=__errno_location();
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      errormsg("could not reopen input: %s\n", return_value_strerror_10);
     }
 
     if(!(In == -1))
@@ -5432,11 +5432,11 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
   double diff;
   unsigned int min;
   unsigned int hr;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$12;
-  signed int *return_value___errno_location$15;
-  char *return_value_strerror$16;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_12;
+  signed int *return_value___errno_location_15;
+  char *return_value_strerror_16;
   if(outfile == ((const char *)NULL))
   {
     errormsg("End of volume, but not end of input:\nOutput file must be given (option -o) for multi-volume support!\n");
@@ -5472,13 +5472,13 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
 
       else
         infomsg("time for writing volume: %02fsec.\n", diff);
-    signed int return_value_close$3;
-    return_value_close$3=close(out);
-    if(return_value_close$3 == -1)
+    signed int return_value_close_3;
+    return_value_close_3=close(out);
+    if(return_value_close_3 == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      errormsg("error closing output %s: %s\n", outfile, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      errormsg("error closing output %s: %s\n", outfile, return_value_strerror_2);
     }
 
     do
@@ -5487,16 +5487,16 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
       if(!(Autoloader == 0))
       {
         const char default_cmd[17l] = { 'm', 't', ' ', '-', 'f', ' ', '%', 's', ' ', 'o', 'f', 'f', 'l', 'i', 'n', 'e', 0 };
-        signed long int default_cmd$array_size0;
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(outfile);
-        default_cmd$array_size0 = (signed long int)(sizeof(const char [17l]) /*17ul*/  + return_value_strlen$4);
-        char cmd_buf[default_cmd$array_size0];
+        signed long int default_cmd_array_size0;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(outfile);
+        default_cmd_array_size0 = (signed long int)(sizeof(const char [17l]) /*17ul*/  + return_value_strlen_4);
+        char cmd_buf[default_cmd_array_size0];
         const char *cmd = AutoloadCmd;
         signed int err;
         if(cmd == ((const char *)NULL))
         {
-          snprintf(cmd_buf, (unsigned long int)default_cmd$array_size0, default_cmd, Infile);
+          snprintf(cmd_buf, (unsigned long int)default_cmd_array_size0, default_cmd, Infile);
           cmd = cmd_buf;
         }
 
@@ -5512,11 +5512,11 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
         else
           if(!(err >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            char *return_value_strerror$6;
-            return_value_strerror$6=strerror(*return_value___errno_location$5);
-            errormsg("error starting \"%s\" to change volume in autoloader: %s\n", cmd, return_value_strerror$6);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            char *return_value_strerror_6;
+            return_value_strerror_6=strerror(*return_value___errno_location_5);
+            errormsg("error starting \"%s\" to change volume in autoloader: %s\n", cmd, return_value_strerror_6);
             Autoloader = 0;
             return -1;
           }
@@ -5531,7 +5531,7 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
 
       else
       {
-        signed int requestOutputVolume$$1$$4$$2$$err;
+        signed int requestOutputVolume__1__4__2__err;
         char c = (char)0;
         char msg[64l] = { '\n', 'v', 'o', 'l', 'u', 'm', 'e', ' ', 'f', 'u', 'l', 'l', ' ', '-', ' ', 'i', 'n', 's', 'e', 'r', 't', ' ', 'n', 'e', 'w', ' ', 'm', 'e', 'd', 'i', 'a', ' ', 'a', 'n', 'd', ' ', 'p', 'r', 'e', 's', 's', ' ', 'r', 'e', 't', 'u', 'r', 'n', ' ', 'w', 'h', 'e', 'n', ' ', 'r', 'e', 'a', 'd', 'y', '.', '.', '.', '\n', 0 };
         if(Terminal == 0)
@@ -5540,35 +5540,35 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
           return -1;
         }
 
-        requestOutputVolume$$1$$4$$2$$err=pthread_mutex_lock(&TermMut);
+        requestOutputVolume__1__4__2__err=pthread_mutex_lock(&TermMut);
         /* assertion 0 == err */
-        assert(0 == requestOutputVolume$$1$$4$$2$$err);
-        signed long int return_value_write$9;
-        return_value_write$9=write(2, (const void *)msg, sizeof(char [64l]) /*64ul*/ );
-        if(return_value_write$9 == -1l)
+        assert(0 == requestOutputVolume__1__4__2__err);
+        signed long int return_value_write_9;
+        return_value_write_9=write(2, (const void *)msg, sizeof(char [64l]) /*64ul*/ );
+        if(return_value_write_9 == -1l)
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror$8);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror_8);
           return -1;
         }
 
         do
         {
-          signed long int return_value_read$13;
-          return_value_read$13=read(2, (void *)&c, (unsigned long int)1);
-          if(return_value_read$13 == -1l)
+          signed long int return_value_read_13;
+          return_value_read_13=read(2, (void *)&c, (unsigned long int)1);
+          if(return_value_read_13 == -1l)
           {
-            return_value___errno_location$12=__errno_location();
-            if(!(*return_value___errno_location$12 == 4))
+            return_value___errno_location_12=__errno_location();
+            if(!(*return_value___errno_location_12 == 4))
             {
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              char *return_value_strerror$11;
-              return_value_strerror$11=strerror(*return_value___errno_location$10);
-              errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror$11);
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              char *return_value_strerror_11;
+              return_value_strerror_11=strerror(*return_value___errno_location_10);
+              errormsg("error accessing controlling terminal for manual volume change request: %s\nConsider using autoload option, when running mbuffer without terminal.\n", return_value_strerror_11);
               return -1;
             }
 
@@ -5576,22 +5576,22 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
 
         }
         while(!((signed int)c == 10));
-        requestOutputVolume$$1$$4$$2$$err=pthread_mutex_unlock(&TermMut);
+        requestOutputVolume__1__4__2__err=pthread_mutex_unlock(&TermMut);
         /* assertion 0 == err */
-        assert(0 == requestOutputVolume$$1$$4$$2$$err);
+        assert(0 == requestOutputVolume__1__4__2__err);
       }
       mode = (unsigned int)((signed long int)(01 | 01000) | OptSync | (signed long int)0 | (signed long int)Direct);
-      signed int return_value_strncmp$14;
-      return_value_strncmp$14=strncmp(outfile, "/dev/", (unsigned long int)5);
-      if(!(return_value_strncmp$14 == 0))
+      signed int return_value_strncmp_14;
+      return_value_strncmp_14=strncmp(outfile, "/dev/", (unsigned long int)5);
+      if(!(return_value_strncmp_14 == 0))
         mode = mode | (unsigned int)0100;
 
       out=open(outfile, (signed int)mode, 0666);
       if(out == -1)
       {
-        return_value___errno_location$15=__errno_location();
-        return_value_strerror$16=strerror(*return_value___errno_location$15);
-        errormsg("error reopening output file: %s\n", return_value_strerror$16);
+        return_value___errno_location_15=__errno_location();
+        return_value_strerror_16=strerror(*return_value___errno_location_15);
+        errormsg("error reopening output file: %s\n", return_value_strerror_16);
       }
 
     }
@@ -5601,8 +5601,8 @@ static signed int requestOutputVolume(signed int out, const char *outfile)
     infomsg("tape-change took %fsec. - continuing with next volume\n", diff);
     if(Autoloader == 0 && !(Terminal == 0))
     {
-      char requestOutputVolume$$1$$5$$msg[21l] = { '\n', 'O', 'K', ' ', '-', ' ', 'c', 'o', 'n', 't', 'i', 'n', 'u', 'i', 'n', 'g', '.', '.', '.', '\n', 0 };
-      write(2, (const void *)requestOutputVolume$$1$$5$$msg, sizeof(char [21l]) /*21ul*/ );
+      char requestOutputVolume__1__5__msg[21l] = { '\n', 'O', 'K', ' ', '-', ' ', 'c', 'o', 'n', 't', 'i', 'n', 'u', 'i', 'n', 'g', '.', '.', '.', '\n', 0 };
+      write(2, (const void *)requestOutputVolume__1__5__msg, sizeof(char [21l]) /*21ul*/ );
     }
 
     return out;
@@ -5620,15 +5620,15 @@ static void * senderThread(void *arg)
   if(Verbose >= 5)
     logdebug("sender(%s): checking output device...\n", dest->arg);
 
-  signed int return_value_fstat$4;
-  return_value_fstat$4=fstat(out, &st);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_fstat$4 == -1)
+  signed int return_value_fstat_4;
+  return_value_fstat_4=fstat(out, &st);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_fstat_4 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    warningmsg("could not stat output %s: %s\n", dest->arg, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    warningmsg("could not stat output %s: %s\n", dest->arg, return_value_strerror_2);
   }
 
   else
@@ -5641,9 +5641,9 @@ static void * senderThread(void *arg)
         if(!(SetOutsize == 0))
         {
           errormsg("unable to set output blocksize\n");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          dest->result=strerror(*return_value___errno_location$3);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          dest->result=strerror(*return_value___errno_location_3);
           terminateSender(out, dest, 1);
         }
 
@@ -5692,22 +5692,22 @@ static void * senderThread(void *arg)
       /* assertion size >= num */
       assert(size >= num);
       char *baddr = SendAt + (signed long int)num;
-      signed long int return_value_write$5;
-      return_value_write$5=write(out, (const void *)baddr, rest > outsize ? outsize : rest);
-      ret = (signed int)return_value_write$5;
+      signed long int return_value_write_5;
+      return_value_write_5=write(out, (const void *)baddr, rest > outsize ? outsize : rest);
+      ret = (signed int)return_value_write_5;
       if(Verbose >= 6)
         logdebug("sender(%s): writing %llu@0x%p: ret = %d\n", dest->arg, rest, (void *)baddr, ret);
 
       if(ret == -1)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        errormsg("error writing to %s: %s\n", dest->arg, return_value_strerror$7);
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        dest->result=strerror(*return_value___errno_location$8);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        errormsg("error writing to %s: %s\n", dest->arg, return_value_strerror_7);
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        dest->result=strerror(*return_value___errno_location_8);
         terminateSender(out, dest, 1);
       }
 
@@ -5731,8 +5731,8 @@ static void setTCPBufferSize(signed int sock, unsigned int buffer)
   err=getsockopt(sock, 1, (signed int)buffer, (void *)&osize, &bsize);
   /* assertion (err == 0) && (bsize == sizeof(osize)) */
   assert(err == 0 && (unsigned long int)bsize == sizeof(signed int) /*4ul*/ );
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(!(osize >= TCPBufSize))
   {
     size = TCPBufSize;
@@ -5742,21 +5742,21 @@ static void setTCPBufferSize(signed int sock, unsigned int buffer)
       size = size >> 1;
       if(err == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 12 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 12 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(!(osize >= size) && tmp_if_expr$2);
+    while(!(osize >= size) && tmp_if_expr_2);
     if(err == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      warningmsg("unable to set socket buffer size: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      warningmsg("unable to set socket buffer size: %s\n", return_value_strerror_4);
       goto __CPROVER_DUMP_L8;
     }
 
@@ -5817,14 +5817,14 @@ static void statusThread(void)
   unsigned long long int lin = (unsigned long long int)0;
   unsigned long long int lout = (unsigned long long int)0;
   signed int unwritten = 1;
-  struct anonymous$1 readfds;
+  struct anonymous_1 readfds;
   struct timeval timeout = { .tv_sec=(signed long int)0, .tv_usec=(signed long int)200000 };
   signed int maxfd = 0;
   last = Starttime;
   if(!(TermQ[0l] == -1))
     maxfd = TermQ[(signed long int)0] + 1;
 
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   while(Terminate == 0 && Finish == -1l && Numin == 0ul)
   {
     timeout.tv_sec = (signed long int)0;
@@ -5833,20 +5833,20 @@ static void statusThread(void)
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     if(!(TermQ[0l] == -1))
       (&readfds)->fds_bits[(signed long int)(TermQ[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(TermQ[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << TermQ[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
-    signed int return_value_select$1;
-    return_value_select$1=select(maxfd, &readfds, ((struct anonymous$1 *)NULL), ((struct anonymous$1 *)NULL), &timeout);
-    if(!(return_value_select$1 == 0))
+    signed int return_value_select_1;
+    return_value_select_1=select(maxfd, &readfds, ((struct anonymous_1 *)NULL), ((struct anonymous_1 *)NULL), &timeout);
+    if(!(return_value_select_1 == 0))
     {
-      if(return_value_select$1 == 1)
+      if(return_value_select_1 == 1)
         goto __CPROVER_DUMP_L5;
 
-      if(return_value_select$1 == -1)
+      if(return_value_select_1 == -1)
         goto __CPROVER_DUMP_L6;
 
     }
@@ -5861,8 +5861,8 @@ static void statusThread(void)
 
     __CPROVER_DUMP_L6:
       ;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 4)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 4)
         goto __CPROVER_DUMP_L8;
 
     }
@@ -5871,9 +5871,9 @@ static void statusThread(void)
   __CPROVER_DUMP_L8:
     ;
   }
-  signed int *return_value___errno_location$3;
-  signed int return_value_sprintf$8;
-  signed int return_value_sprintf$9;
+  signed int *return_value___errno_location_3;
+  signed int return_value_sprintf_8;
+  signed int return_value_sprintf_9;
   while(Done == 0)
   {
     signed int err;
@@ -5885,15 +5885,15 @@ static void statusThread(void)
     timeout.tv_usec = (signed long int)500000;
     do
     {
-      signed int statusThread$$1$$2$$1$$__d0;
-      signed int statusThread$$1$$2$$1$$__d1;
-      asm("cld; rep; stosq" : "=c"(statusThread$$1$$2$$1$$__d0), "=D"(statusThread$$1$$2$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
+      signed int statusThread__1__2__1____d0;
+      signed int statusThread__1__2__1____d1;
+      asm("cld; rep; stosq" : "=c"(statusThread__1__2__1____d0), "=D"(statusThread__1__2__1____d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     if(!(TermQ[0l] == -1))
       (&readfds)->fds_bits[(signed long int)(TermQ[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(TermQ[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << TermQ[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
-    err=select(maxfd, &readfds, ((struct anonymous$1 *)NULL), ((struct anonymous$1 *)NULL), &timeout);
+    err=select(maxfd, &readfds, ((struct anonymous_1 *)NULL), ((struct anonymous_1 *)NULL), &timeout);
     if(!(err == 0))
     {
       if(err == 1)
@@ -5914,8 +5914,8 @@ static void statusThread(void)
 
     __CPROVER_DUMP_L15:
       ;
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 4)
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 4)
         goto __CPROVER_DUMP_L17;
 
     }
@@ -5941,41 +5941,41 @@ static void statusThread(void)
     last = now;
     total = (double)(Numout * Blocksize >> 10);
     fill = fill < 0.0 ? 0.0 : fill;
-    signed int return_value_sprintf$4;
-    return_value_sprintf$4=sprintf(b, "\rin @ ");
-    b = b + (signed long int)return_value_sprintf$4;
-    signed int return_value_kb2str$5;
-    return_value_kb2str$5=kb2str(b, in);
-    b = b + (signed long int)return_value_kb2str$5;
+    signed int return_value_sprintf_4;
+    return_value_sprintf_4=sprintf(b, "\rin @ ");
+    b = b + (signed long int)return_value_sprintf_4;
+    signed int return_value_kb2str_5;
+    return_value_kb2str_5=kb2str(b, in);
+    b = b + (signed long int)return_value_kb2str_5;
     numsender = (NumSenders + MainOutOK) - Hashers;
-    signed int return_value_sprintf$6;
-    return_value_sprintf$6=sprintf(b, "B/s, out @ ");
-    b = b + (signed long int)return_value_sprintf$6;
-    signed int return_value_kb2str$7;
-    return_value_kb2str$7=kb2str(b, out * (double)numsender);
-    b = b + (signed long int)return_value_kb2str$7;
+    signed int return_value_sprintf_6;
+    return_value_sprintf_6=sprintf(b, "B/s, out @ ");
+    b = b + (signed long int)return_value_sprintf_6;
+    signed int return_value_kb2str_7;
+    return_value_kb2str_7=kb2str(b, out * (double)numsender);
+    b = b + (signed long int)return_value_kb2str_7;
     if(!(numsender == 1))
     {
-      return_value_sprintf$8=sprintf(b, "B/s, %d x ", numsender);
-      b = b + (signed long int)return_value_sprintf$8;
+      return_value_sprintf_8=sprintf(b, "B/s, %d x ", numsender);
+      b = b + (signed long int)return_value_sprintf_8;
     }
 
     else
     {
-      return_value_sprintf$9=sprintf(b, "B/s, ");
-      b = b + (signed long int)return_value_sprintf$9;
+      return_value_sprintf_9=sprintf(b, "B/s, ");
+      b = b + (signed long int)return_value_sprintf_9;
     }
-    signed int return_value_kb2str$10;
-    return_value_kb2str$10=kb2str(b, total);
-    b = b + (signed long int)return_value_kb2str$10;
-    signed int return_value_sprintf$11;
-    return_value_sprintf$11=sprintf(b, "B total, buffer %3.0f%% full", fill);
-    b = b + (signed long int)return_value_sprintf$11;
+    signed int return_value_kb2str_10;
+    return_value_kb2str_10=kb2str(b, total);
+    b = b + (signed long int)return_value_kb2str_10;
+    signed int return_value_sprintf_11;
+    return_value_sprintf_11=sprintf(b, "B total, buffer %3.0f%% full", fill);
+    b = b + (signed long int)return_value_sprintf_11;
     if(Quiet == 0)
     {
-      unsigned long int return_value_strlen$12;
-      return_value_strlen$12=strlen(buf);
-      nw=write(2, (const void *)buf, return_value_strlen$12);
+      unsigned long int return_value_strlen_12;
+      return_value_strlen_12=strlen(buf);
+      nw=write(2, (const void *)buf, return_value_strlen_12);
     }
 
     if(!(Log == 2) && !(StatusLog == 0))
@@ -6005,12 +6005,12 @@ static void summary(unsigned long long int numb, signed int numthreads)
   char *msg = buf;
   struct timeval now;
   gettimeofday(&now, ((struct timezone *)NULL));
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(Status == 0))
   {
-    tmp_post$1 = msg;
+    tmp_post_1 = msg;
     msg = msg + 1l;
-    *tmp_post$1 = (char)10;
+    *tmp_post_1 = (char)10;
   }
 
   if(Terminate == 1 && numthreads == 0)
@@ -6024,69 +6024,69 @@ static void summary(unsigned long long int numb, signed int numthreads)
   h = (signed int)secs / 3600;
   m = (signed int)(secs - (double)(h * 3600)) / 60;
   secs = secs - (double)(m * 60 + h * 3600);
-  signed int return_value_sprintf$2;
-  signed int return_value_sprintf$3;
+  signed int return_value_sprintf_2;
+  signed int return_value_sprintf_3;
   if(numthreads >= 2)
   {
-    return_value_sprintf$2=sprintf(msg, "summary: %dx ", numthreads);
-    msg = msg + (signed long int)return_value_sprintf$2;
+    return_value_sprintf_2=sprintf(msg, "summary: %dx ", numthreads);
+    msg = msg + (signed long int)return_value_sprintf_2;
   }
 
   else
   {
-    return_value_sprintf$3=sprintf(msg, "summary: ");
-    msg = msg + (signed long int)return_value_sprintf$3;
+    return_value_sprintf_3=sprintf(msg, "summary: ");
+    msg = msg + (signed long int)return_value_sprintf_3;
   }
-  signed int return_value_kb2str$4;
-  return_value_kb2str$4=kb2str(msg, (double)numb);
-  msg = msg + (signed long int)return_value_kb2str$4;
-  signed int return_value_sprintf$5;
-  return_value_sprintf$5=sprintf(msg, "Byte in ");
-  msg = msg + (signed long int)return_value_sprintf$5;
-  signed int return_value_sprintf$6;
-  signed int return_value_sprintf$7;
-  signed int return_value_sprintf$8;
+  signed int return_value_kb2str_4;
+  return_value_kb2str_4=kb2str(msg, (double)numb);
+  msg = msg + (signed long int)return_value_kb2str_4;
+  signed int return_value_sprintf_5;
+  return_value_sprintf_5=sprintf(msg, "Byte in ");
+  msg = msg + (signed long int)return_value_sprintf_5;
+  signed int return_value_sprintf_6;
+  signed int return_value_sprintf_7;
+  signed int return_value_sprintf_8;
   if(h >= 1)
   {
-    return_value_sprintf$6=sprintf(msg, "%dh %02dmin %04.1fsec - average of ", h, m, secs);
-    msg = msg + (signed long int)return_value_sprintf$6;
+    return_value_sprintf_6=sprintf(msg, "%dh %02dmin %04.1fsec - average of ", h, m, secs);
+    msg = msg + (signed long int)return_value_sprintf_6;
   }
 
   else
     if(m >= 1)
     {
-      return_value_sprintf$7=sprintf(msg, "%2dmin %04.1fsec - average of ", m, secs);
-      msg = msg + (signed long int)return_value_sprintf$7;
+      return_value_sprintf_7=sprintf(msg, "%2dmin %04.1fsec - average of ", m, secs);
+      msg = msg + (signed long int)return_value_sprintf_7;
     }
 
     else
     {
-      return_value_sprintf$8=sprintf(msg, "%4.1fsec - average of ", secs);
-      msg = msg + (signed long int)return_value_sprintf$8;
+      return_value_sprintf_8=sprintf(msg, "%4.1fsec - average of ", secs);
+      msg = msg + (signed long int)return_value_sprintf_8;
     }
-  signed int return_value_kb2str$9;
-  return_value_kb2str$9=kb2str(msg, av);
-  msg = msg + (signed long int)return_value_kb2str$9;
-  signed int return_value_sprintf$10;
-  return_value_sprintf$10=sprintf(msg, "B/s");
-  msg = msg + (signed long int)return_value_sprintf$10;
-  signed int return_value_sprintf$11;
+  signed int return_value_kb2str_9;
+  return_value_kb2str_9=kb2str(msg, av);
+  msg = msg + (signed long int)return_value_kb2str_9;
+  signed int return_value_sprintf_10;
+  return_value_sprintf_10=sprintf(msg, "B/s");
+  msg = msg + (signed long int)return_value_sprintf_10;
+  signed int return_value_sprintf_11;
   if(!(EmptyCount == 0))
   {
-    return_value_sprintf$11=sprintf(msg, ", %dx empty", EmptyCount);
-    msg = msg + (signed long int)return_value_sprintf$11;
+    return_value_sprintf_11=sprintf(msg, ", %dx empty", EmptyCount);
+    msg = msg + (signed long int)return_value_sprintf_11;
   }
 
-  signed int return_value_sprintf$12;
+  signed int return_value_sprintf_12;
   if(!(FullCount == 0))
   {
-    return_value_sprintf$12=sprintf(msg, ", %dx full", FullCount);
-    msg = msg + (signed long int)return_value_sprintf$12;
+    return_value_sprintf_12=sprintf(msg, ", %dx full", FullCount);
+    msg = msg + (signed long int)return_value_sprintf_12;
   }
 
-  char *tmp_post$13 = msg;
+  char *tmp_post_13 = msg;
   msg = msg + 1l;
-  *tmp_post$13 = (char)10;
+  *tmp_post_13 = (char)10;
   *msg = (char)0;
   if(!(Log == 2))
     write(Log, (const void *)buf, (unsigned long int)(msg - buf));
@@ -6123,7 +6123,7 @@ static inline signed int syncSenders(char *b, signed int s)
 
     do
     {
-      struct anonymous$3 __cancel_buf;
+      struct anonymous_3 __cancel_buf;
       void (*__cancel_routine)(void *) = releaseLock;
       void *__cancel_arg = (void *)&SendMut;
       signed int __not_first_call;
@@ -6192,72 +6192,72 @@ static void terminateOutputThread(struct destination *d, signed int status)
 {
   signed int err;
   infomsg("outputThread: syncing %s...\n", d->arg);
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     err=fsync(d->fd);
     if(!(err == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
+  while(tmp_if_expr_2);
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
   if(!(err == 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    if(*return_value___errno_location$5 == 22)
-      tmp_if_expr$7 = (_Bool)1;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    if(*return_value___errno_location_5 == 22)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$6=__errno_location();
-      tmp_if_expr$7 = *return_value___errno_location$6 == 56 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_6=__errno_location();
+      tmp_if_expr_7 = *return_value___errno_location_6 == 56 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       infomsg("syncing unsupported on %s: omitted.\n", d->arg);
 
     else
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      warningmsg("unable to sync %s: %s\n", d->arg, return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      warningmsg("unable to sync %s: %s\n", d->arg, return_value_strerror_4);
     }
   }
 
   infomsg("outputThread: finished - exiting...\n");
-  signed int return_value_close$10;
-  return_value_close$10=close(d->fd);
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
-  if(return_value_close$10 == -1)
+  signed int return_value_close_10;
+  return_value_close_10=close(d->fd);
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
+  if(return_value_close_10 == -1)
   {
-    return_value___errno_location$8=__errno_location();
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    errormsg("error closing %s: %s\n", d->arg, return_value_strerror$9);
+    return_value___errno_location_8=__errno_location();
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    errormsg("error closing %s: %s\n", d->arg, return_value_strerror_9);
   }
 
-  signed int *return_value___errno_location$12;
-  char *return_value_strerror$13;
+  signed int *return_value___errno_location_12;
+  char *return_value_strerror_13;
   if(!(TermQ[1l] == -1))
   {
-    signed long int return_value_write$11;
-    return_value_write$11=write(TermQ[(signed long int)1], (const void *)"0", (unsigned long int)1);
-    err = (signed int)return_value_write$11;
+    signed long int return_value_write_11;
+    return_value_write_11=write(TermQ[(signed long int)1], (const void *)"0", (unsigned long int)1);
+    err = (signed int)return_value_write_11;
     if(err == -1)
     {
-      return_value___errno_location$12=__errno_location();
-      return_value_strerror$13=strerror(*return_value___errno_location$12);
-      errormsg("error writing to termination queue: %s\n", return_value_strerror$13);
+      return_value___errno_location_12=__errno_location();
+      return_value_strerror_13=strerror(*return_value___errno_location_12);
+      errormsg("error writing to termination queue: %s\n", return_value_strerror_13);
     }
 
   }
@@ -6279,12 +6279,12 @@ static inline void terminateSender(signed int fd, struct destination *d, signed 
   if(Verbose >= 5)
     logdebug("terminating operation on %s\n", d->arg);
 
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
   if(!(fd == -1))
   {
     signed int err;
@@ -6294,46 +6294,46 @@ static inline void terminateSender(signed int fd, struct destination *d, signed 
       err=fsync(fd);
       if(!(err == 0))
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     if(!(err == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 22)
-        tmp_if_expr$7 = (_Bool)1;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 22)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$6=__errno_location();
-        tmp_if_expr$7 = *return_value___errno_location$6 == 56 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_6=__errno_location();
+        tmp_if_expr_7 = *return_value___errno_location_6 == 56 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
         infomsg("syncing unsupported on %s: omitted.\n", d->arg);
 
       else
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        warningmsg("unable to sync %s: %s\n", d->arg, return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        warningmsg("unable to sync %s: %s\n", d->arg, return_value_strerror_4);
       }
     }
 
-    signed int return_value_close$10;
-    return_value_close$10=close(fd);
-    if(return_value_close$10 == -1)
+    signed int return_value_close_10;
+    return_value_close_10=close(fd);
+    if(return_value_close_10 == -1)
     {
-      return_value___errno_location$8=__errno_location();
-      return_value_strerror$9=strerror(*return_value___errno_location$8);
-      errormsg("error closing file %s: %s\n", d->arg, return_value_strerror$9);
+      return_value___errno_location_8=__errno_location();
+      return_value_strerror_9=strerror(*return_value___errno_location_8);
+      errormsg("error closing file %s: %s\n", d->arg, return_value_strerror_9);
     }
 
   }
@@ -6395,9 +6395,9 @@ void warningmsg(const char *msg, ...)
     memcpy((void *)buf, (const void *)Prefix, PrefixLen);
     memcpy((void *)b, (const void *)"warning: ", (unsigned long int)9);
     b = b + (signed long int)9;
-    signed int return_value_vsnprintf$1;
-    return_value_vsnprintf$1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
-    b = b + (signed long int)return_value_vsnprintf$1;
+    signed int return_value_vsnprintf_1;
+    return_value_vsnprintf_1=vsnprintf(b, sizeof(char [256l]) /*256ul*/  - (unsigned long int)(b - buf), msg, val);
+    b = b + (signed long int)return_value_vsnprintf_1;
     s = (unsigned long int)(b - buf);
     /* assertion s < sizeof(buf) */
     assert(s < sizeof(char [256l]) /*256ul*/ );
@@ -6420,18 +6420,18 @@ static void * watchdogThread(void *ignored)
     {
       errormsg("watchdog timeout: input stalled; sending SIGINT\n");
       WatchdogRaised = 1;
-      signed int return_value_getpid$1;
-      return_value_getpid$1=getpid();
-      kill(return_value_getpid$1, 2);
+      signed int return_value_getpid_1;
+      return_value_getpid_1=getpid();
+      kill(return_value_getpid_1, 2);
     }
 
     if(no == Numout)
     {
       errormsg("watchdog timeout: output stalled; sending SIGINT\n");
       WatchdogRaised = 1;
-      signed int return_value_getpid$2;
-      return_value_getpid$2=getpid();
-      kill(return_value_getpid$2, 2);
+      signed int return_value_getpid_2;
+      return_value_getpid_2=getpid();
+      kill(return_value_getpid_2, 2);
     }
 
     ni = Numin;

@@ -1,62 +1,62 @@
-// #anon_enum$lm1=0$lm2=1$nt=2
+// #anon_enum_lm1=0_lm2=1_nt=2
 // file hash.h line 52
-enum anonymous$0 { lm1=0, lm2=1, nt=2 };
+enum anonymous_0 { lm1=0, lm2=1, nt=2 };
 
-// #anon_enum$low=0$disk=1$high=2
+// #anon_enum_low=0_disk=1_high=2
 // file scheduler.h line 47
-enum anonymous$8 { low=0, disk=1, high=2 };
+enum anonymous_8 { low=0, disk=1, high=2 };
 
-// #anon_enum$msg_done=0$msg_preload=1$msg_unload=2$msg_work=3$msg_found=4$msg_bforce=5$msg_pause=6
+// #anon_enum_msg_done=0_msg_preload=1_msg_unload=2_msg_work=3_msg_found=4_msg_bforce=5_msg_pause=6
 // file message.h line 48
-enum anonymous$3 { msg_done=0, msg_preload=1, msg_unload=2, msg_work=3, msg_found=4, msg_bforce=5, msg_pause=6 };
+enum anonymous_3 { msg_done=0, msg_preload=1, msg_unload=2, msg_work=3, msg_found=4, msg_bforce=5, msg_pause=6 };
 
-// #anon_enum$preload_all=1$preload_one=2$unload=4$find=8$lookup_idx=16$lookup_end=32$lookup_srt=64$check=128$bforce_all=256$bforce_nt=512$bforce_lm=1024$resolve_nt=2048$all=4095
+// #anon_enum_preload_all=1_preload_one=2_unload=4_find=8_lookup_idx=16_lookup_end=32_lookup_srt=64_check=128_bforce_all=256_bforce_nt=512_bforce_lm=1024_resolve_nt=2048_all=4095
 // file ophtask.h line 46
-enum anonymous$12 { preload_all=1, preload_one=2, unload=4, find=8, lookup_idx=16, lookup_end=32, lookup_srt=64, check=128, bforce_all=256, bforce_nt=512, bforce_lm=1024, resolve_nt=2048, all=4095 };
+enum anonymous_12 { preload_all=1, preload_one=2, unload=4, find=8, lookup_idx=16, lookup_end=32, lookup_srt=64, check=128, bforce_all=256, bforce_nt=512, bforce_lm=1024, resolve_nt=2048, all=4095 };
 
-// #anon_enum$preload_none=0$preload_init=1$preload_idx=2$preload_end=4$preload_srt=8$preload_full=15
+// #anon_enum_preload_none=0_preload_init=1_preload_idx=2_preload_end=4_preload_srt=8_preload_full=15
 // file table.h line 74
-enum anonymous$10 { preload_none=0, preload_init=1, preload_idx=2, preload_end=4, preload_srt=8, preload_full=15 };
+enum anonymous_10 { preload_none=0, preload_init=1, preload_idx=2, preload_end=4, preload_srt=8, preload_full=15 };
 
-// #anon_enum$st_wait=1$st_pause1=2$st_pause2=4$st_start=8$st_preload=16$st_work1=32$st_work2=64
+// #anon_enum_st_wait=1_st_pause1=2_st_pause2=4_st_start=8_st_preload=16_st_work1=32_st_work2=64
 // file fsm.h line 45
-enum anonymous$1 { st_wait=1, st_pause1=2, st_pause2=4, st_start=8, st_preload=16, st_work1=32, st_work2=64 };
+enum anonymous_1 { st_wait=1, st_pause1=2, st_pause2=4, st_start=8, st_preload=16, st_work1=32, st_work2=64 };
 
-// #anon_enum$unknown=0$lmalphanum10k=1$lmalphanum5k=2$lmextended=3$ntextended=4$lmgermanv1=5$lmgermanv2=6$ntdict=7$ntnine=8$nteight=9$ntnum=10$ntseven=11$lmflash=12$nteightxl=13$ntspecialxl=14$ntprobafree=15$ntproba10g=16$ntproba60g=17
+// #anon_enum_unknown=0_lmalphanum10k=1_lmalphanum5k=2_lmextended=3_ntextended=4_lmgermanv1=5_lmgermanv2=6_ntdict=7_ntnine=8_nteight=9_ntnum=10_ntseven=11_lmflash=12_nteightxl=13_ntspecialxl=14_ntprobafree=15_ntproba10g=16_ntproba60g=17
 // file table.h line 53
-enum anonymous$2 { unknown=0, lmalphanum10k=1, lmalphanum5k=2, lmextended=3, ntextended=4, lmgermanv1=5, lmgermanv2=6, ntdict=7, ntnine=8, nteight=9, ntnum=10, ntseven=11, lmflash=12, nteightxl=13, ntspecialxl=14, ntprobafree=15, ntproba10g=16, ntproba60g=17 };
+enum anonymous_2 { unknown=0, lmalphanum10k=1, lmalphanum5k=2, lmextended=3, ntextended=4, lmgermanv1=5, lmgermanv2=6, ntdict=7, ntnine=8, nteight=9, ntnum=10, ntseven=11, lmflash=12, nteightxl=13, ntspecialxl=14, ntprobafree=15, ntproba10g=16, ntproba60g=17 };
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'refcount'||U32'$pad0'||*{SYM#tag-proba_info_#}$SYM#tag-proba_info_#$'proba'|]
+// tag-#anon#ST[S32'refcount'||U32'_pad0'||*{SYM#tag-proba_info_#}_SYM#tag-proba_info_#_'proba'|]
 // file ntproba.c line 46
 struct anonymous;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR8{U8}$U8$'cblock'||ARR2{U32}$U32$'deslong'|]
+// tag-#anon#UN[ARR8{U8}_U8_'cblock'||ARR2{U32}_U32_'deslong'|]
 // file /usr/include/openssl/des.h line 86
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$7;
+union anonymous_7;
 
 // tag-AmarkovDynProg
 // file ./ntproba/markov.h line 90
@@ -390,30 +390,30 @@ extern char * __strdup(const char *);
 // __strsep_1c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
 static inline char * __strsep_1c(char **__s, char __reject);
-// __strsep_1c$link1
+// __strsep_1c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link1(char **__s$link1, char __reject$link1);
-// __strsep_1c$link2
+static inline char * __strsep_1c_link1(char **__s_link1, char __reject_link1);
+// __strsep_1c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link2(char **__s$link2, char __reject$link2);
+static inline char * __strsep_1c_link2(char **__s_link2, char __reject_link2);
 // __strsep_2c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2);
-// __strsep_2c$link1
+// __strsep_2c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1);
-// __strsep_2c$link2
+static inline char * __strsep_2c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1);
+// __strsep_2c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2);
+static inline char * __strsep_2c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2);
 // __strsep_3c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3);
-// __strsep_3c$link1
+// __strsep_3c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1, char __reject3$link1);
-// __strsep_3c$link2
+static inline char * __strsep_3c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1, char __reject3_link1);
+// __strsep_3c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2, char __reject3$link2);
+static inline char * __strsep_3c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2, char __reject3_link2);
 // __strsep_g
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1179
 extern char * __strsep_g(char **, const char *);
@@ -435,18 +435,18 @@ signed int arg_read_conf(struct arg_t_ *arg);
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
-// atoi$link2
+static inline signed int atoi_link1(const char *__nptr_link1);
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2);
-// atoi$link3
+static inline signed int atoi_link2(const char *__nptr_link2);
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3);
-// atoi$link4
+static inline signed int atoi_link3(const char *__nptr_link3);
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4);
+static inline signed int atoi_link4(const char *__nptr_link4);
 // bkhive
 // file ./samdump2/samdump2.h line 31
 signed int bkhive(unsigned char *system, unsigned char *pkey, char *error, signed int debug);
@@ -648,12 +648,12 @@ void fsm_ssave(struct fsm_t_ *fsm);
 // fstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf);
-// fstat$link1
+// fstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
-static inline signed int fstat$link1(signed int __fd$link1, struct stat *__statbuf$link1);
-// fstat$link2
+static inline signed int fstat_link1(signed int __fd_link1, struct stat *__statbuf_link1);
+// fstat_link2
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
-static inline signed int fstat$link2(signed int __fd$link2, struct stat *__statbuf$link2);
+static inline signed int fstat_link2(signed int __fd_link2, struct stat *__statbuf_link2);
 // ftell
 // file /usr/include/stdio.h line 754
 extern signed long int ftell(struct _IO_FILE *);
@@ -749,7 +749,7 @@ unsigned long int hashToIndex(struct patternArray *array, struct markovDynProgWr
 void hash_add_table(struct hash_t_ *hsh, struct table_t_ *tbl);
 // hash_alloc
 // file hash.c line 43
-struct hash_t_ * hash_alloc(enum anonymous$0 kind, signed int hlen, signed int plen, signed int id);
+struct hash_t_ * hash_alloc(enum anonymous_0 kind, signed int hlen, signed int plen, signed int id);
 // hash_dump_sam
 // file hash.c line 467
 signed int hash_dump_sam(struct list_t_ *hashes, signed int id);
@@ -923,13 +923,13 @@ extern void * memset(void *, signed int, unsigned long int);
 void message_add(struct message_t_ *msg);
 // message_alloc
 // file message.c line 70
-struct message_t_ * message_alloc(enum anonymous$3 kind);
+struct message_t_ * message_alloc(enum anonymous_3 kind);
 // message_bforce
 // file message.c line 225
 void message_bforce(signed int done, unsigned long int count);
 // message_done
 // file message.c line 163
-void message_done(enum anonymous$12 kind);
+void message_done(enum anonymous_12 kind);
 // message_found
 // file message.c line 213
 void message_found(struct hash_t_ *hsh, struct table_t_ *tbl, signed int col);
@@ -1340,10 +1340,10 @@ void ophstat_free(struct ophstat_t_ *stat);
 void ophstat_reset(struct ophstat_t_ *stat);
 // ophtask_alloc
 // file ophtask.c line 38
-struct ophtask_t_ * ophtask_alloc(enum anonymous$12 kind);
+struct ophtask_t_ * ophtask_alloc(enum anonymous_12 kind);
 // ophtask_convert
 // file ophtask.c line 179
-void ophtask_convert(struct ophtask_t_ *task, enum anonymous$12 from, enum anonymous$12 to);
+void ophtask_convert(struct ophtask_t_ *task, enum anonymous_12 from, enum anonymous_12 to);
 // ophtask_free
 // file ophtask.c line 105
 void ophtask_free(struct ophtask_t_ *task);
@@ -1373,16 +1373,16 @@ void proba_info_free(struct proba_info_ *proba);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$6 *);
+extern signed int pthread_cond_broadcast(union anonymous_6 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$6 *);
+extern signed int pthread_cond_destroy(union anonymous_6 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$6 *, const union anonymous$9 *);
+extern signed int pthread_cond_init(union anonymous_6 *, const union anonymous_9 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$6 *, union anonymous$7 *);
+extern signed int pthread_cond_wait(union anonymous_6 *, union anonymous_7 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1391,16 +1391,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$7 *);
+extern signed int pthread_mutex_destroy(union anonymous_7 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$7 *, const union anonymous$9 *);
+extern signed int pthread_mutex_init(union anonymous_7 *, const union anonymous_9 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$7 *);
+extern signed int pthread_mutex_lock(union anonymous_7 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$7 *);
+extern signed int pthread_mutex_unlock(union anonymous_7 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -1439,7 +1439,7 @@ struct _vk_hdr * read_vk(struct _vk_hdr *vk, struct hive *h, signed int offset);
 extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$11 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_11 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
@@ -1454,7 +1454,7 @@ extern void rewind(struct _IO_FILE *);
 signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *bootkey, char *error, signed int debug, signed int live, unsigned int size);
 // scheduler_add
 // file scheduler.c line 157
-void scheduler_add(struct scheduler_t_ *sched, void *task, enum anonymous$8 prty);
+void scheduler_add(struct scheduler_t_ *sched, void *task, enum anonymous_8 prty);
 // scheduler_alloc
 // file scheduler.c line 39
 struct scheduler_t_ * scheduler_alloc(signed int nthreads);
@@ -1476,9 +1476,9 @@ void scheduler_pause(struct scheduler_t_ *sched);
 // scheduler_start
 // file scheduler.c line 101
 signed int scheduler_start(struct scheduler_t_ *sched, void * (*fun)(void *), void *arg);
-// scheduler_start::fun$object
+// scheduler_start::fun_object
 //
-void * fun$object(void *);
+void * fun_object(void *);
 // scheduler_stop
 // file scheduler.c line 149
 void scheduler_stop(struct scheduler_t_ *sched);
@@ -1496,19 +1496,19 @@ unsigned int selectCharacterUTFFirstRound(struct markovDynProgWrapper *mdpw, str
 unsigned int selectPatternAlias(struct lookUpTable *lut, unsigned long int biasedCoin, unsigned short int fairDice_);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$4 *);
+extern signed int sem_destroy(union anonymous_4 *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$4 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_4 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$4 *);
+extern signed int sem_post(union anonymous_4 *);
 // sem_trywait
 // file /usr/include/semaphore.h line 66
-extern signed int sem_trywait(union anonymous$4 *);
+extern signed int sem_trywait(union anonymous_4 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$4 *);
+extern signed int sem_wait(union anonymous_4 *);
 // sid_to_key1
 // file samdump2.c line 82
 void sid_to_key1(unsigned long int sid, unsigned char *deskey);
@@ -1571,25 +1571,25 @@ struct table_t_ * table_alloc(unsigned int code, char *path, signed int idx);
 void table_free(struct table_t_ *tbl);
 // table_kind
 // file table.c line 460
-enum anonymous$2 table_kind(unsigned int code);
+enum anonymous_2 table_kind(unsigned int code);
 // table_load
 // file table.c line 116
 signed int table_load(struct table_t_ *tbl);
 // table_mmap
 // file table.c line 171
-char * table_mmap(struct table_t_ *tbl, enum anonymous$10 preload);
+char * table_mmap(struct table_t_ *tbl, enum anonymous_10 preload);
 // table_open
 // file table.h line 140
 signed int table_open(struct list_t_ *tables, const char *dir, const char *tblstr);
 // table_preload
 // file table.c line 243
-unsigned long int table_preload(struct table_t_ *tbl, enum anonymous$10 preload);
+unsigned long int table_preload(struct table_t_ *tbl, enum anonymous_10 preload);
 // table_preload_size
 // file table.c line 334
-unsigned long int table_preload_size(struct table_t_ *tbl, enum anonymous$10 preload);
+unsigned long int table_preload_size(struct table_t_ *tbl, enum anonymous_10 preload);
 // table_preload_state
 // file table.c line 449
-enum anonymous$10 table_preload_state(struct table_t_ *tbl);
+enum anonymous_10 table_preload_state(struct table_t_ *tbl);
 // table_set_size
 // file table.c line 139
 void table_set_size(struct table_t_ *tbl);
@@ -1598,13 +1598,13 @@ void table_set_size(struct table_t_ *tbl);
 unsigned long int table_size(struct table_t_ *tbl);
 // table_string
 // file table.c line 483
-const char * table_string(enum anonymous$2 kind);
+const char * table_string(enum anonymous_2 kind);
 // table_unload
 // file table.c line 307
-unsigned long int table_unload(struct table_t_ *tbl, enum anonymous$10 preload);
+unsigned long int table_unload(struct table_t_ *tbl, enum anonymous_10 preload);
 // table_unmap
 // file table.c line 274
-char * table_unmap(struct table_t_ *tbl, enum anonymous$10 preload);
+char * table_unmap(struct table_t_ *tbl, enum anonymous_10 preload);
 // table_verify
 // file table.h line 134
 signed int table_verify(struct table_t_ *tbl);
@@ -1624,7 +1624,7 @@ unsigned char * utf16_to_utf8(unsigned char *dest, unsigned short int *src, unsi
 // file misc.c line 221
 void wincp1252_to_ascii(unsigned char *str);
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -1652,7 +1652,7 @@ struct anonymous
   struct proba_info_ *proba;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // rm_so
   signed int rm_so;
@@ -1660,7 +1660,7 @@ struct anonymous$11
   signed int rm_eo;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[32l];
@@ -1668,7 +1668,7 @@ union anonymous$4
   signed long int __align;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __size
   char __size[4l];
@@ -1676,7 +1676,7 @@ union anonymous$9
   signed int __align;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // cblock
   unsigned char cblock[8l];
@@ -1684,10 +1684,10 @@ union anonymous$13
   unsigned int deslong[2l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
@@ -1722,7 +1722,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1753,7 +1753,7 @@ struct AmarkovDynProg
 struct DES_ks
 {
   // ks
-  union anonymous$13 ks[16l];
+  union anonymous_13 ks[16l];
 };
 
 struct MD4state_st
@@ -2053,9 +2053,9 @@ struct arg_t_
 struct fsm_t_
 {
   // oldstate
-  enum anonymous$1 oldstate;
+  enum anonymous_1 oldstate;
   // state
-  enum anonymous$1 state;
+  enum anonymous_1 state;
   // crack
   struct ophcrack_t_ *crack;
   // arg
@@ -2085,7 +2085,7 @@ struct fsm_t_
 struct hash_t_
 {
   // kind
-  enum anonymous$0 kind;
+  enum anonymous_0 kind;
   // id
   signed int id;
   // uid
@@ -2263,7 +2263,7 @@ struct timeval
 struct message_t_
 {
   // kind
-  enum anonymous$3 kind;
+  enum anonymous_3 kind;
   // id
   unsigned int id;
   // data
@@ -2283,7 +2283,7 @@ struct msg_bforce_t_
 struct msg_done_t_
 {
   // kind
-  enum anonymous$12 kind;
+  enum anonymous_12 kind;
 };
 
 struct msg_found_t_
@@ -2365,7 +2365,7 @@ struct ophcrack_t_
   // maxhid
   signed int maxhid;
   // maxtkind
-  enum anonymous$2 maxtkind;
+  enum anonymous_2 maxtkind;
   // npwds_total
   signed int npwds_total;
   // npwds_found
@@ -2407,7 +2407,7 @@ struct ophload_t_
   // tbl
   struct table_t_ *tbl;
   // preload
-  enum anonymous$10 preload;
+  enum anonymous_10 preload;
 };
 
 struct ophstat_t_
@@ -2445,7 +2445,7 @@ struct ophstat_t_
 struct ophtask_t_
 {
   // kind
-  enum anonymous$12 kind;
+  enum anonymous_12 kind;
   // data
   void *data;
   // stat
@@ -2565,11 +2565,11 @@ struct scheduler_t_
   // queue
   struct list_t_ *queue[3l];
   // sem
-  union anonymous$4 *sem;
+  union anonymous_4 *sem;
   // cond
-  union anonymous$6 *cond;
+  union anonymous_6 *cond;
   // mutex
-  union anonymous$7 *mutex;
+  union anonymous_7 *mutex;
   // thread
   unsigned long int *thread;
 };
@@ -2651,7 +2651,7 @@ struct sysinfo
 struct table_t_
 {
   // kind
-  enum anonymous$2 kind;
+  enum anonymous_2 kind;
   // code
   unsigned int code;
   // path
@@ -2754,16 +2754,16 @@ static const unsigned char empty_lmhash[8l] = { (const unsigned char)0xaa, (cons
 static const unsigned char empty_nthash[16l] = { (const unsigned char)0x31, (const unsigned char)0xd6, (const unsigned char)0xcf, (const unsigned char)0xe0, (const unsigned char)0xd1, (const unsigned char)0x6a, (const unsigned char)0xe9, (const unsigned char)0x31, (const unsigned char)0xb7, (const unsigned char)0x3c, (const unsigned char)0x59, (const unsigned char)0xd7, (const unsigned char)0xe0, (const unsigned char)0xc0, (const unsigned char)0x89, (const unsigned char)0xc0 };
 // extended_chars
 // file lmtable.h line 43
-static const unsigned char extended_chars[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
-// extended_chars$link1
+static const unsigned char extended_chars[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+// extended_chars_link1
 // file lmtable.h line 43
-static const unsigned char extended_chars$link1[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
-// extended_chars$link2
+static const unsigned char extended_chars_link1[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+// extended_chars_link2
 // file lmtable.h line 43
-static const unsigned char extended_chars$link2[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
-// extended_chars$link3
+static const unsigned char extended_chars_link2[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+// extended_chars_link3
 // file lmtable.h line 43
-static const unsigned char extended_chars$link3[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+static const unsigned char extended_chars_link3[69l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
 // extended_max
 // file lmtable.h line 45
 static const unsigned int extended_max[8l] = { (const unsigned int)0, (const unsigned int)0, (const unsigned int)1, (const unsigned int)3, (const unsigned int)190, (const unsigned int)13076, (const unsigned int)902235, (const unsigned int)62254232 };
@@ -2878,22 +2878,22 @@ static const unsigned char lmmagic[8l] = { (const unsigned char)0x4B, (const uns
 static const unsigned int max8 = (const unsigned int)116080197;
 // msg_mutex
 // file message.c line 39
-union anonymous$7 *msg_mutex = ((union anonymous$7 *)NULL);
+union anonymous_7 *msg_mutex = ((union anonymous_7 *)NULL);
 // msg_queue
 // file message.c line 42
 struct list_t_ *msg_queue;
 // msg_sem
 // file message.c line 40
-union anonymous$4 *msg_sem = ((union anonymous$4 *)NULL);
+union anonymous_4 *msg_sem = ((union anonymous_4 *)NULL);
 // msg_time
 // file message.c line 43
 struct timeval msg_time;
 // ntdict63
 // file ntdict.h line 52
-static const unsigned char ntdict63[64l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '_', '|', 0 };
+static const unsigned char ntdict63[64l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '_', '|', 0 };
 // ntdict64
 // file ntdict.h line 53
-static const unsigned char ntdict64[64l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '_', '|' };
+static const unsigned char ntdict64[64l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '_', '|' };
 // ntdict_sizes
 // file ntdict.c line 48
 static unsigned long int ntdict_sizes[10l] = { (unsigned long int)4, (unsigned long int)16777216, (unsigned long int)34481438, (unsigned long int)68962876, (unsigned long int)34473102, (unsigned long int)68946204, (unsigned long int)34475286, (unsigned long int)68950572, (unsigned long int)34479228, (unsigned long int)68958456 };
@@ -2905,7 +2905,7 @@ static const unsigned char nteight_alphanum64[64l] = { '0', '1', '2', '3', '4', 
 static unsigned long int nteight_sizes[18l] = { (unsigned long int)8, (unsigned long int)67108864, 6000043318LLU, 12000086636LLU, 6000073034LLU, 12000146068LLU, 6000106106LLU, 12000212212LLU, 6000192456LLU, 12000384912LLU, 6000173996LLU, 12000347992LLU, 6000174818LLU, 12000349636LLU, 6000123556LLU, 12000247112LLU, 6000124550LLU, 12000249100LLU };
 // nteightxl_ext95
 // file nteightxl.h line 44
-static const unsigned char nteightxl_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+static const unsigned char nteightxl_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
 // nteightxl_sizes
 // file nteightxl.h line 46
 static const unsigned long int nteightxl_sizes[10l] = { (const unsigned long int)4, (const unsigned long int)3954293915, 152934456304LLU, 382336140760LLU, 152934550784LLU, 382336376960LLU, 152934374040LLU, 382335935100LLU, 152933057672LLU, 382332644180LLU };
@@ -2914,10 +2914,10 @@ static const unsigned long int nteightxl_sizes[10l] = { (const unsigned long int
 static const unsigned char ntextended_alphanum62[62l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
 // ntextended_ext95
 // file ntextended.h line 47
-static const unsigned char ntextended_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
-// ntextended_ext95$link1
+static const unsigned char ntextended_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+// ntextended_ext95_link1
 // file ntextended.h line 47
-static const unsigned char ntextended_ext95$link1[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+static const unsigned char ntextended_ext95_link1[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
 // ntextended_low36
 // file ntextended.h line 45
 static const unsigned char ntextended_low36[36l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
@@ -2950,13 +2950,13 @@ static const unsigned long int ntproba60g_sizes[10l] = { (const unsigned long in
 static const unsigned long int ntprobafree_sizes[8l] = { (const unsigned long int)3, (const unsigned long int)131076, (const unsigned long int)90178767, (const unsigned long int)120238356, (const unsigned long int)90186573, (const unsigned long int)120248764, (const unsigned long int)90172467, (const unsigned long int)120229956 };
 // ntseven_ext95
 // file ntseven.h line 44
-static const unsigned char ntseven_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+static const unsigned char ntseven_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
 // ntseven_sizes
 // file ntseven.h line 47
 static const unsigned long int ntseven_sizes[10l] = { (const unsigned long int)4, (const unsigned long int)33554432, (const unsigned long int)3238653500, 6477307000LLU, (const unsigned long int)3238706894, 6477413788LLU, (const unsigned long int)3238728908, 6477457816LLU, (const unsigned long int)3238618308, 6477236616LLU };
 // ntspecialxl_ext95
 // file ntspecialxl.h line 44
-static const unsigned char ntspecialxl_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
+static const unsigned char ntspecialxl_ext95[95l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~' };
 // ntspecialxl_max
 // file ntspecialxl.h line 46
 static const unsigned long int ntspecialxl_max[8l] = { 0ULL, 0ULL, 18446744073684721294ULL, 18446744071325840772ULL, 18446743847232191149ULL, 18446722558335476990ULL, 18444700113147631855ULL, 18252567820302344023ULL };
@@ -3029,34 +3029,34 @@ signed int _RegEnumKey(struct hive *h, struct _nk_hdr *nr, signed int index, cha
   struct _lf_hdr *lf;
   struct _nk_hdr *nk;
   struct _hashrecord *hr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _lf_hdr) /*16ul*/ );
-  lf = (struct _lf_hdr *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
-  nk = (struct _nk_hdr *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct _hashrecord) /*8ul*/ );
-  hr = (struct _hashrecord *)return_value_malloc$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _lf_hdr) /*16ul*/ );
+  lf = (struct _lf_hdr *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
+  nk = (struct _nk_hdr *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct _hashrecord) /*8ul*/ );
+  hr = (struct _hashrecord *)return_value_malloc_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
   if(!(index >= nr->subkey_num))
   {
     lf=read_lf(lf, h, nr->lf_off + 0x1000);
     hr=read_hr(hr, lf->hr, index);
     nk=read_nk(nk, h, hr->nk_offset + 0x1000);
     if(!(*namelen >= (signed int)nk->name_len))
-      tmp_if_expr$4 = *namelen;
+      tmp_if_expr_4 = *namelen;
 
     else
-      tmp_if_expr$4 = (signed int)nk->name_len;
-    memcpy((void *)name, (const void *)nk->key_name, (unsigned long int)tmp_if_expr$4);
+      tmp_if_expr_4 = (signed int)nk->name_len;
+    memcpy((void *)name, (const void *)nk->key_name, (unsigned long int)tmp_if_expr_4);
     if(!(*namelen >= (signed int)nk->name_len))
-      tmp_if_expr$5 = *namelen;
+      tmp_if_expr_5 = *namelen;
 
     else
-      tmp_if_expr$5 = (signed int)nk->name_len;
-    name[(signed long int)tmp_if_expr$5] = (char)0;
+      tmp_if_expr_5 = (signed int)nk->name_len;
+    name[(signed long int)tmp_if_expr_5] = (char)0;
     *namelen = (signed int)nk->name_len;
     free((void *)lf);
     return index + 1 < nr->subkey_num ? index + 1 : -1;
@@ -3074,17 +3074,17 @@ signed int _RegEnumKey(struct hive *h, struct _nk_hdr *nr, signed int index, cha
 signed int _RegGetRootKey(struct hive *h, char **root_key)
 {
   struct _nk_hdr *n;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
-  n = (struct _nk_hdr *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
+  n = (struct _nk_hdr *)return_value_malloc_1;
   n=read_nk(n, h, 0x1020);
   if((signed int)n->id == 0x6B6E)
   {
     if((signed int)n->type == 0x2c)
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)((signed int)n->name_len + 1));
-      *root_key = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)((signed int)n->name_len + 1));
+      *root_key = (char *)return_value_malloc_2;
       __builtin_strncpy(*root_key, (char *)n->key_name, (unsigned long int)n->name_len);
       (*root_key)[(signed long int)n->name_len] = (char)0;
       free((void *)n);
@@ -3106,20 +3106,20 @@ signed int _RegOpenHive(unsigned char *filename, struct hive *h)
   hiveh=fopen((char *)filename, "rb");
   if(!(hiveh == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_fseek$4;
-    return_value_fseek$4=fseek(hiveh, (signed long int)0, 2);
-    if(return_value_fseek$4 == 0)
+    signed int return_value_fseek_4;
+    return_value_fseek_4=fseek(hiveh, (signed long int)0, 2);
+    if(return_value_fseek_4 == 0)
     {
-      signed long int return_value_ftell$1;
-      return_value_ftell$1=ftell(hiveh);
-      hsize = (unsigned long int)return_value_ftell$1;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(hsize);
-      h->base = (unsigned char *)return_value_malloc$2;
+      signed long int return_value_ftell_1;
+      return_value_ftell_1=ftell(hiveh);
+      hsize = (unsigned long int)return_value_ftell_1;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(hsize);
+      h->base = (unsigned char *)return_value_malloc_2;
       fseek(hiveh, (signed long int)0, 0);
-      unsigned long int return_value_fread$3;
-      return_value_fread$3=fread((void *)h->base, hsize, (unsigned long int)1, hiveh);
-      if(return_value_fread$3 == 1ul)
+      unsigned long int return_value_fread_3;
+      return_value_fread_3=fread((void *)h->base, hsize, (unsigned long int)1, hiveh);
+      if(return_value_fread_3 == 1ul)
       {
         if(*((signed int *)h->base) == 0x66676572)
         {
@@ -3141,9 +3141,9 @@ signed int _RegOpenHive(unsigned char *filename, struct hive *h)
 // file hive.c line 159
 signed int _RegOpenHiveBuffer(unsigned char *buffer, unsigned long int size, struct hive *h)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  h->base = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  h->base = (unsigned char *)return_value_malloc_1;
   memcpy((void *)h->base, (const void *)buffer, size);
   if(*((signed int *)h->base) == 0x66676572)
     return 0;
@@ -3160,28 +3160,28 @@ signed int _RegOpenKey(struct hive *h, char *path, struct _nk_hdr **nr)
   char *t;
   char *tpath;
   unsigned long int noff;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
-  n = (struct _nk_hdr *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
+  n = (struct _nk_hdr *)return_value_malloc_1;
   n=read_nk(n, h, 0x1020);
   if((signed int)n->id == 0x6B6E)
   {
     if((signed int)n->type == 0x2c)
     {
-      char *return_value___strdup$2;
-      return_value___strdup$2=__strdup(path);
-      tpath = return_value___strdup$2;
+      char *return_value___strdup_2;
+      return_value___strdup_2=__strdup(path);
+      tpath = return_value___strdup_2;
       t=strtok(tpath, "\\");
-      signed int return_value_memcmp$4;
-      return_value_memcmp$4=memcmp((const void *)t, (const void *)n->key_name, (unsigned long int)n->name_len);
-      if(return_value_memcmp$4 == 0)
+      signed int return_value_memcmp_4;
+      return_value_memcmp_4=memcmp((const void *)t, (const void *)n->key_name, (unsigned long int)n->name_len);
+      if(return_value_memcmp_4 == 0)
       {
         t=strtok((char *)(void *)0, "\\");
         while(!(t == ((char *)NULL)))
         {
-          signed long int return_value_parself$3;
-          return_value_parself$3=parself(h, t, (unsigned long int)(n->lf_off + 0x1000));
-          noff = (unsigned long int)return_value_parself$3;
+          signed long int return_value_parself_3;
+          return_value_parself_3=parself(h, t, (unsigned long int)(n->lf_off + 0x1000));
+          noff = (unsigned long int)return_value_parself_3;
           if(noff == 18446744073709551615ul)
           {
             free((void *)n);
@@ -3212,53 +3212,53 @@ signed int _RegQueryValue(struct hive *h, char *name, struct _nk_hdr *nr, unsign
   struct _vk_hdr *v;
   unsigned int i;
   signed int *l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _vk_hdr) /*32ul*/ );
-  v = (struct _vk_hdr *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)nr->value_cnt);
-  l = (signed int *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _vk_hdr) /*32ul*/ );
+  v = (struct _vk_hdr *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)nr->value_cnt);
+  l = (signed int *)return_value_malloc_2;
   l=read_valuelist(l, h, nr->value_off + 0x1000, nr->value_cnt);
   *len = 0;
   i = (unsigned int)0;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  unsigned char *return_value_read_data$4;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  unsigned char *return_value_read_data_4;
   for( ; !(i >= (unsigned int)nr->value_cnt); i = i + 1u)
   {
     v=read_vk(v, h, l[(signed long int)i] + 0x1000);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(name);
-    signed int return_value_memcmp$6;
-    return_value_memcmp$6=memcmp((const void *)name, (const void *)v->value_name, return_value_strlen$5);
-    if(return_value_memcmp$6 == 0)
-      tmp_if_expr$8 = (_Bool)1;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(name);
+    signed int return_value_memcmp_6;
+    return_value_memcmp_6=memcmp((const void *)name, (const void *)v->value_name, return_value_strlen_5);
+    if(return_value_memcmp_6 == 0)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
       if(name == ((char *)NULL))
-        tmp_if_expr$7 = ((signed int)v->flag & 1) == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = ((signed int)v->flag & 1) == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
       *len = v->data_len & 0x0000FFFF;
       if(!(*buff == ((unsigned char *)NULL)))
         free((void *)*buff);
 
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)*len);
-      *buff = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)*len);
+      *buff = (unsigned char *)return_value_malloc_3;
       if(!(*len >= 5))
         memcpy((void *)*buff, (const void *)&v->data_off, (unsigned long int)*len);
 
       else
       {
-        return_value_read_data$4=read_data(h, v->data_off + 0x1000);
-        memcpy((void *)*buff, (const void *)return_value_read_data$4, (unsigned long int)*len);
+        return_value_read_data_4=read_data(h, v->data_off + 0x1000);
+        memcpy((void *)*buff, (const void *)return_value_read_data_4, (unsigned long int)*len);
       }
       free((void *)v);
       return 0;
@@ -3274,17 +3274,17 @@ signed int _RegQueryValue(struct hive *h, char *name, struct _nk_hdr *nr, unsign
 static inline char * __strsep_1c(char **__s, char __reject)
 {
   char *__retval = *__s;
-  char *return_value___builtin_strchr$2;
-  char *tmp_post$1;
+  char *return_value___builtin_strchr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2=__builtin_strchr(__retval, (signed int)__reject);
-    *__s = return_value___builtin_strchr$2;
+    return_value___builtin_strchr_2=__builtin_strchr(__retval, (signed int)__reject);
+    *__s = return_value___builtin_strchr_2;
     if(!(*__s == ((char *)NULL)))
     {
-      tmp_post$1 = *__s;
+      tmp_post_1 = *__s;
       *__s = *__s + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
     }
 
   }
@@ -3292,50 +3292,50 @@ static inline char * __strsep_1c(char **__s, char __reject)
   return __retval;
 }
 
-// __strsep_1c$link1
+// __strsep_1c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link1(char **__s$link1, char __reject$link1)
+static inline char * __strsep_1c_link1(char **__s_link1, char __reject_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  char *return_value___builtin_strchr$2$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  char *return_value___builtin_strchr_2_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link1=__builtin_strchr(__retval$link1, (signed int)__reject$link1);
-    *__s$link1 = return_value___builtin_strchr$2$link1;
-    if(!(*__s$link1 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link1=__builtin_strchr(__retval_link1, (signed int)__reject_link1);
+    *__s_link1 = return_value___builtin_strchr_2_link1;
+    if(!(*__s_link1 == ((char *)NULL)))
     {
-      tmp_post$1$link1 = *__s$link1;
-      *__s$link1 = *__s$link1 + 1l;
-      *tmp_post$1$link1 = (char)0;
+      tmp_post_1_link1 = *__s_link1;
+      *__s_link1 = *__s_link1 + 1l;
+      *tmp_post_1_link1 = (char)0;
     }
 
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_1c$link2
+// __strsep_1c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link2(char **__s$link2, char __reject$link2)
+static inline char * __strsep_1c_link2(char **__s_link2, char __reject_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  char *return_value___builtin_strchr$2$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  char *return_value___builtin_strchr_2_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link2=__builtin_strchr(__retval$link2, (signed int)__reject$link2);
-    *__s$link2 = return_value___builtin_strchr$2$link2;
-    if(!(*__s$link2 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link2=__builtin_strchr(__retval_link2, (signed int)__reject_link2);
+    *__s_link2 = return_value___builtin_strchr_2_link2;
+    if(!(*__s_link2 == ((char *)NULL)))
     {
-      tmp_post$1$link2 = *__s$link2;
-      *__s$link2 = *__s$link2 + 1l;
-      *tmp_post$1$link2 = (char)0;
+      tmp_post_1_link2 = *__s_link2;
+      *__s_link2 = *__s_link2 + 1l;
+      *tmp_post_1_link2 = (char)0;
     }
 
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
 // __strsep_2c
@@ -3343,8 +3343,8 @@ static inline char * __strsep_1c$link2(char **__s$link2, char __reject$link2)
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -3357,15 +3357,15 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -3376,80 +3376,80 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
   return __retval;
 }
 
-// __strsep_2c$link1
+// __strsep_2c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1)
+static inline char * __strsep_2c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  _Bool tmp_if_expr$2$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  _Bool tmp_if_expr_2_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    char *__cp$link1 = __retval$link1;
-    for( ; (_Bool)1; __cp$link1 = __cp$link1 + 1l)
+    char *__cp_link1 = __retval_link1;
+    for( ; (_Bool)1; __cp_link1 = __cp_link1 + 1l)
     {
-      if((signed int)*__cp$link1 == 0)
+      if((signed int)*__cp_link1 == 0)
       {
-        __cp$link1 = (char *)(void *)0;
+        __cp_link1 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link1 == __reject1$link1)
-        tmp_if_expr$2$link1 = (_Bool)1;
+      if(*__cp_link1 == __reject1_link1)
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link1 = *__cp$link1 == __reject2$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link1)
+        tmp_if_expr_2_link1 = *__cp_link1 == __reject2_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link1)
       {
-        tmp_post$1$link1 = __cp$link1;
-        __cp$link1 = __cp$link1 + 1l;
-        *tmp_post$1$link1 = (char)0;
+        tmp_post_1_link1 = __cp_link1;
+        __cp_link1 = __cp_link1 + 1l;
+        *tmp_post_1_link1 = (char)0;
         break;
       }
 
     }
-    *__s$link1 = __cp$link1;
+    *__s_link1 = __cp_link1;
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_2c$link2
+// __strsep_2c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2)
+static inline char * __strsep_2c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  _Bool tmp_if_expr$2$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  _Bool tmp_if_expr_2_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    char *__cp$link2 = __retval$link2;
-    for( ; (_Bool)1; __cp$link2 = __cp$link2 + 1l)
+    char *__cp_link2 = __retval_link2;
+    for( ; (_Bool)1; __cp_link2 = __cp_link2 + 1l)
     {
-      if((signed int)*__cp$link2 == 0)
+      if((signed int)*__cp_link2 == 0)
       {
-        __cp$link2 = (char *)(void *)0;
+        __cp_link2 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link2 == __reject1$link2)
-        tmp_if_expr$2$link2 = (_Bool)1;
+      if(*__cp_link2 == __reject1_link2)
+        tmp_if_expr_2_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link2 = *__cp$link2 == __reject2$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link2)
+        tmp_if_expr_2_link2 = *__cp_link2 == __reject2_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link2)
       {
-        tmp_post$1$link2 = __cp$link2;
-        __cp$link2 = __cp$link2 + 1l;
-        *tmp_post$1$link2 = (char)0;
+        tmp_post_1_link2 = __cp_link2;
+        __cp_link2 = __cp_link2 + 1l;
+        *tmp_post_1_link2 = (char)0;
         break;
       }
 
     }
-    *__s$link2 = __cp$link2;
+    *__s_link2 = __cp_link2;
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
 // __strsep_3c
@@ -3457,9 +3457,9 @@ static inline char * __strsep_2c$link2(char **__s$link2, char __reject1$link2, c
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -3472,20 +3472,20 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -3496,92 +3496,92 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
   return __retval;
 }
 
-// __strsep_3c$link1
+// __strsep_3c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1, char __reject3$link1)
+static inline char * __strsep_3c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1, char __reject3_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$3$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_3_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    char *__cp$link1 = __retval$link1;
-    for( ; (_Bool)1; __cp$link1 = __cp$link1 + 1l)
+    char *__cp_link1 = __retval_link1;
+    for( ; (_Bool)1; __cp_link1 = __cp_link1 + 1l)
     {
-      if((signed int)*__cp$link1 == 0)
+      if((signed int)*__cp_link1 == 0)
       {
-        __cp$link1 = (char *)(void *)0;
+        __cp_link1 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link1 == __reject1$link1)
-        tmp_if_expr$2$link1 = (_Bool)1;
+      if(*__cp_link1 == __reject1_link1)
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link1 = *__cp$link1 == __reject2$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link1)
-        tmp_if_expr$3$link1 = (_Bool)1;
+        tmp_if_expr_2_link1 = *__cp_link1 == __reject2_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link1)
+        tmp_if_expr_3_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link1 = *__cp$link1 == __reject3$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link1)
+        tmp_if_expr_3_link1 = *__cp_link1 == __reject3_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link1)
       {
-        tmp_post$1$link1 = __cp$link1;
-        __cp$link1 = __cp$link1 + 1l;
-        *tmp_post$1$link1 = (char)0;
+        tmp_post_1_link1 = __cp_link1;
+        __cp_link1 = __cp_link1 + 1l;
+        *tmp_post_1_link1 = (char)0;
         break;
       }
 
     }
-    *__s$link1 = __cp$link1;
+    *__s_link1 = __cp_link1;
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_3c$link2
+// __strsep_3c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2, char __reject3$link2)
+static inline char * __strsep_3c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2, char __reject3_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  _Bool tmp_if_expr$2$link2;
-  _Bool tmp_if_expr$3$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  _Bool tmp_if_expr_2_link2;
+  _Bool tmp_if_expr_3_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    char *__cp$link2 = __retval$link2;
-    for( ; (_Bool)1; __cp$link2 = __cp$link2 + 1l)
+    char *__cp_link2 = __retval_link2;
+    for( ; (_Bool)1; __cp_link2 = __cp_link2 + 1l)
     {
-      if((signed int)*__cp$link2 == 0)
+      if((signed int)*__cp_link2 == 0)
       {
-        __cp$link2 = (char *)(void *)0;
+        __cp_link2 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link2 == __reject1$link2)
-        tmp_if_expr$2$link2 = (_Bool)1;
+      if(*__cp_link2 == __reject1_link2)
+        tmp_if_expr_2_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link2 = *__cp$link2 == __reject2$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link2)
-        tmp_if_expr$3$link2 = (_Bool)1;
+        tmp_if_expr_2_link2 = *__cp_link2 == __reject2_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link2)
+        tmp_if_expr_3_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link2 = *__cp$link2 == __reject3$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link2)
+        tmp_if_expr_3_link2 = *__cp_link2 == __reject3_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link2)
       {
-        tmp_post$1$link2 = __cp$link2;
-        __cp$link2 = __cp$link2 + 1l;
-        *tmp_post$1$link2 = (char)0;
+        tmp_post_1_link2 = __cp_link2;
+        __cp_link2 = __cp_link2 + 1l;
+        *tmp_post_1_link2 = (char)0;
         break;
       }
 
     }
-    *__s$link2 = __cp$link2;
+    *__s_link2 = __cp_link2;
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
 // arg_alloc
@@ -3589,9 +3589,9 @@ static inline char * __strsep_3c$link2(char **__s$link2, char __reject1$link2, c
 struct arg_t_ * arg_alloc(void)
 {
   struct arg_t_ *arg;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct arg_t_) /*168ul*/ );
-  arg = (struct arg_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct arg_t_) /*168ul*/ );
+  arg = (struct arg_t_ *)return_value_malloc_1;
   arg_default(arg);
   arg->verbose = 0;
   arg->showempty = 1;
@@ -3647,25 +3647,25 @@ signed int arg_read_conf(struct arg_t_ *arg)
 {
   struct _IO_FILE *cfile;
   cfile=fopen(arg->cfname, "r");
-  char *return_value_fgets$1;
-  signed int return_value_regexec$3;
-  char *return_value___strdup$4;
-  char *return_value___strdup$5;
+  char *return_value_fgets_1;
+  signed int return_value_regexec_3;
+  char *return_value___strdup_4;
+  char *return_value___strdup_5;
   if(cfile == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
     struct re_pattern_buffer regex[11l];
-    struct anonymous$11 match[2l];
+    struct anonymous_11 match[2l];
     signed int n = (signed int)(sizeof(struct re_pattern_buffer [11l]) /*704ul*/  / sizeof(struct re_pattern_buffer) /*64ul*/ );
     signed int i = 0;
-    static const char *pattern[11l] = { "^[ \t]*#", "^[ \t]*$", "^[ \t]*table[ \t]+([^\t]+)[ \t]*$", "^[ \t]*nthreads[ \t]+([^ \t]+)[ \t]*$",
-    "^[ \t]*nhredux[ \t]+([^ \t]+)[ \t]*$", "^[ \t]*maxdqueue[ \t]+([^ \t]+)[ \t]*$",
-    "^[ \t]*bforce[ \t]+([^ \t]+)[ \t]*$", "^[ \t]*session_file[ \t]+([^ \t]+)[ \t]*$",
-    "^[ \t]*session_save[ \t]+([^ \t]+)[ \t]*$",
-    "^[ \t]*hideuname[ \t]+([^ \t]+)[ \t]*$",
-    "^[ \t]*auditmode[ \t]+([^ \t]+)[ \t]*$" };
+    static const char *pattern[11l] = { "^[ \t]*#", "^[ \t]*_", "^[ \t]*table[ \t]+([^\t]+)[ \t]*_", "^[ \t]*nthreads[ \t]+([^ \t]+)[ \t]*_",
+    "^[ \t]*nhredux[ \t]+([^ \t]+)[ \t]*_", "^[ \t]*maxdqueue[ \t]+([^ \t]+)[ \t]*_",
+    "^[ \t]*bforce[ \t]+([^ \t]+)[ \t]*_", "^[ \t]*session_file[ \t]+([^ \t]+)[ \t]*_",
+    "^[ \t]*session_save[ \t]+([^ \t]+)[ \t]*_",
+    "^[ \t]*hideuname[ \t]+([^ \t]+)[ \t]*_",
+    "^[ \t]*auditmode[ \t]+([^ \t]+)[ \t]*_" };
     for( ; !(i >= n); i = i + 1)
       regcomp(regex + (signed long int)i, pattern[(signed long int)i], 1);
     char buff[512l];
@@ -3673,8 +3673,8 @@ signed int arg_read_conf(struct arg_t_ *arg)
     signed int count = 0;
     do
     {
-      return_value_fgets$1=fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , cfile);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , cfile);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       count = count + 1;
@@ -3682,17 +3682,17 @@ signed int arg_read_conf(struct arg_t_ *arg)
         break;
 
       signed int len;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(buff);
-      len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(buff);
+      len = (signed int)return_value_strlen_2;
       if((signed int)buff[(signed long int)(len + -1)] == 10)
         buff[(signed long int)(len - 1)] = (char)0;
 
       i = 0;
       for( ; !(i >= n); i = i + 1)
       {
-        return_value_regexec$3=regexec(regex + (signed long int)i, buff, (unsigned long int)2, match, 0);
-        if(return_value_regexec$3 == 0)
+        return_value_regexec_3=regexec(regex + (signed long int)i, buff, (unsigned long int)2, match, 0);
+        if(return_value_regexec_3 == 0)
           break;
 
       }
@@ -3708,44 +3708,44 @@ signed int arg_read_conf(struct arg_t_ *arg)
           snprintf(tmp, (unsigned long int)(len + 1), "%s", buff + (signed long int)so);
           if(i == 2)
           {
-            return_value___strdup$4=__strdup(tmp);
-            list_add_tail(arg->table_str_conf, (void *)return_value___strdup$4);
+            return_value___strdup_4=__strdup(tmp);
+            list_add_tail(arg->table_str_conf, (void *)return_value___strdup_4);
           }
 
           else
             if(i == 3)
-              arg->nthreads=atoi$link3(tmp);
+              arg->nthreads=atoi_link3(tmp);
 
             else
               if(i == 4)
-                arg->nhredux=atoi$link3(tmp);
+                arg->nhredux=atoi_link3(tmp);
 
               else
                 if(i == 5)
-                  arg->mdqueue=atoi$link3(tmp);
+                  arg->mdqueue=atoi_link3(tmp);
 
                 else
                   if(i == 6)
-                    arg->bforce=atoi$link3(tmp);
+                    arg->bforce=atoi_link3(tmp);
 
                   else
                     if(i == 7)
                     {
-                      return_value___strdup$5=__strdup(tmp);
-                      arg->sfname = return_value___strdup$5;
+                      return_value___strdup_5=__strdup(tmp);
+                      arg->sfname = return_value___strdup_5;
                     }
 
                     else
                       if(i == 8)
-                        arg->ssave=atoi$link3(tmp);
+                        arg->ssave=atoi_link3(tmp);
 
                       else
                         if(i == 9)
-                          arg->hideuname=atoi$link3(tmp);
+                          arg->hideuname=atoi_link3(tmp);
 
                         else
                           if(i == 10)
-                            arg->auditmode=atoi$link3(tmp);
+                            arg->auditmode=atoi_link3(tmp);
 
         }
 
@@ -3763,45 +3763,45 @@ signed int arg_read_conf(struct arg_t_ *arg)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
-// atoi$link2
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2)
+static inline signed int atoi_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link2;
 }
 
-// atoi$link3
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3)
+static inline signed int atoi_link3(const char *__nptr_link3)
 {
-  signed long int return_value_strtol$1$link3;
-  return_value_strtol$1$link3=strtol(__nptr$link3, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link3;
+  signed long int return_value_strtol_1_link3;
+  return_value_strtol_1_link3=strtol(__nptr_link3, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link3;
 }
 
-// atoi$link4
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4)
+static inline signed int atoi_link4(const char *__nptr_link4)
 {
-  signed long int return_value_strtol$1$link4;
-  return_value_strtol$1$link4=strtol(__nptr$link4, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link4;
+  signed long int return_value_strtol_1_link4;
+  return_value_strtol_1_link4=strtol(__nptr_link4, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link4;
 }
 
 // bkhive
@@ -3825,10 +3825,10 @@ signed int bkhive(unsigned char *system, unsigned char *pkey, char *error, signe
   unsigned char key[16l];
   signed int p[16l] = { 0xb, 0x6, 0x7, 0x1, 0x8, 0xa, 0xe, 0x0, 0x3, 0x5, 0x2, 0xf, 0xd, 0x9, 0xc, 0x4 };
   _InitHive(&h);
-  signed int return_value__RegOpenHive$1;
-  return_value__RegOpenHive$1=_RegOpenHive(system, &h);
-  signed int return_value__RegQueryValue$8;
-  if(!(return_value__RegOpenHive$1 == 0))
+  signed int return_value__RegOpenHive_1;
+  return_value__RegOpenHive_1=_RegOpenHive(system, &h);
+  signed int return_value__RegQueryValue_8;
+  if(!(return_value__RegOpenHive_1 == 0))
   {
     sprintf(error, "Error opening hive file %s\n", system);
     return -1;
@@ -3836,9 +3836,9 @@ signed int bkhive(unsigned char *system, unsigned char *pkey, char *error, signe
 
   else
   {
-    signed int return_value__RegGetRootKey$2;
-    return_value__RegGetRootKey$2=_RegGetRootKey(&h, &root_key);
-    if(!(return_value__RegGetRootKey$2 == 0))
+    signed int return_value__RegGetRootKey_2;
+    return_value__RegGetRootKey_2=_RegGetRootKey(&h, &root_key);
+    if(!(return_value__RegGetRootKey_2 == 0))
     {
       sprintf(error, "Error reading hive root key\n");
       return -1;
@@ -3849,26 +3849,26 @@ signed int bkhive(unsigned char *system, unsigned char *pkey, char *error, signe
       if(!(debug == 0))
         printf("Root Key : %s\n", root_key);
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(root_key);
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)10);
-      regselect = (char *)return_value_malloc$4;
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(root_key);
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(return_value_strlen$5 + (unsigned long int)33);
-      reglsa = (char *)return_value_malloc$6;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(root_key);
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)10);
+      regselect = (char *)return_value_malloc_4;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(root_key);
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(return_value_strlen_5 + (unsigned long int)33);
+      reglsa = (char *)return_value_malloc_6;
       sprintf(regselect, "%s\\Select", root_key);
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
-      n = (struct _nk_hdr *)return_value_malloc$7;
-      signed int return_value__RegOpenKey$9;
-      return_value__RegOpenKey$9=_RegOpenKey(&h, regselect, &n);
-      if(return_value__RegOpenKey$9 == 0)
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
+      n = (struct _nk_hdr *)return_value_malloc_7;
+      signed int return_value__RegOpenKey_9;
+      return_value__RegOpenKey_9=_RegOpenKey(&h, regselect, &n);
+      if(return_value__RegOpenKey_9 == 0)
       {
-        return_value__RegQueryValue$8=_RegQueryValue(&h, "Default", n, &buf, &buf_len);
-        if(return_value__RegQueryValue$8 == 0)
+        return_value__RegQueryValue_8=_RegQueryValue(&h, "Default", n, &buf, &buf_len);
+        if(return_value__RegQueryValue_8 == 0)
         {
           if(buf_len == 4)
             control = *((signed int *)buf);
@@ -3896,20 +3896,20 @@ signed int bkhive(unsigned char *system, unsigned char *pkey, char *error, signe
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen(reglsa);
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(kn[(signed long int)i]);
-        void *return_value_malloc$12;
-        return_value_malloc$12=malloc(return_value_strlen$10 + return_value_strlen$11 + (unsigned long int)1);
-        keyname = (char *)return_value_malloc$12;
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen(reglsa);
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(kn[(signed long int)i]);
+        void *return_value_malloc_12;
+        return_value_malloc_12=malloc(return_value_strlen_10 + return_value_strlen_11 + (unsigned long int)1);
+        keyname = (char *)return_value_malloc_12;
         sprintf(keyname, "%s%s", reglsa, kn[(signed long int)i]);
         if(!(debug == 0))
           printf("********* %s *********\n", keyname);
 
-        signed int return_value__RegOpenKey$13;
-        return_value__RegOpenKey$13=_RegOpenKey(&h, keyname, &n);
-        if(!(return_value__RegOpenKey$13 == 0))
+        signed int return_value__RegOpenKey_13;
+        return_value__RegOpenKey_13=_RegOpenKey(&h, keyname, &n);
+        if(!(return_value__RegOpenKey_13 == 0))
         {
           _RegCloseHive(&h);
           sprintf(error, "Error accessing key %s\nWrong/corrupted hive??\n", kn[(signed long int)i]);
@@ -3953,42 +3953,42 @@ signed int categorize_password(char *pwd)
   signed int i;
   signed int category = 0;
   i = 0;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   do
   {
-    return_value_strlen$1=strlen(pwd);
-    if((unsigned long int)i >= return_value_strlen$1)
+    return_value_strlen_1=strlen(pwd);
+    if((unsigned long int)i >= return_value_strlen_1)
       break;
 
     if((signed int)pwd[(signed long int)i] >= 97)
-      tmp_if_expr$4 = (signed int)pwd[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)pwd[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       category = category | 1;
 
     else
     {
       if((signed int)pwd[(signed long int)i] >= 65)
-        tmp_if_expr$3 = (signed int)pwd[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)pwd[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
         category = category | 2;
 
       else
       {
         if((signed int)pwd[(signed long int)i] >= 48)
-          tmp_if_expr$2 = (signed int)pwd[(signed long int)i] <= 57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)pwd[(signed long int)i] <= 57 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           category = category | 4;
 
         else
@@ -4077,24 +4077,24 @@ char checkPatternArrayCrackMarkov(struct patternArray *array, struct markovDynPr
   i = (unsigned int)0;
   for( ; !(i >= array->size + 4294967295u); i = i + 1u)
   {
-    unsigned long int return_value_getPatternStructSpace$2;
-    return_value_getPatternStructSpace$2=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)i], array->patternLength[(signed long int)i]);
-    if(!(array->sizeArray[(signed long int)i] == return_value_getPatternStructSpace$2))
+    unsigned long int return_value_getPatternStructSpace_2;
+    return_value_getPatternStructSpace_2=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)i], array->patternLength[(signed long int)i]);
+    if(!(array->sizeArray[(signed long int)i] == return_value_getPatternStructSpace_2))
     {
-      unsigned long int return_value_getPatternStructSpace$1;
-      return_value_getPatternStructSpace$1=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)i], array->patternLength[(signed long int)i]);
-      printf("Pattern %d: size error %llu vs %llu\n", i, (unsigned long long int)array->sizeArray[(signed long int)i], (unsigned long long int)return_value_getPatternStructSpace$1);
+      unsigned long int return_value_getPatternStructSpace_1;
+      return_value_getPatternStructSpace_1=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)i], array->patternLength[(signed long int)i]);
+      printf("Pattern %d: size error %llu vs %llu\n", i, (unsigned long long int)array->sizeArray[(signed long int)i], (unsigned long long int)return_value_getPatternStructSpace_1);
       result = (char)0;
     }
 
   }
-  unsigned long int return_value_getPatternStructSpace$4;
-  return_value_getPatternStructSpace$4=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)(array->size - (unsigned int)1)], array->patternLength[(signed long int)(array->size - (unsigned int)1)]);
-  if(!(return_value_getPatternStructSpace$4 >= array->sizeArray[(signed long int)(array->size + 4294967295u)]))
+  unsigned long int return_value_getPatternStructSpace_4;
+  return_value_getPatternStructSpace_4=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)(array->size - (unsigned int)1)], array->patternLength[(signed long int)(array->size - (unsigned int)1)]);
+  if(!(return_value_getPatternStructSpace_4 >= array->sizeArray[(signed long int)(array->size + 4294967295u)]))
   {
-    unsigned long int return_value_getPatternStructSpace$3;
-    return_value_getPatternStructSpace$3=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)(array->size - (unsigned int)1)], array->patternLength[(signed long int)(array->size - (unsigned int)1)]);
-    printf("Pattern %d: size error %llu vs %llu\n", i, (unsigned long long int)array->sizeArray[(signed long int)(array->size - (unsigned int)1)], (unsigned long long int)return_value_getPatternStructSpace$3);
+    unsigned long int return_value_getPatternStructSpace_3;
+    return_value_getPatternStructSpace_3=getPatternStructSpace(mdpw, mis, array->patternDescriptor[(signed long int)(array->size - (unsigned int)1)], array->patternLength[(signed long int)(array->size - (unsigned int)1)]);
+    printf("Pattern %d: size error %llu vs %llu\n", i, (unsigned long long int)array->sizeArray[(signed long int)(array->size - (unsigned int)1)], (unsigned long long int)return_value_getPatternStructSpace_3);
     result = (char)0;
   }
 
@@ -4106,15 +4106,15 @@ char checkPatternArrayCrackMarkov(struct patternArray *array, struct markovDynPr
 void convert_from_colon(unsigned char *input)
 {
   unsigned char *tmp = input;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   do
   {
     if((signed int)*tmp == 58)
-      tmp_if_expr$1 = 193U;
+      tmp_if_expr_1 = 193U;
 
     else
-      tmp_if_expr$1 = (unsigned int)*tmp;
-    *tmp = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = (unsigned int)*tmp;
+    *tmp = (unsigned char)tmp_if_expr_1;
     if(*tmp == 0)
       break;
 
@@ -4128,15 +4128,15 @@ void convert_from_colon(unsigned char *input)
 void convert_to_colon(unsigned char *input)
 {
   unsigned char *tmp = input;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   do
   {
     if((unsigned int)*tmp == 193U)
-      tmp_if_expr$1 = 58;
+      tmp_if_expr_1 = 58;
 
     else
-      tmp_if_expr$1 = (signed int)*tmp;
-    *tmp = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = (signed int)*tmp;
+    *tmp = (unsigned char)tmp_if_expr_1;
     if(*tmp == 0)
       break;
 
@@ -4325,9 +4325,9 @@ void deletePatternArray(struct patternArray *array)
 void display_found(struct ophcrack_t_ *crack, struct msg_found_t_ *found, char *info)
 {
   struct arg_t_ *arg = crack->arg;
-  signed int tmp_statement_expression$1;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$5;
+  signed int tmp_statement_expression_1;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_5;
   if(!(arg->quiet == 0))
   {
     if(!(arg->lfile == stdout))
@@ -4352,10 +4352,10 @@ void display_found(struct ophcrack_t_ *crack, struct msg_found_t_ *found, char *
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(pwd, "");
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0 && !(showempty == 0))
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(pwd, "");
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0 && !(showempty == 0))
         fprintf(arg->lfile, "Found empty password for ");
 
       else
@@ -4374,12 +4374,12 @@ void display_found(struct ophcrack_t_ *crack, struct msg_found_t_ *found, char *
         }
         case nt:
         {
-          unsigned long int display_found$$1$$1$$2$$1$$__s1_len;
-          unsigned long int display_found$$1$$1$$2$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$4;
-          return_value___builtin_strcmp$4=__builtin_strcmp(hinfo, "");
-          tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-          if(tmp_statement_expression$3 == 0)
+          unsigned long int display_found__1__1__2__1____s1_len;
+          unsigned long int display_found__1__1__2__1____s2_len;
+          signed int return_value___builtin_strcmp_4;
+          return_value___builtin_strcmp_4=__builtin_strcmp(hinfo, "");
+          tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+          if(tmp_statement_expression_3 == 0)
             fprintf(arg->lfile, "NT hash #%d", hid);
 
           else
@@ -4394,12 +4394,12 @@ void display_found(struct ophcrack_t_ *crack, struct msg_found_t_ *found, char *
 
     else
     {
-      unsigned long int display_found$$1$$2$$1$$__s1_len;
-      unsigned long int display_found$$1$$2$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$6;
-      return_value___builtin_strcmp$6=__builtin_strcmp(pwd, "");
-      tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-      if(tmp_statement_expression$5 == 0 && !(showempty == 0))
+      unsigned long int display_found__1__2__1____s1_len;
+      unsigned long int display_found__1__2__1____s2_len;
+      signed int return_value___builtin_strcmp_6;
+      return_value___builtin_strcmp_6=__builtin_strcmp(pwd, "");
+      tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+      if(tmp_statement_expression_5 == 0 && !(showempty == 0))
         fprintf(arg->lfile, "Found empty password for ");
 
       else
@@ -4419,9 +4419,9 @@ void display_found(struct ophcrack_t_ *crack, struct msg_found_t_ *found, char *
         case nt:
           fprintf(arg->lfile, "NT hash #%d", hid);
       }
-      const char *return_value_category_string$7;
-      return_value_category_string$7=category_string(hsh->category);
-      fprintf(arg->lfile, " category: %s ", return_value_category_string$7);
+      const char *return_value_category_string_7;
+      return_value_category_string_7=category_string(hsh->category);
+      fprintf(arg->lfile, " category: %s ", return_value_category_string_7);
     }
     if(!(tbl == ((struct table_t_ *)NULL)))
       fprintf(arg->lfile, "in table %s #%d at column %d.", tbl->name, tbl->idx, col);
@@ -4480,7 +4480,7 @@ void display_stats(struct ophcrack_t_ *crack)
 {
   struct ophstat_t_ *stat = crack->stat;
   struct arg_t_ *arg = crack->arg;
-  unsigned long long int tmp_if_expr$1;
+  unsigned long long int tmp_if_expr_1;
   if(!(arg->quiet == 0))
   {
     if(!(arg->lfile == stdout))
@@ -4498,11 +4498,11 @@ void display_stats(struct ophcrack_t_ *crack)
     fprintf(arg->lfile, "%-32s: %llu\n", (const void *)"# of fseek", (unsigned long long int)stat->fseek_idx + stat->fseek_end + stat->fseek_srt);
     fprintf(arg->lfile, "%-32s: %llu\n", (const void *)"# of false alarms", (unsigned long long int)stat->falarm);
     if(stat->falarm >= 1ul)
-      tmp_if_expr$1 = (unsigned long long int)(stat->falarm_hredux / stat->falarm);
+      tmp_if_expr_1 = (unsigned long long int)(stat->falarm_hredux / stat->falarm);
 
     else
-      tmp_if_expr$1 = (unsigned long long int)0;
-    fprintf(arg->lfile, "%-32s: %llu\n", (const void *)"# of hash/redux per false alarm", tmp_if_expr$1);
+      tmp_if_expr_1 = (unsigned long long int)0;
+    fprintf(arg->lfile, "%-32s: %llu\n", (const void *)"# of hash/redux per false alarm", tmp_if_expr_1);
     fprintf(arg->lfile, "%-32s: %llu\n", (const void *)"# of matches in tables", (unsigned long long int)stat->match_table);
     fprintf(arg->lfile, "%-32s: %llu\n", (const void *)"# of matches in brute force", (unsigned long long int)stat->match_bforce);
     fprintf(arg->lfile, "%-32s: %llu\n", (const void *)"# of prefixs found", (unsigned long long int)stat->prefix);
@@ -4519,7 +4519,7 @@ void display_stats(struct ophcrack_t_ *crack)
 void display_status(struct ophcrack_t_ *crack, char *info)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   pthread_mutex_lock(mutex);
   signed int nactive = crack->active->size;
   signed int nenabled = crack->enabled->size;
@@ -4528,7 +4528,7 @@ void display_status(struct ophcrack_t_ *crack, char *info)
   signed int npwds_found = crack->npwds_found;
   pthread_mutex_unlock(mutex);
   printf("%s", info);
-  double return_value_ceil$1;
+  double return_value_ceil_1;
   if(!(crack->arg->bforce == 0))
   {
     double curr = (double)fsm->bforce_curr;
@@ -4536,8 +4536,8 @@ void display_status(struct ophcrack_t_ *crack, char *info)
     signed int ratio = 0;
     if(total > 0.000000)
     {
-      return_value_ceil$1=ceil(((double)100 * curr) / total);
-      ratio = (signed int)return_value_ceil$1;
+      return_value_ceil_1=ceil(((double)100 * curr) / total);
+      ratio = (signed int)return_value_ceil_1;
     }
 
     if(!(ratio >= 100))
@@ -4545,20 +4545,20 @@ void display_status(struct ophcrack_t_ *crack, char *info)
 
   }
 
-  double return_value_ceil$2;
+  double return_value_ceil_2;
   if((signed int)fsm->state == st_preload)
   {
-    double display_status$$1$$2$$curr = (double)fsm->psize_curr;
-    double display_status$$1$$2$$total = (double)fsm->psize_total;
-    signed int display_status$$1$$2$$ratio = 0;
-    if(display_status$$1$$2$$total > 0.000000)
+    double display_status__1__2__curr = (double)fsm->psize_curr;
+    double display_status__1__2__total = (double)fsm->psize_total;
+    signed int display_status__1__2__ratio = 0;
+    if(display_status__1__2__total > 0.000000)
     {
-      return_value_ceil$2=ceil(((double)100 * display_status$$1$$2$$curr) / display_status$$1$$2$$total);
-      display_status$$1$$2$$ratio = (signed int)return_value_ceil$2;
+      return_value_ceil_2=ceil(((double)100 * display_status__1__2__curr) / display_status__1__2__total);
+      display_status__1__2__ratio = (signed int)return_value_ceil_2;
     }
 
-    if(!(display_status$$1$$2$$ratio >= 100))
-      printf("preload (%d%%); ", display_status$$1$$2$$ratio);
+    if(!(display_status__1__2__ratio >= 100))
+      printf("preload (%d%%); ", display_status__1__2__ratio);
 
     else
       printf("preload done; ");
@@ -4668,13 +4668,13 @@ void display_work(struct ophcrack_t_ *crack, struct msg_work_t_ *msg, char *info
 void end_element(void *data, const char *element)
 {
   struct xmlDataWrapper *wrapper = (struct xmlDataWrapper *)data;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(element, "pattern");
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  if(tmp_statement_expression$1 == 0)
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(element, "pattern");
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  if(tmp_statement_expression_1 == 0)
     wrapper->currentPattern = wrapper->currentPattern + 1u;
 
 }
@@ -4716,13 +4716,13 @@ signed int exec_remote_pwdump6(struct list_t_ *hashes, const char *hostname, con
   struct _IO_FILE *file;
   signed int ret;
   chdir("pwdump");
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(user, "");
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  if(tmp_statement_expression$1 == 0)
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(user, "");
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  if(tmp_statement_expression_1 == 0)
     sprintf(command, "pwdump6_setup.exe -o %s -s %s %s", (const void *)tmp_file, share, hostname);
 
   else
@@ -4757,18 +4757,18 @@ void fillAliasMarkov0BufferFLine(struct markov0DynProg *m0dp, struct AmarkovDynP
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 13u); length = length + 1u)
   {
     c = (unsigned int)0;
     for( ; !(c >= 26u); c = c + 1u)
     {
       if(!(m0dp->firstLine[(signed long int)((length + 4294967294u) * 26u + c)] == 0ul))
-        tmp_if_expr$1 = m0dp->firstLine[(signed long int)(c + (length - (unsigned int)2) * (unsigned int)26)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = m0dp->firstLine[(signed long int)(c + (length - (unsigned int)2) * (unsigned int)26)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         j = (unsigned int)0;
         for( ; !(j >= 26u); j = j + 1u)
@@ -4808,7 +4808,7 @@ void fillAliasMarkov0BufferMain(struct markov0DynProg *m0dp, struct AmarkovDynPr
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 12u); length = length + 1u)
   {
     level = (unsigned int)2 * m0dp->minImproba;
@@ -4818,11 +4818,11 @@ void fillAliasMarkov0BufferMain(struct markov0DynProg *m0dp, struct AmarkovDynPr
         if(!(m0dp->minImproba * length + 4294967295u >= level))
         {
           if(!(m0dp->buffer[(signed long int)((length + 4294967294u) * m0dp->bufferWidth + level + -(m0dp->minImproba * length))] == 0ul))
-            tmp_if_expr$1 = m0dp->buffer[(signed long int)(((length - (unsigned int)2) * m0dp->bufferWidth + level) - length * m0dp->minImproba)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = m0dp->buffer[(signed long int)(((length - (unsigned int)2) * m0dp->bufferWidth + level) - length * m0dp->minImproba)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
           {
             j = (unsigned int)0;
             for( ; !(j >= 26u); j = j + 1u)
@@ -4864,15 +4864,15 @@ void fillAliasMarkov0BufferRoot(struct markov0DynProg *m0dp, struct AmarkovDynPr
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 13u); length = length + 1u)
   {
     if(!(m0dp->rootValue[(signed long int)(length + 4294967295u)] == 0ul))
-      tmp_if_expr$1 = m0dp->rootValue[(signed long int)(length - (unsigned int)1)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = m0dp->rootValue[(signed long int)(length - (unsigned int)1)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       j = (unsigned int)0;
       for( ; !(j >= 26u); j = j + 1u)
@@ -4911,18 +4911,18 @@ void fillAliasMarkov1BufferFLine(struct markov1DynProg *m1dp, struct AmarkovDynP
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 13u); length = length + 1u)
   {
     c = (unsigned int)0;
     for( ; !(c >= 26u); c = c + 1u)
     {
       if(!(m1dp->firstLine[(signed long int)((length + 4294967294u) * 26u + c)] == 0ul))
-        tmp_if_expr$1 = m1dp->firstLine[(signed long int)(c + (length - (unsigned int)2) * (unsigned int)26)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = m1dp->firstLine[(signed long int)(c + (length - (unsigned int)2) * (unsigned int)26)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         j = (unsigned int)0;
         for( ; !(j >= 26u); j = j + 1u)
@@ -4963,7 +4963,7 @@ void fillAliasMarkov1BufferMain(struct markov1DynProg *m1dp, struct AmarkovDynPr
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 12u); length = length + 1u)
   {
     level = (unsigned int)2 * m1dp->minImproba;
@@ -4976,11 +4976,11 @@ void fillAliasMarkov1BufferMain(struct markov1DynProg *m1dp, struct AmarkovDynPr
           for( ; !(prevChar1 >= 26u); prevChar1 = prevChar1 + 1u)
           {
             if(!(m1dp->buffer[(signed long int)prevChar1][(signed long int)((length + 4294967294u) * m1dp->bufferWidth + level + -(m1dp->minImproba * length))] == 0ul))
-              tmp_if_expr$1 = m1dp->buffer[(signed long int)prevChar1][(signed long int)(((length - (unsigned int)2) * m1dp->bufferWidth + level) - length * m1dp->minImproba)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = m1dp->buffer[(signed long int)prevChar1][(signed long int)(((length - (unsigned int)2) * m1dp->bufferWidth + level) - length * m1dp->minImproba)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = (_Bool)0;
+            if(tmp_if_expr_1)
             {
               j = (unsigned int)0;
               for( ; !(j >= 26u); j = j + 1u)
@@ -5023,15 +5023,15 @@ void fillAliasMarkov1BufferRoot(struct markov1DynProg *m1dp, struct AmarkovDynPr
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 13u); length = length + 1u)
   {
     if(!(m1dp->rootValue[(signed long int)(length + 4294967295u)] == 0ul))
-      tmp_if_expr$1 = m1dp->rootValue[(signed long int)(length - (unsigned int)1)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = m1dp->rootValue[(signed long int)(length - (unsigned int)1)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       j = (unsigned int)0;
       for( ; !(j >= 26u); j = j + 1u)
@@ -5070,18 +5070,18 @@ void fillAliasMarkov2BufferFLine(struct markov2DynProg *m2dp, struct AmarkovDynP
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 13u); length = length + 1u)
   {
     c = (unsigned int)0;
     for( ; !(c >= 26u); c = c + 1u)
     {
       if(!(m2dp->firstLine[(signed long int)((length + 4294967294u) * 26u + c)] == 0ul))
-        tmp_if_expr$1 = m2dp->firstLine[(signed long int)(c + (length - (unsigned int)2) * (unsigned int)26)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = m2dp->firstLine[(signed long int)(c + (length - (unsigned int)2) * (unsigned int)26)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         j = (unsigned int)0;
         for( ; !(j >= 26u); j = j + 1u)
@@ -5123,7 +5123,7 @@ void fillAliasMarkov2BufferMain(struct markov2DynProg *m2dp, struct AmarkovDynPr
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 12u); length = length + 1u)
   {
     level = (unsigned int)2 * m2dp->minImproba;
@@ -5139,11 +5139,11 @@ void fillAliasMarkov2BufferMain(struct markov2DynProg *m2dp, struct AmarkovDynPr
             for( ; !(prevChar2 >= 26u); prevChar2 = prevChar2 + 1u)
             {
               if(!(m2dp->buffer[(signed long int)prevChar2][(signed long int)prevChar1][(signed long int)((length + 4294967294u) * m2dp->bufferWidth + level + -(m2dp->minImproba * length))] == 0ul))
-                tmp_if_expr$1 = m2dp->buffer[(signed long int)prevChar2][(signed long int)prevChar1][(signed long int)(((length - (unsigned int)2) * m2dp->bufferWidth + level) - length * m2dp->minImproba)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = m2dp->buffer[(signed long int)prevChar2][(signed long int)prevChar1][(signed long int)(((length - (unsigned int)2) * m2dp->bufferWidth + level) - length * m2dp->minImproba)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$1 = (_Bool)0;
-              if(tmp_if_expr$1)
+                tmp_if_expr_1 = (_Bool)0;
+              if(tmp_if_expr_1)
               {
                 j = (unsigned int)0;
                 for( ; !(j >= 26u); j = j + 1u)
@@ -5187,15 +5187,15 @@ void fillAliasMarkov2BufferRoot(struct markov2DynProg *m2dp, struct AmarkovDynPr
   struct aliasMarkov64Element *am64e = (struct aliasMarkov64Element *)(void *)0;
   unsigned long int subSpace[26l];
   length = (unsigned int)1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(length >= 13u); length = length + 1u)
   {
     if(!(m2dp->rootValue[(signed long int)(length + 4294967295u)] == 0ul))
-      tmp_if_expr$1 = m2dp->rootValue[(signed long int)(length - (unsigned int)1)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = m2dp->rootValue[(signed long int)(length - (unsigned int)1)] != (unsigned long int)0xffffffffffffffff ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       j = (unsigned int)0;
       for( ; !(j >= 26u); j = j + 1u)
@@ -5237,22 +5237,22 @@ unsigned long int find_freeram(void)
   {
     fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , file);
     fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , file);
-    char *return_value___builtin_strchr$1;
-    return_value___builtin_strchr$1=__builtin_strchr(buff, 58);
-    fst = return_value___builtin_strchr$1;
-    char *return_value___builtin_strchr$2;
-    return_value___builtin_strchr$2=__builtin_strchr(fst + (signed long int)1, 107);
-    lst = return_value___builtin_strchr$2;
+    char *return_value___builtin_strchr_1;
+    return_value___builtin_strchr_1=__builtin_strchr(buff, 58);
+    fst = return_value___builtin_strchr_1;
+    char *return_value___builtin_strchr_2;
+    return_value___builtin_strchr_2=__builtin_strchr(fst + (signed long int)1, 107);
+    lst = return_value___builtin_strchr_2;
     *lst = (char)0;
     sscanf(fst + (signed long int)1, "%lu", &freeram);
     fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , file);
     fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , file);
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(buff, 58);
-    fst = return_value___builtin_strchr$3;
-    char *return_value___builtin_strchr$4;
-    return_value___builtin_strchr$4=__builtin_strchr(fst + (signed long int)1, 107);
-    lst = return_value___builtin_strchr$4;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(buff, 58);
+    fst = return_value___builtin_strchr_3;
+    char *return_value___builtin_strchr_4;
+    return_value___builtin_strchr_4=__builtin_strchr(fst + (signed long int)1, 107);
+    lst = return_value___builtin_strchr_4;
     *lst = (char)0;
     sscanf(fst + (signed long int)1, "%lu", &cacheram);
     fclose(file);
@@ -5267,25 +5267,25 @@ unsigned long int find_freeram(void)
     freeram = (unsigned long int)info.freeram;
     cacheram = (unsigned long int)0;
   }
-  double tmp_if_expr$7;
-  double return_value_floor$6;
+  double tmp_if_expr_7;
+  double return_value_floor_6;
   if(!(cacheram + freeram >= 157286400ul))
     return (unsigned long int)0;
 
   else
   {
     unsigned long int ram;
-    double return_value_floor$5;
-    return_value_floor$5=floor(0.9 * (double)(freeram + cacheram));
-    if(return_value_floor$5 < (double)(cacheram + freeram + 18446744073552265216ul))
+    double return_value_floor_5;
+    return_value_floor_5=floor(0.9 * (double)(freeram + cacheram));
+    if(return_value_floor_5 < (double)(cacheram + freeram + 18446744073552265216ul))
     {
-      return_value_floor$6=floor(0.9 * (double)(freeram + cacheram));
-      tmp_if_expr$7 = return_value_floor$6;
+      return_value_floor_6=floor(0.9 * (double)(freeram + cacheram));
+      tmp_if_expr_7 = return_value_floor_6;
     }
 
     else
-      tmp_if_expr$7 = (double)((freeram + cacheram) - (unsigned long int)(150 * 1024 * 1024));
-    ram = (unsigned long int)tmp_if_expr$7;
+      tmp_if_expr_7 = (double)((freeram + cacheram) - (unsigned long int)(150 * 1024 * 1024));
+    ram = (unsigned long int)tmp_if_expr_7;
     return ram;
   }
 }
@@ -5305,30 +5305,30 @@ void fprintf_hex(struct _IO_FILE *file, char *str, signed int len)
 // file ioMarkov.c line 85
 enum markovType fromStringMarkovType(const char *word, const signed int length)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)word, (const void *)"NO_MARK", (unsigned long int)length);
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)word, (const void *)"NO_MARK", (unsigned long int)length);
+  if(return_value_memcmp_1 == 0)
     return (enum markovType)NO_MARK;
 
   else
   {
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)word, (const void *)"MARK0", (unsigned long int)length);
-    if(return_value_memcmp$2 == 0)
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)word, (const void *)"MARK0", (unsigned long int)length);
+    if(return_value_memcmp_2 == 0)
       return (enum markovType)MARK0;
 
     else
     {
-      signed int return_value_memcmp$3;
-      return_value_memcmp$3=memcmp((const void *)word, (const void *)"MARK1", (unsigned long int)length);
-      if(return_value_memcmp$3 == 0)
+      signed int return_value_memcmp_3;
+      return_value_memcmp_3=memcmp((const void *)word, (const void *)"MARK1", (unsigned long int)length);
+      if(return_value_memcmp_3 == 0)
         return (enum markovType)MARK1;
 
       else
       {
-        signed int return_value_memcmp$4;
-        return_value_memcmp$4=memcmp((const void *)word, (const void *)"MARK2", (unsigned long int)length);
-        if(return_value_memcmp$4 == 0)
+        signed int return_value_memcmp_4;
+        return_value_memcmp_4=memcmp((const void *)word, (const void *)"MARK2", (unsigned long int)length);
+        if(return_value_memcmp_4 == 0)
           return (enum markovType)MARK2;
 
         else
@@ -5342,23 +5342,23 @@ enum markovType fromStringMarkovType(const char *word, const signed int length)
 // file fsm.h line 74
 struct fsm_t_ * fsm_alloc(struct ophcrack_t_ *crack)
 {
-  struct fsm_t_ *fsm_alloc$$1$$fsm;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fsm_t_) /*88ul*/ );
-  fsm_alloc$$1$$fsm = (struct fsm_t_ *)return_value_malloc$1;
-  fsm_alloc$$1$$fsm->oldstate = (enum anonymous$1)st_wait;
-  fsm_alloc$$1$$fsm->state = (enum anonymous$1)st_wait;
-  fsm_alloc$$1$$fsm->crack = crack;
-  fsm_alloc$$1$$fsm->arg = crack->arg;
-  fsm_alloc$$1$$fsm->preload = 1;
-  fsm_alloc$$1$$fsm->bforce = fsm_alloc$$1$$fsm->arg->bforce;
-  fsm_alloc$$1$$fsm->pwait = 0;
-  fsm_alloc$$1$$fsm->ssave = 0;
-  fsm_alloc$$1$$fsm->pending_msg=list_alloc();
-  fsm_alloc$$1$$fsm->htoremove=list_alloc();
-  fsm_reset_preload(fsm_alloc$$1$$fsm);
-  fsm_reset_bforce(fsm_alloc$$1$$fsm);
-  return fsm_alloc$$1$$fsm;
+  struct fsm_t_ *fsm_alloc__1__fsm;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fsm_t_) /*88ul*/ );
+  fsm_alloc__1__fsm = (struct fsm_t_ *)return_value_malloc_1;
+  fsm_alloc__1__fsm->oldstate = (enum anonymous_1)st_wait;
+  fsm_alloc__1__fsm->state = (enum anonymous_1)st_wait;
+  fsm_alloc__1__fsm->crack = crack;
+  fsm_alloc__1__fsm->arg = crack->arg;
+  fsm_alloc__1__fsm->preload = 1;
+  fsm_alloc__1__fsm->bforce = fsm_alloc__1__fsm->arg->bforce;
+  fsm_alloc__1__fsm->pwait = 0;
+  fsm_alloc__1__fsm->ssave = 0;
+  fsm_alloc__1__fsm->pending_msg=list_alloc();
+  fsm_alloc__1__fsm->htoremove=list_alloc();
+  fsm_reset_preload(fsm_alloc__1__fsm);
+  fsm_reset_bforce(fsm_alloc__1__fsm);
+  return fsm_alloc__1__fsm;
 }
 
 // fsm_handle_pause1
@@ -5393,7 +5393,7 @@ struct message_t_ * fsm_handle_pause2(struct fsm_t_ *fsm, struct message_t_ *msg
     }
   }
 
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(fsm->pwait == 0)
   {
     fsm_reset(fsm);
@@ -5407,11 +5407,11 @@ struct message_t_ * fsm_handle_pause2(struct fsm_t_ *fsm, struct message_t_ *msg
     scheduler_continue(sched);
     message_insert_first(fsm->pending_msg);
     if(!(fsm->preload == 0))
-      tmp_if_expr$1 = st_start;
+      tmp_if_expr_1 = st_start;
 
     else
-      tmp_if_expr$1 = (signed int)fsm->oldstate;
-    fsm->state = (enum anonymous$1)tmp_if_expr$1;
+      tmp_if_expr_1 = (signed int)fsm->oldstate;
+    fsm->state = (enum anonymous_1)tmp_if_expr_1;
     if((signed int)fsm->state == st_start)
       fsm_handle_start(fsm);
 
@@ -5426,7 +5426,7 @@ struct message_t_ * fsm_handle_preload(struct fsm_t_ *fsm, struct message_t_ *ms
 {
   struct ophcrack_t_ *crack = fsm->crack;
   struct scheduler_t_ *sched = crack->sched;
-  signed int return_value_ophcrack_next$1;
+  signed int return_value_ophcrack_next_1;
   if((signed int)msg->kind == msg_done)
   {
     struct msg_done_t_ *done = (struct msg_done_t_ *)msg->data;
@@ -5439,19 +5439,19 @@ struct message_t_ * fsm_handle_preload(struct fsm_t_ *fsm, struct message_t_ *ms
       n = 0;
       for( ; !(n >= (nthreads + -1 >= 1 ? nthreads + -1 : 1)); n = n + 1)
       {
-        return_value_ophcrack_next$1=ophcrack_next(crack);
-        if(return_value_ophcrack_next$1 == 0)
+        return_value_ophcrack_next_1=ophcrack_next(crack);
+        if(return_value_ophcrack_next_1 == 0)
           break;
 
       }
       if(n == 0)
       {
         struct ophtask_t_ *task;
-        task=ophtask_alloc((enum anonymous$12)find);
-        scheduler_add(sched, (void *)task, (enum anonymous$8)low);
+        task=ophtask_alloc((enum anonymous_12)find);
+        scheduler_add(sched, (void *)task, (enum anonymous_8)low);
       }
 
-      fsm->state = (enum anonymous$1)st_work1;
+      fsm->state = (enum anonymous_1)st_work1;
     }
 
   }
@@ -5463,21 +5463,21 @@ struct message_t_ * fsm_handle_preload(struct fsm_t_ *fsm, struct message_t_ *ms
 // file fsm.h line 78
 void fsm_handle_start(struct fsm_t_ *fsm)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(fsm->bforce == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = fsm->arg->bforce == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = fsm->arg->bforce == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     struct list_t_ *htoremove = fsm->htoremove;
     while(htoremove->size >= 1)
     {
       struct hash_t_ *hsh;
-      void *return_value_list_rem_head$1;
-      return_value_list_rem_head$1=list_rem_head(htoremove);
-      hsh = (struct hash_t_ *)return_value_list_rem_head$1;
+      void *return_value_list_rem_head_1;
+      return_value_list_rem_head_1=list_rem_head(htoremove);
+      hsh = (struct hash_t_ *)return_value_list_rem_head_1;
       hash_free(hsh);
     }
   }
@@ -5486,7 +5486,7 @@ void fsm_handle_start(struct fsm_t_ *fsm)
   if(!(fsm->bforce == 0))
     fsm_launch_bforce(fsm);
 
-  fsm->state = (enum anonymous$1)st_preload;
+  fsm->state = (enum anonymous_1)st_preload;
 }
 
 // fsm_handle_work1
@@ -5500,7 +5500,7 @@ struct message_t_ * fsm_handle_work1(struct fsm_t_ *fsm, struct message_t_ *msg)
   {
     struct msg_done_t_ *done = (struct msg_done_t_ *)msg->data;
     if((signed int)done->kind == find)
-      fsm->state = (enum anonymous$1)st_work2;
+      fsm->state = (enum anonymous_1)st_work2;
 
     return msg;
   }
@@ -5526,9 +5526,9 @@ struct message_t_ * fsm_handle_work2(struct fsm_t_ *fsm, struct message_t_ *msg)
       if(crack->remaining->size >= 1 && !(npwds_found >= npwds_total))
       {
         struct ophtask_t_ *task;
-        task=ophtask_alloc((enum anonymous$12)preload_all);
-        scheduler_add(sched, (void *)task, (enum anonymous$8)disk);
-        fsm->state = (enum anonymous$1)st_preload;
+        task=ophtask_alloc((enum anonymous_12)preload_all);
+        scheduler_add(sched, (void *)task, (enum anonymous_8)disk);
+        fsm->state = (enum anonymous_1)st_preload;
       }
 
       else
@@ -5539,7 +5539,7 @@ struct message_t_ * fsm_handle_work2(struct fsm_t_ *fsm, struct message_t_ *msg)
           fsm->bforce_total = (unsigned long int)1;
         }
 
-        fsm->state = (enum anonymous$1)st_wait;
+        fsm->state = (enum anonymous_1)st_wait;
       }
     }
 
@@ -5554,16 +5554,16 @@ void fsm_launch_bforce(struct fsm_t_ *fsm)
   struct ophcrack_t_ *crack = fsm->crack;
   struct scheduler_t_ *sched = crack->sched;
   struct ophtask_t_ *task;
-  task=ophtask_alloc((enum anonymous$12)bforce_all);
+  task=ophtask_alloc((enum anonymous_12)bforce_all);
   struct ophbforce_t_ *force = (struct ophbforce_t_ *)task->data;
   struct list_t_ *hashes = crack->hashes;
   struct list_nd_t_ *nd;
   signed int nhashes = hashes->size;
   signed int n;
   force->nhashes = nhashes;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)nhashes * sizeof(struct hash_t_ *) /*8ul*/ );
-  force->hashes = (struct hash_t_ **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)nhashes * sizeof(struct hash_t_ *) /*8ul*/ );
+  force->hashes = (struct hash_t_ **)return_value_malloc_1;
   nd = hashes->head;
   n = 0;
   for( ; !(nd == ((struct list_nd_t_ *)NULL)); n = n + 1)
@@ -5571,7 +5571,7 @@ void fsm_launch_bforce(struct fsm_t_ *fsm)
     force->hashes[(signed long int)n] = (struct hash_t_ *)nd->data;
     nd = nd->next;
   }
-  scheduler_add(sched, (void *)task, (enum anonymous$8)low);
+  scheduler_add(sched, (void *)task, (enum anonymous_8)low);
   fsm->bforce = 0;
 }
 
@@ -5582,14 +5582,14 @@ void fsm_launch_preload(struct fsm_t_ *fsm)
   struct ophcrack_t_ *crack = fsm->crack;
   struct scheduler_t_ *sched = crack->sched;
   struct ophtask_t_ *task;
-  task=ophtask_alloc((enum anonymous$12)preload_all);
+  task=ophtask_alloc((enum anonymous_12)preload_all);
   struct ophload_t_ *load = (struct ophload_t_ *)task->data;
   struct list_t_ *enabled = crack->enabled;
   struct list_nd_t_ *tnd = ((struct list_nd_t_ *)NULL);
   tnd = enabled->head;
   for( ; !(tnd == ((struct list_nd_t_ *)NULL)); tnd = tnd->next)
     list_add_tail(load->tables, tnd->data);
-  scheduler_add(sched, (void *)task, (enum anonymous$8)disk);
+  scheduler_add(sched, (void *)task, (enum anonymous_8)disk);
   fsm->preload = 0;
 }
 
@@ -5599,18 +5599,18 @@ struct message_t_ * fsm_next(struct fsm_t_ *fsm, struct message_t_ *msg)
 {
   struct ophcrack_t_ *crack = fsm->crack;
   struct scheduler_t_ *sched = crack->sched;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if((signed int)msg->kind == msg_preload)
   {
     struct msg_load_t_ *load = (struct msg_load_t_ *)msg->data;
     struct table_t_ *tbl = load->tbl;
     if(tbl == ((struct table_t_ *)NULL))
-      tmp_if_expr$1 = !(load->done != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = !(load->done != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       fsm->psize_curr = (unsigned long int)0;
       fsm->psize_total = load->size;
@@ -5643,11 +5643,11 @@ struct message_t_ * fsm_next(struct fsm_t_ *fsm, struct message_t_ *msg)
     else
     {
       if((signed int)msg->kind == msg_done)
-        tmp_if_expr$2 = (signed int)((struct msg_done_t_ *)msg->data)->kind == check ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)((struct msg_done_t_ *)msg->data)->kind == check ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(!((signed int)fsm->state == st_pause1))
         {
@@ -5655,13 +5655,13 @@ struct message_t_ * fsm_next(struct fsm_t_ *fsm, struct message_t_ *msg)
           {
             scheduler_pause(sched);
             fsm->pwait = sched->nthreads;
-            fsm->state = (enum anonymous$1)st_pause2;
+            fsm->state = (enum anonymous_1)st_pause2;
           }
 
         }
 
         fsm_reset_preload(fsm);
-        fsm->oldstate = (enum anonymous$1)st_start;
+        fsm->oldstate = (enum anonymous_1)st_start;
       }
 
       else
@@ -5707,7 +5707,7 @@ void fsm_pause(struct fsm_t_ *fsm)
   scheduler_pause(sched);
   fsm->pwait = sched->nthreads;
   fsm->oldstate = fsm->state;
-  fsm->state = (enum anonymous$1)st_pause1;
+  fsm->state = (enum anonymous_1)st_pause1;
 }
 
 // fsm_reset
@@ -5738,13 +5738,13 @@ void fsm_reset(struct fsm_t_ *fsm)
   if(!(fsm->preload == 0))
     ophcrack_reset(crack, all - bforce_mask, 1);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fsm->bforce == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = arg->bforce == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = arg->bforce == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     ophcrack_reset(crack, bforce_mask, 1);
 
 }
@@ -5773,34 +5773,34 @@ void fsm_ssave(struct fsm_t_ *fsm)
 {
   fsm_pause(fsm);
   fsm->ssave = 1;
-  fsm->state = (enum anonymous$1)st_pause2;
+  fsm->state = (enum anonymous_1)st_pause2;
 }
 
 // fstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
-// fstat$link1
+// fstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
-static inline signed int fstat$link1(signed int __fd$link1, struct stat *__statbuf$link1)
+static inline signed int fstat_link1(signed int __fd_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___fxstat$1$link1;
-  return_value___fxstat$1$link1=__fxstat(1, __fd$link1, __statbuf$link1);
-  return return_value___fxstat$1$link1;
+  signed int return_value___fxstat_1_link1;
+  return_value___fxstat_1_link1=__fxstat(1, __fd_link1, __statbuf_link1);
+  return return_value___fxstat_1_link1;
 }
 
-// fstat$link2
+// fstat_link2
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
-static inline signed int fstat$link2(signed int __fd$link2, struct stat *__statbuf$link2)
+static inline signed int fstat_link2(signed int __fd_link2, struct stat *__statbuf_link2)
 {
-  signed int return_value___fxstat$1$link2;
-  return_value___fxstat$1$link2=__fxstat(1, __fd$link2, __statbuf$link2);
-  return return_value___fxstat$1$link2;
+  signed int return_value___fxstat_1_link2;
+  return_value___fxstat_1_link2=__fxstat(1, __fd_link2, __statbuf_link2);
+  return return_value___fxstat_1_link2;
 }
 
 // getMark0BufferSizeFLine
@@ -6038,7 +6038,7 @@ unsigned long int getMark2BufferSizeRoot(struct markov2DynProg *m2dp)
 // file markov.c line 140
 unsigned long int getMarkov0DynProgFirstLine(struct markov0DynProg *m0dp, struct markovImprobaStruct *mis, unsigned int index, unsigned int requiredLength)
 {
-  unsigned long int return_value_getMarkov0DynProgSpace$1;
+  unsigned long int return_value_getMarkov0DynProgSpace_1;
   if(requiredLength == 1u)
   {
     if(!(mis->meanImprobaMark0 >= mis->improbaFirst[(signed long int)index]))
@@ -6055,8 +6055,8 @@ unsigned long int getMarkov0DynProgFirstLine(struct markov0DynProg *m0dp, struct
       i = (unsigned int)0;
       for( ; !(i >= 26u); i = i + 1u)
       {
-        return_value_getMarkov0DynProgSpace$1=getMarkov0DynProgSpace(m0dp, mis, (unsigned int)2 + ((unsigned int)12 - requiredLength), mis->improbaFirst[(signed long int)index] + mis->improbaMark0[(signed long int)i] + ((unsigned int)12 - requiredLength) * mis->meanImprobaMark0);
-        result = result + return_value_getMarkov0DynProgSpace$1;
+        return_value_getMarkov0DynProgSpace_1=getMarkov0DynProgSpace(m0dp, mis, (unsigned int)2 + ((unsigned int)12 - requiredLength), mis->improbaFirst[(signed long int)index] + mis->improbaMark0[(signed long int)i] + ((unsigned int)12 - requiredLength) * mis->meanImprobaMark0);
+        result = result + return_value_getMarkov0DynProgSpace_1;
       }
       m0dp->firstLine[(signed long int)(index + (requiredLength - (unsigned int)2) * (unsigned int)26)] = result;
       return result;
@@ -6070,7 +6070,7 @@ unsigned long int getMarkov0DynProgFirstLine(struct markov0DynProg *m0dp, struct
 // file markov.c line 121
 unsigned long int getMarkov0DynProgRootValue(struct markov0DynProg *m0dp, struct markovImprobaStruct *mis, unsigned int requiredLength)
 {
-  unsigned long int return_value_getMarkov0DynProgFirstLine$1;
+  unsigned long int return_value_getMarkov0DynProgFirstLine_1;
   if(requiredLength == 0u || requiredLength >= 13u)
     return (unsigned long int)0;
 
@@ -6082,8 +6082,8 @@ unsigned long int getMarkov0DynProgRootValue(struct markov0DynProg *m0dp, struct
       i = (unsigned int)0;
       for( ; !(i >= 26u); i = i + 1u)
       {
-        return_value_getMarkov0DynProgFirstLine$1=getMarkov0DynProgFirstLine(m0dp, mis, i, requiredLength);
-        result = result + return_value_getMarkov0DynProgFirstLine$1;
+        return_value_getMarkov0DynProgFirstLine_1=getMarkov0DynProgFirstLine(m0dp, mis, i, requiredLength);
+        result = result + return_value_getMarkov0DynProgFirstLine_1;
       }
       m0dp->rootValue[(signed long int)(requiredLength - (unsigned int)1)] = result;
       return result;
@@ -6097,7 +6097,7 @@ unsigned long int getMarkov0DynProgRootValue(struct markov0DynProg *m0dp, struct
 // file markov.c line 162
 unsigned long int getMarkov0DynProgSpace(struct markov0DynProg *m0dp, struct markovImprobaStruct *mis, unsigned int length, unsigned int level)
 {
-  unsigned long int return_value_getMarkov0DynProgSpace$1;
+  unsigned long int return_value_getMarkov0DynProgSpace_1;
   if(!(m0dp->threshold >= level))
     return (unsigned long int)0;
 
@@ -6118,8 +6118,8 @@ unsigned long int getMarkov0DynProgSpace(struct markov0DynProg *m0dp, struct mar
           i = (unsigned int)0;
           for( ; !(i >= 26u); i = i + 1u)
           {
-            return_value_getMarkov0DynProgSpace$1=getMarkov0DynProgSpace(m0dp, mis, length + (unsigned int)1, level + mis->improbaMark0[(signed long int)i]);
-            result = result + return_value_getMarkov0DynProgSpace$1;
+            return_value_getMarkov0DynProgSpace_1=getMarkov0DynProgSpace(m0dp, mis, length + (unsigned int)1, level + mis->improbaMark0[(signed long int)i]);
+            result = result + return_value_getMarkov0DynProgSpace_1;
           }
           m0dp->buffer[(signed long int)(((length - (unsigned int)2) * m0dp->bufferWidth + level) - length * m0dp->minImproba)] = result;
           return result;
@@ -6135,7 +6135,7 @@ unsigned long int getMarkov0DynProgSpace(struct markov0DynProg *m0dp, struct mar
 // file markov.c line 289
 unsigned long int getMarkov1DynProgFirstLine(struct markov1DynProg *m1dp, struct markovImprobaStruct *mis, unsigned int index, unsigned int requiredLength)
 {
-  unsigned long int return_value_getMarkov1DynProgSpace$1;
+  unsigned long int return_value_getMarkov1DynProgSpace_1;
   if(requiredLength == 1u)
   {
     if(!(m1dp->threshold >= 11u * mis->meanImprobaMark0 + mis->improbaFirst[(signed long int)index]))
@@ -6152,8 +6152,8 @@ unsigned long int getMarkov1DynProgFirstLine(struct markov1DynProg *m1dp, struct
       i = (unsigned int)0;
       for( ; !(i >= 26u); i = i + 1u)
       {
-        return_value_getMarkov1DynProgSpace$1=getMarkov1DynProgSpace(m1dp, mis, (unsigned int)2 + ((unsigned int)12 - requiredLength), mis->improbaFirst[(signed long int)index] + mis->improbaMark1[(signed long int)index][(signed long int)i] + ((unsigned int)12 - requiredLength) * mis->meanImprobaMark0, i);
-        result = result + return_value_getMarkov1DynProgSpace$1;
+        return_value_getMarkov1DynProgSpace_1=getMarkov1DynProgSpace(m1dp, mis, (unsigned int)2 + ((unsigned int)12 - requiredLength), mis->improbaFirst[(signed long int)index] + mis->improbaMark1[(signed long int)index][(signed long int)i] + ((unsigned int)12 - requiredLength) * mis->meanImprobaMark0, i);
+        result = result + return_value_getMarkov1DynProgSpace_1;
       }
       m1dp->firstLine[(signed long int)(index + (requiredLength - (unsigned int)2) * (unsigned int)26)] = result;
       return result;
@@ -6167,7 +6167,7 @@ unsigned long int getMarkov1DynProgFirstLine(struct markov1DynProg *m1dp, struct
 // file markov.c line 271
 unsigned long int getMarkov1DynProgRootValue(struct markov1DynProg *m1dp, struct markovImprobaStruct *mis, unsigned int requiredLength)
 {
-  unsigned long int return_value_getMarkov1DynProgFirstLine$1;
+  unsigned long int return_value_getMarkov1DynProgFirstLine_1;
   if(requiredLength == 0u || requiredLength >= 13u)
     return (unsigned long int)0;
 
@@ -6179,8 +6179,8 @@ unsigned long int getMarkov1DynProgRootValue(struct markov1DynProg *m1dp, struct
       i = (unsigned int)0;
       for( ; !(i >= 26u); i = i + 1u)
       {
-        return_value_getMarkov1DynProgFirstLine$1=getMarkov1DynProgFirstLine(m1dp, mis, i, requiredLength);
-        result = result + return_value_getMarkov1DynProgFirstLine$1;
+        return_value_getMarkov1DynProgFirstLine_1=getMarkov1DynProgFirstLine(m1dp, mis, i, requiredLength);
+        result = result + return_value_getMarkov1DynProgFirstLine_1;
       }
       m1dp->rootValue[(signed long int)(requiredLength - (unsigned int)1)] = result;
       return result;
@@ -6194,7 +6194,7 @@ unsigned long int getMarkov1DynProgRootValue(struct markov1DynProg *m1dp, struct
 // file markov.c line 310
 unsigned long int getMarkov1DynProgSpace(struct markov1DynProg *m1dp, struct markovImprobaStruct *mis, unsigned int length, unsigned int level, unsigned int prevChar)
 {
-  unsigned long int return_value_getMarkov1DynProgSpace$1;
+  unsigned long int return_value_getMarkov1DynProgSpace_1;
   if(!(m1dp->threshold >= level))
     return (unsigned long int)0;
 
@@ -6215,8 +6215,8 @@ unsigned long int getMarkov1DynProgSpace(struct markov1DynProg *m1dp, struct mar
           i = (unsigned int)0;
           for( ; !(i >= 26u); i = i + 1u)
           {
-            return_value_getMarkov1DynProgSpace$1=getMarkov1DynProgSpace(m1dp, mis, length + (unsigned int)1, level + mis->improbaMark1[(signed long int)prevChar][(signed long int)i], i);
-            result = result + return_value_getMarkov1DynProgSpace$1;
+            return_value_getMarkov1DynProgSpace_1=getMarkov1DynProgSpace(m1dp, mis, length + (unsigned int)1, level + mis->improbaMark1[(signed long int)prevChar][(signed long int)i], i);
+            result = result + return_value_getMarkov1DynProgSpace_1;
           }
           m1dp->buffer[(signed long int)prevChar][(signed long int)(((length - (unsigned int)2) * m1dp->bufferWidth + level) - length * m1dp->minImproba)] = result;
           return result;
@@ -6232,7 +6232,7 @@ unsigned long int getMarkov1DynProgSpace(struct markov1DynProg *m1dp, struct mar
 // file markov.c line 442
 unsigned long int getMarkov2DynProgFirstLine(struct markov2DynProg *m2dp, struct markovImprobaStruct *mis, unsigned int index, unsigned int requiredLength)
 {
-  unsigned long int return_value_getMarkov2DynProgSpace$1;
+  unsigned long int return_value_getMarkov2DynProgSpace_1;
   if(requiredLength == 1u)
   {
     if(!(m2dp->threshold >= 11u * mis->meanImprobaMark0 + mis->improbaFirst[(signed long int)index]))
@@ -6249,8 +6249,8 @@ unsigned long int getMarkov2DynProgFirstLine(struct markov2DynProg *m2dp, struct
       i = (unsigned int)0;
       for( ; !(i >= 26u); i = i + 1u)
       {
-        return_value_getMarkov2DynProgSpace$1=getMarkov2DynProgSpace(m2dp, mis, (unsigned int)2 + ((unsigned int)12 - requiredLength), mis->improbaFirst[(signed long int)index] + mis->improbaMark1[(signed long int)index][(signed long int)i] + ((unsigned int)12 - requiredLength) * mis->meanImprobaMark0, i, index);
-        result = result + return_value_getMarkov2DynProgSpace$1;
+        return_value_getMarkov2DynProgSpace_1=getMarkov2DynProgSpace(m2dp, mis, (unsigned int)2 + ((unsigned int)12 - requiredLength), mis->improbaFirst[(signed long int)index] + mis->improbaMark1[(signed long int)index][(signed long int)i] + ((unsigned int)12 - requiredLength) * mis->meanImprobaMark0, i, index);
+        result = result + return_value_getMarkov2DynProgSpace_1;
       }
       m2dp->firstLine[(signed long int)(index + (requiredLength - (unsigned int)2) * (unsigned int)26)] = result;
       return result;
@@ -6264,7 +6264,7 @@ unsigned long int getMarkov2DynProgFirstLine(struct markov2DynProg *m2dp, struct
 // file markov.c line 424
 unsigned long int getMarkov2DynProgRootValue(struct markov2DynProg *m2dp, struct markovImprobaStruct *mis, unsigned int requiredLength)
 {
-  unsigned long int return_value_getMarkov2DynProgFirstLine$1;
+  unsigned long int return_value_getMarkov2DynProgFirstLine_1;
   if(requiredLength == 0u || requiredLength >= 13u)
     return (unsigned long int)0;
 
@@ -6276,8 +6276,8 @@ unsigned long int getMarkov2DynProgRootValue(struct markov2DynProg *m2dp, struct
       i = (unsigned int)0;
       for( ; !(i >= 26u); i = i + 1u)
       {
-        return_value_getMarkov2DynProgFirstLine$1=getMarkov2DynProgFirstLine(m2dp, mis, i, requiredLength);
-        result = result + return_value_getMarkov2DynProgFirstLine$1;
+        return_value_getMarkov2DynProgFirstLine_1=getMarkov2DynProgFirstLine(m2dp, mis, i, requiredLength);
+        result = result + return_value_getMarkov2DynProgFirstLine_1;
       }
       m2dp->rootValue[(signed long int)(requiredLength - (unsigned int)1)] = result;
       return result;
@@ -6291,7 +6291,7 @@ unsigned long int getMarkov2DynProgRootValue(struct markov2DynProg *m2dp, struct
 // file markov.c line 463
 unsigned long int getMarkov2DynProgSpace(struct markov2DynProg *m2dp, struct markovImprobaStruct *mis, unsigned int length, unsigned int level, unsigned int prevChar1, unsigned int prevChar2)
 {
-  unsigned long int return_value_getMarkov2DynProgSpace$1;
+  unsigned long int return_value_getMarkov2DynProgSpace_1;
   if(!(m2dp->threshold >= level))
     return (unsigned long int)0;
 
@@ -6312,8 +6312,8 @@ unsigned long int getMarkov2DynProgSpace(struct markov2DynProg *m2dp, struct mar
           i = (unsigned int)0;
           for( ; !(i >= 26u); i = i + 1u)
           {
-            return_value_getMarkov2DynProgSpace$1=getMarkov2DynProgSpace(m2dp, mis, length + (unsigned int)1, level + mis->improbaMark2[(signed long int)prevChar2][(signed long int)prevChar1][(signed long int)i], i, prevChar1);
-            result = result + return_value_getMarkov2DynProgSpace$1;
+            return_value_getMarkov2DynProgSpace_1=getMarkov2DynProgSpace(m2dp, mis, length + (unsigned int)1, level + mis->improbaMark2[(signed long int)prevChar2][(signed long int)prevChar1][(signed long int)i], i, prevChar1);
+            result = result + return_value_getMarkov2DynProgSpace_1;
           }
           m2dp->buffer[(signed long int)prevChar2][(signed long int)prevChar1][(signed long int)(((length - (unsigned int)2) * m2dp->bufferWidth + level) - length * m2dp->minImproba)] = result;
           return result;
@@ -6329,31 +6329,31 @@ unsigned long int getMarkov2DynProgSpace(struct markov2DynProg *m2dp, struct mar
 // file markov.c line 539
 unsigned long int getMarkovDynProgRootValue(struct markovDynProgWrapper *mdpw, struct markovImprobaStruct *mis, unsigned int requiredLength)
 {
-  double return_value_pow$1;
-  unsigned long int return_value_getMarkov0DynProgRootValue$2;
-  unsigned long int return_value_getMarkov1DynProgRootValue$3;
-  unsigned long int return_value_getMarkov2DynProgRootValue$4;
+  double return_value_pow_1;
+  unsigned long int return_value_getMarkov0DynProgRootValue_2;
+  unsigned long int return_value_getMarkov1DynProgRootValue_3;
+  unsigned long int return_value_getMarkov2DynProgRootValue_4;
   switch((signed int)mdpw->type)
   {
     case NO_MARK:
     {
-      return_value_pow$1=pow((double)26, (double)requiredLength);
-      return (unsigned long int)return_value_pow$1;
+      return_value_pow_1=pow((double)26, (double)requiredLength);
+      return (unsigned long int)return_value_pow_1;
     }
     case MARK0:
     {
-      return_value_getMarkov0DynProgRootValue$2=getMarkov0DynProgRootValue(mdpw->m0dp, mis, requiredLength);
-      return return_value_getMarkov0DynProgRootValue$2;
+      return_value_getMarkov0DynProgRootValue_2=getMarkov0DynProgRootValue(mdpw->m0dp, mis, requiredLength);
+      return return_value_getMarkov0DynProgRootValue_2;
     }
     case MARK1:
     {
-      return_value_getMarkov1DynProgRootValue$3=getMarkov1DynProgRootValue(mdpw->m1dp, mis, requiredLength);
-      return return_value_getMarkov1DynProgRootValue$3;
+      return_value_getMarkov1DynProgRootValue_3=getMarkov1DynProgRootValue(mdpw->m1dp, mis, requiredLength);
+      return return_value_getMarkov1DynProgRootValue_3;
     }
     case MARK2:
     {
-      return_value_getMarkov2DynProgRootValue$4=getMarkov2DynProgRootValue(mdpw->m2dp, mis, requiredLength);
-      return return_value_getMarkov2DynProgRootValue$4;
+      return_value_getMarkov2DynProgRootValue_4=getMarkov2DynProgRootValue(mdpw->m2dp, mis, requiredLength);
+      return return_value_getMarkov2DynProgRootValue_4;
     }
     default:
       return (unsigned long int)0;
@@ -6419,8 +6419,8 @@ unsigned long int getPatternStructSpace(struct markovDynProgWrapper *mdpw, struc
   unsigned int i = (unsigned int)0;
   unsigned int l;
   i = (unsigned int)0;
-  unsigned long int return_value_getMarkovDynProgRootValue$1;
-  unsigned long int return_value_getMarkovDynProgRootValue$2;
+  unsigned long int return_value_getMarkovDynProgRootValue_1;
+  unsigned long int return_value_getMarkovDynProgRootValue_2;
   for( ; !(i >= 16u); i = i + 1u)
     switch((signed int)(char)(descriptor >> i * (unsigned int)4) & 0x0f)
     {
@@ -6442,8 +6442,8 @@ unsigned long int getPatternStructSpace(struct markovDynProgWrapper *mdpw, struc
       case 0x0C:
       {
         l = (unsigned int)((signed int)(char)(length >> i * (unsigned int)4) & 0x0f) + (unsigned int)1;
-        return_value_getMarkovDynProgRootValue$1=getMarkovDynProgRootValue(mdpw, mis, l);
-        result = result * return_value_getMarkovDynProgRootValue$1;
+        return_value_getMarkovDynProgRootValue_1=getMarkovDynProgRootValue(mdpw, mis, l);
+        result = result * return_value_getMarkovDynProgRootValue_1;
         break;
       }
       case 0x03:
@@ -6454,8 +6454,8 @@ unsigned long int getPatternStructSpace(struct markovDynProgWrapper *mdpw, struc
       case 0x04:
       {
         l = (unsigned int)((signed int)(char)(length >> i * (unsigned int)4) & 0x0f) + (unsigned int)1;
-        return_value_getMarkovDynProgRootValue$2=getMarkovDynProgRootValue(mdpw, mis, l);
-        result = result * return_value_getMarkovDynProgRootValue$2;
+        return_value_getMarkovDynProgRootValue_2=getMarkovDynProgRootValue(mdpw, mis, l);
+        result = result * return_value_getMarkovDynProgRootValue_2;
       }
     }
   return result;
@@ -6478,7 +6478,7 @@ unsigned long int getThresholdFromPatternArray(struct patternArray *array)
 void handle_messages(struct ophcrack_t_ *crack)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   char info[512l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   struct message_t_ *msg = ((struct message_t_ *)NULL);
   signed int count = 1000;
@@ -6492,13 +6492,13 @@ void handle_messages(struct ophcrack_t_ *crack)
   signed long int min = sec / (signed long int)60;
   sec = sec % (signed long int)60;
   snprintf(info, sizeof(char [512l]) /*512ul*/ , "%ldh %2ldm %2lds; ", hour, min, sec);
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$2;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_2;
   do
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     msg=message_tryget();
@@ -6522,11 +6522,11 @@ void handle_messages(struct ophcrack_t_ *crack)
     else
     {
       if(!(arg->verbose == 0))
-        tmp_if_expr$2 = (signed int)msg->kind == msg_work ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)msg->kind == msg_work ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         struct msg_work_t_ *work = (struct msg_work_t_ *)msg->data;
         display_work(crack, work, info);
@@ -6598,20 +6598,20 @@ void hashNTH(char *plaintxt, unsigned char *hash)
 {
   char pwdUTF[32l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   unsigned int j = (unsigned int)0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   do
   {
-    return_value_strlen$1=strlen(plaintxt);
-    if(2u * j >= 32u || (unsigned long int)j >= return_value_strlen$1)
+    return_value_strlen_1=strlen(plaintxt);
+    if(2u * j >= 32u || (unsigned long int)j >= return_value_strlen_1)
       break;
 
     pwdUTF[(signed long int)((unsigned int)2 * j)] = plaintxt[(signed long int)j];
     j = j + 1u;
   }
   while((_Bool)1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(plaintxt);
-  MD4((unsigned char *)pwdUTF, (unsigned long int)((unsigned long int)2 * return_value_strlen$2), hash);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(plaintxt);
+  MD4((unsigned char *)pwdUTF, (unsigned long int)((unsigned long int)2 * return_value_strlen_2), hash);
 }
 
 // hashToIndex
@@ -6650,45 +6650,45 @@ unsigned long int hashToIndex(struct patternArray *array, struct markovDynProgWr
 void hash_add_table(struct hash_t_ *hsh, struct table_t_ *tbl)
 {
   struct htbl_t_ *htbl;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct htbl_t_) /*16ul*/ );
-  htbl = (struct htbl_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct htbl_t_) /*16ul*/ );
+  htbl = (struct htbl_t_ *)return_value_malloc_1;
   const char *status = hsh->status;
   htbl->tbl = tbl;
   htbl->col = tbl->ncols - 1;
   htbl->covered = tbl->ncols;
-  signed int return_value_regexec$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$6;
+  signed int return_value_regexec_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_6;
   if(!(status == ((const char *)NULL)))
   {
     char *buff;
-    char *return_value___strdup$2;
-    return_value___strdup$2=__strdup(status);
-    buff = return_value___strdup$2;
+    char *return_value___strdup_2;
+    return_value___strdup_2=__strdup(status);
+    buff = return_value___strdup_2;
     char *tmp = buff;
     struct re_pattern_buffer regex;
-    struct anonymous$11 match[4l];
+    struct anonymous_11 match[4l];
     static const char pattern[29l] = { '(', '[', '^', ',', ']', '+', ')', ',', '(', '[', '0', '-', '9', ']', '+', ')', '\', '(', '(', '[', '0', '-', '9', ']', '+', ')', '\', ')', 0 };
     regcomp(&regex, pattern, 1);
     do
     {
-      return_value_regexec$3=regexec(&regex, tmp, (unsigned long int)4, match, 0);
-      if(!(return_value_regexec$3 == 0))
+      return_value_regexec_3=regexec(&regex, tmp, (unsigned long int)4, match, 0);
+      if(!(return_value_regexec_3 == 0))
         break;
 
       if(match[1l].rm_so == -1)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = match[(signed long int)2].rm_so == -1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = match[(signed long int)2].rm_so == -1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = match[(signed long int)3].rm_so == -1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = match[(signed long int)3].rm_so == -1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
         break;
 
       tmp[(signed long int)match[(signed long int)1].rm_eo] = (char)0;
@@ -6696,19 +6696,19 @@ void hash_add_table(struct hash_t_ *hsh, struct table_t_ *tbl)
       tmp[(signed long int)match[(signed long int)3].rm_eo] = (char)0;
       const char *name = tmp + (signed long int)match[(signed long int)1].rm_so;
       signed int idx;
-      idx=atoi$link2(tmp + (signed long int)match[(signed long int)2].rm_so);
+      idx=atoi_link2(tmp + (signed long int)match[(signed long int)2].rm_so);
       if(idx == tbl->idx)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        const char *return_value_table_string$7;
-        return_value_table_string$7=table_string(tbl->kind);
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp(name, return_value_table_string$7);
-        tmp_statement_expression$6 = return_value___builtin_strcmp$8;
-        if(tmp_statement_expression$6 == 0)
+        const char *return_value_table_string_7;
+        return_value_table_string_7=table_string(tbl->kind);
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp(name, return_value_table_string_7);
+        tmp_statement_expression_6 = return_value___builtin_strcmp_8;
+        if(tmp_statement_expression_6 == 0)
         {
-          htbl->covered=atoi$link2(tmp + (signed long int)match[(signed long int)3].rm_so);
+          htbl->covered=atoi_link2(tmp + (signed long int)match[(signed long int)3].rm_so);
           htbl->col = htbl->covered - 1;
           break;
         }
@@ -6727,19 +6727,19 @@ void hash_add_table(struct hash_t_ *hsh, struct table_t_ *tbl)
 
 // hash_alloc
 // file hash.c line 43
-struct hash_t_ * hash_alloc(enum anonymous$0 kind, signed int hlen, signed int plen, signed int id)
+struct hash_t_ * hash_alloc(enum anonymous_0 kind, signed int hlen, signed int plen, signed int id)
 {
   struct hash_t_ *hsh;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hash_t_) /*168ul*/ );
-  hsh = (struct hash_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hash_t_) /*168ul*/ );
+  hsh = (struct hash_t_ *)return_value_malloc_1;
   hsh->kind = kind;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)hlen * sizeof(unsigned char) /*1ul*/ );
-  hsh->hash = (unsigned char *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)plen * sizeof(char) /*1ul*/ );
-  hsh->pwd = (char *)return_value_malloc$3;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)hlen * sizeof(unsigned char) /*1ul*/ );
+  hsh->hash = (unsigned char *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)plen * sizeof(char) /*1ul*/ );
+  hsh->pwd = (char *)return_value_malloc_3;
   hsh->str = ((char *)NULL);
   hsh->status = ((char *)NULL);
   memset((void *)hsh->hash, 0, (unsigned long int)hlen);
@@ -6774,79 +6774,79 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
   signed int l;
   char *p[11l] = { ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL), ((char *)NULL) };
   l = 0;
-  char *tmp_statement_expression$1;
+  char *tmp_statement_expression_1;
   for( ; !(l >= 11); l = l + 1)
   {
     char __r0;
     char __r1;
     char __r2;
-    char *return_value___strsep_g$2;
-    return_value___strsep_g$2=__strsep_g(&buff, ":");
-    tmp_statement_expression$1 = return_value___strsep_g$2;
-    p[(signed long int)l] = tmp_statement_expression$1;
+    char *return_value___strsep_g_2;
+    return_value___strsep_g_2=__strsep_g(&buff, ":");
+    tmp_statement_expression_1 = return_value___strsep_g_2;
+    p[(signed long int)l] = tmp_statement_expression_1;
     if(p[(signed long int)l] == ((char *)NULL))
       break;
 
   }
   char lmstr[33l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   char ntstr[33l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  signed int tmp_statement_expression$3;
-  _Bool tmp_if_expr$7;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$8;
-  _Bool tmp_if_expr$12;
-  signed int tmp_statement_expression$10;
-  signed int tmp_statement_expression$13;
-  _Bool tmp_if_expr$17;
-  signed int tmp_statement_expression$15;
-  signed int tmp_statement_expression$18;
-  _Bool tmp_if_expr$22;
-  signed int tmp_statement_expression$20;
-  signed int tmp_statement_expression$23;
-  _Bool tmp_if_expr$27;
-  signed int tmp_statement_expression$25;
+  signed int tmp_statement_expression_3;
+  _Bool tmp_if_expr_7;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_8;
+  _Bool tmp_if_expr_12;
+  signed int tmp_statement_expression_10;
+  signed int tmp_statement_expression_13;
+  _Bool tmp_if_expr_17;
+  signed int tmp_statement_expression_15;
+  signed int tmp_statement_expression_18;
+  _Bool tmp_if_expr_22;
+  signed int tmp_statement_expression_20;
+  signed int tmp_statement_expression_23;
+  _Bool tmp_if_expr_27;
+  signed int tmp_statement_expression_25;
   if(l >= 7)
   {
-    unsigned long int hash_extract_lmnt$$1$$2$$1$$__s1_len;
-    unsigned long int hash_extract_lmnt$$1$$2$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp(p[(signed long int)2], pwdump_nopwd);
-    tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-    if(!(tmp_statement_expression$3 == 0))
+    unsigned long int hash_extract_lmnt__1__2__1____s1_len;
+    unsigned long int hash_extract_lmnt__1__2__1____s2_len;
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp(p[(signed long int)2], pwdump_nopwd);
+    tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+    if(!(tmp_statement_expression_3 == 0))
     {
-      unsigned long int hash_extract_lmnt$$1$$2$$2$$__s1_len;
-      unsigned long int hash_extract_lmnt$$1$$2$$2$$__s2_len;
-      signed int return_value___builtin_strcmp$6;
-      return_value___builtin_strcmp$6=__builtin_strcmp(p[(signed long int)2], samdump_nopwd);
-      tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-      tmp_if_expr$7 = tmp_statement_expression$5 != 0 ? (_Bool)1 : (_Bool)0;
+      unsigned long int hash_extract_lmnt__1__2__2____s1_len;
+      unsigned long int hash_extract_lmnt__1__2__2____s2_len;
+      signed int return_value___builtin_strcmp_6;
+      return_value___builtin_strcmp_6=__builtin_strcmp(p[(signed long int)2], samdump_nopwd);
+      tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+      tmp_if_expr_7 = tmp_statement_expression_5 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
       __builtin_strncpy(lmstr, p[(signed long int)2], sizeof(char [33l]) /*33ul*/ );
 
     else
       __builtin_strncpy(lmstr, "aad3b435b51404eeaad3b435b51404ee", sizeof(char [33l]) /*33ul*/ );
-    unsigned long int hash_extract_lmnt$$1$$2$$3$$__s1_len;
-    unsigned long int hash_extract_lmnt$$1$$2$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$9;
-    return_value___builtin_strcmp$9=__builtin_strcmp(p[(signed long int)3], pwdump_nopwd);
-    tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-    if(!(tmp_statement_expression$8 == 0))
+    unsigned long int hash_extract_lmnt__1__2__3____s1_len;
+    unsigned long int hash_extract_lmnt__1__2__3____s2_len;
+    signed int return_value___builtin_strcmp_9;
+    return_value___builtin_strcmp_9=__builtin_strcmp(p[(signed long int)3], pwdump_nopwd);
+    tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+    if(!(tmp_statement_expression_8 == 0))
     {
-      unsigned long int hash_extract_lmnt$$1$$2$$4$$__s1_len;
-      unsigned long int hash_extract_lmnt$$1$$2$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$11;
-      return_value___builtin_strcmp$11=__builtin_strcmp(p[(signed long int)3], samdump_nopwd);
-      tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-      tmp_if_expr$12 = tmp_statement_expression$10 != 0 ? (_Bool)1 : (_Bool)0;
+      unsigned long int hash_extract_lmnt__1__2__4____s1_len;
+      unsigned long int hash_extract_lmnt__1__2__4____s2_len;
+      signed int return_value___builtin_strcmp_11;
+      return_value___builtin_strcmp_11=__builtin_strcmp(p[(signed long int)3], samdump_nopwd);
+      tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+      tmp_if_expr_12 = tmp_statement_expression_10 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
       __builtin_strncpy(ntstr, p[(signed long int)3], sizeof(char [33l]) /*33ul*/ );
 
     else
@@ -6856,46 +6856,46 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
   else
     if(l == 2)
     {
-      unsigned long int hash_extract_lmnt$$1$$3$$1$$__s1_len;
-      unsigned long int hash_extract_lmnt$$1$$3$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$14;
-      return_value___builtin_strcmp$14=__builtin_strcmp(p[(signed long int)0], pwdump_nopwd);
-      tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-      if(!(tmp_statement_expression$13 == 0))
+      unsigned long int hash_extract_lmnt__1__3__1____s1_len;
+      unsigned long int hash_extract_lmnt__1__3__1____s2_len;
+      signed int return_value___builtin_strcmp_14;
+      return_value___builtin_strcmp_14=__builtin_strcmp(p[(signed long int)0], pwdump_nopwd);
+      tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+      if(!(tmp_statement_expression_13 == 0))
       {
-        unsigned long int hash_extract_lmnt$$1$$3$$2$$__s1_len;
-        unsigned long int hash_extract_lmnt$$1$$3$$2$$__s2_len;
-        signed int return_value___builtin_strcmp$16;
-        return_value___builtin_strcmp$16=__builtin_strcmp(p[(signed long int)0], samdump_nopwd);
-        tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-        tmp_if_expr$17 = tmp_statement_expression$15 != 0 ? (_Bool)1 : (_Bool)0;
+        unsigned long int hash_extract_lmnt__1__3__2____s1_len;
+        unsigned long int hash_extract_lmnt__1__3__2____s2_len;
+        signed int return_value___builtin_strcmp_16;
+        return_value___builtin_strcmp_16=__builtin_strcmp(p[(signed long int)0], samdump_nopwd);
+        tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+        tmp_if_expr_17 = tmp_statement_expression_15 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$17 = (_Bool)0;
-      if(tmp_if_expr$17)
+        tmp_if_expr_17 = (_Bool)0;
+      if(tmp_if_expr_17)
         __builtin_strncpy(lmstr, p[(signed long int)0], sizeof(char [33l]) /*33ul*/ );
 
       else
         __builtin_strncpy(lmstr, "aad3b435b51404eeaad3b435b51404ee", sizeof(char [33l]) /*33ul*/ );
-      unsigned long int hash_extract_lmnt$$1$$3$$3$$__s1_len;
-      unsigned long int hash_extract_lmnt$$1$$3$$3$$__s2_len;
-      signed int return_value___builtin_strcmp$19;
-      return_value___builtin_strcmp$19=__builtin_strcmp(p[(signed long int)1], pwdump_nopwd);
-      tmp_statement_expression$18 = return_value___builtin_strcmp$19;
-      if(!(tmp_statement_expression$18 == 0))
+      unsigned long int hash_extract_lmnt__1__3__3____s1_len;
+      unsigned long int hash_extract_lmnt__1__3__3____s2_len;
+      signed int return_value___builtin_strcmp_19;
+      return_value___builtin_strcmp_19=__builtin_strcmp(p[(signed long int)1], pwdump_nopwd);
+      tmp_statement_expression_18 = return_value___builtin_strcmp_19;
+      if(!(tmp_statement_expression_18 == 0))
       {
-        unsigned long int hash_extract_lmnt$$1$$3$$4$$__s1_len;
-        unsigned long int hash_extract_lmnt$$1$$3$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$21;
-        return_value___builtin_strcmp$21=__builtin_strcmp(p[(signed long int)1], samdump_nopwd);
-        tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-        tmp_if_expr$22 = tmp_statement_expression$20 != 0 ? (_Bool)1 : (_Bool)0;
+        unsigned long int hash_extract_lmnt__1__3__4____s1_len;
+        unsigned long int hash_extract_lmnt__1__3__4____s2_len;
+        signed int return_value___builtin_strcmp_21;
+        return_value___builtin_strcmp_21=__builtin_strcmp(p[(signed long int)1], samdump_nopwd);
+        tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+        tmp_if_expr_22 = tmp_statement_expression_20 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$22 = (_Bool)0;
-      if(tmp_if_expr$22)
+        tmp_if_expr_22 = (_Bool)0;
+      if(tmp_if_expr_22)
         __builtin_strncpy(ntstr, p[(signed long int)1], sizeof(char [33l]) /*33ul*/ );
 
       else
@@ -6905,24 +6905,24 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
     else
       if(l == 1)
       {
-        unsigned long int hash_extract_lmnt$$1$$4$$1$$__s1_len;
-        unsigned long int hash_extract_lmnt$$1$$4$$1$$__s2_len;
-        signed int return_value___builtin_strcmp$24;
-        return_value___builtin_strcmp$24=__builtin_strcmp(p[(signed long int)0], pwdump_nopwd);
-        tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-        if(!(tmp_statement_expression$23 == 0))
+        unsigned long int hash_extract_lmnt__1__4__1____s1_len;
+        unsigned long int hash_extract_lmnt__1__4__1____s2_len;
+        signed int return_value___builtin_strcmp_24;
+        return_value___builtin_strcmp_24=__builtin_strcmp(p[(signed long int)0], pwdump_nopwd);
+        tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+        if(!(tmp_statement_expression_23 == 0))
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$26;
-          return_value___builtin_strcmp$26=__builtin_strcmp(p[(signed long int)0], samdump_nopwd);
-          tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-          tmp_if_expr$27 = tmp_statement_expression$25 != 0 ? (_Bool)1 : (_Bool)0;
+          signed int return_value___builtin_strcmp_26;
+          return_value___builtin_strcmp_26=__builtin_strcmp(p[(signed long int)0], samdump_nopwd);
+          tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+          tmp_if_expr_27 = tmp_statement_expression_25 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$27 = (_Bool)0;
-        if(tmp_if_expr$27)
+          tmp_if_expr_27 = (_Bool)0;
+        if(tmp_if_expr_27)
           __builtin_strncpy(lmstr, p[(signed long int)0], sizeof(char [33l]) /*33ul*/ );
 
         else
@@ -6932,27 +6932,27 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
       else
         return 0;
   signed int lmlen;
-  unsigned long int return_value_strlen$28;
-  return_value_strlen$28=strlen(lmstr);
-  lmlen = (signed int)return_value_strlen$28;
+  unsigned long int return_value_strlen_28;
+  return_value_strlen_28=strlen(lmstr);
+  lmlen = (signed int)return_value_strlen_28;
   signed int ntlen;
-  unsigned long int return_value_strlen$29;
-  return_value_strlen$29=strlen(ntstr);
-  ntlen = (signed int)return_value_strlen$29;
-  unsigned long int tmp_if_expr$31;
-  unsigned long int return_value_strlen$30;
-  unsigned long int tmp_if_expr$33;
-  unsigned long int return_value_strlen$32;
-  signed int tmp_statement_expression$38;
-  unsigned long int tmp_if_expr$41;
-  unsigned long int return_value_strlen$40;
-  signed int tmp_statement_expression$44;
-  char *return_value___strdup$46;
-  char *return_value___strdup$47;
-  char *return_value___strdup$48;
-  signed int return_value_memcmp$49;
-  signed int return_value_memcmp$50;
-  signed int return_value_memcmp$51;
+  unsigned long int return_value_strlen_29;
+  return_value_strlen_29=strlen(ntstr);
+  ntlen = (signed int)return_value_strlen_29;
+  unsigned long int tmp_if_expr_31;
+  unsigned long int return_value_strlen_30;
+  unsigned long int tmp_if_expr_33;
+  unsigned long int return_value_strlen_32;
+  signed int tmp_statement_expression_38;
+  unsigned long int tmp_if_expr_41;
+  unsigned long int return_value_strlen_40;
+  signed int tmp_statement_expression_44;
+  char *return_value___strdup_46;
+  char *return_value___strdup_47;
+  char *return_value___strdup_48;
+  signed int return_value_memcmp_49;
+  signed int return_value_memcmp_50;
+  signed int return_value_memcmp_51;
   if(!(lmlen == 32) && !(ntlen == 32))
     return 0;
 
@@ -6963,52 +6963,52 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
     signed int lmplen1;
     if(l == 7)
     {
-      return_value_strlen$30=strlen(p[(signed long int)4]);
-      tmp_if_expr$31 = return_value_strlen$30;
+      return_value_strlen_30=strlen(p[(signed long int)4]);
+      tmp_if_expr_31 = return_value_strlen_30;
     }
 
     else
-      tmp_if_expr$31 = (unsigned long int)8;
-    lmplen1 = (signed int)tmp_if_expr$31;
+      tmp_if_expr_31 = (unsigned long int)8;
+    lmplen1 = (signed int)tmp_if_expr_31;
     signed int lmplen2;
     if(l == 7)
     {
-      return_value_strlen$32=strlen(p[(signed long int)5]);
-      tmp_if_expr$33 = return_value_strlen$32;
+      return_value_strlen_32=strlen(p[(signed long int)5]);
+      tmp_if_expr_33 = return_value_strlen_32;
     }
 
     else
-      tmp_if_expr$33 = (unsigned long int)8;
-    lmplen2 = (signed int)tmp_if_expr$33;
-    unsigned long int hash_extract_lmnt$$1$$5$$__s1_len;
-    unsigned long int hash_extract_lmnt$$1$$5$$__s2_len;
-    signed int return_value___builtin_strcmp$39;
-    return_value___builtin_strcmp$39=__builtin_strcmp(lmstr, "");
-    tmp_statement_expression$38 = return_value___builtin_strcmp$39;
-    if(!(tmp_statement_expression$38 == 0))
+      tmp_if_expr_33 = (unsigned long int)8;
+    lmplen2 = (signed int)tmp_if_expr_33;
+    unsigned long int hash_extract_lmnt__1__5____s1_len;
+    unsigned long int hash_extract_lmnt__1__5____s2_len;
+    signed int return_value___builtin_strcmp_39;
+    return_value___builtin_strcmp_39=__builtin_strcmp(lmstr, "");
+    tmp_statement_expression_38 = return_value___builtin_strcmp_39;
+    if(!(tmp_statement_expression_38 == 0))
     {
-      lmhsh1=hash_alloc((enum anonymous$0)lm1, 8, lmplen1 < 8 ? 8 : lmplen1, id);
-      lmhsh2=hash_alloc((enum anonymous$0)lm2, 8, lmplen2 < 8 ? 8 : lmplen2, id);
-      char *return_value___strdup$34;
-      return_value___strdup$34=__strdup(lmstr);
-      lmhsh1->str = return_value___strdup$34;
-      char *return_value___strdup$35;
-      return_value___strdup$35=__strdup(lmstr);
-      lmhsh2->str = return_value___strdup$35;
+      lmhsh1=hash_alloc((enum anonymous_0)lm1, 8, lmplen1 < 8 ? 8 : lmplen1, id);
+      lmhsh2=hash_alloc((enum anonymous_0)lm2, 8, lmplen2 < 8 ? 8 : lmplen2, id);
+      char *return_value___strdup_34;
+      return_value___strdup_34=__strdup(lmstr);
+      lmhsh1->str = return_value___strdup_34;
+      char *return_value___strdup_35;
+      return_value___strdup_35=__strdup(lmstr);
+      lmhsh2->str = return_value___strdup_35;
       signed int i;
       unsigned int tmp;
       i = 0;
       for( ; !(i >= 8); i = i + 1)
       {
-        signed int return_value_sscanf$36;
-        return_value_sscanf$36=sscanf(lmstr + (signed long int)(2 * i), "%2x", &tmp);
-        if(!(return_value_sscanf$36 == 1))
+        signed int return_value_sscanf_36;
+        return_value_sscanf_36=sscanf(lmstr + (signed long int)(2 * i), "%2x", &tmp);
+        if(!(return_value_sscanf_36 == 1))
           return 0;
 
         lmhsh1->hash[(signed long int)i] = (unsigned char)tmp;
-        signed int return_value_sscanf$37;
-        return_value_sscanf$37=sscanf(lmstr + (signed long int)(2 * i) + (signed long int)16, "%2x", &tmp);
-        if(!(return_value_sscanf$37 == 1))
+        signed int return_value_sscanf_37;
+        return_value_sscanf_37=sscanf(lmstr + (signed long int)(2 * i) + (signed long int)16, "%2x", &tmp);
+        if(!(return_value_sscanf_37 == 1))
           return 0;
 
         lmhsh2->hash[(signed long int)i] = (unsigned char)tmp;
@@ -7019,42 +7019,42 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
     signed int ntplen;
     if(l == 7)
     {
-      return_value_strlen$40=strlen(p[(signed long int)6]);
-      tmp_if_expr$41 = return_value_strlen$40;
+      return_value_strlen_40=strlen(p[(signed long int)6]);
+      tmp_if_expr_41 = return_value_strlen_40;
     }
 
     else
-      tmp_if_expr$41 = (unsigned long int)16;
-    ntplen = (signed int)tmp_if_expr$41;
-    unsigned long int hash_extract_lmnt$$1$$7$$__s1_len;
-    unsigned long int hash_extract_lmnt$$1$$7$$__s2_len;
-    signed int return_value___builtin_strcmp$45;
-    return_value___builtin_strcmp$45=__builtin_strcmp(ntstr, "");
-    tmp_statement_expression$44 = return_value___builtin_strcmp$45;
-    if(!(tmp_statement_expression$44 == 0))
+      tmp_if_expr_41 = (unsigned long int)16;
+    ntplen = (signed int)tmp_if_expr_41;
+    unsigned long int hash_extract_lmnt__1__7____s1_len;
+    unsigned long int hash_extract_lmnt__1__7____s2_len;
+    signed int return_value___builtin_strcmp_45;
+    return_value___builtin_strcmp_45=__builtin_strcmp(ntstr, "");
+    tmp_statement_expression_44 = return_value___builtin_strcmp_45;
+    if(!(tmp_statement_expression_44 == 0))
     {
-      nthsh=hash_alloc((enum anonymous$0)nt, 16, ntplen < 16 ? 16 : ntplen, id);
-      char *return_value___strdup$42;
-      return_value___strdup$42=__strdup(ntstr);
-      nthsh->str = return_value___strdup$42;
-      signed int hash_extract_lmnt$$1$$8$$i;
-      unsigned int hash_extract_lmnt$$1$$8$$tmp;
-      hash_extract_lmnt$$1$$8$$i = 0;
-      for( ; !(hash_extract_lmnt$$1$$8$$i >= 16); hash_extract_lmnt$$1$$8$$i = hash_extract_lmnt$$1$$8$$i + 1)
+      nthsh=hash_alloc((enum anonymous_0)nt, 16, ntplen < 16 ? 16 : ntplen, id);
+      char *return_value___strdup_42;
+      return_value___strdup_42=__strdup(ntstr);
+      nthsh->str = return_value___strdup_42;
+      signed int hash_extract_lmnt__1__8__i;
+      unsigned int hash_extract_lmnt__1__8__tmp;
+      hash_extract_lmnt__1__8__i = 0;
+      for( ; !(hash_extract_lmnt__1__8__i >= 16); hash_extract_lmnt__1__8__i = hash_extract_lmnt__1__8__i + 1)
       {
-        signed int return_value_sscanf$43;
-        return_value_sscanf$43=sscanf(ntstr + (signed long int)(2 * hash_extract_lmnt$$1$$8$$i), "%2x", &hash_extract_lmnt$$1$$8$$tmp);
-        if(!(return_value_sscanf$43 == 1))
+        signed int return_value_sscanf_43;
+        return_value_sscanf_43=sscanf(ntstr + (signed long int)(2 * hash_extract_lmnt__1__8__i), "%2x", &hash_extract_lmnt__1__8__tmp);
+        if(!(return_value_sscanf_43 == 1))
           return 0;
 
-        nthsh->hash[(signed long int)hash_extract_lmnt$$1$$8$$i] = (unsigned char)hash_extract_lmnt$$1$$8$$tmp;
+        nthsh->hash[(signed long int)hash_extract_lmnt__1__8__i] = (unsigned char)hash_extract_lmnt__1__8__tmp;
       }
     }
 
     if(l >= 7)
     {
       signed int uid;
-      uid=atoi$link2(p[(signed long int)1]);
+      uid=atoi_link2(p[(signed long int)1]);
       if(!(lmhsh1 == ((struct hash_t_ *)NULL)))
       {
         __builtin_strncpy(lmhsh1->info, p[(signed long int)0], sizeof(char [64l]) /*64ul*/ );
@@ -7065,8 +7065,8 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
         convert_to_colon((unsigned char *)lmhsh1->pwd);
         if(l >= 8)
         {
-          return_value___strdup$46=__strdup(p[(signed long int)7]);
-          lmhsh1->status = return_value___strdup$46;
+          return_value___strdup_46=__strdup(p[(signed long int)7]);
+          lmhsh1->status = return_value___strdup_46;
         }
 
       }
@@ -7081,8 +7081,8 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
         convert_to_colon((unsigned char *)lmhsh2->pwd);
         if(l >= 9)
         {
-          return_value___strdup$47=__strdup(p[(signed long int)8]);
-          lmhsh2->status = return_value___strdup$47;
+          return_value___strdup_47=__strdup(p[(signed long int)8]);
+          lmhsh2->status = return_value___strdup_47;
         }
 
       }
@@ -7095,8 +7095,8 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
         convert_to_colon((unsigned char *)nthsh->pwd);
         if(l >= 10)
         {
-          return_value___strdup$48=__strdup(p[(signed long int)9]);
-          nthsh->status = return_value___strdup$48;
+          return_value___strdup_48=__strdup(p[(signed long int)9]);
+          nthsh->status = return_value___strdup_48;
         }
 
       }
@@ -7107,8 +7107,8 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
     signed int empty2 = 0;
     if(!(lmhsh1 == ((struct hash_t_ *)NULL)))
     {
-      return_value_memcmp$49=memcmp((const void *)lmhsh1->hash, (const void *)empty_lmhash, (unsigned long int)8);
-      if(return_value_memcmp$49 == 0)
+      return_value_memcmp_49=memcmp((const void *)lmhsh1->hash, (const void *)empty_lmhash, (unsigned long int)8);
+      if(return_value_memcmp_49 == 0)
       {
         empty1 = 1;
         lmhsh1->done = 1;
@@ -7118,8 +7118,8 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
 
     if(!(lmhsh2 == ((struct hash_t_ *)NULL)))
     {
-      return_value_memcmp$50=memcmp((const void *)lmhsh2->hash, (const void *)empty_lmhash, (unsigned long int)8);
-      if(return_value_memcmp$50 == 0)
+      return_value_memcmp_50=memcmp((const void *)lmhsh2->hash, (const void *)empty_lmhash, (unsigned long int)8);
+      if(return_value_memcmp_50 == 0)
       {
         empty2 = 1;
         lmhsh2->done = 1;
@@ -7129,8 +7129,8 @@ signed int hash_extract_lmnt(char *buff, struct list_t_ *hashes, signed int id)
 
     if(!(nthsh == ((struct hash_t_ *)NULL)))
     {
-      return_value_memcmp$51=memcmp((const void *)nthsh->hash, (const void *)empty_nthash, (unsigned long int)16);
-      if(return_value_memcmp$51 == 0)
+      return_value_memcmp_51=memcmp((const void *)nthsh->hash, (const void *)empty_nthash, (unsigned long int)16);
+      if(return_value_memcmp_51 == 0)
         nthsh->done = 1;
 
     }
@@ -7213,9 +7213,9 @@ void hash_free(struct hash_t_ *hsh)
   while(hsh->tables->size >= 1)
   {
     struct htbl_t_ *htbl;
-    void *return_value_list_rem_head$1;
-    return_value_list_rem_head$1=list_rem_head(hsh->tables);
-    htbl = (struct htbl_t_ *)return_value_list_rem_head$1;
+    void *return_value_list_rem_head_1;
+    return_value_list_rem_head_1=list_rem_head(hsh->tables);
+    htbl = (struct htbl_t_ *)return_value_list_rem_head_1;
     free((void *)htbl);
   }
   list_free(hsh->tables);
@@ -7231,24 +7231,24 @@ signed int hash_load_pwdump(struct list_t_ *hashes, struct _IO_FILE *file, signe
   signed int n = 0;
   do
   {
-    char *return_value_fgets$1;
-    return_value_fgets$1=fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , file);
-    if(return_value_fgets$1 == ((char *)NULL))
+    char *return_value_fgets_1;
+    return_value_fgets_1=fgets(buff, (signed int)sizeof(char [512l]) /*512ul*/ , file);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     signed int len;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buff);
-    len = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buff);
+    len = (signed int)return_value_strlen_2;
     if((signed int)buff[(signed long int)(len + -1)] == 10)
       buff[(signed long int)(len - 1)] = (char)0;
 
     if((signed int)buff[(signed long int)(len + -2)] == 13)
       buff[(signed long int)(len - 2)] = (char)0;
 
-    signed int return_value_hash_extract_lmnt$3;
-    return_value_hash_extract_lmnt$3=hash_extract_lmnt(buff, hashes, id);
-    if(return_value_hash_extract_lmnt$3 >= 1)
+    signed int return_value_hash_extract_lmnt_3;
+    return_value_hash_extract_lmnt_3=hash_extract_lmnt(buff, hashes, id);
+    if(return_value_hash_extract_lmnt_3 >= 1)
     {
       id = id + 1;
       npwds = npwds + 1;
@@ -7269,21 +7269,21 @@ signed int hash_load_sam(struct list_t_ *hashes, const char *dir, signed int id)
   signed int i;
   signed int j;
   i = 0;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; !(i >= 2); i = i + 1)
   {
     signed int len;
-    unsigned long int return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
     static const char *name[2l] = { "SYSTEM", "SAM" };
-    return_value_strlen$1=strlen(name[(signed long int)i]);
-    len = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(name[(signed long int)i]);
+    len = (signed int)return_value_strlen_1;
     signed int count = 1 << len;
     char tmp[10l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     do
     {
-      tmp_post$2 = count;
+      tmp_post_2 = count;
       count = count - 1;
-      if(tmp_post$2 == 0)
+      if(tmp_post_2 == 0)
         break;
 
       j = 0;
@@ -7296,9 +7296,9 @@ signed int hash_load_sam(struct list_t_ *hashes, const char *dir, signed int id)
 
       }
       snprintf(fname[(signed long int)i], sizeof(char [512l]) /*512ul*/ , "%s/%s", dir, (const void *)tmp);
-      signed int return_value_access$3;
-      return_value_access$3=access(fname[(signed long int)i], 4);
-      if(!(return_value_access$3 == 0))
+      signed int return_value_access_3;
+      return_value_access_3=access(fname[(signed long int)i], 4);
+      if(!(return_value_access_3 == 0))
         fname[(signed long int)i][(signed long int)0] = (char)0;
 
       else
@@ -7319,9 +7319,9 @@ signed int hash_load_sam(struct list_t_ *hashes, const char *dir, signed int id)
     {
       unsigned char pkey[16l];
       char error[512l];
-      signed int return_value_bkhive$4;
-      return_value_bkhive$4=bkhive((unsigned char *)sys, pkey, error, 0);
-      if(return_value_bkhive$4 == -1)
+      signed int return_value_bkhive_4;
+      return_value_bkhive_4=bkhive((unsigned char *)sys, pkey, error, 0);
+      if(return_value_bkhive_4 == -1)
         return -3;
 
       else
@@ -7338,9 +7338,9 @@ signed int hash_load_sam(struct list_t_ *hashes, const char *dir, signed int id)
           for( ; !(nd == ((struct list_nd_t_ *)NULL)); nd = nd->next)
           {
             char *str = (char *)nd->data;
-            signed int return_value_hash_extract_lmnt$5;
-            return_value_hash_extract_lmnt$5=hash_extract_lmnt(str, hashes, id);
-            if(!(return_value_hash_extract_lmnt$5 == 0))
+            signed int return_value_hash_extract_lmnt_5;
+            return_value_hash_extract_lmnt_5=hash_extract_lmnt(str, hashes, id);
+            if(!(return_value_hash_extract_lmnt_5 == 0))
             {
               id = id + 1;
               npwds = npwds + 1;
@@ -7359,7 +7359,7 @@ signed int hash_load_sam(struct list_t_ *hashes, const char *dir, signed int id)
 // file hash.c line 508
 void hash_print(struct hash_t_ *hsh, struct _IO_FILE *file, signed int nice, signed int status, signed int hide)
 {
-  enum anonymous$0 kind = hsh->kind;
+  enum anonymous_0 kind = hsh->kind;
   struct hash_t_ *lmhsh1 = ((struct hash_t_ *)NULL);
   struct hash_t_ *lmhsh2 = ((struct hash_t_ *)NULL);
   struct hash_t_ *nthsh = ((struct hash_t_ *)NULL);
@@ -7388,7 +7388,7 @@ void hash_print(struct hash_t_ *hsh, struct _IO_FILE *file, signed int nice, sig
   }
   signed int uid = hsh->uid;
   char *info = hsh->info;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(nice == 0)
   {
     if(!(*info == 0))
@@ -7441,16 +7441,16 @@ void hash_print(struct hash_t_ *hsh, struct _IO_FILE *file, signed int nice, sig
       fprintf(file, ":");
       if(!(lmhsh1 == ((struct hash_t_ *)NULL)))
       {
-        struct list_t_ *hash_print$$1$$2$$5$$1$$tables = lmhsh1->tables;
-        struct list_nd_t_ *hash_print$$1$$2$$5$$1$$nd = hash_print$$1$$2$$5$$1$$tables->head;
-        for( ; !(hash_print$$1$$2$$5$$1$$nd == ((struct list_nd_t_ *)NULL)); hash_print$$1$$2$$5$$1$$nd = hash_print$$1$$2$$5$$1$$nd->next)
+        struct list_t_ *hash_print__1__2__5__1__tables = lmhsh1->tables;
+        struct list_nd_t_ *hash_print__1__2__5__1__nd = hash_print__1__2__5__1__tables->head;
+        for( ; !(hash_print__1__2__5__1__nd == ((struct list_nd_t_ *)NULL)); hash_print__1__2__5__1__nd = hash_print__1__2__5__1__nd->next)
         {
-          struct htbl_t_ *hash_print$$1$$2$$5$$1$$1$$1$$htbl = (struct htbl_t_ *)hash_print$$1$$2$$5$$1$$nd->data;
-          struct table_t_ *hash_print$$1$$2$$5$$1$$1$$1$$tbl = hash_print$$1$$2$$5$$1$$1$$1$$htbl->tbl;
-          signed int idx = hash_print$$1$$2$$5$$1$$1$$1$$tbl->idx;
-          signed int covered = hash_print$$1$$2$$5$$1$$1$$1$$htbl->covered;
+          struct htbl_t_ *hash_print__1__2__5__1__1__1__htbl = (struct htbl_t_ *)hash_print__1__2__5__1__nd->data;
+          struct table_t_ *hash_print__1__2__5__1__1__1__tbl = hash_print__1__2__5__1__1__1__htbl->tbl;
+          signed int idx = hash_print__1__2__5__1__1__1__tbl->idx;
+          signed int covered = hash_print__1__2__5__1__1__1__htbl->covered;
           const char *name;
-          name=table_string(hash_print$$1$$2$$5$$1$$1$$1$$tbl->kind);
+          name=table_string(hash_print__1__2__5__1__1__1__tbl->kind);
           fprintf(file, "%s,%d(%d)", name, idx, covered);
         }
       }
@@ -7464,28 +7464,28 @@ void hash_print(struct hash_t_ *hsh, struct _IO_FILE *file, signed int nice, sig
         {
           struct htbl_t_ *htbl = (struct htbl_t_ *)nd->data;
           struct table_t_ *tbl = htbl->tbl;
-          signed int hash_print$$1$$2$$5$$2$$1$$1$$idx = tbl->idx;
-          signed int hash_print$$1$$2$$5$$2$$1$$1$$covered = htbl->covered;
-          const char *hash_print$$1$$2$$5$$2$$1$$1$$name;
-          hash_print$$1$$2$$5$$2$$1$$1$$name=table_string(tbl->kind);
-          fprintf(file, "%s,%d(%d)", hash_print$$1$$2$$5$$2$$1$$1$$name, hash_print$$1$$2$$5$$2$$1$$1$$idx, hash_print$$1$$2$$5$$2$$1$$1$$covered);
+          signed int hash_print__1__2__5__2__1__1__idx = tbl->idx;
+          signed int hash_print__1__2__5__2__1__1__covered = htbl->covered;
+          const char *hash_print__1__2__5__2__1__1__name;
+          hash_print__1__2__5__2__1__1__name=table_string(tbl->kind);
+          fprintf(file, "%s,%d(%d)", hash_print__1__2__5__2__1__1__name, hash_print__1__2__5__2__1__1__idx, hash_print__1__2__5__2__1__1__covered);
         }
       }
 
       fprintf(file, ":");
       if(!(nthsh == ((struct hash_t_ *)NULL)))
       {
-        struct list_t_ *hash_print$$1$$2$$5$$3$$tables = nthsh->tables;
-        struct list_nd_t_ *hash_print$$1$$2$$5$$3$$nd = hash_print$$1$$2$$5$$3$$tables->head;
-        for( ; !(hash_print$$1$$2$$5$$3$$nd == ((struct list_nd_t_ *)NULL)); hash_print$$1$$2$$5$$3$$nd = hash_print$$1$$2$$5$$3$$nd->next)
+        struct list_t_ *hash_print__1__2__5__3__tables = nthsh->tables;
+        struct list_nd_t_ *hash_print__1__2__5__3__nd = hash_print__1__2__5__3__tables->head;
+        for( ; !(hash_print__1__2__5__3__nd == ((struct list_nd_t_ *)NULL)); hash_print__1__2__5__3__nd = hash_print__1__2__5__3__nd->next)
         {
-          struct htbl_t_ *hash_print$$1$$2$$5$$3$$1$$1$$htbl = (struct htbl_t_ *)hash_print$$1$$2$$5$$3$$nd->data;
-          struct table_t_ *hash_print$$1$$2$$5$$3$$1$$1$$tbl = hash_print$$1$$2$$5$$3$$1$$1$$htbl->tbl;
-          signed int hash_print$$1$$2$$5$$3$$1$$1$$idx = hash_print$$1$$2$$5$$3$$1$$1$$tbl->idx;
-          signed int hash_print$$1$$2$$5$$3$$1$$1$$covered = hash_print$$1$$2$$5$$3$$1$$1$$htbl->covered;
-          const char *hash_print$$1$$2$$5$$3$$1$$1$$name;
-          hash_print$$1$$2$$5$$3$$1$$1$$name=table_string(hash_print$$1$$2$$5$$3$$1$$1$$tbl->kind);
-          fprintf(file, "%s,%d(%d)", hash_print$$1$$2$$5$$3$$1$$1$$name, hash_print$$1$$2$$5$$3$$1$$1$$idx, hash_print$$1$$2$$5$$3$$1$$1$$covered);
+          struct htbl_t_ *hash_print__1__2__5__3__1__1__htbl = (struct htbl_t_ *)hash_print__1__2__5__3__nd->data;
+          struct table_t_ *hash_print__1__2__5__3__1__1__tbl = hash_print__1__2__5__3__1__1__htbl->tbl;
+          signed int hash_print__1__2__5__3__1__1__idx = hash_print__1__2__5__3__1__1__tbl->idx;
+          signed int hash_print__1__2__5__3__1__1__covered = hash_print__1__2__5__3__1__1__htbl->covered;
+          const char *hash_print__1__2__5__3__1__1__name;
+          hash_print__1__2__5__3__1__1__name=table_string(hash_print__1__2__5__3__1__1__tbl->kind);
+          fprintf(file, "%s,%d(%d)", hash_print__1__2__5__3__1__1__name, hash_print__1__2__5__3__1__1__idx, hash_print__1__2__5__3__1__1__covered);
         }
       }
 
@@ -7525,11 +7525,11 @@ void hash_print(struct hash_t_ *hsh, struct _IO_FILE *file, signed int nice, sig
       else
         fprintf(file, ".......");
       if(!(lmhsh2 == ((struct hash_t_ *)NULL)))
-        tmp_if_expr$1 = lmhsh2->done != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = lmhsh2->done != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         convert_from_colon((unsigned char *)lmhsh2->pwd);
         fprintf(file, "%-7s", lmhsh2->pwd);
@@ -7609,33 +7609,33 @@ void initAMarkov0DynProg(struct AmarkovDynProg *amdp, struct markov0DynProg *m0d
       minImproba = mis->improbaFirst[(signed long int)i];
 
   }
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12);
-  m0dp->rootValue = (unsigned long int *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
-  m0dp->firstLine = (unsigned long int *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)((unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba)) * (unsigned long int)(12 - 2));
-  m0dp->buffer = (unsigned long int *)return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12);
+  m0dp->rootValue = (unsigned long int *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
+  m0dp->firstLine = (unsigned long int *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)((unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba)) * (unsigned long int)(12 - 2));
+  m0dp->buffer = (unsigned long int *)return_value_malloc_3;
   m0dp->minImproba = minImproba;
   m0dp->bufferWidth = (unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba);
   m0dp->threshold = mis->meanImprobaMark0 * (unsigned int)12;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)12);
-  amdp->rootValue = (unsigned int *)return_value_malloc$4;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
-  amdp->firstLine = (unsigned int *)return_value_malloc$5;
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)((unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba)) * (unsigned long int)(12 - 2));
-  amdp->buffer = (unsigned int *)return_value_malloc$6;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)12);
+  amdp->rootValue = (unsigned int *)return_value_malloc_4;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
+  amdp->firstLine = (unsigned int *)return_value_malloc_5;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)((unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba)) * (unsigned long int)(12 - 2));
+  amdp->buffer = (unsigned int *)return_value_malloc_6;
   amdp->minImproba = minImproba;
   amdp->bufferWidth = (unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba);
   amdp->threshold = mis->meanImprobaMark0 * (unsigned int)12;
-  void *return_value_malloc$7;
-  return_value_malloc$7=malloc(sizeof(struct aliasMarkovBuffer) /*48ul*/ );
-  amdp->amb = (struct aliasMarkovBuffer *)return_value_malloc$7;
+  void *return_value_malloc_7;
+  return_value_malloc_7=malloc(sizeof(struct aliasMarkovBuffer) /*48ul*/ );
+  amdp->amb = (struct aliasMarkovBuffer *)return_value_malloc_7;
   i = (unsigned int)0;
   for( ; !(i >= 12u); i = i + 1u)
     m0dp->rootValue[(signed long int)i] = (unsigned long int)0xffffffffffffffff;
@@ -7651,15 +7651,15 @@ void initAMarkov0DynProg(struct AmarkovDynProg *amdp, struct markov0DynProg *m0d
   amdp->amb->size_bufferRoot=getMark0BufferSizeRoot(m0dp);
   amdp->amb->size_bufferFLine=getMark0BufferSizeFLine(m0dp);
   amdp->amb->size_bufferMain=getMark0BufferSizeMain(m0dp);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(amdp->amb->size_bufferRoot);
-  amdp->amb->bufferRoot = (char *)return_value_malloc$8;
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc(amdp->amb->size_bufferFLine);
-  amdp->amb->bufferFLine = (char *)return_value_malloc$9;
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(amdp->amb->size_bufferMain);
-  amdp->amb->bufferMain = (char *)return_value_malloc$10;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(amdp->amb->size_bufferRoot);
+  amdp->amb->bufferRoot = (char *)return_value_malloc_8;
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc(amdp->amb->size_bufferFLine);
+  amdp->amb->bufferFLine = (char *)return_value_malloc_9;
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(amdp->amb->size_bufferMain);
+  amdp->amb->bufferMain = (char *)return_value_malloc_10;
   fillAliasMarkov0BufferRoot(m0dp, amdp, mis, amdp->amb->bufferRoot);
   fillAliasMarkov0BufferFLine(m0dp, amdp, mis, amdp->amb->bufferFLine);
   fillAliasMarkov0BufferMain(m0dp, amdp, mis, amdp->amb->bufferMain);
@@ -7781,29 +7781,29 @@ void initAliasMarkov64Element(struct aliasMarkov64Element *am64e, unsigned long 
 // file aliasPattern.c line 46
 void initLookUpTable(struct lookUpTable *lut, struct patternArray *array)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)array->size);
-  lut->proba = (unsigned long int *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)array->size);
-  lut->alias = (unsigned int *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)array->size);
+  lut->proba = (unsigned long int *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)array->size);
+  lut->alias = (unsigned int *)return_value_malloc_2;
   lut->length = (unsigned int)array->size;
   unsigned long int *large;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)array->size);
-  large = (unsigned long int *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)array->size);
+  large = (unsigned long int *)return_value_malloc_3;
   unsigned long int *small;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)array->size);
-  small = (unsigned long int *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)array->size);
+  small = (unsigned long int *)return_value_malloc_4;
   unsigned int *patternNumberLarge;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)array->size);
-  patternNumberLarge = (unsigned int *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)array->size);
+  patternNumberLarge = (unsigned int *)return_value_malloc_5;
   unsigned int *patternNumberSmall;
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)array->size);
-  patternNumberSmall = (unsigned int *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)array->size);
+  patternNumberSmall = (unsigned int *)return_value_malloc_6;
   unsigned int i;
   unsigned int pointerLarge = (unsigned int)0;
   unsigned int pointerSmall = (unsigned int)0;
@@ -7864,23 +7864,23 @@ void initMarkov1DynProg(struct AmarkovDynProg *amdp, struct markov1DynProg *m1dp
   unsigned int minImproba = mis->improbaMark1[(signed long int)0][(signed long int)0];
   unsigned int i;
   unsigned int c;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12);
-  m1dp->rootValue = (unsigned long int *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
-  m1dp->firstLine = (unsigned long int *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12);
+  m1dp->rootValue = (unsigned long int *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
+  m1dp->firstLine = (unsigned long int *)return_value_malloc_2;
   m1dp->threshold = mis->meanImprobaMark0 * (unsigned int)12;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)12);
-  amdp->rootValue = (unsigned int *)return_value_malloc$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
-  amdp->firstLine = (unsigned int *)return_value_malloc$4;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)12);
+  amdp->rootValue = (unsigned int *)return_value_malloc_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
+  amdp->firstLine = (unsigned int *)return_value_malloc_4;
   amdp->threshold = mis->meanImprobaMark0 * (unsigned int)12;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(struct aliasMarkovBuffer) /*48ul*/ );
-  amdp->amb = (struct aliasMarkovBuffer *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(struct aliasMarkovBuffer) /*48ul*/ );
+  amdp->amb = (struct aliasMarkovBuffer *)return_value_malloc_5;
   i = (unsigned int)0;
   for( ; !(i >= 12u); i = i + 1u)
     m1dp->rootValue[(signed long int)i] = (unsigned long int)0xffffffffffffffff;
@@ -7905,15 +7905,15 @@ void initMarkov1DynProg(struct AmarkovDynProg *amdp, struct markov1DynProg *m1dp
   m1dp->bufferWidth = (unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba);
   amdp->minImproba = minImproba;
   amdp->bufferWidth = (unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba);
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)m1dp->bufferWidth * (unsigned long int)(12 - 2));
-  amdp->buffer = (unsigned int *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)m1dp->bufferWidth * (unsigned long int)(12 - 2));
+  amdp->buffer = (unsigned int *)return_value_malloc_6;
   c = (unsigned int)0;
   for( ; !(c >= 26u); c = c + 1u)
   {
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)m1dp->bufferWidth * (unsigned long int)(12 - 2));
-    m1dp->buffer[(signed long int)c] = (unsigned long int *)return_value_malloc$7;
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)m1dp->bufferWidth * (unsigned long int)(12 - 2));
+    m1dp->buffer[(signed long int)c] = (unsigned long int *)return_value_malloc_7;
     i = (unsigned int)0;
     for( ; !(i >= 10u * m1dp->bufferWidth); i = i + 1u)
       m1dp->buffer[(signed long int)c][(signed long int)i] = (unsigned long int)0xffffffffffffffff;
@@ -7924,15 +7924,15 @@ void initMarkov1DynProg(struct AmarkovDynProg *amdp, struct markov1DynProg *m1dp
   amdp->amb->size_bufferRoot=getMark1BufferSizeRoot(m1dp);
   amdp->amb->size_bufferFLine=getMark1BufferSizeFLine(m1dp);
   amdp->amb->size_bufferMain=getMark1BufferSizeMain(m1dp);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(amdp->amb->size_bufferRoot);
-  amdp->amb->bufferRoot = (char *)return_value_malloc$8;
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc(amdp->amb->size_bufferFLine);
-  amdp->amb->bufferFLine = (char *)return_value_malloc$9;
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(amdp->amb->size_bufferMain);
-  amdp->amb->bufferMain = (char *)return_value_malloc$10;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(amdp->amb->size_bufferRoot);
+  amdp->amb->bufferRoot = (char *)return_value_malloc_8;
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc(amdp->amb->size_bufferFLine);
+  amdp->amb->bufferFLine = (char *)return_value_malloc_9;
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(amdp->amb->size_bufferMain);
+  amdp->amb->bufferMain = (char *)return_value_malloc_10;
   fillAliasMarkov1BufferRoot(m1dp, amdp, mis, amdp->amb->bufferRoot);
   fillAliasMarkov1BufferFLine(m1dp, amdp, mis, amdp->amb->bufferFLine);
   fillAliasMarkov1BufferMain(m1dp, amdp, mis, amdp->amb->bufferMain);
@@ -7946,23 +7946,23 @@ void initMarkov2DynProg(struct AmarkovDynProg *amdp, struct markov2DynProg *m2dp
   unsigned int i;
   unsigned int c1;
   unsigned int c2;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12);
-  m2dp->rootValue = (unsigned long int *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
-  m2dp->firstLine = (unsigned long int *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)12);
+  m2dp->rootValue = (unsigned long int *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
+  m2dp->firstLine = (unsigned long int *)return_value_malloc_2;
   m2dp->threshold = mis->meanImprobaMark0 * (unsigned int)12;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)12);
-  amdp->rootValue = (unsigned int *)return_value_malloc$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
-  amdp->firstLine = (unsigned int *)return_value_malloc$4;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)12);
+  amdp->rootValue = (unsigned int *)return_value_malloc_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)(12 - 1));
+  amdp->firstLine = (unsigned int *)return_value_malloc_4;
   amdp->threshold = mis->meanImprobaMark0 * (unsigned int)12;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(struct aliasMarkovBuffer) /*48ul*/ );
-  amdp->amb = (struct aliasMarkovBuffer *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(struct aliasMarkovBuffer) /*48ul*/ );
+  amdp->amb = (struct aliasMarkovBuffer *)return_value_malloc_5;
   i = (unsigned int)0;
   for( ; !(i >= 12u); i = i + 1u)
     m2dp->rootValue[(signed long int)i] = (unsigned long int)0xffffffffffffffff;
@@ -7996,18 +7996,18 @@ void initMarkov2DynProg(struct AmarkovDynProg *amdp, struct markov2DynProg *m2dp
   m2dp->bufferWidth = (unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba);
   amdp->minImproba = minImproba;
   amdp->bufferWidth = (unsigned int)1 + (unsigned int)12 * (mis->meanImprobaMark0 - minImproba);
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)26 * (unsigned long int)m2dp->bufferWidth * (unsigned long int)(12 - 2));
-  amdp->buffer = (unsigned int *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)26 * (unsigned long int)26 * (unsigned long int)m2dp->bufferWidth * (unsigned long int)(12 - 2));
+  amdp->buffer = (unsigned int *)return_value_malloc_6;
   c1 = (unsigned int)0;
   for( ; !(c1 >= 26u); c1 = c1 + 1u)
   {
     c2 = (unsigned int)0;
     for( ; !(c2 >= 26u); c2 = c2 + 1u)
     {
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)m2dp->bufferWidth * (unsigned long int)(12 - 2));
-      m2dp->buffer[(signed long int)c1][(signed long int)c2] = (unsigned long int *)return_value_malloc$7;
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)m2dp->bufferWidth * (unsigned long int)(12 - 2));
+      m2dp->buffer[(signed long int)c1][(signed long int)c2] = (unsigned long int *)return_value_malloc_7;
       i = (unsigned int)0;
       for( ; !(i >= 10u * m2dp->bufferWidth); i = i + 1u)
         m2dp->buffer[(signed long int)c1][(signed long int)c2][(signed long int)i] = (unsigned long int)0xffffffffffffffff;
@@ -8019,15 +8019,15 @@ void initMarkov2DynProg(struct AmarkovDynProg *amdp, struct markov2DynProg *m2dp
   amdp->amb->size_bufferRoot=getMark2BufferSizeRoot(m2dp);
   amdp->amb->size_bufferFLine=getMark2BufferSizeFLine(m2dp);
   amdp->amb->size_bufferMain=getMark2BufferSizeMain(m2dp);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(amdp->amb->size_bufferRoot);
-  amdp->amb->bufferRoot = (char *)return_value_malloc$8;
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc(amdp->amb->size_bufferFLine);
-  amdp->amb->bufferFLine = (char *)return_value_malloc$9;
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(amdp->amb->size_bufferMain);
-  amdp->amb->bufferMain = (char *)return_value_malloc$10;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(amdp->amb->size_bufferRoot);
+  amdp->amb->bufferRoot = (char *)return_value_malloc_8;
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc(amdp->amb->size_bufferFLine);
+  amdp->amb->bufferFLine = (char *)return_value_malloc_9;
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(amdp->amb->size_bufferMain);
+  amdp->amb->bufferMain = (char *)return_value_malloc_10;
   fillAliasMarkov2BufferRoot(m2dp, amdp, mis, amdp->amb->bufferRoot);
   fillAliasMarkov2BufferFLine(m2dp, amdp, mis, amdp->amb->bufferFLine);
   fillAliasMarkov2BufferMain(m2dp, amdp, mis, amdp->amb->bufferMain);
@@ -8042,40 +8042,40 @@ signed int initMarkovDynProgWrapper(struct markovDynProgWrapper *mdpw, struct ma
   mdpw->m1dp = (struct markov1DynProg *)(void *)0;
   mdpw->m2dp = (struct markov2DynProg *)(void *)0;
   mdpw->amdp = (struct AmarkovDynProg *)(void *)0;
-  void *return_value_malloc$1;
-  void *return_value_malloc$2;
-  void *return_value_malloc$3;
-  void *return_value_malloc$4;
-  void *return_value_malloc$5;
-  void *return_value_malloc$6;
+  void *return_value_malloc_1;
+  void *return_value_malloc_2;
+  void *return_value_malloc_3;
+  void *return_value_malloc_4;
+  void *return_value_malloc_5;
+  void *return_value_malloc_6;
   switch((signed int)mdpw->type)
   {
     case NO_MARK:
       break;
     case MARK0:
     {
-      return_value_malloc$1=malloc(sizeof(struct markov0DynProg) /*40ul*/ );
-      mdpw->m0dp = (struct markov0DynProg *)return_value_malloc$1;
-      return_value_malloc$2=malloc(sizeof(struct AmarkovDynProg) /*48ul*/ );
-      mdpw->amdp = (struct AmarkovDynProg *)return_value_malloc$2;
+      return_value_malloc_1=malloc(sizeof(struct markov0DynProg) /*40ul*/ );
+      mdpw->m0dp = (struct markov0DynProg *)return_value_malloc_1;
+      return_value_malloc_2=malloc(sizeof(struct AmarkovDynProg) /*48ul*/ );
+      mdpw->amdp = (struct AmarkovDynProg *)return_value_malloc_2;
       initAMarkov0DynProg(mdpw->amdp, mdpw->m0dp, mis);
       break;
     }
     case MARK1:
     {
-      return_value_malloc$3=malloc(sizeof(struct markov1DynProg) /*240ul*/ );
-      mdpw->m1dp = (struct markov1DynProg *)return_value_malloc$3;
-      return_value_malloc$4=malloc(sizeof(struct AmarkovDynProg) /*48ul*/ );
-      mdpw->amdp = (struct AmarkovDynProg *)return_value_malloc$4;
+      return_value_malloc_3=malloc(sizeof(struct markov1DynProg) /*240ul*/ );
+      mdpw->m1dp = (struct markov1DynProg *)return_value_malloc_3;
+      return_value_malloc_4=malloc(sizeof(struct AmarkovDynProg) /*48ul*/ );
+      mdpw->amdp = (struct AmarkovDynProg *)return_value_malloc_4;
       initMarkov1DynProg(mdpw->amdp, mdpw->m1dp, mis);
       break;
     }
     case MARK2:
     {
-      return_value_malloc$5=malloc(sizeof(struct markov2DynProg) /*5440ul*/ );
-      mdpw->m2dp = (struct markov2DynProg *)return_value_malloc$5;
-      return_value_malloc$6=malloc(sizeof(struct AmarkovDynProg) /*48ul*/ );
-      mdpw->amdp = (struct AmarkovDynProg *)return_value_malloc$6;
+      return_value_malloc_5=malloc(sizeof(struct markov2DynProg) /*5440ul*/ );
+      mdpw->m2dp = (struct markov2DynProg *)return_value_malloc_5;
+      return_value_malloc_6=malloc(sizeof(struct AmarkovDynProg) /*48ul*/ );
+      mdpw->amdp = (struct AmarkovDynProg *)return_value_malloc_6;
       initMarkov2DynProg(mdpw->amdp, mdpw->m2dp, mis);
     }
   }
@@ -8121,9 +8121,9 @@ void list_add_tail(struct list_t_ *l, void *data)
 struct list_t_ * list_alloc(void)
 {
   struct list_t_ *l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct list_t_) /*24ul*/ );
-  l = (struct list_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct list_t_) /*24ul*/ );
+  l = (struct list_t_ *)return_value_malloc_1;
   l->size = 0;
   l->head = ((struct list_nd_t_ *)NULL);
   l->tail = ((struct list_nd_t_ *)NULL);
@@ -8151,9 +8151,9 @@ void list_free(struct list_t_ *l)
 struct list_nd_t_ * list_nd_alloc(void *data)
 {
   struct list_nd_t_ *nd;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct list_nd_t_) /*24ul*/ );
-  nd = (struct list_nd_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct list_nd_t_) /*24ul*/ );
+  nd = (struct list_nd_t_ *)return_value_malloc_1;
   nd->next = ((struct list_nd_t_ *)NULL);
   nd->prev = ((struct list_nd_t_ *)NULL);
   nd->data = data;
@@ -8187,9 +8187,9 @@ void * list_rem_head(struct list_t_ *l)
 
     else
       l->tail = ((struct list_nd_t_ *)NULL);
-    void *return_value_list_nd_free$1;
-    return_value_list_nd_free$1=list_nd_free(nd);
-    return return_value_list_nd_free$1;
+    void *return_value_list_nd_free_1;
+    return_value_list_nd_free_1=list_nd_free(nd);
+    return return_value_list_nd_free_1;
   }
 }
 
@@ -8211,9 +8211,9 @@ void * list_rem_tail(struct list_t_ *l)
 
     else
       l->head = ((struct list_nd_t_ *)NULL);
-    void *return_value_list_nd_free$1;
-    return_value_list_nd_free$1=list_nd_free(nd);
-    return return_value_list_nd_free$1;
+    void *return_value_list_nd_free_1;
+    return_value_list_nd_free_1=list_nd_free(nd);
+    return return_value_list_nd_free_1;
   }
 }
 
@@ -8226,15 +8226,15 @@ char * lm_from_nt(const char *pwd, signed int n, const unsigned char *lmhash)
   signed int i;
   memcpy((void *)tmp, (const void *)pwd, (unsigned long int)n);
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= n); i = i + 1)
   {
     if((signed int)tmp[(signed long int)i] >= 97)
-      tmp_if_expr$1 = (signed int)tmp[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)tmp[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       tmp[(signed long int)i] = (unsigned char)((signed int)tmp[(signed long int)i] + -97 + 65);
 
     else
@@ -8345,13 +8345,13 @@ char * lm_from_nt(const char *pwd, signed int n, const unsigned char *lmhash)
       }
   }
   lmtable_mkhash((unsigned char *)tmp, hash);
-  signed int return_value_memcmp$3;
-  return_value_memcmp$3=memcmp((const void *)lmhash, (const void *)hash, sizeof(unsigned char [8l]) /*8ul*/ );
-  char *return_value___strdup$2;
-  if(return_value_memcmp$3 == 0)
+  signed int return_value_memcmp_3;
+  return_value_memcmp_3=memcmp((const void *)lmhash, (const void *)hash, sizeof(unsigned char [8l]) /*8ul*/ );
+  char *return_value___strdup_2;
+  if(return_value_memcmp_3 == 0)
   {
-    return_value___strdup$2=__strdup((char *)tmp);
-    return return_value___strdup$2;
+    return_value___strdup_2=__strdup((char *)tmp);
+    return return_value___strdup_2;
   }
 
   else
@@ -8370,10 +8370,10 @@ unsigned long int lmflash_bin69(unsigned char *input)
     if(!(input[(signed long int)i] == 0))
     {
       char *x1;
-      void *return_value_memchr$1;
-      return_value_memchr$1=memchr((const void *)extended_chars$link3, (signed int)input[(signed long int)i], (unsigned long int)73);
-      x1 = (char *)return_value_memchr$1;
-      char *x2 = (char *)extended_chars$link3;
+      void *return_value_memchr_1;
+      return_value_memchr_1=memchr((const void *)extended_chars_link3, (signed int)input[(signed long int)i], (unsigned long int)73);
+      x1 = (char *)return_value_memchr_1;
+      char *x2 = (char *)extended_chars_link3;
       sum = sum * (unsigned long int)69 + (unsigned long int)(x1 - x2);
     }
 
@@ -8472,7 +8472,7 @@ void lmflash_unbin69(unsigned int input, unsigned char *output)
   i = 5;
   for( ; i >= 0; i = i - 1)
   {
-    output[(signed long int)i] = extended_chars$link3[(signed long int)(input % (unsigned int)69)];
+    output[(signed long int)i] = extended_chars_link3[(signed long int)(input % (unsigned int)69)];
     input = input / (unsigned int)69;
   }
 }
@@ -8484,21 +8484,21 @@ unsigned long int lmgerman_bin73(unsigned char *input)
   signed int i = 0;
   unsigned long int sum = (unsigned long int)0;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 7))
-      tmp_if_expr$1 = input[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = input[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     char *x1;
-    void *return_value_memchr$2;
-    return_value_memchr$2=memchr((const void *)lmgerman_chars, (signed int)input[(signed long int)i], (unsigned long int)73);
-    x1 = (char *)return_value_memchr$2;
+    void *return_value_memchr_2;
+    return_value_memchr_2=memchr((const void *)lmgerman_chars, (signed int)input[(signed long int)i], (unsigned long int)73);
+    x1 = (char *)return_value_memchr_2;
     char *x2 = (char *)lmgerman_chars;
     sum = sum * (unsigned long int)73 + (unsigned long int)(x1 - x2);
     i = i + 1;
@@ -8534,9 +8534,9 @@ signed int lmgerman_check(void *hsh_, void *tbl_, void *el_)
   }
   lmtable_mkhash(pwd, tmp);
   wincp1252_to_ascii(pwd);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, (unsigned long int)8);
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, (unsigned long int)8);
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -8587,13 +8587,13 @@ void lmgerman_find(void *hsh_, void *tbl_, void *el_)
 signed int lmgerman_isvalid(void *hsh_, void *tbl_)
 {
   struct hash_t_ *hsh = (struct hash_t_ *)hsh_;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)hsh->kind == lm1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)hsh->kind == lm2 ? (_Bool)1 : (_Bool)0;
-  return tmp_if_expr$1 ? 1 : 0;
+    tmp_if_expr_1 = (signed int)hsh->kind == lm2 ? (_Bool)1 : (_Bool)0;
+  return tmp_if_expr_1 ? 1 : 0;
 }
 
 // lmgerman_lookup_srt
@@ -8632,7 +8632,7 @@ signed int lmgerman_lookup_srt(void *hsh_, void *tbl_, void *el_)
 // file lmgerman.c line 194
 void lmgerman_mkredux(struct table_t_ *tbl, unsigned char *hash, unsigned char *pwd, signed int n_redux)
 {
-  const unsigned char *charset = extended_chars$link1;
+  const unsigned char *charset = extended_chars_link1;
   signed int chars_size = (signed int)sizeof(const unsigned char [69l]) /*69ul*/ ;
   signed int lmgerman_chars_size = 4;
   unsigned int idx[2l];
@@ -8772,9 +8772,9 @@ signed int lmtable_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   lmtable_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, (unsigned long int)8);
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, (unsigned long int)8);
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -8832,9 +8832,9 @@ void lmtable_find(void *hsh_, void *tbl_, void *el_)
   }
   signed int i;
   signed int len0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)pwd);
-  len0 = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)pwd);
+  len0 = (signed int)return_value_strlen_1;
   signed int len = len0 < 4 ? len0 : 4;
   unsigned int prefix = (unsigned int)0;
   unsigned long int offset = (unsigned long int)(chars_size * chars_size * chars_size * chars_size);
@@ -8842,9 +8842,9 @@ void lmtable_find(void *hsh_, void *tbl_, void *el_)
   i = 0;
   for( ; !(i >= 4); i = i + 1)
   {
-    char *return_value___builtin_strchr$2;
-    return_value___builtin_strchr$2=__builtin_strchr(charset, (signed int)pwd[(signed long int)i]);
-    p = return_value___builtin_strchr$2;
+    char *return_value___builtin_strchr_2;
+    return_value___builtin_strchr_2=__builtin_strchr(charset, (signed int)pwd[(signed long int)i]);
+    p = return_value___builtin_strchr_2;
     if(!(i >= len))
       prefix = (unsigned int)((signed long int)(prefix * (unsigned int)chars_size) + (p - charset));
 
@@ -8861,9 +8861,9 @@ void lmtable_find(void *hsh_, void *tbl_, void *el_)
   i = 0;
   for( ; !(i >= 3); i = i + 1)
   {
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(charset, (signed int)pwd[(signed long int)(i + 4)]);
-    p = return_value___builtin_strchr$3;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(charset, (signed int)pwd[(signed long int)(i + 4)]);
+    p = return_value___builtin_strchr_3;
     if(!(i >= len))
       postfix = (unsigned short int)((signed long int)((signed int)postfix * chars_size) + (p - charset));
 
@@ -8881,13 +8881,13 @@ void lmtable_find(void *hsh_, void *tbl_, void *el_)
 signed int lmtable_isvalid(void *hsh_, void *tbl_)
 {
   struct hash_t_ *hsh = (struct hash_t_ *)hsh_;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)hsh->kind == lm1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)hsh->kind == lm2 ? (_Bool)1 : (_Bool)0;
-  return tmp_if_expr$1 ? 1 : 0;
+    tmp_if_expr_1 = (signed int)hsh->kind == lm2 ? (_Bool)1 : (_Bool)0;
+  return tmp_if_expr_1 ? 1 : 0;
 }
 
 // lmtable_lookup_end
@@ -9176,22 +9176,22 @@ signed int lmtable_setup(void *tbl_)
 void load_config(struct arg_t_ *arg)
 {
   char buff[512l];
-  signed int return_value_arg_read_conf$2;
+  signed int return_value_arg_read_conf_2;
   if(arg->cfname == ((char *)NULL))
   {
     char *home;
     home=getenv("HOME");
     snprintf(buff, sizeof(char [512l]) /*512ul*/ , "%s/.ophcrackrc", home);
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(buff);
-    arg->cfname = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(buff);
+    arg->cfname = return_value___strdup_1;
     arg_read_conf(arg);
   }
 
   else
   {
-    return_value_arg_read_conf$2=arg_read_conf(arg);
-    if(return_value_arg_read_conf$2 == -1)
+    return_value_arg_read_conf_2=arg_read_conf(arg);
+    if(return_value_arg_read_conf_2 == -1)
     {
       fprintf(stderr, "Cannot open file %s for reading.\n", arg->cfname);
       exit(1);
@@ -9220,7 +9220,7 @@ signed int load_hashes_pwdump(struct ophcrack_t_ *crack, signed int id)
   npwds=hash_load_pwdump(hashes, file, id);
   signed int nhashes = hashes->size;
   fclose(file);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(npwds == 0)
   {
     fprintf(stderr, "No proper hashes have been found in %s.\n", hfname);
@@ -9231,11 +9231,11 @@ signed int load_hashes_pwdump(struct ophcrack_t_ *crack, signed int id)
     if(arg->use_gui == 0)
     {
       if(arg->quiet == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         fprintf(arg->lfile, "%d hashes have been found in %s.\n", nhashes, hfname);
 
     }
@@ -9261,7 +9261,7 @@ signed int load_hashes_sam(struct ophcrack_t_ *crack, signed int id)
   signed int npwds;
   npwds=hash_load_sam(hashes, dir, id);
   signed int nhashes = hashes->size;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(npwds == 0)
   {
     fprintf(stderr, "No proper hashes have been found in the encrypted SAM file in %s.\n", arg->samdir);
@@ -9274,11 +9274,11 @@ signed int load_hashes_sam(struct ophcrack_t_ *crack, signed int id)
       if(arg->use_gui == 0)
       {
         if(arg->quiet == 0)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           fprintf(arg->lfile, "%d hashes have been found in the encrypted SAM found in %s.\n\n", nhashes, dir);
 
       }
@@ -9332,7 +9332,7 @@ signed int load_tables(struct ophcrack_t_ *crack, struct arg_t_ *arg, struct lis
   struct list_t_ *tables;
   tables=list_alloc();
   tnd = table_str->head;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(tnd == ((struct list_nd_t_ *)NULL)); tnd = tnd->next)
   {
     char *tblstr = (char *)tnd->data;
@@ -9349,11 +9349,11 @@ signed int load_tables(struct ophcrack_t_ *crack, struct arg_t_ *arg, struct lis
           if(ret >= 1)
           {
             if(arg->quiet == 0)
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
             {
               if(!((signed int)*dir == 0))
                 fprintf(arg->lfile, "Opened %d table(s) from %s/%s.\n", ret, dir, tblstr);
@@ -9408,15 +9408,15 @@ signed int load_tables(struct ophcrack_t_ *crack, struct arg_t_ *arg, struct lis
   {
     struct table_t_ *tbl = (struct table_t_ *)nd->data;
     ophcrack_setup_table(tbl);
-    signed int load_tables$$1$$3$$1$$ret;
-    load_tables$$1$$3$$1$$ret=table_verify(tbl);
-    if(load_tables$$1$$3$$1$$ret >= 1)
+    signed int load_tables__1__3__1__ret;
+    load_tables__1__3__1__ret=table_verify(tbl);
+    if(load_tables__1__3__1__ret >= 1)
       ophcrack_add_table(crack, tbl);
 
     else
       if(arg->use_gui == 0)
       {
-        if(!(load_tables$$1$$3$$1$$ret >= 0))
+        if(!(load_tables__1__3__1__ret >= 0))
           fprintf(stderr, "Size of table(s) %s,%d is invalid. Download it again.\n", tbl->name, tbl->idx);
 
       }
@@ -9433,9 +9433,9 @@ signed int main(signed int argc, char **argv)
   struct arg_t_ *arg;
   arg=arg_alloc();
   signed int c;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup("");
-  list_add_tail(arg->table_path, (void *)return_value___strdup$1);
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup("");
+  list_add_tail(arg->table_path, (void *)return_value___strdup_1);
   if(argc == 1)
   {
     if(arg->use_gui == 0)
@@ -9444,37 +9444,37 @@ signed int main(signed int argc, char **argv)
   }
 
   signed int i = 1;
-  signed int tmp_statement_expression$2;
-  signed int tmp_post$3;
+  signed int tmp_statement_expression_2;
+  signed int tmp_post_3;
   while(!(i >= argc))
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    tmp_post$3 = i;
+    tmp_post_3 = i;
     i = i + 1;
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp(argv[(signed long int)tmp_post$3], "-c");
-    tmp_statement_expression$2 = return_value___builtin_strcmp$4;
-    if(tmp_statement_expression$2 == 0)
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp(argv[(signed long int)tmp_post_3], "-c");
+    tmp_statement_expression_2 = return_value___builtin_strcmp_4;
+    if(tmp_statement_expression_2 == 0)
       break;
 
   }
-  char *return_value___strdup$5;
+  char *return_value___strdup_5;
   if(!(i >= argc))
   {
-    return_value___strdup$5=__strdup(argv[(signed long int)i]);
-    arg->cfname = return_value___strdup$5;
+    return_value___strdup_5=__strdup(argv[(signed long int)i]);
+    arg->cfname = return_value___strdup_5;
   }
 
   load_config(arg);
-  char *return_value___strdup$6;
-  char *return_value___strdup$7;
-  char *return_value___strdup$8;
-  char *return_value___strdup$9;
-  char *return_value___strdup$10;
-  char *return_value___strdup$11;
-  char *return_value___strdup$12;
-  char *return_value___strdup$13;
+  char *return_value___strdup_6;
+  char *return_value___strdup_7;
+  char *return_value___strdup_8;
+  char *return_value___strdup_9;
+  char *return_value___strdup_10;
+  char *return_value___strdup_11;
+  char *return_value___strdup_12;
+  char *return_value___strdup_13;
   do
   {
     static const char options[38l] = { 'a', 'A', 'b', 'B', 'c', ':', 'D', 'd', ':', 'e', 'f', ':', 'g', 'h', 'i', 'I', 'l', ':', 'n', ':', 'o', ':', 'p', ':', 'q', 'r', 's', 'S', ':', 't', ':', 'u', 'v', 'w', ':', 'x', ':', 0 };
@@ -9512,8 +9512,8 @@ signed int main(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value___strdup$6=__strdup(optarg);
-        list_add_head(arg->table_path, (void *)return_value___strdup$6);
+        return_value___strdup_6=__strdup(optarg);
+        list_add_head(arg->table_path, (void *)return_value___strdup_6);
         break;
       }
       case 101:
@@ -9523,8 +9523,8 @@ signed int main(signed int argc, char **argv)
       }
       case 102:
       {
-        return_value___strdup$7=__strdup(optarg);
-        arg->hfname = return_value___strdup$7;
+        return_value___strdup_7=__strdup(optarg);
+        arg->hfname = return_value___strdup_7;
         break;
       }
       case 103:
@@ -9549,8 +9549,8 @@ signed int main(signed int argc, char **argv)
       }
       case 108:
       {
-        return_value___strdup$8=__strdup(optarg);
-        arg->lfname = return_value___strdup$8;
+        return_value___strdup_8=__strdup(optarg);
+        arg->lfname = return_value___strdup_8;
         break;
       }
       case 110:
@@ -9560,8 +9560,8 @@ signed int main(signed int argc, char **argv)
       }
       case 111:
       {
-        return_value___strdup$9=__strdup(optarg);
-        arg->ofname = return_value___strdup$9;
+        return_value___strdup_9=__strdup(optarg);
+        arg->ofname = return_value___strdup_9;
         break;
       }
       case 112:
@@ -9587,14 +9587,14 @@ signed int main(signed int argc, char **argv)
       case 83:
       {
         arg->ssave = 1;
-        return_value___strdup$10=__strdup(optarg);
-        arg->sfname = return_value___strdup$10;
+        return_value___strdup_10=__strdup(optarg);
+        arg->sfname = return_value___strdup_10;
         break;
       }
       case 116:
       {
-        return_value___strdup$11=__strdup(optarg);
-        arg->tblstr = return_value___strdup$11;
+        return_value___strdup_11=__strdup(optarg);
+        arg->tblstr = return_value___strdup_11;
         break;
       }
       case 117:
@@ -9609,15 +9609,15 @@ signed int main(signed int argc, char **argv)
       }
       case 119:
       {
-        return_value___strdup$12=__strdup(optarg);
-        arg->samdir = return_value___strdup$12;
+        return_value___strdup_12=__strdup(optarg);
+        arg->samdir = return_value___strdup_12;
         break;
       }
       case 120:
       {
         arg->exportcsv = 1;
-        return_value___strdup$13=__strdup(optarg);
-        arg->xfname = return_value___strdup$13;
+        return_value___strdup_13=__strdup(optarg);
+        arg->xfname = return_value___strdup_13;
         break;
       }
       default:
@@ -9691,9 +9691,9 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  char *tmp_statement_expression$14;
-  signed int tmp_statement_expression$16;
-  char *return_value___strdup$18;
+  char *tmp_statement_expression_14;
+  signed int tmp_statement_expression_16;
+  char *return_value___strdup_18;
   if(!(arg->tblstr == ((char *)NULL)))
   {
     struct list_t_ *table_str = arg->table_str_cmd;
@@ -9703,23 +9703,23 @@ signed int main(signed int argc, char **argv)
       char __r0;
       char __r1;
       char __r2;
-      char *return_value___strsep_g$15;
-      return_value___strsep_g$15=__strsep_g(&arg->tblstr, ":");
-      tmp_statement_expression$14 = return_value___strsep_g$15;
-      tmp = tmp_statement_expression$14;
+      char *return_value___strsep_g_15;
+      return_value___strsep_g_15=__strsep_g(&arg->tblstr, ":");
+      tmp_statement_expression_14 = return_value___strsep_g_15;
+      tmp = tmp_statement_expression_14;
       if(tmp == ((char *)NULL))
         break;
 
-      unsigned long int main$$1$$10$$2$$__s1_len;
-      unsigned long int main$$1$$10$$2$$__s2_len;
-      signed int return_value___builtin_strcmp$17;
-      return_value___builtin_strcmp$17=__builtin_strcmp(tmp, "");
-      tmp_statement_expression$16 = return_value___builtin_strcmp$17;
-      if(tmp_statement_expression$16 == 0)
+      unsigned long int main__1__10__2____s1_len;
+      unsigned long int main__1__10__2____s2_len;
+      signed int return_value___builtin_strcmp_17;
+      return_value___builtin_strcmp_17=__builtin_strcmp(tmp, "");
+      tmp_statement_expression_16 = return_value___builtin_strcmp_17;
+      if(tmp_statement_expression_16 == 0)
         break;
 
-      return_value___strdup$18=__strdup(tmp);
-      list_add_tail(table_str, (void *)return_value___strdup$18);
+      return_value___strdup_18=__strdup(tmp);
+      list_add_tail(table_str, (void *)return_value___strdup_18);
     }
     while((_Bool)1);
   }
@@ -9730,19 +9730,19 @@ signed int main(signed int argc, char **argv)
   ophcrack_start(crack);
   signed int maxhid = 0;
   signed int npwds = 0;
-  signed int return_value_load_hashes_pwdump$19;
+  signed int return_value_load_hashes_pwdump_19;
   if(!(arg->hfname == ((char *)NULL)))
   {
-    return_value_load_hashes_pwdump$19=load_hashes_pwdump(crack, maxhid);
-    npwds = npwds + return_value_load_hashes_pwdump$19;
+    return_value_load_hashes_pwdump_19=load_hashes_pwdump(crack, maxhid);
+    npwds = npwds + return_value_load_hashes_pwdump_19;
   }
 
   maxhid = crack->maxhid;
-  signed int return_value_load_hashes_sam$20;
+  signed int return_value_load_hashes_sam_20;
   if(!(arg->samdir == ((char *)NULL)))
   {
-    return_value_load_hashes_sam$20=load_hashes_sam(crack, maxhid);
-    npwds = npwds + return_value_load_hashes_sam$20;
+    return_value_load_hashes_sam_20=load_hashes_sam(crack, maxhid);
+    npwds = npwds + return_value_load_hashes_sam_20;
   }
 
   if(arg->use_gui == 0)
@@ -9781,8 +9781,8 @@ signed int main(signed int argc, char **argv)
     tnd = enabled->head;
     for( ; !(tnd == ((struct list_nd_t_ *)NULL)); tnd = tnd->next)
     {
-      struct table_t_ *main$$1$$13$$1$$1$$1$$tbl = (struct table_t_ *)tnd->data;
-      ophcrack_associate(crack, hsh, main$$1$$13$$1$$1$$1$$tbl);
+      struct table_t_ *main__1__13__1__1__1__tbl = (struct table_t_ *)tnd->data;
+      ophcrack_associate(crack, hsh, main__1__13__1__1__1__tbl);
     }
   }
   signed int count = 0;
@@ -9810,18 +9810,18 @@ signed int main(signed int argc, char **argv)
     }
 
   }
-  _Bool tmp_if_expr$21;
+  _Bool tmp_if_expr_21;
   if(arg->use_gui == 0)
   {
     if(!(arg->stats == 0))
       display_stats(crack);
 
     if(arg->quiet == 0)
-      tmp_if_expr$21 = (_Bool)1;
+      tmp_if_expr_21 = (_Bool)1;
 
     else
-      tmp_if_expr$21 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$21)
+      tmp_if_expr_21 = arg->lfile != stdout ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_21)
     {
       fprintf(arg->lfile, "\n\nResults:\n\n");
       fprintf(arg->lfile, "%-32s %-14s %s\n", (const void *)"username / hash", (const void *)"LM password", (const void *)"NT password");
@@ -9844,23 +9844,23 @@ signed int main(signed int argc, char **argv)
   {
     if(!(arg->ofname == ((char *)NULL)))
     {
-      struct _IO_FILE *main$$1$$16$$ofile;
-      main$$1$$16$$ofile=fopen(arg->ofname, "w");
-      struct _IO_FILE *main$$1$$16$$xfile = ((struct _IO_FILE *)NULL);
+      struct _IO_FILE *main__1__16__ofile;
+      main__1__16__ofile=fopen(arg->ofname, "w");
+      struct _IO_FILE *main__1__16__xfile = ((struct _IO_FILE *)NULL);
       if(!(arg->exportcsv == 0))
-        main$$1$$16$$xfile=fopen(arg->xfname, "w");
+        main__1__16__xfile=fopen(arg->xfname, "w");
 
       signed int fields[13l] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-      if(!(main$$1$$16$$ofile == ((struct _IO_FILE *)NULL)))
+      if(!(main__1__16__ofile == ((struct _IO_FILE *)NULL)))
       {
-        if(!(main$$1$$16$$xfile == ((struct _IO_FILE *)NULL)))
+        if(!(main__1__16__xfile == ((struct _IO_FILE *)NULL)))
         {
-          ophcrack_export_csv(crack, main$$1$$16$$xfile, fields, (char)59, (char)0);
-          fclose(main$$1$$16$$xfile);
+          ophcrack_export_csv(crack, main__1__16__xfile, fields, (char)59, (char)0);
+          fclose(main__1__16__xfile);
         }
 
-        ophcrack_save(crack, main$$1$$16$$ofile, 0, 0);
-        fclose(main$$1$$16$$ofile);
+        ophcrack_save(crack, main__1__16__ofile, 0, 0);
+        fclose(main__1__16__ofile);
       }
 
     }
@@ -9877,18 +9877,18 @@ void make_nthash(char *pw, char *out)
   unsigned char *pwd = (unsigned char *)pw;
   unsigned short int unipwd[128l] = { (unsigned short int)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pw);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pw);
+  len = (signed int)return_value_strlen_1;
   signed int i = 0;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_2;
   for( ; !(i >= len); i = i + 1)
   {
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)((signed int)pwd[(signed long int)i] << 8);
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    unipwd[(signed long int)i] = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    unipwd[(signed long int)i] = tmp_statement_expression_2;
   }
   struct MD4state_st ctx;
   MD4_Init(&ctx);
@@ -9908,18 +9908,18 @@ void message_add(struct message_t_ *msg)
 
 // message_alloc
 // file message.c line 70
-struct message_t_ * message_alloc(enum anonymous$3 kind)
+struct message_t_ * message_alloc(enum anonymous_3 kind)
 {
   struct message_t_ *msg;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct message_t_) /*32ul*/ );
-  msg = (struct message_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct message_t_) /*32ul*/ );
+  msg = (struct message_t_ *)return_value_malloc_1;
   msg->kind = kind;
   msg->data = NULL;
   static unsigned int gid = (unsigned int)0;
-  unsigned int tmp_post$2 = gid;
+  unsigned int tmp_post_2 = gid;
   gid = gid + 1u;
-  msg->id = tmp_post$2;
+  msg->id = tmp_post_2;
   gettimeofday(&msg->time, ((struct timezone *)NULL));
   msg->time.tv_sec = msg->time.tv_sec - msg_time.tv_sec;
   return msg;
@@ -9930,11 +9930,11 @@ struct message_t_ * message_alloc(enum anonymous$3 kind)
 void message_bforce(signed int done, unsigned long int count)
 {
   struct message_t_ *msg;
-  msg=message_alloc((enum anonymous$3)msg_bforce);
+  msg=message_alloc((enum anonymous_3)msg_bforce);
   struct msg_bforce_t_ *force;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct msg_bforce_t_) /*16ul*/ );
-  force = (struct msg_bforce_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct msg_bforce_t_) /*16ul*/ );
+  force = (struct msg_bforce_t_ *)return_value_malloc_1;
   force->done = done;
   force->count = count;
   msg->data = (void *)force;
@@ -9943,14 +9943,14 @@ void message_bforce(signed int done, unsigned long int count)
 
 // message_done
 // file message.c line 163
-void message_done(enum anonymous$12 kind)
+void message_done(enum anonymous_12 kind)
 {
   struct message_t_ *msg;
-  msg=message_alloc((enum anonymous$3)msg_done);
+  msg=message_alloc((enum anonymous_3)msg_done);
   struct msg_done_t_ *done;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct msg_done_t_) /*4ul*/ );
-  done = (struct msg_done_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct msg_done_t_) /*4ul*/ );
+  done = (struct msg_done_t_ *)return_value_malloc_1;
   done->kind = kind;
   msg->data = (void *)done;
   message_add(msg);
@@ -9961,11 +9961,11 @@ void message_done(enum anonymous$12 kind)
 void message_found(struct hash_t_ *hsh, struct table_t_ *tbl, signed int col)
 {
   struct message_t_ *msg;
-  msg=message_alloc((enum anonymous$3)msg_found);
+  msg=message_alloc((enum anonymous_3)msg_found);
   struct msg_found_t_ *found;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct msg_found_t_) /*24ul*/ );
-  found = (struct msg_found_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct msg_found_t_) /*24ul*/ );
+  found = (struct msg_found_t_ *)return_value_malloc_1;
   found->hsh = hsh;
   found->tbl = tbl;
   found->col = col;
@@ -10029,9 +10029,9 @@ struct message_t_ * message_get(void)
   sem_wait(msg_sem);
   pthread_mutex_lock(msg_mutex);
   struct message_t_ *msg;
-  void *return_value_list_rem_head$1;
-  return_value_list_rem_head$1=list_rem_head(msg_queue);
-  msg = (struct message_t_ *)return_value_list_rem_head$1;
+  void *return_value_list_rem_head_1;
+  return_value_list_rem_head_1=list_rem_head(msg_queue);
+  msg = (struct message_t_ *)return_value_list_rem_head_1;
   pthread_mutex_unlock(msg_mutex);
   return msg;
 }
@@ -10040,16 +10040,16 @@ struct message_t_ * message_get(void)
 // file message.h line 95
 void message_init(void)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(union anonymous$7) /*40ul*/ );
-  msg_mutex = (union anonymous$7 *)return_value_malloc$1;
-  pthread_mutex_init(msg_mutex, ((const union anonymous$9 *)NULL));
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(union anonymous$4) /*32ul*/ );
-  msg_sem = (union anonymous$4 *)return_value_malloc$2;
-  signed int return_value_sem_init$3;
-  return_value_sem_init$3=sem_init(msg_sem, 0, (unsigned int)0);
-  if(!(return_value_sem_init$3 == 0))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(union anonymous_7) /*40ul*/ );
+  msg_mutex = (union anonymous_7 *)return_value_malloc_1;
+  pthread_mutex_init(msg_mutex, ((const union anonymous_9 *)NULL));
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(union anonymous_4) /*32ul*/ );
+  msg_sem = (union anonymous_4 *)return_value_malloc_2;
+  signed int return_value_sem_init_3;
+  return_value_sem_init_3=sem_init(msg_sem, 0, (unsigned int)0);
+  if(!(return_value_sem_init_3 == 0))
   {
     fprintf(stderr, "message_init: cannot initialise the semaphore\n");
     exit(1);
@@ -10067,9 +10067,9 @@ void message_insert_first(struct list_t_ *messages)
   while(messages->size >= 1)
   {
     struct message_t_ *msg;
-    void *return_value_list_rem_tail$1;
-    return_value_list_rem_tail$1=list_rem_tail(messages);
-    msg = (struct message_t_ *)return_value_list_rem_tail$1;
+    void *return_value_list_rem_tail_1;
+    return_value_list_rem_tail_1=list_rem_tail(messages);
+    msg = (struct message_t_ *)return_value_list_rem_tail_1;
     list_add_head(msg_queue, (void *)msg);
     sem_post(msg_sem);
   }
@@ -10081,7 +10081,7 @@ void message_insert_first(struct list_t_ *messages)
 void message_pause(void)
 {
   struct message_t_ *msg;
-  msg=message_alloc((enum anonymous$3)msg_pause);
+  msg=message_alloc((enum anonymous_3)msg_pause);
   message_add(msg);
 }
 
@@ -10090,11 +10090,11 @@ void message_pause(void)
 void message_preload(struct table_t_ *tbl, signed int which, signed int done, unsigned long int size)
 {
   struct message_t_ *msg;
-  msg=message_alloc((enum anonymous$3)msg_preload);
+  msg=message_alloc((enum anonymous_3)msg_preload);
   struct msg_load_t_ *load;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct msg_load_t_) /*24ul*/ );
-  load = (struct msg_load_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct msg_load_t_) /*24ul*/ );
+  load = (struct msg_load_t_ *)return_value_malloc_1;
   load->tbl = tbl;
   load->which = which;
   load->done = done;
@@ -10113,9 +10113,9 @@ struct message_t_ * message_tryget(void)
   if(ret == 0)
   {
     pthread_mutex_lock(msg_mutex);
-    void *return_value_list_rem_head$1;
-    return_value_list_rem_head$1=list_rem_head(msg_queue);
-    msg = (struct message_t_ *)return_value_list_rem_head$1;
+    void *return_value_list_rem_head_1;
+    return_value_list_rem_head_1=list_rem_head(msg_queue);
+    msg = (struct message_t_ *)return_value_list_rem_head_1;
     pthread_mutex_unlock(msg_mutex);
   }
 
@@ -10127,11 +10127,11 @@ struct message_t_ * message_tryget(void)
 void message_unload(struct table_t_ *tbl, unsigned long int size)
 {
   struct message_t_ *msg;
-  msg=message_alloc((enum anonymous$3)msg_unload);
+  msg=message_alloc((enum anonymous_3)msg_unload);
   struct msg_load_t_ *load;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct msg_load_t_) /*24ul*/ );
-  load = (struct msg_load_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct msg_load_t_) /*24ul*/ );
+  load = (struct msg_load_t_ *)return_value_malloc_1;
   load->tbl = tbl;
   load->which = 0;
   load->done = 1;
@@ -10145,11 +10145,11 @@ void message_unload(struct table_t_ *tbl, unsigned long int size)
 void message_work(struct hash_t_ *hsh, struct table_t_ *tbl, signed int which, signed int cmin, signed int cmax)
 {
   struct message_t_ *msg;
-  msg=message_alloc((enum anonymous$3)msg_work);
+  msg=message_alloc((enum anonymous_3)msg_work);
   struct msg_work_t_ *work;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct msg_work_t_) /*32ul*/ );
-  work = (struct msg_work_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct msg_work_t_) /*32ul*/ );
+  work = (struct msg_work_t_ *)return_value_malloc_1;
   work->hsh = hsh;
   work->tbl = tbl;
   work->which = which;
@@ -10186,9 +10186,9 @@ signed int ntdict_check(void *hsh_, void *tbl_, void *el_)
     stat->hredux = stat->hredux + 1ul;
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, (unsigned long int)16);
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, (unsigned long int)16);
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -10425,61 +10425,61 @@ void ntdict_mkredux(struct table_t_ *tbl, unsigned char *hash, unsigned char *pw
 
     pos = pos + 1u;
   }
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(!((0x40 & (signed int)idx[0l]) == 0))
   {
     if(capitalized == 0)
     {
-      tmp_post$1 = pos;
+      tmp_post_1 = pos;
       pos = pos + 1u;
-      pwd[(signed long int)tmp_post$1] = (unsigned char)46;
+      pwd[(signed long int)tmp_post_1] = (unsigned char)46;
     }
 
   }
 
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_2;
   if(!((0x80 & (signed int)idx[0l]) == 0))
   {
     if(capitalized_1st == 0)
     {
-      tmp_post$2 = pos;
+      tmp_post_2 = pos;
       pos = pos + 1u;
-      pwd[(signed long int)tmp_post$2] = (unsigned char)44;
+      pwd[(signed long int)tmp_post_2] = (unsigned char)44;
     }
 
   }
 
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_3;
   if(!((0x01 & (signed int)idx[3l]) == 0))
   {
     if(leet == 0)
     {
-      tmp_post$3 = pos;
+      tmp_post_3 = pos;
       pos = pos + 1u;
-      pwd[(signed long int)tmp_post$3] = (unsigned char)45;
+      pwd[(signed long int)tmp_post_3] = (unsigned char)45;
     }
 
   }
 
-  unsigned int tmp_post$4;
-  unsigned int tmp_post$5;
+  unsigned int tmp_post_4;
+  unsigned int tmp_post_5;
   if(!((0x02 & (signed int)idx[3l]) == 0))
   {
     word = (unsigned int)((((signed int)idx[(signed long int)3] & 0xFC) >> 2) + (((signed int)idx[(signed long int)4] & 0x3F) << 6));
     i = 0;
     for( ; !(i >= (signed int)postdict_len[(signed long int)word]); i = i + 1)
     {
-      tmp_post$4 = pos;
+      tmp_post_4 = pos;
       pos = pos + 1u;
-      pwd[(signed long int)tmp_post$4] = postdict[(signed long int)word][(signed long int)i];
+      pwd[(signed long int)tmp_post_4] = postdict[(signed long int)word][(signed long int)i];
     }
   }
 
   else
   {
-    tmp_post$5 = pos;
+    tmp_post_5 = pos;
     pos = pos + 1u;
-    pwd[(signed long int)tmp_post$5] = ntdict64[(signed long int)(((signed int)idx[(signed long int)3] & 0xFC) >> 2)];
+    pwd[(signed long int)tmp_post_5] = ntdict64[(signed long int)(((signed int)idx[(signed long int)3] & 0xFC) >> 2)];
     pwd[(signed long int)pos] = ntdict63[(signed long int)((signed int)idx[(signed long int)4] & 0x3F)];
     if(!(pwd[(signed long int)pos] == 0))
       pos = pos + 1u;
@@ -10517,9 +10517,9 @@ signed int ntdict_setup(void *tbl_)
     for( ; !(i >= 65536); i = i + 1)
     {
       fread((void *)worddict[(signed long int)i], (unsigned long int)16, (unsigned long int)1, worddict_file);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen((char *)worddict[(signed long int)i]);
-      worddict_len[(signed long int)i] = (unsigned char)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen((char *)worddict[(signed long int)i]);
+      worddict_len[(signed long int)i] = (unsigned char)return_value_strlen_1;
     }
     fclose(worddict_file);
     struct _IO_FILE *postdict_file;
@@ -10534,9 +10534,9 @@ signed int ntdict_setup(void *tbl_)
     for( ; !(i >= 4096); i = i + 1)
     {
       fread((void *)postdict[(signed long int)i], (unsigned long int)16, (unsigned long int)1, postdict_file);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen((char *)postdict[(signed long int)i]);
-      postdict_len[(signed long int)i] = (unsigned char)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen((char *)postdict[(signed long int)i]);
+      postdict_len[(signed long int)i] = (unsigned char)return_value_strlen_2;
     }
     fclose(postdict_file);
     dicinit = 0;
@@ -10554,9 +10554,9 @@ unsigned int nteight_bin64(unsigned char *input, signed int length)
   i = 0;
   for( ; !(i >= length); i = i + 1)
   {
-    char *return_value___builtin_strchr$1;
-    return_value___builtin_strchr$1=__builtin_strchr((char *)nteight_alphanum64, (signed int)input[(signed long int)i]);
-    sum = (unsigned int)((unsigned long int)(sum * (unsigned int)64) + (unsigned long int)(return_value___builtin_strchr$1 - (char *)nteight_alphanum64));
+    char *return_value___builtin_strchr_1;
+    return_value___builtin_strchr_1=__builtin_strchr((char *)nteight_alphanum64, (signed int)input[(signed long int)i]);
+    sum = (unsigned int)((unsigned long int)(sum * (unsigned int)64) + (unsigned long int)(return_value___builtin_strchr_1 - (char *)nteight_alphanum64));
   }
   return sum;
 }
@@ -10587,9 +10587,9 @@ signed int nteight_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   nteight_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -10630,9 +10630,9 @@ void nteight_find(void *hsh_, void *tbl_, void *el_)
   unsigned int prefix;
   prefix=nteight_bin64(pwd, 4);
   unsigned short int postfix;
-  unsigned int return_value_nteight_bin64$1;
-  return_value_nteight_bin64$1=nteight_bin64(pwd + (signed long int)4, 4);
-  postfix = (unsigned short int)return_value_nteight_bin64$1;
+  unsigned int return_value_nteight_bin64_1;
+  return_value_nteight_bin64_1=nteight_bin64(pwd + (signed long int)4, 4);
+  postfix = (unsigned short int)return_value_nteight_bin64_1;
   el->prefix = (unsigned long int)prefix;
   el->postfix = (unsigned long int)postfix;
 }
@@ -10754,9 +10754,9 @@ unsigned long int nteightxl_bin95(unsigned char *input, signed int length)
   i = 0;
   for( ; !(i >= length); i = i + 1)
   {
-    char *return_value___builtin_strchr$1;
-    return_value___builtin_strchr$1=__builtin_strchr((char *)nteightxl_ext95, (signed int)input[(signed long int)i]);
-    sum = sum * (unsigned long int)95 + (unsigned long int)(return_value___builtin_strchr$1 - (char *)nteightxl_ext95);
+    char *return_value___builtin_strchr_1;
+    return_value___builtin_strchr_1=__builtin_strchr((char *)nteightxl_ext95, (signed int)input[(signed long int)i]);
+    sum = sum * (unsigned long int)95 + (unsigned long int)(return_value___builtin_strchr_1 - (char *)nteightxl_ext95);
   }
   return sum;
 }
@@ -10787,9 +10787,9 @@ signed int nteightxl_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   nteightxl_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -11019,9 +11019,9 @@ unsigned long int ntextended_bin43(unsigned char *input)
 {
   signed int i;
   signed int l;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)input);
-  l = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)input);
+  l = (signed int)return_value_strlen_1;
   unsigned long int sum = (unsigned long int)0;
   if(!(l >= 7))
   {
@@ -11029,9 +11029,9 @@ unsigned long int ntextended_bin43(unsigned char *input)
     for( ; !(i >= 6) && !(i >= l); i = i + 1)
     {
       char *x1;
-      char *return_value___builtin_strchr$2;
-      return_value___builtin_strchr$2=__builtin_strchr((char *)ntextended_ext95, (signed int)input[(signed long int)i]);
-      x1 = return_value___builtin_strchr$2;
+      char *return_value___builtin_strchr_2;
+      return_value___builtin_strchr_2=__builtin_strchr((char *)ntextended_ext95, (signed int)input[(signed long int)i]);
+      x1 = return_value___builtin_strchr_2;
       char *x2 = (char *)ntextended_ext95;
       sum = sum * (unsigned long int)95 + (unsigned long int)(x1 - x2);
     }
@@ -11043,12 +11043,12 @@ unsigned long int ntextended_bin43(unsigned char *input)
       i = 0;
       for( ; !(i >= 7); i = i + 1)
       {
-        char *ntextended_bin43$$1$$2$$1$$x1;
-        char *return_value___builtin_strchr$3;
-        return_value___builtin_strchr$3=__builtin_strchr((char *)ntextended_alphanum62, (signed int)input[(signed long int)i]);
-        ntextended_bin43$$1$$2$$1$$x1 = return_value___builtin_strchr$3;
-        char *ntextended_bin43$$1$$2$$1$$x2 = (char *)ntextended_alphanum62;
-        sum = sum * (unsigned long int)62 + (unsigned long int)(ntextended_bin43$$1$$2$$1$$x1 - ntextended_bin43$$1$$2$$1$$x2);
+        char *ntextended_bin43__1__2__1__x1;
+        char *return_value___builtin_strchr_3;
+        return_value___builtin_strchr_3=__builtin_strchr((char *)ntextended_alphanum62, (signed int)input[(signed long int)i]);
+        ntextended_bin43__1__2__1__x1 = return_value___builtin_strchr_3;
+        char *ntextended_bin43__1__2__1__x2 = (char *)ntextended_alphanum62;
+        sum = sum * (unsigned long int)62 + (unsigned long int)(ntextended_bin43__1__2__1__x1 - ntextended_bin43__1__2__1__x2);
       }
     }
 
@@ -11058,12 +11058,12 @@ unsigned long int ntextended_bin43(unsigned char *input)
         i = 0;
         for( ; !(i >= 8); i = i + 1)
         {
-          char *ntextended_bin43$$1$$3$$1$$x1;
-          char *return_value___builtin_strchr$4;
-          return_value___builtin_strchr$4=__builtin_strchr((char *)ntextended_low36, (signed int)input[(signed long int)i]);
-          ntextended_bin43$$1$$3$$1$$x1 = return_value___builtin_strchr$4;
-          char *ntextended_bin43$$1$$3$$1$$x2 = (char *)ntextended_low36;
-          sum = sum * (unsigned long int)36 + (unsigned long int)(ntextended_bin43$$1$$3$$1$$x1 - ntextended_bin43$$1$$3$$1$$x2);
+          char *ntextended_bin43__1__3__1__x1;
+          char *return_value___builtin_strchr_4;
+          return_value___builtin_strchr_4=__builtin_strchr((char *)ntextended_low36, (signed int)input[(signed long int)i]);
+          ntextended_bin43__1__3__1__x1 = return_value___builtin_strchr_4;
+          char *ntextended_bin43__1__3__1__x2 = (char *)ntextended_low36;
+          sum = sum * (unsigned long int)36 + (unsigned long int)(ntextended_bin43__1__3__1__x1 - ntextended_bin43__1__3__1__x2);
         }
       }
 
@@ -11097,9 +11097,9 @@ signed int ntextended_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   ntextended_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -11323,19 +11323,19 @@ unsigned int ntnine_bin36(unsigned char *input, signed int length)
   unsigned int sum = (unsigned int)0;
   signed int i = 0;
   i = 0;
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_tolower_loc$2;
-  const signed int **return_value___ctype_tolower_loc$4;
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_tolower_loc_2;
+  const signed int **return_value___ctype_tolower_loc_4;
   for( ; !(i >= length); i = i + 1)
   {
     signed int __res;
-    return_value___ctype_tolower_loc$4=__ctype_tolower_loc();
-    __res = (*return_value___ctype_tolower_loc$4)[(signed long int)(signed int)input[(signed long int)i]];
-    tmp_statement_expression$1 = __res;
-    char *return_value___builtin_strchr$5;
-    return_value___builtin_strchr$5=__builtin_strchr((char *)ntnine_low36, tmp_statement_expression$1);
-    sum = (unsigned int)((unsigned long int)(sum * (unsigned int)36) + (unsigned long int)(return_value___builtin_strchr$5 - (char *)ntnine_low36));
+    return_value___ctype_tolower_loc_4=__ctype_tolower_loc();
+    __res = (*return_value___ctype_tolower_loc_4)[(signed long int)(signed int)input[(signed long int)i]];
+    tmp_statement_expression_1 = __res;
+    char *return_value___builtin_strchr_5;
+    return_value___builtin_strchr_5=__builtin_strchr((char *)ntnine_low36, tmp_statement_expression_1);
+    sum = (unsigned int)((unsigned long int)(sum * (unsigned int)36) + (unsigned long int)(return_value___builtin_strchr_5 - (char *)ntnine_low36));
   }
   return sum;
 }
@@ -11347,15 +11347,15 @@ unsigned int ntnine_bin37(unsigned char *input, signed int length)
   unsigned int sum = (unsigned int)0;
   signed int i = 0;
   i = 0;
-  char *return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
   for( ; !(i >= length); i = i + 1)
     if((signed int)input[(signed long int)i] == 0)
       sum = sum * (unsigned int)37;
 
     else
     {
-      return_value___builtin_strchr$1=__builtin_strchr((char *)ntnine_low36, (signed int)input[(signed long int)i]);
-      sum = (unsigned int)((unsigned long int)(sum * (unsigned int)37 + (unsigned int)1) + (unsigned long int)(return_value___builtin_strchr$1 - (char *)ntnine_low36));
+      return_value___builtin_strchr_1=__builtin_strchr((char *)ntnine_low36, (signed int)input[(signed long int)i]);
+      sum = (unsigned int)((unsigned long int)(sum * (unsigned int)37 + (unsigned int)1) + (unsigned long int)(return_value___builtin_strchr_1 - (char *)ntnine_low36));
     }
   return sum;
 }
@@ -11386,9 +11386,9 @@ signed int ntnine_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   ntnine_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -11429,9 +11429,9 @@ void ntnine_find(void *hsh_, void *tbl_, void *el_)
   unsigned int prefix;
   prefix=ntnine_bin36(pwd, 5);
   unsigned short int postfix;
-  unsigned int return_value_ntnine_bin37$1;
-  return_value_ntnine_bin37$1=ntnine_bin37(pwd + (signed long int)5, 4);
-  postfix = (unsigned short int)return_value_ntnine_bin37$1;
+  unsigned int return_value_ntnine_bin37_1;
+  return_value_ntnine_bin37_1=ntnine_bin37(pwd + (signed long int)5, 4);
+  postfix = (unsigned short int)return_value_ntnine_bin37_1;
   el->prefix = (unsigned long int)prefix;
   el->postfix = (unsigned long int)postfix;
 }
@@ -11567,15 +11567,15 @@ unsigned int ntnum_bin11(unsigned char *input, signed int length)
   unsigned int sum = (unsigned int)0;
   signed int i = 0;
   i = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(i >= length); i = i + 1)
   {
     if(!(input[(signed long int)i] == 0))
-      tmp_if_expr$1 = (signed int)input[(signed long int)i] - 0x2f;
+      tmp_if_expr_1 = (signed int)input[(signed long int)i] - 0x2f;
 
     else
-      tmp_if_expr$1 = 0;
-    sum = sum * (unsigned int)11 + (unsigned int)tmp_if_expr$1;
+      tmp_if_expr_1 = 0;
+    sum = sum * (unsigned int)11 + (unsigned int)tmp_if_expr_1;
   }
   return sum;
 }
@@ -11606,9 +11606,9 @@ signed int ntnum_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   ntnum_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -11649,9 +11649,9 @@ void ntnum_find(void *hsh_, void *tbl_, void *el_)
   unsigned int prefix;
   prefix=ntnum_bin11(pwd, 6);
   unsigned short int postfix;
-  unsigned int return_value_ntnum_bin11$1;
-  return_value_ntnum_bin11$1=ntnum_bin11(pwd + (signed long int)6, 6);
-  postfix = (unsigned short int)return_value_ntnum_bin11$1;
+  unsigned int return_value_ntnum_bin11_1;
+  return_value_ntnum_bin11_1=ntnum_bin11(pwd + (signed long int)6, 6);
+  postfix = (unsigned short int)return_value_ntnum_bin11_1;
   el->prefix = (unsigned long int)prefix;
   el->postfix = (unsigned long int)postfix;
 }
@@ -11758,9 +11758,9 @@ signed int ntproba_check(void *hsh_, void *tbl_, void *el_)
   taille=indexToPwdUTF(proba->array, proba->mdpw, proba->mis, el->start, power2, stopColumn, idx, nbColumn, pwdUTF);
   stat->hredux = stat->hredux + (unsigned long int)stopColumn;
   stat->falarm_hredux = stat->falarm_hredux + (unsigned long int)stopColumn;
-  char return_value_checkFoundPwd$1;
-  return_value_checkFoundPwd$1=checkFoundPwd(pwdUTF, taille, (unsigned int *)hsh->hash, el->pwd);
-  if(!(return_value_checkFoundPwd$1 == 0))
+  char return_value_checkFoundPwd_1;
+  return_value_checkFoundPwd_1=checkFoundPwd(pwdUTF, taille, (unsigned int *)hsh->hash, el->pwd);
+  if(!(return_value_checkFoundPwd_1 == 0))
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -11891,9 +11891,9 @@ signed int ntproba_lookup_end(void *hsh_, void *tbl_, void *el_)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(range * (unsigned long int)nbByteBin);
-    mem = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(range * (unsigned long int)nbByteBin);
+    mem = (char *)return_value_malloc_1;
     struct _IO_FILE *endfile = tbl->endfile;
     fseeko(endfile, (signed long int)(el->low * (unsigned long int)nbByteBin), 0);
     fread((void *)mem, (unsigned long int)nbByteBin, range, endfile);
@@ -12014,39 +12014,39 @@ struct proba_info_ * ntproba_proba_info_alloc(struct table_t_ *tbl)
       proba->nbBitIndex = (unsigned int)22;
     }
   }
-  char return_value_readImprobaStructFromBinFile$1;
-  return_value_readImprobaStructFromBinFile$1=readImprobaStructFromBinFile(&proba->mis, tbl->path, "markovI.dat");
-  _Bool tmp_if_expr$3;
-  signed int return_value_initMarkovDynProgWrapper$2;
-  if(return_value_readImprobaStructFromBinFile$1 == 0)
-    tmp_if_expr$3 = (_Bool)1;
+  char return_value_readImprobaStructFromBinFile_1;
+  return_value_readImprobaStructFromBinFile_1=readImprobaStructFromBinFile(&proba->mis, tbl->path, "markovI.dat");
+  _Bool tmp_if_expr_3;
+  signed int return_value_initMarkovDynProgWrapper_2;
+  if(return_value_readImprobaStructFromBinFile_1 == 0)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_initMarkovDynProgWrapper$2=initMarkovDynProgWrapper(proba->mdpw, proba->mis, proba->mtype);
-    tmp_if_expr$3 = !(return_value_initMarkovDynProgWrapper$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_initMarkovDynProgWrapper_2=initMarkovDynProgWrapper(proba->mdpw, proba->mis, proba->mtype);
+    tmp_if_expr_3 = !(return_value_initMarkovDynProgWrapper_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  char return_value_readPatternArrayFromXMLFile$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  char return_value_readPatternArrayFromXMLFile_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_readPatternArrayFromXMLFile$4=readPatternArrayFromXMLFile(proba->array, tbl->path, "pattern.xml");
-    tmp_if_expr$5 = !(return_value_readPatternArrayFromXMLFile$4 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_readPatternArrayFromXMLFile_4=readPatternArrayFromXMLFile(proba->array, tbl->path, "pattern.xml");
+    tmp_if_expr_5 = !(return_value_readPatternArrayFromXMLFile_4 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  char return_value_checkPatternArrayCrackMarkov$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  char return_value_checkPatternArrayCrackMarkov_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_checkPatternArrayCrackMarkov$6=checkPatternArrayCrackMarkov(proba->array, proba->mdpw, proba->mis);
-    tmp_if_expr$7 = !(return_value_checkPatternArrayCrackMarkov$6 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_checkPatternArrayCrackMarkov_6=checkPatternArrayCrackMarkov(proba->array, proba->mdpw, proba->mis);
+    tmp_if_expr_7 = !(return_value_checkPatternArrayCrackMarkov_6 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     ntproba_cleanup((void *)tbl);
     return (struct proba_info_ *)(void *)0;
@@ -12104,9 +12104,9 @@ unsigned long int ntseven_bin95(unsigned char *input, signed int length)
   i = 0;
   for( ; !(i >= length); i = i + 1)
   {
-    char *return_value___builtin_strchr$1;
-    return_value___builtin_strchr$1=__builtin_strchr((char *)ntseven_ext95, (signed int)input[(signed long int)i]);
-    sum = sum * (unsigned long int)95 + (unsigned long int)(return_value___builtin_strchr$1 - (char *)ntseven_ext95);
+    char *return_value___builtin_strchr_1;
+    return_value___builtin_strchr_1=__builtin_strchr((char *)ntseven_ext95, (signed int)input[(signed long int)i]);
+    sum = sum * (unsigned long int)95 + (unsigned long int)(return_value___builtin_strchr_1 - (char *)ntseven_ext95);
   }
   return sum;
 }
@@ -12137,9 +12137,9 @@ signed int ntseven_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   ntseven_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -12294,20 +12294,20 @@ unsigned long int ntspecialxl_bin95(unsigned char *input, signed int length)
   unsigned long int sum = (unsigned long int)0;
   signed int i = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= length))
-      tmp_if_expr$1 = input[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = input[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    char *return_value___builtin_strchr$2;
-    return_value___builtin_strchr$2=__builtin_strchr((char *)ntspecialxl_ext95, (signed int)input[(signed long int)i]);
-    sum = sum * (unsigned long int)95 + (unsigned long int)(return_value___builtin_strchr$2 - (char *)ntspecialxl_ext95);
+    char *return_value___builtin_strchr_2;
+    return_value___builtin_strchr_2=__builtin_strchr((char *)ntspecialxl_ext95, (signed int)input[(signed long int)i]);
+    sum = sum * (unsigned long int)95 + (unsigned long int)(return_value___builtin_strchr_2 - (char *)ntspecialxl_ext95);
     i = i + 1;
   }
   while((_Bool)1);
@@ -12341,9 +12341,9 @@ signed int ntspecialxl_check(void *hsh_, void *tbl_, void *el_)
     stat->falarm_hredux = stat->falarm_hredux + 1ul;
   }
   ntspecialxl_mkhash(pwd, tmp);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)tmp, (const void *)hash, sizeof(unsigned char [16l]) /*16ul*/ );
+  if(return_value_memcmp_1 == 0)
   {
     stat->match_table = stat->match_table + 1ul;
     stat->falarm_hredux = (unsigned long int)0;
@@ -12642,16 +12642,16 @@ signed int ntspecialxl_unbin95(unsigned long int input, unsigned char *output, s
 void ophcrack_add_hash(struct ophcrack_t_ *crack, struct hash_t_ *hsh)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   pthread_mutex_lock(mutex);
   list_add_tail(crack->hashes, (void *)hsh);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(1 + hsh->id >= crack->maxhid))
-    tmp_if_expr$1 = crack->maxhid;
+    tmp_if_expr_1 = crack->maxhid;
 
   else
-    tmp_if_expr$1 = hsh->id + 1;
-  crack->maxhid = tmp_if_expr$1;
+    tmp_if_expr_1 = hsh->id + 1;
+  crack->maxhid = tmp_if_expr_1;
   if((signed int)hsh->kind == lm1)
     crack->npwds_total = crack->npwds_total + 1;
 
@@ -12664,16 +12664,16 @@ void ophcrack_add_hash(struct ophcrack_t_ *crack, struct hash_t_ *hsh)
     }
 
   pthread_mutex_unlock(mutex);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(hsh->done >= 1)
   {
     hsh->done = 0;
     if(!((signed int)hsh->kind == lm1))
-      tmp_if_expr$2 = hsh->lmhsh1 != ((struct hash_t_ *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = hsh->lmhsh1 != ((struct hash_t_ *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       signed int tmp = hsh->lmhsh1->done;
       hsh->lmhsh1->done = 0;
@@ -12699,17 +12699,17 @@ void ophcrack_add_hash(struct ophcrack_t_ *crack, struct hash_t_ *hsh)
 void ophcrack_add_table(struct ophcrack_t_ *crack, struct table_t_ *tbl)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
-  signed int tmp_if_expr$1;
+  union anonymous_7 *mutex = sched->mutex;
+  signed int tmp_if_expr_1;
   if(!(1 + (signed int)tbl->kind >= (signed int)crack->maxtkind))
-    tmp_if_expr$1 = (signed int)crack->maxtkind;
+    tmp_if_expr_1 = (signed int)crack->maxtkind;
 
   else
-    tmp_if_expr$1 = (signed int)tbl->kind + 1;
-  crack->maxtkind = (enum anonymous$2)tmp_if_expr$1;
-  signed int tmp_post$2 = crack->maxtid;
+    tmp_if_expr_1 = (signed int)tbl->kind + 1;
+  crack->maxtkind = (enum anonymous_2)tmp_if_expr_1;
+  signed int tmp_post_2 = crack->maxtid;
   crack->maxtid = crack->maxtid + 1;
-  tbl->id = tmp_post$2;
+  tbl->id = tmp_post_2;
   tbl->cmin = tbl->ncols;
   tbl->cmax = tbl->ncols;
   pthread_mutex_lock(mutex);
@@ -12722,9 +12722,9 @@ void ophcrack_add_table(struct ophcrack_t_ *crack, struct table_t_ *tbl)
 struct ophcrack_t_ * ophcrack_alloc(signed int nthreads, struct arg_t_ *arg)
 {
   struct ophcrack_t_ *crack;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ophcrack_t_) /*112ul*/ );
-  crack = (struct ophcrack_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ophcrack_t_) /*112ul*/ );
+  crack = (struct ophcrack_t_ *)return_value_malloc_1;
   crack->sched=scheduler_alloc(nthreads);
   crack->tables=list_alloc();
   crack->hashes=list_alloc();
@@ -12735,7 +12735,7 @@ struct ophcrack_t_ * ophcrack_alloc(signed int nthreads, struct arg_t_ *arg)
   crack->stat=ophstat_alloc();
   crack->maxtid = 0;
   crack->maxhid = 0;
-  crack->maxtkind = (enum anonymous$2)unknown;
+  crack->maxtkind = (enum anonymous_2)unknown;
   crack->npwds_total = 0;
   crack->npwds_found = 0;
   crack->find_freeram = find_freeram;
@@ -12749,7 +12749,7 @@ struct ophcrack_t_ * ophcrack_alloc(signed int nthreads, struct arg_t_ *arg)
 void ophcrack_associate(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table_t_ *tbl)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   pthread_mutex_lock(mutex);
   signed int return_value;
   return_value=tbl->isvalid((void *)hsh, (void *)tbl);
@@ -12764,19 +12764,19 @@ void ophcrack_associate(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct t
 struct ophtask_t_ * ophcrack_bforce_all(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  struct ophbforce_t_ *ophcrack_bforce_all$$1$$force = (struct ophbforce_t_ *)task->data;
-  struct hash_t_ **hashes = ophcrack_bforce_all$$1$$force->hashes;
+  struct ophbforce_t_ *ophcrack_bforce_all__1__force = (struct ophbforce_t_ *)task->data;
+  struct hash_t_ **hashes = ophcrack_bforce_all__1__force->hashes;
   struct list_t_ *hashes_lm;
   hashes_lm=list_alloc();
   struct list_t_ *hashes_nt;
   hashes_nt=list_alloc();
-  signed int ophcrack_bforce_all$$1$$nhashes = ophcrack_bforce_all$$1$$force->nhashes;
+  signed int ophcrack_bforce_all__1__nhashes = ophcrack_bforce_all__1__force->nhashes;
   signed int n = 0;
-  _Bool tmp_if_expr$1;
-  for( ; !(n >= ophcrack_bforce_all$$1$$nhashes); n = n + 1)
+  _Bool tmp_if_expr_1;
+  for( ; !(n >= ophcrack_bforce_all__1__nhashes); n = n + 1)
   {
     struct hash_t_ *hsh = hashes[(signed long int)n];
-    enum anonymous$0 kind = hsh->kind;
+    enum anonymous_0 kind = hsh->kind;
     if(hsh->done == 0)
       switch((signed int)kind)
       {
@@ -12799,11 +12799,11 @@ struct ophtask_t_ * ophcrack_bforce_all(struct ophcrack_t_ *crack, struct ophtas
         case nt:
         {
           if(hsh->lmhsh1 == ((struct hash_t_ *)NULL))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = !(hsh->lmhsh2 != ((struct hash_t_ *)NULL)) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = !(hsh->lmhsh2 != ((struct hash_t_ *)NULL)) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             list_add_tail(hashes_nt, (void *)hsh);
 
         }
@@ -12815,17 +12815,17 @@ struct ophtask_t_ * ophcrack_bforce_all(struct ophcrack_t_ *crack, struct ophtas
   signed int i;
   signed int size_lm = (signed int)sizeof(const unsigned char [69l]) /*69ul*/ ;
   unsigned long int count_lm = (unsigned long int)0;
-  double return_value_pow$3;
+  double return_value_pow_3;
   if(hashes_lm->size >= 1)
   {
-    struct ophtask_t_ *ophcrack_bforce_all$$1$$2$$task;
-    ophcrack_bforce_all$$1$$2$$task=ophtask_alloc((enum anonymous$12)bforce_lm);
-    struct ophbforce_t_ *force = (struct ophbforce_t_ *)ophcrack_bforce_all$$1$$2$$task->data;
+    struct ophtask_t_ *ophcrack_bforce_all__1__2__task;
+    ophcrack_bforce_all__1__2__task=ophtask_alloc((enum anonymous_12)bforce_lm);
+    struct ophbforce_t_ *force = (struct ophbforce_t_ *)ophcrack_bforce_all__1__2__task->data;
     signed int nhashes = hashes_lm->size;
     force->nhashes = nhashes;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)nhashes * sizeof(struct hash_t_ *) /*8ul*/ );
-    force->hashes = (struct hash_t_ **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)nhashes * sizeof(struct hash_t_ *) /*8ul*/ );
+    force->hashes = (struct hash_t_ **)return_value_malloc_2;
     nd = hashes_lm->head;
     n = 0;
     for( ; !(nd == ((struct list_nd_t_ *)NULL)); n = n + 1)
@@ -12836,41 +12836,41 @@ struct ophtask_t_ * ophcrack_bforce_all(struct ophcrack_t_ *crack, struct ophtas
     i = 1;
     for( ; maxlen >= i; i = i + 1)
     {
-      return_value_pow$3=pow((double)size_lm, (double)i);
-      count_lm = count_lm + (unsigned long int)return_value_pow$3;
+      return_value_pow_3=pow((double)size_lm, (double)i);
+      count_lm = count_lm + (unsigned long int)return_value_pow_3;
     }
     force->count = (signed int)count_lm;
-    scheduler_add(sched, (void *)ophcrack_bforce_all$$1$$2$$task, (enum anonymous$8)low);
+    scheduler_add(sched, (void *)ophcrack_bforce_all__1__2__task, (enum anonymous_8)low);
   }
 
   signed int size_nt = (signed int)sizeof(const unsigned char [95l]) /*95ul*/ ;
   unsigned long int count_nt = (unsigned long int)0;
-  double return_value_pow$5;
+  double return_value_pow_5;
   if(hashes_nt->size >= 1)
   {
-    struct ophtask_t_ *ophcrack_bforce_all$$1$$3$$task;
-    ophcrack_bforce_all$$1$$3$$task=ophtask_alloc((enum anonymous$12)bforce_nt);
-    struct ophbforce_t_ *ophcrack_bforce_all$$1$$3$$force = (struct ophbforce_t_ *)ophcrack_bforce_all$$1$$3$$task->data;
-    signed int ophcrack_bforce_all$$1$$3$$nhashes = hashes_nt->size;
-    ophcrack_bforce_all$$1$$3$$force->nhashes = ophcrack_bforce_all$$1$$3$$nhashes;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)ophcrack_bforce_all$$1$$3$$nhashes * sizeof(struct hash_t_ *) /*8ul*/ );
-    ophcrack_bforce_all$$1$$3$$force->hashes = (struct hash_t_ **)return_value_malloc$4;
+    struct ophtask_t_ *ophcrack_bforce_all__1__3__task;
+    ophcrack_bforce_all__1__3__task=ophtask_alloc((enum anonymous_12)bforce_nt);
+    struct ophbforce_t_ *ophcrack_bforce_all__1__3__force = (struct ophbforce_t_ *)ophcrack_bforce_all__1__3__task->data;
+    signed int ophcrack_bforce_all__1__3__nhashes = hashes_nt->size;
+    ophcrack_bforce_all__1__3__force->nhashes = ophcrack_bforce_all__1__3__nhashes;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)ophcrack_bforce_all__1__3__nhashes * sizeof(struct hash_t_ *) /*8ul*/ );
+    ophcrack_bforce_all__1__3__force->hashes = (struct hash_t_ **)return_value_malloc_4;
     nd = hashes_nt->head;
     n = 0;
     for( ; !(nd == ((struct list_nd_t_ *)NULL)); n = n + 1)
     {
-      ophcrack_bforce_all$$1$$3$$force->hashes[(signed long int)n] = (struct hash_t_ *)nd->data;
+      ophcrack_bforce_all__1__3__force->hashes[(signed long int)n] = (struct hash_t_ *)nd->data;
       nd = nd->next;
     }
     i = 1;
     for( ; maxlen >= i; i = i + 1)
     {
-      return_value_pow$5=pow((double)size_nt, (double)i);
-      count_nt = count_nt + (unsigned long int)return_value_pow$5;
+      return_value_pow_5=pow((double)size_nt, (double)i);
+      count_nt = count_nt + (unsigned long int)return_value_pow_5;
     }
-    ophcrack_bforce_all$$1$$3$$force->count = (signed int)count_nt;
-    scheduler_add(sched, (void *)ophcrack_bforce_all$$1$$3$$task, (enum anonymous$8)low);
+    ophcrack_bforce_all__1__3__force->count = (signed int)count_nt;
+    scheduler_add(sched, (void *)ophcrack_bforce_all__1__3__task, (enum anonymous_8)low);
   }
 
   signed int count = (signed int)(count_lm + count_nt);
@@ -12892,7 +12892,7 @@ struct ophtask_t_ * ophcrack_bforce_all(struct ophcrack_t_ *crack, struct ophtas
 struct ophtask_t_ * ophcrack_bforce_lm(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophbforce_t_ *force = (struct ophbforce_t_ *)task->data;
   struct hash_t_ **hashes = force->hashes;
   signed int nhashes = force->nhashes;
@@ -12902,19 +12902,19 @@ struct ophtask_t_ * ophcrack_bforce_lm(struct ophcrack_t_ *crack, struct ophtask
   signed int bloom_bit;
   if(force->hash == ((unsigned char **)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)nhashes, sizeof(unsigned char *) /*8ul*/ );
-    force->hash = (unsigned char **)return_value_calloc$1;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)nhashes, sizeof(signed int) /*4ul*/ );
-    force->found = (signed int *)return_value_calloc$2;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)nhashes, sizeof(unsigned char *) /*8ul*/ );
+    force->hash = (unsigned char **)return_value_calloc_1;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)nhashes, sizeof(signed int) /*4ul*/ );
+    force->found = (signed int *)return_value_calloc_2;
     n = 0;
     for( ; !(n >= nhashes); n = n + 1)
     {
       struct hash_t_ *hsh = hashes[(signed long int)n];
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)8 * sizeof(unsigned char) /*1ul*/ );
-      force->hash[(signed long int)n] = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)8 * sizeof(unsigned char) /*1ul*/ );
+      force->hash[(signed long int)n] = (unsigned char *)return_value_malloc_3;
       memcpy((void *)force->hash[(signed long int)n], (const void *)hsh->hash, (unsigned long int)8);
       bloom_byte = *((signed int *)force->hash[(signed long int)n]) & 0xfffff;
       bloom_bit = 1 << (bloom_byte >> 15);
@@ -12922,7 +12922,7 @@ struct ophtask_t_ * ophcrack_bforce_lm(struct ophcrack_t_ *crack, struct ophtask
     }
   }
 
-  const unsigned char *chars = extended_chars$link2;
+  const unsigned char *chars = extended_chars_link2;
   signed int size = (signed int)sizeof(const unsigned char [69l]) /*69ul*/ ;
   unsigned char pwd[8l] = { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0 };
   unsigned char hash[8l] = { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0 };
@@ -12932,7 +12932,7 @@ struct ophtask_t_ * ophcrack_bforce_lm(struct ophcrack_t_ *crack, struct ophtask
   signed int maxlen = crack->arg->bforce_len;
   signed int count = nhredux;
   signed int i = 0;
-  signed int return_value_memcmp$4;
+  signed int return_value_memcmp_4;
   while(count >= 1 && maxlen >= len)
   {
     while(!(*idx >= size))
@@ -12956,8 +12956,8 @@ struct ophtask_t_ * ophcrack_bforce_lm(struct ophcrack_t_ *crack, struct ophtask
           signed int found = force->found[(signed long int)n];
           if(found == 0)
           {
-            return_value_memcmp$4=memcmp((const void *)force->hash[(signed long int)n], (const void *)hash, (unsigned long int)8);
-            if(return_value_memcmp$4 == 0)
+            return_value_memcmp_4=memcmp((const void *)force->hash[(signed long int)n], (const void *)hash, (unsigned long int)8);
+            if(return_value_memcmp_4 == 0)
             {
               force->found[(signed long int)n] = 1;
               if(hashes[(signed long int)n]->id >= 0)
@@ -12999,7 +12999,7 @@ struct ophtask_t_ * ophcrack_bforce_lm(struct ophcrack_t_ *crack, struct ophtask
     ophstat_add(crack->stat, task->stat);
     pthread_mutex_unlock(mutex);
     ophstat_reset(task->stat);
-    scheduler_add(sched, (void *)task, (enum anonymous$8)low);
+    scheduler_add(sched, (void *)task, (enum anonymous_8)low);
     task = ((struct ophtask_t_ *)NULL);
   }
 
@@ -13011,7 +13011,7 @@ struct ophtask_t_ * ophcrack_bforce_lm(struct ophcrack_t_ *crack, struct ophtask
 struct ophtask_t_ * ophcrack_bforce_nt(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophbforce_t_ *force = (struct ophbforce_t_ *)task->data;
   struct hash_t_ **hashes = force->hashes;
   signed int nhashes = force->nhashes;
@@ -13021,19 +13021,19 @@ struct ophtask_t_ * ophcrack_bforce_nt(struct ophcrack_t_ *crack, struct ophtask
   signed int bloom_bit;
   if(force->hash == ((unsigned char **)NULL))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)nhashes, sizeof(unsigned char *) /*8ul*/ );
-    force->hash = (unsigned char **)return_value_calloc$1;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)nhashes, sizeof(signed int) /*4ul*/ );
-    force->found = (signed int *)return_value_calloc$2;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)nhashes, sizeof(unsigned char *) /*8ul*/ );
+    force->hash = (unsigned char **)return_value_calloc_1;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)nhashes, sizeof(signed int) /*4ul*/ );
+    force->found = (signed int *)return_value_calloc_2;
     n = 0;
     for( ; !(n >= nhashes); n = n + 1)
     {
       struct hash_t_ *hsh = hashes[(signed long int)n];
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)16 * sizeof(unsigned char) /*1ul*/ );
-      force->hash[(signed long int)n] = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)16 * sizeof(unsigned char) /*1ul*/ );
+      force->hash[(signed long int)n] = (unsigned char *)return_value_malloc_3;
       memcpy((void *)force->hash[(signed long int)n], (const void *)hsh->hash, (unsigned long int)16);
       bloom_byte = *((signed int *)force->hash[(signed long int)n]) & 0xfffff;
       bloom_bit = 1 << (bloom_byte >> 15);
@@ -13041,7 +13041,7 @@ struct ophtask_t_ * ophcrack_bforce_nt(struct ophcrack_t_ *crack, struct ophtask
     }
   }
 
-  const unsigned char *chars = ntextended_ext95$link1;
+  const unsigned char *chars = ntextended_ext95_link1;
   signed int size = (signed int)sizeof(const unsigned char [95l]) /*95ul*/ ;
   unsigned char pwd[8l] = { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0 };
   unsigned char hash[16l] = { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
@@ -13051,7 +13051,7 @@ struct ophtask_t_ * ophcrack_bforce_nt(struct ophcrack_t_ *crack, struct ophtask
   signed int maxlen = crack->arg->bforce_len;
   signed int count = nhredux;
   signed int i = 0;
-  signed int return_value_memcmp$4;
+  signed int return_value_memcmp_4;
   while(count >= 1 && maxlen >= len)
   {
     while(!(*idx >= size))
@@ -13075,8 +13075,8 @@ struct ophtask_t_ * ophcrack_bforce_nt(struct ophcrack_t_ *crack, struct ophtask
           signed int found = force->found[(signed long int)n];
           if(found == 0)
           {
-            return_value_memcmp$4=memcmp((const void *)force->hash[(signed long int)n], (const void *)hash, (unsigned long int)16);
-            if(return_value_memcmp$4 == 0)
+            return_value_memcmp_4=memcmp((const void *)force->hash[(signed long int)n], (const void *)hash, (unsigned long int)16);
+            if(return_value_memcmp_4 == 0)
             {
               force->found[(signed long int)n] = 1;
               if(hashes[(signed long int)n]->id >= 0)
@@ -13118,7 +13118,7 @@ struct ophtask_t_ * ophcrack_bforce_nt(struct ophcrack_t_ *crack, struct ophtask
     ophstat_add(crack->stat, task->stat);
     pthread_mutex_unlock(mutex);
     ophstat_reset(task->stat);
-    scheduler_add(sched, (void *)task, (enum anonymous$8)low);
+    scheduler_add(sched, (void *)task, (enum anonymous_8)low);
     task = ((struct ophtask_t_ *)NULL);
   }
 
@@ -13130,7 +13130,7 @@ struct ophtask_t_ * ophcrack_bforce_nt(struct ophcrack_t_ *crack, struct ophtask
 struct ophtask_t_ * ophcrack_check(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophwork_t_ *work = (struct ophwork_t_ *)task->data;
   struct hash_t_ *hsh = work->hsh;
   struct htbl_t_ *htbl = work->htbl;
@@ -13242,9 +13242,9 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
 {
   signed int maxhid = crack->maxhid;
   struct hash_t_ **id_to_hash;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)maxhid, sizeof(struct hash_t_ *) /*8ul*/ );
-  id_to_hash = (struct hash_t_ **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)maxhid, sizeof(struct hash_t_ *) /*8ul*/ );
+  id_to_hash = (struct hash_t_ **)return_value_calloc_1;
   struct list_t_ *hashes = crack->hashes;
   struct list_nd_t_ *nd;
   struct arg_t_ *arg = crack->arg;
@@ -13252,27 +13252,27 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
   nd = hashes->head;
   for( ; !(nd == ((struct list_nd_t_ *)NULL)); nd = nd->next)
   {
-    struct hash_t_ *ophcrack_export_csv$$1$$1$$1$$hsh = (struct hash_t_ *)nd->data;
-    id_to_hash[(signed long int)ophcrack_export_csv$$1$$1$$1$$hsh->id] = ophcrack_export_csv$$1$$1$$1$$hsh;
+    struct hash_t_ *ophcrack_export_csv__1__1__1__hsh = (struct hash_t_ *)nd->data;
+    id_to_hash[(signed long int)ophcrack_export_csv__1__1__1__hsh->id] = ophcrack_export_csv__1__1__1__hsh;
   }
   signed int i;
   signed int first;
   i = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  const char *return_value_category_string$6;
-  const char *return_value_category_string$7;
-  const char *return_value_category_string$8;
-  const char *return_value_category_string$9;
-  const char *return_value_category_string$10;
-  const char *return_value_category_string$11;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  const char *return_value_category_string_6;
+  const char *return_value_category_string_7;
+  const char *return_value_category_string_8;
+  const char *return_value_category_string_9;
+  const char *return_value_category_string_10;
+  const char *return_value_category_string_11;
   for( ; !(i >= maxhid); i = i + 1)
   {
     first = 1;
     struct hash_t_ *hsh = id_to_hash[(signed long int)i];
-    enum anonymous$0 kind = hsh->kind;
+    enum anonymous_0 kind = hsh->kind;
     struct hash_t_ *lmhsh1 = ((struct hash_t_ *)NULL);
     struct hash_t_ *lmhsh2 = ((struct hash_t_ *)NULL);
     struct hash_t_ *nthsh = ((struct hash_t_ *)NULL);
@@ -13492,21 +13492,21 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
             if(!(quote == 0))
             {
               if(!(lmhsh1->done == 0))
-                tmp_if_expr$2 = lmhsh2->done != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_2 = lmhsh2->done != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$2 = (_Bool)0;
-              fprintf(file, "%c%d%c", quote, tmp_if_expr$2, quote);
+                tmp_if_expr_2 = (_Bool)0;
+              fprintf(file, "%c%d%c", quote, tmp_if_expr_2, quote);
             }
 
             else
             {
               if(!(lmhsh1->done == 0))
-                tmp_if_expr$3 = lmhsh2->done != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = lmhsh2->done != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              fprintf(file, "%d", tmp_if_expr$3);
+                tmp_if_expr_3 = (_Bool)0;
+              fprintf(file, "%d", tmp_if_expr_3);
             }
             break;
           }
@@ -13555,11 +13555,11 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
                 if(lmhsh2->done >= 1)
                 {
                   if(!(lmhsh2->time >= lmhsh1->time))
-                    tmp_if_expr$4 = lmhsh1->time;
+                    tmp_if_expr_4 = lmhsh1->time;
 
                   else
-                    tmp_if_expr$4 = lmhsh2->time;
-                  fprintf(file, "%c%d%c", quote, tmp_if_expr$4, quote);
+                    tmp_if_expr_4 = lmhsh2->time;
+                  fprintf(file, "%c%d%c", quote, tmp_if_expr_4, quote);
                 }
 
               }
@@ -13572,11 +13572,11 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
                 if(lmhsh2->done >= 1)
                 {
                   if(!(lmhsh2->time >= lmhsh1->time))
-                    tmp_if_expr$5 = lmhsh1->time;
+                    tmp_if_expr_5 = lmhsh1->time;
 
                   else
-                    tmp_if_expr$5 = lmhsh2->time;
-                  fprintf(file, "%d", tmp_if_expr$5);
+                    tmp_if_expr_5 = lmhsh2->time;
+                  fprintf(file, "%d", tmp_if_expr_5);
                 }
 
               }
@@ -13681,8 +13681,8 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
             {
               if(lmhsh1->done >= 1)
               {
-                return_value_category_string$6=category_string(lmhsh1->category);
-                fprintf(file, "%c%s%c", quote, return_value_category_string$6, quote);
+                return_value_category_string_6=category_string(lmhsh1->category);
+                fprintf(file, "%c%s%c", quote, return_value_category_string_6, quote);
               }
 
             }
@@ -13690,8 +13690,8 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
             else
               if(lmhsh1->done >= 1)
               {
-                return_value_category_string$7=category_string(lmhsh1->category);
-                fprintf(file, "%s", return_value_category_string$7);
+                return_value_category_string_7=category_string(lmhsh1->category);
+                fprintf(file, "%s", return_value_category_string_7);
               }
 
             break;
@@ -13704,8 +13704,8 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
               {
                 if(lmhsh2->done >= 1)
                 {
-                  return_value_category_string$8=category_string(lmhsh1->category | lmhsh2->category);
-                  fprintf(file, "%c%s%c", quote, return_value_category_string$8, quote);
+                  return_value_category_string_8=category_string(lmhsh1->category | lmhsh2->category);
+                  fprintf(file, "%c%s%c", quote, return_value_category_string_8, quote);
                 }
 
               }
@@ -13717,8 +13717,8 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
               {
                 if(lmhsh2->done >= 1)
                 {
-                  return_value_category_string$9=category_string(lmhsh1->category | lmhsh2->category);
-                  fprintf(file, "%s", return_value_category_string$9);
+                  return_value_category_string_9=category_string(lmhsh1->category | lmhsh2->category);
+                  fprintf(file, "%s", return_value_category_string_9);
                 }
 
               }
@@ -13734,8 +13734,8 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
             {
               if(!(nthsh->done == 0))
               {
-                return_value_category_string$10=category_string(nthsh->category);
-                fprintf(file, "%c%s%c", quote, return_value_category_string$10, quote);
+                return_value_category_string_10=category_string(nthsh->category);
+                fprintf(file, "%c%s%c", quote, return_value_category_string_10, quote);
               }
 
             }
@@ -13743,8 +13743,8 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
             else
               if(!(nthsh->done == 0))
               {
-                return_value_category_string$11=category_string(nthsh->category);
-                fprintf(file, "%s", return_value_category_string$11);
+                return_value_category_string_11=category_string(nthsh->category);
+                fprintf(file, "%s", return_value_category_string_11);
               }
 
         }
@@ -13841,7 +13841,7 @@ void ophcrack_export_csv(struct ophcrack_t_ *crack, struct _IO_FILE *file, signe
 struct ophtask_t_ * ophcrack_find(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophwork_t_ *work = (struct ophwork_t_ *)task->data;
   struct hash_t_ *hsh = work->hsh;
   struct table_t_ *tbl = work->htbl->tbl;
@@ -13852,7 +13852,7 @@ struct ophtask_t_ * ophcrack_find(struct ophcrack_t_ *crack, struct ophtask_t_ *
   if(!(arg->verbose == 0))
     message_work(hsh, tbl, find, cmin, cmax);
 
-  ophtask_convert(task, (enum anonymous$12)find, (enum anonymous$12)lookup_idx);
+  ophtask_convert(task, (enum anonymous_12)find, (enum anonymous_12)lookup_idx);
   signed int i;
   struct ophel_t_ **tosearch = work->tosearch;
   i = 0;
@@ -13902,7 +13902,7 @@ struct ophtask_t_ * ophcrack_find(struct ophcrack_t_ *crack, struct ophtask_t_ *
 
   else
   {
-    scheduler_add(sched, (void *)task, (enum anonymous$8)disk);
+    scheduler_add(sched, (void *)task, (enum anonymous_8)disk);
     task = ((struct ophtask_t_ *)NULL);
   }
   return task;
@@ -13915,9 +13915,9 @@ signed int ophcrack_find_cmin(signed int ncols, signed int cmax, signed int tota
   double y = (double)(ncols - cmax);
   double d = (double)1 - (double)4 * (((double)(-2 * total) - y * y) + y);
   double x;
-  double return_value_sqrt$1;
-  return_value_sqrt$1=sqrt(d);
-  x=floor(0.5 * ((double)-1 + return_value_sqrt$1));
+  double return_value_sqrt_1;
+  return_value_sqrt_1=sqrt(d);
+  x=floor(0.5 * ((double)-1 + return_value_sqrt_1));
   signed int cmin = ncols - (signed int)x;
   if(cmin >= cmax)
     cmin = cmax - 1;
@@ -13930,21 +13930,21 @@ signed int ophcrack_find_cmin(signed int ncols, signed int cmax, signed int tota
 void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table_t_ *tbl, signed int col, char *pwd)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophtask_t_ *task = ((struct ophtask_t_ *)NULL);
   struct ophbforce_t_ *force = ((struct ophbforce_t_ *)NULL);
   char *lmpwd1 = ((char *)NULL);
   char *lmpwd2 = ((char *)NULL);
   pthread_mutex_lock(mutex);
-  unsigned long int return_value_strlen$1;
-  const char *return_value_table_string$3;
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  _Bool tmp_if_expr$12;
-  struct hash_t_ *tmp_if_expr$9;
+  unsigned long int return_value_strlen_1;
+  const char *return_value_table_string_3;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  _Bool tmp_if_expr_12;
+  struct hash_t_ *tmp_if_expr_9;
   if(hsh->done == 0)
   {
     if(hsh->id >= 0)
@@ -13955,20 +13955,20 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
       hsh->done = 1;
       if(hsh->length == 0)
       {
-        return_value_strlen$1=strlen(pwd);
-        hsh->length = (signed int)return_value_strlen$1;
+        return_value_strlen_1=strlen(pwd);
+        hsh->length = (signed int)return_value_strlen_1;
       }
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)32 * sizeof(char) /*1ul*/ );
-      hsh->table = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)32 * sizeof(char) /*1ul*/ );
+      hsh->table = (char *)return_value_malloc_2;
       if(tbl == ((struct table_t_ *)NULL))
         snprintf(hsh->table, (unsigned long int)32, "Bruteforce");
 
       else
       {
-        return_value_table_string$3=table_string(tbl->kind);
-        snprintf(hsh->table, (unsigned long int)32, "%s", return_value_table_string$3);
+        return_value_table_string_3=table_string(tbl->kind);
+        snprintf(hsh->table, (unsigned long int)32, "%s", return_value_table_string_3);
       }
       hsh->category=categorize_password(hsh->pwd);
       if(hsh->time == -1)
@@ -13996,11 +13996,11 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
       {
         crack->npwds_found = crack->npwds_found + 1;
         if(hsh->length >= 16)
-          tmp_if_expr$4 = 15;
+          tmp_if_expr_4 = 15;
 
         else
-          tmp_if_expr$4 = hsh->length;
-        crack->stat->length[(signed long int)tmp_if_expr$4] = crack->stat->length[(signed long int)tmp_if_expr$4] + 1u;
+          tmp_if_expr_4 = hsh->length;
+        crack->stat->length[(signed long int)tmp_if_expr_4] = crack->stat->length[(signed long int)tmp_if_expr_4] + 1u;
         crack->stat->category[(signed long int)hsh->category] = crack->stat->category[(signed long int)hsh->category] + 1u;
         list_add_tail(crack->stat->time, (void *)&hsh->time);
       }
@@ -14008,24 +14008,24 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
       else
       {
         if((signed int)hsh->kind == lm1)
-          tmp_if_expr$7 = hsh->lmhsh1 == ((struct hash_t_ *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = hsh->lmhsh1 == ((struct hash_t_ *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = hsh->lmhsh2->done > 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = hsh->lmhsh2->done > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
         {
           crack->npwds_found = crack->npwds_found + 1;
           if(hsh->length >= 16)
-            tmp_if_expr$5 = 15;
+            tmp_if_expr_5 = 15;
 
           else
-            tmp_if_expr$5 = hsh->length;
-          crack->stat->length[(signed long int)tmp_if_expr$5] = crack->stat->length[(signed long int)tmp_if_expr$5] + 1u;
+            tmp_if_expr_5 = hsh->length;
+          crack->stat->length[(signed long int)tmp_if_expr_5] = crack->stat->length[(signed long int)tmp_if_expr_5] + 1u;
           crack->stat->category[(signed long int)hsh->category] = crack->stat->category[(signed long int)hsh->category] + 1u;
           list_add_tail(crack->stat->time, (void *)&hsh->time);
         }
@@ -14039,11 +14039,11 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
               {
                 crack->npwds_found = crack->npwds_found + 1;
                 if(hsh->length >= 16)
-                  tmp_if_expr$6 = 15;
+                  tmp_if_expr_6 = 15;
 
                 else
-                  tmp_if_expr$6 = hsh->length;
-                crack->stat->length[(signed long int)tmp_if_expr$6] = crack->stat->length[(signed long int)tmp_if_expr$6] + 1u;
+                  tmp_if_expr_6 = hsh->length;
+                crack->stat->length[(signed long int)tmp_if_expr_6] = crack->stat->length[(signed long int)tmp_if_expr_6] + 1u;
                 crack->stat->category[(signed long int)hsh->category] = crack->stat->category[(signed long int)hsh->category] + 1u;
                 list_add_tail(crack->stat->time, (void *)&hsh->time);
               }
@@ -14054,19 +14054,19 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
 
       }
       if((signed int)hsh->kind == lm1)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_12 = (_Bool)1;
 
       else
-        tmp_if_expr$12 = (signed int)hsh->kind == lm2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = (signed int)hsh->kind == lm2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_12)
       {
         struct hash_t_ *nthsh;
         if((signed int)hsh->kind == lm1)
-          tmp_if_expr$9 = hsh->lmhsh1;
+          tmp_if_expr_9 = hsh->lmhsh1;
 
         else
-          tmp_if_expr$9 = hsh->lmhsh2;
-        nthsh = tmp_if_expr$9;
+          tmp_if_expr_9 = hsh->lmhsh2;
+        nthsh = tmp_if_expr_9;
         if(!(nthsh == ((struct hash_t_ *)NULL)))
         {
           if(nthsh->done == 0)
@@ -14077,12 +14077,12 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
             {
               if(lmhsh2->done >= 1)
               {
-                task=ophtask_alloc((enum anonymous$12)resolve_nt);
+                task=ophtask_alloc((enum anonymous_12)resolve_nt);
                 force = (struct ophbforce_t_ *)task->data;
                 force->nhashes = 1;
-                void *return_value_malloc$10;
-                return_value_malloc$10=malloc(sizeof(struct hash_t_ *) /*8ul*/ );
-                force->hashes = (struct hash_t_ **)return_value_malloc$10;
+                void *return_value_malloc_10;
+                return_value_malloc_10=malloc(sizeof(struct hash_t_ *) /*8ul*/ );
+                force->hashes = (struct hash_t_ **)return_value_malloc_10;
                 force->hashes[(signed long int)0] = nthsh;
               }
 
@@ -14096,31 +14096,31 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
 
       else
       {
-        struct hash_t_ *ophcrack_found$$1$$1$$6$$lmhsh1 = hsh->lmhsh1;
-        struct hash_t_ *ophcrack_found$$1$$1$$6$$lmhsh2 = hsh->lmhsh2;
-        char *ophcrack_found$$1$$1$$6$$pwd = hsh->pwd;
+        struct hash_t_ *ophcrack_found__1__1__6__lmhsh1 = hsh->lmhsh1;
+        struct hash_t_ *ophcrack_found__1__1__6__lmhsh2 = hsh->lmhsh2;
+        char *ophcrack_found__1__1__6__pwd = hsh->pwd;
         signed int len;
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(hsh->pwd);
-        len = (signed int)return_value_strlen$11;
-        if(!(ophcrack_found$$1$$1$$6$$lmhsh1 == ((struct hash_t_ *)NULL)))
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(hsh->pwd);
+        len = (signed int)return_value_strlen_11;
+        if(!(ophcrack_found__1__1__6__lmhsh1 == ((struct hash_t_ *)NULL)))
         {
-          if(ophcrack_found$$1$$1$$6$$lmhsh1->done == 0)
+          if(ophcrack_found__1__1__6__lmhsh1->done == 0)
           {
             signed int n = 7 < len ? 7 : len;
-            lmpwd1=lm_from_nt(ophcrack_found$$1$$1$$6$$pwd, n, ophcrack_found$$1$$1$$6$$lmhsh1->hash);
+            lmpwd1=lm_from_nt(ophcrack_found__1__1__6__pwd, n, ophcrack_found__1__1__6__lmhsh1->hash);
           }
 
         }
 
-        if(!(ophcrack_found$$1$$1$$6$$lmhsh2 == ((struct hash_t_ *)NULL)))
+        if(!(ophcrack_found__1__1__6__lmhsh2 == ((struct hash_t_ *)NULL)))
         {
-          if(ophcrack_found$$1$$1$$6$$lmhsh2->done == 0)
+          if(ophcrack_found__1__1__6__lmhsh2->done == 0)
           {
             if(len >= 8)
             {
-              signed int ophcrack_found$$1$$1$$6$$2$$n = 7 < len - 7 ? 7 : len - 7;
-              lmpwd2=lm_from_nt(ophcrack_found$$1$$1$$6$$pwd + (signed long int)7, ophcrack_found$$1$$1$$6$$2$$n, ophcrack_found$$1$$1$$6$$lmhsh2->hash);
+              signed int ophcrack_found__1__1__6__2__n = 7 < len - 7 ? 7 : len - 7;
+              lmpwd2=lm_from_nt(ophcrack_found__1__1__6__pwd + (signed long int)7, ophcrack_found__1__1__6__2__n, ophcrack_found__1__1__6__lmhsh2->hash);
             }
 
           }
@@ -14146,7 +14146,7 @@ void ophcrack_found(struct ophcrack_t_ *crack, struct hash_t_ *hsh, struct table
   }
 
   if(!(task == ((struct ophtask_t_ *)NULL)))
-    scheduler_add(sched, (void *)task, (enum anonymous$8)high);
+    scheduler_add(sched, (void *)task, (enum anonymous_8)high);
 
 }
 
@@ -14201,7 +14201,7 @@ signed int ophcrack_has_next(struct ophcrack_t_ *crack)
 struct ophtask_t_ * ophcrack_lookup_end(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophwork_t_ *work = (struct ophwork_t_ *)task->data;
   struct hash_t_ *hsh = work->hsh;
   struct table_t_ *tbl = work->htbl->tbl;
@@ -14212,7 +14212,7 @@ struct ophtask_t_ * ophcrack_lookup_end(struct ophcrack_t_ *crack, struct ophtas
   if(!(arg->verbose == 0))
     message_work(hsh, tbl, lookup_end, cmin, cmax);
 
-  task->kind = (enum anonymous$12)lookup_srt;
+  task->kind = (enum anonymous_12)lookup_srt;
   signed int i;
   signed int count = size;
   struct ophel_t_ **tosearch = work->tosearch;
@@ -14281,27 +14281,27 @@ struct ophtask_t_ * ophcrack_lookup_end(struct ophcrack_t_ *crack, struct ophtas
   else
     return task;
   signed int both_in_mem;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(tbl->endmem == ((char *)NULL)))
-    tmp_if_expr$1 = tbl->srtmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = tbl->srtmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  both_in_mem = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  both_in_mem = (signed int)tmp_if_expr_1;
   signed int both_on_disk;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(tbl->endmem == ((char *)NULL))
-    tmp_if_expr$2 = !(tbl->srtmem != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = !(tbl->srtmem != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  both_on_disk = (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  both_on_disk = (signed int)tmp_if_expr_2;
   if(!(both_in_mem == 0) || !(both_on_disk == 0))
     task=ophcrack_lookup_srt(crack, task, id);
 
   else
   {
-    enum anonymous$8 priority = (enum anonymous$8)(tbl->srtmem != ((char *)NULL) ? low : disk);
+    enum anonymous_8 priority = (enum anonymous_8)(tbl->srtmem != ((char *)NULL) ? low : disk);
     scheduler_add(sched, (void *)task, priority);
     task = ((struct ophtask_t_ *)NULL);
   }
@@ -14313,7 +14313,7 @@ struct ophtask_t_ * ophcrack_lookup_end(struct ophcrack_t_ *crack, struct ophtas
 struct ophtask_t_ * ophcrack_lookup_idx(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophwork_t_ *work = (struct ophwork_t_ *)task->data;
   struct hash_t_ *hsh = work->hsh;
   struct table_t_ *tbl = work->htbl->tbl;
@@ -14324,7 +14324,7 @@ struct ophtask_t_ * ophcrack_lookup_idx(struct ophcrack_t_ *crack, struct ophtas
   if(!(arg->verbose == 0))
     message_work(hsh, tbl, lookup_idx, cmin, cmax);
 
-  task->kind = (enum anonymous$12)lookup_end;
+  task->kind = (enum anonymous_12)lookup_end;
   struct ophel_t_ **tosearch = work->tosearch;
   if(tbl->idxmem == ((char *)NULL))
     qsort((void *)tosearch, (unsigned long int)size, sizeof(struct ophel_t_ *) /*8ul*/ , ophcrack_pwd_cmp);
@@ -14375,27 +14375,27 @@ struct ophtask_t_ * ophcrack_lookup_idx(struct ophcrack_t_ *crack, struct ophtas
   }
 
   signed int both_in_mem;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(tbl->idxmem == ((char *)NULL)))
-    tmp_if_expr$1 = tbl->endmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = tbl->endmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  both_in_mem = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  both_in_mem = (signed int)tmp_if_expr_1;
   signed int both_on_disk;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(tbl->idxmem == ((char *)NULL))
-    tmp_if_expr$2 = !(tbl->endmem != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = !(tbl->endmem != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  both_on_disk = (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  both_on_disk = (signed int)tmp_if_expr_2;
   if(!(both_in_mem == 0) || !(both_on_disk == 0))
     task=ophcrack_lookup_end(crack, task, id);
 
   else
   {
-    enum anonymous$8 priority = (enum anonymous$8)(tbl->endmem != ((char *)NULL) ? low : disk);
+    enum anonymous_8 priority = (enum anonymous_8)(tbl->endmem != ((char *)NULL) ? low : disk);
     scheduler_add(sched, (void *)task, priority);
     task = ((struct ophtask_t_ *)NULL);
   }
@@ -14407,7 +14407,7 @@ struct ophtask_t_ * ophcrack_lookup_idx(struct ophcrack_t_ *crack, struct ophtas
 struct ophtask_t_ * ophcrack_lookup_srt(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophwork_t_ *work = (struct ophwork_t_ *)task->data;
   struct hash_t_ *hsh = work->hsh;
   struct table_t_ *tbl = work->htbl->tbl;
@@ -14418,7 +14418,7 @@ struct ophtask_t_ * ophcrack_lookup_srt(struct ophcrack_t_ *crack, struct ophtas
   if(!(arg->verbose == 0))
     message_work(hsh, tbl, lookup_srt, cmin, cmax);
 
-  task->kind = (enum anonymous$12)check;
+  task->kind = (enum anonymous_12)check;
   signed int i;
   struct ophel_t_ **tosearch = work->tosearch;
   i = 0;
@@ -14475,7 +14475,7 @@ struct ophtask_t_ * ophcrack_lookup_srt(struct ophcrack_t_ *crack, struct ophtas
 
   }
 
-  scheduler_add(sched, (void *)task, (enum anonymous$8)high);
+  scheduler_add(sched, (void *)task, (enum anonymous_8)high);
   return ((struct ophtask_t_ *)NULL);
 }
 
@@ -14484,31 +14484,31 @@ struct ophtask_t_ * ophcrack_lookup_srt(struct ophcrack_t_ *crack, struct ophtas
 signed int ophcrack_next(struct ophcrack_t_ *crack)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   pthread_mutex_lock(mutex);
   struct list_t_ *hashes = crack->hashes;
   signed int count = hashes->size + 1;
   struct ophtask_t_ *task = ((struct ophtask_t_ *)NULL);
   struct ophwork_t_ *work = ((struct ophwork_t_ *)NULL);
-  signed int tmp_post$1;
-  struct list_nd_t_ *tmp_if_expr$2;
-  struct list_nd_t_ *tmp_if_expr$3;
-  struct list_nd_t_ *tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  signed int tmp_post_1;
+  struct list_nd_t_ *tmp_if_expr_2;
+  struct list_nd_t_ *tmp_if_expr_3;
+  struct list_nd_t_ *tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   while(task == ((struct ophtask_t_ *)NULL))
   {
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     struct list_nd_t_ *hnd;
     if(crack->hnd == ((struct list_nd_t_ *)NULL))
-      tmp_if_expr$2 = hashes->head;
+      tmp_if_expr_2 = hashes->head;
 
     else
-      tmp_if_expr$2 = crack->hnd;
-    hnd = tmp_if_expr$2;
+      tmp_if_expr_2 = crack->hnd;
+    hnd = tmp_if_expr_2;
     struct hash_t_ *hsh = (struct hash_t_ *)hnd->data;
     struct list_t_ *tables = hsh->tables;
     signed int ntables = tables->size;
@@ -14518,11 +14518,11 @@ signed int ophcrack_next(struct ophcrack_t_ *crack)
       {
         struct list_nd_t_ *tnd;
         if(hsh->tnd == ((struct list_nd_t_ *)NULL))
-          tmp_if_expr$3 = tables->head;
+          tmp_if_expr_3 = tables->head;
 
         else
-          tmp_if_expr$3 = hsh->tnd;
-        tnd = tmp_if_expr$3;
+          tmp_if_expr_3 = hsh->tnd;
+        tnd = tmp_if_expr_3;
         struct htbl_t_ *htbl = (struct htbl_t_ *)tnd->data;
         struct table_t_ *tbl = htbl->tbl;
         for( ; (_Bool)1; tbl = htbl->tbl)
@@ -14539,28 +14539,28 @@ signed int ophcrack_next(struct ophcrack_t_ *crack)
             break;
 
           if(tnd->next == ((struct list_nd_t_ *)NULL))
-            tmp_if_expr$4 = tables->head;
+            tmp_if_expr_4 = tables->head;
 
           else
-            tmp_if_expr$4 = tnd->next;
-          tnd = tmp_if_expr$4;
+            tmp_if_expr_4 = tnd->next;
+          tnd = tmp_if_expr_4;
           htbl = (struct htbl_t_ *)tnd->data;
         }
 
       __CPROVER_DUMP_L10:
         ;
         if(!(tbl->active == 0))
-          tmp_if_expr$5 = htbl->col >= 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = htbl->col >= 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           signed int nhredux = crack->arg->nhredux;
           signed int cmax = htbl->col;
           signed int cmin;
           cmin=ophcrack_find_cmin(tbl->ncols, cmax, nhredux);
-          task=ophtask_alloc((enum anonymous$12)find);
+          task=ophtask_alloc((enum anonymous_12)find);
           work = (struct ophwork_t_ *)task->data;
           work->hsh = hsh;
           work->htbl = htbl;
@@ -14580,10 +14580,10 @@ signed int ophcrack_next(struct ophcrack_t_ *crack)
   }
   pthread_mutex_unlock(mutex);
   if(!(task == ((struct ophtask_t_ *)NULL)))
-    scheduler_add(sched, (void *)task, (enum anonymous$8)low);
+    scheduler_add(sched, (void *)task, (enum anonymous_8)low);
 
   else
-    message_done((enum anonymous$12)find);
+    message_done((enum anonymous_12)find);
   return task != ((struct ophtask_t_ *)NULL) ? 1 : 0;
 }
 
@@ -14592,7 +14592,7 @@ signed int ophcrack_next(struct ophcrack_t_ *crack)
 void ophcrack_notfound(struct ophcrack_t_ *crack, struct hash_t_ *hsh)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   pthread_mutex_lock(mutex);
   if(hsh->done == 0)
   {
@@ -14608,9 +14608,9 @@ void ophcrack_notfound(struct ophcrack_t_ *crack, struct hash_t_ *hsh)
 struct ophtask_t_ * ophcrack_preload_all(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  struct ophload_t_ *ophcrack_preload_all$$1$$load = (struct ophload_t_ *)task->data;
+  struct ophload_t_ *ophcrack_preload_all__1__load = (struct ophload_t_ *)task->data;
   signed int force_preload = crack->arg->preload;
-  struct list_t_ *tables = ophcrack_preload_all$$1$$load->tables;
+  struct list_t_ *tables = ophcrack_preload_all__1__load->tables;
   struct list_t_ *active = crack->active;
   struct list_t_ *enabled = crack->enabled;
   struct list_t_ *remaining = crack->remaining;
@@ -14619,252 +14619,252 @@ struct ophtask_t_ * ophcrack_preload_all(struct ophcrack_t_ *crack, struct ophta
   unsigned long int freeram1 = crack->freeram;
   unsigned long int freeram = freeram0 < freeram1 ? freeram0 : freeram1;
   unsigned char *initialised;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)crack->maxtkind, sizeof(unsigned char) /*1ul*/ );
-  initialised = (unsigned char *)return_value_calloc$1;
-  struct list_nd_t_ *ophcrack_preload_all$$1$$1$$nd = crack->tables->head;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_table_preload_size$2;
-  unsigned long int return_value_table_preload_size$3;
-  if(!(ophcrack_preload_all$$1$$1$$nd == ((struct list_nd_t_ *)NULL)))
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)crack->maxtkind, sizeof(unsigned char) /*1ul*/ );
+  initialised = (unsigned char *)return_value_calloc_1;
+  struct list_nd_t_ *ophcrack_preload_all__1__1__nd = crack->tables->head;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_table_preload_size_2;
+  unsigned long int return_value_table_preload_size_3;
+  if(!(ophcrack_preload_all__1__1__nd == ((struct list_nd_t_ *)NULL)))
   {
-    struct table_t_ *ophcrack_preload_all$$1$$1$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$1$$nd->data;
-    enum anonymous$10 ophcrack_preload_all$$1$$1$$1$$state;
-    ophcrack_preload_all$$1$$1$$1$$state=table_preload_state(ophcrack_preload_all$$1$$1$$1$$tbl);
-    if(!(ophcrack_preload_all$$1$$1$$1$$tbl->shared_init == 0))
-      tmp_if_expr$4 = initialised[(signed long int)ophcrack_preload_all$$1$$1$$1$$tbl->kind] != 0 ? (_Bool)1 : (_Bool)0;
+    struct table_t_ *ophcrack_preload_all__1__1__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__1__nd->data;
+    enum anonymous_10 ophcrack_preload_all__1__1__1__state;
+    ophcrack_preload_all__1__1__1__state=table_preload_state(ophcrack_preload_all__1__1__1__tbl);
+    if(!(ophcrack_preload_all__1__1__1__tbl->shared_init == 0))
+      tmp_if_expr_4 = initialised[(signed long int)ophcrack_preload_all__1__1__1__tbl->kind] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      return_value_table_preload_size$2=table_preload_size(ophcrack_preload_all$$1$$1$$1$$tbl, (enum anonymous$10)((signed int)ophcrack_preload_all$$1$$1$$1$$state & ~preload_init));
-      freeram = freeram + return_value_table_preload_size$2;
+      return_value_table_preload_size_2=table_preload_size(ophcrack_preload_all__1__1__1__tbl, (enum anonymous_10)((signed int)ophcrack_preload_all__1__1__1__state & ~preload_init));
+      freeram = freeram + return_value_table_preload_size_2;
     }
 
     else
     {
-      return_value_table_preload_size$3=table_preload_size(ophcrack_preload_all$$1$$1$$1$$tbl, ophcrack_preload_all$$1$$1$$1$$state);
-      freeram = freeram + return_value_table_preload_size$3;
+      return_value_table_preload_size_3=table_preload_size(ophcrack_preload_all__1__1__1__tbl, ophcrack_preload_all__1__1__1__state);
+      freeram = freeram + return_value_table_preload_size_3;
     }
-    initialised[(signed long int)ophcrack_preload_all$$1$$1$$1$$tbl->kind] = initialised[(signed long int)ophcrack_preload_all$$1$$1$$1$$tbl->kind] | (unsigned char)((signed int)ophcrack_preload_all$$1$$1$$1$$state & preload_init);
-    ophcrack_preload_all$$1$$1$$nd = ophcrack_preload_all$$1$$1$$nd->next;
+    initialised[(signed long int)ophcrack_preload_all__1__1__1__tbl->kind] = initialised[(signed long int)ophcrack_preload_all__1__1__1__tbl->kind] | (unsigned char)((signed int)ophcrack_preload_all__1__1__1__state & preload_init);
+    ophcrack_preload_all__1__1__nd = ophcrack_preload_all__1__1__nd->next;
   }
 
-  enum anonymous$10 *preload;
-  void *return_value_calloc$5;
-  return_value_calloc$5=calloc((unsigned long int)crack->maxtid, sizeof(enum anonymous$10) /*4ul*/ );
-  preload = (enum anonymous$10 *)return_value_calloc$5;
-  struct list_nd_t_ *ophcrack_preload_all$$1$$2$$nd = crack->tables->head;
-  if(!(ophcrack_preload_all$$1$$2$$nd == ((struct list_nd_t_ *)NULL)))
+  enum anonymous_10 *preload;
+  void *return_value_calloc_5;
+  return_value_calloc_5=calloc((unsigned long int)crack->maxtid, sizeof(enum anonymous_10) /*4ul*/ );
+  preload = (enum anonymous_10 *)return_value_calloc_5;
+  struct list_nd_t_ *ophcrack_preload_all__1__2__nd = crack->tables->head;
+  if(!(ophcrack_preload_all__1__2__nd == ((struct list_nd_t_ *)NULL)))
   {
-    struct table_t_ *ophcrack_preload_all$$1$$2$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$2$$nd->data;
-    preload[(signed long int)ophcrack_preload_all$$1$$2$$1$$tbl->id] = (enum anonymous$10)preload_none;
-    initialised[(signed long int)ophcrack_preload_all$$1$$2$$1$$tbl->kind] = (unsigned char)0;
-    ophcrack_preload_all$$1$$2$$1$$tbl->active = 0;
-    ophcrack_preload_all$$1$$2$$nd = ophcrack_preload_all$$1$$2$$nd->next;
+    struct table_t_ *ophcrack_preload_all__1__2__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__2__nd->data;
+    preload[(signed long int)ophcrack_preload_all__1__2__1__tbl->id] = (enum anonymous_10)preload_none;
+    initialised[(signed long int)ophcrack_preload_all__1__2__1__tbl->kind] = (unsigned char)0;
+    ophcrack_preload_all__1__2__1__tbl->active = 0;
+    ophcrack_preload_all__1__2__nd = ophcrack_preload_all__1__2__nd->next;
   }
 
   if(tables->size == 0)
   {
-    struct list_nd_t_ *ophcrack_preload_all$$1$$3$$1$$nd = active->head;
-    if(!(ophcrack_preload_all$$1$$3$$1$$nd == ((struct list_nd_t_ *)NULL)))
+    struct list_nd_t_ *ophcrack_preload_all__1__3__1__nd = active->head;
+    if(!(ophcrack_preload_all__1__3__1__nd == ((struct list_nd_t_ *)NULL)))
     {
-      struct table_t_ *ophcrack_preload_all$$1$$3$$1$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$3$$1$$nd->data;
-      if(!(ophcrack_preload_all$$1$$3$$1$$1$$tbl->enabled == 0))
-        list_add_tail(tables, (void *)ophcrack_preload_all$$1$$3$$1$$1$$tbl);
+      struct table_t_ *ophcrack_preload_all__1__3__1__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__3__1__nd->data;
+      if(!(ophcrack_preload_all__1__3__1__1__tbl->enabled == 0))
+        list_add_tail(tables, (void *)ophcrack_preload_all__1__3__1__1__tbl);
 
-      ophcrack_preload_all$$1$$3$$1$$nd = ophcrack_preload_all$$1$$3$$1$$nd->next;
+      ophcrack_preload_all__1__3__1__nd = ophcrack_preload_all__1__3__1__nd->next;
     }
 
-    struct list_nd_t_ *ophcrack_preload_all$$1$$3$$2$$nd = remaining->head;
-    if(!(ophcrack_preload_all$$1$$3$$2$$nd == ((struct list_nd_t_ *)NULL)))
+    struct list_nd_t_ *ophcrack_preload_all__1__3__2__nd = remaining->head;
+    if(!(ophcrack_preload_all__1__3__2__nd == ((struct list_nd_t_ *)NULL)))
     {
-      struct table_t_ *ophcrack_preload_all$$1$$3$$2$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$3$$2$$nd->data;
-      if(!(ophcrack_preload_all$$1$$3$$2$$1$$tbl->enabled == 0))
-        list_add_tail(tables, (void *)ophcrack_preload_all$$1$$3$$2$$1$$tbl);
+      struct table_t_ *ophcrack_preload_all__1__3__2__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__3__2__nd->data;
+      if(!(ophcrack_preload_all__1__3__2__1__tbl->enabled == 0))
+        list_add_tail(tables, (void *)ophcrack_preload_all__1__3__2__1__tbl);
 
-      ophcrack_preload_all$$1$$3$$2$$nd = ophcrack_preload_all$$1$$3$$2$$nd->next;
+      ophcrack_preload_all__1__3__2__nd = ophcrack_preload_all__1__3__2__nd->next;
     }
 
   }
 
   list_clear(active);
   list_clear(remaining);
-  enum anonymous$10 states[3l] = { (enum anonymous$10)(preload_init + preload_idx + preload_end),
-    (enum anonymous$10)(preload_init + preload_idx),
-    (enum anonymous$10)preload_init };
+  enum anonymous_10 states[3l] = { (enum anonymous_10)(preload_init + preload_idx + preload_end),
+    (enum anonymous_10)(preload_init + preload_idx),
+    (enum anonymous_10)preload_init };
   signed int ondisk = 0;
-  struct list_nd_t_ *ophcrack_preload_all$$1$$4$$nd = tables->head;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  if(!(ophcrack_preload_all$$1$$4$$nd == ((struct list_nd_t_ *)NULL)))
+  struct list_nd_t_ *ophcrack_preload_all__1__4__nd = tables->head;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  if(!(ophcrack_preload_all__1__4__nd == ((struct list_nd_t_ *)NULL)))
   {
-    struct table_t_ *ophcrack_preload_all$$1$$4$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$4$$nd->data;
-    if(!(ophcrack_preload_all$$1$$4$$1$$tbl->cmax == 0))
+    struct table_t_ *ophcrack_preload_all__1__4__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__4__nd->data;
+    if(!(ophcrack_preload_all__1__4__1__tbl->cmax == 0))
     {
-      signed int ophcrack_preload_all$$1$$4$$1$$1$$i = 0;
-      if(!(ophcrack_preload_all$$1$$4$$1$$1$$i >= 3))
+      signed int ophcrack_preload_all__1__4__1__1__i = 0;
+      if(!(ophcrack_preload_all__1__4__1__1__i >= 3))
       {
-        enum anonymous$10 ophcrack_preload_all$$1$$4$$1$$1$$1$$state = states[(signed long int)ophcrack_preload_all$$1$$4$$1$$1$$i];
+        enum anonymous_10 ophcrack_preload_all__1__4__1__1__1__state = states[(signed long int)ophcrack_preload_all__1__4__1__1__i];
         unsigned long int size = (unsigned long int)0;
-        if(!(ophcrack_preload_all$$1$$4$$1$$tbl->shared_init == 0))
-          tmp_if_expr$6 = initialised[(signed long int)ophcrack_preload_all$$1$$4$$1$$tbl->kind] != 0 ? (_Bool)1 : (_Bool)0;
+        if(!(ophcrack_preload_all__1__4__1__tbl->shared_init == 0))
+          tmp_if_expr_6 = initialised[(signed long int)ophcrack_preload_all__1__4__1__tbl->kind] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          size=table_preload_size(ophcrack_preload_all$$1$$4$$1$$tbl, (enum anonymous$10)((signed int)ophcrack_preload_all$$1$$4$$1$$1$$1$$state & ~preload_init));
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          size=table_preload_size(ophcrack_preload_all__1__4__1__tbl, (enum anonymous_10)((signed int)ophcrack_preload_all__1__4__1__1__1__state & ~preload_init));
 
         else
-          size=table_preload_size(ophcrack_preload_all$$1$$4$$1$$tbl, ophcrack_preload_all$$1$$4$$1$$1$$1$$state);
-        static const enum anonymous$10 idxend = (const enum anonymous$10)(preload_idx + preload_end);
-        signed int accept = (signed int)(!(ondisk != 0) || ondisk != 0 && ((signed int)ophcrack_preload_all$$1$$4$$1$$1$$1$$state & (signed int)idxend) == (signed int)idxend);
+          size=table_preload_size(ophcrack_preload_all__1__4__1__tbl, ophcrack_preload_all__1__4__1__1__1__state);
+        static const enum anonymous_10 idxend = (const enum anonymous_10)(preload_idx + preload_end);
+        signed int accept = (signed int)(!(ondisk != 0) || ondisk != 0 && ((signed int)ophcrack_preload_all__1__4__1__1__1__state & (signed int)idxend) == (signed int)idxend);
         if(freeram >= size && !(accept == 0))
         {
           freeram = freeram - size;
-          preload[(signed long int)ophcrack_preload_all$$1$$4$$1$$tbl->id] = ophcrack_preload_all$$1$$4$$1$$1$$1$$state;
-          initialised[(signed long int)ophcrack_preload_all$$1$$4$$1$$tbl->kind] = initialised[(signed long int)ophcrack_preload_all$$1$$4$$1$$tbl->kind] | (unsigned char)((signed int)ophcrack_preload_all$$1$$4$$1$$1$$1$$state & preload_init);
+          preload[(signed long int)ophcrack_preload_all__1__4__1__tbl->id] = ophcrack_preload_all__1__4__1__1__1__state;
+          initialised[(signed long int)ophcrack_preload_all__1__4__1__tbl->kind] = initialised[(signed long int)ophcrack_preload_all__1__4__1__tbl->kind] | (unsigned char)((signed int)ophcrack_preload_all__1__4__1__1__1__state & preload_init);
         }
 
         else
-          ophcrack_preload_all$$1$$4$$1$$1$$i = ophcrack_preload_all$$1$$4$$1$$1$$i + 1;
+          ophcrack_preload_all__1__4__1__1__i = ophcrack_preload_all__1__4__1__1__i + 1;
       }
 
       if(!(ondisk == 0))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        if((preload_idx & (signed int)preload[(signed long int)ophcrack_preload_all$$1$$4$$1$$tbl->id]) == 0)
-          tmp_if_expr$7 = (_Bool)1;
+        if((preload_idx & (signed int)preload[(signed long int)ophcrack_preload_all__1__4__1__tbl->id]) == 0)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = !(((signed int)preload[(signed long int)ophcrack_preload_all$$1$$4$$1$$tbl->id] & preload_end) != 0) ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = !(((signed int)preload[(signed long int)ophcrack_preload_all__1__4__1__tbl->id] & preload_end) != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
-      ondisk = (signed int)tmp_if_expr$8;
-      if((signed int)preload[(signed long int)ophcrack_preload_all$$1$$4$$1$$tbl->id] == preload_none)
-        list_add_tail(remaining, (void *)ophcrack_preload_all$$1$$4$$1$$tbl);
+      ondisk = (signed int)tmp_if_expr_8;
+      if((signed int)preload[(signed long int)ophcrack_preload_all__1__4__1__tbl->id] == preload_none)
+        list_add_tail(remaining, (void *)ophcrack_preload_all__1__4__1__tbl);
 
       else
-        list_add_tail(active, (void *)ophcrack_preload_all$$1$$4$$1$$tbl);
+        list_add_tail(active, (void *)ophcrack_preload_all__1__4__1__tbl);
     }
 
-    ophcrack_preload_all$$1$$4$$nd = ophcrack_preload_all$$1$$4$$nd->next;
+    ophcrack_preload_all__1__4__nd = ophcrack_preload_all__1__4__nd->next;
   }
 
-  struct list_nd_t_ *ophcrack_preload_all$$1$$5$$nd = active->head;
-  if(!(ophcrack_preload_all$$1$$5$$nd == ((struct list_nd_t_ *)NULL)))
+  struct list_nd_t_ *ophcrack_preload_all__1__5__nd = active->head;
+  if(!(ophcrack_preload_all__1__5__nd == ((struct list_nd_t_ *)NULL)))
   {
-    struct table_t_ *ophcrack_preload_all$$1$$5$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$5$$nd->data;
-    if(!((preload_idx & (signed int)preload[(signed long int)ophcrack_preload_all$$1$$5$$1$$tbl->id]) == 0))
+    struct table_t_ *ophcrack_preload_all__1__5__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__5__nd->data;
+    if(!((preload_idx & (signed int)preload[(signed long int)ophcrack_preload_all__1__5__1__tbl->id]) == 0))
     {
-      unsigned long int ophcrack_preload_all$$1$$5$$1$$1$$size;
-      ophcrack_preload_all$$1$$5$$1$$1$$size=table_preload_size(ophcrack_preload_all$$1$$5$$1$$tbl, (enum anonymous$10)preload_srt);
-      if(freeram >= ophcrack_preload_all$$1$$5$$1$$1$$size)
+      unsigned long int ophcrack_preload_all__1__5__1__1__size;
+      ophcrack_preload_all__1__5__1__1__size=table_preload_size(ophcrack_preload_all__1__5__1__tbl, (enum anonymous_10)preload_srt);
+      if(freeram >= ophcrack_preload_all__1__5__1__1__size)
       {
-        freeram = freeram - ophcrack_preload_all$$1$$5$$1$$1$$size;
-        preload[(signed long int)ophcrack_preload_all$$1$$5$$1$$tbl->id] = preload[(signed long int)ophcrack_preload_all$$1$$5$$1$$tbl->id] + (enum anonymous$10)preload_srt;
+        freeram = freeram - ophcrack_preload_all__1__5__1__1__size;
+        preload[(signed long int)ophcrack_preload_all__1__5__1__tbl->id] = preload[(signed long int)ophcrack_preload_all__1__5__1__tbl->id] + (enum anonymous_10)preload_srt;
       }
 
     }
 
-    ophcrack_preload_all$$1$$5$$nd = ophcrack_preload_all$$1$$5$$nd->next;
+    ophcrack_preload_all__1__5__nd = ophcrack_preload_all__1__5__nd->next;
   }
 
-  struct list_nd_t_ *ophcrack_preload_all$$1$$6$$nd = active->head;
-  if(!(ophcrack_preload_all$$1$$6$$nd == ((struct list_nd_t_ *)NULL)))
+  struct list_nd_t_ *ophcrack_preload_all__1__6__nd = active->head;
+  if(!(ophcrack_preload_all__1__6__nd == ((struct list_nd_t_ *)NULL)))
   {
-    struct table_t_ *ophcrack_preload_all$$1$$6$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$6$$nd->data;
-    ophcrack_preload_all$$1$$6$$1$$tbl->active = 1;
-    ophcrack_preload_all$$1$$6$$nd = ophcrack_preload_all$$1$$6$$nd->next;
+    struct table_t_ *ophcrack_preload_all__1__6__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__6__nd->data;
+    ophcrack_preload_all__1__6__1__tbl->active = 1;
+    ophcrack_preload_all__1__6__nd = ophcrack_preload_all__1__6__nd->next;
   }
 
-  struct list_nd_t_ *ophcrack_preload_all$$1$$7$$nd = remaining->head;
-  if(!(ophcrack_preload_all$$1$$7$$nd == ((struct list_nd_t_ *)NULL)))
+  struct list_nd_t_ *ophcrack_preload_all__1__7__nd = remaining->head;
+  if(!(ophcrack_preload_all__1__7__nd == ((struct list_nd_t_ *)NULL)))
   {
-    struct table_t_ *ophcrack_preload_all$$1$$7$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$7$$nd->data;
-    ophcrack_preload_all$$1$$7$$1$$tbl->active = 0;
-    ophcrack_preload_all$$1$$7$$nd = ophcrack_preload_all$$1$$7$$nd->next;
+    struct table_t_ *ophcrack_preload_all__1__7__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__7__nd->data;
+    ophcrack_preload_all__1__7__1__tbl->active = 0;
+    ophcrack_preload_all__1__7__nd = ophcrack_preload_all__1__7__nd->next;
   }
 
-  struct list_nd_t_ *ophcrack_preload_all$$1$$8$$nd = crack->tables->head;
-  if(!(ophcrack_preload_all$$1$$8$$nd == ((struct list_nd_t_ *)NULL)))
+  struct list_nd_t_ *ophcrack_preload_all__1__8__nd = crack->tables->head;
+  if(!(ophcrack_preload_all__1__8__nd == ((struct list_nd_t_ *)NULL)))
   {
-    struct table_t_ *ophcrack_preload_all$$1$$8$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$8$$nd->data;
-    enum anonymous$10 state;
-    state=table_preload_state(ophcrack_preload_all$$1$$8$$1$$tbl);
-    if(ophcrack_preload_all$$1$$8$$1$$tbl->enabled == 0)
+    struct table_t_ *ophcrack_preload_all__1__8__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__8__nd->data;
+    enum anonymous_10 state;
+    state=table_preload_state(ophcrack_preload_all__1__8__1__tbl);
+    if(ophcrack_preload_all__1__8__1__tbl->enabled == 0)
     {
       if(!((signed int)state == preload_none))
       {
-        struct ophtask_t_ *ophcrack_preload_all$$1$$8$$1$$1$$task;
-        ophcrack_preload_all$$1$$8$$1$$1$$task=ophtask_alloc((enum anonymous$12)unload);
-        struct ophload_t_ *load = (struct ophload_t_ *)ophcrack_preload_all$$1$$8$$1$$1$$task->data;
-        load->tbl = ophcrack_preload_all$$1$$8$$1$$tbl;
+        struct ophtask_t_ *ophcrack_preload_all__1__8__1__1__task;
+        ophcrack_preload_all__1__8__1__1__task=ophtask_alloc((enum anonymous_12)unload);
+        struct ophload_t_ *load = (struct ophload_t_ *)ophcrack_preload_all__1__8__1__1__task->data;
+        load->tbl = ophcrack_preload_all__1__8__1__tbl;
         load->preload = state;
-        scheduler_add(sched, (void *)ophcrack_preload_all$$1$$8$$1$$1$$task, (enum anonymous$8)disk);
+        scheduler_add(sched, (void *)ophcrack_preload_all__1__8__1__1__task, (enum anonymous_8)disk);
       }
 
     }
 
-    ophcrack_preload_all$$1$$8$$nd = ophcrack_preload_all$$1$$8$$nd->next;
+    ophcrack_preload_all__1__8__nd = ophcrack_preload_all__1__8__nd->next;
   }
 
   unsigned long int total_size = (unsigned long int)0;
-  signed int return_value_ophcrack_has_next$10;
-  return_value_ophcrack_has_next$10=ophcrack_has_next(crack);
-  if(!(return_value_ophcrack_has_next$10 == 0))
+  signed int return_value_ophcrack_has_next_10;
+  return_value_ophcrack_has_next_10=ophcrack_has_next(crack);
+  if(!(return_value_ophcrack_has_next_10 == 0))
   {
     struct list_nd_t_ *nd = enabled->head;
     if(!(nd == ((struct list_nd_t_ *)NULL)))
     {
       struct table_t_ *tbl = (struct table_t_ *)nd->data;
-      enum anonymous$10 ophcrack_preload_all$$1$$9$$1$$1$$state;
-      ophcrack_preload_all$$1$$9$$1$$1$$state=table_preload_state(tbl);
-      enum anonymous$10 unload_bits = (enum anonymous$10)((signed int)ophcrack_preload_all$$1$$9$$1$$1$$state & ~((signed int)preload[(signed long int)tbl->id]));
+      enum anonymous_10 ophcrack_preload_all__1__9__1__1__state;
+      ophcrack_preload_all__1__9__1__1__state=table_preload_state(tbl);
+      enum anonymous_10 unload_bits = (enum anonymous_10)((signed int)ophcrack_preload_all__1__9__1__1__state & ~((signed int)preload[(signed long int)tbl->id]));
       if(!((signed int)unload_bits == preload_none))
       {
-        struct ophtask_t_ *ophcrack_preload_all$$1$$9$$1$$1$$1$$task;
-        ophcrack_preload_all$$1$$9$$1$$1$$1$$task=ophtask_alloc((enum anonymous$12)unload);
-        struct ophload_t_ *ophcrack_preload_all$$1$$9$$1$$1$$1$$load = (struct ophload_t_ *)ophcrack_preload_all$$1$$9$$1$$1$$1$$task->data;
-        ophcrack_preload_all$$1$$9$$1$$1$$1$$load->tbl = tbl;
-        ophcrack_preload_all$$1$$9$$1$$1$$1$$load->preload = unload_bits;
-        scheduler_add(sched, (void *)ophcrack_preload_all$$1$$9$$1$$1$$1$$task, (enum anonymous$8)disk);
+        struct ophtask_t_ *ophcrack_preload_all__1__9__1__1__1__task;
+        ophcrack_preload_all__1__9__1__1__1__task=ophtask_alloc((enum anonymous_12)unload);
+        struct ophload_t_ *ophcrack_preload_all__1__9__1__1__1__load = (struct ophload_t_ *)ophcrack_preload_all__1__9__1__1__1__task->data;
+        ophcrack_preload_all__1__9__1__1__1__load->tbl = tbl;
+        ophcrack_preload_all__1__9__1__1__1__load->preload = unload_bits;
+        scheduler_add(sched, (void *)ophcrack_preload_all__1__9__1__1__1__task, (enum anonymous_8)disk);
       }
 
       nd = nd->next;
     }
 
     struct ophtask_t_ *unload_done;
-    unload_done=ophtask_alloc((enum anonymous$12)unload);
-    scheduler_add(sched, (void *)unload_done, (enum anonymous$8)disk);
-    struct list_nd_t_ *ophcrack_preload_all$$1$$9$$2$$nd = enabled->head;
-    if(!(ophcrack_preload_all$$1$$9$$2$$nd == ((struct list_nd_t_ *)NULL)))
+    unload_done=ophtask_alloc((enum anonymous_12)unload);
+    scheduler_add(sched, (void *)unload_done, (enum anonymous_8)disk);
+    struct list_nd_t_ *ophcrack_preload_all__1__9__2__nd = enabled->head;
+    if(!(ophcrack_preload_all__1__9__2__nd == ((struct list_nd_t_ *)NULL)))
     {
-      struct table_t_ *ophcrack_preload_all$$1$$9$$2$$1$$tbl = (struct table_t_ *)ophcrack_preload_all$$1$$9$$2$$nd->data;
-      enum anonymous$10 ophcrack_preload_all$$1$$9$$2$$1$$state;
-      ophcrack_preload_all$$1$$9$$2$$1$$state=table_preload_state(ophcrack_preload_all$$1$$9$$2$$1$$tbl);
-      enum anonymous$10 load_bits = (enum anonymous$10)(~((signed int)ophcrack_preload_all$$1$$9$$2$$1$$state) & (signed int)preload[(signed long int)ophcrack_preload_all$$1$$9$$2$$1$$tbl->id]);
+      struct table_t_ *ophcrack_preload_all__1__9__2__1__tbl = (struct table_t_ *)ophcrack_preload_all__1__9__2__nd->data;
+      enum anonymous_10 ophcrack_preload_all__1__9__2__1__state;
+      ophcrack_preload_all__1__9__2__1__state=table_preload_state(ophcrack_preload_all__1__9__2__1__tbl);
+      enum anonymous_10 load_bits = (enum anonymous_10)(~((signed int)ophcrack_preload_all__1__9__2__1__state) & (signed int)preload[(signed long int)ophcrack_preload_all__1__9__2__1__tbl->id]);
       if(!((signed int)load_bits == preload_none))
       {
-        unsigned long int return_value_table_preload_size$9;
-        return_value_table_preload_size$9=table_preload_size(ophcrack_preload_all$$1$$9$$2$$1$$tbl, load_bits);
-        total_size = total_size + return_value_table_preload_size$9;
+        unsigned long int return_value_table_preload_size_9;
+        return_value_table_preload_size_9=table_preload_size(ophcrack_preload_all__1__9__2__1__tbl, load_bits);
+        total_size = total_size + return_value_table_preload_size_9;
         signed int i = 0;
         if(!(i >= 4))
         {
-          static const enum anonymous$10 steps[4l] = { (const enum anonymous$10)preload_init, (const enum anonymous$10)preload_idx, (const enum anonymous$10)preload_end, (const enum anonymous$10)preload_srt };
+          static const enum anonymous_10 steps[4l] = { (const enum anonymous_10)preload_init, (const enum anonymous_10)preload_idx, (const enum anonymous_10)preload_end, (const enum anonymous_10)preload_srt };
           if(!(((signed int)steps[(signed long int)i] & (signed int)load_bits) == 0))
           {
-            struct ophtask_t_ *ophcrack_preload_all$$1$$9$$2$$1$$1$$1$$1$$task;
-            ophcrack_preload_all$$1$$9$$2$$1$$1$$1$$1$$task=ophtask_alloc((enum anonymous$12)preload_one);
-            struct ophload_t_ *ophcrack_preload_all$$1$$9$$2$$1$$1$$1$$1$$load = (struct ophload_t_ *)ophcrack_preload_all$$1$$9$$2$$1$$1$$1$$1$$task->data;
-            ophcrack_preload_all$$1$$9$$2$$1$$1$$1$$1$$load->tbl = ophcrack_preload_all$$1$$9$$2$$1$$tbl;
-            ophcrack_preload_all$$1$$9$$2$$1$$1$$1$$1$$load->preload = steps[(signed long int)i];
-            scheduler_add(sched, (void *)ophcrack_preload_all$$1$$9$$2$$1$$1$$1$$1$$task, (enum anonymous$8)disk);
+            struct ophtask_t_ *ophcrack_preload_all__1__9__2__1__1__1__1__task;
+            ophcrack_preload_all__1__9__2__1__1__1__1__task=ophtask_alloc((enum anonymous_12)preload_one);
+            struct ophload_t_ *ophcrack_preload_all__1__9__2__1__1__1__1__load = (struct ophload_t_ *)ophcrack_preload_all__1__9__2__1__1__1__1__task->data;
+            ophcrack_preload_all__1__9__2__1__1__1__1__load->tbl = ophcrack_preload_all__1__9__2__1__tbl;
+            ophcrack_preload_all__1__9__2__1__1__1__1__load->preload = steps[(signed long int)i];
+            scheduler_add(sched, (void *)ophcrack_preload_all__1__9__2__1__1__1__1__task, (enum anonymous_8)disk);
           }
 
           i = i + 1;
@@ -14872,7 +14872,7 @@ struct ophtask_t_ * ophcrack_preload_all(struct ophcrack_t_ *crack, struct ophta
 
       }
 
-      ophcrack_preload_all$$1$$9$$2$$nd = ophcrack_preload_all$$1$$9$$2$$nd->next;
+      ophcrack_preload_all__1__9__2__nd = ophcrack_preload_all__1__9__2__nd->next;
     }
 
   }
@@ -14881,18 +14881,18 @@ struct ophtask_t_ * ophcrack_preload_all(struct ophcrack_t_ *crack, struct ophta
   {
     if(remaining->size >= 1)
     {
-      struct table_t_ *ophcrack_preload_all$$1$$10$$1$$tbl;
-      void *return_value_list_rem_head$11;
-      return_value_list_rem_head$11=list_rem_head(remaining);
-      ophcrack_preload_all$$1$$10$$1$$tbl = (struct table_t_ *)return_value_list_rem_head$11;
+      struct table_t_ *ophcrack_preload_all__1__10__1__tbl;
+      void *return_value_list_rem_head_11;
+      return_value_list_rem_head_11=list_rem_head(remaining);
+      ophcrack_preload_all__1__10__1__tbl = (struct table_t_ *)return_value_list_rem_head_11;
     }
 
   }
 
   message_preload(((struct table_t_ *)NULL), active->size, 0, total_size);
   struct ophtask_t_ *preload_done;
-  preload_done=ophtask_alloc((enum anonymous$12)preload_one);
-  scheduler_add(sched, (void *)preload_done, (enum anonymous$8)disk);
+  preload_done=ophtask_alloc((enum anonymous_12)preload_one);
+  scheduler_add(sched, (void *)preload_done, (enum anonymous_8)disk);
   free((void *)preload);
   free((void *)initialised);
   return task;
@@ -14903,10 +14903,10 @@ struct ophtask_t_ * ophcrack_preload_all(struct ophcrack_t_ *crack, struct ophta
 void ophcrack_preload_check(struct ophcrack_t_ *crack)
 {
   struct list_t_ *active = crack->active;
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
   if(!(active->size == 1))
   {
     struct list_t_ *tables;
@@ -14915,36 +14915,36 @@ void ophcrack_preload_check(struct ophcrack_t_ *crack)
     signed int flag = 1;
     do
     {
-      tmp_post$1 = size;
+      tmp_post_1 = size;
       size = size - 1;
-      if(tmp_post$1 == 0)
+      if(tmp_post_1 == 0)
         break;
 
       struct table_t_ *tbl;
-      void *return_value_list_rem_head$2;
-      return_value_list_rem_head$2=list_rem_head(active);
-      tbl = (struct table_t_ *)return_value_list_rem_head$2;
+      void *return_value_list_rem_head_2;
+      return_value_list_rem_head_2=list_rem_head(active);
+      tbl = (struct table_t_ *)return_value_list_rem_head_2;
       if(!(tbl->idxmem == ((char *)NULL)))
-        tmp_if_expr$4 = tbl->endmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = tbl->endmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = tbl->srtmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = tbl->srtmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         list_add_tail(active, (void *)tbl);
 
       else
       {
         if(!(tbl->idxmem == ((char *)NULL)))
-          tmp_if_expr$3 = tbl->endmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tbl->endmem != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!(flag == 0) && tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!(flag == 0) && tmp_if_expr_3)
         {
           list_add_tail(active, (void *)tbl);
           flag = 0;
@@ -14958,12 +14958,12 @@ void ophcrack_preload_check(struct ophcrack_t_ *crack)
     struct list_t_ *remaining = crack->remaining;
     while(tables->size >= 1)
     {
-      struct table_t_ *ophcrack_preload_check$$1$$2$$tbl;
-      void *return_value_list_rem_tail$6;
-      return_value_list_rem_tail$6=list_rem_tail(tables);
-      ophcrack_preload_check$$1$$2$$tbl = (struct table_t_ *)return_value_list_rem_tail$6;
-      ophcrack_preload_check$$1$$2$$tbl->active = 0;
-      list_add_head(remaining, (void *)ophcrack_preload_check$$1$$2$$tbl);
+      struct table_t_ *ophcrack_preload_check__1__2__tbl;
+      void *return_value_list_rem_tail_6;
+      return_value_list_rem_tail_6=list_rem_tail(tables);
+      ophcrack_preload_check__1__2__tbl = (struct table_t_ *)return_value_list_rem_tail_6;
+      ophcrack_preload_check__1__2__tbl->active = 0;
+      list_add_head(remaining, (void *)ophcrack_preload_check__1__2__tbl);
     }
     list_free(tables);
   }
@@ -14975,7 +14975,7 @@ void ophcrack_preload_check(struct ophcrack_t_ *crack)
 struct ophtask_t_ * ophcrack_preload_one(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophload_t_ *load = (struct ophload_t_ *)task->data;
   struct table_t_ *tbl = load->tbl;
   if(!(tbl == ((struct table_t_ *)NULL)))
@@ -14987,13 +14987,13 @@ struct ophtask_t_ * ophcrack_preload_one(struct ophcrack_t_ *crack, struct ophta
     pthread_mutex_lock(mutex);
     crack->freeram = crack->freeram - size;
     pthread_mutex_unlock(mutex);
-    enum anonymous$10 state;
+    enum anonymous_10 state;
     state=table_preload_state(tbl);
     message_preload(tbl, (signed int)state, 1, size);
   }
 
   else
-    message_done((enum anonymous$12)preload_all);
+    message_done((enum anonymous_12)preload_all);
   return task;
 }
 
@@ -15027,13 +15027,13 @@ signed int ophcrack_pwd_cmp(const void *a, const void *b)
 void ophcrack_reset(struct ophcrack_t_ *crack, signed int kind_mask, signed int remove)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophtask_t_ *task = ((struct ophtask_t_ *)NULL);
   signed int i;
   pthread_mutex_lock(mutex);
   i = 0;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   for( ; !(i >= 3); i = i + 1)
   {
     struct list_t_ *queue = sched->queue[(signed long int)i];
@@ -15041,9 +15041,9 @@ void ophcrack_reset(struct ophcrack_t_ *crack, signed int kind_mask, signed int 
     signed int j = 0;
     for( ; !(j >= size); j = j + 1)
     {
-      void *return_value_list_rem_head$1;
-      return_value_list_rem_head$1=list_rem_head(queue);
-      task = (struct ophtask_t_ *)return_value_list_rem_head$1;
+      void *return_value_list_rem_head_1;
+      return_value_list_rem_head_1=list_rem_head(queue);
+      task = (struct ophtask_t_ *)return_value_list_rem_head_1;
       static signed int work_mask = find | lookup_idx | lookup_end | lookup_srt | check;
       if(!((work_mask & (signed int)task->kind) == 0))
       {
@@ -15052,21 +15052,21 @@ void ophcrack_reset(struct ophcrack_t_ *crack, signed int kind_mask, signed int 
         if(!(htbl == ((struct htbl_t_ *)NULL)))
         {
           if(!(1 + work->cmax >= htbl->covered))
-            tmp_if_expr$2 = htbl->covered;
+            tmp_if_expr_2 = htbl->covered;
 
           else
-            tmp_if_expr$2 = work->cmax + 1;
-          htbl->covered = tmp_if_expr$2;
+            tmp_if_expr_2 = work->cmax + 1;
+          htbl->covered = tmp_if_expr_2;
         }
 
       }
 
       if(!(remove == 0))
-        tmp_if_expr$3 = ((signed int)task->kind & kind_mask) != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((signed int)task->kind & kind_mask) != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         ophtask_free(task);
         sched->ntasks = sched->ntasks - 1;
@@ -15097,9 +15097,9 @@ struct ophtask_t_ * ophcrack_resolve_nt(struct ophcrack_t_ *crack, struct ophtas
     char *lmpwd2 = lmhsh2->pwd;
     char *nthash = (char *)nthsh->hash;
     char ntpwd[16l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-    signed int return_value_resolve_nt_hash$1;
-    return_value_resolve_nt_hash$1=resolve_nt_hash(lmpwd1, lmpwd2, nthash, (unsigned char *)ntpwd, mode);
-    if(!(return_value_resolve_nt_hash$1 == 0))
+    signed int return_value_resolve_nt_hash_1;
+    return_value_resolve_nt_hash_1=resolve_nt_hash(lmpwd1, lmpwd2, nthash, (unsigned char *)ntpwd, mode);
+    if(!(return_value_resolve_nt_hash_1 == 0))
       ophcrack_found(crack, nthsh, ((struct table_t_ *)NULL), 0, ntpwd);
 
   }
@@ -15112,22 +15112,22 @@ void * ophcrack_run(void *arg)
 {
   signed int myid;
   static signed int gid = 0;
-  signed int tmp_post$1 = gid;
+  signed int tmp_post_1 = gid;
   gid = gid + 1;
-  myid = tmp_post$1;
+  myid = tmp_post_1;
   struct ophcrack_t_ *crack = (struct ophcrack_t_ *)arg;
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   pthread_setcancelstate(0, ((signed int *)NULL));
   pthread_setcanceltype(0, ((signed int *)NULL));
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_3;
   while((_Bool)1)
   {
     struct ophtask_t_ *task;
-    void *return_value_scheduler_get$2;
-    return_value_scheduler_get$2=scheduler_get(sched, myid);
-    task = (struct ophtask_t_ *)return_value_scheduler_get$2;
-    enum anonymous$12 kind = task->kind;
+    void *return_value_scheduler_get_2;
+    return_value_scheduler_get_2=scheduler_get(sched, myid);
+    task = (struct ophtask_t_ *)return_value_scheduler_get_2;
+    enum anonymous_12 kind = task->kind;
     if((signed int)kind == preload_all)
       task=ophcrack_preload_all(crack, task, myid);
 
@@ -15221,11 +15221,11 @@ void * ophcrack_run(void *arg)
                   else
                   {
                     if(!(htbl->covered >= cmin))
-                      tmp_if_expr$3 = htbl->covered;
+                      tmp_if_expr_3 = htbl->covered;
 
                     else
-                      tmp_if_expr$3 = cmin;
-                    htbl->covered = tmp_if_expr$3;
+                      tmp_if_expr_3 = cmin;
+                    htbl->covered = tmp_if_expr_3;
                   }
                   pthread_mutex_unlock(mutex);
                 }
@@ -15241,8 +15241,8 @@ void * ophcrack_run(void *arg)
       ophstat_add(crack->stat, task->stat);
       if(!((bforce_nt & (signed int)task->kind) == 0))
       {
-        struct ophbforce_t_ *ophcrack_run$$1$$1$$3$$1$$force = (struct ophbforce_t_ *)task->data;
-        unsigned long int count = (unsigned long int)ophcrack_run$$1$$1$$3$$1$$force->count;
+        struct ophbforce_t_ *ophcrack_run__1__1__3__1__force = (struct ophbforce_t_ *)task->data;
+        unsigned long int count = (unsigned long int)ophcrack_run__1__1__3__1__force->count;
         message_bforce(1, count);
       }
 
@@ -15276,7 +15276,7 @@ void * ophcrack_run(void *arg)
       ophcrack_next(crack);
     ntasks=scheduler_done(sched, myid);
     if(ntasks == 0)
-      message_done((enum anonymous$12)all);
+      message_done((enum anonymous_12)all);
 
   }
   return NULL;
@@ -15288,9 +15288,9 @@ void ophcrack_save(struct ophcrack_t_ *crack, struct _IO_FILE *file, signed int 
 {
   signed int maxhid = crack->maxhid;
   struct hash_t_ **id_to_hash;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)maxhid, sizeof(struct hash_t_ *) /*8ul*/ );
-  id_to_hash = (struct hash_t_ **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)maxhid, sizeof(struct hash_t_ *) /*8ul*/ );
+  id_to_hash = (struct hash_t_ **)return_value_calloc_1;
   struct list_t_ *hashes = crack->hashes;
   struct list_nd_t_ *nd;
   struct arg_t_ *arg = crack->arg;
@@ -15426,7 +15426,7 @@ void ophcrack_stop(struct ophcrack_t_ *crack)
 struct ophtask_t_ * ophcrack_unload(struct ophcrack_t_ *crack, struct ophtask_t_ *task, signed int id)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct ophload_t_ *load = (struct ophload_t_ *)task->data;
   struct table_t_ *tbl = load->tbl;
   if(!(tbl == ((struct table_t_ *)NULL)))
@@ -15440,7 +15440,7 @@ struct ophtask_t_ * ophcrack_unload(struct ophcrack_t_ *crack, struct ophtask_t_
   }
 
   else
-    message_done((enum anonymous$12)unload);
+    message_done((enum anonymous_12)unload);
   return task;
 }
 
@@ -15449,19 +15449,19 @@ struct ophtask_t_ * ophcrack_unload(struct ophcrack_t_ *crack, struct ophtask_t_
 void ophcrack_update(struct ophcrack_t_ *crack)
 {
   struct scheduler_t_ *sched = crack->sched;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   signed int *seen;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)crack->maxtid, sizeof(signed int) /*4ul*/ );
-  seen = (signed int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)crack->maxtid, sizeof(signed int) /*4ul*/ );
+  seen = (signed int *)return_value_calloc_1;
   struct list_t_ *hashes = crack->hashes;
   struct list_nd_t_ *hnd;
   pthread_mutex_lock(mutex);
   hnd = hashes->head;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
   for( ; !(hnd == ((struct list_nd_t_ *)NULL)); hnd = hnd->next)
   {
     struct hash_t_ *hsh = (struct hash_t_ *)hnd->data;
@@ -15474,18 +15474,18 @@ void ophcrack_update(struct ophcrack_t_ *crack)
       signed int id = tbl->id;
       signed int cmin;
       if(!(hsh->done == 0))
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
-        tmp_if_expr$2 = htbl->col + 1;
-      cmin = tmp_if_expr$2;
+        tmp_if_expr_2 = htbl->col + 1;
+      cmin = tmp_if_expr_2;
       signed int cmax;
       if(!(hsh->done == 0))
-        tmp_if_expr$3 = 0;
+        tmp_if_expr_3 = 0;
 
       else
-        tmp_if_expr$3 = htbl->covered;
-      cmax = tmp_if_expr$3;
+        tmp_if_expr_3 = htbl->covered;
+      cmax = tmp_if_expr_3;
       if(seen[(signed long int)id] == 0)
       {
         tbl->cmin = cmin;
@@ -15496,17 +15496,17 @@ void ophcrack_update(struct ophcrack_t_ *crack)
       else
       {
         if(!(cmin >= tbl->cmin))
-          tmp_if_expr$4 = tbl->cmin;
+          tmp_if_expr_4 = tbl->cmin;
 
         else
-          tmp_if_expr$4 = cmin;
-        tbl->cmin = tmp_if_expr$4;
+          tmp_if_expr_4 = cmin;
+        tbl->cmin = tmp_if_expr_4;
         if(!(cmax >= tbl->cmax))
-          tmp_if_expr$5 = tbl->cmax;
+          tmp_if_expr_5 = tbl->cmax;
 
         else
-          tmp_if_expr$5 = cmax;
-        tbl->cmax = tmp_if_expr$5;
+          tmp_if_expr_5 = cmax;
+        tbl->cmax = tmp_if_expr_5;
       }
     }
   }
@@ -15515,12 +15515,12 @@ void ophcrack_update(struct ophcrack_t_ *crack)
   struct list_nd_t_ *nd = active->head;
   for( ; !(nd == ((struct list_nd_t_ *)NULL)); nd = nd->next)
   {
-    struct table_t_ *ophcrack_update$$1$$2$$1$$tbl = (struct table_t_ *)nd->data;
-    if(!(ophcrack_update$$1$$2$$1$$tbl->active == 0))
+    struct table_t_ *ophcrack_update__1__2__1__tbl = (struct table_t_ *)nd->data;
+    if(!(ophcrack_update__1__2__1__tbl->active == 0))
     {
-      if(ophcrack_update$$1$$2$$1$$tbl->cmax == 0)
+      if(ophcrack_update__1__2__1__tbl->cmax == 0)
       {
-        ophcrack_update$$1$$2$$1$$tbl->active = 0;
+        ophcrack_update__1__2__1__tbl->active = 0;
         done = 1;
       }
 
@@ -15529,7 +15529,7 @@ void ophcrack_update(struct ophcrack_t_ *crack)
   }
   pthread_mutex_unlock(mutex);
   if(!(done == 0))
-    message_done((enum anonymous$12)check);
+    message_done((enum anonymous_12)check);
 
   free((void *)seen);
 }
@@ -15539,9 +15539,9 @@ void ophcrack_update(struct ophcrack_t_ *crack)
 struct ophel_t_ * ophel_alloc(void)
 {
   struct ophel_t_ *el;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ophel_t_) /*112ul*/ );
-  el = (struct ophel_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ophel_t_) /*112ul*/ );
+  el = (struct ophel_t_ *)return_value_malloc_1;
   el->col = 0;
   memset((void *)el->pwd, 0, (unsigned long int)(50 + 1));
   el->prefix = (unsigned long int)0;
@@ -15584,9 +15584,9 @@ void ophstat_add(struct ophstat_t_ *stat1, struct ophstat_t_ *stat2)
 struct ophstat_t_ * ophstat_alloc(void)
 {
   struct ophstat_t_ *stat;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ophstat_t_) /*224ul*/ );
-  stat = (struct ophstat_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ophstat_t_) /*224ul*/ );
+  stat = (struct ophstat_t_ *)return_value_malloc_1;
   signed int i = 0;
   for( ; !(i >= 16); i = i + 1)
   {
@@ -15625,12 +15625,12 @@ void ophstat_reset(struct ophstat_t_ *stat)
 
 // ophtask_alloc
 // file ophtask.c line 38
-struct ophtask_t_ * ophtask_alloc(enum anonymous$12 kind)
+struct ophtask_t_ * ophtask_alloc(enum anonymous_12 kind)
 {
   struct ophtask_t_ *task;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ophtask_t_) /*24ul*/ );
-  task = (struct ophtask_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ophtask_t_) /*24ul*/ );
+  task = (struct ophtask_t_ *)return_value_malloc_1;
   task->kind = kind;
   task->data = NULL;
   task->stat=ophstat_alloc();
@@ -15639,27 +15639,27 @@ struct ophtask_t_ * ophtask_alloc(enum anonymous$12 kind)
     case preload_all:
     {
       struct ophload_t_ *load;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct ophload_t_) /*24ul*/ );
-      load = (struct ophload_t_ *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct ophload_t_) /*24ul*/ );
+      load = (struct ophload_t_ *)return_value_malloc_2;
       task->data = (void *)load;
       load->tables=list_alloc();
       load->tbl = ((struct table_t_ *)NULL);
-      load->preload = (enum anonymous$10)preload_none;
+      load->preload = (enum anonymous_10)preload_none;
       goto __CPROVER_DUMP_L5;
     }
     case preload_one:
 
     case unload:
     {
-      struct ophload_t_ *ophtask_alloc$$1$$1$$2$$load;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct ophload_t_) /*24ul*/ );
-      ophtask_alloc$$1$$1$$2$$load = (struct ophload_t_ *)return_value_malloc$3;
-      task->data = (void *)ophtask_alloc$$1$$1$$2$$load;
-      ophtask_alloc$$1$$1$$2$$load->tables = ((struct list_t_ *)NULL);
-      ophtask_alloc$$1$$1$$2$$load->tbl = ((struct table_t_ *)NULL);
-      ophtask_alloc$$1$$1$$2$$load->preload = (enum anonymous$10)preload_none;
+      struct ophload_t_ *ophtask_alloc__1__1__2__load;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct ophload_t_) /*24ul*/ );
+      ophtask_alloc__1__1__2__load = (struct ophload_t_ *)return_value_malloc_3;
+      task->data = (void *)ophtask_alloc__1__1__2__load;
+      ophtask_alloc__1__1__2__load->tables = ((struct list_t_ *)NULL);
+      ophtask_alloc__1__1__2__load->tbl = ((struct table_t_ *)NULL);
+      ophtask_alloc__1__1__2__load->preload = (enum anonymous_10)preload_none;
       goto __CPROVER_DUMP_L5;
     }
     case find:
@@ -15673,9 +15673,9 @@ struct ophtask_t_ * ophtask_alloc(enum anonymous$12 kind)
     case check:
     {
       struct ophwork_t_ *work;
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct ophwork_t_) /*32ul*/ );
-      work = (struct ophwork_t_ *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct ophwork_t_) /*32ul*/ );
+      work = (struct ophwork_t_ *)return_value_malloc_4;
       task->data = (void *)work;
       work->hsh = ((struct hash_t_ *)NULL);
       work->htbl = ((struct htbl_t_ *)NULL);
@@ -15693,9 +15693,9 @@ struct ophtask_t_ * ophtask_alloc(enum anonymous$12 kind)
     case resolve_nt:
     {
       struct ophbforce_t_ *force;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(sizeof(struct ophbforce_t_) /*131144ul*/ );
-      force = (struct ophbforce_t_ *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(sizeof(struct ophbforce_t_) /*131144ul*/ );
+      force = (struct ophbforce_t_ *)return_value_malloc_5;
       task->data = (void *)force;
       force->nhashes = 0;
       force->hashes = ((struct hash_t_ **)NULL);
@@ -15720,7 +15720,7 @@ struct ophtask_t_ * ophtask_alloc(enum anonymous$12 kind)
 
 // ophtask_convert
 // file ophtask.c line 179
-void ophtask_convert(struct ophtask_t_ *task, enum anonymous$12 from, enum anonymous$12 to)
+void ophtask_convert(struct ophtask_t_ *task, enum anonymous_12 from, enum anonymous_12 to)
 {
   if((signed int)from == find)
   {
@@ -15732,9 +15732,9 @@ void ophtask_convert(struct ophtask_t_ *task, enum anonymous$12 from, enum anony
     if((signed int)to == lookup_idx || (signed int)to == lookup_end || (signed int)to == lookup_srt)
     {
       task->kind = to;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)size * sizeof(struct ophel_t_) /*112ul*/ );
-      work->tosearch = (struct ophel_t_ **)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)size * sizeof(struct ophel_t_) /*112ul*/ );
+      work->tosearch = (struct ophel_t_ **)return_value_malloc_1;
       i = 0;
       for( ; !(i >= size); i = i + 1)
         work->tosearch[(signed long int)i]=ophel_alloc();
@@ -15762,8 +15762,8 @@ void ophtask_free(struct ophtask_t_ *task)
 
     case unload:
     {
-      struct ophload_t_ *ophtask_free$$1$$1$$2$$load = (struct ophload_t_ *)task->data;
-      free((void *)ophtask_free$$1$$1$$2$$load);
+      struct ophload_t_ *ophtask_free__1__1__2__load = (struct ophload_t_ *)task->data;
+      free((void *)ophtask_free__1__1__2__load);
       goto __CPROVER_DUMP_L15;
     }
     case find:
@@ -15808,13 +15808,13 @@ void ophtask_free(struct ophtask_t_ *task)
       unsigned char **hash = force->hash;
       signed int *found = force->found;
       signed int nhashes = force->nhashes;
-      signed int ophtask_free$$1$$1$$4$$i;
+      signed int ophtask_free__1__1__4__i;
       if(!(hash == ((unsigned char **)NULL)))
       {
-        ophtask_free$$1$$1$$4$$i = 0;
-        for( ; !(ophtask_free$$1$$1$$4$$i >= nhashes); ophtask_free$$1$$1$$4$$i = ophtask_free$$1$$1$$4$$i + 1)
-          if(!(hash[(signed long int)ophtask_free$$1$$1$$4$$i] == ((unsigned char *)NULL)))
-            free((void *)hash[(signed long int)ophtask_free$$1$$1$$4$$i]);
+        ophtask_free__1__1__4__i = 0;
+        for( ; !(ophtask_free__1__1__4__i >= nhashes); ophtask_free__1__1__4__i = ophtask_free__1__1__4__i + 1)
+          if(!(hash[(signed long int)ophtask_free__1__1__4__i] == ((unsigned char *)NULL)))
+            free((void *)hash[(signed long int)ophtask_free__1__1__4__i]);
 
         free((void *)hash);
       }
@@ -15849,28 +15849,28 @@ signed long int parself(struct hive *h, char *t, unsigned long int off)
   struct _hashrecord *hr;
   signed long int res;
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _hashrecord) /*8ul*/ );
-  hr = (struct _hashrecord *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
-  n = (struct _nk_hdr *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct _lf_hdr) /*16ul*/ );
-  l = (struct _lf_hdr *)return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _hashrecord) /*8ul*/ );
+  hr = (struct _hashrecord *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
+  n = (struct _nk_hdr *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct _lf_hdr) /*16ul*/ );
+  l = (struct _lf_hdr *)return_value_malloc_3;
   l=read_lf(l, h, (signed int)off);
   i = 0;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   for( ; !(i >= (signed int)l->key_num); i = i + 1)
   {
     hr=read_hr(hr, l->hr, i);
     n=read_nk(n, h, hr->nk_offset + 0x1000);
-    signed int return_value_memcmp$5;
-    return_value_memcmp$5=memcmp((const void *)t, (const void *)n->key_name, (unsigned long int)n->name_len);
-    if(return_value_memcmp$5 == 0)
+    signed int return_value_memcmp_5;
+    return_value_memcmp_5=memcmp((const void *)t, (const void *)n->key_name, (unsigned long int)n->name_len);
+    if(return_value_memcmp_5 == 0)
     {
-      return_value_strlen$4=strlen(t);
-      if(return_value_strlen$4 == (unsigned long int)n->name_len)
+      return_value_strlen_4=strlen(t);
+      if(return_value_strlen_4 == (unsigned long int)n->name_len)
       {
         res = (signed long int)hr->nk_offset;
         free((void *)n);
@@ -15902,22 +15902,22 @@ unsigned long int power(unsigned int a, unsigned int b)
 struct proba_info_ * proba_info_alloc(void)
 {
   struct proba_info_ *proba;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct proba_info_) /*48ul*/ );
-  proba = (struct proba_info_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct proba_info_) /*48ul*/ );
+  proba = (struct proba_info_ *)return_value_malloc_1;
   proba->mtype = (enum markovType)0;
   proba->nbByteM0 = (unsigned int)0;
   proba->nbByteM = (unsigned int)0;
   proba->nbByteBin = (unsigned int)0;
   proba->nbBitIndex = (unsigned int)0;
   proba->power2 = (unsigned int)0;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct patternArray) /*40ul*/ );
-  proba->array = (struct patternArray *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct patternArray) /*40ul*/ );
+  proba->array = (struct patternArray *)return_value_malloc_2;
   proba->mis = ((struct markovImprobaStruct *)NULL);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct markovDynProgWrapper) /*40ul*/ );
-  proba->mdpw = (struct markovDynProgWrapper *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct markovDynProgWrapper) /*40ul*/ );
+  proba->mdpw = (struct markovDynProgWrapper *)return_value_malloc_3;
   return proba;
 }
 
@@ -15953,9 +15953,9 @@ char readImprobaStructFromBinFile(struct markovImprobaStruct **mis, char *path, 
 
   else
   {
-    signed int return_value_fstat$1;
-    return_value_fstat$1=fstat$link1(binFile, &sb);
-    if(return_value_fstat$1 == -1)
+    signed int return_value_fstat_1;
+    return_value_fstat_1=fstat_link1(binFile, &sb);
+    if(return_value_fstat_1 == -1)
     {
       close(binFile);
       return (char)0;
@@ -15970,9 +15970,9 @@ char readImprobaStructFromBinFile(struct markovImprobaStruct **mis, char *path, 
 
       else
       {
-        void *return_value_mmap$2;
-        return_value_mmap$2=mmap((void *)0, sizeof(struct markovImprobaStruct) /*73220ul*/ , 0x1, 0x02, binFile, (signed long int)0);
-        *mis = (struct markovImprobaStruct *)return_value_mmap$2;
+        void *return_value_mmap_2;
+        return_value_mmap_2=mmap((void *)0, sizeof(struct markovImprobaStruct) /*73220ul*/ , 0x1, 0x02, binFile, (signed long int)0);
+        *mis = (struct markovImprobaStruct *)return_value_mmap_2;
         if(*mis == (struct markovImprobaStruct *)-1)
         {
           close(binFile);
@@ -16007,9 +16007,9 @@ char readPatternArrayFromXMLFile(struct patternArray *array, char *path, char *f
 
   else
   {
-    signed int return_value_fstat$1;
-    return_value_fstat$1=fstat$link2(xmlFile, &sb);
-    if(return_value_fstat$1 == -1)
+    signed int return_value_fstat_1;
+    return_value_fstat_1=fstat_link2(xmlFile, &sb);
+    if(return_value_fstat_1 == -1)
     {
       close(xmlFile);
       return (char)0;
@@ -16017,9 +16017,9 @@ char readPatternArrayFromXMLFile(struct patternArray *array, char *path, char *f
 
     else
     {
-      void *return_value_mmap$2;
-      return_value_mmap$2=mmap((void *)0, (unsigned long int)sb.st_size, 0x1, 0x02, xmlFile, (signed long int)0);
-      xmlBuff = (char *)return_value_mmap$2;
+      void *return_value_mmap_2;
+      return_value_mmap_2=mmap((void *)0, (unsigned long int)sb.st_size, 0x1, 0x02, xmlFile, (signed long int)0);
+      xmlBuff = (char *)return_value_mmap_2;
       if(xmlBuff == (char *)-1)
       {
         close(xmlFile);
@@ -16036,9 +16036,9 @@ char readPatternArrayFromXMLFile(struct patternArray *array, char *path, char *f
         parser=XML_ParserCreate((const char *)(void *)0);
         XML_SetUserData(parser, (void *)&data);
         XML_SetElementHandler(parser, start_element, end_element);
-        enum XML_Status return_value_XML_Parse$3;
-        return_value_XML_Parse$3=XML_Parse(parser, xmlBuff, (signed int)sb.st_size, (signed int)(unsigned char)1);
-        if((signed int)return_value_XML_Parse$3 == XML_STATUS_ERROR)
+        enum XML_Status return_value_XML_Parse_3;
+        return_value_XML_Parse_3=XML_Parse(parser, xmlBuff, (signed int)sb.st_size, (signed int)(unsigned char)1);
+        if((signed int)return_value_XML_Parse_3 == XML_STATUS_ERROR)
         {
           XML_ParserFree(parser);
           munmap((void *)xmlBuff, (unsigned long int)sb.st_size);
@@ -16125,9 +16125,9 @@ signed int resolve_nt_hash(char *p1, char *p2, char *h, unsigned char *pw, signe
   memset((void *)pw, 0, (unsigned long int)16);
   strcpy((char *)pw, p1);
   strcpy((char *)(pw + (signed long int)7), p2);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)pw);
-  l = (unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)pw);
+  l = (unsigned int)return_value_strlen_1;
   p = (unsigned char *)pw;
   i = (unsigned int)0;
   for( ; !(i >= l); i = i + 1u)
@@ -16174,7 +16174,7 @@ signed int resolve_nt_hash(char *p1, char *p2, char *h, unsigned char *pw, signe
   static unsigned char is_multi[256l] = { (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)8, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)8, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)8, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)8, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)8, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)2, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)1, (unsigned char)2, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)2, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1, (unsigned char)1 };
   for( ; !(i >= l); i = i + 1u)
     combinations = combinations * (unsigned int)is_multi[(signed long int)pw[(signed long int)i]];
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(insist == 0)
   {
     static signed int max_multi = 8;
@@ -16187,18 +16187,18 @@ signed int resolve_nt_hash(char *p1, char *p2, char *h, unsigned char *pw, signe
       for( ; !(i >= l); i = i + 1u)
       {
         if(!((unsigned int)is_multi[(signed long int)pw[(signed long int)i]] >= max))
-          tmp_if_expr$2 = (unsigned int)is_multi[(signed long int)pw[(signed long int)i]];
+          tmp_if_expr_2 = (unsigned int)is_multi[(signed long int)pw[(signed long int)i]];
 
         else
-          tmp_if_expr$2 = max;
-        combinations = combinations * tmp_if_expr$2;
+          tmp_if_expr_2 = max;
+        combinations = combinations * tmp_if_expr_2;
       }
     }
   }
 
   i = (unsigned int)0;
-  unsigned int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
+  unsigned int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
   for( ; !(i >= combinations); i = i + 1u)
   {
     signed int c;
@@ -16208,11 +16208,11 @@ signed int resolve_nt_hash(char *p1, char *p2, char *h, unsigned char *pw, signe
     for( ; !(j >= l); j = j + 1u)
     {
       if(!((unsigned int)is_multi[(signed long int)orig[(signed long int)j]] >= max))
-        tmp_if_expr$3 = (unsigned int)is_multi[(signed long int)orig[(signed long int)j]];
+        tmp_if_expr_3 = (unsigned int)is_multi[(signed long int)orig[(signed long int)j]];
 
       else
-        tmp_if_expr$3 = max;
-      m = (signed int)tmp_if_expr$3;
+        tmp_if_expr_3 = max;
+      m = (signed int)tmp_if_expr_3;
       static unsigned char multi_char[256l][12l] = { { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -16470,18 +16470,18 @@ signed int resolve_nt_hash(char *p1, char *p2, char *h, unsigned char *pw, signe
     { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     { (unsigned char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
       if(m >= 2)
-        tmp_if_expr$4 = (signed int)multi_char[(signed long int)orig[(signed long int)j]][(signed long int)(c % m)];
+        tmp_if_expr_4 = (signed int)multi_char[(signed long int)orig[(signed long int)j]][(signed long int)(c % m)];
 
       else
-        tmp_if_expr$4 = (signed int)orig[(signed long int)j];
-      pw[(signed long int)j] = (unsigned char)tmp_if_expr$4;
+        tmp_if_expr_4 = (signed int)orig[(signed long int)j];
+      pw[(signed long int)j] = (unsigned char)tmp_if_expr_4;
       c = c / m;
     }
     md4[(signed long int)16] = (unsigned char)0;
     make_nthash((char *)pw, (char *)md4);
-    signed int return_value_memcmp$5;
-    return_value_memcmp$5=memcmp((const void *)md4, (const void *)h, (unsigned long int)16);
-    if(return_value_memcmp$5 == 0)
+    signed int return_value_memcmp_5;
+    return_value_memcmp_5=memcmp((const void *)md4, (const void *)h, (unsigned long int)16);
+    if(return_value_memcmp_5 == 0)
       return 1;
 
   }
@@ -16495,7 +16495,7 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
 {
   char *regaccountkey;
   char *reguserskey;
-  unsigned char aqwerty[47l] = { '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', 'q', 'w', 'e', 'r', 't', 'y', 'U', 'I', 'O', 'P', 'A', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', ')', '(', '*', '@', '&', '%', 0 };
+  unsigned char aqwerty[47l] = { '!', '@', '#', '_', '%', '^', '&', '*', '(', ')', 'q', 'w', 'e', 'r', 't', 'y', 'U', 'I', 'O', 'P', 'A', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', 'Q', ')', '(', '*', '@', '&', '%', 0 };
   unsigned char anum[41l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 0 };
   unsigned char antpassword[11l] = { 'N', 'T', 'P', 'A', 'S', 'S', 'W', 'O', 'R', 'D', 0 };
   unsigned char almpassword[11l] = { 'L', 'M', 'P', 'A', 'S', 'S', 'W', 'O', 'R', 'D', 0 };
@@ -16533,9 +16533,9 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
   _InitHive(&h);
   if(live == 0)
   {
-    signed int return_value__RegOpenHive$1;
-    return_value__RegOpenHive$1=_RegOpenHive(sam, &h);
-    if(!(return_value__RegOpenHive$1 == 0))
+    signed int return_value__RegOpenHive_1;
+    return_value__RegOpenHive_1=_RegOpenHive(sam, &h);
+    if(!(return_value__RegOpenHive_1 == 0))
     {
       sprintf(error, "Error opening sam hive or not valid file(\"%s\")\n", sam);
       return -1;
@@ -16545,18 +16545,18 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
 
   else
   {
-    signed int return_value__RegOpenHiveBuffer$2;
-    return_value__RegOpenHiveBuffer$2=_RegOpenHiveBuffer(sam, (unsigned long int)size, &h);
-    if(!(return_value__RegOpenHiveBuffer$2 == 0))
+    signed int return_value__RegOpenHiveBuffer_2;
+    return_value__RegOpenHiveBuffer_2=_RegOpenHiveBuffer(sam, (unsigned long int)size, &h);
+    if(!(return_value__RegOpenHiveBuffer_2 == 0))
     {
       sprintf(error, "Error opening sam hive, hive not valid\n");
       return -1;
     }
 
   }
-  signed int return_value__RegGetRootKey$3;
-  return_value__RegGetRootKey$3=_RegGetRootKey(&h, &root_key);
-  if(!(return_value__RegGetRootKey$3 == 0))
+  signed int return_value__RegGetRootKey_3;
+  return_value__RegGetRootKey_3=_RegGetRootKey(&h, &root_key);
+  if(!(return_value__RegGetRootKey_3 == 0))
   {
     sprintf(error, "Error reading hive root key\n");
     return -1;
@@ -16567,24 +16567,24 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
     if(!(debug == 0))
       printf("Root Key : %s\n", root_key);
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(root_key);
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(return_value_strlen$4 + (unsigned long int)30);
-    regaccountkey = (char *)return_value_malloc$5;
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(root_key);
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(return_value_strlen$6 + (unsigned long int)30);
-    reguserskey = (char *)return_value_malloc$7;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(root_key);
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(return_value_strlen_4 + (unsigned long int)30);
+    regaccountkey = (char *)return_value_malloc_5;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(root_key);
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(return_value_strlen_6 + (unsigned long int)30);
+    reguserskey = (char *)return_value_malloc_7;
     sprintf(regaccountkey, "%s\\SAM\\Domains\\Account", root_key);
     sprintf(reguserskey, "%s\\SAM\\Domains\\Account\\Users", root_key);
-    void *return_value_malloc$8;
-    return_value_malloc$8=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
-    n = (struct _nk_hdr *)return_value_malloc$8;
-    signed int return_value__RegOpenKey$9;
-    return_value__RegOpenKey$9=_RegOpenKey(&h, regaccountkey, &n);
-    if(!(return_value__RegOpenKey$9 == 0))
+    void *return_value_malloc_8;
+    return_value_malloc_8=malloc(sizeof(struct _nk_hdr) /*88ul*/ );
+    n = (struct _nk_hdr *)return_value_malloc_8;
+    signed int return_value__RegOpenKey_9;
+    return_value__RegOpenKey_9=_RegOpenKey(&h, regaccountkey, &n);
+    if(!(return_value__RegOpenKey_9 == 0))
     {
       _RegCloseHive(&h);
       sprintf(error, "%s key!\n", regaccountkey);
@@ -16593,9 +16593,9 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
 
     else
     {
-      signed int return_value__RegQueryValue$10;
-      return_value__RegQueryValue$10=_RegQueryValue(&h, "F", n, &b, &blen);
-      if(!(return_value__RegQueryValue$10 == 0))
+      signed int return_value__RegQueryValue_10;
+      return_value__RegQueryValue_10=_RegQueryValue(&h, "F", n, &b, &blen);
+      if(!(return_value__RegQueryValue_10 == 0))
       {
         _RegCloseHive(&h);
         sprintf(error, "No F!\n");
@@ -16615,9 +16615,9 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
         j = 0;
         while(!(j == -1))
         {
-          signed int return_value__RegOpenKey$11;
-          return_value__RegOpenKey$11=_RegOpenKey(&h, reguserskey, &n);
-          if(!(return_value__RegOpenKey$11 == 0))
+          signed int return_value__RegOpenKey_11;
+          return_value__RegOpenKey_11=_RegOpenKey(&h, reguserskey, &n);
+          if(!(return_value__RegOpenKey_11 == 0))
           {
             _RegCloseHive(&h);
             sprintf(error, "No Users key!\n");
@@ -16629,33 +16629,33 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
           if(!(debug == 0))
             printf("******************** %d ********************\n", j);
 
-          signed int return_value_memcmp$12;
-          return_value_memcmp$12=memcmp((const void *)regkeyname, (const void *)"Names", (unsigned long int)regkeynamelen);
-          if(!(return_value_memcmp$12 == 0))
+          signed int return_value_memcmp_12;
+          return_value_memcmp_12=memcmp((const void *)regkeyname, (const void *)"Names", (unsigned long int)regkeynamelen);
+          if(!(return_value_memcmp_12 == 0))
           {
-            unsigned long int return_value_strlen$13;
-            return_value_strlen$13=strlen(reguserskey);
-            void *return_value_malloc$14;
-            return_value_malloc$14=malloc(return_value_strlen$13 + (unsigned long int)regkeynamelen + (unsigned long int)2);
-            keyname = (char *)return_value_malloc$14;
+            unsigned long int return_value_strlen_13;
+            return_value_strlen_13=strlen(reguserskey);
+            void *return_value_malloc_14;
+            return_value_malloc_14=malloc(return_value_strlen_13 + (unsigned long int)regkeynamelen + (unsigned long int)2);
+            keyname = (char *)return_value_malloc_14;
             strcpy(keyname, reguserskey);
             strcat(keyname, "\\");
             strcat(keyname, (char *)regkeyname);
             if(!(debug == 0))
               printf("keyname = %s\n", keyname);
 
-            signed int return_value__RegOpenKey$15;
-            return_value__RegOpenKey$15=_RegOpenKey(&h, keyname, &n);
-            if(!(return_value__RegOpenKey$15 == 0))
+            signed int return_value__RegOpenKey_15;
+            return_value__RegOpenKey_15=_RegOpenKey(&h, keyname, &n);
+            if(!(return_value__RegOpenKey_15 == 0))
             {
               _RegCloseHive(&h);
               sprintf(error, "Asd -_- _RegEnumKey fail!\n");
               return -1;
             }
 
-            signed int return_value__RegQueryValue$16;
-            return_value__RegQueryValue$16=_RegQueryValue(&h, "F", n, &b, &blen);
-            if(!(return_value__RegQueryValue$16 == 0))
+            signed int return_value__RegQueryValue_16;
+            return_value__RegQueryValue_16=_RegQueryValue(&h, "F", n, &b, &blen);
+            if(!(return_value__RegQueryValue_16 == 0))
             {
               _RegCloseHive(&h);
               sprintf(error, "No F value!\n");
@@ -16666,26 +16666,26 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
             if(!(debug == 0))
               printf("disabled = %d\n", disabled);
 
-            signed int return_value__RegQueryValue$17;
-            return_value__RegQueryValue$17=_RegQueryValue(&h, "V", n, &b, &blen);
-            if(!(return_value__RegQueryValue$17 == 0))
+            signed int return_value__RegQueryValue_17;
+            return_value__RegQueryValue_17=_RegQueryValue(&h, "V", n, &b, &blen);
+            if(!(return_value__RegQueryValue_17 == 0))
             {
               _RegCloseHive(&h);
               sprintf(error, "No V value!\n");
               return -1;
             }
 
-            unsigned long int return_value_strtoul$18;
-            return_value_strtoul$18=strtoul((char *)regkeyname, (char ** restrict )(void *)0, 16);
-            rid = (signed int)return_value_strtoul$18;
+            unsigned long int return_value_strtoul_18;
+            return_value_strtoul_18=strtoul((char *)regkeyname, (char ** restrict )(void *)0, 16);
+            rid = (signed int)return_value_strtoul_18;
             usernamelen = *((signed int *)(b + (signed long int)0x10)) >> 1;
             usernameoffset = (signed int)b[(signed long int)0xc] + 0xcc;
             if(!(debug == 0))
               printf("\nusername len=%d, off=%x\n", usernamelen, usernameoffset);
 
-            void *return_value_malloc$19;
-            return_value_malloc$19=malloc((unsigned long int)(usernamelen * 2 + 1));
-            username_utf8 = (char *)return_value_malloc$19;
+            void *return_value_malloc_19;
+            return_value_malloc_19=malloc((unsigned long int)(usernamelen * 2 + 1));
+            username_utf8 = (char *)return_value_malloc_19;
             memset((void *)username_utf8, 0, (unsigned long int)(usernamelen * 2 + 1));
             utf16_to_utf8((unsigned char *)username_utf8, (unsigned short int *)&b[(signed long int)usernameoffset], (unsigned long int)usernamelen);
             lm_hashesoffset = *((signed int *)(b + (signed long int)0x9c)) + 0xcc;
@@ -16698,9 +16698,9 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
               printf("nt_hashoffset = %x, nt_size = %x\n", nt_hashesoffset, nt_size);
             }
 
-            void *return_value_malloc$20;
-            return_value_malloc$20=malloc((unsigned long int)512);
-            buff = (char *)return_value_malloc$20;
+            void *return_value_malloc_20;
+            return_value_malloc_20=malloc((unsigned long int)512);
+            buff = (char *)return_value_malloc_20;
             if(!(disabled == 0))
               buff_len=sprintf(buff, "*disabled* %s:%d:", username_utf8, rid);
 
@@ -16813,9 +16813,9 @@ signed int samdump2(unsigned char *sam, struct list_t_ *list, unsigned char *boo
 
 // scheduler_add
 // file scheduler.c line 157
-void scheduler_add(struct scheduler_t_ *sched, void *task, enum anonymous$8 prty)
+void scheduler_add(struct scheduler_t_ *sched, void *task, enum anonymous_8 prty)
 {
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   struct list_t_ *queue = sched->queue[(signed long int)prty];
   pthread_mutex_lock(mutex);
   list_add_tail(queue, task);
@@ -16839,9 +16839,9 @@ void scheduler_add(struct scheduler_t_ *sched, void *task, enum anonymous$8 prty
 struct scheduler_t_ * scheduler_alloc(signed int nthreads)
 {
   struct scheduler_t_ *sched;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct scheduler_t_) /*72ul*/ );
-  sched = (struct scheduler_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct scheduler_t_) /*72ul*/ );
+  sched = (struct scheduler_t_ *)return_value_malloc_1;
   sched->nthreads = nthreads;
   sched->ntasks = 0;
   sched->pause = 0;
@@ -16849,28 +16849,28 @@ struct scheduler_t_ * scheduler_alloc(signed int nthreads)
   sched->queue[(signed long int)low]=list_alloc();
   sched->queue[(signed long int)disk]=list_alloc();
   sched->queue[(signed long int)high]=list_alloc();
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(union anonymous$4) /*32ul*/ );
-  sched->sem = (union anonymous$4 *)return_value_malloc$2;
-  signed int return_value_sem_init$3;
-  return_value_sem_init$3=sem_init(sched->sem, 0, (unsigned int)0);
-  if(!(return_value_sem_init$3 == 0))
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(union anonymous_4) /*32ul*/ );
+  sched->sem = (union anonymous_4 *)return_value_malloc_2;
+  signed int return_value_sem_init_3;
+  return_value_sem_init_3=sem_init(sched->sem, 0, (unsigned int)0);
+  if(!(return_value_sem_init_3 == 0))
   {
     fprintf(stderr, "scheduler_alloc: cannot initialise the semaphore\n");
     exit(1);
   }
 
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(union anonymous$7) /*40ul*/ );
-  sched->mutex = (union anonymous$7 *)return_value_malloc$4;
-  pthread_mutex_init(sched->mutex, ((const union anonymous$9 *)NULL));
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(union anonymous$6) /*48ul*/ );
-  sched->cond = (union anonymous$6 *)return_value_malloc$5;
-  pthread_cond_init(sched->cond, ((const union anonymous$9 *)NULL));
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc((unsigned long int)nthreads * sizeof(unsigned long int) /*8ul*/ );
-  sched->thread = (unsigned long int *)return_value_malloc$6;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(union anonymous_7) /*40ul*/ );
+  sched->mutex = (union anonymous_7 *)return_value_malloc_4;
+  pthread_mutex_init(sched->mutex, ((const union anonymous_9 *)NULL));
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(union anonymous_6) /*48ul*/ );
+  sched->cond = (union anonymous_6 *)return_value_malloc_5;
+  pthread_cond_init(sched->cond, ((const union anonymous_9 *)NULL));
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc((unsigned long int)nthreads * sizeof(unsigned long int) /*8ul*/ );
+  sched->thread = (unsigned long int *)return_value_malloc_6;
   return sched;
 }
 
@@ -16878,8 +16878,8 @@ struct scheduler_t_ * scheduler_alloc(signed int nthreads)
 // file scheduler.c line 131
 void scheduler_continue(struct scheduler_t_ *sched)
 {
-  union anonymous$7 *mutex = sched->mutex;
-  union anonymous$6 *cond = sched->cond;
+  union anonymous_7 *mutex = sched->mutex;
+  union anonymous_6 *cond = sched->cond;
   pthread_mutex_lock(mutex);
   sched->pause = 0;
   pthread_cond_broadcast(cond);
@@ -16892,7 +16892,7 @@ signed int scheduler_done(struct scheduler_t_ *sched, signed int id)
 {
   signed int ntasks;
   struct list_t_ **queue = sched->queue;
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   pthread_mutex_lock(mutex);
   sched->ntasks = sched->ntasks - 1;
   ntasks = sched->ntasks;
@@ -16930,10 +16930,10 @@ void scheduler_free(struct scheduler_t_ *sched)
 void * scheduler_get(struct scheduler_t_ *sched, signed int id)
 {
   void *task = NULL;
-  union anonymous$7 *mutex = sched->mutex;
-  union anonymous$6 *cond = sched->cond;
+  union anonymous_7 *mutex = sched->mutex;
+  union anonymous_6 *cond = sched->cond;
   struct list_t_ **queue = sched->queue;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(task == NULL)
   {
     sem_wait(sched->sem);
@@ -16950,11 +16950,11 @@ void * scheduler_get(struct scheduler_t_ *sched, signed int id)
     else
     {
       if(queue[1l]->size >= 1)
-        tmp_if_expr$1 = sched->disk == -1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = sched->disk == -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         sched->disk = id;
         task=list_rem_head(queue[(signed long int)disk]);
@@ -16972,7 +16972,7 @@ void * scheduler_get(struct scheduler_t_ *sched, signed int id)
 // file scheduler.c line 115
 void scheduler_pause(struct scheduler_t_ *sched)
 {
-  union anonymous$7 *mutex = sched->mutex;
+  union anonymous_7 *mutex = sched->mutex;
   signed int i;
   pthread_mutex_lock(mutex);
   sched->pause = 1;
@@ -16991,11 +16991,11 @@ signed int scheduler_start(struct scheduler_t_ *sched, void * (*fun)(void *), vo
   signed int nthreads = sched->nthreads;
   unsigned long int *thread = sched->thread;
   i = 0;
-  signed int return_value_pthread_create$1;
+  signed int return_value_pthread_create_1;
   for( ; !(i >= nthreads); i = i + 1)
   {
-    return_value_pthread_create$1=pthread_create(thread + (signed long int)i, ((const union pthread_attr_t *)NULL), fun, arg);
-    if(!(return_value_pthread_create$1 == 0))
+    return_value_pthread_create_1=pthread_create(thread + (signed long int)i, ((const union pthread_attr_t *)NULL), fun, arg);
+    if(!(return_value_pthread_create_1 == 0))
       break;
 
   }
@@ -17039,7 +17039,7 @@ unsigned int selectCharacterUTF(struct markovDynProgWrapper *mdpw, struct markov
 {
   unsigned int i = (unsigned int)0;
   unsigned int k = (unsigned int)0;
-  char spe[34l] = { ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\', ']', '^', '_', '`', '{', '|', '}', 126, 0 };
+  char spe[34l] = { ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\', ']', '^', '_', '`', '{', '|', '}', 126, 0 };
   unsigned int markov_length = (unsigned int)0;
   unsigned int markov_level = (unsigned int)0;
   char *pointerAlias = (char *)(void *)0;
@@ -17183,7 +17183,7 @@ unsigned int selectCharacterUTFFirstRound(struct markovDynProgWrapper *mdpw, str
   unsigned int i = (unsigned int)0;
   unsigned int j = (unsigned int)0;
   unsigned int k = (unsigned int)0;
-  char spe[34l] = { ' ', '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\', ']', '^', '_', '`', '{', '|', '}', 126, 0 };
+  char spe[34l] = { ' ', '!', '"', '#', '_', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\', ']', '^', '_', '`', '{', '|', '}', 126, 0 };
   unsigned int prevChar1 = (unsigned int)0;
   unsigned int prevChar2 = (unsigned int)0;
   unsigned int markov_length = (unsigned int)0;
@@ -17468,57 +17468,57 @@ void start_element(void *data, const char *element, const char **attribute)
 {
   struct xmlDataWrapper *wrapper = (struct xmlDataWrapper *)data;
   unsigned int i;
-  signed int tmp_statement_expression$6;
-  unsigned long int start_element$$1$$1$$__s1_len;
-  unsigned long int start_element$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$7;
-  return_value___builtin_strcmp$7=__builtin_strcmp(element, "patternArray");
-  tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-  if(tmp_statement_expression$6 == 0)
+  signed int tmp_statement_expression_6;
+  unsigned long int start_element__1__1____s1_len;
+  unsigned long int start_element__1__1____s2_len;
+  signed int return_value___builtin_strcmp_7;
+  return_value___builtin_strcmp_7=__builtin_strcmp(element, "patternArray");
+  tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+  if(tmp_statement_expression_6 == 0)
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi$link4(attribute[(signed long int)1]);
-    wrapper->array->size = (unsigned int)return_value_atoi$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapper->array->size);
-    wrapper->array->sizeArray = (unsigned long int *)return_value_malloc$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapper->array->size);
-    wrapper->array->patternDescriptor = (unsigned long int *)return_value_malloc$3;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapper->array->size);
-    wrapper->array->patternLength = (unsigned long int *)return_value_malloc$4;
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(sizeof(struct lookUpTable) /*24ul*/ );
-    wrapper->array->lut = (struct lookUpTable *)return_value_malloc$5;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi_link4(attribute[(signed long int)1]);
+    wrapper->array->size = (unsigned int)return_value_atoi_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapper->array->size);
+    wrapper->array->sizeArray = (unsigned long int *)return_value_malloc_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapper->array->size);
+    wrapper->array->patternDescriptor = (unsigned long int *)return_value_malloc_3;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapper->array->size);
+    wrapper->array->patternLength = (unsigned long int *)return_value_malloc_4;
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(sizeof(struct lookUpTable) /*24ul*/ );
+    wrapper->array->lut = (struct lookUpTable *)return_value_malloc_5;
     memset((void *)wrapper->array->patternDescriptor, 0, (unsigned long int)wrapper->array->size * sizeof(unsigned long int) /*8ul*/ );
     memset((void *)wrapper->array->patternLength, 0, (unsigned long int)wrapper->array->size * sizeof(unsigned long int) /*8ul*/ );
     wrapper->currentPattern = (unsigned int)0;
     goto __CPROVER_DUMP_L34;
   }
 
-  signed int tmp_statement_expression$8;
+  signed int tmp_statement_expression_8;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$9;
-  return_value___builtin_strcmp$9=__builtin_strcmp(element, "pattern");
-  tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-  signed int tmp_statement_expression$24;
-  signed int return_value_atoi$10;
-  signed int return_value_atoi$11;
-  signed int return_value_atoi$12;
-  signed int return_value_atoi$13;
-  signed int return_value_atoi$14;
-  signed int return_value_atoi$15;
-  signed int return_value_atoi$16;
-  signed int return_value_atoi$17;
-  signed int return_value_atoi$18;
-  signed int return_value_atoi$19;
-  signed int return_value_atoi$20;
-  signed int return_value_atoi$21;
-  signed int return_value_atoi$22;
-  signed int return_value_atoi$23;
-  if(tmp_statement_expression$8 == 0)
+  signed int return_value___builtin_strcmp_9;
+  return_value___builtin_strcmp_9=__builtin_strcmp(element, "pattern");
+  tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+  signed int tmp_statement_expression_24;
+  signed int return_value_atoi_10;
+  signed int return_value_atoi_11;
+  signed int return_value_atoi_12;
+  signed int return_value_atoi_13;
+  signed int return_value_atoi_14;
+  signed int return_value_atoi_15;
+  signed int return_value_atoi_16;
+  signed int return_value_atoi_17;
+  signed int return_value_atoi_18;
+  signed int return_value_atoi_19;
+  signed int return_value_atoi_20;
+  signed int return_value_atoi_21;
+  signed int return_value_atoi_22;
+  signed int return_value_atoi_23;
+  if(tmp_statement_expression_8 == 0)
   {
     wrapper->array->sizeArray[(signed long int)wrapper->currentPattern]=strtoull(attribute[(signed long int)1], (char ** restrict )(void *)0, 16);
     wrapper->currentCharType = (unsigned int)0;
@@ -17526,12 +17526,12 @@ void start_element(void *data, const char *element, const char **attribute)
 
   else
   {
-    unsigned long int start_element$$1$$5$$__s1_len;
-    unsigned long int start_element$$1$$5$$__s2_len;
-    signed int return_value___builtin_strcmp$25;
-    return_value___builtin_strcmp$25=__builtin_strcmp(element, "element");
-    tmp_statement_expression$24 = return_value___builtin_strcmp$25;
-    if(tmp_statement_expression$24 == 0)
+    unsigned long int start_element__1__5____s1_len;
+    unsigned long int start_element__1__5____s2_len;
+    signed int return_value___builtin_strcmp_25;
+    return_value___builtin_strcmp_25=__builtin_strcmp(element, "element");
+    tmp_statement_expression_24 = return_value___builtin_strcmp_25;
+    if(tmp_statement_expression_24 == 0)
       switch((signed int)attribute[(signed long int)3][(signed long int)0])
       {
         case 85:
@@ -17543,23 +17543,23 @@ void start_element(void *data, const char *element, const char **attribute)
               i = (unsigned int)0;
               do
               {
-                return_value_atoi$10=atoi$link4(attribute[(signed long int)1]);
-                if(i >= (unsigned int)return_value_atoi$10)
+                return_value_atoi_10=atoi_link4(attribute[(signed long int)1]);
+                if(i >= (unsigned int)return_value_atoi_10)
                   break;
 
                 wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x0B << (unsigned int)4 * (wrapper->currentCharType + i);
                 i = i + 1u;
               }
               while((_Bool)1);
-              return_value_atoi$11=atoi$link4(attribute[(signed long int)1]);
-              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi$11;
+              return_value_atoi_11=atoi_link4(attribute[(signed long int)1]);
+              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi_11;
               break;
             }
             case 49:
             {
               wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x0C << (unsigned int)4 * wrapper->currentCharType;
-              return_value_atoi$12=atoi$link4(attribute[(signed long int)1]);
-              wrapper->array->patternLength[(signed long int)wrapper->currentPattern] = wrapper->array->patternLength[(signed long int)wrapper->currentPattern] | (unsigned long int)(return_value_atoi$12 - 1 & 0x0000000f) << (unsigned int)4 * wrapper->currentCharType;
+              return_value_atoi_12=atoi_link4(attribute[(signed long int)1]);
+              wrapper->array->patternLength[(signed long int)wrapper->currentPattern] = wrapper->array->patternLength[(signed long int)wrapper->currentPattern] | (unsigned long int)(return_value_atoi_12 - 1 & 0x0000000f) << (unsigned int)4 * wrapper->currentCharType;
               wrapper->currentCharType = wrapper->currentCharType + 1u;
               break;
             }
@@ -17574,16 +17574,16 @@ void start_element(void *data, const char *element, const char **attribute)
               i = (unsigned int)0;
               do
               {
-                return_value_atoi$13=atoi$link4(attribute[(signed long int)1]);
-                if(i >= (unsigned int)return_value_atoi$13)
+                return_value_atoi_13=atoi_link4(attribute[(signed long int)1]);
+                if(i >= (unsigned int)return_value_atoi_13)
                   break;
 
                 wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x0E << (unsigned int)4 * (wrapper->currentCharType + i);
                 i = i + 1u;
               }
               while((_Bool)1);
-              return_value_atoi$14=atoi$link4(attribute[(signed long int)1]);
-              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi$14;
+              return_value_atoi_14=atoi_link4(attribute[(signed long int)1]);
+              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi_14;
               break;
             }
             default:
@@ -17600,23 +17600,23 @@ void start_element(void *data, const char *element, const char **attribute)
               i = (unsigned int)0;
               do
               {
-                return_value_atoi$15=atoi$link4(attribute[(signed long int)1]);
-                if(i >= (unsigned int)return_value_atoi$15)
+                return_value_atoi_15=atoi_link4(attribute[(signed long int)1]);
+                if(i >= (unsigned int)return_value_atoi_15)
                   break;
 
                 wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x03 << (unsigned int)4 * (wrapper->currentCharType + i);
                 i = i + 1u;
               }
               while((_Bool)1);
-              return_value_atoi$16=atoi$link4(attribute[(signed long int)1]);
-              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi$16;
+              return_value_atoi_16=atoi_link4(attribute[(signed long int)1]);
+              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi_16;
               break;
             }
             case 49:
             {
               wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x04 << (unsigned int)4 * wrapper->currentCharType;
-              return_value_atoi$17=atoi$link4(attribute[(signed long int)1]);
-              wrapper->array->patternLength[(signed long int)wrapper->currentPattern] = wrapper->array->patternLength[(signed long int)wrapper->currentPattern] | (unsigned long int)(return_value_atoi$17 - 1 & 0x0000000f) << (unsigned int)4 * wrapper->currentCharType;
+              return_value_atoi_17=atoi_link4(attribute[(signed long int)1]);
+              wrapper->array->patternLength[(signed long int)wrapper->currentPattern] = wrapper->array->patternLength[(signed long int)wrapper->currentPattern] | (unsigned long int)(return_value_atoi_17 - 1 & 0x0000000f) << (unsigned int)4 * wrapper->currentCharType;
               wrapper->currentCharType = wrapper->currentCharType + 1u;
               break;
             }
@@ -17631,16 +17631,16 @@ void start_element(void *data, const char *element, const char **attribute)
               i = (unsigned int)0;
               do
               {
-                return_value_atoi$18=atoi$link4(attribute[(signed long int)1]);
-                if(i >= (unsigned int)return_value_atoi$18)
+                return_value_atoi_18=atoi_link4(attribute[(signed long int)1]);
+                if(i >= (unsigned int)return_value_atoi_18)
                   break;
 
                 wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x06 << (unsigned int)4 * (wrapper->currentCharType + i);
                 i = i + 1u;
               }
               while((_Bool)1);
-              return_value_atoi$19=atoi$link4(attribute[(signed long int)1]);
-              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi$19;
+              return_value_atoi_19=atoi_link4(attribute[(signed long int)1]);
+              wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi_19;
               break;
             }
             default:
@@ -17653,16 +17653,16 @@ void start_element(void *data, const char *element, const char **attribute)
           i = (unsigned int)0;
           do
           {
-            return_value_atoi$20=atoi$link4(attribute[(signed long int)1]);
-            if(i >= (unsigned int)return_value_atoi$20)
+            return_value_atoi_20=atoi_link4(attribute[(signed long int)1]);
+            if(i >= (unsigned int)return_value_atoi_20)
               break;
 
             wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x02 << (unsigned int)4 * (wrapper->currentCharType + i);
             i = i + 1u;
           }
           while((_Bool)1);
-          return_value_atoi$21=atoi$link4(attribute[(signed long int)1]);
-          wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi$21;
+          return_value_atoi_21=atoi_link4(attribute[(signed long int)1]);
+          wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi_21;
           break;
         }
         case 83:
@@ -17670,16 +17670,16 @@ void start_element(void *data, const char *element, const char **attribute)
           i = (unsigned int)0;
           do
           {
-            return_value_atoi$22=atoi$link4(attribute[(signed long int)1]);
-            if(i >= (unsigned int)return_value_atoi$22)
+            return_value_atoi_22=atoi_link4(attribute[(signed long int)1]);
+            if(i >= (unsigned int)return_value_atoi_22)
               break;
 
             wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] = wrapper->array->patternDescriptor[(signed long int)wrapper->currentPattern] | (unsigned long int)0x01 << (unsigned int)4 * (wrapper->currentCharType + i);
             i = i + 1u;
           }
           while((_Bool)1);
-          return_value_atoi$23=atoi$link4(attribute[(signed long int)1]);
-          wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi$23;
+          return_value_atoi_23=atoi_link4(attribute[(signed long int)1]);
+          wrapper->currentCharType = wrapper->currentCharType + (unsigned int)return_value_atoi_23;
           break;
         }
         default:
@@ -17716,19 +17716,19 @@ void str_to_key(unsigned char *str, unsigned char *key)
 struct table_t_ * table_alloc(unsigned int code, char *path, signed int idx)
 {
   struct table_t_ *tbl;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct table_t_) /*224ul*/ );
-  tbl = (struct table_t_ *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct table_t_) /*224ul*/ );
+  tbl = (struct table_t_ *)return_value_malloc_1;
   tbl->kind=table_kind(code);
   tbl->code = code;
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup(path);
-  tbl->path = return_value___strdup$2;
-  const char *return_value_table_string$3;
-  return_value_table_string$3=table_string(tbl->kind);
-  char *return_value___strdup$4;
-  return_value___strdup$4=__strdup(return_value_table_string$3);
-  tbl->name = return_value___strdup$4;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup(path);
+  tbl->path = return_value___strdup_2;
+  const char *return_value_table_string_3;
+  return_value_table_string_3=table_string(tbl->kind);
+  char *return_value___strdup_4;
+  return_value___strdup_4=__strdup(return_value_table_string_3);
+  tbl->name = return_value___strdup_4;
   tbl->id = 0;
   tbl->idx = idx;
   tbl->cmin = 0;
@@ -17794,46 +17794,46 @@ void table_free(struct table_t_ *tbl)
 
 // table_kind
 // file table.c line 460
-enum anonymous$2 table_kind(unsigned int code)
+enum anonymous_2 table_kind(unsigned int code)
 {
   switch(code)
   {
     case (unsigned int)0x3cc21790:
-      return (enum anonymous$2)lmalphanum10k;
+      return (enum anonymous_2)lmalphanum10k;
     case (unsigned int)0x0fa2031c:
-      return (enum anonymous$2)lmalphanum5k;
+      return (enum anonymous_2)lmalphanum5k;
     case (unsigned int)0x0e3402df:
-      return (enum anonymous$2)lmextended;
+      return (enum anonymous_2)lmextended;
     case (unsigned int)0x103e02a6:
-      return (enum anonymous$2)lmgermanv1;
+      return (enum anonymous_2)lmgermanv1;
     case (unsigned int)0x10cb073e:
-      return (enum anonymous$2)lmgermanv2;
+      return (enum anonymous_2)lmgermanv2;
     case 0xc7ed7df5:
-      return (enum anonymous$2)ntextended;
+      return (enum anonymous_2)ntextended;
     case (unsigned int)0x16501507:
-      return (enum anonymous$2)ntdict;
+      return (enum anonymous_2)ntdict;
     case (unsigned int)0x2ee9fa88:
-      return (enum anonymous$2)ntnine;
+      return (enum anonymous_2)ntnine;
     case (unsigned int)0x1990057f:
-      return (enum anonymous$2)nteight;
+      return (enum anonymous_2)nteight;
     case 0xdf28cff0:
-      return (enum anonymous$2)ntnum;
+      return (enum anonymous_2)ntnum;
     case 0x9542377a:
-      return (enum anonymous$2)ntseven;
+      return (enum anonymous_2)ntseven;
     case (unsigned int)0x05080366:
-      return (enum anonymous$2)lmflash;
+      return (enum anonymous_2)lmflash;
     case (unsigned int)0x229e1899:
-      return (enum anonymous$2)nteightxl;
+      return (enum anonymous_2)nteightxl;
     case 0x82506b6e:
-      return (enum anonymous$2)ntspecialxl;
+      return (enum anonymous_2)ntspecialxl;
     case 0xbb00950e:
-      return (enum anonymous$2)ntprobafree;
+      return (enum anonymous_2)ntprobafree;
     case (unsigned int)0x47000fdf:
-      return (enum anonymous$2)ntproba10g;
+      return (enum anonymous_2)ntproba10g;
     case (unsigned int)0x2c002335:
-      return (enum anonymous$2)ntproba60g;
+      return (enum anonymous_2)ntproba60g;
     default:
-      return (enum anonymous$2)unknown;
+      return (enum anonymous_2)unknown;
   }
 }
 
@@ -17874,7 +17874,7 @@ signed int table_load(struct table_t_ *tbl)
 
 // table_mmap
 // file table.c line 171
-char * table_mmap(struct table_t_ *tbl, enum anonymous$10 preload)
+char * table_mmap(struct table_t_ *tbl, enum anonymous_10 preload)
 {
   struct _IO_FILE *file = (struct _IO_FILE *)(void *)0;
   unsigned long int size = (unsigned long int)0;
@@ -17901,9 +17901,9 @@ char * table_mmap(struct table_t_ *tbl, enum anonymous$10 preload)
   char *mem = (char *)(void *)0;
   signed int prot = 0x1 | 0x2;
   signed int flags = 0x02 | 0x20;
-  void *return_value_mmap$1;
-  return_value_mmap$1=mmap(NULL, size, prot, flags, -1, (signed long int)0);
-  mem = (char *)return_value_mmap$1;
+  void *return_value_mmap_1;
+  return_value_mmap_1=mmap(NULL, size, prot, flags, -1, (signed long int)0);
+  mem = (char *)return_value_mmap_1;
   if(mem == (char *)-1)
   {
     fprintf(stderr, "Problem while mapping memory for table %s,%d (preload=%d).\n", tbl->name, tbl->idx, preload);
@@ -17913,9 +17913,9 @@ char * table_mmap(struct table_t_ *tbl, enum anonymous$10 preload)
   else
   {
     rewind(file);
-    unsigned long int return_value_fread$2;
-    return_value_fread$2=fread((void *)mem, (unsigned long int)1, size, file);
-    if(!(return_value_fread$2 == size))
+    unsigned long int return_value_fread_2;
+    return_value_fread_2=fread((void *)mem, (unsigned long int)1, size, file);
+    if(!(return_value_fread_2 == size))
     {
       fprintf(stderr, "Problem while preloading table %s,%d (preload=%d).\n", tbl->name, tbl->idx, preload);
       perror(((const char *)NULL));
@@ -17936,18 +17936,18 @@ signed int table_open(struct list_t_ *tables, const char *dir, const char *tblst
   char path[512l];
   char *args;
   __builtin_strncpy(name, tblstr, sizeof(char [512l]) /*512ul*/ );
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(name, 44);
-  args = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(name, 44);
+  args = return_value___builtin_strchr_1;
   if(!(args == ((char *)NULL)))
   {
     args[(signed long int)0] = (char)0;
     args = args + 1l;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(dir);
-  if(return_value_strlen$2 >= 1ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(dir);
+  if(return_value_strlen_2 >= 1ul)
     snprintf(path, sizeof(char [512l]) /*512ul*/ , "%s/%s", dir, (const void *)name);
 
   else
@@ -17956,9 +17956,9 @@ signed int table_open(struct list_t_ *tables, const char *dir, const char *tblst
   struct _IO_FILE *file;
   snprintf(buff, sizeof(char [512l]) /*512ul*/ , "%s/table0.bin", (const void *)path);
   file=fopen(buff, "rb");
-  char *tmp_statement_expression$5;
-  signed int tmp_statement_expression$7;
-  _Bool tmp_if_expr$9;
+  char *tmp_statement_expression_5;
+  signed int tmp_statement_expression_7;
+  _Bool tmp_if_expr_9;
   if(file == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -17974,9 +17974,9 @@ signed int table_open(struct list_t_ *tables, const char *dir, const char *tblst
     {
       struct table_t_ *tbl;
       tbl=table_alloc(code, path, i);
-      signed int return_value_table_load$3;
-      return_value_table_load$3=table_load(tbl);
-      if(!(return_value_table_load$3 == 0))
+      signed int return_value_table_load_3;
+      return_value_table_load_3=table_load(tbl);
+      if(!(return_value_table_load_3 == 0))
       {
         list_add_tail(tables, (void *)tbl);
         ntables = ntables + 1;
@@ -17995,8 +17995,8 @@ signed int table_open(struct list_t_ *tables, const char *dir, const char *tblst
       nd = tables->tail;
       for( ; !(i >= ntables); nd = nd->prev)
       {
-        struct table_t_ *table_open$$1$$3$$1$$tbl = (struct table_t_ *)nd->data;
-        table_open$$1$$3$$1$$tbl->enabled = 1;
+        struct table_t_ *table_open__1__3__1__tbl = (struct table_t_ *)nd->data;
+        table_open__1__3__1__tbl->enabled = 1;
         nenabled = nenabled + 1;
         i = i + 1;
       }
@@ -18006,16 +18006,16 @@ signed int table_open(struct list_t_ *tables, const char *dir, const char *tblst
       if(!((signed int)*args == 45))
       {
         struct table_t_ **ptr;
-        void *return_value_calloc$4;
-        return_value_calloc$4=calloc((unsigned long int)ntables, sizeof(struct table_t_ *) /*8ul*/ );
-        ptr = (struct table_t_ **)return_value_calloc$4;
+        void *return_value_calloc_4;
+        return_value_calloc_4=calloc((unsigned long int)ntables, sizeof(struct table_t_ *) /*8ul*/ );
+        ptr = (struct table_t_ **)return_value_calloc_4;
         char *p;
         i = 0;
         nd = tables->tail;
         for( ; !(i >= ntables); nd = nd->prev)
         {
-          struct table_t_ *table_open$$1$$4$$1$$1$$tbl = (struct table_t_ *)nd->data;
-          ptr[(signed long int)table_open$$1$$4$$1$$1$$tbl->idx] = table_open$$1$$4$$1$$1$$tbl;
+          struct table_t_ *table_open__1__4__1__1__tbl = (struct table_t_ *)nd->data;
+          ptr[(signed long int)table_open__1__4__1__1__tbl->idx] = table_open__1__4__1__1__tbl;
           i = i + 1;
         }
         do
@@ -18023,29 +18023,29 @@ signed int table_open(struct list_t_ *tables, const char *dir, const char *tblst
           char __r0;
           char __r1;
           char __r2;
-          char *return_value___strsep_g$6;
-          return_value___strsep_g$6=__strsep_g(&args, ",");
-          tmp_statement_expression$5 = return_value___strsep_g$6;
-          p = tmp_statement_expression$5;
+          char *return_value___strsep_g_6;
+          return_value___strsep_g_6=__strsep_g(&args, ",");
+          tmp_statement_expression_5 = return_value___strsep_g_6;
+          p = tmp_statement_expression_5;
           if(p == ((char *)NULL))
             break;
 
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$8;
-          return_value___builtin_strcmp$8=__builtin_strcmp(p, "");
-          tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-          if(tmp_statement_expression$7 == 0)
+          signed int return_value___builtin_strcmp_8;
+          return_value___builtin_strcmp_8=__builtin_strcmp(p, "");
+          tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+          if(tmp_statement_expression_7 == 0)
             break;
 
           signed int idx;
-          idx=atoi$link1(p);
+          idx=atoi_link1(p);
           if(idx >= 0 && !(idx >= ntables))
-            tmp_if_expr$9 = ptr[(signed long int)idx] != ((struct table_t_ *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = ptr[(signed long int)idx] != ((struct table_t_ *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
           {
             ptr[(signed long int)idx]->enabled = 1;
             nenabled = nenabled + 1;
@@ -18064,12 +18064,12 @@ signed int table_open(struct list_t_ *tables, const char *dir, const char *tblst
 
 // table_preload
 // file table.c line 243
-unsigned long int table_preload(struct table_t_ *tbl, enum anonymous$10 preload)
+unsigned long int table_preload(struct table_t_ *tbl, enum anonymous_10 preload)
 {
   unsigned long int size = (unsigned long int)0;
-  struct table_t_ *tmp_if_expr$1;
+  struct table_t_ *tmp_if_expr_1;
   void *return_value;
-  unsigned long int tmp_if_expr$2;
+  unsigned long int tmp_if_expr_2;
   if(!((preload_init & (signed int)preload) == 0))
   {
     if(tbl->param == NULL)
@@ -18077,18 +18077,18 @@ unsigned long int table_preload(struct table_t_ *tbl, enum anonymous$10 preload)
       if(!(tbl->init == ((void * (*)(void *))NULL)))
       {
         return_value=tbl->init((void *)tbl);
-        tmp_if_expr$1 = (struct table_t_ *)return_value;
+        tmp_if_expr_1 = (struct table_t_ *)return_value;
       }
 
       else
-        tmp_if_expr$1 = tbl;
-      tbl->param = (void *)tmp_if_expr$1;
+        tmp_if_expr_1 = tbl;
+      tbl->param = (void *)tmp_if_expr_1;
       if(!((preload_init & (signed int)preload) == 0))
-        tmp_if_expr$2 = tbl->inisize;
+        tmp_if_expr_2 = tbl->inisize;
 
       else
-        tmp_if_expr$2 = (unsigned long int)0;
-      size = size + tmp_if_expr$2;
+        tmp_if_expr_2 = (unsigned long int)0;
+      size = size + tmp_if_expr_2;
     }
 
   }
@@ -18097,7 +18097,7 @@ unsigned long int table_preload(struct table_t_ *tbl, enum anonymous$10 preload)
   {
     if(tbl->idxmem == ((char *)NULL))
     {
-      tbl->idxmem=table_mmap(tbl, (enum anonymous$10)preload_idx);
+      tbl->idxmem=table_mmap(tbl, (enum anonymous_10)preload_idx);
       size = size + tbl->idxsize;
     }
 
@@ -18107,7 +18107,7 @@ unsigned long int table_preload(struct table_t_ *tbl, enum anonymous$10 preload)
   {
     if(tbl->endmem == ((char *)NULL))
     {
-      tbl->endmem=table_mmap(tbl, (enum anonymous$10)preload_end);
+      tbl->endmem=table_mmap(tbl, (enum anonymous_10)preload_end);
       size = size + tbl->endsize;
     }
 
@@ -18117,7 +18117,7 @@ unsigned long int table_preload(struct table_t_ *tbl, enum anonymous$10 preload)
   {
     if(tbl->srtmem == ((char *)NULL))
     {
-      tbl->srtmem=table_mmap(tbl, (enum anonymous$10)preload_srt);
+      tbl->srtmem=table_mmap(tbl, (enum anonymous_10)preload_srt);
       size = size + tbl->srtsize;
     }
 
@@ -18128,7 +18128,7 @@ unsigned long int table_preload(struct table_t_ *tbl, enum anonymous$10 preload)
 
 // table_preload_size
 // file table.c line 334
-unsigned long int table_preload_size(struct table_t_ *tbl, enum anonymous$10 preload)
+unsigned long int table_preload_size(struct table_t_ *tbl, enum anonymous_10 preload)
 {
   unsigned long int size = (unsigned long int)0;
   if(!((preload_init & (signed int)preload) == 0))
@@ -18148,20 +18148,20 @@ unsigned long int table_preload_size(struct table_t_ *tbl, enum anonymous$10 pre
 
 // table_preload_state
 // file table.c line 449
-enum anonymous$10 table_preload_state(struct table_t_ *tbl)
+enum anonymous_10 table_preload_state(struct table_t_ *tbl)
 {
-  enum anonymous$10 state = (enum anonymous$10)preload_none;
+  enum anonymous_10 state = (enum anonymous_10)preload_none;
   if(!(tbl->param == NULL))
-    state = state + (enum anonymous$10)preload_init;
+    state = state + (enum anonymous_10)preload_init;
 
   if(!(tbl->idxmem == ((char *)NULL)))
-    state = state + (enum anonymous$10)preload_idx;
+    state = state + (enum anonymous_10)preload_idx;
 
   if(!(tbl->endmem == ((char *)NULL)))
-    state = state + (enum anonymous$10)preload_end;
+    state = state + (enum anonymous_10)preload_end;
 
   if(!(tbl->srtmem == ((char *)NULL)))
-    state = state + (enum anonymous$10)preload_srt;
+    state = state + (enum anonymous_10)preload_srt;
 
   return state;
 }
@@ -18187,14 +18187,14 @@ void table_set_size(struct table_t_ *tbl)
 // file table.c line 345
 unsigned long int table_size(struct table_t_ *tbl)
 {
-  unsigned long int return_value_table_preload_size$1;
-  return_value_table_preload_size$1=table_preload_size(tbl, (enum anonymous$10)preload_full);
-  return return_value_table_preload_size$1;
+  unsigned long int return_value_table_preload_size_1;
+  return_value_table_preload_size_1=table_preload_size(tbl, (enum anonymous_10)preload_full);
+  return return_value_table_preload_size_1;
 }
 
 // table_string
 // file table.c line 483
-const char * table_string(enum anonymous$2 kind)
+const char * table_string(enum anonymous_2 kind)
 {
   switch((signed int)kind)
   {
@@ -18241,7 +18241,7 @@ const char * table_string(enum anonymous$2 kind)
 
 // table_unload
 // file table.c line 307
-unsigned long int table_unload(struct table_t_ *tbl, enum anonymous$10 preload)
+unsigned long int table_unload(struct table_t_ *tbl, enum anonymous_10 preload)
 {
   unsigned long int size = (unsigned long int)0;
   if(!((preload_init & (signed int)preload) == 0))
@@ -18261,7 +18261,7 @@ unsigned long int table_unload(struct table_t_ *tbl, enum anonymous$10 preload)
   {
     if(!(tbl->idxmem == ((char *)NULL)))
     {
-      tbl->idxmem=table_unmap(tbl, (enum anonymous$10)preload_idx);
+      tbl->idxmem=table_unmap(tbl, (enum anonymous_10)preload_idx);
       size = size + tbl->idxsize;
     }
 
@@ -18271,7 +18271,7 @@ unsigned long int table_unload(struct table_t_ *tbl, enum anonymous$10 preload)
   {
     if(!(tbl->endmem == ((char *)NULL)))
     {
-      tbl->endmem=table_unmap(tbl, (enum anonymous$10)preload_end);
+      tbl->endmem=table_unmap(tbl, (enum anonymous_10)preload_end);
       size = size + tbl->endsize;
     }
 
@@ -18281,7 +18281,7 @@ unsigned long int table_unload(struct table_t_ *tbl, enum anonymous$10 preload)
   {
     if(!(tbl->srtmem == ((char *)NULL)))
     {
-      tbl->srtmem=table_unmap(tbl, (enum anonymous$10)preload_srt);
+      tbl->srtmem=table_unmap(tbl, (enum anonymous_10)preload_srt);
       size = size + tbl->srtsize;
     }
 
@@ -18292,7 +18292,7 @@ unsigned long int table_unload(struct table_t_ *tbl, enum anonymous$10 preload)
 
 // table_unmap
 // file table.c line 274
-char * table_unmap(struct table_t_ *tbl, enum anonymous$10 preload)
+char * table_unmap(struct table_t_ *tbl, enum anonymous_10 preload)
 {
   char *mem = (char *)(void *)0;
   unsigned long int size = (unsigned long int)0;
@@ -18354,17 +18354,17 @@ signed int table_verify(struct table_t_ *tbl)
 // file /usr/include/ctype.h line 215
 static inline signed int tolower(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_tolower_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_tolower_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_tolower_loc$1=__ctype_tolower_loc();
-    tmp_if_expr$2 = (*return_value___ctype_tolower_loc$1)[(signed long int)__c];
+    return_value___ctype_tolower_loc_1=__ctype_tolower_loc();
+    tmp_if_expr_2 = (*return_value___ctype_tolower_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 
 // usage
@@ -18413,55 +18413,55 @@ void usage()
 unsigned char * utf16_to_utf8(unsigned char *dest, unsigned short int *src, unsigned long int size)
 {
   unsigned int code_high = (unsigned int)0;
-  unsigned long int tmp_post$1;
-  unsigned short int *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  unsigned char *tmp_post$14;
+  unsigned long int tmp_post_1;
+  unsigned short int *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  unsigned char *tmp_post_14;
   do
   {
-    tmp_post$1 = size;
+    tmp_post_1 = size;
     size = size - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     unsigned int code;
-    tmp_post$2 = src;
+    tmp_post_2 = src;
     src = src + 1l;
-    code = (unsigned int)*tmp_post$2;
+    code = (unsigned int)*tmp_post_2;
     if(!(code_high == 0u))
     {
       if(code >= 56320u && !(code >= 57344u))
       {
         code = (code_high - (unsigned int)0xD800 << 12) + (code - (unsigned int)0xDC00) + (unsigned int)0x10000;
-        tmp_post$3 = dest;
+        tmp_post_3 = dest;
         dest = dest + 1l;
-        *tmp_post$3 = (unsigned char)(code >> 18 | (unsigned int)0xF0);
-        tmp_post$4 = dest;
+        *tmp_post_3 = (unsigned char)(code >> 18 | (unsigned int)0xF0);
+        tmp_post_4 = dest;
         dest = dest + 1l;
-        *tmp_post$4 = (unsigned char)(code >> 12 & (unsigned int)0x3F | (unsigned int)0x80);
-        tmp_post$5 = dest;
+        *tmp_post_4 = (unsigned char)(code >> 12 & (unsigned int)0x3F | (unsigned int)0x80);
+        tmp_post_5 = dest;
         dest = dest + 1l;
-        *tmp_post$5 = (unsigned char)(code >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
-        tmp_post$6 = dest;
+        *tmp_post_5 = (unsigned char)(code >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
+        tmp_post_6 = dest;
         dest = dest + 1l;
-        *tmp_post$6 = (unsigned char)(code & (unsigned int)0x3F | (unsigned int)0x80);
+        *tmp_post_6 = (unsigned char)(code & (unsigned int)0x3F | (unsigned int)0x80);
       }
 
       else
       {
-        tmp_post$7 = dest;
+        tmp_post_7 = dest;
         dest = dest + 1l;
-        *tmp_post$7 = (unsigned char)63;
+        *tmp_post_7 = (unsigned char)63;
       }
       code_high = (unsigned int)0;
     }
@@ -18469,20 +18469,20 @@ unsigned char * utf16_to_utf8(unsigned char *dest, unsigned short int *src, unsi
     else
       if(!(code >= 128u))
       {
-        tmp_post$8 = dest;
+        tmp_post_8 = dest;
         dest = dest + 1l;
-        *tmp_post$8 = (unsigned char)code;
+        *tmp_post_8 = (unsigned char)code;
       }
 
       else
         if(!(code >= 2048u))
         {
-          tmp_post$9 = dest;
+          tmp_post_9 = dest;
           dest = dest + 1l;
-          *tmp_post$9 = (unsigned char)(code >> 6 | (unsigned int)0xC0);
-          tmp_post$10 = dest;
+          *tmp_post_9 = (unsigned char)(code >> 6 | (unsigned int)0xC0);
+          tmp_post_10 = dest;
           dest = dest + 1l;
-          *tmp_post$10 = (unsigned char)(code & (unsigned int)0x3F | (unsigned int)0x80);
+          *tmp_post_10 = (unsigned char)(code & (unsigned int)0x3F | (unsigned int)0x80);
         }
 
         else
@@ -18495,22 +18495,22 @@ unsigned char * utf16_to_utf8(unsigned char *dest, unsigned short int *src, unsi
           else
             if(code >= 56320u && !(code >= 57344u))
             {
-              tmp_post$11 = dest;
+              tmp_post_11 = dest;
               dest = dest + 1l;
-              *tmp_post$11 = (unsigned char)63;
+              *tmp_post_11 = (unsigned char)63;
             }
 
             else
             {
-              tmp_post$12 = dest;
+              tmp_post_12 = dest;
               dest = dest + 1l;
-              *tmp_post$12 = (unsigned char)(code >> 12 | (unsigned int)0xE0);
-              tmp_post$13 = dest;
+              *tmp_post_12 = (unsigned char)(code >> 12 | (unsigned int)0xE0);
+              tmp_post_13 = dest;
               dest = dest + 1l;
-              *tmp_post$13 = (unsigned char)(code >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
-              tmp_post$14 = dest;
+              *tmp_post_13 = (unsigned char)(code >> 6 & (unsigned int)0x3F | (unsigned int)0x80);
+              tmp_post_14 = dest;
               dest = dest + 1l;
-              *tmp_post$14 = (unsigned char)(code & (unsigned int)0x3F | (unsigned int)0x80);
+              *tmp_post_14 = (unsigned char)(code & (unsigned int)0x3F | (unsigned int)0x80);
             }
   }
   while((_Bool)1);
@@ -18522,9 +18522,9 @@ unsigned char * utf16_to_utf8(unsigned char *dest, unsigned short int *src, unsi
 void wincp1252_to_ascii(unsigned char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)str);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)str);
+  len = (signed int)return_value_strlen_1;
   signed int i = 0;
   for( ; !(i >= len); i = i + 1)
     if((signed int)str[(signed long int)i] >= 128)

@@ -1,84 +1,84 @@
-// #anon_enum$JCS_UNKNOWN=0$JCS_GRAYSCALE=1$JCS_RGB=2$JCS_YCbCr=3$JCS_CMYK=4$JCS_YCCK=5$JCS_EXT_RGB=6$JCS_EXT_RGBX=7$JCS_EXT_BGR=8$JCS_EXT_BGRX=9$JCS_EXT_XBGR=10$JCS_EXT_XRGB=11$JCS_EXT_RGBA=12$JCS_EXT_BGRA=13$JCS_EXT_ABGR=14$JCS_EXT_ARGB=15$JCS_RGB565=16
+// #anon_enum_JCS_UNKNOWN=0_JCS_GRAYSCALE=1_JCS_RGB=2_JCS_YCbCr=3_JCS_CMYK=4_JCS_YCCK=5_JCS_EXT_RGB=6_JCS_EXT_RGBX=7_JCS_EXT_BGR=8_JCS_EXT_BGRX=9_JCS_EXT_XBGR=10_JCS_EXT_XRGB=11_JCS_EXT_RGBA=12_JCS_EXT_BGRA=13_JCS_EXT_ABGR=14_JCS_EXT_ARGB=15_JCS_RGB565=16
 // file /usr/include/jpeglib.h line 215
-enum anonymous$13 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
+enum anonymous_13 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
 
-// #anon_enum$JDCT_ISLOW=0$JDCT_IFAST=1$JDCT_FLOAT=2
+// #anon_enum_JDCT_ISLOW=0_JDCT_IFAST=1_JDCT_FLOAT=2
 // file /usr/include/jpeglib.h line 244
-enum anonymous$18 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
+enum anonymous_18 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
 
-// #anon_enum$VBI_BLACK=0$VBI_RED=1$VBI_GREEN=2$VBI_YELLOW=3$VBI_BLUE=4$VBI_MAGENTA=5$VBI_CYAN=6$VBI_WHITE=7
+// #anon_enum_VBI_BLACK=0_VBI_RED=1_VBI_GREEN=2_VBI_YELLOW=3_VBI_BLUE=4_VBI_MAGENTA=5_VBI_CYAN=6_VBI_WHITE=7
 // file /usr/include/libzvbi.h line 761
-enum anonymous$0 { VBI_BLACK=0, VBI_RED=1, VBI_GREEN=2, VBI_YELLOW=3, VBI_BLUE=4, VBI_MAGENTA=5, VBI_CYAN=6, VBI_WHITE=7 };
+enum anonymous_0 { VBI_BLACK=0, VBI_RED=1, VBI_GREEN=2, VBI_YELLOW=3, VBI_BLUE=4, VBI_MAGENTA=5, VBI_CYAN=6, VBI_WHITE=7 };
 
-// #anon_enum$VBI_TRANSPARENT_SPACE=0$VBI_TRANSPARENT_FULL=1$VBI_SEMI_TRANSPARENT=2$VBI_OPAQUE=3
+// #anon_enum_VBI_TRANSPARENT_SPACE=0_VBI_TRANSPARENT_FULL=1_VBI_SEMI_TRANSPARENT=2_VBI_OPAQUE=3
 // file /usr/include/libzvbi.h line 775
-enum anonymous$1 { VBI_TRANSPARENT_SPACE=0, VBI_TRANSPARENT_FULL=1, VBI_SEMI_TRANSPARENT=2, VBI_OPAQUE=3 };
+enum anonymous_1 { VBI_TRANSPARENT_SPACE=0, VBI_TRANSPARENT_FULL=1, VBI_SEMI_TRANSPARENT=2, VBI_OPAQUE=3 };
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR17{U8}$U8$'bits'|ARR256{U8}$U8$'huffval'|U24'$pad0'|S32'sent_table']
+// tag-#anon#ST[ARR17{U8}_U8_'bits'|ARR256{U8}_U8_'huffval'|U24'_pad0'|S32'sent_table']
 // file /usr/include/jpeglib.h line 101
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[ARR64{U16}$U16$'quantval'|S32'sent_table']
+// tag-#anon#ST[ARR64{U16}_U16_'quantval'|S32'sent_table']
 // file /usr/include/jpeglib.h line 84
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'component_id'|S32'component_index'|S32'h_samp_factor'|S32'v_samp_factor'|S32'quant_tbl_no'|S32'dc_tbl_no'|S32'ac_tbl_no'|U32'width_in_blocks'|U32'height_in_blocks'|S32'DCT_scaled_size'|U32'downsampled_width'|U32'downsampled_height'|S32'component_needed'|S32'MCU_width'|S32'MCU_height'|S32'MCU_blocks'|S32'MCU_sample_width'|S32'last_col_width'|S32'last_row_height'|U32'$pad0'|*{SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'|S32'sent_table']#}$SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'|S32'sent_table']#$'quant_table'|*{V}$V$'dct_table']
+// tag-#anon#ST[S32'component_id'|S32'component_index'|S32'h_samp_factor'|S32'v_samp_factor'|S32'quant_tbl_no'|S32'dc_tbl_no'|S32'ac_tbl_no'|U32'width_in_blocks'|U32'height_in_blocks'|S32'DCT_scaled_size'|U32'downsampled_width'|U32'downsampled_height'|S32'component_needed'|S32'MCU_width'|S32'MCU_height'|S32'MCU_blocks'|S32'MCU_sample_width'|S32'last_col_width'|S32'last_row_height'|U32'_pad0'|*{SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'|S32'sent_table']#}_SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'|S32'sent_table']#_'quant_table'|*{V}_V_'dct_table']
 // file /usr/include/jpeglib.h line 117
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'comps_in_scan'|ARR4{S32}$S32$'component_index'|S32'Ss'|S32'Se'|S32'Ah'|S32'Al']
+// tag-#anon#ST[S32'comps_in_scan'|ARR4{S32}_S32_'component_index'|S32'Ss'|S32'Se'|S32'Ah'|S32'Al']
 // file /usr/include/jpeglib.h line 190
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S32'pgno'|S32'subno']
 // file /usr/include/libzvbi.h line 832
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'y0'|S32'y1'|S32'roll']
 // file /usr/include/libzvbi.h line 819
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S64'ts']
 // file ./libng/grab-ng.h line 183
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S64'ts'|S32'seq'|S32'twice']
 // file ./libng/grab-ng.h line 142
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|ARR8{U16}$U16$'__u6_addr16'|ARR4{U32}$U32$'__u6_addr32']
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|ARR8{U16}_U16_'__u6_addr16'|ARR4{U32}_U32_'__u6_addr32']
 // file /usr/include/netinet/in.h line 211
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[ARR8{S32}$S32$'i'|ARR80{S8}$S8$'s']
+// tag-#anon#UN[ARR8{S32}_S32_'i'|ARR80{S8}_S8_'s']
 // file /usr/include/jpeglib.h line 736
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
@@ -501,9 +501,9 @@ static signed int attr_handler(char *name, signed int argc, char **argv);
 // attr_init
 // file common/commands.c line 473
 void attr_init(void);
-// attr_notify$object
+// attr_notify_object
 //
-void attr_notify$object(struct ng_attribute *, signed int);
+void attr_notify_object(struct ng_attribute *, signed int);
 // audio_init
 // file ./common/commands.h line 69
 void audio_init(void);
@@ -540,15 +540,15 @@ void calc_frequencies(void);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
-// capture_get_hook$object
+// capture_get_hook_object
 //
-void capture_get_hook$object(void);
+void capture_get_hook_object(void);
 // capture_handler
 // file common/commands.c line 778
 static signed int capture_handler(char *name, signed int argc, char **argv);
-// capture_rel_hook$object
+// capture_rel_hook_object
 //
-void capture_rel_hook$object(void);
+void capture_rel_hook_object(void);
 // cf2freq
 // file common/channel.c line 159
 signed int cf2freq(char *name, signed int fine);
@@ -591,9 +591,9 @@ void cfg_parse_options(signed int *argc, char **argv);
 // cfg_set_entry
 // file common/parseconfig.c line 85
 static void cfg_set_entry(struct CFG_ENTRIES *e, char *name, char *value);
-// channel_switch_hook$object
+// channel_switch_hook_object
 //
-void channel_switch_hook$object(void);
+void channel_switch_hook_object(void);
 // clip_drop
 // file libng/grab-ng.c line 841
 static void clip_drop(struct OVERLAY_CLIP *oc, signed int n, signed int *count);
@@ -624,9 +624,9 @@ void * discover_media_devices(void);
 // display_media_devices
 // file common/get_media_devices.c line 418
 void display_media_devices(void *opaque);
-// display_message$object
+// display_message_object
 //
-void display_message$object(char *);
+void display_message_object(char *);
 // dlerror
 // file /usr/include/dlfcn.h line 82
 extern char * dlerror(void);
@@ -669,9 +669,9 @@ extern void exit(signed int);
 // exit_handler
 // file common/commands.c line 1189
 static signed int exit_handler(char *name, signed int argc, char **argv);
-// exit_hook$object
+// exit_hook_object
 //
-void exit_hook$object(void);
+void exit_hook_object(void);
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);
@@ -738,18 +738,18 @@ void freq_newtab(signed int n);
 // freq_readlist
 // file common/frequencies.c line 78
 static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name);
-// freqtab_notify$object
+// freqtab_notify_object
 //
-void freqtab_notify$object(void);
+void freqtab_notify_object(void);
 // fstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 219
 extern signed int fstat(signed int, struct stat *);
 // fullscreen_handler
 // file common/commands.c line 1158
 static signed int fullscreen_handler(char *name, signed int argc, char **argv);
-// fullscreen_hook$object
+// fullscreen_hook_object
 //
-void fullscreen_hook$object(void);
+void fullscreen_hook_object(void);
 // fwrite
 // file /usr/include/stdio.h line 715
 extern unsigned long int fwrite(const void *, unsigned long int, unsigned long int, struct _IO_FILE *);
@@ -765,9 +765,9 @@ static enum bus_type get_bus(char *device);
 // get_class
 // file common/get_media_devices.c line 121
 static signed int get_class(char *class, struct media_device_entry **md, unsigned int *md_size, signed int (*fill)(struct media_device_entry *));
-// get_class::fill$object
+// get_class::fill_object
 //
-signed int fill$object(struct media_device_entry *);
+signed int fill_object(struct media_device_entry *);
 // get_freq
 // file common/channel.c line 152
 signed int get_freq(signed int i);
@@ -897,9 +897,9 @@ signed int movie_grab_put_video(struct movie_handle *h, struct ng_video_buf **re
 // movie_handler
 // file common/commands.c line 1149
 static signed int movie_handler(char *name, signed int argc, char **argv);
-// movie_hook$object
+// movie_hook_object
 //
-void movie_hook$object(signed int, char **);
+void movie_hook_object(signed int, char **);
 // movie_print_timestamps
 // file common/capture.c line 583
 static void movie_print_timestamps(struct movie_handle *h);
@@ -915,9 +915,9 @@ signed int movie_writer_stop(struct movie_handle *h);
 // msg_handler
 // file common/commands.c line 1166
 static signed int msg_handler(char *name, signed int argc, char **argv);
-// mute_notify$object
+// mute_notify_object
 //
-void mute_notify$object(signed int);
+void mute_notify_object(signed int);
 // ng_aconv_register
 // file libng/grab-ng.c line 409
 signed int ng_aconv_register(signed int magic, char *plugname, struct ng_audio_conv *list, signed int count);
@@ -1056,18 +1056,18 @@ struct ng_attribute * ng_mix_init(char *device, char *channel);
 // ng_packed_frame
 // file libng/color_common.c line 22
 void ng_packed_frame(void *handle, struct ng_video_buf *out, struct ng_video_buf *in);
-// ng_packed_frame::1::func$object
+// ng_packed_frame::1::func_object
 //
-signed int func$object(unsigned char *, unsigned char *, signed int);
+signed int func_object(unsigned char *, unsigned char *, signed int);
 // ng_packed_init
 // file libng/color_common.c line 16
 void * ng_packed_init(struct ng_video_fmt *out, void *priv);
 // ng_plugins
 // file libng/grab-ng.c line 940
 static signed int ng_plugins(char *dirname);
-// ng_plugins::1::initcall$object
+// ng_plugins::1::initcall_object
 //
-void initcall$object(void);
+void initcall_object(void);
 // ng_ratio_fixup
 // file ./libng/grab-ng.h line 268
 void ng_ratio_fixup(signed int *width, signed int *height, signed int *xoff, signed int *yoff);
@@ -1163,16 +1163,16 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$6 *);
+extern signed int pthread_cond_broadcast(union anonymous_6 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$6 *, const union anonymous$8 *);
+extern signed int pthread_cond_init(union anonymous_6 *, const union anonymous_8 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$6 *);
+extern signed int pthread_cond_signal(union anonymous_6 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$6 *, union anonymous$5 *);
+extern signed int pthread_cond_wait(union anonymous_6 *, union anonymous_5 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1181,16 +1181,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$8 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_8 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$5 *);
+extern signed int pthread_mutex_trylock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -1227,9 +1227,9 @@ extern void * realloc(void *, unsigned long int);
 // realpath
 // file /usr/include/stdlib.h line 733
 extern char * realpath(const char *, char *);
-// rec_status$object
+// rec_status_object
 //
-void rec_status$object(char *);
+void rec_status_object(char *);
 // record_audio_thread
 // file common/capture.c line 371
 static void * record_audio_thread(void *arg);
@@ -1262,16 +1262,16 @@ void save_config(void);
 extern signed int scandir(const char *, struct dirent *** restrict , signed int (*)(struct dirent *), signed int (*)(struct dirent **, struct dirent **));
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$7 *, struct anonymous$7 *, struct anonymous$7 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_7 *, struct anonymous_7 *, struct anonymous_7 *, struct timeval *);
 // set_attr
 // file common/commands.c line 331
 static void set_attr(struct ng_attribute *attr, signed int val);
 // set_capture
 // file common/commands.c line 304
 static void set_capture(signed int capture, signed int tmp_switch);
-// set_capture_hook$object
+// set_capture_hook_object
 //
-void set_capture_hook$object(signed int, signed int, signed int);
+void set_capture_hook_object(signed int, signed int, signed int);
 // set_defaults
 // file common/commands.c line 525
 void set_defaults(void);
@@ -1302,18 +1302,18 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv);
 // setfreqtab_handler
 // file common/commands.c line 763
 static signed int setfreqtab_handler(char *name, signed int argc, char **argv);
-// setfreqtab_notify$object
+// setfreqtab_notify_object
 //
-void setfreqtab_notify$object(void);
+void setfreqtab_notify_object(void);
 // setsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 226
 extern signed int setsockopt(signed int, signed int, signed int, const void *, unsigned int);
 // setstation_handler
 // file common/commands.c line 567
 static signed int setstation_handler(char *name, signed int argc, char **argv);
-// setstation_notify$object
+// setstation_notify_object
 //
-void setstation_notify$object(void);
+void setstation_notify_object(void);
 // show_handler
 // file common/commands.c line 909
 static signed int show_handler(char *name, signed int argc, char **argv);
@@ -1422,9 +1422,9 @@ extern signed int unlink(const char *);
 // update_int
 // file common/commands.c line 441
 static signed int update_int(struct ng_attribute *attr, signed int old, char *new);
-// update_title$object
+// update_title_object
 //
-void update_title$object(char *);
+void update_title_object(char *);
 // usage
 // file console/streamer.c line 101
 static void usage(struct _IO_FILE *out);
@@ -1437,12 +1437,12 @@ static signed int vdr_handler(char *name, signed int argc, char **argv);
 // volume_handler
 // file common/commands.c line 796
 static signed int volume_handler(char *name, signed int argc, char **argv);
-// volume_notify$object
+// volume_notify_object
 //
-void volume_notify$object(void);
-// vtx_subtitle$object
+void volume_notify_object(void);
+// vtx_subtitle_object
 //
-void vtx_subtitle$object(struct vbi_page *, struct vbi_rect *);
+void vtx_subtitle_object(struct vbi_page *, struct vbi_rect *);
 // wav_init_header
 // file libng/writefile.c line 233
 static void wav_init_header(struct WAVEHDR *fileheader, struct ng_audio_fmt *audio);
@@ -1501,13 +1501,13 @@ static void yuv422p_to_rgb24(void *h, struct ng_video_buf *out, struct ng_video_
 // file libng/color_yuv2rgb.c line 149
 static void yuv42xp_to_gray(void *h, struct ng_video_buf *out, struct ng_video_buf *in);
 
-struct anonymous$7
+struct anonymous_7
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // bits
   unsigned char bits[17l];
@@ -1517,7 +1517,7 @@ struct anonymous$16
   signed int sent_table;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // quantval
   unsigned short int quantval[64l];
@@ -1525,7 +1525,7 @@ struct anonymous$15
   signed int sent_table;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // __lock
   signed int __lock;
@@ -1545,7 +1545,7 @@ struct anonymous$12
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // component_id
   signed int component_id;
@@ -1586,12 +1586,12 @@ struct anonymous$14
   // last_row_height
   signed int last_row_height;
   // quant_table
-  struct anonymous$15 *quant_table;
+  struct anonymous_15 *quant_table;
   // dct_table
   void *dct_table;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // comps_in_scan
   signed int comps_in_scan;
@@ -1607,7 +1607,7 @@ struct anonymous$17
   signed int Al;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // pgno
   signed int pgno;
@@ -1615,7 +1615,7 @@ struct anonymous$3
   signed int subno;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // y0
   signed int y0;
@@ -1625,13 +1625,13 @@ struct anonymous$2
   signed int roll;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // ts
   signed long int ts;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // ts
   signed long int ts;
@@ -1641,7 +1641,7 @@ struct anonymous$11
   signed int twice;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1651,7 +1651,7 @@ union anonymous$4
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[4l];
@@ -1659,7 +1659,7 @@ union anonymous$8
   signed int __align;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // i
   signed int i[8l];
@@ -1667,10 +1667,10 @@ union anonymous$19
   char s[80l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$12 __data;
+  struct anonymous_12 __data;
   // __size
   char __size[48l];
   // __align
@@ -1705,7 +1705,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1715,7 +1715,7 @@ union anonymous$5
   signed long int __align;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1894,9 +1894,9 @@ struct FIFO
   // writers
   signed int writers;
   // lock
-  union anonymous$5 lock;
+  union anonymous_5 lock;
   // hasdata
-  union anonymous$6 hasdata;
+  union anonymous_6 hasdata;
 };
 
 struct LAUNCH
@@ -1956,9 +1956,9 @@ struct WAVEHDR
 struct WEBCAM
 {
   // lock
-  union anonymous$5 lock;
+  union anonymous_5 lock;
   // wait
-  union anonymous$6 wait;
+  union anonymous_6 wait;
   // filename
   char *filename;
   // buf
@@ -2128,7 +2128,7 @@ struct files_handle
 struct in6_addr
 {
   // __in6_u
-  union anonymous$4 __in6_u;
+  union anonymous_4 __in6_u;
 };
 
 struct in_addr
@@ -2176,7 +2176,7 @@ struct jpeg_compress_struct
   // input_components
   signed int input_components;
   // in_color_space
-  enum anonymous$13 in_color_space;
+  enum anonymous_13 in_color_space;
   // input_gamma
   double input_gamma;
   // data_precision
@@ -2184,15 +2184,15 @@ struct jpeg_compress_struct
   // num_components
   signed int num_components;
   // jpeg_color_space
-  enum anonymous$13 jpeg_color_space;
+  enum anonymous_13 jpeg_color_space;
   // comp_info
-  struct anonymous$14 *comp_info;
+  struct anonymous_14 *comp_info;
   // quant_tbl_ptrs
-  struct anonymous$15 *quant_tbl_ptrs[4l];
+  struct anonymous_15 *quant_tbl_ptrs[4l];
   // dc_huff_tbl_ptrs
-  struct anonymous$16 *dc_huff_tbl_ptrs[4l];
+  struct anonymous_16 *dc_huff_tbl_ptrs[4l];
   // ac_huff_tbl_ptrs
-  struct anonymous$16 *ac_huff_tbl_ptrs[4l];
+  struct anonymous_16 *ac_huff_tbl_ptrs[4l];
   // arith_dc_L
   unsigned char arith_dc_L[16l];
   // arith_dc_U
@@ -2202,7 +2202,7 @@ struct jpeg_compress_struct
   // num_scans
   signed int num_scans;
   // scan_info
-  const struct anonymous$17 *scan_info;
+  const struct anonymous_17 *scan_info;
   // raw_data_in
   signed int raw_data_in;
   // arith_code
@@ -2214,7 +2214,7 @@ struct jpeg_compress_struct
   // smoothing_factor
   signed int smoothing_factor;
   // dct_method
-  enum anonymous$18 dct_method;
+  enum anonymous_18 dct_method;
   // restart_interval
   unsigned int restart_interval;
   // restart_in_rows
@@ -2246,7 +2246,7 @@ struct jpeg_compress_struct
   // comps_in_scan
   signed int comps_in_scan;
   // cur_comp_info
-  struct anonymous$14 *cur_comp_info[4l];
+  struct anonymous_14 *cur_comp_info[4l];
   // MCUs_per_row
   unsigned int MCUs_per_row;
   // MCU_rows_in_scan
@@ -2282,7 +2282,7 @@ struct jpeg_compress_struct
   // entropy
   struct jpeg_entropy_encoder *entropy;
   // script_space
-  struct anonymous$17 *script_space;
+  struct anonymous_17 *script_space;
   // script_space_size
   signed int script_space_size;
 };
@@ -2316,7 +2316,7 @@ struct jpeg_error_mgr
   // msg_code
   signed int msg_code;
   // msg_parm
-  union anonymous$19 msg_parm;
+  union anonymous_19 msg_parm;
   // trace_level
   signed int trace_level;
   // num_warnings
@@ -2422,7 +2422,7 @@ struct ng_convthread_handle
 struct movie_handle
 {
   // lock
-  union anonymous$5 lock;
+  union anonymous_5 lock;
   // writer
   struct ng_writer *writer;
   // handle
@@ -2522,7 +2522,7 @@ struct ng_audio_buf
   // data
   char *data;
   // info
-  struct anonymous$10 info;
+  struct anonymous_10 info;
 };
 
 struct ng_audio_conv
@@ -2740,11 +2740,11 @@ struct ng_video_buf
   // data
   unsigned char *data;
   // info
-  struct anonymous$11 info;
+  struct anonymous_11 info;
   // lock
-  union anonymous$5 lock;
+  union anonymous_5 lock;
   // cond
-  union anonymous$6 cond;
+  union anonymous_6 cond;
   // refcount
   signed int refcount;
   // release
@@ -2994,11 +2994,11 @@ struct vbi_page
   // text
   struct vbi_char text[1056l];
   // dirty
-  struct anonymous$2 dirty;
+  struct anonymous_2 dirty;
   // screen_color
-  enum anonymous$0 screen_color;
+  enum anonymous_0 screen_color;
   // screen_opacity
-  enum anonymous$1 screen_opacity;
+  enum anonymous_1 screen_opacity;
   // color_map
   unsigned int color_map[40l];
   // drcs_clut
@@ -3006,7 +3006,7 @@ struct vbi_page
   // drcs
   unsigned char *drcs[32l];
   // nav_link
-  struct anonymous$3 nav_link[6l];
+  struct anonymous_3 nav_link[6l];
   // nav_index
   char nav_index[64l];
   // font
@@ -3014,9 +3014,9 @@ struct vbi_page
   // double_height_lower
   unsigned int double_height_lower;
   // page_opacity
-  enum anonymous$1 page_opacity[2l];
+  enum anonymous_1 page_opacity[2l];
   // boxed_opacity
-  enum anonymous$1 boxed_opacity[2l];
+  enum anonymous_1 boxed_opacity[2l];
 };
 
 struct vbi_rect
@@ -3172,12 +3172,12 @@ static struct ng_video_conv conv_list[12l] = { { .fmtid_in=(unsigned int)5, .fmt
     { .fmtid_in=(unsigned int)7, .fmtid_out=(unsigned int)10, .init=ng_packed_init,
     .frame=ng_packed_frame, .fini=ng_conv_nop_fini,
     .priv=(void *)bgr24_to_rgb32, .list={ .next=((struct list_head *)NULL), .prev=((struct list_head *)NULL) } } };
-// conv_list$link1
+// conv_list_link1
 // file libng/color_yuv2rgb.c line 384
-static struct ng_video_conv conv_list$link1[6l];
-// conv_list$link1
+static struct ng_video_conv conv_list_link1[6l];
+// conv_list_link1
 // file libng/color_yuv2rgb.c line 384
-static struct ng_video_conv conv_list$link1[6l] = { { .fmtid_in=(unsigned int)13, .fmtid_out=(unsigned int)9, .init=ng_packed_init,
+static struct ng_video_conv conv_list_link1[6l] = { { .fmtid_in=(unsigned int)13, .fmtid_out=(unsigned int)9, .init=ng_packed_init,
     .frame=ng_packed_frame, .fini=ng_conv_nop_fini,
     .priv=(void *)yuv422_to_rgb24, .list={ .next=((struct list_head *)NULL), .prev=((struct list_head *)NULL) } },
     { .fmtid_in=(unsigned int)13, .fmtid_out=(unsigned int)2, .init=ng_packed_init,
@@ -3445,9 +3445,9 @@ void (*mute_notify)(signed int);
 // nconv
 // file libng/color_packed.c line 255
 static const signed int nconv = (const signed int)(sizeof(struct ng_video_conv [12l]) /*672ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
-// nconv$link1
+// nconv_link1
 // file libng/color_yuv2rgb.c line 421
-static const signed int nconv$link1 = (const signed int)(sizeof(struct ng_video_conv [6l]) /*336ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
+static const signed int nconv_link1 = (const signed int)(sizeof(struct ng_video_conv [6l]) /*336ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
 // nconv2
 // file libng/color_lut.c line 237
 static const unsigned int nconv2 = (const unsigned int)(sizeof(struct ng_video_conv [8l]) /*448ul*/  / sizeof(struct ng_video_conv) /*56ul*/ );
@@ -3737,9 +3737,9 @@ void add_attrs(struct ng_attribute *new)
   nnew = 0;
   for( ; !((new + (signed long int)nnew)->name == ((const char *)NULL)); nnew = nnew + 1)
     ;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)(nold + nnew + 1));
-  all = (struct ng_attribute *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)(nold + nnew + 1));
+  all = (struct ng_attribute *)return_value_malloc_1;
   memset((void *)all, 0, sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)(nold + nnew + 1));
   memcpy((void *)all, (const void *)new, sizeof(struct ng_attribute) /*80ul*/  * (unsigned long int)nnew);
   if(!(attrs == ((struct ng_attribute *)NULL)))
@@ -3756,30 +3756,30 @@ void add_attrs(struct ng_attribute *new)
 struct CHANNEL * add_channel(char *name)
 {
   struct CHANNEL *channel;
-  void *return_value_malloc$1;
-  void *return_value_realloc$2;
+  void *return_value_malloc_1;
+  void *return_value_realloc_2;
   if(alloc_count == count)
   {
     alloc_count = alloc_count + 16;
     if(alloc_count == 16)
     {
-      return_value_malloc$1=malloc(sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
-      channels = (struct CHANNEL **)return_value_malloc$1;
+      return_value_malloc_1=malloc(sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
+      channels = (struct CHANNEL **)return_value_malloc_1;
     }
 
     else
     {
-      return_value_realloc$2=realloc((void *)channels, sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
-      channels = (struct CHANNEL **)return_value_realloc$2;
+      return_value_realloc_2=realloc((void *)channels, sizeof(struct CHANNEL *) /*8ul*/  * (unsigned long int)alloc_count);
+      channels = (struct CHANNEL **)return_value_realloc_2;
     }
   }
 
-  signed int tmp_post$3 = count;
+  signed int tmp_post_3 = count;
   count = count + 1;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct CHANNEL) /*104ul*/ );
-  channels[(signed long int)tmp_post$3] = (struct CHANNEL *)return_value_malloc$4;
-  channel = channels[(signed long int)tmp_post$3];
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct CHANNEL) /*104ul*/ );
+  channels[(signed long int)tmp_post_3] = (struct CHANNEL *)return_value_malloc_4;
+  channel = channels[(signed long int)tmp_post_3];
   memcpy((void *)channel, (const void *)&defaults, sizeof(struct CHANNEL) /*104ul*/ );
   channel->name=strdup(name);
   return channel;
@@ -3789,59 +3789,59 @@ struct CHANNEL * add_channel(char *name)
 // file common/get_media_devices.c line 275
 static signed int add_dvb_class(struct media_device_entry *md)
 {
-  char *return_value_strstr$1;
-  return_value_strstr$1=strstr(md->node, "video");
-  if(!(return_value_strstr$1 == ((char *)NULL)))
+  char *return_value_strstr_1;
+  return_value_strstr_1=strstr(md->node, "video");
+  if(!(return_value_strstr_1 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_VIDEO;
 
-  char *return_value_strstr$2;
-  return_value_strstr$2=strstr(md->node, "audio");
-  if(!(return_value_strstr$2 == ((char *)NULL)))
+  char *return_value_strstr_2;
+  return_value_strstr_2=strstr(md->node, "audio");
+  if(!(return_value_strstr_2 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_AUDIO;
 
-  char *return_value_strstr$3;
-  return_value_strstr$3=strstr(md->node, "sec");
-  if(!(return_value_strstr$3 == ((char *)NULL)))
+  char *return_value_strstr_3;
+  return_value_strstr_3=strstr(md->node, "sec");
+  if(!(return_value_strstr_3 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_SEC;
 
-  char *return_value_strstr$9;
-  return_value_strstr$9=strstr(md->node, "frontend");
-  char *return_value_strstr$8;
-  char *return_value_strstr$7;
-  char *return_value_strstr$6;
-  char *return_value_strstr$5;
-  char *return_value_strstr$4;
-  if(!(return_value_strstr$9 == ((char *)NULL)))
+  char *return_value_strstr_9;
+  return_value_strstr_9=strstr(md->node, "frontend");
+  char *return_value_strstr_8;
+  char *return_value_strstr_7;
+  char *return_value_strstr_6;
+  char *return_value_strstr_5;
+  char *return_value_strstr_4;
+  if(!(return_value_strstr_9 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_DVB_FRONTEND;
 
   else
   {
-    return_value_strstr$8=strstr(md->node, "demux");
-    if(!(return_value_strstr$8 == ((char *)NULL)))
+    return_value_strstr_8=strstr(md->node, "demux");
+    if(!(return_value_strstr_8 == ((char *)NULL)))
       md->type = (enum device_type)MEDIA_DVB_DEMUX;
 
     else
     {
-      return_value_strstr$7=strstr(md->node, "dvr");
-      if(!(return_value_strstr$7 == ((char *)NULL)))
+      return_value_strstr_7=strstr(md->node, "dvr");
+      if(!(return_value_strstr_7 == ((char *)NULL)))
         md->type = (enum device_type)MEDIA_DVB_DVR;
 
       else
       {
-        return_value_strstr$6=strstr(md->node, "net");
-        if(!(return_value_strstr$6 == ((char *)NULL)))
+        return_value_strstr_6=strstr(md->node, "net");
+        if(!(return_value_strstr_6 == ((char *)NULL)))
           md->type = (enum device_type)MEDIA_DVB_NET;
 
         else
         {
-          return_value_strstr$5=strstr(md->node, "ca");
-          if(!(return_value_strstr$5 == ((char *)NULL)))
+          return_value_strstr_5=strstr(md->node, "ca");
+          if(!(return_value_strstr_5 == ((char *)NULL)))
             md->type = (enum device_type)MEDIA_DVB_CA;
 
           else
           {
-            return_value_strstr$4=strstr(md->node, "osd");
-            if(!(return_value_strstr$4 == ((char *)NULL)))
+            return_value_strstr_4=strstr(md->node, "osd");
+            if(!(return_value_strstr_4 == ((char *)NULL)))
               md->type = (enum device_type)MEDIA_DVB_OSD;
 
           }
@@ -3856,13 +3856,13 @@ static signed int add_dvb_class(struct media_device_entry *md)
 // file common/get_media_devices.c line 232
 static signed int add_snd_class(struct media_device_entry *md)
 {
-  unsigned int add_snd_class$$1$$c = (unsigned int)65535;
+  unsigned int add_snd_class__1__c = (unsigned int)65535;
   unsigned int d = (unsigned int)65535;
   char node[64l];
-  char *return_value_strstr$2;
-  return_value_strstr$2=strstr(md->node, "timer");
-  char *return_value_strstr$1;
-  if(!(return_value_strstr$2 == ((char *)NULL)))
+  char *return_value_strstr_2;
+  return_value_strstr_2=strstr(md->node, "timer");
+  char *return_value_strstr_1;
+  if(!(return_value_strstr_2 == ((char *)NULL)))
   {
     md->type = (enum device_type)MEDIA_SND_TIMER;
     return 0;
@@ -3870,59 +3870,59 @@ static signed int add_snd_class(struct media_device_entry *md)
 
   else
   {
-    return_value_strstr$1=strstr(md->node, "seq");
-    if(!(return_value_strstr$1 == ((char *)NULL)))
+    return_value_strstr_1=strstr(md->node, "seq");
+    if(!(return_value_strstr_1 == ((char *)NULL)))
     {
       md->type = (enum device_type)MEDIA_SND_SEQ;
       return 0;
     }
 
   }
-  char *return_value_strstr$8;
-  return_value_strstr$8=strstr(md->node, "card");
-  char *return_value_strstr$7;
-  char *return_value_strstr$6;
-  char *return_value_strstr$5;
-  unsigned long int return_value_strlen$3;
-  if(!(return_value_strstr$8 == ((char *)NULL)))
+  char *return_value_strstr_8;
+  return_value_strstr_8=strstr(md->node, "card");
+  char *return_value_strstr_7;
+  char *return_value_strstr_6;
+  char *return_value_strstr_5;
+  unsigned long int return_value_strlen_3;
+  if(!(return_value_strstr_8 == ((char *)NULL)))
   {
-    sscanf(md->node, "card%u", &add_snd_class$$1$$c);
+    sscanf(md->node, "card%u", &add_snd_class__1__c);
     md->type = (enum device_type)MEDIA_SND_CARD;
   }
 
   else
   {
-    return_value_strstr$7=strstr(md->node, "hw");
-    if(!(return_value_strstr$7 == ((char *)NULL)))
+    return_value_strstr_7=strstr(md->node, "hw");
+    if(!(return_value_strstr_7 == ((char *)NULL)))
     {
-      sscanf(md->node, "hwC%uD%u", &add_snd_class$$1$$c, &d);
+      sscanf(md->node, "hwC%uD%u", &add_snd_class__1__c, &d);
       md->type = (enum device_type)MEDIA_SND_HW;
     }
 
     else
     {
-      return_value_strstr$6=strstr(md->node, "control");
-      if(!(return_value_strstr$6 == ((char *)NULL)))
+      return_value_strstr_6=strstr(md->node, "control");
+      if(!(return_value_strstr_6 == ((char *)NULL)))
       {
-        sscanf(md->node, "controlC%u", &add_snd_class$$1$$c);
+        sscanf(md->node, "controlC%u", &add_snd_class__1__c);
         md->type = (enum device_type)MEDIA_SND_CONTROL;
       }
 
       else
       {
-        return_value_strstr$5=strstr(md->node, "pcm");
-        if(!(return_value_strstr$5 == ((char *)NULL)))
+        return_value_strstr_5=strstr(md->node, "pcm");
+        if(!(return_value_strstr_5 == ((char *)NULL)))
         {
-          sscanf(md->node, "pcmC%uD%u", &add_snd_class$$1$$c, &d);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(md->node);
-          if((signed int)md->node[-1l + (signed long int)return_value_strlen$4] == 112)
+          sscanf(md->node, "pcmC%uD%u", &add_snd_class__1__c, &d);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(md->node);
+          if((signed int)md->node[-1l + (signed long int)return_value_strlen_4] == 112)
             md->type = (enum device_type)MEDIA_SND_OUT;
 
           else
           {
-            return_value_strlen$3=strlen(md->node);
-            if((signed int)md->node[-1l + (signed long int)return_value_strlen$3] == 99)
+            return_value_strlen_3=strlen(md->node);
+            if((signed int)md->node[-1l + (signed long int)return_value_strlen_3] == 99)
               md->type = (enum device_type)MEDIA_SND_CAP;
 
           }
@@ -3931,16 +3931,16 @@ static signed int add_snd_class(struct media_device_entry *md)
       }
     }
   }
-  if(add_snd_class$$1$$c == 65535u)
+  if(add_snd_class__1__c == 65535u)
     return 0;
 
   else
   {
     if(d == 65535u)
-      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u", add_snd_class$$1$$c);
+      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u", add_snd_class__1__c);
 
     else
-      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u,%u", add_snd_class$$1$$c, d);
+      snprintf(node, sizeof(char [64l]) /*64ul*/ , "hw:%u,%u", add_snd_class__1__c, d);
     free((void *)md->node);
     md->node=strdup(node);
     return 0;
@@ -3951,30 +3951,30 @@ static signed int add_snd_class(struct media_device_entry *md)
 // file common/get_media_devices.c line 218
 static signed int add_v4l_class(struct media_device_entry *md)
 {
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(md->node, "video");
-  char *return_value_strstr$3;
-  char *return_value_strstr$2;
-  char *return_value_strstr$1;
-  if(!(return_value_strstr$4 == ((char *)NULL)))
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(md->node, "video");
+  char *return_value_strstr_3;
+  char *return_value_strstr_2;
+  char *return_value_strstr_1;
+  if(!(return_value_strstr_4 == ((char *)NULL)))
     md->type = (enum device_type)MEDIA_V4L_VIDEO;
 
   else
   {
-    return_value_strstr$3=strstr(md->node, "vbi");
-    if(!(return_value_strstr$3 == ((char *)NULL)))
+    return_value_strstr_3=strstr(md->node, "vbi");
+    if(!(return_value_strstr_3 == ((char *)NULL)))
       md->type = (enum device_type)MEDIA_V4L_VBI;
 
     else
     {
-      return_value_strstr$2=strstr(md->node, "radio");
-      if(!(return_value_strstr$2 == ((char *)NULL)))
+      return_value_strstr_2=strstr(md->node, "radio");
+      if(!(return_value_strstr_2 == ((char *)NULL)))
         md->type = (enum device_type)MEDIA_V4L_RADIO;
 
       else
       {
-        return_value_strstr$1=strstr(md->node, "v4l-subdev");
-        if(!(return_value_strstr$1 == ((char *)NULL)))
+        return_value_strstr_1=strstr(md->node, "v4l-subdev");
+        if(!(return_value_strstr_1 == ((char *)NULL)))
           md->type = (enum device_type)MEDIA_V4L_SUBDEV;
 
       }
@@ -3990,27 +3990,27 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
   struct ng_attribute *attr;
   signed int val;
   signed int arg = 0;
-  signed int return_value_strcasecmp$4;
-  return_value_strcasecmp$4=strcasecmp(name, "setnorm");
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  if(return_value_strcasecmp$4 == 0)
+  signed int return_value_strcasecmp_4;
+  return_value_strcasecmp_4=strcasecmp(name, "setnorm");
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  if(return_value_strcasecmp_4 == 0)
     attr=ng_attr_byname(attrs, "norm");
 
   else
   {
-    return_value_strcasecmp$3=strcasecmp(name, "setinput");
-    if(return_value_strcasecmp$3 == 0)
+    return_value_strcasecmp_3=strcasecmp(name, "setinput");
+    if(return_value_strcasecmp_3 == 0)
       attr=ng_attr_byname(attrs, "input");
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp(name, "setattr");
-      if(return_value_strcasecmp$2 == 0 && argc >= 1)
+      return_value_strcasecmp_2=strcasecmp(name, "setattr");
+      if(return_value_strcasecmp_2 == 0 && argc >= 1)
       {
-        signed int tmp_post$1 = arg;
+        signed int tmp_post_1 = arg;
         arg = arg + 1;
-        attr=ng_attr_byname(attrs, argv[(signed long int)tmp_post$1]);
+        attr=ng_attr_byname(attrs, argv[(signed long int)tmp_post_1]);
       }
 
       else
@@ -4019,13 +4019,13 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
   }
   if(attr == ((struct ng_attribute *)NULL))
   {
-    char *tmp_if_expr$5;
+    char *tmp_if_expr_5;
     if(arg >= 1)
-      tmp_if_expr$5 = argv[(signed long int)0];
+      tmp_if_expr_5 = argv[(signed long int)0];
 
     else
-      tmp_if_expr$5 = name;
-    fprintf(stderr, "cmd: %s: attribute not found\nvalid choices are:", tmp_if_expr$5);
+      tmp_if_expr_5 = name;
+    fprintf(stderr, "cmd: %s: attribute not found\nvalid choices are:", tmp_if_expr_5);
     attr = attrs;
     for( ; !(attr->name == ((const char *)NULL)); attr = attr + 1l)
       fprintf(stderr, "%s \"%s\"", attr != attrs ? "," : "", attr->name);
@@ -4044,9 +4044,9 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
       {
         if(!(arg >= argc))
         {
-          signed int return_value_strcasecmp$6;
-          return_value_strcasecmp$6=strcasecmp("next", argv[(signed long int)arg]);
-          if(return_value_strcasecmp$6 == 0)
+          signed int return_value_strcasecmp_6;
+          return_value_strcasecmp_6=strcasecmp("next", argv[(signed long int)arg]);
+          if(return_value_strcasecmp_6 == 0)
           {
             val = cur_attrs[(signed long int)attr->id];
             val = val + 1;
@@ -4091,9 +4091,9 @@ static signed int attr_handler(char *name, signed int argc, char **argv)
           val=str_to_int(argv[(signed long int)arg], booltab);
           if(val == -1)
           {
-            signed int return_value_strcasecmp$7;
-            return_value_strcasecmp$7=strcasecmp(argv[(signed long int)arg], "toggle");
-            if(return_value_strcasecmp$7 == 0)
+            signed int return_value_strcasecmp_7;
+            return_value_strcasecmp_7=strcasecmp(argv[(signed long int)arg], "toggle");
+            if(return_value_strcasecmp_7 == 0)
               val = (signed int)!(cur_attrs[(signed long int)attr->id] != 0);
 
           }
@@ -4118,24 +4118,24 @@ void attr_init(void)
   struct ng_attribute *attr;
   signed int val;
   attr = attrs;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(attr == ((struct ng_attribute *)NULL)))
-      tmp_if_expr$1 = attr->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = attr->name != (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(attr->id == 3)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = attr->id == 4 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = attr->id == 4 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       val=attr->read(attr);
       if(!(attr_notify == ((void (*)(struct ng_attribute *, signed int))NULL)))
@@ -4147,38 +4147,38 @@ void attr_init(void)
     attr = attr + 1l;
   }
   while((_Bool)1);
-  struct ng_attribute *return_value_ng_attr_byid$3;
+  struct ng_attribute *return_value_ng_attr_byid_3;
   if(defaults.color == -1)
   {
-    return_value_ng_attr_byid$3=ng_attr_byid(attrs, 6);
-    if(!(return_value_ng_attr_byid$3 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_3=ng_attr_byid(attrs, 6);
+    if(!(return_value_ng_attr_byid_3 == ((struct ng_attribute *)NULL)))
       defaults.color = cur_attrs[(signed long int)6];
 
   }
 
-  struct ng_attribute *return_value_ng_attr_byid$4;
+  struct ng_attribute *return_value_ng_attr_byid_4;
   if(defaults.bright == -1)
   {
-    return_value_ng_attr_byid$4=ng_attr_byid(attrs, 7);
-    if(!(return_value_ng_attr_byid$4 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_4=ng_attr_byid(attrs, 7);
+    if(!(return_value_ng_attr_byid_4 == ((struct ng_attribute *)NULL)))
       defaults.bright = cur_attrs[(signed long int)7];
 
   }
 
-  struct ng_attribute *return_value_ng_attr_byid$5;
+  struct ng_attribute *return_value_ng_attr_byid_5;
   if(defaults.hue == -1)
   {
-    return_value_ng_attr_byid$5=ng_attr_byid(attrs, 8);
-    if(!(return_value_ng_attr_byid$5 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_5=ng_attr_byid(attrs, 8);
+    if(!(return_value_ng_attr_byid_5 == ((struct ng_attribute *)NULL)))
       defaults.hue = cur_attrs[(signed long int)8];
 
   }
 
-  struct ng_attribute *return_value_ng_attr_byid$6;
+  struct ng_attribute *return_value_ng_attr_byid_6;
   if(defaults.contrast == -1)
   {
-    return_value_ng_attr_byid$6=ng_attr_byid(attrs, 9);
-    if(!(return_value_ng_attr_byid$6 == ((struct ng_attribute *)NULL)))
+    return_value_ng_attr_byid_6=ng_attr_byid(attrs, 9);
+    if(!(return_value_ng_attr_byid_6 == ((struct ng_attribute *)NULL)))
       defaults.contrast = cur_attrs[(signed long int)9];
 
   }
@@ -4223,32 +4223,32 @@ static void bgr24_to_bgr32(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$3 = s;
+    unsigned char * restrict tmp_post_3 = s;
     s = s + 1l;
-    *tmp_post$2 = *tmp_post$3;
-    unsigned char * restrict tmp_post$4 = d;
+    *tmp_post_2 = *tmp_post_3;
+    unsigned char * restrict tmp_post_4 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$5 = s;
+    unsigned char * restrict tmp_post_5 = s;
     s = s + 1l;
-    *tmp_post$4 = *tmp_post$5;
-    unsigned char * restrict tmp_post$6 = d;
+    *tmp_post_4 = *tmp_post_5;
+    unsigned char * restrict tmp_post_6 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$7 = s;
+    unsigned char * restrict tmp_post_7 = s;
     s = s + 1l;
-    *tmp_post$6 = *tmp_post$7;
-    unsigned char * restrict tmp_post$8 = d;
+    *tmp_post_6 = *tmp_post_7;
+    unsigned char * restrict tmp_post_8 = d;
     d = d + 1l;
-    *tmp_post$8 = (unsigned char)0;
+    *tmp_post_8 = (unsigned char)0;
   }
   while((_Bool)1);
 }
@@ -4258,17 +4258,17 @@ static void bgr24_to_bgr32(unsigned char * restrict dest, unsigned char * restri
 static void bgr24_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -4279,17 +4279,17 @@ static void bgr24_to_lut2(unsigned char * restrict dest, unsigned char * restric
 static void bgr24_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -4301,26 +4301,26 @@ static void bgr24_to_rgb32(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned char)0;
-    unsigned char * restrict tmp_post$3 = d;
+    *tmp_post_2 = (unsigned char)0;
+    unsigned char * restrict tmp_post_3 = d;
     d = d + 1l;
-    *tmp_post$3 = s[(signed long int)2];
-    unsigned char * restrict tmp_post$4 = d;
+    *tmp_post_3 = s[(signed long int)2];
+    unsigned char * restrict tmp_post_4 = d;
     d = d + 1l;
-    *tmp_post$4 = s[(signed long int)1];
-    unsigned char * restrict tmp_post$5 = d;
+    *tmp_post_4 = s[(signed long int)1];
+    unsigned char * restrict tmp_post_5 = d;
     d = d + 1l;
-    *tmp_post$5 = s[(signed long int)0];
+    *tmp_post_5 = s[(signed long int)0];
     s = s + (signed long int)3;
   }
   while((_Bool)1);
@@ -4331,17 +4331,17 @@ static void bgr24_to_rgb32(unsigned char * restrict dest, unsigned char * restri
 static void bgr32_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -4352,17 +4352,17 @@ static void bgr32_to_lut2(unsigned char * restrict dest, unsigned char * restric
 static void bgr32_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)2]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)0]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -4380,12 +4380,12 @@ static void byteswap_short(unsigned char * restrict dest, unsigned char * restri
     if(p == 0)
       break;
 
-    unsigned char * restrict tmp_post$1 = d;
+    unsigned char * restrict tmp_post_1 = d;
     d = d + 1l;
-    *tmp_post$1 = s[(signed long int)1];
-    unsigned char * restrict tmp_post$2 = d;
+    *tmp_post_1 = s[(signed long int)1];
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = s[(signed long int)0];
+    *tmp_post_2 = s[(signed long int)0];
     s = s + (signed long int)2;
   }
   while((_Bool)1);
@@ -4396,7 +4396,7 @@ static void byteswap_short(unsigned char * restrict dest, unsigned char * restri
 void calc_frequencies(void)
 {
   signed int i = 0;
-  signed int return_value_get_freq$1;
+  signed int return_value_get_freq_1;
   for( ; !(i >= count); i = i + 1)
     if(!(channels[(signed long int)i]->cname == ((char *)NULL)))
     {
@@ -4406,8 +4406,8 @@ void calc_frequencies(void)
 
       else
       {
-        return_value_get_freq$1=get_freq(channels[(signed long int)i]->channel);
-        channels[(signed long int)i]->freq = return_value_get_freq$1 + channels[(signed long int)i]->fine;
+        return_value_get_freq_1=get_freq(channels[(signed long int)i]->channel);
+        channels[(signed long int)i]->freq = return_value_get_freq_1 + channels[(signed long int)i]->fine;
       }
     }
 
@@ -4419,18 +4419,18 @@ static signed int capture_handler(char *name, signed int argc, char **argv)
 {
   signed int i;
   signed int temp = 0;
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp(argv[(signed long int)0], "toggle");
-  if(return_value_strcasecmp$1 == 0)
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp(argv[(signed long int)0], "toggle");
+  if(return_value_strcasecmp_1 == 0)
     i = cur_capture == 0 ? 9 : 0;
 
   else
     i=str_to_int(argv[(signed long int)0], captab);
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(argc == 2)
   {
-    return_value_strcasecmp$2=strcasecmp(argv[(signed long int)1], "temp");
-    if(return_value_strcasecmp$2 == 0)
+    return_value_strcasecmp_2=strcasecmp(argv[(signed long int)1], "temp");
+    if(return_value_strcasecmp_2 == 0)
       temp = 1;
 
   }
@@ -4452,9 +4452,9 @@ signed int cf2freq(char *name, signed int fine)
 
   else
   {
-    signed int return_value_get_freq$1;
-    return_value_get_freq$1=get_freq(i);
-    return return_value_get_freq$1 + fine;
+    signed int return_value_get_freq_1;
+    return_value_get_freq_1=get_freq(i);
+    return return_value_get_freq_1 + fine;
   }
 }
 
@@ -4464,22 +4464,22 @@ static struct CFG_ENTRIES * cfg_find_section(struct CFG_SECTIONS *c, char *name)
 {
   struct CFG_ENTRIES *e;
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   for( ; !(i >= c->sec_count); i = i + 1)
   {
-    return_value_strcasecmp$1=strcasecmp(c->sec_names[(signed long int)i], name);
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(c->sec_names[(signed long int)i], name);
+    if(return_value_strcasecmp_1 == 0)
       return c->sec_entries[(signed long int)i];
 
   }
   if(c->sec_count % 16 == 16)
   {
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)c->sec_names, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(char *) /*8ul*/ );
-    c->sec_names = (char **)return_value_realloc$2;
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)c->sec_entries, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
-    c->sec_entries = (struct CFG_ENTRIES **)return_value_realloc$3;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)c->sec_names, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(char *) /*8ul*/ );
+    c->sec_names = (char **)return_value_realloc_2;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)c->sec_entries, (unsigned long int)(c->sec_count + 2 + 16) * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
+    c->sec_entries = (struct CFG_ENTRIES **)return_value_realloc_3;
   }
 
   e=cfg_init_entries();
@@ -4502,9 +4502,9 @@ float cfg_get_float(char *sec, char *ent)
 
   else
   {
-    double return_value_atof$1;
-    return_value_atof$1=atof(val);
-    return (float)return_value_atof$1;
+    double return_value_atof_1;
+    return_value_atof_1=atof(val);
+    return (float)return_value_atof_1;
   }
 }
 
@@ -4519,9 +4519,9 @@ signed int cfg_get_int(char *sec, char *ent)
 
   else
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(val);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(val);
+    return return_value_atoi_1;
   }
 }
 
@@ -4536,9 +4536,9 @@ signed int cfg_get_signed_int(char *sec, char *ent)
 
   else
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(val);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(val);
+    return return_value_atoi_1;
   }
 }
 
@@ -4549,15 +4549,15 @@ char * cfg_get_str(char *sec, char *ent)
   struct CFG_ENTRIES *e = (struct CFG_ENTRIES *)(void *)0;
   char *v = (char *)(void *)0;
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   for( ; !(i >= c->sec_count); i = i + 1)
   {
-    return_value_strcasecmp$1=strcasecmp(c->sec_names[(signed long int)i], sec);
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(c->sec_names[(signed long int)i], sec);
+    if(return_value_strcasecmp_1 == 0)
       e = c->sec_entries[(signed long int)i];
 
   }
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(e == ((struct CFG_ENTRIES *)NULL))
     return (char *)(void *)0;
 
@@ -4566,8 +4566,8 @@ char * cfg_get_str(char *sec, char *ent)
     i = 0;
     for( ; !(i >= e->ent_count); i = i + 1)
     {
-      return_value_strcasecmp$2=strcasecmp(e->ent_names[(signed long int)i], ent);
-      if(return_value_strcasecmp$2 == 0)
+      return_value_strcasecmp_2=strcasecmp(e->ent_names[(signed long int)i], ent);
+      if(return_value_strcasecmp_2 == 0)
       {
         v = e->ent_values[(signed long int)i];
         e->ent_seen[(signed long int)i] = e->ent_seen[(signed long int)i] + 1l;
@@ -4583,21 +4583,21 @@ char * cfg_get_str(char *sec, char *ent)
 static struct CFG_ENTRIES * cfg_init_entries(void)
 {
   struct CFG_ENTRIES *e;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CFG_ENTRIES) /*32ul*/ );
-  e = (struct CFG_ENTRIES *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CFG_ENTRIES) /*32ul*/ );
+  e = (struct CFG_ENTRIES *)return_value_malloc_1;
   memset((void *)e, 0, sizeof(struct CFG_ENTRIES) /*32ul*/ );
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-  e->ent_names = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+  e->ent_names = (char **)return_value_malloc_2;
   e->ent_names[(signed long int)0] = (char *)(void *)0;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-  e->ent_values = (char **)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+  e->ent_values = (char **)return_value_malloc_3;
   e->ent_values[(signed long int)0] = (char *)(void *)0;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)16 * sizeof(signed int *) /*8ul*/ );
-  e->ent_seen = (signed int **)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)16 * sizeof(signed int *) /*8ul*/ );
+  e->ent_seen = (signed int **)return_value_malloc_4;
   e->ent_seen[(signed long int)0] = ((signed int *)NULL);
   return e;
 }
@@ -4606,20 +4606,20 @@ static struct CFG_ENTRIES * cfg_init_entries(void)
 // file common/parseconfig.c line 33
 static struct CFG_SECTIONS * cfg_init_sections(void)
 {
-  struct CFG_SECTIONS *cfg_init_sections$$1$$c;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct CFG_SECTIONS) /*24ul*/ );
-  cfg_init_sections$$1$$c = (struct CFG_SECTIONS *)return_value_malloc$1;
-  memset((void *)cfg_init_sections$$1$$c, 0, sizeof(struct CFG_SECTIONS) /*24ul*/ );
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-  cfg_init_sections$$1$$c->sec_names = (char **)return_value_malloc$2;
-  cfg_init_sections$$1$$c->sec_names[(signed long int)0] = (char *)(void *)0;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)16 * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
-  cfg_init_sections$$1$$c->sec_entries = (struct CFG_ENTRIES **)return_value_malloc$3;
-  cfg_init_sections$$1$$c->sec_entries[(signed long int)0] = (struct CFG_ENTRIES *)(void *)0;
-  return cfg_init_sections$$1$$c;
+  struct CFG_SECTIONS *cfg_init_sections__1__c;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct CFG_SECTIONS) /*24ul*/ );
+  cfg_init_sections__1__c = (struct CFG_SECTIONS *)return_value_malloc_1;
+  memset((void *)cfg_init_sections__1__c, 0, sizeof(struct CFG_SECTIONS) /*24ul*/ );
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+  cfg_init_sections__1__c->sec_names = (char **)return_value_malloc_2;
+  cfg_init_sections__1__c->sec_names[(signed long int)0] = (char *)(void *)0;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)16 * sizeof(struct CFG_ENTRIES *) /*8ul*/ );
+  cfg_init_sections__1__c->sec_entries = (struct CFG_ENTRIES **)return_value_malloc_3;
+  cfg_init_sections__1__c->sec_entries[(signed long int)0] = (struct CFG_ENTRIES *)(void *)0;
+  return cfg_init_sections__1__c;
 }
 
 // cfg_list_entries
@@ -4627,7 +4627,7 @@ static struct CFG_SECTIONS * cfg_init_sections(void)
 char ** cfg_list_entries(char *name)
 {
   signed int i;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(c == ((struct CFG_SECTIONS *)NULL))
     return (char **)(void *)0;
 
@@ -4636,8 +4636,8 @@ char ** cfg_list_entries(char *name)
     i = 0;
     for( ; !(i >= c->sec_count); i = i + 1)
     {
-      return_value_strcasecmp$1=strcasecmp(c->sec_names[(signed long int)i], name);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(c->sec_names[(signed long int)i], name);
+      if(return_value_strcasecmp_1 == 0)
         return c->sec_entries[(signed long int)i]->ent_names;
 
     }
@@ -4666,8 +4666,8 @@ signed int cfg_parse_file(char *filename)
     c=cfg_init_sections();
 
   fp=fopen(filename, "r");
-  char *return_value_fgets$1;
-  signed int return_value_sscanf$6;
+  char *return_value_fgets_1;
+  signed int return_value_sscanf_6;
   if(fp == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -4676,56 +4676,56 @@ signed int cfg_parse_file(char *filename)
     nr = 0;
     do
     {
-      return_value_fgets$1=fgets(line, 255, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, 255, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       nr = nr + 1;
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)line[0l] == 10)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
       {
-        signed int return_value_sscanf$7;
-        return_value_sscanf$7=sscanf(line, "[%99[^]]]", (const void *)value);
-        if(return_value_sscanf$7 == 1)
+        signed int return_value_sscanf_7;
+        return_value_sscanf_7=sscanf(line, "[%99[^]]]", (const void *)value);
+        if(return_value_sscanf_7 == 1)
           e=cfg_find_section(c, value);
 
         else
         {
-          return_value_sscanf$6=sscanf(line, " %63[^= ] = %191[^\n]", (const void *)tag, (const void *)value);
-          if(return_value_sscanf$6 == 2)
+          return_value_sscanf_6=sscanf(line, " %63[^= ] = %191[^\n]", (const void *)tag, (const void *)value);
+          if(return_value_sscanf_6 == 2)
           {
             if(e == ((struct CFG_ENTRIES *)NULL))
               fprintf(stderr, "%s:%d: error: no section\n", filename, nr);
 
             else
             {
-              char *cfg_parse_file$$1$$1$$2$$2$$c;
-              unsigned long int return_value_strlen$4;
-              return_value_strlen$4=strlen(value);
-              cfg_parse_file$$1$$1$$2$$2$$c = (value + (signed long int)return_value_strlen$4) - (signed long int)1;
-              while(!(value >= cfg_parse_file$$1$$1$$2$$2$$c))
+              char *cfg_parse_file__1__1__2__2__c;
+              unsigned long int return_value_strlen_4;
+              return_value_strlen_4=strlen(value);
+              cfg_parse_file__1__1__2__2__c = (value + (signed long int)return_value_strlen_4) - (signed long int)1;
+              while(!(value >= cfg_parse_file__1__1__2__2__c))
               {
-                if(!((signed int)*cfg_parse_file$$1$$1$$2$$2$$c == 32))
+                if(!((signed int)*cfg_parse_file__1__1__2__2__c == 32))
                 {
-                  if(!((signed int)*cfg_parse_file$$1$$1$$2$$2$$c == 9))
+                  if(!((signed int)*cfg_parse_file__1__1__2__2__c == 9))
                     break;
 
                 }
 
-                char *tmp_post$5 = cfg_parse_file$$1$$1$$2$$2$$c;
-                cfg_parse_file$$1$$1$$2$$2$$c = cfg_parse_file$$1$$1$$2$$2$$c - 1l;
-                *tmp_post$5 = (char)0;
+                char *tmp_post_5 = cfg_parse_file__1__1__2__2__c;
+                cfg_parse_file__1__1__2__2__c = cfg_parse_file__1__1__2__2__c - 1l;
+                *tmp_post_5 = (char)0;
               }
               cfg_set_entry(e, tag, value);
             }
@@ -4766,9 +4766,9 @@ void cfg_parse_options(signed int *argc, char **argv)
   i = 1;
   while(!(1 + i >= *argc))
   {
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(argv[(signed long int)i], "-%63[^:]:%63s", (const void *)section, (const void *)tag);
-    if(return_value_sscanf$1 == 2)
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(argv[(signed long int)i], "-%63[^:]:%63s", (const void *)section, (const void *)tag);
+    if(return_value_sscanf_1 == 2)
     {
       cfg_parse_option(section, tag, argv[(signed long int)(i + 1)]);
       j = i;
@@ -4787,11 +4787,11 @@ void cfg_parse_options(signed int *argc, char **argv)
 static void cfg_set_entry(struct CFG_ENTRIES *e, char *name, char *value)
 {
   signed int i = 0;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   for( ; !(i >= e->ent_count); i = i + 1)
   {
-    return_value_strcasecmp$1=strcasecmp(e->ent_names[(signed long int)i], name);
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(e->ent_names[(signed long int)i], name);
+    if(return_value_strcasecmp_1 == 0)
       break;
 
   }
@@ -4799,15 +4799,15 @@ static void cfg_set_entry(struct CFG_ENTRIES *e, char *name, char *value)
   {
     if(e->ent_count % 16 == 16)
     {
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)e->ent_names, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
-      e->ent_names = (char **)return_value_realloc$2;
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)e->ent_values, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
-      e->ent_values = (char **)return_value_realloc$3;
-      void *return_value_realloc$4;
-      return_value_realloc$4=realloc((void *)e->ent_seen, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(signed int *) /*8ul*/ );
-      e->ent_seen = (signed int **)return_value_realloc$4;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)e->ent_names, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
+      e->ent_names = (char **)return_value_realloc_2;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)e->ent_values, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(char *) /*8ul*/ );
+      e->ent_values = (char **)return_value_realloc_3;
+      void *return_value_realloc_4;
+      return_value_realloc_4=realloc((void *)e->ent_seen, (unsigned long int)(e->ent_count + 2 + 16) * sizeof(signed int *) /*8ul*/ );
+      e->ent_seen = (signed int **)return_value_realloc_4;
     }
 
     e->ent_count = e->ent_count + 1;
@@ -4843,12 +4843,12 @@ static void clip_dump(char *state, struct OVERLAY_CLIP *oc, signed int count)
 // file console/streamer.c line 319
 static void ctrlc(signed int signal)
 {
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(quiet == 0)
   {
     static char text[24l] = { '^', 'C', ' ', '-', ' ', 'o', 'n', 'e', ' ', 'm', 'o', 'm', 'e', 'n', 't', ' ', 'p', 'l', 'e', 'a', 's', 'e', '\n', 0 };
-    return_value_strlen$1=strlen(text);
-    write(2, (const void *)text, return_value_strlen$1);
+    return_value_strlen_1=strlen(text);
+    write(2, (const void *)text, return_value_strlen_1);
   }
 
   signaled = 1;
@@ -4860,11 +4860,11 @@ static signed int dattr_handler(char *name, signed int argc, char **argv)
 {
   struct ng_attribute *attr = (struct ng_attribute *)(void *)0;
   unsigned int i;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(argc >= 1)
   {
-    return_value_strcasecmp$1=strcasecmp(argv[(signed long int)0], "next");
-    if(return_value_strcasecmp$1 == 0)
+    return_value_strcasecmp_1=strcasecmp(argv[(signed long int)0], "next");
+    if(return_value_strcasecmp_1 == 0)
     {
       i = (unsigned int)0;
       for( ; !((unsigned long int)i >= 2ul); i = i + 1u)
@@ -4892,9 +4892,9 @@ static signed int dattr_handler(char *name, signed int argc, char **argv)
 
   else
   {
-    signed int return_value_attr_handler$2;
-    return_value_attr_handler$2=attr_handler((char *)attr->name, argc, argv);
-    return return_value_attr_handler$2;
+    signed int return_value_attr_handler_2;
+    return_value_attr_handler_2=attr_handler((char *)attr->name, argc, argv);
+    return return_value_attr_handler_2;
   }
 }
 
@@ -4919,27 +4919,27 @@ void * discover_media_devices(void)
 {
   struct media_devices *md = (struct media_devices *)(void *)0;
   struct media_device_entry *md_entry = (struct media_device_entry *)(void *)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct media_devices) /*16ul*/ );
-  md = (struct media_devices *)return_value_calloc$1;
-  signed int return_value_get_class$3;
-  signed int return_value_get_class$4;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct media_devices) /*16ul*/ );
+  md = (struct media_devices *)return_value_calloc_1;
+  signed int return_value_get_class_3;
+  signed int return_value_get_class_4;
   if(md == ((struct media_devices *)NULL))
     return (void *)0;
 
   else
   {
     md->md_size = (unsigned int)0;
-    signed int return_value_get_class$2;
-    return_value_get_class$2=get_class("video4linux", &md_entry, &md->md_size, add_v4l_class);
-    if(return_value_get_class$2 == 0)
+    signed int return_value_get_class_2;
+    return_value_get_class_2=get_class("video4linux", &md_entry, &md->md_size, add_v4l_class);
+    if(return_value_get_class_2 == 0)
     {
-      return_value_get_class$3=get_class("sound", &md_entry, &md->md_size, add_snd_class);
-      if(!(return_value_get_class$3 == 0))
+      return_value_get_class_3=get_class("sound", &md_entry, &md->md_size, add_snd_class);
+      if(!(return_value_get_class_3 == 0))
         goto error;
 
-      return_value_get_class$4=get_class("dvb", &md_entry, &md->md_size, add_dvb_class);
-      if(!(return_value_get_class$4 == 0))
+      return_value_get_class_4=get_class("dvb", &md_entry, &md->md_size, add_dvb_class);
+      if(!(return_value_get_class_4 == 0))
         goto error;
 
       if(md_entry == ((struct media_device_entry *)NULL))
@@ -4972,17 +4972,17 @@ void display_media_devices(void *opaque)
   i = 0;
   for( ; !((unsigned int)i >= md->md_size); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(prev, md_ptr->device);
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(prev, md_ptr->device);
+    if(!(return_value_strcmp_1 == 0))
     {
       printf("\nDevice %s:\n\t", md_ptr->device);
       prev = md_ptr->device;
     }
 
-    const char *return_value_media_device_type$2;
-    return_value_media_device_type$2=media_device_type(md_ptr->type);
-    printf("%s(%s, dev %i:%i) ", md_ptr->node, return_value_media_device_type$2, md_ptr->major, md_ptr->minor);
+    const char *return_value_media_device_type_2;
+    return_value_media_device_type_2=media_device_type(md_ptr->type);
+    printf("%s(%s, dev %i:%i) ", md_ptr->node, return_value_media_device_type_2, md_ptr->major, md_ptr->minor);
     md_ptr = md_ptr + 1l;
   }
   printf("\n");
@@ -4993,7 +4993,7 @@ void display_media_devices(void *opaque)
 signed int do_command(signed int argc, char **argv)
 {
   signed int i;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(argc == 0)
   {
     fprintf(stderr, "do_command: no argument\n");
@@ -5014,8 +5014,8 @@ signed int do_command(signed int argc, char **argv)
     i = 0;
     for( ; !(commands[(signed long int)i].name == ((char *)NULL)); i = i + 1)
     {
-      return_value_strcasecmp$1=strcasecmp(commands[(signed long int)i].name, argv[(signed long int)0]);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(commands[(signed long int)i].name, argv[(signed long int)0]);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
@@ -5063,9 +5063,9 @@ signed int do_va_cmd(signed int argc, ...)
     argv[(signed long int)i]=va_arg(ap, __typeof__(argv[(signed long int)i]));
   argv[(signed long int)i] = (char *)(void *)0;
   va_end(ap);
-  signed int return_value_do_command$1;
-  return_value_do_command$1=do_command(argc, argv);
-  return return_value_do_command$1;
+  signed int return_value_do_command_1;
+  return_value_do_command_1=do_command(argc, argv);
+  return return_value_do_command_1;
 }
 
 // do_write_jpeg
@@ -5083,17 +5083,17 @@ static signed int do_write_jpeg(struct _IO_FILE *fp, struct ng_video_buf *buf, s
   cinfo.image_width = buf->fmt.width;
   cinfo.image_height = buf->fmt.height;
   cinfo.input_components = gray != 0 ? 1 : 3;
-  cinfo.in_color_space = (enum anonymous$13)(gray != 0 ? JCS_GRAYSCALE : JCS_RGB);
+  cinfo.in_color_space = (enum anonymous_13)(gray != 0 ? JCS_GRAYSCALE : JCS_RGB);
   jpeg_set_defaults(&cinfo);
   jpeg_set_quality(&cinfo, quality, 1);
   jpeg_start_compress(&cinfo, 1);
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(gray == 0))
-    tmp_if_expr$1 = buf->fmt.width;
+    tmp_if_expr_1 = buf->fmt.width;
 
   else
-    tmp_if_expr$1 = buf->fmt.width * (unsigned int)3;
-  line_length = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = buf->fmt.width * (unsigned int)3;
+  line_length = (signed int)tmp_if_expr_1;
   i = (unsigned int)0;
   line = buf->data;
   for( ; !(i >= buf->fmt.height); line = line + (signed long int)line_length)
@@ -5140,27 +5140,27 @@ signed int event_dispatch(char *event)
       fprintf(stderr, "ev: dispatch name=%s\n", name);
 
   }
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(entry == ((struct event_entry *)NULL))
   {
     entry = event_conf_list;
     for( ; !(entry == ((struct event_entry *)NULL)); entry = entry->next)
     {
-      return_value_strcasecmp$1=strcasecmp(name, entry->event);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(name, entry->event);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
   }
 
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   if(entry == ((struct event_entry *)NULL))
   {
     entry = event_builtin_list;
     for( ; !(entry == ((struct event_entry *)NULL)); entry = entry->next)
     {
-      return_value_strcasecmp$2=strcasecmp(name, entry->event);
-      if(return_value_strcasecmp$2 == 0)
+      return_value_strcasecmp_2=strcasecmp(name, entry->event);
+      if(return_value_strcasecmp_2 == 0)
         break;
 
     }
@@ -5180,9 +5180,9 @@ signed int event_dispatch(char *event)
     argc = entry->argc;
     if(!(arg == ((char *)NULL)))
     {
-      signed int tmp_post$3 = argc;
+      signed int tmp_post_3 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$3] = arg;
+      argv[(signed long int)tmp_post_3] = arg;
     }
 
     do_command(argc, argv);
@@ -5213,9 +5213,9 @@ void event_readconfig(void)
 signed int event_register(char *event, char *action)
 {
   struct event_entry *entry;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct event_entry) /*528ul*/ );
-  entry = (struct event_entry *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct event_entry) /*528ul*/ );
+  entry = (struct event_entry *)return_value_malloc_1;
   memset((void *)entry, 0, sizeof(struct event_entry) /*528ul*/ );
   strncpy(entry->event, event, (unsigned long int)127);
   strncpy(entry->action, action, (unsigned long int)127);
@@ -5232,15 +5232,15 @@ signed int event_register(char *event, char *action)
 // file common/event.c line 71
 signed int event_register_list(struct event_entry *entry)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(entry == ((struct event_entry *)NULL)))
-      tmp_if_expr$1 = 0 != (signed int)entry->event[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 0 != (signed int)entry->event[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     entry->next = event_builtin_list;
@@ -5293,11 +5293,11 @@ const char * fget_associated_device(void *opaque, const char *last_seek, const e
   signed int i;
   signed int found = 0;
   char *prev;
-  signed int return_value_fstat$1;
-  return_value_fstat$1=fstat(fd_seek_device, &f_status);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  if(!(return_value_fstat$1 == 0))
+  signed int return_value_fstat_1;
+  return_value_fstat_1=fstat(fd_seek_device, &f_status);
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  if(!(return_value_fstat_1 == 0))
   {
     perror("Can't get file status");
     return (const char *)(void *)0;
@@ -5366,13 +5366,13 @@ const char * fget_associated_device(void *opaque, const char *last_seek, const e
         {
           if(!((unsigned int)i >= md->md_size))
           {
-            return_value_strcmp$2=strcmp(prev, md_ptr->device);
-            tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_2=strcmp(prev, md_ptr->device);
+            tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           if(!(last_seek == ((const char *)NULL)))
@@ -5424,7 +5424,7 @@ void * fifo_get(struct FIFO *fifo)
 
     pthread_cond_wait(&fifo->hasdata, &fifo->lock);
   }
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(fifo->write == fifo->read)
   {
     pthread_cond_signal(&fifo->hasdata);
@@ -5436,8 +5436,8 @@ void * fifo_get(struct FIFO *fifo)
   {
     if(debug >= 2)
     {
-      return_value_getpid$1=getpid();
-      fprintf(stderr, "get %s %d=%p [pid=%d]\n", fifo->name, fifo->read, fifo->data[(signed long int)fifo->read], return_value_getpid$1);
+      return_value_getpid_1=getpid();
+      fprintf(stderr, "get %s %d=%p [pid=%d]\n", fifo->name, fifo->read, fifo->data[(signed long int)fifo->read], return_value_getpid_1);
     }
 
     data = (void *)fifo->data[(signed long int)fifo->read];
@@ -5454,8 +5454,8 @@ void * fifo_get(struct FIFO *fifo)
 // file common/capture.c line 31
 void fifo_init(struct FIFO *fifo, char *name, signed int slots, signed int writers)
 {
-  pthread_mutex_init(&fifo->lock, (const union anonymous$8 *)(void *)0);
-  pthread_cond_init(&fifo->hasdata, (const union anonymous$8 *)(void *)0);
+  pthread_mutex_init(&fifo->lock, (const union anonymous_8 *)(void *)0);
+  pthread_cond_init(&fifo->hasdata, (const union anonymous_8 *)(void *)0);
   fifo->name = name;
   fifo->slots = slots;
   fifo->writers = writers;
@@ -5471,7 +5471,7 @@ signed int fifo_put(struct FIFO *fifo, void *data)
 {
   signed int full;
   pthread_mutex_lock(&fifo->lock);
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(data == NULL)
   {
     fifo->eof = fifo->eof + 1;
@@ -5497,8 +5497,8 @@ signed int fifo_put(struct FIFO *fifo, void *data)
     {
       if(debug >= 2)
       {
-        return_value_getpid$1=getpid();
-        fprintf(stderr, "put %s %d=%p [pid=%d]\n", fifo->name, fifo->write, data, return_value_getpid$1);
+        return_value_getpid_1=getpid();
+        fprintf(stderr, "put %s %d=%p [pid=%d]\n", fifo->name, fifo->write, data, return_value_getpid_1);
       }
 
       fifo->data[(signed long int)fifo->write] = (unsigned char *)data;
@@ -5521,9 +5521,9 @@ signed int fifo_put(struct FIFO *fifo, void *data)
 static signed int files_audio(void *handle, struct ng_audio_buf *buf)
 {
   struct files_handle *h = (struct files_handle *)handle;
-  signed long int return_value_write$1;
-  return_value_write$1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
-  if(!((signed long int)buf->size == return_value_write$1))
+  signed long int return_value_write_1;
+  return_value_write_1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
+  if(!((signed long int)buf->size == return_value_write_1))
     return -1;
 
   else
@@ -5566,9 +5566,9 @@ static void * files_open(char *filesname, char *audioname, struct ng_video_fmt *
 
   __CPROVER_DUMP_L1:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct files_handle) /*4176ul*/ );
-    h = (struct files_handle *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct files_handle) /*4176ul*/ );
+    h = (struct files_handle *)return_value_malloc_1;
     if(h == ((struct files_handle *)NULL))
       return (void *)0;
 
@@ -5585,11 +5585,11 @@ static void * files_open(char *filesname, char *audioname, struct ng_video_fmt *
         h->wav_fd=open(audioname, 0100 | 02 | 01000, 0666);
         if(h->wav_fd == -1)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror_3);
           free((void *)h);
           return (void *)0;
         }
@@ -5634,11 +5634,11 @@ static signed int files_video(void *handle, struct ng_video_buf *buf)
         fp=fopen(h->file, "w");
         if(fp == ((struct _IO_FILE *)NULL))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(stderr, "grab: can't open %s: %s\n", (const void *)h->file, return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(stderr, "grab: can't open %s: %s\n", (const void *)h->file, return_value_strerror_2);
           rc = -1;
         }
 
@@ -5650,9 +5650,9 @@ static signed int files_video(void *handle, struct ng_video_buf *buf)
         }
       }
     }
-    signed int return_value_patch_up$3;
-    return_value_patch_up$3=patch_up(h->file);
-    if(!(return_value_patch_up$3 == 1))
+    signed int return_value_patch_up_3;
+    return_value_patch_up_3=patch_up(h->file);
+    if(!(return_value_patch_up_3 == 1))
       h->gotcha = 1;
 
     return rc;
@@ -5686,11 +5686,11 @@ static void find_formats(void)
   }
 
   item = (&ng_writers)->next;
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$5;
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_5;
   for( ; !(item == &ng_writers); item = item->next)
   {
     wr = (struct ng_writer *)((char *)item - (signed long int)(unsigned long int)&((struct ng_writer *)0)->list);
@@ -5715,8 +5715,8 @@ static void find_formats(void)
 
         if(!(mext == ((char *)NULL)))
         {
-          return_value_strcasecmp$1=strcasecmp((wr->video + (signed long int)v)->ext, mext);
-          if(!(return_value_strcasecmp$1 == 0))
+          return_value_strcasecmp_1=strcasecmp((wr->video + (signed long int)v)->ext, mext);
+          if(!(return_value_strcasecmp_1 == 0))
           {
             if(!(debug == 0))
               fprintf(stderr, "ext mismatch [need %s]\n", mext);
@@ -5728,8 +5728,8 @@ static void find_formats(void)
 
         if(!(vfmt_name == ((char *)NULL)))
         {
-          return_value_strcasecmp$2=strcasecmp((wr->video + (signed long int)v)->name, vfmt_name);
-          if(!(return_value_strcasecmp$2 == 0))
+          return_value_strcasecmp_2=strcasecmp((wr->video + (signed long int)v)->name, vfmt_name);
+          if(!(return_value_strcasecmp_2 == 0))
           {
             if(!(debug == 0))
               fprintf(stderr, "name mismatch [need %s]\n", vfmt_name);
@@ -5772,8 +5772,8 @@ static void find_formats(void)
         {
           if(!(aext == ((char *)NULL)))
           {
-            return_value_strcasecmp$3=strcasecmp((wr->audio + (signed long int)a)->ext, aext);
-            if(!(return_value_strcasecmp$3 == 0))
+            return_value_strcasecmp_3=strcasecmp((wr->audio + (signed long int)a)->ext, aext);
+            if(!(return_value_strcasecmp_3 == 0))
             {
               if(!(debug == 0))
                 fprintf(stderr, "ext mismatch [need %s]\n", aext);
@@ -5789,8 +5789,8 @@ static void find_formats(void)
         {
           if(!(mext == ((char *)NULL)))
           {
-            return_value_strcasecmp$4=strcasecmp((wr->audio + (signed long int)a)->ext, mext);
-            if(!(return_value_strcasecmp$4 == 0))
+            return_value_strcasecmp_4=strcasecmp((wr->audio + (signed long int)a)->ext, mext);
+            if(!(return_value_strcasecmp_4 == 0))
             {
               if(!(debug == 0))
                 fprintf(stderr, "ext mismatch [need %s]\n", mext);
@@ -5804,8 +5804,8 @@ static void find_formats(void)
 
         if(!(afmt_name == ((char *)NULL)))
         {
-          return_value_strcasecmp$5=strcasecmp((wr->audio + (signed long int)a)->name, afmt_name);
-          if(!(return_value_strcasecmp$5 == 0))
+          return_value_strcasecmp_5=strcasecmp((wr->audio + (signed long int)a)->name, afmt_name);
+          if(!(return_value_strcasecmp_5 == 0))
           {
             if(!(debug == 0))
               fprintf(stderr, "name mismatch [need %s]\n", afmt_name);
@@ -5911,35 +5911,35 @@ void freq_init(void)
 
   nr = 0;
   i = 0;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, 255, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 255, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     nr = nr + 1;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((signed int)line[0l] == 10)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
-      signed int return_value_sscanf$5;
-      return_value_sscanf$5=sscanf(line, "[%255[^]]]", (const void *)value);
-      if(return_value_sscanf$5 == 1)
+      signed int return_value_sscanf_5;
+      return_value_sscanf_5=sscanf(line, "[%255[^]]]", (const void *)value);
+      if(return_value_sscanf_5 == 1)
       {
-        void *return_value_realloc$4;
-        return_value_realloc$4=realloc((void *)chanlists, (unsigned long int)(i + 2) * sizeof(struct CHANLISTS) /*32ul*/ );
-        chanlists = (struct CHANLISTS *)return_value_realloc$4;
+        void *return_value_realloc_4;
+        return_value_realloc_4=realloc((void *)chanlists, (unsigned long int)(i + 2) * sizeof(struct CHANLISTS) /*32ul*/ );
+        chanlists = (struct CHANLISTS *)return_value_realloc_4;
         memset((void *)(chanlists + (signed long int)i), 0, (unsigned long int)2 * sizeof(struct CHANLISTS) /*32ul*/ );
         (chanlists + (signed long int)i)->name=strdup(value);
         i = i + 1;
@@ -5951,9 +5951,9 @@ void freq_init(void)
 
       else
       {
-        signed int return_value_sscanf$6;
-        return_value_sscanf$6=sscanf(line, " file = %255[^\n]", (const void *)value);
-        if(return_value_sscanf$6 == 1)
+        signed int return_value_sscanf_6;
+        return_value_sscanf_6=sscanf(line, " file = %255[^\n]", (const void *)value);
+        if(return_value_sscanf_6 == 1)
           (chanlists + (signed long int)(i - 1))->filename=strdup(value);
 
         else
@@ -5964,9 +5964,9 @@ void freq_init(void)
   }
   while((_Bool)1);
   fclose(fp);
-  void *return_value_malloc$7;
-  return_value_malloc$7=malloc((unsigned long int)(i + 1) * sizeof(struct STRTAB) /*16ul*/ );
-  chanlist_names = (struct STRTAB *)return_value_malloc$7;
+  void *return_value_malloc_7;
+  return_value_malloc_7=malloc((unsigned long int)(i + 1) * sizeof(struct STRTAB) /*16ul*/ );
+  chanlist_names = (struct STRTAB *)return_value_malloc_7;
   j = 0;
   for( ; !(j >= i); j = j + 1)
   {
@@ -6003,11 +6003,11 @@ static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name
   fp=fopen(filename, "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "open %s: %s\n", (const void *)filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "open %s: %s\n", (const void *)filename, return_value_strerror_2);
     exit(1);
   }
 
@@ -6015,44 +6015,44 @@ static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name
     fprintf(stderr, "freq: reading %s\n", (const void *)filename);
 
   nr = 0;
-  char *return_value_fgets$3;
+  char *return_value_fgets_3;
   do
   {
-    return_value_fgets$3=fgets(line, 255, fp);
-    if(return_value_fgets$3 == ((char *)NULL))
+    return_value_fgets_3=fgets(line, 255, fp);
+    if(return_value_fgets_3 == ((char *)NULL))
       break;
 
     nr = nr + 1;
-    signed int return_value_sscanf$4;
-    return_value_sscanf$4=sscanf(line, "# include \"%[^\"]\"", (const void *)value);
-    if(return_value_sscanf$4 == 1)
+    signed int return_value_sscanf_4;
+    return_value_sscanf_4=sscanf(line, "# include \"%[^\"]\"", (const void *)value);
+    if(return_value_sscanf_4 == 1)
       n=freq_readlist(list, n, value);
 
     else
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if((signed int)line[0l] == 10)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$6;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (signed int)line[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_6;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)line[(signed long int)0] == 37 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_6)
       {
-        signed int return_value_sscanf$8;
-        return_value_sscanf$8=sscanf(line, "[%255[^]]]", (const void *)value);
-        if(return_value_sscanf$8 == 1)
+        signed int return_value_sscanf_8;
+        return_value_sscanf_8=sscanf(line, "[%255[^]]]", (const void *)value);
+        if(return_value_sscanf_8 == 1)
         {
           if(n % 16 == 0)
           {
-            void *return_value_realloc$7;
-            return_value_realloc$7=realloc((void *)*list, (unsigned long int)(n + 16) * sizeof(struct CHANLIST) /*16ul*/ );
-            *list = (struct CHANLIST *)return_value_realloc$7;
+            void *return_value_realloc_7;
+            return_value_realloc_7=realloc((void *)*list, (unsigned long int)(n + 16) * sizeof(struct CHANLIST) /*16ul*/ );
+            *list = (struct CHANLIST *)return_value_realloc_7;
             memset((void *)(*list + (signed long int)n), 0, (unsigned long int)16 * sizeof(struct CHANLIST) /*16ul*/ );
           }
 
@@ -6066,13 +6066,13 @@ static signed int freq_readlist(struct CHANLIST **list, signed int n, char *name
 
           else
           {
-            signed int return_value_sscanf$10;
-            return_value_sscanf$10=sscanf(line, " freq = %255[^\n]", (const void *)value);
-            if(return_value_sscanf$10 == 1)
+            signed int return_value_sscanf_10;
+            return_value_sscanf_10=sscanf(line, " freq = %255[^\n]", (const void *)value);
+            if(return_value_sscanf_10 == 1)
             {
-              signed int return_value_atoi$9;
-              return_value_atoi$9=atoi(value);
-              (*list + (signed long int)(n - 1))->freq = (unsigned int)return_value_atoi$9;
+              signed int return_value_atoi_9;
+              return_value_atoi_9=atoi(value);
+              (*list + (signed long int)(n - 1))->freq = (unsigned int)return_value_atoi_9;
               continue;
             }
 
@@ -6107,19 +6107,19 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
   signed int found = 0;
   char *prev;
   char *p;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(!((signed int)seek_type == NONE))
-    tmp_if_expr$7 = seek_device[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = seek_device[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  signed int return_value_strcmp$1;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$6;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (_Bool)0;
+  signed int return_value_strcmp_1;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_6;
+  if(tmp_if_expr_7)
   {
     p=strrchr(seek_device, 47);
     if(!(p == ((char *)NULL)))
@@ -6132,8 +6132,8 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
       {
         if(md_ptr->type == seek_type)
         {
-          return_value_strcmp$1=strcmp(md_ptr->node, last_seek);
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(md_ptr->node, last_seek);
+          if(return_value_strcmp_1 == 0)
           {
             found = 1;
             goto __CPROVER_DUMP_L10;
@@ -6147,8 +6147,8 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
       {
         if(md_ptr->type == seek_type)
         {
-          return_value_strcmp$2=strcmp(seek_device, md_ptr->node);
-          if(return_value_strcmp$2 == 0)
+          return_value_strcmp_2=strcmp(seek_device, md_ptr->node);
+          if(return_value_strcmp_2 == 0)
             break;
 
         }
@@ -6170,21 +6170,21 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
     {
       if(!((unsigned int)i >= md->md_size))
       {
-        return_value_strcmp$3=strcmp(prev, md_ptr->device);
-        tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_3=strcmp(prev, md_ptr->device);
+        tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
       if(!(last_seek == ((const char *)NULL)))
       {
         if(md_ptr->type == seek_type)
         {
-          return_value_strcmp$5=strcmp(md_ptr->node, last_seek);
-          if(return_value_strcmp$5 == 0)
+          return_value_strcmp_5=strcmp(md_ptr->node, last_seek);
+          if(return_value_strcmp_5 == 0)
           {
             found = 1;
             goto __CPROVER_DUMP_L20;
@@ -6217,8 +6217,8 @@ const char * get_associated_device(void *opaque, const char *last_seek, const en
     {
       if(!(last_seek == ((const char *)NULL)))
       {
-        return_value_strcmp$6=strcmp(md_ptr->node, last_seek);
-        if(return_value_strcmp$6 == 0)
+        return_value_strcmp_6=strcmp(md_ptr->node, last_seek);
+        if(return_value_strcmp_6 == 0)
         {
           found = 1;
           goto __CPROVER_DUMP_L28;
@@ -6249,9 +6249,9 @@ static enum bus_type get_bus(char *device)
   char file[4096l];
   char s[1024l];
   struct _IO_FILE *f;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(device, "/sys/devices/virtual");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(device, "/sys/devices/virtual");
+  if(return_value_strcmp_1 == 0)
     return (enum bus_type)MEDIA_BUS_VIRTUAL;
 
   else
@@ -6263,24 +6263,24 @@ static enum bus_type get_bus(char *device)
 
     else
     {
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , f);
-      if(return_value_fgets$2 == ((char *)NULL))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , f);
+      if(return_value_fgets_2 == ((char *)NULL))
         return (enum bus_type)MEDIA_BUS_UNKNOWN;
 
       else
       {
         fclose(f);
-        signed int return_value_strncmp$3;
-        return_value_strncmp$3=strncmp(s, "pci", (unsigned long int)3);
-        if(return_value_strncmp$3 == 0)
+        signed int return_value_strncmp_3;
+        return_value_strncmp_3=strncmp(s, "pci", (unsigned long int)3);
+        if(return_value_strncmp_3 == 0)
           return (enum bus_type)MEDIA_BUS_PCI;
 
         else
         {
-          signed int return_value_strncmp$4;
-          return_value_strncmp$4=strncmp(s, "usb", (unsigned long int)3);
-          if(return_value_strncmp$4 == 0)
+          signed int return_value_strncmp_4;
+          return_value_strncmp_4=strncmp(s, "usb", (unsigned long int)3);
+          if(return_value_strncmp_4 == 0)
             return (enum bus_type)MEDIA_BUS_USB;
 
           else
@@ -6299,7 +6299,7 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
   struct dirent *entry;
   char dname[4096l];
   char fname[4096l];
-  char get_class$$1$$link[4096l];
+  char get_class__1__link[4096l];
   char virt_dev[60l];
   signed int err = -2;
   struct media_device_entry *md_ptr = (struct media_device_entry *)(void *)0;
@@ -6308,7 +6308,7 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
   enum bus_type bus;
   snprintf(dname, (unsigned long int)4096, "/sys/class/%s", class);
   dir=opendir(dname);
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   if(dir == ((struct __dirstream *)NULL))
     return 0;
 
@@ -6320,11 +6320,11 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
       if(!((signed int)entry->d_name[0l] == 46))
       {
         snprintf(fname, (unsigned long int)4096, "%s/%s", (const void *)dname, (const void *)entry->d_name);
-        char *return_value_realpath$4;
-        return_value_realpath$4=realpath(fname, get_class$$1$$link);
-        if(!(return_value_realpath$4 == ((char *)NULL)))
+        char *return_value_realpath_4;
+        return_value_realpath_4=realpath(fname, get_class__1__link);
+        if(!(return_value_realpath_4 == ((char *)NULL)))
         {
-          device = get_class$$1$$link;
+          device = get_class__1__link;
           p=strstr(device, class);
           if(p == ((char *)NULL))
             goto __CPROVER_DUMP_L9;
@@ -6349,8 +6349,8 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
               if(p == ((char *)NULL))
                 goto __CPROVER_DUMP_L9;
 
-              return_value_strchr$1=strchr(p, 58);
-              if(return_value_strchr$1 == ((char *)NULL))
+              return_value_strchr_1=strchr(p, 58);
+              if(return_value_strchr_1 == ((char *)NULL))
                 break;
 
               *p = (char)0;
@@ -6359,18 +6359,18 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
             case MEDIA_BUS_VIRTUAL:
             {
               static signed int virtual = 0;
-              signed int tmp_post$2 = virtual;
+              signed int tmp_post_2 = virtual;
               virtual = virtual + 1;
-              sprintf(virt_dev, "virtual%d", tmp_post$2);
+              sprintf(virt_dev, "virtual%d", tmp_post_2);
               device = virt_dev;
               break;
             }
             case MEDIA_BUS_UNKNOWN:
               ;
           }
-          void *return_value_realloc$3;
-          return_value_realloc$3=realloc((void *)*md, (unsigned long int)(*md_size + (unsigned int)1) * sizeof(struct media_device_entry) /*32ul*/ );
-          *md = (struct media_device_entry *)return_value_realloc$3;
+          void *return_value_realloc_3;
+          return_value_realloc_3=realloc((void *)*md, (unsigned long int)(*md_size + (unsigned int)1) * sizeof(struct media_device_entry) /*32ul*/ );
+          *md = (struct media_device_entry *)return_value_realloc_3;
           if(*md == ((struct media_device_entry *)NULL))
             goto error;
 
@@ -6404,32 +6404,32 @@ static signed int get_class(char *class, struct media_device_entry **md, unsigne
 // file common/channel.c line 152
 signed int get_freq(signed int i)
 {
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(!(i >= 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(chantab == -1))
-      tmp_if_expr$1 = (chanlists + (signed long int)chantab)->count;
+      tmp_if_expr_1 = (chanlists + (signed long int)chantab)->count;
 
     else
-      tmp_if_expr$1 = 0;
-    tmp_if_expr$2 = i >= tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 0;
+    tmp_if_expr_2 = i >= tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return -1;
 
   else
   {
-    struct CHANLIST *tmp_if_expr$3;
+    struct CHANLIST *tmp_if_expr_3;
     if(!(chantab == -1))
-      tmp_if_expr$3 = (chanlists + (signed long int)chantab)->list;
+      tmp_if_expr_3 = (chanlists + (signed long int)chantab)->list;
 
     else
-      tmp_if_expr$3 = (struct CHANLIST *)(void *)0;
-    return (signed int)(((tmp_if_expr$3 + (signed long int)i)->freq * (unsigned int)16) / (unsigned int)1000);
+      tmp_if_expr_3 = (struct CHANLIST *)(void *)0;
+    return (signed int)(((tmp_if_expr_3 + (signed long int)i)->freq * (unsigned int)16) / (unsigned int)1000);
   }
 }
 
@@ -6445,13 +6445,13 @@ const char * get_not_associated_device(void *opaque, const char *last_seek, cons
   char *prev = "";
   char *result = (char *)(void *)0;
   i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !((unsigned int)i >= md->md_size); md_ptr = md_ptr + 1l)
   {
     if(!(last_seek == ((const char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(md_ptr->node, last_seek);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(md_ptr->node, last_seek);
+      if(return_value_strcmp_1 == 0)
       {
         found = 1;
         goto __CPROVER_DUMP_L9;
@@ -6461,9 +6461,9 @@ const char * get_not_associated_device(void *opaque, const char *last_seek, cons
 
     if(!(found == 0) || last_seek == ((const char *)NULL))
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(prev, md_ptr->device);
-      if(!(return_value_strcmp$2 == 0))
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(prev, md_ptr->device);
+      if(!(return_value_strcmp_2 == 0))
       {
         if(skip == 0 && !(result == ((char *)NULL)))
           break;
@@ -6508,16 +6508,16 @@ static void get_uevent_info(struct media_device_entry *md_ptr, char *dname)
   char s[1024l];
   snprintf(file, (unsigned long int)4096, "%s/%s/uevent", dname, md_ptr->node);
   fd=fopen(file, "r");
-  char *return_value_fgets$1;
-  signed long int return_value_atol$2;
-  signed int return_value_strcmp$4;
-  signed long int return_value_atol$3;
+  char *return_value_fgets_1;
+  signed long int return_value_atol_2;
+  signed int return_value_strcmp_4;
+  signed long int return_value_atol_3;
   if(!(fd == ((struct _IO_FILE *)NULL)))
   {
     do
     {
-      return_value_fgets$1=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , fd);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(s, (signed int)sizeof(char [1024l]) /*1024ul*/ , fd);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       p=strtok(s, "=");
@@ -6527,21 +6527,21 @@ static void get_uevent_info(struct media_device_entry *md_ptr, char *dname)
         p=strtok((char *)(void *)0, "\n");
         if(!(p == ((char *)NULL)))
         {
-          signed int return_value_strcmp$5;
-          return_value_strcmp$5=strcmp(name, "MAJOR");
-          if(return_value_strcmp$5 == 0)
+          signed int return_value_strcmp_5;
+          return_value_strcmp_5=strcmp(name, "MAJOR");
+          if(return_value_strcmp_5 == 0)
           {
-            return_value_atol$2=atol(p);
-            md_ptr->major = (unsigned int)return_value_atol$2;
+            return_value_atol_2=atol(p);
+            md_ptr->major = (unsigned int)return_value_atol_2;
           }
 
           else
           {
-            return_value_strcmp$4=strcmp(name, "MINOR");
-            if(return_value_strcmp$4 == 0)
+            return_value_strcmp_4=strcmp(name, "MINOR");
+            if(return_value_strcmp_4 == 0)
             {
-              return_value_atol$3=atol(p);
-              md_ptr->minor = (unsigned int)return_value_atol$3;
+              return_value_atol_3=atol(p);
+              md_ptr->minor = (unsigned int)return_value_atol_3;
             }
 
           }
@@ -6561,17 +6561,17 @@ static void get_uevent_info(struct media_device_entry *md_ptr, char *dname)
 static void gray_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
     src = src + 1l;
   }
   while((_Bool)1);
@@ -6582,17 +6582,17 @@ static void gray_to_lut2(unsigned char * restrict dest, unsigned char * restrict
 static void gray_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)*src] | ng_lut_green[(signed long int)*src] | ng_lut_blue[(signed long int)*src]);
     src = src + 1l;
   }
   while((_Bool)1);
@@ -6621,16 +6621,16 @@ static void init_channel(char *name, struct CHANNEL *c)
   if(!(attr == ((struct ng_attribute *)NULL)))
   {
     val=cfg_get_str(name, "input");
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(val == ((char *)NULL)))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
     {
       val=cfg_get_str(name, "source");
-      tmp_if_expr$1 = (char *)(void *)0 != val ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (char *)(void *)0 != val ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$1)
+    if(tmp_if_expr_1)
     {
       i=ng_attr_getint(attr, val);
       if(!(i == -1))
@@ -6688,11 +6688,11 @@ static void init_channel(char *name, struct CHANNEL *c)
     c->cname=strdup(val);
 
   val=cfg_get_str(name, "freq");
-  double return_value_atof$2;
+  double return_value_atof_2;
   if(!(val == ((char *)NULL)))
   {
-    return_value_atof$2=atof(val);
-    c->freq = (signed int)(return_value_atof$2 * (double)16);
+    return_value_atof_2=atof(val);
+    c->freq = (signed int)(return_value_atof_2 * (double)16);
   }
 
   n=cfg_get_signed_int(name, "fine");
@@ -6753,13 +6753,13 @@ static void init_channel(char *name, struct CHANNEL *c)
 // file common/commands.c line 202
 void init_overlay(void)
 {
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(chantab == -1))
-    tmp_if_expr$1 = (chanlist_names + (signed long int)chantab)->str;
+    tmp_if_expr_1 = (chanlist_names + (signed long int)chantab)->str;
 
   else
-    tmp_if_expr$1 = "europe-west";
-  do_va_cmd(2, (const void *)"setfreqtab", tmp_if_expr$1);
+    tmp_if_expr_1 = "europe-west";
+  do_va_cmd(2, (const void *)"setfreqtab", tmp_if_expr_1);
   cur_capture = -1;
   switch(defaults.capture)
   {
@@ -6797,9 +6797,9 @@ const char * int_to_str(signed int n, struct STRTAB *tab)
 static signed int keypad_handler(char *name, signed int argc, char **argv)
 {
   signed int n;
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(argv[(signed long int)0]);
-  n = return_value_atoi$1 % 10;
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(argv[(signed long int)0]);
+  n = return_value_atoi_1 % 10;
   char msg[8l];
   char ch[8l];
   if(!(debug == 0))
@@ -6892,26 +6892,26 @@ static void list_formats(struct _IO_FILE *out)
   for( ; !(item == &ng_writers); item = item->next)
   {
     wr = (struct ng_writer *)((char *)item - (signed long int)(unsigned long int)&((struct ng_writer *)0)->list);
-    const char *tmp_if_expr$1;
+    const char *tmp_if_expr_1;
     if(!(wr->desc == ((const char *)NULL)))
-      tmp_if_expr$1 = wr->desc;
+      tmp_if_expr_1 = wr->desc;
 
     else
-      tmp_if_expr$1 = "-";
-    fprintf(out, "  %s - %s\n", wr->name, tmp_if_expr$1);
+      tmp_if_expr_1 = "-";
+    fprintf(out, "  %s - %s\n", wr->name, tmp_if_expr_1);
     if(!(wr->video == ((struct ng_format_list *)NULL)))
     {
       fprintf(out, "    video formats:\n");
       j = 0;
       for( ; !((wr->video + (signed long int)j)->name == ((char *)NULL)); j = j + 1)
       {
-        char *tmp_if_expr$2;
+        char *tmp_if_expr_2;
         if(!((wr->video + (signed long int)j)->desc == ((char *)NULL)))
-          tmp_if_expr$2 = (wr->video + (signed long int)j)->desc;
+          tmp_if_expr_2 = (wr->video + (signed long int)j)->desc;
 
         else
-          tmp_if_expr$2 = ng_vfmt_to_desc[(signed long int)(wr->video + (signed long int)j)->fmtid];
-        fprintf(out, "      %-7s %-28s [%s]\n", (wr->video + (signed long int)j)->name, tmp_if_expr$2, (wr->video + (signed long int)j)->ext);
+          tmp_if_expr_2 = ng_vfmt_to_desc[(signed long int)(wr->video + (signed long int)j)->fmtid];
+        fprintf(out, "      %-7s %-28s [%s]\n", (wr->video + (signed long int)j)->name, tmp_if_expr_2, (wr->video + (signed long int)j)->ext);
       }
     }
 
@@ -6921,19 +6921,19 @@ static void list_formats(struct _IO_FILE *out)
       j = 0;
       for( ; !((wr->audio + (signed long int)j)->name == ((char *)NULL)); j = j + 1)
       {
-        char *tmp_if_expr$3;
+        char *tmp_if_expr_3;
         if(!((wr->audio + (signed long int)j)->desc == ((char *)NULL)))
-          tmp_if_expr$3 = (wr->audio + (signed long int)j)->desc;
+          tmp_if_expr_3 = (wr->audio + (signed long int)j)->desc;
 
         else
-          tmp_if_expr$3 = ng_afmt_to_desc[(signed long int)(wr->audio + (signed long int)j)->fmtid];
-        char *tmp_if_expr$4;
+          tmp_if_expr_3 = ng_afmt_to_desc[(signed long int)(wr->audio + (signed long int)j)->fmtid];
+        char *tmp_if_expr_4;
         if(!((wr->audio + (signed long int)j)->ext == ((char *)NULL)))
-          tmp_if_expr$4 = (wr->audio + (signed long int)j)->ext;
+          tmp_if_expr_4 = (wr->audio + (signed long int)j)->ext;
 
         else
-          tmp_if_expr$4 = "-";
-        fprintf(out, "      %-7s %-28s [%s]\n", (wr->audio + (signed long int)j)->name, tmp_if_expr$3, tmp_if_expr$4);
+          tmp_if_expr_4 = "-";
+        fprintf(out, "      %-7s %-28s [%s]\n", (wr->audio + (signed long int)j)->name, tmp_if_expr_3, tmp_if_expr_4);
       }
     }
 
@@ -6951,8 +6951,8 @@ static signed int list_handler(char *name, signed int argc, char **argv)
   printf("%-10.10s | type   | %-7.7s | %-7.7s | %s\n", (const void *)"attribute", (const void *)"current", (const void *)"default", (const void *)"comment");
   printf("-----------+--------+---------+---------+-------------------------------------\n");
   attr = attrs;
-  const char *return_value_ng_attr_getstr$1;
-  const char *return_value_ng_attr_getstr$2;
+  const char *return_value_ng_attr_getstr_1;
+  const char *return_value_ng_attr_getstr_2;
   for( ; !(attr->name == ((const char *)NULL)); attr = attr + 1l)
   {
     val = cur_attrs[(signed long int)attr->id];
@@ -6960,9 +6960,9 @@ static signed int list_handler(char *name, signed int argc, char **argv)
     {
       case 2:
       {
-        return_value_ng_attr_getstr$1=ng_attr_getstr(attr, val);
-        return_value_ng_attr_getstr$2=ng_attr_getstr(attr, attr->defval);
-        printf("%-10.10s | choice | %-7.7s | %-7.7s |", attr->name, return_value_ng_attr_getstr$1, return_value_ng_attr_getstr$2);
+        return_value_ng_attr_getstr_1=ng_attr_getstr(attr, val);
+        return_value_ng_attr_getstr_2=ng_attr_getstr(attr, attr->defval);
+        printf("%-10.10s | choice | %-7.7s | %-7.7s |", attr->name, return_value_ng_attr_getstr_1, return_value_ng_attr_getstr_2);
         i = 0;
         for( ; !((attr->choices + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
           printf(" %s", (attr->choices + (signed long int)i)->str);
@@ -6986,8 +6986,8 @@ static signed int list_handler(char *name, signed int argc, char **argv)
 signed int lookup_channel(char *channel)
 {
   signed int i;
-  signed int tmp_if_expr$1;
-  signed int return_value_strcasecmp$3;
+  signed int tmp_if_expr_1;
+  signed int return_value_strcasecmp_3;
   if(channel == ((char *)NULL))
     return -1;
 
@@ -6997,33 +6997,33 @@ signed int lookup_channel(char *channel)
     do
     {
       if(!(chantab == -1))
-        tmp_if_expr$1 = (chanlists + (signed long int)chantab)->count;
+        tmp_if_expr_1 = (chanlists + (signed long int)chantab)->count;
 
       else
-        tmp_if_expr$1 = 0;
-      if(i >= tmp_if_expr$1)
+        tmp_if_expr_1 = 0;
+      if(i >= tmp_if_expr_1)
         break;
 
-      struct CHANLIST *tmp_if_expr$2;
+      struct CHANLIST *tmp_if_expr_2;
       if(!(chantab == -1))
-        tmp_if_expr$2 = (chanlists + (signed long int)chantab)->list;
+        tmp_if_expr_2 = (chanlists + (signed long int)chantab)->list;
 
       else
-        tmp_if_expr$2 = (struct CHANLIST *)(void *)0;
-      return_value_strcasecmp$3=strcasecmp((tmp_if_expr$2 + (signed long int)i)->name, channel);
-      if(return_value_strcasecmp$3 == 0)
+        tmp_if_expr_2 = (struct CHANLIST *)(void *)0;
+      return_value_strcasecmp_3=strcasecmp((tmp_if_expr_2 + (signed long int)i)->name, channel);
+      if(return_value_strcasecmp_3 == 0)
         break;
 
       i = i + 1;
     }
     while((_Bool)1);
-    signed int tmp_if_expr$4;
+    signed int tmp_if_expr_4;
     if(!(chantab == -1))
-      tmp_if_expr$4 = (chanlists + (signed long int)chantab)->count;
+      tmp_if_expr_4 = (chanlists + (signed long int)chantab)->count;
 
     else
-      tmp_if_expr$4 = 0;
-    if(i == tmp_if_expr$4)
+      tmp_if_expr_4 = 0;
+    if(i == tmp_if_expr_4)
       return -1;
 
     else
@@ -7035,21 +7035,21 @@ signed int lookup_channel(char *channel)
 // file console/streamer.c line 328
 signed int main(signed int argc, char **argv)
 {
-  signed int main$$1$$c;
+  signed int main__1__c;
   signed int queued = 0;
   signed int noaudio = 0;
   char *raw_length = (char *)(void *)0;
   ng_init();
-  double return_value_atof$1;
-  signed int return_value_sscanf$2;
-  signed int return_value_atoi$3;
+  double return_value_atof_1;
+  signed int return_value_sscanf_2;
+  signed int return_value_atoi_3;
   do
   {
-    main$$1$$c=getopt(argc, argv, "haqdp:w:o:c:f:r:s:t:n:i:b:j:D:O:C:F:R:");
-    if(main$$1$$c == -1)
+    main__1__c=getopt(argc, argv, "haqdp:w:o:c:f:r:s:t:n:i:b:j:D:O:C:F:R:");
+    if(main__1__c == -1)
       break;
 
-    switch(main$$1$$c)
+    switch(main__1__c)
     {
       case 113:
       {
@@ -7099,14 +7099,14 @@ signed int main(signed int argc, char **argv)
       }
       case 114:
       {
-        return_value_atof$1=atof(optarg);
-        fps = (signed int)(return_value_atof$1 * (double)1000 + 0.5);
+        return_value_atof_1=atof(optarg);
+        fps = (signed int)(return_value_atof_1 * (double)1000 + 0.5);
         break;
       }
       case 115:
       {
-        return_value_sscanf$2=sscanf(optarg, "%dx%d", &video.width, &video.height);
-        if(!(return_value_sscanf$2 == 2))
+        return_value_sscanf_2=sscanf(optarg, "%dx%d", &video.width, &video.height);
+        if(!(return_value_sscanf_2 == 2))
         {
           video.height = (unsigned int)0;
           video.width = video.height;
@@ -7156,8 +7156,8 @@ signed int main(signed int argc, char **argv)
       }
       case 82:
       {
-        return_value_atoi$3=atoi(optarg);
-        audio.rate = (unsigned int)return_value_atoi$3;
+        return_value_atoi_3=atoi(optarg);
+        audio.rate = (unsigned int)return_value_atoi_3;
         break;
       }
       case 104:
@@ -7240,9 +7240,9 @@ signed int main(signed int argc, char **argv)
 
   ng_ratio_x = (signed int)video.width;
   ng_ratio_y = (signed int)video.height;
-  struct movie_handle *return_value_movie_writer_init$4;
-  return_value_movie_writer_init$4=movie_writer_init(moviename, audioname, writer, &video, video_priv, fps, &audio, audio_priv, ng_dev.dsp, bufcount, parallel);
-  movie_state = (void *)return_value_movie_writer_init$4;
+  struct movie_handle *return_value_movie_writer_init_4;
+  return_value_movie_writer_init_4=movie_writer_init(moviename, audioname, writer, &video, video_priv, fps, &audio, audio_priv, ng_dev.dsp, bufcount, parallel);
+  movie_state = (void *)return_value_movie_writer_init_4;
   if(movie_state == NULL)
   {
     fprintf(stderr, "movie writer initialisation failed\n");
@@ -7423,15 +7423,15 @@ static void movie_print_timestamps(struct movie_handle *h)
   char line[128l];
   if(!(rec_status == ((void (*)(char *))NULL)))
   {
-    signed int return_value_abs$1;
-    return_value_abs$1=abs((signed int)h->rdrift);
-    signed int return_value_abs$2;
-    return_value_abs$2=abs((signed int)h->rdrift);
-    signed int return_value_abs$3;
-    return_value_abs$3=abs((signed int)h->vdrift);
-    signed int return_value_abs$4;
-    return_value_abs$4=abs((signed int)h->vdrift);
-    sprintf(line, "rec %d:%02d.%02d  -  a/r: %c%d.%02ds [%d], a/v: %c%d.%02ds [%d]", (signed int)((h->rts / (unsigned long int)1000000000) / (unsigned long int)60), (signed int)((h->rts / (unsigned long int)1000000000) % (unsigned long int)60), (signed int)((h->rts % (unsigned long int)1000000000) / (unsigned long int)10000000), h->rdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs$1 / 1000000000), (signed int)((return_value_abs$2 % 1000000000) / 10000000), (signed int)((h->rdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL), h->vdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs$3 / 1000000000), (signed int)((return_value_abs$4 % 1000000000) / 10000000), (signed int)((h->vdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL));
+    signed int return_value_abs_1;
+    return_value_abs_1=abs((signed int)h->rdrift);
+    signed int return_value_abs_2;
+    return_value_abs_2=abs((signed int)h->rdrift);
+    signed int return_value_abs_3;
+    return_value_abs_3=abs((signed int)h->vdrift);
+    signed int return_value_abs_4;
+    return_value_abs_4=abs((signed int)h->vdrift);
+    sprintf(line, "rec %d:%02d.%02d  -  a/r: %c%d.%02ds [%d], a/v: %c%d.%02ds [%d]", (signed int)((h->rts / (unsigned long int)1000000000) / (unsigned long int)60), (signed int)((h->rts / (unsigned long int)1000000000) % (unsigned long int)60), (signed int)((h->rts % (unsigned long int)1000000000) / (unsigned long int)10000000), h->rdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs_1 / 1000000000), (signed int)((return_value_abs_2 % 1000000000) / 10000000), (signed int)((h->rdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL), h->vdrift > (unsigned long int)0 ? 43 : 45, (signed int)(return_value_abs_3 / 1000000000), (signed int)((return_value_abs_4 % 1000000000) / 10000000), (signed int)((h->vdrift * (unsigned long int)h->fps) / (unsigned long int)1000000000000ULL));
     rec_status(line);
   }
 
@@ -7448,16 +7448,16 @@ struct movie_handle * movie_writer_init(char *moviename, char *audioname, struct
   if(!(debug == 0))
     fprintf(stderr, "movie_init_writer start\n");
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct movie_handle) /*2184ul*/ );
-  h = (struct movie_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct movie_handle) /*2184ul*/ );
+  h = (struct movie_handle *)return_value_malloc_1;
   if(h == ((struct movie_handle *)NULL))
     return (struct movie_handle *)(void *)0;
 
   else
   {
     memset((void *)h, 0, sizeof(struct movie_handle) /*2184ul*/ );
-    pthread_mutex_init(&h->lock, (const union anonymous$8 *)(void *)0);
+    pthread_mutex_init(&h->lock, (const union anonymous_8 *)(void *)0);
     h->writer = writer;
     h->slots = slots;
     if(!(audio->fmtid == 0u))
@@ -7477,9 +7477,9 @@ struct movie_handle * movie_writer_init(char *moviename, char *audioname, struct
 
     if(!(video->fmtid == 0u))
     {
-      signed int return_value_ng_grabber_setformat$3;
-      return_value_ng_grabber_setformat$3=ng_grabber_setformat(video, 1);
-      if(return_value_ng_grabber_setformat$3 == 0)
+      signed int return_value_ng_grabber_setformat_3;
+      return_value_ng_grabber_setformat_3=ng_grabber_setformat(video, 1);
+      if(return_value_ng_grabber_setformat_3 == 0)
       {
         fifo_init(&h->vfifo, "video", slots, 1);
         pthread_create(&h->tvideo, (const union pthread_attr_t *)(void *)0, writer_video_thread, (void *)h);
@@ -7511,9 +7511,9 @@ struct movie_handle * movie_writer_init(char *moviename, char *audioname, struct
         i = 0;
         for( ; !(i >= h->cthreads); i = i + 1)
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(struct ng_convthread_handle) /*24ul*/ );
-          h->hconv[(signed long int)i] = (struct ng_convthread_handle *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(struct ng_convthread_handle) /*24ul*/ );
+          h->hconv[(signed long int)i] = (struct ng_convthread_handle *)return_value_malloc_2;
           memset((void *)h->hconv[(signed long int)i], 0, sizeof(struct ng_convthread_handle) /*24ul*/ );
           h->hconv[(signed long int)i]->c=ng_convert_alloc(conv, &gfmt, video);
           h->hconv[(signed long int)i]->in = &h->cfifo;
@@ -7569,9 +7569,9 @@ signed int movie_writer_start(struct movie_handle *h)
   if(!(debug == 0))
     fprintf(stderr, "movie_writer_start\n");
 
-  signed long int return_value_ng_get_timestamp$1;
-  return_value_ng_get_timestamp$1=ng_get_timestamp();
-  h->start = (unsigned long int)return_value_ng_get_timestamp$1;
+  signed long int return_value_ng_get_timestamp_1;
+  return_value_ng_get_timestamp_1=ng_get_timestamp();
+  h->start = (unsigned long int)return_value_ng_get_timestamp_1;
   signed int return_value;
   if(!(h->afmt.fmtid == 0u))
   {
@@ -7609,13 +7609,13 @@ signed int movie_writer_stop(struct movie_handle *h)
   if(!(debug == 0))
     fprintf(stderr, "movie_writer_stop\n");
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(h->vfmt.fmtid == 0u))
-    tmp_if_expr$1 = h->afmt.fmtid != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = h->afmt.fmtid != (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     frames = 0;
     for( ; !(frames >= 16); frames = frames + 1)
@@ -7682,9 +7682,9 @@ static signed int msg_handler(char *name, signed int argc, char **argv)
 signed int ng_aconv_register(signed int magic, char *plugname, struct ng_audio_conv *list, signed int count)
 {
   signed int n;
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "audio converters");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "audio converters");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -7728,9 +7728,9 @@ struct ng_attribute * ng_attr_byname(struct ng_attribute *attrs, char *name)
       if(attrs->name == ((const char *)NULL))
         return (struct ng_attribute *)(void *)0;
 
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(attrs->name, name);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(attrs->name, name);
+      if(return_value_strcasecmp_1 == 0)
         return attrs;
 
       attrs = attrs + 1l;
@@ -7755,15 +7755,15 @@ signed int ng_attr_getint(struct ng_attribute *attr, char *value)
       i = 0;
       for( ; !((attr->choices + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
       {
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp((attr->choices + (signed long int)i)->str, value);
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp((attr->choices + (signed long int)i)->str, value);
+        if(return_value_strcasecmp_1 == 0)
           return (signed int)(attr->choices + (signed long int)i)->nr;
 
       }
-      const unsigned short int **return_value___ctype_b_loc$2;
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*value]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_2;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*value]) == 0))
       {
         val=atoi(value);
         i = 0;
@@ -7835,9 +7835,9 @@ signed int ng_attr_parse_int(struct ng_attribute *attr, char *str)
 {
   signed int value;
   signed int n;
-  signed int return_value_sscanf$1;
-  return_value_sscanf$1=sscanf(str, "%d%n", &value, &n);
-  if(return_value_sscanf$1 == 0)
+  signed int return_value_sscanf_1;
+  return_value_sscanf_1=sscanf(str, "%d%n", &value, &n);
+  if(return_value_sscanf_1 == 0)
     return attr->defval;
 
   else
@@ -7929,13 +7929,13 @@ void ng_check_clipping(signed int width, signed int height, signed int xadjust, 
   i = 0;
   while(!(i >= *count))
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((oc + (signed long int)i)->x1 == (oc + (signed long int)i)->x2)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (oc + (signed long int)i)->y1 == (oc + (signed long int)i)->y2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (oc + (signed long int)i)->y1 == (oc + (signed long int)i)->y2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       clip_drop(oc, i, count);
 
     else
@@ -8073,7 +8073,7 @@ void ng_color_yuv2rgb_init(void)
     ng_clip[(signed long int)i] = (unsigned int)(i - 320);
   for( ; !(i >= 256); i = i + 1)
     ng_clip[(signed long int)i] = (unsigned int)255;
-  ng_conv_register(0x20030129, "built-in", conv_list$link1, nconv$link1);
+  ng_conv_register(0x20030129, "built-in", conv_list_link1, nconv_link1);
 }
 
 // ng_conv_find_from
@@ -8168,9 +8168,9 @@ void * ng_conv_nop_init(struct ng_video_fmt *out, void *priv)
 signed int ng_conv_register(signed int magic, char *plugname, struct ng_video_conv *list, signed int count)
 {
   signed int n;
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "video converters");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "video converters");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -8187,9 +8187,9 @@ signed int ng_conv_register(signed int magic, char *plugname, struct ng_video_co
 struct ng_convert_handle * ng_convert_alloc(struct ng_video_conv *conv, struct ng_video_fmt *i, struct ng_video_fmt *o)
 {
   struct ng_convert_handle *h;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_convert_handle) /*56ul*/ );
-  h = (struct ng_convert_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_convert_handle) /*56ul*/ );
+  h = (struct ng_convert_handle *)return_value_malloc_1;
   if(h == ((struct ng_convert_handle *)NULL))
     return ((struct ng_convert_handle *)NULL);
 
@@ -8221,13 +8221,13 @@ static void ng_convert_copyframe(struct ng_video_buf *dest, struct ng_video_buf 
   unsigned char *dp;
   dw = (dest->fmt.width * ng_vfmt_to_depth[(signed long int)dest->fmt.fmtid]) / (unsigned int)8;
   sw = (src->fmt.width * ng_vfmt_to_depth[(signed long int)src->fmt.fmtid]) / (unsigned int)8;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(src->fmt.bytesperline == sw)
-    tmp_if_expr$1 = dest->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = dest->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     memcpy((void *)dest->data, (const void *)src->data, (unsigned long int)(src->fmt.bytesperline * src->fmt.height));
 
   else
@@ -8335,28 +8335,28 @@ void * ng_convert_thread(void *arg)
   struct ng_convthread_handle *h = (struct ng_convthread_handle *)arg;
   struct ng_video_buf *in;
   struct ng_video_buf *out;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "convert_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "convert_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
   ng_convert_init(h->c);
-  signed int return_value_webcam_put$3;
+  signed int return_value_webcam_put_3;
   do
   {
-    void *return_value_fifo_get$2;
-    return_value_fifo_get$2=fifo_get(h->in);
-    in = (struct ng_video_buf *)return_value_fifo_get$2;
+    void *return_value_fifo_get_2;
+    return_value_fifo_get_2=fifo_get(h->in);
+    in = (struct ng_video_buf *)return_value_fifo_get_2;
     if(in == ((struct ng_video_buf *)NULL))
       break;
 
     out=ng_convert_frame(h->c, (struct ng_video_buf *)(void *)0, in);
     if(!(webcam == ((char *)NULL)))
     {
-      return_value_webcam_put$3=webcam_put(webcam, out);
-      if(return_value_webcam_put$3 == 0)
+      return_value_webcam_put_3=webcam_put(webcam, out);
+      if(return_value_webcam_put_3 == 0)
       {
         free((void *)webcam);
         webcam = (char *)(void *)0;
@@ -8369,11 +8369,11 @@ void * ng_convert_thread(void *arg)
   while((_Bool)1);
   fifo_put(h->out, (void *)0);
   ng_convert_fini(h->c);
-  signed int return_value_getpid$4;
+  signed int return_value_getpid_4;
   if(!(debug == 0))
   {
-    return_value_getpid$4=getpid();
-    fprintf(stderr, "convert_thread done [pid=%d]\n", return_value_getpid$4);
+    return_value_getpid_4=getpid();
+    fprintf(stderr, "convert_thread done [pid=%d]\n", return_value_getpid_4);
   }
 
   return (void *)0;
@@ -8384,9 +8384,9 @@ void * ng_convert_thread(void *arg)
 void ng_device_init(void)
 {
   struct stat st;
-  signed int return_value_lstat$1;
-  return_value_lstat$1=lstat("/dev/.devfsd", &st);
-  if(!(return_value_lstat$1 == -1))
+  signed int return_value_lstat_1;
+  return_value_lstat_1=lstat("/dev/.devfsd", &st);
+  if(!(return_value_lstat_1 == -1))
   {
     if((61440u & st.st_mode) == 8192u)
       ng_dev = ng_dev_devfs;
@@ -8399,9 +8399,9 @@ void ng_device_init(void)
 // file libng/grab-ng.c line 458
 signed int ng_dsp_driver_register(signed int magic, char *plugname, struct ng_dsp_driver *driver)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "dsp drv");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "dsp drv");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -8416,36 +8416,36 @@ signed int ng_dsp_driver_register(signed int magic, char *plugname, struct ng_ds
 struct ng_dsp_driver * ng_dsp_open(char *device, struct ng_audio_fmt *fmt, signed int record, void **handle)
 {
   struct list_head *item;
-  struct ng_dsp_driver *ng_dsp_open$$1$$drv;
+  struct ng_dsp_driver *ng_dsp_open__1__drv;
   item = (&ng_dsp_drivers)->next;
   for( ; !(item == &ng_dsp_drivers); item = item->next)
   {
-    ng_dsp_open$$1$$drv = (struct ng_dsp_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_dsp_driver *)0)->list);
-    if(!(ng_dsp_open$$1$$drv->name == ((const char *)NULL)))
+    ng_dsp_open__1__drv = (struct ng_dsp_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_dsp_driver *)0)->list);
+    if(!(ng_dsp_open__1__drv->name == ((const char *)NULL)))
     {
       if(!(record == 0))
       {
-        if(ng_dsp_open$$1$$drv->read == ((struct ng_audio_buf * (*)(void *, signed long int))NULL))
+        if(ng_dsp_open__1__drv->read == ((struct ng_audio_buf * (*)(void *, signed long int))NULL))
           goto __CPROVER_DUMP_L5;
 
       }
 
       if(record == 0)
       {
-        if(ng_dsp_open$$1$$drv->write == ((struct ng_audio_buf * (*)(void *, struct ng_audio_buf *))NULL))
+        if(ng_dsp_open__1__drv->write == ((struct ng_audio_buf * (*)(void *, struct ng_audio_buf *))NULL))
           goto __CPROVER_DUMP_L5;
 
       }
 
       if(!(ng_debug == 0))
-        fprintf(stderr, "dsp-open: trying: %s... \n", ng_dsp_open$$1$$drv->name);
+        fprintf(stderr, "dsp-open: trying: %s... \n", ng_dsp_open__1__drv->name);
 
-      *handle=ng_dsp_open$$1$$drv->open(device, fmt, record);
+      *handle=ng_dsp_open__1__drv->open(device, fmt, record);
       if(!(*handle == NULL))
         break;
 
       if(!(ng_debug == 0))
-        fprintf(stderr, "dsp-open: failed: %s\n", ng_dsp_open$$1$$drv->name);
+        fprintf(stderr, "dsp-open: failed: %s\n", ng_dsp_open__1__drv->name);
 
     }
 
@@ -8459,9 +8459,9 @@ struct ng_dsp_driver * ng_dsp_open(char *device, struct ng_audio_fmt *fmt, signe
   else
   {
     if(!(ng_debug == 0))
-      fprintf(stderr, "dsp-open: ok: %s\n", ng_dsp_open$$1$$drv->name);
+      fprintf(stderr, "dsp-open: ok: %s\n", ng_dsp_open__1__drv->name);
 
-    return ng_dsp_open$$1$$drv;
+    return ng_dsp_open__1__drv;
   }
 }
 
@@ -8469,9 +8469,9 @@ struct ng_dsp_driver * ng_dsp_open(char *device, struct ng_audio_fmt *fmt, signe
 // file libng/grab-ng.c line 422
 signed int ng_filter_register(signed int magic, char *plugname, struct ng_filter *filter)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "filter");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "filter");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -8513,11 +8513,11 @@ struct ng_reader * ng_find_reader(char *filename)
   fp=fopen(filename, "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "open %s: %s\n", filename, return_value_strerror_2);
     return (struct ng_reader *)(void *)0;
   }
 
@@ -8525,7 +8525,7 @@ struct ng_reader * ng_find_reader(char *filename)
   fread((void *)blk, (unsigned long int)1, sizeof(char [512l]) /*512ul*/ , fp);
   fclose(fp);
   item = (&ng_readers)->next;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !(item == &ng_readers); item = item->next)
   {
     reader = (struct ng_reader *)((char *)item - (signed long int)(unsigned long int)&((struct ng_reader *)0)->list);
@@ -8533,16 +8533,16 @@ struct ng_reader * ng_find_reader(char *filename)
     do
     {
       if(!(m >= 4))
-        tmp_if_expr$3 = reader->mlen[(signed long int)m] > 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = reader->mlen[(signed long int)m] > 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
-      signed int return_value_memcmp$4;
-      return_value_memcmp$4=memcmp((const void *)(blk + (signed long int)reader->moff[(signed long int)m]), (const void *)reader->magic[(signed long int)m], (unsigned long int)reader->mlen[(signed long int)m]);
-      if(return_value_memcmp$4 == 0)
+      signed int return_value_memcmp_4;
+      return_value_memcmp_4=memcmp((const void *)(blk + (signed long int)reader->moff[(signed long int)m]), (const void *)reader->magic[(signed long int)m], (unsigned long int)reader->mlen[(signed long int)m]);
+      if(return_value_memcmp_4 == 0)
         return reader;
 
       m = m + 1;
@@ -8569,9 +8569,9 @@ signed long int ng_get_timestamp(void)
 {
   struct timeval tv;
   gettimeofday(&tv, (struct timezone *)(void *)0);
-  signed long int return_value_ng_tofday_to_timestamp$1;
-  return_value_ng_tofday_to_timestamp$1=ng_tofday_to_timestamp(&tv);
-  return return_value_ng_tofday_to_timestamp$1;
+  signed long int return_value_ng_tofday_to_timestamp_1;
+  return_value_ng_tofday_to_timestamp_1=ng_tofday_to_timestamp(&tv);
+  return return_value_ng_tofday_to_timestamp_1;
 }
 
 // ng_grabber_findconv
@@ -8589,9 +8589,9 @@ struct ng_video_conv * ng_grabber_findconv(struct ng_video_fmt *fmt, signed int 
 
     gfmt = *fmt;
     gfmt.fmtid = conv->fmtid_in;
-    signed int return_value_ng_grabber_setformat$1;
-    return_value_ng_grabber_setformat$1=ng_grabber_setformat(&gfmt, fix_ratio);
-    if(return_value_ng_grabber_setformat$1 == 0)
+    signed int return_value_ng_grabber_setformat_1;
+    return_value_ng_grabber_setformat_1=ng_grabber_setformat(&gfmt, fix_ratio);
+    if(return_value_ng_grabber_setformat_1 == 0)
       goto found;
 
   }
@@ -8613,13 +8613,13 @@ struct ng_video_buf * ng_grabber_get_image(struct ng_video_fmt *fmt)
   struct ng_video_conv *conv;
   struct ng_convert_handle *ch;
   struct ng_video_buf *buf;
-  signed int return_value_ng_grabber_setformat$2;
-  return_value_ng_grabber_setformat$2=ng_grabber_setformat(fmt, 1);
-  struct ng_video_buf *return_value_ng_grabber_grab_image$1;
-  if(return_value_ng_grabber_setformat$2 == 0)
+  signed int return_value_ng_grabber_setformat_2;
+  return_value_ng_grabber_setformat_2=ng_grabber_setformat(fmt, 1);
+  struct ng_video_buf *return_value_ng_grabber_grab_image_1;
+  if(return_value_ng_grabber_setformat_2 == 0)
   {
-    return_value_ng_grabber_grab_image$1=ng_grabber_grab_image(1);
-    return return_value_ng_grabber_grab_image$1;
+    return_value_ng_grabber_grab_image_1=ng_grabber_grab_image(1);
+    return return_value_ng_grabber_grab_image_1;
   }
 
   gfmt = *fmt;
@@ -8646,21 +8646,21 @@ struct ng_video_buf * ng_grabber_get_image(struct ng_video_fmt *fmt)
 // file common/capture.c line 226
 struct ng_video_buf * ng_grabber_grab_image(signed int single)
 {
-  struct ng_video_buf *tmp_if_expr$1;
+  struct ng_video_buf *tmp_if_expr_1;
   struct ng_video_buf *return_value;
   struct ng_video_buf *return_value_1;
   if(!(single == 0))
   {
     return_value=drv->getimage(h_drv);
-    tmp_if_expr$1 = return_value;
+    tmp_if_expr_1 = return_value;
   }
 
   else
   {
     return_value_1=drv->nextframe(h_drv);
-    tmp_if_expr$1 = return_value_1;
+    tmp_if_expr_1 = return_value_1;
   }
-  return tmp_if_expr$1;
+  return tmp_if_expr_1;
 }
 
 // ng_grabber_setformat
@@ -8708,11 +8708,11 @@ signed int ng_grabber_setformat(struct ng_video_fmt *fmt, signed int fix_ratio)
 // file ./libng/grab-ng.h line 466
 void ng_init(void)
 {
-  signed int ng_init$$1$$count = 0;
+  signed int ng_init__1__count = 0;
   static signed int once = 0;
-  signed int tmp_post$1 = once;
+  signed int tmp_post_1 = once;
   once = once + 1;
-  if(!(tmp_post$1 == 0))
+  if(!(tmp_post_1 == 0))
   {
     fprintf(stderr, "panic: ng_init called twice\n");
     exit(1);
@@ -8722,20 +8722,20 @@ void ng_init(void)
   ng_color_packed_init();
   ng_color_yuv2rgb_init();
   ng_writefile_init();
-  signed int return_value_ng_plugins$2;
-  return_value_ng_plugins$2=ng_plugins("/usr/lib/x86_64-linux-gnu/xawtv");
-  ng_init$$1$$count = ng_init$$1$$count + return_value_ng_plugins$2;
-  if(ng_init$$1$$count == 0)
+  signed int return_value_ng_plugins_2;
+  return_value_ng_plugins_2=ng_plugins("/usr/lib/x86_64-linux-gnu/xawtv");
+  ng_init__1__count = ng_init__1__count + return_value_ng_plugins_2;
+  if(ng_init__1__count == 0)
   {
-    signed int return_value_ng_plugins$3;
-    return_value_ng_plugins$3=ng_plugins("../libng/plugins");
-    ng_init$$1$$count = ng_init$$1$$count + return_value_ng_plugins$3;
-    signed int return_value_ng_plugins$4;
-    return_value_ng_plugins$4=ng_plugins("../libng/contrib-plugins");
-    ng_init$$1$$count = ng_init$$1$$count + return_value_ng_plugins$4;
+    signed int return_value_ng_plugins_3;
+    return_value_ng_plugins_3=ng_plugins("../libng/plugins");
+    ng_init__1__count = ng_init__1__count + return_value_ng_plugins_3;
+    signed int return_value_ng_plugins_4;
+    return_value_ng_plugins_4=ng_plugins("../libng/contrib-plugins");
+    ng_init__1__count = ng_init__1__count + return_value_ng_plugins_4;
   }
 
-  if(ng_init$$1$$count == 0)
+  if(ng_init__1__count == 0)
     fprintf(stderr, "WARNING: no plugins found [%s]\n", (const void *)"/usr/lib/x86_64-linux-gnu/xawtv");
 
 }
@@ -8745,8 +8745,8 @@ void ng_init(void)
 void ng_init_video_buf(struct ng_video_buf *buf)
 {
   memset((void *)buf, 0, sizeof(struct ng_video_buf) /*160ul*/ );
-  pthread_mutex_init(&buf->lock, (const union anonymous$8 *)(void *)0);
-  pthread_cond_init(&buf->cond, (const union anonymous$8 *)(void *)0);
+  pthread_mutex_init(&buf->lock, (const union anonymous_8 *)(void *)0);
+  pthread_cond_init(&buf->cond, (const union anonymous_8 *)(void *)0);
 }
 
 // ng_lut_init
@@ -8762,9 +8762,9 @@ void ng_lut_init(unsigned long int red_mask, unsigned long int green_mask, unsig
   unsigned int i;
   unsigned int mask;
   static signed int once = 0;
-  signed int tmp_post$1 = once;
+  signed int tmp_post_1 = once;
   once = once + 1;
-  if(!(tmp_post$1 == 0))
+  if(!(tmp_post_1 == 0))
   {
     fprintf(stderr, "panic: ng_lut_init called twice\n");
     exit(1);
@@ -8882,9 +8882,9 @@ void ng_lut_init(unsigned long int red_mask, unsigned long int green_mask, unsig
 struct ng_audio_buf * ng_malloc_audio_buf(struct ng_audio_fmt *fmt, signed int size)
 {
   struct ng_audio_buf *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_audio_buf) /*32ul*/  + (unsigned long int)size);
-  buf = (struct ng_audio_buf *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_audio_buf) /*32ul*/  + (unsigned long int)size);
+  buf = (struct ng_audio_buf *)return_value_malloc_1;
   memset((void *)buf, 0, sizeof(struct ng_audio_buf) /*32ul*/ );
   buf->fmt = *fmt;
   buf->size = size;
@@ -8897,9 +8897,9 @@ struct ng_audio_buf * ng_malloc_audio_buf(struct ng_audio_fmt *fmt, signed int s
 struct ng_video_buf * ng_malloc_video_buf(struct ng_video_fmt *fmt, signed int size)
 {
   struct ng_video_buf *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct ng_video_buf) /*160ul*/ );
-  buf = (struct ng_video_buf *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct ng_video_buf) /*160ul*/ );
+  buf = (struct ng_video_buf *)return_value_malloc_1;
   if(buf == ((struct ng_video_buf *)NULL))
     return (struct ng_video_buf *)(void *)0;
 
@@ -8908,9 +8908,9 @@ struct ng_video_buf * ng_malloc_video_buf(struct ng_video_fmt *fmt, signed int s
     ng_init_video_buf(buf);
     buf->fmt = *fmt;
     buf->size = (unsigned long int)size;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)size);
-    buf->data = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)size);
+    buf->data = (unsigned char *)return_value_malloc_2;
     if(buf->data == ((unsigned char *)NULL))
     {
       free((void *)buf);
@@ -8930,9 +8930,9 @@ struct ng_video_buf * ng_malloc_video_buf(struct ng_video_fmt *fmt, signed int s
 // file libng/grab-ng.c line 467
 signed int ng_mix_driver_register(signed int magic, char *plugname, struct ng_mix_driver *driver)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "mixer drv");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "mixer drv");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -8947,33 +8947,33 @@ signed int ng_mix_driver_register(signed int magic, char *plugname, struct ng_mi
 struct ng_attribute * ng_mix_init(char *device, char *channel)
 {
   struct list_head *item;
-  struct ng_mix_driver *ng_mix_init$$1$$drv = (struct ng_mix_driver *)(void *)0;
-  struct ng_attribute *ng_mix_init$$1$$attrs = (struct ng_attribute *)(void *)0;
+  struct ng_mix_driver *ng_mix_init__1__drv = (struct ng_mix_driver *)(void *)0;
+  struct ng_attribute *ng_mix_init__1__attrs = (struct ng_attribute *)(void *)0;
   void *handle;
   item = (&ng_mix_drivers)->next;
   if(!(item == &ng_mix_drivers))
   {
-    ng_mix_init$$1$$drv = (struct ng_mix_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_mix_driver *)0)->list);
+    ng_mix_init__1__drv = (struct ng_mix_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_mix_driver *)0)->list);
     if(!(ng_debug == 0))
-      fprintf(stderr, "mix-init: trying: %s... \n", ng_mix_init$$1$$drv->name);
+      fprintf(stderr, "mix-init: trying: %s... \n", ng_mix_init__1__drv->name);
 
-    handle=ng_mix_init$$1$$drv->open(device);
+    handle=ng_mix_init__1__drv->open(device);
     if(!(handle == NULL))
     {
-      ng_mix_init$$1$$attrs=ng_mix_init$$1$$drv->volctl(handle, channel);
-      ng_mix_init$$1$$drv->close(handle);
+      ng_mix_init__1__attrs=ng_mix_init__1__drv->volctl(handle, channel);
+      ng_mix_init__1__drv->close(handle);
     }
 
     if(!(ng_debug == 0))
-      fprintf(stderr, "mix-init: failed: %s\n", ng_mix_init$$1$$drv->name);
+      fprintf(stderr, "mix-init: failed: %s\n", ng_mix_init__1__drv->name);
 
     item = item->next;
   }
 
-  if(!(ng_mix_init$$1$$attrs == ((struct ng_attribute *)NULL)) && !(ng_debug == 0))
-    fprintf(stderr, "mix-init: ok: %s\n", ng_mix_init$$1$$drv->name);
+  if(!(ng_mix_init__1__attrs == ((struct ng_attribute *)NULL)) && !(ng_debug == 0))
+    fprintf(stderr, "mix-init: ok: %s\n", ng_mix_init__1__drv->name);
 
-  return ng_mix_init$$1$$attrs;
+  return ng_mix_init__1__attrs;
 }
 
 // ng_packed_frame
@@ -8987,13 +8987,13 @@ void ng_packed_frame(void *handle, struct ng_video_buf *out, struct ng_video_buf
   unsigned int sw;
   unsigned int dw = out->fmt.width * ng_vfmt_to_depth[(signed long int)out->fmt.fmtid] >> 3;
   sw = in->fmt.width * ng_vfmt_to_depth[(signed long int)in->fmt.fmtid] >> 3;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(in->fmt.bytesperline == sw)
-    tmp_if_expr$1 = out->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = out->fmt.bytesperline == dw ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     func(out->data, in->data, (signed int)(in->fmt.width * in->fmt.height));
 
   else
@@ -9039,33 +9039,33 @@ static signed int ng_plugins(char *dirname)
     i = 0;
     for( ; !(i >= n); i = i + 1)
     {
-      signed int return_value_fnmatch$1;
-      return_value_fnmatch$1=fnmatch("*.so", list[(signed long int)i]->d_name, 0);
-      if(return_value_fnmatch$1 == 0)
+      signed int return_value_fnmatch_1;
+      return_value_fnmatch_1=fnmatch("*.so", list[(signed long int)i]->d_name, 0);
+      if(return_value_fnmatch_1 == 0)
       {
         sprintf(filename, "%s/%s", dirname, (const void *)list[(signed long int)i]->d_name);
         plugin=dlopen(filename, 0x00002);
         if(plugin == NULL)
         {
-          char *return_value_dlerror$2;
-          return_value_dlerror$2=dlerror();
-          fprintf(stderr, "dlopen: %s\n", return_value_dlerror$2);
+          char *return_value_dlerror_2;
+          return_value_dlerror_2=dlerror();
+          fprintf(stderr, "dlopen: %s\n", return_value_dlerror_2);
           goto __CPROVER_DUMP_L6;
         }
 
-        void *return_value_dlsym$5;
-        return_value_dlsym$5=dlsym(plugin, "ng_plugin_init");
-        initcall = (void (*)(void))return_value_dlsym$5;
+        void *return_value_dlsym_5;
+        return_value_dlsym_5=dlsym(plugin, "ng_plugin_init");
+        initcall = (void (*)(void))return_value_dlsym_5;
         if(initcall == ((void (*)(void))NULL))
         {
-          void *return_value_dlsym$4;
-          return_value_dlsym$4=dlsym(plugin, "_ng_plugin_init");
-          initcall = (void (*)(void))return_value_dlsym$4;
+          void *return_value_dlsym_4;
+          return_value_dlsym_4=dlsym(plugin, "_ng_plugin_init");
+          initcall = (void (*)(void))return_value_dlsym_4;
           if(initcall == ((void (*)(void))NULL))
           {
-            char *return_value_dlerror$3;
-            return_value_dlerror$3=dlerror();
-            fprintf(stderr, "dlsym[%s]: %s\n", (const void *)filename, return_value_dlerror$3);
+            char *return_value_dlerror_3;
+            return_value_dlerror_3=dlerror();
+            fprintf(stderr, "dlsym[%s]: %s\n", (const void *)filename, return_value_dlerror_3);
             goto __CPROVER_DUMP_L6;
           }
 
@@ -9149,9 +9149,9 @@ void ng_ratio_fixup2(signed int *width, signed int *height, signed int *xoff, si
 // file libng/grab-ng.c line 440
 signed int ng_reader_register(signed int magic, char *plugname, struct ng_reader *reader)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "reader");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "reader");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -9184,17 +9184,17 @@ void ng_release_video_buf(struct ng_video_buf *buf)
 void ng_rgb24_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -9205,17 +9205,17 @@ void ng_rgb24_to_lut2(unsigned char * restrict dest, unsigned char * restrict sr
 void ng_rgb24_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)0]] | ng_lut_green[(signed long int)src[(signed long int)1]] | ng_lut_blue[(signed long int)src[(signed long int)2]]);
     src = src + (signed long int)3;
   }
   while((_Bool)1);
@@ -9236,9 +9236,9 @@ signed long int ng_tofday_to_timestamp(struct timeval *tv)
 // file libng/grab-ng.c line 449
 signed int ng_vid_driver_register(signed int magic, char *plugname, struct ng_vid_driver *driver)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "video drv");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "video drv");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -9253,8 +9253,8 @@ signed int ng_vid_driver_register(signed int magic, char *plugname, struct ng_vi
 struct ng_vid_driver * ng_vid_open(char **device, char *driver, struct ng_video_fmt *screen, void *base, void **handle)
 {
   struct list_head *item;
-  struct ng_vid_driver *ng_vid_open$$1$$drv;
-  signed int return_value_strcmp$5;
+  struct ng_vid_driver *ng_vid_open__1__drv;
+  signed int return_value_strcmp_5;
   signed int return_value;
   if(driver == ((char *)NULL))
   {
@@ -9267,48 +9267,48 @@ struct ng_vid_driver * ng_vid_open(char **device, char *driver, struct ng_video_
     item = (&ng_vid_drivers)->next;
     for( ; !(item == &ng_vid_drivers); item = item->next)
     {
-      ng_vid_open$$1$$drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(driver, ng_vid_open$$1$$drv->name);
-      if(return_value_strcasecmp$1 == 0)
+      ng_vid_open__1__drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(driver, ng_vid_open__1__drv->name);
+      if(return_value_strcasecmp_1 == 0)
         break;
 
     }
     if(item == &ng_vid_drivers)
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(driver, "help");
-      if(!(return_value_strcasecmp$2 == 0))
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(driver, "help");
+      if(!(return_value_strcasecmp_2 == 0))
         fprintf(stderr, "Cannot find %s video driver\n", driver);
 
       fprintf(stderr, "Available drivers:");
       item = (&ng_vid_drivers)->next;
       for( ; !(item == &ng_vid_drivers); item = item->next)
       {
-        ng_vid_open$$1$$drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
-        fprintf(stderr, " %s", ng_vid_open$$1$$drv->name);
+        ng_vid_open__1__drv = (struct ng_vid_driver *)((char *)item - (signed long int)(unsigned long int)&((struct ng_vid_driver *)0)->list);
+        fprintf(stderr, " %s", ng_vid_open__1__drv->name);
       }
       fprintf(stderr, "\n");
       return (struct ng_vid_driver *)(void *)0;
     }
 
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(*device, "auto");
-    _Bool tmp_if_expr$6;
-    if(return_value_strcmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(*device, "auto");
+    _Bool tmp_if_expr_6;
+    if(return_value_strcmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$5=strcmp(*device, "auto_tv");
-      tmp_if_expr$6 = !(return_value_strcmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_5=strcmp(*device, "auto_tv");
+      tmp_if_expr_6 = !(return_value_strcmp_5 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       char devpath[4096l];
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(*device, "auto_tv");
-      *handle=ng_vid_open_auto(ng_vid_open$$1$$drv, devpath, !(return_value_strcmp$3 != 0) ? 0 : 1);
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(*device, "auto_tv");
+      *handle=ng_vid_open_auto(ng_vid_open__1__drv, devpath, !(return_value_strcmp_3 != 0) ? 0 : 1);
       if(*handle == NULL)
       {
         fprintf(stderr, "vid-open: could not find a suitable videodev\n");
@@ -9321,58 +9321,58 @@ struct ng_vid_driver * ng_vid_open(char **device, char *driver, struct ng_video_
     else
     {
       if(!(ng_debug == 0))
-        fprintf(stderr, "vid-open: trying: %s... \n", ng_vid_open$$1$$drv->name);
+        fprintf(stderr, "vid-open: trying: %s... \n", ng_vid_open__1__drv->name);
 
-      *handle=ng_vid_open$$1$$drv->open(*device, 0);
+      *handle=ng_vid_open__1__drv->open(*device, 0);
       if(*handle == NULL)
       {
-        fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open$$1$$drv->name);
+        fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open__1__drv->name);
         return (struct ng_vid_driver *)(void *)0;
       }
 
       if(!(ng_debug == 0))
-        fprintf(stderr, "vid-open: ok: %s\n", ng_vid_open$$1$$drv->name);
+        fprintf(stderr, "vid-open: ok: %s\n", ng_vid_open__1__drv->name);
 
     }
     if(!(screen == ((struct ng_video_fmt *)NULL)))
     {
-      return_value=ng_vid_open$$1$$drv->capabilities(*handle);
+      return_value=ng_vid_open__1__drv->capabilities(*handle);
       if(!((1 & return_value) == 0))
       {
         signed int l;
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(ng_v4l_conf);
-        l = (signed int)return_value_strlen$7;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(ng_v4l_conf);
+        l = (signed int)return_value_strlen_7;
         snprintf(ng_v4l_conf + (signed long int)l, sizeof(char [256l]) /*256ul*/  - (unsigned long int)l, " -c %s", *device);
         if(!(ng_debug == 0))
           fprintf(stderr, "vid-open: closing dev to run v4lconf\n");
 
-        ng_vid_open$$1$$drv->close(*handle);
-        signed int return_value_system$8;
-        return_value_system$8=system(ng_v4l_conf);
-        if(return_value_system$8 == -1)
+        ng_vid_open__1__drv->close(*handle);
+        signed int return_value_system_8;
+        return_value_system_8=system(ng_v4l_conf);
+        if(return_value_system_8 == -1)
           fprintf(stderr, "could'nt start v4l-conf\n");
 
         fprintf(stderr, "v4l-conf had some trouble, trying to continue anyway\n");
         if(!(ng_debug == 0))
           fprintf(stderr, "vid-open: re-opening dev after v4lconf\n");
 
-        *handle=ng_vid_open$$1$$drv->open(*device, 0);
+        *handle=ng_vid_open__1__drv->open(*device, 0);
         if(*handle == NULL)
         {
-          fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open$$1$$drv->name);
+          fprintf(stderr, "vid-open: failed: %s\n", ng_vid_open__1__drv->name);
           return (struct ng_vid_driver *)(void *)0;
         }
 
         if(!(ng_debug == 0))
           fprintf(stderr, "vid-open: re-open ok\n");
 
-        ng_vid_open$$1$$drv->setupfb(*handle, screen, base);
+        ng_vid_open__1__drv->setupfb(*handle, screen, base);
       }
 
     }
 
-    return ng_vid_open$$1$$drv;
+    return ng_vid_open__1__drv;
   }
 }
 
@@ -9478,9 +9478,9 @@ void ng_writefile_init(void)
 // file libng/grab-ng.c line 431
 signed int ng_writer_register(signed int magic, char *plugname, struct ng_writer *writer)
 {
-  signed int return_value_ng_check_magic$1;
-  return_value_ng_check_magic$1=ng_check_magic(magic, plugname, "writer");
-  if(!(return_value_ng_check_magic$1 == 0))
+  signed int return_value_ng_check_magic_1;
+  return_value_ng_check_magic_1=ng_check_magic(magic, plugname, "writer");
+  if(!(return_value_ng_check_magic_1 == 0))
     return -1;
 
   else
@@ -9518,14 +9518,14 @@ void ng_yuv420p_to_lut2(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$1 = d;
+      unsigned short int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$2 = d;
+      unsigned short int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -9568,14 +9568,14 @@ void ng_yuv420p_to_lut4(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$1 = d;
+      unsigned int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$2 = d;
+      unsigned int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -9599,13 +9599,13 @@ void ng_yuv422_to_lut2(unsigned char * restrict dest, unsigned char * restrict s
   for( ; !(p == 0); p = p - 2)
   {
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)0]];
-    unsigned short int * restrict tmp_post$1 = d;
+    unsigned short int * restrict tmp_post_1 = d;
     d = d + 1l;
-    *tmp_post$1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)2]];
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     s = s + (signed long int)4;
   }
 }
@@ -9619,13 +9619,13 @@ void ng_yuv422_to_lut4(unsigned char * restrict dest, unsigned char * restrict s
   for( ; !(p == 0); p = p - 2)
   {
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)0]];
-    unsigned int * restrict tmp_post$1 = d;
+    unsigned int * restrict tmp_post_1 = d;
     d = d + 1l;
-    *tmp_post$1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     gray = (signed int)ng_yuv_gray[(signed long int)s[(signed long int)2]];
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)s[(signed long int)3]])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)s[(signed long int)3]] + ng_yuv_g2[(signed long int)s[(signed long int)1]])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)s[(signed long int)1]])]]);
     s = s + (signed long int)4;
   }
 }
@@ -9654,14 +9654,14 @@ void ng_yuv422p_to_lut2(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$1 = d;
+      unsigned short int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned short int * restrict tmp_post$2 = d;
+      unsigned short int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -9694,14 +9694,14 @@ void ng_yuv422p_to_lut4(void *h, struct ng_video_buf *out, struct ng_video_buf *
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$1 = d;
+      unsigned int * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_1 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned int * restrict tmp_post$2 = d;
+      unsigned int * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
+      *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])]] | ng_lut_green[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])]] | ng_lut_blue[(signed long int)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])]]);
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -9729,9 +9729,9 @@ void oss_levels(struct ng_audio_buf *buf, signed int *left, signed int *right)
       i = 0;
       while(!(i >= buf->size))
       {
-        signed int tmp_post$1 = i;
+        signed int tmp_post_1 = i;
         i = i + 1;
-        level=abs((signed int)u[(signed long int)tmp_post$1] - 128);
+        level=abs((signed int)u[(signed long int)tmp_post_1] - 128);
         if(!(lmax >= level))
         {
           lmax = level;
@@ -9746,15 +9746,15 @@ void oss_levels(struct ng_audio_buf *buf, signed int *left, signed int *right)
       i = 0;
       while(!(i >= buf->size))
       {
-        signed int tmp_post$2 = i;
+        signed int tmp_post_2 = i;
         i = i + 1;
-        level=abs((signed int)u[(signed long int)tmp_post$2] - 128);
+        level=abs((signed int)u[(signed long int)tmp_post_2] - 128);
         if(!(lmax >= level))
           lmax = level;
 
-        signed int tmp_post$3 = i;
+        signed int tmp_post_3 = i;
         i = i + 1;
-        level=abs((signed int)u[(signed long int)tmp_post$3] - 128);
+        level=abs((signed int)u[(signed long int)tmp_post_3] - 128);
         if(!(rmax >= level))
           rmax = level;
 
@@ -9869,9 +9869,9 @@ __CPROVER_DUMP_L1:
       h = h + 1l;
     }
 
-    signed int tmp_post$1 = entry->argc;
+    signed int tmp_post_1 = entry->argc;
     entry->argc = entry->argc + 1;
-    entry->argv[(signed long int)tmp_post$1] = token;
+    entry->argv[(signed long int)tmp_post_1] = token;
   }
 }
 
@@ -9884,25 +9884,25 @@ void parse_config(signed int parse_channels)
   char **list;
   char *val;
   list=cfg_list_entries("launch");
-  signed int return_value_sscanf$2;
+  signed int return_value_sscanf_2;
   if(!(list == ((char **)NULL)))
     for( ; !(*list == ((char *)NULL)); list = list + 1l)
     {
       val=cfg_get_str("launch", *list);
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if(!(val == ((char *)NULL)))
       {
-        return_value_sscanf$2=sscanf(val, "%15[^,], %127[^\n]", (const void *)key, (const void *)cmdline);
-        tmp_if_expr$3 = 2 == return_value_sscanf$2 ? (_Bool)1 : (_Bool)0;
+        return_value_sscanf_2=sscanf(val, "%15[^,], %127[^\n]", (const void *)key, (const void *)cmdline);
+        tmp_if_expr_3 = 2 == return_value_sscanf_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)launch, sizeof(struct LAUNCH) /*24ul*/  * (unsigned long int)(nlaunch + 1));
-        launch = (struct LAUNCH *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)launch, sizeof(struct LAUNCH) /*24ul*/  * (unsigned long int)(nlaunch + 1));
+        launch = (struct LAUNCH *)return_value_realloc_1;
         (launch + (signed long int)nlaunch)->name=strdup(*list);
         (launch + (signed long int)nlaunch)->key=strdup(key);
         (launch + (signed long int)nlaunch)->cmdline=strdup(cmdline);
@@ -9920,25 +9920,25 @@ void parse_config(signed int parse_channels)
     list=cfg_list_sections();
     for( ; !(*list == ((char *)NULL)); list = list + 1l)
     {
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(*list, "defaults");
-      if(!(return_value_strcmp$4 == 0))
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(*list, "defaults");
+      if(!(return_value_strcmp_4 == 0))
       {
-        signed int return_value_strcmp$5;
-        return_value_strcmp$5=strcmp(*list, "global");
-        if(!(return_value_strcmp$5 == 0))
+        signed int return_value_strcmp_5;
+        return_value_strcmp_5=strcmp(*list, "global");
+        if(!(return_value_strcmp_5 == 0))
         {
-          signed int return_value_strcmp$6;
-          return_value_strcmp$6=strcmp(*list, "launch");
-          if(!(return_value_strcmp$6 == 0))
+          signed int return_value_strcmp_6;
+          return_value_strcmp_6=strcmp(*list, "launch");
+          if(!(return_value_strcmp_6 == 0))
           {
-            signed int return_value_strcmp$7;
-            return_value_strcmp$7=strcmp(*list, "eventmap");
-            if(!(return_value_strcmp$7 == 0))
+            signed int return_value_strcmp_7;
+            return_value_strcmp_7=strcmp(*list, "eventmap");
+            if(!(return_value_strcmp_7 == 0))
             {
-              struct CHANNEL *return_value_add_channel$8;
-              return_value_add_channel$8=add_channel(*list);
-              init_channel(*list, return_value_add_channel$8);
+              struct CHANNEL *return_value_add_channel_8;
+              return_value_add_channel_8=add_channel(*list);
+              init_channel(*list, return_value_add_channel_8);
             }
 
           }
@@ -9949,9 +9949,9 @@ void parse_config(signed int parse_channels)
 
     }
     defaults.channel=lookup_channel(defaults.cname);
-    signed int return_value_get_freq$9;
-    return_value_get_freq$9=get_freq(defaults.channel);
-    defaults.freq = return_value_get_freq$9 + defaults.fine;
+    signed int return_value_get_freq_9;
+    return_value_get_freq_9=get_freq(defaults.channel);
+    defaults.freq = return_value_get_freq_9 + defaults.fine;
     calc_frequencies();
   }
 
@@ -9965,16 +9965,16 @@ static signed int parse_time(char *time)
   signed int minutes;
   signed int seconds;
   signed int total = 0;
-  signed int return_value_sscanf$2;
-  return_value_sscanf$2=sscanf(time, "%d:%d:%d", &hours, &minutes, &seconds);
-  signed int return_value_sscanf$1;
-  if(return_value_sscanf$2 == 3)
+  signed int return_value_sscanf_2;
+  return_value_sscanf_2=sscanf(time, "%d:%d:%d", &hours, &minutes, &seconds);
+  signed int return_value_sscanf_1;
+  if(return_value_sscanf_2 == 3)
     total = hours * 60 * 60 + minutes * 60 + seconds;
 
   else
   {
-    return_value_sscanf$1=sscanf(time, "%d:%d", &minutes, &seconds);
-    if(return_value_sscanf$1 == 2)
+    return_value_sscanf_1=sscanf(time, "%d:%d", &minutes, &seconds);
+    if(return_value_sscanf_1 == 2)
       total = minutes * 60 + seconds;
 
   }
@@ -9983,9 +9983,9 @@ static signed int parse_time(char *time)
 
   else
   {
-    signed int return_value_atoi$3;
-    return_value_atoi$3=atoi(time);
-    return return_value_atoi$3;
+    signed int return_value_atoi_3;
+    return_value_atoi_3=atoi(time);
+    return return_value_atoi_3;
   }
 }
 
@@ -9994,14 +9994,14 @@ static signed int parse_time(char *time)
 signed int patch_up(char *name)
 {
   char *ptr;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  ptr = name + (signed long int)return_value_strlen$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  ptr = name + (signed long int)return_value_strlen_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
   for( ; ptr >= name; ptr = ptr - 1l)
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*ptr]) == 0))
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*ptr]) == 0))
       break;
 
   }
@@ -10015,18 +10015,18 @@ signed int patch_up(char *name)
       if(!(ptr >= name))
         break;
 
-      char *tmp_post$3 = ptr;
+      char *tmp_post_3 = ptr;
       ptr = ptr - 1l;
-      *tmp_post$3 = (char)48;
+      *tmp_post_3 = (char)48;
     }
     if(!(ptr >= name))
       return 0;
 
     else
     {
-      const unsigned short int **return_value___ctype_b_loc$4;
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*ptr]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_4;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*ptr]) == 0))
       {
         *ptr = *ptr + 1;
         return 1;
@@ -10055,9 +10055,9 @@ static void print_choices(char *name, char *value, struct STRTAB *tab)
 static signed int raw_audio(void *handle, struct ng_audio_buf *buf)
 {
   struct raw_handle *h = (struct raw_handle *)handle;
-  signed long int return_value_write$1;
-  return_value_write$1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
-  if(!((signed long int)buf->size == return_value_write$1))
+  signed long int return_value_write_1;
+  return_value_write_1=write(h->wav_fd, (const void *)buf->data, (unsigned long int)buf->size);
+  if(!((signed long int)buf->size == return_value_write_1))
     return -1;
 
   else
@@ -10097,9 +10097,9 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
   signed int frame_rate_code = 0;
   signed int frame_rate_mul = fps;
   signed int frame_rate_div = 1000;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct raw_handle) /*88ul*/ );
-  h = (struct raw_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct raw_handle) /*88ul*/ );
+  h = (struct raw_handle *)return_value_malloc_1;
   if(h == ((struct raw_handle *)NULL))
     return (void *)0;
 
@@ -10114,11 +10114,11 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
       h->wav_fd=open(audioname, 0100 | 02 | 01000, 0666);
       if(h->wav_fd == -1)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fprintf(stderr, "open %s: %s\n", audioname, return_value_strerror_3);
         free((void *)h);
         return (void *)0;
       }
@@ -10194,11 +10194,11 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
         h->fd=open(videoname, 0100 | 02 | 01000, 0666);
         if(h->fd == -1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          fprintf(stderr, "open %s: %s\n", videoname, return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          fprintf(stderr, "open %s: %s\n", videoname, return_value_strerror_5);
           if(!(h->wav_fd == 0))
             close(h->wav_fd);
 
@@ -10225,9 +10225,9 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
             case 2:
               sprintf(header, "YUV4MPEG2 W%d H%d F%d:%d\n", h->video.width, h->video.height, frame_rate_mul, frame_rate_div);
           }
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(header);
-          write(h->fd, (const void *)header, return_value_strlen$6);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(header);
+          write(h->fd, (const void *)header, return_value_strlen_6);
         }
 
       }
@@ -10243,8 +10243,8 @@ static void * raw_open(char *videoname, char *audioname, struct ng_video_fmt *vi
 static signed int raw_video(void *handle, struct ng_video_buf *buf)
 {
   struct raw_handle *h = (struct raw_handle *)handle;
-  signed long int return_value_write$1;
-  signed long int return_value_write$2;
+  signed long int return_value_write_1;
+  signed long int return_value_write_2;
   if(!(h->vpriv == ((struct raw_priv *)NULL)))
   {
     if(!(h->vpriv->yuv4mpeg == 0))
@@ -10252,16 +10252,16 @@ static signed int raw_video(void *handle, struct ng_video_buf *buf)
       {
         case 1:
         {
-          return_value_write$1=write(h->fd, (const void *)"FRAME\n", (unsigned long int)6);
-          if(!(return_value_write$1 == 6l))
+          return_value_write_1=write(h->fd, (const void *)"FRAME\n", (unsigned long int)6);
+          if(!(return_value_write_1 == 6l))
             return -1;
 
           break;
         }
         case 2:
         {
-          return_value_write$2=write(h->fd, (const void *)"FRAME \n", (unsigned long int)7);
-          if(!(return_value_write$2 == 7l))
+          return_value_write_2=write(h->fd, (const void *)"FRAME \n", (unsigned long int)7);
+          if(!(return_value_write_2 == 7l))
             return -1;
 
         }
@@ -10269,9 +10269,9 @@ static signed int raw_video(void *handle, struct ng_video_buf *buf)
 
   }
 
-  signed long int return_value_write$3;
-  return_value_write$3=write(h->fd, (const void *)buf->data, buf->size);
-  if(!(buf->size == (unsigned long int)return_value_write$3))
+  signed long int return_value_write_3;
+  return_value_write_3=write(h->fd, (const void *)buf->data, buf->size);
+  if(!(buf->size == (unsigned long int)return_value_write_3))
     return -1;
 
   else
@@ -10288,26 +10288,26 @@ void read_config(char *conffile, signed int *argc, char **argv)
   signed int i;
   if(!(conffile == ((char *)NULL)))
   {
-    signed int return_value_cfg_parse_file$1;
-    return_value_cfg_parse_file$1=cfg_parse_file(conffile);
-    if(return_value_cfg_parse_file$1 == 0)
+    signed int return_value_cfg_parse_file_1;
+    return_value_cfg_parse_file_1=cfg_parse_file(conffile);
+    if(return_value_cfg_parse_file_1 == 0)
       have_config = 1;
 
   }
 
   else
   {
-    char *return_value_getenv$2;
-    return_value_getenv$2=getenv("HOME");
-    sprintf(filename, "%.*s/%s", (signed int)sizeof(char [100l]) /*100ul*/  - 8, return_value_getenv$2, (const void *)".xawtv");
-    signed int return_value_cfg_parse_file$3;
-    return_value_cfg_parse_file$3=cfg_parse_file("/etc/X11/xawtvrc");
-    if(return_value_cfg_parse_file$3 == 0)
+    char *return_value_getenv_2;
+    return_value_getenv_2=getenv("HOME");
+    sprintf(filename, "%.*s/%s", (signed int)sizeof(char [100l]) /*100ul*/  - 8, return_value_getenv_2, (const void *)".xawtv");
+    signed int return_value_cfg_parse_file_3;
+    return_value_cfg_parse_file_3=cfg_parse_file("/etc/X11/xawtvrc");
+    if(return_value_cfg_parse_file_3 == 0)
       have_config = 1;
 
-    signed int return_value_cfg_parse_file$4;
-    return_value_cfg_parse_file$4=cfg_parse_file(filename);
-    if(return_value_cfg_parse_file$4 == 0)
+    signed int return_value_cfg_parse_file_4;
+    return_value_cfg_parse_file_4=cfg_parse_file(filename);
+    if(return_value_cfg_parse_file_4 == 0)
       have_config = 1;
 
   }
@@ -10318,9 +10318,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   if(!(val == ((char *)NULL)))
   {
     mixer=strdup(val);
-    signed int return_value_sscanf$5;
-    return_value_sscanf$5=sscanf(mixer, "%31[^:]:%15s", (const void *)mixerdev, (const void *)mixerctl);
-    if(!(return_value_sscanf$5 == 2))
+    signed int return_value_sscanf_5;
+    return_value_sscanf_5=sscanf(mixer, "%31[^:]:%15s", (const void *)mixerdev, (const void *)mixerctl);
+    if(!(return_value_sscanf_5 == 2))
     {
       strcpy(mixerdev, ng_dev.mixer);
       strncpy(mixerctl, val, (unsigned long int)15);
@@ -10334,14 +10334,14 @@ void read_config(char *conffile, signed int *argc, char **argv)
     midi=strdup(val);
 
   val=cfg_get_str("global", "freqtab");
-  signed int return_value_strcasecmp$6;
+  signed int return_value_strcasecmp_6;
   if(!(val == ((char *)NULL)))
   {
     i = 0;
     for( ; !((chanlists + (signed long int)i)->name == ((char *)NULL)); i = i + 1)
     {
-      return_value_strcasecmp$6=strcasecmp(val, (chanlists + (signed long int)i)->name);
-      if(return_value_strcasecmp$6 == 0)
+      return_value_strcasecmp_6=strcasecmp(val, (chanlists + (signed long int)i)->name);
+      if(return_value_strcasecmp_6 == 0)
         break;
 
     }
@@ -10355,9 +10355,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "fullscreen");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$7;
-    return_value_sscanf$7=sscanf(val, "%d x %d", &fs_width, &fs_height);
-    if(!(return_value_sscanf$7 == 2))
+    signed int return_value_sscanf_7;
+    return_value_sscanf_7=sscanf(val, "%d x %d", &fs_width, &fs_height);
+    if(!(return_value_sscanf_7 == 2))
     {
       fprintf(stderr, "invalid value for fullscreen: %s\n", val);
       fs_height = 0;
@@ -10369,9 +10369,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "pixsize");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$8;
-    return_value_sscanf$8=sscanf(val, "%d x %d", &pix_width, &pix_height);
-    if(!(return_value_sscanf$8 == 2))
+    signed int return_value_sscanf_8;
+    return_value_sscanf_8=sscanf(val, "%d x %d", &pix_width, &pix_height);
+    if(!(return_value_sscanf_8 == 2))
     {
       fprintf(stderr, "invalid value for pixsize: %s\n", val);
       pix_width = 128;
@@ -10387,9 +10387,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "wm-off-by");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$9;
-    return_value_sscanf$9=sscanf(val, "%d %d", &fs_xoff, &fs_yoff);
-    if(!(return_value_sscanf$9 == 2))
+    signed int return_value_sscanf_9;
+    return_value_sscanf_9=sscanf(val, "%d %d", &fs_xoff, &fs_yoff);
+    if(!(return_value_sscanf_9 == 2))
     {
       fprintf(stderr, "invalid value for wm-off-by: %s\n", val);
       fs_yoff = 0;
@@ -10401,9 +10401,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
   val=cfg_get_str("global", "ratio");
   if(!(val == ((char *)NULL)))
   {
-    signed int return_value_sscanf$10;
-    return_value_sscanf$10=sscanf(val, "%d:%d", &ng_ratio_x, &ng_ratio_y);
-    if(!(return_value_sscanf$10 == 2))
+    signed int return_value_sscanf_10;
+    return_value_sscanf_10=sscanf(val, "%d:%d", &ng_ratio_x, &ng_ratio_y);
+    if(!(return_value_sscanf_10 == 2))
     {
       fprintf(stderr, "invalid value for ratio: %s\n", val);
       ng_ratio_y = 0;
@@ -10444,11 +10444,11 @@ void read_config(char *conffile, signed int *argc, char **argv)
   }
 
   val=cfg_get_str("global", "osd-position");
-  signed int return_value_sscanf$11;
+  signed int return_value_sscanf_11;
   if(!(val == ((char *)NULL)))
   {
-    return_value_sscanf$11=sscanf(val, "%d , %d", &osd_x, &osd_y);
-    if(!(return_value_sscanf$11 == 2))
+    return_value_sscanf_11=sscanf(val, "%d , %d", &osd_x, &osd_y);
+    if(!(return_value_sscanf_11 == 2))
       fprintf(stderr, "invalid values for osd-position: %s\n", val);
 
   }
@@ -10489,9 +10489,9 @@ void read_config(char *conffile, signed int *argc, char **argv)
     for( ; !(item == &ng_filters); item = item->next)
     {
       struct ng_filter *f = (struct ng_filter *)((char *)item - (signed long int)(unsigned long int)&((struct ng_filter *)0)->list);
-      signed int return_value_strcasecmp$12;
-      return_value_strcasecmp$12=strcasecmp(f->name, val);
-      if(return_value_strcasecmp$12 == 0)
+      signed int return_value_strcasecmp_12;
+      return_value_strcasecmp_12=strcasecmp(f->name, val);
+      if(return_value_strcasecmp_12 == 0)
         cur_filter = f;
 
     }
@@ -10505,11 +10505,11 @@ static void * record_audio_thread(void *arg)
 {
   struct movie_handle *h = (struct movie_handle *)arg;
   struct ng_audio_buf *buf;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "record_audio_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "record_audio_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
   buf=h->dsp->read(h->hdsp, (signed long int)h->stopby);
@@ -10518,14 +10518,14 @@ static void * record_audio_thread(void *arg)
     if(!(buf->size == 0))
     {
       h->ats = (unsigned long int)buf->info.ts;
-      signed long int return_value_ng_get_timestamp$2;
-      return_value_ng_get_timestamp$2=ng_get_timestamp();
-      h->rts = (unsigned long int)return_value_ng_get_timestamp$2 - h->start;
+      signed long int return_value_ng_get_timestamp_2;
+      return_value_ng_get_timestamp_2=ng_get_timestamp();
+      h->rts = (unsigned long int)return_value_ng_get_timestamp_2 - h->start;
       h->rdrift = h->rts - h->ats;
       h->vdrift = h->vts - h->ats;
-      signed int return_value_fifo_put$3;
-      return_value_fifo_put$3=fifo_put(&h->afifo, (void *)buf);
-      if(!(return_value_fifo_put$3 == 0))
+      signed int return_value_fifo_put_3;
+      return_value_fifo_put_3=fifo_put(&h->afifo, (void *)buf);
+      if(!(return_value_fifo_put_3 == 0))
         free((void *)buf);
 
     }
@@ -10545,23 +10545,23 @@ static void redblue_swap(unsigned char *dest, unsigned char *src, signed int p)
 {
   unsigned char *s = src;
   unsigned char *d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
-    unsigned char *tmp_post$2 = d;
+    unsigned char *tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = s[(signed long int)2];
-    unsigned char *tmp_post$3 = d;
+    *tmp_post_2 = s[(signed long int)2];
+    unsigned char *tmp_post_3 = d;
     d = d + 1l;
-    *tmp_post$3 = s[(signed long int)1];
-    unsigned char *tmp_post$4 = d;
+    *tmp_post_3 = s[(signed long int)1];
+    unsigned char *tmp_post_4 = d;
     d = d + 1l;
-    *tmp_post$4 = s[(signed long int)0];
+    *tmp_post_4 = s[(signed long int)0];
     s = s + (signed long int)3;
   }
   while((_Bool)1);
@@ -10575,20 +10575,20 @@ static void rgb15_be_gray(unsigned char * restrict dest, unsigned char * restric
   signed int g;
   signed int b;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     r = ((signed int)src[(signed long int)0] & 0x7c) >> 2;
     g = ((signed int)src[(signed long int)0] & 0x03) << 3 | ((signed int)src[(signed long int)1] & 0xe0) >> 5;
     b = (signed int)src[(signed long int)1] & 0x1f;
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
+    *tmp_post_2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
     src = src + (signed long int)2;
   }
   while((_Bool)1);
@@ -10602,20 +10602,20 @@ static void rgb15_native_gray(unsigned char * restrict dest, unsigned char *s, s
   signed int g;
   signed int b;
   unsigned short int * restrict src = (unsigned short int *)s;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     r = ((signed int)src[(signed long int)0] & 0x7c00) >> 10;
     g = ((signed int)src[(signed long int)0] & 0x03e0) >> 5;
     b = (signed int)src[(signed long int)0] & 0x001f;
-    unsigned char * restrict tmp_post$2 = dest;
+    unsigned char * restrict tmp_post_2 = dest;
     dest = dest + 1l;
-    *tmp_post$2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
+    *tmp_post_2 = (unsigned char)((3 * r + 6 * g + b) / 10 << 3);
     src = src + 1l;
   }
   while((_Bool)1);
@@ -10627,24 +10627,24 @@ static void rgb32_to_bgr24(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     s = s + 1l;
-    unsigned char * restrict tmp_post$2 = s;
+    unsigned char * restrict tmp_post_2 = s;
     s = s + 1l;
-    d[(signed long int)2] = *tmp_post$2;
-    unsigned char * restrict tmp_post$3 = s;
+    d[(signed long int)2] = *tmp_post_2;
+    unsigned char * restrict tmp_post_3 = s;
     s = s + 1l;
-    d[(signed long int)1] = *tmp_post$3;
-    unsigned char * restrict tmp_post$4 = s;
+    d[(signed long int)1] = *tmp_post_3;
+    unsigned char * restrict tmp_post_4 = s;
     s = s + 1l;
-    d[(signed long int)0] = *tmp_post$4;
+    d[(signed long int)0] = *tmp_post_4;
     d = d + (signed long int)3;
   }
   while((_Bool)1);
@@ -10655,17 +10655,17 @@ static void rgb32_to_bgr24(unsigned char * restrict dest, unsigned char * restri
 static void rgb32_to_lut2(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned short int * restrict d = (unsigned short int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned short int * restrict tmp_post$2 = d;
+    unsigned short int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
+    *tmp_post_2 = (unsigned short int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -10676,17 +10676,17 @@ static void rgb32_to_lut2(unsigned char * restrict dest, unsigned char * restric
 static void rgb32_to_lut4(unsigned char * restrict dest, unsigned char * restrict src, signed int p)
 {
   unsigned int * restrict d = (unsigned int *)dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(!(tmp_post$1 >= 1))
+    if(!(tmp_post_1 >= 1))
       break;
 
-    unsigned int * restrict tmp_post$2 = d;
+    unsigned int * restrict tmp_post_2 = d;
     d = d + 1l;
-    *tmp_post$2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
+    *tmp_post_2 = (unsigned int)(ng_lut_red[(signed long int)src[(signed long int)1]] | ng_lut_green[(signed long int)src[(signed long int)2]] | ng_lut_blue[(signed long int)src[(signed long int)3]]);
     src = src + (signed long int)4;
   }
   while((_Bool)1);
@@ -10698,30 +10698,30 @@ static void rgb32_to_rgb24(unsigned char * restrict dest, unsigned char * restri
 {
   unsigned char * restrict s = src;
   unsigned char * restrict d = dest;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     s = s + 1l;
-    unsigned char * restrict tmp_post$2 = d;
+    unsigned char * restrict tmp_post_2 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$3 = s;
+    unsigned char * restrict tmp_post_3 = s;
     s = s + 1l;
-    *tmp_post$2 = *tmp_post$3;
-    unsigned char * restrict tmp_post$4 = d;
+    *tmp_post_2 = *tmp_post_3;
+    unsigned char * restrict tmp_post_4 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$5 = s;
+    unsigned char * restrict tmp_post_5 = s;
     s = s + 1l;
-    *tmp_post$4 = *tmp_post$5;
-    unsigned char * restrict tmp_post$6 = d;
+    *tmp_post_4 = *tmp_post_5;
+    unsigned char * restrict tmp_post_6 = d;
     d = d + 1l;
-    unsigned char * restrict tmp_post$7 = s;
+    unsigned char * restrict tmp_post_7 = s;
     s = s + 1l;
-    *tmp_post$6 = *tmp_post$7;
+    *tmp_post_6 = *tmp_post_7;
   }
   while((_Bool)1);
 }
@@ -10735,32 +10735,32 @@ void save_config(void)
   char filename2[100l];
   struct _IO_FILE *fp;
   signed int i;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("HOME");
-  sprintf(filename1, "%s/%s", return_value_getenv$1, (const void *)".xawtv");
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("HOME");
-  sprintf(filename2, "%s/%s", return_value_getenv$2, (const void *)".xawtv~");
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("HOME");
+  sprintf(filename1, "%s/%s", return_value_getenv_1, (const void *)".xawtv");
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("HOME");
+  sprintf(filename2, "%s/%s", return_value_getenv_2, (const void *)".xawtv~");
   unlink(filename2);
-  signed int return_value_link$3;
-  return_value_link$3=link(filename1, filename2);
-  if(return_value_link$3 == 0)
+  signed int return_value_link_3;
+  return_value_link_3=link(filename1, filename2);
+  if(return_value_link_3 == 0)
     unlink(filename1);
 
   fp=fopen(filename1, "w");
-  signed int return_value_ng_attr_int2percent$13;
-  signed int return_value_ng_attr_int2percent$14;
-  signed int return_value_ng_attr_int2percent$15;
-  signed int return_value_ng_attr_int2percent$16;
-  struct ng_attribute *return_value_ng_attr_byid$18;
-  const char *return_value_ng_attr_getstr$19;
-  struct ng_attribute *return_value_ng_attr_byid$20;
-  const char *return_value_ng_attr_getstr$21;
-  const char *return_value_int_to_str$23;
-  signed int return_value_ng_attr_int2percent$24;
-  signed int return_value_ng_attr_int2percent$25;
-  signed int return_value_ng_attr_int2percent$26;
-  signed int return_value_ng_attr_int2percent$27;
+  signed int return_value_ng_attr_int2percent_13;
+  signed int return_value_ng_attr_int2percent_14;
+  signed int return_value_ng_attr_int2percent_15;
+  signed int return_value_ng_attr_int2percent_16;
+  struct ng_attribute *return_value_ng_attr_byid_18;
+  const char *return_value_ng_attr_getstr_19;
+  struct ng_attribute *return_value_ng_attr_byid_20;
+  const char *return_value_ng_attr_getstr_21;
+  const char *return_value_int_to_str_23;
+  signed int return_value_ng_attr_int2percent_24;
+  signed int return_value_ng_attr_int2percent_25;
+  signed int return_value_ng_attr_int2percent_26;
+  signed int return_value_ng_attr_int2percent_27;
   if(fp == ((struct _IO_FILE *)NULL))
     fprintf(stderr, "can't open config file %s\n", (const void *)filename1);
 
@@ -10780,19 +10780,19 @@ void save_config(void)
     fprintf(fp, "pixsize = %d x %d\n", pix_width, pix_height);
     fprintf(fp, "pixcols = %d\n", pix_cols);
     fprintf(fp, "jpeg-quality = %d\n", ng_jpeg_quality);
-    const char *return_value_int_to_str$4;
-    return_value_int_to_str$4=int_to_str(keypad_ntsc, booltab);
-    fprintf(fp, "keypad-ntsc = %s\n", return_value_int_to_str$4);
-    const char *return_value_int_to_str$5;
-    return_value_int_to_str$5=int_to_str(keypad_partial, booltab);
-    fprintf(fp, "keypad-partial = %s\n", return_value_int_to_str$5);
-    const char *return_value_int_to_str$6;
-    return_value_int_to_str$6=int_to_str(use_osd, booltab);
-    fprintf(fp, "osd = %s\n", return_value_int_to_str$6);
+    const char *return_value_int_to_str_4;
+    return_value_int_to_str_4=int_to_str(keypad_ntsc, booltab);
+    fprintf(fp, "keypad-ntsc = %s\n", return_value_int_to_str_4);
+    const char *return_value_int_to_str_5;
+    return_value_int_to_str_5=int_to_str(keypad_partial, booltab);
+    fprintf(fp, "keypad-partial = %s\n", return_value_int_to_str_5);
+    const char *return_value_int_to_str_6;
+    return_value_int_to_str_6=int_to_str(use_osd, booltab);
+    fprintf(fp, "osd = %s\n", return_value_int_to_str_6);
     fprintf(fp, "osd-position = %d , %d\n", osd_x, osd_y);
-    const char *return_value_int_to_str$7;
-    return_value_int_to_str$7=int_to_str(use_wm_fullscreen, booltab);
-    fprintf(fp, "use-wm-fullscreen = %s\n", return_value_int_to_str$7);
+    const char *return_value_int_to_str_7;
+    return_value_int_to_str_7=int_to_str(use_wm_fullscreen, booltab);
+    fprintf(fp, "use-wm-fullscreen = %s\n", return_value_int_to_str_7);
     if(!(mixer == ((char *)NULL)))
       fprintf(fp, "mixer = %s\n", mixer);
 
@@ -10839,26 +10839,26 @@ void save_config(void)
     fprintf(fp, "\n");
     fprintf(fp, "[defaults]\n");
     fprintf(fp, "group = %s\n", defaults.group);
-    struct ng_attribute *return_value_ng_attr_byid$8;
-    return_value_ng_attr_byid$8=ng_attr_byid(attrs, 1);
-    const char *return_value_ng_attr_getstr$9;
-    return_value_ng_attr_getstr$9=ng_attr_getstr(return_value_ng_attr_byid$8, cur_attrs[(signed long int)1]);
-    fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr$9);
-    struct ng_attribute *return_value_ng_attr_byid$10;
-    return_value_ng_attr_byid$10=ng_attr_byid(attrs, 2);
-    const char *return_value_ng_attr_getstr$11;
-    return_value_ng_attr_getstr$11=ng_attr_getstr(return_value_ng_attr_byid$10, cur_attrs[(signed long int)2]);
-    fprintf(fp, "input = %s\n", return_value_ng_attr_getstr$11);
-    const char *return_value_int_to_str$12;
-    return_value_int_to_str$12=int_to_str(cur_capture, captab);
-    fprintf(fp, "capture = %s\n", return_value_int_to_str$12);
+    struct ng_attribute *return_value_ng_attr_byid_8;
+    return_value_ng_attr_byid_8=ng_attr_byid(attrs, 1);
+    const char *return_value_ng_attr_getstr_9;
+    return_value_ng_attr_getstr_9=ng_attr_getstr(return_value_ng_attr_byid_8, cur_attrs[(signed long int)1]);
+    fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr_9);
+    struct ng_attribute *return_value_ng_attr_byid_10;
+    return_value_ng_attr_byid_10=ng_attr_byid(attrs, 2);
+    const char *return_value_ng_attr_getstr_11;
+    return_value_ng_attr_getstr_11=ng_attr_getstr(return_value_ng_attr_byid_10, cur_attrs[(signed long int)2]);
+    fprintf(fp, "input = %s\n", return_value_ng_attr_getstr_11);
+    const char *return_value_int_to_str_12;
+    return_value_int_to_str_12=int_to_str(cur_capture, captab);
+    fprintf(fp, "capture = %s\n", return_value_int_to_str_12);
     attr=ng_attr_byid(attrs, 6);
     if(!(attr == ((struct ng_attribute *)NULL)))
     {
       if(!(attr->defval == cur_attrs[6l]))
       {
-        return_value_ng_attr_int2percent$13=ng_attr_int2percent(attr, cur_attrs[(signed long int)6]);
-        fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent$13);
+        return_value_ng_attr_int2percent_13=ng_attr_int2percent(attr, cur_attrs[(signed long int)6]);
+        fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent_13);
       }
 
     }
@@ -10868,8 +10868,8 @@ void save_config(void)
     {
       if(!(attr->defval == cur_attrs[7l]))
       {
-        return_value_ng_attr_int2percent$14=ng_attr_int2percent(attr, cur_attrs[(signed long int)7]);
-        fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent$14);
+        return_value_ng_attr_int2percent_14=ng_attr_int2percent(attr, cur_attrs[(signed long int)7]);
+        fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent_14);
       }
 
     }
@@ -10879,8 +10879,8 @@ void save_config(void)
     {
       if(!(attr->defval == cur_attrs[8l]))
       {
-        return_value_ng_attr_int2percent$15=ng_attr_int2percent(attr, cur_attrs[(signed long int)8]);
-        fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent$15);
+        return_value_ng_attr_int2percent_15=ng_attr_int2percent(attr, cur_attrs[(signed long int)8]);
+        fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent_15);
       }
 
     }
@@ -10890,8 +10890,8 @@ void save_config(void)
     {
       if(!(attr->defval == cur_attrs[9l]))
       {
-        return_value_ng_attr_int2percent$16=ng_attr_int2percent(attr, cur_attrs[(signed long int)9]);
-        fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent$16);
+        return_value_ng_attr_int2percent_16=ng_attr_int2percent(attr, cur_attrs[(signed long int)9]);
+        fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent_16);
       }
 
     }
@@ -10903,13 +10903,13 @@ void save_config(void)
       fprintf(fp, "[%s]\n", channels[(signed long int)i]->name);
       if(!(channels[(signed long int)i]->cname == ((char *)NULL)))
       {
-        struct CHANLIST *tmp_if_expr$17;
+        struct CHANLIST *tmp_if_expr_17;
         if(!(chantab == -1))
-          tmp_if_expr$17 = (chanlists + (signed long int)chantab)->list;
+          tmp_if_expr_17 = (chanlists + (signed long int)chantab)->list;
 
         else
-          tmp_if_expr$17 = (struct CHANLIST *)(void *)0;
-        fprintf(fp, "channel = %s\n", (tmp_if_expr$17 + (signed long int)channels[(signed long int)i]->channel)->name);
+          tmp_if_expr_17 = (struct CHANLIST *)(void *)0;
+        fprintf(fp, "channel = %s\n", (tmp_if_expr_17 + (signed long int)channels[(signed long int)i]->channel)->name);
         if(!(channels[(signed long int)i]->fine == 0))
           fprintf(fp, "fine = %+d\n", channels[(signed long int)i]->fine);
 
@@ -10919,24 +10919,24 @@ void save_config(void)
         fprintf(fp, "freq = %.2f\n", (float)channels[(signed long int)i]->freq / (float)16);
       if(!(channels[(signed long int)i]->norm == cur_attrs[1l]))
       {
-        return_value_ng_attr_byid$18=ng_attr_byid(attrs, 1);
-        return_value_ng_attr_getstr$19=ng_attr_getstr(return_value_ng_attr_byid$18, channels[(signed long int)i]->norm);
-        fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr$19);
+        return_value_ng_attr_byid_18=ng_attr_byid(attrs, 1);
+        return_value_ng_attr_getstr_19=ng_attr_getstr(return_value_ng_attr_byid_18, channels[(signed long int)i]->norm);
+        fprintf(fp, "norm = %s\n", return_value_ng_attr_getstr_19);
       }
 
       if(!(channels[(signed long int)i]->input == cur_attrs[2l]))
       {
-        return_value_ng_attr_byid$20=ng_attr_byid(attrs, 2);
-        return_value_ng_attr_getstr$21=ng_attr_getstr(return_value_ng_attr_byid$20, channels[(signed long int)i]->input);
-        fprintf(fp, "input = %s\n", return_value_ng_attr_getstr$21);
+        return_value_ng_attr_byid_20=ng_attr_byid(attrs, 2);
+        return_value_ng_attr_getstr_21=ng_attr_getstr(return_value_ng_attr_byid_20, channels[(signed long int)i]->input);
+        fprintf(fp, "input = %s\n", return_value_ng_attr_getstr_21);
       }
 
       if(!(channels[(signed long int)i]->key == ((char *)NULL)))
         fprintf(fp, "key = %s\n", channels[(signed long int)i]->key);
 
-      signed int return_value_strcmp$22;
-      return_value_strcmp$22=strcmp(channels[(signed long int)i]->group, defaults.group);
-      if(!(return_value_strcmp$22 == 0))
+      signed int return_value_strcmp_22;
+      return_value_strcmp_22=strcmp(channels[(signed long int)i]->group, defaults.group);
+      if(!(return_value_strcmp_22 == 0))
         fprintf(fp, "group = %s\n", channels[(signed long int)i]->group);
 
       if(!(channels[(signed long int)i]->midi == 0))
@@ -10944,8 +10944,8 @@ void save_config(void)
 
       if(!(channels[(signed long int)i]->capture == cur_capture))
       {
-        return_value_int_to_str$23=int_to_str(channels[(signed long int)i]->capture, captab);
-        fprintf(fp, "capture = %s\n", return_value_int_to_str$23);
+        return_value_int_to_str_23=int_to_str(channels[(signed long int)i]->capture, captab);
+        fprintf(fp, "capture = %s\n", return_value_int_to_str_23);
       }
 
       attr=ng_attr_byid(attrs, 6);
@@ -10953,8 +10953,8 @@ void save_config(void)
       {
         if(!(cur_attrs[6l] == channels[(signed long int)i]->color))
         {
-          return_value_ng_attr_int2percent$24=ng_attr_int2percent(attr, channels[(signed long int)i]->color);
-          fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent$24);
+          return_value_ng_attr_int2percent_24=ng_attr_int2percent(attr, channels[(signed long int)i]->color);
+          fprintf(fp, "color = %d%%\n", return_value_ng_attr_int2percent_24);
         }
 
       }
@@ -10964,8 +10964,8 @@ void save_config(void)
       {
         if(!(cur_attrs[7l] == channels[(signed long int)i]->bright))
         {
-          return_value_ng_attr_int2percent$25=ng_attr_int2percent(attr, channels[(signed long int)i]->bright);
-          fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent$25);
+          return_value_ng_attr_int2percent_25=ng_attr_int2percent(attr, channels[(signed long int)i]->bright);
+          fprintf(fp, "bright = %d%%\n", return_value_ng_attr_int2percent_25);
         }
 
       }
@@ -10975,8 +10975,8 @@ void save_config(void)
       {
         if(!(cur_attrs[8l] == channels[(signed long int)i]->hue))
         {
-          return_value_ng_attr_int2percent$26=ng_attr_int2percent(attr, channels[(signed long int)i]->hue);
-          fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent$26);
+          return_value_ng_attr_int2percent_26=ng_attr_int2percent(attr, channels[(signed long int)i]->hue);
+          fprintf(fp, "hue = %d%%\n", return_value_ng_attr_int2percent_26);
         }
 
       }
@@ -10986,8 +10986,8 @@ void save_config(void)
       {
         if(!(cur_attrs[9l] == channels[(signed long int)i]->contrast))
         {
-          return_value_ng_attr_int2percent$27=ng_attr_int2percent(attr, channels[(signed long int)i]->contrast);
-          fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent$27);
+          return_value_ng_attr_int2percent_27=ng_attr_int2percent(attr, channels[(signed long int)i]->contrast);
+          fprintf(fp, "contrast = %d%%\n", return_value_ng_attr_int2percent_27);
         }
 
       }
@@ -11119,10 +11119,10 @@ static void set_msg_int(struct ng_attribute *attr, signed int val)
 {
   if(!(display_message == ((void (*)(char *))NULL)))
   {
-    signed int return_value_ng_attr_int2percent$1;
-    return_value_ng_attr_int2percent$1=ng_attr_int2percent(attr, val);
+    signed int return_value_ng_attr_int2percent_1;
+    return_value_ng_attr_int2percent_1=ng_attr_int2percent(attr, val);
     static char title[256l];
-    sprintf(title, "%s: %d%%", attr->name, return_value_ng_attr_int2percent$1);
+    sprintf(title, "%s: %d%%", attr->name, return_value_ng_attr_int2percent_1);
     display_message(title);
   }
 
@@ -11162,7 +11162,7 @@ static void set_title(void)
 {
   const char *norm;
   keypad_state = -1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(update_title == ((void (*)(char *))NULL)))
   {
     static char title[256l];
@@ -11172,25 +11172,25 @@ static void set_title(void)
     else
       if(!(cur_channel == -1))
       {
-        struct CHANLIST *tmp_if_expr$1;
+        struct CHANLIST *tmp_if_expr_1;
         if(!(chantab == -1))
-          tmp_if_expr$1 = (chanlists + (signed long int)chantab)->list;
+          tmp_if_expr_1 = (chanlists + (signed long int)chantab)->list;
 
         else
-          tmp_if_expr$1 = (struct CHANLIST *)(void *)0;
-        sprintf(title, "channel %s", (tmp_if_expr$1 + (signed long int)cur_channel)->name);
+          tmp_if_expr_1 = (struct CHANLIST *)(void *)0;
+        sprintf(title, "channel %s", (tmp_if_expr_1 + (signed long int)cur_channel)->name);
         if(!(cur_fine == 0))
         {
-          return_value_strlen$2=strlen(title);
-          sprintf(title + (signed long int)return_value_strlen$2, " (%d)", cur_fine);
+          return_value_strlen_2=strlen(title);
+          sprintf(title + (signed long int)return_value_strlen_2, " (%d)", cur_fine);
         }
 
-        struct ng_attribute *return_value_ng_attr_byid$3;
-        return_value_ng_attr_byid$3=ng_attr_byid(attrs, 1);
-        norm=ng_attr_getstr(return_value_ng_attr_byid$3, cur_attrs[(signed long int)1]);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(title);
-        sprintf(title + (signed long int)return_value_strlen$4, " (%s/%s)", norm != ((const char *)NULL) ? norm : "???", (chanlists + (signed long int)chantab)->name);
+        struct ng_attribute *return_value_ng_attr_byid_3;
+        return_value_ng_attr_byid_3=ng_attr_byid(attrs, 1);
+        norm=ng_attr_getstr(return_value_ng_attr_byid_3, cur_attrs[(signed long int)1]);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(title);
+        sprintf(title + (signed long int)return_value_strlen_4, " (%s/%s)", norm != ((const char *)NULL) ? norm : "???", (chanlists + (signed long int)chantab)->name);
       }
 
       else
@@ -11217,12 +11217,12 @@ static void set_volume(signed int val)
 static signed int setchannel_handler(char *name, signed int argc, char **argv)
 {
   signed int i;
-  signed int setchannel_handler$$1$$c;
+  signed int setchannel_handler__1__c;
   signed int orig_mute;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_get_freq$11;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_get_freq_11;
   if((4 & f_drv) == 0)
     return 0;
 
@@ -11244,13 +11244,13 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
 
       else
       {
-        signed int return_value_strcasecmp$12;
-        return_value_strcasecmp$12=strcasecmp("setfreq", name);
-        if(return_value_strcasecmp$12 == 0)
+        signed int return_value_strcasecmp_12;
+        return_value_strcasecmp_12=strcasecmp("setfreq", name);
+        if(return_value_strcasecmp_12 == 0)
         {
-          double return_value_atof$1;
-          return_value_atof$1=atof(argv[(signed long int)0]);
-          cur_freq = (signed int)(unsigned long int)(return_value_atof$1 * (double)16);
+          double return_value_atof_1;
+          return_value_atof_1=atof(argv[(signed long int)0]);
+          cur_freq = (signed int)(unsigned long int)(return_value_atof_1 * (double)16);
           cur_sender = -1;
           cur_channel = -1;
           cur_fine = 0;
@@ -11258,59 +11258,59 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
 
         else
         {
-          signed int return_value_strcasecmp$8;
-          return_value_strcasecmp$8=strcasecmp(argv[(signed long int)0], "next");
-          if(return_value_strcasecmp$8 == 0)
+          signed int return_value_strcasecmp_8;
+          return_value_strcasecmp_8=strcasecmp(argv[(signed long int)0], "next");
+          if(return_value_strcasecmp_8 == 0)
           {
-            signed int tmp_if_expr$2;
+            signed int tmp_if_expr_2;
             if(!(chantab == -1))
-              tmp_if_expr$2 = (chanlists + (signed long int)chantab)->count;
+              tmp_if_expr_2 = (chanlists + (signed long int)chantab)->count;
 
             else
-              tmp_if_expr$2 = 0;
-            cur_channel = (cur_channel + 1) % tmp_if_expr$2;
+              tmp_if_expr_2 = 0;
+            cur_channel = (cur_channel + 1) % tmp_if_expr_2;
             cur_fine = defaults.fine;
           }
 
           else
           {
-            return_value_strcasecmp$7=strcasecmp(argv[(signed long int)0], "prev");
-            if(return_value_strcasecmp$7 == 0)
+            return_value_strcasecmp_7=strcasecmp(argv[(signed long int)0], "prev");
+            if(return_value_strcasecmp_7 == 0)
             {
-              signed int tmp_if_expr$3;
+              signed int tmp_if_expr_3;
               if(!(chantab == -1))
-                tmp_if_expr$3 = (chanlists + (signed long int)chantab)->count;
+                tmp_if_expr_3 = (chanlists + (signed long int)chantab)->count;
 
               else
-                tmp_if_expr$3 = 0;
-              signed int tmp_if_expr$4;
+                tmp_if_expr_3 = 0;
+              signed int tmp_if_expr_4;
               if(!(chantab == -1))
-                tmp_if_expr$4 = (chanlists + (signed long int)chantab)->count;
+                tmp_if_expr_4 = (chanlists + (signed long int)chantab)->count;
 
               else
-                tmp_if_expr$4 = 0;
-              cur_channel = ((cur_channel + tmp_if_expr$3) - 1) % tmp_if_expr$4;
+                tmp_if_expr_4 = 0;
+              cur_channel = ((cur_channel + tmp_if_expr_3) - 1) % tmp_if_expr_4;
               cur_fine = defaults.fine;
             }
 
             else
             {
-              return_value_strcasecmp$6=strcasecmp(argv[(signed long int)0], "fine_up");
-              if(return_value_strcasecmp$6 == 0)
+              return_value_strcasecmp_6=strcasecmp(argv[(signed long int)0], "fine_up");
+              if(return_value_strcasecmp_6 == 0)
                 cur_fine = cur_fine + 1;
 
               else
               {
-                return_value_strcasecmp$5=strcasecmp(argv[(signed long int)0], "fine_down");
-                if(return_value_strcasecmp$5 == 0)
+                return_value_strcasecmp_5=strcasecmp(argv[(signed long int)0], "fine_down");
+                if(return_value_strcasecmp_5 == 0)
                   cur_fine = cur_fine - 1;
 
                 else
                 {
-                  setchannel_handler$$1$$c=lookup_channel(argv[(signed long int)0]);
-                  if(!(setchannel_handler$$1$$c == -1))
+                  setchannel_handler__1__c=lookup_channel(argv[(signed long int)0]);
+                  if(!(setchannel_handler__1__c == -1))
                   {
-                    cur_channel = setchannel_handler$$1$$c;
+                    cur_channel = setchannel_handler__1__c;
                     cur_fine = defaults.fine;
                   }
 
@@ -11318,20 +11318,20 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
               }
             }
           }
-          signed int return_value_strncmp$10;
-          return_value_strncmp$10=strncmp(argv[(signed long int)0], "fine", (unsigned long int)4);
-          if(!(return_value_strncmp$10 == 0))
+          signed int return_value_strncmp_10;
+          return_value_strncmp_10=strncmp(argv[(signed long int)0], "fine", (unsigned long int)4);
+          if(!(return_value_strncmp_10 == 0))
           {
             i = 0;
             for( ; !(i >= count); i = i + 1)
               if(cur_channel == channels[(signed long int)i]->channel)
               {
-                char *setchannel_handler$$1$$4$$6$$1$$1$$1$$argv[2l];
-                setchannel_handler$$1$$4$$6$$1$$1$$1$$argv[(signed long int)0] = channels[(signed long int)i]->name;
-                setchannel_handler$$1$$4$$6$$1$$1$$1$$argv[(signed long int)1] = (char *)(void *)0;
-                signed int return_value_setstation_handler$9;
-                return_value_setstation_handler$9=setstation_handler("", argc, setchannel_handler$$1$$4$$6$$1$$1$$1$$argv);
-                return return_value_setstation_handler$9;
+                char *setchannel_handler__1__4__6__1__1__1__argv[2l];
+                setchannel_handler__1__4__6__1__1__1__argv[(signed long int)0] = channels[(signed long int)i]->name;
+                setchannel_handler__1__4__6__1__1__1__argv[(signed long int)1] = (char *)(void *)0;
+                signed int return_value_setstation_handler_9;
+                return_value_setstation_handler_9=setstation_handler("", argc, setchannel_handler__1__4__6__1__1__1__argv);
+                return return_value_setstation_handler_9;
               }
 
           }
@@ -11339,8 +11339,8 @@ static signed int setchannel_handler(char *name, signed int argc, char **argv)
           cur_sender = -1;
           if(!(cur_channel == -1))
           {
-            return_value_get_freq$11=get_freq(cur_channel);
-            cur_freq = return_value_get_freq$11 + cur_fine;
+            return_value_get_freq_11=get_freq(cur_channel);
+            cur_freq = return_value_get_freq_11 + cur_fine;
           }
 
           else
@@ -11402,12 +11402,12 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
   struct ng_attribute *attr;
   signed int i;
   signed int orig_mute;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$1;
-  char *return_value_strcasestr$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_1;
+  char *return_value_strcasestr_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if((4 & f_drv) == 0)
     return 0;
 
@@ -11429,44 +11429,44 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
 
       else
       {
-        _Bool tmp_if_expr$9;
+        _Bool tmp_if_expr_9;
         if(!(count == 0))
         {
-          return_value_strcasecmp$8=strcasecmp(argv[(signed long int)0], "next");
-          tmp_if_expr$9 = 0 == return_value_strcasecmp$8 ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_8=strcasecmp(argv[(signed long int)0], "next");
+          tmp_if_expr_9 = 0 == return_value_strcasecmp_8 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
           i = (cur_sender + 1) % count;
 
         else
         {
-          _Bool tmp_if_expr$7;
+          _Bool tmp_if_expr_7;
           if(!(count == 0))
           {
-            return_value_strcasecmp$6=strcasecmp(argv[(signed long int)0], "prev");
-            tmp_if_expr$7 = 0 == return_value_strcasecmp$6 ? (_Bool)1 : (_Bool)0;
+            return_value_strcasecmp_6=strcasecmp(argv[(signed long int)0], "prev");
+            tmp_if_expr_7 = 0 == return_value_strcasecmp_6 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
             i = ((cur_sender + count) - 1) % count;
 
           else
           {
-            _Bool tmp_if_expr$5;
+            _Bool tmp_if_expr_5;
             if(!(count == 0))
             {
-              return_value_strcasecmp$4=strcasecmp(argv[(signed long int)0], "back");
-              tmp_if_expr$5 = 0 == return_value_strcasecmp$4 ? (_Bool)1 : (_Bool)0;
+              return_value_strcasecmp_4=strcasecmp(argv[(signed long int)0], "back");
+              tmp_if_expr_5 = 0 == return_value_strcasecmp_4 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(tmp_if_expr$5)
+              tmp_if_expr_5 = (_Bool)0;
+            if(tmp_if_expr_5)
             {
               if(last_sender == -1)
                 return -1;
@@ -11479,8 +11479,8 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
               i = 0;
               for( ; !(i >= count); i = i + 1)
               {
-                return_value_strcasecmp$1=strcasecmp(channels[(signed long int)i]->name, argv[(signed long int)0]);
-                if(return_value_strcasecmp$1 == 0)
+                return_value_strcasecmp_1=strcasecmp(channels[(signed long int)i]->name, argv[(signed long int)0]);
+                if(return_value_strcasecmp_1 == 0)
                   break;
 
               }
@@ -11489,8 +11489,8 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
                 i = 0;
                 for( ; !(i >= count); i = i + 1)
                 {
-                  return_value_strcasestr$2=strcasestr(channels[(signed long int)i]->name, argv[(signed long int)0]);
-                  if(!(return_value_strcasestr$2 == ((char *)NULL)))
+                  return_value_strcasestr_2=strcasestr(channels[(signed long int)i]->name, argv[(signed long int)0]);
+                  if(!(return_value_strcasestr_2 == ((char *)NULL)))
                     break;
 
                 }
@@ -11498,8 +11498,8 @@ static signed int setstation_handler(char *name, signed int argc, char **argv)
 
               if(i == count)
               {
-                return_value___ctype_b_loc$3=__ctype_b_loc();
-                if(!((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*(*argv)]) == 0))
+                return_value___ctype_b_loc_3=__ctype_b_loc();
+                if(!((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*(*argv)]) == 0))
                   i=atoi(argv[(signed long int)0]);
 
               }
@@ -11589,7 +11589,7 @@ static signed int show_handler(char *name, signed int argc, char **argv)
   struct ng_attribute *attr;
   char *n[2l] = { (char *)(void *)0, (char *)(void *)0 };
   signed int val;
-  const char *return_value_ng_attr_getstr$1;
+  const char *return_value_ng_attr_getstr_1;
   if(argc == 0)
   {
     attr = attrs;
@@ -11617,8 +11617,8 @@ static signed int show_handler(char *name, signed int argc, char **argv)
       {
         case 2:
         {
-          return_value_ng_attr_getstr$1=ng_attr_getstr(attr, val);
-          printf("%s: %s\n", attr->name, return_value_ng_attr_getstr$1);
+          return_value_ng_attr_getstr_1=ng_attr_getstr(attr, val);
+          printf("%s: %s\n", attr->name, return_value_ng_attr_getstr_1);
           break;
         }
         case 1:
@@ -11659,28 +11659,28 @@ char * snap_filename(char *base, char *channel, char *ext)
   char timestamp[32l];
   time(&now);
   tm=localtime(&now);
-  static signed int snap_filename$$1$$count = 0;
+  static signed int snap_filename__1__count = 0;
   static signed long int last = (signed long int)0;
   if(!(last == now))
-    snap_filename$$1$$count = 0;
+    snap_filename__1__count = 0;
 
   last = now;
-  snap_filename$$1$$count = snap_filename$$1$$count + 1;
+  snap_filename__1__count = snap_filename__1__count + 1;
   static char *filename = (char *)(void *)0;
   if(!(filename == ((char *)NULL)))
     free((void *)filename);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(base);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(channel);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(ext);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$1 + return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)32);
-  filename = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(base);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(channel);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(ext);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_1 + return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)32);
+  filename = (char *)return_value_malloc_4;
   strftime(timestamp, (unsigned long int)31, "%Y%m%d-%H%M%S", tm);
-  sprintf(filename, "%s-%s-%s-%d.%s", base, channel, (const void *)timestamp, snap_filename$$1$$count, ext);
+  sprintf(filename, "%s-%s-%s-%d.%s", base, channel, (const void *)timestamp, snap_filename__1__count, ext);
   return filename;
 }
 
@@ -11696,11 +11696,11 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
   signed int ret = 0;
   struct ng_video_fmt fmt;
   struct ng_video_buf *buf = (struct ng_video_buf *)(void *)0;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_sscanf$3;
-  unsigned long int return_value_strlen$7;
-  void *return_value_malloc$8;
-  signed int return_value_link$17;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_sscanf_3;
+  unsigned long int return_value_strlen_7;
+  void *return_value_malloc_8;
+  signed int return_value_link_17;
   if((2 & f_drv) == 0)
   {
     fprintf(stderr, "grabbing: not supported [try -noxv switch?]\n");
@@ -11723,14 +11723,14 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
 
       if(argc >= 1)
       {
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp(argv[(signed long int)0], "jpeg");
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp(argv[(signed long int)0], "jpeg");
+        if(return_value_strcasecmp_1 == 0)
           jpeg = 1;
 
-        signed int return_value_strcasecmp$2;
-        return_value_strcasecmp$2=strcasecmp(argv[(signed long int)0], "ppm");
-        if(return_value_strcasecmp$2 == 0)
+        signed int return_value_strcasecmp_2;
+        return_value_strcasecmp_2=strcasecmp(argv[(signed long int)0], "ppm");
+        if(return_value_strcasecmp_2 == 0)
           jpeg = 0;
 
       }
@@ -11741,12 +11741,12 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
       fmt.height = (unsigned int)1572;
       if(argc >= 2)
       {
-        signed int return_value_strcasecmp$5;
-        return_value_strcasecmp$5=strcasecmp(argv[(signed long int)1], "full");
-        if(!(return_value_strcasecmp$5 == 0))
+        signed int return_value_strcasecmp_5;
+        return_value_strcasecmp_5=strcasecmp(argv[(signed long int)1], "full");
+        if(!(return_value_strcasecmp_5 == 0))
         {
-          return_value_strcasecmp$4=strcasecmp(argv[(signed long int)1], "win");
-          if(return_value_strcasecmp$4 == 0)
+          return_value_strcasecmp_4=strcasecmp(argv[(signed long int)1], "win");
+          if(return_value_strcasecmp_4 == 0)
           {
             fmt.width = cur_tv_width;
             fmt.height = cur_tv_height;
@@ -11754,8 +11754,8 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
 
           else
           {
-            return_value_sscanf$3=sscanf(argv[(signed long int)1], "%dx%d", &fmt.width, &fmt.height);
-            if(!(return_value_sscanf$3 == 2))
+            return_value_sscanf_3=sscanf(argv[(signed long int)1], "%dx%d", &fmt.width, &fmt.height);
+            if(!(return_value_sscanf_3 == 2))
               return -1;
 
           }
@@ -11786,13 +11786,13 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
           else
             if(!(cur_channel == -1))
             {
-              struct CHANLIST *tmp_if_expr$6;
+              struct CHANLIST *tmp_if_expr_6;
               if(!(chantab == -1))
-                tmp_if_expr$6 = (chanlists + (signed long int)chantab)->list;
+                tmp_if_expr_6 = (chanlists + (signed long int)chantab)->list;
 
               else
-                tmp_if_expr$6 = (struct CHANLIST *)(void *)0;
-              name = (tmp_if_expr$6 + (signed long int)cur_channel)->name;
+                tmp_if_expr_6 = (struct CHANLIST *)(void *)0;
+              name = (tmp_if_expr_6 + (signed long int)cur_channel)->name;
             }
 
             else
@@ -11800,21 +11800,21 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
           filename=snap_filename(snapbase, name, jpeg != 0 ? "jpeg" : "ppm");
         }
 
-        return_value_strlen$7=strlen(filename);
-        return_value_malloc$8=malloc(return_value_strlen$7 + (unsigned long int)8);
-        tmpfilename = (char *)return_value_malloc$8;
-        sprintf(tmpfilename, "%s.$$$", filename);
+        return_value_strlen_7=strlen(filename);
+        return_value_malloc_8=malloc(return_value_strlen_7 + (unsigned long int)8);
+        tmpfilename = (char *)return_value_malloc_8;
+        sprintf(tmpfilename, "%s.___", filename);
         if(!(jpeg == 0))
         {
-          signed int return_value_write_jpeg$11;
-          return_value_write_jpeg$11=write_jpeg(tmpfilename, buf, ng_jpeg_quality, 0);
-          if(return_value_write_jpeg$11 == -1)
+          signed int return_value_write_jpeg_11;
+          return_value_write_jpeg_11=write_jpeg(tmpfilename, buf, ng_jpeg_quality, 0);
+          if(return_value_write_jpeg_11 == -1)
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            char *return_value_strerror$10;
-            return_value_strerror$10=strerror(*return_value___errno_location$9);
-            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror$10);
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            char *return_value_strerror_10;
+            return_value_strerror_10=strerror(*return_value___errno_location_9);
+            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror_10);
           }
 
           else
@@ -11823,29 +11823,29 @@ static signed int snap_handler(char *hname, signed int argc, char **argv)
 
         else
         {
-          signed int return_value_write_ppm$14;
-          return_value_write_ppm$14=write_ppm(tmpfilename, buf);
-          if(return_value_write_ppm$14 == -1)
+          signed int return_value_write_ppm_14;
+          return_value_write_ppm_14=write_ppm(tmpfilename, buf);
+          if(return_value_write_ppm_14 == -1)
           {
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            char *return_value_strerror$13;
-            return_value_strerror$13=strerror(*return_value___errno_location$12);
-            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror$13);
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            char *return_value_strerror_13;
+            return_value_strerror_13=strerror(*return_value___errno_location_12);
+            sprintf(message, "open %s: %s\n", tmpfilename, return_value_strerror_13);
           }
 
           else
             sprintf(message, "saved ppm: %s", filename);
         }
         unlink(filename);
-        return_value_link$17=link(tmpfilename, filename);
-        if(return_value_link$17 == -1)
+        return_value_link_17=link(tmpfilename, filename);
+        if(return_value_link_17 == -1)
         {
-          signed int *return_value___errno_location$15;
-          return_value___errno_location$15=__errno_location();
-          char *return_value_strerror$16;
-          return_value_strerror$16=strerror(*return_value___errno_location$15);
-          fprintf(stderr, "link(%s,%s): %s\n", tmpfilename, filename, return_value_strerror$16);
+          signed int *return_value___errno_location_15;
+          return_value___errno_location_15=__errno_location();
+          char *return_value_strerror_16;
+          return_value_strerror_16=strerror(*return_value___errno_location_15);
+          fprintf(stderr, "link(%s,%s): %s\n", tmpfilename, filename, return_value_strerror_16);
           goto done;
         }
 
@@ -11889,9 +11889,9 @@ static signed int sort_media_device_entry(const void *a, const void *b)
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(md_a->node, md_b->node);
-      return return_value_strcmp$1;
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(md_a->node, md_b->node);
+      return return_value_strcmp_1;
     }
   }
 }
@@ -11909,9 +11909,9 @@ char ** split_cmdline(char *line, signed int *count)
   static char *argv[32l];
   while(!(argc >= 31))
   {
-    signed int tmp_post$1 = argc;
+    signed int tmp_post_1 = argc;
     argc = argc + 1;
-    argv[(signed long int)tmp_post$1] = cmdline + (signed long int)i;
+    argv[(signed long int)tmp_post_1] = cmdline + (signed long int)i;
     for( ; !((signed int)cmdline[(signed long int)i] == 32); i = i + 1)
     {
       if((signed int)cmdline[(signed long int)i] == 9)
@@ -11924,9 +11924,9 @@ char ** split_cmdline(char *line, signed int *count)
     if((signed int)cmdline[(signed long int)i] == 0)
       break;
 
-    signed int tmp_post$2 = i;
+    signed int tmp_post_2 = i;
     i = i + 1;
-    cmdline[(signed long int)tmp_post$2] = (char)0;
+    cmdline[(signed long int)tmp_post_2] = (char)0;
     for( ; (_Bool)1; i = i + 1)
       if(!((signed int)cmdline[(signed long int)i] == 32))
       {
@@ -11952,23 +11952,23 @@ char ** split_cmdline(char *line, signed int *count)
 signed int str_to_int(char *str, struct STRTAB *tab)
 {
   signed int i;
-  signed int return_value_atoi$1;
+  signed int return_value_atoi_1;
   if((signed int)*str >= 48)
   {
     if(!((signed int)*str >= 58))
     {
-      return_value_atoi$1=atoi(str);
-      return return_value_atoi$1;
+      return_value_atoi_1=atoi(str);
+      return return_value_atoi_1;
     }
 
   }
 
   i = 0;
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   for( ; !((tab + (signed long int)i)->str == ((const char *)NULL)); i = i + 1)
   {
-    return_value_strcasecmp$2=strcasecmp(str, (tab + (signed long int)i)->str);
-    if(return_value_strcasecmp$2 == 0)
+    return_value_strcasecmp_2=strcasecmp(str, (tab + (signed long int)i)->str);
+    if(return_value_strcasecmp_2 == 0)
       return (signed int)(tab + (signed long int)i)->nr;
 
   }
@@ -12010,9 +12010,9 @@ static signed int tcp_connect(struct addrinfo *ai, char *host, char *serv)
   rc=getaddrinfo(host, serv, ai, &res);
   if(!(rc == 0))
   {
-    const char *return_value_gai_strerror$1;
-    return_value_gai_strerror$1=gai_strerror(rc);
-    fprintf(stderr, "tcp: getaddrinfo (%s:%s): %s\n", host, serv, return_value_gai_strerror$1);
+    const char *return_value_gai_strerror_1;
+    return_value_gai_strerror_1=gai_strerror(rc);
+    fprintf(stderr, "tcp: getaddrinfo (%s:%s): %s\n", host, serv, return_value_gai_strerror_1);
     return -1;
   }
 
@@ -12020,43 +12020,43 @@ static signed int tcp_connect(struct addrinfo *ai, char *host, char *serv)
     fprintf(stderr, "ok\n");
 
   e = res;
-  char *return_value_strfamily$3;
+  char *return_value_strfamily_3;
   for( ; !(e == ((struct addrinfo *)NULL)); e = e->ai_next)
   {
-    signed int return_value_getnameinfo$2;
-    return_value_getnameinfo$2=getnameinfo((struct sockaddr *)e->ai_addr, e->ai_addrlen, uhost, (unsigned int)46, userv, (unsigned int)32, 1 | 2);
-    if(!(return_value_getnameinfo$2 == 0))
+    signed int return_value_getnameinfo_2;
+    return_value_getnameinfo_2=getnameinfo((struct sockaddr *)e->ai_addr, e->ai_addrlen, uhost, (unsigned int)46, userv, (unsigned int)32, 1 | 2);
+    if(!(return_value_getnameinfo_2 == 0))
       fprintf(stderr, "tcp: getnameinfo (peer): oops\n");
 
     else
     {
       if(!(debug == 0))
       {
-        return_value_strfamily$3=strfamily(e->ai_family);
-        fprintf(stderr, "tcp: trying %s (%s:%s) ... ", return_value_strfamily$3, (const void *)uhost, (const void *)userv);
+        return_value_strfamily_3=strfamily(e->ai_family);
+        fprintf(stderr, "tcp: trying %s (%s:%s) ... ", return_value_strfamily_3, (const void *)uhost, (const void *)userv);
       }
 
       sock=socket(e->ai_family, e->ai_socktype, e->ai_protocol);
       if(sock == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        fprintf(stderr, "tcp: socket: %s\n", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        fprintf(stderr, "tcp: socket: %s\n", return_value_strerror_5);
         goto __CPROVER_DUMP_L10;
       }
 
       setsockopt(sock, 1, 2, (const void *)&opt, (unsigned int)sizeof(signed int) /*4ul*/ );
-      signed int return_value_connect$8;
-      return_value_connect$8=connect(sock, e->ai_addr, e->ai_addrlen);
-      if(return_value_connect$8 == -1)
+      signed int return_value_connect_8;
+      return_value_connect_8=connect(sock, e->ai_addr, e->ai_addrlen);
+      if(return_value_connect_8 == -1)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        fprintf(stderr, "tcp: connect: %s\n", return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        fprintf(stderr, "tcp: connect: %s\n", return_value_strerror_7);
         close(sock);
         goto __CPROVER_DUMP_L10;
       }
@@ -12080,9 +12080,9 @@ static signed int tcp_connect(struct addrinfo *ai, char *host, char *serv)
 static signed int tcp_readbuf(signed int sock, signed int timeout, char *dest, char dlen)
 {
   struct timeval tv;
-  struct anonymous$7 set;
+  struct anonymous_7 set;
   signed int rc;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
 
@@ -12090,17 +12090,17 @@ static signed int tcp_readbuf(signed int sock, signed int timeout, char *dest, c
     ;
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$7) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_7) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->fds_bits[(signed long int)0]) : "memory");
     (&set)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     tv.tv_sec = (signed long int)timeout;
     tv.tv_usec = (signed long int)0;
-    rc=select(sock + 1, &set, (struct anonymous$7 *)(void *)0, (struct anonymous$7 *)(void *)0, &tv);
+    rc=select(sock + 1, &set, (struct anonymous_7 *)(void *)0, (struct anonymous_7 *)(void *)0, &tv);
     if(!(rc == -1))
       goto __CPROVER_DUMP_L2;
 
-    return_value___errno_location$1=__errno_location();
+    return_value___errno_location_1=__errno_location();
   }
-  while(*return_value___errno_location$1 == 4);
+  while(*return_value___errno_location_1 == 4);
 
 __CPROVER_DUMP_L2:
   ;
@@ -12123,9 +12123,9 @@ __CPROVER_DUMP_L2:
 
     else
     {
-      signed long int return_value_read$2;
-      return_value_read$2=read(sock, (void *)dest, (unsigned long int)((signed int)dlen - 1));
-      rc = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(sock, (void *)dest, (unsigned long int)((signed int)dlen - 1));
+      rc = (signed int)return_value_read_2;
       if(rc == -1)
       {
         if(!(debug == 0))
@@ -12151,57 +12151,57 @@ static signed int update_int(struct ng_attribute *attr, signed int old, char *ne
   if(step == 0)
     step = 1;
 
-  signed int return_value_strcasecmp$9;
-  return_value_strcasecmp$9=strcasecmp(new, "inc");
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strncasecmp$7;
-  signed int return_value_ng_attr_parse_int$1;
-  signed int return_value_strncasecmp$6;
-  signed int return_value_ng_attr_parse_int$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  if(return_value_strcasecmp$9 == 0)
+  signed int return_value_strcasecmp_9;
+  return_value_strcasecmp_9=strcasecmp(new, "inc");
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strncasecmp_7;
+  signed int return_value_ng_attr_parse_int_1;
+  signed int return_value_strncasecmp_6;
+  signed int return_value_ng_attr_parse_int_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  if(return_value_strcasecmp_9 == 0)
     value = value + step;
 
   else
   {
-    return_value_strcasecmp$8=strcasecmp(new, "dec");
-    if(return_value_strcasecmp$8 == 0)
+    return_value_strcasecmp_8=strcasecmp(new, "dec");
+    if(return_value_strcasecmp_8 == 0)
       value = value - step;
 
     else
     {
-      return_value_strncasecmp$7=strncasecmp(new, "+=", (unsigned long int)2);
-      if(return_value_strncasecmp$7 == 0)
+      return_value_strncasecmp_7=strncasecmp(new, "+=", (unsigned long int)2);
+      if(return_value_strncasecmp_7 == 0)
       {
-        return_value_ng_attr_parse_int$1=ng_attr_parse_int(attr, new + (signed long int)2);
-        value = value + return_value_ng_attr_parse_int$1;
+        return_value_ng_attr_parse_int_1=ng_attr_parse_int(attr, new + (signed long int)2);
+        value = value + return_value_ng_attr_parse_int_1;
       }
 
       else
       {
-        return_value_strncasecmp$6=strncasecmp(new, "-=", (unsigned long int)2);
-        if(return_value_strncasecmp$6 == 0)
+        return_value_strncasecmp_6=strncasecmp(new, "-=", (unsigned long int)2);
+        if(return_value_strncasecmp_6 == 0)
         {
-          return_value_ng_attr_parse_int$2=ng_attr_parse_int(attr, new + (signed long int)2);
-          value = value - return_value_ng_attr_parse_int$2;
+          return_value_ng_attr_parse_int_2=ng_attr_parse_int(attr, new + (signed long int)2);
+          value = value - return_value_ng_attr_parse_int_2;
         }
 
         else
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          _Bool tmp_if_expr$4;
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*new]) == 0))
-            tmp_if_expr$4 = (_Bool)1;
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          _Bool tmp_if_expr_4;
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*new]) == 0))
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = 43 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
-          _Bool tmp_if_expr$5;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = 43 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          _Bool tmp_if_expr_5;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = 45 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = 45 == (signed int)new[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
             value=ng_attr_parse_int(attr, new);
 
           else
@@ -12241,8 +12241,8 @@ static signed int vdr_handler(char *name, signed int argc, char **argv)
 
 reconnect:
   ;
-  signed long int return_value_write$4;
-  signed int *return_value___errno_location$3;
+  signed long int return_value_write_4;
+  signed int *return_value___errno_location_3;
   for( ; (_Bool)1; vdr_sock = -1)
   {
     if(vdr_sock == -1)
@@ -12257,9 +12257,9 @@ reconnect:
       if(!(debug == 0))
         fprintf(stderr, "vdr: connected\n");
 
-      signed int return_value_tcp_readbuf$1;
-      return_value_tcp_readbuf$1=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
-      if(return_value_tcp_readbuf$1 == -1)
+      signed int return_value_tcp_readbuf_1;
+      return_value_tcp_readbuf_1=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
+      if(return_value_tcp_readbuf_1 == -1)
         goto oops;
 
       if(!(debug == 0))
@@ -12272,9 +12272,9 @@ reconnect:
     len = (unsigned int)0;
     for( ; !(i >= argc); i = i + 1)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(argv[(signed long int)i]);
-      l = (unsigned int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(argv[(signed long int)i]);
+      l = (unsigned int)return_value_strlen_2;
       if((unsigned long int)(4u + l + len) >= 81ul)
         break;
 
@@ -12289,16 +12289,16 @@ reconnect:
     }
     strcpy(line + (signed long int)len, "\r\n");
     len = len + (unsigned int)2;
-    return_value_write$4=write(vdr_sock, (const void *)line, (unsigned long int)len);
-    rc = (signed int)return_value_write$4;
+    return_value_write_4=write(vdr_sock, (const void *)line, (unsigned long int)len);
+    rc = (signed int)return_value_write_4;
     if(len == (unsigned int)rc)
       goto __CPROVER_DUMP_L14;
 
     if(!(rc == -1))
       goto __CPROVER_DUMP_L12;
 
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 32))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 32))
       break;
 
     if(!(debug == 0))
@@ -12319,9 +12319,9 @@ __CPROVER_DUMP_L14:
   if(!(debug == 0))
     fprintf(stderr, "vdr: >> %s", (const void *)line);
 
-  signed int return_value_tcp_readbuf$5;
-  return_value_tcp_readbuf$5=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
-  if(!(return_value_tcp_readbuf$5 == -1))
+  signed int return_value_tcp_readbuf_5;
+  return_value_tcp_readbuf_5=tcp_readbuf(vdr_sock, 3, line, (char)sizeof(char [80l]) /*80ul*/ );
+  if(!(return_value_tcp_readbuf_5 == -1))
   {
     if(!(debug == 0))
       fprintf(stderr, "vdr: << %s", (const void *)line);
@@ -12346,17 +12346,17 @@ static signed int volume_handler(char *name, signed int argc, char **argv)
 {
   struct ng_attribute *vol;
   vol=ng_attr_byid(attrs, 3);
-  signed int return_value_strcasecmp$3;
+  signed int return_value_strcasecmp_3;
   if(!(argc == 0))
   {
-    return_value_strcasecmp$3=strcasecmp(argv[(signed long int)0], "mute");
-    if(return_value_strcasecmp$3 == 0)
+    return_value_strcasecmp_3=strcasecmp(argv[(signed long int)0], "mute");
+    if(return_value_strcasecmp_3 == 0)
     {
       if(argc >= 2)
       {
-        signed int return_value_str_to_int$1;
-        return_value_str_to_int$1=str_to_int(argv[(signed long int)1], booltab);
-        switch(return_value_str_to_int$1)
+        signed int return_value_str_to_int_1;
+        return_value_str_to_int_1=str_to_int(argv[(signed long int)1], booltab);
+        switch(return_value_str_to_int_1)
         {
           case 0:
           {
@@ -12382,9 +12382,9 @@ static signed int volume_handler(char *name, signed int argc, char **argv)
       {
         signed int return_value;
         return_value=vol->read(vol);
-        signed int return_value_update_int$2;
-        return_value_update_int$2=update_int(vol, return_value, argv[(signed long int)0]);
-        set_volume(return_value_update_int$2);
+        signed int return_value_update_int_2;
+        return_value_update_int_2=update_int(vol, return_value, argv[(signed long int)0]);
+        set_volume(return_value_update_int_2);
       }
 
     if(!(volume_notify == ((void (*)(void))NULL)))
@@ -12412,9 +12412,9 @@ display:
 static void wav_init_header(struct WAVEHDR *fileheader, struct ng_audio_fmt *audio)
 {
   signed int nBitsPerSample = (signed int)ng_afmt_to_bits[(signed long int)audio->fmtid];
-  signed int wav_init_header$$1$$channels = (signed int)ng_afmt_to_channels[(signed long int)audio->fmtid];
+  signed int wav_init_header__1__channels = (signed int)ng_afmt_to_channels[(signed long int)audio->fmtid];
   signed int rate = (signed int)audio->rate;
-  unsigned long int nBlockAlign = (unsigned long int)(wav_init_header$$1$$channels * ((nBitsPerSample + 7) / 8));
+  unsigned long int nBlockAlign = (unsigned long int)(wav_init_header__1__channels * ((nBitsPerSample + 7) / 8));
   unsigned long int nAvgBytesPerSec = nBlockAlign * (unsigned long int)rate;
   unsigned long int temp = ((unsigned long int)0 + sizeof(struct WAVEHDR) /*44ul*/ ) - sizeof(struct CHUNKHDR) /*8ul*/ ;
   fileheader->chkRiff.ckid = (unsigned int)(unsigned char)82 | (unsigned int)(unsigned char)73 << 8 | (unsigned int)(unsigned char)70 << 16 | (unsigned int)(unsigned char)70 << 24;
@@ -12422,7 +12422,7 @@ static void wav_init_header(struct WAVEHDR *fileheader, struct ng_audio_fmt *aud
   fileheader->chkFmt.ckid = (unsigned int)(unsigned char)102 | (unsigned int)(unsigned char)109 << 8 | (unsigned int)(unsigned char)116 << 16 | (unsigned int)(unsigned char)32 << 24;
   fileheader->chkFmt.dwSize = (unsigned int)16;
   fileheader->wFormatTag = (unsigned short int)1;
-  fileheader->nChannels = (unsigned short int)wav_init_header$$1$$channels;
+  fileheader->nChannels = (unsigned short int)wav_init_header__1__channels;
   fileheader->nSamplesPerSec = (unsigned int)rate;
   fileheader->nAvgBytesPerSec = (unsigned int)nAvgBytesPerSec;
   fileheader->nBlockAlign = (unsigned short int)nBlockAlign;
@@ -12505,11 +12505,11 @@ static signed int webcam_handler(char *hname, signed int argc, char **argv)
 // file common/webcam.c line 108
 void webcam_init(void)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct WEBCAM) /*104ul*/ );
-  web = (struct WEBCAM *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct WEBCAM) /*104ul*/ );
+  web = (struct WEBCAM *)return_value_malloc_1;
   memset((void *)web, 0, sizeof(struct WEBCAM) /*104ul*/ );
-  pthread_mutex_init(&web->lock, (const union anonymous$8 *)(void *)0);
+  pthread_mutex_init(&web->lock, (const union anonymous_8 *)(void *)0);
   pthread_create(&tweb, (const union pthread_attr_t *)(void *)0, webcam_writer, (void *)web);
   goto __CPROVER_DUMP_L1;
 
@@ -12525,9 +12525,9 @@ signed int webcam_put(char *filename, struct ng_video_buf *buf)
   if(web == ((struct WEBCAM *)NULL))
     webcam_init();
 
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&web->lock);
-  if(return_value_pthread_mutex_trylock$1 == -1)
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&web->lock);
+  if(return_value_pthread_mutex_trylock_1 == -1)
   {
     if(!(debug == 0))
       fprintf(stderr, "webcam_put: locked\n");
@@ -12567,7 +12567,7 @@ signed int webcam_put(char *filename, struct ng_video_buf *buf)
 // file common/webcam.c line 30
 static void * webcam_writer(void *arg)
 {
-  struct WEBCAM *webcam_writer$$1$$web = (struct WEBCAM *)arg;
+  struct WEBCAM *webcam_writer__1__web = (struct WEBCAM *)arg;
   signed int rename;
   signed int fd;
   signed int old;
@@ -12578,27 +12578,27 @@ static void * webcam_writer(void *arg)
 
   pthread_setcancelstate(0, &old);
   pthread_setcanceltype(1, &old);
-  pthread_mutex_lock(&webcam_writer$$1$$web->lock);
+  pthread_mutex_lock(&webcam_writer__1__web->lock);
 
 __CPROVER_DUMP_L2:
   ;
-  for( ; (_Bool)1; webcam_writer$$1$$web->buf = (struct ng_video_buf *)(void *)0)
+  for( ; (_Bool)1; webcam_writer__1__web->buf = (struct ng_video_buf *)(void *)0)
   {
-    if(webcam_writer$$1$$web->buf == ((struct ng_video_buf *)NULL))
+    if(webcam_writer__1__web->buf == ((struct ng_video_buf *)NULL))
     {
       if(!(debug == 0))
         fprintf(stderr, "webcam_writer: waiting for data\n");
 
-      pthread_cond_wait(&webcam_writer$$1$$web->wait, &webcam_writer$$1$$web->lock);
+      pthread_cond_wait(&webcam_writer__1__web->wait, &webcam_writer__1__web->lock);
       goto __CPROVER_DUMP_L2;
     }
 
-    fmt = &webcam_writer$$1$$web->buf->fmt;
+    fmt = &webcam_writer__1__web->buf->fmt;
     if(!(debug == 0))
       fprintf(stderr, "webcam_writer: %d %dx%d \n", fmt->fmtid, fmt->width, fmt->height);
 
     rename = 1;
-    sprintf(tmpfilename, "%s.$$$", webcam_writer$$1$$web->filename);
+    sprintf(tmpfilename, "%s.___", webcam_writer__1__web->filename);
     switch(fmt->fmtid)
     {
       case (unsigned int)16:
@@ -12608,21 +12608,21 @@ __CPROVER_DUMP_L2:
         fd=open(tmpfilename, 0100 | 01, 0666);
         if(fd == -1)
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(stderr, "open(%s): %s\n", (const void *)tmpfilename, return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(stderr, "open(%s): %s\n", (const void *)tmpfilename, return_value_strerror_2);
           goto done;
         }
 
-        write(fd, (const void *)webcam_writer$$1$$web->buf->data, webcam_writer$$1$$web->buf->size);
+        write(fd, (const void *)webcam_writer__1__web->buf->data, webcam_writer__1__web->buf->size);
         close(fd);
         break;
       }
       case (unsigned int)9:
       {
-        write_jpeg(tmpfilename, webcam_writer$$1$$web->buf, ng_jpeg_quality, 0);
+        write_jpeg(tmpfilename, webcam_writer__1__web->buf, ng_jpeg_quality, 0);
         break;
       }
       default:
@@ -12633,29 +12633,29 @@ __CPROVER_DUMP_L2:
     }
     if(!(rename == 0))
     {
-      unlink(webcam_writer$$1$$web->filename);
-      signed int return_value_link$5;
-      return_value_link$5=link(tmpfilename, webcam_writer$$1$$web->filename);
-      if(return_value_link$5 == -1)
+      unlink(webcam_writer__1__web->filename);
+      signed int return_value_link_5;
+      return_value_link_5=link(tmpfilename, webcam_writer__1__web->filename);
+      if(return_value_link_5 == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        fprintf(stderr, "link(%s,%s): %s\n", (const void *)tmpfilename, webcam_writer$$1$$web->filename, return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        fprintf(stderr, "link(%s,%s): %s\n", (const void *)tmpfilename, webcam_writer__1__web->filename, return_value_strerror_4);
         break;
       }
 
       unlink(tmpfilename);
     }
 
-    free((void *)webcam_writer$$1$$web->filename);
-    ng_release_video_buf(webcam_writer$$1$$web->buf);
+    free((void *)webcam_writer__1__web->filename);
+    ng_release_video_buf(webcam_writer__1__web->buf);
   }
 
 done:
   ;
-  pthread_mutex_unlock(&webcam_writer$$1$$web->lock);
+  pthread_mutex_unlock(&webcam_writer__1__web->lock);
   if(!(debug == 0))
     fprintf(stderr, "webcam_writer done\n");
 
@@ -12670,17 +12670,17 @@ signed int write_jpeg(char *filename, struct ng_video_buf *buf, signed int quali
   fp=fopen(filename, "w");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror_2);
     return -1;
   }
 
-  signed int return_value_do_write_jpeg$3;
-  return_value_do_write_jpeg$3=do_write_jpeg(fp, buf, quality, gray);
-  return return_value_do_write_jpeg$3;
+  signed int return_value_do_write_jpeg_3;
+  return_value_do_write_jpeg_3=do_write_jpeg(fp, buf, quality, gray);
+  return return_value_do_write_jpeg_3;
 }
 
 // write_pgm
@@ -12691,11 +12691,11 @@ signed int write_pgm(char *filename, struct ng_video_buf *buf)
   fp=fopen(filename, "w");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror_2);
     return -1;
   }
 
@@ -12713,11 +12713,11 @@ signed int write_ppm(char *filename, struct ng_video_buf *buf)
   fp=fopen(filename, "w");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "grab: can't open %s: %s\n", filename, return_value_strerror_2);
     return -1;
   }
 
@@ -12733,16 +12733,16 @@ static void * writer_audio_thread(void *arg)
 {
   struct movie_handle *h = (struct movie_handle *)arg;
   struct ng_audio_buf *buf;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "writer_audio_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "writer_audio_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
-  void *return_value_fifo_get$2;
-  return_value_fifo_get$2=fifo_get(&h->afifo);
-  buf = (struct ng_audio_buf *)return_value_fifo_get$2;
+  void *return_value_fifo_get_2;
+  return_value_fifo_get_2=fifo_get(&h->afifo);
+  buf = (struct ng_audio_buf *)return_value_fifo_get_2;
   if(!(buf == ((struct ng_audio_buf *)NULL)))
   {
     pthread_mutex_lock(&h->lock);
@@ -12766,20 +12766,20 @@ static void * writer_video_thread(void *arg)
   struct ng_video_buf *reorder[32l];
   signed int seq;
   signed int slot;
-  signed int return_value_getpid$1;
+  signed int return_value_getpid_1;
   if(!(debug == 0))
   {
-    return_value_getpid$1=getpid();
-    fprintf(stderr, "writer_video_thread start [pid=%d]\n", return_value_getpid$1);
+    return_value_getpid_1=getpid();
+    fprintf(stderr, "writer_video_thread start [pid=%d]\n", return_value_getpid_1);
   }
 
   seq = 0;
   memset((void *)&reorder, 0, sizeof(struct ng_video_buf *[32l]) /*256ul*/ );
   do
   {
-    void *return_value_fifo_get$2;
-    return_value_fifo_get$2=fifo_get(&h->vfifo);
-    buf = (struct ng_video_buf *)return_value_fifo_get$2;
+    void *return_value_fifo_get_2;
+    return_value_fifo_get_2=fifo_get(&h->vfifo);
+    buf = (struct ng_video_buf *)return_value_fifo_get_2;
     if(buf == ((struct ng_video_buf *)NULL))
       break;
 
@@ -12848,26 +12848,26 @@ static void yuv420p_to_rgb24(void *h, struct ng_video_buf *out, struct ng_video_
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$1 = d;
+      unsigned char * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$2 = d;
+      *tmp_post_1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$3 = d;
+      *tmp_post_2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_3 = d;
       d = d + 1l;
-      *tmp_post$3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$4 = d;
+      unsigned char * restrict tmp_post_4 = d;
       d = d + 1l;
-      *tmp_post$4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$5 = d;
+      *tmp_post_4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_5 = d;
       d = d + 1l;
-      *tmp_post$5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$6 = d;
+      *tmp_post_5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_6 = d;
       d = d + 1l;
-      *tmp_post$6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;
@@ -12940,26 +12940,26 @@ static void yuv422p_to_rgb24(void *h, struct ng_video_buf *out, struct ng_video_
     for( ; !(j >= in->fmt.width); j = j + (unsigned int)2)
     {
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$1 = d;
+      unsigned char * restrict tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$2 = d;
+      *tmp_post_1 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$3 = d;
+      *tmp_post_2 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_3 = d;
       d = d + 1l;
-      *tmp_post$3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_3 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       gray = (signed int)ng_yuv_gray[(signed long int)*y];
-      unsigned char * restrict tmp_post$4 = d;
+      unsigned char * restrict tmp_post_4 = d;
       d = d + 1l;
-      *tmp_post$4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
-      unsigned char * restrict tmp_post$5 = d;
+      *tmp_post_4 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_red[(signed long int)*v])];
+      unsigned char * restrict tmp_post_5 = d;
       d = d + 1l;
-      *tmp_post$5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
-      unsigned char * restrict tmp_post$6 = d;
+      *tmp_post_5 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_g1[(signed long int)*v] + ng_yuv_g2[(signed long int)*u])];
+      unsigned char * restrict tmp_post_6 = d;
       d = d + 1l;
-      *tmp_post$6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
+      *tmp_post_6 = (unsigned char)ng_clip[(signed long int)((unsigned int)(320 + gray) + ng_yuv_blue[(signed long int)*u])];
       y = y + 1l;
       u = u + 1l;
       v = v + 1l;

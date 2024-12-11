@@ -1,130 +1,130 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'bucketCount'||S32'size'||*{*{SYM#tag-#anon#ST[S32'size'||U32'$pad0'||*{SYM#tag-HashEntry#}$SYM#tag-HashEntry#$'firstEntry'|]#}$SYM#tag-#anon#ST[S32'size'||U32'$pad0'||*{SYM#tag-HashEntry#}$SYM#tag-HashEntry#$'firstEntry'|]#$}$*{SYM#tag-#anon#ST[S32'size'||U32'$pad0'||*{SYM#tag-HashEntry#}$SYM#tag-HashEntry#$'firstEntry'|]#}$SYM#tag-#anon#ST[S32'size'||U32'$pad0'||*{SYM#tag-HashEntry#}$SYM#tag-HashEntry#$'firstEntry'|]#$$'buckets'|]
+// tag-#anon#ST[S32'bucketCount'||S32'size'||*{*{SYM#tag-#anon#ST[S32'size'||U32'_pad0'||*{SYM#tag-HashEntry#}_SYM#tag-HashEntry#_'firstEntry'|]#}_SYM#tag-#anon#ST[S32'size'||U32'_pad0'||*{SYM#tag-HashEntry#}_SYM#tag-HashEntry#_'firstEntry'|]#_}_*{SYM#tag-#anon#ST[S32'size'||U32'_pad0'||*{SYM#tag-HashEntry#}_SYM#tag-HashEntry#_'firstEntry'|]#}_SYM#tag-#anon#ST[S32'size'||U32'_pad0'||*{SYM#tag-HashEntry#}_SYM#tag-HashEntry#_'firstEntry'|]#__'buckets'|]
 // file wrapper_hashmap.h line 34
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'size'||U32'$pad0'||*{SYM#tag-HashEntry#}$SYM#tag-HashEntry#$'firstEntry'|]
+// tag-#anon#ST[S32'size'||U32'_pad0'||*{SYM#tag-HashEntry#}_SYM#tag-HashEntry#_'firstEntry'|]
 // file wrapper_hashmap.h line 29
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[U64'gl_pathc'||*{*{S8}$S8$}$*{S8}$S8$$'gl_pathv'||U64'gl_offs'||S32'gl_flags'||U32'$pad0'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'gl_closedir'||*{*{SYM#tag-dirent#}$SYM#tag-dirent#$(*{V}$V$)->*{SYM#tag-dirent#}$SYM#tag-dirent#$}$*{SYM#tag-dirent#}$SYM#tag-dirent#$(*{V}$V$)->*{SYM#tag-dirent#}$SYM#tag-dirent#$$'gl_readdir'||*{*{V}$V$(*{cS8}$cS8$)->*{V}$V$}$*{V}$V$(*{cS8}$cS8$)->*{V}$V$$'gl_opendir'||*{S32(r*{cS8}$cS8$|r*{SYM#tag-stat#}$SYM#tag-stat#$)->S32}$S32(r*{cS8}$cS8$|r*{SYM#tag-stat#}$SYM#tag-stat#$)->S32$'gl_lstat'||*{S32(r*{cS8}$cS8$|r*{SYM#tag-stat#}$SYM#tag-stat#$)->S32}$S32(r*{cS8}$cS8$|r*{SYM#tag-stat#}$SYM#tag-stat#$)->S32$'gl_stat'|]
+// tag-#anon#ST[U64'gl_pathc'||*{*{S8}_S8_}_*{S8}_S8__'gl_pathv'||U64'gl_offs'||S32'gl_flags'||U32'_pad0'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'gl_closedir'||*{*{SYM#tag-dirent#}_SYM#tag-dirent#_(*{V}_V_)->*{SYM#tag-dirent#}_SYM#tag-dirent#_}_*{SYM#tag-dirent#}_SYM#tag-dirent#_(*{V}_V_)->*{SYM#tag-dirent#}_SYM#tag-dirent#__'gl_readdir'||*{*{V}_V_(*{cS8}_cS8_)->*{V}_V_}_*{V}_V_(*{cS8}_cS8_)->*{V}_V__'gl_opendir'||*{S32(r*{cS8}_cS8_|r*{SYM#tag-stat#}_SYM#tag-stat#_)->S32}_S32(r*{cS8}_cS8_|r*{SYM#tag-stat#}_SYM#tag-stat#_)->S32_'gl_lstat'||*{S32(r*{cS8}_cS8_|r*{SYM#tag-stat#}_SYM#tag-stat#_)->S32}_S32(r*{cS8}_cS8_|r*{SYM#tag-stat#}_SYM#tag-stat#_)->S32_'gl_stat'|]
 // file /usr/include/glob.h line 82
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$30;
+union anonymous_30;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$29;
+union anonymous_29;
 
 // tag-#anon#UN[S64'ru_idrss'||S64'__ru_idrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 208
-union anonymous$5;
+union anonymous_5;
 
 // tag-#anon#UN[S64'ru_inblock'||S64'__ru_inblock_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 240
-union anonymous$10;
+union anonymous_10;
 
 // tag-#anon#UN[S64'ru_isrss'||S64'__ru_isrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 214
-union anonymous$6;
+union anonymous_6;
 
 // tag-#anon#UN[S64'ru_ixrss'||S64'__ru_ixrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 202
-union anonymous$4;
+union anonymous_4;
 
 // tag-#anon#UN[S64'ru_majflt'||S64'__ru_majflt_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 227
-union anonymous$8;
+union anonymous_8;
 
 // tag-#anon#UN[S64'ru_maxrss'||S64'__ru_maxrss_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 194
-union anonymous$3;
+union anonymous_3;
 
 // tag-#anon#UN[S64'ru_minflt'||S64'__ru_minflt_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 221
-union anonymous$7;
+union anonymous_7;
 
 // tag-#anon#UN[S64'ru_msgrcv'||S64'__ru_msgrcv_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 258
-union anonymous$13;
+union anonymous_13;
 
 // tag-#anon#UN[S64'ru_msgsnd'||S64'__ru_msgsnd_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 252
-union anonymous$12;
+union anonymous_12;
 
 // tag-#anon#UN[S64'ru_nivcsw'||S64'__ru_nivcsw_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 279
-union anonymous$16;
+union anonymous_16;
 
 // tag-#anon#UN[S64'ru_nsignals'||S64'__ru_nsignals_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 264
-union anonymous$14;
+union anonymous_14;
 
 // tag-#anon#UN[S64'ru_nswap'||S64'__ru_nswap_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 233
-union anonymous$9;
+union anonymous_9;
 
 // tag-#anon#UN[S64'ru_nvcsw'||S64'__ru_nvcsw_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 272
-union anonymous$15;
+union anonymous_15;
 
 // tag-#anon#UN[S64'ru_oublock'||S64'__ru_oublock_word'|]
 // file /usr/include/x86_64-linux-gnu/bits/resource.h line 246
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$31;
+union anonymous_31;
 
 // tag-ConfigFileReader
 // file wrapper_file.c line 52
@@ -372,7 +372,7 @@ extern signed int _tunlink(const signed int *address);
 extern void _tunsetenv(const signed int *name);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$31, unsigned int *);
+extern signed int accept(signed int, union anonymous_31, unsigned int *);
 // addProperty
 // file property.c line 1122
 extern struct Property * addProperty(struct Properties *properties, const signed int *filename, signed int lineNum, const signed int *propertyName, const signed int *propertyValue, signed int finalValue, signed int quotable, signed int escapable, signed int internal);
@@ -387,7 +387,7 @@ void anchorPoll(unsigned int nowTicks);
 void appExit(signed int exitCode, signed int argc, signed int **argv);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$31, unsigned int);
+extern signed int bind(signed int, union anonymous_31, unsigned int);
 // buildPrintBuffer
 // file logger.c line 1295
 signed int * buildPrintBuffer(signed int source_id, signed int level, signed int threadId, signed int queued, struct tm *nowTM, signed int nowMillis, signed long int durationMillis, const signed int *format, const signed int *defaultFormat, const signed int *message);
@@ -435,13 +435,13 @@ void commandPoll(unsigned int nowTicks);
 signed int compareFileNames(const signed int *file1, const signed int *file2);
 // configFileReader
 // file wrapper_file.h line 75
-extern signed int configFileReader(const signed int *filename, signed int fileRequired, signed int (*callback)(void *, const signed int *, signed int, signed int *, signed int), void *callbackParam, signed int enableIncludes, signed int preload, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous$19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging);
-// configFileReader::callback$object
+extern signed int configFileReader(const signed int *filename, signed int fileRequired, signed int (*callback)(void *, const signed int *, signed int, signed int *, signed int), void *callbackParam, signed int enableIncludes, signed int preload, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous_19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging);
+// configFileReader::callback_object
 //
-signed int callback$object(void *, const signed int *, signed int, signed int *, signed int);
+signed int callback_object(void *, const signed int *, signed int, signed int *, signed int);
 // configFileReader_Read
 // file wrapper_file.c line 114
-signed int configFileReader_Read(struct ConfigFileReader *reader, const signed int *filename, signed int fileRequired, signed int depth, const signed int *parentFilename, signed int parentLineNumber, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous$19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging);
+signed int configFileReader_Read(struct ConfigFileReader *reader, const signed int *filename, signed int fileRequired, signed int depth, const signed int *parentFilename, signed int parentLineNumber, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous_19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging);
 // createInnerProperty
 // file property.c line 168
 struct Property * createInnerProperty();
@@ -453,7 +453,7 @@ extern struct Properties * createProperties();
 void daemonize(signed int argc, signed int **argv);
 // descSignal
 // file wrapper_unix.c line 429
-void descSignal(struct anonymous$0 *sigInfo);
+void descSignal(struct anonymous_0 *sigInfo);
 // displayLaunchingTimeoutMessage
 // file wrappereventloop.c line 305
 void displayLaunchingTimeoutMessage();
@@ -486,7 +486,7 @@ extern void dumpProperties(struct Properties *properties);
 extern signed int dup2(signed int, signed int);
 // evaluateEnvironmentVariables
 // file property.h line 113
-extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed int *buffer, signed int bufferLength, signed int warnUndefinedVars, struct anonymous$19 *warnedUndefVarMap, signed int warnLogLevel);
+extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed int *buffer, signed int bufferLength, signed int warnUndefinedVars, struct anonymous_19 *warnedUndefVarMap, signed int warnLogLevel);
 // execve
 // file /usr/include/unistd.h line 551
 extern signed int execve(const char *, char * const *, char * const *);
@@ -534,7 +534,7 @@ extern unsigned long int fread(void *, unsigned long int, unsigned long int, str
 extern void free(void *);
 // freeHashMap
 // file wrapper_hashmap.h line 46
-extern void freeHashMap(struct anonymous$19 *hashMap);
+extern void freeHashMap(struct anonymous_19 *hashMap);
 // freeStringProperties
 // file property.h line 260
 extern void freeStringProperties(signed int **propertyNames, signed int **propertyValues, unsigned long int *propertyIndices);
@@ -564,7 +564,7 @@ signed int getBackendTypeForName(const signed int *typeName);
 extern signed int getBooleanProperty(struct Properties *properties, const signed int *propertyName, signed int defaultValue);
 // getBucketId
 // file wrapper_hashmap.c line 164
-signed int getBucketId(struct anonymous$19 *hashMap, const signed int *key);
+signed int getBucketId(struct anonymous_19 *hashMap, const signed int *key);
 // getConsoleLogLevelInt
 // file logger.c line 1146
 extern signed int getConsoleLogLevelInt();
@@ -672,31 +672,31 @@ extern signed int getsid(signed int);
 extern signed int gettimeofday(struct timeval *, struct timezone *);
 // glob
 // file /usr/include/glob.h line 153
-extern signed int glob(const char *, signed int, signed int (*)(const char *, signed int), struct anonymous$20 *);
+extern signed int glob(const char *, signed int, signed int (*)(const char *, signed int), struct anonymous_20 *);
 // globfree
 // file /usr/include/glob.h line 158
-extern void globfree(struct anonymous$20 *);
+extern void globfree(struct anonymous_20 *);
 // handleDebugJVMTimeout
 // file wrappereventloop.c line 343
 void handleDebugJVMTimeout(unsigned int nowTicks, const signed int *message, const signed int *timer);
 // hashMapGetKMBVW
 // file wrapper_hashmap.c line 398
-extern const signed int * hashMapGetKMBVW(struct anonymous$19 *hashMap, const char *key);
+extern const signed int * hashMapGetKMBVW(struct anonymous_19 *hashMap, const char *key);
 // hashMapGetKVVV
 // file wrapper_hashmap.c line 338
-extern const void * hashMapGetKVVV(struct anonymous$19 *hashMap, const void *key, unsigned long int keySize, unsigned long int *valueSize);
+extern const void * hashMapGetKVVV(struct anonymous_19 *hashMap, const void *key, unsigned long int keySize, unsigned long int *valueSize);
 // hashMapGetKWVW
 // file wrapper_hashmap.h line 110
-extern const signed int * hashMapGetKWVW(struct anonymous$19 *hashMap, const signed int *key);
+extern const signed int * hashMapGetKWVW(struct anonymous_19 *hashMap, const signed int *key);
 // hashMapPutKMBVW
 // file wrapper_hashmap.c line 321
-extern void hashMapPutKMBVW(struct anonymous$19 *hashMap, const char *key, const signed int *value);
+extern void hashMapPutKMBVW(struct anonymous_19 *hashMap, const char *key, const signed int *value);
 // hashMapPutKVVV
 // file wrapper_hashmap.c line 188
-extern signed int hashMapPutKVVV(struct anonymous$19 *hashMap, const void *key, unsigned long int keySize, const void *value, unsigned long int valueSize);
+extern signed int hashMapPutKVVV(struct anonymous_19 *hashMap, const void *key, unsigned long int keySize, const void *value, unsigned long int valueSize);
 // hashMapPutKWVW
 // file wrapper_hashmap.h line 79
-extern void hashMapPutKWVW(struct anonymous$19 *hashMap, const signed int *key, const signed int *value);
+extern void hashMapPutKWVW(struct anonymous_19 *hashMap, const signed int *key, const signed int *value);
 // hexToTICKS
 // file wrapper.c line 2341
 unsigned int hexToTICKS(signed int *buffer);
@@ -721,9 +721,9 @@ extern signed int inet_pton(signed int, const char *, void *);
 // initLogging
 // file logger.h line 263
 extern signed int initLogging(void (*logFileChanged)(const signed int *));
-// initLogging::logFileChanged$object
+// initLogging::logFileChanged_object
 //
-void logFileChanged$object(const signed int *);
+void logFileChanged_object(const signed int *);
 // initializeJavaIO
 // file wrapper_unix.c line 735
 signed int initializeJavaIO();
@@ -847,9 +847,9 @@ void logApplyFilters(const signed int *log);
 // logChildOutput
 // file wrapper.c line 3721
 void logChildOutput(const char *log);
-// logFileChangedCallback$object
+// logFileChangedCallback_object
 //
-void logFileChangedCallback$object(const signed int *);
+void logFileChangedCallback_object(const signed int *);
 // logRegisterThread
 // file logger.h line 271
 extern void logRegisterThread(signed int thread_id);
@@ -924,7 +924,7 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
 extern signed int nanosleep(struct timespec *, struct timespec *);
 // newHashMap
 // file wrapper_hashmap.h line 57
-extern struct anonymous$19 * newHashMap(signed int bucketCount);
+extern struct anonymous_19 * newHashMap(signed int bucketCount);
 // nl_langinfo
 // file /usr/include/langinfo.h line 583
 extern char * nl_langinfo(signed int);
@@ -1009,21 +1009,21 @@ extern signed int pthread_detach(unsigned long int);
 // pthread_equal
 // file /usr/include/pthread.h line 1155
 static inline signed int pthread_equal(unsigned long int __thread1, unsigned long int __thread2);
-// pthread_equal$link1
+// pthread_equal_link1
 // file /usr/include/pthread.h line 1155
-static inline signed int pthread_equal$link1(unsigned long int __thread1$link1, unsigned long int __thread2$link1);
+static inline signed int pthread_equal_link1(unsigned long int __thread1_link1, unsigned long int __thread2_link1);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$18 *);
+extern signed int pthread_mutex_lock(union anonymous_18 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$18 *);
+extern signed int pthread_mutex_unlock(union anonymous_18 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$1 *, struct anonymous$1 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_1 *, struct anonymous_1 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -1041,10 +1041,10 @@ extern char * realpath(const char *, char *);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // registerSigAction
 // file wrapper_unix.c line 645
-signed int registerSigAction(signed int sigNum, void (*sigAction)(signed int, struct anonymous$0 *, void *));
-// registerSigAction::sigAction$object
+signed int registerSigAction(signed int sigNum, void (*sigAction)(signed int, struct anonymous_0 *, void *));
+// registerSigAction::sigAction_object
 //
-void sigAction$object(signed int, struct anonymous$0 *, void *);
+void sigAction_object(signed int, struct anonymous_0 *, void *);
 // registerSyslogMessageFile
 // file logger.h line 254
 extern signed int registerSyslogMessageFile();
@@ -1218,37 +1218,37 @@ extern signed int setsid(void);
 extern signed int showHostIds(signed int logLevel);
 // sigActionAlarm
 // file wrapper_unix.c line 508
-void sigActionAlarm(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionAlarm(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigActionChildDeath
 // file wrapper_unix.c line 567
-void sigActionChildDeath(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionChildDeath(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigActionHangup
 // file wrapper_unix.c line 609
-void sigActionHangup(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionHangup(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigActionInterrupt
 // file wrapper_unix.c line 532
-void sigActionInterrupt(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionInterrupt(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigActionQuit
 // file wrapper_unix.c line 544
-void sigActionQuit(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionQuit(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigActionTermination
 // file wrapper_unix.c line 597
-void sigActionTermination(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionTermination(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigActionUSR1
 // file wrapper_unix.c line 621
-void sigActionUSR1(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionUSR1(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigActionUSR2
 // file wrapper_unix.c line 633
-void sigActionUSR2(signed int sigNum, struct anonymous$0 *sigInfo, void *na);
+void sigActionUSR2(signed int sigNum, struct anonymous_0 *sigInfo, void *na);
 // sigaction
 // file /usr/include/signal.h line 259
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$1 *, signed int);
+extern signed int sigaddset(struct anonymous_1 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$1 *);
+extern signed int sigemptyset(struct anonymous_1 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -1712,7 +1712,7 @@ signed int writePidFile(const signed int *filename, unsigned long int pid, signe
 // file wrappereventloop.c line 167
 void writeStateFile(const signed int *filename, const signed int *state, signed int newUmask);
 
-struct anonymous$28
+struct anonymous_28
 {
   // _call_addr
   void *_call_addr;
@@ -1722,7 +1722,7 @@ struct anonymous$28
   unsigned int _arch;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // si_addr
   void *si_addr;
@@ -1730,23 +1730,23 @@ struct anonymous$26
   signed short int si_addr_lsb;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // bucketCount
   signed int bucketCount;
   // size
   signed int size;
   // buckets
-  struct anonymous$21 **buckets;
+  struct anonymous_21 **buckets;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // si_pid
   signed int si_pid;
@@ -1754,7 +1754,7 @@ struct anonymous$22
   unsigned int si_uid;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // si_pid
   signed int si_pid;
@@ -1776,7 +1776,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // si_pid
   signed int si_pid;
@@ -1786,7 +1786,7 @@ struct anonymous$24
   union sigval si_sigval;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // si_tid
   signed int si_tid;
@@ -1796,7 +1796,7 @@ struct anonymous$23
   union sigval si_sigval;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // si_band
   signed long int si_band;
@@ -1804,27 +1804,27 @@ struct anonymous$27
   signed int si_fd;
 };
 
-union anonymous$29
+union anonymous_29
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$22 _kill;
+  struct anonymous_22 _kill;
   // _timer
-  struct anonymous$23 _timer;
+  struct anonymous_23 _timer;
   // _rt
-  struct anonymous$24 _rt;
+  struct anonymous_24 _rt;
   // _sigchld
-  struct anonymous$25 _sigchld;
+  struct anonymous_25 _sigchld;
   // _sigfault
-  struct anonymous$26 _sigfault;
+  struct anonymous_26 _sigfault;
   // _sigpoll
-  struct anonymous$27 _sigpoll;
+  struct anonymous_27 _sigpoll;
   // _sigsys
-  struct anonymous$28 _sigsys;
+  struct anonymous_28 _sigsys;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_signo
   signed int si_signo;
@@ -1833,10 +1833,10 @@ struct anonymous$0
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$29 _sifields;
+  union anonymous_29 _sifields;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // size
   signed int size;
@@ -1844,7 +1844,7 @@ struct anonymous$21
   struct HashEntry *firstEntry;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // gl_pathc
   unsigned long int gl_pathc;
@@ -1866,15 +1866,15 @@ struct anonymous$20
   signed int (*gl_stat)(const char *, struct stat *);
 };
 
-union anonymous$30
+union anonymous_30
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$0 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_0 *, void *);
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1884,7 +1884,7 @@ union anonymous$2
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$5
+union anonymous_5
 {
   // ru_idrss
   signed long int ru_idrss;
@@ -1892,7 +1892,7 @@ union anonymous$5
   signed long int __ru_idrss_word;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // ru_inblock
   signed long int ru_inblock;
@@ -1900,7 +1900,7 @@ union anonymous$10
   signed long int __ru_inblock_word;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // ru_isrss
   signed long int ru_isrss;
@@ -1908,7 +1908,7 @@ union anonymous$6
   signed long int __ru_isrss_word;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // ru_ixrss
   signed long int ru_ixrss;
@@ -1916,7 +1916,7 @@ union anonymous$4
   signed long int __ru_ixrss_word;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // ru_majflt
   signed long int ru_majflt;
@@ -1924,7 +1924,7 @@ union anonymous$8
   signed long int __ru_majflt_word;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // ru_maxrss
   signed long int ru_maxrss;
@@ -1932,7 +1932,7 @@ union anonymous$3
   signed long int __ru_maxrss_word;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // ru_minflt
   signed long int ru_minflt;
@@ -1940,7 +1940,7 @@ union anonymous$7
   signed long int __ru_minflt_word;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // ru_msgrcv
   signed long int ru_msgrcv;
@@ -1948,7 +1948,7 @@ union anonymous$13
   signed long int __ru_msgrcv_word;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // ru_msgsnd
   signed long int ru_msgsnd;
@@ -1956,7 +1956,7 @@ union anonymous$12
   signed long int __ru_msgsnd_word;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // ru_nivcsw
   signed long int ru_nivcsw;
@@ -1964,7 +1964,7 @@ union anonymous$16
   signed long int __ru_nivcsw_word;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // ru_nsignals
   signed long int ru_nsignals;
@@ -1972,7 +1972,7 @@ union anonymous$14
   signed long int __ru_nsignals_word;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // ru_nswap
   signed long int ru_nswap;
@@ -1980,7 +1980,7 @@ union anonymous$9
   signed long int __ru_nswap_word;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // ru_nvcsw
   signed long int ru_nvcsw;
@@ -1988,7 +1988,7 @@ union anonymous$15
   signed long int __ru_nvcsw_word;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // ru_oublock
   signed long int ru_oublock;
@@ -2024,7 +2024,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2064,7 +2064,7 @@ union anonymous
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$31
+union anonymous_31
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2171,7 +2171,7 @@ struct Properties
   // last
   struct Property *last;
   // warnedVarMap
-  struct anonymous$19 *warnedVarMap;
+  struct anonymous_19 *warnedVarMap;
 };
 
 struct Property
@@ -2615,7 +2615,7 @@ struct _IO_marker
 struct in6_addr
 {
   // __in6_u
-  union anonymous$2 __in6_u;
+  union anonymous_2 __in6_u;
 };
 
 struct in_addr
@@ -2664,42 +2664,42 @@ struct rusage
   struct timeval ru_utime;
   // ru_stime
   struct timeval ru_stime;
-  // $anon0
-  union anonymous$3 $anon0;
-  // $anon1
-  union anonymous$4 $anon1;
-  // $anon2
-  union anonymous$5 $anon2;
-  // $anon3
-  union anonymous$6 $anon3;
-  // $anon4
-  union anonymous$7 $anon4;
-  // $anon5
-  union anonymous$8 $anon5;
-  // $anon6
-  union anonymous$9 $anon6;
-  // $anon7
-  union anonymous$10 $anon7;
-  // $anon8
-  union anonymous$11 $anon8;
-  // $anon9
-  union anonymous$12 $anon9;
-  // $anon10
-  union anonymous$13 $anon10;
-  // $anon11
-  union anonymous$14 $anon11;
-  // $anon12
-  union anonymous$15 $anon12;
-  // $anon13
-  union anonymous$16 $anon13;
+  // _anon0
+  union anonymous_3 _anon0;
+  // _anon1
+  union anonymous_4 _anon1;
+  // _anon2
+  union anonymous_5 _anon2;
+  // _anon3
+  union anonymous_6 _anon3;
+  // _anon4
+  union anonymous_7 _anon4;
+  // _anon5
+  union anonymous_8 _anon5;
+  // _anon6
+  union anonymous_9 _anon6;
+  // _anon7
+  union anonymous_10 _anon7;
+  // _anon8
+  union anonymous_11 _anon8;
+  // _anon9
+  union anonymous_12 _anon9;
+  // _anon10
+  union anonymous_13 _anon10;
+  // _anon11
+  union anonymous_14 _anon11;
+  // _anon12
+  union anonymous_15 _anon12;
+  // _anon13
+  union anonymous_16 _anon13;
 };
 
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$30 __sigaction_handler;
+  union anonymous_30 __sigaction_handler;
   // sa_mask
-  struct anonymous$1 sa_mask;
+  struct anonymous_1 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2966,7 +2966,7 @@ signed int logPauseTime = -1;
 signed int logPrintfWarnThreshold = 0;
 // log_printfMutex
 // file logger.c line 247
-union anonymous$18 log_printfMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_18 log_printfMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // logfileActivityCount
@@ -3025,7 +3025,7 @@ signed int protocolActiveServerPipeStarted = 0;
 signed int protocolActiveServerSD = -1;
 // protocolMutex
 // file wrapper.c line 1960
-union anonymous$18 protocolMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_18 protocolMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // protocolSendBuffer
@@ -3087,7 +3087,7 @@ unsigned long int threadPrintBufferSize = (unsigned long int)0;
 signed int threadSets[6l];
 // tickMutex
 // file wrapper.c line 134
-union anonymous$18 tickMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_18 tickMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // timerThreadId
@@ -3177,43 +3177,43 @@ extern signed int _ftprintf(struct _IO_FILE *stream, const signed int *fmt, ...)
   signed int flag;
   signed int *msg;
   void **args;
-  signed int *return_value_wcsstr$8;
-  return_value_wcsstr$8=wcsstr(fmt, L"%s");
-  unsigned long int return_value_wcslen$4;
-  unsigned long int return_value_wcslen$6;
-  _Bool tmp_if_expr$5;
-  if(!(return_value_wcsstr$8 == ((signed int *)NULL)))
+  signed int *return_value_wcsstr_8;
+  return_value_wcsstr_8=wcsstr(fmt, L"%s");
+  unsigned long int return_value_wcslen_4;
+  unsigned long int return_value_wcslen_6;
+  _Bool tmp_if_expr_5;
+  if(!(return_value_wcsstr_8 == ((signed int *)NULL)))
   {
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(fmt);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-    msg = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(fmt);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+    msg = (signed int *)return_value_malloc_2;
     if(!(msg == ((signed int *)NULL)))
     {
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(fmt);
-      wcsncpy(msg, fmt, return_value_wcslen$3 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(fmt);
+      wcsncpy(msg, fmt, return_value_wcslen_3 + (unsigned long int)1);
       i = 0;
       do
       {
-        return_value_wcslen$4=wcslen(fmt);
-        if((unsigned long int)i >= return_value_wcslen$4)
+        return_value_wcslen_4=wcslen(fmt);
+        if((unsigned long int)i >= return_value_wcslen_4)
           break;
 
         if(fmt[(signed long int)i] == 37)
         {
-          return_value_wcslen$6=wcslen(fmt);
-          if(!((unsigned long int)i >= return_value_wcslen$6))
+          return_value_wcslen_6=wcslen(fmt);
+          if(!((unsigned long int)i >= return_value_wcslen_6))
           {
             if(fmt[(signed long int)(1 + i)] == 115)
             {
               if(i == 0)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = fmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$5)
+                tmp_if_expr_5 = fmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_5)
               {
                 msg[(signed long int)(i + 1)] = 83;
                 i = i + 1;
@@ -3228,9 +3228,9 @@ extern signed int _ftprintf(struct _IO_FILE *stream, const signed int *fmt, ...)
         i = i + 1;
       }
       while((_Bool)1);
-      unsigned long int return_value_wcslen$7;
-      return_value_wcslen$7=wcslen(fmt);
-      msg[(signed long int)return_value_wcslen$7] = 0;
+      unsigned long int return_value_wcslen_7;
+      return_value_wcslen_7=wcslen(fmt);
+      msg[(signed long int)return_value_wcslen_7] = 0;
     }
 
     flag = -1;
@@ -3264,43 +3264,43 @@ extern signed int _sntprintf(signed int *str, unsigned long int size, const sign
   signed int flag;
   signed int *msg;
   void **args;
-  signed int *return_value_wcsstr$8;
-  return_value_wcsstr$8=wcsstr(fmt, L"%s");
-  unsigned long int return_value_wcslen$4;
-  unsigned long int return_value_wcslen$6;
-  _Bool tmp_if_expr$5;
-  if(!(return_value_wcsstr$8 == ((signed int *)NULL)))
+  signed int *return_value_wcsstr_8;
+  return_value_wcsstr_8=wcsstr(fmt, L"%s");
+  unsigned long int return_value_wcslen_4;
+  unsigned long int return_value_wcslen_6;
+  _Bool tmp_if_expr_5;
+  if(!(return_value_wcsstr_8 == ((signed int *)NULL)))
   {
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(fmt);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-    msg = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(fmt);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+    msg = (signed int *)return_value_malloc_2;
     if(!(msg == ((signed int *)NULL)))
     {
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(fmt);
-      wcsncpy(msg, fmt, return_value_wcslen$3 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(fmt);
+      wcsncpy(msg, fmt, return_value_wcslen_3 + (unsigned long int)1);
       i = 0;
       do
       {
-        return_value_wcslen$4=wcslen(fmt);
-        if((unsigned long int)i >= return_value_wcslen$4)
+        return_value_wcslen_4=wcslen(fmt);
+        if((unsigned long int)i >= return_value_wcslen_4)
           break;
 
         if(fmt[(signed long int)i] == 37)
         {
-          return_value_wcslen$6=wcslen(fmt);
-          if(!((unsigned long int)i >= return_value_wcslen$6))
+          return_value_wcslen_6=wcslen(fmt);
+          if(!((unsigned long int)i >= return_value_wcslen_6))
           {
             if(fmt[(signed long int)(1 + i)] == 115)
             {
               if(i == 0)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = fmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$5)
+                tmp_if_expr_5 = fmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_5)
               {
                 msg[(signed long int)(i + 1)] = 83;
                 i = i + 1;
@@ -3315,9 +3315,9 @@ extern signed int _sntprintf(signed int *str, unsigned long int size, const sign
         i = i + 1;
       }
       while((_Bool)1);
-      unsigned long int return_value_wcslen$7;
-      return_value_wcslen$7=wcslen(fmt);
-      msg[(signed long int)return_value_wcslen$7] = 0;
+      unsigned long int return_value_wcslen_7;
+      return_value_wcslen_7=wcslen(fmt);
+      msg[(signed long int)return_value_wcslen_7] = 0;
     }
 
     flag = -1;
@@ -3357,9 +3357,9 @@ extern signed int _tchdir(const signed int *path)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size + (unsigned long int)1);
-    cStr = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size + (unsigned long int)1);
+    cStr = (char *)return_value_malloc_1;
     if(!(cStr == ((char *)NULL)))
     {
       wcstombs(cStr, path, size + (unsigned long int)1);
@@ -3386,9 +3386,9 @@ extern signed int _texecve(signed int *arg, signed int **cmd, signed int **env)
   for( ; !(cmd[(signed long int)i] == ((signed int *)NULL)); i = i + 1)
     ;
   sizeCmd = i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
-  cCmd = (char **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
+  cCmd = (char **)return_value_malloc_1;
   if(!(cCmd == ((char **)NULL)))
   {
     i = 0;
@@ -3404,9 +3404,9 @@ extern signed int _texecve(signed int *arg, signed int **cmd, signed int **env)
         return -1;
       }
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(req + (unsigned long int)1);
-      cCmd[(signed long int)i] = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(req + (unsigned long int)1);
+      cCmd[(signed long int)i] = (char *)return_value_malloc_2;
       if(!(cCmd[(signed long int)i] == ((char *)NULL)))
         wcstombs(cCmd[(signed long int)i], cmd[(signed long int)i], req + (unsigned long int)1);
 
@@ -3424,9 +3424,9 @@ extern signed int _texecve(signed int *arg, signed int **cmd, signed int **env)
     for( ; !(env[(signed long int)i] == ((signed int *)NULL)); i = i + 1)
       ;
     sizeEnv = i;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
-    cEnv = (char **)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
+    cEnv = (char **)return_value_malloc_3;
     if(cEnv == ((char **)NULL))
     {
       for( ; sizeCmd >= 0; sizeCmd = sizeCmd - 1)
@@ -3451,9 +3451,9 @@ extern signed int _texecve(signed int *arg, signed int **cmd, signed int **env)
         return -1;
       }
 
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(req + (unsigned long int)1);
-      cEnv[(signed long int)i] = (char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(req + (unsigned long int)1);
+      cEnv[(signed long int)i] = (char *)return_value_malloc_4;
       if(!(cEnv[(signed long int)i] == ((char *)NULL)))
         wcstombs(cEnv[(signed long int)i], env[(signed long int)i], req + (unsigned long int)1);
 
@@ -3482,9 +3482,9 @@ extern signed int _texecve(signed int *arg, signed int **cmd, signed int **env)
       return -1;
     }
 
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(req + (unsigned long int)1);
-    cArg = (char *)return_value_malloc$5;
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(req + (unsigned long int)1);
+    cArg = (char *)return_value_malloc_5;
     if(!(cArg == ((char *)NULL)))
     {
       wcstombs(cArg, arg, req + (unsigned long int)1);
@@ -3519,9 +3519,9 @@ extern signed int _texecvp(signed int *arg, signed int **cmd)
   for( ; !(cmd[(signed long int)i] == ((signed int *)NULL)); i = i + 1)
     ;
   size = i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
-  cCmd = (char **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
+  cCmd = (char **)return_value_malloc_1;
   if(!(cCmd == ((char **)NULL)))
   {
     i = 0;
@@ -3537,9 +3537,9 @@ extern signed int _texecvp(signed int *arg, signed int **cmd)
         return -1;
       }
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(req + (unsigned long int)1);
-      cCmd[(signed long int)i] = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(req + (unsigned long int)1);
+      cCmd[(signed long int)i] = (char *)return_value_malloc_2;
       if(!(cCmd[(signed long int)i] == ((char *)NULL)))
         wcstombs(cCmd[(signed long int)i], cmd[(signed long int)i], req + (unsigned long int)1);
 
@@ -3562,9 +3562,9 @@ extern signed int _texecvp(signed int *arg, signed int **cmd)
       return -1;
     }
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(req + (unsigned long int)1);
-    cArg = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(req + (unsigned long int)1);
+    cArg = (char *)return_value_malloc_3;
     if(!(cArg == ((char *)NULL)))
     {
       wcstombs(cArg, arg, req + (unsigned long int)1);
@@ -3592,32 +3592,32 @@ extern struct _IO_FILE * _tfopen(const signed int *file, const signed int *mode)
   char *cFile;
   char *cMode;
   struct _IO_FILE *f = (struct _IO_FILE *)(void *)0;
-  unsigned long int return_value_wcstombs$1;
-  return_value_wcstombs$1=wcstombs((char *)(void *)0, (signed int *)file, (unsigned long int)0);
-  sizeFile = (signed int)return_value_wcstombs$1;
+  unsigned long int return_value_wcstombs_1;
+  return_value_wcstombs_1=wcstombs((char *)(void *)0, (signed int *)file, (unsigned long int)0);
+  sizeFile = (signed int)return_value_wcstombs_1;
   if((unsigned long int)sizeFile == 18446744073709551615ul)
     return (struct _IO_FILE *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(sizeFile + 1));
-    cFile = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(sizeFile + 1));
+    cFile = (char *)return_value_malloc_2;
     if(!(cFile == ((char *)NULL)))
     {
       wcstombs(cFile, (signed int *)file, (unsigned long int)(sizeFile + 1));
-      unsigned long int return_value_wcstombs$3;
-      return_value_wcstombs$3=wcstombs((char *)(void *)0, (signed int *)mode, (unsigned long int)0);
-      sizeMode = (signed int)return_value_wcstombs$3;
+      unsigned long int return_value_wcstombs_3;
+      return_value_wcstombs_3=wcstombs((char *)(void *)0, (signed int *)mode, (unsigned long int)0);
+      sizeMode = (signed int)return_value_wcstombs_3;
       if((unsigned long int)sizeMode == 18446744073709551615ul)
       {
         free((void *)cFile);
         return (struct _IO_FILE *)(void *)0;
       }
 
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)(sizeMode + 1));
-      cMode = (char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)(sizeMode + 1));
+      cMode = (char *)return_value_malloc_4;
       if(!(cMode == ((char *)NULL)))
       {
         wcstombs(cMode, (signed int *)mode, (unsigned long int)(sizeMode + 1));
@@ -3640,14 +3640,14 @@ extern signed int * _tgetcwd(signed int *buf, unsigned long int size)
   unsigned long int len;
   if(!(buf == ((signed int *)NULL)))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size);
-    cBuf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size);
+    cBuf = (char *)return_value_malloc_1;
     if(!(cBuf == ((char *)NULL)))
     {
-      char *return_value_getcwd$2;
-      return_value_getcwd$2=getcwd(cBuf, size);
-      if(!(return_value_getcwd$2 == ((char *)NULL)))
+      char *return_value_getcwd_2;
+      return_value_getcwd_2=getcwd(cBuf, size);
+      if(!(return_value_getcwd_2 == ((char *)NULL)))
       {
         len=mbstowcs(buf, cBuf, size);
         if(len == 18446744073709551615ul)
@@ -3683,9 +3683,9 @@ extern signed int * _tgetenv(const signed int *name)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (req + (unsigned long int)1));
-    cName = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (req + (unsigned long int)1));
+    cName = (char *)return_value_malloc_1;
     if(!(cName == ((char *)NULL)))
     {
       wcstombs(cName, name, req + (unsigned long int)1);
@@ -3698,9 +3698,9 @@ extern signed int * _tgetenv(const signed int *name)
       if(req == 18446744073709551615ul)
         return (signed int *)(void *)0;
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
-      val = (signed int *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
+      val = (signed int *)return_value_malloc_2;
       if(!(val == ((signed int *)NULL)))
       {
         mbstowcs(val, cVal, req + (unsigned long int)1);
@@ -3727,9 +3727,9 @@ extern signed int _tmkfifo(signed int *arg, unsigned int mode)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size + (unsigned long int)1);
-    cStr = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size + (unsigned long int)1);
+    cStr = (char *)return_value_malloc_1;
     if(!(cStr == ((char *)NULL)))
     {
       wcstombs(cStr, arg, size + (unsigned long int)1);
@@ -3754,9 +3754,9 @@ extern signed int _topen(const signed int *path, signed int oflag, unsigned int 
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size + (unsigned long int)1);
-    cPath = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size + (unsigned long int)1);
+    cPath = (char *)return_value_malloc_1;
     if(!(cPath == ((char *)NULL)))
     {
       wcstombs(cPath, path, size + (unsigned long int)1);
@@ -3783,9 +3783,9 @@ extern signed long int _tpathconf(const signed int *path, signed int name)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(req + (unsigned long int)1);
-    cPath = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(req + (unsigned long int)1);
+    cPath = (char *)return_value_malloc_1;
     if(!(cPath == ((char *)NULL)))
     {
       wcstombs(cPath, path, req + (unsigned long int)1);
@@ -3807,43 +3807,43 @@ extern signed int _tprintf(const signed int *fmt, ...)
   signed int flag;
   signed int *msg;
   void **args;
-  signed int *return_value_wcsstr$8;
-  return_value_wcsstr$8=wcsstr(fmt, L"%s");
-  unsigned long int return_value_wcslen$4;
-  unsigned long int return_value_wcslen$6;
-  _Bool tmp_if_expr$5;
-  if(!(return_value_wcsstr$8 == ((signed int *)NULL)))
+  signed int *return_value_wcsstr_8;
+  return_value_wcsstr_8=wcsstr(fmt, L"%s");
+  unsigned long int return_value_wcslen_4;
+  unsigned long int return_value_wcslen_6;
+  _Bool tmp_if_expr_5;
+  if(!(return_value_wcsstr_8 == ((signed int *)NULL)))
   {
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(fmt);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-    msg = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(fmt);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+    msg = (signed int *)return_value_malloc_2;
     if(!(msg == ((signed int *)NULL)))
     {
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(fmt);
-      wcsncpy(msg, fmt, return_value_wcslen$3 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(fmt);
+      wcsncpy(msg, fmt, return_value_wcslen_3 + (unsigned long int)1);
       i = 0;
       do
       {
-        return_value_wcslen$4=wcslen(fmt);
-        if((unsigned long int)i >= return_value_wcslen$4)
+        return_value_wcslen_4=wcslen(fmt);
+        if((unsigned long int)i >= return_value_wcslen_4)
           break;
 
         if(fmt[(signed long int)i] == 37)
         {
-          return_value_wcslen$6=wcslen(fmt);
-          if(!((unsigned long int)i >= return_value_wcslen$6))
+          return_value_wcslen_6=wcslen(fmt);
+          if(!((unsigned long int)i >= return_value_wcslen_6))
           {
             if(fmt[(signed long int)(1 + i)] == 115)
             {
               if(i == 0)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = fmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$5)
+                tmp_if_expr_5 = fmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_5)
               {
                 msg[(signed long int)(i + 1)] = 83;
                 i = i + 1;
@@ -3858,9 +3858,9 @@ extern signed int _tprintf(const signed int *fmt, ...)
         i = i + 1;
       }
       while((_Bool)1);
-      unsigned long int return_value_wcslen$7;
-      return_value_wcslen$7=wcslen(fmt);
-      msg[(signed long int)return_value_wcslen$7] = 0;
+      unsigned long int return_value_wcslen_7;
+      return_value_wcslen_7=wcslen(fmt);
+      msg[(signed long int)return_value_wcslen_7] = 0;
     }
 
     flag = -1;
@@ -3899,20 +3899,20 @@ extern unsigned long int _treadlink(signed int *exe, signed int *fullPath, unsig
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(req + (unsigned long int)1);
-    cExe = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(req + (unsigned long int)1);
+    cExe = (char *)return_value_malloc_1;
     if(!(cExe == ((char *)NULL)))
     {
       wcstombs(cExe, exe, req + (unsigned long int)1);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(size);
-      cFullPath = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(size);
+      cFullPath = (char *)return_value_malloc_2;
       if(!(cFullPath == ((char *)NULL)))
       {
-        signed long int return_value_readlink$3;
-        return_value_readlink$3=readlink(cExe, cFullPath, size);
-        req = (unsigned long int)return_value_readlink$3;
+        signed long int return_value_readlink_3;
+        return_value_readlink_3=readlink(cExe, cFullPath, size);
+        req = (unsigned long int)return_value_readlink_3;
         if(req == 18446744073709551615ul)
         {
           free((void *)cFullPath);
@@ -3952,25 +3952,25 @@ extern signed int * _trealpathN(const signed int *fileName, signed int *resolved
   signed int req;
   char *returnVal;
   resolvedName[(signed long int)0] = 0;
-  unsigned long int return_value_wcstombs$1;
-  return_value_wcstombs$1=wcstombs((char *)(void *)0, fileName, (unsigned long int)0);
-  sizeFile = (signed int)return_value_wcstombs$1;
+  unsigned long int return_value_wcstombs_1;
+  return_value_wcstombs_1=wcstombs((char *)(void *)0, fileName, (unsigned long int)0);
+  sizeFile = (signed int)return_value_wcstombs_1;
   if((unsigned long int)sizeFile == 18446744073709551615ul)
     return (signed int *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(sizeFile + 1));
-    cFile = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(sizeFile + 1));
+    cFile = (char *)return_value_malloc_2;
     if(!(cFile == ((char *)NULL)))
     {
       wcstombs(cFile, fileName, (unsigned long int)(sizeFile + 1));
       returnVal=realpath(cFile, resolved);
       free((void *)cFile);
-      unsigned long int return_value_mbstowcs$3;
-      return_value_mbstowcs$3=mbstowcs((signed int *)(void *)0, resolved, (unsigned long int)0);
-      req = (signed int)return_value_mbstowcs$3;
+      unsigned long int return_value_mbstowcs_3;
+      return_value_mbstowcs_3=mbstowcs((signed int *)(void *)0, resolved, (unsigned long int)0);
+      req = (signed int)return_value_mbstowcs_3;
       if((unsigned long int)req == 18446744073709551615ul)
       {
         resolvedName[(signed long int)0] = 0;
@@ -4003,9 +4003,9 @@ extern signed int _tremove(const signed int *path)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(req + (unsigned long int)1);
-    cPath = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(req + (unsigned long int)1);
+    cPath = (char *)return_value_malloc_1;
     if(!(cPath == ((char *)NULL)))
     {
       wcstombs(cPath, path, req + (unsigned long int)1);
@@ -4033,9 +4033,9 @@ extern signed int _trename(const signed int *path, const signed int *to)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(req + (unsigned long int)1);
-    cPath = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(req + (unsigned long int)1);
+    cPath = (char *)return_value_malloc_1;
     if(!(cPath == ((char *)NULL)))
     {
       wcstombs(cPath, path, req + (unsigned long int)1);
@@ -4046,9 +4046,9 @@ extern signed int _trename(const signed int *path, const signed int *to)
         return ret;
       }
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(req + (unsigned long int)1);
-      cTo = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(req + (unsigned long int)1);
+      cTo = (char *)return_value_malloc_2;
       if(!(cTo == ((char *)NULL)))
       {
         wcstombs(cTo, to, req + (unsigned long int)1);
@@ -4077,9 +4077,9 @@ extern signed int _tsetenv(const signed int *name, const signed int *value, sign
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size + (unsigned long int)1);
-    cName = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size + (unsigned long int)1);
+    cName = (char *)return_value_malloc_1;
     if(!(cName == ((char *)NULL)))
     {
       wcstombs(cName, name, size + (unsigned long int)1);
@@ -4090,9 +4090,9 @@ extern signed int _tsetenv(const signed int *name, const signed int *value, sign
         return -1;
       }
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(size + (unsigned long int)1);
-      cValue = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(size + (unsigned long int)1);
+      cValue = (char *)return_value_malloc_2;
       if(!(cValue == ((char *)NULL)))
       {
         wcstombs(cValue, value, size + (unsigned long int)1);
@@ -4121,9 +4121,9 @@ extern signed int * _tsetlocale(signed int category, const signed int *locale)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (req + (unsigned long int)1));
-    cLocale = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (req + (unsigned long int)1));
+    cLocale = (char *)return_value_malloc_1;
     if(!(cLocale == ((char *)NULL)))
     {
       wcstombs(cLocale, locale, req + (unsigned long int)1);
@@ -4134,9 +4134,9 @@ extern signed int * _tsetlocale(signed int category, const signed int *locale)
         req=mbstowcs((signed int *)(void *)0, cReturn, (unsigned long int)0);
         if(!(req == 18446744073709551615ul))
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
-          tReturn = (signed int *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
+          tReturn = (signed int *)return_value_malloc_2;
           if(!(tReturn == ((signed int *)NULL)))
           {
             mbstowcs(tReturn, cReturn, req + (unsigned long int)1);
@@ -4160,17 +4160,17 @@ extern signed int _tstat(const signed int *filename, struct stat *buf)
 {
   signed int size;
   char *cFileName;
-  unsigned long int return_value_wcstombs$1;
-  return_value_wcstombs$1=wcstombs((char *)(void *)0, (signed int *)filename, (unsigned long int)0);
-  size = (signed int)return_value_wcstombs$1;
+  unsigned long int return_value_wcstombs_1;
+  return_value_wcstombs_1=wcstombs((char *)(void *)0, (signed int *)filename, (unsigned long int)0);
+  size = (signed int)return_value_wcstombs_1;
   if((unsigned long int)size == 18446744073709551615ul)
     return -1;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(size + 1));
-    cFileName = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(size + 1));
+    cFileName = (char *)return_value_malloc_2;
     if(!(cFileName == ((char *)NULL)))
     {
       wcstombs(cFileName, (signed int *)filename, (unsigned long int)(size + 1));
@@ -4191,9 +4191,9 @@ extern void _tsyslog(signed int priority, const signed int *message)
   req=wcstombs((char *)(void *)0, message, (unsigned long int)0);
   if(!(req == 18446744073709551615ul))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(req + (unsigned long int)1);
-    cMessage = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(req + (unsigned long int)1);
+    cMessage = (char *)return_value_malloc_1;
     if(!(cMessage == ((char *)NULL)))
     {
       wcstombs(cMessage, message, req + (unsigned long int)1);
@@ -4211,17 +4211,17 @@ extern signed int _tunlink(const signed int *address)
 {
   signed int size;
   char *cAddress;
-  unsigned long int return_value_wcstombs$1;
-  return_value_wcstombs$1=wcstombs((char *)(void *)0, (signed int *)address, (unsigned long int)0);
-  size = (signed int)return_value_wcstombs$1;
+  unsigned long int return_value_wcstombs_1;
+  return_value_wcstombs_1=wcstombs((char *)(void *)0, (signed int *)address, (unsigned long int)0);
+  size = (signed int)return_value_wcstombs_1;
   if((unsigned long int)size == 18446744073709551615ul)
     return -1;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(size + 1));
-    cAddress = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(size + 1));
+    cAddress = (char *)return_value_malloc_2;
     if(!(cAddress == ((char *)NULL)))
     {
       wcstombs(cAddress, (signed int *)address, (unsigned long int)(size + 1));
@@ -4244,9 +4244,9 @@ extern void _tunsetenv(const signed int *name)
   size=wcstombs((char *)(void *)0, (signed int *)name, (unsigned long int)0);
   if(!(size == 18446744073709551615ul))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size + (unsigned long int)1);
-    cName = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size + (unsigned long int)1);
+    cName = (char *)return_value_malloc_1;
     if(!(cName == ((char *)NULL)))
     {
       wcstombs(cName, name, size + (unsigned long int)1);
@@ -4268,20 +4268,20 @@ extern struct Property * addProperty(struct Properties *properties, const signed
   signed int *propertyNameTrim;
   signed int *propertyValueTrim;
   signed int *propertyExpandedValue;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(propertyName);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-  propertyNameTrim = (signed int *)return_value_malloc$2;
-  const signed int *tmp_if_expr$8;
-  const signed int *tmp_if_expr$9;
-  const signed int *tmp_if_expr$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_isEscapedProperty$11;
-  _Bool tmp_if_expr$17;
-  signed int *return_value_wcsstr$16;
-  unsigned long int return_value_wcslen$14;
-  signed int *return_value_wcsstr$13;
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(propertyName);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+  propertyNameTrim = (signed int *)return_value_malloc_2;
+  const signed int *tmp_if_expr_8;
+  const signed int *tmp_if_expr_9;
+  const signed int *tmp_if_expr_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_isEscapedProperty_11;
+  _Bool tmp_if_expr_17;
+  signed int *return_value_wcsstr_16;
+  unsigned long int return_value_wcslen_14;
+  signed int *return_value_wcsstr_13;
   if(propertyNameTrim == ((signed int *)NULL))
   {
     outOfMemory(L"AP", 1);
@@ -4291,11 +4291,11 @@ extern struct Property * addProperty(struct Properties *properties, const signed
   else
   {
     trim(propertyName, propertyNameTrim);
-    unsigned long int return_value_wcslen$3;
-    return_value_wcslen$3=wcslen(propertyValue);
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$3 + (unsigned long int)1));
-    propertyValueTrim = (signed int *)return_value_malloc$4;
+    unsigned long int return_value_wcslen_3;
+    return_value_wcslen_3=wcslen(propertyValue);
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_3 + (unsigned long int)1));
+    propertyValueTrim = (signed int *)return_value_malloc_4;
     if(propertyValueTrim == ((signed int *)NULL))
     {
       outOfMemory(L"AP", 4);
@@ -4318,11 +4318,11 @@ extern struct Property * addProperty(struct Properties *properties, const signed
           return (struct Property *)(void *)0;
         }
 
-        unsigned long int return_value_wcslen$5;
-        return_value_wcslen$5=wcslen(propertyNameTrim);
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$5 + (unsigned long int)1));
-        property->name = (signed int *)return_value_malloc$6;
+        unsigned long int return_value_wcslen_5;
+        return_value_wcslen_5=wcslen(propertyNameTrim);
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_5 + (unsigned long int)1));
+        property->name = (signed int *)return_value_malloc_6;
         if(property->name == ((signed int *)NULL))
         {
           outOfMemory(L"AP", 3);
@@ -4332,9 +4332,9 @@ extern struct Property * addProperty(struct Properties *properties, const signed
           return (struct Property *)(void *)0;
         }
 
-        unsigned long int return_value_wcslen$7;
-        return_value_wcslen$7=wcslen(propertyNameTrim);
-        wcsncpy(property->name, propertyNameTrim, return_value_wcslen$7 + (unsigned long int)1);
+        unsigned long int return_value_wcslen_7;
+        return_value_wcslen_7=wcslen(propertyNameTrim);
+        wcsncpy(property->name, propertyNameTrim, return_value_wcslen_7 + (unsigned long int)1);
         insertInnerProperty(properties, property);
       }
 
@@ -4345,11 +4345,11 @@ extern struct Property * addProperty(struct Properties *properties, const signed
           if(!(properties->debugProperties == 0))
           {
             if(!(filename == ((const signed int *)NULL)))
-              tmp_if_expr$8 = filename;
+              tmp_if_expr_8 = filename;
 
             else
-              tmp_if_expr$8 = L"<NULL>";
-            log_printf(-1, 3, L"The \"%s\" property is defined by the Wrapper internally and can not be overwritten.\n  Ignoring redefinition on line #%d of configuration file: %s\n  Fixed Value %s=%s\n  Ignored Value %s=%s", propertyNameTrim, lineNum, tmp_if_expr$8, propertyNameTrim, property->value, propertyNameTrim, propertyValueTrim);
+              tmp_if_expr_8 = L"<NULL>";
+            log_printf(-1, 3, L"The \"%s\" property is defined by the Wrapper internally and can not be overwritten.\n  Ignoring redefinition on line #%d of configuration file: %s\n  Fixed Value %s=%s\n  Ignored Value %s=%s", propertyNameTrim, lineNum, tmp_if_expr_8, propertyNameTrim, property->value, propertyNameTrim, propertyValueTrim);
           }
 
         }
@@ -4361,11 +4361,11 @@ extern struct Property * addProperty(struct Properties *properties, const signed
             if(!(properties->debugProperties == 0))
             {
               if(!(filename == ((const signed int *)NULL)))
-                tmp_if_expr$9 = filename;
+                tmp_if_expr_9 = filename;
 
               else
-                tmp_if_expr$9 = L"<NULL>";
-              log_printf(-1, 3, L"The \"%s\" property was defined on the Wrapper command line and can not be overwritten.\n  Ignoring redefinition on line #%d of configuration file: %s\n  Fixed Value %s=%s\n  Ignored Value %s=%s", propertyNameTrim, lineNum, tmp_if_expr$9, propertyNameTrim, property->value, propertyNameTrim, propertyValueTrim);
+                tmp_if_expr_9 = L"<NULL>";
+              log_printf(-1, 3, L"The \"%s\" property was defined on the Wrapper command line and can not be overwritten.\n  Ignoring redefinition on line #%d of configuration file: %s\n  Fixed Value %s=%s\n  Ignored Value %s=%s", propertyNameTrim, lineNum, tmp_if_expr_9, propertyNameTrim, property->value, propertyNameTrim, propertyValueTrim);
             }
 
           }
@@ -4374,11 +4374,11 @@ extern struct Property * addProperty(struct Properties *properties, const signed
             if(!(properties->debugProperties == 0))
             {
               if(!(filename == ((const signed int *)NULL)))
-                tmp_if_expr$10 = filename;
+                tmp_if_expr_10 = filename;
 
               else
-                tmp_if_expr$10 = L"<NULL>";
-              log_printf(-1, 3, L"The \"%s\" property was redefined on line #%d of configuration file: %s\n  Old Value %s=%s\n  New Value %s=%s", propertyNameTrim, lineNum, tmp_if_expr$10, propertyNameTrim, property->value, propertyNameTrim, propertyValueTrim);
+                tmp_if_expr_10 = L"<NULL>";
+              log_printf(-1, 3, L"The \"%s\" property was redefined on line #%d of configuration file: %s\n  Old Value %s=%s\n  New Value %s=%s", propertyNameTrim, lineNum, tmp_if_expr_10, propertyNameTrim, property->value, propertyNameTrim, propertyValueTrim);
             }
 
       free((void *)propertyNameTrim);
@@ -4386,13 +4386,13 @@ extern struct Property * addProperty(struct Properties *properties, const signed
       {
         if(!(escapable == 0))
         {
-          return_value_isEscapedProperty$11=isEscapedProperty(property->name);
-          tmp_if_expr$12 = return_value_isEscapedProperty$11 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_isEscapedProperty_11=isEscapedProperty(property->name);
+          tmp_if_expr_12 = return_value_isEscapedProperty_11 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = (_Bool)0;
+        if(tmp_if_expr_12)
         {
           propertyExpandedValue=expandEscapedCharacters(propertyValueTrim);
           if(propertyExpandedValue == ((signed int *)NULL))
@@ -4417,17 +4417,17 @@ extern struct Property * addProperty(struct Properties *properties, const signed
         property->quotable = quotable;
         property->internal = internal;
         prepareProperty(properties, property, 0);
-        unsigned long int return_value_wcslen$15;
-        return_value_wcslen$15=wcslen(property->name);
-        if(return_value_wcslen$15 >= 13ul)
+        unsigned long int return_value_wcslen_15;
+        return_value_wcslen_15=wcslen(property->name);
+        if(return_value_wcslen_15 >= 13ul)
         {
-          return_value_wcsstr$16=wcsstr(property->name, L"set.default.");
-          tmp_if_expr$17 = return_value_wcsstr$16 == property->name ? (_Bool)1 : (_Bool)0;
+          return_value_wcsstr_16=wcsstr(property->name, L"set.default.");
+          tmp_if_expr_17 = return_value_wcsstr_16 == property->name ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$17 = (_Bool)0;
-        if(tmp_if_expr$17)
+          tmp_if_expr_17 = (_Bool)0;
+        if(tmp_if_expr_17)
         {
           oldVal=_tgetenv(property->name + (signed long int)12);
           if(oldVal == ((signed int *)NULL))
@@ -4439,11 +4439,11 @@ extern struct Property * addProperty(struct Properties *properties, const signed
 
         else
         {
-          return_value_wcslen$14=wcslen(property->name);
-          if(return_value_wcslen$14 >= 5ul)
+          return_value_wcslen_14=wcslen(property->name);
+          if(return_value_wcslen_14 >= 5ul)
           {
-            return_value_wcsstr$13=wcsstr(property->name, L"set.");
-            if(return_value_wcsstr$13 == property->name)
+            return_value_wcsstr_13=wcsstr(property->name, L"set.");
+            if(return_value_wcsstr_13 == property->name)
               setEnv(property->name + (signed long int)4, property->value, internal != 0 ? 2 : 4);
 
           }
@@ -4463,9 +4463,9 @@ extern signed int addPropertyPair(struct Properties *properties, const signed in
 {
   signed int buffer[16897l];
   signed int *d;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(propertyNameValue);
-  if(1ul + return_value_wcslen$1 >= 16897ul)
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(propertyNameValue);
+  if(1ul + return_value_wcslen_1 >= 16897ul)
   {
     log_printf(-1, 6, L"The following property name value pair is too large.  Need to increase the internal buffer size: %s", propertyNameValue);
     return 1;
@@ -4479,9 +4479,9 @@ extern signed int addPropertyPair(struct Properties *properties, const signed in
     {
       *d = 0;
       d = d + 1l;
-      struct Property *return_value_addProperty$2;
-      return_value_addProperty$2=addProperty(properties, filename, lineNum, buffer, d, finalValue, quotable, 0, internal);
-      if(!(return_value_addProperty$2 == ((struct Property *)NULL)))
+      struct Property *return_value_addProperty_2;
+      return_value_addProperty_2=addProperty(properties, filename, lineNum, buffer, d, finalValue, quotable, 0, internal);
+      if(!(return_value_addProperty_2 == ((struct Property *)NULL)))
         return 0;
 
       else
@@ -4499,22 +4499,22 @@ void anchorPoll(unsigned int nowTicks)
 {
   struct stat fileStat;
   signed int result;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
   if(!(wrapperData->anchorFilename == ((signed int *)NULL)))
   {
-    signed int return_value_wrapperTickExpired$12;
-    return_value_wrapperTickExpired$12=wrapperTickExpired(nowTicks, wrapperData->anchorTimeoutTicks);
-    if(!(return_value_wrapperTickExpired$12 == 0))
+    signed int return_value_wrapperTickExpired_12;
+    return_value_wrapperTickExpired_12=wrapperTickExpired(nowTicks, wrapperData->anchorTimeoutTicks);
+    if(!(return_value_wrapperTickExpired_12 == 0))
     {
       if(!(wrapperData->isLoopOutputEnabled == 0))
         log_printf(-1, 3, L"    Loop: check anchor file");
@@ -4523,64 +4523,64 @@ void anchorPoll(unsigned int nowTicks)
       if(!(result == 0))
       {
         if(!(wrapperData->exitRequested == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_1 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_4 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_5 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_6 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_7 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = (_Bool)1;
+          tmp_if_expr_9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
-          tmp_if_expr$10 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$10)
+          tmp_if_expr_10 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_10)
           wrapperStopProcess(0, -1);
 
         if(wrapperData->wState == 56)
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
-          tmp_if_expr$11 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$11)
+          tmp_if_expr_11 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_11)
         {
           log_printf(-1, 3, L"Anchor file deleted.  Shutting down.");
           wrapperSetWrapperState(56);
@@ -4645,12 +4645,12 @@ signed int * buildPrintBuffer(signed int source_id, signed int level, signed int
   reqSize = (unsigned long int)0;
   i = 0;
   numColumns = 0;
-  unsigned long int return_value_wcslen$1;
-  unsigned long int return_value_wcslen$2;
+  unsigned long int return_value_wcslen_1;
+  unsigned long int return_value_wcslen_2;
   do
   {
-    return_value_wcslen$1=wcslen(format);
-    if(i >= (signed int)return_value_wcslen$1)
+    return_value_wcslen_1=wcslen(format);
+    if(i >= (signed int)return_value_wcslen_1)
       break;
 
     switch(format[(signed long int)i])
@@ -4731,8 +4731,8 @@ signed int * buildPrintBuffer(signed int source_id, signed int level, signed int
 
       case 109:
       {
-        return_value_wcslen$2=wcslen(message);
-        reqSize = reqSize + return_value_wcslen$2 + (unsigned long int)3;
+        return_value_wcslen_2=wcslen(message);
+        reqSize = reqSize + return_value_wcslen_2 + (unsigned long int)3;
         numColumns = numColumns + 1;
       }
       default:
@@ -4747,16 +4747,16 @@ signed int * buildPrintBuffer(signed int source_id, signed int level, signed int
   while((_Bool)1);
   if(reqSize == 0ul && !(defaultFormat == ((const signed int *)NULL)))
   {
-    signed int *return_value_buildPrintBuffer$3;
-    return_value_buildPrintBuffer$3=buildPrintBuffer(source_id, level, threadId, queued, nowTM, nowMillis, durationMillis, defaultFormat, (const signed int *)(void *)0, message);
-    return return_value_buildPrintBuffer$3;
+    signed int *return_value_buildPrintBuffer_3;
+    return_value_buildPrintBuffer_3=buildPrintBuffer(source_id, level, threadId, queued, nowTM, nowMillis, durationMillis, defaultFormat, (const signed int *)(void *)0, message);
+    return return_value_buildPrintBuffer_3;
   }
 
   reqSize = reqSize + (unsigned long int)1;
-  signed int *return_value_preparePrintBuffer$4;
-  return_value_preparePrintBuffer$4=preparePrintBuffer(reqSize);
-  unsigned long int return_value_wcslen$5;
-  if(return_value_preparePrintBuffer$4 == ((signed int *)NULL))
+  signed int *return_value_preparePrintBuffer_4;
+  return_value_preparePrintBuffer_4=preparePrintBuffer(reqSize);
+  unsigned long int return_value_wcslen_5;
+  if(return_value_preparePrintBuffer_4 == ((signed int *)NULL))
     return (signed int *)(void *)0;
 
   else
@@ -4769,8 +4769,8 @@ signed int * buildPrintBuffer(signed int source_id, signed int level, signed int
     temp = 0;
     do
     {
-      return_value_wcslen$5=wcslen(format);
-      if(i >= (signed int)return_value_wcslen$5)
+      return_value_wcslen_5=wcslen(format);
+      if(i >= (signed int)return_value_wcslen_5)
         break;
 
       handledFormat = -1;
@@ -4951,7 +4951,7 @@ void checkAndRollLogs(const signed int *nowDate)
 {
   signed long int position;
   struct stat fileStat;
-  signed int return_value_getLastError$3;
+  signed int return_value_getLastError_3;
   if(!((2 & logFileRollMode) == 0))
   {
     if(!(logFileMaxSize >= 1))
@@ -4962,9 +4962,9 @@ void checkAndRollLogs(const signed int *nowDate)
       position=ftell(logfileFP);
       if(!(position >= 0l))
       {
-        const signed int *return_value_getLastErrorText$1;
-        return_value_getLastErrorText$1=getLastErrorText();
-        _tprintf(L"Unable to get the current logfile size with ftell: %s\n", return_value_getLastErrorText$1);
+        const signed int *return_value_getLastErrorText_1;
+        return_value_getLastErrorText_1=getLastErrorText();
+        _tprintf(L"Unable to get the current logfile size with ftell: %s\n", return_value_getLastErrorText_1);
         goto __CPROVER_DUMP_L17;
       }
 
@@ -4972,26 +4972,26 @@ void checkAndRollLogs(const signed int *nowDate)
 
     else
     {
-      signed int return_value__tstat$5;
-      return_value__tstat$5=_tstat(logFilePath, &fileStat);
-      if(!(return_value__tstat$5 == 0))
+      signed int return_value__tstat_5;
+      return_value__tstat_5=_tstat(logFilePath, &fileStat);
+      if(!(return_value__tstat_5 == 0))
       {
-        signed int return_value_getLastError$4;
-        return_value_getLastError$4=getLastError();
-        if(return_value_getLastError$4 == 2)
+        signed int return_value_getLastError_4;
+        return_value_getLastError_4=getLastError();
+        if(return_value_getLastError_4 == 2)
           position = (signed long int)0;
 
         else
         {
-          return_value_getLastError$3=getLastError();
-          if(return_value_getLastError$3 == 3)
+          return_value_getLastError_3=getLastError();
+          if(return_value_getLastError_3 == 3)
             position = (signed long int)0;
 
           else
           {
-            const signed int *return_value_getLastErrorText$2;
-            return_value_getLastErrorText$2=getLastErrorText();
-            _tprintf(L"Unable to get the current logfile size with stat: %s\n", return_value_getLastErrorText$2);
+            const signed int *return_value_getLastErrorText_2;
+            return_value_getLastErrorText_2=getLastErrorText();
+            _tprintf(L"Unable to get the current logfile size with stat: %s\n", return_value_getLastErrorText_2);
             goto __CPROVER_DUMP_L17;
           }
         }
@@ -5008,9 +5008,9 @@ void checkAndRollLogs(const signed int *nowDate)
   else
     if(!((16 & logFileRollMode) == 0))
     {
-      signed int return_value_wcscmp$6;
-      return_value_wcscmp$6=wcscmp(nowDate, logFileLastNowDate);
-      if(!(return_value_wcscmp$6 == 0))
+      signed int return_value_wcscmp_6;
+      return_value_wcscmp_6=wcscmp(nowDate, logFileLastNowDate);
+      if(!(return_value_wcscmp_6 == 0))
       {
         if(!(logfileFP == ((struct _IO_FILE *)NULL)))
         {
@@ -5049,19 +5049,19 @@ signed int checkForTestWrapperScripts()
 {
   const signed int *prop;
   prop=getStringProperty(properties, L"wrapper.java.mainclass", (const signed int *)(void *)0);
-  signed int return_value_wcscmp$1;
+  signed int return_value_wcscmp_1;
   if(!(prop == ((const signed int *)NULL)))
   {
-    signed int return_value_wcscmp$3;
-    return_value_wcscmp$3=wcscmp(prop, L"org.tanukisoftware.wrapper.test.Main");
-    if(!(return_value_wcscmp$3 == 0))
+    signed int return_value_wcscmp_3;
+    return_value_wcscmp_3=wcscmp(prop, L"org.tanukisoftware.wrapper.test.Main");
+    if(!(return_value_wcscmp_3 == 0))
     {
       prop=getStringProperty(properties, L"wrapper.app.parameter.2", (const signed int *)(void *)0);
       if(!(prop == ((const signed int *)NULL)))
       {
-        signed int return_value_wcscmp$2;
-        return_value_wcscmp$2=wcscmp(prop, L"{{TestWrapperBat}}");
-        if(return_value_wcscmp$2 == 0)
+        signed int return_value_wcscmp_2;
+        return_value_wcscmp_2=wcscmp(prop, L"{{TestWrapperBat}}");
+        if(return_value_wcscmp_2 == 0)
         {
           log_printf(-1, 5, L"");
           log_printf(-1, 5, L"--------------------------------------------------------------------");
@@ -5077,8 +5077,8 @@ signed int checkForTestWrapperScripts()
 
         else
         {
-          return_value_wcscmp$1=wcscmp(prop, L"{{TestWrapperSh}}");
-          if(return_value_wcscmp$1 == 0)
+          return_value_wcscmp_1=wcscmp(prop, L"{{TestWrapperSh}}");
+          if(return_value_wcscmp_1 == 0)
           {
             log_printf(-1, 5, L"");
             log_printf(-1, 5, L"--------------------------------------------------------------------");
@@ -5110,16 +5110,16 @@ signed int checkIfBinary(const signed int *filename)
   unsigned char head[5l];
   signed int r;
   f=_tfopen(filename, L"rb");
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(f == ((struct _IO_FILE *)NULL))
     return 1;
 
   else
   {
-    unsigned long int return_value_fread$1;
-    return_value_fread$1=fread((void *)head, (unsigned long int)1, (unsigned long int)4, f);
-    r = (signed int)return_value_fread$1;
+    unsigned long int return_value_fread_1;
+    return_value_fread_1=fread((void *)head, (unsigned long int)1, (unsigned long int)4, f);
+    r = (signed int)return_value_fread_1;
     if(!(r == 4))
     {
       fclose(f);
@@ -5132,16 +5132,16 @@ signed int checkIfBinary(const signed int *filename)
       log_printf(-1, 1, L"Magic number for file %s: 0x%02x%02x%02x%02x", filename, head[(signed long int)0], head[(signed long int)1], head[(signed long int)2], head[(signed long int)3]);
 
     if((signed int)head[1l] == 69)
-      tmp_if_expr$2 = (signed int)head[(signed long int)2] == 76 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)head[(signed long int)2] == 76 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (signed int)head[(signed long int)3] == 70 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (signed int)head[(signed long int)3] == 70 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
       return 1;
 
     else
@@ -5165,16 +5165,16 @@ signed int checkIfExecutable(const signed int *filename)
 
     else
     {
-      unsigned int return_value_geteuid$1;
-      return_value_geteuid$1=geteuid();
-      if(statInfo.st_uid == return_value_geteuid$1)
+      unsigned int return_value_geteuid_1;
+      return_value_geteuid_1=geteuid();
+      if(statInfo.st_uid == return_value_geteuid_1)
         return (signed int)(statInfo.st_mode & (unsigned int)0100);
 
       else
       {
-        unsigned int return_value_getegid$2;
-        return_value_getegid$2=getegid();
-        if(statInfo.st_gid == return_value_getegid$2)
+        unsigned int return_value_getegid_2;
+        return_value_getegid_2=getegid();
+        if(statInfo.st_gid == return_value_getegid_2)
           return (signed int)(statInfo.st_mode & (unsigned int)(0100 >> 3));
 
         else
@@ -5199,11 +5199,11 @@ void checkIfRegularExe(signed int **para)
     if(replacePath == -1)
     {
       free((void *)*para);
-      unsigned long int return_value_wcslen$1;
-      return_value_wcslen$1=wcslen(path);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((return_value_wcslen$1 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
-      *para = (signed int *)return_value_malloc$2;
+      unsigned long int return_value_wcslen_1;
+      return_value_wcslen_1=wcslen(path);
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((return_value_wcslen_1 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
+      *para = (signed int *)return_value_malloc_2;
       if(*para == ((signed int *)NULL))
       {
         outOfMemory(L"CIRE", 2);
@@ -5211,14 +5211,14 @@ void checkIfRegularExe(signed int **para)
         goto __CPROVER_DUMP_L6;
       }
 
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(path);
-      wcsncpy(*para, path, return_value_wcslen$3 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(path);
+      wcsncpy(*para, path, return_value_wcslen_3 + (unsigned long int)1);
     }
 
-    signed int return_value_checkIfBinary$4;
-    return_value_checkIfBinary$4=checkIfBinary(path);
-    if(return_value_checkIfBinary$4 == 0)
+    signed int return_value_checkIfBinary_4;
+    return_value_checkIfBinary_4=checkIfBinary(path);
+    if(return_value_checkIfBinary_4 == 0)
     {
       log_printf(-1, 4, L"The value of wrapper.java.command does not appear to be a java binary.");
       log_printf(-1, 4, L"The use of scripts is not supported. Trying to continue, but some features may not work correctly..");
@@ -5240,13 +5240,13 @@ extern signed int checkLogfileDir()
   signed int *logFileDir;
   signed int *testfile;
   signed int fd;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(logFilePath);
-  len = return_value_wcslen$1 + (unsigned long int)1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(len * sizeof(signed int) /*4ul*/ );
-  logFileDir = (signed int *)return_value_malloc$2;
-  signed int *return_value___errno_location$9;
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(logFilePath);
+  len = return_value_wcslen_1 + (unsigned long int)1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(len * sizeof(signed int) /*4ul*/ );
+  logFileDir = (signed int *)return_value_malloc_2;
+  signed int *return_value___errno_location_9;
   if(logFileDir == ((signed int *)NULL))
   {
     outOfMemory(L"CLD", 1);
@@ -5260,12 +5260,12 @@ extern signed int checkLogfileDir()
     if(!(c == ((signed int *)NULL)))
     {
       c[(signed long int)0] = 0;
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(logFileDir);
-      len = return_value_wcslen$3 + (unsigned long int)23 + (unsigned long int)1 + (unsigned long int)1000;
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(len * sizeof(signed int) /*4ul*/ );
-      testfile = (signed int *)return_value_malloc$4;
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(logFileDir);
+      len = return_value_wcslen_3 + (unsigned long int)23 + (unsigned long int)1 + (unsigned long int)1000;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(len * sizeof(signed int) /*4ul*/ );
+      testfile = (signed int *)return_value_malloc_4;
       if(testfile == ((signed int *)NULL))
       {
         outOfMemory(L"CLD", 1);
@@ -5273,31 +5273,31 @@ extern signed int checkLogfileDir()
         return -1;
       }
 
-      signed int return_value_rand$5;
-      return_value_rand$5=rand();
-      signed int return_value_rand$6;
-      return_value_rand$6=rand();
-      _sntprintf(testfile, len, L"%s%c.wrapper_test-%.4d%.4d", logFileDir, 47, return_value_rand$5 % 9999, return_value_rand$6 % 9999);
+      signed int return_value_rand_5;
+      return_value_rand_5=rand();
+      signed int return_value_rand_6;
+      return_value_rand_6=rand();
+      _sntprintf(testfile, len, L"%s%c.wrapper_test-%.4d%.4d", logFileDir, 47, return_value_rand_5 % 9999, return_value_rand_6 % 9999);
       fd=_topen(testfile, 01 | 0100 | 0200, (unsigned int)(0400 | 0200));
       if(fd == -1)
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        if(*return_value___errno_location$10 == 13)
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        if(*return_value___errno_location_10 == 13)
         {
-          const signed int *return_value_getLastErrorText$7;
-          return_value_getLastErrorText$7=getLastErrorText();
-          log_printf_queue(-1, -1, 4, L"Unable to write to the configured log directory: %s (%s)\n  The Wrapper may also have problems writing or rolling the log file.\n  Please make sure that the current user has read/write access.", logFileDir, return_value_getLastErrorText$7);
+          const signed int *return_value_getLastErrorText_7;
+          return_value_getLastErrorText_7=getLastErrorText();
+          log_printf_queue(-1, -1, 4, L"Unable to write to the configured log directory: %s (%s)\n  The Wrapper may also have problems writing or rolling the log file.\n  Please make sure that the current user has read/write access.", logFileDir, return_value_getLastErrorText_7);
         }
 
         else
         {
-          return_value___errno_location$9=__errno_location();
-          if(*return_value___errno_location$9 == 2)
+          return_value___errno_location_9=__errno_location();
+          if(*return_value___errno_location_9 == 2)
           {
-            const signed int *return_value_getLastErrorText$8;
-            return_value_getLastErrorText$8=getLastErrorText();
-            log_printf_queue(-1, -1, 4, L"Unable to write to the configured log directory: %s (%s)\n  The directory does not exist.", logFileDir, return_value_getLastErrorText$8);
+            const signed int *return_value_getLastErrorText_8;
+            return_value_getLastErrorText_8=getLastErrorText();
+            log_printf_queue(-1, -1, 4, L"Unable to write to the configured log directory: %s (%s)\n  The directory does not exist.", logFileDir, return_value_getLastErrorText_8);
           }
 
         }
@@ -5306,13 +5306,13 @@ extern signed int checkLogfileDir()
       else
       {
         close(fd);
-        signed int return_value__tremove$12;
-        return_value__tremove$12=_tremove(testfile);
-        if(!(return_value__tremove$12 == 0))
+        signed int return_value__tremove_12;
+        return_value__tremove_12=_tremove(testfile);
+        if(!(return_value__tremove_12 == 0))
         {
-          const signed int *return_value_getLastErrorText$11;
-          return_value_getLastErrorText$11=getLastErrorText();
-          log_printf_queue(-1, -1, 4, L"Unable to remove temporary file: %s (%s)\n  The Wrapper may also have problems writing or rolling the log file.\n  Please make sure that the current user has read/write access.", testfile, return_value_getLastErrorText$11);
+          const signed int *return_value_getLastErrorText_11;
+          return_value_getLastErrorText_11=getLastErrorText();
+          log_printf_queue(-1, -1, 4, L"Unable to remove temporary file: %s (%s)\n  The Wrapper may also have problems writing or rolling the log file.\n  Please make sure that the current user has read/write access.", testfile, return_value_getLastErrorText_11);
         }
 
       }
@@ -5328,9 +5328,9 @@ extern signed int checkLogfileDir()
 // file logger.h line 227
 extern void closeLogfile()
 {
-  signed int return_value_lockLoggingMutex$1;
-  return_value_lockLoggingMutex$1=lockLoggingMutex();
-  if(return_value_lockLoggingMutex$1 == 0)
+  signed int return_value_lockLoggingMutex_1;
+  return_value_lockLoggingMutex_1=lockLoggingMutex();
+  if(return_value_lockLoggingMutex_1 == 0)
   {
     if(!(logfileFP == ((struct _IO_FILE *)NULL)))
     {
@@ -5338,8 +5338,8 @@ extern void closeLogfile()
       logfileFP = (struct _IO_FILE *)(void *)0;
     }
 
-    signed int return_value_releaseLoggingMutex$2;
-    return_value_releaseLoggingMutex$2=releaseLoggingMutex();
+    signed int return_value_releaseLoggingMutex_2;
+    return_value_releaseLoggingMutex_2=releaseLoggingMutex();
   }
 
 }
@@ -5365,62 +5365,62 @@ void commandPoll(unsigned int nowTicks)
   signed int newLowLogLevel;
   signed int flag;
   signed int accessViolation = 0;
-  signed int return_value_wcscasecmp$59;
-  _Bool tmp_if_expr$3;
-  signed int return_value_wcscasecmp$58;
-  signed int return_value_wcscasecmp$57;
-  signed int return_value_wcscasecmp$56;
-  signed int return_value_wcscasecmp$55;
-  signed int return_value_wcscasecmp$50;
-  _Bool tmp_if_expr$52;
-  signed int return_value_wcscasecmp$51;
-  _Bool tmp_if_expr$54;
-  signed int return_value_wcscasecmp$53;
-  signed int return_value_wcscasecmp$5;
-  signed int return_value_wcscasecmp$4;
-  signed int return_value_wcscasecmp$39;
-  _Bool tmp_if_expr$41;
-  signed int return_value_wcscasecmp$40;
-  _Bool tmp_if_expr$43;
-  signed int return_value_wcscasecmp$42;
-  _Bool tmp_if_expr$45;
-  signed int return_value_wcscasecmp$44;
-  _Bool tmp_if_expr$47;
-  signed int return_value_wcscasecmp$46;
-  _Bool tmp_if_expr$49;
-  signed int return_value_wcscasecmp$48;
-  _Bool tmp_if_expr$9;
-  signed int return_value_wcscasecmp$8;
-  signed int return_value_wcscasecmp$14;
-  signed int return_value_wcscasecmp$13;
-  signed int return_value_wcscasecmp$12;
-  signed int return_value_wcscasecmp$11;
-  signed int return_value_wcscasecmp$10;
-  signed int return_value_wcscasecmp$36;
-  _Bool tmp_if_expr$38;
-  signed int return_value_wcscasecmp$37;
-  signed int return_value_wcscasecmp$35;
-  signed long int tmp_if_expr$18;
-  signed long int return_value_wcstol$17;
-  signed long int tmp_if_expr$22;
-  signed long int return_value_wcstol$19;
-  signed long int tmp_if_expr$21;
-  signed long int return_value_wcstol$20;
-  signed int return_value_wcscasecmp$24;
-  signed int return_value_wcscasecmp$23;
-  signed int return_value_wcscasecmp$34;
-  signed long int tmp_if_expr$28;
-  signed long int return_value_wcstol$27;
-  signed long int tmp_if_expr$32;
-  signed long int return_value_wcstol$29;
-  signed long int tmp_if_expr$31;
-  signed long int return_value_wcstol$30;
-  signed int return_value_wcscasecmp$33;
+  signed int return_value_wcscasecmp_59;
+  _Bool tmp_if_expr_3;
+  signed int return_value_wcscasecmp_58;
+  signed int return_value_wcscasecmp_57;
+  signed int return_value_wcscasecmp_56;
+  signed int return_value_wcscasecmp_55;
+  signed int return_value_wcscasecmp_50;
+  _Bool tmp_if_expr_52;
+  signed int return_value_wcscasecmp_51;
+  _Bool tmp_if_expr_54;
+  signed int return_value_wcscasecmp_53;
+  signed int return_value_wcscasecmp_5;
+  signed int return_value_wcscasecmp_4;
+  signed int return_value_wcscasecmp_39;
+  _Bool tmp_if_expr_41;
+  signed int return_value_wcscasecmp_40;
+  _Bool tmp_if_expr_43;
+  signed int return_value_wcscasecmp_42;
+  _Bool tmp_if_expr_45;
+  signed int return_value_wcscasecmp_44;
+  _Bool tmp_if_expr_47;
+  signed int return_value_wcscasecmp_46;
+  _Bool tmp_if_expr_49;
+  signed int return_value_wcscasecmp_48;
+  _Bool tmp_if_expr_9;
+  signed int return_value_wcscasecmp_8;
+  signed int return_value_wcscasecmp_14;
+  signed int return_value_wcscasecmp_13;
+  signed int return_value_wcscasecmp_12;
+  signed int return_value_wcscasecmp_11;
+  signed int return_value_wcscasecmp_10;
+  signed int return_value_wcscasecmp_36;
+  _Bool tmp_if_expr_38;
+  signed int return_value_wcscasecmp_37;
+  signed int return_value_wcscasecmp_35;
+  signed long int tmp_if_expr_18;
+  signed long int return_value_wcstol_17;
+  signed long int tmp_if_expr_22;
+  signed long int return_value_wcstol_19;
+  signed long int tmp_if_expr_21;
+  signed long int return_value_wcstol_20;
+  signed int return_value_wcscasecmp_24;
+  signed int return_value_wcscasecmp_23;
+  signed int return_value_wcscasecmp_34;
+  signed long int tmp_if_expr_28;
+  signed long int return_value_wcstol_27;
+  signed long int tmp_if_expr_32;
+  signed long int return_value_wcstol_29;
+  signed long int tmp_if_expr_31;
+  signed long int return_value_wcstol_30;
+  signed int return_value_wcscasecmp_33;
   if(!(wrapperData->commandFilename == ((signed int *)NULL)))
   {
-    signed int return_value_wrapperTickExpired$63;
-    return_value_wrapperTickExpired$63=wrapperTickExpired(nowTicks, wrapperData->commandTimeoutTicks);
-    if(!(return_value_wrapperTickExpired$63 == 0))
+    signed int return_value_wrapperTickExpired_63;
+    return_value_wrapperTickExpired_63=wrapperTickExpired(nowTicks, wrapperData->commandTimeoutTicks);
+    if(!(return_value_wrapperTickExpired_63 == 0))
     {
       if(!(wrapperData->isLoopOutputEnabled == 0))
         log_printf(-1, 3, L"    Loop: check command file");
@@ -5489,46 +5489,46 @@ void commandPoll(unsigned int nowTicks)
 
               else
                 param2 = (signed int *)(void *)0;
-              signed int return_value_wcscasecmp$60;
-              return_value_wcscasecmp$60=wcscasecmp(command, L"RESTART");
-              if(return_value_wcscasecmp$60 == 0)
+              signed int return_value_wcscasecmp_60;
+              return_value_wcscasecmp_60=wcscasecmp(command, L"RESTART");
+              if(return_value_wcscasecmp_60 == 0)
               {
-                const signed int *return_value_wrapperGetRestartProcessMessage$1;
-                return_value_wrapperGetRestartProcessMessage$1=wrapperGetRestartProcessMessage();
-                log_printf(-1, 3, L"Command '%s'.  %s", command, return_value_wrapperGetRestartProcessMessage$1);
+                const signed int *return_value_wrapperGetRestartProcessMessage_1;
+                return_value_wrapperGetRestartProcessMessage_1=wrapperGetRestartProcessMessage();
+                log_printf(-1, 3, L"Command '%s'.  %s", command, return_value_wrapperGetRestartProcessMessage_1);
                 wrapperRestartProcess();
               }
 
               else
               {
-                return_value_wcscasecmp$59=wcscasecmp(command, L"STOP");
-                if(return_value_wcscasecmp$59 == 0)
+                return_value_wcscasecmp_59=wcscasecmp(command, L"STOP");
+                if(return_value_wcscasecmp_59 == 0)
                 {
                   if(param1 == ((signed int *)NULL))
                     exitCode = 0;
 
                   else
                   {
-                    signed long int return_value_wcstol$2;
-                    return_value_wcstol$2=wcstol(param1, (signed int ** restrict )(void *)0, 10);
-                    exitCode = (signed int)return_value_wcstol$2;
+                    signed long int return_value_wcstol_2;
+                    return_value_wcstol_2=wcstol(param1, (signed int ** restrict )(void *)0, 10);
+                    exitCode = (signed int)return_value_wcstol_2;
                   }
                   log_printf(-1, 3, L"Command '%s'. Shutting down with exit code %d.", command, exitCode);
                   wrapperStopProcess(exitCode, -1);
                   if(wrapperData->wState == 56)
-                    tmp_if_expr$3 = (_Bool)1;
+                    tmp_if_expr_3 = (_Bool)1;
 
                   else
-                    tmp_if_expr$3 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
-                  if(!tmp_if_expr$3)
+                    tmp_if_expr_3 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
+                  if(!tmp_if_expr_3)
                     wrapperSetWrapperState(56);
 
                 }
 
                 else
                 {
-                  return_value_wcscasecmp$58=wcscasecmp(command, L"PAUSE");
-                  if(return_value_wcscasecmp$58 == 0)
+                  return_value_wcscasecmp_58=wcscasecmp(command, L"PAUSE");
+                  if(return_value_wcscasecmp_58 == 0)
                   {
                     log_printf(-1, 3, L"Command '%s'. Pausing JVM.", command);
                     wrapperPauseProcess(2);
@@ -5536,8 +5536,8 @@ void commandPoll(unsigned int nowTicks)
 
                   else
                   {
-                    return_value_wcscasecmp$57=wcscasecmp(command, L"RESUME");
-                    if(return_value_wcscasecmp$57 == 0)
+                    return_value_wcscasecmp_57=wcscasecmp(command, L"RESUME");
+                    if(return_value_wcscasecmp_57 == 0)
                     {
                       log_printf(-1, 3, L"Command '%s'. Resuming JVM.", command);
                       wrapperResumeProcess(2);
@@ -5545,8 +5545,8 @@ void commandPoll(unsigned int nowTicks)
 
                     else
                     {
-                      return_value_wcscasecmp$56=wcscasecmp(command, L"DUMP");
-                      if(return_value_wcscasecmp$56 == 0)
+                      return_value_wcscasecmp_56=wcscasecmp(command, L"DUMP");
+                      if(return_value_wcscasecmp_56 == 0)
                       {
                         log_printf(-1, 3, L"Command '%s'. Requesting a Thread Dump.", command);
                         wrapperRequestDumpJVMState();
@@ -5554,8 +5554,8 @@ void commandPoll(unsigned int nowTicks)
 
                       else
                       {
-                        return_value_wcscasecmp$55=wcscasecmp(command, L"GC");
-                        if(return_value_wcscasecmp$55 == 0)
+                        return_value_wcscasecmp_55=wcscasecmp(command, L"GC");
+                        if(return_value_wcscasecmp_55 == 0)
                         {
                           log_printf(-1, 3, L"Command '%s'. Requesting a GC.", command);
                           wrapperRequestJVMGC(2);
@@ -5563,24 +5563,24 @@ void commandPoll(unsigned int nowTicks)
 
                         else
                         {
-                          return_value_wcscasecmp$50=wcscasecmp(command, L"CONSOLE_LOGLEVEL");
-                          if(return_value_wcscasecmp$50 == 0)
-                            tmp_if_expr$52 = (_Bool)1;
+                          return_value_wcscasecmp_50=wcscasecmp(command, L"CONSOLE_LOGLEVEL");
+                          if(return_value_wcscasecmp_50 == 0)
+                            tmp_if_expr_52 = (_Bool)1;
 
                           else
                           {
-                            return_value_wcscasecmp$51=wcscasecmp(command, L"LOGFILE_LOGLEVEL");
-                            tmp_if_expr$52 = return_value_wcscasecmp$51 == 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_wcscasecmp_51=wcscasecmp(command, L"LOGFILE_LOGLEVEL");
+                            tmp_if_expr_52 = return_value_wcscasecmp_51 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$52)
-                            tmp_if_expr$54 = (_Bool)1;
+                          if(tmp_if_expr_52)
+                            tmp_if_expr_54 = (_Bool)1;
 
                           else
                           {
-                            return_value_wcscasecmp$53=wcscasecmp(command, L"SYSLOG_LOGLEVEL");
-                            tmp_if_expr$54 = return_value_wcscasecmp$53 == 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_wcscasecmp_53=wcscasecmp(command, L"SYSLOG_LOGLEVEL");
+                            tmp_if_expr_54 = return_value_wcscasecmp_53 == 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$54)
+                          if(tmp_if_expr_54)
                           {
                             if(param1 == ((signed int *)NULL))
                               log_printf(-1, 4, L"Command '%s' is missing its log level.", command);
@@ -5594,9 +5594,9 @@ void commandPoll(unsigned int nowTicks)
                               else
                               {
                                 oldLowLogLevel=getLowLogLevel();
-                                signed int return_value_wcscasecmp$6;
-                                return_value_wcscasecmp$6=wcscasecmp(command, L"CONSOLE_LOGLEVEL");
-                                if(return_value_wcscasecmp$6 == 0)
+                                signed int return_value_wcscasecmp_6;
+                                return_value_wcscasecmp_6=wcscasecmp(command, L"CONSOLE_LOGLEVEL");
+                                if(return_value_wcscasecmp_6 == 0)
                                 {
                                   setConsoleLogLevelInt(logLevel);
                                   log_printf(-1, 3, L"Command '%s'. Set console log level to '%s'.", command, param1);
@@ -5604,8 +5604,8 @@ void commandPoll(unsigned int nowTicks)
 
                                 else
                                 {
-                                  return_value_wcscasecmp$5=wcscasecmp(command, L"LOGFILE_LOGLEVEL");
-                                  if(return_value_wcscasecmp$5 == 0)
+                                  return_value_wcscasecmp_5=wcscasecmp(command, L"LOGFILE_LOGLEVEL");
+                                  if(return_value_wcscasecmp_5 == 0)
                                   {
                                     setLogfileLevelInt(logLevel);
                                     log_printf(-1, 3, L"Command '%s'. Set log file log level to '%s'.", command, param1);
@@ -5613,8 +5613,8 @@ void commandPoll(unsigned int nowTicks)
 
                                   else
                                   {
-                                    return_value_wcscasecmp$4=wcscasecmp(command, L"SYSLOG_LOGLEVEL");
-                                    if(return_value_wcscasecmp$4 == 0)
+                                    return_value_wcscasecmp_4=wcscasecmp(command, L"SYSLOG_LOGLEVEL");
+                                    if(return_value_wcscasecmp_4 == 0)
                                     {
                                       setSyslogLevelInt(logLevel);
                                       log_printf(-1, 3, L"Command '%s'. Set syslog log level to '%s'.", command, param1);
@@ -5628,9 +5628,9 @@ void commandPoll(unsigned int nowTicks)
                                 if(!(oldLowLogLevel == newLowLogLevel))
                                 {
                                   wrapperData->isDebugging = (signed int)(newLowLogLevel <= 1);
-                                  signed int return_value_getLowLogLevel$7;
-                                  return_value_getLowLogLevel$7=getLowLogLevel();
-                                  _sntprintf(buffer, (unsigned long int)80, L"%d", return_value_getLowLogLevel$7);
+                                  signed int return_value_getLowLogLevel_7;
+                                  return_value_getLowLogLevel_7=getLowLogLevel();
+                                  _sntprintf(buffer, (unsigned long int)80, L"%d", return_value_getLowLogLevel_7);
                                   wrapperProtocolFunction((char)112, buffer);
                                 }
 
@@ -5640,91 +5640,91 @@ void commandPoll(unsigned int nowTicks)
 
                           else
                           {
-                            return_value_wcscasecmp$39=wcscasecmp(command, L"LOOP_OUTPUT");
-                            if(return_value_wcscasecmp$39 == 0)
-                              tmp_if_expr$41 = (_Bool)1;
+                            return_value_wcscasecmp_39=wcscasecmp(command, L"LOOP_OUTPUT");
+                            if(return_value_wcscasecmp_39 == 0)
+                              tmp_if_expr_41 = (_Bool)1;
 
                             else
                             {
-                              return_value_wcscasecmp$40=wcscasecmp(command, L"STATE_OUTPUT");
-                              tmp_if_expr$41 = return_value_wcscasecmp$40 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_wcscasecmp_40=wcscasecmp(command, L"STATE_OUTPUT");
+                              tmp_if_expr_41 = return_value_wcscasecmp_40 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$41)
-                              tmp_if_expr$43 = (_Bool)1;
+                            if(tmp_if_expr_41)
+                              tmp_if_expr_43 = (_Bool)1;
 
                             else
                             {
-                              return_value_wcscasecmp$42=wcscasecmp(command, L"MEMORY_OUTPUT");
-                              tmp_if_expr$43 = return_value_wcscasecmp$42 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_wcscasecmp_42=wcscasecmp(command, L"MEMORY_OUTPUT");
+                              tmp_if_expr_43 = return_value_wcscasecmp_42 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$43)
-                              tmp_if_expr$45 = (_Bool)1;
+                            if(tmp_if_expr_43)
+                              tmp_if_expr_45 = (_Bool)1;
 
                             else
                             {
-                              return_value_wcscasecmp$44=wcscasecmp(command, L"CPU_OUTPUT");
-                              tmp_if_expr$45 = return_value_wcscasecmp$44 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_wcscasecmp_44=wcscasecmp(command, L"CPU_OUTPUT");
+                              tmp_if_expr_45 = return_value_wcscasecmp_44 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$45)
-                              tmp_if_expr$47 = (_Bool)1;
+                            if(tmp_if_expr_45)
+                              tmp_if_expr_47 = (_Bool)1;
 
                             else
                             {
-                              return_value_wcscasecmp$46=wcscasecmp(command, L"TIMER_OUTPUT");
-                              tmp_if_expr$47 = return_value_wcscasecmp$46 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_wcscasecmp_46=wcscasecmp(command, L"TIMER_OUTPUT");
+                              tmp_if_expr_47 = return_value_wcscasecmp_46 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$47)
-                              tmp_if_expr$49 = (_Bool)1;
+                            if(tmp_if_expr_47)
+                              tmp_if_expr_49 = (_Bool)1;
 
                             else
                             {
-                              return_value_wcscasecmp$48=wcscasecmp(command, L"SLEEP_OUTPUT");
-                              tmp_if_expr$49 = return_value_wcscasecmp$48 == 0 ? (_Bool)1 : (_Bool)0;
+                              return_value_wcscasecmp_48=wcscasecmp(command, L"SLEEP_OUTPUT");
+                              tmp_if_expr_49 = return_value_wcscasecmp_48 == 0 ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$49)
+                            if(tmp_if_expr_49)
                             {
                               if(!(param1 == ((signed int *)NULL)))
                               {
-                                return_value_wcscasecmp$8=wcscasecmp(param1, L"TRUE");
-                                tmp_if_expr$9 = return_value_wcscasecmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_wcscasecmp_8=wcscasecmp(param1, L"TRUE");
+                                tmp_if_expr_9 = return_value_wcscasecmp_8 == 0 ? (_Bool)1 : (_Bool)0;
                               }
 
                               else
-                                tmp_if_expr$9 = (_Bool)0;
-                              flag = (signed int)tmp_if_expr$9;
-                              signed int return_value_wcscasecmp$15;
-                              return_value_wcscasecmp$15=wcscasecmp(command, L"LOOP_OUTPUT");
-                              if(return_value_wcscasecmp$15 == 0)
+                                tmp_if_expr_9 = (_Bool)0;
+                              flag = (signed int)tmp_if_expr_9;
+                              signed int return_value_wcscasecmp_15;
+                              return_value_wcscasecmp_15=wcscasecmp(command, L"LOOP_OUTPUT");
+                              if(return_value_wcscasecmp_15 == 0)
                                 wrapperData->isLoopOutputEnabled = flag;
 
                               else
                               {
-                                return_value_wcscasecmp$14=wcscasecmp(command, L"STATE_OUTPUT");
-                                if(return_value_wcscasecmp$14 == 0)
+                                return_value_wcscasecmp_14=wcscasecmp(command, L"STATE_OUTPUT");
+                                if(return_value_wcscasecmp_14 == 0)
                                   wrapperData->isStateOutputEnabled = flag;
 
                                 else
                                 {
-                                  return_value_wcscasecmp$13=wcscasecmp(command, L"MEMORY_OUTPUT");
-                                  if(return_value_wcscasecmp$13 == 0)
+                                  return_value_wcscasecmp_13=wcscasecmp(command, L"MEMORY_OUTPUT");
+                                  if(return_value_wcscasecmp_13 == 0)
                                     wrapperData->isMemoryOutputEnabled = flag;
 
                                   else
                                   {
-                                    return_value_wcscasecmp$12=wcscasecmp(command, L"CPU_OUTPUT");
-                                    if(return_value_wcscasecmp$12 == 0)
+                                    return_value_wcscasecmp_12=wcscasecmp(command, L"CPU_OUTPUT");
+                                    if(return_value_wcscasecmp_12 == 0)
                                       wrapperData->isCPUOutputEnabled = flag;
 
                                     else
                                     {
-                                      return_value_wcscasecmp$11=wcscasecmp(command, L"TIMER_OUTPUT");
-                                      if(return_value_wcscasecmp$11 == 0)
+                                      return_value_wcscasecmp_11=wcscasecmp(command, L"TIMER_OUTPUT");
+                                      if(return_value_wcscasecmp_11 == 0)
                                         wrapperData->isTickOutputEnabled = flag;
 
                                       else
                                       {
-                                        return_value_wcscasecmp$10=wcscasecmp(command, L"SLEEP_OUTPUT");
-                                        if(return_value_wcscasecmp$10 == 0)
+                                        return_value_wcscasecmp_10=wcscasecmp(command, L"SLEEP_OUTPUT");
+                                        if(return_value_wcscasecmp_10 == 0)
                                           wrapperData->isSleepOutputEnabled = flag;
 
                                       }
@@ -5741,16 +5741,16 @@ void commandPoll(unsigned int nowTicks)
 
                             else
                             {
-                              return_value_wcscasecmp$36=wcscasecmp(command, L"CLOSE_SOCKET");
-                              if(return_value_wcscasecmp$36 == 0)
-                                tmp_if_expr$38 = (_Bool)1;
+                              return_value_wcscasecmp_36=wcscasecmp(command, L"CLOSE_SOCKET");
+                              if(return_value_wcscasecmp_36 == 0)
+                                tmp_if_expr_38 = (_Bool)1;
 
                               else
                               {
-                                return_value_wcscasecmp$37=wcscasecmp(command, L"CLOSE_BACKEND");
-                                tmp_if_expr$38 = return_value_wcscasecmp$37 == 0 ? (_Bool)1 : (_Bool)0;
+                                return_value_wcscasecmp_37=wcscasecmp(command, L"CLOSE_BACKEND");
+                                tmp_if_expr_38 = return_value_wcscasecmp_37 == 0 ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$38)
+                              if(tmp_if_expr_38)
                               {
                                 if(!(wrapperData->commandFileTests == 0))
                                 {
@@ -5764,8 +5764,8 @@ void commandPoll(unsigned int nowTicks)
 
                               else
                               {
-                                return_value_wcscasecmp$35=wcscasecmp(command, L"PAUSE_THREAD");
-                                if(return_value_wcscasecmp$35 == 0)
+                                return_value_wcscasecmp_35=wcscasecmp(command, L"PAUSE_THREAD");
+                                if(return_value_wcscasecmp_35 == 0)
                                 {
                                   if(!(wrapperData->commandFileTests == 0))
                                   {
@@ -5774,49 +5774,49 @@ void commandPoll(unsigned int nowTicks)
 
                                     else
                                     {
-                                      signed long int return_value_wcstol$16;
-                                      return_value_wcstol$16=wcstol(param2, (signed int ** restrict )(void *)0, 10);
-                                      if(return_value_wcstol$16 >= 3601l)
-                                        tmp_if_expr$18 = (signed long int)3600;
+                                      signed long int return_value_wcstol_16;
+                                      return_value_wcstol_16=wcstol(param2, (signed int ** restrict )(void *)0, 10);
+                                      if(return_value_wcstol_16 >= 3601l)
+                                        tmp_if_expr_18 = (signed long int)3600;
 
                                       else
                                       {
-                                        return_value_wcstol$17=wcstol(param2, (signed int ** restrict )(void *)0, 10);
-                                        tmp_if_expr$18 = return_value_wcstol$17;
+                                        return_value_wcstol_17=wcstol(param2, (signed int ** restrict )(void *)0, 10);
+                                        tmp_if_expr_18 = return_value_wcstol_17;
                                       }
-                                      if(!(tmp_if_expr$18 >= 0l))
-                                        tmp_if_expr$22 = (signed long int)0;
+                                      if(!(tmp_if_expr_18 >= 0l))
+                                        tmp_if_expr_22 = (signed long int)0;
 
                                       else
                                       {
-                                        return_value_wcstol$19=wcstol(param2, (signed int ** restrict )(void *)0, 10);
-                                        if(return_value_wcstol$19 >= 3601l)
-                                          tmp_if_expr$21 = (signed long int)3600;
+                                        return_value_wcstol_19=wcstol(param2, (signed int ** restrict )(void *)0, 10);
+                                        if(return_value_wcstol_19 >= 3601l)
+                                          tmp_if_expr_21 = (signed long int)3600;
 
                                         else
                                         {
-                                          return_value_wcstol$20=wcstol(param2, (signed int ** restrict )(void *)0, 10);
-                                          tmp_if_expr$21 = return_value_wcstol$20;
+                                          return_value_wcstol_20=wcstol(param2, (signed int ** restrict )(void *)0, 10);
+                                          tmp_if_expr_21 = return_value_wcstol_20;
                                         }
-                                        tmp_if_expr$22 = tmp_if_expr$21;
+                                        tmp_if_expr_22 = tmp_if_expr_21;
                                       }
-                                      pauseTime = (signed int)tmp_if_expr$22;
+                                      pauseTime = (signed int)tmp_if_expr_22;
                                     }
-                                    signed int return_value_wcscasecmp$25;
-                                    return_value_wcscasecmp$25=wcscasecmp(param1, L"MAIN");
-                                    if(return_value_wcscasecmp$25 == 0)
+                                    signed int return_value_wcscasecmp_25;
+                                    return_value_wcscasecmp_25=wcscasecmp(param1, L"MAIN");
+                                    if(return_value_wcscasecmp_25 == 0)
                                       wrapperData->pauseThreadMain = pauseTime;
 
                                     else
                                     {
-                                      return_value_wcscasecmp$24=wcscasecmp(param1, L"TIMER");
-                                      if(return_value_wcscasecmp$24 == 0)
+                                      return_value_wcscasecmp_24=wcscasecmp(param1, L"TIMER");
+                                      if(return_value_wcscasecmp_24 == 0)
                                         wrapperData->pauseThreadTimer = pauseTime;
 
                                       else
                                       {
-                                        return_value_wcscasecmp$23=wcscasecmp(param1, L"JAVAIO");
-                                        if(return_value_wcscasecmp$23 == 0)
+                                        return_value_wcscasecmp_23=wcscasecmp(param1, L"JAVAIO");
+                                        if(return_value_wcscasecmp_23 == 0)
                                           wrapperData->pauseThreadJavaIO = pauseTime;
 
                                         else
@@ -5841,8 +5841,8 @@ void commandPoll(unsigned int nowTicks)
 
                                 else
                                 {
-                                  return_value_wcscasecmp$34=wcscasecmp(command, L"PAUSE_LOGGER");
-                                  if(return_value_wcscasecmp$34 == 0)
+                                  return_value_wcscasecmp_34=wcscasecmp(command, L"PAUSE_LOGGER");
+                                  if(return_value_wcscasecmp_34 == 0)
                                   {
                                     if(!(wrapperData->commandFileTests == 0))
                                     {
@@ -5851,33 +5851,33 @@ void commandPoll(unsigned int nowTicks)
 
                                       else
                                       {
-                                        signed long int return_value_wcstol$26;
-                                        return_value_wcstol$26=wcstol(param1, (signed int ** restrict )(void *)0, 10);
-                                        if(return_value_wcstol$26 >= 3601l)
-                                          tmp_if_expr$28 = (signed long int)3600;
+                                        signed long int return_value_wcstol_26;
+                                        return_value_wcstol_26=wcstol(param1, (signed int ** restrict )(void *)0, 10);
+                                        if(return_value_wcstol_26 >= 3601l)
+                                          tmp_if_expr_28 = (signed long int)3600;
 
                                         else
                                         {
-                                          return_value_wcstol$27=wcstol(param1, (signed int ** restrict )(void *)0, 10);
-                                          tmp_if_expr$28 = return_value_wcstol$27;
+                                          return_value_wcstol_27=wcstol(param1, (signed int ** restrict )(void *)0, 10);
+                                          tmp_if_expr_28 = return_value_wcstol_27;
                                         }
-                                        if(!(tmp_if_expr$28 >= 0l))
-                                          tmp_if_expr$32 = (signed long int)0;
+                                        if(!(tmp_if_expr_28 >= 0l))
+                                          tmp_if_expr_32 = (signed long int)0;
 
                                         else
                                         {
-                                          return_value_wcstol$29=wcstol(param1, (signed int ** restrict )(void *)0, 10);
-                                          if(return_value_wcstol$29 >= 3601l)
-                                            tmp_if_expr$31 = (signed long int)3600;
+                                          return_value_wcstol_29=wcstol(param1, (signed int ** restrict )(void *)0, 10);
+                                          if(return_value_wcstol_29 >= 3601l)
+                                            tmp_if_expr_31 = (signed long int)3600;
 
                                           else
                                           {
-                                            return_value_wcstol$30=wcstol(param1, (signed int ** restrict )(void *)0, 10);
-                                            tmp_if_expr$31 = return_value_wcstol$30;
+                                            return_value_wcstol_30=wcstol(param1, (signed int ** restrict )(void *)0, 10);
+                                            tmp_if_expr_31 = return_value_wcstol_30;
                                           }
-                                          tmp_if_expr$32 = tmp_if_expr$31;
+                                          tmp_if_expr_32 = tmp_if_expr_31;
                                         }
-                                        pauseTime = (signed int)tmp_if_expr$32;
+                                        pauseTime = (signed int)tmp_if_expr_32;
                                       }
                                       if(pauseTime >= 1)
                                         log_printf(-1, 4, L"Command '%s'.  Enqueue request to pause logger for %d seconds...", command, pauseTime);
@@ -5893,8 +5893,8 @@ void commandPoll(unsigned int nowTicks)
 
                                   else
                                   {
-                                    return_value_wcscasecmp$33=wcscasecmp(command, L"ACCESS_VIOLATION");
-                                    if(return_value_wcscasecmp$33 == 0)
+                                    return_value_wcscasecmp_33=wcscasecmp(command, L"ACCESS_VIOLATION");
+                                    if(return_value_wcscasecmp_33 == 0)
                                     {
                                       if(!(wrapperData->commandFileTests == 0))
                                       {
@@ -5924,13 +5924,13 @@ void commandPoll(unsigned int nowTicks)
           }
           while(!(c == ((signed int *)NULL)));
           fclose(stream);
-          signed int return_value__tremove$62;
-          return_value__tremove$62=_tremove(wrapperData->commandFilename);
-          if(return_value__tremove$62 == -1)
+          signed int return_value__tremove_62;
+          return_value__tremove_62=_tremove(wrapperData->commandFilename);
+          if(return_value__tremove_62 == -1)
           {
-            const signed int *return_value_getLastErrorText$61;
-            return_value_getLastErrorText$61=getLastErrorText();
-            log_printf(-1, 6, L"Unable to delete the command file, %s: %s", wrapperData->commandFilename, return_value_getLastErrorText$61);
+            const signed int *return_value_getLastErrorText_61;
+            return_value_getLastErrorText_61=getLastErrorText();
+            log_printf(-1, 6, L"Unable to delete the command file, %s: %s", wrapperData->commandFilename, return_value_getLastErrorText_61);
           }
 
           if(!(accessViolation == 0))
@@ -6047,7 +6047,7 @@ signed int compareFileNames(const signed int *file1, const signed int *file2)
 
 // configFileReader
 // file wrapper_file.h line 75
-extern signed int configFileReader(const signed int *filename, signed int fileRequired, signed int (*callback)(void *, const signed int *, signed int, signed int *, signed int), void *callbackParam, signed int enableIncludes, signed int preload, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous$19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging)
+extern signed int configFileReader(const signed int *filename, signed int fileRequired, signed int (*callback)(void *, const signed int *, signed int, signed int *, signed int), void *callbackParam, signed int enableIncludes, signed int preload, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous_19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging)
 {
   struct ConfigFileReader reader;
   reader.callback = callback;
@@ -6056,14 +6056,14 @@ extern signed int configFileReader(const signed int *filename, signed int fileRe
   reader.preload = preload;
   reader.debugIncludes = 0;
   reader.debugProperties = 0;
-  signed int return_value_configFileReader_Read$1;
-  return_value_configFileReader_Read$1=configFileReader_Read(&reader, filename, fileRequired, 0, (const signed int *)(void *)0, 0, argCommand, originalWorkingDir, warnedVarMap, logWarnings, logWarningLogLevel, isDebugging);
-  return return_value_configFileReader_Read$1;
+  signed int return_value_configFileReader_Read_1;
+  return_value_configFileReader_Read_1=configFileReader_Read(&reader, filename, fileRequired, 0, (const signed int *)(void *)0, 0, argCommand, originalWorkingDir, warnedVarMap, logWarnings, logWarningLogLevel, isDebugging);
+  return return_value_configFileReader_Read_1;
 }
 
 // configFileReader_Read
 // file wrapper_file.c line 114
-signed int configFileReader_Read(struct ConfigFileReader *reader, const signed int *filename, signed int fileRequired, signed int depth, const signed int *parentFilename, signed int parentLineNumber, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous$19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging)
+signed int configFileReader_Read(struct ConfigFileReader *reader, const signed int *filename, signed int fileRequired, signed int depth, const signed int *parentFilename, signed int parentLineNumber, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous_19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging)
 {
   struct _IO_FILE *stream;
   char bufferMB[16897l];
@@ -6087,43 +6087,43 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
   signed int ret;
   signed int *bufferW;
   stream=_tfopen(filename, L"rb");
-  int *tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  unsigned long int tmp_post$6;
-  _Bool tmp_if_expr$8;
-  unsigned long int tmp_post$7;
-  _Bool tmp_if_expr$10;
-  unsigned long int tmp_post$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int tmp_post$11;
-  _Bool tmp_if_expr$14;
-  unsigned long int tmp_post$13;
-  _Bool tmp_if_expr$16;
-  unsigned long int tmp_post$15;
-  _Bool tmp_if_expr$18;
-  unsigned long int tmp_post$17;
-  _Bool tmp_if_expr$20;
-  unsigned long int tmp_post$19;
-  _Bool tmp_if_expr$22;
-  unsigned long int tmp_post$21;
-  _Bool tmp_if_expr$24;
-  unsigned long int tmp_post$23;
-  signed int return_value_strcasecmp$4;
-  int *tmp_if_expr$26;
-  int *tmp_if_expr$28;
-  _Bool tmp_if_expr$44;
-  signed int return_value_wcscasecmp$43;
-  _Bool tmp_if_expr$42;
-  signed int *return_value_wcsstr$39;
-  _Bool tmp_if_expr$41;
-  signed int *return_value_wcsstr$40;
-  signed int return_value_wcscmp$30;
-  int *tmp_if_expr$34;
-  int *tmp_if_expr$35;
-  int *tmp_if_expr$36;
-  int *tmp_if_expr$37;
-  signed int return_value_wcscasecmp$38;
+  int *tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  unsigned long int tmp_post_6;
+  _Bool tmp_if_expr_8;
+  unsigned long int tmp_post_7;
+  _Bool tmp_if_expr_10;
+  unsigned long int tmp_post_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int tmp_post_11;
+  _Bool tmp_if_expr_14;
+  unsigned long int tmp_post_13;
+  _Bool tmp_if_expr_16;
+  unsigned long int tmp_post_15;
+  _Bool tmp_if_expr_18;
+  unsigned long int tmp_post_17;
+  _Bool tmp_if_expr_20;
+  unsigned long int tmp_post_19;
+  _Bool tmp_if_expr_22;
+  unsigned long int tmp_post_21;
+  _Bool tmp_if_expr_24;
+  unsigned long int tmp_post_23;
+  signed int return_value_strcasecmp_4;
+  int *tmp_if_expr_26;
+  int *tmp_if_expr_28;
+  _Bool tmp_if_expr_44;
+  signed int return_value_wcscasecmp_43;
+  _Bool tmp_if_expr_42;
+  signed int *return_value_wcsstr_39;
+  _Bool tmp_if_expr_41;
+  signed int *return_value_wcsstr_40;
+  signed int return_value_wcscmp_30;
+  int *tmp_if_expr_34;
+  int *tmp_if_expr_35;
+  int *tmp_if_expr_36;
+  int *tmp_if_expr_37;
+  signed int return_value_wcscasecmp_38;
   if(stream == ((struct _IO_FILE *)NULL))
   {
     if(!(reader->debugIncludes == 0) || !(fileRequired == 0))
@@ -6131,11 +6131,11 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
       if(depth >= 1)
       {
         if(!(reader->debugIncludes == 0))
-          tmp_if_expr$1 = L"  ";
+          tmp_if_expr_1 = L"  ";
 
         else
-          tmp_if_expr$1 = L"";
-        log_printf(-1, 3, L"%sIncluded configuration file not found: %s\n  Referenced from: %s (line %d)\n  Current working directory: %s", tmp_if_expr$1, filename, parentFilename, parentLineNumber, originalWorkingDir);
+          tmp_if_expr_1 = L"";
+        log_printf(-1, 3, L"%sIncluded configuration file not found: %s\n  Referenced from: %s (line %d)\n  Current working directory: %s", tmp_if_expr_1, filename, parentFilename, parentLineNumber, originalWorkingDir);
       }
 
       else
@@ -6158,21 +6158,21 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
 
     }
 
-    char *return_value_fgets$25;
-    return_value_fgets$25=fgets(bufferMB, 512 + 1 + 16384, stream);
-    if(!(return_value_fgets$25 == ((char *)NULL)))
+    char *return_value_fgets_25;
+    return_value_fgets_25=fgets(bufferMB, 512 + 1 + 16384, stream);
+    if(!(return_value_fgets_25 == ((char *)NULL)))
     {
       if(bufferMB[0l] == -17)
-        tmp_if_expr$2 = bufferMB[(signed long int)1] == (char)0xbb ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = bufferMB[(signed long int)1] == (char)0xbb ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = bufferMB[(signed long int)2] == (char)0xbf ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = bufferMB[(signed long int)2] == (char)0xbf ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         i = (unsigned long int)3;
         hadBOM = -1;
@@ -6183,90 +6183,90 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
         i = (unsigned long int)0;
         hadBOM = 0;
       }
-      tmp_post$6 = i;
+      tmp_post_6 = i;
       i = i + 1ul;
-      if((signed int)bufferMB[(signed long int)tmp_post$6] == 35)
+      if((signed int)bufferMB[(signed long int)tmp_post_6] == 35)
       {
-        tmp_post$7 = i;
+        tmp_post_7 = i;
         i = i + 1ul;
-        tmp_if_expr$8 = (signed int)bufferMB[(signed long int)tmp_post$7] == 101 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = (signed int)bufferMB[(signed long int)tmp_post_7] == 101 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
-        tmp_post$9 = i;
+        tmp_post_9 = i;
         i = i + 1ul;
-        tmp_if_expr$10 = (signed int)bufferMB[(signed long int)tmp_post$9] == 110 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_10 = (signed int)bufferMB[(signed long int)tmp_post_9] == 110 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
       {
-        tmp_post$11 = i;
+        tmp_post_11 = i;
         i = i + 1ul;
-        tmp_if_expr$12 = (signed int)bufferMB[(signed long int)tmp_post$11] == 99 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = (signed int)bufferMB[(signed long int)tmp_post_11] == 99 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = (_Bool)0;
+      if(tmp_if_expr_12)
       {
-        tmp_post$13 = i;
+        tmp_post_13 = i;
         i = i + 1ul;
-        tmp_if_expr$14 = (signed int)bufferMB[(signed long int)tmp_post$13] == 111 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_14 = (signed int)bufferMB[(signed long int)tmp_post_13] == 111 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$14 = (_Bool)0;
-      if(tmp_if_expr$14)
+        tmp_if_expr_14 = (_Bool)0;
+      if(tmp_if_expr_14)
       {
-        tmp_post$15 = i;
+        tmp_post_15 = i;
         i = i + 1ul;
-        tmp_if_expr$16 = (signed int)bufferMB[(signed long int)tmp_post$15] == 100 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (signed int)bufferMB[(signed long int)tmp_post_15] == 100 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$16 = (_Bool)0;
-      if(tmp_if_expr$16)
+        tmp_if_expr_16 = (_Bool)0;
+      if(tmp_if_expr_16)
       {
-        tmp_post$17 = i;
+        tmp_post_17 = i;
         i = i + 1ul;
-        tmp_if_expr$18 = (signed int)bufferMB[(signed long int)tmp_post$17] == 105 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_18 = (signed int)bufferMB[(signed long int)tmp_post_17] == 105 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$18 = (_Bool)0;
-      if(tmp_if_expr$18)
+        tmp_if_expr_18 = (_Bool)0;
+      if(tmp_if_expr_18)
       {
-        tmp_post$19 = i;
+        tmp_post_19 = i;
         i = i + 1ul;
-        tmp_if_expr$20 = (signed int)bufferMB[(signed long int)tmp_post$19] == 110 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_20 = (signed int)bufferMB[(signed long int)tmp_post_19] == 110 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$20 = (_Bool)0;
-      if(tmp_if_expr$20)
+        tmp_if_expr_20 = (_Bool)0;
+      if(tmp_if_expr_20)
       {
-        tmp_post$21 = i;
+        tmp_post_21 = i;
         i = i + 1ul;
-        tmp_if_expr$22 = (signed int)bufferMB[(signed long int)tmp_post$21] == 103 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_22 = (signed int)bufferMB[(signed long int)tmp_post_21] == 103 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$22 = (_Bool)0;
-      if(tmp_if_expr$22)
+        tmp_if_expr_22 = (_Bool)0;
+      if(tmp_if_expr_22)
       {
-        tmp_post$23 = i;
+        tmp_post_23 = i;
         i = i + 1ul;
-        tmp_if_expr$24 = (signed int)bufferMB[(signed long int)tmp_post$23] == 61 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_24 = (signed int)bufferMB[(signed long int)tmp_post_23] == 61 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$24 = (_Bool)0;
-      if(tmp_if_expr$24)
+        tmp_if_expr_24 = (_Bool)0;
+      if(tmp_if_expr_24)
       {
         encodingMB = bufferMB + (signed long int)i;
         i = (unsigned long int)0;
@@ -6281,11 +6281,11 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
         }
         encodingMB[(signed long int)i] = (char)0;
         if(!(hadBOM == 0))
-          return_value_strcasecmp$4=strcasecmp(encodingMB, "UTF-8");
+          return_value_strcasecmp_4=strcasecmp(encodingMB, "UTF-8");
 
-        signed int return_value_getEncodingByName$5;
-        return_value_getEncodingByName$5=getEncodingByName(encodingMB, &encoding);
-        if(return_value_getEncodingByName$5 == -1)
+        signed int return_value_getEncodingByName_5;
+        return_value_getEncodingByName_5=getEncodingByName(encodingMB, &encoding);
+        if(return_value_getEncodingByName_5 == -1)
         {
           fclose(stream);
           return 102;
@@ -6308,11 +6308,11 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
         if(depth >= 1)
         {
           if(!(reader->debugIncludes == 0))
-            tmp_if_expr$26 = L"  ";
+            tmp_if_expr_26 = L"  ";
 
           else
-            tmp_if_expr$26 = L"";
-          log_printf(-1, 3, L"%sIncluded configuration file, %s, was not found.", tmp_if_expr$26, filename);
+            tmp_if_expr_26 = L"";
+          log_printf(-1, 3, L"%sIncluded configuration file, %s, was not found.", tmp_if_expr_26, filename);
         }
 
         else
@@ -6327,9 +6327,9 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
       lineNumber = 1;
       do
       {
-        char *return_value_fgets$27;
-        return_value_fgets$27=fgets(bufferMB, 512 + 1 + 16384, stream);
-        c = (signed int *)return_value_fgets$27;
+        char *return_value_fgets_27;
+        return_value_fgets_27=fgets(bufferMB, 512 + 1 + 16384, stream);
+        c = (signed int *)return_value_fgets_27;
         if(!(c == ((signed int *)NULL)))
         {
           interumEncoding=nl_langinfo(14);
@@ -6343,11 +6343,11 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
                 if(depth >= 1)
                 {
                   if(!(reader->debugIncludes == 0))
-                    tmp_if_expr$28 = L"  ";
+                    tmp_if_expr_28 = L"  ";
 
                   else
-                    tmp_if_expr$28 = L"";
-                  log_printf(-1, 4, L"%sIncluded configuration file, %s, contains a problem on line #%d and could not be read. (%s)", tmp_if_expr$28, filename, lineNumber, bufferW);
+                    tmp_if_expr_28 = L"";
+                  log_printf(-1, 4, L"%sIncluded configuration file, %s, contains a problem on line #%d and could not be read. (%s)", tmp_if_expr_28, filename, lineNumber, bufferW);
                 }
 
                 else
@@ -6429,19 +6429,19 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
 
             trimmedBufferLen = trimmedBufferLen - 1ul;
           }
-          unsigned long int return_value_wcslen$45;
-          return_value_wcslen$45=wcslen(trimmedBuffer);
-          if(return_value_wcslen$45 >= 1ul)
+          unsigned long int return_value_wcslen_45;
+          return_value_wcslen_45=wcslen(trimmedBuffer);
+          if(return_value_wcslen_45 >= 1ul)
           {
             if(!(reader->enableIncludes == 0))
             {
-              return_value_wcscasecmp$43=wcscasecmp(trimmedBuffer, L"#include.debug");
-              tmp_if_expr$44 = return_value_wcscasecmp$43 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_wcscasecmp_43=wcscasecmp(trimmedBuffer, L"#include.debug");
+              tmp_if_expr_44 = return_value_wcscasecmp_43 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$44 = (_Bool)0;
-            if(tmp_if_expr$44)
+              tmp_if_expr_44 = (_Bool)0;
+            if(tmp_if_expr_44)
             {
               if(reader->preload == 0)
               {
@@ -6459,25 +6459,25 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
             {
               if(!(reader->enableIncludes == 0))
               {
-                return_value_wcsstr$39=wcsstr(trimmedBuffer, L"#include ");
-                if(return_value_wcsstr$39 == trimmedBuffer)
-                  tmp_if_expr$41 = (_Bool)1;
+                return_value_wcsstr_39=wcsstr(trimmedBuffer, L"#include ");
+                if(return_value_wcsstr_39 == trimmedBuffer)
+                  tmp_if_expr_41 = (_Bool)1;
 
                 else
                 {
-                  return_value_wcsstr$40=wcsstr(trimmedBuffer, L"#include.required ");
-                  tmp_if_expr$41 = return_value_wcsstr$40 == trimmedBuffer ? (_Bool)1 : (_Bool)0;
+                  return_value_wcsstr_40=wcsstr(trimmedBuffer, L"#include.required ");
+                  tmp_if_expr_41 = return_value_wcsstr_40 == trimmedBuffer ? (_Bool)1 : (_Bool)0;
                 }
-                tmp_if_expr$42 = tmp_if_expr$41 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_42 = tmp_if_expr_41 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$42 = (_Bool)0;
-              if(tmp_if_expr$42)
+                tmp_if_expr_42 = (_Bool)0;
+              if(tmp_if_expr_42)
               {
-                signed int *return_value_wcsstr$29;
-                return_value_wcsstr$29=wcsstr(trimmedBuffer, L"#include.required ");
-                if(return_value_wcsstr$29 == trimmedBuffer)
+                signed int *return_value_wcsstr_29;
+                return_value_wcsstr_29=wcsstr(trimmedBuffer, L"#include.required ");
+                if(return_value_wcsstr_29 == trimmedBuffer)
                 {
                   includeRequired = -1;
                   c = trimmedBuffer + (signed long int)18;
@@ -6498,29 +6498,29 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
                 evaluateEnvironmentVariables(c, expBuffer, 512 + 1 + 16384, logWarnings, warnedVarMap, logWarningLogLevel);
                 if(!(reader->debugIncludes == 0))
                 {
-                  return_value_wcscmp$30=wcscmp(c, expBuffer);
-                  if(!(return_value_wcscmp$30 == 0))
+                  return_value_wcscmp_30=wcscmp(c, expBuffer);
+                  if(!(return_value_wcscmp_30 == 0))
                     log_printf(-1, 3, L"  After environment variable replacements: %s", (const void *)expBuffer);
 
                 }
 
-                void *return_value_malloc$31;
-                return_value_malloc$31=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
-                absoluteBuffer = (signed int *)return_value_malloc$31;
+                void *return_value_malloc_31;
+                return_value_malloc_31=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
+                absoluteBuffer = (signed int *)return_value_malloc_31;
                 if(absoluteBuffer == ((signed int *)NULL))
                   outOfMemory(L"RCF", 2);
 
                 else
                 {
-                  signed int *return_value__trealpathN$33;
-                  return_value__trealpathN$33=_trealpathN(expBuffer, absoluteBuffer, (unsigned long int)(4096 + 1));
-                  if(return_value__trealpathN$33 == ((signed int *)NULL))
+                  signed int *return_value__trealpathN_33;
+                  return_value__trealpathN_33=_trealpathN(expBuffer, absoluteBuffer, (unsigned long int)(4096 + 1));
+                  if(return_value__trealpathN_33 == ((signed int *)NULL))
                   {
                     if(!(reader->debugIncludes == 0) || !(includeRequired == 0))
                     {
-                      const signed int *return_value_getLastErrorText$32;
-                      return_value_getLastErrorText$32=getLastErrorText();
-                      log_printf(-1, 3, L"Unable to resolve the full path of included configuration file: %s (%s)\n  Referenced from: %s (line %d)\n  Current working directory: %s", (const void *)expBuffer, return_value_getLastErrorText$32, filename, lineNumber, originalWorkingDir);
+                      const signed int *return_value_getLastErrorText_32;
+                      return_value_getLastErrorText_32=getLastErrorText();
+                      log_printf(-1, 3, L"Unable to resolve the full path of included configuration file: %s (%s)\n  Referenced from: %s (line %d)\n  Current working directory: %s", (const void *)expBuffer, return_value_getLastErrorText_32, filename, lineNumber, originalWorkingDir);
                     }
 
                     free((void *)absoluteBuffer);
@@ -6542,16 +6542,16 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
                           if(reader->preload == 0)
                           {
                             if(!(reader->debugIncludes == 0))
-                              tmp_if_expr$34 = L"  ";
+                              tmp_if_expr_34 = L"  ";
 
                             else
-                              tmp_if_expr$34 = L"";
+                              tmp_if_expr_34 = L"";
                             if(!(reader->debugIncludes == 0))
-                              tmp_if_expr$35 = L"  ";
+                              tmp_if_expr_35 = L"  ";
 
                             else
-                              tmp_if_expr$35 = L"";
-                            log_printf(-1, 4, L"%sThe required configuration file, %s, was not loaded.\n%s  Referenced from: %s (line %d)", tmp_if_expr$34, absoluteBuffer, tmp_if_expr$35, filename, lineNumber);
+                              tmp_if_expr_35 = L"";
+                            log_printf(-1, 4, L"%sThe required configuration file, %s, was not loaded.\n%s  Referenced from: %s (line %d)", tmp_if_expr_34, absoluteBuffer, tmp_if_expr_35, filename, lineNumber);
                           }
 
                           readResult = 103;
@@ -6586,16 +6586,16 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
                     if(reader->preload == 0)
                     {
                       if(!(reader->debugIncludes == 0))
-                        tmp_if_expr$36 = L"  ";
+                        tmp_if_expr_36 = L"  ";
 
                       else
-                        tmp_if_expr$36 = L"";
+                        tmp_if_expr_36 = L"";
                       if(!(reader->debugIncludes == 0))
-                        tmp_if_expr$37 = L"  ";
+                        tmp_if_expr_37 = L"  ";
 
                       else
-                        tmp_if_expr$37 = L"";
-                      log_printf(-1, 4, L"%sThe required configuration file, %s, was not read.\n%s  Referenced from: %s (line %d)", tmp_if_expr$36, (const void *)expBuffer, tmp_if_expr$37, filename, lineNumber);
+                        tmp_if_expr_37 = L"";
+                      log_printf(-1, 4, L"%sThe required configuration file, %s, was not read.\n%s  Referenced from: %s (line %d)", tmp_if_expr_36, (const void *)expBuffer, tmp_if_expr_37, filename, lineNumber);
                     }
 
                     readResult = 103;
@@ -6606,8 +6606,8 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
 
               else
               {
-                return_value_wcscasecmp$38=wcscasecmp(trimmedBuffer, L"#properties.debug");
-                if(return_value_wcscasecmp$38 == 0)
+                return_value_wcscasecmp_38=wcscasecmp(trimmedBuffer, L"#properties.debug");
+                if(return_value_wcscasecmp_38 == 0)
                 {
                   if(reader->preload == 0)
                     reader->debugProperties = -1;
@@ -6648,9 +6648,9 @@ signed int configFileReader_Read(struct ConfigFileReader *reader, const signed i
 struct Property * createInnerProperty()
 {
   struct Property *property;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct Property) /*48ul*/ );
-  property = (struct Property *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct Property) /*48ul*/ );
+  property = (struct Property *)return_value_malloc_1;
   if(property == ((struct Property *)NULL))
   {
     outOfMemory(L"CIP", 1);
@@ -6671,11 +6671,11 @@ struct Property * createInnerProperty()
 // file property.h line 151
 extern struct Properties * createProperties()
 {
-  struct Properties *createProperties$$1$$properties;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct Properties) /*40ul*/ );
-  createProperties$$1$$properties = (struct Properties *)return_value_malloc$1;
-  if(createProperties$$1$$properties == ((struct Properties *)NULL))
+  struct Properties *createProperties__1__properties;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct Properties) /*40ul*/ );
+  createProperties__1__properties = (struct Properties *)return_value_malloc_1;
+  if(createProperties__1__properties == ((struct Properties *)NULL))
   {
     outOfMemory(L"CP", 1);
     return (struct Properties *)(void *)0;
@@ -6683,20 +6683,20 @@ extern struct Properties * createProperties()
 
   else
   {
-    createProperties$$1$$properties->debugProperties = 0;
-    createProperties$$1$$properties->logWarnings = -1;
-    createProperties$$1$$properties->logWarningLogLevel = 4;
-    createProperties$$1$$properties->first = (struct Property *)(void *)0;
-    createProperties$$1$$properties->last = (struct Property *)(void *)0;
-    createProperties$$1$$properties->warnedVarMap=newHashMap(8);
-    if(createProperties$$1$$properties->warnedVarMap == ((struct anonymous$19 *)NULL))
+    createProperties__1__properties->debugProperties = 0;
+    createProperties__1__properties->logWarnings = -1;
+    createProperties__1__properties->logWarningLogLevel = 4;
+    createProperties__1__properties->first = (struct Property *)(void *)0;
+    createProperties__1__properties->last = (struct Property *)(void *)0;
+    createProperties__1__properties->warnedVarMap=newHashMap(8);
+    if(createProperties__1__properties->warnedVarMap == ((struct anonymous_19 *)NULL))
     {
-      disposeProperties(createProperties$$1$$properties);
+      disposeProperties(createProperties__1__properties);
       return (struct Properties *)(void *)0;
     }
 
     else
-      return createProperties$$1$$properties;
+      return createProperties__1__properties;
   }
 }
 
@@ -6714,9 +6714,9 @@ void daemonize(signed int argc, signed int **argv)
   pid=fork();
   if(!(pid >= 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 5, L"Could not spawn daemon process: %s", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 5, L"Could not spawn daemon process: %s", return_value_getLastErrorText_1);
     appExit(1, argc, argv);
   }
 
@@ -6727,13 +6727,13 @@ void daemonize(signed int argc, signed int **argv)
       exit(0);
     }
 
-  signed int return_value_setsid$3;
-  return_value_setsid$3=setsid();
-  if(return_value_setsid$3 == -1)
+  signed int return_value_setsid_3;
+  return_value_setsid_3=setsid();
+  if(return_value_setsid_3 == -1)
   {
-    const signed int *return_value_getLastErrorText$2;
-    return_value_getLastErrorText$2=getLastErrorText();
-    log_printf(-1, 5, L"setsid() failed: %s", return_value_getLastErrorText$2);
+    const signed int *return_value_getLastErrorText_2;
+    return_value_getLastErrorText_2=getLastErrorText();
+    log_printf(-1, 5, L"setsid() failed: %s", return_value_getLastErrorText_2);
     appExit(1, argc, argv);
   }
 
@@ -6759,9 +6759,9 @@ void daemonize(signed int argc, signed int **argv)
   pid=fork();
   if(!(pid >= 0))
   {
-    const signed int *return_value_getLastErrorText$4;
-    return_value_getLastErrorText$4=getLastErrorText();
-    log_printf(-1, 5, L"Could not spawn daemon process: %s", return_value_getLastErrorText$4);
+    const signed int *return_value_getLastErrorText_4;
+    return_value_getLastErrorText_4=getLastErrorText();
+    log_printf(-1, 5, L"Could not spawn daemon process: %s", return_value_getLastErrorText_4);
     appExit(1, argc, argv);
   }
 
@@ -6774,28 +6774,28 @@ void daemonize(signed int argc, signed int **argv)
 
 // descSignal
 // file wrapper_unix.c line 429
-void descSignal(struct anonymous$0 *sigInfo)
+void descSignal(struct anonymous_0 *sigInfo)
 {
   struct passwd *pw;
   unsigned long int req;
   signed int uName[33l];
-  if(sigInfo == ((struct anonymous$0 *)NULL))
+  if(sigInfo == ((struct anonymous_0 *)NULL))
     log_printf_queue(-1, -1, 1, L"Signal trapped.  No details available.");
 
   else
     if(!(wrapperData->isDebugging == 0))
     {
       log_printf_queue(-1, -1, 1, L"Signal trapped.  Details:");
-      const signed int *return_value_getSignalName$1;
-      return_value_getSignalName$1=getSignalName(sigInfo->si_signo);
-      const signed int *return_value_getSignalCodeDesc$2;
-      return_value_getSignalCodeDesc$2=getSignalCodeDesc(sigInfo->si_code);
-      log_printf_queue(-1, -1, 1, L"  signal number=%d (%S), source=\"%S\"", sigInfo->si_signo, return_value_getSignalName$1, return_value_getSignalCodeDesc$2);
+      const signed int *return_value_getSignalName_1;
+      return_value_getSignalName_1=getSignalName(sigInfo->si_signo);
+      const signed int *return_value_getSignalCodeDesc_2;
+      return_value_getSignalCodeDesc_2=getSignalCodeDesc(sigInfo->si_code);
+      log_printf_queue(-1, -1, 1, L"  signal number=%d (%S), source=\"%S\"", sigInfo->si_signo, return_value_getSignalName_1, return_value_getSignalCodeDesc_2);
       if(!(sigInfo->si_errno == 0))
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(sigInfo->si_errno);
-        log_printf_queue(-1, -1, 1, L"  signal err=%d, \"%S\"", sigInfo->si_errno, return_value_strerror$3);
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(sigInfo->si_errno);
+        log_printf_queue(-1, -1, 1, L"  signal err=%d, \"%S\"", sigInfo->si_errno, return_value_strerror_3);
       }
 
       if(sigInfo->si_code == 0)
@@ -6816,9 +6816,9 @@ void descSignal(struct anonymous$0 *sigInfo)
           mbstowcs(uName, pw->pw_name, req + (unsigned long int)1);
           uName[(signed long int)req] = 0;
         }
-        signed int return_value_getsid$4;
-        return_value_getsid$4=getsid(sigInfo->_sifields._kill.si_pid);
-        log_printf_queue(-1, -1, 1, L"  signal generated by PID: %d (Session PID: %d), UID: %d (%S)", sigInfo->_sifields._kill.si_pid, return_value_getsid$4, sigInfo->_sifields._kill.si_uid, (const void *)uName);
+        signed int return_value_getsid_4;
+        return_value_getsid_4=getsid(sigInfo->_sifields._kill.si_pid);
+        log_printf_queue(-1, -1, 1, L"  signal generated by PID: %d (Session PID: %d), UID: %d (%S)", sigInfo->_sifields._kill.si_pid, return_value_getsid_4, sigInfo->_sifields._kill.si_uid, (const void *)uName);
       }
 
     }
@@ -6835,19 +6835,19 @@ void displayLaunchingTimeoutMessage()
   const signed int *mainClass;
   log_printf(-1, 5, L"Startup failed: Timed out waiting for a signal from the JVM.");
   mainClass=getStringProperty(properties, L"wrapper.java.mainclass", L"Main");
-  signed int *return_value_wcsstr$1;
-  return_value_wcsstr$1=wcsstr(mainClass, L"org.tanukisoftware.wrapper.WrapperSimpleApp");
-  _Bool tmp_if_expr$3;
-  signed int *return_value_wcsstr$2;
-  if(!(return_value_wcsstr$1 == ((signed int *)NULL)))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value_wcsstr_1;
+  return_value_wcsstr_1=wcsstr(mainClass, L"org.tanukisoftware.wrapper.WrapperSimpleApp");
+  _Bool tmp_if_expr_3;
+  signed int *return_value_wcsstr_2;
+  if(!(return_value_wcsstr_1 == ((signed int *)NULL)))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_wcsstr$2=wcsstr(mainClass, L"org.tanukisoftware.wrapper.WrapperStartStopApp");
-    tmp_if_expr$3 = return_value_wcsstr$2 != (signed int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    return_value_wcsstr_2=wcsstr(mainClass, L"org.tanukisoftware.wrapper.WrapperStartStopApp");
+    tmp_if_expr_3 = return_value_wcsstr_2 != (signed int *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$3)
+  if(!tmp_if_expr_3)
   {
     if(!(wrapperData->isAdviserEnabled == 0))
     {
@@ -6982,7 +6982,7 @@ extern void disposeProperties(struct Properties *properties)
       disposeInnerProperty(property);
       property = (struct Property *)(void *)0;
     }
-    if(!(properties->warnedVarMap == ((struct anonymous$19 *)NULL)))
+    if(!(properties->warnedVarMap == ((struct anonymous_19 *)NULL)))
       freeHashMap(properties->warnedVarMap);
 
     free((void *)properties);
@@ -7014,16 +7014,16 @@ void dumpEnvironment(signed int logLevel)
   log_printf(-1, logLevel, L"");
   log_printf(-1, logLevel, L"Environment variables (Source | Name=Value) BEGIN:");
   envSrc = baseEnvSrc;
-  signed int *tmp_if_expr$1;
+  signed int *tmp_if_expr_1;
   for( ; !(envSrc == ((struct EnvSrc *)NULL)); envSrc = envSrc->next)
   {
     envVal=_tgetenv(envSrc->name);
     if(!(envVal == ((signed int *)NULL)))
-      tmp_if_expr$1 = envVal;
+      tmp_if_expr_1 = envVal;
 
     else
-      tmp_if_expr$1 = L"<null>";
-    log_printf(-1, logLevel, L"  %c%c%c%c%c | %s=%s", (envSrc->source & 1) != 0 ? 80 : 45, 45, 45, (envSrc->source & 2) != 0 ? 87 : 45, (envSrc->source & 4) != 0 ? 67 : 45, envSrc->name, tmp_if_expr$1);
+      tmp_if_expr_1 = L"<null>";
+    log_printf(-1, logLevel, L"  %c%c%c%c%c | %s=%s", (envSrc->source & 1) != 0 ? 80 : 45, 45, 45, (envSrc->source & 2) != 0 ? 87 : 45, (envSrc->source & 4) != 0 ? 67 : 45, envSrc->name, tmp_if_expr_1);
     if(!(envVal == ((signed int *)NULL)))
       free((void *)envVal);
 
@@ -7043,7 +7043,7 @@ extern void dumpProperties(struct Properties *properties)
 
 // evaluateEnvironmentVariables
 // file property.h line 113
-extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed int *buffer, signed int bufferLength, signed int warnUndefinedVars, struct anonymous$19 *warnedUndefVarMap, signed int warnLogLevel)
+extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed int *buffer, signed int bufferLength, signed int warnUndefinedVars, struct anonymous_19 *warnedUndefVarMap, signed int warnLogLevel)
 {
   const signed int *in;
   signed int *out;
@@ -7059,7 +7059,7 @@ extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed
   in = propertyValue;
   out = buffer;
   bufferAvailable = (unsigned long int)(bufferLength - 1);
-  signed int *return_value_wcsstr$2;
+  signed int *return_value_wcsstr_2;
   while(!(*in == 0))
   {
     start=wcschr(in, 37);
@@ -7069,9 +7069,9 @@ extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed
       if(!(end == ((signed int *)NULL)))
       {
         len = (unsigned long int)(signed int)((end - start) - (signed long int)1);
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-        envName = (signed int *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+        envName = (signed int *)return_value_malloc_1;
         if(envName == ((signed int *)NULL))
         {
           outOfMemory(L"EEV", 1);
@@ -7081,15 +7081,15 @@ extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed
         wcsncpy(envName, start + (signed long int)1, len);
         envName[(signed long int)len] = 0;
         envValueNeedFree = 0;
-        signed int *return_value_wcsstr$3;
-        return_value_wcsstr$3=wcsstr(envName, L"WRAPPER_TIME_");
-        if(return_value_wcsstr$3 == envName)
+        signed int *return_value_wcsstr_3;
+        return_value_wcsstr_3=wcsstr(envName, L"WRAPPER_TIME_");
+        if(return_value_wcsstr_3 == envName)
           envValue=generateTimeValue(envName + (signed long int)13, &loadPropertiesTM);
 
         else
         {
-          return_value_wcsstr$2=wcsstr(envName, L"WRAPPER_RAND_");
-          if(return_value_wcsstr$2 == envName)
+          return_value_wcsstr_2=wcsstr(envName, L"WRAPPER_RAND_");
+          if(return_value_wcsstr_2 == envName)
             envValue=generateRandValue(envName + (signed long int)13);
 
           else
@@ -7147,9 +7147,9 @@ extern void evaluateEnvironmentVariables(const signed int *propertyValue, signed
           out[(signed long int)0] = 0;
           if(!(warnUndefinedVars == 0))
           {
-            const signed int *return_value_hashMapGetKWVW$4;
-            return_value_hashMapGetKWVW$4=hashMapGetKWVW(warnedUndefVarMap, envName);
-            if(return_value_hashMapGetKWVW$4 == ((const signed int *)NULL))
+            const signed int *return_value_hashMapGetKWVW_4;
+            return_value_hashMapGetKWVW_4=hashMapGetKWVW(warnedUndefVarMap, envName);
+            if(return_value_hashMapGetKWVW_4 == ((const signed int *)NULL))
             {
               log_printf(-1, warnLogLevel, L"The '%s' environment variable was referenced but has not been defined.", envName);
               hashMapPutKWVW(warnedUndefVarMap, envName, envName);
@@ -7286,9 +7286,9 @@ signed int * expandEscapedCharacters(const signed int *buffer)
     outPos = outPos + 1ul;
     if(outBuffer == ((signed int *)NULL))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(outPos * sizeof(signed int) /*4ul*/ );
-      outBuffer = (signed int *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(outPos * sizeof(signed int) /*4ul*/ );
+      outBuffer = (signed int *)return_value_malloc_1;
       if(outBuffer == ((signed int *)NULL))
       {
         outOfMemory(L"ELF", 1);
@@ -7315,29 +7315,29 @@ extern signed int * findPathOf(const signed int *exe, const signed int *name)
   signed int resolvedPath[4097l];
   if(*exe == 47)
   {
-    signed int *return_value__trealpathN$5;
-    return_value__trealpathN$5=_trealpathN(exe, resolvedPath, (unsigned long int)(4096 + 1));
-    if(!(return_value__trealpathN$5 == ((signed int *)NULL)))
+    signed int *return_value__trealpathN_5;
+    return_value__trealpathN_5=_trealpathN(exe, resolvedPath, (unsigned long int)(4096 + 1));
+    if(!(return_value__trealpathN_5 == ((signed int *)NULL)))
     {
       wcsncpy(pth, resolvedPath, (unsigned long int)(4096 + 1));
-      signed int return_value_checkIfExecutable$4;
-      return_value_checkIfExecutable$4=checkIfExecutable(pth);
-      if(!(return_value_checkIfExecutable$4 == 0))
+      signed int return_value_checkIfExecutable_4;
+      return_value_checkIfExecutable_4=checkIfExecutable(pth);
+      if(!(return_value_checkIfExecutable_4 == 0))
       {
-        unsigned long int return_value_wcslen$1;
-        return_value_wcslen$1=wcslen(pth);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((return_value_wcslen$1 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
-        ret = (signed int *)return_value_malloc$2;
+        unsigned long int return_value_wcslen_1;
+        return_value_wcslen_1=wcslen(pth);
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((return_value_wcslen_1 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
+        ret = (signed int *)return_value_malloc_2;
         if(ret == ((signed int *)NULL))
         {
           outOfMemory(L"FPO", 1);
           return (signed int *)(void *)0;
         }
 
-        unsigned long int return_value_wcslen$3;
-        return_value_wcslen$3=wcslen(pth);
-        wcsncpy(ret, pth, return_value_wcslen$3 + (unsigned long int)1);
+        unsigned long int return_value_wcslen_3;
+        return_value_wcslen_3=wcslen(pth);
+        wcsncpy(ret, pth, return_value_wcslen_3 + (unsigned long int)1);
         if(!(wrapperData->isDebugging == 0))
           log_printf(-1, 1, L"Resolved the real path of %s as an absolute reference: %s", name, ret);
 
@@ -7353,29 +7353,29 @@ extern signed int * findPathOf(const signed int *exe, const signed int *name)
     return (signed int *)(void *)0;
   }
 
-  signed int *return_value__trealpathN$10;
-  return_value__trealpathN$10=_trealpathN(exe, resolvedPath, (unsigned long int)(4096 + 1));
-  if(!(return_value__trealpathN$10 == ((signed int *)NULL)))
+  signed int *return_value__trealpathN_10;
+  return_value__trealpathN_10=_trealpathN(exe, resolvedPath, (unsigned long int)(4096 + 1));
+  if(!(return_value__trealpathN_10 == ((signed int *)NULL)))
   {
     wcsncpy(pth, resolvedPath, (unsigned long int)(4096 + 1));
-    signed int return_value_checkIfExecutable$9;
-    return_value_checkIfExecutable$9=checkIfExecutable(pth);
-    if(!(return_value_checkIfExecutable$9 == 0))
+    signed int return_value_checkIfExecutable_9;
+    return_value_checkIfExecutable_9=checkIfExecutable(pth);
+    if(!(return_value_checkIfExecutable_9 == 0))
     {
-      unsigned long int return_value_wcslen$6;
-      return_value_wcslen$6=wcslen(pth);
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc((return_value_wcslen$6 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
-      ret = (signed int *)return_value_malloc$7;
+      unsigned long int return_value_wcslen_6;
+      return_value_wcslen_6=wcslen(pth);
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc((return_value_wcslen_6 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
+      ret = (signed int *)return_value_malloc_7;
       if(ret == ((signed int *)NULL))
       {
         outOfMemory(L"FPO", 2);
         return (signed int *)(void *)0;
       }
 
-      unsigned long int return_value_wcslen$8;
-      return_value_wcslen$8=wcslen(pth);
-      wcsncpy(ret, pth, return_value_wcslen$8 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_8;
+      return_value_wcslen_8=wcslen(pth);
+      wcsncpy(ret, pth, return_value_wcslen_8 + (unsigned long int)1);
       if(!(wrapperData->isDebugging == 0))
         log_printf(-1, 1, L"Resolved the real path of %s as a relative reference: %s", name, ret);
 
@@ -7388,16 +7388,16 @@ extern signed int * findPathOf(const signed int *exe, const signed int *name)
     if(!(wrapperData->isDebugging == 0))
       log_printf(-1, 1, L"Unable to resolve the real path of %s as a relative reference: %s", name, exe);
 
-  signed int *return_value_wcschr$17;
-  return_value_wcschr$17=wcschr(exe, 47);
-  unsigned long int return_value_wcslen$11;
-  if(return_value_wcschr$17 == ((signed int *)NULL))
+  signed int *return_value_wcschr_17;
+  return_value_wcschr_17=wcschr(exe, 47);
+  unsigned long int return_value_wcslen_11;
+  if(return_value_wcschr_17 == ((signed int *)NULL))
   {
     searchPath=_tgetenv(L"PATH");
     if(!(searchPath == ((signed int *)NULL)))
     {
-      return_value_wcslen$11=wcslen(searchPath);
-      if(!(return_value_wcslen$11 >= 1ul))
+      return_value_wcslen_11=wcslen(searchPath);
+      if(!(return_value_wcslen_11 >= 1ul))
       {
         free((void *)searchPath);
         searchPath = (signed int *)(void *)0;
@@ -7427,15 +7427,15 @@ extern signed int * findPathOf(const signed int *exe, const signed int *name)
           wcsncpy(pth, beg, (unsigned long int)(end - beg));
           pth[end - beg] = 0;
         }
-        unsigned long int return_value_wcslen$12;
-        return_value_wcslen$12=wcslen(pth);
-        if(!(pth[-1l + (signed long int)return_value_wcslen$12] == 47))
+        unsigned long int return_value_wcslen_12;
+        return_value_wcslen_12=wcslen(pth);
+        if(!(pth[-1l + (signed long int)return_value_wcslen_12] == 47))
           wcsncat(pth, L"/", (unsigned long int)(4096 + 1));
 
         wcsncat(pth, exe, (unsigned long int)(4096 + 1));
-        signed int *return_value__trealpathN$13;
-        return_value__trealpathN$13=_trealpathN(pth, resolvedPath, (unsigned long int)(4096 + 1));
-        if(!(return_value__trealpathN$13 == ((signed int *)NULL)))
+        signed int *return_value__trealpathN_13;
+        return_value__trealpathN_13=_trealpathN(pth, resolvedPath, (unsigned long int)(4096 + 1));
+        if(!(return_value__trealpathN_13 == ((signed int *)NULL)))
         {
           wcsncpy(pth, resolvedPath, (unsigned long int)(4096 + 1));
           found=checkIfExecutable(pth);
@@ -7449,20 +7449,20 @@ extern signed int * findPathOf(const signed int *exe, const signed int *name)
       free((void *)searchPath);
       if(!(found == 0))
       {
-        unsigned long int return_value_wcslen$14;
-        return_value_wcslen$14=wcslen(pth);
-        void *return_value_malloc$15;
-        return_value_malloc$15=malloc((return_value_wcslen$14 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
-        ret = (signed int *)return_value_malloc$15;
+        unsigned long int return_value_wcslen_14;
+        return_value_wcslen_14=wcslen(pth);
+        void *return_value_malloc_15;
+        return_value_malloc_15=malloc((return_value_wcslen_14 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
+        ret = (signed int *)return_value_malloc_15;
         if(ret == ((signed int *)NULL))
         {
           outOfMemory(L"FPO", 3);
           return (signed int *)(void *)0;
         }
 
-        unsigned long int return_value_wcslen$16;
-        return_value_wcslen$16=wcslen(pth);
-        wcsncpy(ret, pth, return_value_wcslen$16 + (unsigned long int)1);
+        unsigned long int return_value_wcslen_16;
+        return_value_wcslen_16=wcslen(pth);
+        wcsncpy(ret, pth, return_value_wcslen_16 + (unsigned long int)1);
         if(!(wrapperData->isDebugging == 0))
           log_printf(-1, 1, L"Resolved the real path of %s from system PATH: %s", name, ret);
 
@@ -7484,30 +7484,30 @@ extern signed int * findPathOf(const signed int *exe, const signed int *name)
 // file logger.h line 230
 extern void flushLogfile()
 {
-  signed int return_value_lockLoggingMutex$1;
-  return_value_lockLoggingMutex$1=lockLoggingMutex();
-  if(return_value_lockLoggingMutex$1 == 0)
+  signed int return_value_lockLoggingMutex_1;
+  return_value_lockLoggingMutex_1=lockLoggingMutex();
+  if(return_value_lockLoggingMutex_1 == 0)
   {
     if(!(logfileFP == ((struct _IO_FILE *)NULL)))
       fflush(logfileFP);
 
-    signed int return_value_releaseLoggingMutex$2;
-    return_value_releaseLoggingMutex$2=releaseLoggingMutex();
+    signed int return_value_releaseLoggingMutex_2;
+    return_value_releaseLoggingMutex_2=releaseLoggingMutex();
   }
 
 }
 
 // freeHashMap
 // file wrapper_hashmap.h line 46
-extern void freeHashMap(struct anonymous$19 *hashMap)
+extern void freeHashMap(struct anonymous_19 *hashMap)
 {
   signed int i;
-  struct anonymous$21 *bucket;
+  struct anonymous_21 *bucket;
   struct HashEntry *thisEntry;
   struct HashEntry *nextEntry;
-  if(!(hashMap == ((struct anonymous$19 *)NULL)))
+  if(!(hashMap == ((struct anonymous_19 *)NULL)))
   {
-    if(!(hashMap->buckets == ((struct anonymous$21 **)NULL)))
+    if(!(hashMap->buckets == ((struct anonymous_21 **)NULL)))
     {
       i = 0;
       for( ; !(i >= hashMap->bucketCount); i = i + 1)
@@ -7549,12 +7549,12 @@ extern void freeStringProperties(signed int **propertyNames, signed int **proper
 void generateLogFileName(signed int *buffer, unsigned long int bufferSize, const signed int *template, const signed int *nowDate, const signed int *rollNum)
 {
   unsigned long int bufferLen;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(logFilePath);
-  wcsncpy(buffer, template, return_value_wcslen$1 + (unsigned long int)11);
-  signed int *return_value_wcsstr$2;
-  return_value_wcsstr$2=wcsstr(buffer, L"YYYYMMDD");
-  if(!(return_value_wcsstr$2 == ((signed int *)NULL)))
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(logFilePath);
+  wcsncpy(buffer, template, return_value_wcslen_1 + (unsigned long int)11);
+  signed int *return_value_wcsstr_2;
+  return_value_wcsstr_2=wcsstr(buffer, L"YYYYMMDD");
+  if(!(return_value_wcsstr_2 == ((signed int *)NULL)))
   {
     if(nowDate == ((const signed int *)NULL))
     {
@@ -7568,9 +7568,9 @@ void generateLogFileName(signed int *buffer, unsigned long int bufferSize, const
       replaceStringLongWithShort(buffer, L"YYYYMMDD", nowDate);
   }
 
-  signed int *return_value_wcsstr$3;
-  return_value_wcsstr$3=wcsstr(buffer, L"ROLLNUM");
-  if(!(return_value_wcsstr$3 == ((signed int *)NULL)))
+  signed int *return_value_wcsstr_3;
+  return_value_wcsstr_3=wcsstr(buffer, L"ROLLNUM");
+  if(!(return_value_wcsstr_3 == ((signed int *)NULL)))
   {
     if(rollNum == ((const signed int *)NULL))
     {
@@ -7598,72 +7598,72 @@ void generateLogFileName(signed int *buffer, unsigned long int bufferSize, const
 // file property.c line 238
 extern signed int * generateRandValue(const signed int *format)
 {
-  signed int return_value_wcscasecmp$14;
-  return_value_wcscasecmp$14=wcscasecmp(format, L"N");
-  signed int return_value_wcscasecmp$13;
-  signed int return_value_wcscasecmp$12;
-  signed int return_value_wcscasecmp$11;
-  signed int return_value_wcscasecmp$10;
-  signed int return_value_wcscasecmp$9;
-  if(return_value_wcscasecmp$14 == 0)
+  signed int return_value_wcscasecmp_14;
+  return_value_wcscasecmp_14=wcscasecmp(format, L"N");
+  signed int return_value_wcscasecmp_13;
+  signed int return_value_wcscasecmp_12;
+  signed int return_value_wcscasecmp_11;
+  signed int return_value_wcscasecmp_10;
+  signed int return_value_wcscasecmp_9;
+  if(return_value_wcscasecmp_14 == 0)
   {
-    signed int return_value_rand$1;
-    return_value_rand$1=rand();
-    _sntprintf(generateValueBuffer, (unsigned long int)256, L"%01d", return_value_rand$1 % 10);
+    signed int return_value_rand_1;
+    return_value_rand_1=rand();
+    _sntprintf(generateValueBuffer, (unsigned long int)256, L"%01d", return_value_rand_1 % 10);
   }
 
   else
   {
-    return_value_wcscasecmp$13=wcscasecmp(format, L"NN");
-    if(return_value_wcscasecmp$13 == 0)
+    return_value_wcscasecmp_13=wcscasecmp(format, L"NN");
+    if(return_value_wcscasecmp_13 == 0)
     {
-      signed int return_value_rand$2;
-      return_value_rand$2=rand();
-      _sntprintf(generateValueBuffer, (unsigned long int)256, L"%02d", return_value_rand$2 % 100);
+      signed int return_value_rand_2;
+      return_value_rand_2=rand();
+      _sntprintf(generateValueBuffer, (unsigned long int)256, L"%02d", return_value_rand_2 % 100);
     }
 
     else
     {
-      return_value_wcscasecmp$12=wcscasecmp(format, L"NNN");
-      if(return_value_wcscasecmp$12 == 0)
+      return_value_wcscasecmp_12=wcscasecmp(format, L"NNN");
+      if(return_value_wcscasecmp_12 == 0)
       {
-        signed int return_value_rand$3;
-        return_value_rand$3=rand();
-        _sntprintf(generateValueBuffer, (unsigned long int)256, L"%03d", return_value_rand$3 % 1000);
+        signed int return_value_rand_3;
+        return_value_rand_3=rand();
+        _sntprintf(generateValueBuffer, (unsigned long int)256, L"%03d", return_value_rand_3 % 1000);
       }
 
       else
       {
-        return_value_wcscasecmp$11=wcscasecmp(format, L"NNNN");
-        if(return_value_wcscasecmp$11 == 0)
+        return_value_wcscasecmp_11=wcscasecmp(format, L"NNNN");
+        if(return_value_wcscasecmp_11 == 0)
         {
-          signed int return_value_rand$4;
-          return_value_rand$4=rand();
-          _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d", return_value_rand$4 % 10000);
+          signed int return_value_rand_4;
+          return_value_rand_4=rand();
+          _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d", return_value_rand_4 % 10000);
         }
 
         else
         {
-          return_value_wcscasecmp$10=wcscasecmp(format, L"NNNNN");
-          if(return_value_wcscasecmp$10 == 0)
+          return_value_wcscasecmp_10=wcscasecmp(format, L"NNNNN");
+          if(return_value_wcscasecmp_10 == 0)
           {
-            signed int return_value_rand$5;
-            return_value_rand$5=rand();
-            signed int return_value_rand$6;
-            return_value_rand$6=rand();
-            _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%01d", return_value_rand$5 % 10000, return_value_rand$6 % 10);
+            signed int return_value_rand_5;
+            return_value_rand_5=rand();
+            signed int return_value_rand_6;
+            return_value_rand_6=rand();
+            _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%01d", return_value_rand_5 % 10000, return_value_rand_6 % 10);
           }
 
           else
           {
-            return_value_wcscasecmp$9=wcscasecmp(format, L"NNNNNN");
-            if(return_value_wcscasecmp$9 == 0)
+            return_value_wcscasecmp_9=wcscasecmp(format, L"NNNNNN");
+            if(return_value_wcscasecmp_9 == 0)
             {
-              signed int return_value_rand$7;
-              return_value_rand$7=rand();
-              signed int return_value_rand$8;
-              return_value_rand$8=rand();
-              _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%02d", return_value_rand$7 % 10000, return_value_rand$8 % 100);
+              signed int return_value_rand_7;
+              return_value_rand_7=rand();
+              signed int return_value_rand_8;
+              return_value_rand_8=rand();
+              _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%02d", return_value_rand_7 % 10000, return_value_rand_8 % 100);
             }
 
             else
@@ -7680,37 +7680,37 @@ extern signed int * generateRandValue(const signed int *format)
 // file property.c line 206
 extern signed int * generateTimeValue(const signed int *format, struct tm *timeTM)
 {
-  signed int return_value_wcscasecmp$5;
-  return_value_wcscasecmp$5=wcscasecmp(format, L"YYYYMMDDHHIISS");
-  signed int return_value_wcscasecmp$4;
-  signed int return_value_wcscasecmp$3;
-  signed int return_value_wcscasecmp$2;
-  signed int return_value_wcscasecmp$1;
-  if(return_value_wcscasecmp$5 == 0)
+  signed int return_value_wcscasecmp_5;
+  return_value_wcscasecmp_5=wcscasecmp(format, L"YYYYMMDDHHIISS");
+  signed int return_value_wcscasecmp_4;
+  signed int return_value_wcscasecmp_3;
+  signed int return_value_wcscasecmp_2;
+  signed int return_value_wcscasecmp_1;
+  if(return_value_wcscasecmp_5 == 0)
     _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%02d%02d%02d%02d%02d", timeTM->tm_year + 1900, timeTM->tm_mon + 1, timeTM->tm_mday, timeTM->tm_hour, timeTM->tm_min, timeTM->tm_sec);
 
   else
   {
-    return_value_wcscasecmp$4=wcscasecmp(format, L"YYYYMMDD_HHIISS");
-    if(return_value_wcscasecmp$4 == 0)
+    return_value_wcscasecmp_4=wcscasecmp(format, L"YYYYMMDD_HHIISS");
+    if(return_value_wcscasecmp_4 == 0)
       _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%02d%02d_%02d%02d%02d", timeTM->tm_year + 1900, timeTM->tm_mon + 1, timeTM->tm_mday, timeTM->tm_hour, timeTM->tm_min, timeTM->tm_sec);
 
     else
     {
-      return_value_wcscasecmp$3=wcscasecmp(format, L"YYYYMMDDHHII");
-      if(return_value_wcscasecmp$3 == 0)
+      return_value_wcscasecmp_3=wcscasecmp(format, L"YYYYMMDDHHII");
+      if(return_value_wcscasecmp_3 == 0)
         _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%02d%02d%02d%02d", timeTM->tm_year + 1900, timeTM->tm_mon + 1, timeTM->tm_mday, timeTM->tm_hour, timeTM->tm_min);
 
       else
       {
-        return_value_wcscasecmp$2=wcscasecmp(format, L"YYYYMMDDHH");
-        if(return_value_wcscasecmp$2 == 0)
+        return_value_wcscasecmp_2=wcscasecmp(format, L"YYYYMMDDHH");
+        if(return_value_wcscasecmp_2 == 0)
           _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%02d%02d%02d", timeTM->tm_year + 1900, timeTM->tm_mon + 1, timeTM->tm_mday, timeTM->tm_hour);
 
         else
         {
-          return_value_wcscasecmp$1=wcscasecmp(format, L"YYYYMMDD");
-          if(return_value_wcscasecmp$1 == 0)
+          return_value_wcscasecmp_1=wcscasecmp(format, L"YYYYMMDD");
+          if(return_value_wcscasecmp_1 == 0)
             _sntprintf(generateValueBuffer, (unsigned long int)256, L"%04d%02d%02d", timeTM->tm_year + 1900, timeTM->tm_mon + 1, timeTM->tm_mday);
 
           else
@@ -7731,20 +7731,20 @@ signed int * generateVersionBanner()
   signed int *copyright = L"2014";
   signed int *buffer;
   unsigned long int len;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(banner);
-  unsigned long int return_value_wcslen$2;
-  return_value_wcslen$2=wcslen(product);
-  unsigned long int return_value_wcslen$3;
-  return_value_wcslen$3=wcslen(wrapperBits);
-  unsigned long int return_value_wcslen$4;
-  return_value_wcslen$4=wcslen(wrapperVersionRoot);
-  unsigned long int return_value_wcslen$5;
-  return_value_wcslen$5=wcslen(copyright);
-  len = return_value_wcslen$1 + return_value_wcslen$2 + return_value_wcslen$3 + return_value_wcslen$4 + return_value_wcslen$5 + (unsigned long int)1;
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * len);
-  buffer = (signed int *)return_value_malloc$6;
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(banner);
+  unsigned long int return_value_wcslen_2;
+  return_value_wcslen_2=wcslen(product);
+  unsigned long int return_value_wcslen_3;
+  return_value_wcslen_3=wcslen(wrapperBits);
+  unsigned long int return_value_wcslen_4;
+  return_value_wcslen_4=wcslen(wrapperVersionRoot);
+  unsigned long int return_value_wcslen_5;
+  return_value_wcslen_5=wcslen(copyright);
+  len = return_value_wcslen_1 + return_value_wcslen_2 + return_value_wcslen_3 + return_value_wcslen_4 + return_value_wcslen_5 + (unsigned long int)1;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * len);
+  buffer = (signed int *)return_value_malloc_6;
   if(buffer == ((signed int *)NULL))
   {
     outOfMemory(L"GVB", 1);
@@ -7769,64 +7769,64 @@ signed int getActionForName(signed int *actionName, const signed int *propertyNa
   i = (unsigned long int)0;
   for( ; !(i >= len); i = i + 1ul)
   {
-    unsigned int return_value_towupper$1;
-    return_value_towupper$1=towupper((unsigned int)actionName[(signed long int)i]);
-    actionName[(signed long int)i] = (signed int)return_value_towupper$1;
+    unsigned int return_value_towupper_1;
+    return_value_towupper_1=towupper((unsigned int)actionName[(signed long int)i]);
+    actionName[(signed long int)i] = (signed int)return_value_towupper_1;
   }
-  signed int return_value_wcscmp$11;
-  return_value_wcscmp$11=wcscmp(actionName, L"RESTART");
-  signed int return_value_wcscmp$10;
-  signed int return_value_wcscmp$9;
-  signed int return_value_wcscmp$8;
-  signed int return_value_wcscmp$7;
-  signed int return_value_wcscmp$6;
-  signed int return_value_wcscmp$5;
-  signed int return_value_wcscmp$4;
-  signed int return_value_wcscmp$3;
-  signed int *return_value_wcsstr$2;
-  if(return_value_wcscmp$11 == 0)
+  signed int return_value_wcscmp_11;
+  return_value_wcscmp_11=wcscmp(actionName, L"RESTART");
+  signed int return_value_wcscmp_10;
+  signed int return_value_wcscmp_9;
+  signed int return_value_wcscmp_8;
+  signed int return_value_wcscmp_7;
+  signed int return_value_wcscmp_6;
+  signed int return_value_wcscmp_5;
+  signed int return_value_wcscmp_4;
+  signed int return_value_wcscmp_3;
+  signed int *return_value_wcsstr_2;
+  if(return_value_wcscmp_11 == 0)
     action = -2;
 
   else
   {
-    return_value_wcscmp$10=wcscmp(actionName, L"SHUTDOWN");
-    if(return_value_wcscmp$10 == 0)
+    return_value_wcscmp_10=wcscmp(actionName, L"SHUTDOWN");
+    if(return_value_wcscmp_10 == 0)
       action = -3;
 
     else
     {
-      return_value_wcscmp$9=wcscmp(actionName, L"DUMP");
-      if(return_value_wcscmp$9 == 0)
+      return_value_wcscmp_9=wcscmp(actionName, L"DUMP");
+      if(return_value_wcscmp_9 == 0)
         action = -4;
 
       else
       {
-        return_value_wcscmp$8=wcscmp(actionName, L"NONE");
-        if(return_value_wcscmp$8 == 0)
+        return_value_wcscmp_8=wcscmp(actionName, L"NONE");
+        if(return_value_wcscmp_8 == 0)
           action = -1;
 
         else
         {
-          return_value_wcscmp$7=wcscmp(actionName, L"DEBUG");
-          if(return_value_wcscmp$7 == 0)
+          return_value_wcscmp_7=wcscmp(actionName, L"DEBUG");
+          if(return_value_wcscmp_7 == 0)
             action = -5;
 
           else
           {
-            return_value_wcscmp$6=wcscmp(actionName, L"SUCCESS");
-            if(return_value_wcscmp$6 == 0)
+            return_value_wcscmp_6=wcscmp(actionName, L"SUCCESS");
+            if(return_value_wcscmp_6 == 0)
               action = -8;
 
             else
             {
-              return_value_wcscmp$5=wcscmp(actionName, L"GC");
-              if(return_value_wcscmp$5 == 0)
+              return_value_wcscmp_5=wcscmp(actionName, L"GC");
+              if(return_value_wcscmp_5 == 0)
                 action = -9;
 
               else
               {
-                return_value_wcscmp$4=wcscmp(actionName, L"PAUSE");
-                if(return_value_wcscmp$4 == 0)
+                return_value_wcscmp_4=wcscmp(actionName, L"PAUSE");
+                if(return_value_wcscmp_4 == 0)
                 {
                   if(!(logErrors == 0))
                     log_printf(-1, 4, L"Pause actions require the Standard Edition.  Ignoring action '%s' in the %s property.", actionName, propertyName);
@@ -7836,8 +7836,8 @@ signed int getActionForName(signed int *actionName, const signed int *propertyNa
 
                 else
                 {
-                  return_value_wcscmp$3=wcscmp(actionName, L"RESUME");
-                  if(return_value_wcscmp$3 == 0)
+                  return_value_wcscmp_3=wcscmp(actionName, L"RESUME");
+                  if(return_value_wcscmp_3 == 0)
                   {
                     if(!(logErrors == 0))
                       log_printf(-1, 4, L"Resume actions require the Standard Edition.  Ignoring action '%s' in the %s property.", actionName, propertyName);
@@ -7847,8 +7847,8 @@ signed int getActionForName(signed int *actionName, const signed int *propertyNa
 
                   else
                   {
-                    return_value_wcsstr$2=wcsstr(actionName, L"USER_");
-                    if(return_value_wcsstr$2 == actionName)
+                    return_value_wcsstr_2=wcsstr(actionName, L"USER_");
+                    if(return_value_wcsstr_2 == actionName)
                     {
                       if(!(logErrors == 0))
                         log_printf(-1, 4, L"User actions require the Professional Edition.  Ignoring action '%s' in the %s property.", actionName, propertyName);
@@ -7879,37 +7879,37 @@ signed int getActionForName(signed int *actionName, const signed int *propertyNa
 // file wrapper.c line 7845
 signed int getBackendTypeForName(const signed int *typeName)
 {
-  signed int return_value_wcscasecmp$5;
-  return_value_wcscasecmp$5=wcscasecmp(typeName, L"SOCKET");
-  signed int return_value_wcscasecmp$4;
-  signed int return_value_wcscasecmp$3;
-  signed int return_value_wcscasecmp$2;
-  signed int return_value_wcscasecmp$1;
-  if(return_value_wcscasecmp$5 == 0)
+  signed int return_value_wcscasecmp_5;
+  return_value_wcscasecmp_5=wcscasecmp(typeName, L"SOCKET");
+  signed int return_value_wcscasecmp_4;
+  signed int return_value_wcscasecmp_3;
+  signed int return_value_wcscasecmp_2;
+  signed int return_value_wcscasecmp_1;
+  if(return_value_wcscasecmp_5 == 0)
     return 0x01 | 0x02;
 
   else
   {
-    return_value_wcscasecmp$4=wcscasecmp(typeName, L"SOCKET_IPv4");
-    if(return_value_wcscasecmp$4 == 0)
+    return_value_wcscasecmp_4=wcscasecmp(typeName, L"SOCKET_IPv4");
+    if(return_value_wcscasecmp_4 == 0)
       return 0x01;
 
     else
     {
-      return_value_wcscasecmp$3=wcscasecmp(typeName, L"SOCKET_IPv6");
-      if(return_value_wcscasecmp$3 == 0)
+      return_value_wcscasecmp_3=wcscasecmp(typeName, L"SOCKET_IPv6");
+      if(return_value_wcscasecmp_3 == 0)
         return 0x02;
 
       else
       {
-        return_value_wcscasecmp$2=wcscasecmp(typeName, L"PIPE");
-        if(return_value_wcscasecmp$2 == 0)
+        return_value_wcscasecmp_2=wcscasecmp(typeName, L"PIPE");
+        if(return_value_wcscasecmp_2 == 0)
           return 0x04;
 
         else
         {
-          return_value_wcscasecmp$1=wcscasecmp(typeName, L"AUTO");
-          if(return_value_wcscasecmp$1 == 0)
+          return_value_wcscasecmp_1=wcscasecmp(typeName, L"AUTO");
+          if(return_value_wcscasecmp_1 == 0)
             return 0x01 | 0x02 | 0x04;
 
           else
@@ -7938,16 +7938,16 @@ extern signed int getBooleanProperty(struct Properties *properties, const signed
 
   else
     propertyValue = property->value;
-  signed int return_value_wcscasecmp$2;
-  return_value_wcscasecmp$2=wcscasecmp(propertyValue, L"true");
-  signed int return_value_wcscasecmp$1;
-  if(return_value_wcscasecmp$2 == 0)
+  signed int return_value_wcscasecmp_2;
+  return_value_wcscasecmp_2=wcscasecmp(propertyValue, L"true");
+  signed int return_value_wcscasecmp_1;
+  if(return_value_wcscasecmp_2 == 0)
     return -1;
 
   else
   {
-    return_value_wcscasecmp$1=wcscasecmp(propertyValue, L"false");
-    if(return_value_wcscasecmp$1 == 0)
+    return_value_wcscasecmp_1=wcscasecmp(propertyValue, L"false");
+    if(return_value_wcscasecmp_1 == 0)
       return 0;
 
     else
@@ -7962,7 +7962,7 @@ extern signed int getBooleanProperty(struct Properties *properties, const signed
 
 // getBucketId
 // file wrapper_hashmap.c line 164
-signed int getBucketId(struct anonymous$19 *hashMap, const signed int *key)
+signed int getBucketId(struct anonymous_19 *hashMap, const signed int *key)
 {
   unsigned long int len;
   len=wcslen(key);
@@ -7986,30 +7986,30 @@ extern signed int getConsoleLogLevelInt()
 extern signed int * getCurrentLogfilePath()
 {
   signed int *logFileCopy;
-  signed int return_value_lockLoggingMutex$1;
-  return_value_lockLoggingMutex$1=lockLoggingMutex();
-  if(!(return_value_lockLoggingMutex$1 == 0))
+  signed int return_value_lockLoggingMutex_1;
+  return_value_lockLoggingMutex_1=lockLoggingMutex();
+  if(!(return_value_lockLoggingMutex_1 == 0))
     return (signed int *)(void *)0;
 
   else
   {
-    unsigned long int return_value_wcslen$2;
-    return_value_wcslen$2=wcslen(currentLogFileName);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$2 + (unsigned long int)1));
-    logFileCopy = (signed int *)return_value_malloc$3;
+    unsigned long int return_value_wcslen_2;
+    return_value_wcslen_2=wcslen(currentLogFileName);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_2 + (unsigned long int)1));
+    logFileCopy = (signed int *)return_value_malloc_3;
     if(logFileCopy == ((signed int *)NULL))
       _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"CLFP1");
 
     else
     {
-      unsigned long int return_value_wcslen$4;
-      return_value_wcslen$4=wcslen(currentLogFileName);
-      wcsncpy(logFileCopy, currentLogFileName, return_value_wcslen$4 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_4;
+      return_value_wcslen_4=wcslen(currentLogFileName);
+      wcsncpy(logFileCopy, currentLogFileName, return_value_wcslen_4 + (unsigned long int)1);
     }
-    signed int return_value_releaseLoggingMutex$5;
-    return_value_releaseLoggingMutex$5=releaseLoggingMutex();
-    if(!(return_value_releaseLoggingMutex$5 == 0))
+    signed int return_value_releaseLoggingMutex_5;
+    return_value_releaseLoggingMutex_5=releaseLoggingMutex();
+    if(!(return_value_releaseLoggingMutex_5 == 0))
     {
       if(!(logFileCopy == ((signed int *)NULL)))
         free((void *)logFileCopy);
@@ -8033,170 +8033,170 @@ extern const signed int * getDefaultLogfilePath()
 // file wrapper_i18n.h line 490
 extern signed int getEncodingByName(char *encodingMB, char **encoding)
 {
-  signed int return_value_strcasecmp$24;
-  return_value_strcasecmp$24=strcasecmp(encodingMB, "Shift_JIS");
-  signed int return_value_strcasecmp$23;
-  signed int return_value_strcasecmp$22;
-  signed int return_value_strcasecmp$21;
-  signed int return_value_strcasecmp$20;
-  signed int return_value_strcasecmp$19;
-  signed int return_value_strcasecmp$18;
-  signed int return_value_strcasecmp$17;
-  signed int return_value_strcasecmp$16;
-  signed int return_value_strcasecmp$15;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  if(return_value_strcasecmp$24 == 0)
+  signed int return_value_strcasecmp_24;
+  return_value_strcasecmp_24=strcasecmp(encodingMB, "Shift_JIS");
+  signed int return_value_strcasecmp_23;
+  signed int return_value_strcasecmp_22;
+  signed int return_value_strcasecmp_21;
+  signed int return_value_strcasecmp_20;
+  signed int return_value_strcasecmp_19;
+  signed int return_value_strcasecmp_18;
+  signed int return_value_strcasecmp_17;
+  signed int return_value_strcasecmp_16;
+  signed int return_value_strcasecmp_15;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  if(return_value_strcasecmp_24 == 0)
     *encoding = "shiftjis";
 
   else
   {
-    return_value_strcasecmp$23=strcasecmp(encodingMB, "eucJP");
-    if(return_value_strcasecmp$23 == 0)
+    return_value_strcasecmp_23=strcasecmp(encodingMB, "eucJP");
+    if(return_value_strcasecmp_23 == 0)
       *encoding = "eucJP";
 
     else
     {
-      return_value_strcasecmp$22=strcasecmp(encodingMB, "UTF-8");
-      if(return_value_strcasecmp$22 == 0)
+      return_value_strcasecmp_22=strcasecmp(encodingMB, "UTF-8");
+      if(return_value_strcasecmp_22 == 0)
         *encoding = "UTF-8";
 
       else
       {
-        return_value_strcasecmp$21=strcasecmp(encodingMB, "ISO-8859-1");
-        if(return_value_strcasecmp$21 == 0)
+        return_value_strcasecmp_21=strcasecmp(encodingMB, "ISO-8859-1");
+        if(return_value_strcasecmp_21 == 0)
           *encoding = "ISO-8859-1";
 
         else
         {
-          return_value_strcasecmp$20=strcasecmp(encodingMB, "CP1252");
-          if(return_value_strcasecmp$20 == 0)
+          return_value_strcasecmp_20=strcasecmp(encodingMB, "CP1252");
+          if(return_value_strcasecmp_20 == 0)
             *encoding = "CP1252";
 
           else
           {
-            return_value_strcasecmp$19=strcasecmp(encodingMB, "ISO-8859-2");
-            if(return_value_strcasecmp$19 == 0)
+            return_value_strcasecmp_19=strcasecmp(encodingMB, "ISO-8859-2");
+            if(return_value_strcasecmp_19 == 0)
               *encoding = "ISO-8859-2";
 
             else
             {
-              return_value_strcasecmp$18=strcasecmp(encodingMB, "ISO-8859-3");
-              if(return_value_strcasecmp$18 == 0)
+              return_value_strcasecmp_18=strcasecmp(encodingMB, "ISO-8859-3");
+              if(return_value_strcasecmp_18 == 0)
                 *encoding = "ISO-8859-3";
 
               else
               {
-                return_value_strcasecmp$17=strcasecmp(encodingMB, "ISO-8859-4");
-                if(return_value_strcasecmp$17 == 0)
+                return_value_strcasecmp_17=strcasecmp(encodingMB, "ISO-8859-4");
+                if(return_value_strcasecmp_17 == 0)
                   *encoding = "ISO-8859-4";
 
                 else
                 {
-                  return_value_strcasecmp$16=strcasecmp(encodingMB, "ISO-8859-5");
-                  if(return_value_strcasecmp$16 == 0)
+                  return_value_strcasecmp_16=strcasecmp(encodingMB, "ISO-8859-5");
+                  if(return_value_strcasecmp_16 == 0)
                     *encoding = "ISO-8859-5";
 
                   else
                   {
-                    return_value_strcasecmp$15=strcasecmp(encodingMB, "ISO-8859-6");
-                    if(return_value_strcasecmp$15 == 0)
+                    return_value_strcasecmp_15=strcasecmp(encodingMB, "ISO-8859-6");
+                    if(return_value_strcasecmp_15 == 0)
                       *encoding = "ISO-8859-6";
 
                     else
                     {
-                      return_value_strcasecmp$14=strcasecmp(encodingMB, "ISO-8859-7");
-                      if(return_value_strcasecmp$14 == 0)
+                      return_value_strcasecmp_14=strcasecmp(encodingMB, "ISO-8859-7");
+                      if(return_value_strcasecmp_14 == 0)
                         *encoding = "ISO-8859-7";
 
                       else
                       {
-                        return_value_strcasecmp$13=strcasecmp(encodingMB, "ISO-8859-8");
-                        if(return_value_strcasecmp$13 == 0)
+                        return_value_strcasecmp_13=strcasecmp(encodingMB, "ISO-8859-8");
+                        if(return_value_strcasecmp_13 == 0)
                           *encoding = "ISO-8859-8";
 
                         else
                         {
-                          return_value_strcasecmp$12=strcasecmp(encodingMB, "ISO-8859-9");
-                          if(return_value_strcasecmp$12 == 0)
+                          return_value_strcasecmp_12=strcasecmp(encodingMB, "ISO-8859-9");
+                          if(return_value_strcasecmp_12 == 0)
                             *encoding = "ISO-8859-9";
 
                           else
                           {
-                            return_value_strcasecmp$11=strcasecmp(encodingMB, "ISO-8859-10");
-                            if(return_value_strcasecmp$11 == 0)
+                            return_value_strcasecmp_11=strcasecmp(encodingMB, "ISO-8859-10");
+                            if(return_value_strcasecmp_11 == 0)
                               *encoding = "ISO-8859-10";
 
                             else
                             {
-                              return_value_strcasecmp$10=strcasecmp(encodingMB, "ISO-8859-11");
-                              if(return_value_strcasecmp$10 == 0)
+                              return_value_strcasecmp_10=strcasecmp(encodingMB, "ISO-8859-11");
+                              if(return_value_strcasecmp_10 == 0)
                                 *encoding = "ISO-8859-11";
 
                               else
                               {
-                                return_value_strcasecmp$9=strcasecmp(encodingMB, "ISO-8859-13");
-                                if(return_value_strcasecmp$9 == 0)
+                                return_value_strcasecmp_9=strcasecmp(encodingMB, "ISO-8859-13");
+                                if(return_value_strcasecmp_9 == 0)
                                   *encoding = "ISO-8859-13";
 
                                 else
                                 {
-                                  return_value_strcasecmp$8=strcasecmp(encodingMB, "ISO-8859-14");
-                                  if(return_value_strcasecmp$8 == 0)
+                                  return_value_strcasecmp_8=strcasecmp(encodingMB, "ISO-8859-14");
+                                  if(return_value_strcasecmp_8 == 0)
                                     *encoding = "ISO-8859-14";
 
                                   else
                                   {
-                                    return_value_strcasecmp$7=strcasecmp(encodingMB, "ISO-8859-15");
-                                    if(return_value_strcasecmp$7 == 0)
+                                    return_value_strcasecmp_7=strcasecmp(encodingMB, "ISO-8859-15");
+                                    if(return_value_strcasecmp_7 == 0)
                                       *encoding = "ISO-8859-15";
 
                                     else
                                     {
-                                      return_value_strcasecmp$6=strcasecmp(encodingMB, "ISO-8859-16");
-                                      if(return_value_strcasecmp$6 == 0)
+                                      return_value_strcasecmp_6=strcasecmp(encodingMB, "ISO-8859-16");
+                                      if(return_value_strcasecmp_6 == 0)
                                         *encoding = "ISO-8859-16";
 
                                       else
                                       {
-                                        return_value_strcasecmp$5=strcasecmp(encodingMB, "CP1250");
-                                        if(return_value_strcasecmp$5 == 0)
+                                        return_value_strcasecmp_5=strcasecmp(encodingMB, "CP1250");
+                                        if(return_value_strcasecmp_5 == 0)
                                           *encoding = "CP1250";
 
                                         else
                                         {
-                                          return_value_strcasecmp$4=strcasecmp(encodingMB, "CP1251");
-                                          if(return_value_strcasecmp$4 == 0)
+                                          return_value_strcasecmp_4=strcasecmp(encodingMB, "CP1251");
+                                          if(return_value_strcasecmp_4 == 0)
                                             *encoding = "CP1251";
 
                                           else
                                           {
-                                            return_value_strcasecmp$3=strcasecmp(encodingMB, "KOI8-R");
-                                            if(return_value_strcasecmp$3 == 0)
+                                            return_value_strcasecmp_3=strcasecmp(encodingMB, "KOI8-R");
+                                            if(return_value_strcasecmp_3 == 0)
                                               *encoding = "KOI8-R";
 
                                             else
                                             {
-                                              return_value_strcasecmp$2=strcasecmp(encodingMB, "KOI8-U");
-                                              if(return_value_strcasecmp$2 == 0)
+                                              return_value_strcasecmp_2=strcasecmp(encodingMB, "KOI8-U");
+                                              if(return_value_strcasecmp_2 == 0)
                                                 *encoding = "KOI8-U";
 
                                               else
                                               {
-                                                return_value_strcasecmp$1=strcasecmp(encodingMB, "DEFAULT");
-                                                if(return_value_strcasecmp$1 == 0)
+                                                return_value_strcasecmp_1=strcasecmp(encodingMB, "DEFAULT");
+                                                if(return_value_strcasecmp_1 == 0)
                                                   *encoding=nl_langinfo(14);
 
                                                 else
@@ -8246,9 +8246,9 @@ extern const signed int * getFileSafeStringProperty(struct Properties *propertie
   else
   {
     buffer = property->value;
-    signed int *return_value_wcschr$1;
-    return_value_wcschr$1=wcschr(buffer, 37);
-    if(!(return_value_wcschr$1 == ((signed int *)NULL)))
+    signed int *return_value_wcschr_1;
+    return_value_wcschr_1=wcschr(buffer, 37);
+    if(!(return_value_wcschr_1 == ((signed int *)NULL)))
     {
       i = 0;
       for( ; !(buffer[(signed long int)i] == 0); i = i + 1)
@@ -8270,29 +8270,29 @@ struct tm getInfoTime(const signed int *date, const signed int *time)
   memset((void *)&buildTM, 0, sizeof(struct tm) /*56ul*/ );
   wcsncpy(temp, date, (unsigned long int)4);
   temp[(signed long int)4] = 0;
-  signed long int return_value_wcstol$1;
-  return_value_wcstol$1=wcstol(temp, (signed int ** restrict )(void *)0, 10);
-  buildTM.tm_year = (signed int)(return_value_wcstol$1 - (signed long int)1900);
+  signed long int return_value_wcstol_1;
+  return_value_wcstol_1=wcstol(temp, (signed int ** restrict )(void *)0, 10);
+  buildTM.tm_year = (signed int)(return_value_wcstol_1 - (signed long int)1900);
   wcsncpy(temp, date + (signed long int)4, (unsigned long int)2);
   temp[(signed long int)2] = 0;
-  signed long int return_value_wcstol$2;
-  return_value_wcstol$2=wcstol(temp, (signed int ** restrict )(void *)0, 10);
-  buildTM.tm_mon = (signed int)(return_value_wcstol$2 - (signed long int)1);
+  signed long int return_value_wcstol_2;
+  return_value_wcstol_2=wcstol(temp, (signed int ** restrict )(void *)0, 10);
+  buildTM.tm_mon = (signed int)(return_value_wcstol_2 - (signed long int)1);
   wcsncpy(temp, date + (signed long int)6, (unsigned long int)2);
   temp[(signed long int)2] = 0;
-  signed long int return_value_wcstol$3;
-  return_value_wcstol$3=wcstol(temp, (signed int ** restrict )(void *)0, 10);
-  buildTM.tm_mday = (signed int)return_value_wcstol$3;
+  signed long int return_value_wcstol_3;
+  return_value_wcstol_3=wcstol(temp, (signed int ** restrict )(void *)0, 10);
+  buildTM.tm_mday = (signed int)return_value_wcstol_3;
   wcsncpy(temp, time, (unsigned long int)2);
   temp[(signed long int)2] = 0;
-  signed long int return_value_wcstol$4;
-  return_value_wcstol$4=wcstol(temp, (signed int ** restrict )(void *)0, 10);
-  buildTM.tm_hour = (signed int)return_value_wcstol$4;
+  signed long int return_value_wcstol_4;
+  return_value_wcstol_4=wcstol(temp, (signed int ** restrict )(void *)0, 10);
+  buildTM.tm_hour = (signed int)return_value_wcstol_4;
   wcsncpy(temp, time + (signed long int)2, (unsigned long int)2);
   temp[(signed long int)2] = 0;
-  signed long int return_value_wcstol$5;
-  return_value_wcstol$5=wcstol(temp, (signed int ** restrict )(void *)0, 10);
-  buildTM.tm_min = (signed int)return_value_wcstol$5;
+  signed long int return_value_wcstol_5;
+  return_value_wcstol_5=wcstol(temp, (signed int ** restrict )(void *)0, 10);
+  buildTM.tm_min = (signed int)return_value_wcstol_5;
   return buildTM;
 }
 
@@ -8303,7 +8303,7 @@ struct Property * getInnerProperty(struct Properties *properties, const signed i
   struct Property *property;
   signed int cmp;
   property = properties->first;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(property == ((struct Property *)NULL)); property = property->next)
   {
     cmp=wcscasecmp(property->name, propertyName);
@@ -8314,11 +8314,11 @@ struct Property * getInnerProperty(struct Properties *properties, const signed i
       if(cmp == 0)
       {
         if(!(warnUndefinedVars == 0))
-          tmp_if_expr$1 = properties->logWarnings != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = properties->logWarnings != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        prepareProperty(properties, property, (signed int)tmp_if_expr$1);
+          tmp_if_expr_1 = (_Bool)0;
+        prepareProperty(properties, property, (signed int)tmp_if_expr_1);
         return property;
       }
 
@@ -8345,9 +8345,9 @@ extern signed int getIntProperty(struct Properties *properties, const signed int
 
   else
   {
-    signed long int return_value_wcstol$1;
-    return_value_wcstol$1=wcstol(property->value, (signed int ** restrict )(void *)0, 0);
-    value = (signed int)return_value_wcstol$1;
+    signed long int return_value_wcstol_1;
+    return_value_wcstol_1=wcstol(property->value, (signed int ** restrict )(void *)0, 0);
+    value = (signed int)return_value_wcstol_1;
     i = 0;
     do
     {
@@ -8382,9 +8382,9 @@ extern signed int getIntProperty(struct Properties *properties, const signed int
 // file logger_base.h line 67
 extern signed int getLastError()
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  return *return_value___errno_location_1;
 }
 
 // getLastErrorText
@@ -8394,9 +8394,9 @@ extern const signed int * getLastErrorText()
   signed int errorNum;
   char *lastErrorTextMB;
   unsigned long int req;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  errorNum = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  errorNum = *return_value___errno_location_1;
   lastErrorTextMB=strerror(errorNum);
   req=mbstowcs((signed int *)(void *)0, lastErrorTextMB, (unsigned long int)0);
   if(req == 18446744073709551615ul)
@@ -8419,65 +8419,65 @@ extern const signed int * getLastErrorText()
 // file logger.c line 561
 extern signed int getLogFacilityForName(const signed int *logFacilityName)
 {
-  signed int return_value_wcscasecmp$9;
-  return_value_wcscasecmp$9=wcscasecmp(logFacilityName, L"USER");
-  signed int return_value_wcscasecmp$8;
-  signed int return_value_wcscasecmp$7;
-  signed int return_value_wcscasecmp$6;
-  signed int return_value_wcscasecmp$5;
-  signed int return_value_wcscasecmp$4;
-  signed int return_value_wcscasecmp$3;
-  signed int return_value_wcscasecmp$2;
-  signed int return_value_wcscasecmp$1;
-  if(return_value_wcscasecmp$9 == 0)
+  signed int return_value_wcscasecmp_9;
+  return_value_wcscasecmp_9=wcscasecmp(logFacilityName, L"USER");
+  signed int return_value_wcscasecmp_8;
+  signed int return_value_wcscasecmp_7;
+  signed int return_value_wcscasecmp_6;
+  signed int return_value_wcscasecmp_5;
+  signed int return_value_wcscasecmp_4;
+  signed int return_value_wcscasecmp_3;
+  signed int return_value_wcscasecmp_2;
+  signed int return_value_wcscasecmp_1;
+  if(return_value_wcscasecmp_9 == 0)
     return 1 << 3;
 
   else
   {
-    return_value_wcscasecmp$8=wcscasecmp(logFacilityName, L"LOCAL0");
-    if(return_value_wcscasecmp$8 == 0)
+    return_value_wcscasecmp_8=wcscasecmp(logFacilityName, L"LOCAL0");
+    if(return_value_wcscasecmp_8 == 0)
       return 16 << 3;
 
     else
     {
-      return_value_wcscasecmp$7=wcscasecmp(logFacilityName, L"LOCAL1");
-      if(return_value_wcscasecmp$7 == 0)
+      return_value_wcscasecmp_7=wcscasecmp(logFacilityName, L"LOCAL1");
+      if(return_value_wcscasecmp_7 == 0)
         return 17 << 3;
 
       else
       {
-        return_value_wcscasecmp$6=wcscasecmp(logFacilityName, L"LOCAL2");
-        if(return_value_wcscasecmp$6 == 0)
+        return_value_wcscasecmp_6=wcscasecmp(logFacilityName, L"LOCAL2");
+        if(return_value_wcscasecmp_6 == 0)
           return 18 << 3;
 
         else
         {
-          return_value_wcscasecmp$5=wcscasecmp(logFacilityName, L"LOCAL3");
-          if(return_value_wcscasecmp$5 == 0)
+          return_value_wcscasecmp_5=wcscasecmp(logFacilityName, L"LOCAL3");
+          if(return_value_wcscasecmp_5 == 0)
             return 19 << 3;
 
           else
           {
-            return_value_wcscasecmp$4=wcscasecmp(logFacilityName, L"LOCAL4");
-            if(return_value_wcscasecmp$4 == 0)
+            return_value_wcscasecmp_4=wcscasecmp(logFacilityName, L"LOCAL4");
+            if(return_value_wcscasecmp_4 == 0)
               return 20 << 3;
 
             else
             {
-              return_value_wcscasecmp$3=wcscasecmp(logFacilityName, L"LOCAL5");
-              if(return_value_wcscasecmp$3 == 0)
+              return_value_wcscasecmp_3=wcscasecmp(logFacilityName, L"LOCAL5");
+              if(return_value_wcscasecmp_3 == 0)
                 return 21 << 3;
 
               else
               {
-                return_value_wcscasecmp$2=wcscasecmp(logFacilityName, L"LOCAL6");
-                if(return_value_wcscasecmp$2 == 0)
+                return_value_wcscasecmp_2=wcscasecmp(logFacilityName, L"LOCAL6");
+                if(return_value_wcscasecmp_2 == 0)
                   return 22 << 3;
 
                 else
                 {
-                  return_value_wcscasecmp$1=wcscasecmp(logFacilityName, L"LOCAL7");
-                  if(return_value_wcscasecmp$1 == 0)
+                  return_value_wcscasecmp_1=wcscasecmp(logFacilityName, L"LOCAL7");
+                  if(return_value_wcscasecmp_1 == 0)
                     return 23 << 3;
 
                   else
@@ -8496,65 +8496,65 @@ extern signed int getLogFacilityForName(const signed int *logFacilityName)
 // file logger.h line 267
 extern signed int getLogLevelForName(const signed int *logLevelName)
 {
-  signed int return_value_wcscasecmp$9;
-  return_value_wcscasecmp$9=wcscasecmp(logLevelName, L"NONE");
-  signed int return_value_wcscasecmp$8;
-  signed int return_value_wcscasecmp$7;
-  signed int return_value_wcscasecmp$6;
-  signed int return_value_wcscasecmp$5;
-  signed int return_value_wcscasecmp$4;
-  signed int return_value_wcscasecmp$3;
-  signed int return_value_wcscasecmp$2;
-  signed int return_value_wcscasecmp$1;
-  if(return_value_wcscasecmp$9 == 0)
+  signed int return_value_wcscasecmp_9;
+  return_value_wcscasecmp_9=wcscasecmp(logLevelName, L"NONE");
+  signed int return_value_wcscasecmp_8;
+  signed int return_value_wcscasecmp_7;
+  signed int return_value_wcscasecmp_6;
+  signed int return_value_wcscasecmp_5;
+  signed int return_value_wcscasecmp_4;
+  signed int return_value_wcscasecmp_3;
+  signed int return_value_wcscasecmp_2;
+  signed int return_value_wcscasecmp_1;
+  if(return_value_wcscasecmp_9 == 0)
     return 9;
 
   else
   {
-    return_value_wcscasecmp$8=wcscasecmp(logLevelName, L"NOTICE");
-    if(return_value_wcscasecmp$8 == 0)
+    return_value_wcscasecmp_8=wcscasecmp(logLevelName, L"NOTICE");
+    if(return_value_wcscasecmp_8 == 0)
       return 8;
 
     else
     {
-      return_value_wcscasecmp$7=wcscasecmp(logLevelName, L"ADVICE");
-      if(return_value_wcscasecmp$7 == 0)
+      return_value_wcscasecmp_7=wcscasecmp(logLevelName, L"ADVICE");
+      if(return_value_wcscasecmp_7 == 0)
         return 7;
 
       else
       {
-        return_value_wcscasecmp$6=wcscasecmp(logLevelName, L"FATAL");
-        if(return_value_wcscasecmp$6 == 0)
+        return_value_wcscasecmp_6=wcscasecmp(logLevelName, L"FATAL");
+        if(return_value_wcscasecmp_6 == 0)
           return 6;
 
         else
         {
-          return_value_wcscasecmp$5=wcscasecmp(logLevelName, L"ERROR");
-          if(return_value_wcscasecmp$5 == 0)
+          return_value_wcscasecmp_5=wcscasecmp(logLevelName, L"ERROR");
+          if(return_value_wcscasecmp_5 == 0)
             return 5;
 
           else
           {
-            return_value_wcscasecmp$4=wcscasecmp(logLevelName, L"WARN");
-            if(return_value_wcscasecmp$4 == 0)
+            return_value_wcscasecmp_4=wcscasecmp(logLevelName, L"WARN");
+            if(return_value_wcscasecmp_4 == 0)
               return 4;
 
             else
             {
-              return_value_wcscasecmp$3=wcscasecmp(logLevelName, L"STATUS");
-              if(return_value_wcscasecmp$3 == 0)
+              return_value_wcscasecmp_3=wcscasecmp(logLevelName, L"STATUS");
+              if(return_value_wcscasecmp_3 == 0)
                 return 3;
 
               else
               {
-                return_value_wcscasecmp$2=wcscasecmp(logLevelName, L"INFO");
-                if(return_value_wcscasecmp$2 == 0)
+                return_value_wcscasecmp_2=wcscasecmp(logLevelName, L"INFO");
+                if(return_value_wcscasecmp_2 == 0)
                   return 2;
 
                 else
                 {
-                  return_value_wcscasecmp$1=wcscasecmp(logLevelName, L"DEBUG");
-                  if(return_value_wcscasecmp$1 == 0)
+                  return_value_wcscasecmp_1=wcscasecmp(logLevelName, L"DEBUG");
+                  if(return_value_wcscasecmp_1 == 0)
                     return 1;
 
                   else
@@ -8603,51 +8603,51 @@ extern signed int getLogfileRollMode()
 // file logger.h line 205
 extern signed int getLogfileRollModeForName(const signed int *logfileRollName)
 {
-  signed int return_value_wcscasecmp$7;
-  return_value_wcscasecmp$7=wcscasecmp(logfileRollName, L"NONE");
-  signed int return_value_wcscasecmp$6;
-  signed int return_value_wcscasecmp$5;
-  signed int return_value_wcscasecmp$4;
-  signed int return_value_wcscasecmp$3;
-  signed int return_value_wcscasecmp$2;
-  signed int return_value_wcscasecmp$1;
-  if(return_value_wcscasecmp$7 == 0)
+  signed int return_value_wcscasecmp_7;
+  return_value_wcscasecmp_7=wcscasecmp(logfileRollName, L"NONE");
+  signed int return_value_wcscasecmp_6;
+  signed int return_value_wcscasecmp_5;
+  signed int return_value_wcscasecmp_4;
+  signed int return_value_wcscasecmp_3;
+  signed int return_value_wcscasecmp_2;
+  signed int return_value_wcscasecmp_1;
+  if(return_value_wcscasecmp_7 == 0)
     return 1;
 
   else
   {
-    return_value_wcscasecmp$6=wcscasecmp(logfileRollName, L"SIZE");
-    if(return_value_wcscasecmp$6 == 0)
+    return_value_wcscasecmp_6=wcscasecmp(logfileRollName, L"SIZE");
+    if(return_value_wcscasecmp_6 == 0)
       return 2;
 
     else
     {
-      return_value_wcscasecmp$5=wcscasecmp(logfileRollName, L"WRAPPER");
-      if(return_value_wcscasecmp$5 == 0)
+      return_value_wcscasecmp_5=wcscasecmp(logfileRollName, L"WRAPPER");
+      if(return_value_wcscasecmp_5 == 0)
         return 4;
 
       else
       {
-        return_value_wcscasecmp$4=wcscasecmp(logfileRollName, L"JVM");
-        if(return_value_wcscasecmp$4 == 0)
+        return_value_wcscasecmp_4=wcscasecmp(logfileRollName, L"JVM");
+        if(return_value_wcscasecmp_4 == 0)
           return 8;
 
         else
         {
-          return_value_wcscasecmp$3=wcscasecmp(logfileRollName, L"SIZE_OR_WRAPPER");
-          if(return_value_wcscasecmp$3 == 0)
+          return_value_wcscasecmp_3=wcscasecmp(logfileRollName, L"SIZE_OR_WRAPPER");
+          if(return_value_wcscasecmp_3 == 0)
             return 2 + 4;
 
           else
           {
-            return_value_wcscasecmp$2=wcscasecmp(logfileRollName, L"SIZE_OR_JVM");
-            if(return_value_wcscasecmp$2 == 0)
+            return_value_wcscasecmp_2=wcscasecmp(logfileRollName, L"SIZE_OR_JVM");
+            if(return_value_wcscasecmp_2 == 0)
               return 2 + 8;
 
             else
             {
-              return_value_wcscasecmp$1=wcscasecmp(logfileRollName, L"DATE");
-              if(return_value_wcscasecmp$1 == 0)
+              return_value_wcscasecmp_1=wcscasecmp(logfileRollName, L"DATE");
+              if(return_value_wcscasecmp_1 == 0)
                 return 16;
 
               else
@@ -8698,35 +8698,35 @@ const signed int * getSignalCodeDesc(signed int code)
 // file wrapper.c line 510
 signed int getSignalMode(const signed int *modeName, signed int defaultMode)
 {
-  signed int return_value_wcscasecmp$3;
-  signed int return_value_wcscasecmp$2;
-  signed int return_value_wcscasecmp$1;
+  signed int return_value_wcscasecmp_3;
+  signed int return_value_wcscasecmp_2;
+  signed int return_value_wcscasecmp_1;
   if(modeName == ((const signed int *)NULL))
     return defaultMode;
 
   else
   {
-    signed int return_value_wcscasecmp$4;
-    return_value_wcscasecmp$4=wcscasecmp(modeName, L"IGNORE");
-    if(return_value_wcscasecmp$4 == 0)
+    signed int return_value_wcscasecmp_4;
+    return_value_wcscasecmp_4=wcscasecmp(modeName, L"IGNORE");
+    if(return_value_wcscasecmp_4 == 0)
       return (signed int)(char)100;
 
     else
     {
-      return_value_wcscasecmp$3=wcscasecmp(modeName, L"RESTART");
-      if(return_value_wcscasecmp$3 == 0)
+      return_value_wcscasecmp_3=wcscasecmp(modeName, L"RESTART");
+      if(return_value_wcscasecmp_3 == 0)
         return (signed int)(char)101;
 
       else
       {
-        return_value_wcscasecmp$2=wcscasecmp(modeName, L"SHUTDOWN");
-        if(return_value_wcscasecmp$2 == 0)
+        return_value_wcscasecmp_2=wcscasecmp(modeName, L"SHUTDOWN");
+        if(return_value_wcscasecmp_2 == 0)
           return (signed int)(char)102;
 
         else
         {
-          return_value_wcscasecmp$1=wcscasecmp(modeName, L"FORWARD");
-          if(return_value_wcscasecmp$1 == 0)
+          return_value_wcscasecmp_1=wcscasecmp(modeName, L"FORWARD");
+          if(return_value_wcscasecmp_1 == 0)
             return (signed int)(char)103;
 
           else
@@ -8801,9 +8801,9 @@ extern signed int getStringProperties(struct Properties *properties, const signe
       {
         if(!(matchAny == 0) || thisLen >= 1ul + headLen + tailLen)
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (headLen + (unsigned long int)1));
-          thisHead = (signed int *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (headLen + (unsigned long int)1));
+          thisHead = (signed int *)return_value_malloc_1;
           if(thisHead == ((signed int *)NULL))
             outOfMemory(L"GSPS", 1);
 
@@ -8811,22 +8811,22 @@ extern signed int getStringProperties(struct Properties *properties, const signe
           {
             wcsncpy(thisHead, property->name, headLen);
             thisHead[(signed long int)headLen] = 0;
-            signed int return_value_wcscasecmp$4;
-            return_value_wcscasecmp$4=wcscasecmp(thisHead, propertyNameHead);
-            if(return_value_wcscasecmp$4 == 0)
+            signed int return_value_wcscasecmp_4;
+            return_value_wcscasecmp_4=wcscasecmp(thisHead, propertyNameHead);
+            if(return_value_wcscasecmp_4 == 0)
             {
-              void *return_value_malloc$2;
-              return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (tailLen + (unsigned long int)1));
-              thisTail = (signed int *)return_value_malloc$2;
+              void *return_value_malloc_2;
+              return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (tailLen + (unsigned long int)1));
+              thisTail = (signed int *)return_value_malloc_2;
               if(thisTail == ((signed int *)NULL))
                 outOfMemory(L"GSPS", 2);
 
               else
               {
                 wcsncpy(thisTail, (property->name + (signed long int)thisLen) - (signed long int)tailLen, tailLen + (unsigned long int)1);
-                signed int return_value_wcscasecmp$3;
-                return_value_wcscasecmp$3=wcscasecmp(thisTail, propertyNameTail);
-                if(return_value_wcscasecmp$3 == 0)
+                signed int return_value_wcscasecmp_3;
+                return_value_wcscasecmp_3=wcscasecmp(thisTail, propertyNameTail);
+                if(return_value_wcscasecmp_3 == 0)
                 {
                   if(!(matchAny == 0))
                     indexLen = ((thisLen - headLen) - tailLen) + (unsigned long int)1;
@@ -8879,9 +8879,9 @@ extern signed int getStringProperties(struct Properties *properties, const signe
     }
     if(*propertyIndices == ((unsigned long int *)NULL))
     {
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(count + 1));
-      *propertyNames = (signed int **)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(count + 1));
+      *propertyNames = (signed int **)return_value_malloc_5;
       if(*propertyNames == ((signed int **)NULL))
       {
         outOfMemory(L"GSPS", 3);
@@ -8891,9 +8891,9 @@ extern signed int getStringProperties(struct Properties *properties, const signe
         return -1;
       }
 
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(count + 1));
-      *propertyValues = (signed int **)return_value_malloc$6;
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(count + 1));
+      *propertyValues = (signed int **)return_value_malloc_6;
       if(*propertyValues == ((signed int **)NULL))
       {
         outOfMemory(L"GSPS", 4);
@@ -8904,9 +8904,9 @@ extern signed int getStringProperties(struct Properties *properties, const signe
         return -1;
       }
 
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(count + 1));
-      *propertyIndices = (unsigned long int *)return_value_malloc$7;
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)(count + 1));
+      *propertyIndices = (unsigned long int *)return_value_malloc_7;
       if(*propertyIndices == ((unsigned long int *)NULL))
       {
         outOfMemory(L"GSPS", 5);
@@ -8994,12 +8994,12 @@ signed int getThreadId()
   unsigned long int threadId;
   threadId=pthread_self();
   i = 0;
-  signed int return_value_pthread_equal$1;
+  signed int return_value_pthread_equal_1;
   for( ; !(i >= 6); i = i + 1)
     if(!(threadSets[(signed long int)i] == 0))
     {
-      return_value_pthread_equal$1=pthread_equal$link1(threadIds[(signed long int)i], threadId);
-      if(!(return_value_pthread_equal$1 == 0))
+      return_value_pthread_equal_1=pthread_equal_link1(threadIds[(signed long int)i], threadId);
+      if(!(return_value_pthread_equal_1 == 0))
         return i;
 
     }
@@ -9029,23 +9029,23 @@ void handleDebugJVMTimeout(unsigned int nowTicks, const signed int *message, con
 
 // hashMapGetKMBVW
 // file wrapper_hashmap.c line 398
-extern const signed int * hashMapGetKMBVW(struct anonymous$19 *hashMap, const char *key)
+extern const signed int * hashMapGetKMBVW(struct anonymous_19 *hashMap, const char *key)
 {
   unsigned long int keySize;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  keySize = sizeof(char) /*1ul*/  * (return_value_strlen$1 + (unsigned long int)1);
-  const void *return_value_hashMapGetKVVV$2;
-  return_value_hashMapGetKVVV$2=hashMapGetKVVV(hashMap, (const void *)key, keySize, (unsigned long int *)(void *)0);
-  return (const signed int *)return_value_hashMapGetKVVV$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  keySize = sizeof(char) /*1ul*/  * (return_value_strlen_1 + (unsigned long int)1);
+  const void *return_value_hashMapGetKVVV_2;
+  return_value_hashMapGetKVVV_2=hashMapGetKVVV(hashMap, (const void *)key, keySize, (unsigned long int *)(void *)0);
+  return (const signed int *)return_value_hashMapGetKVVV_2;
 }
 
 // hashMapGetKVVV
 // file wrapper_hashmap.c line 338
-extern const void * hashMapGetKVVV(struct anonymous$19 *hashMap, const void *key, unsigned long int keySize, unsigned long int *valueSize)
+extern const void * hashMapGetKVVV(struct anonymous_19 *hashMap, const void *key, unsigned long int keySize, unsigned long int *valueSize)
 {
   signed int bucketId;
-  struct anonymous$21 *bucket;
+  struct anonymous_21 *bucket;
   struct HashEntry *thisEntry;
   signed int cmp;
   if(!(valueSize == ((unsigned long int *)NULL)))
@@ -9077,40 +9077,40 @@ extern const void * hashMapGetKVVV(struct anonymous$19 *hashMap, const void *key
 
 // hashMapGetKWVW
 // file wrapper_hashmap.h line 110
-extern const signed int * hashMapGetKWVW(struct anonymous$19 *hashMap, const signed int *key)
+extern const signed int * hashMapGetKWVW(struct anonymous_19 *hashMap, const signed int *key)
 {
   unsigned long int keySize;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(key);
-  keySize = sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1);
-  const void *return_value_hashMapGetKVVV$2;
-  return_value_hashMapGetKVVV$2=hashMapGetKVVV(hashMap, (const void *)key, keySize, (unsigned long int *)(void *)0);
-  return (const signed int *)return_value_hashMapGetKVVV$2;
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(key);
+  keySize = sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1);
+  const void *return_value_hashMapGetKVVV_2;
+  return_value_hashMapGetKVVV_2=hashMapGetKVVV(hashMap, (const void *)key, keySize, (unsigned long int *)(void *)0);
+  return (const signed int *)return_value_hashMapGetKVVV_2;
 }
 
 // hashMapPutKMBVW
 // file wrapper_hashmap.c line 321
-extern void hashMapPutKMBVW(struct anonymous$19 *hashMap, const char *key, const signed int *value)
+extern void hashMapPutKMBVW(struct anonymous_19 *hashMap, const char *key, const signed int *value)
 {
   unsigned long int keySize;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key);
-  keySize = sizeof(char) /*1ul*/  * (return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key);
+  keySize = sizeof(char) /*1ul*/  * (return_value_strlen_1 + (unsigned long int)1);
   unsigned long int valueSize;
-  unsigned long int return_value_wcslen$2;
-  return_value_wcslen$2=wcslen(value);
-  valueSize = sizeof(signed int) /*4ul*/  * (return_value_wcslen$2 + (unsigned long int)1);
+  unsigned long int return_value_wcslen_2;
+  return_value_wcslen_2=wcslen(value);
+  valueSize = sizeof(signed int) /*4ul*/  * (return_value_wcslen_2 + (unsigned long int)1);
   hashMapPutKVVV(hashMap, (const void *)key, keySize, (const void *)value, valueSize);
 }
 
 // hashMapPutKVVV
 // file wrapper_hashmap.c line 188
-extern signed int hashMapPutKVVV(struct anonymous$19 *hashMap, const void *key, unsigned long int keySize, const void *value, unsigned long int valueSize)
+extern signed int hashMapPutKVVV(struct anonymous_19 *hashMap, const void *key, unsigned long int keySize, const void *value, unsigned long int valueSize)
 {
   void *keyCopy;
   void *valueCopy;
   signed int bucketId;
-  struct anonymous$21 *bucket;
+  struct anonymous_21 *bucket;
   struct HashEntry **thisEntryLoc;
   struct HashEntry *thisEntry;
   signed int cmp;
@@ -9145,9 +9145,9 @@ extern signed int hashMapPutKVVV(struct anonymous$19 *hashMap, const void *key, 
         cmp=memcmpHM(thisEntry->key, thisEntry->keySize, key, keySize);
         if(cmp >= 1)
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(struct HashEntry) /*40ul*/ );
-          newEntry = (struct HashEntry *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(struct HashEntry) /*40ul*/ );
+          newEntry = (struct HashEntry *)return_value_malloc_1;
           if(newEntry == ((struct HashEntry *)NULL))
           {
             _tprintf(L"Out of memory (%s)\n", (const void *)L"HMP3");
@@ -9183,9 +9183,9 @@ extern signed int hashMapPutKVVV(struct anonymous$19 *hashMap, const void *key, 
             thisEntry = thisEntry->nextEntry;
           }
       }
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct HashEntry) /*40ul*/ );
-      newEntry = (struct HashEntry *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct HashEntry) /*40ul*/ );
+      newEntry = (struct HashEntry *)return_value_malloc_2;
       if(newEntry == ((struct HashEntry *)NULL))
       {
         _tprintf(L"Out of memory (%s)\n", (const void *)L"HMP4");
@@ -9212,16 +9212,16 @@ extern signed int hashMapPutKVVV(struct anonymous$19 *hashMap, const void *key, 
 
 // hashMapPutKWVW
 // file wrapper_hashmap.h line 79
-extern void hashMapPutKWVW(struct anonymous$19 *hashMap, const signed int *key, const signed int *value)
+extern void hashMapPutKWVW(struct anonymous_19 *hashMap, const signed int *key, const signed int *value)
 {
   unsigned long int keySize;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(key);
-  keySize = sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1);
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(key);
+  keySize = sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1);
   unsigned long int valueSize;
-  unsigned long int return_value_wcslen$2;
-  return_value_wcslen$2=wcslen(value);
-  valueSize = sizeof(signed int) /*4ul*/  * (return_value_wcslen$2 + (unsigned long int)1);
+  unsigned long int return_value_wcslen_2;
+  return_value_wcslen_2=wcslen(value);
+  valueSize = sizeof(signed int) /*4ul*/  * (return_value_wcslen_2 + (unsigned long int)1);
   hashMapPutKVVV(hashMap, (const void *)key, keySize, (const void *)value, valueSize);
 }
 
@@ -9292,18 +9292,18 @@ signed int initializeJavaIO()
   res=pthread_create(&javaIOThreadId, (const union pthread_attr_t *)(void *)0, javaIORunner, (void *)0);
   if(!(res == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 6, L"Unable to create a javaIO thread: %d, %s", res, return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 6, L"Unable to create a javaIO thread: %d, %s", res, return_value_getLastErrorText_1);
     javaIOThreadSet = -1;
     return 1;
   }
 
   else
   {
-    signed int return_value_pthread_detach$2;
-    return_value_pthread_detach$2=pthread_detach(javaIOThreadId);
-    if(!(return_value_pthread_detach$2 == 0))
+    signed int return_value_pthread_detach_2;
+    return_value_pthread_detach_2=pthread_detach(javaIOThreadId);
+    if(!(return_value_pthread_detach_2 == 0))
     {
       javaIOThreadSet = -1;
       return 1;
@@ -9325,18 +9325,18 @@ signed int initializeTimer()
   res=pthread_create(&timerThreadId, (const union pthread_attr_t *)(void *)0, timerRunner, (void *)0);
   if(!(res == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 6, L"Unable to create a timer thread: %d, %s", res, return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 6, L"Unable to create a timer thread: %d, %s", res, return_value_getLastErrorText_1);
     timerThreadSet = -1;
     return 1;
   }
 
   else
   {
-    signed int return_value_pthread_detach$2;
-    return_value_pthread_detach$2=pthread_detach(timerThreadId);
-    if(!(return_value_pthread_detach$2 == 0))
+    signed int return_value_pthread_detach_2;
+    return_value_pthread_detach_2=pthread_detach(timerThreadId);
+    if(!(return_value_pthread_detach_2 == 0))
     {
       timerThreadSet = -1;
       return 1;
@@ -9388,9 +9388,9 @@ __CPROVER_DUMP_L8:
 // file logger.c line 312
 extern void invalidMultiByteSequence(const signed int *context, signed int id)
 {
-  const signed int *return_value_getLastErrorText$1;
-  return_value_getLastErrorText$1=getLastErrorText();
-  log_printf(-1, 6, L"Invalid multibyte Sequence found in (%s%02d). %s", context, id, return_value_getLastErrorText$1);
+  const signed int *return_value_getLastErrorText_1;
+  return_value_getLastErrorText_1=getLastErrorText();
+  log_printf(-1, 6, L"Invalid multibyte Sequence found in (%s%02d). %s", context, id, return_value_getLastErrorText_1);
 }
 
 // isEscapedProperty
@@ -9413,9 +9413,9 @@ extern signed int isEscapedProperty(const signed int *propertyName)
     while(!(escapedPropertyNames[(signed long int)i] == ((const signed int *)NULL)))
     {
       pattern = escapedPropertyNames[(signed long int)i];
-      signed int return_value_wcscasecmp$2;
-      return_value_wcscasecmp$2=wcscasecmp(pattern, propertyName);
-      if(return_value_wcscasecmp$2 == 0)
+      signed int return_value_wcscasecmp_2;
+      return_value_wcscasecmp_2=wcscasecmp(pattern, propertyName);
+      if(return_value_wcscasecmp_2 == 0)
         return -1;
 
       else
@@ -9441,9 +9441,9 @@ extern signed int isEscapedProperty(const signed int *propertyName)
             }
             if(!(matched == 0))
             {
-              unsigned long int return_value_wcslen$1;
-              return_value_wcslen$1=wcslen(pattern);
-              tailLen = (return_value_wcslen$1 - headLen) - (unsigned long int)1;
+              unsigned long int return_value_wcslen_1;
+              return_value_wcslen_1=wcslen(pattern);
+              tailLen = (return_value_wcslen_1 - headLen) - (unsigned long int)1;
               if(!(tailLen >= nameLen + -headLen))
               {
                 matched = -1;
@@ -9513,24 +9513,24 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
   const signed int *onExitAction;
   signed int startupDelay;
   signed int restartMode;
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   if(wrapperData->wState == 51)
-    tmp_if_expr$13 = (_Bool)1;
+    tmp_if_expr_13 = (_Bool)1;
 
   else
-    tmp_if_expr$13 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$14 = (_Bool)1;
+    tmp_if_expr_13 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_14 = (_Bool)1;
 
   else
-    tmp_if_expr$14 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_wrapperGetTickAgeSeconds$2;
-  signed int return_value_wcscasecmp$7;
-  signed int return_value_wcscasecmp$11;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_wrapperGetTickAgeSeconds_2;
+  signed int return_value_wcscasecmp_7;
+  signed int return_value_wcscasecmp_11;
+  if(tmp_if_expr_14)
   {
     if(!(wrapperData->restartRequested == 0))
     {
@@ -9544,11 +9544,11 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
       if(wrapperData->jvmRestarts >= 1)
       {
         if(wrapperData->wState == 55)
-          tmp_if_expr$4 = wrapperData->pausableStopJVM != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = wrapperData->pausableStopJVM != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
           wrapperData->failedInvocationCount = 0;
           wrapperSetJavaState(73, nowTicks, 0);
@@ -9557,11 +9557,11 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
         else
         {
           if(restartMode == 2)
-            tmp_if_expr$3 = wrapperData->isAutoRestartDisabled != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = wrapperData->isAutoRestartDisabled != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
           {
             log_printf(-1, 3, L"Automatic JVM Restarts disabled.  Shutting down.");
             wrapperSetWrapperState(56);
@@ -9576,8 +9576,8 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
 
             else
             {
-              return_value_wrapperGetTickAgeSeconds$2=wrapperGetTickAgeSeconds(wrapperData->jvmLaunchTicks, nowTicks);
-              if(return_value_wrapperGetTickAgeSeconds$2 >= wrapperData->successfulInvocationTime)
+              return_value_wrapperGetTickAgeSeconds_2=wrapperGetTickAgeSeconds(wrapperData->jvmLaunchTicks, nowTicks);
+              if(return_value_wrapperGetTickAgeSeconds_2 >= wrapperData->successfulInvocationTime)
               {
                 wrapperData->failedInvocationCount = 0;
                 wrapperSetJavaState(73, nowTicks, wrapperData->restartDelay);
@@ -9595,9 +9595,9 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
                 wrapperData->failedInvocationCount = wrapperData->failedInvocationCount + 1;
                 if(!(wrapperData->isDebugging == 0))
                 {
-                  signed int return_value_wrapperGetTickAgeSeconds$1;
-                  return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->jvmLaunchTicks, nowTicks);
-                  log_printf(-1, 1, L"JVM was only running for %d seconds leading to a failed restart count of %d.", return_value_wrapperGetTickAgeSeconds$1, wrapperData->failedInvocationCount);
+                  signed int return_value_wrapperGetTickAgeSeconds_1;
+                  return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->jvmLaunchTicks, nowTicks);
+                  log_printf(-1, 1, L"JVM was only running for %d seconds leading to a failed restart count of %d.", return_value_wrapperGetTickAgeSeconds_1, wrapperData->failedInvocationCount);
                 }
 
                 if(!(wrapperData->failedInvocationCount >= wrapperData->maxFailedInvocations))
@@ -9645,12 +9645,12 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
     else
     {
       _sntprintf(onExitParamBuffer, (unsigned long int)(16 + 10 + 1), L"wrapper.on_exit.%d", wrapperData->exitCode);
-      const signed int *return_value_getStringProperty$5;
-      return_value_getStringProperty$5=getStringProperty(properties, L"wrapper.on_exit.default", L"shutdown");
-      onExitAction=getStringProperty(properties, onExitParamBuffer, return_value_getStringProperty$5);
-      signed int return_value_wcscasecmp$8;
-      return_value_wcscasecmp$8=wcscasecmp(onExitAction, L"restart");
-      if(return_value_wcscasecmp$8 == 0)
+      const signed int *return_value_getStringProperty_5;
+      return_value_getStringProperty_5=getStringProperty(properties, L"wrapper.on_exit.default", L"shutdown");
+      onExitAction=getStringProperty(properties, onExitParamBuffer, return_value_getStringProperty_5);
+      signed int return_value_wcscasecmp_8;
+      return_value_wcscasecmp_8=wcscasecmp(onExitAction, L"restart");
+      if(return_value_wcscasecmp_8 == 0)
       {
         log_printf(-1, 3, L"on_exit trigger matched.  Restarting the JVM.  (Exit code: %d)", wrapperData->exitCode);
         wrapperData->restartRequested = 4;
@@ -9658,8 +9658,8 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
 
       else
       {
-        return_value_wcscasecmp$7=wcscasecmp(onExitAction, L"pause");
-        if(return_value_wcscasecmp$7 == 0)
+        return_value_wcscasecmp_7=wcscasecmp(onExitAction, L"pause");
+        if(return_value_wcscasecmp_7 == 0)
         {
           if(!(wrapperData->pausable == 0))
           {
@@ -9676,9 +9676,9 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
 
         else
         {
-          signed int return_value_wcscasecmp$6;
-          return_value_wcscasecmp$6=wcscasecmp(onExitAction, L"shutdown");
-          if(!(return_value_wcscasecmp$6 == 0))
+          signed int return_value_wcscasecmp_6;
+          return_value_wcscasecmp_6=wcscasecmp(onExitAction, L"shutdown");
+          if(!(return_value_wcscasecmp_6 == 0))
             log_printf(-1, 4, L"Encountered an unexpected value for configuration property %s=%s.  Resolving to %s.", (const void *)onExitParamBuffer, onExitAction, (const void *)L"SHUTDOWN");
 
           wrapperSetWrapperState(56);
@@ -9697,12 +9697,12 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
         if(wrapperData->restartRequested == 0)
         {
           _sntprintf(onExitParamBuffer, (unsigned long int)(16 + 10 + 1), L"wrapper.on_exit.%d", wrapperData->exitCode);
-          const signed int *return_value_getStringProperty$9;
-          return_value_getStringProperty$9=getStringProperty(properties, L"wrapper.on_exit.default", L"shutdown");
-          onExitAction=getStringProperty(properties, onExitParamBuffer, return_value_getStringProperty$9);
-          signed int return_value_wcscasecmp$12;
-          return_value_wcscasecmp$12=wcscasecmp(onExitAction, L"restart");
-          if(return_value_wcscasecmp$12 == 0)
+          const signed int *return_value_getStringProperty_9;
+          return_value_getStringProperty_9=getStringProperty(properties, L"wrapper.on_exit.default", L"shutdown");
+          onExitAction=getStringProperty(properties, onExitParamBuffer, return_value_getStringProperty_9);
+          signed int return_value_wcscasecmp_12;
+          return_value_wcscasecmp_12=wcscasecmp(onExitAction, L"restart");
+          if(return_value_wcscasecmp_12 == 0)
           {
             log_printf(-1, 3, L"on_exit trigger matched.  Service is paused, will restart the JVM when resumed.  (Exit code: %d)", wrapperData->exitCode);
             wrapperData->restartRequested = 4;
@@ -9710,15 +9710,15 @@ void jStateDownClean(unsigned int nowTicks, signed int nextSleep)
 
           else
           {
-            return_value_wcscasecmp$11=wcscasecmp(onExitAction, L"pause");
-            if(return_value_wcscasecmp$11 == 0)
+            return_value_wcscasecmp_11=wcscasecmp(onExitAction, L"pause");
+            if(return_value_wcscasecmp_11 == 0)
               wrapperData->restartRequested = 4;
 
             else
             {
-              signed int return_value_wcscasecmp$10;
-              return_value_wcscasecmp$10=wcscasecmp(onExitAction, L"shutdown");
-              if(!(return_value_wcscasecmp$10 == 0))
+              signed int return_value_wcscasecmp_10;
+              return_value_wcscasecmp_10=wcscasecmp(onExitAction, L"shutdown");
+              if(!(return_value_wcscasecmp_10 == 0))
                 log_printf(-1, 4, L"Encountered an unexpected value for configuration property %s=%s.  Resolving to %d.", (const void *)onExitParamBuffer, onExitAction, (const void *)L"SHUTDOWN");
 
               wrapperSetWrapperState(56);
@@ -9785,33 +9785,33 @@ void jStateDownFlush(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1758
 void jStateKill(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$5;
-  signed int return_value_wrapperGetProcessStatus$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_wrapperGetProcessStatus_4;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$4=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$5 = return_value_wrapperGetProcessStatus$4 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_4=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_5 = return_value_wrapperGetProcessStatus_4 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_wrapperGetTickAgeSeconds$2;
-  if(!tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  signed int return_value_wrapperGetTickAgeSeconds_2;
+  if(!tmp_if_expr_5)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$2=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      tmp_if_expr$3 = return_value_wrapperGetTickAgeSeconds$2 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wrapperGetTickAgeSeconds_2=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      tmp_if_expr_3 = return_value_wrapperGetTickAgeSeconds_2 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      signed int return_value_wrapperKillProcessNow$1;
-      return_value_wrapperKillProcessNow$1=wrapperKillProcessNow();
-      if(!(return_value_wrapperKillProcessNow$1 == 0))
+      signed int return_value_wrapperKillProcessNow_1;
+      return_value_wrapperKillProcessNow_1=wrapperKillProcessNow();
+      if(!(return_value_wrapperKillProcessNow_1 == 0))
       {
         if(!(wrapperData->restartRequested == 0))
         {
@@ -9838,29 +9838,29 @@ void jStateKill(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1795
 void jStateKillConfirm(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_wrapperGetProcessStatus$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_wrapperGetProcessStatus_3;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$3=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$4 = return_value_wrapperGetProcessStatus$3 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_3=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_4 = return_value_wrapperGetProcessStatus_3 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_wrapperGetTickAgeSeconds$1;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  signed int return_value_wrapperGetTickAgeSeconds_1;
+  if(!tmp_if_expr_4)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      tmp_if_expr$2 = return_value_wrapperGetTickAgeSeconds$1 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      tmp_if_expr_2 = return_value_wrapperGetTickAgeSeconds_1 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!(wrapperData->restartRequested == 0))
       {
@@ -9882,29 +9882,29 @@ void jStateKillConfirm(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1733
 void jStateKilling(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_wrapperGetProcessStatus$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_wrapperGetProcessStatus_3;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$3=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$4 = return_value_wrapperGetProcessStatus$3 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_3=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_4 = return_value_wrapperGetProcessStatus_3 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_wrapperGetTickAgeSeconds$1;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  signed int return_value_wrapperGetTickAgeSeconds_1;
+  if(!tmp_if_expr_4)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      tmp_if_expr$2 = return_value_wrapperGetTickAgeSeconds$1 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      tmp_if_expr_2 = return_value_wrapperGetTickAgeSeconds_1 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       wrapperSetJavaState(84, nowTicks, 0);
 
   }
@@ -9915,24 +9915,24 @@ void jStateKilling(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1345
 void jStateLaunch(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(wrapperData->wState == 51)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     log_printf(-1, 3, L"Launching a JVM...");
-    signed int return_value_wrapperExecute$1;
-    return_value_wrapperExecute$1=wrapperExecute();
-    if(!(return_value_wrapperExecute$1 == 0))
+    signed int return_value_wrapperExecute_1;
+    return_value_wrapperExecute_1=wrapperExecute();
+    if(!(return_value_wrapperExecute_1 == 0))
       wrapperSetJavaState(72, nowTicks, -1);
 
     else
@@ -9952,33 +9952,33 @@ void jStateLaunch(unsigned int nowTicks, signed int nextSleep)
 void jStateLaunchDelay(unsigned int nowTicks, signed int nextSleep)
 {
   const signed int *mainClass;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if(wrapperData->wState == 51)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$11 = (_Bool)1;
+    tmp_if_expr_10 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
-    tmp_if_expr$11 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_wrapperGetTickAgeSeconds$9;
-  signed int return_value_wrapperSetWorkingDir$4;
-  signed int *return_value_wcsstr$5;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_wrapperGetTickAgeSeconds_9;
+  signed int return_value_wrapperSetWorkingDir_4;
+  signed int *return_value_wcsstr_5;
+  if(tmp_if_expr_11)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$9=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      if(return_value_wrapperGetTickAgeSeconds$9 >= 0)
+      return_value_wrapperGetTickAgeSeconds_9=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      if(return_value_wrapperGetTickAgeSeconds_9 >= 0)
       {
         if(wrapperData->jvmRestarts >= 1)
         {
-          signed int return_value_getLogfileRollMode$1;
-          return_value_getLogfileRollMode$1=getLogfileRollMode();
-          if(!((8 & return_value_getLogfileRollMode$1) == 0))
+          signed int return_value_getLogfileRollMode_1;
+          return_value_getLogfileRollMode_1=getLogfileRollMode();
+          if(!((8 & return_value_getLogfileRollMode_1) == 0))
             rollLogs();
 
           if(!(wrapperData->restartReloadConf == 0))
@@ -9988,9 +9988,9 @@ void jStateLaunchDelay(unsigned int nowTicks, signed int nextSleep)
             {
               if(!(wrapperData->originalWorkingDir == ((signed int *)NULL)))
               {
-                signed int return_value_wrapperSetWorkingDir$2;
-                return_value_wrapperSetWorkingDir$2=wrapperSetWorkingDir(wrapperData->originalWorkingDir, -1);
-                if(!(return_value_wrapperSetWorkingDir$2 == 0))
+                signed int return_value_wrapperSetWorkingDir_2;
+                return_value_wrapperSetWorkingDir_2=wrapperSetWorkingDir(wrapperData->originalWorkingDir, -1);
+                if(!(return_value_wrapperSetWorkingDir_2 == 0))
                 {
                   wrapperSetWrapperState(56);
                   wrapperData->exitCode = 1;
@@ -10001,9 +10001,9 @@ void jStateLaunchDelay(unsigned int nowTicks, signed int nextSleep)
 
             }
 
-            signed int return_value_wrapperLoadConfigurationProperties$3;
-            return_value_wrapperLoadConfigurationProperties$3=wrapperLoadConfigurationProperties(0);
-            if(!(return_value_wrapperLoadConfigurationProperties$3 == 0))
+            signed int return_value_wrapperLoadConfigurationProperties_3;
+            return_value_wrapperLoadConfigurationProperties_3=wrapperLoadConfigurationProperties(0);
+            if(!(return_value_wrapperLoadConfigurationProperties_3 == 0))
             {
               wrapperSetWrapperState(56);
               wrapperData->exitCode = 1;
@@ -10012,8 +10012,8 @@ void jStateLaunchDelay(unsigned int nowTicks, signed int nextSleep)
 
             if(!(wrapperData->workingDir == ((signed int *)NULL)))
             {
-              return_value_wrapperSetWorkingDir$4=wrapperSetWorkingDir(wrapperData->workingDir, -1);
-              if(!(return_value_wrapperSetWorkingDir$4 == 0))
+              return_value_wrapperSetWorkingDir_4=wrapperSetWorkingDir(wrapperData->workingDir, -1);
+              if(!(return_value_wrapperSetWorkingDir_4 == 0))
               {
                 wrapperSetWrapperState(56);
                 wrapperData->exitCode = 1;
@@ -10027,9 +10027,9 @@ void jStateLaunchDelay(unsigned int nowTicks, signed int nextSleep)
         }
 
         mainClass=getStringProperty(properties, L"wrapper.java.mainclass", L"Main");
-        signed int *return_value_wcsstr$6;
-        return_value_wcsstr$6=wcsstr(mainClass, L"com.silveregg.wrapper.WrapperSimpleApp");
-        if(!(return_value_wcsstr$6 == ((signed int *)NULL)))
+        signed int *return_value_wcsstr_6;
+        return_value_wcsstr_6=wcsstr(mainClass, L"com.silveregg.wrapper.WrapperSimpleApp");
+        if(!(return_value_wcsstr_6 == ((signed int *)NULL)))
         {
           log_printf(-1, 5, L"The %s class is no longer supported.", (const void *)L"com.silveregg.wrapper.WrapperSimpleApp");
           log_printf(-1, 5, L"Please use the %s class instead.", (const void *)L"com.silveregg.wrapper.WrapperSimpleApp");
@@ -10040,8 +10040,8 @@ void jStateLaunchDelay(unsigned int nowTicks, signed int nextSleep)
 
         else
         {
-          return_value_wcsstr$5=wcsstr(mainClass, L"com.silveregg.wrapper.WrapperStartStopApp");
-          if(!(return_value_wcsstr$5 == ((signed int *)NULL)))
+          return_value_wcsstr_5=wcsstr(mainClass, L"com.silveregg.wrapper.WrapperStartStopApp");
+          if(!(return_value_wcsstr_5 == ((signed int *)NULL)))
           {
             log_printf(-1, 5, L"The %s class is no longer supported.", (const void *)L"com.silveregg.wrapper.WrapperStartStopApp");
             log_printf(-1, 5, L"Please use the %s class instead.", (const void *)L"com.silveregg.wrapper.WrapperStartStopApp");
@@ -10053,18 +10053,18 @@ void jStateLaunchDelay(unsigned int nowTicks, signed int nextSleep)
         }
         wrapperData->jvmLaunchTicks = nowTicks;
         wrapperBuildKey();
-        signed int return_value_wrapperCheckServerBackend$7;
-        return_value_wrapperCheckServerBackend$7=wrapperCheckServerBackend(-1);
-        if(return_value_wrapperCheckServerBackend$7 == 0)
+        signed int return_value_wrapperCheckServerBackend_7;
+        return_value_wrapperCheckServerBackend_7=wrapperCheckServerBackend(-1);
+        if(return_value_wrapperCheckServerBackend_7 == 0)
         {
           wrapperSetWrapperState(56);
           wrapperData->exitCode = 1;
           goto __CPROVER_DUMP_L22;
         }
 
-        signed int return_value_wrapperBuildJavaCommand$8;
-        return_value_wrapperBuildJavaCommand$8=wrapperBuildJavaCommand();
-        if(!(return_value_wrapperBuildJavaCommand$8 == 0))
+        signed int return_value_wrapperBuildJavaCommand_8;
+        return_value_wrapperBuildJavaCommand_8=wrapperBuildJavaCommand();
+        if(!(return_value_wrapperBuildJavaCommand_8 == 0))
         {
           wrapperSetWrapperState(56);
           wrapperData->exitCode = 1;
@@ -10127,23 +10127,23 @@ void jStateLaunched(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1388
 void jStateLaunching(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$3;
-  signed int return_value_wrapperGetProcessStatus$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_wrapperGetProcessStatus_2;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$2=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$3 = return_value_wrapperGetProcessStatus$2 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_2=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_3 = return_value_wrapperGetProcessStatus_2 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  signed int return_value_wrapperGetTickAgeSeconds$1;
-  if(!tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  signed int return_value_wrapperGetTickAgeSeconds_1;
+  if(!tmp_if_expr_3)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      if(return_value_wrapperGetTickAgeSeconds$1 >= 0)
+      return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      if(return_value_wrapperGetTickAgeSeconds_1 >= 0)
       {
         if(!(wrapperData->debugJVM == 0))
           handleDebugJVMTimeout(nowTicks, L"Startup: Timed out waiting for a signal from the JVM.", L"startup");
@@ -10166,19 +10166,19 @@ void jStateLaunching(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1319
 void jStateRestart(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(wrapperData->wState == 51)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = wrapperData->wState == 52 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = wrapperData->wState == 55 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     wrapperData->jvmRestarts = wrapperData->jvmRestarts + 1;
     wrapperSetJavaState(75, nowTicks, -1);
@@ -10195,30 +10195,30 @@ void jStateStarted(unsigned int nowTicks, signed int nextSleep)
   signed int ret;
   signed int protocolMessage[16l];
   struct PendingPing *pendingPing;
-  _Bool tmp_if_expr$11;
-  signed int return_value_wrapperGetProcessStatus$10;
+  _Bool tmp_if_expr_11;
+  signed int return_value_wrapperGetProcessStatus_10;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$10=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$11 = return_value_wrapperGetProcessStatus$10 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_10=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_11 = return_value_wrapperGetProcessStatus_10 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  signed int return_value_wrapperGetTickAgeSeconds$1;
-  _Bool tmp_if_expr$9;
-  signed int return_value_wrapperGetTickAgeSeconds$8;
-  unsigned int return_value_wrapperAddToTicks$6;
-  signed int return_value_wrapperGetTickAgeSeconds$7;
-  _Bool tmp_if_expr$5;
-  if(!tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  signed int return_value_wrapperGetTickAgeSeconds_1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_wrapperGetTickAgeSeconds_8;
+  unsigned int return_value_wrapperAddToTicks_6;
+  signed int return_value_wrapperGetTickAgeSeconds_7;
+  _Bool tmp_if_expr_5;
+  if(!tmp_if_expr_11)
   {
     if(!(wrapperData->firstUnwarnedPendingPing == ((struct PendingPing *)NULL)))
     {
       if(wrapperData->pingAlertThreshold >= 1)
       {
-        return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->firstUnwarnedPendingPing->slowTicks, nowTicks);
-        if(return_value_wrapperGetTickAgeSeconds$1 >= 0)
+        return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->firstUnwarnedPendingPing->slowTicks, nowTicks);
+        if(return_value_wrapperGetTickAgeSeconds_1 >= 0)
         {
           wrapperPingSlow();
           wrapperData->firstUnwarnedPendingPing = wrapperData->firstUnwarnedPendingPing->nextPendingPing;
@@ -10230,13 +10230,13 @@ void jStateStarted(unsigned int nowTicks, signed int nextSleep)
 
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$8=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      tmp_if_expr$9 = return_value_wrapperGetTickAgeSeconds$8 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wrapperGetTickAgeSeconds_8=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      tmp_if_expr_9 = return_value_wrapperGetTickAgeSeconds_8 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
     {
       if(!(wrapperData->debugJVM == 0))
         handleDebugJVMTimeout(nowTicks, L"Ping: Timed out waiting for signal from JVM.", L"ping");
@@ -10252,15 +10252,15 @@ void jStateStarted(unsigned int nowTicks, signed int nextSleep)
 
     else
     {
-      return_value_wrapperAddToTicks$6=wrapperAddToTicks(wrapperData->lastPingTicks, wrapperData->pingInterval);
-      return_value_wrapperGetTickAgeSeconds$7=wrapperGetTickAgeSeconds(return_value_wrapperAddToTicks$6, nowTicks);
-      if(return_value_wrapperGetTickAgeSeconds$7 >= 0)
+      return_value_wrapperAddToTicks_6=wrapperAddToTicks(wrapperData->lastPingTicks, wrapperData->pingInterval);
+      return_value_wrapperGetTickAgeSeconds_7=wrapperGetTickAgeSeconds(return_value_wrapperAddToTicks_6, nowTicks);
+      if(return_value_wrapperGetTickAgeSeconds_7 >= 0)
       {
-        unsigned int return_value_wrapperAddToTicks$2;
-        return_value_wrapperAddToTicks$2=wrapperAddToTicks(wrapperData->lastLoggedPingTicks, wrapperData->pingIntervalLogged);
-        signed int return_value_wrapperGetTickAgeSeconds$3;
-        return_value_wrapperGetTickAgeSeconds$3=wrapperGetTickAgeSeconds(return_value_wrapperAddToTicks$2, nowTicks);
-        if(return_value_wrapperGetTickAgeSeconds$3 >= 0)
+        unsigned int return_value_wrapperAddToTicks_2;
+        return_value_wrapperAddToTicks_2=wrapperAddToTicks(wrapperData->lastLoggedPingTicks, wrapperData->pingIntervalLogged);
+        signed int return_value_wrapperGetTickAgeSeconds_3;
+        return_value_wrapperGetTickAgeSeconds_3=wrapperGetTickAgeSeconds(return_value_wrapperAddToTicks_2, nowTicks);
+        if(return_value_wrapperGetTickAgeSeconds_3 >= 0)
         {
           if(!(wrapperData->isLoopOutputEnabled == 0))
             log_printf(-1, 3, L"    Loop: Sending a ping packet.");
@@ -10288,11 +10288,11 @@ void jStateStarted(unsigned int nowTicks, signed int nextSleep)
         else
         {
           if(!(wrapperData->pendingPingQueueOverflow == 0))
-            tmp_if_expr$5 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
           {
             if(wrapperData->pendingPingCount >= 10)
             {
@@ -10305,9 +10305,9 @@ void jStateStarted(unsigned int nowTicks, signed int nextSleep)
 
             else
             {
-              void *return_value_malloc$4;
-              return_value_malloc$4=malloc(sizeof(struct PendingPing) /*24ul*/ );
-              pendingPing = (struct PendingPing *)return_value_malloc$4;
+              void *return_value_malloc_4;
+              return_value_malloc_4=malloc(sizeof(struct PendingPing) /*24ul*/ );
+              pendingPing = (struct PendingPing *)return_value_malloc_4;
               if(pendingPing == ((struct PendingPing *)NULL))
                 outOfMemory(L"JSS", 1);
 
@@ -10361,29 +10361,29 @@ void jStateStarted(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1467
 void jStateStarting(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_wrapperGetProcessStatus$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_wrapperGetProcessStatus_3;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$3=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$4 = return_value_wrapperGetProcessStatus$3 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_3=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_4 = return_value_wrapperGetProcessStatus_3 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_wrapperGetTickAgeSeconds$1;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  signed int return_value_wrapperGetTickAgeSeconds_1;
+  if(!tmp_if_expr_4)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      tmp_if_expr$2 = return_value_wrapperGetTickAgeSeconds$1 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      tmp_if_expr_2 = return_value_wrapperGetTickAgeSeconds_1 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!(wrapperData->debugJVM == 0))
         handleDebugJVMTimeout(nowTicks, L"Startup: Timed out waiting for a signal from the JVM.", L"startup");
@@ -10404,17 +10404,17 @@ void jStateStarting(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1632
 void jStateStop(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_wrapperGetProcessStatus$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_wrapperGetProcessStatus_1;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$1=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$2 = return_value_wrapperGetProcessStatus$1 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_1=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_2 = return_value_wrapperGetProcessStatus_1 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(!tmp_if_expr_2)
   {
     wrapperProtocolFunction((char)101, (const signed int *)(void *)0);
     if(wrapperData->shutdownTimeout >= 1)
@@ -10430,29 +10430,29 @@ void jStateStop(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1698
 void jStateStopped(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_wrapperGetProcessStatus$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_wrapperGetProcessStatus_3;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$3=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$4 = return_value_wrapperGetProcessStatus$3 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_3=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_4 = return_value_wrapperGetProcessStatus_3 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_wrapperGetTickAgeSeconds$1;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  signed int return_value_wrapperGetTickAgeSeconds_1;
+  if(!tmp_if_expr_4)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      tmp_if_expr$2 = return_value_wrapperGetTickAgeSeconds$1 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      tmp_if_expr_2 = return_value_wrapperGetTickAgeSeconds_1 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!(wrapperData->debugJVM == 0))
         handleDebugJVMTimeout(nowTicks, L"Shutdown: Timed out waiting for the JVM to terminate.", L"JVM exit");
@@ -10472,29 +10472,29 @@ void jStateStopped(unsigned int nowTicks, signed int nextSleep)
 // file wrappereventloop.c line 1661
 void jStateStopping(unsigned int nowTicks, signed int nextSleep)
 {
-  _Bool tmp_if_expr$4;
-  signed int return_value_wrapperGetProcessStatus$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_wrapperGetProcessStatus_3;
   if(!(nextSleep == 0))
   {
-    return_value_wrapperGetProcessStatus$3=wrapperGetProcessStatus(nowTicks, 0);
-    tmp_if_expr$4 = return_value_wrapperGetProcessStatus$3 == 200 ? (_Bool)1 : (_Bool)0;
+    return_value_wrapperGetProcessStatus_3=wrapperGetProcessStatus(nowTicks, 0);
+    tmp_if_expr_4 = return_value_wrapperGetProcessStatus_3 == 200 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_wrapperGetTickAgeSeconds$1;
-  if(!tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  signed int return_value_wrapperGetTickAgeSeconds_1;
+  if(!tmp_if_expr_4)
   {
     if(!(wrapperData->jStateTimeoutTicksSet == 0))
     {
-      return_value_wrapperGetTickAgeSeconds$1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
-      tmp_if_expr$2 = return_value_wrapperGetTickAgeSeconds$1 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wrapperGetTickAgeSeconds_1=wrapperGetTickAgeSeconds(wrapperData->jStateTimeoutTicks, nowTicks);
+      tmp_if_expr_2 = return_value_wrapperGetTickAgeSeconds_1 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!(wrapperData->debugJVM == 0))
         handleDebugJVMTimeout(nowTicks, L"Shutdown: Timed out waiting for a signal from the JVM.", L"shutdown");
@@ -10514,7 +10514,7 @@ void jStateStopping(unsigned int nowTicks, signed int nextSleep)
 // file wrapper_unix.c line 668
 void * javaIORunner(void *arg)
 {
-  struct anonymous$1 signal_mask;
+  struct anonymous_1 signal_mask;
   signed int nextSleep;
   signed int rc;
   javaIOThreadStarted = -1;
@@ -10527,7 +10527,7 @@ void * javaIORunner(void *arg)
   sigaddset(&signal_mask, 1);
   sigaddset(&signal_mask, 10);
   sigaddset(&signal_mask, 12);
-  rc=pthread_sigmask(0, &signal_mask, (struct anonymous$1 *)(void *)0);
+  rc=pthread_sigmask(0, &signal_mask, (struct anonymous_1 *)(void *)0);
   if(!(rc == 0))
     log_printf(-1, 5, L"Could not mask signals for javaIO thread.");
 
@@ -10547,9 +10547,9 @@ void * javaIORunner(void *arg)
       wrapperData->pauseThreadJavaIO = 0;
     }
 
-    signed int return_value_wrapperReadChildOutput$1;
-    return_value_wrapperReadChildOutput$1=wrapperReadChildOutput(0);
-    if(!(return_value_wrapperReadChildOutput$1 == 0))
+    signed int return_value_wrapperReadChildOutput_1;
+    return_value_wrapperReadChildOutput_1=wrapperReadChildOutput(0);
+    if(!(return_value_wrapperReadChildOutput_1 == 0))
     {
       if(!(wrapperData->isDebugging == 0))
         log_printf(-1, 1, L"Pause reading child process output to share cycles.");
@@ -10573,7 +10573,7 @@ void limitLogFileCount(const signed int *current, const signed int *pattern, sig
   signed int index;
   signed int foundCurrent;
   files=loggerFileGetFiles(pattern, sortMode);
-  signed int return_value__tremove$3;
+  signed int return_value__tremove_3;
   if(!(files == ((signed int **)NULL)))
   {
     foundCurrent = 0;
@@ -10581,18 +10581,18 @@ void limitLogFileCount(const signed int *current, const signed int *pattern, sig
     for( ; !(files[(signed long int)index] == ((signed int *)NULL)); index = index + 1)
       if(!(index >= count))
       {
-        signed int return_value_wcscmp$1;
-        return_value_wcscmp$1=wcscmp(current, files[(signed long int)index]);
-        if(return_value_wcscmp$1 == 0)
+        signed int return_value_wcscmp_1;
+        return_value_wcscmp_1=wcscmp(current, files[(signed long int)index]);
+        if(return_value_wcscmp_1 == 0)
           foundCurrent = -1;
 
       }
 
       else
       {
-        signed int return_value_wcscmp$4;
-        return_value_wcscmp$4=wcscmp(current, files[(signed long int)index]);
-        if(return_value_wcscmp$4 == 0)
+        signed int return_value_wcscmp_4;
+        return_value_wcscmp_4=wcscmp(current, files[(signed long int)index]);
+        if(return_value_wcscmp_4 == 0)
         {
           _tprintf(L"Log file sort order would result in current log file being deleted: %s\n", current);
           foundCurrent = -1;
@@ -10600,12 +10600,12 @@ void limitLogFileCount(const signed int *current, const signed int *pattern, sig
 
         else
         {
-          return_value__tremove$3=_tremove(files[(signed long int)index]);
-          if(!(return_value__tremove$3 == 0))
+          return_value__tremove_3=_tremove(files[(signed long int)index]);
+          if(!(return_value__tremove_3 == 0))
           {
-            const signed int *return_value_getLastErrorText$2;
-            return_value_getLastErrorText$2=getLastErrorText();
-            _tprintf(L"Unable to delete old log file: %s (%s)\n", files[(signed long int)index], return_value_getLastErrorText$2);
+            const signed int *return_value_getLastErrorText_2;
+            return_value_getLastErrorText_2=getLastErrorText();
+            _tprintf(L"Unable to delete old log file: %s (%s)\n", files[(signed long int)index], return_value_getLastErrorText_2);
           }
 
         }
@@ -10614,13 +10614,13 @@ void limitLogFileCount(const signed int *current, const signed int *pattern, sig
     {
       if(index >= count)
       {
-        signed int return_value__tremove$6;
-        return_value__tremove$6=_tremove(files[(signed long int)(count - 1)]);
-        if(!(return_value__tremove$6 == 0))
+        signed int return_value__tremove_6;
+        return_value__tremove_6=_tremove(files[(signed long int)(count - 1)]);
+        if(!(return_value__tremove_6 == 0))
         {
-          const signed int *return_value_getLastErrorText$5;
-          return_value_getLastErrorText$5=getLastErrorText();
-          _tprintf(L"Unable to delete old log file: %s (%s)\n", files[(signed long int)(count - 1)], return_value_getLastErrorText$5);
+          const signed int *return_value_getLastErrorText_5;
+          return_value_getLastErrorText_5=getLastErrorText();
+          _tprintf(L"Unable to delete old log file: %s (%s)\n", files[(signed long int)(count - 1)], return_value_getLastErrorText_5);
         }
 
       }
@@ -10646,13 +10646,13 @@ extern signed int * linearizeProperties(struct Properties *properties, signed in
   property = properties->first;
   while(!(property == ((struct Property *)NULL)))
   {
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(property->name);
-    size = size + return_value_wcslen$1;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(property->name);
+    size = size + return_value_wcslen_1;
     size = size + 1ul;
-    unsigned long int return_value_wcslen$2;
-    return_value_wcslen$2=wcslen(property->value);
-    size = size + return_value_wcslen$2;
+    unsigned long int return_value_wcslen_2;
+    return_value_wcslen_2=wcslen(property->value);
+    size = size + return_value_wcslen_2;
     c = property->name;
     do
     {
@@ -10679,9 +10679,9 @@ extern signed int * linearizeProperties(struct Properties *properties, signed in
     property = property->next;
   }
   size = size + 1ul;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc(sizeof(signed int) /*4ul*/ , size);
-  buffer = (signed int *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc(sizeof(signed int) /*4ul*/ , size);
+  buffer = (signed int *)return_value_calloc_3;
   fullBuffer = buffer;
   if(fullBuffer == ((signed int *)NULL))
   {
@@ -10708,12 +10708,12 @@ extern signed int * linearizeProperties(struct Properties *properties, signed in
         work = c + (signed long int)1;
       }
       while((_Bool)1);
-      unsigned long int return_value_wcslen$4;
-      return_value_wcslen$4=wcslen(fullBuffer);
-      wcsncpy(buffer, work, size - return_value_wcslen$4);
-      unsigned long int return_value_wcslen$5;
-      return_value_wcslen$5=wcslen(work);
-      buffer = buffer + (signed long int)return_value_wcslen$5;
+      unsigned long int return_value_wcslen_4;
+      return_value_wcslen_4=wcslen(fullBuffer);
+      wcsncpy(buffer, work, size - return_value_wcslen_4);
+      unsigned long int return_value_wcslen_5;
+      return_value_wcslen_5=wcslen(work);
+      buffer = buffer + (signed long int)return_value_wcslen_5;
       buffer[(signed long int)0] = 61;
       buffer = buffer + 1l;
       work = property->value;
@@ -10730,12 +10730,12 @@ extern signed int * linearizeProperties(struct Properties *properties, signed in
         work = c + (signed long int)1;
       }
       while((_Bool)1);
-      unsigned long int return_value_wcslen$6;
-      return_value_wcslen$6=wcslen(fullBuffer);
-      wcsncpy(buffer, work, size - return_value_wcslen$6);
-      unsigned long int return_value_wcslen$7;
-      return_value_wcslen$7=wcslen(work);
-      buffer = buffer + (signed long int)return_value_wcslen$7;
+      unsigned long int return_value_wcslen_6;
+      return_value_wcslen_6=wcslen(fullBuffer);
+      wcsncpy(buffer, work, size - return_value_wcslen_6);
+      unsigned long int return_value_wcslen_7;
+      return_value_wcslen_7=wcslen(work);
+      buffer = buffer + (signed long int)return_value_wcslen_7;
       buffer[(signed long int)0] = separator;
       buffer = buffer + 1l;
       property = property->next;
@@ -10769,40 +10769,40 @@ signed int loadConfiguration()
   maintainLogger();
   maintainLogger();
   wrapperData->exitCode = 0;
-  const signed int *return_value_getStringProperty$1;
-  return_value_getStringProperty$1=getStringProperty(properties, L"wrapper.port.address", (const signed int *)(void *)0);
-  updateStringValue(&wrapperData->portAddress, return_value_getStringProperty$1);
+  const signed int *return_value_getStringProperty_1;
+  return_value_getStringProperty_1=getStringProperty(properties, L"wrapper.port.address", (const signed int *)(void *)0);
+  updateStringValue(&wrapperData->portAddress, return_value_getStringProperty_1);
   wrapperData->port=getIntProperty(properties, L"wrapper.port", 0);
   wrapperData->portMin=getIntProperty(properties, L"wrapper.port.min", 32000);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(wrapperData->portMin >= 1))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = wrapperData->portMin > 65535 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = wrapperData->portMin > 65535 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     wrapperData->portMin = 32000;
     log_printf(-1, 4, L"%s must be in the range %d to %d.  Changing to %d.", (const void *)L"wrapper.port.min", 1, 65535, wrapperData->portMin);
   }
 
   wrapperData->portMax=getIntProperty(properties, L"wrapper.port.max", 32999);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(wrapperData->portMax >= 1))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = wrapperData->portMax > 65535 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = wrapperData->portMax > 65535 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  if(tmp_if_expr_5)
   {
     if(!(999 + wrapperData->portMin >= 65535))
-      tmp_if_expr$3 = wrapperData->portMin + 999;
+      tmp_if_expr_3 = wrapperData->portMin + 999;
 
     else
-      tmp_if_expr$3 = 65535;
-    wrapperData->portMax = tmp_if_expr$3;
+      tmp_if_expr_3 = 65535;
+    wrapperData->portMax = tmp_if_expr_3;
     log_printf(-1, 4, L"%s must be in the range %d to %d.  Changing to %d.", (const void *)L"wrapper.port.max", 1, 65535, wrapperData->portMax);
   }
 
@@ -10810,11 +10810,11 @@ signed int loadConfiguration()
     if(!(wrapperData->portMax >= wrapperData->portMin))
     {
       if(!(999 + wrapperData->portMin >= 65535))
-        tmp_if_expr$4 = wrapperData->portMin + 999;
+        tmp_if_expr_4 = wrapperData->portMin + 999;
 
       else
-        tmp_if_expr$4 = 65535;
-      wrapperData->portMax = tmp_if_expr$4;
+        tmp_if_expr_4 = 65535;
+      wrapperData->portMax = tmp_if_expr_4;
       log_printf(-1, 4, L"%s must be greater than or equal to %s.  Changing to %d.", (const void *)L"wrapper.port.max", (const void *)L"wrapper.port.min", wrapperData->portMax);
     }
 
@@ -10830,35 +10830,35 @@ signed int loadConfiguration()
   }
 
   wrapperData->jvmPortMin=getIntProperty(properties, L"wrapper.jvm.port.min", 31000);
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(!(wrapperData->jvmPortMin >= 1))
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = wrapperData->jvmPortMin > 65535 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = wrapperData->jvmPortMin > 65535 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_6)
   {
     wrapperData->jvmPortMin = 31000;
     log_printf(-1, 4, L"%s must be in the range %d to %d.  Changing to %d.", (const void *)L"wrapper.jvm.port.min", 1, 65535, wrapperData->jvmPortMin);
   }
 
   wrapperData->jvmPortMax=getIntProperty(properties, L"wrapper.jvm.port.max", 31999);
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(!(wrapperData->jvmPortMax >= 1))
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = wrapperData->jvmPortMax > 65535 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = wrapperData->jvmPortMax > 65535 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
+  if(tmp_if_expr_9)
   {
     if(!(999 + wrapperData->jvmPortMin >= 65535))
-      tmp_if_expr$7 = wrapperData->jvmPortMin + 999;
+      tmp_if_expr_7 = wrapperData->jvmPortMin + 999;
 
     else
-      tmp_if_expr$7 = 65535;
-    wrapperData->jvmPortMax = tmp_if_expr$7;
+      tmp_if_expr_7 = 65535;
+    wrapperData->jvmPortMax = tmp_if_expr_7;
     log_printf(-1, 4, L"%s must be in the range %d to %d.  Changing to %d.", (const void *)L"wrapper.jvm.port.max", 1, 65535, wrapperData->jvmPortMax);
   }
 
@@ -10866,18 +10866,18 @@ signed int loadConfiguration()
     if(!(wrapperData->jvmPortMax >= wrapperData->jvmPortMin))
     {
       if(!(999 + wrapperData->jvmPortMin >= 65535))
-        tmp_if_expr$8 = wrapperData->jvmPortMin + 999;
+        tmp_if_expr_8 = wrapperData->jvmPortMin + 999;
 
       else
-        tmp_if_expr$8 = 65535;
-      wrapperData->jvmPortMax = tmp_if_expr$8;
+        tmp_if_expr_8 = 65535;
+      wrapperData->jvmPortMax = tmp_if_expr_8;
       log_printf(-1, 4, L"%s must be greater than or equal to %s.  Changing to %d.", (const void *)L"wrapper.jvm.port.max", (const void *)L"wrapper.jvm.port.min", wrapperData->jvmPortMax);
     }
 
   wrapperData->printJVMVersion=getBooleanProperty(properties, L"wrapper.java.version.output", 0);
-  const signed int *return_value_getStringProperty$10;
-  return_value_getStringProperty$10=getStringProperty(properties, L"wrapper.java.command.loglevel", L"DEBUG");
-  wrapperData->commandLogLevel=getLogLevelForName(return_value_getStringProperty$10);
+  const signed int *return_value_getStringProperty_10;
+  return_value_getStringProperty_10=getStringProperty(properties, L"wrapper.java.command.loglevel", L"DEBUG");
+  wrapperData->commandLogLevel=getLogLevelForName(return_value_getStringProperty_10);
   if(wrapperData->commandLogLevel >= 9)
     wrapperData->commandLogLevel = 1;
 
@@ -10899,20 +10899,20 @@ signed int loadConfiguration()
 
   if(wrapperData->configured == 0)
   {
-    signed int return_value_getBooleanProperty$11;
-    return_value_getBooleanProperty$11=getBooleanProperty(properties, L"wrapper.use_javaio_thread", 0);
-    wrapperData->useJavaIOThread=getBooleanProperty(properties, L"wrapper.javaio.use_thread", return_value_getBooleanProperty$11);
+    signed int return_value_getBooleanProperty_11;
+    return_value_getBooleanProperty_11=getBooleanProperty(properties, L"wrapper.use_javaio_thread", 0);
+    wrapperData->useJavaIOThread=getBooleanProperty(properties, L"wrapper.javaio.use_thread", return_value_getBooleanProperty_11);
   }
 
   if(wrapperData->configured == 0)
     wrapperData->useTickMutex=getBooleanProperty(properties, L"wrapper.use_tick_mutex", 0);
 
-  signed int return_value_getIntProperty$12;
-  return_value_getIntProperty$12=getIntProperty(properties, L"wrapper.timer_fast_threshold", (((2 * 24 * 3600 * 1000) / 100) * 100) / 1000);
-  wrapperData->timerFastThreshold = (return_value_getIntProperty$12 * 1000) / 100;
-  signed int return_value_getIntProperty$13;
-  return_value_getIntProperty$13=getIntProperty(properties, L"wrapper.timer_slow_threshold", (((2 * 24 * 3600 * 1000) / 100) * 100) / 1000);
-  wrapperData->timerSlowThreshold = (return_value_getIntProperty$13 * 1000) / 100;
+  signed int return_value_getIntProperty_12;
+  return_value_getIntProperty_12=getIntProperty(properties, L"wrapper.timer_fast_threshold", (((2 * 24 * 3600 * 1000) / 100) * 100) / 1000);
+  wrapperData->timerFastThreshold = (return_value_getIntProperty_12 * 1000) / 100;
+  signed int return_value_getIntProperty_13;
+  return_value_getIntProperty_13=getIntProperty(properties, L"wrapper.timer_slow_threshold", (((2 * 24 * 3600 * 1000) / 100) * 100) / 1000);
+  wrapperData->timerSlowThreshold = (return_value_getIntProperty_13 * 1000) / 100;
   wrapperData->nativeLibrary=getStringProperty(properties, L"wrapper.native_library", L"wrapper");
   wrapperData->libraryPathAppendPath=getBooleanProperty(properties, L"wrapper.java.library.path.append_system_path", 0);
   wrapperData->isStateOutputEnabled=getBooleanProperty(properties, L"wrapper.state_output", 0);
@@ -10954,19 +10954,19 @@ signed int loadConfiguration()
   if(!(wrapperData->pingActionList == ((signed int *)NULL)))
     free((void *)wrapperData->pingActionList);
 
-  const signed int *return_value_getStringProperty$14;
-  return_value_getStringProperty$14=getStringProperty(properties, L"wrapper.ping.timeout.action", L"RESTART");
-  wrapperData->pingActionList=wrapperGetActionListForNames(return_value_getStringProperty$14, L"wrapper.ping.timeout.action");
-  signed int tmp_if_expr$15;
+  const signed int *return_value_getStringProperty_14;
+  return_value_getStringProperty_14=getStringProperty(properties, L"wrapper.ping.timeout.action", L"RESTART");
+  wrapperData->pingActionList=wrapperGetActionListForNames(return_value_getStringProperty_14, L"wrapper.ping.timeout.action");
+  signed int tmp_if_expr_15;
   if(!(wrapperData->pingTimeout / 4 >= 1))
-    tmp_if_expr$15 = 1;
+    tmp_if_expr_15 = 1;
 
   else
-    tmp_if_expr$15 = wrapperData->pingTimeout / 4;
-  wrapperData->pingAlertThreshold=getIntProperty(properties, L"wrapper.ping.alert.threshold", tmp_if_expr$15);
-  const signed int *return_value_getStringProperty$16;
-  return_value_getStringProperty$16=getStringProperty(properties, L"wrapper.ping.alert.loglevel", L"STATUS");
-  wrapperData->pingAlertLogLevel=getLogLevelForName(return_value_getStringProperty$16);
+    tmp_if_expr_15 = wrapperData->pingTimeout / 4;
+  wrapperData->pingAlertThreshold=getIntProperty(properties, L"wrapper.ping.alert.threshold", tmp_if_expr_15);
+  const signed int *return_value_getStringProperty_16;
+  return_value_getStringProperty_16=getStringProperty(properties, L"wrapper.ping.alert.loglevel", L"STATUS");
+  wrapperData->pingAlertLogLevel=getLogLevelForName(return_value_getStringProperty_16);
   wrapperData->pingInterval=getIntProperty(properties, L"wrapper.ping.interval", 5);
   wrapperData->pingIntervalLogged=getIntProperty(properties, L"wrapper.ping.interval.logged", 1);
   wrapperData->shutdownTimeout=getIntProperty(properties, L"wrapper.shutdown.timeout", 30);
@@ -11071,101 +11071,101 @@ signed int loadConfiguration()
     log_printf(-1, 5, L"The value of %s must be at least %d second(s).  Changing to %d.", (const void *)L"wrapper.request_thread_dump_on_failed_jvm_exit.delay", 1, wrapperData->requestThreadDumpOnFailedJVMExitDelay);
   }
 
-  signed int return_value_loadConfigurationTriggers$17;
-  return_value_loadConfigurationTriggers$17=loadConfigurationTriggers();
-  _Bool tmp_if_expr$34;
-  signed int return_value_wcscasecmp$33;
-  signed int return_value_wcscasecmp$31;
-  signed int return_value_wcscasecmp$30;
-  if(!(return_value_loadConfigurationTriggers$17 == 0))
+  signed int return_value_loadConfigurationTriggers_17;
+  return_value_loadConfigurationTriggers_17=loadConfigurationTriggers();
+  _Bool tmp_if_expr_34;
+  signed int return_value_wcscasecmp_33;
+  signed int return_value_wcscasecmp_31;
+  signed int return_value_wcscasecmp_30;
+  if(!(return_value_loadConfigurationTriggers_17 == 0))
     return -1;
 
   else
   {
     if(wrapperData->configured == 0)
     {
-      const signed int *return_value_getFileSafeStringProperty$18;
-      return_value_getFileSafeStringProperty$18=getFileSafeStringProperty(properties, L"wrapper.pidfile", (const signed int *)(void *)0);
-      updateStringValue(&wrapperData->pidFilename, return_value_getFileSafeStringProperty$18);
+      const signed int *return_value_getFileSafeStringProperty_18;
+      return_value_getFileSafeStringProperty_18=getFileSafeStringProperty(properties, L"wrapper.pidfile", (const signed int *)(void *)0);
+      updateStringValue(&wrapperData->pidFilename, return_value_getFileSafeStringProperty_18);
       wrapperCorrectWindowsPath(wrapperData->pidFilename);
     }
 
     wrapperData->pidFileStrict=getBooleanProperty(properties, L"wrapper.pidfile.strict", 0);
-    const signed int *return_value_getFileSafeStringProperty$19;
-    return_value_getFileSafeStringProperty$19=getFileSafeStringProperty(properties, L"wrapper.java.pidfile", (const signed int *)(void *)0);
-    updateStringValue(&wrapperData->javaPidFilename, return_value_getFileSafeStringProperty$19);
+    const signed int *return_value_getFileSafeStringProperty_19;
+    return_value_getFileSafeStringProperty_19=getFileSafeStringProperty(properties, L"wrapper.java.pidfile", (const signed int *)(void *)0);
+    updateStringValue(&wrapperData->javaPidFilename, return_value_getFileSafeStringProperty_19);
     wrapperCorrectWindowsPath(wrapperData->javaPidFilename);
     if(wrapperData->configured == 0)
     {
-      const signed int *return_value_getFileSafeStringProperty$20;
-      return_value_getFileSafeStringProperty$20=getFileSafeStringProperty(properties, L"wrapper.lockfile", (const signed int *)(void *)0);
-      updateStringValue(&wrapperData->lockFilename, return_value_getFileSafeStringProperty$20);
+      const signed int *return_value_getFileSafeStringProperty_20;
+      return_value_getFileSafeStringProperty_20=getFileSafeStringProperty(properties, L"wrapper.lockfile", (const signed int *)(void *)0);
+      updateStringValue(&wrapperData->lockFilename, return_value_getFileSafeStringProperty_20);
       wrapperCorrectWindowsPath(wrapperData->lockFilename);
     }
 
-    const signed int *return_value_getFileSafeStringProperty$21;
-    return_value_getFileSafeStringProperty$21=getFileSafeStringProperty(properties, L"wrapper.java.idfile", (const signed int *)(void *)0);
-    updateStringValue(&wrapperData->javaIdFilename, return_value_getFileSafeStringProperty$21);
+    const signed int *return_value_getFileSafeStringProperty_21;
+    return_value_getFileSafeStringProperty_21=getFileSafeStringProperty(properties, L"wrapper.java.idfile", (const signed int *)(void *)0);
+    updateStringValue(&wrapperData->javaIdFilename, return_value_getFileSafeStringProperty_21);
     wrapperCorrectWindowsPath(wrapperData->javaIdFilename);
     if(wrapperData->configured == 0)
     {
-      const signed int *return_value_getFileSafeStringProperty$22;
-      return_value_getFileSafeStringProperty$22=getFileSafeStringProperty(properties, L"wrapper.statusfile", (const signed int *)(void *)0);
-      updateStringValue(&wrapperData->statusFilename, return_value_getFileSafeStringProperty$22);
+      const signed int *return_value_getFileSafeStringProperty_22;
+      return_value_getFileSafeStringProperty_22=getFileSafeStringProperty(properties, L"wrapper.statusfile", (const signed int *)(void *)0);
+      updateStringValue(&wrapperData->statusFilename, return_value_getFileSafeStringProperty_22);
       wrapperCorrectWindowsPath(wrapperData->statusFilename);
     }
 
-    const signed int *return_value_getFileSafeStringProperty$23;
-    return_value_getFileSafeStringProperty$23=getFileSafeStringProperty(properties, L"wrapper.java.statusfile", (const signed int *)(void *)0);
-    updateStringValue(&wrapperData->javaStatusFilename, return_value_getFileSafeStringProperty$23);
+    const signed int *return_value_getFileSafeStringProperty_23;
+    return_value_getFileSafeStringProperty_23=getFileSafeStringProperty(properties, L"wrapper.java.statusfile", (const signed int *)(void *)0);
+    updateStringValue(&wrapperData->javaStatusFilename, return_value_getFileSafeStringProperty_23);
     wrapperCorrectWindowsPath(wrapperData->javaStatusFilename);
-    const signed int *return_value_getFileSafeStringProperty$24;
-    return_value_getFileSafeStringProperty$24=getFileSafeStringProperty(properties, L"wrapper.commandfile", (const signed int *)(void *)0);
-    updateStringValue(&wrapperData->commandFilename, return_value_getFileSafeStringProperty$24);
+    const signed int *return_value_getFileSafeStringProperty_24;
+    return_value_getFileSafeStringProperty_24=getFileSafeStringProperty(properties, L"wrapper.commandfile", (const signed int *)(void *)0);
+    updateStringValue(&wrapperData->commandFilename, return_value_getFileSafeStringProperty_24);
     wrapperCorrectWindowsPath(wrapperData->commandFilename);
     wrapperData->commandFileTests=getBooleanProperty(properties, L"wrapper.commandfile.enable_tests", 0);
-    signed int return_value_getIntProperty$25;
-    return_value_getIntProperty$25=getIntProperty(properties, L"wrapper.command.poll_interval", 5);
-    signed int return_value_propIntMax$26;
-    return_value_propIntMax$26=propIntMax(return_value_getIntProperty$25, 1);
-    wrapperData->commandPollInterval=propIntMin(return_value_propIntMax$26, 3600);
+    signed int return_value_getIntProperty_25;
+    return_value_getIntProperty_25=getIntProperty(properties, L"wrapper.command.poll_interval", 5);
+    signed int return_value_propIntMax_26;
+    return_value_propIntMax_26=propIntMax(return_value_getIntProperty_25, 1);
+    wrapperData->commandPollInterval=propIntMin(return_value_propIntMax_26, 3600);
     if(wrapperData->configured == 0)
     {
-      const signed int *return_value_getFileSafeStringProperty$27;
-      return_value_getFileSafeStringProperty$27=getFileSafeStringProperty(properties, L"wrapper.anchorfile", (const signed int *)(void *)0);
-      updateStringValue(&wrapperData->anchorFilename, return_value_getFileSafeStringProperty$27);
+      const signed int *return_value_getFileSafeStringProperty_27;
+      return_value_getFileSafeStringProperty_27=getFileSafeStringProperty(properties, L"wrapper.anchorfile", (const signed int *)(void *)0);
+      updateStringValue(&wrapperData->anchorFilename, return_value_getFileSafeStringProperty_27);
       wrapperCorrectWindowsPath(wrapperData->anchorFilename);
     }
 
-    signed int return_value_getIntProperty$28;
-    return_value_getIntProperty$28=getIntProperty(properties, L"wrapper.anchor.poll_interval", 5);
-    signed int return_value_propIntMax$29;
-    return_value_propIntMax$29=propIntMax(return_value_getIntProperty$28, 1);
-    wrapperData->anchorPollInterval=propIntMin(return_value_propIntMax$29, 3600);
+    signed int return_value_getIntProperty_28;
+    return_value_getIntProperty_28=getIntProperty(properties, L"wrapper.anchor.poll_interval", 5);
+    signed int return_value_propIntMax_29;
+    return_value_propIntMax_29=propIntMax(return_value_getIntProperty_28, 1);
+    wrapperData->anchorPollInterval=propIntMin(return_value_propIntMax_29, 3600);
     val=getStringProperty(properties, L"wrapper.ignore_signals", L"FALSE");
-    signed int return_value_wcscasecmp$32;
-    return_value_wcscasecmp$32=wcscasecmp(val, L"TRUE");
-    if(return_value_wcscasecmp$32 == 0)
-      tmp_if_expr$34 = (_Bool)1;
+    signed int return_value_wcscasecmp_32;
+    return_value_wcscasecmp_32=wcscasecmp(val, L"TRUE");
+    if(return_value_wcscasecmp_32 == 0)
+      tmp_if_expr_34 = (_Bool)1;
 
     else
     {
-      return_value_wcscasecmp$33=wcscasecmp(val, L"BOTH");
-      tmp_if_expr$34 = return_value_wcscasecmp$33 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wcscasecmp_33=wcscasecmp(val, L"BOTH");
+      tmp_if_expr_34 = return_value_wcscasecmp_33 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$34)
+    if(tmp_if_expr_34)
       wrapperData->ignoreSignals = 1 + 2;
 
     else
     {
-      return_value_wcscasecmp$31=wcscasecmp(val, L"WRAPPER");
-      if(return_value_wcscasecmp$31 == 0)
+      return_value_wcscasecmp_31=wcscasecmp(val, L"WRAPPER");
+      if(return_value_wcscasecmp_31 == 0)
         wrapperData->ignoreSignals = 1;
 
       else
       {
-        return_value_wcscasecmp$30=wcscasecmp(val, L"JAVA");
-        if(return_value_wcscasecmp$30 == 0)
+        return_value_wcscasecmp_30=wcscasecmp(val, L"JAVA");
+        if(return_value_wcscasecmp_30 == 0)
           wrapperData->ignoreSignals = 2;
 
         else
@@ -11173,51 +11173,51 @@ signed int loadConfiguration()
       }
     }
     _sntprintf(propName, (unsigned long int)256, L"wrapper.console.title.%s", wrapperOS);
-    const signed int *return_value_getStringProperty$35;
-    return_value_getStringProperty$35=getStringProperty(properties, L"wrapper.console.title", (const signed int *)(void *)0);
-    const signed int *return_value_getStringProperty$36;
-    return_value_getStringProperty$36=getStringProperty(properties, propName, return_value_getStringProperty$35);
-    updateStringValue(&wrapperData->consoleTitle, return_value_getStringProperty$36);
-    const signed int *return_value_getStringProperty$37;
-    return_value_getStringProperty$37=getStringProperty(properties, L"wrapper.ntservice.name", L"wrapper");
-    const signed int *return_value_getStringProperty$38;
-    return_value_getStringProperty$38=getStringProperty(properties, L"wrapper.name", return_value_getStringProperty$37);
-    updateStringValue(&wrapperData->serviceName, return_value_getStringProperty$38);
-    const signed int *return_value_getStringProperty$39;
-    return_value_getStringProperty$39=getStringProperty(properties, L"wrapper.ntservice.displayname", wrapperData->serviceName);
-    const signed int *return_value_getStringProperty$40;
-    return_value_getStringProperty$40=getStringProperty(properties, L"wrapper.displayname", return_value_getStringProperty$39);
-    updateStringValue(&wrapperData->serviceDisplayName, return_value_getStringProperty$40);
-    const signed int *return_value_getStringProperty$41;
-    return_value_getStringProperty$41=getStringProperty(properties, L"wrapper.ntservice.description", wrapperData->serviceDisplayName);
-    const signed int *return_value_getStringProperty$42;
-    return_value_getStringProperty$42=getStringProperty(properties, L"wrapper.description", return_value_getStringProperty$41);
-    updateStringValue(&wrapperData->serviceDescription, return_value_getStringProperty$42);
-    signed int return_value_getBooleanProperty$43;
-    return_value_getBooleanProperty$43=getBooleanProperty(properties, L"wrapper.ntservice.pausable", 0);
-    wrapperData->pausable=getBooleanProperty(properties, L"wrapper.pausable", return_value_getBooleanProperty$43);
-    signed int return_value_getBooleanProperty$44;
-    return_value_getBooleanProperty$44=getBooleanProperty(properties, L"wrapper.ntservice.pausable.stop_jvm", -1);
-    wrapperData->pausableStopJVM=getBooleanProperty(properties, L"wrapper.pausable.stop_jvm", return_value_getBooleanProperty$44);
+    const signed int *return_value_getStringProperty_35;
+    return_value_getStringProperty_35=getStringProperty(properties, L"wrapper.console.title", (const signed int *)(void *)0);
+    const signed int *return_value_getStringProperty_36;
+    return_value_getStringProperty_36=getStringProperty(properties, propName, return_value_getStringProperty_35);
+    updateStringValue(&wrapperData->consoleTitle, return_value_getStringProperty_36);
+    const signed int *return_value_getStringProperty_37;
+    return_value_getStringProperty_37=getStringProperty(properties, L"wrapper.ntservice.name", L"wrapper");
+    const signed int *return_value_getStringProperty_38;
+    return_value_getStringProperty_38=getStringProperty(properties, L"wrapper.name", return_value_getStringProperty_37);
+    updateStringValue(&wrapperData->serviceName, return_value_getStringProperty_38);
+    const signed int *return_value_getStringProperty_39;
+    return_value_getStringProperty_39=getStringProperty(properties, L"wrapper.ntservice.displayname", wrapperData->serviceName);
+    const signed int *return_value_getStringProperty_40;
+    return_value_getStringProperty_40=getStringProperty(properties, L"wrapper.displayname", return_value_getStringProperty_39);
+    updateStringValue(&wrapperData->serviceDisplayName, return_value_getStringProperty_40);
+    const signed int *return_value_getStringProperty_41;
+    return_value_getStringProperty_41=getStringProperty(properties, L"wrapper.ntservice.description", wrapperData->serviceDisplayName);
+    const signed int *return_value_getStringProperty_42;
+    return_value_getStringProperty_42=getStringProperty(properties, L"wrapper.description", return_value_getStringProperty_41);
+    updateStringValue(&wrapperData->serviceDescription, return_value_getStringProperty_42);
+    signed int return_value_getBooleanProperty_43;
+    return_value_getBooleanProperty_43=getBooleanProperty(properties, L"wrapper.ntservice.pausable", 0);
+    wrapperData->pausable=getBooleanProperty(properties, L"wrapper.pausable", return_value_getBooleanProperty_43);
+    signed int return_value_getBooleanProperty_44;
+    return_value_getBooleanProperty_44=getBooleanProperty(properties, L"wrapper.ntservice.pausable.stop_jvm", -1);
+    wrapperData->pausableStopJVM=getBooleanProperty(properties, L"wrapper.pausable.stop_jvm", return_value_getBooleanProperty_44);
     if(wrapperData->configured == 0)
       wrapperData->initiallyPaused=getBooleanProperty(properties, L"wrapper.pause_on_startup", 0);
 
-    signed int return_value_wrapperBuildUnixDaemonInfo$45;
-    return_value_wrapperBuildUnixDaemonInfo$45=wrapperBuildUnixDaemonInfo();
-    if(!(return_value_wrapperBuildUnixDaemonInfo$45 == 0))
+    signed int return_value_wrapperBuildUnixDaemonInfo_45;
+    return_value_wrapperBuildUnixDaemonInfo_45=wrapperBuildUnixDaemonInfo();
+    if(!(return_value_wrapperBuildUnixDaemonInfo_45 == 0))
       return -1;
 
     else
     {
-      const signed int *return_value_getStringProperty$47;
-      return_value_getStringProperty$47=getStringProperty(properties, L"wrapper.script.version", wrapperVersionRoot);
-      signed int return_value_wcscmp$48;
-      return_value_wcscmp$48=wcscmp(wrapperVersionRoot, return_value_getStringProperty$47);
-      if(!(return_value_wcscmp$48 == 0))
+      const signed int *return_value_getStringProperty_47;
+      return_value_getStringProperty_47=getStringProperty(properties, L"wrapper.script.version", wrapperVersionRoot);
+      signed int return_value_wcscmp_48;
+      return_value_wcscmp_48=wcscmp(wrapperVersionRoot, return_value_getStringProperty_47);
+      if(!(return_value_wcscmp_48 == 0))
       {
-        const signed int *return_value_getStringProperty$46;
-        return_value_getStringProperty$46=getStringProperty(properties, L"wrapper.script.version", wrapperVersionRoot);
-        log_printf(-1, 4, L"The version of the script (%s) doesn't match the version of this Wrapper (%s). This might cause some problems", return_value_getStringProperty$46, wrapperVersionRoot);
+        const signed int *return_value_getStringProperty_46;
+        return_value_getStringProperty_46=getStringProperty(properties, L"wrapper.script.version", wrapperVersionRoot);
+        log_printf(-1, 4, L"The version of the script (%s) doesn't match the version of this Wrapper (%s). This might cause some problems", return_value_getStringProperty_46, wrapperVersionRoot);
       }
 
       wrapperData->configured = -1;
@@ -11267,9 +11267,9 @@ signed int loadConfigurationTriggers()
   }
 
   wrapperData->outputFilterCount = 0;
-  signed int return_value_getStringProperties$1;
-  return_value_getStringProperties$1=getStringProperties(properties, L"wrapper.filter.trigger.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
-  if(!(return_value_getStringProperties$1 == 0))
+  signed int return_value_getStringProperties_1;
+  return_value_getStringProperties_1=getStringProperties(properties, L"wrapper.filter.trigger.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
+  if(!(return_value_getStringProperties_1 == 0))
     return -1;
 
   else
@@ -11279,9 +11279,9 @@ signed int loadConfigurationTriggers()
       wrapperData->outputFilterCount = wrapperData->outputFilterCount + 1;
     if(wrapperData->outputFilterCount >= 1)
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      wrapperData->outputFilters = (signed int **)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
+      wrapperData->outputFilters = (signed int **)return_value_malloc_2;
       if(wrapperData->outputFilters == ((signed int **)NULL))
       {
         outOfMemory(L"LC", 1);
@@ -11289,9 +11289,9 @@ signed int loadConfigurationTriggers()
       }
 
       memset((void *)wrapperData->outputFilters, 0, sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      wrapperData->outputFilterActionLists = (signed int **)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
+      wrapperData->outputFilterActionLists = (signed int **)return_value_malloc_3;
       if(wrapperData->outputFilterActionLists == ((signed int **)NULL))
       {
         outOfMemory(L"LC", 2);
@@ -11299,18 +11299,18 @@ signed int loadConfigurationTriggers()
       }
 
       memset((void *)wrapperData->outputFilterActionLists, 0, sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      wrapperData->outputFilterMessages = (signed int **)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
+      wrapperData->outputFilterMessages = (signed int **)return_value_malloc_4;
       if(wrapperData->outputFilterMessages == ((signed int **)NULL))
       {
         outOfMemory(L"LC", 3);
         return -1;
       }
 
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      wrapperData->outputFilterAllowWildFlags = (signed int *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)wrapperData->outputFilterCount);
+      wrapperData->outputFilterAllowWildFlags = (signed int *)return_value_malloc_5;
       if(wrapperData->outputFilterAllowWildFlags == ((signed int *)NULL))
       {
         outOfMemory(L"LC", 4);
@@ -11318,9 +11318,9 @@ signed int loadConfigurationTriggers()
       }
 
       memset((void *)wrapperData->outputFilterAllowWildFlags, 0, sizeof(signed int) /*4ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
-      wrapperData->outputFilterMinLens = (unsigned long int *)return_value_malloc$6;
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)wrapperData->outputFilterCount);
+      wrapperData->outputFilterMinLens = (unsigned long int *)return_value_malloc_6;
       if(wrapperData->outputFilterMinLens == ((unsigned long int *)NULL))
       {
         outOfMemory(L"LC", 5);
@@ -11332,20 +11332,20 @@ signed int loadConfigurationTriggers()
       while(!(propertyNames[(signed long int)i] == ((signed int *)NULL)))
       {
         prop = propertyValues[(signed long int)i];
-        unsigned long int return_value_wcslen$7;
-        return_value_wcslen$7=wcslen(prop);
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$7 + (unsigned long int)1));
-        wrapperData->outputFilters[(signed long int)i] = (signed int *)return_value_malloc$8;
+        unsigned long int return_value_wcslen_7;
+        return_value_wcslen_7=wcslen(prop);
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_7 + (unsigned long int)1));
+        wrapperData->outputFilters[(signed long int)i] = (signed int *)return_value_malloc_8;
         if(wrapperData->outputFilters[(signed long int)i] == ((signed int *)NULL))
         {
           outOfMemory(L"LC", 3);
           return -1;
         }
 
-        unsigned long int return_value_wcslen$9;
-        return_value_wcslen$9=wcslen(prop);
-        wcsncpy(wrapperData->outputFilters[(signed long int)i], prop, return_value_wcslen$9 + (unsigned long int)1);
+        unsigned long int return_value_wcslen_9;
+        return_value_wcslen_9=wcslen(prop);
+        wcsncpy(wrapperData->outputFilters[(signed long int)i], prop, return_value_wcslen_9 + (unsigned long int)1);
         _sntprintf(propName, (unsigned long int)256, L"wrapper.filter.action.%lu", propertyIndices[(signed long int)i]);
         prop=getStringProperty(properties, propName, L"RESTART");
         wrapperData->outputFilterActionLists[(signed long int)i]=wrapperGetActionListForNames(prop, propName);
@@ -11383,24 +11383,24 @@ signed int loadEnvironment()
     len=mbstowcs((signed int *)(void *)0, environment[(signed long int)i], (unsigned long int)0);
     if(!(len == 18446744073709551615ul))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-      sourcePair = (signed int *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+      sourcePair = (signed int *)return_value_malloc_1;
       if(sourcePair == ((signed int *)NULL))
       {
         outOfMemory(L"LE", 1);
-        const signed int *return_value_getLastErrorText$2;
-        return_value_getLastErrorText$2=getLastErrorText();
-        _tprintf(L" Invalid character string: %s (%s)\n", environment[(signed long int)i], return_value_getLastErrorText$2);
+        const signed int *return_value_getLastErrorText_2;
+        return_value_getLastErrorText_2=getLastErrorText();
+        _tprintf(L" Invalid character string: %s (%s)\n", environment[(signed long int)i], return_value_getLastErrorText_2);
         return -1;
       }
 
       mbstowcs(sourcePair, environment[(signed long int)i], len + (unsigned long int)1);
       sourcePair[(signed long int)len] = 0;
       len=wcslen(sourcePair);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-      pair = (signed int *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+      pair = (signed int *)return_value_malloc_3;
       if(pair == ((signed int *)NULL))
       {
         outOfMemory(L"LE", 1);
@@ -11415,14 +11415,14 @@ signed int loadEnvironment()
         name = pair;
         value = &equal[(signed long int)1];
         equal[(signed long int)0] = 0;
-        unsigned long int return_value_wcslen$4;
-        return_value_wcslen$4=wcslen(name);
-        if(!(return_value_wcslen$4 >= 1ul))
+        unsigned long int return_value_wcslen_4;
+        return_value_wcslen_4=wcslen(name);
+        if(!(return_value_wcslen_4 >= 1ul))
           name = (signed int *)(void *)0;
 
-        unsigned long int return_value_wcslen$5;
-        return_value_wcslen$5=wcslen(value);
-        if(!(return_value_wcslen$5 >= 1ul))
+        unsigned long int return_value_wcslen_5;
+        return_value_wcslen_5=wcslen(value);
+        if(!(return_value_wcslen_5 >= 1ul))
           value = (signed int *)(void *)0;
 
         if(!(name == ((signed int *)NULL)))
@@ -11449,43 +11449,43 @@ static signed int loadParameterFileCallback(void *callbackParam, const signed in
   signed int InDelim = 0;
   signed int InQuotes = 0;
   signed int Escaped = 0;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_wcslen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_wcslen_1;
   if(!(config == ((signed int *)NULL)))
   {
-    return_value_wcslen$1=wcslen(config);
-    tmp_if_expr$2 = return_value_wcslen$1 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_wcslen_1=wcslen(config);
+    tmp_if_expr_2 = return_value_wcslen_1 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
   /* assertion config && wcslen(config) > 0 */
-  assert(tmp_if_expr$2);
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_wcslen$3;
+  assert(tmp_if_expr_2);
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_wcslen_3;
   if(!(*config == 32))
   {
-    return_value_wcslen$3=wcslen(config);
-    tmp_if_expr$4 = config[(signed long int)(return_value_wcslen$3 - (unsigned long int)1)] != 32 ? (_Bool)1 : (_Bool)0;
+    return_value_wcslen_3=wcslen(config);
+    tmp_if_expr_4 = config[(signed long int)(return_value_wcslen_3 - (unsigned long int)1)] != 32 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
+    tmp_if_expr_4 = (_Bool)0;
   /* assertion config[0] != L' ' && config[wcslen(config) - 1] != L' ' */
-  assert(tmp_if_expr$4);
-  unsigned long int return_value_wcslen$5;
-  return_value_wcslen$5=wcslen(config);
-  tail_bound = config + (signed long int)return_value_wcslen$5 + (signed long int)1;
+  assert(tmp_if_expr_4);
+  unsigned long int return_value_wcslen_5;
+  return_value_wcslen_5=wcslen(config);
+  tail_bound = config + (signed long int)return_value_wcslen_5 + (signed long int)1;
   s = config;
   arg = s;
-  signed int return_value_loadParameterFileCallbackParam_AddArg$6;
+  signed int return_value_loadParameterFileCallbackParam_AddArg_6;
   for( ; !(s >= tail_bound); s = s + 1l)
     switch(*s)
     {
       case 0:
       {
-        return_value_loadParameterFileCallbackParam_AddArg$6=loadParameterFileCallbackParam_AddArg(param, arg, (unsigned long int)(s - arg));
-        if(return_value_loadParameterFileCallbackParam_AddArg$6 == 0)
+        return_value_loadParameterFileCallbackParam_AddArg_6=loadParameterFileCallbackParam_AddArg(param, arg, (unsigned long int)(s - arg));
+        if(return_value_loadParameterFileCallbackParam_AddArg_6 == 0)
         {
           outOfMemory(L"LJAC", 1);
           return 0;
@@ -11499,9 +11499,9 @@ static signed int loadParameterFileCallback(void *callbackParam, const signed in
         if(InDelim == 0 && InQuotes == 0)
         {
           InDelim = -1;
-          signed int return_value_loadParameterFileCallbackParam_AddArg$7;
-          return_value_loadParameterFileCallbackParam_AddArg$7=loadParameterFileCallbackParam_AddArg(param, arg, (unsigned long int)(s - arg));
-          if(return_value_loadParameterFileCallbackParam_AddArg$7 == 0)
+          signed int return_value_loadParameterFileCallbackParam_AddArg_7;
+          return_value_loadParameterFileCallbackParam_AddArg_7=loadParameterFileCallbackParam_AddArg(param, arg, (unsigned long int)(s - arg));
+          if(return_value_loadParameterFileCallbackParam_AddArg_7 == 0)
           {
             outOfMemory(L"LJAC", 2);
             return 0;
@@ -11558,10 +11558,10 @@ static signed int loadParameterFileCallbackParam_AddArg(struct LoadParameterFile
   signed int *argStripped;
   signed int argExpanded[16384l];
   unsigned long int len;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (argLen + (unsigned long int)1));
-  argTerm = (signed int *)return_value_malloc$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (argLen + (unsigned long int)1));
+  argTerm = (signed int *)return_value_malloc_1;
+  _Bool tmp_if_expr_2;
   if(argTerm == ((signed int *)NULL))
   {
     outOfMemory(L"LPFCPAA", 1);
@@ -11578,11 +11578,11 @@ static signed int loadParameterFileCallbackParam_AddArg(struct LoadParameterFile
         goto __CPROVER_DUMP_L5;
 
       if(*argTerm == 34)
-        tmp_if_expr$2 = argTerm[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = argTerm[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         goto __CPROVER_DUMP_L5;
 
       if(!(param->strings == ((signed int **)NULL)))
@@ -11600,9 +11600,9 @@ static signed int loadParameterFileCallbackParam_AddArg(struct LoadParameterFile
       if(!(param->strings == ((signed int **)NULL)))
       {
         len=wcslen(argTerm);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-        argStripped = (signed int *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+        argStripped = (signed int *)return_value_malloc_3;
         if(argStripped == ((signed int *)NULL))
         {
           outOfMemory(L"LPFCPAA", 2);
@@ -11619,9 +11619,9 @@ static signed int loadParameterFileCallbackParam_AddArg(struct LoadParameterFile
         evaluateEnvironmentVariables(argStripped, argExpanded, 16384, properties->logWarnings, properties->warnedVarMap, properties->logWarningLogLevel);
         free((void *)argStripped);
         len=wcslen(argExpanded);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-        param->strings[(signed long int)param->index] = (signed int *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+        param->strings[(signed long int)param->index] = (signed int *)return_value_malloc_4;
         if(param->strings[(signed long int)param->index] == ((signed int *)NULL))
           return 0;
 
@@ -11669,12 +11669,12 @@ extern signed int loadProperties(struct Properties *properties, const signed int
 // file property.c line 471
 static signed int loadPropertiesCallback(void *callbackParam, const signed int *fileName, signed int lineNumber, signed int *config, signed int debugProperties)
 {
-  struct Properties *loadPropertiesCallback$$1$$properties = (struct Properties *)callbackParam;
+  struct Properties *loadPropertiesCallback__1__properties = (struct Properties *)callbackParam;
   signed int *d;
-  loadPropertiesCallback$$1$$properties->debugProperties = debugProperties;
-  signed int *return_value_wcsstr$1;
-  return_value_wcsstr$1=wcsstr(config, L"include");
-  if(return_value_wcsstr$1 == config)
+  loadPropertiesCallback__1__properties->debugProperties = debugProperties;
+  signed int *return_value_wcsstr_1;
+  return_value_wcsstr_1=wcsstr(config, L"include");
+  if(return_value_wcsstr_1 == config)
     log_printf(-1, 7, L"Include file reference missing leading '#': %s", config);
 
   else
@@ -11684,7 +11684,7 @@ static signed int loadPropertiesCallback(void *callbackParam, const signed int *
     {
       *d = 0;
       d = d + 1l;
-      addProperty(loadPropertiesCallback$$1$$properties, fileName, lineNumber, config, d, 0, 0, -1, 0);
+      addProperty(loadPropertiesCallback__1__properties, fileName, lineNumber, config, d, 0, 0, -1, 0);
     }
 
   }
@@ -11695,13 +11695,13 @@ static signed int loadPropertiesCallback(void *callbackParam, const signed int *
 // file logger.c line 1030
 signed int lockLoggingMutex()
 {
-  signed int return_value_pthread_mutex_lock$2;
-  return_value_pthread_mutex_lock$2=pthread_mutex_lock(&log_printfMutex);
-  if(!(return_value_pthread_mutex_lock$2 == 0))
+  signed int return_value_pthread_mutex_lock_2;
+  return_value_pthread_mutex_lock_2=pthread_mutex_lock(&log_printfMutex);
+  if(!(return_value_pthread_mutex_lock_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    _tprintf(L"Failed to lock the Logging mutex. %s\n", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    _tprintf(L"Failed to lock the Logging mutex. %s\n", return_value_getLastErrorText_1);
     return -1;
   }
 
@@ -11712,13 +11712,13 @@ signed int lockLoggingMutex()
 // file wrapper.c line 1965
 signed int lockProtocolMutex()
 {
-  signed int return_value_pthread_mutex_lock$2;
-  return_value_pthread_mutex_lock$2=pthread_mutex_lock(&protocolMutex);
-  if(!(return_value_pthread_mutex_lock$2 == 0))
+  signed int return_value_pthread_mutex_lock_2;
+  return_value_pthread_mutex_lock_2=pthread_mutex_lock(&protocolMutex);
+  if(!(return_value_pthread_mutex_lock_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    _tprintf(L"Failed to lock the Protocol mutex. %s\n", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    _tprintf(L"Failed to lock the Protocol mutex. %s\n", return_value_getLastErrorText_1);
     return -1;
   }
 
@@ -11734,30 +11734,30 @@ void logApplyFilters(const signed int *log)
   const signed int *filterMessage;
   signed int matched;
   i = 0;
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_wcslen$3;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_wcslen_3;
   for( ; !(i >= wrapperData->outputFilterCount); i = i + 1)
   {
-    unsigned long int return_value_wcslen$5;
-    return_value_wcslen$5=wcslen(wrapperData->outputFilters[(signed long int)i]);
-    if(return_value_wcslen$5 >= 1ul)
+    unsigned long int return_value_wcslen_5;
+    return_value_wcslen_5=wcslen(wrapperData->outputFilters[(signed long int)i]);
+    if(return_value_wcslen_5 >= 1ul)
     {
       matched = 0;
       filter = wrapperData->outputFilters[(signed long int)i];
       if(!(wrapperData->outputFilterAllowWildFlags[(signed long int)i] == 0))
       {
-        signed int return_value_wrapperWildcardMatch$1;
-        return_value_wrapperWildcardMatch$1=wrapperWildcardMatch(log, filter, wrapperData->outputFilterMinLens[(signed long int)i]);
-        if(!(return_value_wrapperWildcardMatch$1 == 0))
+        signed int return_value_wrapperWildcardMatch_1;
+        return_value_wrapperWildcardMatch_1=wrapperWildcardMatch(log, filter, wrapperData->outputFilterMinLens[(signed long int)i]);
+        if(!(return_value_wrapperWildcardMatch_1 == 0))
           matched = -1;
 
       }
 
       else
       {
-        signed int *return_value_wcsstr$2;
-        return_value_wcsstr$2=wcsstr(log, filter);
-        if(!(return_value_wcsstr$2 == ((signed int *)NULL)))
+        signed int *return_value_wcsstr_2;
+        return_value_wcsstr_2=wcsstr(log, filter);
+        if(!(return_value_wcsstr_2 == ((signed int *)NULL)))
           matched = -1;
 
       }
@@ -11765,14 +11765,14 @@ void logApplyFilters(const signed int *log)
       {
         filterMessage = wrapperData->outputFilterMessages[(signed long int)i];
         if(filterMessage == ((const signed int *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_wcslen$3=wcslen(filterMessage);
-          tmp_if_expr$4 = return_value_wcslen$3 <= (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_wcslen_3=wcslen(filterMessage);
+          tmp_if_expr_4 = return_value_wcslen_3 <= (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           filterMessage = L"Filter trigger matched.";
 
         wrapperProcessActionList(wrapperData->outputFilterActionLists[(signed long int)i], filterMessage, 1, 0, 1);
@@ -11790,20 +11790,20 @@ void logChildOutput(const char *log)
 {
   signed int *tlog;
   signed int size;
-  unsigned long int return_value_mbstowcs$1;
-  return_value_mbstowcs$1=mbstowcs((signed int *)(void *)0, log, (unsigned long int)0);
-  size = (signed int)return_value_mbstowcs$1;
+  unsigned long int return_value_mbstowcs_1;
+  return_value_mbstowcs_1=mbstowcs((signed int *)(void *)0, log, (unsigned long int)0);
+  size = (signed int)return_value_mbstowcs_1;
   if((unsigned long int)size == 18446744073709551615ul)
   {
-    const signed int *return_value_getLastErrorText$2;
-    return_value_getLastErrorText$2=getLastErrorText();
-    log_printf(-1, 4, L"Invalid multibyte sequence in %s: %s", (const void *)L"JVM console output", return_value_getLastErrorText$2);
+    const signed int *return_value_getLastErrorText_2;
+    return_value_getLastErrorText_2=getLastErrorText();
+    log_printf(-1, 4, L"Invalid multibyte sequence in %s: %s", (const void *)L"JVM console output", return_value_getLastErrorText_2);
     goto __CPROVER_DUMP_L3;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(size + 1));
-  tlog = (signed int *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(size + 1));
+  tlog = (signed int *)return_value_malloc_3;
   if(tlog == ((signed int *)NULL))
     outOfMemory(L"WLCO", 1);
 
@@ -11850,27 +11850,27 @@ void logSleep(signed int ms)
     ts.tv_sec = (signed long int)0;
     ts.tv_nsec = (signed long int)(ms * 1000000);
   }
-  signed int return_value_nanosleep$4;
-  return_value_nanosleep$4=nanosleep(&ts, (struct timespec *)(void *)0);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_nanosleep$4 == 0))
+  signed int return_value_nanosleep_4;
+  return_value_nanosleep_4=nanosleep(&ts, (struct timespec *)(void *)0);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_nanosleep_4 == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 4)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 4)
       goto __CPROVER_DUMP_L7;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 11)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 11)
         goto __CPROVER_DUMP_L7;
 
       else
       {
-        const signed int *return_value_getLastErrorText$1;
-        return_value_getLastErrorText$1=getLastErrorText();
-        _tprintf(L"nanosleep(%dms) failed. \n", ms, return_value_getLastErrorText$1);
+        const signed int *return_value_getLastErrorText_1;
+        return_value_getLastErrorText_1=getLastErrorText();
+        _tprintf(L"nanosleep(%dms) failed. \n", ms, return_value_getLastErrorText_1);
       }
     }
   }
@@ -11892,27 +11892,27 @@ void logTickTimerStats()
   time(&now);
   sysTicks=wrapperGetSystemTicks();
   overflowTime = (signed long int)(now - (signed long int)(sysTicks / (unsigned int)(1000 / 100)));
-  struct tm *return_value_localtime$1;
-  return_value_localtime$1=localtime(&overflowTime);
-  when = *return_value_localtime$1;
+  struct tm *return_value_localtime_1;
+  return_value_localtime_1=localtime(&overflowTime);
+  when = *return_value_localtime_1;
   log_printf(-1, 3, L"    Last system time tick overflow at: %04d/%02d/%02d %02d:%02d:%02d", when.tm_year + 1900, when.tm_mon + 1, when.tm_mday, when.tm_hour, when.tm_min, when.tm_sec);
   overflowTime = (signed long int)((unsigned long int)now + (0xffffffffUL - (unsigned long int)sysTicks) / (unsigned long int)(1000 / 100));
-  struct tm *return_value_localtime$2;
-  return_value_localtime$2=localtime(&overflowTime);
-  when = *return_value_localtime$2;
+  struct tm *return_value_localtime_2;
+  return_value_localtime_2=localtime(&overflowTime);
+  when = *return_value_localtime_2;
   log_printf(-1, 3, L"    Next system time tick overflow at: %04d/%02d/%02d %02d:%02d:%02d", when.tm_year + 1900, when.tm_mon + 1, when.tm_mday, when.tm_hour, when.tm_min, when.tm_sec);
   if(wrapperData->useSystemTime == 0)
   {
     ticks=wrapperGetTicks();
     overflowTime = (signed long int)(now - (signed long int)(ticks / (unsigned int)(1000 / 100)));
-    struct tm *return_value_localtime$3;
-    return_value_localtime$3=localtime(&overflowTime);
-    when = *return_value_localtime$3;
+    struct tm *return_value_localtime_3;
+    return_value_localtime_3=localtime(&overflowTime);
+    when = *return_value_localtime_3;
     log_printf(-1, 3, L"    Last tick overflow at: %04d/%02d/%02d %02d:%02d:%02d", when.tm_year + 1900, when.tm_mon + 1, when.tm_mday, when.tm_hour, when.tm_min, when.tm_sec);
     overflowTime = (signed long int)((unsigned long int)now + (0xffffffffUL - (unsigned long int)ticks) / (unsigned long int)(1000 / 100));
-    struct tm *return_value_localtime$4;
-    return_value_localtime$4=localtime(&overflowTime);
-    when = *return_value_localtime$4;
+    struct tm *return_value_localtime_4;
+    return_value_localtime_4=localtime(&overflowTime);
+    when = *return_value_localtime_4;
     log_printf(-1, 3, L"    Next tick overflow at: %04d/%02d/%02d %02d:%02d:%02d", when.tm_year + 1900, when.tm_mon + 1, when.tm_mday, when.tm_hour, when.tm_min, when.tm_sec);
   }
 
@@ -11935,11 +11935,11 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
   signed int startNowMillis;
   signed long int endNow;
   signed int endNowMillis;
-  _Bool tmp_if_expr$10;
-  signed int *return_value_wcsstr$9;
-  unsigned long int return_value_wcslen$4;
-  unsigned long int return_value_wcslen$6;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_10;
+  signed int *return_value_wcsstr_9;
+  unsigned long int return_value_wcslen_4;
+  unsigned long int return_value_wcslen_6;
+  _Bool tmp_if_expr_5;
   if(!(level == 9))
   {
     if(logPrintfWarnThreshold >= 1)
@@ -11954,9 +11954,9 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
       startNow = (signed long int)0;
       startNowMillis = 0;
     }
-    signed int return_value_lockLoggingMutex$1;
-    return_value_lockLoggingMutex$1=lockLoggingMutex();
-    if(return_value_lockLoggingMutex$1 == 0)
+    signed int return_value_lockLoggingMutex_1;
+    return_value_lockLoggingMutex_1=lockLoggingMutex();
+    if(return_value_lockLoggingMutex_1 == 0)
     {
       if(logPauseTime >= 0 && level >= 2 && !(source_id >= 0))
       {
@@ -11966,46 +11966,46 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
 
       if(!(source_id >= 1))
       {
-        return_value_wcsstr$9=wcsstr(lpszFmt, L"%s");
-        tmp_if_expr$10 = return_value_wcsstr$9 != (signed int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        return_value_wcsstr_9=wcsstr(lpszFmt, L"%s");
+        tmp_if_expr_10 = return_value_wcsstr_9 != (signed int *)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
       {
-        unsigned long int return_value_wcslen$2;
-        return_value_wcslen$2=wcslen(lpszFmt);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$2 + (unsigned long int)1));
-        msg = (signed int *)return_value_malloc$3;
+        unsigned long int return_value_wcslen_2;
+        return_value_wcslen_2=wcslen(lpszFmt);
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_2 + (unsigned long int)1));
+        msg = (signed int *)return_value_malloc_3;
         if(!(msg == ((signed int *)NULL)))
         {
-          unsigned long int return_value_wcslen$7;
-          return_value_wcslen$7=wcslen(lpszFmt);
-          if(return_value_wcslen$7 >= 1ul)
+          unsigned long int return_value_wcslen_7;
+          return_value_wcslen_7=wcslen(lpszFmt);
+          if(return_value_wcslen_7 >= 1ul)
           {
             i = 0;
             do
             {
-              return_value_wcslen$4=wcslen(lpszFmt);
-              if((unsigned long int)i >= return_value_wcslen$4)
+              return_value_wcslen_4=wcslen(lpszFmt);
+              if((unsigned long int)i >= return_value_wcslen_4)
                 break;
 
               msg[(signed long int)i] = lpszFmt[(signed long int)i];
               if(lpszFmt[(signed long int)i] == 37)
               {
-                return_value_wcslen$6=wcslen(lpszFmt);
-                if(!((unsigned long int)i >= return_value_wcslen$6))
+                return_value_wcslen_6=wcslen(lpszFmt);
+                if(!((unsigned long int)i >= return_value_wcslen_6))
                 {
                   if(lpszFmt[(signed long int)(1 + i)] == 115)
                   {
                     if(i == 0)
-                      tmp_if_expr$5 = (_Bool)1;
+                      tmp_if_expr_5 = (_Bool)1;
 
                     else
-                      tmp_if_expr$5 = lpszFmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$5)
+                      tmp_if_expr_5 = lpszFmt[(signed long int)(i - 1)] != 37 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_5)
                     {
                       msg[(signed long int)(i + 1)] = 83;
                       i = i + 1;
@@ -12022,9 +12022,9 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
             while((_Bool)1);
           }
 
-          unsigned long int return_value_wcslen$8;
-          return_value_wcslen$8=wcslen(lpszFmt);
-          msg[(signed long int)return_value_wcslen$8] = 0;
+          unsigned long int return_value_wcslen_8;
+          return_value_wcslen_8=wcslen(lpszFmt);
+          msg[(signed long int)return_value_wcslen_8] = 0;
         }
 
         else
@@ -12047,9 +12047,9 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
           if(threadMessageBufferSize == 0ul)
           {
             threadMessageBufferSize = (unsigned long int)100;
-            void *return_value_malloc$11;
-            return_value_malloc$11=malloc(sizeof(signed int) /*4ul*/  * threadMessageBufferSize);
-            threadMessageBuffer = (signed int *)return_value_malloc$11;
+            void *return_value_malloc_11;
+            return_value_malloc_11=malloc(sizeof(signed int) /*4ul*/  * threadMessageBufferSize);
+            threadMessageBuffer = (signed int *)return_value_malloc_11;
             if(threadMessageBuffer == ((signed int *)NULL))
             {
               _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"P2");
@@ -12069,9 +12069,9 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
           {
             free((void *)threadMessageBuffer);
             threadMessageBufferSize = threadMessageBufferSize + (unsigned long int)1024 > (threadMessageBufferSize + threadMessageBufferSize / (unsigned long int)10 > (unsigned long int)count + (unsigned long int)1 ? threadMessageBufferSize + threadMessageBufferSize / (unsigned long int)10 : (unsigned long int)count + (unsigned long int)1) ? threadMessageBufferSize + (unsigned long int)1024 : (threadMessageBufferSize + threadMessageBufferSize / (unsigned long int)10 > (unsigned long int)count + (unsigned long int)1 ? threadMessageBufferSize + threadMessageBufferSize / (unsigned long int)10 : (unsigned long int)count + (unsigned long int)1);
-            void *return_value_malloc$12;
-            return_value_malloc$12=malloc(sizeof(signed int) /*4ul*/  * threadMessageBufferSize);
-            threadMessageBuffer = (signed int *)return_value_malloc$12;
+            void *return_value_malloc_12;
+            return_value_malloc_12=malloc(sizeof(signed int) /*4ul*/  * threadMessageBufferSize);
+            threadMessageBuffer = (signed int *)return_value_malloc_12;
             if(threadMessageBuffer == ((signed int *)NULL))
             {
               _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"P3");
@@ -12101,19 +12101,19 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
         logFileChanged=log_printf_message(source_id, level, threadId, 0, threadMessageBuffer, -1);
       if(!(logFileChanged == 0))
       {
-        unsigned long int return_value_wcslen$13;
-        return_value_wcslen$13=wcslen(currentLogFileName);
-        void *return_value_malloc$14;
-        return_value_malloc$14=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$13 + (unsigned long int)1));
-        logFileCopy = (signed int *)return_value_malloc$14;
+        unsigned long int return_value_wcslen_13;
+        return_value_wcslen_13=wcslen(currentLogFileName);
+        void *return_value_malloc_14;
+        return_value_malloc_14=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_13 + (unsigned long int)1));
+        logFileCopy = (signed int *)return_value_malloc_14;
         if(logFileCopy == ((signed int *)NULL))
           _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"P4");
 
         else
         {
-          unsigned long int return_value_wcslen$15;
-          return_value_wcslen$15=wcslen(currentLogFileName);
-          wcsncpy(logFileCopy, currentLogFileName, return_value_wcslen$15 + (unsigned long int)1);
+          unsigned long int return_value_wcslen_15;
+          return_value_wcslen_15=wcslen(currentLogFileName);
+          wcsncpy(logFileCopy, currentLogFileName, return_value_wcslen_15 + (unsigned long int)1);
           if(!(pendingLogFileChange == ((signed int *)NULL)))
             free((void *)pendingLogFileChange);
 
@@ -12121,9 +12121,9 @@ extern void log_printf(signed int source_id, signed int level, const signed int 
         }
       }
 
-      signed int return_value_releaseLoggingMutex$16;
-      return_value_releaseLoggingMutex$16=releaseLoggingMutex();
-      if(return_value_releaseLoggingMutex$16 == 0)
+      signed int return_value_releaseLoggingMutex_16;
+      return_value_releaseLoggingMutex_16=releaseLoggingMutex();
+      if(return_value_releaseLoggingMutex_16 == 0)
       {
         if(logPrintfWarnThreshold >= 1)
         {
@@ -12164,36 +12164,36 @@ signed int log_printf_message(signed int source_id, signed int level, signed int
   signed int nowMillis;
   struct tm *nowTM;
   signed long int durationMillis;
-  signed int *return_value_wcsstr$7;
-  return_value_wcsstr$7=wcsstr(message, L"#!#WrApPeRsPeCiAl#!#");
-  unsigned long int return_value_wcslen$5;
-  unsigned long int return_value_wcslen$6;
-  if(return_value_wcsstr$7 == message)
+  signed int *return_value_wcsstr_7;
+  return_value_wcsstr_7=wcsstr(message, L"#!#WrApPeRsPeCiAl#!#");
+  unsigned long int return_value_wcslen_5;
+  unsigned long int return_value_wcslen_6;
+  if(return_value_wcsstr_7 == message)
   {
-    return_value_wcslen$5=wcslen(message);
-    return_value_wcslen$6=wcslen(L"#!#WrApPeRsPeCiAl#!#");
-    if(return_value_wcslen$5 >= 10ul + return_value_wcslen$6)
+    return_value_wcslen_5=wcslen(message);
+    return_value_wcslen_6=wcslen(L"#!#WrApPeRsPeCiAl#!#");
+    if(return_value_wcslen_5 >= 10ul + return_value_wcslen_6)
     {
-      unsigned long int return_value_wcslen$1;
-      return_value_wcslen$1=wcslen(L"#!#WrApPeRsPeCiAl#!#");
-      pos = (signed int *)(message + (signed long int)return_value_wcslen$1 + (signed long int)1);
+      unsigned long int return_value_wcslen_1;
+      return_value_wcslen_1=wcslen(L"#!#WrApPeRsPeCiAl#!#");
+      pos = (signed int *)(message + (signed long int)return_value_wcslen_1 + (signed long int)1);
       wcsncpy(intBuffer, pos, (unsigned long int)2);
       intBuffer[(signed long int)2] = 0;
-      signed long int return_value_wcstol$2;
-      return_value_wcstol$2=wcstol(intBuffer, (signed int ** restrict )(void *)0, 10);
-      source_id = (signed int)return_value_wcstol$2;
+      signed long int return_value_wcstol_2;
+      return_value_wcstol_2=wcstol(intBuffer, (signed int ** restrict )(void *)0, 10);
+      source_id = (signed int)return_value_wcstol_2;
       pos = pos + (signed long int)3;
       wcsncpy(intBuffer, pos, (unsigned long int)2);
       intBuffer[(signed long int)2] = 0;
-      signed long int return_value_wcstol$3;
-      return_value_wcstol$3=wcstol(intBuffer, (signed int ** restrict )(void *)0, 10);
-      level = (signed int)return_value_wcstol$3;
+      signed long int return_value_wcstol_3;
+      return_value_wcstol_3=wcstol(intBuffer, (signed int ** restrict )(void *)0, 10);
+      level = (signed int)return_value_wcstol_3;
       pos = pos + (signed long int)3;
       wcsncpy(intBuffer, pos, (unsigned long int)2);
       intBuffer[(signed long int)2] = 0;
-      signed long int return_value_wcstol$4;
-      return_value_wcstol$4=wcstol(intBuffer, (signed int ** restrict )(void *)0, 10);
-      threadId = (signed int)return_value_wcstol$4;
+      signed long int return_value_wcstol_4;
+      return_value_wcstol_4=wcstol(intBuffer, (signed int ** restrict )(void *)0, 10);
+      threadId = (signed int)return_value_wcstol_4;
       pos = pos + (signed long int)3;
       message = pos;
     }
@@ -12220,13 +12220,13 @@ signed int log_printf_message(signed int source_id, signed int level, signed int
 
 __CPROVER_DUMP_L6:
   ;
-  signed int *return_value_wcsstr$8;
+  signed int *return_value_wcsstr_8;
   if(currentLogSplitMessages == 0)
   {
     if(!(sysLogEnabled == 0))
     {
-      return_value_wcsstr$8=wcsstr(message, L"#!#WrApPeR#!#");
-      if(!(return_value_wcsstr$8 == message))
+      return_value_wcsstr_8=wcsstr(message, L"#!#WrApPeR#!#");
+      if(!(return_value_wcsstr_8 == message))
         log_printf_message_sysLog(source_id, level, message, nowTM, 0);
 
     }
@@ -12240,36 +12240,36 @@ __CPROVER_DUMP_L6:
     while(!(nextLF == ((signed int *)NULL)))
     {
       nextLF[(signed long int)0] = 0;
-      signed int return_value_log_printf_message$9;
-      return_value_log_printf_message$9=log_printf_message(source_id, level, threadId, queued, subMessage, 0);
-      logFileChanged = logFileChanged | return_value_log_printf_message$9;
+      signed int return_value_log_printf_message_9;
+      return_value_log_printf_message_9=log_printf_message(source_id, level, threadId, queued, subMessage, 0);
+      logFileChanged = logFileChanged | return_value_log_printf_message_9;
       subMessage = &nextLF[(signed long int)1];
       nextLF=wcschr(subMessage, 10);
     }
-    signed int return_value_log_printf_message$10;
-    return_value_log_printf_message$10=log_printf_message(source_id, level, threadId, queued, subMessage, 0);
-    logFileChanged = logFileChanged | return_value_log_printf_message$10;
+    signed int return_value_log_printf_message_10;
+    return_value_log_printf_message_10=log_printf_message(source_id, level, threadId, queued, subMessage, 0);
+    logFileChanged = logFileChanged | return_value_log_printf_message_10;
     return logFileChanged;
   }
 
-  signed int *return_value_wcsstr$15;
-  return_value_wcsstr$15=wcsstr(message, L"#!#WrApPeR#!#");
-  if(return_value_wcsstr$15 == message)
+  signed int *return_value_wcsstr_15;
+  return_value_wcsstr_15=wcsstr(message, L"#!#WrApPeR#!#");
+  if(return_value_wcsstr_15 == message)
   {
-    unsigned long int return_value_wcslen$11;
-    return_value_wcslen$11=wcslen(L"#!#WrApPeRsPeCiAl#!#");
-    unsigned long int return_value_wcslen$12;
-    return_value_wcslen$12=wcslen(message);
-    unsigned long int return_value_wcslen$13;
-    return_value_wcslen$13=wcslen(L"#!#WrApPeR#!#");
-    reqSize = ((return_value_wcslen$11 + (unsigned long int)1 + (unsigned long int)2 + (unsigned long int)1 + (unsigned long int)2 + (unsigned long int)1 + (unsigned long int)2 + (unsigned long int)1 + return_value_wcslen$12) - return_value_wcslen$13) + (unsigned long int)1;
+    unsigned long int return_value_wcslen_11;
+    return_value_wcslen_11=wcslen(L"#!#WrApPeRsPeCiAl#!#");
+    unsigned long int return_value_wcslen_12;
+    return_value_wcslen_12=wcslen(message);
+    unsigned long int return_value_wcslen_13;
+    return_value_wcslen_13=wcslen(L"#!#WrApPeR#!#");
+    reqSize = ((return_value_wcslen_11 + (unsigned long int)1 + (unsigned long int)2 + (unsigned long int)1 + (unsigned long int)2 + (unsigned long int)1 + (unsigned long int)2 + (unsigned long int)1 + return_value_wcslen_12) - return_value_wcslen_13) + (unsigned long int)1;
     printBuffer=preparePrintBuffer(reqSize);
     if(printBuffer == ((signed int *)NULL))
       return 0;
 
-    unsigned long int return_value_wcslen$14;
-    return_value_wcslen$14=wcslen(L"#!#WrApPeR#!#");
-    _sntprintf(printBuffer, reqSize, L"%s|%02d|%02d|%02d|%s", (const void *)L"#!#WrApPeRsPeCiAl#!#", source_id, level, threadId, message + (signed long int)return_value_wcslen$14);
+    unsigned long int return_value_wcslen_14;
+    return_value_wcslen_14=wcslen(L"#!#WrApPeR#!#");
+    _sntprintf(printBuffer, reqSize, L"%s|%02d|%02d|%02d|%s", (const void *)L"#!#WrApPeRsPeCiAl#!#", source_id, level, threadId, message + (signed long int)return_value_wcslen_14);
     switch(level)
     {
       case 6:
@@ -12401,11 +12401,11 @@ signed int log_printf_message_logFileInner(signed int source_id, signed int leve
   const signed int *tempBufferLastErrorText;
   unsigned long int tempBufferLen;
   signed int *tempBuffer;
-  unsigned long int return_value_wcslen$13;
+  unsigned long int return_value_wcslen_13;
   if(!(logFilePath == ((signed int *)NULL)))
   {
-    return_value_wcslen$13=wcslen(logFilePath);
-    if(return_value_wcslen$13 >= 1ul)
+    return_value_wcslen_13=wcslen(logFilePath);
+    if(return_value_wcslen_13 >= 1ul)
     {
       if(!((16 & logFileRollMode) == 0))
         _sntprintf(nowDate, (unsigned long int)9, L"%04d%02d%02d", nowTM->tm_year + 1900, nowTM->tm_mon + 1, nowTM->tm_mday);
@@ -12425,34 +12425,34 @@ signed int log_printf_message_logFileInner(signed int source_id, signed int leve
           logFileChanged = -1;
         }
 
-        unsigned int return_value_umask$1;
-        return_value_umask$1=umask((unsigned int)logFileUmask);
-        old_umask = (signed int)return_value_umask$1;
+        unsigned int return_value_umask_1;
+        return_value_umask_1=umask((unsigned int)logFileUmask);
+        old_umask = (signed int)return_value_umask_1;
         logfileFP=_tfopen(currentLogFileName, L"a");
         if(logfileFP == ((struct _IO_FILE *)NULL))
         {
           tempBufferFormat = L"Unable to write to the configured log file: %s (%s)\n  Falling back to the default file in the current working directory: %s";
           tempBufferLastErrorText=getLastErrorText();
-          unsigned long int return_value_wcslen$2;
-          return_value_wcslen$2=wcslen(tempBufferFormat);
-          unsigned long int return_value_wcslen$3;
-          return_value_wcslen$3=wcslen(currentLogFileName);
-          unsigned long int return_value_wcslen$4;
-          return_value_wcslen$4=wcslen(tempBufferLastErrorText);
-          unsigned long int return_value_wcslen$5;
-          return_value_wcslen$5=wcslen(defaultLogFile);
-          tempBufferLen = (((return_value_wcslen$2 - (unsigned long int)2) - (unsigned long int)2) - (unsigned long int)2) + return_value_wcslen$3 + return_value_wcslen$4 + return_value_wcslen$5 + (unsigned long int)1;
-          void *return_value_malloc$6;
-          return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * tempBufferLen);
-          tempBuffer = (signed int *)return_value_malloc$6;
+          unsigned long int return_value_wcslen_2;
+          return_value_wcslen_2=wcslen(tempBufferFormat);
+          unsigned long int return_value_wcslen_3;
+          return_value_wcslen_3=wcslen(currentLogFileName);
+          unsigned long int return_value_wcslen_4;
+          return_value_wcslen_4=wcslen(tempBufferLastErrorText);
+          unsigned long int return_value_wcslen_5;
+          return_value_wcslen_5=wcslen(defaultLogFile);
+          tempBufferLen = (((return_value_wcslen_2 - (unsigned long int)2) - (unsigned long int)2) - (unsigned long int)2) + return_value_wcslen_3 + return_value_wcslen_4 + return_value_wcslen_5 + (unsigned long int)1;
+          void *return_value_malloc_6;
+          return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * tempBufferLen);
+          tempBuffer = (signed int *)return_value_malloc_6;
           if(tempBuffer == ((signed int *)NULL))
             outOfMemoryQueued(L"LPML", 1);
 
           else
           {
-            const signed int *return_value_getLastErrorText$7;
-            return_value_getLastErrorText$7=getLastErrorText();
-            _sntprintf(tempBuffer, tempBufferLen, tempBufferFormat, currentLogFileName, return_value_getLastErrorText$7, defaultLogFile);
+            const signed int *return_value_getLastErrorText_7;
+            return_value_getLastErrorText_7=getLastErrorText();
+            _sntprintf(tempBuffer, tempBufferLen, tempBufferFormat, currentLogFileName, return_value_getLastErrorText_7, defaultLogFile);
             log_printf_queue(-1, -1, 4, L"%s", tempBuffer);
             log_printf_message_sysLog(-1, 4, tempBuffer, nowTM, -1);
             free((void *)tempBuffer);
@@ -12465,24 +12465,24 @@ signed int log_printf_message_logFileInner(signed int source_id, signed int leve
           {
             tempBufferFormat = L"Unable to write to the default log file: %s (%s)\n  Disabling log file.";
             tempBufferLastErrorText=getLastErrorText();
-            unsigned long int return_value_wcslen$8;
-            return_value_wcslen$8=wcslen(tempBufferFormat);
-            unsigned long int return_value_wcslen$9;
-            return_value_wcslen$9=wcslen(currentLogFileName);
-            unsigned long int return_value_wcslen$10;
-            return_value_wcslen$10=wcslen(tempBufferLastErrorText);
-            tempBufferLen = ((return_value_wcslen$8 - (unsigned long int)2) - (unsigned long int)2) + return_value_wcslen$9 + return_value_wcslen$10 + (unsigned long int)1;
-            void *return_value_malloc$11;
-            return_value_malloc$11=malloc(sizeof(signed int) /*4ul*/  * tempBufferLen);
-            tempBuffer = (signed int *)return_value_malloc$11;
+            unsigned long int return_value_wcslen_8;
+            return_value_wcslen_8=wcslen(tempBufferFormat);
+            unsigned long int return_value_wcslen_9;
+            return_value_wcslen_9=wcslen(currentLogFileName);
+            unsigned long int return_value_wcslen_10;
+            return_value_wcslen_10=wcslen(tempBufferLastErrorText);
+            tempBufferLen = ((return_value_wcslen_8 - (unsigned long int)2) - (unsigned long int)2) + return_value_wcslen_9 + return_value_wcslen_10 + (unsigned long int)1;
+            void *return_value_malloc_11;
+            return_value_malloc_11=malloc(sizeof(signed int) /*4ul*/  * tempBufferLen);
+            tempBuffer = (signed int *)return_value_malloc_11;
             if(tempBuffer == ((signed int *)NULL))
               outOfMemoryQueued(L"LPML", 1);
 
             else
             {
-              const signed int *return_value_getLastErrorText$12;
-              return_value_getLastErrorText$12=getLastErrorText();
-              _sntprintf(tempBuffer, tempBufferLen, tempBufferFormat, currentLogFileName, return_value_getLastErrorText$12);
+              const signed int *return_value_getLastErrorText_12;
+              return_value_getLastErrorText_12=getLastErrorText();
+              _sntprintf(tempBuffer, tempBufferLen, tempBufferFormat, currentLogFileName, return_value_getLastErrorText_12);
               log_printf_queue(-1, -1, 4, L"%s", tempBuffer);
               log_printf_message_sysLog(-1, 4, tempBuffer, nowTM, -1);
               free((void *)tempBuffer);
@@ -12571,10 +12571,10 @@ extern void log_printf_queue(signed int useQueue, signed int source_id, signed i
   unsigned long int i;
   unsigned long int len;
   signed int *buffer;
-  signed int *return_value_wcsstr$2;
-  return_value_wcsstr$2=wcsstr(lpszFmt, L"%s");
-  _Bool tmp_if_expr$1;
-  if(!(return_value_wcsstr$2 == ((signed int *)NULL)))
+  signed int *return_value_wcsstr_2;
+  return_value_wcsstr_2=wcsstr(lpszFmt, L"%s");
+  _Bool tmp_if_expr_1;
+  if(!(return_value_wcsstr_2 == ((signed int *)NULL)))
   {
     threadId=getThreadId();
     wcsncpy(formatMessages[(signed long int)threadId], lpszFmt, (unsigned long int)(512 + 1 + 4));
@@ -12592,11 +12592,11 @@ extern void log_printf_queue(signed int useQueue, signed int source_id, signed i
             if(format[(signed long int)i] == 115)
             {
               if(i >= 2ul)
-                tmp_if_expr$1 = format[(signed long int)(i - (unsigned long int)2)] == 37 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = format[(signed long int)(i - (unsigned long int)2)] == 37 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$1 = (_Bool)0;
-              if(!tmp_if_expr$1)
+                tmp_if_expr_1 = (_Bool)0;
+              if(!tmp_if_expr_1)
                 format[(signed long int)i] = 83;
 
             }
@@ -12626,9 +12626,9 @@ extern void log_printf_queue(signed int useQueue, signed int source_id, signed i
 
   else
   {
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(512 + 1 + 4));
-    buffer = (signed int *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(512 + 1 + 4));
+    buffer = (signed int *)return_value_malloc_3;
     if(buffer == ((signed int *)NULL))
     {
       _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"PQ1");
@@ -12685,18 +12685,18 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
   signed int filesSize;
   signed int **files;
   signed int result;
-  struct anonymous$20 g;
+  struct anonymous_20 g;
   signed int findex;
   signed long int *fileTimes;
   struct stat fileStat;
   char *cPattern;
   unsigned long int req;
-  unsigned long int return_value_wcstombs$1;
-  return_value_wcstombs$1=wcstombs((char *)(void *)0, pattern, (unsigned long int)0);
-  req = return_value_wcstombs$1 + (unsigned long int)1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(req);
-  cPattern = (char *)return_value_malloc$2;
+  unsigned long int return_value_wcstombs_1;
+  return_value_wcstombs_1=wcstombs((char *)(void *)0, pattern, (unsigned long int)0);
+  req = return_value_wcstombs_1 + (unsigned long int)1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(req);
+  cPattern = (char *)return_value_malloc_2;
   if(cPattern == ((char *)NULL))
   {
     outOfMemoryQueued(L"WFGF", 8);
@@ -12714,9 +12714,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
       if(g.gl_pathc >= 1ul)
       {
         filesSize = (signed int)(g.gl_pathc + (unsigned long int)1);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
-        files = (signed int **)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
+        files = (signed int **)return_value_malloc_3;
         if(files == ((signed int **)NULL))
         {
           outOfMemoryQueued(L"WFGF", 9);
@@ -12724,9 +12724,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
         }
 
         memset((void *)files, 0, sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)filesSize);
-        fileTimes = (signed long int *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)filesSize);
+        fileTimes = (signed long int *)return_value_malloc_4;
         if(fileTimes == ((signed long int *)NULL))
         {
           outOfMemoryQueued(L"WFGF", 10);
@@ -12742,9 +12742,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
           if(req == 18446744073709551615ul)
             invalidMultiByteSequence(L"GLET", 1);
 
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc((req + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
-          files[(signed long int)cnt] = (signed int *)return_value_malloc$5;
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc((req + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
+          files[(signed long int)cnt] = (signed int *)return_value_malloc_5;
           if(files[(signed long int)cnt] == ((signed int *)NULL))
           {
             outOfMemoryQueued(L"WFGF", 11);
@@ -12756,16 +12756,16 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
           mbstowcs(files[(signed long int)cnt], g.gl_pathv[(signed long int)findex], req + (unsigned long int)1);
           if(sortMode == 100)
           {
-            signed int return_value__tstat$7;
-            return_value__tstat$7=_tstat(files[(signed long int)cnt], &fileStat);
-            if(return_value__tstat$7 == 0)
+            signed int return_value__tstat_7;
+            return_value__tstat_7=_tstat(files[(signed long int)cnt], &fileStat);
+            if(return_value__tstat_7 == 0)
               fileTimes[(signed long int)cnt] = fileStat.st_mtim.tv_sec;
 
             else
             {
-              const signed int *return_value_getLastErrorText$6;
-              return_value_getLastErrorText$6=getLastErrorText();
-              log_printf_queue(-1, -1, 4, L"Failed to stat %s: %s", files[(signed long int)cnt], return_value_getLastErrorText$6);
+              const signed int *return_value_getLastErrorText_6;
+              return_value_getLastErrorText_6=getLastErrorText();
+              log_printf_queue(-1, -1, 4, L"Failed to stat %s: %s", files[(signed long int)cnt], return_value_getLastErrorText_6);
             }
           }
 
@@ -12776,9 +12776,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
       else
       {
         filesSize = 1;
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
-        files = (signed int **)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
+        files = (signed int **)return_value_malloc_8;
         if(files == ((signed int **)NULL))
         {
           outOfMemoryQueued(L"WFGF", 12);
@@ -12786,9 +12786,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
         }
 
         memset((void *)files, 0, sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
-        void *return_value_malloc$9;
-        return_value_malloc$9=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)filesSize);
-        fileTimes = (signed long int *)return_value_malloc$9;
+        void *return_value_malloc_9;
+        return_value_malloc_9=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)filesSize);
+        fileTimes = (signed long int *)return_value_malloc_9;
         if(fileTimes == ((signed long int *)NULL))
         {
           free((void *)files);
@@ -12805,9 +12805,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
       if(result == 3)
       {
         filesSize = 1;
-        void *return_value_malloc$10;
-        return_value_malloc$10=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
-        files = (signed int **)return_value_malloc$10;
+        void *return_value_malloc_10;
+        return_value_malloc_10=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
+        files = (signed int **)return_value_malloc_10;
         if(files == ((signed int **)NULL))
         {
           outOfMemoryQueued(L"WFGF", 14);
@@ -12815,9 +12815,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
         }
 
         memset((void *)files, 0, sizeof(signed int *) /*8ul*/  * (unsigned long int)filesSize);
-        void *return_value_malloc$11;
-        return_value_malloc$11=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)filesSize);
-        fileTimes = (signed long int *)return_value_malloc$11;
+        void *return_value_malloc_11;
+        return_value_malloc_11=malloc(sizeof(signed long int) /*8ul*/  * (unsigned long int)filesSize);
+        fileTimes = (signed long int *)return_value_malloc_11;
         if(fileTimes == ((signed long int *)NULL))
         {
           free((void *)files);
@@ -12830,16 +12830,16 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
 
       else
       {
-        const signed int *return_value_getLastErrorText$12;
-        return_value_getLastErrorText$12=getLastErrorText();
-        log_printf_queue(-1, -1, 5, L"Error listing files, %s: %s", pattern, return_value_getLastErrorText$12);
+        const signed int *return_value_getLastErrorText_12;
+        return_value_getLastErrorText_12=getLastErrorText();
+        log_printf_queue(-1, -1, 5, L"Error listing files, %s: %s", pattern, return_value_getLastErrorText_12);
         return (signed int **)(void *)0;
       }
     if(sortMode == 100)
     {
-      signed int return_value_sortFilesTimes$13;
-      return_value_sortFilesTimes$13=sortFilesTimes(files, fileTimes, cnt);
-      if(return_value_sortFilesTimes$13 == 0)
+      signed int return_value_sortFilesTimes_13;
+      return_value_sortFilesTimes_13=sortFilesTimes(files, fileTimes, cnt);
+      if(return_value_sortFilesTimes_13 == 0)
       {
         free((void *)fileTimes);
         loggerFileFreeFiles(files);
@@ -12851,9 +12851,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
     else
       if(sortMode == 102)
       {
-        signed int return_value_sortFilesNamesDec$14;
-        return_value_sortFilesNamesDec$14=sortFilesNamesDec(files, cnt);
-        if(return_value_sortFilesNamesDec$14 == 0)
+        signed int return_value_sortFilesNamesDec_14;
+        return_value_sortFilesNamesDec_14=sortFilesNamesDec(files, cnt);
+        if(return_value_sortFilesNamesDec_14 == 0)
         {
           free((void *)fileTimes);
           loggerFileFreeFiles(files);
@@ -12864,9 +12864,9 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
 
       else
       {
-        signed int return_value_sortFilesNamesAsc$15;
-        return_value_sortFilesNamesAsc$15=sortFilesNamesAsc(files, cnt);
-        if(return_value_sortFilesNamesAsc$15 == 0)
+        signed int return_value_sortFilesNamesAsc_15;
+        return_value_sortFilesNamesAsc_15=sortFilesNamesAsc(files, cnt);
+        if(return_value_sortFilesNamesAsc_15 == 0)
         {
           free((void *)fileTimes);
           loggerFileFreeFiles(files);
@@ -12883,16 +12883,16 @@ extern signed int ** loggerFileGetFiles(const signed int *pattern, signed int so
 // file logger_file.h line 35
 extern signed int loggerFileGetSortMode(const signed int *modeName)
 {
-  signed int return_value_wcscasecmp$2;
-  return_value_wcscasecmp$2=wcscasecmp(modeName, L"NAMES_ASC");
-  signed int return_value_wcscasecmp$1;
-  if(return_value_wcscasecmp$2 == 0)
+  signed int return_value_wcscasecmp_2;
+  return_value_wcscasecmp_2=wcscasecmp(modeName, L"NAMES_ASC");
+  signed int return_value_wcscasecmp_1;
+  if(return_value_wcscasecmp_2 == 0)
     return 101;
 
   else
   {
-    return_value_wcscasecmp$1=wcscasecmp(modeName, L"NAMES_DEC");
-    if(return_value_wcscasecmp$1 == 0)
+    return_value_wcscasecmp_1=wcscasecmp(modeName, L"NAMES_DEC");
+    if(return_value_wcscasecmp_1 == 0)
       return 102;
 
     else
@@ -12912,22 +12912,22 @@ signed int main(signed int argc, char **cargv)
   if(!(retLocale == ((signed int *)NULL)))
     free((void *)retLocale);
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)argc * sizeof(signed int *) /*8ul*/ );
-  argv = (signed int **)return_value_malloc$1;
-  _Bool tmp_if_expr$15;
-  signed int return_value_wcscasecmp$14;
-  signed int return_value_wcscasecmp$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_wcscasecmp$11;
-  signed int return_value_wcscasecmp$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_wcscasecmp$8;
-  signed int return_value_wcscasecmp$30;
-  _Bool tmp_if_expr$32;
-  signed int return_value_wcscasecmp$31;
-  _Bool tmp_if_expr$21;
-  signed int return_value_getLogfileRollMode$20;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)argc * sizeof(signed int *) /*8ul*/ );
+  argv = (signed int **)return_value_malloc_1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_wcscasecmp_14;
+  signed int return_value_wcscasecmp_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_wcscasecmp_11;
+  signed int return_value_wcscasecmp_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_wcscasecmp_8;
+  signed int return_value_wcscasecmp_30;
+  _Bool tmp_if_expr_32;
+  signed int return_value_wcscasecmp_31;
+  _Bool tmp_if_expr_21;
+  signed int return_value_getLogfileRollMode_20;
   if(argv == ((signed int **)NULL))
   {
     _tprintf(L"Out of Memory in Main\n");
@@ -12949,9 +12949,9 @@ signed int main(signed int argc, char **cargv)
         return 1;
       }
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
-      argv[(signed long int)i] = (signed int *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
+      argv[(signed long int)i] = (signed int *)return_value_malloc_2;
       if(argv[(signed long int)i] == ((signed int *)NULL))
       {
         _tprintf(L"Out of Memory in Main\n");
@@ -12972,9 +12972,9 @@ signed int main(signed int argc, char **cargv)
       mbstowcs(argv[(signed long int)i], cargv[(signed long int)i], req + (unsigned long int)1);
       argv[(signed long int)i][(signed long int)req] = 0;
     }
-    signed int return_value_wrapperInitialize$3;
-    return_value_wrapperInitialize$3=wrapperInitialize();
-    if(!(return_value_wrapperInitialize$3 == 0))
+    signed int return_value_wrapperInitialize_3;
+    return_value_wrapperInitialize_3=wrapperInitialize();
+    if(!(return_value_wrapperInitialize_3 == 0))
     {
       appExit(1, argc, argv);
       return 1;
@@ -12983,9 +12983,9 @@ signed int main(signed int argc, char **cargv)
     else
     {
       wrapperData->wrapperPID=getpid();
-      signed int return_value_setWorkingDir$4;
-      return_value_setWorkingDir$4=setWorkingDir(argv[(signed long int)0]);
-      if(!(return_value_setWorkingDir$4 == 0))
+      signed int return_value_setWorkingDir_4;
+      return_value_setWorkingDir_4=setWorkingDir(argv[(signed long int)0]);
+      if(!(return_value_setWorkingDir_4 == 0))
       {
         appExit(1, argc, argv);
         return 1;
@@ -12993,9 +12993,9 @@ signed int main(signed int argc, char **cargv)
 
       else
       {
-        signed int return_value_wrapperParseArguments$5;
-        return_value_wrapperParseArguments$5=wrapperParseArguments(argc, argv);
-        if(return_value_wrapperParseArguments$5 == 0)
+        signed int return_value_wrapperParseArguments_5;
+        return_value_wrapperParseArguments_5=wrapperParseArguments(argc, argv);
+        if(return_value_wrapperParseArguments_5 == 0)
         {
           appExit(1, argc, argv);
           return 1;
@@ -13004,22 +13004,22 @@ signed int main(signed int argc, char **cargv)
         else
         {
           wrapperLoadHostName();
-          signed int return_value_wcscasecmp$6;
-          return_value_wcscasecmp$6=wcscasecmp(wrapperData->argCommand, L"-translate");
-          if(return_value_wcscasecmp$6 == 0)
+          signed int return_value_wcscasecmp_6;
+          return_value_wcscasecmp_6=wcscasecmp(wrapperData->argCommand, L"-translate");
+          if(return_value_wcscasecmp_6 == 0)
             setSilentLogLevels();
 
-          signed int return_value_wcscasecmp$13;
-          return_value_wcscasecmp$13=wcscasecmp(wrapperData->argCommand, L"?");
-          if(return_value_wcscasecmp$13 == 0)
-            tmp_if_expr$15 = (_Bool)1;
+          signed int return_value_wcscasecmp_13;
+          return_value_wcscasecmp_13=wcscasecmp(wrapperData->argCommand, L"?");
+          if(return_value_wcscasecmp_13 == 0)
+            tmp_if_expr_15 = (_Bool)1;
 
           else
           {
-            return_value_wcscasecmp$14=wcscasecmp(wrapperData->argCommand, L"-help");
-            tmp_if_expr$15 = !(return_value_wcscasecmp$14 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_wcscasecmp_14=wcscasecmp(wrapperData->argCommand, L"-help");
+            tmp_if_expr_15 = !(return_value_wcscasecmp_14 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$15)
+          if(tmp_if_expr_15)
           {
             setSimpleLogLevels();
             wrapperUsage(argv[(signed long int)0]);
@@ -13029,16 +13029,16 @@ signed int main(signed int argc, char **cargv)
 
           else
           {
-            return_value_wcscasecmp$10=wcscasecmp(wrapperData->argCommand, L"v");
-            if(return_value_wcscasecmp$10 == 0)
-              tmp_if_expr$12 = (_Bool)1;
+            return_value_wcscasecmp_10=wcscasecmp(wrapperData->argCommand, L"v");
+            if(return_value_wcscasecmp_10 == 0)
+              tmp_if_expr_12 = (_Bool)1;
 
             else
             {
-              return_value_wcscasecmp$11=wcscasecmp(wrapperData->argCommand, L"-version");
-              tmp_if_expr$12 = !(return_value_wcscasecmp$11 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_wcscasecmp_11=wcscasecmp(wrapperData->argCommand, L"-version");
+              tmp_if_expr_12 = !(return_value_wcscasecmp_11 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$12)
+            if(tmp_if_expr_12)
             {
               setSimpleLogLevels();
               wrapperVersionBanner();
@@ -13048,16 +13048,16 @@ signed int main(signed int argc, char **cargv)
 
             else
             {
-              return_value_wcscasecmp$7=wcscasecmp(wrapperData->argCommand, L"h");
-              if(return_value_wcscasecmp$7 == 0)
-                tmp_if_expr$9 = (_Bool)1;
+              return_value_wcscasecmp_7=wcscasecmp(wrapperData->argCommand, L"h");
+              if(return_value_wcscasecmp_7 == 0)
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value_wcscasecmp$8=wcscasecmp(wrapperData->argCommand, L"-hostid");
-                tmp_if_expr$9 = !(return_value_wcscasecmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_wcscasecmp_8=wcscasecmp(wrapperData->argCommand, L"-hostid");
+                tmp_if_expr_9 = !(return_value_wcscasecmp_8 != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$9)
+              if(tmp_if_expr_9)
               {
                 setSimpleLogLevels();
                 wrapperVersionBanner();
@@ -13068,9 +13068,9 @@ signed int main(signed int argc, char **cargv)
 
             }
           }
-          signed int return_value_wrapperLoadConfigurationProperties$16;
-          return_value_wrapperLoadConfigurationProperties$16=wrapperLoadConfigurationProperties(0);
-          if(!(return_value_wrapperLoadConfigurationProperties$16 == 0))
+          signed int return_value_wrapperLoadConfigurationProperties_16;
+          return_value_wrapperLoadConfigurationProperties_16=wrapperLoadConfigurationProperties(0);
+          if(!(return_value_wrapperLoadConfigurationProperties_16 == 0))
           {
             if(!(wrapperData->argConfFileDefault == 0))
             {
@@ -13086,9 +13086,9 @@ signed int main(signed int argc, char **cargv)
           else
           {
             umask((unsigned int)wrapperData->umask);
-            signed int return_value_wcscasecmp$33;
-            return_value_wcscasecmp$33=wcscasecmp(wrapperData->argCommand, L"-translate");
-            if(return_value_wcscasecmp$33 == 0)
+            signed int return_value_wcscasecmp_33;
+            return_value_wcscasecmp_33=wcscasecmp(wrapperData->argCommand, L"-translate");
+            if(return_value_wcscasecmp_33 == 0)
             {
               setSimpleLogLevels();
               _tprintf(L"%s", argv[(signed long int)2]);
@@ -13098,16 +13098,16 @@ signed int main(signed int argc, char **cargv)
 
             else
             {
-              return_value_wcscasecmp$30=wcscasecmp(wrapperData->argCommand, L"c");
-              if(return_value_wcscasecmp$30 == 0)
-                tmp_if_expr$32 = (_Bool)1;
+              return_value_wcscasecmp_30=wcscasecmp(wrapperData->argCommand, L"c");
+              if(return_value_wcscasecmp_30 == 0)
+                tmp_if_expr_32 = (_Bool)1;
 
               else
               {
-                return_value_wcscasecmp$31=wcscasecmp(wrapperData->argCommand, L"-console");
-                tmp_if_expr$32 = !(return_value_wcscasecmp$31 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_wcscasecmp_31=wcscasecmp(wrapperData->argCommand, L"-console");
+                tmp_if_expr_32 = !(return_value_wcscasecmp_31 != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$32)
+              if(tmp_if_expr_32)
               {
                 if(!(wrapperData->daemonize == 0))
                 {
@@ -13121,9 +13121,9 @@ signed int main(signed int argc, char **cargv)
                   {
                     if(!(wrapperData->originalWorkingDir == ((signed int *)NULL)))
                     {
-                      signed int return_value_wrapperSetWorkingDir$17;
-                      return_value_wrapperSetWorkingDir$17=wrapperSetWorkingDir(wrapperData->originalWorkingDir, -1);
-                      if(!(return_value_wrapperSetWorkingDir$17 == 0))
+                      signed int return_value_wrapperSetWorkingDir_17;
+                      return_value_wrapperSetWorkingDir_17=wrapperSetWorkingDir(wrapperData->originalWorkingDir, -1);
+                      if(!(return_value_wrapperSetWorkingDir_17 == 0))
                       {
                         appExit(1, argc, argv);
                         return 1;
@@ -13133,9 +13133,9 @@ signed int main(signed int argc, char **cargv)
 
                   }
 
-                  signed int return_value_wrapperLoadConfigurationProperties$18;
-                  return_value_wrapperLoadConfigurationProperties$18=wrapperLoadConfigurationProperties(0);
-                  if(!(return_value_wrapperLoadConfigurationProperties$18 == 0))
+                  signed int return_value_wrapperLoadConfigurationProperties_18;
+                  return_value_wrapperLoadConfigurationProperties_18=wrapperLoadConfigurationProperties(0);
+                  if(!(return_value_wrapperLoadConfigurationProperties_18 == 0))
                   {
                     if(!(wrapperData->argConfFileDefault == 0))
                     {
@@ -13150,28 +13150,28 @@ signed int main(signed int argc, char **cargv)
 
                 }
 
-                signed int return_value_getLogfileRollMode$19;
-                return_value_getLogfileRollMode$19=getLogfileRollMode();
-                if(!((4 & return_value_getLogfileRollMode$19) == 0))
-                  tmp_if_expr$21 = (_Bool)1;
+                signed int return_value_getLogfileRollMode_19;
+                return_value_getLogfileRollMode_19=getLogfileRollMode();
+                if(!((4 & return_value_getLogfileRollMode_19) == 0))
+                  tmp_if_expr_21 = (_Bool)1;
 
                 else
                 {
-                  return_value_getLogfileRollMode$20=getLogfileRollMode();
-                  tmp_if_expr$21 = (return_value_getLogfileRollMode$20 & 8) != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_getLogfileRollMode_20=getLogfileRollMode();
+                  tmp_if_expr_21 = (return_value_getLogfileRollMode_20 & 8) != 0 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$21)
+                if(tmp_if_expr_21)
                   rollLogs();
 
                 if(!(wrapperData->pidFilename == ((signed int *)NULL)))
                 {
-                  signed int return_value_writePidFile$23;
-                  return_value_writePidFile$23=writePidFile(wrapperData->pidFilename, (unsigned long int)wrapperData->wrapperPID, wrapperData->pidFileUmask, wrapperData->pidFileStrict);
-                  if(!(return_value_writePidFile$23 == 0))
+                  signed int return_value_writePidFile_23;
+                  return_value_writePidFile_23=writePidFile(wrapperData->pidFilename, (unsigned long int)wrapperData->wrapperPID, wrapperData->pidFileUmask, wrapperData->pidFileStrict);
+                  if(!(return_value_writePidFile_23 == 0))
                   {
-                    const signed int *return_value_getLastErrorText$22;
-                    return_value_getLastErrorText$22=getLastErrorText();
-                    log_printf(-1, 6, L"ERROR: Could not write pid file %s: %s", wrapperData->pidFilename, return_value_getLastErrorText$22);
+                    const signed int *return_value_getLastErrorText_22;
+                    return_value_getLastErrorText_22=getLastErrorText();
+                    log_printf(-1, 6, L"ERROR: Could not write pid file %s: %s", wrapperData->pidFilename, return_value_getLastErrorText_22);
                     wrapperDispose();
                     i = 0;
                     for( ; !(i >= argc); i = i + 1)
@@ -13189,13 +13189,13 @@ signed int main(signed int argc, char **cargv)
 
                 if(!(wrapperData->anchorFilename == ((signed int *)NULL)))
                 {
-                  signed int return_value_writePidFile$25;
-                  return_value_writePidFile$25=writePidFile(wrapperData->anchorFilename, (unsigned long int)wrapperData->wrapperPID, wrapperData->anchorFileUmask, 0);
-                  if(!(return_value_writePidFile$25 == 0))
+                  signed int return_value_writePidFile_25;
+                  return_value_writePidFile_25=writePidFile(wrapperData->anchorFilename, (unsigned long int)wrapperData->wrapperPID, wrapperData->anchorFileUmask, 0);
+                  if(!(return_value_writePidFile_25 == 0))
                   {
-                    const signed int *return_value_getLastErrorText$24;
-                    return_value_getLastErrorText$24=getLastErrorText();
-                    log_printf(-1, 6, L"ERROR: Could not write anchor file %s: %s", wrapperData->anchorFilename, return_value_getLastErrorText$24);
+                    const signed int *return_value_getLastErrorText_24;
+                    return_value_getLastErrorText_24=getLastErrorText();
+                    log_printf(-1, 6, L"ERROR: Could not write anchor file %s: %s", wrapperData->anchorFilename, return_value_getLastErrorText_24);
                     appExit(1, argc, argv);
                     return 1;
                   }
@@ -13204,13 +13204,13 @@ signed int main(signed int argc, char **cargv)
 
                 if(!(wrapperData->lockFilename == ((signed int *)NULL)))
                 {
-                  signed int return_value_writePidFile$27;
-                  return_value_writePidFile$27=writePidFile(wrapperData->lockFilename, (unsigned long int)wrapperData->wrapperPID, wrapperData->lockFileUmask, 0);
-                  if(!(return_value_writePidFile$27 == 0))
+                  signed int return_value_writePidFile_27;
+                  return_value_writePidFile_27=writePidFile(wrapperData->lockFilename, (unsigned long int)wrapperData->wrapperPID, wrapperData->lockFileUmask, 0);
+                  if(!(return_value_writePidFile_27 == 0))
                   {
-                    const signed int *return_value_getLastErrorText$26;
-                    return_value_getLastErrorText$26=getLastErrorText();
-                    log_printf(-1, 3, L"WARNING: Could not write lock file %s: %s", wrapperData->lockFilename, return_value_getLastErrorText$26);
+                    const signed int *return_value_getLastErrorText_26;
+                    return_value_getLastErrorText_26=getLastErrorText();
+                    log_printf(-1, 3, L"WARNING: Could not write lock file %s: %s", wrapperData->lockFilename, return_value_getLastErrorText_26);
                     wrapperData->lockFilename = (signed int *)(void *)0;
                   }
 
@@ -13218,16 +13218,16 @@ signed int main(signed int argc, char **cargv)
 
                 if(!(wrapperData->isConsole == 0))
                 {
-                  signed int return_value_wrapperRunConsole$28;
-                  return_value_wrapperRunConsole$28=wrapperRunConsole();
-                  appExit(return_value_wrapperRunConsole$28, argc, argv);
+                  signed int return_value_wrapperRunConsole_28;
+                  return_value_wrapperRunConsole_28=wrapperRunConsole();
+                  appExit(return_value_wrapperRunConsole_28, argc, argv);
                 }
 
                 else
                 {
-                  signed int return_value_wrapperRunService$29;
-                  return_value_wrapperRunService$29=wrapperRunService();
-                  appExit(return_value_wrapperRunService$29, argc, argv);
+                  signed int return_value_wrapperRunService_29;
+                  return_value_wrapperRunService_29=wrapperRunService();
+                  appExit(return_value_wrapperRunService_29, argc, argv);
                 }
                 return 0;
               }
@@ -13261,16 +13261,16 @@ extern void maintainLogger()
   signed int *logFileCopy;
   if(!(pendingLogFileChange == ((signed int *)NULL)))
   {
-    signed int return_value_lockLoggingMutex$1;
-    return_value_lockLoggingMutex$1=lockLoggingMutex();
-    if(!(return_value_lockLoggingMutex$1 == 0))
+    signed int return_value_lockLoggingMutex_1;
+    return_value_lockLoggingMutex_1=lockLoggingMutex();
+    if(!(return_value_lockLoggingMutex_1 == 0))
       goto __CPROVER_DUMP_L18;
 
     logFileCopy = pendingLogFileChange;
     pendingLogFileChange = (signed int *)(void *)0;
-    signed int return_value_releaseLoggingMutex$2;
-    return_value_releaseLoggingMutex$2=releaseLoggingMutex();
-    if(!(return_value_releaseLoggingMutex$2 == 0))
+    signed int return_value_releaseLoggingMutex_2;
+    return_value_releaseLoggingMutex_2=releaseLoggingMutex();
+    if(!(return_value_releaseLoggingMutex_2 == 0))
       goto __CPROVER_DUMP_L18;
 
     if(!(logFileCopy == ((signed int *)NULL)))
@@ -13290,9 +13290,9 @@ extern void maintainLogger()
     {
       logFileChanged = 0;
       logFileCopy = (signed int *)(void *)0;
-      signed int return_value_lockLoggingMutex$3;
-      return_value_lockLoggingMutex$3=lockLoggingMutex();
-      if(!(return_value_lockLoggingMutex$3 == 0))
+      signed int return_value_lockLoggingMutex_3;
+      return_value_lockLoggingMutex_3=lockLoggingMutex();
+      if(!(return_value_lockLoggingMutex_3 == 0))
         goto __CPROVER_DUMP_L18;
 
       localWriteIndex = queueWriteIndex[(signed long int)threadId];
@@ -13304,19 +13304,19 @@ extern void maintainLogger()
         logFileChanged=log_printf_message(source_id, level, threadId, -1, buffer, -1);
         if(!(logFileChanged == 0))
         {
-          unsigned long int return_value_wcslen$4;
-          return_value_wcslen$4=wcslen(currentLogFileName);
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$4 + (unsigned long int)1));
-          logFileCopy = (signed int *)return_value_malloc$5;
+          unsigned long int return_value_wcslen_4;
+          return_value_wcslen_4=wcslen(currentLogFileName);
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_4 + (unsigned long int)1));
+          logFileCopy = (signed int *)return_value_malloc_5;
           if(logFileCopy == ((signed int *)NULL))
             _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"ML1");
 
           else
           {
-            unsigned long int return_value_wcslen$6;
-            return_value_wcslen$6=wcslen(currentLogFileName);
-            wcsncpy(logFileCopy, currentLogFileName, return_value_wcslen$6 + (unsigned long int)1);
+            unsigned long int return_value_wcslen_6;
+            return_value_wcslen_6=wcslen(currentLogFileName);
+            wcsncpy(logFileCopy, currentLogFileName, return_value_wcslen_6 + (unsigned long int)1);
           }
         }
 
@@ -13326,9 +13326,9 @@ extern void maintainLogger()
           queueReadIndex[(signed long int)threadId] = 0;
 
       }
-      signed int return_value_releaseLoggingMutex$7;
-      return_value_releaseLoggingMutex$7=releaseLoggingMutex();
-      if(!(return_value_releaseLoggingMutex$7 == 0))
+      signed int return_value_releaseLoggingMutex_7;
+      return_value_releaseLoggingMutex_7=releaseLoggingMutex();
+      if(!(return_value_releaseLoggingMutex_7 == 0))
       {
         if(!(logFileCopy == ((signed int *)NULL)) && !(logFileChanged == 0))
           free((void *)logFileCopy);
@@ -13400,63 +13400,63 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
   signed int redoIConv;
   unsigned long int wideCharLen;
   *outputBufferW = (signed int *)(void *)0;
-  signed int tmp_statement_expression$29;
+  signed int tmp_statement_expression_29;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$30;
-  return_value___builtin_strcmp$30=__builtin_strcmp(multiByteEncoding, interumEncoding);
-  tmp_statement_expression$29 = return_value___builtin_strcmp$30;
-  _Bool tmp_if_expr$33;
-  signed int tmp_statement_expression$31;
-  if(!(tmp_statement_expression$29 == 0))
+  signed int return_value___builtin_strcmp_30;
+  return_value___builtin_strcmp_30=__builtin_strcmp(multiByteEncoding, interumEncoding);
+  tmp_statement_expression_29 = return_value___builtin_strcmp_30;
+  _Bool tmp_if_expr_33;
+  signed int tmp_statement_expression_31;
+  if(!(tmp_statement_expression_29 == 0))
   {
-    unsigned long int multiByteToWideChar$$1$$2$$__s1_len;
-    unsigned long int multiByteToWideChar$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$32;
-    return_value___builtin_strcmp$32=__builtin_strcmp(interumEncoding, "646");
-    tmp_statement_expression$31 = return_value___builtin_strcmp$32;
-    tmp_if_expr$33 = tmp_statement_expression$31 != 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int multiByteToWideChar__1__2____s1_len;
+    unsigned long int multiByteToWideChar__1__2____s2_len;
+    signed int return_value___builtin_strcmp_32;
+    return_value___builtin_strcmp_32=__builtin_strcmp(interumEncoding, "646");
+    tmp_statement_expression_31 = return_value___builtin_strcmp_32;
+    tmp_if_expr_33 = tmp_statement_expression_31 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$33 = (_Bool)0;
-  int *tmp_if_expr$1;
-  int *tmp_if_expr$6;
-  int *tmp_if_expr$14;
-  unsigned long int return_value_wcslen$15;
-  void *return_value_malloc$16;
-  int *tmp_if_expr$17;
-  unsigned long int return_value_wcslen$18;
-  void *return_value_malloc$19;
-  int *tmp_if_expr$20;
-  unsigned long int return_value_wcslen$21;
-  void *return_value_malloc$22;
-  int *tmp_if_expr$24;
-  if(tmp_if_expr$33)
+    tmp_if_expr_33 = (_Bool)0;
+  int *tmp_if_expr_1;
+  int *tmp_if_expr_6;
+  int *tmp_if_expr_14;
+  unsigned long int return_value_wcslen_15;
+  void *return_value_malloc_16;
+  int *tmp_if_expr_17;
+  unsigned long int return_value_wcslen_18;
+  void *return_value_malloc_19;
+  int *tmp_if_expr_20;
+  unsigned long int return_value_wcslen_21;
+  void *return_value_malloc_22;
+  int *tmp_if_expr_24;
+  if(tmp_if_expr_33)
   {
     conv_desc=iconv_open(interumEncoding, multiByteEncoding);
     if(conv_desc == (void *)-1)
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      if(*return_value___errno_location$10 == 22)
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      if(*return_value___errno_location_10 == 22)
       {
         if(!(localizeErrorMessage == 0))
-          tmp_if_expr$1 = L"Conversion from '% s' to '% s' is not supported.";
+          tmp_if_expr_1 = L"Conversion from '% s' to '% s' is not supported.";
 
         else
-          tmp_if_expr$1 = L"Conversion from '% s' to '% s' is not supported.";
-        errorTemplate = tmp_if_expr$1;
-        unsigned long int return_value_wcslen$2;
-        return_value_wcslen$2=wcslen(errorTemplate);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(multiByteEncoding);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(interumEncoding);
-        errorTemplateLen = return_value_wcslen$2 + return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)1;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
-        *outputBufferW = (signed int *)return_value_malloc$5;
+          tmp_if_expr_1 = L"Conversion from '% s' to '% s' is not supported.";
+        errorTemplate = tmp_if_expr_1;
+        unsigned long int return_value_wcslen_2;
+        return_value_wcslen_2=wcslen(errorTemplate);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(multiByteEncoding);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(interumEncoding);
+        errorTemplateLen = return_value_wcslen_2 + return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)1;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
+        *outputBufferW = (signed int *)return_value_malloc_5;
         if(!(*outputBufferW == ((signed int *)NULL)))
           _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, multiByteEncoding, interumEncoding);
 
@@ -13466,22 +13466,22 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
       else
       {
         if(!(localizeErrorMessage == 0))
-          tmp_if_expr$6 = L"Initialization failure in iconv: %d";
+          tmp_if_expr_6 = L"Initialization failure in iconv: %d";
 
         else
-          tmp_if_expr$6 = L"Initialization failure in iconv: %d";
-        errorTemplate = tmp_if_expr$6;
-        unsigned long int return_value_wcslen$7;
-        return_value_wcslen$7=wcslen(errorTemplate);
-        errorTemplateLen = return_value_wcslen$7 + (unsigned long int)10 + (unsigned long int)1;
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
-        *outputBufferW = (signed int *)return_value_malloc$8;
+          tmp_if_expr_6 = L"Initialization failure in iconv: %d";
+        errorTemplate = tmp_if_expr_6;
+        unsigned long int return_value_wcslen_7;
+        return_value_wcslen_7=wcslen(errorTemplate);
+        errorTemplateLen = return_value_wcslen_7 + (unsigned long int)10 + (unsigned long int)1;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
+        *outputBufferW = (signed int *)return_value_malloc_8;
         if(!(*outputBufferW == ((signed int *)NULL)))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location$9);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location_9);
         }
 
         return -1;
@@ -13491,9 +13491,9 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
     multiByteCharsLen=strlen(multiByteChars);
     if(multiByteCharsLen == 0ul)
     {
-      void *return_value_malloc$11;
-      return_value_malloc$11=malloc(sizeof(signed int) /*4ul*/ );
-      *outputBufferW = (signed int *)return_value_malloc$11;
+      void *return_value_malloc_11;
+      return_value_malloc_11=malloc(sizeof(signed int) /*4ul*/ );
+      *outputBufferW = (signed int *)return_value_malloc_11;
       if(!(*outputBufferW == ((signed int *)NULL)))
       {
         (*outputBufferW)[(signed long int)0] = 0;
@@ -13515,9 +13515,9 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
 
       multiByteCharsLenStart = multiByteCharsLen;
       multiByteCharsStart = (char *)multiByteChars;
-      void *return_value_malloc$12;
-      return_value_malloc$12=malloc(nativeCharLen);
-      nativeCharStart = (char *)return_value_malloc$12;
+      void *return_value_malloc_12;
+      return_value_malloc_12=malloc(nativeCharLen);
+      nativeCharStart = (char *)return_value_malloc_12;
       if(nativeCharStart == ((char *)NULL))
       {
         *outputBufferW = (signed int *)(void *)0;
@@ -13529,23 +13529,23 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
       iconv_value=iconv(conv_desc, &multiByteCharsStart, &multiByteCharsLenStart, &nativeCharStartCopy, &nativeCharLenCopy);
       if(iconv_value == 18446744073709551615ul)
       {
-        signed int *return_value___errno_location$13;
-        return_value___errno_location$13=__errno_location();
-        switch(*return_value___errno_location$13)
+        signed int *return_value___errno_location_13;
+        return_value___errno_location_13=__errno_location();
+        switch(*return_value___errno_location_13)
         {
           case 84:
           {
             free((void *)nativeCharStart);
             if(!(localizeErrorMessage == 0))
-              tmp_if_expr$14 = L"Invalid multibyte sequence.";
+              tmp_if_expr_14 = L"Invalid multibyte sequence.";
 
             else
-              tmp_if_expr$14 = L"Invalid multibyte sequence.";
-            errorTemplate = tmp_if_expr$14;
-            return_value_wcslen$15=wcslen(errorTemplate);
-            errorTemplateLen = return_value_wcslen$15 + (unsigned long int)1;
-            return_value_malloc$16=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
-            *outputBufferW = (signed int *)return_value_malloc$16;
+              tmp_if_expr_14 = L"Invalid multibyte sequence.";
+            errorTemplate = tmp_if_expr_14;
+            return_value_wcslen_15=wcslen(errorTemplate);
+            errorTemplateLen = return_value_wcslen_15 + (unsigned long int)1;
+            return_value_malloc_16=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
+            *outputBufferW = (signed int *)return_value_malloc_16;
             if(!(*outputBufferW == ((signed int *)NULL)))
               _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate);
 
@@ -13555,15 +13555,15 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
           {
             free((void *)nativeCharStart);
             if(!(localizeErrorMessage == 0))
-              tmp_if_expr$17 = L"Incomplete multibyte sequence.";
+              tmp_if_expr_17 = L"Incomplete multibyte sequence.";
 
             else
-              tmp_if_expr$17 = L"Incomplete multibyte sequence.";
-            errorTemplate = tmp_if_expr$17;
-            return_value_wcslen$18=wcslen(errorTemplate);
-            errorTemplateLen = return_value_wcslen$18 + (unsigned long int)1;
-            return_value_malloc$19=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
-            *outputBufferW = (signed int *)return_value_malloc$19;
+              tmp_if_expr_17 = L"Incomplete multibyte sequence.";
+            errorTemplate = tmp_if_expr_17;
+            return_value_wcslen_18=wcslen(errorTemplate);
+            errorTemplateLen = return_value_wcslen_18 + (unsigned long int)1;
+            return_value_malloc_19=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
+            *outputBufferW = (signed int *)return_value_malloc_19;
             if(!(*outputBufferW == ((signed int *)NULL)))
               _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate);
 
@@ -13579,20 +13579,20 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
           {
             free((void *)nativeCharStart);
             if(!(localizeErrorMessage == 0))
-              tmp_if_expr$20 = L"Unexpected iconv error: %d";
+              tmp_if_expr_20 = L"Unexpected iconv error: %d";
 
             else
-              tmp_if_expr$20 = L"Unexpected iconv error: %d";
-            errorTemplate = tmp_if_expr$20;
-            return_value_wcslen$21=wcslen(errorTemplate);
-            errorTemplateLen = return_value_wcslen$21 + (unsigned long int)10 + (unsigned long int)1;
-            return_value_malloc$22=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
-            *outputBufferW = (signed int *)return_value_malloc$22;
+              tmp_if_expr_20 = L"Unexpected iconv error: %d";
+            errorTemplate = tmp_if_expr_20;
+            return_value_wcslen_21=wcslen(errorTemplate);
+            errorTemplateLen = return_value_wcslen_21 + (unsigned long int)10 + (unsigned long int)1;
+            return_value_malloc_22=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
+            *outputBufferW = (signed int *)return_value_malloc_22;
             if(!(*outputBufferW == ((signed int *)NULL)))
             {
-              signed int *return_value___errno_location$23;
-              return_value___errno_location$23=__errno_location();
-              _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location$23);
+              signed int *return_value___errno_location_23;
+              return_value___errno_location_23=__errno_location();
+              _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location_23);
             }
 
             return -1;
@@ -13602,28 +13602,28 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
 
     }
     while(!(redoIConv == 0));
-    signed int return_value_iconv_close$28;
-    return_value_iconv_close$28=iconv_close(conv_desc);
-    if(!(return_value_iconv_close$28 == 0))
+    signed int return_value_iconv_close_28;
+    return_value_iconv_close_28=iconv_close(conv_desc);
+    if(!(return_value_iconv_close_28 == 0))
     {
       free((void *)nativeCharStart);
       if(!(localizeErrorMessage == 0))
-        tmp_if_expr$24 = L"Cleanup failure in iconv: %d";
+        tmp_if_expr_24 = L"Cleanup failure in iconv: %d";
 
       else
-        tmp_if_expr$24 = L"Cleanup failure in iconv: %d";
-      errorTemplate = tmp_if_expr$24;
-      unsigned long int return_value_wcslen$25;
-      return_value_wcslen$25=wcslen(errorTemplate);
-      errorTemplateLen = return_value_wcslen$25 + (unsigned long int)10 + (unsigned long int)1;
-      void *return_value_malloc$26;
-      return_value_malloc$26=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
-      *outputBufferW = (signed int *)return_value_malloc$26;
+        tmp_if_expr_24 = L"Cleanup failure in iconv: %d";
+      errorTemplate = tmp_if_expr_24;
+      unsigned long int return_value_wcslen_25;
+      return_value_wcslen_25=wcslen(errorTemplate);
+      errorTemplateLen = return_value_wcslen_25 + (unsigned long int)10 + (unsigned long int)1;
+      void *return_value_malloc_26;
+      return_value_malloc_26=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
+      *outputBufferW = (signed int *)return_value_malloc_26;
       if(!(*outputBufferW == ((signed int *)NULL)))
       {
-        signed int *return_value___errno_location$27;
-        return_value___errno_location$27=__errno_location();
-        _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location$27);
+        signed int *return_value___errno_location_27;
+        return_value___errno_location_27=__errno_location();
+        _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location_27);
       }
 
       return -1;
@@ -13638,56 +13638,56 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
     didIConv = 0;
   }
   wideCharLen=mbstowcs((signed int *)(void *)0, nativeCharStart, (unsigned long int)0);
-  int *tmp_if_expr$34;
-  int *tmp_if_expr$36;
+  int *tmp_if_expr_34;
+  int *tmp_if_expr_36;
   if(wideCharLen == 18446744073709551615ul)
   {
     if(!(didIConv == 0))
       free((void *)nativeCharStart);
 
-    signed int *return_value___errno_location$38;
-    return_value___errno_location$38=__errno_location();
-    if(*return_value___errno_location$38 == 84)
+    signed int *return_value___errno_location_38;
+    return_value___errno_location_38=__errno_location();
+    if(*return_value___errno_location_38 == 84)
     {
       if(!(localizeErrorMessage == 0))
-        tmp_if_expr$34 = L"Invalid multibyte sequence.";
+        tmp_if_expr_34 = L"Invalid multibyte sequence.";
 
       else
-        tmp_if_expr$34 = L"Invalid multibyte sequence.";
-      errorTemplate = tmp_if_expr$34;
-      unsigned long int return_value_wcslen$35;
-      return_value_wcslen$35=wcslen(errorTemplate);
-      errorTemplateLen = return_value_wcslen$35 + (unsigned long int)1;
+        tmp_if_expr_34 = L"Invalid multibyte sequence.";
+      errorTemplate = tmp_if_expr_34;
+      unsigned long int return_value_wcslen_35;
+      return_value_wcslen_35=wcslen(errorTemplate);
+      errorTemplateLen = return_value_wcslen_35 + (unsigned long int)1;
     }
 
     else
     {
       if(!(localizeErrorMessage == 0))
-        tmp_if_expr$36 = L"Unexpected iconv error: %d";
+        tmp_if_expr_36 = L"Unexpected iconv error: %d";
 
       else
-        tmp_if_expr$36 = L"Unexpected iconv error: %d";
-      errorTemplate = tmp_if_expr$36;
-      unsigned long int return_value_wcslen$37;
-      return_value_wcslen$37=wcslen(errorTemplate);
-      errorTemplateLen = return_value_wcslen$37 + (unsigned long int)10 + (unsigned long int)1;
+        tmp_if_expr_36 = L"Unexpected iconv error: %d";
+      errorTemplate = tmp_if_expr_36;
+      unsigned long int return_value_wcslen_37;
+      return_value_wcslen_37=wcslen(errorTemplate);
+      errorTemplateLen = return_value_wcslen_37 + (unsigned long int)10 + (unsigned long int)1;
     }
-    void *return_value_malloc$39;
-    return_value_malloc$39=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
-    *outputBufferW = (signed int *)return_value_malloc$39;
+    void *return_value_malloc_39;
+    return_value_malloc_39=malloc(sizeof(signed int) /*4ul*/  * errorTemplateLen);
+    *outputBufferW = (signed int *)return_value_malloc_39;
     if(!(*outputBufferW == ((signed int *)NULL)))
     {
-      signed int *return_value___errno_location$40;
-      return_value___errno_location$40=__errno_location();
-      _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location$40);
+      signed int *return_value___errno_location_40;
+      return_value___errno_location_40=__errno_location();
+      _sntprintf(*outputBufferW, errorTemplateLen, errorTemplate, *return_value___errno_location_40);
     }
 
     return -1;
   }
 
-  void *return_value_malloc$41;
-  return_value_malloc$41=malloc(sizeof(signed int) /*4ul*/  * (wideCharLen + (unsigned long int)1));
-  *outputBufferW = (signed int *)return_value_malloc$41;
+  void *return_value_malloc_41;
+  return_value_malloc_41=malloc(sizeof(signed int) /*4ul*/  * (wideCharLen + (unsigned long int)1));
+  *outputBufferW = (signed int *)return_value_malloc_41;
   if(*outputBufferW == ((signed int *)NULL))
   {
     if(!(didIConv == 0))
@@ -13709,51 +13709,51 @@ extern signed int multiByteToWideChar(const char *multiByteChars, const char *mu
 
 // newHashMap
 // file wrapper_hashmap.h line 57
-extern struct anonymous$19 * newHashMap(signed int bucketCount)
+extern struct anonymous_19 * newHashMap(signed int bucketCount)
 {
   signed int i;
-  struct anonymous$19 *hashMap;
-  struct anonymous$21 *bucket;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$19) /*16ul*/ );
-  hashMap = (struct anonymous$19 *)return_value_malloc$1;
-  if(hashMap == ((struct anonymous$19 *)NULL))
+  struct anonymous_19 *hashMap;
+  struct anonymous_21 *bucket;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_19) /*16ul*/ );
+  hashMap = (struct anonymous_19 *)return_value_malloc_1;
+  if(hashMap == ((struct anonymous_19 *)NULL))
   {
     _tprintf(L"Out of memory (%s)\n", (const void *)L"NHM1");
-    return (struct anonymous$19 *)(void *)0;
+    return (struct anonymous_19 *)(void *)0;
   }
 
   else
   {
-    memset((void *)hashMap, 0, sizeof(struct anonymous$19) /*16ul*/ );
+    memset((void *)hashMap, 0, sizeof(struct anonymous_19) /*16ul*/ );
     hashMap->bucketCount = bucketCount;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct anonymous$21 *) /*8ul*/  * (unsigned long int)bucketCount);
-    hashMap->buckets = (struct anonymous$21 **)return_value_malloc$2;
-    if(hashMap->buckets == ((struct anonymous$21 **)NULL))
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct anonymous_21 *) /*8ul*/  * (unsigned long int)bucketCount);
+    hashMap->buckets = (struct anonymous_21 **)return_value_malloc_2;
+    if(hashMap->buckets == ((struct anonymous_21 **)NULL))
     {
       _tprintf(L"Out of memory (%s)\n", (const void *)L"NHM2");
       freeHashMap(hashMap);
-      return (struct anonymous$19 *)(void *)0;
+      return (struct anonymous_19 *)(void *)0;
     }
 
     else
     {
-      memset((void *)hashMap->buckets, 0, sizeof(struct anonymous$21 *) /*8ul*/  * (unsigned long int)bucketCount);
+      memset((void *)hashMap->buckets, 0, sizeof(struct anonymous_21 *) /*8ul*/  * (unsigned long int)bucketCount);
       i = 0;
       for( ; !(i >= hashMap->bucketCount); i = i + 1)
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct anonymous$21) /*16ul*/ );
-        bucket = (struct anonymous$21 *)return_value_malloc$3;
-        if(bucket == ((struct anonymous$21 *)NULL))
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct anonymous_21) /*16ul*/ );
+        bucket = (struct anonymous_21 *)return_value_malloc_3;
+        if(bucket == ((struct anonymous_21 *)NULL))
         {
           _tprintf(L"Out of memory (%s)\n", (const void *)L"NHM3");
           freeHashMap(hashMap);
-          return (struct anonymous$19 *)(void *)0;
+          return (struct anonymous_19 *)(void *)0;
         }
 
-        memset((void *)bucket, 0, sizeof(struct anonymous$21) /*16ul*/ );
+        memset((void *)bucket, 0, sizeof(struct anonymous_21) /*16ul*/ );
         hashMap->buckets[(signed long int)i] = bucket;
       }
       return hashMap;
@@ -13765,21 +13765,21 @@ extern struct anonymous$19 * newHashMap(signed int bucketCount)
 // file logger_base.h line 69
 extern void outOfMemory(const signed int *context, signed int id)
 {
-  const signed int *return_value_getLastErrorText$1;
-  return_value_getLastErrorText$1=getLastErrorText();
-  log_printf(-1, 6, L"Out of memory (%s%02d). %s", context, id, return_value_getLastErrorText$1);
+  const signed int *return_value_getLastErrorText_1;
+  return_value_getLastErrorText_1=getLastErrorText();
+  log_printf(-1, 6, L"Out of memory (%s%02d). %s", context, id, return_value_getLastErrorText_1);
 }
 
 // outOfMemoryQueued
 // file logger.h line 103
 extern void outOfMemoryQueued(const signed int *context, signed int id)
 {
-  const signed int *return_value_getLastErrorText$1;
-  return_value_getLastErrorText$1=getLastErrorText();
-  _tprintf(L"Out of memory (%s%02d). %s\n", context, id, return_value_getLastErrorText$1);
-  const signed int *return_value_getLastErrorText$2;
-  return_value_getLastErrorText$2=getLastErrorText();
-  log_printf_queue(-1, -1, 6, L"Out of memory (%s%02d). %s", context, id, return_value_getLastErrorText$2);
+  const signed int *return_value_getLastErrorText_1;
+  return_value_getLastErrorText_1=getLastErrorText();
+  _tprintf(L"Out of memory (%s%02d). %s\n", context, id, return_value_getLastErrorText_1);
+  const signed int *return_value_getLastErrorText_2;
+  return_value_getLastErrorText_2=getLastErrorText();
+  log_printf_queue(-1, -1, 6, L"Out of memory (%s%02d). %s", context, id, return_value_getLastErrorText_2);
 }
 
 // pauseThread
@@ -13805,9 +13805,9 @@ signed int * preparePrintBuffer(unsigned long int reqSize)
 {
   if(threadPrintBuffer == ((signed int *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * reqSize);
-    threadPrintBuffer = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * reqSize);
+    threadPrintBuffer = (signed int *)return_value_malloc_1;
     if(threadPrintBuffer == ((signed int *)NULL))
     {
       _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"PPB1");
@@ -13822,9 +13822,9 @@ signed int * preparePrintBuffer(unsigned long int reqSize)
     if(!(threadPrintBufferSize >= reqSize))
     {
       free((void *)threadPrintBuffer);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * reqSize);
-      threadPrintBuffer = (signed int *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * reqSize);
+      threadPrintBuffer = (signed int *)return_value_malloc_2;
       if(threadPrintBuffer == ((signed int *)NULL))
       {
         _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"PPB2");
@@ -13843,23 +13843,23 @@ signed int * preparePrintBuffer(unsigned long int reqSize)
 void prepareProperty(struct Properties *properties, struct Property *property, signed int warnUndefinedVars)
 {
   signed int *oldValue;
-  signed int *return_value_wcsstr$4;
-  return_value_wcsstr$4=wcsstr(property->value, L"%");
-  if(!(return_value_wcsstr$4 == ((signed int *)NULL)))
+  signed int *return_value_wcsstr_4;
+  return_value_wcsstr_4=wcsstr(property->value, L"%");
+  if(!(return_value_wcsstr_4 == ((signed int *)NULL)))
   {
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(property->value);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-    oldValue = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(property->value);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+    oldValue = (signed int *)return_value_malloc_2;
     if(oldValue == ((signed int *)NULL))
       outOfMemory(L"PP", 1);
 
     else
     {
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(property->value);
-      wcsncpy(oldValue, property->value, return_value_wcslen$3 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(property->value);
+      wcsncpy(oldValue, property->value, return_value_wcslen_3 + (unsigned long int)1);
       setInnerProperty(properties, property, oldValue, warnUndefinedVars);
       free((void *)oldValue);
     }
@@ -13901,27 +13901,27 @@ void protocolClosePipe()
     if(!(wrapperData->isDebugging == 0))
       log_printf(-2, 1, L"Closing backend pipe.");
 
-    signed int return_value_close$2;
-    return_value_close$2=close(protocolActiveServerPipeIn);
-    if(return_value_close$2 == -1)
+    signed int return_value_close_2;
+    return_value_close_2=close(protocolActiveServerPipeIn);
+    if(return_value_close_2 == -1)
     {
-      const signed int *return_value_getLastErrorText$1;
-      return_value_getLastErrorText$1=getLastErrorText();
-      log_printf(-2, 5, L"Failed to close backend pipe: %s", return_value_getLastErrorText$1);
+      const signed int *return_value_getLastErrorText_1;
+      return_value_getLastErrorText_1=getLastErrorText();
+      log_printf(-2, 5, L"Failed to close backend pipe: %s", return_value_getLastErrorText_1);
     }
 
-    signed int return_value_close$4;
-    return_value_close$4=close(protocolActiveServerPipeOut);
-    if(return_value_close$4 == -1)
+    signed int return_value_close_4;
+    return_value_close_4=close(protocolActiveServerPipeOut);
+    if(return_value_close_4 == -1)
     {
-      const signed int *return_value_getLastErrorText$3;
-      return_value_getLastErrorText$3=getLastErrorText();
-      log_printf(-2, 5, L"Failed to close backend pipe: %s", return_value_getLastErrorText$3);
+      const signed int *return_value_getLastErrorText_3;
+      return_value_getLastErrorText_3=getLastErrorText();
+      log_printf(-2, 5, L"Failed to close backend pipe: %s", return_value_getLastErrorText_3);
     }
 
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * (pipeNameLen + (unsigned long int)1));
-    pipeName = (signed int *)return_value_malloc$5;
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(sizeof(signed int) /*4ul*/  * (pipeNameLen + (unsigned long int)1));
+    pipeName = (signed int *)return_value_malloc_5;
     if(pipeName == ((signed int *)NULL))
     {
       outOfMemory(L"PCP", 1);
@@ -13958,9 +13958,9 @@ void protocolCloseSocket()
     {
       if(!(wrapperData->isDebugging == 0))
       {
-        signed int return_value_wrapperGetLastError$1;
-        return_value_wrapperGetLastError$1=wrapperGetLastError();
-        log_printf(-2, 1, L"socket close failed. (%d)", return_value_wrapperGetLastError$1);
+        signed int return_value_wrapperGetLastError_1;
+        return_value_wrapperGetLastError_1=wrapperGetLastError();
+        log_printf(-2, 1, L"socket close failed. (%d)", return_value_wrapperGetLastError_1);
       }
 
     }
@@ -13992,9 +13992,9 @@ void protocolOpenPipe()
   unsigned long int pipeNameLen;
   signed int *pipeName;
   pipeNameLen = (unsigned long int)(12 + 10 + 1 + 10 + 3);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (pipeNameLen + (unsigned long int)1));
-  pipeName = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (pipeNameLen + (unsigned long int)1));
+  pipeName = (signed int *)return_value_malloc_1;
   if(pipeName == ((signed int *)NULL))
     outOfMemory(L"PSSP", 1);
 
@@ -14034,10 +14034,10 @@ void protocolOpenSocket(signed int IPv4)
   signed int newBackendSD = -1;
   char straddr[256l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   signed int port;
-  unsigned short int tmp_statement_expression$5;
-  unsigned short int tmp_statement_expression$6;
-  unsigned short int tmp_statement_expression$8;
-  unsigned short int tmp_statement_expression$9;
+  unsigned short int tmp_statement_expression_5;
+  unsigned short int tmp_statement_expression_6;
+  unsigned short int tmp_statement_expression_8;
+  unsigned short int tmp_statement_expression_9;
   if(!(protocolActiveServerSD == -1))
   {
     if(!(IPv4 == 0))
@@ -14058,9 +14058,9 @@ void protocolOpenSocket(signed int IPv4)
 
       if(!(wrapperData->isDebugging == 0))
       {
-        const signed int *return_value_getLastErrorText$1;
-        return_value_getLastErrorText$1=getLastErrorText();
-        log_printf(-2, 1, L"socket creation failed. (%s)", return_value_getLastErrorText$1);
+        const signed int *return_value_getLastErrorText_1;
+        return_value_getLastErrorText_1=getLastErrorText();
+        log_printf(-2, 1, L"socket creation failed. (%s)", return_value_getLastErrorText_1);
       }
 
     }
@@ -14072,20 +14072,20 @@ void protocolOpenSocket(signed int IPv4)
 
       else
         inet_ntop(10, (const void *)&addr_srv6.sin6_addr, straddr, (unsigned int)sizeof(char [256l]) /*256ul*/ );
-      unsigned long int return_value_mbstowcs$2;
-      return_value_mbstowcs$2=mbstowcs((signed int *)(void *)0, straddr, (unsigned long int)0);
-      req = (signed int)return_value_mbstowcs$2;
+      unsigned long int return_value_mbstowcs_2;
+      return_value_mbstowcs_2=mbstowcs((signed int *)(void *)0, straddr, (unsigned long int)0);
+      req = (signed int)return_value_mbstowcs_2;
       if((unsigned long int)req == 18446744073709551615ul)
       {
-        const signed int *return_value_getLastErrorText$3;
-        return_value_getLastErrorText$3=getLastErrorText();
-        log_printf(-2, 4, L"Invalid multibyte sequence in %s: %s", (const void *)L"network address", return_value_getLastErrorText$3);
+        const signed int *return_value_getLastErrorText_3;
+        return_value_getLastErrorText_3=getLastErrorText();
+        log_printf(-2, 4, L"Invalid multibyte sequence in %s: %s", (const void *)L"network address", return_value_getLastErrorText_3);
         goto __CPROVER_DUMP_L30;
       }
 
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(req + 1));
-      socketSource = (signed int *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(req + 1));
+      socketSource = (signed int *)return_value_malloc_4;
       if(socketSource == ((signed int *)NULL))
         outOfMemory(L"PO", 2);
 
@@ -14099,18 +14099,18 @@ void protocolOpenSocket(signed int IPv4)
           {
             unsigned short int __v;
             unsigned short int __x = (unsigned short int)addr_srv4.sin_port;
-            asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-            tmp_statement_expression$5 = __v;
-            port = (signed int)tmp_statement_expression$5;
+            asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+            tmp_statement_expression_5 = __v;
+            port = (signed int)tmp_statement_expression_5;
           }
 
           else
           {
-            unsigned short int protocolOpenSocket$$1$$11$$2$$1$$__v;
-            unsigned short int protocolOpenSocket$$1$$11$$2$$1$$__x = (unsigned short int)addr_srv6.sin6_port;
-            asm("rorw $8, %w0" : "=r"(protocolOpenSocket$$1$$11$$2$$1$$__v) : "0"(protocolOpenSocket$$1$$11$$2$$1$$__x) : "cc");
-            tmp_statement_expression$6 = protocolOpenSocket$$1$$11$$2$$1$$__v;
-            port = (signed int)tmp_statement_expression$6;
+            unsigned short int protocolOpenSocket__1__11__2__1____v;
+            unsigned short int protocolOpenSocket__1__11__2__1____x = (unsigned short int)addr_srv6.sin6_port;
+            asm("rorw _8, %w0" : "=r"(protocolOpenSocket__1__11__2__1____v) : "0"(protocolOpenSocket__1__11__2__1____x) : "cc");
+            tmp_statement_expression_6 = protocolOpenSocket__1__11__2__1____v;
+            port = (signed int)tmp_statement_expression_6;
           }
           log_printf(-2, 4, L"Ignoring unexpected backend socket connection from %s on port %d", socketSource, port);
           free((void *)socketSource);
@@ -14119,9 +14119,9 @@ void protocolOpenSocket(signed int IPv4)
           {
             if(!(wrapperData->isDebugging == 0))
             {
-              signed int return_value_wrapperGetLastError$7;
-              return_value_wrapperGetLastError$7=wrapperGetLastError();
-              log_printf(-2, 1, L"socket close failed. (%d)", return_value_wrapperGetLastError$7);
+              signed int return_value_wrapperGetLastError_7;
+              return_value_wrapperGetLastError_7=wrapperGetLastError();
+              log_printf(-2, 1, L"socket close failed. (%d)", return_value_wrapperGetLastError_7);
             }
 
           }
@@ -14135,20 +14135,20 @@ void protocolOpenSocket(signed int IPv4)
           {
             if(!(IPv4 == 0))
             {
-              unsigned short int protocolOpenSocket$$1$$12$$1$$1$$__v;
-              unsigned short int protocolOpenSocket$$1$$12$$1$$1$$__x = (unsigned short int)addr_srv4.sin_port;
-              asm("rorw $8, %w0" : "=r"(protocolOpenSocket$$1$$12$$1$$1$$__v) : "0"(protocolOpenSocket$$1$$12$$1$$1$$__x) : "cc");
-              tmp_statement_expression$8 = protocolOpenSocket$$1$$12$$1$$1$$__v;
-              port = (signed int)tmp_statement_expression$8;
+              unsigned short int protocolOpenSocket__1__12__1__1____v;
+              unsigned short int protocolOpenSocket__1__12__1__1____x = (unsigned short int)addr_srv4.sin_port;
+              asm("rorw _8, %w0" : "=r"(protocolOpenSocket__1__12__1__1____v) : "0"(protocolOpenSocket__1__12__1__1____x) : "cc");
+              tmp_statement_expression_8 = protocolOpenSocket__1__12__1__1____v;
+              port = (signed int)tmp_statement_expression_8;
             }
 
             else
             {
-              unsigned short int protocolOpenSocket$$1$$12$$2$$1$$__v;
-              unsigned short int protocolOpenSocket$$1$$12$$2$$1$$__x = (unsigned short int)addr_srv6.sin6_port;
-              asm("rorw $8, %w0" : "=r"(protocolOpenSocket$$1$$12$$2$$1$$__v) : "0"(protocolOpenSocket$$1$$12$$2$$1$$__x) : "cc");
-              tmp_statement_expression$9 = protocolOpenSocket$$1$$12$$2$$1$$__v;
-              port = (signed int)tmp_statement_expression$9;
+              unsigned short int protocolOpenSocket__1__12__2__1____v;
+              unsigned short int protocolOpenSocket__1__12__2__1____x = (unsigned short int)addr_srv6.sin6_port;
+              asm("rorw _8, %w0" : "=r"(protocolOpenSocket__1__12__2__1____v) : "0"(protocolOpenSocket__1__12__2__1____x) : "cc");
+              tmp_statement_expression_9 = protocolOpenSocket__1__12__2__1____v;
+              port = (signed int)tmp_statement_expression_9;
             }
             log_printf(-2, 2, L"accepted a socket from %s on port %d", socketSource, port);
           }
@@ -14159,9 +14159,9 @@ void protocolOpenSocket(signed int IPv4)
           {
             if(!(wrapperData->isDebugging == 0))
             {
-              const signed int *return_value_getLastErrorText$10;
-              return_value_getLastErrorText$10=getLastErrorText();
-              log_printf(-2, 1, L"socket ioctlsocket failed. (%s)", return_value_getLastErrorText$10);
+              const signed int *return_value_getLastErrorText_10;
+              return_value_getLastErrorText_10=getLastErrorText();
+              log_printf(-2, 1, L"socket ioctlsocket failed. (%s)", return_value_getLastErrorText_10);
             }
 
             wrapperProtocolClose();
@@ -14277,9 +14277,9 @@ signed int protocolStartServerPipe()
   unsigned long int pipeNameLen;
   signed int *pipeName;
   pipeNameLen = (unsigned long int)(12 + 10 + 1 + 10 + 3);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (pipeNameLen + (unsigned long int)1));
-  pipeName = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (pipeNameLen + (unsigned long int)1));
+  pipeName = (signed int *)return_value_malloc_1;
   if(pipeName == ((signed int *)NULL))
   {
     outOfMemory(L"PSSP", 1);
@@ -14289,13 +14289,13 @@ signed int protocolStartServerPipe()
   else
   {
     _sntprintf(pipeName, pipeNameLen, L"/tmp/wrapper-%d-%d-out", wrapperData->wrapperPID, wrapperData->jvmRestarts + 1);
-    signed int return_value__tmkfifo$3;
-    return_value__tmkfifo$3=_tmkfifo(pipeName, (unsigned int)(0200 | 0400 | 0400 >> 3 | (0400 >> 3) >> 3));
-    if(return_value__tmkfifo$3 == -1)
+    signed int return_value__tmkfifo_3;
+    return_value__tmkfifo_3=_tmkfifo(pipeName, (unsigned int)(0200 | 0400 | 0400 >> 3 | (0400 >> 3) >> 3));
+    if(return_value__tmkfifo_3 == -1)
     {
-      const signed int *return_value_getLastErrorText$2;
-      return_value_getLastErrorText$2=getLastErrorText();
-      log_printf(-2, 5, L"Unable to create backend pipe: %s", return_value_getLastErrorText$2);
+      const signed int *return_value_getLastErrorText_2;
+      return_value_getLastErrorText_2=getLastErrorText();
+      log_printf(-2, 5, L"Unable to create backend pipe: %s", return_value_getLastErrorText_2);
       free((void *)pipeName);
       return -1;
     }
@@ -14304,13 +14304,13 @@ signed int protocolStartServerPipe()
       log_printf(-2, 1, L"server listening on pipe %s.", pipeName);
 
     _sntprintf(pipeName, pipeNameLen, L"/tmp/wrapper-%d-%d-in", wrapperData->wrapperPID, wrapperData->jvmRestarts + 1);
-    signed int return_value__tmkfifo$5;
-    return_value__tmkfifo$5=_tmkfifo(pipeName, (unsigned int)(0200 | 0400 | 0400 >> 3 | (0400 >> 3) >> 3));
-    if(return_value__tmkfifo$5 == -1)
+    signed int return_value__tmkfifo_5;
+    return_value__tmkfifo_5=_tmkfifo(pipeName, (unsigned int)(0200 | 0400 | 0400 >> 3 | (0400 >> 3) >> 3));
+    if(return_value__tmkfifo_5 == -1)
     {
-      const signed int *return_value_getLastErrorText$4;
-      return_value_getLastErrorText$4=getLastErrorText();
-      log_printf(-2, 5, L"Unable to create backend pipe: %s", return_value_getLastErrorText$4);
+      const signed int *return_value_getLastErrorText_4;
+      return_value_getLastErrorText_4=getLastErrorText();
+      log_printf(-2, 5, L"Unable to create backend pipe: %s", return_value_getLastErrorText_4);
       free((void *)pipeName);
       return -1;
     }
@@ -14342,18 +14342,18 @@ signed int protocolStartServerSocket(signed int IPv4)
     protocolActiveServerSD=socket(10, 1, 0);
   if(protocolActiveServerSD == -1)
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-2, 5, L"server socket creation failed. (%s)", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-2, 5, L"server socket creation failed. (%s)", return_value_getLastErrorText_1);
     return 99;
   }
 
   rc=fcntl(protocolActiveServerSD, 4, 04000);
   if(rc == -1)
   {
-    const signed int *return_value_getLastErrorText$2;
-    return_value_getLastErrorText$2=getLastErrorText();
-    log_printf(-2, 5, L"server socket ioctlsocket failed. (%s)", return_value_getLastErrorText$2);
+    const signed int *return_value_getLastErrorText_2;
+    return_value_getLastErrorText_2=getLastErrorText();
+    log_printf(-2, 5, L"server socket ioctlsocket failed. (%s)", return_value_getLastErrorText_2);
     wrapperProtocolClose();
     protocolStopServer();
     return -1;
@@ -14371,8 +14371,8 @@ signed int protocolStartServerSocket(signed int IPv4)
 
 tryagain:
   ;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$4;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_4;
   while((_Bool)1)
   {
     if(!(IPv4 == 0))
@@ -14381,9 +14381,9 @@ tryagain:
       addr_srv4.sin_family = (unsigned short int)2;
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$3 = __v;
-      addr_srv4.sin_port = tmp_statement_expression$3;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_3 = __v;
+      addr_srv4.sin_port = tmp_statement_expression_3;
     }
 
     else
@@ -14391,11 +14391,11 @@ tryagain:
       memset((void *)&addr_srv6, 0, sizeof(struct sockaddr_in6) /*28ul*/ );
       addr_srv6.sin6_family = (unsigned short int)10;
       addr_srv6.sin6_flowinfo = (unsigned int)0;
-      unsigned short int protocolStartServerSocket$$1$$8$$1$$__v;
-      unsigned short int protocolStartServerSocket$$1$$8$$1$$__x = (unsigned short int)port;
-      asm("rorw $8, %w0" : "=r"(protocolStartServerSocket$$1$$8$$1$$__v) : "0"(protocolStartServerSocket$$1$$8$$1$$__x) : "cc");
-      tmp_statement_expression$4 = protocolStartServerSocket$$1$$8$$1$$__v;
-      addr_srv6.sin6_port = tmp_statement_expression$4;
+      unsigned short int protocolStartServerSocket__1__8__1____v;
+      unsigned short int protocolStartServerSocket__1__8__1____x = (unsigned short int)port;
+      asm("rorw _8, %w0" : "=r"(protocolStartServerSocket__1__8__1____v) : "0"(protocolStartServerSocket__1__8__1____x) : "cc");
+      tmp_statement_expression_4 = protocolStartServerSocket__1__8__1____v;
+      addr_srv6.sin6_port = tmp_statement_expression_4;
     }
     if(wrapperData->portAddress == ((signed int *)NULL))
     {
@@ -14411,15 +14411,15 @@ tryagain:
       len=wcstombs((char *)(void *)0, wrapperData->portAddress, (unsigned long int)0);
       if(len == 18446744073709551615ul)
       {
-        const signed int *return_value_getLastErrorText$5;
-        return_value_getLastErrorText$5=getLastErrorText();
-        log_printf(-2, 4, L"Invalid multibyte sequence in port address \"%s\" : %s", wrapperData->portAddress, return_value_getLastErrorText$5);
+        const signed int *return_value_getLastErrorText_5;
+        return_value_getLastErrorText_5=getLastErrorText();
+        log_printf(-2, 4, L"Invalid multibyte sequence in port address \"%s\" : %s", wrapperData->portAddress, return_value_getLastErrorText_5);
         return -1;
       }
 
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(len + (unsigned long int)1);
-      tempAddress = (char *)return_value_malloc$6;
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(len + (unsigned long int)1);
+      tempAddress = (char *)return_value_malloc_6;
       if(tempAddress == ((char *)NULL))
       {
         outOfMemory(L"PSSS", 2);
@@ -14461,20 +14461,20 @@ tryagain:
   }
   if(!(wrapperData->port >= 1))
   {
-    const signed int *return_value_getLastErrorText$7;
-    return_value_getLastErrorText$7=getLastErrorText();
-    log_printf(-2, 6, L"unable to bind listener to any port in the range %d to %d. (%s)", wrapperData->portMin, wrapperData->portMax, return_value_getLastErrorText$7);
+    const signed int *return_value_getLastErrorText_7;
+    return_value_getLastErrorText_7=getLastErrorText();
+    log_printf(-2, 6, L"unable to bind listener to any port in the range %d to %d. (%s)", wrapperData->portMin, wrapperData->portMax, return_value_getLastErrorText_7);
   }
 
   else
   {
-    const signed int *return_value_getLastErrorText$8;
-    return_value_getLastErrorText$8=getLastErrorText();
-    log_printf(-2, 6, L"unable to bind listener port %d, or any port in the range %d to %d. (%s)", wrapperData->port, wrapperData->portMin, wrapperData->portMax, return_value_getLastErrorText$8);
+    const signed int *return_value_getLastErrorText_8;
+    return_value_getLastErrorText_8=getLastErrorText();
+    log_printf(-2, 6, L"unable to bind listener port %d, or any port in the range %d to %d. (%s)", wrapperData->port, wrapperData->portMin, wrapperData->portMax, return_value_getLastErrorText_8);
   }
-  signed int return_value_getLastError$9;
-  return_value_getLastError$9=getLastError();
-  wrapperStopProcess(return_value_getLastError$9, -1);
+  signed int return_value_getLastError_9;
+  return_value_getLastError_9=getLastError();
+  wrapperStopProcess(return_value_getLastError_9, -1);
   wrapperProtocolClose();
   protocolStopServer();
   wrapperData->exitRequested = -1;
@@ -14497,9 +14497,9 @@ __CPROVER_DUMP_L27:
   rc=listen(protocolActiveServerSD, 1);
   if(rc == -1)
   {
-    signed int return_value_wrapperGetLastError$10;
-    return_value_wrapperGetLastError$10=wrapperGetLastError();
-    log_printf(-2, 5, L"server socket listen failed. (%d)", return_value_wrapperGetLastError$10);
+    signed int return_value_wrapperGetLastError_10;
+    return_value_wrapperGetLastError_10=wrapperGetLastError();
+    log_printf(-2, 5, L"server socket listen failed. (%d)", return_value_wrapperGetLastError_10);
     wrapperProtocolClose();
     protocolStopServer();
     return -1;
@@ -14554,9 +14554,9 @@ void protocolStopServerSocket()
     {
       if(!(wrapperData->isDebugging == 0))
       {
-        signed int return_value_wrapperGetLastError$1;
-        return_value_wrapperGetLastError$1=wrapperGetLastError();
-        log_printf(-2, 1, L"server socket close failed. (%d)", return_value_wrapperGetLastError$1);
+        signed int return_value_wrapperGetLastError_1;
+        return_value_wrapperGetLastError_1=wrapperGetLastError();
+        log_printf(-2, 1, L"server socket close failed. (%d)", return_value_wrapperGetLastError_1);
       }
 
     }
@@ -14574,28 +14574,28 @@ static inline signed int pthread_equal(unsigned long int __thread1, unsigned lon
   return (signed int)(__thread1 == __thread2);
 }
 
-// pthread_equal$link1
+// pthread_equal_link1
 // file /usr/include/pthread.h line 1155
-static inline signed int pthread_equal$link1(unsigned long int __thread1$link1, unsigned long int __thread2$link1)
+static inline signed int pthread_equal_link1(unsigned long int __thread1_link1, unsigned long int __thread2_link1)
 {
-  return (signed int)(__thread1$link1 == __thread2$link1);
+  return (signed int)(__thread1_link1 == __thread2_link1);
 }
 
 // registerSigAction
 // file wrapper_unix.c line 645
-signed int registerSigAction(signed int sigNum, void (*sigAction)(signed int, struct anonymous$0 *, void *))
+signed int registerSigAction(signed int sigNum, void (*sigAction)(signed int, struct anonymous_0 *, void *))
 {
   struct sigaction newAct;
   newAct.__sigaction_handler.sa_sigaction = sigAction;
   sigemptyset(&newAct.sa_mask);
   newAct.sa_flags = 4;
-  signed int return_value_sigaction$2;
-  return_value_sigaction$2=sigaction(sigNum, &newAct, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$2 == 0))
+  signed int return_value_sigaction_2;
+  return_value_sigaction_2=sigaction(sigNum, &newAct, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 6, L"Unable to register signal handler for signal %d.  %s", sigNum, return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 6, L"Unable to register signal handler for signal %d.  %s", sigNum, return_value_getLastErrorText_1);
     return 1;
   }
 
@@ -14613,13 +14613,13 @@ extern signed int registerSyslogMessageFile()
 // file logger.c line 1057
 signed int releaseLoggingMutex()
 {
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&log_printfMutex);
-  if(!(return_value_pthread_mutex_unlock$2 == 0))
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&log_printfMutex);
+  if(!(return_value_pthread_mutex_unlock_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    _tprintf(L"Failed to unlock the Logging mutex. %s\n", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    _tprintf(L"Failed to unlock the Logging mutex. %s\n", return_value_getLastErrorText_1);
     return -1;
   }
 
@@ -14630,13 +14630,13 @@ signed int releaseLoggingMutex()
 // file wrapper.c line 1995
 signed int releaseProtocolMutex()
 {
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&protocolMutex);
-  if(!(return_value_pthread_mutex_unlock$2 == 0))
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&protocolMutex);
+  if(!(return_value_pthread_mutex_unlock_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    _tprintf(L"Failed to unlock the Protocol mutex. %s\n", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    _tprintf(L"Failed to unlock the Protocol mutex. %s\n", return_value_getLastErrorText_1);
     return -1;
   }
 
@@ -14691,9 +14691,9 @@ signed int * replaceStringLongWithShort(signed int *string, const signed int *ol
   {
     while(!(*in == 0))
     {
-      signed int return_value_wcsncmp$1;
-      return_value_wcsncmp$1=wcsncmp(in, oldToken, oldLen);
-      if(return_value_wcsncmp$1 == 0)
+      signed int return_value_wcsncmp_1;
+      return_value_wcsncmp_1=wcsncmp(in, oldToken, oldLen);
+      if(return_value_wcsncmp_1 == 0)
       {
         if(newLen >= 1ul)
           wcsncpy(out, newToken, newLen);
@@ -14736,9 +14736,9 @@ extern void rollLogs()
   signed int rollNum[11l];
   struct stat fileStat;
   signed int result;
-  signed int return_value_getLastError$3;
-  signed int return_value_getLastError$11;
-  signed int *return_value___errno_location$10;
+  signed int return_value_getLastError_3;
+  signed int return_value_getLastError_11;
+  signed int *return_value___errno_location_10;
   if(!(logFilePath == ((signed int *)NULL)))
   {
     if(!(logfileFP == ((struct _IO_FILE *)NULL)))
@@ -14759,29 +14759,29 @@ extern void rollLogs()
     while(result == 0);
     for( ; i >= 2; i = i - 1)
     {
-      unsigned long int return_value_wcslen$1;
-      return_value_wcslen$1=wcslen(logFilePath);
-      wcsncpy(currentLogFileName, workLogFileName, return_value_wcslen$1 + (unsigned long int)11);
+      unsigned long int return_value_wcslen_1;
+      return_value_wcslen_1=wcslen(logFilePath);
+      wcsncpy(currentLogFileName, workLogFileName, return_value_wcslen_1 + (unsigned long int)11);
       _sntprintf(rollNum, (unsigned long int)11, L"%d", i - 1);
       generateLogFileName(workLogFileName, currentLogFileNameSize, logFilePath, (const signed int *)(void *)0, rollNum);
       if(logFilePurgePattern == ((signed int *)NULL) && logFileMaxLogFiles >= 1 && !(logFileMaxLogFiles >= i))
       {
-        signed int return_value__tremove$6;
-        return_value__tremove$6=_tremove(workLogFileName);
-        if(!(return_value__tremove$6 == 0))
+        signed int return_value__tremove_6;
+        return_value__tremove_6=_tremove(workLogFileName);
+        if(!(return_value__tremove_6 == 0))
         {
-          signed int return_value_getLastError$4;
-          return_value_getLastError$4=getLastError();
-          if(!(return_value_getLastError$4 == 2))
+          signed int return_value_getLastError_4;
+          return_value_getLastError_4=getLastError();
+          if(!(return_value_getLastError_4 == 2))
           {
-            return_value_getLastError$3=getLastError();
-            if(!(return_value_getLastError$3 == 3))
+            return_value_getLastError_3=getLastError();
+            if(!(return_value_getLastError_3 == 3))
             {
               if(rollFailure == 0)
               {
-                const signed int *return_value_getLastErrorText$2;
-                return_value_getLastErrorText$2=getLastErrorText();
-                log_printf_queue(-1, -1, 4, L"Unable to delete old log file: %s (%s)", workLogFileName, return_value_getLastErrorText$2);
+                const signed int *return_value_getLastErrorText_2;
+                return_value_getLastErrorText_2=getLastErrorText();
+                log_printf_queue(-1, -1, 4, L"Unable to delete old log file: %s (%s)", workLogFileName, return_value_getLastErrorText_2);
               }
 
               rollFailure = -1;
@@ -14795,9 +14795,9 @@ extern void rollLogs()
 
         else
         {
-          signed int return_value__tstat$5;
-          return_value__tstat$5=_tstat(workLogFileName, &fileStat);
-          if(return_value__tstat$5 == 0)
+          signed int return_value__tstat_5;
+          return_value__tstat_5=_tstat(workLogFileName, &fileStat);
+          if(return_value__tstat_5 == 0)
           {
             if(rollFailure == 0)
               log_printf_queue(-1, -1, 4, L"Unable to delete old log file: %s", workLogFileName);
@@ -14812,15 +14812,15 @@ extern void rollLogs()
 
       else
       {
-        signed int return_value__trename$8;
-        return_value__trename$8=_trename(workLogFileName, currentLogFileName);
-        if(!(return_value__trename$8 == 0))
+        signed int return_value__trename_8;
+        return_value__trename_8=_trename(workLogFileName, currentLogFileName);
+        if(!(return_value__trename_8 == 0))
         {
           if(rollFailure == 0)
           {
-            const signed int *return_value_getLastErrorText$7;
-            return_value_getLastErrorText$7=getLastErrorText();
-            log_printf_queue(-1, -1, 4, L"Unable to rename log file %s to %s. (%s)", workLogFileName, currentLogFileName, return_value_getLastErrorText$7);
+            const signed int *return_value_getLastErrorText_7;
+            return_value_getLastErrorText_7=getLastErrorText();
+            log_printf_queue(-1, -1, 4, L"Unable to rename log file %s to %s. (%s)", workLogFileName, currentLogFileName, return_value_getLastErrorText_7);
           }
 
           rollFailure = -1;
@@ -14831,28 +14831,28 @@ extern void rollLogs()
       }
     }
     generateLogFileName(currentLogFileName, currentLogFileNameSize, logFilePath, (const signed int *)(void *)0, (const signed int *)(void *)0);
-    signed int return_value__trename$13;
-    return_value__trename$13=_trename(currentLogFileName, workLogFileName);
-    if(!(return_value__trename$13 == 0))
+    signed int return_value__trename_13;
+    return_value__trename_13=_trename(currentLogFileName, workLogFileName);
+    if(!(return_value__trename_13 == 0))
     {
       if(rollFailure == 0)
       {
-        signed int return_value_getLastError$12;
-        return_value_getLastError$12=getLastError();
-        if(!(return_value_getLastError$12 == 2))
+        signed int return_value_getLastError_12;
+        return_value_getLastError_12=getLastError();
+        if(!(return_value_getLastError_12 == 2))
         {
-          return_value_getLastError$11=getLastError();
-          if(!(return_value_getLastError$11 == 3))
+          return_value_getLastError_11=getLastError();
+          if(!(return_value_getLastError_11 == 3))
           {
-            return_value___errno_location$10=__errno_location();
-            if(*return_value___errno_location$10 == 13)
+            return_value___errno_location_10=__errno_location();
+            if(*return_value___errno_location_10 == 13)
               log_printf_queue(-1, -1, 4, L"Unable to rename log file %s to %s.  File is in use by another application.", currentLogFileName, workLogFileName);
 
             else
             {
-              const signed int *return_value_getLastErrorText$9;
-              return_value_getLastErrorText$9=getLastErrorText();
-              log_printf_queue(-1, -1, 4, L"Unable to rename log file %s to %s. (%s)", currentLogFileName, workLogFileName, return_value_getLastErrorText$9);
+              const signed int *return_value_getLastErrorText_9;
+              return_value_getLastErrorText_9=getLastErrorText();
+              log_printf_queue(-1, -1, 4, L"Unable to rename log file %s to %s. (%s)", currentLogFileName, workLogFileName, return_value_getLastErrorText_9);
             }
           }
 
@@ -14990,14 +14990,14 @@ extern void setConsoleFlush(signed int flush)
 // file logger.h line 233
 extern void setConsoleLogFormat(const signed int *console_log_format)
 {
-  signed int *return_value_wcschr$1;
+  signed int *return_value_wcschr_1;
   if(!(console_log_format == ((const signed int *)NULL)))
   {
     wcsncpy(consoleFormat, console_log_format, (unsigned long int)32);
     if(!(logPrintfWarnThreshold >= 1))
     {
-      return_value_wcschr$1=wcschr(console_log_format, 71);
-      if(!(return_value_wcschr$1 == ((signed int *)NULL)))
+      return_value_wcschr_1=wcschr(console_log_format, 71);
+      if(!(return_value_wcschr_1 == ((signed int *)NULL)))
         logPrintfWarnThreshold = 99999999;
 
     }
@@ -15010,9 +15010,9 @@ extern void setConsoleLogFormat(const signed int *console_log_format)
 // file logger.h line 236
 extern void setConsoleLogLevel(const signed int *console_log_level)
 {
-  signed int return_value_getLogLevelForName$1;
-  return_value_getLogLevelForName$1=getLogLevelForName(console_log_level);
-  setConsoleLogLevelInt(return_value_getLogLevelForName$1);
+  signed int return_value_getLogLevelForName_1;
+  return_value_getLogLevelForName_1=getLogLevelForName(console_log_level);
+  setConsoleLogLevelInt(return_value_getLogLevelForName_1);
 }
 
 // setConsoleLogLevelInt
@@ -15041,12 +15041,12 @@ extern signed int setEnv(const signed int *name, const signed int *value, signed
   signed int cmpRes;
   thisEnvSrcRef = &baseEnvSrc;
   thisEnvSrc = baseEnvSrc;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(name);
-  len = return_value_wcslen$1 + (unsigned long int)1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * len);
-  nameCopy = (signed int *)return_value_malloc$2;
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(name);
+  len = return_value_wcslen_1 + (unsigned long int)1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * len);
+  nameCopy = (signed int *)return_value_malloc_2;
   if(nameCopy == ((signed int *)NULL))
   {
     outOfMemory(L"SE", 1);
@@ -15065,9 +15065,9 @@ extern signed int setEnv(const signed int *name, const signed int *value, signed
         thisEnvSrc->source = thisEnvSrc->source | source;
         if(!(source == 1))
         {
-          signed int return_value_setEnvInner$3;
-          return_value_setEnvInner$3=setEnvInner(name, value);
-          return return_value_setEnvInner$3;
+          signed int return_value_setEnvInner_3;
+          return_value_setEnvInner_3=setEnvInner(name, value);
+          return return_value_setEnvInner_3;
         }
 
         return 0;
@@ -15076,9 +15076,9 @@ extern signed int setEnv(const signed int *name, const signed int *value, signed
       else
         if(cmpRes >= 1)
         {
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc(sizeof(struct EnvSrc) /*24ul*/ );
-          newEnvSrc = (struct EnvSrc *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc(sizeof(struct EnvSrc) /*24ul*/ );
+          newEnvSrc = (struct EnvSrc *)return_value_malloc_4;
           if(newEnvSrc == ((struct EnvSrc *)NULL))
           {
             outOfMemory(L"SEV", 2);
@@ -15091,9 +15091,9 @@ extern signed int setEnv(const signed int *name, const signed int *value, signed
           *thisEnvSrcRef = newEnvSrc;
           if(!(source == 1))
           {
-            signed int return_value_setEnvInner$5;
-            return_value_setEnvInner$5=setEnvInner(name, value);
-            return return_value_setEnvInner$5;
+            signed int return_value_setEnvInner_5;
+            return_value_setEnvInner_5=setEnvInner(name, value);
+            return return_value_setEnvInner_5;
           }
 
           return 0;
@@ -15105,9 +15105,9 @@ extern signed int setEnv(const signed int *name, const signed int *value, signed
           thisEnvSrc = thisEnvSrc->next;
         }
     }
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(sizeof(struct EnvSrc) /*24ul*/ );
-    thisEnvSrc = (struct EnvSrc *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(sizeof(struct EnvSrc) /*24ul*/ );
+    thisEnvSrc = (struct EnvSrc *)return_value_malloc_6;
     if(thisEnvSrc == ((struct EnvSrc *)NULL))
     {
       outOfMemory(L"SEV", 3);
@@ -15122,9 +15122,9 @@ extern signed int setEnv(const signed int *name, const signed int *value, signed
       *thisEnvSrcRef = thisEnvSrc;
       if(!(source == 1))
       {
-        signed int return_value_setEnvInner$7;
-        return_value_setEnvInner$7=setEnvInner(name, value);
-        return return_value_setEnvInner$7;
+        signed int return_value_setEnvInner_7;
+        return_value_setEnvInner_7=setEnvInner(name, value);
+        return return_value_setEnvInner_7;
       }
 
       return 0;
@@ -15139,8 +15139,8 @@ signed int setEnvInner(const signed int *name, const signed int *value)
   signed int result = 0;
   signed int *oldVal;
   oldVal=_tgetenv(name);
-  _Bool tmp_if_expr$3;
-  signed int return_value_wcscmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_wcscmp_2;
   if(value == ((const signed int *)NULL))
   {
     if(!(oldVal == ((signed int *)NULL)))
@@ -15151,18 +15151,18 @@ signed int setEnvInner(const signed int *name, const signed int *value)
   else
   {
     if(oldVal == ((signed int *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_wcscmp$2=wcscmp(oldVal, value);
-      tmp_if_expr$3 = return_value_wcscmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_wcscmp_2=wcscmp(oldVal, value);
+      tmp_if_expr_3 = return_value_wcscmp_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
-      signed int return_value__tsetenv$1;
-      return_value__tsetenv$1=_tsetenv(name, value, -1);
-      if(!(return_value__tsetenv$1 == 0))
+      signed int return_value__tsetenv_1;
+      return_value__tsetenv_1=_tsetenv(name, value, -1);
+      if(!(return_value__tsetenv_1 == 0))
       {
         log_printf(-1, 6, L"Unable to set the '%s' environment variable to: %s", name, value);
         result = -1;
@@ -15197,26 +15197,26 @@ void setInnerProperty(struct Properties *properties, struct Property *property, 
     property->value = (signed int *)(void *)0;
   }
 
-  unsigned long int return_value_wcslen$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_iswcntrl$6;
-  signed int tmp_post$5;
+  unsigned long int return_value_wcslen_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_iswcntrl_6;
+  signed int tmp_post_5;
   if(propertyValue == ((const signed int *)NULL))
     property->value = (signed int *)(void *)0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)16384 * sizeof(signed int) /*4ul*/ );
-    buffer = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)16384 * sizeof(signed int) /*4ul*/ );
+    buffer = (signed int *)return_value_malloc_1;
     if(!(buffer == ((signed int *)NULL)))
     {
       evaluateEnvironmentVariables(propertyValue, buffer, 16384, warnUndefinedVars, properties->warnedVarMap, properties->logWarningLogLevel);
-      unsigned long int return_value_wcslen$2;
-      return_value_wcslen$2=wcslen(buffer);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$2 + (unsigned long int)1));
-      property->value = (signed int *)return_value_malloc$3;
+      unsigned long int return_value_wcslen_2;
+      return_value_wcslen_2=wcslen(buffer);
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_2 + (unsigned long int)1));
+      property->value = (signed int *)return_value_malloc_3;
       if(property->value == ((signed int *)NULL))
         outOfMemoryQueued(L"SIP", 1);
 
@@ -15226,23 +15226,23 @@ void setInnerProperty(struct Properties *properties, struct Property *property, 
         count = 0;
         do
         {
-          return_value_wcslen$4=wcslen(buffer);
-          if(i >= (signed int)return_value_wcslen$4)
+          return_value_wcslen_4=wcslen(buffer);
+          if(i >= (signed int)return_value_wcslen_4)
             break;
 
           if(buffer[(signed long int)i] == 10)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_iswcntrl$6=iswcntrl((unsigned int)buffer[(signed long int)i]);
-            tmp_if_expr$7 = !(return_value_iswcntrl$6 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_iswcntrl_6=iswcntrl((unsigned int)buffer[(signed long int)i]);
+            tmp_if_expr_7 = !(return_value_iswcntrl_6 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
           {
-            tmp_post$5 = count;
+            tmp_post_5 = count;
             count = count + 1;
-            property->value[(signed long int)tmp_post$5] = buffer[(signed long int)i];
+            property->value[(signed long int)tmp_post_5] = buffer[(signed long int)i];
           }
 
           i = i + 1;
@@ -15304,14 +15304,14 @@ extern void setLogfileAutoFlush(signed int autoFlush)
 // file logger.h line 209
 extern void setLogfileFormat(const signed int *log_file_format)
 {
-  signed int *return_value_wcschr$1;
+  signed int *return_value_wcschr_1;
   if(!(log_file_format == ((const signed int *)NULL)))
   {
     wcsncpy(logfileFormat, log_file_format, (unsigned long int)32);
     if(!(logPrintfWarnThreshold >= 1))
     {
-      return_value_wcschr$1=wcschr(log_file_format, 71);
-      if(!(return_value_wcschr$1 == ((signed int *)NULL)))
+      return_value_wcschr_1=wcschr(log_file_format, 71);
+      if(!(return_value_wcschr_1 == ((signed int *)NULL)))
         logPrintfWarnThreshold = 99999999;
 
     }
@@ -15324,9 +15324,9 @@ extern void setLogfileFormat(const signed int *log_file_format)
 // file logger.h line 212
 extern void setLogfileLevel(const signed int *log_file_level)
 {
-  signed int return_value_getLogLevelForName$1;
-  return_value_getLogLevelForName$1=getLogLevelForName(log_file_level);
-  setLogfileLevelInt(return_value_getLogLevelForName$1);
+  signed int return_value_getLogLevelForName_1;
+  return_value_getLogLevelForName_1=getLogLevelForName(log_file_level);
+  setLogfileLevelInt(return_value_getLogLevelForName_1);
 }
 
 // setLogfileLevelInt
@@ -15345,15 +15345,15 @@ extern void setLogfileMaxFileSize(const signed int *max_file_size)
   signed int newLength;
   signed int *tmpFileSizeBuff;
   signed int chr;
-  unsigned long int return_value_wcslen$3;
-  signed int tmp_post$4;
+  unsigned long int return_value_wcslen_3;
+  signed int tmp_post_4;
   if(!(max_file_size == ((const signed int *)NULL)))
   {
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(max_file_size);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-    tmpFileSizeBuff = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(max_file_size);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+    tmpFileSizeBuff = (signed int *)return_value_malloc_2;
     if(tmpFileSizeBuff == ((signed int *)NULL))
     {
       outOfMemoryQueued(L"SLMFS", 1);
@@ -15365,8 +15365,8 @@ extern void setLogfileMaxFileSize(const signed int *max_file_size)
     i = 0;
     do
     {
-      return_value_wcslen$3=wcslen(max_file_size);
-      if(i >= (signed int)return_value_wcslen$3)
+      return_value_wcslen_3=wcslen(max_file_size);
+      if(i >= (signed int)return_value_wcslen_3)
         break;
 
       chr = max_file_size[(signed long int)i];
@@ -15390,9 +15390,9 @@ extern void setLogfileMaxFileSize(const signed int *max_file_size)
           ;
           if(chr == 45 || chr >= 48 && !(chr >= 58))
           {
-            tmp_post$4 = newLength;
+            tmp_post_4 = newLength;
             newLength = newLength + 1;
-            tmpFileSizeBuff[(signed long int)tmp_post$4] = max_file_size[(signed long int)i];
+            tmpFileSizeBuff[(signed long int)tmp_post_4] = max_file_size[(signed long int)i];
           }
 
           i = i + 1;
@@ -15401,9 +15401,9 @@ extern void setLogfileMaxFileSize(const signed int *max_file_size)
     }
     while((_Bool)1);
     tmpFileSizeBuff[(signed long int)newLength] = 0;
-    signed long int return_value_wcstol$5;
-    return_value_wcstol$5=wcstol(tmpFileSizeBuff, (signed int ** restrict )(void *)0, 10);
-    logFileMaxSize = (signed int)return_value_wcstol$5;
+    signed long int return_value_wcstol_5;
+    return_value_wcstol_5=wcstol(tmpFileSizeBuff, (signed int ** restrict )(void *)0, 10);
+    logFileMaxSize = (signed int)return_value_wcstol_5;
     if(logFileMaxSize >= 1)
       logFileMaxSize = logFileMaxSize * multiple;
 
@@ -15453,9 +15453,9 @@ extern signed int setLogfilePath(const signed int *log_file_path, const signed i
   logFilePath = (signed int *)(void *)0;
   currentLogFileName = (signed int *)(void *)0;
   workLogFileName = (signed int *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-  logFilePath = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+  logFilePath = (signed int *)return_value_malloc_1;
   if(logFilePath == ((signed int *)NULL))
   {
     outOfMemoryQueued(L"SLP", 1);
@@ -15465,9 +15465,9 @@ extern signed int setLogfilePath(const signed int *log_file_path, const signed i
   else
   {
     wcsncpy(logFilePath, log_file_path, len + (unsigned long int)1);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * currentLogFileNameSize);
-    currentLogFileName = (signed int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * currentLogFileNameSize);
+    currentLogFileName = (signed int *)return_value_malloc_2;
     if(currentLogFileName == ((signed int *)NULL))
     {
       outOfMemoryQueued(L"SLP", 2);
@@ -15479,9 +15479,9 @@ extern signed int setLogfilePath(const signed int *log_file_path, const signed i
     else
     {
       currentLogFileName[(signed long int)0] = 0;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * currentLogFileNameSize);
-      workLogFileName = (signed int *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * currentLogFileNameSize);
+      workLogFileName = (signed int *)return_value_malloc_3;
       if(workLogFileName == ((signed int *)NULL))
       {
         outOfMemoryQueued(L"SLP", 3);
@@ -15516,9 +15516,9 @@ extern void setLogfilePurgePattern(const signed int *pattern)
   len=wcslen(pattern);
   if(len >= 1ul)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-    logFilePurgePattern = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+    logFilePurgePattern = (signed int *)return_value_malloc_1;
     if(logFilePurgePattern == ((signed int *)NULL))
     {
       outOfMemoryQueued(L"SLPP", 1);
@@ -15599,9 +15599,9 @@ extern void setSyslogEventSourceName(const signed int *event_source_name)
       goto __CPROVER_DUMP_L6;
 
     size = size + 1ul;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size);
-    loginfoSourceName = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size);
+    loginfoSourceName = (char *)return_value_malloc_1;
     if(loginfoSourceName == ((char *)NULL))
     {
       _tprintf(L"Out of memory in logging code (%s)\n", (const void *)L"SSESN");
@@ -15610,9 +15610,9 @@ extern void setSyslogEventSourceName(const signed int *event_source_name)
     }
 
     wcstombs(loginfoSourceName, event_source_name, size);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(loginfoSourceName);
-    if(return_value_strlen$2 >= 33ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(loginfoSourceName);
+    if(return_value_strlen_2 >= 33ul)
       loginfoSourceName[(signed long int)32] = (char)0;
 
   }
@@ -15626,9 +15626,9 @@ __CPROVER_DUMP_L6:
 // file logger.h line 251
 extern void setSyslogFacility(const signed int *loginfo_level)
 {
-  signed int return_value_getLogFacilityForName$1;
-  return_value_getLogFacilityForName$1=getLogFacilityForName(loginfo_level);
-  setSyslogFacilityInt(return_value_getLogFacilityForName$1);
+  signed int return_value_getLogFacilityForName_1;
+  return_value_getLogFacilityForName_1=getLogFacilityForName(loginfo_level);
+  setSyslogFacilityInt(return_value_getLogFacilityForName_1);
 }
 
 // setSyslogFacilityInt
@@ -15642,9 +15642,9 @@ void setSyslogFacilityInt(signed int logfacility_level)
 // file logger.h line 248
 extern void setSyslogLevel(const signed int *loginfo_level)
 {
-  signed int return_value_getLogLevelForName$1;
-  return_value_getLogLevelForName$1=getLogLevelForName(loginfo_level);
-  setSyslogLevelInt(return_value_getLogLevelForName$1);
+  signed int return_value_getLogLevelForName_1;
+  return_value_getLogLevelForName_1=getLogLevelForName(loginfo_level);
+  setSyslogLevelInt(return_value_getLogLevelForName_1);
 }
 
 // setSyslogLevelInt
@@ -15678,9 +15678,9 @@ signed int setWorkingDir(signed int *app)
   szPath=findPathOf(app, L"Wrapper binary");
   if(szPath == ((signed int *)NULL))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 6, L"Unable to get the path for '%s'-%s", app, return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 6, L"Unable to get the path for '%s'-%s", app, return_value_getLastErrorText_1);
     return 1;
   }
 
@@ -15695,9 +15695,9 @@ signed int setWorkingDir(signed int *app)
   else
     pos[(signed long int)0] = (signed int)0;
   setEnv(L"WRAPPER_BIN_DIR", szPath, 2);
-  signed int return_value_wrapperSetWorkingDir$2;
-  return_value_wrapperSetWorkingDir$2=wrapperSetWorkingDir(szPath, -1);
-  if(!(return_value_wrapperSetWorkingDir$2 == 0))
+  signed int return_value_wrapperSetWorkingDir_2;
+  return_value_wrapperSetWorkingDir_2=wrapperSetWorkingDir(szPath, -1);
+  if(!(return_value_wrapperSetWorkingDir_2 == 0))
   {
     free((void *)szPath);
     return 1;
@@ -15725,24 +15725,24 @@ extern signed int showHostIds(signed int logLevel)
 
 // sigActionAlarm
 // file wrapper_unix.c line 508
-void sigActionAlarm(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionAlarm(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   unsigned long int threadId;
   descSignal(sigInfo);
   threadId=pthread_self();
-  _Bool tmp_if_expr$2;
-  signed int return_value_pthread_equal$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_pthread_equal_1;
   if(!(wrapperData->isDebugging == 0))
   {
     if(!(timerThreadSet == 0))
     {
-      return_value_pthread_equal$1=pthread_equal(threadId, timerThreadId);
-      tmp_if_expr$2 = return_value_pthread_equal$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_pthread_equal_1=pthread_equal(threadId, timerThreadId);
+      tmp_if_expr_2 = return_value_pthread_equal_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       log_printf_queue(-1, -1, 1, L"Timer thread received an Alarm signal.  Ignoring.");
 
     else
@@ -15753,21 +15753,21 @@ void sigActionAlarm(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
 
 // sigActionChildDeath
 // file wrapper_unix.c line 567
-void sigActionChildDeath(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionChildDeath(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   unsigned long int threadId;
   threadId=pthread_self();
-  _Bool tmp_if_expr$2;
-  signed int return_value_pthread_equal$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_pthread_equal_1;
   if(!(timerThreadSet == 0))
   {
-    return_value_pthread_equal$1=pthread_equal(threadId, timerThreadId);
-    tmp_if_expr$2 = return_value_pthread_equal$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_equal_1=pthread_equal(threadId, timerThreadId);
+    tmp_if_expr_2 = return_value_pthread_equal_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(!(wrapperData->isDebugging == 0))
       log_printf_queue(-1, -1, 1, L"Timer thread received a SigChild signal.  Ignoring.");
@@ -15786,7 +15786,7 @@ void sigActionChildDeath(signed int sigNum, struct anonymous$0 *sigInfo, void *n
 
 // sigActionHangup
 // file wrapper_unix.c line 609
-void sigActionHangup(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionHangup(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   descSignal(sigInfo);
   wrapperData->signalHUPTrapped = -1;
@@ -15794,7 +15794,7 @@ void sigActionHangup(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
 
 // sigActionInterrupt
 // file wrapper_unix.c line 532
-void sigActionInterrupt(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionInterrupt(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   descSignal(sigInfo);
   wrapperData->signalInterruptTrapped = -1;
@@ -15802,22 +15802,22 @@ void sigActionInterrupt(signed int sigNum, struct anonymous$0 *sigInfo, void *na
 
 // sigActionQuit
 // file wrapper_unix.c line 544
-void sigActionQuit(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionQuit(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   unsigned long int threadId;
   descSignal(sigInfo);
   threadId=pthread_self();
-  _Bool tmp_if_expr$2;
-  signed int return_value_pthread_equal$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_pthread_equal_1;
   if(!(timerThreadSet == 0))
   {
-    return_value_pthread_equal$1=pthread_equal(threadId, timerThreadId);
-    tmp_if_expr$2 = return_value_pthread_equal$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_equal_1=pthread_equal(threadId, timerThreadId);
+    tmp_if_expr_2 = return_value_pthread_equal_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     if(!(wrapperData->isDebugging == 0))
       log_printf_queue(-1, -1, 1, L"Timer thread received an Quit signal.  Ignoring.");
@@ -15830,7 +15830,7 @@ void sigActionQuit(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
 
 // sigActionTermination
 // file wrapper_unix.c line 597
-void sigActionTermination(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionTermination(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   descSignal(sigInfo);
   wrapperData->signalTermTrapped = -1;
@@ -15838,7 +15838,7 @@ void sigActionTermination(signed int sigNum, struct anonymous$0 *sigInfo, void *
 
 // sigActionUSR1
 // file wrapper_unix.c line 621
-void sigActionUSR1(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionUSR1(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   descSignal(sigInfo);
   wrapperData->signalUSR1Trapped = -1;
@@ -15846,7 +15846,7 @@ void sigActionUSR1(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
 
 // sigActionUSR2
 // file wrapper_unix.c line 633
-void sigActionUSR2(signed int sigNum, struct anonymous$0 *sigInfo, void *na)
+void sigActionUSR2(signed int sigNum, struct anonymous_0 *sigInfo, void *na)
 {
   descSignal(sigInfo);
   wrapperData->signalUSR2Trapped = -1;
@@ -15987,26 +15987,26 @@ __CPROVER_DUMP_L1:
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // takeSignalAction
 // file wrapper_unix.c line 217
 void takeSignalAction(signed int sigNum, const signed int *sigName, signed int mode)
 {
-  const signed int *return_value_wrapperGetRestartProcessMessage$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
+  const signed int *return_value_wrapperGetRestartProcessMessage_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
   if(!((1 & wrapperData->ignoreSignals) == 0))
     log_printf(-1, 3, L"%s trapped, but ignored.", sigName);
 
@@ -16015,59 +16015,59 @@ void takeSignalAction(signed int sigNum, const signed int *sigName, signed int m
     {
       case (signed int)(char)101:
       {
-        return_value_wrapperGetRestartProcessMessage$1=wrapperGetRestartProcessMessage();
-        log_printf(-1, 3, L"%s trapped.  %s", sigName, return_value_wrapperGetRestartProcessMessage$1);
+        return_value_wrapperGetRestartProcessMessage_1=wrapperGetRestartProcessMessage();
+        log_printf(-1, 3, L"%s trapped.  %s", sigName, return_value_wrapperGetRestartProcessMessage_1);
         wrapperRestartProcess();
         break;
       }
       case (signed int)(char)102:
       {
         if(!(wrapperData->exitRequested == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_4 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_5 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_6 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_7 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_8 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = (_Bool)1;
+          tmp_if_expr_9 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
-          tmp_if_expr$10 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_10)
         {
           if(!(wrapperData->isForcedShutdownDisabled == 0))
             log_printf(-1, 3, L"%s trapped.  Already shutting down.", sigName);
@@ -16086,11 +16086,11 @@ void takeSignalAction(signed int sigNum, const signed int *sigName, signed int m
           wrapperStopProcess(0, -1);
         }
         if(wrapperData->wState == 56)
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
-          tmp_if_expr$11 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$11)
+          tmp_if_expr_11 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_11)
           wrapperSetWrapperState(56);
 
         break;
@@ -16102,13 +16102,13 @@ void takeSignalAction(signed int sigNum, const signed int *sigName, signed int m
           if(!(wrapperData->isDebugging == 0))
             log_printf(-1, 1, L"%s trapped.  Forwarding to JVM process.", sigName);
 
-          signed int return_value_kill$13;
-          return_value_kill$13=kill(wrapperData->javaPID, sigNum);
-          if(!(return_value_kill$13 == 0))
+          signed int return_value_kill_13;
+          return_value_kill_13=kill(wrapperData->javaPID, sigNum);
+          if(!(return_value_kill_13 == 0))
           {
-            const signed int *return_value_getLastErrorText$12;
-            return_value_getLastErrorText$12=getLastErrorText();
-            log_printf(-1, 4, L"Unable to forward %s signal to JVM process.  %s", sigName, return_value_getLastErrorText$12);
+            const signed int *return_value_getLastErrorText_12;
+            return_value_getLastErrorText_12=getLastErrorText();
+            log_printf(-1, 4, L"Unable to forward %s signal to JVM process.  %s", sigName, return_value_getLastErrorText_12);
           }
 
         }
@@ -16132,7 +16132,7 @@ void * timerRunner(void *arg)
   unsigned int nowTicks;
   signed int offsetDiff;
   signed int first = -1;
-  struct anonymous$1 signal_mask;
+  struct anonymous_1 signal_mask;
   signed int rc;
   timerThreadStarted = -1;
   logRegisterThread(3);
@@ -16144,16 +16144,16 @@ void * timerRunner(void *arg)
   sigaddset(&signal_mask, 1);
   sigaddset(&signal_mask, 10);
   sigaddset(&signal_mask, 12);
-  rc=pthread_sigmask(0, &signal_mask, (struct anonymous$1 *)(void *)0);
+  rc=pthread_sigmask(0, &signal_mask, (struct anonymous_1 *)(void *)0);
   if(!(rc == 0))
     log_printf(-1, 5, L"Could not mask signals for timer thread.");
 
   if(!(wrapperData->isTickOutputEnabled == 0))
     log_printf(-1, 3, L"Timer thread started.");
 
-  signed int return_value_wrapperLockTickMutex$1;
-  unsigned int tmp_post$2;
-  signed int return_value_wrapperReleaseTickMutex$3;
+  signed int return_value_wrapperLockTickMutex_1;
+  unsigned int tmp_post_2;
+  signed int return_value_wrapperReleaseTickMutex_3;
   while(stopTimerThread == 0)
   {
     wrapperSleep(100);
@@ -16166,8 +16166,8 @@ void * timerRunner(void *arg)
     sysTicks=wrapperGetSystemTicks();
     if(!(wrapperData->useTickMutex == 0))
     {
-      return_value_wrapperLockTickMutex$1=wrapperLockTickMutex();
-      if(!(return_value_wrapperLockTickMutex$1 == 0))
+      return_value_wrapperLockTickMutex_1=wrapperLockTickMutex();
+      if(!(return_value_wrapperLockTickMutex_1 == 0))
       {
         timerThreadStopped = -1;
         return (void *)0;
@@ -16175,13 +16175,13 @@ void * timerRunner(void *arg)
 
     }
 
-    tmp_post$2 = timerTicks;
+    tmp_post_2 = timerTicks;
     timerTicks = timerTicks + 1u;
-    nowTicks = tmp_post$2;
+    nowTicks = tmp_post_2;
     if(!(wrapperData->useTickMutex == 0))
     {
-      return_value_wrapperReleaseTickMutex$3=wrapperReleaseTickMutex();
-      if(!(return_value_wrapperReleaseTickMutex$3 == 0))
+      return_value_wrapperReleaseTickMutex_3=wrapperReleaseTickMutex();
+      if(!(return_value_wrapperReleaseTickMutex_3 == 0))
       {
         timerThreadStopped = -1;
         return (void *)0;
@@ -16280,19 +16280,19 @@ void updateStringValue(signed int **ptr, const signed int *value)
 
   if(!(value == ((const signed int *)NULL)))
   {
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(value);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-    *ptr = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(value);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+    *ptr = (signed int *)return_value_malloc_2;
     if(*ptr == ((signed int *)NULL))
       outOfMemory(L"USV", 1);
 
     else
     {
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(value);
-      wcsncpy(*ptr, value, return_value_wcslen$3 + (unsigned long int)1);
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(value);
+      wcsncpy(*ptr, value, return_value_wcslen_3 + (unsigned long int)1);
     }
   }
 
@@ -16330,16 +16330,16 @@ void wStatePaused(unsigned int nowTicks)
 void wStatePausing(unsigned int nowTicks)
 {
   signed int timeout;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(!(wrapperData->pausableStopJVM == 0))
   {
     if(wrapperData->jState == 72)
@@ -16351,64 +16351,64 @@ void wStatePausing(unsigned int nowTicks)
     else
     {
       if(!(wrapperData->shutdownTimeout >= 1))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = wrapperData->jvmExitTimeout <= 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = wrapperData->jvmExitTimeout <= 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         timeout = 86400000;
 
       else
       {
         if(!(wrapperData->jvmExitTimeout >= wrapperData->shutdownTimeout))
-          tmp_if_expr$1 = wrapperData->shutdownTimeout;
+          tmp_if_expr_1 = wrapperData->shutdownTimeout;
 
         else
-          tmp_if_expr$1 = wrapperData->jvmExitTimeout;
-        timeout = tmp_if_expr$1 * 1000;
+          tmp_if_expr_1 = wrapperData->jvmExitTimeout;
+        timeout = tmp_if_expr_1 * 1000;
       }
       wrapperReportStatus(0, 53, 0, timeout);
       if(!(wrapperData->exitRequested == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_9 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$10)
+        tmp_if_expr_10 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_10)
       {
         wrapperData->exitRequested = -1;
         wrapperData->restartRequested = 4;
@@ -16464,13 +16464,13 @@ void wStateStarting(unsigned int nowTicks)
   else
     timeout = 86400000;
   wrapperReportStatus(0, 51, 0, timeout);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(wrapperData->initiallyPaused == 0))
-    tmp_if_expr$1 = wrapperData->pausable != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = wrapperData->pausable != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     log_printf(-1, 3, L"Initially Paused.");
     wrapperSetWrapperState(54);
@@ -16498,24 +16498,24 @@ void wStateStopped(unsigned int nowTicks)
 void wStateStopping(unsigned int nowTicks)
 {
   signed int timeout;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(wrapperData->shutdownTimeout >= 1))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = wrapperData->jvmExitTimeout <= 0 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = wrapperData->jvmExitTimeout <= 0 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_1;
+  if(tmp_if_expr_2)
     timeout = 86400000;
 
   else
   {
     if(!(wrapperData->jvmExitTimeout >= wrapperData->shutdownTimeout))
-      tmp_if_expr$1 = wrapperData->shutdownTimeout;
+      tmp_if_expr_1 = wrapperData->shutdownTimeout;
 
     else
-      tmp_if_expr$1 = wrapperData->jvmExitTimeout;
-    timeout = tmp_if_expr$1 * 1000;
+      tmp_if_expr_1 = wrapperData->jvmExitTimeout;
+    timeout = tmp_if_expr_1 * 1000;
   }
   wrapperReportStatus(0, 56, wrapperData->exitCode, timeout);
   if(wrapperData->jState == 72)
@@ -16542,9 +16542,9 @@ signed int wildcardMatchInner(const signed int *text, unsigned long int textLen,
       textIndex2 = textIndex;
       while(!(textIndex2 >= textLen + -(minTextLen + -(1ul + patternIndex))))
       {
-        signed int return_value_wildcardMatchInner$1;
-        return_value_wildcardMatchInner$1=wildcardMatchInner(&text[(signed long int)textIndex2], textLen - textIndex2, &pattern[(signed long int)(patternIndex + (unsigned long int)1)], patternLen - (patternIndex + (unsigned long int)1), minTextLen - patternIndex);
-        if(!(return_value_wildcardMatchInner$1 == 0))
+        signed int return_value_wildcardMatchInner_1;
+        return_value_wildcardMatchInner_1=wildcardMatchInner(&text[(signed long int)textIndex2], textLen - textIndex2, &pattern[(signed long int)(patternIndex + (unsigned long int)1)], patternLen - (patternIndex + (unsigned long int)1), minTextLen - patternIndex);
+        if(!(return_value_wildcardMatchInner_1 == 0))
           return -1;
 
         else
@@ -16591,135 +16591,135 @@ extern void wrapperAddDefaultProperties()
   signed int pathSep = 47;
   signed int pos;
   bufferLen = (unsigned long int)1;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(L"set.WRAPPER_LANG=");
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_wcslen$2;
-  if(!(4ul + return_value_wcslen$1 >= bufferLen))
-    tmp_if_expr$3 = bufferLen;
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(L"set.WRAPPER_LANG=");
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_wcslen_2;
+  if(!(4ul + return_value_wcslen_1 >= bufferLen))
+    tmp_if_expr_3 = bufferLen;
 
   else
   {
-    return_value_wcslen$2=wcslen(L"set.WRAPPER_LANG=");
-    tmp_if_expr$3 = return_value_wcslen$2 + (unsigned long int)3 + (unsigned long int)1;
+    return_value_wcslen_2=wcslen(L"set.WRAPPER_LANG=");
+    tmp_if_expr_3 = return_value_wcslen_2 + (unsigned long int)3 + (unsigned long int)1;
   }
-  bufferLen = tmp_if_expr$3;
-  unsigned long int return_value_wcslen$4;
-  return_value_wcslen$4=wcslen(L"set.WRAPPER_PID=");
-  unsigned long int tmp_if_expr$6;
-  unsigned long int return_value_wcslen$5;
-  if(!(11ul + return_value_wcslen$4 >= bufferLen))
-    tmp_if_expr$6 = bufferLen;
+  bufferLen = tmp_if_expr_3;
+  unsigned long int return_value_wcslen_4;
+  return_value_wcslen_4=wcslen(L"set.WRAPPER_PID=");
+  unsigned long int tmp_if_expr_6;
+  unsigned long int return_value_wcslen_5;
+  if(!(11ul + return_value_wcslen_4 >= bufferLen))
+    tmp_if_expr_6 = bufferLen;
 
   else
   {
-    return_value_wcslen$5=wcslen(L"set.WRAPPER_PID=");
-    tmp_if_expr$6 = return_value_wcslen$5 + (unsigned long int)10 + (unsigned long int)1;
+    return_value_wcslen_5=wcslen(L"set.WRAPPER_PID=");
+    tmp_if_expr_6 = return_value_wcslen_5 + (unsigned long int)10 + (unsigned long int)1;
   }
-  bufferLen = tmp_if_expr$6;
-  unsigned long int return_value_wcslen$7;
-  return_value_wcslen$7=wcslen(L"set.WRAPPER_BITS=");
-  unsigned long int return_value_wcslen$8;
-  return_value_wcslen$8=wcslen(wrapperBits);
-  unsigned long int tmp_if_expr$11;
-  unsigned long int return_value_wcslen$9;
-  unsigned long int return_value_wcslen$10;
-  if(!(1ul + return_value_wcslen$7 + return_value_wcslen$8 >= bufferLen))
-    tmp_if_expr$11 = bufferLen;
+  bufferLen = tmp_if_expr_6;
+  unsigned long int return_value_wcslen_7;
+  return_value_wcslen_7=wcslen(L"set.WRAPPER_BITS=");
+  unsigned long int return_value_wcslen_8;
+  return_value_wcslen_8=wcslen(wrapperBits);
+  unsigned long int tmp_if_expr_11;
+  unsigned long int return_value_wcslen_9;
+  unsigned long int return_value_wcslen_10;
+  if(!(1ul + return_value_wcslen_7 + return_value_wcslen_8 >= bufferLen))
+    tmp_if_expr_11 = bufferLen;
 
   else
   {
-    return_value_wcslen$9=wcslen(L"set.WRAPPER_BITS=");
-    return_value_wcslen$10=wcslen(wrapperBits);
-    tmp_if_expr$11 = return_value_wcslen$9 + return_value_wcslen$10 + (unsigned long int)1;
+    return_value_wcslen_9=wcslen(L"set.WRAPPER_BITS=");
+    return_value_wcslen_10=wcslen(wrapperBits);
+    tmp_if_expr_11 = return_value_wcslen_9 + return_value_wcslen_10 + (unsigned long int)1;
   }
-  bufferLen = tmp_if_expr$11;
-  unsigned long int return_value_wcslen$12;
-  return_value_wcslen$12=wcslen(L"set.WRAPPER_ARCH=");
-  unsigned long int return_value_wcslen$13;
-  return_value_wcslen$13=wcslen(wrapperArch);
-  unsigned long int tmp_if_expr$16;
-  unsigned long int return_value_wcslen$14;
-  unsigned long int return_value_wcslen$15;
-  if(!(1ul + return_value_wcslen$12 + return_value_wcslen$13 >= bufferLen))
-    tmp_if_expr$16 = bufferLen;
+  bufferLen = tmp_if_expr_11;
+  unsigned long int return_value_wcslen_12;
+  return_value_wcslen_12=wcslen(L"set.WRAPPER_ARCH=");
+  unsigned long int return_value_wcslen_13;
+  return_value_wcslen_13=wcslen(wrapperArch);
+  unsigned long int tmp_if_expr_16;
+  unsigned long int return_value_wcslen_14;
+  unsigned long int return_value_wcslen_15;
+  if(!(1ul + return_value_wcslen_12 + return_value_wcslen_13 >= bufferLen))
+    tmp_if_expr_16 = bufferLen;
 
   else
   {
-    return_value_wcslen$14=wcslen(L"set.WRAPPER_ARCH=");
-    return_value_wcslen$15=wcslen(wrapperArch);
-    tmp_if_expr$16 = return_value_wcslen$14 + return_value_wcslen$15 + (unsigned long int)1;
+    return_value_wcslen_14=wcslen(L"set.WRAPPER_ARCH=");
+    return_value_wcslen_15=wcslen(wrapperArch);
+    tmp_if_expr_16 = return_value_wcslen_14 + return_value_wcslen_15 + (unsigned long int)1;
   }
-  bufferLen = tmp_if_expr$16;
-  unsigned long int return_value_wcslen$17;
-  return_value_wcslen$17=wcslen(L"set.WRAPPER_OS=");
-  unsigned long int return_value_wcslen$18;
-  return_value_wcslen$18=wcslen(wrapperOS);
-  unsigned long int tmp_if_expr$21;
-  unsigned long int return_value_wcslen$19;
-  unsigned long int return_value_wcslen$20;
-  if(!(1ul + return_value_wcslen$17 + return_value_wcslen$18 >= bufferLen))
-    tmp_if_expr$21 = bufferLen;
+  bufferLen = tmp_if_expr_16;
+  unsigned long int return_value_wcslen_17;
+  return_value_wcslen_17=wcslen(L"set.WRAPPER_OS=");
+  unsigned long int return_value_wcslen_18;
+  return_value_wcslen_18=wcslen(wrapperOS);
+  unsigned long int tmp_if_expr_21;
+  unsigned long int return_value_wcslen_19;
+  unsigned long int return_value_wcslen_20;
+  if(!(1ul + return_value_wcslen_17 + return_value_wcslen_18 >= bufferLen))
+    tmp_if_expr_21 = bufferLen;
 
   else
   {
-    return_value_wcslen$19=wcslen(L"set.WRAPPER_OS=");
-    return_value_wcslen$20=wcslen(wrapperOS);
-    tmp_if_expr$21 = return_value_wcslen$19 + return_value_wcslen$20 + (unsigned long int)1;
+    return_value_wcslen_19=wcslen(L"set.WRAPPER_OS=");
+    return_value_wcslen_20=wcslen(wrapperOS);
+    tmp_if_expr_21 = return_value_wcslen_19 + return_value_wcslen_20 + (unsigned long int)1;
   }
-  bufferLen = tmp_if_expr$21;
-  unsigned long int return_value_wcslen$22;
-  return_value_wcslen$22=wcslen(L"set.WRAPPER_HOSTNAME=");
-  unsigned long int return_value_wcslen$23;
-  return_value_wcslen$23=wcslen(wrapperData->hostName);
-  unsigned long int tmp_if_expr$26;
-  unsigned long int return_value_wcslen$24;
-  unsigned long int return_value_wcslen$25;
-  if(!(1ul + return_value_wcslen$22 + return_value_wcslen$23 >= bufferLen))
-    tmp_if_expr$26 = bufferLen;
+  bufferLen = tmp_if_expr_21;
+  unsigned long int return_value_wcslen_22;
+  return_value_wcslen_22=wcslen(L"set.WRAPPER_HOSTNAME=");
+  unsigned long int return_value_wcslen_23;
+  return_value_wcslen_23=wcslen(wrapperData->hostName);
+  unsigned long int tmp_if_expr_26;
+  unsigned long int return_value_wcslen_24;
+  unsigned long int return_value_wcslen_25;
+  if(!(1ul + return_value_wcslen_22 + return_value_wcslen_23 >= bufferLen))
+    tmp_if_expr_26 = bufferLen;
 
   else
   {
-    return_value_wcslen$24=wcslen(L"set.WRAPPER_HOSTNAME=");
-    return_value_wcslen$25=wcslen(wrapperData->hostName);
-    tmp_if_expr$26 = return_value_wcslen$24 + return_value_wcslen$25 + (unsigned long int)1;
+    return_value_wcslen_24=wcslen(L"set.WRAPPER_HOSTNAME=");
+    return_value_wcslen_25=wcslen(wrapperData->hostName);
+    tmp_if_expr_26 = return_value_wcslen_24 + return_value_wcslen_25 + (unsigned long int)1;
   }
-  bufferLen = tmp_if_expr$26;
-  unsigned long int return_value_wcslen$27;
-  return_value_wcslen$27=wcslen(L"set.WRAPPER_HOST_NAME=");
-  unsigned long int return_value_wcslen$28;
-  return_value_wcslen$28=wcslen(wrapperData->hostName);
-  unsigned long int tmp_if_expr$31;
-  unsigned long int return_value_wcslen$29;
-  unsigned long int return_value_wcslen$30;
-  if(!(1ul + return_value_wcslen$27 + return_value_wcslen$28 >= bufferLen))
-    tmp_if_expr$31 = bufferLen;
+  bufferLen = tmp_if_expr_26;
+  unsigned long int return_value_wcslen_27;
+  return_value_wcslen_27=wcslen(L"set.WRAPPER_HOST_NAME=");
+  unsigned long int return_value_wcslen_28;
+  return_value_wcslen_28=wcslen(wrapperData->hostName);
+  unsigned long int tmp_if_expr_31;
+  unsigned long int return_value_wcslen_29;
+  unsigned long int return_value_wcslen_30;
+  if(!(1ul + return_value_wcslen_27 + return_value_wcslen_28 >= bufferLen))
+    tmp_if_expr_31 = bufferLen;
 
   else
   {
-    return_value_wcslen$29=wcslen(L"set.WRAPPER_HOST_NAME=");
-    return_value_wcslen$30=wcslen(wrapperData->hostName);
-    tmp_if_expr$31 = return_value_wcslen$29 + return_value_wcslen$30 + (unsigned long int)1;
+    return_value_wcslen_29=wcslen(L"set.WRAPPER_HOST_NAME=");
+    return_value_wcslen_30=wcslen(wrapperData->hostName);
+    tmp_if_expr_31 = return_value_wcslen_29 + return_value_wcslen_30 + (unsigned long int)1;
   }
-  bufferLen = tmp_if_expr$31;
+  bufferLen = tmp_if_expr_31;
   if(wrapperData->confDir == ((signed int *)NULL))
   {
-    signed int *return_value_wcsrchr$33;
-    return_value_wcsrchr$33=wcsrchr(wrapperData->argConfFile, pathSep);
-    if(!(return_value_wcsrchr$33 == ((signed int *)NULL)))
+    signed int *return_value_wcsrchr_33;
+    return_value_wcsrchr_33=wcsrchr(wrapperData->argConfFile, pathSep);
+    if(!(return_value_wcsrchr_33 == ((signed int *)NULL)))
     {
-      signed int *return_value_wcsrchr$32;
-      return_value_wcsrchr$32=wcsrchr(wrapperData->argConfFile, pathSep);
-      pos = (signed int)(return_value_wcsrchr$32 - wrapperData->argConfFile);
+      signed int *return_value_wcsrchr_32;
+      return_value_wcsrchr_32=wcsrchr(wrapperData->argConfFile, pathSep);
+      pos = (signed int)(return_value_wcsrchr_32 - wrapperData->argConfFile);
     }
 
     else
       pos = -1;
     if(pos == -1)
     {
-      void *return_value_malloc$34;
-      return_value_malloc$34=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)2);
-      confDirTemp = (signed int *)return_value_malloc$34;
+      void *return_value_malloc_34;
+      return_value_malloc_34=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)2);
+      confDirTemp = (signed int *)return_value_malloc_34;
       if(confDirTemp == ((signed int *)NULL))
       {
         outOfMemory(L"WADP", 1);
@@ -16732,9 +16732,9 @@ extern void wrapperAddDefaultProperties()
     else
       if(pos == 0)
       {
-        void *return_value_malloc$35;
-        return_value_malloc$35=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)2);
-        confDirTemp = (signed int *)return_value_malloc$35;
+        void *return_value_malloc_35;
+        return_value_malloc_35=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)2);
+        confDirTemp = (signed int *)return_value_malloc_35;
         if(confDirTemp == ((signed int *)NULL))
         {
           outOfMemory(L"WADP", 2);
@@ -16746,9 +16746,9 @@ extern void wrapperAddDefaultProperties()
 
       else
       {
-        void *return_value_malloc$36;
-        return_value_malloc$36=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(pos + 1));
-        confDirTemp = (signed int *)return_value_malloc$36;
+        void *return_value_malloc_36;
+        return_value_malloc_36=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(pos + 1));
+        confDirTemp = (signed int *)return_value_malloc_36;
         if(confDirTemp == ((signed int *)NULL))
         {
           outOfMemory(L"WADP", 3);
@@ -16758,9 +16758,9 @@ extern void wrapperAddDefaultProperties()
         wcsncpy(confDirTemp, wrapperData->argConfFile, (unsigned long int)pos);
         confDirTemp[(signed long int)pos] = 0;
       }
-    void *return_value_malloc$37;
-    return_value_malloc$37=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
-    wrapperData->confDir = (signed int *)return_value_malloc$37;
+    void *return_value_malloc_37;
+    return_value_malloc_37=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
+    wrapperData->confDir = (signed int *)return_value_malloc_37;
     if(wrapperData->confDir == ((signed int *)NULL))
     {
       outOfMemory(L"WADP", 5);
@@ -16768,13 +16768,13 @@ extern void wrapperAddDefaultProperties()
       goto __CPROVER_DUMP_L32;
     }
 
-    signed int *return_value__trealpathN$39;
-    return_value__trealpathN$39=_trealpathN(confDirTemp, wrapperData->confDir, (unsigned long int)(4096 + 1));
-    if(return_value__trealpathN$39 == ((signed int *)NULL))
+    signed int *return_value__trealpathN_39;
+    return_value__trealpathN_39=_trealpathN(confDirTemp, wrapperData->confDir, (unsigned long int)(4096 + 1));
+    if(return_value__trealpathN_39 == ((signed int *)NULL))
     {
-      const signed int *return_value_getLastErrorText$38;
-      return_value_getLastErrorText$38=getLastErrorText();
-      log_printf(-1, 6, L"Unable to resolve the original working directory: %s", return_value_getLastErrorText$38);
+      const signed int *return_value_getLastErrorText_38;
+      return_value_getLastErrorText_38=getLastErrorText();
+      log_printf(-1, 6, L"Unable to resolve the original working directory: %s", return_value_getLastErrorText_38);
       free((void *)confDirTemp);
       goto __CPROVER_DUMP_L32;
     }
@@ -16783,11 +16783,11 @@ extern void wrapperAddDefaultProperties()
     free((void *)confDirTemp);
   }
 
-  void *return_value_malloc$40;
-  return_value_malloc$40=malloc(sizeof(signed int) /*4ul*/  * bufferLen);
-  buffer = (signed int *)return_value_malloc$40;
-  _Bool tmp_if_expr$42;
-  unsigned long int return_value_wcslen$41;
+  void *return_value_malloc_40;
+  return_value_malloc_40=malloc(sizeof(signed int) /*4ul*/  * bufferLen);
+  buffer = (signed int *)return_value_malloc_40;
+  _Bool tmp_if_expr_42;
+  unsigned long int return_value_wcslen_41;
   if(buffer == ((signed int *)NULL))
     outOfMemory(L"WADP", 1);
 
@@ -16795,14 +16795,14 @@ extern void wrapperAddDefaultProperties()
   {
     langTemp=_tgetenv(L"LANG");
     if(langTemp == ((signed int *)NULL))
-      tmp_if_expr$42 = (_Bool)1;
+      tmp_if_expr_42 = (_Bool)1;
 
     else
     {
-      return_value_wcslen$41=wcslen(langTemp);
-      tmp_if_expr$42 = return_value_wcslen$41 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      return_value_wcslen_41=wcslen(langTemp);
+      tmp_if_expr_42 = return_value_wcslen_41 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$42)
+    if(tmp_if_expr_42)
       _sntprintf(buffer, bufferLen, L"set.WRAPPER_LANG=en");
 
     else
@@ -16861,17 +16861,17 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
   signed int missingLogLevel;
   cpLen = (unsigned long int)0;
   cpLenAlloc = (unsigned long int)1024;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
-  *classpath = (signed int *)return_value_malloc$1;
-  _Bool tmp_if_expr$25;
-  signed int *return_value_wcschr$24;
-  unsigned long int tmp_post$8;
-  _Bool tmp_if_expr$15;
-  unsigned long int return_value_wcslen$14;
-  _Bool tmp_if_expr$19;
-  signed int *return_value___errno_location$18;
-  unsigned long int tmp_post$22;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
+  *classpath = (signed int *)return_value_malloc_1;
+  _Bool tmp_if_expr_25;
+  signed int *return_value_wcschr_24;
+  unsigned long int tmp_post_8;
+  _Bool tmp_if_expr_15;
+  unsigned long int return_value_wcslen_14;
+  _Bool tmp_if_expr_19;
+  signed int *return_value___errno_location_18;
+  unsigned long int tmp_post_22;
   if(*classpath == ((signed int *)NULL))
   {
     outOfMemory(L"WBJCP", 1);
@@ -16880,30 +16880,30 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
 
   else
   {
-    signed int return_value_getStringProperties$2;
-    return_value_getStringProperties$2=getStringProperties(properties, L"wrapper.java.classpath.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
-    if(!(return_value_getStringProperties$2 == 0))
+    signed int return_value_getStringProperties_2;
+    return_value_getStringProperties_2=getStringProperties(properties, L"wrapper.java.classpath.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
+    if(!(return_value_getStringProperties_2 == 0))
       return -1;
 
     else
     {
-      const signed int *return_value_getStringProperty$3;
-      return_value_getStringProperty$3=getStringProperty(properties, L"wrapper.java.classpath.missing.loglevel", L"DEBUG");
-      missingLogLevel=getLogLevelForName(return_value_getStringProperty$3);
+      const signed int *return_value_getStringProperty_3;
+      return_value_getStringProperty_3=getStringProperty(properties, L"wrapper.java.classpath.missing.loglevel", L"DEBUG");
+      missingLogLevel=getLogLevelForName(return_value_getStringProperty_3);
       i = 0;
       j = 0;
       while(!(propertyNames[(signed long int)i] == ((signed int *)NULL)))
       {
         prop = propertyValues[(signed long int)i];
-        signed int *return_value_wcschr$6;
-        return_value_wcschr$6=wcschr(prop, 34);
-        if(!(return_value_wcschr$6 == ((signed int *)NULL)))
+        signed int *return_value_wcschr_6;
+        return_value_wcschr_6=wcschr(prop, 34);
+        if(!(return_value_wcschr_6 == ((signed int *)NULL)))
         {
-          unsigned long int return_value_wcslen$4;
-          return_value_wcslen$4=wcslen(prop);
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$4 + (unsigned long int)1));
-          propStripped = (signed int *)return_value_malloc$5;
+          unsigned long int return_value_wcslen_4;
+          return_value_wcslen_4=wcslen(prop);
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_4 + (unsigned long int)1));
+          propStripped = (signed int *)return_value_malloc_5;
           if(propStripped == ((signed int *)NULL))
           {
             outOfMemory(L"WBJCP", 2);
@@ -16920,17 +16920,17 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
         len2=wcslen(propStripped);
         if(len2 >= 1ul)
         {
-          signed int *return_value_wcsrchr$23;
-          return_value_wcsrchr$23=wcsrchr(propStripped, 42);
-          if(!(return_value_wcsrchr$23 == ((signed int *)NULL)))
-            tmp_if_expr$25 = (_Bool)1;
+          signed int *return_value_wcsrchr_23;
+          return_value_wcsrchr_23=wcsrchr(propStripped, 42);
+          if(!(return_value_wcsrchr_23 == ((signed int *)NULL)))
+            tmp_if_expr_25 = (_Bool)1;
 
           else
           {
-            return_value_wcschr$24=wcschr(propStripped, 63);
-            tmp_if_expr$25 = return_value_wcschr$24 != (signed int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            return_value_wcschr_24=wcschr(propStripped, 63);
+            tmp_if_expr_25 = return_value_wcschr_24 != (signed int *)(void *)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$25)
+          if(tmp_if_expr_25)
           {
             files=loggerFileGetFiles(propStripped, 101);
             if(files == ((signed int **)NULL))
@@ -16950,9 +16950,9 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
               {
                 tmpString = *classpath;
                 cpLenAlloc = cpLenAlloc + len2 + (unsigned long int)3;
-                void *return_value_malloc$7;
-                return_value_malloc$7=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
-                *classpath = (signed int *)return_value_malloc$7;
+                void *return_value_malloc_7;
+                return_value_malloc_7=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
+                *classpath = (signed int *)return_value_malloc_7;
                 if(*classpath == ((signed int *)NULL))
                 {
                   if(!(propStripped == prop))
@@ -16973,9 +16973,9 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
 
               if(j >= 1)
               {
-                tmp_post$8 = cpLen;
+                tmp_post_8 = cpLen;
                 cpLen = cpLen + 1ul;
-                (*classpath)[(signed long int)tmp_post$8] = wrapperClasspathSeparator;
+                (*classpath)[(signed long int)tmp_post_8] = wrapperClasspathSeparator;
               }
 
               _sntprintf(&(*classpath)[(signed long int)cpLen], cpLenAlloc - cpLen, L"%s", files[(signed long int)cnt]);
@@ -16988,23 +16988,23 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
           else
           {
             propBaseDir = (signed int *)propStripped;
-            unsigned long int return_value_wcslen$13;
-            return_value_wcslen$13=wcslen(propStripped);
-            if(propStripped[-1l + (signed long int)return_value_wcslen$13] == 47)
-              tmp_if_expr$15 = (_Bool)1;
+            unsigned long int return_value_wcslen_13;
+            return_value_wcslen_13=wcslen(propStripped);
+            if(propStripped[-1l + (signed long int)return_value_wcslen_13] == 47)
+              tmp_if_expr_15 = (_Bool)1;
 
             else
             {
-              return_value_wcslen$14=wcslen(propStripped);
-              tmp_if_expr$15 = propStripped[(signed long int)(return_value_wcslen$14 - (unsigned long int)1)] == 92 ? (_Bool)1 : (_Bool)0;
+              return_value_wcslen_14=wcslen(propStripped);
+              tmp_if_expr_15 = propStripped[(signed long int)(return_value_wcslen_14 - (unsigned long int)1)] == 92 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$15)
+            if(tmp_if_expr_15)
             {
-              unsigned long int return_value_wcslen$9;
-              return_value_wcslen$9=wcslen(propStripped);
-              void *return_value_malloc$10;
-              return_value_malloc$10=malloc(sizeof(signed int) /*4ul*/  * return_value_wcslen$9);
-              propBaseDir = (signed int *)return_value_malloc$10;
+              unsigned long int return_value_wcslen_9;
+              return_value_wcslen_9=wcslen(propStripped);
+              void *return_value_malloc_10;
+              return_value_malloc_10=malloc(sizeof(signed int) /*4ul*/  * return_value_wcslen_9);
+              propBaseDir = (signed int *)return_value_malloc_10;
               if(propBaseDir == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCP", 3);
@@ -17015,36 +17015,36 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
                 return -1;
               }
 
-              unsigned long int return_value_wcslen$11;
-              return_value_wcslen$11=wcslen(propStripped);
-              wcsncpy(propBaseDir, propStripped, return_value_wcslen$11 - (unsigned long int)1);
-              unsigned long int return_value_wcslen$12;
-              return_value_wcslen$12=wcslen(propStripped);
-              propBaseDir[(signed long int)(return_value_wcslen$12 - (unsigned long int)1)] = 0;
+              unsigned long int return_value_wcslen_11;
+              return_value_wcslen_11=wcslen(propStripped);
+              wcsncpy(propBaseDir, propStripped, return_value_wcslen_11 - (unsigned long int)1);
+              unsigned long int return_value_wcslen_12;
+              return_value_wcslen_12=wcslen(propStripped);
+              propBaseDir[(signed long int)(return_value_wcslen_12 - (unsigned long int)1)] = 0;
             }
 
-            signed int return_value__tstat$20;
-            return_value__tstat$20=_tstat(propBaseDir, &statBuffer);
-            if(!(return_value__tstat$20 == 0))
+            signed int return_value__tstat_20;
+            return_value__tstat_20=_tstat(propBaseDir, &statBuffer);
+            if(!(return_value__tstat_20 == 0))
             {
-              signed int *return_value___errno_location$17;
-              return_value___errno_location$17=__errno_location();
-              if(*return_value___errno_location$17 == 2)
-                tmp_if_expr$19 = (_Bool)1;
+              signed int *return_value___errno_location_17;
+              return_value___errno_location_17=__errno_location();
+              if(*return_value___errno_location_17 == 2)
+                tmp_if_expr_19 = (_Bool)1;
 
               else
               {
-                return_value___errno_location$18=__errno_location();
-                tmp_if_expr$19 = *return_value___errno_location$18 == 3 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_18=__errno_location();
+                tmp_if_expr_19 = *return_value___errno_location_18 == 3 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$19)
+              if(tmp_if_expr_19)
                 log_printf(-1, missingLogLevel, L"Classpath element, %s, does not exist: %s", propertyNames[(signed long int)i], propStripped);
 
               else
               {
-                const signed int *return_value_getLastErrorText$16;
-                return_value_getLastErrorText$16=getLastErrorText();
-                log_printf(-1, 5, L"Unable to get information of classpath element: %s (%s)", propStripped, return_value_getLastErrorText$16);
+                const signed int *return_value_getLastErrorText_16;
+                return_value_getLastErrorText_16=getLastErrorText();
+                log_printf(-1, 5, L"Unable to get information of classpath element: %s (%s)", propStripped, return_value_getLastErrorText_16);
               }
             }
 
@@ -17056,9 +17056,9 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
             {
               tmpString = *classpath;
               cpLenAlloc = cpLenAlloc + len2 + (unsigned long int)3;
-              void *return_value_malloc$21;
-              return_value_malloc$21=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
-              *classpath = (signed int *)return_value_malloc$21;
+              void *return_value_malloc_21;
+              return_value_malloc_21=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
+              *classpath = (signed int *)return_value_malloc_21;
               if(*classpath == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCP", 4);
@@ -17078,9 +17078,9 @@ extern signed int wrapperBuildJavaClasspath(signed int **classpath)
 
             if(j >= 1)
             {
-              tmp_post$22 = cpLen;
+              tmp_post_22 = cpLen;
               cpLen = cpLen + 1ul;
-              (*classpath)[(signed long int)tmp_post$22] = wrapperClasspathSeparator;
+              (*classpath)[(signed long int)tmp_post_22] = wrapperClasspathSeparator;
             }
 
             _sntprintf(&(*classpath)[(signed long int)cpLen], cpLenAlloc - cpLen, L"%s", propStripped);
@@ -17144,25 +17144,25 @@ extern signed int wrapperBuildJavaCommand()
     wrapperData->classpath = (signed int *)(void *)0;
   }
 
-  signed int return_value_wrapperBuildJavaClasspath$1;
-  return_value_wrapperBuildJavaClasspath$1=wrapperBuildJavaClasspath(&wrapperData->classpath);
-  if(!(return_value_wrapperBuildJavaClasspath$1 >= 0))
+  signed int return_value_wrapperBuildJavaClasspath_1;
+  return_value_wrapperBuildJavaClasspath_1=wrapperBuildJavaClasspath(&wrapperData->classpath);
+  if(!(return_value_wrapperBuildJavaClasspath_1 >= 0))
     return -1;
 
   else
   {
     strings = (signed int **)(void *)0;
     length = 0;
-    signed int return_value_wrapperBuildJavaCommandArray$2;
-    return_value_wrapperBuildJavaCommandArray$2=wrapperBuildJavaCommandArray(&strings, &length, 0, wrapperData->classpath);
-    if(!(return_value_wrapperBuildJavaCommandArray$2 == 0))
+    signed int return_value_wrapperBuildJavaCommandArray_2;
+    return_value_wrapperBuildJavaCommandArray_2=wrapperBuildJavaCommandArray(&strings, &length, 0, wrapperData->classpath);
+    if(!(return_value_wrapperBuildJavaCommandArray_2 == 0))
       return -1;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(2 + 1));
-      wrapperData->jvmVersionCommand = (signed int **)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(2 + 1));
+      wrapperData->jvmVersionCommand = (signed int **)return_value_malloc_3;
       if(wrapperData->jvmVersionCommand == ((signed int **)NULL))
       {
         outOfMemory(L"WBJC", 1);
@@ -17172,11 +17172,11 @@ extern signed int wrapperBuildJavaCommand()
       else
       {
         memset((void *)wrapperData->jvmVersionCommand, 0, sizeof(signed int *) /*8ul*/  * (unsigned long int)(2 + 1));
-        unsigned long int return_value_wcslen$4;
-        return_value_wcslen$4=wcslen(strings[(signed long int)0]);
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$4 + (unsigned long int)1));
-        wrapperData->jvmVersionCommand[(signed long int)0] = (signed int *)return_value_malloc$5;
+        unsigned long int return_value_wcslen_4;
+        return_value_wcslen_4=wcslen(strings[(signed long int)0]);
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_4 + (unsigned long int)1));
+        wrapperData->jvmVersionCommand[(signed long int)0] = (signed int *)return_value_malloc_5;
         if(*wrapperData->jvmVersionCommand == ((signed int *)NULL))
         {
           outOfMemory(L"WBJC", 2);
@@ -17185,12 +17185,12 @@ extern signed int wrapperBuildJavaCommand()
 
         else
         {
-          unsigned long int return_value_wcslen$6;
-          return_value_wcslen$6=wcslen(strings[(signed long int)0]);
-          wcsncpy(wrapperData->jvmVersionCommand[(signed long int)0], strings[(signed long int)0], return_value_wcslen$6 + (unsigned long int)1);
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(8 + 1));
-          wrapperData->jvmVersionCommand[(signed long int)1] = (signed int *)return_value_malloc$7;
+          unsigned long int return_value_wcslen_6;
+          return_value_wcslen_6=wcslen(strings[(signed long int)0]);
+          wcsncpy(wrapperData->jvmVersionCommand[(signed long int)0], strings[(signed long int)0], return_value_wcslen_6 + (unsigned long int)1);
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(8 + 1));
+          wrapperData->jvmVersionCommand[(signed long int)1] = (signed int *)return_value_malloc_7;
           if(wrapperData->jvmVersionCommand[1l] == ((signed int *)NULL))
           {
             outOfMemory(L"WBJC", 3);
@@ -17201,9 +17201,9 @@ extern signed int wrapperBuildJavaCommand()
           {
             wcsncpy(wrapperData->jvmVersionCommand[(signed long int)1], L"-version", (unsigned long int)(8 + 1));
             wrapperData->jvmVersionCommand[(signed long int)2] = (signed int *)(void *)0;
-            void *return_value_malloc$8;
-            return_value_malloc$8=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(length + 1));
-            wrapperData->jvmCommand = (signed int **)return_value_malloc$8;
+            void *return_value_malloc_8;
+            return_value_malloc_8=malloc(sizeof(signed int *) /*8ul*/  * (unsigned long int)(length + 1));
+            wrapperData->jvmCommand = (signed int **)return_value_malloc_8;
             if(wrapperData->jvmCommand == ((signed int **)NULL))
             {
               outOfMemory(L"WBJC", 1);
@@ -17217,20 +17217,20 @@ extern signed int wrapperBuildJavaCommand()
               for( ; length >= i; i = i + 1)
                 if(!(i >= length))
                 {
-                  unsigned long int return_value_wcslen$9;
-                  return_value_wcslen$9=wcslen(strings[(signed long int)i]);
-                  void *return_value_malloc$10;
-                  return_value_malloc$10=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$9 + (unsigned long int)1));
-                  wrapperData->jvmCommand[(signed long int)i] = (signed int *)return_value_malloc$10;
+                  unsigned long int return_value_wcslen_9;
+                  return_value_wcslen_9=wcslen(strings[(signed long int)i]);
+                  void *return_value_malloc_10;
+                  return_value_malloc_10=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_9 + (unsigned long int)1));
+                  wrapperData->jvmCommand[(signed long int)i] = (signed int *)return_value_malloc_10;
                   if(wrapperData->jvmCommand[(signed long int)i] == ((signed int *)NULL))
                   {
                     outOfMemory(L"WBJC", 2);
                     return -1;
                   }
 
-                  unsigned long int return_value_wcslen$11;
-                  return_value_wcslen$11=wcslen(strings[(signed long int)i]);
-                  wcsncpy(wrapperData->jvmCommand[(signed long int)i], strings[(signed long int)i], return_value_wcslen$11 + (unsigned long int)1);
+                  unsigned long int return_value_wcslen_11;
+                  return_value_wcslen_11=wcslen(strings[(signed long int)i]);
+                  wcsncpy(wrapperData->jvmCommand[(signed long int)i], strings[(signed long int)i], return_value_wcslen_11 + (unsigned long int)1);
                   wrapperData->jvmCommand[(signed long int)i]=wrapperPostProcessCommandElement(wrapperData->jvmCommand[(signed long int)i]);
                 }
 
@@ -17254,18 +17254,18 @@ extern signed int wrapperBuildJavaCommandArray(signed int ***stringsPtr, signed 
   wrapperData->debugJVM = 0;
   wrapperData->debugJVMTimeoutNotified = 0;
   reqLen=wrapperBuildJavaCommandArrayInner((signed int **)(void *)0, addQuotes, classpath);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(reqLen >= 0))
     return -1;
 
   else
   {
     *length = reqLen;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)*length * sizeof(signed int *) /*8ul*/ );
-    *stringsPtr = (signed int **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)*length * sizeof(signed int *) /*8ul*/ );
+    *stringsPtr = (signed int **)return_value_malloc_1;
     if(*stringsPtr == ((signed int **)NULL))
     {
       outOfMemory(L"WBJCA", 1);
@@ -17283,21 +17283,21 @@ extern signed int wrapperBuildJavaCommandArray(signed int ***stringsPtr, signed 
         if(!(wrapperData->debugJVM == 0))
         {
           if(wrapperData->startupTimeout >= 1)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = wrapperData->pingTimeout > 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_2 = wrapperData->pingTimeout > 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = wrapperData->shutdownTimeout > 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_3 = wrapperData->shutdownTimeout > 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = wrapperData->jvmExitTimeout > 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = wrapperData->jvmExitTimeout > 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
           {
             log_printf(-1, 4, L"---------------------------------------------------------------------");
             log_printf(-1, 4, L"The JVM is being launched with a debugger enabled and could possibly\nbe suspended.  To avoid unwanted shutdowns, timeouts will be\ndisabled, removing the ability to detect and restart frozen JVMs.");
@@ -17327,17 +17327,17 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
   signed int **propertyNames;
   signed int **propertyValues;
   unsigned long int *propertyIndices;
-  signed int return_value_getStringProperties$1;
-  return_value_getStringProperties$1=getStringProperties(properties, L"wrapper.app.parameter.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
-  _Bool tmp_if_expr$13;
-  signed int return_value_wcscmp$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_wcscmp$11;
-  _Bool tmp_if_expr$9;
-  signed int *return_value_wcschr$8;
-  _Bool tmp_if_expr$20;
-  signed int *return_value_wcschr$19;
-  if(!(return_value_getStringProperties$1 == 0))
+  signed int return_value_getStringProperties_1;
+  return_value_getStringProperties_1=getStringProperties(properties, L"wrapper.app.parameter.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
+  _Bool tmp_if_expr_13;
+  signed int return_value_wcscmp_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_wcscmp_11;
+  _Bool tmp_if_expr_9;
+  signed int *return_value_wcschr_8;
+  _Bool tmp_if_expr_20;
+  signed int *return_value_wcschr_19;
+  if(!(return_value_getStringProperties_1 == 0))
     return -1;
 
   else
@@ -17347,27 +17347,27 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
     while(!(propertyNames[(signed long int)i] == ((signed int *)NULL)))
     {
       prop = propertyValues[(signed long int)i];
-      unsigned long int return_value_wcslen$14;
-      return_value_wcslen$14=wcslen(prop);
-      if(return_value_wcslen$14 >= 1ul)
+      unsigned long int return_value_wcslen_14;
+      return_value_wcslen_14=wcslen(prop);
+      if(return_value_wcslen_14 >= 1ul)
       {
         if(i == 1 && !(thisIsTestWrapper == 0))
         {
-          return_value_wcscmp$10=wcscmp(prop, L"{{TestWrapperBat}}");
-          if(return_value_wcscmp$10 == 0)
-            tmp_if_expr$12 = (_Bool)1;
+          return_value_wcscmp_10=wcscmp(prop, L"{{TestWrapperBat}}");
+          if(return_value_wcscmp_10 == 0)
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
-            return_value_wcscmp$11=wcscmp(prop, L"{{TestWrapperSh}}");
-            tmp_if_expr$12 = return_value_wcscmp$11 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_wcscmp_11=wcscmp(prop, L"{{TestWrapperSh}}");
+            tmp_if_expr_12 = return_value_wcscmp_11 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(!tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(!tmp_if_expr_13)
         {
           if(!(strings == ((signed int **)NULL)))
           {
@@ -17380,11 +17380,11 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
               stripQuote=getBooleanProperty(properties, paramBuffer2, defaultStripQuote);
             if(!(stripQuote == 0))
             {
-              unsigned long int return_value_wcslen$2;
-              return_value_wcslen$2=wcslen(prop);
-              void *return_value_malloc$3;
-              return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$2 + (unsigned long int)1));
-              propStripped = (signed int *)return_value_malloc$3;
+              unsigned long int return_value_wcslen_2;
+              return_value_wcslen_2=wcslen(prop);
+              void *return_value_malloc_3;
+              return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_2 + (unsigned long int)1));
+              propStripped = (signed int *)return_value_malloc_3;
               if(propStripped == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAAP", 1);
@@ -17399,18 +17399,18 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
               propStripped = (signed int *)prop;
             if(!(quotable == 0) && !(addQuotes == 0))
             {
-              return_value_wcschr$8=wcschr(propStripped, 32);
-              tmp_if_expr$9 = return_value_wcschr$8 != ((signed int *)NULL) ? (_Bool)1 : (_Bool)0;
+              return_value_wcschr_8=wcschr(propStripped, 32);
+              tmp_if_expr_9 = return_value_wcschr_8 != ((signed int *)NULL) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$9 = (_Bool)0;
-            if(tmp_if_expr$9)
+              tmp_if_expr_9 = (_Bool)0;
+            if(tmp_if_expr_9)
             {
               len=wrapperQuoteValue(propStripped, (signed int *)(void *)0, (unsigned long int)0);
-              void *return_value_malloc$4;
-              return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * len);
-              strings[(signed long int)index] = (signed int *)return_value_malloc$4;
+              void *return_value_malloc_4;
+              return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * len);
+              strings[(signed long int)index] = (signed int *)return_value_malloc_4;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAAP", 2);
@@ -17426,11 +17426,11 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
 
             else
             {
-              unsigned long int return_value_wcslen$5;
-              return_value_wcslen$5=wcslen(propStripped);
-              void *return_value_malloc$6;
-              return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$5 + (unsigned long int)1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$6;
+              unsigned long int return_value_wcslen_5;
+              return_value_wcslen_5=wcslen(propStripped);
+              void *return_value_malloc_6;
+              return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_5 + (unsigned long int)1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_6;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 if(!(stripQuote == 0))
@@ -17441,9 +17441,9 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
                 return -1;
               }
 
-              unsigned long int return_value_wcslen$7;
-              return_value_wcslen$7=wcslen(propStripped);
-              _sntprintf(strings[(signed long int)index], return_value_wcslen$7 + (unsigned long int)1, L"%s", propStripped);
+              unsigned long int return_value_wcslen_7;
+              return_value_wcslen_7=wcslen(propStripped);
+              _sntprintf(strings[(signed long int)index], return_value_wcslen_7 + (unsigned long int)1, L"%s", propStripped);
             }
             if(!(addQuotes == 0))
               wrapperCheckQuotes(strings[(signed long int)index], propertyNames[(signed long int)i]);
@@ -17473,18 +17473,18 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
         {
           if(!(addQuotes == 0))
           {
-            return_value_wcschr$19=wcschr(wrapperData->javaArgValues[(signed long int)i], 32);
-            tmp_if_expr$20 = return_value_wcschr$19 != ((signed int *)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_wcschr_19=wcschr(wrapperData->javaArgValues[(signed long int)i], 32);
+            tmp_if_expr_20 = return_value_wcschr_19 != ((signed int *)NULL) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$20 = (_Bool)0;
-          if(tmp_if_expr$20)
+            tmp_if_expr_20 = (_Bool)0;
+          if(tmp_if_expr_20)
           {
             len=wrapperQuoteValue(wrapperData->javaArgValues[(signed long int)i], (signed int *)(void *)0, (unsigned long int)0);
-            void *return_value_malloc$15;
-            return_value_malloc$15=malloc(sizeof(signed int) /*4ul*/  * len);
-            strings[(signed long int)index] = (signed int *)return_value_malloc$15;
+            void *return_value_malloc_15;
+            return_value_malloc_15=malloc(sizeof(signed int) /*4ul*/  * len);
+            strings[(signed long int)index] = (signed int *)return_value_malloc_15;
             if(strings[(signed long int)index] == ((signed int *)NULL))
             {
               outOfMemory(L"WBJCAAP", 4);
@@ -17496,20 +17496,20 @@ signed int wrapperBuildJavaCommandArrayAppParameters(signed int **strings, signe
 
           else
           {
-            unsigned long int return_value_wcslen$16;
-            return_value_wcslen$16=wcslen(wrapperData->javaArgValues[(signed long int)i]);
-            void *return_value_malloc$17;
-            return_value_malloc$17=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$16 + (unsigned long int)1));
-            strings[(signed long int)index] = (signed int *)return_value_malloc$17;
+            unsigned long int return_value_wcslen_16;
+            return_value_wcslen_16=wcslen(wrapperData->javaArgValues[(signed long int)i]);
+            void *return_value_malloc_17;
+            return_value_malloc_17=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_16 + (unsigned long int)1));
+            strings[(signed long int)index] = (signed int *)return_value_malloc_17;
             if(strings[(signed long int)index] == ((signed int *)NULL))
             {
               outOfMemory(L"WBJCAAP", 5);
               return -1;
             }
 
-            unsigned long int return_value_wcslen$18;
-            return_value_wcslen$18=wcslen(wrapperData->javaArgValues[(signed long int)i]);
-            _sntprintf(strings[(signed long int)index], return_value_wcslen$18 + (unsigned long int)1, L"%s", wrapperData->javaArgValues[(signed long int)i]);
+            unsigned long int return_value_wcslen_18;
+            return_value_wcslen_18=wcslen(wrapperData->javaArgValues[(signed long int)i]);
+            _sntprintf(strings[(signed long int)index], return_value_wcslen_18 + (unsigned long int)1, L"%s", wrapperData->javaArgValues[(signed long int)i]);
           }
         }
 
@@ -17529,9 +17529,9 @@ signed int wrapperBuildJavaCommandArrayClasspath(signed int **strings, signed in
   unsigned long int cpLen;
   if(!(strings == ((signed int **)NULL)))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(10 + 1));
-    strings[(signed long int)index] = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(10 + 1));
+    strings[(signed long int)index] = (signed int *)return_value_malloc_1;
     if(strings[(signed long int)index] == ((signed int *)NULL))
     {
       outOfMemory(L"WBJCAC", 1);
@@ -17546,9 +17546,9 @@ signed int wrapperBuildJavaCommandArrayClasspath(signed int **strings, signed in
   {
     cpLen = (unsigned long int)0;
     len=wcslen(classpath);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)4));
-    strings[(signed long int)index] = (signed int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)4));
+    strings[(signed long int)index] = (signed int *)return_value_malloc_2;
     if(strings[(signed long int)index] == ((signed int *)NULL))
     {
       outOfMemory(L"WBJCAC", 2);
@@ -17621,9 +17621,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
           if(!(strings == ((signed int **)NULL)))
           {
             initMemory = initMemory > 1 ? initMemory : 1;
-            void *return_value_malloc$1;
-            return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(5 + 10 + 1));
-            strings[(signed long int)index] = (signed int *)return_value_malloc$1;
+            void *return_value_malloc_1;
+            return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(5 + 10 + 1));
+            strings[(signed long int)index] = (signed int *)return_value_malloc_1;
             if(strings[(signed long int)index] == ((signed int *)NULL))
             {
               outOfMemory(L"WBJCAI", 8);
@@ -17644,9 +17644,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
           if(!(strings == ((signed int **)NULL)))
           {
             maxMemory = maxMemory > initMemory ? maxMemory : initMemory;
-            void *return_value_malloc$2;
-            return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(5 + 10 + 1));
-            strings[(signed long int)index] = (signed int *)return_value_malloc$2;
+            void *return_value_malloc_2;
+            return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(5 + 10 + 1));
+            strings[(signed long int)index] = (signed int *)return_value_malloc_2;
             if(strings[(signed long int)index] == ((signed int *)NULL))
             {
               outOfMemory(L"WBJCAI", 10);
@@ -17680,11 +17680,11 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             ;
             if(!(strings == ((signed int **)NULL)))
             {
-              unsigned long int return_value_wcslen$3;
-              return_value_wcslen$3=wcslen(wrapperData->key);
-              void *return_value_malloc$4;
-              return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)16 + return_value_wcslen$3 + (unsigned long int)1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$4;
+              unsigned long int return_value_wcslen_3;
+              return_value_wcslen_3=wcslen(wrapperData->key);
+              void *return_value_malloc_4;
+              return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)16 + return_value_wcslen_3 + (unsigned long int)1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_4;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 24);
@@ -17693,16 +17693,16 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
               if(!(addQuotes == 0))
               {
-                unsigned long int return_value_wcslen$5;
-                return_value_wcslen$5=wcslen(wrapperData->key);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)16 + return_value_wcslen$5 + (unsigned long int)1, L"-Dwrapper.key=\"%s\"", (const void *)wrapperData->key);
+                unsigned long int return_value_wcslen_5;
+                return_value_wcslen_5=wcslen(wrapperData->key);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)16 + return_value_wcslen_5 + (unsigned long int)1, L"-Dwrapper.key=\"%s\"", (const void *)wrapperData->key);
               }
 
               else
               {
-                unsigned long int return_value_wcslen$6;
-                return_value_wcslen$6=wcslen(wrapperData->key);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)16 + return_value_wcslen$6 + (unsigned long int)1, L"-Dwrapper.key=%s", (const void *)wrapperData->key);
+                unsigned long int return_value_wcslen_6;
+                return_value_wcslen_6=wcslen(wrapperData->key);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)16 + return_value_wcslen_6 + (unsigned long int)1, L"-Dwrapper.key=%s", (const void *)wrapperData->key);
               }
             }
 
@@ -17711,9 +17711,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$7;
-                return_value_malloc$7=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(22 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$7;
+                void *return_value_malloc_7;
+                return_value_malloc_7=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(22 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_7;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 25);
@@ -17732,9 +17732,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               {
                 if(!(strings == ((signed int **)NULL)))
                 {
-                  void *return_value_malloc$8;
-                  return_value_malloc$8=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(29 + 1));
-                  strings[(signed long int)index] = (signed int *)return_value_malloc$8;
+                  void *return_value_malloc_8;
+                  return_value_malloc_8=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(29 + 1));
+                  strings[(signed long int)index] = (signed int *)return_value_malloc_8;
                   if(strings[(signed long int)index] == ((signed int *)NULL))
                   {
                     outOfMemory(L"WBJCAI", 261);
@@ -17747,9 +17747,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
                 index = index + 1;
                 if(!(strings == ((signed int **)NULL)))
                 {
-                  void *return_value_malloc$9;
-                  return_value_malloc$9=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(35 + 1));
-                  strings[(signed long int)index] = (signed int *)return_value_malloc$9;
+                  void *return_value_malloc_9;
+                  return_value_malloc_9=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(35 + 1));
+                  strings[(signed long int)index] = (signed int *)return_value_malloc_9;
                   if(strings[(signed long int)index] == ((signed int *)NULL))
                   {
                     outOfMemory(L"WBJCAI", 262);
@@ -17764,9 +17764,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$10;
-                return_value_malloc$10=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(15 + 5 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$10;
+                void *return_value_malloc_10;
+                return_value_malloc_10=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(15 + 5 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_10;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 26);
@@ -17784,24 +17784,24 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               {
                 if(!(strings == ((signed int **)NULL)))
                 {
-                  unsigned long int return_value_wcslen$11;
-                  return_value_wcslen$11=wcslen(L"-Dwrapper.port.address=");
-                  unsigned long int return_value_wcslen$12;
-                  return_value_wcslen$12=wcslen(wrapperData->portAddress);
-                  void *return_value_malloc$13;
-                  return_value_malloc$13=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$11 + return_value_wcslen$12 + (unsigned long int)1));
-                  strings[(signed long int)index] = (signed int *)return_value_malloc$13;
+                  unsigned long int return_value_wcslen_11;
+                  return_value_wcslen_11=wcslen(L"-Dwrapper.port.address=");
+                  unsigned long int return_value_wcslen_12;
+                  return_value_wcslen_12=wcslen(wrapperData->portAddress);
+                  void *return_value_malloc_13;
+                  return_value_malloc_13=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_11 + return_value_wcslen_12 + (unsigned long int)1));
+                  strings[(signed long int)index] = (signed int *)return_value_malloc_13;
                   if(strings[(signed long int)index] == ((signed int *)NULL))
                   {
                     outOfMemory(L"WBJCAI", 27);
                     return -1;
                   }
 
-                  unsigned long int return_value_wcslen$14;
-                  return_value_wcslen$14=wcslen(L"-Dwrapper.port.address=");
-                  unsigned long int return_value_wcslen$15;
-                  return_value_wcslen$15=wcslen(wrapperData->portAddress);
-                  _sntprintf(strings[(signed long int)index], return_value_wcslen$14 + return_value_wcslen$15 + (unsigned long int)1, L"-Dwrapper.port.address=%s", wrapperData->portAddress);
+                  unsigned long int return_value_wcslen_14;
+                  return_value_wcslen_14=wcslen(L"-Dwrapper.port.address=");
+                  unsigned long int return_value_wcslen_15;
+                  return_value_wcslen_15=wcslen(wrapperData->portAddress);
+                  _sntprintf(strings[(signed long int)index], return_value_wcslen_14 + return_value_wcslen_15 + (unsigned long int)1, L"-Dwrapper.port.address=%s", wrapperData->portAddress);
                 }
 
                 index = index + 1;
@@ -17811,9 +17811,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               {
                 if(!(strings == ((signed int **)NULL)))
                 {
-                  void *return_value_malloc$16;
-                  return_value_malloc$16=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(19 + 5 + 1));
-                  strings[(signed long int)index] = (signed int *)return_value_malloc$16;
+                  void *return_value_malloc_16;
+                  return_value_malloc_16=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(19 + 5 + 1));
+                  strings[(signed long int)index] = (signed int *)return_value_malloc_16;
                   if(strings[(signed long int)index] == ((signed int *)NULL))
                   {
                     outOfMemory(L"WBJCAI", 28);
@@ -17828,9 +17828,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$17;
-                return_value_malloc$17=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(23 + 5 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$17;
+                void *return_value_malloc_17;
+                return_value_malloc_17=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(23 + 5 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_17;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 29);
@@ -17843,9 +17843,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               index = index + 1;
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$18;
-                return_value_malloc$18=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(23 + 5 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$18;
+                void *return_value_malloc_18;
+                return_value_malloc_18=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(23 + 5 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_18;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 30);
@@ -17862,9 +17862,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$19;
-                return_value_malloc$19=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(22 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$19;
+                void *return_value_malloc_19;
+                return_value_malloc_19=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(22 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_19;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 31);
@@ -17881,15 +17881,15 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               index = index + 1;
             }
 
-            signed int return_value_getBooleanProperty$21;
-            return_value_getBooleanProperty$21=getBooleanProperty(properties, L"wrapper.disable_console_input", wrapperData->daemonize);
-            if(!(return_value_getBooleanProperty$21 == 0))
+            signed int return_value_getBooleanProperty_21;
+            return_value_getBooleanProperty_21=getBooleanProperty(properties, L"wrapper.disable_console_input", wrapperData->daemonize);
+            if(!(return_value_getBooleanProperty_21 == 0))
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$20;
-                return_value_malloc$20=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(38 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$20;
+                void *return_value_malloc_20;
+                return_value_malloc_20=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(38 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_20;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 32);
@@ -17906,15 +17906,15 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               index = index + 1;
             }
 
-            signed int return_value_getBooleanProperty$23;
-            return_value_getBooleanProperty$23=getBooleanProperty(properties, L"wrapper.listener.force_stop", 0);
-            if(!(return_value_getBooleanProperty$23 == 0))
+            signed int return_value_getBooleanProperty_23;
+            return_value_getBooleanProperty_23=getBooleanProperty(properties, L"wrapper.listener.force_stop", 0);
+            if(!(return_value_getBooleanProperty_23 == 0))
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$22;
-                return_value_malloc$22=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(38 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$22;
+                void *return_value_malloc_22;
+                return_value_malloc_22=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(38 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_22;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 33);
@@ -17933,9 +17933,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
             if(!(strings == ((signed int **)NULL)))
             {
-              void *return_value_malloc$24;
-              return_value_malloc$24=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(24 + 1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$24;
+              void *return_value_malloc_24;
+              return_value_malloc_24=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(24 + 1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_24;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 34);
@@ -17950,9 +17950,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$25;
-                return_value_malloc$25=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(32 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$25;
+                void *return_value_malloc_25;
+                return_value_malloc_25=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(32 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_25;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 35);
@@ -17975,9 +17975,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               {
                 if(!(strings == ((signed int **)NULL)))
                 {
-                  void *return_value_malloc$26;
-                  return_value_malloc$26=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(43 + 1));
-                  strings[(signed long int)index] = (signed int *)return_value_malloc$26;
+                  void *return_value_malloc_26;
+                  return_value_malloc_26=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(43 + 1));
+                  strings[(signed long int)index] = (signed int *)return_value_malloc_26;
                   if(strings[(signed long int)index] == ((signed int *)NULL))
                   {
                     outOfMemory(L"WBJCAI", 36);
@@ -17998,9 +17998,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
               {
                 if(!(strings == ((signed int **)NULL)))
                 {
-                  void *return_value_malloc$27;
-                  return_value_malloc$27=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(43 + 1));
-                  strings[(signed long int)index] = (signed int *)return_value_malloc$27;
+                  void *return_value_malloc_27;
+                  return_value_malloc_27=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(43 + 1));
+                  strings[(signed long int)index] = (signed int *)return_value_malloc_27;
                   if(strings[(signed long int)index] == ((signed int *)NULL))
                   {
                     outOfMemory(L"WBJCAI", 37);
@@ -18020,11 +18020,11 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             }
             if(!(strings == ((signed int **)NULL)))
             {
-              unsigned long int return_value_wcslen$28;
-              return_value_wcslen$28=wcslen(wrapperVersion);
-              void *return_value_malloc$29;
-              return_value_malloc$29=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)20 + return_value_wcslen$28 + (unsigned long int)1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$29;
+              unsigned long int return_value_wcslen_28;
+              return_value_wcslen_28=wcslen(wrapperVersion);
+              void *return_value_malloc_29;
+              return_value_malloc_29=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)20 + return_value_wcslen_28 + (unsigned long int)1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_29;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 37);
@@ -18033,27 +18033,27 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
               if(!(addQuotes == 0))
               {
-                unsigned long int return_value_wcslen$30;
-                return_value_wcslen$30=wcslen(wrapperVersion);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)20 + return_value_wcslen$30 + (unsigned long int)1, L"-Dwrapper.version=\"%s\"", wrapperVersion);
+                unsigned long int return_value_wcslen_30;
+                return_value_wcslen_30=wcslen(wrapperVersion);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)20 + return_value_wcslen_30 + (unsigned long int)1, L"-Dwrapper.version=\"%s\"", wrapperVersion);
               }
 
               else
               {
-                unsigned long int return_value_wcslen$31;
-                return_value_wcslen$31=wcslen(wrapperVersion);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)20 + return_value_wcslen$31 + (unsigned long int)1, L"-Dwrapper.version=%s", wrapperVersion);
+                unsigned long int return_value_wcslen_31;
+                return_value_wcslen_31=wcslen(wrapperVersion);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)20 + return_value_wcslen_31 + (unsigned long int)1, L"-Dwrapper.version=%s", wrapperVersion);
               }
             }
 
             index = index + 1;
             if(!(strings == ((signed int **)NULL)))
             {
-              unsigned long int return_value_wcslen$32;
-              return_value_wcslen$32=wcslen(wrapperData->nativeLibrary);
-              void *return_value_malloc$33;
-              return_value_malloc$33=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)27 + return_value_wcslen$32 + (unsigned long int)1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$33;
+              unsigned long int return_value_wcslen_32;
+              return_value_wcslen_32=wcslen(wrapperData->nativeLibrary);
+              void *return_value_malloc_33;
+              return_value_malloc_33=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)27 + return_value_wcslen_32 + (unsigned long int)1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_33;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 38);
@@ -18062,27 +18062,27 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
               if(!(addQuotes == 0))
               {
-                unsigned long int return_value_wcslen$34;
-                return_value_wcslen$34=wcslen(wrapperData->nativeLibrary);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)27 + return_value_wcslen$34 + (unsigned long int)1, L"-Dwrapper.native_library=\"%s\"", wrapperData->nativeLibrary);
+                unsigned long int return_value_wcslen_34;
+                return_value_wcslen_34=wcslen(wrapperData->nativeLibrary);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)27 + return_value_wcslen_34 + (unsigned long int)1, L"-Dwrapper.native_library=\"%s\"", wrapperData->nativeLibrary);
               }
 
               else
               {
-                unsigned long int return_value_wcslen$35;
-                return_value_wcslen$35=wcslen(wrapperData->nativeLibrary);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)27 + return_value_wcslen$35 + (unsigned long int)1, L"-Dwrapper.native_library=%s", wrapperData->nativeLibrary);
+                unsigned long int return_value_wcslen_35;
+                return_value_wcslen_35=wcslen(wrapperData->nativeLibrary);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)27 + return_value_wcslen_35 + (unsigned long int)1, L"-Dwrapper.native_library=%s", wrapperData->nativeLibrary);
               }
             }
 
             index = index + 1;
             if(!(strings == ((signed int **)NULL)))
             {
-              unsigned long int return_value_wcslen$36;
-              return_value_wcslen$36=wcslen(wrapperArch);
-              void *return_value_malloc$37;
-              return_value_malloc$37=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)17 + return_value_wcslen$36 + (unsigned long int)1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$37;
+              unsigned long int return_value_wcslen_36;
+              return_value_wcslen_36=wcslen(wrapperArch);
+              void *return_value_malloc_37;
+              return_value_malloc_37=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)17 + return_value_wcslen_36 + (unsigned long int)1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_37;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 39);
@@ -18091,16 +18091,16 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
               if(!(addQuotes == 0))
               {
-                unsigned long int return_value_wcslen$38;
-                return_value_wcslen$38=wcslen(wrapperArch);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)17 + return_value_wcslen$38 + (unsigned long int)1, L"-Dwrapper.arch=\"%s\"", wrapperArch);
+                unsigned long int return_value_wcslen_38;
+                return_value_wcslen_38=wcslen(wrapperArch);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)17 + return_value_wcslen_38 + (unsigned long int)1, L"-Dwrapper.arch=\"%s\"", wrapperArch);
               }
 
               else
               {
-                unsigned long int return_value_wcslen$39;
-                return_value_wcslen$39=wcslen(wrapperArch);
-                _sntprintf(strings[(signed long int)index], (unsigned long int)17 + return_value_wcslen$39 + (unsigned long int)1, L"-Dwrapper.arch=%s", wrapperArch);
+                unsigned long int return_value_wcslen_39;
+                return_value_wcslen_39=wcslen(wrapperArch);
+                _sntprintf(strings[(signed long int)index], (unsigned long int)17 + return_value_wcslen_39 + (unsigned long int)1, L"-Dwrapper.arch=%s", wrapperArch);
               }
             }
 
@@ -18109,9 +18109,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$40;
-                return_value_malloc$40=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(31 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$40;
+                void *return_value_malloc_40;
+                return_value_malloc_40=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(31 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_40;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 40);
@@ -18132,9 +18132,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$41;
-                return_value_malloc$41=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(24 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$41;
+                void *return_value_malloc_41;
+                return_value_malloc_41=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(24 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_41;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 41);
@@ -18155,9 +18155,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$42;
-                return_value_malloc$42=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(30 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$42;
+                void *return_value_malloc_42;
+                return_value_malloc_42=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(30 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_42;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 42);
@@ -18178,9 +18178,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$43;
-                return_value_malloc$43=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(38 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$43;
+                void *return_value_malloc_43;
+                return_value_malloc_43=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(38 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_43;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 43);
@@ -18199,9 +18199,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
             if(!(strings == ((signed int **)NULL)))
             {
-              void *return_value_malloc$44;
-              return_value_malloc$44=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(24 + 20 + 1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$44;
+              void *return_value_malloc_44;
+              return_value_malloc_44=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(24 + 20 + 1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_44;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 44);
@@ -18221,11 +18221,11 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                unsigned long int return_value_wcslen$45;
-                return_value_wcslen$45=wcslen(prop);
-                void *return_value_malloc$46;
-                return_value_malloc$46=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)25 + return_value_wcslen$45 + (unsigned long int)1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$46;
+                unsigned long int return_value_wcslen_45;
+                return_value_wcslen_45=wcslen(prop);
+                void *return_value_malloc_46;
+                return_value_malloc_46=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)25 + return_value_wcslen_45 + (unsigned long int)1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_46;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 46);
@@ -18234,16 +18234,16 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
                 if(!(addQuotes == 0))
                 {
-                  unsigned long int return_value_wcslen$47;
-                  return_value_wcslen$47=wcslen(prop);
-                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen$47 + (unsigned long int)1, L"-Dwrapper.java.outfile=\"%s\"", prop);
+                  unsigned long int return_value_wcslen_47;
+                  return_value_wcslen_47=wcslen(prop);
+                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen_47 + (unsigned long int)1, L"-Dwrapper.java.outfile=\"%s\"", prop);
                 }
 
                 else
                 {
-                  unsigned long int return_value_wcslen$48;
-                  return_value_wcslen$48=wcslen(prop);
-                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen$48 + (unsigned long int)1, L"-Dwrapper.java.outfile=%s", prop);
+                  unsigned long int return_value_wcslen_48;
+                  return_value_wcslen_48=wcslen(prop);
+                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen_48 + (unsigned long int)1, L"-Dwrapper.java.outfile=%s", prop);
                 }
               }
 
@@ -18255,11 +18255,11 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                unsigned long int return_value_wcslen$49;
-                return_value_wcslen$49=wcslen(prop);
-                void *return_value_malloc$50;
-                return_value_malloc$50=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)25 + return_value_wcslen$49 + (unsigned long int)1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$50;
+                unsigned long int return_value_wcslen_49;
+                return_value_wcslen_49=wcslen(prop);
+                void *return_value_malloc_50;
+                return_value_malloc_50=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)25 + return_value_wcslen_49 + (unsigned long int)1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_50;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 47);
@@ -18268,16 +18268,16 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
                 if(!(addQuotes == 0))
                 {
-                  unsigned long int return_value_wcslen$51;
-                  return_value_wcslen$51=wcslen(prop);
-                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen$51 + (unsigned long int)1, L"-Dwrapper.java.errfile=\"%s\"", prop);
+                  unsigned long int return_value_wcslen_51;
+                  return_value_wcslen_51=wcslen(prop);
+                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen_51 + (unsigned long int)1, L"-Dwrapper.java.errfile=\"%s\"", prop);
                 }
 
                 else
                 {
-                  unsigned long int return_value_wcslen$52;
-                  return_value_wcslen$52=wcslen(prop);
-                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen$52 + (unsigned long int)1, L"-Dwrapper.java.errfile=%s", prop);
+                  unsigned long int return_value_wcslen_52;
+                  return_value_wcslen_52=wcslen(prop);
+                  _sntprintf(strings[(signed long int)index], (unsigned long int)25 + return_value_wcslen_52 + (unsigned long int)1, L"-Dwrapper.java.errfile=%s", prop);
                 }
               }
 
@@ -18286,9 +18286,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
 
             if(!(strings == ((signed int **)NULL)))
             {
-              void *return_value_malloc$53;
-              return_value_malloc$53=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(16 + 5 + 1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$53;
+              void *return_value_malloc_53;
+              return_value_malloc_53=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(16 + 5 + 1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_53;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 48);
@@ -18303,9 +18303,9 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             {
               if(!(strings == ((signed int **)NULL)))
               {
-                void *return_value_malloc$54;
-                return_value_malloc$54=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(30 + 1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$54;
+                void *return_value_malloc_54;
+                return_value_malloc_54=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(30 + 1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_54;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAI", 51);
@@ -18323,29 +18323,29 @@ signed int wrapperBuildJavaCommandArrayInner(signed int **strings, signed int ad
             }
 
             prop=getStringProperty(properties, L"wrapper.java.mainclass", L"Main");
-            signed int return_value_wcscmp$55;
-            return_value_wcscmp$55=wcscmp(prop, L"org.tanukisoftware.wrapper.test.Main");
-            if(return_value_wcscmp$55 == 0)
+            signed int return_value_wcscmp_55;
+            return_value_wcscmp_55=wcscmp(prop, L"org.tanukisoftware.wrapper.test.Main");
+            if(return_value_wcscmp_55 == 0)
               thisIsTestWrapper = -1;
 
             else
               thisIsTestWrapper = 0;
             if(!(strings == ((signed int **)NULL)))
             {
-              unsigned long int return_value_wcslen$56;
-              return_value_wcslen$56=wcslen(prop);
-              void *return_value_malloc$57;
-              return_value_malloc$57=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$56 + (unsigned long int)1));
-              strings[(signed long int)index] = (signed int *)return_value_malloc$57;
+              unsigned long int return_value_wcslen_56;
+              return_value_wcslen_56=wcslen(prop);
+              void *return_value_malloc_57;
+              return_value_malloc_57=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_56 + (unsigned long int)1));
+              strings[(signed long int)index] = (signed int *)return_value_malloc_57;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCAI", 52);
                 return -1;
               }
 
-              unsigned long int return_value_wcslen$58;
-              return_value_wcslen$58=wcslen(prop);
-              _sntprintf(strings[(signed long int)index], return_value_wcslen$58 + (unsigned long int)1, L"%s", prop);
+              unsigned long int return_value_wcslen_58;
+              return_value_wcslen_58=wcslen(prop);
+              _sntprintf(strings[(signed long int)index], return_value_wcslen_58 + (unsigned long int)1, L"%s", prop);
             }
 
             index = index + 1;
@@ -18383,13 +18383,13 @@ signed int wrapperBuildJavaCommandArrayJavaAdditional(signed int **strings, sign
   signed int **propertyNames;
   signed int **propertyValues;
   unsigned long int *propertyIndices;
-  signed int return_value_getStringProperties$1;
-  return_value_getStringProperties$1=getStringProperties(properties, L"wrapper.java.additional.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
-  _Bool tmp_if_expr$13;
-  signed int *return_value_wcsstr$12;
-  _Bool tmp_if_expr$9;
-  signed int *return_value_wcschr$8;
-  if(!(return_value_getStringProperties$1 == 0))
+  signed int return_value_getStringProperties_1;
+  return_value_getStringProperties_1=getStringProperties(properties, L"wrapper.java.additional.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
+  _Bool tmp_if_expr_13;
+  signed int *return_value_wcsstr_12;
+  _Bool tmp_if_expr_9;
+  signed int *return_value_wcschr_8;
+  if(!(return_value_getStringProperties_1 == 0))
     return -1;
 
   else
@@ -18401,21 +18401,21 @@ signed int wrapperBuildJavaCommandArrayJavaAdditional(signed int **strings, sign
       prop = propertyValues[(signed long int)i];
       if(!(prop == ((const signed int *)NULL)))
       {
-        unsigned long int return_value_wcslen$14;
-        return_value_wcslen$14=wcslen(prop);
-        if(return_value_wcslen$14 >= 1ul)
+        unsigned long int return_value_wcslen_14;
+        return_value_wcslen_14=wcslen(prop);
+        if(return_value_wcslen_14 >= 1ul)
         {
-          signed int *return_value_wcsstr$11;
-          return_value_wcsstr$11=wcsstr(prop, L"-");
-          if(return_value_wcsstr$11 == prop)
-            tmp_if_expr$13 = (_Bool)1;
+          signed int *return_value_wcsstr_11;
+          return_value_wcsstr_11=wcsstr(prop, L"-");
+          if(return_value_wcsstr_11 == prop)
+            tmp_if_expr_13 = (_Bool)1;
 
           else
           {
-            return_value_wcsstr$12=wcsstr(prop, L"\"-");
-            tmp_if_expr$13 = return_value_wcsstr$12 == prop ? (_Bool)1 : (_Bool)0;
+            return_value_wcsstr_12=wcsstr(prop, L"\"-");
+            tmp_if_expr_13 = return_value_wcsstr_12 == prop ? (_Bool)1 : (_Bool)0;
           }
-          if(!tmp_if_expr$13)
+          if(!tmp_if_expr_13)
           {
             if(!(strings == ((signed int **)NULL)))
               log_printf(-1, 4, L"The value of property '%s', '%s' is not a valid argument to the JVM.  Skipping.", propertyNames[(signed long int)i], prop);
@@ -18443,11 +18443,11 @@ signed int wrapperBuildJavaCommandArrayJavaAdditional(signed int **strings, sign
                 stripQuote=getBooleanProperty(properties, paramBuffer2, defaultStripQuote);
               if(!(stripQuote == 0))
               {
-                unsigned long int return_value_wcslen$2;
-                return_value_wcslen$2=wcslen(prop);
-                void *return_value_malloc$3;
-                return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$2 + (unsigned long int)1));
-                propStripped = (signed int *)return_value_malloc$3;
+                unsigned long int return_value_wcslen_2;
+                return_value_wcslen_2=wcslen(prop);
+                void *return_value_malloc_3;
+                return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_2 + (unsigned long int)1));
+                propStripped = (signed int *)return_value_malloc_3;
                 if(propStripped == ((signed int *)NULL))
                 {
                   freeStringProperties(propertyNames, propertyValues, propertyIndices);
@@ -18462,18 +18462,18 @@ signed int wrapperBuildJavaCommandArrayJavaAdditional(signed int **strings, sign
                 propStripped = (signed int *)prop;
               if(!(quotable == 0) && !(addQuotes == 0))
               {
-                return_value_wcschr$8=wcschr(propStripped, 32);
-                tmp_if_expr$9 = return_value_wcschr$8 != ((signed int *)NULL) ? (_Bool)1 : (_Bool)0;
+                return_value_wcschr_8=wcschr(propStripped, 32);
+                tmp_if_expr_9 = return_value_wcschr_8 != ((signed int *)NULL) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$9 = (_Bool)0;
-              if(tmp_if_expr$9)
+                tmp_if_expr_9 = (_Bool)0;
+              if(tmp_if_expr_9)
               {
                 len=wrapperQuoteValue(propStripped, (signed int *)(void *)0, (unsigned long int)0);
-                void *return_value_malloc$4;
-                return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * len);
-                strings[(signed long int)index] = (signed int *)return_value_malloc$4;
+                void *return_value_malloc_4;
+                return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * len);
+                strings[(signed long int)index] = (signed int *)return_value_malloc_4;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAJA", 3);
@@ -18489,11 +18489,11 @@ signed int wrapperBuildJavaCommandArrayJavaAdditional(signed int **strings, sign
 
               else
               {
-                unsigned long int return_value_wcslen$5;
-                return_value_wcslen$5=wcslen(propStripped);
-                void *return_value_malloc$6;
-                return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$5 + (unsigned long int)1));
-                strings[(signed long int)index] = (signed int *)return_value_malloc$6;
+                unsigned long int return_value_wcslen_5;
+                return_value_wcslen_5=wcslen(propStripped);
+                void *return_value_malloc_6;
+                return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_5 + (unsigned long int)1));
+                strings[(signed long int)index] = (signed int *)return_value_malloc_6;
                 if(strings[(signed long int)index] == ((signed int *)NULL))
                 {
                   outOfMemory(L"WBJCAJA", 4);
@@ -18504,9 +18504,9 @@ signed int wrapperBuildJavaCommandArrayJavaAdditional(signed int **strings, sign
                   return -1;
                 }
 
-                unsigned long int return_value_wcslen$7;
-                return_value_wcslen$7=wcslen(propStripped);
-                _sntprintf(strings[(signed long int)index], return_value_wcslen$7 + (unsigned long int)1, L"%s", propStripped);
+                unsigned long int return_value_wcslen_7;
+                return_value_wcslen_7=wcslen(propStripped);
+                _sntprintf(strings[(signed long int)index], return_value_wcslen_7 + (unsigned long int)1, L"%s", propStripped);
               }
               if(!(addQuotes == 0))
                 wrapperCheckQuotes(strings[(signed long int)index], propertyNames[(signed long int)i]);
@@ -18519,9 +18519,9 @@ signed int wrapperBuildJavaCommandArrayJavaAdditional(signed int **strings, sign
 
               if(!(detectDebugJVM == 0))
               {
-                signed int *return_value_wcsstr$10;
-                return_value_wcsstr$10=wcsstr(strings[(signed long int)index], L"-Xdebug");
-                if(return_value_wcsstr$10 == strings[(signed long int)index])
+                signed int *return_value_wcsstr_10;
+                return_value_wcsstr_10=wcsstr(strings[(signed long int)index], L"-Xdebug");
+                if(return_value_wcsstr_10 == strings[(signed long int)index])
                   wrapperData->debugJVM = -1;
 
               }
@@ -18547,17 +18547,17 @@ signed int wrapperBuildJavaCommandArrayJavaCommand(signed int **strings, signed 
 {
   const signed int *prop;
   signed int *c;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_wcslen$6;
-  unsigned long int return_value_wcslen$5;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_wcslen_6;
+  unsigned long int return_value_wcslen_5;
   if(!(strings == ((signed int **)NULL)))
   {
     prop=getStringProperty(properties, L"wrapper.java.command", L"java");
-    unsigned long int return_value_wcslen$1;
-    return_value_wcslen$1=wcslen(prop);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)2 + (unsigned long int)1));
-    strings[(signed long int)index] = (signed int *)return_value_malloc$2;
+    unsigned long int return_value_wcslen_1;
+    return_value_wcslen_1=wcslen(prop);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)2 + (unsigned long int)1));
+    strings[(signed long int)index] = (signed int *)return_value_malloc_2;
     if(strings[(signed long int)index] == ((signed int *)NULL))
     {
       outOfMemory(L"WBJCAJC", 3);
@@ -18566,16 +18566,16 @@ signed int wrapperBuildJavaCommandArrayJavaCommand(signed int **strings, signed 
 
     if(!(addQuotes == 0))
     {
-      unsigned long int return_value_wcslen$3;
-      return_value_wcslen$3=wcslen(prop);
-      _sntprintf(strings[(signed long int)index], return_value_wcslen$3 + (unsigned long int)2 + (unsigned long int)1, L"\"%s\"", prop);
+      unsigned long int return_value_wcslen_3;
+      return_value_wcslen_3=wcslen(prop);
+      _sntprintf(strings[(signed long int)index], return_value_wcslen_3 + (unsigned long int)2 + (unsigned long int)1, L"\"%s\"", prop);
     }
 
     else
     {
-      unsigned long int return_value_wcslen$4;
-      return_value_wcslen$4=wcslen(prop);
-      _sntprintf(strings[(signed long int)index], return_value_wcslen$4 + (unsigned long int)2 + (unsigned long int)1, L"%s", prop);
+      unsigned long int return_value_wcslen_4;
+      return_value_wcslen_4=wcslen(prop);
+      _sntprintf(strings[(signed long int)index], return_value_wcslen_4 + (unsigned long int)2 + (unsigned long int)1, L"%s", prop);
     }
     checkIfRegularExe(&strings[(signed long int)index]);
     if(!(detectDebugJVM == 0))
@@ -18583,13 +18583,13 @@ signed int wrapperBuildJavaCommandArrayJavaCommand(signed int **strings, signed 
       c=wcsstr(strings[(signed long int)index], L"jdb");
       if(!(c == ((signed int *)NULL)))
       {
-        return_value_wcslen$6=wcslen(strings[(signed long int)index]);
-        tmp_if_expr$7 = (unsigned long int)(unsigned int)(c - strings[(signed long int)index]) == (return_value_wcslen$6 - (unsigned long int)3) - (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+        return_value_wcslen_6=wcslen(strings[(signed long int)index]);
+        tmp_if_expr_7 = (unsigned long int)(unsigned int)(c - strings[(signed long int)index]) == (return_value_wcslen_6 - (unsigned long int)3) - (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
         wrapperData->debugJVM = -1;
 
       else
@@ -18597,8 +18597,8 @@ signed int wrapperBuildJavaCommandArrayJavaCommand(signed int **strings, signed 
         c=wcsstr(strings[(signed long int)index], L"jdb.exe");
         if(!(c == ((signed int *)NULL)))
         {
-          return_value_wcslen$5=wcslen(strings[(signed long int)index]);
-          if((unsigned long int)(unsigned int)(c - strings[(signed long int)index]) == return_value_wcslen$5 + 18446744073709551609ul + 18446744073709551615ul)
+          return_value_wcslen_5=wcslen(strings[(signed long int)index]);
+          if((unsigned long int)(unsigned int)(c - strings[(signed long int)index]) == return_value_wcslen_5 + 18446744073709551609ul + 18446744073709551615ul)
             wrapperData->debugJVM = -1;
 
         }
@@ -18627,12 +18627,12 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
   signed int **propertyNames;
   signed int **propertyValues;
   unsigned long int *propertyIndices;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_wcslen$9;
-  _Bool tmp_if_expr$19;
-  unsigned long int return_value_wcslen$18;
-  unsigned long int tmp_post$24;
-  unsigned long int tmp_post$26;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_wcslen_9;
+  _Bool tmp_if_expr_19;
+  unsigned long int return_value_wcslen_18;
+  unsigned long int tmp_post_24;
+  unsigned long int tmp_post_26;
   if(!(strings == ((signed int **)NULL)))
   {
     if(!(wrapperData->libraryPathAppendPath == 0))
@@ -18670,13 +18670,13 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
     {
       if(!(systemPath == ((signed int *)NULL)))
       {
-        unsigned long int return_value_wcslen$1;
-        return_value_wcslen$1=wcslen(prop);
-        unsigned long int return_value_wcslen$2;
-        return_value_wcslen$2=wcslen(systemPath);
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)22 + return_value_wcslen$1 + (unsigned long int)1 + return_value_wcslen$2 + (unsigned long int)1 + (unsigned long int)1));
-        strings[(signed long int)index] = (signed int *)return_value_malloc$3;
+        unsigned long int return_value_wcslen_1;
+        return_value_wcslen_1=wcslen(prop);
+        unsigned long int return_value_wcslen_2;
+        return_value_wcslen_2=wcslen(systemPath);
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)22 + return_value_wcslen_1 + (unsigned long int)1 + return_value_wcslen_2 + (unsigned long int)1 + (unsigned long int)1));
+        strings[(signed long int)index] = (signed int *)return_value_malloc_3;
         if(strings[(signed long int)index] == ((signed int *)NULL))
         {
           outOfMemory(L"WBJCALP", 1);
@@ -18686,52 +18686,52 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
 
         if(!(addQuotes == 0))
         {
-          unsigned long int return_value_wcslen$8;
-          return_value_wcslen$8=wcslen(systemPath);
-          if(return_value_wcslen$8 >= 2ul)
+          unsigned long int return_value_wcslen_8;
+          return_value_wcslen_8=wcslen(systemPath);
+          if(return_value_wcslen_8 >= 2ul)
           {
-            return_value_wcslen$9=wcslen(systemPath);
-            tmp_if_expr$10 = systemPath[(signed long int)(return_value_wcslen$9 - (unsigned long int)1)] == 92 ? (_Bool)1 : (_Bool)0;
+            return_value_wcslen_9=wcslen(systemPath);
+            tmp_if_expr_10 = systemPath[(signed long int)(return_value_wcslen_9 - (unsigned long int)1)] == 92 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
           {
-            unsigned long int return_value_wcslen$4;
-            return_value_wcslen$4=wcslen(prop);
-            unsigned long int return_value_wcslen$5;
-            return_value_wcslen$5=wcslen(systemPath);
-            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen$4 + (unsigned long int)1 + return_value_wcslen$5 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s%c%s\\\"", prop, wrapperClasspathSeparator, systemPath);
+            unsigned long int return_value_wcslen_4;
+            return_value_wcslen_4=wcslen(prop);
+            unsigned long int return_value_wcslen_5;
+            return_value_wcslen_5=wcslen(systemPath);
+            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen_4 + (unsigned long int)1 + return_value_wcslen_5 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s%c%s\\\"", prop, wrapperClasspathSeparator, systemPath);
           }
 
           else
           {
-            unsigned long int return_value_wcslen$6;
-            return_value_wcslen$6=wcslen(prop);
-            unsigned long int return_value_wcslen$7;
-            return_value_wcslen$7=wcslen(systemPath);
-            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen$6 + (unsigned long int)1 + return_value_wcslen$7 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s%c%s\"", prop, wrapperClasspathSeparator, systemPath);
+            unsigned long int return_value_wcslen_6;
+            return_value_wcslen_6=wcslen(prop);
+            unsigned long int return_value_wcslen_7;
+            return_value_wcslen_7=wcslen(systemPath);
+            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen_6 + (unsigned long int)1 + return_value_wcslen_7 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s%c%s\"", prop, wrapperClasspathSeparator, systemPath);
           }
         }
 
         else
         {
-          unsigned long int return_value_wcslen$11;
-          return_value_wcslen$11=wcslen(prop);
-          unsigned long int return_value_wcslen$12;
-          return_value_wcslen$12=wcslen(systemPath);
-          _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen$11 + (unsigned long int)1 + return_value_wcslen$12 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=%s%c%s", prop, wrapperClasspathSeparator, systemPath);
+          unsigned long int return_value_wcslen_11;
+          return_value_wcslen_11=wcslen(prop);
+          unsigned long int return_value_wcslen_12;
+          return_value_wcslen_12=wcslen(systemPath);
+          _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen_11 + (unsigned long int)1 + return_value_wcslen_12 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=%s%c%s", prop, wrapperClasspathSeparator, systemPath);
         }
       }
 
       else
       {
-        unsigned long int return_value_wcslen$13;
-        return_value_wcslen$13=wcslen(prop);
-        void *return_value_malloc$14;
-        return_value_malloc$14=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)22 + return_value_wcslen$13 + (unsigned long int)1 + (unsigned long int)1));
-        strings[(signed long int)index] = (signed int *)return_value_malloc$14;
+        unsigned long int return_value_wcslen_13;
+        return_value_wcslen_13=wcslen(prop);
+        void *return_value_malloc_14;
+        return_value_malloc_14=malloc(sizeof(signed int) /*4ul*/  * ((unsigned long int)22 + return_value_wcslen_13 + (unsigned long int)1 + (unsigned long int)1));
+        strings[(signed long int)index] = (signed int *)return_value_malloc_14;
         if(strings[(signed long int)index] == ((signed int *)NULL))
         {
           outOfMemory(L"WBJCALP", 2);
@@ -18740,36 +18740,36 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
 
         if(!(addQuotes == 0))
         {
-          unsigned long int return_value_wcslen$17;
-          return_value_wcslen$17=wcslen(prop);
-          if(return_value_wcslen$17 >= 2ul)
+          unsigned long int return_value_wcslen_17;
+          return_value_wcslen_17=wcslen(prop);
+          if(return_value_wcslen_17 >= 2ul)
           {
-            return_value_wcslen$18=wcslen(prop);
-            tmp_if_expr$19 = prop[(signed long int)(return_value_wcslen$18 - (unsigned long int)1)] == 92 ? (_Bool)1 : (_Bool)0;
+            return_value_wcslen_18=wcslen(prop);
+            tmp_if_expr_19 = prop[(signed long int)(return_value_wcslen_18 - (unsigned long int)1)] == 92 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$19 = (_Bool)0;
-          if(tmp_if_expr$19)
+            tmp_if_expr_19 = (_Bool)0;
+          if(tmp_if_expr_19)
           {
-            unsigned long int return_value_wcslen$15;
-            return_value_wcslen$15=wcslen(prop);
-            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen$15 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s\\\"", prop);
+            unsigned long int return_value_wcslen_15;
+            return_value_wcslen_15=wcslen(prop);
+            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen_15 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s\\\"", prop);
           }
 
           else
           {
-            unsigned long int return_value_wcslen$16;
-            return_value_wcslen$16=wcslen(prop);
-            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen$16 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s\"", prop);
+            unsigned long int return_value_wcslen_16;
+            return_value_wcslen_16=wcslen(prop);
+            _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen_16 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=\"%s\"", prop);
           }
         }
 
         else
         {
-          unsigned long int return_value_wcslen$20;
-          return_value_wcslen$20=wcslen(prop);
-          _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen$20 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=%s", prop);
+          unsigned long int return_value_wcslen_20;
+          return_value_wcslen_20=wcslen(prop);
+          _sntprintf(strings[(signed long int)index], (unsigned long int)22 + return_value_wcslen_20 + (unsigned long int)1 + (unsigned long int)1, L"-Djava.library.path=%s", prop);
         }
       }
       if(!(addQuotes == 0))
@@ -18781,9 +18781,9 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
     {
       cpLen = (unsigned long int)0;
       cpLenAlloc = (unsigned long int)1024;
-      void *return_value_malloc$21;
-      return_value_malloc$21=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
-      strings[(signed long int)index] = (signed int *)return_value_malloc$21;
+      void *return_value_malloc_21;
+      return_value_malloc_21=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
+      strings[(signed long int)index] = (signed int *)return_value_malloc_21;
       if(strings[(signed long int)index] == ((signed int *)NULL))
       {
         outOfMemory(L"WBJCALP", 3);
@@ -18801,9 +18801,9 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
         cpLen = cpLen + 1ul;
       }
 
-      signed int return_value_getStringProperties$22;
-      return_value_getStringProperties$22=getStringProperties(properties, L"wrapper.java.library.path.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
-      if(!(return_value_getStringProperties$22 == 0))
+      signed int return_value_getStringProperties_22;
+      return_value_getStringProperties_22=getStringProperties(properties, L"wrapper.java.library.path.", L"", wrapperData->ignoreSequenceGaps, 0, &propertyNames, &propertyValues, &propertyIndices);
+      if(!(return_value_getStringProperties_22 == 0))
       {
         if(!(systemPath == ((signed int *)NULL)))
           free((void *)systemPath);
@@ -18825,9 +18825,9 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
             {
               tmpString = strings[(signed long int)index];
               cpLenAlloc = cpLenAlloc + (unsigned long int)1024;
-              void *return_value_malloc$23;
-              return_value_malloc$23=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
-              strings[(signed long int)index] = (signed int *)return_value_malloc$23;
+              void *return_value_malloc_23;
+              return_value_malloc_23=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
+              strings[(signed long int)index] = (signed int *)return_value_malloc_23;
               if(strings[(signed long int)index] == ((signed int *)NULL))
               {
                 outOfMemory(L"WBJCALP", 4);
@@ -18843,9 +18843,9 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
             }
             if(j >= 1)
             {
-              tmp_post$24 = cpLen;
+              tmp_post_24 = cpLen;
               cpLen = cpLen + 1ul;
-              strings[(signed long int)index][(signed long int)tmp_post$24] = wrapperClasspathSeparator;
+              strings[(signed long int)index][(signed long int)tmp_post_24] = wrapperClasspathSeparator;
             }
 
             _sntprintf(&strings[(signed long int)index][(signed long int)cpLen], cpLenAlloc - cpLen, L"%s", prop);
@@ -18867,9 +18867,9 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
           {
             tmpString = strings[(signed long int)index];
             cpLenAlloc = cpLenAlloc + (unsigned long int)1024;
-            void *return_value_malloc$25;
-            return_value_malloc$25=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
-            strings[(signed long int)index] = (signed int *)return_value_malloc$25;
+            void *return_value_malloc_25;
+            return_value_malloc_25=malloc(sizeof(signed int) /*4ul*/  * cpLenAlloc);
+            strings[(signed long int)index] = (signed int *)return_value_malloc_25;
             if(strings[(signed long int)index] == ((signed int *)NULL))
             {
               outOfMemory(L"WBJCALP", 5);
@@ -18883,9 +18883,9 @@ signed int wrapperBuildJavaCommandArrayLibraryPath(signed int **strings, signed 
           }
           if(j >= 1)
           {
-            tmp_post$26 = cpLen;
+            tmp_post_26 = cpLen;
             cpLen = cpLen + 1ul;
-            strings[(signed long int)index][(signed long int)tmp_post$26] = wrapperClasspathSeparator;
+            strings[(signed long int)index][(signed long int)tmp_post_26] = wrapperClasspathSeparator;
           }
 
           _sntprintf(&strings[(signed long int)index][(signed long int)cpLen], cpLenAlloc - cpLen, L"%s", systemPath);
@@ -18936,9 +18936,9 @@ extern void wrapperBuildKey()
   static signed int seeded = 0;
   if(seeded == 0)
   {
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    srand((unsigned int)return_value_time$1);
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    srand((unsigned int)return_value_time_1);
     seeded = -1;
   }
 
@@ -18947,9 +18947,9 @@ extern void wrapperBuildKey()
   for( ; !(i >= 16); i = i + 1)
   {
     {
-      signed int return_value_rand$2;
-      return_value_rand$2=rand();
-      kcNum = (unsigned long int)(((unsigned long int)(return_value_rand$2 >> 8) * num) / (unsigned long int)(2147483647 >> 8));
+      signed int return_value_rand_2;
+      return_value_rand_2=rand();
+      kcNum = (unsigned long int)(((unsigned long int)(return_value_rand_2 >> 8) * num) / (unsigned long int)(2147483647 >> 8));
     }
     if(kcNum >= num)
       kcNum = num - (unsigned long int)1;
@@ -18966,15 +18966,15 @@ signed int wrapperBuildUnixDaemonInfo()
   if(wrapperData->configured == 0)
   {
     wrapperData->daemonize=getBooleanProperty(properties, L"wrapper.daemonize", 0);
-    const signed int *return_value_getStringProperty$1;
-    return_value_getStringProperty$1=getStringProperty(properties, L"wrapper.signal.mode.hup", (const signed int *)(void *)0);
-    wrapperData->signalHUPMode=getSignalMode(return_value_getStringProperty$1, (signed int)(char)103);
-    const signed int *return_value_getStringProperty$2;
-    return_value_getStringProperty$2=getStringProperty(properties, L"wrapper.signal.mode.usr1", (const signed int *)(void *)0);
-    wrapperData->signalUSR1Mode=getSignalMode(return_value_getStringProperty$2, (signed int)(char)103);
-    const signed int *return_value_getStringProperty$3;
-    return_value_getStringProperty$3=getStringProperty(properties, L"wrapper.signal.mode.usr2", (const signed int *)(void *)0);
-    wrapperData->signalUSR2Mode=getSignalMode(return_value_getStringProperty$3, (signed int)(char)103);
+    const signed int *return_value_getStringProperty_1;
+    return_value_getStringProperty_1=getStringProperty(properties, L"wrapper.signal.mode.hup", (const signed int *)(void *)0);
+    wrapperData->signalHUPMode=getSignalMode(return_value_getStringProperty_1, (signed int)(char)103);
+    const signed int *return_value_getStringProperty_2;
+    return_value_getStringProperty_2=getStringProperty(properties, L"wrapper.signal.mode.usr1", (const signed int *)(void *)0);
+    wrapperData->signalUSR1Mode=getSignalMode(return_value_getStringProperty_2, (signed int)(char)103);
+    const signed int *return_value_getStringProperty_3;
+    return_value_getStringProperty_3=getStringProperty(properties, L"wrapper.signal.mode.usr2", (const signed int *)(void *)0);
+    wrapperData->signalUSR2Mode=getSignalMode(return_value_getStringProperty_3, (signed int)(char)103);
   }
 
   return 0;
@@ -19055,83 +19055,83 @@ extern signed int wrapperCheckQuotes(const signed int *value, const signed int *
 // file wrapper.c line 2303
 extern signed int wrapperCheckServerBackend(signed int forceOpen)
 {
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(protocolActiveServerSD == -1 && !((3 & wrapperData->backendType) == 0))
-    tmp_if_expr$11 = (_Bool)1;
+    tmp_if_expr_11 = (_Bool)1;
 
   else
-    tmp_if_expr$11 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeStarted == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$1;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeStarted == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_1;
+  if(tmp_if_expr_11)
   {
     if(forceOpen == 0)
     {
       if(wrapperData->jState == 72)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = wrapperData->jState == 74 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = wrapperData->jState == 74 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
       return 0;
 
     else
     {
       protocolStartServer();
       if(protocolActiveServerSD == -1 && !((3 & wrapperData->backendType) == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeStarted == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeStarted == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return 0;
 
       else
@@ -19410,23 +19410,23 @@ extern void wrapperDumpCPUUsage()
 {
   struct rusage wUsage;
   struct rusage jUsage;
-  signed int return_value_getrusage$2;
-  return_value_getrusage$2=getrusage((enum __rusage_who)RUSAGE_SELF, &wUsage);
-  if(!(return_value_getrusage$2 == 0))
+  signed int return_value_getrusage_2;
+  return_value_getrusage_2=getrusage((enum __rusage_who)RUSAGE_SELF, &wUsage);
+  if(!(return_value_getrusage_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 5, L"Call to getrusage failed for Wrapper process: %s", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 5, L"Call to getrusage failed for Wrapper process: %s", return_value_getLastErrorText_1);
     goto __CPROVER_DUMP_L3;
   }
 
-  signed int return_value_getrusage$4;
-  return_value_getrusage$4=getrusage((enum __rusage_who)RUSAGE_CHILDREN, &jUsage);
-  if(!(return_value_getrusage$4 == 0))
+  signed int return_value_getrusage_4;
+  return_value_getrusage_4=getrusage((enum __rusage_who)RUSAGE_CHILDREN, &jUsage);
+  if(!(return_value_getrusage_4 == 0))
   {
-    const signed int *return_value_getLastErrorText$3;
-    return_value_getLastErrorText$3=getLastErrorText();
-    log_printf(-1, 5, L"Call to getrusage failed for Java process: %s", return_value_getLastErrorText$3);
+    const signed int *return_value_getLastErrorText_3;
+    return_value_getLastErrorText_3=getLastErrorText();
+    log_printf(-1, 5, L"Call to getrusage failed for Java process: %s", return_value_getLastErrorText_3);
     goto __CPROVER_DUMP_L3;
   }
 
@@ -19442,27 +19442,27 @@ extern void wrapperDumpMemory()
 {
   struct rusage wUsage;
   struct rusage jUsage;
-  signed int return_value_getrusage$2;
-  return_value_getrusage$2=getrusage((enum __rusage_who)RUSAGE_SELF, &wUsage);
-  if(!(return_value_getrusage$2 == 0))
+  signed int return_value_getrusage_2;
+  return_value_getrusage_2=getrusage((enum __rusage_who)RUSAGE_SELF, &wUsage);
+  if(!(return_value_getrusage_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 5, L"Call to getrusage failed for Wrapper process: %s", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 5, L"Call to getrusage failed for Wrapper process: %s", return_value_getLastErrorText_1);
     goto __CPROVER_DUMP_L3;
   }
 
-  signed int return_value_getrusage$4;
-  return_value_getrusage$4=getrusage((enum __rusage_who)RUSAGE_CHILDREN, &jUsage);
-  if(!(return_value_getrusage$4 == 0))
+  signed int return_value_getrusage_4;
+  return_value_getrusage_4=getrusage((enum __rusage_who)RUSAGE_CHILDREN, &jUsage);
+  if(!(return_value_getrusage_4 == 0))
   {
-    const signed int *return_value_getLastErrorText$3;
-    return_value_getLastErrorText$3=getLastErrorText();
-    log_printf(-1, 5, L"Call to getrusage failed for Java process: %s", return_value_getLastErrorText$3);
+    const signed int *return_value_getLastErrorText_3;
+    return_value_getLastErrorText_3=getLastErrorText();
+    log_printf(-1, 5, L"Call to getrusage failed for Java process: %s", return_value_getLastErrorText_3);
     goto __CPROVER_DUMP_L3;
   }
 
-  log_printf(-1, 3, L"Wrapper Memory: maxrss=%ld, ixrss=%ld, idrss=%ld, isrss=%ld, minflt=%ld, majflt=%ld, nswap=%ld, inblock=%ld, oublock=%ld, msgsnd=%ld, msgrcv=%ld, nsignals=%ld, nvcsw=%ld, nvcsw=%ld", wUsage.$anon0.ru_maxrss, wUsage.$anon1.ru_ixrss, wUsage.$anon2.ru_idrss, wUsage.$anon3.ru_isrss, wUsage.$anon4.ru_minflt, wUsage.$anon5.ru_majflt, wUsage.$anon6.ru_nswap, wUsage.$anon7.ru_inblock, wUsage.$anon8.ru_oublock, wUsage.$anon9.ru_msgsnd, wUsage.$anon10.ru_msgrcv, wUsage.$anon11.ru_nsignals, wUsage.$anon12.ru_nvcsw, wUsage.$anon12.ru_nvcsw);
+  log_printf(-1, 3, L"Wrapper Memory: maxrss=%ld, ixrss=%ld, idrss=%ld, isrss=%ld, minflt=%ld, majflt=%ld, nswap=%ld, inblock=%ld, oublock=%ld, msgsnd=%ld, msgrcv=%ld, nsignals=%ld, nvcsw=%ld, nvcsw=%ld", wUsage._anon0.ru_maxrss, wUsage._anon1.ru_ixrss, wUsage._anon2.ru_idrss, wUsage._anon3.ru_isrss, wUsage._anon4.ru_minflt, wUsage._anon5.ru_majflt, wUsage._anon6.ru_nswap, wUsage._anon7.ru_inblock, wUsage._anon8.ru_oublock, wUsage._anon9.ru_msgsnd, wUsage._anon10.ru_msgrcv, wUsage._anon11.ru_nsignals, wUsage._anon12.ru_nvcsw, wUsage._anon12.ru_nvcsw);
 
 __CPROVER_DUMP_L3:
   ;
@@ -19480,7 +19480,7 @@ extern void wrapperDumpMemoryBanner()
 extern void wrapperEventLoop()
 {
   unsigned int nowTicks;
-  signed int wrapperEventLoop$$1$$uptimeSeconds;
+  signed int wrapperEventLoop__1__uptimeSeconds;
   unsigned int lastCycleTicks;
   lastCycleTicks=wrapperGetTicks();
   signed int nextSleep;
@@ -19493,15 +19493,15 @@ extern void wrapperEventLoop()
   wrapperData->logfileCloseTimeoutTicksSet = 0;
   wrapperData->logfileFlushTimeoutTicks = lastCycleTicks;
   wrapperData->logfileFlushTimeoutTicksSet = 0;
-  int *tmp_if_expr$1;
+  int *tmp_if_expr_1;
   if(!(wrapperData->isDebugging == 0))
   {
     if(!(wrapperData->useTickMutex == 0))
-      tmp_if_expr$1 = L"TRUE";
+      tmp_if_expr_1 = L"TRUE";
 
     else
-      tmp_if_expr$1 = L"FALSE";
-    log_printf(-1, 1, L"Use tick timer mutex=%s", tmp_if_expr$1);
+      tmp_if_expr_1 = L"FALSE";
+    log_printf(-1, 1, L"Use tick timer mutex=%s", tmp_if_expr_1);
   }
 
   if(!(wrapperData->isTickOutputEnabled == 0))
@@ -19514,34 +19514,34 @@ extern void wrapperEventLoop()
     wrapperDumpMemoryBanner();
 
   nextSleep = -1;
-  int *tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  signed int return_value_wrapperTickExpired$11;
-  signed int return_value_wrapperTickExpired$13;
-  int *tmp_if_expr$20;
-  int *tmp_if_expr$23;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$33;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$28;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$31;
+  int *tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  signed int return_value_wrapperTickExpired_11;
+  signed int return_value_wrapperTickExpired_13;
+  int *tmp_if_expr_20;
+  int *tmp_if_expr_23;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_33;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_28;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_31;
   while((_Bool)1)
   {
     if(!(wrapperData->isLoopOutputEnabled == 0))
     {
       if(!(nextSleep == 0))
-        tmp_if_expr$2 = L"";
+        tmp_if_expr_2 = L"";
 
       else
-        tmp_if_expr$2 = L"no ";
-      log_printf(-1, 3, L"    Loop: %ssleep", tmp_if_expr$2);
+        tmp_if_expr_2 = L"no ";
+      log_printf(-1, 3, L"    Loop: %ssleep", tmp_if_expr_2);
     }
 
     if(!(nextSleep == 0))
@@ -19564,9 +19564,9 @@ extern void wrapperEventLoop()
       if(!(wrapperData->isLoopOutputEnabled == 0))
         log_printf(-1, 3, L"    Loop: process JVM output");
 
-      signed int return_value_wrapperReadChildOutput$3;
-      return_value_wrapperReadChildOutput$3=wrapperReadChildOutput(250);
-      if(!(return_value_wrapperReadChildOutput$3 == 0))
+      signed int return_value_wrapperReadChildOutput_3;
+      return_value_wrapperReadChildOutput_3=wrapperReadChildOutput(250);
+      if(!(return_value_wrapperReadChildOutput_3 == 0))
       {
         if(!(wrapperData->isDebugging == 0))
           log_printf(-1, 1, L"Pause reading child process output to share cycles.");
@@ -19580,32 +19580,32 @@ extern void wrapperEventLoop()
       log_printf(-1, 3, L"    Loop: process socket");
 
     if(wrapperData->jState == 70)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       if(wrapperData->wState == 56)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(!tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(!tmp_if_expr_8)
     {
-      signed int return_value_wrapperProtocolRead$4;
-      return_value_wrapperProtocolRead$4=wrapperProtocolRead();
-      if(!(return_value_wrapperProtocolRead$4 == 0))
+      signed int return_value_wrapperProtocolRead_4;
+      return_value_wrapperProtocolRead_4=wrapperProtocolRead();
+      if(!(return_value_wrapperProtocolRead_4 == 0))
       {
         if(!(wrapperData->isDebugging == 0))
           log_printf(-1, 1, L"Pause reading socket data to share cycles.");
@@ -19622,22 +19622,22 @@ extern void wrapperEventLoop()
     nowTicks=wrapperGetTicks();
     if(wrapperData->uptimeFlipped == 0)
     {
-      wrapperEventLoop$$1$$uptimeSeconds=wrapperGetTickAgeSeconds(0xfffffe00, nowTicks);
-      if(wrapperEventLoop$$1$$uptimeSeconds >= 31536001)
+      wrapperEventLoop__1__uptimeSeconds=wrapperGetTickAgeSeconds(0xfffffe00, nowTicks);
+      if(wrapperEventLoop__1__uptimeSeconds >= 31536001)
       {
         wrapperData->uptimeFlipped = -1;
         setUptime(0, -1);
       }
 
       else
-        setUptime(wrapperEventLoop$$1$$uptimeSeconds, 0);
+        setUptime(wrapperEventLoop__1__uptimeSeconds, 0);
     }
 
     if(!(wrapperData->isMemoryOutputEnabled == 0))
     {
-      signed int return_value_wrapperTickExpired$9;
-      return_value_wrapperTickExpired$9=wrapperTickExpired(nowTicks, wrapperData->memoryOutputTimeoutTicks);
-      if(!(return_value_wrapperTickExpired$9 == 0))
+      signed int return_value_wrapperTickExpired_9;
+      return_value_wrapperTickExpired_9=wrapperTickExpired(nowTicks, wrapperData->memoryOutputTimeoutTicks);
+      if(!(return_value_wrapperTickExpired_9 == 0))
       {
         wrapperDumpMemory();
         wrapperData->memoryOutputTimeoutTicks=wrapperAddToTicks(nowTicks, wrapperData->memoryOutputInterval);
@@ -19647,9 +19647,9 @@ extern void wrapperEventLoop()
 
     if(!(wrapperData->isCPUOutputEnabled == 0))
     {
-      signed int return_value_wrapperTickExpired$10;
-      return_value_wrapperTickExpired$10=wrapperTickExpired(nowTicks, wrapperData->cpuOutputTimeoutTicks);
-      if(!(return_value_wrapperTickExpired$10 == 0))
+      signed int return_value_wrapperTickExpired_10;
+      return_value_wrapperTickExpired_10=wrapperTickExpired(nowTicks, wrapperData->cpuOutputTimeoutTicks);
+      if(!(return_value_wrapperTickExpired_10 == 0))
       {
         wrapperDumpCPUUsage();
         wrapperData->cpuOutputTimeoutTicks=wrapperAddToTicks(nowTicks, wrapperData->cpuOutputInterval);
@@ -19657,9 +19657,9 @@ extern void wrapperEventLoop()
 
     }
 
-    unsigned long int return_value_getLogfileActivity$12;
-    return_value_getLogfileActivity$12=getLogfileActivity();
-    if(!(return_value_getLogfileActivity$12 == 0ul))
+    unsigned long int return_value_getLogfileActivity_12;
+    return_value_getLogfileActivity_12=getLogfileActivity();
+    if(!(return_value_getLogfileActivity_12 == 0ul))
     {
       if(wrapperData->logfileCloseTimeout >= 1)
       {
@@ -19682,8 +19682,8 @@ extern void wrapperEventLoop()
     else
       if(!(wrapperData->logfileCloseTimeoutTicksSet == 0))
       {
-        return_value_wrapperTickExpired$11=wrapperTickExpired(nowTicks, wrapperData->logfileCloseTimeoutTicks);
-        if(!(return_value_wrapperTickExpired$11 == 0))
+        return_value_wrapperTickExpired_11=wrapperTickExpired(nowTicks, wrapperData->logfileCloseTimeoutTicks);
+        if(!(return_value_wrapperTickExpired_11 == 0))
         {
           closeLogfile();
           wrapperData->logfileCloseTimeoutTicksSet = 0;
@@ -19694,8 +19694,8 @@ extern void wrapperEventLoop()
 
     if(!(wrapperData->logfileFlushTimeoutTicksSet == 0))
     {
-      return_value_wrapperTickExpired$13=wrapperTickExpired(nowTicks, wrapperData->logfileFlushTimeoutTicks);
-      if(!(return_value_wrapperTickExpired$13 == 0))
+      return_value_wrapperTickExpired_13=wrapperTickExpired(nowTicks, wrapperData->logfileFlushTimeoutTicks);
+      if(!(return_value_wrapperTickExpired_13 == 0))
       {
         flushLogfile();
         wrapperData->logfileFlushTimeoutTicksSet = 0;
@@ -19703,18 +19703,18 @@ extern void wrapperEventLoop()
 
     }
 
-    signed int return_value_wrapperGetTickAgeSeconds$16;
-    return_value_wrapperGetTickAgeSeconds$16=wrapperGetTickAgeSeconds(lastCycleTicks, nowTicks);
-    if(!(wrapperData->cpuTimeout >= return_value_wrapperGetTickAgeSeconds$16))
+    signed int return_value_wrapperGetTickAgeSeconds_16;
+    return_value_wrapperGetTickAgeSeconds_16=wrapperGetTickAgeSeconds(lastCycleTicks, nowTicks);
+    if(!(wrapperData->cpuTimeout >= return_value_wrapperGetTickAgeSeconds_16))
     {
-      signed int return_value_wrapperGetTickAgeSeconds$14;
-      return_value_wrapperGetTickAgeSeconds$14=wrapperGetTickAgeSeconds(lastCycleTicks, nowTicks);
-      log_printf(-1, 2, L"Wrapper Process has not received any CPU time for %d seconds.  Extending timeouts.", return_value_wrapperGetTickAgeSeconds$14);
+      signed int return_value_wrapperGetTickAgeSeconds_14;
+      return_value_wrapperGetTickAgeSeconds_14=wrapperGetTickAgeSeconds(lastCycleTicks, nowTicks);
+      log_printf(-1, 2, L"Wrapper Process has not received any CPU time for %d seconds.  Extending timeouts.", return_value_wrapperGetTickAgeSeconds_14);
       if(!(wrapperData->jStateTimeoutTicksSet == 0))
       {
-        signed int return_value_wrapperGetTickAgeSeconds$15;
-        return_value_wrapperGetTickAgeSeconds$15=wrapperGetTickAgeSeconds(lastCycleTicks, nowTicks);
-        wrapperData->jStateTimeoutTicks=wrapperAddToTicks(wrapperData->jStateTimeoutTicks, return_value_wrapperGetTickAgeSeconds$15);
+        signed int return_value_wrapperGetTickAgeSeconds_15;
+        return_value_wrapperGetTickAgeSeconds_15=wrapperGetTickAgeSeconds(lastCycleTicks, nowTicks);
+        wrapperData->jStateTimeoutTicks=wrapperAddToTicks(wrapperData->jStateTimeoutTicks, return_value_wrapperGetTickAgeSeconds_15);
       }
 
     }
@@ -19724,32 +19724,32 @@ extern void wrapperEventLoop()
     {
       if(!(wrapperData->jStateTimeoutTicksSet == 0))
       {
-        const signed int *return_value_wrapperGetWState$17;
-        return_value_wrapperGetWState$17=wrapperGetWState(wrapperData->wState);
-        const signed int *return_value_wrapperGetJState$18;
-        return_value_wrapperGetJState$18=wrapperGetJState(wrapperData->jState);
-        signed int return_value_wrapperGetTickAgeSeconds$19;
-        return_value_wrapperGetTickAgeSeconds$19=wrapperGetTickAgeSeconds(nowTicks, wrapperData->jStateTimeoutTicks);
+        const signed int *return_value_wrapperGetWState_17;
+        return_value_wrapperGetWState_17=wrapperGetWState(wrapperData->wState);
+        const signed int *return_value_wrapperGetJState_18;
+        return_value_wrapperGetJState_18=wrapperGetJState(wrapperData->jState);
+        signed int return_value_wrapperGetTickAgeSeconds_19;
+        return_value_wrapperGetTickAgeSeconds_19=wrapperGetTickAgeSeconds(nowTicks, wrapperData->jStateTimeoutTicks);
         if(!(wrapperData->exitRequested == 0))
-          tmp_if_expr$20 = L"true";
+          tmp_if_expr_20 = L"true";
 
         else
-          tmp_if_expr$20 = L"false";
-        log_printf(-1, 3, L"    Ticks=%08x, WrapperState=%s, JVMState=%s JVMStateTimeoutTicks=%08x (%ds), Exit=%s, RestartMode=%d", nowTicks, return_value_wrapperGetWState$17, return_value_wrapperGetJState$18, wrapperData->jStateTimeoutTicks, return_value_wrapperGetTickAgeSeconds$19, tmp_if_expr$20, wrapperData->restartRequested);
+          tmp_if_expr_20 = L"false";
+        log_printf(-1, 3, L"    Ticks=%08x, WrapperState=%s, JVMState=%s JVMStateTimeoutTicks=%08x (%ds), Exit=%s, RestartMode=%d", nowTicks, return_value_wrapperGetWState_17, return_value_wrapperGetJState_18, wrapperData->jStateTimeoutTicks, return_value_wrapperGetTickAgeSeconds_19, tmp_if_expr_20, wrapperData->restartRequested);
       }
 
       else
       {
-        const signed int *return_value_wrapperGetWState$21;
-        return_value_wrapperGetWState$21=wrapperGetWState(wrapperData->wState);
-        const signed int *return_value_wrapperGetJState$22;
-        return_value_wrapperGetJState$22=wrapperGetJState(wrapperData->jState);
+        const signed int *return_value_wrapperGetWState_21;
+        return_value_wrapperGetWState_21=wrapperGetWState(wrapperData->wState);
+        const signed int *return_value_wrapperGetJState_22;
+        return_value_wrapperGetJState_22=wrapperGetJState(wrapperData->jState);
         if(!(wrapperData->exitRequested == 0))
-          tmp_if_expr$23 = L"true";
+          tmp_if_expr_23 = L"true";
 
         else
-          tmp_if_expr$23 = L"false";
-        log_printf(-1, 3, L"    Ticks=%08x, WrapperState=%s, JVMState=%s JVMStateTimeoutTicks=%08x (N/A), Exit=%s, RestartMode=%d", nowTicks, return_value_wrapperGetWState$21, return_value_wrapperGetJState$22, wrapperData->jStateTimeoutTicks, tmp_if_expr$23, wrapperData->restartRequested);
+          tmp_if_expr_23 = L"false";
+        log_printf(-1, 3, L"    Ticks=%08x, WrapperState=%s, JVMState=%s JVMStateTimeoutTicks=%08x (N/A), Exit=%s, RestartMode=%d", nowTicks, return_value_wrapperGetWState_21, return_value_wrapperGetJState_22, wrapperData->jStateTimeoutTicks, tmp_if_expr_23, wrapperData->restartRequested);
       }
     }
 
@@ -19764,60 +19764,60 @@ extern void wrapperEventLoop()
       if(!(wrapperData->jState == 72))
       {
         if(wrapperData->jState == 73)
-          tmp_if_expr$32 = (_Bool)1;
+          tmp_if_expr_32 = (_Bool)1;
 
         else
-          tmp_if_expr$32 = wrapperData->jState == 74 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$32)
-          tmp_if_expr$33 = (_Bool)1;
+          tmp_if_expr_32 = wrapperData->jState == 74 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_32)
+          tmp_if_expr_33 = (_Bool)1;
 
         else
-          tmp_if_expr$33 = wrapperData->jState == 75 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$33)
+          tmp_if_expr_33 = wrapperData->jState == 75 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_33)
           wrapperSetJavaState(72, nowTicks, -1);
 
         else
         {
           if(wrapperData->jState == 80)
-            tmp_if_expr$25 = (_Bool)1;
+            tmp_if_expr_25 = (_Bool)1;
 
           else
-            tmp_if_expr$25 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$25)
-            tmp_if_expr$26 = (_Bool)1;
+            tmp_if_expr_25 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_25)
+            tmp_if_expr_26 = (_Bool)1;
 
           else
-            tmp_if_expr$26 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$26)
-            tmp_if_expr$27 = (_Bool)1;
+            tmp_if_expr_26 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_26)
+            tmp_if_expr_27 = (_Bool)1;
 
           else
-            tmp_if_expr$27 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$27)
-            tmp_if_expr$28 = (_Bool)1;
+            tmp_if_expr_27 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_27)
+            tmp_if_expr_28 = (_Bool)1;
 
           else
-            tmp_if_expr$28 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$28)
-            tmp_if_expr$29 = (_Bool)1;
+            tmp_if_expr_28 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_28)
+            tmp_if_expr_29 = (_Bool)1;
 
           else
-            tmp_if_expr$29 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$29)
-            tmp_if_expr$30 = (_Bool)1;
+            tmp_if_expr_29 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_29)
+            tmp_if_expr_30 = (_Bool)1;
 
           else
-            tmp_if_expr$30 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$30)
-            tmp_if_expr$31 = (_Bool)1;
+            tmp_if_expr_30 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_30)
+            tmp_if_expr_31 = (_Bool)1;
 
           else
-            tmp_if_expr$31 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$31)
+            tmp_if_expr_31 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_31)
           {
-            signed int return_value_wrapperGetProcessStatus$24;
-            return_value_wrapperGetProcessStatus$24=wrapperGetProcessStatus(nowTicks, 0);
-            if(return_value_wrapperGetProcessStatus$24 == 200)
+            signed int return_value_wrapperGetProcessStatus_24;
+            return_value_wrapperGetProcessStatus_24=wrapperGetProcessStatus(nowTicks, 0);
+            if(return_value_wrapperGetProcessStatus_24 == 200)
             {
               if(wrapperData->restartPacketReceived == 0)
               {
@@ -19845,9 +19845,9 @@ extern void wrapperEventLoop()
 
     if(!(wrapperData->isLoopOutputEnabled == 0))
     {
-      const signed int *return_value_wrapperGetWState$34;
-      return_value_wrapperGetWState$34=wrapperGetWState(wrapperData->wState);
-      log_printf(-1, 3, L"    Loop: handle wrapper state: %s", return_value_wrapperGetWState$34);
+      const signed int *return_value_wrapperGetWState_34;
+      return_value_wrapperGetWState_34=wrapperGetWState(wrapperData->wState);
+      log_printf(-1, 3, L"    Loop: handle wrapper state: %s", return_value_wrapperGetWState_34);
     }
 
     switch(wrapperData->wState)
@@ -19892,9 +19892,9 @@ extern void wrapperEventLoop()
     }
     if(!(wrapperData->isLoopOutputEnabled == 0))
     {
-      const signed int *return_value_wrapperGetJState$35;
-      return_value_wrapperGetJState$35=wrapperGetJState(wrapperData->jState);
-      log_printf(-1, 3, L"    Loop: handle JVM state: %s", return_value_wrapperGetJState$35);
+      const signed int *return_value_wrapperGetJState_35;
+      return_value_wrapperGetJState_35=wrapperGetJState(wrapperData->jState);
+      log_printf(-1, 3, L"    Loop: handle JVM state: %s", return_value_wrapperGetJState_35);
     }
 
     switch(wrapperData->jState)
@@ -19988,9 +19988,9 @@ extern void wrapperEventLoop()
   }
   if(!(wrapperData->jState == 72))
   {
-    const signed int *return_value_wrapperGetJState$36;
-    return_value_wrapperGetJState$36=wrapperGetJState(wrapperData->jState);
-    log_printf(-1, 6, L"Wrapper shutting down while java state still %s.", return_value_wrapperGetJState$36);
+    const signed int *return_value_wrapperGetJState_36;
+    return_value_wrapperGetJState_36=wrapperGetJState(wrapperData->jState);
+    log_printf(-1, 6, L"Wrapper shutting down while java state still %s.", return_value_wrapperGetJState_36);
   }
 
   if(!(wrapperData->isLoopOutputEnabled == 0))
@@ -20007,13 +20007,13 @@ extern signed int wrapperExecute()
   signed int execErrno;
   unsigned long int lenCmd;
   unsigned long int lenEnv;
-  signed int return_value_pipe$2;
-  return_value_pipe$2=pipe(pipedes);
-  if(!(return_value_pipe$2 >= 0))
+  signed int return_value_pipe_2;
+  return_value_pipe_2=pipe(pipedes);
+  if(!(return_value_pipe_2 >= 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 5, L"Could not init pipe: %s", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 5, L"Could not init pipe: %s", return_value_getLastErrorText_1);
     return -1;
   }
 
@@ -20050,9 +20050,9 @@ extern signed int wrapperExecute()
   if(proc == -1)
   {
     setLogfileAutoClose((signed int)(wrapperData->logfileCloseTimeout == 0));
-    const signed int *return_value_getLastErrorText$3;
-    return_value_getLastErrorText$3=getLastErrorText();
-    log_printf(-1, 6, L"Could not spawn JVM process: %s", return_value_getLastErrorText$3);
+    const signed int *return_value_getLastErrorText_3;
+    return_value_getLastErrorText_3=getLastErrorText();
+    log_printf(-1, 6, L"Could not spawn JVM process: %s", return_value_getLastErrorText_3);
     return -1;
   }
 
@@ -20063,24 +20063,24 @@ extern signed int wrapperExecute()
     if(proc == 0)
     {
       umask((unsigned int)wrapperData->javaUmask);
-      signed int return_value_dup2$5;
-      return_value_dup2$5=dup2(pipedes[(signed long int)1], 1);
-      if(!(return_value_dup2$5 >= 0))
+      signed int return_value_dup2_5;
+      return_value_dup2_5=dup2(pipedes[(signed long int)1], 1);
+      if(!(return_value_dup2_5 >= 0))
       {
-        const signed int *return_value_getLastErrorText$4;
-        return_value_getLastErrorText$4=getLastErrorText();
-        log_printf(-1, 5, L"%sUnable to set JVM's stdout: %s", (const void *)L"#!#WrApPeR#!#", return_value_getLastErrorText$4);
+        const signed int *return_value_getLastErrorText_4;
+        return_value_getLastErrorText_4=getLastErrorText();
+        log_printf(-1, 5, L"%sUnable to set JVM's stdout: %s", (const void *)L"#!#WrApPeR#!#", return_value_getLastErrorText_4);
         exit(1);
         return -1;
       }
 
-      signed int return_value_dup2$7;
-      return_value_dup2$7=dup2(pipedes[(signed long int)1], 2);
-      if(!(return_value_dup2$7 >= 0))
+      signed int return_value_dup2_7;
+      return_value_dup2_7=dup2(pipedes[(signed long int)1], 2);
+      if(!(return_value_dup2_7 >= 0))
       {
-        const signed int *return_value_getLastErrorText$6;
-        return_value_getLastErrorText$6=getLastErrorText();
-        log_printf(-1, 5, L"%sUnable to set JVM's stderr: %s", (const void *)L"#!#WrApPeR#!#", return_value_getLastErrorText$6);
+        const signed int *return_value_getLastErrorText_6;
+        return_value_getLastErrorText_6=getLastErrorText();
+        log_printf(-1, 5, L"%sUnable to set JVM's stderr: %s", (const void *)L"#!#WrApPeR#!#", return_value_getLastErrorText_6);
         exit(1);
         return -1;
       }
@@ -20091,9 +20091,9 @@ extern signed int wrapperExecute()
       pipedes[(signed long int)1] = -1;
       if(!(wrapperData->printJVMVersion == 0))
       {
-        signed int return_value_fork$8;
-        return_value_fork$8=fork();
-        if(return_value_fork$8 == 0)
+        signed int return_value_fork_8;
+        return_value_fork_8=fork();
+        if(return_value_fork_8 == 0)
         {
           signed int *javaVersionArgv[3l];
           javaVersionArgv[(signed long int)0] = wrapperData->jvmCommand[(signed long int)0];
@@ -20105,21 +20105,21 @@ extern signed int wrapperExecute()
       }
 
       _texecvp(wrapperData->jvmCommand[(signed long int)0], wrapperData->jvmCommand);
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      execErrno = *return_value___errno_location$9;
-      const signed int *return_value_getLastErrorText$10;
-      return_value_getLastErrorText$10=getLastErrorText();
-      log_printf(-1, 5, L"%sUnable to start JVM: %s (%d)", (const void *)L"#!#WrApPeR#!#", return_value_getLastErrorText$10, execErrno);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      execErrno = *return_value___errno_location_9;
+      const signed int *return_value_getLastErrorText_10;
+      return_value_getLastErrorText_10=getLastErrorText();
+      log_printf(-1, 5, L"%sUnable to start JVM: %s (%d)", (const void *)L"#!#WrApPeR#!#", return_value_getLastErrorText_10, execErrno);
       if(execErrno == 7)
       {
         lenCmd = (unsigned long int)0;
         i = 0;
         for( ; !(wrapperData->jvmCommand[(signed long int)i] == ((signed int *)NULL)); i = i + 1)
         {
-          unsigned long int return_value_wcslen$11;
-          return_value_wcslen$11=wcslen(wrapperData->jvmCommand[(signed long int)i]);
-          lenCmd = lenCmd + return_value_wcslen$11 + (unsigned long int)1;
+          unsigned long int return_value_wcslen_11;
+          return_value_wcslen_11=wcslen(wrapperData->jvmCommand[(signed long int)i]);
+          lenCmd = lenCmd + return_value_wcslen_11 + (unsigned long int)1;
         }
         lenEnv=wrapperCalculateEnvironmentLength();
         log_printf(-1, 5, L"%s  The generated command line plus the environment was larger than the maximum allowed.", (const void *)L"#!#WrApPeR#!#");
@@ -20134,9 +20134,9 @@ extern signed int wrapperExecute()
         log_printf(-1, 7, L"%sAdvice:", (const void *)L"#!#WrApPeR#!#");
         log_printf(-1, 7, L"%sUsually when the Wrapper fails to start the JVM process, it is because", (const void *)L"#!#WrApPeR#!#");
         log_printf(-1, 7, L"%sof a problem with the value of the configured Java command.  Currently:", (const void *)L"#!#WrApPeR#!#");
-        const signed int *return_value_getStringProperty$12;
-        return_value_getStringProperty$12=getStringProperty(properties, L"wrapper.java.command", L"java");
-        log_printf(-1, 7, L"%swrapper.java.command=%s", (const void *)L"#!#WrApPeR#!#", return_value_getStringProperty$12);
+        const signed int *return_value_getStringProperty_12;
+        return_value_getStringProperty_12=getStringProperty(properties, L"wrapper.java.command", L"java");
+        log_printf(-1, 7, L"%swrapper.java.command=%s", (const void *)L"#!#WrApPeR#!#", return_value_getStringProperty_12);
         log_printf(-1, 7, L"%sPlease make sure that the PATH or any other referenced environment", (const void *)L"#!#WrApPeR#!#");
         log_printf(-1, 7, L"%svariables are correctly defined for the current environment.", (const void *)L"#!#WrApPeR#!#");
         log_printf(-1, 7, L"%s------------------------------------------------------------------------", (const void *)L"#!#WrApPeR#!#");
@@ -20153,42 +20153,42 @@ extern signed int wrapperExecute()
       close(pipedes[(signed long int)1]);
       pipedes[(signed long int)1] = -1;
       setLogfileAutoClose((signed int)(wrapperData->logfileCloseTimeout == 0));
-      signed int return_value_fcntl$15;
-      return_value_fcntl$15=fcntl(pipedes[(signed long int)0], 4, 04000);
-      if(!(return_value_fcntl$15 >= 0))
+      signed int return_value_fcntl_15;
+      return_value_fcntl_15=fcntl(pipedes[(signed long int)0], 4, 04000);
+      if(!(return_value_fcntl_15 >= 0))
       {
-        const signed int *return_value_getLastErrorText$13;
-        return_value_getLastErrorText$13=getLastErrorText();
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        log_printf(-1, 5, L"Failed to set JVM output handle to non blocking mode: %s (%d)", return_value_getLastErrorText$13, *return_value___errno_location$14);
+        const signed int *return_value_getLastErrorText_13;
+        return_value_getLastErrorText_13=getLastErrorText();
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        log_printf(-1, 5, L"Failed to set JVM output handle to non blocking mode: %s (%d)", return_value_getLastErrorText_13, *return_value___errno_location_14);
       }
 
-      signed int return_value_fcntl$18;
-      return_value_fcntl$18=fcntl(pipedes[(signed long int)0], 2, 1);
-      if(!(return_value_fcntl$18 >= 0))
+      signed int return_value_fcntl_18;
+      return_value_fcntl_18=fcntl(pipedes[(signed long int)0], 2, 1);
+      if(!(return_value_fcntl_18 >= 0))
       {
-        const signed int *return_value_getLastErrorText$16;
-        return_value_getLastErrorText$16=getLastErrorText();
-        signed int *return_value___errno_location$17;
-        return_value___errno_location$17=__errno_location();
-        log_printf(-1, 5, L"Failed to set JVM output handle to close on JVM exit: %s (%d)", return_value_getLastErrorText$16, *return_value___errno_location$17);
+        const signed int *return_value_getLastErrorText_16;
+        return_value_getLastErrorText_16=getLastErrorText();
+        signed int *return_value___errno_location_17;
+        return_value___errno_location_17=__errno_location();
+        log_printf(-1, 5, L"Failed to set JVM output handle to close on JVM exit: %s (%d)", return_value_getLastErrorText_16, *return_value___errno_location_17);
       }
 
       if(!(wrapperData->javaPidFilename == ((signed int *)NULL)))
       {
-        signed int return_value_writePidFile$19;
-        return_value_writePidFile$19=writePidFile(wrapperData->javaPidFilename, (unsigned long int)wrapperData->javaPID, wrapperData->javaPidFileUmask, 0);
-        if(!(return_value_writePidFile$19 == 0))
+        signed int return_value_writePidFile_19;
+        return_value_writePidFile_19=writePidFile(wrapperData->javaPidFilename, (unsigned long int)wrapperData->javaPID, wrapperData->javaPidFileUmask, 0);
+        if(!(return_value_writePidFile_19 == 0))
           log_printf(-1, 4, L"Unable to write the Java PID file: %s", wrapperData->javaPidFilename);
 
       }
 
       if(!(wrapperData->javaIdFilename == ((signed int *)NULL)))
       {
-        signed int return_value_writePidFile$20;
-        return_value_writePidFile$20=writePidFile(wrapperData->javaIdFilename, (unsigned long int)wrapperData->jvmRestarts, wrapperData->javaIdFileUmask, 0);
-        if(!(return_value_writePidFile$20 == 0))
+        signed int return_value_writePidFile_20;
+        return_value_writePidFile_20=writePidFile(wrapperData->javaIdFilename, (unsigned long int)wrapperData->jvmRestarts, wrapperData->javaIdFileUmask, 0);
+        if(!(return_value_writePidFile_20 == 0))
           log_printf(-1, 4, L"Unable to write the Java Id file: %s", wrapperData->javaIdFilename);
 
       }
@@ -20247,9 +20247,9 @@ extern signed int * wrapperGetActionListForNames(const signed int *actionNameLis
   signed int *actionList = (signed int *)(void *)0;
   signed int *state;
   len=wcslen(actionNameList);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
-  workBuffer = (signed int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (len + (unsigned long int)1));
+  workBuffer = (signed int *)return_value_malloc_1;
   if(workBuffer == ((signed int *)NULL))
     outOfMemory(L"GALFN", 1);
 
@@ -20267,9 +20267,9 @@ extern signed int * wrapperGetActionListForNames(const signed int *actionNameLis
       token=wcstok((signed int *)(void *)0, L" ,", &state);
     }
     actionCount = actionCount + 1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)actionCount);
-    actionList = (signed int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)actionCount);
+    actionList = (signed int *)return_value_malloc_2;
     if(actionList == ((signed int *)NULL))
       outOfMemory(L"GALFN", 2);
 
@@ -20301,9 +20301,9 @@ extern signed int * wrapperGetActionListForNames(const signed int *actionNameLis
 // file wrapper.c line 210
 extern struct tm wrapperGetBuildTime()
 {
-  struct tm return_value_getInfoTime$1;
-  return_value_getInfoTime$1=getInfoTime(wrapperBuildDate, wrapperBuildTime);
-  return return_value_getInfoTime$1;
+  struct tm return_value_getInfoTime_1;
+  return_value_getInfoTime_1=getInfoTime(wrapperBuildDate, wrapperBuildTime);
+  return return_value_getInfoTime_1;
 }
 
 // wrapperGetCurrentTime
@@ -20324,9 +20324,9 @@ extern void wrapperGetFileBase(const signed int *fileName, signed int *baseName)
   const signed int *end;
   const signed int *c;
   start = fileName;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(fileName);
-  end = &fileName[(signed long int)return_value_wcslen$1];
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(fileName);
+  end = &fileName[(signed long int)return_value_wcslen_1];
   c=wcsrchr(start, 47);
   if(!(c == ((const signed int *)NULL)))
     start = &c[(signed long int)1];
@@ -20436,9 +20436,9 @@ extern const signed int * wrapperGetJState(signed int jState)
 // file wrapper_i18n.h line 496
 extern signed int wrapperGetLastError()
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  return *return_value___errno_location_1;
 }
 
 // wrapperGetMinimumTextLengthForPattern
@@ -20466,9 +20466,9 @@ extern signed int wrapperGetProcessStatus(unsigned int nowTicks, signed int sigC
   signed int status;
   signed int exitCode;
   signed int res;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(wrapperData->javaPID >= 1))
     return 200;
 
@@ -20476,7 +20476,7 @@ extern signed int wrapperGetProcessStatus(unsigned int nowTicks, signed int sigC
   {
     retval=waitpid(wrapperData->javaPID, &status, 1 | 2);
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$17
+union anonymous_17
 {
   // __in
   signed int __in;
@@ -20504,26 +20504,26 @@ union anonymous$17
     else
       if(!(retval >= 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        if(*return_value___errno_location$5 == 10)
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        if(*return_value___errno_location_5 == 10)
         {
           if(wrapperData->jState == 70)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_1 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_2 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
           {
             res = 200;
             wrapperJVMProcessExited(nowTicks, 0);
@@ -20536,9 +20536,9 @@ union anonymous$17
 
         else
         {
-          const signed int *return_value_getLastErrorText$4;
-          return_value_getLastErrorText$4=getLastErrorText();
-          log_printf(-1, 4, L"Unable to request JVM process status: %s", return_value_getLastErrorText$4);
+          const signed int *return_value_getLastErrorText_4;
+          return_value_getLastErrorText_4=getLastErrorText();
+          log_printf(-1, 4, L"Unable to request JVM process status: %s", return_value_getLastErrorText_4);
         }
         exitCode = 1;
         res = 200;
@@ -20548,7 +20548,7 @@ union anonymous$17
       else
         if((0x7f & status) == 0)
         {
-          exitCode = (((union anonymous$17){ .__in=status }).__i & 0xff00) >> 8;
+          exitCode = (((union anonymous_17){ .__in=status }).__i & 0xff00) >> 8;
           res = 200;
           wrapperJVMProcessExited(nowTicks, exitCode);
         }
@@ -20556,9 +20556,9 @@ union anonymous$17
         else
           if((signed int)((127 & (signed char)status) + 1) >> 1 >= 1)
           {
-            const signed int *return_value_getSignalName$6;
-            return_value_getSignalName$6=getSignalName(((union anonymous$17){ .__in=status }).__i & 0x7f);
-            log_printf(-1, 3, L"JVM received a signal %s (%d).", return_value_getSignalName$6, ((union anonymous$17){ .__in=status }).__i & 0x7f);
+            const signed int *return_value_getSignalName_6;
+            return_value_getSignalName_6=getSignalName(((union anonymous_17){ .__in=status }).__i & 0x7f);
+            log_printf(-1, 3, L"JVM received a signal %s (%d).", return_value_getSignalName_6, ((union anonymous_17){ .__in=status }).__i & 0x7f);
             res = 201;
           }
 
@@ -20583,73 +20583,73 @@ union anonymous$17
 // file wrapper.c line 206
 extern struct tm wrapperGetReleaseTime()
 {
-  struct tm return_value_getInfoTime$1;
-  return_value_getInfoTime$1=getInfoTime(wrapperReleaseDate, wrapperReleaseTime);
-  return return_value_getInfoTime$1;
+  struct tm return_value_getInfoTime_1;
+  return_value_getInfoTime_1=getInfoTime(wrapperReleaseDate, wrapperReleaseTime);
+  return return_value_getInfoTime_1;
 }
 
 // wrapperGetRestartProcessMessage
 // file wrapper.c line 4793
 extern const signed int * wrapperGetRestartProcessMessage()
 {
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(wrapperData->jState == 72)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_7 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$10)
+    tmp_if_expr_10 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_10)
   {
     if(!(wrapperData->restartRequested == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return L"Restart JVM (Ignoring, already restarting).";
 
     else
@@ -20659,11 +20659,11 @@ extern const signed int * wrapperGetRestartProcessMessage()
   else
   {
     if(!(wrapperData->exitRequested == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return L"Restart JVM (Ignoring, already restarting).";
 
     else
@@ -20708,8 +20708,8 @@ extern signed int wrapperGetTickAgeTicks(unsigned int start, unsigned int end)
 extern unsigned int wrapperGetTicks()
 {
   unsigned int ticks;
-  signed int return_value_wrapperLockTickMutex$1;
-  signed int return_value_wrapperReleaseTickMutex$2;
+  signed int return_value_wrapperLockTickMutex_1;
+  signed int return_value_wrapperReleaseTickMutex_2;
   if(!(wrapperData->useSystemTime == 0))
     ticks=wrapperGetSystemTicks();
 
@@ -20717,8 +20717,8 @@ extern unsigned int wrapperGetTicks()
   {
     if(!(wrapperData->useTickMutex == 0))
     {
-      return_value_wrapperLockTickMutex$1=wrapperLockTickMutex();
-      if(!(return_value_wrapperLockTickMutex$1 == 0))
+      return_value_wrapperLockTickMutex_1=wrapperLockTickMutex();
+      if(!(return_value_wrapperLockTickMutex_1 == 0))
         return (unsigned int)0;
 
     }
@@ -20726,8 +20726,8 @@ extern unsigned int wrapperGetTicks()
     ticks = timerTicks;
     if(!(wrapperData->useTickMutex == 0))
     {
-      return_value_wrapperReleaseTickMutex$2=wrapperReleaseTickMutex();
-      if(!(return_value_wrapperReleaseTickMutex$2 == 0))
+      return_value_wrapperReleaseTickMutex_2=wrapperReleaseTickMutex();
+      if(!(return_value_wrapperReleaseTickMutex_2 == 0))
         return (unsigned int)0;
 
     }
@@ -20791,12 +20791,12 @@ extern signed int wrapperInitialize()
   signed int *retLocale;
   signed int maxPathLen = 4096;
   properties = (struct Properties *)(void *)0;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  srand((unsigned int)return_value_time$1);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct WrapperConfig) /*944ul*/ );
-  wrapperData = (struct WrapperConfig *)return_value_malloc$2;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  srand((unsigned int)return_value_time_1);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct WrapperConfig) /*944ul*/ );
+  wrapperData = (struct WrapperConfig *)return_value_malloc_2;
   if(wrapperData == ((struct WrapperConfig *)NULL))
   {
     outOfMemory(L"WI", 1);
@@ -20829,9 +20829,9 @@ extern signed int wrapperInitialize()
     wrapperData->language = (signed int *)(void *)0;
     wrapperData->portAddress = (signed int *)(void *)0;
     wrapperData->pingTimedOut = 0;
-    signed int return_value_initLogging$3;
-    return_value_initLogging$3=initLogging(wrapperLogFileChanged);
-    if(!(return_value_initLogging$3 == 0))
+    signed int return_value_initLogging_3;
+    return_value_initLogging_3=initLogging(wrapperLogFileChanged);
+    if(!(return_value_initLogging_3 == 0))
       return 1;
 
     else
@@ -20846,9 +20846,9 @@ extern signed int wrapperInitialize()
       setConsoleLogLevelInt(1);
       setConsoleFlush(-1);
       setSyslogLevelInt(9);
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)(maxPathLen + 1) * sizeof(signed int) /*4ul*/ );
-      wrapperData->initialPath = (signed int *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)(maxPathLen + 1) * sizeof(signed int) /*4ul*/ );
+      wrapperData->initialPath = (signed int *)return_value_malloc_4;
       if(wrapperData->initialPath == ((signed int *)NULL))
       {
         outOfMemory(L"WI", 3);
@@ -20860,9 +20860,9 @@ extern signed int wrapperInitialize()
         wrapperData->initialPath=_tgetcwd((signed int *)wrapperData->initialPath, (unsigned long int)(maxPathLen + 1));
         if(wrapperData->initialPath == ((signed int *)NULL))
         {
-          const signed int *return_value_getLastErrorText$5;
-          return_value_getLastErrorText$5=getLastErrorText();
-          log_printf(-1, 6, L"Failed to get the initial directory. (%s)", return_value_getLastErrorText$5);
+          const signed int *return_value_getLastErrorText_5;
+          return_value_getLastErrorText_5=getLastErrorText();
+          log_printf(-1, 6, L"Failed to get the initial directory. (%s)", return_value_getLastErrorText_5);
           return 1;
         }
 
@@ -20873,9 +20873,9 @@ extern signed int wrapperInitialize()
         if(!(retLocale == ((signed int *)NULL)))
           free((void *)retLocale);
 
-        signed int return_value_loadEnvironment$6;
-        return_value_loadEnvironment$6=loadEnvironment();
-        if(!(return_value_loadEnvironment$6 == 0))
+        signed int return_value_loadEnvironment_6;
+        return_value_loadEnvironment_6=loadEnvironment();
+        if(!(return_value_loadEnvironment_6 == 0))
           return 1;
 
         else
@@ -20891,79 +20891,79 @@ extern signed int wrapperInitializeRun()
 {
   signed int retval = 0;
   signed int res;
-  signed int return_value_registerSigAction$1;
-  return_value_registerSigAction$1=registerSigAction(14, sigActionAlarm);
-  _Bool tmp_if_expr$3;
-  signed int return_value_registerSigAction$2;
-  if(!(return_value_registerSigAction$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_registerSigAction_1;
+  return_value_registerSigAction_1=registerSigAction(14, sigActionAlarm);
+  _Bool tmp_if_expr_3;
+  signed int return_value_registerSigAction_2;
+  if(!(return_value_registerSigAction_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_registerSigAction$2=registerSigAction(2, sigActionInterrupt);
-    tmp_if_expr$3 = return_value_registerSigAction$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_registerSigAction_2=registerSigAction(2, sigActionInterrupt);
+    tmp_if_expr_3 = return_value_registerSigAction_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_registerSigAction$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_registerSigAction_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_registerSigAction$4=registerSigAction(3, sigActionQuit);
-    tmp_if_expr$5 = return_value_registerSigAction$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_registerSigAction_4=registerSigAction(3, sigActionQuit);
+    tmp_if_expr_5 = return_value_registerSigAction_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_registerSigAction$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_registerSigAction_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_registerSigAction$6=registerSigAction(17, sigActionChildDeath);
-    tmp_if_expr$7 = return_value_registerSigAction$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_registerSigAction_6=registerSigAction(17, sigActionChildDeath);
+    tmp_if_expr_7 = return_value_registerSigAction_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_registerSigAction$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_9;
+  signed int return_value_registerSigAction_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_registerSigAction$8=registerSigAction(15, sigActionTermination);
-    tmp_if_expr$9 = return_value_registerSigAction$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_registerSigAction_8=registerSigAction(15, sigActionTermination);
+    tmp_if_expr_9 = return_value_registerSigAction_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_registerSigAction$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_registerSigAction_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_registerSigAction$10=registerSigAction(1, sigActionHangup);
-    tmp_if_expr$11 = return_value_registerSigAction$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_registerSigAction_10=registerSigAction(1, sigActionHangup);
+    tmp_if_expr_11 = return_value_registerSigAction_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_registerSigAction$12;
-  if(tmp_if_expr$11)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  signed int return_value_registerSigAction_12;
+  if(tmp_if_expr_11)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
-    return_value_registerSigAction$12=registerSigAction(10, sigActionUSR1);
-    tmp_if_expr$13 = return_value_registerSigAction$12 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_registerSigAction_12=registerSigAction(10, sigActionUSR1);
+    tmp_if_expr_13 = return_value_registerSigAction_12 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_registerSigAction$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_registerSigAction_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_registerSigAction$14=registerSigAction(12, sigActionUSR2);
-    tmp_if_expr$15 = return_value_registerSigAction$14 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_registerSigAction_14=registerSigAction(12, sigActionUSR2);
+    tmp_if_expr_15 = return_value_registerSigAction_14 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$15)
+  if(tmp_if_expr_15)
     retval = -1;
 
   if(!(wrapperData->consoleTitle == ((signed int *)NULL)))
@@ -21004,16 +21004,16 @@ void wrapperJVMDownCleanup(signed int setState)
   {
     if(wrapperData->jvmCleanupTimeout >= 1)
     {
-      unsigned int return_value_wrapperGetTicks$1;
-      return_value_wrapperGetTicks$1=wrapperGetTicks();
-      wrapperSetJavaState(70, return_value_wrapperGetTicks$1, wrapperData->jvmCleanupTimeout);
+      unsigned int return_value_wrapperGetTicks_1;
+      return_value_wrapperGetTicks_1=wrapperGetTicks();
+      wrapperSetJavaState(70, return_value_wrapperGetTicks_1, wrapperData->jvmCleanupTimeout);
     }
 
     else
     {
-      unsigned int return_value_wrapperGetTicks$2;
-      return_value_wrapperGetTicks$2=wrapperGetTicks();
-      wrapperSetJavaState(70, return_value_wrapperGetTicks$2, -1);
+      unsigned int return_value_wrapperGetTicks_2;
+      return_value_wrapperGetTicks_2=wrapperGetTicks();
+      wrapperSetJavaState(70, return_value_wrapperGetTicks_2, -1);
     }
   }
 
@@ -21144,18 +21144,18 @@ extern void wrapperKeyRegistered(signed int *key)
   if(!(wrapperData->isDebugging == 0))
     log_printf(-1, 1, L"Got key from JVM: %s", key);
 
-  signed int return_value_wcscmp$2;
+  signed int return_value_wcscmp_2;
   switch(wrapperData->jState)
   {
     case 76:
     {
-      return_value_wcscmp$2=wcscmp(key, wrapperData->key);
-      if(return_value_wcscmp$2 == 0)
+      return_value_wcscmp_2=wcscmp(key, wrapperData->key);
+      if(return_value_wcscmp_2 == 0)
       {
         wrapperSetJavaState(77, (unsigned int)0, -1);
-        signed int return_value_getLowLogLevel$1;
-        return_value_getLowLogLevel$1=getLowLogLevel();
-        _sntprintf(buffer, (unsigned long int)11, L"%d", return_value_getLowLogLevel$1);
+        signed int return_value_getLowLogLevel_1;
+        return_value_getLowLogLevel_1=getLowLogLevel();
+        _sntprintf(buffer, (unsigned long int)11, L"%d", return_value_getLowLogLevel_1);
         wrapperProtocolFunction((char)112, buffer);
         sendLogFileName();
         sendProperties();
@@ -21186,40 +21186,40 @@ extern void wrapperKeyRegistered(signed int *key)
 extern void wrapperKillProcess()
 {
   signed int delay = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(wrapperData->jState == 72)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
     if(wrapperData->jState == 73)
     {
-      unsigned int return_value_wrapperGetTicks$1;
-      return_value_wrapperGetTicks$1=wrapperGetTicks();
-      wrapperSetJavaState(72, return_value_wrapperGetTicks$1, 0);
+      unsigned int return_value_wrapperGetTicks_1;
+      return_value_wrapperGetTicks_1=wrapperGetTicks();
+      wrapperSetJavaState(72, return_value_wrapperGetTicks_1, 0);
     }
 
   }
 
   else
   {
-    signed int return_value_waitpid$5;
-    return_value_waitpid$5=waitpid(wrapperData->javaPID, (signed int *)(void *)0, 1);
-    if(return_value_waitpid$5 == 0)
+    signed int return_value_waitpid_5;
+    return_value_waitpid_5=waitpid(wrapperData->javaPID, (signed int *)(void *)0, 1);
+    if(return_value_waitpid_5 == 0)
     {
       if(!(wrapperData->requestThreadDumpOnFailedJVMExit == 0))
       {
@@ -21229,9 +21229,9 @@ extern void wrapperKillProcess()
 
     }
 
-    unsigned int return_value_wrapperGetTicks$6;
-    return_value_wrapperGetTicks$6=wrapperGetTicks();
-    wrapperSetJavaState(83, return_value_wrapperGetTicks$6, delay);
+    unsigned int return_value_wrapperGetTicks_6;
+    return_value_wrapperGetTicks_6=wrapperGetTicks();
+    wrapperSetJavaState(83, return_value_wrapperGetTicks_6, delay);
   }
 }
 
@@ -21239,13 +21239,13 @@ extern void wrapperKillProcess()
 // file wrapper.c line 4129
 extern signed int wrapperKillProcessNow()
 {
-  signed int return_value_waitpid$3;
-  return_value_waitpid$3=waitpid(wrapperData->javaPID, (signed int *)(void *)0, 1);
-  if(return_value_waitpid$3 == 0)
+  signed int return_value_waitpid_3;
+  return_value_waitpid_3=waitpid(wrapperData->javaPID, (signed int *)(void *)0, 1);
+  if(return_value_waitpid_3 == 0)
   {
-    signed int return_value_kill$2;
-    return_value_kill$2=kill(wrapperData->javaPID, 9);
-    if(return_value_kill$2 == 0)
+    signed int return_value_kill_2;
+    return_value_kill_2=kill(wrapperData->javaPID, 9);
+    if(return_value_kill_2 == 0)
     {
       log_printf(-1, 5, L"JVM did not exit on request, termination requested.");
       return 0;
@@ -21254,9 +21254,9 @@ extern signed int wrapperKillProcessNow()
     else
     {
       log_printf(-1, 5, L"JVM did not exit on request.");
-      const signed int *return_value_getLastErrorText$1;
-      return_value_getLastErrorText$1=getLastErrorText();
-      log_printf(-1, 5, L"  Attempt to terminate process failed: %s", return_value_getLastErrorText$1);
+      const signed int *return_value_getLastErrorText_1;
+      return_value_getLastErrorText_1=getLastErrorText();
+      log_printf(-1, 5, L"  Attempt to terminate process failed: %s", return_value_getLastErrorText_1);
       wrapperJVMDownCleanup(-1);
       wrapperData->exitCode = 1;
       return -1;
@@ -21288,40 +21288,40 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
     if(!(wrapperData->originalWorkingDir == ((signed int *)NULL)))
       free((void *)wrapperData->originalWorkingDir);
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
-    wrapperData->originalWorkingDir = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
+    wrapperData->originalWorkingDir = (signed int *)return_value_malloc_1;
     if(wrapperData->originalWorkingDir == ((signed int *)NULL))
     {
       outOfMemory(L"WLCP", 4);
       return -1;
     }
 
-    signed int *return_value__trealpathN$3;
-    return_value__trealpathN$3=_trealpathN(L".", wrapperData->originalWorkingDir, (unsigned long int)(4096 + 1));
-    if(return_value__trealpathN$3 == ((signed int *)NULL))
+    signed int *return_value__trealpathN_3;
+    return_value__trealpathN_3=_trealpathN(L".", wrapperData->originalWorkingDir, (unsigned long int)(4096 + 1));
+    if(return_value__trealpathN_3 == ((signed int *)NULL))
     {
-      const signed int *return_value_getLastErrorText$2;
-      return_value_getLastErrorText$2=getLastErrorText();
-      log_printf(-1, 6, L"Unable to resolve the original working directory: %s", return_value_getLastErrorText$2);
+      const signed int *return_value_getLastErrorText_2;
+      return_value_getLastErrorText_2=getLastErrorText();
+      log_printf(-1, 6, L"Unable to resolve the original working directory: %s", return_value_getLastErrorText_2);
       return -1;
     }
 
     if(!(wrapperData->configFile == ((signed int *)NULL)))
       free((void *)wrapperData->configFile);
 
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
-    wrapperData->configFile = (signed int *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
+    wrapperData->configFile = (signed int *)return_value_malloc_4;
     if(wrapperData->configFile == ((signed int *)NULL))
     {
       outOfMemory(L"WLCP", 2);
       return -1;
     }
 
-    signed int *return_value__trealpathN$6;
-    return_value__trealpathN$6=_trealpathN(wrapperData->argConfFile, wrapperData->configFile, (unsigned long int)(4096 + 1));
-    if(return_value__trealpathN$6 == ((signed int *)NULL))
+    signed int *return_value__trealpathN_6;
+    return_value__trealpathN_6=_trealpathN(wrapperData->argConfFile, wrapperData->configFile, (unsigned long int)(4096 + 1));
+    if(return_value__trealpathN_6 == ((signed int *)NULL))
     {
       if(!(wrapperData->argConfFileDefault == 0))
         _sntprintf(wrapperData->configFile, (unsigned long int)(4096 + 1), L"%s", wrapperData->argConfFile);
@@ -21330,9 +21330,9 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
       {
         if(preload == 0)
         {
-          const signed int *return_value_getLastErrorText$5;
-          return_value_getLastErrorText$5=getLastErrorText();
-          log_printf(-1, 6, L"Unable to open configuration file: %s (%s)\n  Current working directory: %s", wrapperData->argConfFile, return_value_getLastErrorText$5, wrapperData->originalWorkingDir);
+          const signed int *return_value_getLastErrorText_5;
+          return_value_getLastErrorText_5=getLastErrorText();
+          log_printf(-1, 6, L"Unable to open configuration file: %s (%s)\n  Current working directory: %s", wrapperData->argConfFile, return_value_getLastErrorText_5, wrapperData->originalWorkingDir);
         }
 
         return -1;
@@ -21341,10 +21341,10 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
 
   }
   properties=createProperties();
-  unsigned long int return_value_wcslen$13;
-  signed int return_value_wrapperSetWorkingDir$14;
-  signed int return_value_wrapperBuildUnixDaemonInfo$16;
-  signed int return_value_loadConfiguration$17;
+  unsigned long int return_value_wcslen_13;
+  signed int return_value_wrapperSetWorkingDir_14;
+  signed int return_value_wrapperBuildUnixDaemonInfo_16;
+  signed int return_value_loadConfiguration_17;
   if(properties == ((struct Properties *)NULL))
     return -1;
 
@@ -21352,16 +21352,16 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
   {
     setLogPropertyWarnings(properties, (signed int)!(preload != 0));
     wrapperAddDefaultProperties();
-    signed int return_value_wcscasecmp$8;
-    return_value_wcscasecmp$8=wcscasecmp(wrapperData->argCommand, L"-translate");
-    if(!(return_value_wcscasecmp$8 == 0))
+    signed int return_value_wcscasecmp_8;
+    return_value_wcscasecmp_8=wcscasecmp(wrapperData->argCommand, L"-translate");
+    if(!(return_value_wcscasecmp_8 == 0))
     {
       i = 0;
       for( ; !(i >= wrapperData->argCount); i = i + 1)
       {
-        signed int return_value_addPropertyPair$7;
-        return_value_addPropertyPair$7=addPropertyPair(properties, (const signed int *)(void *)0, 0, wrapperData->argValues[(signed long int)i], -1, -1, 0);
-        if(!(return_value_addPropertyPair$7 == 0))
+        signed int return_value_addPropertyPair_7;
+        return_value_addPropertyPair_7=addPropertyPair(properties, (const signed int *)(void *)0, 0, wrapperData->argValues[(signed long int)i], -1, -1, 0);
+        if(!(return_value_addPropertyPair_7 == 0))
         {
           log_printf(-1, 6, L"The argument '%s' is not a valid property name-value pair.", wrapperData->argValues[(signed long int)i]);
           return -1;
@@ -21370,9 +21370,9 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
       }
     }
 
-    signed int return_value_loadProperties$9;
-    return_value_loadProperties$9=loadProperties(properties, wrapperData->configFile, preload | wrapperData->daemonize, wrapperData->argCommand, wrapperData->originalWorkingDir, wrapperData->isDebugging);
-    if(!(return_value_loadProperties$9 == 0))
+    signed int return_value_loadProperties_9;
+    return_value_loadProperties_9=loadProperties(properties, wrapperData->configFile, preload | wrapperData->daemonize, wrapperData->argCommand, wrapperData->originalWorkingDir, wrapperData->isDebugging);
+    if(!(return_value_loadProperties_9 == 0))
     {
       if(preload == 0)
       {
@@ -21392,28 +21392,28 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
         prop=getStringProperty(properties, L"wrapper.working.dir", L".");
         if(!(prop == ((const signed int *)NULL)))
         {
-          return_value_wcslen$13=wcslen(prop);
-          if(return_value_wcslen$13 >= 1ul)
+          return_value_wcslen_13=wcslen(prop);
+          if(return_value_wcslen_13 >= 1ul)
           {
             if(!(wrapperData->workingDir == ((signed int *)NULL)))
               free((void *)wrapperData->workingDir);
 
-            void *return_value_malloc$10;
-            return_value_malloc$10=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
-            wrapperData->workingDir = (signed int *)return_value_malloc$10;
+            void *return_value_malloc_10;
+            return_value_malloc_10=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(4096 + 1));
+            wrapperData->workingDir = (signed int *)return_value_malloc_10;
             if(wrapperData->workingDir == ((signed int *)NULL))
             {
               outOfMemory(L"WLCP", 6);
               return -1;
             }
 
-            signed int *return_value__trealpathN$12;
-            return_value__trealpathN$12=_trealpathN(prop, wrapperData->workingDir, (unsigned long int)(4096 + 1));
-            if(return_value__trealpathN$12 == ((signed int *)NULL))
+            signed int *return_value__trealpathN_12;
+            return_value__trealpathN_12=_trealpathN(prop, wrapperData->workingDir, (unsigned long int)(4096 + 1));
+            if(return_value__trealpathN_12 == ((signed int *)NULL))
             {
-              const signed int *return_value_getLastErrorText$11;
-              return_value_getLastErrorText$11=getLastErrorText();
-              log_printf(-1, 6, L"Unable to resolve the working directory %s: %s", prop, return_value_getLastErrorText$11);
+              const signed int *return_value_getLastErrorText_11;
+              return_value_getLastErrorText_11=getLastErrorText();
+              log_printf(-1, 6, L"Unable to resolve the working directory %s: %s", prop, return_value_getLastErrorText_11);
               return -1;
             }
 
@@ -21425,8 +21425,8 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
 
       if(!(wrapperData->workingDir == ((signed int *)NULL)))
       {
-        return_value_wrapperSetWorkingDir$14=wrapperSetWorkingDir(wrapperData->workingDir, (signed int)!(preload != 0));
-        if(return_value_wrapperSetWorkingDir$14 == 0)
+        return_value_wrapperSetWorkingDir_14=wrapperSetWorkingDir(wrapperData->workingDir, (signed int)!(preload != 0));
+        if(return_value_wrapperSetWorkingDir_14 == 0)
           goto __CPROVER_DUMP_L22;
 
         return -1;
@@ -21452,13 +21452,13 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
         wrapperData->statusFileUmask=getIntProperty(properties, L"wrapper.statusfile.umask", wrapperData->umask);
         wrapperData->javaStatusFileUmask=getIntProperty(properties, L"wrapper.java.statusfile.umask", wrapperData->umask);
         wrapperData->anchorFileUmask=getIntProperty(properties, L"wrapper.anchorfile.umask", wrapperData->umask);
-        signed int return_value_getIntProperty$15;
-        return_value_getIntProperty$15=getIntProperty(properties, L"wrapper.logfile.umask", wrapperData->umask);
-        setLogfileUmask(return_value_getIntProperty$15);
+        signed int return_value_getIntProperty_15;
+        return_value_getIntProperty_15=getIntProperty(properties, L"wrapper.logfile.umask", wrapperData->umask);
+        setLogfileUmask(return_value_getIntProperty_15);
         if(firstCall == -1)
         {
-          return_value_wrapperBuildUnixDaemonInfo$16=wrapperBuildUnixDaemonInfo();
-          if(!(return_value_wrapperBuildUnixDaemonInfo$16 == 0))
+          return_value_wrapperBuildUnixDaemonInfo_16=wrapperBuildUnixDaemonInfo();
+          if(!(return_value_wrapperBuildUnixDaemonInfo_16 == 0))
             goto __CPROVER_DUMP_L24;
 
           if(wrapperData->daemonize == 0)
@@ -21472,12 +21472,12 @@ extern signed int wrapperLoadConfigurationProperties(signed int preload)
 
         __CPROVER_DUMP_L24:
           ;
-          signed int return_value_wcscasecmp$18;
-          return_value_wcscasecmp$18=wcscasecmp(wrapperData->argCommand, L"-translate");
-          if(!(return_value_wcscasecmp$18 == 0))
+          signed int return_value_wcscasecmp_18;
+          return_value_wcscasecmp_18=wcscasecmp(wrapperData->argCommand, L"-translate");
+          if(!(return_value_wcscasecmp_18 == 0))
           {
-            return_value_loadConfiguration$17=loadConfiguration();
-            if(return_value_loadConfiguration$17 == 0)
+            return_value_loadConfiguration_17=loadConfiguration();
+            if(return_value_loadConfiguration_17 == 0)
               goto __CPROVER_DUMP_L25;
 
             log_printf(-1, 6, L"Problem loading wrapper configuration file: %s", wrapperData->configFile);
@@ -21504,31 +21504,31 @@ extern void wrapperLoadHostName()
   char hostName[80l];
   signed int *hostName2;
   signed int len;
-  signed int return_value_gethostname$8;
-  return_value_gethostname$8=gethostname(hostName, sizeof(char [80l]) /*80ul*/ );
-  if(!(return_value_gethostname$8 == 0))
+  signed int return_value_gethostname_8;
+  return_value_gethostname_8=gethostname(hostName, sizeof(char [80l]) /*80ul*/ );
+  if(!(return_value_gethostname_8 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 4, L"Unable to obtain host name. %s", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 4, L"Unable to obtain host name. %s", return_value_getLastErrorText_1);
   }
 
   else
   {
-    unsigned long int return_value_mbstowcs$2;
-    return_value_mbstowcs$2=mbstowcs((signed int *)(void *)0, hostName, (unsigned long int)0);
-    len = (signed int)return_value_mbstowcs$2;
+    unsigned long int return_value_mbstowcs_2;
+    return_value_mbstowcs_2=mbstowcs((signed int *)(void *)0, hostName, (unsigned long int)0);
+    len = (signed int)return_value_mbstowcs_2;
     if((unsigned long int)len == 18446744073709551615ul)
     {
-      const signed int *return_value_getLastErrorText$3;
-      return_value_getLastErrorText$3=getLastErrorText();
-      log_printf(-1, 4, L"Invalid multibyte sequence in port address \"%s\" : %s", (const void *)hostName, return_value_getLastErrorText$3);
+      const signed int *return_value_getLastErrorText_3;
+      return_value_getLastErrorText_3=getLastErrorText();
+      log_printf(-1, 4, L"Invalid multibyte sequence in port address \"%s\" : %s", (const void *)hostName, return_value_getLastErrorText_3);
       goto __CPROVER_DUMP_L6;
     }
 
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(len + 1));
-    hostName2 = (signed int *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)(len + 1));
+    hostName2 = (signed int *)return_value_malloc_4;
     if(hostName2 == ((signed int *)NULL))
     {
       outOfMemory(L"LHN", 2);
@@ -21537,11 +21537,11 @@ extern void wrapperLoadHostName()
 
     mbstowcs(hostName2, hostName, (unsigned long int)(len + 1));
     hostName2[(signed long int)len] = 0;
-    unsigned long int return_value_wcslen$5;
-    return_value_wcslen$5=wcslen(hostName2);
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$5 + (unsigned long int)1));
-    wrapperData->hostName = (signed int *)return_value_malloc$6;
+    unsigned long int return_value_wcslen_5;
+    return_value_wcslen_5=wcslen(hostName2);
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_5 + (unsigned long int)1));
+    wrapperData->hostName = (signed int *)return_value_malloc_6;
     if(wrapperData->hostName == ((signed int *)NULL))
     {
       outOfMemory(L"LHN", 4);
@@ -21549,9 +21549,9 @@ extern void wrapperLoadHostName()
       goto __CPROVER_DUMP_L6;
     }
 
-    unsigned long int return_value_wcslen$7;
-    return_value_wcslen$7=wcslen(hostName2);
-    wcsncpy(wrapperData->hostName, hostName2, return_value_wcslen$7 + (unsigned long int)1);
+    unsigned long int return_value_wcslen_7;
+    return_value_wcslen_7=wcslen(hostName2);
+    wcsncpy(wrapperData->hostName, hostName2, return_value_wcslen_7 + (unsigned long int)1);
     free((void *)hostName2);
   }
 
@@ -21567,24 +21567,24 @@ void wrapperLoadLoggingProperties(signed int preload)
   signed int logfileRollMode;
   signed int underCygwin = 0;
   setLogPropertyWarnings(properties, (signed int)!(preload != 0));
-  const signed int *return_value_getStringProperty$1;
-  return_value_getStringProperty$1=getStringProperty(properties, L"wrapper.property_warning.loglevel", L"WARN");
-  signed int return_value_getLogLevelForName$2;
-  return_value_getLogLevelForName$2=getLogLevelForName(return_value_getStringProperty$1);
-  setLogPropertyWarningLogLevel(properties, return_value_getLogLevelForName$2);
-  signed int return_value_getIntProperty$3;
-  return_value_getIntProperty$3=getIntProperty(properties, L"wrapper.log.warning.threshold", 0);
-  setLogWarningThreshold(return_value_getIntProperty$3);
-  signed int return_value_getIntProperty$4;
-  return_value_getIntProperty$4=getIntProperty(properties, L"wrapper.log.lf_delay.threshold", 500);
-  signed int return_value_propIntMin$5;
-  return_value_propIntMin$5=propIntMin(return_value_getIntProperty$4, 3600000);
-  wrapperData->logLFDelayThreshold=propIntMax(return_value_propIntMin$5, 0);
+  const signed int *return_value_getStringProperty_1;
+  return_value_getStringProperty_1=getStringProperty(properties, L"wrapper.property_warning.loglevel", L"WARN");
+  signed int return_value_getLogLevelForName_2;
+  return_value_getLogLevelForName_2=getLogLevelForName(return_value_getStringProperty_1);
+  setLogPropertyWarningLogLevel(properties, return_value_getLogLevelForName_2);
+  signed int return_value_getIntProperty_3;
+  return_value_getIntProperty_3=getIntProperty(properties, L"wrapper.log.warning.threshold", 0);
+  setLogWarningThreshold(return_value_getIntProperty_3);
+  signed int return_value_getIntProperty_4;
+  return_value_getIntProperty_4=getIntProperty(properties, L"wrapper.log.lf_delay.threshold", 500);
+  signed int return_value_propIntMin_5;
+  return_value_propIntMin_5=propIntMin(return_value_getIntProperty_4, 3600000);
+  wrapperData->logLFDelayThreshold=propIntMax(return_value_propIntMin_5, 0);
   logfilePath=getFileSafeStringProperty(properties, L"wrapper.logfile", L"wrapper.log");
   setLogfilePath(logfilePath, wrapperData->workingDir, preload);
-  const signed int *return_value_getStringProperty$6;
-  return_value_getStringProperty$6=getStringProperty(properties, L"wrapper.logfile.rollmode", L"SIZE");
-  logfileRollMode=getLogfileRollModeForName(return_value_getStringProperty$6);
+  const signed int *return_value_getStringProperty_6;
+  return_value_getStringProperty_6=getStringProperty(properties, L"wrapper.logfile.rollmode", L"SIZE");
+  logfileRollMode=getLogfileRollModeForName(return_value_getStringProperty_6);
   if(logfileRollMode == 0)
   {
     log_printf(-1, 4, L"wrapper.logfile.rollmode invalid.  Disabling log file rolling.");
@@ -21594,9 +21594,9 @@ void wrapperLoadLoggingProperties(signed int preload)
   else
     if(logfileRollMode == 16)
     {
-      signed int *return_value_wcsstr$7;
-      return_value_wcsstr$7=wcsstr(logfilePath, L"YYYYMMDD");
-      if(return_value_wcsstr$7 == ((signed int *)NULL))
+      signed int *return_value_wcsstr_7;
+      return_value_wcsstr_7=wcsstr(logfilePath, L"YYYYMMDD");
+      if(return_value_wcsstr_7 == ((signed int *)NULL))
       {
         log_printf(-1, 4, L"wrapper.logfile must contain \"%s\" for a roll mode of DATE.  Disabling log file rolling.", (const void *)L"YYYYMMDD");
         logfileRollMode = 1;
@@ -21605,77 +21605,77 @@ void wrapperLoadLoggingProperties(signed int preload)
     }
 
   setLogfileRollMode(logfileRollMode);
-  const signed int *return_value_getStringProperty$8;
-  return_value_getStringProperty$8=getStringProperty(properties, L"wrapper.logfile.format", L"LPTM");
-  setLogfileFormat(return_value_getStringProperty$8);
-  const signed int *return_value_getStringProperty$9;
-  return_value_getStringProperty$9=getStringProperty(properties, L"wrapper.logfile.loglevel", L"INFO");
-  setLogfileLevel(return_value_getStringProperty$9);
-  const signed int *return_value_getStringProperty$10;
-  return_value_getStringProperty$10=getStringProperty(properties, L"wrapper.logfile.maxsize", L"0");
-  setLogfileMaxFileSize(return_value_getStringProperty$10);
-  signed int return_value_getIntProperty$11;
-  return_value_getIntProperty$11=getIntProperty(properties, L"wrapper.logfile.maxfiles", 0);
-  setLogfileMaxLogFiles(return_value_getIntProperty$11);
-  const signed int *return_value_getFileSafeStringProperty$12;
-  return_value_getFileSafeStringProperty$12=getFileSafeStringProperty(properties, L"wrapper.logfile.purge.pattern", L"");
-  setLogfilePurgePattern(return_value_getFileSafeStringProperty$12);
-  const signed int *return_value_getStringProperty$13;
-  return_value_getStringProperty$13=getStringProperty(properties, L"wrapper.logfile.purge.sort", L"TIMES");
-  signed int return_value_loggerFileGetSortMode$14;
-  return_value_loggerFileGetSortMode$14=loggerFileGetSortMode(return_value_getStringProperty$13);
-  setLogfilePurgeSortMode(return_value_loggerFileGetSortMode$14);
-  signed int return_value_getIntProperty$15;
-  return_value_getIntProperty$15=getIntProperty(properties, L"wrapper.logfile.inactivity.timeout", 1);
-  signed int return_value_getIntProperty$16;
-  return_value_getIntProperty$16=getIntProperty(properties, L"wrapper.logfile.close.timeout", return_value_getIntProperty$15);
-  signed int return_value_propIntMin$17;
-  return_value_propIntMin$17=propIntMin(return_value_getIntProperty$16, 3600);
-  wrapperData->logfileCloseTimeout=propIntMax(return_value_propIntMin$17, -1);
+  const signed int *return_value_getStringProperty_8;
+  return_value_getStringProperty_8=getStringProperty(properties, L"wrapper.logfile.format", L"LPTM");
+  setLogfileFormat(return_value_getStringProperty_8);
+  const signed int *return_value_getStringProperty_9;
+  return_value_getStringProperty_9=getStringProperty(properties, L"wrapper.logfile.loglevel", L"INFO");
+  setLogfileLevel(return_value_getStringProperty_9);
+  const signed int *return_value_getStringProperty_10;
+  return_value_getStringProperty_10=getStringProperty(properties, L"wrapper.logfile.maxsize", L"0");
+  setLogfileMaxFileSize(return_value_getStringProperty_10);
+  signed int return_value_getIntProperty_11;
+  return_value_getIntProperty_11=getIntProperty(properties, L"wrapper.logfile.maxfiles", 0);
+  setLogfileMaxLogFiles(return_value_getIntProperty_11);
+  const signed int *return_value_getFileSafeStringProperty_12;
+  return_value_getFileSafeStringProperty_12=getFileSafeStringProperty(properties, L"wrapper.logfile.purge.pattern", L"");
+  setLogfilePurgePattern(return_value_getFileSafeStringProperty_12);
+  const signed int *return_value_getStringProperty_13;
+  return_value_getStringProperty_13=getStringProperty(properties, L"wrapper.logfile.purge.sort", L"TIMES");
+  signed int return_value_loggerFileGetSortMode_14;
+  return_value_loggerFileGetSortMode_14=loggerFileGetSortMode(return_value_getStringProperty_13);
+  setLogfilePurgeSortMode(return_value_loggerFileGetSortMode_14);
+  signed int return_value_getIntProperty_15;
+  return_value_getIntProperty_15=getIntProperty(properties, L"wrapper.logfile.inactivity.timeout", 1);
+  signed int return_value_getIntProperty_16;
+  return_value_getIntProperty_16=getIntProperty(properties, L"wrapper.logfile.close.timeout", return_value_getIntProperty_15);
+  signed int return_value_propIntMin_17;
+  return_value_propIntMin_17=propIntMin(return_value_getIntProperty_16, 3600);
+  wrapperData->logfileCloseTimeout=propIntMax(return_value_propIntMin_17, -1);
   setLogfileAutoClose((signed int)(wrapperData->logfileCloseTimeout == 0));
-  signed int return_value_getIntProperty$18;
-  return_value_getIntProperty$18=getIntProperty(properties, L"wrapper.logfile.flush.timeout", 1);
-  signed int return_value_propIntMin$19;
-  return_value_propIntMin$19=propIntMin(return_value_getIntProperty$18, 3600);
-  wrapperData->logfileFlushTimeout=propIntMax(return_value_propIntMin$19, 0);
+  signed int return_value_getIntProperty_18;
+  return_value_getIntProperty_18=getIntProperty(properties, L"wrapper.logfile.flush.timeout", 1);
+  signed int return_value_propIntMin_19;
+  return_value_propIntMin_19=propIntMin(return_value_getIntProperty_18, 3600);
+  wrapperData->logfileFlushTimeout=propIntMax(return_value_propIntMin_19, 0);
   setLogfileAutoFlush((signed int)(wrapperData->logfileFlushTimeout == 0));
-  const signed int *return_value_getStringProperty$20;
-  return_value_getStringProperty$20=getStringProperty(properties, L"wrapper.console.format", L"PM");
-  setConsoleLogFormat(return_value_getStringProperty$20);
-  const signed int *return_value_getStringProperty$21;
-  return_value_getStringProperty$21=getStringProperty(properties, L"wrapper.console.loglevel", L"INFO");
-  setConsoleLogLevel(return_value_getStringProperty$21);
-  signed int return_value_getBooleanProperty$22;
-  return_value_getBooleanProperty$22=getBooleanProperty(properties, L"wrapper.console.flush", (signed int)(0 != 0 || underCygwin != 0));
-  setConsoleFlush(return_value_getBooleanProperty$22);
-  signed int return_value_getBooleanProperty$23;
-  return_value_getBooleanProperty$23=getBooleanProperty(properties, L"wrapper.console.fatal_to_stderr", -1);
-  setConsoleFatalToStdErr(return_value_getBooleanProperty$23);
-  signed int return_value_getBooleanProperty$24;
-  return_value_getBooleanProperty$24=getBooleanProperty(properties, L"wrapper.console.error_to_stderr", -1);
-  setConsoleErrorToStdErr(return_value_getBooleanProperty$24);
-  signed int return_value_getBooleanProperty$25;
-  return_value_getBooleanProperty$25=getBooleanProperty(properties, L"wrapper.console.warn_to_stderr", 0);
-  setConsoleWarnToStdErr(return_value_getBooleanProperty$25);
-  const signed int *return_value_getStringProperty$26;
-  return_value_getStringProperty$26=getStringProperty(properties, L"wrapper.syslog.loglevel", L"NONE");
-  setSyslogLevel(return_value_getStringProperty$26);
-  signed int return_value_getBooleanProperty$27;
-  return_value_getBooleanProperty$27=getBooleanProperty(properties, L"wrapper.syslog.split_messages", 0);
-  setSyslogSplitMessages(return_value_getBooleanProperty$27);
-  const signed int *return_value_getStringProperty$28;
-  return_value_getStringProperty$28=getStringProperty(properties, L"wrapper.syslog.facility", L"USER");
-  setSyslogFacility(return_value_getStringProperty$28);
-  const signed int *return_value_getStringProperty$29;
-  return_value_getStringProperty$29=getStringProperty(properties, L"wrapper.ntservice.name", L"wrapper");
-  const signed int *return_value_getStringProperty$30;
-  return_value_getStringProperty$30=getStringProperty(properties, L"wrapper.name", return_value_getStringProperty$29);
-  const signed int *return_value_getStringProperty$31;
-  return_value_getStringProperty$31=getStringProperty(properties, L"wrapper.syslog.ident", return_value_getStringProperty$30);
-  setSyslogEventSourceName(return_value_getStringProperty$31);
-  signed int return_value_getSyslogLevelInt$32;
-  return_value_getSyslogLevelInt$32=getSyslogLevelInt();
-  if(!(return_value_getSyslogLevelInt$32 >= 9))
+  const signed int *return_value_getStringProperty_20;
+  return_value_getStringProperty_20=getStringProperty(properties, L"wrapper.console.format", L"PM");
+  setConsoleLogFormat(return_value_getStringProperty_20);
+  const signed int *return_value_getStringProperty_21;
+  return_value_getStringProperty_21=getStringProperty(properties, L"wrapper.console.loglevel", L"INFO");
+  setConsoleLogLevel(return_value_getStringProperty_21);
+  signed int return_value_getBooleanProperty_22;
+  return_value_getBooleanProperty_22=getBooleanProperty(properties, L"wrapper.console.flush", (signed int)(0 != 0 || underCygwin != 0));
+  setConsoleFlush(return_value_getBooleanProperty_22);
+  signed int return_value_getBooleanProperty_23;
+  return_value_getBooleanProperty_23=getBooleanProperty(properties, L"wrapper.console.fatal_to_stderr", -1);
+  setConsoleFatalToStdErr(return_value_getBooleanProperty_23);
+  signed int return_value_getBooleanProperty_24;
+  return_value_getBooleanProperty_24=getBooleanProperty(properties, L"wrapper.console.error_to_stderr", -1);
+  setConsoleErrorToStdErr(return_value_getBooleanProperty_24);
+  signed int return_value_getBooleanProperty_25;
+  return_value_getBooleanProperty_25=getBooleanProperty(properties, L"wrapper.console.warn_to_stderr", 0);
+  setConsoleWarnToStdErr(return_value_getBooleanProperty_25);
+  const signed int *return_value_getStringProperty_26;
+  return_value_getStringProperty_26=getStringProperty(properties, L"wrapper.syslog.loglevel", L"NONE");
+  setSyslogLevel(return_value_getStringProperty_26);
+  signed int return_value_getBooleanProperty_27;
+  return_value_getBooleanProperty_27=getBooleanProperty(properties, L"wrapper.syslog.split_messages", 0);
+  setSyslogSplitMessages(return_value_getBooleanProperty_27);
+  const signed int *return_value_getStringProperty_28;
+  return_value_getStringProperty_28=getStringProperty(properties, L"wrapper.syslog.facility", L"USER");
+  setSyslogFacility(return_value_getStringProperty_28);
+  const signed int *return_value_getStringProperty_29;
+  return_value_getStringProperty_29=getStringProperty(properties, L"wrapper.ntservice.name", L"wrapper");
+  const signed int *return_value_getStringProperty_30;
+  return_value_getStringProperty_30=getStringProperty(properties, L"wrapper.name", return_value_getStringProperty_29);
+  const signed int *return_value_getStringProperty_31;
+  return_value_getStringProperty_31=getStringProperty(properties, L"wrapper.syslog.ident", return_value_getStringProperty_30);
+  setSyslogEventSourceName(return_value_getStringProperty_31);
+  signed int return_value_getSyslogLevelInt_32;
+  return_value_getSyslogLevelInt_32=getSyslogLevelInt();
+  if(!(return_value_getSyslogLevelInt_32 >= 9))
     registerSyslogMessageFile();
 
   wrapperData->isDebugging=getBooleanProperty(properties, L"wrapper.debug", 0);
@@ -21687,9 +21687,9 @@ void wrapperLoadLoggingProperties(signed int preload)
 
   else
   {
-    signed int return_value_getLowLogLevel$33;
-    return_value_getLowLogLevel$33=getLowLogLevel();
-    if(!(return_value_getLowLogLevel$33 >= 2))
+    signed int return_value_getLowLogLevel_33;
+    return_value_getLowLogLevel_33=getLowLogLevel();
+    if(!(return_value_getLowLogLevel_33 >= 2))
       wrapperData->isDebugging = -1;
 
   }
@@ -21704,9 +21704,9 @@ signed int wrapperLoadParameterFile(signed int **strings, signed int addQuotes, 
   signed int readResult;
   signed int prop[256l];
   parameterFilePath=getFileSafeStringProperty(properties, parameterName, L"");
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(parameterFilePath);
-  if(return_value_wcslen$1 == 0ul)
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(parameterFilePath);
+  if(return_value_wcslen_1 == 0ul)
     return index;
 
   else
@@ -21744,13 +21744,13 @@ signed int wrapperLoadParameterFile(signed int **strings, signed int addQuotes, 
 // file wrapper.c line 8300
 extern signed int wrapperLockTickMutex()
 {
-  signed int return_value_pthread_mutex_lock$2;
-  return_value_pthread_mutex_lock$2=pthread_mutex_lock(&tickMutex);
-  if(!(return_value_pthread_mutex_lock$2 == 0))
+  signed int return_value_pthread_mutex_lock_2;
+  return_value_pthread_mutex_lock_2=pthread_mutex_lock(&tickMutex);
+  if(!(return_value_pthread_mutex_lock_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    _tprintf(L"Failed to lock the Tick mutex. %s\n", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    _tprintf(L"Failed to lock the Tick mutex. %s\n", return_value_getLastErrorText_1);
     return -1;
   }
 
@@ -21798,9 +21798,9 @@ extern void wrapperMaintainSignals()
   if(!(wrapperData->signalChildTrapped == 0))
   {
     wrapperData->signalChildTrapped = 0;
-    unsigned int return_value_wrapperGetTicks$1;
-    return_value_wrapperGetTicks$1=wrapperGetTicks();
-    wrapperGetProcessStatus(return_value_wrapperGetTicks$1, -1);
+    unsigned int return_value_wrapperGetTicks_1;
+    return_value_wrapperGetTicks_1=wrapperGetTicks();
+    wrapperGetProcessStatus(return_value_wrapperGetTicks_1, -1);
   }
 
   if(!(wrapperData->signalTermTrapped == 0))
@@ -21844,9 +21844,9 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
     delimiter = 0;
     for( ; !(delimiter >= argc); delimiter = delimiter + 1)
     {
-      signed int return_value_wcscmp$1;
-      return_value_wcscmp$1=wcscmp(argv[(signed long int)delimiter], L"--");
-      if(return_value_wcscmp$1 == 0)
+      signed int return_value_wcscmp_1;
+      return_value_wcscmp_1=wcscmp(argv[(signed long int)delimiter], L"--");
+      if(return_value_wcscmp_1 == 0)
       {
         free((void *)argv[(signed long int)delimiter]);
         argv[(signed long int)delimiter] = (signed int *)(void *)0;
@@ -21884,9 +21884,9 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
       }
       if(wrapperArgCount >= 3)
       {
-        signed int return_value_wcsncmp$2;
-        return_value_wcsncmp$2=wcsncmp(wrapperData->argCommand, L"-translate", (unsigned long int)5);
-        if(return_value_wcsncmp$2 == 0)
+        signed int return_value_wcsncmp_2;
+        return_value_wcsncmp_2=wcsncmp(wrapperData->argCommand, L"-translate", (unsigned long int)5);
+        if(return_value_wcsncmp_2 == 0)
         {
           if(wrapperArgCount >= 4)
           {
@@ -21905,11 +21905,11 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
 
       else
       {
-        unsigned long int return_value_wcslen$3;
-        return_value_wcslen$3=wcslen(argv[(signed long int)0]);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$3 + (unsigned long int)1));
-        argConfFileBase = (signed int *)return_value_malloc$4;
+        unsigned long int return_value_wcslen_3;
+        return_value_wcslen_3=wcslen(argv[(signed long int)0]);
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_3 + (unsigned long int)1));
+        argConfFileBase = (signed int *)return_value_malloc_4;
         if(argConfFileBase == ((signed int *)NULL))
         {
           outOfMemory(L"WPA", 1);
@@ -21917,11 +21917,11 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
         }
 
         wrapperGetFileBase(argv[(signed long int)0], argConfFileBase);
-        unsigned long int return_value_wcslen$5;
-        return_value_wcslen$5=wcslen(argConfFileBase);
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc((return_value_wcslen$5 + (unsigned long int)5 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
-        wrapperData->argConfFile = (signed int *)return_value_malloc$6;
+        unsigned long int return_value_wcslen_5;
+        return_value_wcslen_5=wcslen(argConfFileBase);
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc((return_value_wcslen_5 + (unsigned long int)5 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
+        wrapperData->argConfFile = (signed int *)return_value_malloc_6;
         if(wrapperData->argConfFile == ((signed int *)NULL))
         {
           outOfMemory(L"WPA", 2);
@@ -21929,9 +21929,9 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
           return 0;
         }
 
-        unsigned long int return_value_wcslen$7;
-        return_value_wcslen$7=wcslen(argConfFileBase);
-        _sntprintf(wrapperData->argConfFile, return_value_wcslen$7 + (unsigned long int)5 + (unsigned long int)1, L"%s.conf", argConfFileBase);
+        unsigned long int return_value_wcslen_7;
+        return_value_wcslen_7=wcslen(argConfFileBase);
+        _sntprintf(wrapperData->argConfFile, return_value_wcslen_7 + (unsigned long int)5 + (unsigned long int)1, L"%s.conf", argConfFileBase);
         free((void *)argConfFileBase);
         wrapperData->argConfFileDefault = -1;
         wrapperData->argCount = wrapperArgCount - 2;
@@ -21953,11 +21953,11 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
   {
     wrapperData->argCommand = L"c";
     wrapperData->argCommandArg = (signed int *)(void *)0;
-    unsigned long int return_value_wcslen$8;
-    return_value_wcslen$8=wcslen(argv[(signed long int)0]);
-    void *return_value_malloc$9;
-    return_value_malloc$9=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$8 + (unsigned long int)1));
-    argConfFileBase = (signed int *)return_value_malloc$9;
+    unsigned long int return_value_wcslen_8;
+    return_value_wcslen_8=wcslen(argv[(signed long int)0]);
+    void *return_value_malloc_9;
+    return_value_malloc_9=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_8 + (unsigned long int)1));
+    argConfFileBase = (signed int *)return_value_malloc_9;
     if(argConfFileBase == ((signed int *)NULL))
     {
       outOfMemory(L"WPA", 3);
@@ -21965,11 +21965,11 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
     }
 
     wrapperGetFileBase(argv[(signed long int)0], argConfFileBase);
-    unsigned long int return_value_wcslen$10;
-    return_value_wcslen$10=wcslen(argConfFileBase);
-    void *return_value_malloc$11;
-    return_value_malloc$11=malloc((return_value_wcslen$10 + (unsigned long int)5 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
-    wrapperData->argConfFile = (signed int *)return_value_malloc$11;
+    unsigned long int return_value_wcslen_10;
+    return_value_wcslen_10=wcslen(argConfFileBase);
+    void *return_value_malloc_11;
+    return_value_malloc_11=malloc((return_value_wcslen_10 + (unsigned long int)5 + (unsigned long int)1) * sizeof(signed int) /*4ul*/ );
+    wrapperData->argConfFile = (signed int *)return_value_malloc_11;
     if(wrapperData->argConfFile == ((signed int *)NULL))
     {
       outOfMemory(L"WPA", 4);
@@ -21977,9 +21977,9 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
       return 0;
     }
 
-    unsigned long int return_value_wcslen$12;
-    return_value_wcslen$12=wcslen(argConfFileBase);
-    _sntprintf(wrapperData->argConfFile, return_value_wcslen$12 + (unsigned long int)5 + (unsigned long int)1, L"%s.conf", argConfFileBase);
+    unsigned long int return_value_wcslen_12;
+    return_value_wcslen_12=wcslen(argConfFileBase);
+    _sntprintf(wrapperData->argConfFile, return_value_wcslen_12 + (unsigned long int)5 + (unsigned long int)1, L"%s.conf", argConfFileBase);
     free((void *)argConfFileBase);
     wrapperData->argConfFileDefault = -1;
     wrapperData->argCount = wrapperArgCount - 1;
@@ -21993,7 +21993,7 @@ extern signed int wrapperParseArguments(signed int argc, signed int **argv)
 extern void wrapperPauseProcess(signed int actionSourceCode)
 {
   signed int msgBuffer[10l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(wrapperData->pausable == 0)
   {
     if(!(wrapperData->isDebugging == 0))
@@ -22004,11 +22004,11 @@ extern void wrapperPauseProcess(signed int actionSourceCode)
   else
   {
     if(wrapperData->wState == 56)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(!(wrapperData->isDebugging == 0))
         log_printf(-1, 1, L"wrapperPauseProcess() called while stopping.  (IGNORED)");
@@ -22079,9 +22079,9 @@ extern void wrapperPingResponded(unsigned int pingSendTicks, signed int queueWar
   signed int tickAge;
   struct PendingPing *pendingPing;
   signed int pingSearchDone;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   do
   {
     pendingPing = wrapperData->firstPendingPing;
@@ -22093,11 +22093,11 @@ extern void wrapperPingResponded(unsigned int pingSendTicks, signed int queueWar
         if(!(queueWarnings == 0))
         {
           if(wrapperData->pendingPingQueueOverflow == 0)
-            tmp_if_expr$1 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
             log_printf(-1, 5, L"Received an unexpected ping response, sent at tick %08x.  First expected ping was sent at tick %08x.", pingSendTicks, pendingPing->sentTicks);
 
         }
@@ -22113,11 +22113,11 @@ extern void wrapperPingResponded(unsigned int pingSendTicks, signed int queueWar
           if(!(queueWarnings == 0))
           {
             if(wrapperData->pendingPingQueueOverflow == 0)
-              tmp_if_expr$2 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
               log_printf(-1, 5, L"Lost a ping response, sent at tick %08x.", pendingPing->sentTicks);
 
           }
@@ -22169,11 +22169,11 @@ extern void wrapperPingResponded(unsigned int pingSendTicks, signed int queueWar
       if(!(queueWarnings == 0))
       {
         if(wrapperData->pendingPingQueueOverflow == 0)
-          tmp_if_expr$3 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = !(wrapperData->pendingPingQueueOverflowEmptied != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
           log_printf(-1, 5, L"Received an unexpected ping response, sent at tick %08x.", pingSendTicks);
 
       }
@@ -22237,12 +22237,12 @@ extern signed int * wrapperPostProcessCommandElement(signed int *command)
   signed int *tempCommand;
   unsigned long int index;
   pos1=wcsstr(command, L"%WRAPPER_COMMAND_FILLER_");
-  signed long int tmp_if_expr$3;
-  signed long int return_value_wcstol$2;
-  signed long int tmp_if_expr$7;
-  signed long int return_value_wcstol$4;
-  signed long int tmp_if_expr$6;
-  signed long int return_value_wcstol$5;
+  signed long int tmp_if_expr_3;
+  signed long int return_value_wcstol_2;
+  signed long int tmp_if_expr_7;
+  signed long int return_value_wcstol_4;
+  signed long int tmp_if_expr_6;
+  signed long int return_value_wcstol_5;
   if(pos1 == ((signed int *)NULL))
     return command;
 
@@ -22263,37 +22263,37 @@ extern signed int * wrapperPostProcessCommandElement(signed int *command)
       {
         memcpy((void *)commandLenBuffer, (const void *)(pos1 + (signed long int)24), sizeof(signed int) /*4ul*/  * commandLenLen);
         commandLenBuffer[(signed long int)commandLenLen] = 0;
-        signed long int return_value_wcstol$1;
-        return_value_wcstol$1=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
-        if(!(return_value_wcstol$1 >= 9999999l))
+        signed long int return_value_wcstol_1;
+        return_value_wcstol_1=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
+        if(!(return_value_wcstol_1 >= 9999999l))
         {
-          return_value_wcstol$2=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
-          tmp_if_expr$3 = return_value_wcstol$2;
+          return_value_wcstol_2=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
+          tmp_if_expr_3 = return_value_wcstol_2;
         }
 
         else
-          tmp_if_expr$3 = (signed long int)9999999;
-        if(!(tmp_if_expr$3 >= (signed long int)((signed int)commandLen + -((signed int)commandLenLen) + -25)))
-          tmp_if_expr$7 = (signed long int)((signed int)(commandLen - commandLenLen) - 25);
+          tmp_if_expr_3 = (signed long int)9999999;
+        if(!(tmp_if_expr_3 >= (signed long int)((signed int)commandLen + -((signed int)commandLenLen) + -25)))
+          tmp_if_expr_7 = (signed long int)((signed int)(commandLen - commandLenLen) - 25);
 
         else
         {
-          return_value_wcstol$4=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
-          if(!(return_value_wcstol$4 >= 9999999l))
+          return_value_wcstol_4=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
+          if(!(return_value_wcstol_4 >= 9999999l))
           {
-            return_value_wcstol$5=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
-            tmp_if_expr$6 = return_value_wcstol$5;
+            return_value_wcstol_5=wcstol(commandLenBuffer, (signed int ** restrict )(void *)0, 10);
+            tmp_if_expr_6 = return_value_wcstol_5;
           }
 
           else
-            tmp_if_expr$6 = (signed long int)9999999;
-          tmp_if_expr$7 = tmp_if_expr$6;
+            tmp_if_expr_6 = (signed long int)9999999;
+          tmp_if_expr_7 = tmp_if_expr_6;
         }
-        commandLen2 = (unsigned long int)tmp_if_expr$7;
+        commandLen2 = (unsigned long int)tmp_if_expr_7;
         fillerLen = (commandLen2 - commandLen) + commandLenLen + (unsigned long int)25;
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc(sizeof(signed int) /*4ul*/  * (((commandLen - commandLenLen) - (unsigned long int)25) + fillerLen + (unsigned long int)1));
-        tempCommand = (signed int *)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc(sizeof(signed int) /*4ul*/  * (((commandLen - commandLenLen) - (unsigned long int)25) + fillerLen + (unsigned long int)1));
+        tempCommand = (signed int *)return_value_malloc_8;
         if(tempCommand == ((signed int *)NULL))
         {
           outOfMemory(L"WBJC", 3);
@@ -22307,12 +22307,12 @@ extern signed int * wrapperPostProcessCommandElement(signed int *command)
           if(fillerLen >= 12ul)
           {
             _sntprintf(&tempCommand[(signed long int)index], (commandLen2 + (unsigned long int)1) - index, L"FILL-%d-", fillerLen);
-            unsigned long int return_value_wcslen$9;
-            return_value_wcslen$9=wcslen(&tempCommand[(signed long int)index]);
-            fillerLen = fillerLen - return_value_wcslen$9;
-            unsigned long int return_value_wcslen$10;
-            return_value_wcslen$10=wcslen(&tempCommand[(signed long int)index]);
-            index = index + return_value_wcslen$10;
+            unsigned long int return_value_wcslen_9;
+            return_value_wcslen_9=wcslen(&tempCommand[(signed long int)index]);
+            fillerLen = fillerLen - return_value_wcslen_9;
+            unsigned long int return_value_wcslen_10;
+            return_value_wcslen_10=wcslen(&tempCommand[(signed long int)index]);
+            index = index + return_value_wcslen_10;
           }
 
           for( ; fillerLen >= 2ul; fillerLen = fillerLen - 1ul)
@@ -22327,9 +22327,9 @@ extern signed int * wrapperPostProcessCommandElement(signed int *command)
             fillerLen = fillerLen - 1ul;
           }
 
-          unsigned long int return_value_wcslen$11;
-          return_value_wcslen$11=wcslen(pos2 + (signed long int)1);
-          memcpy((void *)&tempCommand[(signed long int)index], (const void *)(pos2 + (signed long int)1), sizeof(signed int) /*4ul*/  * return_value_wcslen$11);
+          unsigned long int return_value_wcslen_11;
+          return_value_wcslen_11=wcslen(pos2 + (signed long int)1);
+          memcpy((void *)&tempCommand[(signed long int)index], (const void *)(pos2 + (signed long int)1), sizeof(signed int) /*4ul*/  * return_value_wcslen_11);
           tempCommand[(signed long int)commandLen2] = 0;
           free((void *)command);
           return tempCommand;
@@ -22345,7 +22345,7 @@ extern void wrapperProcessActionList(signed int *actionList, const signed int *t
 {
   signed int i;
   signed int action;
-  const signed int *return_value_wrapperGetRestartProcessMessage$1;
+  const signed int *return_value_wrapperGetRestartProcessMessage_1;
   if(!(actionList == ((signed int *)NULL)))
   {
     i = 0;
@@ -22385,8 +22385,8 @@ extern void wrapperProcessActionList(signed int *actionList, const signed int *t
 
       else
       {
-        return_value_wrapperGetRestartProcessMessage$1=wrapperGetRestartProcessMessage();
-        log_printf(-1, 3, L"%s  %s", triggerMsg, return_value_wrapperGetRestartProcessMessage$1);
+        return_value_wrapperGetRestartProcessMessage_1=wrapperGetRestartProcessMessage();
+        log_printf(-1, 3, L"%s  %s", triggerMsg, return_value_wrapperGetRestartProcessMessage_1);
         wrapperRestartProcess();
         goto __CPROVER_DUMP_L13;
 
@@ -22475,18 +22475,18 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
   signed int returnVal = 0;
   signed int ok = -1;
   unsigned long int sent;
-  signed int return_value_lockProtocolMutex$1;
-  return_value_lockProtocolMutex$1=lockProtocolMutex();
-  unsigned long int tmp_if_expr$7;
-  unsigned long int return_value_strlen$6;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$25;
-  int *tmp_if_expr$11;
-  _Bool tmp_if_expr$15;
-  signed int *return_value_wcsstr$14;
-  int *tmp_if_expr$13;
-  if(!(return_value_lockProtocolMutex$1 == 0))
+  signed int return_value_lockProtocolMutex_1;
+  return_value_lockProtocolMutex_1=lockProtocolMutex();
+  unsigned long int tmp_if_expr_7;
+  unsigned long int return_value_strlen_6;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_25;
+  int *tmp_if_expr_11;
+  _Bool tmp_if_expr_15;
+  signed int *return_value_wcsstr_14;
+  int *tmp_if_expr_13;
+  if(!(return_value_lockProtocolMutex_1 == 0))
     return -1;
 
   else
@@ -22498,18 +22498,18 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
         len=wcstombs((char *)(void *)0, messageW, (unsigned long int)0);
         if(len == 18446744073709551615ul)
         {
-          const signed int *return_value_getLastErrorText$2;
-          return_value_getLastErrorText$2=getLastErrorText();
-          log_printf(-2, 4, L"Invalid multibyte sequence in %s \"%s\" : %s", (const void *)L"protocol message", messageW, return_value_getLastErrorText$2);
+          const signed int *return_value_getLastErrorText_2;
+          return_value_getLastErrorText_2=getLastErrorText();
+          log_printf(-2, 4, L"Invalid multibyte sequence in %s \"%s\" : %s", (const void *)L"protocol message", messageW, return_value_getLastErrorText_2);
           returnVal = -1;
           ok = 0;
         }
 
         else
         {
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc(len + (unsigned long int)1);
-          messageMB = (char *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc(len + (unsigned long int)1);
+          messageMB = (char *)return_value_malloc_3;
           if(messageMB == ((char *)NULL))
           {
             outOfMemory(L"WPF", 3);
@@ -22529,12 +22529,12 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
     if(function == 's')
     {
       messageTemplate = L"(Property Values, Size=%d)";
-      unsigned long int return_value_wcslen$4;
-      return_value_wcslen$4=wcslen(messageTemplate);
-      len = return_value_wcslen$4 + (unsigned long int)16 + (unsigned long int)1;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(sizeof(signed int) /*4ul*/  * len);
-      logMsgW = (signed int *)return_value_malloc$5;
+      unsigned long int return_value_wcslen_4;
+      return_value_wcslen_4=wcslen(messageTemplate);
+      len = return_value_wcslen_4 + (unsigned long int)16 + (unsigned long int)1;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(sizeof(signed int) /*4ul*/  * len);
+      logMsgW = (signed int *)return_value_malloc_5;
       if(logMsgW == ((signed int *)NULL))
       {
         outOfMemory(L"WPF", 1);
@@ -22545,13 +22545,13 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
       {
         if(!(messageMB == ((char *)NULL)))
         {
-          return_value_strlen$6=strlen(messageMB);
-          tmp_if_expr$7 = return_value_strlen$6;
+          return_value_strlen_6=strlen(messageMB);
+          tmp_if_expr_7 = return_value_strlen_6;
         }
 
         else
-          tmp_if_expr$7 = (unsigned long int)0;
-        _sntprintf(logMsgW, len, messageTemplate, tmp_if_expr$7);
+          tmp_if_expr_7 = (unsigned long int)0;
+        _sntprintf(logMsgW, len, messageTemplate, tmp_if_expr_7);
       }
     }
 
@@ -22561,9 +22561,9 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
     {
       if(!(messageMB == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(messageMB);
-        len = (unsigned long int)1 + return_value_strlen$8 + (unsigned long int)1;
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(messageMB);
+        len = (unsigned long int)1 + return_value_strlen_8 + (unsigned long int)1;
       }
 
       else
@@ -22573,9 +22573,9 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
         if(!(protocolSendBuffer == ((char *)NULL)))
           free((void *)protocolSendBuffer);
 
-        void *return_value_malloc$9;
-        return_value_malloc$9=malloc(sizeof(char) /*1ul*/  * len);
-        protocolSendBuffer = (char *)return_value_malloc$9;
+        void *return_value_malloc_9;
+        return_value_malloc_9=malloc(sizeof(char) /*1ul*/  * len);
+        protocolSendBuffer = (char *)return_value_malloc_9;
         if(protocolSendBuffer == ((char *)NULL))
         {
           outOfMemory(L"WPF", 4);
@@ -22602,34 +22602,34 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
     if(!(ok == 0))
     {
       if(protocolActiveBackendSD == -1)
-        tmp_if_expr$24 = wrapperData->backendType == (0x01 | 0x02) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_24 = wrapperData->backendType == (0x01 | 0x02) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$24 = (_Bool)0;
-      if(tmp_if_expr$24)
-        tmp_if_expr$26 = (_Bool)1;
+        tmp_if_expr_24 = (_Bool)0;
+      if(tmp_if_expr_24)
+        tmp_if_expr_26 = (_Bool)1;
 
       else
       {
         if(protocolActiveServerPipeConnected == 0)
-          tmp_if_expr$25 = wrapperData->backendType == 0x04 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_25 = wrapperData->backendType == 0x04 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$25 = (_Bool)0;
-        tmp_if_expr$26 = tmp_if_expr$25 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_25 = (_Bool)0;
+        tmp_if_expr_26 = tmp_if_expr_25 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$26)
+      if(tmp_if_expr_26)
       {
         if(!(wrapperData->isDebugging == 0))
         {
-          signed int *return_value_wrapperProtocolGetCodeName$10;
-          return_value_wrapperProtocolGetCodeName$10=wrapperProtocolGetCodeName(function);
+          signed int *return_value_wrapperProtocolGetCodeName_10;
+          return_value_wrapperProtocolGetCodeName_10=wrapperProtocolGetCodeName(function);
           if(logMsgW == ((signed int *)NULL))
-            tmp_if_expr$11 = L"NULL";
+            tmp_if_expr_11 = L"NULL";
 
           else
-            tmp_if_expr$11 = logMsgW;
-          log_printf(-2, 1, L"Socket not open, so packet not sent %s : %s", return_value_wrapperProtocolGetCodeName$10, tmp_if_expr$11);
+            tmp_if_expr_11 = logMsgW;
+          log_printf(-2, 1, L"Socket not open, so packet not sent %s : %s", return_value_wrapperProtocolGetCodeName_10, tmp_if_expr_11);
         }
 
         returnVal = -1;
@@ -22641,22 +22641,22 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
         {
           if(function == 'g' && !(messageW == ((const signed int *)NULL)))
           {
-            return_value_wcsstr$14=wcsstr(messageW, L"silent");
-            tmp_if_expr$15 = return_value_wcsstr$14 == messageW ? (_Bool)1 : (_Bool)0;
+            return_value_wcsstr_14=wcsstr(messageW, L"silent");
+            tmp_if_expr_15 = return_value_wcsstr_14 == messageW ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$15 = (_Bool)0;
-          if(!tmp_if_expr$15)
+            tmp_if_expr_15 = (_Bool)0;
+          if(!tmp_if_expr_15)
           {
-            signed int *return_value_wrapperProtocolGetCodeName$12;
-            return_value_wrapperProtocolGetCodeName$12=wrapperProtocolGetCodeName(function);
+            signed int *return_value_wrapperProtocolGetCodeName_12;
+            return_value_wrapperProtocolGetCodeName_12=wrapperProtocolGetCodeName(function);
             if(logMsgW == ((signed int *)NULL))
-              tmp_if_expr$13 = L"NULL";
+              tmp_if_expr_13 = L"NULL";
 
             else
-              tmp_if_expr$13 = logMsgW;
-            log_printf(-2, 1, L"Send a packet %s : %s", return_value_wrapperProtocolGetCodeName$12, tmp_if_expr$13);
+              tmp_if_expr_13 = logMsgW;
+            log_printf(-2, 1, L"Send a packet %s : %s", return_value_wrapperProtocolGetCodeName_12, tmp_if_expr_13);
           }
 
         }
@@ -22671,16 +22671,16 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
             if(cnt >= 1)
               wrapperSleep(10);
 
-            signed long int return_value_write$18;
-            return_value_write$18=write(protocolActiveServerPipeOut, (const void *)(protocolSendBuffer + (signed long int)sent), sizeof(char) /*1ul*/  * (unsigned long int)(signed int)(len - sent));
-            inWritten = (signed int)return_value_write$18;
+            signed long int return_value_write_18;
+            return_value_write_18=write(protocolActiveServerPipeOut, (const void *)(protocolSendBuffer + (signed long int)sent), sizeof(char) /*1ul*/  * (unsigned long int)(signed int)(len - sent));
+            inWritten = (signed int)return_value_write_18;
             if(inWritten == -1)
             {
-              signed int return_value_wrapperGetLastError$16;
-              return_value_wrapperGetLastError$16=wrapperGetLastError();
-              const signed int *return_value_getLastErrorText$17;
-              return_value_getLastErrorText$17=getLastErrorText();
-              log_printf(-2, 6, L"Writing to the backend pipe failed (%d): %s", return_value_wrapperGetLastError$16, return_value_getLastErrorText$17);
+              signed int return_value_wrapperGetLastError_16;
+              return_value_wrapperGetLastError_16=wrapperGetLastError();
+              const signed int *return_value_getLastErrorText_17;
+              return_value_getLastErrorText_17=getLastErrorText();
+              log_printf(-2, 6, L"Writing to the backend pipe failed (%d): %s", return_value_wrapperGetLastError_16, return_value_getLastErrorText_17);
               returnVal = -1;
               break;
             }
@@ -22718,14 +22718,14 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
             if(cnt >= 1)
               wrapperSleep(10);
 
-            signed long int return_value_send$19;
-            return_value_send$19=send(protocolActiveBackendSD, (const void *)(protocolSendBuffer + (signed long int)sent), sizeof(char) /*1ul*/  * (unsigned long int)(signed int)(len - sent), 0);
-            rc = (signed int)return_value_send$19;
+            signed long int return_value_send_19;
+            return_value_send_19=send(protocolActiveBackendSD, (const void *)(protocolSendBuffer + (signed long int)sent), sizeof(char) /*1ul*/  * (unsigned long int)(signed int)(len - sent), 0);
+            rc = (signed int)return_value_send_19;
             if(rc == -1)
             {
-              signed int return_value_wrapperGetLastError$20;
-              return_value_wrapperGetLastError$20=wrapperGetLastError();
-              if(!(return_value_wrapperGetLastError$20 == 11))
+              signed int return_value_wrapperGetLastError_20;
+              return_value_wrapperGetLastError_20=wrapperGetLastError();
+              if(!(return_value_wrapperGetLastError_20 == 11))
                 break;
 
             }
@@ -22753,21 +22753,21 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
           }
           if(rc == -1)
           {
-            signed int return_value_wrapperGetLastError$23;
-            return_value_wrapperGetLastError$23=wrapperGetLastError();
-            if(return_value_wrapperGetLastError$23 == 11)
+            signed int return_value_wrapperGetLastError_23;
+            return_value_wrapperGetLastError_23=wrapperGetLastError();
+            if(return_value_wrapperGetLastError_23 == 11)
             {
-              const signed int *return_value_getLastErrorText$21;
-              return_value_getLastErrorText$21=getLastErrorText();
-              log_printf(-2, 4, L"Socket send failed.  Blocked for 2 seconds.  %s", return_value_getLastErrorText$21);
+              const signed int *return_value_getLastErrorText_21;
+              return_value_getLastErrorText_21=getLastErrorText();
+              log_printf(-2, 4, L"Socket send failed.  Blocked for 2 seconds.  %s", return_value_getLastErrorText_21);
             }
 
             else
               if(!(wrapperData->isDebugging == 0))
               {
-                const signed int *return_value_getLastErrorText$22;
-                return_value_getLastErrorText$22=getLastErrorText();
-                log_printf(-2, 1, L"Socket send failed.  %s", return_value_getLastErrorText$22);
+                const signed int *return_value_getLastErrorText_22;
+                return_value_getLastErrorText_22=getLastErrorText();
+                log_printf(-2, 1, L"Socket send failed.  %s", return_value_getLastErrorText_22);
               }
 
             wrapperProtocolClose();
@@ -22790,9 +22790,9 @@ extern signed int wrapperProtocolFunction(char function, const signed int *messa
     if(!(logMsgW == messageW))
       free((void *)logMsgW);
 
-    signed int return_value_releaseProtocolMutex$27;
-    return_value_releaseProtocolMutex$27=releaseProtocolMutex();
-    if(!(return_value_releaseProtocolMutex$27 == 0))
+    signed int return_value_releaseProtocolMutex_27;
+    return_value_releaseProtocolMutex_27=releaseProtocolMutex();
+    if(!(return_value_releaseProtocolMutex_27 == 0))
       returnVal = -1;
 
     return returnVal;
@@ -23052,13 +23052,13 @@ extern signed int wrapperProtocolRead()
   startTime = now;
   nowMillis = (signed int)timeBuffer.millitm;
   startTimeMillis = nowMillis;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$13;
-  signed int *return_value_wcsstr$12;
-  signed long int return_value_wcstol$14;
-  signed long int return_value_wcstol$17;
-  signed long int return_value_wcstol$18;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_13;
+  signed int *return_value_wcsstr_12;
+  signed long int return_value_wcstol_14;
+  signed long int return_value_wcstol_17;
+  signed long int return_value_wcstol_18;
   do
   {
     durr = (now - startTime) * (signed long int)1000 + (signed long int)(nowMillis - startTimeMillis);
@@ -23066,33 +23066,33 @@ extern signed int wrapperProtocolRead()
       break;
 
     if(protocolActiveBackendSD == -1 && !((3 & wrapperData->backendType) == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeConnected == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeConnected == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      signed int return_value_wrapperCheckServerBackend$1;
-      return_value_wrapperCheckServerBackend$1=wrapperCheckServerBackend(0);
-      if(return_value_wrapperCheckServerBackend$1 == 0)
+      signed int return_value_wrapperCheckServerBackend_1;
+      return_value_wrapperCheckServerBackend_1=wrapperCheckServerBackend(0);
+      if(return_value_wrapperCheckServerBackend_1 == 0)
         return 0;
 
       protocolOpen();
       if(protocolActiveBackendSD == -1 && !((3 & wrapperData->backendType) == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeConnected == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (wrapperData->backendType == 0x04 ? (protocolActiveServerPipeConnected == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return 0;
 
     }
 
     if(!((3 & wrapperData->backendType) == 0))
     {
-      signed long int return_value_recv$4;
-      return_value_recv$4=recv(protocolActiveBackendSD, (void *)&c, (unsigned long int)1, 0);
-      len = (signed int)return_value_recv$4;
+      signed long int return_value_recv_4;
+      return_value_recv_4=recv(protocolActiveBackendSD, (void *)&c, (unsigned long int)1, 0);
+      len = (signed int)return_value_recv_4;
       if(len == -1)
       {
         err=wrapperGetLastError();
@@ -23100,9 +23100,9 @@ extern signed int wrapperProtocolRead()
         {
           if(!(wrapperData->isDebugging == 0))
           {
-            const signed int *return_value_getLastErrorText$5;
-            return_value_getLastErrorText$5=getLastErrorText();
-            log_printf(-2, 1, L"socket read failed. (%s)", return_value_getLastErrorText$5);
+            const signed int *return_value_getLastErrorText_5;
+            return_value_getLastErrorText_5=getLastErrorText();
+            log_printf(-2, 1, L"socket read failed. (%s)", return_value_getLastErrorText_5);
           }
 
           wrapperProtocolClose();
@@ -23125,9 +23125,9 @@ extern signed int wrapperProtocolRead()
       pos = 0;
       do
       {
-        signed long int return_value_recv$6;
-        return_value_recv$6=recv(protocolActiveBackendSD, (void *)&c, (unsigned long int)1, 0);
-        len = (signed int)return_value_recv$6;
+        signed long int return_value_recv_6;
+        return_value_recv_6=recv(protocolActiveBackendSD, (void *)&c, (unsigned long int)1, 0);
+        len = (signed int)return_value_recv_6;
         if(len == 1)
         {
           if((signed int)c == 0)
@@ -23152,9 +23152,9 @@ extern signed int wrapperProtocolRead()
     else
       if(wrapperData->backendType == 0x04)
       {
-        signed long int return_value_read$7;
-        return_value_read$7=read(protocolActiveServerPipeIn, (void *)&c, (unsigned long int)1);
-        len = (signed int)return_value_read$7;
+        signed long int return_value_read_7;
+        return_value_read_7=read(protocolActiveServerPipeIn, (void *)&c, (unsigned long int)1);
+        len = (signed int)return_value_read_7;
         if(len == -1)
         {
           err=wrapperGetLastError();
@@ -23162,9 +23162,9 @@ extern signed int wrapperProtocolRead()
           {
             if(!(wrapperData->isDebugging == 0))
             {
-              const signed int *return_value_getLastErrorText$8;
-              return_value_getLastErrorText$8=getLastErrorText();
-              log_printf(-2, 1, L"pipe read failed. (%s)", return_value_getLastErrorText$8);
+              const signed int *return_value_getLastErrorText_8;
+              return_value_getLastErrorText_8=getLastErrorText();
+              log_printf(-2, 1, L"pipe read failed. (%s)", return_value_getLastErrorText_8);
             }
 
             wrapperProtocolClose();
@@ -23181,9 +23181,9 @@ extern signed int wrapperProtocolRead()
         pos = 0;
         do
         {
-          signed long int return_value_read$9;
-          return_value_read$9=read(protocolActiveServerPipeIn, (void *)&c, (unsigned long int)1);
-          len = (signed int)return_value_read$9;
+          signed long int return_value_read_9;
+          return_value_read_9=read(protocolActiveServerPipeIn, (void *)&c, (unsigned long int)1);
+          len = (signed int)return_value_read_9;
           if(len == 1)
           {
             if((signed int)c == 0)
@@ -23210,9 +23210,9 @@ extern signed int wrapperProtocolRead()
     req=mbstowcs(packetBufferW, packetBufferMB, (unsigned long int)(4096 + 1));
     if(req == 18446744073709551615ul)
     {
-      const signed int *return_value_getLastErrorText$10;
-      return_value_getLastErrorText$10=getLastErrorText();
-      log_printf(-2, 4, L"Invalid multibyte sequence in %s: %s", (const void *)L"protocol message", return_value_getLastErrorText$10);
+      const signed int *return_value_getLastErrorText_10;
+      return_value_getLastErrorText_10=getLastErrorText();
+      log_printf(-2, 4, L"Invalid multibyte sequence in %s: %s", (const void *)L"protocol message", return_value_getLastErrorText_10);
       packetBufferW[(signed long int)0] = 0;
     }
 
@@ -23220,17 +23220,17 @@ extern signed int wrapperProtocolRead()
     {
       if(code == 'g')
       {
-        return_value_wcsstr$12=wcsstr(packetBufferW, L"silent");
-        tmp_if_expr$13 = return_value_wcsstr$12 == packetBufferW ? (_Bool)1 : (_Bool)0;
+        return_value_wcsstr_12=wcsstr(packetBufferW, L"silent");
+        tmp_if_expr_13 = return_value_wcsstr_12 == packetBufferW ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      if(!tmp_if_expr$13)
+        tmp_if_expr_13 = (_Bool)0;
+      if(!tmp_if_expr_13)
       {
-        signed int *return_value_wrapperProtocolGetCodeName$11;
-        return_value_wrapperProtocolGetCodeName$11=wrapperProtocolGetCodeName(code);
-        log_printf(-2, 1, L"read a packet %s : %s", return_value_wrapperProtocolGetCodeName$11, (const void *)packetBufferW);
+        signed int *return_value_wrapperProtocolGetCodeName_11;
+        return_value_wrapperProtocolGetCodeName_11=wrapperProtocolGetCodeName(code);
+        log_printf(-2, 1, L"read a packet %s : %s", return_value_wrapperProtocolGetCodeName_11, (const void *)packetBufferW);
       }
 
     }
@@ -23268,8 +23268,8 @@ extern signed int wrapperProtocolRead()
 
     else
     {
-      return_value_wcstol$14=wcstol(packetBufferW, (signed int ** restrict )(void *)0, 10);
-      wrapperStopRequested((signed int)return_value_wcstol$14);
+      return_value_wcstol_14=wcstol(packetBufferW, (signed int ** restrict )(void *)0, 10);
+      wrapperStopRequested((signed int)return_value_wcstol_14);
       goto __CPROVER_DUMP_L50;
 
     __CPROVER_DUMP_L37:
@@ -23282,23 +23282,23 @@ extern signed int wrapperProtocolRead()
       tc=wcschr(packetBufferW, 32);
       if(!(tc == ((signed int *)NULL)))
       {
-        unsigned int return_value_hexToTICKS$15;
-        return_value_hexToTICKS$15=hexToTICKS(&tc[(signed long int)1]);
-        wrapperPingResponded(return_value_hexToTICKS$15, -1);
+        unsigned int return_value_hexToTICKS_15;
+        return_value_hexToTICKS_15=hexToTICKS(&tc[(signed long int)1]);
+        wrapperPingResponded(return_value_hexToTICKS_15, -1);
       }
 
       else
       {
-        unsigned int return_value_wrapperGetTicks$16;
-        return_value_wrapperGetTicks$16=wrapperGetTicks();
-        wrapperPingResponded(return_value_wrapperGetTicks$16, 0);
+        unsigned int return_value_wrapperGetTicks_16;
+        return_value_wrapperGetTicks_16=wrapperGetTicks();
+        wrapperPingResponded(return_value_wrapperGetTicks_16, 0);
       }
       goto __CPROVER_DUMP_L50;
 
     __CPROVER_DUMP_L41:
       ;
-      return_value_wcstol$17=wcstol(packetBufferW, (signed int ** restrict )(void *)0, 10);
-      wrapperStopPendingSignaled((signed int)return_value_wcstol$17);
+      return_value_wcstol_17=wcstol(packetBufferW, (signed int ** restrict )(void *)0, 10);
+      wrapperStopPendingSignaled((signed int)return_value_wcstol_17);
       goto __CPROVER_DUMP_L50;
 
     __CPROVER_DUMP_L42:
@@ -23308,8 +23308,8 @@ extern signed int wrapperProtocolRead()
 
     __CPROVER_DUMP_L43:
       ;
-      return_value_wcstol$18=wcstol(packetBufferW, (signed int ** restrict )(void *)0, 10);
-      wrapperStartPendingSignaled((signed int)return_value_wcstol$18);
+      return_value_wcstol_18=wcstol(packetBufferW, (signed int ** restrict )(void *)0, 10);
+      wrapperStartPendingSignaled((signed int)return_value_wcstol_18);
       goto __CPROVER_DUMP_L50;
 
     __CPROVER_DUMP_L44:
@@ -23364,7 +23364,7 @@ extern unsigned long int wrapperQuoteValue(const signed int *value, signed int *
     buffer[(signed long int)out] = 34;
 
   out = out + 1ul;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(in >= len); in = in + 1ul)
   {
     if(value[(signed long int)in] == 0)
@@ -23379,11 +23379,11 @@ extern unsigned long int wrapperQuoteValue(const signed int *value, signed int *
           break;
 
       if(in2 >= len)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = value[(signed long int)in2] == 34 ? (_Bool)1 : (_Bool)0;
-      escape = (signed int)tmp_if_expr$1;
+        tmp_if_expr_1 = value[(signed long int)in2] == 34 ? (_Bool)1 : (_Bool)0;
+      escape = (signed int)tmp_if_expr_1;
     }
 
     else
@@ -23436,9 +23436,9 @@ extern signed int wrapperReadChildOutput(signed int maxTimeMS)
   signed int readThisPass = 0;
   if(wrapperChildWorkBuffer == ((char *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(1024 * 2 + 1));
-    wrapperChildWorkBuffer = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(1024 * 2 + 1));
+    wrapperChildWorkBuffer = (char *)return_value_malloc_1;
     if(wrapperChildWorkBuffer == ((char *)NULL))
     {
       outOfMemory(L"WRCO", 1);
@@ -23453,8 +23453,8 @@ extern signed int wrapperReadChildOutput(signed int maxTimeMS)
   startTime = now;
   nowMillis = (signed int)timeBuffer.millitm;
   startTimeMillis = nowMillis;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   while((_Bool)1)
   {
     if(maxTimeMS >= 1)
@@ -23468,9 +23468,9 @@ extern signed int wrapperReadChildOutput(signed int maxTimeMS)
     if(!(wrapperChildWorkBufferSize >= 1024ul + wrapperChildWorkBufferLen))
     {
       wrapperChildWorkBufferSize = wrapperChildWorkBufferLen + (unsigned long int)1 > (wrapperChildWorkBufferSize + (unsigned long int)1024 > wrapperChildWorkBufferSize + wrapperChildWorkBufferSize / (unsigned long int)10 ? wrapperChildWorkBufferSize + (unsigned long int)1024 : wrapperChildWorkBufferSize + wrapperChildWorkBufferSize / (unsigned long int)10) ? wrapperChildWorkBufferLen + (unsigned long int)1 : (wrapperChildWorkBufferSize + (unsigned long int)1024 > wrapperChildWorkBufferSize + wrapperChildWorkBufferSize / (unsigned long int)10 ? wrapperChildWorkBufferSize + (unsigned long int)1024 : wrapperChildWorkBufferSize + wrapperChildWorkBufferSize / (unsigned long int)10);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(wrapperChildWorkBufferSize + (unsigned long int)1);
-      tempBuffer = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(wrapperChildWorkBufferSize + (unsigned long int)1);
+      tempBuffer = (char *)return_value_malloc_2;
       if(tempBuffer == ((char *)NULL))
       {
         outOfMemory(L"WRCO", 2);
@@ -23483,9 +23483,9 @@ extern signed int wrapperReadChildOutput(signed int maxTimeMS)
       wrapperChildWorkBuffer = tempBuffer;
     }
 
-    signed int return_value_wrapperReadChildOutputBlock$3;
-    return_value_wrapperReadChildOutputBlock$3=wrapperReadChildOutputBlock(wrapperChildWorkBuffer + (signed long int)wrapperChildWorkBufferLen, (signed int)(wrapperChildWorkBufferSize - wrapperChildWorkBufferLen), &currentBlockRead);
-    if(!(return_value_wrapperReadChildOutputBlock$3 == 0))
+    signed int return_value_wrapperReadChildOutputBlock_3;
+    return_value_wrapperReadChildOutputBlock_3=wrapperReadChildOutputBlock(wrapperChildWorkBuffer + (signed long int)wrapperChildWorkBufferLen, (signed int)(wrapperChildWorkBufferSize - wrapperChildWorkBufferLen), &currentBlockRead);
+    if(!(return_value_wrapperReadChildOutputBlock_3 == 0))
       return 0;
 
     if(currentBlockRead >= 1)
@@ -23501,9 +23501,9 @@ extern signed int wrapperReadChildOutput(signed int maxTimeMS)
     defer = 0;
     while(defer == 0 && !(loggedOffset >= wrapperChildWorkBufferLen))
     {
-      char *return_value___builtin_strchr$4;
-      return_value___builtin_strchr$4=__builtin_strchr(wrapperChildWorkBuffer + (signed long int)loggedOffset, (signed int)(char)0x0a);
-      cLF = return_value___builtin_strchr$4;
+      char *return_value___builtin_strchr_4;
+      return_value___builtin_strchr_4=__builtin_strchr(wrapperChildWorkBuffer + (signed long int)loggedOffset, (signed int)(char)0x0a);
+      cLF = return_value___builtin_strchr_4;
       if(!(cLF == ((char *)NULL)))
       {
         cLF[(signed long int)0] = (char)0;
@@ -23514,16 +23514,16 @@ extern signed int wrapperReadChildOutput(signed int maxTimeMS)
       else
       {
         if(!(readThisPass == 0))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = wrapperData->logLFDelayThreshold == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_5 = wrapperData->logLFDelayThreshold == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (now - wrapperChildWorkLastDataTime) * (signed long int)1000 + (signed long int)(nowMillis - wrapperChildWorkLastDataTimeMillis) < (signed long int)wrapperData->logLFDelayThreshold ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (now - wrapperChildWorkLastDataTime) * (signed long int)1000 + (signed long int)(nowMillis - wrapperChildWorkLastDataTimeMillis) < (signed long int)wrapperData->logLFDelayThreshold ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
           defer = -1;
 
         else
@@ -23576,20 +23576,20 @@ extern signed int wrapperReadChildOutputBlock(char *blockBuffer, signed int bloc
 
   else
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(pipedes[(signed long int)0], (void *)blockBuffer, (unsigned long int)blockSize);
-    *readCount = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(pipedes[(signed long int)0], (void *)blockBuffer, (unsigned long int)blockSize);
+    *readCount = (signed int)return_value_read_1;
     if(!(*readCount >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 11))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 11))
       {
-        const signed int *return_value_getLastErrorText$2;
-        return_value_getLastErrorText$2=getLastErrorText();
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        log_printf(-1, 5, L"Failed to read console output from the JVM: %s (%d)", return_value_getLastErrorText$2, *return_value___errno_location$3);
+        const signed int *return_value_getLastErrorText_2;
+        return_value_getLastErrorText_2=getLastErrorText();
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        log_printf(-1, 5, L"Failed to read console output from the JVM: %s (%d)", return_value_getLastErrorText_2, *return_value___errno_location_3);
         return -1;
       }
 
@@ -23610,13 +23610,13 @@ extern signed int wrapperReadChildOutputBlock(char *blockBuffer, signed int bloc
 // file wrapper.c line 8331
 extern signed int wrapperReleaseTickMutex()
 {
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&tickMutex);
-  if(!(return_value_pthread_mutex_unlock$2 == 0))
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&tickMutex);
+  if(!(return_value_pthread_mutex_unlock_2 == 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    _tprintf(L"Failed to unlock the tick mutex. %s\n", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    _tprintf(L"Failed to unlock the tick mutex. %s\n", return_value_getLastErrorText_1);
     return -1;
   }
 
@@ -23635,13 +23635,13 @@ extern void wrapperReportStatus(signed int useLoggerQueue, signed int status, si
 extern void wrapperRequestDumpJVMState()
 {
   log_printf(-1, 3, L"Dumping JVM state.");
-  signed int return_value_kill$2;
-  return_value_kill$2=kill(wrapperData->javaPID, 3);
-  if(!(return_value_kill$2 >= 0))
+  signed int return_value_kill_2;
+  return_value_kill_2=kill(wrapperData->javaPID, 3);
+  if(!(return_value_kill_2 >= 0))
   {
-    const signed int *return_value_getLastErrorText$1;
-    return_value_getLastErrorText$1=getLastErrorText();
-    log_printf(-1, 5, L"Could not dump JVM state: %s", return_value_getLastErrorText$1);
+    const signed int *return_value_getLastErrorText_1;
+    return_value_getLastErrorText_1=getLastErrorText();
+    log_printf(-1, 5, L"Could not dump JVM state: %s", return_value_getLastErrorText_1);
   }
 
 }
@@ -23659,67 +23659,67 @@ extern void wrapperRequestJVMGC(signed int actionSourceCode)
 // file wrapper.c line 4818
 extern void wrapperRestartProcess()
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(wrapperData->exitRequested == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = wrapperData->restartRequested != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_5 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_7 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_8 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_9 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$10)
+    tmp_if_expr_10 = wrapperData->jState == 73 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_10)
   {
     if(!(wrapperData->isDebugging == 0))
       log_printf(-1, 1, L"wrapperRestartProcess() called.  (IGNORED)");
@@ -23750,13 +23750,13 @@ extern void wrapperRestartRequested()
 extern void wrapperResumeProcess(signed int actionSourceCode)
 {
   signed int msgBuffer[10l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(wrapperData->wState == 56)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!(wrapperData->isDebugging == 0))
       log_printf(-1, 1, L"wrapperResumeProcess() called while stopping.  (IGNORED)");
@@ -23816,9 +23816,9 @@ signed int wrapperRunCommon(const signed int *runMode)
   exitCode=wrapperInitializeRun();
   if(exitCode == 0)
   {
-    signed int return_value_wrapperRunCommonInner$1;
-    return_value_wrapperRunCommonInner$1=wrapperRunCommonInner();
-    if(return_value_wrapperRunCommonInner$1 == 0)
+    signed int return_value_wrapperRunCommonInner_1;
+    return_value_wrapperRunCommonInner_1=wrapperRunCommonInner();
+    if(return_value_wrapperRunCommonInner_1 == 0)
     {
       wrapperEventLoop();
       wrapperProtocolClose();
@@ -23843,31 +23843,31 @@ signed int wrapperRunCommonInner()
   signed int *tz1;
   signed int *tz2;
   unsigned long int req;
-  signed int return_value_wrapperTickAssertions$1;
-  return_value_wrapperTickAssertions$1=wrapperTickAssertions();
-  signed int return_value_getBooleanProperty$8;
-  if(!(return_value_wrapperTickAssertions$1 == 0))
+  signed int return_value_wrapperTickAssertions_1;
+  return_value_wrapperTickAssertions_1=wrapperTickAssertions();
+  signed int return_value_getBooleanProperty_8;
+  if(!(return_value_wrapperTickAssertions_1 == 0))
     return 1;
 
   else
   {
     wrapperVersionBanner();
     prop=getStringProperty(properties, L"wrapper.license.type", L"");
-    signed int return_value_wcscasecmp$4;
-    return_value_wcscasecmp$4=wcscasecmp(prop, L"DEV");
-    if(return_value_wcscasecmp$4 == 0)
+    signed int return_value_wcscasecmp_4;
+    return_value_wcscasecmp_4=wcscasecmp(prop, L"DEV");
+    if(return_value_wcscasecmp_4 == 0)
     {
-      const signed int *return_value_getStringProperty$2;
-      return_value_getStringProperty$2=getStringProperty(properties, L"wrapper.license.licensee", L"(LICENSE INVALID)");
-      const signed int *return_value_getStringProperty$3;
-      return_value_getStringProperty$3=getStringProperty(properties, L"wrapper.license.dev_application", L"(LICENSE INVALID)");
-      log_printf(-1, 3, L"  Licensed to %s for %s", return_value_getStringProperty$2, return_value_getStringProperty$3);
+      const signed int *return_value_getStringProperty_2;
+      return_value_getStringProperty_2=getStringProperty(properties, L"wrapper.license.licensee", L"(LICENSE INVALID)");
+      const signed int *return_value_getStringProperty_3;
+      return_value_getStringProperty_3=getStringProperty(properties, L"wrapper.license.dev_application", L"(LICENSE INVALID)");
+      log_printf(-1, 3, L"  Licensed to %s for %s", return_value_getStringProperty_2, return_value_getStringProperty_3);
     }
 
     log_printf(-1, 3, L"");
-    signed int return_value_checkForTestWrapperScripts$5;
-    return_value_checkForTestWrapperScripts$5=checkForTestWrapperScripts();
-    if(!(return_value_checkForTestWrapperScripts$5 == 0))
+    signed int return_value_checkForTestWrapperScripts_5;
+    return_value_checkForTestWrapperScripts_5=checkForTestWrapperScripts();
+    if(!(return_value_checkForTestWrapperScripts_5 == 0))
       return 1;
 
     else
@@ -23883,9 +23883,9 @@ signed int wrapperRunCommonInner()
         if(req == 18446744073709551615ul)
           return 1;
 
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
-        tz1 = (signed int *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
+        tz1 = (signed int *)return_value_malloc_6;
         if(tz1 == ((signed int *)NULL))
           outOfMemory(L"LHN", 1);
 
@@ -23900,9 +23900,9 @@ signed int wrapperRunCommonInner()
             return 1;
           }
 
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
-          tz2 = (signed int *)return_value_malloc$7;
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc(sizeof(signed int) /*4ul*/  * (req + (unsigned long int)1));
+          tz2 = (signed int *)return_value_malloc_7;
           if(tz2 == ((signed int *)NULL))
           {
             outOfMemory(L"LHN", 2);
@@ -23925,15 +23925,15 @@ signed int wrapperRunCommonInner()
         }
       }
 
-      signed int return_value_getBooleanProperty$9;
-      return_value_getBooleanProperty$9=getBooleanProperty(properties, L"wrapper.environment.dump", 0);
-      if(!(return_value_getBooleanProperty$9 == 0))
+      signed int return_value_getBooleanProperty_9;
+      return_value_getBooleanProperty_9=getBooleanProperty(properties, L"wrapper.environment.dump", 0);
+      if(!(return_value_getBooleanProperty_9 == 0))
         dumpEnvironment(2);
 
       else
       {
-        return_value_getBooleanProperty$8=getBooleanProperty(properties, L"wrapper.debug", 0);
-        if(!(return_value_getBooleanProperty$8 == 0))
+        return_value_getBooleanProperty_8=getBooleanProperty(properties, L"wrapper.debug", 0);
+        if(!(return_value_getBooleanProperty_8 == 0))
           dumpEnvironment(1);
 
       }
@@ -23946,18 +23946,18 @@ signed int wrapperRunCommonInner()
 // file wrapper.c line 4702
 extern signed int wrapperRunConsole()
 {
-  signed int return_value_wrapperRunCommon$1;
-  return_value_wrapperRunCommon$1=wrapperRunCommon(L"Console");
-  return return_value_wrapperRunCommon$1;
+  signed int return_value_wrapperRunCommon_1;
+  return_value_wrapperRunCommon_1=wrapperRunCommon(L"Console");
+  return return_value_wrapperRunCommon_1;
 }
 
 // wrapperRunService
 // file wrapper.c line 4709
 extern signed int wrapperRunService()
 {
-  signed int return_value_wrapperRunCommon$1;
-  return_value_wrapperRunCommon$1=wrapperRunCommon(L"Daemon");
-  return return_value_wrapperRunCommon$1;
+  signed int return_value_wrapperRunCommon_1;
+  return_value_wrapperRunCommon_1=wrapperRunCommon(L"Daemon");
+  return return_value_wrapperRunCommon_1;
 }
 
 // wrapperSetJavaState
@@ -23966,11 +23966,11 @@ extern void wrapperSetJavaState(signed int jState, unsigned int nowTicks, signed
 {
   if(!(wrapperData->isStateOutputEnabled == 0))
   {
-    const signed int *return_value_wrapperGetJState$1;
-    return_value_wrapperGetJState$1=wrapperGetJState(wrapperData->jState);
-    const signed int *return_value_wrapperGetJState$2;
-    return_value_wrapperGetJState$2=wrapperGetJState(jState);
-    log_printf(-1, 3, L"      Set Java State %s -> %s", return_value_wrapperGetJState$1, return_value_wrapperGetJState$2);
+    const signed int *return_value_wrapperGetJState_1;
+    return_value_wrapperGetJState_1=wrapperGetJState(wrapperData->jState);
+    const signed int *return_value_wrapperGetJState_2;
+    return_value_wrapperGetJState_2=wrapperGetJState(jState);
+    log_printf(-1, 3, L"      Set Java State %s -> %s", return_value_wrapperGetJState_1, return_value_wrapperGetJState_2);
   }
 
   if(!(wrapperData->jState == jState))
@@ -23983,9 +23983,9 @@ extern void wrapperSetJavaState(signed int jState, unsigned int nowTicks, signed
   wrapperUpdateJavaStateTimeout(nowTicks, delay);
   if(!(wrapperData->javaStatusFilename == ((signed int *)NULL)))
   {
-    const signed int *return_value_wrapperGetJState$3;
-    return_value_wrapperGetJState$3=wrapperGetJState(wrapperData->jState);
-    writeStateFile(wrapperData->javaStatusFilename, return_value_wrapperGetJState$3, wrapperData->javaStatusFileUmask);
+    const signed int *return_value_wrapperGetJState_3;
+    return_value_wrapperGetJState_3=wrapperGetJState(wrapperData->jState);
+    writeStateFile(wrapperData->javaStatusFilename, return_value_wrapperGetJState_3, wrapperData->javaStatusFileUmask);
   }
 
 }
@@ -23995,15 +23995,15 @@ extern void wrapperSetJavaState(signed int jState, unsigned int nowTicks, signed
 extern signed int wrapperSetWorkingDir(const signed int *dir, signed int logErrors)
 {
   signed int showOutput = wrapperData->configured;
-  signed int return_value__tchdir$2;
-  return_value__tchdir$2=_tchdir(dir);
-  if(!(return_value__tchdir$2 == 0))
+  signed int return_value__tchdir_2;
+  return_value__tchdir_2=_tchdir(dir);
+  if(!(return_value__tchdir_2 == 0))
   {
     if(!(logErrors == 0))
     {
-      const signed int *return_value_getLastErrorText$1;
-      return_value_getLastErrorText$1=getLastErrorText();
-      log_printf(-1, 6, L"Unable to set working directory to: %s (%s)", dir, return_value_getLastErrorText$1);
+      const signed int *return_value_getLastErrorText_1;
+      return_value_getLastErrorText_1=getLastErrorText();
+      log_printf(-1, 6, L"Unable to set working directory to: %s (%s)", dir, return_value_getLastErrorText_1);
     }
 
     return -1;
@@ -24025,19 +24025,19 @@ extern void wrapperSetWrapperState(signed int wState)
 {
   if(!(wrapperData->isStateOutputEnabled == 0))
   {
-    const signed int *return_value_wrapperGetWState$1;
-    return_value_wrapperGetWState$1=wrapperGetWState(wrapperData->wState);
-    const signed int *return_value_wrapperGetWState$2;
-    return_value_wrapperGetWState$2=wrapperGetWState(wState);
-    log_printf(-1, 3, L"      Set Wrapper State %s -> %s", return_value_wrapperGetWState$1, return_value_wrapperGetWState$2);
+    const signed int *return_value_wrapperGetWState_1;
+    return_value_wrapperGetWState_1=wrapperGetWState(wrapperData->wState);
+    const signed int *return_value_wrapperGetWState_2;
+    return_value_wrapperGetWState_2=wrapperGetWState(wState);
+    log_printf(-1, 3, L"      Set Wrapper State %s -> %s", return_value_wrapperGetWState_1, return_value_wrapperGetWState_2);
   }
 
   wrapperData->wState = wState;
   if(!(wrapperData->statusFilename == ((signed int *)NULL)))
   {
-    const signed int *return_value_wrapperGetWState$3;
-    return_value_wrapperGetWState$3=wrapperGetWState(wrapperData->wState);
-    writeStateFile(wrapperData->statusFilename, return_value_wrapperGetWState$3, wrapperData->statusFileUmask);
+    const signed int *return_value_wrapperGetWState_3;
+    return_value_wrapperGetWState_3=wrapperGetWState(wrapperData->wState);
+    writeStateFile(wrapperData->statusFilename, return_value_wrapperGetWState_3, wrapperData->statusFileUmask);
   }
 
 }
@@ -24061,14 +24061,14 @@ extern signed int wrapperSleep(signed int ms)
   if(!(wrapperData->isSleepOutputEnabled == 0))
     log_printf(-1, 3, L"    Sleep: nanosleep %dms", ms);
 
-  signed int return_value_nanosleep$4;
-  return_value_nanosleep$4=nanosleep(&ts, (struct timespec *)(void *)0);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_nanosleep$4 == 0))
+  signed int return_value_nanosleep_4;
+  return_value_nanosleep_4=nanosleep(&ts, (struct timespec *)(void *)0);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_nanosleep_4 == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 4)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 4)
     {
       if(!(wrapperData->isSleepOutputEnabled == 0))
         log_printf(-1, 3, L"    Sleep: nanosleep interrupted");
@@ -24078,8 +24078,8 @@ extern signed int wrapperSleep(signed int ms)
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 11)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 11)
       {
         if(!(wrapperData->isSleepOutputEnabled == 0))
           log_printf(-1, 3, L"    Sleep: nanosleep unavailable");
@@ -24089,9 +24089,9 @@ extern signed int wrapperSleep(signed int ms)
 
       else
       {
-        const signed int *return_value_getLastErrorText$1;
-        return_value_getLastErrorText$1=getLastErrorText();
-        log_printf(-1, 5, L"nanosleep(%dms) failed. %s", ms, return_value_getLastErrorText$1);
+        const signed int *return_value_getLastErrorText_1;
+        return_value_getLastErrorText_1=getLastErrorText();
+        log_printf(-1, 5, L"nanosleep(%dms) failed. %s", ms, return_value_getLastErrorText_1);
       }
     }
   }
@@ -24109,22 +24109,22 @@ extern void wrapperStartPendingSignaled(signed int waitHint)
   if(!(wrapperData->isDebugging == 0))
     log_printf(-1, 1, L"JVM signaled a start pending with waitHint of %d millis.", waitHint);
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(wrapperData->jState == 78)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     if(!(waitHint >= 0))
       waitHint = 0;
 
-    unsigned int return_value_wrapperGetTicks$1;
-    return_value_wrapperGetTicks$1=wrapperGetTicks();
-    double return_value_ceil$2;
-    return_value_ceil$2=ceil((double)waitHint / 1000.0);
-    wrapperUpdateJavaStateTimeout(return_value_wrapperGetTicks$1, (signed int)return_value_ceil$2);
+    unsigned int return_value_wrapperGetTicks_1;
+    return_value_wrapperGetTicks_1=wrapperGetTicks();
+    double return_value_ceil_2;
+    return_value_ceil_2=ceil((double)waitHint / 1000.0);
+    wrapperUpdateJavaStateTimeout(return_value_wrapperGetTicks_1, (signed int)return_value_ceil_2);
   }
 
 }
@@ -24140,9 +24140,9 @@ extern void wrapperStartedSignaled()
   {
     if(wrapperData->pingTimeout >= 1)
     {
-      unsigned int return_value_wrapperGetTicks$1;
-      return_value_wrapperGetTicks$1=wrapperGetTicks();
-      wrapperSetJavaState(79, return_value_wrapperGetTicks$1, 5 + wrapperData->pingTimeout);
+      unsigned int return_value_wrapperGetTicks_1;
+      return_value_wrapperGetTicks_1=wrapperGetTicks();
+      wrapperSetJavaState(79, return_value_wrapperGetTicks_1, 5 + wrapperData->pingTimeout);
     }
 
     else
@@ -24190,11 +24190,11 @@ extern void wrapperStopPendingSignaled(signed int waitHint)
     if(!(waitHint >= 0))
       waitHint = 0;
 
-    unsigned int return_value_wrapperGetTicks$1;
-    return_value_wrapperGetTicks$1=wrapperGetTicks();
-    double return_value_ceil$2;
-    return_value_ceil$2=ceil((double)waitHint / 1000.0);
-    wrapperUpdateJavaStateTimeout(return_value_wrapperGetTicks$1, (signed int)return_value_ceil$2);
+    unsigned int return_value_wrapperGetTicks_1;
+    return_value_wrapperGetTicks_1=wrapperGetTicks();
+    double return_value_ceil_2;
+    return_value_ceil_2=ceil((double)waitHint / 1000.0);
+    wrapperUpdateJavaStateTimeout(return_value_wrapperGetTicks_1, (signed int)return_value_ceil_2);
   }
 
 }
@@ -24203,35 +24203,35 @@ extern void wrapperStopPendingSignaled(signed int waitHint)
 // file wrapper.c line 4728
 extern void wrapperStopProcess(signed int exitCode, signed int force)
 {
-  _Bool tmp_if_expr$14;
+  _Bool tmp_if_expr_14;
   if(wrapperData->wState == 56)
-    tmp_if_expr$14 = (_Bool)1;
+    tmp_if_expr_14 = (_Bool)1;
 
   else
-    tmp_if_expr$14 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
-  int *tmp_if_expr$1;
-  int *tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = wrapperData->wState == 57 ? (_Bool)1 : (_Bool)0;
+  int *tmp_if_expr_1;
+  int *tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  if(tmp_if_expr_14)
   {
     if(!(wrapperData->isDebugging == 0))
     {
       if(!(force == 0))
-        tmp_if_expr$1 = L"TRUE";
+        tmp_if_expr_1 = L"TRUE";
 
       else
-        tmp_if_expr$1 = L"FALSE";
-      log_printf(-1, 1, L"wrapperStopProcess(%d, %s) called while stopping.  (IGNORED)", exitCode, tmp_if_expr$1);
+        tmp_if_expr_1 = L"FALSE";
+      log_printf(-1, 1, L"wrapperStopProcess(%d, %s) called while stopping.  (IGNORED)", exitCode, tmp_if_expr_1);
     }
 
   }
@@ -24241,59 +24241,59 @@ extern void wrapperStopProcess(signed int exitCode, signed int force)
     if(!(wrapperData->isDebugging == 0))
     {
       if(!(force == 0))
-        tmp_if_expr$2 = L"TRUE";
+        tmp_if_expr_2 = L"TRUE";
 
       else
-        tmp_if_expr$2 = L"FALSE";
-      log_printf(-1, 1, L"wrapperStopProcess(%d, %s) called.", exitCode, tmp_if_expr$2);
+        tmp_if_expr_2 = L"FALSE";
+      log_printf(-1, 1, L"wrapperStopProcess(%d, %s) called.", exitCode, tmp_if_expr_2);
     }
 
     if(!(wrapperData->exitRequested == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = wrapperData->jState == 72 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = wrapperData->jState == 80 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = wrapperData->jState == 82 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = wrapperData->jState == 83 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_8 = wrapperData->jState == 85 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_9 = wrapperData->jState == 84 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_10 = wrapperData->jState == 70 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
-      tmp_if_expr$11 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$11)
+      tmp_if_expr_11 = wrapperData->jState == 71 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_11)
       wrapperData->exitRequested = -1;
 
     wrapperData->exitCode = exitCode;
@@ -24303,11 +24303,11 @@ extern void wrapperStopProcess(signed int exitCode, signed int force)
       if(!(wrapperData->isDebugging == 0))
       {
         if(wrapperData->restartRequested == 2)
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_12 = (_Bool)1;
 
         else
-          tmp_if_expr$12 = wrapperData->restartRequested == 4 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = wrapperData->restartRequested == 4 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_12)
           log_printf(-1, 1, L"  Overriding request to restart JVM.");
 
       }
@@ -24318,11 +24318,11 @@ extern void wrapperStopProcess(signed int exitCode, signed int force)
       if(!(wrapperData->isDebugging == 0))
       {
         if(wrapperData->restartRequested == 2)
-          tmp_if_expr$13 = (_Bool)1;
+          tmp_if_expr_13 = (_Bool)1;
 
         else
-          tmp_if_expr$13 = wrapperData->restartRequested == 4 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = wrapperData->restartRequested == 4 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_13)
           log_printf(-1, 1, L"  Stop ignored.  Continuing to restart JVM.");
 
       }
@@ -24358,25 +24358,25 @@ extern void wrapperStoppedSignaled()
   }
 
   wrapperData->stoppedPacketReceived = -1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(wrapperData->jState == 78)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = wrapperData->jState == 79 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = wrapperData->jState == 79 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = wrapperData->jState == 81 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     if(wrapperData->jvmExitTimeout >= 1)
     {
-      unsigned int return_value_wrapperGetTicks$1;
-      return_value_wrapperGetTicks$1=wrapperGetTicks();
-      wrapperSetJavaState(82, return_value_wrapperGetTicks$1, 5 + wrapperData->jvmExitTimeout);
+      unsigned int return_value_wrapperGetTicks_1;
+      return_value_wrapperGetTicks_1=wrapperGetTicks();
+      wrapperSetJavaState(82, return_value_wrapperGetTicks_1, 5 + wrapperData->jvmExitTimeout);
     }
 
     else
@@ -24390,9 +24390,9 @@ extern void wrapperStoppedSignaled()
 extern void wrapperStripQuotes(const signed int *prop, signed int *propStripped)
 {
   unsigned long int len;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(prop);
-  len=wrapperStripQuotesInner(prop, return_value_wcslen$1, propStripped);
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(prop);
+  len=wrapperStripQuotesInner(prop, return_value_wcslen_1, propStripped);
   propStripped[(signed long int)len] = 0;
 }
 
@@ -24611,9 +24611,9 @@ extern void wrapperUpdateJavaStateTimeout(unsigned int nowTicks, signed int dela
     {
       if(!(wrapperData->isStateOutputEnabled == 0))
       {
-        const signed int *return_value_wrapperGetJState$1;
-        return_value_wrapperGetJState$1=wrapperGetJState(wrapperData->jState);
-        log_printf(-1, 3, L"      Set Java State %s (%d) Ignored Timeout %08x", return_value_wrapperGetJState$1, delay, wrapperData->jStateTimeoutTicks);
+        const signed int *return_value_wrapperGetJState_1;
+        return_value_wrapperGetJState_1=wrapperGetJState(wrapperData->jState);
+        log_printf(-1, 3, L"      Set Java State %s (%d) Ignored Timeout %08x", return_value_wrapperGetJState_1, delay, wrapperData->jStateTimeoutTicks);
       }
 
     }
@@ -24622,9 +24622,9 @@ extern void wrapperUpdateJavaStateTimeout(unsigned int nowTicks, signed int dela
     {
       if(!(wrapperData->isStateOutputEnabled == 0))
       {
-        const signed int *return_value_wrapperGetJState$2;
-        return_value_wrapperGetJState$2=wrapperGetJState(wrapperData->jState);
-        log_printf(-1, 3, L"      Set Java State %s (%d) Timeout %08x -> %08x", return_value_wrapperGetJState$2, delay, nowTicks, delay, newTicks);
+        const signed int *return_value_wrapperGetJState_2;
+        return_value_wrapperGetJState_2=wrapperGetJState(wrapperData->jState);
+        log_printf(-1, 3, L"      Set Java State %s (%d) Timeout %08x -> %08x", return_value_wrapperGetJState_2, delay, nowTicks, delay, newTicks);
       }
 
       wrapperData->jStateTimeoutTicks = newTicks;
@@ -24644,11 +24644,11 @@ extern void wrapperUpdateJavaStateTimeout(unsigned int nowTicks, signed int dela
 extern void wrapperUsage(signed int *appName)
 {
   signed int *confFileBase;
-  unsigned long int return_value_wcslen$1;
-  return_value_wcslen$1=wcslen(appName);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen$1 + (unsigned long int)1));
-  confFileBase = (signed int *)return_value_malloc$2;
+  unsigned long int return_value_wcslen_1;
+  return_value_wcslen_1=wcslen(appName);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(signed int) /*4ul*/  * (return_value_wcslen_1 + (unsigned long int)1));
+  confFileBase = (signed int *)return_value_malloc_2;
   if(confFileBase == ((signed int *)NULL))
     outOfMemory(L"WU", 1);
 
@@ -24717,9 +24717,9 @@ extern signed int wrapperWildcardMatch(const signed int *text, const signed int 
     textIndex = (unsigned long int)0;
     while(textLen + -minTextLen >= textIndex)
     {
-      signed int return_value_wildcardMatchInner$1;
-      return_value_wildcardMatchInner$1=wildcardMatchInner(&text[(signed long int)textIndex], textLen - textIndex, pattern, patternLen, minTextLen);
-      if(!(return_value_wildcardMatchInner$1 == 0))
+      signed int return_value_wildcardMatchInner_1;
+      return_value_wildcardMatchInner_1=wildcardMatchInner(&text[(signed long int)textIndex], textLen - textIndex, pattern, patternLen, minTextLen);
+      if(!(return_value_wildcardMatchInner_1 == 0))
         return -1;
 
       textIndex = textIndex + 1ul;
@@ -24734,11 +24734,11 @@ signed int writePidFile(const signed int *filename, unsigned long int pid, signe
 {
   struct _IO_FILE *pid_fp = (struct _IO_FILE *)(void *)0;
   signed int old_umask;
-  signed int return_value_wrapperFileExists$1;
+  signed int return_value_wrapperFileExists_1;
   if(!(strict == 0))
   {
-    return_value_wrapperFileExists$1=wrapperFileExists(filename);
-    if(return_value_wrapperFileExists$1 == 0)
+    return_value_wrapperFileExists_1=wrapperFileExists(filename);
+    if(return_value_wrapperFileExists_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     log_printf(-1, 5, L"%d pid file, %s, already exists.", pid, filename);
@@ -24750,9 +24750,9 @@ signed int writePidFile(const signed int *filename, unsigned long int pid, signe
 
   __CPROVER_DUMP_L1:
     ;
-    unsigned int return_value_umask$2;
-    return_value_umask$2=umask((unsigned int)newUmask);
-    old_umask = (signed int)return_value_umask$2;
+    unsigned int return_value_umask_2;
+    return_value_umask_2=umask((unsigned int)newUmask);
+    old_umask = (signed int)return_value_umask_2;
     pid_fp=_tfopen(filename, L"w");
     umask((unsigned int)old_umask);
     if(!(pid_fp == ((struct _IO_FILE *)NULL)))
@@ -24776,9 +24776,9 @@ void writeStateFile(const signed int *filename, const signed int *state, signed 
   signed int cnt = 0;
   while(!(cnt >= 10))
   {
-    unsigned int return_value_umask$1;
-    return_value_umask$1=umask((unsigned int)newUmask);
-    old_umask = (signed int)return_value_umask$1;
+    unsigned int return_value_umask_1;
+    return_value_umask_1=umask((unsigned int)newUmask);
+    old_umask = (signed int)return_value_umask_1;
     fp=_tfopen(filename, L"w");
     umask((unsigned int)old_umask);
     if(!(fp == ((struct _IO_FILE *)NULL)))

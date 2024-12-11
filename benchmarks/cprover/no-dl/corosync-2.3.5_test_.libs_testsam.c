@@ -1,38 +1,38 @@
-// #anon_enum$CMAP_VALUETYPE_INT8=1$CMAP_VALUETYPE_UINT8=2$CMAP_VALUETYPE_INT16=3$CMAP_VALUETYPE_UINT16=4$CMAP_VALUETYPE_INT32=5$CMAP_VALUETYPE_UINT32=6$CMAP_VALUETYPE_INT64=7$CMAP_VALUETYPE_UINT64=8$CMAP_VALUETYPE_FLOAT=9$CMAP_VALUETYPE_DOUBLE=10$CMAP_VALUETYPE_STRING=11$CMAP_VALUETYPE_BINARY=12
+// #anon_enum_CMAP_VALUETYPE_INT8=1_CMAP_VALUETYPE_UINT8=2_CMAP_VALUETYPE_INT16=3_CMAP_VALUETYPE_UINT16=4_CMAP_VALUETYPE_INT32=5_CMAP_VALUETYPE_UINT32=6_CMAP_VALUETYPE_INT64=7_CMAP_VALUETYPE_UINT64=8_CMAP_VALUETYPE_FLOAT=9_CMAP_VALUETYPE_DOUBLE=10_CMAP_VALUETYPE_STRING=11_CMAP_VALUETYPE_BINARY=12
 // file ../include/corosync/cmap.h line 91
-enum anonymous$6 { CMAP_VALUETYPE_INT8=1, CMAP_VALUETYPE_UINT8=2, CMAP_VALUETYPE_INT16=3, CMAP_VALUETYPE_UINT16=4, CMAP_VALUETYPE_INT32=5, CMAP_VALUETYPE_UINT32=6, CMAP_VALUETYPE_INT64=7, CMAP_VALUETYPE_UINT64=8, CMAP_VALUETYPE_FLOAT=9, CMAP_VALUETYPE_DOUBLE=10, CMAP_VALUETYPE_STRING=11, CMAP_VALUETYPE_BINARY=12 };
+enum anonymous_6 { CMAP_VALUETYPE_INT8=1, CMAP_VALUETYPE_UINT8=2, CMAP_VALUETYPE_INT16=3, CMAP_VALUETYPE_UINT16=4, CMAP_VALUETYPE_INT32=5, CMAP_VALUETYPE_UINT32=6, CMAP_VALUETYPE_INT64=7, CMAP_VALUETYPE_UINT64=8, CMAP_VALUETYPE_FLOAT=9, CMAP_VALUETYPE_DOUBLE=10, CMAP_VALUETYPE_STRING=11, CMAP_VALUETYPE_BINARY=12 };
 
-// #anon_enum$CS_DISPATCH_ONE=1$CS_DISPATCH_ALL=2$CS_DISPATCH_BLOCKING=3$CS_DISPATCH_ONE_NONBLOCKING=4
+// #anon_enum_CS_DISPATCH_ONE=1_CS_DISPATCH_ALL=2_CS_DISPATCH_BLOCKING=3_CS_DISPATCH_ONE_NONBLOCKING=4
 // file ../include/corosync/corotypes.h line 67
-enum anonymous$5 { CS_DISPATCH_ONE=1, CS_DISPATCH_ALL=2, CS_DISPATCH_BLOCKING=3, CS_DISPATCH_ONE_NONBLOCKING=4 };
+enum anonymous_5 { CS_DISPATCH_ONE=1, CS_DISPATCH_ALL=2, CS_DISPATCH_BLOCKING=3, CS_DISPATCH_ONE_NONBLOCKING=4 };
 
-// #anon_enum$CS_OK=1$CS_ERR_LIBRARY=2$CS_ERR_VERSION=3$CS_ERR_INIT=4$CS_ERR_TIMEOUT=5$CS_ERR_TRY_AGAIN=6$CS_ERR_INVALID_PARAM=7$CS_ERR_NO_MEMORY=8$CS_ERR_BAD_HANDLE=9$CS_ERR_BUSY=10$CS_ERR_ACCESS=11$CS_ERR_NOT_EXIST=12$CS_ERR_NAME_TOO_LONG=13$CS_ERR_EXIST=14$CS_ERR_NO_SPACE=15$CS_ERR_INTERRUPT=16$CS_ERR_NAME_NOT_FOUND=17$CS_ERR_NO_RESOURCES=18$CS_ERR_NOT_SUPPORTED=19$CS_ERR_BAD_OPERATION=20$CS_ERR_FAILED_OPERATION=21$CS_ERR_MESSAGE_ERROR=22$CS_ERR_QUEUE_FULL=23$CS_ERR_QUEUE_NOT_AVAILABLE=24$CS_ERR_BAD_FLAGS=25$CS_ERR_TOO_BIG=26$CS_ERR_NO_SECTIONS=27$CS_ERR_CONTEXT_NOT_FOUND=28$CS_ERR_TOO_MANY_GROUPS=30$CS_ERR_SECURITY=100
+// #anon_enum_CS_OK=1_CS_ERR_LIBRARY=2_CS_ERR_VERSION=3_CS_ERR_INIT=4_CS_ERR_TIMEOUT=5_CS_ERR_TRY_AGAIN=6_CS_ERR_INVALID_PARAM=7_CS_ERR_NO_MEMORY=8_CS_ERR_BAD_HANDLE=9_CS_ERR_BUSY=10_CS_ERR_ACCESS=11_CS_ERR_NOT_EXIST=12_CS_ERR_NAME_TOO_LONG=13_CS_ERR_EXIST=14_CS_ERR_NO_SPACE=15_CS_ERR_INTERRUPT=16_CS_ERR_NAME_NOT_FOUND=17_CS_ERR_NO_RESOURCES=18_CS_ERR_NOT_SUPPORTED=19_CS_ERR_BAD_OPERATION=20_CS_ERR_FAILED_OPERATION=21_CS_ERR_MESSAGE_ERROR=22_CS_ERR_QUEUE_FULL=23_CS_ERR_QUEUE_NOT_AVAILABLE=24_CS_ERR_BAD_FLAGS=25_CS_ERR_TOO_BIG=26_CS_ERR_NO_SECTIONS=27_CS_ERR_CONTEXT_NOT_FOUND=28_CS_ERR_TOO_MANY_GROUPS=30_CS_ERR_SECURITY=100
 // file ../include/corosync/corotypes.h line 78
-enum anonymous$0 { CS_OK=1, CS_ERR_LIBRARY=2, CS_ERR_VERSION=3, CS_ERR_INIT=4, CS_ERR_TIMEOUT=5, CS_ERR_TRY_AGAIN=6, CS_ERR_INVALID_PARAM=7, CS_ERR_NO_MEMORY=8, CS_ERR_BAD_HANDLE=9, CS_ERR_BUSY=10, CS_ERR_ACCESS=11, CS_ERR_NOT_EXIST=12, CS_ERR_NAME_TOO_LONG=13, CS_ERR_EXIST=14, CS_ERR_NO_SPACE=15, CS_ERR_INTERRUPT=16, CS_ERR_NAME_NOT_FOUND=17, CS_ERR_NO_RESOURCES=18, CS_ERR_NOT_SUPPORTED=19, CS_ERR_BAD_OPERATION=20, CS_ERR_FAILED_OPERATION=21, CS_ERR_MESSAGE_ERROR=22, CS_ERR_QUEUE_FULL=23, CS_ERR_QUEUE_NOT_AVAILABLE=24, CS_ERR_BAD_FLAGS=25, CS_ERR_TOO_BIG=26, CS_ERR_NO_SECTIONS=27, CS_ERR_CONTEXT_NOT_FOUND=28, CS_ERR_TOO_MANY_GROUPS=30, CS_ERR_SECURITY=100 };
+enum anonymous_0 { CS_OK=1, CS_ERR_LIBRARY=2, CS_ERR_VERSION=3, CS_ERR_INIT=4, CS_ERR_TIMEOUT=5, CS_ERR_TRY_AGAIN=6, CS_ERR_INVALID_PARAM=7, CS_ERR_NO_MEMORY=8, CS_ERR_BAD_HANDLE=9, CS_ERR_BUSY=10, CS_ERR_ACCESS=11, CS_ERR_NOT_EXIST=12, CS_ERR_NAME_TOO_LONG=13, CS_ERR_EXIST=14, CS_ERR_NO_SPACE=15, CS_ERR_INTERRUPT=16, CS_ERR_NAME_NOT_FOUND=17, CS_ERR_NO_RESOURCES=18, CS_ERR_NOT_SUPPORTED=19, CS_ERR_BAD_OPERATION=20, CS_ERR_FAILED_OPERATION=21, CS_ERR_MESSAGE_ERROR=22, CS_ERR_QUEUE_FULL=23, CS_ERR_QUEUE_NOT_AVAILABLE=24, CS_ERR_BAD_FLAGS=25, CS_ERR_TOO_BIG=26, CS_ERR_NO_SECTIONS=27, CS_ERR_CONTEXT_NOT_FOUND=28, CS_ERR_TOO_MANY_GROUPS=30, CS_ERR_SECURITY=100 };
 
-// #anon_enum$SAM_RECOVERY_POLICY_QUIT=1$SAM_RECOVERY_POLICY_RESTART=2$SAM_RECOVERY_POLICY_QUORUM=8$SAM_RECOVERY_POLICY_QUORUM_QUIT=9$SAM_RECOVERY_POLICY_QUORUM_RESTART=10$SAM_RECOVERY_POLICY_CMAP=16$SAM_RECOVERY_POLICY_CONFDB=16
+// #anon_enum_SAM_RECOVERY_POLICY_QUIT=1_SAM_RECOVERY_POLICY_RESTART=2_SAM_RECOVERY_POLICY_QUORUM=8_SAM_RECOVERY_POLICY_QUORUM_QUIT=9_SAM_RECOVERY_POLICY_QUORUM_RESTART=10_SAM_RECOVERY_POLICY_CMAP=16_SAM_RECOVERY_POLICY_CONFDB=16
 // file ../include/corosync/sam.h line 43
-enum anonymous$8 { SAM_RECOVERY_POLICY_QUIT=1, SAM_RECOVERY_POLICY_RESTART=2, SAM_RECOVERY_POLICY_QUORUM=8, SAM_RECOVERY_POLICY_QUORUM_QUIT=9, SAM_RECOVERY_POLICY_QUORUM_RESTART=10, SAM_RECOVERY_POLICY_CMAP=16, SAM_RECOVERY_POLICY_CONFDB=16 };
+enum anonymous_8 { SAM_RECOVERY_POLICY_QUIT=1, SAM_RECOVERY_POLICY_RESTART=2, SAM_RECOVERY_POLICY_QUORUM=8, SAM_RECOVERY_POLICY_QUORUM_QUIT=9, SAM_RECOVERY_POLICY_QUORUM_RESTART=10, SAM_RECOVERY_POLICY_CMAP=16, SAM_RECOVERY_POLICY_CONFDB=16 };
 
-// tag-#anon#ST[*{V(U64|U32|U64|U32|*{U32}$U32$)->V}$V(U64|U32|U64|U32|*{U32}$U32$)->V$'quorum_notify_fn']
+// tag-#anon#ST[*{V(U64|U32|U64|U32|*{U32}_U32_)->V}_V(U64|U32|U64|U32|*{U32}_U32_)->V_'quorum_notify_fn']
 // file ../include/corosync/quorum.h line 53
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'time_interval'|SYM##anon_enum$SAM_RECOVERY_POLICY_QUIT=1$SAM_RECOVERY_POLICY_RESTART=2$SAM_RECOVERY_POLICY_QUORUM=8$SAM_RECOVERY_POLICY_QUORUM_QUIT=9$SAM_RECOVERY_POLICY_QUORUM_RESTART=10$SAM_RECOVERY_POLICY_CMAP=16$SAM_RECOVERY_POLICY_CONFDB=16#'recovery_policy'|SYM#tag-sam_internal_status_t#'internal_status'|U32'instance_id'|S32'child_fd_out'|S32'child_fd_in'|S32'term_send'|S32'warn_signal'|S32'am_i_child'|U32'$pad0'|*{S32()->S32}$S32()->S32$'hc_callback'|U64'cb_thread'|S32'cb_rpipe_fd'|S32'cb_wpipe_fd'|S32'cb_registered'|U32'$pad1'|*{V}$V$'user_data'|U64'user_data_size'|U64'user_data_allocated'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']#'lock'|U64'quorum_handle'|U32'quorate'|S32'quorum_fd'|U64'cmap_handle'|ARR255{S8}$S8$'cmap_pid_path'|U8'$pad2']
+// tag-#anon#ST[S32'time_interval'|SYM##anon_enum_SAM_RECOVERY_POLICY_QUIT=1_SAM_RECOVERY_POLICY_RESTART=2_SAM_RECOVERY_POLICY_QUORUM=8_SAM_RECOVERY_POLICY_QUORUM_QUIT=9_SAM_RECOVERY_POLICY_QUORUM_RESTART=10_SAM_RECOVERY_POLICY_CMAP=16_SAM_RECOVERY_POLICY_CONFDB=16#'recovery_policy'|SYM#tag-sam_internal_status_t#'internal_status'|U32'instance_id'|S32'child_fd_out'|S32'child_fd_in'|S32'term_send'|S32'warn_signal'|S32'am_i_child'|U32'_pad0'|*{S32()->S32}_S32()->S32_'hc_callback'|U64'cb_thread'|S32'cb_rpipe_fd'|S32'cb_wpipe_fd'|S32'cb_registered'|U32'_pad1'|*{V}_V_'user_data'|U64'user_data_size'|U64'user_data_allocated'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']#'lock'|U64'quorum_handle'|U32'quorate'|S32'quorum_fd'|U64'cmap_handle'|ARR255{S8}_S8_'cmap_pid_path'|U8'_pad2']
 // file sam.c line 110
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[U16'length'|U48'$pad0'|ARR256{U8}$U8$'value']
+// tag-#anon#ST[U16'length'|U48'_pad0'|ARR256{U8}_U8_'value']
 // file ../include/corosync/mar_gen.h line 118
 struct anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -221,145 +221,145 @@ extern signed int clock_gettime(signed int, struct timespec *);
 extern signed int close(signed int);
 // cmap_adjust_int
 // file cmap.c line 721
-static enum anonymous$0 cmap_adjust_int(unsigned long int handle, const char *key_name, signed int step);
-// cmap_adjust_int$link1
+static enum anonymous_0 cmap_adjust_int(unsigned long int handle, const char *key_name, signed int step);
+// cmap_adjust_int_link1
 // file cmap.c line 721
-static enum anonymous$0 cmap_adjust_int$link1(unsigned long int handle$link1, const char *key_name$link1, signed int step$link1);
+static enum anonymous_0 cmap_adjust_int_link1(unsigned long int handle_link1, const char *key_name_link1, signed int step_link1);
 // cmap_context_get
 // file cmap.c line 310
-extern enum anonymous$0 cmap_context_get(unsigned long int handle, const void **context);
+extern enum anonymous_0 cmap_context_get(unsigned long int handle, const void **context);
 // cmap_context_set
 // file cmap.c line 329
-extern enum anonymous$0 cmap_context_set(unsigned long int handle, const void *context);
+extern enum anonymous_0 cmap_context_set(unsigned long int handle, const void *context);
 // cmap_dec
 // file cmap.c line 775
-extern enum anonymous$0 cmap_dec(unsigned long int handle, const char *key_name);
+extern enum anonymous_0 cmap_dec(unsigned long int handle, const char *key_name);
 // cmap_delete
 // file ../include/corosync/cmap.h line 212
-extern enum anonymous$0 cmap_delete(unsigned long int handle, const char *key_name);
+extern enum anonymous_0 cmap_delete(unsigned long int handle, const char *key_name);
 // cmap_dispatch
 // file cmap.c line 187
-extern enum anonymous$0 cmap_dispatch(unsigned long int handle, enum anonymous$5 dispatch_types);
+extern enum anonymous_0 cmap_dispatch(unsigned long int handle, enum anonymous_5 dispatch_types);
 // cmap_fd_get
 // file cmap.c line 170
-extern enum anonymous$0 cmap_fd_get(unsigned long int handle, signed int *fd);
+extern enum anonymous_0 cmap_fd_get(unsigned long int handle, signed int *fd);
 // cmap_finalize
 // file ../include/corosync/cmap.h line 144
-extern enum anonymous$0 cmap_finalize(unsigned long int handle);
+extern enum anonymous_0 cmap_finalize(unsigned long int handle);
 // cmap_get
 // file cmap.c line 511
-extern enum anonymous$0 cmap_get(unsigned long int handle, const char *key_name, void *value, unsigned long int *value_len, enum anonymous$6 *type);
+extern enum anonymous_0 cmap_get(unsigned long int handle, const char *key_name, void *value, unsigned long int *value_len, enum anonymous_6 *type);
 // cmap_get_double
 // file cmap.c line 679
-extern enum anonymous$0 cmap_get_double(unsigned long int handle, const char *key_name, double *dbl);
+extern enum anonymous_0 cmap_get_double(unsigned long int handle, const char *key_name, double *dbl);
 // cmap_get_float
 // file cmap.c line 673
-extern enum anonymous$0 cmap_get_float(unsigned long int handle, const char *key_name, float *flt);
+extern enum anonymous_0 cmap_get_float(unsigned long int handle, const char *key_name, float *flt);
 // cmap_get_int
 // file cmap.c line 596
-static enum anonymous$0 cmap_get_int(unsigned long int handle, const char *key_name, void *value, unsigned long int value_size, enum anonymous$6 type);
-// cmap_get_int$link1
+static enum anonymous_0 cmap_get_int(unsigned long int handle, const char *key_name, void *value, unsigned long int value_size, enum anonymous_6 type);
+// cmap_get_int_link1
 // file cmap.c line 596
-static enum anonymous$0 cmap_get_int$link1(unsigned long int handle$link1, const char *key_name$link1, void *value$link1, unsigned long int value_size$link1, enum anonymous$6 type$link1);
+static enum anonymous_0 cmap_get_int_link1(unsigned long int handle_link1, const char *key_name_link1, void *value_link1, unsigned long int value_size_link1, enum anonymous_6 type_link1);
 // cmap_get_int16
 // file cmap.c line 637
-extern enum anonymous$0 cmap_get_int16(unsigned long int handle, const char *key_name, signed short int *i16);
+extern enum anonymous_0 cmap_get_int16(unsigned long int handle, const char *key_name, signed short int *i16);
 // cmap_get_int32
 // file cmap.c line 649
-extern enum anonymous$0 cmap_get_int32(unsigned long int handle, const char *key_name, signed int *i32);
+extern enum anonymous_0 cmap_get_int32(unsigned long int handle, const char *key_name, signed int *i32);
 // cmap_get_int64
 // file cmap.c line 661
-extern enum anonymous$0 cmap_get_int64(unsigned long int handle, const char *key_name, signed long int *i64);
+extern enum anonymous_0 cmap_get_int64(unsigned long int handle, const char *key_name, signed long int *i64);
 // cmap_get_int8
 // file cmap.c line 625
-extern enum anonymous$0 cmap_get_int8(unsigned long int handle, const char *key_name, signed char *i8);
+extern enum anonymous_0 cmap_get_int8(unsigned long int handle, const char *key_name, signed char *i8);
 // cmap_get_string
 // file ../include/corosync/cmap.h line 257
-extern enum anonymous$0 cmap_get_string(unsigned long int handle, const char *key_name, char **str);
+extern enum anonymous_0 cmap_get_string(unsigned long int handle, const char *key_name, char **str);
 // cmap_get_uint16
 // file cmap.c line 643
-extern enum anonymous$0 cmap_get_uint16(unsigned long int handle, const char *key_name, unsigned short int *u16);
+extern enum anonymous_0 cmap_get_uint16(unsigned long int handle, const char *key_name, unsigned short int *u16);
 // cmap_get_uint32
 // file cmap.c line 655
-extern enum anonymous$0 cmap_get_uint32(unsigned long int handle, const char *key_name, unsigned int *u32);
+extern enum anonymous_0 cmap_get_uint32(unsigned long int handle, const char *key_name, unsigned int *u32);
 // cmap_get_uint64
 // file ../include/corosync/cmap.h line 246
-extern enum anonymous$0 cmap_get_uint64(unsigned long int handle, const char *key_name, unsigned long int *u64);
+extern enum anonymous_0 cmap_get_uint64(unsigned long int handle, const char *key_name, unsigned long int *u64);
 // cmap_get_uint8
 // file cmap.c line 631
-extern enum anonymous$0 cmap_get_uint8(unsigned long int handle, const char *key_name, unsigned char *u8);
+extern enum anonymous_0 cmap_get_uint8(unsigned long int handle, const char *key_name, unsigned char *u8);
 // cmap_inc
 // file cmap.c line 769
-extern enum anonymous$0 cmap_inc(unsigned long int handle, const char *key_name);
+extern enum anonymous_0 cmap_inc(unsigned long int handle, const char *key_name);
 // cmap_initialize
 // file ../include/corosync/cmap.h line 137
-extern enum anonymous$0 cmap_initialize(unsigned long int *handle);
+extern enum anonymous_0 cmap_initialize(unsigned long int *handle);
 // cmap_inst_free
 // file cmap.c line 125
 static void cmap_inst_free(void *inst);
-// cmap_inst_free$link1
+// cmap_inst_free_link1
 // file cmap.c line 125
-static void cmap_inst_free$link1(void *inst$link1);
+static void cmap_inst_free_link1(void *inst_link1);
 // cmap_iter_finalize
 // file ../include/corosync/cmap.h line 302
-extern enum anonymous$0 cmap_iter_finalize(unsigned long int handle, unsigned long int iter_handle);
+extern enum anonymous_0 cmap_iter_finalize(unsigned long int handle, unsigned long int iter_handle);
 // cmap_iter_init
 // file ../include/corosync/cmap.h line 279
-extern enum anonymous$0 cmap_iter_init(unsigned long int handle, const char *prefix, unsigned long int *cmap_iter_handle);
+extern enum anonymous_0 cmap_iter_init(unsigned long int handle, const char *prefix, unsigned long int *cmap_iter_handle);
 // cmap_iter_next
 // file ../include/corosync/cmap.h line 292
-extern enum anonymous$0 cmap_iter_next(unsigned long int handle, unsigned long int iter_handle, char *key_name, unsigned long int *value_len, enum anonymous$6 *type);
+extern enum anonymous_0 cmap_iter_next(unsigned long int handle, unsigned long int iter_handle, char *key_name, unsigned long int *value_len, enum anonymous_6 *type);
 // cmap_set
 // file cmap.c line 348
-extern enum anonymous$0 cmap_set(unsigned long int handle, const char *key_name, const void *value, unsigned long int value_len, enum anonymous$6 type);
+extern enum anonymous_0 cmap_set(unsigned long int handle, const char *key_name, const void *value, unsigned long int value_len, enum anonymous_6 type);
 // cmap_set_double
 // file cmap.c line 450
-extern enum anonymous$0 cmap_set_double(unsigned long int handle, const char *key_name, double value);
+extern enum anonymous_0 cmap_set_double(unsigned long int handle, const char *key_name, double value);
 // cmap_set_float
 // file cmap.c line 445
-extern enum anonymous$0 cmap_set_float(unsigned long int handle, const char *key_name, float value);
+extern enum anonymous_0 cmap_set_float(unsigned long int handle, const char *key_name, float value);
 // cmap_set_int16
 // file cmap.c line 415
-extern enum anonymous$0 cmap_set_int16(unsigned long int handle, const char *key_name, signed short int value);
+extern enum anonymous_0 cmap_set_int16(unsigned long int handle, const char *key_name, signed short int value);
 // cmap_set_int32
 // file cmap.c line 425
-extern enum anonymous$0 cmap_set_int32(unsigned long int handle, const char *key_name, signed int value);
+extern enum anonymous_0 cmap_set_int32(unsigned long int handle, const char *key_name, signed int value);
 // cmap_set_int64
 // file cmap.c line 435
-extern enum anonymous$0 cmap_set_int64(unsigned long int handle, const char *key_name, signed long int value);
+extern enum anonymous_0 cmap_set_int64(unsigned long int handle, const char *key_name, signed long int value);
 // cmap_set_int8
 // file cmap.c line 405
-extern enum anonymous$0 cmap_set_int8(unsigned long int handle, const char *key_name, signed char value);
+extern enum anonymous_0 cmap_set_int8(unsigned long int handle, const char *key_name, signed char value);
 // cmap_set_string
 // file ../include/corosync/cmap.h line 205
-extern enum anonymous$0 cmap_set_string(unsigned long int handle, const char *key_name, const char *value);
+extern enum anonymous_0 cmap_set_string(unsigned long int handle, const char *key_name, const char *value);
 // cmap_set_uint16
 // file cmap.c line 420
-extern enum anonymous$0 cmap_set_uint16(unsigned long int handle, const char *key_name, unsigned short int value);
+extern enum anonymous_0 cmap_set_uint16(unsigned long int handle, const char *key_name, unsigned short int value);
 // cmap_set_uint32
 // file cmap.c line 430
-extern enum anonymous$0 cmap_set_uint32(unsigned long int handle, const char *key_name, unsigned int value);
+extern enum anonymous_0 cmap_set_uint32(unsigned long int handle, const char *key_name, unsigned int value);
 // cmap_set_uint64
 // file ../include/corosync/cmap.h line 202
-extern enum anonymous$0 cmap_set_uint64(unsigned long int handle, const char *key_name, unsigned long int value);
+extern enum anonymous_0 cmap_set_uint64(unsigned long int handle, const char *key_name, unsigned long int value);
 // cmap_set_uint8
 // file ../include/corosync/cmap.h line 196
-extern enum anonymous$0 cmap_set_uint8(unsigned long int handle, const char *key_name, unsigned char value);
+extern enum anonymous_0 cmap_set_uint8(unsigned long int handle, const char *key_name, unsigned char value);
 // cmap_track_add
 // file cmap.c line 933
-extern enum anonymous$0 cmap_track_add(unsigned long int handle, const char *key_name, signed int track_type, void (*notify_fn)(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *), void *user_data, unsigned long int *cmap_track_handle);
-// cmap_track_add::notify_fn$link1$object
+extern enum anonymous_0 cmap_track_add(unsigned long int handle, const char *key_name, signed int track_type, void (*notify_fn)(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *), void *user_data, unsigned long int *cmap_track_handle);
+// cmap_track_add::notify_fn_link1_object
 //
-void notify_fn$link1$object(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *);
-// cmap_track_add::notify_fn$object
+void notify_fn_link1_object(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *);
+// cmap_track_add::notify_fn_object
 //
-void notify_fn$object(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *);
+void notify_fn_object(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *);
 // cmap_track_delete
 // file cmap.c line 1024
-extern enum anonymous$0 cmap_track_delete(unsigned long int handle, unsigned long int track_handle);
+extern enum anonymous_0 cmap_track_delete(unsigned long int handle, unsigned long int track_handle);
 // cs_strerror
 // file error_conversion.c line 138
-const char * cs_strerror(enum anonymous$0 err);
+const char * cs_strerror(enum anonymous_0 err);
 // cs_timestamp_get
 // file ../include/corosync/corotypes.h line 119
 static inline unsigned long int cs_timestamp_get(void);
@@ -383,67 +383,67 @@ extern signed int getpid(void);
 static void * hc_callback_thread(void *unused_param);
 // hdb_error_to_cs
 // file ../include/corosync/corotypes.h line 141
-enum anonymous$0 hdb_error_to_cs(signed int res);
+enum anonymous_0 hdb_error_to_cs(signed int res);
 // hdb_handle_create
 // file ../include/corosync/hdb.h line 96
 static inline signed int hdb_handle_create(struct qb_hdb *handle_database, signed int instance_size, unsigned long int *handle_id_out);
-// hdb_handle_create$link1
+// hdb_handle_create_link1
 // file ../include/corosync/hdb.h line 96
-static inline signed int hdb_handle_create$link1(struct qb_hdb *handle_database$link1, signed int instance_size$link1, unsigned long int *handle_id_out$link1);
-// hdb_handle_create$link2
+static inline signed int hdb_handle_create_link1(struct qb_hdb *handle_database_link1, signed int instance_size_link1, unsigned long int *handle_id_out_link1);
+// hdb_handle_create_link2
 // file ../include/corosync/hdb.h line 96
-static inline signed int hdb_handle_create$link2(struct qb_hdb *handle_database$link2, signed int instance_size$link2, unsigned long int *handle_id_out$link2);
-// hdb_handle_create$link3
+static inline signed int hdb_handle_create_link2(struct qb_hdb *handle_database_link2, signed int instance_size_link2, unsigned long int *handle_id_out_link2);
+// hdb_handle_create_link3
 // file ../include/corosync/hdb.h line 96
-static inline signed int hdb_handle_create$link3(struct qb_hdb *handle_database$link3, signed int instance_size$link3, unsigned long int *handle_id_out$link3);
+static inline signed int hdb_handle_create_link3(struct qb_hdb *handle_database_link3, signed int instance_size_link3, unsigned long int *handle_id_out_link3);
 // hdb_handle_destroy
 // file ../include/corosync/hdb.h line 128
 static inline signed int hdb_handle_destroy(struct qb_hdb *handle_database, unsigned long int handle_in);
-// hdb_handle_destroy$link1
+// hdb_handle_destroy_link1
 // file ../include/corosync/hdb.h line 128
-static inline signed int hdb_handle_destroy$link1(struct qb_hdb *handle_database$link1, unsigned long int handle_in$link1);
-// hdb_handle_destroy$link2
+static inline signed int hdb_handle_destroy_link1(struct qb_hdb *handle_database_link1, unsigned long int handle_in_link1);
+// hdb_handle_destroy_link2
 // file ../include/corosync/hdb.h line 128
-static inline signed int hdb_handle_destroy$link2(struct qb_hdb *handle_database$link2, unsigned long int handle_in$link2);
-// hdb_handle_destroy$link3
+static inline signed int hdb_handle_destroy_link2(struct qb_hdb *handle_database_link2, unsigned long int handle_in_link2);
+// hdb_handle_destroy_link3
 // file ../include/corosync/hdb.h line 128
-static inline signed int hdb_handle_destroy$link3(struct qb_hdb *handle_database$link3, unsigned long int handle_in$link3);
+static inline signed int hdb_handle_destroy_link3(struct qb_hdb *handle_database_link3, unsigned long int handle_in_link3);
 // hdb_handle_get
 // file ../include/corosync/hdb.h line 105
 static inline signed int hdb_handle_get(struct qb_hdb *handle_database, unsigned long int handle_in, void **instance);
-// hdb_handle_get$link1
+// hdb_handle_get_link1
 // file ../include/corosync/hdb.h line 105
-static inline signed int hdb_handle_get$link1(struct qb_hdb *handle_database$link1, unsigned long int handle_in$link1, void **instance$link1);
-// hdb_handle_get$link2
+static inline signed int hdb_handle_get_link1(struct qb_hdb *handle_database_link1, unsigned long int handle_in_link1, void **instance_link1);
+// hdb_handle_get_link2
 // file ../include/corosync/hdb.h line 105
-static inline signed int hdb_handle_get$link2(struct qb_hdb *handle_database$link2, unsigned long int handle_in$link2, void **instance$link2);
-// hdb_handle_get$link3
+static inline signed int hdb_handle_get_link2(struct qb_hdb *handle_database_link2, unsigned long int handle_in_link2, void **instance_link2);
+// hdb_handle_get_link3
 // file ../include/corosync/hdb.h line 105
-static inline signed int hdb_handle_get$link3(struct qb_hdb *handle_database$link3, unsigned long int handle_in$link3, void **instance$link3);
+static inline signed int hdb_handle_get_link3(struct qb_hdb *handle_database_link3, unsigned long int handle_in_link3, void **instance_link3);
 // hdb_handle_put
 // file ../include/corosync/hdb.h line 121
 static inline signed int hdb_handle_put(struct qb_hdb *handle_database, unsigned long int handle_in);
-// hdb_handle_put$link1
+// hdb_handle_put_link1
 // file ../include/corosync/hdb.h line 121
-static inline signed int hdb_handle_put$link1(struct qb_hdb *handle_database$link1, unsigned long int handle_in$link1);
-// hdb_handle_put$link2
+static inline signed int hdb_handle_put_link1(struct qb_hdb *handle_database_link1, unsigned long int handle_in_link1);
+// hdb_handle_put_link2
 // file ../include/corosync/hdb.h line 121
-static inline signed int hdb_handle_put$link2(struct qb_hdb *handle_database$link2, unsigned long int handle_in$link2);
-// hdb_handle_put$link3
+static inline signed int hdb_handle_put_link2(struct qb_hdb *handle_database_link2, unsigned long int handle_in_link2);
+// hdb_handle_put_link3
 // file ../include/corosync/hdb.h line 121
-static inline signed int hdb_handle_put$link3(struct qb_hdb *handle_database$link3, unsigned long int handle_in$link3);
+static inline signed int hdb_handle_put_link3(struct qb_hdb *handle_database_link3, unsigned long int handle_in_link3);
 // hdb_iterator_next
 // file ../include/corosync/hdb.h line 148
 static inline signed int hdb_iterator_next(struct qb_hdb *handle_database, void **instance, unsigned long int *handle);
-// hdb_iterator_next$link1
+// hdb_iterator_next_link1
 // file ../include/corosync/hdb.h line 148
-static inline signed int hdb_iterator_next$link1(struct qb_hdb *handle_database$link1, void **instance$link1, unsigned long int *handle$link1);
+static inline signed int hdb_iterator_next_link1(struct qb_hdb *handle_database_link1, void **instance_link1, unsigned long int *handle_link1);
 // hdb_iterator_reset
 // file ../include/corosync/hdb.h line 142
 static inline void hdb_iterator_reset(struct qb_hdb *handle_database);
-// hdb_iterator_reset$link1
+// hdb_iterator_reset_link1
 // file ../include/corosync/hdb.h line 142
-static inline void hdb_iterator_reset$link1(struct qb_hdb *handle_database$link1);
+static inline void hdb_iterator_reset_link1(struct qb_hdb *handle_database_link1);
 // kill
 // file /usr/include/signal.h line 127
 extern signed int kill(signed int, signed int);
@@ -485,13 +485,13 @@ extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned lon
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$2 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_2 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // qb_hdb_handle_create
 // file /usr/include/qb/qbhdb.h line 104
 signed int qb_hdb_handle_create(struct qb_hdb *, signed int, unsigned long int *);
@@ -527,43 +527,43 @@ signed int qb_ipcc_fd_get(struct qb_ipcc_connection *, signed int *);
 signed long int qb_ipcc_sendv_recv(struct qb_ipcc_connection *, struct iovec *, unsigned int, void *, unsigned long int, signed int);
 // qb_to_cs_error
 // file ../include/corosync/corotypes.h line 139
-enum anonymous$0 qb_to_cs_error(signed int result);
+enum anonymous_0 qb_to_cs_error(signed int result);
 // quorum_context_get
 // file quorum.c line 232
-enum anonymous$0 quorum_context_get(unsigned long int handle, const void **context);
+enum anonymous_0 quorum_context_get(unsigned long int handle, const void **context);
 // quorum_context_set
 // file quorum.c line 251
-enum anonymous$0 quorum_context_set(unsigned long int handle, const void *context);
+enum anonymous_0 quorum_context_set(unsigned long int handle, const void *context);
 // quorum_dispatch
 // file ../include/corosync/quorum.h line 87
-enum anonymous$0 quorum_dispatch(unsigned long int handle, enum anonymous$5 dispatch_types);
+enum anonymous_0 quorum_dispatch(unsigned long int handle, enum anonymous_5 dispatch_types);
 // quorum_fd_get
 // file ../include/corosync/quorum.h line 80
-enum anonymous$0 quorum_fd_get(unsigned long int handle, signed int *fd);
+enum anonymous_0 quorum_fd_get(unsigned long int handle, signed int *fd);
 // quorum_finalize
 // file ../include/corosync/quorum.h line 71
-enum anonymous$0 quorum_finalize(unsigned long int handle);
+enum anonymous_0 quorum_finalize(unsigned long int handle);
 // quorum_getquorate
 // file quorum.c line 170
-enum anonymous$0 quorum_getquorate(unsigned long int handle, signed int *quorate);
+enum anonymous_0 quorum_getquorate(unsigned long int handle, signed int *quorate);
 // quorum_initialize
 // file ../include/corosync/quorum.h line 63
-enum anonymous$0 quorum_initialize(unsigned long int *handle, struct anonymous$4 *callbacks, unsigned int *quorum_type);
+enum anonymous_0 quorum_initialize(unsigned long int *handle, struct anonymous_4 *callbacks, unsigned int *quorum_type);
 // quorum_inst_free
 // file quorum.c line 136
 static void quorum_inst_free(void *inst);
-// quorum_inst_free$link1
+// quorum_inst_free_link1
 // file quorum.c line 136
-static void quorum_inst_free$link1(void *inst$link1);
+static void quorum_inst_free_link1(void *inst_link1);
 // quorum_notification_fn
 // file sam.c line 244
 static void quorum_notification_fn(unsigned long int handle, unsigned int quorate, unsigned long int ring_id, unsigned int view_list_entries, unsigned int *view_list);
 // quorum_trackstart
 // file ../include/corosync/quorum.h line 102
-enum anonymous$0 quorum_trackstart(unsigned long int handle, unsigned int flags);
+enum anonymous_0 quorum_trackstart(unsigned long int handle, unsigned int flags);
 // quorum_trackstop
 // file quorum.c line 312
-enum anonymous$0 quorum_trackstop(unsigned long int handle);
+enum anonymous_0 quorum_trackstop(unsigned long int handle);
 // read
 // file /usr/include/unistd.h line 363
 extern signed long int read(signed int, void *, unsigned long int);
@@ -572,70 +572,70 @@ extern signed long int read(signed int, void *, unsigned long int);
 extern void * realloc(void *, unsigned long int);
 // sam_cmap_destroy_pid_path
 // file sam.c line 194
-static enum anonymous$0 sam_cmap_destroy_pid_path(void);
+static enum anonymous_0 sam_cmap_destroy_pid_path(void);
 // sam_cmap_register
 // file sam.c line 215
-static enum anonymous$0 sam_cmap_register(void);
+static enum anonymous_0 sam_cmap_register(void);
 // sam_cmap_update_key
 // file sam.c line 142
-static enum anonymous$0 sam_cmap_update_key(enum sam_cmap_key_t key, const char *value);
+static enum anonymous_0 sam_cmap_update_key(enum sam_cmap_key_t key, const char *value);
 // sam_data_getsize
 // file ../include/corosync/sam.h line 192
-enum anonymous$0 sam_data_getsize(unsigned long int *size);
+enum anonymous_0 sam_data_getsize(unsigned long int *size);
 // sam_data_restore
 // file ../include/corosync/sam.h line 204
-enum anonymous$0 sam_data_restore(void *data, unsigned long int size);
+enum anonymous_0 sam_data_restore(void *data, unsigned long int size);
 // sam_data_store
 // file ../include/corosync/sam.h line 224
-enum anonymous$0 sam_data_store(const void *data, unsigned long int size);
+enum anonymous_0 sam_data_store(const void *data, unsigned long int size);
 // sam_finalize
 // file ../include/corosync/sam.h line 91
-enum anonymous$0 sam_finalize(void);
+enum anonymous_0 sam_finalize(void);
 // sam_hc_callback_register
 // file ../include/corosync/sam.h line 179
-enum anonymous$0 sam_hc_callback_register(signed int (*cb)(void));
-// sam_hc_callback_register::cb$object
+enum anonymous_0 sam_hc_callback_register(signed int (*cb)(void));
+// sam_hc_callback_register::cb_object
 //
-signed int cb$object(void);
+signed int cb_object(void);
 // sam_hc_send
 // file ../include/corosync/sam.h line 159
-enum anonymous$0 sam_hc_send(void);
+enum anonymous_0 sam_hc_send(void);
 // sam_initialize
 // file ../include/corosync/sam.h line 76
-enum anonymous$0 sam_initialize(signed int time_interval, enum anonymous$8 recovery_policy);
+enum anonymous_0 sam_initialize(signed int time_interval, enum anonymous_8 recovery_policy);
 // sam_mark_failed
 // file ../include/corosync/sam.h line 241
-enum anonymous$0 sam_mark_failed(void);
+enum anonymous_0 sam_mark_failed(void);
 // sam_parent_cmap_state_set
 // file sam.c line 909
-static enum anonymous$0 sam_parent_cmap_state_set(signed int parent_fd_in, signed int parent_fd_out, signed int state);
+static enum anonymous_0 sam_parent_cmap_state_set(signed int parent_fd_in, signed int parent_fd_out, signed int state);
 // sam_parent_data_store
 // file sam.c line 974
-static enum anonymous$0 sam_parent_data_store(signed int parent_fd_in, signed int parent_fd_out);
+static enum anonymous_0 sam_parent_data_store(signed int parent_fd_in, signed int parent_fd_out);
 // sam_parent_handler
 // file sam.c line 1018
 static enum sam_parent_action_t sam_parent_handler(signed int parent_fd_in, signed int parent_fd_out, signed int child_pid);
 // sam_parent_kill_child
 // file sam.c line 933
-static enum anonymous$0 sam_parent_kill_child(signed int *action, signed int child_pid);
+static enum anonymous_0 sam_parent_kill_child(signed int *action, signed int child_pid);
 // sam_parent_mark_child_failed
 // file sam.c line 958
-static enum anonymous$0 sam_parent_mark_child_failed(signed int *action, signed int child_pid);
+static enum anonymous_0 sam_parent_mark_child_failed(signed int *action, signed int child_pid);
 // sam_parent_reply_send
 // file sam.c line 774
-static enum anonymous$0 sam_parent_reply_send(enum anonymous$0 err, signed int parent_fd_in, signed int parent_fd_out);
+static enum anonymous_0 sam_parent_reply_send(enum anonymous_0 err, signed int parent_fd_in, signed int parent_fd_out);
 // sam_parent_wait_for_quorum
 // file sam.c line 831
-static enum anonymous$0 sam_parent_wait_for_quorum(signed int parent_fd_in, signed int parent_fd_out);
+static enum anonymous_0 sam_parent_wait_for_quorum(signed int parent_fd_in, signed int parent_fd_out);
 // sam_parent_warn_signal_set
 // file sam.c line 805
-static enum anonymous$0 sam_parent_warn_signal_set(signed int parent_fd_in, signed int parent_fd_out);
+static enum anonymous_0 sam_parent_warn_signal_set(signed int parent_fd_in, signed int parent_fd_out);
 // sam_read_reply
 // file sam.c line 376
-static enum anonymous$0 sam_read_reply(signed int child_fd_in);
+static enum anonymous_0 sam_read_reply(signed int child_fd_in);
 // sam_register
 // file ../include/corosync/sam.h line 147
-enum anonymous$0 sam_register(unsigned int *instance_id);
+enum anonymous_0 sam_register(unsigned int *instance_id);
 // sam_safe_read
 // file sam.c line 350
 static unsigned long int sam_safe_read(signed int d, void *buf, unsigned long int nbyte);
@@ -644,13 +644,13 @@ static unsigned long int sam_safe_read(signed int d, void *buf, unsigned long in
 static unsigned long int sam_safe_write(signed int d, const void *buf, unsigned long int nbyte);
 // sam_start
 // file ../include/corosync/sam.h line 102
-enum anonymous$0 sam_start(void);
+enum anonymous_0 sam_start(void);
 // sam_stop
 // file ../include/corosync/sam.h line 114
-enum anonymous$0 sam_stop(void);
+enum anonymous_0 sam_stop(void);
 // sam_warn_signal_set
 // file ../include/corosync/sam.h line 126
-enum anonymous$0 sam_warn_signal_set(signed int warn_signal);
+enum anonymous_0 sam_warn_signal_set(signed int warn_signal);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -709,7 +709,7 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 369
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$4
+struct anonymous_4
 {
   // quorum_notify_fn
   void (*quorum_notify_fn)(unsigned long int, unsigned int, unsigned long int, unsigned int, unsigned int *);
@@ -743,7 +743,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -753,12 +753,12 @@ union anonymous$3
   signed long int __align;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // time_interval
   signed int time_interval;
   // recovery_policy
-  enum anonymous$8 recovery_policy;
+  enum anonymous_8 recovery_policy;
   // internal_status
   enum sam_internal_status_t internal_status;
   // instance_id
@@ -790,7 +790,7 @@ struct anonymous$1
   // user_data_allocated
   unsigned long int user_data_allocated;
   // lock
-  union anonymous$3 lock;
+  union anonymous_3 lock;
   // quorum_handle
   unsigned long int quorum_handle;
   // quorate
@@ -811,7 +811,7 @@ struct anonymous
   unsigned char value[256l];
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[4l];
@@ -904,7 +904,7 @@ struct cmap_inst
 struct cmap_notify_value
 {
   // type
-  enum anonymous$6 type;
+  enum anonymous_6 type;
   // len
   unsigned long int len;
   // data
@@ -990,7 +990,7 @@ struct quorum_inst
   // context
   const void *context;
   // callbacks
-  struct anonymous$4 callbacks;
+  struct anonymous_4 callbacks;
 };
 
 struct req_lib_cmap_adjust_int
@@ -1227,20 +1227,20 @@ static struct qb_hdb cmap_handle_t_db;
 // file cmap.c line 72
 static struct qb_hdb cmap_handle_t_db = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
     .destructor=cmap_inst_free, .first_run=(unsigned int)!(0 != 0) };
-// cmap_handle_t_db$link1
+// cmap_handle_t_db_link1
 // file cmap.c line 72
-static struct qb_hdb cmap_handle_t_db$link1;
-// cmap_handle_t_db$link1
+static struct qb_hdb cmap_handle_t_db_link1;
+// cmap_handle_t_db_link1
 // file cmap.c line 72
-static struct qb_hdb cmap_handle_t_db$link1 = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
-    .destructor=cmap_inst_free$link1, .first_run=(unsigned int)!(0 != 0) };
+static struct qb_hdb cmap_handle_t_db_link1 = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
+    .destructor=cmap_inst_free_link1, .first_run=(unsigned int)!(0 != 0) };
 // cmap_track_handle_t_db
 // file cmap.c line 73
 static struct qb_hdb cmap_track_handle_t_db = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
     .destructor=(void (*)(void *))(void *)0, .first_run=(unsigned int)!(0 != 0) };
-// cmap_track_handle_t_db$link1
+// cmap_track_handle_t_db_link1
 // file cmap.c line 73
-static struct qb_hdb cmap_track_handle_t_db$link1 = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
+static struct qb_hdb cmap_track_handle_t_db_link1 = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
     .destructor=(void (*)(void *))(void *)0, .first_run=(unsigned int)!(0 != 0) };
 // quorum_handle_t_db
 // file quorum.c line 67
@@ -1249,16 +1249,16 @@ static struct qb_hdb quorum_handle_t_db;
 // file quorum.c line 67
 static struct qb_hdb quorum_handle_t_db = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
     .destructor=quorum_inst_free, .first_run=(unsigned int)!(0 != 0) };
-// quorum_handle_t_db$link1
+// quorum_handle_t_db_link1
 // file quorum.c line 67
-static struct qb_hdb quorum_handle_t_db$link1;
-// quorum_handle_t_db$link1
+static struct qb_hdb quorum_handle_t_db_link1;
+// quorum_handle_t_db_link1
 // file quorum.c line 67
-static struct qb_hdb quorum_handle_t_db$link1 = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
-    .destructor=quorum_inst_free$link1, .first_run=(unsigned int)!(0 != 0) };
+static struct qb_hdb quorum_handle_t_db_link1 = { .handle_count=(unsigned int)0, .handles=(struct qb_array *)(void *)0, .iterator=(unsigned int)0,
+    .destructor=quorum_inst_free_link1, .first_run=(unsigned int)!(0 != 0) };
 // sam_internal_data
 // file sam.c line 138
-static struct anonymous$1 sam_internal_data;
+static struct anonymous_1 sam_internal_data;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -1274,28 +1274,28 @@ static signed int test6_sig_delivered = 0;
 
 // cmap_adjust_int
 // file cmap.c line 721
-static enum anonymous$0 cmap_adjust_int(unsigned long int handle, const char *key_name, signed int step)
+static enum anonymous_0 cmap_adjust_int(unsigned long int handle, const char *key_name, signed int step)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov;
   struct cmap_inst *cmap_inst;
   struct req_lib_cmap_adjust_int req_lib_cmap_adjust_int;
   struct res_lib_cmap_adjust_int res_lib_cmap_adjust_int;
   if(key_name == ((const char *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(key_name);
-    if(return_value_strlen$1 >= 256ul)
-      return (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(key_name);
+    if(return_value_strlen_1 >= 256ul)
+      return (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
 
     else
     {
-      signed int return_value_hdb_handle_get$2;
-      return_value_hdb_handle_get$2=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-      error=hdb_error_to_cs(return_value_hdb_handle_get$2);
+      signed int return_value_hdb_handle_get_2;
+      return_value_hdb_handle_get_2=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+      error=hdb_error_to_cs(return_value_hdb_handle_get_2);
       if(!((signed int)error == CS_OK))
         return error;
 
@@ -1304,77 +1304,77 @@ static enum anonymous$0 cmap_adjust_int(unsigned long int handle, const char *ke
         memset((void *)&req_lib_cmap_adjust_int, 0, sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ );
         req_lib_cmap_adjust_int.header.size = (signed int)sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ ;
         req_lib_cmap_adjust_int.header.id = 3;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(key_name);
-        memcpy((void *)req_lib_cmap_adjust_int.key_name.value, (const void *)key_name, return_value_strlen$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(key_name);
-        req_lib_cmap_adjust_int.key_name.length = (unsigned short int)return_value_strlen$4;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(key_name);
+        memcpy((void *)req_lib_cmap_adjust_int.key_name.value, (const void *)key_name, return_value_strlen_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(key_name);
+        req_lib_cmap_adjust_int.key_name.length = (unsigned short int)return_value_strlen_4;
         req_lib_cmap_adjust_int.step = step;
         iov.iov_base = (void *)(char *)&req_lib_cmap_adjust_int;
         iov.iov_len = sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ ;
-        signed long int return_value_qb_ipcc_sendv_recv$5;
-        return_value_qb_ipcc_sendv_recv$5=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_adjust_int, sizeof(struct res_lib_cmap_adjust_int) /*16ul*/ , -1);
-        error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$5);
+        signed long int return_value_qb_ipcc_sendv_recv_5;
+        return_value_qb_ipcc_sendv_recv_5=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_adjust_int, sizeof(struct res_lib_cmap_adjust_int) /*16ul*/ , -1);
+        error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_5);
         if((signed int)error == CS_OK)
-          error = (enum anonymous$0)res_lib_cmap_adjust_int.header.error;
+          error = (enum anonymous_0)res_lib_cmap_adjust_int.header.error;
 
-        hdb_handle_put$link1(&cmap_handle_t_db, handle);
+        hdb_handle_put_link1(&cmap_handle_t_db, handle);
         return error;
       }
     }
   }
 }
 
-// cmap_adjust_int$link1
+// cmap_adjust_int_link1
 // file cmap.c line 721
-static enum anonymous$0 cmap_adjust_int$link1(unsigned long int handle$link1, const char *key_name$link1, signed int step$link1)
+static enum anonymous_0 cmap_adjust_int_link1(unsigned long int handle_link1, const char *key_name_link1, signed int step_link1)
 {
-  enum anonymous$0 error$link1;
-  struct iovec iov$link1;
-  struct cmap_inst *cmap_inst$link1;
-  struct req_lib_cmap_adjust_int req_lib_cmap_adjust_int$link1;
-  struct res_lib_cmap_adjust_int res_lib_cmap_adjust_int$link1;
-  if(key_name$link1 == ((const char *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+  enum anonymous_0 error_link1;
+  struct iovec iov_link1;
+  struct cmap_inst *cmap_inst_link1;
+  struct req_lib_cmap_adjust_int req_lib_cmap_adjust_int_link1;
+  struct res_lib_cmap_adjust_int res_lib_cmap_adjust_int_link1;
+  if(key_name_link1 == ((const char *)NULL))
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    unsigned long int return_value_strlen$1$link1;
-    return_value_strlen$1$link1=strlen(key_name$link1);
-    if(return_value_strlen$1$link1 >= 256ul)
-      return (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+    unsigned long int return_value_strlen_1_link1;
+    return_value_strlen_1_link1=strlen(key_name_link1);
+    if(return_value_strlen_1_link1 >= 256ul)
+      return (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
 
     else
     {
-      signed int return_value_hdb_handle_get$2$link1;
-      return_value_hdb_handle_get$2$link1=hdb_handle_get$link3(&cmap_handle_t_db$link1, handle$link1, (void **)(void *)&cmap_inst$link1);
-      error$link1=hdb_error_to_cs(return_value_hdb_handle_get$2$link1);
-      if(!((signed int)error$link1 == CS_OK))
-        return error$link1;
+      signed int return_value_hdb_handle_get_2_link1;
+      return_value_hdb_handle_get_2_link1=hdb_handle_get_link3(&cmap_handle_t_db_link1, handle_link1, (void **)(void *)&cmap_inst_link1);
+      error_link1=hdb_error_to_cs(return_value_hdb_handle_get_2_link1);
+      if(!((signed int)error_link1 == CS_OK))
+        return error_link1;
 
       else
       {
-        memset((void *)&req_lib_cmap_adjust_int$link1, 0, sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ );
-        req_lib_cmap_adjust_int$link1.header.size = (signed int)sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ ;
-        req_lib_cmap_adjust_int$link1.header.id = 3;
-        unsigned long int return_value_strlen$3$link1;
-        return_value_strlen$3$link1=strlen(key_name$link1);
-        memcpy((void *)req_lib_cmap_adjust_int$link1.key_name.value, (const void *)key_name$link1, return_value_strlen$3$link1);
-        unsigned long int return_value_strlen$4$link1;
-        return_value_strlen$4$link1=strlen(key_name$link1);
-        req_lib_cmap_adjust_int$link1.key_name.length = (unsigned short int)return_value_strlen$4$link1;
-        req_lib_cmap_adjust_int$link1.step = step$link1;
-        iov$link1.iov_base = (void *)(char *)&req_lib_cmap_adjust_int$link1;
-        iov$link1.iov_len = sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ ;
-        signed long int return_value_qb_ipcc_sendv_recv$5$link1;
-        return_value_qb_ipcc_sendv_recv$5$link1=qb_ipcc_sendv_recv(cmap_inst$link1->c, &iov$link1, (unsigned int)1, (void *)&res_lib_cmap_adjust_int$link1, sizeof(struct res_lib_cmap_adjust_int) /*16ul*/ , -1);
-        error$link1=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$5$link1);
-        if((signed int)error$link1 == CS_OK)
-          error$link1 = (enum anonymous$0)res_lib_cmap_adjust_int$link1.header.error;
+        memset((void *)&req_lib_cmap_adjust_int_link1, 0, sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ );
+        req_lib_cmap_adjust_int_link1.header.size = (signed int)sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ ;
+        req_lib_cmap_adjust_int_link1.header.id = 3;
+        unsigned long int return_value_strlen_3_link1;
+        return_value_strlen_3_link1=strlen(key_name_link1);
+        memcpy((void *)req_lib_cmap_adjust_int_link1.key_name.value, (const void *)key_name_link1, return_value_strlen_3_link1);
+        unsigned long int return_value_strlen_4_link1;
+        return_value_strlen_4_link1=strlen(key_name_link1);
+        req_lib_cmap_adjust_int_link1.key_name.length = (unsigned short int)return_value_strlen_4_link1;
+        req_lib_cmap_adjust_int_link1.step = step_link1;
+        iov_link1.iov_base = (void *)(char *)&req_lib_cmap_adjust_int_link1;
+        iov_link1.iov_len = sizeof(struct req_lib_cmap_adjust_int) /*280ul*/ ;
+        signed long int return_value_qb_ipcc_sendv_recv_5_link1;
+        return_value_qb_ipcc_sendv_recv_5_link1=qb_ipcc_sendv_recv(cmap_inst_link1->c, &iov_link1, (unsigned int)1, (void *)&res_lib_cmap_adjust_int_link1, sizeof(struct res_lib_cmap_adjust_int) /*16ul*/ , -1);
+        error_link1=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_5_link1);
+        if((signed int)error_link1 == CS_OK)
+          error_link1 = (enum anonymous_0)res_lib_cmap_adjust_int_link1.header.error;
 
-        hdb_handle_put$link3(&cmap_handle_t_db$link1, handle$link1);
-        return error$link1;
+        hdb_handle_put_link3(&cmap_handle_t_db_link1, handle_link1);
+        return error_link1;
       }
     }
   }
@@ -1382,77 +1382,77 @@ static enum anonymous$0 cmap_adjust_int$link1(unsigned long int handle$link1, co
 
 // cmap_context_get
 // file cmap.c line 310
-extern enum anonymous$0 cmap_context_get(unsigned long int handle, const void **context)
+extern enum anonymous_0 cmap_context_get(unsigned long int handle, const void **context)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct cmap_inst *cmap_inst;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
   else
   {
     *context = cmap_inst->context;
-    hdb_handle_put$link1(&cmap_handle_t_db, handle);
-    return (enum anonymous$0)CS_OK;
+    hdb_handle_put_link1(&cmap_handle_t_db, handle);
+    return (enum anonymous_0)CS_OK;
   }
 }
 
 // cmap_context_set
 // file cmap.c line 329
-extern enum anonymous$0 cmap_context_set(unsigned long int handle, const void *context)
+extern enum anonymous_0 cmap_context_set(unsigned long int handle, const void *context)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct cmap_inst *cmap_inst;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
   else
   {
     cmap_inst->context = context;
-    hdb_handle_put$link1(&cmap_handle_t_db, handle);
-    return (enum anonymous$0)CS_OK;
+    hdb_handle_put_link1(&cmap_handle_t_db, handle);
+    return (enum anonymous_0)CS_OK;
   }
 }
 
 // cmap_dec
 // file cmap.c line 775
-extern enum anonymous$0 cmap_dec(unsigned long int handle, const char *key_name)
+extern enum anonymous_0 cmap_dec(unsigned long int handle, const char *key_name)
 {
-  enum anonymous$0 return_value_cmap_adjust_int$1;
-  return_value_cmap_adjust_int$1=cmap_adjust_int(handle, key_name, -1);
-  return return_value_cmap_adjust_int$1;
+  enum anonymous_0 return_value_cmap_adjust_int_1;
+  return_value_cmap_adjust_int_1=cmap_adjust_int(handle, key_name, -1);
+  return return_value_cmap_adjust_int_1;
 }
 
 // cmap_delete
 // file ../include/corosync/cmap.h line 212
-extern enum anonymous$0 cmap_delete(unsigned long int handle, const char *key_name)
+extern enum anonymous_0 cmap_delete(unsigned long int handle, const char *key_name)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov;
   struct cmap_inst *cmap_inst;
   struct req_lib_cmap_delete req_lib_cmap_delete;
   struct res_lib_cmap_delete res_lib_cmap_delete;
   if(key_name == ((const char *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(key_name);
-    if(return_value_strlen$1 >= 256ul)
-      return (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(key_name);
+    if(return_value_strlen_1 >= 256ul)
+      return (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
 
     else
     {
-      signed int return_value_hdb_handle_get$2;
-      return_value_hdb_handle_get$2=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-      error=hdb_error_to_cs(return_value_hdb_handle_get$2);
+      signed int return_value_hdb_handle_get_2;
+      return_value_hdb_handle_get_2=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+      error=hdb_error_to_cs(return_value_hdb_handle_get_2);
       if(!((signed int)error == CS_OK))
         return error;
 
@@ -1461,21 +1461,21 @@ extern enum anonymous$0 cmap_delete(unsigned long int handle, const char *key_na
         memset((void *)&req_lib_cmap_delete, 0, sizeof(struct req_lib_cmap_delete) /*272ul*/ );
         req_lib_cmap_delete.header.size = (signed int)sizeof(struct req_lib_cmap_delete) /*272ul*/ ;
         req_lib_cmap_delete.header.id = 1;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(key_name);
-        memcpy((void *)req_lib_cmap_delete.key_name.value, (const void *)key_name, return_value_strlen$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(key_name);
-        req_lib_cmap_delete.key_name.length = (unsigned short int)return_value_strlen$4;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(key_name);
+        memcpy((void *)req_lib_cmap_delete.key_name.value, (const void *)key_name, return_value_strlen_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(key_name);
+        req_lib_cmap_delete.key_name.length = (unsigned short int)return_value_strlen_4;
         iov.iov_base = (void *)(char *)&req_lib_cmap_delete;
         iov.iov_len = sizeof(struct req_lib_cmap_delete) /*272ul*/ ;
-        signed long int return_value_qb_ipcc_sendv_recv$5;
-        return_value_qb_ipcc_sendv_recv$5=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_delete, sizeof(struct res_lib_cmap_delete) /*16ul*/ , -1);
-        error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$5);
+        signed long int return_value_qb_ipcc_sendv_recv_5;
+        return_value_qb_ipcc_sendv_recv_5=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_delete, sizeof(struct res_lib_cmap_delete) /*16ul*/ , -1);
+        error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_5);
         if((signed int)error == CS_OK)
-          error = (enum anonymous$0)res_lib_cmap_delete.header.error;
+          error = (enum anonymous_0)res_lib_cmap_delete.header.error;
 
-        hdb_handle_put$link1(&cmap_handle_t_db, handle);
+        hdb_handle_put_link1(&cmap_handle_t_db, handle);
         return error;
       }
     }
@@ -1484,10 +1484,10 @@ extern enum anonymous$0 cmap_delete(unsigned long int handle, const char *key_na
 
 // cmap_dispatch
 // file cmap.c line 187
-extern enum anonymous$0 cmap_dispatch(unsigned long int handle, enum anonymous$5 dispatch_types)
+extern enum anonymous_0 cmap_dispatch(unsigned long int handle, enum anonymous_5 dispatch_types)
 {
   signed int timeout = -1;
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   signed int cont = 1;
   struct cmap_inst *cmap_inst;
   struct qb_ipc_response_header *dispatch_data;
@@ -1496,10 +1496,10 @@ extern enum anonymous$0 cmap_dispatch(unsigned long int handle, enum anonymous$5
   struct cmap_track_inst *cmap_track_inst;
   struct cmap_notify_value old_val;
   struct cmap_notify_value new_val;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
-  signed int return_value_hdb_handle_get$3;
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
+  signed int return_value_hdb_handle_get_3;
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -1511,12 +1511,12 @@ extern enum anonymous$0 cmap_dispatch(unsigned long int handle, enum anonymous$5
     dispatch_data = (struct qb_ipc_response_header *)dispatch_buf;
     do
     {
-      signed long int return_value_qb_ipcc_event_recv$2;
-      return_value_qb_ipcc_event_recv$2=qb_ipcc_event_recv(cmap_inst->c, (void *)dispatch_buf, (unsigned long int)(8192 * 128), timeout);
-      error=qb_to_cs_error((signed int)return_value_qb_ipcc_event_recv$2);
+      signed long int return_value_qb_ipcc_event_recv_2;
+      return_value_qb_ipcc_event_recv_2=qb_ipcc_event_recv(cmap_inst->c, (void *)dispatch_buf, (unsigned long int)(8192 * 128), timeout);
+      error=qb_to_cs_error((signed int)return_value_qb_ipcc_event_recv_2);
       if((signed int)error == CS_ERR_BAD_HANDLE)
       {
-        error = (enum anonymous$0)CS_OK;
+        error = (enum anonymous_0)CS_OK;
         break;
       }
 
@@ -1525,7 +1525,7 @@ extern enum anonymous$0 cmap_dispatch(unsigned long int handle, enum anonymous$5
         if((signed int)dispatch_types == CS_DISPATCH_ONE_NONBLOCKING)
           break;
 
-        error = (enum anonymous$0)CS_OK;
+        error = (enum anonymous_0)CS_OK;
         if((signed int)dispatch_types == CS_DISPATCH_ALL)
           break;
 
@@ -1539,32 +1539,32 @@ extern enum anonymous$0 cmap_dispatch(unsigned long int handle, enum anonymous$5
         if(dispatch_data->id == 9)
         {
           res_lib_cmap_notify_callback = (struct res_lib_cmap_notify_callback *)dispatch_data;
-          return_value_hdb_handle_get$3=hdb_handle_get$link1(&cmap_track_handle_t_db, res_lib_cmap_notify_callback->track_inst_handle, (void **)(void *)&cmap_track_inst);
-          error=hdb_error_to_cs(return_value_hdb_handle_get$3);
+          return_value_hdb_handle_get_3=hdb_handle_get_link1(&cmap_track_handle_t_db, res_lib_cmap_notify_callback->track_inst_handle, (void **)(void *)&cmap_track_inst);
+          error=hdb_error_to_cs(return_value_hdb_handle_get_3);
           if((signed int)error == CS_ERR_BAD_HANDLE)
             goto __CPROVER_DUMP_L10;
 
           if(!((signed int)error == CS_OK))
             break;
 
-          new_val.type = (enum anonymous$6)res_lib_cmap_notify_callback->new_value_type;
-          old_val.type = (enum anonymous$6)res_lib_cmap_notify_callback->old_value_type;
+          new_val.type = (enum anonymous_6)res_lib_cmap_notify_callback->new_value_type;
+          old_val.type = (enum anonymous_6)res_lib_cmap_notify_callback->old_value_type;
           new_val.len = res_lib_cmap_notify_callback->new_value_len;
           old_val.len = res_lib_cmap_notify_callback->old_value_len;
           new_val.data = (const void *)res_lib_cmap_notify_callback->new_value;
           old_val.data = (const void *)((const char *)res_lib_cmap_notify_callback->new_value + (signed long int)new_val.len);
           cmap_track_inst->notify_fn(handle, cmap_track_inst->track_handle, res_lib_cmap_notify_callback->event, (char *)res_lib_cmap_notify_callback->key_name.value, new_val, old_val, cmap_track_inst->user_data);
-          hdb_handle_put$link1(&cmap_track_handle_t_db, res_lib_cmap_notify_callback->track_inst_handle);
+          hdb_handle_put_link1(&cmap_track_handle_t_db, res_lib_cmap_notify_callback->track_inst_handle);
         }
 
-        error = (enum anonymous$0)CS_ERR_LIBRARY;
+        error = (enum anonymous_0)CS_ERR_LIBRARY;
         break;
 
       __CPROVER_DUMP_L10:
         ;
         if(!(cmap_inst->finalize == 0))
         {
-          error = (enum anonymous$0)CS_ERR_BAD_HANDLE;
+          error = (enum anonymous_0)CS_ERR_BAD_HANDLE;
           break;
         }
 
@@ -1577,53 +1577,53 @@ extern enum anonymous$0 cmap_dispatch(unsigned long int handle, enum anonymous$5
 
   error_put:
     ;
-    hdb_handle_put$link1(&cmap_handle_t_db, handle);
+    hdb_handle_put_link1(&cmap_handle_t_db, handle);
     return error;
   }
 }
 
 // cmap_fd_get
 // file cmap.c line 170
-extern enum anonymous$0 cmap_fd_get(unsigned long int handle, signed int *fd)
+extern enum anonymous_0 cmap_fd_get(unsigned long int handle, signed int *fd)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct cmap_inst *cmap_inst;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
   else
   {
-    signed int return_value_qb_ipcc_fd_get$2;
-    return_value_qb_ipcc_fd_get$2=qb_ipcc_fd_get(cmap_inst->c, fd);
-    error=qb_to_cs_error(return_value_qb_ipcc_fd_get$2);
-    hdb_handle_put$link1(&cmap_handle_t_db, handle);
+    signed int return_value_qb_ipcc_fd_get_2;
+    return_value_qb_ipcc_fd_get_2=qb_ipcc_fd_get(cmap_inst->c, fd);
+    error=qb_to_cs_error(return_value_qb_ipcc_fd_get_2);
+    hdb_handle_put_link1(&cmap_handle_t_db, handle);
     return error;
   }
 }
 
 // cmap_finalize
 // file ../include/corosync/cmap.h line 144
-extern enum anonymous$0 cmap_finalize(unsigned long int handle)
+extern enum anonymous_0 cmap_finalize(unsigned long int handle)
 {
   struct cmap_inst *cmap_inst;
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   unsigned long int track_inst_handle = (unsigned long int)0;
   struct cmap_track_inst *cmap_track_inst;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
-  signed int return_value_hdb_iterator_next$2;
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
+  signed int return_value_hdb_iterator_next_2;
   if(!((signed int)error == CS_OK))
     return error;
 
   else
     if(!(cmap_inst->finalize == 0))
     {
-      hdb_handle_put$link1(&cmap_handle_t_db, handle);
-      return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+      hdb_handle_put_link1(&cmap_handle_t_db, handle);
+      return (enum anonymous_0)CS_ERR_BAD_HANDLE;
     }
 
     else
@@ -1632,51 +1632,51 @@ extern enum anonymous$0 cmap_finalize(unsigned long int handle)
       hdb_iterator_reset(&cmap_track_handle_t_db);
       do
       {
-        return_value_hdb_iterator_next$2=hdb_iterator_next(&cmap_track_handle_t_db, (void **)(void *)&cmap_track_inst, &track_inst_handle);
-        if(!(return_value_hdb_iterator_next$2 == 0))
+        return_value_hdb_iterator_next_2=hdb_iterator_next(&cmap_track_handle_t_db, (void **)(void *)&cmap_track_inst, &track_inst_handle);
+        if(!(return_value_hdb_iterator_next_2 == 0))
           break;
 
         if(cmap_track_inst->c == cmap_inst->c)
-          hdb_handle_destroy$link1(&cmap_track_handle_t_db, track_inst_handle);
+          hdb_handle_destroy_link1(&cmap_track_handle_t_db, track_inst_handle);
 
-        hdb_handle_put$link1(&cmap_track_handle_t_db, track_inst_handle);
+        hdb_handle_put_link1(&cmap_track_handle_t_db, track_inst_handle);
       }
       while((_Bool)1);
-      hdb_handle_destroy$link1(&cmap_handle_t_db, handle);
-      hdb_handle_put$link1(&cmap_handle_t_db, handle);
-      return (enum anonymous$0)CS_OK;
+      hdb_handle_destroy_link1(&cmap_handle_t_db, handle);
+      hdb_handle_put_link1(&cmap_handle_t_db, handle);
+      return (enum anonymous_0)CS_OK;
     }
 }
 
 // cmap_get
 // file cmap.c line 511
-extern enum anonymous$0 cmap_get(unsigned long int handle, const char *key_name, void *value, unsigned long int *value_len, enum anonymous$6 *type)
+extern enum anonymous_0 cmap_get(unsigned long int handle, const char *key_name, void *value, unsigned long int *value_len, enum anonymous_6 *type)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct cmap_inst *cmap_inst;
   struct iovec iov;
   struct req_lib_cmap_get req_lib_cmap_get;
   struct res_lib_cmap_get *res_lib_cmap_get;
   unsigned long int res_size;
   if(key_name == ((const char *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(key_name);
-    if(return_value_strlen$1 >= 256ul)
-      return (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(key_name);
+    if(return_value_strlen_1 >= 256ul)
+      return (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
 
     else
       if(value_len == ((unsigned long int *)NULL) && !(value == NULL))
-        return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+        return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
       else
       {
-        signed int return_value_hdb_handle_get$2;
-        return_value_hdb_handle_get$2=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-        error=hdb_error_to_cs(return_value_hdb_handle_get$2);
+        signed int return_value_hdb_handle_get_2;
+        return_value_hdb_handle_get_2=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+        error=hdb_error_to_cs(return_value_hdb_handle_get_2);
         if(!((signed int)error == CS_OK))
           return error;
 
@@ -1685,12 +1685,12 @@ extern enum anonymous$0 cmap_get(unsigned long int handle, const char *key_name,
           memset((void *)&req_lib_cmap_get, 0, sizeof(struct req_lib_cmap_get) /*280ul*/ );
           req_lib_cmap_get.header.size = (signed int)sizeof(struct req_lib_cmap_get) /*280ul*/ ;
           req_lib_cmap_get.header.id = 2;
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(key_name);
-          memcpy((void *)req_lib_cmap_get.key_name.value, (const void *)key_name, return_value_strlen$3);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(key_name);
-          req_lib_cmap_get.key_name.length = (unsigned short int)return_value_strlen$4;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(key_name);
+          memcpy((void *)req_lib_cmap_get.key_name.value, (const void *)key_name, return_value_strlen_3);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(key_name);
+          req_lib_cmap_get.key_name.length = (unsigned short int)return_value_strlen_4;
           if(!(value == NULL) && !(value_len == ((unsigned long int *)NULL)))
             req_lib_cmap_get.value_len = *value_len;
 
@@ -1699,24 +1699,24 @@ extern enum anonymous$0 cmap_get(unsigned long int handle, const char *key_name,
           iov.iov_base = (void *)(char *)&req_lib_cmap_get;
           iov.iov_len = sizeof(struct req_lib_cmap_get) /*280ul*/ ;
           res_size = sizeof(struct res_lib_cmap_get) /*32ul*/  + req_lib_cmap_get.value_len;
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc(res_size);
-          res_lib_cmap_get = (struct res_lib_cmap_get *)return_value_malloc$5;
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc(res_size);
+          res_lib_cmap_get = (struct res_lib_cmap_get *)return_value_malloc_5;
           if(res_lib_cmap_get == ((struct res_lib_cmap_get *)NULL))
-            return (enum anonymous$0)CS_ERR_NO_MEMORY;
+            return (enum anonymous_0)CS_ERR_NO_MEMORY;
 
           else
           {
-            signed long int return_value_qb_ipcc_sendv_recv$6;
-            return_value_qb_ipcc_sendv_recv$6=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)res_lib_cmap_get, res_size, -1);
-            error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$6);
+            signed long int return_value_qb_ipcc_sendv_recv_6;
+            return_value_qb_ipcc_sendv_recv_6=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)res_lib_cmap_get, res_size, -1);
+            error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_6);
             if((signed int)error == CS_OK)
-              error = (enum anonymous$0)res_lib_cmap_get->header.error;
+              error = (enum anonymous_0)res_lib_cmap_get->header.error;
 
             if((signed int)error == CS_OK)
             {
-              if(!(type == ((enum anonymous$6 *)NULL)))
-                *type = (enum anonymous$6)res_lib_cmap_get->type;
+              if(!(type == ((enum anonymous_6 *)NULL)))
+                *type = (enum anonymous_6)res_lib_cmap_get->type;
 
               if(!(value_len == ((unsigned long int *)NULL)))
                 *value_len = res_lib_cmap_get->value_len;
@@ -1727,7 +1727,7 @@ extern enum anonymous$0 cmap_get(unsigned long int handle, const char *key_name,
             }
 
             free((void *)res_lib_cmap_get);
-            hdb_handle_put$link1(&cmap_handle_t_db, handle);
+            hdb_handle_put_link1(&cmap_handle_t_db, handle);
             return error;
           }
         }
@@ -1737,30 +1737,30 @@ extern enum anonymous$0 cmap_get(unsigned long int handle, const char *key_name,
 
 // cmap_get_double
 // file cmap.c line 679
-extern enum anonymous$0 cmap_get_double(unsigned long int handle, const char *key_name, double *dbl)
+extern enum anonymous_0 cmap_get_double(unsigned long int handle, const char *key_name, double *dbl)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)dbl, sizeof(double) /*8ul*/ , (enum anonymous$6)CMAP_VALUETYPE_DOUBLE);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)dbl, sizeof(double) /*8ul*/ , (enum anonymous_6)CMAP_VALUETYPE_DOUBLE);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_float
 // file cmap.c line 673
-extern enum anonymous$0 cmap_get_float(unsigned long int handle, const char *key_name, float *flt)
+extern enum anonymous_0 cmap_get_float(unsigned long int handle, const char *key_name, float *flt)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)flt, sizeof(float) /*4ul*/ , (enum anonymous$6)CMAP_VALUETYPE_FLOAT);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)flt, sizeof(float) /*4ul*/ , (enum anonymous_6)CMAP_VALUETYPE_FLOAT);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_int
 // file cmap.c line 596
-static enum anonymous$0 cmap_get_int(unsigned long int handle, const char *key_name, void *value, unsigned long int value_size, enum anonymous$6 type)
+static enum anonymous_0 cmap_get_int(unsigned long int handle, const char *key_name, void *value, unsigned long int value_size, enum anonymous_6 type)
 {
   char key_value[16l];
   unsigned long int key_size;
-  enum anonymous$0 err;
-  enum anonymous$6 key_type;
+  enum anonymous_0 err;
+  enum anonymous_6 key_type;
   key_size = sizeof(char [16l]) /*16ul*/ ;
   memset((void *)key_value, 0, key_size);
   err=cmap_get(handle, key_name, (void *)key_value, &key_size, &key_type);
@@ -1769,98 +1769,98 @@ static enum anonymous$0 cmap_get_int(unsigned long int handle, const char *key_n
 
   else
     if(!(key_type == type))
-      return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+      return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
     else
     {
       memcpy(value, (const void *)key_value, value_size);
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
     }
 }
 
-// cmap_get_int$link1
+// cmap_get_int_link1
 // file cmap.c line 596
-static enum anonymous$0 cmap_get_int$link1(unsigned long int handle$link1, const char *key_name$link1, void *value$link1, unsigned long int value_size$link1, enum anonymous$6 type$link1)
+static enum anonymous_0 cmap_get_int_link1(unsigned long int handle_link1, const char *key_name_link1, void *value_link1, unsigned long int value_size_link1, enum anonymous_6 type_link1)
 {
-  char key_value$link1[16l];
-  unsigned long int key_size$link1;
-  enum anonymous$0 err$link1;
-  enum anonymous$6 key_type$link1;
-  key_size$link1 = sizeof(char [16l]) /*16ul*/ ;
-  memset((void *)key_value$link1, 0, key_size$link1);
-  err$link1=cmap_get(handle$link1, key_name$link1, (void *)key_value$link1, &key_size$link1, &key_type$link1);
-  if(!((signed int)err$link1 == CS_OK))
-    return err$link1;
+  char key_value_link1[16l];
+  unsigned long int key_size_link1;
+  enum anonymous_0 err_link1;
+  enum anonymous_6 key_type_link1;
+  key_size_link1 = sizeof(char [16l]) /*16ul*/ ;
+  memset((void *)key_value_link1, 0, key_size_link1);
+  err_link1=cmap_get(handle_link1, key_name_link1, (void *)key_value_link1, &key_size_link1, &key_type_link1);
+  if(!((signed int)err_link1 == CS_OK))
+    return err_link1;
 
   else
-    if(!(key_type$link1 == type$link1))
-      return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    if(!(key_type_link1 == type_link1))
+      return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
     else
     {
-      memcpy(value$link1, (const void *)key_value$link1, value_size$link1);
-      return (enum anonymous$0)CS_OK;
+      memcpy(value_link1, (const void *)key_value_link1, value_size_link1);
+      return (enum anonymous_0)CS_OK;
     }
 }
 
 // cmap_get_int16
 // file cmap.c line 637
-extern enum anonymous$0 cmap_get_int16(unsigned long int handle, const char *key_name, signed short int *i16)
+extern enum anonymous_0 cmap_get_int16(unsigned long int handle, const char *key_name, signed short int *i16)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)i16, sizeof(signed short int) /*2ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT16);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)i16, sizeof(signed short int) /*2ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT16);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_int32
 // file cmap.c line 649
-extern enum anonymous$0 cmap_get_int32(unsigned long int handle, const char *key_name, signed int *i32)
+extern enum anonymous_0 cmap_get_int32(unsigned long int handle, const char *key_name, signed int *i32)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)i32, sizeof(signed int) /*4ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT32);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)i32, sizeof(signed int) /*4ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT32);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_int64
 // file cmap.c line 661
-extern enum anonymous$0 cmap_get_int64(unsigned long int handle, const char *key_name, signed long int *i64)
+extern enum anonymous_0 cmap_get_int64(unsigned long int handle, const char *key_name, signed long int *i64)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)i64, sizeof(signed long int) /*8ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT64);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)i64, sizeof(signed long int) /*8ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT64);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_int8
 // file cmap.c line 625
-extern enum anonymous$0 cmap_get_int8(unsigned long int handle, const char *key_name, signed char *i8)
+extern enum anonymous_0 cmap_get_int8(unsigned long int handle, const char *key_name, signed char *i8)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)i8, sizeof(signed char) /*1ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT8);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)i8, sizeof(signed char) /*1ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT8);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_string
 // file ../include/corosync/cmap.h line 257
-extern enum anonymous$0 cmap_get_string(unsigned long int handle, const char *key_name, char **str)
+extern enum anonymous_0 cmap_get_string(unsigned long int handle, const char *key_name, char **str)
 {
-  enum anonymous$0 res;
+  enum anonymous_0 res;
   unsigned long int str_len;
-  enum anonymous$6 type;
+  enum anonymous_6 type;
   res=cmap_get(handle, key_name, (void *)0, &str_len, &type);
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(!((signed int)type == CMAP_VALUETYPE_STRING) || !((signed int)res == CS_OK))
   {
     if((signed int)res == CS_OK)
-      res = (enum anonymous$0)CS_ERR_INVALID_PARAM;
+      res = (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   }
 
   else
   {
-    return_value_malloc$1=malloc(str_len);
-    *str = (char *)return_value_malloc$1;
+    return_value_malloc_1=malloc(str_len);
+    *str = (char *)return_value_malloc_1;
     if(*str == ((char *)NULL))
-      res = (enum anonymous$0)CS_ERR_NO_MEMORY;
+      res = (enum anonymous_0)CS_ERR_NO_MEMORY;
 
     else
     {
@@ -1869,7 +1869,7 @@ extern enum anonymous$0 cmap_get_string(unsigned long int handle, const char *ke
         free((void *)*str);
 
       else
-        return (enum anonymous$0)CS_OK;
+        return (enum anonymous_0)CS_OK;
     }
   }
 
@@ -1880,88 +1880,88 @@ return_error:
 
 // cmap_get_uint16
 // file cmap.c line 643
-extern enum anonymous$0 cmap_get_uint16(unsigned long int handle, const char *key_name, unsigned short int *u16)
+extern enum anonymous_0 cmap_get_uint16(unsigned long int handle, const char *key_name, unsigned short int *u16)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)u16, sizeof(unsigned short int) /*2ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT16);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)u16, sizeof(unsigned short int) /*2ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT16);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_uint32
 // file cmap.c line 655
-extern enum anonymous$0 cmap_get_uint32(unsigned long int handle, const char *key_name, unsigned int *u32)
+extern enum anonymous_0 cmap_get_uint32(unsigned long int handle, const char *key_name, unsigned int *u32)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)u32, sizeof(unsigned int) /*4ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT32);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)u32, sizeof(unsigned int) /*4ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT32);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_uint64
 // file ../include/corosync/cmap.h line 246
-extern enum anonymous$0 cmap_get_uint64(unsigned long int handle, const char *key_name, unsigned long int *u64)
+extern enum anonymous_0 cmap_get_uint64(unsigned long int handle, const char *key_name, unsigned long int *u64)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)u64, sizeof(unsigned long int) /*8ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT64);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)u64, sizeof(unsigned long int) /*8ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT64);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_get_uint8
 // file cmap.c line 631
-extern enum anonymous$0 cmap_get_uint8(unsigned long int handle, const char *key_name, unsigned char *u8)
+extern enum anonymous_0 cmap_get_uint8(unsigned long int handle, const char *key_name, unsigned char *u8)
 {
-  enum anonymous$0 return_value_cmap_get_int$1;
-  return_value_cmap_get_int$1=cmap_get_int(handle, key_name, (void *)u8, sizeof(unsigned char) /*1ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT8);
-  return return_value_cmap_get_int$1;
+  enum anonymous_0 return_value_cmap_get_int_1;
+  return_value_cmap_get_int_1=cmap_get_int(handle, key_name, (void *)u8, sizeof(unsigned char) /*1ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT8);
+  return return_value_cmap_get_int_1;
 }
 
 // cmap_inc
 // file cmap.c line 769
-extern enum anonymous$0 cmap_inc(unsigned long int handle, const char *key_name)
+extern enum anonymous_0 cmap_inc(unsigned long int handle, const char *key_name)
 {
-  enum anonymous$0 return_value_cmap_adjust_int$1;
-  return_value_cmap_adjust_int$1=cmap_adjust_int(handle, key_name, 1);
-  return return_value_cmap_adjust_int$1;
+  enum anonymous_0 return_value_cmap_adjust_int_1;
+  return_value_cmap_adjust_int_1=cmap_adjust_int(handle, key_name, 1);
+  return return_value_cmap_adjust_int_1;
 }
 
 // cmap_initialize
 // file ../include/corosync/cmap.h line 137
-extern enum anonymous$0 cmap_initialize(unsigned long int *handle)
+extern enum anonymous_0 cmap_initialize(unsigned long int *handle)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct cmap_inst *cmap_inst;
-  signed int return_value_hdb_handle_create$1;
-  return_value_hdb_handle_create$1=hdb_handle_create$link1(&cmap_handle_t_db, (signed int)sizeof(struct cmap_inst) /*24ul*/ , handle);
-  error=hdb_error_to_cs(return_value_hdb_handle_create$1);
-  signed int return_value_hdb_handle_get$2;
+  signed int return_value_hdb_handle_create_1;
+  return_value_hdb_handle_create_1=hdb_handle_create_link1(&cmap_handle_t_db, (signed int)sizeof(struct cmap_inst) /*24ul*/ , handle);
+  error=hdb_error_to_cs(return_value_hdb_handle_create_1);
+  signed int return_value_hdb_handle_get_2;
   if((signed int)error == CS_OK)
   {
-    return_value_hdb_handle_get$2=hdb_handle_get$link1(&cmap_handle_t_db, *handle, (void **)(void *)&cmap_inst);
-    error=hdb_error_to_cs(return_value_hdb_handle_get$2);
+    return_value_hdb_handle_get_2=hdb_handle_get_link1(&cmap_handle_t_db, *handle, (void **)(void *)&cmap_inst);
+    error=hdb_error_to_cs(return_value_hdb_handle_get_2);
     if((signed int)error == CS_OK)
     {
-      error = (enum anonymous$0)CS_OK;
+      error = (enum anonymous_0)CS_OK;
       cmap_inst->finalize = 0;
       cmap_inst->c=qb_ipcc_connect("cmap", (unsigned long int)(8192 * 128));
       if(cmap_inst->c == ((struct qb_ipcc_connection *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        error=qb_to_cs_error(-(*return_value___errno_location$3));
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        error=qb_to_cs_error(-(*return_value___errno_location_3));
         goto error_put_destroy;
       }
 
-      hdb_handle_put$link1(&cmap_handle_t_db, *handle);
-      return (enum anonymous$0)CS_OK;
+      hdb_handle_put_link1(&cmap_handle_t_db, *handle);
+      return (enum anonymous_0)CS_OK;
 
     error_put_destroy:
       ;
-      hdb_handle_put$link1(&cmap_handle_t_db, *handle);
+      hdb_handle_put_link1(&cmap_handle_t_db, *handle);
     }
 
 
   error_destroy:
     ;
-    hdb_handle_destroy$link1(&cmap_handle_t_db, *handle);
+    hdb_handle_destroy_link1(&cmap_handle_t_db, *handle);
   }
 
 
@@ -1978,26 +1978,26 @@ static void cmap_inst_free(void *inst)
   qb_ipcc_disconnect(cmap_inst->c);
 }
 
-// cmap_inst_free$link1
+// cmap_inst_free_link1
 // file cmap.c line 125
-static void cmap_inst_free$link1(void *inst$link1)
+static void cmap_inst_free_link1(void *inst_link1)
 {
-  struct cmap_inst *cmap_inst$link1 = (struct cmap_inst *)inst$link1;
-  qb_ipcc_disconnect(cmap_inst$link1->c);
+  struct cmap_inst *cmap_inst_link1 = (struct cmap_inst *)inst_link1;
+  qb_ipcc_disconnect(cmap_inst_link1->c);
 }
 
 // cmap_iter_finalize
 // file ../include/corosync/cmap.h line 302
-extern enum anonymous$0 cmap_iter_finalize(unsigned long int handle, unsigned long int iter_handle)
+extern enum anonymous_0 cmap_iter_finalize(unsigned long int handle, unsigned long int iter_handle)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov;
   struct cmap_inst *cmap_inst;
   struct req_lib_cmap_iter_finalize req_lib_cmap_iter_finalize;
   struct res_lib_cmap_iter_finalize res_lib_cmap_iter_finalize;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -2009,34 +2009,34 @@ extern enum anonymous$0 cmap_iter_finalize(unsigned long int handle, unsigned lo
     req_lib_cmap_iter_finalize.iter_handle = iter_handle;
     iov.iov_base = (void *)(char *)&req_lib_cmap_iter_finalize;
     iov.iov_len = sizeof(struct req_lib_cmap_iter_finalize) /*16ul*/ ;
-    signed long int return_value_qb_ipcc_sendv_recv$2;
-    return_value_qb_ipcc_sendv_recv$2=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_iter_finalize, sizeof(struct res_lib_cmap_iter_finalize) /*16ul*/ , -1);
-    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$2);
+    signed long int return_value_qb_ipcc_sendv_recv_2;
+    return_value_qb_ipcc_sendv_recv_2=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_iter_finalize, sizeof(struct res_lib_cmap_iter_finalize) /*16ul*/ , -1);
+    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_2);
     if((signed int)error == CS_OK)
-      error = (enum anonymous$0)res_lib_cmap_iter_finalize.header.error;
+      error = (enum anonymous_0)res_lib_cmap_iter_finalize.header.error;
 
-    hdb_handle_put$link1(&cmap_handle_t_db, handle);
+    hdb_handle_put_link1(&cmap_handle_t_db, handle);
     return error;
   }
 }
 
 // cmap_iter_init
 // file ../include/corosync/cmap.h line 279
-extern enum anonymous$0 cmap_iter_init(unsigned long int handle, const char *prefix, unsigned long int *cmap_iter_handle)
+extern enum anonymous_0 cmap_iter_init(unsigned long int handle, const char *prefix, unsigned long int *cmap_iter_handle)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov;
   struct cmap_inst *cmap_inst;
   struct req_lib_cmap_iter_init req_lib_cmap_iter_init;
   struct res_lib_cmap_iter_init res_lib_cmap_iter_init;
   if(cmap_iter_handle == ((unsigned long int *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    signed int return_value_hdb_handle_get$1;
-    return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-    error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+    signed int return_value_hdb_handle_get_1;
+    return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+    error=hdb_error_to_cs(return_value_hdb_handle_get_1);
     if(!((signed int)error == CS_OK))
       return error;
 
@@ -2047,31 +2047,31 @@ extern enum anonymous$0 cmap_iter_init(unsigned long int handle, const char *pre
       req_lib_cmap_iter_init.header.id = 4;
       if(!(prefix == ((const char *)NULL)))
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(prefix);
-        if(return_value_strlen$2 >= 256ul)
-          return (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(prefix);
+        if(return_value_strlen_2 >= 256ul)
+          return (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
 
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(prefix);
-        memcpy((void *)req_lib_cmap_iter_init.prefix.value, (const void *)prefix, return_value_strlen$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(prefix);
-        req_lib_cmap_iter_init.prefix.length = (unsigned short int)return_value_strlen$4;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(prefix);
+        memcpy((void *)req_lib_cmap_iter_init.prefix.value, (const void *)prefix, return_value_strlen_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(prefix);
+        req_lib_cmap_iter_init.prefix.length = (unsigned short int)return_value_strlen_4;
       }
 
       iov.iov_base = (void *)(char *)&req_lib_cmap_iter_init;
       iov.iov_len = sizeof(struct req_lib_cmap_iter_init) /*272ul*/ ;
-      signed long int return_value_qb_ipcc_sendv_recv$5;
-      return_value_qb_ipcc_sendv_recv$5=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_iter_init, sizeof(struct res_lib_cmap_iter_init) /*24ul*/ , -1);
-      error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$5);
+      signed long int return_value_qb_ipcc_sendv_recv_5;
+      return_value_qb_ipcc_sendv_recv_5=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_iter_init, sizeof(struct res_lib_cmap_iter_init) /*24ul*/ , -1);
+      error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_5);
       if((signed int)error == CS_OK)
-        error = (enum anonymous$0)res_lib_cmap_iter_init.header.error;
+        error = (enum anonymous_0)res_lib_cmap_iter_init.header.error;
 
       if((signed int)error == CS_OK)
         *cmap_iter_handle = res_lib_cmap_iter_init.iter_handle;
 
-      hdb_handle_put$link1(&cmap_handle_t_db, handle);
+      hdb_handle_put_link1(&cmap_handle_t_db, handle);
       return error;
     }
   }
@@ -2079,21 +2079,21 @@ extern enum anonymous$0 cmap_iter_init(unsigned long int handle, const char *pre
 
 // cmap_iter_next
 // file ../include/corosync/cmap.h line 292
-extern enum anonymous$0 cmap_iter_next(unsigned long int handle, unsigned long int iter_handle, char *key_name, unsigned long int *value_len, enum anonymous$6 *type)
+extern enum anonymous_0 cmap_iter_next(unsigned long int handle, unsigned long int iter_handle, char *key_name, unsigned long int *value_len, enum anonymous_6 *type)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov;
   struct cmap_inst *cmap_inst;
   struct req_lib_cmap_iter_next req_lib_cmap_iter_next;
   struct res_lib_cmap_iter_next res_lib_cmap_iter_next;
   if(key_name == ((char *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    signed int return_value_hdb_handle_get$1;
-    return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-    error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+    signed int return_value_hdb_handle_get_1;
+    return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+    error=hdb_error_to_cs(return_value_hdb_handle_get_1);
     if(!((signed int)error == CS_OK))
       return error;
 
@@ -2105,11 +2105,11 @@ extern enum anonymous$0 cmap_iter_next(unsigned long int handle, unsigned long i
       req_lib_cmap_iter_next.iter_handle = iter_handle;
       iov.iov_base = (void *)(char *)&req_lib_cmap_iter_next;
       iov.iov_len = sizeof(struct req_lib_cmap_iter_next) /*16ul*/ ;
-      signed long int return_value_qb_ipcc_sendv_recv$2;
-      return_value_qb_ipcc_sendv_recv$2=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_iter_next, sizeof(struct res_lib_cmap_iter_next) /*296ul*/ , -1);
-      error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$2);
+      signed long int return_value_qb_ipcc_sendv_recv_2;
+      return_value_qb_ipcc_sendv_recv_2=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_iter_next, sizeof(struct res_lib_cmap_iter_next) /*296ul*/ , -1);
+      error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_2);
       if((signed int)error == CS_OK)
-        error = (enum anonymous$0)res_lib_cmap_iter_next.header.error;
+        error = (enum anonymous_0)res_lib_cmap_iter_next.header.error;
 
       if((signed int)error == CS_OK)
       {
@@ -2117,12 +2117,12 @@ extern enum anonymous$0 cmap_iter_next(unsigned long int handle, unsigned long i
         if(!(value_len == ((unsigned long int *)NULL)))
           *value_len = res_lib_cmap_iter_next.value_len;
 
-        if(!(type == ((enum anonymous$6 *)NULL)))
-          *type = (enum anonymous$6)res_lib_cmap_iter_next.type;
+        if(!(type == ((enum anonymous_6 *)NULL)))
+          *type = (enum anonymous_6)res_lib_cmap_iter_next.type;
 
       }
 
-      hdb_handle_put$link1(&cmap_handle_t_db, handle);
+      hdb_handle_put_link1(&cmap_handle_t_db, handle);
       return error;
     }
   }
@@ -2130,28 +2130,28 @@ extern enum anonymous$0 cmap_iter_next(unsigned long int handle, unsigned long i
 
 // cmap_set
 // file cmap.c line 348
-extern enum anonymous$0 cmap_set(unsigned long int handle, const char *key_name, const void *value, unsigned long int value_len, enum anonymous$6 type)
+extern enum anonymous_0 cmap_set(unsigned long int handle, const char *key_name, const void *value, unsigned long int value_len, enum anonymous_6 type)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov[2l];
   struct cmap_inst *cmap_inst;
   struct req_lib_cmap_set req_lib_cmap_set;
   struct res_lib_cmap_set res_lib_cmap_set;
   if(value == NULL || key_name == ((const char *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(key_name);
-    if(return_value_strlen$1 >= 256ul)
-      return (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(key_name);
+    if(return_value_strlen_1 >= 256ul)
+      return (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
 
     else
     {
-      signed int return_value_hdb_handle_get$2;
-      return_value_hdb_handle_get$2=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-      error=hdb_error_to_cs(return_value_hdb_handle_get$2);
+      signed int return_value_hdb_handle_get_2;
+      return_value_hdb_handle_get_2=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+      error=hdb_error_to_cs(return_value_hdb_handle_get_2);
       if(!((signed int)error == CS_OK))
         return error;
 
@@ -2160,25 +2160,25 @@ extern enum anonymous$0 cmap_set(unsigned long int handle, const char *key_name,
         memset((void *)&req_lib_cmap_set, 0, sizeof(struct req_lib_cmap_set) /*288ul*/ );
         req_lib_cmap_set.header.size = (signed int)(sizeof(struct req_lib_cmap_set) /*288ul*/  + value_len);
         req_lib_cmap_set.header.id = 0;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(key_name);
-        memcpy((void *)req_lib_cmap_set.key_name.value, (const void *)key_name, return_value_strlen$3);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(key_name);
-        req_lib_cmap_set.key_name.length = (unsigned short int)return_value_strlen$4;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(key_name);
+        memcpy((void *)req_lib_cmap_set.key_name.value, (const void *)key_name, return_value_strlen_3);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(key_name);
+        req_lib_cmap_set.key_name.length = (unsigned short int)return_value_strlen_4;
         req_lib_cmap_set.value_len = value_len;
         req_lib_cmap_set.type = (unsigned char)type;
         iov[(signed long int)0].iov_base = (void *)(char *)&req_lib_cmap_set;
         iov[(signed long int)0].iov_len = sizeof(struct req_lib_cmap_set) /*288ul*/ ;
         iov[(signed long int)1].iov_base = (void *)value;
         iov[(signed long int)1].iov_len = value_len;
-        signed long int return_value_qb_ipcc_sendv_recv$5;
-        return_value_qb_ipcc_sendv_recv$5=qb_ipcc_sendv_recv(cmap_inst->c, iov, (unsigned int)2, (void *)&res_lib_cmap_set, sizeof(struct res_lib_cmap_set) /*16ul*/ , -1);
-        error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$5);
+        signed long int return_value_qb_ipcc_sendv_recv_5;
+        return_value_qb_ipcc_sendv_recv_5=qb_ipcc_sendv_recv(cmap_inst->c, iov, (unsigned int)2, (void *)&res_lib_cmap_set, sizeof(struct res_lib_cmap_set) /*16ul*/ , -1);
+        error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_5);
         if((signed int)error == CS_OK)
-          error = (enum anonymous$0)res_lib_cmap_set.header.error;
+          error = (enum anonymous_0)res_lib_cmap_set.header.error;
 
-        hdb_handle_put$link1(&cmap_handle_t_db, handle);
+        hdb_handle_put_link1(&cmap_handle_t_db, handle);
         return error;
       }
     }
@@ -2187,144 +2187,144 @@ extern enum anonymous$0 cmap_set(unsigned long int handle, const char *key_name,
 
 // cmap_set_double
 // file cmap.c line 450
-extern enum anonymous$0 cmap_set_double(unsigned long int handle, const char *key_name, double value)
+extern enum anonymous_0 cmap_set_double(unsigned long int handle, const char *key_name, double value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(double) /*8ul*/ , (enum anonymous$6)CMAP_VALUETYPE_DOUBLE);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(double) /*8ul*/ , (enum anonymous_6)CMAP_VALUETYPE_DOUBLE);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_float
 // file cmap.c line 445
-extern enum anonymous$0 cmap_set_float(unsigned long int handle, const char *key_name, float value)
+extern enum anonymous_0 cmap_set_float(unsigned long int handle, const char *key_name, float value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(float) /*4ul*/ , (enum anonymous$6)CMAP_VALUETYPE_FLOAT);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(float) /*4ul*/ , (enum anonymous_6)CMAP_VALUETYPE_FLOAT);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_int16
 // file cmap.c line 415
-extern enum anonymous$0 cmap_set_int16(unsigned long int handle, const char *key_name, signed short int value)
+extern enum anonymous_0 cmap_set_int16(unsigned long int handle, const char *key_name, signed short int value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed short int) /*2ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT16);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed short int) /*2ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT16);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_int32
 // file cmap.c line 425
-extern enum anonymous$0 cmap_set_int32(unsigned long int handle, const char *key_name, signed int value)
+extern enum anonymous_0 cmap_set_int32(unsigned long int handle, const char *key_name, signed int value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed int) /*4ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT32);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed int) /*4ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT32);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_int64
 // file cmap.c line 435
-extern enum anonymous$0 cmap_set_int64(unsigned long int handle, const char *key_name, signed long int value)
+extern enum anonymous_0 cmap_set_int64(unsigned long int handle, const char *key_name, signed long int value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed long int) /*8ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT64);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed long int) /*8ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT64);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_int8
 // file cmap.c line 405
-extern enum anonymous$0 cmap_set_int8(unsigned long int handle, const char *key_name, signed char value)
+extern enum anonymous_0 cmap_set_int8(unsigned long int handle, const char *key_name, signed char value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed char) /*1ul*/ , (enum anonymous$6)CMAP_VALUETYPE_INT8);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(signed char) /*1ul*/ , (enum anonymous_6)CMAP_VALUETYPE_INT8);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_string
 // file ../include/corosync/cmap.h line 205
-extern enum anonymous$0 cmap_set_string(unsigned long int handle, const char *key_name, const char *value)
+extern enum anonymous_0 cmap_set_string(unsigned long int handle, const char *key_name, const char *value)
 {
   if(value == ((const char *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(value);
-    enum anonymous$0 return_value_cmap_set$2;
-    return_value_cmap_set$2=cmap_set(handle, key_name, (const void *)value, return_value_strlen$1, (enum anonymous$6)CMAP_VALUETYPE_STRING);
-    return return_value_cmap_set$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(value);
+    enum anonymous_0 return_value_cmap_set_2;
+    return_value_cmap_set_2=cmap_set(handle, key_name, (const void *)value, return_value_strlen_1, (enum anonymous_6)CMAP_VALUETYPE_STRING);
+    return return_value_cmap_set_2;
   }
 }
 
 // cmap_set_uint16
 // file cmap.c line 420
-extern enum anonymous$0 cmap_set_uint16(unsigned long int handle, const char *key_name, unsigned short int value)
+extern enum anonymous_0 cmap_set_uint16(unsigned long int handle, const char *key_name, unsigned short int value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned short int) /*2ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT16);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned short int) /*2ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT16);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_uint32
 // file cmap.c line 430
-extern enum anonymous$0 cmap_set_uint32(unsigned long int handle, const char *key_name, unsigned int value)
+extern enum anonymous_0 cmap_set_uint32(unsigned long int handle, const char *key_name, unsigned int value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned int) /*4ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT32);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned int) /*4ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT32);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_uint64
 // file ../include/corosync/cmap.h line 202
-extern enum anonymous$0 cmap_set_uint64(unsigned long int handle, const char *key_name, unsigned long int value)
+extern enum anonymous_0 cmap_set_uint64(unsigned long int handle, const char *key_name, unsigned long int value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned long int) /*8ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT64);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned long int) /*8ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT64);
+  return return_value_cmap_set_1;
 }
 
 // cmap_set_uint8
 // file ../include/corosync/cmap.h line 196
-extern enum anonymous$0 cmap_set_uint8(unsigned long int handle, const char *key_name, unsigned char value)
+extern enum anonymous_0 cmap_set_uint8(unsigned long int handle, const char *key_name, unsigned char value)
 {
-  enum anonymous$0 return_value_cmap_set$1;
-  return_value_cmap_set$1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned char) /*1ul*/ , (enum anonymous$6)CMAP_VALUETYPE_UINT8);
-  return return_value_cmap_set$1;
+  enum anonymous_0 return_value_cmap_set_1;
+  return_value_cmap_set_1=cmap_set(handle, key_name, (const void *)&value, sizeof(unsigned char) /*1ul*/ , (enum anonymous_6)CMAP_VALUETYPE_UINT8);
+  return return_value_cmap_set_1;
 }
 
 // cmap_track_add
 // file cmap.c line 933
-extern enum anonymous$0 cmap_track_add(unsigned long int handle, const char *key_name, signed int track_type, void (*notify_fn)(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *), void *user_data, unsigned long int *cmap_track_handle)
+extern enum anonymous_0 cmap_track_add(unsigned long int handle, const char *key_name, signed int track_type, void (*notify_fn)(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *), void *user_data, unsigned long int *cmap_track_handle)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov;
   struct cmap_inst *cmap_inst;
   struct req_lib_cmap_track_add req_lib_cmap_track_add;
   struct res_lib_cmap_track_add res_lib_cmap_track_add;
   struct cmap_track_inst *cmap_track_inst;
   unsigned long int cmap_track_inst_handle;
-  signed int return_value_hdb_handle_get$3;
-  signed long int return_value_qb_ipcc_sendv_recv$7;
+  signed int return_value_hdb_handle_get_3;
+  signed long int return_value_qb_ipcc_sendv_recv_7;
   if(notify_fn == ((void (*)(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *))NULL) || cmap_track_handle == ((unsigned long int *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    signed int return_value_hdb_handle_get$1;
-    return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-    error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+    signed int return_value_hdb_handle_get_1;
+    return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+    error=hdb_error_to_cs(return_value_hdb_handle_get_1);
     if(!((signed int)error == CS_OK))
       return error;
 
     else
     {
-      signed int return_value_hdb_handle_create$2;
-      return_value_hdb_handle_create$2=hdb_handle_create$link1(&cmap_track_handle_t_db, (signed int)sizeof(struct cmap_track_inst) /*32ul*/ , &cmap_track_inst_handle);
-      error=hdb_error_to_cs(return_value_hdb_handle_create$2);
+      signed int return_value_hdb_handle_create_2;
+      return_value_hdb_handle_create_2=hdb_handle_create_link1(&cmap_track_handle_t_db, (signed int)sizeof(struct cmap_track_inst) /*32ul*/ , &cmap_track_inst_handle);
+      error=hdb_error_to_cs(return_value_hdb_handle_create_2);
       if((signed int)error == CS_OK)
       {
-        return_value_hdb_handle_get$3=hdb_handle_get$link1(&cmap_track_handle_t_db, cmap_track_inst_handle, (void **)(void *)&cmap_track_inst);
-        error=hdb_error_to_cs(return_value_hdb_handle_get$3);
+        return_value_hdb_handle_get_3=hdb_handle_get_link1(&cmap_track_handle_t_db, cmap_track_inst_handle, (void **)(void *)&cmap_track_inst);
+        error=hdb_error_to_cs(return_value_hdb_handle_get_3);
         if((signed int)error == CS_OK)
         {
           cmap_track_inst->user_data = user_data;
@@ -2335,27 +2335,27 @@ extern enum anonymous$0 cmap_track_add(unsigned long int handle, const char *key
           req_lib_cmap_track_add.header.id = 7;
           if(!(key_name == ((const char *)NULL)))
           {
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen(key_name);
-            if(return_value_strlen$4 >= 256ul)
-              return (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen(key_name);
+            if(return_value_strlen_4 >= 256ul)
+              return (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
 
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(key_name);
-            memcpy((void *)req_lib_cmap_track_add.key_name.value, (const void *)key_name, return_value_strlen$5);
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(key_name);
-            req_lib_cmap_track_add.key_name.length = (unsigned short int)return_value_strlen$6;
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(key_name);
+            memcpy((void *)req_lib_cmap_track_add.key_name.value, (const void *)key_name, return_value_strlen_5);
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(key_name);
+            req_lib_cmap_track_add.key_name.length = (unsigned short int)return_value_strlen_6;
           }
 
           req_lib_cmap_track_add.track_type = track_type;
           req_lib_cmap_track_add.track_inst_handle = cmap_track_inst_handle;
           iov.iov_base = (void *)(char *)&req_lib_cmap_track_add;
           iov.iov_len = sizeof(struct req_lib_cmap_track_add) /*288ul*/ ;
-          return_value_qb_ipcc_sendv_recv$7=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_track_add, sizeof(struct res_lib_cmap_track_add) /*24ul*/ , -1);
-          error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$7);
+          return_value_qb_ipcc_sendv_recv_7=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_track_add, sizeof(struct res_lib_cmap_track_add) /*24ul*/ , -1);
+          error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_7);
           if((signed int)error == CS_OK)
-            error = (enum anonymous$0)res_lib_cmap_track_add.header.error;
+            error = (enum anonymous_0)res_lib_cmap_track_add.header.error;
 
           if((signed int)error == CS_OK)
           {
@@ -2363,22 +2363,22 @@ extern enum anonymous$0 cmap_track_add(unsigned long int handle, const char *key
             cmap_track_inst->track_handle = *cmap_track_handle;
           }
 
-          hdb_handle_put$link1(&cmap_track_handle_t_db, cmap_track_inst_handle);
-          hdb_handle_put$link1(&cmap_handle_t_db, handle);
+          hdb_handle_put_link1(&cmap_track_handle_t_db, cmap_track_inst_handle);
+          hdb_handle_put_link1(&cmap_handle_t_db, handle);
           return error;
         }
 
 
       error_put_destroy:
         ;
-        hdb_handle_put$link1(&cmap_track_handle_t_db, cmap_track_inst_handle);
-        hdb_handle_destroy$link1(&cmap_track_handle_t_db, cmap_track_inst_handle);
+        hdb_handle_put_link1(&cmap_track_handle_t_db, cmap_track_inst_handle);
+        hdb_handle_destroy_link1(&cmap_track_handle_t_db, cmap_track_inst_handle);
       }
 
 
     error_put:
       ;
-      hdb_handle_put$link1(&cmap_handle_t_db, handle);
+      hdb_handle_put_link1(&cmap_handle_t_db, handle);
       return error;
     }
   }
@@ -2386,17 +2386,17 @@ extern enum anonymous$0 cmap_track_add(unsigned long int handle, const char *key
 
 // cmap_track_delete
 // file cmap.c line 1024
-extern enum anonymous$0 cmap_track_delete(unsigned long int handle, unsigned long int track_handle)
+extern enum anonymous_0 cmap_track_delete(unsigned long int handle, unsigned long int track_handle)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct iovec iov;
   struct cmap_inst *cmap_inst;
   struct cmap_track_inst *cmap_track_inst;
   struct req_lib_cmap_track_delete req_lib_cmap_track_delete;
   struct res_lib_cmap_track_delete res_lib_cmap_track_delete;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get$link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get_link1(&cmap_handle_t_db, handle, (void **)(void *)&cmap_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -2408,21 +2408,21 @@ extern enum anonymous$0 cmap_track_delete(unsigned long int handle, unsigned lon
     req_lib_cmap_track_delete.track_handle = track_handle;
     iov.iov_base = (void *)(char *)&req_lib_cmap_track_delete;
     iov.iov_len = sizeof(struct req_lib_cmap_track_delete) /*16ul*/ ;
-    signed long int return_value_qb_ipcc_sendv_recv$2;
-    return_value_qb_ipcc_sendv_recv$2=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_track_delete, sizeof(struct res_lib_cmap_track_delete) /*24ul*/ , -1);
-    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$2);
+    signed long int return_value_qb_ipcc_sendv_recv_2;
+    return_value_qb_ipcc_sendv_recv_2=qb_ipcc_sendv_recv(cmap_inst->c, &iov, (unsigned int)1, (void *)&res_lib_cmap_track_delete, sizeof(struct res_lib_cmap_track_delete) /*24ul*/ , -1);
+    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_2);
     if((signed int)error == CS_OK)
-      error = (enum anonymous$0)res_lib_cmap_track_delete.header.error;
+      error = (enum anonymous_0)res_lib_cmap_track_delete.header.error;
 
     if((signed int)error == CS_OK)
     {
-      signed int return_value_hdb_handle_get$3;
-      return_value_hdb_handle_get$3=hdb_handle_get$link1(&cmap_track_handle_t_db, res_lib_cmap_track_delete.track_inst_handle, (void **)(void *)&cmap_track_inst);
-      error=hdb_error_to_cs(return_value_hdb_handle_get$3);
+      signed int return_value_hdb_handle_get_3;
+      return_value_hdb_handle_get_3=hdb_handle_get_link1(&cmap_track_handle_t_db, res_lib_cmap_track_delete.track_inst_handle, (void **)(void *)&cmap_track_inst);
+      error=hdb_error_to_cs(return_value_hdb_handle_get_3);
       if((signed int)error == CS_OK)
       {
-        hdb_handle_put$link1(&cmap_track_handle_t_db, res_lib_cmap_track_delete.track_inst_handle);
-        hdb_handle_destroy$link1(&cmap_track_handle_t_db, res_lib_cmap_track_delete.track_inst_handle);
+        hdb_handle_put_link1(&cmap_track_handle_t_db, res_lib_cmap_track_delete.track_inst_handle);
+        hdb_handle_destroy_link1(&cmap_track_handle_t_db, res_lib_cmap_track_delete.track_inst_handle);
       }
 
     }
@@ -2430,14 +2430,14 @@ extern enum anonymous$0 cmap_track_delete(unsigned long int handle, unsigned lon
 
   error_put:
     ;
-    hdb_handle_put$link1(&cmap_handle_t_db, handle);
+    hdb_handle_put_link1(&cmap_handle_t_db, handle);
     return error;
   }
 }
 
 // cs_strerror
 // file error_conversion.c line 138
-const char * cs_strerror(enum anonymous$0 err)
+const char * cs_strerror(enum anonymous_0 err)
 {
   switch((signed int)err)
   {
@@ -2545,9 +2545,9 @@ static void * hc_callback_thread(void *unused_param)
     poll_error=poll(&pfds, (unsigned long int)1, tmp_time_interval);
     if(poll_error == 0)
     {
-      enum anonymous$0 return_value_sam_hc_send$1;
-      return_value_sam_hc_send$1=sam_hc_send();
-      if((signed int)return_value_sam_hc_send$1 == CS_OK)
+      enum anonymous_0 return_value_sam_hc_send_1;
+      return_value_sam_hc_send_1=sam_hc_send();
+      if((signed int)return_value_sam_hc_send_1 == CS_OK)
         counter = counter + 1;
 
       if(counter >= 4)
@@ -2564,9 +2564,9 @@ static void * hc_callback_thread(void *unused_param)
 
     if(poll_error >= 1)
     {
-      unsigned long int return_value_sam_safe_read$2;
-      return_value_sam_safe_read$2=sam_safe_read(sam_internal_data.cb_rpipe_fd, (void *)&command, (unsigned long int)1);
-      bytes_readed = (signed long int)return_value_sam_safe_read$2;
+      unsigned long int return_value_sam_safe_read_2;
+      return_value_sam_safe_read_2=sam_safe_read(sam_internal_data.cb_rpipe_fd, (void *)&command, (unsigned long int)1);
+      bytes_readed = (signed long int)return_value_sam_safe_read_2;
       if(bytes_readed >= 1l)
       {
         if(status == 0 && (signed int)command == 0)
@@ -2585,29 +2585,29 @@ static void * hc_callback_thread(void *unused_param)
 
 // hdb_error_to_cs
 // file ../include/corosync/corotypes.h line 141
-enum anonymous$0 hdb_error_to_cs(signed int res)
+enum anonymous_0 hdb_error_to_cs(signed int res)
 {
   if(res == 0)
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
 
   else
   {
     if(res == -9)
-      return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+      return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
     else
       if(res == -12)
-        return (enum anonymous$0)CS_ERR_NO_MEMORY;
+        return (enum anonymous_0)CS_ERR_NO_MEMORY;
 
       else
         if(res == -24)
-          return (enum anonymous$0)CS_ERR_NO_RESOURCES;
+          return (enum anonymous_0)CS_ERR_NO_RESOURCES;
 
         else
           if(res == -13)
-            return (enum anonymous$0)CS_ERR_ACCESS;
+            return (enum anonymous_0)CS_ERR_ACCESS;
 
-    return (enum anonymous$0)CS_ERR_LIBRARY;
+    return (enum anonymous_0)CS_ERR_LIBRARY;
   }
 }
 
@@ -2615,162 +2615,162 @@ enum anonymous$0 hdb_error_to_cs(signed int res)
 // file ../include/corosync/hdb.h line 96
 static inline signed int hdb_handle_create(struct qb_hdb *handle_database, signed int instance_size, unsigned long int *handle_id_out)
 {
-  signed int return_value_qb_hdb_handle_create$1;
-  return_value_qb_hdb_handle_create$1=qb_hdb_handle_create(handle_database, instance_size, handle_id_out);
-  return return_value_qb_hdb_handle_create$1;
+  signed int return_value_qb_hdb_handle_create_1;
+  return_value_qb_hdb_handle_create_1=qb_hdb_handle_create(handle_database, instance_size, handle_id_out);
+  return return_value_qb_hdb_handle_create_1;
 }
 
-// hdb_handle_create$link1
+// hdb_handle_create_link1
 // file ../include/corosync/hdb.h line 96
-static inline signed int hdb_handle_create$link1(struct qb_hdb *handle_database$link1, signed int instance_size$link1, unsigned long int *handle_id_out$link1)
+static inline signed int hdb_handle_create_link1(struct qb_hdb *handle_database_link1, signed int instance_size_link1, unsigned long int *handle_id_out_link1)
 {
-  signed int return_value_qb_hdb_handle_create$1$link1;
-  return_value_qb_hdb_handle_create$1$link1=qb_hdb_handle_create(handle_database$link1, instance_size$link1, handle_id_out$link1);
-  return return_value_qb_hdb_handle_create$1$link1;
+  signed int return_value_qb_hdb_handle_create_1_link1;
+  return_value_qb_hdb_handle_create_1_link1=qb_hdb_handle_create(handle_database_link1, instance_size_link1, handle_id_out_link1);
+  return return_value_qb_hdb_handle_create_1_link1;
 }
 
-// hdb_handle_create$link2
+// hdb_handle_create_link2
 // file ../include/corosync/hdb.h line 96
-static inline signed int hdb_handle_create$link2(struct qb_hdb *handle_database$link2, signed int instance_size$link2, unsigned long int *handle_id_out$link2)
+static inline signed int hdb_handle_create_link2(struct qb_hdb *handle_database_link2, signed int instance_size_link2, unsigned long int *handle_id_out_link2)
 {
-  signed int return_value_qb_hdb_handle_create$1$link2;
-  return_value_qb_hdb_handle_create$1$link2=qb_hdb_handle_create(handle_database$link2, instance_size$link2, handle_id_out$link2);
-  return return_value_qb_hdb_handle_create$1$link2;
+  signed int return_value_qb_hdb_handle_create_1_link2;
+  return_value_qb_hdb_handle_create_1_link2=qb_hdb_handle_create(handle_database_link2, instance_size_link2, handle_id_out_link2);
+  return return_value_qb_hdb_handle_create_1_link2;
 }
 
-// hdb_handle_create$link3
+// hdb_handle_create_link3
 // file ../include/corosync/hdb.h line 96
-static inline signed int hdb_handle_create$link3(struct qb_hdb *handle_database$link3, signed int instance_size$link3, unsigned long int *handle_id_out$link3)
+static inline signed int hdb_handle_create_link3(struct qb_hdb *handle_database_link3, signed int instance_size_link3, unsigned long int *handle_id_out_link3)
 {
-  signed int return_value_qb_hdb_handle_create$1$link3;
-  return_value_qb_hdb_handle_create$1$link3=qb_hdb_handle_create(handle_database$link3, instance_size$link3, handle_id_out$link3);
-  return return_value_qb_hdb_handle_create$1$link3;
+  signed int return_value_qb_hdb_handle_create_1_link3;
+  return_value_qb_hdb_handle_create_1_link3=qb_hdb_handle_create(handle_database_link3, instance_size_link3, handle_id_out_link3);
+  return return_value_qb_hdb_handle_create_1_link3;
 }
 
 // hdb_handle_destroy
 // file ../include/corosync/hdb.h line 128
 static inline signed int hdb_handle_destroy(struct qb_hdb *handle_database, unsigned long int handle_in)
 {
-  signed int return_value_qb_hdb_handle_destroy$1;
-  return_value_qb_hdb_handle_destroy$1=qb_hdb_handle_destroy(handle_database, handle_in);
-  return return_value_qb_hdb_handle_destroy$1;
+  signed int return_value_qb_hdb_handle_destroy_1;
+  return_value_qb_hdb_handle_destroy_1=qb_hdb_handle_destroy(handle_database, handle_in);
+  return return_value_qb_hdb_handle_destroy_1;
 }
 
-// hdb_handle_destroy$link1
+// hdb_handle_destroy_link1
 // file ../include/corosync/hdb.h line 128
-static inline signed int hdb_handle_destroy$link1(struct qb_hdb *handle_database$link1, unsigned long int handle_in$link1)
+static inline signed int hdb_handle_destroy_link1(struct qb_hdb *handle_database_link1, unsigned long int handle_in_link1)
 {
-  signed int return_value_qb_hdb_handle_destroy$1$link1;
-  return_value_qb_hdb_handle_destroy$1$link1=qb_hdb_handle_destroy(handle_database$link1, handle_in$link1);
-  return return_value_qb_hdb_handle_destroy$1$link1;
+  signed int return_value_qb_hdb_handle_destroy_1_link1;
+  return_value_qb_hdb_handle_destroy_1_link1=qb_hdb_handle_destroy(handle_database_link1, handle_in_link1);
+  return return_value_qb_hdb_handle_destroy_1_link1;
 }
 
-// hdb_handle_destroy$link2
+// hdb_handle_destroy_link2
 // file ../include/corosync/hdb.h line 128
-static inline signed int hdb_handle_destroy$link2(struct qb_hdb *handle_database$link2, unsigned long int handle_in$link2)
+static inline signed int hdb_handle_destroy_link2(struct qb_hdb *handle_database_link2, unsigned long int handle_in_link2)
 {
-  signed int return_value_qb_hdb_handle_destroy$1$link2;
-  return_value_qb_hdb_handle_destroy$1$link2=qb_hdb_handle_destroy(handle_database$link2, handle_in$link2);
-  return return_value_qb_hdb_handle_destroy$1$link2;
+  signed int return_value_qb_hdb_handle_destroy_1_link2;
+  return_value_qb_hdb_handle_destroy_1_link2=qb_hdb_handle_destroy(handle_database_link2, handle_in_link2);
+  return return_value_qb_hdb_handle_destroy_1_link2;
 }
 
-// hdb_handle_destroy$link3
+// hdb_handle_destroy_link3
 // file ../include/corosync/hdb.h line 128
-static inline signed int hdb_handle_destroy$link3(struct qb_hdb *handle_database$link3, unsigned long int handle_in$link3)
+static inline signed int hdb_handle_destroy_link3(struct qb_hdb *handle_database_link3, unsigned long int handle_in_link3)
 {
-  signed int return_value_qb_hdb_handle_destroy$1$link3;
-  return_value_qb_hdb_handle_destroy$1$link3=qb_hdb_handle_destroy(handle_database$link3, handle_in$link3);
-  return return_value_qb_hdb_handle_destroy$1$link3;
+  signed int return_value_qb_hdb_handle_destroy_1_link3;
+  return_value_qb_hdb_handle_destroy_1_link3=qb_hdb_handle_destroy(handle_database_link3, handle_in_link3);
+  return return_value_qb_hdb_handle_destroy_1_link3;
 }
 
 // hdb_handle_get
 // file ../include/corosync/hdb.h line 105
 static inline signed int hdb_handle_get(struct qb_hdb *handle_database, unsigned long int handle_in, void **instance)
 {
-  signed int return_value_qb_hdb_handle_get$1;
-  return_value_qb_hdb_handle_get$1=qb_hdb_handle_get(handle_database, handle_in, instance);
-  return return_value_qb_hdb_handle_get$1;
+  signed int return_value_qb_hdb_handle_get_1;
+  return_value_qb_hdb_handle_get_1=qb_hdb_handle_get(handle_database, handle_in, instance);
+  return return_value_qb_hdb_handle_get_1;
 }
 
-// hdb_handle_get$link1
+// hdb_handle_get_link1
 // file ../include/corosync/hdb.h line 105
-static inline signed int hdb_handle_get$link1(struct qb_hdb *handle_database$link1, unsigned long int handle_in$link1, void **instance$link1)
+static inline signed int hdb_handle_get_link1(struct qb_hdb *handle_database_link1, unsigned long int handle_in_link1, void **instance_link1)
 {
-  signed int return_value_qb_hdb_handle_get$1$link1;
-  return_value_qb_hdb_handle_get$1$link1=qb_hdb_handle_get(handle_database$link1, handle_in$link1, instance$link1);
-  return return_value_qb_hdb_handle_get$1$link1;
+  signed int return_value_qb_hdb_handle_get_1_link1;
+  return_value_qb_hdb_handle_get_1_link1=qb_hdb_handle_get(handle_database_link1, handle_in_link1, instance_link1);
+  return return_value_qb_hdb_handle_get_1_link1;
 }
 
-// hdb_handle_get$link2
+// hdb_handle_get_link2
 // file ../include/corosync/hdb.h line 105
-static inline signed int hdb_handle_get$link2(struct qb_hdb *handle_database$link2, unsigned long int handle_in$link2, void **instance$link2)
+static inline signed int hdb_handle_get_link2(struct qb_hdb *handle_database_link2, unsigned long int handle_in_link2, void **instance_link2)
 {
-  signed int return_value_qb_hdb_handle_get$1$link2;
-  return_value_qb_hdb_handle_get$1$link2=qb_hdb_handle_get(handle_database$link2, handle_in$link2, instance$link2);
-  return return_value_qb_hdb_handle_get$1$link2;
+  signed int return_value_qb_hdb_handle_get_1_link2;
+  return_value_qb_hdb_handle_get_1_link2=qb_hdb_handle_get(handle_database_link2, handle_in_link2, instance_link2);
+  return return_value_qb_hdb_handle_get_1_link2;
 }
 
-// hdb_handle_get$link3
+// hdb_handle_get_link3
 // file ../include/corosync/hdb.h line 105
-static inline signed int hdb_handle_get$link3(struct qb_hdb *handle_database$link3, unsigned long int handle_in$link3, void **instance$link3)
+static inline signed int hdb_handle_get_link3(struct qb_hdb *handle_database_link3, unsigned long int handle_in_link3, void **instance_link3)
 {
-  signed int return_value_qb_hdb_handle_get$1$link3;
-  return_value_qb_hdb_handle_get$1$link3=qb_hdb_handle_get(handle_database$link3, handle_in$link3, instance$link3);
-  return return_value_qb_hdb_handle_get$1$link3;
+  signed int return_value_qb_hdb_handle_get_1_link3;
+  return_value_qb_hdb_handle_get_1_link3=qb_hdb_handle_get(handle_database_link3, handle_in_link3, instance_link3);
+  return return_value_qb_hdb_handle_get_1_link3;
 }
 
 // hdb_handle_put
 // file ../include/corosync/hdb.h line 121
 static inline signed int hdb_handle_put(struct qb_hdb *handle_database, unsigned long int handle_in)
 {
-  signed int return_value_qb_hdb_handle_put$1;
-  return_value_qb_hdb_handle_put$1=qb_hdb_handle_put(handle_database, handle_in);
-  return return_value_qb_hdb_handle_put$1;
+  signed int return_value_qb_hdb_handle_put_1;
+  return_value_qb_hdb_handle_put_1=qb_hdb_handle_put(handle_database, handle_in);
+  return return_value_qb_hdb_handle_put_1;
 }
 
-// hdb_handle_put$link1
+// hdb_handle_put_link1
 // file ../include/corosync/hdb.h line 121
-static inline signed int hdb_handle_put$link1(struct qb_hdb *handle_database$link1, unsigned long int handle_in$link1)
+static inline signed int hdb_handle_put_link1(struct qb_hdb *handle_database_link1, unsigned long int handle_in_link1)
 {
-  signed int return_value_qb_hdb_handle_put$1$link1;
-  return_value_qb_hdb_handle_put$1$link1=qb_hdb_handle_put(handle_database$link1, handle_in$link1);
-  return return_value_qb_hdb_handle_put$1$link1;
+  signed int return_value_qb_hdb_handle_put_1_link1;
+  return_value_qb_hdb_handle_put_1_link1=qb_hdb_handle_put(handle_database_link1, handle_in_link1);
+  return return_value_qb_hdb_handle_put_1_link1;
 }
 
-// hdb_handle_put$link2
+// hdb_handle_put_link2
 // file ../include/corosync/hdb.h line 121
-static inline signed int hdb_handle_put$link2(struct qb_hdb *handle_database$link2, unsigned long int handle_in$link2)
+static inline signed int hdb_handle_put_link2(struct qb_hdb *handle_database_link2, unsigned long int handle_in_link2)
 {
-  signed int return_value_qb_hdb_handle_put$1$link2;
-  return_value_qb_hdb_handle_put$1$link2=qb_hdb_handle_put(handle_database$link2, handle_in$link2);
-  return return_value_qb_hdb_handle_put$1$link2;
+  signed int return_value_qb_hdb_handle_put_1_link2;
+  return_value_qb_hdb_handle_put_1_link2=qb_hdb_handle_put(handle_database_link2, handle_in_link2);
+  return return_value_qb_hdb_handle_put_1_link2;
 }
 
-// hdb_handle_put$link3
+// hdb_handle_put_link3
 // file ../include/corosync/hdb.h line 121
-static inline signed int hdb_handle_put$link3(struct qb_hdb *handle_database$link3, unsigned long int handle_in$link3)
+static inline signed int hdb_handle_put_link3(struct qb_hdb *handle_database_link3, unsigned long int handle_in_link3)
 {
-  signed int return_value_qb_hdb_handle_put$1$link3;
-  return_value_qb_hdb_handle_put$1$link3=qb_hdb_handle_put(handle_database$link3, handle_in$link3);
-  return return_value_qb_hdb_handle_put$1$link3;
+  signed int return_value_qb_hdb_handle_put_1_link3;
+  return_value_qb_hdb_handle_put_1_link3=qb_hdb_handle_put(handle_database_link3, handle_in_link3);
+  return return_value_qb_hdb_handle_put_1_link3;
 }
 
 // hdb_iterator_next
 // file ../include/corosync/hdb.h line 148
 static inline signed int hdb_iterator_next(struct qb_hdb *handle_database, void **instance, unsigned long int *handle)
 {
-  signed int return_value_qb_hdb_iterator_next$1;
-  return_value_qb_hdb_iterator_next$1=qb_hdb_iterator_next(handle_database, instance, handle);
-  return return_value_qb_hdb_iterator_next$1;
+  signed int return_value_qb_hdb_iterator_next_1;
+  return_value_qb_hdb_iterator_next_1=qb_hdb_iterator_next(handle_database, instance, handle);
+  return return_value_qb_hdb_iterator_next_1;
 }
 
-// hdb_iterator_next$link1
+// hdb_iterator_next_link1
 // file ../include/corosync/hdb.h line 148
-static inline signed int hdb_iterator_next$link1(struct qb_hdb *handle_database$link1, void **instance$link1, unsigned long int *handle$link1)
+static inline signed int hdb_iterator_next_link1(struct qb_hdb *handle_database_link1, void **instance_link1, unsigned long int *handle_link1)
 {
-  signed int return_value_qb_hdb_iterator_next$1$link1;
-  return_value_qb_hdb_iterator_next$1$link1=qb_hdb_iterator_next(handle_database$link1, instance$link1, handle$link1);
-  return return_value_qb_hdb_iterator_next$1$link1;
+  signed int return_value_qb_hdb_iterator_next_1_link1;
+  return_value_qb_hdb_iterator_next_1_link1=qb_hdb_iterator_next(handle_database_link1, instance_link1, handle_link1);
+  return return_value_qb_hdb_iterator_next_1_link1;
 }
 
 // hdb_iterator_reset
@@ -2780,11 +2780,11 @@ static inline void hdb_iterator_reset(struct qb_hdb *handle_database)
   qb_hdb_iterator_reset(handle_database);
 }
 
-// hdb_iterator_reset$link1
+// hdb_iterator_reset_link1
 // file ../include/corosync/hdb.h line 142
-static inline void hdb_iterator_reset$link1(struct qb_hdb *handle_database$link1)
+static inline void hdb_iterator_reset_link1(struct qb_hdb *handle_database_link1)
 {
-  qb_hdb_iterator_reset(handle_database$link1);
+  qb_hdb_iterator_reset(handle_database_link1);
 }
 
 // main
@@ -2816,7 +2816,7 @@ signed int main(signed int argc, char **argv)
     {
       waitpid(pid, &stat, 0);
       /* tag-#anon#lUN[lS32'__in'|S32'__i'] */
-union anonymous$7
+union anonymous_7
 {
   // __in
   signed int __in;
@@ -2826,7 +2826,7 @@ union anonymous$7
 
 /* */
       ;
-      fprintf(stderr, "test1 %s\n", (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
+      fprintf(stderr, "test1 %s\n", (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
       if(!((0xff00 & stat) >> 8 == 0))
         all_passed = 0;
 
@@ -2848,7 +2848,7 @@ union anonymous$7
         else
         {
           waitpid(pid, &stat, 0);
-          fprintf(stderr, "test2 %s\n", (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
+          fprintf(stderr, "test2 %s\n", (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
           if(!((0xff00 & stat) >> 8 == 0))
             all_passed = 0;
 
@@ -2870,7 +2870,7 @@ union anonymous$7
             else
             {
               waitpid(pid, &stat, 0);
-              fprintf(stderr, "test3 %s\n", (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
+              fprintf(stderr, "test3 %s\n", (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
               if(!((0xff00 & stat) >> 8 == 0))
                 all_passed = 0;
 
@@ -2892,7 +2892,7 @@ union anonymous$7
                 else
                 {
                   waitpid(pid, &stat, 0);
-                  fprintf(stderr, "test4 %s\n", (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
+                  fprintf(stderr, "test4 %s\n", (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
                   if(!((0xff00 & stat) >> 8 == 0))
                     all_passed = 0;
 
@@ -2914,7 +2914,7 @@ union anonymous$7
                     else
                     {
                       waitpid(pid, &stat, 0);
-                      fprintf(stderr, "test5 %s\n", (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
+                      fprintf(stderr, "test5 %s\n", (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
                       if(!((0xff00 & stat) >> 8 == 0))
                         all_passed = 0;
 
@@ -2936,7 +2936,7 @@ union anonymous$7
                         else
                         {
                           waitpid(pid, &stat, 0);
-                          fprintf(stderr, "test6 %s\n", (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
+                          fprintf(stderr, "test6 %s\n", (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 0 ? "passed" : "failed");
                           if(!((0xff00 & stat) >> 8 == 0))
                             all_passed = 0;
 
@@ -2958,13 +2958,13 @@ union anonymous$7
                             else
                             {
                               waitpid(pid, &stat, 0);
-                              char *tmp_if_expr$1;
+                              char *tmp_if_expr_1;
                               if((0xff00 & stat) >> 8 == 0)
-                                tmp_if_expr$1 = "passed";
+                                tmp_if_expr_1 = "passed";
 
                               else
-                                tmp_if_expr$1 = (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 1 ? "skipped" : "failed";
-                              fprintf(stderr, "test7 %s\n", tmp_if_expr$1);
+                                tmp_if_expr_1 = (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 1 ? "skipped" : "failed";
+                              fprintf(stderr, "test7 %s\n", tmp_if_expr_1);
                               if((0xff00 & stat) >> 8 == 1)
                                 no_skipped = no_skipped + 1;
 
@@ -2982,9 +2982,9 @@ union anonymous$7
                               {
                                 if(pid == 0)
                                 {
-                                  signed int return_value_getpid$2;
-                                  return_value_getpid$2=getpid();
-                                  err=test8(return_value_getpid$2, 0, 1);
+                                  signed int return_value_getpid_2;
+                                  return_value_getpid_2=getpid();
+                                  err=test8(return_value_getpid_2, 0, 1);
                                   sam_finalize();
                                   return err;
                                 }
@@ -3002,9 +3002,9 @@ union anonymous$7
 
                                   if(pid == 0)
                                   {
-                                    signed int return_value_getpid$3;
-                                    return_value_getpid$3=getpid();
-                                    err=test8(return_value_getpid$3, old_pid, 2);
+                                    signed int return_value_getpid_3;
+                                    return_value_getpid_3=getpid();
+                                    err=test8(return_value_getpid_3, old_pid, 2);
                                     sam_finalize();
                                     return err;
                                   }
@@ -3032,13 +3032,13 @@ union anonymous$7
 
                                 }
 
-                                char *tmp_if_expr$4;
+                                char *tmp_if_expr_4;
                                 if((0xff00 & stat) >> 8 == 0)
-                                  tmp_if_expr$4 = "passed";
+                                  tmp_if_expr_4 = "passed";
 
                                 else
-                                  tmp_if_expr$4 = (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 1 ? "skipped" : "failed";
-                                fprintf(stderr, "test8 %s\n", tmp_if_expr$4);
+                                  tmp_if_expr_4 = (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 1 ? "skipped" : "failed";
+                                fprintf(stderr, "test8 %s\n", tmp_if_expr_4);
                                 if((0xff00 & stat) >> 8 == 1)
                                   no_skipped = no_skipped + 1;
 
@@ -3056,9 +3056,9 @@ union anonymous$7
                                 {
                                   if(pid == 0)
                                   {
-                                    signed int return_value_getpid$5;
-                                    return_value_getpid$5=getpid();
-                                    err=test9(return_value_getpid$5, 0, 1);
+                                    signed int return_value_getpid_5;
+                                    return_value_getpid_5=getpid();
+                                    err=test9(return_value_getpid_5, 0, 1);
                                     sam_finalize();
                                     return err;
                                   }
@@ -3084,13 +3084,13 @@ union anonymous$7
                                     waitpid(pid, &stat, 0);
                                   }
 
-                                  char *tmp_if_expr$6;
+                                  char *tmp_if_expr_6;
                                   if((0xff00 & stat) >> 8 == 0)
-                                    tmp_if_expr$6 = "passed";
+                                    tmp_if_expr_6 = "passed";
 
                                   else
-                                    tmp_if_expr$6 = (((union anonymous$7){ .__in=stat }).__i & 0xff00) >> 8 == 1 ? "skipped" : "failed";
-                                  fprintf(stderr, "test9 %s\n", tmp_if_expr$6);
+                                    tmp_if_expr_6 = (((union anonymous_7){ .__in=stat }).__i & 0xff00) >> 8 == 1 ? "skipped" : "failed";
+                                  fprintf(stderr, "test9 %s\n", tmp_if_expr_6);
                                   if((0xff00 & stat) >> 8 == 1)
                                     no_skipped = no_skipped + 1;
 
@@ -3114,12 +3114,12 @@ union anonymous$7
 
 // qb_to_cs_error
 // file ../include/corosync/corotypes.h line 139
-enum anonymous$0 qb_to_cs_error(signed int result)
+enum anonymous_0 qb_to_cs_error(signed int result)
 {
   signed int res;
-  enum anonymous$0 err = (enum anonymous$0)CS_ERR_LIBRARY;
+  enum anonymous_0 err = (enum anonymous_0)CS_ERR_LIBRARY;
   if(result >= 0)
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
 
   else
   {
@@ -3128,12 +3128,12 @@ enum anonymous$0 qb_to_cs_error(signed int result)
     {
       case 9:
       {
-        err = (enum anonymous$0)CS_ERR_BAD_HANDLE;
+        err = (enum anonymous_0)CS_ERR_BAD_HANDLE;
         break;
       }
       case 12:
       {
-        err = (enum anonymous$0)CS_ERR_NO_MEMORY;
+        err = (enum anonymous_0)CS_ERR_NO_MEMORY;
         break;
       }
       case 42:
@@ -3144,78 +3144,78 @@ enum anonymous$0 qb_to_cs_error(signed int result)
 
       case 11:
       {
-        err = (enum anonymous$0)CS_ERR_TRY_AGAIN;
+        err = (enum anonymous_0)CS_ERR_TRY_AGAIN;
         break;
       }
       case 52:
       {
-        err = (enum anonymous$0)CS_ERR_FAILED_OPERATION;
+        err = (enum anonymous_0)CS_ERR_FAILED_OPERATION;
         break;
       }
       case 62:
       {
-        err = (enum anonymous$0)CS_ERR_TIMEOUT;
+        err = (enum anonymous_0)CS_ERR_TIMEOUT;
         break;
       }
       case 22:
       {
-        err = (enum anonymous$0)CS_ERR_INVALID_PARAM;
+        err = (enum anonymous_0)CS_ERR_INVALID_PARAM;
         break;
       }
       case 16:
       {
-        err = (enum anonymous$0)CS_ERR_BUSY;
+        err = (enum anonymous_0)CS_ERR_BUSY;
         break;
       }
       case 13:
       {
-        err = (enum anonymous$0)CS_ERR_ACCESS;
+        err = (enum anonymous_0)CS_ERR_ACCESS;
         break;
       }
       case 75:
       {
-        err = (enum anonymous$0)CS_ERR_NAME_TOO_LONG;
+        err = (enum anonymous_0)CS_ERR_NAME_TOO_LONG;
         break;
       }
       case 17:
       {
-        err = (enum anonymous$0)CS_ERR_EXIST;
+        err = (enum anonymous_0)CS_ERR_EXIST;
         break;
       }
       case 28:
       {
-        err = (enum anonymous$0)CS_ERR_NO_SPACE;
+        err = (enum anonymous_0)CS_ERR_NO_SPACE;
         break;
       }
       case 4:
       {
-        err = (enum anonymous$0)CS_ERR_INTERRUPT;
+        err = (enum anonymous_0)CS_ERR_INTERRUPT;
         break;
       }
       case 2:
 
       case 19:
       {
-        err = (enum anonymous$0)CS_ERR_NOT_EXIST;
+        err = (enum anonymous_0)CS_ERR_NOT_EXIST;
         break;
       }
       case 38:
 
       case 95:
       {
-        err = (enum anonymous$0)CS_ERR_NOT_SUPPORTED;
+        err = (enum anonymous_0)CS_ERR_NOT_SUPPORTED;
         break;
       }
       case 74:
       {
-        err = (enum anonymous$0)CS_ERR_MESSAGE_ERROR;
+        err = (enum anonymous_0)CS_ERR_MESSAGE_ERROR;
         break;
       }
       case 90:
 
       case 7:
       {
-        err = (enum anonymous$0)CS_ERR_TOO_BIG;
+        err = (enum anonymous_0)CS_ERR_TOO_BIG;
         break;
       }
       case 111:
@@ -3223,7 +3223,7 @@ enum anonymous$0 qb_to_cs_error(signed int result)
       case 107:
 
       default:
-        err = (enum anonymous$0)CS_ERR_LIBRARY;
+        err = (enum anonymous_0)CS_ERR_LIBRARY;
     }
     return err;
   }
@@ -3231,13 +3231,13 @@ enum anonymous$0 qb_to_cs_error(signed int result)
 
 // quorum_context_get
 // file quorum.c line 232
-enum anonymous$0 quorum_context_get(unsigned long int handle, const void **context)
+enum anonymous_0 quorum_context_get(unsigned long int handle, const void **context)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct quorum_inst *quorum_inst;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -3245,19 +3245,19 @@ enum anonymous$0 quorum_context_get(unsigned long int handle, const void **conte
   {
     *context = quorum_inst->context;
     hdb_handle_put(&quorum_handle_t_db, handle);
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
   }
 }
 
 // quorum_context_set
 // file quorum.c line 251
-enum anonymous$0 quorum_context_set(unsigned long int handle, const void *context)
+enum anonymous_0 quorum_context_set(unsigned long int handle, const void *context)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct quorum_inst *quorum_inst;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -3265,30 +3265,30 @@ enum anonymous$0 quorum_context_set(unsigned long int handle, const void *contex
   {
     quorum_inst->context = context;
     hdb_handle_put(&quorum_handle_t_db, handle);
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
   }
 }
 
 // quorum_dispatch
 // file ../include/corosync/quorum.h line 87
-enum anonymous$0 quorum_dispatch(unsigned long int handle, enum anonymous$5 dispatch_types)
+enum anonymous_0 quorum_dispatch(unsigned long int handle, enum anonymous_5 dispatch_types)
 {
   signed int timeout = -1;
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   signed int cont = 1;
   struct quorum_inst *quorum_inst;
-  struct anonymous$4 callbacks;
+  struct anonymous_4 callbacks;
   struct qb_ipc_response_header *dispatch_data;
   char dispatch_buf[1048576l];
   struct res_lib_quorum_notification *res_lib_quorum_notification;
   if(!((signed int)dispatch_types == CS_DISPATCH_ONE) && !((signed int)dispatch_types == CS_DISPATCH_ALL) && !((signed int)dispatch_types == CS_DISPATCH_BLOCKING) && !((signed int)dispatch_types == CS_DISPATCH_ONE_NONBLOCKING))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
   {
-    signed int return_value_hdb_handle_get$1;
-    return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-    error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+    signed int return_value_hdb_handle_get_1;
+    return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+    error=hdb_error_to_cs(return_value_hdb_handle_get_1);
     if(!((signed int)error == CS_OK))
       return error;
 
@@ -3300,12 +3300,12 @@ enum anonymous$0 quorum_dispatch(unsigned long int handle, enum anonymous$5 disp
       dispatch_data = (struct qb_ipc_response_header *)dispatch_buf;
       do
       {
-        signed long int return_value_qb_ipcc_event_recv$2;
-        return_value_qb_ipcc_event_recv$2=qb_ipcc_event_recv(quorum_inst->c, (void *)dispatch_buf, (unsigned long int)(8192 * 128), timeout);
-        error=qb_to_cs_error((signed int)return_value_qb_ipcc_event_recv$2);
+        signed long int return_value_qb_ipcc_event_recv_2;
+        return_value_qb_ipcc_event_recv_2=qb_ipcc_event_recv(quorum_inst->c, (void *)dispatch_buf, (unsigned long int)(8192 * 128), timeout);
+        error=qb_to_cs_error((signed int)return_value_qb_ipcc_event_recv_2);
         if((signed int)error == CS_ERR_BAD_HANDLE)
         {
-          error = (enum anonymous$0)CS_OK;
+          error = (enum anonymous_0)CS_OK;
           break;
         }
 
@@ -3314,7 +3314,7 @@ enum anonymous$0 quorum_dispatch(unsigned long int handle, enum anonymous$5 disp
           if((signed int)dispatch_types == CS_DISPATCH_ONE_NONBLOCKING)
             break;
 
-          error = (enum anonymous$0)CS_OK;
+          error = (enum anonymous_0)CS_OK;
           if((signed int)dispatch_types == CS_DISPATCH_ALL)
             break;
 
@@ -3325,7 +3325,7 @@ enum anonymous$0 quorum_dispatch(unsigned long int handle, enum anonymous$5 disp
           if(!((signed int)error == CS_OK))
             break;
 
-          memcpy((void *)&callbacks, (const void *)&quorum_inst->callbacks, sizeof(struct anonymous$4) /*8ul*/ );
+          memcpy((void *)&callbacks, (const void *)&quorum_inst->callbacks, sizeof(struct anonymous_4) /*8ul*/ );
           if(dispatch_data->id == 3)
           {
             if(callbacks.quorum_notify_fn == ((void (*)(unsigned long int, unsigned int, unsigned long int, unsigned int, unsigned int *))NULL))
@@ -3335,14 +3335,14 @@ enum anonymous$0 quorum_dispatch(unsigned long int handle, enum anonymous$5 disp
             callbacks.quorum_notify_fn(handle, (unsigned int)res_lib_quorum_notification->quorate, res_lib_quorum_notification->ring_seq, res_lib_quorum_notification->view_list_entries, res_lib_quorum_notification->view_list);
           }
 
-          error = (enum anonymous$0)CS_ERR_LIBRARY;
+          error = (enum anonymous_0)CS_ERR_LIBRARY;
           break;
 
         __CPROVER_DUMP_L10:
           ;
           if(!(quorum_inst->finalize == 0))
           {
-            error = (enum anonymous$0)CS_ERR_BAD_HANDLE;
+            error = (enum anonymous_0)CS_ERR_BAD_HANDLE;
             break;
           }
 
@@ -3363,21 +3363,21 @@ enum anonymous$0 quorum_dispatch(unsigned long int handle, enum anonymous$5 disp
 
 // quorum_fd_get
 // file ../include/corosync/quorum.h line 80
-enum anonymous$0 quorum_fd_get(unsigned long int handle, signed int *fd)
+enum anonymous_0 quorum_fd_get(unsigned long int handle, signed int *fd)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct quorum_inst *quorum_inst;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
   else
   {
-    signed int return_value_qb_ipcc_fd_get$2;
-    return_value_qb_ipcc_fd_get$2=qb_ipcc_fd_get(quorum_inst->c, fd);
-    error=qb_to_cs_error(return_value_qb_ipcc_fd_get$2);
+    signed int return_value_qb_ipcc_fd_get_2;
+    return_value_qb_ipcc_fd_get_2=qb_ipcc_fd_get(quorum_inst->c, fd);
+    error=qb_to_cs_error(return_value_qb_ipcc_fd_get_2);
     hdb_handle_put(&quorum_handle_t_db, handle);
     return error;
   }
@@ -3385,13 +3385,13 @@ enum anonymous$0 quorum_fd_get(unsigned long int handle, signed int *fd)
 
 // quorum_finalize
 // file ../include/corosync/quorum.h line 71
-enum anonymous$0 quorum_finalize(unsigned long int handle)
+enum anonymous_0 quorum_finalize(unsigned long int handle)
 {
   struct quorum_inst *quorum_inst;
-  enum anonymous$0 error;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  enum anonymous_0 error;
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -3399,7 +3399,7 @@ enum anonymous$0 quorum_finalize(unsigned long int handle)
     if(!(quorum_inst->finalize == 0))
     {
       hdb_handle_put(&quorum_handle_t_db, handle);
-      return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+      return (enum anonymous_0)CS_ERR_BAD_HANDLE;
     }
 
     else
@@ -3407,22 +3407,22 @@ enum anonymous$0 quorum_finalize(unsigned long int handle)
       quorum_inst->finalize = 1;
       hdb_handle_destroy(&quorum_handle_t_db, handle);
       hdb_handle_put(&quorum_handle_t_db, handle);
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
     }
 }
 
 // quorum_getquorate
 // file quorum.c line 170
-enum anonymous$0 quorum_getquorate(unsigned long int handle, signed int *quorate)
+enum anonymous_0 quorum_getquorate(unsigned long int handle, signed int *quorate)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct quorum_inst *quorum_inst;
   struct iovec iov;
   struct qb_ipc_request_header req;
   struct res_lib_quorum_getquorate res_lib_quorum_getquorate;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -3432,12 +3432,12 @@ enum anonymous$0 quorum_getquorate(unsigned long int handle, signed int *quorate
     req.id = 0;
     iov.iov_base = (void *)(char *)&req;
     iov.iov_len = sizeof(struct qb_ipc_request_header) /*8ul*/ ;
-    signed long int return_value_qb_ipcc_sendv_recv$2;
-    return_value_qb_ipcc_sendv_recv$2=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res_lib_quorum_getquorate, sizeof(struct res_lib_quorum_getquorate) /*24ul*/ , -1);
-    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$2);
+    signed long int return_value_qb_ipcc_sendv_recv_2;
+    return_value_qb_ipcc_sendv_recv_2=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res_lib_quorum_getquorate, sizeof(struct res_lib_quorum_getquorate) /*24ul*/ , -1);
+    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_2);
     if((signed int)error == CS_OK)
     {
-      error = (enum anonymous$0)res_lib_quorum_getquorate.header.error;
+      error = (enum anonymous_0)res_lib_quorum_getquorate.header.error;
       *quorate = (signed int)res_lib_quorum_getquorate.quorate;
     }
 
@@ -3451,32 +3451,32 @@ enum anonymous$0 quorum_getquorate(unsigned long int handle, signed int *quorate
 
 // quorum_initialize
 // file ../include/corosync/quorum.h line 63
-enum anonymous$0 quorum_initialize(unsigned long int *handle, struct anonymous$4 *callbacks, unsigned int *quorum_type)
+enum anonymous_0 quorum_initialize(unsigned long int *handle, struct anonymous_4 *callbacks, unsigned int *quorum_type)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct quorum_inst *quorum_inst;
   struct iovec iov;
   struct qb_ipc_request_header req;
   struct res_lib_quorum_gettype res_lib_quorum_gettype;
-  signed int return_value_hdb_handle_create$1;
-  return_value_hdb_handle_create$1=hdb_handle_create(&quorum_handle_t_db, (signed int)sizeof(struct quorum_inst) /*32ul*/ , handle);
-  error=hdb_error_to_cs(return_value_hdb_handle_create$1);
-  signed int return_value_hdb_handle_get$2;
-  signed long int return_value_qb_ipcc_sendv_recv$4;
+  signed int return_value_hdb_handle_create_1;
+  return_value_hdb_handle_create_1=hdb_handle_create(&quorum_handle_t_db, (signed int)sizeof(struct quorum_inst) /*32ul*/ , handle);
+  error=hdb_error_to_cs(return_value_hdb_handle_create_1);
+  signed int return_value_hdb_handle_get_2;
+  signed long int return_value_qb_ipcc_sendv_recv_4;
   if((signed int)error == CS_OK)
   {
-    return_value_hdb_handle_get$2=hdb_handle_get(&quorum_handle_t_db, *handle, (void **)(void *)&quorum_inst);
-    error=hdb_error_to_cs(return_value_hdb_handle_get$2);
+    return_value_hdb_handle_get_2=hdb_handle_get(&quorum_handle_t_db, *handle, (void **)(void *)&quorum_inst);
+    error=hdb_error_to_cs(return_value_hdb_handle_get_2);
     if((signed int)error == CS_OK)
     {
-      error = (enum anonymous$0)CS_OK;
+      error = (enum anonymous_0)CS_OK;
       quorum_inst->finalize = 0;
       quorum_inst->c=qb_ipcc_connect("quorum", (unsigned long int)(8192 * 128));
       if(quorum_inst->c == ((struct qb_ipcc_connection *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        error=qb_to_cs_error(-(*return_value___errno_location$3));
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        error=qb_to_cs_error(-(*return_value___errno_location_3));
         goto error_put_destroy;
       }
 
@@ -3484,19 +3484,19 @@ enum anonymous$0 quorum_initialize(unsigned long int *handle, struct anonymous$4
       req.id = 3;
       iov.iov_base = (void *)(char *)&req;
       iov.iov_len = sizeof(struct qb_ipc_request_header) /*8ul*/ ;
-      return_value_qb_ipcc_sendv_recv$4=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res_lib_quorum_gettype, sizeof(struct res_lib_quorum_gettype) /*24ul*/ , -1);
-      error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$4);
+      return_value_qb_ipcc_sendv_recv_4=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res_lib_quorum_gettype, sizeof(struct res_lib_quorum_gettype) /*24ul*/ , -1);
+      error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_4);
       if((signed int)error == CS_OK)
       {
-        error = (enum anonymous$0)res_lib_quorum_gettype.header.error;
+        error = (enum anonymous_0)res_lib_quorum_gettype.header.error;
         *quorum_type = res_lib_quorum_gettype.quorum_type;
-        if(!(callbacks == ((struct anonymous$4 *)NULL)))
-          memcpy((void *)&quorum_inst->callbacks, (const void *)callbacks, sizeof(struct anonymous$4) /*8ul*/ );
+        if(!(callbacks == ((struct anonymous_4 *)NULL)))
+          memcpy((void *)&quorum_inst->callbacks, (const void *)callbacks, sizeof(struct anonymous_4) /*8ul*/ );
 
         else
-          memset((void *)&quorum_inst->callbacks, 0, sizeof(struct anonymous$4) /*8ul*/ );
+          memset((void *)&quorum_inst->callbacks, 0, sizeof(struct anonymous_4) /*8ul*/ );
         hdb_handle_put(&quorum_handle_t_db, *handle);
-        return (enum anonymous$0)CS_OK;
+        return (enum anonymous_0)CS_OK;
       }
 
 
@@ -3525,12 +3525,12 @@ static void quorum_inst_free(void *inst)
   qb_ipcc_disconnect(quorum_inst->c);
 }
 
-// quorum_inst_free$link1
+// quorum_inst_free_link1
 // file quorum.c line 136
-static void quorum_inst_free$link1(void *inst$link1)
+static void quorum_inst_free_link1(void *inst_link1)
 {
-  struct quorum_inst *quorum_inst$link1 = (struct quorum_inst *)inst$link1;
-  qb_ipcc_disconnect(quorum_inst$link1->c);
+  struct quorum_inst *quorum_inst_link1 = (struct quorum_inst *)inst_link1;
+  qb_ipcc_disconnect(quorum_inst_link1->c);
 }
 
 // quorum_notification_fn
@@ -3542,16 +3542,16 @@ static void quorum_notification_fn(unsigned long int handle, unsigned int quorat
 
 // quorum_trackstart
 // file ../include/corosync/quorum.h line 102
-enum anonymous$0 quorum_trackstart(unsigned long int handle, unsigned int flags)
+enum anonymous_0 quorum_trackstart(unsigned long int handle, unsigned int flags)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct quorum_inst *quorum_inst;
   struct iovec iov;
   struct req_lib_quorum_trackstart req_lib_quorum_trackstart;
   struct qb_ipc_response_header res;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -3562,11 +3562,11 @@ enum anonymous$0 quorum_trackstart(unsigned long int handle, unsigned int flags)
     req_lib_quorum_trackstart.track_flags = flags;
     iov.iov_base = (void *)(char *)&req_lib_quorum_trackstart;
     iov.iov_len = sizeof(struct req_lib_quorum_trackstart) /*16ul*/ ;
-    signed long int return_value_qb_ipcc_sendv_recv$2;
-    return_value_qb_ipcc_sendv_recv$2=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res, sizeof(struct qb_ipc_response_header) /*16ul*/ , -1);
-    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$2);
+    signed long int return_value_qb_ipcc_sendv_recv_2;
+    return_value_qb_ipcc_sendv_recv_2=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res, sizeof(struct qb_ipc_response_header) /*16ul*/ , -1);
+    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_2);
     if((signed int)error == CS_OK)
-      error = (enum anonymous$0)res.error;
+      error = (enum anonymous_0)res.error;
 
 
   error_exit:
@@ -3578,16 +3578,16 @@ enum anonymous$0 quorum_trackstart(unsigned long int handle, unsigned int flags)
 
 // quorum_trackstop
 // file quorum.c line 312
-enum anonymous$0 quorum_trackstop(unsigned long int handle)
+enum anonymous_0 quorum_trackstop(unsigned long int handle)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   struct quorum_inst *quorum_inst;
   struct iovec iov;
   struct qb_ipc_request_header req;
   struct qb_ipc_response_header res;
-  signed int return_value_hdb_handle_get$1;
-  return_value_hdb_handle_get$1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
-  error=hdb_error_to_cs(return_value_hdb_handle_get$1);
+  signed int return_value_hdb_handle_get_1;
+  return_value_hdb_handle_get_1=hdb_handle_get(&quorum_handle_t_db, handle, (void **)(void *)&quorum_inst);
+  error=hdb_error_to_cs(return_value_hdb_handle_get_1);
   if(!((signed int)error == CS_OK))
     return error;
 
@@ -3597,11 +3597,11 @@ enum anonymous$0 quorum_trackstop(unsigned long int handle)
     req.id = 2;
     iov.iov_base = (void *)(char *)&req;
     iov.iov_len = sizeof(struct qb_ipc_request_header) /*8ul*/ ;
-    signed long int return_value_qb_ipcc_sendv_recv$2;
-    return_value_qb_ipcc_sendv_recv$2=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res, sizeof(struct qb_ipc_response_header) /*16ul*/ , -1);
-    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv$2);
+    signed long int return_value_qb_ipcc_sendv_recv_2;
+    return_value_qb_ipcc_sendv_recv_2=qb_ipcc_sendv_recv(quorum_inst->c, &iov, (unsigned int)1, (void *)&res, sizeof(struct qb_ipc_response_header) /*16ul*/ , -1);
+    error=qb_to_cs_error((signed int)return_value_qb_ipcc_sendv_recv_2);
     if((signed int)error == CS_OK)
-      error = (enum anonymous$0)res.error;
+      error = (enum anonymous_0)res.error;
 
 
   error_exit:
@@ -3613,17 +3613,17 @@ enum anonymous$0 quorum_trackstop(unsigned long int handle)
 
 // sam_cmap_destroy_pid_path
 // file sam.c line 194
-static enum anonymous$0 sam_cmap_destroy_pid_path(void)
+static enum anonymous_0 sam_cmap_destroy_pid_path(void)
 {
   unsigned long int iter;
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   char key_name[255l];
   err=cmap_iter_init(sam_internal_data.cmap_handle, sam_internal_data.cmap_pid_path, &iter);
   if((signed int)err == CS_OK)
   {
     do
     {
-      err=cmap_iter_next(sam_internal_data.cmap_handle, iter, key_name, (unsigned long int *)(void *)0, (enum anonymous$6 *)(void *)0);
+      err=cmap_iter_next(sam_internal_data.cmap_handle, iter, key_name, (unsigned long int *)(void *)0, (enum anonymous_6 *)(void *)0);
       if(!((signed int)err == CS_OK))
         break;
 
@@ -3641,9 +3641,9 @@ error_exit:
 
 // sam_cmap_register
 // file sam.c line 215
-static enum anonymous$0 sam_cmap_register(void)
+static enum anonymous_0 sam_cmap_register(void)
 {
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   unsigned long int cmap_handle;
   err=cmap_initialize(&cmap_handle);
   if(!((signed int)err == CS_OK))
@@ -3651,9 +3651,9 @@ static enum anonymous$0 sam_cmap_register(void)
 
   else
   {
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    snprintf(sam_internal_data.cmap_pid_path, (unsigned long int)255, "resources.process.%d.", return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    snprintf(sam_internal_data.cmap_pid_path, (unsigned long int)255, "resources.process.%d.", return_value_getpid_1);
     sam_internal_data.cmap_handle = cmap_handle;
     err=sam_cmap_update_key((enum sam_cmap_key_t)SAM_CMAP_KEY_RECOVERY, (const char *)(void *)0);
     if((signed int)err == CS_OK)
@@ -3662,7 +3662,7 @@ static enum anonymous$0 sam_cmap_register(void)
       if(!((signed int)err == CS_OK))
         goto destroy_finalize_error;
 
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
     }
 
     else
@@ -3679,9 +3679,9 @@ static enum anonymous$0 sam_cmap_register(void)
 
 // sam_cmap_update_key
 // file sam.c line 142
-static enum anonymous$0 sam_cmap_update_key(enum sam_cmap_key_t key, const char *value)
+static enum anonymous_0 sam_cmap_update_key(enum sam_cmap_key_t key, const char *value)
 {
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   const char *svalue;
   unsigned long int hc_period;
   unsigned long int last_hc;
@@ -3733,7 +3733,7 @@ static enum anonymous$0 sam_cmap_update_key(enum sam_cmap_key_t key, const char 
 
     __CPROVER_DUMP_L5:
       ;
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
     }
   }
 
@@ -3744,51 +3744,51 @@ exit_error:
 
 // sam_data_getsize
 // file ../include/corosync/sam.h line 192
-enum anonymous$0 sam_data_getsize(unsigned long int *size)
+enum anonymous_0 sam_data_getsize(unsigned long int *size)
 {
   if(size == ((unsigned long int *)NULL))
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
     if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_INITIALIZED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-      return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+      return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
     else
     {
       pthread_mutex_lock(&sam_internal_data.lock);
       *size = sam_internal_data.user_data_size;
       pthread_mutex_unlock(&sam_internal_data.lock);
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
     }
 }
 
 // sam_data_restore
 // file ../include/corosync/sam.h line 204
-enum anonymous$0 sam_data_restore(void *data, unsigned long int size)
+enum anonymous_0 sam_data_restore(void *data, unsigned long int size)
 {
-  enum anonymous$0 err = (enum anonymous$0)CS_OK;
+  enum anonymous_0 err = (enum anonymous_0)CS_OK;
   if(data == NULL)
-    return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+    return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
   else
     if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_INITIALIZED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-      return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+      return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
     else
     {
       pthread_mutex_lock(&sam_internal_data.lock);
       if(sam_internal_data.user_data_size == 0ul)
-        err = (enum anonymous$0)CS_OK;
+        err = (enum anonymous_0)CS_OK;
 
       else
         if(!(size >= sam_internal_data.user_data_size))
-          err = (enum anonymous$0)CS_ERR_INVALID_PARAM;
+          err = (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
         else
         {
           memcpy(data, sam_internal_data.user_data, sam_internal_data.user_data_size);
           pthread_mutex_unlock(&sam_internal_data.lock);
-          return (enum anonymous$0)CS_OK;
+          return (enum anonymous_0)CS_OK;
         }
 
     error_unlock:
@@ -3800,14 +3800,14 @@ enum anonymous$0 sam_data_restore(void *data, unsigned long int size)
 
 // sam_data_store
 // file ../include/corosync/sam.h line 224
-enum anonymous$0 sam_data_store(const void *data, unsigned long int size)
+enum anonymous_0 sam_data_store(const void *data, unsigned long int size)
 {
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   char command;
   char *new_data;
-  unsigned long int return_value_sam_safe_write$3;
+  unsigned long int return_value_sam_safe_write_3;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_INITIALIZED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
   {
@@ -3818,28 +3818,28 @@ enum anonymous$0 sam_data_store(const void *data, unsigned long int size)
     if(!(sam_internal_data.am_i_child == 0))
     {
       command = (char)3;
-      unsigned long int return_value_sam_safe_write$1;
-      return_value_sam_safe_write$1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
-      if(!(return_value_sam_safe_write$1 == sizeof(char) /*1ul*/ ))
+      unsigned long int return_value_sam_safe_write_1;
+      return_value_sam_safe_write_1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
+      if(!(return_value_sam_safe_write_1 == sizeof(char) /*1ul*/ ))
       {
-        err = (enum anonymous$0)CS_ERR_LIBRARY;
+        err = (enum anonymous_0)CS_ERR_LIBRARY;
         goto error_unlock;
       }
 
-      unsigned long int return_value_sam_safe_write$2;
-      return_value_sam_safe_write$2=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&size, sizeof(unsigned long int) /*8ul*/ );
-      if(!(return_value_sam_safe_write$2 == sizeof(unsigned long int) /*8ul*/ ))
+      unsigned long int return_value_sam_safe_write_2;
+      return_value_sam_safe_write_2=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&size, sizeof(unsigned long int) /*8ul*/ );
+      if(!(return_value_sam_safe_write_2 == sizeof(unsigned long int) /*8ul*/ ))
       {
-        err = (enum anonymous$0)CS_ERR_LIBRARY;
+        err = (enum anonymous_0)CS_ERR_LIBRARY;
         goto error_unlock;
       }
 
       if(!(data == NULL))
       {
-        return_value_sam_safe_write$3=sam_safe_write(sam_internal_data.child_fd_out, data, size);
-        if(!(return_value_sam_safe_write$3 == size))
+        return_value_sam_safe_write_3=sam_safe_write(sam_internal_data.child_fd_out, data, size);
+        if(!(return_value_sam_safe_write_3 == size))
         {
-          err = (enum anonymous$0)CS_ERR_LIBRARY;
+          err = (enum anonymous_0)CS_ERR_LIBRARY;
           goto error_unlock;
         }
 
@@ -3863,12 +3863,12 @@ enum anonymous$0 sam_data_store(const void *data, unsigned long int size)
     {
       if(!(sam_internal_data.user_data_allocated >= size))
       {
-        void *return_value_realloc$4;
-        return_value_realloc$4=realloc(sam_internal_data.user_data, size);
-        new_data = (char *)return_value_realloc$4;
+        void *return_value_realloc_4;
+        return_value_realloc_4=realloc(sam_internal_data.user_data, size);
+        new_data = (char *)return_value_realloc_4;
         if(new_data == ((char *)NULL))
         {
-          err = (enum anonymous$0)CS_ERR_NO_MEMORY;
+          err = (enum anonymous_0)CS_ERR_NO_MEMORY;
           goto error_unlock;
         }
 
@@ -3882,7 +3882,7 @@ enum anonymous$0 sam_data_store(const void *data, unsigned long int size)
       memcpy(sam_internal_data.user_data, data, size);
     }
     pthread_mutex_unlock(&sam_internal_data.lock);
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
 
   error_unlock:
     ;
@@ -3893,11 +3893,11 @@ enum anonymous$0 sam_data_store(const void *data, unsigned long int size)
 
 // sam_finalize
 // file ../include/corosync/sam.h line 91
-enum anonymous$0 sam_finalize(void)
+enum anonymous_0 sam_finalize(void)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_INITIALIZED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
   {
@@ -3914,68 +3914,68 @@ enum anonymous$0 sam_finalize(void)
 
   exit_error:
     ;
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
   }
 }
 
 // sam_hc_callback_register
 // file ../include/corosync/sam.h line 179
-enum anonymous$0 sam_hc_callback_register(signed int (*cb)(void))
+enum anonymous_0 sam_hc_callback_register(signed int (*cb)(void))
 {
-  enum anonymous$0 error = (enum anonymous$0)CS_OK;
+  enum anonymous_0 error = (enum anonymous_0)CS_OK;
   union pthread_attr_t thread_attr;
   signed int pipe_error;
   signed int pipe_fd[2l];
-  signed int return_value_pthread_attr_init$1;
-  signed int return_value_pthread_create$2;
+  signed int return_value_pthread_attr_init_1;
+  signed int return_value_pthread_create_2;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
     if(sam_internal_data.time_interval == 0)
-      return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+      return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
     else
       if(!(sam_internal_data.cb_registered == 0))
       {
         sam_internal_data.hc_callback = cb;
-        return (enum anonymous$0)CS_OK;
+        return (enum anonymous_0)CS_OK;
       }
 
       else
         if(cb == ((signed int (*)(void))NULL))
-          return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+          return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
         else
         {
           pipe_error=pipe(pipe_fd);
           if(!(pipe_error == 0))
-            error = (enum anonymous$0)CS_ERR_LIBRARY;
+            error = (enum anonymous_0)CS_ERR_LIBRARY;
 
           else
           {
             sam_internal_data.cb_rpipe_fd = pipe_fd[(signed long int)0];
             sam_internal_data.cb_wpipe_fd = pipe_fd[(signed long int)1];
-            return_value_pthread_attr_init$1=pthread_attr_init(&thread_attr);
-            error = (enum anonymous$0)return_value_pthread_attr_init$1;
+            return_value_pthread_attr_init_1=pthread_attr_init(&thread_attr);
+            error = (enum anonymous_0)return_value_pthread_attr_init_1;
             if(!((signed int)error == 0))
-              error = (enum anonymous$0)CS_ERR_LIBRARY;
+              error = (enum anonymous_0)CS_ERR_LIBRARY;
 
             else
             {
               pthread_attr_setdetachstate(&thread_attr, 1);
               pthread_attr_setstacksize(&thread_attr, (unsigned long int)32768);
-              return_value_pthread_create$2=pthread_create(&sam_internal_data.cb_thread, &thread_attr, hc_callback_thread, (void *)0);
-              error = (enum anonymous$0)return_value_pthread_create$2;
+              return_value_pthread_create_2=pthread_create(&sam_internal_data.cb_thread, &thread_attr, hc_callback_thread, (void *)0);
+              error = (enum anonymous_0)return_value_pthread_create_2;
               if(!((signed int)error == 0))
-                error = (enum anonymous$0)CS_ERR_LIBRARY;
+                error = (enum anonymous_0)CS_ERR_LIBRARY;
 
               else
               {
                 pthread_attr_destroy(&thread_attr);
                 sam_internal_data.cb_registered = 1;
                 sam_internal_data.hc_callback = cb;
-                return (enum anonymous$0)CS_OK;
+                return (enum anonymous_0)CS_OK;
               }
 
             error_attr_destroy_exit:
@@ -3999,38 +3999,38 @@ enum anonymous$0 sam_hc_callback_register(signed int (*cb)(void))
 
 // sam_hc_send
 // file ../include/corosync/sam.h line 159
-enum anonymous$0 sam_hc_send(void)
+enum anonymous_0 sam_hc_send(void)
 {
   char command;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
   {
     command = (char)2;
-    unsigned long int return_value_sam_safe_write$1;
-    return_value_sam_safe_write$1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
-    if(!(return_value_sam_safe_write$1 == sizeof(char) /*1ul*/ ))
-      return (enum anonymous$0)CS_ERR_LIBRARY;
+    unsigned long int return_value_sam_safe_write_1;
+    return_value_sam_safe_write_1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
+    if(!(return_value_sam_safe_write_1 == sizeof(char) /*1ul*/ ))
+      return (enum anonymous_0)CS_ERR_LIBRARY;
 
     else
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
   }
 }
 
 // sam_initialize
 // file ../include/corosync/sam.h line 76
-enum anonymous$0 sam_initialize(signed int time_interval, enum anonymous$8 recovery_policy)
+enum anonymous_0 sam_initialize(signed int time_interval, enum anonymous_8 recovery_policy)
 {
-  struct anonymous$4 quorum_callbacks;
+  struct anonymous_4 quorum_callbacks;
   unsigned int quorum_type;
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_NOT_INITIALIZED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
     if(!((-25 & (signed int)recovery_policy) == SAM_RECOVERY_POLICY_QUIT) && !((-25 & (signed int)recovery_policy) == SAM_RECOVERY_POLICY_RESTART))
-      return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+      return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
     else
     {
@@ -4049,7 +4049,7 @@ enum anonymous$0 sam_initialize(signed int time_interval, enum anonymous$8 recov
         if(!((signed int)err == CS_OK))
           goto exit_error_quorum;
 
-        err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous$5)CS_DISPATCH_ONE);
+        err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous_5)CS_DISPATCH_ONE);
         if(!((signed int)err == CS_OK))
           goto exit_error_quorum;
 
@@ -4063,8 +4063,8 @@ enum anonymous$0 sam_initialize(signed int time_interval, enum anonymous$8 recov
       sam_internal_data.user_data = (void *)0;
       sam_internal_data.user_data_size = (unsigned long int)0;
       sam_internal_data.user_data_allocated = (unsigned long int)0;
-      pthread_mutex_init(&sam_internal_data.lock, (const union anonymous$2 *)(void *)0);
-      return (enum anonymous$0)CS_OK;
+      pthread_mutex_init(&sam_internal_data.lock, (const union anonymous_2 *)(void *)0);
+      return (enum anonymous_0)CS_OK;
 
     exit_error_quorum:
       ;
@@ -4078,34 +4078,34 @@ enum anonymous$0 sam_initialize(signed int time_interval, enum anonymous$8 recov
 
 // sam_mark_failed
 // file ../include/corosync/sam.h line 241
-enum anonymous$0 sam_mark_failed(void)
+enum anonymous_0 sam_mark_failed(void)
 {
   char command;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
     if((SAM_RECOVERY_POLICY_CMAP & (signed int)sam_internal_data.recovery_policy) == 0)
-      return (enum anonymous$0)CS_ERR_INVALID_PARAM;
+      return (enum anonymous_0)CS_ERR_INVALID_PARAM;
 
     else
     {
       command = (char)5;
-      unsigned long int return_value_sam_safe_write$1;
-      return_value_sam_safe_write$1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
-      if(!(return_value_sam_safe_write$1 == sizeof(char) /*1ul*/ ))
-        return (enum anonymous$0)CS_ERR_LIBRARY;
+      unsigned long int return_value_sam_safe_write_1;
+      return_value_sam_safe_write_1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
+      if(!(return_value_sam_safe_write_1 == sizeof(char) /*1ul*/ ))
+        return (enum anonymous_0)CS_ERR_LIBRARY;
 
       else
-        return (enum anonymous$0)CS_OK;
+        return (enum anonymous_0)CS_OK;
     }
 }
 
 // sam_parent_cmap_state_set
 // file sam.c line 909
-static enum anonymous$0 sam_parent_cmap_state_set(signed int parent_fd_in, signed int parent_fd_out, signed int state)
+static enum anonymous_0 sam_parent_cmap_state_set(signed int parent_fd_in, signed int parent_fd_out, signed int state)
 {
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   const char *state_s;
   if(state == 1)
     state_s = "running";
@@ -4113,53 +4113,53 @@ static enum anonymous$0 sam_parent_cmap_state_set(signed int parent_fd_in, signe
   else
     state_s = "stopped";
   err=sam_cmap_update_key((enum sam_cmap_key_t)SAM_CMAP_KEY_STATE, state_s);
-  enum anonymous$0 return_value_sam_parent_reply_send$1;
+  enum anonymous_0 return_value_sam_parent_reply_send_1;
   if((signed int)err == CS_OK)
   {
-    return_value_sam_parent_reply_send$1=sam_parent_reply_send((enum anonymous$0)CS_OK, parent_fd_in, parent_fd_out);
-    return return_value_sam_parent_reply_send$1;
+    return_value_sam_parent_reply_send_1=sam_parent_reply_send((enum anonymous_0)CS_OK, parent_fd_in, parent_fd_out);
+    return return_value_sam_parent_reply_send_1;
   }
 
 
 error_reply:
   ;
-  enum anonymous$0 return_value_sam_parent_reply_send$2;
-  return_value_sam_parent_reply_send$2=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
-  return return_value_sam_parent_reply_send$2;
+  enum anonymous_0 return_value_sam_parent_reply_send_2;
+  return_value_sam_parent_reply_send_2=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
+  return return_value_sam_parent_reply_send_2;
 }
 
 // sam_parent_data_store
 // file sam.c line 974
-static enum anonymous$0 sam_parent_data_store(signed int parent_fd_in, signed int parent_fd_out)
+static enum anonymous_0 sam_parent_data_store(signed int parent_fd_in, signed int parent_fd_out)
 {
   char *user_data;
   signed long int size;
-  enum anonymous$0 err = (enum anonymous$0)CS_OK;
+  enum anonymous_0 err = (enum anonymous_0)CS_OK;
   user_data = (char *)(void *)0;
-  unsigned long int return_value_sam_safe_read$1;
-  return_value_sam_safe_read$1=sam_safe_read(parent_fd_in, (void *)&size, sizeof(signed long int) /*8ul*/ );
-  enum anonymous$0 return_value_sam_parent_reply_send$4;
-  if(!(return_value_sam_safe_read$1 == sizeof(signed long int) /*8ul*/ ))
-    err = (enum anonymous$0)CS_ERR_LIBRARY;
+  unsigned long int return_value_sam_safe_read_1;
+  return_value_sam_safe_read_1=sam_safe_read(parent_fd_in, (void *)&size, sizeof(signed long int) /*8ul*/ );
+  enum anonymous_0 return_value_sam_parent_reply_send_4;
+  if(!(return_value_sam_safe_read_1 == sizeof(signed long int) /*8ul*/ ))
+    err = (enum anonymous_0)CS_ERR_LIBRARY;
 
   else
   {
     if(size >= 1l)
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)size);
-      user_data = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)size);
+      user_data = (char *)return_value_malloc_2;
       if(user_data == ((char *)NULL))
       {
-        err = (enum anonymous$0)CS_ERR_NO_MEMORY;
+        err = (enum anonymous_0)CS_ERR_NO_MEMORY;
         goto error_reply;
       }
 
-      unsigned long int return_value_sam_safe_read$3;
-      return_value_sam_safe_read$3=sam_safe_read(parent_fd_in, (void *)user_data, (unsigned long int)size);
-      if(!(return_value_sam_safe_read$3 == (unsigned long int)size))
+      unsigned long int return_value_sam_safe_read_3;
+      return_value_sam_safe_read_3=sam_safe_read(parent_fd_in, (void *)user_data, (unsigned long int)size);
+      if(!(return_value_sam_safe_read_3 == (unsigned long int)size))
       {
-        err = (enum anonymous$0)CS_ERR_LIBRARY;
+        err = (enum anonymous_0)CS_ERR_LIBRARY;
         goto free_error_reply;
       }
 
@@ -4169,8 +4169,8 @@ static enum anonymous$0 sam_parent_data_store(signed int parent_fd_in, signed in
     if((signed int)err == CS_OK)
     {
       free((void *)user_data);
-      return_value_sam_parent_reply_send$4=sam_parent_reply_send((enum anonymous$0)CS_OK, parent_fd_in, parent_fd_out);
-      return return_value_sam_parent_reply_send$4;
+      return_value_sam_parent_reply_send_4=sam_parent_reply_send((enum anonymous_0)CS_OK, parent_fd_in, parent_fd_out);
+      return return_value_sam_parent_reply_send_4;
     }
 
 
@@ -4181,9 +4181,9 @@ static enum anonymous$0 sam_parent_data_store(signed int parent_fd_in, signed in
 
 error_reply:
   ;
-  enum anonymous$0 return_value_sam_parent_reply_send$5;
-  return_value_sam_parent_reply_send$5=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
-  return return_value_sam_parent_reply_send$5;
+  enum anonymous_0 return_value_sam_parent_reply_send_5;
+  return_value_sam_parent_reply_send_5=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
+  return return_value_sam_parent_reply_send_5;
 }
 
 // sam_parent_handler
@@ -4198,8 +4198,8 @@ static enum sam_parent_action_t sam_parent_handler(signed int parent_fd_in, sign
   signed int time_interval;
   struct pollfd pfds[2l];
   unsigned long int nfds;
-  enum anonymous$0 err;
-  enum anonymous$8 recpol;
+  enum anonymous_0 err;
+  enum anonymous_8 recpol;
   status = 0;
   action = SAM_PARENT_ACTION_CONTINUE;
   recpol = sam_internal_data.recovery_policy;
@@ -4225,9 +4225,9 @@ static enum sam_parent_action_t sam_parent_handler(signed int parent_fd_in, sign
     poll_error=poll(pfds, nfds, time_interval);
     if(poll_error == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 4))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 4))
         action = SAM_PARENT_ACTION_ERROR;
 
     }
@@ -4245,9 +4245,9 @@ static enum sam_parent_action_t sam_parent_handler(signed int parent_fd_in, sign
     {
       if(!((signed int)pfds[0l].revents == 0))
       {
-        unsigned long int return_value_sam_safe_read$2;
-        return_value_sam_safe_read$2=sam_safe_read(parent_fd_in, (void *)&command, (unsigned long int)1);
-        bytes_read = (signed long int)return_value_sam_safe_read$2;
+        unsigned long int return_value_sam_safe_read_2;
+        return_value_sam_safe_read_2=sam_safe_read(parent_fd_in, (void *)&command, (unsigned long int)1);
+        bytes_read = (signed long int)return_value_sam_safe_read_2;
         if(bytes_read == 0l)
         {
           if(status == 0)
@@ -4275,18 +4275,18 @@ static enum sam_parent_action_t sam_parent_handler(signed int parent_fd_in, sign
             {
               if(!((SAM_RECOVERY_POLICY_QUORUM & (signed int)recpol) == 0))
               {
-                enum anonymous$0 return_value_sam_parent_wait_for_quorum$3;
-                return_value_sam_parent_wait_for_quorum$3=sam_parent_wait_for_quorum(parent_fd_in, parent_fd_out);
-                if(!((signed int)return_value_sam_parent_wait_for_quorum$3 == CS_OK))
+                enum anonymous_0 return_value_sam_parent_wait_for_quorum_3;
+                return_value_sam_parent_wait_for_quorum_3=sam_parent_wait_for_quorum(parent_fd_in, parent_fd_out);
+                if(!((signed int)return_value_sam_parent_wait_for_quorum_3 == CS_OK))
                   goto __CPROVER_DUMP_L29;
 
               }
 
               if(!((SAM_RECOVERY_POLICY_CMAP & (signed int)recpol) == 0))
               {
-                enum anonymous$0 return_value_sam_parent_cmap_state_set$4;
-                return_value_sam_parent_cmap_state_set$4=sam_parent_cmap_state_set(parent_fd_in, parent_fd_out, 1);
-                if(!((signed int)return_value_sam_parent_cmap_state_set$4 == CS_OK))
+                enum anonymous_0 return_value_sam_parent_cmap_state_set_4;
+                return_value_sam_parent_cmap_state_set_4=sam_parent_cmap_state_set(parent_fd_in, parent_fd_out, 1);
+                if(!((signed int)return_value_sam_parent_cmap_state_set_4 == CS_OK))
                   goto __CPROVER_DUMP_L29;
 
               }
@@ -4302,9 +4302,9 @@ static enum sam_parent_action_t sam_parent_handler(signed int parent_fd_in, sign
             {
               if(!((SAM_RECOVERY_POLICY_CMAP & (signed int)recpol) == 0))
               {
-                enum anonymous$0 return_value_sam_parent_cmap_state_set$5;
-                return_value_sam_parent_cmap_state_set$5=sam_parent_cmap_state_set(parent_fd_in, parent_fd_out, 0);
-                if(!((signed int)return_value_sam_parent_cmap_state_set$5 == CS_OK))
+                enum anonymous_0 return_value_sam_parent_cmap_state_set_5;
+                return_value_sam_parent_cmap_state_set_5=sam_parent_cmap_state_set(parent_fd_in, parent_fd_out, 0);
+                if(!((signed int)return_value_sam_parent_cmap_state_set_5 == CS_OK))
                   goto __CPROVER_DUMP_L29;
 
               }
@@ -4336,7 +4336,7 @@ static enum sam_parent_action_t sam_parent_handler(signed int parent_fd_in, sign
       {
         if(!((signed int)pfds[1l].revents == 0))
         {
-          err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous$5)CS_DISPATCH_ALL);
+          err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous_5)CS_DISPATCH_ALL);
           if(status == 1 && (sam_internal_data.quorate == 0u || !((signed int)err == CS_OK) && !((signed int)err == CS_ERR_TRY_AGAIN)))
             sam_parent_kill_child(&action, child_pid);
 
@@ -4358,7 +4358,7 @@ action_exit:
 
 // sam_parent_kill_child
 // file sam.c line 933
-static enum anonymous$0 sam_parent_kill_child(signed int *action, signed int child_pid)
+static enum anonymous_0 sam_parent_kill_child(signed int *action, signed int child_pid)
 {
   if(sam_internal_data.term_send == 0)
   {
@@ -4371,53 +4371,53 @@ static enum anonymous$0 sam_parent_kill_child(signed int *action, signed int chi
     kill(child_pid, 9);
     *action = SAM_PARENT_ACTION_RECOVERY;
   }
-  return (enum anonymous$0)CS_OK;
+  return (enum anonymous_0)CS_OK;
 }
 
 // sam_parent_mark_child_failed
 // file sam.c line 958
-static enum anonymous$0 sam_parent_mark_child_failed(signed int *action, signed int child_pid)
+static enum anonymous_0 sam_parent_mark_child_failed(signed int *action, signed int child_pid)
 {
-  enum anonymous$8 recpol = sam_internal_data.recovery_policy;
+  enum anonymous_8 recpol = sam_internal_data.recovery_policy;
   sam_internal_data.term_send = 1;
-  sam_internal_data.recovery_policy = (enum anonymous$8)(SAM_RECOVERY_POLICY_QUIT | (((signed int)recpol & ~SAM_RECOVERY_POLICY_CMAP) != 0 ? SAM_RECOVERY_POLICY_CMAP : 0) | (((signed int)recpol & ~SAM_RECOVERY_POLICY_QUORUM) != 0 ? SAM_RECOVERY_POLICY_QUORUM : 0));
-  enum anonymous$0 return_value_sam_parent_kill_child$1;
-  return_value_sam_parent_kill_child$1=sam_parent_kill_child(action, child_pid);
-  return return_value_sam_parent_kill_child$1;
+  sam_internal_data.recovery_policy = (enum anonymous_8)(SAM_RECOVERY_POLICY_QUIT | (((signed int)recpol & ~SAM_RECOVERY_POLICY_CMAP) != 0 ? SAM_RECOVERY_POLICY_CMAP : 0) | (((signed int)recpol & ~SAM_RECOVERY_POLICY_QUORUM) != 0 ? SAM_RECOVERY_POLICY_QUORUM : 0));
+  enum anonymous_0 return_value_sam_parent_kill_child_1;
+  return_value_sam_parent_kill_child_1=sam_parent_kill_child(action, child_pid);
+  return return_value_sam_parent_kill_child_1;
 }
 
 // sam_parent_reply_send
 // file sam.c line 774
-static enum anonymous$0 sam_parent_reply_send(enum anonymous$0 err, signed int parent_fd_in, signed int parent_fd_out)
+static enum anonymous_0 sam_parent_reply_send(enum anonymous_0 err, signed int parent_fd_in, signed int parent_fd_out)
 {
   char reply;
   if((signed int)err == CS_OK)
   {
     reply = (char)0;
-    unsigned long int return_value_sam_safe_write$1;
-    return_value_sam_safe_write$1=sam_safe_write(parent_fd_out, (const void *)&reply, sizeof(char) /*1ul*/ );
-    if(!(return_value_sam_safe_write$1 == sizeof(char) /*1ul*/ ))
-      err = (enum anonymous$0)CS_ERR_LIBRARY;
+    unsigned long int return_value_sam_safe_write_1;
+    return_value_sam_safe_write_1=sam_safe_write(parent_fd_out, (const void *)&reply, sizeof(char) /*1ul*/ );
+    if(!(return_value_sam_safe_write_1 == sizeof(char) /*1ul*/ ))
+      err = (enum anonymous_0)CS_ERR_LIBRARY;
 
     else
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
   }
 
 
 error_reply:
   ;
   reply = (char)1;
-  unsigned long int return_value_sam_safe_write$2;
-  return_value_sam_safe_write$2=sam_safe_write(parent_fd_out, (const void *)&reply, sizeof(char) /*1ul*/ );
-  if(!(return_value_sam_safe_write$2 == sizeof(char) /*1ul*/ ))
-    return (enum anonymous$0)CS_ERR_LIBRARY;
+  unsigned long int return_value_sam_safe_write_2;
+  return_value_sam_safe_write_2=sam_safe_write(parent_fd_out, (const void *)&reply, sizeof(char) /*1ul*/ );
+  if(!(return_value_sam_safe_write_2 == sizeof(char) /*1ul*/ ))
+    return (enum anonymous_0)CS_ERR_LIBRARY;
 
   else
   {
-    unsigned long int return_value_sam_safe_write$3;
-    return_value_sam_safe_write$3=sam_safe_write(parent_fd_out, (const void *)&err, sizeof(enum anonymous$0) /*4ul*/ );
-    if(!(return_value_sam_safe_write$3 == sizeof(enum anonymous$0) /*4ul*/ ))
-      return (enum anonymous$0)CS_ERR_LIBRARY;
+    unsigned long int return_value_sam_safe_write_3;
+    return_value_sam_safe_write_3=sam_safe_write(parent_fd_out, (const void *)&err, sizeof(enum anonymous_0) /*4ul*/ );
+    if(!(return_value_sam_safe_write_3 == sizeof(enum anonymous_0) /*4ul*/ ))
+      return (enum anonymous_0)CS_ERR_LIBRARY;
 
     else
       return err;
@@ -4426,9 +4426,9 @@ error_reply:
 
 // sam_parent_wait_for_quorum
 // file sam.c line 831
-static enum anonymous$0 sam_parent_wait_for_quorum(signed int parent_fd_in, signed int parent_fd_out)
+static enum anonymous_0 sam_parent_wait_for_quorum(signed int parent_fd_in, signed int parent_fd_out)
 {
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   struct pollfd pfds[2l];
   signed int poll_err;
   if(!((SAM_RECOVERY_POLICY_CMAP & (signed int)sam_internal_data.recovery_policy) == 0))
@@ -4439,8 +4439,8 @@ static enum anonymous$0 sam_parent_wait_for_quorum(signed int parent_fd_in, sign
 
   }
 
-  err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous$5)CS_DISPATCH_ALL);
-  enum anonymous$0 return_value_sam_parent_reply_send$4;
+  err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous_5)CS_DISPATCH_ALL);
+  enum anonymous_0 return_value_sam_parent_reply_send_4;
   if((signed int)err == CS_OK)
   {
     while(sam_internal_data.quorate == 0u)
@@ -4454,11 +4454,11 @@ static enum anonymous$0 sam_parent_wait_for_quorum(signed int parent_fd_in, sign
       poll_err=poll(pfds, (unsigned long int)2, -1);
       if(poll_err == -1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        if(!(*return_value___errno_location$1 == 4))
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        if(!(*return_value___errno_location_1 == 4))
         {
-          err = (enum anonymous$0)CS_ERR_LIBRARY;
+          err = (enum anonymous_0)CS_ERR_LIBRARY;
           goto error_reply;
         }
 
@@ -4466,26 +4466,26 @@ static enum anonymous$0 sam_parent_wait_for_quorum(signed int parent_fd_in, sign
 
       if(!((signed int)pfds[0l].revents == 0))
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if((signed int)pfds[0l].revents == 0x008)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)pfds[(signed long int)0].revents == 0x010 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$3;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = (signed int)pfds[(signed long int)0].revents == 0x010 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_3;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)pfds[(signed long int)0].revents == 0x020 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          return (enum anonymous$0)CS_OK;
+          tmp_if_expr_3 = (signed int)pfds[(signed long int)0].revents == 0x020 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          return (enum anonymous_0)CS_OK;
 
       }
 
       if(!((signed int)pfds[1l].revents == 0))
       {
-        err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous$5)CS_DISPATCH_ONE);
+        err=quorum_dispatch(sam_internal_data.quorum_handle, (enum anonymous_5)CS_DISPATCH_ONE);
         if(!((signed int)err == CS_OK))
           goto error_reply;
 
@@ -4500,8 +4500,8 @@ static enum anonymous$0 sam_parent_wait_for_quorum(signed int parent_fd_in, sign
 
     }
 
-    return_value_sam_parent_reply_send$4=sam_parent_reply_send((enum anonymous$0)CS_OK, parent_fd_in, parent_fd_out);
-    return return_value_sam_parent_reply_send$4;
+    return_value_sam_parent_reply_send_4=sam_parent_reply_send((enum anonymous_0)CS_OK, parent_fd_in, parent_fd_out);
+    return return_value_sam_parent_reply_send_4;
   }
 
 
@@ -4510,52 +4510,52 @@ error_reply:
   if(!((SAM_RECOVERY_POLICY_CMAP & (signed int)sam_internal_data.recovery_policy) == 0))
     sam_cmap_update_key((enum sam_cmap_key_t)SAM_CMAP_KEY_STATE, "stopped");
 
-  enum anonymous$0 return_value_sam_parent_reply_send$5;
-  return_value_sam_parent_reply_send$5=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
-  return return_value_sam_parent_reply_send$5;
+  enum anonymous_0 return_value_sam_parent_reply_send_5;
+  return_value_sam_parent_reply_send_5=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
+  return return_value_sam_parent_reply_send_5;
 }
 
 // sam_parent_warn_signal_set
 // file sam.c line 805
-static enum anonymous$0 sam_parent_warn_signal_set(signed int parent_fd_in, signed int parent_fd_out)
+static enum anonymous_0 sam_parent_warn_signal_set(signed int parent_fd_in, signed int parent_fd_out)
 {
   signed int warn_signal;
-  enum anonymous$0 err = (enum anonymous$0)CS_OK;
-  unsigned long int return_value_sam_safe_read$1;
-  return_value_sam_safe_read$1=sam_safe_read(parent_fd_in, (void *)&warn_signal, sizeof(signed int) /*4ul*/ );
-  enum anonymous$0 return_value_sam_parent_reply_send$2;
-  if(!(return_value_sam_safe_read$1 == sizeof(signed int) /*4ul*/ ))
-    err = (enum anonymous$0)CS_ERR_LIBRARY;
+  enum anonymous_0 err = (enum anonymous_0)CS_OK;
+  unsigned long int return_value_sam_safe_read_1;
+  return_value_sam_safe_read_1=sam_safe_read(parent_fd_in, (void *)&warn_signal, sizeof(signed int) /*4ul*/ );
+  enum anonymous_0 return_value_sam_parent_reply_send_2;
+  if(!(return_value_sam_safe_read_1 == sizeof(signed int) /*4ul*/ ))
+    err = (enum anonymous_0)CS_ERR_LIBRARY;
 
   else
   {
     err=sam_warn_signal_set(warn_signal);
     if((signed int)err == CS_OK)
     {
-      return_value_sam_parent_reply_send$2=sam_parent_reply_send((enum anonymous$0)CS_OK, parent_fd_in, parent_fd_out);
-      return return_value_sam_parent_reply_send$2;
+      return_value_sam_parent_reply_send_2=sam_parent_reply_send((enum anonymous_0)CS_OK, parent_fd_in, parent_fd_out);
+      return return_value_sam_parent_reply_send_2;
     }
 
   }
 
 error_reply:
   ;
-  enum anonymous$0 return_value_sam_parent_reply_send$3;
-  return_value_sam_parent_reply_send$3=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
-  return return_value_sam_parent_reply_send$3;
+  enum anonymous_0 return_value_sam_parent_reply_send_3;
+  return_value_sam_parent_reply_send_3=sam_parent_reply_send(err, parent_fd_in, parent_fd_out);
+  return return_value_sam_parent_reply_send_3;
 }
 
 // sam_read_reply
 // file sam.c line 376
-static enum anonymous$0 sam_read_reply(signed int child_fd_in)
+static enum anonymous_0 sam_read_reply(signed int child_fd_in)
 {
   char reply;
-  enum anonymous$0 err;
-  unsigned long int return_value_sam_safe_read$1;
-  return_value_sam_safe_read$1=sam_safe_read(sam_internal_data.child_fd_in, (void *)&reply, sizeof(char) /*1ul*/ );
-  unsigned long int return_value_sam_safe_read$2;
-  if(!(return_value_sam_safe_read$1 == sizeof(char) /*1ul*/ ))
-    return (enum anonymous$0)CS_ERR_LIBRARY;
+  enum anonymous_0 err;
+  unsigned long int return_value_sam_safe_read_1;
+  return_value_sam_safe_read_1=sam_safe_read(sam_internal_data.child_fd_in, (void *)&reply, sizeof(char) /*1ul*/ );
+  unsigned long int return_value_sam_safe_read_2;
+  if(!(return_value_sam_safe_read_1 == sizeof(char) /*1ul*/ ))
+    return (enum anonymous_0)CS_ERR_LIBRARY;
 
   else
   {
@@ -4563,26 +4563,26 @@ static enum anonymous$0 sam_read_reply(signed int child_fd_in)
     {
       case 1:
       {
-        return_value_sam_safe_read$2=sam_safe_read(sam_internal_data.child_fd_in, (void *)&err, sizeof(enum anonymous$0) /*4ul*/ );
-        if(!(return_value_sam_safe_read$2 == sizeof(enum anonymous$0) /*4ul*/ ))
-          return (enum anonymous$0)CS_ERR_LIBRARY;
+        return_value_sam_safe_read_2=sam_safe_read(sam_internal_data.child_fd_in, (void *)&err, sizeof(enum anonymous_0) /*4ul*/ );
+        if(!(return_value_sam_safe_read_2 == sizeof(enum anonymous_0) /*4ul*/ ))
+          return (enum anonymous_0)CS_ERR_LIBRARY;
 
         return err;
       }
       case 0:
         break;
       default:
-        return (enum anonymous$0)CS_ERR_LIBRARY;
+        return (enum anonymous_0)CS_ERR_LIBRARY;
     }
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
   }
 }
 
 // sam_register
 // file ../include/corosync/sam.h line 147
-enum anonymous$0 sam_register(unsigned int *instance_id)
+enum anonymous_0 sam_register(unsigned int *instance_id)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   signed int pid;
   signed int pipe_error;
   signed int pipe_fd_out[2l];
@@ -4590,11 +4590,11 @@ enum anonymous$0 sam_register(unsigned int *instance_id)
   enum sam_parent_action_t action;
   enum sam_parent_action_t old_action;
   signed int child_status;
-  enum anonymous$8 recpol;
-  signed int return_value_waitpid$1;
-  signed int *return_value___errno_location$2;
+  enum anonymous_8 recpol;
+  signed int return_value_waitpid_1;
+  signed int *return_value___errno_location_2;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_INITIALIZED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
   {
@@ -4607,13 +4607,13 @@ enum anonymous$0 sam_register(unsigned int *instance_id)
 
     }
 
-    error = (enum anonymous$0)CS_OK;
+    error = (enum anonymous_0)CS_OK;
     while((_Bool)1)
     {
       pipe_error=pipe(pipe_fd_out);
       if(!(pipe_error == 0))
       {
-        error = (enum anonymous$0)CS_ERR_LIBRARY;
+        error = (enum anonymous_0)CS_ERR_LIBRARY;
         break;
       }
 
@@ -4622,7 +4622,7 @@ enum anonymous$0 sam_register(unsigned int *instance_id)
       {
         close(pipe_fd_out[(signed long int)0]);
         close(pipe_fd_out[(signed long int)1]);
-        error = (enum anonymous$0)CS_ERR_LIBRARY;
+        error = (enum anonymous_0)CS_ERR_LIBRARY;
         break;
       }
 
@@ -4640,7 +4640,7 @@ enum anonymous$0 sam_register(unsigned int *instance_id)
       if(pid == -1)
       {
         sam_internal_data.instance_id = sam_internal_data.instance_id - 1u;
-        error = (enum anonymous$0)CS_ERR_LIBRARY;
+        error = (enum anonymous_0)CS_ERR_LIBRARY;
         break;
       }
 
@@ -4655,7 +4655,7 @@ enum anonymous$0 sam_register(unsigned int *instance_id)
 
         sam_internal_data.am_i_child = 1;
         sam_internal_data.internal_status = (enum sam_internal_status_t)SAM_INTERNAL_STATUS_REGISTERED;
-        pthread_mutex_init(&sam_internal_data.lock, (const union anonymous$2 *)(void *)0);
+        pthread_mutex_init(&sam_internal_data.lock, (const union anonymous_2 *)(void *)0);
         break;
       }
 
@@ -4668,18 +4668,18 @@ enum anonymous$0 sam_register(unsigned int *instance_id)
         close(pipe_fd_in[(signed long int)1]);
         if((signed int)action == SAM_PARENT_ACTION_ERROR)
         {
-          error = (enum anonymous$0)CS_ERR_LIBRARY;
+          error = (enum anonymous_0)CS_ERR_LIBRARY;
           break;
         }
 
         do
         {
-          return_value_waitpid$1=waitpid(pid, &child_status, 0);
-          if(!(return_value_waitpid$1 == -1))
+          return_value_waitpid_1=waitpid(pid, &child_status, 0);
+          if(!(return_value_waitpid_1 == -1))
             break;
 
-          return_value___errno_location$2=__errno_location();
-          if(!(*return_value___errno_location$2 == 4))
+          return_value___errno_location_2=__errno_location();
+          if(!(*return_value___errno_location_2 == 4))
             break;
 
         }
@@ -4707,7 +4707,7 @@ enum anonymous$0 sam_register(unsigned int *instance_id)
           }
 
           /* tag-#anon#lUN[lS32'__in'|S32'__i'] */
-union anonymous$7
+union anonymous_7
 {
   // __in
   signed int __in;
@@ -4717,7 +4717,7 @@ union anonymous$7
 
 /* */
           ;
-          exit((((union anonymous$7){ .__in=child_status }).__i & 0xff00) >> 8);
+          exit((((union anonymous_7){ .__in=child_status }).__i & 0xff00) >> 8);
         }
 
       }
@@ -4736,24 +4736,24 @@ static unsigned long int sam_safe_read(signed int d, void *buf, unsigned long in
   signed long int bytes_read;
   signed long int tmp_bytes_read;
   bytes_read = (signed long int)0;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   do
   {
     tmp_bytes_read=read(d, (void *)((char *)buf + bytes_read), nbyte - (unsigned long int)bytes_read > (unsigned long int)0x7fffffffffffffffL ? (unsigned long int)0x7fffffffffffffffL : nbyte - (unsigned long int)bytes_read);
     if(tmp_bytes_read == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      _Bool tmp_if_expr$3;
-      if(*return_value___errno_location$1 == 11)
-        tmp_if_expr$3 = (_Bool)1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      _Bool tmp_if_expr_3;
+      if(*return_value___errno_location_1 == 11)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$3)
+      if(!tmp_if_expr_3)
         return (unsigned long int)-1;
 
     }
@@ -4772,24 +4772,24 @@ static unsigned long int sam_safe_write(signed int d, const void *buf, unsigned 
   signed long int bytes_write;
   signed long int tmp_bytes_write;
   bytes_write = (signed long int)0;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   do
   {
     tmp_bytes_write=write(d, (const void *)((const char *)buf + bytes_write), nbyte - (unsigned long int)bytes_write > (unsigned long int)0x7fffffffffffffffL ? (unsigned long int)0x7fffffffffffffffL : nbyte - (unsigned long int)bytes_write);
     if(tmp_bytes_write == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      _Bool tmp_if_expr$3;
-      if(*return_value___errno_location$1 == 11)
-        tmp_if_expr$3 = (_Bool)1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      _Bool tmp_if_expr_3;
+      if(*return_value___errno_location_1 == 11)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$3)
+      if(!tmp_if_expr_3)
         return (unsigned long int)-1;
 
     }
@@ -4803,14 +4803,14 @@ static unsigned long int sam_safe_write(signed int d, const void *buf, unsigned 
 
 // sam_start
 // file ../include/corosync/sam.h line 102
-enum anonymous$0 sam_start(void)
+enum anonymous_0 sam_start(void)
 {
   char command;
-  enum anonymous$0 err;
-  enum anonymous$8 recpol;
-  unsigned long int return_value_sam_safe_write$2;
+  enum anonymous_0 err;
+  enum anonymous_8 recpol;
+  unsigned long int return_value_sam_safe_write_2;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
   {
@@ -4819,14 +4819,14 @@ enum anonymous$0 sam_start(void)
       pthread_mutex_lock(&sam_internal_data.lock);
 
     command = (char)0;
-    unsigned long int return_value_sam_safe_write$1;
-    return_value_sam_safe_write$1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
-    if(!(return_value_sam_safe_write$1 == sizeof(char) /*1ul*/ ))
+    unsigned long int return_value_sam_safe_write_1;
+    return_value_sam_safe_write_1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
+    if(!(return_value_sam_safe_write_1 == sizeof(char) /*1ul*/ ))
     {
       if(!((SAM_RECOVERY_POLICY_QUORUM & (signed int)recpol) == 0) || !((SAM_RECOVERY_POLICY_CMAP & (signed int)recpol) == 0))
         pthread_mutex_unlock(&sam_internal_data.lock);
 
-      return (enum anonymous$0)CS_ERR_LIBRARY;
+      return (enum anonymous_0)CS_ERR_LIBRARY;
     }
 
     else
@@ -4845,27 +4845,27 @@ enum anonymous$0 sam_start(void)
 
       if(!(sam_internal_data.hc_callback == ((signed int (*)(void))NULL)))
       {
-        return_value_sam_safe_write$2=sam_safe_write(sam_internal_data.cb_wpipe_fd, (const void *)&command, sizeof(char) /*1ul*/ );
-        if(!(return_value_sam_safe_write$2 == sizeof(char) /*1ul*/ ))
-          return (enum anonymous$0)CS_ERR_LIBRARY;
+        return_value_sam_safe_write_2=sam_safe_write(sam_internal_data.cb_wpipe_fd, (const void *)&command, sizeof(char) /*1ul*/ );
+        if(!(return_value_sam_safe_write_2 == sizeof(char) /*1ul*/ ))
+          return (enum anonymous_0)CS_ERR_LIBRARY;
 
       }
 
       sam_internal_data.internal_status = (enum sam_internal_status_t)SAM_INTERNAL_STATUS_STARTED;
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
     }
   }
 }
 
 // sam_stop
 // file ../include/corosync/sam.h line 114
-enum anonymous$0 sam_stop(void)
+enum anonymous_0 sam_stop(void)
 {
   char command;
-  enum anonymous$0 err;
-  unsigned long int return_value_sam_safe_write$2;
+  enum anonymous_0 err;
+  unsigned long int return_value_sam_safe_write_2;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
   {
@@ -4873,14 +4873,14 @@ enum anonymous$0 sam_stop(void)
     if(!((SAM_RECOVERY_POLICY_CMAP & (signed int)sam_internal_data.recovery_policy) == 0))
       pthread_mutex_lock(&sam_internal_data.lock);
 
-    unsigned long int return_value_sam_safe_write$1;
-    return_value_sam_safe_write$1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
-    if(!(return_value_sam_safe_write$1 == sizeof(char) /*1ul*/ ))
+    unsigned long int return_value_sam_safe_write_1;
+    return_value_sam_safe_write_1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
+    if(!(return_value_sam_safe_write_1 == sizeof(char) /*1ul*/ ))
     {
       if(!((SAM_RECOVERY_POLICY_CMAP & (signed int)sam_internal_data.recovery_policy) == 0))
         pthread_mutex_unlock(&sam_internal_data.lock);
 
-      return (enum anonymous$0)CS_ERR_LIBRARY;
+      return (enum anonymous_0)CS_ERR_LIBRARY;
     }
 
     else
@@ -4899,26 +4899,26 @@ enum anonymous$0 sam_stop(void)
 
       if(!(sam_internal_data.hc_callback == ((signed int (*)(void))NULL)))
       {
-        return_value_sam_safe_write$2=sam_safe_write(sam_internal_data.cb_wpipe_fd, (const void *)&command, sizeof(char) /*1ul*/ );
-        if(!(return_value_sam_safe_write$2 == sizeof(char) /*1ul*/ ))
-          return (enum anonymous$0)CS_ERR_LIBRARY;
+        return_value_sam_safe_write_2=sam_safe_write(sam_internal_data.cb_wpipe_fd, (const void *)&command, sizeof(char) /*1ul*/ );
+        if(!(return_value_sam_safe_write_2 == sizeof(char) /*1ul*/ ))
+          return (enum anonymous_0)CS_ERR_LIBRARY;
 
       }
 
       sam_internal_data.internal_status = (enum sam_internal_status_t)SAM_INTERNAL_STATUS_REGISTERED;
-      return (enum anonymous$0)CS_OK;
+      return (enum anonymous_0)CS_OK;
     }
   }
 }
 
 // sam_warn_signal_set
 // file ../include/corosync/sam.h line 126
-enum anonymous$0 sam_warn_signal_set(signed int warn_signal)
+enum anonymous_0 sam_warn_signal_set(signed int warn_signal)
 {
   char command;
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   if(!((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_INITIALIZED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_REGISTERED) && !((signed int)sam_internal_data.internal_status == SAM_INTERNAL_STATUS_STARTED))
-    return (enum anonymous$0)CS_ERR_BAD_HANDLE;
+    return (enum anonymous_0)CS_ERR_BAD_HANDLE;
 
   else
   {
@@ -4926,19 +4926,19 @@ enum anonymous$0 sam_warn_signal_set(signed int warn_signal)
     if(!(sam_internal_data.am_i_child == 0))
     {
       command = (char)4;
-      unsigned long int return_value_sam_safe_write$1;
-      return_value_sam_safe_write$1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
-      if(!(return_value_sam_safe_write$1 == sizeof(char) /*1ul*/ ))
+      unsigned long int return_value_sam_safe_write_1;
+      return_value_sam_safe_write_1=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&command, sizeof(char) /*1ul*/ );
+      if(!(return_value_sam_safe_write_1 == sizeof(char) /*1ul*/ ))
       {
-        err = (enum anonymous$0)CS_ERR_LIBRARY;
+        err = (enum anonymous_0)CS_ERR_LIBRARY;
         goto error_unlock;
       }
 
-      unsigned long int return_value_sam_safe_write$2;
-      return_value_sam_safe_write$2=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&warn_signal, sizeof(signed int) /*4ul*/ );
-      if(!(return_value_sam_safe_write$2 == sizeof(signed int) /*4ul*/ ))
+      unsigned long int return_value_sam_safe_write_2;
+      return_value_sam_safe_write_2=sam_safe_write(sam_internal_data.child_fd_out, (const void *)&warn_signal, sizeof(signed int) /*4ul*/ );
+      if(!(return_value_sam_safe_write_2 == sizeof(signed int) /*4ul*/ ))
       {
-        err = (enum anonymous$0)CS_ERR_LIBRARY;
+        err = (enum anonymous_0)CS_ERR_LIBRARY;
         goto error_unlock;
       }
 
@@ -4950,7 +4950,7 @@ enum anonymous$0 sam_warn_signal_set(signed int warn_signal)
 
     sam_internal_data.warn_signal = warn_signal;
     pthread_mutex_unlock(&sam_internal_data.lock);
-    return (enum anonymous$0)CS_OK;
+    return (enum anonymous_0)CS_OK;
 
   error_unlock:
     ;
@@ -4963,16 +4963,16 @@ enum anonymous$0 sam_warn_signal_set(signed int warn_signal)
 // file testsam.c line 70
 static signed int test1(void)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   unsigned int instance_id;
   signed int i;
   printf("%s: initialize\n", (const void *)"test1");
-  error=sam_initialize(2000, (enum anonymous$8)SAM_RECOVERY_POLICY_RESTART);
-  enum anonymous$0 return_value_sam_start$2;
-  enum anonymous$0 return_value_sam_stop$4;
-  enum anonymous$0 return_value_sam_register$6;
-  enum anonymous$0 return_value_sam_hc_send$8;
-  enum anonymous$0 return_value_sam_hc_callback_register$10;
+  error=sam_initialize(2000, (enum anonymous_8)SAM_RECOVERY_POLICY_RESTART);
+  enum anonymous_0 return_value_sam_start_2;
+  enum anonymous_0 return_value_sam_stop_4;
+  enum anonymous_0 return_value_sam_register_6;
+  enum anonymous_0 return_value_sam_hc_send_8;
+  enum anonymous_0 return_value_sam_hc_callback_register_10;
   if(!((signed int)error == CS_OK))
   {
     fprintf(stderr, "Can't initialize SAM API. Error %d\n", error);
@@ -5045,7 +5045,7 @@ static signed int test1(void)
       {
         if(instance_id == 3u)
         {
-          error=sam_initialize(2000, (enum anonymous$8)SAM_RECOVERY_POLICY_RESTART);
+          error=sam_initialize(2000, (enum anonymous_8)SAM_RECOVERY_POLICY_RESTART);
           if((signed int)error == CS_OK)
           {
             fprintf(stderr, "Can initialize SAM API after initialization");
@@ -5080,54 +5080,54 @@ static signed int test1(void)
             return 1;
           }
 
-          enum anonymous$0 return_value_sam_initialize$1;
-          return_value_sam_initialize$1=sam_initialize(2, (enum anonymous$8)SAM_RECOVERY_POLICY_RESTART);
-          _Bool tmp_if_expr$3;
-          if((signed int)return_value_sam_initialize$1 == CS_OK)
-            tmp_if_expr$3 = (_Bool)1;
+          enum anonymous_0 return_value_sam_initialize_1;
+          return_value_sam_initialize_1=sam_initialize(2, (enum anonymous_8)SAM_RECOVERY_POLICY_RESTART);
+          _Bool tmp_if_expr_3;
+          if((signed int)return_value_sam_initialize_1 == CS_OK)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
-            return_value_sam_start$2=sam_start();
-            tmp_if_expr$3 = (signed int)return_value_sam_start$2 == CS_OK ? (_Bool)1 : (_Bool)0;
+            return_value_sam_start_2=sam_start();
+            tmp_if_expr_3 = (signed int)return_value_sam_start_2 == CS_OK ? (_Bool)1 : (_Bool)0;
           }
-          _Bool tmp_if_expr$5;
-          if(tmp_if_expr$3)
-            tmp_if_expr$5 = (_Bool)1;
+          _Bool tmp_if_expr_5;
+          if(tmp_if_expr_3)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value_sam_stop$4=sam_stop();
-            tmp_if_expr$5 = (signed int)return_value_sam_stop$4 == CS_OK ? (_Bool)1 : (_Bool)0;
+            return_value_sam_stop_4=sam_stop();
+            tmp_if_expr_5 = (signed int)return_value_sam_stop_4 == CS_OK ? (_Bool)1 : (_Bool)0;
           }
-          _Bool tmp_if_expr$7;
-          if(tmp_if_expr$5)
-            tmp_if_expr$7 = (_Bool)1;
+          _Bool tmp_if_expr_7;
+          if(tmp_if_expr_5)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_sam_register$6=sam_register((unsigned int *)(void *)0);
-            tmp_if_expr$7 = (signed int)return_value_sam_register$6 == CS_OK ? (_Bool)1 : (_Bool)0;
+            return_value_sam_register_6=sam_register((unsigned int *)(void *)0);
+            tmp_if_expr_7 = (signed int)return_value_sam_register_6 == CS_OK ? (_Bool)1 : (_Bool)0;
           }
-          _Bool tmp_if_expr$9;
-          if(tmp_if_expr$7)
-            tmp_if_expr$9 = (_Bool)1;
+          _Bool tmp_if_expr_9;
+          if(tmp_if_expr_7)
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_sam_hc_send$8=sam_hc_send();
-            tmp_if_expr$9 = (signed int)return_value_sam_hc_send$8 == CS_OK ? (_Bool)1 : (_Bool)0;
+            return_value_sam_hc_send_8=sam_hc_send();
+            tmp_if_expr_9 = (signed int)return_value_sam_hc_send_8 == CS_OK ? (_Bool)1 : (_Bool)0;
           }
-          _Bool tmp_if_expr$11;
-          if(tmp_if_expr$9)
-            tmp_if_expr$11 = (_Bool)1;
+          _Bool tmp_if_expr_11;
+          if(tmp_if_expr_9)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value_sam_hc_callback_register$10=sam_hc_callback_register((signed int (*)(void))(void *)0);
-            tmp_if_expr$11 = (signed int)return_value_sam_hc_callback_register$10 == CS_OK ? (_Bool)1 : (_Bool)0;
+            return_value_sam_hc_callback_register_10=sam_hc_callback_register((signed int (*)(void))(void *)0);
+            tmp_if_expr_11 = (signed int)return_value_sam_hc_callback_register_10 == CS_OK ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
+          if(tmp_if_expr_11)
           {
             fprintf(stderr, "Can call one of function after finalization!\n");
             return 1;
@@ -5145,10 +5145,10 @@ static signed int test1(void)
 // file testsam.c line 188
 static signed int test2(void)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   unsigned int instance_id;
   printf("%s: initialize\n", (const void *)"test2");
-  error=sam_initialize(2000, (enum anonymous$8)SAM_RECOVERY_POLICY_QUIT);
+  error=sam_initialize(2000, (enum anonymous_8)SAM_RECOVERY_POLICY_QUIT);
   if(!((signed int)error == CS_OK))
   {
     fprintf(stderr, "Can't initialize SAM API. Error %d\n", error);
@@ -5212,10 +5212,10 @@ static void test2_signal(signed int sig)
 // file testsam.c line 244
 static signed int test3(void)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   unsigned int instance_id;
   printf("%s: initialize\n", (const void *)"test3");
-  error=sam_initialize(0, (enum anonymous$8)SAM_RECOVERY_POLICY_RESTART);
+  error=sam_initialize(0, (enum anonymous_8)SAM_RECOVERY_POLICY_RESTART);
   if(!((signed int)error == CS_OK))
   {
     fprintf(stderr, "Can't initialize SAM API. Error %d\n", error);
@@ -5245,9 +5245,9 @@ static signed int test3(void)
         }
 
         printf("%s iid %d: Sending signal\n", (const void *)"test3", instance_id);
-        signed int return_value_getpid$1;
-        return_value_getpid$1=getpid();
-        kill(return_value_getpid$1, 11);
+        signed int return_value_getpid_1;
+        return_value_getpid_1=getpid();
+        kill(return_value_getpid_1, 11);
         return 1;
       }
 
@@ -5261,7 +5261,7 @@ static signed int test3(void)
 static signed int test4(void)
 {
   unsigned long int size;
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   signed int i;
   unsigned int instance_id;
   char saved_data[128l];
@@ -5307,7 +5307,7 @@ static signed int test4(void)
         else
         {
           printf("%s: sam_initialize\n", (const void *)"test4");
-          err=sam_initialize(0, (enum anonymous$8)SAM_RECOVERY_POLICY_RESTART);
+          err=sam_initialize(0, (enum anonymous_8)SAM_RECOVERY_POLICY_RESTART);
           if(!((signed int)err == CS_OK))
           {
             fprintf(stderr, "Can't initialize SAM API. Error %d\n", err);
@@ -5393,9 +5393,9 @@ static signed int test4(void)
 
                           else
                           {
-                            signed int return_value_memcmp$1;
-                            return_value_memcmp$1=memcmp((const void *)saved_data, (const void *)saved_data2, sizeof(char [128l]) /*128ul*/ );
-                            if(!(return_value_memcmp$1 == 0))
+                            signed int return_value_memcmp_1;
+                            return_value_memcmp_1=memcmp((const void *)saved_data, (const void *)saved_data2, sizeof(char [128l]) /*128ul*/ );
+                            if(!(return_value_memcmp_1 == 0))
                             {
                               fprintf(stderr, "Retored data are not same\n");
                               return 1;
@@ -5483,9 +5483,9 @@ static signed int test4(void)
                                             return 1;
                                           }
 
-                                          signed int return_value_memcmp$2;
-                                          return_value_memcmp$2=memcmp((const void *)saved_data, (const void *)saved_data2, sizeof(char [128l]) /*128ul*/ );
-                                          if(!(return_value_memcmp$2 == 0))
+                                          signed int return_value_memcmp_2;
+                                          return_value_memcmp_2=memcmp((const void *)saved_data, (const void *)saved_data2, sizeof(char [128l]) /*128ul*/ );
+                                          if(!(return_value_memcmp_2 == 0))
                                           {
                                             fprintf(stderr, "Retored data are not same\n");
                                             return 1;
@@ -5540,9 +5540,9 @@ static signed int test4(void)
                                           i = 0;
                                           for( ; !((unsigned long int)i >= sizeof(char [128l]) /*128ul*/ ); i = i + 1)
                                             saved_data[(signed long int)i] = (char)(i - 5);
-                                          signed int return_value_memcmp$3;
-                                          return_value_memcmp$3=memcmp((const void *)saved_data, (const void *)saved_data2, sizeof(char [128l]) /*128ul*/  - (unsigned long int)7);
-                                          if(!(return_value_memcmp$3 == 0))
+                                          signed int return_value_memcmp_3;
+                                          return_value_memcmp_3=memcmp((const void *)saved_data, (const void *)saved_data2, sizeof(char [128l]) /*128ul*/  - (unsigned long int)7);
+                                          if(!(return_value_memcmp_3 == 0))
                                           {
                                             fprintf(stderr, "Retored data are not same\n");
                                             return 1;
@@ -5605,11 +5605,11 @@ static signed int test4(void)
 // file testsam.c line 544
 static signed int test5(void)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   unsigned int instance_id;
   signed int hc_cb_count;
   printf("%s: initialize\n", (const void *)"test5");
-  error=sam_initialize(100, (enum anonymous$8)SAM_RECOVERY_POLICY_RESTART);
+  error=sam_initialize(100, (enum anonymous_8)SAM_RECOVERY_POLICY_RESTART);
   if(!((signed int)error == CS_OK))
   {
     fprintf(stderr, "Can't initialize SAM API. Error %d\n", error);
@@ -5678,7 +5678,7 @@ static signed int test5(void)
 // file testsam.c line 527
 static signed int test5_hc_cb(void)
 {
-  enum anonymous$0 res;
+  enum anonymous_0 res;
   test5_hc_cb_count = test5_hc_cb_count + 1;
   printf("%s %d\n", (const void *)"test5_hc_cb", test5_hc_cb_count);
   res=sam_data_store((const void *)&test5_hc_cb_count, sizeof(signed int) /*4ul*/ );
@@ -5697,11 +5697,11 @@ static signed int test5_hc_cb(void)
 // file testsam.c line 618
 static signed int test6(void)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   unsigned int instance_id;
   signed int test6_sig_del;
   printf("%s: initialize\n", (const void *)"test6");
-  error=sam_initialize(2000, (enum anonymous$8)SAM_RECOVERY_POLICY_RESTART);
+  error=sam_initialize(2000, (enum anonymous_8)SAM_RECOVERY_POLICY_RESTART);
   if(!((signed int)error == CS_OK))
   {
     fprintf(stderr, "Can't initialize SAM API. Error %d\n", error);
@@ -5833,7 +5833,7 @@ static signed int test6(void)
 // file testsam.c line 604
 static void test6_signal(signed int sig)
 {
-  enum anonymous$0 error;
+  enum anonymous_0 error;
   printf("%s\n", (const void *)"test6_signal");
   test6_sig_delivered = test6_sig_delivered + 1;
   error=sam_data_store((const void *)&test6_sig_delivered, sizeof(signed int) /*4ul*/ );
@@ -5847,7 +5847,7 @@ static void test6_signal(signed int sig)
 static signed int test7(void)
 {
   unsigned long int cmap_handle;
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   unsigned int instance_id;
   unsigned long int kill_thread;
   char *str;
@@ -5860,9 +5860,9 @@ static signed int test7(void)
 
   else
   {
-    enum anonymous$0 return_value_cmap_get_string$1;
-    return_value_cmap_get_string$1=cmap_get_string(cmap_handle, "quorum.provider", &str);
-    if(!((signed int)return_value_cmap_get_string$1 == CS_OK))
+    enum anonymous_0 return_value_cmap_get_string_1;
+    return_value_cmap_get_string_1=cmap_get_string(cmap_handle, "quorum.provider", &str);
+    if(!((signed int)return_value_cmap_get_string_1 == CS_OK))
     {
       printf("Could not get \"provider\" key: %d. Test skipped\n", err);
       return 1;
@@ -5870,13 +5870,13 @@ static signed int test7(void)
 
     else
     {
-      signed int tmp_statement_expression$2;
+      signed int tmp_statement_expression_2;
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$3;
-      return_value___builtin_strcmp$3=__builtin_strcmp(str, "testquorum");
-      tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-      if(!(tmp_statement_expression$2 == 0))
+      signed int return_value___builtin_strcmp_3;
+      return_value___builtin_strcmp_3=__builtin_strcmp(str, "testquorum");
+      tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+      if(!(tmp_statement_expression_2 == 0))
       {
         printf("Provider is not testquorum. Test skipped\n");
         free((void *)str);
@@ -5896,7 +5896,7 @@ static signed int test7(void)
         else
         {
           printf("%s: initialize\n", (const void *)"test7");
-          err=sam_initialize(2000, (enum anonymous$8)SAM_RECOVERY_POLICY_QUORUM_RESTART);
+          err=sam_initialize(2000, (enum anonymous_8)SAM_RECOVERY_POLICY_QUORUM_RESTART);
           if(!((signed int)err == CS_OK))
           {
             fprintf(stderr, "Can't initialize SAM API. Error %d\n", err);
@@ -5986,7 +5986,7 @@ static void * test7_thread(void *arg)
 static signed int test8(signed int pid, signed int old_pid, signed int test_n)
 {
   unsigned long int cmap_handle;
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   unsigned long int tstamp1;
   unsigned long int tstamp2;
   signed int msec_diff;
@@ -6024,7 +6024,7 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
       if(test_n == 1 || test_n == 2)
       {
         printf("%s: initialize\n", (const void *)"test8");
-        err=sam_initialize(2000, (enum anonymous$8)(SAM_RECOVERY_POLICY_QUIT | SAM_RECOVERY_POLICY_CMAP));
+        err=sam_initialize(2000, (enum anonymous_8)(SAM_RECOVERY_POLICY_QUIT | SAM_RECOVERY_POLICY_CMAP));
         if(!((signed int)err == CS_OK))
         {
           fprintf(stderr, "Can't initialize SAM API. Error %d\n", err);
@@ -6047,13 +6047,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$1;
-        unsigned long int test8$$1$$3$$4$$__s1_len;
-        unsigned long int test8$$1$$3$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(str, "quit");
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(!(tmp_statement_expression$1 == 0))
+        signed int tmp_statement_expression_1;
+        unsigned long int test8__1__3__4____s1_len;
+        unsigned long int test8__1__3__4____s2_len;
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(str, "quit");
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(!(tmp_statement_expression_1 == 0))
         {
           printf("Recovery key \"%s\" is not \"quit\".\n", (const void *)key_name);
           free((void *)str);
@@ -6069,13 +6069,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$3;
-        unsigned long int test8$$1$$3$$7$$__s1_len;
-        unsigned long int test8$$1$$3$$7$$__s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(str, "stopped");
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        if(!(tmp_statement_expression$3 == 0))
+        signed int tmp_statement_expression_3;
+        unsigned long int test8__1__3__7____s1_len;
+        unsigned long int test8__1__3__7____s2_len;
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(str, "stopped");
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        if(!(tmp_statement_expression_3 == 0))
         {
           printf("State key is not \"stopped\".\n");
           free((void *)str);
@@ -6098,13 +6098,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$5;
-        unsigned long int test8$$1$$3$$11$$__s1_len;
-        unsigned long int test8$$1$$3$$11$$__s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp(str, "running");
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(!(tmp_statement_expression$5 == 0))
+        signed int tmp_statement_expression_5;
+        unsigned long int test8__1__3__11____s1_len;
+        unsigned long int test8__1__3__11____s2_len;
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp(str, "running");
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(!(tmp_statement_expression_5 == 0))
         {
           printf("State key is not \"running\".\n");
           free((void *)str);
@@ -6127,13 +6127,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$7;
-        unsigned long int test8$$1$$3$$15$$__s1_len;
-        unsigned long int test8$$1$$3$$15$$__s2_len;
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp(str, "stopped");
-        tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-        if(!(tmp_statement_expression$7 == 0))
+        signed int tmp_statement_expression_7;
+        unsigned long int test8__1__3__15____s1_len;
+        unsigned long int test8__1__3__15____s2_len;
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp(str, "stopped");
+        tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+        if(!(tmp_statement_expression_7 == 0))
         {
           printf("State key is not \"stopped\".\n");
           free((void *)str);
@@ -6150,13 +6150,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$9;
-        unsigned long int test8$$1$$3$$18$$__s1_len;
-        unsigned long int test8$$1$$3$$18$$__s2_len;
-        signed int return_value___builtin_strcmp$10;
-        return_value___builtin_strcmp$10=__builtin_strcmp(str, "stopped");
-        tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-        if(!(tmp_statement_expression$9 == 0))
+        signed int tmp_statement_expression_9;
+        unsigned long int test8__1__3__18____s1_len;
+        unsigned long int test8__1__3__18____s2_len;
+        signed int return_value___builtin_strcmp_10;
+        return_value___builtin_strcmp_10=__builtin_strcmp(str, "stopped");
+        tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+        if(!(tmp_statement_expression_9 == 0))
         {
           printf("State key is not \"stopped\".\n");
           free((void *)str);
@@ -6179,13 +6179,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$11;
-        unsigned long int test8$$1$$3$$22$$__s1_len;
-        unsigned long int test8$$1$$3$$22$$__s2_len;
-        signed int return_value___builtin_strcmp$12;
-        return_value___builtin_strcmp$12=__builtin_strcmp(str, "running");
-        tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-        if(!(tmp_statement_expression$11 == 0))
+        signed int tmp_statement_expression_11;
+        unsigned long int test8__1__3__22____s1_len;
+        unsigned long int test8__1__3__22____s2_len;
+        signed int return_value___builtin_strcmp_12;
+        return_value___builtin_strcmp_12=__builtin_strcmp(str, "running");
+        tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+        if(!(tmp_statement_expression_11 == 0))
         {
           printf("State key is not \"running\".\n");
           free((void *)str);
@@ -6256,13 +6256,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$13;
-        unsigned long int test8$$1$$3$$25$$8$$__s1_len;
-        unsigned long int test8$$1$$3$$25$$8$$__s2_len;
-        signed int return_value___builtin_strcmp$14;
-        return_value___builtin_strcmp$14=__builtin_strcmp(str, "stopped");
-        tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-        if(!(tmp_statement_expression$13 == 0))
+        signed int tmp_statement_expression_13;
+        unsigned long int test8__1__3__25__8____s1_len;
+        unsigned long int test8__1__3__25__8____s2_len;
+        signed int return_value___builtin_strcmp_14;
+        return_value___builtin_strcmp_14=__builtin_strcmp(str, "stopped");
+        tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+        if(!(tmp_statement_expression_13 == 0))
         {
           printf("State key is not \"stopped\".\n");
           free((void *)str);
@@ -6286,13 +6286,13 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
             return 2;
           }
 
-          signed int tmp_statement_expression$15;
+          signed int tmp_statement_expression_15;
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$16;
-          return_value___builtin_strcmp$16=__builtin_strcmp(str, "failed");
-          tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-          if(!(tmp_statement_expression$15 == 0))
+          signed int return_value___builtin_strcmp_16;
+          return_value___builtin_strcmp_16=__builtin_strcmp(str, "failed");
+          tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+          if(!(tmp_statement_expression_15 == 0))
           {
             printf("State key is not \"failed\".\n");
             free((void *)str);
@@ -6313,7 +6313,7 @@ static signed int test8(signed int pid, signed int old_pid, signed int test_n)
 // file testsam.c line 1105
 static signed int test9(signed int pid, signed int old_pid, signed int test_n)
 {
-  enum anonymous$0 err;
+  enum anonymous_0 err;
   unsigned long int cmap_handle;
   unsigned int instance_id;
   char *str;
@@ -6331,7 +6331,7 @@ static signed int test9(signed int pid, signed int old_pid, signed int test_n)
     if(test_n == 1)
     {
       printf("%s: initialize\n", (const void *)"test9");
-      err=sam_initialize(2000, (enum anonymous$8)(SAM_RECOVERY_POLICY_RESTART | SAM_RECOVERY_POLICY_CMAP));
+      err=sam_initialize(2000, (enum anonymous_8)(SAM_RECOVERY_POLICY_RESTART | SAM_RECOVERY_POLICY_CMAP));
       if(!((signed int)err == CS_OK))
       {
         fprintf(stderr, "Can't initialize SAM API. Error %d\n", err);
@@ -6357,13 +6357,13 @@ static signed int test9(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$1;
-        unsigned long int test9$$1$$2$$3$$2$$__s1_len;
-        unsigned long int test9$$1$$2$$3$$2$$__s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(str, "restart");
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(!(tmp_statement_expression$1 == 0))
+        signed int tmp_statement_expression_1;
+        unsigned long int test9__1__2__3__2____s1_len;
+        unsigned long int test9__1__2__3__2____s2_len;
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(str, "restart");
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(!(tmp_statement_expression_1 == 0))
         {
           printf("Recovery key \"%s\" is not \"restart\".\n", str);
           free((void *)str);
@@ -6379,13 +6379,13 @@ static signed int test9(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$3;
-        unsigned long int test9$$1$$2$$3$$5$$__s1_len;
-        unsigned long int test9$$1$$2$$3$$5$$__s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(str, "stopped");
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        if(!(tmp_statement_expression$3 == 0))
+        signed int tmp_statement_expression_3;
+        unsigned long int test9__1__2__3__5____s1_len;
+        unsigned long int test9__1__2__3__5____s2_len;
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(str, "stopped");
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        if(!(tmp_statement_expression_3 == 0))
         {
           printf("State key is not \"stopped\".\n");
           free((void *)str);
@@ -6408,13 +6408,13 @@ static signed int test9(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$5;
-        unsigned long int test9$$1$$2$$3$$9$$__s1_len;
-        unsigned long int test9$$1$$2$$3$$9$$__s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp(str, "running");
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(!(tmp_statement_expression$5 == 0))
+        signed int tmp_statement_expression_5;
+        unsigned long int test9__1__2__3__9____s1_len;
+        unsigned long int test9__1__2__3__9____s2_len;
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp(str, "running");
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(!(tmp_statement_expression_5 == 0))
         {
           printf("State key is not \"running\".\n");
           free((void *)str);
@@ -6462,13 +6462,13 @@ static signed int test9(signed int pid, signed int old_pid, signed int test_n)
           return 2;
         }
 
-        signed int tmp_statement_expression$7;
+        signed int tmp_statement_expression_7;
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$8;
-        return_value___builtin_strcmp$8=__builtin_strcmp(str, "failed");
-        tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-        if(!(tmp_statement_expression$7 == 0))
+        signed int return_value___builtin_strcmp_8;
+        return_value___builtin_strcmp_8=__builtin_strcmp(str, "failed");
+        tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+        if(!(tmp_statement_expression_7 == 0))
         {
           printf("State key is not \"failed\".\n");
           free((void *)str);

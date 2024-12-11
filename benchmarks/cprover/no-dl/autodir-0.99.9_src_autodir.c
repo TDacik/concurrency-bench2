@@ -1,84 +1,84 @@
-// tag-#anon#ST[*{*{SYM#tag-bqueue#}$SYM#tag-bqueue#$}$*{SYM#tag-bqueue#}$SYM#tag-bqueue#$$'hash'||S32'hash_used'||S32'hash_size'||S64'wait'||S32'maxproc'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||U64'queue_watch'||S32'stop'||U32'$pad1'||*{SYM#tag-bqueue#}$SYM#tag-bqueue#$'start_t'||*{SYM#tag-bqueue#}$SYM#tag-bqueue#$'end_t'||*{SYM#tag-bqueue#}$SYM#tag-bqueue#$'cur_t'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'bchain_wait'||*{SYM#tag-bqueue#}$SYM#tag-bqueue#$'bchain'|]
+// tag-#anon#ST[*{*{SYM#tag-bqueue#}_SYM#tag-bqueue#_}_*{SYM#tag-bqueue#}_SYM#tag-bqueue#__'hash'||S32'hash_used'||S32'hash_size'||S64'wait'||S32'maxproc'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||U64'queue_watch'||S32'stop'||U32'_pad1'||*{SYM#tag-bqueue#}_SYM#tag-bqueue#_'start_t'||*{SYM#tag-bqueue#}_SYM#tag-bqueue#_'end_t'||*{SYM#tag-bqueue#}_SYM#tag-bqueue#_'cur_t'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'bchain_wait'||*{SYM#tag-bqueue#}_SYM#tag-bqueue#_'bchain'|]
 // file backup_queue.c line 75
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{S8}$S8$'path'||S32'mounted'||S32'k_pipe'||S32'ioctlfd'||S32'time_out'||S32'proto'||U32'$pad0'||U64'dev'|]
+// tag-#anon#ST[*{S8}_S8_'path'||S32'mounted'||S32'k_pipe'||S32'ioctlfd'||S32'time_out'||S32'proto'||U32'_pad0'||U64'dev'|]
 // file autodir.c line 64
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{SYM#tag-lentry#}$SYM#tag-lentry#$'list'||S32'count'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'|]
+// tag-#anon#ST[*{SYM#tag-lentry#}_SYM#tag-lentry#_'list'||S32'count'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'|]
 // file lockfile.c line 54
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{SYM#tag-lt__handle#}$SYM#tag-lt__handle#$'handle'||*{S8}$S8$'mod_path'||*{S8}$S8$'mod_subopt'|]
+// tag-#anon#ST[*{SYM#tag-lt__handle#}_SYM#tag-lt__handle#_'handle'||*{S8}_S8_'mod_path'||*{S8}_S8_'mod_subopt'|]
 // file module.c line 41
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-mentry#}$SYM#tag-mentry#$'list'||S32'count'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-mentry#}_SYM#tag-mentry#_'list'||S32'count'||U32'_pad0'|]
 // file multipath.c line 55
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{SYM#tag-packet#}$SYM#tag-packet#$'list'||S32'count'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'|]
+// tag-#anon#ST[*{SYM#tag-packet#}_SYM#tag-packet#_'list'||S32'count'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'|]
 // file mpacket.c line 35
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{SYM#tag-wentry#}$SYM#tag-wentry#$'list'||S32'count'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'|]
+// tag-#anon#ST[*{SYM#tag-wentry#}_SYM#tag-wentry#_'list'||S32'count'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'|]
 // file workon.c line 49
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR256{S8}$S8$'name'||*{cS8}$cS8$'module_name'||S32'pid'||S32'pgrp'||S32'fg'||U32'$pad0'||*{S8}$S8$'pid_file'||S32'shutdown'||S32'stop'||U64'sig_th'||S32'multi_path'||S8'multi_prefix'||U24'$pad1'||SYM#tag-thread_cache#'expire_tc'||SYM#tag-thread_cache#'missing_tc'|]
+// tag-#anon#ST[ARR256{S8}_S8_'name'||*{cS8}_cS8_'module_name'||S32'pid'||S32'pgrp'||S32'fg'||U32'_pad0'||*{S8}_S8_'pid_file'||S32'shutdown'||S32'stop'||U64'sig_th'||S32'multi_path'||S8'multi_prefix'||U24'_pad1'||SYM#tag-thread_cache#'expire_tc'||SYM#tag-thread_cache#'missing_tc'|]
 // file autodir.c line 74
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'count'||ARR41{S8}$S8$'ostr'||U24'$pad0'||ARR20{SYM#tag-opt_cb#}$SYM#tag-opt_cb#$'opt'||SYM#tag-cary#'ca'|]
+// tag-#anon#ST[S32'count'||ARR41{S8}_S8_'ostr'||U24'_pad0'||ARR20{SYM#tag-opt_cb#}_SYM#tag-opt_cb#_'opt'||SYM#tag-cary#'ca'|]
 // file options.c line 72
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'count'||U32'$pad0'||*{SYM#tag-barg#}$SYM#tag-barg#$'end'||*{SYM#tag-barg#}$SYM#tag-barg#$'start'|]
+// tag-#anon#ST[S32'count'||U32'_pad0'||*{SYM#tag-barg#}_SYM#tag-barg#_'end'||*{SYM#tag-barg#}_SYM#tag-barg#_'start'|]
 // file backup_argv.c line 52
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'count'||U32'$pad0'||*{SYM#tag-bqueue#}$SYM#tag-bqueue#$'list'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'|]
+// tag-#anon#ST[S32'count'||U32'_pad0'||*{SYM#tag-bqueue#}_SYM#tag-bqueue#_'list'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'|]
 // file backup_queue.c line 111
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'msg_which'||S32'slog_init'||S32'verbose_log'||U32'$pad0'||*{S8}$S8$'modname_prefix'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'strerror_lock'|]
+// tag-#anon#ST[S32'msg_which'||S32'slog_init'||S32'verbose_log'||U32'_pad0'||*{S8}_S8_'modname_prefix'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'strerror_lock'|]
 // file msg.c line 61
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'priority'||U32'$pad0'||*{cS8}$cS8$'tag'|]
+// tag-#anon#ST[S32'priority'||U32'_pad0'||*{cS8}_cS8_'tag'|]
 // file msg.c line 45
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||*{SYM#tag-backup_pid#}$SYM#tag-backup_pid#$'list'||S32'count'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||*{SYM#tag-backup_pid#}_SYM#tag-backup_pid#_'list'||S32'count'||U32'_pad0'|]
 // file backup_pid.c line 35
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||*{SYM#tag-backup_pids#}$SYM#tag-backup_pids#$'pids1'||*{SYM#tag-backup_pids#}$SYM#tag-backup_pids#$'pids2'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||*{SYM#tag-backup_pids#}_SYM#tag-backup_pids#_'pids1'||*{SYM#tag-backup_pids#}_SYM#tag-backup_pids#_'pids2'|]
 // file backup_pid.c line 113
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U64'main'||ARR10{U64}$U64$'threads'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||S32'cur'||S32'stop'||S32'ioctlfd'||U32'$pad0'||*{S32}$S32$'shutdown'|]
+// tag-#anon#ST[U64'main'||ARR10{U64}_U64_'threads'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||S32'cur'||S32'stop'||S32'ioctlfd'||U32'_pad0'||*{S32}_S32_'shutdown'|]
 // file expire.c line 40
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -459,15 +459,15 @@ extern signed int dup2(signed int, signed int);
 // entry_allocate
 // file backup_queue.c line 142
 static struct bqueue * entry_allocate(void);
-// entry_allocate$link1
+// entry_allocate_link1
 // file backup_pid.c line 66
-static struct backup_pid * entry_allocate$link1(void);
+static struct backup_pid * entry_allocate_link1(void);
 // entry_free
 // file backup_queue.c line 117
 static void entry_free(struct bqueue *bq);
-// entry_free$link1
+// entry_free_link1
 // file backup_pid.c line 41
-static void entry_free$link1(struct backup_pid *to_free);
+static void entry_free_link1(struct backup_pid *to_free);
 // exclusive_lock
 // file lockfile.c line 278
 static signed int exclusive_lock(signed int fd, const char *path);
@@ -516,9 +516,9 @@ static signed int free_slot_get(struct backup_pids *pids);
 // fstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf);
-// fstat$link1
+// fstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
-static inline signed int fstat$link1(signed int __fd$link1, struct stat *__statbuf$link1);
+static inline signed int fstat_link1(signed int __fd_link1, struct stat *__statbuf_link1);
 // get_cache
 // file thread_cache.c line 40
 static struct packet * get_cache(struct thread_cache *tc);
@@ -609,9 +609,9 @@ static struct lentry * lockfile_unhash(const char *name, signed int force);
 // lstat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
 static inline signed int lstat(const char *__path, struct stat *__statbuf);
-// lstat$link1
+// lstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link1(const char *__path$link1, struct stat *__statbuf$link1);
+static inline signed int lstat_link1(const char *__path_link1, struct stat *__statbuf_link1);
 // lt_dlclose
 // file /usr/include/ltdl.h line 83
 extern signed int lt_dlclose(struct lt__handle *);
@@ -654,18 +654,18 @@ static void missing_exit(char *mname, char *name, unsigned int wqt, signed int r
 // mkdir
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 320
 extern signed int mkdir(const char *, unsigned int);
-// mod_clean$object
+// mod_clean_object
 //
-void mod_clean$object(void);
-// mod_dir$object
+void mod_clean_object(void);
+// mod_dir_object
 //
-void mod_dir$object(char *, signed int, const char *);
-// mod_dowork$object
+void mod_dir_object(char *, signed int, const char *);
+// mod_dowork_object
 //
-signed int mod_dowork$object(const char *, const char *, char *, signed int);
-// mod_init$object
+signed int mod_dowork_object(const char *, const char *, char *, signed int);
+// mod_init_object
 //
-struct module_info * mod_init$object(char *, const char *);
+struct module_info * mod_init_object(char *, const char *);
 // module_check
 // file module.c line 72
 static void module_check(void);
@@ -774,9 +774,9 @@ static void option_process(char **argv, signed int argc);
 // option_register
 // file options.c line 191
 static void option_register(const char opch, void (* const cb)(char, char *, signed int), const signed int areq);
-// option_register::cb$object
+// option_register::cb_object
 //
-void cb$object(char, char *, signed int);
+void cb_object(char, char *, signed int);
 // option_usage
 // file options.c line 93
 static void option_usage(void);
@@ -827,31 +827,31 @@ extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned lon
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$0 *);
+extern signed int pthread_cond_broadcast(union anonymous_0 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$0 *);
+extern signed int pthread_cond_destroy(union anonymous_0 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$0 *, const union anonymous$9 *);
+extern signed int pthread_cond_init(union anonymous_0 *, const union anonymous_9 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$0 *);
+extern signed int pthread_cond_signal(union anonymous_0 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$0 *, union anonymous *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_0 *, union anonymous *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$0 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous *);
 // pthread_condattr_init
 // file /usr/include/pthread.h line 1010
-extern signed int pthread_condattr_init(union anonymous$9 *);
+extern signed int pthread_condattr_init(union anonymous_9 *);
 // pthread_condattr_setclock
 // file /usr/include/pthread.h line 1035
-extern signed int pthread_condattr_setclock(union anonymous$9 *, signed int);
+extern signed int pthread_condattr_setclock(union anonymous_9 *, signed int);
 // pthread_condattr_setpshared
 // file /usr/include/pthread.h line 1024
-extern signed int pthread_condattr_setpshared(union anonymous$9 *, signed int);
+extern signed int pthread_condattr_setpshared(union anonymous_9 *, signed int);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -869,7 +869,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$9 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_9 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -881,13 +881,13 @@ extern signed int pthread_mutex_trylock(union anonymous *);
 extern signed int pthread_mutex_unlock(union anonymous *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$9 *);
+extern signed int pthread_mutexattr_init(union anonymous_9 *);
 // pthread_mutexattr_setpshared
 // file /usr/include/pthread.h line 822
-extern signed int pthread_mutexattr_setpshared(union anonymous$9 *, signed int);
+extern signed int pthread_mutexattr_setpshared(union anonymous_9 *, signed int);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$9 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_9 *, signed int);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -953,7 +953,7 @@ extern signed int setsid(void);
 static signed int shared_lock(signed int fd, const char *path);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$2 *);
+extern signed int sigfillset(struct anonymous_2 *);
 // signal_block
 // file autodir.c line 617
 static void signal_block(void);
@@ -962,10 +962,10 @@ static void signal_block(void);
 static void * signal_handle(void *v);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$2 *, struct anonymous$2 *);
+extern signed int sigprocmask(signed int, const struct anonymous_2 *, struct anonymous_2 *);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$2 *, signed int *);
+extern signed int sigwait(const struct anonymous_2 *, signed int *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1014,9 +1014,9 @@ static void thread_attribute_init(union pthread_attr_t *attr, signed int joinabl
 // thread_cache_init
 // file thread_cache.h line 62
 void thread_cache_init(struct thread_cache *tc, void (*cb)(struct packet *), signed int n_slots, signed int max_thread_wait);
-// thread_cache_init::cb$object
+// thread_cache_init::cb_object
 //
-void cb$object(struct packet *);
+void cb_object(struct packet *);
 // thread_cache_new
 // file thread_cache.h line 61
 void thread_cache_new(struct thread_cache *tc, struct packet *pkt);
@@ -1035,21 +1035,21 @@ void thread_init(void);
 // thread_new
 // file thread.h line 35
 signed int thread_new(void * (*th_func)(void *), void *data, unsigned long int *pt);
-// thread_new::th_func$object
+// thread_new::th_func_object
 //
-void * th_func$object(void *);
+void * th_func_object(void *);
 // thread_new_joinable
 // file thread.h line 37
 signed int thread_new_joinable(void * (*th_func)(void *), void *data, unsigned long int *pt);
-// thread_new_joinable::th_func$object
+// thread_new_joinable::th_func_object
 //
-void * th_func$object(void *);
+void * th_func_object(void *);
 // thread_new_wait
 // file thread.h line 36
 unsigned long int thread_new_wait(void * (*th_func)(void *), void *data, signed long int retry);
-// thread_new_wait::th_func$object
+// thread_new_wait::th_func_object
 //
-void * th_func$object(void *);
+void * th_func_object(void *);
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
@@ -1152,7 +1152,7 @@ union anonymous
   signed long int __align;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __lock
   signed int __lock;
@@ -1172,17 +1172,17 @@ struct anonymous$14
   unsigned int __broadcast_seq;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
-  struct anonymous$14 __data;
+  struct anonymous_14 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // hash
   struct bqueue **hash;
@@ -1207,12 +1207,12 @@ struct anonymous$19
   // cur_t
   struct bqueue *cur_t;
   // bchain_wait
-  union anonymous$0 bchain_wait;
+  union anonymous_0 bchain_wait;
   // bchain
   struct bqueue *bchain;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // path
   char *path;
@@ -1230,7 +1230,7 @@ struct anonymous$12
   unsigned long int dev;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // list
   struct lentry *list;
@@ -1240,7 +1240,7 @@ struct anonymous$17
   union anonymous lock;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // handle
   struct lt__handle *handle;
@@ -1250,7 +1250,7 @@ struct anonymous$1
   char *mod_subopt;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // list
   struct mentry *list;
@@ -1258,7 +1258,7 @@ struct anonymous$18
   signed int count;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // list
   struct packet *list;
@@ -1268,7 +1268,7 @@ struct anonymous$8
   union anonymous lock;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // list
   struct wentry *list;
@@ -1278,7 +1278,7 @@ struct anonymous$15
   union anonymous lock;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
@@ -1297,13 +1297,13 @@ struct thread_cache
   // pending_count
   signed int pending_count;
   // count_cond
-  union anonymous$0 count_cond;
+  union anonymous_0 count_cond;
   // thread_waiting
   signed int thread_waiting;
   // max_thread_wait
   signed int max_thread_wait;
   // waiting_cond
-  union anonymous$0 waiting_cond;
+  union anonymous_0 waiting_cond;
   // pkt_slots
   struct packet **pkt_slots;
   // n_slots
@@ -1314,7 +1314,7 @@ struct thread_cache
   signed int out;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // name
   char name[256l];
@@ -1368,7 +1368,7 @@ struct cary
   signed int cur;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // count
   signed int count;
@@ -1380,7 +1380,7 @@ struct anonymous$13
   struct cary ca;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // count
   signed int count;
@@ -1390,7 +1390,7 @@ struct anonymous$4
   struct barg *start;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // count
   signed int count;
@@ -1400,7 +1400,7 @@ struct anonymous$20
   union anonymous lock;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // msg_which
   signed int msg_which;
@@ -1414,7 +1414,7 @@ struct anonymous$11
   union anonymous strerror_lock;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // priority
   signed int priority;
@@ -1422,7 +1422,7 @@ struct anonymous$10
   const char *tag;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // lock
   union anonymous lock;
@@ -1432,7 +1432,7 @@ struct anonymous$5
   signed int count;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // lock
   union anonymous lock;
@@ -1442,7 +1442,7 @@ struct anonymous$6
   struct backup_pids *pids2;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // main
   unsigned long int main;
@@ -1460,7 +1460,7 @@ struct anonymous$7
   signed int *shutdown;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __size
   char __size[4l];
@@ -1609,7 +1609,7 @@ struct backup_pid
   // waiting
   signed int waiting;
   // wait
-  union anonymous$0 wait;
+  union anonymous_0 wait;
   // next
   struct backup_pid *next;
   // pids
@@ -1845,16 +1845,16 @@ struct wentry
 
 // BQ
 // file backup_queue.c line 99
-static struct anonymous$19 BQ;
+static struct anonymous_19 BQ;
 // autodir
 // file autodir.c line 72
-static struct anonymous$12 autodir;
+static struct anonymous_12 autodir;
 // backup_life
 // file backup.c line 43
 static signed int backup_life = 0;
-// backup_life$link1
+// backup_life_link1
 // file backup_child.c line 46
-static signed int backup_life$link1;
+static signed int backup_life_link1;
 // backup_limit
 // file backup.c line 41
 static signed int backup_limit = 0;
@@ -1875,13 +1875,13 @@ static signed int backup_wait2finish = 0;
 static signed int backup_wait_before = 0;
 // barg_list
 // file backup_argv.c line 56
-static struct anonymous$4 barg_list;
+static struct anonymous_4 barg_list;
 // bcache
 // file backup_queue.c line 115
-static struct anonymous$20 bcache;
-// bcache$link1
+static struct anonymous_20 bcache;
+// bcache_link1
 // file backup_pid.c line 39
-static struct anonymous$5 bcache$link1;
+static struct anonymous_5 bcache_link1;
 // clockid
 // file time_mono.c line 34
 signed int clockid = 0;
@@ -1890,31 +1890,31 @@ signed int clockid = 0;
 static union pthread_attr_t cmn_attr;
 // common_cond_attr
 // file thread.c line 52
-union anonymous$9 common_cond_attr;
+union anonymous_9 common_cond_attr;
 // common_mutex_attr
 // file thread.c line 51
-union anonymous$9 common_mutex_attr;
+union anonymous_9 common_mutex_attr;
 // do_backup
 // file backup.c line 38
 static signed int do_backup = 0;
 // expire
 // file expire.c line 48
-static struct anonymous$7 expire;
+static struct anonymous_7 expire;
 // hash
 // file backup_child.c line 40
 static struct backup_pid **hash;
 // hash_lock
 // file workon.c line 58
 static union anonymous hash_lock;
-// hash_lock$link1
+// hash_lock_link1
 // file lockfile.c line 61
-static union anonymous hash_lock$link1;
-// hash_lock$link2
+static union anonymous hash_lock_link1;
+// hash_lock_link2
 // file multipath.c line 63
-static union anonymous hash_lock$link2;
-// hash_lock$link3
+static union anonymous hash_lock_link2;
+// hash_lock_link3
 // file backup_child.c line 43
-static union anonymous hash_lock$link3;
+static union anonymous hash_lock_link3;
 // hash_size
 // file backup_child.c line 41
 static signed int hash_size;
@@ -1932,7 +1932,7 @@ static signed int initialized = 0;
 static union pthread_attr_t join_attr;
 // lcache
 // file lockfile.c line 58
-static struct anonymous$17 lcache;
+static struct anonymous_17 lcache;
 // lhash
 // file lockfile.c line 60
 static struct lentry **lhash;
@@ -1953,10 +1953,10 @@ static signed int lockfiles;
 static signed int lockstop = 0;
 // mcache
 // file multipath.c line 58
-static struct anonymous$18 mcache;
+static struct anonymous_18 mcache;
 // mg
 // file msg.c line 67
-static struct anonymous$11 mg;
+static struct anonymous_11 mg;
 // mhash
 // file multipath.c line 60
 static struct mentry **mhash;
@@ -1983,10 +1983,10 @@ struct module_info * (*mod_init)(char *, const char *);
 static struct module_info *modinfo;
 // module
 // file module.c line 47
-static struct anonymous$1 module;
+static struct anonymous_1 module;
 // msgmap
 // file msg.c line 48
-static struct anonymous$10 msgmap[9l] = { { .priority=0, .tag="fatal" }, { .priority=0, .tag="emergency" }, { .priority=1, .tag="alert" }, { .priority=2, .tag="critical" }, { .priority=3, .tag="error" }, { .priority=4, .tag="warning" }, { .priority=5, .tag="notice" }, { .priority=6, .tag="info" }, { .priority=7, .tag="debug" } };
+static struct anonymous_10 msgmap[9l] = { { .priority=0, .tag="fatal" }, { .priority=0, .tag="emergency" }, { .priority=1, .tag="alert" }, { .priority=2, .tag="critical" }, { .priority=3, .tag="error" }, { .priority=4, .tag="warning" }, { .priority=5, .tag="notice" }, { .priority=6, .tag="info" }, { .priority=7, .tag="debug" } };
 // optarg
 // file /usr/include/getopt.h line 57
 extern char *optarg;
@@ -1998,16 +1998,16 @@ extern signed int opterr;
 extern signed int optind;
 // options
 // file options.c line 77
-static struct anonymous$13 options;
+static struct anonymous_13 options;
 // optopt
 // file /usr/include/getopt.h line 80
 extern signed int optopt;
 // pcache
 // file mpacket.c line 39
-static struct anonymous$8 pcache;
+static struct anonymous_8 pcache;
 // pid_holder
 // file backup_pid.c line 117
-static struct anonymous$6 pid_holder;
+static struct anonymous_6 pid_holder;
 // pids1
 // file backup_pid.c line 110
 static struct backup_pids pids1;
@@ -2019,7 +2019,7 @@ static struct backup_pids pids2;
 static signed int priority;
 // self
 // file autodir.c line 91
-static struct anonymous$16 self;
+static struct anonymous_16 self;
 // spid
 // file lockfile.c line 64
 static char spid[128l];
@@ -2037,7 +2037,7 @@ extern struct _IO_FILE *stdout;
 static signed int stop;
 // wcache
 // file workon.c line 53
-static struct anonymous$15 wcache;
+static struct anonymous_15 wcache;
 // whash
 // file workon.c line 55
 static struct wentry **whash;
@@ -2065,11 +2065,11 @@ static void autodir_clean(void)
   if(autodir.k_pipe >= 0)
     close(autodir.k_pipe);
 
-  signed int return_value_umount$1;
+  signed int return_value_umount_1;
   if(!(autodir.mounted == 0))
   {
-    return_value_umount$1=umount(autodir.path);
-    if(!(return_value_umount$1 == 0))
+    return_value_umount_1=umount(autodir.path);
+    if(!(return_value_umount_1 == 0))
       msglog(4 | 128, "autodir_clean: umount %s", autodir.path);
 
   }
@@ -2123,9 +2123,9 @@ void autodir_option_path(char ch, char *arg, signed int valid)
   if(valid == 0)
     msglog(0, "autofs directory option -%c missing", ch);
 
-  signed int return_value_check_abs_path$1;
-  return_value_check_abs_path$1=check_abs_path(arg);
-  if(return_value_check_abs_path$1 == 0)
+  signed int return_value_check_abs_path_1;
+  return_value_check_abs_path_1=check_abs_path(arg);
+  if(return_value_check_abs_path_1 == 0)
     msglog(0, "invalid argument for path -%c option", ch);
 
   autodir.path = arg;
@@ -2135,14 +2135,14 @@ void autodir_option_path(char ch, char *arg, signed int valid)
 // file autodir.c line 771
 void autodir_option_pidfile(char ch, char *arg, signed int valid)
 {
-  signed int return_value_check_abs_path$1;
+  signed int return_value_check_abs_path_1;
   if(valid == 0)
     self.pid_file = (char *)(void *)0;
 
   else
   {
-    return_value_check_abs_path$1=check_abs_path(arg);
-    if(return_value_check_abs_path$1 == 0)
+    return_value_check_abs_path_1=check_abs_path(arg);
+    if(return_value_check_abs_path_1 == 0)
       msglog(0, "invalid argument for pid file -%c option ", ch);
 
     else
@@ -2154,14 +2154,14 @@ void autodir_option_pidfile(char ch, char *arg, signed int valid)
 // file autodir.c line 780
 void autodir_option_timeout(char ch, char *arg, signed int valid)
 {
-  signed int return_value_string_to_number$1;
+  signed int return_value_string_to_number_1;
   if(valid == 0)
     autodir.time_out = 300;
 
   else
   {
-    return_value_string_to_number$1=string_to_number(arg, &autodir.time_out);
-    if(return_value_string_to_number$1 == 0)
+    return_value_string_to_number_1=string_to_number(arg, &autodir.time_out);
+    if(return_value_string_to_number_1 == 0)
       msglog(0, "invalid argument for timeout -%c option", ch);
 
   }
@@ -2187,16 +2187,16 @@ static void autodir_setname(const char *name)
 static void backarg_add(char *arg)
 {
   struct barg *tmp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct barg) /*24ul*/ );
-  tmp = (struct barg *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct barg) /*24ul*/ );
+  tmp = (struct barg *)return_value_malloc_1;
   if(tmp == ((struct barg *)NULL))
     msglog(0, "backarg_add: malloc: could not allocate memory");
 
   tmp->arg = arg;
-  char *return_value___builtin_strchr$2;
-  return_value___builtin_strchr$2=__builtin_strchr(arg, 37);
-  tmp->type = return_value___builtin_strchr$2 != ((char *)NULL) ? 2 : 1;
+  char *return_value___builtin_strchr_2;
+  return_value___builtin_strchr_2=__builtin_strchr(arg, 37);
+  tmp->type = return_value___builtin_strchr_2 != ((char *)NULL) ? 2 : 1;
   tmp->next = (struct barg *)(void *)0;
   if(!(barg_list.end == ((struct barg *)NULL)))
   {
@@ -2284,15 +2284,15 @@ static signed int backarg_expand(char *buf, const signed int len, const char *fm
     i = i + 1;
   }
   while((_Bool)1);
-  unsigned long int return_value_strftime$1;
+  unsigned long int return_value_strftime_1;
   if(r == 0)
     return 0;
 
   else
     if(!(strf_expand == 0))
     {
-      return_value_strftime$1=strftime(buf, (unsigned long int)len, b, tm);
-      return return_value_strftime$1 != 0ul ? 1 : 0;
+      return_value_strftime_1=strftime(buf, (unsigned long int)len, b, tm);
+      return return_value_strftime_1 != 0ul ? 1 : 0;
     }
 
     else
@@ -2323,9 +2323,9 @@ signed int backup_argv_get(const char *name, const char *path, char ***argv)
   signed long int ct;
   struct barg *arg;
   ct=time((signed long int *)(void *)0);
-  struct tm *return_value_localtime_r$1;
-  return_value_localtime_r$1=localtime_r(&ct, &tm);
-  if(return_value_localtime_r$1 == ((struct tm *)NULL))
+  struct tm *return_value_localtime_r_1;
+  return_value_localtime_r_1=localtime_r(&ct, &tm);
+  if(return_value_localtime_r_1 == ((struct tm *)NULL))
   {
     fprintf(stderr, "backarg_get_argv: localtime_r error\n");
     return 0;
@@ -2333,9 +2333,9 @@ signed int backup_argv_get(const char *name, const char *path, char ***argv)
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(barg_list.count + 1));
-    av = (char **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(barg_list.count + 1));
+    av = (char **)return_value_malloc_2;
     if(av == ((char **)NULL))
     {
       fprintf(stderr, "backarg_get_argv: malloc: could not allocate memory\n");
@@ -2360,9 +2360,9 @@ signed int backup_argv_get(const char *name, const char *path, char ***argv)
             return 0;
           }
 
-          char *return_value___strdup$3;
-          return_value___strdup$3=__strdup(arg_buf);
-          av[(signed long int)i] = return_value___strdup$3;
+          char *return_value___strdup_3;
+          return_value___strdup_3=__strdup(arg_buf);
+          av[(signed long int)i] = return_value___strdup_3;
           if(av[(signed long int)i] == ((char *)NULL))
           {
             fprintf(stderr, "backarg_get_argv: strdup: could not allocate memory\n");
@@ -2386,9 +2386,9 @@ void backup_argv_init(char *bopt)
   char *arg;
   if(!(bopt == ((char *)NULL)))
   {
-    signed int return_value_gethostname$1;
-    return_value_gethostname$1=gethostname(hostname, sizeof(char [65l]) /*65ul*/ );
-    if(!(return_value_gethostname$1 == 0))
+    signed int return_value_gethostname_1;
+    return_value_gethostname_1=gethostname(hostname, sizeof(char [65l]) /*65ul*/ );
+    if(!(return_value_gethostname_1 == 0))
       msglog(0 | 128, "backup_argv_init: gethostname");
 
     barg_list.start = (struct barg *)(void *)0;
@@ -2400,9 +2400,9 @@ void backup_argv_init(char *bopt)
       backarg_add(arg);
       arg=strtok((char *)(void *)0, " \f\n\r\t\v");
     }
-    signed int return_value_atexit$2;
-    return_value_atexit$2=atexit(backarg_clean);
-    if(!(return_value_atexit$2 == 0))
+    signed int return_value_atexit_2;
+    return_value_atexit_2=atexit(backarg_clean);
+    if(!(return_value_atexit_2 == 0))
       msglog(0, "backup_argv_init: could not register cleanup method");
 
   }
@@ -2417,7 +2417,7 @@ static signed int backup_child_add(const char *name, signed int pid, signed long
   struct backup_pid **dptr;
   struct backup_pid *new_ent;
   struct backup_pid *ent;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(!(pid >= 0))
     return 0;
 
@@ -2425,7 +2425,7 @@ static signed int backup_child_add(const char *name, signed int pid, signed long
   {
     h=string_hash(name);
     started=time_mono();
-    pthread_mutex_lock(&hash_lock$link3);
+    pthread_mutex_lock(&hash_lock_link3);
     do
     {
       dptr = &hash[(signed long int)(h % (unsigned int)hash_size)];
@@ -2436,10 +2436,10 @@ static signed int backup_child_add(const char *name, signed int pid, signed long
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$2;
-            return_value___builtin_strcmp$2=__builtin_strcmp(name, (*dptr)->name);
-            tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-            if(tmp_statement_expression$1 == 0)
+            signed int return_value___builtin_strcmp_2;
+            return_value___builtin_strcmp_2=__builtin_strcmp(name, (*dptr)->name);
+            tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+            if(tmp_statement_expression_1 == 0)
               break;
 
           }
@@ -2451,7 +2451,7 @@ static signed int backup_child_add(const char *name, signed int pid, signed long
     ent = *dptr;
     if(!(ent == ((struct backup_pid *)NULL)))
     {
-      pthread_mutex_unlock(&hash_lock$link3);
+      pthread_mutex_unlock(&hash_lock_link3);
       return 0;
     }
 
@@ -2460,7 +2460,7 @@ static signed int backup_child_add(const char *name, signed int pid, signed long
       new_ent=backup_pidmem_allocate();
       if(new_ent == ((struct backup_pid *)NULL))
       {
-        pthread_mutex_unlock(&hash_lock$link3);
+        pthread_mutex_unlock(&hash_lock_link3);
         msglog(2, "backup_child: could not allocate memory");
         return 0;
       }
@@ -2474,7 +2474,7 @@ static signed int backup_child_add(const char *name, signed int pid, signed long
         new_ent->next = (struct backup_pid *)(void *)0;
         *dptr = new_ent;
         hash_used = hash_used + 1;
-        pthread_mutex_unlock(&hash_lock$link3);
+        pthread_mutex_unlock(&hash_lock_link3);
         return 1;
       }
     }
@@ -2486,15 +2486,15 @@ static signed int backup_child_add(const char *name, signed int pid, signed long
 signed int backup_child_count(void)
 {
   signed int ret;
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&hash_lock$link3);
-  if(!(return_value_pthread_mutex_trylock$1 == 0))
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&hash_lock_link3);
+  if(!(return_value_pthread_mutex_trylock_1 == 0))
     return -1;
 
   else
   {
     ret = hash_used;
-    pthread_mutex_unlock(&hash_lock$link3);
+    pthread_mutex_unlock(&hash_lock_link3);
     return ret;
   }
 }
@@ -2503,20 +2503,20 @@ signed int backup_child_count(void)
 // file backup_child.h line 4
 void backup_child_init(signed int size, signed int blife)
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)size, sizeof(struct backup_pid *) /*8ul*/ );
-  hash = (struct backup_pid **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)size, sizeof(struct backup_pid *) /*8ul*/ );
+  hash = (struct backup_pid **)return_value_calloc_1;
   if(hash == ((struct backup_pid **)NULL))
     msglog(0, "backup_child_init: could not allocate hash table");
 
   stop = 0;
   hash_used = 0;
   hash_size = size;
-  pthread_mutex_init(&hash_lock$link3, &common_mutex_attr);
-  backup_life$link1 = blife > 0 ? blife : 0;
-  signed int return_value_thread_new_joinable$2;
-  return_value_thread_new_joinable$2=thread_new_joinable(backup_monitor_thread, (void *)0, &backup_monitor_th);
-  if(return_value_thread_new_joinable$2 == 0)
+  pthread_mutex_init(&hash_lock_link3, &common_mutex_attr);
+  backup_life_link1 = blife > 0 ? blife : 0;
+  signed int return_value_thread_new_joinable_2;
+  return_value_thread_new_joinable_2=thread_new_joinable(backup_monitor_thread, (void *)0, &backup_monitor_th);
+  if(return_value_thread_new_joinable_2 == 0)
     msglog(0, "backup_child_init: could not start new thread");
 
 }
@@ -2544,11 +2544,11 @@ void backup_child_start(const char *name, const char *path)
   pid=backup_fork_new(name, path);
   if(pid >= 1)
   {
-    signed long int return_value_time_mono$1;
-    return_value_time_mono$1=time_mono();
-    signed int return_value_backup_child_add$2;
-    return_value_backup_child_add$2=backup_child_add(name, pid, return_value_time_mono$1);
-    if(return_value_backup_child_add$2 == 0)
+    signed long int return_value_time_mono_1;
+    return_value_time_mono_1=time_mono();
+    signed int return_value_backup_child_add_2;
+    return_value_backup_child_add_2=backup_child_add(name, pid, return_value_time_mono_1);
+    if(return_value_backup_child_add_2 == 0)
       backup_kill(pid, name);
 
   }
@@ -2582,9 +2582,9 @@ void backup_child_wait(const char *name)
   pid=get_pid(name, &bp, 0);
   if(!(pid == 0))
   {
-    signed int return_value_backup_waitpid$1;
-    return_value_backup_waitpid$1=backup_waitpid(pid, name, 0);
-    if(!(return_value_backup_waitpid$1 >= 1))
+    signed int return_value_backup_waitpid_1;
+    return_value_backup_waitpid_1=backup_waitpid(pid, name, 0);
+    if(!(return_value_backup_waitpid_1 >= 1))
     {
       pid=wait_pid(pid, bp);
       if(pid == 0)
@@ -2608,23 +2608,23 @@ static void backup_exec(const char *name, const char *path)
   char **argv;
   reset_signals();
   setpriority(0, (unsigned int)0, priority);
-  signed int return_value_backup_argv_get$1;
-  return_value_backup_argv_get$1=backup_argv_get(name, path, &argv);
-  if(return_value_backup_argv_get$1 == 0)
+  signed int return_value_backup_argv_get_1;
+  return_value_backup_argv_get_1=backup_argv_get(name, path, &argv);
+  if(return_value_backup_argv_get_1 == 0)
   {
     fprintf(stderr, "backup_exec: could not make argument vector");
     _exit(1);
   }
 
-  signed int return_value_execv$4;
-  return_value_execv$4=execv(argv[(signed long int)0], argv);
-  if(!(return_value_execv$4 == 0))
+  signed int return_value_execv_4;
+  return_value_execv_4=execv(argv[(signed long int)0], argv);
+  if(!(return_value_execv_4 == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "backup_exec: execv: %s", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "backup_exec: execv: %s", return_value_strerror_3);
     _exit(1);
   }
 
@@ -2646,8 +2646,8 @@ signed int backup_fork_new(const char *name, const char *path)
   signed int pid;
   msglog(7, "starting backup for %s", name);
   pid=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(pid >= 0))
   {
     msglog(6 | 128, "fork: could not start backup for %s", name);
@@ -2657,13 +2657,13 @@ signed int backup_fork_new(const char *name, const char *path)
   else
     if(pid == 0)
     {
-      signed int return_value_setpgrp$3;
-      return_value_setpgrp$3=setpgrp();
-      if(return_value_setpgrp$3 == -1)
+      signed int return_value_setpgrp_3;
+      return_value_setpgrp_3=setpgrp();
+      if(return_value_setpgrp_3 == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(stderr, "setpgrp: %s", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(stderr, "setpgrp: %s", return_value_strerror_2);
       }
 
       backup_exec(name, path);
@@ -2679,14 +2679,14 @@ signed int backup_fork_new(const char *name, const char *path)
 void backup_fork_option_pri(char ch, char *arg, signed int valid)
 {
   signed int pri;
-  signed int return_value_string_to_number$1;
+  signed int return_value_string_to_number_1;
   if(valid == 0)
     priority = 30;
 
   else
   {
-    return_value_string_to_number$1=string_to_number(arg, &pri);
-    if(return_value_string_to_number$1 == 0)
+    return_value_string_to_number_1=string_to_number(arg, &pri);
+    if(return_value_string_to_number_1 == 0)
       msglog(0, "invalid argument for -%c", ch);
 
     else
@@ -2717,24 +2717,24 @@ void backup_init(void)
 void backup_kill(signed int pid, const char *name)
 {
   signed int i;
-  signed int return_value_backup_waitpid$1;
-  return_value_backup_waitpid$1=backup_waitpid(pid, name, 0);
-  if(return_value_backup_waitpid$1 == 0)
+  signed int return_value_backup_waitpid_1;
+  return_value_backup_waitpid_1=backup_waitpid(pid, name, 0);
+  if(return_value_backup_waitpid_1 == 0)
   {
     kill(-pid, 15);
     sleep((unsigned int)1);
-    signed int return_value_backup_waitpid$2;
-    return_value_backup_waitpid$2=backup_waitpid(pid, name, 0);
-    if(return_value_backup_waitpid$2 == 0)
+    signed int return_value_backup_waitpid_2;
+    return_value_backup_waitpid_2=backup_waitpid(pid, name, 0);
+    if(return_value_backup_waitpid_2 == 0)
     {
       i = 0;
       for( ; !(i >= 3); i = i + 1)
       {
         kill(-pid, 9);
         sleep((unsigned int)1);
-        signed int return_value_backup_waitpid$3;
-        return_value_backup_waitpid$3=backup_waitpid(pid, name, 0);
-        if(!(return_value_backup_waitpid$3 == 0))
+        signed int return_value_backup_waitpid_3;
+        return_value_backup_waitpid_3=backup_waitpid(pid, name, 0);
+        if(!(return_value_backup_waitpid_3 == 0))
           goto __CPROVER_DUMP_L6;
 
       }
@@ -2755,7 +2755,7 @@ static void backup_kill_all(void)
   signed int i;
   struct backup_pid *bp;
   struct backup_pid **dptr;
-  pthread_mutex_lock(&hash_lock$link3);
+  pthread_mutex_lock(&hash_lock_link3);
   i = 0;
   for( ; !(i >= hash_size); i = i + 1)
   {
@@ -2775,7 +2775,7 @@ static void backup_kill_all(void)
       pthread_mutex_unlock(&bp->lock);
     }
   }
-  pthread_mutex_unlock(&hash_lock$link3);
+  pthread_mutex_unlock(&hash_lock_link3);
 }
 
 // backup_monitor_thread
@@ -2788,8 +2788,8 @@ static void * backup_monitor_thread(void *x)
   struct backup_pid *bp;
   signed long int now = (signed long int)0;
   sleep((unsigned int)1);
-  _Bool tmp_if_expr$3;
-  signed int return_value_backup_waitpid$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_backup_waitpid_2;
   while((_Bool)1)
   {
     pids=backup_pids_get();
@@ -2804,7 +2804,7 @@ static void * backup_monitor_thread(void *x)
 
     else
     {
-      if(backup_life$link1 >= 1)
+      if(backup_life_link1 >= 1)
         now=time_mono();
 
       i = 0;
@@ -2821,9 +2821,9 @@ static void * backup_monitor_thread(void *x)
         {
           if(bp->pid >= 1)
           {
-            signed int return_value_pthread_mutex_trylock$1;
-            return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&bp->lock);
-            if(return_value_pthread_mutex_trylock$1 == 0)
+            signed int return_value_pthread_mutex_trylock_1;
+            return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&bp->lock);
+            if(return_value_pthread_mutex_trylock_1 == 0)
             {
               pid = bp->pid;
               if(pid >= 1)
@@ -2832,12 +2832,12 @@ static void * backup_monitor_thread(void *x)
               pthread_mutex_unlock(&bp->lock);
               if(pid >= 1)
               {
-                if(backup_life$link1 >= 1)
-                  tmp_if_expr$3 = now - bp->started > (signed long int)backup_life$link1 ? (_Bool)1 : (_Bool)0;
+                if(backup_life_link1 >= 1)
+                  tmp_if_expr_3 = now - bp->started > (signed long int)backup_life_link1 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                if(tmp_if_expr$3)
+                  tmp_if_expr_3 = (_Bool)0;
+                if(tmp_if_expr_3)
                 {
                   msglog(7, "backup timedout for %s", (const void *)bp->name);
                   backup_kill(pid, bp->name);
@@ -2845,8 +2845,8 @@ static void * backup_monitor_thread(void *x)
 
                 else
                 {
-                  return_value_backup_waitpid$2=backup_waitpid(pid, bp->name, 0);
-                  if(!(return_value_backup_waitpid$2 >= 1))
+                  return_value_backup_waitpid_2=backup_waitpid(pid, bp->name, 0);
+                  if(!(return_value_backup_waitpid_2 >= 1))
                   {
                     pthread_mutex_lock(&bp->lock);
                     if(bp->kill == 0)
@@ -2888,14 +2888,14 @@ static void * backup_monitor_thread(void *x)
 void backup_option_life(char ch, char *arg, signed int valid)
 {
   signed int life = 0;
-  signed int return_value_string_to_number$1;
+  signed int return_value_string_to_number_1;
   if(valid == 0)
     goto __CPROVER_DUMP_L4;
 
   else
   {
-    return_value_string_to_number$1=string_to_number(arg, &life);
-    if(return_value_string_to_number$1 == 0)
+    return_value_string_to_number_1=string_to_number(arg, &life);
+    if(return_value_string_to_number_1 == 0)
       msglog(0, "invalid argument for -%c", ch);
 
     else
@@ -2910,14 +2910,14 @@ __CPROVER_DUMP_L4:
 // file backup.h line 14
 void backup_option_max_proc(char ch, char *arg, signed int valid)
 {
-  signed int return_value_string_to_number$1;
+  signed int return_value_string_to_number_1;
   if(valid == 0)
     backup_limit = 200;
 
   else
   {
-    return_value_string_to_number$1=string_to_number(arg, &backup_limit);
-    if(backup_limit == 0 || return_value_string_to_number$1 == 0)
+    return_value_string_to_number_1=string_to_number(arg, &backup_limit);
+    if(backup_limit == 0 || return_value_string_to_number_1 == 0)
       msglog(0, "invalid argument for -%c", ch);
 
   }
@@ -2950,14 +2950,14 @@ void backup_option_path(char ch, char *arg, signed int valid)
 void backup_option_wait(char ch, char *arg, signed int valid)
 {
   signed int wt;
-  signed int return_value_string_to_number$1;
+  signed int return_value_string_to_number_1;
   if(valid == 0)
     backup_wait_before = 0;
 
   else
   {
-    return_value_string_to_number$1=string_to_number(arg, &wt);
-    if(return_value_string_to_number$1 == 0)
+    return_value_string_to_number_1=string_to_number(arg, &wt);
+    if(return_value_string_to_number_1 == 0)
       msglog(0, "invalid argument for -%c", ch);
 
     else
@@ -2980,23 +2980,23 @@ void backup_option_wait2finish(char ch, char *arg, signed int valid)
 // file backup_pid.h line 34
 void backup_pid_init(signed int size)
 {
-  pthread_mutex_init(&bcache$link1.lock, &common_mutex_attr);
-  bcache$link1.list = ((struct backup_pid *)NULL);
-  bcache$link1.count = 0;
+  pthread_mutex_init(&bcache_link1.lock, &common_mutex_attr);
+  bcache_link1.list = ((struct backup_pid *)NULL);
+  bcache_link1.count = 0;
   size = size + size / 4;
   pthread_mutex_init(&pid_holder.lock, &common_mutex_attr);
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)size, sizeof(struct backup_pid) /*392ul*/ );
-  pids1.s = (struct backup_pid **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)size, sizeof(struct backup_pid) /*392ul*/ );
+  pids1.s = (struct backup_pid **)return_value_calloc_1;
   pids1.free_slot = 0;
   pids1.in_use = 0;
   pids1.size = size;
   pids1.count = 0;
   pids1.to_free = ((struct backup_pid *)NULL);
   pid_holder.pids1 = &pids1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)size, sizeof(struct backup_pid) /*392ul*/ );
-  pids2.s = (struct backup_pid **)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)size, sizeof(struct backup_pid) /*392ul*/ );
+  pids2.s = (struct backup_pid **)return_value_calloc_2;
   pids2.free_slot = 0;
   pids2.in_use = 0;
   pids2.size = size;
@@ -3012,7 +3012,7 @@ struct backup_pid * backup_pidmem_allocate(void)
   struct backup_pid *bp;
   signed int pids_idx;
   struct backup_pids *pids = ((struct backup_pids *)NULL);
-  bp=entry_allocate$link1();
+  bp=entry_allocate_link1();
   bp->pid = -1;
   pthread_mutex_init(&bp->lock, &common_mutex_attr);
   pthread_cond_init(&bp->wait, &common_cond_attr);
@@ -3022,7 +3022,7 @@ struct backup_pid * backup_pidmem_allocate(void)
   if(!(pids_idx >= 0))
   {
     pthread_mutex_unlock(&pid_holder.lock);
-    entry_free$link1(bp);
+    entry_free_link1(bp);
     return (struct backup_pid *)(void *)0;
   }
 
@@ -3057,7 +3057,7 @@ void backup_pidmem_free(struct backup_pid *bp)
     bp->next = (struct backup_pid *)(void *)0;
     pthread_mutex_destroy(&bp->lock);
     pthread_cond_destroy(&bp->wait);
-    entry_free$link1(bp);
+    entry_free_link1(bp);
   }
 }
 
@@ -3114,7 +3114,7 @@ void backup_pids_unget(struct backup_pids *pids)
     pthread_mutex_destroy(&bp->lock);
     pthread_cond_destroy(&bp->wait);
   }
-  entry_free$link1(to_free);
+  entry_free_link1(to_free);
 }
 
 // backup_queue_add
@@ -3149,10 +3149,10 @@ void backup_queue_add(const char *name, const char *path)
 // file backup_queue.h line 4
 void backup_queue_init(signed int bwait, signed int maxproc)
 {
-  memset((void *)&BQ, 0, sizeof(struct anonymous$19) /*168ul*/ );
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)13, sizeof(struct bqueue *) /*8ul*/ );
-  BQ.hash = (struct bqueue **)return_value_calloc$1;
+  memset((void *)&BQ, 0, sizeof(struct anonymous_19) /*168ul*/ );
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)13, sizeof(struct bqueue *) /*8ul*/ );
+  BQ.hash = (struct bqueue **)return_value_calloc_1;
   if(BQ.hash == ((struct bqueue **)NULL))
     msglog(0, "backup_queue_init: could not allocate memory");
 
@@ -3164,9 +3164,9 @@ void backup_queue_init(signed int bwait, signed int maxproc)
   pthread_mutex_init(&bcache.lock, &common_mutex_attr);
   bcache.list = (struct bqueue *)(void *)0;
   bcache.count = 0;
-  signed int return_value_thread_new_joinable$2;
-  return_value_thread_new_joinable$2=thread_new_joinable(queue_watch_thread, (void *)0, &BQ.queue_watch);
-  if(return_value_thread_new_joinable$2 == 0)
+  signed int return_value_thread_new_joinable_2;
+  return_value_thread_new_joinable_2=thread_new_joinable(queue_watch_thread, (void *)0, &BQ.queue_watch);
+  if(return_value_thread_new_joinable_2 == 0)
     msglog(0, "backup_queue_init: could not start new thread");
 
 }
@@ -3176,10 +3176,10 @@ void backup_queue_init(signed int bwait, signed int maxproc)
 signed int backup_queue_remove(const char *name)
 {
   struct bqueue *bq;
-  unsigned int backup_queue_remove$$1$$hash;
-  backup_queue_remove$$1$$hash=string_hash(name);
+  unsigned int backup_queue_remove__1__hash;
+  backup_queue_remove__1__hash=string_hash(name);
   pthread_mutex_lock(&BQ.lock);
-  bq=queue_entry_locate(name, backup_queue_remove$$1$$hash, (signed int)(backup_queue_remove$$1$$hash % (unsigned int)BQ.hash_size));
+  bq=queue_entry_locate(name, backup_queue_remove__1__hash, (signed int)(backup_queue_remove__1__hash % (unsigned int)BQ.hash_size));
   if(!(bq == ((struct bqueue *)NULL)))
   {
     if(!(bq->in_bchain == 0))
@@ -3240,7 +3240,7 @@ static void backup_signal_all(void)
   signed int i;
   struct backup_pid *bp;
   struct backup_pid **dptr;
-  pthread_mutex_lock(&hash_lock$link3);
+  pthread_mutex_lock(&hash_lock_link3);
   i = 0;
   for( ; !(i >= hash_size); i = i + 1)
   {
@@ -3256,7 +3256,7 @@ static void backup_signal_all(void)
       pthread_mutex_unlock(&bp->lock);
     }
   }
-  pthread_mutex_unlock(&hash_lock$link3);
+  pthread_mutex_unlock(&hash_lock_link3);
 }
 
 // backup_soft_signal
@@ -3297,19 +3297,19 @@ void backup_stop_set(void)
 signed int backup_waitpid(signed int pid, const char *name, signed int block)
 {
   signed int status;
-  signed int backup_waitpid$$1$$options = block != 0 ? 0 : 1;
+  signed int backup_waitpid__1__options = block != 0 ? 0 : 1;
   signed int wrv;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
 
   again:
     ;
-    wrv=waitpid(pid, &status, backup_waitpid$$1$$options);
+    wrv=waitpid(pid, &status, backup_waitpid__1__options);
     if(wrv == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
       {
         msglog(4, "waitpid: EINTR received. trying again...");
         sleep((unsigned int)1);
@@ -3335,7 +3335,7 @@ signed int backup_waitpid(signed int pid, const char *name, signed int block)
       break;
 
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$3
+union anonymous_3
 {
   // __in
   signed int __in;
@@ -3347,13 +3347,13 @@ union anonymous$3
     ;
     if((0x7f & status) == 0)
     {
-      msglog(7, "backup process %ld for %s exited with %d", (signed long int)pid, name, (((union anonymous$3){ .__in=status }).__i & 0xff00) >> 8);
+      msglog(7, "backup process %ld for %s exited with %d", (signed long int)pid, name, (((union anonymous_3){ .__in=status }).__i & 0xff00) >> 8);
       break;
     }
 
     if((signed int)((127 & (signed char)status) + 1) >> 1 >= 1)
     {
-      msglog(7, "backup process %ld for %s caught signal %d", (signed long int)pid, name, ((union anonymous$3){ .__in=status }).__i & 0x7f);
+      msglog(7, "backup process %ld for %s caught signal %d", (signed long int)pid, name, ((union anonymous_3){ .__in=status }).__i & 0x7f);
       break;
     }
 
@@ -3408,34 +3408,34 @@ static void become_daemon(void)
   msg_console_off();
   msg_syslog_on();
   nullfd=open("/dev/null", 02);
-  _Bool tmp_if_expr$3;
-  signed int return_value_dup2$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_dup2$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_dup2_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_dup2_4;
   if(!(nullfd >= 0))
     msglog(4 | 128, "become_daemon: open /dev/null");
 
   else
   {
-    signed int return_value_dup2$1;
-    return_value_dup2$1=dup2(nullfd, 0);
-    if(!(return_value_dup2$1 >= 0))
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_dup2_1;
+    return_value_dup2_1=dup2(nullfd, 0);
+    if(!(return_value_dup2_1 >= 0))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_dup2$2=dup2(nullfd, 1);
-      tmp_if_expr$3 = return_value_dup2$2 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_dup2_2=dup2(nullfd, 1);
+      tmp_if_expr_3 = return_value_dup2_2 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_dup2$4=dup2(nullfd, 2);
-      tmp_if_expr$5 = return_value_dup2$4 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_dup2_4=dup2(nullfd, 2);
+      tmp_if_expr_5 = return_value_dup2_4 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       msglog(4 | 128, "become_daemon: dup2");
 
     close(nullfd);
@@ -3446,15 +3446,15 @@ static void become_daemon(void)
 // file miscfuncs.c line 103
 signed int cary_add(struct cary *c, char ch)
 {
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(c->cur == c->max + -1)
     return 0;
 
   else
   {
-    tmp_post$1 = c->cur;
+    tmp_post_1 = c->cur;
     c->cur = c->cur + 1;
-    c->array[(signed long int)tmp_post$1] = ch;
+    c->array[(signed long int)tmp_post_1] = ch;
     c->array[(signed long int)c->cur] = (char)0;
     return 1;
   }
@@ -3465,8 +3465,8 @@ signed int cary_add(struct cary *c, char ch)
 signed int cary_add_str(struct cary *ca, const char *str)
 {
   signed int i = 0;
-  signed int tmp_post$1;
-  signed int return_value_cary_add$2;
+  signed int tmp_post_1;
+  signed int return_value_cary_add_2;
   if(str == ((const char *)NULL))
     return 1;
 
@@ -3474,10 +3474,10 @@ signed int cary_add_str(struct cary *ca, const char *str)
   {
     while(!(str[(signed long int)i] == 0))
     {
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      return_value_cary_add$2=cary_add(ca, str[(signed long int)tmp_post$1]);
-      if(return_value_cary_add$2 == 0)
+      return_value_cary_add_2=cary_add(ca, str[(signed long int)tmp_post_1]);
+      if(return_value_cary_add_2 == 0)
         break;
 
     }
@@ -3503,15 +3503,15 @@ signed int check_abs_path(char *path)
   signed int j = 0;
   signed int sl = 0;
   char c;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(path == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)path[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)path[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -3535,11 +3535,11 @@ signed int check_abs_path(char *path)
 
       else
         sl = 0;
-      tmp_post$2 = j;
+      tmp_post_2 = j;
       j = j + 1;
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i + 1;
-      path[(signed long int)tmp_post$2] = path[(signed long int)tmp_post$3];
+      path[(signed long int)tmp_post_2] = path[(signed long int)tmp_post_3];
     }
     while((_Bool)1);
     if((signed int)path[(signed long int)(j + -1)] == 47)
@@ -3557,22 +3557,22 @@ static void condattr_init(void)
 {
   const char *myname = "condattr_init";
   time_mono_init();
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1=pthread_condattr_init(&common_cond_attr);
-  if(!(*return_value___errno_location$1 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1=pthread_condattr_init(&common_cond_attr);
+  if(!(*return_value___errno_location_1 == 0))
     msglog(0 | 128, "%s: pthread_condattr_init", myname);
 
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2=pthread_condattr_setpshared(&common_cond_attr, 0);
-  if(!(*return_value___errno_location$2 == 0))
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2=pthread_condattr_setpshared(&common_cond_attr, 0);
+  if(!(*return_value___errno_location_2 == 0))
     msglog(0 | 128, "%s: pthread_condattr_setpshared: PTHREAD_PROCESS_PRIVATE", myname);
 
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  *return_value___errno_location$3=pthread_condattr_setclock(&common_cond_attr, clockid);
-  if(!(*return_value___errno_location$3 == 0))
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  *return_value___errno_location_3=pthread_condattr_setclock(&common_cond_attr, clockid);
+  if(!(*return_value___errno_location_3 == 0))
     msglog(0 | 128, "%s: pthread_condattr_setclock", myname);
 
 }
@@ -3584,22 +3584,22 @@ signed int create_dir(const char *dir, unsigned int mode)
   char path[4097l];
   struct stat st;
   char *p;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(dir == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    tmp_if_expr$2 = !(((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)dir[(signed long int)0]] & (signed int)(unsigned short int)32768) != 0) ? (_Bool)1 : (_Bool)0;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    tmp_if_expr_2 = !(((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)dir[(signed long int)0]] & (signed int)(unsigned short int)32768) != 0) ? (_Bool)1 : (_Bool)0;
   }
-  char *tmp_if_expr$3;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$8;
-  char *return_value___builtin_strchr$5;
-  signed int *return_value___errno_location$10;
-  if(tmp_if_expr$2)
+  char *tmp_if_expr_3;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_8;
+  char *return_value___builtin_strchr_5;
+  signed int *return_value___errno_location_10;
+  if(tmp_if_expr_2)
   {
     msglog(4, "create_dir: invalid dir name %s", dir);
     return 0;
@@ -3609,20 +3609,20 @@ signed int create_dir(const char *dir, unsigned int mode)
   {
     string_n_copy(path, dir, (signed int)sizeof(char [4097l]) /*4097ul*/ );
     if((signed int)path[0l] == 47)
-      tmp_if_expr$3 = path + (signed long int)1;
+      tmp_if_expr_3 = path + (signed long int)1;
 
     else
-      tmp_if_expr$3 = path;
-    p = tmp_if_expr$3;
-    char *return_value___builtin_strchr$4;
-    return_value___builtin_strchr$4=__builtin_strchr(p, 47);
-    p = return_value___builtin_strchr$4;
-    for( ; !(p == ((char *)NULL)); p = return_value___builtin_strchr$5)
+      tmp_if_expr_3 = path;
+    p = tmp_if_expr_3;
+    char *return_value___builtin_strchr_4;
+    return_value___builtin_strchr_4=__builtin_strchr(p, 47);
+    p = return_value___builtin_strchr_4;
+    for( ; !(p == ((char *)NULL)); p = return_value___builtin_strchr_5)
     {
       *p = (char)0;
-      signed int return_value_lstat$7;
-      return_value_lstat$7=lstat$link1(path, &st);
-      if(return_value_lstat$7 == 0)
+      signed int return_value_lstat_7;
+      return_value_lstat_7=lstat_link1(path, &st);
+      if(return_value_lstat_7 == 0)
       {
         if((61440u & st.st_mode) == 16384u)
         {
@@ -3639,20 +3639,20 @@ signed int create_dir(const char *dir, unsigned int mode)
 
       else
       {
-        return_value___errno_location$6=__errno_location();
-        if(!(*return_value___errno_location$6 == 2))
+        return_value___errno_location_6=__errno_location();
+        if(!(*return_value___errno_location_6 == 2))
         {
           msglog(4 | 128, "create_dir: lstat %s", (const void *)path);
           return 0;
         }
 
       }
-      signed int return_value_mkdir$9;
-      return_value_mkdir$9=mkdir(path, mode);
-      if(return_value_mkdir$9 == -1)
+      signed int return_value_mkdir_9;
+      return_value_mkdir_9=mkdir(path, mode);
+      if(return_value_mkdir_9 == -1)
       {
-        return_value___errno_location$8=__errno_location();
-        if(!(*return_value___errno_location$8 == 17))
+        return_value___errno_location_8=__errno_location();
+        if(!(*return_value___errno_location_8 == 17))
         {
           msglog(4 | 128, "create_dir: mkdir %s", p);
           return 0;
@@ -3664,14 +3664,14 @@ signed int create_dir(const char *dir, unsigned int mode)
 
     __CPROVER_DUMP_L12:
       ;
-      return_value___builtin_strchr$5=__builtin_strchr(p + (signed long int)1, 47);
+      return_value___builtin_strchr_5=__builtin_strchr(p + (signed long int)1, 47);
     }
-    signed int return_value_mkdir$11;
-    return_value_mkdir$11=mkdir(path, mode);
-    if(return_value_mkdir$11 == -1)
+    signed int return_value_mkdir_11;
+    return_value_mkdir_11=mkdir(path, mode);
+    if(return_value_mkdir_11 == -1)
     {
-      return_value___errno_location$10=__errno_location();
-      if(*return_value___errno_location$10 == 17)
+      return_value___errno_location_10=__errno_location();
+      if(*return_value___errno_location_10 == 17)
         goto __CPROVER_DUMP_L14;
 
       msglog(4 | 128, "create_dir: mkdir %s", p);
@@ -3699,9 +3699,9 @@ void dropcap_drop(void)
     msglog(0 | 128, "dropcap_drop: cap_from_text");
 
   msglog(7, "giving up unnecessary root privileges");
-  signed int return_value_cap_set_proc$1;
-  return_value_cap_set_proc$1=cap_set_proc(ct);
-  if(!(return_value_cap_set_proc$1 == 0))
+  signed int return_value_cap_set_proc_1;
+  return_value_cap_set_proc_1=cap_set_proc(ct);
+  if(!(return_value_cap_set_proc_1 == 0))
   {
     msglog(4 | 128, "dropcap_drop: cap_set_proc");
     msglog(5, "could not drop root privileges");
@@ -3737,9 +3737,9 @@ static struct bqueue * entry_allocate(void)
 
   dalloc:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct bqueue) /*4416ul*/ );
-    tmp = (struct bqueue *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct bqueue) /*4416ul*/ );
+    tmp = (struct bqueue *)return_value_malloc_1;
     if(!(tmp == ((struct bqueue *)NULL)))
       memset((void *)tmp, 0, sizeof(struct bqueue) /*4416ul*/ );
 
@@ -3747,37 +3747,37 @@ static struct bqueue * entry_allocate(void)
   }
 }
 
-// entry_allocate$link1
+// entry_allocate_link1
 // file backup_pid.c line 66
-static struct backup_pid * entry_allocate$link1(void)
+static struct backup_pid * entry_allocate_link1(void)
 {
-  struct backup_pid *tmp$link1;
+  struct backup_pid *tmp_link1;
   static struct backup_pid *list = ((struct backup_pid *)NULL);
   if(!(list == ((struct backup_pid *)NULL)))
   {
-    tmp$link1 = list;
+    tmp_link1 = list;
     list = list->next;
-    memset((void *)tmp$link1, 0, sizeof(struct backup_pid) /*392ul*/ );
-    return tmp$link1;
+    memset((void *)tmp_link1, 0, sizeof(struct backup_pid) /*392ul*/ );
+    return tmp_link1;
   }
 
   else
-    if(bcache$link1.count >= 1)
+    if(bcache_link1.count >= 1)
     {
-      pthread_mutex_lock(&bcache$link1.lock);
-      if(!(bcache$link1.count >= 1))
+      pthread_mutex_lock(&bcache_link1.lock);
+      if(!(bcache_link1.count >= 1))
       {
-        pthread_mutex_unlock(&bcache$link1.lock);
+        pthread_mutex_unlock(&bcache_link1.lock);
         goto dalloc;
       }
 
-      tmp$link1 = bcache$link1.list;
-      list = bcache$link1.list->next;
-      bcache$link1.list = (struct backup_pid *)(void *)0;
-      bcache$link1.count = 0;
-      pthread_mutex_unlock(&bcache$link1.lock);
-      memset((void *)tmp$link1, 0, sizeof(struct backup_pid) /*392ul*/ );
-      return tmp$link1;
+      tmp_link1 = bcache_link1.list;
+      list = bcache_link1.list->next;
+      bcache_link1.list = (struct backup_pid *)(void *)0;
+      bcache_link1.count = 0;
+      pthread_mutex_unlock(&bcache_link1.lock);
+      memset((void *)tmp_link1, 0, sizeof(struct backup_pid) /*392ul*/ );
+      return tmp_link1;
     }
 
     else
@@ -3785,13 +3785,13 @@ static struct backup_pid * entry_allocate$link1(void)
 
     dalloc:
       ;
-      void *return_value_malloc$1$link1;
-      return_value_malloc$1$link1=malloc(sizeof(struct backup_pid) /*392ul*/ );
-      tmp$link1 = (struct backup_pid *)return_value_malloc$1$link1;
-      if(!(tmp$link1 == ((struct backup_pid *)NULL)))
-        memset((void *)tmp$link1, 0, sizeof(struct backup_pid) /*392ul*/ );
+      void *return_value_malloc_1_link1;
+      return_value_malloc_1_link1=malloc(sizeof(struct backup_pid) /*392ul*/ );
+      tmp_link1 = (struct backup_pid *)return_value_malloc_1_link1;
+      if(!(tmp_link1 == ((struct backup_pid *)NULL)))
+        memset((void *)tmp_link1, 0, sizeof(struct backup_pid) /*392ul*/ );
 
-      return tmp$link1;
+      return tmp_link1;
     }
 }
 
@@ -3824,22 +3824,22 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// entry_free$link1
+// entry_free_link1
 // file backup_pid.c line 41
-static void entry_free$link1(struct backup_pid *to_free)
+static void entry_free_link1(struct backup_pid *to_free)
 {
   struct backup_pid *next;
-  if(!(bcache$link1.count >= 50))
+  if(!(bcache_link1.count >= 50))
   {
-    pthread_mutex_lock(&bcache$link1.lock);
-    for( ; !(to_free == ((struct backup_pid *)NULL)) && !(bcache$link1.count >= 50); bcache$link1.count = bcache$link1.count + 1)
+    pthread_mutex_lock(&bcache_link1.lock);
+    for( ; !(to_free == ((struct backup_pid *)NULL)) && !(bcache_link1.count >= 50); bcache_link1.count = bcache_link1.count + 1)
     {
       next = to_free->next;
-      to_free->next = bcache$link1.list;
-      bcache$link1.list = to_free;
+      to_free->next = bcache_link1.list;
+      bcache_link1.list = to_free;
       to_free = next;
     }
-    pthread_mutex_unlock(&bcache$link1.lock);
+    pthread_mutex_unlock(&bcache_link1.lock);
   }
 
   for( ; !(to_free == ((struct backup_pid *)NULL)); to_free = next)
@@ -3858,17 +3858,17 @@ static signed int exclusive_lock(signed int fd, const char *path)
   lk.l_start = (signed long int)0;
   lk.l_whence = (signed short int)0;
   lk.l_len = (signed long int)0;
-  signed int return_value_fcntl$3;
-  return_value_fcntl$3=fcntl(fd, 6, &lk);
-  signed int *return_value___errno_location$1;
-  if(return_value_fcntl$3 == -1)
+  signed int return_value_fcntl_3;
+  return_value_fcntl_3=fcntl(fd, 6, &lk);
+  signed int *return_value___errno_location_1;
+  if(return_value_fcntl_3 == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 11))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 11))
     {
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 13))
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 13))
         msglog(4 | 128, "fcntl F_SETLK: %s", path);
 
     }
@@ -3894,9 +3894,9 @@ void expire_start(signed int time_out, signed int ioctlfd, signed int *shutdown)
     i = 0;
     for( ; !(i >= 10); i = i + 1)
       expire.threads[(signed long int)i] = (unsigned long int)0;
-    signed int return_value_thread_new_joinable$1;
-    return_value_thread_new_joinable$1=thread_new_joinable(main_expire_mounts, (void *)0, &expire.main);
-    if(return_value_thread_new_joinable$1 == 0)
+    signed int return_value_thread_new_joinable_1;
+    return_value_thread_new_joinable_1=thread_new_joinable(main_expire_mounts, (void *)0, &expire.main);
+    if(return_value_thread_new_joinable_1 == 0)
       msglog(0, "could not start expire thread");
 
   }
@@ -3984,7 +3984,7 @@ static void free_hash(void)
   struct lentry *le;
   struct lentry *tmp;
   i = 0;
-  signed int return_value_unlink$1;
+  signed int return_value_unlink_1;
   for( ; !(i >= lhash_size); i = i + 1)
     if(!(lhash[(signed long int)i] == ((struct lentry *)NULL)))
     {
@@ -3996,12 +3996,12 @@ static void free_hash(void)
 
         tmp = le;
         le = le->next;
-        signed int return_value_exclusive_lock$2;
-        return_value_exclusive_lock$2=exclusive_lock(tmp->fd, tmp->path);
-        if(!(return_value_exclusive_lock$2 == 0))
+        signed int return_value_exclusive_lock_2;
+        return_value_exclusive_lock_2=exclusive_lock(tmp->fd, tmp->path);
+        if(!(return_value_exclusive_lock_2 == 0))
         {
-          return_value_unlink$1=unlink(tmp->path);
-          if(return_value_unlink$1 == -1)
+          return_value_unlink_1=unlink(tmp->path);
+          if(return_value_unlink_1 == -1)
             msglog(4 | 128, "unlink %s", (const void *)tmp->path);
 
         }
@@ -4043,18 +4043,18 @@ static signed int free_slot_get(struct backup_pids *pids)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
-// fstat$link1
+// fstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
-static inline signed int fstat$link1(signed int __fd$link1, struct stat *__statbuf$link1)
+static inline signed int fstat_link1(signed int __fd_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___fxstat$1$link1;
-  return_value___fxstat$1$link1=__fxstat(1, __fd$link1, __statbuf$link1);
-  return return_value___fxstat$1$link1;
+  signed int return_value___fxstat_1_link1;
+  return_value___fxstat_1_link1=__fxstat(1, __fd_link1, __statbuf_link1);
+  return return_value___fxstat_1_link1;
 }
 
 // get_cache
@@ -4062,18 +4062,18 @@ static inline signed int fstat$link1(signed int __fd$link1, struct stat *__statb
 static struct packet * get_cache(struct thread_cache *tc)
 {
   struct packet *pkt;
-  signed int return_value_pthread_mutex_trylock$1;
+  signed int return_value_pthread_mutex_trylock_1;
   do
   {
-    return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&tc->lock);
-    if(return_value_pthread_mutex_trylock$1 == 0)
+    return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&tc->lock);
+    if(return_value_pthread_mutex_trylock_1 == 0)
       break;
 
     sleep((unsigned int)1);
   }
   while((_Bool)1);
   pkt = tc->pkt_slots[(signed long int)tc->out];
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   for( ; (_Bool)1; pkt = tc->pkt_slots[(signed long int)tc->out])
   {
     if(!(pkt == ((struct packet *)NULL)))
@@ -4085,11 +4085,11 @@ static struct packet * get_cache(struct thread_cache *tc)
     }
 
     if(!(tc->stop == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = tc->thread_waiting >= tc->max_thread_wait ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = tc->thread_waiting >= tc->max_thread_wait ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       tc->thread_count = tc->thread_count - 1;
       if(!(tc->stop == 0))
@@ -4118,8 +4118,8 @@ static signed int get_pid(const char *name, struct backup_pid **id, signed int m
   struct backup_pid *bp;
   signed int pid;
   h=string_hash(name);
-  pthread_mutex_lock(&hash_lock$link3);
-  signed int tmp_statement_expression$1;
+  pthread_mutex_lock(&hash_lock_link3);
+  signed int tmp_statement_expression_1;
   do
   {
     dptr = &hash[(signed long int)(h % (unsigned int)hash_size)];
@@ -4130,10 +4130,10 @@ static signed int get_pid(const char *name, struct backup_pid **id, signed int m
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$2;
-          return_value___builtin_strcmp$2=__builtin_strcmp(name, (*dptr)->name);
-          tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-          if(tmp_statement_expression$1 == 0)
+          signed int return_value___builtin_strcmp_2;
+          return_value___builtin_strcmp_2=__builtin_strcmp(name, (*dptr)->name);
+          tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+          if(tmp_statement_expression_1 == 0)
             break;
 
         }
@@ -4146,7 +4146,7 @@ static signed int get_pid(const char *name, struct backup_pid **id, signed int m
   if(!(bp == ((struct backup_pid *)NULL)))
   {
     pthread_mutex_lock(&bp->lock);
-    pthread_mutex_unlock(&hash_lock$link3);
+    pthread_mutex_unlock(&hash_lock_link3);
     pid = bp->pid;
     if(pid >= 1)
     {
@@ -4175,7 +4175,7 @@ static signed int get_pid(const char *name, struct backup_pid **id, signed int m
 
   else
   {
-    pthread_mutex_unlock(&hash_lock$link3);
+    pthread_mutex_unlock(&hash_lock_link3);
     return 0;
   }
 }
@@ -4198,9 +4198,9 @@ static void handle_events(signed int fd)
     else
     {
       autopkt = &pkt->ap;
-      signed int return_value_poll_read$1;
-      return_value_poll_read$1=poll_read(autodir.k_pipe, (char *)autopkt, (signed int)sizeof(union autofs_packet_union) /*272ul*/ );
-      if(!(return_value_poll_read$1 == 1))
+      signed int return_value_poll_read_1;
+      return_value_poll_read_1=poll_read(autodir.k_pipe, (char *)autopkt, (signed int)sizeof(union autofs_packet_union) /*272ul*/ );
+      if(!(return_value_poll_read_1 == 1))
         goto __CPROVER_DUMP_L10;
 
       if(!(autopkt->hdr.proto_version == 4))
@@ -4241,20 +4241,20 @@ static void handle_expire(struct packet *pkt)
   unsigned int wqt;
   exppkt = &pkt->ap.expire_multi;
   wqt = exppkt->wait_queue_token;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(exppkt->len >= 256)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = exppkt->len < 1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = exppkt->len < 1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = exppkt->name[(signed long int)exppkt->len] != 0 ? (_Bool)1 : (_Bool)0;
-  char *tmp_if_expr$4;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = exppkt->name[(signed long int)exppkt->len] != 0 ? (_Bool)1 : (_Bool)0;
+  char *tmp_if_expr_4;
+  if(tmp_if_expr_2)
   {
     send_fail(wqt);
     packet_free(pkt);
@@ -4266,9 +4266,9 @@ static void handle_expire(struct packet *pkt)
     len = exppkt->len;
     packet_free(pkt);
     string_safe(name, 32);
-    signed int return_value_workon_name$3;
-    return_value_workon_name$3=workon_name(name);
-    if(return_value_workon_name$3 == 0)
+    signed int return_value_workon_name_3;
+    return_value_workon_name_3=workon_name(name);
+    if(return_value_workon_name_3 == 0)
       send_ready(wqt);
 
     else
@@ -4283,14 +4283,14 @@ static void handle_expire(struct packet *pkt)
         if(!(self.multi_path == 0))
         {
           if(self.multi_prefix == name[0l])
-            tmp_if_expr$4 = name + (signed long int)1;
+            tmp_if_expr_4 = name + (signed long int)1;
 
           else
-            tmp_if_expr$4 = name;
-          n = tmp_if_expr$4;
-          signed int return_value_multipath_dec$5;
-          return_value_multipath_dec$5=multipath_dec(n);
-          if(return_value_multipath_dec$5 == 0)
+            tmp_if_expr_4 = name;
+          n = tmp_if_expr_4;
+          signed int return_value_multipath_dec_5;
+          return_value_multipath_dec_5=multipath_dec(n);
+          if(return_value_multipath_dec_5 == 0)
           {
             if(self.stop == 0)
               backup_add(n, path);
@@ -4334,23 +4334,23 @@ static void handle_missing(struct packet *pkt)
   unsigned int wqt;
   struct autofs_packet_missing *pmis = &pkt->ap.missing;
   wqt = pmis->wait_queue_token;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pmis->len >= 256)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = pmis->len < 1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = pmis->len < 1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = pmis->name[(signed long int)pmis->len] != 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_workon_name$4;
-  signed int *return_value___errno_location$6;
-  signed int return_value_mkdir$8;
-  signed int return_value_multipath_inc$12;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = pmis->name[(signed long int)pmis->len] != 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_workon_name_4;
+  signed int *return_value___errno_location_6;
+  signed int return_value_mkdir_8;
+  signed int return_value_multipath_inc_12;
+  if(tmp_if_expr_2)
   {
     send_fail(wqt);
     packet_free(pkt);
@@ -4382,9 +4382,9 @@ static void handle_missing(struct packet *pkt)
 
       else
       {
-        signed int return_value_workon_name$3;
-        return_value_workon_name$3=workon_name(mname);
-        if(return_value_workon_name$3 == 0)
+        signed int return_value_workon_name_3;
+        return_value_workon_name_3=workon_name(mname);
+        if(return_value_workon_name_3 == 0)
           missing_exit((char *)(void *)0, (char *)(void *)0, wqt, 0);
 
         else
@@ -4392,8 +4392,8 @@ static void handle_missing(struct packet *pkt)
           backup_remove(name, (signed int)(name != mname));
           if(!(mname == name))
           {
-            return_value_workon_name$4=workon_name(name);
-            if(!(return_value_workon_name$4 == 0))
+            return_value_workon_name_4=workon_name(name);
+            if(!(return_value_workon_name_4 == 0))
               goto __CPROVER_DUMP_L10;
 
             missing_exit(mname, (char *)(void *)0, wqt, 0);
@@ -4405,15 +4405,15 @@ static void handle_missing(struct packet *pkt)
           __CPROVER_DUMP_L10:
             ;
             snprintf(vpath, sizeof(char [4097l]) /*4097ul*/ , "%s/%s", autodir.path, (const void *)mname);
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            *return_value___errno_location$5 = 0;
-            signed int return_value_lstat$7;
-            return_value_lstat$7=lstat(vpath, &st);
-            if(!(return_value_lstat$7 == 0))
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            *return_value___errno_location_5 = 0;
+            signed int return_value_lstat_7;
+            return_value_lstat_7=lstat(vpath, &st);
+            if(!(return_value_lstat_7 == 0))
             {
-              return_value___errno_location$6=__errno_location();
-              if(*return_value___errno_location$6 == 2)
+              return_value___errno_location_6=__errno_location();
+              if(*return_value___errno_location_6 == 2)
                 goto __CPROVER_DUMP_L11;
 
               msglog(4 | 128, "handle_missing: lstat %s", (const void *)vpath);
@@ -4425,9 +4425,9 @@ static void handle_missing(struct packet *pkt)
 
             __CPROVER_DUMP_L11:
               ;
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              if(*return_value___errno_location$9 == 0)
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              if(*return_value___errno_location_9 == 0)
               {
                 if(!((61440u & st.st_mode) == 16384u))
                 {
@@ -4446,8 +4446,8 @@ static void handle_missing(struct packet *pkt)
 
               else
               {
-                return_value_mkdir$8=mkdir(vpath, (unsigned int)0700);
-                if(!(return_value_mkdir$8 == 0))
+                return_value_mkdir_8=mkdir(vpath, (unsigned int)0700);
+                if(!(return_value_mkdir_8 == 0))
                 {
                   msglog(4 | 128, "handle_missing: mkdir %s", (const void *)vpath);
                   missing_exit(mname, name, wqt, 0);
@@ -4455,9 +4455,9 @@ static void handle_missing(struct packet *pkt)
                 }
 
               }
-              signed int return_value_lockfile_create$10;
-              return_value_lockfile_create$10=lockfile_create(mname);
-              if(return_value_lockfile_create$10 == 0)
+              signed int return_value_lockfile_create_10;
+              return_value_lockfile_create_10=lockfile_create(mname);
+              if(return_value_lockfile_create_10 == 0)
               {
                 msglog(4, "handle_missing: could not get lock file for %s", (const void *)mname);
                 rmdir(vpath);
@@ -4479,9 +4479,9 @@ static void handle_missing(struct packet *pkt)
                 else
                 {
                   msglog(7, "mounting %s on %s", (const void *)rpath, (const void *)vpath);
-                  signed int return_value_mount$11;
-                  return_value_mount$11=mount(rpath, vpath, (const char *)(void *)0, (unsigned long int)4096, (void *)0);
-                  if(!(return_value_mount$11 == 0))
+                  signed int return_value_mount_11;
+                  return_value_mount_11=mount(rpath, vpath, (const char *)(void *)0, (unsigned long int)4096, (void *)0);
+                  if(!(return_value_mount_11 == 0))
                   {
                     msglog(4 | 128, "handle_missing: mount %s", (const void *)rpath);
                     rmdir(vpath);
@@ -4492,7 +4492,7 @@ static void handle_missing(struct packet *pkt)
                   else
                     if(!(self.multi_path == 0))
                     {
-                      return_value_multipath_inc$12=multipath_inc(name);
+                      return_value_multipath_inc_12=multipath_inc(name);
                       umount(vpath);
                       rmdir(vpath);
                       lockfile_remove(mname);
@@ -4527,23 +4527,23 @@ static void hash_resize(void)
   struct bqueue *next;
   new_size = BQ.hash_size * 2;
   new_size = new_size | 1;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)new_size, sizeof(struct bqueue *) /*8ul*/ );
-  new_hash = (struct bqueue **)return_value_calloc$1;
-  signed int tmp_post$2;
-  struct bqueue **tmp_post$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)new_size, sizeof(struct bqueue *) /*8ul*/ );
+  new_hash = (struct bqueue **)return_value_calloc_1;
+  signed int tmp_post_2;
+  struct bqueue **tmp_post_3;
   if(!(new_hash == ((struct bqueue **)NULL)))
   {
     do
     {
-      tmp_post$2 = old_size;
+      tmp_post_2 = old_size;
       old_size = old_size - 1;
-      if(!(tmp_post$2 >= 1))
+      if(!(tmp_post_2 >= 1))
         break;
 
-      tmp_post$3 = h;
+      tmp_post_3 = h;
       h = h + 1l;
-      entry = *tmp_post$3;
+      entry = *tmp_post_3;
       for( ; !(entry == ((struct bqueue *)NULL)); entry = next)
       {
         next = entry->next;
@@ -4628,9 +4628,9 @@ static struct lentry * lentry_malloc(void)
 
   dyn_alloc:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct lentry) /*4376ul*/ );
-    return (struct lentry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct lentry) /*4376ul*/ );
+    return (struct lentry *)return_value_malloc_1;
   }
 }
 
@@ -4647,23 +4647,23 @@ static void lhash_resize(void)
   struct lentry *next;
   new_size = lhash_size * 2;
   new_size = new_size | 1;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)new_size, sizeof(struct lentry *) /*8ul*/ );
-  new_lhash = (struct lentry **)return_value_calloc$1;
-  signed int tmp_post$2;
-  struct lentry **tmp_post$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)new_size, sizeof(struct lentry *) /*8ul*/ );
+  new_lhash = (struct lentry **)return_value_calloc_1;
+  signed int tmp_post_2;
+  struct lentry **tmp_post_3;
   if(!(new_lhash == ((struct lentry **)NULL)))
   {
     do
     {
-      tmp_post$2 = old_size;
+      tmp_post_2 = old_size;
       old_size = old_size - 1;
-      if(!(tmp_post$2 >= 1))
+      if(!(tmp_post_2 >= 1))
         break;
 
-      tmp_post$3 = h;
+      tmp_post_3 = h;
       h = h + 1l;
-      lentry = *tmp_post$3;
+      lentry = *tmp_post_3;
       for( ; !(lentry == ((struct lentry *)NULL)); lentry = next)
       {
         next = lentry->next;
@@ -4684,13 +4684,13 @@ static void lhash_resize(void)
 // file lockfile.c line 183
 static struct lentry * lockfile_add2hash(const char *name, const char *path, signed int *exist)
 {
-  unsigned int lockfile_add2hash$$1$$hash;
+  unsigned int lockfile_add2hash__1__hash;
   signed int key;
   struct lentry *ent;
   struct lentry **dptr;
   *exist = 0;
   ent=lentry_malloc();
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(ent == ((struct lentry *)NULL))
   {
     msglog(2, "lockfile_add2hash: could not allocate memory");
@@ -4699,28 +4699,28 @@ static struct lentry * lockfile_add2hash(const char *name, const char *path, sig
 
   else
   {
-    lockfile_add2hash$$1$$hash=string_hash(name);
-    key = (signed int)(lockfile_add2hash$$1$$hash % (unsigned int)lhash_size);
+    lockfile_add2hash__1__hash=string_hash(name);
+    key = (signed int)(lockfile_add2hash__1__hash % (unsigned int)lhash_size);
     string_n_copy(ent->name, name, (signed int)sizeof(char [256l]) /*256ul*/ );
     string_n_copy(ent->path, path, (signed int)sizeof(char [4097l]) /*4097ul*/ );
     ent->fd = -1;
-    ent->hash = lockfile_add2hash$$1$$hash;
+    ent->hash = lockfile_add2hash__1__hash;
     ent->next = (struct lentry *)(void *)0;
-    pthread_mutex_lock(&hash_lock$link1);
+    pthread_mutex_lock(&hash_lock_link1);
     do
     {
-      dptr = &lhash[(signed long int)(lockfile_add2hash$$1$$hash % (unsigned int)lhash_size)];
+      dptr = &lhash[(signed long int)(lockfile_add2hash__1__hash % (unsigned int)lhash_size)];
       for( ; !(*dptr == ((struct lentry *)NULL)); dptr = &(*dptr)->next)
-        if((*dptr)->hash == lockfile_add2hash$$1$$hash)
+        if((*dptr)->hash == lockfile_add2hash__1__hash)
         {
           if(*name == (*dptr)->name[0l])
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$2;
-            return_value___builtin_strcmp$2=__builtin_strcmp(name, (*dptr)->name);
-            tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-            if(tmp_statement_expression$1 == 0)
+            signed int return_value___builtin_strcmp_2;
+            return_value___builtin_strcmp_2=__builtin_strcmp(name, (*dptr)->name);
+            tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+            if(tmp_statement_expression_1 == 0)
               break;
 
           }
@@ -4734,7 +4734,7 @@ static struct lentry * lockfile_add2hash(const char *name, const char *path, sig
       if(!((*dptr)->fd == -1))
         *exist = 1;
 
-      pthread_mutex_unlock(&hash_lock$link1);
+      pthread_mutex_unlock(&hash_lock_link1);
       if(*exist == 0)
         msglog(2, "lockfile_add2hash: Invalid state: %s", name);
 
@@ -4749,7 +4749,7 @@ static struct lentry * lockfile_add2hash(const char *name, const char *path, sig
       if(!(lhash_size >= lhash_used))
         lhash_resize();
 
-      pthread_mutex_unlock(&hash_lock$link1);
+      pthread_mutex_unlock(&hash_lock_link1);
       return ent;
     }
   }
@@ -4775,18 +4775,18 @@ signed int lockfile_create(const char *name)
   char path[4097l];
   struct stat st;
   struct lentry *le;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(lockfiles == 0)
     return 1;
 
   else
   {
     if(name == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       msglog(4, "lockfile_create: invalid name");
       return 0;
@@ -4812,23 +4812,23 @@ signed int lockfile_create(const char *name)
             return 0;
           }
 
-          signed int return_value_fcntl$2;
-          return_value_fcntl$2=fcntl(fd, 2, 1);
-          if(return_value_fcntl$2 == -1)
+          signed int return_value_fcntl_2;
+          return_value_fcntl_2=fcntl(fd, 2, 1);
+          if(return_value_fcntl_2 == -1)
             msglog(4 | 128, "lockfile_create: fcntl FD_CLOEXEC %s", (const void *)path);
 
-          signed int return_value_shared_lock$3;
-          return_value_shared_lock$3=shared_lock(fd, path);
-          if(return_value_shared_lock$3 == 0)
+          signed int return_value_shared_lock_3;
+          return_value_shared_lock_3=shared_lock(fd, path);
+          if(return_value_shared_lock_3 == 0)
           {
             lockfile_unhash(name, 1);
             close(fd);
             return 0;
           }
 
-          signed int return_value_fstat$4;
-          return_value_fstat$4=fstat$link1(fd, &st);
-          if(!(return_value_fstat$4 == 0))
+          signed int return_value_fstat_4;
+          return_value_fstat_4=fstat_link1(fd, &st);
+          if(!(return_value_fstat_4 == 0))
           {
             lockfile_unhash(name, 1);
             close(fd);
@@ -4850,9 +4850,9 @@ signed int lockfile_create(const char *name)
 
         else
         {
-          signed int return_value_write_all$5;
-          return_value_write_all$5=write_all(fd, spid, spid_len);
-          if(return_value_write_all$5 == 0)
+          signed int return_value_write_all_5;
+          return_value_write_all_5=write_all(fd, spid, spid_len);
+          if(return_value_write_all_5 == 0)
           {
             msglog(6, "could not write pid %s to lock file %s", (const void *)spid, (const void *)path);
             lockfile_unhash(name, 1);
@@ -4877,7 +4877,7 @@ static void lockfile_hash_clean(void)
 {
   struct lentry *le;
   struct lentry *tmp;
-  pthread_mutex_destroy(&hash_lock$link1);
+  pthread_mutex_destroy(&hash_lock_link1);
   if(!(lhash == ((struct lentry **)NULL)))
     free_hash();
 
@@ -4895,15 +4895,15 @@ static void lockfile_hash_clean(void)
 // file lockfile.c line 518
 static void lockfile_hash_init(void)
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)13, sizeof(struct lentry *) /*8ul*/ );
-  lhash = (struct lentry **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)13, sizeof(struct lentry *) /*8ul*/ );
+  lhash = (struct lentry **)return_value_calloc_1;
   if(lhash == ((struct lentry **)NULL))
     msglog(0, "lockfile_hash_init: could not allocate hash table");
 
   lhash_used = 0;
   lhash_size = 13;
-  pthread_mutex_init(&hash_lock$link1, &common_mutex_attr);
+  pthread_mutex_init(&hash_lock_link1, &common_mutex_attr);
   pthread_mutex_init(&lcache.lock, &common_mutex_attr);
   lcache.list = (struct lentry *)(void *)0;
   lcache.count = 0;
@@ -4925,23 +4925,23 @@ void lockfile_init(signed int pid, const char *mod_name)
     {
       snprintf(ldir, sizeof(char [4097l]) /*4097ul*/ , "%s/%s", (const void *)"/var/lock", mod_name);
       msglog(6, "using default lock dir '%s'", (const void *)ldir);
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(ldir);
-      lockdir = return_value___strdup$1;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(ldir);
+      lockdir = return_value___strdup_1;
       if(lockdir == ((char *)NULL))
         msglog(0, "lockfile_init: could not allocate memory");
 
     }
 
-    signed int return_value_create_dir$2;
-    return_value_create_dir$2=create_dir(lockdir, (unsigned int)0755);
-    if(return_value_create_dir$2 == 0)
+    signed int return_value_create_dir_2;
+    return_value_create_dir_2=create_dir(lockdir, (unsigned int)0755);
+    if(return_value_create_dir_2 == 0)
       msglog(0, "could not create lock dir %s", lockdir);
 
     lockfile_hash_init();
-    signed int return_value_atexit$3;
-    return_value_atexit$3=atexit(lockfile_clean);
-    if(!(return_value_atexit$3 == 0))
+    signed int return_value_atexit_3;
+    return_value_atexit_3=atexit(lockfile_clean);
+    if(!(return_value_atexit_3 == 0))
     {
       lockfile_clean();
       msglog(0, "lockfile_init: could not reigster cleanup method");
@@ -4955,21 +4955,21 @@ void lockfile_init(signed int pid, const char *mod_name)
 // file lockfile.h line 30
 void lockfile_option_lockdir(char ch, char *arg, signed int valid)
 {
-  signed int return_value_check_abs_path$2;
+  signed int return_value_check_abs_path_2;
   if(valid == 0)
     lockdir = (char *)(void *)0;
 
   else
   {
-    return_value_check_abs_path$2=check_abs_path(arg);
-    if(return_value_check_abs_path$2 == 0)
+    return_value_check_abs_path_2=check_abs_path(arg);
+    if(return_value_check_abs_path_2 == 0)
       msglog(0, "invalid argument for path -%c option", ch);
 
     else
     {
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(arg);
-      lockdir = return_value___strdup$1;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(arg);
+      lockdir = return_value___strdup_1;
       if(lockdir == ((char *)NULL))
         msglog(0, "lockfile_option_lockdir: could not allocate memeory");
 
@@ -4989,16 +4989,16 @@ void lockfile_option_lockfiles(char ch, char *arg, signed int valid)
 void lockfile_remove(const char *name)
 {
   struct lentry *le;
-  _Bool tmp_if_expr$1;
-  signed int return_value_unlink$2;
+  _Bool tmp_if_expr_1;
+  signed int return_value_unlink_2;
   if(!(lockfiles == 0))
   {
     if(name == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       msglog(4, "lockfile_remove: invalid name");
 
     else
@@ -5009,12 +5009,12 @@ void lockfile_remove(const char *name)
 
       else
       {
-        signed int return_value_exclusive_lock$3;
-        return_value_exclusive_lock$3=exclusive_lock(le->fd, le->path);
-        if(!(return_value_exclusive_lock$3 == 0))
+        signed int return_value_exclusive_lock_3;
+        return_value_exclusive_lock_3=exclusive_lock(le->fd, le->path);
+        if(!(return_value_exclusive_lock_3 == 0))
         {
-          return_value_unlink$2=unlink(le->path);
-          if(return_value_unlink$2 == -1)
+          return_value_unlink_2=unlink(le->path);
+          if(return_value_unlink_2 == -1)
             msglog(4 | 128, "unlink %s", (const void *)le->path);
 
         }
@@ -5053,26 +5053,26 @@ void lockfile_stop_set(void)
 // file lockfile.c line 239
 static struct lentry * lockfile_unhash(const char *name, signed int force)
 {
-  unsigned int lockfile_unhash$$1$$hash;
-  lockfile_unhash$$1$$hash=string_hash(name);
+  unsigned int lockfile_unhash__1__hash;
+  lockfile_unhash__1__hash=string_hash(name);
   struct lentry **dptr;
   struct lentry *ent;
-  pthread_mutex_lock(&hash_lock$link1);
-  signed int tmp_statement_expression$1;
+  pthread_mutex_lock(&hash_lock_link1);
+  signed int tmp_statement_expression_1;
   do
   {
-    dptr = &lhash[(signed long int)(lockfile_unhash$$1$$hash % (unsigned int)lhash_size)];
+    dptr = &lhash[(signed long int)(lockfile_unhash__1__hash % (unsigned int)lhash_size)];
     for( ; !(*dptr == ((struct lentry *)NULL)); dptr = &(*dptr)->next)
-      if((*dptr)->hash == lockfile_unhash$$1$$hash)
+      if((*dptr)->hash == lockfile_unhash__1__hash)
       {
         if(*name == (*dptr)->name[0l])
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$2;
-          return_value___builtin_strcmp$2=__builtin_strcmp(name, (*dptr)->name);
-          tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-          if(tmp_statement_expression$1 == 0)
+          signed int return_value___builtin_strcmp_2;
+          return_value___builtin_strcmp_2=__builtin_strcmp(name, (*dptr)->name);
+          tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+          if(tmp_statement_expression_1 == 0)
             break;
 
         }
@@ -5084,7 +5084,7 @@ static struct lentry * lockfile_unhash(const char *name, signed int force)
   ent = *dptr;
   if(ent == ((struct lentry *)NULL))
   {
-    pthread_mutex_unlock(&hash_lock$link1);
+    pthread_mutex_unlock(&hash_lock_link1);
     msglog(2, "lockfile_unhash: entry for %s does not exist", name);
     return (struct lentry *)(void *)0;
   }
@@ -5097,7 +5097,7 @@ static struct lentry * lockfile_unhash(const char *name, signed int force)
       if(!(force == 0))
         goto __CPROVER_DUMP_L6;
 
-      pthread_mutex_unlock(&hash_lock$link1);
+      pthread_mutex_unlock(&hash_lock_link1);
       msglog(2, "lockfile_unhash: Invalid state for %s", name);
       return (struct lentry *)(void *)0;
     }
@@ -5108,7 +5108,7 @@ static struct lentry * lockfile_unhash(const char *name, signed int force)
     __CPROVER_DUMP_L6:
       ;
       *dptr = ent->next;
-      pthread_mutex_unlock(&hash_lock$link1);
+      pthread_mutex_unlock(&hash_lock_link1);
       if(!(force == 0))
       {
         lentry_free(ent);
@@ -5125,18 +5125,18 @@ static struct lentry * lockfile_unhash(const char *name, signed int force)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
 static inline signed int lstat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___lxstat$1;
-  return_value___lxstat$1=__lxstat(1, __path, __statbuf);
-  return return_value___lxstat$1;
+  signed int return_value___lxstat_1;
+  return_value___lxstat_1=__lxstat(1, __path, __statbuf);
+  return return_value___lxstat_1;
 }
 
-// lstat$link1
+// lstat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 459
-static inline signed int lstat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int lstat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___lxstat$1$link1;
-  return_value___lxstat$1$link1=__lxstat(1, __path$link1, __statbuf$link1);
-  return return_value___lxstat$1$link1;
+  signed int return_value___lxstat_1_link1;
+  return_value___lxstat_1_link1=__lxstat(1, __path_link1, __statbuf_link1);
+  return return_value___lxstat_1_link1;
 }
 
 // main
@@ -5147,9 +5147,9 @@ signed int main(signed int argc, char **argv)
   autodir_setname(argv[(signed long int)0]);
   msg_init();
   msg_console_on();
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  if(!(return_value_geteuid$1 == 0u))
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  if(!(return_value_geteuid_1 == 0u))
     msglog(0, "this program must be run by root");
 
   dropcap_drop();
@@ -5183,24 +5183,24 @@ signed int main(signed int argc, char **argv)
   autodir.ioctlfd = -1;
   autodir.k_pipe = autodir.ioctlfd;
   autodir.mounted = 0;
-  signed int return_value_atexit$2;
-  return_value_atexit$2=atexit(autodir_clean);
-  if(!(return_value_atexit$2 == 0))
+  signed int return_value_atexit_2;
+  return_value_atexit_2=atexit(autodir_clean);
+  if(!(return_value_atexit_2 == 0))
     msglog(0, "could not register autodir cleanup method");
 
-  char *return_value_autodir_name$3;
-  return_value_autodir_name$3=autodir_name();
-  msglog(7, "starting %s version %s", return_value_autodir_name$3, (const void *)"0.99.9");
+  char *return_value_autodir_name_3;
+  return_value_autodir_name_3=autodir_name();
+  msglog(7, "starting %s version %s", return_value_autodir_name_3, (const void *)"0.99.9");
   create_dir(autodir.path, (unsigned int)0700);
-  signed int return_value_thread_new_joinable$4;
-  return_value_thread_new_joinable$4=thread_new_joinable(signal_handle, (void *)0, &self.sig_th);
-  if(return_value_thread_new_joinable$4 == 0)
+  signed int return_value_thread_new_joinable_4;
+  return_value_thread_new_joinable_4=thread_new_joinable(signal_handle, (void *)0, &self.sig_th);
+  if(return_value_thread_new_joinable_4 == 0)
     msglog(0, "could not start signal handler thread");
 
   mount_autodir(autodir.path, self.pgrp, self.pid, 4, 4);
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(autodir.ioctlfd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x93 << 0 + 8) | (unsigned int)(0x63 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &autodir.proto);
-  if(return_value_ioctl$5 == -1)
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(autodir.ioctlfd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x93 << 0 + 8) | (unsigned int)(0x63 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &autodir.proto);
+  if(return_value_ioctl_5 == -1)
     msglog(0 | 128, "ioctl: AUTOFS_IOC_PROTOVER");
 
   timeout = (unsigned long int)autodir.time_out;
@@ -5297,9 +5297,9 @@ static struct mentry * mentry_malloc(void)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct mentry) /*272ul*/ );
-    return (struct mentry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct mentry) /*272ul*/ );
+    return (struct mentry *)return_value_malloc_1;
   }
 }
 
@@ -5316,23 +5316,23 @@ static void mhash_resize(void)
   struct mentry *next;
   new_size = mhash_size * 2;
   new_size = new_size | 1;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)new_size, sizeof(struct mentry *) /*8ul*/ );
-  new_mhash = (struct mentry **)return_value_calloc$1;
-  signed int tmp_post$2;
-  struct mentry **tmp_post$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)new_size, sizeof(struct mentry *) /*8ul*/ );
+  new_mhash = (struct mentry **)return_value_calloc_1;
+  signed int tmp_post_2;
+  struct mentry **tmp_post_3;
   if(!(new_mhash == ((struct mentry **)NULL)))
   {
     do
     {
-      tmp_post$2 = old_size;
+      tmp_post_2 = old_size;
       old_size = old_size - 1;
-      if(!(tmp_post$2 >= 1))
+      if(!(tmp_post_2 >= 1))
         break;
 
-      tmp_post$3 = h;
+      tmp_post_3 = h;
       h = h + 1l;
-      entry = *tmp_post$3;
+      entry = *tmp_post_3;
       for( ; !(entry == ((struct mentry *)NULL)); entry = next)
       {
         next = entry->next;
@@ -5371,23 +5371,23 @@ static void missing_exit(char *mname, char *name, unsigned int wqt, signed int r
 static void module_check(void)
 {
   struct stat st;
-  signed int return_value_stat$4;
-  return_value_stat$4=stat(module.mod_path, &st);
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  if(!(return_value_stat$4 == 0))
+  signed int return_value_stat_4;
+  return_value_stat_4=stat(module.mod_path, &st);
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  if(!(return_value_stat_4 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 2)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 20 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 20 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       msglog(0, "could not find module at %s", module.mod_path);
 
     else
@@ -5420,40 +5420,40 @@ void module_load(char *apath)
 {
   module.handle = ((struct lt__handle *)NULL);
   module_check();
-  signed int return_value_atexit$1;
-  return_value_atexit$1=atexit(module_clean);
-  if(!(return_value_atexit$1 == 0))
+  signed int return_value_atexit_1;
+  return_value_atexit_1=atexit(module_clean);
+  if(!(return_value_atexit_1 == 0))
     msglog(0, "could not register module cleanup method");
 
-  signed int return_value_lt_dlinit$3;
-  return_value_lt_dlinit$3=lt_dlinit();
-  const char *return_value_lt_dlerror$2;
-  if(!(return_value_lt_dlinit$3 == 0))
+  signed int return_value_lt_dlinit_3;
+  return_value_lt_dlinit_3=lt_dlinit();
+  const char *return_value_lt_dlerror_2;
+  if(!(return_value_lt_dlinit_3 == 0))
   {
-    return_value_lt_dlerror$2=lt_dlerror();
-    msglog(0, "module_load: lt_dlinit: %s", return_value_lt_dlerror$2);
+    return_value_lt_dlerror_2=lt_dlerror();
+    msglog(0, "module_load: lt_dlinit: %s", return_value_lt_dlerror_2);
   }
 
   module.handle=lt_dlopenext(module.mod_path);
-  const char *return_value_lt_dlerror$4;
+  const char *return_value_lt_dlerror_4;
   if(module.handle == ((struct lt__handle *)NULL))
   {
-    return_value_lt_dlerror$4=lt_dlerror();
-    msglog(0, "module open error: %s", return_value_lt_dlerror$4);
+    return_value_lt_dlerror_4=lt_dlerror();
+    msglog(0, "module open error: %s", return_value_lt_dlerror_4);
   }
 
-  void *return_value_module_symbol$5;
-  return_value_module_symbol$5=module_symbol("module_init");
-  mod_init = (struct module_info * (*)(char *, const char *))return_value_module_symbol$5;
-  void *return_value_module_symbol$6;
-  return_value_module_symbol$6=module_symbol("module_dir");
-  mod_dir = (void (*)(char *, signed int, const char *))return_value_module_symbol$6;
-  void *return_value_module_symbol$7;
-  return_value_module_symbol$7=module_symbol("module_dowork");
-  mod_dowork = (signed int (*)(const char *, const char *, char *, signed int))return_value_module_symbol$7;
-  void *return_value_module_symbol$8;
-  return_value_module_symbol$8=module_symbol("module_clean");
-  mod_clean = (void (*)(void))return_value_module_symbol$8;
+  void *return_value_module_symbol_5;
+  return_value_module_symbol_5=module_symbol("module_init");
+  mod_init = (struct module_info * (*)(char *, const char *))return_value_module_symbol_5;
+  void *return_value_module_symbol_6;
+  return_value_module_symbol_6=module_symbol("module_dir");
+  mod_dir = (void (*)(char *, signed int, const char *))return_value_module_symbol_6;
+  void *return_value_module_symbol_7;
+  return_value_module_symbol_7=module_symbol("module_dowork");
+  mod_dowork = (signed int (*)(const char *, const char *, char *, signed int))return_value_module_symbol_7;
+  void *return_value_module_symbol_8;
+  return_value_module_symbol_8=module_symbol("module_clean");
+  mod_clean = (void (*)(void))return_value_module_symbol_8;
   modinfo=mod_init(module.mod_subopt, apath);
   if(modinfo == ((struct module_info *)NULL))
     msglog(0, "could not initialize module");
@@ -5488,13 +5488,13 @@ void module_option_modpath(char ch, char *arg, signed int valid)
   if(valid == 0)
     msglog(0, "module option -%c missing", ch);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(arg == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)arg[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)arg[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     msglog(0, "module option -%c argument is not absolute path", ch);
 
   module.mod_path = arg;
@@ -5519,9 +5519,9 @@ void mono_nanosleep(signed long int nsec)
   struct timespec tp;
   tp.tv_sec = (signed long int)0;
   tp.tv_nsec = nsec;
-  signed int return_value_clock_nanosleep$1;
-  return_value_clock_nanosleep$1=clock_nanosleep(clockid, 0, &tp, (struct timespec *)(void *)0);
-  if(!(return_value_clock_nanosleep$1 == 0))
+  signed int return_value_clock_nanosleep_1;
+  return_value_clock_nanosleep_1=clock_nanosleep(clockid, 0, &tp, (struct timespec *)(void *)0);
+  if(!(return_value_clock_nanosleep_1 == 0))
     msglog(4 | 128, "mono_nanosleep: clock_nanosleep");
 
   goto __CPROVER_DUMP_L2;
@@ -5535,22 +5535,22 @@ __CPROVER_DUMP_L2:
 static void mount_autodir(char *path, signed int pgrp, signed int pid, signed int minp, signed int maxp)
 {
   signed int pipefd[2l];
-  char mount_autodir$$1$$options[128l];
+  char mount_autodir__1__options[128l];
   char our_name[128l];
   char dot_path[4097l];
   struct stat st;
-  signed int return_value_pipe$1;
-  return_value_pipe$1=pipe(pipefd);
-  if(!(return_value_pipe$1 >= 0))
+  signed int return_value_pipe_1;
+  return_value_pipe_1=pipe(pipefd);
+  if(!(return_value_pipe_1 >= 0))
     msglog(0 | 128, "mount_autodir: pipe");
 
-  snprintf(mount_autodir$$1$$options, sizeof(char [128l]) /*128ul*/ , "fd=%d,pgrp=%u,minproto=%d,maxproto=%d", pipefd[(signed long int)1], (unsigned int)pgrp, minp, maxp);
-  char *return_value_autodir_name$2;
-  return_value_autodir_name$2=autodir_name();
-  snprintf(our_name, sizeof(char [128l]) /*128ul*/ , "%s(pid%u)", return_value_autodir_name$2, (unsigned int)pid);
-  signed int return_value_mount$3;
-  return_value_mount$3=mount(our_name, path, "autofs", (unsigned long int)0xc0ed0000, (const void *)mount_autodir$$1$$options);
-  if(!(return_value_mount$3 == 0))
+  snprintf(mount_autodir__1__options, sizeof(char [128l]) /*128ul*/ , "fd=%d,pgrp=%u,minproto=%d,maxproto=%d", pipefd[(signed long int)1], (unsigned int)pgrp, minp, maxp);
+  char *return_value_autodir_name_2;
+  return_value_autodir_name_2=autodir_name();
+  snprintf(our_name, sizeof(char [128l]) /*128ul*/ , "%s(pid%u)", return_value_autodir_name_2, (unsigned int)pid);
+  signed int return_value_mount_3;
+  return_value_mount_3=mount(our_name, path, "autofs", (unsigned long int)0xc0ed0000, (const void *)mount_autodir__1__options);
+  if(!(return_value_mount_3 == 0))
   {
     close(pipefd[(signed long int)0]);
     close(pipefd[(signed long int)1]);
@@ -5560,9 +5560,9 @@ static void mount_autodir(char *path, signed int pgrp, signed int pid, signed in
   autodir.mounted = 1;
   close(pipefd[(signed long int)1]);
   autodir.k_pipe = pipefd[(signed long int)0];
-  signed int return_value_fcntl$4;
-  return_value_fcntl$4=fcntl(autodir.k_pipe, 4, 04000);
-  if(!(return_value_fcntl$4 == 0))
+  signed int return_value_fcntl_4;
+  return_value_fcntl_4=fcntl(autodir.k_pipe, 4, 04000);
+  if(!(return_value_fcntl_4 == 0))
     msglog(0 | 128, "mount_autodir: fcntl");
 
   snprintf(dot_path, sizeof(char [4097l]) /*4097ul*/ , "%s/.", path);
@@ -5570,9 +5570,9 @@ static void mount_autodir(char *path, signed int pgrp, signed int pid, signed in
   if(!(autodir.ioctlfd >= 0))
     msglog(0 | 128, "mount_autodir: open %s", (const void *)dot_path);
 
-  signed int return_value_fstat$5;
-  return_value_fstat$5=fstat(autodir.ioctlfd, &st);
-  if(!(return_value_fstat$5 >= 0))
+  signed int return_value_fstat_5;
+  return_value_fstat_5=fstat(autodir.ioctlfd, &st);
+  if(!(return_value_fstat_5 >= 0))
     msglog(0 | 128, "mount_autodir: fstat %s", (const void *)dot_path);
 
   autodir.dev = st.st_dev;
@@ -5596,18 +5596,18 @@ static void msg_clean(void)
 static void msg_console(signed int msgprio, const char *txt)
 {
   struct _IO_FILE *stream = msgprio < 7 ? stderr : stdout;
-  char *return_value_autodir_name$1;
-  char *return_value_autodir_name$2;
+  char *return_value_autodir_name_1;
+  char *return_value_autodir_name_2;
   if(!(mg.modname_prefix == ((char *)NULL)))
   {
-    return_value_autodir_name$1=autodir_name();
-    fprintf(stream, "%s [%s] %s: %.*s\n", return_value_autodir_name$1, mg.modname_prefix, msgmap[(signed long int)msgprio].tag, (signed int)1024, txt);
+    return_value_autodir_name_1=autodir_name();
+    fprintf(stream, "%s [%s] %s: %.*s\n", return_value_autodir_name_1, mg.modname_prefix, msgmap[(signed long int)msgprio].tag, (signed int)1024, txt);
   }
 
   else
   {
-    return_value_autodir_name$2=autodir_name();
-    fprintf(stream, "%s %s: %.*s\n", return_value_autodir_name$2, msgmap[(signed long int)msgprio].tag, (signed int)1024, txt);
+    return_value_autodir_name_2=autodir_name();
+    fprintf(stream, "%s %s: %.*s\n", return_value_autodir_name_2, msgmap[(signed long int)msgprio].tag, (signed int)1024, txt);
   }
 }
 
@@ -5633,9 +5633,9 @@ void msg_init(void)
   mg.msg_which = 0;
   mg.modname_prefix = (char *)(void *)0;
   pthread_mutex_init(&mg.strerror_lock, &common_mutex_attr);
-  signed int return_value_atexit$1;
-  return_value_atexit$1=atexit(msg_clean);
-  if(!(return_value_atexit$1 == 0))
+  signed int return_value_atexit_1;
+  return_value_atexit_1=atexit(msg_clean);
+  if(!(return_value_atexit_1 == 0))
     msglog(0, "msg_init: could not add msg cleanup method");
 
 }
@@ -5644,9 +5644,9 @@ void msg_init(void)
 // file msg.h line 53
 void msg_modname_prefix(const char *modname)
 {
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(modname);
-  mg.modname_prefix = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(modname);
+  mg.modname_prefix = return_value___strdup_1;
 }
 
 // msg_option_verbose
@@ -5680,9 +5680,9 @@ void msg_syslog_on(void)
 {
   if(mg.slog_init == 0)
   {
-    char *return_value_autodir_name$1;
-    return_value_autodir_name$1=autodir_name();
-    openlog(return_value_autodir_name$1, 0x08 | 0x02, 3 << 3);
+    char *return_value_autodir_name_1;
+    return_value_autodir_name_1=autodir_name();
+    openlog(return_value_autodir_name_1, 0x08 | 0x02, 3 << 3);
     mg.slog_init = 1;
   }
 
@@ -5699,14 +5699,14 @@ void msglog(signed int mprio, const char *fmt, ...)
   signed int sz = (signed int)sizeof(char [1024l]) /*1024ul*/ ;
   signed int pri = mprio & 15;
   signed int saved_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  saved_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  saved_errno = *return_value___errno_location_1;
   char *es;
   void **ap;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   if(!(mg.verbose_log == 0) || !(pri >= 7))
   {
     if(!(fmt == ((const char *)NULL)) && !(pri >= 9))
@@ -5715,22 +5715,22 @@ void msglog(signed int mprio, const char *fmt, ...)
       len=vsnprintf(b, (unsigned long int)sz, fmt, ap);
       ap = ((void **)NULL);
       if(len >= sz || !(len >= 1))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = b[(signed long int)len] != 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = b[(signed long int)len] != 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
       {
         b = b + (signed long int)len;
         sz = sz - len;
         if(sz >= 4 && !((128 & mprio) == 0))
         {
-          tmp_post$3 = b;
+          tmp_post_3 = b;
           b = b + 1l;
-          *tmp_post$3 = (char)58;
-          tmp_post$4 = b;
+          *tmp_post_3 = (char)58;
+          tmp_post_4 = b;
           b = b + 1l;
-          *tmp_post$4 = (char)32;
+          *tmp_post_4 = (char)32;
           *b = (char)0;
           sz = sz - 2;
           pthread_mutex_lock(&mg.strerror_lock);
@@ -5763,7 +5763,7 @@ static void multipath_clean(void)
   signed int i;
   struct mentry *me;
   struct mentry *tmp;
-  pthread_mutex_destroy(&hash_lock$link2);
+  pthread_mutex_destroy(&hash_lock_link2);
   if(!(mhash == ((struct mentry **)NULL)))
   {
     i = 0;
@@ -5795,18 +5795,18 @@ static void multipath_clean(void)
 // file multipath.h line 7
 signed int multipath_dec(const char *name)
 {
-  unsigned int multipath_dec$$1$$hash;
+  unsigned int multipath_dec__1__hash;
   signed int count;
   struct mentry **dptr;
   struct mentry *ent;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(name == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-  signed int tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+  signed int tmp_statement_expression_2;
+  if(tmp_if_expr_1)
   {
     msglog(4, "lockfile_unhash: invalid name");
     return 0;
@@ -5814,22 +5814,22 @@ signed int multipath_dec(const char *name)
 
   else
   {
-    multipath_dec$$1$$hash=string_hash(name);
-    pthread_mutex_lock(&hash_lock$link2);
+    multipath_dec__1__hash=string_hash(name);
+    pthread_mutex_lock(&hash_lock_link2);
     do
     {
-      dptr = &mhash[(signed long int)(multipath_dec$$1$$hash % (unsigned int)mhash_size)];
+      dptr = &mhash[(signed long int)(multipath_dec__1__hash % (unsigned int)mhash_size)];
       for( ; !(*dptr == ((struct mentry *)NULL)); dptr = &(*dptr)->next)
-        if((*dptr)->hash == multipath_dec$$1$$hash)
+        if((*dptr)->hash == multipath_dec__1__hash)
         {
           if(*name == (*dptr)->name[0l])
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$3;
-            return_value___builtin_strcmp$3=__builtin_strcmp(name, (*dptr)->name);
-            tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-            if(tmp_statement_expression$2 == 0)
+            signed int return_value___builtin_strcmp_3;
+            return_value___builtin_strcmp_3=__builtin_strcmp(name, (*dptr)->name);
+            tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+            if(tmp_statement_expression_2 == 0)
               break;
 
           }
@@ -5841,7 +5841,7 @@ signed int multipath_dec(const char *name)
     ent = *dptr;
     if(ent == ((struct mentry *)NULL))
     {
-      pthread_mutex_unlock(&hash_lock$link2);
+      pthread_mutex_unlock(&hash_lock_link2);
       msglog(2, "multipath_dec: entry for %s does not exist", name);
       return -1;
     }
@@ -5857,7 +5857,7 @@ signed int multipath_dec(const char *name)
         mhash_used = mhash_used - 1;
       }
 
-      pthread_mutex_unlock(&hash_lock$link2);
+      pthread_mutex_unlock(&hash_lock_link2);
       return count;
     }
   }
@@ -5867,17 +5867,17 @@ signed int multipath_dec(const char *name)
 // file multipath.h line 6
 signed int multipath_inc(const char *name)
 {
-  unsigned int multipath_inc$$1$$hash;
+  unsigned int multipath_inc__1__hash;
   struct mentry *ent;
   struct mentry **dptr;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(name == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-  signed int tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+  signed int tmp_statement_expression_2;
+  if(tmp_if_expr_1)
   {
     msglog(4, "multipath_inc: invalid name");
     return 0;
@@ -5885,22 +5885,22 @@ signed int multipath_inc(const char *name)
 
   else
   {
-    multipath_inc$$1$$hash=string_hash(name);
-    pthread_mutex_lock(&hash_lock$link2);
+    multipath_inc__1__hash=string_hash(name);
+    pthread_mutex_lock(&hash_lock_link2);
     do
     {
-      dptr = &mhash[(signed long int)(multipath_inc$$1$$hash % (unsigned int)mhash_size)];
+      dptr = &mhash[(signed long int)(multipath_inc__1__hash % (unsigned int)mhash_size)];
       for( ; !(*dptr == ((struct mentry *)NULL)); dptr = &(*dptr)->next)
-        if((*dptr)->hash == multipath_inc$$1$$hash)
+        if((*dptr)->hash == multipath_inc__1__hash)
         {
           if(*name == (*dptr)->name[0l])
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$3;
-            return_value___builtin_strcmp$3=__builtin_strcmp(name, (*dptr)->name);
-            tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-            if(tmp_statement_expression$2 == 0)
+            signed int return_value___builtin_strcmp_3;
+            return_value___builtin_strcmp_3=__builtin_strcmp(name, (*dptr)->name);
+            tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+            if(tmp_statement_expression_2 == 0)
               break;
 
           }
@@ -5914,28 +5914,28 @@ signed int multipath_inc(const char *name)
       ent=mentry_malloc();
       if(ent == ((struct mentry *)NULL))
       {
-        pthread_mutex_unlock(&hash_lock$link2);
+        pthread_mutex_unlock(&hash_lock_link2);
         msglog(2, "multipath_inc: could not allocate memory");
         return 0;
       }
 
       ent->count = 1;
       string_n_copy(ent->name, name, (signed int)sizeof(char [256l]) /*256ul*/ );
-      ent->hash = multipath_inc$$1$$hash;
+      ent->hash = multipath_inc__1__hash;
       ent->next = (struct mentry *)(void *)0;
       *dptr = ent;
       mhash_used = mhash_used + 1;
       if(!(mhash_size >= mhash_used))
         mhash_resize();
 
-      pthread_mutex_unlock(&hash_lock$link2);
+      pthread_mutex_unlock(&hash_lock_link2);
       return 1;
     }
 
     else
     {
       (*dptr)->count = (*dptr)->count + 1;
-      pthread_mutex_unlock(&hash_lock$link2);
+      pthread_mutex_unlock(&hash_lock_link2);
       return 1;
     }
   }
@@ -5945,20 +5945,20 @@ signed int multipath_inc(const char *name)
 // file multipath.h line 4
 void multipath_init(void)
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)3, sizeof(struct mentry *) /*8ul*/ );
-  mhash = (struct mentry **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)3, sizeof(struct mentry *) /*8ul*/ );
+  mhash = (struct mentry **)return_value_calloc_1;
   if(mhash == ((struct mentry **)NULL))
     msglog(0, "multipath_init: could not allocate hash table");
 
   mhash_used = 0;
   mhash_size = 3;
-  pthread_mutex_init(&hash_lock$link2, &common_mutex_attr);
+  pthread_mutex_init(&hash_lock_link2, &common_mutex_attr);
   mcache.list = (struct mentry *)(void *)0;
   mcache.count = 0;
-  signed int return_value_atexit$2;
-  return_value_atexit$2=atexit(multipath_clean);
-  if(!(return_value_atexit$2 == 0))
+  signed int return_value_atexit_2;
+  return_value_atexit_2=atexit(multipath_clean);
+  if(!(return_value_atexit_2 == 0))
   {
     multipath_clean();
     msglog(0, "multipath_init: could not register cleanup method");
@@ -5971,22 +5971,22 @@ void multipath_init(void)
 static void mutexattr_init(void)
 {
   const char *myname = "mutex_init";
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1=pthread_mutexattr_init(&common_mutex_attr);
-  if(!(*return_value___errno_location$1 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1=pthread_mutexattr_init(&common_mutex_attr);
+  if(!(*return_value___errno_location_1 == 0))
     msglog(0 | 128, "%s: pthread_mutexattr_init", myname);
 
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2=pthread_mutexattr_setpshared(&common_mutex_attr, 0);
-  if(!(*return_value___errno_location$2 == 0))
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2=pthread_mutexattr_setpshared(&common_mutex_attr, 0);
+  if(!(*return_value___errno_location_2 == 0))
     msglog(0 | 128, "%s: pthread_mutexattr_setpshared PTHREAD_PROCESS_PRIVATE", myname);
 
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  *return_value___errno_location$3=pthread_mutexattr_settype(&common_mutex_attr, 0);
-  if(!(*return_value___errno_location$3 == 0))
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  *return_value___errno_location_3=pthread_mutexattr_settype(&common_mutex_attr, 0);
+  if(!(*return_value___errno_location_3 == 0))
     msglog(0 | 128, "%s: pthread_mutexattr_settype PTHREAD_MUTEX_NORMAL: %m", myname);
 
 }
@@ -5997,18 +5997,18 @@ signed int octal_string2dec(const char *str, unsigned int *oct)
 {
   signed int i = 0;
   unsigned int val = (unsigned int)0;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    tmp_if_expr$2 = !(((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*str] & (signed int)(unsigned short int)32768) != 0) ? (_Bool)1 : (_Bool)0;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    tmp_if_expr_2 = !(((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*str] & (signed int)(unsigned short int)32768) != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -6019,11 +6019,11 @@ signed int octal_string2dec(const char *str, unsigned int *oct)
     for( ; !(str[(signed long int)i] == 0); i = i + 1)
     {
       if(!((signed int)str[(signed long int)i] >= 48))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)str[(signed long int)i] > 55 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)str[(signed long int)i] > 55 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         return 0;
 
       val = val * (unsigned int)8 + (unsigned int)((signed int)str[(signed long int)i] - 48);
@@ -6120,7 +6120,7 @@ static void option_process(char **argv, signed int argc)
   signed int c;
   struct opt_cb *ocb;
   opterr = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     c=getopt(argc, argv, options.ostr);
@@ -6131,11 +6131,11 @@ static void option_process(char **argv, signed int argc)
     {
       ocb=option_is_exist((char)optopt);
       if(!(ocb == ((struct opt_cb *)NULL)))
-        tmp_if_expr$1 = ocb->req_arg != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ocb->req_arg != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         msglog(0, "missing argument for -%c", optopt);
 
       else
@@ -6170,17 +6170,17 @@ static void option_process(char **argv, signed int argc)
 // file options.c line 191
 static void option_register(const char opch, void (* const cb)(char, char *, signed int), const signed int areq)
 {
-  _Bool tmp_if_expr$2;
-  struct opt_cb *return_value_option_is_exist$1;
+  _Bool tmp_if_expr_2;
+  struct opt_cb *return_value_option_is_exist_1;
   if(options.count == 20)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_option_is_exist$1=option_is_exist(opch);
-    tmp_if_expr$2 = return_value_option_is_exist$1 != ((struct opt_cb *)NULL) ? (_Bool)1 : (_Bool)0;
+    return_value_option_is_exist_1=option_is_exist(opch);
+    tmp_if_expr_2 = return_value_option_is_exist_1 != ((struct opt_cb *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     msglog(0, "option_register: could not register option -%c", opch);
 
   cary_add(&options.ca, opch);
@@ -6199,9 +6199,9 @@ static void option_register(const char opch, void (* const cb)(char, char *, sig
 // file options.c line 93
 static void option_usage(void)
 {
-  char *return_value_autodir_name$1;
-  return_value_autodir_name$1=autodir_name();
-  printf("Usage: %s [OPTIONS]\n\n", return_value_autodir_name$1);
+  char *return_value_autodir_name_1;
+  return_value_autodir_name_1=autodir_name();
+  printf("Usage: %s [OPTIONS]\n\n", return_value_autodir_name_1);
   printf("\t-%c\t%s\n", 100, (const void *)"mount point for autofs file system");
   printf("\t-%c\t%s\n", 108, (const void *)"pid file path");
   printf("\t-%c\t%s\n", 116, (const void *)"time in seconds for unmounting of inactive directories");
@@ -6231,9 +6231,9 @@ static void option_version(char ch, char *arg, signed int valid)
 {
   if(!(valid == 0))
   {
-    char *return_value_autodir_name$1;
-    return_value_autodir_name$1=autodir_name();
-    printf("%s: Version %s\n\n", return_value_autodir_name$1, (const void *)"0.99.9");
+    char *return_value_autodir_name_1;
+    return_value_autodir_name_1=autodir_name();
+    printf("%s: Version %s\n\n", return_value_autodir_name_1, (const void *)"0.99.9");
     exit(0);
   }
 
@@ -6328,9 +6328,9 @@ static struct packet * packet_get_free_list(void)
 
   dalloc:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct packet) /*288ul*/ );
-    list = (struct packet *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct packet) /*288ul*/ );
+    list = (struct packet *)return_value_malloc_1;
     if(!(list == ((struct packet *)NULL)))
       list->next = (struct packet *)(void *)0;
 
@@ -6345,9 +6345,9 @@ void packet_init(void)
   pcache.list = (struct packet *)(void *)0;
   pcache.count = 0;
   pthread_mutex_init(&pcache.lock, &common_mutex_attr);
-  signed int return_value_atexit$1;
-  return_value_atexit$1=atexit(packet_clean);
-  if(!(return_value_atexit$1 == 0))
+  signed int return_value_atexit_1;
+  return_value_atexit_1=atexit(packet_clean);
+  if(!(return_value_atexit_1 == 0))
   {
     packet_clean();
     msglog(0, "packet_init: could not register cleanup method");
@@ -6364,16 +6364,16 @@ static signed int poll_read(signed int fd, char *buf, signed int sz)
   struct pollfd pf;
   pf.fd = fd;
   pf.events = (signed short int)0x001;
-  signed int *return_value___errno_location$1;
-  signed long int return_value_read$2;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_1;
+  signed long int return_value_read_2;
+  signed int *return_value___errno_location_3;
   while(!(sz == 0))
   {
     r=poll(&pf, (unsigned long int)1, 1000);
     if(r == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 4))
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 4))
       {
         msglog(4 | 128, "poll_read: poll");
         return -1;
@@ -6388,13 +6388,13 @@ static signed int poll_read(signed int fd, char *buf, signed int sz)
     {
       do
       {
-        return_value_read$2=read(fd, (void *)buf, (unsigned long int)sz);
-        n = (signed int)return_value_read$2;
+        return_value_read_2=read(fd, (void *)buf, (unsigned long int)sz);
+        n = (signed int)return_value_read_2;
         if(!(n == -1))
           break;
 
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 4))
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 4))
           break;
 
       }
@@ -6415,9 +6415,9 @@ static signed int poll_read(signed int fd, char *buf, signed int sz)
         else
           if(n == -1)
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            if(*return_value___errno_location$4 == 11)
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            if(*return_value___errno_location_4 == 11)
             {
               sleep((unsigned int)1);
               continue;
@@ -6438,18 +6438,18 @@ static signed int poll_read(signed int fd, char *buf, signed int sz)
 static signed int queue_entry_add(struct bqueue *new)
 {
   signed int key;
-  unsigned int queue_entry_add$$1$$hash;
+  unsigned int queue_entry_add__1__hash;
   struct bqueue **dptr;
   BQ.hash_used = BQ.hash_used + 1;
   if(!(BQ.hash_size >= BQ.hash_used))
     hash_resize();
 
   new->hash=string_hash(new->dname);
-  queue_entry_add$$1$$hash = new->hash;
-  key = (signed int)(queue_entry_add$$1$$hash % (unsigned int)BQ.hash_size);
-  struct bqueue *return_value_queue_entry_locate$1;
-  return_value_queue_entry_locate$1=queue_entry_locate(new->dname, queue_entry_add$$1$$hash, key);
-  if(!(return_value_queue_entry_locate$1 == ((struct bqueue *)NULL)))
+  queue_entry_add__1__hash = new->hash;
+  key = (signed int)(queue_entry_add__1__hash % (unsigned int)BQ.hash_size);
+  struct bqueue *return_value_queue_entry_locate_1;
+  return_value_queue_entry_locate_1=queue_entry_locate(new->dname, queue_entry_add__1__hash, key);
+  if(!(return_value_queue_entry_locate_1 == ((struct bqueue *)NULL)))
     return 0;
 
   else
@@ -6488,7 +6488,7 @@ static signed int queue_entry_add(struct bqueue *new)
 static struct bqueue * queue_entry_locate(const char *name, unsigned int hash, signed int key)
 {
   struct bqueue *bq = BQ.hash[(signed long int)key];
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(bq == ((struct bqueue *)NULL)); bq = bq->next)
     if(hash == bq->hash)
     {
@@ -6496,10 +6496,10 @@ static struct bqueue * queue_entry_locate(const char *name, unsigned int hash, s
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(bq->dname, name);
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(bq->dname, name);
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
           return bq;
 
       }
@@ -6557,37 +6557,37 @@ static void * queue_watch_thread(void *x)
   signed long int cte;
   struct bqueue **bchain;
   signed int child_count;
-  _Bool tmp_if_expr$2;
-  signed int return_value_pthread_mutex_trylock$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_pthread_mutex_trylock_1;
+  _Bool tmp_if_expr_3;
   while((_Bool)1)
   {
     dift = 0;
     queue_watch_wait(dift);
     child_count=backup_child_count();
     if(!(child_count >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&BQ.lock);
-      tmp_if_expr$2 = return_value_pthread_mutex_trylock$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&BQ.lock);
+      tmp_if_expr_2 = return_value_pthread_mutex_trylock_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       dift = 1;
 
     else
     {
       cte=time_mono();
       if(BQ.cur_t == ((struct bqueue *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         dift = (signed int)(BQ.wait - (cte - BQ.cur_t->estamp));
-        tmp_if_expr$3 = dift > 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = dift > 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         pthread_mutex_unlock(&BQ.lock);
 
       else
@@ -6639,7 +6639,7 @@ static void queue_watch_wait(signed int dift)
 static void remove_pid(struct backup_pid *bp)
 {
   struct backup_pid **dptr;
-  pthread_mutex_lock(&hash_lock$link3);
+  pthread_mutex_lock(&hash_lock_link3);
   do
   {
     dptr = &hash[(signed long int)(bp->hash % (unsigned int)hash_size)];
@@ -6653,7 +6653,7 @@ static void remove_pid(struct backup_pid *bp)
   {
     *dptr = bp->next;
     hash_used = hash_used - 1;
-    pthread_mutex_unlock(&hash_lock$link3);
+    pthread_mutex_unlock(&hash_lock_link3);
     pthread_mutex_lock(&bp->lock);
     pthread_mutex_unlock(&bp->lock);
     if(!(bp->waiting == 0))
@@ -6666,7 +6666,7 @@ static void remove_pid(struct backup_pid *bp)
   }
 
   else
-    pthread_mutex_unlock(&hash_lock$link3);
+    pthread_mutex_unlock(&hash_lock_link3);
 
 __CPROVER_DUMP_L6:
   ;
@@ -6683,42 +6683,42 @@ signed int rename_dir(const char *from, const char *to_dir, const char *to_name,
   signed int try;
   now=time((signed long int *)(void *)0);
   try = 0;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   for( ; !(try >= 10); try = try + 1)
   {
-    struct tm *return_value_localtime_r$1;
-    return_value_localtime_r$1=localtime_r(&now, &tmval);
-    if(return_value_localtime_r$1 == ((struct tm *)NULL))
+    struct tm *return_value_localtime_r_1;
+    return_value_localtime_r_1=localtime_r(&now, &tmval);
+    if(return_value_localtime_r_1 == ((struct tm *)NULL))
     {
       msglog(4, "localtime_r: could not convert current time");
       return -1;
     }
 
-    unsigned long int return_value_strftime$2;
-    return_value_strftime$2=strftime(str_time, sizeof(char [256l]) /*256ul*/ , tme_format, &tmval);
-    if(return_value_strftime$2 == 0ul)
+    unsigned long int return_value_strftime_2;
+    return_value_strftime_2=strftime(str_time, sizeof(char [256l]) /*256ul*/ , tme_format, &tmval);
+    if(return_value_strftime_2 == 0ul)
     {
       msglog(4, "strftime: could not make the time");
       return -1;
     }
 
     snprintf(to, sizeof(char [4097l]) /*4097ul*/ , "%s/%s%s", to_dir, to_name, (const void *)str_time);
-    signed int return_value_rename$6;
-    return_value_rename$6=rename(from, to);
-    if(!(return_value_rename$6 == 0))
+    signed int return_value_rename_6;
+    return_value_rename_6=rename(from, to);
+    if(!(return_value_rename_6 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(*return_value___errno_location$3 == 39)
-        tmp_if_expr$5 = (_Bool)1;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(*return_value___errno_location_3 == 39)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 == 17 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 == 17 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
         now = now + 1l;
         goto __CPROVER_DUMP_L8;
@@ -6740,11 +6740,11 @@ signed int rename_dir(const char *from, const char *to_dir, const char *to_name,
 // file backup_fork.c line 43
 static void reset_signals(void)
 {
-  struct anonymous$2 set;
+  struct anonymous_2 set;
   sigfillset(&set);
-  signed int return_value_sigprocmask$1;
-  return_value_sigprocmask$1=sigprocmask(1, &set, (struct anonymous$2 *)(void *)0);
-  if(!(return_value_sigprocmask$1 == 0))
+  signed int return_value_sigprocmask_1;
+  return_value_sigprocmask_1=sigprocmask(1, &set, (struct anonymous_2 *)(void *)0);
+  if(!(return_value_sigprocmask_1 == 0))
     msglog(4 | 128, "reset_signals: sigprocmask");
 
 }
@@ -6753,9 +6753,9 @@ static void reset_signals(void)
 // file autodir.c line 113
 static void send_fail(unsigned int wait_queue_token)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(autodir.ioctlfd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x93 << 0 + 8) | (unsigned int)(0x61 << 0) | (unsigned int)(0 << 0 + 8 + 8)), wait_queue_token);
-  if(!(return_value_ioctl$1 >= 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(autodir.ioctlfd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x93 << 0 + 8) | (unsigned int)(0x61 << 0) | (unsigned int)(0 << 0 + 8 + 8)), wait_queue_token);
+  if(!(return_value_ioctl_1 >= 0))
     msglog(4 | 128, "ioctl AUTOFS_IOC_FAIL");
 
 }
@@ -6764,9 +6764,9 @@ static void send_fail(unsigned int wait_queue_token)
 // file autodir.c line 107
 static void send_ready(unsigned int wait_queue_token)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(autodir.ioctlfd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x93 << 0 + 8) | (unsigned int)(0x60 << 0) | (unsigned int)(0 << 0 + 8 + 8)), wait_queue_token);
-  if(!(return_value_ioctl$1 >= 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(autodir.ioctlfd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x93 << 0 + 8) | (unsigned int)(0x60 << 0) | (unsigned int)(0 << 0 + 8 + 8)), wait_queue_token);
+  if(!(return_value_ioctl_1 >= 0))
     msglog(4 | 128, "ioctl AUTOFS_IOC_READY");
 
 }
@@ -6781,36 +6781,36 @@ static signed int shared_lock(signed int fd, const char *path)
   lk.l_start = (signed long int)0;
   lk.l_whence = (signed short int)0;
   lk.l_len = (signed long int)0;
-  signed int return_value_fcntl$1;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
-  signed int tmp_post$2;
+  signed int return_value_fcntl_1;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
+  signed int tmp_post_2;
   do
   {
-    return_value_fcntl$1=fcntl(fd, 6, &lk);
-    if(!(return_value_fcntl$1 == -1))
+    return_value_fcntl_1=fcntl(fd, 6, &lk);
+    if(!(return_value_fcntl_1 == -1))
       break;
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 11)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 11)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$5=__errno_location();
-      tmp_if_expr$6 = *return_value___errno_location$5 == 13 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_5=__errno_location();
+      tmp_if_expr_6 = *return_value___errno_location_5 == 13 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
-      tmp_post$2 = wait_msg;
+      tmp_post_2 = wait_msg;
       wait_msg = wait_msg + 1;
-      if(tmp_post$2 == 0)
+      if(tmp_post_2 == 0)
         msglog(6, "waiting for lock file: %s", path);
 
-      signed int return_value_lockfile_sleep$3;
-      return_value_lockfile_sleep$3=lockfile_sleep(3);
-      if(return_value_lockfile_sleep$3 == 0)
+      signed int return_value_lockfile_sleep_3;
+      return_value_lockfile_sleep_3=lockfile_sleep(3);
+      if(return_value_lockfile_sleep_3 == 0)
         return 0;
 
       continue;
@@ -6827,11 +6827,11 @@ static signed int shared_lock(signed int fd, const char *path)
 // file autodir.c line 617
 static void signal_block(void)
 {
-  struct anonymous$2 set;
+  struct anonymous_2 set;
   sigfillset(&set);
-  signed int return_value_sigprocmask$1;
-  return_value_sigprocmask$1=sigprocmask(2, &set, (struct anonymous$2 *)(void *)0);
-  if(!(return_value_sigprocmask$1 == 0))
+  signed int return_value_sigprocmask_1;
+  return_value_sigprocmask_1=sigprocmask(2, &set, (struct anonymous_2 *)(void *)0);
+  if(!(return_value_sigprocmask_1 == 0))
     msglog(0 | 128, "signal_block: sigprocmask");
 
 }
@@ -6841,7 +6841,7 @@ static void signal_block(void)
 static void * signal_handle(void *v)
 {
   signed int sig;
-  struct anonymous$2 set;
+  struct anonymous_2 set;
   pthread_setcanceltype(1, (signed int *)(void *)0);
   sigfillset(&set);
   while((_Bool)1)
@@ -6871,9 +6871,9 @@ static void start_extra_expire_thread(void)
     if(expire.threads[(signed long int)expire.cur] == 0ul)
     {
       pthread_mutex_lock(&expire.lock);
-      signed int return_value_thread_new_joinable$1;
-      return_value_thread_new_joinable$1=thread_new_joinable(extra_expire_mounts, (void *)&expire.threads[(signed long int)expire.cur], &expire.threads[(signed long int)expire.cur]);
-      if(!(return_value_thread_new_joinable$1 == 0))
+      signed int return_value_thread_new_joinable_1;
+      return_value_thread_new_joinable_1=thread_new_joinable(extra_expire_mounts, (void *)&expire.threads[(signed long int)expire.cur], &expire.threads[(signed long int)expire.cur]);
+      if(!(return_value_thread_new_joinable_1 == 0))
         expire.cur = (expire.cur + 1) % 10;
 
       pthread_mutex_unlock(&expire.lock);
@@ -6892,9 +6892,9 @@ __CPROVER_DUMP_L5:
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // string_hash
@@ -6903,12 +6903,12 @@ unsigned int string_hash(const char *str)
 {
   unsigned long int h = (unsigned long int)0;
   unsigned long int g;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   while(!(*str == 0))
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    h = (h << 4) + (unsigned long int)*tmp_post$1;
+    h = (h << 4) + (unsigned long int)*tmp_post_1;
     g = h & (unsigned long int)0xf0000000;
     if(!(g == 0ul))
     {
@@ -6953,19 +6953,19 @@ char * string_n_copy(char *str1, const char *str2, signed int len)
 // file miscfuncs.h line 46
 void string_safe(char *str, signed int rep)
 {
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   while(!(*str == 0))
   {
     if(!((-128 & (signed int)*str) == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      tmp_if_expr$2 = !(((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*str] & (signed int)(unsigned short int)16384) != 0) ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      tmp_if_expr_2 = !(((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*str] & (signed int)(unsigned short int)16384) != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       *str = (char)rep;
 
     str = str + 1l;
@@ -6985,9 +6985,9 @@ signed int string_to_number(const char *str, signed int *num)
   {
     while(!(str[(signed long int)i] == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)str[(signed long int)i]]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)str[(signed long int)i]]) == 0))
         val = val * 10 + ((signed int)str[(signed long int)i] - 48);
 
       else
@@ -7004,32 +7004,32 @@ signed int string_to_number(const char *str, signed int *num)
 static void thread_attribute_init(union pthread_attr_t *attr, signed int joinable, unsigned long int stacksz)
 {
   signed int j = joinable != 0 ? 0 : 1;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1=pthread_attr_init(attr);
-  if(!(*return_value___errno_location$1 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1=pthread_attr_init(attr);
+  if(!(*return_value___errno_location_1 == 0))
     msglog(0 | 128, "thread_attribute_init: pthread_attr_init");
 
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2=pthread_attr_setdetachstate(attr, j);
-  if(!(*return_value___errno_location$2 == 0))
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2=pthread_attr_setdetachstate(attr, j);
+  if(!(*return_value___errno_location_2 == 0))
     msglog(0 | 128, "thread_attribute_init: pthread_attr_setdetachstate");
 
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(!(stacksz == 0ul))
   {
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_attr_setstacksize(attr, stacksz);
-    if(!(*return_value___errno_location$3 == 0))
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_attr_setstacksize(attr, stacksz);
+    if(!(*return_value___errno_location_3 == 0))
       msglog(0 | 128, "thread_attribute_init: pthread_attr_setstacksize %d", stacksz);
 
   }
 
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4=pthread_attr_setscope(attr, 0);
-  if(!(*return_value___errno_location$4 == 0))
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4=pthread_attr_setscope(attr, 0);
+  if(!(*return_value___errno_location_4 == 0))
     msglog(0 | 128, "thread_attribute_init: pthread_attr_setscope PTHREAD_SCOPE_SYSTEM");
 
 }
@@ -7048,9 +7048,9 @@ void thread_cache_init(struct thread_cache *tc, void (*cb)(struct packet *), sig
   tc->thread_waiting = 0;
   tc->n_slots = n_slots;
   tc->max_thread_wait = max_thread_wait;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)n_slots, sizeof(struct packet *) /*8ul*/ );
-  tc->pkt_slots = (struct packet **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)n_slots, sizeof(struct packet *) /*8ul*/ );
+  tc->pkt_slots = (struct packet **)return_value_calloc_1;
   if(tc->pkt_slots == ((struct packet **)NULL))
     msglog(0, "thread_cache_init: could not allocate memory");
 
@@ -7065,27 +7065,27 @@ void thread_cache_new(struct thread_cache *tc, struct packet *pkt)
   signed int pkt_pending;
   pkt->tc = tc;
   pthread_mutex_lock(&tc->lock);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(tc->in >= tc->out)
-    tmp_if_expr$1 = tc->in - tc->out;
+    tmp_if_expr_1 = tc->in - tc->out;
 
   else
-    tmp_if_expr$1 = (tc->n_slots - tc->out) + tc->in;
-  pkt_pending = tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
+    tmp_if_expr_1 = (tc->n_slots - tc->out) + tc->in;
+  pkt_pending = tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
   if(tc->thread_waiting == 0)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = tc->pkt_slots[(signed long int)tc->in] != ((struct packet *)NULL) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = tc->pkt_slots[(signed long int)tc->in] != ((struct packet *)NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = pkt_pending > tc->thread_waiting ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = pkt_pending > tc->thread_waiting ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_5)
   {
     if(tc->pending_count >= 30001)
     {
@@ -7094,9 +7094,9 @@ void thread_cache_new(struct thread_cache *tc, struct packet *pkt)
     }
 
     pthread_mutex_unlock(&tc->lock);
-    signed int return_value_thread_new$2;
-    return_value_thread_new$2=thread_new(thread_cache_thread, (void *)pkt, (unsigned long int *)(void *)0);
-    if(!(return_value_thread_new$2 == 0))
+    signed int return_value_thread_new_2;
+    return_value_thread_new_2=thread_new(thread_cache_thread, (void *)pkt, (unsigned long int *)(void *)0);
+    if(!(return_value_thread_new_2 == 0))
     {
       tc->pending_count = tc->pending_count + 1;
       goto __CPROVER_DUMP_L13;
@@ -7104,11 +7104,11 @@ void thread_cache_new(struct thread_cache *tc, struct packet *pkt)
 
     pthread_mutex_lock(&tc->lock);
     if(tc->thread_waiting == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = tc->pkt_slots[(signed long int)tc->in] != ((struct packet *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = tc->pkt_slots[(signed long int)tc->in] != ((struct packet *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       pthread_mutex_unlock(&tc->lock);
       thread_new_wait(thread_cache_thread, (void *)pkt, (signed long int)1);
@@ -7138,15 +7138,15 @@ void thread_cache_stop(struct thread_cache *tc)
   tc->thread_count = tc->thread_count + tc->pending_count;
   tc->pending_count = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 3))
-      tmp_if_expr$1 = tc->thread_count != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = tc->thread_count != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     thread_cond_timespec(&timeout, (signed long int)(2 * i + 1));
@@ -7165,9 +7165,9 @@ static void * thread_cache_thread(void *x)
   signed int i = 0;
   struct packet *pkt = (struct packet *)x;
   struct thread_cache *tc;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
   tc = pkt->tc;
   tc->cb(pkt);
   i = i + 1;
@@ -7184,9 +7184,9 @@ static void * thread_cache_thread(void *x)
 // file time_mono.h line 18
 struct timespec * thread_cond_timespec(struct timespec *tp, signed long int sec)
 {
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(clockid, tp);
-  if(!(return_value_clock_gettime$1 == 0))
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(clockid, tp);
+  if(!(return_value_clock_gettime_1 == 0))
     msglog(0 | 128, "thread_cond_timespec: clock_gettime failed");
 
   tp->tv_sec = tp->tv_sec + sec;
@@ -7208,10 +7208,10 @@ void thread_init(void)
 signed int thread_new(void * (*th_func)(void *), void *data, unsigned long int *pt)
 {
   unsigned long int p;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1=pthread_create(&p, &cmn_attr, th_func, data);
-  if(!(*return_value___errno_location$1 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1=pthread_create(&p, &cmn_attr, th_func, data);
+  if(!(*return_value___errno_location_1 == 0))
   {
     msglog(4 | 128, "thread_new: pthread_create");
     if(!(pt == ((unsigned long int *)NULL)))
@@ -7234,10 +7234,10 @@ signed int thread_new(void * (*th_func)(void *), void *data, unsigned long int *
 signed int thread_new_joinable(void * (*th_func)(void *), void *data, unsigned long int *pt)
 {
   unsigned long int p;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1=pthread_create(&p, &join_attr, th_func, data);
-  if(!(*return_value___errno_location$1 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1=pthread_create(&p, &join_attr, th_func, data);
+  if(!(*return_value___errno_location_1 == 0))
   {
     msglog(4 | 128, "thread_new_joinable: pthread_create");
     if(!(pt == ((unsigned long int *)NULL)))
@@ -7263,12 +7263,12 @@ unsigned long int thread_new_wait(void * (*th_func)(void *), void *data, signed 
   if(!(retry >= 1l))
     retry = (signed long int)5;
 
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_create(&pt, &cmn_attr, th_func, data);
-    if(*return_value___errno_location$1 == 0)
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_create(&pt, &cmn_attr, th_func, data);
+    if(*return_value___errno_location_1 == 0)
       break;
 
     msglog(4 | 128, "thread_new_wait: pthread_create");
@@ -7284,9 +7284,9 @@ signed long int time_mono(void)
 {
   const char *myname = "time_monotonic";
   struct timespec tp;
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(clockid, &tp);
-  if(!(return_value_clock_gettime$1 == 0))
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(clockid, &tp);
+  if(!(return_value_clock_gettime_1 == 0))
     msglog(0 | 128, "%s: clock_gettime failed", myname);
 
   return tp.tv_sec;
@@ -7298,9 +7298,9 @@ extern void time_mono_init(void)
 {
   if(initialized == 0)
   {
-    signed long int return_value_sysconf$1;
-    return_value_sysconf$1=sysconf(149);
-    if(return_value_sysconf$1 >= 1l)
+    signed long int return_value_sysconf_1;
+    return_value_sysconf_1=sysconf(149);
+    if(return_value_sysconf_1 >= 1l)
       clockid = 1;
 
     time_mono();
@@ -7317,9 +7317,9 @@ static signed int umount_all(void)
   struct dirent *de;
   struct __dirstream *dp;
   dp=opendir(autodir.path);
-  signed int tmp_statement_expression$1;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
   if(dp == ((struct __dirstream *)NULL))
   {
     msglog(4 | 128, "umount_all: opendir %s", autodir.path);
@@ -7335,28 +7335,28 @@ static signed int umount_all(void)
         break;
 
       unsigned long int __s1_len;
-      unsigned long int umount_all$$1$$2$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(de->d_name, ".");
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
-        tmp_if_expr$5 = (_Bool)1;
+      unsigned long int umount_all__1__2__1____s2_len;
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(de->d_name, ".");
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        unsigned long int umount_all$$1$$2$$2$$__s1_len;
+        unsigned long int umount_all__1__2__2____s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(de->d_name, "..");
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        tmp_if_expr$5 = !(tmp_statement_expression$3 != 0) ? (_Bool)1 : (_Bool)0;
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(de->d_name, "..");
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        tmp_if_expr_5 = !(tmp_statement_expression_3 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$5)
+      if(!tmp_if_expr_5)
       {
         snprintf(path, sizeof(char [4097l]) /*4097ul*/ , "%s/%s", autodir.path, (const void *)de->d_name);
-        signed int return_value_umount_dir$6;
-        return_value_umount_dir$6=umount_dir(path);
-        if(!(return_value_umount_dir$6 == 1))
+        signed int return_value_umount_dir_6;
+        return_value_umount_dir_6=umount_dir(path);
+        if(!(return_value_umount_dir_6 == 1))
         {
           msglog(5, "could not unmount %s", (const void *)path);
           continue;
@@ -7378,13 +7378,13 @@ static signed int umount_all(void)
 static signed int umount_dir(char *path)
 {
   struct stat st;
-  signed int return_value_lstat$2;
-  return_value_lstat$2=lstat(path, &st);
-  if(!(return_value_lstat$2 == 0))
+  signed int return_value_lstat_2;
+  return_value_lstat_2=lstat(path, &st);
+  if(!(return_value_lstat_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 2)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 2)
       return 1;
 
     msglog(4 | 128, "umount_dir: lstat %s", path);
@@ -7401,23 +7401,23 @@ static signed int umount_dir(char *path)
   {
     if(!(st.st_dev == autodir.dev))
     {
-      signed int return_value_umount$4;
-      return_value_umount$4=umount(path);
-      if(!(return_value_umount$4 == 0))
+      signed int return_value_umount_4;
+      return_value_umount_4=umount(path);
+      if(!(return_value_umount_4 == 0))
       {
         msglog(6 | 128, "umount %s", path);
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 16)
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 16)
           return 2;
 
       }
 
     }
 
-    signed int return_value_rmdir$5;
-    return_value_rmdir$5=rmdir(path);
-    if(!(return_value_rmdir$5 == 0))
+    signed int return_value_rmdir_5;
+    return_value_rmdir_5=rmdir(path);
+    if(!(return_value_rmdir_5 == 0))
     {
       msglog(4 | 128, "umount_dir: rmdir %s", path);
       return 0;
@@ -7532,9 +7532,9 @@ static struct wentry * wentry_malloc(void)
 
   dyn_alloc:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct wentry) /*312ul*/ );
-    return (struct wentry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct wentry) /*312ul*/ );
+    return (struct wentry *)return_value_malloc_1;
   }
 }
 
@@ -7551,23 +7551,23 @@ static void whash_resize(void)
   struct wentry *next;
   new_size = whash_size * 2;
   new_size = new_size | 1;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)new_size, sizeof(struct wentry *) /*8ul*/ );
-  new_whash = (struct wentry **)return_value_calloc$1;
-  signed int tmp_post$2;
-  struct wentry **tmp_post$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)new_size, sizeof(struct wentry *) /*8ul*/ );
+  new_whash = (struct wentry **)return_value_calloc_1;
+  signed int tmp_post_2;
+  struct wentry **tmp_post_3;
   if(!(new_whash == ((struct wentry **)NULL)))
   {
     do
     {
-      tmp_post$2 = old_size;
+      tmp_post_2 = old_size;
       old_size = old_size - 1;
-      if(!(tmp_post$2 >= 1))
+      if(!(tmp_post_2 >= 1))
         break;
 
-      tmp_post$3 = h;
+      tmp_post_3 = h;
       h = h + 1l;
-      wentry = *tmp_post$3;
+      wentry = *tmp_post_3;
       for( ; !(wentry == ((struct wentry *)NULL)); wentry = next)
       {
         next = wentry->next;
@@ -7621,9 +7621,9 @@ static void workon_cleanup(void)
 // file workon.h line 27
 void workon_init(void)
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)13, sizeof(struct wentry *) /*8ul*/ );
-  whash = (struct wentry **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)13, sizeof(struct wentry *) /*8ul*/ );
+  whash = (struct wentry **)return_value_calloc_1;
   if(whash == ((struct wentry **)NULL))
     msglog(0, "workon_init: could not allocate hash table");
 
@@ -7633,9 +7633,9 @@ void workon_init(void)
   wcache.list = (struct wentry *)(void *)0;
   wcache.count = 0;
   pthread_mutex_init(&wcache.lock, &common_mutex_attr);
-  signed int return_value_atexit$2;
-  return_value_atexit$2=atexit(workon_cleanup);
-  if(!(return_value_atexit$2 == 0))
+  signed int return_value_atexit_2;
+  return_value_atexit_2=atexit(workon_cleanup);
+  if(!(return_value_atexit_2 == 0))
   {
     workon_cleanup();
     msglog(0, "workon_init: could not reigster cleanup method");
@@ -7647,18 +7647,18 @@ void workon_init(void)
 // file workon.h line 28
 signed int workon_name(const char *name)
 {
-  unsigned int workon_name$$1$$hash;
+  unsigned int workon_name__1__hash;
   struct wentry **dptr;
   struct wentry *new_ent;
   struct wentry *ent;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(name == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-  signed int tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+  signed int tmp_statement_expression_2;
+  if(tmp_if_expr_1)
   {
     msglog(4, "workon_name: invalid name");
     return 0;
@@ -7675,27 +7675,27 @@ signed int workon_name(const char *name)
 
     else
     {
-      workon_name$$1$$hash=string_hash(name);
+      workon_name__1__hash=string_hash(name);
       string_n_copy(new_ent->name, name, (signed int)sizeof(char [256l]) /*256ul*/ );
-      new_ent->hash = workon_name$$1$$hash;
+      new_ent->hash = workon_name__1__hash;
       new_ent->in_use = 1;
       new_ent->next = (struct wentry *)(void *)0;
       pthread_mutex_init(&new_ent->wait, &common_mutex_attr);
       pthread_mutex_lock(&hash_lock);
       do
       {
-        dptr = &whash[(signed long int)(workon_name$$1$$hash % (unsigned int)whash_size)];
+        dptr = &whash[(signed long int)(workon_name__1__hash % (unsigned int)whash_size)];
         for( ; !(*dptr == ((struct wentry *)NULL)); dptr = &(*dptr)->next)
-          if((*dptr)->hash == workon_name$$1$$hash)
+          if((*dptr)->hash == workon_name__1__hash)
           {
             if(*name == (*dptr)->name[0l])
             {
               unsigned long int __s1_len;
               unsigned long int __s2_len;
-              signed int return_value___builtin_strcmp$3;
-              return_value___builtin_strcmp$3=__builtin_strcmp(name, (*dptr)->name);
-              tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-              if(tmp_statement_expression$2 == 0)
+              signed int return_value___builtin_strcmp_3;
+              return_value___builtin_strcmp_3=__builtin_strcmp(name, (*dptr)->name);
+              tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+              if(tmp_statement_expression_2 == 0)
                 break;
 
             }
@@ -7736,35 +7736,35 @@ void workon_release(const char *name)
   struct wentry **dptr;
   struct wentry *ent;
   struct wentry *tmp = (struct wentry *)(void *)0;
-  unsigned int workon_release$$1$$hash;
-  _Bool tmp_if_expr$1;
+  unsigned int workon_release__1__hash;
+  _Bool tmp_if_expr_1;
   if(name == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
-  signed int tmp_statement_expression$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(*name != 0) ? (_Bool)1 : (_Bool)0;
+  signed int tmp_statement_expression_2;
+  if(tmp_if_expr_1)
     msglog(4, "workon_release: invalid name");
 
   else
   {
-    workon_release$$1$$hash=string_hash(name);
+    workon_release__1__hash=string_hash(name);
     pthread_mutex_lock(&hash_lock);
     do
     {
-      dptr = &whash[(signed long int)(workon_release$$1$$hash % (unsigned int)whash_size)];
+      dptr = &whash[(signed long int)(workon_release__1__hash % (unsigned int)whash_size)];
       for( ; !(*dptr == ((struct wentry *)NULL)); dptr = &(*dptr)->next)
-        if((*dptr)->hash == workon_release$$1$$hash)
+        if((*dptr)->hash == workon_release__1__hash)
         {
           if(*name == (*dptr)->name[0l])
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$3;
-            return_value___builtin_strcmp$3=__builtin_strcmp(name, (*dptr)->name);
-            tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-            if(tmp_statement_expression$2 == 0)
+            signed int return_value___builtin_strcmp_3;
+            return_value___builtin_strcmp_3=__builtin_strcmp(name, (*dptr)->name);
+            tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+            if(tmp_statement_expression_2 == 0)
               break;
 
           }
@@ -7806,9 +7806,9 @@ signed int write_all(signed int fd, const char *buf, signed int buf_sz)
   signed int n;
   do
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(fd, (const void *)buf, (unsigned long int)buf_sz);
-    n = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(fd, (const void *)buf, (unsigned long int)buf_sz);
+    n = (signed int)return_value_write_1;
     if(!(n >= 1))
     {
       if(!(n == 0))

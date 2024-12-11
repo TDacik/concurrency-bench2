@@ -1,18 +1,18 @@
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/net/if.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -258,7 +258,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -437,13 +437,13 @@ void usage(char *comando);
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
 
-union anonymous$0
+union anonymous_0
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -513,7 +513,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -696,9 +696,9 @@ struct ether_addr
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$0 ifr_ifrn;
+  union anonymous_0 ifr_ifrn;
   // ifr_ifru
-  union anonymous$2 ifr_ifru;
+  union anonymous_2 ifr_ifru;
 };
 
 struct oui
@@ -20565,12 +20565,12 @@ char ** fread_list(char *file)
 {
   struct _IO_FILE *rl;
   char **rlist;
-  char fread_list$$1$$line[100l];
+  char fread_list__1__line[100l];
   signed int lcount = 0;
   signed int trim;
   rl=fopen(file, "r");
-  char *return_value_fgets$1;
-  char *return_value_fgets$3;
+  char *return_value_fgets_1;
+  char *return_value_fgets_3;
   if(rl == ((struct _IO_FILE *)NULL))
     return (char **)(void *)0;
 
@@ -20578,46 +20578,46 @@ char ** fread_list(char *file)
   {
     do
     {
-      return_value_fgets$1=fgets(fread_list$$1$$line, (signed int)sizeof(char [100l]) /*100ul*/ , rl);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(fread_list__1__line, (signed int)sizeof(char [100l]) /*100ul*/ , rl);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       lcount = lcount + 1;
     }
     while((_Bool)1);
     rewind(rl);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(lcount + 1));
-    rlist = (char **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(lcount + 1));
+    rlist = (char **)return_value_malloc_2;
     lcount = 0;
     do
     {
-      return_value_fgets$3=fgets(fread_list$$1$$line, (signed int)sizeof(char [100l]) /*100ul*/ , rl);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(fread_list__1__line, (signed int)sizeof(char [100l]) /*100ul*/ , rl);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(fread_list$$1$$line);
-      trim = (signed int)(return_value_strlen$4 - (unsigned long int)1);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(fread_list__1__line);
+      trim = (signed int)(return_value_strlen_4 - (unsigned long int)1);
       for( ; trim >= 0; trim = trim - 1)
       {
-        if(!((signed int)fread_list$$1$$line[(signed long int)trim] == 13))
+        if(!((signed int)fread_list__1__line[(signed long int)trim] == 13))
         {
-          if(!((signed int)fread_list$$1$$line[(signed long int)trim] == 10))
+          if(!((signed int)fread_list__1__line[(signed long int)trim] == 10))
             break;
 
         }
 
-        fread_list$$1$$line[(signed long int)trim] = (char)0;
+        fread_list__1__line[(signed long int)trim] = (char)0;
       }
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(fread_list$$1$$line);
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$5 + (unsigned long int)1));
-      rlist[(signed long int)lcount] = (char *)return_value_malloc$6;
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(fread_list$$1$$line);
-      snprintf(rlist[(signed long int)lcount], return_value_strlen$7 + (unsigned long int)1, "%s", (const void *)fread_list$$1$$line);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(fread_list__1__line);
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_5 + (unsigned long int)1));
+      rlist[(signed long int)lcount] = (char *)return_value_malloc_6;
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(fread_list__1__line);
+      snprintf(rlist[(signed long int)lcount], return_value_strlen_7 + (unsigned long int)1, "%s", (const void *)fread_list__1__line);
       lcount = lcount + 1;
     }
     while((_Bool)1);
@@ -20631,9 +20631,9 @@ char ** fread_list(char *file)
 // file misc.c line 167
 char * get_known_mac_hostname(char *mac_hostname)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(mac_hostname);
-  if(!(return_value_strlen$1 == 12ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(mac_hostname);
+  if(!(return_value_strlen_1 == 12ul))
     return (char *)(void *)0;
 
   else
@@ -20667,26 +20667,26 @@ void get_mac(char *disp)
   fd=socket(1, 2, 0);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("%s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("%s", return_value_strerror_2);
     exit(1);
   }
 
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(fd, (unsigned long int)0x8927, &ifr);
-  if(return_value_ioctl$5 == -1)
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(fd, (unsigned long int)0x8927, &ifr);
+  if(return_value_ioctl_5 == -1)
   {
     signed int temp_errno;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    temp_errno = *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    temp_errno = *return_value___errno_location_3;
     close(fd);
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(temp_errno);
-    printf("%s", return_value_strerror$4);
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(temp_errno);
+    printf("%s", return_value_strerror_4);
     exit(1);
   }
 
@@ -20786,8 +20786,8 @@ signed int load_known_mac_table(char *file)
   signed int j;
   signed int len;
   known_mac_table=fread_list(file);
-  signed int return_value_toupper$2;
-  _Bool tmp_if_expr$3;
+  signed int return_value_toupper_2;
+  _Bool tmp_if_expr_3;
   if(known_mac_table == ((char **)NULL))
     return -1;
 
@@ -20797,9 +20797,9 @@ signed int load_known_mac_table(char *file)
     i = 0;
     while(!(known_mac_table[(signed long int)i] == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(known_mac_table[(signed long int)i]);
-      len = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(known_mac_table[(signed long int)i]);
+      len = (signed int)return_value_strlen_1;
       if(!(len >= 2))
       {
         printf("ERROR: no full MAC given in the file! (%s)\n", known_mac_table[(signed long int)i]);
@@ -20818,18 +20818,18 @@ signed int load_known_mac_table(char *file)
       j = 0;
       for( ; !(j >= 12); j = j + 1)
       {
-        return_value_toupper$2=toupper((signed int)known_mac_table[(signed long int)i][(signed long int)j]);
-        known_mac_table[(signed long int)i][(signed long int)j] = (char)return_value_toupper$2;
+        return_value_toupper_2=toupper((signed int)known_mac_table[(signed long int)i][(signed long int)j]);
+        known_mac_table[(signed long int)i][(signed long int)j] = (char)return_value_toupper_2;
       }
       j = 12;
       for( ; !(j >= len); j = j + 1)
       {
         if((signed int)known_mac_table[(signed long int)i][(signed long int)j] == 32)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)known_mac_table[(signed long int)i][(signed long int)j] == 9 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)known_mac_table[(signed long int)i][(signed long int)j] == 9 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           known_mac_table[(signed long int)i][(signed long int)j] = (char)0;
 
         else
@@ -20872,20 +20872,20 @@ signed int main(signed int argc, char **argv)
   flag_auto_scan = 0;
   parsable_output = 0;
   continue_listening = 0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)19);
-  current_network = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)19);
+  current_network = (char *)return_value_malloc_1;
   sprintf(current_network, "Starting.");
-  unsigned long int return_value_strlen$2;
-  void *return_value_malloc$3;
-  unsigned long int return_value_strlen$4;
-  void *return_value_malloc$5;
-  unsigned long int return_value_strlen$6;
-  void *return_value_malloc$7;
-  unsigned long int return_value_strlen$8;
-  void *return_value_malloc$9;
-  unsigned long int return_value_strlen$10;
-  void *return_value_malloc$11;
+  unsigned long int return_value_strlen_2;
+  void *return_value_malloc_3;
+  unsigned long int return_value_strlen_4;
+  void *return_value_malloc_5;
+  unsigned long int return_value_strlen_6;
+  void *return_value_malloc_7;
+  unsigned long int return_value_strlen_8;
+  void *return_value_malloc_9;
+  unsigned long int return_value_strlen_10;
+  void *return_value_malloc_11;
   do
   {
     c=getopt(argc, argv, "i:s:r:l:m:n:c:F:pSfdPNLh");
@@ -20943,9 +20943,9 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_strlen$2=strlen(optarg);
-      return_value_malloc$3=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$2 + (unsigned long int)1));
-      datos.interface = (char *)return_value_malloc$3;
+      return_value_strlen_2=strlen(optarg);
+      return_value_malloc_3=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_2 + (unsigned long int)1));
+      datos.interface = (char *)return_value_malloc_3;
       sprintf(datos.interface, "%s", optarg);
       continue;
 
@@ -20976,27 +20976,27 @@ signed int main(signed int argc, char **argv)
 
     __CPROVER_DUMP_L8:
       ;
-      return_value_strlen$4=strlen(optarg);
-      return_value_malloc$5=malloc(sizeof(char) /*1ul*/  * return_value_strlen$4 + (unsigned long int)1);
-      datos.source_ip = (char *)return_value_malloc$5;
+      return_value_strlen_4=strlen(optarg);
+      return_value_malloc_5=malloc(sizeof(char) /*1ul*/  * return_value_strlen_4 + (unsigned long int)1);
+      datos.source_ip = (char *)return_value_malloc_5;
       sprintf(datos.source_ip, "%s", optarg);
       flag_scan_range = 1;
       continue;
 
     __CPROVER_DUMP_L9:
       ;
-      return_value_strlen$6=strlen(optarg);
-      return_value_malloc$7=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$6 + (unsigned long int)1));
-      plist = (char *)return_value_malloc$7;
+      return_value_strlen_6=strlen(optarg);
+      return_value_malloc_7=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_6 + (unsigned long int)1));
+      plist = (char *)return_value_malloc_7;
       sprintf(plist, "%s", optarg);
       flag_scan_list = 1;
       continue;
 
     __CPROVER_DUMP_L10:
       ;
-      return_value_strlen$8=strlen(optarg);
-      return_value_malloc$9=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$8 + (unsigned long int)1));
-      mlist = (char *)return_value_malloc$9;
+      return_value_strlen_8=strlen(optarg);
+      return_value_malloc_9=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_8 + (unsigned long int)1));
+      mlist = (char *)return_value_malloc_9;
       sprintf(mlist, "%s", optarg);
       continue;
 
@@ -21007,9 +21007,9 @@ signed int main(signed int argc, char **argv)
 
     __CPROVER_DUMP_L12:
       ;
-      return_value_strlen$10=strlen(optarg);
-      return_value_malloc$11=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$10 + (unsigned long int)1));
-      datos.pcap_filter = (char *)return_value_malloc$11;
+      return_value_strlen_10=strlen(optarg);
+      return_value_malloc_11=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_10 + (unsigned long int)1));
+      datos.pcap_filter = (char *)return_value_malloc_11;
       sprintf(datos.pcap_filter, "%s", optarg);
       continue;
 
@@ -21049,13 +21049,13 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  unsigned int return_value_getuid$13;
-  return_value_getuid$13=getuid();
-  unsigned int return_value_geteuid$12;
-  if(!(return_value_getuid$13 == 0u))
+  unsigned int return_value_getuid_13;
+  return_value_getuid_13=getuid();
+  unsigned int return_value_geteuid_12;
+  if(!(return_value_getuid_13 == 0u))
   {
-    return_value_geteuid$12=geteuid();
-    if(!(return_value_geteuid$12 == 0u))
+    return_value_geteuid_12=geteuid();
+    if(!(return_value_geteuid_12 == 0u))
     {
       printf("You must be root to run this.\n");
       exit(1);
@@ -21075,26 +21075,26 @@ signed int main(signed int argc, char **argv)
   }
 
   home=getenv("HOME");
-  unsigned long int return_value_strlen$14;
-  return_value_strlen$14=strlen(home);
-  unsigned long int return_value_strlen$15;
-  return_value_strlen$15=strlen("%s/.netdiscover/ranges");
-  void *return_value_malloc$16;
-  return_value_malloc$16=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$14 + return_value_strlen$15 + (unsigned long int)1));
-  path = (char *)return_value_malloc$16;
+  unsigned long int return_value_strlen_14;
+  return_value_strlen_14=strlen(home);
+  unsigned long int return_value_strlen_15;
+  return_value_strlen_15=strlen("%s/.netdiscover/ranges");
+  void *return_value_malloc_16;
+  return_value_malloc_16=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_14 + return_value_strlen_15 + (unsigned long int)1));
+  path = (char *)return_value_malloc_16;
   sprintf(path, "%s/.netdiscover/ranges", home);
   common_net=fread_list(path);
   if(common_net == ((char **)NULL) || flag_ignore_files == 1)
     common_net = dcommon_net;
 
   free((void *)path);
-  unsigned long int return_value_strlen$17;
-  return_value_strlen$17=strlen(home);
-  unsigned long int return_value_strlen$18;
-  return_value_strlen$18=strlen("%s/.netdiscover/fastips");
-  void *return_value_malloc$19;
-  return_value_malloc$19=malloc(sizeof(char) /*1ul*/  * (return_value_strlen$17 + return_value_strlen$18 + (unsigned long int)1));
-  path = (char *)return_value_malloc$19;
+  unsigned long int return_value_strlen_17;
+  return_value_strlen_17=strlen(home);
+  unsigned long int return_value_strlen_18;
+  return_value_strlen_18=strlen("%s/.netdiscover/fastips");
+  void *return_value_malloc_19;
+  return_value_malloc_19=malloc(sizeof(char) /*1ul*/  * (return_value_strlen_17 + return_value_strlen_18 + (unsigned long int)1));
+  path = (char *)return_value_malloc_19;
   sprintf(path, "%s/.netdiscover/fastips", home);
   fast_ips=fread_list(path);
   if(fast_ips == ((char **)NULL) || flag_ignore_files == 1)
@@ -21114,9 +21114,9 @@ signed int main(signed int argc, char **argv)
 
   if(!(mlist == ((char *)NULL)))
   {
-    signed int return_value_load_known_mac_table$20;
-    return_value_load_known_mac_table$20=load_known_mac_table(mlist);
-    if(!(return_value_load_known_mac_table$20 >= 0))
+    signed int return_value_load_known_mac_table_20;
+    return_value_load_known_mac_table_20=load_known_mac_table(mlist);
+    if(!(return_value_load_known_mac_table_20 >= 0))
     {
       printf("File \"%s\" containing MACs and host names, cannot be read.\n", mlist);
       exit(1);
@@ -21129,10 +21129,10 @@ signed int main(signed int argc, char **argv)
   _data_request.init();
   _data_unique.init();
   init_screen();
-  void *return_value_malloc$21;
-  return_value_malloc$21=malloc(sizeof(union anonymous) /*40ul*/ );
-  data_access = (union anonymous *)return_value_malloc$21;
-  pthread_mutex_init(data_access, (const union anonymous$1 *)(void *)0);
+  void *return_value_malloc_21;
+  return_value_malloc_21=malloc(sizeof(union anonymous) /*40ul*/ );
+  data_access = (union anonymous *)return_value_malloc_21;
+  pthread_mutex_init(data_access, (const union anonymous_1 *)(void *)0);
   if(!(flag_passive_mode == 1) && !(flag_scan_range == 1))
     flag_auto_scan = 1;
 
@@ -21158,9 +21158,9 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    signed int return_value_pthread_create$22;
-    return_value_pthread_create$22=pthread_create(&injection, (const union pthread_attr_t *)(void *)0, inject_arp, (void *)&datos);
-    if(!(return_value_pthread_create$22 == 0))
+    signed int return_value_pthread_create_22;
+    return_value_pthread_create_22=pthread_create(&injection, (const union pthread_attr_t *)(void *)0, inject_arp, (void *)&datos);
+    if(!(return_value_pthread_create_22 == 0))
       perror("Could not create injection thread");
 
     pthread_join(sniffer, (void **)(void *)0);
@@ -21191,9 +21191,9 @@ void parseable_scan_end()
 // file screen.h line 60
 void print_screen()
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(0, (unsigned long int)0x5413, &win_sz);
-  if(!(return_value_ioctl$1 >= 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(0, (unsigned long int)0x5413, &win_sz);
+  if(!(return_value_ioctl_1 >= 0))
   {
     win_sz.ws_row = (unsigned short int)24;
     win_sz.ws_col = (unsigned short int)80;
@@ -21235,9 +21235,9 @@ void print_status_header()
   }
   sprintf(line, " Currently scanning: %s   |   Screen View: %s", current_network, current_smode);
   printf("%s", (const void *)line);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  j = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  j = (signed int)return_value_strlen_1;
   for( ; !(j >= (signed int)win_sz.ws_col + -1); j = j + 1)
     printf(" ");
   printf("\n");
@@ -21253,12 +21253,12 @@ void process_arp_header(struct data_registry *new_reg, const unsigned char *pack
 {
   new_reg->count = (unsigned int)1;
   new_reg->next = (struct data_registry *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)16);
-  new_reg->sip = (char *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)16);
-  new_reg->dip = (char *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)16);
+  new_reg->sip = (char *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)16);
+  new_reg->dip = (char *)return_value_malloc_2;
   sprintf(new_reg->sip, "%d.%d.%d.%d", packet[(signed long int)28], packet[(signed long int)29], packet[(signed long int)30], packet[(signed long int)31]);
   sprintf(new_reg->dip, "%d.%d.%d.%d", packet[(signed long int)38], packet[(signed long int)39], packet[(signed long int)40], packet[(signed long int)41]);
 }
@@ -21268,29 +21268,29 @@ void process_arp_header(struct data_registry *new_reg, const unsigned char *pack
 void process_packet(unsigned char *args, struct pcap_pkthdr *pkthdr, const unsigned char *packet)
 {
   struct p_header *new_header;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct p_header) /*16ul*/ );
-  new_header = (struct p_header *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct p_header) /*16ul*/ );
+  new_header = (struct p_header *)return_value_malloc_1;
   memcpy((void *)new_header->dmac, (const void *)packet, (unsigned long int)6);
   memcpy((void *)new_header->smac, (const void *)(packet + (signed long int)6), (unsigned long int)6);
   new_header->length = pkthdr->len;
-  signed int return_value_memcmp$5;
-  return_value_memcmp$5=memcmp((const void *)new_header->smac, (const void *)smac, (unsigned long int)6);
-  signed int return_value_memcmp$3;
-  if(!(return_value_memcmp$5 == 0))
+  signed int return_value_memcmp_5;
+  return_value_memcmp_5=memcmp((const void *)new_header->smac, (const void *)smac, (unsigned long int)6);
+  signed int return_value_memcmp_3;
+  if(!(return_value_memcmp_5 == 0))
   {
     unsigned char type[2l];
     memcpy((void *)type, (const void *)(packet + (signed long int)20), (unsigned long int)2);
     struct data_registry *new_reg;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct data_registry) /*56ul*/ );
-    new_reg = (struct data_registry *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct data_registry) /*56ul*/ );
+    new_reg = (struct data_registry *)return_value_malloc_2;
     new_reg->header = new_header;
     new_reg->tlength = new_header->length;
     process_arp_header(new_reg, packet);
-    signed int return_value_memcmp$4;
-    return_value_memcmp$4=memcmp((const void *)type, (const void *)"\0\002", (unsigned long int)2);
-    if(return_value_memcmp$4 == 0)
+    signed int return_value_memcmp_4;
+    return_value_memcmp_4=memcmp((const void *)type, (const void *)"\0\002", (unsigned long int)2);
+    if(return_value_memcmp_4 == 0)
     {
       new_reg->type = (signed short int)2;
       pthread_mutex_lock(data_access);
@@ -21300,8 +21300,8 @@ void process_packet(unsigned char *args, struct pcap_pkthdr *pkthdr, const unsig
 
     else
     {
-      return_value_memcmp$3=memcmp((const void *)type, (const void *)"\0\001", (unsigned long int)2);
-      if(return_value_memcmp$3 == 0)
+      return_value_memcmp_3=memcmp((const void *)type, (const void *)"\0\001", (unsigned long int)2);
+      if(return_value_memcmp_3 == 0)
       {
         new_reg->type = (signed short int)1;
         pthread_mutex_lock(data_access);
@@ -21333,9 +21333,9 @@ void read_key()
     ch=getchar();
     if(ch == 91)
     {
-      signed int return_value_getchar$1;
-      return_value_getchar$1=getchar();
-      switch(return_value_getchar$1)
+      signed int return_value_getchar_1;
+      return_value_getchar_1=getchar();
+      switch(return_value_getchar_1)
       {
         case 66:
         {
@@ -21349,8 +21349,8 @@ void read_key()
 
   }
 
-  signed int return_value_scroll_limit$2;
-  signed int return_value_scroll_limit$3;
+  signed int return_value_scroll_limit_2;
+  signed int return_value_scroll_limit_3;
   switch(ch)
   {
     case 107:
@@ -21362,8 +21362,8 @@ void read_key()
     }
     case 106:
     {
-      return_value_scroll_limit$2=scroll_limit();
-      if(return_value_scroll_limit$2 >= 2)
+      return_value_scroll_limit_2=scroll_limit();
+      if(return_value_scroll_limit_2 >= 2)
         scroll = scroll + 1;
 
       break;
@@ -21382,8 +21382,8 @@ void read_key()
       i = 0;
       for( ; !(i >= (signed int)win_sz.ws_row + -7); i = i + 1)
       {
-        return_value_scroll_limit$3=scroll_limit();
-        if(return_value_scroll_limit$3 >= 2)
+        return_value_scroll_limit_3=scroll_limit();
+        if(return_value_scroll_limit_3 >= 2)
           scroll = scroll + 1;
 
       }
@@ -21434,7 +21434,7 @@ void reply_add_registry(struct data_registry *registry)
 {
   signed int i = 0;
   _data_unique.add_registry(registry);
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   if(first_reply == ((struct data_registry *)NULL))
   {
     reply_count.hosts = reply_count.hosts + 1u;
@@ -21448,12 +21448,12 @@ void reply_add_registry(struct data_registry *registry)
     struct data_registry *tmp_registry = first_reply;
     if(!(tmp_registry == ((struct data_registry *)NULL)) && !(i == 1))
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(tmp_registry->sip, registry->sip);
-      if(return_value_strcmp$2 == 0)
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(tmp_registry->sip, registry->sip);
+      if(return_value_strcmp_2 == 0)
       {
-        return_value_memcmp$1=memcmp((const void *)tmp_registry->header->smac, (const void *)registry->header->smac, (unsigned long int)6);
-        if(return_value_memcmp$1 == 0)
+        return_value_memcmp_1=memcmp((const void *)tmp_registry->header->smac, (const void *)registry->header->smac, (unsigned long int)6);
+        if(return_value_memcmp_1 == 0)
         {
           tmp_registry->count = tmp_registry->count + 1u;
           tmp_registry->header->length = tmp_registry->header->length + registry->header->length;
@@ -21531,9 +21531,9 @@ void reply_print_header_sumary(signed int width)
   signed int j;
   sprintf(line, " %i Captured ARP Reply packets, from %i hosts.   Total size: %i", reply_count.pakets, reply_count.hosts, reply_count.length);
   printf("%s", (const void *)line);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  j = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  j = (signed int)return_value_strlen_1;
   for( ; !(j >= width + -1); j = j + 1)
     printf(" ");
   printf("\n");
@@ -21548,18 +21548,18 @@ void reply_print_line()
   sprintf(tline, " ");
   sprintf(tline, "%s ", current_reply->sip);
   strcat(line, tline);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  j = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  j = (signed int)return_value_strlen_1;
   for( ; !(j >= 17); j = j + 1)
     strcat(line, blank);
   sprintf(tline, "%02x:%02x:%02x:%02x:%02x:%02x  ", current_reply->header->smac[(signed long int)0], current_reply->header->smac[(signed long int)1], current_reply->header->smac[(signed long int)2], current_reply->header->smac[(signed long int)3], current_reply->header->smac[(signed long int)4], current_reply->header->smac[(signed long int)5]);
   strcat(line, tline);
   sprintf(tline, "%5d %7d  %s", current_reply->count, current_reply->header->length, current_reply->vendor);
   strcat(line, tline);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  j = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  j = (signed int)return_value_strlen_2;
   for( ; !(j >= (signed int)win_sz.ws_col + -1); j = j + 1)
     strcat(line, blank);
   string_cutter(line, (signed int)win_sz.ws_col - 1);
@@ -21576,8 +21576,8 @@ void request_add_registry(struct data_registry *registry)
 {
   signed int i = 0;
   _data_unique.add_registry(registry);
-  signed int return_value_strcmp$2;
-  signed int return_value_memcmp$1;
+  signed int return_value_strcmp_2;
+  signed int return_value_memcmp_1;
   if(request_first == ((struct data_registry *)NULL))
   {
     request_count.hosts = request_count.hosts + 1u;
@@ -21591,15 +21591,15 @@ void request_add_registry(struct data_registry *registry)
     struct data_registry *tmp_request = request_first;
     if(!(tmp_request == ((struct data_registry *)NULL)) && !(i == 1))
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(tmp_request->sip, registry->sip);
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(tmp_request->sip, registry->sip);
+      if(return_value_strcmp_3 == 0)
       {
-        return_value_strcmp$2=strcmp(tmp_request->dip, registry->dip);
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(tmp_request->dip, registry->dip);
+        if(return_value_strcmp_2 == 0)
         {
-          return_value_memcmp$1=memcmp((const void *)tmp_request->header->smac, (const void *)registry->header->smac, (unsigned long int)6);
-          if(return_value_memcmp$1 == 0)
+          return_value_memcmp_1=memcmp((const void *)tmp_request->header->smac, (const void *)registry->header->smac, (unsigned long int)6);
+          if(return_value_memcmp_1 == 0)
           {
             tmp_request->count = tmp_request->count + 1u;
             tmp_request->header->length = tmp_request->header->length + registry->header->length;
@@ -21679,9 +21679,9 @@ void request_print_header_sumary(signed int width)
   signed int j;
   sprintf(line, " %i Captured ARP Request packets, from %i hosts.   Total size: %i", request_count.pakets, request_count.hosts, request_count.length);
   printf("%s", (const void *)line);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  j = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  j = (signed int)return_value_strlen_1;
   for( ; !(j >= width + -1); j = j + 1)
     printf(" ");
   printf("\n");
@@ -21696,25 +21696,25 @@ void request_print_line()
   sprintf(tline, " ");
   sprintf(tline, "%s ", request_current->sip);
   strcat(line, tline);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  j = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  j = (signed int)return_value_strlen_1;
   for( ; !(j >= 17); j = j + 1)
     strcat(line, blank);
   sprintf(tline, "%02x:%02x:%02x:%02x:%02x:%02x   ", request_current->header->smac[(signed long int)0], request_current->header->smac[(signed long int)1], request_current->header->smac[(signed long int)2], request_current->header->smac[(signed long int)3], request_current->header->smac[(signed long int)4], request_current->header->smac[(signed long int)5]);
   strcat(line, tline);
   sprintf(tline, "%s", request_current->dip);
   strcat(line, tline);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  j = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  j = (signed int)return_value_strlen_2;
   for( ; !(j >= 54); j = j + 1)
     strcat(line, blank);
   sprintf(tline, "%5d", request_current->count);
   strcat(line, tline);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(line);
-  j = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(line);
+  j = (signed int)return_value_strlen_3;
   for( ; !(j >= (signed int)win_sz.ws_col + -1); j = j + 1)
     strcat(line, blank);
   string_cutter(line, (signed int)win_sz.ws_col - 1);
@@ -21813,57 +21813,57 @@ void scan_range(char *disp, char *sip)
 
   else
     e = 24;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
   if(a == ((char *)NULL) || b == ((char *)NULL) || c == ((char *)NULL) || d == ((char *)NULL))
     e = -1;
 
   else
   {
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(a, &aux, 10);
-    k = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(a, &aux, 10);
+    k = (signed int)return_value_strtol_1;
     if(k >= 256 || !(k >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       e = -1;
 
-    signed long int return_value_strtol$3;
-    return_value_strtol$3=strtol(b, &aux, 10);
-    k = (signed int)return_value_strtol$3;
+    signed long int return_value_strtol_3;
+    return_value_strtol_3=strtol(b, &aux, 10);
+    k = (signed int)return_value_strtol_3;
     if(k >= 256 || !(k >= 0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       e = -1;
 
-    signed long int return_value_strtol$5;
-    return_value_strtol$5=strtol(c, &aux, 10);
-    k = (signed int)return_value_strtol$5;
+    signed long int return_value_strtol_5;
+    return_value_strtol_5=strtol(c, &aux, 10);
+    k = (signed int)return_value_strtol_5;
     if(k >= 256 || !(k >= 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
       e = -1;
 
-    signed long int return_value_strtol$7;
-    return_value_strtol$7=strtol(d, &aux, 10);
-    k = (signed int)return_value_strtol$7;
+    signed long int return_value_strtol_7;
+    return_value_strtol_7=strtol(d, &aux, 10);
+    k = (signed int)return_value_strtol_7;
     if(k >= 256 || !(k >= 0))
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (signed int)*aux != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
       e = -1;
 
   }
@@ -21958,8 +21958,8 @@ char * search_known_mac(unsigned char *mac)
 {
   char tmac[13l];
   signed int i;
-  signed int return_value_toupper$1;
-  char *return_value_get_known_mac_hostname$2;
+  signed int return_value_toupper_1;
+  char *return_value_get_known_mac_hostname_2;
   if(known_mac_table == ((char **)NULL))
     return (char *)(void *)0;
 
@@ -21969,18 +21969,18 @@ char * search_known_mac(unsigned char *mac)
     i = 0;
     for( ; !(i >= 12); i = i + 1)
     {
-      return_value_toupper$1=toupper((signed int)tmac[(signed long int)i]);
-      tmac[(signed long int)i] = (char)return_value_toupper$1;
+      return_value_toupper_1=toupper((signed int)tmac[(signed long int)i]);
+      tmac[(signed long int)i] = (char)return_value_toupper_1;
     }
     i = 0;
     while(!(known_mac_table[(signed long int)i] == ((char *)NULL)))
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(known_mac_table[(signed long int)i], tmac);
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(known_mac_table[(signed long int)i], tmac);
+      if(return_value_strcmp_3 == 0)
       {
-        return_value_get_known_mac_hostname$2=get_known_mac_hostname(known_mac_table[(signed long int)i]);
-        return return_value_get_known_mac_hostname$2;
+        return_value_get_known_mac_hostname_2=get_known_mac_hostname(known_mac_table[(signed long int)i]);
+        return return_value_get_known_mac_hostname_2;
       }
 
       i = i + 1;
@@ -22012,18 +22012,18 @@ char * search_vendor(unsigned char *mac)
   signed int i = 0;
   sprintf(tmac, "%02x%02x%02x", mac[(signed long int)0], mac[(signed long int)1], mac[(signed long int)2]);
   i = 0;
-  signed int return_value_toupper$1;
+  signed int return_value_toupper_1;
   for( ; !(i >= 6); i = i + 1)
   {
-    return_value_toupper$1=toupper((signed int)tmac[(signed long int)i]);
-    tmac[(signed long int)i] = (char)return_value_toupper$1;
+    return_value_toupper_1=toupper((signed int)tmac[(signed long int)i]);
+    tmac[(signed long int)i] = (char)return_value_toupper_1;
   }
   i = 0;
   while(!(oui_table[(signed long int)i].prefix == ((char *)NULL)))
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(oui_table[(signed long int)i].prefix, tmac);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(oui_table[(signed long int)i].prefix, tmac);
+    if(return_value_strcmp_2 == 0)
       return oui_table[(signed long int)i].vendor;
 
     i = i + 1;
@@ -22068,20 +22068,20 @@ void * start_sniffer(void *args)
     sighandler(0);
   }
 
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(datos->pcap_filter == ((char *)NULL))
-    tmp_if_expr$1 = "arp";
+    tmp_if_expr_1 = "arp";
 
   else
-    tmp_if_expr$1 = datos->pcap_filter;
-  filter = tmp_if_expr$1;
-  signed int return_value_pcap_compile$3;
-  return_value_pcap_compile$3=pcap_compile(descr, &fp, filter, 0, (unsigned int)0);
-  if(return_value_pcap_compile$3 == -1)
+    tmp_if_expr_1 = datos->pcap_filter;
+  filter = tmp_if_expr_1;
+  signed int return_value_pcap_compile_3;
+  return_value_pcap_compile_3=pcap_compile(descr, &fp, filter, 0, (unsigned int)0);
+  if(return_value_pcap_compile_3 == -1)
   {
-    char *return_value_pcap_geterr$2;
-    return_value_pcap_geterr$2=pcap_geterr(descr);
-    printf("pcap_compile(): %s\n", return_value_pcap_geterr$2);
+    char *return_value_pcap_geterr_2;
+    return_value_pcap_geterr_2=pcap_geterr(descr);
+    printf("pcap_compile(): %s\n", return_value_pcap_geterr_2);
     sighandler(0);
   }
 
@@ -22103,12 +22103,12 @@ void unique_add_registry(struct data_registry *registry)
 {
   signed int i = 0;
   struct data_registry *new_data;
-  signed int return_value_memcmp$2;
+  signed int return_value_memcmp_2;
   if(first_unique == ((struct data_registry *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct data_registry) /*56ul*/ );
-    new_data = (struct data_registry *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct data_registry) /*56ul*/ );
+    new_data = (struct data_registry *)return_value_malloc_1;
     *new_data = *registry;
     unique_count.hosts = unique_count.hosts + 1u;
     search_mac(new_data);
@@ -22124,12 +22124,12 @@ void unique_add_registry(struct data_registry *registry)
     struct data_registry *tmp_registry = first_unique;
     while(!(tmp_registry == ((struct data_registry *)NULL)) && !(i == 1))
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(tmp_registry->sip, registry->sip);
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(tmp_registry->sip, registry->sip);
+      if(return_value_strcmp_3 == 0)
       {
-        return_value_memcmp$2=memcmp((const void *)tmp_registry->header->smac, (const void *)registry->header->smac, (unsigned long int)6);
-        if(return_value_memcmp$2 == 0)
+        return_value_memcmp_2=memcmp((const void *)tmp_registry->header->smac, (const void *)registry->header->smac, (unsigned long int)6);
+        if(return_value_memcmp_2 == 0)
         {
           tmp_registry->count = tmp_registry->count + 1u;
           tmp_registry->tlength = tmp_registry->tlength + registry->header->length;
@@ -22145,9 +22145,9 @@ void unique_add_registry(struct data_registry *registry)
     }
     if(!(i == 1))
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct data_registry) /*56ul*/ );
-      new_data = (struct data_registry *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct data_registry) /*56ul*/ );
+      new_data = (struct data_registry *)return_value_malloc_4;
       *new_data = *registry;
       unique_count.hosts = unique_count.hosts + 1u;
       search_mac(new_data);
@@ -22220,9 +22220,9 @@ void unique_print_header_sumary(signed int width)
   signed int j;
   sprintf(line, " %i Captured ARP Req/Rep packets, from %i hosts.   Total size: %i", unique_count.pakets, unique_count.hosts, unique_count.length);
   printf("%s", (const void *)line);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  j = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  j = (signed int)return_value_strlen_1;
   for( ; !(j >= width + -1); j = j + 1)
     printf(" ");
   printf("\n");
@@ -22237,18 +22237,18 @@ void unique_print_line()
   sprintf(tline, " ");
   sprintf(tline, "%s ", current_unique->sip);
   strcat(line, tline);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  j = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  j = (signed int)return_value_strlen_1;
   for( ; !(j >= 17); j = j + 1)
     strcat(line, blank);
   sprintf(tline, "%02x:%02x:%02x:%02x:%02x:%02x  ", current_unique->header->smac[(signed long int)0], current_unique->header->smac[(signed long int)1], current_unique->header->smac[(signed long int)2], current_unique->header->smac[(signed long int)3], current_unique->header->smac[(signed long int)4], current_unique->header->smac[(signed long int)5]);
   strcat(line, tline);
   sprintf(tline, "%5d %7d  %s", current_unique->count, current_unique->tlength, current_unique->vendor);
   strcat(line, tline);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  j = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  j = (signed int)return_value_strlen_2;
   for( ; !(j >= (signed int)win_sz.ws_col + -1); j = j + 1)
     strcat(line, blank);
   string_cutter(line, (signed int)win_sz.ws_col - 1);

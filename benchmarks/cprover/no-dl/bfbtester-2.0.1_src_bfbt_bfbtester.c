@@ -1,30 +1,30 @@
-// tag-#anon#ST[*{SYM#tag-_crash_report#}$SYM#tag-_crash_report#$'dle_next'||*{SYM#tag-_crash_report#}$SYM#tag-_crash_report#$'dle_prev'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'dle_access'||U32'dle_reader_count'||U32'dle_writer_count'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'dle_reader_wait'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'dle_writer_wait'|]
+// tag-#anon#ST[*{SYM#tag-_crash_report#}_SYM#tag-_crash_report#_'dle_next'||*{SYM#tag-_crash_report#}_SYM#tag-_crash_report#_'dle_prev'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'dle_access'||U32'dle_reader_count'||U32'dle_writer_count'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'dle_reader_wait'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'dle_writer_wait'|]
 // file ../../src/include/datatypes.h line 39
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-_exec_entry#}$SYM#tag-_exec_entry#$'dle_next'||*{SYM#tag-_exec_entry#}$SYM#tag-_exec_entry#$'dle_prev'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'dle_access'||U32'dle_reader_count'||U32'dle_writer_count'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'dle_reader_wait'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'dle_writer_wait'|]
+// tag-#anon#ST[*{SYM#tag-_exec_entry#}_SYM#tag-_exec_entry#_'dle_next'||*{SYM#tag-_exec_entry#}_SYM#tag-_exec_entry#_'dle_prev'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'dle_access'||U32'dle_reader_count'||U32'dle_writer_count'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'dle_reader_wait'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'dle_writer_wait'|]
 // file ../../src/include/datatypes.h line 61
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{SYM#tag-_test_entry#}$SYM#tag-_test_entry#$'dle_next'||*{SYM#tag-_test_entry#}$SYM#tag-_test_entry#$'dle_prev'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'dle_access'||U32'dle_reader_count'||U32'dle_writer_count'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'dle_reader_wait'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'dle_writer_wait'|]
+// tag-#anon#ST[*{SYM#tag-_test_entry#}_SYM#tag-_test_entry#_'dle_next'||*{SYM#tag-_test_entry#}_SYM#tag-_test_entry#_'dle_prev'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'dle_access'||U32'dle_reader_count'||U32'dle_writer_count'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'dle_reader_wait'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'dle_writer_wait'|]
 // file ../../src/include/datatypes.h line 82
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -199,21 +199,21 @@ extern void _exit(signed int);
 // _xcalloc
 // file ../../src/include/utils.h line 73
 static inline void * _xcalloc(unsigned long int number, unsigned long int size, char *function, signed int line);
-// _xcalloc$link1
+// _xcalloc_link1
 // file ../../src/include/utils.h line 73
-static inline void * _xcalloc$link1(unsigned long int number$link1, unsigned long int size$link1, char *function$link1, signed int line$link1);
-// _xcalloc$link2
+static inline void * _xcalloc_link1(unsigned long int number_link1, unsigned long int size_link1, char *function_link1, signed int line_link1);
+// _xcalloc_link2
 // file ../../src/include/utils.h line 73
-static inline void * _xcalloc$link2(unsigned long int number$link2, unsigned long int size$link2, char *function$link2, signed int line$link2);
+static inline void * _xcalloc_link2(unsigned long int number_link2, unsigned long int size_link2, char *function_link2, signed int line_link2);
 // _xmalloc
 // file ../../src/include/utils.h line 61
 static inline void * _xmalloc(unsigned long int size, char *function, signed int line);
-// _xmalloc$link1
+// _xmalloc_link1
 // file ../../src/include/utils.h line 61
-static inline void * _xmalloc$link1(unsigned long int size$link1, char *function$link1, signed int line$link1);
-// _xmalloc$link2
+static inline void * _xmalloc_link1(unsigned long int size_link1, char *function_link1, signed int line_link1);
+// _xmalloc_link2
 // file ../../src/include/utils.h line 61
-static inline void * _xmalloc$link2(unsigned long int size$link2, char *function$link2, signed int line$link2);
+static inline void * _xmalloc_link2(unsigned long int size_link2, char *function_link2, signed int line_link2);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -357,19 +357,19 @@ extern struct __dirstream * opendir(const char *);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$0 *);
+extern signed int pthread_cond_broadcast(union anonymous_0 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$0 *);
+extern signed int pthread_cond_destroy(union anonymous_0 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_cond_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$0 *);
+extern signed int pthread_cond_signal(union anonymous_0 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$0 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -378,16 +378,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // pthread_testcancel
 // file /usr/include/pthread.h line 520
 extern void pthread_testcancel(void);
@@ -460,12 +460,12 @@ extern char * strtok_r(char *, const char *, char ** restrict );
 // tempfile_request_add
 // file ../../src/include/tempfiles.h line 28
 signed int tempfile_request_add(void (*create)(char *, struct stat *, void *), void (*remove)(char *, struct stat *, void *), void *cbdata);
-// tempfile_request_add::create$object
+// tempfile_request_add::create_object
 //
-void create$object(char *, struct stat *, void *);
-// tempfile_request_add::remove$object
+void create_object(char *, struct stat *, void *);
+// tempfile_request_add::remove_object
 //
-void remove$object(char *, struct stat *, void *);
+void remove_object(char *, struct stat *, void *);
 // tempfile_request_shutdown
 // file tempfiles.c line 249
 static void tempfile_request_shutdown(void);
@@ -528,7 +528,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -558,7 +558,7 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct anonymous __data;
@@ -568,61 +568,61 @@ union anonymous$0
   signed long long int __align;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // dle_next
   struct _crash_report *dle_next;
   // dle_prev
   struct _crash_report *dle_prev;
   // dle_access
-  union anonymous$4 dle_access;
+  union anonymous_4 dle_access;
   // dle_reader_count
   unsigned int dle_reader_count;
   // dle_writer_count
   unsigned int dle_writer_count;
   // dle_reader_wait
-  union anonymous$0 dle_reader_wait;
+  union anonymous_0 dle_reader_wait;
   // dle_writer_wait
-  union anonymous$0 dle_writer_wait;
+  union anonymous_0 dle_writer_wait;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // dle_next
   struct _exec_entry *dle_next;
   // dle_prev
   struct _exec_entry *dle_prev;
   // dle_access
-  union anonymous$4 dle_access;
+  union anonymous_4 dle_access;
   // dle_reader_count
   unsigned int dle_reader_count;
   // dle_writer_count
   unsigned int dle_writer_count;
   // dle_reader_wait
-  union anonymous$0 dle_reader_wait;
+  union anonymous_0 dle_reader_wait;
   // dle_writer_wait
-  union anonymous$0 dle_writer_wait;
+  union anonymous_0 dle_writer_wait;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // dle_next
   struct _test_entry *dle_next;
   // dle_prev
   struct _test_entry *dle_prev;
   // dle_access
-  union anonymous$4 dle_access;
+  union anonymous_4 dle_access;
   // dle_reader_count
   unsigned int dle_reader_count;
   // dle_writer_count
   unsigned int dle_writer_count;
   // dle_reader_wait
-  union anonymous$0 dle_reader_wait;
+  union anonymous_0 dle_reader_wait;
   // dle_writer_wait
-  union anonymous$0 dle_writer_wait;
+  union anonymous_0 dle_writer_wait;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -715,7 +715,7 @@ struct _crash_report
   // didCore
   signed int didCore;
   // link
-  struct anonymous$3 link;
+  struct anonymous_3 link;
 };
 
 struct timespec
@@ -781,7 +781,7 @@ struct _exec_entry
   // testtime
   struct timeval testtime;
   // link
-  struct anonymous$2 link;
+  struct anonymous_2 link;
 };
 
 struct _file_entry
@@ -805,9 +805,9 @@ struct _file_entry
 struct _tempfile_watch_request
 {
   // mutex
-  union anonymous$4 mutex;
+  union anonymous_4 mutex;
   // cond
-  union anonymous$0 cond;
+  union anonymous_0 cond;
   // count
   signed int count;
   // status
@@ -841,13 +841,13 @@ struct _test_entry
   // tm
   struct timeval tm;
   // link
-  struct anonymous$5 link;
+  struct anonymous_5 link;
 };
 
 struct _thread_data
 {
   // mut
-  union anonymous$4 *mut;
+  union anonymous_4 *mut;
   // run_thread
   unsigned long int run_thread;
   // poll_thread
@@ -865,9 +865,9 @@ struct crashreport_slist_head
   // dlh_first
   struct _crash_report *dlh_first;
   // dlh_access
-  union anonymous$4 dlh_access;
+  union anonymous_4 dlh_access;
   // dlh_ops
-  union anonymous$4 dlh_ops;
+  union anonymous_4 dlh_ops;
 };
 
 struct dirent
@@ -889,9 +889,9 @@ struct exec_entry_head
   // dlh_first
   struct _exec_entry *dlh_first;
   // dlh_access
-  union anonymous$4 dlh_access;
+  union anonymous_4 dlh_access;
   // dlh_ops
-  union anonymous$4 dlh_ops;
+  union anonymous_4 dlh_ops;
 };
 
 union pthread_attr_t
@@ -907,9 +907,9 @@ struct test_entry_head
   // dlh_first
   struct _test_entry *dlh_first;
   // dlh_access
-  union anonymous$4 dlh_access;
+  union anonymous_4 dlh_access;
   // dlh_ops
-  union anonymous$4 dlh_ops;
+  union anonymous_4 dlh_ops;
 };
 
 struct timezone
@@ -982,9 +982,9 @@ static struct _file_entry *tail = (struct _file_entry *)(void *)0;
 // file tempfiles.c line 199
 static void AddOrUpdate(struct dirent *entry, struct timeval tm)
 {
-  signed int return_value_isNew$1;
-  return_value_isNew$1=isNew(entry);
-  if(!(return_value_isNew$1 == 0))
+  signed int return_value_isNew_1;
+  return_value_isNew_1=isNew(entry);
+  if(!(return_value_isNew_1 == 0))
     addFile(entry, tm);
 
   else
@@ -998,20 +998,20 @@ struct _crash_report * CrashReport_add(struct _test_entry *test_entry)
   struct _crash_report *new;
   /* assertion test_entry != ((void *)0) */
   assert(test_entry != (struct _test_entry *)(void *)0);
-  void *return_value__xmalloc$1;
-  return_value__xmalloc$1=_xmalloc$link1(sizeof(struct _crash_report) /*192ul*/ , "CrashReport_add", 260);
-  new = (struct _crash_report *)return_value__xmalloc$1;
+  void *return_value__xmalloc_1;
+  return_value__xmalloc_1=_xmalloc_link1(sizeof(struct _crash_report) /*192ul*/ , "CrashReport_add", 260);
+  new = (struct _crash_report *)return_value__xmalloc_1;
   CrashReport_init(new, test_entry);
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    pthread_mutex_init(&new->link.dle_access, (const union anonymous$1 *)(void *)0);
+    pthread_mutex_init(&new->link.dle_access, (const union anonymous_1 *)(void *)0);
     new->link.dle_reader_count = (unsigned int)0;
     new->link.dle_writer_count = (unsigned int)0;
-    pthread_cond_init(&new->link.dle_reader_wait, (const union anonymous$1 *)(void *)0);
-    pthread_cond_init(&new->link.dle_writer_wait, (const union anonymous$1 *)(void *)0);
+    pthread_cond_init(&new->link.dle_reader_wait, (const union anonymous_1 *)(void *)0);
+    pthread_cond_init(&new->link.dle_writer_wait, (const union anonymous_1 *)(void *)0);
     pthread_mutex_lock(&(&CrashReport_Head)->dlh_ops);
     pthread_mutex_lock(&(&CrashReport_Head)->dlh_access);
     do
@@ -1088,30 +1088,30 @@ static void CrashReport_destroy(struct _crash_report *report)
 static void CrashReport_init(struct _crash_report *report, struct _test_entry *test_entry)
 {
   report->progname=strdup(test_entry->progname);
-  char *tmp_if_expr$2;
-  char *return_value_strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value_strdup_1;
   if(!(test_entry->args_str == ((char *)NULL)))
   {
-    return_value_strdup$1=strdup(test_entry->args_str);
-    tmp_if_expr$2 = return_value_strdup$1;
+    return_value_strdup_1=strdup(test_entry->args_str);
+    tmp_if_expr_2 = return_value_strdup_1;
   }
 
   else
-    tmp_if_expr$2 = (char *)(void *)0;
-  report->args_str = tmp_if_expr$2;
-  char *tmp_if_expr$4;
-  char *return_value_strdup$3;
+    tmp_if_expr_2 = (char *)(void *)0;
+  report->args_str = tmp_if_expr_2;
+  char *tmp_if_expr_4;
+  char *return_value_strdup_3;
   if(!(test_entry->env_str == ((char *)NULL)))
   {
-    return_value_strdup$3=strdup(test_entry->env_str);
-    tmp_if_expr$4 = return_value_strdup$3;
+    return_value_strdup_3=strdup(test_entry->env_str);
+    tmp_if_expr_4 = return_value_strdup_3;
   }
 
   else
-    tmp_if_expr$4 = (char *)(void *)0;
-  report->env_str = tmp_if_expr$4;
+    tmp_if_expr_4 = (char *)(void *)0;
+  report->env_str = tmp_if_expr_4;
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$6
+union anonymous_6
 {
   // __in
   signed int __in;
@@ -1121,29 +1121,29 @@ union anonymous$6
 
 /* */
   ;
-  report->signal = (signed int)(((union anonymous$6){ .__in=test_entry->status }).__i & 0x7f);
-  report->didCore = (signed int)(((union anonymous$6){ .__in=test_entry->status }).__i & 0x80);
+  report->signal = (signed int)(((union anonymous_6){ .__in=test_entry->status }).__i & 0x7f);
+  report->didCore = (signed int)(((union anonymous_6){ .__in=test_entry->status }).__i & 0x80);
 }
 
 // CrashReport_log
 // file data_stuff.c line 275
 void CrashReport_log(struct _crash_report *report)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(report->args_str == ((char *)NULL)))
-    tmp_if_expr$1 = report->args_str;
+    tmp_if_expr_1 = report->args_str;
 
   else
-    tmp_if_expr$1 = "";
-  char *tmp_if_expr$2;
+    tmp_if_expr_1 = "";
+  char *tmp_if_expr_2;
   if(!(report->env_str == ((char *)NULL)))
-    tmp_if_expr$2 = report->env_str;
+    tmp_if_expr_2 = report->env_str;
 
   else
-    tmp_if_expr$2 = "";
-  char *return_value_strsignal$3;
-  return_value_strsignal$3=strsignal(report->signal);
-  __bfbt_message((enum _msg_type)MSG_TYPE_MESSAGE, "CrashReport_log", 287, "*** Crash <%s> ***\nargs:\t\t%s\nenvs:\t\t%s\nSignal:\t\t%d ( %s )\nCore?\t\t%s\n", report->progname, tmp_if_expr$1, tmp_if_expr$2, report->signal, return_value_strsignal$3, report->didCore != 0 ? "Yes" : "No");
+    tmp_if_expr_2 = "";
+  char *return_value_strsignal_3;
+  return_value_strsignal_3=strsignal(report->signal);
+  __bfbt_message((enum _msg_type)MSG_TYPE_MESSAGE, "CrashReport_log", 287, "*** Crash <%s> ***\nargs:\t\t%s\nenvs:\t\t%s\nSignal:\t\t%d ( %s )\nCore?\t\t%s\n", report->progname, tmp_if_expr_1, tmp_if_expr_2, report->signal, return_value_strsignal_3, report->didCore != 0 ? "Yes" : "No");
 }
 
 // CrashReport_subtract
@@ -1230,20 +1230,20 @@ struct _exec_entry * ExecEntry_add(char *name, struct stat *sb, enum _exec_entry
   struct _exec_entry *new;
   /* assertion name != ((void *)0) && sb != ((void *)0) */
   assert(name != (char *)(void *)0 && sb != (struct stat *)(void *)0);
-  void *return_value__xmalloc$1;
-  return_value__xmalloc$1=_xmalloc$link1(sizeof(struct _exec_entry) /*336ul*/ , "ExecEntry_add", 96);
-  new = (struct _exec_entry *)return_value__xmalloc$1;
+  void *return_value__xmalloc_1;
+  return_value__xmalloc_1=_xmalloc_link1(sizeof(struct _exec_entry) /*336ul*/ , "ExecEntry_add", 96);
+  new = (struct _exec_entry *)return_value__xmalloc_1;
   ExecEntry_init(new, sb, name, status, test_flags);
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    pthread_mutex_init(&new->link.dle_access, (const union anonymous$1 *)(void *)0);
+    pthread_mutex_init(&new->link.dle_access, (const union anonymous_1 *)(void *)0);
     new->link.dle_reader_count = (unsigned int)0;
     new->link.dle_writer_count = (unsigned int)0;
-    pthread_cond_init(&new->link.dle_reader_wait, (const union anonymous$1 *)(void *)0);
-    pthread_cond_init(&new->link.dle_writer_wait, (const union anonymous$1 *)(void *)0);
+    pthread_cond_init(&new->link.dle_reader_wait, (const union anonymous_1 *)(void *)0);
+    pthread_cond_init(&new->link.dle_writer_wait, (const union anonymous_1 *)(void *)0);
     pthread_mutex_lock(&(&ExecEntry_Head)->dlh_ops);
     pthread_mutex_lock(&(&ExecEntry_Head)->dlh_access);
     do
@@ -1317,11 +1317,11 @@ struct _exec_entry * ExecEntry_findbyname(char *name)
 {
   struct _exec_entry *entry = (struct _exec_entry *)(void *)0;
   entry=ExecEntry_getnext(&entry);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   while(!(entry == ((struct _exec_entry *)NULL)))
   {
-    return_value_strcmp$1=strcmp(entry->fullname, name);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(entry->fullname, name);
+    if(return_value_strcmp_1 == 0)
       break;
 
     entry=ExecEntry_getnext(&entry);
@@ -1524,9 +1524,9 @@ void ExecEntry_subtract(struct _exec_entry *entry)
 struct _test_entry * TestEntry_create(struct _exec_entry *parent, char **args, char **env)
 {
   struct _test_entry *new;
-  void *return_value__xmalloc$1;
-  return_value__xmalloc$1=_xmalloc$link1(sizeof(struct _test_entry) /*232ul*/ , "TestEntry_create", 192);
-  new = (struct _test_entry *)return_value__xmalloc$1;
+  void *return_value__xmalloc_1;
+  return_value__xmalloc_1=_xmalloc_link1(sizeof(struct _test_entry) /*232ul*/ , "TestEntry_create", 192);
+  new = (struct _test_entry *)return_value__xmalloc_1;
   TestEntry_init(new, parent, args, env);
   return new;
 }
@@ -1663,24 +1663,24 @@ static inline void TestEntry_init(struct _test_entry *entry, struct _exec_entry 
 // file data_stuff.c line 199
 void TestEntry_insert(struct _test_entry *entry)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(entry == ((struct _test_entry *)NULL)))
-    tmp_if_expr$1 = entry->pid != -1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = entry->pid != -1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion entry != ((void *)0) && entry->pid != -1 */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   do
   {
 
   __CPROVER_DUMP_L3:
     ;
-    pthread_mutex_init(&entry->link.dle_access, (const union anonymous$1 *)(void *)0);
+    pthread_mutex_init(&entry->link.dle_access, (const union anonymous_1 *)(void *)0);
     entry->link.dle_reader_count = (unsigned int)0;
     entry->link.dle_writer_count = (unsigned int)0;
-    pthread_cond_init(&entry->link.dle_reader_wait, (const union anonymous$1 *)(void *)0);
-    pthread_cond_init(&entry->link.dle_writer_wait, (const union anonymous$1 *)(void *)0);
+    pthread_cond_init(&entry->link.dle_reader_wait, (const union anonymous_1 *)(void *)0);
+    pthread_cond_init(&entry->link.dle_writer_wait, (const union anonymous_1 *)(void *)0);
     pthread_mutex_lock(&(&TestEntry_Head)->dlh_ops);
     pthread_mutex_lock(&(&TestEntry_Head)->dlh_access);
     do
@@ -1739,14 +1739,14 @@ void TestEntry_insert(struct _test_entry *entry)
 // file data_stuff.c line 206
 void TestEntry_remove(struct _test_entry *entry)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(entry == ((struct _test_entry *)NULL)))
-    tmp_if_expr$1 = entry->pid != -1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = entry->pid != -1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion entry != ((void *)0) && entry->pid != -1 */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   do
   {
     pthread_mutex_lock(&(&TestEntry_Head)->dlh_ops);
@@ -1822,8 +1822,8 @@ void TestEntry_remove(struct _test_entry *entry)
 void __bfbt_message(enum _msg_type type, char *function, signed int line, char *fmt, ...)
 {
   void **args;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!((signed int)type == MSG_TYPE_DEBUG_L1) || debug_level >= 1)
   {
     if(!((signed int)type == MSG_TYPE_DEBUG_L2) || debug_level >= 2)
@@ -1835,9 +1835,9 @@ void __bfbt_message(enum _msg_type type, char *function, signed int line, char *
       vfprintf(fp_msg, fmt, args);
       if((signed int)type == MSG_TYPE_ERRNO_ABORT || (signed int)type == MSG_TYPE_ERRNO_WARN)
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(fp_msg, ": %s", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(fp_msg, ": %s", return_value_strerror_2);
       }
 
       fprintf(fp_msg, "\n");
@@ -1863,28 +1863,28 @@ static inline void * _xcalloc(unsigned long int number, unsigned long int size, 
   return temp;
 }
 
-// _xcalloc$link1
+// _xcalloc_link1
 // file ../../src/include/utils.h line 73
-static inline void * _xcalloc$link1(unsigned long int number$link1, unsigned long int size$link1, char *function$link1, signed int line$link1)
+static inline void * _xcalloc_link1(unsigned long int number_link1, unsigned long int size_link1, char *function_link1, signed int line_link1)
 {
-  void *temp$link1;
-  temp$link1=calloc(number$link1, size$link1);
-  if(temp$link1 == NULL)
-    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xcalloc", 79, "Calloc failed at [%s:%d]", function$link1, line$link1);
+  void *temp_link1;
+  temp_link1=calloc(number_link1, size_link1);
+  if(temp_link1 == NULL)
+    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xcalloc", 79, "Calloc failed at [%s:%d]", function_link1, line_link1);
 
-  return temp$link1;
+  return temp_link1;
 }
 
-// _xcalloc$link2
+// _xcalloc_link2
 // file ../../src/include/utils.h line 73
-static inline void * _xcalloc$link2(unsigned long int number$link2, unsigned long int size$link2, char *function$link2, signed int line$link2)
+static inline void * _xcalloc_link2(unsigned long int number_link2, unsigned long int size_link2, char *function_link2, signed int line_link2)
 {
-  void *temp$link2;
-  temp$link2=calloc(number$link2, size$link2);
-  if(temp$link2 == NULL)
-    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xcalloc", 79, "Calloc failed at [%s:%d]", function$link2, line$link2);
+  void *temp_link2;
+  temp_link2=calloc(number_link2, size_link2);
+  if(temp_link2 == NULL)
+    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xcalloc", 79, "Calloc failed at [%s:%d]", function_link2, line_link2);
 
-  return temp$link2;
+  return temp_link2;
 }
 
 // _xmalloc
@@ -1899,28 +1899,28 @@ static inline void * _xmalloc(unsigned long int size, char *function, signed int
   return temp;
 }
 
-// _xmalloc$link1
+// _xmalloc_link1
 // file ../../src/include/utils.h line 61
-static inline void * _xmalloc$link1(unsigned long int size$link1, char *function$link1, signed int line$link1)
+static inline void * _xmalloc_link1(unsigned long int size_link1, char *function_link1, signed int line_link1)
 {
-  void *temp$link1;
-  temp$link1=malloc(size$link1);
-  if(temp$link1 == NULL)
-    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xmalloc", 67, "Malloc failed at [%s:%d]", function$link1, line$link1);
+  void *temp_link1;
+  temp_link1=malloc(size_link1);
+  if(temp_link1 == NULL)
+    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xmalloc", 67, "Malloc failed at [%s:%d]", function_link1, line_link1);
 
-  return temp$link1;
+  return temp_link1;
 }
 
-// _xmalloc$link2
+// _xmalloc_link2
 // file ../../src/include/utils.h line 61
-static inline void * _xmalloc$link2(unsigned long int size$link2, char *function$link2, signed int line$link2)
+static inline void * _xmalloc_link2(unsigned long int size_link2, char *function_link2, signed int line_link2)
 {
-  void *temp$link2;
-  temp$link2=malloc(size$link2);
-  if(temp$link2 == NULL)
-    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xmalloc", 67, "Malloc failed at [%s:%d]", function$link2, line$link2);
+  void *temp_link2;
+  temp_link2=malloc(size_link2);
+  if(temp_link2 == NULL)
+    __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "_xmalloc", 67, "Malloc failed at [%s:%d]", function_link2, line_link2);
 
-  return temp$link2;
+  return temp_link2;
 }
 
 // addFile
@@ -1928,9 +1928,9 @@ static inline void * _xmalloc$link2(unsigned long int size$link2, char *function
 static void addFile(struct dirent *entry, struct timeval tm)
 {
   struct _file_entry *new;
-  void *return_value__xmalloc$1;
-  return_value__xmalloc$1=_xmalloc$link2(sizeof(struct _file_entry) /*192ul*/ , "addFile", 112);
-  new = (struct _file_entry *)return_value__xmalloc$1;
+  void *return_value__xmalloc_1;
+  return_value__xmalloc_1=_xmalloc_link2(sizeof(struct _file_entry) /*192ul*/ , "addFile", 112);
+  new = (struct _file_entry *)return_value__xmalloc_1;
   new->filename=strdup(entry->d_name);
   new->tm = tm;
   new->fileno = (unsigned int)entry->d_ino;
@@ -1978,20 +1978,20 @@ static void addFile(struct dirent *entry, struct timeval tm)
 static void add_exec(char *filename, enum _exec_entry_status status, signed int flags, char *rejects)
 {
   struct stat sb;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  unsigned long int return_value_strlen$8;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_strlen$9;
-  _Bool tmp_if_expr$12;
-  unsigned long int return_value_strlen$11;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  unsigned long int return_value_strlen_8;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_strlen_9;
+  _Bool tmp_if_expr_12;
+  unsigned long int return_value_strlen_11;
   if(!(rejects == ((char *)NULL)))
   {
     char *ptr;
@@ -2000,35 +2000,35 @@ static void add_exec(char *filename, enum _exec_entry_status status, signed int 
     if(!(ptr == ((char *)NULL)))
     {
       if(ptr == rejects)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)*(ptr - (signed long int)1) == 32 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = (signed int)*(ptr - (signed long int)1) == 32 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)*(ptr - (signed long int)1) == 44 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)*(ptr - (signed long int)1) == 44 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        return_value_strlen$1=strlen(filename);
-        if((signed int)ptr[(signed long int)return_value_strlen$1] == 0)
-          tmp_if_expr$3 = (_Bool)1;
+        return_value_strlen_1=strlen(filename);
+        if((signed int)ptr[(signed long int)return_value_strlen_1] == 0)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_strlen$2=strlen(filename);
-          tmp_if_expr$3 = (signed int)ptr[(signed long int)return_value_strlen$2] == 32 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_2=strlen(filename);
+          tmp_if_expr_3 = (signed int)ptr[(signed long int)return_value_strlen_2] == 32 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
-          tmp_if_expr$5 = (_Bool)1;
+        if(tmp_if_expr_3)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_strlen$4=strlen(filename);
-          tmp_if_expr$5 = (signed int)ptr[(signed long int)return_value_strlen$4] == 44 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_4=strlen(filename);
+          tmp_if_expr_5 = (signed int)ptr[(signed long int)return_value_strlen_4] == 44 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           goto __CPROVER_DUMP_L21;
 
       }
@@ -2043,35 +2043,35 @@ static void add_exec(char *filename, enum _exec_entry_status status, signed int 
       if(!(ptr == ((char *)NULL)))
       {
         if(ptr == rejects)
-          tmp_if_expr$13 = (_Bool)1;
+          tmp_if_expr_13 = (_Bool)1;
 
         else
-          tmp_if_expr$13 = (signed int)*(ptr - (signed long int)1) == 32 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$13)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_13 = (signed int)*(ptr - (signed long int)1) == 32 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_13)
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = (signed int)*(ptr - (signed long int)1) == 44 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (signed int)*(ptr - (signed long int)1) == 44 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
         {
-          return_value_strlen$8=strlen(ptr2);
-          if((signed int)ptr[(signed long int)return_value_strlen$8] == 0)
-            tmp_if_expr$10 = (_Bool)1;
+          return_value_strlen_8=strlen(ptr2);
+          if((signed int)ptr[(signed long int)return_value_strlen_8] == 0)
+            tmp_if_expr_10 = (_Bool)1;
 
           else
           {
-            return_value_strlen$9=strlen(ptr2);
-            tmp_if_expr$10 = (signed int)ptr[(signed long int)return_value_strlen$9] == 32 ? (_Bool)1 : (_Bool)0;
+            return_value_strlen_9=strlen(ptr2);
+            tmp_if_expr_10 = (signed int)ptr[(signed long int)return_value_strlen_9] == 32 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$10)
-            tmp_if_expr$12 = (_Bool)1;
+          if(tmp_if_expr_10)
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
-            return_value_strlen$11=strlen(ptr2);
-            tmp_if_expr$12 = (signed int)ptr[(signed long int)return_value_strlen$11] == 44 ? (_Bool)1 : (_Bool)0;
+            return_value_strlen_11=strlen(ptr2);
+            tmp_if_expr_12 = (signed int)ptr[(signed long int)return_value_strlen_11] == 44 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$12)
+          if(tmp_if_expr_12)
             goto __CPROVER_DUMP_L21;
 
         }
@@ -2082,15 +2082,15 @@ static void add_exec(char *filename, enum _exec_entry_status status, signed int 
 
   }
 
-  signed int return_value_stat$16;
-  return_value_stat$16=stat(filename, &sb);
-  signed int return_value_access$15;
-  if(return_value_stat$16 == 0)
+  signed int return_value_stat_16;
+  return_value_stat_16=stat(filename, &sb);
+  signed int return_value_access_15;
+  if(return_value_stat_16 == 0)
   {
     if((61440u & sb.st_mode) == 32768u)
     {
-      return_value_access$15=access(filename, 0 | 1);
-      if(return_value_access$15 == 0)
+      return_value_access_15=access(filename, 0 | 1);
+      if(return_value_access_15 == 0)
         ExecEntry_add(filename, &sb, status, flags);
 
     }
@@ -2109,9 +2109,9 @@ char * args_to_str(char **args)
   char *str;
   char **temp;
   signed int i;
-  unsigned long int return_value_strlen$1;
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
   if(args[1l] == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -2121,31 +2121,31 @@ char * args_to_str(char **args)
     temp = args + (signed long int)1;
     for( ; !(*temp == ((char *)NULL)); temp = temp + 1l)
     {
-      return_value_strlen$1=strlen(*temp);
-      if(return_value_strlen$1 >= 101ul)
-        tmp_if_expr$3 = sizeof(char [8l]) /*8ul*/  - (unsigned long int)1;
+      return_value_strlen_1=strlen(*temp);
+      if(return_value_strlen_1 >= 101ul)
+        tmp_if_expr_3 = sizeof(char [8l]) /*8ul*/  - (unsigned long int)1;
 
       else
       {
-        return_value_strlen$2=strlen(*temp);
-        tmp_if_expr$3 = return_value_strlen$2;
+        return_value_strlen_2=strlen(*temp);
+        tmp_if_expr_3 = return_value_strlen_2;
       }
-      i = i + (signed int)(tmp_if_expr$3 + (unsigned long int)1);
+      i = i + (signed int)(tmp_if_expr_3 + (unsigned long int)1);
     }
-    void *return_value__xcalloc$4;
-    return_value__xcalloc$4=_xcalloc$link2((unsigned long int)1, (unsigned long int)i, "args_to_str", 115);
-    str = (char *)return_value__xcalloc$4;
+    void *return_value__xcalloc_4;
+    return_value__xcalloc_4=_xcalloc_link2((unsigned long int)1, (unsigned long int)i, "args_to_str", 115);
+    str = (char *)return_value__xcalloc_4;
     temp = args + (signed long int)1;
     for( ; !(*temp == ((char *)NULL)); temp = temp + 1l)
     {
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(*temp);
-      if(return_value_strlen$6 >= 101ul)
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(*temp);
+      if(return_value_strlen_6 >= 101ul)
       {
         char long_str[8l];
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(*temp);
-        snprintf(long_str, (sizeof(char [8l]) /*8ul*/  - (unsigned long int)1) + (unsigned long int)1, "[%5.5d]", (signed int)return_value_strlen$5);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(*temp);
+        snprintf(long_str, (sizeof(char [8l]) /*8ul*/  - (unsigned long int)1) + (unsigned long int)1, "[%5.5d]", (signed int)return_value_strlen_5);
         strcat(str, long_str);
       }
 
@@ -2178,11 +2178,11 @@ static void breaker_execute_command(struct _exec_entry *exec_entry, char **args,
     exec_poll();
 
   i = 10000;
-  signed int return_value_execute_program$1;
+  signed int return_value_execute_program_1;
   do
   {
-    return_value_execute_program$1=execute_program(exec_entry, args, env);
-    if(return_value_execute_program$1 == 0)
+    return_value_execute_program_1=execute_program(exec_entry, args, env);
+    if(return_value_execute_program_1 == 0)
       break;
 
     usleep((unsigned int)i);
@@ -2242,9 +2242,9 @@ static void breaker_runtests(struct _exec_entry *entry)
 // file ../../src/include/breaker.h line 27
 void breaker_start(void)
 {
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&q->run_thread, (const union pthread_attr_t *)(void *)0, breaker_run, (void *)0);
-  if(!(return_value_pthread_create$1 == 0))
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&q->run_thread, (const union pthread_attr_t *)(void *)0, breaker_run, (void *)0);
+  if(!(return_value_pthread_create_1 == 0))
     __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "breaker_start", 263, "Can't create run thread");
 
 }
@@ -2277,20 +2277,20 @@ static void breaker_test_env(struct _exec_entry *entry)
   signed int env_len;
   signed int long_arg_len = 10 * 1024 + 1;
   __bfbt_message((enum _msg_type)MSG_TYPE_MESSAGE, "breaker_test_env", 138, "   * Environment variable testing");
-  void *return_value__xcalloc$1;
-  return_value__xcalloc$1=_xcalloc$link1((unsigned long int)1, (unsigned long int)long_arg_len, "breaker_test_env", 139);
-  long_arg = (char *)return_value__xcalloc$1;
-  void *return_value__xcalloc$2;
-  return_value__xcalloc$2=_xcalloc$link1((unsigned long int)1, (unsigned long int)long_arg_len, "breaker_test_env", 140);
-  long_arg2 = (char *)return_value__xcalloc$2;
+  void *return_value__xcalloc_1;
+  return_value__xcalloc_1=_xcalloc_link1((unsigned long int)1, (unsigned long int)long_arg_len, "breaker_test_env", 139);
+  long_arg = (char *)return_value__xcalloc_1;
+  void *return_value__xcalloc_2;
+  return_value__xcalloc_2=_xcalloc_link1((unsigned long int)1, (unsigned long int)long_arg_len, "breaker_test_env", 140);
+  long_arg2 = (char *)return_value__xcalloc_2;
   memset((void *)long_arg2, 65, (unsigned long int)(long_arg_len - 1));
   envs_arr[(signed long int)0] = long_arg;
   i = 0;
   for( ; !((unsigned long int)i >= 252ul); i = i + 1)
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(envs[(signed long int)i]);
-    env_len = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(envs[(signed long int)i]);
+    env_len = (signed int)return_value_strlen_3;
     if(!(1 + env_len >= -1 + long_arg_len))
     {
       strcpy(long_arg, envs[(signed long int)i]);
@@ -2318,9 +2318,9 @@ static void breaker_test_multiplearg(struct _exec_entry *entry)
   signed int arg_len = 10 * 1024 + 1;
   args[(signed long int)0] = entry->fullname;
   __bfbt_message((enum _msg_type)MSG_TYPE_MESSAGE, "breaker_test_multiplearg", 99, "   * Multiple arguments testing");
-  void *return_value__xcalloc$1;
-  return_value__xcalloc$1=_xcalloc$link1((unsigned long int)1, (unsigned long int)arg_len, "breaker_test_multiplearg", 100);
-  long_arg = (char *)return_value__xcalloc$1;
+  void *return_value__xcalloc_1;
+  return_value__xcalloc_1=_xcalloc_link1((unsigned long int)1, (unsigned long int)arg_len, "breaker_test_multiplearg", 100);
+  long_arg = (char *)return_value__xcalloc_1;
   memset((void *)long_arg, 65, (unsigned long int)(arg_len - 1));
   args[(signed long int)2] = long_arg;
   args[(signed long int)3] = long_arg;
@@ -2378,9 +2378,9 @@ static void breaker_test_singlearg(struct _exec_entry *entry)
   signed int long_arg_len = 50 * 1024 + 1;
   signed int short_arg_len = 5 * 1024 + 1;
   __bfbt_message((enum _msg_type)MSG_TYPE_MESSAGE, "breaker_test_singlearg", 66, "   * Single argument testing");
-  void *return_value__xcalloc$1;
-  return_value__xcalloc$1=_xcalloc$link1((unsigned long int)1, (unsigned long int)short_arg_len, "breaker_test_singlearg", 67);
-  long_arg = (char *)return_value__xcalloc$1;
+  void *return_value__xcalloc_1;
+  return_value__xcalloc_1=_xcalloc_link1((unsigned long int)1, (unsigned long int)short_arg_len, "breaker_test_singlearg", 67);
+  long_arg = (char *)return_value__xcalloc_1;
   memset((void *)long_arg, 65, (unsigned long int)(short_arg_len - 1));
   args[(signed long int)2] = long_arg;
   i = 0;
@@ -2390,9 +2390,9 @@ static void breaker_test_singlearg(struct _exec_entry *entry)
     breaker_execute_command(entry, args, (char **)(void *)0);
   }
   free((void *)long_arg);
-  void *return_value__xcalloc$2;
-  return_value__xcalloc$2=_xcalloc$link1((unsigned long int)1, (unsigned long int)long_arg_len, "breaker_test_singlearg", 75);
-  long_arg = (char *)return_value__xcalloc$2;
+  void *return_value__xcalloc_2;
+  return_value__xcalloc_2=_xcalloc_link1((unsigned long int)1, (unsigned long int)long_arg_len, "breaker_test_singlearg", 75);
+  long_arg = (char *)return_value__xcalloc_2;
   memset((void *)long_arg, 65, (unsigned long int)(long_arg_len - 1));
   args[(signed long int)2] = long_arg;
   i = 0;
@@ -2440,9 +2440,9 @@ char ** env_create(char **env)
   temp = environ;
   for( ; !(*temp == ((char *)NULL)); i = i + 1)
     temp = temp + 1l;
-  void *return_value__xcalloc$1;
-  return_value__xcalloc$1=_xcalloc$link2((unsigned long int)1, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ , "env_create", 188);
-  temp2 = (char **)return_value__xcalloc$1;
+  void *return_value__xcalloc_1;
+  return_value__xcalloc_1=_xcalloc_link2((unsigned long int)1, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ , "env_create", 188);
+  temp2 = (char **)return_value__xcalloc_1;
   j = 0;
   temp = env;
   for( ; !(*temp == ((char *)NULL)); temp = temp + 1l)
@@ -2451,11 +2451,11 @@ char ** env_create(char **env)
     j = j + 1;
   }
   temp = environ;
-  signed int return_value_env_not_used$2;
+  signed int return_value_env_not_used_2;
   for( ; !(*temp == ((char *)NULL)); temp = temp + 1l)
   {
-    return_value_env_not_used$2=env_not_used(env, *temp);
-    if(!(return_value_env_not_used$2 == 0))
+    return_value_env_not_used_2=env_not_used(env, *temp);
+    if(!(return_value_env_not_used_2 == 0))
     {
       temp2[(signed long int)j] = *temp;
       j = j + 1;
@@ -2470,15 +2470,15 @@ char ** env_create(char **env)
 static inline signed int env_not_used(char **env, char *str)
 {
   signed int len;
-  unsigned long int return_value_strcspn$1;
-  return_value_strcspn$1=strcspn(str, "=");
-  len = (signed int)return_value_strcspn$1;
+  unsigned long int return_value_strcspn_1;
+  return_value_strcspn_1=strcspn(str, "=");
+  len = (signed int)return_value_strcspn_1;
   char **temp = env;
-  signed int return_value_strncmp$2;
+  signed int return_value_strncmp_2;
   for( ; !(*temp == ((char *)NULL)); temp = temp + 1l)
   {
-    return_value_strncmp$2=strncmp(*temp, str, (unsigned long int)len);
-    if(return_value_strncmp$2 == 0)
+    return_value_strncmp_2=strncmp(*temp, str, (unsigned long int)len);
+    if(return_value_strncmp_2 == 0)
       return (signed int)(1 == 0);
 
   }
@@ -2493,44 +2493,44 @@ char * env_to_str(char **env)
   char *str;
   signed int i = 0;
   temp = env;
-  unsigned long int return_value_strlen$1;
-  unsigned long int tmp_if_expr$4;
-  unsigned long int return_value_strcspn$2;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_1;
+  unsigned long int tmp_if_expr_4;
+  unsigned long int return_value_strcspn_2;
+  unsigned long int return_value_strlen_3;
   for( ; !(*temp == ((char *)NULL)); temp = temp + 1l)
   {
-    return_value_strlen$1=strlen(*temp);
-    if(return_value_strlen$1 >= 101ul)
+    return_value_strlen_1=strlen(*temp);
+    if(return_value_strlen_1 >= 101ul)
     {
-      return_value_strcspn$2=strcspn(*temp, "=");
-      tmp_if_expr$4 = return_value_strcspn$2 + (unsigned long int)1 + (sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
+      return_value_strcspn_2=strcspn(*temp, "=");
+      tmp_if_expr_4 = return_value_strcspn_2 + (unsigned long int)1 + (sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
     }
 
     else
     {
-      return_value_strlen$3=strlen(*temp);
-      tmp_if_expr$4 = return_value_strlen$3;
+      return_value_strlen_3=strlen(*temp);
+      tmp_if_expr_4 = return_value_strlen_3;
     }
-    i = i + (signed int)(tmp_if_expr$4 + (unsigned long int)1);
+    i = i + (signed int)(tmp_if_expr_4 + (unsigned long int)1);
   }
-  void *return_value__xcalloc$5;
-  return_value__xcalloc$5=_xcalloc$link2((unsigned long int)1, (unsigned long int)i, "env_to_str", 143);
-  str = (char *)return_value__xcalloc$5;
+  void *return_value__xcalloc_5;
+  return_value__xcalloc_5=_xcalloc_link2((unsigned long int)1, (unsigned long int)i, "env_to_str", 143);
+  str = (char *)return_value__xcalloc_5;
   temp = env;
   for( ; !(*temp == ((char *)NULL)); temp = temp + 1l)
   {
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(*temp);
-    if(return_value_strlen$8 >= 101ul)
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(*temp);
+    if(return_value_strlen_8 >= 101ul)
     {
       char long_env[8l];
-      unsigned long int return_value_strcspn$6;
-      return_value_strcspn$6=strcspn(*temp, "=");
-      i = (signed int)return_value_strcspn$6;
+      unsigned long int return_value_strcspn_6;
+      return_value_strcspn_6=strcspn(*temp, "=");
+      i = (signed int)return_value_strcspn_6;
       strncat(str, *temp, (unsigned long int)(i + 1));
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(*temp + (signed long int)i + (signed long int)1);
-      snprintf(long_env, (sizeof(char [8l]) /*8ul*/  - (unsigned long int)1) + (unsigned long int)1, "[%5.5d]", (signed int)return_value_strlen$7);
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(*temp + (signed long int)i + (signed long int)1);
+      snprintf(long_env, (sizeof(char [8l]) /*8ul*/  - (unsigned long int)1) + (unsigned long int)1, "[%5.5d]", (signed int)return_value_strlen_7);
       strcat(str, long_env);
     }
 
@@ -2548,9 +2548,9 @@ char * env_to_str(char **env)
 static enum _exec_status exec_GetStatus(struct _test_entry *entry)
 {
   struct timeval tm;
-  signed int return_value_waitpid$1;
-  return_value_waitpid$1=waitpid(entry->pid, &entry->status, 1);
-  if(return_value_waitpid$1 >= 1)
+  signed int return_value_waitpid_1;
+  return_value_waitpid_1=waitpid(entry->pid, &entry->status, 1);
+  if(return_value_waitpid_1 >= 1)
     return (enum _exec_status)EXEC_STATUS_DONE;
 
   else
@@ -2559,9 +2559,9 @@ static enum _exec_status exec_GetStatus(struct _test_entry *entry)
     if(tm.tv_sec + -entry->tm.tv_sec >= 6l)
     {
       exec_kill(entry->pid);
-      signed int return_value_waitpid$2;
-      return_value_waitpid$2=waitpid(entry->pid, &entry->status, 1);
-      if(return_value_waitpid$2 >= 1)
+      signed int return_value_waitpid_2;
+      return_value_waitpid_2=waitpid(entry->pid, &entry->status, 1);
+      if(return_value_waitpid_2 >= 1)
         return (enum _exec_status)EXEC_STATUS_DONE;
 
     }
@@ -2593,11 +2593,11 @@ void exec_poll(void)
   struct _test_entry *dead;
   temp = (struct _test_entry *)(void *)0;
   temp=TestEntry_getnext(&temp);
-  enum _exec_status return_value_exec_GetStatus$1;
+  enum _exec_status return_value_exec_GetStatus_1;
   while(!(temp == ((struct _test_entry *)NULL)))
   {
-    return_value_exec_GetStatus$1=exec_GetStatus(temp);
-    switch((signed int)return_value_exec_GetStatus$1)
+    return_value_exec_GetStatus_1=exec_GetStatus(temp);
+    switch((signed int)return_value_exec_GetStatus_1)
     {
       case EXEC_STATUS_NOTDONE:
       {
@@ -2626,13 +2626,13 @@ void exec_poll(void)
 static void exec_process_close(struct _test_entry *entry)
 {
   q->current_execs = q->current_execs - 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((0x7f & entry->status) == 0))
   {
     if((signed int)((127 & (signed char)entry->status) + 1) >> 1 >= 1)
     {
       /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$6
+union anonymous_6
 {
   // __in
   signed int __in;
@@ -2643,11 +2643,11 @@ union anonymous$6
 /* */
       ;
       if((0x7f & entry->status) == 9)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (((union anonymous$6){ .__in=entry->status }).__i & 0x7f) == 13 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (((union anonymous_6){ .__in=entry->status }).__i & 0x7f) == 13 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         goto __CPROVER_DUMP_L5;
 
       struct _crash_report *report;
@@ -2700,9 +2700,9 @@ signed int execute_program(struct _exec_entry *exec_entry, char **args, char **e
         ;
         signed int pgid;
         pgid=getpid();
-        signed int return_value_setpgid$1;
-        return_value_setpgid$1=setpgid(pgid, pgid);
-        if(!(return_value_setpgid$1 == 0))
+        signed int return_value_setpgid_1;
+        return_value_setpgid_1=setpgid(pgid, pgid);
+        if(!(return_value_setpgid_1 == 0))
           __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_WARN, "execute_program", 81, "Couldn't set process group");
 
         close(0);
@@ -2729,14 +2729,14 @@ char * find_exec_in_path(char *name)
   char *path;
   path=getenv("PATH");
   char filename[4096l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(name == ((char *)NULL)))
-    tmp_if_expr$1 = (signed int)name[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)name[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion name != ((void *)0) && name[0] != '\0' */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   if(!(path == ((char *)NULL)))
   {
     buf=strdup(path);
@@ -2746,20 +2746,20 @@ char * find_exec_in_path(char *name)
     str=strtok_r(buf, ":", &last);
     while(!(str == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(str);
-      signed int return_value_snprintf$3;
-      return_value_snprintf$3=snprintf(filename, sizeof(char [4096l]) /*4096ul*/ , "%s%s%s", str, (signed int)str[(signed long int)(return_value_strlen$2 - (unsigned long int)1)] == 47 ? "" : "/", name);
-      if(!((unsigned long int)return_value_snprintf$3 >= sizeof(char [4096l]) /*4096ul*/ ))
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(str);
+      signed int return_value_snprintf_3;
+      return_value_snprintf_3=snprintf(filename, sizeof(char [4096l]) /*4096ul*/ , "%s%s%s", str, (signed int)str[(signed long int)(return_value_strlen_2 - (unsigned long int)1)] == 47 ? "" : "/", name);
+      if(!((unsigned long int)return_value_snprintf_3 >= sizeof(char [4096l]) /*4096ul*/ ))
       {
-        signed int return_value_access$5;
-        return_value_access$5=access(filename, 0 | 1);
-        if(return_value_access$5 == 0)
+        signed int return_value_access_5;
+        return_value_access_5=access(filename, 0 | 1);
+        if(return_value_access_5 == 0)
         {
           free((void *)buf);
-          char *return_value_strdup$4;
-          return_value_strdup$4=strdup(filename);
-          return return_value_strdup$4;
+          char *return_value_strdup_4;
+          return_value_strdup_4=strdup(filename);
+          return return_value_strdup_4;
         }
 
       }
@@ -2781,13 +2781,13 @@ static signed int isNew(struct dirent *entry)
     if((unsigned long int)entries->fileno >= entry->d_ino)
       break;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(entries == ((struct _file_entry *)NULL)))
-    tmp_if_expr$1 = (unsigned long int)entries->fileno == entry->d_ino ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (unsigned long int)entries->fileno == entry->d_ino ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return (signed int)(1 == 0);
 
   else
@@ -2802,19 +2802,19 @@ static void load_execs(char **av, enum _exec_entry_status status, signed int fla
   char *filename;
   char *pwd;
   pwd=getenv("PWD");
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  void *return_value__xmalloc$3;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_sprintf$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_access$8;
-  _Bool tmp_if_expr$13;
-  signed int return_value_stat$12;
-  _Bool tmp_if_expr$15;
-  signed int return_value_access$14;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  void *return_value__xmalloc_3;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_sprintf_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_access_8;
+  _Bool tmp_if_expr_13;
+  signed int return_value_stat_12;
+  _Bool tmp_if_expr_15;
+  signed int return_value_access_14;
   for( ; !(*av == ((char *)NULL)); av = av + 1l)
   {
     if((signed int)*(*av) == 47)
@@ -2824,53 +2824,53 @@ static void load_execs(char **av, enum _exec_entry_status status, signed int fla
     {
       if(!(pwd == ((char *)NULL)))
       {
-        return_value_strlen$1=strlen(pwd);
-        return_value_strlen$2=strlen(*av);
-        return_value__xmalloc$3=_xmalloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)2, "load_execs", 243);
-        filename = (char *)return_value__xmalloc$3;
-        tmp_if_expr$4 = filename != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_1=strlen(pwd);
+        return_value_strlen_2=strlen(*av);
+        return_value__xmalloc_3=_xmalloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)2, "load_execs", 243);
+        filename = (char *)return_value__xmalloc_3;
+        tmp_if_expr_4 = filename != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        return_value_strlen$5=strlen(pwd);
-        return_value_sprintf$6=sprintf(filename, "%s%s%s", pwd, (signed int)pwd[(signed long int)(return_value_strlen$5 - (unsigned long int)1)] == 47 ? "" : "/", *av);
-        tmp_if_expr$7 = return_value_sprintf$6 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_5=strlen(pwd);
+        return_value_sprintf_6=sprintf(filename, "%s%s%s", pwd, (signed int)pwd[(signed long int)(return_value_strlen_5 - (unsigned long int)1)] == 47 ? "" : "/", *av);
+        tmp_if_expr_7 = return_value_sprintf_6 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        return_value_access$8=access(filename, 0 | 1);
-        tmp_if_expr$9 = return_value_access$8 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_access_8=access(filename, 0 | 1);
+        tmp_if_expr_9 = return_value_access_8 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(!tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(!tmp_if_expr_9)
         filename=find_exec_in_path(*av);
 
     }
     if(!(filename == ((char *)NULL)))
     {
-      return_value_stat$12=stat(filename, &sb);
-      tmp_if_expr$13 = return_value_stat$12 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_stat_12=stat(filename, &sb);
+      tmp_if_expr_13 = return_value_stat_12 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$13 = (_Bool)0;
-    if(tmp_if_expr$13)
+      tmp_if_expr_13 = (_Bool)0;
+    if(tmp_if_expr_13)
     {
-      return_value_access$14=access(filename, 0 | 1);
-      tmp_if_expr$15 = return_value_access$14 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_access_14=access(filename, 0 | 1);
+      tmp_if_expr_15 = return_value_access_14 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$15 = (_Bool)0;
-    if(tmp_if_expr$15)
+      tmp_if_expr_15 = (_Bool)0;
+    if(tmp_if_expr_15)
     {
       if((61440u & sb.st_mode) == 16384u)
       {
@@ -2890,11 +2890,11 @@ static void load_execs(char **av, enum _exec_entry_status status, signed int fla
         ret=readdir_r(dir, &entry, &result);
         while(ret == 0 && !(result == ((struct dirent *)NULL)))
         {
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(filename);
-          signed int return_value_snprintf$11;
-          return_value_snprintf$11=snprintf(fname, sizeof(char [4096l]) /*4096ul*/ , "%s%s%s", filename, (signed int)filename[(signed long int)(return_value_strlen$10 - (unsigned long int)1)] == 47 ? "" : "/", (const void *)result->d_name);
-          if(!((unsigned long int)return_value_snprintf$11 >= sizeof(char [4096l]) /*4096ul*/ ))
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(filename);
+          signed int return_value_snprintf_11;
+          return_value_snprintf_11=snprintf(fname, sizeof(char [4096l]) /*4096ul*/ , "%s%s%s", filename, (signed int)filename[(signed long int)(return_value_strlen_10 - (unsigned long int)1)] == 47 ? "" : "/", (const void *)result->d_name);
+          if(!((unsigned long int)return_value_snprintf_11 >= sizeof(char [4096l]) /*4096ul*/ ))
             add_exec(fname, status, flags, rejects);
 
           ret=readdir_r(dir, &entry, &result);
@@ -3015,25 +3015,25 @@ signed int main(signed int ac, char **av)
   if(fp_msg == ((struct _IO_FILE *)NULL))
     fp_msg = stdout;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(flags == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *av == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = *av == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     usage(progname);
 
-  void *return_value__xcalloc$2;
-  return_value__xcalloc$2=_xcalloc((unsigned long int)1, sizeof(struct _thread_data) /*40ul*/ , "main", 128);
-  q = (struct _thread_data *)return_value__xcalloc$2;
+  void *return_value__xcalloc_2;
+  return_value__xcalloc_2=_xcalloc((unsigned long int)1, sizeof(struct _thread_data) /*40ul*/ , "main", 128);
+  q = (struct _thread_data *)return_value__xcalloc_2;
   q->max_execs = max_execs;
-  void *return_value__xmalloc$3;
-  return_value__xmalloc$3=_xmalloc(sizeof(union anonymous$4) /*40ul*/ , "main", 130);
-  q->mut = (union anonymous$4 *)return_value__xmalloc$3;
-  signed int return_value_pthread_mutex_init$4;
-  return_value_pthread_mutex_init$4=pthread_mutex_init(q->mut, (const union anonymous$1 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$4 == 0))
+  void *return_value__xmalloc_3;
+  return_value__xmalloc_3=_xmalloc(sizeof(union anonymous_4) /*40ul*/ , "main", 130);
+  q->mut = (union anonymous_4 *)return_value__xmalloc_3;
+  signed int return_value_pthread_mutex_init_4;
+  return_value_pthread_mutex_init_4=pthread_mutex_init(q->mut, (const union anonymous_1 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_4 == 0))
     __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "main", 133, "mutex init");
 
   if(!(t_on == 0))
@@ -3048,13 +3048,13 @@ signed int main(signed int ac, char **av)
 // file tempfiles.c line 167
 static void removeFile(struct _file_entry *entry)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(entry->prev == ((struct _file_entry *)NULL)))
-    tmp_if_expr$1 = entry->next != ((struct _file_entry *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = entry->next != ((struct _file_entry *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     entry->prev->next = entry->next;
     entry->next->prev = entry->prev;
@@ -3085,9 +3085,9 @@ static void removeFile(struct _file_entry *entry)
 // file bfbtester.c line 289
 static void run_breaker(void)
 {
-  signed int return_value_ExecEntry_isempty$1;
-  return_value_ExecEntry_isempty$1=ExecEntry_isempty();
-  if(return_value_ExecEntry_isempty$1 == 0)
+  signed int return_value_ExecEntry_isempty_1;
+  return_value_ExecEntry_isempty_1=ExecEntry_isempty();
+  if(return_value_ExecEntry_isempty_1 == 0)
   {
     breaker_start();
     breaker_wait();
@@ -3190,9 +3190,9 @@ static void tempfile_scandir(struct __dirstream *dir)
     temp = head;
     while(!(temp == ((struct _file_entry *)NULL)))
     {
-      signed int return_value_memcmp$1;
-      return_value_memcmp$1=memcmp((const void *)&temp->tm, (const void *)&tm, sizeof(struct timeval) /*16ul*/ );
-      if(!(return_value_memcmp$1 == 0))
+      signed int return_value_memcmp_1;
+      return_value_memcmp_1=memcmp((const void *)&temp->tm, (const void *)&tm, sizeof(struct timeval) /*16ul*/ );
+      if(!(return_value_memcmp_1 == 0))
       {
         dead = temp;
         temp = temp->next;
@@ -3212,9 +3212,9 @@ static void tempfile_scandir(struct __dirstream *dir)
 // file ../../src/include/tempfiles.h line 34
 void tempfile_start(struct _thread_data *data)
 {
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&data->tempfile_thread, (const union pthread_attr_t *)(void *)0, tempfile_watch, (void *)0);
-  if(!(return_value_pthread_create$1 == 0))
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&data->tempfile_thread, (const union pthread_attr_t *)(void *)0, tempfile_watch, (void *)0);
+  if(!(return_value_pthread_create_1 == 0))
     __bfbt_message((enum _msg_type)MSG_TYPE_ERRNO_ABORT, "tempfile_start", 341, "tempfile thread create");
 
 }
@@ -3287,9 +3287,9 @@ static void updateFile(struct dirent *entry, struct timeval tm)
 // file bfbtester.c line 163
 static void usage(char *progname)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(progname);
-  printf("%s [-htv] [-d level ] [-r rejects] [-o out-file]\n%*s [-x max-execs] -asme file [file2 file3 ...]\nMust specify one or more of the following tests:\n    -s\tSingle Argument Test\n    -m\tMultiple Argument Test\n    -e\tEnvironment Variable Test\n    -a\tSelects all tests\nOptions:\n    -h  Print this message\n    -t  Enable tempfile monitoring\n    -v  Print version string\n    -d level     Set debug level (default = 0, max = 2)\n    -r rejects   Comma separated list of binaries to skip\n    -o out-file  Output to out-file rather than stdout\n    -x max-execs Set maximum executables to run in parallel (default = %d)\nfile    Specific binary or a directory of binaries to test\n", progname, (signed int)return_value_strlen$1, (const void *)"", 250);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(progname);
+  printf("%s [-htv] [-d level ] [-r rejects] [-o out-file]\n%*s [-x max-execs] -asme file [file2 file3 ...]\nMust specify one or more of the following tests:\n    -s\tSingle Argument Test\n    -m\tMultiple Argument Test\n    -e\tEnvironment Variable Test\n    -a\tSelects all tests\nOptions:\n    -h  Print this message\n    -t  Enable tempfile monitoring\n    -v  Print version string\n    -d level     Set debug level (default = 0, max = 2)\n    -r rejects   Comma separated list of binaries to skip\n    -o out-file  Output to out-file rather than stdout\n    -x max-execs Set maximum executables to run in parallel (default = %d)\nfile    Specific binary or a directory of binaries to test\n", progname, (signed int)return_value_strlen_1, (const void *)"", 250);
   exit(2);
 }
 

@@ -1,258 +1,258 @@
-// #anon_enum$GDK_ACTION_DEFAULT=1$GDK_ACTION_COPY=2$GDK_ACTION_MOVE=4$GDK_ACTION_LINK=8$GDK_ACTION_PRIVATE=16$GDK_ACTION_ASK=32
+// #anon_enum_GDK_ACTION_DEFAULT=1_GDK_ACTION_COPY=2_GDK_ACTION_MOVE=4_GDK_ACTION_LINK=8_GDK_ACTION_PRIVATE=16_GDK_ACTION_ASK=32
 // file /usr/include/gtk-2.0/gdk/gdkdnd.h line 40
-enum anonymous$26 { GDK_ACTION_DEFAULT=1, GDK_ACTION_COPY=2, GDK_ACTION_MOVE=4, GDK_ACTION_LINK=8, GDK_ACTION_PRIVATE=16, GDK_ACTION_ASK=32 };
+enum anonymous_26 { GDK_ACTION_DEFAULT=1, GDK_ACTION_COPY=2, GDK_ACTION_MOVE=4, GDK_ACTION_LINK=8, GDK_ACTION_PRIVATE=16, GDK_ACTION_ASK=32 };
 
-// #anon_enum$GDK_AXIS_IGNORE=0$GDK_AXIS_X=1$GDK_AXIS_Y=2$GDK_AXIS_PRESSURE=3$GDK_AXIS_XTILT=4$GDK_AXIS_YTILT=5$GDK_AXIS_WHEEL=6$GDK_AXIS_LAST=7
+// #anon_enum_GDK_AXIS_IGNORE=0_GDK_AXIS_X=1_GDK_AXIS_Y=2_GDK_AXIS_PRESSURE=3_GDK_AXIS_XTILT=4_GDK_AXIS_YTILT=5_GDK_AXIS_WHEEL=6_GDK_AXIS_LAST=7
 // file /usr/include/gtk-2.0/gdk/gdkinput.h line 73
-enum anonymous$36 { GDK_AXIS_IGNORE=0, GDK_AXIS_X=1, GDK_AXIS_Y=2, GDK_AXIS_PRESSURE=3, GDK_AXIS_XTILT=4, GDK_AXIS_YTILT=5, GDK_AXIS_WHEEL=6, GDK_AXIS_LAST=7 };
+enum anonymous_36 { GDK_AXIS_IGNORE=0, GDK_AXIS_X=1, GDK_AXIS_Y=2, GDK_AXIS_PRESSURE=3, GDK_AXIS_XTILT=4, GDK_AXIS_YTILT=5, GDK_AXIS_WHEEL=6, GDK_AXIS_LAST=7 };
 
-// #anon_enum$GDK_CROSSING_NORMAL=0$GDK_CROSSING_GRAB=1$GDK_CROSSING_UNGRAB=2$GDK_CROSSING_GTK_GRAB=3$GDK_CROSSING_GTK_UNGRAB=4$GDK_CROSSING_STATE_CHANGED=5
+// #anon_enum_GDK_CROSSING_NORMAL=0_GDK_CROSSING_GRAB=1_GDK_CROSSING_UNGRAB=2_GDK_CROSSING_GTK_GRAB=3_GDK_CROSSING_GTK_UNGRAB=4_GDK_CROSSING_STATE_CHANGED=5
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 225
-enum anonymous$43 { GDK_CROSSING_NORMAL=0, GDK_CROSSING_GRAB=1, GDK_CROSSING_UNGRAB=2, GDK_CROSSING_GTK_GRAB=3, GDK_CROSSING_GTK_UNGRAB=4, GDK_CROSSING_STATE_CHANGED=5 };
+enum anonymous_43 { GDK_CROSSING_NORMAL=0, GDK_CROSSING_GRAB=1, GDK_CROSSING_UNGRAB=2, GDK_CROSSING_GTK_GRAB=3, GDK_CROSSING_GTK_UNGRAB=4, GDK_CROSSING_STATE_CHANGED=5 };
 
-// #anon_enum$GDK_DRAG_PROTO_MOTIF=0$GDK_DRAG_PROTO_XDND=1$GDK_DRAG_PROTO_ROOTWIN=2$GDK_DRAG_PROTO_NONE=3$GDK_DRAG_PROTO_WIN32_DROPFILES=4$GDK_DRAG_PROTO_OLE2=5$GDK_DRAG_PROTO_LOCAL=6
+// #anon_enum_GDK_DRAG_PROTO_MOTIF=0_GDK_DRAG_PROTO_XDND=1_GDK_DRAG_PROTO_ROOTWIN=2_GDK_DRAG_PROTO_NONE=3_GDK_DRAG_PROTO_WIN32_DROPFILES=4_GDK_DRAG_PROTO_OLE2=5_GDK_DRAG_PROTO_LOCAL=6
 // file /usr/include/gtk-2.0/gdk/gdkdnd.h line 50
-enum anonymous$27 { GDK_DRAG_PROTO_MOTIF=0, GDK_DRAG_PROTO_XDND=1, GDK_DRAG_PROTO_ROOTWIN=2, GDK_DRAG_PROTO_NONE=3, GDK_DRAG_PROTO_WIN32_DROPFILES=4, GDK_DRAG_PROTO_OLE2=5, GDK_DRAG_PROTO_LOCAL=6 };
+enum anonymous_27 { GDK_DRAG_PROTO_MOTIF=0, GDK_DRAG_PROTO_XDND=1, GDK_DRAG_PROTO_ROOTWIN=2, GDK_DRAG_PROTO_NONE=3, GDK_DRAG_PROTO_WIN32_DROPFILES=4, GDK_DRAG_PROTO_OLE2=5, GDK_DRAG_PROTO_LOCAL=6 };
 
-// #anon_enum$GDK_FONT_FONT=0$GDK_FONT_FONTSET=1
+// #anon_enum_GDK_FONT_FONT=0_GDK_FONT_FONTSET=1
 // file /usr/include/gtk-2.0/gdk/gdkfont.h line 43
-enum anonymous$38 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
+enum anonymous_38 { GDK_FONT_FONT=0, GDK_FONT_FONTSET=1 };
 
-// #anon_enum$GDK_LSB_FIRST=0$GDK_MSB_FIRST=1
+// #anon_enum_GDK_LSB_FIRST=0_GDK_MSB_FIRST=1
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 118
-enum anonymous$32 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
+enum anonymous_32 { GDK_LSB_FIRST=0, GDK_MSB_FIRST=1 };
 
-// #anon_enum$GDK_MODE_DISABLED=0$GDK_MODE_SCREEN=1$GDK_MODE_WINDOW=2
+// #anon_enum_GDK_MODE_DISABLED=0_GDK_MODE_SCREEN=1_GDK_MODE_WINDOW=2
 // file /usr/include/gtk-2.0/gdk/gdkinput.h line 66
-enum anonymous$34 { GDK_MODE_DISABLED=0, GDK_MODE_SCREEN=1, GDK_MODE_WINDOW=2 };
+enum anonymous_34 { GDK_MODE_DISABLED=0, GDK_MODE_SCREEN=1, GDK_MODE_WINDOW=2 };
 
-// #anon_enum$GDK_NOTHING=-1$GDK_DELETE=0$GDK_DESTROY=1$GDK_EXPOSE=2$GDK_MOTION_NOTIFY=3$GDK_BUTTON_PRESS=4$GDK_2BUTTON_PRESS=5$GDK_3BUTTON_PRESS=6$GDK_BUTTON_RELEASE=7$GDK_KEY_PRESS=8$GDK_KEY_RELEASE=9$GDK_ENTER_NOTIFY=10$GDK_LEAVE_NOTIFY=11$GDK_FOCUS_CHANGE=12$GDK_CONFIGURE=13$GDK_MAP=14$GDK_UNMAP=15$GDK_PROPERTY_NOTIFY=16$GDK_SELECTION_CLEAR=17$GDK_SELECTION_REQUEST=18$GDK_SELECTION_NOTIFY=19$GDK_PROXIMITY_IN=20$GDK_PROXIMITY_OUT=21$GDK_DRAG_ENTER=22$GDK_DRAG_LEAVE=23$GDK_DRAG_MOTION=24$GDK_DRAG_STATUS=25$GDK_DROP_START=26$GDK_DROP_FINISHED=27$GDK_CLIENT_EVENT=28$GDK_VISIBILITY_NOTIFY=29$GDK_NO_EXPOSE=30$GDK_SCROLL=31$GDK_WINDOW_STATE=32$GDK_SETTING=33$GDK_OWNER_CHANGE=34$GDK_GRAB_BROKEN=35$GDK_DAMAGE=36$GDK_EVENT_LAST=37
+// #anon_enum_GDK_NOTHING=-1_GDK_DELETE=0_GDK_DESTROY=1_GDK_EXPOSE=2_GDK_MOTION_NOTIFY=3_GDK_BUTTON_PRESS=4_GDK_2BUTTON_PRESS=5_GDK_3BUTTON_PRESS=6_GDK_BUTTON_RELEASE=7_GDK_KEY_PRESS=8_GDK_KEY_RELEASE=9_GDK_ENTER_NOTIFY=10_GDK_LEAVE_NOTIFY=11_GDK_FOCUS_CHANGE=12_GDK_CONFIGURE=13_GDK_MAP=14_GDK_UNMAP=15_GDK_PROPERTY_NOTIFY=16_GDK_SELECTION_CLEAR=17_GDK_SELECTION_REQUEST=18_GDK_SELECTION_NOTIFY=19_GDK_PROXIMITY_IN=20_GDK_PROXIMITY_OUT=21_GDK_DRAG_ENTER=22_GDK_DRAG_LEAVE=23_GDK_DRAG_MOTION=24_GDK_DRAG_STATUS=25_GDK_DROP_START=26_GDK_DROP_FINISHED=27_GDK_CLIENT_EVENT=28_GDK_VISIBILITY_NOTIFY=29_GDK_NO_EXPOSE=30_GDK_SCROLL=31_GDK_WINDOW_STATE=32_GDK_SETTING=33_GDK_OWNER_CHANGE=34_GDK_GRAB_BROKEN=35_GDK_DAMAGE=36_GDK_EVENT_LAST=37
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 115
-enum anonymous$4 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
+enum anonymous_4 { GDK_NOTHING=-1, GDK_DELETE=0, GDK_DESTROY=1, GDK_EXPOSE=2, GDK_MOTION_NOTIFY=3, GDK_BUTTON_PRESS=4, GDK_2BUTTON_PRESS=5, GDK_3BUTTON_PRESS=6, GDK_BUTTON_RELEASE=7, GDK_KEY_PRESS=8, GDK_KEY_RELEASE=9, GDK_ENTER_NOTIFY=10, GDK_LEAVE_NOTIFY=11, GDK_FOCUS_CHANGE=12, GDK_CONFIGURE=13, GDK_MAP=14, GDK_UNMAP=15, GDK_PROPERTY_NOTIFY=16, GDK_SELECTION_CLEAR=17, GDK_SELECTION_REQUEST=18, GDK_SELECTION_NOTIFY=19, GDK_PROXIMITY_IN=20, GDK_PROXIMITY_OUT=21, GDK_DRAG_ENTER=22, GDK_DRAG_LEAVE=23, GDK_DRAG_MOTION=24, GDK_DRAG_STATUS=25, GDK_DROP_START=26, GDK_DROP_FINISHED=27, GDK_CLIENT_EVENT=28, GDK_VISIBILITY_NOTIFY=29, GDK_NO_EXPOSE=30, GDK_SCROLL=31, GDK_WINDOW_STATE=32, GDK_SETTING=33, GDK_OWNER_CHANGE=34, GDK_GRAB_BROKEN=35, GDK_DAMAGE=36, GDK_EVENT_LAST=37 };
 
-// #anon_enum$GDK_NOTIFY_ANCESTOR=0$GDK_NOTIFY_VIRTUAL=1$GDK_NOTIFY_INFERIOR=2$GDK_NOTIFY_NONLINEAR=3$GDK_NOTIFY_NONLINEAR_VIRTUAL=4$GDK_NOTIFY_UNKNOWN=5
+// #anon_enum_GDK_NOTIFY_ANCESTOR=0_GDK_NOTIFY_VIRTUAL=1_GDK_NOTIFY_INFERIOR=2_GDK_NOTIFY_NONLINEAR=3_GDK_NOTIFY_NONLINEAR_VIRTUAL=4_GDK_NOTIFY_UNKNOWN=5
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 210
-enum anonymous$44 { GDK_NOTIFY_ANCESTOR=0, GDK_NOTIFY_VIRTUAL=1, GDK_NOTIFY_INFERIOR=2, GDK_NOTIFY_NONLINEAR=3, GDK_NOTIFY_NONLINEAR_VIRTUAL=4, GDK_NOTIFY_UNKNOWN=5 };
+enum anonymous_44 { GDK_NOTIFY_ANCESTOR=0, GDK_NOTIFY_VIRTUAL=1, GDK_NOTIFY_INFERIOR=2, GDK_NOTIFY_NONLINEAR=3, GDK_NOTIFY_NONLINEAR_VIRTUAL=4, GDK_NOTIFY_UNKNOWN=5 };
 
-// #anon_enum$GDK_OWNER_CHANGE_NEW_OWNER=0$GDK_OWNER_CHANGE_DESTROY=1$GDK_OWNER_CHANGE_CLOSE=2
+// #anon_enum_GDK_OWNER_CHANGE_NEW_OWNER=0_GDK_OWNER_CHANGE_DESTROY=1_GDK_OWNER_CHANGE_CLOSE=2
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 259
-enum anonymous$45 { GDK_OWNER_CHANGE_NEW_OWNER=0, GDK_OWNER_CHANGE_DESTROY=1, GDK_OWNER_CHANGE_CLOSE=2 };
+enum anonymous_45 { GDK_OWNER_CHANGE_NEW_OWNER=0, GDK_OWNER_CHANGE_DESTROY=1, GDK_OWNER_CHANGE_CLOSE=2 };
 
-// #anon_enum$GDK_RGB_DITHER_NONE=0$GDK_RGB_DITHER_NORMAL=1$GDK_RGB_DITHER_MAX=2
+// #anon_enum_GDK_RGB_DITHER_NONE=0_GDK_RGB_DITHER_NORMAL=1_GDK_RGB_DITHER_MAX=2
 // file /usr/include/gtk-2.0/gdk/gdkrgb.h line 40
-enum anonymous$48 { GDK_RGB_DITHER_NONE=0, GDK_RGB_DITHER_NORMAL=1, GDK_RGB_DITHER_MAX=2 };
+enum anonymous_48 { GDK_RGB_DITHER_NONE=0, GDK_RGB_DITHER_NORMAL=1, GDK_RGB_DITHER_MAX=2 };
 
-// #anon_enum$GDK_SCROLL_UP=0$GDK_SCROLL_DOWN=1$GDK_SCROLL_LEFT=2$GDK_SCROLL_RIGHT=3
+// #anon_enum_GDK_SCROLL_UP=0_GDK_SCROLL_DOWN=1_GDK_SCROLL_LEFT=2_GDK_SCROLL_RIGHT=3
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 194
-enum anonymous$40 { GDK_SCROLL_UP=0, GDK_SCROLL_DOWN=1, GDK_SCROLL_LEFT=2, GDK_SCROLL_RIGHT=3 };
+enum anonymous_40 { GDK_SCROLL_UP=0, GDK_SCROLL_DOWN=1, GDK_SCROLL_LEFT=2, GDK_SCROLL_RIGHT=3 };
 
-// #anon_enum$GDK_SETTING_ACTION_NEW=0$GDK_SETTING_ACTION_CHANGED=1$GDK_SETTING_ACTION_DELETED=2
+// #anon_enum_GDK_SETTING_ACTION_NEW=0_GDK_SETTING_ACTION_CHANGED=1_GDK_SETTING_ACTION_DELETED=2
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 252
-enum anonymous$54 { GDK_SETTING_ACTION_NEW=0, GDK_SETTING_ACTION_CHANGED=1, GDK_SETTING_ACTION_DELETED=2 };
+enum anonymous_54 { GDK_SETTING_ACTION_NEW=0, GDK_SETTING_ACTION_CHANGED=1, GDK_SETTING_ACTION_DELETED=2 };
 
-// #anon_enum$GDK_SHIFT_MASK=1$GDK_LOCK_MASK=2$GDK_CONTROL_MASK=4$GDK_MOD1_MASK=8$GDK_MOD2_MASK=16$GDK_MOD3_MASK=32$GDK_MOD4_MASK=64$GDK_MOD5_MASK=128$GDK_BUTTON1_MASK=256$GDK_BUTTON2_MASK=512$GDK_BUTTON3_MASK=1024$GDK_BUTTON4_MASK=2048$GDK_BUTTON5_MASK=4096$GDK_SUPER_MASK=67108864$GDK_HYPER_MASK=134217728$GDK_META_MASK=268435456$GDK_RELEASE_MASK=1073741824$GDK_MODIFIER_MASK=1543512063
+// #anon_enum_GDK_SHIFT_MASK=1_GDK_LOCK_MASK=2_GDK_CONTROL_MASK=4_GDK_MOD1_MASK=8_GDK_MOD2_MASK=16_GDK_MOD3_MASK=32_GDK_MOD4_MASK=64_GDK_MOD5_MASK=128_GDK_BUTTON1_MASK=256_GDK_BUTTON2_MASK=512_GDK_BUTTON3_MASK=1024_GDK_BUTTON4_MASK=2048_GDK_BUTTON5_MASK=4096_GDK_SUPER_MASK=67108864_GDK_HYPER_MASK=134217728_GDK_META_MASK=268435456_GDK_RELEASE_MASK=1073741824_GDK_MODIFIER_MASK=1543512063
 // file /usr/include/gtk-2.0/gdk/gdktypes.h line 126
-enum anonymous$1 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
+enum anonymous_1 { GDK_SHIFT_MASK=1, GDK_LOCK_MASK=2, GDK_CONTROL_MASK=4, GDK_MOD1_MASK=8, GDK_MOD2_MASK=16, GDK_MOD3_MASK=32, GDK_MOD4_MASK=64, GDK_MOD5_MASK=128, GDK_BUTTON1_MASK=256, GDK_BUTTON2_MASK=512, GDK_BUTTON3_MASK=1024, GDK_BUTTON4_MASK=2048, GDK_BUTTON5_MASK=4096, GDK_SUPER_MASK=67108864, GDK_HYPER_MASK=134217728, GDK_META_MASK=268435456, GDK_RELEASE_MASK=1073741824, GDK_MODIFIER_MASK=1543512063 };
 
-// #anon_enum$GDK_SOURCE_MOUSE=0$GDK_SOURCE_PEN=1$GDK_SOURCE_ERASER=2$GDK_SOURCE_CURSOR=3
+// #anon_enum_GDK_SOURCE_MOUSE=0_GDK_SOURCE_PEN=1_GDK_SOURCE_ERASER=2_GDK_SOURCE_CURSOR=3
 // file /usr/include/gtk-2.0/gdk/gdkinput.h line 58
-enum anonymous$33 { GDK_SOURCE_MOUSE=0, GDK_SOURCE_PEN=1, GDK_SOURCE_ERASER=2, GDK_SOURCE_CURSOR=3 };
+enum anonymous_33 { GDK_SOURCE_MOUSE=0, GDK_SOURCE_PEN=1, GDK_SOURCE_ERASER=2, GDK_SOURCE_CURSOR=3 };
 
-// #anon_enum$GDK_VISIBILITY_UNOBSCURED=0$GDK_VISIBILITY_PARTIAL=1$GDK_VISIBILITY_FULLY_OBSCURED=2
+// #anon_enum_GDK_VISIBILITY_UNOBSCURED=0_GDK_VISIBILITY_PARTIAL=1_GDK_VISIBILITY_FULLY_OBSCURED=2
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 187
-enum anonymous$37 { GDK_VISIBILITY_UNOBSCURED=0, GDK_VISIBILITY_PARTIAL=1, GDK_VISIBILITY_FULLY_OBSCURED=2 };
+enum anonymous_37 { GDK_VISIBILITY_UNOBSCURED=0, GDK_VISIBILITY_PARTIAL=1, GDK_VISIBILITY_FULLY_OBSCURED=2 };
 
-// #anon_enum$GDK_VISUAL_STATIC_GRAY=0$GDK_VISUAL_GRAYSCALE=1$GDK_VISUAL_STATIC_COLOR=2$GDK_VISUAL_PSEUDO_COLOR=3$GDK_VISUAL_TRUE_COLOR=4$GDK_VISUAL_DIRECT_COLOR=5
+// #anon_enum_GDK_VISUAL_STATIC_GRAY=0_GDK_VISUAL_GRAYSCALE=1_GDK_VISUAL_STATIC_COLOR=2_GDK_VISUAL_PSEUDO_COLOR=3_GDK_VISUAL_TRUE_COLOR=4_GDK_VISUAL_DIRECT_COLOR=5
 // file /usr/include/gtk-2.0/gdk/gdkvisual.h line 55
-enum anonymous$31 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
+enum anonymous_31 { GDK_VISUAL_STATIC_GRAY=0, GDK_VISUAL_GRAYSCALE=1, GDK_VISUAL_STATIC_COLOR=2, GDK_VISUAL_PSEUDO_COLOR=3, GDK_VISUAL_TRUE_COLOR=4, GDK_VISUAL_DIRECT_COLOR=5 };
 
-// #anon_enum$GDK_WINDOW_STATE_WITHDRAWN=1$GDK_WINDOW_STATE_ICONIFIED=2$GDK_WINDOW_STATE_MAXIMIZED=4$GDK_WINDOW_STATE_STICKY=8$GDK_WINDOW_STATE_FULLSCREEN=16$GDK_WINDOW_STATE_ABOVE=32$GDK_WINDOW_STATE_BELOW=64
+// #anon_enum_GDK_WINDOW_STATE_WITHDRAWN=1_GDK_WINDOW_STATE_ICONIFIED=2_GDK_WINDOW_STATE_MAXIMIZED=4_GDK_WINDOW_STATE_STICKY=8_GDK_WINDOW_STATE_FULLSCREEN=16_GDK_WINDOW_STATE_ABOVE=32_GDK_WINDOW_STATE_BELOW=64
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 241
-enum anonymous$53 { GDK_WINDOW_STATE_WITHDRAWN=1, GDK_WINDOW_STATE_ICONIFIED=2, GDK_WINDOW_STATE_MAXIMIZED=4, GDK_WINDOW_STATE_STICKY=8, GDK_WINDOW_STATE_FULLSCREEN=16, GDK_WINDOW_STATE_ABOVE=32, GDK_WINDOW_STATE_BELOW=64 };
+enum anonymous_53 { GDK_WINDOW_STATE_WITHDRAWN=1, GDK_WINDOW_STATE_ICONIFIED=2, GDK_WINDOW_STATE_MAXIMIZED=4, GDK_WINDOW_STATE_STICKY=8, GDK_WINDOW_STATE_FULLSCREEN=16, GDK_WINDOW_STATE_ABOVE=32, GDK_WINDOW_STATE_BELOW=64 };
 
-// #anon_enum$GTK_RC_FG=1$GTK_RC_BG=2$GTK_RC_TEXT=4$GTK_RC_BASE=8
+// #anon_enum_GTK_RC_FG=1_GTK_RC_BG=2_GTK_RC_TEXT=4_GTK_RC_BASE=8
 // file /usr/include/gtk-2.0/gtk/gtkrc.h line 52
-enum anonymous$17 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
+enum anonymous_17 { GTK_RC_FG=1, GTK_RC_BG=2, GTK_RC_TEXT=4, GTK_RC_BASE=8 };
 
-// #anon_enum$GTK_WINDOW_TOPLEVEL=0$GTK_WINDOW_POPUP=1
+// #anon_enum_GTK_WINDOW_TOPLEVEL=0_GTK_WINDOW_POPUP=1
 // file /usr/include/gtk-2.0/gtk/gtkenums.h line 460
-enum anonymous$56 { GTK_WINDOW_TOPLEVEL=0, GTK_WINDOW_POPUP=1 };
+enum anonymous_56 { GTK_WINDOW_TOPLEVEL=0, GTK_WINDOW_POPUP=1 };
 
-// #anon_enum$G_CONNECT_AFTER=1$G_CONNECT_SWAPPED=2
+// #anon_enum_G_CONNECT_AFTER=1_G_CONNECT_SWAPPED=2
 // file /usr/include/glib-2.0/gobject/gsignal.h line 155
-enum anonymous$42 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
+enum anonymous_42 { G_CONNECT_AFTER=1, G_CONNECT_SWAPPED=2 };
 
-// #anon_enum$G_IO_FLAG_APPEND=1$G_IO_FLAG_NONBLOCK=2$G_IO_FLAG_IS_READABLE=4$G_IO_FLAG_IS_WRITABLE=8$G_IO_FLAG_IS_WRITEABLE=8$G_IO_FLAG_IS_SEEKABLE=16$G_IO_FLAG_MASK=31$G_IO_FLAG_GET_MASK=31$G_IO_FLAG_SET_MASK=3
+// #anon_enum_G_IO_FLAG_APPEND=1_G_IO_FLAG_NONBLOCK=2_G_IO_FLAG_IS_READABLE=4_G_IO_FLAG_IS_WRITABLE=8_G_IO_FLAG_IS_WRITEABLE=8_G_IO_FLAG_IS_SEEKABLE=16_G_IO_FLAG_MASK=31_G_IO_FLAG_GET_MASK=31_G_IO_FLAG_SET_MASK=3
 // file /usr/include/glib-2.0/glib/giochannel.h line 84
-enum anonymous$63 { G_IO_FLAG_APPEND=1, G_IO_FLAG_NONBLOCK=2, G_IO_FLAG_IS_READABLE=4, G_IO_FLAG_IS_WRITABLE=8, G_IO_FLAG_IS_WRITEABLE=8, G_IO_FLAG_IS_SEEKABLE=16, G_IO_FLAG_MASK=31, G_IO_FLAG_GET_MASK=31, G_IO_FLAG_SET_MASK=3 };
+enum anonymous_63 { G_IO_FLAG_APPEND=1, G_IO_FLAG_NONBLOCK=2, G_IO_FLAG_IS_READABLE=4, G_IO_FLAG_IS_WRITABLE=8, G_IO_FLAG_IS_WRITEABLE=8, G_IO_FLAG_IS_SEEKABLE=16, G_IO_FLAG_MASK=31, G_IO_FLAG_GET_MASK=31, G_IO_FLAG_SET_MASK=3 };
 
-// #anon_enum$G_IO_IN=1$G_IO_OUT=4$G_IO_PRI=2$G_IO_ERR=8$G_IO_HUP=16$G_IO_NVAL=32
+// #anon_enum_G_IO_IN=1_G_IO_OUT=4_G_IO_PRI=2_G_IO_ERR=8_G_IO_HUP=16_G_IO_NVAL=32
 // file /usr/include/glib-2.0/glib/gmain.h line 31
-enum anonymous$62 { G_IO_IN=1, G_IO_OUT=4, G_IO_PRI=2, G_IO_ERR=8, G_IO_HUP=16, G_IO_NVAL=32 };
+enum anonymous_62 { G_IO_IN=1, G_IO_OUT=4, G_IO_PRI=2, G_IO_ERR=8, G_IO_HUP=16, G_IO_NVAL=32 };
 
-// #anon_enum$G_IO_STATUS_ERROR=0$G_IO_STATUS_NORMAL=1$G_IO_STATUS_EOF=2$G_IO_STATUS_AGAIN=3
+// #anon_enum_G_IO_STATUS_ERROR=0_G_IO_STATUS_NORMAL=1_G_IO_STATUS_EOF=2_G_IO_STATUS_AGAIN=3
 // file /usr/include/glib-2.0/glib/giochannel.h line 69
-enum anonymous$60 { G_IO_STATUS_ERROR=0, G_IO_STATUS_NORMAL=1, G_IO_STATUS_EOF=2, G_IO_STATUS_AGAIN=3 };
+enum anonymous_60 { G_IO_STATUS_ERROR=0, G_IO_STATUS_NORMAL=1, G_IO_STATUS_EOF=2, G_IO_STATUS_AGAIN=3 };
 
-// #anon_enum$G_SEEK_CUR=0$G_SEEK_SET=1$G_SEEK_END=2
+// #anon_enum_G_SEEK_CUR=0_G_SEEK_SET=1_G_SEEK_END=2
 // file /usr/include/glib-2.0/glib/giochannel.h line 77
-enum anonymous$61 { G_SEEK_CUR=0, G_SEEK_SET=1, G_SEEK_END=2 };
+enum anonymous_61 { G_SEEK_CUR=0, G_SEEK_SET=1, G_SEEK_END=2 };
 
-// #anon_enum$IE_OK=0$IE_SYSERROR=1$IE_NOSTREAM=2$IE_UNKNOWNTYPE=3$IE_HDRFORMAT=4$IE_IMGFORMAT=5
+// #anon_enum_IE_OK=0_IE_SYSERROR=1_IE_NOSTREAM=2_IE_UNKNOWNTYPE=3_IE_HDRFORMAT=4_IE_IMGFORMAT=5
 // file img.h line 50
-enum anonymous$59 { IE_OK=0, IE_SYSERROR=1, IE_NOSTREAM=2, IE_UNKNOWNTYPE=3, IE_HDRFORMAT=4, IE_IMGFORMAT=5 };
+enum anonymous_59 { IE_OK=0, IE_SYSERROR=1, IE_NOSTREAM=2, IE_UNKNOWNTYPE=3, IE_HDRFORMAT=4, IE_IMGFORMAT=5 };
 
-// #anon_enum$JCS_UNKNOWN=0$JCS_GRAYSCALE=1$JCS_RGB=2$JCS_YCbCr=3$JCS_CMYK=4$JCS_YCCK=5$JCS_EXT_RGB=6$JCS_EXT_RGBX=7$JCS_EXT_BGR=8$JCS_EXT_BGRX=9$JCS_EXT_XBGR=10$JCS_EXT_XRGB=11$JCS_EXT_RGBA=12$JCS_EXT_BGRA=13$JCS_EXT_ABGR=14$JCS_EXT_ARGB=15$JCS_RGB565=16
+// #anon_enum_JCS_UNKNOWN=0_JCS_GRAYSCALE=1_JCS_RGB=2_JCS_YCbCr=3_JCS_CMYK=4_JCS_YCCK=5_JCS_EXT_RGB=6_JCS_EXT_RGBX=7_JCS_EXT_BGR=8_JCS_EXT_BGRX=9_JCS_EXT_XBGR=10_JCS_EXT_XRGB=11_JCS_EXT_RGBA=12_JCS_EXT_BGRA=13_JCS_EXT_ABGR=14_JCS_EXT_ARGB=15_JCS_RGB565=16
 // file /usr/include/jpeglib.h line 215
-enum anonymous$18 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
+enum anonymous_18 { JCS_UNKNOWN=0, JCS_GRAYSCALE=1, JCS_RGB=2, JCS_YCbCr=3, JCS_CMYK=4, JCS_YCCK=5, JCS_EXT_RGB=6, JCS_EXT_RGBX=7, JCS_EXT_BGR=8, JCS_EXT_BGRX=9, JCS_EXT_XBGR=10, JCS_EXT_XRGB=11, JCS_EXT_RGBA=12, JCS_EXT_BGRA=13, JCS_EXT_ABGR=14, JCS_EXT_ARGB=15, JCS_RGB565=16 };
 
-// #anon_enum$JDCT_ISLOW=0$JDCT_IFAST=1$JDCT_FLOAT=2
+// #anon_enum_JDCT_ISLOW=0_JDCT_IFAST=1_JDCT_FLOAT=2
 // file /usr/include/jpeglib.h line 244
-enum anonymous$19 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
+enum anonymous_19 { JDCT_ISLOW=0, JDCT_IFAST=1, JDCT_FLOAT=2 };
 
-// #anon_enum$JDITHER_NONE=0$JDITHER_ORDERED=1$JDITHER_FS=2
+// #anon_enum_JDITHER_NONE=0_JDITHER_ORDERED=1_JDITHER_FS=2
 // file /usr/include/jpeglib.h line 259
-enum anonymous$20 { JDITHER_NONE=0, JDITHER_ORDERED=1, JDITHER_FS=2 };
+enum anonymous_20 { JDITHER_NONE=0, JDITHER_ORDERED=1, JDITHER_FS=2 };
 
-// #anon_enum$LOG_ERROR=0$LOG_WARNING=1$LOG_INFO=2
+// #anon_enum_LOG_ERROR=0_LOG_WARNING=1_LOG_INFO=2
 // file log.h line 17
-enum anonymous$25 { LOG_ERROR=0, LOG_WARNING=1, LOG_INFO=2 };
+enum anonymous_25 { LOG_ERROR=0, LOG_WARNING=1, LOG_INFO=2 };
 
-// #anon_enum$TMPDIR_APP_OWNED=0$TMPDIR_USER_OWNED=1
+// #anon_enum_TMPDIR_APP_OWNED=0_TMPDIR_USER_OWNED=1
 // file tmpdir.h line 20
-enum anonymous$51 { TMPDIR_APP_OWNED=0, TMPDIR_USER_OWNED=1 };
+enum anonymous_51 { TMPDIR_APP_OWNED=0, TMPDIR_USER_OWNED=1 };
 
-// #anon_enum$m_chan_stereo=0$m_chan_joint=1$m_chan_dual=2$m_chan_mono=3
+// #anon_enum_m_chan_stereo=0_m_chan_joint=1_m_chan_dual=2_m_chan_mono=3
 // file mpeghdr.h line 38
-enum anonymous$50 { m_chan_stereo=0, m_chan_joint=1, m_chan_dual=2, m_chan_mono=3 };
+enum anonymous_50 { m_chan_stereo=0, m_chan_joint=1, m_chan_dual=2, m_chan_mono=3 };
 
-// #anon_enum$m_layer_unknown=0$m_layer_1=1$m_layer_2=2$m_layer_3=3
+// #anon_enum_m_layer_unknown=0_m_layer_1=1_m_layer_2=2_m_layer_3=3
 // file mpeghdr.h line 26
-enum anonymous$47 { m_layer_unknown=0, m_layer_1=1, m_layer_2=2, m_layer_3=3 };
+enum anonymous_47 { m_layer_unknown=0, m_layer_1=1, m_layer_2=2, m_layer_3=3 };
 
-// #anon_enum$m_vers_unknown=0$m_vers_1=1$m_vers_2=2$m_vers_2_5=3
+// #anon_enum_m_vers_unknown=0_m_vers_1=1_m_vers_2=2_m_vers_2_5=3
 // file mpeghdr.h line 25
-enum anonymous$46 { m_vers_unknown=0, m_vers_1=1, m_vers_2=2, m_vers_2_5=3 };
+enum anonymous_46 { m_vers_unknown=0, m_vers_1=1, m_vers_2=2, m_vers_2_5=3 };
 
-// #anon_enum$none=0$header=1$full=2
+// #anon_enum_none=0_header=1_full=2
 // file img.h line 48
-enum anonymous$58 { none=0, header=1, full=2 };
+enum anonymous_58 { none=0, header=1, full=2 };
 
-// #anon_enum$unknown=0$pnm=1$gif=2$jpeg=3$png=4$raw=5
+// #anon_enum_unknown=0_pnm=1_gif=2_jpeg=3_png=4_raw=5
 // file img.h line 47
-enum anonymous$57 { unknown=0, pnm=1, gif=2, jpeg=3, png=4, raw=5 };
+enum anonymous_57 { unknown=0, pnm=1, gif=2, jpeg=3, png=4, raw=5 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{cS8}$cS8$'path'||EN#anon_enum$TMPDIR_APP_OWNED=0$TMPDIR_USER_OWNED=1#{U32}$U32$'type'||S32'max_files'||S32'preserve_files'||U32'$pad0'|]
+// tag-#anon#ST[*{cS8}_cS8_'path'||EN#anon_enum_TMPDIR_APP_OWNED=0_TMPDIR_USER_OWNED=1#{U32}_U32_'type'||S32'max_files'||S32'preserve_files'||U32'_pad0'|]
 // file tmpdir.c line 50
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[*{cS8}$cS8$'tmpdir'||S32'tmpdir_especified'||S32'max_tmpfiles'||S32'extract_images'||S32'verbose'||S32'adjunct'||S32'beep'||S32'promisc'||U32'$pad0'||*{S8}$S8$'dumpfile'||*{S8}$S8$'interface'||*{S8}$S8$'filterexpr'||ENtag-mediatype#{U32}$U32$'extract_type'||U32'$pad1'||*{S8}$S8$'audio_mpeg_player'||S32'mpeg_player_specified'||S32'newpfx'||*{S8}$S8$'savedimgpfx'|]
+// tag-#anon#ST[*{cS8}_cS8_'tmpdir'||S32'tmpdir_especified'||S32'max_tmpfiles'||S32'extract_images'||S32'verbose'||S32'adjunct'||S32'beep'||S32'promisc'||U32'_pad0'||*{S8}_S8_'dumpfile'||*{S8}_S8_'interface'||*{S8}_S8_'filterexpr'||ENtag-mediatype#{U32}_U32_'extract_type'||U32'_pad1'||*{S8}_S8_'audio_mpeg_player'||S32'mpeg_player_specified'||S32'newpfx'||*{S8}_S8_'savedimgpfx'|]
 // file options.h line 19
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[ARR17{U8}$U8$'bits'||ARR256{U8}$U8$'huffval'||U24'$pad0'||S32'sent_table'|]
+// tag-#anon#ST[ARR17{U8}_U8_'bits'||ARR256{U8}_U8_'huffval'||U24'_pad0'||S32'sent_table'|]
 // file /usr/include/jpeglib.h line 101
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]
+// tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]
 // file /usr/include/jpeglib.h line 84
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'component_id'||S32'component_index'||S32'h_samp_factor'||S32'v_samp_factor'||S32'quant_tbl_no'||S32'dc_tbl_no'||S32'ac_tbl_no'||U32'width_in_blocks'||U32'height_in_blocks'||S32'DCT_scaled_size'||U32'downsampled_width'||U32'downsampled_height'||S32'component_needed'||S32'MCU_width'||S32'MCU_height'||S32'MCU_blocks'||S32'MCU_sample_width'||S32'last_col_width'||S32'last_row_height'||U32'$pad0'||*{SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]#}$SYM#tag-#anon#ST[ARR64{U16}$U16$'quantval'||S32'sent_table'|]#$'quant_table'||*{V}$V$'dct_table'|]
+// tag-#anon#ST[S32'component_id'||S32'component_index'||S32'h_samp_factor'||S32'v_samp_factor'||S32'quant_tbl_no'||S32'dc_tbl_no'||S32'ac_tbl_no'||U32'width_in_blocks'||U32'height_in_blocks'||S32'DCT_scaled_size'||U32'downsampled_width'||U32'downsampled_height'||S32'component_needed'||S32'MCU_width'||S32'MCU_height'||S32'MCU_blocks'||S32'MCU_sample_width'||S32'last_col_width'||S32'last_row_height'||U32'_pad0'||*{SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]#}_SYM#tag-#anon#ST[ARR64{U16}_U16_'quantval'||S32'sent_table'|]#_'quant_table'||*{V}_V_'dct_table'|]
 // file /usr/include/jpeglib.h line 117
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'comps_in_scan'||ARR4{S32}$S32$'component_index'||S32'Ss'||S32'Se'||S32'Ah'||S32'Al'|]
+// tag-#anon#ST[S32'comps_in_scan'||ARR4{S32}_S32_'component_index'||S32'Ss'||S32'Se'||S32'Ah'||S32'Al'|]
 // file /usr/include/jpeglib.h line 190
-struct anonymous$35;
+struct anonymous_35;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{cS8}$cS8$'name'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{cS8}_cS8_'name'|]
 // file packetcapture.h line 16
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S32'x'||S32'y'|]
 // file /usr/include/X11/Xutil.h line 88
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
+// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
 // file /usr/include/netinet/tcp.h line 103
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
+// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
 // file /usr/include/netinet/tcp.h line 78
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
 union anonymous;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$41;
+union anonymous_41;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/gtk-2.0/gdk/gdkevents.h line 445
-union anonymous$49;
+union anonymous_49;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[ARR8{S32}$S32$'i'||ARR80{S8}$S8$'s'|]
+// tag-#anon#UN[ARR8{S32}_S32_'i'||ARR80{S8}_S8_'s'|]
 // file /usr/include/jpeglib.h line 736
-union anonymous$52;
+union anonymous_52;
 
-// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}$V$'v_pointer'|]
+// tag-#anon#UN[S32'v_int'||U32'v_uint'||S64'v_long'||U64'v_ulong'||S64'v_int64'||U64'v_uint64'||F32'v_float'||F64'v_double'||*{V}_V_'v_pointer'|]
 // file /usr/include/glib-2.0/gobject/gvalue.h line 112
-union anonymous$39;
+union anonymous_39;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'_anon1'|]
 // file /usr/include/netinet/tcp.h line 76
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[SYM#tag-ip6_hdrctl#'ip6_un1'||U8'ip6_un2_vfc'|]
 // file /usr/include/netinet/ip6.h line 26
-union anonymous$9;
+union anonymous_9;
 
 // tag-ColorMapObject
 // file /usr/include/gif_lib.h line 40
@@ -903,9 +903,9 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -1097,7 +1097,7 @@ extern void free(void *);
 extern signed int ftruncate(signed int, signed long int);
 // g_io_add_watch
 // file /usr/include/glib-2.0/glib/giochannel.h line 200
-extern unsigned int g_io_add_watch(struct _GIOChannel *, enum anonymous$62, signed int (*)(struct _GIOChannel *, enum anonymous$62, void *), void *);
+extern unsigned int g_io_add_watch(struct _GIOChannel *, enum anonymous_62, signed int (*)(struct _GIOChannel *, enum anonymous_62, void *), void *);
 // g_io_channel_unix_new
 // file /usr/include/glib-2.0/glib/giochannel.h line 321
 extern struct _GIOChannel * g_io_channel_unix_new(signed int);
@@ -1106,7 +1106,7 @@ extern struct _GIOChannel * g_io_channel_unix_new(signed int);
 extern void g_object_unref(void *);
 // g_signal_connect_data
 // file /usr/include/glib-2.0/gobject/gsignal.h line 388
-extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous$42);
+extern unsigned long int g_signal_connect_data(void *, const char *, void (*)(void), void *, void (*)(void *, struct _GClosure *), enum anonymous_42);
 // g_type_check_instance_cast
 // file /usr/include/glib-2.0/gobject/gtype.h line 2168
 extern struct _GTypeInstance * g_type_check_instance_cast(struct _GTypeInstance *, unsigned long int);
@@ -1115,7 +1115,7 @@ extern struct _GTypeInstance * g_type_check_instance_cast(struct _GTypeInstance 
 void gdk_draw_rectangle(struct _GdkDrawable *, struct _GdkGC *, signed int, signed int, signed int, signed int, signed int);
 // gdk_draw_rgb_32_image
 // file /usr/include/gtk-2.0/gdk/gdkrgb.h line 89
-void gdk_draw_rgb_32_image(struct _GdkDrawable *, struct _GdkGC *, signed int, signed int, signed int, signed int, enum anonymous$48, const unsigned char *, signed int);
+void gdk_draw_rgb_32_image(struct _GdkDrawable *, struct _GdkGC *, signed int, signed int, signed int, signed int, enum anonymous_48, const unsigned char *, signed int);
 // gdk_drawable_get_size
 // file /usr/include/gtk-2.0/gdk/gdkdrawable.h line 259
 void gdk_drawable_get_size(struct _GdkDrawable *, signed int *, signed int *);
@@ -1133,16 +1133,16 @@ struct _GdkGC * gdk_gc_new(struct _GdkDrawable *);
 struct _GdkColormap * gdk_rgb_get_colormap(void);
 // get_datalink_info
 // file packetcapture.c line 232
-static struct anonymous$16 get_datalink_info(struct pcap *pcap);
+static struct anonymous_16 get_datalink_info(struct pcap *pcap);
 // get_default_interface
 // file packetcapture.h line 28
 char * get_default_interface(void);
 // get_levelstring
 // file log.c line 97
-static char * get_levelstring(enum anonymous$25 level);
+static char * get_levelstring(enum anonymous_25 level);
 // get_loglevel
 // file log.c line 34
-enum anonymous$25 get_loglevel(void);
+enum anonymous_25 get_loglevel(void);
 // get_timestring
 // file log.c line 83
 char * get_timestring(void);
@@ -1205,10 +1205,10 @@ void gtk_widget_set_size_request(struct _GtkWidget *, signed int, signed int);
 void gtk_widget_show_all(struct _GtkWidget *);
 // gtk_window_new
 // file /usr/include/gtk-2.0/gtk/gtkwindow.h line 179
-struct _GtkWidget * gtk_window_new(enum anonymous$56);
+struct _GtkWidget * gtk_window_new(enum anonymous_56);
 // handle_link_layer
 // file layer2.h line 36
-signed int handle_link_layer(struct anonymous$16 *info, const unsigned char *pkt, unsigned int caplen, unsigned char *nextproto, signed int *offsetnext);
+signed int handle_link_layer(struct anonymous_16 *info, const unsigned char *pkt, unsigned int caplen, unsigned char *nextproto, signed int *offsetnext);
 // img_alloc
 // file img.h line 72
 void img_alloc(struct _img *I);
@@ -1226,13 +1226,13 @@ inline signed int img_clip_adj_y(struct _img * const I, const signed int y);
 void img_delete(struct _img *I);
 // img_load
 // file img.h line 74
-signed int img_load(struct _img *I, const enum anonymous$58 howmuch, const enum anonymous$57 type);
+signed int img_load(struct _img *I, const enum anonymous_58 howmuch, const enum anonymous_57 type);
 // img_load_file
 // file img.h line 76
-signed int img_load_file(struct _img *I, const char *name, const enum anonymous$58 howmuch, const enum anonymous$57 type);
+signed int img_load_file(struct _img *I, const char *name, const enum anonymous_58 howmuch, const enum anonymous_57 type);
 // img_load_stream
 // file img.c line 155
-signed int img_load_stream(struct _img *I, struct _IO_FILE *fp, const enum anonymous$58 howmuch, const enum anonymous$57 type);
+signed int img_load_stream(struct _img *I, struct _IO_FILE *fp, const enum anonymous_58 howmuch, const enum anonymous_57 type);
 // img_new
 // file img.h line 70
 struct _img * img_new(void);
@@ -1241,7 +1241,7 @@ struct _img * img_new(void);
 struct _img * img_new_blank(const unsigned int width, const unsigned int height);
 // img_save
 // file img.c line 191
-signed int img_save(struct _img * const I, struct _IO_FILE *fp, const enum anonymous$57 type);
+signed int img_save(struct _img * const I, struct _IO_FILE *fp, const enum anonymous_57 type);
 // img_simple_blt
 // file img.h line 84
 inline void img_simple_blt(struct _img *dest, const signed int dx, const signed int dy, struct _img *src, const signed int sx, const signed int sy, const signed int w, const signed int h);
@@ -1331,7 +1331,7 @@ signed int layer3_find_tcp(const unsigned char *pkt, unsigned char nextproto, si
 extern struct tm * localtime(const signed long int *);
 // log_msg
 // file log.h line 22
-void log_msg(enum anonymous$25 level, const char *fmt, ...);
+void log_msg(enum anonymous_25 level, const char *fmt, ...);
 // longjmp
 // file /usr/include/setjmp.h line 74
 extern void longjmp(struct __jmp_buf_tag *, signed int);
@@ -1409,7 +1409,7 @@ void packetcapture_open_offline(char *dumpfile);
 static signed int parse_ieee80211(const unsigned char *pkt, unsigned int caplen, unsigned short int *llnextproto, signed int *offsetnext);
 // parse_options
 // file options.h line 40
-struct anonymous$2 * parse_options(signed int argc, char **argv);
+struct anonymous_2 * parse_options(signed int argc, char **argv);
 // pcap_close
 // file /usr/include/pcap/pcap.h line 371
 void pcap_close(struct pcap *);
@@ -1445,7 +1445,7 @@ signed int pcap_setfilter(struct pcap *, struct bpf_program *);
 extern signed int pipe(signed int *);
 // pipe_event
 // file display.c line 337
-signed int pipe_event(struct _GIOChannel chan, enum anonymous$62 cond, void *data);
+signed int pipe_event(struct _GIOChannel chan, enum anonymous_62 cond, void *data);
 // png_abort_load
 // file png.c line 91
 signed int png_abort_load(struct _img *I);
@@ -1544,10 +1544,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -1574,10 +1574,10 @@ void save_image(struct imgrect *ir);
 void scroll_backing_image(const signed int dy);
 // set_loglevel
 // file log.h line 20
-void set_loglevel(enum anonymous$25 level);
+void set_loglevel(enum anonymous_25 level);
 // set_tmpdir
 // file tmpdir.h line 22
-void set_tmpdir(const char *dir, enum anonymous$51 type, signed int max_files, signed int preserve_files);
+void set_tmpdir(const char *dir, enum anonymous_51 type, signed int max_files, signed int preserve_files);
 // setup_signals
 // file driftnet.c line 71
 static void setup_signals(void);
@@ -1599,9 +1599,9 @@ extern signed int sprintf(char *, const char *, ...);
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf);
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1);
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1);
 // strcasecmp
 // file /usr/include/string.h line 533
 extern signed int strcasecmp(const char *, const char *);
@@ -1661,7 +1661,7 @@ void update_window();
 static void usage(struct _IO_FILE *fp);
 // validate_options
 // file options.c line 164
-static void validate_options(struct anonymous$2 *options);
+static void validate_options(struct anonymous_2 *options);
 // vsnprintf
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
@@ -1693,7 +1693,7 @@ void * xrealloc(void *w, unsigned long int n);
 // file util.c line 70
 char * xstrdup(const char *s);
 
-struct anonymous$13
+struct anonymous_13
 {
   // _call_addr
   void *_call_addr;
@@ -1703,7 +1703,7 @@ struct anonymous$13
   unsigned int _arch;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_addr
   void *si_addr;
@@ -1711,19 +1711,19 @@ struct anonymous$11
   signed short int si_addr_lsb;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // path
   const char *path;
   // type
-  enum anonymous$51 type;
+  enum anonymous_51 type;
   // max_files
   signed int max_files;
   // preserve_files
   signed int preserve_files;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // tmpdir
   const char *tmpdir;
@@ -1759,13 +1759,13 @@ struct anonymous$2
   char *savedimgpfx;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // bits
   unsigned char bits[17l];
@@ -1775,7 +1775,7 @@ struct anonymous$23
   signed int sent_table;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // quantval
   unsigned short int quantval[64l];
@@ -1783,7 +1783,7 @@ struct anonymous$21
   signed int sent_table;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // component_id
   signed int component_id;
@@ -1824,12 +1824,12 @@ struct anonymous$24
   // last_row_height
   signed int last_row_height;
   // quant_table
-  struct anonymous$21 *quant_table;
+  struct anonymous_21 *quant_table;
   // dct_table
   void *dct_table;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // comps_in_scan
   signed int comps_in_scan;
@@ -1845,7 +1845,7 @@ struct anonymous$35
   signed int Al;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_pid
   signed int si_pid;
@@ -1853,7 +1853,7 @@ struct anonymous$5
   unsigned int si_uid;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -1875,7 +1875,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_pid
   signed int si_pid;
@@ -1885,7 +1885,7 @@ struct anonymous$7
   union sigval si_sigval;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_tid
   signed int si_tid;
@@ -1895,7 +1895,7 @@ struct anonymous$6
   union sigval si_sigval;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_band
   signed long int si_band;
@@ -1903,27 +1903,27 @@ struct anonymous$12
   signed int si_fd;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$5 _kill;
+  struct anonymous_5 _kill;
   // _timer
-  struct anonymous$6 _timer;
+  struct anonymous_6 _timer;
   // _rt
-  struct anonymous$7 _rt;
+  struct anonymous_7 _rt;
   // _sigchld
-  struct anonymous$10 _sigchld;
+  struct anonymous_10 _sigchld;
   // _sigfault
-  struct anonymous$11 _sigfault;
+  struct anonymous_11 _sigfault;
   // _sigpoll
-  struct anonymous$12 _sigpoll;
+  struct anonymous_12 _sigpoll;
   // _sigsys
-  struct anonymous$13 _sigsys;
+  struct anonymous_13 _sigsys;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_signo
   signed int si_signo;
@@ -1932,10 +1932,10 @@ struct anonymous$15
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$14 _sifields;
+  union anonymous_14 _sifields;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // type
   signed int type;
@@ -1943,7 +1943,7 @@ struct anonymous$16
   const char *name;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // x
   signed int x;
@@ -1951,7 +1951,7 @@ struct anonymous$8
   signed int y;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // source
   unsigned short int source;
@@ -1987,7 +1987,7 @@ struct anonymous$30
   unsigned short int urg_ptr;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // th_sport
   unsigned short int th_sport;
@@ -2016,10 +2016,10 @@ union anonymous
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$15 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_15 *, void *);
 };
 
-union anonymous$41
+union anonymous_41
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2029,7 +2029,7 @@ union anonymous$41
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$49
+union anonymous_49
 {
   // b
   char b[20l];
@@ -2039,7 +2039,7 @@ union anonymous$49
   signed long int l[5l];
 };
 
-union anonymous$52
+union anonymous_52
 {
   // i
   signed int i[8l];
@@ -2047,7 +2047,7 @@ union anonymous$52
   char s[80l];
 };
 
-union anonymous$39
+union anonymous_39
 {
   // v_int
   signed int v_int;
@@ -2069,12 +2069,12 @@ union anonymous$39
   void *v_pointer;
 };
 
-union anonymous$22
+union anonymous_22
 {
-  // $anon0
-  struct anonymous$29 $anon0;
-  // $anon1
-  struct anonymous$30 $anon1;
+  // _anon0
+  struct anonymous_29 _anon0;
+  // _anon1
+  struct anonymous_30 _anon1;
 };
 
 struct __pthread_internal_list
@@ -2105,7 +2105,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2127,7 +2127,7 @@ struct ip6_hdrctl
   unsigned char ip6_un1_hlim;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // ip6_un1
   struct ip6_hdrctl ip6_un1;
@@ -2330,21 +2330,21 @@ struct _GIOChannel
 struct _GIOFuncs
 {
   // io_read
-  enum anonymous$60 (*io_read)(struct _GIOChannel *, char *, unsigned long int, unsigned long int *, struct _GError **);
+  enum anonymous_60 (*io_read)(struct _GIOChannel *, char *, unsigned long int, unsigned long int *, struct _GError **);
   // io_write
-  enum anonymous$60 (*io_write)(struct _GIOChannel *, const char *, unsigned long int, unsigned long int *, struct _GError **);
+  enum anonymous_60 (*io_write)(struct _GIOChannel *, const char *, unsigned long int, unsigned long int *, struct _GError **);
   // io_seek
-  enum anonymous$60 (*io_seek)(struct _GIOChannel *, signed long int, enum anonymous$61, struct _GError **);
+  enum anonymous_60 (*io_seek)(struct _GIOChannel *, signed long int, enum anonymous_61, struct _GError **);
   // io_close
-  enum anonymous$60 (*io_close)(struct _GIOChannel *, struct _GError **);
+  enum anonymous_60 (*io_close)(struct _GIOChannel *, struct _GError **);
   // io_create_watch
-  struct _GSource * (*io_create_watch)(struct _GIOChannel *, enum anonymous$62);
+  struct _GSource * (*io_create_watch)(struct _GIOChannel *, enum anonymous_62);
   // io_free
   void (*io_free)(struct _GIOChannel *);
   // io_set_flags
-  enum anonymous$60 (*io_set_flags)(struct _GIOChannel *, enum anonymous$63, struct _GError **);
+  enum anonymous_60 (*io_set_flags)(struct _GIOChannel *, enum anonymous_63, struct _GError **);
   // io_get_flags
-  enum anonymous$63 (*io_get_flags)(struct _GIOChannel *);
+  enum anonymous_63 (*io_get_flags)(struct _GIOChannel *);
 };
 
 struct _GList
@@ -2458,7 +2458,7 @@ struct _GValue
   // g_type
   unsigned long int g_type;
   // data
-  union anonymous$39 data[2l];
+  union anonymous_39 data[2l];
 };
 
 struct _GdkColor
@@ -2494,9 +2494,9 @@ struct _GdkDevice
   // name
   char *name;
   // source
-  enum anonymous$33 source;
+  enum anonymous_33 source;
   // mode
-  enum anonymous$34 mode;
+  enum anonymous_34 mode;
   // has_cursor
   signed int has_cursor;
   // num_axes
@@ -2512,7 +2512,7 @@ struct _GdkDevice
 struct _GdkDeviceAxis
 {
   // use
-  enum anonymous$36 use;
+  enum anonymous_36 use;
   // min
   double min;
   // max
@@ -2524,7 +2524,7 @@ struct _GdkDeviceKey
   // keyval
   unsigned int keyval;
   // modifiers
-  enum anonymous$1 modifiers;
+  enum anonymous_1 modifiers;
 };
 
 struct _GdkDragContext
@@ -2532,7 +2532,7 @@ struct _GdkDragContext
   // parent_instance
   struct _GObject parent_instance;
   // protocol
-  enum anonymous$27 protocol;
+  enum anonymous_27 protocol;
   // is_source
   signed int is_source;
   // source_window
@@ -2542,11 +2542,11 @@ struct _GdkDragContext
   // targets
   struct _GList *targets;
   // actions
-  enum anonymous$26 actions;
+  enum anonymous_26 actions;
   // suggested_action
-  enum anonymous$26 suggested_action;
+  enum anonymous_26 suggested_action;
   // action
-  enum anonymous$26 action;
+  enum anonymous_26 action;
   // start_time
   unsigned int start_time;
   // windowing_data
@@ -2562,7 +2562,7 @@ struct _GdkDrawable
 struct _GdkEventAny
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2584,7 +2584,7 @@ struct _GdkRectangle
 struct _GdkEventExpose
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2600,7 +2600,7 @@ struct _GdkEventExpose
 struct _GdkEventNoExpose
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2610,19 +2610,19 @@ struct _GdkEventNoExpose
 struct _GdkEventVisibility
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
   signed char send_event;
   // state
-  enum anonymous$37 state;
+  enum anonymous_37 state;
 };
 
 struct _GdkEventMotion
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2650,7 +2650,7 @@ struct _GdkEventMotion
 struct _GdkEventButton
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2678,7 +2678,7 @@ struct _GdkEventButton
 struct _GdkEventScroll
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2692,7 +2692,7 @@ struct _GdkEventScroll
   // state
   unsigned int state;
   // direction
-  enum anonymous$40 direction;
+  enum anonymous_40 direction;
   // device
   struct _GdkDevice *device;
   // x_root
@@ -2704,7 +2704,7 @@ struct _GdkEventScroll
 struct _GdkEventKey
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2730,7 +2730,7 @@ struct _GdkEventKey
 struct _GdkEventCrossing
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2748,9 +2748,9 @@ struct _GdkEventCrossing
   // y_root
   double y_root;
   // mode
-  enum anonymous$43 mode;
+  enum anonymous_43 mode;
   // detail
-  enum anonymous$44 detail;
+  enum anonymous_44 detail;
   // focus
   signed int focus;
   // state
@@ -2760,7 +2760,7 @@ struct _GdkEventCrossing
 struct _GdkEventFocus
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2772,7 +2772,7 @@ struct _GdkEventFocus
 struct _GdkEventConfigure
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2790,7 +2790,7 @@ struct _GdkEventConfigure
 struct _GdkEventProperty
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2806,7 +2806,7 @@ struct _GdkEventProperty
 struct _GdkEventSelection
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2826,7 +2826,7 @@ struct _GdkEventSelection
 struct _GdkEventOwnerChange
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2834,7 +2834,7 @@ struct _GdkEventOwnerChange
   // owner
   unsigned int owner;
   // reason
-  enum anonymous$45 reason;
+  enum anonymous_45 reason;
   // selection
   struct _GdkAtom *selection;
   // time
@@ -2846,7 +2846,7 @@ struct _GdkEventOwnerChange
 struct _GdkEventProximity
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2860,7 +2860,7 @@ struct _GdkEventProximity
 struct _GdkEventClient
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2870,13 +2870,13 @@ struct _GdkEventClient
   // data_format
   unsigned short int data_format;
   // data
-  union anonymous$49 data;
+  union anonymous_49 data;
 };
 
 struct _GdkEventDND
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2894,27 +2894,27 @@ struct _GdkEventDND
 struct _GdkEventWindowState
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
   signed char send_event;
   // changed_mask
-  enum anonymous$53 changed_mask;
+  enum anonymous_53 changed_mask;
   // new_window_state
-  enum anonymous$53 new_window_state;
+  enum anonymous_53 new_window_state;
 };
 
 struct _GdkEventSetting
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
   signed char send_event;
   // action
-  enum anonymous$54 action;
+  enum anonymous_54 action;
   // name
   char *name;
 };
@@ -2922,7 +2922,7 @@ struct _GdkEventSetting
 struct _GdkEventGrabBroken
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // window
   struct _GdkDrawable *window;
   // send_event
@@ -2938,7 +2938,7 @@ struct _GdkEventGrabBroken
 union _GdkEvent
 {
   // type
-  enum anonymous$4 type;
+  enum anonymous_4 type;
   // any
   struct _GdkEventAny any;
   // expose
@@ -2984,7 +2984,7 @@ union _GdkEvent
 struct _GdkFont
 {
   // type
-  enum anonymous$38 type;
+  enum anonymous_38 type;
   // ascent
   signed int ascent;
   // descent
@@ -3012,11 +3012,11 @@ struct _GdkVisual
   // parent_instance
   struct _GObject parent_instance;
   // type
-  enum anonymous$31 type;
+  enum anonymous_31 type;
   // depth
   signed int depth;
   // byte_order
-  enum anonymous$32 byte_order;
+  enum anonymous_32 byte_order;
   // colormap_size
   signed int colormap_size;
   // bits_per_rgb
@@ -3110,7 +3110,7 @@ struct _GtkRcStyle
   // font_desc
   struct _PangoFontDescription *font_desc;
   // color_flags
-  enum anonymous$17 color_flags[5l];
+  enum anonymous_17 color_flags[5l];
   // fg
   struct _GdkColor fg[5l];
   // bg
@@ -3284,7 +3284,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$28 __saved_mask;
+  struct anonymous_28 __saved_mask;
 };
 
 struct _audiochunk
@@ -3332,9 +3332,9 @@ struct _connection
 struct _img
 {
   // type
-  enum anonymous$57 type;
+  enum anonymous_57 type;
   // load
-  enum anonymous$58 load;
+  enum anonymous_58 load;
   // width
   unsigned int width;
   // height
@@ -3348,7 +3348,7 @@ struct _img
   // us
   void *us;
   // err
-  enum anonymous$59 err;
+  enum anonymous_59 err;
 };
 
 struct bpf_insn
@@ -3412,7 +3412,7 @@ struct ethhdr
 struct filedrv
 {
   // type
-  enum anonymous$57 type;
+  enum anonymous_57 type;
   // suffices
   char *suffices;
   // loadhdr
@@ -3510,7 +3510,7 @@ struct imgrect
 struct in6_addr
 {
   // __in6_u
-  union anonymous$41 __in6_u;
+  union anonymous_41 __in6_u;
 };
 
 struct in_addr
@@ -3562,7 +3562,7 @@ struct ip6_ext
 struct ip6_hdr
 {
   // ip6_ctlun
-  union anonymous$9 ip6_ctlun;
+  union anonymous_9 ip6_ctlun;
   // ip6_src
   struct in6_addr ip6_src;
   // ip6_dst
@@ -3608,7 +3608,7 @@ struct jpeg_compress_struct
   // input_components
   signed int input_components;
   // in_color_space
-  enum anonymous$18 in_color_space;
+  enum anonymous_18 in_color_space;
   // input_gamma
   double input_gamma;
   // data_precision
@@ -3616,15 +3616,15 @@ struct jpeg_compress_struct
   // num_components
   signed int num_components;
   // jpeg_color_space
-  enum anonymous$18 jpeg_color_space;
+  enum anonymous_18 jpeg_color_space;
   // comp_info
-  struct anonymous$24 *comp_info;
+  struct anonymous_24 *comp_info;
   // quant_tbl_ptrs
-  struct anonymous$21 *quant_tbl_ptrs[4l];
+  struct anonymous_21 *quant_tbl_ptrs[4l];
   // dc_huff_tbl_ptrs
-  struct anonymous$23 *dc_huff_tbl_ptrs[4l];
+  struct anonymous_23 *dc_huff_tbl_ptrs[4l];
   // ac_huff_tbl_ptrs
-  struct anonymous$23 *ac_huff_tbl_ptrs[4l];
+  struct anonymous_23 *ac_huff_tbl_ptrs[4l];
   // arith_dc_L
   unsigned char arith_dc_L[16l];
   // arith_dc_U
@@ -3634,7 +3634,7 @@ struct jpeg_compress_struct
   // num_scans
   signed int num_scans;
   // scan_info
-  const struct anonymous$35 *scan_info;
+  const struct anonymous_35 *scan_info;
   // raw_data_in
   signed int raw_data_in;
   // arith_code
@@ -3646,7 +3646,7 @@ struct jpeg_compress_struct
   // smoothing_factor
   signed int smoothing_factor;
   // dct_method
-  enum anonymous$19 dct_method;
+  enum anonymous_19 dct_method;
   // restart_interval
   unsigned int restart_interval;
   // restart_in_rows
@@ -3678,7 +3678,7 @@ struct jpeg_compress_struct
   // comps_in_scan
   signed int comps_in_scan;
   // cur_comp_info
-  struct anonymous$24 *cur_comp_info[4l];
+  struct anonymous_24 *cur_comp_info[4l];
   // MCUs_per_row
   unsigned int MCUs_per_row;
   // MCU_rows_in_scan
@@ -3714,7 +3714,7 @@ struct jpeg_compress_struct
   // entropy
   struct jpeg_entropy_encoder *entropy;
   // script_space
-  struct anonymous$35 *script_space;
+  struct anonymous_35 *script_space;
   // script_space_size
   signed int script_space_size;
 };
@@ -3742,9 +3742,9 @@ struct jpeg_decompress_struct
   // num_components
   signed int num_components;
   // jpeg_color_space
-  enum anonymous$18 jpeg_color_space;
+  enum anonymous_18 jpeg_color_space;
   // out_color_space
-  enum anonymous$18 out_color_space;
+  enum anonymous_18 out_color_space;
   // scale_num
   unsigned int scale_num;
   // scale_denom
@@ -3756,7 +3756,7 @@ struct jpeg_decompress_struct
   // raw_data_out
   signed int raw_data_out;
   // dct_method
-  enum anonymous$19 dct_method;
+  enum anonymous_19 dct_method;
   // do_fancy_upsampling
   signed int do_fancy_upsampling;
   // do_block_smoothing
@@ -3764,7 +3764,7 @@ struct jpeg_decompress_struct
   // quantize_colors
   signed int quantize_colors;
   // dither_mode
-  enum anonymous$20 dither_mode;
+  enum anonymous_20 dither_mode;
   // two_pass_quantize
   signed int two_pass_quantize;
   // desired_number_of_colors
@@ -3802,15 +3802,15 @@ struct jpeg_decompress_struct
   // coef_bits
   signed int (*coef_bits)[64l];
   // quant_tbl_ptrs
-  struct anonymous$21 *quant_tbl_ptrs[4l];
+  struct anonymous_21 *quant_tbl_ptrs[4l];
   // dc_huff_tbl_ptrs
-  struct anonymous$23 *dc_huff_tbl_ptrs[4l];
+  struct anonymous_23 *dc_huff_tbl_ptrs[4l];
   // ac_huff_tbl_ptrs
-  struct anonymous$23 *ac_huff_tbl_ptrs[4l];
+  struct anonymous_23 *ac_huff_tbl_ptrs[4l];
   // data_precision
   signed int data_precision;
   // comp_info
-  struct anonymous$24 *comp_info;
+  struct anonymous_24 *comp_info;
   // progressive_mode
   signed int progressive_mode;
   // arith_code
@@ -3856,7 +3856,7 @@ struct jpeg_decompress_struct
   // comps_in_scan
   signed int comps_in_scan;
   // cur_comp_info
-  struct anonymous$24 *cur_comp_info[4l];
+  struct anonymous_24 *cur_comp_info[4l];
   // MCUs_per_row
   unsigned int MCUs_per_row;
   // MCU_rows_in_scan
@@ -3928,7 +3928,7 @@ struct jpeg_error_mgr
   // msg_code
   signed int msg_code;
   // msg_parm
-  union anonymous$52 msg_parm;
+  union anonymous_52 msg_parm;
   // trace_level
   signed int trace_level;
   // num_warnings
@@ -4036,9 +4036,9 @@ struct mediadrv
 struct mpeg_audio_hdr
 {
   // version
-  enum anonymous$46 version;
+  enum anonymous_46 version;
   // layer
-  enum anonymous$47 layer;
+  enum anonymous_47 layer;
   // has_crc
   signed int has_crc;
   // crc
@@ -4052,7 +4052,7 @@ struct mpeg_audio_hdr
   // priv
   signed int priv;
   // channels
-  enum anonymous$50 channels;
+  enum anonymous_50 channels;
   // mode_extn
   unsigned char mode_extn;
   // copyr
@@ -4676,7 +4676,7 @@ struct sigaction
   // __sigaction_handler
   union anonymous __sigaction_handler;
   // sa_mask
-  struct anonymous$28 sa_mask;
+  struct anonymous_28 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -4779,8 +4779,8 @@ struct stat
 
 struct tcphdr
 {
-  // $anon0
-  union anonymous$22 $anon0;
+  // _anon0
+  union anonymous_22 _anon0;
 };
 
 struct tm
@@ -4830,13 +4830,13 @@ static unsigned long int buffered;
 static char *channel_tbl[4l] = { "stereo", "joint stereo", "dual stereo", "mono" };
 // click
 // file display.c line 295
-static struct anonymous$8 click;
+static struct anonymous_8 click;
 // darea
 // file display.c line 47
 static struct _GtkWidget *darea;
 // datalink_info
 // file packetcapture.c line 54
-static struct anonymous$16 datalink_info;
+static struct anonymous_16 datalink_info;
 // drawable
 // file display.c line 48
 static struct _GdkDrawable *drawable;
@@ -4861,13 +4861,13 @@ static enum mediatype extract_type;
 struct filedrv filedrvs[3l];
 // filedrvs
 // file img.c line 65
-struct filedrv filedrvs[3l] = { { .type=(enum anonymous$57)gif, .suffices=".gif\0", .loadhdr=gif_load_hdr,
+struct filedrv filedrvs[3l] = { { .type=(enum anonymous_57)gif, .suffices=".gif\0", .loadhdr=gif_load_hdr,
     .abortload=gif_abort_load, .loadimg=gif_load_img,
     .saveimg=(signed int (*)(struct _img *, struct _IO_FILE *))(void *)0 },
-    { .type=(enum anonymous$57)jpeg, .suffices=".jpg\0.jpeg\0", .loadhdr=jpeg_load_hdr,
+    { .type=(enum anonymous_57)jpeg, .suffices=".jpg\0.jpeg\0", .loadhdr=jpeg_load_hdr,
     .abortload=jpeg_abort_load, .loadimg=jpeg_load_img,
     .saveimg=jpeg_save_img },
-    { .type=(enum anonymous$57)png, .suffices=".png\0", .loadhdr=png_load_hdr,
+    { .type=(enum anonymous_57)png, .suffices=".png\0", .loadhdr=png_load_hdr,
     .abortload=(signed int (*)(struct _img *))(void *)0, .loadimg=png_load_img,
     .saveimg=(signed int (*)(struct _img *, struct _IO_FILE *))(void *)0 } };
 // foad
@@ -4890,7 +4890,7 @@ static struct imgrect *imgrects;
 static struct _audiochunk *list;
 // loglevel
 // file log.c line 29
-static enum anonymous$25 loglevel = (enum anonymous$25)LOG_WARNING;
+static enum anonymous_25 loglevel = (enum anonymous_25)LOG_WARNING;
 // mpeg_fd
 // file playaudio.c line 132
 signed int mpeg_fd;
@@ -4899,7 +4899,7 @@ signed int mpeg_fd;
 signed int mpeg_mgr_pid;
 // mpeg_mtx
 // file playaudio.c line 41
-static union anonymous$0 mpeg_mtx = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mpeg_mtx = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // nimgrects
@@ -4916,7 +4916,7 @@ extern signed int opterr;
 extern signed int optind;
 // options
 // file options.c line 30
-struct anonymous$2 options = { .tmpdir=(const char *)(void *)0, .tmpdir_especified=0, .max_tmpfiles=0,
+struct anonymous_2 options = { .tmpdir=(const char *)(void *)0, .tmpdir_especified=0, .max_tmpfiles=0,
     .extract_images=1, .verbose=0, .adjunct=0,
     .beep=0, .promisc=1, .dumpfile=(char *)(void *)0, .interface=(char *)(void *)0,
     .filterexpr=(char *)(void *)0, .extract_type=(enum mediatype)1,
@@ -4963,7 +4963,7 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdout;
 // tmpdir
 // file tmpdir.c line 57
-static struct anonymous$55 tmpdir = { .path=(const char *)(void *)0, .type=(enum anonymous$51)TMPDIR_USER_OWNED, .max_files=0,
+static struct anonymous_55 tmpdir = { .path=(const char *)(void *)0, .type=(enum anonymous_51)TMPDIR_USER_OWNED, .max_files=0,
     .preserve_files=1 };
 // vers_tbl
 // file mpeghdr.c line 135
@@ -4988,18 +4988,18 @@ static signed int wry;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1$link1;
-  return_value___builtin_bswap32$1$link1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1$link1;
+  signed long int return_value___builtin_bswap32_1_link1;
+  return_value___builtin_bswap32_1_link1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1_link1;
 }
 
 // add_image_rectangle
@@ -5013,17 +5013,17 @@ void add_image_rectangle(const char *filename, const signed int x, const signed 
 
   if(ir == imgrects + (signed long int)nimgrects)
   {
-    void *return_value_xrealloc$1;
-    return_value_xrealloc$1=xrealloc((void *)imgrects, (unsigned long int)(2 * nimgrects) * sizeof(struct imgrect) /*24ul*/ );
-    imgrects = (struct imgrect *)return_value_xrealloc$1;
+    void *return_value_xrealloc_1;
+    return_value_xrealloc_1=xrealloc((void *)imgrects, (unsigned long int)(2 * nimgrects) * sizeof(struct imgrect) /*24ul*/ );
+    imgrects = (struct imgrect *)return_value_xrealloc_1;
     memset((void *)(imgrects + (signed long int)nimgrects), 0, (unsigned long int)nimgrects * sizeof(struct imgrect) /*24ul*/ );
     ir = imgrects + (signed long int)nimgrects;
     nimgrects = nimgrects * 2;
   }
 
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup(filename);
-  ir->filename = return_value___strdup$2;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup(filename);
+  ir->filename = return_value___strdup_2;
   ir->x = x;
   ir->y = y;
   ir->w = w;
@@ -5039,9 +5039,9 @@ struct _connection ** alloc_connection(void)
     if(*C == ((struct _connection *)NULL))
       return C;
 
-  void *return_value_xrealloc$1;
-  return_value_xrealloc$1=xrealloc((void *)slots, (unsigned long int)(slotsalloc * (unsigned int)2) * sizeof(struct _connection *) /*8ul*/ );
-  slots = (struct _connection **)return_value_xrealloc$1;
+  void *return_value_xrealloc_1;
+  return_value_xrealloc_1=xrealloc((void *)slots, (unsigned long int)(slotsalloc * (unsigned int)2) * sizeof(struct _connection *) /*8ul*/ );
+  slots = (struct _connection **)return_value_xrealloc_1;
   memset((void *)(slots + (signed long int)slotsalloc), 0, (unsigned long int)slotsalloc * sizeof(struct _connection *) /*8ul*/ );
   C = slots + (signed long int)slotsalloc;
   slotsalloc = slotsalloc * (unsigned int)2;
@@ -5052,9 +5052,9 @@ struct _connection ** alloc_connection(void)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // audiochunk_delete
@@ -5070,16 +5070,16 @@ static void audiochunk_delete(struct _audiochunk *A)
 static struct _audiochunk * audiochunk_new(const unsigned char *data, const unsigned long int len)
 {
   struct _audiochunk *A;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct _audiochunk) /*24ul*/ );
-  A = (struct _audiochunk *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct _audiochunk) /*24ul*/ );
+  A = (struct _audiochunk *)return_value_xmalloc_1;
   memset((void *)A, 0, sizeof(struct _audiochunk) /*24ul*/ );
   A->len = len;
   if(!(data == ((const unsigned char *)NULL)))
   {
-    void *return_value_xmalloc$2;
-    return_value_xmalloc$2=xmalloc(len);
-    A->data = (unsigned char *)return_value_xmalloc$2;
+    void *return_value_xmalloc_2;
+    return_value_xmalloc_2=xmalloc(len);
+    A->data = (unsigned char *)return_value_xmalloc_2;
     memcpy((void *)A->data, (const void *)data, len);
   }
 
@@ -5092,8 +5092,8 @@ static signed int audiochunk_write(struct _audiochunk * const A, signed int fd)
 {
   const unsigned char *p;
   signed long int n;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(A->len == 0ul)
     return 0;
 
@@ -5109,13 +5109,13 @@ static signed int audiochunk_write(struct _audiochunk * const A, signed int fd)
       n=write(fd, (const void *)p, d);
       if(n == -1l)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 != 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 != 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         return -1;
 
       else
@@ -5140,11 +5140,11 @@ void button_release_event(struct _GtkWidget *widget, struct _GdkEventButton *eve
 {
   struct imgrect *ir;
   ir=find_image_rectangle(click.x, click.y);
-  struct imgrect *return_value_find_image_rectangle$1;
+  struct imgrect *return_value_find_image_rectangle_1;
   if(!(ir == ((struct imgrect *)NULL)))
   {
-    return_value_find_image_rectangle$1=find_image_rectangle((signed int)event->x, (signed int)event->y);
-    if(ir == return_value_find_image_rectangle$1)
+    return_value_find_image_rectangle_1=find_image_rectangle((signed int)event->x, (signed int)event->y);
+    if(ir == return_value_find_image_rectangle_1)
     {
       gdk_draw_rectangle(drawable, darea->style->white_gc, 0, ir->x - 2, ir->y - 2, ir->w + 3, ir->h + 3);
       gdk_flush();
@@ -5171,36 +5171,36 @@ static void * capture_thread(void *v)
 signed int check_dir_is_rw(const char *dir)
 {
   struct stat st;
-  signed int return_value_stat$6;
-  return_value_stat$6=stat(dir, &st);
-  signed int return_value_access$5;
-  if(return_value_stat$6 == -1)
+  signed int return_value_stat_6;
+  return_value_stat_6=stat(dir, &st);
+  signed int return_value_access_5;
+  if(return_value_stat_6 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg((enum anonymous$25)LOG_ERROR, "stat(%s): %s", dir, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg((enum anonymous_25)LOG_ERROR, "stat(%s): %s", dir, return_value_strerror_2);
     unexpected_exit(-1);
   }
 
   else
     if(!((61440u & st.st_mode) == 16384u))
     {
-      log_msg((enum anonymous$25)LOG_ERROR, "%s: not a directory", dir);
+      log_msg((enum anonymous_25)LOG_ERROR, "%s: not a directory", dir);
       unexpected_exit(-1);
     }
 
     else
     {
-      return_value_access$5=access(dir, 4 | 2);
-      if(!(return_value_access$5 == 0))
+      return_value_access_5=access(dir, 4 | 2);
+      if(!(return_value_access_5 == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        log_msg((enum anonymous$25)LOG_ERROR, "%s: %s", dir, return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        log_msg((enum anonymous_25)LOG_ERROR, "%s: %s", dir, return_value_strerror_4);
         unexpected_exit(-1);
       }
 
@@ -5213,12 +5213,12 @@ signed int check_dir_is_rw(const char *dir)
 void clean_tmpdir(void)
 {
   struct __dirstream *d;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
-  void *return_value_xrealloc$5;
-  signed int *return_value___errno_location$11;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
+  void *return_value_xrealloc_5;
+  signed int *return_value___errno_location_11;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   if(!(tmpdir.path == ((const char *)NULL)))
   {
     if(tmpdir.preserve_files == 0)
@@ -5229,33 +5229,33 @@ void clean_tmpdir(void)
         struct dirent *de;
         char *buf;
         unsigned long int buflen;
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(tmpdir.path);
-        buflen = return_value_strlen$1 + (unsigned long int)64;
-        void *return_value_xmalloc$2;
-        return_value_xmalloc$2=xmalloc(buflen);
-        buf = (char *)return_value_xmalloc$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(tmpdir.path);
+        buflen = return_value_strlen_1 + (unsigned long int)64;
+        void *return_value_xmalloc_2;
+        return_value_xmalloc_2=xmalloc(buflen);
+        buf = (char *)return_value_xmalloc_2;
         do
         {
           de=readdir(d);
           if(de == ((struct dirent *)NULL))
             break;
 
-          signed int return_value_is_tempfile$8;
-          return_value_is_tempfile$8=is_tempfile(de->d_name);
-          if(!(return_value_is_tempfile$8 == 0))
+          signed int return_value_is_tempfile_8;
+          return_value_is_tempfile_8=is_tempfile(de->d_name);
+          if(!(return_value_is_tempfile_8 == 0))
           {
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(tmpdir.path);
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(de->d_name);
-            if(!(buflen >= 1ul + return_value_strlen$6 + return_value_strlen$7))
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(tmpdir.path);
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(de->d_name);
+            if(!(buflen >= 1ul + return_value_strlen_6 + return_value_strlen_7))
             {
-              return_value_strlen$3=strlen(tmpdir.path);
-              return_value_strlen$4=strlen(de->d_name);
-              buflen = return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)64;
-              return_value_xrealloc$5=xrealloc((void *)buf, buflen);
-              buf = (char *)return_value_xrealloc$5;
+              return_value_strlen_3=strlen(tmpdir.path);
+              return_value_strlen_4=strlen(de->d_name);
+              buflen = return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)64;
+              return_value_xrealloc_5=xrealloc((void *)buf, buflen);
+              buf = (char *)return_value_xrealloc_5;
             }
 
             sprintf(buf, "%s/%s", tmpdir.path, (const void *)de->d_name);
@@ -5270,16 +5270,16 @@ void clean_tmpdir(void)
 
       if((signed int)tmpdir.type == TMPDIR_APP_OWNED)
       {
-        signed int return_value_rmdir$12;
-        return_value_rmdir$12=rmdir(tmpdir.path);
-        if(return_value_rmdir$12 == -1)
+        signed int return_value_rmdir_12;
+        return_value_rmdir_12=rmdir(tmpdir.path);
+        if(return_value_rmdir_12 == -1)
         {
-          return_value___errno_location$11=__errno_location();
-          if(!(*return_value___errno_location$11 == 2))
+          return_value___errno_location_11=__errno_location();
+          if(!(*return_value___errno_location_11 == 2))
           {
-            return_value___errno_location$9=__errno_location();
-            return_value_strerror$10=strerror(*return_value___errno_location$9);
-            log_msg((enum anonymous$25)LOG_ERROR, "rmdir(%s): %s", tmpdir.path, return_value_strerror$10);
+            return_value___errno_location_9=__errno_location();
+            return_value_strerror_10=strerror(*return_value___errno_location_9);
+            log_msg((enum anonymous_25)LOG_ERROR, "rmdir(%s): %s", tmpdir.path, return_value_strerror_10);
           }
 
         }
@@ -5313,24 +5313,24 @@ void configure_event(struct _GtkWidget *widget, union _GdkEvent *event, void *da
   if(!(darea == ((struct _GtkWidget *)NULL)))
     drawable = darea->window;
 
-  unsigned long int return_value_gdk_drawable_get_type$1;
-  return_value_gdk_drawable_get_type$1=gdk_drawable_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)drawable, return_value_gdk_drawable_get_type$1);
-  gdk_drawable_get_size((struct _GdkDrawable *)return_value_g_type_check_instance_cast$2, &width, &height);
-  _Bool tmp_if_expr$3;
+  unsigned long int return_value_gdk_drawable_get_type_1;
+  return_value_gdk_drawable_get_type_1=gdk_drawable_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)drawable, return_value_gdk_drawable_get_type_1);
+  gdk_drawable_get_size((struct _GdkDrawable *)return_value_g_type_check_instance_cast_2, &width, &height);
+  _Bool tmp_if_expr_3;
   if(backing_image == ((struct _img *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = backing_image->width != (unsigned int)width ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = backing_image->width != (unsigned int)width ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = backing_image->height != (unsigned int)height ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = backing_image->height != (unsigned int)height ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
     make_backing_image();
 
   update_window();
@@ -5342,9 +5342,9 @@ void connection_alloc_slots(void)
 {
   slotsused = (unsigned int)0;
   slotsalloc = (unsigned int)64;
-  void *return_value_xcalloc$1;
-  return_value_xcalloc$1=xcalloc((unsigned long int)slotsalloc, sizeof(struct _connection *) /*8ul*/ );
-  slots = (struct _connection **)return_value_xcalloc$1;
+  void *return_value_xcalloc_1;
+  return_value_xcalloc_1=xcalloc((unsigned long int)slotsalloc, sizeof(struct _connection *) /*8ul*/ );
+  slots = (struct _connection **)return_value_xcalloc_1;
 }
 
 // connection_delete
@@ -5379,16 +5379,16 @@ void connection_free_slots(void)
 struct _connection * connection_new(struct sockaddr *src, struct sockaddr *dst)
 {
   struct _connection *c;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct _connection) /*304ul*/ );
-  c = (struct _connection *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct _connection) /*304ul*/ );
+  c = (struct _connection *)return_value_xmalloc_1;
   memset((void *)c, 0, sizeof(struct _connection) /*304ul*/ );
   memcpy((void *)&c->src, (const void *)src, sizeof(struct sockaddr_storage) /*128ul*/ );
   memcpy((void *)&c->dst, (const void *)dst, sizeof(struct sockaddr_storage) /*128ul*/ );
   c->alloc = (unsigned int)16384;
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc((unsigned long int)c->alloc);
-  c->data = (unsigned char *)return_value_xmalloc$2;
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc((unsigned long int)c->alloc);
+  c->data = (unsigned char *)return_value_xmalloc_2;
   c->last=time((signed long int *)(void *)0);
   c->blocks = (struct datablock *)(void *)0;
   return c;
@@ -5411,9 +5411,9 @@ void connection_push(struct _connection *c, const unsigned char *data, unsigned 
     do
       c->alloc = c->alloc * (unsigned int)2;
     while(!(c->alloc >= len + off));
-    void *return_value_xrealloc$1;
-    return_value_xrealloc$1=xrealloc((void *)c->data, (unsigned long int)c->alloc);
-    c->data = (unsigned char *)return_value_xrealloc$1;
+    void *return_value_xrealloc_1;
+    return_value_xrealloc_1=xrealloc((void *)c->data, (unsigned long int)c->alloc);
+    c->data = (unsigned char *)return_value_xrealloc_1;
   }
 
   memcpy((void *)(c->data + (signed long int)off), (const void *)data, (unsigned long int)len);
@@ -5421,9 +5421,9 @@ void connection_push(struct _connection *c, const unsigned char *data, unsigned 
     c->len = off + len;
 
   c->last=time((signed long int *)(void *)0);
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc(sizeof(struct datablock) /*40ul*/ );
-  B = (struct datablock *)return_value_xmalloc$2;
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc(sizeof(struct datablock) /*40ul*/ );
+  B = (struct datablock *)return_value_xmalloc_2;
   *B = BZ;
   B->off = (signed int)off;
   B->len = (signed int)len;
@@ -5431,23 +5431,23 @@ void connection_push(struct _connection *c, const unsigned char *data, unsigned 
   B->next = (struct datablock *)(void *)0;
   b = c->blocks;
   bl = (struct datablock *)(void *)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   do
   {
     if(b == ((struct datablock *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = off <= (unsigned int)b->off ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = off <= (unsigned int)b->off ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       if(bl == ((struct datablock *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = off > (unsigned int)bl->off ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = off > (unsigned int)bl->off ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         B->next = b;
         if(!(bl == ((struct datablock *)NULL)))
@@ -5508,11 +5508,11 @@ char * connection_string(struct sockaddr *src, struct sockaddr *dst)
 // file tmpdir.c line 234
 static signed int count_tmpfiles(void)
 {
-  signed long int return_value_time$2;
-  return_value_time$2=time((signed long int *)(void *)0);
+  signed long int return_value_time_2;
+  return_value_time_2=time((signed long int *)(void *)0);
   static signed int num;
   static signed long int last_counted;
-  if(!(last_counted >= return_value_time$2 + -5l))
+  if(!(last_counted >= return_value_time_2 + -5l))
   {
     struct __dirstream *d;
     struct dirent *de;
@@ -5526,9 +5526,9 @@ static signed int count_tmpfiles(void)
         if(de == ((struct dirent *)NULL))
           break;
 
-        signed int return_value_is_tempfile$1;
-        return_value_is_tempfile$1=is_tempfile(de->d_name);
-        if(!(return_value_is_tempfile$1 == 0))
+        signed int return_value_is_tempfile_1;
+        return_value_is_tempfile_1=is_tempfile(de->d_name);
+        if(!(return_value_is_tempfile_1 == 0))
           num = num + 1;
 
       }
@@ -5552,23 +5552,23 @@ void create_pidfile(void)
   pidfile_fd=open("/tmp/driftnet.pid", 02 | 0100, 0400 | 0200);
   if(pidfile_fd == -1)
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "Could not open/create PID file %s", (const void *)"/tmp/driftnet.pid");
+    log_msg((enum anonymous_25)LOG_ERROR, "Could not open/create PID file %s", (const void *)"/tmp/driftnet.pid");
     exit(-1);
   }
 
   flags=fcntl(pidfile_fd, 1);
   if(flags == -1)
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "Could not get flags for PID file %s", (const void *)"/tmp/driftnet.pid");
+    log_msg((enum anonymous_25)LOG_ERROR, "Could not get flags for PID file %s", (const void *)"/tmp/driftnet.pid");
     exit(-1);
   }
 
   flags = flags | 1;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(pidfile_fd, 2, flags);
-  if(return_value_fcntl$1 == -1)
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(pidfile_fd, 2, flags);
+  if(return_value_fcntl_1 == -1)
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "Could not set flags for PID file %s", (const void *)"/tmp/driftnet.pid");
+    log_msg((enum anonymous_25)LOG_ERROR, "Could not set flags for PID file %s", (const void *)"/tmp/driftnet.pid");
     exit(-1);
   }
 
@@ -5576,57 +5576,57 @@ void create_pidfile(void)
   fl.l_whence = (signed short int)0;
   fl.l_start = (signed long int)0;
   fl.l_len = (signed long int)0;
-  signed int return_value_fcntl$5;
-  return_value_fcntl$5=fcntl(pidfile_fd, 6, &fl);
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  if(return_value_fcntl$5 == -1)
+  signed int return_value_fcntl_5;
+  return_value_fcntl_5=fcntl(pidfile_fd, 6, &fl);
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  if(return_value_fcntl_5 == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 11)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 11)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = *return_value___errno_location$3 == 13 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = *return_value___errno_location_3 == 13 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
-      log_msg((enum anonymous$25)LOG_WARNING, "PID file '%s' is locked; probably the program is already running", (const void *)"/tmp/driftnet.pid");
-      log_msg((enum anonymous$25)LOG_WARNING, "if not, try to remove the file %s", (const void *)"/tmp/driftnet.pid");
+      log_msg((enum anonymous_25)LOG_WARNING, "PID file '%s' is locked; probably the program is already running", (const void *)"/tmp/driftnet.pid");
+      log_msg((enum anonymous_25)LOG_WARNING, "if not, try to remove the file %s", (const void *)"/tmp/driftnet.pid");
       exit(0);
     }
 
     else
     {
-      log_msg((enum anonymous$25)LOG_ERROR, "Unable to lock PID file '%s'", (const void *)"/tmp/driftnet.pid");
+      log_msg((enum anonymous_25)LOG_ERROR, "Unable to lock PID file '%s'", (const void *)"/tmp/driftnet.pid");
       exit(-1);
     }
   }
 
-  signed int return_value_ftruncate$6;
-  return_value_ftruncate$6=ftruncate(pidfile_fd, (signed long int)0);
-  if(return_value_ftruncate$6 == -1)
+  signed int return_value_ftruncate_6;
+  return_value_ftruncate_6=ftruncate(pidfile_fd, (signed long int)0);
+  if(return_value_ftruncate_6 == -1)
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "Could not truncate PID file '%s'", (const void *)"/tmp/driftnet.pid");
+    log_msg((enum anonymous_25)LOG_ERROR, "Could not truncate PID file '%s'", (const void *)"/tmp/driftnet.pid");
     close(pidfile_fd);
     exit(-1);
   }
 
-  signed int return_value_getpid$7;
-  return_value_getpid$7=getpid();
-  snprintf(buf, (unsigned long int)64, "%ld\n", (signed long int)return_value_getpid$7);
-  unsigned long int return_value_strlen$8;
-  return_value_strlen$8=strlen(buf);
-  signed long int return_value_write$9;
-  return_value_write$9=write(pidfile_fd, (const void *)buf, return_value_strlen$8);
-  unsigned long int return_value_strlen$10;
-  return_value_strlen$10=strlen(buf);
-  if(!((unsigned long int)return_value_write$9 == return_value_strlen$10))
+  signed int return_value_getpid_7;
+  return_value_getpid_7=getpid();
+  snprintf(buf, (unsigned long int)64, "%ld\n", (signed long int)return_value_getpid_7);
+  unsigned long int return_value_strlen_8;
+  return_value_strlen_8=strlen(buf);
+  signed long int return_value_write_9;
+  return_value_write_9=write(pidfile_fd, (const void *)buf, return_value_strlen_8);
+  unsigned long int return_value_strlen_10;
+  return_value_strlen_10=strlen(buf);
+  if(!((unsigned long int)return_value_write_9 == return_value_strlen_10))
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "writing to PID file '%s'", (const void *)"/tmp/driftnet.pid");
+    log_msg((enum anonymous_25)LOG_ERROR, "writing to PID file '%s'", (const void *)"/tmp/driftnet.pid");
     close(pidfile_fd);
     exit(-1);
   }
@@ -5637,7 +5637,7 @@ void create_pidfile(void)
 // file display.c line 101
 signed int delete_event(struct _GtkWidget *widget, union _GdkEvent *event, void *data)
 {
-  log_msg((enum anonymous$25)LOG_INFO, "display child shutting down\n");
+  log_msg((enum anonymous_25)LOG_INFO, "display child shutting down\n");
   return 0;
 }
 
@@ -5663,13 +5663,13 @@ void dispatch_http_req(const char *mname, const unsigned char *data, const unsig
   {
     path = (const char *)(data + (signed long int)4);
     pathlen = (signed int)((p - (signed long int)9) - (unsigned char *)path);
-    signed int return_value_memcmp$3;
-    return_value_memcmp$3=memcmp((const void *)path, (const void *)"http://", (unsigned long int)7);
-    if(return_value_memcmp$3 == 0)
+    signed int return_value_memcmp_3;
+    return_value_memcmp_3=memcmp((const void *)path, (const void *)"http://", (unsigned long int)7);
+    if(return_value_memcmp_3 == 0)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(pathlen + 1));
-      url = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(pathlen + 1));
+      url = (char *)return_value_malloc_1;
       sprintf(url, "%.*s", pathlen, path);
     }
 
@@ -5688,9 +5688,9 @@ void dispatch_http_req(const char *mname, const unsigned char *data, const unsig
       if(hostlen == 0)
         goto __CPROVER_DUMP_L7;
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)(hostlen + pathlen + 9));
-      url = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)(hostlen + pathlen + 9));
+      url = (char *)return_value_malloc_2;
       sprintf(url, "http://%.*s%.*s", hostlen, host, pathlen, path);
     }
     fprintf(stderr, "\n\n  %s\n\n", url);
@@ -5708,13 +5708,13 @@ void dispatch_image(const char *mname, const unsigned char *data, const unsigned
 {
   const char *name;
   name=tmpfile_write(mname, data, len);
-  const char *return_value_get_tmpdir$1;
+  const char *return_value_get_tmpdir_1;
   if(!(name == ((const char *)NULL)))
   {
     if(play_media == 0)
     {
-      return_value_get_tmpdir$1=get_tmpdir();
-      printf("%s/%s\n", return_value_get_tmpdir$1, name);
+      return_value_get_tmpdir_1=get_tmpdir();
+      printf("%s/%s\n", return_value_get_tmpdir_1, name);
     }
 
     else
@@ -5744,43 +5744,43 @@ static void do_gtkdisplay(void)
   struct _GIOChannel *chan;
   struct imgrect *ir;
   chan=g_io_channel_unix_new(imgpipe_readfd);
-  g_io_add_watch(chan, (enum anonymous$62)(G_IO_IN | G_IO_ERR | G_IO_HUP), (signed int (*)(struct _GIOChannel *, enum anonymous$62, void *))pipe_event, (void *)0);
+  g_io_add_watch(chan, (enum anonymous_62)(G_IO_IN | G_IO_ERR | G_IO_HUP), (signed int (*)(struct _GIOChannel *, enum anonymous_62, void *))pipe_event, (void *)0);
   fcntl(imgpipe_readfd, 4, 04000);
   nimgrects = 16;
-  void *return_value_xcalloc$1;
-  return_value_xcalloc$1=xcalloc((unsigned long int)nimgrects, sizeof(struct imgrect) /*24ul*/ );
-  imgrects = (struct imgrect *)return_value_xcalloc$1;
+  void *return_value_xcalloc_1;
+  return_value_xcalloc_1=xcalloc((unsigned long int)nimgrects, sizeof(struct imgrect) /*24ul*/ );
+  imgrects = (struct imgrect *)return_value_xcalloc_1;
   gtk_init(((signed int *)NULL), (char ***)(void *)0);
-  struct _GdkColormap *return_value_gdk_rgb_get_colormap$2;
-  return_value_gdk_rgb_get_colormap$2=gdk_rgb_get_colormap();
-  gtk_widget_push_colormap(return_value_gdk_rgb_get_colormap$2);
-  window=gtk_window_new((enum anonymous$56)GTK_WINDOW_TOPLEVEL);
+  struct _GdkColormap *return_value_gdk_rgb_get_colormap_2;
+  return_value_gdk_rgb_get_colormap_2=gdk_rgb_get_colormap();
+  gtk_widget_push_colormap(return_value_gdk_rgb_get_colormap_2);
+  window=gtk_window_new((enum anonymous_56)GTK_WINDOW_TOPLEVEL);
   gtk_widget_set_size_request(window, 320 + 2 * 6, 240 + 2 * 6);
   darea=gtk_drawing_area_new();
-  unsigned long int return_value_gtk_container_get_type$3;
-  return_value_gtk_container_get_type$3=gtk_container_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$4;
-  return_value_g_type_check_instance_cast$4=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_container_get_type$3);
-  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast$4, darea);
+  unsigned long int return_value_gtk_container_get_type_3;
+  return_value_gtk_container_get_type_3=gtk_container_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_4;
+  return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)window, return_value_gtk_container_get_type_3);
+  gtk_container_add((struct _GtkContainer *)return_value_g_type_check_instance_cast_4, darea);
   gtk_widget_set_events(darea, 2 | 256 | 512);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$5;
-  return_value_g_type_check_instance_cast$5=g_type_check_instance_cast((struct _GTypeInstance *)window, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$5, "delete_event", (void (*)(void))delete_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$42)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$6;
-  return_value_g_type_check_instance_cast$6=g_type_check_instance_cast((struct _GTypeInstance *)window, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$6, "destroy", (void (*)(void))destroy, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$42)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$7;
-  return_value_g_type_check_instance_cast$7=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$7, "expose-event", (void (*)(void))expose_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$42)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$8;
-  return_value_g_type_check_instance_cast$8=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$8, "configure_event", (void (*)(void))expose_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$42)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$9;
-  return_value_g_type_check_instance_cast$9=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$9, "button_press_event", (void (*)(void))button_press_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$42)0);
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$10;
-  return_value_g_type_check_instance_cast$10=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
-  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast$10, "button_release_event", (void (*)(void))button_release_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous$42)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_5;
+  return_value_g_type_check_instance_cast_5=g_type_check_instance_cast((struct _GTypeInstance *)window, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_5, "delete_event", (void (*)(void))delete_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_42)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_6;
+  return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)window, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_6, "destroy", (void (*)(void))destroy, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_42)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_7;
+  return_value_g_type_check_instance_cast_7=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_7, "expose-event", (void (*)(void))expose_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_42)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_8;
+  return_value_g_type_check_instance_cast_8=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_8, "configure_event", (void (*)(void))expose_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_42)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_9;
+  return_value_g_type_check_instance_cast_9=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_9, "button_press_event", (void (*)(void))button_press_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_42)0);
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_10;
+  return_value_g_type_check_instance_cast_10=g_type_check_instance_cast((struct _GTypeInstance *)darea, (unsigned long int)(20 << 2));
+  g_signal_connect_data((void *)(struct _GObject *)return_value_g_type_check_instance_cast_10, "button_release_event", (void (*)(void))button_release_event, (void *)0, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_42)0);
   gtk_widget_show_all(window);
   gtk_main();
   ir = imgrects;
@@ -5804,8 +5804,8 @@ void do_image_display(char *img_prefix, signed int beep)
   signed int pfd[2l];
   pipe(pfd);
   dpychld=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(dpychld == 0))
   {
     if(dpychld == -1)
@@ -5824,14 +5824,14 @@ void do_image_display(char *img_prefix, signed int beep)
 
   __CPROVER_DUMP_L2:
     ;
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg((enum anonymous$25)LOG_ERROR, "fork failed, reason: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg((enum anonymous_25)LOG_ERROR, "fork failed, reason: %s", return_value_strerror_2);
     unexpected_exit(-1);
   }
   close(pfd[(signed long int)0]);
   imgpipe_writefd = pfd[(signed long int)1];
-  log_msg((enum anonymous$25)LOG_INFO, "started display child, pid %d", (signed int)dpychld);
+  log_msg((enum anonymous_25)LOG_INFO, "started display child, pid %d", (signed int)dpychld);
   goto __CPROVER_DUMP_L4;
 
 __CPROVER_DUMP_L4:
@@ -5872,24 +5872,24 @@ void expose_event(struct _GtkWidget *widget, union _GdkEvent *event, void *data)
   if(!(darea == ((struct _GtkWidget *)NULL)))
     drawable = darea->window;
 
-  unsigned long int return_value_gdk_drawable_get_type$1;
-  return_value_gdk_drawable_get_type$1=gdk_drawable_get_type();
-  struct _GTypeInstance *return_value_g_type_check_instance_cast$2;
-  return_value_g_type_check_instance_cast$2=g_type_check_instance_cast((struct _GTypeInstance *)drawable, return_value_gdk_drawable_get_type$1);
-  gdk_drawable_get_size((struct _GdkDrawable *)return_value_g_type_check_instance_cast$2, &width, &height);
-  _Bool tmp_if_expr$3;
+  unsigned long int return_value_gdk_drawable_get_type_1;
+  return_value_gdk_drawable_get_type_1=gdk_drawable_get_type();
+  struct _GTypeInstance *return_value_g_type_check_instance_cast_2;
+  return_value_g_type_check_instance_cast_2=g_type_check_instance_cast((struct _GTypeInstance *)drawable, return_value_gdk_drawable_get_type_1);
+  gdk_drawable_get_size((struct _GdkDrawable *)return_value_g_type_check_instance_cast_2, &width, &height);
+  _Bool tmp_if_expr_3;
   if(backing_image == ((struct _img *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = backing_image->width != (unsigned int)width ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = backing_image->width != (unsigned int)width ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = backing_image->height != (unsigned int)height ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = backing_image->height != (unsigned int)height ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
     make_backing_image();
 
   update_window();
@@ -5900,7 +5900,7 @@ void expose_event(struct _GtkWidget *widget, union _GdkEvent *event, void *data)
 void extract_media(struct _connection *c)
 {
   struct datablock *b = c->blocks;
-  signed int return_value_tmpfiles_limit_reached$1;
+  signed int return_value_tmpfiles_limit_reached_1;
   for( ; !(b == ((struct datablock *)NULL)); b = b->next)
     if(b->len >= 1)
     {
@@ -5924,8 +5924,8 @@ void extract_media(struct _connection *c)
                 ptr=driver[(signed long int)i].find_data(ptr, (const unsigned long int)((signed long int)(b->off + b->len) - (ptr - c->data)), &media, &mlen);
                 if(!(media == ((unsigned char *)NULL)))
                 {
-                  return_value_tmpfiles_limit_reached$1=tmpfiles_limit_reached();
-                  if(return_value_tmpfiles_limit_reached$1 == 0)
+                  return_value_tmpfiles_limit_reached_1=tmpfiles_limit_reached();
+                  if(return_value_tmpfiles_limit_reached_1 == 0)
                     driver[(signed long int)i].dispatch_data(driver[(signed long int)i].name, media, mlen);
 
                 }
@@ -5949,18 +5949,18 @@ void extract_media(struct _connection *c)
 struct _connection ** find_connection(struct sockaddr *src, struct sockaddr *dst)
 {
   struct _connection **C = slots;
-  signed int return_value_memcmp$2;
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_2;
+  signed int return_value_memcmp_1;
   for( ; !(C >= slots + (signed long int)slotsalloc); C = C + 1l)
   {
     struct _connection *c = *C;
     if(!(c == ((struct _connection *)NULL)))
     {
-      return_value_memcmp$2=memcmp((const void *)&c->src, (const void *)src, sizeof(struct sockaddr_storage) /*128ul*/ );
-      if(return_value_memcmp$2 == 0)
+      return_value_memcmp_2=memcmp((const void *)&c->src, (const void *)src, sizeof(struct sockaddr_storage) /*128ul*/ );
+      if(return_value_memcmp_2 == 0)
       {
-        return_value_memcmp$1=memcmp((const void *)&c->dst, (const void *)dst, sizeof(struct sockaddr_storage) /*128ul*/ );
-        if(return_value_memcmp$1 == 0)
+        return_value_memcmp_1=memcmp((const void *)&c->dst, (const void *)dst, sizeof(struct sockaddr_storage) /*128ul*/ );
+        if(return_value_memcmp_1 == 0)
           return C;
 
       }
@@ -6176,10 +6176,10 @@ unsigned char * find_http_req(const unsigned char *data, const unsigned long int
   unsigned char *le;
   unsigned char *blankline;
   unsigned char *hosthdr;
-  _Bool tmp_if_expr$3;
-  char *return_value___builtin_strchr$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_memcmp$5;
+  _Bool tmp_if_expr_3;
+  char *return_value___builtin_strchr_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_memcmp_5;
   if(!(len >= 40ul))
     return (unsigned char *)data;
 
@@ -6215,17 +6215,17 @@ unsigned char * find_http_req(const unsigned char *data, const unsigned long int
 
         else
         {
-          signed int return_value_memcmp$1;
-          return_value_memcmp$1=memcmp((const void *)(le - (signed long int)9), (const void *)" HTTP/1.", (unsigned long int)8);
-          if(!(return_value_memcmp$1 == 0))
-            tmp_if_expr$3 = (_Bool)1;
+          signed int return_value_memcmp_1;
+          return_value_memcmp_1=memcmp((const void *)(le - (signed long int)9), (const void *)" HTTP/1.", (unsigned long int)8);
+          if(!(return_value_memcmp_1 == 0))
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
-            return_value___builtin_strchr$2=__builtin_strchr("01", (signed int)*(le - (signed long int)1));
-            tmp_if_expr$3 = !(return_value___builtin_strchr$2 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+            return_value___builtin_strchr_2=__builtin_strchr("01", (signed int)*(le - (signed long int)1));
+            tmp_if_expr_3 = !(return_value___builtin_strchr_2 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
             return le + (signed long int)2;
 
           else
@@ -6241,17 +6241,17 @@ unsigned char * find_http_req(const unsigned char *data, const unsigned long int
 
             else
             {
-              signed int return_value_memcmp$4;
-              return_value_memcmp$4=memcmp((const void *)(req + (signed long int)4), (const void *)"http://", (unsigned long int)7);
-              if(return_value_memcmp$4 == 0)
-                tmp_if_expr$6 = (_Bool)1;
+              signed int return_value_memcmp_4;
+              return_value_memcmp_4=memcmp((const void *)(req + (signed long int)4), (const void *)"http://", (unsigned long int)7);
+              if(return_value_memcmp_4 == 0)
+                tmp_if_expr_6 = (_Bool)1;
 
               else
               {
-                return_value_memcmp$5=memcmp((const void *)(req + (signed long int)5), (const void *)"http://", (unsigned long int)7);
-                tmp_if_expr$6 = return_value_memcmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_memcmp_5=memcmp((const void *)(req + (signed long int)5), (const void *)"http://", (unsigned long int)7);
+                tmp_if_expr_6 = return_value_memcmp_5 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(!tmp_if_expr$6)
+              if(!tmp_if_expr_6)
               {
                 hosthdr=memstr(le, (const unsigned long int)((blankline - le) + (signed long int)2), (unsigned char *)"\r\nHost: ", (const unsigned long int)8);
                 if(!(hosthdr == ((unsigned char *)NULL)))
@@ -6366,8 +6366,8 @@ unsigned char * find_mpeg_stream(const unsigned char *data, const unsigned long 
   unsigned char *p;
   struct mpeg_audio_hdr H;
   *mpegdata = (unsigned char *)(void *)0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_mpeg_hdr_parse$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_mpeg_hdr_parse_3;
   if(!(len >= 4ul))
     return (unsigned char *)data;
 
@@ -6378,9 +6378,9 @@ unsigned char * find_mpeg_stream(const unsigned char *data, const unsigned long 
     {
       signed int nframes;
       unsigned char *q;
-      void *return_value_memchr$1;
-      return_value_memchr$1=memchr((const void *)p, 0xff, (len - (unsigned long int)4) - (unsigned long int)(p - data));
-      stream_start = (unsigned char *)return_value_memchr$1;
+      void *return_value_memchr_1;
+      return_value_memchr_1=memchr((const void *)p, 0xff, (len - (unsigned long int)4) - (unsigned long int)(p - data));
+      stream_start = (unsigned char *)return_value_memchr_1;
       if(stream_start == ((unsigned char *)NULL))
         return (unsigned char *)((data + (signed long int)len) - (signed long int)4);
 
@@ -6389,9 +6389,9 @@ unsigned char * find_mpeg_stream(const unsigned char *data, const unsigned long 
 
       else
       {
-        signed int return_value_mpeg_hdr_parse$2;
-        return_value_mpeg_hdr_parse$2=mpeg_hdr_parse(stream_start, &H);
-        if(return_value_mpeg_hdr_parse$2 == 0)
+        signed int return_value_mpeg_hdr_parse_2;
+        return_value_mpeg_hdr_parse_2=mpeg_hdr_parse(stream_start, &H);
+        if(return_value_mpeg_hdr_parse_2 == 0)
           p = stream_start + (signed long int)1;
 
         else
@@ -6409,14 +6409,14 @@ unsigned char * find_mpeg_stream(const unsigned char *data, const unsigned long 
             q = q + (signed long int)delta;
             if(!(q >= data + (signed long int)len + -4l) && !(nframes >= 100))
             {
-              return_value_mpeg_hdr_parse$3=mpeg_hdr_parse(q, &H);
-              tmp_if_expr$4 = return_value_mpeg_hdr_parse$3 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_mpeg_hdr_parse_3=mpeg_hdr_parse(q, &H);
+              tmp_if_expr_4 = return_value_mpeg_hdr_parse_3 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$4 = (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
           }
-          while(tmp_if_expr$4);
+          while(tmp_if_expr_4);
           if(nframes >= 100)
           {
             *mpegdata = stream_start;
@@ -6449,10 +6449,10 @@ unsigned char * find_png_eoi(unsigned char *buffer, const unsigned long int len)
     memcpy((void *)&chunk, (const void *)data, sizeof(struct png_chunk) /*8ul*/ );
     memset((void *)chunk_code, 0, (unsigned long int)(4 + 1));
     memcpy((void *)chunk_code, (const void *)chunk.code, (unsigned long int)4);
-    datalen=__bswap_32$link1(chunk.datalen);
-    signed int return_value_strncasecmp$1;
-    return_value_strncasecmp$1=strncasecmp((char *)chunk_code, "iend", (unsigned long int)4);
-    if(return_value_strncasecmp$1 == 0)
+    datalen=__bswap_32_link1(chunk.datalen);
+    signed int return_value_strncasecmp_1;
+    return_value_strncasecmp_1=strncasecmp((char *)chunk_code, "iend", (unsigned long int)4);
+    if(return_value_strncasecmp_1 == 0)
       return (unsigned char *)(data + (signed long int)sizeof(struct png_chunk) /*8ul*/  + (signed long int)4);
 
     if(!(len + -((unsigned long int)(data - buffer)) >= (unsigned long int)datalen))
@@ -6499,13 +6499,13 @@ unsigned char * find_png_image(const unsigned char *data, const unsigned long in
 
 // get_datalink_info
 // file packetcapture.c line 232
-static struct anonymous$16 get_datalink_info(struct pcap *pcap)
+static struct anonymous_16 get_datalink_info(struct pcap *pcap)
 {
-  struct anonymous$16 info;
+  struct anonymous_16 info;
   info.type=pcap_datalink(pcap);
-  signed int return_value_pcap_datalink$1;
-  return_value_pcap_datalink$1=pcap_datalink(pcap);
-  info.name=pcap_datalink_val_to_name(return_value_pcap_datalink$1);
+  signed int return_value_pcap_datalink_1;
+  return_value_pcap_datalink_1=pcap_datalink(pcap);
+  info.name=pcap_datalink_val_to_name(return_value_pcap_datalink_1);
   return info;
 }
 
@@ -6518,9 +6518,9 @@ char * get_default_interface(void)
   interface=pcap_lookupdev(ebuf);
   if(interface == ((char *)NULL))
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "pcap_lookupdev: %s", (const void *)ebuf);
-    log_msg((enum anonymous$25)LOG_ERROR, "try specifying an interface with -i");
-    log_msg((enum anonymous$25)LOG_ERROR, "or a pcap capture file with -f");
+    log_msg((enum anonymous_25)LOG_ERROR, "pcap_lookupdev: %s", (const void *)ebuf);
+    log_msg((enum anonymous_25)LOG_ERROR, "try specifying an interface with -i");
+    log_msg((enum anonymous_25)LOG_ERROR, "or a pcap capture file with -f");
     unexpected_exit(-1);
   }
 
@@ -6529,7 +6529,7 @@ char * get_default_interface(void)
 
 // get_levelstring
 // file log.c line 97
-static char * get_levelstring(enum anonymous$25 level)
+static char * get_levelstring(enum anonymous_25 level)
 {
   switch((signed int)level)
   {
@@ -6550,7 +6550,7 @@ static char * get_levelstring(enum anonymous$25 level)
 
 // get_loglevel
 // file log.c line 34
-enum anonymous$25 get_loglevel(void)
+enum anonymous_25 get_loglevel(void)
 {
   return loglevel;
 }
@@ -6590,15 +6590,15 @@ signed int gif_abort_load(struct _img *I)
 signed int gif_load_hdr(struct _img *I)
 {
   struct GifFileType *g;
-  signed int return_value_fileno$1;
-  return_value_fileno$1=fileno(I->fp);
-  struct GifFileType *return_value_DGifOpenFileHandle$2;
-  return_value_DGifOpenFileHandle$2=DGifOpenFileHandle(return_value_fileno$1, (signed int *)(void *)0);
-  I->us = (void *)return_value_DGifOpenFileHandle$2;
+  signed int return_value_fileno_1;
+  return_value_fileno_1=fileno(I->fp);
+  struct GifFileType *return_value_DGifOpenFileHandle_2;
+  return_value_DGifOpenFileHandle_2=DGifOpenFileHandle(return_value_fileno_1, (signed int *)(void *)0);
+  I->us = (void *)return_value_DGifOpenFileHandle_2;
   g = (struct GifFileType *)I->us;
   if(I->us == NULL)
   {
-    I->err = (enum anonymous$59)IE_HDRFORMAT;
+    I->err = (enum anonymous_59)IE_HDRFORMAT;
     return 0;
   }
 
@@ -6621,12 +6621,12 @@ signed int gif_load_img(struct _img *I)
   unsigned char *end;
   struct GifColorType *pal;
   unsigned int *q;
-  signed int return_value_DGifSlurp$1;
-  return_value_DGifSlurp$1=DGifSlurp(g);
-  _Bool tmp_if_expr$2;
-  if(return_value_DGifSlurp$1 == 0)
+  signed int return_value_DGifSlurp_1;
+  return_value_DGifSlurp_1=DGifSlurp(g);
+  _Bool tmp_if_expr_2;
+  if(return_value_DGifSlurp_1 == 0)
   {
-    I->err = (enum anonymous$59)IE_IMGFORMAT;
+    I->err = (enum anonymous_59)IE_IMGFORMAT;
     return 0;
   }
 
@@ -6634,18 +6634,18 @@ signed int gif_load_img(struct _img *I)
   {
     img_alloc(I);
     if(!(g->ImageCount >= 1))
-      I->err = (enum anonymous$59)IE_IMGFORMAT;
+      I->err = (enum anonymous_59)IE_IMGFORMAT;
 
     else
     {
       si = g->SavedImages;
       if(!((unsigned int)si->ImageDesc.Width == I->width))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (unsigned int)si->ImageDesc.Height != I->height ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        I->err = (enum anonymous$59)IE_IMGFORMAT;
+        tmp_if_expr_2 = (unsigned int)si->ImageDesc.Height != I->height ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        I->err = (enum anonymous_59)IE_IMGFORMAT;
 
       else
       {
@@ -6732,16 +6732,16 @@ signed int gif_load_img(struct _img *I)
 
 // handle_link_layer
 // file layer2.h line 36
-signed int handle_link_layer(struct anonymous$16 *info, const unsigned char *pkt, unsigned int caplen, unsigned char *nextproto, signed int *offsetnext)
+signed int handle_link_layer(struct anonymous_16 *info, const unsigned char *pkt, unsigned int caplen, unsigned char *nextproto, signed int *offsetnext)
 {
   unsigned short int llnextproto = (unsigned short int)0;
   struct ieee80211_radiotap_header *radiotap_header;
   const unsigned char *next_header;
   struct ethhdr *eptr;
   unsigned long int remaining_len;
-  unsigned short int tmp_statement_expression$1;
-  signed int return_value_parse_ieee80211$2;
-  signed int return_value_parse_ieee80211$3;
+  unsigned short int tmp_statement_expression_1;
+  signed int return_value_parse_ieee80211_2;
+  signed int return_value_parse_ieee80211_3;
   switch(info->type)
   {
     case 1:
@@ -6750,9 +6750,9 @@ signed int handle_link_layer(struct anonymous$16 *info, const unsigned char *pkt
       *offsetnext = (signed int)sizeof(struct ethhdr) /*14ul*/ ;
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)eptr->h_proto;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$1 = __v;
-      llnextproto = tmp_statement_expression$1;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_1 = __v;
+      llnextproto = tmp_statement_expression_1;
       break;
     }
     case 127:
@@ -6760,8 +6760,8 @@ signed int handle_link_layer(struct anonymous$16 *info, const unsigned char *pkt
       radiotap_header = (struct ieee80211_radiotap_header *)pkt;
       next_header = pkt + (signed long int)radiotap_header->it_len;
       remaining_len = (unsigned long int)(caplen - (unsigned int)radiotap_header->it_len);
-      return_value_parse_ieee80211$2=parse_ieee80211(next_header, (unsigned int)remaining_len, &llnextproto, offsetnext);
-      if(!(return_value_parse_ieee80211$2 == 0))
+      return_value_parse_ieee80211_2=parse_ieee80211(next_header, (unsigned int)remaining_len, &llnextproto, offsetnext);
+      if(!(return_value_parse_ieee80211_2 == 0))
         return -1;
 
       *offsetnext = *offsetnext + (signed int)radiotap_header->it_len;
@@ -6769,15 +6769,15 @@ signed int handle_link_layer(struct anonymous$16 *info, const unsigned char *pkt
     }
     case 105:
     {
-      return_value_parse_ieee80211$3=parse_ieee80211(pkt, caplen, &llnextproto, offsetnext);
-      if(!(return_value_parse_ieee80211$3 == 0))
+      return_value_parse_ieee80211_3=parse_ieee80211(pkt, caplen, &llnextproto, offsetnext);
+      if(!(return_value_parse_ieee80211_3 == 0))
         return -1;
 
       break;
     }
     default:
     {
-      log_msg((enum anonymous$25)LOG_WARNING, "link-level (%s) header is not supported", info->name);
+      log_msg((enum anonymous_25)LOG_WARNING, "link-level (%s) header is not supported", info->name);
       return -1;
     }
   }
@@ -6799,7 +6799,7 @@ signed int handle_link_layer(struct anonymous$16 *info, const unsigned char *pkt
       return -1;
     default:
     {
-      log_msg((enum anonymous$25)LOG_WARNING, "link-level next protocol (%hd) is not supported", llnextproto);
+      log_msg((enum anonymous_25)LOG_WARNING, "link-level next protocol (%hd) is not supported", llnextproto);
       return -1;
     }
   }
@@ -6812,9 +6812,9 @@ void img_alloc(struct _img *I)
 {
   unsigned int **p;
   unsigned int *q;
-  void *return_value_xcalloc$1;
-  return_value_xcalloc$1=xcalloc((unsigned long int)I->height * sizeof(unsigned int *) /*8ul*/  + (unsigned long int)(I->width * I->height) * sizeof(unsigned int) /*4ul*/ , (unsigned long int)1);
-  I->data = (unsigned int **)return_value_xcalloc$1;
+  void *return_value_xcalloc_1;
+  return_value_xcalloc_1=xcalloc((unsigned long int)I->height * sizeof(unsigned int *) /*8ul*/  + (unsigned long int)(I->width * I->height) * sizeof(unsigned int) /*4ul*/ , (unsigned long int)1);
+  I->data = (unsigned int **)return_value_xcalloc_1;
   I->flat = (unsigned int *)(I->data + (signed long int)I->height);
   p = I->data;
   q = I->flat;
@@ -6829,12 +6829,12 @@ void img_alloc(struct _img *I)
 // file img.c line 222
 inline void img_clip(struct _img * const I, signed int *x, signed int *y)
 {
-  signed int return_value_img_clip_adj_x$1;
-  return_value_img_clip_adj_x$1=img_clip_adj_x(I, *x);
-  *x = *x + return_value_img_clip_adj_x$1;
-  signed int return_value_img_clip_adj_y$2;
-  return_value_img_clip_adj_y$2=img_clip_adj_y(I, *y);
-  *y = *y + return_value_img_clip_adj_y$2;
+  signed int return_value_img_clip_adj_x_1;
+  return_value_img_clip_adj_x_1=img_clip_adj_x(I, *x);
+  *x = *x + return_value_img_clip_adj_x_1;
+  signed int return_value_img_clip_adj_y_2;
+  return_value_img_clip_adj_y_2=img_clip_adj_y(I, *y);
+  *y = *y + return_value_img_clip_adj_y_2;
 }
 
 // img_clip_adj_x
@@ -6882,21 +6882,21 @@ void img_delete(struct _img *I)
 
 // img_load
 // file img.h line 74
-signed int img_load(struct _img *I, const enum anonymous$58 howmuch, const enum anonymous$57 type)
+signed int img_load(struct _img *I, const enum anonymous_58 howmuch, const enum anonymous_57 type)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   signed int return_value;
   if((signed int)type == unknown)
   {
-    I->err = (enum anonymous$59)IE_UNKNOWNTYPE;
+    I->err = (enum anonymous_59)IE_UNKNOWNTYPE;
     return 0;
   }
 
   else
     if(I->fp == ((struct _IO_FILE *)NULL))
     {
-      I->err = (enum anonymous$59)IE_NOSTREAM;
+      I->err = (enum anonymous_59)IE_NOSTREAM;
       return 0;
     }
 
@@ -6912,11 +6912,11 @@ signed int img_load(struct _img *I, const enum anonymous$58 howmuch, const enum 
           {
             signed int r;
             if((signed int)howmuch == header)
-              tmp_if_expr$1 = filedrvs[(signed long int)i].loadhdr != ((signed int (*)(struct _img *))NULL) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = filedrvs[(signed long int)i].loadhdr != ((signed int (*)(struct _img *))NULL) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = (_Bool)0;
+            if(tmp_if_expr_1)
             {
               r=filedrvs[(signed long int)i].loadhdr(I);
               if(!(r == 0))
@@ -6940,10 +6940,10 @@ signed int img_load(struct _img *I, const enum anonymous$58 howmuch, const enum 
 
                 }
 
-                I->load = (enum anonymous$58)header;
+                I->load = (enum anonymous_58)header;
                 r=filedrvs[(signed long int)i].loadimg(I);
                 if(!(r == 0))
-                  I->load = (enum anonymous$58)full;
+                  I->load = (enum anonymous_58)full;
 
                 return r;
               }
@@ -6951,17 +6951,17 @@ signed int img_load(struct _img *I, const enum anonymous$58 howmuch, const enum 
           }
 
       }
-  I->err = (enum anonymous$59)IE_UNKNOWNTYPE;
+  I->err = (enum anonymous_59)IE_UNKNOWNTYPE;
   return 0;
 }
 
 // img_load_file
 // file img.h line 76
-signed int img_load_file(struct _img *I, const char *name, const enum anonymous$58 howmuch, const enum anonymous$57 type)
+signed int img_load_file(struct _img *I, const char *name, const enum anonymous_58 howmuch, const enum anonymous_57 type)
 {
-  signed int return_value_strcasecmp$3;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_img_load$4;
+  signed int return_value_strcasecmp_3;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_img_load_4;
   if((signed int)howmuch == none)
     return 1;
 
@@ -6970,7 +6970,7 @@ signed int img_load_file(struct _img *I, const char *name, const enum anonymous$
     I->fp=fopen(name, "rb");
     if(I->fp == ((struct _IO_FILE *)NULL))
     {
-      I->err = (enum anonymous$59)IE_SYSERROR;
+      I->err = (enum anonymous_59)IE_SYSERROR;
       return 0;
     }
 
@@ -6985,28 +6985,28 @@ signed int img_load_file(struct _img *I, const char *name, const enum anonymous$
         for( ; !((unsigned long int)i >= 3ul); i = i + 1)
         {
           char *q = filedrvs[(signed long int)i].suffices;
-          for( ; !(*q == 0); q = q + (signed long int)(return_value_strlen$1 + (unsigned long int)1))
+          for( ; !(*q == 0); q = q + (signed long int)(return_value_strlen_1 + (unsigned long int)1))
           {
-            return_value_strcasecmp$3=strcasecmp(p, q);
-            if(return_value_strcasecmp$3 == 0)
+            return_value_strcasecmp_3=strcasecmp(p, q);
+            if(return_value_strcasecmp_3 == 0)
             {
               I->type = filedrvs[(signed long int)i].type;
-              signed int return_value_img_load$2;
-              return_value_img_load$2=img_load(I, howmuch, I->type);
-              return return_value_img_load$2;
+              signed int return_value_img_load_2;
+              return_value_img_load_2=img_load(I, howmuch, I->type);
+              return return_value_img_load_2;
             }
 
-            return_value_strlen$1=strlen(q);
+            return_value_strlen_1=strlen(q);
           }
         }
       }
 
       else
       {
-        return_value_img_load$4=img_load(I, howmuch, type);
-        return return_value_img_load$4;
+        return_value_img_load_4=img_load(I, howmuch, type);
+        return return_value_img_load_4;
       }
-      I->err = (enum anonymous$59)IE_UNKNOWNTYPE;
+      I->err = (enum anonymous_59)IE_UNKNOWNTYPE;
       return 0;
     }
   }
@@ -7014,12 +7014,12 @@ signed int img_load_file(struct _img *I, const char *name, const enum anonymous$
 
 // img_load_stream
 // file img.c line 155
-signed int img_load_stream(struct _img *I, struct _IO_FILE *fp, const enum anonymous$58 howmuch, const enum anonymous$57 type)
+signed int img_load_stream(struct _img *I, struct _IO_FILE *fp, const enum anonymous_58 howmuch, const enum anonymous_57 type)
 {
   I->fp = fp;
-  signed int return_value_img_load$1;
-  return_value_img_load$1=img_load(I, howmuch, type);
-  return return_value_img_load$1;
+  signed int return_value_img_load_1;
+  return_value_img_load_1=img_load(I, howmuch, type);
+  return return_value_img_load_1;
 }
 
 // img_new
@@ -7027,9 +7027,9 @@ signed int img_load_stream(struct _img *I, struct _IO_FILE *fp, const enum anony
 struct _img * img_new(void)
 {
   struct _img *I;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct _img) /*56ul*/ );
-  I = (struct _img *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct _img) /*56ul*/ );
+  I = (struct _img *)return_value_xmalloc_1;
   memset((void *)I, 0, sizeof(struct _img) /*56ul*/ );
   return I;
 }
@@ -7042,19 +7042,19 @@ struct _img * img_new_blank(const unsigned int width, const unsigned int height)
   I=img_new();
   I->width = width;
   I->height = height;
-  I->load = (enum anonymous$58)header;
+  I->load = (enum anonymous_58)header;
   return I;
 }
 
 // img_save
 // file img.c line 191
-signed int img_save(struct _img * const I, struct _IO_FILE *fp, const enum anonymous$57 type)
+signed int img_save(struct _img * const I, struct _IO_FILE *fp, const enum anonymous_57 type)
 {
   signed int i;
   signed int return_value;
   if((signed int)type == unknown)
   {
-    I->err = (enum anonymous$59)IE_UNKNOWNTYPE;
+    I->err = (enum anonymous_59)IE_UNKNOWNTYPE;
     return 0;
   }
 
@@ -7073,7 +7073,7 @@ signed int img_save(struct _img * const I, struct _IO_FILE *fp, const enum anony
       }
 
   }
-  I->err = (enum anonymous$59)IE_UNKNOWNTYPE;
+  I->err = (enum anonymous_59)IE_UNKNOWNTYPE;
   return 0;
 }
 
@@ -7108,62 +7108,62 @@ static signed int is_tempfile(const char *file)
   assert(file != (const char *)(void *)0);
   char *p;
   p=strrchr(file, 46);
-  signed int return_value_strncmp$12;
-  signed int tmp_statement_expression$1;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
-  _Bool tmp_if_expr$8;
-  signed int tmp_statement_expression$6;
-  _Bool tmp_if_expr$11;
-  signed int tmp_statement_expression$9;
+  signed int return_value_strncmp_12;
+  signed int tmp_statement_expression_1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
+  _Bool tmp_if_expr_8;
+  signed int tmp_statement_expression_6;
+  _Bool tmp_if_expr_11;
+  signed int tmp_statement_expression_9;
   if(!(p == ((char *)NULL)))
   {
-    return_value_strncmp$12=strncmp(file, "driftnet-", (unsigned long int)9);
-    if(!(return_value_strncmp$12 == 0))
+    return_value_strncmp_12=strncmp(file, "driftnet-", (unsigned long int)9);
+    if(!(return_value_strncmp_12 == 0))
       goto __CPROVER_DUMP_L7;
 
-    unsigned long int is_tempfile$$1$$2$$__s1_len;
-    unsigned long int is_tempfile$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(p, ".jpeg");
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
-      tmp_if_expr$5 = (_Bool)1;
+    unsigned long int is_tempfile__1__2____s1_len;
+    unsigned long int is_tempfile__1__2____s2_len;
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(p, ".jpeg");
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(p, ".gif");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      tmp_if_expr$5 = tmp_statement_expression$3 == 0 ? (_Bool)1 : (_Bool)0;
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(p, ".gif");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      tmp_if_expr_5 = tmp_statement_expression_3 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$8 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      unsigned long int is_tempfile$$1$$4$$__s1_len;
-      unsigned long int is_tempfile$$1$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$7;
-      return_value___builtin_strcmp$7=__builtin_strcmp(p, ".mp3");
-      tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-      tmp_if_expr$8 = tmp_statement_expression$6 == 0 ? (_Bool)1 : (_Bool)0;
+      unsigned long int is_tempfile__1__4____s1_len;
+      unsigned long int is_tempfile__1__4____s2_len;
+      signed int return_value___builtin_strcmp_7;
+      return_value___builtin_strcmp_7=__builtin_strcmp(p, ".mp3");
+      tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+      tmp_if_expr_8 = tmp_statement_expression_6 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
-      tmp_if_expr$11 = (_Bool)1;
+    if(tmp_if_expr_8)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      unsigned long int is_tempfile$$1$$5$$__s1_len;
-      unsigned long int is_tempfile$$1$$5$$__s2_len;
-      signed int return_value___builtin_strcmp$10;
-      return_value___builtin_strcmp$10=__builtin_strcmp(p, ".png");
-      tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-      tmp_if_expr$11 = tmp_statement_expression$9 == 0 ? (_Bool)1 : (_Bool)0;
+      unsigned long int is_tempfile__1__5____s1_len;
+      unsigned long int is_tempfile__1__5____s2_len;
+      signed int return_value___builtin_strcmp_10;
+      return_value___builtin_strcmp_10=__builtin_strcmp(p, ".png");
+      tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+      tmp_if_expr_11 = tmp_statement_expression_9 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$11)
+    if(!tmp_if_expr_11)
       goto __CPROVER_DUMP_L7;
 
     return 1;
@@ -7193,22 +7193,22 @@ signed int jpeg_load_hdr(struct _img *I)
 {
   struct jpeg_decompress_struct *cinfo;
   struct my_error_mgr *jerr;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct jpeg_decompress_struct) /*632ul*/ );
-  cinfo = (struct jpeg_decompress_struct *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct jpeg_decompress_struct) /*632ul*/ );
+  cinfo = (struct jpeg_decompress_struct *)return_value_xmalloc_1;
   memset((void *)cinfo, 0, sizeof(struct jpeg_decompress_struct) /*632ul*/ );
   I->us = (void *)cinfo;
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc(sizeof(struct my_error_mgr) /*368ul*/ );
-  jerr = (struct my_error_mgr *)return_value_xmalloc$2;
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc(sizeof(struct my_error_mgr) /*368ul*/ );
+  jerr = (struct my_error_mgr *)return_value_xmalloc_2;
   memset((void *)jerr, 0, sizeof(struct my_error_mgr) /*368ul*/ );
   cinfo->err=jpeg_std_error(&jerr->pub);
   jerr->pub.error_exit = my_error_exit;
-  signed int return_value__setjmp$3;
-  return_value__setjmp$3=_setjmp(jerr->jb);
-  if(!(return_value__setjmp$3 == 0))
+  signed int return_value__setjmp_3;
+  return_value__setjmp_3=_setjmp(jerr->jb);
+  if(!(return_value__setjmp_3 == 0))
   {
-    I->err = (enum anonymous$59)IE_HDRFORMAT;
+    I->err = (enum anonymous_59)IE_HDRFORMAT;
     jpeg_destroy_decompress(cinfo);
     return 0;
   }
@@ -7234,18 +7234,18 @@ signed int jpeg_load_img(struct _img *I)
   unsigned char **buffer;
   img_alloc(I);
   jerr = (struct my_error_mgr *)cinfo->err;
-  signed int return_value__setjmp$1;
-  return_value__setjmp$1=_setjmp(jerr->jb);
-  if(!(return_value__setjmp$1 == 0))
+  signed int return_value__setjmp_1;
+  return_value__setjmp_1=_setjmp(jerr->jb);
+  if(!(return_value__setjmp_1 == 0))
   {
-    I->err = (enum anonymous$59)IE_IMGFORMAT;
+    I->err = (enum anonymous_59)IE_IMGFORMAT;
     jpeg_destroy_decompress(cinfo);
     return 0;
   }
 
   else
   {
-    cinfo->out_color_space = (enum anonymous$18)JCS_RGB;
+    cinfo->out_color_space = (enum anonymous_18)JCS_RGB;
     cinfo->output_components = 3;
     cinfo->out_color_components = cinfo->output_components;
     buffer=cinfo->mem->alloc_sarray((struct jpeg_common_struct *)cinfo, 1, cinfo->output_width * (unsigned int)cinfo->output_components, (unsigned int)1);
@@ -7308,14 +7308,14 @@ signed int jpeg_save_img(struct _img * const I, struct _IO_FILE *fp)
   unsigned char **buffer;
   cinfo.err=jpeg_std_error(&jerr.pub);
   jerr.pub.error_exit = my_error_exit;
-  signed int return_value__setjmp$1;
-  return_value__setjmp$1=_setjmp(jerr.jb);
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  if(!(return_value__setjmp$1 == 0))
+  signed int return_value__setjmp_1;
+  return_value__setjmp_1=_setjmp(jerr.jb);
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  if(!(return_value__setjmp_1 == 0))
   {
-    I->err = (enum anonymous$59)IE_SYSERROR;
+    I->err = (enum anonymous_59)IE_SYSERROR;
     jpeg_destroy_compress(&cinfo);
     return 0;
   }
@@ -7327,7 +7327,7 @@ signed int jpeg_save_img(struct _img * const I, struct _IO_FILE *fp)
     cinfo.image_width = I->width;
     cinfo.image_height = I->height;
     cinfo.input_components = 3;
-    cinfo.in_color_space = (enum anonymous$18)JCS_RGB;
+    cinfo.in_color_space = (enum anonymous_18)JCS_RGB;
     jpeg_set_defaults(&cinfo);
     jpeg_start_compress(&cinfo, 1);
     buffer=cinfo.mem->alloc_sarray((struct jpeg_common_struct *)&cinfo, 1, I->width * (unsigned int)3, (unsigned int)1);
@@ -7341,15 +7341,15 @@ signed int jpeg_save_img(struct _img * const I, struct _IO_FILE *fp)
       q = (unsigned char *)buffer[(signed long int)0];
       if(!(p >= end))
       {
-        tmp_post$2 = q;
+        tmp_post_2 = q;
         q = q + 1l;
-        *tmp_post$2 = (unsigned char)(*p & (unsigned int)0x000000ff);
-        tmp_post$3 = q;
+        *tmp_post_2 = (unsigned char)(*p & (unsigned int)0x000000ff);
+        tmp_post_3 = q;
         q = q + 1l;
-        *tmp_post$3 = (unsigned char)((*p & (unsigned int)0x0000ff00) >> 8);
-        tmp_post$4 = q;
+        *tmp_post_3 = (unsigned char)((*p & (unsigned int)0x0000ff00) >> 8);
+        tmp_post_4 = q;
         q = q + 1l;
-        *tmp_post$4 = (unsigned char)((*p & (unsigned int)0x00ff0000) >> 16);
+        *tmp_post_4 = (unsigned char)((*p & (unsigned int)0x00ff0000) >> 16);
         p = p + 1l;
       }
 
@@ -7395,9 +7395,9 @@ signed int layer3_find_tcp(const unsigned char *pkt, unsigned char nextproto, si
         memcpy((void *)tcp, (const void *)(pkt + (signed long int)*offset), sizeof(struct tcphdr) /*20ul*/ );
         /* assertion sport && dport */
         assert(sport != ((unsigned short int *)NULL) && dport != ((unsigned short int *)NULL));
-        *sport = tcp->$anon0.$anon0.th_sport;
-        *dport = tcp->$anon0.$anon0.th_dport;
-        *offset = *offset + ((signed int)tcp->$anon0.$anon0.th_off << 2);
+        *sport = tcp->_anon0._anon0.th_sport;
+        *dport = tcp->_anon0._anon0.th_dport;
+        *offset = *offset + ((signed int)tcp->_anon0._anon0.th_off << 2);
         return 0;
       }
       case 4:
@@ -7405,18 +7405,18 @@ signed int layer3_find_tcp(const unsigned char *pkt, unsigned char nextproto, si
       case 0:
       {
         struct ip *ip;
-        struct sockaddr_in *layer3_find_tcp$$1$$1$$1$$1$$ps;
+        struct sockaddr_in *layer3_find_tcp__1__1__1__1__ps;
         struct sockaddr_in *pd;
         ip = (struct ip *)(pkt + (signed long int)*offset);
         nextproto = ip->ip_p;
         *offset = *offset + ((signed int)ip->ip_hl << 2);
         bzero((void *)src, sizeof(struct sockaddr_storage) /*128ul*/ );
         bzero((void *)dst, sizeof(struct sockaddr_storage) /*128ul*/ );
-        layer3_find_tcp$$1$$1$$1$$1$$ps = (struct sockaddr_in *)src;
+        layer3_find_tcp__1__1__1__1__ps = (struct sockaddr_in *)src;
         pd = (struct sockaddr_in *)dst;
-        layer3_find_tcp$$1$$1$$1$$1$$ps->sin_family = (unsigned short int)2;
-        memcpy((void *)&layer3_find_tcp$$1$$1$$1$$1$$ps->sin_addr.s_addr, (const void *)&ip->ip_src, sizeof(struct in_addr) /*4ul*/ );
-        sport = &layer3_find_tcp$$1$$1$$1$$1$$ps->sin_port;
+        layer3_find_tcp__1__1__1__1__ps->sin_family = (unsigned short int)2;
+        memcpy((void *)&layer3_find_tcp__1__1__1__1__ps->sin_addr.s_addr, (const void *)&ip->ip_src, sizeof(struct in_addr) /*4ul*/ );
+        sport = &layer3_find_tcp__1__1__1__1__ps->sin_port;
         pd->sin_family = (unsigned short int)2;
         memcpy((void *)&pd->sin_addr.s_addr, (const void *)&ip->ip_dst, sizeof(struct in_addr) /*4ul*/ );
         dport = &pd->sin_port;
@@ -7426,20 +7426,20 @@ signed int layer3_find_tcp(const unsigned char *pkt, unsigned char nextproto, si
       {
         struct ip6_hdr *ip6;
         struct sockaddr_in6 *ps;
-        struct sockaddr_in6 *layer3_find_tcp$$1$$1$$1$$2$$pd;
+        struct sockaddr_in6 *layer3_find_tcp__1__1__1__2__pd;
         ip6 = (struct ip6_hdr *)(pkt + (signed long int)*offset);
         nextproto = ip6->ip6_ctlun.ip6_un1.ip6_un1_nxt;
         *offset = *offset + (signed int)sizeof(struct ip6_hdr) /*40ul*/ ;
         bzero((void *)src, sizeof(struct sockaddr_storage) /*128ul*/ );
         bzero((void *)dst, sizeof(struct sockaddr_storage) /*128ul*/ );
         ps = (struct sockaddr_in6 *)src;
-        layer3_find_tcp$$1$$1$$1$$2$$pd = (struct sockaddr_in6 *)dst;
+        layer3_find_tcp__1__1__1__2__pd = (struct sockaddr_in6 *)dst;
         ps->sin6_family = (unsigned short int)10;
         memcpy((void *)&ps->sin6_addr, (const void *)&ip6->ip6_src, sizeof(struct in6_addr) /*16ul*/ );
         sport = &ps->sin6_port;
-        layer3_find_tcp$$1$$1$$1$$2$$pd->sin6_family = (unsigned short int)10;
-        memcpy((void *)&layer3_find_tcp$$1$$1$$1$$2$$pd->sin6_addr, (const void *)&ip6->ip6_dst, sizeof(struct in6_addr) /*16ul*/ );
-        dport = &layer3_find_tcp$$1$$1$$1$$2$$pd->sin6_port;
+        layer3_find_tcp__1__1__1__2__pd->sin6_family = (unsigned short int)10;
+        memcpy((void *)&layer3_find_tcp__1__1__1__2__pd->sin6_addr, (const void *)&ip6->ip6_dst, sizeof(struct in6_addr) /*16ul*/ );
+        dport = &layer3_find_tcp__1__1__1__2__pd->sin6_port;
         break;
       }
       case 60:
@@ -7465,13 +7465,13 @@ signed int layer3_find_tcp(const unsigned char *pkt, unsigned char nextproto, si
 
 end:
   ;
-  log_msg((enum anonymous$25)LOG_WARNING, "unsupported protocol dataframe (%d)", nextproto);
+  log_msg((enum anonymous_25)LOG_WARNING, "unsupported protocol dataframe (%d)", nextproto);
   return -1;
 }
 
 // log_msg
 // file log.h line 22
-void log_msg(enum anonymous$25 level, const char *fmt, ...)
+void log_msg(enum anonymous_25 level, const char *fmt, ...)
 {
   signed int n;
   unsigned long int size = (unsigned long int)100;
@@ -7479,13 +7479,13 @@ void log_msg(enum anonymous$25 level, const char *fmt, ...)
   void **ap;
   char *levelstring;
   char *timestring;
-  enum anonymous$25 return_value_get_loglevel$1;
-  return_value_get_loglevel$1=get_loglevel();
-  if((signed int)return_value_get_loglevel$1 >= (signed int)level)
+  enum anonymous_25 return_value_get_loglevel_1;
+  return_value_get_loglevel_1=get_loglevel();
+  if((signed int)return_value_get_loglevel_1 >= (signed int)level)
   {
-    void *return_value_xmalloc$2;
-    return_value_xmalloc$2=xmalloc(size);
-    msg = (char *)return_value_xmalloc$2;
+    void *return_value_xmalloc_2;
+    return_value_xmalloc_2=xmalloc(size);
+    msg = (char *)return_value_xmalloc_2;
     while((_Bool)1)
     {
       ap = (void **)&fmt;
@@ -7499,9 +7499,9 @@ void log_msg(enum anonymous$25 level, const char *fmt, ...)
 
       else
         size = size * (unsigned long int)2;
-      void *return_value_xrealloc$3;
-      return_value_xrealloc$3=xrealloc((void *)msg, size);
-      msg = (char *)return_value_xrealloc$3;
+      void *return_value_xrealloc_3;
+      return_value_xrealloc_3=xrealloc((void *)msg, size);
+      msg = (char *)return_value_xrealloc_3;
     }
     levelstring=get_levelstring(level);
     timestring=get_timestring();
@@ -7516,59 +7516,59 @@ void log_msg(enum anonymous$25 level, const char *fmt, ...)
 signed int main(signed int argc, char **argv)
 {
   unsigned long int packetth;
-  struct anonymous$2 *main$$1$$options;
-  main$$1$$options=parse_options(argc, argv);
-  if(!(main$$1$$options->verbose == 0))
-    set_loglevel((enum anonymous$25)LOG_INFO);
+  struct anonymous_2 *main__1__options;
+  main__1__options=parse_options(argc, argv);
+  if(!(main__1__options->verbose == 0))
+    set_loglevel((enum anonymous_25)LOG_INFO);
 
-  if(!(main$$1$$options->adjunct == 0))
+  if(!(main__1__options->adjunct == 0))
     create_pidfile();
 
-  if(!(main$$1$$options->adjunct == 0))
+  if(!(main__1__options->adjunct == 0))
     setvbuf(stdout, (char *)(void *)0, 1, (unsigned long int)0);
 
-  if(!(main$$1$$options->tmpdir == ((const char *)NULL)))
+  if(!(main__1__options->tmpdir == ((const char *)NULL)))
   {
-    check_dir_is_rw(main$$1$$options->tmpdir);
-    set_tmpdir(main$$1$$options->tmpdir, (enum anonymous$51)TMPDIR_USER_OWNED, main$$1$$options->max_tmpfiles, main$$1$$options->adjunct);
+    check_dir_is_rw(main__1__options->tmpdir);
+    set_tmpdir(main__1__options->tmpdir, (enum anonymous_51)TMPDIR_USER_OWNED, main__1__options->max_tmpfiles, main__1__options->adjunct);
   }
 
   else
   {
-    const char *return_value_make_tmpdir$1;
-    return_value_make_tmpdir$1=make_tmpdir();
-    set_tmpdir(return_value_make_tmpdir$1, (enum anonymous$51)TMPDIR_APP_OWNED, main$$1$$options->max_tmpfiles, main$$1$$options->adjunct);
+    const char *return_value_make_tmpdir_1;
+    return_value_make_tmpdir_1=make_tmpdir();
+    set_tmpdir(return_value_make_tmpdir_1, (enum anonymous_51)TMPDIR_APP_OWNED, main__1__options->max_tmpfiles, main__1__options->adjunct);
   }
   setup_signals();
-  if(main$$1$$options->adjunct == 0)
+  if(main__1__options->adjunct == 0)
   {
-    if(!((m_audio & (signed int)main$$1$$options->extract_type) == 0))
+    if(!((m_audio & (signed int)main__1__options->extract_type) == 0))
       do_mpeg_player();
 
   }
 
-  _Bool tmp_if_expr$2;
-  if(main$$1$$options->adjunct == 0)
-    tmp_if_expr$2 = ((signed int)main$$1$$options->extract_type & m_image) != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(main__1__options->adjunct == 0)
+    tmp_if_expr_2 = ((signed int)main__1__options->extract_type & m_image) != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
-    do_image_display(main$$1$$options->savedimgpfx, main$$1$$options->beep);
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
+    do_image_display(main__1__options->savedimgpfx, main__1__options->beep);
 
   else
-    log_msg((enum anonymous$25)LOG_INFO, "operating in adjunct mode");
-  init_mediadrv(main$$1$$options->extract_type, (signed int)!(main$$1$$options->adjunct != 0));
-  if(!(main$$1$$options->dumpfile == ((char *)NULL)))
-    packetcapture_open_offline(main$$1$$options->dumpfile);
+    log_msg((enum anonymous_25)LOG_INFO, "operating in adjunct mode");
+  init_mediadrv(main__1__options->extract_type, (signed int)!(main__1__options->adjunct != 0));
+  if(!(main__1__options->dumpfile == ((char *)NULL)))
+    packetcapture_open_offline(main__1__options->dumpfile);
 
   else
-    packetcapture_open_live(main$$1$$options->interface, main$$1$$options->filterexpr, main$$1$$options->promisc);
+    packetcapture_open_live(main__1__options->interface, main__1__options->filterexpr, main__1__options->promisc);
   connection_alloc_slots();
   pthread_create(&packetth, (const union pthread_attr_t *)(void *)0, capture_thread, (void *)0);
   while(foad == 0)
     sleep((unsigned int)1);
-  if(!(main$$1$$options->verbose == 0))
+  if(!(main__1__options->verbose == 0))
     print_exit_reason();
 
   pthread_cancel(packetth);
@@ -7576,7 +7576,7 @@ signed int main(signed int argc, char **argv)
   packetcapture_close();
   connection_free_slots();
   clean_tmpdir();
-  if(!(main$$1$$options->adjunct == 0))
+  if(!(main__1__options->adjunct == 0))
     close_pidfile();
 
   return 0;
@@ -7589,7 +7589,7 @@ void make_backing_image()
   struct _img *I;
   I=img_new_blank((const unsigned int)width, (const unsigned int)height);
   img_alloc(I);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(backing_image == ((struct _img *)NULL)))
   {
     signed int w2;
@@ -7610,11 +7610,11 @@ void make_backing_image()
       {
         ir->y = ir->y + (signed int)((unsigned int)height - backing_image->height);
         if(!(width >= ir->x))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = ir->y + ir->h < 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = ir->y + ir->h < 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           unlink(ir->filename);
           xfree((void *)ir->filename);
@@ -7657,16 +7657,16 @@ const char * make_tmpdir(void)
 
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(systmp);
-  len = (signed int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("/drifnet-XXXXXX");
-  len = len + (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(systmp);
+  len = (signed int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("/drifnet-XXXXXX");
+  len = len + (signed int)return_value_strlen_2;
   len = len + 1;
-  void *return_value_xmalloc$3;
-  return_value_xmalloc$3=xmalloc((unsigned long int)len);
-  template = (char *)return_value_xmalloc$3;
+  void *return_value_xmalloc_3;
+  return_value_xmalloc_3=xmalloc((unsigned long int)len);
+  template = (char *)return_value_xmalloc_3;
   n=snprintf(template, (unsigned long int)len, "%s/drifnet-XXXXXX", systmp);
   if(n >= 0 && !(n >= len))
   {
@@ -7675,11 +7675,11 @@ const char * make_tmpdir(void)
     if(tmp == ((char *)NULL))
     {
       xfree((void *)template);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      log_msg((enum anonymous$25)LOG_ERROR, "make_tmpdir(), mkdtemp: %s", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      log_msg((enum anonymous_25)LOG_ERROR, "make_tmpdir(), mkdtemp: %s", return_value_strerror_5);
       unexpected_exit(-1);
     }
 
@@ -7688,15 +7688,15 @@ const char * make_tmpdir(void)
 
   if(!(n >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    log_msg((enum anonymous$25)LOG_ERROR, "make_tmpdir(), snprintf: %s", return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    log_msg((enum anonymous_25)LOG_ERROR, "make_tmpdir(), snprintf: %s", return_value_strerror_7);
   }
 
   else
-    log_msg((enum anonymous$25)LOG_ERROR, "make_tmpdir(), internal error");
+    log_msg((enum anonymous_25)LOG_ERROR, "make_tmpdir(), internal error");
   unexpected_exit(-1);
   return (const char *)(void *)0;
 }
@@ -7708,9 +7708,9 @@ unsigned char * memstr(const unsigned char *haystack, const unsigned long int hl
   const unsigned char *p = haystack;
   for( ; haystack + -((signed long int)nlen) + (signed long int)hlen >= p; p = p + 1l)
   {
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)p, (const void *)needle, nlen);
-    if(return_value_memcmp$1 == 0)
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)p, (const void *)needle, nlen);
+    if(return_value_memcmp_1 == 0)
       return (unsigned char *)p;
 
   }
@@ -7734,20 +7734,20 @@ signed int mpeg_hdr_nextframe_offset(struct mpeg_audio_hdr *h)
 // file mpeghdr.h line 48
 signed int mpeg_hdr_parse(const unsigned char *data, struct mpeg_audio_hdr *h)
 {
-  struct mpeg_audio_hdr hz = { .version=(enum anonymous$46)0, .layer=(enum anonymous$47)0, .has_crc=0,
+  struct mpeg_audio_hdr hz = { .version=(enum anonymous_46)0, .layer=(enum anonymous_47)0, .has_crc=0,
     .crc=0, .bitrate=0, .samplerate=0, .padded=0,
-    .priv=0, .channels=(enum anonymous$50)0, .mode_extn=0,
+    .priv=0, .channels=(enum anonymous_50)0, .mode_extn=0,
     .copyr=0, .original=0, .emph=0 };
   unsigned int hh;
   signed int i;
   *h = hz;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)*data == 0xff))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ((signed int)data[(signed long int)1] & 0xe0) != 0xe0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ((signed int)data[(signed long int)1] & 0xe0) != 0xe0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -7757,17 +7757,17 @@ signed int mpeg_hdr_parse(const unsigned char *data, struct mpeg_audio_hdr *h)
     {
       case (unsigned int)0:
       {
-        h->version = (enum anonymous$46)m_vers_2_5;
+        h->version = (enum anonymous_46)m_vers_2_5;
         break;
       }
       case (unsigned int)2:
       {
-        h->version = (enum anonymous$46)m_vers_2;
+        h->version = (enum anonymous_46)m_vers_2;
         break;
       }
       case (unsigned int)3:
       {
-        h->version = (enum anonymous$46)m_vers_1;
+        h->version = (enum anonymous_46)m_vers_1;
         break;
       }
       default:
@@ -7777,17 +7777,17 @@ signed int mpeg_hdr_parse(const unsigned char *data, struct mpeg_audio_hdr *h)
     {
       case (unsigned int)1:
       {
-        h->layer = (enum anonymous$47)m_layer_3;
+        h->layer = (enum anonymous_47)m_layer_3;
         break;
       }
       case (unsigned int)2:
       {
-        h->layer = (enum anonymous$47)m_layer_2;
+        h->layer = (enum anonymous_47)m_layer_2;
         break;
       }
       case (unsigned int)3:
       {
-        h->layer = (enum anonymous$47)m_layer_1;
+        h->layer = (enum anonymous_47)m_layer_1;
         break;
       }
       default:
@@ -7816,7 +7816,7 @@ signed int mpeg_hdr_parse(const unsigned char *data, struct mpeg_audio_hdr *h)
       else
       {
         h->padded = (signed int)((hh & (unsigned int)((2 << 9 - 9) - 1 << 9)) >> 9);
-        h->channels = (enum anonymous$50)((hh & (unsigned int)((2 << 7 - 6) - 1 << 6)) >> 6);
+        h->channels = (enum anonymous_50)((hh & (unsigned int)((2 << 7 - 6) - 1 << 6)) >> 6);
         h->mode_extn = (unsigned char)((hh & (unsigned int)((2 << 5 - 4) - 1 << 4)) >> 4);
         h->copyr = (signed int)((hh & (unsigned int)((2 << 3 - 3) - 1 << 3)) >> 3);
         h->original = (signed int)((hh & (unsigned int)((2 << 2 - 2) - 1 << 2)) >> 2);
@@ -7851,8 +7851,8 @@ void mpeg_hdr_print(struct _IO_FILE *fp, struct mpeg_audio_hdr *h)
 // file playaudio.c line 134
 static void * mpeg_play(void *a)
 {
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   while((_Bool)1)
   {
     struct _audiochunk *A;
@@ -7861,13 +7861,13 @@ static void * mpeg_play(void *a)
     pthread_mutex_unlock(&mpeg_mtx);
     if(!(A == ((struct _audiochunk *)NULL)))
     {
-      signed int return_value_audiochunk_write$3;
-      return_value_audiochunk_write$3=audiochunk_write(A, mpeg_fd);
-      if(return_value_audiochunk_write$3 == -1)
+      signed int return_value_audiochunk_write_3;
+      return_value_audiochunk_write_3=audiochunk_write(A, mpeg_fd);
+      if(return_value_audiochunk_write_3 == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        log_msg((enum anonymous$25)LOG_ERROR, "write to MPEG player: %s", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        log_msg((enum anonymous_25)LOG_ERROR, "write to MPEG player: %s", return_value_strerror_2);
       }
 
       pthread_mutex_lock(&mpeg_mtx);
@@ -7893,16 +7893,16 @@ static void mpeg_player_manager(void)
   signed int mpeg_pid;
   sa.__sigaction_handler.sa_handler = (void (*)(signed int))0;
   sigaction(17, &sa, (struct sigaction *)(void *)0);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed long int return_value_time$6;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed long int return_value_time_6;
   while(foad == 0)
   {
     signed long int whenstarted;
     signed int st;
-    log_msg((enum anonymous$25)LOG_INFO, "starting MPEG player `%s'", audio_mpeg_player);
+    log_msg((enum anonymous_25)LOG_INFO, "starting MPEG player `%s'", audio_mpeg_player);
     whenstarted=time((signed long int *)(void *)0);
     mpeg_pid=fork();
     if(!(mpeg_pid == 0))
@@ -7915,28 +7915,28 @@ static void mpeg_player_manager(void)
     else
     {
       execl("/bin/sh", "/bin/sh", (const void *)"-c", audio_mpeg_player, (void *)0);
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg((enum anonymous$25)LOG_ERROR, "exec: %s", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg((enum anonymous_25)LOG_ERROR, "exec: %s", return_value_strerror_2);
       unexpected_exit(-1);
       goto __CPROVER_DUMP_L5;
 
     __CPROVER_DUMP_L3:
       ;
-      return_value___errno_location$3=__errno_location();
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      log_msg((enum anonymous$25)LOG_ERROR, "fork: %s", return_value_strerror$4);
+      return_value___errno_location_3=__errno_location();
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      log_msg((enum anonymous_25)LOG_ERROR, "fork: %s", return_value_strerror_4);
       unexpected_exit(-1);
       goto __CPROVER_DUMP_L5;
     }
-    log_msg((enum anonymous$25)LOG_INFO, " MPEG player has PID %d", (signed int)mpeg_pid);
+    log_msg((enum anonymous_25)LOG_INFO, " MPEG player has PID %d", (signed int)mpeg_pid);
 
   __CPROVER_DUMP_L5:
     ;
     waitpid(mpeg_pid, &st, 0);
     mpeg_pid = 0;
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$3
+union anonymous_3
 {
   // __in
   signed int __in;
@@ -7947,20 +7947,20 @@ union anonymous$3
 /* */
     ;
     if((0x7f & st) == 0)
-      log_msg((enum anonymous$25)LOG_INFO, "MPEG player exited with status %d", (((union anonymous$3){ .__in=st }).__i & 0xff00) >> 8);
+      log_msg((enum anonymous_25)LOG_INFO, "MPEG player exited with status %d", (((union anonymous_3){ .__in=st }).__i & 0xff00) >> 8);
 
     else
       if((signed int)((127 & (signed char)st) + 1) >> 1 >= 1)
-        log_msg((enum anonymous$25)LOG_INFO, "MPEG player killed by signal %d", ((union anonymous$3){ .__in=st }).__i & 0x7f);
+        log_msg((enum anonymous_25)LOG_INFO, "MPEG player killed by signal %d", ((union anonymous_3){ .__in=st }).__i & 0x7f);
 
     if(foad == 0)
     {
-      return_value_time$6=time((signed long int *)(void *)0);
-      if(!(return_value_time$6 + -whenstarted >= 5l))
+      return_value_time_6=time((signed long int *)(void *)0);
+      if(!(return_value_time_6 + -whenstarted >= 5l))
       {
-        signed long int return_value_time$5;
-        return_value_time$5=time((signed long int *)(void *)0);
-        log_msg((enum anonymous$25)LOG_WARNING, "MPEG player expired after %d seconds, sleeping for a bit", (signed int)(return_value_time$5 - whenstarted));
+        signed long int return_value_time_5;
+        return_value_time_5=time((signed long int *)(void *)0);
+        log_msg((enum anonymous_25)LOG_WARNING, "MPEG player expired after %d seconds, sleeping for a bit", (signed int)(return_value_time_5 - whenstarted));
         sleep((unsigned int)5);
       }
 
@@ -7979,7 +7979,7 @@ void mpeg_submit_chunk(const unsigned char *data, const unsigned long int len)
   struct _audiochunk *A;
   pthread_mutex_lock(&mpeg_mtx);
   if(buffered >= 8388609ul)
-    log_msg((enum anonymous$25)LOG_INFO, "MPEG buffer full with %d bytes", buffered);
+    log_msg((enum anonymous_25)LOG_INFO, "MPEG buffer full with %d bytes", buffered);
 
   else
   {
@@ -8028,40 +8028,40 @@ void packetcapture_open_live(char *interface, char *filterexpr, signed int promi
   pc=pcap_open_live(interface, 262144, promisc, 1000, ebuf);
   if(pc == ((struct pcap *)NULL))
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "pcap_open_live: %s", (const void *)ebuf);
-    unsigned int return_value_getuid$1;
-    return_value_getuid$1=getuid();
-    if(!(return_value_getuid$1 == 0u))
-      log_msg((enum anonymous$25)LOG_ERROR, "perhaps you need to be root?");
+    log_msg((enum anonymous_25)LOG_ERROR, "pcap_open_live: %s", (const void *)ebuf);
+    unsigned int return_value_getuid_1;
+    return_value_getuid_1=getuid();
+    if(!(return_value_getuid_1 == 0u))
+      log_msg((enum anonymous_25)LOG_ERROR, "perhaps you need to be root?");
 
     else
       if(interface == ((char *)NULL))
-        log_msg((enum anonymous$25)LOG_ERROR, "perhaps try selecting an interface with the -i option?");
+        log_msg((enum anonymous_25)LOG_ERROR, "perhaps try selecting an interface with the -i option?");
 
     unexpected_exit(-1);
   }
 
-  signed int return_value_pcap_compile$3;
-  return_value_pcap_compile$3=pcap_compile(pc, &filter, filterexpr, 1, (unsigned int)0);
-  if(return_value_pcap_compile$3 == -1)
+  signed int return_value_pcap_compile_3;
+  return_value_pcap_compile_3=pcap_compile(pc, &filter, filterexpr, 1, (unsigned int)0);
+  if(return_value_pcap_compile_3 == -1)
   {
-    char *return_value_pcap_geterr$2;
-    return_value_pcap_geterr$2=pcap_geterr(pc);
-    log_msg((enum anonymous$25)LOG_ERROR, "pcap_compile: %s", return_value_pcap_geterr$2);
+    char *return_value_pcap_geterr_2;
+    return_value_pcap_geterr_2=pcap_geterr(pc);
+    log_msg((enum anonymous_25)LOG_ERROR, "pcap_compile: %s", return_value_pcap_geterr_2);
     unexpected_exit(-1);
   }
 
-  signed int return_value_pcap_setfilter$5;
-  return_value_pcap_setfilter$5=pcap_setfilter(pc, &filter);
-  if(return_value_pcap_setfilter$5 == -1)
+  signed int return_value_pcap_setfilter_5;
+  return_value_pcap_setfilter_5=pcap_setfilter(pc, &filter);
+  if(return_value_pcap_setfilter_5 == -1)
   {
-    char *return_value_pcap_geterr$4;
-    return_value_pcap_geterr$4=pcap_geterr(pc);
-    log_msg((enum anonymous$25)LOG_ERROR, "pcap_setfilter: %s", return_value_pcap_geterr$4);
+    char *return_value_pcap_geterr_4;
+    return_value_pcap_geterr_4=pcap_geterr(pc);
+    log_msg((enum anonymous_25)LOG_ERROR, "pcap_setfilter: %s", return_value_pcap_geterr_4);
     unexpected_exit(-1);
   }
 
-  log_msg((enum anonymous$25)LOG_INFO, "listening on %s%s", interface != ((char *)NULL) ? interface : "all interfaces", promisc != 0 ? " in promiscuous mode" : "");
+  log_msg((enum anonymous_25)LOG_INFO, "listening on %s%s", interface != ((char *)NULL) ? interface : "all interfaces", promisc != 0 ? " in promiscuous mode" : "");
   datalink_info=get_datalink_info(pc);
 }
 
@@ -8073,11 +8073,11 @@ void packetcapture_open_offline(char *dumpfile)
   pc=pcap_open_offline(dumpfile, ebuf);
   if(pc == ((struct pcap *)NULL))
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "pcap_open_offline: %s", (const void *)ebuf);
+    log_msg((enum anonymous_25)LOG_ERROR, "pcap_open_offline: %s", (const void *)ebuf);
     unexpected_exit(-1);
   }
 
-  log_msg((enum anonymous$25)LOG_INFO, "reading packets from %s", dumpfile);
+  log_msg((enum anonymous_25)LOG_INFO, "reading packets from %s", dumpfile);
   datalink_info=get_datalink_info(pc);
 }
 
@@ -8089,8 +8089,8 @@ static signed int parse_ieee80211(const unsigned char *pkt, unsigned int caplen,
   struct frame_control *control;
   _80211_header = (struct ieee80211_frame *)pkt;
   control = (struct frame_control *)&_80211_header->fc;
-  _Bool tmp_if_expr$1;
-  unsigned short int tmp_statement_expression$2;
+  _Bool tmp_if_expr_1;
+  unsigned short int tmp_statement_expression_2;
   if(!((signed int)control->protocol == 0))
     return -1;
 
@@ -8130,11 +8130,11 @@ static signed int parse_ieee80211(const unsigned char *pkt, unsigned int caplen,
 
           struct snap_header *llc_header = (struct snap_header *)(pkt + (signed long int)header_len);
           if(!((signed int)llc_header->dsap == 0xAA))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (signed int)llc_header->ssap != 0xAA ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (signed int)llc_header->ssap != 0xAA ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             return -1;
 
           else
@@ -8142,9 +8142,9 @@ static signed int parse_ieee80211(const unsigned char *pkt, unsigned int caplen,
             *offsetnext = (signed int)(header_len + sizeof(struct snap_header) /*8ul*/ );
             unsigned short int __v;
             unsigned short int __x = (unsigned short int)llc_header->ether_type;
-            asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-            tmp_statement_expression$2 = __v;
-            *llnextproto = tmp_statement_expression$2;
+            asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+            tmp_statement_expression_2 = __v;
+            *llnextproto = tmp_statement_expression_2;
             return 0;
           }
         }
@@ -8153,13 +8153,13 @@ static signed int parse_ieee80211(const unsigned char *pkt, unsigned int caplen,
 
 // parse_options
 // file options.h line 40
-struct anonymous$2 * parse_options(signed int argc, char **argv)
+struct anonymous_2 * parse_options(signed int argc, char **argv)
 {
   char optstring[20l] = { 'a', 'b', 'd', ':', 'f', ':', 'h', 'i', ':', 'M', ':', 'm', ':', 'p', 'S', 's', 'v', 'x', ':', 0 };
   signed int c;
   opterr = 0;
-  signed int return_value_isatty$1;
-  char *return_value___strdup$2;
+  signed int return_value_isatty_1;
+  char *return_value___strdup_2;
   do
   {
     c=getopt(argc, argv, optstring);
@@ -8177,7 +8177,7 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
       {
         if(!(options.dumpfile == ((char *)NULL)))
         {
-          log_msg((enum anonymous$25)LOG_ERROR, "can't specify -i and -f");
+          log_msg((enum anonymous_25)LOG_ERROR, "can't specify -i and -f");
           unexpected_exit(-1);
         }
 
@@ -8191,9 +8191,9 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
       }
       case 98:
       {
-        return_value_isatty$1=isatty(1);
-        if(return_value_isatty$1 == 0)
-          log_msg((enum anonymous$25)LOG_WARNING, "can't beep unless standard output is a terminal");
+        return_value_isatty_1=isatty(1);
+        if(return_value_isatty_1 == 0)
+          log_msg((enum anonymous_25)LOG_WARNING, "can't beep unless standard output is a terminal");
 
         else
           options.beep = 1;
@@ -8230,7 +8230,7 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
         options.max_tmpfiles=atoi(optarg);
         if(!(options.max_tmpfiles >= 1))
         {
-          log_msg((enum anonymous$25)LOG_ERROR, "`%s' does not make sense for -m", optarg);
+          log_msg((enum anonymous_25)LOG_ERROR, "`%s' does not make sense for -m", optarg);
           unexpected_exit(-1);
         }
 
@@ -8238,8 +8238,8 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value___strdup$2=__strdup(optarg);
-        options.tmpdir = return_value___strdup$2;
+        return_value___strdup_2=__strdup(optarg);
+        options.tmpdir = return_value___strdup_2;
         options.tmpdir_especified = 1;
         break;
       }
@@ -8247,7 +8247,7 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
       {
         if(!(options.interface == ((char *)NULL)))
         {
-          log_msg((enum anonymous$25)LOG_ERROR, "can't specify -i and -f");
+          log_msg((enum anonymous_25)LOG_ERROR, "can't specify -i and -f");
           unexpected_exit(-1);
         }
 
@@ -8264,24 +8264,24 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
 
       default:
       {
-        char *return_value___builtin_strchr$3;
-        return_value___builtin_strchr$3=__builtin_strchr(optstring, optopt);
-        if(!(return_value___builtin_strchr$3 == ((char *)NULL)))
-          log_msg((enum anonymous$25)LOG_ERROR, "option -%c requires an argument", optopt);
+        char *return_value___builtin_strchr_3;
+        return_value___builtin_strchr_3=__builtin_strchr(optstring, optopt);
+        if(!(return_value___builtin_strchr_3 == ((char *)NULL)))
+          log_msg((enum anonymous_25)LOG_ERROR, "option -%c requires an argument", optopt);
 
         else
-          log_msg((enum anonymous$25)LOG_ERROR, "unrecognised option -%c", optopt);
+          log_msg((enum anonymous_25)LOG_ERROR, "unrecognised option -%c", optopt);
         usage(stderr);
         unexpected_exit(1);
       }
     }
   }
   while((_Bool)1);
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   if(!(optind >= argc))
   {
     if(!(options.dumpfile == ((char *)NULL)))
-      log_msg((enum anonymous$25)LOG_WARNING, "filter code ignored with dump file");
+      log_msg((enum anonymous_25)LOG_WARNING, "filter code ignored with dump file");
 
     else
     {
@@ -8291,12 +8291,12 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
       l = (signed int)sizeof(char [11l]) /*11ul*/ ;
       for( ; !(*a == ((char *)NULL)); a = a + 1l)
       {
-        return_value_strlen$4=strlen(*a);
-        l = l + (signed int)(return_value_strlen$4 + (unsigned long int)1);
+        return_value_strlen_4=strlen(*a);
+        l = l + (signed int)(return_value_strlen_4 + (unsigned long int)1);
       }
-      void *return_value_calloc$5;
-      return_value_calloc$5=calloc((unsigned long int)l, (unsigned long int)1);
-      options.filterexpr = (char *)return_value_calloc$5;
+      void *return_value_calloc_5;
+      return_value_calloc_5=calloc((unsigned long int)l, (unsigned long int)1);
+      options.filterexpr = (char *)return_value_calloc_5;
       strcpy(options.filterexpr, "tcp and (");
       a = argv + (signed long int)optind;
       for( ; !(*a == ((char *)NULL)); a = a + 1l)
@@ -8312,9 +8312,9 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
 
   else
     options.filterexpr = "tcp";
-  log_msg((enum anonymous$25)LOG_INFO, "using filter expression `%s'", options.filterexpr);
+  log_msg((enum anonymous_25)LOG_INFO, "using filter expression `%s'", options.filterexpr);
   if(options.adjunct == 0 && !(options.newpfx == 0))
-    log_msg((enum anonymous$25)LOG_INFO, "using saved image prefix `%s'", options.savedimgpfx);
+    log_msg((enum anonymous_25)LOG_INFO, "using saved image prefix `%s'", options.savedimgpfx);
 
   validate_options(&options);
   return &options;
@@ -8322,24 +8322,24 @@ struct anonymous$2 * parse_options(signed int argc, char **argv)
 
 // pipe_event
 // file display.c line 337
-signed int pipe_event(struct _GIOChannel chan, enum anonymous$62 cond, void *data)
+signed int pipe_event(struct _GIOChannel chan, enum anonymous_62 cond, void *data)
 {
   char name[64l];
   signed long int rr;
   signed int nimgs = 0;
-  const char *return_value_get_tmpdir$1;
-  unsigned long int return_value_strlen$2;
-  void *return_value_xmalloc$3;
+  const char *return_value_get_tmpdir_1;
+  unsigned long int return_value_strlen_2;
+  void *return_value_xmalloc_3;
   static char *path;
   if(path == ((char *)NULL))
   {
-    return_value_get_tmpdir$1=get_tmpdir();
-    return_value_strlen$2=strlen(return_value_get_tmpdir$1);
-    return_value_xmalloc$3=xmalloc(return_value_strlen$2 + (unsigned long int)64);
-    path = (char *)return_value_xmalloc$3;
+    return_value_get_tmpdir_1=get_tmpdir();
+    return_value_strlen_2=strlen(return_value_get_tmpdir_1);
+    return_value_xmalloc_3=xmalloc(return_value_strlen_2 + (unsigned long int)64);
+    path = (char *)return_value_xmalloc_3;
   }
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   while(!(nimgs >= 4))
   {
     rr=xread(imgpipe_readfd, (void *)name, sizeof(char [64l]) /*64ul*/ );
@@ -8349,35 +8349,35 @@ signed int pipe_event(struct _GIOChannel chan, enum anonymous$62 cond, void *dat
     signed int saveimg = 0;
     struct stat st;
     nimgs = nimgs + 1;
-    const char *return_value_get_tmpdir$4;
-    return_value_get_tmpdir$4=get_tmpdir();
-    sprintf(path, "%s/%s", return_value_get_tmpdir$4, (const void *)name);
-    signed int return_value_stat$5;
-    return_value_stat$5=stat$link1(path, &st);
-    if(!(return_value_stat$5 == -1))
+    const char *return_value_get_tmpdir_4;
+    return_value_get_tmpdir_4=get_tmpdir();
+    sprintf(path, "%s/%s", return_value_get_tmpdir_4, (const void *)name);
+    signed int return_value_stat_5;
+    return_value_stat_5=stat_link1(path, &st);
+    if(!(return_value_stat_5 == -1))
     {
-      log_msg((enum anonymous$25)LOG_INFO, "received image %s of size %d", (const void *)name, (signed int)st.st_size);
+      log_msg((enum anonymous_25)LOG_INFO, "received image %s of size %d", (const void *)name, (signed int)st.st_size);
       if(st.st_size >= 101l)
       {
         struct _img *i;
         i=img_new();
-        signed int return_value_img_load_file$8;
-        return_value_img_load_file$8=img_load_file(i, path, (const enum anonymous$58)header, (const enum anonymous$57)unknown);
-        if(return_value_img_load_file$8 == 0)
-          log_msg((enum anonymous$25)LOG_WARNING, "%s: bogus image (err = %d)", (const void *)name, i->err);
+        signed int return_value_img_load_file_8;
+        return_value_img_load_file_8=img_load_file(i, path, (const enum anonymous_58)header, (const enum anonymous_57)unknown);
+        if(return_value_img_load_file_8 == 0)
+          log_msg((enum anonymous_25)LOG_WARNING, "%s: bogus image (err = %d)", (const void *)name, i->err);
 
         else
         {
           if(i->width >= 9u)
-            tmp_if_expr$7 = i->height > (unsigned int)8 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = i->height > (unsigned int)8 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
           {
-            signed int return_value_img_load$6;
-            return_value_img_load$6=img_load(i, (const enum anonymous$58)full, i->type);
-            if(!(return_value_img_load$6 == 0))
+            signed int return_value_img_load_6;
+            return_value_img_load_6=img_load(i, (const enum anonymous_58)full, i->type);
+            if(!(return_value_img_load_6 == 0))
             {
               signed int w;
               signed int h;
@@ -8415,50 +8415,50 @@ signed int pipe_event(struct _GIOChannel chan, enum anonymous$62 cond, void *dat
             }
 
             else
-              log_msg((enum anonymous$25)LOG_WARNING, "%s: bogus image (err = %d)", (const void *)name, i->err);
+              log_msg((enum anonymous_25)LOG_WARNING, "%s: bogus image (err = %d)", (const void *)name, i->err);
           }
 
           else
-            log_msg((enum anonymous$25)LOG_WARNING, "%s: image dimensions (%d x %d) too small to bother with", (const void *)name, i->width, i->height);
+            log_msg((enum anonymous_25)LOG_WARNING, "%s: image dimensions (%d x %d) too small to bother with", (const void *)name, i->width, i->height);
         }
         img_delete(i);
       }
 
       else
-        log_msg((enum anonymous$25)LOG_WARNING, "image data too small (%d bytes) to bother with", (signed int)st.st_size);
+        log_msg((enum anonymous_25)LOG_WARNING, "image data too small (%d bytes) to bother with", (signed int)st.st_size);
       if(saveimg == 0)
         unlink(name);
 
     }
 
   }
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$11;
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_11;
   if(rr == -1l)
   {
-    return_value___errno_location$11=__errno_location();
-    tmp_if_expr$12 = *return_value___errno_location$11 != 4 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_11=__errno_location();
+    tmp_if_expr_12 = *return_value___errno_location_11 != 4 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$12 = (_Bool)0;
-  _Bool tmp_if_expr$14;
-  signed int *return_value___errno_location$13;
-  if(tmp_if_expr$12)
+    tmp_if_expr_12 = (_Bool)0;
+  _Bool tmp_if_expr_14;
+  signed int *return_value___errno_location_13;
+  if(tmp_if_expr_12)
   {
-    return_value___errno_location$13=__errno_location();
-    tmp_if_expr$14 = *return_value___errno_location$13 != 11 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_13=__errno_location();
+    tmp_if_expr_14 = *return_value___errno_location_13 != 11 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$14 = (_Bool)0;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = (_Bool)0;
+  if(tmp_if_expr_14)
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    char *return_value_strerror$10;
-    return_value_strerror$10=strerror(*return_value___errno_location$9);
-    log_msg((enum anonymous$25)LOG_ERROR, "display pipe read() failed, reason: %s", return_value_strerror$10);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    char *return_value_strerror_10;
+    return_value_strerror_10=strerror(*return_value___errno_location_9);
+    log_msg((enum anonymous_25)LOG_ERROR, "display pipe read() failed, reason: %s", return_value_strerror_10);
     gtk_main_quit();
   }
 
@@ -8480,12 +8480,12 @@ signed int png_abort_load(struct _img *I)
 // file png.c line 29
 void png_catch_error(struct png_struct_def *png_ptr, const char *error_msg)
 {
-  log_msg((enum anonymous$25)LOG_WARNING, "libpng, %s (skipping image).", error_msg);
-  signed int return_value__setjmp$1;
-  return_value__setjmp$1=_setjmp(png_ptr->jmpbuf);
-  if(!(return_value__setjmp$1 == 0))
+  log_msg((enum anonymous_25)LOG_WARNING, "libpng, %s (skipping image).", error_msg);
+  signed int return_value__setjmp_1;
+  return_value__setjmp_1=_setjmp(png_ptr->jmpbuf);
+  if(!(return_value__setjmp_1 == 0))
   {
-    log_msg((enum anonymous$25)LOG_ERROR, "libpng, unrecoverable error, terminating.");
+    log_msg((enum anonymous_25)LOG_ERROR, "libpng, unrecoverable error, terminating.");
     unexpected_exit(-1);
   }
 
@@ -8499,18 +8499,18 @@ signed int png_load_hdr(struct _img *I)
   struct png_struct_def *png_ptr;
   struct png_info_struct *info_ptr;
   rewind(I->fp);
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)sig, sizeof(unsigned char) /*1ul*/ , (unsigned long int)8, I->fp);
-  if(!(return_value_fread$1 == 8ul))
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)sig, sizeof(unsigned char) /*1ul*/ , (unsigned long int)8, I->fp);
+  if(!(return_value_fread_1 == 8ul))
     return 0;
 
   else
   {
-    signed int return_value_png_sig_cmp$2;
-    return_value_png_sig_cmp$2=png_sig_cmp(sig, (unsigned long int)0, (unsigned long int)8);
-    if(!(return_value_png_sig_cmp$2 == 0))
+    signed int return_value_png_sig_cmp_2;
+    return_value_png_sig_cmp_2=png_sig_cmp(sig, (unsigned long int)0, (unsigned long int)8);
+    if(!(return_value_png_sig_cmp_2 == 0))
     {
-      I->err = (enum anonymous$59)IE_HDRFORMAT;
+      I->err = (enum anonymous_59)IE_HDRFORMAT;
       return 0;
     }
 
@@ -8519,18 +8519,18 @@ signed int png_load_hdr(struct _img *I)
       png_ptr=png_create_read_struct("1.2.54", (void *)0, png_catch_error, (void (*)(struct png_struct_def *, const char *))(void *)0);
       if(png_ptr == ((struct png_struct_def *)NULL))
       {
-        I->err = (enum anonymous$59)IE_HDRFORMAT;
+        I->err = (enum anonymous_59)IE_HDRFORMAT;
         return 0;
       }
 
       else
       {
-        signed int return_value__setjmp$3;
-        return_value__setjmp$3=_setjmp(png_ptr->jmpbuf);
-        if(!(return_value__setjmp$3 == 0))
+        signed int return_value__setjmp_3;
+        return_value__setjmp_3=_setjmp(png_ptr->jmpbuf);
+        if(!(return_value__setjmp_3 == 0))
         {
           png_destroy_read_struct(&png_ptr, (struct png_info_struct **)(void *)0, (struct png_info_struct **)(void *)0);
-          I->err = (enum anonymous$59)IE_HDRFORMAT;
+          I->err = (enum anonymous_59)IE_HDRFORMAT;
           return 0;
         }
 
@@ -8540,7 +8540,7 @@ signed int png_load_hdr(struct _img *I)
           if(info_ptr == ((struct png_info_struct *)NULL))
           {
             png_destroy_read_struct(&png_ptr, (struct png_info_struct **)(void *)0, (struct png_info_struct **)(void *)0);
-            I->err = (enum anonymous$59)IE_HDRFORMAT;
+            I->err = (enum anonymous_59)IE_HDRFORMAT;
             return 0;
           }
 
@@ -8549,12 +8549,12 @@ signed int png_load_hdr(struct _img *I)
             rewind(I->fp);
             png_init_io(png_ptr, I->fp);
             png_read_info(png_ptr, info_ptr);
-            unsigned long int return_value_png_get_image_width$4;
-            return_value_png_get_image_width$4=png_get_image_width(png_ptr, info_ptr);
-            I->width = (unsigned int)return_value_png_get_image_width$4;
-            unsigned long int return_value_png_get_image_height$5;
-            return_value_png_get_image_height$5=png_get_image_height(png_ptr, info_ptr);
-            I->height = (unsigned int)return_value_png_get_image_height$5;
+            unsigned long int return_value_png_get_image_width_4;
+            return_value_png_get_image_width_4=png_get_image_width(png_ptr, info_ptr);
+            I->width = (unsigned int)return_value_png_get_image_width_4;
+            unsigned long int return_value_png_get_image_height_5;
+            return_value_png_get_image_height_5=png_get_image_height(png_ptr, info_ptr);
+            I->height = (unsigned int)return_value_png_get_image_height_5;
             png_destroy_read_struct(&png_ptr, &info_ptr, (struct png_info_struct **)(void *)0);
             return 1;
           }
@@ -8572,8 +8572,8 @@ signed int png_load_img(struct _img *I)
   unsigned char **q;
   struct png_struct_def *png_ptr;
   struct png_info_struct *info_ptr;
-  unsigned long int png_load_img$$1$$width;
-  unsigned long int png_load_img$$1$$height;
+  unsigned long int png_load_img__1__width;
+  unsigned long int png_load_img__1__height;
   signed int i;
   signed int j;
   signed int bit_depth;
@@ -8582,21 +8582,21 @@ signed int png_load_img(struct _img *I)
   unsigned char **row_pointers;
   img_alloc(I);
   png_ptr=png_create_read_struct("1.2.54", (void *)0, png_catch_error, (void (*)(struct png_struct_def *, const char *))(void *)0);
-  unsigned long int return_value_png_get_rowbytes$5;
+  unsigned long int return_value_png_get_rowbytes_5;
   if(png_ptr == ((struct png_struct_def *)NULL))
   {
-    I->err = (enum anonymous$59)IE_HDRFORMAT;
+    I->err = (enum anonymous_59)IE_HDRFORMAT;
     return 0;
   }
 
   else
   {
-    signed int return_value__setjmp$1;
-    return_value__setjmp$1=_setjmp(png_ptr->jmpbuf);
-    if(!(return_value__setjmp$1 == 0))
+    signed int return_value__setjmp_1;
+    return_value__setjmp_1=_setjmp(png_ptr->jmpbuf);
+    if(!(return_value__setjmp_1 == 0))
     {
       png_destroy_read_struct(&png_ptr, (struct png_info_struct **)(void *)0, (struct png_info_struct **)(void *)0);
-      I->err = (enum anonymous$59)IE_HDRFORMAT;
+      I->err = (enum anonymous_59)IE_HDRFORMAT;
       return 0;
     }
 
@@ -8606,7 +8606,7 @@ signed int png_load_img(struct _img *I)
       if(info_ptr == ((struct png_info_struct *)NULL))
       {
         png_destroy_read_struct(&png_ptr, (struct png_info_struct **)(void *)0, (struct png_info_struct **)(void *)0);
-        I->err = (enum anonymous$59)IE_HDRFORMAT;
+        I->err = (enum anonymous_59)IE_HDRFORMAT;
         return 0;
       }
 
@@ -8615,7 +8615,7 @@ signed int png_load_img(struct _img *I)
         rewind(I->fp);
         png_init_io(png_ptr, I->fp);
         png_read_info(png_ptr, info_ptr);
-        png_get_IHDR(png_ptr, info_ptr, &png_load_img$$1$$width, &png_load_img$$1$$height, &bit_depth, &color_type, &interlace_type, (signed int *)(void *)0, (signed int *)(void *)0);
+        png_get_IHDR(png_ptr, info_ptr, &png_load_img__1__width, &png_load_img__1__height, &bit_depth, &color_type, &interlace_type, (signed int *)(void *)0, (signed int *)(void *)0);
         if(color_type == 0 || color_type == 4)
         {
           if(!(bit_depth >= 8))
@@ -8635,29 +8635,29 @@ signed int png_load_img(struct _img *I)
 
         png_set_filler(png_ptr, (unsigned long int)0, 1);
         png_read_update_info(png_ptr, info_ptr);
-        void *return_value_png_malloc$2;
-        return_value_png_malloc$2=png_malloc(png_ptr, png_load_img$$1$$height * sizeof(unsigned char *) /*8ul*/ );
-        row_pointers = (unsigned char **)return_value_png_malloc$2;
+        void *return_value_png_malloc_2;
+        return_value_png_malloc_2=png_malloc(png_ptr, png_load_img__1__height * sizeof(unsigned char *) /*8ul*/ );
+        row_pointers = (unsigned char **)return_value_png_malloc_2;
         i = 0;
-        for( ; !((unsigned long int)i >= png_load_img$$1$$height); i = i + 1)
+        for( ; !((unsigned long int)i >= png_load_img__1__height); i = i + 1)
         {
-          unsigned long int return_value_png_get_rowbytes$3;
-          return_value_png_get_rowbytes$3=png_get_rowbytes(png_ptr, info_ptr);
-          void *return_value_png_malloc$4;
-          return_value_png_malloc$4=png_malloc(png_ptr, return_value_png_get_rowbytes$3);
-          row_pointers[(signed long int)i] = (unsigned char *)return_value_png_malloc$4;
+          unsigned long int return_value_png_get_rowbytes_3;
+          return_value_png_get_rowbytes_3=png_get_rowbytes(png_ptr, info_ptr);
+          void *return_value_png_malloc_4;
+          return_value_png_malloc_4=png_malloc(png_ptr, return_value_png_get_rowbytes_3);
+          row_pointers[(signed long int)i] = (unsigned char *)return_value_png_malloc_4;
         }
         png_read_image(png_ptr, row_pointers);
         p = (unsigned char **)I->data;
         q = (unsigned char **)row_pointers;
         i = 0;
-        for( ; !((unsigned long int)i >= png_load_img$$1$$height); i = i + 1)
+        for( ; !((unsigned long int)i >= png_load_img__1__height); i = i + 1)
         {
           j = 0;
           do
           {
-            return_value_png_get_rowbytes$5=png_get_rowbytes(png_ptr, info_ptr);
-            if((unsigned long int)j >= return_value_png_get_rowbytes$5)
+            return_value_png_get_rowbytes_5=png_get_rowbytes(png_ptr, info_ptr);
+            if((unsigned long int)j >= return_value_png_get_rowbytes_5)
               break;
 
             p[(signed long int)i][(signed long int)j] = q[(signed long int)i][(signed long int)j];
@@ -8696,7 +8696,7 @@ static void print_exit_reason(void)
         break;
 
       /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$3
+union anonymous_3
 {
   // __in
   signed int __in;
@@ -8707,20 +8707,20 @@ union anonymous$3
 /* */
       ;
       if((0x7f & st) == 0)
-        log_msg((enum anonymous$25)LOG_INFO, "child process %d exited with status %d", (signed int)pp, (((union anonymous$3){ .__in=st }).__i & 0xff00) >> 8);
+        log_msg((enum anonymous_25)LOG_INFO, "child process %d exited with status %d", (signed int)pp, (((union anonymous_3){ .__in=st }).__i & 0xff00) >> 8);
 
       else
         if((signed int)((127 & (signed char)st) + 1) >> 1 >= 1)
-          log_msg((enum anonymous$25)LOG_INFO, "child process %d killed by signal %d", (signed int)pp, ((union anonymous$3){ .__in=st }).__i & 0x7f);
+          log_msg((enum anonymous_25)LOG_INFO, "child process %d killed by signal %d", (signed int)pp, ((union anonymous_3){ .__in=st }).__i & 0x7f);
 
         else
-          log_msg((enum anonymous$25)LOG_INFO, "child process %d died, not sure why", (signed int)pp);
+          log_msg((enum anonymous_25)LOG_INFO, "child process %d died, not sure why", (signed int)pp);
     }
     while((_Bool)1);
   }
 
   else
-    log_msg((enum anonymous$25)LOG_INFO, "caught signal %d", foad);
+    log_msg((enum anonymous_25)LOG_INFO, "caught signal %d", foad);
 }
 
 // print_ipport_pair
@@ -8732,8 +8732,8 @@ static char * print_ipport_pair(struct sockaddr *addr, char *buf, unsigned long 
   signed int port;
   unsigned long int plen;
   char *p = buf;
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
   switch((signed int)addr->sa_family)
   {
     case 2:
@@ -8741,21 +8741,21 @@ static char * print_ipport_pair(struct sockaddr *addr, char *buf, unsigned long 
       v4 = (struct sockaddr_in *)addr;
       inet_ntop((signed int)v4->sin_family, (const void *)&v4->sin_addr.s_addr, buf, (unsigned int)buf_len);
       unsigned short int __v;
-      unsigned short int print_ipport_pair$$1$$1$$1$$__x = (unsigned short int)v4->sin_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(print_ipport_pair$$1$$1$$1$$__x) : "cc");
-      tmp_statement_expression$1 = __v;
-      port = (signed int)tmp_statement_expression$1;
+      unsigned short int print_ipport_pair__1__1__1____x = (unsigned short int)v4->sin_port;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(print_ipport_pair__1__1__1____x) : "cc");
+      tmp_statement_expression_1 = __v;
+      port = (signed int)tmp_statement_expression_1;
       break;
     }
     case 10:
     {
       v6 = (struct sockaddr_in6 *)addr;
       inet_ntop((signed int)v6->sin6_family, (const void *)&v6->sin6_addr.__in6_u.__u6_addr8, buf, (unsigned int)buf_len);
-      unsigned short int print_ipport_pair$$1$$1$$2$$__v;
+      unsigned short int print_ipport_pair__1__1__2____v;
       unsigned short int __x = (unsigned short int)v6->sin6_port;
-      asm("rorw $8, %w0" : "=r"(print_ipport_pair$$1$$1$$2$$__v) : "0"(__x) : "cc");
-      tmp_statement_expression$2 = print_ipport_pair$$1$$1$$2$$__v;
-      port = (signed int)tmp_statement_expression$2;
+      asm("rorw _8, %w0" : "=r"(print_ipport_pair__1__1__2____v) : "0"(__x) : "cc");
+      tmp_statement_expression_2 = print_ipport_pair__1__1__2____v;
+      port = (signed int)tmp_statement_expression_2;
       break;
     }
     default:
@@ -8787,33 +8787,33 @@ static void process_packet(unsigned char *user, struct pcap_pkthdr *hdr, const u
   unsigned char proto;
   s = (struct sockaddr *)&src;
   d = (struct sockaddr *)&dst;
-  signed int return_value_handle_link_layer$1;
-  return_value_handle_link_layer$1=handle_link_layer(&datalink_info, pkt, hdr->caplen, &proto, &off);
-  if(return_value_handle_link_layer$1 == 0)
+  signed int return_value_handle_link_layer_1;
+  return_value_handle_link_layer_1=handle_link_layer(&datalink_info, pkt, hdr->caplen, &proto, &off);
+  if(return_value_handle_link_layer_1 == 0)
   {
-    signed int return_value_layer3_find_tcp$2;
-    return_value_layer3_find_tcp$2=layer3_find_tcp(pkt, proto, &off, s, d, &tcp);
-    if(return_value_layer3_find_tcp$2 == 0)
+    signed int return_value_layer3_find_tcp_2;
+    return_value_layer3_find_tcp_2=layer3_find_tcp(pkt, proto, &off, s, d, &tcp);
+    if(return_value_layer3_find_tcp_2 == 0)
     {
       len = (signed int)(hdr->caplen - (unsigned int)off);
       C=find_connection(s, d);
       if(C == ((struct _connection **)NULL))
       {
-        char *return_value_connection_string$3;
-        return_value_connection_string$3=connection_string(s, d);
-        log_msg((enum anonymous$25)LOG_INFO, "new connection: %s", return_value_connection_string$3);
+        char *return_value_connection_string_3;
+        return_value_connection_string_3=connection_string(s, d);
+        log_msg((enum anonymous_25)LOG_INFO, "new connection: %s", return_value_connection_string_3);
         C=alloc_connection();
         *C=connection_new(s, d);
-        (*C)->isn=__bswap_32(tcp.$anon0.$anon0.th_seq);
+        (*C)->isn=__bswap_32(tcp._anon0._anon0.th_seq);
       }
 
       c = *C;
       delta = 0;
-      if(!((0x04 & (signed int)tcp.$anon0.$anon0.th_flags) == 0))
+      if(!((0x04 & (signed int)tcp._anon0._anon0.th_flags) == 0))
       {
-        char *return_value_connection_string$4;
-        return_value_connection_string$4=connection_string(s, d);
-        log_msg((enum anonymous$25)LOG_INFO, "connection reset: %s", return_value_connection_string$4);
+        char *return_value_connection_string_4;
+        return_value_connection_string_4=connection_string(s, d);
+        log_msg((enum anonymous_25)LOG_INFO, "connection reset: %s", return_value_connection_string_4);
         connection_delete(c);
         *C = (struct _connection *)(void *)0;
         C=find_connection(d, s);
@@ -8829,7 +8829,7 @@ static void process_packet(unsigned char *user, struct pcap_pkthdr *hdr, const u
       if(len >= 1)
       {
         unsigned int offset;
-        offset=__bswap_32(tcp.$anon0.$anon0.th_seq);
+        offset=__bswap_32(tcp._anon0._anon0.th_seq);
         if(!(offset >= c->isn + (unsigned int)delta))
           offset = 0xffffffff - ((c->isn + (unsigned int)delta) - offset);
 
@@ -8837,9 +8837,9 @@ static void process_packet(unsigned char *user, struct pcap_pkthdr *hdr, const u
           offset = offset - (c->isn + (unsigned int)delta);
         if(!(262144u + c->len >= offset))
         {
-          char *return_value_connection_string$5;
-          return_value_connection_string$5=connection_string(s, d);
-          log_msg((enum anonymous$25)LOG_INFO, "out of order packet: %s", return_value_connection_string$5);
+          char *return_value_connection_string_5;
+          return_value_connection_string_5=connection_string(s, d);
+          log_msg((enum anonymous_25)LOG_INFO, "out of order packet: %s", return_value_connection_string_5);
         }
 
         else
@@ -8849,11 +8849,11 @@ static void process_packet(unsigned char *user, struct pcap_pkthdr *hdr, const u
         }
       }
 
-      if(!((0x01 & (signed int)tcp.$anon0.$anon0.th_flags) == 0))
+      if(!((0x01 & (signed int)tcp._anon0._anon0.th_flags) == 0))
       {
-        char *return_value_connection_string$6;
-        return_value_connection_string$6=connection_string(s, d);
-        log_msg((enum anonymous$25)LOG_INFO, "connection closing: %s, %d bytes transferred", return_value_connection_string$6, c->len);
+        char *return_value_connection_string_6;
+        return_value_connection_string_6=connection_string(s, d);
+        log_msg((enum anonymous_25)LOG_INFO, "connection closing: %s, %d bytes transferred", return_value_connection_string_6, c->len);
         c->fin = 1;
       }
 
@@ -8876,49 +8876,49 @@ void save_image(struct imgrect *ir)
   char buf[8192l];
   signed long int l;
   struct stat st;
-  unsigned long int return_value_strlen$1;
-  void *return_value_xcalloc$2;
+  unsigned long int return_value_strlen_1;
+  void *return_value_xcalloc_2;
   static char *name;
   if(name == ((char *)NULL))
   {
-    return_value_strlen$1=strlen(savedimg_prefix);
-    return_value_xcalloc$2=xcalloc(return_value_strlen$1 + (unsigned long int)16, (unsigned long int)1);
-    name = (char *)return_value_xcalloc$2;
+    return_value_strlen_1=strlen(savedimg_prefix);
+    return_value_xcalloc_2=xcalloc(return_value_strlen_1 + (unsigned long int)16, (unsigned long int)1);
+    name = (char *)return_value_xcalloc_2;
   }
 
-  signed int tmp_post$4;
-  char *return_value_strrchr$5;
-  signed int return_value_stat$3;
+  signed int tmp_post_4;
+  char *return_value_strrchr_5;
+  signed int return_value_stat_3;
   do
   {
     static signed int num;
-    tmp_post$4 = num;
+    tmp_post_4 = num;
     num = num + 1;
-    return_value_strrchr$5=strrchr(ir->filename, 46);
-    sprintf(name, "%s%d%s", savedimg_prefix, tmp_post$4, return_value_strrchr$5);
-    return_value_stat$3=stat$link1(name, &st);
+    return_value_strrchr_5=strrchr(ir->filename, 46);
+    sprintf(name, "%s%d%s", savedimg_prefix, tmp_post_4, return_value_strrchr_5);
+    return_value_stat_3=stat_link1(name, &st);
   }
-  while(return_value_stat$3 == 0);
-  log_msg((enum anonymous$25)LOG_INFO, "saving `%s' as `%s'", ir->filename, name);
+  while(return_value_stat_3 == 0);
+  log_msg((enum anonymous_25)LOG_INFO, "saving `%s' as `%s'", ir->filename, name);
   fd1=open(ir->filename, 00);
   if(fd1 == -1)
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    log_msg((enum anonymous$25)LOG_ERROR, "%s: %s", ir->filename, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    log_msg((enum anonymous_25)LOG_ERROR, "%s: %s", ir->filename, return_value_strerror_7);
     goto __CPROVER_DUMP_L7;
   }
 
   fd2=open(name, 01 | 0100 | 01000, 0666);
   if(fd2 == -1)
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    char *return_value_strerror$9;
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    log_msg((enum anonymous$25)LOG_ERROR, "%s: %s", name, return_value_strerror$9);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    char *return_value_strerror_9;
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    log_msg((enum anonymous_25)LOG_ERROR, "%s: %s", name, return_value_strerror_9);
     close(fd1);
     goto __CPROVER_DUMP_L7;
   }
@@ -8929,15 +8929,15 @@ void save_image(struct imgrect *ir)
     if(!(l >= 1l))
       break;
 
-    signed long int return_value_write$12;
-    return_value_write$12=write(fd2, (const void *)buf, (unsigned long int)l);
-    if(return_value_write$12 == -1l)
+    signed long int return_value_write_12;
+    return_value_write_12=write(fd2, (const void *)buf, (unsigned long int)l);
+    if(return_value_write_12 == -1l)
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      char *return_value_strerror$11;
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      log_msg((enum anonymous$25)LOG_ERROR, "%s: %s", name, return_value_strerror$11);
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      char *return_value_strerror_11;
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      log_msg((enum anonymous_25)LOG_ERROR, "%s: %s", name, return_value_strerror_11);
       close(fd1);
       close(fd2);
       goto __CPROVER_DUMP_L7;
@@ -8945,13 +8945,13 @@ void save_image(struct imgrect *ir)
 
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
   if(l == -1l)
   {
-    return_value___errno_location$13=__errno_location();
-    return_value_strerror$14=strerror(*return_value___errno_location$13);
-    log_msg((enum anonymous$25)LOG_ERROR, "%s: %s", ir->filename, return_value_strerror$14);
+    return_value___errno_location_13=__errno_location();
+    return_value_strerror_14=strerror(*return_value___errno_location_13);
+    log_msg((enum anonymous_25)LOG_ERROR, "%s: %s", ir->filename, return_value_strerror_14);
   }
 
   close(fd1);
@@ -8996,14 +8996,14 @@ void scroll_backing_image(const signed int dy)
 
 // set_loglevel
 // file log.h line 20
-void set_loglevel(enum anonymous$25 level)
+void set_loglevel(enum anonymous_25 level)
 {
   loglevel = level;
 }
 
 // set_tmpdir
 // file tmpdir.h line 22
-void set_tmpdir(const char *dir, enum anonymous$51 type, signed int max_files, signed int preserve_files)
+void set_tmpdir(const char *dir, enum anonymous_51 type, signed int max_files, signed int preserve_files)
 {
   /* assertion tmpdir.path == ((void *)0) */
   assert(tmpdir.path == (const char *)(void *)0);
@@ -9013,7 +9013,7 @@ void set_tmpdir(const char *dir, enum anonymous$51 type, signed int max_files, s
   tmpdir.type = type;
   tmpdir.max_files = max_files;
   tmpdir.preserve_files = preserve_files;
-  log_msg((enum anonymous$25)LOG_INFO, "using temporary file directory %s", tmpdir.path);
+  log_msg((enum anonymous_25)LOG_INFO, "using temporary file directory %s", tmpdir.path);
 }
 
 // setup_signals
@@ -9045,18 +9045,18 @@ static void setup_signals(void)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___xstat$1$link1;
-  return_value___xstat$1$link1=__xstat(1, __path$link1, __statbuf$link1);
-  return return_value___xstat$1$link1;
+  signed int return_value___xstat_1_link1;
+  return_value___xstat_1_link1=__xstat(1, __path_link1, __statbuf_link1);
+  return return_value___xstat_1_link1;
 }
 
 // sweep_connections
@@ -9067,39 +9067,39 @@ void sweep_connections(void)
   struct _connection **C;
   now=time((signed long int *)(void *)0);
   C = slots;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
   for( ; !(C >= slots + (signed long int)slotsalloc); C = C + 1l)
     if(!(*C == ((struct _connection *)NULL)))
     {
       struct _connection *c = *C;
       if(now + -c->last >= 6l)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(!(c->fin == 0))
         {
           if(c->blocks == ((struct datablock *)NULL))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = !(c->blocks->next != ((struct datablock *)NULL)) ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = !(c->blocks->next != ((struct datablock *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = c->len > (unsigned int)(8 * 1024 * 1024) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = c->len > (unsigned int)(8 * 1024 * 1024) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
         extract_media(c);
         connection_delete(c);
@@ -9126,22 +9126,22 @@ const char * tmpfile_write(const char *mname, const unsigned char *data, const u
 {
   char *buf;
   signed int fd;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(tmpdir.path);
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc(return_value_strlen$1 + (unsigned long int)64);
-  buf = (char *)return_value_xmalloc$2;
-  signed long int return_value_time$3;
-  return_value_time$3=time((signed long int *)(void *)0);
-  signed int return_value_rand$4;
-  return_value_rand$4=rand();
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(tmpdir.path);
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc(return_value_strlen_1 + (unsigned long int)64);
+  buf = (char *)return_value_xmalloc_2;
+  signed long int return_value_time_3;
+  return_value_time_3=time((signed long int *)(void *)0);
+  signed int return_value_rand_4;
+  return_value_rand_4=rand();
   static char name[64l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  sprintf(name, "driftnet-%08x%08x.%s", (unsigned int)return_value_time$3, return_value_rand$4, mname);
+  sprintf(name, "driftnet-%08x%08x.%s", (unsigned int)return_value_time_3, return_value_rand_4, mname);
   sprintf(buf, "%s/%s", tmpdir.path, (const void *)name);
   fd=open(buf, 01 | 0100 | 0200, 0644);
   if(fd == -1)
   {
-    log_msg((enum anonymous$25)LOG_WARNING, "can't open %s for writing", buf);
+    log_msg((enum anonymous_25)LOG_WARNING, "can't open %s for writing", buf);
     return (const char *)(void *)0;
   }
 
@@ -9158,17 +9158,17 @@ const char * tmpfile_write(const char *mname, const unsigned char *data, const u
 // file tmpdir.c line 274
 signed int tmpfiles_limit_reached(void)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_count_tmpfiles$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_count_tmpfiles_1;
   if(tmpdir.max_files == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_count_tmpfiles$1=count_tmpfiles();
-    tmp_if_expr$2 = return_value_count_tmpfiles$1 < tmpdir.max_files ? (_Bool)1 : (_Bool)0;
+    return_value_count_tmpfiles_1=count_tmpfiles();
+    tmp_if_expr_2 = return_value_count_tmpfiles_1 < tmpdir.max_files ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -9194,7 +9194,7 @@ void update_window()
   {
     struct _GdkGC *gc;
     gc=gdk_gc_new(drawable);
-    gdk_draw_rgb_32_image(drawable, gc, 0, 0, width, height, (enum anonymous$48)GDK_RGB_DITHER_NORMAL, (unsigned char *)backing_image->flat, (signed int)(sizeof(unsigned int) /*4ul*/  * (unsigned long int)width));
+    gdk_draw_rgb_32_image(drawable, gc, 0, 0, width, height, (enum anonymous_48)GDK_RGB_DITHER_NORMAL, (unsigned char *)backing_image->flat, (signed int)(sizeof(unsigned int) /*4ul*/  * (unsigned long int)width));
     g_object_unref((void *)gc);
   }
 
@@ -9209,7 +9209,7 @@ static void usage(struct _IO_FILE *fp)
 
 // validate_options
 // file options.c line 164
-static void validate_options(struct anonymous$2 *options)
+static void validate_options(struct anonymous_2 *options)
 {
   if(options->dumpfile == ((char *)NULL))
   {
@@ -9222,7 +9222,7 @@ static void validate_options(struct anonymous$2 *options)
   {
     if(options->adjunct == 0)
     {
-      log_msg((enum anonymous$25)LOG_WARNING, "-m only makes sense with -a");
+      log_msg((enum anonymous_25)LOG_WARNING, "-m only makes sense with -a");
       options->max_tmpfiles = 0;
     }
 
@@ -9231,35 +9231,35 @@ static void validate_options(struct anonymous$2 *options)
   if(!(options->adjunct == 0))
   {
     if(!(options->newpfx == 0))
-      log_msg((enum anonymous$25)LOG_WARNING, "-x ignored -a");
+      log_msg((enum anonymous_25)LOG_WARNING, "-x ignored -a");
 
   }
 
   if(!(options->mpeg_player_specified == 0))
   {
     if((m_audio & (signed int)options->extract_type) == 0)
-      log_msg((enum anonymous$25)LOG_WARNING, "-M only makes sense with -s");
+      log_msg((enum anonymous_25)LOG_WARNING, "-M only makes sense with -s");
 
   }
 
   if(!(options->mpeg_player_specified == 0))
   {
     if(!(options->adjunct == 0))
-      log_msg((enum anonymous$25)LOG_WARNING, "-M ignored with -a");
+      log_msg((enum anonymous_25)LOG_WARNING, "-M ignored with -a");
 
   }
 
   if(!(options->max_tmpfiles == 0))
   {
     if(!(options->adjunct == 0))
-      log_msg((enum anonymous$25)LOG_INFO, "a maximum of %d images will be buffered", options->max_tmpfiles);
+      log_msg((enum anonymous_25)LOG_INFO, "a maximum of %d images will be buffered", options->max_tmpfiles);
 
   }
 
   if(!(options->beep == 0))
   {
     if(!(options->adjunct == 0))
-      log_msg((enum anonymous$25)LOG_WARNING, "can't beep in adjunct mode");
+      log_msg((enum anonymous_25)LOG_WARNING, "can't beep in adjunct mode");
 
   }
 
@@ -9311,21 +9311,21 @@ void xnanosleep(signed long int nanosecs)
 static signed long int xread(signed int fd, void *buf, unsigned long int len)
 {
   char *p = (char *)buf;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   while(!(p >= (char *)buf + (signed long int)len))
   {
     signed long int l;
     l=read(fd, (void *)p, (unsigned long int)(((char *)buf + (signed long int)len) - p));
     if(l == -1l)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 != 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 != 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       return (signed long int)-1;
 
     else
@@ -9355,11 +9355,11 @@ void * xrealloc(void *w, unsigned long int n)
 char * xstrdup(const char *s)
 {
   char *t;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc(return_value_strlen$1 + (unsigned long int)1);
-  t = (char *)return_value_xmalloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc(return_value_strlen_1 + (unsigned long int)1);
+  t = (char *)return_value_xmalloc_2;
   strcpy(t, s);
   return t;
 }

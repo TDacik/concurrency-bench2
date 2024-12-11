@@ -1,14 +1,14 @@
-// tag-#anon#ST[*{F32}$F32$'data_in'||*{F32}$F32$'data_out'||S64'input_frames'||S64'output_frames'||S64'input_frames_used'||S64'output_frames_gen'||S32'end_of_input'||U32'$pad0'||F64'src_ratio'|]
+// tag-#anon#ST[*{F32}_F32_'data_in'||*{F32}_F32_'data_out'||S64'input_frames'||S64'output_frames'||S64'input_frames_used'||S64'output_frames_gen'||S32'end_of_input'||U32'_pad0'||F64'src_ratio'|]
 // file /usr/include/samplerate.h line 42
 struct anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-SRC_STATE_tag
 // file /usr/include/samplerate.h line 39
@@ -415,22 +415,22 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$1 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_1 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$1 *);
+extern signed int pthread_mutexattr_init(union anonymous_1 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$1 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_1 *, signed int);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -896,9 +896,9 @@ static inline unsigned long int time_to_frames(unsigned int rate, unsigned long 
 // timediff
 // file alsaloop.c line 215
 static signed long int timediff(struct timeval t1, struct timeval t2);
-// timediff$link1
+// timediff_link1
 // file pcmjob.c line 354
-static signed long int timediff$link1(struct timeval t1$link1, struct timeval t2$link1);
+static signed long int timediff_link1(struct timeval t1_link1, struct timeval t2_link1);
 // update_pitch
 // file pcmjob.c line 1035
 void update_pitch(struct loopback *loop);
@@ -950,7 +950,7 @@ struct anonymous
   double src_ratio;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -986,7 +986,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1399,7 +1399,7 @@ extern signed int optind;
 extern signed int optopt;
 // pcm_open_mutex
 // file pcmjob.c line 66
-static union anonymous$0 pcm_open_mutex;
+static union anonymous_0 pcm_open_mutex;
 // pcm_open_mutex_once
 // file pcmjob.c line 65
 static signed int pcm_open_mutex_once = 0;
@@ -1411,7 +1411,7 @@ signed int quit = 0;
 static const char *src_types[5l] = { "SRC_SINC_BEST_QUALITY", "SRC_SINC_MEDIUM_QUALITY", "SRC_SINC_FASTEST", "SRC_ZERO_ORDER_HOLD", "SRC_LINEAR" };
 // state_mutex
 // file pcmjob.c line 1942
-static union anonymous$0 state_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 state_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // stderr
@@ -1443,9 +1443,9 @@ signed int workarounds = 0;
 // file alsaloop.c line 229
 static void add_loop(struct loopback *loop)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)loopbacks, (unsigned long int)(loopbacks_count + 1) * sizeof(struct loopback *) /*8ul*/ );
-  loopbacks = (struct loopback **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)loopbacks, (unsigned long int)(loopbacks_count + 1) * sizeof(struct loopback *) /*8ul*/ );
+  loopbacks = (struct loopback **)return_value_realloc_1;
   if(loopbacks == ((struct loopback **)NULL))
   {
     do
@@ -1458,9 +1458,9 @@ static void add_loop(struct loopback *loop)
     exit(1);
   }
 
-  signed int tmp_post$2 = loopbacks_count;
+  signed int tmp_post_2 = loopbacks_count;
   loopbacks_count = loopbacks_count + 1;
-  loopbacks[(signed long int)tmp_post$2] = loop;
+  loopbacks[(signed long int)tmp_post_2] = loop;
 }
 
 // add_mixers
@@ -1471,14 +1471,14 @@ static signed int add_mixers(struct loopback *loop, char **mixers, signed int mi
   struct loopback_mixer *last = (struct loopback_mixer *)(void *)0;
   char *str1;
   signed int err;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$3;
-  char *tmp_if_expr$4;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_3;
+  char *tmp_if_expr_4;
   while(mixers_count >= 1)
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct loopback_mixer) /*64ul*/ );
-    mixer = (struct loopback_mixer *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct loopback_mixer) /*64ul*/ );
+    mixer = (struct loopback_mixer *)return_value_calloc_1;
     if(mixer == ((struct loopback_mixer *)NULL))
       return -12;
 
@@ -1506,32 +1506,32 @@ static signed int add_mixers(struct loopback *loop, char **mixers, signed int mi
     }
 
     if(!(str1 == ((char *)NULL)))
-      tmp_if_expr$2 = str1 + (signed long int)1;
+      tmp_if_expr_2 = str1 + (signed long int)1;
 
     else
-      tmp_if_expr$2 = *mixers;
-    err=init_mixer_control(&mixer->dst, tmp_if_expr$2);
+      tmp_if_expr_2 = *mixers;
+    err=init_mixer_control(&mixer->dst, tmp_if_expr_2);
     if(!(err >= 0))
     {
       do
         if(!(use_syslog == 0))
         {
           if(!(str1 == ((char *)NULL)))
-            tmp_if_expr$3 = str1 + (signed long int)1;
+            tmp_if_expr_3 = str1 + (signed long int)1;
 
           else
-            tmp_if_expr$3 = *mixers;
-          syslog(2, "Wrong mixer control ID syntax '%s'\n", tmp_if_expr$3);
+            tmp_if_expr_3 = *mixers;
+          syslog(2, "Wrong mixer control ID syntax '%s'\n", tmp_if_expr_3);
         }
 
         else
         {
           if(!(str1 == ((char *)NULL)))
-            tmp_if_expr$4 = str1 + (signed long int)1;
+            tmp_if_expr_4 = str1 + (signed long int)1;
 
           else
-            tmp_if_expr$4 = *mixers;
-          fprintf(stderr, "Wrong mixer control ID syntax '%s'\n", tmp_if_expr$4);
+            tmp_if_expr_4 = *mixers;
+          fprintf(stderr, "Wrong mixer control ID syntax '%s'\n", tmp_if_expr_4);
         }
       while((_Bool)0);
       return -22;
@@ -1554,14 +1554,14 @@ static signed int add_oss_mixers(struct loopback *loop, char **mixers, signed in
   struct loopback_ossmixer *last = (struct loopback_ossmixer *)(void *)0;
   char *str1;
   char *str2;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   while(mixers_count >= 1)
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct loopback_ossmixer) /*40ul*/ );
-    mixer = (struct loopback_ossmixer *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct loopback_ossmixer) /*40ul*/ );
+    mixer = (struct loopback_ossmixer *)return_value_calloc_1;
     if(mixer == ((struct loopback_ossmixer *)NULL))
       return -12;
 
@@ -1576,11 +1576,11 @@ static signed int add_oss_mixers(struct loopback *loop, char **mixers, signed in
       *str1 = (char)0;
 
     if(!(str1 == ((char *)NULL)))
-      tmp_if_expr$2 = str1 + (signed long int)1;
+      tmp_if_expr_2 = str1 + (signed long int)1;
 
     else
-      tmp_if_expr$2 = *mixers;
-    str2=strchr(tmp_if_expr$2, 64);
+      tmp_if_expr_2 = *mixers;
+    str2=strchr(tmp_if_expr_2, 64);
     if(!(str2 == ((char *)NULL)))
       *str2 = (char)0;
 
@@ -1589,17 +1589,17 @@ static signed int add_oss_mixers(struct loopback *loop, char **mixers, signed in
       mixer->alsa_index=atoi(str1);
 
     if(!(str2 == ((char *)NULL)))
-      tmp_if_expr$3 = str2 + (signed long int)1;
+      tmp_if_expr_3 = str2 + (signed long int)1;
 
     else
-      tmp_if_expr$3 = *mixers;
-    mixer->oss_id=strdup(tmp_if_expr$3);
+      tmp_if_expr_3 = *mixers;
+    mixer->oss_id=strdup(tmp_if_expr_3);
     if(mixer->alsa_id == ((const char *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = mixer->oss_id == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = mixer->oss_id == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       do
         if(!(use_syslog == 0))
@@ -1687,9 +1687,9 @@ static void buf_add_src(struct loopback *loop)
     if(!(play->buf_size >= count1 + pos1))
       count1 = play->buf_size - pos1;
 
-    unsigned long int return_value_buf_avail$1;
-    return_value_buf_avail$1=buf_avail(play);
-    if(!(return_value_buf_avail$1 >= count1))
+    unsigned long int return_value_buf_avail_1;
+    return_value_buf_avail_1=buf_avail(play);
+    if(!(return_value_buf_avail_1 >= count1))
       count1=buf_avail(play);
 
     if(count1 == 0ul)
@@ -1766,10 +1766,10 @@ signed int control_done(struct loopback *loop)
   struct loopback_mixer *mix;
   struct loopback_ossmixer *ossmix;
   signed int err;
-  char *return_value_id_str$1;
-  const char *return_value_snd_strerror$2;
-  char *return_value_id_str$3;
-  const char *return_value_snd_strerror$4;
+  char *return_value_id_str_1;
+  const char *return_value_snd_strerror_2;
+  char *return_value_id_str_3;
+  const char *return_value_snd_strerror_4;
   if(loop->capt->ctl == ((struct _snd_ctl *)NULL))
     return 0;
 
@@ -1798,16 +1798,16 @@ signed int control_done(struct loopback *loop)
           do
             if(!(use_syslog == 0))
             {
-              return_value_id_str$1=id_str(mix->dst.id);
-              return_value_snd_strerror$2=snd_strerror(err);
-              syslog(4, "%s: Unable to remove control '%s': %s\n", loop->id, return_value_id_str$1, return_value_snd_strerror$2);
+              return_value_id_str_1=id_str(mix->dst.id);
+              return_value_snd_strerror_2=snd_strerror(err);
+              syslog(4, "%s: Unable to remove control '%s': %s\n", loop->id, return_value_id_str_1, return_value_snd_strerror_2);
             }
 
             else
             {
-              return_value_id_str$3=id_str(mix->dst.id);
-              return_value_snd_strerror$4=snd_strerror(err);
-              fprintf(stderr, "%s: Unable to remove control '%s': %s\n", loop->id, return_value_id_str$3, return_value_snd_strerror$4);
+              return_value_id_str_3=id_str(mix->dst.id);
+              return_value_snd_strerror_4=snd_strerror(err);
+              fprintf(stderr, "%s: Unable to remove control '%s': %s\n", loop->id, return_value_id_str_3, return_value_snd_strerror_4);
             }
           while((_Bool)0);
 
@@ -1827,30 +1827,30 @@ signed int control_event(struct loopback_handle *lhandle, struct _snd_ctl_event 
   signed int err;
   do
   {
-    unsigned long int return_value_snd_ctl_elem_id_sizeof$1;
-    return_value_snd_ctl_elem_id_sizeof$1=snd_ctl_elem_id_sizeof();
-    void *return_value___builtin_alloca$2;
-    return_value___builtin_alloca$2=__builtin_alloca(return_value_snd_ctl_elem_id_sizeof$1);
-    *(&id2) = (struct _snd_ctl_elem_id *)return_value___builtin_alloca$2;
-    unsigned long int return_value_snd_ctl_elem_id_sizeof$3;
-    return_value_snd_ctl_elem_id_sizeof$3=snd_ctl_elem_id_sizeof();
-    memset((void *)*(&id2), 0, return_value_snd_ctl_elem_id_sizeof$3);
+    unsigned long int return_value_snd_ctl_elem_id_sizeof_1;
+    return_value_snd_ctl_elem_id_sizeof_1=snd_ctl_elem_id_sizeof();
+    void *return_value___builtin_alloca_2;
+    return_value___builtin_alloca_2=__builtin_alloca(return_value_snd_ctl_elem_id_sizeof_1);
+    *(&id2) = (struct _snd_ctl_elem_id *)return_value___builtin_alloca_2;
+    unsigned long int return_value_snd_ctl_elem_id_sizeof_3;
+    return_value_snd_ctl_elem_id_sizeof_3=snd_ctl_elem_id_sizeof();
+    memset((void *)*(&id2), 0, return_value_snd_ctl_elem_id_sizeof_3);
   }
   while((_Bool)0);
   snd_ctl_event_elem_get_id(ev, id2);
   mix = lhandle->loopback->controls;
-  struct _snd_ctl_elem_id *tmp_if_expr$4;
+  struct _snd_ctl_elem_id *tmp_if_expr_4;
   for( ; !(mix == ((struct loopback_mixer *)NULL)); mix = mix->next)
     if(mix->skip == 0u)
     {
       if(!(capt == 0))
-        tmp_if_expr$4 = mix->dst.id;
+        tmp_if_expr_4 = mix->dst.id;
 
       else
-        tmp_if_expr$4 = mix->src.id;
-      signed int return_value_control_id_match$5;
-      return_value_control_id_match$5=control_id_match(id2, tmp_if_expr$4);
-      if(!(return_value_control_id_match$5 == 0))
+        tmp_if_expr_4 = mix->src.id;
+      signed int return_value_control_id_match_5;
+      return_value_control_id_match_5=control_id_match(id2, tmp_if_expr_4);
+      if(!(return_value_control_id_match_5 == 0))
       {
         err=control_event1(lhandle->loopback, mix, ev, capt);
         if(!(err >= 0))
@@ -1870,22 +1870,22 @@ static signed int control_event1(struct loopback *loop, struct loopback_mixer *m
   unsigned int mask;
   mask=snd_ctl_event_elem_get_mask(ev);
   signed int err;
-  char *return_value_id_str$1;
-  const char *return_value_snd_strerror$2;
-  char *return_value_id_str$3;
-  const char *return_value_snd_strerror$4;
-  char *return_value_id_str$5;
-  const char *return_value_snd_strerror$6;
-  char *return_value_id_str$7;
-  const char *return_value_snd_strerror$8;
-  char *return_value_id_str$9;
-  const char *return_value_snd_strerror$10;
-  char *return_value_id_str$11;
-  const char *return_value_snd_strerror$12;
-  char *return_value_id_str$13;
-  const char *return_value_snd_strerror$14;
-  char *return_value_id_str$15;
-  const char *return_value_snd_strerror$16;
+  char *return_value_id_str_1;
+  const char *return_value_snd_strerror_2;
+  char *return_value_id_str_3;
+  const char *return_value_snd_strerror_4;
+  char *return_value_id_str_5;
+  const char *return_value_snd_strerror_6;
+  char *return_value_id_str_7;
+  const char *return_value_snd_strerror_8;
+  char *return_value_id_str_9;
+  const char *return_value_snd_strerror_10;
+  char *return_value_id_str_11;
+  const char *return_value_snd_strerror_12;
+  char *return_value_id_str_13;
+  const char *return_value_snd_strerror_14;
+  char *return_value_id_str_15;
+  const char *return_value_snd_strerror_16;
   if(mask == 4294967295u)
     return 0;
 
@@ -1904,16 +1904,16 @@ static signed int control_event1(struct loopback *loop, struct loopback_mixer *m
           do
             if(!(use_syslog == 0))
             {
-              return_value_id_str$1=id_str(mix->src.id);
-              return_value_snd_strerror$2=snd_strerror(err);
-              syslog(2, "Unable to read control value (event1) '%s': %s\n", return_value_id_str$1, return_value_snd_strerror$2);
+              return_value_id_str_1=id_str(mix->src.id);
+              return_value_snd_strerror_2=snd_strerror(err);
+              syslog(2, "Unable to read control value (event1) '%s': %s\n", return_value_id_str_1, return_value_snd_strerror_2);
             }
 
             else
             {
-              return_value_id_str$3=id_str(mix->src.id);
-              return_value_snd_strerror$4=snd_strerror(err);
-              fprintf(stderr, "Unable to read control value (event1) '%s': %s\n", return_value_id_str$3, return_value_snd_strerror$4);
+              return_value_id_str_3=id_str(mix->src.id);
+              return_value_snd_strerror_4=snd_strerror(err);
+              fprintf(stderr, "Unable to read control value (event1) '%s': %s\n", return_value_id_str_3, return_value_snd_strerror_4);
             }
           while((_Bool)0);
           return err;
@@ -1926,16 +1926,16 @@ static signed int control_event1(struct loopback *loop, struct loopback_mixer *m
           do
             if(!(use_syslog == 0))
             {
-              return_value_id_str$5=id_str(mix->dst.id);
-              return_value_snd_strerror$6=snd_strerror(err);
-              syslog(2, "Unable to write control value (event1) '%s': %s\n", return_value_id_str$5, return_value_snd_strerror$6);
+              return_value_id_str_5=id_str(mix->dst.id);
+              return_value_snd_strerror_6=snd_strerror(err);
+              syslog(2, "Unable to write control value (event1) '%s': %s\n", return_value_id_str_5, return_value_snd_strerror_6);
             }
 
             else
             {
-              return_value_id_str$7=id_str(mix->dst.id);
-              return_value_snd_strerror$8=snd_strerror(err);
-              fprintf(stderr, "Unable to write control value (event1) '%s': %s\n", return_value_id_str$7, return_value_snd_strerror$8);
+              return_value_id_str_7=id_str(mix->dst.id);
+              return_value_snd_strerror_8=snd_strerror(err);
+              fprintf(stderr, "Unable to write control value (event1) '%s': %s\n", return_value_id_str_7, return_value_snd_strerror_8);
             }
           while((_Bool)0);
           return err;
@@ -1951,16 +1951,16 @@ static signed int control_event1(struct loopback *loop, struct loopback_mixer *m
           do
             if(!(use_syslog == 0))
             {
-              return_value_id_str$9=id_str(mix->dst.id);
-              return_value_snd_strerror$10=snd_strerror(err);
-              syslog(2, "Unable to read control value (event2) '%s': %s\n", return_value_id_str$9, return_value_snd_strerror$10);
+              return_value_id_str_9=id_str(mix->dst.id);
+              return_value_snd_strerror_10=snd_strerror(err);
+              syslog(2, "Unable to read control value (event2) '%s': %s\n", return_value_id_str_9, return_value_snd_strerror_10);
             }
 
             else
             {
-              return_value_id_str$11=id_str(mix->dst.id);
-              return_value_snd_strerror$12=snd_strerror(err);
-              fprintf(stderr, "Unable to read control value (event2) '%s': %s\n", return_value_id_str$11, return_value_snd_strerror$12);
+              return_value_id_str_11=id_str(mix->dst.id);
+              return_value_snd_strerror_12=snd_strerror(err);
+              fprintf(stderr, "Unable to read control value (event2) '%s': %s\n", return_value_id_str_11, return_value_snd_strerror_12);
             }
           while((_Bool)0);
           return err;
@@ -1973,16 +1973,16 @@ static signed int control_event1(struct loopback *loop, struct loopback_mixer *m
           do
             if(!(use_syslog == 0))
             {
-              return_value_id_str$13=id_str(mix->src.id);
-              return_value_snd_strerror$14=snd_strerror(err);
-              syslog(2, "Unable to write control value (event2) '%s': %s\n", return_value_id_str$13, return_value_snd_strerror$14);
+              return_value_id_str_13=id_str(mix->src.id);
+              return_value_snd_strerror_14=snd_strerror(err);
+              syslog(2, "Unable to write control value (event2) '%s': %s\n", return_value_id_str_13, return_value_snd_strerror_14);
             }
 
             else
             {
-              return_value_id_str$15=id_str(mix->src.id);
-              return_value_snd_strerror$16=snd_strerror(err);
-              fprintf(stderr, "Unable to write control value (event2) '%s': %s\n", return_value_id_str$15, return_value_snd_strerror$16);
+              return_value_id_str_15=id_str(mix->src.id);
+              return_value_snd_strerror_16=snd_strerror(err);
+              fprintf(stderr, "Unable to write control value (event2) '%s': %s\n", return_value_id_str_15, return_value_snd_strerror_16);
             }
           while((_Bool)0);
           return err;
@@ -1997,49 +1997,49 @@ static signed int control_event1(struct loopback *loop, struct loopback_mixer *m
 // file alsaloop.h line 215
 signed int control_id_match(struct _snd_ctl_elem_id *id1, struct _snd_ctl_elem_id *id2)
 {
-  enum _snd_ctl_elem_iface return_value_snd_ctl_elem_id_get_interface$1;
-  return_value_snd_ctl_elem_id_get_interface$1=snd_ctl_elem_id_get_interface(id1);
-  enum _snd_ctl_elem_iface return_value_snd_ctl_elem_id_get_interface$2;
-  return_value_snd_ctl_elem_id_get_interface$2=snd_ctl_elem_id_get_interface(id2);
-  if(!(return_value_snd_ctl_elem_id_get_interface$1 == return_value_snd_ctl_elem_id_get_interface$2))
+  enum _snd_ctl_elem_iface return_value_snd_ctl_elem_id_get_interface_1;
+  return_value_snd_ctl_elem_id_get_interface_1=snd_ctl_elem_id_get_interface(id1);
+  enum _snd_ctl_elem_iface return_value_snd_ctl_elem_id_get_interface_2;
+  return_value_snd_ctl_elem_id_get_interface_2=snd_ctl_elem_id_get_interface(id2);
+  if(!(return_value_snd_ctl_elem_id_get_interface_1 == return_value_snd_ctl_elem_id_get_interface_2))
     return 0;
 
   else
   {
-    unsigned int return_value_snd_ctl_elem_id_get_device$3;
-    return_value_snd_ctl_elem_id_get_device$3=snd_ctl_elem_id_get_device(id1);
-    unsigned int return_value_snd_ctl_elem_id_get_device$4;
-    return_value_snd_ctl_elem_id_get_device$4=snd_ctl_elem_id_get_device(id2);
-    if(!(return_value_snd_ctl_elem_id_get_device$3 == return_value_snd_ctl_elem_id_get_device$4))
+    unsigned int return_value_snd_ctl_elem_id_get_device_3;
+    return_value_snd_ctl_elem_id_get_device_3=snd_ctl_elem_id_get_device(id1);
+    unsigned int return_value_snd_ctl_elem_id_get_device_4;
+    return_value_snd_ctl_elem_id_get_device_4=snd_ctl_elem_id_get_device(id2);
+    if(!(return_value_snd_ctl_elem_id_get_device_3 == return_value_snd_ctl_elem_id_get_device_4))
       return 0;
 
     else
     {
-      unsigned int return_value_snd_ctl_elem_id_get_subdevice$5;
-      return_value_snd_ctl_elem_id_get_subdevice$5=snd_ctl_elem_id_get_subdevice(id1);
-      unsigned int return_value_snd_ctl_elem_id_get_subdevice$6;
-      return_value_snd_ctl_elem_id_get_subdevice$6=snd_ctl_elem_id_get_subdevice(id2);
-      if(!(return_value_snd_ctl_elem_id_get_subdevice$5 == return_value_snd_ctl_elem_id_get_subdevice$6))
+      unsigned int return_value_snd_ctl_elem_id_get_subdevice_5;
+      return_value_snd_ctl_elem_id_get_subdevice_5=snd_ctl_elem_id_get_subdevice(id1);
+      unsigned int return_value_snd_ctl_elem_id_get_subdevice_6;
+      return_value_snd_ctl_elem_id_get_subdevice_6=snd_ctl_elem_id_get_subdevice(id2);
+      if(!(return_value_snd_ctl_elem_id_get_subdevice_5 == return_value_snd_ctl_elem_id_get_subdevice_6))
         return 0;
 
       else
       {
-        const char *return_value_snd_ctl_elem_id_get_name$7;
-        return_value_snd_ctl_elem_id_get_name$7=snd_ctl_elem_id_get_name(id1);
-        const char *return_value_snd_ctl_elem_id_get_name$8;
-        return_value_snd_ctl_elem_id_get_name$8=snd_ctl_elem_id_get_name(id2);
-        signed int return_value_strcmp$9;
-        return_value_strcmp$9=strcmp(return_value_snd_ctl_elem_id_get_name$7, return_value_snd_ctl_elem_id_get_name$8);
-        if(!(return_value_strcmp$9 == 0))
+        const char *return_value_snd_ctl_elem_id_get_name_7;
+        return_value_snd_ctl_elem_id_get_name_7=snd_ctl_elem_id_get_name(id1);
+        const char *return_value_snd_ctl_elem_id_get_name_8;
+        return_value_snd_ctl_elem_id_get_name_8=snd_ctl_elem_id_get_name(id2);
+        signed int return_value_strcmp_9;
+        return_value_strcmp_9=strcmp(return_value_snd_ctl_elem_id_get_name_7, return_value_snd_ctl_elem_id_get_name_8);
+        if(!(return_value_strcmp_9 == 0))
           return 0;
 
         else
         {
-          unsigned int return_value_snd_ctl_elem_id_get_index$10;
-          return_value_snd_ctl_elem_id_get_index$10=snd_ctl_elem_id_get_index(id1);
-          unsigned int return_value_snd_ctl_elem_id_get_index$11;
-          return_value_snd_ctl_elem_id_get_index$11=snd_ctl_elem_id_get_index(id2);
-          if(!(return_value_snd_ctl_elem_id_get_index$10 == return_value_snd_ctl_elem_id_get_index$11))
+          unsigned int return_value_snd_ctl_elem_id_get_index_10;
+          return_value_snd_ctl_elem_id_get_index_10=snd_ctl_elem_id_get_index(id1);
+          unsigned int return_value_snd_ctl_elem_id_get_index_11;
+          return_value_snd_ctl_elem_id_get_index_11=snd_ctl_elem_id_get_index(id2);
+          if(!(return_value_snd_ctl_elem_id_get_index_10 == return_value_snd_ctl_elem_id_get_index_11))
             return 0;
 
           else
@@ -2061,8 +2061,8 @@ signed int control_init(struct loopback *loop)
   for( ; !(ossmix == ((struct loopback_ossmixer *)NULL)); ossmix = ossmix->next)
     oss_set(loop, ossmix, 0);
   mix = loop->controls;
-  char *return_value_id_str$1;
-  char *return_value_id_str$2;
+  char *return_value_id_str_1;
+  char *return_value_id_str_2;
   for( ; !(mix == ((struct loopback_mixer *)NULL)); mix = mix->next)
   {
     err=control_init1(loop->play, &mix->src);
@@ -2071,14 +2071,14 @@ signed int control_init(struct loopback *loop)
       do
         if(!(use_syslog == 0))
         {
-          return_value_id_str$1=id_str(mix->src.id);
-          syslog(4, "%s: Disabling playback control '%s'\n", loop->id, return_value_id_str$1);
+          return_value_id_str_1=id_str(mix->src.id);
+          syslog(4, "%s: Disabling playback control '%s'\n", loop->id, return_value_id_str_1);
         }
 
         else
         {
-          return_value_id_str$2=id_str(mix->src.id);
-          fprintf(stderr, "%s: Disabling playback control '%s'\n", loop->id, return_value_id_str$2);
+          return_value_id_str_2=id_str(mix->src.id);
+          fprintf(stderr, "%s: Disabling playback control '%s'\n", loop->id, return_value_id_str_2);
         }
       while((_Bool)0);
       mix->skip = (unsigned int)1;
@@ -2119,29 +2119,29 @@ static signed int control_init1(struct loopback_handle *lhandle, struct loopback
   signed int err;
   snd_ctl_elem_info_set_id(ctl->info, ctl->id);
   snd_ctl_elem_value_set_id(ctl->value, ctl->id);
-  char *return_value_id_str$1;
-  char *return_value_id_str$2;
-  char *return_value_id_str$3;
-  const char *return_value_snd_strerror$4;
-  char *return_value_id_str$5;
-  const char *return_value_snd_strerror$6;
-  char *return_value_id_str$7;
-  const char *return_value_snd_strerror$8;
-  char *return_value_id_str$9;
-  const char *return_value_snd_strerror$10;
+  char *return_value_id_str_1;
+  char *return_value_id_str_2;
+  char *return_value_id_str_3;
+  const char *return_value_snd_strerror_4;
+  char *return_value_id_str_5;
+  const char *return_value_snd_strerror_6;
+  char *return_value_id_str_7;
+  const char *return_value_snd_strerror_8;
+  char *return_value_id_str_9;
+  const char *return_value_snd_strerror_10;
   if(lhandle->ctl == ((struct _snd_ctl *)NULL))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_id_str$1=id_str(ctl->id);
-        syslog(4, "Unable to read control info for '%s'\n", return_value_id_str$1);
+        return_value_id_str_1=id_str(ctl->id);
+        syslog(4, "Unable to read control info for '%s'\n", return_value_id_str_1);
       }
 
       else
       {
-        return_value_id_str$2=id_str(ctl->id);
-        fprintf(stderr, "Unable to read control info for '%s'\n", return_value_id_str$2);
+        return_value_id_str_2=id_str(ctl->id);
+        fprintf(stderr, "Unable to read control info for '%s'\n", return_value_id_str_2);
       }
     while((_Bool)0);
     return -5;
@@ -2155,16 +2155,16 @@ static signed int control_init1(struct loopback_handle *lhandle, struct loopback
       do
         if(!(use_syslog == 0))
         {
-          return_value_id_str$3=id_str(ctl->id);
-          return_value_snd_strerror$4=snd_strerror(err);
-          syslog(4, "Unable to read control info '%s': %s\n", return_value_id_str$3, return_value_snd_strerror$4);
+          return_value_id_str_3=id_str(ctl->id);
+          return_value_snd_strerror_4=snd_strerror(err);
+          syslog(4, "Unable to read control info '%s': %s\n", return_value_id_str_3, return_value_snd_strerror_4);
         }
 
         else
         {
-          return_value_id_str$5=id_str(ctl->id);
-          return_value_snd_strerror$6=snd_strerror(err);
-          fprintf(stderr, "Unable to read control info '%s': %s\n", return_value_id_str$5, return_value_snd_strerror$6);
+          return_value_id_str_5=id_str(ctl->id);
+          return_value_snd_strerror_6=snd_strerror(err);
+          fprintf(stderr, "Unable to read control info '%s': %s\n", return_value_id_str_5, return_value_snd_strerror_6);
         }
       while((_Bool)0);
       return err;
@@ -2178,16 +2178,16 @@ static signed int control_init1(struct loopback_handle *lhandle, struct loopback
         do
           if(!(use_syslog == 0))
           {
-            return_value_id_str$7=id_str(ctl->id);
-            return_value_snd_strerror$8=snd_strerror(err);
-            syslog(4, "Unable to read control value (init1) '%s': %s\n", return_value_id_str$7, return_value_snd_strerror$8);
+            return_value_id_str_7=id_str(ctl->id);
+            return_value_snd_strerror_8=snd_strerror(err);
+            syslog(4, "Unable to read control value (init1) '%s': %s\n", return_value_id_str_7, return_value_snd_strerror_8);
           }
 
           else
           {
-            return_value_id_str$9=id_str(ctl->id);
-            return_value_snd_strerror$10=snd_strerror(err);
-            fprintf(stderr, "Unable to read control value (init1) '%s': %s\n", return_value_id_str$9, return_value_snd_strerror$10);
+            return_value_id_str_9=id_str(ctl->id);
+            return_value_snd_strerror_10=snd_strerror(err);
+            fprintf(stderr, "Unable to read control value (init1) '%s': %s\n", return_value_id_str_9, return_value_snd_strerror_10);
           }
         while((_Bool)0);
         return err;
@@ -2213,11 +2213,11 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
   type=snd_ctl_elem_info_get_type(mix->dst.info);
   count=snd_ctl_elem_info_get_count(mix->dst.info);
   snd_ctl_elem_remove(loop->capt->ctl, mix->dst.id);
-  signed long int return_value_snd_ctl_elem_info_get_min$1;
-  signed long int return_value_snd_ctl_elem_info_get_max$2;
-  signed long int return_value_snd_ctl_elem_info_get_step$3;
-  const char *return_value_snd_ctl_elem_type_name$4;
-  const char *return_value_snd_ctl_elem_type_name$5;
+  signed long int return_value_snd_ctl_elem_info_get_min_1;
+  signed long int return_value_snd_ctl_elem_info_get_max_2;
+  signed long int return_value_snd_ctl_elem_info_get_step_3;
+  const char *return_value_snd_ctl_elem_type_name_4;
+  const char *return_value_snd_ctl_elem_type_name_5;
   switch((signed int)type)
   {
     case SND_CTL_ELEM_TYPE_BOOLEAN:
@@ -2228,10 +2228,10 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
     }
     case SND_CTL_ELEM_TYPE_INTEGER:
     {
-      return_value_snd_ctl_elem_info_get_min$1=snd_ctl_elem_info_get_min(mix->dst.info);
-      return_value_snd_ctl_elem_info_get_max$2=snd_ctl_elem_info_get_max(mix->dst.info);
-      return_value_snd_ctl_elem_info_get_step$3=snd_ctl_elem_info_get_step(mix->dst.info);
-      err=snd_ctl_elem_add_integer(loop->capt->ctl, mix->dst.id, count, return_value_snd_ctl_elem_info_get_min$1, return_value_snd_ctl_elem_info_get_max$2, return_value_snd_ctl_elem_info_get_step$3);
+      return_value_snd_ctl_elem_info_get_min_1=snd_ctl_elem_info_get_min(mix->dst.info);
+      return_value_snd_ctl_elem_info_get_max_2=snd_ctl_elem_info_get_max(mix->dst.info);
+      return_value_snd_ctl_elem_info_get_step_3=snd_ctl_elem_info_get_step(mix->dst.info);
+      err=snd_ctl_elem_add_integer(loop->capt->ctl, mix->dst.id, count, return_value_snd_ctl_elem_info_get_min_1, return_value_snd_ctl_elem_info_get_max_2, return_value_snd_ctl_elem_info_get_step_3);
       copy_value(&mix->dst, &mix->src);
       break;
     }
@@ -2240,58 +2240,58 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_ctl_elem_type_name$4=snd_ctl_elem_type_name(type);
-          syslog(2, "Unable to handle control type %s\n", return_value_snd_ctl_elem_type_name$4);
+          return_value_snd_ctl_elem_type_name_4=snd_ctl_elem_type_name(type);
+          syslog(2, "Unable to handle control type %s\n", return_value_snd_ctl_elem_type_name_4);
         }
 
         else
         {
-          return_value_snd_ctl_elem_type_name$5=snd_ctl_elem_type_name(type);
-          fprintf(stderr, "Unable to handle control type %s\n", return_value_snd_ctl_elem_type_name$5);
+          return_value_snd_ctl_elem_type_name_5=snd_ctl_elem_type_name(type);
+          fprintf(stderr, "Unable to handle control type %s\n", return_value_snd_ctl_elem_type_name_5);
         }
       while((_Bool)0);
       err = -22;
     }
   }
-  char *return_value_id_str$6;
-  const char *return_value_snd_strerror$7;
-  char *return_value_id_str$8;
-  const char *return_value_snd_strerror$9;
-  char *return_value_id_str$10;
-  const char *return_value_snd_strerror$11;
-  char *return_value_id_str$12;
-  const char *return_value_snd_strerror$13;
-  char *return_value_id_str$14;
-  const char *return_value_snd_strerror$15;
-  char *return_value_id_str$16;
-  const char *return_value_snd_strerror$17;
-  char *return_value_id_str$18;
-  const char *return_value_snd_strerror$19;
-  char *return_value_id_str$20;
-  const char *return_value_snd_strerror$21;
-  char *return_value_id_str$22;
-  const char *return_value_snd_strerror$23;
-  char *return_value_id_str$24;
-  const char *return_value_snd_strerror$25;
-  char *return_value_id_str$27;
-  const char *return_value_snd_strerror$28;
-  char *return_value_id_str$29;
-  const char *return_value_snd_strerror$30;
+  char *return_value_id_str_6;
+  const char *return_value_snd_strerror_7;
+  char *return_value_id_str_8;
+  const char *return_value_snd_strerror_9;
+  char *return_value_id_str_10;
+  const char *return_value_snd_strerror_11;
+  char *return_value_id_str_12;
+  const char *return_value_snd_strerror_13;
+  char *return_value_id_str_14;
+  const char *return_value_snd_strerror_15;
+  char *return_value_id_str_16;
+  const char *return_value_snd_strerror_17;
+  char *return_value_id_str_18;
+  const char *return_value_snd_strerror_19;
+  char *return_value_id_str_20;
+  const char *return_value_snd_strerror_21;
+  char *return_value_id_str_22;
+  const char *return_value_snd_strerror_23;
+  char *return_value_id_str_24;
+  const char *return_value_snd_strerror_25;
+  char *return_value_id_str_27;
+  const char *return_value_snd_strerror_28;
+  char *return_value_id_str_29;
+  const char *return_value_snd_strerror_30;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_id_str$6=id_str(mix->dst.id);
-        return_value_snd_strerror$7=snd_strerror(err);
-        syslog(2, "Unable to create control '%s': %s\n", return_value_id_str$6, return_value_snd_strerror$7);
+        return_value_id_str_6=id_str(mix->dst.id);
+        return_value_snd_strerror_7=snd_strerror(err);
+        syslog(2, "Unable to create control '%s': %s\n", return_value_id_str_6, return_value_snd_strerror_7);
       }
 
       else
       {
-        return_value_id_str$8=id_str(mix->dst.id);
-        return_value_snd_strerror$9=snd_strerror(err);
-        fprintf(stderr, "Unable to create control '%s': %s\n", return_value_id_str$8, return_value_snd_strerror$9);
+        return_value_id_str_8=id_str(mix->dst.id);
+        return_value_snd_strerror_9=snd_strerror(err);
+        fprintf(stderr, "Unable to create control '%s': %s\n", return_value_id_str_8, return_value_snd_strerror_9);
       }
     while((_Bool)0);
     return err;
@@ -2305,16 +2305,16 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
       do
         if(!(use_syslog == 0))
         {
-          return_value_id_str$10=id_str(mix->dst.id);
-          return_value_snd_strerror$11=snd_strerror(err);
-          syslog(2, "Unable to unlock control info '%s': %s\n", return_value_id_str$10, return_value_snd_strerror$11);
+          return_value_id_str_10=id_str(mix->dst.id);
+          return_value_snd_strerror_11=snd_strerror(err);
+          syslog(2, "Unable to unlock control info '%s': %s\n", return_value_id_str_10, return_value_snd_strerror_11);
         }
 
         else
         {
-          return_value_id_str$12=id_str(mix->dst.id);
-          return_value_snd_strerror$13=snd_strerror(err);
-          fprintf(stderr, "Unable to unlock control info '%s': %s\n", return_value_id_str$12, return_value_snd_strerror$13);
+          return_value_id_str_12=id_str(mix->dst.id);
+          return_value_snd_strerror_13=snd_strerror(err);
+          fprintf(stderr, "Unable to unlock control info '%s': %s\n", return_value_id_str_12, return_value_snd_strerror_13);
         }
       while((_Bool)0);
       return err;
@@ -2328,16 +2328,16 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
         do
           if(!(use_syslog == 0))
           {
-            return_value_id_str$14=id_str(mix->dst.id);
-            return_value_snd_strerror$15=snd_strerror(err);
-            syslog(2, "Unable to read control info '%s': %s\n", return_value_id_str$14, return_value_snd_strerror$15);
+            return_value_id_str_14=id_str(mix->dst.id);
+            return_value_snd_strerror_15=snd_strerror(err);
+            syslog(2, "Unable to read control info '%s': %s\n", return_value_id_str_14, return_value_snd_strerror_15);
           }
 
           else
           {
-            return_value_id_str$16=id_str(mix->dst.id);
-            return_value_snd_strerror$17=snd_strerror(err);
-            fprintf(stderr, "Unable to read control info '%s': %s\n", return_value_id_str$16, return_value_snd_strerror$17);
+            return_value_id_str_16=id_str(mix->dst.id);
+            return_value_snd_strerror_17=snd_strerror(err);
+            fprintf(stderr, "Unable to read control info '%s': %s\n", return_value_id_str_16, return_value_snd_strerror_17);
           }
         while((_Bool)0);
         return err;
@@ -2345,9 +2345,9 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
 
       else
       {
-        signed int return_value_snd_ctl_elem_info_is_tlv_writable$26;
-        return_value_snd_ctl_elem_info_is_tlv_writable$26=snd_ctl_elem_info_is_tlv_writable(mix->dst.info);
-        if(!(return_value_snd_ctl_elem_info_is_tlv_writable$26 == 0))
+        signed int return_value_snd_ctl_elem_info_is_tlv_writable_26;
+        return_value_snd_ctl_elem_info_is_tlv_writable_26=snd_ctl_elem_info_is_tlv_writable(mix->dst.info);
+        if(!(return_value_snd_ctl_elem_info_is_tlv_writable_26 == 0))
         {
           unsigned int tlv[64l];
           err=snd_ctl_elem_tlv_read(loop->play->ctl, mix->src.id, tlv, (unsigned int)sizeof(unsigned int [64l]) /*256ul*/ );
@@ -2356,16 +2356,16 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
             do
               if(!(use_syslog == 0))
               {
-                return_value_id_str$18=id_str(mix->src.id);
-                return_value_snd_strerror$19=snd_strerror(err);
-                syslog(2, "Unable to read TLV for '%s': %s\n", return_value_id_str$18, return_value_snd_strerror$19);
+                return_value_id_str_18=id_str(mix->src.id);
+                return_value_snd_strerror_19=snd_strerror(err);
+                syslog(2, "Unable to read TLV for '%s': %s\n", return_value_id_str_18, return_value_snd_strerror_19);
               }
 
               else
               {
-                return_value_id_str$20=id_str(mix->src.id);
-                return_value_snd_strerror$21=snd_strerror(err);
-                fprintf(stderr, "Unable to read TLV for '%s': %s\n", return_value_id_str$20, return_value_snd_strerror$21);
+                return_value_id_str_20=id_str(mix->src.id);
+                return_value_snd_strerror_21=snd_strerror(err);
+                fprintf(stderr, "Unable to read TLV for '%s': %s\n", return_value_id_str_20, return_value_snd_strerror_21);
               }
             while((_Bool)0);
             tlv[(signed long int)1] = (unsigned int)0;
@@ -2378,16 +2378,16 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
             do
               if(!(use_syslog == 0))
               {
-                return_value_id_str$22=id_str(mix->src.id);
-                return_value_snd_strerror$23=snd_strerror(err);
-                syslog(2, "Unable to write TLV for '%s': %s\n", return_value_id_str$22, return_value_snd_strerror$23);
+                return_value_id_str_22=id_str(mix->src.id);
+                return_value_snd_strerror_23=snd_strerror(err);
+                syslog(2, "Unable to write TLV for '%s': %s\n", return_value_id_str_22, return_value_snd_strerror_23);
               }
 
               else
               {
-                return_value_id_str$24=id_str(mix->src.id);
-                return_value_snd_strerror$25=snd_strerror(err);
-                fprintf(stderr, "Unable to write TLV for '%s': %s\n", return_value_id_str$24, return_value_snd_strerror$25);
+                return_value_id_str_24=id_str(mix->src.id);
+                return_value_snd_strerror_25=snd_strerror(err);
+                fprintf(stderr, "Unable to write TLV for '%s': %s\n", return_value_id_str_24, return_value_snd_strerror_25);
               }
             while((_Bool)0);
             return err;
@@ -2401,16 +2401,16 @@ static signed int control_init2(struct loopback *loop, struct loopback_mixer *mi
           do
             if(!(use_syslog == 0))
             {
-              return_value_id_str$27=id_str(mix->dst.id);
-              return_value_snd_strerror$28=snd_strerror(err);
-              syslog(2, "Unable to write control value '%s': %s\n", return_value_id_str$27, return_value_snd_strerror$28);
+              return_value_id_str_27=id_str(mix->dst.id);
+              return_value_snd_strerror_28=snd_strerror(err);
+              syslog(2, "Unable to write control value '%s': %s\n", return_value_id_str_27, return_value_snd_strerror_28);
             }
 
             else
             {
-              return_value_id_str$29=id_str(mix->dst.id);
-              return_value_snd_strerror$30=snd_strerror(err);
-              fprintf(stderr, "Unable to write control value '%s': %s\n", return_value_id_str$29, return_value_snd_strerror$30);
+              return_value_id_str_29=id_str(mix->dst.id);
+              return_value_snd_strerror_30=snd_strerror(err);
+              fprintf(stderr, "Unable to write control value '%s': %s\n", return_value_id_str_29, return_value_snd_strerror_30);
             }
           while((_Bool)0);
           return err;
@@ -2442,24 +2442,24 @@ signed int control_parse_id(const char *str, struct _snd_ctl_elem_id *id)
 
 __CPROVER_DUMP_L3:
   ;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  signed int return_value_strncasecmp$23;
-  signed int return_value_strncasecmp$7;
-  signed int return_value_strncasecmp$6;
-  signed int return_value_strncasecmp$5;
-  signed int return_value_strncasecmp$4;
-  signed int return_value_strncasecmp$3;
-  signed int return_value_strncasecmp$22;
-  _Bool tmp_if_expr$12;
-  const char *tmp_post$9;
-  char *tmp_post$10;
-  char *tmp_post$11;
-  signed int return_value_strncasecmp$21;
-  const unsigned short int **return_value___ctype_b_loc$14;
-  signed int return_value_strncasecmp$20;
-  const unsigned short int **return_value___ctype_b_loc$16;
-  signed int return_value_strncasecmp$19;
-  const unsigned short int **return_value___ctype_b_loc$18;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  signed int return_value_strncasecmp_23;
+  signed int return_value_strncasecmp_7;
+  signed int return_value_strncasecmp_6;
+  signed int return_value_strncasecmp_5;
+  signed int return_value_strncasecmp_4;
+  signed int return_value_strncasecmp_3;
+  signed int return_value_strncasecmp_22;
+  _Bool tmp_if_expr_12;
+  const char *tmp_post_9;
+  char *tmp_post_10;
+  char *tmp_post_11;
+  signed int return_value_strncasecmp_21;
+  const unsigned short int **return_value___ctype_b_loc_14;
+  signed int return_value_strncasecmp_20;
+  const unsigned short int **return_value___ctype_b_loc_16;
+  signed int return_value_strncasecmp_19;
+  const unsigned short int **return_value___ctype_b_loc_18;
   if(*str == 0)
     return -22;
 
@@ -2468,9 +2468,9 @@ __CPROVER_DUMP_L3:
     snd_ctl_elem_id_set_interface(id, (enum _snd_ctl_elem_iface)SND_CTL_ELEM_IFACE_MIXER);
     while(!(*str == 0))
     {
-      signed int return_value_strncasecmp$24;
-      return_value_strncasecmp$24=strncasecmp(str, "numid=", (unsigned long int)6);
-      if(return_value_strncasecmp$24 == 0)
+      signed int return_value_strncasecmp_24;
+      return_value_strncasecmp_24=strncasecmp(str, "numid=", (unsigned long int)6);
+      if(return_value_strncasecmp_24 == 0)
       {
         str = str + (signed long int)6;
         numid=atoi(str);
@@ -2486,13 +2486,13 @@ __CPROVER_DUMP_L3:
           return -22;
         }
 
-        signed int return_value_atoi$1;
-        return_value_atoi$1=atoi(str);
-        snd_ctl_elem_id_set_numid(id, (unsigned int)return_value_atoi$1);
+        signed int return_value_atoi_1;
+        return_value_atoi_1=atoi(str);
+        snd_ctl_elem_id_set_numid(id, (unsigned int)return_value_atoi_1);
         do
         {
-          return_value___ctype_b_loc$2=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*str]) == 0)
+          return_value___ctype_b_loc_2=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*str]) == 0)
             break;
 
           str = str + 1l;
@@ -2502,13 +2502,13 @@ __CPROVER_DUMP_L3:
 
       else
       {
-        return_value_strncasecmp$23=strncasecmp(str, "iface=", (unsigned long int)6);
-        if(return_value_strncasecmp$23 == 0)
+        return_value_strncasecmp_23=strncasecmp(str, "iface=", (unsigned long int)6);
+        if(return_value_strncasecmp_23 == 0)
         {
           str = str + (signed long int)6;
-          signed int return_value_strncasecmp$8;
-          return_value_strncasecmp$8=strncasecmp(str, "card", (unsigned long int)4);
-          if(return_value_strncasecmp$8 == 0)
+          signed int return_value_strncasecmp_8;
+          return_value_strncasecmp_8=strncasecmp(str, "card", (unsigned long int)4);
+          if(return_value_strncasecmp_8 == 0)
           {
             snd_ctl_elem_id_set_interface(id, (enum _snd_ctl_elem_iface)SND_CTL_ELEM_IFACE_CARD);
             str = str + (signed long int)4;
@@ -2516,8 +2516,8 @@ __CPROVER_DUMP_L3:
 
           else
           {
-            return_value_strncasecmp$7=strncasecmp(str, "mixer", (unsigned long int)5);
-            if(return_value_strncasecmp$7 == 0)
+            return_value_strncasecmp_7=strncasecmp(str, "mixer", (unsigned long int)5);
+            if(return_value_strncasecmp_7 == 0)
             {
               snd_ctl_elem_id_set_interface(id, (enum _snd_ctl_elem_iface)SND_CTL_ELEM_IFACE_MIXER);
               str = str + (signed long int)5;
@@ -2525,8 +2525,8 @@ __CPROVER_DUMP_L3:
 
             else
             {
-              return_value_strncasecmp$6=strncasecmp(str, "pcm", (unsigned long int)3);
-              if(return_value_strncasecmp$6 == 0)
+              return_value_strncasecmp_6=strncasecmp(str, "pcm", (unsigned long int)3);
+              if(return_value_strncasecmp_6 == 0)
               {
                 snd_ctl_elem_id_set_interface(id, (enum _snd_ctl_elem_iface)SND_CTL_ELEM_IFACE_PCM);
                 str = str + (signed long int)3;
@@ -2534,8 +2534,8 @@ __CPROVER_DUMP_L3:
 
               else
               {
-                return_value_strncasecmp$5=strncasecmp(str, "rawmidi", (unsigned long int)7);
-                if(return_value_strncasecmp$5 == 0)
+                return_value_strncasecmp_5=strncasecmp(str, "rawmidi", (unsigned long int)7);
+                if(return_value_strncasecmp_5 == 0)
                 {
                   snd_ctl_elem_id_set_interface(id, (enum _snd_ctl_elem_iface)SND_CTL_ELEM_IFACE_RAWMIDI);
                   str = str + (signed long int)7;
@@ -2543,8 +2543,8 @@ __CPROVER_DUMP_L3:
 
                 else
                 {
-                  return_value_strncasecmp$4=strncasecmp(str, "timer", (unsigned long int)5);
-                  if(return_value_strncasecmp$4 == 0)
+                  return_value_strncasecmp_4=strncasecmp(str, "timer", (unsigned long int)5);
+                  if(return_value_strncasecmp_4 == 0)
                   {
                     snd_ctl_elem_id_set_interface(id, (enum _snd_ctl_elem_iface)SND_CTL_ELEM_IFACE_TIMER);
                     str = str + (signed long int)5;
@@ -2552,8 +2552,8 @@ __CPROVER_DUMP_L3:
 
                   else
                   {
-                    return_value_strncasecmp$3=strncasecmp(str, "sequencer", (unsigned long int)9);
-                    if(return_value_strncasecmp$3 == 0)
+                    return_value_strncasecmp_3=strncasecmp(str, "sequencer", (unsigned long int)9);
+                    if(return_value_strncasecmp_3 == 0)
                     {
                       snd_ctl_elem_id_set_interface(id, (enum _snd_ctl_elem_iface)SND_CTL_ELEM_IFACE_SEQUENCER);
                       str = str + (signed long int)9;
@@ -2570,23 +2570,23 @@ __CPROVER_DUMP_L3:
 
         else
         {
-          return_value_strncasecmp$22=strncasecmp(str, "name=", (unsigned long int)5);
-          if(return_value_strncasecmp$22 == 0)
+          return_value_strncasecmp_22=strncasecmp(str, "name=", (unsigned long int)5);
+          if(return_value_strncasecmp_22 == 0)
           {
             char buf[64l];
             str = str + (signed long int)5;
             ptr = buf;
             size = 0;
             if((signed int)*str == 39)
-              tmp_if_expr$12 = (_Bool)1;
+              tmp_if_expr_12 = (_Bool)1;
 
             else
-              tmp_if_expr$12 = (signed int)*str == 34 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$12)
+              tmp_if_expr_12 = (signed int)*str == 34 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_12)
             {
-              tmp_post$9 = str;
+              tmp_post_9 = str;
               str = str + 1l;
-              c = (signed int)*tmp_post$9;
+              c = (signed int)*tmp_post_9;
               for( ; !(*str == 0); str = str + 1l)
               {
                 if((signed int)*str == c)
@@ -2594,9 +2594,9 @@ __CPROVER_DUMP_L3:
 
                 if(!(size >= (signed int)sizeof(char [64l]) /*64*/ ))
                 {
-                  tmp_post$10 = ptr;
+                  tmp_post_10 = ptr;
                   ptr = ptr + 1l;
-                  *tmp_post$10 = *str;
+                  *tmp_post_10 = *str;
                   size = size + 1;
                 }
 
@@ -2614,9 +2614,9 @@ __CPROVER_DUMP_L3:
 
                 if(!(size >= (signed int)sizeof(char [64l]) /*64*/ ))
                 {
-                  tmp_post$11 = ptr;
+                  tmp_post_11 = ptr;
                   ptr = ptr + 1l;
-                  *tmp_post$11 = *str;
+                  *tmp_post_11 = *str;
                   size = size + 1;
                 }
 
@@ -2627,17 +2627,17 @@ __CPROVER_DUMP_L3:
 
           else
           {
-            return_value_strncasecmp$21=strncasecmp(str, "index=", (unsigned long int)6);
-            if(return_value_strncasecmp$21 == 0)
+            return_value_strncasecmp_21=strncasecmp(str, "index=", (unsigned long int)6);
+            if(return_value_strncasecmp_21 == 0)
             {
               str = str + (signed long int)6;
-              signed int return_value_atoi$13;
-              return_value_atoi$13=atoi(str);
-              snd_ctl_elem_id_set_index(id, (unsigned int)return_value_atoi$13);
+              signed int return_value_atoi_13;
+              return_value_atoi_13=atoi(str);
+              snd_ctl_elem_id_set_index(id, (unsigned int)return_value_atoi_13);
               do
               {
-                return_value___ctype_b_loc$14=__ctype_b_loc();
-                if((2048 & (signed int)(*return_value___ctype_b_loc$14)[(signed long int)(signed int)*str]) == 0)
+                return_value___ctype_b_loc_14=__ctype_b_loc();
+                if((2048 & (signed int)(*return_value___ctype_b_loc_14)[(signed long int)(signed int)*str]) == 0)
                   break;
 
                 str = str + 1l;
@@ -2647,17 +2647,17 @@ __CPROVER_DUMP_L3:
 
             else
             {
-              return_value_strncasecmp$20=strncasecmp(str, "device=", (unsigned long int)7);
-              if(return_value_strncasecmp$20 == 0)
+              return_value_strncasecmp_20=strncasecmp(str, "device=", (unsigned long int)7);
+              if(return_value_strncasecmp_20 == 0)
               {
                 str = str + (signed long int)7;
-                signed int return_value_atoi$15;
-                return_value_atoi$15=atoi(str);
-                snd_ctl_elem_id_set_device(id, (unsigned int)return_value_atoi$15);
+                signed int return_value_atoi_15;
+                return_value_atoi_15=atoi(str);
+                snd_ctl_elem_id_set_device(id, (unsigned int)return_value_atoi_15);
                 do
                 {
-                  return_value___ctype_b_loc$16=__ctype_b_loc();
-                  if((2048 & (signed int)(*return_value___ctype_b_loc$16)[(signed long int)(signed int)*str]) == 0)
+                  return_value___ctype_b_loc_16=__ctype_b_loc();
+                  if((2048 & (signed int)(*return_value___ctype_b_loc_16)[(signed long int)(signed int)*str]) == 0)
                     break;
 
                   str = str + 1l;
@@ -2667,17 +2667,17 @@ __CPROVER_DUMP_L3:
 
               else
               {
-                return_value_strncasecmp$19=strncasecmp(str, "subdevice=", (unsigned long int)10);
-                if(return_value_strncasecmp$19 == 0)
+                return_value_strncasecmp_19=strncasecmp(str, "subdevice=", (unsigned long int)10);
+                if(return_value_strncasecmp_19 == 0)
                 {
                   str = str + (signed long int)10;
-                  signed int return_value_atoi$17;
-                  return_value_atoi$17=atoi(str);
-                  snd_ctl_elem_id_set_subdevice(id, (unsigned int)return_value_atoi$17);
+                  signed int return_value_atoi_17;
+                  return_value_atoi_17=atoi(str);
+                  snd_ctl_elem_id_set_subdevice(id, (unsigned int)return_value_atoi_17);
                   do
                   {
-                    return_value___ctype_b_loc$18=__ctype_b_loc();
-                    if((2048 & (signed int)(*return_value___ctype_b_loc$18)[(signed long int)(signed int)*str]) == 0)
+                    return_value___ctype_b_loc_18=__ctype_b_loc();
+                    if((2048 & (signed int)(*return_value___ctype_b_loc_18)[(signed long int)(signed int)*str]) == 0)
                       break;
 
                     str = str + 1l;
@@ -2711,9 +2711,9 @@ static signed int copy_value(struct loopback_control *dst, struct loopback_contr
   signed int i;
   type=snd_ctl_elem_info_get_type(dst->info);
   count=snd_ctl_elem_info_get_count(dst->info);
-  signed int return_value_snd_ctl_elem_value_get_boolean$1;
-  const char *return_value_snd_ctl_elem_type_name$3;
-  const char *return_value_snd_ctl_elem_type_name$4;
+  signed int return_value_snd_ctl_elem_value_get_boolean_1;
+  const char *return_value_snd_ctl_elem_type_name_3;
+  const char *return_value_snd_ctl_elem_type_name_4;
   switch((signed int)type)
   {
     case SND_CTL_ELEM_TYPE_BOOLEAN:
@@ -2721,8 +2721,8 @@ static signed int copy_value(struct loopback_control *dst, struct loopback_contr
       i = 0;
       for( ; !((unsigned int)i >= count); i = i + 1)
       {
-        return_value_snd_ctl_elem_value_get_boolean$1=snd_ctl_elem_value_get_boolean(src->value, (unsigned int)i);
-        snd_ctl_elem_value_set_boolean(dst->value, (unsigned int)i, (signed long int)return_value_snd_ctl_elem_value_get_boolean$1);
+        return_value_snd_ctl_elem_value_get_boolean_1=snd_ctl_elem_value_get_boolean(src->value, (unsigned int)i);
+        snd_ctl_elem_value_set_boolean(dst->value, (unsigned int)i, (signed long int)return_value_snd_ctl_elem_value_get_boolean_1);
       }
       break;
     }
@@ -2731,9 +2731,9 @@ static signed int copy_value(struct loopback_control *dst, struct loopback_contr
       i = 0;
       for( ; !((unsigned int)i >= count); i = i + 1)
       {
-        signed long int return_value_snd_ctl_elem_value_get_integer$2;
-        return_value_snd_ctl_elem_value_get_integer$2=snd_ctl_elem_value_get_integer(src->value, (unsigned int)i);
-        snd_ctl_elem_value_set_integer(dst->value, (unsigned int)i, return_value_snd_ctl_elem_value_get_integer$2);
+        signed long int return_value_snd_ctl_elem_value_get_integer_2;
+        return_value_snd_ctl_elem_value_get_integer_2=snd_ctl_elem_value_get_integer(src->value, (unsigned int)i);
+        snd_ctl_elem_value_set_integer(dst->value, (unsigned int)i, return_value_snd_ctl_elem_value_get_integer_2);
       }
       break;
     }
@@ -2742,14 +2742,14 @@ static signed int copy_value(struct loopback_control *dst, struct loopback_contr
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_ctl_elem_type_name$3=snd_ctl_elem_type_name(type);
-          syslog(2, "Unable to copy control value for type %s\n", return_value_snd_ctl_elem_type_name$3);
+          return_value_snd_ctl_elem_type_name_3=snd_ctl_elem_type_name(type);
+          syslog(2, "Unable to copy control value for type %s\n", return_value_snd_ctl_elem_type_name_3);
         }
 
         else
         {
-          return_value_snd_ctl_elem_type_name$4=snd_ctl_elem_type_name(type);
-          fprintf(stderr, "Unable to copy control value for type %s\n", return_value_snd_ctl_elem_type_name$4);
+          return_value_snd_ctl_elem_type_name_4=snd_ctl_elem_type_name(type);
+          fprintf(stderr, "Unable to copy control value for type %s\n", return_value_snd_ctl_elem_type_name_4);
         }
       while((_Bool)0);
       return -22;
@@ -2763,9 +2763,9 @@ static signed int copy_value(struct loopback_control *dst, struct loopback_contr
 static signed int create_loopback(struct loopback **_handle, struct loopback_handle *play, struct loopback_handle *capt, struct _snd_output *output)
 {
   struct loopback *handle;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct loopback) /*440ul*/ );
-  handle = (struct loopback *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct loopback) /*440ul*/ );
+  handle = (struct loopback *)return_value_calloc_1;
   if(handle == ((struct loopback *)NULL))
     return -12;
 
@@ -2794,9 +2794,9 @@ static signed int create_loopback_handle(struct loopback_handle **_handle, const
 {
   char idbuf[1024l];
   struct loopback_handle *handle;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct loopback_handle) /*264ul*/ );
-  handle = (struct loopback_handle *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct loopback_handle) /*264ul*/ );
+  handle = (struct loopback_handle *)return_value_calloc_1;
   if(handle == ((struct loopback_handle *)NULL))
     return -12;
 
@@ -2844,47 +2844,47 @@ static signed int ctl_event_check(struct _snd_ctl_elem_value *val, struct _snd_c
   struct _snd_ctl_elem_id *id2;
   do
   {
-    unsigned long int return_value_snd_ctl_elem_id_sizeof$1;
-    return_value_snd_ctl_elem_id_sizeof$1=snd_ctl_elem_id_sizeof();
-    void *return_value___builtin_alloca$2;
-    return_value___builtin_alloca$2=__builtin_alloca(return_value_snd_ctl_elem_id_sizeof$1);
-    *(&id1) = (struct _snd_ctl_elem_id *)return_value___builtin_alloca$2;
-    unsigned long int return_value_snd_ctl_elem_id_sizeof$3;
-    return_value_snd_ctl_elem_id_sizeof$3=snd_ctl_elem_id_sizeof();
-    memset((void *)*(&id1), 0, return_value_snd_ctl_elem_id_sizeof$3);
+    unsigned long int return_value_snd_ctl_elem_id_sizeof_1;
+    return_value_snd_ctl_elem_id_sizeof_1=snd_ctl_elem_id_sizeof();
+    void *return_value___builtin_alloca_2;
+    return_value___builtin_alloca_2=__builtin_alloca(return_value_snd_ctl_elem_id_sizeof_1);
+    *(&id1) = (struct _snd_ctl_elem_id *)return_value___builtin_alloca_2;
+    unsigned long int return_value_snd_ctl_elem_id_sizeof_3;
+    return_value_snd_ctl_elem_id_sizeof_3=snd_ctl_elem_id_sizeof();
+    memset((void *)*(&id1), 0, return_value_snd_ctl_elem_id_sizeof_3);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_ctl_elem_id_sizeof$4;
-    return_value_snd_ctl_elem_id_sizeof$4=snd_ctl_elem_id_sizeof();
-    void *return_value___builtin_alloca$5;
-    return_value___builtin_alloca$5=__builtin_alloca(return_value_snd_ctl_elem_id_sizeof$4);
-    *(&id2) = (struct _snd_ctl_elem_id *)return_value___builtin_alloca$5;
-    unsigned long int return_value_snd_ctl_elem_id_sizeof$6;
-    return_value_snd_ctl_elem_id_sizeof$6=snd_ctl_elem_id_sizeof();
-    memset((void *)*(&id2), 0, return_value_snd_ctl_elem_id_sizeof$6);
+    unsigned long int return_value_snd_ctl_elem_id_sizeof_4;
+    return_value_snd_ctl_elem_id_sizeof_4=snd_ctl_elem_id_sizeof();
+    void *return_value___builtin_alloca_5;
+    return_value___builtin_alloca_5=__builtin_alloca(return_value_snd_ctl_elem_id_sizeof_4);
+    *(&id2) = (struct _snd_ctl_elem_id *)return_value___builtin_alloca_5;
+    unsigned long int return_value_snd_ctl_elem_id_sizeof_6;
+    return_value_snd_ctl_elem_id_sizeof_6=snd_ctl_elem_id_sizeof();
+    memset((void *)*(&id2), 0, return_value_snd_ctl_elem_id_sizeof_6);
   }
   while((_Bool)0);
   snd_ctl_elem_value_get_id(val, id1);
   snd_ctl_event_elem_get_id(ev, id2);
-  unsigned int return_value_snd_ctl_event_elem_get_mask$7;
-  return_value_snd_ctl_event_elem_get_mask$7=snd_ctl_event_elem_get_mask(ev);
-  if(return_value_snd_ctl_event_elem_get_mask$7 == 4294967295u)
+  unsigned int return_value_snd_ctl_event_elem_get_mask_7;
+  return_value_snd_ctl_event_elem_get_mask_7=snd_ctl_event_elem_get_mask(ev);
+  if(return_value_snd_ctl_event_elem_get_mask_7 == 4294967295u)
     return 0;
 
   else
   {
-    unsigned int return_value_snd_ctl_event_elem_get_mask$8;
-    return_value_snd_ctl_event_elem_get_mask$8=snd_ctl_event_elem_get_mask(ev);
-    if((1u & return_value_snd_ctl_event_elem_get_mask$8) == 0u)
+    unsigned int return_value_snd_ctl_event_elem_get_mask_8;
+    return_value_snd_ctl_event_elem_get_mask_8=snd_ctl_event_elem_get_mask(ev);
+    if((1u & return_value_snd_ctl_event_elem_get_mask_8) == 0u)
       return 0;
 
     else
     {
-      signed int return_value_control_id_match$9;
-      return_value_control_id_match$9=control_id_match(id1, id2);
-      return return_value_control_id_match$9;
+      signed int return_value_control_id_match_9;
+      return_value_control_id_match_9=control_id_match(id1, id2);
+      return return_value_control_id_match_9;
     }
   }
 }
@@ -2920,9 +2920,9 @@ static void fix_format(struct loopback *loop, signed int force)
     ;
     if(!((signed int)format == SND_PCM_FORMAT_S16) && !((signed int)format == SND_PCM_FORMAT_S32))
     {
-      signed int return_value_snd_pcm_format_width$1;
-      return_value_snd_pcm_format_width$1=snd_pcm_format_width(format);
-      if(return_value_snd_pcm_format_width$1 >= 17)
+      signed int return_value_snd_pcm_format_width_1;
+      return_value_snd_pcm_format_width_1=snd_pcm_format_width(format);
+      if(return_value_snd_pcm_format_width_1 >= 17)
         format = (enum _snd_pcm_format)SND_PCM_FORMAT_S32;
 
       else
@@ -2978,8 +2978,8 @@ static void freeloop(struct loopback *loop)
 static signed int get_active(struct loopback_handle *lhandle)
 {
   signed int err;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
   if(lhandle->ctl_active == ((struct _snd_ctl_elem_value *)NULL))
     return 0;
 
@@ -2991,14 +2991,14 @@ static signed int get_active(struct loopback_handle *lhandle)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$1=snd_strerror(err);
-          syslog(2, "Cannot get PCM Slave Active element for %s: %s\n", lhandle->id, return_value_snd_strerror$1);
+          return_value_snd_strerror_1=snd_strerror(err);
+          syslog(2, "Cannot get PCM Slave Active element for %s: %s\n", lhandle->id, return_value_snd_strerror_1);
         }
 
         else
         {
-          return_value_snd_strerror$2=snd_strerror(err);
-          fprintf(stderr, "Cannot get PCM Slave Active element for %s: %s\n", lhandle->id, return_value_snd_strerror$2);
+          return_value_snd_strerror_2=snd_strerror(err);
+          fprintf(stderr, "Cannot get PCM Slave Active element for %s: %s\n", lhandle->id, return_value_snd_strerror_2);
         }
       while((_Bool)0);
       return err;
@@ -3006,9 +3006,9 @@ static signed int get_active(struct loopback_handle *lhandle)
 
     else
     {
-      signed int return_value_snd_ctl_elem_value_get_boolean$3;
-      return_value_snd_ctl_elem_value_get_boolean$3=snd_ctl_elem_value_get_boolean(lhandle->ctl_active, (unsigned int)0);
-      return return_value_snd_ctl_elem_value_get_boolean$3;
+      signed int return_value_snd_ctl_elem_value_get_boolean_3;
+      return_value_snd_ctl_elem_value_get_boolean_3=snd_ctl_elem_value_get_boolean(lhandle->ctl_active, (unsigned int)0);
+      return return_value_snd_ctl_elem_value_get_boolean_3;
     }
   }
 }
@@ -3018,8 +3018,8 @@ static signed int get_active(struct loopback_handle *lhandle)
 static signed int get_channels(struct loopback_handle *lhandle)
 {
   signed int err;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
   if(lhandle->ctl_channels == ((struct _snd_ctl_elem_value *)NULL))
     return 0;
 
@@ -3031,14 +3031,14 @@ static signed int get_channels(struct loopback_handle *lhandle)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$1=snd_strerror(err);
-          syslog(2, "Cannot get PCM Channels element for %s: %s\n", lhandle->id, return_value_snd_strerror$1);
+          return_value_snd_strerror_1=snd_strerror(err);
+          syslog(2, "Cannot get PCM Channels element for %s: %s\n", lhandle->id, return_value_snd_strerror_1);
         }
 
         else
         {
-          return_value_snd_strerror$2=snd_strerror(err);
-          fprintf(stderr, "Cannot get PCM Channels element for %s: %s\n", lhandle->id, return_value_snd_strerror$2);
+          return_value_snd_strerror_2=snd_strerror(err);
+          fprintf(stderr, "Cannot get PCM Channels element for %s: %s\n", lhandle->id, return_value_snd_strerror_2);
         }
       while((_Bool)0);
       return err;
@@ -3046,9 +3046,9 @@ static signed int get_channels(struct loopback_handle *lhandle)
 
     else
     {
-      signed long int return_value_snd_ctl_elem_value_get_integer$3;
-      return_value_snd_ctl_elem_value_get_integer$3=snd_ctl_elem_value_get_integer(lhandle->ctl_channels, (unsigned int)0);
-      return (signed int)return_value_snd_ctl_elem_value_get_integer$3;
+      signed long int return_value_snd_ctl_elem_value_get_integer_3;
+      return_value_snd_ctl_elem_value_get_integer_3=snd_ctl_elem_value_get_integer(lhandle->ctl_channels, (unsigned int)0);
+      return (signed int)return_value_snd_ctl_elem_value_get_integer_3;
     }
   }
 }
@@ -3058,8 +3058,8 @@ static signed int get_channels(struct loopback_handle *lhandle)
 static signed int get_format(struct loopback_handle *lhandle)
 {
   signed int err;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
   if(lhandle->ctl_format == ((struct _snd_ctl_elem_value *)NULL))
     return 0;
 
@@ -3071,14 +3071,14 @@ static signed int get_format(struct loopback_handle *lhandle)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$1=snd_strerror(err);
-          syslog(2, "Cannot get PCM Format element for %s: %s\n", lhandle->id, return_value_snd_strerror$1);
+          return_value_snd_strerror_1=snd_strerror(err);
+          syslog(2, "Cannot get PCM Format element for %s: %s\n", lhandle->id, return_value_snd_strerror_1);
         }
 
         else
         {
-          return_value_snd_strerror$2=snd_strerror(err);
-          fprintf(stderr, "Cannot get PCM Format element for %s: %s\n", lhandle->id, return_value_snd_strerror$2);
+          return_value_snd_strerror_2=snd_strerror(err);
+          fprintf(stderr, "Cannot get PCM Format element for %s: %s\n", lhandle->id, return_value_snd_strerror_2);
         }
       while((_Bool)0);
       return err;
@@ -3086,9 +3086,9 @@ static signed int get_format(struct loopback_handle *lhandle)
 
     else
     {
-      signed long int return_value_snd_ctl_elem_value_get_integer$3;
-      return_value_snd_ctl_elem_value_get_integer$3=snd_ctl_elem_value_get_integer(lhandle->ctl_format, (unsigned int)0);
-      return (signed int)return_value_snd_ctl_elem_value_get_integer$3;
+      signed long int return_value_snd_ctl_elem_value_get_integer_3;
+      return_value_snd_ctl_elem_value_get_integer_3=snd_ctl_elem_value_get_integer(lhandle->ctl_format, (unsigned int)0);
+      return (signed int)return_value_snd_ctl_elem_value_get_integer_3;
     }
   }
 }
@@ -3135,8 +3135,8 @@ static signed long int get_queued_playback_samples(struct loopback *loop)
 static signed int get_rate(struct loopback_handle *lhandle)
 {
   signed int err;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
   if(lhandle->ctl_rate == ((struct _snd_ctl_elem_value *)NULL))
     return 0;
 
@@ -3148,14 +3148,14 @@ static signed int get_rate(struct loopback_handle *lhandle)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$1=snd_strerror(err);
-          syslog(2, "Cannot get PCM Rate element for %s: %s\n", lhandle->id, return_value_snd_strerror$1);
+          return_value_snd_strerror_1=snd_strerror(err);
+          syslog(2, "Cannot get PCM Rate element for %s: %s\n", lhandle->id, return_value_snd_strerror_1);
         }
 
         else
         {
-          return_value_snd_strerror$2=snd_strerror(err);
-          fprintf(stderr, "Cannot get PCM Rate element for %s: %s\n", lhandle->id, return_value_snd_strerror$2);
+          return_value_snd_strerror_2=snd_strerror(err);
+          fprintf(stderr, "Cannot get PCM Rate element for %s: %s\n", lhandle->id, return_value_snd_strerror_2);
         }
       while((_Bool)0);
       return err;
@@ -3163,9 +3163,9 @@ static signed int get_rate(struct loopback_handle *lhandle)
 
     else
     {
-      signed long int return_value_snd_ctl_elem_value_get_integer$3;
-      return_value_snd_ctl_elem_value_get_integer$3=snd_ctl_elem_value_get_integer(lhandle->ctl_rate, (unsigned int)0);
-      return (signed int)return_value_snd_ctl_elem_value_get_integer$3;
+      signed long int return_value_snd_ctl_elem_value_get_integer_3;
+      return_value_snd_ctl_elem_value_get_integer_3=snd_ctl_elem_value_get_integer(lhandle->ctl_rate, (unsigned int)0);
+      return (signed int)return_value_snd_ctl_elem_value_get_integer_3;
     }
   }
 }
@@ -3198,21 +3198,21 @@ static signed int handle_ctl_events(struct loopback_handle *lhandle, unsigned sh
   signed int restart = 0;
   do
   {
-    unsigned long int return_value_snd_ctl_event_sizeof$1;
-    return_value_snd_ctl_event_sizeof$1=snd_ctl_event_sizeof();
-    void *return_value___builtin_alloca$2;
-    return_value___builtin_alloca$2=__builtin_alloca(return_value_snd_ctl_event_sizeof$1);
-    *(&ev) = (struct _snd_ctl_event *)return_value___builtin_alloca$2;
-    unsigned long int return_value_snd_ctl_event_sizeof$3;
-    return_value_snd_ctl_event_sizeof$3=snd_ctl_event_sizeof();
-    memset((void *)*(&ev), 0, return_value_snd_ctl_event_sizeof$3);
+    unsigned long int return_value_snd_ctl_event_sizeof_1;
+    return_value_snd_ctl_event_sizeof_1=snd_ctl_event_sizeof();
+    void *return_value___builtin_alloca_2;
+    return_value___builtin_alloca_2=__builtin_alloca(return_value_snd_ctl_event_sizeof_1);
+    *(&ev) = (struct _snd_ctl_event *)return_value___builtin_alloca_2;
+    unsigned long int return_value_snd_ctl_event_sizeof_3;
+    return_value_snd_ctl_event_sizeof_3=snd_ctl_event_sizeof();
+    memset((void *)*(&ev), 0, return_value_snd_ctl_event_sizeof_3);
   }
   while((_Bool)0);
-  const char *return_value_snd_ctl_event_elem_get_name$5;
-  signed int return_value_ctl_event_check$9;
-  signed int return_value_ctl_event_check$8;
-  signed int return_value_ctl_event_check$7;
-  signed int return_value_ctl_event_check$6;
+  const char *return_value_snd_ctl_event_elem_get_name_5;
+  signed int return_value_ctl_event_check_9;
+  signed int return_value_ctl_event_check_8;
+  signed int return_value_ctl_event_check_7;
+  signed int return_value_ctl_event_check_6;
   do
   {
     err=snd_ctl_read(lhandle->ctl, ev);
@@ -3225,24 +3225,24 @@ static signed int handle_ctl_events(struct loopback_handle *lhandle, unsigned sh
     if(!(err >= 0))
       break;
 
-    enum _snd_ctl_event_type return_value_snd_ctl_event_get_type$4;
-    return_value_snd_ctl_event_get_type$4=snd_ctl_event_get_type(ev);
-    if((signed int)return_value_snd_ctl_event_get_type$4 == SND_CTL_EVENT_ELEM)
+    enum _snd_ctl_event_type return_value_snd_ctl_event_get_type_4;
+    return_value_snd_ctl_event_get_type_4=snd_ctl_event_get_type(ev);
+    if((signed int)return_value_snd_ctl_event_get_type_4 == SND_CTL_EVENT_ELEM)
     {
       if(!(lhandle == loop->play))
       {
         if(verbose >= 7)
         {
-          return_value_snd_ctl_event_elem_get_name$5=snd_ctl_event_elem_get_name(ev);
-          snd_output_printf(loop->output, "%s: ctl event!!!! %s\n", lhandle->id, return_value_snd_ctl_event_elem_get_name$5);
+          return_value_snd_ctl_event_elem_get_name_5=snd_ctl_event_elem_get_name(ev);
+          snd_output_printf(loop->output, "%s: ctl event!!!! %s\n", lhandle->id, return_value_snd_ctl_event_elem_get_name_5);
         }
 
-        return_value_ctl_event_check$9=ctl_event_check(lhandle->ctl_active, ev);
-        if(!(return_value_ctl_event_check$9 == 0))
+        return_value_ctl_event_check_9=ctl_event_check(lhandle->ctl_active, ev);
+        if(!(return_value_ctl_event_check_9 == 0))
           continue;
 
-        return_value_ctl_event_check$8=ctl_event_check(lhandle->ctl_format, ev);
-        if(!(return_value_ctl_event_check$8 == 0))
+        return_value_ctl_event_check_8=ctl_event_check(lhandle->ctl_format, ev);
+        if(!(return_value_ctl_event_check_8 == 0))
         {
           err=get_format(lhandle);
           if(!((signed int)lhandle->format == err))
@@ -3251,8 +3251,8 @@ static signed int handle_ctl_events(struct loopback_handle *lhandle, unsigned sh
           continue;
         }
 
-        return_value_ctl_event_check$7=ctl_event_check(lhandle->ctl_rate, ev);
-        if(!(return_value_ctl_event_check$7 == 0))
+        return_value_ctl_event_check_7=ctl_event_check(lhandle->ctl_rate, ev);
+        if(!(return_value_ctl_event_check_7 == 0))
         {
           err=get_rate(lhandle);
           if(!(lhandle->rate == (unsigned int)err))
@@ -3261,8 +3261,8 @@ static signed int handle_ctl_events(struct loopback_handle *lhandle, unsigned sh
           continue;
         }
 
-        return_value_ctl_event_check$6=ctl_event_check(lhandle->ctl_channels, ev);
-        if(return_value_ctl_event_check$6 == 0)
+        return_value_ctl_event_check_6=ctl_event_check(lhandle->ctl_channels, ev);
+        if(return_value_ctl_event_check_6 == 0)
           goto __ctl_check;
 
         err=get_channels(lhandle);
@@ -3346,22 +3346,22 @@ void help(void)
 // file control.c line 29
 static char * id_str(struct _snd_ctl_elem_id *id)
 {
-  unsigned int return_value_snd_ctl_elem_id_get_numid$1;
-  return_value_snd_ctl_elem_id_get_numid$1=snd_ctl_elem_id_get_numid(id);
-  enum _snd_ctl_elem_iface return_value_snd_ctl_elem_id_get_interface$2;
-  return_value_snd_ctl_elem_id_get_interface$2=snd_ctl_elem_id_get_interface(id);
-  const char *return_value_snd_ctl_elem_iface_name$3;
-  return_value_snd_ctl_elem_iface_name$3=snd_ctl_elem_iface_name(return_value_snd_ctl_elem_id_get_interface$2);
-  unsigned int return_value_snd_ctl_elem_id_get_device$4;
-  return_value_snd_ctl_elem_id_get_device$4=snd_ctl_elem_id_get_device(id);
-  unsigned int return_value_snd_ctl_elem_id_get_subdevice$5;
-  return_value_snd_ctl_elem_id_get_subdevice$5=snd_ctl_elem_id_get_subdevice(id);
-  const char *return_value_snd_ctl_elem_id_get_name$6;
-  return_value_snd_ctl_elem_id_get_name$6=snd_ctl_elem_id_get_name(id);
-  unsigned int return_value_snd_ctl_elem_id_get_index$7;
-  return_value_snd_ctl_elem_id_get_index$7=snd_ctl_elem_id_get_index(id);
+  unsigned int return_value_snd_ctl_elem_id_get_numid_1;
+  return_value_snd_ctl_elem_id_get_numid_1=snd_ctl_elem_id_get_numid(id);
+  enum _snd_ctl_elem_iface return_value_snd_ctl_elem_id_get_interface_2;
+  return_value_snd_ctl_elem_id_get_interface_2=snd_ctl_elem_id_get_interface(id);
+  const char *return_value_snd_ctl_elem_iface_name_3;
+  return_value_snd_ctl_elem_iface_name_3=snd_ctl_elem_iface_name(return_value_snd_ctl_elem_id_get_interface_2);
+  unsigned int return_value_snd_ctl_elem_id_get_device_4;
+  return_value_snd_ctl_elem_id_get_device_4=snd_ctl_elem_id_get_device(id);
+  unsigned int return_value_snd_ctl_elem_id_get_subdevice_5;
+  return_value_snd_ctl_elem_id_get_subdevice_5=snd_ctl_elem_id_get_subdevice(id);
+  const char *return_value_snd_ctl_elem_id_get_name_6;
+  return_value_snd_ctl_elem_id_get_name_6=snd_ctl_elem_id_get_name(id);
+  unsigned int return_value_snd_ctl_elem_id_get_index_7;
+  return_value_snd_ctl_elem_id_get_index_7=snd_ctl_elem_id_get_index(id);
   static char str[128l];
-  sprintf(str, "%i,%s,%i,%i,%s,%i", return_value_snd_ctl_elem_id_get_numid$1, return_value_snd_ctl_elem_iface_name$3, return_value_snd_ctl_elem_id_get_device$4, return_value_snd_ctl_elem_id_get_subdevice$5, return_value_snd_ctl_elem_id_get_name$6, return_value_snd_ctl_elem_id_get_index$7);
+  sprintf(str, "%i,%s,%i,%i,%s,%i", return_value_snd_ctl_elem_id_get_numid_1, return_value_snd_ctl_elem_iface_name_3, return_value_snd_ctl_elem_id_get_device_4, return_value_snd_ctl_elem_id_get_subdevice_5, return_value_snd_ctl_elem_id_get_name_6, return_value_snd_ctl_elem_id_get_index_7);
   return str;
 }
 
@@ -3370,9 +3370,9 @@ static char * id_str(struct _snd_ctl_elem_id *id)
 static signed int init_handle(struct loopback_handle *lhandle, signed int alloc)
 {
   unsigned long int lat;
-  signed int return_value_snd_pcm_format_physical_width$1;
-  return_value_snd_pcm_format_physical_width$1=snd_pcm_format_physical_width(lhandle->format);
-  lhandle->frame_size = (unsigned int)(return_value_snd_pcm_format_physical_width$1 / 8) * lhandle->channels;
+  signed int return_value_snd_pcm_format_physical_width_1;
+  return_value_snd_pcm_format_physical_width_1=snd_pcm_format_physical_width(lhandle->format);
+  lhandle->frame_size = (unsigned int)(return_value_snd_pcm_format_physical_width_1 / 8) * lhandle->channels;
   lhandle->sync_point = (unsigned long int)(lhandle->rate * (unsigned int)15);
   lat = lhandle->loopback->latency;
   if(!(lat >= (unsigned long int)lhandle->buffer_size))
@@ -3381,9 +3381,9 @@ static signed int init_handle(struct loopback_handle *lhandle, signed int alloc)
   lhandle->buf_size = lat * (unsigned long int)2;
   if(!(alloc == 0))
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, lhandle->buf_size * (unsigned long int)lhandle->frame_size);
-    lhandle->buf = (char *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, lhandle->buf_size * (unsigned long int)lhandle->frame_size);
+    lhandle->buf = (char *)return_value_calloc_2;
     if(lhandle->buf == ((char *)NULL))
       return -12;
 
@@ -3447,21 +3447,21 @@ signed int main(signed int argc, char **argv)
   signed int l;
   signed int err;
   err=snd_output_stdio_attach(&output, stdout, 0);
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_snd_strerror$1=snd_strerror(err);
-        syslog(2, "Output failed: %s\n", return_value_snd_strerror$1);
+        return_value_snd_strerror_1=snd_strerror(err);
+        syslog(2, "Output failed: %s\n", return_value_snd_strerror_1);
       }
 
       else
       {
-        return_value_snd_strerror$2=snd_strerror(err);
-        fprintf(stderr, "Output failed: %s\n", return_value_snd_strerror$2);
+        return_value_snd_strerror_2=snd_strerror(err);
+        fprintf(stderr, "Output failed: %s\n", return_value_snd_strerror_2);
       }
     while((_Bool)0);
     exit(1);
@@ -3498,33 +3498,33 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
   if(!(daemonize == 0))
   {
-    signed int return_value_daemon$7;
-    return_value_daemon$7=daemon(0, 0);
-    if(!(return_value_daemon$7 >= 0))
+    signed int return_value_daemon_7;
+    return_value_daemon_7=daemon(0, 0);
+    if(!(return_value_daemon_7 >= 0))
     {
       do
         if(!(use_syslog == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          syslog(2, "daemon() failed: %s\n", return_value_strerror$4);
+          return_value___errno_location_3=__errno_location();
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          syslog(2, "daemon() failed: %s\n", return_value_strerror_4);
         }
 
         else
         {
-          return_value___errno_location$5=__errno_location();
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          fprintf(stderr, "daemon() failed: %s\n", return_value_strerror$6);
+          return_value___errno_location_5=__errno_location();
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          fprintf(stderr, "daemon() failed: %s\n", return_value_strerror_6);
         }
       while((_Bool)0);
       exit(1);
@@ -3536,16 +3536,16 @@ signed int main(signed int argc, char **argv)
       do
         if(!(use_syslog == 0))
         {
-          return_value___errno_location$8=__errno_location();
-          return_value_strerror$9=strerror(*return_value___errno_location$8);
-          syslog(2, "fork() failed: %s\n", return_value_strerror$9);
+          return_value___errno_location_8=__errno_location();
+          return_value_strerror_9=strerror(*return_value___errno_location_8);
+          syslog(2, "fork() failed: %s\n", return_value_strerror_9);
         }
 
         else
         {
-          return_value___errno_location$10=__errno_location();
-          return_value_strerror$11=strerror(*return_value___errno_location$10);
-          fprintf(stderr, "fork() failed: %s\n", return_value_strerror$11);
+          return_value___errno_location_10=__errno_location();
+          return_value_strerror_11=strerror(*return_value___errno_location_10);
+          fprintf(stderr, "fork() failed: %s\n", return_value_strerror_11);
         }
       while((_Bool)0);
       exit(1);
@@ -3584,9 +3584,9 @@ signed int main(signed int argc, char **argv)
       j = loopbacks[(signed long int)i]->thread;
 
   j = j + 1;
-  void *return_value_calloc$12;
-  return_value_calloc$12=calloc((unsigned long int)1, sizeof(struct loopback_thread) /*48ul*/  * (unsigned long int)j);
-  threads = (struct loopback_thread *)return_value_calloc$12;
+  void *return_value_calloc_12;
+  return_value_calloc_12=calloc((unsigned long int)1, sizeof(struct loopback_thread) /*48ul*/  * (unsigned long int)j);
+  threads = (struct loopback_thread *)return_value_calloc_12;
   if(threads == ((struct loopback_thread *)NULL))
   {
     do
@@ -3600,7 +3600,7 @@ signed int main(signed int argc, char **argv)
   }
 
   k = 0;
-  signed int tmp_post$14;
+  signed int tmp_post_14;
   for( ; !(k >= j); k = k + 1)
   {
     l = 0;
@@ -3609,9 +3609,9 @@ signed int main(signed int argc, char **argv)
       if(loopbacks[(signed long int)i]->thread == k)
         l = l + 1;
 
-    void *return_value_malloc$13;
-    return_value_malloc$13=malloc((unsigned long int)l * sizeof(struct loopback *) /*8ul*/ );
-    (threads + (signed long int)k)->loopbacks = (struct loopback **)return_value_malloc$13;
+    void *return_value_malloc_13;
+    return_value_malloc_13=malloc((unsigned long int)l * sizeof(struct loopback *) /*8ul*/ );
+    (threads + (signed long int)k)->loopbacks = (struct loopback **)return_value_malloc_13;
     (threads + (signed long int)k)->loopbacks_count = l;
     (threads + (signed long int)k)->output = output;
     (threads + (signed long int)k)->threaded = (signed int)(j > 1);
@@ -3620,9 +3620,9 @@ signed int main(signed int argc, char **argv)
     for( ; !(i >= loopbacks_count); i = i + 1)
       if(loopbacks[(signed long int)i]->thread == k)
       {
-        tmp_post$14 = l;
+        tmp_post_14 = l;
         l = l + 1;
-        (threads + (signed long int)k)->loopbacks[(signed long int)tmp_post$14] = loopbacks[(signed long int)i];
+        (threads + (signed long int)k)->loopbacks[(signed long int)tmp_post_14] = loopbacks[(signed long int)i];
       }
 
   }
@@ -3671,10 +3671,10 @@ static signed int openctl(struct loopback_handle *lhandle, signed int device, si
 {
   signed int err;
   lhandle->ctl_rate_shift = (struct _snd_ctl_elem_value *)(void *)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(lhandle->loopback->play == lhandle)
   {
     if(!(lhandle->loopback->controls == ((struct loopback_mixer *)NULL)))
@@ -3693,26 +3693,26 @@ static signed int openctl(struct loopback_handle *lhandle, signed int device, si
     openctl_elem(lhandle, device, subdevice, "PCM Slave Rate", &lhandle->ctl_rate);
     openctl_elem(lhandle, device, subdevice, "PCM Slave Channels", &lhandle->ctl_channels);
     if(!(lhandle->ctl_active == ((struct _snd_ctl_elem_value *)NULL)))
-      tmp_if_expr$2 = lhandle->ctl_format != ((struct _snd_ctl_elem_value *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = lhandle->ctl_format != ((struct _snd_ctl_elem_value *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = lhandle->ctl_rate != ((struct _snd_ctl_elem_value *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = lhandle->ctl_rate != ((struct _snd_ctl_elem_value *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = lhandle->ctl_channels != ((struct _snd_ctl_elem_value *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = lhandle->ctl_channels != ((struct _snd_ctl_elem_value *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = lhandle->loopback->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = lhandle->loopback->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
 
     __events:
@@ -3723,9 +3723,9 @@ static signed int openctl(struct loopback_handle *lhandle, signed int device, si
 
       else
         lhandle->ctl_pollfd_count = (unsigned int)err;
-      signed int return_value_snd_ctl_subscribe_events$1;
-      return_value_snd_ctl_subscribe_events$1=snd_ctl_subscribe_events(lhandle->ctl, 1);
-      if(!(return_value_snd_ctl_subscribe_events$1 >= 0))
+      signed int return_value_snd_ctl_subscribe_events_1;
+      return_value_snd_ctl_subscribe_events_1=snd_ctl_subscribe_events(lhandle->ctl, 1);
+      if(!(return_value_snd_ctl_subscribe_events_1 >= 0))
         lhandle->ctl_pollfd_count = (unsigned int)0;
 
     }
@@ -3739,9 +3739,9 @@ static signed int openctl(struct loopback_handle *lhandle, signed int device, si
 static void openctl_elem(struct loopback_handle *lhandle, signed int device, signed int subdevice, const char *name, struct _snd_ctl_elem_value **elem)
 {
   signed int err;
-  signed int return_value_snd_ctl_elem_value_malloc$1;
-  return_value_snd_ctl_elem_value_malloc$1=snd_ctl_elem_value_malloc(elem);
-  if(!(return_value_snd_ctl_elem_value_malloc$1 >= 0))
+  signed int return_value_snd_ctl_elem_value_malloc_1;
+  return_value_snd_ctl_elem_value_malloc_1=snd_ctl_elem_value_malloc(elem);
+  if(!(return_value_snd_ctl_elem_value_malloc_1 >= 0))
     *elem = (struct _snd_ctl_elem_value *)(void *)0;
 
   else
@@ -3773,24 +3773,24 @@ static signed int openit(struct loopback_handle *lhandle)
   pcm_open_lock();
   err=snd_pcm_open(&lhandle->handle, lhandle->device, (enum _snd_pcm_stream)stream, 0x00000001);
   pcm_open_unlock();
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
-  _Bool tmp_if_expr$7;
-  const char *return_value_snd_strerror$5;
-  const char *return_value_snd_strerror$6;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
+  _Bool tmp_if_expr_7;
+  const char *return_value_snd_strerror_5;
+  const char *return_value_snd_strerror_6;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_snd_strerror$1=snd_strerror(err);
-        syslog(2, "%s open error: %s\n", lhandle->id, return_value_snd_strerror$1);
+        return_value_snd_strerror_1=snd_strerror(err);
+        syslog(2, "%s open error: %s\n", lhandle->id, return_value_snd_strerror_1);
       }
 
       else
       {
-        return_value_snd_strerror$2=snd_strerror(err);
-        fprintf(stderr, "%s open error: %s\n", lhandle->id, return_value_snd_strerror$2);
+        return_value_snd_strerror_2=snd_strerror(err);
+        fprintf(stderr, "%s open error: %s\n", lhandle->id, return_value_snd_strerror_2);
       }
     while((_Bool)0);
     return err;
@@ -3814,21 +3814,21 @@ static signed int openit(struct loopback_handle *lhandle)
       else
       {
         card=snd_pcm_info_get_card(info);
-        unsigned int return_value_snd_pcm_info_get_device$3;
-        return_value_snd_pcm_info_get_device$3=snd_pcm_info_get_device(info);
-        device = (signed int)return_value_snd_pcm_info_get_device$3;
-        unsigned int return_value_snd_pcm_info_get_subdevice$4;
-        return_value_snd_pcm_info_get_subdevice$4=snd_pcm_info_get_subdevice(info);
-        subdevice = (signed int)return_value_snd_pcm_info_get_subdevice$4;
+        unsigned int return_value_snd_pcm_info_get_device_3;
+        return_value_snd_pcm_info_get_device_3=snd_pcm_info_get_device(info);
+        device = (signed int)return_value_snd_pcm_info_get_device_3;
+        unsigned int return_value_snd_pcm_info_get_subdevice_4;
+        return_value_snd_pcm_info_get_subdevice_4=snd_pcm_info_get_subdevice(info);
+        subdevice = (signed int)return_value_snd_pcm_info_get_subdevice_4;
         snd_pcm_info_free(info);
         lhandle->card_number = card;
         lhandle->ctl = (struct _snd_ctl *)(void *)0;
         if(card >= 0)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = lhandle->ctldev != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = lhandle->ctldev != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
         {
           char name[16l];
           char *dev = lhandle->ctldev;
@@ -3846,14 +3846,14 @@ static signed int openit(struct loopback_handle *lhandle)
             do
               if(!(use_syslog == 0))
               {
-                return_value_snd_strerror$5=snd_strerror(err);
-                syslog(2, "%s [%s] ctl open error: %s\n", lhandle->id, dev, return_value_snd_strerror$5);
+                return_value_snd_strerror_5=snd_strerror(err);
+                syslog(2, "%s [%s] ctl open error: %s\n", lhandle->id, dev, return_value_snd_strerror_5);
               }
 
               else
               {
-                return_value_snd_strerror$6=snd_strerror(err);
-                fprintf(stderr, "%s [%s] ctl open error: %s\n", lhandle->id, dev, return_value_snd_strerror$6);
+                return_value_snd_strerror_6=snd_strerror(err);
+                fprintf(stderr, "%s [%s] ctl open error: %s\n", lhandle->id, dev, return_value_snd_strerror_6);
               }
             while((_Bool)0);
             lhandle->ctl = (struct _snd_ctl *)(void *)0;
@@ -3877,9 +3877,9 @@ static signed int oss_set(struct loopback *loop, struct loopback_ossmixer *ossmi
   char buf[128l];
   char file[128l];
   signed int fd;
-  unsigned long int return_value_strlen$1;
-  signed long int return_value_write$2;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_1;
+  signed long int return_value_write_2;
+  unsigned long int return_value_strlen_3;
   if(!(loop->capt->card_number >= 0))
     return 0;
 
@@ -3897,10 +3897,10 @@ static signed int oss_set(struct loopback *loop, struct loopback_ossmixer *ossmi
     fd=open(file, 01);
     if(fd >= 0)
     {
-      return_value_strlen$1=strlen(buf);
-      return_value_write$2=write(fd, (const void *)buf, return_value_strlen$1);
-      return_value_strlen$3=strlen(buf);
-      if(!((unsigned long int)return_value_write$2 == return_value_strlen$3))
+      return_value_strlen_1=strlen(buf);
+      return_value_write_2=write(fd, (const void *)buf, return_value_strlen_1);
+      return_value_strlen_3=strlen(buf);
+      if(!((unsigned long int)return_value_write_2 == return_value_strlen_3))
         goto __CPROVER_DUMP_L5;
 
       close(fd);
@@ -3991,17 +3991,17 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
   signed int arg_xrun = arg_default_xrun;
   signed int arg_wake = arg_default_wake;
   morehelp = 0;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
-  signed int return_value_strcasecmp$11;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
+  signed int return_value_strcasecmp_11;
   while((_Bool)1)
   {
     signed int c;
@@ -4123,32 +4123,32 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
       }
       case 65:
       {
-        return_value_strcasecmp$5=strcasecmp(optarg, "sincbest");
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(optarg, "sincbest");
+        if(return_value_strcasecmp_5 == 0)
           arg_samplerate = 0;
 
         else
         {
-          return_value_strcasecmp$4=strcasecmp(optarg, "sincmedium");
-          if(return_value_strcasecmp$4 == 0)
+          return_value_strcasecmp_4=strcasecmp(optarg, "sincmedium");
+          if(return_value_strcasecmp_4 == 0)
             arg_samplerate = 1;
 
           else
           {
-            return_value_strcasecmp$3=strcasecmp(optarg, "sincfastest");
-            if(return_value_strcasecmp$3 == 0)
+            return_value_strcasecmp_3=strcasecmp(optarg, "sincfastest");
+            if(return_value_strcasecmp_3 == 0)
               arg_samplerate = 2;
 
             else
             {
-              return_value_strcasecmp$2=strcasecmp(optarg, "zerohold");
-              if(return_value_strcasecmp$2 == 0)
+              return_value_strcasecmp_2=strcasecmp(optarg, "zerohold");
+              if(return_value_strcasecmp_2 == 0)
                 arg_samplerate = 3;
 
               else
               {
-                return_value_strcasecmp$1=strcasecmp(optarg, "linear");
-                if(return_value_strcasecmp$1 == 0)
+                return_value_strcasecmp_1=strcasecmp(optarg, "linear");
+                if(return_value_strcasecmp_1 == 0)
                   arg_samplerate = 4;
 
                 else
@@ -4165,8 +4165,8 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
       }
       case 83:
       {
-        return_value_strcasecmp$6=strcasecmp(optarg, "samplerate");
-        if(return_value_strcasecmp$6 == 0)
+        return_value_strcasecmp_6=strcasecmp(optarg, "samplerate");
+        if(return_value_strcasecmp_6 == 0)
           arg_sync = SYNC_TYPE_SAMPLERATE;
 
         else
@@ -4203,14 +4203,14 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
 
         else
         {
-          return_value_strcasecmp$8=strcasecmp(optarg, "on");
-          if(return_value_strcasecmp$8 == 0)
+          return_value_strcasecmp_8=strcasecmp(optarg, "on");
+          if(return_value_strcasecmp_8 == 0)
             arg_slave = SLAVE_TYPE_ON;
 
           else
           {
-            return_value_strcasecmp$7=strcasecmp(optarg, "off");
-            if(return_value_strcasecmp$7 == 0)
+            return_value_strcasecmp_7=strcasecmp(optarg, "off");
+            if(return_value_strcasecmp_7 == 0)
               arg_slave = SLAVE_TYPE_OFF;
 
             else
@@ -4244,9 +4244,9 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
           exit(1);
         }
 
-        tmp_post$9 = arg_mixers_count;
+        tmp_post_9 = arg_mixers_count;
         arg_mixers_count = arg_mixers_count + 1;
-        arg_mixers[(signed long int)tmp_post$9] = optarg;
+        arg_mixers[(signed long int)tmp_post_9] = optarg;
         break;
       }
       case 79:
@@ -4263,9 +4263,9 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
           exit(1);
         }
 
-        tmp_post$10 = arg_ossmixers_count;
+        tmp_post_10 = arg_ossmixers_count;
         arg_ossmixers_count = arg_ossmixers_count + 1;
-        arg_ossmixers[(signed long int)tmp_post$10] = optarg;
+        arg_ossmixers[(signed long int)tmp_post_10] = optarg;
         break;
       }
       case 118:
@@ -4275,8 +4275,8 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
       }
       case 119:
       {
-        return_value_strcasecmp$11=strcasecmp(optarg, "serialopen");
-        if(return_value_strcasecmp$11 == 0)
+        return_value_strcasecmp_11=strcasecmp(optarg, "serialopen");
+        if(return_value_strcasecmp_11 == 0)
           workarounds = workarounds | 1 << 0;
 
         break;
@@ -4408,9 +4408,9 @@ static signed int parse_config(signed int argc, char **argv, struct _snd_output 
     return 0;
   }
 
-  signed int return_value_parse_config_file$12;
-  return_value_parse_config_file$12=parse_config_file(arg_config, output);
-  return return_value_parse_config_file$12;
+  signed int return_value_parse_config_file_12;
+  return_value_parse_config_file_12=parse_config_file(arg_config, output);
+  return return_value_parse_config_file_12;
 }
 
 // parse_config_file
@@ -4427,34 +4427,34 @@ static signed int parse_config_file(const char *file, struct _snd_output *output
   signed int err = 0;
   char **argv;
   fp=fopen(file, "r");
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  signed int return_value_feof$5;
-  signed int tmp_post$8;
-  _Bool tmp_if_expr$14;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  char *tmp_post$11;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  signed int tmp_post$15;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  signed int return_value_feof_5;
+  signed int tmp_post_8;
+  _Bool tmp_if_expr_14;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  char *tmp_post_11;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  signed int tmp_post_15;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        syslog(2, "Unable to open file '%s': %s\n", file, return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        syslog(2, "Unable to open file '%s': %s\n", file, return_value_strerror_2);
       }
 
       else
       {
-        return_value___errno_location$3=__errno_location();
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        fprintf(stderr, "Unable to open file '%s': %s\n", file, return_value_strerror$4);
+        return_value___errno_location_3=__errno_location();
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        fprintf(stderr, "Unable to open file '%s': %s\n", file, return_value_strerror_4);
       }
     while((_Bool)0);
     return -5;
@@ -4464,27 +4464,27 @@ static signed int parse_config_file(const char *file, struct _snd_output *output
   {
     do
     {
-      return_value_feof$5=feof(fp);
-      if(!(return_value_feof$5 == 0))
+      return_value_feof_5=feof(fp);
+      if(!(return_value_feof_5 == 0))
         break;
 
-      char *return_value_fgets$6;
-      return_value_fgets$6=fgets(line, (signed int)(sizeof(char [2048l]) /*2048ul*/  - (unsigned long int)1), fp);
-      if(return_value_fgets$6 == ((char *)NULL))
+      char *return_value_fgets_6;
+      return_value_fgets_6=fgets(line, (signed int)(sizeof(char [2048l]) /*2048ul*/  - (unsigned long int)1), fp);
+      if(return_value_fgets_6 == ((char *)NULL))
         break;
 
       line[(signed long int)(sizeof(char [2048l]) /*2048ul*/  - (unsigned long int)1)] = (char)0;
-      void *return_value_realloc$7;
-      return_value_realloc$7=realloc((void *)my_argv, (unsigned long int)my_argc + (unsigned long int)128 * sizeof(char *) /*8ul*/ );
-      my_argv = (char **)return_value_realloc$7;
+      void *return_value_realloc_7;
+      return_value_realloc_7=realloc((void *)my_argv, (unsigned long int)my_argc + (unsigned long int)128 * sizeof(char *) /*8ul*/ );
+      my_argv = (char **)return_value_realloc_7;
       if(my_argv == ((char **)NULL))
         return -12;
 
       argv = my_argv + (signed long int)my_argc;
       argc = 0;
-      tmp_post$8 = argc;
+      tmp_post_8 = argc;
       argc = argc + 1;
-      argv[(signed long int)tmp_post$8]=strdup("<prog>");
+      argv[(signed long int)tmp_post_8]=strdup("<prog>");
       my_argc = my_argc + 1;
       str = line;
       while(!(*str == 0))
@@ -4502,23 +4502,23 @@ static signed int parse_config_file(const char *file, struct _snd_output *output
           goto __next;
 
         if((signed int)*str == 39)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = (signed int)*str == 34 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (signed int)*str == 34 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
         {
-          tmp_post$9 = str;
+          tmp_post_9 = str;
           str = str + 1l;
-          c = (signed int)*tmp_post$9;
-          for( ; !(*str == 0); *tmp_post$10 = *tmp_post$11)
+          c = (signed int)*tmp_post_9;
+          for( ; !(*str == 0); *tmp_post_10 = *tmp_post_11)
           {
             if((signed int)*str == c)
               break;
 
-            tmp_post$10 = ptr;
+            tmp_post_10 = ptr;
             ptr = ptr + 1l;
-            tmp_post$11 = str;
+            tmp_post_11 = str;
             str = str + 1l;
           }
           if((signed int)*str == c)
@@ -4527,7 +4527,7 @@ static signed int parse_config_file(const char *file, struct _snd_output *output
         }
 
         else
-          for( ; !(*str == 0); *tmp_post$12 = *tmp_post$13)
+          for( ; !(*str == 0); *tmp_post_12 = *tmp_post_13)
           {
             if((signed int)*str == 32)
               break;
@@ -4535,9 +4535,9 @@ static signed int parse_config_file(const char *file, struct _snd_output *output
             if((signed int)*str == 9)
               break;
 
-            tmp_post$12 = ptr;
+            tmp_post_12 = ptr;
             ptr = ptr + 1l;
-            tmp_post$13 = str;
+            tmp_post_13 = str;
             str = str + 1l;
           }
         if(!(ptr == word))
@@ -4558,9 +4558,9 @@ static signed int parse_config_file(const char *file, struct _snd_output *output
             goto __error;
           }
 
-          tmp_post$15 = argc;
+          tmp_post_15 = argc;
           argc = argc + 1;
-          argv[(signed long int)tmp_post$15]=strdup(word);
+          argv[(signed long int)tmp_post_15]=strdup(word);
           my_argc = my_argc + 1;
         }
 
@@ -4591,7 +4591,7 @@ static signed int parse_config_file(const char *file, struct _snd_output *output
 // file pcmjob.c line 68
 static void pcm_open_init_mutex(void)
 {
-  union anonymous$1 attr;
+  union anonymous_1 attr;
   pthread_mutexattr_init(&attr);
   pthread_mutexattr_settype(&attr, 1);
   pthread_mutex_init(&pcm_open_mutex, &attr);
@@ -4637,8 +4637,8 @@ signed int pcmjob_init(struct loopback *loop)
   signed int err;
   char id[128l];
   err=openit(loop->play);
-  _Bool tmp_if_expr$2;
-  signed int return_value_snd_ctl_elem_value_get_boolean$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_snd_ctl_elem_value_get_boolean_1;
   if(err >= 0)
   {
     err=openit(loop->capt);
@@ -4702,14 +4702,14 @@ signed int pcmjob_init(struct loopback *loop)
         goto __error;
 
       if(loop->capt->ctl_notify == ((struct _snd_ctl_elem_value *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value_snd_ctl_elem_value_get_boolean$1=snd_ctl_elem_value_get_boolean(loop->capt->ctl_notify, (unsigned int)0);
-        tmp_if_expr$2 = return_value_snd_ctl_elem_value_get_boolean$1 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_snd_ctl_elem_value_get_boolean_1=snd_ctl_elem_value_get_boolean(loop->capt->ctl_notify, (unsigned int)0);
+        tmp_if_expr_2 = return_value_snd_ctl_elem_value_get_boolean_1 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
       {
         do
           if(!(use_syslog == 0))
@@ -4758,17 +4758,17 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
   if(verbose >= 12)
     snd_output_printf(loop->output, "%s: pollfds handle\n", loop->id);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(verbose >= 14)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = loop->xrun != 0u ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = loop->xrun != 0u ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     getcurtimestamp(&loop->tstamp_start);
 
-  const char *return_value_snd_strerror$2;
-  const char *return_value_snd_strerror$3;
+  const char *return_value_snd_strerror_2;
+  const char *return_value_snd_strerror_3;
   if(verbose >= 13)
   {
     signed long int pdelay;
@@ -4776,8 +4776,8 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
     err=snd_pcm_delay(play->handle, &pdelay);
     if(!(err >= 0))
     {
-      return_value_snd_strerror$2=snd_strerror(err);
-      snd_output_printf(loop->output, "%s: delay error: %s / %li / %li\n", play->id, return_value_snd_strerror$2, play->buf_size, play->buf_count);
+      return_value_snd_strerror_2=snd_strerror(err);
+      snd_output_printf(loop->output, "%s: delay error: %s / %li / %li\n", play->id, return_value_snd_strerror_2, play->buf_size, play->buf_count);
     }
 
     else
@@ -4785,8 +4785,8 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
     err=snd_pcm_delay(capt->handle, &cdelay);
     if(!(err >= 0))
     {
-      return_value_snd_strerror$3=snd_strerror(err);
-      snd_output_printf(loop->output, "%s: delay error: %s / %li / %li\n", capt->id, return_value_snd_strerror$3, capt->buf_size, capt->buf_count);
+      return_value_snd_strerror_3=snd_strerror(err);
+      snd_output_printf(loop->output, "%s: delay error: %s / %li / %li\n", capt->id, return_value_snd_strerror_3, capt->buf_size, capt->buf_count);
     }
 
     else
@@ -4825,15 +4825,15 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
     crevents = (unsigned short int)0;
     prevents = crevents;
   }
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(play->ctl_pollfd_count >= 1u)
   {
     if((signed int)loop->slave == SLAVE_TYPE_ON)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       err=snd_ctl_poll_descriptors_revents(play->ctl, fds + (signed long int)idx, play->ctl_pollfd_count, &events);
       if(!(err >= 0))
@@ -4855,15 +4855,15 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
 
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(capt->ctl_pollfd_count >= 1u)
   {
     if((signed int)loop->slave == SLAVE_TYPE_ON)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       err=snd_ctl_poll_descriptors_revents(capt->ctl, fds + (signed long int)idx, capt->ctl_pollfd_count, &events);
       if(!(err >= 0))
@@ -4888,48 +4888,48 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
   if(verbose >= 10)
     snd_output_printf(loop->output, "%s: prevents = 0x%x, crevents = 0x%x\n", loop->id, prevents, crevents);
 
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  const char *return_value_snd_strerror$12;
-  const char *return_value_snd_strerror$13;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  const char *return_value_snd_strerror_12;
+  const char *return_value_snd_strerror_13;
   if(!(loop->running == 0u))
   {
     do
     {
-      signed int return_value_readit$6;
-      return_value_readit$6=readit(capt);
-      ccount = (unsigned long int)return_value_readit$6;
+      signed int return_value_readit_6;
+      return_value_readit_6=readit(capt);
+      ccount = (unsigned long int)return_value_readit_6;
       buf_add(loop, ccount);
       if(!(capt->xrun_pending == 0u))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = loop->reinit != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = loop->reinit != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
         break;
 
-      signed int return_value_writeit$8;
-      return_value_writeit$8=writeit(play);
-      pcount = (unsigned long int)return_value_writeit$8;
+      signed int return_value_writeit_8;
+      return_value_writeit_8=writeit(play);
+      pcount = (unsigned long int)return_value_writeit_8;
       buf_remove(loop, pcount);
       if(!(play->xrun_pending == 0u))
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = loop->reinit != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = loop->reinit != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
         break;
 
       loopcount = loopcount - 1;
     }
     while(loopcount >= 1 && (ccount >= 1ul || pcount >= 1ul));
     if(!(play->xrun_pending == 0u))
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = capt->xrun_pending != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = capt->xrun_pending != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
     {
       err=xrun_sync(loop);
       if(!(err >= 0))
@@ -4955,44 +4955,44 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
       {
         if(capt->counter >= play->sync_point)
         {
-          signed long int pcmjob_pollfds_handle$$1$$9$$diff;
+          signed long int pcmjob_pollfds_handle__1__9__diff;
           signed long int lat;
-          unsigned long int return_value_get_whole_latency$11;
-          return_value_get_whole_latency$11=get_whole_latency(loop);
-          lat = (signed long int)return_value_get_whole_latency$11;
-          pcmjob_pollfds_handle$$1$$9$$diff = (signed long int)((double)((double)play->total_queued * play->pitch + (double)capt->total_queued * capt->pitch) / (double)loop->total_queued_count - (double)lat);
+          unsigned long int return_value_get_whole_latency_11;
+          return_value_get_whole_latency_11=get_whole_latency(loop);
+          lat = (signed long int)return_value_get_whole_latency_11;
+          pcmjob_pollfds_handle__1__9__diff = (signed long int)((double)((double)play->total_queued * play->pitch + (double)capt->total_queued * capt->pitch) / (double)loop->total_queued_count - (double)lat);
           if(verbose >= 4)
-            snd_output_printf(loop->output, "%s: sync diff %li old diff %li\n", loop->id, pcmjob_pollfds_handle$$1$$9$$diff, loop->pitch_diff);
+            snd_output_printf(loop->output, "%s: sync diff %li old diff %li\n", loop->id, pcmjob_pollfds_handle__1__9__diff, loop->pitch_diff);
 
-          if(pcmjob_pollfds_handle$$1$$9$$diff >= 1l)
+          if(pcmjob_pollfds_handle__1__9__diff >= 1l)
           {
-            if(pcmjob_pollfds_handle$$1$$9$$diff == loop->pitch_diff)
+            if(pcmjob_pollfds_handle__1__9__diff == loop->pitch_diff)
               loop->pitch = loop->pitch + loop->pitch_delta;
 
             else
-              if(!(loop->pitch_diff >= pcmjob_pollfds_handle$$1$$9$$diff))
+              if(!(loop->pitch_diff >= pcmjob_pollfds_handle__1__9__diff))
                 loop->pitch = loop->pitch + loop->pitch_delta * (double)2;
 
           }
 
           else
-            if(!(pcmjob_pollfds_handle$$1$$9$$diff >= 0l))
+            if(!(pcmjob_pollfds_handle__1__9__diff >= 0l))
             {
-              if(pcmjob_pollfds_handle$$1$$9$$diff == loop->pitch_diff)
+              if(pcmjob_pollfds_handle__1__9__diff == loop->pitch_diff)
                 loop->pitch = loop->pitch - loop->pitch_delta;
 
               else
-                if(!(pcmjob_pollfds_handle$$1$$9$$diff >= loop->pitch_diff))
+                if(!(pcmjob_pollfds_handle__1__9__diff >= loop->pitch_diff))
                   loop->pitch = loop->pitch - loop->pitch_delta * (double)2;
 
             }
 
-          loop->pitch_diff = pcmjob_pollfds_handle$$1$$9$$diff;
-          if(!(pcmjob_pollfds_handle$$1$$9$$diff >= loop->pitch_diff_min))
-            loop->pitch_diff_min = pcmjob_pollfds_handle$$1$$9$$diff;
+          loop->pitch_diff = pcmjob_pollfds_handle__1__9__diff;
+          if(!(pcmjob_pollfds_handle__1__9__diff >= loop->pitch_diff_min))
+            loop->pitch_diff_min = pcmjob_pollfds_handle__1__9__diff;
 
-          if(!(loop->pitch_diff_max >= pcmjob_pollfds_handle$$1$$9$$diff))
-            loop->pitch_diff_max = pcmjob_pollfds_handle$$1$$9$$diff;
+          if(!(loop->pitch_diff_max >= pcmjob_pollfds_handle__1__9__diff))
+            loop->pitch_diff_max = pcmjob_pollfds_handle__1__9__diff;
 
           update_pitch(loop);
           play->counter = play->counter - play->sync_point;
@@ -5028,26 +5028,26 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
 
     if(verbose >= 13)
     {
-      signed long int pcmjob_pollfds_handle$$1$$11$$pdelay;
-      signed long int pcmjob_pollfds_handle$$1$$11$$cdelay;
-      err=snd_pcm_delay(play->handle, &pcmjob_pollfds_handle$$1$$11$$pdelay);
+      signed long int pcmjob_pollfds_handle__1__11__pdelay;
+      signed long int pcmjob_pollfds_handle__1__11__cdelay;
+      err=snd_pcm_delay(play->handle, &pcmjob_pollfds_handle__1__11__pdelay);
       if(!(err >= 0))
       {
-        return_value_snd_strerror$12=snd_strerror(err);
-        snd_output_printf(loop->output, "%s: end delay error: %s / %li / %li\n", play->id, return_value_snd_strerror$12, play->buf_size, play->buf_count);
+        return_value_snd_strerror_12=snd_strerror(err);
+        snd_output_printf(loop->output, "%s: end delay error: %s / %li / %li\n", play->id, return_value_snd_strerror_12, play->buf_size, play->buf_count);
       }
 
       else
-        snd_output_printf(loop->output, "%s: end delay %li / %li / %li\n", play->id, pcmjob_pollfds_handle$$1$$11$$pdelay, play->buf_size, play->buf_count);
-      err=snd_pcm_delay(capt->handle, &pcmjob_pollfds_handle$$1$$11$$cdelay);
+        snd_output_printf(loop->output, "%s: end delay %li / %li / %li\n", play->id, pcmjob_pollfds_handle__1__11__pdelay, play->buf_size, play->buf_count);
+      err=snd_pcm_delay(capt->handle, &pcmjob_pollfds_handle__1__11__cdelay);
       if(!(err >= 0))
       {
-        return_value_snd_strerror$13=snd_strerror(err);
-        snd_output_printf(loop->output, "%s: end delay error: %s / %li / %li\n", capt->id, return_value_snd_strerror$13, capt->buf_size, capt->buf_count);
+        return_value_snd_strerror_13=snd_strerror(err);
+        snd_output_printf(loop->output, "%s: end delay error: %s / %li / %li\n", capt->id, return_value_snd_strerror_13, capt->buf_size, capt->buf_count);
       }
 
       else
-        snd_output_printf(loop->output, "%s: end delay %li / %li / %li\n", capt->id, pcmjob_pollfds_handle$$1$$11$$cdelay, capt->buf_size, capt->buf_count);
+        snd_output_printf(loop->output, "%s: end delay %li / %li / %li\n", capt->id, pcmjob_pollfds_handle__1__11__cdelay, capt->buf_size, capt->buf_count);
     }
 
   }
@@ -5055,17 +5055,17 @@ signed int pcmjob_pollfds_handle(struct loopback *loop, struct pollfd *fds)
 
 __pcm_end:
   ;
-  _Bool tmp_if_expr$14;
+  _Bool tmp_if_expr_14;
   if(verbose >= 14)
-    tmp_if_expr$14 = (_Bool)1;
+    tmp_if_expr_14 = (_Bool)1;
 
   else
-    tmp_if_expr$14 = loop->xrun != 0u ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = loop->xrun != 0u ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_14)
   {
     signed long int diff;
     getcurtimestamp(&loop->tstamp_end);
-    diff=timediff$link1(loop->tstamp_end, loop->tstamp_start);
+    diff=timediff_link1(loop->tstamp_end, loop->tstamp_start);
     if(verbose >= 14)
       snd_output_printf(loop->output, "%s: processing time %lius\n", loop->id, diff);
 
@@ -5101,15 +5101,15 @@ signed int pcmjob_pollfds_init(struct loopback *loop, struct pollfd *fds)
     idx = idx + (signed int)loop->capt->pollfd_count;
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(loop->play->ctl_pollfd_count >= 1u)
   {
     if((signed int)loop->slave == SLAVE_TYPE_ON)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       err=snd_ctl_poll_descriptors(loop->play->ctl, fds + (signed long int)idx, loop->play->ctl_pollfd_count);
       if(!(err >= 0))
@@ -5120,15 +5120,15 @@ signed int pcmjob_pollfds_init(struct loopback *loop, struct pollfd *fds)
 
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(loop->capt->ctl_pollfd_count >= 1u)
   {
     if((signed int)loop->slave == SLAVE_TYPE_ON)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = loop->controls != ((struct loopback_mixer *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       err=snd_ctl_poll_descriptors(loop->capt->ctl, fds + (signed long int)idx, loop->capt->ctl_pollfd_count);
       if(!(err >= 0))
@@ -5151,29 +5151,29 @@ signed int pcmjob_start(struct loopback *loop)
   signed int err;
   loop->pollfd_count = (signed int)(loop->play->ctl_pollfd_count + loop->capt->ctl_pollfd_count);
   err=snd_pcm_poll_descriptors_count(loop->play->handle);
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_5;
   enum _snd_pcm_format format1;
   enum _snd_pcm_format format2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$18;
-  const char *return_value_snd_pcm_format_name$10;
-  const char *return_value_snd_pcm_format_name$11;
-  const char *return_value_snd_pcm_format_name$12;
-  const char *return_value_snd_pcm_format_name$13;
-  const char *return_value_snd_pcm_format_name$14;
-  const char *return_value_snd_pcm_format_name$15;
-  const char *return_value_snd_pcm_format_name$16;
-  const char *return_value_snd_pcm_format_name$17;
-  unsigned long int return_value_get_whole_latency$22;
-  const char *return_value_snd_strerror$23;
-  const char *return_value_snd_strerror$24;
-  const char *return_value_snd_strerror$25;
-  const char *return_value_snd_strerror$26;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_18;
+  const char *return_value_snd_pcm_format_name_10;
+  const char *return_value_snd_pcm_format_name_11;
+  const char *return_value_snd_pcm_format_name_12;
+  const char *return_value_snd_pcm_format_name_13;
+  const char *return_value_snd_pcm_format_name_14;
+  const char *return_value_snd_pcm_format_name_15;
+  const char *return_value_snd_pcm_format_name_16;
+  const char *return_value_snd_pcm_format_name_17;
+  unsigned long int return_value_get_whole_latency_22;
+  const char *return_value_snd_strerror_23;
+  const char *return_value_snd_strerror_24;
+  const char *return_value_snd_strerror_25;
+  const char *return_value_snd_strerror_26;
   if(err >= 0)
   {
     loop->play->pollfd_count = (unsigned int)err;
@@ -5223,9 +5223,9 @@ signed int pcmjob_start(struct loopback *loop)
     {
       if(!(loop->latency_req == 0u))
       {
-        unsigned long long int return_value_frames_to_time$1;
-        return_value_frames_to_time$1=frames_to_time(loop->play->rate_req, (unsigned long int)loop->latency_req);
-        loop->latency_reqtime = (unsigned int)return_value_frames_to_time$1;
+        unsigned long long int return_value_frames_to_time_1;
+        return_value_frames_to_time_1=frames_to_time(loop->play->rate_req, (unsigned long int)loop->latency_req);
+        loop->latency_reqtime = (unsigned int)return_value_frames_to_time_1;
         loop->latency_req = (unsigned int)0;
       }
 
@@ -5238,26 +5238,26 @@ signed int pcmjob_start(struct loopback *loop)
         showlatency(loop->output, loop->latency, loop->play->rate_req, "Latency");
 
       if(loop->play->access == loop->capt->access)
-        tmp_if_expr$6 = loop->play->format == loop->capt->format ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = loop->play->format == loop->capt->format ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = loop->play->rate == loop->capt->rate ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = loop->play->rate == loop->capt->rate ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = loop->play->channels == loop->play->channels ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = loop->play->channels == loop->play->channels ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (signed int)loop->sync != SYNC_TYPE_SAMPLERATE ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (signed int)loop->sync != SYNC_TYPE_SAMPLERATE ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
       {
         if(verbose >= 2)
           snd_output_printf(loop->output, "shared buffer!!!\n");
@@ -5272,17 +5272,17 @@ signed int pcmjob_start(struct loopback *loop)
 
         if(!(loop->play->buf_size >= loop->capt->buf_size))
         {
-          char *pcmjob_start$$1$$3$$1$$nbuf;
-          void *return_value_realloc$2;
-          return_value_realloc$2=realloc((void *)loop->play->buf, loop->capt->buf_size * (unsigned long int)loop->capt->frame_size);
-          pcmjob_start$$1$$3$$1$$nbuf = (char *)return_value_realloc$2;
-          if(pcmjob_start$$1$$3$$1$$nbuf == ((char *)NULL))
+          char *pcmjob_start__1__3__1__nbuf;
+          void *return_value_realloc_2;
+          return_value_realloc_2=realloc((void *)loop->play->buf, loop->capt->buf_size * (unsigned long int)loop->capt->frame_size);
+          pcmjob_start__1__3__1__nbuf = (char *)return_value_realloc_2;
+          if(pcmjob_start__1__3__1__nbuf == ((char *)NULL))
           {
             err = -12;
             goto __error;
           }
 
-          loop->play->buf = pcmjob_start$$1$$3$$1$$nbuf;
+          loop->play->buf = pcmjob_start__1__3__1__nbuf;
           loop->play->buf_size = loop->capt->buf_size;
         }
 
@@ -5290,9 +5290,9 @@ signed int pcmjob_start(struct loopback *loop)
           if(!(loop->capt->buf_size >= loop->play->buf_size))
           {
             char *nbuf;
-            void *return_value_realloc$3;
-            return_value_realloc$3=realloc((void *)loop->capt->buf, loop->play->buf_size * (unsigned long int)loop->play->frame_size);
-            nbuf = (char *)return_value_realloc$3;
+            void *return_value_realloc_3;
+            return_value_realloc_3=realloc((void *)loop->capt->buf, loop->play->buf_size * (unsigned long int)loop->play->frame_size);
+            nbuf = (char *)return_value_realloc_3;
             if(nbuf == ((char *)NULL))
             {
               err = -12;
@@ -5316,11 +5316,11 @@ signed int pcmjob_start(struct loopback *loop)
         goto __error;
 
       if(!(loop->play->rate_req == loop->play->rate))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = loop->capt->rate_req != loop->capt->rate ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = loop->capt->rate_req != loop->capt->rate ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_5)
         goto __CPROVER_DUMP_L25;
 
       loop->use_samplerate = (unsigned int)1;
@@ -5328,11 +5328,11 @@ signed int pcmjob_start(struct loopback *loop)
       format2 = loop->capt->format;
       fix_format(loop, 1);
       if(!(loop->play->format == format1))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = loop->capt->format != format2 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = loop->capt->format != format2 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
       pcmjob_stop(loop);
@@ -5364,36 +5364,36 @@ signed int pcmjob_start(struct loopback *loop)
     if(!(loop->use_samplerate == 0u))
     {
       if(!((signed int)loop->capt->format == SND_PCM_FORMAT_S16))
-        tmp_if_expr$19 = (_Bool)1;
+        tmp_if_expr_19 = (_Bool)1;
 
       else
-        tmp_if_expr$19 = (signed int)loop->play->format != SND_PCM_FORMAT_S16 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$19)
+        tmp_if_expr_19 = (signed int)loop->play->format != SND_PCM_FORMAT_S16 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_19)
       {
         if(!((signed int)loop->capt->format == SND_PCM_FORMAT_S32))
-          tmp_if_expr$18 = (_Bool)1;
+          tmp_if_expr_18 = (_Bool)1;
 
         else
-          tmp_if_expr$18 = (signed int)loop->play->format != SND_PCM_FORMAT_S32 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$18)
+          tmp_if_expr_18 = (signed int)loop->play->format != SND_PCM_FORMAT_S32 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_18)
         {
           do
             if(!(use_syslog == 0))
             {
-              return_value_snd_pcm_format_name$10=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S16);
-              return_value_snd_pcm_format_name$11=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S32);
-              return_value_snd_pcm_format_name$12=snd_pcm_format_name(loop->play->format);
-              return_value_snd_pcm_format_name$13=snd_pcm_format_name(loop->capt->format);
-              syslog(2, "samplerate conversion supports only %s or %s formats (play=%s, capt=%s)\n", return_value_snd_pcm_format_name$10, return_value_snd_pcm_format_name$11, return_value_snd_pcm_format_name$12, return_value_snd_pcm_format_name$13);
+              return_value_snd_pcm_format_name_10=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S16);
+              return_value_snd_pcm_format_name_11=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S32);
+              return_value_snd_pcm_format_name_12=snd_pcm_format_name(loop->play->format);
+              return_value_snd_pcm_format_name_13=snd_pcm_format_name(loop->capt->format);
+              syslog(2, "samplerate conversion supports only %s or %s formats (play=%s, capt=%s)\n", return_value_snd_pcm_format_name_10, return_value_snd_pcm_format_name_11, return_value_snd_pcm_format_name_12, return_value_snd_pcm_format_name_13);
             }
 
             else
             {
-              return_value_snd_pcm_format_name$14=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S16);
-              return_value_snd_pcm_format_name$15=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S32);
-              return_value_snd_pcm_format_name$16=snd_pcm_format_name(loop->play->format);
-              return_value_snd_pcm_format_name$17=snd_pcm_format_name(loop->capt->format);
-              fprintf(stderr, "samplerate conversion supports only %s or %s formats (play=%s, capt=%s)\n", return_value_snd_pcm_format_name$14, return_value_snd_pcm_format_name$15, return_value_snd_pcm_format_name$16, return_value_snd_pcm_format_name$17);
+              return_value_snd_pcm_format_name_14=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S16);
+              return_value_snd_pcm_format_name_15=snd_pcm_format_name((const enum _snd_pcm_format)SND_PCM_FORMAT_S32);
+              return_value_snd_pcm_format_name_16=snd_pcm_format_name(loop->play->format);
+              return_value_snd_pcm_format_name_17=snd_pcm_format_name(loop->capt->format);
+              fprintf(stderr, "samplerate conversion supports only %s or %s formats (play=%s, capt=%s)\n", return_value_snd_pcm_format_name_14, return_value_snd_pcm_format_name_15, return_value_snd_pcm_format_name_16, return_value_snd_pcm_format_name_17);
             }
           while((_Bool)0);
           loop->use_samplerate = (unsigned int)0;
@@ -5404,18 +5404,18 @@ signed int pcmjob_start(struct loopback *loop)
       }
 
       loop->src_state=src_new(loop->src_converter_type, (signed int)loop->play->channels, &err);
-      void *return_value_calloc$20;
-      return_value_calloc$20=calloc((unsigned long int)1, sizeof(float) /*4ul*/  * (unsigned long int)loop->capt->channels * loop->capt->buf_size);
-      loop->src_data.data_in = (float *)return_value_calloc$20;
+      void *return_value_calloc_20;
+      return_value_calloc_20=calloc((unsigned long int)1, sizeof(float) /*4ul*/  * (unsigned long int)loop->capt->channels * loop->capt->buf_size);
+      loop->src_data.data_in = (float *)return_value_calloc_20;
       if(loop->src_data.data_in == ((float *)NULL))
       {
         err = -12;
         goto __error;
       }
 
-      void *return_value_calloc$21;
-      return_value_calloc$21=calloc((unsigned long int)1, sizeof(float) /*4ul*/  * (unsigned long int)loop->play->channels * loop->play->buf_size);
-      loop->src_data.data_out = (float *)return_value_calloc$21;
+      void *return_value_calloc_21;
+      return_value_calloc_21=calloc((unsigned long int)1, sizeof(float) /*4ul*/  * (unsigned long int)loop->play->channels * loop->play->buf_size);
+      loop->src_data.data_out = (float *)return_value_calloc_21;
       if(loop->src_data.data_out == ((float *)NULL))
       {
         err = -12;
@@ -5461,8 +5461,8 @@ signed int pcmjob_start(struct loopback *loop)
     loop->pitch_delta = 1.0 / ((double)loop->capt->rate * (double)4);
     loop->total_queued_count = (unsigned int)0;
     loop->pitch_diff = (signed long int)0;
-    return_value_get_whole_latency$22=get_whole_latency(loop);
-    count = (unsigned long int)((double)return_value_get_whole_latency$22 / loop->play->pitch);
+    return_value_get_whole_latency_22=get_whole_latency(loop);
+    count = (unsigned long int)((double)return_value_get_whole_latency_22 / loop->play->pitch);
     loop->play->buf_count = count;
     if(loop->play->buf == loop->capt->buf)
       loop->capt->buf_pos = count;
@@ -5503,14 +5503,14 @@ signed int pcmjob_start(struct loopback *loop)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$23=snd_strerror(err);
-          syslog(2, "pcm start %s error: %s\n", loop->capt->id, return_value_snd_strerror$23);
+          return_value_snd_strerror_23=snd_strerror(err);
+          syslog(2, "pcm start %s error: %s\n", loop->capt->id, return_value_snd_strerror_23);
         }
 
         else
         {
-          return_value_snd_strerror$24=snd_strerror(err);
-          fprintf(stderr, "pcm start %s error: %s\n", loop->capt->id, return_value_snd_strerror$24);
+          return_value_snd_strerror_24=snd_strerror(err);
+          fprintf(stderr, "pcm start %s error: %s\n", loop->capt->id, return_value_snd_strerror_24);
         }
       while((_Bool)0);
       goto __error;
@@ -5524,14 +5524,14 @@ signed int pcmjob_start(struct loopback *loop)
         do
           if(!(use_syslog == 0))
           {
-            return_value_snd_strerror$25=snd_strerror(err);
-            syslog(2, "pcm start %s error: %s\n", loop->play->id, return_value_snd_strerror$25);
+            return_value_snd_strerror_25=snd_strerror(err);
+            syslog(2, "pcm start %s error: %s\n", loop->play->id, return_value_snd_strerror_25);
           }
 
           else
           {
-            return_value_snd_strerror$26=snd_strerror(err);
-            fprintf(stderr, "pcm start %s error: %s\n", loop->play->id, return_value_snd_strerror$26);
+            return_value_snd_strerror_26=snd_strerror(err);
+            fprintf(stderr, "pcm start %s error: %s\n", loop->play->id, return_value_snd_strerror_26);
           }
         while((_Bool)0);
         goto __error;
@@ -5583,14 +5583,14 @@ __skip:
 signed int pcmjob_stop(struct loopback *loop)
 {
   signed int err;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
-  const char *return_value_snd_strerror$3;
-  const char *return_value_snd_strerror$4;
-  const char *return_value_snd_strerror$5;
-  const char *return_value_snd_strerror$6;
-  const char *return_value_snd_strerror$7;
-  const char *return_value_snd_strerror$8;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
+  const char *return_value_snd_strerror_3;
+  const char *return_value_snd_strerror_4;
+  const char *return_value_snd_strerror_5;
+  const char *return_value_snd_strerror_6;
+  const char *return_value_snd_strerror_7;
+  const char *return_value_snd_strerror_8;
   if(!(loop->running == 0u))
   {
     err=snd_pcm_drop(loop->capt->handle);
@@ -5598,14 +5598,14 @@ signed int pcmjob_stop(struct loopback *loop)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$1=snd_strerror(err);
-          syslog(4, "pcm drop %s error: %s\n", loop->capt->id, return_value_snd_strerror$1);
+          return_value_snd_strerror_1=snd_strerror(err);
+          syslog(4, "pcm drop %s error: %s\n", loop->capt->id, return_value_snd_strerror_1);
         }
 
         else
         {
-          return_value_snd_strerror$2=snd_strerror(err);
-          fprintf(stderr, "pcm drop %s error: %s\n", loop->capt->id, return_value_snd_strerror$2);
+          return_value_snd_strerror_2=snd_strerror(err);
+          fprintf(stderr, "pcm drop %s error: %s\n", loop->capt->id, return_value_snd_strerror_2);
         }
       while((_Bool)0);
 
@@ -5614,14 +5614,14 @@ signed int pcmjob_stop(struct loopback *loop)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$3=snd_strerror(err);
-          syslog(4, "pcm drop %s error: %s\n", loop->play->id, return_value_snd_strerror$3);
+          return_value_snd_strerror_3=snd_strerror(err);
+          syslog(4, "pcm drop %s error: %s\n", loop->play->id, return_value_snd_strerror_3);
         }
 
         else
         {
-          return_value_snd_strerror$4=snd_strerror(err);
-          fprintf(stderr, "pcm drop %s error: %s\n", loop->play->id, return_value_snd_strerror$4);
+          return_value_snd_strerror_4=snd_strerror(err);
+          fprintf(stderr, "pcm drop %s error: %s\n", loop->play->id, return_value_snd_strerror_4);
         }
       while((_Bool)0);
 
@@ -5630,14 +5630,14 @@ signed int pcmjob_stop(struct loopback *loop)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$5=snd_strerror(err);
-          syslog(4, "pcm hw_free %s error: %s\n", loop->capt->id, return_value_snd_strerror$5);
+          return_value_snd_strerror_5=snd_strerror(err);
+          syslog(4, "pcm hw_free %s error: %s\n", loop->capt->id, return_value_snd_strerror_5);
         }
 
         else
         {
-          return_value_snd_strerror$6=snd_strerror(err);
-          fprintf(stderr, "pcm hw_free %s error: %s\n", loop->capt->id, return_value_snd_strerror$6);
+          return_value_snd_strerror_6=snd_strerror(err);
+          fprintf(stderr, "pcm hw_free %s error: %s\n", loop->capt->id, return_value_snd_strerror_6);
         }
       while((_Bool)0);
 
@@ -5646,14 +5646,14 @@ signed int pcmjob_stop(struct loopback *loop)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$7=snd_strerror(err);
-          syslog(4, "pcm hw_free %s error: %s\n", loop->play->id, return_value_snd_strerror$7);
+          return_value_snd_strerror_7=snd_strerror(err);
+          syslog(4, "pcm hw_free %s error: %s\n", loop->play->id, return_value_snd_strerror_7);
         }
 
         else
         {
-          return_value_snd_strerror$8=snd_strerror(err);
-          fprintf(stderr, "pcm hw_free %s error: %s\n", loop->play->id, return_value_snd_strerror$8);
+          return_value_snd_strerror_8=snd_strerror(err);
+          fprintf(stderr, "pcm hw_free %s error: %s\n", loop->play->id, return_value_snd_strerror_8);
         }
       while((_Bool)0);
 
@@ -5675,9 +5675,9 @@ static signed int readit(struct loopback_handle *lhandle)
   avail=snd_pcm_avail_update(lhandle->handle);
   if(avail == -32l)
   {
-    signed int return_value_xrun$1;
-    return_value_xrun$1=xrun(lhandle);
-    return return_value_xrun$1;
+    signed int return_value_xrun_1;
+    return_value_xrun_1=xrun(lhandle);
+    return return_value_xrun_1;
   }
 
   else
@@ -5689,24 +5689,24 @@ static signed int readit(struct loopback_handle *lhandle)
 
     }
 
-  unsigned long int return_value_buf_avail$5;
-  return_value_buf_avail$5=buf_avail(lhandle);
-  if(!(return_value_buf_avail$5 >= (unsigned long int)avail))
+  unsigned long int return_value_buf_avail_5;
+  return_value_buf_avail_5=buf_avail(lhandle);
+  if(!(return_value_buf_avail_5 >= (unsigned long int)avail))
   {
-    unsigned long int return_value_buf_avail$2;
-    return_value_buf_avail$2=buf_avail(lhandle);
-    lhandle->buf_over = lhandle->buf_over + ((unsigned long int)avail - return_value_buf_avail$2);
-    unsigned long int return_value_buf_avail$3;
-    return_value_buf_avail$3=buf_avail(lhandle);
-    avail = (signed long int)return_value_buf_avail$3;
+    unsigned long int return_value_buf_avail_2;
+    return_value_buf_avail_2=buf_avail(lhandle);
+    lhandle->buf_over = lhandle->buf_over + ((unsigned long int)avail - return_value_buf_avail_2);
+    unsigned long int return_value_buf_avail_3;
+    return_value_buf_avail_3=buf_avail(lhandle);
+    avail = (signed long int)return_value_buf_avail_3;
   }
 
   else
     if(avail == 0l)
     {
-      enum _snd_pcm_state return_value_snd_pcm_state$4;
-      return_value_snd_pcm_state$4=snd_pcm_state(lhandle->handle);
-      if((signed int)return_value_snd_pcm_state$4 == SND_PCM_STATE_DRAINING)
+      enum _snd_pcm_state return_value_snd_pcm_state_4;
+      return_value_snd_pcm_state_4=snd_pcm_state(lhandle->handle);
+      if((signed int)return_value_snd_pcm_state_4 == SND_PCM_STATE_DRAINING)
       {
         lhandle->loopback->reinit = (unsigned int)1;
         return 0;
@@ -5716,9 +5716,9 @@ static signed int readit(struct loopback_handle *lhandle)
 
   while(avail >= 1l)
   {
-    unsigned long int return_value_buf_avail$6;
-    return_value_buf_avail$6=buf_avail(lhandle);
-    r = (signed long int)return_value_buf_avail$6;
+    unsigned long int return_value_buf_avail_6;
+    return_value_buf_avail_6=buf_avail(lhandle);
+    r = (signed long int)return_value_buf_avail_6;
     if(!(lhandle->buf_size >= lhandle->buf_pos + (unsigned long int)r))
       r = (signed long int)(lhandle->buf_size - lhandle->buf_pos);
 
@@ -5834,10 +5834,10 @@ static void set_loop_time(struct loopback *loop, unsigned long int loop_time)
 static signed int set_notify(struct loopback_handle *lhandle, signed int enable)
 {
   signed int err;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
-  const char *return_value_snd_strerror$3;
-  const char *return_value_snd_strerror$4;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
+  const char *return_value_snd_strerror_3;
+  const char *return_value_snd_strerror_4;
   if(lhandle->ctl_notify == ((struct _snd_ctl_elem_value *)NULL))
     return 0;
 
@@ -5850,14 +5850,14 @@ static signed int set_notify(struct loopback_handle *lhandle, signed int enable)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$1=snd_strerror(err);
-          syslog(2, "Cannot set PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror$1);
+          return_value_snd_strerror_1=snd_strerror(err);
+          syslog(2, "Cannot set PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror_1);
         }
 
         else
         {
-          return_value_snd_strerror$2=snd_strerror(err);
-          fprintf(stderr, "Cannot set PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror$2);
+          return_value_snd_strerror_2=snd_strerror(err);
+          fprintf(stderr, "Cannot set PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror_2);
         }
       while((_Bool)0);
       return err;
@@ -5871,14 +5871,14 @@ static signed int set_notify(struct loopback_handle *lhandle, signed int enable)
         do
           if(!(use_syslog == 0))
           {
-            return_value_snd_strerror$3=snd_strerror(err);
-            syslog(2, "Cannot get PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror$3);
+            return_value_snd_strerror_3=snd_strerror(err);
+            syslog(2, "Cannot get PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror_3);
           }
 
           else
           {
-            return_value_snd_strerror$4=snd_strerror(err);
-            fprintf(stderr, "Cannot get PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror$4);
+            return_value_snd_strerror_4=snd_strerror(err);
+            fprintf(stderr, "Cannot get PCM Notify element for %s: %s\n", lhandle->id, return_value_snd_strerror_4);
           }
         while((_Bool)0);
         return err;
@@ -5895,8 +5895,8 @@ static signed int set_notify(struct loopback_handle *lhandle, signed int enable)
 static signed int set_rate_shift(struct loopback_handle *lhandle, double pitch)
 {
   signed int err;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
   if(lhandle->ctl_rate_shift == ((struct _snd_ctl_elem_value *)NULL))
     return 0;
 
@@ -5909,14 +5909,14 @@ static signed int set_rate_shift(struct loopback_handle *lhandle, double pitch)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$1=snd_strerror(err);
-          syslog(2, "Cannot set PCM Rate Shift element for %s: %s\n", lhandle->id, return_value_snd_strerror$1);
+          return_value_snd_strerror_1=snd_strerror(err);
+          syslog(2, "Cannot set PCM Rate Shift element for %s: %s\n", lhandle->id, return_value_snd_strerror_1);
         }
 
         else
         {
-          return_value_snd_strerror$2=snd_strerror(err);
-          fprintf(stderr, "Cannot set PCM Rate Shift element for %s: %s\n", lhandle->id, return_value_snd_strerror$2);
+          return_value_snd_strerror_2=snd_strerror(err);
+          fprintf(stderr, "Cannot set PCM Rate Shift element for %s: %s\n", lhandle->id, return_value_snd_strerror_2);
         }
       while((_Bool)0);
       return err;
@@ -5940,106 +5940,106 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
   struct _snd_pcm_sw_params *c_swparams;
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$1;
-    return_value_snd_pcm_hw_params_sizeof$1=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$2;
-    return_value___builtin_alloca$2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$1);
-    *(&p_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$2;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$3;
-    return_value_snd_pcm_hw_params_sizeof$3=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&p_params), 0, return_value_snd_pcm_hw_params_sizeof$3);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_1;
+    return_value_snd_pcm_hw_params_sizeof_1=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_2;
+    return_value___builtin_alloca_2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_1);
+    *(&p_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_2;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_3;
+    return_value_snd_pcm_hw_params_sizeof_3=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&p_params), 0, return_value_snd_pcm_hw_params_sizeof_3);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$4;
-    return_value_snd_pcm_hw_params_sizeof$4=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$5;
-    return_value___builtin_alloca$5=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$4);
-    *(&c_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$5;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$6;
-    return_value_snd_pcm_hw_params_sizeof$6=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&c_params), 0, return_value_snd_pcm_hw_params_sizeof$6);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_4;
+    return_value_snd_pcm_hw_params_sizeof_4=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_5;
+    return_value___builtin_alloca_5=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_4);
+    *(&c_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_5;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_6;
+    return_value_snd_pcm_hw_params_sizeof_6=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&c_params), 0, return_value_snd_pcm_hw_params_sizeof_6);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$7;
-    return_value_snd_pcm_hw_params_sizeof$7=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$8;
-    return_value___builtin_alloca$8=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$7);
-    *(&pt_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$8;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$9;
-    return_value_snd_pcm_hw_params_sizeof$9=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&pt_params), 0, return_value_snd_pcm_hw_params_sizeof$9);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_7;
+    return_value_snd_pcm_hw_params_sizeof_7=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_8;
+    return_value___builtin_alloca_8=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_7);
+    *(&pt_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_8;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_9;
+    return_value_snd_pcm_hw_params_sizeof_9=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&pt_params), 0, return_value_snd_pcm_hw_params_sizeof_9);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$10;
-    return_value_snd_pcm_hw_params_sizeof$10=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$11;
-    return_value___builtin_alloca$11=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$10);
-    *(&ct_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$11;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$12;
-    return_value_snd_pcm_hw_params_sizeof$12=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&ct_params), 0, return_value_snd_pcm_hw_params_sizeof$12);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_10;
+    return_value_snd_pcm_hw_params_sizeof_10=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_11;
+    return_value___builtin_alloca_11=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_10);
+    *(&ct_params) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_11;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_12;
+    return_value_snd_pcm_hw_params_sizeof_12=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&ct_params), 0, return_value_snd_pcm_hw_params_sizeof_12);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$13;
-    return_value_snd_pcm_sw_params_sizeof$13=snd_pcm_sw_params_sizeof();
-    void *return_value___builtin_alloca$14;
-    return_value___builtin_alloca$14=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof$13);
-    *(&p_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca$14;
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$15;
-    return_value_snd_pcm_sw_params_sizeof$15=snd_pcm_sw_params_sizeof();
-    memset((void *)*(&p_swparams), 0, return_value_snd_pcm_sw_params_sizeof$15);
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_13;
+    return_value_snd_pcm_sw_params_sizeof_13=snd_pcm_sw_params_sizeof();
+    void *return_value___builtin_alloca_14;
+    return_value___builtin_alloca_14=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof_13);
+    *(&p_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca_14;
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_15;
+    return_value_snd_pcm_sw_params_sizeof_15=snd_pcm_sw_params_sizeof();
+    memset((void *)*(&p_swparams), 0, return_value_snd_pcm_sw_params_sizeof_15);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$16;
-    return_value_snd_pcm_sw_params_sizeof$16=snd_pcm_sw_params_sizeof();
-    void *return_value___builtin_alloca$17;
-    return_value___builtin_alloca$17=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof$16);
-    *(&c_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca$17;
-    unsigned long int return_value_snd_pcm_sw_params_sizeof$18;
-    return_value_snd_pcm_sw_params_sizeof$18=snd_pcm_sw_params_sizeof();
-    memset((void *)*(&c_swparams), 0, return_value_snd_pcm_sw_params_sizeof$18);
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_16;
+    return_value_snd_pcm_sw_params_sizeof_16=snd_pcm_sw_params_sizeof();
+    void *return_value___builtin_alloca_17;
+    return_value___builtin_alloca_17=__builtin_alloca(return_value_snd_pcm_sw_params_sizeof_16);
+    *(&c_swparams) = (struct _snd_pcm_sw_params *)return_value___builtin_alloca_17;
+    unsigned long int return_value_snd_pcm_sw_params_sizeof_18;
+    return_value_snd_pcm_sw_params_sizeof_18=snd_pcm_sw_params_sizeof();
+    memset((void *)*(&c_swparams), 0, return_value_snd_pcm_sw_params_sizeof_18);
   }
   while((_Bool)0);
   err=setparams_stream(loop->play, pt_params);
-  const char *return_value_snd_strerror$19;
-  const char *return_value_snd_strerror$20;
-  const char *return_value_snd_strerror$21;
-  const char *return_value_snd_strerror$22;
-  const char *return_value_snd_strerror$23;
-  const char *return_value_snd_strerror$24;
-  const char *return_value_snd_strerror$25;
-  const char *return_value_snd_strerror$26;
-  const char *return_value_snd_strerror$27;
-  const char *return_value_snd_strerror$28;
-  const char *return_value_snd_strerror$29;
-  const char *return_value_snd_strerror$30;
-  const char *return_value_snd_strerror$31;
-  const char *return_value_snd_strerror$32;
-  const char *return_value_snd_strerror$33;
-  const char *return_value_snd_strerror$34;
+  const char *return_value_snd_strerror_19;
+  const char *return_value_snd_strerror_20;
+  const char *return_value_snd_strerror_21;
+  const char *return_value_snd_strerror_22;
+  const char *return_value_snd_strerror_23;
+  const char *return_value_snd_strerror_24;
+  const char *return_value_snd_strerror_25;
+  const char *return_value_snd_strerror_26;
+  const char *return_value_snd_strerror_27;
+  const char *return_value_snd_strerror_28;
+  const char *return_value_snd_strerror_29;
+  const char *return_value_snd_strerror_30;
+  const char *return_value_snd_strerror_31;
+  const char *return_value_snd_strerror_32;
+  const char *return_value_snd_strerror_33;
+  const char *return_value_snd_strerror_34;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_snd_strerror$19=snd_strerror(err);
-        syslog(2, "Unable to set parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror$19);
+        return_value_snd_strerror_19=snd_strerror(err);
+        syslog(2, "Unable to set parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror_19);
       }
 
       else
       {
-        return_value_snd_strerror$20=snd_strerror(err);
-        fprintf(stderr, "Unable to set parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror$20);
+        return_value_snd_strerror_20=snd_strerror(err);
+        fprintf(stderr, "Unable to set parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror_20);
       }
     while((_Bool)0);
     return err;
@@ -6053,14 +6053,14 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$21=snd_strerror(err);
-          syslog(2, "Unable to set parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror$21);
+          return_value_snd_strerror_21=snd_strerror(err);
+          syslog(2, "Unable to set parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror_21);
         }
 
         else
         {
-          return_value_snd_strerror$22=snd_strerror(err);
-          fprintf(stderr, "Unable to set parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror$22);
+          return_value_snd_strerror_22=snd_strerror(err);
+          fprintf(stderr, "Unable to set parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror_22);
         }
       while((_Bool)0);
       return err;
@@ -6074,14 +6074,14 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
         do
           if(!(use_syslog == 0))
           {
-            return_value_snd_strerror$23=snd_strerror(err);
-            syslog(2, "Unable to set buffer parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror$23);
+            return_value_snd_strerror_23=snd_strerror(err);
+            syslog(2, "Unable to set buffer parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror_23);
           }
 
           else
           {
-            return_value_snd_strerror$24=snd_strerror(err);
-            fprintf(stderr, "Unable to set buffer parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror$24);
+            return_value_snd_strerror_24=snd_strerror(err);
+            fprintf(stderr, "Unable to set buffer parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror_24);
           }
         while((_Bool)0);
         return err;
@@ -6095,14 +6095,14 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
           do
             if(!(use_syslog == 0))
             {
-              return_value_snd_strerror$25=snd_strerror(err);
-              syslog(2, "Unable to set buffer parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror$25);
+              return_value_snd_strerror_25=snd_strerror(err);
+              syslog(2, "Unable to set buffer parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror_25);
             }
 
             else
             {
-              return_value_snd_strerror$26=snd_strerror(err);
-              fprintf(stderr, "Unable to set buffer parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror$26);
+              return_value_snd_strerror_26=snd_strerror(err);
+              fprintf(stderr, "Unable to set buffer parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror_26);
             }
           while((_Bool)0);
           return err;
@@ -6116,14 +6116,14 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
             do
               if(!(use_syslog == 0))
               {
-                return_value_snd_strerror$27=snd_strerror(err);
-                syslog(2, "Unable to set sw parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror$27);
+                return_value_snd_strerror_27=snd_strerror(err);
+                syslog(2, "Unable to set sw parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror_27);
               }
 
               else
               {
-                return_value_snd_strerror$28=snd_strerror(err);
-                fprintf(stderr, "Unable to set sw parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror$28);
+                return_value_snd_strerror_28=snd_strerror(err);
+                fprintf(stderr, "Unable to set sw parameters for %s stream: %s\n", loop->play->id, return_value_snd_strerror_28);
               }
             while((_Bool)0);
             return err;
@@ -6137,14 +6137,14 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
               do
                 if(!(use_syslog == 0))
                 {
-                  return_value_snd_strerror$29=snd_strerror(err);
-                  syslog(2, "Unable to set sw parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror$29);
+                  return_value_snd_strerror_29=snd_strerror(err);
+                  syslog(2, "Unable to set sw parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror_29);
                 }
 
                 else
                 {
-                  return_value_snd_strerror$30=snd_strerror(err);
-                  fprintf(stderr, "Unable to set sw parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror$30);
+                  return_value_snd_strerror_30=snd_strerror(err);
+                  fprintf(stderr, "Unable to set sw parameters for %s stream: %s\n", loop->capt->id, return_value_snd_strerror_30);
                 }
               while((_Bool)0);
               return err;
@@ -6158,14 +6158,14 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
                 do
                   if(!(use_syslog == 0))
                   {
-                    return_value_snd_strerror$31=snd_strerror(err);
-                    syslog(2, "Prepare %s error: %s\n", loop->play->id, return_value_snd_strerror$31);
+                    return_value_snd_strerror_31=snd_strerror(err);
+                    syslog(2, "Prepare %s error: %s\n", loop->play->id, return_value_snd_strerror_31);
                   }
 
                   else
                   {
-                    return_value_snd_strerror$32=snd_strerror(err);
-                    fprintf(stderr, "Prepare %s error: %s\n", loop->play->id, return_value_snd_strerror$32);
+                    return_value_snd_strerror_32=snd_strerror(err);
+                    fprintf(stderr, "Prepare %s error: %s\n", loop->play->id, return_value_snd_strerror_32);
                   }
                 while((_Bool)0);
                 return err;
@@ -6181,14 +6181,14 @@ static signed int setparams(struct loopback *loop, unsigned long int bufsize)
                   do
                     if(!(use_syslog == 0))
                     {
-                      return_value_snd_strerror$33=snd_strerror(err);
-                      syslog(2, "Prepare %s error: %s\n", loop->capt->id, return_value_snd_strerror$33);
+                      return_value_snd_strerror_33=snd_strerror(err);
+                      syslog(2, "Prepare %s error: %s\n", loop->capt->id, return_value_snd_strerror_33);
                     }
 
                     else
                     {
-                      return_value_snd_strerror$34=snd_strerror(err);
-                      fprintf(stderr, "Prepare %s error: %s\n", loop->capt->id, return_value_snd_strerror$34);
+                      return_value_snd_strerror_34=snd_strerror(err);
+                      fprintf(stderr, "Prepare %s error: %s\n", loop->capt->id, return_value_snd_strerror_34);
                     }
                   while((_Bool)0);
                   return err;
@@ -6270,21 +6270,21 @@ __set_it:
   snd_pcm_hw_params_copy(params, tparams);
   periodsize = bufsize * (unsigned long int)8;
   err=snd_pcm_hw_params_set_buffer_size_near(handle, params, &periodsize);
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_snd_strerror$1=snd_strerror(err);
-        syslog(2, "Unable to set buffer size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror$1);
+        return_value_snd_strerror_1=snd_strerror(err);
+        syslog(2, "Unable to set buffer size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror_1);
       }
 
       else
       {
-        return_value_snd_strerror$2=snd_strerror(err);
-        fprintf(stderr, "Unable to set buffer size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror$2);
+        return_value_snd_strerror_2=snd_strerror(err);
+        fprintf(stderr, "Unable to set buffer size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror_2);
       }
     while((_Bool)0);
     goto __again;
@@ -6300,21 +6300,21 @@ __set_it:
   else
     periodsize = periodsize / (unsigned long int)8;
   err=snd_pcm_hw_params_set_period_size_near(handle, params, &periodsize, ((signed int *)NULL));
-  const char *return_value_snd_strerror$3;
-  const char *return_value_snd_strerror$4;
+  const char *return_value_snd_strerror_3;
+  const char *return_value_snd_strerror_4;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_snd_strerror$3=snd_strerror(err);
-        syslog(2, "Unable to set period size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror$3);
+        return_value_snd_strerror_3=snd_strerror(err);
+        syslog(2, "Unable to set period size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror_3);
       }
 
       else
       {
-        return_value_snd_strerror$4=snd_strerror(err);
-        fprintf(stderr, "Unable to set period size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror$4);
+        return_value_snd_strerror_4=snd_strerror(err);
+        fprintf(stderr, "Unable to set period size %li for %s: %s\n", periodsize, lhandle->id, return_value_snd_strerror_4);
       }
     while((_Bool)0);
     goto __again;
@@ -6346,29 +6346,29 @@ static signed int setparams_set(struct loopback_handle *lhandle, struct _snd_pcm
   unsigned long int period_size;
   unsigned long int buffer_size;
   err=snd_pcm_hw_params(handle, params);
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
-  const char *return_value_snd_strerror$3;
-  const char *return_value_snd_strerror$4;
-  const char *return_value_snd_strerror$5;
-  const char *return_value_snd_strerror$6;
-  const char *return_value_snd_strerror$7;
-  const char *return_value_snd_strerror$8;
-  const char *return_value_snd_strerror$9;
-  const char *return_value_snd_strerror$10;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
+  const char *return_value_snd_strerror_3;
+  const char *return_value_snd_strerror_4;
+  const char *return_value_snd_strerror_5;
+  const char *return_value_snd_strerror_6;
+  const char *return_value_snd_strerror_7;
+  const char *return_value_snd_strerror_8;
+  const char *return_value_snd_strerror_9;
+  const char *return_value_snd_strerror_10;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_snd_strerror$1=snd_strerror(err);
-        syslog(2, "Unable to set hw params for %s: %s\n", lhandle->id, return_value_snd_strerror$1);
+        return_value_snd_strerror_1=snd_strerror(err);
+        syslog(2, "Unable to set hw params for %s: %s\n", lhandle->id, return_value_snd_strerror_1);
       }
 
       else
       {
-        return_value_snd_strerror$2=snd_strerror(err);
-        fprintf(stderr, "Unable to set hw params for %s: %s\n", lhandle->id, return_value_snd_strerror$2);
+        return_value_snd_strerror_2=snd_strerror(err);
+        fprintf(stderr, "Unable to set hw params for %s: %s\n", lhandle->id, return_value_snd_strerror_2);
       }
     while((_Bool)0);
     return err;
@@ -6382,14 +6382,14 @@ static signed int setparams_set(struct loopback_handle *lhandle, struct _snd_pcm
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$3=snd_strerror(err);
-          syslog(2, "Unable to determine current swparams for %s: %s\n", lhandle->id, return_value_snd_strerror$3);
+          return_value_snd_strerror_3=snd_strerror(err);
+          syslog(2, "Unable to determine current swparams for %s: %s\n", lhandle->id, return_value_snd_strerror_3);
         }
 
         else
         {
-          return_value_snd_strerror$4=snd_strerror(err);
-          fprintf(stderr, "Unable to determine current swparams for %s: %s\n", lhandle->id, return_value_snd_strerror$4);
+          return_value_snd_strerror_4=snd_strerror(err);
+          fprintf(stderr, "Unable to determine current swparams for %s: %s\n", lhandle->id, return_value_snd_strerror_4);
         }
       while((_Bool)0);
       return err;
@@ -6403,14 +6403,14 @@ static signed int setparams_set(struct loopback_handle *lhandle, struct _snd_pcm
         do
           if(!(use_syslog == 0))
           {
-            return_value_snd_strerror$5=snd_strerror(err);
-            syslog(2, "Unable to set start threshold mode for %s: %s\n", lhandle->id, return_value_snd_strerror$5);
+            return_value_snd_strerror_5=snd_strerror(err);
+            syslog(2, "Unable to set start threshold mode for %s: %s\n", lhandle->id, return_value_snd_strerror_5);
           }
 
           else
           {
-            return_value_snd_strerror$6=snd_strerror(err);
-            fprintf(stderr, "Unable to set start threshold mode for %s: %s\n", lhandle->id, return_value_snd_strerror$6);
+            return_value_snd_strerror_6=snd_strerror(err);
+            fprintf(stderr, "Unable to set start threshold mode for %s: %s\n", lhandle->id, return_value_snd_strerror_6);
           }
         while((_Bool)0);
         return err;
@@ -6460,14 +6460,14 @@ static signed int setparams_set(struct loopback_handle *lhandle, struct _snd_pcm
           do
             if(!(use_syslog == 0))
             {
-              return_value_snd_strerror$7=snd_strerror(err);
-              syslog(2, "Unable to set avail min for %s: %s\n", lhandle->id, return_value_snd_strerror$7);
+              return_value_snd_strerror_7=snd_strerror(err);
+              syslog(2, "Unable to set avail min for %s: %s\n", lhandle->id, return_value_snd_strerror_7);
             }
 
             else
             {
-              return_value_snd_strerror$8=snd_strerror(err);
-              fprintf(stderr, "Unable to set avail min for %s: %s\n", lhandle->id, return_value_snd_strerror$8);
+              return_value_snd_strerror_8=snd_strerror(err);
+              fprintf(stderr, "Unable to set avail min for %s: %s\n", lhandle->id, return_value_snd_strerror_8);
             }
           while((_Bool)0);
           return err;
@@ -6482,14 +6482,14 @@ static signed int setparams_set(struct loopback_handle *lhandle, struct _snd_pcm
             do
               if(!(use_syslog == 0))
               {
-                return_value_snd_strerror$9=snd_strerror(err);
-                syslog(2, "Unable to set sw params for %s: %s\n", lhandle->id, return_value_snd_strerror$9);
+                return_value_snd_strerror_9=snd_strerror(err);
+                syslog(2, "Unable to set sw params for %s: %s\n", lhandle->id, return_value_snd_strerror_9);
               }
 
               else
               {
-                return_value_snd_strerror$10=snd_strerror(err);
-                fprintf(stderr, "Unable to set sw params for %s: %s\n", lhandle->id, return_value_snd_strerror$10);
+                return_value_snd_strerror_10=snd_strerror(err);
+                fprintf(stderr, "Unable to set sw params for %s: %s\n", lhandle->id, return_value_snd_strerror_10);
               }
             while((_Bool)0);
             return err;
@@ -6511,31 +6511,31 @@ static signed int setparams_stream(struct loopback_handle *lhandle, struct _snd_
   signed int err;
   unsigned int rrate;
   err=snd_pcm_hw_params_any(handle, params);
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
-  const char *return_value_snd_strerror$3;
-  const char *return_value_snd_strerror$4;
-  const char *return_value_snd_strerror$5;
-  const char *return_value_snd_strerror$6;
-  const char *return_value_snd_strerror$7;
-  const char *return_value_snd_strerror$8;
-  const char *return_value_snd_strerror$9;
-  const char *return_value_snd_strerror$10;
-  const char *return_value_snd_strerror$11;
-  const char *return_value_snd_strerror$12;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
+  const char *return_value_snd_strerror_3;
+  const char *return_value_snd_strerror_4;
+  const char *return_value_snd_strerror_5;
+  const char *return_value_snd_strerror_6;
+  const char *return_value_snd_strerror_7;
+  const char *return_value_snd_strerror_8;
+  const char *return_value_snd_strerror_9;
+  const char *return_value_snd_strerror_10;
+  const char *return_value_snd_strerror_11;
+  const char *return_value_snd_strerror_12;
   if(!(err >= 0))
   {
     do
       if(!(use_syslog == 0))
       {
-        return_value_snd_strerror$1=snd_strerror(err);
-        syslog(2, "Broken configuration for %s PCM: no configurations available: %s\n", lhandle->id, return_value_snd_strerror$1);
+        return_value_snd_strerror_1=snd_strerror(err);
+        syslog(2, "Broken configuration for %s PCM: no configurations available: %s\n", lhandle->id, return_value_snd_strerror_1);
       }
 
       else
       {
-        return_value_snd_strerror$2=snd_strerror(err);
-        fprintf(stderr, "Broken configuration for %s PCM: no configurations available: %s\n", lhandle->id, return_value_snd_strerror$2);
+        return_value_snd_strerror_2=snd_strerror(err);
+        fprintf(stderr, "Broken configuration for %s PCM: no configurations available: %s\n", lhandle->id, return_value_snd_strerror_2);
       }
     while((_Bool)0);
     return err;
@@ -6549,14 +6549,14 @@ static signed int setparams_stream(struct loopback_handle *lhandle, struct _snd_
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$3=snd_strerror(err);
-          syslog(2, "Resample setup failed for %s (val %i): %s\n", lhandle->id, lhandle->resample, return_value_snd_strerror$3);
+          return_value_snd_strerror_3=snd_strerror(err);
+          syslog(2, "Resample setup failed for %s (val %i): %s\n", lhandle->id, lhandle->resample, return_value_snd_strerror_3);
         }
 
         else
         {
-          return_value_snd_strerror$4=snd_strerror(err);
-          fprintf(stderr, "Resample setup failed for %s (val %i): %s\n", lhandle->id, lhandle->resample, return_value_snd_strerror$4);
+          return_value_snd_strerror_4=snd_strerror(err);
+          fprintf(stderr, "Resample setup failed for %s (val %i): %s\n", lhandle->id, lhandle->resample, return_value_snd_strerror_4);
         }
       while((_Bool)0);
       return err;
@@ -6570,14 +6570,14 @@ static signed int setparams_stream(struct loopback_handle *lhandle, struct _snd_
         do
           if(!(use_syslog == 0))
           {
-            return_value_snd_strerror$5=snd_strerror(err);
-            syslog(2, "Access type not available for %s: %s\n", lhandle->id, return_value_snd_strerror$5);
+            return_value_snd_strerror_5=snd_strerror(err);
+            syslog(2, "Access type not available for %s: %s\n", lhandle->id, return_value_snd_strerror_5);
           }
 
           else
           {
-            return_value_snd_strerror$6=snd_strerror(err);
-            fprintf(stderr, "Access type not available for %s: %s\n", lhandle->id, return_value_snd_strerror$6);
+            return_value_snd_strerror_6=snd_strerror(err);
+            fprintf(stderr, "Access type not available for %s: %s\n", lhandle->id, return_value_snd_strerror_6);
           }
         while((_Bool)0);
         return err;
@@ -6591,14 +6591,14 @@ static signed int setparams_stream(struct loopback_handle *lhandle, struct _snd_
           do
             if(!(use_syslog == 0))
             {
-              return_value_snd_strerror$7=snd_strerror(err);
-              syslog(2, "Sample format not available for %s: %s\n", lhandle->id, return_value_snd_strerror$7);
+              return_value_snd_strerror_7=snd_strerror(err);
+              syslog(2, "Sample format not available for %s: %s\n", lhandle->id, return_value_snd_strerror_7);
             }
 
             else
             {
-              return_value_snd_strerror$8=snd_strerror(err);
-              fprintf(stderr, "Sample format not available for %s: %s\n", lhandle->id, return_value_snd_strerror$8);
+              return_value_snd_strerror_8=snd_strerror(err);
+              fprintf(stderr, "Sample format not available for %s: %s\n", lhandle->id, return_value_snd_strerror_8);
             }
           while((_Bool)0);
           return err;
@@ -6612,14 +6612,14 @@ static signed int setparams_stream(struct loopback_handle *lhandle, struct _snd_
             do
               if(!(use_syslog == 0))
               {
-                return_value_snd_strerror$9=snd_strerror(err);
-                syslog(2, "Channels count (%i) not available for %s: %s\n", lhandle->channels, lhandle->id, return_value_snd_strerror$9);
+                return_value_snd_strerror_9=snd_strerror(err);
+                syslog(2, "Channels count (%i) not available for %s: %s\n", lhandle->channels, lhandle->id, return_value_snd_strerror_9);
               }
 
               else
               {
-                return_value_snd_strerror$10=snd_strerror(err);
-                fprintf(stderr, "Channels count (%i) not available for %s: %s\n", lhandle->channels, lhandle->id, return_value_snd_strerror$10);
+                return_value_snd_strerror_10=snd_strerror(err);
+                fprintf(stderr, "Channels count (%i) not available for %s: %s\n", lhandle->channels, lhandle->id, return_value_snd_strerror_10);
               }
             while((_Bool)0);
             return err;
@@ -6634,14 +6634,14 @@ static signed int setparams_stream(struct loopback_handle *lhandle, struct _snd_
               do
                 if(!(use_syslog == 0))
                 {
-                  return_value_snd_strerror$11=snd_strerror(err);
-                  syslog(2, "Rate %iHz not available for %s: %s\n", lhandle->rate_req, lhandle->id, return_value_snd_strerror$11);
+                  return_value_snd_strerror_11=snd_strerror(err);
+                  syslog(2, "Rate %iHz not available for %s: %s\n", lhandle->rate_req, lhandle->id, return_value_snd_strerror_11);
                 }
 
                 else
                 {
-                  return_value_snd_strerror$12=snd_strerror(err);
-                  fprintf(stderr, "Rate %iHz not available for %s: %s\n", lhandle->rate_req, lhandle->id, return_value_snd_strerror$12);
+                  return_value_snd_strerror_12=snd_strerror(err);
+                  fprintf(stderr, "Rate %iHz not available for %s: %s\n", lhandle->rate_req, lhandle->id, return_value_snd_strerror_12);
                 }
               while((_Bool)0);
               return err;
@@ -6688,9 +6688,9 @@ static signed int setparams_stream(struct loopback_handle *lhandle, struct _snd_
 static void setscheduler(void)
 {
   struct sched_param sched_param;
-  signed int return_value_sched_getparam$1;
-  return_value_sched_getparam$1=sched_getparam(0, &sched_param);
-  if(!(return_value_sched_getparam$1 >= 0))
+  signed int return_value_sched_getparam_1;
+  return_value_sched_getparam_1=sched_getparam(0, &sched_param);
+  if(!(return_value_sched_getparam_1 >= 0))
     do
       if(!(use_syslog == 0))
         syslog(4, "Scheduler getparam failed.\n");
@@ -6702,9 +6702,9 @@ static void setscheduler(void)
   else
   {
     sched_param.__sched_priority=sched_get_priority_max(2);
-    signed int return_value_sched_setscheduler$2;
-    return_value_sched_setscheduler$2=sched_setscheduler(0, 2, &sched_param);
-    if(return_value_sched_setscheduler$2 == 0)
+    signed int return_value_sched_setscheduler_2;
+    return_value_sched_setscheduler_2=sched_setscheduler(0, 2, &sched_param);
+    if(return_value_sched_setscheduler_2 == 0)
     {
       if(!(verbose == 0))
         do
@@ -6740,11 +6740,11 @@ static void show_handle(struct loopback_handle *lhandle, const char *id)
   snd_output_printf(loop->state, "    card_number = %i\n", lhandle->card_number);
   if(!(loop->running == 0u))
   {
-    const char *return_value_snd_pcm_access_name$1;
-    return_value_snd_pcm_access_name$1=snd_pcm_access_name(lhandle->access);
-    const char *return_value_snd_pcm_format_name$2;
-    return_value_snd_pcm_format_name$2=snd_pcm_format_name(lhandle->format);
-    snd_output_printf(loop->state, "    access = %s, format = %s, rate = %u, channels = %u\n", return_value_snd_pcm_access_name$1, return_value_snd_pcm_format_name$2, lhandle->rate, lhandle->channels);
+    const char *return_value_snd_pcm_access_name_1;
+    return_value_snd_pcm_access_name_1=snd_pcm_access_name(lhandle->access);
+    const char *return_value_snd_pcm_format_name_2;
+    return_value_snd_pcm_format_name_2=snd_pcm_format_name(lhandle->format);
+    snd_output_printf(loop->state, "    access = %s, format = %s, rate = %u, channels = %u\n", return_value_snd_pcm_access_name_1, return_value_snd_pcm_format_name_2, lhandle->rate, lhandle->channels);
     snd_output_printf(loop->state, "    buffer_size = %u, period_size = %u, avail_min = %li\n", lhandle->buffer_size, lhandle->period_size, lhandle->avail_min);
     snd_output_printf(loop->state, "    xrun_pending = %i\n", lhandle->xrun_pending);
     snd_output_printf(loop->state, "    buf_size = %li, buf_pos = %li, buf_count = %li, buf_over = %li\n", lhandle->buf_size, lhandle->buf_pos, lhandle->buf_count, lhandle->buf_over);
@@ -6785,9 +6785,9 @@ static void signal_handler_state(signed int sig)
   struct loopback_thread *thread;
   signed int i;
   signed int j;
-  signed int return_value_pthread_equal$1;
-  return_value_pthread_equal$1=pthread_equal(main_job, self);
-  if(!(return_value_pthread_equal$1 == 0))
+  signed int return_value_pthread_equal_1;
+  return_value_pthread_equal_1=pthread_equal(main_job, self);
+  if(!(return_value_pthread_equal_1 == 0))
     send_to_all(10);
 
   i = 0;
@@ -6819,11 +6819,11 @@ static signed int suspend(struct loopback_handle *lhandle)
     usleep((unsigned int)1);
   }
   while((_Bool)1);
-  signed int return_value_xrun$1;
+  signed int return_value_xrun_1;
   if(!(err >= 0))
   {
-    return_value_xrun$1=xrun(lhandle);
-    return return_value_xrun$1;
+    return_value_xrun_1=xrun(lhandle);
+    return return_value_xrun_1;
   }
 
   else
@@ -6896,9 +6896,9 @@ static void thread_job1(void *_data)
   if(wake >= 1000000)
     wake = -1;
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)pfds_count, sizeof(struct pollfd) /*8ul*/ );
-  pfds = (struct pollfd *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)pfds_count, sizeof(struct pollfd) /*8ul*/ );
+  pfds = (struct pollfd *)return_value_calloc_1;
   if(pfds == ((struct pollfd *)NULL) || !(pfds_count >= 1))
   {
     do
@@ -6911,9 +6911,9 @@ static void thread_job1(void *_data)
     my_exit(thread, 1);
   }
 
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$4;
-  char *return_value_strerror$5;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_4;
+  char *return_value_strerror_5;
   while(quit == 0)
   {
     struct timeval tv1;
@@ -6943,16 +6943,16 @@ static void thread_job1(void *_data)
     err=poll(pfds, (unsigned long int)j, wake);
     if(!(err >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      err = -(*return_value___errno_location$2);
+      return_value___errno_location_2=__errno_location();
+      err = -(*return_value___errno_location_2);
     }
 
     if(verbose >= 11)
     {
       gettimeofday(&tv2, (struct timezone *)(void *)0);
-      signed long int return_value_timediff$3;
-      return_value_timediff$3=timediff(tv2, tv1);
-      snd_output_printf(output, "pool took %lius\n", return_value_timediff$3);
+      signed long int return_value_timediff_3;
+      return_value_timediff_3=timediff(tv2, tv1);
+      snd_output_printf(output, "pool took %lius\n", return_value_timediff_3);
     }
 
     if(!(err >= 0))
@@ -6963,14 +6963,14 @@ static void thread_job1(void *_data)
       do
         if(!(use_syslog == 0))
         {
-          return_value_strerror$4=strerror(-err);
-          syslog(2, "Poll failed: %s\n", return_value_strerror$4);
+          return_value_strerror_4=strerror(-err);
+          syslog(2, "Poll failed: %s\n", return_value_strerror_4);
         }
 
         else
         {
-          return_value_strerror$5=strerror(-err);
-          fprintf(stderr, "Poll failed: %s\n", return_value_strerror$5);
+          return_value_strerror_5=strerror(-err);
+          fprintf(stderr, "Poll failed: %s\n", return_value_strerror_5);
         }
       while((_Bool)0);
       my_exit(thread, 1);
@@ -7028,21 +7028,21 @@ static signed long int timediff(struct timeval t1, struct timeval t2)
   return t1.tv_sec * (signed long int)1000000 + l;
 }
 
-// timediff$link1
+// timediff_link1
 // file pcmjob.c line 354
-static signed long int timediff$link1(struct timeval t1$link1, struct timeval t2$link1)
+static signed long int timediff_link1(struct timeval t1_link1, struct timeval t2_link1)
 {
-  signed long int l$link1;
-  t1$link1.tv_sec = t1$link1.tv_sec - t2$link1.tv_sec;
-  if(!(t1$link1.tv_usec >= t2$link1.tv_usec))
+  signed long int l_link1;
+  t1_link1.tv_sec = t1_link1.tv_sec - t2_link1.tv_sec;
+  if(!(t1_link1.tv_usec >= t2_link1.tv_usec))
   {
-    l$link1 = ((t1$link1.tv_usec + (signed long int)1000000) - t2$link1.tv_usec) % (signed long int)1000000;
-    t1$link1.tv_sec = t1$link1.tv_sec - 1l;
+    l_link1 = ((t1_link1.tv_usec + (signed long int)1000000) - t2_link1.tv_usec) % (signed long int)1000000;
+    t1_link1.tv_sec = t1_link1.tv_sec - 1l;
   }
 
   else
-    l$link1 = t1$link1.tv_usec - t2$link1.tv_usec;
-  return t1$link1.tv_sec * (signed long int)1000000 + l$link1;
+    l_link1 = t1_link1.tv_usec - t2_link1.tv_usec;
+  return t1_link1.tv_sec * (signed long int)1000000 + l_link1;
 }
 
 // update_pitch
@@ -7229,13 +7229,13 @@ static void xrun_profile0(struct loopback *loop)
 {
   signed long int pdelay;
   signed long int cdelay;
-  signed int return_value_snd_pcm_delay$2;
-  return_value_snd_pcm_delay$2=snd_pcm_delay(loop->play->handle, &pdelay);
-  signed int return_value_snd_pcm_delay$1;
-  if(return_value_snd_pcm_delay$2 >= 0)
+  signed int return_value_snd_pcm_delay_2;
+  return_value_snd_pcm_delay_2=snd_pcm_delay(loop->play->handle, &pdelay);
+  signed int return_value_snd_pcm_delay_1;
+  if(return_value_snd_pcm_delay_2 >= 0)
   {
-    return_value_snd_pcm_delay$1=snd_pcm_delay(loop->capt->handle, &cdelay);
-    if(return_value_snd_pcm_delay$1 >= 0)
+    return_value_snd_pcm_delay_1=snd_pcm_delay(loop->capt->handle, &cdelay);
+    if(return_value_snd_pcm_delay_1 >= 0)
     {
       getcurtimestamp(&loop->xrun_last_update);
       loop->xrun_last_pdelay = pdelay;
@@ -7278,18 +7278,18 @@ static void xrun_stats0(struct loopback *loop)
   double sincejob;
   expected = ((double)loop->latency / (double)loop->play->rate_req) * (double)1000;
   getcurtimestamp(&t);
-  signed long int return_value_timediff$1;
-  return_value_timediff$1=timediff$link1(t, loop->xrun_last_update);
-  last = (double)return_value_timediff$1 / (double)1000;
-  signed long int return_value_timediff$2;
-  return_value_timediff$2=timediff$link1(t, loop->xrun_last_wake);
-  wake = (double)return_value_timediff$2 / (double)1000;
-  signed long int return_value_timediff$3;
-  return_value_timediff$3=timediff$link1(t, loop->xrun_last_check);
-  check = (double)return_value_timediff$3 / (double)1000;
-  signed long int return_value_timediff$4;
-  return_value_timediff$4=timediff$link1(t, loop->tstamp_start);
-  sincejob = (double)return_value_timediff$4 / (double)1000;
+  signed long int return_value_timediff_1;
+  return_value_timediff_1=timediff_link1(t, loop->xrun_last_update);
+  last = (double)return_value_timediff_1 / (double)1000;
+  signed long int return_value_timediff_2;
+  return_value_timediff_2=timediff_link1(t, loop->xrun_last_wake);
+  wake = (double)return_value_timediff_2 / (double)1000;
+  signed long int return_value_timediff_3;
+  return_value_timediff_3=timediff_link1(t, loop->xrun_last_check);
+  check = (double)return_value_timediff_3 / (double)1000;
+  signed long int return_value_timediff_4;
+  return_value_timediff_4=timediff_link1(t, loop->tstamp_start);
+  sincejob = (double)return_value_timediff_4 / (double)1000;
   if(!(loop->xrun_last_pdelay == -10000000l))
     queued = ((double)loop->xrun_last_pdelay / (double)loop->play->rate) * (double)1000;
 
@@ -7369,14 +7369,14 @@ static signed int xrun_sync(struct loopback *loop)
 
 __again:
   ;
-  const char *return_value_snd_strerror$1;
-  const char *return_value_snd_strerror$2;
-  const char *return_value_snd_strerror$3;
-  const char *return_value_snd_strerror$4;
-  const char *return_value_snd_strerror$6;
-  const char *return_value_snd_strerror$7;
-  const char *return_value_snd_strerror$8;
-  const char *return_value_snd_strerror$9;
+  const char *return_value_snd_strerror_1;
+  const char *return_value_snd_strerror_2;
+  const char *return_value_snd_strerror_3;
+  const char *return_value_snd_strerror_4;
+  const char *return_value_snd_strerror_6;
+  const char *return_value_snd_strerror_7;
+  const char *return_value_snd_strerror_8;
+  const char *return_value_snd_strerror_9;
   while((_Bool)1)
   {
     if(verbose >= 6)
@@ -7394,14 +7394,14 @@ __again:
         do
           if(!(use_syslog == 0))
           {
-            return_value_snd_strerror$1=snd_strerror(err);
-            syslog(2, "%s prepare failed: %s\n", capt->id, return_value_snd_strerror$1);
+            return_value_snd_strerror_1=snd_strerror(err);
+            syslog(2, "%s prepare failed: %s\n", capt->id, return_value_snd_strerror_1);
           }
 
           else
           {
-            return_value_snd_strerror$2=snd_strerror(err);
-            fprintf(stderr, "%s prepare failed: %s\n", capt->id, return_value_snd_strerror$2);
+            return_value_snd_strerror_2=snd_strerror(err);
+            fprintf(stderr, "%s prepare failed: %s\n", capt->id, return_value_snd_strerror_2);
           }
         while((_Bool)0);
         return err;
@@ -7413,14 +7413,14 @@ __again:
         do
           if(!(use_syslog == 0))
           {
-            return_value_snd_strerror$3=snd_strerror(err);
-            syslog(2, "%s start failed: %s\n", capt->id, return_value_snd_strerror$3);
+            return_value_snd_strerror_3=snd_strerror(err);
+            syslog(2, "%s start failed: %s\n", capt->id, return_value_snd_strerror_3);
           }
 
           else
           {
-            return_value_snd_strerror$4=snd_strerror(err);
-            fprintf(stderr, "%s start failed: %s\n", capt->id, return_value_snd_strerror$4);
+            return_value_snd_strerror_4=snd_strerror(err);
+            fprintf(stderr, "%s start failed: %s\n", capt->id, return_value_snd_strerror_4);
           }
         while((_Bool)0);
         return err;
@@ -7430,9 +7430,9 @@ __again:
 
     else
     {
-      signed int return_value_readit$5;
-      return_value_readit$5=readit(capt);
-      diff = (signed long int)return_value_readit$5;
+      signed int return_value_readit_5;
+      return_value_readit_5=readit(capt);
+      diff = (signed long int)return_value_readit_5;
       buf_add(loop, (unsigned long int)diff);
       if(capt->xrun_pending != 0u)
         goto __pagain;
@@ -7459,14 +7459,14 @@ __again:
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$6=snd_strerror(err);
-          syslog(2, "%s capture delay failed: %s\n", capt->id, return_value_snd_strerror$6);
+          return_value_snd_strerror_6=snd_strerror(err);
+          syslog(2, "%s capture delay failed: %s\n", capt->id, return_value_snd_strerror_6);
         }
 
         else
         {
-          return_value_snd_strerror$7=snd_strerror(err);
-          fprintf(stderr, "%s capture delay failed: %s\n", capt->id, return_value_snd_strerror$7);
+          return_value_snd_strerror_7=snd_strerror(err);
+          fprintf(stderr, "%s capture delay failed: %s\n", capt->id, return_value_snd_strerror_7);
         }
       while((_Bool)0);
       return err;
@@ -7496,14 +7496,14 @@ __again:
           do
             if(!(use_syslog == 0))
             {
-              return_value_snd_strerror$8=snd_strerror(err);
-              syslog(2, "%s playback delay failed: %s\n", play->id, return_value_snd_strerror$8);
+              return_value_snd_strerror_8=snd_strerror(err);
+              syslog(2, "%s playback delay failed: %s\n", play->id, return_value_snd_strerror_8);
             }
 
             else
             {
-              return_value_snd_strerror$9=snd_strerror(err);
-              fprintf(stderr, "%s playback delay failed: %s\n", play->id, return_value_snd_strerror$9);
+              return_value_snd_strerror_9=snd_strerror(err);
+              fprintf(stderr, "%s playback delay failed: %s\n", play->id, return_value_snd_strerror_9);
             }
           while((_Bool)0);
           return err;
@@ -7582,9 +7582,9 @@ __again:
     if(verbose >= 7)
       snd_output_printf(loop->output, "sync: removing %li captured samples, delay1=%li\n", (signed long int)diff, (signed long int)delay1);
 
-    signed long int return_value_remove_samples$10;
-    return_value_remove_samples$10=remove_samples(loop, 1, diff);
-    diff = diff - return_value_remove_samples$10;
+    signed long int return_value_remove_samples_10;
+    return_value_remove_samples_10=remove_samples(loop, 1, diff);
+    diff = diff - return_value_remove_samples_10;
     cdelay = cdelay - diff;
     cdelay1 = (signed long int)((double)cdelay * capt->pitch);
     delay1 = cdelay1 + pdelay1;
@@ -7593,10 +7593,10 @@ __again:
 
   }
 
-  const char *return_value_snd_strerror$11;
-  const char *return_value_snd_strerror$12;
-  const char *return_value_snd_strerror$14;
-  const char *return_value_snd_strerror$15;
+  const char *return_value_snd_strerror_11;
+  const char *return_value_snd_strerror_12;
+  const char *return_value_snd_strerror_14;
+  const char *return_value_snd_strerror_15;
   if(!(play->xrun_pending == 0u))
   {
     play->xrun_pending = (unsigned int)0;
@@ -7629,22 +7629,22 @@ __again:
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$11=snd_strerror(err);
-          syslog(2, "%s prepare failed: %s\n", play->id, return_value_snd_strerror$11);
+          return_value_snd_strerror_11=snd_strerror(err);
+          syslog(2, "%s prepare failed: %s\n", play->id, return_value_snd_strerror_11);
         }
 
         else
         {
-          return_value_snd_strerror$12=snd_strerror(err);
-          fprintf(stderr, "%s prepare failed: %s\n", play->id, return_value_snd_strerror$12);
+          return_value_snd_strerror_12=snd_strerror(err);
+          fprintf(stderr, "%s prepare failed: %s\n", play->id, return_value_snd_strerror_12);
         }
       while((_Bool)0);
       return err;
     }
 
-    signed int return_value_writeit$13;
-    return_value_writeit$13=writeit(play);
-    delay1 = (signed long int)return_value_writeit$13;
+    signed int return_value_writeit_13;
+    return_value_writeit_13=writeit(play);
+    delay1 = (signed long int)return_value_writeit_13;
     if(verbose >= 7)
       snd_output_printf(loop->output, "sync: playback wrote %li samples\n", (signed long int)delay1);
 
@@ -7662,14 +7662,14 @@ __again:
       do
         if(!(use_syslog == 0))
         {
-          return_value_snd_strerror$14=snd_strerror(err);
-          syslog(2, "%s start failed: %s\n", play->id, return_value_snd_strerror$14);
+          return_value_snd_strerror_14=snd_strerror(err);
+          syslog(2, "%s start failed: %s\n", play->id, return_value_snd_strerror_14);
         }
 
         else
         {
-          return_value_snd_strerror$15=snd_strerror(err);
-          fprintf(stderr, "%s start failed: %s\n", play->id, return_value_snd_strerror$15);
+          return_value_snd_strerror_15=snd_strerror(err);
+          fprintf(stderr, "%s start failed: %s\n", play->id, return_value_snd_strerror_15);
         }
       while((_Bool)0);
       return err;
@@ -7706,14 +7706,14 @@ __again:
     snd_output_printf(loop->output, "%s: xrun sync ok\n", loop->id);
     if(verbose >= 7)
     {
-      signed int return_value_snd_pcm_delay$16;
-      return_value_snd_pcm_delay$16=snd_pcm_delay(capt->handle, &cdelay);
-      if(!(return_value_snd_pcm_delay$16 >= 0))
+      signed int return_value_snd_pcm_delay_16;
+      return_value_snd_pcm_delay_16=snd_pcm_delay(capt->handle, &cdelay);
+      if(!(return_value_snd_pcm_delay_16 >= 0))
         cdelay = (signed long int)-1;
 
-      signed int return_value_snd_pcm_delay$17;
-      return_value_snd_pcm_delay$17=snd_pcm_delay(play->handle, &pdelay);
-      if(!(return_value_snd_pcm_delay$17 >= 0))
+      signed int return_value_snd_pcm_delay_17;
+      return_value_snd_pcm_delay_17=snd_pcm_delay(play->handle, &pdelay);
+      if(!(return_value_snd_pcm_delay_17 >= 0))
         pdelay = (signed long int)-1;
 
       if(!(play->buf == capt->buf))
